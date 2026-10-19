@@ -61,7 +61,7 @@ export const PT_C2_U08: Lesson[] = [
       {
         heading: "Consonants that give a speaker away",
         body: [
-          "Palatal t and d before an i sound (\"tia\" as tchia, \"dia\" as djia) are the norm in Rio, São Paulo and Minas. Much of the Nordeste keeps them plain, so in João Pessoa or Natal \"dia\" sounds as it's spelt. Pernambuco has its own twist and palatalises after i instead: \"oito\" comes out as oitcho. In Curitiba and much of Santa Catarina final -e stays e, so \"leite quente\" has neither i nor tch. Other Brazilians use that phrase to imitate a curitibano.",
+          "Palatal t and d before an i sound (\"tia\" as tchia, \"dia\" as djia) are the norm in Rio, São Paulo and Minas. Much of the Nordeste keeps them plain, so in João Pessoa or Natal \"dia\" sounds as it's spelled. Pernambuco has its own twist and palatalizes after i instead: \"oito\" comes out as oitcho. In Curitiba and much of Santa Catarina final -e stays e, so \"leite quente\" has neither i nor tch. Other Brazilians use that phrase to imitate a curitibano.",
           "An s at the end of a syllable hisses in São Paulo, most of the South and the Centro-Oeste. It hushes in Rio, Florianópolis and Belém, so \"festa\" becomes fesh-ta and \"mesmo\" becomes mezh-mo. Much of the Nordeste hushes only before t and d: \"gosto\" and \"desde\" with sh, but \"mesmo\" with a plain z.",
           "A syllable-final r (\"porta\", \"mar\") has three main forms. It is a breathy h in Rio, Belo Horizonte and the Nordeste. Interior São Paulo, Paraná, Goiás and southern Minas use the retroflex caipira r, close to American English. São Paulo city and the South often use a tap.",
         ],
@@ -109,8 +109,8 @@ export const PT_C2_U08: Lesson[] = [
         heading: "Tu, sei não and the regional lexicon",
         body: [
           "The second person splits three ways. \"Tu\" with the \"você\" verb (\"tu vai\", \"tu foi\") is everyday speech in Porto Alegre, Recife and casual Rio. \"Tu\" with the full -s forms (\"tu vais\", \"tu foste\") survives in São Luís, Belém and coastal Santa Catarina. São Paulo, Minas and the Centro-Oeste use \"você\", often cut to \"cê\".",
-          "The Nordeste favours negation after the verb alone (\"sei não\", \"quero não\"). It also tends to drop the article before first names: \"Mariana ligou\" in Recife, \"a Mariana ligou\" in São Paulo.",
-          "Everyday things change name too. A tangerine is \"mexerica\" in São Paulo and Minas, \"tangerina\" in Rio and \"bergamota\" in the South. A pumpkin is \"jerimum\" in the Nordeste. A kite is \"pipa\", \"papagaio\" or, in the South, \"pandorga\". A boy in Porto Alegre is a \"guri\", and a mum in Salvador is \"mainha\".",
+          "The Nordeste favors negation after the verb alone (\"sei não\", \"quero não\"). It also tends to drop the article before first names: \"Mariana ligou\" in Recife, \"a Mariana ligou\" in São Paulo.",
+          "Everyday things change name too. A tangerine is \"mexerica\" in São Paulo and Minas, \"tangerina\" in Rio and \"bergamota\" in the South. A pumpkin is \"jerimum\" in the Nordeste. A kite is \"pipa\", \"papagaio\" or, in the South, \"pandorga\". A boy in Porto Alegre is a \"guri\", and a mom in Salvador is \"mainha\".",
         ],
         examples: [
           { es: "Bah, que guri inteligente!", en: "Wow, what a clever boy! (Porto Alegre)" },
@@ -147,14 +147,14 @@ export const PT_C2_U08: Lesson[] = [
               { left: "jerimum", right: "pumpkin (the Nordeste)" },
               { left: "pandorga", right: "kite (the South)" },
               { left: "guri", right: "boy (Rio Grande do Sul)" },
-              { left: "mainha", right: "mum (Bahia)" },
+              { left: "mainha", right: "mom (Bahia)" },
             ],
             explanation: "Elsewhere these are \"mexerica\" or \"tangerina\", \"abóbora\", \"pipa\", \"menino\" or \"garoto\", and \"mãe\" or \"mamãe\".",
           },
         ],
       },
       {
-        heading: "Recognising a speaker: weigh several cues",
+        heading: "Recognizing a speaker: weigh several cues",
         body: [
           "Interjections are the loudest clues and the least reliable, because they travel and get imitated. Listen for \"bah\" and \"tchê\" (Rio Grande do Sul), \"uai\" and \"sô\" (Minas), \"oxe\" (Nordeste), \"égua\" (Pará), \"meu\" (São Paulo) and \"mermão\" (Rio). Vowels and consonants are harder to fake. A speaker who says \"bah\" with a carioca sh may just have lived in Porto Alegre.",
           "So combine features. Open pretonic vowels plus a plain t point north. A hushed s plus a breathy r points to Rio. \"Tu vais\" plus a hushed s fits Florianópolis or Belém. Treat what you hear as information, not caricature: in Brazil accent is bound up with class and migration, the theme of the next lesson.",
@@ -244,7 +244,7 @@ export const PT_C2_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Wow, mate, how [cold] it is today! (Porto Alegre)",
+        en: "Wow, man, how [cold] it is today! (Porto Alegre)",
         sentence: "Bah, tchê, que ___ hoje!",
         answer: "frio",
         explanation: "\"Que frio!\" (how cold!) uses the noun \"frio\". \"Bah\" and \"tchê\" mark a gaúcho.",
@@ -285,7 +285,7 @@ export const PT_C2_U08: Lesson[] = [
           "\"Égua\" and a hushed s in every position",
         ],
         correctIndex: 0,
-        explanation: "Pernambuco keeps t and d plain before i but palatalises after i. The other pairs point to Curitiba, the Minas-São Paulo interior and Belém.",
+        explanation: "Pernambuco keeps t and d plain before i but palatalizes after i. The other pairs point to Curitiba, the Minas-São Paulo interior and Belém.",
       },
       {
         type: "translate",
@@ -317,7 +317,7 @@ export const PT_C2_U08: Lesson[] = [
     level: "PT-C2",
     number: 2,
     title: "Social Variation",
-    summary: "Understand the plural and verb agreement of popular Brazilian speech (os menino, eles chegou), how it tracks schooling and style, and how to describe it without judgement.",
+    summary: "Understand the plural and verb agreement of popular Brazilian speech (os menino, eles chegou), how it tracks schooling and style, and how to describe it without judgment.",
     duration: "18 min",
     kind: "teach",
     sections: [
@@ -326,10 +326,10 @@ export const PT_C2_U08: Lesson[] = [
         body: [
           "In popular Brazilian speech, and in relaxed speech well beyond it, the plural is often marked only once, on the first word of the noun phrase: \"os menino bonito\", \"as coisa que eu comprei\", \"duas casa\". Linguists call this \"marca única\" or \"concordância não redundante\". The norm demands \"concordância redundante\" (or \"plena\"), with the plural on every word: \"os meninos bonitos\".",
           "The pattern is not random. The -s almost always survives on the article or number, and is likelier to drop from the nouns and adjectives after it. Salient plurals resist. A form like \"animais\" or \"corações\", which reshapes the whole ending, keeps its mark far more often than the bare -s of \"coisas\". The plural is never lost, because the first word already carries it.",
-          "For an English speaker the trap is double: hearing \"os menino\" as a slip, and copying it. You'll hear it from taxi drivers and, in fast speech, from professors. Understand it at once, but keep full agreement in your own Portuguese. From a foreigner, a missing -s reads as a learner's error, not as local colour.",
+          "For an English speaker the trap is double: hearing \"os menino\" as a slip, and copying it. You'll hear it from taxi drivers and, in fast speech, from professors. Understand it at once, but keep full agreement in your own Portuguese. From a foreigner, a missing -s reads as a learner's error, not as local color.",
         ],
         examples: [
-          { es: "Os menino tão jogando bola na rua.", en: "The boys are playing football in the street. (popular speech)" },
+          { es: "Os menino tão jogando bola na rua.", en: "The boys are playing soccer in the street. (popular speech)" },
           { es: "Comprei duas blusa na feira.", en: "I bought two blouses at the market. (popular speech)" },
           { es: "As coisa tão cara demais.", en: "Things are way too expensive. (popular speech)" },
           { es: "Os meus amigo de infância moram longe.", en: "My childhood friends live far away. (popular speech)" },
@@ -378,15 +378,15 @@ export const PT_C2_U08: Lesson[] = [
       {
         heading: "Eles chegou, nós vai: agreement on the verb",
         body: [
-          "The same economy reaches the verb. Popular speech often uses the third-person singular with any plural subject: \"eles chegou\", \"os vizinho reclamou\", \"nós vai\". With \"a gente\" the reverse happens: \"a gente vamos\", where the plural meaning pulls the verb into the nós form. Both are strongly stigmatised at school and in hiring, and that is exactly why sociolinguists study them.",
+          "The same economy reaches the verb. Popular speech often uses the third-person singular with any plural subject: \"eles chegou\", \"os vizinho reclamou\", \"nós vai\". With \"a gente\" the reverse happens: \"a gente vamos\", where the plural meaning pulls the verb into the nós form. Both are strongly stigmatized at school and in hiring, and that is exactly why sociolinguists study them.",
           "Salience applies here too. Agreement survives more often where the plural verb sounds very different from the singular. \"Eles é\" is rarer than \"eles fala\", because \"é\" and \"são\" share nothing, while \"fala\" and \"falam\" differ only by a faint nasal. When the subject comes after the verb, agreement drops far more often. \"Chegou as encomendas\" and \"faltou três alunos\" come easily even from educated speakers, because the verb is said before the plural subject appears.",
         ],
         examples: [
           { es: "Eles chegou cedo e foi embora.", en: "They arrived early and left. (popular speech)" },
           { es: "Nós vai na feira amanhã.", en: "We're going to the market tomorrow. (popular speech)" },
           { es: "A gente vamos resolver isso.", en: "We're going to sort this out. (popular speech)" },
-          { es: "Chegou as encomendas que você pediu.", en: "The parcels you ordered have arrived. (relaxed speech, across classes)" },
-          { es: "Chegaram as encomendas que você pediu.", en: "The parcels you ordered have arrived. (norm)" },
+          { es: "Chegou as encomendas que você pediu.", en: "The packages you ordered have arrived. (relaxed speech, across classes)" },
+          { es: "Chegaram as encomendas que você pediu.", en: "The packages you ordered have arrived. (norm)" },
         ],
         checkpoint: [
           {
@@ -407,7 +407,7 @@ export const PT_C2_U08: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The neighbours [complained] about the noise.",
+            en: "The neighbors [complained] about the noise.",
             sentence: "Os vizinhos ___ do barulho.",
             answer: "reclamaram",
             explanation: "A plural subject takes the plural verb in the norm: \"os vizinhos reclamaram\". The popular version is \"os vizinho reclamou\".",
@@ -466,14 +466,14 @@ export const PT_C2_U08: Lesson[] = [
         ],
       },
       {
-        heading: "Describing without judgement",
+        heading: "Describing without judgment",
         body: [
           "To discuss this in Portuguese, replace the moral vocabulary with descriptive terms. Instead of \"errado\" or \"falar mal\", linguists say \"não padrão\", \"estigmatizado\" or \"variedade popular\". Full agreement is the \"forma de prestígio\" or \"variante padrão\". Not every form suits every setting. The point is that a speaker's choice signals the setting, the audience and their identity, not their intelligence.",
           "A practical rule: understand every variety, judge none, and choose the norm when the text is written or the stakes are formal. Correcting a Brazilian's agreement in conversation sounds strange from a foreigner, at best.",
         ],
         examples: [
-          { es: "Essa forma é estigmatizada, mas não é ilógica.", en: "This form is stigmatised, but it isn't illogical." },
-          { es: "Dizer que alguém fala errado é um julgamento, não uma descrição.", en: "Saying someone speaks wrongly is a judgement, not a description." },
+          { es: "Essa forma é estigmatizada, mas não é ilógica.", en: "This form is stigmatized, but it isn't illogical." },
+          { es: "Dizer que alguém fala errado é um julgamento, não uma descrição.", en: "Saying someone speaks wrongly is a judgment, not a description." },
           { es: "A escolha da variante depende do contexto.", en: "The choice of variant depends on the context." },
           { es: "Ninguém fala do mesmo jeito o tempo todo.", en: "Nobody speaks the same way all the time." },
         ],
@@ -499,7 +499,7 @@ export const PT_C2_U08: Lesson[] = [
             sentence: "Numa entrevista de emprego, ela ___ para a norma.",
             answer: "muda",
             altAnswers: ["passa"],
-            explanation: "\"Mudar para\" (or \"passar para\") describes style-shifting along the monitoring continuum, with no judgement implied.",
+            explanation: "\"Mudar para\" (or \"passar para\") describes style-shifting along the monitoring continuum, with no judgment implied.",
           },
         ],
       },
@@ -525,7 +525,7 @@ export const PT_C2_U08: Lesson[] = [
         source: "They arrived early and left.",
         answer: "Eles chegaram cedo e foram embora.",
         altAnswers: ["Elas chegaram cedo e foram embora.", "Chegaram cedo e foram embora."],
-        explanation: "Both verbs agree with \"eles\": \"chegaram\", \"foram\". \"Eles chegou e foi embora\" is the stigmatised popular pattern.",
+        explanation: "Both verbs agree with \"eles\": \"chegaram\", \"foram\". \"Eles chegou e foi embora\" is the stigmatized popular pattern.",
       },
       {
         type: "translate",
@@ -542,7 +542,7 @@ export const PT_C2_U08: Lesson[] = [
           "Amanhã nós vamos à feira.",
           "Amanhã a gente vai à feira.",
         ],
-        explanation: "Use \"nós vamos\" or \"a gente vai\". The crossed forms \"nós vai\" and \"a gente vamos\" are among the most stigmatised features of popular speech.",
+        explanation: "Use \"nós vamos\" or \"a gente vai\". The crossed forms \"nós vai\" and \"a gente vamos\" are among the most stigmatized features of popular speech.",
       },
       {
         type: "fill-blank",
@@ -577,9 +577,9 @@ export const PT_C2_U08: Lesson[] = [
         audio: "Os menino da rua de baixo jogam bola todo dia.",
         question: "What does it mean?",
         options: [
-          "The boys from the street below play football every day.",
-          "The boy from the street below plays football every day.",
-          "The boys from the street below played football all day.",
+          "The boys from the street below play soccer every day.",
+          "The boy from the street below plays soccer every day.",
+          "The boys from the street below played soccer all day.",
           "The boy from downstairs plays ball all day.",
         ],
         correctIndex: 0,
@@ -631,7 +631,7 @@ export const PT_C2_U08: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "variante padrão", right: "the standard variant" },
-          { left: "forma estigmatizada", right: "a stigmatised form" },
+          { left: "forma estigmatizada", right: "a stigmatized form" },
           { left: "hipercorreção", right: "hypercorrection" },
           { left: "escolaridade", right: "years of schooling" },
           { left: "marca única", right: "the plural marked only once" },
@@ -651,7 +651,7 @@ export const PT_C2_U08: Lesson[] = [
       {
         heading: "Norma padrão and norma culta",
         body: [
-          "Brazilian linguists separate two things English lumps together as 'the standard'. The \"norma padrão\" is the prescriptive ideal codified in grammars and usage manuals, modelled largely on nineteenth-century literary usage, much of it from Portugal. The \"norma culta\" is how educated urban Brazilians actually speak and write. The NURC project documented it from the 1970s by recording university graduates in five state capitals.",
+          "Brazilian linguists separate two things English lumps together as 'the standard'. The \"norma padrão\" is the prescriptive ideal codified in grammars and usage manuals, modeled largely on nineteenth-century literary usage, much of it from Portugal. The \"norma culta\" is how educated urban Brazilians actually speak and write. The NURC project documented it from the 1970s by recording university graduates in five state capitals.",
           "The two diverge constantly. Judges, journalists and professors say \"assisti o filme\", \"me empresta\" and \"tem muita gente\", where the padrão demands \"assisti ao filme\", \"empresta-me\" and \"há muita gente\". If the culta counts as wrong, then the country's most educated speakers are wrong about their own language. This is why linguists treat the padrão as a reference, not a description.",
           "The labels themselves are contested. \"Culto\" means educated, and the term implies that everyone else lacks culture. Marcos Bagno and others prefer \"variedades prestigiadas\". Resist translating \"norma\" as rule: in this debate it can mean what is normal, not only what is prescribed.",
         ],
@@ -680,7 +680,7 @@ export const PT_C2_U08: Lesson[] = [
             sentence: "O NURC gravou ___ em cinco capitais.",
             answer: "falantes com formação universitária",
             altAnswers: ["falantes com curso superior", "falantes de nível superior", "falantes com ensino superior"],
-            explanation: "\"Falantes com formação universitária\" or \"com curso superior\": the norma culta is defined by its speakers, people with higher education in urban centres.",
+            explanation: "\"Falantes com formação universitária\" or \"com curso superior\": the norma culta is defined by its speakers, people with higher education in urban centers.",
           },
           {
             type: "multiple-choice",
@@ -703,7 +703,7 @@ export const PT_C2_U08: Lesson[] = [
           { es: "Dizer que brasileiro não sabe português é repetir um mito.", en: "Saying Brazilians don't know Portuguese is repeating a myth." },
           { es: "A palavra obrigar vem do latim obligare.", en: "The word 'obrigar' comes from Latin 'obligare'." },
           { es: "Essa forma não está errada; é inadequada numa entrevista de emprego.", en: "That form isn't wrong; it's inappropriate in a job interview." },
-          { es: "A variante estigmatizada costuma ser a dos mais pobres.", en: "The stigmatised variant tends to be the one the poorest speak." },
+          { es: "A variante estigmatizada costuma ser a dos mais pobres.", en: "The stigmatized variant tends to be the one the poorest speak." },
           { es: "Corrigir alguém em público raramente ensina e quase sempre humilha.", en: "Correcting someone in public rarely teaches and almost always humiliates." },
         ],
         checkpoint: [
@@ -719,11 +719,11 @@ export const PT_C2_U08: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Linguistic prejudice falls on [stigmatised variants].",
+            en: "Linguistic prejudice falls on [stigmatized variants].",
             sentence: "O preconceito linguístico recai sobre as ___.",
             answer: "variantes estigmatizadas",
             altAnswers: ["variedades estigmatizadas"],
-            explanation: "\"Variantes estigmatizadas\": the adjective agrees in the feminine plural. \"Recair sobre\" (to fall on) is the usual verb for where a judgement lands.",
+            explanation: "\"Variantes estigmatizadas\": the adjective agrees in the feminine plural. \"Recair sobre\" (to fall on) is the usual verb for where a judgment lands.",
           },
           {
             type: "listen-choose",
@@ -739,15 +739,15 @@ export const PT_C2_U08: Lesson[] = [
         heading: "The 2011 textbook row and the debate today",
         body: [
           "In 2011 the textbook \"Por uma vida melhor\", written for adult education and approved by the Ministry of Education, told students they could say \"os livro\". It added that in some situations they risked linguistic prejudice. Headlines claimed the MEC was teaching people to speak wrongly, and columnists and politicians piled in. The episode is still cited whenever the norm is debated.",
-          "Linguists answered that the chapter taught the standard plural too, and that describing a variety is not recommending it everywhere. Defenders of the norm replied that poorer students need the prestige variety most, since exams, courts and employers demand it. Both sides agree that school must teach the norm; they disagree about how to treat the variety the pupil brings from home.",
+          "Linguists answered that the chapter taught the standard plural too, and that describing a variety is not recommending it everywhere. Defenders of the norm replied that poorer students need the prestige variety most, since exams, courts and employers demand it. Both sides agree that school must teach the norm; they disagree about how to treat the variety the student brings from home.",
           "In Portuguese debates, linguists talk of \"ampliar o repertório\" (widening the repertoire) rather than \"corrigir\", and accuse the norm of being used to \"discriminar\". A \"purista\" resists all change, and \"gramatiqueiro\" is the pejorative for a pedantic grammarian. Purists accuse linguists of wanting schools to \"deixar de ensinar a norma\" (stop teaching it), but almost none do.",
         ],
         examples: [
           { es: "O livro foi acusado de ensinar a falar errado.", en: "The book was accused of teaching people to speak incorrectly." },
-          { es: "A escola deve ensinar a norma padrão sem estigmatizar a fala do aluno.", en: "Schools should teach the standard without stigmatising the pupil's speech." },
+          { es: "A escola deve ensinar a norma padrão sem estigmatizar a fala do aluno.", en: "Schools should teach the standard without stigmatizing the student's speech." },
           { es: "Descrever uma variedade não é recomendá-la em qualquer situação.", en: "Describing a variety isn't recommending it in every situation." },
           { es: "Quem domina a norma tem mais chances num concurso público.", en: "Whoever masters the norm stands a better chance in a civil-service exam." },
-          { es: "O objetivo é ampliar o repertório do aluno, não apagar a língua de casa.", en: "The aim is to widen the pupil's repertoire, not erase the language of home." },
+          { es: "O objetivo é ampliar o repertório do aluno, não apagar a língua de casa.", en: "The aim is to widen the student's repertoire, not erase the language of home." },
           { es: "Os puristas viram na polêmica a prova de que a língua estava sendo destruída.", en: "Purists saw the controversy as proof that the language was being destroyed." },
         ],
         checkpoint: [
@@ -782,7 +782,7 @@ export const PT_C2_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Calling a variety wrong is a social judgement, not a linguistic one.",
+        source: "Calling a variety wrong is a social judgment, not a linguistic one.",
         answer: "Chamar uma variedade de errada é um julgamento social, não linguístico.",
         altAnswers: ["Chamar uma variedade de errada é um juízo social, não linguístico.", "Chamar uma variedade de errada é um julgamento social, e não linguístico.", "Dizer que uma variedade é errada é um julgamento social, não linguístico.", "Dizer que uma variedade está errada é um julgamento social, não linguístico."],
         explanation: "\"Chamar algo de\" + adjective, with agreement: \"de errada\", because \"variedade\" is feminine. English \"one\" in \"a linguistic one\" is simply left out in Portuguese.",
@@ -847,9 +847,9 @@ export const PT_C2_U08: Lesson[] = [
       {
         type: "speak",
         text: "Não está errado; é uma variante estigmatizada.",
-        prompt: "Say it in Portuguese: It isn't wrong; it's a stigmatised variant.",
+        prompt: "Say it in Portuguese: It isn't wrong; it's a stigmatized variant.",
         tip: "Both t's before i in \"estigmatizada\" sound like ch: es-tchig-ma-tchi-ZA-da.",
-        explanation: "\"Variante estigmatizada\" puts the problem in social judgement, not in the grammar of the form.",
+        explanation: "\"Variante estigmatizada\" puts the problem in social judgment, not in the grammar of the form.",
       },
       {
         type: "matching",
@@ -889,7 +889,7 @@ export const PT_C2_U08: Lesson[] = [
         ],
         examples: [
           { es: "Vc vem hj? Tô te esperando.", en: "Are you coming today? I'm waiting for you." },
-          { es: "Blz, td certo, a gente se vê no fds.", en: "Cool, all good, see you at the weekend." },
+          { es: "Blz, td certo, a gente se vê no fds.", en: "Cool, all good, see you on the weekend." },
           { es: "Pq vc n respondeu minha msg?", en: "Why didn't you answer my message?" },
           { es: "Vlw, tmj!", en: "Thanks, I've got your back!" },
           { es: "Sdds de vcs, bjs!", en: "Miss you guys, love!" },
@@ -912,7 +912,7 @@ export const PT_C2_U08: Lesson[] = [
             sentence: "Vlw, ___!",
             answer: "tmj",
             altAnswers: ["tamo junto", "estamos juntos"],
-            explanation: "\"Tmj\" is \"tamo junto\", the spoken \"estamos juntos\": solidarity between friends, often after a favour.",
+            explanation: "\"Tmj\" is \"tamo junto\", the spoken \"estamos juntos\": solidarity between friends, often after a favor.",
           },
           {
             type: "matching",
@@ -932,7 +932,7 @@ export const PT_C2_U08: Lesson[] = [
         heading: "Kkkk, rsrs and the tone of a text",
         body: [
           "Brazilians laugh in text with \"kkkk\": the letter k is said \"cá\", so a row of them spells a laugh. More k's mean more laughter, and capitals (\"KKKKKKK\") mean you can't breathe. \"Hahaha\" is understood but sounds neutral or a little foreign. \"Rsrs\", from \"risos\", is gentler and reads as older. A lone \"rs\" is a polite smile that can soften a criticism or make it passive-aggressive. A short \"kkk\" after a complaint is usually nervous, not amused.",
-          "Punctuation carries more tone than in English. A bare \"Tá.\" or \"Ok.\" with a full stop sounds cold or annoyed; the warm versions are \"tá bom!\", \"blz!\", \"okk\" or an emoji. Stretched letters stretch the voice (\"oiiii\", \"simmm\", \"nãooo\"), and caps lock is shouting.",
+          "Punctuation carries more tone than in English. A bare \"Tá.\" or \"Ok.\" with a period sounds cold or annoyed; the warm versions are \"tá bom!\", \"blz!\", \"okk\" or an emoji. Stretched letters stretch the voice (\"oiiii\", \"simmm\", \"nãooo\"), and caps lock is shouting.",
           "Emoji follow generational codes. The praying hands mean thanks or please as often as prayer. Younger users see the crying-laughing face as something their parents send and use the skull instead, as in \"morri\" (I died laughing). A thumbs-up sent alone can feel like a door closing.",
         ],
         examples: [
@@ -1007,9 +1007,9 @@ export const PT_C2_U08: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: That meme went viral at the weekend.",
+            prompt: "Put the words in order to say: That meme went viral on the weekend.",
             words: ["Esse", "meme", "viralizou", "no", "fim", "de", "semana."],
-            translation: "That meme went viral at the weekend.",
+            translation: "That meme went viral on the weekend.",
             altOrders: [["No", "fim", "de", "semana", "esse", "meme", "viralizou."]],
             explanation: "\"Viralizar\" is a regular -ar verb, so its past is \"viralizou\". \"Meme\" is masculine: \"esse meme\".",
           },
@@ -1074,7 +1074,7 @@ export const PT_C2_U08: Lesson[] = [
         question: "A colleague asks if you can swap shifts on Saturday, and you're happy to. Which reply sounds friendly rather than curt?",
         options: ["Claro, sem problema!", "Tá.", "Ok.", "Fazer o quê."],
         correctIndex: 0,
-        explanation: "A bare \"Tá.\" or \"Ok.\" with a full stop reads as cold, and \"Fazer o quê.\" (what can you do) sounds resigned. \"Claro, sem problema!\" carries the warmth.",
+        explanation: "A bare \"Tá.\" or \"Ok.\" with a period reads as cold, and \"Fazer o quê.\" (what can you do) sounds resigned. \"Claro, sem problema!\" carries the warmth.",
       },
       {
         type: "multiple-choice",
@@ -1128,8 +1128,8 @@ export const PT_C2_U08: Lesson[] = [
       {
         heading: "A gente: a pronoun still being born",
         body: [
-          "You've used \"a gente\" since A1. What's new at C2 is how it got there. \"Gente\" meant people, and \"a gente\" (roughly 'the folks, me included') slid into a first-person plural pronoun, a textbook case of grammaticalisation. Studies of Rio speech recorded decades apart show it overtaking \"nós\" in conversation, led by younger urban speakers. In formal writing \"nós\" still holds.",
-          "Because it began as a noun, \"a gente\" keeps the third-person singular verb (\"a gente vai\", \"a gente se vê\"), but meaning pulls against form. The possessive is usually \"nosso\", not \"seu\" (\"a gente vendeu nosso carro\"). An adjective tends to follow the real speakers: two women say \"a gente ficou exausta\", and a mixed group says \"exausto\" or even \"exaustos\". The hybrid \"a gente fomos\" is common in some communities but heavily stigmatised: recognise it, don't produce it.",
+          "You've used \"a gente\" since A1. What's new at C2 is how it got there. \"Gente\" meant people, and \"a gente\" (roughly 'the folks, me included') slid into a first-person plural pronoun, a textbook case of grammaticalization. Studies of Rio speech recorded decades apart show it overtaking \"nós\" in conversation, led by younger urban speakers. In formal writing \"nós\" still holds.",
+          "Because it began as a noun, \"a gente\" keeps the third-person singular verb (\"a gente vai\", \"a gente se vê\"), but meaning pulls against form. The possessive is usually \"nosso\", not \"seu\" (\"a gente vendeu nosso carro\"). An adjective tends to follow the real speakers: two women say \"a gente ficou exausta\", and a mixed group says \"exausto\" or even \"exaustos\". The hybrid \"a gente fomos\" is common in some communities but heavily stigmatized: recognize it, don't produce it.",
           "Speakers who say \"a gente\" at the dinner table switch to \"nós\" in an interview or a report, so the choice is about register, not correctness.",
         ],
         examples: [
@@ -1137,7 +1137,7 @@ export const PT_C2_U08: Lesson[] = [
           { es: "A gente perdeu nosso voo para Recife.", en: "We missed our flight to Recife." },
           { es: "Eu e a Bia? A gente ficou exausta depois da trilha.", en: "Me and Bia? We were wiped out after the hike." },
           { es: "Quando a gente era criança, a gente brincava na rua.", en: "When we were kids, we used to play in the street." },
-          { es: "Nós, moradores do bairro, exigimos uma resposta da prefeitura.", en: "We, the residents of this neighbourhood, demand an answer from City Hall." },
+          { es: "Nós, moradores do bairro, exigimos uma resposta da prefeitura.", en: "We, the residents of this neighborhood, demand an answer from City Hall." },
         ],
         checkpoint: [
           {
@@ -1154,7 +1154,7 @@ export const PT_C2_U08: Lesson[] = [
             question: "You and a female colleague are texting a friend after a double shift. Which sentence is natural and acceptable?",
             options: ["A gente está exausta.", "A gente estamos exaustas.", "Nós está exausta.", "A gente estão exaustas."],
             correctIndex: 0,
-            explanation: "\"A gente\" takes the third-person singular verb, \"está\", and the adjective follows the real speakers, two women, so \"exausta\". \"A gente estamos\" is a stigmatised hybrid.",
+            explanation: "\"A gente\" takes the third-person singular verb, \"está\", and the adjective follows the real speakers, two women, so \"exausta\". \"A gente estamos\" is a stigmatized hybrid.",
           },
           {
             type: "fill-blank",
@@ -1171,13 +1171,13 @@ export const PT_C2_U08: Lesson[] = [
         heading: "The vanishing o: empty objects and \"ele\"",
         body: [
           "The third-person clitic \"o / a / os / as\" has nearly vanished from spoken Brazilian Portuguese. Children rarely produce it before school teaches it, so for many Brazilians it is a learned, written form, almost a second grammar. Two strategies have replaced it. With things, the object simply disappears: \"Cadê o bolo? Eu comi.\" English needs 'it'; Portuguese finds the gap perfectly clear.",
-          "With people, the subject pronoun moves into object position (\"eu vi ele\", \"chama ela\"), as you saw at A2. The pattern is the C2 point: people favour \"ele\", things favour the empty object, and \"o\" survives in the press, in formal speech and after infinitives in writing (\"vou ajudá-lo\").",
+          "With people, the subject pronoun moves into object position (\"eu vi ele\", \"chama ela\"), as you saw at A2. The pattern is the C2 point: people favor \"ele\", things favor the empty object, and \"o\" survives in the press, in formal speech and after infinitives in writing (\"vou ajudá-lo\").",
           "The rest of the system is moving too. With \"você\" as the default you, \"te\" has become its object (\"você sabe que eu te adoro\"), mixing persons the norm keeps apart. In much of the Nordeste \"lhe\" is a polite you, even as a direct object (\"eu lhe vi na feira\").",
         ],
         examples: [
           { es: "Você viu meu carregador? Vi, deixei na mesa.", en: "Have you seen my charger? Yes, I left it on the table." },
           { es: "Comprei o livro, mas ainda não li.", en: "I bought the book, but I haven't read it yet." },
-          { es: "Encontrei a Marina no metrô e convidei ela para a festa.", en: "I ran into Marina on the metro and invited her to the party." },
+          { es: "Encontrei a Marina no metrô e convidei ela para a festa.", en: "I ran into Marina on the subway and invited her to the party." },
           { es: "O relatório foi enviado ontem, e a diretoria já o analisou.", en: "The report was sent yesterday, and the board has already reviewed it." },
           { es: "Você sabe que eu te adoro.", en: "You know I adore you." },
           { es: "Eu lhe vi na feira domingo.", en: "I saw you at the market on Sunday. (Nordeste)" },
@@ -1214,8 +1214,8 @@ export const PT_C2_U08: Lesson[] = [
         heading: "Anglicisms and the new verbs",
         body: [
           "English is now the main source of new vocabulary. Some loans stay raw, especially in tech and in corporate São Paulo: \"feedback\", \"home office\", \"deadline\", \"o print\". Others become verbs, and new verbs join the \"-ar\" class, the only one still open: \"deletar\", \"printar\", \"postar\", \"linkar\", \"zipar\". They conjugate like \"falar\": \"deletei\", \"ela printou a conversa\".",
-          "A few take \"-ear\" instead and then behave like \"passear\": \"eu stalkeio\", \"ela stalkeia\", \"nós stalkeamos\". Pronunciation naturalises them too. Print sounds like 'prin-tchi', and \"stalkear\" starts with an 'is' sound, because a Portuguese syllable can't begin with s plus a consonant.",
-          "Semantic loans are subtler: an old word takes on an English meaning. \"Realizar\" is used for 'realise', where the norm says \"perceber\" or \"se dar conta\", and \"aplicar para uma vaga\" stands in for \"candidatar-se a uma vaga\". These are spreading among younger speakers, but many readers still see them as mistranslations. In speech and online, raw loans and new verbs are fine. In formal writing prefer \"apagar\", \"captura de tela\" and \"avaliação\" or \"retorno\".",
+          "A few take \"-ear\" instead and then behave like \"passear\": \"eu stalkeio\", \"ela stalkeia\", \"nós stalkeamos\". Pronunciation naturalizes them too. Print sounds like 'prin-tchi', and \"stalkear\" starts with an 'is' sound, because a Portuguese syllable can't begin with s plus a consonant.",
+          "Semantic loans are subtler: an old word takes on an English meaning. \"Realizar\" is used for 'realize', where the norm says \"perceber\" or \"se dar conta\", and \"aplicar para uma vaga\" stands in for \"candidatar-se a uma vaga\". These are spreading among younger speakers, but many readers still see them as mistranslations. In speech and online, raw loans and new verbs are fine. In formal writing prefer \"apagar\", \"captura de tela\" and \"avaliação\" or \"retorno\".",
         ],
         examples: [
           { es: "Deleta essa foto antes que alguém veja!", en: "Delete that photo before anyone sees it!" },
@@ -1223,7 +1223,7 @@ export const PT_C2_U08: Lesson[] = [
           { es: "Para de stalkear o perfil do seu ex.", en: "Stop stalking your ex's profile." },
           { es: "Vou te dar um feedback sobre a apresentação até sexta.", en: "I'll give you some feedback on the presentation by Friday." },
           { es: "A equipe faz home office às sextas.", en: "The team works from home on Fridays." },
-          { es: "Só depois percebi que tinha apagado o arquivo errado.", en: "Only later did I realise I'd deleted the wrong file." },
+          { es: "Só depois percebi que tinha apagado o arquivo errado.", en: "Only later did I realize I'd deleted the wrong file." },
         ],
         checkpoint: [
           {
@@ -1295,10 +1295,10 @@ export const PT_C2_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I realised I had forgotten my phone.",
+        source: "I realized I had forgotten my phone.",
         answer: "Percebi que tinha esquecido o celular.",
         altAnswers: ["Eu percebi que tinha esquecido o celular.", "Percebi que tinha esquecido meu celular.", "Eu percebi que tinha esquecido meu celular.", "Percebi que tinha esquecido o meu celular.", "Me dei conta de que tinha esquecido o celular.", "Eu me dei conta de que tinha esquecido o celular.", "Percebi que havia esquecido o celular.", "Me dei conta de que tinha esquecido meu celular."],
-        explanation: "Realise is \"perceber\" or \"se dar conta\". \"Realizei que...\" is a semantic loan from English that many readers still see as a mistake.",
+        explanation: "Realize is \"perceber\" or \"se dar conta\". \"Realizei que...\" is a semantic loan from English that many readers still see as a mistake.",
       },
       {
         type: "fill-blank",
@@ -1425,7 +1425,7 @@ export const PT_C2_U08: Lesson[] = [
           { es: "Boas-vindas a todas e a todos!", en: "Welcome, everyone!" },
           { es: "Quem se inscreveu vai receber um e-mail.", en: "Anyone who signed up will get an email." },
           { es: "O corpo docente votou contra a proposta.", en: "The teaching staff voted against the proposal." },
-          { es: "A pessoa candidata deve enviar o currículo até sexta-feira.", en: "Applicants must send their CV by Friday." },
+          { es: "A pessoa candidata deve enviar o currículo até sexta-feira.", en: "Applicants must send their resume by Friday." },
           { es: "A equipe de enfermagem trabalhou a noite toda.", en: "The nursing team worked all night." },
         ],
         checkpoint: [
@@ -1569,7 +1569,7 @@ export const PT_C2_U08: Lesson[] = [
         sentence: "___ aprovou o novo calendário.",
         answer: "O corpo docente",
         altAnswers: ["A equipe docente"],
-        explanation: "A collective noun takes a singular verb (\"aprovou\") and sidesteps \"os professores\", one of the inclusive guides' favourite strategies.",
+        explanation: "A collective noun takes a singular verb (\"aprovou\") and sidesteps \"os professores\", one of the inclusive guides' favorite strategies.",
       },
       {
         type: "dictation",
@@ -1601,7 +1601,7 @@ export const PT_C2_U08: Lesson[] = [
         type: "speak",
         text: "Na minha opinião, a linguagem inclusiva não precisa de formas novas.",
         prompt: "Say it in Portuguese: In my opinion, inclusive language doesn't need new forms.",
-        tip: "Nasalise the in in inclusiva and keep the g in linguagem soft, like the s in measure.",
+        tip: "Nasalize the in in inclusiva and keep the g in linguagem soft, like the s in measure.",
         explanation: "\"Precisar de\" keeps its preposition before a noun. Here the speaker takes a position, so \"na minha opinião\" marks it as their own view.",
       },
     ],
@@ -1643,9 +1643,9 @@ export const PT_C2_U08: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A manager from Belo Horizonte ends a meeting with \"A gente se fala amanhã\". How would a sociolinguist label it?",
-            options: ["Spoken standard used across Brazil", "A regional feature of Minas Gerais", "A socially stigmatised form", "Internet usage"],
+            options: ["Spoken standard used across Brazil", "A regional feature of Minas Gerais", "A socially stigmatized form", "Internet usage"],
             correctIndex: 0,
-            explanation: "\"A gente\" with the ele form and the pronoun before the verb are educated speech everywhere in Brazil. Nothing in the sentence is mineiro, stigmatised or screen-only.",
+            explanation: "\"A gente\" with the ele form and the pronoun before the verb are educated speech everywhere in Brazil. Nothing in the sentence is mineiro, stigmatized or screen-only.",
           },
           {
             type: "fill-blank",
@@ -1697,7 +1697,7 @@ export const PT_C2_U08: Lesson[] = [
             sentence: "___ resolver isso.",
             answer: "Nós vamos",
             altAnswers: ["Vamos"],
-            explanation: "With \"nós\" the verb takes -mos: \"nós vamos\". \"Nós vai\" is the stigmatised social form, and \"a gente vai\" is the spoken standard.",
+            explanation: "With \"nós\" the verb takes -mos: \"nós vamos\". \"Nós vai\" is the stigmatized social form, and \"a gente vai\" is the spoken standard.",
           },
         ],
       },
@@ -1705,7 +1705,7 @@ export const PT_C2_U08: Lesson[] = [
         heading: "Screen-only: internet usage",
         body: [
           "Internet usage is written, never spoken, and that is the test: nobody says \"vc\", \"pq\", \"tb\", \"blz\" or \"sdds\" aloud. They are spellings, just as \"kkkk\" and \"rsrs\" are spellings of laughter. Some mirror real speech (\"vc\" sits close to the spoken \"cê\"), but the abbreviation itself lives only on a screen.",
-          "These spellings follow their own etiquette, not the norm. \"Kkkk\" is the default laugh, \"rsrs\" reads as older or politely amused, and a bare \"ok.\" with a full stop can sound cold. Writing \"você\" in full in a family group is not wrong, just a touch formal. \"Vc\" in an email to a client is a register slip rather than a spelling error.",
+          "These spellings follow their own etiquette, not the norm. \"Kkkk\" is the default laugh, \"rsrs\" reads as older or politely amused, and a bare \"ok.\" with a period can sound cold. Writing \"você\" in full in a family group is not wrong, just a touch formal. \"Vc\" in an email to a client is a register slip rather than a spelling error.",
           "Real messages stack layers. \"Cê vai na praia? kkkk\" combines three things: a spoken reduction spelled out, the spoken standard \"ir na\", and an internet laugh. That's three labels in five words, and none of them is a mistake in its place.",
         ],
         examples: [
@@ -2138,7 +2138,7 @@ export const PT_C2_U08: Lesson[] = [
           "Keep the thesis arguable. \"O português está mudando\" is a truism nobody disputes. \"Corrigir a fala do aluno ensina pouco sobre escrita\" is a claim someone could challenge, and that is what makes it worth defending.",
         ],
         examples: [
-          { es: "Basta passar uma tarde numa escola pública para perceber que a gramática do recreio não é a da prova.", en: "Spend one afternoon in a state school and you'll see that the grammar of the playground isn't the grammar of the exam." },
+          { es: "Basta passar uma tarde numa escola pública para perceber que a gramática do recreio não é a da prova.", en: "Spend one afternoon in a public school and you'll see that the grammar of the playground isn't the grammar of the exam." },
           { es: "A pergunta não é se a forma \"a gente\" é certa, mas em que situações ela é adequada.", en: "The question isn't whether \"a gente\" is right, but in which situations it's appropriate." },
           { es: "Este texto sustenta que o combate ao preconceito linguístico não implica abandonar o ensino da norma padrão.", en: "This essay argues that fighting linguistic prejudice doesn't mean giving up teaching the standard." },
           { es: "Defende-se aqui que os anglicismos revelam mais sobre o prestígio do inglês do que sobre a fragilidade do português.", en: "The argument here is that anglicisms reveal more about the prestige of English than about the fragility of Portuguese." },
@@ -2179,7 +2179,7 @@ export const PT_C2_U08: Lesson[] = [
               "Os anglicismos são errados e destroem o português.",
             ],
             correctIndex: 0,
-            explanation: "A concrete scene the reader recognises makes the best hook. The others are the classic cliché, a dictionary definition, and a \"certo/errado\" verdict passed off as a thesis.",
+            explanation: "A concrete scene the reader recognizes makes the best hook. The others are the classic cliché, a dictionary definition, and a \"certo/errado\" verdict passed off as a thesis.",
           },
         ],
       },
@@ -2232,7 +2232,7 @@ export const PT_C2_U08: Lesson[] = [
               "Standard agreement is widely attested in spontaneous speech.",
             ],
             correctIndex: 0,
-            explanation: "\"Concordância variável\" is the neutral, descriptive term for forms like \"os menino\". \"Atestada\" means attested, the vocabulary of evidence rather than judgement.",
+            explanation: "\"Concordância variável\" is the neutral, descriptive term for forms like \"os menino\". \"Atestada\" means attested, the vocabulary of evidence rather than judgment.",
           },
         ],
       },
@@ -2400,7 +2400,7 @@ export const PT_C2_U08: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "Basta abrir qualquer rede social para...", right: "A hook: a scene the reader recognises" },
+          { left: "Basta abrir qualquer rede social para...", right: "A hook: a scene the reader recognizes" },
           { left: "Este texto sustenta que...", right: "The thesis" },
           { left: "Como mostram os estudos sociolinguísticos...", right: "Evidence the writer accepts" },
           { left: "É compreensível que...", right: "A concession" },
@@ -2440,11 +2440,11 @@ export const PT_C2_U08: Lesson[] = [
         body: [
           "Start with the regional map. In Rio the \"s\" at the end of a syllable sounds like sh or zh (\"festa\", \"mesmo\"). The interior of São Paulo has the curled caipira \"r\" (\"porta\"). Recife has \"oxe\" and \"visse\", and Porto Alegre has \"bah\" and \"tchê\". The same root is \"mandioca\", \"aipim\" or \"macaxeira\" depending on where you buy it.",
           "Social variation cuts across regions. Popular speech marks the plural once, on the first word. \"Os menino chegou\" carries the same information as \"os meninos chegaram\", because \"os\" already says plural. Describing that rule is linguistics. Calling it laziness is what Marcos Bagno named \"preconceito linguístico\".",
-          "For each feature, name its type and the context where it goes unnoticed. In speech, \"a gente vai\" is normal in every class and region. \"Nós vai\" points to a particular social group and is stigmatised, however systematic it is. In written analysis, say \"variante\" or \"forma não padrão\", not \"erro\".",
+          "For each feature, name its type and the context where it goes unnoticed. In speech, \"a gente vai\" is normal in every class and region. \"Nós vai\" points to a particular social group and is stigmatized, however systematic it is. In written analysis, say \"variante\" or \"forma não padrão\", not \"erro\".",
         ],
         examples: [
           { es: "Oxe, menino, você tá doido, é?", en: "Hey, kid, have you lost your mind? (Nordeste)" },
-          { es: "Bah, que frio, tchê!", en: "Wow, it's cold, mate! (Rio Grande do Sul)" },
+          { es: "Bah, que frio, tchê!", en: "Wow, it's cold, man! (Rio Grande do Sul)" },
           { es: "Lá em casa a gente chama de aipim; minha sogra chama de macaxeira.", en: "At home we call it aipim; my mother-in-law calls it macaxeira." },
           { es: "Me empresta o carregador, visse?", en: "Lend me the charger, OK? (Recife)" },
           { es: "Os menino chegou cedo hoje.", en: "The boys got here early today. (popular speech, plural marked once)" },
@@ -2505,14 +2505,14 @@ export const PT_C2_U08: Lesson[] = [
           { es: "Me disseram que o prazo acabou.", en: "They told me the deadline's passed. (speech, norma culta)" },
           { es: "Disseram-me que o prazo se encerrou.", en: "I was told the deadline had closed. (formal writing, norma padrão)" },
           { es: "Tinha muita gente na fila.", en: "There were loads of people in the line. (speech)" },
-          { es: "Havia muitas pessoas na fila.", en: "There were many people in the queue. (formal writing)" },
+          { es: "Havia muitas pessoas na fila.", en: "There were many people in line. (formal writing)" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "They told me the meeting was cancelled. (casual speech)",
+            source: "They told me the meeting was canceled. (casual speech)",
             answer: "Me disseram que a reunião foi cancelada.",
             altAnswers: [
               "Me falaram que a reunião foi cancelada.",
@@ -2553,9 +2553,9 @@ export const PT_C2_U08: Lesson[] = [
       {
         heading: "Changes in progress and the gender debate",
         body: [
-          "Some changes are almost complete in speech. \"A gente\" has pushed \"nós\" towards formal contexts. The object \"o\" has given way to \"ele\" (\"eu vi ele\") or to nothing at all (\"O livro? Já comprei.\"). Writing keeps the older forms longer, so the same person says \"eu vi ele\" and writes \"eu o vi\".",
+          "Some changes are almost complete in speech. \"A gente\" has pushed \"nós\" toward formal contexts. The object \"o\" has given way to \"ele\" (\"eu vi ele\") or to nothing at all (\"O livro? Já comprei.\"). Writing keeps the older forms longer, so the same person says \"eu vi ele\" and writes \"eu o vi\".",
           "Verbs borrowed from English join the first conjugation, the only productive one: \"deletar\", \"printar\", \"stalkear\". They conjugate like \"falar\" (\"printei\", \"deletou\"). A purist may prefer \"apagar\", but \"deletar\" is already in the dictionaries.",
-          "Gender-neutral forms (\"todes\", \"elu\", \"amigues\") are a live debate. Supporters argue for including non-binary people; critics point to the norm and to readability. Institutional texts often take a third route that stays inside the norm: \"todas e todos\", or a collective noun such as \"as pessoas\" or \"a equipe\". Report the positions, and take a side only when asked.",
+          "Gender-neutral forms (\"todes\", \"elu\", \"amigues\") are a live debate. Supporters argue for including nonbinary people; critics point to the norm and to readability. Institutional texts often take a third route that stays inside the norm: \"todas e todos\", or a collective noun such as \"as pessoas\" or \"a equipe\". Report the positions, and take a side only when asked.",
         ],
         examples: [
           { es: "Cadê o livro? Eu deixei ele na mesa.", en: "Where's the book? I left it on the table. (speech)" },
@@ -2642,7 +2642,7 @@ export const PT_C2_U08: Lesson[] = [
         sentence: "Eu ___ a foto sem querer.",
         answer: "deletei",
         altAnswers: ["apaguei"],
-        explanation: "\"Deletar\" conjugates like \"falar\": \"deletei\". \"Apaguei\" is the older native verb, and both are standard today.",
+        explanation: "\"Deletar\" conjugates like \"falar\": \"deletei\". \"Apaguei\" is the older native verb. Both are common, but formal writing still prefers \"apaguei\".",
       },
       {
         type: "multiple-choice",

@@ -10,7 +10,7 @@ export const FR_B2_U20_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Exclamations",
-    summary: "React to photos and news with the right exclamative: qu'est-ce que, comme, que, ce que, quel and tellement.",
+    summary: "React to photos and news with the right exclamative: \"qu'est-ce que\", \"comme\", \"que\", \"ce que\", \"quel\" and \"tellement\".",
     duration: "12 min",
     sections: [
       {
@@ -173,13 +173,13 @@ export const FR_B2_U20_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Emphasis in Conversation",
-    summary: "Disagree and correct people politely or firmly with c'est... qui / que, ce n'est pas... c'est..., and dislocation.",
+    summary: "Disagree and correct people politely or firmly with \"c'est... qui\" / \"que\", \"ce n'est pas... c'est...\", and dislocation.",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: correcting with clefts and dislocation",
         body: [
-          "To correct a wrong detail, put the right one in a cleft: \"Non, c'est Julie qui a appelé, pas Marc.\" \"Ce n'est pas lundi que je pars, c'est mardi.\" Keep the preposition after c'est: \"C'est à Paul que j'ai prêté la voiture.\" After \"c'est moi qui\", the verb agrees: \"C'est moi qui ai raison.\"",
+          "To correct a wrong detail, put the right one in a cleft: \"Non, c'est Julie qui a appelé, pas Marc.\" \"Ce n'est pas lundi que je pars, c'est mardi.\" Keep the preposition after \"c'est\": \"C'est à Paul que j'ai prêté la voiture.\" After \"c'est moi qui\", the verb agrees: \"C'est moi qui ai raison.\"",
           "Dislocation sets the topic and is very common when you disagree: \"Le problème, ce n'est pas le prix, c'est la qualité.\" \"Moi, je ne suis pas d'accord.\" \"Ça, c'est faux.\"",
         ],
         examples: [
@@ -206,7 +206,7 @@ export const FR_B2_U20_EXTRA: Lesson[] = [
             en: "It was Paul [I lent] the car to.",
             sentence: "C'est à Paul ___ la voiture.",
             answer: "que j'ai prêté",
-            explanation: "\"Prêter à\": the preposition stays after c'est, then \"que\".",
+            explanation: "\"Prêter à\": the preposition stays after \"c'est\", then \"que\".",
           },
         ],
       },
@@ -236,7 +236,7 @@ export const FR_B2_U20_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "I'm the one who's right.",
         answer: "C'est moi qui ai raison.",
-        explanation: "After \"c'est moi qui\", the verb agrees with moi: \"ai\".",
+        explanation: "After \"c'est moi qui\", the verb agrees with \"moi\": \"ai\".",
       },
       {
         type: "translate",
@@ -344,7 +344,7 @@ export const FR_B2_U20_EXTRA: Lesson[] = [
       {
         heading: "Recap: what to listen for",
         body: [
-          "In dictation, emphatic sentences hide a few traps. \"C'est... qui\" and \"c'est... que\" sound alike after a vowel: listen for whether a subject follows (\"c'est elle que j'ai vue\") or a verb (\"c'est elle qui a vu\"). After \"c'est moi qui\" the verb agrees: \"ai\", \"suis\".",
+          "In dictation, emphatic sentences hide a few traps. Choose between \"qui\" and \"que\" by what follows: a subject means \"que\" (\"c'est elle que j'ai vue\"), a verb means \"qui\" (\"c'est elle qui a vu\"). In fast speech, \"qui\" and \"qu'il\" can also sound the same. After \"c'est moi qui\" the verb agrees: \"ai\", \"suis\".",
           "In pseudo-clefts, watch the hidden preposition: \"ce dont j'ai besoin, c'est d'un café\", \"ce à quoi je pense, c'est à toi\". In exclamations, \"qu'est-ce qu'il\" and \"qu'est-ce qu'elle\" are pronounced quickly, and \"quel\", \"quelle\", \"quels\" sound the same: decide the spelling from the noun.",
         ],
         examples: [
@@ -367,7 +367,7 @@ export const FR_B2_U20_EXTRA: Lesson[] = [
             source: "What I need is a good coffee.",
             answer: "Ce dont j'ai besoin, c'est d'un bon café.",
             altAnswers: ["Ce dont j'ai besoin c'est d'un bon café."],
-            explanation: "\"Avoir besoin de\" → \"ce dont\"; \"de\" returns after c'est.",
+            explanation: "\"Avoir besoin de\" → \"ce dont\"; \"de\" returns after \"c'est\".",
           },
         ],
       },
@@ -376,7 +376,7 @@ export const FR_B2_U20_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "C'est moi qui suis arrivé le premier.",
-        explanation: "\"C'est moi qui suis\": the verb agrees with moi.",
+        explanation: "\"C'est moi qui suis\": the verb agrees with \"moi\".",
       },
       {
         type: "translate",
@@ -385,7 +385,7 @@ export const FR_B2_U20_EXTRA: Lesson[] = [
         source: "We're the ones who were right.",
         answer: "C'est nous qui avions raison.",
         altAnswers: ["C'est nous qui avons eu raison.", "C'était nous qui avions raison."],
-        explanation: "\"C'est nous qui\" + verb in the nous form.",
+        explanation: "\"C'est nous qui\" + verb in the \"nous\" form.",
       },
       {
         type: "dictation",
@@ -426,7 +426,7 @@ export const FR_B2_U20_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "It's to my mother that I owe everything.",
         answer: "C'est à ma mère que je dois tout.",
-        explanation: "\"Devoir quelque chose à quelqu'un\": keep \"à\" after c'est.",
+        explanation: "\"Devoir quelque chose à quelqu'un\": keep \"à\" after \"c'est\".",
       },
       {
         type: "dictation",
@@ -448,7 +448,7 @@ export const FR_B2_U20_EXTRA: Lesson[] = [
         source: "What I'm thinking about is our trip.",
         answer: "Ce à quoi je pense, c'est à notre voyage.",
         altAnswers: ["Ce à quoi je pense, c'est notre voyage."],
-        explanation: "\"Penser à\" → \"ce à quoi\"; \"à\" repeated after c'est.",
+        explanation: "\"Penser à\" → \"ce à quoi\"; \"à\" repeated after \"c'est\".",
       },
       {
         type: "translate",

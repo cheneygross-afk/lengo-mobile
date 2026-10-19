@@ -300,7 +300,7 @@ export const FR_C2_U20: Lesson[] = [
         body: [
           "A public meeting on a new tram line in Bordeaux. An opponent rises: « Qui peut croire sérieusement que ce projet est financé ? » The room murmurs. You are the project's spokesperson.",
           "Three classic replies. Take it up and answer it: « Vous posez la question, je vais y répondre : le financement est inscrit au budget 2027, à hauteur de 40 millions. » Reframe it: « La question n'est pas là. La vraie question, c'est de savoir combien nous coûtera l'absence de tram. » Or turn it back: « Je vous retourne la question : qui peut croire qu'on désengorgera la rocade sans transports en commun ? »",
-          "The first is the strongest when you have the facts; the second when the question is a trap; the third is effective but combative, best used once. In all three, keep \"vous\", stay calm, and never answer the rhetorical question with a rhetorical question of your own tone.",
+          "The first is the strongest when you have the facts; the second when the question is a trap; the third is effective but combative, best used once. In all three, keep \"vous\", stay calm, and never match the aggressive tone of the question you were thrown.",
         ],
         examples: [
           { es: "Qui peut croire sérieusement que ce projet est financé ?", en: "Who can seriously believe this project is funded?" },
@@ -881,8 +881,8 @@ export const FR_C2_U20: Lesson[] = [
             prompt: "Translate into French (formal, adverb first).",
             source: "Perhaps we should wait for the results.",
             answer: "Peut-être faut-il attendre les résultats.",
-            altAnswers: ["Peut-être devrions-nous attendre les résultats.", "Peut-être qu'il faut attendre les résultats.", "Il faut peut-être attendre les résultats."],
-            explanation: "\"Peut-être\" at the head → inversion \"faut-il\"; alternatives move the adverb or add \"que\".",
+            altAnswers: ["Peut-être devrions-nous attendre les résultats."],
+            explanation: "\"Peut-être\" at the head → inversion \"faut-il\". Moving the adverb (\"il faut peut-être attendre\") or adding \"que\" (\"peut-être qu'il faut\", spoken) avoids the inversion, but the task asks for the formal adverb-first order.",
           },
           {
             type: "multiple-choice",
@@ -987,8 +987,8 @@ export const FR_C2_U20: Lesson[] = [
         prompt: "Translate into French (formal, adverb first).",
         source: "He is probably right.",
         answer: "Sans doute a-t-il raison.",
-        altAnswers: ["Il a sans doute raison.", "Sans doute qu'il a raison.", "Probablement a-t-il raison."],
-        explanation: "\"Sans doute\" (probably) at the head triggers inversion: \"a-t-il\".",
+        altAnswers: ["Probablement a-t-il raison."],
+        explanation: "\"Sans doute\" (probably) at the head triggers inversion: \"a-t-il\". \"Il a sans doute raison\" is also correct, but it is not the formal adverb-first order the task asks for; \"sans doute qu'il a raison\" is spoken.",
       },
       {
         type: "translate",
@@ -1030,7 +1030,7 @@ export const FR_C2_U20: Lesson[] = [
         source: "It was the minister herself who signed the decree.",
         answer: "C'est la ministre elle-même qui a signé le décret.",
         altAnswers: ["C'est la ministre elle-même qui a signé ce décret.", "Ce fut la ministre elle-même qui signa le décret."],
-        explanation: "\"C'est... qui\" puts the subject in focus; French keeps \"c'est\" in the present even for a past event.",
+        explanation: "\"C'est... qui\" puts the subject in focus; French usually keeps \"c'est\" in the present even for a past event (\"ce fut\" is literary).",
       },
       {
         type: "word-order",
@@ -1119,7 +1119,7 @@ export const FR_C2_U20: Lesson[] = [
       {
         heading: "Figures of structure: anaphore, antithèse, chiasme",
         body: [
-          "\"L'anaphore\" repeats words at the head of successive units. Zola's J'accuse (1898) ends with a series of paragraphs that all begin « J'accuse le général... », « J'accuse le général... », hammering each name. You built anaphoric questions in Unit 19.",
+          "\"L'anaphore\" repeats words at the head of successive units. Zola's J'accuse (1898) ends with a series of paragraphs that all begin « J'accuse... » (« J'accuse le lieutenant-colonel du Paty de Clam... », « J'accuse le général Mercier... »), hammering each name. You built anaphoric questions in Unit 19.",
           "\"L'antithèse\" brings opposites together in a balanced structure: Corneille's « À vaincre sans péril, on triomphe sans gloire » (Le Cid) sets danger against glory; Hugo's poetry is full of light and shadow, the sublime and the grotesque. In editorials: \"une loi votée dans l'urgence, appliquée dans la confusion\".",
           "\"Le chiasme\" crosses the terms in an ABBA pattern: Molière's miser hears « il faut manger pour vivre, et non pas vivre pour manger » (L'Avare). Chiasmus makes a line memorable and often reverses a priority. Political speeches love it: \"Il ne s'agit pas de vivre pour travailler, mais de travailler pour vivre.\"",
         ],
@@ -1379,7 +1379,7 @@ export const FR_C2_U20: Lesson[] = [
         heading: "Everyday economics: pouvoir d'achat, droits de douane, travail au noir",
         body: [
           "\"Le pouvoir d'achat\" (purchasing power) is the central topic of French political debate: it \"progresse\", \"recule\", \"s'érode\". It depends on wages, prices and \"les prestations sociales\" (benefits).",
-          "\"Les droits de douane\" are customs duties (tariffs): a government \"relève\" (raises) or \"abaisse\" them, and trade partners respond with \"des mesures de rétorsion\" (retaliatory measures). Not \"les tarifs\", which in French usually means prices (\"les tarifs de la SNCF\").",
+          "\"Les droits de douane\" are customs duties (tariffs): a government \"relève\" (raises) or \"abaisse\" them, and trade partners respond with \"des mesures de rétorsion\" (retaliatory measures). \"Les tarifs douaniers\" exists, but \"les tarifs\" on its own usually means prices (\"les tarifs de la SNCF\").",
           "\"Le travail au noir\" (or \"le travail dissimulé\" in legal language) is undeclared work: \"être payé au noir\", \"travailler au noir\". It deprives the State of \"cotisations sociales\" (social contributions) and leaves the worker without protection.",
         ],
         examples: [

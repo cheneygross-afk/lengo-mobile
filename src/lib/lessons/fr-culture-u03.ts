@@ -254,7 +254,7 @@ export const FR_CULTURE_U03: Lesson[] = [
         heading: "Shared beliefs, small differences",
         body: [
           "Many superstitions cross the Channel unchanged. \"Casser un miroir\" brings \"sept ans de malheur\" (seven years of bad luck) in both cultures. \"Renverser du sel\" (spilling salt) is unlucky too, and the remedy is the same: throw a pinch over your left shoulder (\"par-dessus l'épaule gauche\"). \"Un trèfle à quatre feuilles\" (a four-leaf clover) brings luck everywhere.",
-          "The unlucky day changes with the language: Friday the 13th in France and the English-speaking world, but \"martes 13\" (Tuesday the 13th) in Spain and Latin America, and Friday the 17th in Italy. A Spanish friend in Paris may be surprised you fear the wrong day.",
+          "The unlucky day changes with the language: Friday the 13th in France and the English-speaking world, but Tuesday the 13th (\"le mardi 13\") in Spain and Latin America, and Friday the 17th in Italy. A Spanish friend in Paris may be surprised you fear the wrong day.",
           "To compare: \"C'est pareil chez nous\" (it's the same where we come from), \"Chez nous, c'est plutôt...\" (with us it's more...), \"En revanche\" (on the other hand), \"Alors que\" (whereas): \"En France, c'est le vendredi 13, alors qu'en Espagne, c'est le mardi 13.\"",
         ],
         examples: [
@@ -338,7 +338,7 @@ export const FR_CULTURE_U03: Lesson[] = [
         ],
         examples: [
           { es: "Ce soir, c'est la première ? Merde !", en: "Tonight's the opening night? Break a leg!" },
-          { es: "Il ne faut pas répondre merci quand on te dit merde.", en: "You mustn't say thank you when someone says merde to you." },
+          { es: "Il ne faut pas répondre merci quand on te dit merde.", en: "You mustn't say thank you when someone says \"merde\" to you." },
           { es: "Merde pour ton examen demain !", en: "Good luck for your exam tomorrow!" },
           { es: "Au théâtre, on ne dit jamais le mot corde.", en: "In the theatre you never say the word rope." },
           { es: "Les comédiens évitent de porter du vert sur scène.", en: "Actors avoid wearing green on stage." },

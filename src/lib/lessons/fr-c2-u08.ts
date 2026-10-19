@@ -24,7 +24,7 @@ export const FR_C2_U08: Lesson[] = [
     level: "FR-C2",
     number: 1,
     title: "Euphémismes et Langage Indirect, Part 1 of 3",
-    summary: "Death, illness, age and disability: the soft words French uses, the administrative words, and the trap of thinking that mort is rude or that disparu always means dead.",
+    summary: "Death, illness, age and disability: the soft words French uses, the administrative words, and the trap of thinking that \"mort\" is rude or that \"disparu\" always means dead.",
     duration: "19 min",
     sections: [
       {
@@ -92,7 +92,7 @@ export const FR_C2_U08: Lesson[] = [
             en: "My grandfather has [memory problems].",
             sentence: "Mon grand-père a ___.",
             answer: "des troubles de la mémoire",
-            altAnswers: ["des problèmes de mémoire", "des troubles de mémoire", "des troubles cognitifs"],
+            altAnswers: ["des problèmes de mémoire", "des troubles de mémoire"],
             explanation: "\"Des troubles de la mémoire\" is a gentle, partly medical euphemism for dementia.",
           },
           {
@@ -110,7 +110,7 @@ export const FR_C2_U08: Lesson[] = [
         body: [
           "Ageing has its own vocabulary of tact. \"Une personne âgée\" is the neutral, respectful term. \"Les seniors\" (borrowed from English) is the word of marketing and employment (\"l'emploi des seniors\", from about 55), \"les aînés\" (the elders) is warm and used in Québec and by local councils (\"le repas des aînés\"), \"le troisième âge\" sounds dated, \"le quatrième âge\" designates the very old and dependent.",
           "\"Un vieux\" or \"une vieille\" can sound rude when used as a noun by a stranger, though \"mes vieux\" (my parents) is affectionate slang. The litote \"il n'est plus tout jeune\" (he's not as young as he was) and \"d'un certain âge\" are polite ways to say old. \"Une dame âgée\" is fine; \"une vieille dame\" is also fine and often affectionate.",
-          "Institutions: \"l'EHPAD\" (établissement d'hébergement pour personnes âgées dépendantes, a care home), \"une maison de retraite\" (the older, general term), \"une résidence seniors\". The administrative euphemism \"perte d'autonomie\" means the person can no longer live independently.",
+          "Institutions: \"l'EHPAD\" (\"établissement d'hébergement pour personnes âgées dépendantes\", a care home), \"une maison de retraite\" (the older, general term), \"une résidence seniors\". The administrative euphemism \"perte d'autonomie\" means the person can no longer live independently.",
         ],
         examples: [
           { es: "La mairie organise un repas pour les aînés.", en: "The town hall is organising a lunch for the elderly." },
@@ -143,7 +143,7 @@ export const FR_C2_U08: Lesson[] = [
         heading: "Disability: malvoyant, malentendant, en situation de handicap",
         body: [
           "Official and polite French now favours \"une personne en situation de handicap\" over \"un handicapé\": the phrase puts the person first and presents the disability as a situation, not an identity. \"Une personne à mobilité réduite\" (PMR) is used on signs and in transport. \"Les personnes handicapées\" (adjective) remains common and acceptable.",
-          "For the senses: \"malvoyant\" (partially sighted) and \"non-voyant\" (blind, the euphemism for \"aveugle\"), \"malentendant\" (hard of hearing). But note: many deaf people prefer \"sourd\" (with a capital, \"les Sourds\", for the community with its own language, la langue des signes française, LSF), and \"aveugle\" is not offensive. The euphemism is not always what the people concerned prefer.",
+          "For the senses: \"malvoyant\" (partially sighted) and \"non-voyant\" (blind, the euphemism for \"aveugle\"), \"malentendant\" (hard of hearing). But note: many deaf people prefer \"sourd\" (with a capital, \"les Sourds\", for the community with its own language, \"la langue des signes française\", LSF), and \"aveugle\" is not offensive. The euphemism is not always what the people concerned prefer.",
           "Tact here is less about vocabulary lists than about attitude: speak of \"une personne aveugle\" rather than \"un aveugle\", avoid pity (\"il souffre de...\" can be replaced by \"il a...\", \"il vit avec...\"), and follow the person's own words.",
         ],
         examples: [
@@ -459,7 +459,7 @@ export const FR_C2_U08: Lesson[] = [
       {
         type: "multiple-choice",
         question: "In a crime report, « interpellé » means...",
-        options: ["arrested or detained for questioning", "questioned in the street", "called by name", "released"],
+        options: ["arrested or detained for questioning", "praised for bravery", "fined on the spot", "released without charge"],
         correctIndex: 0,
         explanation: "Police language: \"interpeller\" = to stop and arrest.",
       },
@@ -527,7 +527,7 @@ export const FR_C2_U08: Lesson[] = [
         type: "speak",
         text: "Un individu défavorablement connu des services de police a été interpellé.",
         prompt: "Read this news formula aloud.",
-        tip: "\"Défavorablement\": dé-fa-vo-rable-ment, six syllables.",
+        tip: "\"Défavorablement\": dé-fa-vo-rable-ment, five syllables in ordinary speech (the e of -rable is silent).",
         explanation: "A frozen formula: a man with a record has been arrested.",
       },
     ],
@@ -578,7 +578,7 @@ export const FR_C2_U08: Lesson[] = [
         heading: "Money, war and police",
         body: [
           "Money troubles are softened as \"des difficultés financières\", \"des fins de mois difficiles\" (struggling to make ends meet), \"être un peu juste en ce moment\" (a bit short), \"être dans le rouge\" (overdrawn). For taxes, governments prefer \"une contribution\" (\"la contribution sociale généralisée\", CSG) or \"une taxe\" to \"un impôt\", and they \"mettent à contribution\" the wealthy.",
-          "Military language is the most studied source of euphemism: \"des frappes ciblées\" or \"chirurgicales\" (bombing presented as precise), \"des dommages collatéraux\" (civilian deaths), \"neutraliser\" (to kill), \"une opération\" (a war), \"un conflit\" or \"des événements\" (the French state long called the Algerian War \"les événements d'Algérie\"; it was officially recognised as a war only in 1999).",
+          "Military language is the most studied source of euphemism: \"des frappes ciblées\" or \"chirurgicales\" (bombing presented as precise), \"des dommages collatéraux\" (civilian deaths), \"neutraliser\" (to put out of action, very often to kill), \"une opération\" (a war), \"un conflit\" or \"des événements\" (the French state long called the Algerian War \"les événements d'Algérie\"; it was officially recognised as a war only in 1999).",
           "In policing: \"les forces de l'ordre\" (police and gendarmes), \"interpeller\" (arrest), \"un usage proportionné de la force\", \"une intervention musclée\" (a heavy-handed operation, in the press). The point is not to avoid these words, which are standard, but to notice what each one leaves out.",
         ],
         examples: [
@@ -630,7 +630,7 @@ export const FR_C2_U08: Lesson[] = [
           { es: "C'est de la langue de bois : il n'a rien dit de concret.", en: "That's waffle: he said nothing concrete." },
           { es: "Le ministre a botté en touche.", en: "The minister dodged the question." },
           { es: "Une approche globale s'impose à l'horizon 2035.", en: "A comprehensive approach is required by 2035." },
-          { es: "Le Canard enchaîné se moque chaque semaine de la langue de bois.", en: "The satirical weekly (the Canard) mocks political waffle every week." },
+          { es: "Le Canard enchaîné se moque chaque semaine de la langue de bois.", en: "The satirical weekly \"Le Canard enchaîné\" mocks political waffle every week." },
         ],
         checkpoint: [
           {
@@ -654,9 +654,9 @@ export const FR_C2_U08: Lesson[] = [
           {
             type: "speak",
             text: "Nous restons pleinement mobilisés aux côtés de l'ensemble des acteurs.",
-            prompt: "Read this sentence of langue de bois aloud, as a politician would.",
+            prompt: "Read this sentence of \"langue de bois\" aloud, as a politician would.",
             tip: "Slow, confident, with emphasis on \"pleinement\": the tone is the message.",
-            explanation: "Abstract, agentless, timeless: a perfect sample of langue de bois.",
+            explanation: "Abstract, agentless, timeless: a perfect sample of \"langue de bois\".",
           },
         ],
       },
@@ -1061,7 +1061,7 @@ export const FR_C2_U08: Lesson[] = [
         ],
         examples: [
           { es: "« On peut avoir un chien ? » « On verra. »", en: "'Can we get a dog?' 'We'll see.' (= probably not)" },
-          { es: "Je vais y réfléchir et je vous recontacte.", en: "I'll think it over and get back to you. (= probably no)" },
+          { es: "Je vais y réfléchir et je vous recontacte.", en: "I'll think it over and get back to you. (= probably not)" },
           { es: "Ce n'est pas tout à fait ce que j'avais en tête.", en: "It's not quite what I had in mind." },
           { es: "« On se fait un cinéma ? » « Pourquoi pas... »", en: "'Shall we go to the cinema?' 'Why not...' (= lukewarm)" },
           { es: "« On prend ma voiture ? » « Si tu veux. »", en: "'Shall we take my car?' 'If you like.' (= reluctantly)" },
@@ -1331,7 +1331,7 @@ export const FR_C2_U08: Lesson[] = [
         body: [
           "Litotes says less to mean more, usually through negation. The most famous is Chimène's line in Corneille's Le Cid (1637): \"Va, je ne te hais point\", which every French schoolchild learns as a declaration of love. Everyday versions: \"ce n'est pas mauvais\" (it's good), \"il n'est pas bête\" (he's clever), \"je ne suis pas contre\" (I'm for it), \"ce n'est pas faux\" (that's right), \"ce n'est pas très réussi\" (it's a failure).",
           "Negation softens criticism by naming the ideal you missed rather than the flaw you have: \"ce n'est pas tout à fait au point\" instead of \"c'est raté\"; \"ce n'est pas votre meilleur travail\" instead of \"c'est mauvais\"; \"je ne suis pas certain que ce soit la bonne approche\" instead of \"c'est la mauvaise approche\". Note the subjunctive after \"je ne suis pas certain que\".",
-          "Removing the agent removes the accusation. The passive without \"par\" (\"des erreurs ont été commises\"), \"on\" (\"on a oublié de vous prévenir\"), the pronominal passive (\"ça ne se fait pas\") and the impersonal \"il\" (\"il a été décidé que\", \"il semblerait que\", \"il apparaît que\") all describe events without naming who did them. \"Il semblerait que\" takes the indicative or the conditional when the speaker leans towards belief (\"il semblerait qu'il y a eu un malentendu\" is common, and \"qu'il y ait eu\" is also accepted and more cautious).",
+          "Removing the agent removes the accusation. The passive without \"par\" (\"des erreurs ont été commises\"), \"on\" (\"on a oublié de vous prévenir\"), the pronominal passive (\"ça ne se fait pas\") and the impersonal \"il\" (\"il a été décidé que\", \"il semblerait que\", \"il apparaît que\") all describe events without naming who did them. \"Il semble que\" and \"il semblerait que\" normally take the subjunctive (\"il semblerait qu'il y ait eu un malentendu\"); the indicative (\"qu'il y a eu\") is also heard when the speaker leans towards belief, while \"il me semble que\" takes the indicative.",
         ],
         examples: [
           { es: "Va, je ne te hais point.", en: "Go, I do not hate you. (Corneille, Le Cid: in fact, I love you)" },
@@ -1490,7 +1490,7 @@ export const FR_C2_U08: Lesson[] = [
         question: "You don't mind at all. What do you answer?",
         options: ["Non, je vous en prie.", "Oui, beaucoup !", "Oui, je vous en prie.", "Si, pas du tout."],
         correctIndex: 0,
-        explanation: "The question is « does it bother you? », so « non » means go ahead.",
+        explanation: "The question asks whether it bothers you, so \"non\" means go ahead.",
       },
       {
         type: "matching",
@@ -1596,7 +1596,7 @@ export const FR_C2_U08: Lesson[] = [
             en: "Our thoughts are with you, [you and your loved ones].",
             sentence: "Toutes nos pensées vous accompagnent, ___.",
             answer: "toi et tes proches",
-            altAnswers: ["toi et ta famille", "vous et vos proches"],
+            altAnswers: ["toi et ta famille", "toi et les tiens"],
             explanation: "\"Vous\" here is plural (Karim and family), then spelled out with \"toi et tes proches\".",
           },
         ],
@@ -1724,7 +1724,7 @@ export const FR_C2_U08: Lesson[] = [
         prompt: "Put the words in order to say: You don't need to worry about anything.",
         words: ["Tu", "n'as", "à", "te", "soucier", "de", "rien."],
         translation: "You don't need to worry about anything.",
-        explanation: "\"N'avoir à + infinitive + rien\": nothing for you to do.",
+        explanation: "\"Avoir à\" + infinitive = to have to; with \"ne... rien\": \"tu n'as à te soucier de rien\" = there is nothing you need to worry about.",
       },
       {
         type: "matching",
@@ -1859,7 +1859,7 @@ export const FR_C2_U08: Lesson[] = [
           "\"L'évidence\" means obviousness, the obvious, not evidence: \"c'est une évidence\" = it's obvious; \"se rendre à l'évidence\" = to face facts; \"mettre en évidence\" = to highlight. Evidence is \"les preuves\" (proof), \"les éléments\" or, in a trial, \"les pièces à conviction\".",
           "\"Une audience\" is a formal hearing or audience granted by a dignitary (\"une audience au tribunal\", \"le pape lui a accordé une audience\") and, in media, the audience figures (\"l'audience de l'émission\"). The people in a theatre are \"le public\" or \"les spectateurs\". \"Un agenda\" is a diary, a planner; the list of points in a meeting is \"l'ordre du jour\", and a hidden agenda is \"des intentions cachées\" or, as an anglicism, \"un agenda caché\".",
           "\"Une librairie\" is a bookshop; a library is \"une bibliothèque\" (or \"une médiathèque\"). \"Un compromis\" is a false friend only in its tone: in French it is usually positive, a reasonable agreement (\"trouver un compromis\"), while to compromise one's integrity or safety is \"compromettre\". In property, \"le compromis de vente\" is the preliminary sale contract. Read this original paragraph and spot the traps:",
-          "\"Actuellement en poste à la médiathèque municipale, Nadia assiste chaque mois à l'audience publique du conseil. Elle ignorait que la librairie voisine allait fermer : c'est en consultant l'ordre du jour qu'elle l'a appris. Compréhensive mais lucide, elle s'est rendue à l'évidence : il faudrait éventuellement trouver un compromis avec la mairie pour reprendre le fonds.\"",
+          "\"Actuellement en poste à la médiathèque municipale, Nadia assiste chaque mois à l'audience que le maire accorde aux associations du quartier. Elle ignorait que la librairie voisine allait fermer : c'est en consultant l'ordre du jour qu'elle l'a appris. Compréhensive mais lucide, elle s'est rendue à l'évidence : il faudrait éventuellement trouver un compromis avec la mairie pour reprendre le fonds.\"",
         ],
         examples: [
           { es: "C'est une évidence.", en: "It's obvious." },
@@ -1902,7 +1902,7 @@ export const FR_C2_U08: Lesson[] = [
         prompt: "Translate into French (avoid the false friend).",
         source: "Actually, I've never been to Lyon.",
         answer: "En fait, je ne suis jamais allé à Lyon.",
-        altAnswers: ["En fait, je ne suis jamais allée à Lyon.", "En réalité, je ne suis jamais allé à Lyon.", "À vrai dire, je ne suis jamais allé à Lyon.", "En fait, je ne suis jamais allé sur Lyon."],
+        altAnswers: ["En fait, je ne suis jamais allée à Lyon.", "En réalité, je ne suis jamais allé à Lyon.", "À vrai dire, je ne suis jamais allé à Lyon."],
         explanation: "'Actually' = \"en fait\"; \"actuellement\" = currently.",
       },
       {

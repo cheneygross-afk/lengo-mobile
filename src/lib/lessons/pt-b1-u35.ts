@@ -41,15 +41,15 @@ export const PT_B1_U35: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We're looking for a flat that has two bedrooms.",
+            source: "We're looking for an apartment that has two bedrooms.",
             answer: "Estamos procurando um apartamento que tenha dois quartos.",
             altAnswers: ["Procuramos um apartamento que tenha dois quartos.", "A gente está procurando um apartamento que tenha dois quartos.", "Nós estamos procurando um apartamento que tenha dois quartos.", "A gente procura um apartamento que tenha dois quartos.", "Estamos procurando um apartamento de dois quartos."],
-            explanation: "The flat isn't known yet, so the subjunctive \"tenha\". For a flat you already live in: \"que tem\".",
+            explanation: "The apartment isn't known yet, so the subjunctive \"tenha\". For an apartment you already live in: \"que tem\".",
           },
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "After the children [fell asleep], we watched a film.",
+            en: "After the children [fell asleep], we watched a movie.",
             sentence: "Depois que as crianças ___, a gente viu um filme.",
             answer: "dormiram",
             altAnswers: ["pegaram no sono", "adormeceram"],
@@ -266,7 +266,7 @@ export const PT_B1_U35: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "When we arrived, the film [had already started].",
+            en: "When we arrived, the movie [had already started].",
             sentence: "Quando chegamos, o filme ___.",
             answer: "já tinha começado",
             altAnswers: ["tinha começado", "já havia começado"],
@@ -276,9 +276,9 @@ export const PT_B1_U35: Lesson[] = [
             type: "listen-choose",
             audio: "Quando eu era criança, a gente passava as férias na casa da minha avó.",
             question: "What does it mean?",
-            options: ["When I was a child, we used to spend the holidays at my grandmother's.", "When I was a child, we spent one holiday at my grandmother's.", "When I was a child, my grandmother spent the holidays with us.", "When I'm with children, we spend the holidays at my grandmother's."],
+            options: ["When I was a child, we used to spend our vacations at my grandmother's.", "When I was a child, we spent one vacation at my grandmother's.", "When I was a child, my grandmother spent her vacations with us.", "When I'm with children, we spend our vacations at my grandmother's."],
             correctIndex: 0,
-            explanation: "Both verbs are in the imperfeito: \"era\" for a state, \"passava\" for a habit. One specific holiday would be \"passamos\".",
+            explanation: "Both verbs are in the imperfeito: \"era\" for a state, \"passava\" for a habit. One specific vacation would be \"passamos\".",
           },
         ],
       },
@@ -292,7 +292,7 @@ export const PT_B1_U35: Lesson[] = [
           { es: "Tenho trabalhado muito ultimamente.", en: "I've been working a lot lately." },
           { es: "Você já foi a Fernando de Noronha?", en: "Have you ever been to Fernando de Noronha?" },
           { es: "Acabei de chegar do aeroporto.", en: "I've just got back from the airport." },
-          { es: "Depois da cirurgia, ele voltou a jogar futebol.", en: "After the operation, he started playing football again." },
+          { es: "Depois da cirurgia, ele voltou a jogar futebol.", en: "After the operation, he started playing soccer again." },
           { es: "Cheguei a pensar que a gente não ia conseguir.", en: "I even thought we weren't going to make it." },
           { es: "Eu ia te ligar, mas acabei dormindo.", en: "I was going to call you, but I ended up falling asleep." },
         ],
@@ -326,7 +326,7 @@ export const PT_B1_U35: Lesson[] = [
         examples: [
           { es: "Enquanto eu arrumava a mala, ele comprava as passagens do barco.", en: "While I was packing, he was buying the boat tickets." },
           { es: "De repente, começou a chover forte.", en: "Suddenly it started raining hard." },
-          { es: "Foi então que percebi que tinha esquecido o carregador.", en: "That's when I realised I'd forgotten the charger." },
+          { es: "Foi então que percebi que tinha esquecido o carregador.", en: "That's when I realized I'd forgotten the charger." },
           { es: "No dia seguinte, o tempo abriu e fomos à praia de Lopes Mendes.", en: "The next day, the weather cleared up and we went to Lopes Mendes beach." },
           { es: "Desde então, temos voltado lá todo ano.", en: "Since then, we've been going back every year." },
         ],
@@ -335,7 +335,7 @@ export const PT_B1_U35: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "That's when I realised I had forgotten my passport.",
+            source: "That's when I realized I had forgotten my passport.",
             answer: "Foi então que percebi que tinha esquecido o meu passaporte.",
             altAnswers: ["Foi então que percebi que tinha esquecido o passaporte.", "Foi então que eu percebi que tinha esquecido o meu passaporte.", "Foi aí que percebi que tinha esquecido o passaporte.", "Foi então que percebi que eu tinha esquecido o passaporte.", "Foi aí que eu percebi que tinha esquecido o meu passaporte.", "Foi então que percebi que tinha esquecido meu passaporte.", "Foi nessa hora que percebi que tinha esquecido o passaporte."],
             explanation: "\"Percebi\" is the event; the forgetting happened before it, so \"tinha esquecido\".",
@@ -439,7 +439,7 @@ export const PT_B1_U35: Lesson[] = [
         type: "speak",
         text: "Eu estava saindo de casa quando o Rafael me ligou. Ele tinha conseguido passagens para Ilha Grande.",
         prompt: "Say it in Portuguese: I was leaving home when Rafael called me. He'd got tickets to Ilha Grande.",
-        tip: "\"Rafael\" is ha-fa-EL, with a throaty r at the start.",
+        tip: "\"Rafael\" is ha-fa-ÉU, with a throaty r at the start and the final l like a w.",
         explanation: "Three layers: in progress (\"estava saindo\"), event (\"ligou\"), earlier past (\"tinha conseguido\").",
       },
       {
@@ -473,7 +473,7 @@ export const PT_B1_U35: Lesson[] = [
           { es: "Essa é a amiga com quem eu morei em Curitiba.", en: "This is the friend I lived with in Curitiba." },
           { es: "A empresa para a qual trabalho tem sede em Campinas.", en: "The company I work for is based in Campinas." },
           { es: "Conheci uma escritora cujos livros foram traduzidos para o inglês.", en: "I met a writer whose books have been translated into English." },
-          { es: "Ele pediu desculpas, o que foi uma surpresa.", en: "He apologised, which was a surprise." },
+          { es: "Ele pediu desculpas, o que foi uma surpresa.", en: "He apologized, which was a surprise." },
           { es: "É melhor vocês saírem antes de começar o trânsito.", en: "You'd better leave before the traffic starts." },
           { es: "Vamos arrumar a sala antes de os convidados chegarem.", en: "Let's tidy the living room before the guests arrive." },
         ],
@@ -499,7 +499,7 @@ export const PT_B1_U35: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "I met a neighbour [whose] daughter studies in Lisbon.",
+            en: "I met a neighbor [whose] daughter studies in Lisbon.",
             sentence: "Conheci uma vizinha ___ filha estuda em Lisboa.",
             answer: "cuja",
             explanation: "\"Cujo\" agrees with what's owned (\"filha\"), not with the owner: \"cuja\". Never \"cuja a filha\".",
@@ -550,8 +550,8 @@ export const PT_B1_U35: Lesson[] = [
           { es: "A ponte foi inaugurada em 1974.", en: "The bridge was opened in 1974." },
           { es: "Os resultados serão divulgados na sexta-feira.", en: "The results will be published on Friday." },
           { es: "O prédio foi projetado por um arquiteto famoso.", en: "The building was designed by a famous architect." },
-          { es: "A loja já está fechada.", en: "The shop is already closed." },
-          { es: "Vendem-se apartamentos de dois e três quartos.", en: "Two- and three-bedroom flats for sale." },
+          { es: "A loja já está fechada.", en: "The store is already closed." },
+          { es: "Vendem-se apartamentos de dois e três quartos.", en: "Two- and three-bedroom apartments for sale." },
         ],
         checkpoint: [
           {
@@ -671,7 +671,7 @@ export const PT_B1_U35: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "She asked if the shop was open on Sundays.",
+        source: "She asked if the store was open on Sundays.",
         answer: "Ela perguntou se a loja abria aos domingos.",
         altAnswers: ["Ela perguntou se a loja ficava aberta aos domingos.", "Ela perguntou se a loja estava aberta aos domingos.", "Ela perguntou se a loja abre aos domingos.", "Ela perguntou se a loja funcionava aos domingos."],
         explanation: "A yes/no question becomes \"perguntou se\" + the shifted tense: \"abria\".",
@@ -691,10 +691,10 @@ export const PT_B1_U35: Lesson[] = [
       {
         heading: "The voice note",
         body: [
-          "The situation: you're on an exchange at the Universidade Federal do Ceará, you were ill for a week and you need more time for your final assignment. First, a voice note to your friend Bia. Spoken Brazilian is short and warm: \"tô\", \"tá\", \"pra\", \"cê\", \"né\", \"aí\", and the present for drama.",
+          "The situation: you're on an exchange at the Universidade Federal do Ceará, you were sick for a week and you need more time for your final assignment. First, a voice note to your friend Bia. Spoken Brazilian is short and warm: \"tô\", \"tá\", \"pra\", \"cê\", \"né\", \"aí\", and the present for drama.",
         ],
         examples: [
-          { es: "Bia, tudo bem? Então, fiquei doente a semana toda, tô morta.", en: "Bia, how are you? So, I was ill all week, I'm wiped out." },
+          { es: "Bia, tudo bem? Então, fiquei doente a semana toda, tô morta.", en: "Bia, how are you? So, I was sick all week, I'm wiped out." },
           { es: "Aí não consegui terminar o trabalho do professor Paulo, né.", en: "So I couldn't finish Professor Paulo's assignment, you know." },
           { es: "Cê acha que ele dá mais uma semana pra mim?", en: "Do you think he'll give me another week?" },
         ],
@@ -711,10 +711,10 @@ export const PT_B1_U35: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into spoken Brazilian Portuguese.",
-            source: "I was ill all week and couldn't finish the assignment.",
+            source: "I was sick all week and couldn't finish the assignment.",
             answer: "Fiquei doente a semana toda e não consegui terminar o trabalho.",
             altAnswers: ["Eu fiquei doente a semana toda e não consegui terminar o trabalho.", "Fiquei doente a semana inteira e não consegui terminar o trabalho.", "Fiquei doente a semana toda e não deu pra terminar o trabalho.", "Fiquei doente a semana toda e não consegui acabar o trabalho.", "Fiquei doente a semana toda, aí não consegui terminar o trabalho.", "Eu tava doente a semana toda e não consegui terminar o trabalho."],
-            explanation: "\"Ficar doente\" is to fall ill. \"Não deu pra\" is a very spoken way of saying couldn't.",
+            explanation: "\"Ficar doente\" is to get sick. \"Não deu pra\" is a very spoken way of saying couldn't.",
           },
         ],
       },
@@ -725,7 +725,7 @@ export const PT_B1_U35: Lesson[] = [
         ],
         examples: [
           { es: "Oi, Lucas! Tudo bem? Aqui é a Sarah, da turma de literatura.", en: "Hi Lucas! How are you? It's Sarah, from the literature class." },
-          { es: "Fiquei doente e perdi as aulas da semana passada.", en: "I was ill and missed last week's classes." },
+          { es: "Fiquei doente e perdi as aulas da semana passada.", en: "I was sick and missed last week's classes." },
           { es: "Você poderia me mandar as anotações? Valeu!", en: "Could you send me your notes? Thanks!" },
           { es: "Vc sabe se o professor aceita trabalho atrasado?", en: "Do you know if the professor accepts late work? (chat spelling)" },
         ],
@@ -759,7 +759,7 @@ export const PT_B1_U35: Lesson[] = [
         examples: [
           { es: "Prezado Professor Paulo,", en: "Dear Professor Paulo," },
           { es: "Escrevo para solicitar a prorrogação do prazo do trabalho final.", en: "I'm writing to request an extension to the deadline for the final assignment." },
-          { es: "Fiquei doente na semana passada, conforme o atestado médico em anexo.", en: "I was ill last week, as shown in the attached medical certificate." },
+          { es: "Fiquei doente na semana passada, conforme o atestado médico em anexo.", en: "I was sick last week, as shown in the attached medical certificate." },
           { es: "Gostaria de saber se seria possível entregar o trabalho na próxima sexta-feira.", en: "I'd like to know if it would be possible to hand in the assignment next Friday." },
           { es: "Caso não seja possível, peço que o senhor me indique outra alternativa.", en: "If that isn't possible, I'd ask you to suggest another option." },
         ],
@@ -776,7 +776,7 @@ export const PT_B1_U35: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "I was ill, [as shown in] the attached medical certificate.",
+            en: "I was sick, [as shown in] the attached medical certificate.",
             sentence: "Fiquei doente, ___ o atestado médico em anexo.",
             answer: "conforme",
             altAnswers: ["como mostra", "de acordo com"],
@@ -790,11 +790,11 @@ export const PT_B1_U35: Lesson[] = [
           "Brazilian bureaucracy has its own genre, the \"requerimento\": addressed to an office, in the third person or with a fixed \"eu, Fulano\", with \"Vossa Senhoria\" for the official, \"venho requerer\" for the request and the closing formula \"Nestes termos, peço deferimento\", then place, date and signature. It's stiff by design: don't use it with a person you know.",
         ],
         examples: [
-          { es: "Ilustríssimo Senhor Coordenador do Curso de Letras,", en: "To the Coordinator of the Modern Languages Programme," },
-          { es: "Eu, Sarah Collins, aluna de intercâmbio, matrícula nº 512034,", en: "I, Sarah Collins, exchange student, enrolment no. 512034," },
+          { es: "Ilustríssimo Senhor Coordenador do Curso de Letras,", en: "To the Coordinator of the Modern Languages Program," },
+          { es: "Eu, Sarah Collins, aluna de intercâmbio, matrícula nº 512034,", en: "I, Sarah Collins, exchange student, enrollment no. 512034," },
           { es: "venho requerer a Vossa Senhoria a prorrogação do prazo de entrega do trabalho final.", en: "hereby request an extension to the deadline for the final assignment." },
           { es: "Nestes termos, peço deferimento.", en: "I hereby request that this application be granted. (fixed closing)" },
-          { es: "Fortaleza, 12 de maio de 2026.", en: "Fortaleza, 12 May 2026." },
+          { es: "Fortaleza, 12 de maio de 2026.", en: "Fortaleza, May 12, 2026." },
         ],
         checkpoint: [
           {
@@ -902,7 +902,7 @@ export const PT_B1_U35: Lesson[] = [
       {
         type: "speak",
         text: "Bia, tudo bem? Fiquei doente a semana toda e tô super atrasada com o trabalho.",
-        prompt: "Say it in spoken Portuguese (as a woman): Bia, how are you? I was ill all week and I'm really behind with the assignment.",
+        prompt: "Say it in spoken Portuguese (as a woman): Bia, how are you? I was sick all week and I'm really behind with the assignment.",
         tip: "\"Tô\" is a single syllable with a closed o; \"super\" has a soft final r.",
         explanation: "The voice-note register: \"tô\", \"super\" as an intensifier, and the speaker's agreement in \"atrasada\".",
       },
@@ -910,10 +910,10 @@ export const PT_B1_U35: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I missed last week's classes because I was ill.",
+        source: "I missed last week's classes because I was sick.",
         answer: "Perdi as aulas da semana passada porque fiquei doente.",
         altAnswers: ["Eu perdi as aulas da semana passada porque fiquei doente.", "Perdi as aulas da semana passada porque estava doente.", "Perdi as aulas da semana passada porque eu estava doente.", "Faltei às aulas da semana passada porque fiquei doente.", "Faltei às aulas da semana passada porque estava doente.", "Perdi as aulas da semana passada porque tive que ficar de cama."],
-        explanation: "\"Perder a aula\" or \"faltar à aula\" is to miss class. \"Estava doente\" describes the state; \"fiquei doente\" the event of falling ill.",
+        explanation: "\"Perder a aula\" or \"faltar à aula\" is to miss class. \"Estava doente\" describes the state; \"fiquei doente\" the event of getting sick.",
       },
     ],
   },
@@ -922,23 +922,23 @@ export const PT_B1_U35: Lesson[] = [
     level: "PT-B1",
     number: 5,
     title: "B1 Challenge: A New Life in Fortaleza, Part 1 of 2",
-    summary: "Arrive and settle in Fortaleza: rent a flat without a fiador, open a bank account and book the Polícia Federal appointment, with reading and listening tasks.",
+    summary: "Arrive and settle in Fortaleza: rent an apartment without a fiador, open a bank account and book the Polícia Federal appointment, with reading and listening tasks.",
     duration: "15 min",
     kind: "review",
     format: "Challenge",
     sections: [
       {
-        heading: "A flat without a fiador",
+        heading: "An apartment without a fiador",
         body: [
           "You've moved to Fortaleza for a job. Most rental contracts ask for a \"fiador\", a guarantor who owns property in the city, which a newcomer rarely has. The alternatives: \"seguro-fiança\" (insurance you pay monthly or yearly), \"caução\" (a deposit, by law up to three months' rent) or \"título de capitalização\" (a sum you lock away and get back at the end).",
           "Read the ad: \"Aluga-se apartamento no Meireles, 2 quartos, a 300 m da Beira-Mar. Condomínio e IPTU inclusos. Aceita-se caução ou seguro-fiança. Não aceita animais.\" Check the extras: \"condomínio\" (building fees) and \"IPTU\" (property tax) are often paid on top of the rent.",
         ],
         examples: [
-          { es: "Aluga-se apartamento no Meireles, a 300 metros da Beira-Mar.", en: "Flat to rent in Meireles, 300 metres from the seafront." },
+          { es: "Aluga-se apartamento no Meireles, a 300 metros da Beira-Mar.", en: "Apartment for rent in Meireles, 300 meters from the seafront." },
           { es: "Condomínio e IPTU inclusos.", en: "Building fees and property tax included." },
           { es: "Não tenho fiador. Vocês aceitam seguro-fiança?", en: "I don't have a guarantor. Do you accept rent guarantee insurance?" },
           { es: "A caução é de três meses de aluguel.", en: "The deposit is three months' rent." },
-          { es: "Procuro um apartamento que aceite gato.", en: "I'm looking for a flat that accepts cats." },
+          { es: "Procuro um apartamento que aceite gato.", en: "I'm looking for an apartment that accepts cats." },
         ],
         checkpoint: [
           {
@@ -961,10 +961,10 @@ export const PT_B1_U35: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'm looking for a flat that accepts pets.",
+            source: "I'm looking for an apartment that accepts pets.",
             answer: "Procuro um apartamento que aceite animais.",
             altAnswers: ["Estou procurando um apartamento que aceite animais.", "Procuro um apartamento que aceite animais de estimação.", "Estou procurando um apartamento que aceite animais de estimação.", "Procuro um apartamento que aceite bichos.", "Estou procurando um apartamento que aceite pets.", "Procuro um apartamento que aceite pets."],
-            explanation: "A flat you haven't found yet takes the subjunctive: \"aceite\". \"Pet\" is widely used in Brazil too.",
+            explanation: "An apartment you haven't found yet takes the subjunctive: \"aceite\". \"Pet\" is widely used in Brazil too.",
           },
         ],
       },
@@ -1101,7 +1101,7 @@ export const PT_B1_U35: Lesson[] = [
         type: "listen-choose",
         audio: "Oi, aqui é a Juliana, da imobiliária. O proprietário aceitou o seguro-fiança, então a gente já pode marcar a assinatura do contrato.",
         question: "What's the news?",
-        options: ["The owner accepted the rent insurance, so they can arrange the contract signing.", "The owner wants a guarantor instead.", "The flat has already been rented to someone else.", "The contract was signed yesterday."],
+        options: ["The owner accepted the rent insurance, so they can arrange the contract signing.", "The owner wants a guarantor instead.", "The apartment has already been rented to someone else.", "The contract was signed yesterday."],
         correctIndex: 0,
         explanation: "\"Aceitou o seguro-fiança\" and \"já pode marcar a assinatura\": good news, the deal is going ahead.",
       },
@@ -1122,7 +1122,7 @@ export const PT_B1_U35: Lesson[] = [
       {
         type: "speak",
         text: "Bom dia! Eu vi o anúncio do apartamento no Meireles. Ele ainda está disponível?",
-        prompt: "Say it in Portuguese: Good morning! I saw the ad for the flat in Meireles. Is it still available?",
+        prompt: "Say it in Portuguese: Good morning! I saw the ad for the apartment in Meireles. Is it still available?",
         tip: "\"Meireles\": may-RE-lis; the final -es sounds like is.",
         explanation: "\"Vi\" (perfeito) for the event, \"está disponível\" for the current state.",
       },
@@ -1142,7 +1142,7 @@ export const PT_B1_U35: Lesson[] = [
     level: "PT-B1",
     number: 6,
     title: "B1 Challenge: A New Life in Fortaleza, Part 2 of 2",
-    summary: "Live in Fortaleza: a night at the UPA, a faulty delivery, a festa junina with the neighbours, and telling a friend all about it in spoken Portuguese.",
+    summary: "Live in Fortaleza: a night at the UPA, a faulty delivery, a festa junina with the neighbors, and telling a friend all about it in spoken Portuguese.",
     duration: "15 min",
     kind: "review",
     format: "Challenge",
@@ -1150,7 +1150,7 @@ export const PT_B1_U35: Lesson[] = [
       {
         heading: "A night at the UPA",
         body: [
-          "At midnight you get a fever and stomach pain, so you go to the UPA (Unidade de Pronto Atendimento), the public urgent care centre of the SUS. First comes the \"triagem\": a nurse asks about symptoms and gives you a coloured wristband. Red is an emergency, orange very urgent, yellow urgent, green less urgent, blue not urgent, so a green band means a long wait.",
+          "At midnight you get a fever and stomach pain, so you go to the UPA (Unidade de Pronto Atendimento), the public urgent care center of the SUS. First comes the \"triagem\": a nurse asks about symptoms and gives you a colored wristband. Red is an emergency, orange very urgent, yellow urgent, green less urgent, blue not urgent, so a green band means a long wait.",
           "Describe symptoms with \"estou com\" (\"estou com febre\", \"estou com dor de barriga\"), duration with \"desde\" and \"faz\" (\"faz duas horas que estou vomitando\"), and the episode with the perfeito (\"comi camarão no jantar\").",
         ],
         examples: [
@@ -1193,7 +1193,7 @@ export const PT_B1_U35: Lesson[] = [
           { es: "Além disso, veio um prato que eu não pedi.", en: "Also, I got a dish I didn't order." },
           { es: "Gostaria de pedir o reembolso do valor.", en: "I'd like to ask for a refund of the amount." },
           { es: "Vocês podem mandar o prato certo?", en: "Can you send the right dish?" },
-          { es: "Informamos que o valor será estornado em até sete dias úteis.", en: "Please note the amount will be refunded within seven working days." },
+          { es: "Informamos que o valor será estornado em até sete dias úteis.", en: "Please note the amount will be refunded within seven business days." },
         ],
         checkpoint: [
           {
@@ -1209,9 +1209,9 @@ export const PT_B1_U35: Lesson[] = [
             type: "listen-choose",
             audio: "Informamos que o valor será estornado em até sete dias úteis.",
             question: "What does the company say?",
-            options: ["The amount will be refunded within seven working days.", "The order will arrive in seven days.", "You'll be charged again in seven days.", "The refund was refused."],
+            options: ["The amount will be refunded within seven business days.", "The order will arrive in seven days.", "You'll be charged again in seven days.", "The refund was refused."],
             correctIndex: 0,
-            explanation: "\"Será estornado\" is a future passive: will be refunded. \"Dias úteis\" are working days.",
+            explanation: "\"Será estornado\" is a future passive: will be refunded. \"Dias úteis\" are business days.",
           },
         ],
       },
@@ -1313,7 +1313,7 @@ export const PT_B1_U35: Lesson[] = [
         type: "listen-choose",
         audio: "Aí a vizinha virou pra mim e falou: bora dançar!",
         question: "What happened?",
-        options: ["The neighbour turned to the speaker and said: let's dance!", "The neighbour turned the music off.", "The speaker asked the neighbour to dance.", "The neighbour said she couldn't dance."],
+        options: ["The neighbor turned to the speaker and said: let's dance!", "The neighbor turned the music off.", "The speaker asked the neighbor to dance.", "The neighbor said she couldn't dance."],
         correctIndex: 0,
         explanation: "\"Virou pra mim e falou\" is the storyteller's he/she turned to me and said; \"bora\" is spoken \"vamos embora\", let's.",
       },
@@ -1362,7 +1362,7 @@ export const PT_B1_U35: Lesson[] = [
       {
         heading: "A voice note",
         body: [
-          "Real voice notes run words together: \"cê tá\" for \"você está\", \"tava\" for \"estava\", \"pra\" and \"pro\", \"num\" for \"não\" before a verb. Listen for the purpose first (an invitation? a warning? a favour?), then for the details: time, place, what you need to do.",
+          "Real voice notes run words together: \"cê tá\" for \"você está\", \"tava\" for \"estava\", \"pra\" and \"pro\", \"num\" for \"não\" before a verb. Listen for the purpose first (an invitation? a warning? a favor?), then for the details: time, place, what you need to do.",
         ],
         examples: [
           { es: "Oi, amiga, cê tá em casa? Tava pensando em passar aí mais tarde.", en: "Hi, are you home? I was thinking of popping round later." },
@@ -1395,7 +1395,7 @@ export const PT_B1_U35: Lesson[] = [
           "News radio is fast but clear, packed with reporting verbs (\"anunciou\", \"afirmou\", \"segundo\"), numbers and passives: \"A nova linha do metrô de Salvador será inaugurada no próximo mês, anunciou o governo do estado. Segundo a secretaria, cerca de 80 mil passageiros devem usar a linha por dia.\" Note who says what, and the numbers with their words.",
         ],
         examples: [
-          { es: "A nova linha do metrô será inaugurada no próximo mês, anunciou o governo.", en: "The new metro line will open next month, the government announced." },
+          { es: "A nova linha do metrô será inaugurada no próximo mês, anunciou o governo.", en: "The new subway line will open next month, the government announced." },
           { es: "Segundo a secretaria, cerca de 80 mil passageiros devem usar a linha por dia.", en: "According to the department, about 80,000 passengers are expected to use the line daily." },
           { es: "A obra custou o dobro do previsto.", en: "The works cost twice as much as planned." },
         ],
@@ -1422,7 +1422,7 @@ export const PT_B1_U35: Lesson[] = [
       {
         heading: "A call to a company",
         body: [
-          "Calls to companies start with a recorded menu (\"para segunda via do boleto, digite 1\") and then an agent with fixed phrases: \"pois não\", \"com quem eu falo?\", \"o senhor poderia me informar o CPF?\", \"vou estar transferindo\" (a much-mocked call-centre habit), \"anote o número do protocolo\". Always note the protocol number.",
+          "Calls to companies start with a recorded menu (\"para segunda via do boleto, digite 1\") and then an agent with fixed phrases: \"pois não\", \"com quem eu falo?\", \"o senhor poderia me informar o CPF?\", \"vou estar transferindo\" (a much-mocked call-center habit), \"anote o número do protocolo\". Always note the protocol number.",
         ],
         examples: [
           { es: "Para falar com um atendente, digite 9.", en: "To speak to an agent, press 9." },
@@ -1575,7 +1575,7 @@ export const PT_B1_U35: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "According to the department, the works will finish in December.",
+        source: "According to the department, the construction will finish in December.",
         answer: "Segundo a secretaria, as obras vão terminar em dezembro.",
         altAnswers: ["Segundo a secretaria, as obras terminarão em dezembro.", "De acordo com a secretaria, as obras vão terminar em dezembro.", "Segundo a secretaria, a obra vai terminar em dezembro.", "Segundo a secretaria, as obras devem terminar em dezembro.", "Conforme a secretaria, as obras vão terminar em dezembro.", "Segundo a secretaria, as obras vão acabar em dezembro."],
         explanation: "\"Segundo\" names the source. A government department is a \"secretaria\".",
@@ -1603,7 +1603,7 @@ export const PT_B1_U35: Lesson[] = [
           { es: "Sugiro que você vá à Lagoa da Conceição no fim da tarde.", en: "I suggest you go to Lagoa da Conceição in the late afternoon." },
           { es: "Vale a pena fazer a trilha até a praia do Saquinho.", en: "It's worth doing the trail to Saquinho beach." },
           { es: "No seu lugar, eu alugaria um carro, porque as praias ficam longe umas das outras.", en: "In your place, I'd rent a car, because the beaches are far from each other." },
-          { es: "Caso chova, tem ótimos museus no centro.", en: "In case it rains, there are great museums in the centre." },
+          { es: "Caso chova, tem ótimos museus no centro.", en: "In case it rains, there are great museums in the center." },
         ],
         checkpoint: [
           {
@@ -1629,7 +1629,7 @@ export const PT_B1_U35: Lesson[] = [
       {
         heading: "Text 2: An opinion post (20 minutes)",
         body: [
-          "Task: write a post for a neighbourhood blog in Belo Horizonte answering \"Os aplicativos de entrega vão acabar com as feiras livres?\". Reader: neighbours online. Purpose: give and defend a position. A title, \"você\" to the reader, a position early, two reasons with connectors, a concession with \"embora\", and a closing question.",
+          "Task: write a post for a neighborhood blog in Belo Horizonte answering \"Os aplicativos de entrega vão acabar com as feiras livres?\". Reader: neighbors online. Purpose: give and defend a position. A title, \"você\" to the reader, a position early, two reasons with connectors, a concession with \"embora\", and a closing question.",
           "Useful frames: \"na minha opinião\", \"não acho que\" + subjunctive, \"por um lado..., por outro...\", \"além disso\", \"por isso\". Avoid presenting a guess as fact: \"acredito que\", \"é provável que\".",
         ],
         examples: [
@@ -1662,15 +1662,15 @@ export const PT_B1_U35: Lesson[] = [
       {
         heading: "Text 3: A formal complaint (20 minutes)",
         body: [
-          "Task: you cancelled your gym membership in March, but you've been charged for April and May. Write to the gym's customer service. Reader: a company. Purpose: complain and ask for a refund. \"Prezados senhores\", the facts with dates, the request, a deadline, \"Atenciosamente\".",
+          "Task: you canceled your gym membership in March, but you've been charged for April and May. Write to the gym's customer service. Reader: a company. Purpose: complain and ask for a refund. \"Prezados senhores\", the facts with dates, the request, a deadline, \"Atenciosamente\".",
           "The past tenses carry the facts: \"solicitei o cancelamento no dia 2 de março\", \"o atendente confirmou que o plano tinha sido cancelado\", \"no entanto, fui cobrado duas vezes\". The request takes the subjunctive: \"solicito que o valor seja devolvido em até dez dias\".",
         ],
         examples: [
           { es: "Prezados senhores, escrevo para reclamar de cobranças indevidas.", en: "Dear Sirs, I'm writing to complain about incorrect charges." },
-          { es: "Solicitei o cancelamento do meu plano no dia 2 de março.", en: "I requested the cancellation of my membership on 2 March." },
-          { es: "O atendente confirmou que o plano tinha sido cancelado.", en: "The agent confirmed that the plan had been cancelled." },
+          { es: "Solicitei o cancelamento do meu plano no dia 2 de março.", en: "I requested the cancellation of my membership on March 2." },
+          { es: "O atendente confirmou que o plano tinha sido cancelado.", en: "The agent confirmed that the plan had been canceled." },
           { es: "No entanto, fui cobrado em abril e em maio.", en: "However, I was charged in April and May." },
-          { es: "Solicito que o valor seja devolvido em até dez dias úteis.", en: "I request that the amount be refunded within ten working days." },
+          { es: "Solicito que o valor seja devolvido em até dez dias úteis.", en: "I request that the amount be refunded within ten business days." },
         ],
         checkpoint: [
           {
@@ -1694,7 +1694,7 @@ export const PT_B1_U35: Lesson[] = [
           {
             type: "speak",
             text: "Solicitei o cancelamento do meu plano no dia dois de março.",
-            prompt: "Say it in Portuguese: I requested the cancellation of my membership on 2 March.",
+            prompt: "Say it in Portuguese: I requested the cancellation of my membership on March 2.",
             tip: "\"Cancelamento\": can-se-la-MEN-tu; the c before e sounds like s.",
             explanation: "A dated fact in the perfeito: the backbone of any complaint.",
           },
@@ -1715,7 +1715,7 @@ export const PT_B1_U35: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "In case it rains, there are good museums in the centre.",
+        source: "In case it rains, there are good museums in the center.",
         answer: "Caso chova, tem bons museus no centro.",
         altAnswers: ["Caso chova, há bons museus no centro.", "Caso chova, existem bons museus no centro.", "Se chover, tem bons museus no centro.", "Caso chova, tem ótimos museus no centro."],
         explanation: "\"Caso\" + subjunctive \"chova\" (from \"chover\"). In a friendly email, \"tem\" for there are.",
@@ -1748,7 +1748,7 @@ export const PT_B1_U35: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The agent confirmed that the plan had been cancelled.",
+        source: "The agent confirmed that the plan had been canceled.",
         answer: "O atendente confirmou que o plano tinha sido cancelado.",
         altAnswers: ["A atendente confirmou que o plano tinha sido cancelado.", "O atendente confirmou que o plano havia sido cancelado.", "A atendente confirmou que o plano havia sido cancelado.", "O atendente confirmou que o plano estava cancelado.", "A atendente confirmou que o plano estava cancelado."],
         explanation: "The mais-que-perfeito passive: \"tinha sido\" + participle, for something done before the confirmation.",
@@ -1941,7 +1941,7 @@ export const PT_B1_U35: Lesson[] = [
         source: "I started studying Portuguese when I moved to Brazil.",
         answer: "Comecei a estudar português quando me mudei para o Brasil.",
         altAnswers: ["Eu comecei a estudar português quando me mudei para o Brasil.", "Comecei a estudar português quando eu me mudei para o Brasil.", "Comecei a estudar português quando vim para o Brasil.", "Comecei a estudar português quando me mudei pro Brasil.", "Eu comecei a estudar português quando vim morar no Brasil."],
-        explanation: "Two events in the perfeito: \"comecei\", \"me mudei\". \"Mudar-se\" is to move house or country.",
+        explanation: "Two events in the perfeito: \"comecei\", \"me mudei\". \"Mudar-se\" is to move or country.",
       },
       {
         type: "translate",
@@ -2052,8 +2052,8 @@ export const PT_B1_U35: Lesson[] = [
           "Work without notes, as in the exam. Read the text, then answer. \"Recife ganhou, no mês passado, a sua primeira biblioteca comunitária flutuante: um barco que percorre o rio Capibaribe levando livros a bairros que não têm biblioteca. O projeto, que foi criado por um grupo de professores aposentados, depende de doações. Segundo os organizadores, mais de três mil livros já foram emprestados, embora o barco só funcione aos fins de semana.\"",
         ],
         examples: [
-          { es: "Recife ganhou a sua primeira biblioteca comunitária flutuante.", en: "Recife has got its first floating community library." },
-          { es: "O barco percorre o rio levando livros a bairros que não têm biblioteca.", en: "The boat travels the river taking books to neighbourhoods with no library." },
+          { es: "Recife ganhou a sua primeira biblioteca comunitária flutuante.", en: "Recife now has its first floating community library." },
+          { es: "O barco percorre o rio levando livros a bairros que não têm biblioteca.", en: "The boat travels the river taking books to neighborhoods with no library." },
           { es: "O projeto foi criado por um grupo de professores aposentados.", en: "The project was set up by a group of retired teachers." },
           { es: "Mais de três mil livros já foram emprestados.", en: "Over three thousand books have already been lent." },
         ],
@@ -2061,9 +2061,9 @@ export const PT_B1_U35: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which statement matches the text?",
-            options: ["The boat only runs at weekends, but over 3,000 books have been lent.", "The library is run by the city council.", "The boat runs every day.", "The project is funded by ticket sales."],
+            options: ["The boat only runs on weekends, but over 3,000 books have been lent.", "The library is run by the city council.", "The boat runs every day.", "The project is funded by ticket sales."],
             correctIndex: 0,
-            explanation: "\"Embora o barco só funcione aos fins de semana\" (although it only runs at weekends) and \"mais de três mil livros já foram emprestados\". The project depends on \"doações\" (donations).",
+            explanation: "\"Embora o barco só funcione aos fins de semana\" (although it only runs on weekends) and \"mais de três mil livros já foram emprestados\". The project depends on \"doações\" (donations).",
           },
           {
             type: "translate",
@@ -2077,8 +2077,8 @@ export const PT_B1_U35: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Paraphrase without copying. Translate: According to the organisers, the boat has already lent over three thousand books.",
-            source: "According to the organisers, the boat has already lent over three thousand books.",
+            prompt: "Paraphrase without copying. Translate: According to the organizers, the boat has already lent over three thousand books.",
+            source: "According to the organizers, the boat has already lent over three thousand books.",
             answer: "De acordo com os organizadores, o barco já emprestou mais de três mil livros.",
             altAnswers: ["Segundo os organizadores, o barco já emprestou mais de três mil livros.", "Conforme os organizadores, o barco já emprestou mais de três mil livros.", "De acordo com os organizadores, o barco já emprestou mais de 3 mil livros.", "Segundo os organizadores, o barco já emprestou mais de 3 mil livros."],
             explanation: "The active \"o barco já emprestou\" rewords the passive of the source. English has lent is the perfeito with \"já\".",
@@ -2093,14 +2093,14 @@ export const PT_B1_U35: Lesson[] = [
         examples: [
           { es: "Oi, é a Beatriz. A reunião de amanhã foi adiada pra quinta, tá?", en: "Hi, it's Beatriz. Tomorrow's meeting has been moved to Thursday, OK?" },
           { es: "O chefe pediu pra gente levar os relatórios impressos.", en: "The boss asked us to bring the reports printed." },
-          { es: "O preço da gasolina subiu pela terceira vez este ano.", en: "The price of petrol has gone up for the third time this year." },
+          { es: "O preço da gasolina subiu pela terceira vez este ano.", en: "The price of gas has gone up for the third time this year." },
         ],
         checkpoint: [
           {
             type: "listen-choose",
             audio: "Oi, é a Beatriz. A reunião de amanhã foi adiada pra quinta, e o chefe pediu pra gente levar os relatórios impressos.",
             question: "What has changed, and what do you need to do?",
-            options: ["The meeting is now on Thursday; bring printed reports.", "The meeting is cancelled; email the reports.", "The meeting is tomorrow; the boss will print the reports.", "The meeting moved to Tuesday; bring a laptop."],
+            options: ["The meeting is now on Thursday; bring printed reports.", "The meeting is canceled; email the reports.", "The meeting is tomorrow; the boss will print the reports.", "The meeting moved to Tuesday; bring a laptop."],
             correctIndex: 0,
             explanation: "\"Foi adiada pra quinta\" (postponed to Thursday) and \"pediu pra gente levar os relatórios impressos\".",
           },
@@ -2108,7 +2108,7 @@ export const PT_B1_U35: Lesson[] = [
             type: "listen-choose",
             audio: "O preço da gasolina subiu pela terceira vez este ano, e os motoristas de aplicativo ameaçam fazer greve.",
             question: "What does the news item say?",
-            options: ["Petrol went up for the third time this year, and app drivers are threatening to strike.", "Petrol prices fell three times this year.", "App drivers went on strike three times this year.", "Petrol will go up next year."],
+            options: ["Gas prices went up for the third time this year, and app drivers are threatening to strike.", "Gas prices fell three times this year.", "App drivers went on strike three times this year.", "Petrol will go up next year."],
             correctIndex: 0,
             explanation: "\"Subiu pela terceira vez\" (rose for the third time); \"ameaçam fazer greve\" (threaten to strike).",
           },
@@ -2170,7 +2170,7 @@ export const PT_B1_U35: Lesson[] = [
           "Finally, short productive tasks. For writing, set the register by the reader and state the purpose in the first lines. For speaking, give a position, a reason and an example, and use at least one conditional and one subjunctive. When you can do all this without help, B1 is behind you.",
         ],
         examples: [
-          { es: "Prezada Sra. Lima, escrevo para confirmar a minha inscrição no curso.", en: "Dear Ms Lima, I'm writing to confirm my enrolment on the course." },
+          { es: "Prezada Sra. Lima, escrevo para confirmar a minha inscrição no curso.", en: "Dear Ms. Lima, I'm writing to confirm my enrollment on the course." },
           { es: "Na minha opinião, o trabalho híbrido é o melhor modelo, porque...", en: "In my opinion, hybrid work is the best model, because..." },
           { es: "No lugar da empresa, eu ofereceria horários flexíveis.", en: "If I were the company, I'd offer flexible hours." },
         ],
@@ -2179,7 +2179,7 @@ export const PT_B1_U35: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Dear Ms Lima, I'm writing to confirm my enrolment.",
+            source: "Dear Ms. Lima, I'm writing to confirm my enrollment.",
             answer: "Prezada Sra. Lima, escrevo para confirmar a minha inscrição.",
             altAnswers: ["Prezada Sra. Lima, escrevo para confirmar minha inscrição.", "Prezada Senhora Lima, escrevo para confirmar a minha inscrição.", "Prezada Sra. Lima, estou escrevendo para confirmar a minha inscrição.", "Prezada Sra. Lima, escrevo para confirmar a minha matrícula.", "Prezada Sra. Lima, venho confirmar a minha inscrição."],
             explanation: "Formal greeting, then the purpose with \"escrevo para\" + infinitive.",
@@ -2259,7 +2259,7 @@ export const PT_B1_U35: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Flats for rent near the university.",
+        source: "Apartments for rent near the university.",
         answer: "Alugam-se apartamentos perto da universidade.",
         altAnswers: ["Aluga-se apartamentos perto da universidade.", "Apartamentos para alugar perto da universidade.", "Alugam-se apartamentos próximo à universidade.", "Alugam-se apartamentos próximos à universidade."],
         explanation: "The \"se\" passive agrees with the plural in careful writing: \"alugam-se\". \"Aluga-se apartamentos\" is very common on real signs.",
@@ -2298,7 +2298,7 @@ export const PT_B1_U35: Lesson[] = [
 
 export const PT_B1_U35_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Exit test writing task. You rented a flat in Fortaleza through an agency two months ago. When you signed the contract, the agent had promised that the air conditioning would be repaired before you moved in, but it still doesn't work, and nobody answered your last two calls. Write a formal email to the agency (120-150 words): explain what happened, report what the agent told you, ask for a solution by a deadline and say what you'll do if nothing happens.",
+  prompt: "Exit test writing task. You rented an apartment in Fortaleza through an agency two months ago. When you signed the contract, the agent had promised that the air conditioning would be repaired before you moved in, but it still doesn't work, and nobody answered your last two calls. Write a formal email to the agency (120-150 words): explain what happened, report what the agent told you, ask for a solution by a deadline and say what you'll do if nothing happens.",
   minWords: 120,
   maxWords: 150,
   rubric: [

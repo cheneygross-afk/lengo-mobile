@@ -161,7 +161,7 @@ export const CELPE_BRAS_2_INDIVIDUAL: ExamPaper = {
           "– Você concorda com os críticos?",
           "– Em boa parte, sim. Acho ótimo que uma empresa ofereça meditação, eu mesma participaria. Mas, se a pessoa medita dez minutos e depois volta para uma jornada de doze horas, com metas impossíveis e mensagens do chefe à meia-noite, nada muda. Seria como tratar a febre sem tratar a infecção.",
           "– O que uma empresa deveria fazer, então?",
-          "– Começar pelo básico: equipes do tamanho certo, respeito ao horário de descanso, um chefe que perceba quando alguém não está bem. Na área da saúde, onde eu trabalho, o burnout é muito comum, e o que mais ajuda é poder conversar com alguém e ter folgas de verdade.",
+          "– Começar pelo básico: equipes do tamanho certo, respeito ao horário de descanso, um chefe que perceba quando alguém não está bem. Na área da saúde, onde eu trabalhei, o burnout é muito comum, e o que mais ajuda é poder conversar com alguém e ter folgas de verdade.",
         ),
       },
     },

@@ -149,7 +149,7 @@ export const FR_C2_GUIDES: FrGrammarGuide[] = [
         heading: "Qui without an antecedent",
         body: [
           "In proverbs, \"qui\" often stands alone and means \"celui qui\" (whoever, he who): \"Qui vivra verra\" (time will tell), \"Qui ne dit mot consent\" (silence gives consent), \"Qui va à la chasse perd sa place.\" This independent relative was normal in classical French and survives in a few modern expressions too: \"qui plus est\" (what's more), \"qui mieux est\", \"comme qui dirait\" (as you might say).",
-          "Many proverbs have a balanced two-part structure built on this \"qui\": \"Qui sème le vent récolte la tempête\", \"Qui aime bien châtie bien.\" The second half has no subject pronoun because \"qui\" clause is itself the subject.",
+          "Many proverbs have a balanced two-part structure built on this \"qui\": \"Qui sème le vent récolte la tempête\", \"Qui aime bien châtie bien.\" The second half has no subject pronoun because the \"qui\" clause is itself the subject.",
         ],
         examples: [
           { fr: "Qui vivra verra.", en: "Time will tell." },
@@ -169,7 +169,7 @@ export const FR_C2_GUIDES: FrGrammarGuide[] = [
           { fr: "Il n'est pire sourd que celui qui ne veut pas entendre.", en: "There's none so deaf as those who will not hear." },
           { fr: "Il n'est pire eau que l'eau qui dort.", en: "Still waters run deep." },
           { fr: "À bon entendeur, salut.", en: "A word to the wise." },
-          { fr: "Tel père, tel fils.", en: "Like father, like son: the son takes after the father." },
+          { fr: "Tel père, tel fils.", en: "Like father, like son: the apple doesn't fall far from the tree." },
           { fr: "Autres temps, autres mœurs.", en: "Other times, other customs." },
         ],
       },
@@ -421,7 +421,7 @@ export const FR_C2_GUIDES: FrGrammarGuide[] = [
       {
         heading: "Il est d'un ennuyeux ! and other intensifying patterns",
         body: [
-          "\"Être d'un\" + adjective (or \"d'une\" if the subject is feminine, in careful speech) is a spoken intensifier that leaves the sentence hanging: \"Il est d'un ennuyeux !\" (he's incredibly boring), \"Ce film est d'un long !\" The adjective is masculine singular after \"d'un\" because it's being used as a noun.",
+          "\"Être d'un\" + adjective (usually \"d'un\" even with a feminine subject) is a spoken intensifier that leaves the sentence hanging: \"Il est d'un ennuyeux !\" (he's incredibly boring), \"Ce film est d'un long !\" The adjective is masculine singular after \"d'un\" because it's being used as a noun.",
           "Other open-ended exclamations: \"Si tu savais !\" (If only you knew!), \"Tu parles d'une surprise !\" (some surprise that was, ironic), \"Il fait une de ces chaleurs !\" (it's incredibly hot), \"J'ai une de ces faims !\" Each leaves the listener to fill in how much.",
         ],
         examples: [
@@ -799,7 +799,7 @@ export const FR_C2_GUIDES: FrGrammarGuide[] = [
         ],
         examples: [
           { fr: "Louis XVI fut guillotiné le 21 janvier 1793.", en: "Louis XVI was guillotined on 21 January 1793. (history book)" },
-          { fr: "Il y a deux cents ans, Napoléon a perdu la bataille de Waterloo.", en: "Two hundred years ago, Napoleon lost the Battle of Waterloo. (newspaper)" },
+          { fr: "Le 18 juin 1815, Napoléon a perdu la bataille de Waterloo.", en: "On 18 June 1815, Napoleon lost the Battle of Waterloo. (newspaper)" },
           { fr: "1789 : les états généraux se réunissent à Versailles.", en: "1789: the Estates-General meet at Versailles. (chronology)" },
           { fr: "La population souffrait de la faim ; le peuple se souleva.", en: "The people were suffering from hunger; they rose up." },
           { fr: "Charles de Gaulle naquit à Lille en 1890.", en: "Charles de Gaulle was born in Lille in 1890." },

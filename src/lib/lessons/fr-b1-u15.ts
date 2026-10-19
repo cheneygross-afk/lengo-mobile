@@ -248,7 +248,7 @@ export const FR_B1_U15: Lesson[] = [
       {
         heading: "Hearing ai / avais",
         body: [
-          "\"J'ai fini\" (two syllables before fini: j'é) vs \"j'avais fini\" (j'a-vè): the extra syllable \"-vais\" is the clue. With être: \"elle est partie\" (è) vs \"elle était partie\" (é-tè).",
+          "\"J'ai fini\" (one syllable before fini: j'é) vs \"j'avais fini\" (two: j'a-vè): the extra syllable \"-vais\" is the clue. With être: \"elle est partie\" (è) vs \"elle était partie\" (é-tè).",
           "In connected speech the difference is quick, so train your ear on the auxiliary: \"on a mangé\" / \"on avait mangé\", \"ils ont vu\" / \"ils avaient vu\".",
         ],
         examples: [
@@ -422,7 +422,7 @@ export const FR_B1_U15: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "When I came in, they [had just eaten].",
+        en: "When I came in, they [had just] eaten.",
         sentence: "Quand je suis entré, ils ___ manger.",
         answer: "venaient de",
         explanation: "\"Venaient de\" + infinitive.",
@@ -907,7 +907,7 @@ export const FR_B1_U15: Lesson[] = [
         type: "speak",
         text: "Finalement, on est restés à la maison.",
         prompt: "Say it in French: In the end, we stayed at home.",
-        explanation: "\"Finalement\": four syllables.",
+        explanation: "\"Finalement\": three syllables, fi-nal-man.",
       },
     ],
   },
@@ -1144,7 +1144,7 @@ export const FR_B1_U15: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A colleague says « Je regarde mon agenda. » What is she doing?",
+            question: "A colleague says \"Je regarde mon agenda.\" What is she doing?",
             options: ["Checking her diary.", "Reading the meeting agenda.", "Looking at her to-do list for the meeting.", "Reading the minutes."],
             correctIndex: 0,
             explanation: "\"Un agenda\" is a diary or planner.",

@@ -1350,7 +1350,7 @@ export const FR_B2_GUIDES: FrGrammarGuide[] = [
           rows: [
             ["J'ai raison.", "C'est moi qui ai raison."],
             ["Vous êtes en retard.", "C'est vous qui êtes en retard."],
-            ["Je parle à toi.", "C'est à toi que je parle."],
+            ["Je te parle.", "C'est à toi que je parle."],
             ["Je pars demain.", "C'est demain que je pars."],
             ["On a besoin de calme.", "C'est de calme qu'on a besoin."],
           ],

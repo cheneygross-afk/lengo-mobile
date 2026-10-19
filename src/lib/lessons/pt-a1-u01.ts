@@ -16,7 +16,7 @@ export const PT_A1_U01: Lesson[] = [
       {
         heading: "Hello and goodbye",
         body: [
-          "\"Oi\" is the everyday hello in Brazil, for friends, colleagues and shop staff; \"olá\" is a bit more formal. By time of day: \"bom dia\" (good morning), \"boa tarde\" (good afternoon), \"boa noite\" (good evening). Learn them as set phrases: \"dia\" takes \"bom\", but \"tarde\" and \"noite\" take \"boa\".",
+          "\"Oi\" is the everyday hello in Brazil, for friends, colleagues and store staff; \"olá\" is a bit more formal. By time of day: \"bom dia\" (good morning), \"boa tarde\" (good afternoon), \"boa noite\" (good evening). Learn them as set phrases: \"dia\" takes \"bom\", but \"tarde\" and \"noite\" take \"boa\".",
           "Unlike English, \"boa noite\" is both hello and goodbye after dark: you say it arriving at a dinner and again when you leave. Other goodbyes: \"tchau\" (bye), \"até logo\" (see you later), \"até amanhã\" (see you tomorrow).",
         ],
         examples: [
@@ -489,7 +489,7 @@ export const PT_A1_U01: Lesson[] = [
     level: "PT-A1",
     number: 3,
     title: "Dialogue Lab: Prazer!",
-    summary: "Follow a first conversation at a language exchange in São Paulo and practise greeting someone, giving your name, saying nice to meet you and saying where you're from.",
+    summary: "Follow a first conversation at a language exchange in São Paulo and practice greeting someone, giving your name, saying nice to meet you and saying where you're from.",
     duration: "10 min",
     sections: [
       {
@@ -676,7 +676,7 @@ export const PT_A1_U01: Lesson[] = [
         type: "speak",
         text: "Sou de Chicago. E você?",
         prompt: "Say it in Portuguese: I'm from Chicago. And you?",
-        tip: "In \"de\", the d before the final e sounds like the j in jeep: 'dji'.",
+        tip: "In \"de\", the d before the final e sounds like the j in jeep: 'jee'.",
         explanation: "\"Sou de Chicago\" uses \"ser de\" for origin, and \"e você?\" returns the question.",
       },
     ],
@@ -731,7 +731,7 @@ export const PT_A1_U01: Lesson[] = [
       {
         heading: "O senhor, a senhora: the polite you",
         body: [
-          "For older people, customers and formal settings, Brazilians say \"o senhor\" to a man and \"a senhora\" to a woman. A shop assistant uses it with you. You use it with your friend's grandmother, a doctor or a new boss.",
+          "For older people, customers and formal settings, Brazilians say \"o senhor\" to a man and \"a senhora\" to a woman. A salesclerk uses it with you. You use it with your friend's grandmother, a doctor or a new boss.",
           "It literally means 'the gentleman' or 'the lady', so it takes the ele/ela form, just like \"você\": \"o senhor é\", \"a senhora é\". The plural is \"os senhores\" or \"as senhoras\", with \"são\". The trap for English speakers: \"o senhor\" here means you, not some other man.",
           "When you just call someone, drop the article: \"Bom dia, senhor.\"",
         ],
@@ -764,7 +764,7 @@ export const PT_A1_U01: Lesson[] = [
       {
         heading: "Dona Maria, seu Antônio",
         body: [
-          "With a first name, Brazilians add a warm, respectful title: \"Dona\" for a woman (\"Dona Maria\") and \"seu\" for a man (\"seu Antônio\"). It's how you greet an older neighbour, the doorman or your friend's mother.",
+          "With a first name, Brazilians add a warm, respectful title: \"Dona\" for a woman (\"Dona Maria\") and \"seu\" for a man (\"seu Antônio\"). It's how you greet an older neighbor, the doorman or your friend's mother.",
           "This \"seu\" is a short form of \"senhor\", not the word for your. In a sentence, the person still gets \"o senhor\" or \"a senhora\" and the ele/ela verb: \"Dona Maria, a senhora é de Manaus?\"",
         ],
         examples: [
@@ -777,7 +777,7 @@ export const PT_A1_U01: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Your older neighbour is called Antônio. How do you greet him respectfully in the morning?",
+            question: "Your older neighbor is called Antônio. How do you greet him respectfully in the morning?",
             options: ["Bom dia, seu Antônio!", "Bom dia, Dona Antônio!", "Boa noite, seu Antônio!", "Bom dia, senhora Antônio!"],
             correctIndex: 0,
             explanation: "A man gets \"seu\" + first name. \"Dona\" and \"senhora\" are for women, and \"boa noite\" is for after dark.",
@@ -794,7 +794,7 @@ export const PT_A1_U01: Lesson[] = [
           {
             type: "speak",
             text: "Boa noite, Dona Maria!",
-            tip: "In \"noite\" the t before the final -e sounds like the ch in cheese: \"noitchi\".",
+            tip: "In \"noite\" the t before the final -e sounds like the ch in cheese: 'NOY-chee'.",
             explanation: "\"Dona\" + first name is a warm, respectful greeting for an older woman.",
           },
         ],
@@ -968,7 +968,7 @@ export const PT_A1_U01: Lesson[] = [
           {
             type: "speak",
             text: "Elas são inglesas.",
-            tip: "The s in inglesas sits between two vowels, so it sounds like a z: in-GLE-zas.",
+            tip: "The s in inglesas sits between two vowels, so it sounds like a z: 'een-GLAY-zahs'.",
             explanation: "\"Elas são\" for a group of women, and the nationality is feminine plural: \"inglesas\".",
           },
         ],
@@ -977,7 +977,7 @@ export const PT_A1_U01: Lesson[] = [
         heading: "Sou do Brasil: where you're from",
         body: [
           "Remember \"ser de\" for origin: \"sou de Recife\". Most countries carry an article, and \"de\" fuses with it: \"sou do Brasil\" (de + o), \"sou da Argentina\" (de + a), \"sou dos Estados Unidos\" (de + os). Learn each country as a chunk: \"do Canadá\", \"do Japão\", \"da França\", \"da Inglaterra\".",
-          "\"Portugal\" takes no article, so it's plain \"de Portugal\". Most cities don't take one either: \"ela é de Salvador\", \"sou de Curitiba\". The full rule for contractions comes in Unit 7.",
+          "\"Portugal\" takes no article, so it's plain \"de Portugal\". Most cities don't take one either: \"ela é de Salvador\", \"sou de Curitiba\". The full rule for contractions comes in Unit 10.",
         ],
         examples: [
           { es: "Sou do Brasil.", en: "I'm from Brazil." },
@@ -2335,7 +2335,7 @@ export const PT_A1_U01: Lesson[] = [
           {
             type: "speak",
             text: "Sou estudante. Tchau, pessoal!",
-            tip: "In \"estudante\" the final -e sounds like i, and the t before it like ch: es-tu-DAN-chi.",
+            tip: "In \"estudante\" the final -e sounds like i, and the t before it like ch: 'es-too-DAHN-chee'.",
             explanation: "\"Sou estudante\" needs no article, and \"estudante\" is the same for men and women.",
           },
         ],
@@ -2430,7 +2430,7 @@ export const PT_A1_U01: Lesson[] = [
         type: "speak",
         text: "Oi! Sou de São Paulo e sou estudante. Tchau!",
         prompt: "Say it in Portuguese: Hi! I'm from São Paulo and I'm a student. Bye!",
-        tip: "Keep \"Paulo\" short at the end: PAU-lu, with the final -o sounding like u.",
+        tip: "Keep \"Paulo\" short at the end: 'POW-loo', with the final -o sounding like u.",
         explanation: "This is the whole profile in one breath: greeting, \"sou de\" for origin, \"sou estudante\" with no article, and a goodbye.",
       },
     ],
@@ -2561,7 +2561,7 @@ export const PT_A1_U01: Lesson[] = [
             type: "speak",
             text: "A senhora é de Salvador?",
             prompt: "Say it in Portuguese: Are you from Salvador? (to an older woman)",
-            tip: "Before an i sound, d sounds like the j in jeep, so \"de\" comes out close to \"dji\".",
+            tip: "Before an i sound, d sounds like the j in jeep, so \"de\" comes out close to 'jee'.",
             explanation: "\"A senhora é\" uses the ela form of \"ser\", and it's the respectful way to address an older woman.",
           },
         ],
@@ -2635,7 +2635,7 @@ export const PT_A1_U01: Lesson[] = [
         type: "speak",
         text: "Muito prazer, eu sou de Recife.",
         prompt: "Say it in Portuguese: Nice to meet you, I'm from Recife.",
-        tip: "The \"ui\" in \"muito\" is nasal, close to \"muinto\".",
+        tip: "The \"ui\" in \"muito\" is nasal, close to 'muintu'.",
         explanation: "\"Muito prazer\" answers an introduction, and \"sou de\" + city gives your origin.",
       },
       {

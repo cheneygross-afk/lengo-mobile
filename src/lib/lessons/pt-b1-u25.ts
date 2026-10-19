@@ -230,12 +230,12 @@ export const PT_B1_U25: Lesson[] = [
       {
         heading: "The film set: scenery and action",
         body: [
-          "Picture a film set. The imperfeito is the scenery and the lighting: it's there the whole time, with no beginning or end in view (\"era uma sexta-feira\", \"chovia muito\", \"a rua estava vazia\"). The perfeito is the actors' actions: things that start, happen and finish (\"um carro parou\", \"um homem desceu\").",
+          "Picture a movie set. The imperfeito is the scenery and the lighting: it's there the whole time, with no beginning or end in view (\"era uma sexta-feira\", \"chovia muito\", \"a rua estava vazia\"). The perfeito is the actors' actions: things that start, happen and finish (\"um carro parou\", \"um homem desceu\").",
           "Brazilian storytellers usually build the scenery first, in two or three imperfeito sentences, then switch to the perfeito when something happens. That switch is a signal to the listener: now the story starts. If you tell everything in the perfeito, you get a list of events with no atmosphere; if you stay in the imperfeito, nothing ever happens.",
         ],
         examples: [
           { es: "Era uma sexta-feira e chovia muito.", en: "It was a Friday and it was raining hard." },
-          { es: "A rua estava vazia e as lojas já estavam fechadas.", en: "The street was empty and the shops were already closed." },
+          { es: "A rua estava vazia e as lojas já estavam fechadas.", en: "The street was empty and the stores were already closed." },
           { es: "De repente, um carro parou na minha frente.", en: "Suddenly, a car stopped in front of me." },
           { es: "Um homem desceu e me perguntou as horas.", en: "A man got out and asked me the time." },
           { es: "Eu morava no Recife e trabalhava num banco.", en: "I lived in Recife and worked at a bank." },
@@ -267,7 +267,7 @@ export const PT_B1_U25: Lesson[] = [
         ],
         examples: [
           { es: "Eu estava voltando do trabalho quando o meu celular tocou.", en: "I was coming back from work when my phone rang." },
-          { es: "A gente estava saindo do cinema quando começou a chover.", en: "We were leaving the cinema when it started to rain." },
+          { es: "A gente estava saindo do cinema quando começou a chover.", en: "We were leaving the movie theater when it started to rain." },
           { es: "Enquanto eu esperava o ônibus, ela lia o jornal.", en: "While I was waiting for the bus, she was reading the paper." },
           { es: "Quando o professor entrou, os alunos estavam conversando.", en: "When the teacher came in, the students were chatting." },
           { es: "O bebê estava dormindo, então a gente falava baixinho.", en: "The baby was sleeping, so we were talking very quietly." },
@@ -277,7 +277,7 @@ export const PT_B1_U25: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We were leaving the cinema when it started to rain.",
+            source: "We were leaving the movie theater when it started to rain.",
             answer: "A gente estava saindo do cinema quando começou a chover.",
             altAnswers: ["Nós estávamos saindo do cinema quando começou a chover.", "Estávamos saindo do cinema quando começou a chover.", "Quando começou a chover, a gente estava saindo do cinema.", "Quando começou a chover, nós estávamos saindo do cinema.", "Quando começou a chover, estávamos saindo do cinema."],
             explanation: "The frame is \"estava saindo\"; the rain starting is the event, \"começou\".",
@@ -332,7 +332,7 @@ export const PT_B1_U25: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "It was a Friday and the shops were already closed.",
+        source: "It was a Friday and the stores were already closed.",
         answer: "Era uma sexta-feira e as lojas já estavam fechadas.",
         altAnswers: ["Era sexta-feira e as lojas já estavam fechadas.", "Era uma sexta e as lojas já estavam fechadas.", "Era sexta e as lojas já estavam fechadas."],
         explanation: "All scenery: \"era\" and \"estavam fechadas\" in the imperfeito.",
@@ -439,7 +439,7 @@ export const PT_B1_U25: Lesson[] = [
         heading: "Eu ia sair, mas...",
         body: [
           "\"Ir\" + infinitive is your everyday future: \"vou sair\". Put \"ir\" in the imperfeito and you get the future seen from the past: \"eu ia sair\" (I was going to go out). Almost always a \"mas\" follows, because the plan didn't happen: \"eu ia sair, mas começou a chover\".",
-          "This is the most natural way in Brazil to talk about cancelled plans. The reason usually comes in the perfeito (what happened) or the imperfeito (how things were): \"a gente ia viajar, mas o carro quebrou\"; \"eu ia ligar, mas estava sem bateria\". English uses was going to in the same way, so this one feels familiar.",
+          "This is the most natural way in Brazil to talk about canceled plans. The reason usually comes in the perfeito (what happened) or the imperfeito (how things were): \"a gente ia viajar, mas o carro quebrou\"; \"eu ia ligar, mas estava sem bateria\". English uses was going to in the same way, so this one feels familiar.",
         ],
         examples: [
           { es: "Eu ia sair, mas começou a chover.", en: "I was going to go out, but it started to rain." },
@@ -647,7 +647,7 @@ export const PT_B1_U25: Lesson[] = [
       {
         heading: "The turn: de repente, de uma hora para outra, quando vi",
         body: [
-          "Story markers tell the listener where they are in the story. The turn, the moment the background breaks, has three favourites. \"De repente\" (suddenly) is the neutral one. \"De uma hora para outra\" (all of a sudden, out of nowhere) stresses that nobody saw it coming; in speech it's often \"de uma hora pra outra\". \"Quando vi\" (literally when I saw) means before I knew it: \"quando vi, já estava no chão\".",
+          "Story markers tell the listener where they are in the story. The turn, the moment the background breaks, has three favorites. \"De repente\" (suddenly) is the neutral one. \"De uma hora para outra\" (all of a sudden, out of nowhere) stresses that nobody saw it coming; in speech it's often \"de uma hora pra outra\". \"Quando vi\" (literally when I saw) means before I knew it: \"quando vi, já estava no chão\".",
           "All three introduce events, so the verb right after them is almost always in the perfeito. After \"quando vi\", Brazilians often switch to a state that had already arrived: \"quando vi, o ônibus já tinha passado\".",
         ],
         examples: [
@@ -686,8 +686,8 @@ export const PT_B1_U25: Lesson[] = [
         ],
         examples: [
           { es: "Na hora, eu não entendi nada.", en: "At the time, I didn't understand a thing." },
-          { es: "Foi então que eu percebi o erro.", en: "It was then that I realised the mistake." },
-          { es: "No dia seguinte, ela me ligou pedindo desculpas.", en: "The next day, she called me to apologise." },
+          { es: "Foi então que eu percebi o erro.", en: "It was then that I realized the mistake." },
+          { es: "No dia seguinte, ela me ligou pedindo desculpas.", en: "The next day, she called me to apologize." },
           { es: "Aí ela olhou para mim e riu.", en: "Then she looked at me and laughed." },
           { es: "Uma semana depois, o pacote chegou.", en: "A week later, the package arrived." },
         ],
@@ -696,7 +696,7 @@ export const PT_B1_U25: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "It was then that I realised the mistake.",
+            source: "It was then that I realized the mistake.",
             answer: "Foi então que eu percebi o erro.",
             altAnswers: ["Foi então que percebi o erro.", "Foi aí que eu percebi o erro.", "Foi aí que percebi o erro."],
             explanation: "\"Foi então que\" is a fixed frame for the key moment, and the event inside it is perfeito: \"percebi\". \"Foi aí que\" is the casual version.",
@@ -719,7 +719,7 @@ export const PT_B1_U25: Lesson[] = [
         examples: [
           { es: "No fim das contas, a festa foi ótima.", en: "In the end, the party was great." },
           { es: "Por sorte, ninguém se machucou.", en: "Luckily, nobody got hurt." },
-          { es: "Infelizmente, o voo foi cancelado.", en: "Unfortunately, the flight was cancelled." },
+          { es: "Infelizmente, o voo foi cancelado.", en: "Unfortunately, the flight was canceled." },
           { es: "Ainda bem que eu tinha levado um guarda-chuva.", en: "Thank goodness I had brought an umbrella." },
           { es: "No final, a gente riu muito da situação.", en: "In the end, we laughed a lot about the situation." },
         ],
@@ -756,16 +756,16 @@ export const PT_B1_U25: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The next day, she called me to apologise.",
+        source: "The next day, she called me to apologize.",
         answer: "No dia seguinte, ela me ligou pedindo desculpas.",
         altAnswers: ["No dia seguinte, ela me ligou para pedir desculpas.", "No dia seguinte, ela me ligou pra pedir desculpas.", "No dia seguinte ela me ligou pedindo desculpa.", "No dia seguinte, ela ligou para mim para pedir desculpas.", "No outro dia, ela me ligou pedindo desculpas."],
-        explanation: "\"No dia seguinte\" moves time forward. \"Ligar pedindo desculpas\" (call apologising) is very natural.",
+        explanation: "\"No dia seguinte\" moves time forward. \"Ligar pedindo desculpas\" (call apologizing) is very natural.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Unfortunately, the flight was cancelled.",
+        source: "Unfortunately, the flight was canceled.",
         answer: "Infelizmente, o voo foi cancelado.",
         altAnswers: ["Infelizmente o voo foi cancelado.", "Infelizmente, cancelaram o voo."],
         explanation: "\"Infelizmente\" + the event. \"Voo\" has no circumflex in current spelling.",
@@ -945,7 +945,7 @@ export const PT_B1_U25: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your friend tells you about being stuck in a lift. You want to ask if she was alone. Which question fits?",
+            question: "Your friend tells you about being stuck in an elevator. You want to ask if she was alone. Which question fits?",
             options: ["Você estava sozinha?", "Você foi sozinha?", "Você tinha estado sozinha?", "Você tem estado sozinha?"],
             correctIndex: 0,
             explanation: "Being alone is part of the scene, a state at that moment: imperfeito \"estava\".",
@@ -1206,7 +1206,7 @@ export const PT_B1_U25: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "This year we['ve been travelling] a lot.",
+        en: "This year we['ve been traveling] a lot.",
         sentence: "Este ano a gente ___ muito.",
         answer: "tem viajado",
         explanation: "A trend up to now: \"tem viajado\". \"A gente\" takes the ele form \"tem\".",
@@ -1234,7 +1234,7 @@ export const PT_B1_U25: Lesson[] = [
         type: "speak",
         text: "Quando ela chegou, eu já tinha ido embora.",
         prompt: "Say it in Portuguese: When she arrived, I had already left.",
-        tip: "Embora is stressed on the middle syllable: em-BO-ra, with a nasal em.",
+        tip: "Embora is stressed on the middle syllable: em-BÓ-ra, with a nasal em and an open o.",
         explanation: "\"Tinha ido embora\": had already left, before her arrival.",
       },
       {
@@ -1277,9 +1277,9 @@ export const PT_B1_U25: Lesson[] = [
           {
             type: "multiple-choice",
             question: "You're telling a friend how your trip to Bonito went overall: it was amazing. Which do you say?",
-            options: ["A viagem foi incrível.", "A viagem era incrível.", "A viagem tinha sido incrível.", "A viagem estava incrível."],
+            options: ["A viagem foi incrível.", "A viagem era incrível.", "A viagem tinha sido incrível.", "A viagem tem sido incrível."],
             correctIndex: 0,
-            explanation: "A verdict on a finished event: \"foi\". \"Era\" would describe it as background, \"tinha sido\" puts it before another past moment.",
+            explanation: "A verdict on a finished event: \"foi\". \"Era\" would describe it as background, \"tinha sido\" puts it before another past moment, and \"tem sido\" would mean it's still going on.",
           },
           {
             type: "translate",
@@ -1302,7 +1302,7 @@ export const PT_B1_U25: Lesson[] = [
           { es: "Eu estava cansado porque o dia tinha sido longo.", en: "I was tired because the day had been long." },
           { es: "Ela me contou que a viagem tinha sido um desastre.", en: "She told me the trip had been a disaster." },
           { es: "O dia foi longo.", en: "The day was long." },
-          { es: "A gente não sabia que a reunião tinha sido cancelada.", en: "We didn't know the meeting had been cancelled." },
+          { es: "A gente não sabia que a reunião tinha sido cancelada.", en: "We didn't know the meeting had been canceled." },
           { es: "Ele disse que o jantar tinha sido caro.", en: "He said the dinner had been expensive." },
         ],
         checkpoint: [
@@ -1318,11 +1318,11 @@ export const PT_B1_U25: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "We didn't know the meeting [had been] cancelled.",
+            en: "We didn't know the meeting [had been] canceled.",
             sentence: "A gente não sabia que a reunião ___ cancelada.",
             answer: "tinha sido",
             altAnswers: ["havia sido"],
-            explanation: "The cancelling happened before the not-knowing: \"tinha sido cancelada\". In the passive the participle agrees: \"cancelada\".",
+            explanation: "The canceling happened before the not-knowing: \"tinha sido cancelada\". In the passive the participle agrees: \"cancelada\".",
           },
         ],
       },
@@ -1439,9 +1439,9 @@ export const PT_B1_U25: Lesson[] = [
         type: "listen-choose",
         audio: "A gente não sabia que a reunião tinha sido cancelada.",
         question: "What does it mean?",
-        options: ["We didn't know the meeting had been cancelled.", "We didn't know the meeting was going to be cancelled.", "We knew the meeting had been cancelled.", "We didn't know about the meeting that was cancelled yesterday."],
+        options: ["We didn't know the meeting had been canceled.", "We didn't know the meeting was going to be canceled.", "We knew the meeting had been canceled.", "We didn't know about the meeting that was canceled yesterday."],
         correctIndex: 0,
-        explanation: "\"Tinha sido cancelada\": had been cancelled, before the moment of not knowing.",
+        explanation: "\"Tinha sido cancelada\": had been canceled, before the moment of not knowing.",
       },
       {
         type: "dictation",
@@ -1508,7 +1508,7 @@ export const PT_B1_U25: Lesson[] = [
           { es: "A bandeja caiu e o vinho foi todo no vestido da noiva.", en: "The tray fell and all the wine went on the bride's dress." },
           { es: "Não acredito! E ela?", en: "I don't believe it! And what about her?" },
           { es: "Ela já tinha trocado de vestido, era o segundo da noite.", en: "She had already changed dresses; it was the second one of the night." },
-          { es: "Eu ia pedir desculpas, mas ela saiu correndo.", en: "I was going to apologise, but she ran off." },
+          { es: "Eu ia pedir desculpas, mas ela saiu correndo.", en: "I was going to apologize, but she ran off." },
         ],
         checkpoint: [
           {
@@ -1523,7 +1523,7 @@ export const PT_B1_U25: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "I [was going to apologise], but she ran off.",
+            en: "I [was going to apologize], but she ran off.",
             sentence: "Eu ___, mas ela saiu correndo.",
             answer: "ia pedir desculpas",
             altAnswers: ["ia pedir desculpa"],
@@ -1628,9 +1628,9 @@ export const PT_B1_U25: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I was going to apologise, but she ran off.",
+        prompt: "Put the words in order to say: I was going to apologize, but she ran off.",
         words: ["Eu", "ia", "pedir", "desculpas,", "mas", "ela", "saiu", "correndo."],
-        translation: "I was going to apologise, but she ran off.",
+        translation: "I was going to apologize, but she ran off.",
         explanation: "\"Ia pedir\": the failed plan. \"Saiu correndo\": the event that stopped it.",
       },
       {
@@ -1674,14 +1674,14 @@ export const PT_B1_U25: Lesson[] = [
     level: "PT-B1",
     number: 9,
     title: "Reading a Crônica",
-    summary: "Read a short original crônica, Brazil's favourite short genre, follow its tenses and spot the turn at the end; meet Rubem Braga, Fernando Sabino and Luis Fernando Verissimo.",
+    summary: "Read a short original crônica, Brazil's favorite short genre, follow its tenses and spot the turn at the end; meet Rubem Braga, Fernando Sabino and Luis Fernando Verissimo.",
     duration: "15 min",
     sections: [
       {
         heading: "What a crônica is",
         body: [
           "The crônica is a short, personal piece about an everyday moment: a bus ride, a conversation at the padaria, a lost key. It started in newspapers and is still in Brazilian magazines and websites every week. Its tone is conversational, often funny or gently sad, and it usually ends with a small twist or reflection. Schoolchildren all over Brazil read it, so it's a shared reference.",
-          "Three names to know: Rubem Braga, who made the genre literary; Fernando Sabino, with his everyday comedy; and Luis Fernando Verissimo, whose humour is still everywhere. You'll read an original crônica written for this course, \"O guarda-chuva\" (The umbrella). It opens like most crônicas: with a habit, in the imperfeito.",
+          "Three names to know: Rubem Braga, who made the genre literary; Fernando Sabino, with his everyday comedy; and Luis Fernando Verissimo, whose humor is still everywhere. You'll read an original crônica written for this course, \"O guarda-chuva\" (The umbrella). It opens like most crônicas: with a habit, in the imperfeito.",
         ],
         examples: [
           { es: "Todo dia eu pegava o mesmo ônibus às sete e dez.", en: "Every day I took the same bus at ten past seven." },
@@ -2081,9 +2081,9 @@ export const PT_B1_U25: Lesson[] = [
         pairs: [
           { left: "eu estive dormindo", right: "eu estava dormindo" },
           { left: "ontem tenho trabalhado", right: "ontem trabalhei" },
-          { left: "ela já saiu (before I arrived)", right: "ela já tinha saído" },
+          { left: "quando cheguei, ela já saiu", right: "quando cheguei, ela já tinha saído" },
           { left: "eu ia saí", right: "eu ia sair" },
-          { left: "era uma ótima festa (verdict)", right: "foi uma ótima festa" },
+          { left: "no geral, a festa era ótima", right: "no geral, a festa foi ótima" },
         ],
         explanation: "Five of the six classic slips, each with its fix.",
       },
@@ -2101,14 +2101,14 @@ export const PT_B1_U25: Lesson[] = [
         heading: "Step 1: The background",
         body: [
           "Your mission: a crônica of about 120 words for a Brazilian blog, about something small that happened to you. Start where cronistas start, with a routine or a scene in the imperfeito: where you lived, what you did every day, a person you saw all the time. Two or three sentences are enough.",
-          "Choose something concrete: the padaria on the corner, the neighbour's dog, the bus driver. The crônica lives on small details: \"o seu Antônio da padaria sempre me dava o pão mais quentinho\".",
+          "Choose something concrete: the padaria on the corner, the neighbor's dog, the bus driver. The crônica lives on small details: \"o seu Antônio da padaria sempre me dava o pão mais quentinho\".",
         ],
         examples: [
           { es: "Quando eu morava em Curitiba, eu passava toda manhã na mesma padaria.", en: "When I lived in Curitiba, I stopped at the same bakery every morning." },
           { es: "O seu Antônio sempre me dava o pão mais quentinho.", en: "Seu Antônio always gave me the warmest bread." },
           { es: "Ele quase não falava, mas sabia o meu pedido de cor.", en: "He hardly spoke, but he knew my order by heart." },
           { es: "Na esquina morava um cachorro que latia para todo mundo.", en: "On the corner lived a dog that barked at everyone." },
-          { es: "Eu achava que conhecia bem o bairro.", en: "I thought I knew the neighbourhood well." },
+          { es: "Eu achava que conhecia bem o bairro.", en: "I thought I knew the neighborhood well." },
         ],
         checkpoint: [
           {
@@ -2137,10 +2137,10 @@ export const PT_B1_U25: Lesson[] = [
           "Add a plan that failed, which gives the story tension: \"eu ia agradecer, mas não consegui falar nada\".",
         ],
         examples: [
-          { es: "No meu último dia no bairro, eu estava pagando o pão quando ele me chamou.", en: "On my last day in the neighbourhood, I was paying for the bread when he called me over." },
+          { es: "No meu último dia no bairro, eu estava pagando o pão quando ele me chamou.", en: "On my last day in the neighborhood, I was paying for the bread when he called me over." },
           { es: "De repente, ele me entregou uma caixa pequena.", en: "Suddenly, he handed me a small box." },
           { es: "Eu ia perguntar o que era, mas ele já tinha voltado para o forno.", en: "I was going to ask what it was, but he had already gone back to the oven." },
-          { es: "Foi então que eu percebi que nunca tinha agradecido de verdade.", en: "It was then that I realised I had never really thanked him." },
+          { es: "Foi então que eu percebi que nunca tinha agradecido de verdade.", en: "It was then that I realized I had never really thanked him." },
           { es: "Saí da padaria sem dizer nada.", en: "I left the bakery without saying anything." },
         ],
         checkpoint: [
@@ -2200,7 +2200,7 @@ export const PT_B1_U25: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I thought I knew the neighbourhood well.",
+        source: "I thought I knew the neighborhood well.",
         answer: "Eu achava que conhecia bem o bairro.",
         altAnswers: ["Achava que conhecia bem o bairro.", "Eu achava que conhecia o bairro bem.", "Eu pensava que conhecia bem o bairro.", "Eu achava que eu conhecia bem o bairro."],
         explanation: "Two states: \"achava\" and \"conhecia\".",
@@ -2244,7 +2244,7 @@ export const PT_B1_U25: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "It was then that I realised I [had never thanked] him properly.",
+        en: "It was then that I realized I [had never thanked] him properly.",
         sentence: "Foi então que eu percebi que ___ direito.",
         answer: "nunca tinha agradecido",
         explanation: "Never before that moment: \"nunca tinha agradecido\". \"Direito\" here means properly.",
@@ -2274,9 +2274,9 @@ export const PT_B1_U25: Lesson[] = [
         type: "listen-choose",
         audio: "Ele quase não falava, mas sabia o meu pedido de cor.",
         question: "What does it mean?",
-        options: ["He hardly spoke, but he knew my order by heart.", "He almost didn't speak, but he found out my order.", "He didn't speak, but he knew my favourite colour.", "He spoke a lot and knew my order by heart."],
+        options: ["He hardly spoke, but he knew my order by heart.", "He almost didn't speak, but he found out my order.", "He didn't speak, but he knew my favorite color.", "He spoke a lot and knew my order by heart."],
         correctIndex: 0,
-        explanation: "\"De cor\" means by heart; it has nothing to do with colour here.",
+        explanation: "\"De cor\" means by heart; it has nothing to do with color here.",
       },
       {
         type: "dictation",
@@ -2311,7 +2311,7 @@ export const PT_B1_U25: Lesson[] = [
         examples: [
           { es: "Eu quebrei o vaso da minha sogra. Espero que ela não fique brava.", en: "I broke my mother-in-law's vase. I hope she doesn't get angry." },
           { es: "O Rafael viu tudo. Tomara que ele não conte para ninguém.", en: "Rafael saw everything. Let's hope he doesn't tell anyone." },
-          { es: "Você esqueceu o aniversário dela? É melhor que você peça desculpas.", en: "You forgot her birthday? You'd better apologise." },
+          { es: "Você esqueceu o aniversário dela? É melhor que você peça desculpas.", en: "You forgot her birthday? You'd better apologize." },
           { es: "Ela estava muito chateada. É importante que você fale com ela.", en: "She was very upset. It's important that you talk to her." },
           { es: "Que bom que deu tudo certo no fim!", en: "Great that everything worked out in the end!" },
         ],
@@ -2339,14 +2339,14 @@ export const PT_B1_U25: Lesson[] = [
         heading: "Would and was going to",
         body: [
           "Two ways to look forward from the past. \"Ele disse que viria\" (he said he would come) reports a promise with the conditional; in speech, \"ele disse que ia vir\" is just as common. \"Eu ia ligar, mas...\" is the plan that failed.",
-          "The conditional also gives advice about a story: \"eu no seu lugar, falaria com ela\". In speech, the imperfeito does the same job: \"eu no seu lugar falava com ela\".",
+          "The conditional also gives advice about a story: \"eu, no seu lugar, falaria com ela\" (in writing the commas go around \"no seu lugar\", never only after it). In speech, the imperfeito does the same job: \"eu, no seu lugar, falava com ela\".",
         ],
         examples: [
           { es: "Ele disse que viria, mas não veio.", en: "He said he would come, but he didn't." },
           { es: "Ela disse que ia ligar, mas esqueceu.", en: "She said she was going to call, but she forgot." },
-          { es: "Eu no seu lugar, falaria com ela.", en: "If I were you, I'd talk to her." },
+          { es: "Eu, no seu lugar, falaria com ela.", en: "If I were you, I'd talk to her." },
           { es: "Eu nunca faria isso com um amigo.", en: "I would never do that to a friend." },
-          { es: "Seria bom pedir desculpas logo.", en: "It would be good to apologise soon." },
+          { es: "Seria bom pedir desculpas logo.", en: "It would be good to apologize soon." },
         ],
         checkpoint: [
           {
@@ -2361,7 +2361,7 @@ export const PT_B1_U25: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Your friend tells you he lied to his boss. You want to say: if I were you, I'd tell the truth. Which fits?",
-            options: ["Eu no seu lugar, falaria a verdade.", "Eu no seu lugar, falei a verdade.", "Eu no seu lugar, tinha falado a verdade.", "Eu no seu lugar, falarei a verdade."],
+            options: ["Eu, no seu lugar, falaria a verdade.", "Eu, no seu lugar, falei a verdade.", "Eu, no seu lugar, tinha falado a verdade.", "Eu, no seu lugar, falarei a verdade."],
             correctIndex: 0,
             explanation: "Advice: \"eu no seu lugar\" + conditional \"falaria\".",
           },
@@ -2441,7 +2441,7 @@ export const PT_B1_U25: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "You forgot her birthday? You'd better [apologise].",
+        en: "You forgot her birthday? You'd better [apologize].",
         sentence: "Você esqueceu o aniversário dela? É melhor que você ___ desculpas.",
         answer: "peça",
         explanation: "\"É melhor que\" + present subjunctive: \"peça\", from the eu form \"peço\".",
@@ -2466,7 +2466,7 @@ export const PT_B1_U25: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order to say: If I were you, I'd talk to her.",
-        words: ["Eu", "no", "seu", "lugar,", "falaria", "com", "ela."],
+        words: ["Eu,", "no", "seu", "lugar,", "falaria", "com", "ela."],
         translation: "If I were you, I'd talk to her.",
         explanation: "\"Eu no seu lugar\" + conditional: advice.",
       },
@@ -2479,7 +2479,7 @@ export const PT_B1_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend tells you her flight was cancelled but she got a free hotel. What's a natural reaction?",
+        question: "A friend tells you her flight was canceled but she got a free hotel. What's a natural reaction?",
         options: ["Que azar! Mas que bom que deram o hotel.", "Que vergonha! Mas que bom que deram o hotel.", "Coitado! Mas que bom que dariam o hotel.", "Que sorte! Espero que deram o hotel."],
         correctIndex: 0,
         explanation: "Bad luck about the flight (\"que azar\"), then relief with \"que bom que\" + indicative for a fact.",

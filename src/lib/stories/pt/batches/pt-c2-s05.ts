@@ -125,7 +125,7 @@ export const PT_C2_S05_STORIES: Story[] = [
       },
       {
         question: `What does the final sentence of the captain's report suggest?`,
-        options: [`That he never realised he had been tricked`, `That he understood and chose to protect the quilombo`, `That he planned to return alone`, `That Benedita wrote the report for him`],
+        options: [`That he never realized he had been tricked`, `That he understood and chose to protect the quilombo`, `That he planned to return alone`, `That Benedita wrote the report for him`],
         correctIndex: 1,
         explanation: `He wrote "O caminho existe, mas não é para ser achado", and the narrator adds that sometimes a man goes "porque quer".`,
       },
@@ -135,7 +135,7 @@ export const PT_C2_S05_STORIES: Story[] = [
     slug: "pt-caixa-alta",
     level: "PT-C2",
     title: `Caixa alta`,
-    subtitle: `On 13 May 1888, a Black typesetter in Rio composes the headline that ends slavery, letter by backwards letter, then carries the page to the coffee farm where his mother still works.`,
+    subtitle: `On May 13, 1888, a Black typesetter in Rio composes the headline that ends slavery, letter by backwards letter, then carries the page to the coffee farm where his mother still works.`,
     paragraphs: [
       `Na oficina do jornal O Arauto, na Rua do Ouvidor, Tibúrcio Gomes era conhecido como o compositor mais rápido da Corte. Compunha de pé, diante dos cavaletes, catando os tipos de chumbo nas caixas com a mão direita e alinhando-os no componedor com a esquerda, de trás para a frente e de cabeça para baixo, como quem lê num espelho. Dizia-se que era capaz de compor uma coluna inteira sem olhar o original, só de ouvido, enquanto o revisor ditava. Ele não desmentia. Achava graça em ser o homem que lia o mundo ao contrário e o devolvia direito.`,
       `Tibúrcio nascera escravo numa fazenda de café em Vassouras e fora vendido aos nove anos a um tipógrafo francês da Corte, que precisava de dedos pequenos. O francês, homem de ideias republicanas e hábitos econômicos, ensinou-lhe o ofício, alforriou-o aos vinte e cinco em troca de dez anos de salário que nunca chegou a pagar e morreu de febre amarela, deixando-lhe uma caixa de tipos e uma dívida. A mãe de Tibúrcio, Felicidade, ficara em Vassouras. Ele mandava-lhe recados pelos tropeiros e, de dois em dois anos, ia vê-la no terreiro, com licença do senhor, como quem visita um túmulo onde a morta ainda trabalha.`,
@@ -190,7 +190,7 @@ export const PT_C2_S05_STORIES: Story[] = [
     ],
     questions: [
       {
-        question: `What did Amadeu gradually realise about the tappers' accounts?`,
+        question: `What did Amadeu gradually realize about the tappers' accounts?`,
         options: [`They were kept in a foreign currency.`, `They were deliberately designed never to balance.`, `They were all paid off each year.`, `They were lost in a fire.`],
         correctIndex: 1,
         explanation: `The accounts "não fechavam nunca", and later he saw that "não fechavam de propósito".`,
@@ -203,7 +203,7 @@ export const PT_C2_S05_STORIES: Story[] = [
       },
       {
         question: `What did Amadeu's honest calculation show?`,
-        options: [`Raimundo owed twice as much.`, `Raimundo owed exactly the price of a theatre box.`, `The accounts could not be checked.`, `Raimundo owed nothing, and the trading house owed him money.`],
+        options: [`Raimundo owed twice as much.`, `Raimundo owed exactly the price of a theater box.`, `The accounts could not be checked.`, `Raimundo owed nothing, and the trading house owed him money.`],
         correctIndex: 3,
         explanation: `"Raimundo Nonato não devia nada. A casa é que lhe devia quatrocentos mil-réis e uns quebrados."`,
       },

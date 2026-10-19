@@ -341,7 +341,7 @@ export const FR_B2_U16: Lesson[] = [
         prompt: "Translate into French.",
         source: "They would have got on well.",
         answer: "Ils se seraient bien entendus.",
-        altAnswers: ["Elles se seraient bien entendues.", "Ils se seraient bien entendu."],
+        altAnswers: ["Elles se seraient bien entendues.", "Ils se seraient entendus."],
         explanation: "Conditionnel passé of a pronominal verb: \"se seraient entendus\".",
       },
       {
@@ -948,9 +948,9 @@ export const FR_B2_U16: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The working conditions made her angry.",
+        prompt: "Put the words in order to say: The working conditions made her furious.",
         words: ["Les conditions", "de travail", "l'ont rendue", "furieuse."],
-        translation: "The working conditions made her angry.",
+        translation: "The working conditions made her furious.",
         explanation: "\"Rendre\" + adjective; agreement on \"rendue\" and \"furieuse\".",
       },
       {
@@ -986,7 +986,7 @@ export const FR_B2_U16: Lesson[] = [
       {
         heading: "Back home: everything feels different",
         body: [
-          "Élodie spent six months at a scientific base in Antarctica. Back in Grenoble, normal life feels strange. Contrasts are expressed with \"alors que\" / \"tandis que\" (whereas, + indicative), \"pourtant\", \"en revanche\" (on the other hand), \"bien que\" + subjunctive and \"tout en\" + -ant.",
+          "Élodie spent six months at a scientific base in Antarctica. Back in Grenoble, normal life feels strange. Contrasts are expressed with \"alors que\" / \"tandis que\" (whereas, + indicative), \"bien que\" + subjunctive and \"tout en\" + -ant, which you know, plus two connectors you will study properly in Unit 17: \"pourtant\" ('and yet', for something surprising) and \"en revanche\" ('on the other hand', comparing two things; informally \"par contre\").",
         ],
         examples: [
           { es: "Là-bas, il faisait nuit vingt-quatre heures sur vingt-quatre, alors qu'ici le soleil se lève à sept heures.", en: "Over there it was dark twenty-four hours a day, whereas here the sun rises at seven." },
@@ -1360,7 +1360,7 @@ export const FR_B2_U16: Lesson[] = [
         prompt: "Translate into French.",
         source: "She let me choose.",
         answer: "Elle m'a laissé choisir.",
-        altAnswers: ["Elle m'a laissée choisir.", "Elle me laisse choisir.", "Elle me laissait choisir."],
+        altAnswers: ["Elle m'a laissée choisir.", "Elle me laissait choisir."],
         explanation: "Allowing → \"laisser\".",
       },
       {
@@ -2162,7 +2162,7 @@ export const FR_B2_U16: Lesson[] = [
         prompt: "Translate into French.",
         source: "You should have let him speak.",
         answer: "Tu aurais dû le laisser parler.",
-        altAnswers: ["Vous auriez dû le laisser parler.", "Tu aurais dû la laisser parler.", "Vous auriez dû la laisser parler."],
+        altAnswers: ["Vous auriez dû le laisser parler."],
         explanation: "\"Tu aurais dû\" + \"laisser parler\"; the pronoun goes before \"laisser\".",
       },
       {

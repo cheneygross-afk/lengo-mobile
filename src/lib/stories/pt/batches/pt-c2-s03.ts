@@ -8,7 +8,7 @@ export const PT_C2_S03_STORIES: Story[] = [
     slug: "pt-o-processo-das-rosas",
     level: "PT-C2",
     title: `O processo das rosas`,
-    subtitle: `A retired judge in Porto Alegre keeps a diary to prove that his neighbour is poisoning his late wife's roses.`,
+    subtitle: `A retired judge in Porto Alegre keeps a diary to prove that his neighbor is poisoning his late wife's roses.`,
     paragraphs: [
       `Porto Alegre, 4 de setembro. Começo hoje este diário por recomendação da minha filha, que acha que escrever me fará bem, e por precaução minha, que acho que um dia ele servirá de prova. Fui desembargador do Tribunal de Justiça por vinte e oito anos e sei que a memória é a mais frágil das testemunhas. Registro, pois: as roseiras do meu jardim, no Moinhos de Vento, estão morrendo. As folhas amarelam de baixo para cima, as hastes enegrecem, os botões não abrem. Odete, que plantou cada uma delas, não está mais aqui para ver. Não está mais aqui para nada, aliás.`,
       `9 de setembro. Tenho uma suspeita. A vizinha da casa ao lado, Dona Lurdes Bittencourt, viúva também, sessenta e nove anos, debruça-se todos os dias sobre o muro com uma expressão que, em vinte e oito anos de tribunal, aprendi a reconhecer: a de quem sabe mais do que diz. Hoje me perguntou se eu tenho regado as rosas. Respondi que sim, evidentemente, toda manhã, com a água que sobra na térmica do chimarrão, que é água boa, fervida, e que seria um desperdício jogar fora. Ela fez uma cara. Anoto a cara.`,
@@ -22,7 +22,7 @@ export const PT_C2_S03_STORIES: Story[] = [
     questions: [
       {
         question: `What does Aurélio water the roses with?`,
-        options: [`Rainwater collected in a bucket`, `Water mixed with fertiliser`, `The hot water left over in his chimarrão flask`, `Cold tap water`],
+        options: [`Rainwater collected in a bucket`, `Water mixed with fertilizer`, `The hot water left over in his chimarrão thermos`, `Cold tap water`],
         correctIndex: 2,
         explanation: `He uses "a água que sobra na térmica do chimarrão", and later "com a água ainda quente".`,
       },
@@ -111,19 +111,19 @@ export const PT_C2_S03_STORIES: Story[] = [
         explanation: `"Juliana ia ficando transparente na exata proporção em que era ignorada".`,
       },
       {
-        question: `Why didn't the bank approve her holiday?`,
+        question: `Why didn't the bank approve her vacation?`,
         options: [`Nobody remembered who had asked for it.`, `It was the busiest time of the year.`, `Her director refused it.`, `She had already used up her days off.`],
         correctIndex: 0,
         explanation: `"O banco não aprovou as férias, porque ninguém se lembrava de quem as tinha pedido."`,
       },
       {
         question: `What happens when someone listens to a faded person?`,
-        options: [`They disappear completely.`, `They are promoted.`, `They get a little of their colour back.`, `They can be seen in mirrors again.`],
+        options: [`They disappear completely.`, `They are promoted.`, `They get a little of their color back.`, `They can be seen in mirrors again.`],
         correctIndex: 2,
         explanation: `Rosângela explains: "quando alguém escuta, a gente volta um pouquinho".`,
       },
       {
-        question: `Why couldn't the consultancy find out what had gone wrong?`,
+        question: `Why couldn't the consulting firm find out what had gone wrong?`,
         options: [`The contract had been destroyed.`, `It interviewed only the directors.`, `The faded staff refused to talk.`, `The bank stopped paying for the study.`],
         correctIndex: 1,
         explanation: `"Entrevistou todos os diretores e não chegou a conclusão nenhuma, porque não lhe ocorreu entrevistar mais ninguém."`,
@@ -154,7 +154,7 @@ export const PT_C2_S03_STORIES: Story[] = [
       },
       {
         question: `What did the Brazilian minister do at 11:40?`,
-        options: [`He insulted the proposal without realising his microphone was on.`, `He walked out of the meeting.`, `He asked for a different interpreter.`, `He accepted all the conditions.`],
+        options: [`He insulted the proposal without realizing his microphone was on.`, `He walked out of the meeting.`, `He asked for a different interpreter.`, `He accepted all the conditions.`],
         correctIndex: 0,
         explanation: `He "esqueceu que o microfone estava aberto" and called the proposal "conversa para boi dormir".`,
       },
@@ -196,7 +196,7 @@ export const PT_C2_S03_STORIES: Story[] = [
       },
       {
         question: `Who were the new corrections really about?`,
-        options: [`The governor`, `Doutor Marcelo`, `An opposition councillor`, `Dona Lúcia from the newspaper's snack bar`],
+        options: [`The governor`, `Doutor Marcelo`, `An opposition councilor`, `Dona Lúcia from the newspaper's snack bar`],
         correctIndex: 3,
         explanation: `The first one replaced "a funcionária Lúcia" with "Dona Lúcia Aparecida, que faz o melhor pão de queijo da Rua Goiás".`,
       },
@@ -218,11 +218,11 @@ export const PT_C2_S03_STORIES: Story[] = [
 
 export const PT_C2_S03_GLOSSES: Record<string, StoryGloss[]> = {
   "pt-o-processo-das-rosas": [
-    { es: "o desembargador", en: "appeal court judge", forms: ["desembargador"] },
+    { es: "o desembargador", en: "appellate court judge", forms: ["desembargador"] },
     { es: "a roseira", en: "rose bush", forms: ["roseiras", "roseira"] },
     { es: "a haste", en: "stem", forms: ["hastes"] },
     { es: "enegrecer", en: "to turn black", forms: ["enegrecem"] },
-    { es: "a térmica", en: "vacuum flask, thermos", forms: ["térmica"] },
+    { es: "a térmica", en: "thermos", forms: ["térmica"] },
     { es: "o chimarrão", en: "hot unsweetened mate tea, drunk from a gourd in the South", forms: ["chimarrão"] },
     { es: "o acórdão", en: "court ruling (by a panel of judges)", forms: ["acórdão"] },
     { es: "o esterco", en: "manure", forms: ["esterco"] },
@@ -238,7 +238,7 @@ export const PT_C2_S03_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "arquivar", en: "to file, archive", forms: ["arquivou"] },
     { es: "a maré", en: "tide", forms: ["maré"] },
     { es: "o rancho de canoas", en: "boathouse for fishing canoes", forms: ["rancho"] },
-    { es: "o boto", en: "dolphin (porpoise)", forms: ["boto"] },
+    { es: "o boto", en: "dolphin", forms: ["boto"] },
     { es: "pendurar", en: "to hang", forms: ["pendurar"] },
     { es: "a rede", en: "hammock", forms: ["rede"] },
     { es: "a pilastra", en: "pillar", forms: ["pilastra"] },

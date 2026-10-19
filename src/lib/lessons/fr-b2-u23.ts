@@ -169,7 +169,7 @@ export const FR_B2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Even if we sell, we'll keep the house.",
+        question: "Which is correct for: Even if we sell, we'll keep the house?",
         options: ["Même si on vend, on gardera la maison.", "Même si on vende, on gardera la maison.", "Bien qu'on vend, on gardera la maison.", "Même si on vendra, on gardera la maison."],
         correctIndex: 0,
         explanation: "\"Même si\" + present indicative.",
@@ -345,7 +345,7 @@ export const FR_B2_U23: Lesson[] = [
         prompt: "Translate into French.",
         source: "The journalist asked him what he thought.",
         answer: "Le journaliste lui a demandé ce qu'il pensait.",
-        altAnswers: ["La journaliste lui a demandé ce qu'il pensait.", "Le journaliste lui a demandé ce qu'elle pensait.", "La journaliste lui a demandé ce qu'elle pensait."],
+        altAnswers: ["La journaliste lui a demandé ce qu'il pensait."],
         explanation: "\"Qu'est-ce que vous pensez ?\" → \"ce qu'il pensait\".",
       },
       {
@@ -367,7 +367,7 @@ export const FR_B2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "He asked her if she would come.",
+        question: "Which is correct for: He asked her if she would come?",
         options: ["Il lui a demandé si elle viendrait.", "Il lui a demandé si elle vienne.", "Il lui a demandé est-ce qu'elle viendrait.", "Il lui a demandé si viendrait-elle."],
         correctIndex: 0,
         explanation: "\"Si\" + conditionnel (future in the past), no inversion or \"est-ce que\".",
@@ -423,7 +423,7 @@ export const FR_B2_U23: Lesson[] = [
     level: "FR-B2",
     number: 3,
     title: "Thematic Review: Apprendre d'un Maître",
-    summary: "Learning a craft from a master: his advice, his orders reported, the causatives (il me faisait recommencer) and how you changed.",
+    summary: "Learning a craft from a master: his advice, his orders reported, the causatives (\"il me faisait recommencer\") and how you changed.",
     duration: "14 min",
     sections: [
       {
@@ -569,7 +569,7 @@ export const FR_B2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "He let me finish alone.",
+        question: "Which is correct for: He let me finish alone?",
         options: ["Il m'a laissé finir seul.", "Il m'a laissé de finir seul.", "Il m'a fait que je finisse seul.", "Il a laissé moi finir seul."],
         correctIndex: 0,
         explanation: "\"Laisser\" + infinitive directly, pronoun before \"laisser\".",
@@ -625,7 +625,7 @@ export const FR_B2_U23: Lesson[] = [
     level: "FR-B2",
     number: 4,
     title: "Fix the Paragraph: Word Order after Dont",
-    summary: "A short biography full of *dont le fils je connais and *dont son père: find each error and rewrite the sentence.",
+    summary: "A short biography full of *\"dont le fils je connais\" and *\"dont son père\": find each error and rewrite the sentence.",
     duration: "13 min",
     sections: [
       {
@@ -667,7 +667,7 @@ export const FR_B2_U23: Lesson[] = [
         heading: "Part two of the biography",
         body: [
           "The text goes on: « Elle a eu trois enfants, *dont deux d'entre eux sont devenus peintres. Elle a exposé à Paris, *dont la critique a adoré son travail. Son dernier tableau, *dont je t'ai parlé de, est au musée de Quimper. »",
-          "Fixes: \"trois enfants, dont deux sont devenus peintres\" (no \"d'entre eux\": \"dont\" already says of whom); \"à Paris, où la critique a adoré son travail\" (\"dont\" has no de-link here: it's a place → \"où\"); \"dont je t'ai parlé\" (no leftover \"de\").",
+          "Fixes: \"trois enfants, dont deux sont devenus peintres\" (no \"d'entre eux\": \"dont\" already says of whom); \"à Paris, où la critique a adoré son travail\" (\"dont\" has no \"de\" link here: it's a place → \"où\"); \"dont je t'ai parlé\" (no leftover \"de\").",
           "Lesson: \"dont\" must replace a real \"de\" in the clause, and it replaces it completely.",
         ],
         examples: [
@@ -779,10 +779,10 @@ export const FR_B2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "She lived in Rome, where she met her husband.",
+        question: "Which is correct for: She lived in Rome, where she met her husband?",
         options: ["Elle a vécu à Rome, où elle a rencontré son mari.", "Elle a vécu à Rome, dont elle a rencontré son mari.", "Elle a vécu à Rome, que elle a rencontré son mari.", "Elle a vécu à Rome, dont elle a rencontré le mari."],
         correctIndex: 0,
-        explanation: "A place with no de-link → \"où\".",
+        explanation: "A place with no \"de\" link → \"où\".",
       },
       {
         type: "word-order",
@@ -826,7 +826,7 @@ export const FR_B2_U23: Lesson[] = [
     level: "FR-B2",
     number: 5,
     title: "Spiral Review: Dont or Duquel?",
-    summary: "Back to Unit 21: decide whether the de belongs to the verb (dont) or to a compound preposition (duquel, de laquelle).",
+    summary: "Back to Unit 21: decide whether the \"de\" belongs to the verb (\"dont\") or to a compound preposition (\"duquel\", \"de laquelle\").",
     duration: "12 min",
     sections: [
       {
@@ -881,7 +881,7 @@ export const FR_B2_U23: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "a mountain whose summit is always snowy",
+            question: "Which is correct for: a mountain whose summit is always snowy?",
             options: ["une montagne dont le sommet est toujours enneigé", "une montagne au sommet de laquelle est toujours enneigé", "une montagne duquel le sommet est toujours enneigé", "une montagne dont son sommet est toujours enneigé"],
             correctIndex: 0,
             explanation: "\"Le sommet de la montagne\" is a noun complement → \"dont le sommet\".",
@@ -940,7 +940,7 @@ export const FR_B2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "the festival during which they met",
+        question: "Which is correct for: the festival during which they met?",
         options: ["le festival au cours duquel ils se sont rencontrés", "le festival dont ils se sont rencontrés", "le festival au cours dont ils se sont rencontrés", "le festival duquel au cours ils se sont rencontrés"],
         correctIndex: 0,
         explanation: "\"Au cours de\" → \"au cours duquel\".",
@@ -998,7 +998,7 @@ export const FR_B2_U23: Lesson[] = [
           "The passive is everywhere in this topic, because the people affected are often more important than the agent: \"Les visages sont analysés en temps réel.\"",
         ],
         examples: [
-          { es: "Les visages des passants sont analysés en temps réel.", en: "Passers-by's faces are analysed in real time." },
+          { es: "Les visages des passants sont analysés en temps réel.", en: "The faces of passers-by are analysed in real time." },
           { es: "Nos données personnelles sont collectées sans que nous le sachions.", en: "Our personal data is collected without our knowing." },
           { es: "La reconnaissance faciale porte atteinte aux libertés individuelles.", en: "Facial recognition infringes on individual freedoms." },
           { es: "La CNIL a demandé que l'usage de ces caméras soit encadré.", en: "The CNIL asked for the use of these cameras to be regulated." },
@@ -1134,7 +1134,7 @@ export const FR_B2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "It's obvious that data can be hacked.",
+        question: "Which is correct for: It's obvious that data can be hacked?",
         options: ["Il est évident que les données peuvent être piratées.", "Il est évident que les données puissent être piratées.", "Il n'est pas évident que les données peuvent être piratées.", "Il est évident les données pouvoir être piratées."],
         correctIndex: 0,
         explanation: "Certainty → indicative.",
@@ -1190,7 +1190,7 @@ export const FR_B2_U23: Lesson[] = [
     level: "FR-B2",
     number: 7,
     title: "Spiral Review: Dictation: The Past Subjunctive",
-    summary: "Back to Unit 5: hear and write the past subjunctive after past and conditional main verbs, and spell aie, ait, soit, soient correctly.",
+    summary: "Back to Unit 5: hear and write the past subjunctive after past and conditional main verbs, and spell \"aie\", \"ait\", \"soit\", \"soient\" correctly.",
     duration: "12 min",
     sections: [
       {
@@ -1219,7 +1219,7 @@ export const FR_B2_U23: Lesson[] = [
             prompt: "Translate into French.",
             source: "I don't think she has left yet.",
             answer: "Je ne crois pas qu'elle soit déjà partie.",
-            altAnswers: ["Je ne pense pas qu'elle soit déjà partie.", "Je ne crois pas qu'elle soit encore partie."],
+            altAnswers: ["Je ne pense pas qu'elle soit déjà partie."],
             explanation: "Negative opinion + past → \"soit partie\".",
           },
         ],
@@ -1271,7 +1271,7 @@ export const FR_B2_U23: Lesson[] = [
         source: "I'm sorry you were ill.",
         answer: "Je suis désolé que tu aies été malade.",
         altAnswers: ["Je suis désolée que tu aies été malade.", "Je suis désolé que vous ayez été malade.", "Je suis désolée que vous ayez été malade."],
-        explanation: "\"Aies été\": past subjunctive of être.",
+        explanation: "\"Aies été\": past subjunctive of \"être\".",
       },
       {
         type: "translate",
@@ -1355,7 +1355,7 @@ export const FR_B2_U23: Lesson[] = [
         heading: "Clefts and pseudo-clefts",
         body: [
           "\"C'est... qui\" stresses the subject (\"c'est Paul qui a gagné\"), \"c'est... que\" anything else (\"c'est demain que je pars\", \"c'est à toi que je parle\"). With a stressed pronoun, the verb agrees: \"c'est moi qui suis\", \"c'est nous qui avons\". Plural noun: \"ce sont eux qui\" in careful style.",
-          "Pseudo-clefts announce the topic: \"ce qui\" (subject), \"ce que\" (object), \"ce dont\" (de-verb), \"ce à quoi\" (à-verb) + \", c'est...\".",
+          "Pseudo-clefts announce the topic: \"ce qui\" (subject), \"ce que\" (object), \"ce dont\" (verb with \"de\"), \"ce à quoi\" (verb with \"à\") + \", c'est...\".",
         ],
         examples: [
           { es: "C'est Paul qui a gagné, pas toi.", en: "It was Paul who won, not you." },
@@ -1399,7 +1399,7 @@ export const FR_B2_U23: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Coffee, I drink too much of it.",
+            question: "Which is correct for: Coffee, I drink too much of it?",
             options: ["Du café, j'en bois trop.", "Le café, j'y bois trop.", "Du café, je le bois trop.", "Du café, j'en bois trop de café."],
             correctIndex: 0,
             explanation: "A partitive (\"du café\") is picked up by \"en\".",
@@ -1467,7 +1467,7 @@ export const FR_B2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "It's tomorrow that we're leaving.",
+        question: "Which is correct for: It's tomorrow that we're leaving?",
         options: ["C'est demain que nous partons.", "C'est demain qui nous partons.", "C'est demain où nous partons.", "C'est demain dont nous partons."],
         correctIndex: 0,
         explanation: "\"C'est... que\" stresses a time complement.",
@@ -1506,7 +1506,7 @@ export const FR_B2_U23: Lesson[] = [
       {
         heading: "The decision tree",
         body: [
-          "1. Is the antecedent the direct object of the verb in the clause? → \"que\" (\"le livre que je lis\"). 2. Does the verb, adjective or noun take \"de\"? → \"dont\" (\"le livre dont je parle\"). 3. Is there another preposition (à, avec, sur, pour, dans, compound prepositions)? → preposition + \"lequel\" (or \"qui\" for people): \"le livre sur lequel je travaille\". 4. Is it a place or a time? → \"où\" (\"la ville où je vis\", \"le jour où\").",
+          "1. Is the antecedent the direct object of the verb in the clause? → \"que\" (\"le livre que je lis\"). 2. Does the verb, adjective or noun take \"de\"? → \"dont\" (\"le livre dont je parle\"). 3. Is there another preposition (\"à\", \"avec\", \"sur\", \"pour\", \"dans\", compound prepositions)? → preposition + \"lequel\" (or \"qui\" for people): \"le livre sur lequel je travaille\". 4. Is it a place or a time? → \"où\" (\"la ville où je vis\", \"le jour où\").",
           "The trap is that English can use the same zero relative for all four: the book I read, the book I talk about, the book I'm working on, the town I live in. Put the preposition back in the English sentence and you'll see which French relative you need.",
           "Explain each choice to yourself in one phrase: \"lire quelque chose\", \"parler de\", \"travailler sur\", \"vivre dans / à\".",
         ],
@@ -1541,8 +1541,8 @@ export const FR_B2_U23: Lesson[] = [
       {
         heading: "Same noun, four relatives",
         body: [
-          "Take one noun and run it through the four: \"la maison que j'ai achetée\" (acheter qqch), \"la maison dont je rêve\" (rêver de), \"la maison dans laquelle j'ai grandi\" (grandir dans), \"la maison où j'ai grandi\" (place: \"où\" works too).",
-          "With \"à\"-verbs: \"la maison à laquelle je pense\" (penser à). With compound prepositions: \"la maison à côté de laquelle on a construit un parking\".",
+          "Take one noun and run it through the four: \"la maison que j'ai achetée\" (\"acheter quelque chose\"), \"la maison dont je rêve\" (\"rêver de\"), \"la maison dans laquelle j'ai grandi\" (\"grandir dans\"), \"la maison où j'ai grandi\" (place: \"où\" works too).",
+          "With \"à\"-verbs: \"la maison à laquelle je pense\" (\"penser à\"). With compound prepositions: \"la maison à côté de laquelle on a construit un parking\".",
           "Remember agreement with \"que\" in compound tenses: \"la maison que j'ai achetée\" (participle agrees with \"que\" = la maison), but never with \"dont\" or \"lequel\".",
         ],
         examples: [
@@ -1555,7 +1555,7 @@ export const FR_B2_U23: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "the house I often think about",
+            question: "Which is correct for: the house I often think about?",
             options: ["la maison à laquelle je pense souvent", "la maison que je pense souvent", "la maison dont je pense souvent", "la maison où je pense souvent"],
             correctIndex: 0,
             explanation: "\"Penser à\" → \"à laquelle\".",
@@ -1656,7 +1656,7 @@ export const FR_B2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "the problems we're facing",
+        question: "Which is correct for: the problems we're facing?",
         options: ["les problèmes auxquels nous faisons face", "les problèmes que nous faisons face", "les problèmes dont nous faisons face", "les problèmes où nous faisons face"],
         correctIndex: 0,
         explanation: "\"Faire face à\" → \"auxquels\".",
@@ -1733,7 +1733,7 @@ export const FR_B2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "It rained so much that the match was cancelled.",
+            question: "Which is correct for: It rained so much that the match was cancelled?",
             options: ["Il a tellement plu que le match a été annulé.", "Il a tellement plu que le match ait été annulé.", "Il a plu de sorte que le match soit annulé hier.", "Il a tellement plu pour que le match soit annulé."],
             correctIndex: 0,
             explanation: "Result → indicative.",
@@ -1828,7 +1828,7 @@ export const FR_B2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "I'm afraid he'll get lost.",
+        question: "Which is correct for: I'm afraid he'll get lost?",
         options: ["J'ai peur qu'il se perde.", "J'ai peur qu'il se perdra.", "J'ai peur de se perdre lui.", "J'ai peur qu'il se perd."],
         correctIndex: 0,
         explanation: "Fear → subjunctive (\"qu'il ne se perde\" in formal style).",
@@ -1875,14 +1875,14 @@ export const FR_B2_U23: Lesson[] = [
     level: "FR-B2",
     number: 11,
     title: "Story with Gaps: Le Communiqué du Musée",
-    summary: "Complete a formal press release about a museum discovery with dont, lequel, connectors and the passive.",
+    summary: "Complete a formal press release about a museum discovery with \"dont\", \"lequel\", connectors and the passive.",
     duration: "14 min",
     sections: [
       {
         heading: "Paragraph 1: the discovery",
         body: [
           "Read the opening of the release: « Le musée des Beaux-Arts de Nantes a le plaisir d'annoncer une découverte exceptionnelle. Lors de la restauration d'un tableau ___ (whose) l'auteur était inconnu, une signature a été mise au jour. Cette œuvre, ___ (which) le musée avait acquise en 1952, serait en réalité de la main de Berthe Morisot. »",
-          "Gaps: \"dont\" (l'auteur du tableau) and \"que\" (acquérir quelque chose; the participle \"acquise\" agrees with \"que\" = cette œuvre). Note the journalistic conditional \"serait\": not yet confirmed.",
+          "Gaps: \"dont\" (\"l'auteur du tableau\") and \"que\" (\"acquérir quelque chose\"; the participle \"acquise\" agrees with \"que\" = cette œuvre). Note the journalistic conditional \"serait\": not yet confirmed.",
           "\"Mettre au jour\" = to uncover (not \"mettre à jour\", to update).",
         ],
         examples: [
@@ -1916,7 +1916,7 @@ export const FR_B2_U23: Lesson[] = [
         heading: "Paragraph 2: the work and its history",
         body: [
           "« Le tableau représente une jeune femme assise dans un jardin, ___ (in the middle of which) se trouve une fontaine. Il aurait été peint vers 1875, une période ___ (during which) l'artiste travaillait souvent en plein air. Par ailleurs, une lettre ___ (in which) Morisot mentionne « une femme au jardin » a été retrouvée dans les archives. »",
-          "Gaps: \"au milieu duquel\" (au milieu du jardin), \"au cours de laquelle\" or \"pendant laquelle\" (une période), \"dans laquelle\" (une lettre).",
+          "Gaps: \"au milieu duquel\" (\"au milieu du jardin\"), \"au cours de laquelle\" or \"pendant laquelle\" (\"une période\"), \"dans laquelle\" (\"une lettre\").",
           "\"Aurait été peint\": journalistic conditionnel passé of the passive, for an unconfirmed past fact.",
         ],
         examples: [
@@ -1950,7 +1950,7 @@ export const FR_B2_U23: Lesson[] = [
         heading: "Paragraph 3: what happens next",
         body: [
           "« Afin que le public ___ (can) découvrir cette œuvre, le musée l'exposera dès le 15 juin. Néanmoins, bien que les premières analyses ___ (be) encourageantes, l'attribution devra être confirmée par un comité d'experts. Ce ___ (what) le musée a besoin, c'est de temps. »",
-          "Gaps: \"puisse\" (afin que + subjunctive), \"soient\" (bien que + subjunctive), \"dont\" (ce dont... avoir besoin de).",
+          "Gaps: \"puisse\" (\"afin que\" + subjunctive), \"soient\" (\"bien que\" + subjunctive), \"dont\" (\"ce dont\"... \"avoir besoin de\").",
           "The release ends with the formal formula: \"Pour toute information complémentaire, veuillez contacter le service de presse.\"",
         ],
         examples: [
@@ -2023,7 +2023,7 @@ export const FR_B2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A signature was uncovered.",
+        question: "Which is correct for: A signature was uncovered?",
         options: ["Une signature a été mise au jour.", "Une signature a été mise à jour.", "Une signature a mis au jour.", "Une signature était mettre au jour."],
         correctIndex: 0,
         explanation: "\"Mettre au jour\" = uncover; \"mettre à jour\" = update.",
@@ -2069,7 +2069,7 @@ export const FR_B2_U23: Lesson[] = [
     level: "FR-B2",
     number: 12,
     title: "Thematic Review: Restaurer le Passé",
-    summary: "Craft, commissions and the value of a job well done: the passive, causatives (faire restaurer) and conditionals.",
+    summary: "Craft, commissions and the value of a job well done: the passive, causatives (\"faire restaurer\") and conditionals.",
     duration: "14 min",
     sections: [
       {
@@ -2099,7 +2099,7 @@ export const FR_B2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The table? I had it repaired.",
+            question: "Which is correct for: The table? I had it repaired?",
             options: ["La table ? Je l'ai fait réparer.", "La table ? Je l'ai faite réparer.", "La table ? J'ai la fait réparer.", "La table ? Je l'ai fait la réparer."],
             correctIndex: 0,
             explanation: "\"Fait\" + infinitive never agrees; the pronoun goes before \"avoir\".",
@@ -2211,7 +2211,7 @@ export const FR_B2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "If it had been restored in time, it would be intact.",
+        question: "Which is correct for: If it had been restored in time, it would be intact?",
         options: ["S'il avait été restauré à temps, il serait intact.", "S'il aurait été restauré à temps, il serait intact.", "S'il était restauré à temps, il aurait été intact.", "S'il a été restauré à temps, il serait intact."],
         correctIndex: 0,
         explanation: "Mixed conditional: plus-que-parfait → conditionnel présent.",
@@ -2308,7 +2308,7 @@ export const FR_B2_U23: Lesson[] = [
         heading: "Messages to your future self",
         body: [
           "Some patients record messages for later. The future and future antérieur dominate: \"Quand tu écouteras ce message, tu auras peut-être oublié mon nom.\" French uses the future after \"quand / dès que / lorsque\" when the time is future (English uses the present).",
-          "Time conjunctions with the subjunctive: \"avant que\" (\"avant que tu n'oublies\", ne explétif optional), \"jusqu'à ce que\", \"en attendant que\". With the indicative: \"quand, dès que, après que, tant que\".",
+          "Time conjunctions with the subjunctive: \"avant que\" (\"avant que tu n'oublies\", with an optional \"ne\" explétif), \"jusqu'à ce que\", \"en attendant que\". With the indicative: \"quand, dès que, après que, tant que\".",
           "Same subject: \"avant de\" + infinitive (\"avant d'oublier\").",
         ],
         examples: [
@@ -2331,7 +2331,7 @@ export const FR_B2_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "I'll stay until you fall asleep.",
+            question: "Which is correct for: I'll stay until you fall asleep?",
             options: ["Je resterai jusqu'à ce que tu t'endormes.", "Je resterai jusqu'à ce que tu t'endormiras.", "Je resterai jusqu'à ce que tu t'endors.", "Je resterai jusqu'à t'endormir."],
             correctIndex: 0,
             explanation: "\"Jusqu'à ce que\" + subjunctive.",
@@ -2386,7 +2386,7 @@ export const FR_B2_U23: Lesson[] = [
         prompt: "Translate into French.",
         source: "I'm writing everything down before I forget.",
         answer: "Je note tout avant d'oublier.",
-        altAnswers: ["J'écris tout avant d'oublier.", "Je note tout avant que j'oublie."],
+        altAnswers: ["J'écris tout avant d'oublier."],
         explanation: "Same subject → \"avant de\" + infinitive.",
       },
       {
@@ -2408,7 +2408,7 @@ export const FR_B2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "As long as you remember this song...",
+        question: "Which is correct for: As long as you remember this song?",
         options: ["Tant que tu te souviendras de cette chanson...", "Tant que tu te souviennes de cette chanson...", "Tant que tu te souviens cette chanson...", "Jusqu'à ce que tu te souviendras de cette chanson..."],
         correctIndex: 0,
         explanation: "\"Tant que\" + indicative; future for a future idea.",

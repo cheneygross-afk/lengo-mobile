@@ -12,8 +12,8 @@ export const FR_A2_S03_STORIES: Story[] = [
     paragraphs: [
       `Chaque année, au début du mois de septembre, il y a la Braderie de Lille, une des plus grandes brocantes d'Europe. Cette année, Nadia y est allée avec son frère, Samir. Il y avait des milliers de stands dans les rues : des vêtements, des livres, des meubles, des jouets anciens...`,
       `Nadia cherchait une lampe pour son salon. Elle n'a pas trouvé de lampe, mais sur un petit stand, elle a vu une jolie boîte en bois. Le vendeur, un vieux monsieur, voulait seulement deux euros. Nadia l'a achetée tout de suite.`,
-      `À la maison, elle a ouvert la boîte. À l'intérieur, il y avait une vieille photo en noir et blanc : un jeune couple devant la gare de Lille. Derrière, quelqu'un avait écrit : « Pour Simone, je vais revenir. Paul, 1958. »`,
-      `Nadia était curieuse. Est-ce que Paul était revenu ? Le lendemain, elle est retournée à la braderie avec la photo. Le vieux monsieur était toujours là. Quand il a vu la photo, il a souri tristement.`,
+      `À la maison, elle a ouvert la boîte. À l'intérieur, il y avait une vieille photo en noir et blanc : un jeune couple devant la gare de Lille. Derrière, il y avait quelques mots : « Pour Simone, je vais revenir. Paul, 1958. »`,
+      `Nadia était curieuse. Est-ce que Paul est revenu ? Le lendemain, elle est retournée à la braderie avec la photo. Le vieux monsieur était toujours là. Quand il a vu la photo, il a souri tristement.`,
       `« Simone, c'était ma mère, a-t-il expliqué. Paul, c'était mon père. Il est parti travailler au Canada, mais il est revenu un an plus tard. Ils se sont mariés en 1959. » Nadia voulait lui rendre la photo, mais il a refusé. « Gardez-la. Maintenant, vous connaissez leur histoire. C'est mieux qu'une lampe, non ? »`,
     ],
     questions: [
@@ -85,7 +85,7 @@ export const FR_A2_S03_STORIES: Story[] = [
       `Baptiste est étudiant en ingénierie à Grenoble. Il habite dans une colocation avec deux autres étudiants. En octobre, une des colocataires est partie à l'étranger et une nouvelle personne est arrivée : Ingrid, une Suédoise de vingt-deux ans.`,
       `Au début, Baptiste était un peu inquiet. Ingrid ne parlait pas beaucoup. Elle se levait à cinq heures du matin et elle rentrait tard le soir avec un énorme sac à dos. Elle mangeait des choses bizarres : du poisson en tube et du pain très dur.`,
       `Un samedi, Baptiste a vu une photo sur le frigo. Sur la photo, Ingrid était au sommet d'une montagne, avec une corde et un casque. Il lui a demandé : « C'est toi ? » Ingrid a souri. « Oui, je fais de l'escalade. C'est pour ça que je suis venue à Grenoble. Les montagnes sont parfaites ! »`,
-      `Baptiste n'avait jamais fait d'escalade. Le dimanche suivant, Ingrid l'a emmené dans le massif de la Chartreuse. Il avait très peur, mais elle était patiente. Elle lui a tout expliqué, en français et avec des gestes.`,
+      `Baptiste, lui, ne connaissait pas l'escalade. Le dimanche suivant, Ingrid l'a emmené dans le massif de la Chartreuse. Il avait très peur, mais elle était patiente. Elle lui a tout expliqué, en français et avec des gestes.`,
       `Depuis, ils grimpent ensemble tous les week-ends. Le français d'Ingrid a fait de gros progrès. Et Baptiste ? Il a appris trois mots de suédois et il a même goûté le poisson en tube. Il n'a pas aimé, mais il a goûté !`,
     ],
     questions: [
@@ -154,7 +154,7 @@ export const FR_A2_S03_STORIES: Story[] = [
     title: `La panne de courant`,
     subtitle: `One winter evening in Clermont-Ferrand, the electricity went off. The Girard family had to find something to do.`,
     paragraphs: [
-      `C'était un soir de décembre, à Clermont-Ferrand. Il neigeait depuis le matin. Chez les Girard, chacun était dans sa chambre : le père regardait un match à la télé, la mère travaillait sur son ordinateur et les deux ados, Maxime et Jade, étaient sur leurs téléphones.`,
+      `C'était un soir de décembre, à Clermont-Ferrand. Il neigeait depuis le matin. Chez les Girard, chacun était dans son coin : le père regardait un match à la télé, la mère travaillait sur son ordinateur et les deux ados, Maxime et Jade, étaient sur leurs téléphones.`,
       `À huit heures, tout s'est éteint. Plus de lumière, plus de télé, plus de Wi-Fi. Dans tout le quartier, les fenêtres étaient noires. « C'est une panne de courant ! » a crié le père depuis le salon.`,
       `Ils ont cherché des bougies dans la cuisine. La mère en a trouvé six dans un tiroir. Ils se sont installés autour de la table du salon, avec des couvertures, parce qu'il commençait à faire froid.`,
       `Au début, personne ne savait quoi faire. Puis Jade a trouvé un vieux jeu de société dans le placard. Ils ont joué pendant deux heures. Le père trichait tout le temps et Maxime riait tellement qu'il est tombé de sa chaise. Ensuite, la mère a raconté des histoires de son enfance en Auvergne.`,
@@ -163,9 +163,9 @@ export const FR_A2_S03_STORIES: Story[] = [
     questions: [
       {
         question: `What was each family member doing before the power cut?`,
-        options: [`They were having dinner together.`, `They were each in their own room with a screen.`, `They were playing in the snow.`, `They were sleeping.`],
+        options: [`They were having dinner together.`, `They were each busy with their own screen.`, `They were playing in the snow.`, `They were sleeping.`],
         correctIndex: 1,
-        explanation: `"Chacun était dans sa chambre": TV, computer and phones.`,
+        explanation: `"Chacun était dans son coin": the TV, the computer and the phones.`,
       },
       {
         question: `What did they find in a kitchen drawer?`,
@@ -193,8 +193,8 @@ export const FR_A2_S03_ENGLISH: Record<string, string[]> = {
   "fr-a2-la-brocante": [
     `Every year, at the beginning of September, there is the Braderie de Lille, one of the biggest flea markets in Europe. This year, Nadia went there with her brother, Samir. There were thousands of stalls in the streets: clothes, books, furniture, old toys...`,
     `Nadia was looking for a lamp for her living room. She didn't find a lamp, but on a small stall, she saw a pretty wooden box. The seller, an old man, only wanted two euros. Nadia bought it right away.`,
-    `At home, she opened the box. Inside, there was an old black-and-white photo: a young couple in front of Lille station. On the back, someone had written: "For Simone, I will come back. Paul, 1958."`,
-    `Nadia was curious. Had Paul come back? The next day, she went back to the braderie with the photo. The old man was still there. When he saw the photo, he smiled sadly.`,
+    `At home, she opened the box. Inside, there was an old black-and-white photo: a young couple in front of Lille station. On the back, there were a few words: "For Simone, I will come back. Paul, 1958."`,
+    `Nadia was curious. Did Paul come back? The next day, she went back to the braderie with the photo. The old man was still there. When he saw the photo, he smiled sadly.`,
     `"Simone was my mother," he explained. "Paul was my father. He left to work in Canada, but he came back a year later. They got married in 1959." Nadia wanted to give him the photo back, but he refused. "Keep it. Now you know their story. That's better than a lamp, isn't it?"`,
   ],
   "fr-a2-le-semi-marathon": [
@@ -208,7 +208,7 @@ export const FR_A2_S03_ENGLISH: Record<string, string[]> = {
     `Baptiste is an engineering student in Grenoble. He lives in a shared flat with two other students. In October, one of the flatmates left to go abroad and a new person arrived: Ingrid, a twenty-two-year-old Swede.`,
     `At first, Baptiste was a little worried. Ingrid didn't talk much. She got up at five in the morning and came home late in the evening with a huge backpack. She ate strange things: fish in a tube and very hard bread.`,
     `One Saturday, Baptiste saw a photo on the fridge. In the photo, Ingrid was at the top of a mountain, with a rope and a helmet. He asked her: "Is that you?" Ingrid smiled. "Yes, I do rock climbing. That's why I came to Grenoble. The mountains are perfect!"`,
-    `Baptiste had never been climbing. The following Sunday, Ingrid took him to the Chartreuse mountains. He was very scared, but she was patient. She explained everything to him, in French and with gestures.`,
+    `Baptiste knew nothing about climbing. The following Sunday, Ingrid took him to the Chartreuse mountains. He was very scared, but she was patient. She explained everything to him, in French and with gestures.`,
     `Since then, they have gone climbing together every weekend. Ingrid's French has improved a lot. And Baptiste? He has learned three words of Swedish and he has even tasted the fish in a tube. He didn't like it, but he tasted it!`,
   ],
   "fr-a2-le-mariage-en-alsace": [
@@ -219,7 +219,7 @@ export const FR_A2_S03_ENGLISH: Record<string, string[]> = {
     `In the end, it was an extraordinary party. People danced until three in the morning, and the winegrower opened his best bottles of Riesling. Today, when people talk about the wedding, everyone says the same thing: "Thank goodness there was a storm!"`,
   ],
   "fr-a2-la-panne-de-courant": [
-    `It was an evening in December, in Clermont-Ferrand. It had been snowing since the morning. At the Girards' house, everyone was in their own room: the father was watching a match on TV, the mother was working on her computer and the two teenagers, Maxime and Jade, were on their phones.`,
+    `It was an evening in December, in Clermont-Ferrand. It had been snowing since the morning. At the Girards' house, everyone was in their own corner: the father was watching a match on TV, the mother was working on her computer and the two teenagers, Maxime and Jade, were on their phones.`,
     `At eight o'clock, everything went off. No more light, no more TV, no more Wi-Fi. In the whole neighborhood, the windows were dark. "It's a power cut!" shouted the father from the living room.`,
     `They looked for candles in the kitchen. The mother found six in a drawer. They settled around the living room table, with blankets, because it was starting to get cold.`,
     `At first, nobody knew what to do. Then Jade found an old board game in the cupboard. They played for two hours. The father cheated all the time and Maxime laughed so much that he fell off his chair. Then the mother told stories from her childhood in Auvergne.`,
@@ -260,7 +260,7 @@ export const FR_A2_S03_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "inquiet, inquiète", en: "worried", forms: ["inquiet"] },
     { es: "la corde", en: "rope", forms: ["corde"] },
     { es: "le casque", en: "helmet", forms: ["casque"] },
-    { es: "l'escalade", en: "rock climbing", forms: ["l'escalade", "d'escalade"] },
+    { es: "l'escalade", en: "rock climbing", forms: ["l'escalade"] },
     { es: "emmener", en: "to take (someone somewhere)", forms: ["emmené"] },
     { es: "le geste", en: "gesture", forms: ["gestes"] },
     { es: "grimper", en: "to climb", forms: ["grimpent"] },

@@ -166,7 +166,7 @@ export const FR_B2_U18_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Veuillez agréer, Madame, Monsieur, mes salutations distinguées.",
-        explanation: "\"Veuillez\" (imperative of vouloir), \"agréer\" (two e), \"distinguées\" agreeing with salutations.",
+        explanation: "\"Veuillez\" (imperative of \"vouloir\"), \"agréer\" (two e), \"distinguées\" agreeing with \"salutations\".",
       },
       {
         type: "speak",
@@ -227,7 +227,7 @@ export const FR_B2_U18_EXTRA: Lesson[] = [
         source: "Every year, millions of garments are thrown away after a few uses.",
         answer: "Chaque année, des millions de vêtements sont jetés après quelques utilisations.",
         altAnswers: ["Chaque année, des millions de vêtements sont jetés après quelques utilisations seulement.", "Tous les ans, des millions de vêtements sont jetés après quelques utilisations.", "Chaque année, on jette des millions de vêtements après quelques utilisations."],
-        explanation: "Passive \"sont jetés\" agreeing with vêtements; or \"on jette\".",
+        explanation: "Passive \"sont jetés\" agreeing with \"vêtements\"; or \"on jette\".",
       },
       {
         type: "translate",
@@ -271,7 +271,7 @@ export const FR_B2_U18_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "Thus, a T-shirt travels on average 20,000 kilometres before being sold.",
         answer: "Ainsi, un tee-shirt parcourt en moyenne 20 000 kilomètres avant d'être vendu.",
-        altAnswers: ["Ainsi, un t-shirt parcourt en moyenne 20 000 kilomètres avant d'être vendu.", "Par exemple, un tee-shirt parcourt en moyenne 20 000 kilomètres avant d'être vendu.", "Ainsi, un tee-shirt parcourt en moyenne vingt mille kilomètres avant d'être vendu."],
+        altAnswers: ["Ainsi, un t-shirt parcourt en moyenne 20 000 kilomètres avant d'être vendu.", "Ainsi, un tee-shirt parcourt en moyenne vingt mille kilomètres avant d'être vendu."],
         explanation: "\"Ainsi\" introduces an example; \"avant d'être vendu\" = passive infinitive.",
       },
       {
@@ -374,7 +374,7 @@ export const FR_B2_U18_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French (in a debate, using vous).",
+            prompt: "Translate into French (in a debate, using \"vous\").",
             source: "I grant you that, but the problem lies elsewhere.",
             answer: "Je vous l'accorde, mais le problème est ailleurs.",
             altAnswers: ["Je vous l'accorde, mais le problème se situe ailleurs.", "Je vous l'accorde, cependant le problème est ailleurs."],
@@ -393,7 +393,7 @@ export const FR_B2_U18_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French (using vous).",
+        prompt: "Translate into French (using \"vous\").",
         source: "I completely agree with you.",
         answer: "Je suis tout à fait d'accord avec vous.",
         altAnswers: ["Je suis entièrement d'accord avec vous.", "Je suis complètement d'accord avec vous."],
@@ -420,7 +420,7 @@ export const FR_B2_U18_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French (using vous).",
+        prompt: "Translate into French (using \"vous\").",
         source: "To come back to what you were saying, the figures show the opposite.",
         answer: "Pour revenir à ce que vous disiez, les chiffres montrent le contraire.",
         altAnswers: ["Pour en revenir à ce que vous disiez, les chiffres montrent le contraire.", "Pour revenir à ce que vous disiez, les chiffres prouvent le contraire."],
@@ -432,7 +432,7 @@ export const FR_B2_U18_EXTRA: Lesson[] = [
         en: "Yes, but people [still need to] have the means to choose.",
         sentence: "Oui, mais ___ que les gens aient les moyens de choisir.",
         answer: "encore faut-il",
-        explanation: "\"Encore faut-il que\" + subjunctive: 'it still has to be the case that'. Note the inversion after encore.",
+        explanation: "\"Encore faut-il que\" + subjunctive: 'it still has to be the case that'. Note the inversion after \"encore\".",
       },
       {
         type: "multiple-choice",
@@ -452,7 +452,7 @@ export const FR_B2_U18_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French (using vous).",
+        prompt: "Translate into French (using \"vous\").",
         source: "You're right, but that's not the only problem.",
         answer: "Vous avez raison, mais ce n'est pas le seul problème.",
         altAnswers: ["Vous avez raison, cependant ce n'est pas le seul problème.", "Vous avez raison, mais il n'y a pas que ce problème."],
@@ -472,12 +472,12 @@ export const FR_B2_U18_EXTRA: Lesson[] = [
         source: "That's exactly what I think.",
         answer: "C'est exactement ce que je pense.",
         altAnswers: ["C'est tout à fait ce que je pense.", "C'est précisément ce que je pense."],
-        explanation: "\"Ce que\" = what (object of penser).",
+        explanation: "\"Ce que\" = what (object of \"penser\").",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French (using vous).",
+        prompt: "Translate into French (using \"vous\").",
         source: "Admittedly, you have a point; however, the cost is too high.",
         answer: "Certes, vous n'avez pas tort ; toutefois, le coût est trop élevé.",
         altAnswers: ["Certes, vous avez raison sur ce point ; toutefois, le coût est trop élevé.", "Je vous l'accorde ; toutefois, le coût est trop élevé.", "Certes, vous n'avez pas tort ; cependant, le coût est trop élevé.", "Certes, vous n'avez pas tort, mais le coût est trop élevé."],
@@ -506,7 +506,7 @@ export const FR_B2_U18_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Je vous l'accorde, mais le problème est ailleurs.",
-        explanation: "\"Je vous l'accorde\": l' = that point; \"ailleurs\" = elsewhere.",
+        explanation: "\"Je vous l'accorde\": \"l'\" = that point; \"ailleurs\" = elsewhere.",
       },
       {
         type: "speak",

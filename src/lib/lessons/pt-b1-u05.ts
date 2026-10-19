@@ -21,7 +21,7 @@ export const PT_B1_U05: Lesson[] = [
         ],
         examples: [
           { es: "Procuro alguém que fale inglês e alemão.", en: "I'm looking for someone who speaks English and German." },
-          { es: "Estamos procurando uma babá que more aqui no bairro.", en: "We're looking for a nanny who lives here in the neighbourhood." },
+          { es: "Estamos procurando uma babá que more aqui no bairro.", en: "We're looking for a nanny who lives here in the neighborhood." },
           { es: "A empresa quer um estagiário que entenda de marketing.", en: "The company wants an intern who knows about marketing." },
           { es: "Preciso de um professor que explique devagar.", en: "I need a teacher who explains things slowly." },
           { es: "Eles precisam de um eletricista que venha hoje.", en: "They need an electrician who can come today." },
@@ -59,7 +59,7 @@ export const PT_B1_U05: Lesson[] = [
         ],
         examples: [
           { es: "Preciso de um carro que seja econômico.", en: "I need a car that's cheap to run." },
-          { es: "Quero um apartamento que tenha varanda.", en: "I want a flat with a balcony." },
+          { es: "Quero um apartamento que tenha varanda.", en: "I want an apartment with a balcony." },
           { es: "Precisamos de um técnico que esteja livre amanhã.", en: "We need a technician who's free tomorrow." },
           { es: "Você conhece alguém que saiba consertar celular?", en: "Do you know anyone who can fix phones?" },
           { es: "Preciso de um livro que eu possa ler no avião.", en: "I need a book I can read on the plane." },
@@ -155,7 +155,7 @@ export const PT_B1_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I want a flat that has a balcony.",
+        source: "I want an apartment that has a balcony.",
         answer: "Quero um apartamento que tenha varanda.",
         altAnswers: [
           "Eu quero um apartamento que tenha varanda.",
@@ -164,7 +164,7 @@ export const PT_B1_U05: Lesson[] = [
           "Quero um apartamento que tenha uma varanda.",
           "Eu quero um apartamento que tenha uma varanda.",
         ],
-        explanation: "A flat you only want: \"que tenha\", the subjunctive of \"ter\" built from \"tenho\".",
+        explanation: "An apartment you only want: \"que tenha\", the subjunctive of \"ter\" built from \"tenho\".",
       },
       {
         type: "fill-blank",
@@ -267,7 +267,7 @@ export const PT_B1_U05: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "Procuro alguém que cozinhe bem.", right: "I'm looking for someone who cooks well." },
-          { left: "Tenho um vizinho que cozinha bem.", right: "I have a neighbour who cooks well." },
+          { left: "Tenho um vizinho que cozinha bem.", right: "I have a neighbor who cooks well." },
           { left: "Preciso de uma mala que seja leve.", right: "I need a suitcase that's light." },
           { left: "Ela tem um carro que é econômico.", right: "She has a car that's cheap to run." },
           { left: "Queremos um quarto que tenha ar-condicionado.", right: "We want a room with air conditioning." },
@@ -358,7 +358,7 @@ export const PT_B1_U05: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You've just moved to Curitiba and want a bakery that opens early. What do you ask a neighbour?",
+            question: "You've just moved to Curitiba and want a bakery that opens early. What do you ask a neighbor?",
             options: ["Tem algum padaria que abra cedo?", "Tem alguma padaria quem abra cedo?", "Tem alguma padaria que abra cedo?", "Tem alguma padaria que abrir cedo?"],
             correctIndex: 2,
             explanation: "\"Padaria\" is feminine, so \"alguma\". Things take \"que\", never \"quem\". The unknown bakery takes the subjunctive \"abra\", not the infinitive.",
@@ -512,7 +512,7 @@ export const PT_B1_U05: Lesson[] = [
         examples: [
           { es: "Conheço um lugar que abre cedo.", en: "I know a place that opens early." },
           { es: "Procuro um lugar que abra cedo.", en: "I'm looking for a place that opens early." },
-          { es: "Tenho um vizinho que conserta bicicletas.", en: "I have a neighbour who fixes bikes." },
+          { es: "Tenho um vizinho que conserta bicicletas.", en: "I have a neighbor who fixes bikes." },
           { es: "Preciso de alguém que conserte minha bicicleta.", en: "I need someone to fix my bike." },
           { es: "Moro numa rua que tem muitas árvores.", en: "I live on a street that has lots of trees." },
           { es: "Quero morar numa rua que tenha árvores.", en: "I want to live on a street that has trees." },
@@ -763,7 +763,7 @@ export const PT_B1_U05: Lesson[] = [
     level: "PT-B1",
     number: 4,
     title: "Qualquer, Qualquer Coisa, Qualquer Um",
-    summary: "Use qualquer for any at all (qualquer pessoa, qualquer coisa, a qualquer hora, qualquer um / uma) and recognise the written plural quaisquer.",
+    summary: "Use qualquer for any at all (qualquer pessoa, qualquer coisa, a qualquer hora, qualquer um / uma) and recognize the written plural quaisquer.",
     duration: "12 min",
     sections: [
       {
@@ -991,7 +991,7 @@ export const PT_B1_U05: Lesson[] = [
         heading: "Aluga-se, vende-se, procura-se: the language of signs",
         body: [
           "On walls, shop windows and websites in Brazil, ads often open with a verb + \"se\": \"aluga-se\" (for rent), \"vende-se\" (for sale), \"procura-se\" (wanted, or missing for a lost pet). Read them as labels: \"vende-se carro\" means car for sale, not 'the car sells itself'.",
-          "With a plural noun, careful writing makes the verb plural: \"alugam-se quartos\". \"Precisa-se de\" (needed) never changes, because \"de\" stands between the verb and the noun: \"precisa-se de vendedores\". For now just recognise these forms; Unit 12 explains how they work.",
+          "With a plural noun, careful writing makes the verb plural: \"alugam-se quartos\". \"Precisa-se de\" (needed) never changes, because \"de\" stands between the verb and the noun: \"precisa-se de vendedores\". For now just recognize these forms; Unit 12 explains how they work.",
           "Signs are one of the few places where Brazilians put \"se\" after the verb, with a hyphen. Nobody talks like a sign: in speech you'd say \"eles estão alugando o apartamento\", and websites often write \"apartamento para alugar\" or \"casa à venda\".",
         ],
         examples: [
@@ -1075,29 +1075,29 @@ export const PT_B1_U05: Lesson[] = [
         heading: "Writing your own ad",
         body: [
           "A personal ad follows the same logic. What you already have is real, so it takes the indicative: \"tenho um quarto que fica perto do metrô\". The person you're looking for is unknown, so it takes the subjunctive: \"procuro alguém que não fume\".",
-          "Ads drop articles and verbs freely (\"quarto mobiliado, R$ 900\"), but the \"que\" clauses stay full sentences. For a flatmate, \"colega de apartamento\" is the usual word. Finish with how to reach you: \"interessados, entrar em contato pelo WhatsApp\" or \"tratar com Ana\" (ask for Ana).",
+          "Ads drop articles and verbs freely (\"quarto mobiliado, R$ 900\"), but the \"que\" clauses stay full sentences. For a roommate, \"colega de apartamento\" is the usual word. Finish with how to reach you: \"interessados, entrar em contato pelo WhatsApp\" or \"tratar com Ana\" (ask for Ana).",
         ],
         examples: [
-          { es: "Procuro colega de apartamento que goste de animais.", en: "Looking for a flatmate who likes animals." },
-          { es: "Tenho um quarto que fica a cinco minutos do metrô.", en: "I have a room five minutes from the metro." },
+          { es: "Procuro colega de apartamento que goste de animais.", en: "Looking for a roommate who likes animals." },
+          { es: "Tenho um quarto que fica a cinco minutos do metrô.", en: "I have a room five minutes from the subway." },
           { es: "Procuro alguém que não fume e que divida as contas.", en: "I'm looking for someone who doesn't smoke and will split the bills." },
-          { es: "Professor de inglês procura aluno que queira praticar português.", en: "English teacher seeks a student who wants to practise Portuguese." },
+          { es: "Professor de inglês procura aluno que queira praticar português.", en: "English teacher seeks a student who wants to practice Portuguese." },
           { es: "Quarto mobiliado em Curitiba, R$ 900 por mês.", en: "Furnished room in Curitiba, R$ 900 a month." },
           { es: "Interessados, entrar em contato pelo WhatsApp.", en: "If interested, get in touch on WhatsApp." },
         ],
         checkpoint: [
           {
             type: "word-order",
-            prompt: "Put the words in order to say: Looking for a flatmate who likes animals.",
+            prompt: "Put the words in order to say: Looking for a roommate who likes animals.",
             words: ["Procuro", "colega", "de", "apartamento", "que", "goste", "de", "animais."],
-            translation: "Looking for a flatmate who likes animals.",
-            explanation: "\"Que goste\": the flatmate isn't found yet, so \"gostar\" takes the subjunctive. Ads often leave out the article before \"colega\".",
+            translation: "Looking for a roommate who likes animals.",
+            explanation: "\"Que goste\": the roommate isn't found yet, so \"gostar\" takes the subjunctive. Ads often leave out the article before \"colega\".",
           },
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I have a room that is near the metro.",
+            source: "I have a room that is near the subway.",
             answer: "Tenho um quarto que fica perto do metrô.",
             altAnswers: ["Eu tenho um quarto que fica perto do metrô.", "Tenho um quarto que é perto do metrô.", "Eu tenho um quarto que é perto do metrô.", "Tenho um quarto perto do metrô.", "Eu tenho um quarto perto do metrô."],
             explanation: "The room exists, so the indicative: \"que fica\". \"Fica\" is the usual verb for where a place is located.",
@@ -1170,9 +1170,9 @@ export const PT_B1_U05: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Teacher seeks a student who wants to practise Portuguese.",
+        prompt: "Put the words in order to say: Teacher seeks a student who wants to practice Portuguese.",
         words: ["Professor", "procura", "aluno", "que", "queira", "praticar", "português."],
-        translation: "Teacher seeks a student who wants to practise Portuguese.",
+        translation: "Teacher seeks a student who wants to practice Portuguese.",
         explanation: "\"Queira\" is the irregular subjunctive of \"querer\": the student hasn't been found yet.",
       },
       {
@@ -1211,19 +1211,19 @@ export const PT_B1_U05: Lesson[] = [
     level: "PT-B1",
     number: 6,
     title: "Dialogue Lab: Procurando Apartamento",
-    summary: "Hunt for a flat in Belo Horizonte with an estate agent, describing the flat you want in the subjunctive and the flats she has in the indicative.",
+    summary: "Hunt for an apartment in Belo Horizonte with a real estate agent, describing the apartment you want in the subjunctive and the apartments she has in the indicative.",
     duration: "12 min",
     sections: [
       {
         heading: "Estou procurando um apartamento que...: the first visit",
         body: [
-          "Lucas has just moved to Belo Horizonte and walks into an \"imobiliária\" (estate agency). The agent, Patrícia, opens with \"Em que posso ajudar?\" (How can I help you?). Lucas describes a flat he hasn't found yet, so his descriptions take the subjunctive: \"um apartamento que seja perto do metrô\".",
-          "To list several requirements, repeat \"que\" before each one: \"que seja perto do metrô e que aceite animais\". Every verb stays in the subjunctive, because none of them describes a flat Lucas has actually seen.",
+          "Lucas has just moved to Belo Horizonte and walks into an \"imobiliária\" (real estate agency). The agent, Patrícia, opens with \"Em que posso ajudar?\" (How can I help you?). Lucas describes an apartment he hasn't found yet, so his descriptions take the subjunctive: \"um apartamento que seja perto do metrô\".",
+          "To list several requirements, repeat \"que\" before each one: \"que seja perto do metrô e que aceite animais\". Every verb stays in the subjunctive, because none of them describes an apartment Lucas has actually seen.",
           "Key rental words: \"o aluguel\" (the rent), \"o condomínio\" (the monthly building fee, paid on top of the rent, and a classic surprise for newcomers), \"a vaga\" (parking space), \"mobiliado\" (furnished). A budget is \"até dois mil reais\" (up to two thousand reais).",
         ],
         examples: [
           { es: "Bom dia! Em que posso ajudar?", en: "Good morning! How can I help you?" },
-          { es: "Estou procurando um apartamento que seja perto do metrô.", en: "I'm looking for a flat that's near the metro." },
+          { es: "Estou procurando um apartamento que seja perto do metrô.", en: "I'm looking for an apartment that's near the subway." },
           { es: "Preciso de um lugar que aceite animais, porque eu tenho um cachorro.", en: "I need a place that allows pets, because I have a dog." },
           { es: "Quero dois quartos e um aluguel que não passe de dois mil reais.", en: "I want two bedrooms and rent that doesn't go over two thousand reais." },
           { es: "Prefiro um prédio que tenha portaria vinte e quatro horas.", en: "I prefer a building with a 24-hour doorman." },
@@ -1234,7 +1234,7 @@ export const PT_B1_U05: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'm looking for a flat that allows pets.",
+            source: "I'm looking for an apartment that allows pets.",
             answer: "Estou procurando um apartamento que aceite animais.",
             altAnswers: [
               "Eu estou procurando um apartamento que aceite animais.",
@@ -1244,11 +1244,11 @@ export const PT_B1_U05: Lesson[] = [
               "Eu procuro um apartamento que aceite animais.",
               "Procuro um apartamento que aceite pets.",
             ],
-            explanation: "The flat isn't found yet, so \"aceitar\" goes into the subjunctive: \"que aceite\". Brazilians say both \"animais\" and \"pets\" in ads.",
+            explanation: "The apartment isn't found yet, so \"aceitar\" goes into the subjunctive: \"que aceite\". Brazilians say both \"animais\" and \"pets\" in ads.",
           },
           {
             type: "multiple-choice",
-            question: "Patrícia asks what you need. You want a flat near the metro with a balcony. What do you say?",
+            question: "Patrícia asks what you need. You want an apartment near the subway with a balcony. What do you say?",
             options: [
               "Preciso de um apartamento que seja perto do metrô e que tenha varanda.",
               "Preciso de um apartamento que é perto do metrô e que tem varanda.",
@@ -1256,24 +1256,24 @@ export const PT_B1_U05: Lesson[] = [
               "Preciso um apartamento que seja perto do metrô e que tenha varanda.",
             ],
             correctIndex: 0,
-            explanation: "Both requirements describe a flat you haven't found, so both verbs are subjunctive: \"seja\" and \"tenha\". \"Precisar\" also needs \"de\" before a noun.",
+            explanation: "Both requirements describe an apartment you haven't found, so both verbs are subjunctive: \"seja\" and \"tenha\". \"Precisar\" also needs \"de\" before a noun.",
           },
           {
             type: "speak",
             text: "Estou procurando um apartamento que seja perto do metrô.",
             tip: "The j in seja sounds like the s in pleasure, and metrô ends in a closed ô.",
-            explanation: "\"Que seja\": the subjunctive of \"ser\" for a flat that may not exist.",
+            explanation: "\"Que seja\": the subjunctive of \"ser\" for an apartment that may not exist.",
           },
         ],
       },
       {
         heading: "Tenho um que tem varanda: what the agent has",
         body: [
-          "Patrícia answers from her listings. These flats exist, so she uses the indicative: \"Tenho um apartamento que fica na Savassi e que aceita animais.\" It's the same frame in a different mood: Lucas wants one that \"aceite\", and she has one that \"aceita\".",
+          "Patrícia answers from her listings. These apartments exist, so she uses the indicative: \"Tenho um apartamento que fica na Savassi e que aceita animais.\" It's the same frame in a different mood: Lucas wants one that \"aceite\", and she has one that \"aceita\".",
           "Asking whether something exists takes the subjunctive: \"Você tem algum que tenha vaga?\" So does denying it: \"Não tenho nenhum que custe menos de mil e quinhentos.\" Once she finds a real one, she's back to the indicative: \"Esse aqui tem vaga.\"",
         ],
         examples: [
-          { es: "Tenho um apartamento que fica na Savassi e que aceita animais.", en: "I have a flat in Savassi that allows pets." },
+          { es: "Tenho um apartamento que fica na Savassi e que aceita animais.", en: "I have an apartment in Savassi that allows pets." },
           { es: "Ele tem dois quartos, mas o condomínio é um pouco caro.", en: "It has two bedrooms, but the building fee is a bit expensive." },
           { es: "Você tem algum que tenha vaga de garagem?", en: "Do you have one with a parking space?" },
           { es: "Não tenho nenhum que custe menos de mil e quinhentos reais nessa região.", en: "I don't have any that cost less than 1,500 reais in this area." },
@@ -1284,10 +1284,10 @@ export const PT_B1_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "I have a flat that [allows] pets.",
+            en: "I have an apartment that [allows] pets.",
             sentence: "Tenho um apartamento que ___ animais.",
             answer: "aceita",
-            explanation: "Patrícia knows this flat exists, so the indicative \"aceita\". \"Aceite\" would mean she's only hoping to find one.",
+            explanation: "Patrícia knows this apartment exists, so the indicative \"aceita\". \"Aceite\" would mean she's only hoping to find one.",
           },
           {
             type: "fill-blank",
@@ -1295,7 +1295,7 @@ export const PT_B1_U05: Lesson[] = [
             en: "Do you have one that [has] a parking space?",
             sentence: "Você tem algum que ___ vaga de garagem?",
             answer: "tenha",
-            explanation: "Lucas doesn't know if such a flat exists, so the subjunctive \"tenha\", built from \"tenho\".",
+            explanation: "Lucas doesn't know if such an apartment exists, so the subjunctive \"tenha\", built from \"tenho\".",
           },
           {
             type: "listen-choose",
@@ -1363,7 +1363,7 @@ export const PT_B1_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We're looking for a flat that has three bedrooms.",
+        source: "We're looking for an apartment that has three bedrooms.",
         answer: "Estamos procurando um apartamento que tenha três quartos.",
         altAnswers: [
           "Nós estamos procurando um apartamento que tenha três quartos.",
@@ -1371,13 +1371,13 @@ export const PT_B1_U05: Lesson[] = [
           "Procuramos um apartamento que tenha três quartos.",
           "Nós procuramos um apartamento que tenha três quartos.",
         ],
-        explanation: "The flat is still only wanted, so the subjunctive \"tenha\".",
+        explanation: "The apartment is still only wanted, so the subjunctive \"tenha\".",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I live in a flat that allows pets.",
+        source: "I live in an apartment that allows pets.",
         answer: "Moro num apartamento que aceita animais.",
         altAnswers: [
           "Eu moro num apartamento que aceita animais.",
@@ -1388,13 +1388,13 @@ export const PT_B1_U05: Lesson[] = [
           "Moro em um apartamento que aceita pets.",
           "Eu moro em um apartamento que aceita pets.",
         ],
-        explanation: "You already live there, so the flat is real: indicative \"aceita\", not \"aceite\".",
+        explanation: "You already live there, so the apartment is real: indicative \"aceita\", not \"aceite\".",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "She doesn't have any flat that's near the metro.",
+        source: "She doesn't have any apartment that's near the subway.",
         answer: "Ela não tem nenhum apartamento que seja perto do metrô.",
         altAnswers: [
           "Ela não tem nenhum apartamento que fique perto do metrô.",
@@ -1431,7 +1431,7 @@ export const PT_B1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're not sure any flat fits your budget. How do you ask Patrícia?",
+        question: "You're not sure any apartment fits your budget. How do you ask Patrícia?",
         options: [
           "Você tem algum apartamento que custe até mil e oitocentos reais?",
           "Você tem algum apartamento que custa até mil e oitocentos reais?",
@@ -1439,7 +1439,7 @@ export const PT_B1_U05: Lesson[] = [
           "Você tem algum apartamento que custar até mil e oitocentos reais?",
         ],
         correctIndex: 0,
-        explanation: "\"Algum... que\" + subjunctive \"custe\" asks whether such a flat exists. \"Nenhum\" belongs in negative sentences, not in this question.",
+        explanation: "\"Algum... que\" + subjunctive \"custe\" asks whether such an apartment exists. \"Nenhum\" belongs in negative sentences, not in this question.",
       },
       {
         type: "word-order",
@@ -1459,7 +1459,7 @@ export const PT_B1_U05: Lesson[] = [
           "Tenho um que aceitava animais.",
         ],
         correctIndex: 0,
-        explanation: "\"Aceita\" ends in -a: the indicative, because the agent has this flat. \"Aceite\" ends in an i sound.",
+        explanation: "\"Aceita\" ends in -a: the indicative, because the agent has this apartment. \"Aceite\" ends in an i sound.",
       },
       {
         type: "dictation",
@@ -1585,8 +1585,8 @@ export const PT_B1_U05: Lesson[] = [
         ],
         examples: [
           { es: "Conheço um médico que atende aos sábados.", en: "I know a doctor who sees patients on Saturdays." },
-          { es: "Tenho uma vizinha que fala japonês.", en: "I have a neighbour who speaks Japanese." },
-          { es: "Moro num apartamento que tem varanda.", en: "I live in a flat that has a balcony." },
+          { es: "Tenho uma vizinha que fala japonês.", en: "I have a neighbor who speaks Japanese." },
+          { es: "Moro num apartamento que tem varanda.", en: "I live in an apartment that has a balcony." },
           { es: "Achei um restaurante que serve comida baiana.", en: "I found a restaurant that serves Bahian food." },
           { es: "A padaria que abre cedo fica na esquina.", en: "The bakery that opens early is on the corner." },
         ],
@@ -1602,16 +1602,16 @@ export const PT_B1_U05: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your friend Beatriz already lives with a flatmate who works nights. Which sentence describes her situation correctly?",
+            question: "Your friend Beatriz already lives with a roommate who works nights. Which sentence describes her situation correctly?",
             options: ["A Beatriz mora com uma moça que trabalha à noite.", "A Beatriz mora com uma moça que trabalhe à noite.", "A Beatriz procura uma moça que trabalha à noite.", "A Beatriz mora com uma moça que esteja trabalhando à noite."],
             correctIndex: 0,
-            explanation: "The flatmate is real and known, so the indicative \"trabalha\". With \"procura\" the person would be unknown and need \"trabalhe\".",
+            explanation: "The roommate is real and known, so the indicative \"trabalha\". With \"procura\" the person would be unknown and need \"trabalhe\".",
           },
           {
             type: "speak",
             text: "Moro num apartamento que tem varanda.",
             tip: "\"Tem\" is a nasal vowel: don't close your lips on a full m at the end.",
-            explanation: "\"Moro num\" points to a real flat, so the indicative \"tem\".",
+            explanation: "\"Moro num\" points to a real apartment, so the indicative \"tem\".",
           },
         ],
       },
@@ -1630,7 +1630,7 @@ export const PT_B1_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I have a neighbour who speaks Japanese.",
+        source: "I have a neighbor who speaks Japanese.",
         answer: "Tenho uma vizinha que fala japonês.",
         altAnswers: ["Eu tenho uma vizinha que fala japonês.", "Tenho um vizinho que fala japonês.", "Eu tenho um vizinho que fala japonês."],
         explanation: "\"Tenho\" points to a real person, so the indicative \"fala\". \"Fale\" would be the overcorrection.",
@@ -1719,13 +1719,13 @@ export const PT_B1_U05: Lesson[] = [
       {
         heading: "Have one → want one: the verb flips",
         body: [
-          "Every change in this lesson rests on one idea. A relative clause about something you know exists takes the indicative. A clause about something you're still looking for takes the subjunctive. \"Moro num apartamento que tem varanda\" describes a real flat. \"Quero um apartamento que tenha varanda\" describes one that may not exist yet.",
+          "Every change in this lesson rests on one idea. A relative clause about something you know exists takes the indicative. A clause about something you're still looking for takes the subjunctive. \"Moro num apartamento que tem varanda\" describes a real apartment. \"Quero um apartamento que tenha varanda\" describes one that may not exist yet.",
           "So when \"tenho\", \"moro\" or \"conheço\" becomes \"quero\", \"procuro\" or \"preciso de\", only the verb after \"que\" has to change. The noun keeps \"um\" or \"uma\", and the rest of the sentence stays put. Watch the spelling changes: \"paga\" becomes \"pague\" and \"explica\" becomes \"explique\".",
-          "English uses the same form in both sentences (a flat that has a balcony), which is why English speakers forget to switch.",
+          "English uses the same form in both sentences (an apartment that has a balcony), which is why English speakers forget to switch.",
         ],
         examples: [
-          { es: "Moro num apartamento que tem varanda.", en: "I live in a flat that has a balcony." },
-          { es: "Quero um apartamento que tenha varanda.", en: "I want a flat that has a balcony." },
+          { es: "Moro num apartamento que tem varanda.", en: "I live in an apartment that has a balcony." },
+          { es: "Quero um apartamento que tenha varanda.", en: "I want an apartment that has a balcony." },
           { es: "Trabalho numa empresa que paga bem.", en: "I work for a company that pays well." },
           { es: "Procuro uma empresa que pague bem.", en: "I'm looking for a company that pays well." },
           { es: "Preciso de um carro que seja econômico.", en: "I need a car that's fuel-efficient." },
@@ -1736,10 +1736,10 @@ export const PT_B1_U05: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'm looking for a flat that has a balcony.",
+            source: "I'm looking for an apartment that has a balcony.",
             answer: "Procuro um apartamento que tenha varanda.",
             altAnswers: ["Eu procuro um apartamento que tenha varanda.", "Estou procurando um apartamento que tenha varanda.", "Eu estou procurando um apartamento que tenha varanda.", "Procuro um apartamento que tenha uma varanda.", "Estou procurando um apartamento que tenha uma varanda."],
-            explanation: "You haven't found the flat yet, so the clause takes the subjunctive: \"que tenha varanda\", not \"que tem\".",
+            explanation: "You haven't found the apartment yet, so the clause takes the subjunctive: \"que tenha varanda\", not \"que tem\".",
           },
           {
             type: "fill-blank",
@@ -1807,10 +1807,10 @@ export const PT_B1_U05: Lesson[] = [
         ],
         examples: [
           { es: "Achei um mecânico que atende aos sábados.", en: "I found a mechanic who's open on Saturdays." },
-          { es: "Encontramos um apartamento que é perto do metrô.", en: "We found a flat that's near the metro." },
+          { es: "Encontramos um apartamento que é perto do metrô.", en: "We found an apartment that's near the subway." },
           { es: "Quero o vestido que está na vitrine.", en: "I want the dress that's in the window." },
           { es: "Quero um vestido que combine com meus sapatos novos.", en: "I want a dress that goes with my new shoes." },
-          { es: "Ainda não achei ninguém que queira dividir o apartamento.", en: "I still haven't found anyone who wants to share the flat." },
+          { es: "Ainda não achei ninguém que queira dividir o apartamento.", en: "I still haven't found anyone who wants to share the apartment." },
         ],
         checkpoint: [
           {
@@ -1826,7 +1826,7 @@ export const PT_B1_U05: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I still haven't found anyone who wants to share the flat.",
+            source: "I still haven't found anyone who wants to share the apartment.",
             answer: "Ainda não achei ninguém que queira dividir o apartamento.",
             altAnswers: ["Eu ainda não achei ninguém que queira dividir o apartamento.", "Ainda não encontrei ninguém que queira dividir o apartamento.", "Eu ainda não encontrei ninguém que queira dividir o apartamento."],
             explanation: "The search isn't over and \"ninguém\" denies the person exists, so you need the subjunctive \"queira\".",
@@ -1872,7 +1872,7 @@ export const PT_B1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You've just met Lucas, who wants to share your flat. How do you tell a friend?",
+        question: "You've just met Lucas, who wants to share your apartment. How do you tell a friend?",
         options: ["Encontrei alguém que quer dividir o apartamento.", "Encontrei alguém que queira dividir o apartamento.", "Não encontrei ninguém que quer dividir o apartamento.", "Procuro alguém que quer dividir o apartamento."],
         correctIndex: 0,
         explanation: "Lucas is real, so the indicative: \"que quer\". \"Que queira\" would only fit while you were still searching.",
@@ -1942,20 +1942,20 @@ export const PT_B1_U05: Lesson[] = [
     level: "PT-B1",
     number: 9,
     title: "Real-World Mission: Write an Ad",
-    summary: "Write a Brazilian-style ad looking for a flatmate or a language-exchange partner, with the facts in the indicative and the person you want in the subjunctive.",
+    summary: "Write a Brazilian-style ad looking for a roommate or a language-exchange partner, with the facts in the indicative and the person you want in the subjunctive.",
     duration: "15 min",
     sections: [
       {
         heading: "The headline and the facts",
         body: [
-          "A Brazilian classified ad opens with a short headline. In print you'll see the se forms from earlier in the unit, \"Aluga-se quarto\" or \"Procura-se colega de apartamento\". Online, most people simply write \"Procuro...\" or \"Divido apartamento em...\". Sharing a flat is \"dividir apartamento\", and the flatmate is \"o colega\" or \"a colega de apartamento\".",
-          "Next come the facts: who you are and what the place is like. These are real and known, so they take the indicative: \"o apartamento tem dois quartos\", \"fica perto do metrô\". Don't let the new subjunctive spread here. \"O apartamento tenha\" would sound as if you weren't sure about your own flat.",
+          "A Brazilian classified ad opens with a short headline. In print you'll see the se forms from earlier in the unit, \"Aluga-se quarto\" or \"Procura-se colega de apartamento\". Online, most people simply write \"Procuro...\" or \"Divido apartamento em...\". Sharing an apartment is \"dividir apartamento\", and the roommate is \"o colega\" or \"a colega de apartamento\".",
+          "Next come the facts: who you are and what the place is like. These are real and known, so they take the indicative: \"o apartamento tem dois quartos\", \"fica perto do metrô\". Don't let the new subjunctive spread here. \"O apartamento tenha\" would sound as if you weren't sure about your own apartment.",
         ],
         examples: [
-          { es: "Procuro colega de apartamento em Pinheiros.", en: "Looking for a flatmate in Pinheiros." },
+          { es: "Procuro colega de apartamento em Pinheiros.", en: "Looking for a roommate in Pinheiros." },
           { es: "Aluga-se quarto mobiliado perto da USP.", en: "Furnished room for rent near USP." },
           { es: "Sou brasileira, tenho 27 anos e trabalho com design.", en: "I'm Brazilian, I'm 27 and I work in design." },
-          { es: "O apartamento tem dois quartos e uma varanda grande.", en: "The flat has two bedrooms and a big balcony." },
+          { es: "O apartamento tem dois quartos e uma varanda grande.", en: "The apartment has two bedrooms and a big balcony." },
           { es: "Fica a cinco minutos da estação Faria Lima.", en: "It's five minutes from Faria Lima station." },
           { es: "O aluguel é de 1.200 reais, com contas incluídas.", en: "The rent is 1,200 reais, bills included." },
         ],
@@ -1964,14 +1964,14 @@ export const PT_B1_U05: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The flat has two bedrooms and a balcony.",
+            source: "The apartment has two bedrooms and a balcony.",
             answer: "O apartamento tem dois quartos e uma varanda.",
             altAnswers: ["O apartamento tem dois quartos e varanda.", "Meu apartamento tem dois quartos e uma varanda.", "O meu apartamento tem dois quartos e uma varanda."],
-            explanation: "This is your own flat, a known fact, so the indicative \"tem\". \"Tenha\" is only for a flat you're still looking for.",
+            explanation: "This is your own apartment, a known fact, so the indicative \"tem\". \"Tenha\" is only for an apartment you're still looking for.",
           },
           {
             type: "multiple-choice",
-            question: "In your ad you describe your own flat, which is near the metro. Which line do you write?",
+            question: "In your ad you describe your own apartment, which is near the subway. Which line do you write?",
             options: ["O apartamento fica perto do metrô.", "O apartamento fique perto do metrô.", "O apartamento seja perto do metrô.", "O apartamento é perto de o metrô."],
             correctIndex: 0,
             explanation: "A real, known location takes the indicative: \"fica perto do metrô\". \"Fique\" and \"seja\" are subjunctive, and \"de o\" must contract to \"do\".",
@@ -2019,7 +2019,7 @@ export const PT_B1_U05: Lesson[] = [
         ],
         examples: [
           { es: "Sou americano e moro em Recife há seis meses.", en: "I'm American and I've been living in Recife for six months." },
-          { es: "Procuro alguém que fale português e queira praticar inglês.", en: "I'm looking for someone who speaks Portuguese and wants to practise English." },
+          { es: "Procuro alguém que fale português e queira praticar inglês.", en: "I'm looking for someone who speaks Portuguese and wants to practice English." },
           { es: "Ofereço ajuda com inglês em troca de conversa em português.", en: "I offer help with English in exchange for conversation in Portuguese." },
           { es: "Pode ser qualquer dia, desde que seja à noite.", en: "Any day is fine, as long as it's in the evening." },
           { es: "Caso tenha interesse, me mande uma mensagem.", en: "If you're interested, send me a message." },
@@ -2058,10 +2058,10 @@ export const PT_B1_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'm looking for a flatmate who likes cats.",
+        source: "I'm looking for a roommate who likes cats.",
         answer: "Procuro um colega de apartamento que goste de gatos.",
         altAnswers: ["Procuro uma colega de apartamento que goste de gatos.", "Estou procurando um colega de apartamento que goste de gatos.", "Estou procurando uma colega de apartamento que goste de gatos.", "Procuro colega de apartamento que goste de gatos."],
-        explanation: "The flatmate is still unknown, so \"goste\", the subjunctive of \"gostar\". \"Gostar\" keeps its \"de\": \"goste de gatos\".",
+        explanation: "The roommate is still unknown, so \"goste\", the subjunctive of \"gostar\". \"Gostar\" keeps its \"de\": \"goste de gatos\".",
       },
       {
         type: "translate",
@@ -2091,7 +2091,7 @@ export const PT_B1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You want a language partner who can chat at weekends. Which line do you write in your ad?",
+        question: "You want a language partner who can chat on weekends. Which line do you write in your ad?",
         options: ["Procuro alguém que possa conversar nos fins de semana.", "Procuro alguém que pode conversar nos fins de semana.", "Procuro alguém poder conversar nos fins de semana.", "Procuro alguém que posso conversar nos fins de semana."],
         correctIndex: 0,
         explanation: "An unknown person takes the subjunctive \"possa\", built from \"posso\". \"Pode\" points to someone you already know, and \"posso\" is the eu form.",
@@ -2115,11 +2115,11 @@ export const PT_B1_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The flat [is] five minutes from the metro.",
+        en: "The apartment [is] five minutes from the subway.",
         sentence: "O apartamento ___ a cinco minutos do metrô.",
         answer: "fica",
         altAnswers: ["está"],
-        explanation: "For where a building is, Brazilians usually say \"fica\". It's your own flat, so the indicative.",
+        explanation: "For where a building is, Brazilians usually say \"fica\". It's your own apartment, so the indicative.",
       },
       {
         type: "dictation",
@@ -2129,7 +2129,7 @@ export const PT_B1_U05: Lesson[] = [
       {
         type: "speak",
         text: "Procuro alguém que fale português e queira praticar inglês.",
-        prompt: "Say it in Portuguese: I'm looking for someone who speaks Portuguese and wants to practise English.",
+        prompt: "Say it in Portuguese: I'm looking for someone who speaks Portuguese and wants to practice English.",
         tip: "Pronounce the ei in \"queira\" as a real diphthong, and let the final -e of \"fale\" sound like i.",
         explanation: "One \"que\" carries two subjunctives: \"fale\" and \"queira\". The irregular \"queira\" comes from \"querer\".",
       },
@@ -2138,7 +2138,7 @@ export const PT_B1_U05: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "Aluga-se quarto", right: "Room for rent" },
-          { left: "Divido apartamento", right: "Flat to share" },
+          { left: "Divido apartamento", right: "Apartment to share" },
           { left: "De preferência", right: "Preferably" },
           { left: "Em troca de", right: "In exchange for" },
           { left: "Contas incluídas", right: "Bills included" },
@@ -2147,18 +2147,18 @@ export const PT_B1_U05: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write an ad for a Brazilian website looking for a flatmate or a language-exchange partner. Say who you are, describe the flat or what you offer, describe the person you want, and say how to reply.",
+        prompt: "Write an ad for a Brazilian website looking for a roommate or a language-exchange partner. Say who you are, describe the apartment or what you offer, describe the person you want, and say how to reply.",
         minWords: 50,
         maxWords: 100,
         rubric: [
           "A short headline (Procuro..., Divido apartamento..., Aluga-se quarto...)",
-          "Facts about you and the flat or offer in the indicative (tem, fica, sou, ofereço)",
+          "Facts about you and the apartment or offer in the indicative (tem, fica, sou, ofereço)",
           "At least two descriptions of the ideal person in the subjunctive (que seja, que não fume, que fale...)",
           "One condition with desde que or caso + subjunctive",
           "A sign-off telling people how to reply",
         ],
         modelAnswer: "Divido apartamento em Botafogo! Sou carioca, tenho 30 anos e trabalho como professora. O apartamento tem dois quartos e uma sala grande, e fica a cinco minutos do metrô. O aluguel é de 1.500 reais, com contas incluídas. Procuro alguém que seja tranquilo, que trabalhe ou estude durante o dia e, de preferência, que não fume. Aceito animais, desde que sejam pequenos. Caso tenha interesse, me mande uma mensagem!",
-        explanation: "The facts about the flat and the writer use the indicative (\"tem\", \"fica\", \"é\"). The unknown flatmate takes the subjunctive (\"seja\", \"trabalhe\", \"fume\"), and so do the conditions after \"desde que\" and \"caso\".",
+        explanation: "The facts about the apartment and the writer use the indicative (\"tem\", \"fica\", \"é\"). The unknown roommate takes the subjunctive (\"seja\", \"trabalhe\", \"fume\"), and so do the conditions after \"desde que\" and \"caso\".",
       },
     ],
   },
@@ -2167,14 +2167,14 @@ export const PT_B1_U05: Lesson[] = [
     level: "PT-B1",
     number: 10,
     title: "Spiral Review: Looking for Something",
-    summary: "Mix every use of the present subjunctive so far, from wishes and doubts to conjunctions and descriptions, while hunting for a flat and a job.",
+    summary: "Mix every use of the present subjunctive so far, from wishes and doubts to conjunctions and descriptions, while hunting for an apartment and a job.",
     duration: "15 min",
     kind: "review",
     sections: [
       {
         heading: "Wishes, hopes, feelings and doubts",
         body: [
-          "The subjunctive appears after \"que\" when the main verb doesn't state a fact. You've met five triggers: wishes (\"quero que\", \"peço que\"), hopes (\"espero que\", \"tomara que\"), feelings (\"fico feliz que\", \"tenho medo que\"), judgements (\"é importante que\", \"é melhor que\") and doubt (\"duvido que\", \"não acho que\", \"talvez\").",
+          "The subjunctive appears after \"que\" when the main verb doesn't state a fact. You've met five triggers: wishes (\"quero que\", \"peço que\"), hopes (\"espero que\", \"tomara que\"), feelings (\"fico feliz que\", \"tenho medo que\"), judgments (\"é importante que\", \"é melhor que\") and doubt (\"duvido que\", \"não acho que\", \"talvez\").",
           "Belief and certainty keep the indicative: \"acho que ele vem\", \"tenho certeza que ela pode\". With no second subject, use the infinitive instead: \"quero mudar\" but \"quero que você mude\". The English pattern I want you to move has no word-for-word copy in Portuguese.",
           "The true irregulars are \"seja\", \"esteja\", \"vá\", \"haja\", \"saiba\", \"queira\" and \"dê\". Everything else comes from the eu form (\"trago\" → \"traga\", \"venho\" → \"venha\"), with spelling fixes in \"chegue\" and \"comece\".",
         ],
@@ -2232,7 +2232,7 @@ export const PT_B1_U05: Lesson[] = [
         examples: [
           { es: "Vou deixar a chave com o porteiro para que você possa entrar.", en: "I'll leave the key with the doorman so you can get in." },
           { es: "Caso o corretor ligue, me avisa.", en: "If the agent calls, let me know." },
-          { es: "Embora o bairro seja barulhento, o apartamento é ótimo.", en: "Although the neighborhood is noisy, the flat is great." },
+          { es: "Embora o bairro seja barulhento, o apartamento é ótimo.", en: "Although the neighborhood is noisy, the apartment is great." },
           { es: "A gente aceita o contrato, desde que o dono pinte as paredes.", en: "We'll sign the lease, provided the owner paints the walls." },
           { es: "Vamos ver outro imóvel, a não ser que você esteja cansada.", en: "Let's see another place, unless you're tired." },
         ],
@@ -2274,7 +2274,7 @@ export const PT_B1_U05: Lesson[] = [
       {
         heading: "Descriptions: does it exist?",
         body: [
-          "In a description, the mood tells your listener whether the thing is known to exist. \"Moro num apartamento que tem varanda\" is a real flat; \"procuro um apartamento que tenha varanda\" is one you hope to find. After \"ninguém\", \"nada\" and \"nenhum\" nothing exists, so it's the subjunctive again.",
+          "In a description, the mood tells your listener whether the thing is known to exist. \"Moro num apartamento que tem varanda\" is a real apartment; \"procuro um apartamento que tenha varanda\" is one you hope to find. After \"ninguém\", \"nada\" and \"nenhum\" nothing exists, so it's the subjunctive again.",
           "English uses the same verb in both cases, so the trap is forgetting to change it: a colleague you know \"que fala japonês\", a candidate you're still looking for \"que fale japonês\". \"Qualquer\" (any) points at something unknown too: \"qualquer lugar que seja perto\".",
         ],
         examples: [
@@ -2282,7 +2282,7 @@ export const PT_B1_U05: Lesson[] = [
           { es: "Conheço um corretor que trabalha aos sábados.", en: "I know an agent who works on Saturdays." },
           { es: "Não tem nenhum imóvel aqui que aceite cachorro.", en: "There isn't a single place here that allows dogs." },
           { es: "Você conhece alguém que fale japonês?", en: "Do you know anyone who speaks Japanese?" },
-          { es: "Qualquer lugar que seja perto do metrô serve.", en: "Anywhere near the metro will do." },
+          { es: "Qualquer lugar que seja perto do metrô serve.", en: "Anywhere near the subway will do." },
           { es: "A empresa precisa de alguém que saiba inglês.", en: "The company needs someone who knows English." },
         ],
         checkpoint: [
@@ -2318,7 +2318,7 @@ export const PT_B1_U05: Lesson[] = [
               "Moro num apartamento que tinha varanda.",
             ],
             correctIndex: 0,
-            explanation: "\"Que tem varanda\": a flat you actually live in, so the indicative. \"Que tenha\" would only fit a flat you're still looking for.",
+            explanation: "\"Que tem varanda\": an apartment you actually live in, so the indicative. \"Que tenha\" would only fit an apartment you're still looking for.",
           },
         ],
       },
@@ -2419,7 +2419,7 @@ export const PT_B1_U05: Lesson[] = [
       {
         type: "speak",
         text: "Estou procurando um apartamento que seja perto da praia.",
-        prompt: "Say it in Portuguese: I'm looking for a flat that's near the beach.",
+        prompt: "Say it in Portuguese: I'm looking for an apartment that's near the beach.",
         tip: "The r in procurando is a quick tap. The j in seja sounds like the s in measure.",
         explanation: "An apartment you haven't found yet, so \"que seja\". \"Perto da praia\" contracts \"de\" + \"a\".",
       },
@@ -2456,11 +2456,11 @@ export const PT_B1_U05: Lesson[] = [
 
 export const PT_B1_U05_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You're moving to a Brazilian city for work and don't know anyone there yet. Write a post for a local Facebook group. Say who you are, describe the flat you're looking for (location, features, budget), say what kind of person you'd like to meet (a language-exchange partner, someone who can give you tips), and ask people to get in touch. Describe at least one thing you already have, so the indicative and the subjunctive appear side by side.",
+  prompt: "You're moving to a Brazilian city for work and don't know anyone there yet. Write a post for a local Facebook group. Say who you are, describe the apartment you're looking for (location, features, budget), say what kind of person you'd like to meet (a language-exchange partner, someone who can give you tips), and ask people to get in touch. Describe at least one thing you already have, so the indicative and the subjunctive appear side by side.",
   minWords: 80,
   maxWords: 150,
   rubric: [
-    "Describes the flat you're looking for with \"que\" + subjunctive (\"um apartamento que seja perto do metrô\", \"que tenha varanda\", \"que aceite animais\").",
+    "Describes the apartment you're looking for with \"que\" + subjunctive (\"um apartamento que seja perto do metrô\", \"que tenha varanda\", \"que aceite animais\").",
     "Uses \"que\" + indicative for something that already exists (\"um hospital que fica em...\", \"uma gata que é muito tranquila\").",
     "Says no one or nothing exists yet with \"não conheço ninguém que...\" or \"não tem nada que...\" + subjunctive, and looks for a person with \"procuro alguém que...\".",
     "Uses \"qualquer\" at least once (\"qualquer dica\", \"a qualquer hora\") and ends by asking readers to get in touch.",

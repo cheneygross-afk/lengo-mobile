@@ -68,7 +68,7 @@ export const PT_A2_U15: Lesson[] = [
           { es: "Estava tudo calmo. De repente, a luz acabou.", en: "Everything was calm. Suddenly the power went out." },
           { es: "Eu estava lendo quando, de repente, alguém gritou.", en: "I was reading when suddenly someone shouted." },
           { es: "No final, deu tudo certo.", en: "In the end, it all worked out." },
-          { es: "No final do filme, todo mundo chorou.", en: "At the end of the film, everyone cried." },
+          { es: "No final do filme, todo mundo chorou.", en: "At the end of the movie, everyone cried." },
           { es: "Por último, a gente arrumou a cozinha.", en: "Lastly, we tidied the kitchen." },
         ],
         checkpoint: [
@@ -98,18 +98,18 @@ export const PT_A2_U15: Lesson[] = [
           "Dates and ages anchor a story. A year takes \"em\": \"em 2015\". A day takes \"no dia\": \"no dia 3 de maio\". An age is \"com\" + years: \"com vinte anos, entrei na faculdade\" (at twenty...); \"quando eu tinha vinte anos\" says the same with the imperfeito.",
         ],
         examples: [
-          { es: "Depois do almoço, a gente foi ao cinema.", en: "After lunch, we went to the cinema." },
+          { es: "Depois do almoço, a gente foi ao cinema.", en: "After lunch, we went to the movies." },
           { es: "Ela chegou depois da aula.", en: "She arrived after class." },
           { es: "Em 2015, eu fui morar em Salvador.", en: "In 2015, I went to live in Salvador." },
-          { es: "No dia 3 de maio, o Rafael começou no emprego novo.", en: "On 3 May, Rafael started his new job." },
-          { es: "Com vinte anos, a Beatriz entrou na faculdade.", en: "At twenty, Beatriz started university." },
+          { es: "No dia 3 de maio, o Rafael começou no emprego novo.", en: "On May 3, Rafael started his new job." },
+          { es: "Com vinte anos, a Beatriz entrou na faculdade.", en: "At twenty, Beatriz started college." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "After lunch, we went to the cinema.",
+            source: "After lunch, we went to the movies.",
             answer: "Depois do almoço, a gente foi ao cinema.",
             altAnswers: [
               "Depois do almoço, nós fomos ao cinema.",
@@ -191,7 +191,7 @@ export const PT_A2_U15: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[At the end of the] film, everyone cried.",
+        en: "[At the end of the] movie, everyone cried.",
         sentence: "___ filme, todo mundo chorou.",
         answer: "No final do",
         altAnswers: ["No fim do"],
@@ -200,7 +200,7 @@ export const PT_A2_U15: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "My daughter was born [on 12 June].",
+        en: "My daughter was born [on June 12].",
         sentence: "A minha filha nasceu ___.",
         answer: "no dia 12 de junho",
         altAnswers: ["em 12 de junho", "dia 12 de junho"],
@@ -255,7 +255,7 @@ export const PT_A2_U15: Lesson[] = [
       {
         heading: "Nascer, crescer, morrer",
         body: [
-          "Born is a plain active verb in Portuguese: \"eu nasci em Fortaleza\" (I was born in Fortaleza), \"onde você nasceu?\". English was born pushes learners towards *eu fui nascido or *eu era nascido; both are wrong. Each life event happens once, so it takes the perfeito.",
+          "Born is a plain active verb in Portuguese: \"eu nasci em Fortaleza\" (I was born in Fortaleza), \"onde você nasceu?\". English was born pushes learners toward *eu fui nascido or *eu era nascido; both are wrong. Each life event happens once, so it takes the perfeito.",
           "\"Crescer\" is to grow and to grow up: \"eu cresci no interior\" (I grew up in the countryside). \"Morrer\" is to die: \"meu avô morreu em 2010\". All three are regular -er verbs: nasci, nasceu, nascemos, nasceram.",
         ],
         examples: [
@@ -263,7 +263,7 @@ export const PT_A2_U15: Lesson[] = [
           { es: "Onde você nasceu?", en: "Where were you born?" },
           { es: "Eu cresci em Belo Horizonte.", en: "I grew up in Belo Horizonte." },
           { es: "Meu avô morreu em 2010.", en: "My grandfather died in 2010." },
-          { es: "A minha filha nasceu no dia 12 de junho.", en: "My daughter was born on 12 June." },
+          { es: "A minha filha nasceu no dia 12 de junho.", en: "My daughter was born on June 12." },
         ],
         checkpoint: [
           {
@@ -287,12 +287,12 @@ export const PT_A2_U15: Lesson[] = [
       {
         heading: "School, work and home",
         body: [
-          "Starting school or university is \"entrar\" (to enter): \"entrei na faculdade em 2012\". Finishing is \"terminar a faculdade\" or \"me formei\" (I graduated). Getting a job is \"arrumar um emprego\" in speech, \"conseguir um emprego\" anywhere; losing it is \"perder o emprego\".",
+          "Starting school or college is \"entrar\" (to enter): \"entrei na faculdade em 2012\". Finishing is \"terminar a faculdade\" or \"me formei\" (I graduated). Getting a job is \"arrumar um emprego\" in speech, \"conseguir um emprego\" anywhere; losing it is \"perder o emprego\".",
           "Moving house is \"mudar de casa\", with \"de\" and no article; \"mudar de\" swaps one thing for another (\"mudar de cidade\", \"mudar de emprego\"). Moving to a place is \"mudar para\": \"a gente mudou para Curitiba\". You'll also hear \"se mudar\" with the same meaning.",
         ],
         examples: [
-          { es: "Entrei na faculdade em 2012.", en: "I started university in 2012." },
-          { es: "Ela terminou a faculdade com 23 anos.", en: "She finished university at 23." },
+          { es: "Entrei na faculdade em 2012.", en: "I started college in 2012." },
+          { es: "Ela terminou a faculdade com 23 anos.", en: "She finished college at 23." },
           { es: "O Lucas arrumou um emprego num banco.", en: "Lucas got a job at a bank." },
           { es: "Meu pai perdeu o emprego em 2020.", en: "My dad lost his job in 2020." },
           { es: "A gente mudou para Curitiba no ano passado.", en: "We moved to Curitiba last year." },
@@ -347,7 +347,7 @@ export const PT_A2_U15: Lesson[] = [
           { es: "A Mariana casou com o João em 2019.", en: "Mariana married João in 2019." },
           { es: "Eles tiveram dois filhos.", en: "They had two children." },
           { es: "Quando eu tinha 18 anos, eu morava com os meus pais.", en: "When I was 18, I lived with my parents." },
-          { es: "Quando ela entrou na faculdade, ela trabalhava numa loja.", en: "When she started university, she was working in a shop." },
+          { es: "Quando ela entrou na faculdade, ela trabalhava numa loja.", en: "When she started college, she was working in a shop." },
           { es: "Meus avós moravam no interior quando o meu pai nasceu.", en: "My grandparents lived in the countryside when my dad was born." },
         ],
         checkpoint: [
@@ -402,10 +402,10 @@ export const PT_A2_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I started university in 2012.",
+        source: "I started college in 2012.",
         answer: "Entrei na faculdade em 2012.",
         altAnswers: ["Eu entrei na faculdade em 2012.", "Em 2012, entrei na faculdade.", "Em 2012, eu entrei na faculdade.", "Comecei a faculdade em 2012.", "Eu comecei a faculdade em 2012."],
-        explanation: "Starting university is \"entrar na faculdade\" (em + a = na). \"Começar a faculdade\" is also fine.",
+        explanation: "Starting college is \"entrar na faculdade\" (em + a = na). \"Começar a faculdade\" is also fine.",
       },
       {
         type: "translate",
@@ -444,9 +444,9 @@ export const PT_A2_U15: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: She finished university at 23.",
+        prompt: "Put the words in order to say: She finished college at 23.",
         words: ["Ela", "terminou", "a faculdade", "com", "23 anos."],
-        translation: "She finished university at 23.",
+        translation: "She finished college at 23.",
         altOrders: [["Com", "23 anos.", "ela", "terminou", "a faculdade"]],
         explanation: "An age in a life story is \"com\" + years. \"Terminou\" is the event.",
       },
@@ -480,7 +480,7 @@ export const PT_A2_U15: Lesson[] = [
         pairs: [
           { left: "arrumar um emprego", right: "to get a job" },
           { left: "mudar de casa", right: "to move house" },
-          { left: "entrar na faculdade", right: "to start university" },
+          { left: "entrar na faculdade", right: "to start college" },
           { left: "casar com", right: "to marry" },
           { left: "perder o emprego", right: "to lose your job" },
         ],
@@ -538,7 +538,7 @@ export const PT_A2_U15: Lesson[] = [
         examples: [
           { es: "Quando era jovem, ela queria ser médica.", en: "When she was young, she wanted to be a doctor." },
           { es: "Ele era muito tímido na escola.", en: "He was very shy at school." },
-          { es: "Na infância, ele jogava bola na rua todo dia.", en: "As a child, he played football in the street every day." },
+          { es: "Na infância, ele jogava bola na rua todo dia.", en: "As a child, he played soccer in the street every day." },
           { es: "A família era pobre e morava no interior.", en: "The family was poor and lived in the countryside." },
           { es: "Ela gostava de ler e escrevia poemas.", en: "She liked reading and wrote poems." },
         ],
@@ -641,7 +641,7 @@ export const PT_A2_U15: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "As a child, he [played] football in the street every day.",
+        en: "As a child, he [played] soccer in the street every day.",
         sentence: "Na infância, ele ___ bola na rua todo dia.",
         answer: "jogava",
         explanation: "\"Todo dia\" signals a habit: imperfeito \"jogava\".",
@@ -771,7 +771,7 @@ export const PT_A2_U15: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Choose the right pair: Eles ___ perto e ___ a pé.",
+            question: "They lived nearby, and that day they came on foot. Choose the right pair: Eles ___ perto e ___ a pé.",
             options: ["moravam / chegaram", "moraram / chegavam", "moravam / chegavam", "moraram / chegaram"],
             correctIndex: 0,
             explanation: "Where they lived is background (\"moravam\"); arriving that day is the event (\"chegaram\").",
@@ -989,7 +989,7 @@ export const PT_A2_U15: Lesson[] = [
         examples: [
           { es: "Eu estava cozinhando quando a luz acabou.", en: "I was cooking when the power went out." },
           { es: "Eles estavam jantando quando o Rafael chegou.", en: "They were having dinner when Rafael arrived." },
-          { es: "Eu ia viajar, mas fiquei doente.", en: "I was going to travel, but I got sick." },
+          { es: "Eu ia viajar, mas perdi o passaporte.", en: "I was going to travel, but I lost my passport." },
           { es: "A gente ia sair, mas começou a chover.", en: "We were going to go out, but it started raining." },
           { es: "Ela ia comprar o vestido, mas a loja estava fechada.", en: "She was going to buy the dress, but the shop was closed." },
         ],
@@ -998,10 +998,10 @@ export const PT_A2_U15: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I was going to travel, but I got sick.",
-            answer: "Eu ia viajar, mas fiquei doente.",
-            altAnswers: ["Ia viajar, mas fiquei doente.", "Eu ia viajar, mas eu fiquei doente.", "Eu ia viajar, mas adoeci."],
-            explanation: "\"Ia viajar\" is the plan; \"fiquei doente\" (got sick) is the event that cancelled it.",
+            source: "I was going to travel, but I lost my passport.",
+            answer: "Eu ia viajar, mas perdi o passaporte.",
+            altAnswers: ["Ia viajar, mas perdi o passaporte.", "Eu ia viajar, mas eu perdi o passaporte.", "Eu ia viajar, mas perdi o meu passaporte.", "Eu ia viajar, mas perdi meu passaporte.", "Ia viajar, mas perdi meu passaporte."],
+            explanation: "\"Ia viajar\" is the plan; \"perdi o passaporte\" is the event that canceled it. Your own passport is just \"o passaporte\".",
           },
           {
             type: "word-order",
@@ -1076,7 +1076,7 @@ export const PT_A2_U15: Lesson[] = [
         sentence: "Eu ___ quando a luz acabou.",
         answer: "estava cozinhando",
         altAnswers: ["cozinhava"],
-        explanation: "The action in progress: \"estava cozinhando\". The power cut is the perfeito event.",
+        explanation: "The action in progress: \"estava cozinhando\". The power outage is the perfeito event.",
       },
       {
         type: "multiple-choice",
@@ -1205,7 +1205,7 @@ export const PT_A2_U15: Lesson[] = [
       {
         heading: "The signal words",
         body: [
-          "Some words push you towards the perfeito: \"uma vez\", \"de repente\", \"naquele dia\", \"ontem\", \"no sábado\", \"três vezes\". Others push towards the imperfeito: \"sempre\", \"todo dia\", \"toda semana\", \"às vezes\", \"antigamente\", \"quando eu era criança\".",
+          "Some words push you toward the perfeito: \"uma vez\", \"de repente\", \"naquele dia\", \"ontem\", \"no sábado\", \"três vezes\". Others push toward the imperfeito: \"sempre\", \"todo dia\", \"toda semana\", \"às vezes\", \"antigamente\", \"quando eu era criança\".",
           "\"No sábado\" is one Saturday; \"aos sábados\" or \"todo sábado\" is every Saturday. That tiny change flips the tense: \"no sábado fui ao clube\" vs \"aos sábados eu ia ao clube\".",
         ],
         examples: [
@@ -1389,7 +1389,7 @@ export const PT_A2_U15: Lesson[] = [
           { es: "Eu estava conversando com uma amiga quando ele chegou.", en: "I was chatting with a friend when he arrived." },
           { es: "Eu trabalhava num banco naquela época.", en: "I worked at a bank at the time." },
           { es: "Ele derrubou suco na minha blusa!", en: "He spilled juice on my top!" },
-          { es: "Eu fiquei com muita vergonha.", en: "I was really embarrassed." },
+          { es: "Eu morri de vergonha!", en: "I nearly died of embarrassment!" },
           { es: "Sério? E o que você disse?", en: "Really? And what did you say?" },
         ],
         checkpoint: [
@@ -1418,7 +1418,7 @@ export const PT_A2_U15: Lesson[] = [
           "\"Começar a namorar\" is to start going out; \"namorar\" alone is to be going out with someone. A Brazilian couple's story almost always ends with this phrase and a year.",
         ],
         examples: [
-          { es: "Eu pedi desculpas e ofereci um suco novo.", en: "I apologised and offered her a new juice." },
+          { es: "Eu pedi desculpas e ofereci um suco novo.", en: "I apologized and offered her a new juice." },
           { es: "A gente conversou a noite inteira.", en: "We talked all night." },
           { es: "No final, ele pediu o meu número.", en: "In the end, he asked for my number." },
           { es: "A gente começou a namorar em 2018.", en: "We started going out in 2018." },
@@ -1475,10 +1475,10 @@ export const PT_A2_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I was really embarrassed.",
-        answer: "Eu fiquei com muita vergonha.",
-        altAnswers: ["Fiquei com muita vergonha.", "Eu fiquei muito envergonhada.", "Eu fiquei muito envergonhado.", "Fiquei muito envergonhada.", "Fiquei muito envergonhado."],
-        explanation: "\"Ficar com vergonha\" is to get embarrassed, a reaction at one moment: \"fiquei\".",
+        source: "I nearly died of embarrassment!",
+        answer: "Eu morri de vergonha!",
+        altAnswers: ["Morri de vergonha!", "Eu quase morri de vergonha!", "Quase morri de vergonha!"],
+        explanation: "Brazilians exaggerate with \"morrer de\": \"morri de vergonha\", \"morri de rir\" (I nearly died laughing). It's one reaction at one moment, so perfeito \"morri\".",
       },
       {
         type: "fill-blank",
@@ -1515,9 +1515,9 @@ export const PT_A2_U15: Lesson[] = [
         type: "listen-choose",
         audio: "Eu pedi desculpas e ofereci um suco novo.",
         question: "What does it mean?",
-        options: ["I apologised and offered a new juice.", "I asked for a new juice.", "I apologised and drank a new juice.", "I used to apologise and offer juice."],
+        options: ["I apologized and offered a new juice.", "I asked for a new juice.", "I apologized and drank a new juice.", "I used to apologize and offer juice."],
         correctIndex: 0,
-        explanation: "\"Pedi desculpas\" (apologised) and \"ofereci\" (offered), two events in order.",
+        explanation: "\"Pedi desculpas\" (apologized) and \"ofereci\" (offered), two events in order.",
       },
       {
         type: "dictation",
@@ -1545,7 +1545,7 @@ export const PT_A2_U15: Lesson[] = [
       {
         heading: "The scene: heat and bonecos gigantes",
         body: [
-          "Olinda, next to Recife, has one of Brazil's most famous street Carnavals: no ticketed parade, just blocos climbing the steep, colonial \"ladeiras\" behind frevo bands and the \"bonecos gigantes\", giant puppets several metres tall.",
+          "Olinda, next to Recife, has one of Brazil's most famous street Carnavals: no ticketed parade, just blocos climbing the steep, colonial \"ladeiras\" behind frevo bands and the \"bonecos gigantes\", giant puppets several meters tall.",
           "Our narrator, Ana, tells her first Carnaval there. The opening sets the scene, so it's all imperfeito: weather, crowds, what everyone was doing.",
         ],
         examples: [
@@ -1611,7 +1611,7 @@ export const PT_A2_U15: Lesson[] = [
             question: "What does it mean?",
             options: ["I got really nervous.", "I used to be very nervous.", "I stayed very calm.", "I'm very nervous."],
             correctIndex: 0,
-            explanation: "\"Fiquei nervosa\" is a reaction at one moment: perfeito of \"ficar\". A woman says \"nervosa\".",
+            explanation: "\"Fiquei nervosa\" (I got nervous) is a reaction at one moment, perfeito. \"Ficar\" + adjective means to get or become; you'll practice it with health. A woman says \"nervosa\".",
           },
         ],
       },
@@ -1767,7 +1767,7 @@ export const PT_A2_U15: Lesson[] = [
           { es: "Eu cheguei em Paraty na sexta à noite.", en: "I arrived in Paraty on Friday night." },
           { es: "A cidade era muito bonita.", en: "The town was very beautiful." },
           { es: "Estava chovendo quando nós chegamos.", en: "It was raining when we arrived." },
-          { es: "As ruas do centro histórico eram de pedra.", en: "The streets of the historic centre were cobbled." },
+          { es: "As ruas do centro histórico eram de pedra.", en: "The streets of the historic center were cobbled." },
         ],
         checkpoint: [
           {
@@ -1891,7 +1891,7 @@ export const PT_A2_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The streets of the historic centre were cobbled.",
+        source: "The streets of the historic center were cobbled.",
         answer: "As ruas do centro histórico eram de pedra.",
         altAnswers: ["As ruas do centro histórico eram de paralelepípedo.", "As ruas do centro histórico eram de pedras."],
         explanation: "A lasting description: \"eram\". Cobbled is \"de pedra\" (of stone).",
@@ -2041,7 +2041,7 @@ export const PT_A2_U15: Lesson[] = [
         examples: [
           { es: "Há três anos, eu fui a Salvador com a minha irmã.", en: "Three years ago, I went to Salvador with my sister." },
           { es: "Fazia muito calor e nós andávamos o dia todo.", en: "It was very hot and we walked all day." },
-          { es: "Um dia, a minha irmã ficou doente.", en: "One day, my sister got sick." },
+          { es: "Um dia, a minha irmã acordou com febre.", en: "One day, my sister woke up with a fever." },
           { es: "Ela não pôde sair do hotel.", en: "She couldn't leave the hotel." },
           { es: "Eu fiquei com ela e pedi uma sopa.", en: "I stayed with her and ordered a soup." },
         ],
@@ -2120,10 +2120,10 @@ export const PT_A2_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "One day, my sister got sick.",
-        answer: "Um dia, a minha irmã ficou doente.",
-        altAnswers: ["Um dia, minha irmã ficou doente.", "Um dia a minha irmã ficou doente.", "Um dia minha irmã ficou doente."],
-        explanation: "\"Um dia\" (one day) introduces an event: \"ficou doente\" (got sick).",
+        source: "One day, my sister woke up with a fever.",
+        answer: "Um dia, a minha irmã acordou com febre.",
+        altAnswers: ["Um dia, minha irmã acordou com febre.", "Um dia a minha irmã acordou com febre.", "Um dia minha irmã acordou com febre."],
+        explanation: "\"Um dia\" (one day) introduces an event: \"acordou\", always written -ou. With a fever is \"com febre\", no article.",
       },
       {
         type: "fill-blank",
@@ -2163,7 +2163,7 @@ export const PT_A2_U15: Lesson[] = [
     slug: "a2-say-it-yourself-last-holiday",
     level: "PT-A2",
     number: 11,
-    title: "Say It Yourself: My Last Holiday",
+    title: "Say It Yourself: My Last Vacation",
     summary: "Guided speaking: say where you went, what it was like, what you did every day, and what happened one day, in eight to ten sentences.",
     duration: "12 min",
     kind: "skills",
@@ -2171,11 +2171,11 @@ export const PT_A2_U15: Lesson[] = [
       {
         heading: "Where you went and what it was like",
         body: [
-          "This lesson builds a spoken story about your last holiday, two or three sentences at a time. Start with the trip itself (perfeito: \"fui\", \"passei\", \"viajei\") and then describe the place (imperfeito: \"era\", \"tinha\", \"fazia\").",
+          "This lesson builds a spoken story about your last vacation, two or three sentences at a time. Start with the trip itself (perfeito: \"fui\", \"passei\", \"viajei\") and then describe the place (imperfeito: \"era\", \"tinha\", \"fazia\").",
           "Saying it aloud is different from writing it: aim for short sentences linked with \"e\", \"mas\" and \"aí\". Record yourself, listen back, and say it again.",
         ],
         examples: [
-          { es: "Nas últimas férias, eu fui para Florianópolis.", en: "On my last holiday, I went to Florianópolis." },
+          { es: "Nas últimas férias, eu fui para Florianópolis.", en: "On my last vacation, I went to Florianópolis." },
           { es: "Eu passei uma semana lá com a minha família.", en: "I spent a week there with my family." },
           { es: "A cidade era linda e tinha praias incríveis.", en: "The city was beautiful and had amazing beaches." },
           { es: "Fazia sol, mas a água do mar era fria.", en: "It was sunny, but the sea was cold." },
@@ -2194,16 +2194,16 @@ export const PT_A2_U15: Lesson[] = [
           {
             type: "speak",
             text: "Nas últimas férias, eu fui para Florianópolis.",
-            prompt: "Say it in Portuguese: On my last holiday, I went to Florianópolis.",
+            prompt: "Say it in Portuguese: On my last vacation, I went to Florianópolis.",
             tip: "\"Férias\" is always plural: as férias.",
-            explanation: "\"Nas últimas férias\" (on my last holiday) + \"fui\", the trip as an event.",
+            explanation: "\"Nas últimas férias\" (on my last vacation) + \"fui\", the trip as an event.",
           },
         ],
       },
       {
         heading: "What you did every day",
         body: [
-          "The routine of a holiday is a habit: imperfeito. \"Toda manhã a gente ia à praia\", \"à noite a gente jantava num restaurante diferente\". Time words help listeners follow: \"de manhã\", \"à tarde\", \"à noite\", \"todo dia\".",
+          "The routine of a vacation is a habit: imperfeito. \"Toda manhã a gente ia à praia\", \"à noite a gente jantava num restaurante diferente\". Time words help listeners follow: \"de manhã\", \"à tarde\", \"à noite\", \"todo dia\".",
           "If you list a few things you did once, switch back to the perfeito: \"um dia a gente fez uma trilha\".",
         ],
         examples: [
@@ -2227,31 +2227,31 @@ export const PT_A2_U15: Lesson[] = [
             text: "À noite, a gente jantava num restaurante diferente.",
             prompt: "Say it in Portuguese: In the evenings, we had dinner at a different restaurant.",
             tip: "Link \"num\" into \"restaurante\" without a pause.",
-            explanation: "A holiday routine: imperfeito \"jantava\".",
+            explanation: "A vacation routine: imperfeito \"jantava\".",
           },
         ],
       },
       {
         heading: "One day, something went wrong",
         body: [
-          "Every good holiday story has a twist. Set it up with a scene, then the event: \"no último dia, a gente estava na praia quando começou um temporal\". Then say how it ended: \"no final, a gente riu muito\".",
+          "Every good vacation story has a twist. Set it up with a scene, then the event: \"no último dia, a gente estava na praia quando começou um temporal\". Then say how it ended: \"no final, a gente riu muito\".",
           "Use \"ia\" + infinitive for the plan that failed: \"a gente ia pegar um barco, mas cancelaram o passeio\".",
         ],
         examples: [
           { es: "No último dia, a gente estava na praia quando começou um temporal.", en: "On the last day, we were on the beach when a storm started." },
-          { es: "A gente ia pegar um barco, mas cancelaram o passeio.", en: "We were going to take a boat, but they cancelled the trip." },
+          { es: "A gente ia pegar um barco, mas cancelaram o passeio.", en: "We were going to take a boat, but they canceled the trip." },
           { es: "Eu perdi os meus óculos de sol no mar.", en: "I lost my sunglasses in the sea." },
-          { es: "No final, foram férias ótimas.", en: "In the end, it was a great holiday." },
+          { es: "No final, foram férias ótimas.", en: "In the end, it was a great vacation." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We were going to take a boat, but the trip was cancelled.",
+            source: "We were going to take a boat, but the trip was canceled.",
             answer: "A gente ia pegar um barco, mas cancelaram o passeio.",
             altAnswers: ["Nós íamos pegar um barco, mas cancelaram o passeio.", "Íamos pegar um barco, mas cancelaram o passeio.", "A gente ia pegar um barco, mas o passeio foi cancelado.", "Nós íamos pegar um barco, mas o passeio foi cancelado."],
-            explanation: "\"Ia pegar\" is the plan; \"cancelaram\" (they cancelled, nobody in particular) is what happened.",
+            explanation: "\"Ia pegar\" is the plan; \"cancelaram\" (they canceled, nobody in particular) is what happened.",
           },
           {
             type: "speak",
@@ -2289,7 +2289,7 @@ export const PT_A2_U15: Lesson[] = [
         source: "In the afternoons, I read a book on the balcony.",
         answer: "À tarde, eu lia um livro na varanda.",
         altAnswers: ["À tarde, lia um livro na varanda.", "À tarde eu lia um livro na varanda.", "De tarde, eu lia um livro na varanda.", "Todas as tardes, eu lia um livro na varanda."],
-        explanation: "A daily habit on holiday: imperfeito \"lia\".",
+        explanation: "A daily habit on vacation: imperfeito \"lia\".",
       },
       {
         type: "translate",
@@ -2319,14 +2319,14 @@ export const PT_A2_U15: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: In the end, it was a great holiday.",
+        prompt: "Put the words in order to say: In the end, it was a great vacation.",
         words: ["No final,", "foram", "férias", "ótimas."],
-        translation: "In the end, it was a great holiday.",
+        translation: "In the end, it was a great vacation.",
         explanation: "\"Férias\" is plural, so the verb is plural too: \"foram\".",
       },
       {
         type: "multiple-choice",
-        question: "You want to say what you did every evening on holiday. Which is right?",
+        question: "You want to say what you did every evening on vacation. Which is right?",
         options: ["À noite, a gente saía para dançar.", "À noite, a gente saiu para dançar todo dia.", "À noite, a gente sai para dançar.", "À noite, a gente saímos para dançar."],
         correctIndex: 0,
         explanation: "A routine: imperfeito \"saía\". \"A gente\" takes the ele form, never *a gente saímos.",
@@ -2374,7 +2374,7 @@ export const PT_A2_U15: Lesson[] = [
     kind: "skills",
     sections: [
       {
-        heading: "Opening and apologising",
+        heading: "Opening and apologizing",
         body: [
           "Your mission: write to your Portuguese teacher, Cláudia, to explain why you missed yesterday's class. To a teacher or a manager, a polite message starts with a greeting and an apology: \"Oi, professora, tudo bem? Peço desculpas por faltar à aula de ontem.\"",
           "\"Faltar\" is the key verb: \"faltar à aula\" (to miss class), \"faltar ao trabalho\", \"faltar à reunião\". In speech you'll hear \"faltar na aula\" too. Brazilians address a teacher simply as \"professora\" or \"professor\", with or without the name.",
@@ -2407,10 +2407,10 @@ export const PT_A2_U15: Lesson[] = [
       {
         heading: "What you were doing and what happened",
         body: [
-          "The explanation is a mini-story: the scene with \"estava\" + gerúndio, then the event with \"quando\" + perfeito. \"Eu estava saindo de casa quando o meu filho ficou doente.\" Keep it to two or three sentences; a teacher doesn't need the whole saga.",
+          "The explanation is a mini-story: the scene with \"estava\" + gerúndio, then the event with \"quando\" + perfeito. \"Eu estava saindo de casa quando a escola do meu filho ligou.\" Keep it to two or three sentences; a teacher doesn't need the whole saga.",
         ],
         examples: [
-          { es: "Eu estava saindo de casa quando o meu filho ficou doente.", en: "I was leaving home when my son got sick." },
+          { es: "Eu estava saindo de casa quando a escola do meu filho ligou.", en: "I was leaving home when my son's school called." },
           { es: "O ônibus quebrou no caminho.", en: "The bus broke down on the way." },
           { es: "Eu estava esperando o metrô quando a linha parou.", en: "I was waiting for the metro when the line stopped." },
           { es: "Eu tive uma reunião de última hora no trabalho.", en: "I had a last-minute meeting at work." },
@@ -2421,10 +2421,10 @@ export const PT_A2_U15: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I was leaving home when my son got sick.",
-            answer: "Eu estava saindo de casa quando o meu filho ficou doente.",
-            altAnswers: ["Estava saindo de casa quando o meu filho ficou doente.", "Eu estava saindo de casa quando meu filho ficou doente.", "Estava saindo de casa quando meu filho ficou doente.", "Eu estava saindo de casa quando a minha filha ficou doente.", "Eu estava saindo de casa quando minha filha ficou doente."],
-            explanation: "\"Estava saindo\" is the action in progress; \"ficou doente\" (got sick) interrupts it.",
+            source: "I was leaving home when my son's school called.",
+            answer: "Eu estava saindo de casa quando a escola do meu filho ligou.",
+            altAnswers: ["Estava saindo de casa quando a escola do meu filho ligou.", "Eu estava saindo de casa quando a escola do meu filho me ligou.", "Estava saindo de casa quando a escola do meu filho me ligou.", "Eu saía de casa quando a escola do meu filho ligou."],
+            explanation: "\"Estava saindo\" is the action in progress; the call (\"ligou\") interrupts it. My son's school is \"a escola do meu filho\": no 's in Portuguese.",
           },
           {
             type: "fill-blank",
@@ -2448,7 +2448,7 @@ export const PT_A2_U15: Lesson[] = [
         heading: "What you were going to do, and what you did",
         body: [
           "Finish with the plan that failed and what you did instead: \"Eu ia avisar, mas estava sem internet. Depois, levei o meu filho ao médico.\" Then look forward with \"vou\" + infinitive: \"vou estudar a matéria em casa\".",
-          "Sign off with \"um abraço\" to a teacher you know, or \"atenciosamente\" (yours sincerely) in a formal email.",
+          "Sign off with \"um abraço\" to a teacher you know, or \"atenciosamente\" (sincerely) in a formal email.",
         ],
         examples: [
           { es: "Eu ia avisar, mas estava sem internet.", en: "I was going to let you know, but I had no internet." },
@@ -2567,10 +2567,10 @@ export const PT_A2_U15: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Eu estava saindo de casa quando o meu filho ficou doente.",
-        prompt: "Say it in Portuguese: I was leaving home when my son got sick.",
+        text: "Eu estava saindo de casa quando a escola do meu filho ligou.",
+        prompt: "Say it in Portuguese: I was leaving home when my son's school called.",
         tip: "\"Saindo\": sa-IN-do, three syllables.",
-        explanation: "The scene (\"estava saindo\") and the event (\"ficou doente\").",
+        explanation: "The scene (\"estava saindo\") and the event (\"ligou\").",
       },
     ],
   },

@@ -22,7 +22,7 @@ export const PT_B2_U08: Lesson[] = [
           { es: "Tinha muita gente na festa.", en: "There were lots of people at the party. (spoken)" },
           { es: "Havia muita gente na festa.", en: "There were lots of people at the party. (written)" },
           { es: "Tem uma farmácia aqui perto?", en: "Is there a pharmacy near here? (spoken)" },
-          { es: "Há várias farmácias no centro da cidade.", en: "There are several pharmacies in the city centre. (written)" },
+          { es: "Há várias farmácias no centro da cidade.", en: "There are several pharmacies in the city center. (written)" },
           { es: "A empresa tem três escritórios em São Paulo.", en: "The company has three offices in São Paulo. (any register)" },
         ],
         checkpoint: [
@@ -54,13 +54,13 @@ export const PT_B2_U08: Lesson[] = [
           { es: "A gente chegou tarde.", en: "We got there late. (spoken)" },
           { es: "Nós chegamos tarde.", en: "We got there late. (written)" },
           { es: "A gente se vê na segunda.", en: "See you on Monday. (spoken)" },
-          { es: "Analisamos os dados do último trimestre.", en: "We analysed the data for the last quarter. (report)" },
+          { es: "Analisamos os dados do último trimestre.", en: "We analyzed the data for the last quarter. (report)" },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "In the report: [We analysed] the results carefully.",
+            en: "In the report: [We analyzed] the results carefully.",
             sentence: "___ os resultados com cuidado.",
             answer: "Analisamos",
             altAnswers: ["Nós analisamos"],
@@ -88,7 +88,7 @@ export const PT_B2_U08: Lesson[] = [
           { es: "Eu o vi ontem no shopping.", en: "I saw him at the mall yesterday. (written)" },
           { es: "Vou chamar ela para a reunião.", en: "I'll invite her to the meeting. (spoken)" },
           { es: "Vou chamá-la para a reunião.", en: "I'll invite her to the meeting. (written)" },
-          { es: "Você viu o filme? Vi.", en: "Did you see the film? Yes, I did." },
+          { es: "Você viu o filme? Vi.", en: "Did you see the movie? Yes, I did." },
         ],
         checkpoint: [
           {
@@ -126,7 +126,7 @@ export const PT_B2_U08: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "These forms are [for me to] fill in.",
+            en: "These forms are [for me to] fill out.",
             sentence: "Esses formulários são ___ preencher.",
             answer: "para eu",
             altAnswers: ["pra eu"],
@@ -196,7 +196,7 @@ export const PT_B2_U08: Lesson[] = [
         type: "speak",
         text: "A gente se vê na segunda.",
         prompt: "Say it in Portuguese, casually: See you on Monday.",
-        tip: "The g in \"gente\" sounds like the s in measure, and the final \"te\" sounds like chee: ZHEN-chee.",
+        tip: "The g in \"gente\" sounds like the s in measure, and the final \"te\" sounds like tchi: ZHÊN-tchi.",
         explanation: "\"A gente se vê\" uses the singular verb, as \"a gente\" always does. The formal version is \"nós nos vemos\".",
       },
       {
@@ -255,12 +255,12 @@ export const PT_B2_U08: Lesson[] = [
           "The prepositions carry over. \"Residir em\" works like \"morar em\", and \"necessitar de\" like \"precisar de\". \"Solicitar\" takes a direct object with no preposition (\"solicitar a segunda via\"). \"Informamos que...\" opens countless official notices. \"Possuir\" replaces \"ter\" for owning or holding something, such as a car, a degree or a document.",
         ],
         examples: [
-          { es: "A gente comprou um apartamento em Niterói.", en: "We bought a flat in Niterói." },
+          { es: "A gente comprou um apartamento em Niterói.", en: "We bought an apartment in Niterói." },
           { es: "A empresa adquiriu um imóvel em Niterói.", en: "The company acquired a property in Niterói." },
           { es: "O requerente reside em Belo Horizonte.", en: "The applicant resides in Belo Horizonte." },
           { es: "Gostaria de solicitar a segunda via do boleto.", en: "I'd like to request a copy of the payment slip." },
           { es: "Informamos que o prazo foi prorrogado.", en: "We wish to inform you that the deadline has been extended." },
-          { es: "Todos os candidatos devem possuir diploma de nível superior.", en: "All candidates must hold a university degree." },
+          { es: "Todos os candidatos devem possuir diploma de nível superior.", en: "All candidates must hold a college degree." },
         ],
         checkpoint: [
           {
@@ -298,7 +298,7 @@ export const PT_B2_U08: Lesson[] = [
         heading: "Iniciar, encaminhar, efetuar: the language of procedures",
         body: [
           "Procedures have their own set of verbs. \"Iniciar\" and \"encerrar\" replace \"começar\" and \"acabar\". \"Enviar\" replaces \"mandar\", and \"encaminhar\" means to forward. \"Agendar\" replaces \"marcar\", \"verificar\" replaces \"ver\" or \"checar\", and \"auxiliar\" replaces \"ajudar\". \"Efetuar\" (to carry out) attaches to nouns: \"efetuar o pagamento\", \"efetuar a compra\".",
-          "Watch \"realizar\". It means to carry out or to hold (\"realizar uma reunião\"), and never to realise, which is \"perceber\". Notices and forms often use \"favor\" + infinitive for please: \"favor não fumar\", \"favor verificar os dados\".",
+          "Watch \"realizar\". It means to carry out or to hold (\"realizar uma reunião\"), and never to realize, which is \"perceber\". Notices and forms often use \"favor\" + infinitive for please: \"favor não fumar\", \"favor verificar os dados\".",
         ],
         examples: [
           { es: "Iniciaremos a reunião às nove horas.", en: "We will begin the meeting at nine o'clock." },
@@ -323,12 +323,12 @@ export const PT_B2_U08: Lesson[] = [
             question: "\"A reunião foi realizada na sede da empresa.\" What does it mean?",
             options: [
               "The meeting was held at the company's head office.",
-              "The company realised the meeting was at the head office.",
-              "The meeting was cancelled at the head office.",
+              "The company realized the meeting was at the head office.",
+              "The meeting was canceled at the head office.",
               "The meeting was scheduled for the head office.",
             ],
             correctIndex: 0,
-            explanation: "\"Realizar\" means to hold or carry out, not to realise. \"Sede\" is a company's head office.",
+            explanation: "\"Realizar\" means to hold or carry out, not to realize. \"Sede\" is a company's head office.",
           },
           {
             type: "word-order",
@@ -349,7 +349,7 @@ export const PT_B2_U08: Lesson[] = [
           { es: "Comprei pão de queijo na padaria.", en: "I bought some pão de queijo at the bakery." },
           { es: "Te aviso quando chegar em casa.", en: "I'll let you know when I get home." },
           { es: "Você pode me ajudar com o relatório?", en: "Can you help me with the report?" },
-          { es: "Prezado Sr. Antônio, informo que não poderei comparecer à reunião.", en: "Dear Mr Antônio, I wish to inform you that I will not be able to attend the meeting." },
+          { es: "Prezado Sr. Antônio, informo que não poderei comparecer à reunião.", en: "Dear Mr. Antônio, I wish to inform you that I will not be able to attend the meeting." },
           { es: "O senhor deseja mais alguma coisa?", en: "Would you like anything else, sir?" },
         ],
         checkpoint: [
@@ -369,7 +369,7 @@ export const PT_B2_U08: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Dear Mr Antônio, I wish to inform you that I will not be able to attend the meeting.",
+            source: "Dear Mr. Antônio, I wish to inform you that I will not be able to attend the meeting.",
             answer: "Prezado Sr. Antônio, gostaria de informar que não poderei comparecer à reunião.",
             altAnswers: [
               "Prezado Sr. Antônio, informo que não poderei comparecer à reunião.",
@@ -405,7 +405,7 @@ export const PT_B2_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "All candidates must hold a university degree.",
+        source: "All candidates must hold a college degree.",
         answer: "Todos os candidatos devem possuir diploma de nível superior.",
         altAnswers: ["Todos os candidatos devem possuir diploma universitário.", "Todos os candidatos devem possuir um diploma universitário.", "Todos os candidatos devem possuir curso superior.", "Todos os candidatos devem ter diploma de nível superior.", "Todos os candidatos devem ter diploma universitário."],
         explanation: "\"Possuir\" is the job-ad partner of \"ter\" for holding a qualification. \"Diploma de nível superior\" is the usual phrase for a degree.",
@@ -441,7 +441,7 @@ export const PT_B2_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We bought a flat in Niterói! (texting a friend)",
+        source: "We bought an apartment in Niterói! (texting a friend)",
         answer: "A gente comprou um apartamento em Niterói!",
         altAnswers: ["Nós compramos um apartamento em Niterói!", "Compramos um apartamento em Niterói!", "A gente comprou um apê em Niterói!"],
         explanation: "In a message to a friend, \"comprar\" is right. \"Adquirimos um imóvel\" would sound like a press release.",
@@ -450,10 +450,10 @@ export const PT_B2_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I didn't realise the mistake.",
+        source: "I didn't realize the mistake.",
         answer: "Eu não percebi o erro.",
         altAnswers: ["Não percebi o erro.", "Eu não notei o erro.", "Não notei o erro."],
-        explanation: "To realise is \"perceber\". \"Realizar\" means to carry out, so \"*não realizei o erro\" makes no sense.",
+        explanation: "To realize is \"perceber\". \"Realizar\" means to carry out, so \"*não realizei o erro\" makes no sense.",
       },
       {
         type: "listen-choose",
@@ -602,14 +602,14 @@ export const PT_B2_U08: Lesson[] = [
       {
         heading: "Avoiding eu in reports",
         body: [
-          "English reports happily say 'I interviewed' or 'we found'. A Brazilian \"relatório\", \"ata\" or academic paper puts the work at the centre, not the writer. You have three tools: se (\"constatou-se que\"), the passive with ser (\"foram entrevistados 200 moradores\"), and the document itself as the subject (\"este relatório apresenta\", \"a pesquisa mostra\").",
+          "English reports happily say 'I interviewed' or 'we found'. A Brazilian \"relatório\", \"ata\" or academic paper puts the work at the center, not the writer. You have three tools: se (\"constatou-se que\"), the passive with ser (\"foram entrevistados 200 moradores\"), and the document itself as the subject (\"este relatório apresenta\", \"a pesquisa mostra\").",
           "Recommendations and conclusions work the same way: \"recomenda-se\" (it is recommended), \"conclui-se que\" (it can be concluded that). Vary your tools, though. Three uses of \"observa-se\" in one paragraph sound mechanical, so alternate with \"nota-se\", \"verifica-se\" and the passive.",
         ],
         examples: [
           { es: "Constatou-se que 40% dos funcionários trabalham de casa.", en: "It was found that 40% of employees work from home." },
           { es: "Foram entrevistados 200 moradores de Curitiba.", en: "Two hundred residents of Curitiba were interviewed." },
           { es: "Este relatório apresenta os resultados da pesquisa.", en: "This report presents the results of the survey." },
-          { es: "A pesquisa mostra que o trânsito piorou nos últimos anos.", en: "The study shows that traffic has got worse in recent years." },
+          { es: "A pesquisa mostra que o trânsito piorou nos últimos anos.", en: "The study shows that traffic has gotten worse in recent years." },
           { es: "Recomenda-se a revisão do contrato.", en: "A review of the contract is recommended." },
           { es: "Conclui-se que a mudança de fornecedor reduziu os custos.", en: "It can be concluded that changing suppliers reduced costs." },
         ],
@@ -678,14 +678,14 @@ export const PT_B2_U08: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: It's worth remembering that the event was cancelled.",
+        prompt: "Put the words in order to say: It's worth remembering that the event was canceled.",
         words: ["Convém", "lembrar", "que", "o", "evento", "foi", "cancelado."],
-        translation: "It's worth remembering that the event was cancelled.",
+        translation: "It's worth remembering that the event was canceled.",
         explanation: "\"Convém lembrar que\" introduces a fact, so the indicative follows: \"foi cancelado\".",
       },
       {
         type: "multiple-choice",
-        question: "You're summarising customer feedback in a formal report. How do you write: Improvements can be seen in customer service?",
+        question: "You're summarizing customer feedback in a formal report. How do you write: Improvements can be seen in customer service?",
         options: ["Notam-se melhorias no atendimento.", "Nota-se melhorias no atendimento.", "Se notam melhorias no atendimento.", "A gente nota melhorias no atendimento."],
         correctIndex: 0,
         explanation: "\"Melhorias\" is the subject of the se passive, so the verb is plural: \"notam-se\". A formal text doesn't open with the pronoun, and \"a gente\" belongs to speech.",
@@ -735,7 +735,7 @@ export const PT_B2_U08: Lesson[] = [
     slug: "b2-nominalisation",
     level: "PT-B2",
     number: 4,
-    title: "A Implementação do Projeto: Nominalisation",
+    title: "A Implementação do Projeto: Nominalization",
     summary: "Turn verbs into nouns (implementar → a implementação, decidir → a decisão) to write the compact sentences of reports and news without drowning in nouns.",
     duration: "15 min",
     sections: [
@@ -748,7 +748,7 @@ export const PT_B2_U08: Lesson[] = [
         ],
         examples: [
           { es: "A implementação do projeto começa em março.", en: "The project's implementation starts in March." },
-          { es: "A decisão foi tomada ontem pela diretoria.", en: "The decision was taken yesterday by the board." },
+          { es: "A decisão foi tomada ontem pela diretoria.", en: "The decision was made yesterday by the board." },
           { es: "O investimento em educação dobrou.", en: "Investment in education doubled." },
           { es: "O crescimento da cidade preocupa os moradores.", en: "The city's growth worries its residents." },
           { es: "O aumento da tarifa de ônibus gerou protestos.", en: "The bus fare increase sparked protests." },
@@ -791,7 +791,7 @@ export const PT_B2_U08: Lesson[] = [
         ],
         examples: [
           { es: "A aprovação do orçamento pela diretoria ocorreu na sexta-feira.", en: "The board's approval of the budget happened on Friday." },
-          { es: "A brusca queda dos preços em janeiro assustou os comerciantes.", en: "The sharp drop in prices in January alarmed shopkeepers." },
+          { es: "A brusca queda dos preços em janeiro assustou os comerciantes.", en: "The sharp drop in prices in January alarmed store owners." },
           { es: "O forte crescimento das vendas surpreendeu os analistas.", en: "The strong growth in sales surprised analysts." },
           { es: "O atraso do voo causou transtornos aos passageiros.", en: "The flight delay caused problems for the passengers." },
           { es: "A chegada dos convidados está prevista para as oito.", en: "The guests are expected to arrive at eight." },
@@ -830,15 +830,15 @@ export const PT_B2_U08: Lesson[] = [
       {
         heading: "Denser sentences, without overdoing it",
         body: [
-          "Nominalisation lets one sentence carry two events. A time or cause clause shrinks into a phrase with \"após\", \"antes de\", \"com\" or \"devido a\": \"depois que o contrato foi assinado, a obra começou\" becomes \"após a assinatura do contrato, a obra começou\". Light verbs then carry the noun: \"realizar uma análise\" (to carry out an analysis), \"fazer uma revisão\", \"promover a revitalização\".",
-          "Don't overdo it. A chain like \"a realização da implementação do processo de revisão\" is the bureaucratic Portuguese that Brazilian editors cut. One or two nominalisations per sentence is plenty. Keep a verb wherever the reader needs to know who did what.",
+          "Nominalization lets one sentence carry two events. A time or cause clause shrinks into a phrase with \"após\", \"antes de\", \"com\" or \"devido a\": \"depois que o contrato foi assinado, a obra começou\" becomes \"após a assinatura do contrato, a obra começou\". Light verbs then carry the noun: \"realizar uma análise\" (to carry out an analysis), \"fazer uma revisão\", \"promover a revitalização\".",
+          "Don't overdo it. A chain like \"a realização da implementação do processo de revisão\" is the bureaucratic Portuguese that Brazilian editors cut. One or two nominalizations per sentence is plenty. Keep a verb wherever the reader needs to know who did what.",
         ],
         examples: [
           { es: "Após a assinatura do contrato, a obra começou.", en: "After the contract was signed, construction began." },
           { es: "Antes da contratação, a empresa realizou uma análise de custos.", en: "Before hiring, the company carried out a cost analysis." },
           { es: "Com a abertura da nova linha de metrô, o trânsito melhorou.", en: "With the opening of the new metro line, traffic improved." },
           { es: "Devido ao atraso na entrega, o lançamento foi adiado.", en: "Because of the delay in delivery, the launch was postponed." },
-          { es: "A prefeitura promoveu a revitalização do centro do Recife.", en: "The city government carried out the revitalisation of central Recife." },
+          { es: "A prefeitura promoveu a revitalização do centro do Recife.", en: "The city government carried out the revitalization of central Recife." },
         ],
         checkpoint: [
           {
@@ -858,7 +858,7 @@ export const PT_B2_U08: Lesson[] = [
           {
             type: "speak",
             text: "Após a aprovação do orçamento, a obra começou.",
-            tip: "Nasalise the ão in aprovação and let it fade with no n. The ç sounds like s.",
+            tip: "Nasalize the ão in aprovação and let it fade with no n. The ç sounds like s.",
             explanation: "\"A aprovação do orçamento\" packs the event into a noun phrase, the typical shape of a report sentence.",
           },
           {
@@ -951,7 +951,7 @@ export const PT_B2_U08: Lesson[] = [
           "A equipe fez uma revisão antes da abertura da loja.",
           "A equipe realizou uma revisão antes da abertura da loja.",
         ],
-        explanation: "\"Antes de\" + \"a abertura\" contracts to \"antes da abertura\". \"Realizar\" here means to carry out, never to realise.",
+        explanation: "\"Antes de\" + \"a abertura\" contracts to \"antes da abertura\". \"Realizar\" here means to carry out, never to realize.",
       },
       {
         type: "word-order",
@@ -1034,7 +1034,7 @@ export const PT_B2_U08: Lesson[] = [
           { es: "Vai haver mudanças no cronograma.", en: "There are going to be changes to the schedule." },
           { es: "Deve haver outra solução.", en: "There must be another solution." },
           { es: "Pode haver atrasos por causa da chuva.", en: "There may be delays because of the rain." },
-          { es: "Tem havido muitos assaltos no bairro.", en: "There have been a lot of robberies in the neighbourhood lately." },
+          { es: "Tem havido muitos assaltos no bairro.", en: "There have been a lot of robberies in the neighborhood lately." },
           { es: "Faz dois anos que ela mora em Curitiba.", en: "She's been living in Curitiba for two years." },
         ],
         checkpoint: [
@@ -1056,9 +1056,9 @@ export const PT_B2_U08: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: There have been a lot of robberies in the neighbourhood lately.",
+            prompt: "Put the words in order to say: There have been a lot of robberies in the neighborhood lately.",
             words: ["Tem", "havido", "muitos", "assaltos", "no", "bairro."],
-            translation: "There have been a lot of robberies in the neighbourhood lately.",
+            translation: "There have been a lot of robberies in the neighborhood lately.",
             explanation: "\"Tem havido\" is the perfeito composto for something repeated up to now. The auxiliary is \"tem\", never \"têm\", because there is no subject.",
           },
         ],
@@ -1071,9 +1071,9 @@ export const PT_B2_U08: Lesson[] = [
           "Agreement is correct when \"haver\" is an auxiliary with a real subject, as in the written pluperfect \"eles haviam saído\" (they had left). So ask yourself: is someone doing it? Then make it agree. Is it there is or there are? Then use the singular.",
         ],
         examples: [
-          { es: "Tinha muita gente na festa.", en: "There were loads of people at the party." },
+          { es: "Tinha muita gente na festa.", en: "There were tons of people at the party." },
           { es: "Ontem teve dois shows na praia.", en: "There were two shows on the beach yesterday." },
-          { es: "Havia muitas pessoas na fila do banco.", en: "There were a lot of people in the queue at the bank." },
+          { es: "Havia muitas pessoas na fila do banco.", en: "There were a lot of people in line at the bank." },
           { es: "Existem muitas opções de restaurante em Belo Horizonte.", en: "There are lots of restaurant options in Belo Horizonte." },
           { es: "Os convidados já haviam saído quando chegamos.", en: "The guests had already left when we arrived." },
         ],
@@ -1191,7 +1191,7 @@ export const PT_B2_U08: Lesson[] = [
       {
         type: "speak",
         text: "Vai ter muita gente no show.",
-        prompt: "Say it in Portuguese, casually: There are going to be loads of people at the show.",
+        prompt: "Say it in Portuguese, casually: There are going to be tons of people at the show.",
         explanation: "In speech \"vai ter\" replaces \"vai haver\", and it is still singular before \"muita gente\".",
       },
       {
@@ -1201,7 +1201,7 @@ export const PT_B2_U08: Lesson[] = [
           { left: "Havia muito trânsito.", right: "There was a lot of traffic." },
           { left: "Houve um apagão.", right: "There was a blackout." },
           { left: "Haverá greve amanhã.", right: "There will be a strike tomorrow." },
-          { left: "Haveria menos filas.", right: "There would be fewer queues." },
+          { left: "Haveria menos filas.", right: "There would be fewer lines." },
           { left: "Caso haja problemas, me avise.", right: "If there are any problems, let me know." },
         ],
         explanation: "Every tense of impersonal \"haver\" is singular: \"havia\", \"houve\", \"haverá\", \"haveria\", \"haja\". \"Havia\" sets the scene, while \"houve\" reports an event.",
@@ -1224,7 +1224,7 @@ export const PT_B2_U08: Lesson[] = [
         ],
         examples: [
           { es: "Cara, o metrô parou hoje de manhã.", en: "Dude, the metro stopped this morning." },
-          { es: "Tinha muita gente na estação.", en: "There were loads of people at the station." },
+          { es: "Tinha muita gente na estação.", en: "There were tons of people at the station." },
           { es: "A gente ficou uma hora esperando.", en: "We were stuck waiting for an hour." },
           { es: "O Rafa tava lá também, eu vi ele na plataforma.", en: "Rafa was there too, I saw him on the platform." },
           { es: "Cheguei atrasadíssimo no trabalho.", en: "I got to work super late." },
@@ -1234,7 +1234,7 @@ export const PT_B2_U08: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "There were loads of people at the station. (texting a friend)",
+            source: "There were tons of people at the station. (texting a friend)",
             answer: "Tinha muita gente na estação.",
             altAnswers: ["Na estação tinha muita gente.", "Tinha muita gente lá na estação."],
             explanation: "In a chat, existence is \"ter\": \"tinha muita gente\". \"Havia\" is correct, but in a message to a friend it sounds oddly official.",
@@ -1272,7 +1272,7 @@ export const PT_B2_U08: Lesson[] = [
           { es: "Houve uma falha na Linha 3 do metrô, e os trens ficaram parados.", en: "There was a fault on Metro Line 3, and the trains came to a halt." },
           { es: "Havia muitas pessoas na plataforma, e aguardamos quase uma hora.", en: "There were many people on the platform, and we waited almost an hour." },
           { es: "O Rafael também estava na estação; eu o vi na plataforma.", en: "Rafael was at the station too; I saw him on the platform." },
-          { es: "Peço desculpas pelo transtorno e fico à disposição.", en: "I apologise for the inconvenience and remain at your disposal." },
+          { es: "Peço desculpas pelo transtorno e fico à disposição.", en: "I apologize for the inconvenience and remain at your disposal." },
         ],
         checkpoint: [
           {
@@ -1416,7 +1416,7 @@ export const PT_B2_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "They called me to say the meeting was cancelled. (texting a friend)",
+        source: "They called me to say the meeting was canceled. (texting a friend)",
         answer: "Me ligaram pra dizer que a reunião foi cancelada.",
         altAnswers: [
           "Me ligaram para dizer que a reunião foi cancelada.",
@@ -1466,7 +1466,7 @@ export const PT_B2_U08: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "Tinha muita gente.", right: "There were loads of people." },
+          { left: "Tinha muita gente.", right: "There were tons of people." },
           { left: "Houve reclamações.", right: "There were complaints." },
           { left: "Aguardamos quase uma hora.", right: "We waited almost an hour." },
           { left: "Trata-se da terceira falha.", right: "It's the third fault." },
@@ -1489,7 +1489,7 @@ export const PT_B2_U08: Lesson[] = [
       {
         heading: "Abrindo o atendimento: who's calling and why",
         body: [
-          "Brazilian call centres follow a script: the company, the agent's name, then \"Em que posso ajudar?\" (How can I help?). From there the agent says \"o senhor\" or \"a senhora\", never \"você\", and puts every request in the conditional: \"O senhor poderia me informar o CPF do titular?\" The CPF, the national tax ID, is the first thing almost any company asks for.",
+          "Brazilian call centers follow a script: the company, the agent's name, then \"Em que posso ajudar?\" (How can I help?). From there the agent says \"o senhor\" or \"a senhora\", never \"você\", and puts every request in the conditional: \"O senhor poderia me informar o CPF do titular?\" The CPF, the national tax ID, is the first thing almost any company asks for.",
           "\"Com quem eu falo?\" means 'who am I speaking to?': the agent wants your name, not theirs. Answer \"Aqui é o Roberto Almeida\" or simply give your full name.",
           "The customer stays formal too, often without any pronoun at all. State your purpose with \"gostaria de solicitar\" + a noun: \"o cancelamento\", \"a segunda via da fatura\" (a copy of the bill), \"a alteração do endereço\". This is the nominal style from earlier in the unit, and it sounds both firmer and more polite than \"quero cancelar\".",
         ],
@@ -1530,7 +1530,7 @@ export const PT_B2_U08: Lesson[] = [
       {
         heading: "A oferta de retenção: saying no politely",
         body: [
-          "Before cancelling anything, the agent will try to keep you: \"Antes de prosseguirmos, gostaria de oferecer ao senhor um desconto.\" To refuse, thank first and then hold your ground: \"Agradeço a oferta, mas prefiro manter o cancelamento.\" Repeating the noun \"o cancelamento\" makes it clear the decision is already made.",
+          "Before canceling anything, the agent will try to keep you: \"Antes de prosseguirmos, gostaria de oferecer ao senhor um desconto.\" To refuse, thank first and then hold your ground: \"Agradeço a oferta, mas prefiro manter o cancelamento.\" Repeating the noun \"o cancelamento\" makes it clear the decision is already made.",
           "This part of the call is full of the written norm. Impersonal \"haver\" stays singular (\"haverá uma multa\", \"houve duas cobranças indevidas\"), and \"caso\" takes the subjunctive (\"caso o contrato ainda esteja no período de fidelidade\"). To push back, ask a negative question in the conditional: \"Não haveria possibilidade de cancelar sem multa?\" is polite but persistent.",
         ],
         examples: [
@@ -1539,7 +1539,7 @@ export const PT_B2_U08: Lesson[] = [
           { es: "Caso o contrato ainda esteja no período de fidelidade, haverá uma multa.", en: "If the contract is still within the minimum term, there will be a fee." },
           { es: "Não haveria possibilidade de cancelar sem multa?", en: "Would there be any way to cancel without a fee?" },
           { es: "Houve duas cobranças indevidas na minha última fatura.", en: "There were two incorrect charges on my last bill." },
-          { es: "Lamentamos o transtorno, senhor Roberto.", en: "We're sorry for the inconvenience, Mr Almeida." },
+          { es: "Lamentamos o transtorno, senhor Roberto.", en: "We're sorry for the inconvenience, Mr. Almeida." },
         ],
         checkpoint: [
           {
@@ -1574,7 +1574,7 @@ export const PT_B2_U08: Lesson[] = [
         body: [
           "Never hang up without the \"número de protocolo\". Brazilian consumer law gives every call to a company's SAC (Serviço de Atendimento ao Consumidor) a reference number, and it's your proof if the problem comes back. Ask for it with the same conditional, then read it back to check.",
           "The agent confirms with the passive and a deadline: \"o cancelamento será efetivado em até 48 horas\" (within 48 hours), \"o valor será estornado\" (refunded). The closing question, \"Há algo mais em que eu possa ajudar?\", takes the subjunctive because the help is still hypothetical.",
-          "One call-centre habit to recognise, not copy: \"vou estar transferindo sua ligação\", the much-mocked \"gerundismo\". Just say \"vou transferir\".",
+          "One call-center habit to recognize, not copy: \"vou estar transferindo sua ligação\", the much-mocked \"gerundismo\". Just say \"vou transferir\".",
         ],
         examples: [
           { es: "A senhora poderia me informar o número do protocolo?", en: "Could you give me the reference number?" },
@@ -1770,11 +1770,11 @@ export const PT_B2_U08: Lesson[] = [
       {
         heading: "A gente fomos: pick one system",
         body: [
-          "\"A gente\" means we but takes the singular verb, like \"ele\": \"a gente foi\", \"a gente estava\". *\"A gente fomos\" mixes two systems and is heavily stigmatised, far more than any slang word. The same goes for *\"nós vai\" in the other direction.",
+          "\"A gente\" means we but takes the singular verb, like \"ele\": \"a gente foi\", \"a gente estava\". *\"A gente fomos\" mixes two systems and is heavily stigmatized, far more than any slang word. The same goes for *\"nós vai\" in the other direction.",
           "In formal writing use \"nós\" with its -mos form. In speech and chat, \"a gente\" with the singular is perfectly standard. The reflexive follows the verb: \"a gente se viu\", \"nós nos vimos\".",
         ],
         examples: [
-          { es: "A gente foi ao cinema ontem.", en: "We went to the cinema yesterday." },
+          { es: "A gente foi ao cinema ontem.", en: "We went to the movies yesterday." },
           { es: "Nós fomos recebidos pelo diretor.", en: "We were received by the director." },
           { es: "A gente estava esperando o ônibus.", en: "We were waiting for the bus." },
           { es: "A gente se conheceu em Recife.", en: "We met in Recife." },
@@ -1856,7 +1856,7 @@ export const PT_B2_U08: Lesson[] = [
           "The reverse slip, *\"aonde você mora?\", is wrong in any register. Test it with the answer: if it's \"a\" or \"para\" + place, use \"aonde\"; if it's \"em\" + place, use \"onde\".",
         ],
         examples: [
-          { es: "Aonde vocês vão nas férias?", en: "Where are you going on holiday?" },
+          { es: "Aonde vocês vão nas férias?", en: "Where are you going on vacation?" },
           { es: "Onde fica a sala de reuniões?", en: "Where's the meeting room?" },
           { es: "Não sei aonde essa discussão vai nos levar.", en: "I don't know where this discussion will take us." },
           { es: "A cidade onde nasci é pequena.", en: "The town where I was born is small." },
@@ -1925,7 +1925,7 @@ export const PT_B2_U08: Lesson[] = [
         source: "We left early and caught the bus. (casual, with a gente)",
         answer: "A gente saiu cedo e pegou o ônibus.",
         altAnswers: ["Nós saímos cedo e pegamos o ônibus."],
-        explanation: "Both verbs agree with \"a gente\" in the singular: \"saiu\", \"pegou\". Mixing in \"saímos\" or \"pegamos\" is the stigmatised slip.",
+        explanation: "Both verbs agree with \"a gente\" in the singular: \"saiu\", \"pegou\". Mixing in \"saímos\" or \"pegamos\" is the stigmatized slip.",
       },
       {
         type: "word-order",
@@ -1950,7 +1950,7 @@ export const PT_B2_U08: Lesson[] = [
         sentence: "___ os alunos vão amanhã?",
         answer: "Aonde",
         altAnswers: ["Para onde"],
-        explanation: "\"Ir\" expresses movement towards a place, so the norm asks \"aonde\" (or \"para onde\"). Plain \"onde\" is only for where something is.",
+        explanation: "\"Ir\" expresses movement toward a place, so the norm asks \"aonde\" (or \"para onde\"). Plain \"onde\" is only for where something is.",
       },
       {
         type: "listen-choose",
@@ -1969,7 +1969,7 @@ export const PT_B2_U08: Lesson[] = [
         type: "speak",
         text: "Nós fomos à reunião, mas não houve decisão.",
         prompt: "Say it in Portuguese (formal): We went to the meeting, but there was no decision.",
-        tip: "In \"houve\" the ou is a closed o sound, and the final e sounds like i: \"ÔU-vi\".",
+        tip: "In \"houve\" the ou is said as a closed ô, and the final e sounds like i: \"Ô-vi\".",
         explanation: "Formal register: \"nós fomos\" with the -mos form, and singular \"houve\" for there was.",
       },
       {
@@ -1991,7 +1991,7 @@ export const PT_B2_U08: Lesson[] = [
     level: "PT-B2",
     number: 9,
     title: "Transformations: Chat → Report",
-    summary: "Turn a casual WhatsApp account of a meeting into a formal report in three passes: norm forms, impersonal style and nominalisation.",
+    summary: "Turn a casual WhatsApp account of a meeting into a formal report in three passes: norm forms, impersonal style and nominalization.",
     duration: "15 min",
     sections: [
       {
@@ -2082,7 +2082,7 @@ export const PT_B2_U08: Lesson[] = [
         body: [
           "The last pass packs actions into nouns. \"Eles vão lançar o app em março\" becomes \"O lançamento do aplicativo está previsto para março\": the action is now the subject, and a neutral verb (\"está previsto\", \"houve\", \"foi aprovada\") carries the sentence.",
           "The noun drags its partners along. The object becomes a \"de\" phrase with the usual contractions (\"a entrega do relatório\", \"a contratação de dois estagiários\"), and adverbs often turn into adjectives: \"atrasou muito\" → \"houve um atraso significativo\".",
-          "Stop before the text turns to fog. One nominalisation per clause reads like a report; \"a realização da análise da implementação\" reads like a parody. Every sentence still needs one clear verb.",
+          "Stop before the text turns to fog. One nominalization per clause reads like a report; \"a realização da análise da implementação\" reads like a parody. Every sentence still needs one clear verb.",
         ],
         examples: [
           { es: "Eles vão lançar o app em março. → O lançamento do aplicativo está previsto para março.", en: "The app launch is scheduled for March." },
@@ -2112,7 +2112,7 @@ export const PT_B2_U08: Lesson[] = [
           {
             type: "speak",
             text: "Houve um atraso significativo na entrega.",
-            tip: "The ti in significativo sounds like chi, and the s in atraso, between vowels, is a z.",
+            tip: "The ti in significativo sounds like tchi, and the s in atraso, between vowels, is a z.",
             explanation: "\"Atrasou muito\" became the noun \"um atraso significativo\", introduced by \"houve\".",
           },
         ],
@@ -2171,7 +2171,7 @@ export const PT_B2_U08: Lesson[] = [
       {
         type: "dictation",
         audio: "Houve um atraso na entrega.",
-        explanation: "\"Atrasaram a entrega\" nominalised: \"houve um atraso na entrega\", with \"na\" = \"em\" + \"a\".",
+        explanation: "\"Atrasaram a entrega\" nominalized: \"houve um atraso na entrega\", with \"na\" = \"em\" + \"a\".",
       },
       {
         type: "translate",
@@ -2216,7 +2216,7 @@ export const PT_B2_U08: Lesson[] = [
         source: "The launch was postponed due to the delay in delivery.",
         answer: "O lançamento foi adiado devido ao atraso na entrega.",
         altAnswers: ["Devido ao atraso na entrega, o lançamento foi adiado.", "O lançamento foi adiado por causa do atraso na entrega.", "O lançamento foi adiado em razão do atraso na entrega."],
-        explanation: "Two nominalisations (\"o lançamento\", \"o atraso\") linked by \"devido a\", which contracts to \"ao\" before a masculine noun.",
+        explanation: "Two nominalizations (\"o lançamento\", \"o atraso\") linked by \"devido a\", which contracts to \"ao\" before a masculine noun.",
       },
     ],
   },
@@ -2236,7 +2236,7 @@ export const PT_B2_U08: Lesson[] = [
           "The B2 trap is mixing levels: an email that opens with \"A gente gostaria\", or \"haviam\" because the noun after it is plural. When you raise the register, change every marker in the sentence, not just one. The grammar underneath doesn't move: \"embora\" takes the subjunctive in a chat and in a report alike.",
         ],
         examples: [
-          { es: "Tinha muita gente na reunião, mas ninguém falou nada.", en: "There were loads of people at the meeting, but nobody said a thing." },
+          { es: "Tinha muita gente na reunião, mas ninguém falou nada.", en: "There were tons of people at the meeting, but nobody said a thing." },
           { es: "Havia muitas pessoas na reunião, mas ninguém se manifestou.", en: "Many people attended the meeting, but no one spoke up." },
           { es: "A gente viu ele ontem no escritório.", en: "We saw him at the office yesterday." },
           { es: "Nós o vimos ontem no escritório.", en: "We saw him at the office yesterday. (formal)" },
@@ -2280,7 +2280,7 @@ export const PT_B2_U08: Lesson[] = [
           { es: "Gostaria que o senhor me enviasse o arquivo ainda hoje.", en: "I would be grateful if you could send me the file today." },
           { es: "Solicitamos que os candidatos apresentem os documentos até sexta-feira.", en: "Candidates are asked to submit their documents by Friday." },
           { es: "O cliente solicitou que o contrato fosse revisado.", en: "The client asked for the contract to be reviewed." },
-          { es: "Se tiver alguma dúvida, me chama.", en: "If you've got any questions, just give me a shout." },
+          { es: "Se tiver alguma dúvida, me chama.", en: "If you've got any questions, just let me know." },
           { es: "Caso haja dúvidas, entre em contato conosco.", en: "Should you have any questions, please contact us." },
         ],
         checkpoint: [
@@ -2314,7 +2314,7 @@ export const PT_B2_U08: Lesson[] = [
       {
         heading: "Reports: impersonal, nominal, past",
         body: [
-          "A report on past events combines the unit's tools. It uses \"houve\" for what happened and nominalisation for the actions (\"após a aprovação do orçamento\" rather than \"depois que aprovaram o orçamento\"). It also replaces \"eu acho\" with \"observa-se\" or \"cabe ressaltar\".",
+          "A report on past events combines the unit's tools. It uses \"houve\" for what happened and nominalization for the actions (\"após a aprovação do orçamento\" rather than \"depois que aprovaram o orçamento\"). It also replaces \"eu acho\" with \"observa-se\" or \"cabe ressaltar\".",
           "Keep the written pronoun rules. Don't open a sentence with a pronoun (\"Trata-se de\", \"Informou-se que\"). Inside the sentence, \"não\", \"que\" and \"já\" pull it forward: \"não se discutiu\". News reports add \"teria\" + participle for claims nobody has confirmed: \"o ministro teria dito\".",
         ],
         examples: [
@@ -2356,7 +2356,7 @@ export const PT_B2_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "There were loads of people at the party. (to a friend)",
+        source: "There were tons of people at the party. (to a friend)",
         answer: "Tinha muita gente na festa.",
         altAnswers: ["Tinha muitas pessoas na festa.", "Havia muita gente na festa.", "Havia muitas pessoas na festa."],
         explanation: "In speech Brazilians say \"tinha muita gente\". \"Havia\" is also correct, but it sounds written.",
@@ -2365,7 +2365,7 @@ export const PT_B2_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We regret that the event has been cancelled. (formal notice)",
+        source: "We regret that the event has been canceled. (formal notice)",
         answer: "Lamentamos que o evento tenha sido cancelado.",
         altAnswers: ["Nós lamentamos que o evento tenha sido cancelado."],
         explanation: "An emotion verb takes the subjunctive, and the cancellation is already done, so it takes the perfect subjunctive: \"tenha sido cancelado\". \"Lamentar\" is the formal choice over \"sentir muito\".",
@@ -2373,7 +2373,7 @@ export const PT_B2_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Should the payment not [be] made, the order will be cancelled.",
+        en: "Should the payment not [be] made, the order will be canceled.",
         sentence: "Caso o pagamento não ___ efetuado, o pedido será cancelado.",
         answer: "seja",
         explanation: "\"Caso\" takes the present subjunctive: \"seja efetuado\". With \"se\" you would need the future subjunctive: \"se o pagamento não for efetuado\".",
@@ -2427,8 +2427,8 @@ export const PT_B2_U08: Lesson[] = [
       {
         type: "speak",
         text: "Tinha muita gente no bar.",
-        prompt: "Say it in Portuguese, to a friend: There were loads of people at the bar.",
-        explanation: "\"Tinha muita gente\" is how Brazilians say there were loads of people in everyday speech.",
+        prompt: "Say it in Portuguese, to a friend: There were tons of people at the bar.",
+        explanation: "\"Tinha muita gente\" is how Brazilians say there were tons of people in everyday speech.",
       },
       {
         type: "translate",
@@ -2461,8 +2461,8 @@ export const PT_B2_U08_WRITING: WriteExercise = {
     "Uses impersonal \"haver\" in the singular for there was / there were (\"havia\", \"houve\"), never \"tinha\" or \"teve\" in that sense",
     "Replaces \"a gente\" with \"nós\" and its verb forms (\"conversamos\", \"recebemos\"), and \"pra\" with \"para\"",
     "Uses a written object pronoun instead of \"ele\" as an object (\"o informamos\", not \"avisamos ele\")",
-    "Uses formal vocabulary and impersonal style: \"solicitar\", \"informar\", \"observa-se que\" or \"cabe ressaltar que\", plus at least one nominalisation (\"a contratação\", \"a revisão\")"
+    "Uses formal vocabulary and impersonal style: \"solicitar\", \"informar\", \"observa-se que\" or \"cabe ressaltar que\", plus at least one nominalization (\"a contratação\", \"a revisão\")"
   ],
   modelAnswer: "Prezada Sra. Beatriz,\n\nVenho por meio deste informar os resultados do evento de lançamento realizado ontem no auditório da empresa, em São Paulo.\n\nHavia cerca de duzentas pessoas presentes, número superior ao previsto. No entanto, houve diversas reclamações sobre a qualidade do som, sobretudo durante a apresentação principal. Observa-se que problemas semelhantes ocorreram nas duas últimas edições do evento, o que indica a necessidade de uma revisão do contrato com o fornecedor atual.\n\nApós o encerramento, conversamos com o técnico responsável e o informamos das falhas. Ele reconheceu os problemas, mas não apresentou nenhuma solução concreta.\n\nDiante disso, gostaria de solicitar autorização para a contratação de uma nova empresa de áudio até o fim do mês. Cabe ressaltar que já recebemos dois orçamentos, que seguem em anexo.\n\nFico à disposição para quaisquer esclarecimentos.\n\nAtenciosamente,\nLucas Ferreira",
-  explanation: "The written norm uses impersonal \"haver\" for there was / there were, always in the singular: \"havia cerca de duzentas pessoas\", \"houve diversas reclamações\" (never \"haviam\"). \"A gente\" becomes \"nós\" with its own verb forms (\"conversamos\"), and the spoken object \"avisou ele\" becomes \"o informamos\", with the pronoun before the verb. Formal verbs (\"solicitar\" for \"pedir\", \"informar\" for \"avisar\"), nominalisations (\"a contratação\", \"a revisão do contrato\") and impersonal phrases (\"observa-se que\", \"cabe ressaltar que\") keep the report objective without leaning on \"eu acho\"."
+  explanation: "The written norm uses impersonal \"haver\" for there was / there were, always in the singular: \"havia cerca de duzentas pessoas\", \"houve diversas reclamações\" (never \"haviam\"). \"A gente\" becomes \"nós\" with its own verb forms (\"conversamos\"), and the spoken object \"avisou ele\" becomes \"o informamos\", with the pronoun before the verb. Formal verbs (\"solicitar\" for \"pedir\", \"informar\" for \"avisar\"), nominalizations (\"a contratação\", \"a revisão do contrato\") and impersonal phrases (\"observa-se que\", \"cabe ressaltar que\") keep the report objective without leaning on \"eu acho\"."
 };

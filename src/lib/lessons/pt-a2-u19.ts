@@ -49,7 +49,7 @@ export const PT_A2_U19: Lesson[] = [
         heading: "Na Bahia, no Pará, em Pernambuco: articles with states",
         body: [
           "Most states take an article, so \"em\" contracts: \"na Bahia\", \"na Paraíba\", \"no Pará\", \"no Ceará\", \"no Amazonas\", \"no Paraná\", \"no Rio Grande do Sul\". A handful take none: \"em Pernambuco\", \"em São Paulo\", \"em Minas Gerais\" (often just \"em Minas\"), \"em Santa Catarina\", \"em Goiás\", \"em Alagoas\", \"em Sergipe\".",
-          "There's no rule you can see from the spelling, so learn each state with its little word, the way you learn a noun with its gender. The same article shows up with \"de\": \"da Bahia\", \"do Pará\", but \"de Pernambuco\", \"de Minas\". Cities usually take no article (\"em Salvador\", \"de Recife\"). The big exception is Rio: \"no Rio\", \"do Rio\", for the city and the state.",
+          "There's no rule you can see from the spelling, so learn each state with its little word, the way you learn a noun with its gender. The same article shows up with \"de\": \"da Bahia\", \"do Pará\", but \"de Pernambuco\", \"de Minas\". Cities usually take no article (\"em Salvador\", \"de Curitiba\"); Recife traditionally takes one (\"no Recife\", \"do Recife\"), though \"em Recife\" is common too. The big exception is Rio: \"no Rio\", \"do Rio\", for the city and the state.",
         ],
         examples: [
           { es: "Minha avó mora na Bahia.", en: "My grandmother lives in Bahia." },
@@ -290,7 +290,7 @@ export const PT_A2_U19: Lesson[] = [
       {
         heading: "Réveillon: de branco na praia",
         body: [
-          "\"O Réveillon\" is New Year's Eve, and the classic place is the beach. In Copacabana millions of people watch \"os fogos\" (the fireworks) at midnight. Most wear white for peace, and some add a colour for luck: yellow for money, red for love.",
+          "\"O Réveillon\" is New Year's Eve, and the classic place is the beach. In Copacabana millions of people watch \"os fogos\" (the fireworks) at midnight. Most wear white for peace, and some add a color for luck: yellow for money, red for love.",
           "At midnight many people \"pulam sete ondas\" (jump seven waves) and make a wish for each one, and some leave white flowers in the sea for Iemanjá. Talk about it across tenses: \"no ano passado eu passei o Réveillon em Copacabana\", \"quando eu era criança a gente ficava em casa\", \"este ano vou para Florianópolis\".",
         ],
         examples: [
@@ -308,7 +308,7 @@ export const PT_A2_U19: Lesson[] = [
             source: "Last year I spent New Year's Eve in Copacabana.",
             answer: "No ano passado eu passei o Réveillon em Copacabana.",
             altAnswers: ["No ano passado passei o Réveillon em Copacabana.", "Ano passado eu passei o Réveillon em Copacabana.", "Ano passado passei o Réveillon em Copacabana.", "Eu passei o Réveillon em Copacabana no ano passado."],
-            explanation: "A single finished event: perfeito \"passei\". \"Passar\" is to spend a holiday or a period of time.",
+            explanation: "A single finished event: perfeito \"passei\". \"Passar\" is to spend a vacation or a period of time.",
           },
           {
             type: "speak",
@@ -344,7 +344,7 @@ export const PT_A2_U19: Lesson[] = [
         en: "Everyone [dresses in white] on New Year's Eve.",
         sentence: "Todo mundo ___ no Réveillon.",
         answer: "se veste de branco",
-        explanation: "\"Vestir-se de\" + colour: \"se veste de branco\". \"Todo mundo\" takes a singular verb.",
+        explanation: "\"Vestir-se de\" + color: \"se veste de branco\". \"Todo mundo\" takes a singular verb.",
       },
       {
         type: "translate",
@@ -466,7 +466,7 @@ export const PT_A2_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A neighbour hands you a cup of canjica and says \"Prova!\". What is she telling you?",
+            question: "A neighbor hands you a cup of canjica and says \"Prova!\". What is she telling you?",
             options: ["Try it!", "Prove it!", "Test yourself!", "Pay for it!"],
             correctIndex: 0,
             explanation: "\"Provar\" means to taste or try food. \"Prova!\" is the everyday command.",
@@ -636,8 +636,8 @@ export const PT_A2_U19: Lesson[] = [
       {
         heading: "Salgados, churrasco e sobremesa",
         body: [
-          "\"Os salgados\" are savoury snacks sold at every \"padaria\" and \"lanchonete\": \"a coxinha\" (a teardrop of shredded chicken in fried dough), \"o pastel\" (a crispy fried pastry), \"a empada\" and \"a esfiha\". \"Pão de queijo\" (cheese bread) is eaten at any hour.",
-          "\"O churrasco\" is a barbecue at home and a restaurant style. In \"a churrascaria rodízio\" you pay one price and waiters bring meat to the table until you say stop; \"a picanha\" is the favourite cut. Finish with \"a sobremesa\": \"o pudim\", \"o brigadeiro\" (a chocolate fudge ball) or fresh fruit.",
+          "\"Os salgados\" are savory snacks sold at every \"padaria\" and \"lanchonete\": \"a coxinha\" (a teardrop of shredded chicken in fried dough), \"o pastel\" (a crispy fried pastry), \"a empada\" and \"a esfiha\". \"Pão de queijo\" (cheese bread) is eaten at any hour.",
+          "\"O churrasco\" is a barbecue at home and a restaurant style. In \"a churrascaria rodízio\" you pay one price and waiters bring meat to the table until you say stop; \"a picanha\" is the favorite cut. Finish with \"a sobremesa\": \"o pudim\", \"o brigadeiro\" (a chocolate fudge ball) or fresh fruit.",
         ],
         examples: [
           { es: "Me vê uma coxinha e um suco de laranja.", en: "Can I get a coxinha and an orange juice?" },
@@ -694,7 +694,7 @@ export const PT_A2_U19: Lesson[] = [
             question: "A friend from Belém invites you for açaí. What are you most likely to get?",
             options: ["Unsweetened açaí with fried fish.", "A sweet açaí bowl with granola and banana.", "Açaí juice with ice cream.", "A cheese bread with açaí jam."],
             correctIndex: 0,
-            explanation: "In Pará, açaí is a savoury everyday food, eaten with fish and farinha. The sweet bowl is the southeastern version.",
+            explanation: "In Pará, açaí is a savory everyday food, eaten with fish and farinha. The sweet bowl is the southeastern version.",
           },
           {
             type: "speak",
@@ -755,7 +755,7 @@ export const PT_A2_U19: Lesson[] = [
         pairs: [
           { left: "o prato feito", right: "a set lunch plate" },
           { left: "o restaurante por quilo", right: "a pay-by-weight buffet" },
-          { left: "os salgados", right: "savoury snacks" },
+          { left: "os salgados", right: "savory snacks" },
           { left: "a sobremesa", right: "dessert" },
           { left: "o lanche", right: "a light meal or snack" },
         ],
@@ -796,7 +796,7 @@ export const PT_A2_U19: Lesson[] = [
     level: "PT-A2",
     number: 5,
     title: "Same Food, Different Names",
-    summary: "Recognise the regional names for everyday foods (mandioca, aipim, macaxeira; biscoito or bolacha; pão francês, pão de sal, cacetinho) and ask what people call something locally.",
+    summary: "Recognize the regional names for everyday foods (mandioca, aipim, macaxeira; biscoito or bolacha; pão francês, pão de sal, cacetinho) and ask what people call something locally.",
     duration: "12 min",
     kind: "teach",
     sections: [
@@ -804,7 +804,7 @@ export const PT_A2_U19: Lesson[] = [
         heading: "Mandioca, aipim, macaxeira",
         body: [
           "Brazil is big enough for one root vegetable to have three names. Cassava is \"a mandioca\" in São Paulo and much of the country, \"o aipim\" in Rio and the South, and \"a macaxeira\" in the Nordeste and the North. Pumpkin is \"a abóbora\" in most places but \"o jerimum\" in the Nordeste. Notice that the gender can change with the word: \"a mandioca\" but \"o aipim\".",
-          "You don't need to memorise every name. The goal is to recognise them, so a menu in Recife that says \"macaxeira frita\" doesn't stop you. Use the word of the place you're in and people will smile; use your own and they'll still understand you.",
+          "You don't need to memorize every name. The goal is to recognize them, so a menu in Recife that says \"macaxeira frita\" doesn't stop you. Use the word of the place you're in and people will smile; use your own and they'll still understand you.",
         ],
         examples: [
           { es: "Em Recife, todo mundo fala macaxeira.", en: "In Recife, everyone says macaxeira." },
@@ -960,11 +960,11 @@ export const PT_A2_U19: Lesson[] = [
     ],
   },
   {
-    slug: "a2-football-music",
+    slug: "a2-soccer-music",
     level: "PT-A2",
     number: 6,
     title: "Futebol and Música",
-    summary: "Talk about football teams, rivalries and the Copa, and about samba, bossa nova, forró, sertanejo and MPB, saying what you prefer and comparing styles.",
+    summary: "Talk about soccer teams, rivalries and the Copa, and about samba, bossa nova, forró, sertanejo and MPB, saying what you prefer and comparing styles.",
     duration: "13 min",
     kind: "teach",
     sections: [
@@ -972,14 +972,14 @@ export const PT_A2_U19: Lesson[] = [
         heading: "Torcer para um time",
         body: [
           "Almost every Brazilian has \"um time\" (a team), usually inherited from the family. To support a team is \"torcer para\": \"eu torço para o Flamengo\", \"para que time você torce?\". The fans as a group are \"a torcida\", and a fan is \"o torcedor\". When a goal goes in, everyone shouts \"gol!\" for as long as they can.",
-          "Notice that \"o futebol\" is masculine, like \"o time\" and \"o jogo\". \"A camisa do time\" is the team shirt, and \"a Copa\" usually means the World Cup. Brazil has won five, which is why fans call it \"o penta\".",
+          "Notice that \"o futebol\" is masculine, like \"o time\" and \"o jogo\". \"A camisa do time\" is the team shirt, and \"a Copa\" usually means the World Cup. Brazil's fifth title, won in 2002, is known as \"o penta\".",
         ],
         examples: [
           { es: "Eu torço para o Corinthians.", en: "I support Corinthians." },
           { es: "Para que time você torce?", en: "Which team do you support?" },
           { es: "A torcida cantou o jogo inteiro.", en: "The fans sang through the whole game." },
           { es: "Comprei a camisa do time no estádio.", en: "I bought the team shirt at the stadium." },
-          { es: "O Brasil ganhou a Copa cinco vezes.", en: "Brazil has won the World Cup five times." },
+          { es: "O Brasil ganhou a Copa de 2002.", en: "Brazil won the 2002 World Cup." },
         ],
         checkpoint: [
           {
@@ -1028,7 +1028,7 @@ export const PT_A2_U19: Lesson[] = [
             type: "listen-choose",
             audio: "O Gre-Nal de ontem empatou.",
             question: "What does it mean?",
-            options: ["Yesterday's Gre-Nal was a draw.", "Grêmio won yesterday's Gre-Nal.", "Yesterday's Gre-Nal was cancelled.", "Tomorrow's Gre-Nal will be a draw."],
+            options: ["Yesterday's Gre-Nal was a draw.", "Grêmio won yesterday's Gre-Nal.", "Yesterday's Gre-Nal was canceled.", "Tomorrow's Gre-Nal will be a draw."],
             correctIndex: 0,
             explanation: "\"Empatar\" means to draw, and \"empatou\" is the perfeito.",
           },
@@ -1135,8 +1135,8 @@ export const PT_A2_U19: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "O Brasil ganhou a Copa cinco vezes.",
-        explanation: "\"Vezes\" is the plural of \"vez\" (time, occasion): words ending in z add -es.",
+        audio: "O Brasil ganhou a Copa de 2002.",
+        explanation: "\"A Copa\", with a capital C, is the World Cup; \"ganhou\" is the perfeito of \"ganhar\".",
       },
       {
         type: "speak",
@@ -1159,7 +1159,7 @@ export const PT_A2_U19: Lesson[] = [
         heading: "Beijinhos, abraços, Dona e Seu",
         body: [
           "Brazilians greet friends and new acquaintances warmly. Women, and men greeting women, usually give \"um beijinho\" on the cheek: one in São Paulo, two in Rio, sometimes three in Minas. Men often shake hands or hug with a pat on the back. Say \"tudo bem?\" as you do it.",
-          "For older people, use \"o senhor\" and \"a senhora\" instead of \"você\": \"a senhora quer um café?\". Brazilians also say \"Dona\" + first name for an older woman and \"Seu\" + first name for an older man: \"Dona Maria\", \"Seu Antônio\". It's respectful and affectionate at the same time, and you'll hear it for neighbours, the doorman and the lady at the bakery.",
+          "For older people, use \"o senhor\" and \"a senhora\" instead of \"você\": \"a senhora quer um café?\". Brazilians also say \"Dona\" + first name for an older woman and \"Seu\" + first name for an older man: \"Dona Maria\", \"Seu Antônio\". It's respectful and affectionate at the same time, and you'll hear it for neighbors, the doorman and the lady at the bakery.",
         ],
         examples: [
           { es: "Em São Paulo é um beijinho só.", en: "In São Paulo it's just one kiss." },
@@ -1384,13 +1384,13 @@ export const PT_A2_U19: Lesson[] = [
       {
         heading: "Na barraca: prova a pamonha!",
         body: [
-          "At a food stall Dona Socorro, a neighbour, is selling pamonha and canjica. She speaks like an aunt: friendly commands with the ele form (\"prova\", \"pega\", \"leva\") and diminutives (\"quentinha\", \"um pouquinho\"). Thiago calls her \"Dona Socorro\" and \"a senhora\".",
+          "At a food stall Dona Socorro, a neighbor, is selling pamonha and canjica. She speaks like an aunt: friendly commands with the ele form (\"prova\", \"pega\", \"leva\") and diminutives (\"quentinha\", \"um pouquinho\"). Thiago calls her \"Dona Socorro\" and \"a senhora\".",
           "Emily is honest about what's new to her with \"nunca\" + perfeito: \"eu nunca comi isso\". To pay, she asks \"quanto é?\"; to say it's delicious, \"que delícia!\" or \"está uma delícia!\".",
         ],
         examples: [
           { es: "Dona Socorro: Prova a pamonha, minha filha, está quentinha!", en: "Dona Socorro: Try the pamonha, dear, it's nice and warm!" },
           { es: "Emily: Eu nunca comi pamonha. É doce?", en: "Emily: I've never eaten pamonha. Is it sweet?" },
-          { es: "Dona Socorro: Tem doce e salgada. Pega um pouquinho de cada.", en: "Dona Socorro: There's sweet and savoury. Take a little of each." },
+          { es: "Dona Socorro: Tem doce e salgada. Pega um pouquinho de cada.", en: "Dona Socorro: There's sweet and savory. Take a little of each." },
           { es: "Emily: Hum, está uma delícia! Quanto é?", en: "Emily: Mmm, it's delicious! How much is it?" },
           { es: "Thiago: Dona Socorro, a senhora me vê um quentão?", en: "Thiago: Dona Socorro, can I get a quentão?" },
         ],
@@ -1581,7 +1581,7 @@ export const PT_A2_U19: Lesson[] = [
           "The guide also recommends \"o tacacá\", a hot soup of \"tucupi\" (a yellow cassava broth), shrimp and \"jambu\", a herb that makes your mouth tingle. It's sold in the late afternoon in a gourd bowl, \"a cuia\".",
         ],
         examples: [
-          { es: "Aqui o açaí é salgado, não doce.", en: "Here açaí is savoury, not sweet." },
+          { es: "Aqui o açaí é salgado, não doce.", en: "Here açaí is savory, not sweet." },
           { es: "Os paraenses tomam açaí com peixe frito e farinha.", en: "People from Pará have açaí with fried fish and cassava flour." },
           { es: "O tacacá vem quente, numa cuia.", en: "Tacacá comes hot, in a gourd bowl." },
           { es: "O jambu faz a boca formigar.", en: "Jambu makes your mouth tingle." },
@@ -1593,16 +1593,16 @@ export const PT_A2_U19: Lesson[] = [
             question: "What do people in Belém usually eat with açaí?",
             options: ["Fried fish and cassava flour.", "Granola and banana.", "Ice cream and condensed milk.", "Cheese bread."],
             correctIndex: 0,
-            explanation: "\"Com peixe frito e farinha\": the savoury northern way.",
+            explanation: "\"Com peixe frito e farinha\": the savory northern way.",
           },
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Here açaí is savoury, not sweet.",
+            source: "Here açaí is savory, not sweet.",
             answer: "Aqui o açaí é salgado, não doce.",
             altAnswers: ["Aqui o açaí é salgado e não doce.", "Aqui açaí é salgado, não doce."],
-            explanation: "\"Salgado\" (savoury, salty) is the opposite of \"doce\"; both agree with \"o açaí\".",
+            explanation: "\"Salgado\" (savory, salty) is the opposite of \"doce\": in Pará açaí is eaten unsweetened, often with a pinch of salt and farinha. Both adjectives agree with \"o açaí\".",
           },
         ],
       },
@@ -1622,7 +1622,7 @@ export const PT_A2_U19: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A friend in Belém texts: \"A gente se encontra depois da chuva?\" What is she suggesting?",
-            options: ["Meeting after the afternoon rain.", "Meeting in the rain.", "Meeting before the rain.", "Cancelling because of the rain."],
+            options: ["Meeting after the afternoon rain.", "Meeting in the rain.", "Meeting before the rain.", "Canceling because of the rain."],
             correctIndex: 0,
             explanation: "\"Depois da chuva\" is after the rain; \"se encontra\" is reciprocal se, meet each other.",
           },
@@ -1701,7 +1701,7 @@ export const PT_A2_U19: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Jambu makes your mouth tingle.",
         answer: "O jambu faz a boca formigar.",
-        altAnswers: ["Jambu faz a boca formigar.", "O jambu deixa a boca formigando.", "O jambu deixa a boca dormente.", "O jambu faz a boca tremer."],
+        altAnswers: ["Jambu faz a boca formigar.", "O jambu deixa a boca formigando.", "O jambu deixa a boca dormente."],
         explanation: "\"Fazer\" + noun + infinitive: \"faz a boca formigar\" (literally makes the mouth tingle like ants, from \"formiga\"). Portuguese says the mouth, not your mouth.",
       },
       {
@@ -1729,8 +1729,8 @@ export const PT_A2_U19: Lesson[] = [
       {
         type: "speak",
         text: "Aqui o açaí é salgado, não doce.",
-        prompt: "Say it in Portuguese: Here açaí is savoury, not sweet.",
-        explanation: "\"Salgado\" vs \"doce\": the two words for savoury and sweet.",
+        prompt: "Say it in Portuguese: Here açaí is savory, not sweet.",
+        explanation: "\"Salgado\" vs \"doce\": the two words for savory and sweet.",
       },
     ],
   },
@@ -1739,7 +1739,7 @@ export const PT_A2_U19: Lesson[] = [
     level: "PT-A2",
     number: 10,
     title: "Error Hunt: Culture Words",
-    summary: "Find and fix the typical slips when talking about Brazil: em a Bahia, em o Rio, capitalised Cariocas and months, the wrong festival dates, a futebol and fantasia used for a dream.",
+    summary: "Find and fix the typical slips when talking about Brazil: em a Bahia, em o Rio, capitalized Cariocas and months, the wrong festival dates, a futebol and fantasia used for a dream.",
     duration: "12 min",
     kind: "reinforce",
     format: "Error hunt",
@@ -1754,7 +1754,7 @@ export const PT_A2_U19: Lesson[] = [
           { es: "Eu morei dois anos na Bahia.", en: "I lived in Bahia for two years." },
           { es: "Ela trabalha no Rio.", en: "She works in Rio." },
           { es: "Meu chefe é de Pernambuco.", en: "My boss is from Pernambuco." },
-          { es: "Nós passamos as férias em Minas.", en: "We spent the holidays in Minas." },
+          { es: "Nós passamos as férias em Minas.", en: "We spent the vacations in Minas." },
           { es: "O Lucas voltou do Ceará ontem.", en: "Lucas came back from Ceará yesterday." },
         ],
         checkpoint: [
@@ -1779,7 +1779,7 @@ export const PT_A2_U19: Lesson[] = [
       {
         heading: "*Os Cariocas, *em Junho: lowercase",
         body: [
-          "English capitalises nationalities, demonyms and months; Portuguese doesn't. Write \"os cariocas\", \"uma amiga baiana\", \"em junho\", \"na segunda-feira\". Only the names of places, regions and festivals get capitals: \"o Rio\", \"o Nordeste\", \"o Carnaval\", \"a Festa Junina\".",
+          "English capitalizes nationalities, demonyms and months; Portuguese doesn't. Write \"os cariocas\", \"uma amiga baiana\", \"em junho\", \"na segunda-feira\". Only the names of places, regions and festivals get capitals: \"o Rio\", \"o Nordeste\", \"o Carnaval\", \"a Festa Junina\".",
           "Also watch the gentílicos themselves: \"um paulistano\" is from São Paulo city, not from Minas (\"um mineiro\"), and \"um carioca\" is from Rio city, not the whole state.",
         ],
         examples: [
@@ -1811,11 +1811,11 @@ export const PT_A2_U19: Lesson[] = [
       {
         heading: "*A futebol, *a Festa Junina é em dezembro, *uma fantasia",
         body: [
-          "Football words are masculine: \"o futebol\", \"o time\", \"o jogo\", \"o gol\". Write \"eu gosto de futebol\" and \"o futebol brasileiro\", never \"a futebol\". Most teams take \"o\" too: \"o Flamengo\", \"o Fluminense\", \"o Grêmio\".",
+          "Soccer words are masculine: \"o futebol\", \"o time\", \"o jogo\", \"o gol\". Write \"eu gosto de futebol\" and \"o futebol brasileiro\", never \"a futebol\". Most teams take \"o\" too: \"o Flamengo\", \"o Fluminense\", \"o Grêmio\".",
           "Facts matter as well: \"a Festa Junina\" is in June (that's in its name), and Christmas dinner is on the 24th. Finally, \"fantasia\" is a costume. For a dream, say \"um sonho\": \"tive um sonho estranho\".",
         ],
         examples: [
-          { es: "Eu adoro o futebol brasileiro.", en: "I love Brazilian football." },
+          { es: "Eu adoro o futebol brasileiro.", en: "I love Brazilian soccer." },
           { es: "O Fluminense ganhou ontem.", en: "Fluminense won yesterday." },
           { es: "Ontem eu tive um sonho estranho.", en: "Yesterday I had a strange dream." },
           { es: "Comprei uma fantasia de super-herói.", en: "I bought a superhero costume." },
@@ -1859,8 +1859,8 @@ export const PT_A2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error and translate: \"*A futebol é muito popular aqui.\" (Football is very popular here.)",
-        source: "Football is very popular here.",
+        prompt: "Fix the error and translate: \"*A futebol é muito popular aqui.\" (Soccer is very popular here.)",
+        source: "Soccer is very popular here.",
         answer: "O futebol é muito popular aqui.",
         explanation: "\"Futebol\" is masculine: \"o futebol\".",
       },
@@ -2318,7 +2318,7 @@ export const PT_A2_U19: Lesson[] = [
     level: "PT-A2",
     number: 13,
     title: "Spiral Review: Brazil Up Close",
-    summary: "Cumulative practice of regions, festivals, food and football with reflexive verbs, comparatives, por and para, and the past and future.",
+    summary: "Cumulative practice of regions, festivals, food and soccer with reflexive verbs, comparatives, por and para, and the past and future.",
     duration: "14 min",
     kind: "review",
     format: "Spiral review",
@@ -2356,9 +2356,9 @@ export const PT_A2_U19: Lesson[] = [
         ],
       },
       {
-        heading: "Festivals and football across tenses",
+        heading: "Festivals and soccer across tenses",
         body: [
-          "Festivals and football invite every tense: the habit (\"todo ano a gente vai\"), the childhood memory (\"a gente ia\"), the one event (\"fui\") and the plan (\"vou\"). Reflexives keep their pronoun before the verb or between two verbs.",
+          "Festivals and soccer invite every tense: the habit (\"todo ano a gente vai\"), the childhood memory (\"a gente ia\"), the one event (\"fui\") and the plan (\"vou\"). Reflexives keep their pronoun before the verb or between two verbs.",
         ],
         examples: [
           { es: "Meu pai me levava ao Maracanã aos domingos.", en: "My dad used to take me to the Maracanã on Sundays." },
@@ -2442,7 +2442,7 @@ export const PT_A2_U19: Lesson[] = [
       {
         type: "multiple-choice",
         question: "A friend from São Paulo asks where you spent Carnival. You were in Olinda, in Pernambuco, and it was amazing. What do you say?",
-        options: ["Passei em Olinda, em Pernambuco. Foi incrível!", "Passei em Olinda, no Pernambuco. Era incrível!", "Passava em Olinda, em Pernambuco. Foi incrível!", "Passei na Olinda, em Pernambuco. Foi incrível!"],
+        options: ["Passei o Carnaval em Olinda, em Pernambuco. Foi incrível!", "Passei o Carnaval em Olinda, no Pernambuco. Era incrível!", "Passava o Carnaval em Olinda, em Pernambuco. Foi incrível!", "Passei o Carnaval na Olinda, em Pernambuco. Foi incrível!"],
         correctIndex: 0,
         explanation: "No article for Olinda or Pernambuco, perfeito \"passei\", and \"foi\" for the verdict on a finished event.",
       },

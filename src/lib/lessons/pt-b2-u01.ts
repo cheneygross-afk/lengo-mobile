@@ -17,7 +17,7 @@ export const PT_B2_U01: Lesson[] = [
         body: [
           "The imperfect subjunctive is the past partner of the present subjunctive you know from B1. Build it from the eles form of the perfeito: take \"falaram\", drop -ram and add -sse to get \"falasse\". Every verb in the language follows this recipe.",
           "The endings: \"eu falasse\", \"você/ele/ela falasse\", \"nós falássemos\", \"vocês/eles/elas falassem\". The eu and ele forms are identical, so a pronoun or the context tells them apart.",
-          "The stress stays on the vowel before -ss- in every form (fa-LAS-se, fa-LÁS-se-mos), which is why the nós form needs a written accent. The double s is a sharp s, never a z.",
+          "The stress stays on the vowel before -ss- in every form (fa-LA-si, fa-LÁ-si-mus). In the nós form that puts it three syllables from the end, so that form needs a written accent. The double s is a sharp s, never a z.",
         ],
         examples: [
           { es: "Meus pais queriam que eu falasse inglês.", en: "My parents wanted me to speak English." },
@@ -56,7 +56,7 @@ export const PT_B2_U01: Lesson[] = [
         examples: [
           { es: "Eu queria que você comesse alguma coisa.", en: "I wanted you to eat something." },
           { es: "O médico pediu que ele bebesse mais água.", en: "The doctor asked him to drink more water." },
-          { es: "Eles pediram que a loja abrisse mais cedo.", en: "They asked for the shop to open earlier." },
+          { es: "Eles pediram que a loja abrisse mais cedo.", en: "They asked for the store to open earlier." },
           { es: "Era importante que vocês entendessem o contrato.", en: "It was important for you all to understand the contract." },
           { es: "Ela não queria que o filho ficasse sozinho.", en: "She didn't want her son to be on his own." },
           { es: "Duvidei que eles decidissem tão rápido.", en: "I doubted they'd decide so quickly." },
@@ -299,7 +299,7 @@ export const PT_B2_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're telling a friend your mum wanted you to go to the doctor. What do you say?",
+            question: "You're telling a friend your mom wanted you to go to the doctor. What do you say?",
             options: ["Minha mãe queria que eu fosse ao médico.", "Minha mãe queria que eu ia ao médico.", "Minha mãe queria que eu vá ao médico.", "Minha mãe queria que eu fui ao médico."],
             correctIndex: 0,
             explanation: "\"Queria que\" with a new subject needs the imperfect subjunctive: \"fosse\", here meaning go. \"Vá\" is the present subjunctive and clashes with the past \"queria\"; \"ia\" and \"fui\" are indicative.",
@@ -550,8 +550,8 @@ export const PT_B2_U01: Lesson[] = [
       {
         heading: "Tivesse, estivesse, fizesse, pudesse: the big four",
         body: [
-          "These four turn up in almost every conversation about the past, and each keeps its irregular perfeito stem: \"tiveram\" → \"tivesse\", \"estiveram\" → \"estivesse\", \"fizeram\" → \"fizesse\", \"puderam\" → \"pudesse\". If \"eles fizeram\" comes out without thinking, so will \"fizesse\". The stressed e is open in all of them (ti-VÉ-sse, fi-ZÉ-sse), which is why the nós form is written \"tivéssemos\".",
-          "The trap for English speakers is the infinitive of I wanted you to do it. After \"queria\" with a new subject, Portuguese needs \"que\" + imperfect subjunctive: \"eu queria que você fizesse\". Never say \"queria você fazer\" or \"que você faça\". \"Eu queria que você estivesse aqui\" is also the everyday way to say I wish you were here.",
+          "These four turn up in almost every conversation about the past, and each keeps its irregular perfeito stem: \"tiveram\" → \"tivesse\", \"estiveram\" → \"estivesse\", \"fizeram\" → \"fizesse\", \"puderam\" → \"pudesse\". If \"eles fizeram\" comes out without thinking, so will \"fizesse\". The stressed e is open in all of them (ti-VÉ-si, fi-ZÉ-si), which is why the nós form is written \"tivéssemos\".",
+          "The trap for English speakers is the infinitive of I wanted you to do it. After \"queria\" with a new subject, Portuguese needs \"que\" + imperfect subjunctive: \"eu queria que você fizesse\". Avoid the calque \"queria você fazer\", and don't use the present \"que você faça\" for a wish that belongs to the past. \"Eu queria que você estivesse aqui\" is also the everyday way to say I wish you were here.",
         ],
         examples: [
           { es: "Eu queria que você estivesse aqui.", en: "I wish you were here." },
@@ -833,7 +833,7 @@ export const PT_B2_U01: Lesson[] = [
           { es: "Ela saiu antes que começasse a chover.", en: "She left before it started raining." },
           { es: "Embora estivesse cansado, o Rafael foi à festa.", en: "Although he was tired, Rafael went to the party." },
           { es: "Embora o apartamento seja pequeno, a gente adora morar aqui.", en: "Although the apartment is small, we love living here." },
-          { es: "Deixei a chave com a vizinha para que vocês pudessem entrar.", en: "I left the key with the neighbour so you could get in." },
+          { es: "Deixei a chave com a vizinha para que vocês pudessem entrar.", en: "I left the key with the neighbor so you could get in." },
         ],
         checkpoint: [
           {
@@ -984,7 +984,7 @@ export const PT_B2_U01: Lesson[] = [
       {
         type: "dictation",
         audio: "Era importante que você soubesse.",
-        explanation: "\"Era importante que\" + \"soubesse\": a past impersonal trigger and the past subjunctive of \"saber\", spelt with ss.",
+        explanation: "\"Era importante que\" + \"soubesse\": a past impersonal trigger and the past subjunctive of \"saber\", spelled with ss.",
       },
       {
         type: "speak",
@@ -1100,13 +1100,13 @@ export const PT_B2_U01: Lesson[] = [
       {
         heading: "Quem dera or tomara que?",
         body: [
-          "\"Tomara que\" hopes for something that may well happen, so it keeps the present subjunctive: \"tomara que não chova amanhã\". \"Quem dera\" wishes for something unlikely or contrary to fact and takes the imperfect subjunctive: \"quem dera eu estivesse de férias\" (if only I were on holiday). The \"que\" after \"quem dera\" is optional.",
+          "\"Tomara que\" hopes for something that may well happen, so it keeps the present subjunctive: \"tomara que não chova amanhã\". \"Quem dera\" wishes for something unlikely or contrary to fact and takes the imperfect subjunctive: \"quem dera eu estivesse de férias\" (if only I were on vacation). The \"que\" after \"quem dera\" is optional.",
           "This is how you say English I wish + past: \"quem dera eu falasse japonês\" (I wish I spoke Japanese). \"Eu queria que\" covers the same ground less dramatically: \"eu queria que fosse sexta\". Don't use \"eu desejo que\" here. \"Desejar\" is for formal good wishes, as in \"desejo que você seja muito feliz\".",
           "On its own, \"Quem dera!\" means If only!: a sigh in reply to something that sounds too good to be true.",
         ],
         examples: [
           { es: "Tomara que não chova amanhã.", en: "I hope it doesn't rain tomorrow." },
-          { es: "Quem dera eu estivesse de férias agora.", en: "If only I were on holiday now." },
+          { es: "Quem dera eu estivesse de férias agora.", en: "If only I were on vacation now." },
           { es: "Quem dera eu falasse japonês.", en: "I wish I spoke Japanese." },
           { es: "Eu queria que fosse sexta-feira.", en: "I wish it were Friday." },
           { es: "Quem dera que fosse verdade!", en: "If only it were true!" },
@@ -1803,7 +1803,7 @@ export const PT_B2_U01: Lesson[] = [
           { es: "Ontem pedi que ele fizesse o relatório, e ele fez.", en: "Yesterday I asked him to do the report, and he did. (not *faça)" },
           { es: "A professora pediu que a gente lesse o capítulo.", en: "The teacher asked us to read the chapter." },
           { es: "Era importante que vocês chegassem cedo.", en: "It was important for you to arrive early." },
-          { es: "Minha mãe não deixava que eu saísse sozinho.", en: "My mum didn't let me go out alone." },
+          { es: "Minha mãe não deixava que eu saísse sozinho.", en: "My mom didn't let me go out alone." },
           { es: "Duvidei que eles soubessem a resposta.", en: "I doubted they knew the answer." },
         ],
         checkpoint: [
@@ -2149,7 +2149,7 @@ export const PT_B2_U01: Lesson[] = [
           { es: "Expliquei tudo duas vezes para que vocês entendessem.", en: "I explained everything twice so that you'd understand." },
           { es: "Eu duvidava que o ônibus passasse tão tarde.", en: "I doubted the bus would come by so late." },
           { es: "Ela não achava que a reunião fosse útil.", en: "She didn't think the meeting would be useful." },
-          { es: "Eu achava que a loja abria às oito.", en: "I thought the shop opened at eight." },
+          { es: "Eu achava que a loja abria às oito.", en: "I thought the store opened at eight." },
         ],
         checkpoint: [
           {
@@ -2402,14 +2402,14 @@ export const PT_B2_U01: Lesson[] = [
         heading: "Infinitive or que? Real or imagined?",
         body: [
           "Two B1 choices come back in the past. With the same subject, use the infinitive: \"eu queria ser médica\", never \"eu queria que eu fosse médica\". With a different subject, use \"que\" + subjunctive. After a preposition you can also use the personal infinitive: \"para que vocês entendessem\" and \"para vocês entenderem\" mean the same.",
-          "In relative clauses the mood still tells the listener whether the thing exists. \"Eu procurava um apartamento que tivesse varanda\" means any flat, maybe none. \"Eu morava num apartamento que tinha varanda\" means a real one. After \"ninguém\" or \"nenhum\" the subjunctive is automatic, because nothing fits.",
+          "In relative clauses the mood still tells the listener whether the thing exists. \"Eu procurava um apartamento que tivesse varanda\" means any apartment, maybe none. \"Eu morava num apartamento que tinha varanda\" means a real one. After \"ninguém\" or \"nenhum\" the subjunctive is automatic, because nothing fits.",
         ],
         examples: [
           { es: "Eu queria ser médica, mas mudei de ideia.", en: "I wanted to be a doctor, but I changed my mind." },
           { es: "Meus pais queriam que eu fosse médica.", en: "My parents wanted me to be a doctor." },
           { es: "Expliquei duas vezes para vocês entenderem.", en: "I explained twice so you'd understand." },
-          { es: "Eu procurava um apartamento que tivesse varanda.", en: "I was looking for a flat with a balcony." },
-          { es: "Eu morava num apartamento que tinha varanda.", en: "I lived in a flat that had a balcony." },
+          { es: "Eu procurava um apartamento que tivesse varanda.", en: "I was looking for an apartment with a balcony." },
+          { es: "Eu morava num apartamento que tinha varanda.", en: "I lived in an apartment that had a balcony." },
           { es: "Em Manaus, eu não conhecia ninguém que falasse inglês.", en: "In Manaus I didn't know anyone who spoke English." },
         ],
         checkpoint: [
@@ -2423,10 +2423,10 @@ export const PT_B2_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Last year you were flat-hunting in Curitiba, and you didn't know if such a flat existed. How do you say: I was looking for a flat that had a garage?",
+            question: "Last year you were apartment-hunting in Curitiba, and you didn't know if such an apartment existed. How do you say: I was looking for an apartment that had a garage?",
             options: ["Eu procurava um apartamento que tivesse garagem.", "Eu procurava um apartamento que tinha garagem.", "Eu procurava um apartamento que tenha garagem.", "Eu procuro um apartamento que tivesse garagem."],
             correctIndex: 0,
-            explanation: "An unknown flat in a past story takes the imperfect subjunctive, \"tivesse\". \"Que tinha garagem\" would point to one specific flat you already had in mind.",
+            explanation: "An unknown apartment in a past story takes the imperfect subjunctive, \"tivesse\". \"Que tinha garagem\" would point to one specific apartment you already had in mind.",
           },
         ],
       },
@@ -2455,9 +2455,9 @@ export const PT_B2_U01: Lesson[] = [
         prompt: "Write the Portuguese for the bold words.",
         en: "I hope you [have] a good trip.",
         sentence: "Espero que você ___ uma boa viagem.",
-        answer: "faça",
-        altAnswers: ["tenha"],
-        explanation: "The trigger \"espero que\" is present, so this is the present subjunctive \"faça\", not \"fizesse\". Brazilians say \"faça uma boa viagem\" or \"tenha uma boa viagem\".",
+        answer: "tenha",
+        altAnswers: ["faça"],
+        explanation: "The trigger \"espero que\" is present, so this is the present subjunctive \"tenha\", not \"tivesse\". Brazilians say \"tenha uma boa viagem\" or \"faça uma boa viagem\".",
       },
       {
         type: "fill-blank",
@@ -2518,7 +2518,7 @@ export const PT_B2_U01: Lesson[] = [
         type: "speak",
         text: "Eu queria que vocês fossem felizes.",
         prompt: "Say it in Portuguese: I wanted you all to be happy.",
-        tip: "The o in fossem is closed, like ô, and the final -em is nasal, close to 'eing'.",
+        tip: "The o in fossem is closed, like ô, and the final -em is nasal, close to 'ein'.",
         explanation: "\"Fossem\" comes from \"foram\", the past of both \"ser\" and \"ir\". Here context makes it ser.",
       },
       {

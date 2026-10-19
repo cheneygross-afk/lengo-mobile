@@ -15,15 +15,15 @@ export const PT_C1_U14: Lesson[] = [
       {
         heading: "Subject and verb: never",
         body: [
-          "The core rule of the Portuguese comma is grammatical, not about breathing: a comma never separates the subject from its verb. That holds even when the subject is long. \"Os candidatos que chegaram depois do fechamento dos portões não puderam fazer a prova\" has no comma, however much you want to pause after \"portões\". English speakers often put one there because they read aloud in their heads. In Portuguese an examiner marks it as an error.",
+          "The core rule of the Portuguese comma is grammatical, not about breathing: a comma never separates the subject from its verb. That holds even when the subject is long. \"Os candidatos que chegaram depois do fechamento dos portões não puderam fazer a prova\" has no comma, however much you want to pause after \"portões\". English speakers often put one there because they read aloud in their heads. In Portuguese an examiner marks it as an error. One note on practice: typed answers are checked for words, not punctuation, so after each one compare your commas with the model; the choose-the-sentence questions test the commas themselves.",
           "The same applies to clauses acting as subjects: \"Quem chegou atrasado perdeu a prova\", \"O que mais preocupa os moradores é a falta de água\". The pause is natural in speech, but writing doesn't show it.",
           "There's one exception, and it proves the rule. Something inserted between subject and verb, like an aposto, an explanatory clause or an adverbial, is set off by a pair of commas: \"Os candidatos, segundo a organização, não puderam entrar\". Two commas or none, never one.",
         ],
         examples: [
-          { es: "Os candidatos que chegaram depois do fechamento dos portões não puderam fazer a prova.", en: "The candidates who arrived after the gates closed couldn't sit the exam." },
+          { es: "Os candidatos que chegaram depois do fechamento dos portões não puderam fazer a prova.", en: "The candidates who arrived after the gates closed couldn't take the exam." },
           { es: "Quem chegou atrasado perdeu a prova.", en: "Anyone who arrived late missed the exam." },
           { es: "O que mais preocupa os moradores é a falta de água.", en: "What worries residents most is the water shortage." },
-          { es: "Os candidatos, segundo a organização, não puderam entrar.", en: "The candidates, according to the organisers, weren't allowed in." },
+          { es: "Os candidatos, segundo a organização, não puderam entrar.", en: "The candidates, according to the organizers, weren't allowed in." },
           { es: "A reforma do Mercado Central de Belo Horizonte deve durar dois anos.", en: "The renovation of Belo Horizonte's Central Market is expected to take two years." },
         ],
         checkpoint: [
@@ -116,7 +116,7 @@ export const PT_C1_U14: Lesson[] = [
           { es: "Bom dia, pessoal! A reunião começa às dez.", en: "Morning, everyone! The meeting starts at ten." },
           { es: "Recife, capital de Pernambuco, fica no litoral.", en: "Recife, the capital of Pernambuco, is on the coast." },
           { es: "O poeta Carlos Drummond de Andrade nasceu em Itabira.", en: "The poet Carlos Drummond de Andrade was born in Itabira." },
-          { es: "Dona Maria, nossa vizinha, faz o melhor bolo de fubá da rua.", en: "Dona Maria, our neighbour, makes the best cornmeal cake on the street." },
+          { es: "Dona Maria, nossa vizinha, faz o melhor bolo de fubá da rua.", en: "Dona Maria, our neighbor, makes the best cornmeal cake on the street." },
         ],
         checkpoint: [
           {
@@ -155,13 +155,11 @@ export const PT_C1_U14: Lesson[] = [
         explanation: "A long subject (\"a construção da nova linha do metrô\") goes straight into \"foi suspensa\".",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into Portuguese.",
-        source: "Lucas, can you close the window?",
-        answer: "Lucas, você pode fechar a janela?",
-        altAnswers: ["Lucas, pode fechar a janela?", "Lucas, você fecha a janela?", "Lucas, dá para fechar a janela?", "Lucas, você poderia fechar a janela?"],
-        explanation: "\"Lucas\" is a vocativo, always separated by a comma.",
+        type: "multiple-choice",
+        question: "You're asking Lucas to close the window. Which message is punctuated correctly?",
+        options: ["Lucas, você pode fechar a janela?", "Lucas você pode fechar a janela?", "Você pode, Lucas fechar a janela?", "Você pode fechar a janela Lucas?"],
+        correctIndex: 0,
+        explanation: "\"Lucas\" is a vocativo, set off by commas wherever it sits: \"Lucas, você pode...\", \"Você pode, Lucas, fechar...\" or \"...a janela, Lucas?\". A missing comma, or a pair opened and never closed, is the slip.",
       },
       {
         type: "multiple-choice",
@@ -217,7 +215,7 @@ export const PT_C1_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Dona Maria, our neighbour, makes the best cake on the street.",
+        source: "Dona Maria, our neighbor, makes the best cake on the street.",
         answer: "Dona Maria, nossa vizinha, faz o melhor bolo da rua.",
         altAnswers: ["A dona Maria, nossa vizinha, faz o melhor bolo da rua.", "Dona Maria, a nossa vizinha, faz o melhor bolo da rua."],
         explanation: "\"Nossa vizinha\" renames Dona Maria, so it sits between two commas.",
@@ -246,7 +244,7 @@ export const PT_C1_U14: Lesson[] = [
       {
         type: "speak",
         text: "Os candidatos que chegaram depois do fechamento dos portões não puderam fazer a prova.",
-        prompt: "Say it in Portuguese: The candidates who arrived after the gates closed couldn't sit the exam.",
+        prompt: "Say it in Portuguese: The candidates who arrived after the gates closed couldn't take the exam.",
         tip: "You may pause slightly after \"portões\" when speaking, but don't write a comma there.",
         explanation: "Speech allows a breath after a long subject; writing never marks it with a comma.",
       },
@@ -271,8 +269,8 @@ export const PT_C1_U14: Lesson[] = [
           { es: "Na semana passada, a escola fechou por causa da greve.", en: "Last week, the school closed because of the strike." },
           { es: "Quando cheguei ao escritório, a reunião já tinha começado.", en: "When I got to the office, the meeting had already started." },
           { es: "A reunião já tinha começado quando cheguei ao escritório.", en: "The meeting had already started when I got to the office." },
-          { es: "Ontem fui ao cinema com a Beatriz.", en: "Yesterday I went to the cinema with Beatriz." },
-          { es: "Ao sair do metrô, ela percebeu que estava sem a carteira.", en: "Coming out of the metro, she realised she didn't have her wallet." },
+          { es: "Ontem fui ao cinema com a Beatriz.", en: "Yesterday I went to the movies with Beatriz." },
+          { es: "Ao sair do metrô, ela percebeu que estava sem a carteira.", en: "Coming out of the metro, she realized she didn't have her wallet." },
         ],
         checkpoint: [
           {
@@ -356,7 +354,7 @@ export const PT_C1_U14: Lesson[] = [
         heading: "Mas, e, and the list without an Oxford comma",
         body: [
           "\"Mas\" joining two clauses always takes a comma before it: \"Estudei muito, mas não passei\". \"E\" normally doesn't: \"ela abriu a porta e saiu\". A comma before \"e\" is recommended when the subjects differ and could be misread (\"o Lucas cozinhou, e a Ana lavou a louça\"), and when \"e\" means and yet (\"estudou o ano inteiro, e não passou\").",
-          "In a list, Portuguese never puts a comma before the final \"e\": \"arroz, feijão e farofa\". The English Oxford comma (rice, beans, and farofa) is an error here. The opposite device is polissíndeto, repeating \"e\" for rhetorical effect, and then commas do appear: \"E chovia, e ventava, e ninguém saía de casa\".",
+          "In a list, Portuguese normally puts no comma before the final \"e\": \"arroz, feijão e farofa\". The English Oxford comma (rice, beans, and farofa) is an error here. The opposite device is polissíndeto, repeating \"e\" for rhetorical effect, and then commas do appear: \"E chovia, e ventava, e ninguém saía de casa\".",
         ],
         examples: [
           { es: "Estudei muito, mas não passei no vestibular.", en: "I studied hard, but I didn't pass the university entrance exam." },
@@ -397,13 +395,11 @@ export const PT_C1_U14: Lesson[] = [
     ],
     exercises: [
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into Portuguese, starting with the time expression.",
-        source: "Last week, the school closed because of the strike.",
-        answer: "Na semana passada, a escola fechou por causa da greve.",
-        altAnswers: ["Semana passada, a escola fechou por causa da greve.", "Na semana passada, a escola foi fechada por causa da greve.", "Na semana passada, a escola fechou devido à greve."],
-        explanation: "A fronted adverbial phrase normally takes a comma after it.",
+        type: "multiple-choice",
+        question: "Which sentence punctuates the fronted time expression correctly?",
+        options: ["Na semana passada, a escola fechou por causa da greve.", "Na semana passada a escola, fechou por causa da greve.", "Na semana, passada a escola fechou por causa da greve.", "A escola fechou, na semana passada por causa da greve."],
+        correctIndex: 0,
+        explanation: "A fronted adverbial of several words takes a comma after it. The second option splits subject and verb, and the last opens a pair of commas around \"na semana passada\" without closing it.",
       },
       {
         type: "translate",
@@ -448,7 +444,7 @@ export const PT_C1_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, using ao + infinitive.",
-        source: "On leaving the metro, she realised she didn't have her wallet.",
+        source: "On leaving the metro, she realized she didn't have her wallet.",
         answer: "Ao sair do metrô, ela percebeu que estava sem a carteira.",
         altAnswers: ["Ao sair do metrô, percebeu que estava sem a carteira.", "Ao sair do metrô, ela percebeu que estava sem carteira.", "Ao sair do metrô, ela percebeu que não estava com a carteira.", "Ao sair do metrô, ela notou que estava sem a carteira."],
         explanation: "A fronted reduced clause always takes a comma after it.",
@@ -524,7 +520,7 @@ export const PT_C1_U14: Lesson[] = [
           { es: "Os alunos, que estudaram, passaram na prova.", en: "The students, who had studied, passed the exam." },
           { es: "Os moradores que pagaram a taxa receberam a chave nova.", en: "The residents who paid the fee got the new key." },
           { es: "Os moradores, que pagaram a taxa, receberam a chave nova.", en: "The residents, who had paid the fee, got the new key." },
-          { es: "As lojas que abrem no domingo vendem mais.", en: "The shops that open on Sundays sell more." },
+          { es: "As lojas que abrem no domingo vendem mais.", en: "The stores that open on Sundays sell more." },
         ],
         checkpoint: [
           {
@@ -543,10 +539,10 @@ export const PT_C1_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The shops that open on Sundays sell more.",
+            source: "The stores that open on Sundays sell more.",
             answer: "As lojas que abrem no domingo vendem mais.",
             altAnswers: ["As lojas que abrem aos domingos vendem mais.", "As lojas que abrem domingo vendem mais."],
-            explanation: "A restrictive clause: it singles out a subset of shops, so no commas.",
+            explanation: "A restrictive clause: it singles out a subset of stores, so no commas.",
           },
           {
             type: "listen-choose",
@@ -567,24 +563,22 @@ export const PT_C1_U14: Lesson[] = [
         heading: "Unique referents and the second comma",
         body: [
           "When the antecedent is already fully identified (a proper noun, a unique person, a whole country), the clause can only add information, so it must be explanatory: \"Minha mãe, que mora em Curitiba, vem no Natal\". Without commas, \"minha mãe que mora em Curitiba\" implies you have another mother somewhere else. The same goes for \"O Brasil, que tem 27 unidades federativas, ...\".",
-          "An explanatory clause in the middle of a sentence needs both commas. The missing second comma (\"minha mãe, que mora em Curitiba vem no Natal\") leaves the verb glued to the clause. At the end of a sentence the full stop closes it: \"Liguei para a minha mãe, que mora em Curitiba.\"",
+          "An explanatory clause in the middle of a sentence needs both commas. The missing second comma (\"minha mãe, que mora em Curitiba vem no Natal\") leaves the verb glued to the clause. At the end of a sentence the period closes it: \"Liguei para a minha mãe, que mora em Curitiba.\"",
         ],
         examples: [
           { es: "Minha mãe, que mora em Curitiba, vem passar o Natal com a gente.", en: "My mother, who lives in Curitiba, is coming to spend Christmas with us." },
-          { es: "Liguei para o seu Antônio, que estava no hospital.", en: "I called Mr Antônio, who was in hospital." },
+          { es: "Liguei para o seu Antônio, que estava no hospital.", en: "I called Mr. Antônio, who was in the hospital." },
           { es: "O Brasil, que tem 27 unidades federativas, é uma república federativa.", en: "Brazil, which has 27 federal units, is a federal republic." },
           { es: "A Beatriz, que nunca tinha saído do país, ganhou uma bolsa em Lisboa.", en: "Beatriz, who had never been abroad, won a scholarship in Lisbon." },
           { es: "Meu irmão que mora em Recife é engenheiro.", en: "My brother who lives in Recife is an engineer (I have more than one brother)." },
         ],
         checkpoint: [
           {
-            type: "translate",
-            direction: "en-es",
-            prompt: "Translate into Portuguese.",
-            source: "My mother, who lives in Curitiba, is coming for Christmas.",
-            answer: "Minha mãe, que mora em Curitiba, vem para o Natal.",
-            altAnswers: ["A minha mãe, que mora em Curitiba, vem para o Natal.", "Minha mãe, que mora em Curitiba, vem no Natal.", "Minha mãe, que mora em Curitiba, vai vir para o Natal.", "Minha mãe, que vive em Curitiba, vem para o Natal."],
-            explanation: "You have one mother, so the clause only adds information: explanatory, between commas.",
+            type: "multiple-choice",
+            question: "You have one mother, and she lives in Curitiba. Which sentence is punctuated correctly?",
+            options: ["Minha mãe, que mora em Curitiba, vem para o Natal.", "Minha mãe que mora em Curitiba vem para o Natal.", "Minha mãe, que mora em Curitiba vem para o Natal.", "Minha mãe que mora em Curitiba, vem para o Natal."],
+            correctIndex: 0,
+            explanation: "One mother, so the clause only adds information: explanatory, with a comma on each side. Without commas it would suggest another mother elsewhere; with only one comma the bracket is left open or the subject is cut off from \"vem\".",
           },
           {
             type: "multiple-choice",
@@ -613,19 +607,19 @@ export const PT_C1_U14: Lesson[] = [
         heading: "O qual, a qual: for explanatory clauses",
         body: [
           "\"O qual\" (\"a qual\", \"os quais\", \"as quais\") can replace \"que\" in an explanatory clause, and it marks the formal register: \"O relatório, o qual foi entregue ontem, aponta falhas graves\". Without a preposition it can't introduce a restrictive clause: \"os alunos os quais estudaram passaram\" is wrong. After a preposition it works in both types: \"a empresa na qual trabalho\", \"o projeto do qual falei\".",
-          "Its real advantage is agreement, which tells the reader which noun it refers to. In \"A filha do vizinho, a qual é médica, ...\" the daughter is the doctor; with \"o qual\" it would be the neighbour. \"Que\" leaves that ambiguous.",
+          "Its real advantage is agreement, which tells the reader which noun it refers to. In \"A filha do vizinho, a qual é médica, ...\" the daughter is the doctor; with \"o qual\" it would be the neighbor. \"Que\" leaves that ambiguous.",
         ],
         examples: [
           { es: "O relatório, o qual foi entregue ontem, aponta falhas graves.", en: "The report, which was delivered yesterday, points to serious failings." },
-          { es: "A filha do vizinho, a qual é médica, nos ajudou.", en: "The neighbour's daughter, who is a doctor, helped us." },
-          { es: "A filha do vizinho, o qual é médico, nos ajudou.", en: "The daughter of the neighbour, who is a doctor himself, helped us." },
+          { es: "A filha do vizinho, a qual é médica, nos ajudou.", en: "The neighbor's daughter, who is a doctor, helped us." },
+          { es: "A filha do vizinho, o qual é médico, nos ajudou.", en: "The daughter of the neighbor, who is a doctor himself, helped us." },
           { es: "A empresa na qual trabalho vai abrir uma filial em Manaus.", en: "The company I work for is going to open a branch in Manaus." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words, making clear the daughter is the doctor.",
-            en: "The neighbour's daughter, [who] is a doctor, helped us.",
+            en: "The neighbor's daughter, [who] is a doctor, helped us.",
             sentence: "A filha do vizinho, ___ é médica, nos ajudou.",
             answer: "a qual",
             explanation: "\"A qual\" agrees with \"a filha\" and removes the ambiguity that \"que\" would leave.",
@@ -662,10 +656,10 @@ export const PT_C1_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I called Mr Antônio, who was in hospital.",
+        source: "I called Mr. Antônio, who was in the hospital.",
         answer: "Liguei para o seu Antônio, que estava no hospital.",
         altAnswers: ["Eu liguei para o seu Antônio, que estava no hospital.", "Liguei para o seu Antônio, o qual estava no hospital.", "Liguei pro seu Antônio, que estava no hospital.", "Liguei para o senhor Antônio, que estava no hospital."],
-        explanation: "A unique, named person: the clause is explanatory, closed here by the full stop.",
+        explanation: "A unique, named person: the clause is explanatory, closed here by the period.",
       },
       {
         type: "multiple-choice",
@@ -720,9 +714,9 @@ export const PT_C1_U14: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The neighbour's daughter, who is a doctor, helped us.",
+        prompt: "Put the words in order to say: The neighbor's daughter, who is a doctor, helped us.",
         words: ["A", "filha", "do", "vizinho,", "a", "qual", "é", "médica,", "nos", "ajudou."],
-        translation: "The neighbour's daughter, who is a doctor, helped us.",
+        translation: "The neighbor's daughter, who is a doctor, helped us.",
         explanation: "\"A qual\" agrees with \"filha\", so the reader knows who the doctor is.",
       },
       {
@@ -758,10 +752,10 @@ export const PT_C1_U14: Lesson[] = [
     kind: "teach",
     sections: [
       {
-        heading: "Ponto e vírgula: between a comma and a full stop",
+        heading: "Ponto e vírgula: between a comma and a period",
         body: [
-          "The ponto e vírgula (;) joins two independent clauses that are closely linked, especially when the second starts with or contains a connector: \"O projeto foi aprovado; a execução, porém, ficou para o ano que vem.\" \"Choveu a semana inteira; portanto, o jogo foi adiado.\" A comma there would splice two sentences, and a full stop would cut the link.",
-          "It also separates the items of a list when the items already contain commas: \"Participaram Ana, de Recife; João, de Manaus; e Beatriz, de Porto Alegre.\" Brazilian official and legal texts use it at the end of each item in a numbered list (incisos), with a full stop after the last: \"I - cópia do RG; II - comprovante de residência; III - duas fotos.\"",
+          "The ponto e vírgula (;) joins two independent clauses that are closely linked, especially when the second starts with or contains a connector: \"O projeto foi aprovado; a execução, porém, ficou para o ano que vem.\" \"Choveu a semana inteira; portanto, o jogo foi adiado.\" A comma there would splice two sentences, and a period would cut the link.",
+          "It also separates the items of a list when the items already contain commas: \"Participaram Ana, de Recife; João, de Manaus; e Beatriz, de Porto Alegre.\" Brazilian official and legal texts use it at the end of each item in a numbered list (incisos), with a period after the last: \"I - cópia do RG; II - comprovante de residência; III - duas fotos.\"",
         ],
         examples: [
           { es: "O projeto foi aprovado; a execução, porém, ficou para o ano que vem.", en: "The project was approved; its implementation, however, was put off until next year." },
@@ -797,13 +791,13 @@ export const PT_C1_U14: Lesson[] = [
         heading: "Dois-pontos: announcing what comes next",
         body: [
           "The dois-pontos (:) announce: an explanation or consequence (\"O motivo era simples: faltava dinheiro\"), a list (\"Traga os seguintes documentos: RG, CPF e comprovante de residência\") or a quotation (\"O ministro foi direto: 'Não vou renunciar.'\").",
-          "After a colon Brazilian Portuguese uses a lower-case letter, unless a proper noun or a direct quotation follows. English writers, used to capitalising a full sentence after a colon, often get this wrong. Use one colon per sentence. A second colon inside the explanation confuses the reader.",
+          "After a colon Brazilian Portuguese normally uses a lower-case letter, unless a proper noun or a direct quotation follows. English writers, used to capitalizing a full sentence after a colon, often get this wrong. Use one colon per sentence. A second colon inside the explanation confuses the reader.",
         ],
         examples: [
           { es: "O motivo era simples: faltava dinheiro.", en: "The reason was simple: there wasn't enough money." },
           { es: "Traga os seguintes documentos: RG, CPF e comprovante de residência.", en: "Bring the following documents: ID card, tax number and proof of address." },
           { es: "O ministro foi direto: \"Não vou renunciar.\"", en: "The minister was blunt: 'I won't resign.'" },
-          { es: "Só havia uma saída: pedir ajuda aos vizinhos.", en: "There was only one way out: to ask the neighbours for help." },
+          { es: "Só havia uma saída: pedir ajuda aos vizinhos.", en: "There was only one way out: to ask the neighbors for help." },
           { es: "A conclusão do estudo é clara: o transporte público precisa de investimento.", en: "The study's conclusion is clear: public transport needs investment." },
         ],
         checkpoint: [
@@ -884,13 +878,11 @@ export const PT_C1_U14: Lesson[] = [
     ],
     exercises: [
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into Portuguese.",
-        source: "The project was approved; its implementation, however, was postponed.",
-        answer: "O projeto foi aprovado; a execução, porém, foi adiada.",
-        altAnswers: ["O projeto foi aprovado; a execução, no entanto, foi adiada.", "O projeto foi aprovado; a implementação, porém, foi adiada.", "O projeto foi aprovado; a implementação, no entanto, foi adiada.", "O projeto foi aprovado; a execução, contudo, foi adiada."],
-        explanation: "A ponto e vírgula links two related clauses, and \"porém\" sits between commas inside the second.",
+        type: "multiple-choice",
+        question: "Which version is punctuated the way formal Portuguese expects?",
+        options: ["O projeto foi aprovado; a execução, porém, foi adiada.", "O projeto foi aprovado, a execução porém, foi adiada.", "O projeto foi aprovado; a execução porém foi, adiada.", "O projeto foi aprovado: a execução, porém foi adiada."],
+        correctIndex: 0,
+        explanation: "A ponto e vírgula links the two related clauses, and \"porém\" inside the second clause takes a comma on each side. A comma alone between the clauses would splice two sentences.",
       },
       {
         type: "translate",
@@ -1085,7 +1077,7 @@ export const PT_C1_U14: Lesson[] = [
         examples: [
           { es: "O Museu do Ipiranga reabriu em 2022. A instituição ficou fechada por quase dez anos.", en: "The Ipiranga Museum reopened in 2022. The institution had been closed for almost ten years." },
           { es: "A ministra chegou às dez. Falou por vinte minutos e saiu sem responder a perguntas.", en: "The minister arrived at ten. She spoke for twenty minutes and left without answering questions." },
-          { es: "Antes de entrar no elevador, verifique se ele está parado neste andar.", en: "Before entering the lift, check that it is stopped at this floor." },
+          { es: "Antes de entrar no elevador, verifique se ele está parado neste andar.", en: "Before entering the elevator, check that it is stopped at this floor." },
           { es: "O ipê-amarelo floresce no inverno; a árvore é símbolo do cerrado.", en: "The yellow ipê flowers in winter; the tree is a symbol of the cerrado." },
         ],
         checkpoint: [
@@ -1093,7 +1085,7 @@ export const PT_C1_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, avoiding o mesmo.",
-            source: "Before entering the lift, check that it is stopped at this floor.",
+            source: "Before entering the elevator, check that it is stopped at this floor.",
             answer: "Antes de entrar no elevador, verifique se ele está parado neste andar.",
             altAnswers: ["Antes de entrar no elevador, verifique se ele está parado no andar.", "Antes de entrar no elevador, verifique se ele se encontra parado neste andar.", "Antes de entrar no elevador, confira se ele está parado neste andar."],
             explanation: "A simple \"ele\" replaces the bureaucratic \"o mesmo\".",
@@ -1190,7 +1182,7 @@ export const PT_C1_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We received the report and analysed it.",
+        source: "We received the report and analyzed it.",
         answer: "Recebemos o relatório e o analisamos.",
         altAnswers: ["Nós recebemos o relatório e o analisamos.", "Recebemos o relatório e analisamos.", "Recebemos o relatório e analisamo-lo.", "A gente recebeu o relatório e analisou."],
         explanation: "\"O analisamos\" uses an object pronoun before the verb; dropping the object also works in Brazilian Portuguese.",
@@ -1279,7 +1271,7 @@ export const PT_C1_U14: Lesson[] = [
         heading: "Por exemplo, como, tais como: giving examples",
         body: [
           "\"Por exemplo\" works anywhere, set off by commas. \"Como\" and \"tais como\" introduce examples directly, with no comma after them: \"frutas tropicais, como manga e caju\". \"Tal como\" agrees with the noun before it: \"doenças tais como dengue e zika\", \"um problema tal como este\". \"A exemplo de\" (following the example of) is formal: \"a exemplo de outras capitais, Curitiba adotou a faixa exclusiva\".",
-          "A frequent English-speaker slip is \"como por exemplo\", a redundancy that grammarians criticise, though it's very common in speech. In writing pick one: \"como\" or \"por exemplo\".",
+          "A frequent English-speaker slip is \"como por exemplo\", a redundancy that grammarians criticize, though it's very common in speech. In writing pick one: \"como\" or \"por exemplo\".",
         ],
         examples: [
           { es: "O Brasil exporta frutas tropicais, como manga, mamão e caju.", en: "Brazil exports tropical fruit, such as mango, papaya and cashew fruit." },
@@ -1328,7 +1320,7 @@ export const PT_C1_U14: Lesson[] = [
         ],
         examples: [
           { es: "Três estados foram afetados, a saber: Paraná, Santa Catarina e Rio Grande do Sul.", en: "Three states were affected, namely Paraná, Santa Catarina and Rio Grande do Sul." },
-          { es: "O problema está no centro, mais precisamente na região da Sé.", en: "The problem is in the city centre, around the Sé area to be precise." },
+          { es: "O problema está no centro, mais precisamente na região da Sé.", en: "The problem is in the city center, around the Sé area to be precise." },
           { es: "A medida afeta os pequenos comerciantes, sobretudo os do interior.", en: "The measure affects small traders, especially those inland." },
           { es: "O livro trata da imigração, em particular da japonesa em São Paulo.", en: "The book is about immigration, Japanese immigration to São Paulo in particular." },
         ],
@@ -1337,7 +1329,7 @@ export const PT_C1_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The problem is in the city centre, more precisely in the Sé area.",
+            source: "The problem is in the city center, more precisely in the Sé area.",
             answer: "O problema está no centro, mais precisamente na região da Sé.",
             altAnswers: ["O problema está no centro da cidade, mais precisamente na região da Sé.", "O problema fica no centro, mais precisamente na região da Sé.", "O problema está no centro, mais especificamente na região da Sé."],
             explanation: "\"Mais precisamente\" narrows down the location and is preceded by a comma.",
@@ -1365,7 +1357,7 @@ export const PT_C1_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Inflation was ten percent; in other words, prices doubled the forecast.",
+        source: "Inflation was ten percent; in other words, prices rose twice as much as forecast.",
         answer: "A inflação foi de dez por cento, ou seja, os preços subiram o dobro do previsto.",
         altAnswers: ["A inflação foi de 10%, ou seja, os preços subiram o dobro do previsto.", "A inflação foi de dez por cento; ou seja, os preços subiram o dobro do previsto.", "A inflação foi de dez por cento, isto é, os preços subiram o dobro do previsto.", "A inflação foi de dez por cento, ou seja, os preços subiram o dobro do esperado."],
         explanation: "\"Ou seja\" restates the figure in plainer terms, between commas.",
@@ -1544,7 +1536,7 @@ export const PT_C1_U14: Lesson[] = [
         examples: [
           { es: "Ela respondeu naturalmente, sem nervosismo.", en: "She answered calmly, without any nerves." },
           { es: "Ela respondeu, naturalmente.", en: "She answered, of course." },
-          { es: "Sinceramente, não gostei do filme.", en: "Honestly, I didn't like the film." },
+          { es: "Sinceramente, não gostei do filme.", en: "Honestly, I didn't like the movie." },
           { es: "Convidei meus primos: o Lucas e a Ana.", en: "I invited my cousins, Lucas and Ana." },
           { es: "Convidei o Lucas, a Ana e meus primos.", en: "I invited Lucas, Ana and my cousins." },
         ],
@@ -1553,7 +1545,7 @@ export const PT_C1_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Honestly, I didn't like the film.",
+            source: "Honestly, I didn't like the movie.",
             answer: "Sinceramente, não gostei do filme.",
             altAnswers: ["Sinceramente, eu não gostei do filme.", "Francamente, não gostei do filme.", "Para ser sincero, não gostei do filme.", "Para ser sincera, não gostei do filme."],
             explanation: "A sentence adverb at the front, followed by a comma, comments on the whole statement.",
@@ -1578,13 +1570,11 @@ export const PT_C1_U14: Lesson[] = [
     ],
     exercises: [
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into Portuguese.",
-        source: "No, wait. I'll come with you.",
-        answer: "Não, espere. Eu vou com você.",
-        altAnswers: ["Não, espera. Eu vou com você.", "Não, espere. Vou com você.", "Não, espera. Vou com você.", "Não, espere. Eu vou junto."],
-        explanation: "\"Não\" with a comma is a reply, and \"espere\" is affirmative.",
+        type: "multiple-choice",
+        question: "Your friend is about to leave without you. Which message means No, wait. I'll come with you?",
+        options: ["Não, espere. Eu vou com você.", "Não espere. Eu vou com você.", "Não espere, eu vou com você.", "Não espere por mim. Eu vou com você."],
+        correctIndex: 0,
+        explanation: "Only the comma after \"não\" makes it a reply (No), so \"espere\" is an affirmative command: wait. Without it, \"não espere\" means don't wait.",
       },
       {
         type: "translate",
@@ -1609,16 +1599,14 @@ export const PT_C1_U14: Lesson[] = [
         source: "She answered, of course.",
         answer: "Ela respondeu, naturalmente.",
         altAnswers: ["Ela respondeu, é claro.", "Ela respondeu, claro.", "Naturalmente, ela respondeu.", "É claro que ela respondeu.", "Claro que ela respondeu."],
-        explanation: "\"Naturalmente\" after a comma is a comment on the whole sentence.",
+        explanation: "\"Naturalmente\" after a comma is a comment on the whole sentence: of course. Check your comma against the model, since without it the sentence would mean she answered in a natural way.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Translate into Portuguese, as a reply that starts with não and ends with sim.",
-        source: "No, I do want to go to the party.",
-        answer: "Não, quero ir à festa, sim.",
-        altAnswers: ["Não, eu quero ir à festa, sim.", "Não, quero ir na festa, sim.", "Não, eu quero ir na festa, sim."],
-        explanation: "\"Não\" followed by a comma answers a question; the verb after it is affirmative, and \"sim\" confirms it.",
+        type: "multiple-choice",
+        question: "Your friend thinks you don't want to come to her party. Which reply means No, I DO want to go?",
+        options: ["Não, quero ir à festa, sim.", "Não quero ir à festa, sim.", "Não quero ir à festa.", "Não, não quero ir à festa."],
+        correctIndex: 0,
+        explanation: "The comma after \"não\" makes it a reply to her assumption, so \"quero\" is affirmative, and the final \"sim\" confirms it. Without the comma, \"não quero\" means I don't want to.",
       },
       {
         type: "multiple-choice",
@@ -1643,7 +1631,7 @@ export const PT_C1_U14: Lesson[] = [
         source: "I invited my cousins, Lucas and Ana.",
         answer: "Convidei meus primos: o Lucas e a Ana.",
         altAnswers: ["Convidei meus primos, o Lucas e a Ana.", "Eu convidei meus primos: o Lucas e a Ana.", "Convidei os meus primos: o Lucas e a Ana.", "Convidei meus primos Lucas e Ana."],
-        explanation: "The dois-pontos make \"o Lucas e a Ana\" an explanation of \"meus primos\", not further guests.",
+        explanation: "The dois-pontos make \"o Lucas e a Ana\" an explanation of \"meus primos\", not further guests. The typed check can't see punctuation, so compare yours with the model: a comma there would leave it ambiguous.",
       },
       {
         type: "word-order",
@@ -1662,9 +1650,13 @@ export const PT_C1_U14: Lesson[] = [
         explanation: "No comma: \"não\" negates \"quero\".",
       },
       {
-        type: "dictation",
-        audio: "Não, espere. Eu vou com você.",
-        explanation: "The comma after \"não\" makes it a reply: No, wait.",
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into Portuguese.",
+        source: "Frankly, I didn't understand the question.",
+        answer: "Francamente, não entendi a pergunta.",
+        altAnswers: ["Francamente, eu não entendi a pergunta.", "Sinceramente, não entendi a pergunta.", "Sinceramente, eu não entendi a pergunta.", "Para ser sincero, não entendi a pergunta.", "Para ser sincera, não entendi a pergunta."],
+        explanation: "A sentence adverb at the front (\"francamente\", \"sinceramente\") comments on the whole statement and is followed by a comma in writing.",
       },
       {
         type: "speak",
@@ -1738,7 +1730,7 @@ export const PT_C1_U14: Lesson[] = [
         ],
         examples: [
           { es: "O cliente ligou reclamando, e o atendente pediu a ele que aguardasse.", en: "The customer called to complain, and the agent asked him to hold." },
-          { es: "Neste trabalho, analiso três romances de Clarice Lispector.", en: "In this paper, I analyse three novels by Clarice Lispector." },
+          { es: "Neste trabalho, analiso três romances de Clarice Lispector.", en: "In this paper, I analyze three novels by Clarice Lispector." },
           { es: "A taxa de desemprego caiu 2%. Esse número surpreendeu os analistas.", en: "The unemployment rate fell 2%. That figure surprised analysts." },
           { es: "Antes de usar o aparelho, leia as instruções que acompanham o produto.", en: "Before using the device, read the instructions that come with it." },
         ],
@@ -1747,7 +1739,7 @@ export const PT_C1_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Fix \"Nesse trabalho, analiso três romances.\" (about your own paper) Translate the English.",
-            source: "In this paper, I analyse three novels.",
+            source: "In this paper, I analyze three novels.",
             answer: "Neste trabalho, analiso três romances.",
             altAnswers: ["Neste trabalho, eu analiso três romances.", "Neste trabalho, analisam-se três romances.", "Neste artigo, analiso três romances."],
             explanation: "The text you're writing is \"este\": \"neste trabalho\".",
@@ -1774,7 +1766,7 @@ export const PT_C1_U14: Lesson[] = [
       {
         heading: "Run-ons spliced with commas",
         body: [
-          "A comma can't join two complete sentences on its own. \"Choveu muito, as ruas alagaram, ninguém conseguiu chegar ao trabalho\" is a run-on, a habit carried over from fast typing in English and Portuguese alike. There are four fixes: a full stop; a ponto e vírgula; a connector (\"choveu muito, e as ruas alagaram\"); or subordination (\"choveu tanto que as ruas alagaram\").",
+          "A comma can't join two complete sentences on its own. \"Choveu muito, as ruas alagaram, ninguém conseguiu chegar ao trabalho\" is a run-on, a habit carried over from fast typing in English and Portuguese alike. There are four fixes: a period; a ponto e vírgula; a connector (\"choveu muito, e as ruas alagaram\"); or subordination (\"choveu tanto que as ruas alagaram\").",
           "Subordination usually reads best, because it says how the ideas relate: cause, consequence, contrast. A string of commas only says that one thing followed another.",
         ],
         examples: [
@@ -1873,13 +1865,11 @@ export const PT_C1_U14: Lesson[] = [
         explanation: "The restrictive clause is part of the subject, so no comma before \"não puderam\".",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Fix the half-bracketed \"A obra no entanto, continua parada.\" Translate the English.",
-        source: "The work, however, is still at a standstill.",
-        answer: "A obra, no entanto, continua parada.",
-        altAnswers: ["A obra, porém, continua parada.", "A obra, contudo, continua parada.", "A obra, entretanto, continua parada.", "A obra, no entanto, segue parada."],
-        explanation: "An inserted connector needs a comma on both sides.",
+        type: "multiple-choice",
+        question: "Which version fixes the half-bracketed \"A obra no entanto, continua parada\"?",
+        options: ["A obra, no entanto, continua parada.", "A obra no entanto continua, parada.", "A obra, no entanto continua parada.", "A obra no entanto, continua, parada."],
+        correctIndex: 0,
+        explanation: "An inserted connector needs a comma on both sides: open the bracket and close it. The third option makes the opposite half-bracket mistake.",
       },
       {
         type: "translate",
@@ -1892,19 +1882,17 @@ export const PT_C1_U14: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: In this paper, I analyse three novels.",
+        prompt: "Put the words in order to say: In this paper, I analyze three novels.",
         words: ["Neste", "trabalho,", "analiso", "três", "romances."],
-        translation: "In this paper, I analyse three novels.",
+        translation: "In this paper, I analyze three novels.",
         explanation: "\"Neste\": the text in hand. \"Nesse trabalho\" would point to some other paper.",
       },
       {
-        type: "translate",
-        direction: "en-es",
-        prompt: "Fix \"O diretor anunciou ontem, as demissões.\" Translate the English.",
-        source: "The director announced the layoffs yesterday.",
-        answer: "O diretor anunciou as demissões ontem.",
-        altAnswers: ["O diretor anunciou ontem as demissões.", "Ontem, o diretor anunciou as demissões.", "Ontem o diretor anunciou as demissões.", "O diretor anunciou, ontem, as demissões.", "A diretora anunciou as demissões ontem."],
-        explanation: "Either no comma, or a pair of commas around \"ontem\": never one alone between verb and object.",
+        type: "multiple-choice",
+        question: "Which version fixes \"O diretor anunciou ontem, as demissões\"?",
+        options: ["O diretor anunciou ontem as demissões.", "O diretor anunciou, ontem as demissões.", "O diretor, anunciou ontem as demissões.", "O diretor anunciou ontem as, demissões."],
+        correctIndex: 0,
+        explanation: "No single comma between the verb and its object: either none, or a pair around \"ontem\" (\"anunciou, ontem, as demissões\"). The second option still has only half the pair.",
       },
       {
         type: "dictation",
@@ -1939,7 +1927,7 @@ export const PT_C1_U14: Lesson[] = [
         examples: [
           { es: "A ciclovia da Beira-Mar foi inaugurada em março.", en: "The Beira-Mar cycle lane was opened in March." },
           { es: "A ciclovia tem seis quilômetros.", en: "The cycle lane is six kilometres long." },
-          { es: "A ciclovia liga o centro à praia do Futuro.", en: "The cycle lane links the centre to Praia do Futuro." },
+          { es: "A ciclovia liga o centro à praia do Futuro.", en: "The cycle lane links the center to Praia do Futuro." },
           { es: "Muita gente usa a ciclovia, mas a ciclovia não tem iluminação à noite.", en: "Lots of people use the cycle lane, but the cycle lane has no lighting at night." },
         ],
         checkpoint: [
@@ -1969,7 +1957,7 @@ export const PT_C1_U14: Lesson[] = [
         ],
         examples: [
           { es: "A ciclovia da Beira-Mar foi inaugurada em março. A via tem seis quilômetros.", en: "The Beira-Mar cycle lane opened in March. The route is six kilometres long." },
-          { es: "O trajeto liga o centro à praia do Futuro.", en: "The route links the centre to Praia do Futuro." },
+          { es: "O trajeto liga o centro à praia do Futuro.", en: "The route links the center to Praia do Futuro." },
           { es: "Muita gente a usa, mas ela não tem iluminação à noite.", en: "Lots of people use it, but it has no lighting at night." },
           { es: "Essa falta de iluminação torna o percurso perigoso.", en: "That lack of lighting makes the route dangerous." },
         ],
@@ -2009,7 +1997,7 @@ export const PT_C1_U14: Lesson[] = [
           "The result has three sentences instead of nine clauses, one name and two references, and every comma does a job.",
         ],
         examples: [
-          { es: "Inaugurada em março, a ciclovia da Beira-Mar tem seis quilômetros e liga o centro à praia do Futuro.", en: "Opened in March, the Beira-Mar cycle lane is six kilometres long and links the centre to Praia do Futuro." },
+          { es: "Inaugurada em março, a ciclovia da Beira-Mar tem seis quilômetros e liga o centro à praia do Futuro.", en: "Opened in March, the Beira-Mar cycle lane is six kilometres long and links the center to Praia do Futuro." },
           { es: "A via, no entanto, não tem iluminação à noite.", en: "The route, however, has no lighting at night." },
           { es: "Essa falta de iluminação torna o percurso perigoso, sobretudo para quem volta do trabalho.", en: "That lack of lighting makes the route dangerous, especially for people coming home from work." },
         ],
@@ -2018,7 +2006,7 @@ export const PT_C1_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, starting with a participle clause.",
-            source: "Opened in March, the cycle lane links the centre to the beach.",
+            source: "Opened in March, the cycle lane links the center to the beach.",
             answer: "Inaugurada em março, a ciclovia liga o centro à praia.",
             altAnswers: ["Aberta em março, a ciclovia liga o centro à praia."],
             explanation: "\"Inaugurada\" agrees with \"a ciclovia\" and is followed by a comma.",
@@ -2067,7 +2055,7 @@ export const PT_C1_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, joining the ideas in one sentence.",
-        source: "The lane is six kilometres long and links the centre to the beach.",
+        source: "The lane is six kilometres long and links the center to the beach.",
         answer: "A ciclovia tem seis quilômetros e liga o centro à praia.",
         altAnswers: ["A via tem seis quilômetros e liga o centro à praia.", "A ciclovia tem seis quilômetros de extensão e liga o centro à praia.", "A ciclovia tem seis quilômetros e vai do centro à praia."],
         explanation: "Same subject for both verbs, so \"e\" without a comma.",
@@ -2113,9 +2101,9 @@ export const PT_C1_U14: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Opened in March, the cycle lane links the centre to the beach.",
+        prompt: "Put the words in order to say: Opened in March, the cycle lane links the center to the beach.",
         words: ["Inaugurada", "em", "março,", "a", "ciclovia", "liga", "o", "centro", "à", "praia."],
-        translation: "Opened in March, the cycle lane links the centre to the beach.",
+        translation: "Opened in March, the cycle lane links the center to the beach.",
         explanation: "The participle clause comes first, then a comma, then the main clause in normal order.",
       },
       {
@@ -2281,7 +2269,7 @@ export const PT_C1_U14: Lesson[] = [
         source: "But the sentence is huge! The reader needs to breathe.",
         answer: "Mas a frase é enorme! O leitor precisa respirar.",
         altAnswers: ["Mas a frase é gigante! O leitor precisa respirar.", "Mas a frase é muito longa! O leitor precisa respirar.", "Mas a frase é enorme! O leitor tem que respirar."],
-        explanation: "Rafael's defence of the comma, which Cláudia rejects: breath isn't a grammatical reason.",
+        explanation: "Rafael's defense of the comma, which Cláudia rejects: breath isn't a grammatical reason.",
       },
       {
         type: "translate",
@@ -2383,9 +2371,9 @@ export const PT_C1_U14: Lesson[] = [
         ],
         examples: [
           { es: "A proposta, anunciada na semana passada, divide a cidade.", en: "The proposal, announced last week, divides the city." },
-          { es: "Ao contrário do que afirmam os comerciantes, a medida pode trazer mais clientes ao centro.", en: "Contrary to what the shopkeepers say, the measure could bring more customers into the centre." },
+          { es: "Ao contrário do que afirmam os comerciantes, a medida pode trazer mais clientes ao centro.", en: "Contrary to what the shopkeepers say, the measure could bring more customers into the center." },
           { es: "Na minha opinião, fechar a avenida aos domingos é uma ótima ideia.", en: "In my opinion, closing the avenue on Sundays is a great idea." },
-          { es: "Quem mora no centro sabe como as manhãs de domingo são barulhentas.", en: "Anyone who lives in the centre knows how noisy Sunday mornings are." },
+          { es: "Quem mora no centro sabe como as manhãs de domingo são barulhentas.", en: "Anyone who lives in the center knows how noisy Sunday mornings are." },
         ],
         checkpoint: [
           {
@@ -2467,7 +2455,7 @@ export const PT_C1_U14: Lesson[] = [
         ],
         examples: [
           { es: "Esse argumento, no entanto, ignora a experiência de outras capitais.", en: "That argument, however, ignores the experience of other state capitals." },
-          { es: "Entre o carro e a bicicleta, a cidade precisa priorizar esta.", en: "Between the car and the bicycle, the city needs to prioritise the latter." },
+          { es: "Entre o carro e a bicicleta, a cidade precisa priorizar esta.", en: "Between the car and the bicycle, the city needs to prioritize the latter." },
           { es: "Portanto, a prefeitura deve manter a proposta e ouvir os moradores.", en: "The council should therefore keep the proposal and listen to residents." },
         ],
         checkpoint: [
@@ -2506,7 +2494,7 @@ export const PT_C1_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Anyone who lives in the centre knows how noisy Sunday mornings are.",
+        source: "Anyone who lives in the center knows how noisy Sunday mornings are.",
         answer: "Quem mora no centro sabe como as manhãs de domingo são barulhentas.",
         altAnswers: ["Quem mora no centro sabe quanto as manhãs de domingo são barulhentas.", "Quem vive no centro sabe como as manhãs de domingo são barulhentas.", "Quem mora no centro sabe como são barulhentas as manhãs de domingo."],
         explanation: "\"Quem mora no centro\" is the subject: no comma before \"sabe\".",
@@ -2545,7 +2533,7 @@ export const PT_C1_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, using este for the latter.",
-        source: "Between the car and the bicycle, the city must prioritise the latter.",
+        source: "Between the car and the bicycle, the city must prioritize the latter.",
         answer: "Entre o carro e a bicicleta, a cidade precisa priorizar esta.",
         altAnswers: ["Entre o carro e a bicicleta, a cidade deve priorizar esta.", "Entre o carro e a bicicleta, a cidade tem que priorizar esta.", "Entre o carro e a bicicleta, a cidade precisa priorizar a segunda."],
         explanation: "\"Esta\" agrees with \"a bicicleta\", the one mentioned last.",
@@ -2617,7 +2605,7 @@ export const PT_C1_U14: Lesson[] = [
           "Unit 3's academic formulas come with punctuation habits. \"O presente trabalho tem como objetivo analisar...\" has no comma. A fronted \"à luz de\" or \"no âmbito de\" phrase takes one: \"À luz dessa teoria, os dados ganham outro sentido.\" And the impersonal \"busca-se\" or \"verifica-se\" keeps the verb next to what follows.",
         ],
         examples: [
-          { es: "O presente trabalho tem como objetivo analisar o uso de bicicletas em Curitiba.", en: "This paper aims to analyse bicycle use in Curitiba." },
+          { es: "O presente trabalho tem como objetivo analisar o uso de bicicletas em Curitiba.", en: "This paper aims to analyze bicycle use in Curitiba." },
           { es: "À luz dessa teoria, os dados ganham outro sentido.", en: "In the light of this theory, the data take on a different meaning." },
           { es: "No que tange à mobilidade, verifica-se um avanço modesto.", en: "As regards mobility, there is modest progress." },
           { es: "Neste artigo, busca-se compreender os efeitos da tarifa zero.", en: "This article seeks to understand the effects of free fares." },
@@ -2627,7 +2615,7 @@ export const PT_C1_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, in academic style.",
-            source: "This paper aims to analyse bicycle use in Curitiba.",
+            source: "This paper aims to analyze bicycle use in Curitiba.",
             answer: "O presente trabalho tem como objetivo analisar o uso de bicicletas em Curitiba.",
             altAnswers: ["O presente trabalho tem por objetivo analisar o uso de bicicletas em Curitiba.", "Este trabalho tem como objetivo analisar o uso de bicicletas em Curitiba.", "O presente trabalho tem como objetivo analisar o uso da bicicleta em Curitiba.", "O presente estudo tem como objetivo analisar o uso de bicicletas em Curitiba."],
             explanation: "The classic opening formula, with no comma between subject and verb.",
@@ -2646,13 +2634,13 @@ export const PT_C1_U14: Lesson[] = [
       {
         heading: "Citation, hedging and reference",
         body: [
-          "Citations combine with the punctuation you've practised. \"Segundo Silva (2020), ...\" takes a comma after the fronted source. An inserted \"conforme aponta Silva (2020)\" goes between commas. Hedges (\"parece\", \"sugere-se que\", \"tende a\") keep claims modest, and \"esse\" or a hyperonym (\"o autor\", \"a pesquisadora\") avoids repeating names. Never write \"o mesmo\".",
+          "Citations combine with the punctuation you've practiced. \"Segundo Silva (2020), ...\" takes a comma after the fronted source. An inserted \"conforme aponta Silva (2020)\" goes between commas. Hedges (\"parece\", \"sugere-se que\", \"tende a\") keep claims modest, and \"esse\" or a hyperonym (\"o autor\", \"a pesquisadora\") avoids repeating names. Never write \"o mesmo\".",
         ],
         examples: [
           { es: "Segundo Silva (2020), o transporte gratuito aumenta o número de viagens.", en: "According to Silva (2020), free transport increases the number of journeys." },
-          { es: "Esse aumento, conforme aponta a autora, tende a se concentrar nos fins de semana.", en: "This increase, as the author points out, tends to be concentrated at weekends." },
+          { es: "Esse aumento, conforme aponta a autora, tende a se concentrar nos fins de semana.", en: "This increase, as the author points out, tends to be concentrated on weekends." },
           { es: "Os resultados sugerem que a medida beneficia sobretudo os mais pobres.", en: "The results suggest that the measure benefits the poorest above all." },
-          { es: "Costa e Lima discordam; esta defende a tarifa zero, aquele a critica.", en: "Costa and Lima disagree; the latter defends free fares, the former criticises them." },
+          { es: "Costa e Lima discordam; esta defende a tarifa zero, aquele a critica.", en: "Costa and Lima disagree; the latter defends free fares, the former criticizes them." },
         ],
         checkpoint: [
           {
@@ -2678,9 +2666,9 @@ export const PT_C1_U14: Lesson[] = [
             audio: "Esse aumento, conforme aponta a autora, tende a se concentrar nos fins de semana.",
             question: "What does it mean?",
             options: [
-              "This increase, as the author points out, tends to be concentrated at weekends.",
-              "The author wants the increase to happen at weekends.",
-              "The increase always happens at weekends, the author proves.",
+              "This increase, as the author points out, tends to be concentrated on weekends.",
+              "The author wants the increase to happen on weekends.",
+              "The increase always happens on weekends, the author proves.",
               "This increase points to the author's weekend.",
             ],
             correctIndex: 0,
@@ -2752,7 +2740,7 @@ export const PT_C1_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, in academic style.",
-        source: "This increase, as the author points out, tends to be concentrated at weekends.",
+        source: "This increase, as the author points out, tends to be concentrated on weekends.",
         answer: "Esse aumento, conforme aponta a autora, tende a se concentrar nos fins de semana.",
         altAnswers: ["Esse aumento, conforme aponta o autor, tende a se concentrar nos fins de semana.", "Esse aumento, como aponta a autora, tende a se concentrar nos fins de semana.", "Esse aumento, conforme aponta a autora, tende a concentrar-se nos fins de semana.", "Esse aumento, conforme ressalta a autora, tende a se concentrar nos fins de semana."],
         explanation: "\"Esse\" refers back; the inserted citation sits between commas; \"tende a\" hedges.",
@@ -2807,7 +2795,7 @@ export const PT_C1_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, in academic style.",
-        source: "It seems that the measure has reduced traffic in the centre.",
+        source: "It seems that the measure has reduced traffic in the center.",
         answer: "Parece que a medida reduziu o trânsito no centro.",
         altAnswers: ["Ao que parece, a medida reduziu o trânsito no centro.", "A medida parece ter reduzido o trânsito no centro.", "Parece que a medida diminuiu o trânsito no centro.", "A medida parece ter diminuído o trânsito no centro."],
         explanation: "\"Parece que\" or \"parece ter\" + participle hedges the finding.",
@@ -2820,7 +2808,7 @@ export const PT_C1_U14: Lesson[] = [
       {
         type: "speak",
         text: "O presente trabalho tem como objetivo analisar o uso de bicicletas em Curitiba.",
-        prompt: "Say it in Portuguese, as at the start of a presentation: This paper aims to analyse bicycle use in Curitiba.",
+        prompt: "Say it in Portuguese, as at the start of a presentation: This paper aims to analyze bicycle use in Curitiba.",
         tip: "\"Objetivo\": the j is soft, ob-je-TI-vo.",
         explanation: "The classic academic opening, with no comma between subject and verb.",
       },
@@ -2830,7 +2818,7 @@ export const PT_C1_U14: Lesson[] = [
 
 export const PT_C1_U14_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your city's council wants to turn a central street, currently a car park, into a pedestrian square with trees and benches. Some shopkeepers are against it. Write an opinion piece for the readers' section of the local newspaper (180-300 words). State your position, give examples from other cities, answer the main objection and end with a clear conclusion. The editor publishes only texts that are carefully punctuated and easy to follow, so pay special attention to commas, reference and paragraph flow.",
+  prompt: "Your city's council wants to turn a central street, currently a parking lot, into a pedestrian square with trees and benches. Some shopkeepers are against it. Write an opinion piece for the readers' section of the local newspaper (180-300 words). State your position, give examples from other cities, answer the main objection and end with a clear conclusion. The editor publishes only texts that are carefully punctuated and easy to follow, so pay special attention to commas, reference and paragraph flow.",
   minWords: 180,
   maxWords: 300,
   rubric: [

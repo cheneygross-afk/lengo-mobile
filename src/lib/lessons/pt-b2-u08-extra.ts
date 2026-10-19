@@ -9,7 +9,7 @@ export const PT_B2_U08_EXTRA: Lesson[] = [
     level: "PT-B2",
     number: 1,
     title: "Extra Practice: Register, Part 1 of 3",
-    summary: "Practise haver for there is / there were and the impersonal style: observa-se que, pode-se afirmar que, cabe ressaltar que.",
+    summary: "Practice haver for there is / there were and the impersonal style: observa-se que, pode-se afirmar que, cabe ressaltar que.",
     duration: "12 min",
     optional: true,
     kind: "drill",
@@ -22,7 +22,7 @@ export const PT_B2_U08_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Há muitos desafios pela frente.", en: "There are many challenges ahead." },
-          { es: "Houve dois acidentes na rodovia.", en: "There were two accidents on the motorway." },
+          { es: "Houve dois acidentes na rodovia.", en: "There were two accidents on the highway." },
           { es: "Havia poucas pessoas na reunião.", en: "There were few people at the meeting." },
           { es: "Observa-se um aumento no consumo.", en: "An increase in consumption can be seen." },
           { es: "Pode-se afirmar que o projeto foi um sucesso.", en: "It can be said that the project was a success." },
@@ -154,7 +154,7 @@ export const PT_B2_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "Pode-se afirmar que houve avanços.",
         prompt: "Say it in Portuguese: It can be said that there has been progress.",
-        tip: "Houve: OU-vi.",
+        tip: "Houve: Ô-vi, with a closed ô and the final e like i.",
         explanation: "\"Pode-se afirmar que\" frames the claim, and \"houve avanços\" keeps \"haver\" singular before a plural noun.",
       },
       {
@@ -176,7 +176,7 @@ export const PT_B2_U08_EXTRA: Lesson[] = [
     level: "PT-B2",
     number: 2,
     title: "Extra Practice: Register, Part 2 of 3",
-    summary: "Practise formal vocabulary: adquirir, residir, solicitar, informar, efetuar, realizar, encaminhar.",
+    summary: "Practice formal vocabulary: adquirir, residir, solicitar, informar, efetuar, realizar, encaminhar.",
     duration: "12 min",
     optional: true,
     kind: "drill",
@@ -259,7 +259,7 @@ export const PT_B2_U08_EXTRA: Lesson[] = [
         source: "The survey was carried out in 2023.",
         answer: "A pesquisa foi realizada em 2023.",
         altAnswers: ["O levantamento foi realizado em 2023."],
-        explanation: "\"Realizar\" means to carry out (never to realise), and the participle agrees: \"a pesquisa foi realizada\".",
+        explanation: "\"Realizar\" means to carry out (never to realize), and the participle agrees: \"a pesquisa foi realizada\".",
       },
       {
         type: "translate",
@@ -277,7 +277,7 @@ export const PT_B2_U08_EXTRA: Lesson[] = [
         source: "I bought a new phone.",
         answer: "Comprei um celular novo.",
         altAnswers: ["Eu comprei um celular novo.", "Comprei um telefone novo."],
-        explanation: "With friends, plain \"comprar\" is right; \"adquiri um celular\" would sound like a press release. \"Celular\" is the Brazilian word for mobile phone.",
+        explanation: "With friends, plain \"comprar\" is right; \"adquiri um celular\" would sound like a press release. \"Celular\" is the Brazilian word for cell phone.",
       },
       {
         type: "fill-blank",
@@ -342,7 +342,7 @@ export const PT_B2_U08_EXTRA: Lesson[] = [
     level: "PT-B2",
     number: 3,
     title: "Extra Practice: Register, Part 3 of 3",
-    summary: "Practise rewriting across registers: a gente → nós, ir em → ir a, vi ele → vi-o, tem → há, and nominalisation for reports.",
+    summary: "Practice rewriting across registers: a gente → nós, ir em → ir a, vi ele → eu o vi, tem → há, and nominalization for reports.",
     duration: "12 min",
     optional: true,
     kind: "drill",
@@ -350,7 +350,7 @@ export const PT_B2_U08_EXTRA: Lesson[] = [
       {
         heading: "Rewriting across registers",
         body: [
-          "From speech to the norm: \"a gente\" → \"nós\", \"tem\" → \"há\", \"ir no\" → \"ir ao\", \"vi ele\" → \"eu o vi\", \"pra\" → \"para\", \"você\" → \"o senhor\" / \"a senhora\". You'll also hear agreement dropped in very casual speech (\"os menino chegou\"): recognise it, don't write it.",
+          "From speech to the norm: \"a gente\" → \"nós\", \"tem\" → \"há\", \"ir no\" → \"ir ao\", \"vi ele\" → \"eu o vi\", \"pra\" → \"para\", \"você\" → \"o senhor\" / \"a senhora\". You'll also hear agreement dropped in very casual speech (\"os menino chegou\"): recognize it, don't write it.",
           "Reports use nouns instead of verbs: \"os preços aumentaram muito\" → \"houve um forte aumento dos preços\"; \"quando o projeto terminou\" → \"após o término do projeto\".",
         ],
         examples: [
@@ -386,7 +386,7 @@ export const PT_B2_U08_EXTRA: Lesson[] = [
             question: "What is true about this sentence?",
             options: ["It's very casual speech; writing needs os meninos chegaram.", "It's correct formal writing.", "It's European Portuguese.", "It means one boy arrived."],
             correctIndex: 0,
-            explanation: "Dropping plural agreement (\"os menino chegou\") happens in very casual speech, but it is stigmatised. Writing needs \"os meninos chegaram\".",
+            explanation: "Dropping plural agreement (\"os menino chegou\") happens in very casual speech, but it is stigmatized. Writing needs \"os meninos chegaram\".",
           },
         ],
       },

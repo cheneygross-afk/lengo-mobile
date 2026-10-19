@@ -52,7 +52,7 @@ export const FR_C2_U15: Lesson[] = [
         heading: "L'accroche: four hooks",
         body: [
           "Then comes the hook. French speakers use four classic types. \"Une question\": \"Combien de temps passez-vous chaque jour à chercher un document ?\" \"Un chiffre frappant\" (a striking figure): \"Chaque année, un salarié français passe en moyenne cent cinquante heures en réunion.\" \"Une anecdote\": a short story, ideally personal and true. \"Une citation\": a quotation from an author or a public figure, introduced by \"comme le disait\" or \"selon le mot de\".",
-          "A French hook is brief and leads straight to the subject. A long American-style story can feel manipulative or off-topic to a French audience; one or two sentences are enough. The hook must connect to the problématique: if you open with a figure about meetings, your presentation should be about meetings.",
+          "A French hook is brief and leads straight to the subject. A long American-style story can feel manipulative or off-topic to a French audience; one or two sentences are enough. The hook must connect to the \"problématique\": if you open with a figure about meetings, your presentation should be about meetings.",
           "Quotations are especially prized in French culture, but choose them well: a quotation from a classic author shows culture; an overused one (\"Le travail éloigne de nous trois grands maux\", Voltaire) can sound like a school essay. \"Selon le mot de Saint-Exupéry\" or \"comme l'écrivait Montaigne\" signal that you are quoting.",
         ],
         examples: [
@@ -221,7 +221,7 @@ export const FR_C2_U15: Lesson[] = [
         type: "speak",
         text: "Mesdames, Messieurs, merci de m'accueillir ce matin.",
         prompt: "Say it in French: Ladies and gentlemen, thank you for having me this morning.",
-        tip: "Mesdames: \"mé-dame\"; Messieurs: \"mé-sieu\", with no r sound.",
+        tip: "\"Mesdames\": \"mé-dame\"; \"Messieurs\": \"mé-sieu\", with no r sound.",
         explanation: "The ritual opening of a formal presentation.",
       },
     ],
@@ -231,7 +231,7 @@ export const FR_C2_U15: Lesson[] = [
     level: "FR-C2",
     number: 2,
     title: "Contrast Clinic: Des Accroches qui Captivent et d'Autres qui Endorment",
-    summary: "Question, surprising figure, anecdote or quotation: choose the right hook for a board, a class or a town meeting, and avoid the deadly « alors, euh, je vais vous parler de... ».",
+    summary: "Question, surprising figure, anecdote or quotation: choose the right hook for a board, a class or a town meeting, and avoid the deadly \"alors, euh, je vais vous parler de...\".",
     duration: "17 min",
     sections: [
       {
@@ -465,7 +465,7 @@ export const FR_C2_U15: Lesson[] = [
     level: "FR-C2",
     number: 3,
     title: "Présentations et Négociation, Part 2 of 8",
-    summary: "Signposting and commenting on visuals (j'en viens maintenant à, comme vous pouvez le constater sur ce graphique), and reading figures aloud the French way, with the decimal comma and the billion trap.",
+    summary: "Signposting and commenting on visuals (\"j'en viens maintenant à\", \"comme vous pouvez le constater sur ce graphique\"), and reading figures aloud the French way, with the decimal comma and the billion trap.",
     duration: "19 min",
     sections: [
       {
@@ -707,7 +707,7 @@ export const FR_C2_U15: Lesson[] = [
     level: "FR-C2",
     number: 4,
     title: "Transformations: Les Transitions entre les Parties",
-    summary: "Turn abrupt jumps between the parts of a presentation into smooth transitions that orient the audience: après avoir analysé les causes, intéressons-nous maintenant aux solutions.",
+    summary: "Turn abrupt jumps between the parts of a presentation into smooth transitions that orient the audience: \"après avoir analysé les causes, intéressons-nous maintenant aux solutions\".",
     duration: "17 min",
     sections: [
       {
@@ -855,7 +855,7 @@ export const FR_C2_U15: Lesson[] = [
         source: "The diagnosis made, the treatment remains to be defined.",
         answer: "Le diagnostic établi, reste à définir le traitement.",
         altAnswers: ["Le diagnostic établi, il reste à définir le traitement.", "Le diagnostic posé, reste à définir le traitement.", "Le diagnostic posé, il reste à définir le traitement."],
-        explanation: "Absolute participle + \"reste à\" with stylistic inversion.",
+        explanation: "Absolute participle + \"reste à\", which drops the impersonal \"il\" of \"il reste à\".",
       },
       {
         type: "translate",
@@ -893,7 +893,7 @@ export const FR_C2_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the smoothest transition from 'costs' to 'benefits'?",
+        question: "Which is the smoothest transition from costs to benefits?",
         options: [
           "Après avoir examiné les coûts, intéressons-nous aux bénéfices.",
           "Voilà les coûts. Bénéfices.",
@@ -933,7 +933,7 @@ export const FR_C2_U15: Lesson[] = [
     level: "FR-C2",
     number: 5,
     title: "Présentations et Négociation, Part 3 of 8",
-    summary: "The language of negotiation (la marge de manœuvre, la contre-proposition, le terrain d'entente, le prix plancher) and conditions with à condition que, pourvu que, à moins que (ne), dans la mesure où, si and sous réserve de.",
+    summary: "The language of negotiation (\"la marge de manœuvre\", \"la contre-proposition\", \"le terrain d'entente\", \"le prix plancher\") and conditions with \"à condition que\", \"pourvu que\", \"à moins que (ne)\", \"dans la mesure où\", \"si\" and \"sous réserve de\".",
     duration: "19 min",
     sections: [
       {
@@ -1123,7 +1123,7 @@ export const FR_C2_U15: Lesson[] = [
         en: "[As long as] the deadline is met, the rest suits us.",
         sentence: "___ le délai est respecté, le reste nous convient.",
         answer: "Du moment que",
-        altAnswers: ["Dès lors que", "Pourvu que", "Tant que"],
+        altAnswers: ["Dès lors que", "Tant que"],
         explanation: "\"Du moment que\" + indicative: conversational as long as. (With \"pourvu que\" you would need the subjunctive \"soit\".)",
       },
       {
@@ -1139,7 +1139,7 @@ export const FR_C2_U15: Lesson[] = [
         pairs: [
           { left: "à condition que", right: "subjunctive" },
           { left: "dans la mesure où", right: "indicative" },
-          { left: "à moins que", right: "subjunctive (often with ne)" },
+          { left: "à moins que", right: "subjunctive (often with \"ne\")" },
           { left: "sous réserve de", right: "a noun" },
           { left: "à condition de", right: "an infinitive" },
         ],
@@ -1147,12 +1147,12 @@ export const FR_C2_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In « à moins que vous ne préfériez », what is the ne?",
+        question: "In « à moins que vous ne préfériez », what is the \"ne\"?",
         options: [
-          "An optional expletive ne, not a negation",
+          "An optional expletive \"ne\", not a negation",
           "A negation: unless you don't prefer",
           "A mistake",
-          "Part of a double negation with que",
+          "Part of a double negation with \"que\"",
         ],
         correctIndex: 0,
         explanation: "The expletive \"ne\" is formal and optional; the meaning stays positive.",
@@ -1183,7 +1183,7 @@ export const FR_C2_U15: Lesson[] = [
     level: "FR-C2",
     number: 6,
     title: "Dialogue Lab: La Contre-Proposition",
-    summary: "You receive an insufficient offer for a translation contract: thank, justify and make a counter-proposal that leaves room to move, with votre proposition retient toute notre attention, toutefois... and nous serions prêts à... à condition que.",
+    summary: "You receive an insufficient offer for a translation contract: thank, justify and make a counter-proposal that leaves room to move, with \"votre proposition retient toute notre attention, toutefois...\" and \"nous serions prêts à... à condition que\".",
     duration: "18 min",
     sections: [
       {
@@ -1380,7 +1380,7 @@ export const FR_C2_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Pierre asks for a lower price. What is the best donnant-donnant reply?",
+        question: "Pierre asks for a lower price. What is the best \"donnant-donnant\" reply?",
         options: [
           "C'est envisageable, si vous nous garantissez un volume annuel.",
           "D'accord, nous baissons le prix sans condition.",
@@ -1508,7 +1508,7 @@ export const FR_C2_U15: Lesson[] = [
           { es: "Ne vous y trompez pas : s'il conteste vos arguments, c'est qu'il est intéressé.", en: "Make no mistake: if he challenges your arguments, it means he's interested." },
           { es: "Les choses sérieuses ont commencé au moment du café.", en: "The serious business began over coffee." },
           { es: "Un déjeuner d'affaires peut durer deux heures sans que personne ne parle du contrat.", en: "A business lunch can last two hours without anyone mentioning the contract." },
-          { es: "Le vouvoiement reste de rigueur, même après plusieurs rencontres.", en: "Using vous remains the rule, even after several meetings." },
+          { es: "Le vouvoiement reste de rigueur, même après plusieurs rencontres.", en: "Using \"vous\" remains the rule, even after several meetings." },
           { es: "Chaque engagement pris oralement sera confirmé par écrit.", en: "Every commitment made orally will be confirmed in writing." },
         ],
         checkpoint: [
@@ -1596,7 +1596,7 @@ export const FR_C2_U15: Lesson[] = [
         options: [
           "He's engaged and interested; answer with solid arguments.",
           "He's insulting you and the deal is over.",
-          "He wants you to switch to tu.",
+          "He wants you to switch to \"tu\".",
           "He has already decided to sign.",
         ],
         correctIndex: 0,
@@ -1865,6 +1865,6 @@ export const FR_C2_U15_WRITING: WriteExercise = {
     "A counter-proposal in the conditional (\"nous serions prêts à\", \"nous pourrions envisager\") with conditions using the right moods: \"à condition que\" / \"pourvu que\" / \"à moins que (ne)\" + subjunctive, \"dans la mesure où\" / \"si\" + indicative, \"sous réserve de\" + noun.",
     "A new option (\"et si nous envisagions\", \"une autre piste serait de\") and a formal closing suggesting a next step.",
   ],
-  modelAnswer: "Objet : votre proposition du 3 mars – emballages réutilisables\n\nMadame la Directrice,\n\nJe vous remercie de votre proposition du 3 mars, qui retient toute notre attention. Nous serions très heureux de compter votre enseigne parmi nos partenaires, d'autant que nos valeurs en matière de réduction des déchets nous semblent proches des vôtres.\n\nToutefois, en l'état, cette offre ne nous permet pas de garantir le niveau de service que vous êtes en droit d'attendre. Nos emballages sont fabriqués en France, testés pour résister à plus de cinquante cycles de lavage, et livrés sous quarante-huit heures. Une remise de 20 % assortie d'un paiement à quatre-vingt-dix jours mettrait en péril cette qualité, ce qui ne serait dans l'intérêt ni de vos clients ni du nôtre.\n\nNous serions néanmoins prêts à consentir un effort significatif. Nous pourrions ainsi vous accorder une remise de 10 %, à condition que le paiement intervienne à quarante-cinq jours et que votre commande annuelle atteigne au moins 1,5 million d'unités. Dans la mesure où ces volumes nous permettraient d'optimiser notre production, une remise supplémentaire de 2 % serait envisageable dès la deuxième année, sous réserve d'un bilan positif de la première.\n\nPar ailleurs, et si nous envisagions une phase pilote de six mois dans une vingtaine de vos magasins ? Elle vous permettrait d'évaluer l'accueil de vos clients avant tout engagement à grande échelle, à moins que vous ne préfériez un déploiement immédiat sur l'ensemble du réseau.\n\nJe me tiens à votre disposition pour en discuter de vive voix et vous propose, si vous en êtes d'accord, une rencontre dans vos locaux au cours de la semaine du 17 mars.\n\nJe vous prie d'agréer, Madame la Directrice, l'expression de mes salutations distinguées.\n\nJulien Masson\nDirecteur commercial, Réemploi & Cie",
-  explanation: "The email follows the counter-offer pattern: thanks and interest (\"retient toute notre attention\"), an objection framed as the client's interest (\"en l'état\", \"ne serait dans l'intérêt ni de vos clients ni du nôtre\"), then a conditional counter-proposal (\"nous serions prêts\", \"nous pourrions\"). Conditions use their moods: \"à condition que le paiement intervienne et que votre commande atteigne\" (subjunctive), \"dans la mesure où\" + indicative, \"sous réserve de\" + noun, \"à moins que vous ne préfériez\" with the expletive ne. A new option (\"et si nous envisagions une phase pilote\") opens the deadlock, and the figures follow French conventions (\"20 %\", \"1,5 million\").",
+  modelAnswer: "Objet : votre proposition du 3 mars – emballages réutilisables\n\nMadame la Directrice,\n\nJe vous remercie de votre proposition du 3 mars, qui retient toute notre attention. Nous serions très heureux de compter votre enseigne parmi nos partenaires, d'autant que nos valeurs en matière de réduction des déchets nous semblent proches des vôtres.\n\nToutefois, en l'état, cette offre ne nous permet pas de garantir le niveau de service que vous êtes en droit d'attendre. Nos emballages sont fabriqués en France, testés pour résister à plus de cinquante cycles de lavage, et livrés sous quarante-huit heures. Une remise de 20 % assortie d'un paiement à quatre-vingt-dix jours mettrait en péril cette qualité, ce qui ne serait ni dans l'intérêt de vos clients ni dans le nôtre.\n\nNous serions néanmoins prêts à consentir un effort significatif. Nous pourrions ainsi vous accorder une remise de 10 %, à condition que le paiement intervienne à quarante-cinq jours et que votre commande annuelle atteigne au moins 1,5 million d'unités. Dans la mesure où ces volumes nous permettraient d'optimiser notre production, une remise supplémentaire de 2 % serait envisageable dès la deuxième année, sous réserve d'un bilan positif de la première.\n\nPar ailleurs, et si nous envisagions une phase pilote de six mois dans une vingtaine de vos magasins ? Elle vous permettrait d'évaluer l'accueil de vos clients avant tout engagement à grande échelle, à moins que vous ne préfériez un déploiement immédiat sur l'ensemble du réseau.\n\nJe me tiens à votre disposition pour en discuter de vive voix et vous propose, si vous en êtes d'accord, une rencontre dans vos locaux au cours de la semaine du 17 mars.\n\nJe vous prie d'agréer, Madame la Directrice, l'expression de mes salutations distinguées.\n\nJulien Masson\nDirecteur commercial, Réemploi & Cie",
+  explanation: "The email follows the counter-offer pattern: thanks and interest (\"retient toute notre attention\"), an objection framed as the client's interest (\"en l'état\", \"ne serait ni dans l'intérêt de vos clients ni dans le nôtre\"), then a conditional counter-proposal (\"nous serions prêts\", \"nous pourrions\"). Conditions use their moods: \"à condition que le paiement intervienne et que votre commande atteigne\" (subjunctive), \"dans la mesure où\" + indicative, \"sous réserve de\" + noun, \"à moins que vous ne préfériez\" with the expletive \"ne\". A new option (\"et si nous envisagions une phase pilote\") opens the deadlock, and the figures follow French conventions (\"20 %\", \"1,5 million\").",
 };

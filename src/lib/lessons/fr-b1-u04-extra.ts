@@ -992,6 +992,10 @@ export const FR_B1_U04_EXTRA: Lesson[] = [
           "Je suis surprise que le restaurant ne prenne pas la carte.",
           "Je suis surpris que le restaurant n'accepte pas la carte.",
           "Je suis surprise que le restaurant n'accepte pas la carte.",
+          "Je suis surpris que le restaurant n'accepte pas les cartes.",
+          "Je suis surprise que le restaurant n'accepte pas les cartes.",
+          "Je suis surpris que le restaurant ne prenne pas la carte bancaire.",
+          "Je suis surprise que le restaurant ne prenne pas la carte bancaire.",
         ],
         explanation: "\"Prendre\" → \"prenne\".",
       },
@@ -1254,7 +1258,7 @@ export const FR_B1_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Complete: « C'est dommage que vous ne ___ pas rester. »",
+        question: "Complete: \"C'est dommage que vous ne ___ pas rester.\"",
         options: ["pouvez", "pouvoir", "puissez", "puissiez"],
         correctIndex: 3,
         explanation: "\"C'est dommage que\" + subjunctive \"puissiez\".",
@@ -1415,7 +1419,7 @@ export const FR_B1_U04_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: You'd better be patient.",
+        prompt: "Put the words in order to say: You'd better be patient. (formal, to Camille)",
         words: ["Il", "vaut", "mieux", "que", "vous", "soyez", "patiente."],
         translation: "You'd better be patient.",
         explanation: "\"Être\" → \"soyez\"; addressed to Camille, so \"patiente\".",
@@ -1900,6 +1904,9 @@ export const FR_B1_U04_EXTRA: Lesson[] = [
         altAnswers: [
           "J'aimerais que ma conjointe prenne des vacances.",
           "Je voudrais que mon conjoint prenne des vacances.",
+          "J'aimerais que mon compagnon prenne des vacances.",
+          "J'aimerais que ma compagne prenne des vacances.",
+          "Je voudrais que ma conjointe prenne des vacances.",
         ],
         explanation: "\"Prenne\".",
       },
@@ -2259,7 +2266,7 @@ export const FR_B1_U04_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "She told me that she [wants] us to leave early.",
+        en: "She told me that she [wanted] us to leave early.",
         sentence: "Elle m'a dit qu'elle ___ que nous partions tôt.",
         answer: "voulait",
         altAnswers: ["veut"],
@@ -2290,7 +2297,7 @@ export const FR_B1_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Je sais que tu ___ fatigué, mais il faut que tu ___ ce dossier. »",
+        question: "\"Je sais que tu ___ fatigué, mais il faut que tu ___ ce dossier.\"",
         options: ["es / finisses", "sois / finis", "es / finis", "sois / finisses"],
         correctIndex: 0,
         explanation: "\"Savoir que\" + indicative \"es\"; \"il faut que\" + subjunctive \"finisses\".",
@@ -2329,7 +2336,7 @@ export const FR_B1_U04_EXTRA: Lesson[] = [
         heading: "Recap: two ways to hope",
         body: [
           "\"Espérer que\" + indicative (usually future, sometimes present or past): \"j'espère qu'il viendra\", \"j'espère que tu vas bien\", \"j'espère que tu as bien dormi\". \"Souhaiter que\" + subjunctive: \"je souhaite qu'il vienne\". Both mean roughly to hope / to wish, but the grammar differs.",
-          "In the negative or a question, \"espérer\" can sometimes take the subjunctive in literary French, but at Intermediate stick to the indicative.",
+          "In the negative or a question, \"espérer\" can sometimes take the subjunctive in literary French, but at this level stick to the indicative.",
         ],
         examples: [
           { es: "J'espère qu'il viendra.", en: "I hope he'll come." },
@@ -2341,7 +2348,7 @@ export const FR_B1_U04_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "« J'espère que tu ___ (pouvoir) venir. » Which form, and why?",
+            question: "\"J'espère que tu ___ (pouvoir) venir.\" Which form, and why?",
             options: [
               "pourras: espérer takes the indicative",
               "puisses: espérer is a wish",
@@ -2365,7 +2372,7 @@ export const FR_B1_U04_EXTRA: Lesson[] = [
     exercises: [
       {
         type: "multiple-choice",
-        question: "« Je souhaite que tu ___ (être) heureux. » Which form, and why?",
+        question: "\"Je souhaite que tu ___ (être) heureux.\" Which form, and why?",
         options: [
           "es: souhaiter is like espérer",
           "seras: future after a wish",

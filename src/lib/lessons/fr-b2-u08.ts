@@ -1300,13 +1300,13 @@ export const FR_B2_U08: Lesson[] = [
       {
         type: "multiple-choice",
         question: "« Si tu n'étais pas prof, qu'est-ce que tu ferais ? » Which answer is correct?",
-        options: ["Je serais journaliste.", "Je serai journaliste.", "J'étais journaliste.", "Je serais un journaliste si j'étais."],
+        options: ["Je serais journaliste.", "Je serai journaliste.", "J'étais journaliste.", "Je serais un journaliste."],
         correctIndex: 0,
-        explanation: "Conditional, no article before the job.",
-      },
-      {
-        type: "word-order",
-        prompt: "Put the words in order to say: If I could start again, I'd study medicine.",
+        explanation: "Conditional (serais) for the imagined situation, and no article before a bare profession after être: « je serais journaliste », not « je serai » (future) or « un journaliste ».",
+            },
+            {
+              type: "word-order",
+              prompt: "Put the words in order to say: If I could start again, I'd study medicine.",
         words: ["Si", "je pouvais", "recommencer,", "j'étudierais", "la médecine."],
         translation: "If I could start again, I'd study medicine.",
         explanation: "Imparfait + conditional.",

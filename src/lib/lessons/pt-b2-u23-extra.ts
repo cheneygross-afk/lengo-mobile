@@ -33,8 +33,8 @@ export const PT_B2_U23_EXTRA: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "Great that you're happy there!",
             answer: "Que bom que vocês estejam felizes lá!",
-            altAnswers: ["Que bom que você esteja feliz lá!", "Que bom que vocês estão felizes lá!", "Que bom que você está feliz lá!", "Que bom que o senhor esteja feliz lá!", "Que bom que a senhora esteja feliz lá!"],
-            explanation: "\"Que bom que\" + subjunctive \"estejam\".",
+            altAnswers: ["Que bom que você esteja feliz lá!", "Que bom que o senhor esteja feliz lá!", "Que bom que a senhora esteja feliz lá!"],
+            explanation: "\"Que bom que\" + subjunctive \"estejam\". The indicative \"estão\" is common in relaxed speech, but the subjunctive is the target here.",
           },
           {
             type: "fill-blank",
@@ -211,7 +211,7 @@ export const PT_B2_U23_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A neighbour says \"Aparece lá em casa qualquer dia!\" What is it most likely?",
+            question: "A neighbor says \"Aparece lá em casa qualquer dia!\" What is it most likely?",
             options: ["A friendly closing, not a fixed plan.", "An invitation for tonight.", "A complaint about noise.", "A request to visit immediately."],
             correctIndex: 0,
             explanation: "No day, no time: a ritual invitation.",
@@ -474,7 +474,7 @@ export const PT_B2_U23_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Could I speak to Dona Maria? — [Who shall I say is calling]?",
+        en: "Could I speak to Dona Maria? — [Who should I say is calling]?",
         sentence: "Eu poderia falar com a dona Maria? — ___?",
         answer: "Quem gostaria",
         explanation: "\"Quem gostaria?\" is the polite phone question.",

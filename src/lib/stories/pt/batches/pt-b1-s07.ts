@@ -40,7 +40,7 @@ export const PT_B1_S07_STORIES: Story[] = [
       },
       {
         question: `What did Bianca decide in the end?`,
-        options: [`To go back to São Paulo with seu Tonico`, `To sell the farm to the man from Belo Horizonte`, `To open a shop in São Paulo`, `To keep the farm and stay`],
+        options: [`To go back to São Paulo with seu Tonico`, `To sell the farm to the man from Belo Horizonte`, `To open a store in São Paulo`, `To keep the farm and stay`],
         correctIndex: 3,
         explanation: `She said "a fazenda não estava mais à venda" and asked her brother to send her things.`,
       },
@@ -110,7 +110,7 @@ export const PT_B1_S07_STORIES: Story[] = [
         explanation: `"Hoje, no lugar, há um pequeno museu e algumas ruínas cobertas de mato."`,
       },
       {
-        question: `Why did seu Bené recognise the man in the photo?`,
+        question: `Why did seu Bené recognize the man in the photo?`,
         options: [`He was a prisoner there, and Osvaldo was the guard who taught him to read.`, `He had worked with Osvaldo as a guard.`, `He had seen the photo in the museum.`, `Osvaldo was his uncle.`],
         correctIndex: 0,
         explanation: `He had been "preso em Dois Rios em 1982", and a guard "ensinava Bené a ler pelas grades da cela".`,
@@ -152,7 +152,7 @@ export const PT_B1_S07_STORIES: Story[] = [
       },
       {
         question: `Why did Tiago want to spend the night on Dona Zuleide's porch?`,
-        options: [`So that the neighbours could see with their own eyes that he didn't turn into an animal`, `To catch the person stealing the chickens`, `Because his mother asked him to`, `To photograph the full moon`],
+        options: [`So that the neighbors could see with their own eyes that he didn't turn into an animal`, `To catch the person stealing the chickens`, `Because his mother asked him to`, `To photograph the full moon`],
         correctIndex: 0,
         explanation: `He said: "É importante que vocês fiquem comigo, para verem com os próprios olhos que eu não viro bicho nenhum."`,
       },
@@ -186,7 +186,7 @@ export const PT_B1_S07_STORIES: Story[] = [
     ],
     questions: [
       {
-        question: `Why are the streets of Paraty inclined towards the centre?`,
+        question: `Why are the streets of Paraty inclined toward the center?`,
         options: [`So that the rainwater can run off`, `To make it easier for horses`, `Because of an earthquake`, `To slow down the cars`],
         correctIndex: 0,
         explanation: `"As ruas eram inclinadas para o centro para a água da chuva escorrer".`,
@@ -267,8 +267,8 @@ export const PT_B1_S07_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "por via das dúvidas", en: "just in case", forms: ["via"] },
   ],
   "pt-a-guia-e-o-professor": [
-    { es: "o sobrado", en: "two-storey colonial house", forms: ["sobrado"] },
-    { es: "a bengala", en: "walking stick", forms: ["bengala"] },
+    { es: "o sobrado", en: "two-story colonial house", forms: ["sobrado"] },
+    { es: "a bengala", en: "cane", forms: ["bengala"] },
     { es: "inclinado", en: "sloping, tilted", forms: ["inclinadas"] },
     { es: "escorrer", en: "to run off, drain", forms: ["escorrer"] },
     { es: "a maré", en: "tide", forms: ["maré"] },

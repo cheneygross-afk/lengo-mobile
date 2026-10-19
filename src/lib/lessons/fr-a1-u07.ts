@@ -212,7 +212,7 @@ export const FR_A1_U07: Lesson[] = [
         type: "speak",
         text: "Mon anniversaire, c'est le quatorze février.",
         prompt: "Say it in French: My birthday is February 14th.",
-        tip: "Février has three syllables: fé-vri-er.",
+        tip: "\"Février\" has three syllables: fé-vri-yé.",
         explanation: "\"Le quatorze février\": le + plain number + month.",
       },
     ],
@@ -230,7 +230,7 @@ export const FR_A1_U07: Lesson[] = [
         body: [
           "You've already used \"au cinéma\" as a chunk. Here's the rule behind it: the little word \"à\" (to, at) cannot sit next to \"le\" or \"les\". They melt together: \"à + le\" becomes \"au\", and \"à + les\" becomes \"aux\". You never write or say \"à le\" or \"à les\".",
           "\"À la\" and \"à l'\" do not change: \"à la gare\", \"à la plage\", \"à l'école\", \"à l'hôtel\". So the only thing to check is the article you would normally use: masculine \"le\" gives \"au\", any plural gives \"aux\".",
-          "You need this after verbs of going and being (\"aller au marché\", \"être au bureau\"), after \"parler à\" and \"téléphoner à\" (\"je parle aux enfants\"), and with sports and games: \"jouer au foot\", \"jouer aux cartes\". \"Aux\" links with a z sound before a vowel: \"aux_enfants\".",
+          "You need this after verbs of going and being (\"aller au marché\", \"être au bureau\"), after \"parler à\" and \"téléphoner à\" (\"je parle aux enfants\"), and with sports and games: \"jouer au foot\", \"jouer aux cartes\". \"Aux\" links with a z sound before a vowel: \"aux‿enfants\".",
         ],
         examples: [
           { es: "Je vais au marché.", en: "I'm going to the market." },
@@ -362,9 +362,9 @@ export const FR_A1_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "The children are [at the] hotel.",
-        sentence: "Les enfants sont ___ hôtel.",
-        answer: "à l'",
+        en: "The children are [at the hotel].",
+        sentence: "Les enfants sont ___.",
+        answer: "à l'hôtel",
         explanation: "Before a vowel or mute h the article is \"l'\", and \"à l'\" never contracts: \"à l'hôtel\".",
       },
       {
@@ -822,7 +822,7 @@ export const FR_A1_U07: Lesson[] = [
         type: "speak",
         text: "Il fait vingt degrés et le ciel est bleu.",
         prompt: "Say it in French: It's twenty degrees and the sky is blue.",
-        tip: "Vingt: the t is silent here, and the vowel is nasal.",
+        tip: "\"Vingt\": the t is silent here, and the vowel is nasal.",
         explanation: "\"Il fait vingt degrés\" for the temperature, \"le ciel est bleu\" with être for a description.",
       },
     ],
@@ -1490,9 +1490,9 @@ export const FR_A1_U07: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "I'd like [a bottle of] water.",
-            sentence: "Je voudrais ___ eau.",
-            answer: "une bouteille d'",
+            en: "I'd like [a bottle of water].",
+            sentence: "Je voudrais ___.",
+            answer: "une bouteille d'eau",
             explanation: "After a quantity, just \"de\" (\"d'\" before a vowel): \"une bouteille d'eau\".",
           },
         ],

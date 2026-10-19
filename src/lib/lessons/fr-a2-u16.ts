@@ -552,7 +552,7 @@ export const FR_A2_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I've lived here for two years'?",
         options: ["J'habite ici depuis deux ans.", "J'habite ici depuis deux années.", "J'habite ici depuis deux an.", "J'habite ici depuis deux journées."],
         correctIndex: 0,
         explanation: "A count of years with a number: \"deux ans\".",
@@ -935,7 +935,7 @@ export const FR_A2_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I'm going to visit my uncle'?",
         options: ["Je vais rendre visite à mon oncle.", "Je vais visiter mon oncle.", "Je vais rendre visite mon oncle.", "Je vais visiter à mon oncle."],
         correctIndex: 0,
         explanation: "\"Rendre visite à\" + person.",
@@ -1036,7 +1036,7 @@ export const FR_A2_U16: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "At the bakery: « Sur place ou à emporter ? » You want to eat it on the train. What do you say?",
+            question: "At the bakery: \"Sur place ou à emporter ?\" You want to eat it on the train. What do you say?",
             options: ["À emporter, s'il vous plaît.", "Sur place, s'il vous plaît.", "À apporter, s'il vous plaît.", "À emmener, s'il vous plaît."],
             correctIndex: 0,
             explanation: "Takeaway = \"à emporter\".",
@@ -1309,14 +1309,14 @@ export const FR_A2_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I'd like to ask a question'?",
         options: ["Je voudrais poser une question.", "Je voudrais demander une question.", "Je voudrais demander pour une question.", "Je voudrais faire une question."],
         correctIndex: 0,
         explanation: "\"Poser une question\".",
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I like jazz a lot'?",
         options: ["J'aime beaucoup le jazz.", "J'aime très le jazz.", "Je très aime le jazz.", "J'aime beaucoup très le jazz."],
         correctIndex: 0,
         explanation: "With a verb: \"beaucoup\", never \"très\".",
@@ -1419,7 +1419,7 @@ export const FR_A2_U16: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Tu joues de la guitare ? » Which answer is correct?",
+            question: "\"Tu joues de la guitare ?\" Which answer is correct?",
             options: ["Oui, j'en joue un peu.", "Oui, j'y joue un peu.", "Oui, je la joue un peu.", "Oui, je lui joue un peu."],
             correctIndex: 0,
             explanation: "\"Jouer de\" → en.",
@@ -1496,7 +1496,7 @@ export const FR_A2_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'She plays the saxophone'?",
         options: ["Elle joue du saxophone.", "Elle joue au saxophone.", "Elle joue le saxophone.", "Elle joue à saxophone."],
         correctIndex: 0,
         explanation: "Instrument → \"jouer de\": \"du saxophone\". English the doesn't become le here.",

@@ -8,7 +8,7 @@ export const PT_A1_U10_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 1,
     title: "Extra Practice: Everyday Verbs, Part 1 of 3",
-    summary: "Practise saber and conhecer in every person, in questions and short answers.",
+    summary: "Practice saber and conhecer in every person, in questions and short answers.",
     duration: "12 min",
     optional: true,
     kind: "drill",
@@ -182,7 +182,7 @@ export const PT_A1_U10_EXTRA: Lesson[] = [
           { es: "No domingo eu durmo até tarde.", en: "On Sundays I sleep in." },
           { es: "Eu ouço a chuva na janela.", en: "I hear the rain on the window." },
           { es: "Eu trago água para todo mundo.", en: "I'll bring water for everyone." },
-          { es: "Eu ponho a roupa no armário.", en: "I put the clothes in the wardrobe." },
+          { es: "Eu ponho a roupa no armário.", en: "I put the clothes in the closet." },
         ],
         checkpoint: [
           {
@@ -211,9 +211,9 @@ export const PT_A1_U10_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I go out with friends on Friday.",
-        answer: "Eu saio com os amigos na sexta.",
-        altAnswers: ["Saio com os amigos na sexta.", "Eu saio com os amigos na sexta-feira.", "Saio com os amigos na sexta-feira.", "Eu saio com meus amigos na sexta.", "Saio com meus amigos na sexta."],
+        source: "I go out with friends on Saturday.",
+        answer: "Eu saio com os amigos no sábado.",
+        altAnswers: ["Saio com os amigos no sábado.", "Eu saio com os amigos aos sábados.", "Saio com os amigos aos sábados.", "Eu saio com meus amigos no sábado.", "Saio com meus amigos no sábado."],
         explanation: "\"Saio\", the eu form of \"sair\".",
       },
       {
@@ -296,9 +296,9 @@ export const PT_A1_U10_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I put the clothes in the wardrobe.",
+        prompt: "Put the words in order to say: I put the clothes in the closet.",
         words: ["Eu", "ponho", "a", "roupa", "no", "armário."],
-        translation: "I put the clothes in the wardrobe.",
+        translation: "I put the clothes in the closet.",
         explanation: "\"Ponho\" from \"pôr\"; \"a roupa\" is singular for clothes.",
       },
       {
@@ -342,7 +342,7 @@ export const PT_A1_U10_EXTRA: Lesson[] = [
         examples: [
           { es: "No verão nós vamos à praia todo dia.", en: "In summer we go to the beach every day." },
           { es: "No inverno faz frio em Gramado.", en: "In winter it's cold in Gramado." },
-          { es: "Quando chove, eu vejo um filme em casa.", en: "When it rains, I watch a film at home." },
+          { es: "Quando chove, eu vejo um filme em casa.", en: "When it rains, I watch a movie at home." },
           { es: "Com sol, eles jogam futevôlei.", en: "When it's sunny, they play footvolley." },
           { es: "No inverno eu faço academia.", en: "In winter I go to the gym." },
         ],
@@ -351,7 +351,7 @@ export const PT_A1_U10_EXTRA: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "When it rains, I watch a film at home.",
+            source: "When it rains, I watch a movie at home.",
             answer: "Quando chove, eu vejo um filme em casa.",
             altAnswers: ["Quando chove, vejo um filme em casa.", "Quando chove, eu assisto a um filme em casa.", "Quando chove, assisto a um filme em casa.", "Quando chove, eu assisto um filme em casa."],
             explanation: "\"Chove\" with no it; \"ver um filme\" or \"assistir a um filme\".",
@@ -490,14 +490,14 @@ export const PT_A1_U10_EXTRA: Lesson[] = [
         heading: "Play and ask, split in two",
         body: [
           "Play: \"jogar\" for sports and games (\"jogo futebol\", \"joga xadrez\"), \"tocar\" for instruments (\"toco violão\", \"toca bateria\").",
-          "Ask: \"pedir\" when you want a thing, food or a favour (\"peço um suco\", \"pede ajuda\"); \"perguntar\" when you want an answer (\"pergunto o preço\", \"pergunta onde é\").",
+          "Ask: \"pedir\" when you want a thing, food or a favor (\"peço um suco\", \"pede ajuda\"); \"perguntar\" when you want an answer (\"pergunto o preço\", \"pergunta onde é\").",
         ],
         examples: [
           { es: "Ela joga xadrez.", en: "She plays chess." },
           { es: "Ele toca bateria.", en: "He plays the drums." },
           { es: "Eu peço o cardápio.", en: "I ask for the menu." },
           { es: "Eu pergunto se tem vaga.", en: "I ask if there's a space." },
-          { es: "Nós pedimos um favor.", en: "We ask a favour." },
+          { es: "Nós pedimos um favor.", en: "We ask a favor." },
         ],
         checkpoint: [
           {
@@ -600,7 +600,7 @@ export const PT_A1_U10_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "We [play] football on Sundays.",
+        en: "We [play] soccer on Sundays.",
         sentence: "Nós ___ futebol no domingo.",
         answer: "jogamos",
         explanation: "Sports: \"jogar\".",

@@ -100,8 +100,7 @@ export const FR_B1_U01: Lesson[] = [
             en: "When I was little, we [used to go] to the beach every summer.",
             sentence: "Quand j'étais petit, nous ___ à la plage tous les étés.",
             answer: "allions",
-            altAnswers: ["allions", "on allait"],
-            explanation: "A repeated habit in the past is the imparfait: \"nous allions\". With \"on\", it's \"on allait\".",
+            explanation: "A repeated habit in the past is the imparfait: \"nous allions\" (spoken French would say \"on allait\" for the whole sentence). The passé composé \"nous sommes allés\" would be one trip, not a habit.",
           },
           {
             type: "multiple-choice",
@@ -314,10 +313,10 @@ export const FR_B1_U01: Lesson[] = [
               "Il a tombé dans la rue.",
               "Il est tombé dans la rue.",
               "Il est tombée dans la rue.",
-              "Il a tombé dans la rue hier.",
+              "Il s'est tombé dans la rue.",
             ],
             correctIndex: 1,
-            explanation: "\"Tomber\" is an être verb; the participle agrees with \"il\", so no -e.",
+            explanation: "\"Tomber\" is an être verb (never *\"il a tombé\") and is not pronominal; the participle agrees with \"il\", so no -e.",
           },
         ],
       },
@@ -325,7 +324,7 @@ export const FR_B1_U01: Lesson[] = [
         heading: "All pronominal verbs take être",
         body: [
           "Every pronominal verb takes \"être\": \"se lever\", \"se réveiller\", \"s'habiller\", \"se promener\", \"se perdre\", \"se tromper\"... The pronoun goes before the auxiliary: \"je me suis levé\", \"tu t'es trompé\", \"elle s'est promenée\".",
-          "The participle usually agrees with the subject: \"elle s'est levée\", \"ils se sont rencontrés\". (At Intermediate you'll meet the exception where the body part follows: \"elle s'est lavé les mains\" has no -e, because \"les mains\" is the real object. Don't worry about it yet, but notice it in examples.)",
+          "The participle usually agrees with the subject: \"elle s'est levée\", \"ils se sont rencontrés\". (Later at this level you'll meet the exception where the body part follows: \"elle s'est lavé les mains\" has no -e, because \"les mains\" is the real object. Don't worry about it yet, but notice it in examples.)",
           "In the negative, \"ne...pas\" wraps the pronoun and the auxiliary together: \"je ne me suis pas réveillé\".",
         ],
         examples: [
@@ -705,7 +704,7 @@ export const FR_B1_U01: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match each verb with its participle.",
+        instructions: "Match each past participle with its infinitive.",
         pairs: [
           { left: "pris", right: "prendre" },
           { left: "mis", right: "mettre" },
@@ -723,7 +722,7 @@ export const FR_B1_U01: Lesson[] = [
           "J'ai ouvri la fenêtre.",
           "J'ai ouvert la fenêtre.",
           "Je suis ouvert la fenêtre.",
-          "J'ai ouvrí la fenêtre.",
+          "J'ai ouvré la fenêtre.",
         ],
         correctIndex: 1,
         explanation: "\"Ouvrir\" → \"ouvert\", with avoir.",
@@ -951,11 +950,11 @@ export const FR_B1_U01: Lesson[] = [
         prompt: "Put the words in order to say: I've never been to Spain.",
         words: ["Je", "ne", "suis", "jamais", "allé", "en", "Espagne."],
         translation: "I've never been to Spain.",
-        explanation: "\"Ne...jamais\" wraps the auxiliary; \"aller\" takes être. |",
+        explanation: "\"Ne...jamais\" wraps the auxiliary; \"aller\" takes être.",
       },
       {
         type: "multiple-choice",
-        question: "A friend asks: « Tu as déjà vu la tour Eiffel ? » You haven't, but you plan to. What do you say?",
+        question: "A friend asks: \"Tu as déjà vu la tour Eiffel ?\" You haven't, but you plan to. What do you say?",
         options: ["Non, jamais plus.", "Non, pas encore.", "Oui, pas encore.", "Non, déjà."],
         correctIndex: 1,
         explanation: "\"Pas encore\" (not yet) suggests you still intend to. \"Jamais\" would mean never.",
@@ -1000,7 +999,7 @@ export const FR_B1_U01: Lesson[] = [
         heading: "Je mange / J'ai mangé",
         body: [
           "In writing, the present and the passé composé look very different. Spoken, the difference can be one small syllable. \"Je mange\" (I eat) and \"j'ai mangé\" (I ate) differ by the \"ai\" after \"j'\" and the é sound at the end. If you swallow either, the listener hears the present.",
-          "Practise saying \"j'ai\" clearly: it's a single syllable [ʒe], like the start of \"gender\" without the n. Then \"mangé\" ends in a crisp, closed [e], with the lips spread.",
+          "Practise saying \"j'ai\" clearly: it's a single syllable [ʒe]: the s of 'measure' followed by the é of \"café\". Then \"mangé\" ends in a crisp, closed [e], with the lips spread.",
           "With \"il\": \"il mange\" vs \"il a mangé\". The \"a\" is short but essential: \"il a\" sounds like \"ila\".",
         ],
         examples: [
@@ -1527,13 +1526,13 @@ export const FR_B1_U01: Lesson[] = [
       {
         heading: "Telling what happened: events and how it was",
         body: [
-          "Hugo tells the story: \"On a loué un petit gîte. Le samedi, on a fait une grande balade sur les falaises. C'était magnifique, il y avait une lumière incroyable.\" The events are in the passé composé, the impressions in the imparfait (\"c'était\", \"il y avait\").",
+          "Hugo tells the story: \"On a loué un petit gîte. Samedi, on a fait une grande balade sur les falaises. C'était magnifique, il y avait une lumière incroyable.\" The events are in the passé composé, the impressions in the imparfait (\"c'était\", \"il y avait\").",
           "\"C'était\" is your best friend for reactions to the past: \"c'était génial / nul / trop bien / un peu long\". It describes your impression of the whole, so it stays in the imparfait even for a finished weekend. (\"Ça a été\" exists too, often for an ordeal you went through: \"ça a été dur\".)",
           "To link events, use \"quand\" + passé composé for a moment (\"quand on est arrivés, il pleuvait\") and \"pendant que\" + imparfait for two things at the same time (\"pendant que je cuisinais, les enfants jouaient\").",
         ],
         examples: [
           { es: "On a loué un petit gîte près de la plage.", en: "We rented a little cottage near the beach." },
-          { es: "Le samedi, on a fait une grande balade sur les falaises.", en: "On Saturday, we went for a long walk on the cliffs." },
+          { es: "Samedi, on a fait une grande balade sur les falaises.", en: "On Saturday, we went for a long walk on the cliffs." },
           { es: "C'était magnifique, il y avait une lumière incroyable.", en: "It was beautiful, the light was incredible." },
           { es: "Quand on est arrivés au restaurant, il n'y avait plus de place.", en: "When we got to the restaurant, there was no room left." },
           { es: "Pendant qu'on mangeait, il s'est mis à pleuvoir.", en: "While we were eating, it started to rain." },
@@ -1582,7 +1581,7 @@ export const FR_B1_U01: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Hugo says: « Le retour a été horrible, deux heures de bouchons. » What's the best reaction?",
+            question: "Hugo says: \"Le retour a été horrible, deux heures de bouchons.\" What's the best reaction?",
             options: ["Oh non, quelle galère !", "Trop bien !", "Bonne semaine !", "C'était magnifique !"],
             correctIndex: 0,
             explanation: "\"Quelle galère\" (what a pain) is the natural sympathetic reaction to bad news.",
@@ -1691,7 +1690,7 @@ export const FR_B1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your colleague says: « On a gagné le tournoi de foot dimanche ! » What do you say?",
+        question: "Your colleague says: \"On a gagné le tournoi de foot dimanche !\" What do you say?",
         options: ["Pas de chance !", "Oh non, quelle galère !", "Il y avait du monde ?", "Trop bien ! Bravo !"],
         correctIndex: 3,
         explanation: "Good news calls for \"Trop bien !\" or \"Bravo !\".",
@@ -2066,7 +2065,7 @@ export const FR_B1_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The doctor asks: « Depuis combien de temps avez-vous de la fièvre ? » Which answer fits best?",
+            question: "The doctor asks: \"Depuis combien de temps avez-vous de la fièvre ?\" Which answer fits best?",
             options: ["Depuis lundi.", "Il y a trois jours.", "Depuis trois jours.", "Pendant trois jours."],
             correctIndex: 2,
             explanation: "\"Depuis combien de temps\" asks for a length: \"depuis trois jours\". \"Depuis lundi\" answers \"depuis quand\".",
@@ -2449,7 +2448,7 @@ export const FR_B1_U01: Lesson[] = [
         heading: "The draft",
         body: [
           "Chloé, an English learner of French, wrote this email to her French host family after a holiday in Provence. It's lively, but almost every sentence has a past-tense slip. Read it first, then we'll fix it piece by piece:",
-          "« Chère Madame Roux, la semaine dernière, ma sœur et moi avons allé en Provence. Le premier jour, il a fait très chaud et le ciel a été bleu. Nous sommes arrivé à Avignon en train et nous avons resté dans un petit hôtel. Chaque matin, nous sommes allées au marché. Un soir, nous mangions dans une pizzeria quand un orage commençait. Ma sœur est tombé dans la rue et elle s'est fait mal au pied. »",
+          "\"Chère Madame Roux, la semaine dernière, ma sœur et moi avons allé en Provence. Le premier jour, il a fait très chaud et le ciel a été bleu. Nous sommes arrivé à Avignon en train et nous avons resté dans un petit hôtel. Chaque matin, nous sommes allées au marché. Un soir, nous mangions dans une pizzeria quand un orage commençait. Ma sœur est tombé dans la rue et elle s'est fait mal au pied.\"",
           "The mistakes fall into three families: the wrong auxiliary (\"avons allé\", \"avons resté\"), a missing agreement after \"être\" (\"sommes arrivé\", \"est tombé\"), and the wrong tense (passé composé for a description, imparfait for a habit or an event). Let's take them one at a time.",
         ],
         examples: [
@@ -2525,8 +2524,8 @@ export const FR_B1_U01: Lesson[] = [
       {
         heading: "The corrected email",
         body: [
-          "Here is Chloé's email with everything fixed: « Chère Madame Roux, la semaine dernière, ma sœur et moi sommes allées en Provence. Il faisait très chaud et le ciel était bleu. Nous sommes arrivées à Avignon en train et nous sommes restées dans un petit hôtel. Chaque matin, nous allions au marché. Un soir, nous mangions dans une pizzeria quand un orage a éclaté. Ma sœur est tombée dans la rue et elle s'est fait mal au pied. »",
-          "Note \"elle s'est fait mal au pied\": no -e on \"fait\", because the expression is \"se faire mal\" + body part, and \"fait\" followed by an infinitive or this expression doesn't agree. You don't need to master that rule yet; just learn \"elle s'est fait mal\" as a chunk.",
+          "Here is Chloé's email with everything fixed: \"Chère Madame Roux, la semaine dernière, ma sœur et moi sommes allées en Provence. Il faisait très chaud et le ciel était bleu. Nous sommes arrivées à Avignon en train et nous sommes restées dans un petit hôtel. Chaque matin, nous allions au marché. Un soir, nous mangions dans une pizzeria quand un orage a éclaté. Ma sœur est tombée dans la rue et elle s'est fait mal au pied.\"",
+          "Note \"elle s'est fait mal au pied\": no -e on \"fait\", because in \"se faire mal\" the \"se\" is not the direct object (she did harm to herself: \"mal\" is the object), so there is nothing feminine for \"fait\" to agree with. You don't need to master that rule yet; just learn \"elle s'est fait mal\" as a chunk.",
           "When you check your own writing, read it three times: once for auxiliaries, once for agreement after \"être\", once for the tense choice (event or description?).",
         ],
         examples: [
@@ -2642,7 +2641,7 @@ export const FR_B1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Chloé wrote « Nous sommes arrivé à Avignon ». What's wrong?",
+        question: "Chloé wrote \"Nous sommes arrivé à Avignon\". What's wrong?",
         options: [
           "The auxiliary should be \"avons\".",
           "It should be in the imparfait.",
@@ -2856,9 +2855,9 @@ export const FR_B1_U01: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
         en: "Did you call your parents? No, [I haven't called them] yet.",
-        sentence: "Non, ___ encore.",
-        answer: "je ne les ai pas appelés",
-        explanation: "\"Les\" before \"ai\", inside \"ne...pas\"; masculine plural agreement.",
+        sentence: "Non, ___.",
+        answer: "je ne les ai pas encore appelés",
+        explanation: "\"Les\" goes before \"ai\", and \"pas encore\" stays together before the participle (not *\"je ne les ai pas appelés encore\"); masculine plural agreement with \"les\" (= mes parents).",
       },
       {
         type: "word-order",
@@ -2869,7 +2868,7 @@ export const FR_B1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Tu as vu mes clés ? » How do you answer: Yes, I saw them in the kitchen?",
+        question: "\"Tu as vu mes clés ?\" How do you answer: Yes, I saw them in the kitchen?",
         options: [
           "Oui, je les ai vu dans la cuisine.",
           "Oui, je les ai vues dans la cuisine.",
@@ -2917,7 +2916,7 @@ export const FR_B1_U01: Lesson[] = [
         heading: "The morning",
         body: [
           "Mathilde tells her flatmate about her day. As you read, look for the clues: \"d'habitude\" (usually) points to a habit, so the imparfait; \"ce jour-là\" (that day), \"soudain\" and \"tout à coup\" (suddenly) point to a single event, so the passé composé.",
-          "« D'habitude, je me lève à sept heures. Mais ce matin, mon réveil n'a pas sonné. Quand je me suis réveillée, il était déjà huit heures et demie ! Je me suis habillée en deux minutes et j'ai couru à l'arrêt de bus. Le bus venait de partir. »",
+          "\"D'habitude, je me lève à sept heures. Mais ce matin, mon réveil n'a pas sonné. Quand je me suis réveillée, il était déjà huit heures et demie ! Je me suis habillée en deux minutes et j'ai couru à l'arrêt de bus. Le bus venait de partir.\"",
           "Notice how each gap works: \"n'a pas sonné\" (event that didn't happen), \"il était\" (time = description), \"je me suis habillée\" and \"j'ai couru\" (a sequence of actions), \"venait de partir\" (had just left).",
         ],
         examples: [
@@ -2949,7 +2948,7 @@ export const FR_B1_U01: Lesson[] = [
       {
         heading: "At the office",
         body: [
-          "« Au bureau, j'étais en train de préparer la réunion quand mon ordinateur a planté. Tout à coup, l'écran est devenu noir. Mon chef m'a appelée : la réunion commençait dans dix minutes ! Heureusement, ma collègue Sophie avait une copie de la présentation. »",
+          "\"Au bureau, j'étais en train de préparer la réunion quand mon ordinateur a planté. Tout à coup, l'écran est devenu noir. Mon chef m'a appelée : la réunion commençait dans dix minutes ! Heureusement, ma collègue Sophie avait une copie de la présentation.\"",
           "\"J'étais en train de préparer\" is the action in progress; \"a planté\" (crashed) is what interrupted it. \"Tout à coup\" signals a sudden event: \"est devenu\". \"La réunion commençait dans dix minutes\" is a description of the situation at that point, so the imparfait, even though it refers to something about to happen.",
         ],
         examples: [
@@ -2983,7 +2982,7 @@ export const FR_B1_U01: Lesson[] = [
       {
         heading: "The evening",
         body: [
-          "« Le soir, je suis rentrée à pied parce qu'il y avait une grève. Il pleuvait, bien sûr, et je n'avais pas de parapluie. Quand je suis arrivée, je venais de m'asseoir quand ma mère a téléphoné : elle voulait savoir si j'avais passé une bonne journée ! »",
+          "\"Le soir, je suis rentrée à pied parce qu'il y avait une grève. Il pleuvait, bien sûr, et je n'avais pas de parapluie. Je suis arrivée trempée. Je venais de m'asseoir quand ma mère a téléphoné : elle voulait savoir si j'avais passé une bonne journée !\"",
           "\"Parce qu'il y avait une grève\" explains a circumstance (imparfait). \"Je n'avais pas de parapluie\" is a state. \"Elle voulait savoir\": \"vouloir\" is usually in the imparfait in a story, because it describes a wish, not an action.",
           "You'll meet \"j'avais passé\" (I had spent) later in the year: it's the plus-que-parfait. For now, just recognise it.",
         ],
@@ -3085,7 +3084,7 @@ export const FR_B1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« D'habitude, je ___ le bus, mais ce jour-là, j'ai pris un taxi. » Which form fits?",
+        question: "\"D'habitude, je ___ le bus, mais ce jour-là, j'ai pris un taxi.\" Which form fits?",
         options: ["ai pris", "prends", "prenais", "viens de prendre"],
         correctIndex: 2,
         explanation: "\"D'habitude\" in a past story signals a habit: imparfait \"prenais\".",
@@ -3128,8 +3127,8 @@ export const FR_B1_U01: Lesson[] = [
       {
         heading: "Step 1: the setting goes into the imparfait",
         body: [
-          "French speakers often tell stories in the present to make them vivid. Turning that present into the past is a great way to practise the choice. Start with this story: « C'est samedi. Il fait beau. Je suis au parc avec mon chien. Des enfants jouent au foot. »",
-          "Every verb here sets the scene: day, weather, where you are, what's going on around you. In the past, they all go into the imparfait: « C'était samedi. Il faisait beau. J'étais au parc avec mon chien. Des enfants jouaient au foot. »",
+          "French speakers often tell stories in the present to make them vivid. Turning that present into the past is a great way to practise the choice. Start with this story: \"C'est samedi. Il fait beau. Je suis au parc avec mon chien. Des enfants jouent au foot.\"",
+          "Every verb here sets the scene: day, weather, where you are, what's going on around you. In the past, they all go into the imparfait: \"C'était samedi. Il faisait beau. J'étais au parc avec mon chien. Des enfants jouaient au foot.\"",
         ],
         examples: [
           { es: "C'est samedi. → C'était samedi.", en: "It's Saturday. → It was Saturday." },
@@ -3160,8 +3159,8 @@ export const FR_B1_U01: Lesson[] = [
       {
         heading: "Step 2: the events go into the passé composé",
         body: [
-          "The story continues: « Tout à coup, le ballon arrive sur mon chien. Le chien prend le ballon et part en courant. Les enfants crient. Je cours après le chien. »",
-          "These are events in sequence: each happens, then the next one. In the past they become passé composé: « Tout à coup, le ballon est arrivé sur mon chien. Le chien a pris le ballon et il est parti en courant. Les enfants ont crié. J'ai couru après le chien. » Check each auxiliary: \"arriver\" and \"partir\" take \"être\".",
+          "The story continues: \"Tout à coup, le ballon arrive sur mon chien. Le chien prend le ballon et part en courant. Les enfants crient. Je cours après le chien.\"",
+          "These are events in sequence: each happens, then the next one. In the past they become passé composé: \"Tout à coup, le ballon est arrivé sur mon chien. Le chien a pris le ballon et il est parti en courant. Les enfants ont crié. J'ai couru après le chien.\" Check each auxiliary: \"arriver\" and \"partir\" take \"être\".",
         ],
         examples: [
           { es: "Le ballon arrive sur mon chien. → Le ballon est arrivé sur mon chien.", en: "The ball lands on my dog. → The ball landed on my dog." },
@@ -3304,7 +3303,7 @@ export const FR_B1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Retell « Pendant que je lis, mon frère regarde la télé » in the past.",
+        question: "Retell \"Pendant que je lis, mon frère regarde la télé\" in the past.",
         options: [
           "Pendant que je lisais, mon frère regardait la télé.",
           "Pendant que j'ai lu, mon frère a regardé la télé.",

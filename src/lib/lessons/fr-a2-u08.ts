@@ -741,7 +741,7 @@ export const FR_A2_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "\"Je donne le livre à Léo.\" Replace only 'the book'.",
+            question: "The book? How do you say 'I'm giving it to Léo'?",
             options: ["Je le donne à Léo.", "Je lui donne à Léo.", "Je donne le à Léo.", "Je les donne à Léo."],
             correctIndex: 0,
             explanation: "The thing is the direct object: \"le\", before the verb.",
@@ -1069,7 +1069,7 @@ export const FR_A2_U08: Lesson[] = [
         heading: "Direct in French: aider, appeler, remercier, inviter, écouter",
         body: [
           "These verbs take the person directly, with no \"à\": \"aider quelqu'un\" (help), \"appeler quelqu'un\" (call), \"remercier quelqu'un\" (thank), \"inviter quelqu'un\" (invite), \"écouter quelqu'un\" (listen to). So the pronoun is le, la, les.",
-          "English speakers tend to say \"*je lui aide*\" (because in some languages, like Spanish, 'help' can feel indirect) or \"*je lui écoute*\" (because of English 'listen to'). Both are wrong: \"je l'aide\", \"je l'écoute\".",
+          "English speakers tend to say \"*je lui aide*\" (because helping feels like doing something for someone) or \"*je lui écoute*\" (because of English 'listen to'). Both are wrong: \"je l'aide\", \"je l'écoute\".",
           "In the passé composé, they agree like any direct object: \"Ma voisine ? Je l'ai aidée.\" \"Mes collègues ? Je les ai remerciés.\"",
         ],
         examples: [
@@ -1077,7 +1077,7 @@ export const FR_A2_U08: Lesson[] = [
           { es: "Je t'appelle demain.", en: "I'll call you tomorrow." },
           { es: "Mes collègues ? Je les ai remerciés.", en: "My colleagues? I thanked them." },
           { es: "Ton frère ? Je l'invite samedi.", en: "Your brother? I'm inviting him on Saturday." },
-          { es: "Le prof ? Personne ne l'écoute.", en: "The teacher? Nobody listens to him." },
+          { es: "Le prof ? Les élèves ne l'écoutent pas.", en: "The teacher? The pupils don't listen to him." },
         ],
         checkpoint: [
           {
@@ -1204,10 +1204,10 @@ export const FR_A2_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "The teacher? Nobody listens to him.",
-        answer: "Le prof ? Personne ne l'écoute.",
-        altAnswers: ["Le professeur ? Personne ne l'écoute."],
-        explanation: "\"Écouter\" is direct: \"l'\". \"Personne ne\" = nobody.",
+        source: "The teacher? The pupils don't listen to him.",
+        answer: "Le prof ? Les élèves ne l'écoutent pas.",
+        altAnswers: ["Le professeur ? Les élèves ne l'écoutent pas."],
+        explanation: "\"Écouter\" is direct: \"l'\", inside ne...pas. Never \"*ne lui écoutent pas*\".",
       },
       {
         type: "fill-blank",
@@ -2547,6 +2547,6 @@ export const FR_A2_U08_WRITING: WriteExercise = {
     "Use a stressed pronoun after a preposition (\"avec eux\", \"pour elle\", \"chez lui\").",
     "Use \"plaire\" or \"manquer\" correctly (\"le cadeau lui a plu\", \"tu nous as manqué\").",
   ],
-  modelAnswer: "Salut Karim ! Tu nous as manqué samedi ! La fête pour Sophie était géniale. Ses parents lui ont offert un vélo et nous, on lui a acheté des places de concert. Je les ai cachées dans une boîte de chocolats ! Thomas m'a aidée : il a appelé ses amis de l'université et il leur a envoyé l'invitation. Sophie n'a rien vu, elle pensait qu'on allait juste au restaurant avec ses parents et eux. Les cadeaux lui ont beaucoup plu. Je lui ai dit que tu pensais à elle. Bisous, Julie",
+  modelAnswer: "Salut Karim ! Tu nous as manqué samedi ! La fête pour Sophie était géniale. Ses parents lui ont offert un vélo et nous, on lui a acheté des places de concert. Je les ai cachées dans une boîte de chocolats ! Thomas m'a aidée : il a appelé ses amis de l'université et il leur a envoyé l'invitation. Sophie n'a rien vu : elle pensait qu'elle allait juste dîner chez ses parents, seule avec eux. Les cadeaux lui ont beaucoup plu. Je lui ai dit que tu pensais à elle. Bisous, Julie",
   explanation: "Indirect \"lui\" / \"leur\" mark who receives (\"ses parents lui ont offert\", \"il leur a envoyé\"), with no agreement; direct \"les\" and \"m'\" trigger agreement (\"je les ai cachées\", \"Thomas m'a aidée\"). \"Avec eux\" and \"à elle\" use stressed pronouns, and \"plaire\" / \"manquer\" take the thing or person liked or missed as their subject (\"les cadeaux lui ont plu\", \"tu nous as manqué\").",
 };

@@ -48,11 +48,11 @@ export const PT_B1_U08: Lesson[] = [
       {
         heading: "Two pasts: já tinha, ainda não tinha",
         body: [
-          "The mais-que-perfeito needs a reference point in the past, usually a verb in the perfeito: \"quando cheguei, o filme já tinha começado\". The film started first, then you arrived. Say \"quando cheguei, o filme começou\" and the film starts after you walk in.",
+          "The mais-que-perfeito needs a reference point in the past, usually a verb in the perfeito: \"quando cheguei, o filme já tinha começado\". The movie started first, then you arrived. Say \"quando cheguei, o filme começou\" and the movie starts after you walk in.",
           "\"Já\" (already) and \"ainda não\" (not yet) go before \"tinha\": \"o ônibus ainda não tinha chegado\". Object and reflexive pronouns sit between \"tinha\" and the participle in speech: \"ela já tinha me avisado\".",
         ],
         examples: [
-          { es: "Quando cheguei, o filme já tinha começado.", en: "When I arrived, the film had already started." },
+          { es: "Quando cheguei, o filme já tinha começado.", en: "When I arrived, the movie had already started." },
           { es: "Quando ligamos, a loja já tinha fechado.", en: "When we called, the shop had already closed." },
           { es: "O ônibus ainda não tinha chegado.", en: "The bus hadn't arrived yet." },
           { es: "Quando a Beatriz acordou, o marido dela já tinha saído.", en: "When Beatriz woke up, her husband had already left." },
@@ -64,10 +64,10 @@ export const PT_B1_U08: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "When I arrived, the film had already started.",
+            source: "When I arrived, the movie had already started.",
             answer: "Quando cheguei, o filme já tinha começado.",
             altAnswers: ["Quando eu cheguei, o filme já tinha começado.", "O filme já tinha começado quando cheguei.", "O filme já tinha começado quando eu cheguei."],
-            explanation: "Your arrival is the reference point in the perfeito (\"cheguei\"). The film started before that, so \"já tinha começado\".",
+            explanation: "Your arrival is the reference point in the perfeito (\"cheguei\"). The movie started before that, so \"já tinha começado\".",
           },
           {
             type: "multiple-choice",
@@ -186,7 +186,7 @@ export const PT_B1_U08: Lesson[] = [
       {
         type: "speak",
         text: "Quando cheguei, o filme já tinha começado.",
-        prompt: "Say it in Portuguese: When I arrived, the film had already started.",
+        prompt: "Say it in Portuguese: When I arrived, the movie had already started.",
         tip: "The ç in começado sounds like an s, and the final -o sounds like u.",
         explanation: "\"Cheguei\" is the reference point; \"já tinha começado\" happened before it.",
       },
@@ -203,7 +203,7 @@ export const PT_B1_U08: Lesson[] = [
         pairs: [
           { left: "Ele tinha aberto a janela.", right: "He had opened the window." },
           { left: "Eu tinha escrito o e-mail.", right: "I had written the email." },
-          { left: "Nós tínhamos visto o filme.", right: "We had seen the film." },
+          { left: "Nós tínhamos visto o filme.", right: "We had seen the movie." },
           { left: "Ela tinha posto a mesa.", right: "She had set the table." },
           { left: "Eles tinham vindo de ônibus.", right: "They had come by bus." },
         ],
@@ -216,7 +216,7 @@ export const PT_B1_U08: Lesson[] = [
     level: "PT-B1",
     number: 2,
     title: "Had Done: The Mais-Que-Perfeito, Part 2 of 2",
-    summary: "Write had done the formal way with havia + participle, and recognise the one-word forms like fizera and chegara in books and the news.",
+    summary: "Write had done the formal way with havia + participle, and recognize the one-word forms like fizera and chegara in books and the news.",
     duration: "12 min",
     sections: [
       {
@@ -266,7 +266,7 @@ export const PT_B1_U08: Lesson[] = [
         body: [
           "Novels and some newspapers use a one-word mais-que-perfeito. Take the eles form of the perfeito and drop the final -m: \"fizeram\" → \"fizera\", \"disseram\" → \"dissera\", \"chegaram\" → \"chegara\". That form serves both eu and ele, so \"ela chegara\" means \"ela tinha chegado\".",
           "The nós form takes an accent (\"chegáramos\", \"fizéramos\"), and the eles form is identical to the perfeito: \"eles chegaram\" can mean they arrived or they had arrived. Context decides.",
-          "Learn to recognise these forms, not to use them: in conversation they sound like a nineteenth-century novel. A few survive as set phrases: \"quem dera!\" (if only!), \"pudera!\" (no wonder!), and even \"tomara\", an old mais-que-perfeito of \"tomar\".",
+          "Learn to recognize these forms, not to use them: in conversation they sound like a nineteenth-century novel. A few survive as set phrases: \"quem dera!\" (if only!), \"pudera!\" (no wonder!), and even \"tomara\", an old mais-que-perfeito of \"tomar\".",
         ],
         examples: [
           { es: "Quando ele acordou, a chuva já parara.", en: "When he woke up, the rain had already stopped." },
@@ -290,7 +290,7 @@ export const PT_B1_U08: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "If only! (your friend asks if you're spending the whole summer in Fernando de Noronha)",
             answer: "Quem dera!",
-            explanation: "\"Quem dera!\" is a fossilised mais-que-perfeito of \"dar\", still used every day to wish for something unlikely.",
+            explanation: "\"Quem dera!\" is a fossilized mais-que-perfeito of \"dar\", still used every day to wish for something unlikely.",
           },
         ],
       },
@@ -441,7 +441,7 @@ export const PT_B1_U08: Lesson[] = [
           { es: "Antes de sair, eu fechei todas as janelas.", en: "Before leaving, I closed all the windows." },
           { es: "Depois de almoçar, ela voltou para o escritório.", en: "After having lunch, she went back to the office." },
           { es: "Ele tomou um café antes de pegar o ônibus.", en: "He had a coffee before catching the bus." },
-          { es: "Depois de ter visto o filme, eu entendi o livro.", en: "After having seen the film, I understood the book." },
+          { es: "Depois de ter visto o filme, eu entendi o livro.", en: "After having seen the movie, I understood the book." },
           { es: "Depois que o Lucas chegou, a festa começou de verdade.", en: "After Lucas arrived, the party really got going." },
         ],
         checkpoint: [
@@ -527,12 +527,12 @@ export const PT_B1_U08: Lesson[] = [
       {
         heading: "Quando + tinha: going back in time",
         body: [
-          "As you've seen, \"tinha\" + participle puts one event before another past event: \"Quando cheguei, o filme já tinha começado.\" Compare \"quando cheguei, o filme começou\": now the film starts after you walk in.",
+          "As you've seen, \"tinha\" + participle puts one event before another past event: \"Quando cheguei, o filme já tinha começado.\" Compare \"quando cheguei, o filme começou\": now the movie starts after you walk in.",
           "This is what lets you tell a story out of order. State what happened, then jump back with \"tinha\" to explain it: \"Cheguei atrasado. Eu tinha perdido o ônibus.\" English often lets the simple past do this (I was late. I missed the bus.). Portuguese marks the flashback with \"tinha\", because the plain perfeito would sound like the next event in the story.",
           "\"Já\" (already) and \"ainda não\" (not yet) go right before \"tinha\": \"eles já tinham comido\", \"eu ainda não tinha acordado\".",
         ],
         examples: [
-          { es: "Quando chegamos na estação, o trem já tinha partido.", en: "When we got to the station, the train had already left." },
+          { es: "Quando chegamos à estação, o trem já tinha partido.", en: "When we got to the station, the train had already left." },
           { es: "A Beatriz estava chorando. O namorado tinha terminado com ela.", en: "Beatriz was crying. Her boyfriend had broken up with her." },
           { es: "Cheguei atrasado. Eu tinha perdido o ônibus.", en: "I was late. I had missed the bus." },
           { es: "Quando ela me ligou, eu ainda não tinha acordado.", en: "When she called me, I hadn't woken up yet." },
@@ -590,16 +590,16 @@ export const PT_B1_U08: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into Portuguese.",
         source: "When I got to the party, everyone had already left.",
-        answer: "Quando cheguei na festa, todo mundo já tinha ido embora.",
+        answer: "Quando cheguei à festa, todo mundo já tinha ido embora.",
         altAnswers: [
           "Quando eu cheguei na festa, todo mundo já tinha ido embora.",
-          "Quando cheguei à festa, todo mundo já tinha ido embora.",
+          "Quando cheguei na festa, todo mundo já tinha ido embora.",
           "Quando cheguei na festa, todos já tinham ido embora.",
           "Quando cheguei à festa, todos já tinham ido embora.",
           "Quando cheguei na festa, todo mundo já tinha saído.",
           "Quando eu cheguei na festa, todos já tinham ido embora.",
         ],
-        explanation: "Everyone left before you arrived: \"já tinha ido embora\". \"Todo mundo\" takes a singular verb, \"todos\" a plural one (\"tinham\").",
+        explanation: "Everyone left before you arrived: \"já tinha ido embora\". \"Todo mundo\" takes a singular verb, \"todos\" a plural one (\"tinham\"). \"Chegar à festa\" is the careful form; \"chegar na festa\" is everyday speech.",
       },
       {
         type: "fill-blank",
@@ -718,8 +718,8 @@ export const PT_B1_U08: Lesson[] = [
           { es: "Quando cheguei, ele tinha saído.", en: "When I arrived, he had left." },
           { es: "Quando o professor entrou, os alunos se levantaram.", en: "When the teacher came in, the students stood up." },
           { es: "Quando o professor entrou, os alunos já tinham se sentado.", en: "When the teacher came in, the students had already sat down." },
-          { es: "Quando a gente chegou ao cinema, o filme começou.", en: "When we got to the cinema, the film started." },
-          { es: "Quando a gente chegou ao cinema, o filme já tinha começado.", en: "When we got to the cinema, the film had already started." },
+          { es: "Quando a gente chegou ao cinema, o filme começou.", en: "When we got to the theater, the movie started." },
+          { es: "Quando a gente chegou ao cinema, o filme já tinha começado.", en: "When we got to the theater, the movie had already started." },
         ],
         checkpoint: [
           {
@@ -735,7 +735,7 @@ export const PT_B1_U08: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "When we arrived, the film had already started.",
+            source: "When we arrived, the movie had already started.",
             answer: "Quando chegamos, o filme já tinha começado.",
             altAnswers: [
               "Quando nós chegamos, o filme já tinha começado.",
@@ -745,7 +745,7 @@ export const PT_B1_U08: Lesson[] = [
               "O filme já tinha começado quando a gente chegou.",
               "Quando chegamos, o filme já havia começado.",
             ],
-            explanation: "The film started before you arrived, so \"já tinha começado\". \"O filme começou\" would mean it started just as you walked in.",
+            explanation: "The movie started before you arrived, so \"já tinha começado\". \"O filme começou\" would mean it started just as you walked in.",
           },
           {
             type: "listen-choose",
@@ -808,11 +808,11 @@ export const PT_B1_U08: Lesson[] = [
       {
         heading: "Percebi que tinha esquecido: finding out what had happened",
         body: [
-          "Verbs of finding out (\"perceber\", \"descobrir\", \"ver\", \"lembrar\") usually look back at something that happened earlier, so what follows \"que\" goes into the \"mais-que-perfeito\": \"percebi que tinha esquecido a chave\" (I realised I had forgotten the key). The forgetting came first.",
-          "In relaxed speech many Brazilians say \"percebi que esqueci a chave\". Recognise it, but use \"tinha\" in writing and whenever the order matters. With \"quando\" and two actions, two plain perfeitos still mean one thing, then the next: \"quando vi o preço, desisti\" (when I saw the price, I gave up).",
+          "Verbs of finding out (\"perceber\", \"descobrir\", \"ver\", \"lembrar\") usually look back at something that happened earlier, so what follows \"que\" goes into the \"mais-que-perfeito\": \"percebi que tinha esquecido a chave\" (I realized I had forgotten the key). The forgetting came first.",
+          "In relaxed speech many Brazilians say \"percebi que esqueci a chave\". Recognize it, but use \"tinha\" in writing and whenever the order matters. With \"quando\" and two actions, two plain perfeitos still mean one thing, then the next: \"quando vi o preço, desisti\" (when I saw the price, I gave up).",
         ],
         examples: [
-          { es: "Percebi que tinha esquecido a chave.", en: "I realised I had forgotten the key." },
+          { es: "Percebi que tinha esquecido a chave.", en: "I realized I had forgotten the key." },
           { es: "Descobrimos que o restaurante tinha fechado.", en: "We found out the restaurant had closed." },
           { es: "Ela viu que alguém tinha mexido nas coisas dela.", en: "She saw that someone had been through her things." },
           { es: "Quando vi o preço, desisti.", en: "When I saw the price, I gave up." },
@@ -823,7 +823,7 @@ export const PT_B1_U08: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I realised I had forgotten my phone.",
+            source: "I realized I had forgotten my phone.",
             answer: "Percebi que tinha esquecido o celular.",
             altAnswers: [
               "Eu percebi que tinha esquecido o celular.",
@@ -833,7 +833,7 @@ export const PT_B1_U08: Lesson[] = [
               "Eu percebi que eu tinha esquecido o celular.",
               "Percebi que havia esquecido o celular.",
             ],
-            explanation: "You forgot the phone before you realised it, so \"tinha esquecido\" after \"percebi que\". In Brazil a phone is a \"celular\".",
+            explanation: "You forgot the phone before you realized it, so \"tinha esquecido\" after \"percebi que\". In Brazil a phone is a \"celular\".",
           },
           {
             type: "word-order",
@@ -1064,8 +1064,8 @@ export const PT_B1_U08: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "I would have called.",
             answer: "Eu teria ligado.",
-            altAnswers: ["Teria ligado.", "Eu tinha ligado."],
-            explanation: "\"Teria\" + participle is would have. In casual speech \"eu tinha ligado\" can mean the same, but \"teria\" is never ambiguous.",
+            altAnswers: ["Teria ligado."],
+            explanation: "\"Teria\" + participle is would have. In casual speech \"eu tinha ligado\" can mean the same after an if-clause, but on its own it reads as I had called, so use \"teria\".",
           },
           {
             type: "fill-blank",
@@ -1208,7 +1208,7 @@ export const PT_B1_U08: Lesson[] = [
         type: "speak",
         text: "Eu não sabia que a loja fechava cedo.",
         prompt: "Say it in Portuguese: I didn't know the shop closed early.",
-        tip: "Say the d in \"cedo\" as a plain d, and let the final o sound like u: SE-du.",
+        tip: "Say the d in \"cedo\" as a plain d, and let the final o sound like u: SÊ-du, with a closed ê.",
         explanation: "\"Não sabia\" (a past state) + \"fechava\" (the imperfeito, a regular habit).",
       },
       {
@@ -1229,7 +1229,6 @@ export const PT_B1_U08: Lesson[] = [
         altAnswers: [
           "Nós teríamos chegado a tempo.",
           "Teríamos chegado a tempo.",
-          "A gente tinha chegado a tempo.",
           "A gente teria chegado na hora.",
           "Nós teríamos chegado na hora.",
           "Teríamos chegado na hora.",
@@ -1315,11 +1314,11 @@ export const PT_B1_U08: Lesson[] = [
         heading: "O que aconteceu? Going further back",
         body: [
           "Asked \"o que aconteceu?\", Rafael keeps the main line of events in the perfeito: \"peguei um trânsito enorme\", \"tive que voltar\". The background that came earlier gets \"tinha\": \"eu tinha saído de casa com tempo\" (I'd left home in good time).",
-          "After verbs of realising, such as \"perceber\", \"descobrir\" and \"lembrar\", what had already happened takes \"tinha\": \"percebi que tinha esquecido o passaporte\". English often says I realised I forgot; \"percebi que esqueci\" is heard in speech, but \"tinha esquecido\" is the clear, safe choice.",
+          "After verbs of realizing, such as \"perceber\", \"descobrir\" and \"lembrar\", what had already happened takes \"tinha\": \"percebi que tinha esquecido o passaporte\". English often says I realized I forgot; \"percebi que esqueci\" is heard in speech, but \"tinha esquecido\" is the clear, safe choice.",
         ],
         examples: [
           { es: "Eu tinha saído de casa com tempo, mas peguei um trânsito enorme na Marginal.", en: "I'd left home in good time, but I hit huge traffic on the Marginal." },
-          { es: "No meio do caminho, percebi que tinha esquecido o passaporte.", en: "Halfway there, I realised I'd forgotten my passport." },
+          { es: "No meio do caminho, percebi que tinha esquecido o passaporte.", en: "Halfway there, I realized I'd forgotten my passport." },
           { es: "Tive que voltar para casa correndo.", en: "I had to rush back home." },
           { es: "Eu tinha esquecido de carregar o celular, então não consegui avisar ninguém.", en: "I'd forgotten to charge my phone, so I couldn't let anyone know." },
           { es: "Eu nunca tinha perdido um voo antes.", en: "I'd never missed a flight before." },
@@ -1328,11 +1327,11 @@ export const PT_B1_U08: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Halfway there, I realised I [had forgotten] my passport.",
+            en: "Halfway there, I realized I [had forgotten] my passport.",
             sentence: "No meio do caminho, percebi que ___ o passaporte.",
             answer: "tinha esquecido",
             altAnswers: ["eu tinha esquecido", "havia esquecido"],
-            explanation: "The forgetting came before the realising (\"percebi\"), so it takes \"tinha esquecido\". \"Havia esquecido\" is the more written version.",
+            explanation: "The forgetting came before the realizing (\"percebi\"), so it takes \"tinha esquecido\". \"Havia esquecido\" is the more written version.",
           },
           {
             type: "translate",
@@ -1450,7 +1449,7 @@ export const PT_B1_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "She realised she had forgotten her phone.",
+        source: "She realized she had forgotten her phone.",
         answer: "Ela percebeu que tinha esquecido o celular.",
         altAnswers: [
           "Ela percebeu que tinha esquecido o celular dela.",
@@ -1458,7 +1457,7 @@ export const PT_B1_U08: Lesson[] = [
           "Ela percebeu que havia esquecido o celular.",
           "Ela percebeu que tinha esquecido o telefone.",
         ],
-        explanation: "\"Percebeu\" is the moment of realising; \"tinha esquecido\" is what had happened before it. A mobile phone is \"o celular\" in Brazil.",
+        explanation: "\"Percebeu\" is the moment of realizing; \"tinha esquecido\" is what had happened before it. A cell phone is \"o celular\" in Brazil.",
       },
       {
         type: "translate",
@@ -1553,7 +1552,7 @@ export const PT_B1_U08: Lesson[] = [
     level: "PT-B1",
     number: 7,
     title: "Error Hunt: Had Done",
-    summary: "Find and fix the three classic mistakes with the mais-que-perfeito: a missing tinha, a regularised participle, and tive in place of tinha.",
+    summary: "Find and fix the three classic mistakes with the mais-que-perfeito: a missing tinha, a regularized participle, and tive in place of tinha.",
     duration: "12 min",
     kind: "reinforce",
     format: "Error Hunt",
@@ -1568,9 +1567,9 @@ export const PT_B1_U08: Lesson[] = [
         examples: [
           { es: "Quando eu cheguei, ele já tinha saído.", en: "When I arrived, he had already left." },
           { es: "Quando a Beatriz ligou, eu ainda não tinha acordado.", en: "When Beatriz called, I hadn't woken up yet." },
-          { es: "O filme já tinha começado quando a gente entrou no cinema.", en: "The film had already started when we went into the cinema." },
+          { es: "O filme já tinha começado quando a gente entrou no cinema.", en: "The movie had already started when we went into the theater." },
           { es: "Eu nunca tinha comido açaí antes daquela viagem.", en: "I had never eaten açaí before that trip." },
-          { es: "Ontem eu fui ao cinema com o Rafael.", en: "Yesterday I went to the cinema with Rafael." },
+          { es: "Ontem eu fui ao cinema com o Rafael.", en: "Yesterday I went to the movies with Rafael." },
         ],
         checkpoint: [
           {
@@ -1606,7 +1605,7 @@ export const PT_B1_U08: Lesson[] = [
       {
         heading: "Tinha feito, not tinha fazido",
         body: [
-          "The participle after \"tinha\" is the same one you used after \"tenho\" in Unit 7, so the irregular participles are the same too: \"feito\", \"dito\", \"visto\", \"escrito\", \"aberto\", \"posto\" and \"vindo\". Learners regularise them on the model of \"comido\" and \"saído\" and write \"tinha fazido\", \"tinha dizido\" or \"tinha abrido\". None of these forms exist.",
+          "The participle after \"tinha\" is the same one you used after \"tenho\" in Unit 7, so the irregular participles are the same too: \"feito\", \"dito\", \"visto\", \"escrito\", \"aberto\", \"posto\" and \"vindo\". Learners regularize them on the model of \"comido\" and \"saído\" and write \"tinha fazido\", \"tinha dizido\" or \"tinha abrido\". None of these forms exist.",
           "Watch the pair \"visto\" and \"vindo\": \"tinha visto\" means had seen (from \"ver\"), and \"tinha vindo\" means had come (from \"vir\"). After \"ter\" the participle never agrees with the subject: \"ela tinha saído\" and \"elas tinham feito\", never \"ela tinha saída\".",
         ],
         examples: [
@@ -1631,7 +1630,7 @@ export const PT_B1_U08: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "She had seen the film.",
+            source: "She had seen the movie.",
             answer: "Ela tinha visto o filme.",
             altAnswers: ["Ela já tinha visto o filme.", "Ela havia visto o filme.", "Ela já havia visto o filme."],
             explanation: "\"Ver\" has the irregular participle \"visto\". \"Tinha vido\" is a mix-up with \"vindo\" (come).",
@@ -1876,8 +1875,8 @@ export const PT_B1_U08: Lesson[] = [
         ],
         examples: [
           { es: "Quando cheguei em casa, procurei a chave na mochila.", en: "When I got home, I looked for my key in my backpack." },
-          { es: "De repente, percebi que a chave não estava lá.", en: "Suddenly I realised the key wasn't there." },
-          { es: "Liguei para o meu vizinho, mas ele não atendeu.", en: "I called my neighbour, but he didn't answer." },
+          { es: "De repente, percebi que a chave não estava lá.", en: "Suddenly I realized the key wasn't there." },
+          { es: "Liguei para o meu vizinho, mas ele não atendeu.", en: "I called my neighbor, but he didn't answer." },
           { es: "Eu estava esperando na chuva quando a minha irmã me ligou.", en: "I was waiting in the rain when my sister called me." },
           { es: "Então ela me convidou para dormir na casa dela.", en: "Then she invited me to sleep at her place." },
         ],
@@ -1913,8 +1912,8 @@ export const PT_B1_U08: Lesson[] = [
         ],
         examples: [
           { es: "Eu tinha deixado a chave em cima da mesa do escritório.", en: "I had left the key on my desk at the office." },
-          { es: "Percebi que tinha esquecido a chave.", en: "I realised I'd forgotten the key." },
-          { es: "Meu vizinho não atendeu porque já tinha ido dormir.", en: "My neighbour didn't answer because he'd already gone to bed." },
+          { es: "Percebi que tinha esquecido a chave.", en: "I realized I'd forgotten the key." },
+          { es: "Meu vizinho não atendeu porque já tinha ido dormir.", en: "My neighbor didn't answer because he'd already gone to bed." },
           { es: "Eu nunca tinha passado uma noite fora de casa assim.", en: "I'd never spent a night away from home like that." },
           { es: "Pelo menos ela tinha feito um bolo.", en: "At least she had made a cake." },
           { es: "No fim, dormi na casa da minha irmã.", en: "In the end, I slept at my sister's." },
@@ -1923,7 +1922,7 @@ export const PT_B1_U08: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "My neighbour didn't answer because he [had] already gone to bed.",
+            en: "My neighbor didn't answer because he [had] already gone to bed.",
             sentence: "Meu vizinho não atendeu porque já ___ ido dormir.",
             answer: "tinha",
             altAnswers: ["havia"],
@@ -1933,7 +1932,7 @@ export const PT_B1_U08: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I realised I had forgotten the key.",
+            source: "I realized I had forgotten the key.",
             answer: "Percebi que tinha esquecido a chave.",
             altAnswers: ["Eu percebi que tinha esquecido a chave.", "Percebi que eu tinha esquecido a chave.", "Eu percebi que eu tinha esquecido a chave.", "Percebi que havia esquecido a chave.", "Eu percebi que havia esquecido a chave."],
             explanation: "\"Percebi\" is the event, and \"tinha esquecido\" places the forgetting before it. The participle of \"esquecer\" is regular: \"esquecido\".",
@@ -1998,9 +1997,9 @@ export const PT_B1_U08: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: She realised she had lost her phone.",
+        prompt: "Put the words in order to say: She realized she had lost her phone.",
         words: ["Ela", "percebeu", "que", "tinha", "perdido", "o celular."],
-        translation: "She realised she had lost her phone.",
+        translation: "She realized she had lost her phone.",
         explanation: "The event \"percebeu\" comes first in the sentence, but \"tinha perdido\" happened earlier.",
       },
       {
@@ -2053,7 +2052,7 @@ export const PT_B1_U08: Lesson[] = [
     level: "PT-B1",
     number: 9,
     title: "Real-World Mission: Reporting an Incident",
-    summary: "Write a clear report of a lost wallet or a cancelled flight, with the imperfeito for the scene, the perfeito for events and tinha + participle for what had happened before.",
+    summary: "Write a clear report of a lost wallet or a canceled flight, with the imperfeito for the scene, the perfeito for events and tinha + participle for what had happened before.",
     duration: "15 min",
     sections: [
       {
@@ -2063,10 +2062,10 @@ export const PT_B1_U08: Lesson[] = [
           "The tenses you already know share the work. The imperfeito sets the scene (\"eu estava no metrô\", \"chovia muito\"), and the perfeito moves the story forward (\"um rapaz esbarrou em mim\"). English uses the simple past for both, so English speakers tend to write reports full of perfeitos. Those read like a list with no background.",
         ],
         examples: [
-          { es: "No dia 3 de maio, por volta das oito da noite, eu estava no metrô.", en: "On 3 May, at around eight in the evening, I was on the metro." },
+          { es: "No dia 3 de maio, por volta das oito da noite, eu estava no metrô.", en: "On May 3, at around eight in the evening, I was on the subway." },
           { es: "Era sexta-feira e chovia muito.", en: "It was Friday and it was raining hard." },
-          { es: "O vagão estava lotado e tinha muita gente em pé.", en: "The carriage was packed and lots of people were standing." },
-          { es: "Um rapaz esbarrou em mim e pediu desculpas.", en: "A young man bumped into me and apologised." },
+          { es: "O vagão estava lotado e tinha muita gente em pé.", en: "The subway car was packed and lots of people were standing." },
+          { es: "Um rapaz esbarrou em mim e pediu desculpas.", en: "A young man bumped into me and apologized." },
           { es: "Desci na estação Sé e fui direto para o trabalho.", en: "I got off at Sé station and went straight to work." },
         ],
         checkpoint: [
@@ -2112,8 +2111,8 @@ export const PT_B1_U08: Lesson[] = [
           "In writing, \"havia\" can replace \"tinha\": \"o ladrão havia levado o celular\". Never use \"tive\" + participle, because \"eu tive perdido\" doesn't exist. Mark the turning point with \"assim que\" or \"logo que\" (as soon as) + perfeito: \"assim que percebi, liguei para o banco\".",
         ],
         examples: [
-          { es: "Quando cheguei ao escritório, percebi que a minha carteira tinha sumido.", en: "When I got to the office, I realised my wallet had disappeared." },
-          { es: "Alguém tinha aberto o zíper da mochila.", en: "Someone had opened the zip on my backpack." },
+          { es: "Quando cheguei ao escritório, percebi que a minha carteira tinha sumido.", en: "When I got to the office, I realized my wallet had disappeared." },
+          { es: "Alguém tinha aberto o zíper da mochila.", en: "Someone had opened the zipper on my backpack." },
           { es: "Eu tinha sacado trezentos reais naquela manhã.", en: "I had taken out three hundred reais that morning." },
           { es: "O ladrão havia levado o celular e os cartões.", en: "The thief had taken my phone and my cards." },
           { es: "Assim que percebi, liguei para o banco e bloqueei os cartões.", en: "As soon as I noticed, I called the bank and blocked my cards." },
@@ -2124,7 +2123,7 @@ export const PT_B1_U08: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I realised that my wallet had disappeared.",
+            source: "I realized that my wallet had disappeared.",
             answer: "Percebi que a minha carteira tinha sumido.",
             altAnswers: [
               "Eu percebi que a minha carteira tinha sumido.",
@@ -2135,7 +2134,7 @@ export const PT_B1_U08: Lesson[] = [
               "Notei que a minha carteira tinha sumido.",
               "Notei que minha carteira tinha sumido.",
             ],
-            explanation: "The realisation is one event (\"percebi\"). The disappearance happened before it, so it takes \"tinha sumido\".",
+            explanation: "The realization is one event (\"percebi\"). The disappearance happened before it, so it takes \"tinha sumido\".",
           },
           {
             type: "word-order",
@@ -2148,14 +2147,14 @@ export const PT_B1_U08: Lesson[] = [
         ],
       },
       {
-        heading: "The cancelled flight: saying what you want",
+        heading: "The canceled flight: saying what you want",
         body: [
           "A complaint adds one last step: what you want. Ask with \"gostaria de\" + infinitive (\"gostaria de solicitar o reembolso\"). When the other side has to act, use \"peço que\" + present subjunctive: \"peço que vocês me enviem uma resposta\".",
           "Keep it factual and calm, and let the tenses carry the complaint. \"O voo estava marcado para as duas\" gives the plan. \"Quando cheguei, a companhia já tinha cancelado o voo\" gives the surprise, and \"ninguém tinha me avisado\" gives the grievance. In Brazil the object pronoun sits between \"tinha\" and the participle: \"tinha me avisado\".",
         ],
         examples: [
           { es: "O meu voo para Recife estava marcado para as duas da tarde.", en: "My flight to Recife was scheduled for two in the afternoon." },
-          { es: "Quando cheguei ao aeroporto, a companhia já tinha cancelado o voo.", en: "When I got to the airport, the airline had already cancelled the flight." },
+          { es: "Quando cheguei ao aeroporto, a companhia já tinha cancelado o voo.", en: "When I got to the airport, the airline had already canceled the flight." },
           { es: "Ninguém tinha me avisado por e-mail nem por mensagem.", en: "Nobody had told me by email or by text." },
           { es: "Esperei quatro horas no balcão sem nenhuma informação.", en: "I waited four hours at the desk with no information." },
           { es: "Gostaria de solicitar o reembolso da passagem.", en: "I would like to request a refund for the ticket." },
@@ -2307,7 +2306,7 @@ export const PT_B1_U08: Lesson[] = [
         type: "speak",
         text: "Só depois descobri que tinha deixado o documento em casa.",
         prompt: "Say it in Portuguese: Only later did I find out that I had left my ID at home.",
-        tip: "The \"de\" in \"depois\" and \"descobri\" sounds like \"dji\" in most of Brazil.",
+        tip: "Stress de-POIS and des-co-BRI on the last syllable, and let the final o of \"documento\" sound like u.",
         explanation: "The discovery is perfeito (\"descobri\"). Leaving the ID came earlier, so it takes \"tinha deixado\".",
       },
     ],
@@ -2330,7 +2329,7 @@ export const PT_B1_U08: Lesson[] = [
         ],
         examples: [
           { es: "Era uma sexta-feira e fazia muito calor em Salvador.", en: "It was a Friday and it was very hot in Salvador." },
-          { es: "Quando eu era criança, a gente passava as férias na casa da minha avó.", en: "When I was a child, we used to spend the holidays at my grandmother's house." },
+          { es: "Quando eu era criança, a gente passava as férias na casa da minha avó.", en: "When I was a child, we used to spend our vacations at my grandmother's house." },
           { es: "Eu estava saindo do trabalho quando começou a chover.", en: "I was leaving work when it started to rain." },
           { es: "O ônibus estava lotado, então decidi ir a pé.", en: "The bus was packed, so I decided to walk." },
           { es: "A Mariana não conhecia ninguém na festa, mas conheceu o Rafael lá.", en: "Mariana didn't know anyone at the party, but she met Rafael there." },
@@ -2372,7 +2371,7 @@ export const PT_B1_U08: Lesson[] = [
         examples: [
           { es: "Ultimamente eu tenho trabalhado até as dez da noite.", en: "Lately I've been working until ten at night." },
           { es: "Você já comeu acarajé?", en: "Have you ever eaten acarajé?" },
-          { es: "A gente tem se visto pouco desde que você mudou de bairro.", en: "We haven't seen much of each other since you moved neighbourhoods." },
+          { es: "A gente tem se visto pouco desde que você mudou de bairro.", en: "We haven't seen much of each other since you moved neighborhoods." },
           { es: "Nos últimos meses, o Lucas tem ido à academia três vezes por semana.", en: "Over the last few months, Lucas has been going to the gym three times a week." },
           { es: "Mês passado ele machucou o joelho e parou por duas semanas.", en: "Last month he hurt his knee and stopped for two weeks." },
         ],
@@ -2413,14 +2412,14 @@ export const PT_B1_U08: Lesson[] = [
           { es: "Quando chegamos à rodoviária, o último ônibus já tinha saído.", en: "When we got to the bus station, the last bus had already left." },
           { es: "Eu nunca tinha visto o mar antes daquela viagem.", en: "I had never seen the sea before that trip." },
           { es: "Ela estava nervosa porque não tinha estudado para a prova.", en: "She was nervous because she hadn't studied for the exam." },
-          { es: "Assim que o seu Antônio abriu a porta, percebeu que alguém tinha entrado na casa.", en: "As soon as seu Antônio opened the door, he realised someone had got into the house." },
+          { es: "Assim que o seu Antônio abriu a porta, percebeu que alguém tinha entrado na casa.", en: "As soon as seu Antônio opened the door, he realized someone had gotten into the house." },
           { es: "A Beatriz ainda não tinha jantado, então pediu uma pizza.", en: "Beatriz hadn't had dinner yet, so she ordered a pizza." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "When I arrived, the film [had already started].",
+            en: "When I arrived, the movie [had already started].",
             sentence: "Quando eu cheguei, o filme ___.",
             answer: "já tinha começado",
             altAnswers: ["já havia começado"],
@@ -2484,7 +2483,7 @@ export const PT_B1_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "When I was a child, I [used to spend] the holidays at the beach.",
+        en: "When I was a child, I [used to spend] my vacations at the beach.",
         sentence: "Quando eu era criança, eu ___ as férias na praia.",
         answer: "passava",
         altAnswers: ["costumava passar"],
@@ -2521,10 +2520,10 @@ export const PT_B1_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "She didn't want to go because she had already seen the film.",
+        source: "She didn't want to go because she had already seen the movie.",
         answer: "Ela não quis ir porque já tinha visto o filme.",
         altAnswers: ["Ela não queria ir porque já tinha visto o filme.", "Ela não quis ir porque já havia visto o filme.", "Ela não queria ir porque já havia visto o filme."],
-        explanation: "\"Não quis\" means she refused; \"não queria\" means she didn't feel like it. Both work. Seeing the film came earlier, so \"tinha visto\".",
+        explanation: "\"Não quis\" means she refused; \"não queria\" means she didn't feel like it. Both work. Seeing the movie came earlier, so \"tinha visto\".",
       },
       {
         type: "matching",

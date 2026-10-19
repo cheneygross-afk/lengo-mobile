@@ -79,7 +79,7 @@ export const FR_A2_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "I was tired.",
+            question: "How do you say: I was tired?",
             options: ["J'êtais fatigué.", "Je suisais fatigué.", "J'étais fatigué.", "J'avais fatigué."],
             correctIndex: 2,
             explanation: "\"Être\" → \"ét-\" (with an acute accent): \"j'étais\".",
@@ -499,7 +499,7 @@ export const FR_A2_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "We used to eat at noon.",
+            question: "How do you say: We used to eat at noon?",
             options: ["Nous mangeions à midi.", "Nous mangons à midi.", "Nous mangions à midi.", "Nous mangiions à midi."],
             correctIndex: 2,
             explanation: "Before i, no e: \"mangions\". *Mangeions* is a common learner slip.",
@@ -517,7 +517,7 @@ export const FR_A2_U04: Lesson[] = [
           { es: "Nous étudiions à la bibliothèque.", en: "We used to study at the library." },
           { es: "Vous riiez tout le temps !", en: "You were always laughing!" },
           { es: "J'étudiais l'anglais au lycée.", en: "I studied English at secondary school." },
-          { es: "Nous nous voyions le samedi.", en: "We used to see each other on Saturdays." },
+          { es: "Nous voyions nos cousins le samedi.", en: "We used to see our cousins on Saturdays." },
           { es: "Vous oubliiez toujours vos clés.", en: "You always forgot your keys." },
         ],
         checkpoint: [
@@ -658,16 +658,16 @@ export const FR_A2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "We used to see each other on Saturdays.",
-        options: ["Nous nous voyions le samedi.", "Nous nous voyons le samedi.", "Nous nous voyiions le samedi.", "Nous nous voiions le samedi."],
+        question: "How do you say: We used to see our cousins on Saturdays?",
+        options: ["Nous voyions nos cousins le samedi.", "Nous voyons nos cousins le samedi.", "Nous voyiions nos cousins le samedi.", "Nous voiions nos cousins le samedi."],
         correctIndex: 0,
-        explanation: "Stem \"voy-\" + \"-ions\": \"voyions\".",
+        explanation: "Stem \"voy-\" (from \"nous voyons\") + \"-ions\": \"voyions\", with y then i. \"Voyons\" is the present; there is never a third i.",
       },
       {
         type: "listen-choose",
         audio: "Il pleuvait.",
         question: "What did you hear?",
-        options: ["Il pleuvait.", "Il pleut.", "Il a plu.", "Il pleuvra."],
+        options: ["Il pleuvait.", "Il pleut.", "Il a plu.", "Il va pleuvoir."],
         correctIndex: 0,
         explanation: "\"Pleuvait\": ends in è.",
       },
@@ -905,7 +905,7 @@ export const FR_A2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "I was ten. (describing the scene)",
+        question: "How do you say: I was ten (setting the scene)?",
         options: ["J'étais dix ans.", "J'ai été dix ans.", "Je suis dix ans.", "J'avais dix ans."],
         correctIndex: 3,
         explanation: "Age always uses \"avoir\": \"j'avais dix ans\".",
@@ -1244,7 +1244,7 @@ export const FR_A2_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Every summer we would go to the seaside.",
+            question: "How do you say: Every summer we would go to the seaside?",
             options: [
               "Tous les étés, nous irions à la mer.",
               "Tous les étés, nous sommes allés à la mer.",
@@ -1392,7 +1392,7 @@ export const FR_A2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "I was reading.",
+        question: "How do you say: I was reading?",
         options: ["Je lisais.", "J'étais lisant.", "J'étais en lisant.", "J'ai lu."],
         correctIndex: 0,
         explanation: "French has no 'was + -ing': use the imparfait \"je lisais\".",

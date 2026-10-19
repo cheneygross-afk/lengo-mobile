@@ -166,7 +166,6 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Le chat bondit sur la table.",
-        prompt: "Read this sentence aloud.",
         explanation: "\"Bondit\": passé simple of \"bondir\", identical to the present in the singular.",
       },
     ],
@@ -213,7 +212,6 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
           {
             type: "speak",
             text: "La guerre faisait rage ; il s'engagea dans la Résistance.",
-            prompt: "Read this sentence aloud.",
             explanation: "Background (\"faisait rage\") then event (\"s'engagea\").",
           },
         ],
@@ -368,7 +366,8 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
             en: "As soon as the children [were in bed], they opened the champagne.",
             sentence: "Dès que les enfants ___, ils ouvrirent le champagne.",
             answer: "furent couchés",
-            explanation: "\"Se coucher\" uses \"être\": \"furent couchés\" (here the state reached).",
+            altAnswers: ["se furent couchés"],
+            explanation: "Passé antérieur of \"être couché\" (the state reached): \"furent couchés\". The pronominal \"se coucher\" gives \"se furent couchés\" (had gone to bed), also correct.",
           },
           {
             type: "listen-choose",
@@ -515,7 +514,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Convert to indirect speech: « J'aurai fini avant la fin du mois », a-t-elle dit.",
+            prompt: "Translate into French (convert to indirect speech): \"« J'aurai fini avant la fin du mois », a-t-elle dit.\"",
             source: "She said she would have finished before the end of the month.",
             answer: "Elle a dit qu'elle aurait fini avant la fin du mois.",
             explanation: "Futur antérieur → conditionnel passé.",
@@ -523,7 +522,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Convert to indirect speech: « Qu'est-ce que tu fais là ? » m'a-t-il demandé.",
+            prompt: "Translate into French (convert to indirect speech): \"« Qu'est-ce que tu fais là ? » m'a-t-il demandé.\"",
             source: "He asked me what I was doing there.",
             answer: "Il m'a demandé ce que je faisais là.",
             explanation: "\"Qu'est-ce que\" → \"ce que\"; present → imparfait; \"là\" stays.",
@@ -541,7 +540,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to indirect speech: « Je suis malade », a dit Thomas.",
+        prompt: "Translate into French (convert to indirect speech): \"« Je suis malade », a dit Thomas.\"",
         source: "Thomas said he was ill.",
         answer: "Thomas a dit qu'il était malade.",
         explanation: "Present → imparfait.",
@@ -549,7 +548,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to indirect speech: « Nous avons visité Rome l'an dernier », ont-ils raconté.",
+        prompt: "Translate into French (convert to indirect speech): \"« Nous avons visité Rome l'an dernier », ont-ils raconté.\"",
         source: "They said they had visited Rome the year before.",
         answer: "Ils ont raconté qu'ils avaient visité Rome l'année précédente.",
         altAnswers: ["Ils ont raconté qu'ils avaient visité Rome l'année d'avant.", "Ils ont dit qu'ils avaient visité Rome l'année précédente.", "Elles ont raconté qu'elles avaient visité Rome l'année précédente."],
@@ -558,7 +557,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to indirect speech: « Viendras-tu demain ? » me demanda-t-elle.",
+        prompt: "Translate into French (convert to indirect speech): \"« Viendras-tu demain ? » me demanda-t-elle.\"",
         source: "She asked me if I would come the next day.",
         answer: "Elle me demanda si je viendrais le lendemain.",
         explanation: "Yes/no question → \"si\"; future → conditional; \"demain\" → \"le lendemain\".",
@@ -566,16 +565,16 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to indirect speech: « Ne bougez pas ! » ordonna le policier.",
+        prompt: "Translate into French (convert to indirect speech): \"« Ne bougez pas ! » ordonna le policier.\"",
         source: "The police officer ordered them not to move.",
         answer: "Le policier leur ordonna de ne pas bouger.",
-        altAnswers: ["Le policier ordonna de ne pas bouger.", "Le policier lui ordonna de ne pas bouger."],
+        altAnswers: ["Le policier ordonna de ne pas bouger."],
         explanation: "Negative command → \"de ne pas\" + infinitive.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to indirect speech: « Qu'est-ce qui ne va pas ? » a demandé le médecin.",
+        prompt: "Translate into French (convert to indirect speech): \"« Qu'est-ce qui ne va pas ? » a demandé le médecin.\"",
         source: "The doctor asked what was wrong.",
         answer: "Le médecin a demandé ce qui n'allait pas.",
         explanation: "\"Qu'est-ce qui\" → \"ce qui\"; present → imparfait.",
@@ -583,11 +582,11 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to indirect speech: « Je partais quand tu as appelé », a-t-il expliqué.",
+        prompt: "Translate into French (convert to indirect speech): \"« Je partais quand tu as appelé », a-t-il expliqué.\"",
         source: "He explained he was leaving when I called.",
-        answer: "Il a expliqué qu'il partait quand j'avais appelé.",
-        altAnswers: ["Il a expliqué qu'il partait quand j'ai appelé.", "Il a expliqué qu'il partait au moment où j'avais appelé."],
-        explanation: "Imparfait unchanged; the passé composé may shift to the plus-que-parfait.",
+        answer: "Il a expliqué qu'il partait quand j'ai appelé.",
+        altAnswers: ["Il a expliqué qu'il partait quand j'avais appelé.", "Il a expliqué qu'il partait au moment où j'ai appelé.", "Il a expliqué qu'il partait au moment où j'avais appelé."],
+        explanation: "The imparfait doesn't change. In a time clause the passé composé usually stays (\"quand j'ai appelé\"), since the call happens at the same moment as \"partait\"; a strict backshift to \"j'avais appelé\" is also found.",
       },
       {
         type: "fill-blank",
@@ -608,7 +607,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to indirect speech: « Je l'aurais aidé si j'avais su », a-t-elle avoué.",
+        prompt: "Translate into French (convert to indirect speech): \"« Je l'aurais aidé si j'avais su », a-t-elle avoué.\"",
         source: "She admitted she would have helped him if she had known.",
         answer: "Elle a avoué qu'elle l'aurait aidé si elle avait su.",
         explanation: "Conditionnel passé and plus-que-parfait don't change.",
@@ -623,7 +622,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to direct speech: Il dit qu'il reviendrait le lendemain.",
+        prompt: "Translate into French (convert to direct speech): \"Il dit qu'il reviendrait le lendemain.\"",
         source: "\"I'll come back tomorrow,\" he said.",
         answer: "« Je reviendrai demain », dit-il.",
         altAnswers: ["« Je reviens demain », dit-il."],
@@ -656,7 +655,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
       {
         heading: "Recap: three styles",
         body: [
-          "Direct: quotation marks, the character's exact words, an inverted incise (« Je pars », dit-elle). Indirect: reporting verb + \"que\" / \"si\" / question word, backshifted tenses, shifted time words (Elle dit qu'elle partait). Free indirect: no reporting verb, backshifted tenses, but the character's questions, exclamations, \"demain\" and vocabulary kept (Elle partait. Enfin !).",
+          "Direct: quotation marks, the character's exact words, an inverted incise (\"« Je pars », dit-elle\"). Indirect: reporting verb + \"que\" / \"si\" / question word, backshifted tenses, shifted time words (\"Elle dit qu'elle partait\"). Free indirect: no reporting verb, backshifted tenses, but the character's questions, exclamations, \"demain\" and vocabulary kept (\"Elle partait. Enfin !\").",
         ],
         examples: [
           { es: "« Je ne supporte plus cette ville ! » s'écria-t-il.", en: "\"I can't stand this town anymore!\" he cried." },
@@ -669,7 +668,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Convert to free indirect style: Il s'écria qu'il ne supportait plus cette ville.",
+            prompt: "Translate into French (convert to free indirect style): \"Il s'écria qu'il ne supportait plus cette ville.\"",
             source: "He couldn't stand this town anymore!",
             answer: "Il ne supportait plus cette ville !",
             explanation: "Remove the reporting verb, restore the exclamation.",
@@ -684,7 +683,6 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
           {
             type: "speak",
             text: "Partir ? Mais pour aller où ?",
-            prompt: "Read this character's thought aloud.",
             explanation: "Free indirect style: short, emotional questions.",
           },
         ],
@@ -694,7 +692,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to indirect speech: « Je suis épuisée », soupira-t-elle.",
+        prompt: "Translate into French (convert to indirect speech): \"« Je suis épuisée », soupira-t-elle.\"",
         source: "She sighed that she was exhausted.",
         answer: "Elle soupira qu'elle était épuisée.",
         explanation: "Present → imparfait after a passé simple reporting verb.",
@@ -702,7 +700,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to free indirect style: « Je suis épuisée », soupira-t-elle.",
+        prompt: "Translate into French (convert to free indirect style): \"« Je suis épuisée », soupira-t-elle.\"",
         source: "She was exhausted!",
         answer: "Elle était épuisée !",
         explanation: "Third person, imparfait, no reporting verb.",
@@ -710,7 +708,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to direct speech: Il dit qu'il ne mangerait rien.",
+        prompt: "Translate into French (convert to direct speech): \"Il dit qu'il ne mangerait rien.\"",
         source: "\"I won't eat anything,\" he said.",
         answer: "« Je ne mangerai rien », dit-il.",
         explanation: "Conditional → future; third → first person; inverted incise.",
@@ -718,7 +716,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to free indirect style: Elle se demanda si elle avait bien fermé la porte.",
+        prompt: "Translate into French (convert to free indirect style): \"Elle se demanda si elle avait bien fermé la porte.\"",
         source: "Had she locked the door?",
         answer: "Avait-elle bien fermé la porte ?",
         altAnswers: ["Avait-elle fermé la porte ?"],
@@ -727,7 +725,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to indirect speech: « Est-ce que je peux entrer ? » demanda l'enfant.",
+        prompt: "Translate into French (convert to indirect speech): \"« Est-ce que je peux entrer ? » demanda l'enfant.\"",
         source: "The child asked if he could come in.",
         answer: "L'enfant demanda s'il pouvait entrer.",
         altAnswers: ["L'enfant demanda si elle pouvait entrer."],
@@ -736,7 +734,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to free indirect style: Il pensa : « Demain, je serai loin. »",
+        prompt: "Translate into French (convert to free indirect style): \"Il pensa : « Demain, je serai loin. »\"",
         source: "Tomorrow he would be far away.",
         answer: "Demain, il serait loin.",
         altAnswers: ["Demain il serait loin."],
@@ -760,7 +758,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to direct speech: Elle demanda pourquoi il était parti.",
+        prompt: "Translate into French (convert to direct speech): \"Elle demanda pourquoi il était parti.\"",
         source: "\"Why did you leave?\" she asked.",
         answer: "« Pourquoi es-tu parti ? » demanda-t-elle.",
         altAnswers: ["« Pourquoi est-ce que tu es parti ? » demanda-t-elle.", "« Pourquoi êtes-vous parti ? » demanda-t-elle.", "« Pourquoi tu es parti ? » demanda-t-elle."],
@@ -776,7 +774,7 @@ export const FR_C1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to free indirect style: Il se dit qu'il en avait assez de mentir.",
+        prompt: "Translate into French (convert to free indirect style): \"Il se dit qu'il en avait assez de mentir.\"",
         source: "He'd had enough of lying!",
         answer: "Il en avait assez de mentir !",
         altAnswers: ["Il en avait assez de mentir, à la fin !"],

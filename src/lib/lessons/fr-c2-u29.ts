@@ -496,7 +496,7 @@ export const FR_C2_U29: Lesson[] = [
       {
         heading: "Vague à l'âme, cafard, mal du pays: everyday sadness",
         body: [
-          "\"Le vague à l'âme\" (literally 'a wave at the soul') is a soft, undefined sadness, a wistful mood: \"avoir du vague à l'âme\". It is gentle and slightly poetic, perfect for a rainy Sunday. \"Le cafard\" (also the word for a cockroach) is the colloquial equivalent of feeling down: \"avoir le cafard\", \"un coup de cafard\" for a sudden bout. \"Avoir le blues\" is its anglicised cousin.",
+          "\"Le vague à l'âme\" (masculine \"le vague\", a vagueness of the soul, not \"une vague\", a wave) is a soft, undefined sadness, a wistful mood: \"avoir du vague à l'âme\". It is gentle and slightly poetic, perfect for a rainy Sunday. \"Le cafard\" (also the word for a cockroach) is the colloquial equivalent of feeling down: \"avoir le cafard\", \"un coup de cafard\" for a sudden bout. \"Avoir le blues\" is its anglicised cousin.",
           "\"Le mal du pays\" is homesickness: \"avoir le mal du pays\". It is specific (you miss your country or region), whereas \"la nostalgie\" can be about a time. Verlaine's famous lines capture the vague, causeless sadness French poetry loves: « Il pleure dans mon cœur / Comme il pleut sur la ville ; / Quelle est cette langueur / Qui pénètre mon cœur ? » (Romances sans paroles, 1874). \"La langueur\" is a listless, drooping sadness.",
           "\"Le désarroi\" is a different colour altogether: distress mixed with confusion, the state of someone who no longer knows what to do or think (\"plonger quelqu'un dans le désarroi\"). It is frequent in the press: \"le désarroi des agriculteurs\", \"le désarroi des familles face à la maladie\".",
         ],
@@ -533,7 +533,7 @@ export const FR_C2_U29: Lesson[] = [
             options: [
               "Il pleure dans mon cœur comme il pleut sur la ville.",
               "Il pleut dans mon cœur comme il pleure sur la ville.",
-              "Il pleure dans mon chœur comme il pleut sur la ville.",
+              "Il pleure dans mon cœur comme il pleut sur la vie.",
               "Il pleure dans mon cœur comme il pleuvait sur la ville.",
             ],
             correctIndex: 0,
@@ -1005,7 +1005,7 @@ export const FR_C2_U29: Lesson[] = [
         prompt: "Translate into French.",
         source: "She burned out after three years at the hospital.",
         answer: "Elle a fait un burn-out après trois ans à l'hôpital.",
-        altAnswers: ["Elle a fait un burn-out après trois années à l'hôpital.", "Elle a fait un épuisement professionnel après trois ans à l'hôpital.", "Elle a été victime d'un épuisement professionnel après trois ans à l'hôpital."],
+        altAnswers: ["Elle a fait un burn-out après trois années à l'hôpital.", "Elle a été victime d'un épuisement professionnel après trois ans à l'hôpital."],
         explanation: "\"Faire un burn-out\" is the everyday phrase; \"épuisement professionnel\" is the official term.",
       },
       {
@@ -1014,7 +1014,7 @@ export const FR_C2_U29: Lesson[] = [
         prompt: "Translate into French.",
         source: "It took her years to come to terms with her mother's death.",
         answer: "Il lui a fallu des années pour faire le deuil de sa mère.",
-        altAnswers: ["Elle a mis des années à faire le deuil de sa mère.", "Il lui a fallu des années pour faire son deuil de sa mère.", "Elle a mis des années à faire son deuil."],
+        altAnswers: ["Elle a mis des années à faire le deuil de sa mère.", "Elle a mis des années à faire son deuil."],
         explanation: "\"Faire le deuil de quelqu'un\"; \"il lui a fallu des années pour\" or \"elle a mis des années à\" for it took her years.",
       },
       {
@@ -1348,7 +1348,7 @@ export const FR_C2_U29: Lesson[] = [
         body: [
           "In \"Du côté de chez Swann\" (1913), the first volume of \"À la recherche du temps perdu\", the narrator dips a madeleine into lime-blossom tea and is overwhelmed: « Un plaisir délicieux m'avait envahi, isolé, sans la notion de sa cause. » Then, after a long struggle: « Et tout d'un coup le souvenir m'est apparu. Ce goût, c'était celui du petit morceau de madeleine que le dimanche matin à Combray [...] ma tante Léonie m'offrait après l'avoir trempé dans son infusion de thé ou de tilleul. »",
           "This is \"la mémoire involontaire\": the past returns not through effort but through a sensation. Notice the emotional vocabulary: \"un plaisir délicieux\", \"envahi\" (invaded, the same verb we used for melancholy), and the paradox of a joy \"sans la notion de sa cause\", the exact opposite of nostalgia, which knows what it misses.",
-          "Grammar to notice: the cleft \"ce goût, c'était celui de\" (a dislocation that holds back the revelation), the relative clause with a long insertion, and \"après l'avoir trempé\" (past infinitive). Today \"une madeleine de Proust\" is a common phrase for any taste, smell or song that brings back the past: \"cette odeur de craie, c'est ma madeleine de Proust\".",
+          "Grammar to notice: the construction \"ce goût, c'était celui de\" (a dislocation that holds back the revelation), the relative clause with a long insertion, and \"après l'avoir trempé\" (past infinitive). Today \"une madeleine de Proust\" is a common phrase for any taste, smell or song that brings back the past: \"cette odeur de craie, c'est ma madeleine de Proust\".",
         ],
         examples: [
           { es: "Un plaisir délicieux m'avait envahi, isolé, sans la notion de sa cause.", en: "A delicious pleasure had invaded me, isolated, with no notion of its cause." },
@@ -1573,7 +1573,7 @@ export const FR_C2_U29: Lesson[] = [
             prompt: "Translate into French.",
             source: "Let's stick to the facts.",
             answer: "Tenons-nous-en aux faits.",
-            altAnswers: ["Restons-en aux faits.", "On s'en tient aux faits.", "Tenons-nous en aux faits."],
+            altAnswers: ["Restons-en aux faits.", "On s'en tient aux faits."],
             explanation: "Imperative of \"s'en tenir à\": \"tenons-nous-en\", with the pronouns after the verb, linked by hyphens.",
           },
           {
@@ -1924,7 +1924,7 @@ export const FR_C2_U29: Lesson[] = [
         type: "speak",
         text: "Métro, boulot, dodo.",
         prompt: "Say the French catchphrase for the daily grind: commute, work, sleep.",
-        explanation: "A slogan from 1968 graffiti, now a set phrase for a monotonous routine.",
+        explanation: "From a 1951 poem by Pierre Béarn, popularised by May 1968 graffiti, now a set phrase for a monotonous routine.",
       },
     ],
   },
@@ -1996,7 +1996,7 @@ export const FR_C2_U29: Lesson[] = [
             prompt: "Translate into French.",
             source: "She got angry.",
             answer: "Elle s'est mise en colère.",
-            altAnswers: ["Elle s'est fâchée.", "Elle s'est énervée.", "Elle est entrée dans une colère noire."],
+            altAnswers: ["Elle s'est fâchée.", "Elle s'est énervée."],
             explanation: "Get angry = \"se mettre en colère\" (participle agrees: \"mise\"), or \"se fâcher\".",
           },
           {

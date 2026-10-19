@@ -61,7 +61,7 @@ export const FR_C1_U18: Lesson[] = [
         examples: [
           { es: "En 2024, un adolescent français passait en moyenne plus de quatre heures par jour devant un écran.", en: "In 2024, a French teenager spent an average of more than four hours a day in front of a screen." },
           { es: "La question de la place du numérique à l'école divise aujourd'hui enseignants et parents.", en: "The question of the place of digital technology at school now divides teachers and parents." },
-          { es: "Par « numérique », on entend ici l'ensemble des outils connectés utilisés en classe.", en: "By digital technology we mean here all the connected tools used in class." },
+          { es: "Par « numérique », on entend ici l'ensemble des outils connectés utilisés en classe.", en: "By 'digital technology' we mean here all the connected tools used in class." },
           { es: "Le télétravail, longtemps marginal, s'est imposé en quelques mois comme une norme.", en: "Remote work, long marginal, became the norm within a few months." },
           { es: "« L'école doit apprendre à penser », écrivait le philosophe Alain.", en: "School must teach people to think, wrote the philosopher Alain." },
         ],
@@ -270,7 +270,7 @@ export const FR_C1_U18: Lesson[] = [
         body: [
           "\"Le plan analytique\" (also \"constat, causes, solutions\" or \"problème, causes, conséquences, solutions\") suits questions about a phenomenon rather than a debate: \"Comment expliquer la désaffection des jeunes pour la lecture ?\" Part 1 describes the situation (le constat), Part 2 explains it (les causes), Part 3 proposes answers (les solutions or les remèdes).",
           "\"Le plan thématique\" sorts arguments by domain: economic, social, environmental; or individual, collective. It suits open questions like \"Quels sont les enjeux du tourisme de masse ?\" Its risk is becoming a list; each part still needs a clear idea, not just a label.",
-          "Choosing the plan is the first decision of the exam: a yes/no debate question (Faut-il...?, Peut-on...?) calls for dialectical; a how/why question about a phenomenon calls for analytical; a what are the issues question calls for thematic.",
+          "Choosing the plan is the first decision of the exam: a yes/no debate question (Faut-il... ?, Peut-on... ?) calls for dialectical; a how/why question about a phenomenon calls for analytical; a \"Quels sont les enjeux... ?\" question calls for thematic.",
         ],
         examples: [
           { es: "Comment expliquer la désaffection des jeunes pour la lecture ?", en: "How can young people's loss of interest in reading be explained?" },
@@ -377,7 +377,7 @@ export const FR_C1_U18: Lesson[] = [
         question: "Exam question: \"Peut-on encore se passer des réseaux sociaux ?\" Which plan suits it best?",
         options: ["A dialectical plan: yes, no, then a reframing", "An analytical plan: finding, causes, solutions", "A thematic plan: economic, social, cultural", "A chronological plan: past, present, future"],
         correctIndex: 0,
-        explanation: "\"Peut-on...?\" is a yes/no debate question: the dialectical plan fits naturally.",
+        explanation: "\"Peut-on... ?\" is a yes/no debate question: the dialectical plan fits naturally.",
       },
       {
         type: "fill-blank",
@@ -445,7 +445,7 @@ export const FR_C1_U18: Lesson[] = [
           "Questions starting with \"dans quelle mesure\" (to what extent) and \"en quoi\" (in what way) do this automatically: they assume a partial answer. That's why French examiners love them.",
         ],
         examples: [
-          { es: "Le télétravail, présenté comme une conquête des salariés, ne risque-t-il pas de les isoler davantage ?", en: "Remote work, presented as a victory for employees, may it not isolate them even more?" },
+          { es: "Le télétravail, présenté comme une conquête des salariés, ne risque-t-il pas de les isoler davantage ?", en: "Isn't remote work, presented as a victory for employees, likely to isolate them even more?" },
           { es: "Dans quelle mesure la liberté d'expression doit-elle être limitée sur les réseaux sociaux ?", en: "To what extent should freedom of expression be limited on social media?" },
           { es: "En quoi la gratuité des transports publics peut-elle transformer la ville ?", en: "In what way can free public transport transform the city?" },
           { es: "Comment concilier croissance économique et protection de l'environnement ?", en: "How can economic growth and environmental protection be reconciled?" },
@@ -478,9 +478,9 @@ export const FR_C1_U18: Lesson[] = [
       {
         heading: "Direct questions: inversion and the key openers",
         body: [
-          "A direct problématique is written with inversion, never \"est-ce que\" (too oral) and never intonation alone. With a noun subject, French uses complex inversion: the noun stays first and a pronoun is added after the verb: \"Le progrès technique rend-il...?\", \"La liberté d'expression doit-elle...?\". A \"-t-\" appears between a vowel-final verb and il/elle: \"L'école peut-elle...?\" vs \"La ville favorise-t-elle...?\"",
-          "The key openers: \"Dans quelle mesure... ?\" (to what extent), \"En quoi... ?\" (in what way / how far), \"Peut-on affirmer que... ?\" (can we claim that), \"Faut-il... ?\" (should we), \"Comment expliquer que... ?\" (how can we explain that), followed by the subjunctive because the fact is being questioned: \"Comment expliquer que les jeunes lisent moins ?\".",
-          "\"Ne... pas\" in the question (\"ne risque-t-il pas de...?\") is a rhetorical move that suggests your hypothesis. It's useful in moderation.",
+          "A direct problématique is written with inversion, never \"est-ce que\" (too oral) and never intonation alone. With a noun subject, French uses complex inversion: the noun stays first and a pronoun is added after the verb: \"Le progrès technique rend-il... ?\", \"La liberté d'expression doit-elle... ?\". A \"-t-\" appears between a vowel-final verb and il/elle: \"L'école peut-elle... ?\" vs \"La ville favorise-t-elle... ?\"",
+          "The key openers: \"Dans quelle mesure... ?\" (to what extent), \"En quoi... ?\" (in what way / how far), \"Peut-on affirmer que... ?\" (can we claim that), \"Faut-il... ?\" (should we), \"Comment expliquer que... ?\" (how can we explain that), which is followed by the subjunctive because the fact is being questioned: \"Comment expliquer que les jeunes lisent moins ?\".",
+          "\"Ne... pas\" in the question (\"ne risque-t-il pas de... ?\") is a rhetorical move that suggests your hypothesis. It's useful in moderation.",
         ],
         examples: [
           { es: "L'école peut-elle encore réduire les inégalités sociales ?", en: "Can schools still reduce social inequality?" },
@@ -883,7 +883,7 @@ export const FR_C1_U18: Lesson[] = [
             prompt: "Rewrite without je: Je trouve que la situation est préoccupante, d'après ces documents.",
             source: "It emerges from these documents that the situation is worrying.",
             answer: "Il ressort de ces documents que la situation est préoccupante.",
-            altAnswers: ["Il apparaît, à la lecture de ces documents, que la situation est préoccupante.", "Il ressort de ces documents que la situation est inquiétante.", "Il apparaît de ces documents que la situation est préoccupante.", "Ces documents montrent que la situation est préoccupante.", "Ces documents font apparaître une situation préoccupante."],
+            altAnswers: ["Il apparaît, à la lecture de ces documents, que la situation est préoccupante.", "Il ressort de ces documents que la situation est inquiétante.", "Ces documents montrent que la situation est préoccupante.", "Ces documents font apparaître une situation préoccupante."],
             explanation: "\"Il ressort de\" + source + \"que\" + indicative presents a conclusion as drawn from the evidence, not from you.",
           },
           {
@@ -1137,7 +1137,7 @@ export const FR_C1_U18: Lesson[] = [
           {
             type: "speak",
             text: "En effet, le télétravail supprime les temps de transport.",
-            tip: "\"En effet\": the t is pronounced: an-né-fè.",
+            tip: "\"En effet\": liaison on the n, and the final t is silent: an-né-fè.",
             explanation: "\"En effet\" introduces an argument that justifies what came before.",
           },
         ],
@@ -1472,7 +1472,7 @@ export const FR_C1_U18: Lesson[] = [
             prompt: "Translate into French (an essay, without je).",
             source: "It seems that the situation has improved since 2020.",
             answer: "Il semble que la situation se soit améliorée depuis 2020.",
-            altAnswers: ["Il semblerait que la situation se soit améliorée depuis 2020.", "Il semble que la situation s'est améliorée depuis 2020.", "La situation semble s'être améliorée depuis 2020."],
+            altAnswers: ["Il semblerait que la situation se soit améliorée depuis 2020.", "La situation semble s'être améliorée depuis 2020."],
             explanation: "\"Il semble que\" + subjunctive in careful writing: \"se soit améliorée\". \"Sembler\" + past infinitive is a neat alternative.",
           },
           {
@@ -1557,7 +1557,7 @@ export const FR_C1_U18: Lesson[] = [
           {
             type: "speak",
             text: "Force est de constater que les objectifs n'ont pas été atteints.",
-            tip: "\"Force est\": link the e of force to est with no pause.",
+            tip: "\"Force est\": the s sound of force runs straight into est: for-sè.",
             explanation: "A firm conclusion: \"force est de constater que\".",
           },
         ],
@@ -1597,7 +1597,7 @@ export const FR_C1_U18: Lesson[] = [
         en: "[To some extent], remote work promotes a better work-life balance.",
         sentence: "___, le télétravail favorise un meilleur équilibre entre vie privée et vie professionnelle.",
         answer: "Dans une certaine mesure",
-        altAnswers: ["Jusqu'à un certain point", "Dans une large mesure"],
+        altAnswers: ["Jusqu'à un certain point"],
         explanation: "\"Dans une certaine mesure\" limits the claim's scope.",
       },
       {
@@ -1734,7 +1734,7 @@ export const FR_C1_U18: Lesson[] = [
             question: "What did you hear?",
             options: ["Les écrans semblent nuire au sommeil.", "Les écrans semblaient nuire au sommeil.", "Les écrans sembleraient nuire au sommeil.", "Les écrans ne semblent pas nuire au sommeil."],
             correctIndex: 0,
-            explanation: "Present \"semblent\" (two syllables, final -ent silent) vs \"semblaient\" (é sound) vs \"sembleraient\" (three syllables).",
+            explanation: "Present \"semblent\" (final -ent silent) vs imperfect \"semblaient\" (ending in an è sound) vs conditional \"sembleraient\" (an extra syllable, -ble-rè).",
           },
         ],
       },
@@ -2130,13 +2130,13 @@ export const FR_C1_U18: Lesson[] = [
         heading: "Quoting and referring to sources",
         body: [
           "To attribute an idea: \"selon\" + name (\"Selon le sociologue Dominique Méda, ...\"), \"d'après\" + name or document, \"pour\" + name (\"Pour Montesquieu, ...\"). To introduce a quotation: \"comme le souligne X, « ... »\", \"comme l'écrit X\", \"X affirme que « ... »\". With \"comme\", the subject is often inverted: \"comme le rappelle l'économiste Thomas Piketty\".",
-          "A quotation must be integrated grammatically into your sentence or introduced with a colon: \"Comme l'écrivait Camus : « Mal nommer les choses, c'est ajouter au malheur du monde. »\" or \"Camus estimait que « mal nommer les choses, c'est ajouter au malheur du monde ».\" Notice that the full stop goes outside the guillemets when the quotation is embedded in your sentence, and inside when it's a complete sentence introduced by a colon.",
+          "A quotation must be integrated grammatically into your sentence or introduced with a colon: \"Comme l'écrivait Camus : « Mal nommer un objet, c'est ajouter au malheur de ce monde. »\" or \"Camus estimait que « mal nommer un objet, c'est ajouter au malheur de ce monde ».\" Notice that the full stop goes outside the guillemets when the quotation is embedded in your sentence, and inside when it's a complete sentence introduced by a colon.",
           "In the DALF synthèse, quotations are forbidden; in the essai, a short, well-chosen one is an asset, especially as an accroche or ouverture. Don't invent quotations: an approximate reference (\"comme le soulignait déjà Rousseau\") is safer than a misquote.",
         ],
         examples: [
           { es: "Selon la sociologue Dominique Méda, le travail ne se réduit pas à sa dimension économique.", en: "According to the sociologist Dominique Meda, work cannot be reduced to its economic dimension." },
           { es: "Comme le rappelle l'économiste Thomas Piketty, les inégalités de patrimoine se sont accrues.", en: "As the economist Thomas Piketty points out, wealth inequality has increased." },
-          { es: "Comme l'écrivait Camus : « Mal nommer les choses, c'est ajouter au malheur du monde. »", en: "As Camus wrote: To name things wrongly is to add to the misery of the world." },
+          { es: "Comme l'écrivait Camus : « Mal nommer un objet, c'est ajouter au malheur de ce monde. »", en: "As Camus wrote: 'To misname an object is to add to the misery of this world.'" },
           { es: "D'après le premier document, la moitié des salariés souhaiteraient travailler moins.", en: "According to the first document, half of employees would like to work less." },
           { es: "Pour Montesquieu, la séparation des pouvoirs garantit la liberté.", en: "For Montesquieu, the separation of powers guarantees freedom." },
         ],
@@ -2154,10 +2154,10 @@ export const FR_C1_U18: Lesson[] = [
             type: "multiple-choice",
             question: "Which quotation is correctly integrated and punctuated?",
             options: [
-              "Camus estimait que « mal nommer les choses, c'est ajouter au malheur du monde ».",
-              "Camus estimait que \"Mal nommer les choses, c'est ajouter au malheur du monde.\"",
-              "Camus estimait que : « Mal nommer les choses, c'est ajouter au malheur du monde ».",
-              "Camus estimait « que mal nommer les choses c'est ajouter au malheur du monde. »",
+              "Camus estimait que « mal nommer un objet, c'est ajouter au malheur de ce monde ».",
+              "Camus estimait que \"Mal nommer un objet, c'est ajouter au malheur de ce monde.\"",
+              "Camus estimait que : « Mal nommer un objet, c'est ajouter au malheur de ce monde ».",
+              "Camus estimait « que mal nommer un objet c'est ajouter au malheur de ce monde. »",
             ],
             correctIndex: 0,
             explanation: "Embedded after \"que\": French guillemets, no colon, no capital, and the final full stop outside.",
@@ -2168,7 +2168,7 @@ export const FR_C1_U18: Lesson[] = [
         heading: "French typography",
         body: [
           "French typography differs from English in ways examiners notice. Before the two-part punctuation marks \":\", \";\", \"!\", \"?\" there is a space (a narrow non-breaking one in print; on a handwritten exam, simply leave a gap): \"Pourquoi ? Parce que...\". No space before the comma or full stop. Quotation marks are guillemets « » with a space inside: « comme ceci ». Nested quotations use English-style quotation marks inside guillemets.",
-          "Other conventions: no capital letter on months, days, nationalities used as adjectives, or languages (\"le français\", \"en mars\", \"un auteur américain\"), but a capital for the noun of nationality (\"les Américains\"). Titles of works in italics (underlined by hand), with a capital only on the first word and proper nouns in most styles: \"Le Rouge et le Noir\", \"La Peste\". Numbers: a space every three digits and a decimal comma: 1 200 000 ; 3,5 %.",
+          "Other conventions: no capital letter on months, days, nationalities used as adjectives, or languages (\"le français\", \"en mars\", \"un auteur américain\"), but a capital for the noun of nationality (\"les Américains\"). Titles of works in italics (underlined by hand), with a capital on the first word and proper nouns in most styles: \"La Peste\", \"Les Misérables\" (symmetrical titles such as \"Le Rouge et le Noir\" also capitalise the second noun). Numbers: a space every three digits and a decimal comma: 1 200 000 ; 3,5 %.",
           "Ordinal abbreviations: \"1er\", \"2e\" (not 2ème in careful style), \"XXe siècle\" for the twentieth century, written in small capital Roman numerals.",
         ],
         examples: [
@@ -2253,8 +2253,8 @@ export const FR_C1_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "[As Camus wrote]: To name things wrongly is to add to the misery of the world.",
-        sentence: "___ : « Mal nommer les choses, c'est ajouter au malheur du monde. »",
+        en: "[As Camus wrote]: 'To misname an object is to add to the misery of this world.'",
+        sentence: "___ : « Mal nommer un objet, c'est ajouter au malheur de ce monde. »",
         answer: "Comme l'écrivait Camus",
         altAnswers: ["Comme l'a écrit Camus", "Comme l'écrit Camus"],
         explanation: "\"Comme l'écrivait\" + author, then a colon and the quotation in guillemets.",
@@ -2589,8 +2589,8 @@ export const FR_C1_U18: Lesson[] = [
       {
         heading: "Contracting a paragraph",
         body: [
-          "Here is a paragraph (85 words) from an article in a regional newspaper: \"À Villard-de-Lans, à Autrans comme à Méaudre, les remontées mécaniques tournent de moins en moins. Faute de neige, certaines stations de moyenne montagne ont dû fermer plusieurs semaines au cœur de l'hiver, privant les commerçants d'une part importante de leur chiffre d'affaires. Les canons à neige, présentés comme une solution, coûtent cher, consomment beaucoup d'eau et ne fonctionnent qu'en dessous d'une certaine température. Autrement dit, ils ne font que retarder l'inévitable.\"",
-          "A contraction in about 25 words: \"Le manque de neige contraint les stations de moyenne montagne à fermer, au détriment des commerçants. Coûteux et gourmands en eau, les canons à neige ne font que retarder l'inévitable.\" The three villages became \"les stations de moyenne montagne\"; the cause became a noun (\"le manque de neige\"); three facts about snow cannons became two adjectives in apposition; and the last idea, the most important, is kept almost intact (a short fixed phrase is acceptable).",
+          "Here is a paragraph (about 80 words) from an article in a regional newspaper: \"À Villard-de-Lans, à Autrans comme à Méaudre, les remontées mécaniques tournent de moins en moins. Faute de neige, certaines stations de moyenne montagne ont dû fermer plusieurs semaines au cœur de l'hiver, privant les commerçants d'une part importante de leur chiffre d'affaires. Les canons à neige, présentés comme une solution, coûtent cher, consomment beaucoup d'eau et ne fonctionnent qu'en dessous d'une certaine température. Autrement dit, ils ne font que retarder l'inévitable.\"",
+          "A contraction in about 30 words: \"Le manque de neige contraint les stations de moyenne montagne à fermer, au détriment des commerçants. Coûteux et gourmands en eau, les canons à neige ne font que retarder l'inévitable.\" The three villages became \"les stations de moyenne montagne\"; the cause became a noun (\"le manque de neige\"); three facts about snow cannons became two adjectives in apposition; and the last idea, the most important, is kept almost intact (a short fixed phrase is acceptable).",
           "Notice \"ne font que\" + infinitive (only do, merely): a restrictive structure from Unit 4 that's ideal for condensing.",
         ],
         examples: [
@@ -2796,7 +2796,7 @@ export const FR_C1_U18: Lesson[] = [
       {
         heading: "The whole: an Advanced paragraph",
         body: [
-          "Here is a full paragraph combining everything: \"Certes, le recours aux outils d'intelligence artificielle facilite la fraude, l'authenticité des travaux ne pouvant plus être garantie. Or, les universités ont beau multiplier les interdictions, les usages persistent. Dès lors, plutôt que de proscrire ces outils, il conviendrait d'en encadrer l'usage et de repenser les modalités d'évaluation. En revanche, il semble indispensable que la part de l'oral soit renforcée, l'échange direct permettant de vérifier la compréhension réelle des étudiants.\"",
+          "Here is a full paragraph combining everything: \"Certes, le recours aux outils d'intelligence artificielle facilite la fraude, l'authenticité des travaux ne pouvant plus être garantie. Or, les universités ont beau multiplier les interdictions, les usages persistent. Dès lors, plutôt que de proscrire ces outils, il conviendrait d'en encadrer l'usage et de repenser les modalités d'évaluation. Il semble en outre indispensable que la part de l'oral soit renforcée, l'échange direct permettant de vérifier la compréhension réelle des étudiants.\"",
           "Labels: concession (\"certes\"), absolute participles (twice), \"or\" + \"avoir beau\", \"dès lors\" + impersonal \"il conviendrait de\", \"en\" before the infinitive, \"il semble indispensable que\" + subjunctive, the passive \"soit renforcée\", nominalisations everywhere. It reads as academic, yet each sentence is short enough to follow.",
         ],
         examples: [

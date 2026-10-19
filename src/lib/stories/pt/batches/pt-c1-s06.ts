@@ -136,7 +136,7 @@ export const PT_C1_S06_STORIES: Story[] = [
     subtitle: `In 1889 a photographer from Rio keeps a diary while taking a coffee baron's family portrait on a failing estate.`,
     paragraphs: [
       `Vassouras, 3 de maio de 1889. Cheguei à Fazenda Santa Rita depois de seis horas de trem e duas de carroça, com a câmera, as chapas de vidro e um mau humor que a paisagem não ajudou a curar. Os morros, que meu pai me descrevia cobertos de cafezais até o horizonte, estão pelados, com a terra vermelha à mostra como carne viva. O barão me recebeu na varanda, de sobrecasaca, apesar do calor. Quer um retrato da família “para a posteridade”. Pagou adiantado, o que me surpreendeu: dizem no Rio que metade dos barões do Vale vive de empréstimo.`,
-      `4 de maio. A casa-grande tem vinte e dois quartos, dos quais quinze estão fechados. Os móveis vieram de Paris há trinta anos e nunca foram trocados; há goteiras no salão de baile. O barão fala do café como quem fala de um filho que foi estudar fora e vai voltar a qualquer momento. Ontem, no jantar, me explicou que a colheita deste ano só foi fraca “por causa da Lei”. Não disse qual lei. Não precisava: faz um ano que a Princesa assinou a Abolição, e desde então os cafezais estão vazios.`,
+      `4 de maio. A casa-grande tem vinte e dois quartos, dos quais quinze estão fechados. Os móveis vieram de Paris há trinta anos e nunca foram trocados; há goteiras no salão de baile. O barão fala do café como quem fala de um filho que foi estudar fora e vai voltar a qualquer momento. Ontem, no jantar, me explicou que a colheita deste ano só foi fraca “por causa da Lei”. Não disse qual lei. Não precisava: faz quase um ano que a Princesa assinou a Abolição, e desde então os cafezais estão vazios.`,
       `6 de maio. Escolhemos o cenário. O barão quer ser fotografado no terreiro de secagem, com a família ao redor e, ao fundo, uma montanha de sacas de café com a marca da fazenda. Problema: não há sacas. As poucas que a colheita rendeu já foram vendidas para pagar o banco. Ele não se abalou. Mandou o capataz encher sessenta sacas vazias com palha de milho e empilhá-las no terreiro. “Na fotografia ninguém vê o que está dentro”, disse. É verdade. É a primeira coisa que se aprende neste ofício.`,
       `7 de maio. Fiz o retrato. O barão no centro, a mão no colete; a baronesa sentada; as duas filhas solteiras de branco; o filho mais velho, que estuda Direito em São Paulo e não esconde o tédio, de pé à direita. Atrás, a montanha de palha. Pedi que ficassem imóveis por doze segundos. Ficaram. Há gente que nasceu para posar.`,
       `8 de maio. Hoje de manhã a baronesa veio falar comigo em particular, o que me deixou constrangido até que eu entendesse o pedido. Quer outro retrato, que o marido não precisa saber: o de Joaquina, a cozinheira. Joaquina nasceu na fazenda, foi escravizada a vida inteira e, quando veio a liberdade, foi a única que ficou. A baronesa diz que é por lealdade. A própria Joaquina, a quem perguntei discretamente enquanto ela depenava uma galinha, disse outra coisa: “Ficar ou ir, moço, dá no mesmo pra quem tem setenta anos e nenhum lugar. Mas eu escolhi. Isso eles não entendem: que eu escolhi.”`,
@@ -271,7 +271,7 @@ export const PT_C1_S06_STORIES: Story[] = [
     questions: [
       {
         question: `What did Brazil need in the last match against Uruguay?`,
-        options: [`A win by two goals`, `Just a draw`, `A win of any kind`, `Five goals`],
+        options: [`A win by two goals`, `Just a tie`, `A win of any kind`, `Five goals`],
         correctIndex: 1,
         explanation: `"Na última partida, contra o Uruguai, bastava um empate."`,
       },
@@ -279,7 +279,7 @@ export const PT_C1_S06_STORIES: Story[] = [
         question: `How did the crowd react to the final whistle?`,
         options: [
           `They booed the referee.`,
-          `They invaded the pitch.`,
+          `They invaded the field.`,
           `They left slowly in silence, heads down.`,
           `They applauded the Uruguayans.`,
         ],
@@ -289,7 +289,7 @@ export const PT_C1_S06_STORIES: Story[] = [
       {
         question: `What did the narrator's father do with the banner after 1950?`,
         options: [
-          `He hid it at the top of the wardrobe and never talked about it.`,
+          `He hid it at the top of the closet and never talked about it.`,
           `He burned it in the backyard.`,
           `He gave it back to Seu Almir.`,
           `He sold it to a museum.`,
@@ -324,7 +324,7 @@ export const PT_C1_S06_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "o mugido", en: "moo", forms: ["mugido"] },
     { es: "o chocalho", en: "cowbell", forms: ["chocalho"] },
     { es: "a novilha", en: "heifer", forms: ["novilhas"] },
-    { es: "a mangação", en: "mockery (North-East)", forms: ["mangação"] },
+    { es: "a mangação", en: "mockery (Northeast)", forms: ["mangação"] },
     { es: "o tamborete", en: "stool", forms: ["tamborete"] },
   ],
   "pt-o-peso-do-ouro": [
@@ -358,7 +358,7 @@ export const PT_C1_S06_GLOSSES: Record<string, StoryGloss[]> = {
   "pt-cartas-do-planalto": [
     { es: "o planalto", en: "plateau, highlands", forms: ["planalto"] },
     { es: "o formigueiro", en: "anthill", forms: ["formigueiro"] },
-    { es: "a forma", en: "wooden mould for concrete", forms: ["forma"] },
+    { es: "a forma", en: "wooden mold for concrete", forms: ["forma"] },
     { es: "o holofote", en: "floodlight", forms: ["holofote"] },
     { es: "a promessa", en: "vow made to a saint", forms: ["promessa"] },
     { es: "a laje", en: "concrete slab", forms: ["laje"] },
@@ -370,15 +370,15 @@ export const PT_C1_S06_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "desmentir", en: "to contradict, call a liar", forms: ["desmente"] },
   ],
   "pt-a-faixa-de-1950": [
-    { es: "o letreiro", en: "painted shop sign", forms: ["letreiros"] },
-    { es: "o açougue", en: "butcher's shop", forms: ["açougue"] },
-    { es: "o bonde", en: "tram", forms: ["bonde"] },
-    { es: "o empate", en: "draw, tie", forms: ["empate"] },
+    { es: "o letreiro", en: "hand-painted store sign", forms: ["letreiros"] },
+    { es: "o açougue", en: "butcher shop", forms: ["açougue"] },
+    { es: "o bonde", en: "streetcar", forms: ["bonde"] },
+    { es: "o empate", en: "tie (game)", forms: ["empate"] },
     { es: "a faixa", en: "banner", forms: ["faixa"] },
     { es: "o lampião", en: "oil lamp", forms: ["lampião"] },
     { es: "o miolo", en: "inside, middle part", forms: ["miolo"] },
     { es: "desabar", en: "to collapse", forms: ["desabar"] },
-    { es: "o ponta", en: "winger (football)", forms: ["ponta"] },
+    { es: "o ponta", en: "winger (soccer)", forms: ["ponta"] },
     { es: "vaiar", en: "to boo", forms: ["vaiou"] },
     { es: "flagrar", en: "to catch in the act", forms: ["flagradas"] },
     { es: "desbotado", en: "faded", forms: ["desbotada"] },

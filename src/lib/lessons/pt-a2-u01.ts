@@ -285,10 +285,10 @@ export const PT_A2_U01: Lesson[] = [
         ],
         examples: [
           { es: "Eu abri a janela.", en: "I opened the window." },
-          { es: "A loja abriu às nove.", en: "The shop opened at nine." },
+          { es: "A loja abriu às nove.", en: "The store opened at nine." },
           { es: "Nós dividimos a conta.", en: "We split the bill." },
           { es: "O ônibus partiu às seis da manhã.", en: "The bus left at six in the morning." },
-          { es: "Eles assistiram a um filme no sábado.", en: "They watched a film on Saturday." },
+          { es: "Eles assistiram a um filme no sábado.", en: "They watched a movie on Saturday." },
         ],
         checkpoint: [
           {
@@ -911,7 +911,7 @@ export const PT_A2_U01: Lesson[] = [
           { es: "Nós falamos com o gerente ontem.", en: "We spoke to the manager yesterday." },
           { es: "Nós comemos muito arroz e feijão.", en: "We eat a lot of rice and beans." },
           { es: "Ontem nós comemos na casa da Beatriz.", en: "Yesterday we ate at Beatriz's house." },
-          { es: "Nós abrimos a loja às nove.", en: "We open (or opened) the shop at nine." },
+          { es: "Nós abrimos a loja às nove.", en: "We open (or opened) the store at nine." },
         ],
         checkpoint: [
           {
@@ -933,10 +933,10 @@ export const PT_A2_U01: Lesson[] = [
             type: "multiple-choice",
             question: "You read \"Nós abrimos a loja às nove.\" with no other context. What does it mean?",
             options: [
-              "We open or we opened the shop at nine: only context can tell.",
-              "We opened the shop at nine, never we open.",
-              "We open the shop at nine, never we opened.",
-              "They opened the shop at nine.",
+              "We open or we opened the store at nine: only context can tell.",
+              "We opened the store at nine, never we open.",
+              "We open the store at nine, never we opened.",
+              "They opened the store at nine.",
             ],
             correctIndex: 0,
             explanation: "\"Abrimos\" is both the present and the perfeito of \"abrir\" for nós. They opened would be \"eles abriram\".",
@@ -987,10 +987,10 @@ export const PT_A2_U01: Lesson[] = [
             audio: "Ontem nós abrimos a loja às sete.",
             question: "What does it mean?",
             options: [
-              "Yesterday we opened the shop at seven.",
-              "We open the shop at seven every day.",
-              "Yesterday they opened the shop at seven.",
-              "Yesterday we opened the shop at eleven.",
+              "Yesterday we opened the store at seven.",
+              "We open the store at seven every day.",
+              "Yesterday they opened the store at seven.",
+              "Yesterday we opened the store at eleven.",
             ],
             correctIndex: 0,
             explanation: "\"Ontem\" makes \"abrimos\" past. They opened would be \"eles abriram\", and \"sete\" is seven.",
@@ -1166,7 +1166,7 @@ export const PT_A2_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Today we opened the shop at nine.",
+        source: "Today we opened the store at nine.",
         answer: "Hoje a gente abriu a loja às nove.",
         altAnswers: [
           "Hoje nós abrimos a loja às nove.",
@@ -1279,7 +1279,7 @@ export const PT_A2_U01: Lesson[] = [
           "It's the usual answer to a \"já\" question about experience: \"Você já dançou forró?\" \"Nunca dancei.\" or just \"Nunca.\" Compare it with \"ainda não\", which suggests it might still happen. \"Nunca\" only reports that it hasn't happened.",
         ],
         examples: [
-          { es: "Nunca viajei de avião.", en: "I've never travelled by plane." },
+          { es: "Nunca viajei de avião.", en: "I've never traveled by plane." },
           { es: "Eu nunca comi açaí.", en: "I've never had açaí." },
           { es: "Meus pais nunca visitaram Manaus.", en: "My parents have never visited Manaus." },
           { es: "Você já dançou forró? Nunca dancei.", en: "Have you ever danced forró? I never have." },
@@ -1290,7 +1290,7 @@ export const PT_A2_U01: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I've never travelled by plane.",
+            source: "I've never traveled by plane.",
             answer: "Nunca viajei de avião.",
             altAnswers: ["Eu nunca viajei de avião."],
             explanation: "I've never... is \"nunca\" + perfeito: \"nunca viajei\". It takes no \"não\", and by plane is \"de avião\".",
@@ -1513,7 +1513,7 @@ export const PT_A2_U01: Lesson[] = [
         examples: [
           { es: "Que legal! Qual filme?", en: "Cool! Which movie?" },
           { es: "Que pena! Você trabalhou no sábado?", en: "What a shame! You worked on Saturday?" },
-          { es: "Nossa, vocês correram dez quilômetros?", en: "Wow, you ran ten kilometres?" },
+          { es: "Nossa, vocês correram dez quilômetros?", en: "Wow, you ran ten kilometers?" },
           { es: "Sério? Eu também fiquei em casa.", en: "Really? I stayed home too." },
           { es: "Que bom! Vocês gostaram do restaurante?", en: "Great! Did you like the restaurant?" },
         ],
@@ -1589,7 +1589,7 @@ export const PT_A2_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Wow, you ran ten kilometres? (to a colleague)",
+        source: "Wow, you ran ten kilometers? (to a colleague)",
         answer: "Nossa, você correu dez quilômetros?",
         altAnswers: ["Nossa, você correu 10 quilômetros?"],
         explanation: "\"Correr\" becomes \"correu\" in the você form, with the stress on -eu. \"Nossa!\" is the Brazilian wow.",
@@ -1693,7 +1693,7 @@ export const PT_A2_U01: Lesson[] = [
           { es: "Ontem nós falamos com a professora.", en: "Yesterday we talked to the teacher." },
           { es: "No sábado a gente comeu na casa da Dona Maria.", en: "On Saturday we ate at Dona Maria's." },
           { es: "Semana passada eu vendi minha bicicleta.", en: "Last week I sold my bike." },
-          { es: "Ontem nós abrimos a loja às oito.", en: "Yesterday we opened the shop at eight." },
+          { es: "Ontem nós abrimos a loja às oito.", en: "Yesterday we opened the store at eight." },
           { es: "Eles assistiram ao jogo no bar.", en: "They watched the game at the bar." },
         ],
         checkpoint: [

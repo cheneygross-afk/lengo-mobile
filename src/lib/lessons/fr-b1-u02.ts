@@ -906,7 +906,7 @@ export const FR_B1_U02: Lesson[] = [
         type: "speak",
         text: "Il faut qu'il finisse avant six heures.",
         prompt: "Say it in French: He has to finish before six.",
-        tip: "\"Finisse\" has three syllables: fi-ni-sse.",
+        tip: "\"Finisse\" has two syllables, fi-nisse, ending in a clear s sound.",
         explanation: "Ils finissent → \"qu'il finisse\".",
       },
     ],
@@ -992,7 +992,7 @@ export const FR_B1_U02: Lesson[] = [
         body: [
           "Now the choice. \"Il faut\" + infinitive states a general necessity: \"il faut partir\" (it's time to go / we must go), \"il faut réserver\" (you have to book). It doesn't name anyone.",
           "\"Il faut que\" + subjunctive names who has to do it: \"il faut que vous partiez\" (you have to leave), \"il faut que Thomas réserve\". If the person is obvious from context you can often use either; but as soon as you want to point at someone, you need \"que\".",
-          "You can also put a pronoun with \"falloir\": \"il me faut un stylo\" (I need a pen). But \"*il me faut partir\" is old-fashioned; in modern speech, \"il faut que je parte\".",
+          "You can also put a pronoun with \"falloir\": \"il me faut un stylo\" (I need a pen). But \"il me faut partir\" sounds formal or literary; in everyday speech, say \"il faut que je parte\".",
         ],
         examples: [
           { es: "Il faut réserver à l'avance.", en: "You have to book in advance." },
@@ -1071,8 +1071,14 @@ export const FR_B1_U02: Lesson[] = [
         prompt: "Translate into French.",
         source: "You have to book in advance.",
         answer: "Il faut réserver à l'avance.",
-        altAnswers: ["Il faut réserver en avance."],
-        explanation: "A general rule: \"il faut\" + infinitive.",
+        altAnswers: [
+          "Il faut réserver en avance.",
+          "Il faut que vous réserviez à l'avance.",
+          "Il faut que tu réserves à l'avance.",
+          "Il faut que vous réserviez en avance.",
+          "Il faut que tu réserves en avance.",
+        ],
+        explanation: "As a general rule (you = anyone): \"il faut\" + infinitive. If you mean the person you're talking to, \"il faut que vous réserviez / que tu réserves\" is also right.",
       },
       {
         type: "fill-blank",
@@ -1096,7 +1102,8 @@ export const FR_B1_U02: Lesson[] = [
         en: "To succeed, you [have to work].",
         sentence: "Pour réussir, ___.",
         answer: "il faut travailler",
-        explanation: "A general truth: \"il faut\" + infinitive.",
+        altAnswers: ["on doit travailler"],
+        explanation: "A general truth (you = anyone): \"il faut\" + infinitive, with no subject named.",
       },
       {
         type: "word-order",
@@ -1107,10 +1114,10 @@ export const FR_B1_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which form is the subjunctive of « nous oublions »?",
+        question: "How do you say: We mustn't forget. (Il ne faut pas...)",
         options: ["que nous oublions", "que nous oublieons", "que nous oubliions", "que nous oubliyons"],
         correctIndex: 2,
-        explanation: "\"Oubli-\" + \"-ions\" gives a double i.",
+        explanation: "\"Il ne faut pas que nous oubliions\": stem \"oubli-\" + \"-ions\" gives a double i. \"Oublions\" without the second i is the present.",
       },
       {
         type: "listen-choose",
@@ -1177,8 +1184,8 @@ export const FR_B1_U02: Lesson[] = [
       {
         heading: "Exam week",
         body: [
-          "Let's apply it to a student's week before exams. Statements first: « Je révise tous les soirs. Tu dors peu. Nous lisons nos notes. Vous répondez aux questions. Ils choisissent un sujet. »",
-          "Now the necessities: « Il faut que je révise tous les soirs. Il faut que tu dormes plus. Il faut que nous lisions nos notes. Il faut que vous répondiez aux questions. Il faut qu'ils choisissent un sujet. » Notice which ones change sound: \"dormes\", \"lisions\", \"répondiez\", \"choisissent\" (same as the present for ils).",
+          "Let's apply it to a student's week before exams. Statements first: \"Je révise tous les soirs. Tu dors peu. Nous lisons nos notes. Vous répondez aux questions. Ils choisissent un sujet.\"",
+          "Now the necessities: \"Il faut que je révise tous les soirs. Il faut que tu dormes plus. Il faut que nous lisions nos notes. Il faut que vous répondiez aux questions. Il faut qu'ils choisissent un sujet.\" Notice which ones change sound: \"dormes\", \"lisions\", \"répondiez\", \"choisissent\" (same as the present for ils).",
         ],
         examples: [
           { es: "Il faut que je révise tous les soirs.", en: "I have to revise every evening." },
@@ -1309,7 +1316,7 @@ export const FR_B1_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Transform « Vous dormez peu » into a necessity.",
+        question: "\"Vous dormez peu.\" How do you tell them: You need to sleep more?",
         options: [
           "Il faut que vous dormez plus.",
           "Il faut que vous dormes plus.",
@@ -1404,7 +1411,7 @@ export const FR_B1_U02: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "In which sentence is « parlions » a subjunctive?",
+            question: "In which sentence is \"parlions\" a subjunctive?",
             options: [
               "Avant, nous parlions tous les jours.",
               "Nous parlions quand il est arrivé.",
@@ -1750,11 +1757,11 @@ export const FR_B1_U02: Lesson[] = [
         options: [
           "Il faut que nous attendions.",
           "Il faut que nous attendons.",
-          "Il faut nous attendre que.",
+          "Il faut que nous attendre.",
           "Il faut que nous de attendre.",
         ],
         correctIndex: 0,
-        explanation: "The nous subjunctive: \"attendions\".",
+        explanation: "The nous subjunctive: \"attendions\". \"Attendons\" is the present, and the infinitive can't follow \"que nous\".",
       },
       {
         type: "multiple-choice",
@@ -1985,7 +1992,7 @@ export const FR_B1_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Complete: « Je pense que vous ___ trop. » (travailler)",
+        question: "How do you say: I think you work too much? (formal) \"Je pense que vous ___ trop.\"",
         options: ["travailliez", "travailler", "travaillent", "travaillez"],
         correctIndex: 3,
         explanation: "\"Penser que\" in the affirmative introduces a statement: indicative.",

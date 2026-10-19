@@ -49,9 +49,9 @@ export const PT_B1_S06_STORIES: Story[] = [
     slug: "pt-a-areia-de-noronha",
     level: "PT-B1",
     title: `A areia de Noronha`,
-    subtitle: `On the last day of a family holiday in Fernando de Noronha, an eight-year-old girl tries to take a little of the island home for her grandmother.`,
+    subtitle: `On the last day of a family vacation in Fernando de Noronha, an eight-year-old girl tries to take a little of the island home for her grandmother.`,
     paragraphs: [
-      `Manuela tinha oito anos e nunca tinha visto o mar antes daquela viagem. Ela morava em Goiânia, no meio do Brasil, a mais de mil quilômetros da praia mais perto. Quando os pais anunciaram que iam passar uma semana em Fernando de Noronha, ela pulou tanto no sofá que quebrou uma mola.`,
+      `Manuela tinha oito anos e nunca tinha visto o mar antes daquela viagem. Ela morava em Goiânia, no meio do Brasil, a centenas de quilômetros da praia mais próxima. Quando os pais anunciaram que iam passar uma semana em Fernando de Noronha, ela pulou tanto no sofá que quebrou uma mola.`,
       `A ilha foi ainda melhor do que ela tinha imaginado. Ela viu golfinhos pulando na baía, nadou ao lado de uma tartaruga e aprendeu que, em Noronha, o número de turistas é controlado para que a natureza seja protegida. Um guia explicou que era proibido levar qualquer coisa da ilha: conchas, pedras, nem um grãozinho de areia. “Tudo o que é de Noronha fica em Noronha”, ele disse.`,
       `Manuela ouviu, mas pensou na avó, Dona Nilza, que tinha setenta e quatro anos e também nunca tinha visto o mar. A avó tinha pedido para ela trazer uma lembrança. Então, no último dia, sem ninguém perceber, a menina encheu um pote de geleia vazio com a areia clarinha da praia do Sancho e escondeu o pote dentro da mochila, embaixo de um casaco.`,
       `No aeroporto, a mochila passou pela máquina de raio X e parou. Um funcionário alto, de bigode, pediu para a família esperar. Ele abriu a mochila com calma, tirou o casaco e levantou o pote de geleia contra a luz. Os pais de Manuela ficaram vermelhos. A menina começou a chorar antes mesmo de alguém dizer qualquer coisa.`,
@@ -62,7 +62,7 @@ export const PT_B1_S06_STORIES: Story[] = [
     questions: [
       {
         question: `What did the guide say about taking things from the island?`,
-        options: [`That it was forbidden to take anything, not even a grain of sand`, `That tourists could take a few shells`, `That only sand could be taken`, `That things could be bought in the shops`],
+        options: [`That it was forbidden to take anything, not even a grain of sand`, `That tourists could take a few shells`, `That only sand could be taken`, `That things could be bought in the stores`],
         correctIndex: 0,
         explanation: `"Era proibido levar qualquer coisa da ilha: conchas, pedras, nem um grãozinho de areia."`,
       },
@@ -74,7 +74,7 @@ export const PT_B1_S06_STORIES: Story[] = [
       },
       {
         question: `What did seu Edvaldo suggest instead?`,
-        options: [`Buying sand from a shop`, `Taking photos of the beach`, `Sending the sand by post`, `Bringing the grandmother to the island`],
+        options: [`Buying sand from a store`, `Taking photos of the beach`, `Sending the sand by mail`, `Bringing the grandmother to the island`],
         correctIndex: 3,
         explanation: `He said: "Traga a sua avó aqui. A areia vai esperar por ela."`,
       },
@@ -114,7 +114,7 @@ export const PT_B1_S06_STORIES: Story[] = [
         explanation: `He thought: "Deve ter uma comunidade aqui perto".`,
       },
       {
-        question: `How did Valdir realise he was walking in circles?`,
+        question: `How did Valdir realize he was walking in circles?`,
         options: [`The GPS told him.`, `He heard his own voice.`, `He saw the same fallen tree with the same machete mark for the third time.`, `He found his truck again.`],
         correctIndex: 2,
         explanation: `He saw "a mesma árvore caída, com a mesma marca de facão, pela terceira vez".`,
@@ -134,7 +134,7 @@ export const PT_B1_S06_STORIES: Story[] = [
     subtitle: `A young man from São Paulo loses his phone on the first day of a five-day boat trip up the Amazon from Belém to Manaus.`,
     paragraphs: [
       `Lucas tinha vinte e quatro anos e um plano: subir o rio Amazonas de barco, de Belém até Manaus, e postar tudo nas redes sociais. Comprou uma rede colorida no Ver-o-Peso, pagou a passagem mais barata e embarcou num barco de três andares, onde centenas de pessoas dormiam em redes penduradas lado a lado, como roupa num varal.`,
-      `Na primeira tarde, o pôr do sol sobre o rio estava tão bonito que ele subiu no corrimão para tirar uma selfie. O barco balançou. O celular escorregou da mão dele, bateu no casco e desapareceu na água marrom. Lucas ficou olhando para o rio, sem acreditar. Atrás dele, uma senhora gorda, de vestido florido, comentou: “Pronto, meu filho. Agora você vai ter que conversar com gente.”`,
+      `Na primeira tarde, o pôr do sol sobre o rio estava tão bonito que ele subiu no corrimão para tirar uma selfie. O barco balançou. O celular escorregou da mão dele, bateu no casco e desapareceu na água marrom. Lucas ficou olhando para o rio, sem acreditar. Atrás dele, uma senhora de cabelo grisalho e vestido florido, comentou: “Pronto, meu filho. Agora você vai ter que conversar com gente.”`,
       `Era Dona Socorro, que fazia aquela viagem todo mês para vender farinha e castanha. Ela conhecia todo mundo no barco: o comandante, o cozinheiro, as crianças que corriam entre as redes. No segundo dia, apresentou Lucas a um menino chamado Kauã, que ensinou o rapaz a amarrar a rede do jeito certo, para não acordar com as costas doendo.`,
       `Sem celular, Lucas descobriu que o tempo passava de outro jeito. Ele ficava horas olhando a margem: casas de madeira em cima de palafitas, crianças que remavam canoas até o barco para vender açaí, botos cor-de-rosa que apareciam e sumiam. Comprou um caderno numa parada em Santarém e começou a desenhar tudo o que via. Desenhava mal, mas não parava.`,
       `À noite, Dona Socorro contava histórias. Falou da cheia de 2009, quando a água entrou na casa dela, e do marido, que tinha sido pescador e conhecia o rio “como a palma da mão”. Lucas contou da vida em São Paulo, do trânsito, do apartamento pequeno. “Lá eu tenho mil amigos no celular”, disse ele, “e ninguém para conversar de verdade.” Ela riu. “Aqui é o contrário.”`,
@@ -185,7 +185,7 @@ export const PT_B1_S06_STORIES: Story[] = [
     questions: [
       {
         question: `How did Anderson do his job at the start of the story?`,
-        options: [`He repeated the same numbers and jokes every day and no longer looked at the water.`, `He told stories about the history of the falls.`, `He worked only on the Argentinian side.`, `He let the tourists walk alone.`],
+        options: [`He repeated the same numbers and jokes every day and no longer looked at the water.`, `He told stories about the history of the falls.`, `He worked only on the Argentine side.`, `He let the tourists walk alone.`],
         correctIndex: 0,
         explanation: `"Ele repetia esses números todos os dias, com a mesma voz e as mesmas piadas, e já nem olhava mais para a água."`,
       },
@@ -196,7 +196,7 @@ export const PT_B1_S06_STORIES: Story[] = [
         explanation: `She asked: "O senhor pode me contar como ela é?"`,
       },
       {
-        question: `Why is the water of the falls cream-coloured, according to Anderson?`,
+        question: `Why is the water of the falls cream-colored, according to Anderson?`,
         options: [`Because of the birds`, `Because of the rainbow`, `Because of the mist`, `Because of the red earth`],
         correctIndex: 3,
         explanation: `The water "não era branca, mas creme, por causa da terra vermelha".`,
@@ -232,15 +232,15 @@ export const PT_B1_S06_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "o grão", en: "grain", forms: ["grãozinho", "grão"] },
     { es: "o pote", en: "jar", forms: ["pote"] },
     { es: "a geleia", en: "jam", forms: ["geleia"] },
-    { es: "o bigode", en: "moustache", forms: ["bigode"] },
+    { es: "o bigode", en: "mustache", forms: ["bigode"] },
     { es: "agachar-se", en: "to crouch down", forms: ["agachou"] },
     { es: "o soluço", en: "sob", forms: ["soluços"] },
     { es: "desembarcar", en: "to get off (a plane or boat), arrive", forms: ["desembarcou"] },
     { es: "pisar", en: "to step on", forms: ["pisou"] },
   ],
   "pt-as-pegadas-ao-contrario": [
-    { es: "furar", en: "to get a puncture", forms: ["furaram"] },
-    { es: "a lanterna", en: "torch, flashlight", forms: ["lanterna"] },
+    { es: "furar", en: "to get a flat (tire)", forms: ["furaram"] },
+    { es: "a lanterna", en: "flashlight", forms: ["lanterna"] },
     { es: "descalço", en: "barefoot", forms: ["descalços"] },
     { es: "aliviado", en: "relieved", forms: ["aliviado"] },
     { es: "gelar", en: "to freeze", forms: ["gelar"] },

@@ -114,7 +114,7 @@ export const PT_B1_U27_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I hadn't seen that film yet.",
+        source: "I hadn't seen that movie yet.",
         answer: "Eu ainda não tinha visto esse filme.",
         altAnswers: ["Ainda não tinha visto esse filme.", "Eu ainda não tinha visto aquele filme.", "Ainda não tinha visto aquele filme.", "Eu ainda não havia visto esse filme."],
         explanation: "\"Ainda não\" before \"tinha visto\", with the irregular \"visto\".",
@@ -307,9 +307,9 @@ export const PT_B1_U27_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: It's better for you all to take the metro.",
+        prompt: "Put the words in order to say: It's better for you all to take the subway.",
         words: ["É", "melhor", "vocês", "pegarem", "o", "metrô."],
-        translation: "It's better for you all to take the metro.",
+        translation: "It's better for you all to take the subway.",
         explanation: "No \"que\", so the personal infinitive.",
       },
       {
@@ -401,7 +401,7 @@ export const PT_B1_U27_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The building whose lift is broken is mine.",
+        source: "The building whose elevator is broken is mine.",
         answer: "O prédio cujo elevador está quebrado é o meu.",
         altAnswers: ["O prédio cujo elevador está quebrado é meu.", "O prédio cujo elevador está com defeito é o meu.", "O edifício cujo elevador está quebrado é o meu."],
         explanation: "\"Cujo elevador\": masculine singular, no article after \"cujo\".",
@@ -453,7 +453,7 @@ export const PT_B1_U27_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[All] I need is a holiday.",
+        en: "[All] I need is a vacation.",
         sentence: "___ eu preciso são férias.",
         answer: "Tudo de que",
         altAnswers: ["Tudo o que", "O que"],
@@ -462,11 +462,11 @@ export const PT_B1_U27_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[Where] are you going on holiday?",
+        en: "[Where] are you going on vacation?",
         sentence: "___ você vai nas férias?",
         answer: "Aonde",
         altAnswers: ["Para onde", "Pra onde"],
-        explanation: "Motion towards a place: \"aonde\" or \"para onde\".",
+        explanation: "Motion toward a place: \"aonde\" or \"para onde\".",
       },
       {
         type: "word-order",

@@ -53,7 +53,7 @@ export const FR_B1_U32: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Ma cuisinière est en panne. » What's broken?",
+            question: "\"Ma cuisinière est en panne.\" What's broken?",
             options: ["My cooker", "My cook", "My kitchen", "My fridge"],
             correctIndex: 0,
             explanation: "\"Une cuisinière\" can be a female cook or a cooker; \"en panne\" tells you it's the appliance.",
@@ -195,7 +195,7 @@ export const FR_B1_U32: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Cream? Add a tablespoon of it. (to a friend)",
+        question: "'Cream? Add a tablespoon of it.' (to a friend) Which is correct?",
         options: ["De la crème ? Ajoutes-en une cuillère à soupe.", "De la crème ? Ajoute-la une cuillère à soupe.", "De la crème ? En ajoute une cuillère à soupe.", "De la crème ? Ajoute-y une cuillère à soupe."],
         correctIndex: 0,
         explanation: "\"En\" for a quantity; the tu imperative takes an s before \"en\": \"ajoutes-en\".",
@@ -326,7 +326,7 @@ export const FR_B1_U32: Lesson[] = [
             type: "listen-choose",
             audio: "Tu peux me prêter dix euros ?",
             question: "What does it mean?",
-            options: ["Can you lend me ten euros?", "Can I borrow ten euros from you?", "Can you pay me back ten euros?", "Can you give me change for ten euros?"],
+            options: ["Can you lend me ten euros?", "Can I lend you ten euros?", "Can you pay me back ten euros?", "Can you give me change for ten euros?"],
             correctIndex: 0,
             explanation: "\"Prêter\" = to lend. English often says borrow here, but in French you ask the other person to lend.",
           },
@@ -380,7 +380,7 @@ export const FR_B1_U32: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« L'économie française va mieux. » What is getting better?",
+        question: "\"L'économie française va mieux.\" What is getting better?",
         options: ["The French economy", "French savings", "French discounts", "The French tax system"],
         correctIndex: 0,
         explanation: "Singular \"l'économie\" = the economy; plural \"les économies\" = savings.",
@@ -759,7 +759,7 @@ export const FR_B1_U32: Lesson[] = [
         prompt: "Translate into French.",
         source: "The recipe? Email it to me. (polite)",
         answer: "La recette ? Envoyez-la-moi par mail.",
-        altAnswers: ["La recette ? Envoyez-la-moi par e-mail.", "La recette ? Envoyez-la-moi par courriel.", "La recette ? Envoie-la-moi par mail."],
+        altAnswers: ["La recette ? Envoyez-la-moi par e-mail.", "La recette ? Envoyez-la-moi par courriel."],
         explanation: "\"La\" before \"moi\" after the vous imperative.",
       },
       {
@@ -773,7 +773,7 @@ export const FR_B1_U32: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "'Go on, think about it!' (to a friend)",
+        question: "'Go on, think about it!' (to a friend) Which is correct?",
         options: ["Vas-y, penses-y !", "Va-y, pense-y !", "Vas-y, pense-y !", "Va-y, penses-y !"],
         correctIndex: 0,
         explanation: "Before \"y\", tu imperatives of -er verbs and \"va\" take an -s: \"vas-y\", \"penses-y\".",
@@ -901,7 +901,6 @@ export const FR_B1_U32: Lesson[] = [
             prompt: "Translate into French.",
             source: "If you have a hidden passion, go for it! (polite)",
             answer: "Si vous avez une passion cachée, lancez-vous !",
-            altAnswers: ["Si tu as une passion cachée, lance-toi !"],
             explanation: "\"Si\" + present + imperative; \"se lancer\" = to go for it, take the plunge.",
           },
           {
@@ -956,7 +955,7 @@ export const FR_B1_U32: Lesson[] = [
         prompt: "Translate into French.",
         source: "Don't wait until you have talent to start. (polite)",
         answer: "N'attendez pas d'avoir du talent pour commencer.",
-        altAnswers: ["N'attends pas d'avoir du talent pour commencer."],
+        altAnswers: ["N'attendez pas d'être doué pour commencer."],
         explanation: "\"Attendre de\" + infinitive = wait until; \"pour\" + infinitive = in order to.",
       },
       {
@@ -1020,7 +1019,7 @@ export const FR_B1_U32: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "« Mon fils est au collège. » How old is he likely to be?",
+            question: "\"Mon fils est au collège.\" How old is he likely to be?",
             options: ["Between 11 and 15", "Between 18 and 21", "Between 3 and 6", "Over 21"],
             correctIndex: 0,
             explanation: "False friend: \"le collège\" is lower secondary school (11-15), not college or university.",
@@ -1162,7 +1161,7 @@ export const FR_B1_U32: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Il a passé le bac hier. » What do you know?",
+        question: "\"Il a passé le bac hier.\" What do you know?",
         options: ["He sat the exam yesterday; the result isn't known.", "He passed the exam yesterday.", "He failed the exam yesterday.", "He skipped the exam yesterday."],
         correctIndex: 0,
         explanation: "\"Passer\" = to take; passing is \"réussir\".",
@@ -1359,7 +1358,7 @@ export const FR_B1_U32: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "'How long have you been working here?' (to a friend)",
+        question: "'How long have you been working here?' (to a friend) Which is correct?",
         options: ["Depuis quand est-ce que tu travailles ici ?", "Depuis quand est-ce que tu as travaillé ici ?", "Il y a combien que tu travailles ici ?", "Pendant combien tu travailles ici ?"],
         correctIndex: 0,
         explanation: "\"Depuis quand\" (or \"depuis combien de temps\") + present for something ongoing.",
@@ -1625,8 +1624,8 @@ export const FR_B1_U32: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« La victime, un homme de 45 ans, a été transportée à l'hôpital. » Why \"transportée\" with -e?",
-            options: ["It agrees with « la victime », which is always feminine.", "It's a typo.", "Because the hospital is feminine.", "Because the passive always takes -e."],
+            question: "\"La victime, un homme de 45 ans, a été transportée à l'hôpital.\" Why \"transportée\" with -e?",
+            options: ["It agrees with \"la victime\", which is always feminine.", "It's a typo.", "Because the hospital is feminine.", "Because the passive always takes -e."],
             correctIndex: 0,
             explanation: "\"Une victime\" is grammatically feminine even when it's a man, so the participle agrees.",
           },
@@ -1760,7 +1759,7 @@ export const FR_B1_U32: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In a news report: « Le suspect serait âgé de 30 ans. » What does it tell you?",
+        question: "In a news report: \"Le suspect serait âgé de 30 ans.\" What does it tell you?",
         options: ["The suspect is reportedly 30 (not confirmed).", "The suspect would be 30 if...", "The suspect will be 30 soon.", "The suspect was 30 (confirmed)."],
         correctIndex: 0,
         explanation: "In the news, the conditional marks unconfirmed information.",

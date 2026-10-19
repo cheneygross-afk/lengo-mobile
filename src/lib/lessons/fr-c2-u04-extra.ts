@@ -257,7 +257,7 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         prompt: "Translate into general French.",
         source: "See you later!",
         answer: "À tout à l'heure !",
-        altAnswers: ["À plus tard !", "À plus !", "À tout à l'heure.", "À tantôt !"],
+        altAnswers: ["À plus tard !", "À plus !", "À tout à l'heure."],
         explanation: "\"À tantôt\" is Belgian and Québécois; \"à tout à l'heure\" works everywhere.",
       },
       {
@@ -266,7 +266,7 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         prompt: "Translate into general French.",
         source: "My car has broken down.",
         answer: "Ma voiture est en panne.",
-        altAnswers: ["Ma voiture est tombée en panne.", "Ma voiture ne marche plus.", "Ma voiture est gâtée."],
+        altAnswers: ["Ma voiture est tombée en panne.", "Ma voiture ne marche plus."],
         explanation: "\"En panne\" (general); \"gâtée\" (West Africa).",
       },
       {
@@ -283,7 +283,7 @@ export const FR_C2_U04_EXTRA: Lesson[] = [
         prompt: "Translate into general French.",
         source: "Welcome! Did you have a good trip?",
         answer: "Bienvenue ! Tu as fait bon voyage ?",
-        altAnswers: ["Bienvenue ! Vous avez fait bon voyage ?", "Bienvenue ! Le voyage s'est bien passé ?", "Bonne arrivée ! Tu as fait bon voyage ?", "Bienvenue ! Avez-vous fait bon voyage ?"],
+        altAnswers: ["Bienvenue ! Vous avez fait bon voyage ?", "Bienvenue ! Le voyage s'est bien passé ?", "Bienvenue ! Avez-vous fait bon voyage ?"],
         explanation: "\"Bonne arrivée\" is the West African equivalent of the welcome.",
       },
       {

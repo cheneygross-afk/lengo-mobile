@@ -22,7 +22,7 @@ export const PT_A2_U02: Lesson[] = [
         examples: [
           { es: "Eu fui ao mercado.", en: "I went to the market." },
           { es: "Ela foi muito simpática.", en: "She was very nice." },
-          { es: "Nós fomos ao cinema no sábado.", en: "We went to the cinema on Saturday." },
+          { es: "Nós fomos ao cinema no sábado.", en: "We went to the movies on Saturday." },
           { es: "Vocês foram à festa?", en: "Did you go to the party? (to several people)" },
           { es: "A gente foi de ônibus.", en: "We went by bus." },
         ],
@@ -31,7 +31,7 @@ export const PT_A2_U02: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We went to the cinema.",
+            source: "We went to the movies.",
             answer: "Nós fomos ao cinema.",
             altAnswers: ["Fomos ao cinema.", "A gente foi ao cinema.", "Nós fomos para o cinema.", "Fomos para o cinema.", "A gente foi para o cinema."],
             explanation: "\"Fomos\" is the nós form of \"ir\" in the past; with \"a gente\" it's \"foi\". \"Ao\" is a + o, before \"o cinema\".",
@@ -57,7 +57,7 @@ export const PT_A2_U02: Lesson[] = [
           { es: "Ela foi para casa cedo.", en: "She went home early." },
           { es: "Fomos à praia de manhã.", en: "We went to the beach in the morning." },
           { es: "O João foi ao médico ontem.", en: "João went to the doctor yesterday." },
-          { es: "Aonde vocês foram no fim de semana?", en: "Where did you go at the weekend?" },
+          { es: "Aonde vocês foram no fim de semana?", en: "Where did you go on the weekend?" },
           { es: "Meus pais foram de carro.", en: "My parents went by car." },
         ],
         checkpoint: [
@@ -998,8 +998,8 @@ export const PT_A2_U02: Lesson[] = [
           { es: "Semana passada eu estive em Belo Horizonte e fiz muitas coisas.", en: "Last week I was in Belo Horizonte and did lots of things." },
           { es: "Anteontem a gente foi ao show, mas o João não foi.", en: "The day before yesterday we went to the concert, but João didn't." },
           { es: "Há dois dias eles tiveram uma prova difícil.", en: "Two days ago they had a hard test." },
-          { es: "Fez muito calor no Rio no fim de semana.", en: "It was very hot in Rio at the weekend." },
-          { es: "Ontem à noite vocês foram ao cinema?", en: "Did you all go to the cinema last night?" },
+          { es: "Fez muito calor no Rio no fim de semana.", en: "It was very hot in Rio on the weekend." },
+          { es: "Ontem à noite vocês foram ao cinema?", en: "Did you all go to the movies last night?" },
         ],
         checkpoint: [
           {
@@ -1183,7 +1183,7 @@ export const PT_A2_U02: Lesson[] = [
         examples: [
           { es: "Eu fiz um bolo de cenoura.", en: "I made a carrot cake." },
           { es: "O Rafael fez o jantar ontem à noite.", en: "Rafael made dinner last night." },
-          { es: "O que você fez no fim de semana?", en: "What did you do at the weekend?" },
+          { es: "O que você fez no fim de semana?", en: "What did you do on the weekend?" },
           { es: "Fiz compras no shopping.", en: "I went shopping at the mall." },
           { es: "Fez muito frio em Curitiba.", en: "It was very cold in Curitiba." },
         ],
@@ -1216,7 +1216,7 @@ export const PT_A2_U02: Lesson[] = [
           { es: "Eu tive uma reunião às nove.", en: "I had a meeting at nine." },
           { es: "Ela teve um dia difícil.", en: "She had a hard day." },
           { es: "Estive em Manaus há dois anos.", en: "I was in Manaus two years ago." },
-          { es: "O seu Antônio esteve no hospital na semana passada.", en: "Seu Antônio was in hospital last week." },
+          { es: "O seu Antônio esteve no hospital na semana passada.", en: "Seu Antônio was in the hospital last week." },
           { es: "Tive que trabalhar no domingo.", en: "I had to work on Sunday." },
           { es: "Você teve sorte!", en: "You were lucky!" },
         ],
@@ -1305,7 +1305,7 @@ export const PT_A2_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I went to the cinema and the film was great.",
+        source: "I went to the movies and the movie was great.",
         answer: "Eu fui ao cinema e o filme foi ótimo.",
         altAnswers: ["Fui ao cinema e o filme foi ótimo.", "Eu fui ao cinema e o filme foi muito bom.", "Fui ao cinema e o filme foi muito bom."],
         explanation: "This sentence has both forms: \"fui\" (I went, ir) and \"foi\" (it was, ser). The person decides the vowel.",
@@ -1412,7 +1412,7 @@ export const PT_A2_U02: Lesson[] = [
           { es: "Fez muito calor, uns trinta e cinco graus.", en: "It was really hot, about thirty-five degrees." },
           { es: "A gente ficou numa pousada perto da praia.", en: "We stayed at a guesthouse near the beach." },
           { es: "A gente foi à praia todo dia.", en: "We went to the beach every day." },
-          { es: "Em Olinda, a gente fez um passeio pelo centro histórico.", en: "In Olinda we took a tour of the historic centre." },
+          { es: "Em Olinda, a gente fez um passeio pelo centro histórico.", en: "In Olinda we took a tour of the historic center." },
           { es: "Só choveu um dia.", en: "It only rained one day." },
           { es: "Comi tapioca e muito peixe.", en: "I ate tapioca and lots of fish." },
         ],
@@ -1705,7 +1705,7 @@ export const PT_A2_U02: Lesson[] = [
           {
             type: "speak",
             text: "Ontem eu fui ao cinema com a Mariana.",
-            prompt: "Say it in Portuguese: Yesterday I went to the cinema with Mariana.",
+            prompt: "Say it in Portuguese: Yesterday I went to the movies with Mariana.",
             tip: "\"Ontem\" ends in a nasal sound: no clear n or m at the end.",
             explanation: "\"Fui ao cinema\": the past of \"ir\" with \"ao\" (a + o).",
           },
@@ -2079,7 +2079,7 @@ export const PT_A2_U02: Lesson[] = [
         ],
         examples: [
           { es: "No ano passado eu fui a Salvador com a minha irmã.", en: "Last year I went to Salvador with my sister." },
-          { es: "A gente viajou de ônibus e chegou de manhã.", en: "We travelled by bus and arrived in the morning." },
+          { es: "A gente viajou de ônibus e chegou de manhã.", en: "We traveled by bus and arrived in the morning." },
           { es: "Fiquei cinco dias numa pousada perto da praia.", en: "I stayed five days at a guesthouse near the beach." },
           { es: "Fez muito calor e choveu só um dia.", en: "It was very hot and it only rained one day." },
           { es: "Você já esteve em Recife?", en: "Have you ever been to Recife?" },
@@ -2288,7 +2288,7 @@ export const PT_A2_U02: Lesson[] = [
 
 export const PT_A2_U02_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A Brazilian friend has sent you a message asking how your recent trip went. Write a reply telling them about it: when you went (use ago), where you went and who with, what the weather was like, what you did, and what the trip was like overall. Finish by asking your friend a question about their own holiday.",
+  prompt: "A Brazilian friend has sent you a message asking how your recent trip went. Write a reply telling them about it: when you went (use ago), where you went and who with, what the weather was like, what you did, and what the trip was like overall. Finish by asking your friend a question about their own vacation.",
   minWords: 60,
   maxWords: 100,
   rubric: [

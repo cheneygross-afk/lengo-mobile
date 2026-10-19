@@ -472,7 +472,7 @@ export const FR_C2_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into plain everyday French, speaking to the reader as vous.",
+            prompt: "Translate into plain everyday French, speaking to the reader as \"vous\".",
             source: "If you don't send the form before 15 May, your application will be rejected.",
             answer: "Si vous n'envoyez pas le formulaire avant le 15 mai, votre demande sera rejetée.",
             altAnswers: ["Si vous n'envoyez pas le formulaire avant le 15 mai, votre demande sera refusée.", "Si vous ne renvoyez pas le formulaire avant le 15 mai, votre demande sera rejetée.", "Si vous ne renvoyez pas le formulaire avant le 15 mai, votre demande sera refusée."],
@@ -518,7 +518,7 @@ export const FR_C2_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into plain everyday French, speaking to the reader as vous.",
+            prompt: "Translate into plain everyday French, speaking to the reader as \"vous\".",
             source: "It's up to you to choose a lawyer.",
             answer: "C'est à vous de choisir un avocat.",
             altAnswers: ["C'est à vous de choisir votre avocat.", "C'est à vous qu'il revient de choisir un avocat."],
@@ -531,10 +531,10 @@ export const FR_C2_U01: Lesson[] = [
               "Les frais de déménagement incombent à l'employeur.",
               "J'incombe de payer les frais.",
               "Il appartient au locataire à payer les charges.",
-              "Le locataire est tenu à payer les charges.",
+              "Il incombe le locataire de payer les charges.",
             ],
             correctIndex: 0,
-            explanation: "\"Incomber\" only has third-person subjects (the duty or cost). \"Il appartient à... de\" and \"être tenu de\" both take \"de\" before the infinitive.",
+            explanation: "\"Incomber\" only has third-person subjects (the duty or cost), and the person it falls on is introduced by \"à\" (\"il incombe au locataire de\"). \"Il appartient à... de\" takes \"de\" before the infinitive, not \"à\".",
           },
         ],
       },
@@ -579,7 +579,7 @@ export const FR_C2_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into plain everyday French, speaking to the reader as vous.",
+        prompt: "Translate into plain everyday French, speaking to the reader as \"vous\".",
         source: "If you don't follow the rules, you may be excluded.",
         answer: "Si vous ne respectez pas le règlement, vous pourrez être exclu.",
         altAnswers: ["Si vous ne respectez pas le règlement, vous pourrez être exclue.", "Si vous ne respectez pas les règles, vous pourrez être exclu.", "Si vous ne respectez pas les règles, vous pourrez être exclue.", "Si vous ne respectez pas le règlement, on pourra vous exclure.", "Si vous ne respectez pas les règles, on pourra vous exclure.", "Si vous ne respectez pas le règlement, vous risquez d'être exclu."],
@@ -663,7 +663,7 @@ export const FR_C2_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into plain everyday French, speaking to the reader as vous.",
+        prompt: "Translate into plain everyday French, speaking to the reader as \"vous\".",
         source: "He must give you back your deposit at the latest two months after you return the keys.",
         answer: "Il doit vous rendre votre dépôt de garantie au plus tard deux mois après que vous lui avez rendu les clés.",
         altAnswers: ["Il doit vous rendre votre caution au plus tard deux mois après que vous lui avez rendu les clés.", "Il doit vous rendre votre dépôt de garantie au plus tard deux mois après la remise des clés.", "Il doit vous rendre votre caution au plus tard deux mois après la remise des clés.", "Il doit vous rendre votre caution au plus tard deux mois après que vous avez rendu les clés.", "Il doit vous rendre votre dépôt de garantie au plus tard deux mois après que vous avez rendu les clés."],
@@ -756,7 +756,7 @@ export const FR_C2_U01: Lesson[] = [
           "The closing formula repeats the form of address of the opening, and its strength depends on the hierarchy: \"Je vous prie d'agréer, Monsieur le Préfet, l'expression de ma haute considération\" (to a senior official), \"...de ma considération distinguée\" (the standard), \"...de mes salutations distinguées\" (neutral). A reply from the administration often ends \"Je vous prie de croire, Madame, à l'assurance de ma considération distinguée\". English speakers tend to shorten all of this to \"Cordialement\", which in this register looks offhand.",
         ],
         examples: [
-          { es: "J'ai l'honneur de vous informer que votre demande a été acceptée.", en: "I am pleased to inform you that your application has been accepted." },
+          { es: "J'ai l'honneur de vous informer que votre demande a été acceptée.", en: "I am writing to inform you that your application has been accepted." },
           { es: "J'ai l'honneur d'accuser réception de votre courrier du 3 mars.", en: "I acknowledge receipt of your letter of 3 March." },
           { es: "Vous voudrez bien me faire parvenir les pièces manquantes sous quinze jours.", en: "Please send me the missing documents within fifteen days." },
           { es: "Je vous saurais gré de bien vouloir réexaminer mon dossier.", en: "I would be grateful if you would kindly reconsider my file." },
@@ -829,7 +829,7 @@ export const FR_C2_U01: Lesson[] = [
         prompt: "Translate into French, in the formal register of an official letter.",
         source: "I have the honour to request a parking permit for residents.",
         answer: "J'ai l'honneur de solliciter une carte de stationnement résident.",
-        altAnswers: ["J'ai l'honneur de solliciter un permis de stationnement pour les résidents.", "J'ai l'honneur de solliciter la délivrance d'une carte de stationnement résident.", "J'ai l'honneur de vous solliciter une carte de stationnement résident.", "J'ai l'honneur de solliciter une vignette de stationnement résident."],
+        altAnswers: ["J'ai l'honneur de solliciter un permis de stationnement pour les résidents.", "J'ai l'honneur de solliciter la délivrance d'une carte de stationnement résident.", "J'ai l'honneur de solliciter une vignette de stationnement résident."],
         explanation: "\"J'ai l'honneur de solliciter\" is the frozen formal request; \"la délivrance de\" (the issuing of) is a typical administrative nominalisation.",
       },
       {
@@ -935,7 +935,7 @@ export const FR_C2_U01: Lesson[] = [
           { es: "Le suspect a été placé en garde à vue pendant vingt-quatre heures.", en: "The suspect was held in police custody for twenty-four hours." },
           { es: "Mis en examen pour corruption, le maire reste présumé innocent.", en: "Placed under formal investigation for corruption, the mayor is still presumed innocent." },
           { es: "Le prévenu a été condamné à six mois de prison avec sursis.", en: "The defendant was given a six-month suspended sentence." },
-          { es: "L'accusé a été acquitté par la cour d'assises.", en: "The accused was acquitted by the criminal court." },
+          { es: "L'accusé a été acquitté par la cour d'assises.", en: "The accused was acquitted by the assize court." },
           { es: "Le tribunal correctionnel a relaxé les deux prévenus.", en: "The criminal court acquitted the two defendants." },
           { es: "L'auteur présumé des faits a pris la fuite.", en: "The alleged perpetrator fled." },
         ],
@@ -1138,7 +1138,7 @@ export const FR_C2_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into plain everyday French, speaking to Julie as vous.",
+            prompt: "Translate into plain everyday French, speaking to Julie as \"vous\".",
             source: "If you don't come and you have no good reason, you risk a fine of up to 3,750 euros.",
             answer: "Si vous ne venez pas et que vous n'avez pas de bonne raison, vous risquez une amende pouvant aller jusqu'à 3 750 euros.",
             altAnswers: ["Si vous ne venez pas et que vous n'avez pas de bonne raison, vous risquez une amende allant jusqu'à 3 750 euros.", "Si vous ne venez pas et que vous n'avez pas de raison valable, vous risquez une amende pouvant aller jusqu'à 3 750 euros.", "Si vous ne venez pas et que vous n'avez pas de raison valable, vous risquez une amende allant jusqu'à 3 750 euros.", "Si vous ne venez pas et que vous n'avez pas de bonne raison, vous risquez une amende de 3 750 euros maximum."],
@@ -1311,7 +1311,7 @@ export const FR_C2_U01: Lesson[] = [
         type: "speak",
         text: "Monsieur le Président, je souhaiterais apporter une précision.",
         prompt: "Say it in French to the presiding judge: Your Honour, I would like to clarify something.",
-        explanation: "A judge presiding the hearing is addressed as \"Monsieur le Président\" or \"Madame la Présidente\"; never 'Your Honour' translated literally.",
+        explanation: "A judge presiding over the hearing is addressed as \"Monsieur le Président\" or \"Madame la Présidente\"; never 'Your Honour' translated literally.",
       },
       {
         type: "translate",
@@ -1359,10 +1359,10 @@ export const FR_C2_U01: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "The Conseil d'État has just ruled on a ban on burkinis. What does a careful journalist call its decision?",
+            question: "After a full hearing, the Conseil d'État has just ruled on a dispute over a planning permit. In traditional legal terminology, what is its decision called?",
             options: ["un arrêt", "un jugement", "un verdict", "un arrêté"],
             correctIndex: 0,
-            explanation: "A body called \"Cour\" or \"Conseil\" gives \"un arrêt\". (In fact the Conseil d'État often issues an \"ordonnance\" in urgent proceedings, which you'll see next.)",
+            explanation: "A body called \"Cour\" or \"Conseil\" gives \"un arrêt\" (the Conseil d'État itself now often says \"une décision\"). \"Un arrêté\" is an administrative order and \"un verdict\" belongs to the cour d'assises. In urgent proceedings a single judge of the Conseil d'État issues \"une ordonnance\", which you'll see next.",
           },
           {
             type: "translate",

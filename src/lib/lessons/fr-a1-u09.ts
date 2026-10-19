@@ -310,9 +310,9 @@ export const FR_A1_U09: Lesson[] = [
             type: "listen-choose",
             audio: "Ces livres sont à Paul.",
             question: "What does it mean?",
-            options: ["These books belong to Paul.", "His books belong to Paul.", "This book belongs to Paul.", "The books are at Paul's."],
+            options: ["These books belong to Paul.", "These books are for Paul.", "This book belongs to Paul.", "The books are at Paul's."],
             correctIndex: 0,
-            explanation: "\"Ces\" and \"ses\" sound the same, but \"à Paul\" tells you it's these books. \"Livres\" is plural: \"sont\".",
+            explanation: "\"Ces livres\" = these books; \"être à Paul\" = to belong to Paul (\"for Paul\" would be \"pour Paul\"). \"Livres\" is plural: \"sont\".",
           },
         ],
       },
@@ -466,9 +466,9 @@ export const FR_A1_U09: Lesson[] = [
           {
             type: "multiple-choice",
             question: "How do you say this afternoon?",
-            options: ["cet après-midi", "ce après-midi", "cette après-midi", "dans cet après-midi"],
+            options: ["cet après-midi", "ce après-midi", "ces après-midi", "dans cet après-midi"],
             correctIndex: 0,
-            explanation: "\"Après-midi\" is masculine here and starts with a vowel, so \"cet\". No preposition before time phrases with ce.",
+            explanation: "\"Après-midi\" is usually masculine and starts with a vowel, so \"cet\". \"Ces\" is plural, and time phrases with ce take no preposition.",
           },
           {
             type: "word-order",

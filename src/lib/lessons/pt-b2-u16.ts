@@ -117,8 +117,8 @@ export const PT_B2_U16: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "Anyone who arrives late misses the bus.",
             answer: "Quem chegar atrasado perde o ônibus.",
-            altAnswers: ["Quem chegar atrasado vai perder o ônibus.", "Quem chegar tarde perde o ônibus.", "Quem chegar tarde vai perder o ônibus."],
-            explanation: "\"Quem\" refers to anyone who might turn up late, so it takes the future subjunctive \"chegar\". \"Quem chega atrasado\" states a general habit, which fits a different context.",
+            altAnswers: ["Quem chegar atrasado vai perder o ônibus.", "Quem chegar tarde perde o ônibus.", "Quem chegar tarde vai perder o ônibus.", "Quem chega atrasado perde o ônibus.", "Quem chega tarde perde o ônibus."],
+            explanation: "\"Quem chegar\" (future subjunctive) points to whoever turns up late on a future occasion; \"quem chega atrasado\" states a general rule. Both fit here.",
           },
           {
             type: "fill-blank",
@@ -526,7 +526,7 @@ export const PT_B2_U16: Lesson[] = [
         ],
         examples: [
           { es: "Entreguei o contrato à diretora financeira.", en: "I handed the contract to the finance director." },
-          { es: "A loja abre às nove e fecha à meia-noite.", en: "The shop opens at nine and closes at midnight." },
+          { es: "A loja abre às nove e fecha à meia-noite.", en: "The store opens at nine and closes at midnight." },
           { es: "Vamos a Curitiba e depois à Bahia.", en: "We're going to Curitiba and then to Bahia." },
           { es: "As inscrições estarão abertas a partir de segunda-feira.", en: "Registration will be open from Monday." },
           { es: "Paguei o notebook à vista.", en: "I paid for the laptop upfront, in full." },
@@ -542,12 +542,10 @@ export const PT_B2_U16: Lesson[] = [
             explanation: "Two crases: \"à farmácia\" (compare \"ao banco\") and \"às oito\", because clock times carry the article \"as\".",
           },
           {
-            type: "fill-blank",
-            prompt: "Write the Portuguese for the bold words.",
-            en: "We're going [to] Salvador on Friday.",
-            sentence: "Vamos ___ Salvador na sexta.",
-            answer: "a",
-            altAnswers: ["para"],
+            type: "multiple-choice",
+            question: "Which word fills the gap? \"Vamos ___ Salvador na sexta.\" (We're going to Salvador on Friday.)",
+            options: ["à", "a", "ao", "na"],
+            correctIndex: 1,
             explanation: "\"Salvador\" takes no article (you come \"de Salvador\", not \"da Salvador\"), so there is nothing for the preposition to merge with: no crase.",
           },
           {
@@ -591,10 +589,12 @@ export const PT_B2_U16: Lesson[] = [
             explanation: "\"Precisar de\": the \"de\" moves in front of the relative pronoun, so the result is \"de que preciso\".",
           },
           {
-            type: "multiple-choice",
-            question: "How do you write 'I prefer tea to coffee' in a formal text?",
-            options: ["Prefiro chá a café.", "Prefiro mais chá do que café.", "Prefiro chá do que café.", "Prefiro chá que café."],
-            correctIndex: 0,
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into Portuguese.",
+            source: "I prefer tea to coffee. (formal text)",
+            answer: "Prefiro chá a café.",
+            altAnswers: ["Eu prefiro chá a café.", "Prefiro o chá ao café.", "Eu prefiro o chá ao café."],
             explanation: "In the norm, \"preferir\" takes \"a\" for the second option. \"Do que\" and \"mais\" come from comparatives and are only heard in casual speech.",
           },
         ],
@@ -623,12 +623,10 @@ export const PT_B2_U16: Lesson[] = [
             explanation: "Impersonal \"haver\" stays singular even with a plural noun: \"houve muitos problemas\", never \"houveram\".",
           },
           {
-            type: "fill-blank",
-            prompt: "Write the Portuguese for the bold words.",
-            en: "I arrived in Recife [two days ago].",
-            sentence: "Cheguei a Recife ___.",
-            answer: "há dois dias",
-            altAnswers: ["faz dois dias"],
+            type: "multiple-choice",
+            question: "Which words fill the gap? \"Cheguei a Recife ___.\" (I arrived in Recife two days ago.)",
+            options: ["a dois dias", "há dois dias", "à dois dias", "daqui a dois dias"],
+            correctIndex: 1,
             explanation: "For ago, use \"há\" with the accent, the singular form of \"haver\". \"A dois dias\" would point to the future (\"daqui a dois dias\").",
           },
           {
@@ -660,11 +658,10 @@ export const PT_B2_U16: Lesson[] = [
         explanation: "A one-off event in the past takes \"houve\", and it stays singular although \"reclamações\" is plural.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the Portuguese for the bold words.",
-        en: "I handed the report [to the] director. (The director is a woman.)",
-        sentence: "Entreguei o relatório ___ diretora.",
-        answer: "à",
+        type: "multiple-choice",
+        question: "Which word fills the gap? \"Entreguei o relatório ___ diretora.\" (I handed the report to the director, a woman.)",
+        options: ["a", "ao", "à", "da"],
+        correctIndex: 2,
         explanation: "\"Entregar algo a alguém\" + the article \"a\" gives \"à diretora\". The masculine test confirms it: \"ao diretor\".",
       },
       {
@@ -684,10 +681,12 @@ export const PT_B2_U16: Lesson[] = [
         explanation: "\"Trata-se de\" opens the sentence with the pronoun after the verb, as the written norm requires, and it never takes a subject.",
       },
       {
-        type: "multiple-choice",
-        question: "Which sentence follows the written norm?",
-        options: ["Haviam muitas pessoas na fila.", "Havia muitas pessoas na fila.", "Tinham muitas pessoas na fila.", "Houveram muitas pessoas na fila."],
-        correctIndex: 1,
+        type: "translate",
+        direction: "en-es",
+        prompt: "Translate into Portuguese, following the written norm.",
+        source: "There were many people in line.",
+        answer: "Havia muitas pessoas na fila.",
+        altAnswers: ["Havia muita gente na fila.", "Existiam muitas pessoas na fila."],
         explanation: "Meaning there were, \"haver\" is impersonal and singular: \"havia\". \"Haviam\" and \"houveram\" are common slips, and \"ter\" belongs to speech (and even then in the singular: \"tinha\").",
       },
       {
@@ -700,11 +699,10 @@ export const PT_B2_U16: Lesson[] = [
         explanation: "\"Assistir a\" keeps its preposition in front of the relative: \"a que\" or \"ao qual\". \"O filme que eu assisti\" is fine in speech only.",
       },
       {
-        type: "fill-blank",
-        prompt: "Write the Portuguese for the bold words.",
-        en: "Everyone must obey [the] traffic laws.",
-        sentence: "Todos devem obedecer ___ leis de trânsito.",
-        answer: "às",
+        type: "multiple-choice",
+        question: "Which word fills the gap? \"Todos devem obedecer ___ leis de trânsito.\" (Everyone must obey the traffic laws.)",
+        options: ["às", "as", "aos", "das"],
+        correctIndex: 0,
         explanation: "\"Obedecer a\" + \"as leis\" = \"às leis\". English obey takes no preposition, which is why this crase gets forgotten.",
       },
       {
@@ -723,7 +721,7 @@ export const PT_B2_U16: Lesson[] = [
       {
         type: "speak",
         text: "Precisamos analisá-lo antes de sexta-feira.",
-        prompt: "Say it in Portuguese: We need to analyse it before Friday.",
+        prompt: "Say it in Portuguese: We need to analyze it before Friday.",
         tip: "Stress the lá in analisá-lo, and the x in \"sexta\" sounds like s (sh in Rio): SES-ta.",
         explanation: "\"Analisar\" + \"o\" = \"analisá-lo\": the -r drops and the accent marks the stressed a.",
       },
@@ -745,7 +743,7 @@ export const PT_B2_U16: Lesson[] = [
         ],
         examples: [
           { es: "Eu queria que você viesse à festa.", en: "I wanted you to come to the party." },
-          { es: "Embora o aluguel seja caro, o bairro vale a pena.", en: "Although the rent is expensive, the neighbourhood is worth it." },
+          { es: "Embora o aluguel seja caro, o bairro vale a pena.", en: "Although the rent is expensive, the neighborhood is worth it." },
           { es: "Quando eu tiver tempo, vou te visitar em Recife.", en: "When I have time, I'll visit you in Recife." },
           { es: "Assim que eu souber o resultado, te aviso.", en: "As soon as I know the result, I'll let you know." },
           { es: "Quando eu vir a Beatriz, dou o recado.", en: "When I see Beatriz, I'll pass on the message." },
@@ -848,7 +846,7 @@ export const PT_B2_U16: Lesson[] = [
           { es: "O relatório está pronto, mas ainda preciso revisá-lo.", en: "The report is ready, but I still need to review it." },
           { es: "Ontem fui a pé à farmácia.", en: "Yesterday I walked to the pharmacy." },
           { es: "O voo atrasou devido ao mau tempo.", en: "The flight was delayed due to bad weather." },
-          { es: "Havia muitas pessoas na fila do banco.", en: "There were a lot of people in the queue at the bank." },
+          { es: "Havia muitas pessoas na fila do banco.", en: "There were a lot of people in line at the bank." },
           { es: "Assistimos ao jogo do Flamengo num bar.", en: "We watched the Flamengo game in a bar." },
         ],
         checkpoint: [
@@ -887,13 +885,13 @@ export const PT_B2_U16: Lesson[] = [
       {
         heading: "Register, agreement and false friends",
         body: [
-          "\"A gente\" takes the ele/ela verb: \"a gente foi\", never \"*a gente fomos\"; in a formal email, \"nós fomos\" is safer. Drop the call-centre gerundismo: \"vou enviar\" or \"envio hoje\", not \"*vou estar enviando\".",
-          "False friends from English cost points: \"realizar\" means to carry out, and to realise is \"perceber\"; you apply for a job with \"candidatar-se a uma vaga\", not \"*aplicar para\"; an exciting film is \"empolgante\", because \"excitante\" can sound sexual. And Greek -ma nouns are masculine: \"o problema\", \"o sistema\".",
+          "\"A gente\" takes the ele/ela verb: \"a gente foi\", never \"*a gente fomos\"; in a formal email, \"nós fomos\" is safer. Drop the call-center gerundismo: \"vou enviar\" or \"envio hoje\", not \"*vou estar enviando\".",
+          "False friends from English cost points: \"realizar\" means to carry out, and to realize is \"perceber\"; you apply for a job with \"candidatar-se a uma vaga\", not \"*aplicar para\"; an exciting film is \"empolgante\", because \"excitante\" can sound sexual. And Greek -ma nouns are masculine: \"o problema\", \"o sistema\".",
         ],
         examples: [
-          { es: "A gente foi ao cinema ontem e adorou o filme.", en: "We went to the cinema yesterday and loved the film." },
+          { es: "A gente foi ao cinema ontem e adorou o filme.", en: "We went to the movies yesterday and loved the film." },
           { es: "Envio o relatório até sexta-feira.", en: "I'll send the report by Friday." },
-          { es: "Só percebi o erro depois da reunião.", en: "I only realised the mistake after the meeting." },
+          { es: "Só percebi o erro depois da reunião.", en: "I only realized the mistake after the meeting." },
           { es: "Ela se candidatou a uma vaga numa startup em São Paulo.", en: "She applied for a job at a startup in São Paulo." },
           { es: "O filme é empolgante do começo ao fim.", en: "The film is exciting from start to finish." },
         ],
@@ -902,7 +900,7 @@ export const PT_B2_U16: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I realised I had forgotten the keys.",
+            source: "I realized I had forgotten the keys.",
             answer: "Percebi que tinha esquecido as chaves.",
             altAnswers: [
               "Eu percebi que tinha esquecido as chaves.",
@@ -913,14 +911,14 @@ export const PT_B2_U16: Lesson[] = [
               "Percebi que tinha esquecido a chave.",
               "Eu percebi que tinha esquecido a chave.",
             ],
-            explanation: "To realise is \"perceber\"; \"*realizei\" would mean I carried out. The earlier action takes the mais-que-perfeito \"tinha esquecido\".",
+            explanation: "To realize is \"perceber\"; \"*realizei\" would mean I carried out. The earlier action takes the mais-que-perfeito \"tinha esquecido\".",
           },
           {
             type: "speak",
             text: "Vou enviar o relatório amanhã de manhã.",
             prompt: "Say it in Portuguese: I'll send the report tomorrow morning.",
             tip: "In relatório the stressed ó is open, and the final -io glides: re-la-TÓ-riu.",
-            explanation: "\"Vou enviar\" is the everyday future; \"*vou estar enviando\" is the gerundismo that sounds like a call centre.",
+            explanation: "\"Vou enviar\" is the everyday future; \"*vou estar enviando\" is the gerundismo that sounds like a call center.",
           },
         ],
       },
@@ -1047,7 +1045,7 @@ export const PT_B2_U16: Lesson[] = [
       {
         type: "speak",
         text: "Se eu tivesse aceitado aquele emprego, hoje moraria em Lisboa.",
-        tip: "The ss in tivesse is a voiceless s, and the stress falls on -ve-: ti-VE-sse.",
+        tip: "The ss in tivesse is a voiceless s, and the stress falls on -ve-: tchi-VÊ-si.",
         explanation: "A mixed condition: past \"tivesse aceitado\" with a present result \"hoje moraria\".",
       },
     ],
@@ -1145,7 +1143,7 @@ export const PT_B2_U16: Lesson[] = [
           "Rewrite in the other direction too. A message to a friend written in the norm sounds cold, so undo the checklist and put the pronoun first.",
         ],
         examples: [
-          { es: "A gente decidiu cancelar a reunião porque tinha muito problema.", en: "We decided to cancel the meeting because there were loads of problems." },
+          { es: "A gente decidiu cancelar a reunião porque tinha muito problema.", en: "We decided to cancel the meeting because there were lots of problems." },
           { es: "Decidimos cancelar a reunião, uma vez que havia muitos problemas.", en: "We decided to cancel the meeting, since there were many problems." },
           { es: "Me disseram que o prazo mudou.", en: "They told me the deadline changed." },
           { es: "Informaram-me que o prazo foi alterado.", en: "I was informed that the deadline had been changed." },
@@ -1292,13 +1290,13 @@ export const PT_B2_U16: Lesson[] = [
         body: [
           "In the written part of the Celpe-Bras you read or hear a text and then write something with it: a letter, an email, an article. Examiners grade \"adequação\" first. Does your text do what the task asked, for the reader it named, using information from the source?",
           "Before writing, pull three things out of the \"enunciado\" (the task): who you are (\"enunciador\"), who you're writing to (\"interlocutor\") and what you want (\"propósito\"). A letter asking the \"Secretaria de Cultura\" to change a decision is not a chat with a friend, and it is not an essay about reading.",
-          "Use the source's facts, never its sentences. Copying whole lines costs marks. Paraphrasing a figure or a date and attributing it (\"segundo a reportagem\", \"de acordo com a prefeitura\") proves you read it.",
+          "Use the source's facts, never its sentences. Copying whole lines costs points. Paraphrasing a figure or a date and attributing it (\"segundo a reportagem\", \"de acordo com a prefeitura\") proves you read it.",
         ],
         examples: [
           { es: "A partir de março, a biblioteca funcionará apenas de segunda a sexta.", en: "From March, the library will open only Monday to Friday." },
           { es: "Segundo a prefeitura, a medida vai economizar R$ 200 mil por ano.", en: "According to city hall, the measure will save R$200,000 a year." },
-          { es: "De acordo com a reportagem, cerca de 40% dos usuários vão à biblioteca no fim de semana.", en: "According to the report, about 40% of users go to the library at the weekend." },
-          { es: "Você é morador do bairro e frequenta a biblioteca aos sábados.", en: "You live in the neighbourhood and use the library on Saturdays." },
+          { es: "De acordo com a reportagem, cerca de 40% dos usuários vão à biblioteca no fim de semana.", en: "According to the report, about 40% of users go to the library on the weekend." },
+          { es: "Você é morador do bairro e frequenta a biblioteca aos sábados.", en: "You live in the neighborhood and use the library on Saturdays." },
           { es: "Escreva uma carta à secretária de Cultura solicitando que a decisão seja revista.", en: "Write a letter to the culture secretary asking for the decision to be reviewed." },
         ],
         checkpoint: [
@@ -1329,11 +1327,11 @@ export const PT_B2_U16: Lesson[] = [
         ],
         examples: [
           { es: "Prezada Senhora Secretária,", en: "Dear Madam Secretary," },
-          { es: "Meu nome é Rafael Moreira e sou morador do bairro Água Verde há dez anos.", en: "My name is Rafael Moreira and I've lived in the Água Verde neighbourhood for ten years." },
+          { es: "Meu nome é Rafael Moreira e sou morador do bairro Água Verde há dez anos.", en: "My name is Rafael Moreira and I've lived in the Água Verde neighborhood for ten years." },
           { es: "Venho, por meio desta, solicitar a revisão do novo horário da Biblioteca Pública.", en: "I am writing to request a review of the Public Library's new opening hours." },
           { es: "Escrevo para manifestar minha preocupação com a decisão anunciada na semana passada.", en: "I'm writing to express my concern about the decision announced last week." },
           { es: "Conforme noticiado pelo jornal local, a biblioteca deixará de abrir aos sábados.", en: "As reported by the local paper, the library will stop opening on Saturdays." },
-          { es: "Dirijo-me à senhora em nome de um grupo de leitores do bairro.", en: "I'm writing to you on behalf of a group of readers in the neighbourhood." },
+          { es: "Dirijo-me à senhora em nome de um grupo de leitores do bairro.", en: "I'm writing to you on behalf of a group of readers in the neighborhood." },
         ],
         checkpoint: [
           {
@@ -1372,7 +1370,7 @@ export const PT_B2_U16: Lesson[] = [
         ],
         examples: [
           { es: "Uma vez que muitos moradores trabalham durante a semana, o sábado é o único dia em que podem estudar.", en: "Since many residents work during the week, Saturday is the only day they can study." },
-          { es: "Além disso, a biblioteca é o único espaço cultural gratuito do bairro.", en: "Moreover, the library is the only free cultural space in the neighbourhood." },
+          { es: "Além disso, a biblioteca é o único espaço cultural gratuito do bairro.", en: "Moreover, the library is the only free cultural space in the neighborhood." },
           { es: "Solicito que a decisão seja revista antes de março.", en: "I ask that the decision be reviewed before March." },
           { es: "Seria possível que a biblioteca abrisse ao menos dois sábados por mês?", en: "Would it be possible for the library to open at least two Saturdays a month?" },
           { es: "Caso não seja possível manter o horário atual, peço que a prefeitura ofereça uma alternativa.", en: "If it isn't possible to keep the current hours, I ask city hall to offer an alternative." },
@@ -1459,7 +1457,7 @@ export const PT_B2_U16: Lesson[] = [
       {
         type: "dictation",
         audio: "A biblioteca é o único espaço cultural gratuito do bairro.",
-        explanation: "An argument sentence for the body of the letter. Note the accent in \"único\" and the ui in \"gratuito\", stressed on the u: gra-TUI-to.",
+        explanation: "An argument sentence for the body of the letter. Note the accent in \"único\" and the ui in \"gratuito\", stressed on the u: gra-TUI-tu.",
       },
       {
         type: "speak",
@@ -1488,7 +1486,7 @@ export const PT_B2_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My name is Beatriz Lima and I have lived in the neighbourhood for twelve years.",
+        source: "My name is Beatriz Lima and I have lived in the neighborhood for twelve years.",
         answer: "Meu nome é Beatriz Lima e moro no bairro há doze anos.",
         altAnswers: ["Meu nome é Beatriz Lima e sou moradora do bairro há doze anos.", "Meu nome é Beatriz Lima e moro neste bairro há doze anos.", "Meu nome é Beatriz Lima e moro no bairro faz doze anos."],
         explanation: "English uses the present perfect, but Portuguese uses the present + \"há\" for an action still going on: \"moro no bairro há doze anos\". \"Tenho morado\" would sound wrong here.",
@@ -1546,7 +1544,7 @@ export const PT_B2_U16: Lesson[] = [
         heading: "From notes to thesis: the genre and the reader",
         body: [
           "An opinion article (\"artigo de opinião\") speaks to a newspaper's readers, not to the people in the report. It needs a title, a thesis in the first paragraph and your own position throughout. A text that only retells the report misses its purpose, however good its Portuguese.",
-          "Use the report as evidence and say where it comes from: \"segundo a reportagem\", \"de acordo com a pesquisa citada\", \"como mostrou a reportagem\". Rephrase rather than copy, so \"o aparelho atrapalha\" can become \"o celular é um obstáculo\", and nominalise where it helps (\"a proibição\", \"a medida\").",
+          "Use the report as evidence and say where it comes from: \"segundo a reportagem\", \"de acordo com a pesquisa citada\", \"como mostrou a reportagem\". Rephrase rather than copy, so \"o aparelho atrapalha\" can become \"o celular é um obstáculo\", and nominalize where it helps (\"a proibição\", \"a medida\").",
           "Keep the impersonal style of the redação: \"é inegável que\" rather than \"eu acho que\". One \"na minha opinião\" is fine in an opinion article; five are not.",
         ],
         examples: [
@@ -1724,7 +1722,7 @@ export const PT_B2_U16: Lesson[] = [
     level: "PT-B2",
     number: 8,
     title: "Dialogue Lab: The Celpe-Bras Interview at B2",
-    summary: "Follow a mock Celpe-Bras face-to-face interview, from the warm-up questions to a discussion of public transport in São Paulo, and practise the answers that show B2 range.",
+    summary: "Follow a mock Celpe-Bras face-to-face interview, from the warm-up questions to a discussion of public transportation in São Paulo, and practice the answers that show B2 range.",
     duration: "15 min",
     kind: "reinforce",
     format: "Dialogue Lab",
@@ -1773,12 +1771,12 @@ export const PT_B2_U16: Lesson[] = [
       {
         heading: "Part two: describing the card",
         body: [
-          "Next comes the \"elemento provocador\": a picture with a short text, here a report about commuting in São Paulo. You read it for about a minute, then the examiner asks what it's about. Summarise first, in your own words; the opinion comes later.",
+          "Next comes the \"elemento provocador\": a picture with a short text, here a report about commuting in São Paulo. You read it for about a minute, then the examiner asks what it's about. Summarize first, in your own words; the opinion comes later.",
           "Use the summary language from B1: \"o texto trata de\", \"segundo a reportagem\", \"a imagem mostra\". Don't read numbers off the card; rephrase them: \"mais da metade\", \"cerca de duas horas\". Reading the text aloud word for word loses points.",
         ],
         examples: [
           { es: "Você pode me contar do que trata esse texto?", en: "Can you tell me what this text is about?" },
-          { es: "O texto trata do tempo que os paulistanos passam no transporte público.", en: "The text is about the time people in São Paulo spend on public transport." },
+          { es: "O texto trata do tempo que os paulistanos passam no transporte público.", en: "The text is about the time people in São Paulo spend on public transportation." },
           { es: "Segundo a reportagem, muita gente passa cerca de duas horas por dia no trajeto entre casa e trabalho.", en: "According to the report, a lot of people spend about two hours a day commuting between home and work." },
           { es: "A imagem mostra um ônibus lotado no horário de pico.", en: "The picture shows a packed bus at rush hour." },
           { es: "Mais da metade dos entrevistados usaria mais o metrô se ele chegasse à periferia.", en: "More than half of those interviewed would use the subway more if it reached the outskirts." },
@@ -1788,7 +1786,7 @@ export const PT_B2_U16: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The text is about public transport in São Paulo.",
+            source: "The text is about public transportation in São Paulo.",
             answer: "O texto trata do transporte público em São Paulo.",
             altAnswers: ["O texto trata do transporte público de São Paulo.", "O texto fala do transporte público em São Paulo.", "O texto fala sobre o transporte público em São Paulo.", "O texto é sobre o transporte público em São Paulo."],
             explanation: "\"Tratar de\" + article contracts: \"trata do transporte\". It's the standard way to open a summary, a step up from \"fala sobre\".",
@@ -1819,8 +1817,8 @@ export const PT_B2_U16: Lesson[] = [
           "To propose a solution or compare with home, imagine it: \"se a prefeitura investisse...\" with the conditional in the other clause. If the examiner challenges you, don't just agree to be polite; they're testing whether you can defend a view. \"Entendo seu ponto, mas...\" plus a reason does it.",
         ],
         examples: [
-          { es: "E no Canadá, como é o transporte público?", en: "And in Canada, what's public transport like?" },
-          { es: "Em Toronto o metrô funciona bem, embora seja caro e não chegue a todos os bairros.", en: "In Toronto the subway works well, although it's expensive and doesn't reach every neighbourhood." },
+          { es: "E no Canadá, como é o transporte público?", en: "And in Canada, what's public transportation like?" },
+          { es: "Em Toronto o metrô funciona bem, embora seja caro e não chegue a todos os bairros.", en: "In Toronto the subway works well, although it's expensive and doesn't reach every neighborhood." },
           { es: "Não acho que o problema seja só falta de dinheiro.", en: "I don't think the problem is just a lack of money." },
           { es: "Se a prefeitura investisse em corredores de ônibus, as pessoas perderiam menos tempo.", en: "If the city invested in bus lanes, people would lose less time." },
           { es: "Entendo seu ponto, mas o carro particular também tem um custo para a cidade.", en: "I see your point, but private cars also have a cost for the city." },
@@ -1941,7 +1939,7 @@ export const PT_B2_U16: Lesson[] = [
         source: "And in your country, what's it like?",
         answer: "E no seu país, como é?",
         altAnswers: ["E como é no seu país?", "E no seu país, como que é?", "E no país do senhor, como é?", "E no país da senhora, como é?"],
-        explanation: "The examiner's favourite follow-up. \"Seu\" here means your, addressed to \"você\".",
+        explanation: "The examiner's favorite follow-up. \"Seu\" here means your, addressed to \"você\".",
       },
       {
         type: "multiple-choice",
@@ -1990,7 +1988,7 @@ export const PT_B2_U16: Lesson[] = [
           { left: "Entendo seu ponto, mas...", right: "I see your point, but..." },
           { left: "Em resumo...", right: "In short..." },
         ],
-        explanation: "One phrase for each stage of the interview: summarising, attributing, buying time, disagreeing and closing.",
+        explanation: "One phrase for each stage of the interview: summarizing, attributing, buying time, disagreeing and closing.",
       },
     ],
   },
@@ -2010,10 +2008,10 @@ export const PT_B2_U16: Lesson[] = [
           "The title should be short and arguable, a claim someone could reject: \"Tarifa zero não é luxo\".",
         ],
         examples: [
-          { es: "Às seis da manhã, o ônibus que liga o Capão Redondo ao centro já sai lotado.", en: "At six in the morning, the bus from Capão Redondo to the city centre is already packed when it leaves." },
-          { es: "Quem mora na periferia chega a passar quatro horas por dia no transporte público.", en: "People who live on the outskirts can spend up to four hours a day on public transport." },
+          { es: "Às seis da manhã, o ônibus que liga o Capão Redondo ao centro já sai lotado.", en: "At six in the morning, the bus from Capão Redondo to the city center is already packed when it leaves." },
+          { es: "Quem mora na periferia chega a passar quatro horas por dia no transporte público.", en: "People who live on the outskirts can spend up to four hours a day on public transportation." },
           { es: "É inegável que a mobilidade urbana é uma questão de desigualdade.", en: "It is undeniable that urban mobility is a matter of inequality." },
-          { es: "É fundamental que a cidade trate o transporte como um direito, e não como mercadoria.", en: "It is essential that the city treat transport as a right, not as a commodity." },
+          { es: "É fundamental que a cidade trate o transporte como um direito, e não como mercadoria.", en: "It is essential that the city treat transportation as a right, not as a commodity." },
           { es: "Tarifa zero não é luxo", en: "Free fares aren't a luxury (a title)" },
           { es: "Quanto custa, afinal, perder quatro horas por dia no trânsito?", en: "What does it really cost to lose four hours a day in traffic?" },
         ],
@@ -2030,14 +2028,14 @@ export const PT_B2_U16: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "It is essential that the city [treat] transport as a right.",
+            en: "It is essential that the city [treat] transportation as a right.",
             sentence: "É fundamental que a cidade ___ o transporte como um direito.",
             answer: "trate",
             explanation: "\"É fundamental que\" expresses necessity and takes the present subjunctive: \"trate\". The indicative \"trata\" is the common slip.",
           },
           {
             type: "multiple-choice",
-            question: "You're writing the first paragraph of an op-ed on public transport for a São Paulo newspaper. Which opening works best?",
+            question: "You're writing the first paragraph of an op-ed on public transportation for a São Paulo newspaper. Which opening works best?",
             options: [
               "Às seis da manhã, o ônibus já sai lotado. É inegável que a mobilidade urbana é uma questão de desigualdade.",
               "Eu acho que o transporte público é ruim e que a gente precisa mudar isso, né?",
@@ -2060,7 +2058,7 @@ export const PT_B2_U16: Lesson[] = [
           { es: "Embora alguns afirmem que a tarifa zero é inviável, várias cidades brasileiras já a adotaram.", en: "Although some claim that free fares are unfeasible, several Brazilian cities have already adopted them." },
           { es: "No entanto, o que se ignora é o custo de manter milhões de carros nas ruas.", en: "However, what is overlooked is the cost of keeping millions of cars on the streets." },
           { es: "Se a prefeitura investisse em corredores de ônibus, o trajeto levaria metade do tempo.", en: "If the city government invested in bus lanes, the commute would take half the time." },
-          { es: "Se a linha de metrô tivesse sido concluída no prazo, milhares de pessoas não estariam presas no trânsito hoje.", en: "If the metro line had been finished on time, thousands of people wouldn't be stuck in traffic today." },
+          { es: "Se a linha de metrô tivesse sido concluída no prazo, milhares de pessoas não estariam presas no trânsito hoje.", en: "If the subway line had been finished on time, thousands of people wouldn't be stuck in traffic today." },
           { es: "Por mais que se construam viadutos, o trânsito não diminui.", en: "However many overpasses are built, traffic doesn't go down." },
         ],
         checkpoint: [
@@ -2112,8 +2110,8 @@ export const PT_B2_U16: Lesson[] = [
         ],
         examples: [
           { es: "Diante disso, cabe à prefeitura ampliar os corredores de ônibus.", en: "In light of this, it is up to the city government to expand the bus lanes." },
-          { es: "É urgente que o governo do estado invista na integração entre trem e metrô.", en: "It is urgent that the state government invest in linking the trains and the metro." },
-          { es: "Enquanto o transporte for tratado como mercadoria, a cidade continuará dividida.", en: "As long as transport is treated as a commodity, the city will remain divided." },
+          { es: "É urgente que o governo do estado invista na integração entre trem e metrô.", en: "It is urgent that the state government invest in linking the trains and the subway." },
+          { es: "Enquanto o transporte for tratado como mercadoria, a cidade continuará dividida.", en: "As long as transportation is treated as a commodity, the city will remain divided." },
           { es: "Trata-se, afinal, de uma questão de cidadania.", en: "This is, after all, a matter of citizenship." },
           { es: "Fala-se desse problema há anos, mas houve poucas mudanças.", en: "People have been talking about this problem for years, but there have been few changes." },
           { es: "Essa medida custaria menos do que um único viaduto.", en: "This measure would cost less than a single overpass." },
@@ -2134,7 +2132,7 @@ export const PT_B2_U16: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "As long as transport [is] treated as a commodity, the city will remain divided.",
+            en: "As long as transportation [is] treated as a commodity, the city will remain divided.",
             sentence: "Enquanto o transporte ___ tratado como mercadoria, a cidade continuará dividida.",
             answer: "for",
             explanation: "\"Enquanto\" about an open future takes the future subjunctive. Of \"ser\" that form is \"for\": the passive \"for tratado\". The present \"é\" would describe a general fact, not a condition.",
@@ -2174,7 +2172,7 @@ export const PT_B2_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "If the metro line had been finished on time, traffic would be lighter today.",
+        source: "If the subway line had been finished on time, traffic would be lighter today.",
         answer: "Se a linha de metrô tivesse sido concluída no prazo, o trânsito estaria mais leve hoje.",
         altAnswers: [
           "Se a linha de metrô tivesse sido concluída no prazo, hoje o trânsito estaria mais leve.",
@@ -2241,7 +2239,7 @@ export const PT_B2_U16: Lesson[] = [
       {
         type: "speak",
         text: "É inegável que o transporte é um direito.",
-        prompt: "Say it in Portuguese: It is undeniable that transport is a right.",
+        prompt: "Say it in Portuguese: It is undeniable that transportation is a right.",
         tip: "Link \"que o\" smoothly. In \"direito\" the d sounds like the j in jeep, and the final -o sounds like u.",
         explanation: "\"É inegável que\" states a fact, so the indicative \"é\" follows.",
       },
@@ -2336,8 +2334,8 @@ export const PT_B2_U16: Lesson[] = [
           { es: "Não me disseram nada sobre a reunião.", en: "They didn't tell me anything about the meeting." },
           { es: "Informaram-me que o prazo foi prorrogado.", en: "I was told the deadline had been extended." },
           { es: "O documento está pronto; vou enviá-lo à diretora hoje.", en: "The document is ready; I'll send it to the director today." },
-          { es: "Muitos paulistanos preferem o metrô ao carro.", en: "Many people from São Paulo prefer the metro to the car." },
-          { es: "Havia muitas pessoas na fila do posto de saúde.", en: "There were a lot of people in the queue at the health clinic." },
+          { es: "Muitos paulistanos preferem o metrô ao carro.", en: "Many people from São Paulo prefer the subway to the car." },
+          { es: "Havia muitas pessoas na fila do posto de saúde.", en: "There were a lot of people in line at the health clinic." },
           { es: "Assistimos ao jogo do Flamengo num bar perto da praia.", en: "We watched the Flamengo game in a bar near the beach." },
         ],
         checkpoint: [
@@ -2355,11 +2353,10 @@ export const PT_B2_U16: Lesson[] = [
             explanation: "In a report, there were takes impersonal \"haver\", and it stays singular: \"houve\". \"Houveram\" is a frequent mistake, and \"teve\" belongs to speech.",
           },
           {
-            type: "fill-blank",
-            prompt: "Write the Portuguese for the bold words.",
-            en: "I'll hand the keys [to the] owner tomorrow.",
-            sentence: "Vou entregar as chaves ___ dona amanhã.",
-            answer: "à",
+            type: "multiple-choice",
+            question: "Which word fills the gap? \"Vou entregar as chaves ___ dona amanhã.\" (I'll hand the keys to the owner tomorrow.)",
+            options: ["à", "a", "ao", "da"],
+            correctIndex: 0,
             explanation: "\"Entregar a\" plus \"a dona\" gives \"à\". Swap in \"o dono\" and you get \"ao dono\", which proves the crase.",
           },
           {
@@ -2375,11 +2372,11 @@ export const PT_B2_U16: Lesson[] = [
         heading: "Connectors, register and the argument",
         body: [
           "Connectors carry their mood with them. \"Embora\", \"ainda que\", \"por mais que\" and \"a fim de que\" take the subjunctive. \"Já que\", \"uma vez que\" and \"tanto que\" take the indicative. \"Apesar de\" takes a noun or an infinitive: \"apesar de o projeto ser caro\".",
-          "Register is a choice, not a mistake. \"Tinha muita gente, aí a gente desistiu\" is perfect in a chat. A report says \"Diante do grande número de pessoas, optou-se por adiar a visita\", using nominalisation and the impersonal \"se\".",
+          "Register is a choice, not a mistake. \"Tinha muita gente, aí a gente desistiu\" is perfect in a chat. A report says \"Diante do grande número de pessoas, optou-se por adiar a visita\", using nominalization and the impersonal \"se\".",
           "The \"redação\" needs a thesis without \"eu acho\" and a counter-argument (\"embora alguns afirmem que...\"). It ends with a proposal in the subjunctive: \"é necessário que o governo invista...\".",
         ],
         examples: [
-          { es: "Embora o transporte público tenha melhorado, ainda há muito trânsito em São Paulo.", en: "Although public transport has improved, there's still a lot of traffic in São Paulo." },
+          { es: "Embora o transporte público tenha melhorado, ainda há muito trânsito em São Paulo.", en: "Although public transportation has improved, there's still a lot of traffic in São Paulo." },
           { es: "Já que ninguém se manifestou, a proposta foi aprovada.", en: "Since nobody spoke up, the proposal was approved." },
           { es: "Apesar de o projeto ser caro, vale a pena.", en: "Although the project is expensive, it's worth it." },
           { es: "Por mais que eu tente, não consigo acordar cedo.", en: "No matter how hard I try, I can't get up early." },
@@ -2413,7 +2410,7 @@ export const PT_B2_U16: Lesson[] = [
               "Teve muitos atrasos, aí a gente reclamou.",
             ],
             correctIndex: 0,
-            explanation: "A report wants impersonal \"haver\" in the singular, \"houve\", plus a nominalised \"a entrega\". \"Tinha\" and \"teve\" are fine in speech but out of register here.",
+            explanation: "A report wants impersonal \"haver\" in the singular, \"houve\", plus a nominalized \"a entrega\". \"Tinha\" and \"teve\" are fine in speech but out of register here.",
           },
           {
             type: "listen-choose",

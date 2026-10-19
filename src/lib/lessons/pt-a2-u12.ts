@@ -20,7 +20,7 @@ export const PT_A2_U12: Lesson[] = [
         ],
         examples: [
           { es: "As crianças lavaram as mãos.", en: "The kids washed their hands." },
-          { es: "Ele quebrou o braço no futebol.", en: "He broke his arm playing football." },
+          { es: "Ele quebrou o braço no futebol.", en: "He broke his arm playing soccer." },
           { es: "Ela carregou a mochila nas costas.", en: "She carried the backpack on her back." },
           { es: "A Beatriz tem olhos verdes.", en: "Beatriz has green eyes." },
           { es: "O bebê já tem dois dentes.", en: "The baby already has two teeth." },
@@ -927,7 +927,7 @@ export const PT_A2_U12: Lesson[] = [
       {
         heading: "Ficou ótima em você: how it looks on you",
         body: [
-          "When clothes, a haircut or a colour look good or bad on someone, Portuguese uses \"ficar\" + adjective + \"em\": \"essa camisa ficou ótima em você\" (that shirt looks great on you). English says looks; Portuguese says how it turned out on you.",
+          "When clothes, a haircut or a color look good or bad on someone, Portuguese uses \"ficar\" + adjective + \"em\": \"essa camisa ficou ótima em você\" (that shirt looks great on you). English says looks; Portuguese says how it turned out on you.",
           "The adjective agrees with the thing, not the person: \"a saia ficou curta\", \"os sapatos ficaram grandes\". Use \"ficou\" right after trying something on or after a visit to the hairdresser. Use \"fica\" for what suits someone in general: \"azul fica bem em você\".",
         ],
         examples: [
@@ -1025,7 +1025,7 @@ export const PT_A2_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your bill at a café is R$ 18 and you hand over R$ 20. How do you tell the waiter to keep the change?",
+            question: "Your check at a café is R$ 18 and you hand over R$ 20. How do you tell the waiter to keep the change?",
             options: [
               "Pode ficar com o troco.",
               "Pode ficar o troco.",
@@ -2343,7 +2343,7 @@ export const PT_A2_U12_WRITING: WriteExercise = {
     "Say you got sick and stayed home with \"ficar\": \"fiquei doente\" (not \"fui doente\"), \"fiquei em casa\".",
     "Describe your symptoms with \"estar com\" (\"estou com febre\", \"estou com dor de garganta\") and with \"doer\" (\"minha cabeça dói\", \"meus olhos doem\").",
     "Pass on the doctor's advice with \"dever\", \"ter que\" or \"é melhor\" + infinitive (\"eu devo descansar\", \"tenho que tomar um remédio\").",
-    "Say what you kept doing with \"ficar\" + gerund (\"fiquei vendo séries\") and ask a favour with \"você pode me mandar...?\".",
+    "Say what you kept doing with \"ficar\" + gerund (\"fiquei vendo séries\") and ask a favor with \"você pode me mandar...?\".",
   ],
   modelAnswer: "Oi, Mariana! Infelizmente não vou poder ir à aula de sábado. Fiquei doente na quarta-feira: estou com febre e com dor de garganta, e minha cabeça dói muito. Ontem eu fui ao médico. Ele disse que é uma gripe forte e que eu devo descansar e beber muita água. Também tenho que tomar um remédio três vezes por dia. Hoje fiquei em casa e fiquei vendo séries no sofá. É melhor não sair até segunda. Você pode me mandar as anotações da aula? Obrigado e um beijo!",
   explanation: "Getting sick is a change of state, so it takes \"ficar\": \"fiquei doente\" (I got sick), while \"estou doente\" just describes how you are now. The same verb means stay (\"fiquei em casa\"), and with a gerund it means kept doing (\"fiquei vendo séries\"). Symptoms use \"estar com\" + noun (\"estou com febre\", never \"estou febre\"), and \"doer\" agrees with the body part that hurts: \"minha cabeça dói\", \"meus pés doem\". Advice comes as \"dever\", \"ter que\" or \"é melhor\" + infinitive. A woman signs off with \"obrigada\".",

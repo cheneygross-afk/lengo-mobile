@@ -132,10 +132,10 @@ export const FR_A2_U10_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: This street is less noisy than mine.",
-        words: ["Cette", "rue", "est", "moins", "bruyante", "que", "la mienne."],
-        translation: "This street is less noisy than mine.",
-        explanation: "\"Bruyante\" agrees with \"rue\"; \"la mienne\" = mine.",
+        prompt: "Put the words in order to say: This street is less noisy than the avenue.",
+        words: ["Cette", "rue", "est", "moins", "bruyante", "que", "l'avenue."],
+        translation: "This street is less noisy than the avenue.",
+        explanation: "\"Bruyante\" agrees with \"rue\"; \"moins\" + adjective + \"que\".",
       },
       {
         type: "multiple-choice",
@@ -363,9 +363,9 @@ export const FR_A2_U10_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "This pizza is better than yesterday's.",
-        answer: "Cette pizza est meilleure que celle d'hier.",
-        explanation: "\"Meilleure\" (feminine); \"celle d'hier\" = yesterday's.",
+        source: "This pizza is better than the other one.",
+        answer: "Cette pizza est meilleure que l'autre.",
+        explanation: "\"Meilleure\" (feminine, for \"pizza\"); \"l'autre\" = the other one.",
       },
       {
         type: "translate",
@@ -567,9 +567,9 @@ export const FR_A2_U10_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "The trip lasts [more than] a week.",
-        sentence: "Le voyage dure ___ une semaine.",
-        answer: "plus d'",
+        en: "The trip lasts [more than a] week.",
+        sentence: "Le voyage dure ___ semaine.",
+        answer: "plus d'une",
         explanation: "A quantity of time → \"plus de\", elided before \"une\".",
       },
       {
@@ -1227,7 +1227,7 @@ export const FR_A2_U10_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "It was the best holiday of the year.",
         answer: "C'étaient les meilleures vacances de l'année.",
-        altAnswers: ["Ce sont les meilleures vacances de l'année.", "C'était les meilleures vacances de l'année."],
+        altAnswers: ["C'était les meilleures vacances de l'année."],
         explanation: "\"Les vacances\" is feminine plural: \"les meilleures\".",
       },
       {

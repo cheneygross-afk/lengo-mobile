@@ -269,7 +269,7 @@ export const FR_A1_U03: Lesson[] = [
           {
             type: "speak",
             text: "Nous habitons à Paris.",
-            tip: "Link the s of nous to habitons as a z: nou-zabiton.",
+            tip: "Link the s of \"nous\" to \"habitons\" as a z: nou-zabiton.",
             explanation: "Liaison is required between a pronoun and a verb starting with a vowel or mute h.",
           },
         ],
@@ -300,7 +300,7 @@ export const FR_A1_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A friend says « On regarde un film ? ». What does she mean?",
+            question: "A friend says \"On regarde un film ?\". What does she mean?",
             options: ["Shall we watch a film?", "Are you watching a film?", "Are they watching a film?", "Did we watch a film?"],
             correctIndex: 0,
             explanation: "\"On\" here means we, and the rising voice makes it a suggestion: shall we...?",
@@ -473,7 +473,7 @@ export const FR_A1_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Emma's planner says « Le mardi : café ». What does she do?",
+            question: "Emma's planner says \"Le mardi : café\". What does she do?",
             options: ["She works in the café every Tuesday.", "She works in the café this Tuesday only.", "She works in the café every Monday.", "She doesn't work on Tuesdays."],
             correctIndex: 0,
             explanation: "\"Le mardi\" with the article means every Tuesday. \"Mardi\" alone would mean this Tuesday.",
@@ -650,7 +650,7 @@ export const FR_A1_U03: Lesson[] = [
         body: [
           "Karim meets Julie at a friend's party in Nantes. They're the same age, so it's \"tu\" from the start. The classic question is \"Tu fais quoi dans la vie ?\" (What do you do for a living?). Learn it as a set phrase for now; the verb \"faire\" comes in Unit 4. The more careful version is \"Qu'est-ce que tu fais dans la vie ?\".",
           "Answers use \"être\" with a bare job (\"je suis infirmière\") or an -er verb: \"je travaille dans une banque\", \"j'étudie le droit\" (I'm studying law).",
-          "Karim : « Salut ! Moi, c'est Karim. Tu fais quoi dans la vie ? » Julie : « Je suis étudiante. J'étudie le droit. Et toi ? » Karim : « Je travaille dans une banque. »",
+          "Karim : \"Salut ! Moi, c'est Karim. Tu fais quoi dans la vie ?\" Julie : \"Je suis étudiante. J'étudie le droit. Et toi ?\" Karim : \"Je travaille dans une banque.\"",
         ],
         examples: [
           { es: "Tu fais quoi dans la vie ?", en: "What do you do for a living?" },
@@ -662,7 +662,7 @@ export const FR_A1_U03: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Julie asks « Tu fais quoi dans la vie ? ». Karim works in a bank. What does he answer?",
+            question: "Julie asks \"Tu fais quoi dans la vie ?\". Karim works in a bank. What does he answer?",
             options: ["Je travaille dans une banque.", "Je suis travaille dans une banque.", "Tu travailles dans une banque.", "Je suis un banque."],
             correctIndex: 0,
             explanation: "\"Je travaille\": a simple present, no \"suis\". The question uses tu, so the answer uses je.",
@@ -681,7 +681,7 @@ export const FR_A1_U03: Lesson[] = [
       {
         heading: "Tu habites où ? Let the question guide you",
         body: [
-          "Julie : « Tu habites où ? » Karim : « J'habite à Rezé, à côté de Nantes. Et toi ? » Julie : « Moi, j'habite ici, à Nantes. » \"Tu habites où ?\" (Where do you live?) is a set question for now; \"où\" goes at the end in relaxed speech.",
+          "Julie : \"Tu habites où ?\" Karim : \"J'habite à Rezé, à côté de Nantes. Et toi ?\" Julie : \"Moi, j'habite ici, à Nantes.\" \"Tu habites où ?\" (Where do you live?) is a set question for now; \"où\" goes at the end in relaxed speech.",
           "The trick for answering: the question hands you the verb. \"Tu habites...\" becomes \"j'habite...\"; \"tu travailles...\" becomes \"je travaille...\". Change the pronoun, keep the verb, and the ending usually takes care of itself, since \"tu travailles\" and \"je travaille\" sound the same.",
           "A yes/no question works the same way: \"Tu travailles ?\" → \"Oui, je travaille dans un hôpital.\"",
         ],
@@ -721,7 +721,7 @@ export const FR_A1_U03: Lesson[] = [
         heading: "With vous: the neighbour",
         body: [
           "Later, Julie meets Madame Lefèvre, an older neighbour of her friend. Here it's \"vous\": \"Vous travaillez à Nantes, madame ?\" The polite set question is \"Qu'est-ce que vous faites dans la vie ?\".",
-          "Mme Lefèvre : « Je suis professeure. J'enseigne l'anglais. » Julie : « Ah, vous parlez anglais ! » \"Enseigner\" (to teach) is another regular -er verb.",
+          "Mme Lefèvre : \"Je suis professeure. J'enseigne l'anglais.\" Julie : \"Ah, vous parlez anglais !\" \"Enseigner\" (to teach) is another regular -er verb.",
           "The answer to a \"vous\" question about you alone still uses \"je\": \"Vous habitez ici ?\" → \"Oui, j'habite ici.\" If vous means a group, answer with \"nous\" or \"on\".",
         ],
         examples: [
@@ -811,7 +811,7 @@ export const FR_A1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Mme Lefèvre asks you « Vous habitez ici ? ». You live there alone. What do you answer?",
+        question: "Mme Lefèvre asks you \"Vous habitez ici ?\". You live there alone. What do you answer?",
         options: ["Oui, j'habite ici.", "Oui, vous habitez ici.", "Oui, nous habitons ici.", "Oui, je habite ici."],
         correctIndex: 0,
         explanation: "Polite \"vous\" to one person is answered with \"je\", and \"je\" elides: \"j'habite\".",
@@ -1417,9 +1417,9 @@ export const FR_A1_U03: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
         en: "Do you [need] a car? (polite)",
-        sentence: "Vous avez ___ une voiture ?",
-        answer: "besoin d'",
-        explanation: "\"Avoir besoin de\", and \"de\" elides before \"une\": \"besoin d'une voiture\".",
+        sentence: "Vous avez ___ d'une voiture ?",
+        answer: "besoin",
+        explanation: "\"Avoir besoin de\": \"besoin\" is a noun, so French says you have need of a car. \"De\" elides before \"une\": \"besoin d'une voiture\". Without \"besoin\" (*vous avez d'une voiture) the sentence means nothing.",
       },
       {
         type: "word-order",
@@ -2275,7 +2275,7 @@ export const FR_A1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote « Ils parlont français ». Write the correct French for: They speak French.",
+            prompt: "A learner wrote \"Ils parlont français\". Write the correct French for: They speak French.",
             source: "They speak French.",
             answer: "Ils parlent français.",
             altAnswers: ["Elles parlent français.", "Ils parlent le français.", "Elles parlent le français."],
@@ -2283,7 +2283,7 @@ export const FR_A1_U03: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "A learner wrote « Nous mangons ensemble ». Write the French for the bold words.",
+            prompt: "A learner wrote \"Nous mangons ensemble\". Write the French for the bold words.",
             en: "[We eat] together.",
             sentence: "___ ensemble.",
             answer: "Nous mangeons",
@@ -2315,7 +2315,7 @@ export const FR_A1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote « Je suis faim ». Write the correct French for: I'm hungry.",
+            prompt: "A learner wrote \"Je suis faim\". Write the correct French for: I'm hungry.",
             source: "I'm hungry.",
             answer: "J'ai faim.",
             explanation: "Hunger is something you have: \"avoir faim\".",
@@ -2323,7 +2323,7 @@ export const FR_A1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote « J'ai 20 ». Write the correct French for: I'm twenty.",
+            prompt: "A learner wrote \"J'ai 20\". Write the correct French for: I'm twenty.",
             source: "I'm twenty.",
             answer: "J'ai vingt ans.",
             altAnswers: ["J'ai 20 ans."],
@@ -2348,7 +2348,7 @@ export const FR_A1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote « Il ne pas travaille ici ». Write the correct French for: He doesn't work here.",
+            prompt: "A learner wrote \"Il ne pas travaille ici\". Write the correct French for: He doesn't work here.",
             source: "He doesn't work here.",
             answer: "Il ne travaille pas ici.",
             explanation: "The verb sits between \"ne\" and \"pas\".",
@@ -2367,7 +2367,7 @@ export const FR_A1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Je achète une pizza ». Write the correct French for: I'm buying a pizza.",
+        prompt: "A learner wrote \"Je achète une pizza\". Write the correct French for: I'm buying a pizza.",
         source: "I'm buying a pizza.",
         answer: "J'achète une pizza.",
         explanation: "\"Je\" elides before a vowel: \"j'achète\".",
@@ -2375,7 +2375,7 @@ export const FR_A1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Nous sommes soif ». Write the correct French for: We're thirsty.",
+        prompt: "A learner wrote \"Nous sommes soif\". Write the correct French for: We're thirsty.",
         source: "We're thirsty.",
         answer: "Nous avons soif.",
         altAnswers: ["On a soif."],
@@ -2384,7 +2384,7 @@ export const FR_A1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Elles travaillont à Lille ». Write the correct French for: They work in Lille.",
+        prompt: "A learner wrote \"Elles travaillont à Lille\". Write the correct French for: They work in Lille.",
         source: "They work in Lille.",
         answer: "Elles travaillent à Lille.",
         altAnswers: ["Ils travaillent à Lille."],
@@ -2393,7 +2393,7 @@ export const FR_A1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Nous commencons demain ». Write the correct French for: We start tomorrow.",
+        prompt: "A learner wrote \"Nous commencons demain\". Write the correct French for: We start tomorrow.",
         source: "We start tomorrow.",
         answer: "Nous commençons demain.",
         altAnswers: ["On commence demain."],
@@ -2401,7 +2401,7 @@ export const FR_A1_U03: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote « Tu ne écoutes pas ». Write the French for the bold words.",
+        prompt: "A learner wrote \"Tu ne écoutes pas\". Write the French for the bold words.",
         en: "You're [not listening]. (to a friend)",
         sentence: "Tu ___.",
         answer: "n'écoutes pas",
@@ -2409,7 +2409,7 @@ export const FR_A1_U03: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote « Vous préfèrez le café ? ». Write the French for the bold word.",
+        prompt: "A learner wrote \"Vous préfèrez le café ?\". Write the French for the bold word.",
         en: "Do you [prefer] coffee? (polite)",
         sentence: "Vous ___ le café ?",
         answer: "préférez",
@@ -2417,7 +2417,7 @@ export const FR_A1_U03: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "A learner wrote « Je suis sommeil ». Put the words in order to say: I'm sleepy and I'm cold.",
+        prompt: "A learner wrote \"Je suis sommeil\". Put the words in order to say: I'm sleepy and I'm cold.",
         words: ["J'ai", "sommeil", "et", "j'ai", "froid."],
         altOrders: [["J'ai", "froid", "et", "j'ai", "sommeil."]],
         translation: "I'm sleepy and I'm cold.",
@@ -2433,7 +2433,7 @@ export const FR_A1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote « Je ne suis français ». Write the correct French for: I'm not French.",
+        prompt: "A learner wrote \"Je ne suis français\". Write the correct French for: I'm not French.",
         source: "I'm not French.",
         answer: "Je ne suis pas français.",
         altAnswers: ["Je ne suis pas française."],
@@ -2623,7 +2623,7 @@ export const FR_A1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A new flatmate asks « Tu as des animaux ? ». You have a dog. What do you answer?",
+        question: "A new flatmate asks \"Tu as des animaux ?\". You have a dog. What do you answer?",
         options: ["Oui, j'ai un chien.", "Oui, je suis un chien.", "Oui, tu as un chien.", "Oui, j'ai chien."],
         correctIndex: 0,
         explanation: "Answer with \"je\" and \"avoir\", and keep the article: \"un chien\".",

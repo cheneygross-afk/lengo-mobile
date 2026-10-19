@@ -339,7 +339,7 @@ export const FR_B1_U33: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A French friend says: « C'est un quartier populaire. » What does she mean?",
+            question: "A French friend says: \"C'est un quartier populaire.\" What does she mean?",
             options: ["It's a working-class area.", "It's a fashionable area everybody loves.", "It's a crowded tourist area.", "It's a residential suburb."],
             correctIndex: 0,
             explanation: "\"Populaire\" applied to a district means working-class (du peuple), a false friend of popular. A trendy area is \"branché\" or \"à la mode\".",
@@ -784,7 +784,7 @@ export const FR_B1_U33: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A friend writes: « Mon frère a été licencié. » What happened?",
+            question: "A friend writes: \"Mon frère a été licencié.\" What happened?",
             options: ["Her brother was laid off.", "Her brother got his driving licence.", "Her brother graduated.", "Her brother resigned."],
             correctIndex: 0,
             explanation: "\"Licencier\" means to dismiss or lay off, a false friend of licence. Graduating is \"obtenir son diplôme\"; resigning is \"démissionner\".",
@@ -905,7 +905,7 @@ export const FR_B1_U33: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A colleague says: « Il a une formation de juriste. » What does this tell you?",
+        question: "A colleague says: \"Il a une formation de juriste.\" What does this tell you?",
         options: ["He trained as a lawyer.", "He's in a lawyers' football team.", "He's taking a law exam next week.", "He's been sacked from a law firm."],
         correctIndex: 0,
         explanation: "\"Avoir une formation de...\" describes someone's training or professional background.",
@@ -1100,7 +1100,7 @@ export const FR_B1_U33: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the natural spoken version of « Nous ne savons pas où il est » ?",
+            question: "Which is the natural spoken version of \"Nous ne savons pas où il est\" ?",
             options: ["On sait pas où il est.", "Nous savons pas où il est.", "On ne savons pas où il est.", "On sais pas où est-il."],
             correctIndex: 0,
             explanation: "\"On\" + third-person verb (\"sait\") and \"ne\" dropped. Inversion inside an indirect question is wrong in any register.",
@@ -1108,7 +1108,7 @@ export const FR_B1_U33: Lesson[] = [
           {
             type: "speak",
             text: "On est partis tôt pour éviter les bouchons.",
-            tip: "No liaison in \"on est\" is a mistake: say \"on-n-est\".",
+            tip: "Always make the liaison in \"on est\": say \"on-n-est\".",
             explanation: "\"On\" meaning we: the participle agrees in the plural, \"partis\".",
           },
         ],
@@ -1584,7 +1584,7 @@ export const FR_B1_U33: Lesson[] = [
         prompt: "Translate into French.",
         source: "Whose are these glasses?",
         answer: "C'est à qui, ces lunettes ?",
-        altAnswers: ["Ces lunettes sont à qui ?", "À qui sont ces lunettes ?", "Ce sont les lunettes de qui ?", "À qui est-ce que sont ces lunettes ?"],
+        altAnswers: ["Ces lunettes sont à qui ?", "À qui sont ces lunettes ?", "Ce sont les lunettes de qui ?"],
         explanation: "Whose is \"à qui\" + \"être\". \"Les lunettes\" (glasses) is always plural.",
       },
       {
@@ -1621,7 +1621,7 @@ export const FR_B1_U33: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend asks: « Tu lui as rendu ses livres ? » You did. What do you answer?",
+        question: "Your friend asks: \"Tu lui as rendu ses livres ?\" You did. What do you answer?",
         options: ["Oui, je les lui ai rendus.", "Oui, je lui les ai rendus.", "Oui, je les ai lui rendus.", "Oui, je les lui ai rendu."],
         correctIndex: 0,
         explanation: "\"Les\" before \"lui\", both before the auxiliary; \"rendus\" agrees with \"les\" (ses livres, masculine plural).",

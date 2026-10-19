@@ -247,7 +247,7 @@ export const PT_B2_U13: Lesson[] = [
         body: [
           "A Brazilian presentation opens with a greeting, thanks, and your name and role: \"Bom dia a todos, obrigado pela presença. Meu nome é Rafael e sou gerente de vendas.\" Jobs take no article, as at A1. A woman says \"obrigada pela presença\".",
           "Next, state the purpose and the plan. \"Gostaria de apresentar...\" sounds polished; \"vou falar sobre...\" suits a relaxed team meeting. \"O objetivo desta apresentação é...\" and \"vou dividir a apresentação em três partes\" tell the room what's coming.",
-          "Don't translate I'll be presenting as \"vou estar apresentando\". Brazilians call this \"gerundismo\", a call-centre habit that managers wince at. Just say \"vou apresentar\".",
+          "Don't translate I'll be presenting as \"vou estar apresentando\". Brazilians call this \"gerundismo\", a call-center habit that managers wince at. Just say \"vou apresentar\".",
         ],
         examples: [
           { es: "Bom dia a todos, obrigado pela presença.", en: "Good morning, everyone, and thanks for coming." },
@@ -286,7 +286,7 @@ export const PT_B2_U13: Lesson[] = [
               "Hoje eu gostaria de apresentar o plano para o ano que vem.",
               "Gostaria de apresentar hoje o plano para o próximo ano.",
             ],
-            explanation: "\"Gostaria de\" + infinitive is the polished opening. Avoid \"vou estar apresentando\", the gerundismo that sounds like a call centre.",
+            explanation: "\"Gostaria de\" + infinitive is the polished opening. Avoid \"vou estar apresentando\", the gerundismo that sounds like a call center.",
           },
         ],
       },
@@ -326,7 +326,7 @@ export const PT_B2_U13: Lesson[] = [
         heading: "Describing graphs: cresceu, caiu, se manteve estável",
         body: [
           "For a finished period, use the perfeito: \"cresceram\" or \"aumentaram\" (rose), \"caíram\" or \"diminuíram\" (fell), \"se mantiveram estáveis\" (stayed stable), \"atingiram um pico\" (peaked). The verb agrees with its subject: \"o lucro cresceu\", \"as vendas cresceram\". For a trend that is still going on, \"tem crescido\" means has been growing.",
-          "The trap: rose by 10% is \"cresceu 10%\", with no preposition; \"cresceu por 10%\" is wrong. The preposition goes with the noun instead: \"um aumento de 10%\", \"uma queda de 5%\". From... to is \"de... para\", and compared with is \"em relação a\".",
+          "The trap: rose by 10% is \"cresceu 10%\" or \"cresceu em 10%\", never \"cresceu por 10%\". The preposition goes with the noun instead: \"um aumento de 10%\", \"uma queda de 5%\". From... to is \"de... para\", and compared with is \"em relação a\".",
           "Read \"12%\" as \"doze por cento\" and \"3,5%\" as \"três vírgula cinco por cento\": Portuguese uses a comma for decimals. On a written slide, the formal order is \"manteve-se estável\".",
         ],
         examples: [
@@ -352,7 +352,7 @@ export const PT_B2_U13: Lesson[] = [
               "As vendas cresceram 10% em comparação ao ano passado.",
               "As vendas cresceram dez por cento em relação ao ano passado.",
             ],
-            explanation: "\"Cresceram\" agrees with \"as vendas\" and takes the percentage directly, with no preposition. \"Em relação ao\" is compared with.",
+            explanation: "\"Cresceram\" agrees with \"as vendas\" and takes the percentage directly; \"em\" before it is optional, but never \"por\". \"Em relação ao\" is compared with.",
           },
           {
             type: "listen-choose",
@@ -368,8 +368,8 @@ export const PT_B2_U13: Lesson[] = [
             en: "Profit [fell by] 5% in the second quarter.",
             sentence: "O lucro ___ 5% no segundo trimestre.",
             answer: "caiu",
-            altAnswers: ["diminuiu", "baixou"],
-            explanation: "By has no translation: \"caiu 5%\". \"Caiu por 5%\" is the typical English-speaker mistake.",
+            altAnswers: ["diminuiu", "baixou", "caiu em", "diminuiu em", "baixou em"],
+            explanation: "By is \"caiu 5%\" or \"caiu em 5%\". \"Caiu por 5%\" is the typical English-speaker mistake.",
           },
         ],
       },
@@ -506,7 +506,7 @@ export const PT_B2_U13: Lesson[] = [
         type: "speak",
         text: "Em primeiro lugar, vamos ver os números.",
         prompt: "Say it in Portuguese: First, let's look at the numbers.",
-        tip: "\"Números\" is stressed on the first syllable, NÚ-me-ros, with a tap r.",
+        tip: "\"Números\" is stressed on the first syllable, NÚ-me-rus, with a tap r.",
         explanation: "\"Em primeiro lugar\" opens a list of points. \"Vamos ver\" is let's look.",
       },
       {
@@ -535,15 +535,15 @@ export const PT_B2_U13: Lesson[] = [
         heading: "Proposta, contraproposta, prazo, condições",
         body: [
           "A negotiation runs on a handful of nouns. You make an offer (\"fazer uma proposta\"). The other side can accept it (\"aceitar\"), turn it down (\"recusar\") or come back with \"uma contraproposta\" (a counteroffer). When both sides agree, you \"fechar negócio\" or \"fechar o contrato\".",
-          "\"O prazo\" is a deadline or time frame: \"o prazo de entrega\" (delivery time), \"cumprir o prazo\" (meet the deadline), \"prorrogar o prazo\" (extend it). \"As condições\" are the terms, above all \"as condições de pagamento\". Payment can be \"à vista\" (in full, up front) or \"parcelado\" (in instalments, as in \"em seis vezes\").",
-          "Trap: \"o negócio\" is the deal or the business, not the negotiation, which is \"a negociação\". In a business deal Brazilians usually say \"proposta\". \"Oferta\" suggests a special price in a shop.",
+          "\"O prazo\" is a deadline or time frame: \"o prazo de entrega\" (delivery time), \"cumprir o prazo\" (meet the deadline), \"prorrogar o prazo\" (extend it). \"As condições\" are the terms, above all \"as condições de pagamento\". Payment can be \"à vista\" (in full, up front) or \"parcelado\" (in installments, as in \"em seis vezes\").",
+          "Trap: \"o negócio\" is the deal or the business, not the negotiation, which is \"a negociação\". In a business deal Brazilians usually say \"proposta\". \"Oferta\" suggests a special price in a store.",
         ],
         examples: [
           { es: "Vamos apresentar a proposta na reunião de quinta.", en: "We'll present the offer at Thursday's meeting." },
           { es: "O cliente recusou o preço e fez uma contraproposta.", en: "The client turned down the price and made a counteroffer." },
           { es: "Qual é o prazo de entrega?", en: "What's the delivery time?" },
           { es: "Infelizmente não vamos conseguir cumprir o prazo.", en: "Unfortunately we won't be able to meet the deadline." },
-          { es: "Podemos pagar à vista ou parcelado em seis vezes.", en: "We can pay in full up front or in six instalments." },
+          { es: "Podemos pagar à vista ou parcelado em seis vezes.", en: "We can pay in full up front or in six installments." },
           { es: "Então fechamos negócio?", en: "So do we have a deal?" },
         ],
         checkpoint: [
@@ -566,10 +566,10 @@ export const PT_B2_U13: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: Can we split it into six instalments?",
+            prompt: "Put the words in order to say: Can we split it into six installments?",
             words: ["Podemos", "parcelar", "em", "seis", "vezes?"],
-            translation: "Can we split it into six instalments?",
-            explanation: "\"Parcelar em seis vezes\" is the everyday way to say pay in six instalments. The opposite is \"à vista\".",
+            translation: "Can we split it into six installments?",
+            explanation: "\"Parcelar em seis vezes\" is the everyday way to say pay in six installments. The opposite is \"à vista\".",
           },
         ],
       },
@@ -1053,7 +1053,7 @@ export const PT_B2_U13: Lesson[] = [
     level: "PT-B2",
     number: 5,
     title: "Reports and Minutes",
-    summary: "Write a Brazilian ata and a short relatório with past tenses, impersonal frames and nominalised sentences.",
+    summary: "Write a Brazilian ata and a short relatório with past tenses, impersonal frames and nominalized sentences.",
     duration: "15 min",
     sections: [
       {
@@ -1104,10 +1104,10 @@ export const PT_B2_U13: Lesson[] = [
         body: [
           "Reports avoid \"eu\" and \"nós\", as you saw in Unit 8. They use the \"se\" passive, the \"ser\" passive and nouns made from verbs. A handful of verbs do most of the work: \"constatar\" (to find), \"verificar\", \"observar\", \"registrar\", \"identificar\". At the start of a sentence, put the verb first with the hyphenated pronoun: write \"Constatou-se\", not \"Se constatou\".",
           "The trap is agreement. With the \"se\" passive, the noun is grammatically the subject, so the verb agrees with it. Write \"registraram-se três reclamações\" or \"foram registradas três reclamações\". \"Registrou-se três reclamações\" is common in speech, but a report reader will mark it wrong.",
-          "Nominalisation turns a whole event into the subject, so one sentence can hold both cause and effect: \"o atraso na entrega causou a suspensão dos testes\". The plain version needs two clauses: 'the delivery was late, so we stopped the tests'.",
+          "Nominalization turns a whole event into the subject, so one sentence can hold both cause and effect: \"o atraso na entrega causou a suspensão dos testes\". The plain version needs two clauses: 'the delivery was late, so we stopped the tests'.",
         ],
         examples: [
-          { es: "Constatou-se um aumento de 12% nos custos de transporte.", en: "A 12% rise in transport costs was found." },
+          { es: "Constatou-se um aumento de 12% nos custos de transporte.", en: "A 12% rise in transportation costs was found." },
           { es: "Foram registradas três reclamações de clientes em abril.", en: "Three customer complaints were recorded in April." },
           { es: "Registraram-se falhas no sistema durante a migração.", en: "System failures were recorded during the migration." },
           { es: "O atraso na entrega dos equipamentos causou a suspensão dos testes.", en: "The delay in delivering the equipment caused the tests to be suspended." },
@@ -1145,7 +1145,7 @@ export const PT_B2_U13: Lesson[] = [
         heading: "The relatório: purpose, findings, recommendations",
         body: [
           "A short \"relatório\" makes three moves. It opens with its purpose: \"O presente relatório tem por objetivo...\". The findings use the \"perfeito\" for what happened and the \"imperfeito\" for the situation at the time: \"em janeiro, o setor contava com apenas dois técnicos\".",
-          "Recommendations switch to the present, because they apply now. Use \"recomenda-se\" + infinitive, or \"sugere-se que\" + subjunctive. Link back to the plan with \"conforme previsto\" and \"conforme o cronograma\". In a report, \"realizar\" means to carry out (\"foi realizada uma pesquisa\"). The English to realise is \"perceber\".",
+          "Recommendations switch to the present, because they apply now. Use \"recomenda-se\" + infinitive, or \"sugere-se que\" + subjunctive. Link back to the plan with \"conforme previsto\" and \"conforme o cronograma\". In a report, \"realizar\" means to carry out (\"foi realizada uma pesquisa\"). The English to realize is \"perceber\".",
         ],
         examples: [
           { es: "O presente relatório tem por objetivo avaliar o projeto-piloto em Curitiba.", en: "This report aims to evaluate the pilot project in Curitiba." },
@@ -1163,12 +1163,12 @@ export const PT_B2_U13: Lesson[] = [
             source: "We recommend hiring two more technicians.",
             answer: "Recomenda-se contratar mais dois técnicos.",
             altAnswers: ["Recomenda-se a contratação de mais dois técnicos.", "Recomendamos contratar mais dois técnicos.", "Recomendamos a contratação de mais dois técnicos.", "Sugere-se contratar mais dois técnicos."],
-            explanation: "\"Recomenda-se\" + infinitive is the impersonal choice. \"A contratação de\" is the nominalised version. Note the order: \"mais dois técnicos\", not \"dois mais técnicos\".",
+            explanation: "\"Recomenda-se\" + infinitive is the impersonal choice. \"A contratação de\" is the nominalized version. Note the order: \"mais dois técnicos\", not \"dois mais técnicos\".",
           },
           {
             type: "speak",
             text: "O presente relatório tem por objetivo avaliar o projeto-piloto.",
-            tip: "Stress \"relatório\" on -tó-, and say the t before i in \"objetivo\" as a soft ch: ob-je-TCHI-vo.",
+            tip: "Stress \"relatório\" on -tó-, and say the t before i in \"objetivo\" as a soft ch: ob-je-TCHI-vu.",
             explanation: "\"Tem por objetivo\" + infinitive is the standard opening of a relatório.",
           },
         ],
@@ -1217,7 +1217,7 @@ export const PT_B2_U13: Lesson[] = [
         source: "The delay in the delivery caused problems.",
         answer: "O atraso na entrega causou problemas.",
         altAnswers: ["O atraso da entrega causou problemas.", "O atraso na entrega gerou problemas.", "O atraso da entrega gerou problemas."],
-        explanation: "Nominalisation: \"o atraso na entrega\" turns the event into the subject, and \"causou\" in the perfeito gives the effect.",
+        explanation: "Nominalization: \"o atraso na entrega\" turns the event into the subject, and \"causou\" in the perfeito gives the effect.",
       },
       {
         type: "translate",
@@ -1385,7 +1385,7 @@ export const PT_B2_U13: Lesson[] = [
         examples: [
           { es: "O prazo de entrega é de quinze dias úteis.", en: "Lead time is fifteen working days." },
           { es: "Vocês conseguiriam entregar em dez dias?", en: "Could you deliver in ten days?" },
-          { es: "O pagamento pode ser em duas parcelas, para 30 e 60 dias, no boleto.", en: "Payment can be in two instalments, at 30 and 60 days, by bank slip." },
+          { es: "O pagamento pode ser em duas parcelas, para 30 e 60 dias, no boleto.", en: "Payment can be in two installments, at 30 and 60 days, by bank slip." },
           { es: "E caso haja algum atraso na entrega?", en: "And what if there's a delay in delivery?" },
           { es: "Assim que vocês aprovarem a amostra, a gente começa a produção.", en: "As soon as you approve the sample, we'll start production." },
           { es: "Então, fechado? Fechado. Vou pedir para o jurídico mandar a minuta.", en: "So, deal? Deal. I'll ask legal to send the draft." },
@@ -1498,7 +1498,7 @@ export const PT_B2_U13: Lesson[] = [
         type: "speak",
         text: "Desde que o pedido seja de dez mil unidades, a gente faz esse preço.",
         prompt: "Say it in Portuguese: Provided the order is ten thousand units, we'll do that price.",
-        tip: "Link \"desde que\" smoothly: DEZ-di-ki, with the d before i sounding like the j in jeans.",
+        tip: "Link \"desde que\" smoothly: DEZ-dji-ki, with the d before i sounding like the j in jeans.",
         explanation: "\"Desde que\" + subjunctive (\"seja\") sets the condition; \"a gente faz\" keeps the reply friendly.",
       },
     ],
@@ -1803,11 +1803,11 @@ export const PT_B2_U13: Lesson[] = [
       {
         heading: "Realizar, aplicar: false friends at the office",
         body: [
-          "\"Realizar\" means to carry out or hold: \"realizar uma reunião\" (to hold a meeting), \"realizar um sonho\" (to make a dream come true). It never means to notice. For to realise, say \"perceber\" or \"se dar conta de\": \"percebi que o prazo era sexta\".",
+          "\"Realizar\" means to carry out or hold: \"realizar uma reunião\" (to hold a meeting), \"realizar um sonho\" (to make a dream come true). It never means to notice. For to realize, say \"perceber\" or \"se dar conta de\": \"percebi que o prazo era sexta\".",
           "Nor do you \"aplicar para\" a job. \"Aplicar\" is to apply a rule, a cream or money in an investment; for a vacancy, use \"candidatar-se a\" (\"se candidatar\" in speech). Two more traps: \"suportar\" is to put up with, not to support (\"apoiar\"), and \"eventualmente\" means occasionally or possibly. For eventually, say \"no fim\" or \"mais cedo ou mais tarde\".",
         ],
         examples: [
-          { es: "Só percebi o erro depois de enviar o e-mail.", en: "I only realised the mistake after sending the email." },
+          { es: "Só percebi o erro depois de enviar o e-mail.", en: "I only realized the mistake after sending the email." },
           { es: "A empresa vai realizar a reunião anual em março.", en: "The company will hold its annual meeting in March." },
           { es: "Ela se candidatou a uma vaga de analista.", en: "She applied for an analyst position." },
           { es: "Gostaria de me candidatar à vaga de gerente de projetos.", en: "I'd like to apply for the project manager position." },
@@ -1818,7 +1818,7 @@ export const PT_B2_U13: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I realised that the client was unhappy. (Fix: \"Realizei que o cliente estava insatisfeito.\")",
+            source: "I realized that the client was unhappy. (Fix: \"Realizei que o cliente estava insatisfeito.\")",
             answer: "Percebi que o cliente estava insatisfeito.",
             altAnswers: [
               "Eu percebi que o cliente estava insatisfeito.",
@@ -1831,7 +1831,7 @@ export const PT_B2_U13: Lesson[] = [
               "Notei que o cliente estava insatisfeito.",
               "Eu notei que o cliente estava insatisfeito.",
             ],
-            explanation: "To realise in the sense of notice is \"perceber\" or \"se dar conta de\". \"Realizei\" would mean 'I carried out', so the sentence makes no sense.",
+            explanation: "To realize in the sense of notice is \"perceber\" or \"se dar conta de\". \"Realizei\" would mean 'I carried out', so the sentence makes no sense.",
           },
           {
             type: "fill-blank",
@@ -1855,7 +1855,7 @@ export const PT_B2_U13: Lesson[] = [
       {
         heading: "Vou estar enviando: gerundismo",
         body: [
-          "\"Vou estar enviando\" copies call-centre English (I'll be sending) and is the most mocked habit in Brazilian offices. One future action takes a plain future: \"vou enviar\", the present \"envio\", or in writing \"enviarei\". \"Estaremos analisando\" becomes \"analisaremos\" or \"vamos analisar\".",
+          "\"Vou estar enviando\" copies call-center English (I'll be sending) and is the most mocked habit in Brazilian offices. One future action takes a plain future: \"vou enviar\", the present \"envio\", or in writing \"enviarei\". \"Estaremos analisando\" becomes \"analisaremos\" or \"vamos analisar\".",
           "The future progressive is fine when something will be in progress at a given moment: \"às dez vou estar dando aula\" (at ten I'll be teaching). The test: a single act (send, call, check) takes the simple future; an activity under way at that time can keep the gerund.",
         ],
         examples: [
@@ -1953,7 +1953,7 @@ export const PT_B2_U13: Lesson[] = [
           "The opposite slip also costs you: \"venho por meio deste\" or \"solicito a gentileza de\" in a quick message to your team sounds stiff or ironic. Match the channel: Slack and WhatsApp take \"você\" and \"a gente\"; contracts, complaints and first contacts take the written norm.",
         ],
         examples: [
-          { es: "Prezada Sra. Oliveira, segue em anexo a proposta revisada.", en: "Dear Ms Oliveira, please find the revised proposal attached." },
+          { es: "Prezada Sra. Oliveira, segue em anexo a proposta revisada.", en: "Dear Ms. Oliveira, please find the revised proposal attached." },
           { es: "Fico à disposição para qualquer esclarecimento.", en: "I'm available should you have any questions." },
           { es: "Gostaria de saber se a vaga ainda está aberta.", en: "I'd like to know whether the position is still open." },
           { es: "O senhor poderia me informar o número do pedido?", en: "Could you tell me the order number, sir?" },
@@ -1989,7 +1989,7 @@ export const PT_B2_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We'll analyse your proposal next week. (Fix: \"Estaremos analisando sua proposta semana que vem.\")",
+        source: "We'll analyze your proposal next week. (Fix: \"Estaremos analisando sua proposta semana que vem.\")",
         answer: "Vamos analisar sua proposta na semana que vem.",
         altAnswers: [
           "Vamos analisar a sua proposta na semana que vem.",
@@ -2021,24 +2021,24 @@ export const PT_B2_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I didn't [realise] that the meeting had been cancelled.",
+        en: "I didn't [realize] that the meeting had been canceled.",
         sentence: "Eu não ___ que a reunião tinha sido cancelada.",
         answer: "percebi",
         altAnswers: ["notei"],
         hint: "Not \"realizei\".",
-        explanation: "\"Perceber\" is to realise or notice. \"Não realizei\" would mean 'I didn't carry out'.",
+        explanation: "\"Perceber\" is to realize or notice. \"Não realizei\" would mean 'I didn't carry out'.",
       },
       {
         type: "multiple-choice",
         question: "What does \"A empresa realizou um evento para os clientes.\" mean?",
         options: [
           "The company held an event for its clients.",
-          "The company realised there was an event for its clients.",
+          "The company realized there was an event for its clients.",
           "The company noticed an event for its clients.",
-          "The company cancelled an event for its clients.",
+          "The company canceled an event for its clients.",
         ],
         correctIndex: 0,
-        explanation: "\"Realizar um evento\" is to hold or put on an event. It never means to realise.",
+        explanation: "\"Realizar um evento\" is to hold or put on an event. It never means to realize.",
       },
       {
         type: "word-order",
@@ -2091,7 +2091,7 @@ export const PT_B2_U13: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "perceber", right: "to realise" },
+          { left: "perceber", right: "to realize" },
           { left: "realizar", right: "to carry out" },
           { left: "candidatar-se a", right: "to apply for" },
           { left: "apoiar", right: "to support" },
@@ -2413,7 +2413,7 @@ export const PT_B2_U13: Lesson[] = [
       {
         heading: "Presenting and negotiating: numbers and conditions",
         body: [
-          "For graphs, the perfeito tells what happened: \"as vendas cresceram 12%\", \"a receita caiu\", \"o número se manteve estável\". Portuguese needs no preposition where English says grew by 12%.",
+          "For graphs, the perfeito tells what happened: \"as vendas cresceram 12%\", \"a receita caiu\", \"o número se manteve estável\". Say \"cresceram 12%\" or \"cresceram em 12%\" for grew by 12%; there is no \"por\".",
           "In negotiation the conditional softens the offer (\"estaríamos dispostos a\", \"poderíamos\"), and the condition takes the subjunctive. \"Desde que\" and \"caso\" take the present subjunctive for a real offer: \"caso vocês aceitem\", never \"caso vocês aceitarem\". \"Se\" + imperfect subjunctive + conditional floats a hypothetical one: \"se vocês aumentassem o pedido, daríamos um desconto\".",
         ],
         examples: [
@@ -2456,7 +2456,7 @@ export const PT_B2_U13: Lesson[] = [
           {
             type: "speak",
             text: "Como podemos ver no gráfico, as vendas cresceram doze por cento.",
-            tip: "Stress \"gráfico\" on the first syllable, GRÁ-fi-co, and end \"cresceram\" in a light, unstressed nasal sound like ão.",
+            tip: "Stress \"gráfico\" on the first syllable, GRÁ-fi-ku, and end \"cresceram\" in a light, unstressed nasal sound like ão.",
             explanation: "A standard presentation opener: \"como podemos ver no gráfico\" + the perfeito for what happened.",
           },
         ],
@@ -2464,9 +2464,9 @@ export const PT_B2_U13: Lesson[] = [
       {
         heading: "Diplomacy and the written record",
         body: [
-          "Diplomatic disagreement stacks softeners: \"entendo seu ponto, mas...\", \"com todo o respeito\", \"talvez fosse melhor\" + infinitive, \"talvez valha a pena\" + infinitive. \"Talvez\" before the verb and \"não acho que\" both take the subjunctive: \"não acho que o prazo seja realista\".",
-          "Minutes and reports switch to the written norm: impersonal \"se\" (\"decidiu-se\", \"observou-se\"), nominalisation (\"a contratação\", \"a aprovação\"), \"houve\" and \"havia\" always in the singular, and formulas like \"segue em anexo\".",
-          "Two classic slips to avoid: the gerundismo \"vou estar enviando\" (say \"vou enviar\" or, in an email, \"enviarei\"), and Anglicisms such as \"aplicar para uma vaga\" (\"candidatar-se a uma vaga\") or \"realizar\" for to realise (\"perceber\").",
+          "Diplomatic disagreement draws on softeners: \"entendo seu ponto, mas...\", \"com todo o respeito\", \"talvez fosse melhor\" + infinitive, \"talvez valha a pena\" + infinitive. \"Talvez\" before the verb and \"não acho que\" both take the subjunctive: \"não acho que o prazo seja realista\".",
+          "Minutes and reports switch to the written norm: impersonal \"se\" (\"decidiu-se\", \"observou-se\"), nominalization (\"a contratação\", \"a aprovação\"), \"houve\" and \"havia\" always in the singular, and formulas like \"segue em anexo\".",
+          "Two classic slips to avoid: the gerundismo \"vou estar enviando\" (say \"vou enviar\" or, in an email, \"enviarei\"), and Anglicisms such as \"aplicar para uma vaga\" (\"candidatar-se a uma vaga\") or \"realizar\" for to realize (\"perceber\").",
         ],
         examples: [
           { es: "Entendo seu ponto, mas talvez fosse melhor esperar a resposta do jurídico.", en: "I see your point, but maybe it would be better to wait for legal's answer." },
@@ -2510,7 +2510,7 @@ export const PT_B2_U13: Lesson[] = [
               "Vou enviar-lo amanhã.",
             ],
             correctIndex: 0,
-            explanation: "The written future \"enviarei\" suits a formal email. \"Vou estar enviando\" is the criticised gerundismo, the third option is chat register, and after an infinitive the pronoun becomes \"enviá-lo\".",
+            explanation: "The written future \"enviarei\" suits a formal email. \"Vou estar enviando\" is the criticized gerundismo, the third option is chat register, and after an infinitive the pronoun becomes \"enviá-lo\".",
           },
         ],
       },
@@ -2624,7 +2624,7 @@ export const PT_B2_U13: Lesson[] = [
         text: "Com todo o respeito, talvez valha a pena revisar o cronograma.",
         prompt: "Say it in Portuguese: With all due respect, it might be worth reviewing the schedule.",
         tip: "Link \"valha a pena\" smoothly, and keep the lh in \"valha\" soft, like the lli in million.",
-        explanation: "\"Talvez\" before the verb takes the subjunctive \"valha\"; the phrase criticises a plan without saying it's wrong.",
+        explanation: "\"Talvez\" before the verb takes the subjunctive \"valha\"; the phrase criticizes a plan without saying it's wrong.",
       },
       {
         type: "matching",
@@ -2651,7 +2651,7 @@ export const PT_B2_U13: Lesson[] = [
           "Na reunião, decidiu-se contratar dois estagiários.",
           "Na reunião, decidiu-se pela contratação de dois estagiários.",
         ],
-        explanation: "Minutes avoid naming who decided: impersonal \"decidiu-se\" or the passive \"foi decidido\". \"Decidiu-se pela contratação\" adds the nominalised style of a report.",
+        explanation: "Minutes avoid naming who decided: impersonal \"decidiu-se\" or the passive \"foi decidido\". \"Decidiu-se pela contratação\" adds the nominalized style of a report.",
       },
     ],
   },

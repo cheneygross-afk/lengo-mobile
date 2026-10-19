@@ -8,13 +8,13 @@ export const PT_B2_U28_EXTRA: Lesson[] = [
     level: "PT-B2",
     number: 1,
     title: "Extra Practice: Work and Money, Part 1 of 3",
-    summary: "Practise labour rights and ways of working: carteira assinada, 13º, férias, FGTS, aviso prévio, being fired or resigning, CLT and PJ, MEI, bicos and home office.",
+    summary: "Practice labor rights and ways of working: carteira assinada, 13º, férias, FGTS, aviso prévio, being fired or resigning, CLT and PJ, MEI, bicos and home office.",
     duration: "12 min",
     optional: true,
     kind: "drill",
     sections: [
       {
-        heading: "Labour rights and ways of working",
+        heading: "Labor rights and ways of working",
         body: [
           "Rights under the CLT: \"carteira assinada\", \"13º salário\", \"férias remuneradas\" (plus a third), \"FGTS\", \"aviso prévio\", \"rescisão\", \"seguro-desemprego\". \"Ser demitido\" (or \"mandado embora\") is to be fired; \"pedir demissão\" is to resign; \"justa causa\" is dismissal for misconduct.",
           "Ways of working: \"CLT\" or \"PJ\" (issuing a \"nota fiscal\"), \"MEI\", \"autônomo\", \"frila\", \"bico\", \"informalidade\", \"motorista de aplicativo\", \"home office\", \"híbrido\", \"presencial\". Weigh them with \"embora\" + subjunctive and \"por um lado... por outro\".",
@@ -23,7 +23,7 @@ export const PT_B2_U28_EXTRA: Lesson[] = [
           { es: "Ele foi mandado embora sem justa causa.", en: "He was let go without cause." },
           { es: "Ela pediu demissão para abrir um MEI.", en: "She resigned to set up as a micro-entrepreneur." },
           { es: "Como PJ, eu teria que emitir nota fiscal.", en: "As a contractor, I'd have to issue invoices." },
-          { es: "Faço uns bicos de garçom nos fins de semana.", en: "I do odd jobs as a waiter at weekends." },
+          { es: "Faço uns bicos de garçom nos fins de semana.", en: "I do odd jobs as a waiter on weekends." },
           { es: "Embora o home office seja confortável, sinto falta da equipe.", en: "Although working from home is comfortable, I miss the team." },
         ],
         checkpoint: [
@@ -79,7 +79,7 @@ export const PT_B2_U28_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'm going to take my holiday in December.",
+        source: "I'm going to take my vacation in December.",
         answer: "Vou tirar férias em dezembro.",
         altAnswers: ["Eu vou tirar férias em dezembro.", "Vou tirar minhas férias em dezembro.", "Vou tirar as minhas férias em dezembro."],
         explanation: "\"Tirar férias\"; \"férias\" is plural.",
@@ -159,7 +159,7 @@ export const PT_B2_U28_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Por um lado ganho mais; por outro, não tenho férias.",
-        prompt: "Say it in Portuguese: On the one hand I earn more; on the other, I have no holidays.",
+        prompt: "Say it in Portuguese: On the one hand I earn more; on the other, I have no vacation.",
         tip: "Férias: FÉ-rias, with an open é.",
         explanation: "\"Por um lado... por outro\" frames pros and cons.",
       },
@@ -170,7 +170,7 @@ export const PT_B2_U28_EXTRA: Lesson[] = [
     level: "PT-B2",
     number: 2,
     title: "Extra Practice: Work and Money, Part 2 of 3",
-    summary: "Practise personal finance and money idioms: Pix, boleto, fatura, parcelar, à vista, juros, nome sujo, estar duro, mão de vaca, rachar a conta, pagar o pato and the money false friends.",
+    summary: "Practice personal finance and money idioms: Pix, boleto, fatura, parcelar, à vista, juros, nome sujo, estar duro, mão de vaca, rachar a conta, pagar o pato and the money false friends.",
     duration: "12 min",
     optional: true,
     kind: "drill",
@@ -183,7 +183,7 @@ export const PT_B2_U28_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Te mando um Pix agora.", en: "I'll send you a Pix now." },
-          { es: "Parcelei a geladeira em dez vezes sem juros.", en: "I paid for the fridge in ten interest-free instalments." },
+          { es: "Parcelei a geladeira em dez vezes sem juros.", en: "I paid for the fridge in ten interest-free installments." },
           { es: "Ele está com o nome sujo no Serasa.", en: "He has a bad credit record with Serasa." },
           { es: "Ele é tão mão de vaca que nunca racha a conta.", en: "He's so stingy he never splits the bill." },
           { es: "Pode ficar com o troco.", en: "Keep the change." },
@@ -201,7 +201,7 @@ export const PT_B2_U28_EXTRA: Lesson[] = [
           {
             type: "speak",
             text: "Vamos rachar a conta?",
-            prompt: "Say it in Portuguese: Shall we split the bill?",
+            prompt: "Say it in Portuguese: Should we split the bill?",
             tip: "Rachar: ha-SHAR, with a breathy r at the start.",
             explanation: "\"Rachar a conta\" is to split it equally.",
           },
@@ -258,7 +258,7 @@ export const PT_B2_U28_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We had a whip-round for the party.",
+        source: "We all chipped in for the party.",
         answer: "A gente fez uma vaquinha para a festa.",
         altAnswers: ["Fizemos uma vaquinha para a festa.", "Nós fizemos uma vaquinha para a festa.", "A gente fez uma vaquinha pra festa."],
         explanation: "\"Fazer uma vaquinha\".",
@@ -292,11 +292,11 @@ export const PT_B2_U28_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Can I pay in [six instalments]?",
+        en: "Can I pay in [six installments]?",
         sentence: "Posso parcelar em ___?",
         answer: "seis vezes",
         altAnswers: ["6 vezes"],
-        explanation: "Instalments are counted in \"vezes\".",
+        explanation: "Installments are counted in \"vezes\".",
       },
       {
         type: "multiple-choice",
@@ -337,7 +337,7 @@ export const PT_B2_U28_EXTRA: Lesson[] = [
     level: "PT-B2",
     number: 3,
     title: "Extra Practice: Work and Money, Part 3 of 3",
-    summary: "Practise the economy in the news: inflation, GDP, interest rates, unemployment and the dollar, trend verbs, percentages, percentage points and large figures.",
+    summary: "Practice the economy in the news: inflation, GDP, interest rates, unemployment and the dollar, trend verbs, percentages, percentage points and large figures.",
     duration: "12 min",
     optional: true,
     kind: "drill",
@@ -346,7 +346,7 @@ export const PT_B2_U28_EXTRA: Lesson[] = [
         heading: "The economy and numbers",
         body: [
           "Indicators: \"inflação\", \"PIB\", \"Selic\" / \"taxa de juros\", \"desemprego\", \"informalidade\", \"recessão\", \"câmbio\". Trend verbs: \"subir\", \"aumentar\", \"avançar\", \"disparar\"; \"cair\", \"recuar\", \"despencar\"; \"se manter\"; \"acelerar\" / \"desacelerar\". Nouns in headlines: \"alta\", \"queda\".",
-          "Numbers: decimal comma (\"4,2%\" = \"quatro vírgula dois por cento\"), full stop for thousands (\"R$ 1.500\"), \"milhões\" / \"bilhões de\" + noun, \"de... para\" for a change, \"ponto percentual\" between rates.",
+          "Numbers: decimal comma (\"4,2%\" = \"quatro vírgula dois por cento\"), period for thousands (\"R$ 1.500\"), \"milhões\" / \"bilhões de\" + noun, \"de... para\" for a change, \"ponto percentual\" between rates.",
         ],
         examples: [
           { es: "A inflação acumulada em doze meses é de 4,5%.", en: "Inflation over the last twelve months is 4.5%." },

@@ -131,7 +131,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "Is there anyone here who knows the password?",
         answer: "Y a-t-il quelqu'un ici qui connaisse le mot de passe ?",
-        altAnswers: ["Est-ce qu'il y a quelqu'un ici qui connaisse le mot de passe ?", "Il y a quelqu'un ici qui connaisse le mot de passe ?", "Y a-t-il quelqu'un ici qui connaît le mot de passe ?", "Est-ce qu'il y a quelqu'un ici qui connaît le mot de passe ?", "Quelqu'un connaît le mot de passe ?"],
+        altAnswers: ["Est-ce qu'il y a quelqu'un ici qui connaisse le mot de passe ?", "Il y a quelqu'un ici qui connaisse le mot de passe ?", "Y a-t-il quelqu'un ici qui connaît le mot de passe ?", "Est-ce qu'il y a quelqu'un ici qui connaît le mot de passe ?", "Quelqu'un ici connaît le mot de passe ?"],
         explanation: "A doubtful question → subjunctive \"connaisse\" in careful style; the indicative is common in speech.",
       },
       {
@@ -139,16 +139,16 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: It's the first time someone has thanked me.",
         words: ["C'est", "la première fois", "qu'on", "me", "remercie."],
         translation: "It's the first time someone has thanked me.",
-        explanation: "\"La première fois que\" + subjunctive is common when it's a personal judgement; the indicative \"qu'on me remercie\" has the same form here.",
+        explanation: "\"C'est la première fois que\" normally takes the indicative, because it dates an event rather than judging it (compare \"la première personne qui m'ait écouté\"). Here \"remercie\" has the same form in both moods anyway.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "Columbus was the first European who crossed the Atlantic in 1492.",
-        answer: "Colomb est le premier Européen qui a traversé l'Atlantique en 1492.",
-        altAnswers: ["Christophe Colomb est le premier Européen qui a traversé l'Atlantique en 1492.", "Colomb fut le premier Européen qui a traversé l'Atlantique en 1492.", "Colomb est le premier Européen à avoir traversé l'Atlantique en 1492.", "Christophe Colomb est le premier Européen à avoir traversé l'Atlantique en 1492."],
-        explanation: "A historical claim presented as a fact → indicative, or the infinitive \"à avoir traversé\".",
+        source: "Valentina Tereshkova was the first woman who went into space.",
+        answer: "Valentina Terechkova est la première femme qui est allée dans l'espace.",
+        altAnswers: ["Valentina Terechkova a été la première femme qui est allée dans l'espace.", "Valentina Terechkova fut la première femme qui est allée dans l'espace.", "Valentina Terechkova est la première femme à être allée dans l'espace.", "Valentina Terechkova a été la première femme à être allée dans l'espace.", "Valentina Terechkova est la première femme qui soit allée dans l'espace."],
+        explanation: "A historical record, not a judgement → indicative \"qui est allée\" (être verb, agreeing with \"femme\"), or the infinitive \"à être allée\". The subjunctive is still found in careful writing and is accepted.",
       },
       {
         type: "listen-choose",
@@ -368,14 +368,14 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A text says: Il voulait qu'elle restât. Write it in modern French: He wanted her to stay.",
+            prompt: "A text says: \"Il voulait qu'elle restât.\" Write it in modern French: He wanted her to stay.",
             source: "He wanted her to stay.",
             answer: "Il voulait qu'elle reste.",
             explanation: "\"Restât\" → \"reste\".",
           },
           {
             type: "multiple-choice",
-            question: "What does « J'eusse préféré rester » mean?",
+            question: "What does \"J'eusse préféré rester\" mean?",
             options: ["I would have preferred to stay.", "I preferred to stay.", "I had preferred to stay.", "I'll prefer to stay."],
             correctIndex: 0,
             explanation: "\"J'eusse préféré\" = \"j'aurais préféré\".",
@@ -387,7 +387,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: Il fallait qu'il partît. Write the modern French: He had to leave.",
+        prompt: "A text says: \"Il fallait qu'il partît.\" Write the modern French: He had to leave.",
         source: "He had to leave.",
         answer: "Il fallait qu'il parte.",
         altAnswers: ["Il devait partir."],
@@ -396,7 +396,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: Bien qu'elle eût peur, elle avança. Write the first part in modern French: Although she was afraid...",
+        prompt: "A text says: \"Bien qu'elle eût peur, elle avança.\" Write the first part in modern French: Although she was afraid...",
         source: "Although she was afraid",
         answer: "Bien qu'elle ait peur",
         altAnswers: ["Quoiqu'elle ait peur"],
@@ -405,7 +405,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: Je craignais qu'il ne fût malade. Write the modern French: I was afraid he was ill.",
+        prompt: "A text says: \"Je craignais qu'il ne fût malade.\" Write the modern French: I was afraid he was ill.",
         source: "I was afraid he was ill.",
         answer: "Je craignais qu'il ne soit malade.",
         altAnswers: ["Je craignais qu'il soit malade.", "J'avais peur qu'il ne soit malade.", "J'avais peur qu'il soit malade."],
@@ -413,7 +413,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "A text says: Elle attendait qu'il vînt. Write the modern French for the bold words.",
+        prompt: "A text says: \"Elle attendait qu'il vînt.\" Write the modern French for the bold words.",
         en: "She was waiting for him [to come].",
         sentence: "Elle attendait qu'il ___.",
         answer: "vienne",
@@ -422,7 +422,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: J'eusse aimé le connaître. Write the modern French: I would have liked to know him.",
+        prompt: "A text says: \"J'eusse aimé le connaître.\" Write the modern French: I would have liked to know him.",
         source: "I would have liked to know him.",
         answer: "J'aurais aimé le connaître.",
         altAnswers: ["J'aurais bien aimé le connaître."],
@@ -431,7 +431,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: S'il l'eût su, il serait venu. Write the modern French: If he had known, he would have come.",
+        prompt: "A text says: \"S'il l'eût su, il serait venu.\" Write the modern French: If he had known, he would have come.",
         source: "If he had known, he would have come.",
         answer: "S'il l'avait su, il serait venu.",
         altAnswers: ["S'il avait su, il serait venu."],
@@ -439,7 +439,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Il exigea qu'on lui rendît son argent. » What did he demand?",
+        question: "\"Il exigea qu'on lui rendît son argent.\" What did he demand?",
         options: ["That his money be returned to him.", "That he return the money.", "That someone lend him money.", "That he had returned the money."],
         correctIndex: 0,
         explanation: "\"Qu'on lui rendît\" = \"qu'on lui rende\": that they give back (his money) to him.",
@@ -468,14 +468,14 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: On eût dit qu'elle pleurait. Write the modern French: It looked as if she was crying.",
+        prompt: "A text says: \"On eût dit qu'elle pleurait.\" Write the modern French: It looked as if she was crying.",
         source: "It looked as if she was crying.",
         answer: "On aurait dit qu'elle pleurait.",
         explanation: "\"On eût dit\" → \"on aurait dit\".",
       },
       {
         type: "word-order",
-        prompt: "Rewrite in modern French: Il aurait fallu qu'il fût plus patient. (He should have been more patient.)",
+        prompt: "A text says: \"Il aurait fallu qu'il fût plus patient.\" Put the words in order to say it in modern French: He should have been more patient.",
         words: ["Il aurait fallu", "qu'il", "soit", "plus patient."],
         translation: "He should have been more patient.",
         explanation: "\"Fût\" → \"soit\" after \"il aurait fallu que\".",
@@ -483,7 +483,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: Il n'y avait personne qui pût l'aider. Write the modern French: There was nobody who could help him.",
+        prompt: "A text says: \"Il n'y avait personne qui pût l'aider.\" Write the modern French: There was nobody who could help him.",
         source: "There was nobody who could help him.",
         answer: "Il n'y avait personne qui puisse l'aider.",
         altAnswers: ["Il n'y avait personne qui pouvait l'aider.", "Personne ne pouvait l'aider."],
@@ -539,7 +539,7 @@ export const FR_C1_U01_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « Il dit que tu sois prudent » mean?",
+            question: "What does \"Il dit que tu sois prudent\" mean?",
             options: ["He says you should be careful.", "He says you're careful.", "He says you were careful.", "He says he'll be careful."],
             correctIndex: 0,
             explanation: "\"Dire que\" + subjunctive \"sois\" = an instruction.",

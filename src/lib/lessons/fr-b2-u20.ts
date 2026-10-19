@@ -29,7 +29,7 @@ export const FR_B2_U20: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Your friend mentions the film Intouchables. You've seen it three times. Which reply is most natural?",
+            question: "Your friend mentions the film \"Intouchables\". You've seen it three times. Which reply is most natural?",
             options: ["Ce film, je l'ai vu trois fois !", "Un film, j'en ai vu un trois fois !", "C'est trois fois que je l'ai vu, un film !", "Ce que j'ai vu trois fois, c'est un film."],
             correctIndex: 0,
             explanation: "The film is the topic already mentioned: left dislocation \"ce film, je l'ai vu\" picks it up naturally.",
@@ -73,7 +73,7 @@ export const FR_B2_U20: Lesson[] = [
             prompt: "Correct the speaker in French: Did you go to the theatre? — No, I went to the CINEMA.",
             source: "Did you go to the theatre? — No, I went to the CINEMA.",
             answer: "Tu es allé au théâtre ? — Non, c'est au cinéma que je suis allé.",
-            altAnswers: ["Tu es allée au théâtre ? — Non, c'est au cinéma que je suis allée.", "Vous êtes allé au théâtre ? — Non, c'est au cinéma que je suis allé.", "Tu es allé au théâtre ? — Non, je suis allé au cinéma.", "Tu es allée au théâtre ? — Non, je suis allée au cinéma."],
+            altAnswers: ["Tu es allée au théâtre ? — Non, c'est au cinéma que je suis allée.", "Vous êtes allé au théâtre ? — Non, c'est au cinéma que je suis allé."],
             explanation: "A cleft corrects the wrong assumption: \"c'est au cinéma que\".",
           },
           {
@@ -151,7 +151,7 @@ export const FR_B2_U20: Lesson[] = [
         source: "What I love is the sea.",
         answer: "Ce que j'aime, c'est la mer.",
         altAnswers: ["Ce que j'adore, c'est la mer."],
-        explanation: "\"Ce que\" (object of aimer), reveal after c'est.",
+        explanation: "\"Ce que\" (object of \"aimer\"), reveal after \"c'est\".",
       },
       {
         type: "fill-blank",
@@ -223,14 +223,14 @@ export const FR_B2_U20: Lesson[] = [
     level: "FR-B2",
     number: 2,
     title: "Circuit: Qu'est-ce que C'est Beau !, Comme Il Chante Bien !",
-    summary: "Exclamations of degree: qu'est-ce que, comme, que and ce que + clause, quel + noun, tellement / si + adjective, and the trap *comment c'est beau.",
+    summary: "Exclamations of degree: \"qu'est-ce que\", \"comme\", \"que\" and \"ce que\" + clause, \"quel\" + noun, \"tellement\" / \"si\" + adjective, and the trap *\"comment c'est beau\".",
     duration: "14 min",
     sections: [
       {
         heading: "Station 1: qu'est-ce que, comme, que, ce que + clause",
         body: [
           "English says 'How beautiful it is!' or 'It's so beautiful!'. French has four ways to exclaim about a degree, all followed by a normal, uninverted clause. \"Qu'est-ce que c'est beau !\" is the most common in conversation. \"Comme c'est beau !\" is neutral and works everywhere. \"Que c'est beau !\" is a little literary or emphatic. \"Ce que c'est beau !\" is familiar.",
-          "The adjective or adverb stays in its usual place: \"Comme il chante bien !\" (How well he sings!), \"Qu'est-ce qu'il fait froid !\" (It's so cold!). Never put the adjective right after comme as in English: *\"Comme beau c'est !\" is impossible.",
+          "The adjective or adverb stays in its usual place: \"Comme il chante bien !\" (How well he sings!), \"Qu'est-ce qu'il fait froid !\" (It's so cold!). Never put the adjective right after \"comme\" as in English: *\"Comme beau c'est !\" is impossible.",
           "The big trap: English 'how' is NOT \"comment\" in exclamations. *\"Comment c'est beau !\" is a classic English-speaker mistake. \"Comment\" asks about manner (\"Comment ça marche ?\").",
         ],
         examples: [
@@ -289,8 +289,8 @@ export const FR_B2_U20: Lesson[] = [
             prompt: "Translate into French.",
             source: "What a lovely day!",
             answer: "Quelle belle journée !",
-            altAnswers: ["Quelle journée magnifique !", "Quelle belle journée !", "Quelle magnifique journée !"],
-            explanation: "\"Quelle\" (feminine, agreeing with journée), no article.",
+            altAnswers: ["Quelle journée magnifique !", "Quelle magnifique journée !"],
+            explanation: "\"Quelle\" (feminine, agreeing with \"journée\"), no article.",
           },
           {
             type: "fill-blank",
@@ -305,8 +305,8 @@ export const FR_B2_U20: Lesson[] = [
       {
         heading: "Station 3: tellement and si",
         body: [
-          "Inside an ordinary sentence, intensify with \"tellement\" or \"si\" + adjective / adverb: \"C'est tellement beau !\", \"Il est si gentil !\" Tellement is more spoken and more common. With a noun, \"tellement de\": \"Il y avait tellement de monde !\"",
-          "They also introduce a consequence with \"que\" + indicative: \"Il faisait si chaud que nous sommes restés à l'intérieur.\" \"J'étais tellement fatigué que je me suis endormi dans le train.\" (\"Tant de\" is a more written alternative to tellement de.)",
+          "Inside an ordinary sentence, intensify with \"tellement\" or \"si\" + adjective / adverb: \"C'est tellement beau !\", \"Il est si gentil !\" \"Tellement\" is more spoken and more common. With a noun, \"tellement de\": \"Il y avait tellement de monde !\"",
+          "They also introduce a consequence with \"que\" + indicative: \"Il faisait si chaud que nous sommes restés à l'intérieur.\" \"J'étais tellement fatigué que je me suis endormi dans le train.\" (\"Tant de\" is a more written alternative to \"tellement de\".)",
         ],
         examples: [
           { es: "C'est tellement beau !", en: "It's so beautiful!" },
@@ -361,14 +361,14 @@ export const FR_B2_U20: Lesson[] = [
         source: "How lucky you are!",
         answer: "Quelle chance tu as !",
         altAnswers: ["Qu'est-ce que tu as de la chance !", "Comme tu as de la chance !", "Tu as tellement de chance !", "Quelle chance vous avez !"],
-        explanation: "\"Quelle\" + noun (chance is feminine), then the clause.",
+        explanation: "\"Quelle\" + noun (\"chance\" is feminine), then the clause.",
       },
       {
         type: "multiple-choice",
         question: "'What talent!' Which is correct?",
         options: ["Quel talent !", "Quel un talent !", "Quelle talent !", "Comment talent !"],
         correctIndex: 0,
-        explanation: "\"Quel\" agrees with talent (masculine), no article.",
+        explanation: "\"Quel\" agrees with \"talent\" (masculine), no article.",
       },
       {
         type: "fill-blank",
@@ -395,7 +395,7 @@ export const FR_B2_U20: Lesson[] = [
         source: "What beautiful photos!",
         answer: "Quelles belles photos !",
         altAnswers: ["Quelles jolies photos !", "Quelles photos magnifiques !"],
-        explanation: "\"Quelles\": feminine plural to agree with photos.",
+        explanation: "\"Quelles\": feminine plural to agree with \"photos\".",
       },
       {
         type: "word-order",
@@ -416,7 +416,7 @@ export const FR_B2_U20: Lesson[] = [
       {
         type: "dictation",
         audio: "Qu'est-ce qu'il fait froid ce matin !",
-        explanation: "\"Qu'est-ce qu'il\": elision before il; exclamation, not a question.",
+        explanation: "\"Qu'est-ce qu'il\": elision before \"il\"; exclamation, not a question.",
       },
       {
         type: "speak",
@@ -432,14 +432,14 @@ export const FR_B2_U20: Lesson[] = [
     level: "FR-B2",
     number: 3,
     title: "Spiral Review: Sentence by Sentence: Un Discours de Campagne",
-    summary: "Spaced review of Units 7-9: build a candidate's speech with real promises (si + présent), hypotheses (si + imparfait) and past regrets (si + plus-que-parfait).",
+    summary: "Spaced review of Units 7-9: build a candidate's speech with real promises (\"si\" + présent), hypotheses (\"si\" + imparfait) and past regrets (\"si\" + plus-que-parfait).",
     duration: "14 min",
     sections: [
       {
         heading: "Real promises: si + présent → futur",
         body: [
-          "Nadia Benmansour is running for mayor of a mid-sized town. Real conditions (things she sees as likely) take si + present, and the result in the future or imperative: \"Si vous m'élisez, je rouvrirai la piscine municipale.\" \"Si vous voulez du changement, votez pour nous !\"",
-          "Never a future after si (condition): *\"si vous m'élirez\" is wrong. \"Quand\", on the other hand, takes the future: \"Quand je serai maire, chaque quartier aura sa maison des associations.\"",
+          "Nadia Benmansour is running for mayor of a mid-sized town. Real conditions (things she sees as likely) take \"si\" + present, and the result in the future or imperative: \"Si vous m'élisez, je rouvrirai la piscine municipale.\" \"Si vous voulez du changement, votez pour nous !\"",
+          "Never a future after \"si\" (condition): *\"si vous m'élirez\" is wrong. \"Quand\", on the other hand, takes the future: \"Quand je serai maire, chaque quartier aura sa maison des associations.\"",
         ],
         examples: [
           { es: "Si vous m'élisez, je rouvrirai la piscine municipale.", en: "If you elect me, I'll reopen the municipal pool." },
@@ -514,7 +514,7 @@ export const FR_B2_U20: Lesson[] = [
         heading: "The past: si + plus-que-parfait → conditionnel passé",
         body: [
           "Finally, Nadia attacks the outgoing team's record: \"Si la mairie avait investi dans les transports, nous n'aurions pas ces embouteillages aujourd'hui.\" (mixed conditional: past condition, present result) \"Si vous aviez été consultés, ce projet n'aurait jamais vu le jour.\"",
-          "Her closing line mixes everything: \"Si vous me faites confiance, je ne vous décevrai pas.\" Pure si + present: a promise.",
+          "Her closing line mixes everything: \"Si vous me faites confiance, je ne vous décevrai pas.\" Pure \"si\" + present: a promise.",
         ],
         examples: [
           { es: "Si la mairie avait investi dans les transports, nous n'aurions pas ces embouteillages aujourd'hui.", en: "If the town hall had invested in transport, we wouldn't have these traffic jams today." },
@@ -575,7 +575,7 @@ export const FR_B2_U20: Lesson[] = [
         question: "Which promise is correct?",
         options: ["Si vous m'élisez, je baisserai les impôts.", "Si vous m'élirez, je baisserai les impôts.", "Si vous m'éliriez, je baisserai les impôts.", "Si vous m'élisez, je baisserais les impôts hier."],
         correctIndex: 0,
-        explanation: "Si + present → future. No future or conditional after si.",
+        explanation: "Si + present → future. No future or conditional after \"si\".",
       },
       {
         type: "fill-blank",
@@ -607,7 +607,7 @@ export const FR_B2_U20: Lesson[] = [
         prompt: "Put the words in order to say: If only they had listened to us!",
         words: ["Si seulement", "on", "nous avait", "écoutés !"],
         translation: "If only they had listened to us!",
-        explanation: "\"Si seulement\" + plus-que-parfait; \"écoutés\" agrees with nous.",
+        explanation: "\"Si seulement\" + plus-que-parfait; \"écoutés\" agrees with \"nous\".",
       },
       {
         type: "translate",
@@ -621,7 +621,7 @@ export const FR_B2_U20: Lesson[] = [
       {
         type: "dictation",
         audio: "Si vous m'élisez, je rouvrirai la piscine municipale.",
-        explanation: "\"Élisez\" (present of élire); \"rouvrirai\" (future of rouvrir).",
+        explanation: "\"Élisez\" (present of \"élire\"); \"rouvrirai\" (future of \"rouvrir\").",
       },
       {
         type: "speak",
@@ -743,7 +743,7 @@ export const FR_B2_U20: Lesson[] = [
             type: "speak",
             text: "C'est moi qui suis parti, c'est à moi de m'excuser.",
             prompt: "Say it in French: I'm the one who left, it's up to me to apologise.",
-            explanation: "\"C'est moi qui suis\" (je form); \"c'est à moi de\" = it's up to me to.",
+            explanation: "\"C'est moi qui suis\" (\"je\" form); \"c'est à moi de\" = it's up to me to.",
           },
         ],
       },
@@ -794,7 +794,7 @@ export const FR_B2_U20: Lesson[] = [
         prompt: "Translate into French with a pseudo-cleft.",
         source: "What I regret most is the lost time.",
         answer: "Ce que je regrette le plus, c'est le temps perdu.",
-        explanation: "\"Ce que\" (object of regretter), reveal after c'est.",
+        explanation: "\"Ce que\" (object of \"regretter\"), reveal after \"c'est\".",
       },
       {
         type: "translate",
@@ -819,12 +819,12 @@ export const FR_B2_U20: Lesson[] = [
         source: "How beautiful wood is when you work it yourself!",
         answer: "Qu'est-ce que c'est beau, le bois qu'on travaille soi-même !",
         altAnswers: ["Comme c'est beau, le bois qu'on travaille soi-même !", "Que c'est beau, le bois qu'on travaille soi-même !", "Qu'il est beau, le bois qu'on travaille soi-même !"],
-        explanation: "Exclamative + right dislocation; \"soi-même\" goes with on.",
+        explanation: "Exclamative + right dislocation; \"soi-même\" goes with \"on\".",
       },
       {
         type: "dictation",
         audio: "Nous nous étions disputés violemment la veille.",
-        explanation: "Plus-que-parfait; \"disputés\" agrees with nous.",
+        explanation: "Plus-que-parfait; \"disputés\" agrees with \"nous\".",
       },
       {
         type: "speak",
@@ -948,8 +948,7 @@ export const FR_B2_U20: Lesson[] = [
             prompt: "Translate into French.",
             source: "What no machine will replace is human presence.",
             answer: "Ce qu'aucune machine ne remplacera, c'est la présence humaine.",
-            altAnswers: ["Ce que aucune machine ne remplacera, c'est la présence humaine."],
-            explanation: "Pseudo-cleft \"ce que..., c'est\" puts the focus on the end.",
+            explanation: "Pseudo-cleft \"ce que..., c'est\" puts the focus on the end; \"que\" elides before \"aucune\".",
           },
         ],
       },
@@ -969,7 +968,7 @@ export const FR_B2_U20: Lesson[] = [
         prompt: "Translate into French.",
         source: "Overnight, my team disappeared.",
         answer: "Du jour au lendemain, mon équipe a disparu.",
-        explanation: "\"Du jour au lendemain\" = overnight, suddenly; \"disparaître\" takes avoir.",
+        explanation: "\"Du jour au lendemain\" = overnight, suddenly; \"disparaître\" takes \"avoir\".",
       },
       {
         type: "fill-blank",
@@ -1073,7 +1072,7 @@ export const FR_B2_U20: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Someone says Marie broke the vase. You correct them. Which sentence fits?",
+            question: "Someone says Marie broke the vase. You correct them. Which sentence fits best?",
             options: ["Non, c'est Paul qui a cassé le vase.", "Non, Paul a cassé le vase.", "Non, ce que Paul a cassé, c'est le vase.", "Non, le vase, Paul l'a cassé."],
             correctIndex: 0,
             explanation: "Correcting the subject: \"c'est... qui\" puts the right person in focus.",
@@ -1151,7 +1150,7 @@ export const FR_B2_U20: Lesson[] = [
             source: "It wasn't me who forgot, it was you.",
             answer: "Ce n'est pas moi qui ai oublié, c'est toi.",
             altAnswers: ["C'est pas moi qui ai oublié, c'est toi."],
-            explanation: "After \"c'est moi qui\", the verb agrees with moi: \"ai\".",
+            explanation: "After \"moi qui\", the verb agrees with \"moi\": \"ai\".",
           },
           {
             type: "fill-blank",
@@ -1260,7 +1259,7 @@ export const FR_B2_U20: Lesson[] = [
     level: "FR-B2",
     number: 7,
     title: "Spiral Review: Fix the Paragraph: La Recherche d'Appartement",
-    summary: "Spaced review of Units 1-2: correct Tom's flat-hunting email so the mood in each relative clause is right and lequel, auquel, duquel and dont are used properly.",
+    summary: "Spaced review of Units 1-2: correct Tom's flat-hunting email so the mood in each relative clause is right and \"lequel\", \"auquel\", \"duquel\" and \"dont\" are used properly.",
     duration: "15 min",
     sections: [
       {
@@ -1307,8 +1306,8 @@ export const FR_B2_U20: Lesson[] = [
       {
         heading: "Lequel, auquel, duquel after prepositions",
         body: [
-          "Tom's email continues: *\"La rue dans qui se trouve l'appartement est très animée.\" After a preposition, a thing needs a form of lequel: \"la rue dans laquelle se trouve l'appartement\". \"Qui\" after a preposition is only for people: \"le propriétaire avec qui j'ai parlé\".",
-          "With \"à\", lequel contracts: \"auquel\", \"auxquels\", \"auxquelles\" (\"à laquelle\" does not contract). With \"de\" in a compound preposition (près de, à côté de, en face de, au bout de), use \"duquel\", \"de laquelle\", \"desquels\", \"desquelles\": \"le parc à côté duquel j'habite\".",
+          "Tom's email continues: *\"La rue dans qui se trouve l'appartement est très animée.\" After a preposition, a thing needs a form of \"lequel\": \"la rue dans laquelle se trouve l'appartement\". \"Qui\" after a preposition is only for people: \"le propriétaire avec qui j'ai parlé\".",
+          "With \"à\", \"lequel\" contracts: \"auquel\", \"auxquels\", \"auxquelles\" (\"à laquelle\" does not contract). With \"de\" in a compound preposition (\"près de\", \"à côté de\", \"en face de\", \"au bout de\"), use \"duquel\", \"de laquelle\", \"desquels\", \"desquelles\": \"le parc à côté duquel j'habite\".",
         ],
         examples: [
           { es: "La rue dans laquelle se trouve l'appartement est très animée.", en: "The street the flat is in is very lively." },
@@ -1325,7 +1324,7 @@ export const FR_B2_U20: Lesson[] = [
             prompt: "Translate into French.",
             source: "It's a detail I hadn't thought of.",
             answer: "C'est un détail auquel je n'avais pas pensé.",
-            explanation: "\"Penser à\" + thing → \"auquel\" (à + lequel).",
+            explanation: "\"Penser à\" + thing → \"auquel\" (\"à\" + \"lequel\").",
           },
           {
             type: "fill-blank",
@@ -1334,15 +1333,15 @@ export const FR_B2_U20: Lesson[] = [
             sentence: "Le parc ___ est magnifique.",
             answer: "à côté duquel j'habite",
             altAnswers: ["à côté duquel je vis"],
-            explanation: "\"À côté de\" + lequel → \"à côté duquel\".",
+            explanation: "\"À côté de\" + \"lequel\" → \"à côté duquel\".",
           },
         ],
       },
       {
         heading: "Dont, not de qui or duquel",
         body: [
-          "Last mistake: *\"C'est l'appartement duquel je t'ai parlé.\" When \"de\" stands alone after a verb or adjective (parler de, avoir besoin de, rêver de, être fier de), French uses \"dont\": \"C'est l'appartement dont je t'ai parlé.\"",
-          "\"Dont\" also expresses possession: \"un appartement dont les fenêtres donnent sur le Rhône\" (whose windows). Keep \"duquel\" for compound prepositions (\"au bout duquel\"), where \"dont\" is impossible. And never add a possessive after dont: *\"dont ses fenêtres\" is wrong.",
+          "Last mistake: *\"C'est l'appartement duquel je t'ai parlé.\" When \"de\" stands alone after a verb or adjective (\"parler de\", \"avoir besoin de\", \"rêver de\", \"être fier de\"), French uses \"dont\": \"C'est l'appartement dont je t'ai parlé.\"",
+          "\"Dont\" also expresses possession: \"un appartement dont les fenêtres donnent sur le Rhône\" (whose windows). Keep \"duquel\" for compound prepositions (\"au bout duquel\"), where \"dont\" is impossible. And never add a possessive after \"dont\": *\"dont ses fenêtres\" is wrong.",
         ],
         examples: [
           { es: "C'est l'appartement dont je t'ai parlé.", en: "It's the flat I told you about." },
@@ -1467,7 +1466,7 @@ export const FR_B2_U20: Lesson[] = [
     level: "FR-B2",
     number: 8,
     title: "Thematic Review: Des Messages pour Plus Tard",
-    summary: "Letters meant to be opened years from now: a time capsule at school, a grandmother writing to her grandchildren. Quand + futur, the futur antérieur, wishes and advice.",
+    summary: "Letters meant to be opened years from now: a time capsule at school, a grandmother writing to her grandchildren. \"Quand\" + futur, the futur antérieur, wishes and advice.",
     duration: "15 min",
     sections: [
       {
@@ -1577,7 +1576,7 @@ export const FR_B2_U20: Lesson[] = [
             en: "What I want is for you [to laugh] when you think of me.",
             sentence: "Ce que je veux, c'est que vous ___ en pensant à moi.",
             answer: "riiez",
-            explanation: "Subjunctive of \"rire\" with vous: \"riiez\", with two i's.",
+            explanation: "Subjunctive of \"rire\" with \"vous\": \"riiez\", with two i's.",
           },
         ],
       },
@@ -1718,7 +1717,7 @@ export const FR_B2_U20: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "Her works sometimes [last only] one day.",
+            en: "Her works [sometimes last] only one day.",
             sentence: "Ses œuvres ne ___ qu'une journée.",
             answer: "durent parfois",
             explanation: "\"Ne... que\" = only; the adverb goes after the verb.",
@@ -1910,7 +1909,7 @@ export const FR_B2_U20: Lesson[] = [
     level: "FR-B2",
     number: 10,
     title: "Spiral Review: Regret, Reproach or Hypothesis?",
-    summary: "Spaced review of Units 9-10: tell apart and use si seulement j'avais..., tu aurais dû..., and si j'avais..., j'aurais...",
+    summary: "Spaced review of Units 9-10: tell apart and use \"si seulement j'avais...\", \"tu aurais dû...\", and \"si j'avais..., j'aurais...\"",
     duration: "14 min",
     sections: [
       {
@@ -1985,7 +1984,7 @@ export const FR_B2_U20: Lesson[] = [
       {
         heading: "Hypothesis: si j'avais..., j'aurais...",
         body: [
-          "A past hypothesis imagines a different past and its result: \"Si j'avais su, je ne serais pas venu.\" Structure: si + plus-que-parfait, conditionnel passé. The order can be reversed: \"Je ne serais pas venu si j'avais su.\"",
+          "A past hypothesis imagines a different past and its result: \"Si j'avais su, je ne serais pas venu.\" Structure: \"si\" + plus-que-parfait, conditionnel passé. The order can be reversed: \"Je ne serais pas venu si j'avais su.\"",
           "To choose: is the sentence a sigh about your own past (regret), a criticism of someone (reproach), or an if-then chain (hypothesis)? Many real sentences combine them: \"Tu aurais dû m'appeler : si tu l'avais fait, je serais venu te chercher.\"",
         ],
         examples: [
@@ -2117,7 +2116,7 @@ export const FR_B2_U20: Lesson[] = [
         heading: "Concerts, news and speeches",
         body: [
           "From Unit 19: the concert review (\"une salle comble\" a packed venue, \"la première partie\" the opening act, \"un rappel\" an encore, \"le public\" the audience, \"un morceau\" a track or piece, \"chanter juste / faux\" to sing in / out of tune) and the news item (\"une inondation\" a flood, \"la crue\" the rising of a river, \"les sinistrés\" the disaster victims, \"évacuer\").",
-          "From Unit 20: the campaign speech (\"un candidat\", \"un programme\" a manifesto, \"tenir ses promesses\" to keep one's promises, \"les électeurs\" the voters). Remember: \"le public\" is the audience at a show, while \"les spectateurs\" are the people watching.",
+          "From Unit 20: the campaign speech (\"un candidat\", \"un programme\" a manifesto, \"tenir ses promesses\" to keep one's promises, \"les électeurs\" the voters). Remember: \"le public\" is the audience as a whole (a collective singular), while \"les spectateurs\" are the individual people watching.",
         ],
         examples: [
           { es: "La salle était comble bien avant la première partie.", en: "The venue was packed well before the opening act." },
@@ -2315,13 +2314,13 @@ export const FR_B2_U20: Lesson[] = [
     level: "FR-B2",
     number: 12,
     title: "Spiral Review: Gérondif and Causatives",
-    summary: "Spaced review of Units 13-16: a quick round of the gérondif (en + -ant), faire and laisser + infinitive, and rendre + adjective, in fresh sentences.",
+    summary: "Spaced review of Units 13-16: a quick round of the gérondif (\"en\" + -ant), \"faire\" and \"laisser\" + infinitive, and \"rendre\" + adjective, in fresh sentences.",
     duration: "13 min",
     sections: [
       {
         heading: "The gérondif: how, when, on what condition",
         body: [
-          "The gérondif is \"en\" + present participle (nous form minus -ons, plus -ant: \"nous prenons\" → \"en prenant\"). Irregulars: \"en étant\", \"en ayant\", \"en sachant\". It needs the same subject as the main verb and expresses simultaneity (\"elle chante en cuisinant\"), manner (\"il a réussi en travaillant dur\") or condition (\"en partant maintenant, tu arriveras à l'heure\").",
+          "The gérondif is \"en\" + present participle (\"nous\" form minus -ons, plus -ant: \"nous prenons\" → \"en prenant\"). Irregulars: \"en étant\", \"en ayant\", \"en sachant\". It needs the same subject as the main verb and expresses simultaneity (\"elle chante en cuisinant\"), manner (\"il a réussi en travaillant dur\") or condition (\"en partant maintenant, tu arriveras à l'heure\").",
           "\"Tout en\" + -ant adds contrast or insists on simultaneity: \"Tout en étant d'accord, je reste prudent.\" (While agreeing, I remain cautious.)",
         ],
         examples: [
@@ -2372,7 +2371,6 @@ export const FR_B2_U20: Lesson[] = [
             prompt: "Translate into French.",
             source: "I had my hair cut.",
             answer: "Je me suis fait couper les cheveux.",
-            altAnswers: ["Je me suis fait couper les cheveux hier."],
             explanation: "\"Se faire\" + infinitive; \"fait\" never agrees here.",
           },
           {
@@ -2388,7 +2386,7 @@ export const FR_B2_U20: Lesson[] = [
         heading: "Laisser + infinitive and rendre + adjective",
         body: [
           "\"Laisser\" + infinitive means to let: \"Laisse-moi parler !\" \"Ils ont laissé les enfants jouer dehors.\" \"Se laisser\" + infinitive is to let oneself: \"Je me suis laissé convaincre.\"",
-          "To make someone or something + adjective, French uses \"rendre\", never *faire: \"Ce travail me rend fou.\" \"Ça l'a rendue heureuse.\" (Rendre agrees normally: \"rendue\" because \"l'\" is feminine and comes before.)",
+          "To make someone or something + adjective, French uses \"rendre\", never *faire: \"Ce travail me rend fou.\" \"Ça l'a rendue heureuse.\" (\"Rendre\" agrees normally: \"rendue\" because \"l'\" is feminine and comes before.)",
         ],
         examples: [
           { es: "Laisse-moi parler !", en: "Let me speak!" },
@@ -2459,7 +2457,7 @@ export const FR_B2_U20: Lesson[] = [
         question: "How do you say 'I make them read it' (le texte, aux élèves)?",
         options: ["Je le leur fais lire.", "Je leur le fais lire.", "Je les fais le lire.", "Je fais le leur lire."],
         correctIndex: 0,
-        explanation: "Both pronouns before \"faire\", in the order le + leur.",
+        explanation: "Both pronouns before \"faire\", in the order \"le\" + \"leur\".",
       },
       {
         type: "translate",
@@ -2520,5 +2518,5 @@ export const FR_B2_U20_WRITING: WriteExercise = {
     "Keeps some neutral sentences for plain facts, so the emphasis stands out",
   ],
   modelAnswer: "Chers collègues, chère Martine,\n\nMartine est arrivée dans notre service en 1994. Trente ans plus tard, elle part à la retraite, et qu'est-ce qu'on va la regretter !\n\nCe qui m'a frappé dès mon premier jour, c'est sa patience. C'est elle qui m'a tout appris, et c'est à elle que je dois mon poste aujourd'hui. Les clients difficiles, elle les calmait en deux minutes. Comment faisait-elle ? Ça, personne ne l'a jamais su.\n\nCe dont nous nous souviendrons tous, c'est de ses gâteaux du vendredi. Quel talent ! Et que de fous rires dans cette cuisine !\n\nMartine, ce n'est pas nous qui t'avons aidée, c'est toi qui nous as portés pendant toutes ces années. Ce que nous te souhaitons maintenant, c'est de profiter de ton jardin, de tes petits-enfants et de ces voyages dont tu nous parles depuis si longtemps.\n\nComme le bureau va paraître vide lundi ! Mais nous viendrons te voir, c'est promis.\n\nÀ Martine !",
-  explanation: "The opening fact is neutral (\"Martine est arrivée dans notre service en 1994\"), so the emphasis that follows stands out. Exclamatives use \"qu'est-ce que\", \"quel\", \"que de\" + noun and \"comme\". Clefts single out Martine (\"c'est elle qui m'a tout appris\", \"c'est à elle que je dois\", keeping the preposition) and \"c'est toi qui nous as portés\" makes the verb agree with toi. Pseudo-clefts build up to the key point (\"ce qui m'a frappé, c'est...\", \"ce dont nous nous souviendrons, c'est de...\" with de repeated). Left dislocation sets topics: \"les clients difficiles, elle les calmait\", \"ça, personne ne l'a jamais su\".",
+  explanation: "The opening fact is neutral (\"Martine est arrivée dans notre service en 1994\"), so the emphasis that follows stands out. Exclamatives use \"qu'est-ce que\", \"quel\", \"que de\" + noun and \"comme\". Clefts single out Martine (\"c'est elle qui m'a tout appris\", \"c'est à elle que je dois\", keeping the preposition) and \"c'est toi qui nous as portés\" makes the verb agree with \"toi\". Pseudo-clefts build up to the key point (\"ce qui m'a frappé, c'est...\", \"ce dont nous nous souviendrons, c'est de...\" with \"de\" repeated). Left dislocation sets topics: \"les clients difficiles, elle les calmait\", \"ça, personne ne l'a jamais su\".",
 };

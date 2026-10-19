@@ -24,7 +24,7 @@ export const PT_A2_U03: Lesson[] = [
           { es: "Eu trouxe pão da padaria.", en: "I brought bread from the bakery." },
           { es: "Vocês disseram a verdade?", en: "Did you tell the truth? (to several people)" },
           { es: "Nós trouxemos vinho para o jantar.", en: "We brought wine for dinner." },
-          { es: "Eu disse bom dia para o vizinho.", en: "I said good morning to the neighbour." },
+          { es: "Eu disse bom dia para o vizinho.", en: "I said good morning to the neighbor." },
         ],
         checkpoint: [
           {
@@ -62,7 +62,7 @@ export const PT_A2_U03: Lesson[] = [
           { es: "Eles quiseram pagar a conta.", en: "They wanted to pay the bill." },
           { es: "O João não pôde vir.", en: "João couldn't come." },
           { es: "Pudemos ver o pôr do sol em Ipanema.", en: "We got to see the sunset in Ipanema." },
-          { es: "Vocês puderam descansar no fim de semana?", en: "Were you able to rest at the weekend? (to several people)" },
+          { es: "Vocês puderam descansar no fim de semana?", en: "Were you able to rest on the weekend? (to several people)" },
         ],
         checkpoint: [
           {
@@ -189,7 +189,7 @@ export const PT_A2_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Were you able to rest at the weekend? (to a friend)",
+        source: "Were you able to rest on the weekend? (to a friend)",
         answer: "Você pôde descansar no fim de semana?",
         altAnswers: ["Você conseguiu descansar no fim de semana?"],
         explanation: "\"Você\" takes the ele form, \"pôde\". The question is about the past, so the circumflex matters.",
@@ -198,7 +198,7 @@ export const PT_A2_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I said good morning to the neighbour.",
+        source: "I said good morning to the neighbor.",
         answer: "Eu disse bom dia para o vizinho.",
         altAnswers: [
           "Disse bom dia para o vizinho.",
@@ -254,7 +254,7 @@ export const PT_A2_U03: Lesson[] = [
         heading: "Vi and vim: ver and vir",
         body: [
           "\"Ver\" (to see) has short past forms: \"eu vi\", \"você viu\", \"ele viu\", \"nós vimos\", \"eles viram\". The \"nós\" form is not the present: \"vemos\" is we see, \"vimos\" is we saw.",
-          "\"Vir\" (to come) changes its vowel: \"eu vim\", \"você veio\", \"ele veio\", \"nós viemos\", \"eles vieram\". Watch the eu forms: \"eu vi\" is I saw, \"eu vim\" is I came. The only difference is the nasal \"m\", so close your lips at the end of \"vim\".",
+          "\"Vir\" (to come) changes its vowel: \"eu vim\", \"você veio\", \"ele veio\", \"nós viemos\", \"eles vieram\". Watch the eu forms: \"eu vi\" is I saw, \"eu vim\" is I came. The only difference is the final \"m\", which makes the i nasal: let it ring through your nose and keep your lips open.",
         ],
         examples: [
           { es: "Eu vi o Rafael na padaria.", en: "I saw Rafael at the bakery." },
@@ -475,7 +475,7 @@ export const PT_A2_U03: Lesson[] = [
         ],
         examples: [
           { es: "Eu vi o Pão de Açúcar ontem.", en: "I saw Sugarloaf Mountain yesterday." },
-          { es: "Eu vim de metrô.", en: "I came by metro." },
+          { es: "Eu vim de metrô.", en: "I came by subway." },
           { es: "Vi a Beatriz na padaria.", en: "I saw Beatriz at the bakery." },
           { es: "Vim para o Brasil em 2019.", en: "I came to Brazil in 2019." },
           { es: "Ontem eu vim a pé.", en: "Yesterday I came on foot." },
@@ -766,7 +766,7 @@ export const PT_A2_U03: Lesson[] = [
         ],
         examples: [
           { es: "Eu vi a Mariana no ônibus.", en: "I saw Mariana on the bus." },
-          { es: "Eu vim de metrô.", en: "I came by metro." },
+          { es: "Eu vim de metrô.", en: "I came by subway." },
           { es: "Meus pais vieram de Curitiba.", en: "My parents came from Curitiba." },
           { es: "Nós demos um presente para o Lucas.", en: "We gave Lucas a present." },
           { es: "Quem pôs o celular na mesa?", en: "Who put the phone on the table?" },
@@ -954,7 +954,7 @@ export const PT_A2_U03: Lesson[] = [
         examples: [
           { es: "A Beatriz disse que veio de ônibus.", en: "Beatriz said she came by bus." },
           { es: "O Lucas disse que não pôde ir à reunião.", en: "Lucas said he couldn't go to the meeting." },
-          { es: "A professora disse que viu o filme no sábado.", en: "The teacher said she saw the film on Saturday." },
+          { es: "A professora disse que viu o filme no sábado.", en: "The teacher said she saw the movie on Saturday." },
           { es: "Eles disseram que trouxeram o bolo.", en: "They said they brought the cake." },
           { es: "Eu disse que já comi.", en: "I said I've already eaten." },
         ],
@@ -1135,7 +1135,7 @@ export const PT_A2_U03: Lesson[] = [
         heading: "Part 1: Você soube?",
         body: [
           "It's Monday morning in an office in Belo Horizonte. Rafael greets Carla with the classic gossip opener: \"Você soube?\" (Did you hear?). \"Soube\" is the past of \"saber\". In the past it means found out, so the question is literally 'did you find out?'.",
-          "To name the topic, add \"de\": \"Você soube da Beatriz?\" (Did you hear about Beatriz?). It's \"da\" because Brazilians put an article before first names. The listener reacts with short lines: \"Não, o quê?\" (No, what?), \"Sério?\" (Really?), \"Nossa!\" (Wow!), \"Não acredito!\" (I can't believe it!).",
+          "To name the topic, add \"de\": \"Você soube da Beatriz?\" (Did you hear about Beatriz?). It's \"da\" because many Brazilians, especially in the Southeast and South, put an article before first names. The listener reacts with short lines: \"Não, o quê?\" (No, what?), \"Sério?\" (Really?), \"Nossa!\" (Wow!), \"Não acredito!\" (I can't believe it!).",
         ],
         examples: [
           { es: "Oi, Carla! Você soube?", en: "Hi, Carla! Did you hear? (Rafael)" },
@@ -1330,7 +1330,7 @@ export const PT_A2_U03: Lesson[] = [
         type: "speak",
         text: "Ela disse que vai morar em São Paulo.",
         prompt: "Say it in Portuguese: She said she's going to live in São Paulo.",
-        tip: "Make the ão in \"São\" nasal, and say the d in \"disse\" like the English j before i? No: here it's a plain d, because the next letter is i only in writing \"di\". Brazilians say \"djisse\".",
+        tip: "Make the ão in \"São\" nasal. In most of Brazil the d of \"disse\" comes out like the j in jeep, because an i follows it: DJEE-si.",
         explanation: "\"Disse que\" + \"vai morar\": the tense she used stays the same.",
       },
       {
@@ -1631,11 +1631,11 @@ export const PT_A2_U03: Lesson[] = [
           "Keep the circumflex. \"Pôde\" (could) has a closed ô, and \"pode\" (can) has an open ó.",
         ],
         examples: [
-          { es: "A Beatriz vem hoje. → A Beatriz veio ontem.", en: "Beatriz is coming today. → Beatriz came yesterday." },
-          { es: "Eu digo que sim. → Eu disse que sim.", en: "I say yes. → I said yes." },
-          { es: "O Rafael traz o vinho. → O Rafael trouxe o vinho.", en: "Rafael is bringing the wine. → Rafael brought the wine." },
-          { es: "Eu vejo o jogo no bar. → Eu vi o jogo no bar.", en: "I watch the game at the bar. → I watched the game at the bar." },
-          { es: "Ela não pode sair hoje. → Ela não pôde sair ontem.", en: "She can't go out today. → She couldn't go out yesterday." },
+          { es: "A Beatriz vem hoje. A Beatriz veio ontem.", en: "Beatriz is coming today. → Beatriz came yesterday." },
+          { es: "Eu digo que sim. Eu disse que sim.", en: "I say yes. → I said yes." },
+          { es: "O Rafael traz o vinho. O Rafael trouxe o vinho.", en: "Rafael is bringing the wine. → Rafael brought the wine." },
+          { es: "Eu vejo o jogo no bar. Eu vi o jogo no bar.", en: "I watch the game at the bar. → I watched the game at the bar." },
+          { es: "Ela não pode sair hoje. Ela não pôde sair ontem.", en: "She can't go out today. → She couldn't go out yesterday." },
         ],
         checkpoint: [
           {
@@ -1671,11 +1671,11 @@ export const PT_A2_U03: Lesson[] = [
           "Three short verbs work differently. \"Vir\" gives \"viemos\" and \"vieram\", \"ver\" gives \"vimos\" and \"viram\", and \"dar\" gives \"demos\" and \"deram\". Watch out for \"vimos\". It means we saw, but it is also the present of \"vir\" (we come). We came is \"viemos\".",
         ],
         examples: [
-          { es: "Eles trazem a comida. → Eles trouxeram a comida.", en: "They're bringing the food. → They brought the food." },
-          { es: "Nós vimos de ônibus. → Nós viemos de ônibus.", en: "We come by bus. → We came by bus." },
-          { es: "Vocês dizem que não. → Vocês disseram que não.", en: "You all say no. → You all said no." },
-          { es: "Nós damos uma festa. → Nós demos uma festa.", en: "We're throwing a party. → We threw a party." },
-          { es: "Eles não podem vir. → Eles não puderam vir.", en: "They can't come. → They couldn't come." },
+          { es: "Eles trazem a comida. Eles trouxeram a comida.", en: "They're bringing the food. → They brought the food." },
+          { es: "Nós vimos de ônibus. Nós viemos de ônibus.", en: "We come by bus. → We came by bus." },
+          { es: "Vocês dizem que não. Vocês disseram que não.", en: "You all say no. → You all said no." },
+          { es: "Nós damos uma festa. Nós demos uma festa.", en: "We're throwing a party. → We threw a party." },
+          { es: "Eles não podem vir. Eles não puderam vir.", en: "They can't come. → They couldn't come." },
         ],
         checkpoint: [
           {
@@ -1689,10 +1689,10 @@ export const PT_A2_U03: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We came by metro.",
+            source: "We came by subway.",
             answer: "Nós viemos de metrô.",
             altAnswers: ["Viemos de metrô.", "A gente veio de metrô."],
-            explanation: "We came is \"viemos\". \"Nós vimos de metrô\" means we come by metro, in the present. With \"a gente\" the verb is \"veio\".",
+            explanation: "We came is \"viemos\". \"Nós vimos de metrô\" means we come by subway, in the present. With \"a gente\" the verb is \"veio\".",
           },
           {
             type: "listen-choose",
@@ -1711,10 +1711,10 @@ export const PT_A2_U03: Lesson[] = [
           "With \"dizer que\", the verb of saying moves and the reported verb stays as it was said: \"ela diz que vem\" → \"ela disse que vem\" (she said she's coming). If the coming has already happened, both verbs move: \"ela disse que veio\".",
         ],
         examples: [
-          { es: "Amanhã eu vou ver o show. → Ontem eu vi o show.", en: "I'm going to see the show tomorrow. → I saw the show yesterday." },
-          { es: "Hoje eu ponho a mesa. → Ontem eu pus a mesa.", en: "Today I'm setting the table. → Yesterday I set the table." },
-          { es: "Eu sei do casamento. → Eu soube do casamento ontem.", en: "I know about the wedding. → I found out about the wedding yesterday." },
-          { es: "Ela diz que vem. → Ela disse que vem.", en: "She says she's coming. → She said she's coming." },
+          { es: "Amanhã eu vou ver o show. Ontem eu vi o show.", en: "I'm going to see the show tomorrow. → I saw the show yesterday." },
+          { es: "Hoje eu ponho a mesa. Ontem eu pus a mesa.", en: "Today I'm setting the table. → Yesterday I set the table." },
+          { es: "Eu sei do casamento. Eu soube do casamento ontem.", en: "I know about the wedding. → I found out about the wedding yesterday." },
+          { es: "Ela diz que vem. Ela disse que vem.", en: "She says she's coming. → She said she's coming." },
         ],
         checkpoint: [
           {
@@ -1959,7 +1959,7 @@ export const PT_A2_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We arranged to go to the cinema.",
+        source: "We arranged to go to the movies.",
         answer: "A gente combinou de ir ao cinema.",
         altAnswers: ["Nós combinamos de ir ao cinema.", "Combinamos de ir ao cinema.", "A gente combinou de ir no cinema."],
         explanation: "With \"a gente\" the verb takes the ele form, \"combinou\". With \"nós\" it's \"combinamos\", the same form as the present.",
@@ -2075,7 +2075,7 @@ export const PT_A2_U03: Lesson[] = [
           { es: "Ontem eu cheguei tarde em casa.", en: "I got home late yesterday." },
           { es: "A Beatriz almoçou com a mãe no sábado.", en: "Beatriz had lunch with her mother on Saturday." },
           { es: "Nós assistimos a um jogo do Flamengo ontem à noite.", en: "We watched a Flamengo game last night." },
-          { es: "Vocês já abriram a loja?", en: "Have you opened the shop yet?" },
+          { es: "Vocês já abriram a loja?", en: "Have you opened the store yet?" },
           { es: "Eu ainda não paguei a conta de luz.", en: "I haven't paid the electricity bill yet." },
         ],
         checkpoint: [

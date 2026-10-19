@@ -20,9 +20,9 @@ export const PT_C1_U03: Lesson[] = [
           "Say what the text does in the present: \"este artigo discute\". The English habit of 'this paper will discuss' doesn't carry over.",
         ],
         examples: [
-          { es: "O presente estudo tem como objetivo analisar o uso de aplicativos de transporte em Belo Horizonte.", en: "This study aims to analyse the use of ride-hailing apps in Belo Horizonte." },
+          { es: "O presente estudo tem como objetivo analisar o uso de aplicativos de transporte em Belo Horizonte.", en: "This study aims to analyze the use of ride-hailing apps in Belo Horizonte." },
           { es: "Este artigo discute os efeitos do ensino remoto na alfabetização.", en: "This article discusses the effects of remote teaching on literacy." },
-          { es: "A pesquisa tem por objetivo investigar a evasão escolar no ensino médio.", en: "The research aims to investigate school dropout in secondary education." },
+          { es: "A pesquisa tem por objetivo investigar a evasão escolar no ensino médio.", en: "The research aims to investigate school dropout in high school." },
           { es: "Busca-se compreender como os agricultores familiares lidam com a seca no sertão.", en: "The aim is to understand how family farmers cope with drought in the sertão." },
           { es: "Objetiva-se mapear as políticas de reciclagem adotadas por municípios do Paraná.", en: "The aim is to map the recycling policies adopted by municipalities in Paraná." },
         ],
@@ -62,12 +62,12 @@ export const PT_C1_U03: Lesson[] = [
         heading: "Method: foram entrevistados, analisou-se",
         body: [
           "The method is told in the past, with no personal subject. Two tools from earlier units do the work. One is the passive with \"ser\": \"foram entrevistados 40 professores\". The other is the impersonal \"se\": \"realizou-se uma revisão\". At the start of a sentence, formal writing puts the pronoun after the verb, so write \"Realizou-se\", not \"Se realizou\".",
-          "With \"se\", the verb agrees with what was analysed: \"analisou-se o corpus\" but \"analisaram-se os questionários\". Speech and many drafts leave the verb singular, and reviewers notice. After a preposition the verb never goes plural: \"trata-se de\", \"recorreu-se a\". \"Trata-se de um estudo qualitativo\" is the standard way to label the design.",
+          "With \"se\", the verb agrees with what was analyzed: \"analisou-se o corpus\" but \"analisaram-se os questionários\". Speech and many drafts leave the verb singular, and reviewers notice. After a preposition the verb never goes plural: \"trata-se de\", \"recorreu-se a\". \"Trata-se de um estudo qualitativo\" is the standard way to label the design.",
         ],
         examples: [
           { es: "Trata-se de uma pesquisa qualitativa, de caráter exploratório.", en: "This is an exploratory qualitative study." },
           { es: "Foram entrevistados 40 professores da rede pública de Recife.", en: "Forty public-school teachers in Recife were interviewed." },
-          { es: "Analisaram-se 120 reportagens publicadas entre 2018 e 2022.", en: "120 news reports published between 2018 and 2022 were analysed." },
+          { es: "Analisaram-se 120 reportagens publicadas entre 2018 e 2022.", en: "120 news reports published between 2018 and 2022 were analyzed." },
           { es: "Realizou-se uma revisão sistemática da literatura.", en: "A systematic literature review was carried out." },
           { es: "Os dados foram coletados por meio de questionários on-line.", en: "The data were collected through online questionnaires." },
         ],
@@ -75,7 +75,7 @@ export const PT_C1_U03: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "120 news reports published in 2022 [were analysed].",
+            en: "120 news reports published in 2022 [were analyzed].",
             sentence: "___ 120 reportagens publicadas em 2022.",
             answer: "Analisaram-se",
             altAnswers: ["Foram analisadas"],
@@ -109,8 +109,8 @@ export const PT_C1_U03: Lesson[] = [
         examples: [
           { es: "Os resultados indicam que a renda familiar influencia o desempenho escolar.", en: "The results indicate that family income influences school performance." },
           { es: "Os dados apontam para uma queda no consumo de água em Curitiba.", en: "The data point to a fall in water consumption in Curitiba." },
-          { es: "A análise revela que poucos municípios cumprem a meta de reciclagem.", en: "The analysis reveals that few municipalities meet the recycling target." },
-          { es: "Conclui-se que o programa reduziu a evasão em escolas rurais.", en: "It is concluded that the programme reduced dropout in rural schools." },
+          { es: "A análise revela que poucos municípios cumprem a meta de reciclagem.", en: "The analyzis reveals that few municipalities meet the recycling target." },
+          { es: "Conclui-se que o programa reduziu a evasão em escolas rurais.", en: "It is concluded that the program reduced dropout in rural schools." },
           { es: "Os resultados permitem concluir que a formação continuada dos professores é decisiva.", en: "The results allow us to conclude that ongoing teacher training is decisive." },
         ],
         checkpoint: [
@@ -118,7 +118,7 @@ export const PT_C1_U03: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The results indicate that the programme reduced school dropout.",
+            source: "The results indicate that the program reduced school dropout.",
             answer: "Os resultados indicam que o programa reduziu a evasão escolar.",
             altAnswers: [
               "Os resultados apontam que o programa reduziu a evasão escolar.",
@@ -145,11 +145,11 @@ export const PT_C1_U03: Lesson[] = [
       {
         heading: "Palavras-chave, and two false friends",
         body: [
-          "Under the paragraph comes \"Palavras-chave:\" with three to five terms, separated by semicolons and closed with a full stop. Pick the terms a researcher would type into a database, not your title chopped into pieces. The usual plural is \"palavras-chave\": only the first word changes.",
+          "Under the paragraph comes \"Palavras-chave:\" with three to five terms, separated by semicolons and closed with a period. Pick the terms a researcher would type into a database, not your title chopped into pieces. The usual plural is \"palavras-chave\": only the first word changes. \"Palavras-chaves\" is also registered in the VOLP, but ABNT and journals use \"palavras-chave\".",
           "Brazilian journals also want an English abstract. Watch two false friends. \"Sumário\" is the table of contents, not a summary. \"Pesquisa\" is countable, so English 'research' often becomes \"pesquisas\" or \"uma pesquisa\".",
         ],
         examples: [
-          { es: "Palavras-chave: evasão escolar; ensino médio; políticas públicas.", en: "Keywords: school dropout; secondary education; public policy." },
+          { es: "Palavras-chave: evasão escolar; ensino médio; políticas públicas.", en: "Keywords: school dropout; high school; public policy." },
           { es: "O sumário vem antes da introdução.", en: "The table of contents comes before the introduction." },
           { es: "Duas pesquisas recentes tratam do tema.", en: "Two recent pieces of research deal with the topic." },
           { es: "O resumo deve ter entre 100 e 250 palavras.", en: "The abstract must be between 100 and 250 words." },
@@ -162,7 +162,7 @@ export const PT_C1_U03: Lesson[] = [
             source: "Keywords: urban mobility; public transport; São Paulo.",
             answer: "Palavras-chave: mobilidade urbana; transporte público; São Paulo.",
             altAnswers: ["Palavras-chaves: mobilidade urbana; transporte público; São Paulo."],
-            explanation: "\"Palavras-chave\" is followed by a colon, the terms are separated by semicolons and the line ends with a full stop.",
+            explanation: "\"Palavras-chave\" is followed by a colon, the terms are separated by semicolons and the line ends with a period.",
           },
           {
             type: "listen-choose",
@@ -208,7 +208,7 @@ export const PT_C1_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[It is concluded] that the programme was effective.",
+        en: "[It is concluded] that the program was effective.",
         sentence: "___ que o programa foi eficaz.",
         answer: "Conclui-se",
         altAnswers: ["Concluiu-se"],
@@ -232,7 +232,7 @@ export const PT_C1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You are describing your method: you analysed the interviews. Which sentence suits a formal abstract?",
+        question: "You are describing your method: you analyzed the interviews. Which sentence suits a formal abstract?",
         options: ["Analisaram-se as entrevistas.", "Se analisou as entrevistas.", "Eu analisei as entrevistas.", "Analisou-se as entrevistas."],
         correctIndex: 0,
         explanation: "The impersonal \"se\" agrees with \"as entrevistas\", and the pronoun follows the verb at the start of a sentence. \"Analisou-se as entrevistas\" is common, but reviewers count it as an agreement error.",
@@ -257,7 +257,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The analysis reveals that few municipalities meet the target.",
+        source: "The analyzis reveals that few municipalities meet the target.",
         answer: "A análise revela que poucos municípios cumprem a meta.",
         altAnswers: ["A análise revela que poucos municípios atingem a meta.", "A análise revela que poucos municípios alcançam a meta.", "A análise mostra que poucos municípios cumprem a meta."],
         explanation: "\"Revelar que\" asserts a finding, so the clause takes the indicative: \"cumprem\".",
@@ -270,8 +270,8 @@ export const PT_C1_U03: Lesson[] = [
       {
         type: "speak",
         text: "O presente estudo tem como objetivo analisar a evasão escolar.",
-        prompt: "Say it in Portuguese: This study aims to analyse school dropout.",
-        tip: "In \"objetivo\" Brazilians slip a soft i after the b (o-bi-je-tchi-vo), and the t before i sounds like ch. The final e of \"presente\" sounds like i.",
+        prompt: "Say it in Portuguese: This study aims to analyze school dropout.",
+        tip: "In \"objetivo\" Brazilians slip a soft i after the b (o-bi-je-TCHI-vu), the t before i sounds like ch, and the final o sounds like u. The final e of \"presente\" sounds like i, so its t also becomes ch (pre-ZẼN-tchi).",
         explanation: "The standard opening move: the work as subject, \"tem como objetivo\" + infinitive.",
       },
       {
@@ -383,7 +383,7 @@ export const PT_C1_U03: Lesson[] = [
           { es: "É provável que a taxa de desemprego caia no segundo semestre.", en: "Unemployment is likely to fall in the second half of the year." },
           { es: "A inflação provavelmente vai continuar alta.", en: "Inflation will probably stay high." },
           { es: "É possível que parte dos entrevistados não tenha respondido com sinceridade.", en: "Some respondents may not have answered honestly." },
-          { es: "Em certa medida, o programa reduziu a desigualdade.", en: "To some extent, the programme reduced inequality." },
+          { es: "Em certa medida, o programa reduziu a desigualdade.", en: "To some extent, the program reduced inequality." },
           { es: "De modo geral, os professores avaliaram bem a nova plataforma.", en: "On the whole, teachers rated the new platform well." },
           { es: "Os dados apontam para uma melhora no aprendizado.", en: "The data point to an improvement in learning." },
         ],
@@ -629,15 +629,15 @@ export const PT_C1_U03: Lesson[] = [
       {
         heading: "Apud and et al.: second-hand sources and long author lists",
         body: [
-          "\"Apud\" (Latin for 'in the work of') marks a citation taken from someone else's text when you haven't read the original. \"Freire (1987 apud SILVA, 2010, p. 12)\" means you read Freire in Silva. In the traditional ABNT layout, surnames inside parentheses go in capitals and surnames outside them in normal case. Examiners frown on frequent \"apud\", so go to the original when you can.",
+          "\"Apud\" (Latin for 'in the work of') marks a citation taken from someone else's text when you haven't read the original. \"Freire (1987 apud SILVA, 2010, p. 12)\" means you read Freire in Silva. In the traditional ABNT layout, surnames inside parentheses go in capitals and surnames outside them in normal case; the 2023 revision of NBR 10520 no longer requires the capitals, but many journals and universities still use them, so follow your guidelines. Examiners frown on frequent \"apud\", so go to the original when you can.",
           "\"Et al.\" (and others) shortens a list of authors, and ABNT allows it from four authors up: \"Souza et al. (2021)\". The trap is agreement. Several people wrote the study, so the verb goes in the plural: \"Souza et al. (2021) mostram\", not \"mostra\". Two authors work the same way: \"Lima e Costa (2019) observam\".",
         ],
         examples: [
           { es: "Segundo Weber (1919 apud SOUZA, 2004, p. 37), o Estado detém o monopólio do uso legítimo da força.", en: "According to Weber (1919, cited in Souza, 2004, p. 37), the state holds the monopoly on the legitimate use of force." },
           { es: "Souza et al. (2021) mostram que o desmatamento afeta as chuvas no Sudeste.", en: "Souza et al. (2021) show that deforestation affects rainfall in the Southeast." },
-          { es: "Lima e Costa (2019) observam que poucas escolas públicas têm laboratório de ciências.", en: "Lima and Costa (2019) observe that few state schools have a science lab." },
+          { es: "Lima e Costa (2019) observam que poucas escolas públicas têm laboratório de ciências.", en: "Lima and Costa (2019) observe that few public schools have a science lab." },
           { es: "O fenômeno já foi descrito na literatura (ALMEIDA et al., 2017).", en: "The phenomenon has already been described in the literature (Almeida et al., 2017)." },
-          { es: "Ferreira et al. (2022) sustentam que o programa reduziu a evasão escolar.", en: "Ferreira et al. (2022) maintain that the programme reduced school dropout." },
+          { es: "Ferreira et al. (2022) sustentam que o programa reduziu a evasão escolar.", en: "Ferreira et al. (2022) maintain that the program reduced school dropout." },
         ],
         checkpoint: [
           {
@@ -786,7 +786,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "speak",
         text: "Conforme aponta Lima, o problema ainda é pouco estudado.",
         prompt: "Say it in Portuguese: As Lima points out, the problem is still little studied.",
-        tip: "Make the first syllable of \"ainda\" nasal (a-ÍN-da), and stress a-PON-ta.",
+        tip: "Make the stressed syllable of \"ainda\" nasal (a-ĨN-da), and stress a-PON-ta.",
         explanation: "\"Conforme aponta Lima\": with \"conforme\" + reporting verb, the name usually comes after the verb.",
       },
       {
@@ -815,13 +815,13 @@ export const PT_C1_U03: Lesson[] = [
         heading: "Framing: no que tange a, no âmbito de, à luz de",
         body: [
           "These three phrases set the frame before the claim arrives, so they usually open the sentence. \"No que tange a\" (as regards, concerning) narrows the topic. It is the formal sibling of \"no que diz respeito a\" and \"quanto a\". The final \"a\" belongs to the phrase, so it contracts and takes the crase: \"no que tange ao ensino\", \"no que tange à saúde\".",
-          "\"No âmbito de\" means within the scope or framework of something: a project, a law, a programme, a level of government (\"no âmbito federal\"). \"À luz de\" means in light of. It always carries the crase, because it is \"a\" plus the feminine \"a luz\": \"à luz da teoria\", \"à luz dos dados\". English speakers write *\"em luz de\" or drop the accent, and either slip marks the text at once.",
+          "\"No âmbito de\" means within the scope or framework of something: a project, a law, a program, a level of government (\"no âmbito federal\"). \"À luz de\" means in light of. It always carries the crase, because it is \"a\" plus the feminine \"a luz\": \"à luz da teoria\", \"à luz dos dados\". English speakers write *\"em luz de\" or drop the accent, and either slip marks the text at once.",
           "One framing phrase per sentence is enough. If you stack two (\"No âmbito do projeto, no que tange à metodologia...\"), the reader waits too long for the verb.",
         ],
         examples: [
           { es: "No que tange à saúde pública, os resultados são preocupantes.", en: "Regarding public health, the results are worrying." },
           { es: "No que tange ao financiamento, a pesquisa dependeu de recursos estaduais.", en: "As far as funding is concerned, the research relied on state resources." },
-          { es: "O estudo foi realizado no âmbito do Programa de Pós-Graduação em Educação.", en: "The study was carried out within the Graduate Programme in Education." },
+          { es: "O estudo foi realizado no âmbito do Programa de Pós-Graduação em Educação.", en: "The study was carried out within the Graduate Program in Education." },
           { es: "No âmbito municipal, as políticas de habitação ainda são escassas.", en: "At the municipal level, housing policies are still scarce." },
           { es: "À luz da teoria de Paulo Freire, a escola é um espaço de diálogo.", en: "In light of Paulo Freire's theory, school is a space for dialogue." },
           { es: "Os dados devem ser interpretados à luz do contexto histórico.", en: "The data must be interpreted in light of the historical context." },
@@ -843,14 +843,14 @@ export const PT_C1_U03: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The data were analysed [in light of] the theory.",
+            en: "The data were analyzed [in light of] the theory.",
             sentence: "Os dados foram analisados ___ da teoria.",
             answer: "à luz",
             explanation: "\"À luz de\" always has the crase: it is \"a\" + \"a luz\". Without the accent, \"a luz\" just means the light.",
           },
           {
             type: "multiple-choice",
-            question: "In your methods section you need to say the study was carried out within a federal programme. Which sentence says it?",
+            question: "In your methods section you need to say the study was carried out within a federal program. Which sentence says it?",
             options: [
               "O estudo foi realizado no âmbito de um programa federal.",
               "O estudo foi realizado à luz de um programa federal.",
@@ -870,9 +870,9 @@ export const PT_C1_U03: Lesson[] = [
           "\"Em contrapartida\" has two uses. It sets a second fact against the first (by contrast), and it introduces what one side gives back in an exchange (in return). Either way it needs two facts weighed against each other. Don't use it as a plain \"mas\" or to add a point, a common slip from the English on the other hand.",
         ],
         examples: [
-          { es: "A evasão escolar cresceu na pandemia. Nesse sentido, programas de busca ativa se tornaram urgentes.", en: "School dropout rose during the pandemic. Along these lines, active outreach programmes became urgent." },
+          { es: "A evasão escolar cresceu na pandemia. Nesse sentido, programas de busca ativa se tornaram urgentes.", en: "School dropout rose during the pandemic. Along these lines, active outreach programs became urgent." },
           { es: "Nesse sentido, a formação docente é um eixo central da proposta.", en: "Along these lines, teacher training is a central pillar of the proposal." },
-          { es: "A amostra foi pequena; por conseguinte, os resultados não podem ser generalizados.", en: "The sample was small; consequently, the results cannot be generalised." },
+          { es: "A amostra foi pequena; por conseguinte, os resultados não podem ser generalizados.", en: "The sample was small; consequently, the results cannot be generalized." },
           { es: "O custo do transporte subiu e, por conseguinte, a frequência dos alunos caiu.", en: "Transport costs rose and, as a result, student attendance fell." },
           { es: "A renda média aumentou; em contrapartida, a desigualdade regional se manteve.", en: "Average income rose; by contrast, regional inequality stayed the same." },
           { es: "A universidade oferece bolsas; em contrapartida, os bolsistas devem atuar em projetos de extensão.", en: "The university offers scholarships; in return, scholarship holders must work on outreach projects." },
@@ -882,7 +882,7 @@ export const PT_C1_U03: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The sample was small; consequently, the results cannot be generalised.",
+            source: "The sample was small; consequently, the results cannot be generalized.",
             answer: "A amostra foi pequena; por conseguinte, os resultados não podem ser generalizados.",
             altAnswers: [
               "A amostra era pequena; por conseguinte, os resultados não podem ser generalizados.",
@@ -927,7 +927,7 @@ export const PT_C1_U03: Lesson[] = [
           { es: "Tal fenômeno não se restringe às grandes capitais.", en: "This phenomenon is not limited to the big state capitals." },
           { es: "O referido estudo, contudo, não considera a variável renda.", en: "The study mentioned, however, does not take income into account as a variable." },
           { es: "Essa queda, por sua vez, afetou sobretudo as regiões Norte e Nordeste.", en: "This drop, in turn, mainly affected the North and Northeast." },
-          { es: "Nesse contexto, cabe analisar o papel das universidades públicas.", en: "In this context, it is worth analysing the role of public universities." },
+          { es: "Nesse contexto, cabe analisar o papel das universidades públicas.", en: "In this context, it is worth analyzing the role of public universities." },
         ],
         checkpoint: [
           {
@@ -937,7 +937,7 @@ export const PT_C1_U03: Lesson[] = [
             sentence: "___ não se restringe às grandes cidades.",
             answer: "Tal fenômeno",
             altAnswers: ["Esse fenômeno", "Este fenômeno"],
-            explanation: "A demonstrative plus a summarising noun links back to the previous paragraph. \"Tal\" is the most formal choice. Note the circumflex in \"fenômeno\".",
+            explanation: "A demonstrative plus a summarizing noun links back to the previous paragraph. \"Tal\" is the most formal choice. Note the circumflex in \"fenômeno\".",
           },
           {
             type: "translate",
@@ -974,7 +974,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Within the project, three schools were analysed.",
+        source: "Within the project, three schools were analyzed.",
         answer: "No âmbito do projeto, três escolas foram analisadas.",
         altAnswers: [
           "No âmbito do projeto, foram analisadas três escolas.",
@@ -1038,7 +1038,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Along these lines, the proposal prioritises teacher training.",
+        source: "Along these lines, the proposal prioritizes teacher training.",
         answer: "Nesse sentido, a proposta prioriza a formação docente.",
         altAnswers: [
           "Nesse sentido, a proposta prioriza a formação de professores.",
@@ -1054,7 +1054,7 @@ export const PT_C1_U03: Lesson[] = [
         sentence: "___, por sua vez, afetou sobretudo a região Norte.",
         answer: "Essa queda",
         altAnswers: ["Esta queda", "Tal queda"],
-        explanation: "A demonstrative plus a summarising noun picks up the figure from the previous sentence. \"Por sua vez\" then moves the argument on.",
+        explanation: "A demonstrative plus a summarizing noun picks up the figure from the previous sentence. \"Por sua vez\" then moves the argument on.",
       },
       {
         type: "dictation",
@@ -1102,8 +1102,8 @@ export const PT_C1_U03: Lesson[] = [
           { es: "O aumento da evasão escolar preocupa os gestores.", en: "The rise in school dropout worries administrators." },
           { es: "A análise dos dados revelou diferenças regionais.", en: "Analysis of the data revealed regional differences." },
           { es: "A redução das emissões depende de investimento público.", en: "Reducing emissions depends on public investment." },
-          { es: "O crescimento das cidades médias alterou o mercado de trabalho.", en: "The growth of mid-sized cities changed the labour market." },
-          { es: "A implementação do programa ocorreu em 2019.", en: "The programme was implemented in 2019." },
+          { es: "O crescimento das cidades médias alterou o mercado de trabalho.", en: "The growth of mid-sized cities changed the labor market." },
+          { es: "A implementação do programa ocorreu em 2019.", en: "The program was implemented in 2019." },
         ],
         checkpoint: [
           {
@@ -1146,8 +1146,8 @@ export const PT_C1_U03: Lesson[] = [
           "The \"se\" form is lighter and dominates methods sections. \"Ser\" + participle lets you name the agent with \"por\" when it matters: \"os questionários foram aplicados pelas próprias escolas\".",
         ],
         examples: [
-          { es: "Foram entrevistados trinta professores da rede pública.", en: "Thirty state-school teachers were interviewed." },
-          { es: "Analisaram-se os relatórios de 2015 a 2020.", en: "Reports from 2015 to 2020 were analysed." },
+          { es: "Foram entrevistados trinta professores da rede pública.", en: "Thirty public-school teachers were interviewed." },
+          { es: "Analisaram-se os relatórios de 2015 a 2020.", en: "Reports from 2015 to 2020 were analyzed." },
           { es: "Verifica-se uma tendência de queda.", en: "A downward trend can be observed." },
           { es: "Trata-se de dois fenômenos distintos.", en: "These are two distinct phenomena." },
           { es: "Recorreu-se a entrevistas semiestruturadas.", en: "Semi-structured interviews were used." },
@@ -1193,9 +1193,9 @@ export const PT_C1_U03: Lesson[] = [
           "Pick one strategy per text. A methods section that jumps from \"analisamos\" to \"analisou-se\" to \"eu entrevistei\" reads as careless.",
         ],
         examples: [
-          { es: "Este artigo discute os efeitos da reforma do ensino médio.", en: "This article discusses the effects of the secondary-school reform." },
+          { es: "Este artigo discute os efeitos da reforma do ensino médio.", en: "This article discusses the effects of the high school reform." },
           { es: "O presente estudo propõe uma nova tipologia.", en: "This study proposes a new typology." },
-          { es: "Neste capítulo, analisamos o discurso de três jornais.", en: "In this chapter, we analyse the discourse of three newspapers." },
+          { es: "Neste capítulo, analisamos o discurso de três jornais.", en: "In this chapter, we analyze the discourse of three newspapers." },
           { es: "Consideramos que os resultados são preliminares.", en: "We consider the results preliminary." },
           { es: "Defendemos, portanto, a revisão dos critérios.", en: "We therefore argue for a revision of the criteria." },
         ],
@@ -1229,13 +1229,13 @@ export const PT_C1_U03: Lesson[] = [
       {
         heading: "When it gets too heavy",
         body: [
-          "Nominalisation has a cost. Stack nouns and you get chains of \"de\" that nobody can parse: \"a realização da avaliação da implementação do programa\" hides three verbs and never says who did what.",
+          "Nominalization has a cost. Stack nouns and you get chains of \"de\" that nobody can parse: \"a realização da avaliação da implementação do programa\" hides three verbs and never says who did what.",
           "The usual culprit is the empty verb: \"realizar\", \"efetuar\", \"proceder a\" or \"promover\" plus a noun that already contains the action. \"Foi realizada uma análise dos dados\" says no more than \"os dados foram analisados\". Keep the verb where the action is. Turn something into a noun only when you need it as a subject or want to refer back to it.",
           "A quick test: if you have more than two \"de\" phrases in a row, or one -ção noun governing another, turn one of them back into a verb.",
         ],
         examples: [
-          { es: "Foi realizada a avaliação da implementação do programa.", en: "An evaluation of the programme's implementation was carried out. (too heavy)" },
-          { es: "Avaliou-se como o programa foi implementado.", en: "How the programme was implemented was assessed. (lighter)" },
+          { es: "Foi realizada a avaliação da implementação do programa.", en: "An evaluation of the program's implementation was carried out. (too heavy)" },
+          { es: "Avaliou-se como o programa foi implementado.", en: "How the program was implemented was assessed. (lighter)" },
           { es: "Procedeu-se à coleta dos dados em março.", en: "Data collection was carried out in March. (heavy)" },
           { es: "Os dados foram coletados em março.", en: "The data were collected in March." },
           { es: "A pesquisa busca entender por que os alunos abandonam a escola.", en: "The study seeks to understand why students drop out of school." },
@@ -1303,9 +1303,9 @@ export const PT_C1_U03: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: A significant drop in enrolments was observed.",
+        prompt: "Put the words in order to say: A significant drop in enrollments was observed.",
         words: ["Observou-se", "uma", "redução", "significativa", "das", "matrículas."],
-        translation: "A significant drop in enrolments was observed.",
+        translation: "A significant drop in enrollments was observed.",
         altOrders: [["Observou-se", "uma", "significativa", "redução", "das", "matrículas."]],
         explanation: "The verb opens the sentence, so \"se\" follows it. The verb is singular because its subject is \"uma redução\", not \"matrículas\".",
       },
@@ -1335,10 +1335,10 @@ export const PT_C1_U03: Lesson[] = [
         audio: "Verifica-se uma tendência de queda nas matrículas.",
         question: "What does it mean?",
         options: [
-          "A downward trend in enrolments can be observed.",
+          "A downward trend in enrollments can be observed.",
           "Enrolments must be checked for a downward trend.",
-          "We verified that enrolments are rising.",
-          "A downward trend in enrolments was predicted.",
+          "We verified that enrollments are rising.",
+          "A downward trend in enrollments was predicted.",
         ],
         correctIndex: 0,
         explanation: "\"Verifica-se\" is the impersonal 'can be observed / is found', a staple of results sections. It does not mean to verify in the sense of checking.",
@@ -1352,7 +1352,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "speak",
         text: "Este estudo propõe a redução da jornada de trabalho.",
         prompt: "Say it in Portuguese: This study proposes a reduction in working hours.",
-        tip: "Nasalise the ão in \"redução\" and don't add an n. The t in \"estudo\" stays a plain t.",
+        tip: "Nasalize the ão in \"redução\" and don't add an n. The t in \"estudo\" stays a plain t.",
         explanation: "The text is the subject, and \"a redução da jornada\" packs the action into a noun.",
       },
       {
@@ -1369,7 +1369,7 @@ export const PT_C1_U03: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "a queda da renda", right: "the fall in income" },
-          { left: "o aumento das matrículas", right: "the rise in enrolments" },
+          { left: "o aumento das matrículas", right: "the rise in enrollments" },
           { left: "a redução das emissões", right: "the reduction in emissions" },
           { left: "o crescimento da população", right: "population growth" },
           { left: "a implementação da lei", right: "the implementation of the law" },
@@ -1380,7 +1380,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The government's proposal was criticised by experts.",
+        source: "The government's proposal was criticized by experts.",
         answer: "A proposta do governo foi criticada por especialistas.",
         altAnswers: ["A proposta do governo foi criticada pelos especialistas."],
         explanation: "Use the \"ser\" passive when you want to name the agent: \"por especialistas\". \"Criticada\" agrees with \"a proposta\".",
@@ -1405,10 +1405,10 @@ export const PT_C1_U03: Lesson[] = [
           "The verbs change too. Speech says \"ver\", \"mostrar\", \"descobrir\"; papers say \"observar\", \"constatar\", \"demonstrar\", \"apontar\". Don't render English found as \"achar\": \"achamos que\" means we think, an opinion, which is the opposite of a finding.",
         ],
         examples: [
-          { es: "A gente entrevistou trezentos alunos de escolas públicas.", en: "We interviewed three hundred pupils at state schools. (podcast)" },
-          { es: "Foram entrevistados trezentos alunos de escolas públicas.", en: "Three hundred state-school pupils were interviewed. (paper)" },
+          { es: "A gente entrevistou trezentos alunos de escolas públicas.", en: "We interviewed three hundred students at public schools. (podcast)" },
+          { es: "Foram entrevistados trezentos alunos de escolas públicas.", en: "Three hundred public-school students were interviewed. (paper)" },
           { es: "Aí a gente viu que quem toma café da manhã na escola falta menos.", en: "Then we saw that kids who have breakfast at school miss fewer days. (podcast)" },
-          { es: "Constatou-se que os alunos que recebem café da manhã na escola apresentam menor índice de faltas.", en: "It was found that pupils who receive breakfast at school have lower absence rates. (paper)" },
+          { es: "Constatou-se que os alunos que recebem café da manhã na escola apresentam menor índice de faltas.", en: "It was found that students who receive breakfast at school have lower absence rates. (paper)" },
           { es: "Os pesquisadores mostraram que isso vale pra cidade toda.", en: "The researchers showed that this holds for the whole city. (podcast)" },
           { es: "Os dados apontam para um efeito semelhante em todo o município.", en: "The data point to a similar effect across the whole municipality. (paper)" },
         ],
@@ -1465,7 +1465,7 @@ export const PT_C1_U03: Lesson[] = [
           { es: "Pelo jeito, o café da manhã faz diferença mesmo.", en: "Looks like breakfast really does make a difference. (podcast)" },
           { es: "Os resultados sugerem que o café da manhã tem impacto na frequência escolar.", en: "The results suggest that breakfast has an impact on school attendance. (paper)" },
           { es: "Acho que isso vale mais pros alunos mais novos.", en: "I think it matters more for the younger kids. (podcast)" },
-          { es: "O efeito tende a ser maior entre os alunos dos anos iniciais.", en: "The effect tends to be greater among pupils in the early years. (paper)" },
+          { es: "O efeito tende a ser maior entre os alunos dos anos iniciais.", en: "The effect tends to be greater among students in the early years. (paper)" },
           { es: "É provável que outros fatores também influenciem os resultados.", en: "Other factors are likely to influence the results as well. (paper)" },
           { es: "Sugere-se que novos estudos incluam escolas rurais.", en: "It is recommended that further studies include rural schools. (paper)" },
         ],
@@ -1511,13 +1511,13 @@ export const PT_C1_U03: Lesson[] = [
         body: [
           "Speech links ideas with \"aí\", \"então\", \"só que\" and signposts with \"olha só\". A paper uses \"por conseguinte\", \"em contrapartida\", \"nesse sentido\", \"no que tange a\". Match the logic, not the position: \"só que\" is contrast (\"em contrapartida\", \"no entanto\"), while \"aí\" is often mere sequence and simply disappears.",
           "Vocabulary moves up a step: \"um monte de\" becomes \"grande parte de\" or \"uma parcela significativa de\", \"a galera\" becomes \"os participantes\", \"sobre\" becomes \"acerca de\", and \"por causa de\" becomes \"em decorrência de\" or \"devido a\".",
-          "Don't climb too high. \"Destarte\", \"hodiernamente\" and three stacked nominalisations in one sentence read as pompous, not rigorous, to a Brazilian examiner. And the podcast still owes its listeners the exact numbers: casual is not the same as vague.",
+          "Don't climb too high. \"Destarte\", \"hodiernamente\" and three stacked nominalizations in one sentence read as pompous, not rigorous, to a Brazilian examiner. And the podcast still owes its listeners the exact numbers: casual is not the same as vague.",
         ],
         examples: [
           { es: "Só que nas escolas rurais a história é outra.", en: "But in rural schools it's a different story. (podcast)" },
           { es: "Em contrapartida, nas escolas rurais, o padrão observado é distinto.", en: "In contrast, the pattern observed in rural schools is different. (paper)" },
-          { es: "Um monte de aluno chega sem comer nada.", en: "Loads of kids turn up without having eaten anything. (podcast)" },
-          { es: "Uma parcela significativa dos alunos chega à escola em jejum.", en: "A significant proportion of pupils arrive at school without having eaten. (paper)" },
+          { es: "Um monte de aluno chega sem comer nada.", en: "Tons of kids show up without having eaten anything. (podcast)" },
+          { es: "Uma parcela significativa dos alunos chega à escola em jejum.", en: "A significant proportion of students arrive at school without having eaten. (paper)" },
           { es: "As faltas caíram por causa da merenda.", en: "Absences went down because of the school meals. (podcast)" },
           { es: "A redução das faltas pode estar associada à oferta de merenda.", en: "The drop in absences may be associated with the provision of school meals. (paper)" },
         ],
@@ -1565,7 +1565,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Three hundred pupils were interviewed. (in a paper)",
+        source: "Three hundred students were interviewed. (in a paper)",
         answer: "Foram entrevistados trezentos alunos.",
         altAnswers: [
           "Trezentos alunos foram entrevistados.",
@@ -1580,7 +1580,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We interviewed three hundred pupils. (on a podcast)",
+        source: "We interviewed three hundred students. (on a podcast)",
         answer: "A gente entrevistou trezentos alunos.",
         altAnswers: [
           "Nós entrevistamos trezentos alunos.",
@@ -1604,7 +1604,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The results indicate that the programme works. (in a paper)",
+        source: "The results indicate that the program works. (in a paper)",
         answer: "Os resultados indicam que o programa funciona.",
         altAnswers: [
           "Os resultados apontam que o programa funciona.",
@@ -1618,7 +1618,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Looks like the programme works. (on a podcast)",
+        source: "Looks like the program works. (on a podcast)",
         answer: "Pelo jeito, o programa funciona.",
         altAnswers: [
           "Pelo jeito o programa funciona.",
@@ -1640,10 +1640,10 @@ export const PT_C1_U03: Lesson[] = [
         type: "multiple-choice",
         question: "In the conclusion of a paper you read: \"Sugere-se que o programa seja ampliado.\" What does it mean?",
         options: [
-          "It is recommended that the programme be expanded.",
-          "The data suggest that the programme has been expanded.",
-          "Someone suggested expanding the programme in an interview.",
-          "The programme seems to be getting bigger.",
+          "It is recommended that the program be expanded.",
+          "The data suggest that the program has been expanded.",
+          "Someone suggested expanding the program in an interview.",
+          "The program seems to be getting bigger.",
         ],
         correctIndex: 0,
         explanation: "\"Sugere-se que\" + subjunctive (\"seja ampliado\") is a recommendation, not a report of the data.",
@@ -1652,7 +1652,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Absences fell as a result of the programme. (in a paper)",
+        source: "Absences fell as a result of the program. (in a paper)",
         answer: "As faltas diminuíram em decorrência do programa.",
         altAnswers: [
           "As faltas caíram em decorrência do programa.",
@@ -1695,7 +1695,7 @@ export const PT_C1_U03: Lesson[] = [
           { left: "em decorrência de", right: "as a result of" },
           { left: "uma parcela significativa de", right: "a significant proportion of" },
           { left: "por conseguinte", right: "consequently" },
-          { left: "à luz de", right: "in the light of" },
+          { left: "à luz de", right: "in light of" },
         ],
         explanation: "Each is the written counterpart of a spoken word: \"sobre\", \"por causa de\", \"um monte de\", \"então\" and \"pensando em\".",
       },
@@ -1706,7 +1706,7 @@ export const PT_C1_U03: Lesson[] = [
     level: "PT-C1",
     number: 7,
     title: "Dialogue Lab: A Defesa",
-    summary: "Follow a Brazilian master's defence from the opening thanks to the verdict, and learn how examiners frame criticism and how candidates hedge, concede and clarify.",
+    summary: "Follow a Brazilian master's defense from the opening thanks to the verdict, and learn how examiners frame criticism and how candidates hedge, concede and clarify.",
     duration: "15 min",
     kind: "reinforce",
     format: "Dialogue Lab",
@@ -1714,12 +1714,12 @@ export const PT_C1_U03: Lesson[] = [
       {
         heading: "A abertura: thanking the banca and stating the aim",
         body: [
-          "In Brazil a master's thesis is a \"dissertação\". \"Tese\" is normally reserved for the doctorate, the reverse of American usage, where the dissertation is the PhD. The defence (\"a defesa\") is public. The supervisor (\"o orientador\") chairs the \"banca examinadora\" and the candidate presents for about twenty minutes. Each examiner then leads the \"arguição\": comments first, questions after.",
+          "In Brazil a master's thesis is a \"dissertação\". \"Tese\" is normally reserved for the doctorate, the reverse of American usage, where the dissertation is the PhD. The defense (\"a defesa\") is public. The supervisor (\"o orientador\") chairs the \"banca examinadora\" and the candidate presents for about twenty minutes. Each examiner then leads the \"arguição\": comments first, questions after.",
           "Our candidate, Mariana, opens with the usual ritual: she thanks the banca, states the objective in the past (\"o trabalho teve como objetivo\") and previews the findings. The nominal style from earlier lessons survives, but in spoken form: \"eu\" is allowed and the sentences are shorter. \"Agradecer\" takes two complements, \"a\" for the person and \"por\" for the reason, hence \"agradeço à banca pela leitura\".",
         ],
         examples: [
           { es: "Agradeço à banca pela leitura atenta do meu trabalho.", en: "I'd like to thank the committee for reading my work so carefully." },
-          { es: "A dissertação teve como objetivo analisar o uso do WhatsApp na comunicação entre escola e família.", en: "The thesis aimed to analyse the use of WhatsApp in communication between schools and families." },
+          { es: "A dissertação teve como objetivo analisar o uso do WhatsApp na comunicação entre escola e família.", en: "The thesis aimed to analyze the use of WhatsApp in communication between schools and families." },
           { es: "Os resultados apontam para uma relação mais próxima, mas também mais tensa, entre professores e pais.", en: "The results point to a closer, but also tenser, relationship between teachers and parents." },
           { es: "Passo a palavra para a professora Beatriz Andrade.", en: "I'll hand over to Professor Beatriz Andrade." },
         ],
@@ -1736,7 +1736,7 @@ export const PT_C1_U03: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The work [aimed to] analyse communication between schools and families.",
+            en: "The work [aimed to] analyze communication between schools and families.",
             sentence: "O trabalho ___ analisar a comunicação entre escola e família.",
             answer: "teve como objetivo",
             altAnswers: ["buscou", "procurou"],
@@ -1785,7 +1785,7 @@ export const PT_C1_U03: Lesson[] = [
         ],
         examples: [
           { es: "Obrigada pela pergunta. A professora tem razão em apontar esse limite.", en: "Thank you for the question. You're right to point out that limitation." },
-          { es: "Reconheço que a amostra é pequena; por isso, os resultados não podem ser generalizados.", en: "I acknowledge that the sample is small, so the results can't be generalised." },
+          { es: "Reconheço que a amostra é pequena; por isso, os resultados não podem ser generalizados.", en: "I acknowledge that the sample is small, so the results can't be generalized." },
           { es: "Talvez eu não tenha deixado claro que se trata de um estudo de caso.", en: "Perhaps I didn't make it clear that this is a case study." },
           { es: "Ainda assim, acredito que o estudo traz contribuições relevantes para a área.", en: "Even so, I believe the study makes relevant contributions to the field." },
           { es: "Esse é um limite do trabalho, que pretendo explorar no doutorado.", en: "That's a limitation of the work, which I intend to explore in my PhD." },
@@ -1928,7 +1928,7 @@ export const PT_C1_U03: Lesson[] = [
           { left: "O que eu quis dizer foi...", right: "What I meant was..." },
           { left: "Passo a palavra para...", right: "I'll hand over to..." },
         ],
-        explanation: "The first three come from the examiner's side of the defence and the last three from the candidate's and the chair's.",
+        explanation: "The first three come from the examiner's side of the defense and the last three from the candidate's and the chair's.",
       },
       {
         type: "translate",
@@ -1964,7 +1964,7 @@ export const PT_C1_U03: Lesson[] = [
           "\"Evidenciar\" is real Portuguese and means to make evident. Learners overuse it, reaching for it every time English says show. A table reveals nothing: it \"apresenta\" or \"mostra\". Keep \"evidenciar\" for findings that bring something hidden to light. Otherwise vary with \"indicar\", \"demonstrar\" and \"revelar\", according to how strong the claim is.",
         ],
         examples: [
-          { es: "O artigo aborda a evasão escolar no ensino médio.", en: "The article addresses school dropout in secondary education." },
+          { es: "O artigo aborda a evasão escolar no ensino médio.", en: "The article addresses school dropout in high school." },
           { es: "Os dados corroboram a hipótese inicial.", en: "The data support the initial hypothesis." },
           { es: "A Tabela 2 apresenta o perfil dos participantes.", en: "Table 2 shows the participants' profile." },
           { es: "Os resultados evidenciam uma desigualdade que os índices oficiais ocultavam.", en: "The results reveal an inequality that the official figures concealed." },
@@ -2012,7 +2012,7 @@ export const PT_C1_U03: Lesson[] = [
       {
         heading: "Onde is for places",
         body: [
-          "In speech \"onde\" stretches to any relation: a period, a situation, a text, a theory. The written norm keeps it for real places: \"a cidade onde a pesquisa foi feita\". For periods, cases and contexts use \"em que\". For a text use \"em que\" or \"no qual\" / \"na qual\". For a theory you are summarising, \"segundo a qual\" (according to which) is often the most precise choice.",
+          "In speech \"onde\" stretches to any relation: a period, a situation, a text, a theory. The written norm keeps it for real places: \"a cidade onde a pesquisa foi feita\". For periods, cases and contexts use \"em que\". For a text use \"em que\" or \"no qual\" / \"na qual\". For a theory you are summarizing, \"segundo a qual\" (according to which) is often the most precise choice.",
           "A quick test: if you couldn't point to it on a map, \"onde\" is probably wrong. \"Um contexto onde\" and \"um período onde\" are the slips examiners circle most. As you saw in B1, \"o qual\" agrees with the noun it replaces.",
         ],
         examples: [
@@ -2054,7 +2054,7 @@ export const PT_C1_U03: Lesson[] = [
           "Don't swap one spoken habit for another: \"na minha opinião\", \"para mim\" and \"a gente\" are just as out of place. Choose the replacement by how sure you are, as in the hedging lesson.",
         ],
         examples: [
-          { es: "Os dados sugerem que o programa reduziu a evasão.", en: "The data suggest that the programme reduced dropout." },
+          { es: "Os dados sugerem que o programa reduziu a evasão.", en: "The data suggest that the program reduced dropout." },
           { es: "É possível que a amostra tenha influenciado os resultados.", en: "The sample may have influenced the results." },
           { es: "Entendemos que a política precisa de ajustes.", en: "We believe the policy needs adjustments." },
           { es: "Defende-se, neste trabalho, que a reforma foi insuficiente.", en: "This paper argues that the reform was insufficient." },
@@ -2103,7 +2103,7 @@ export const PT_C1_U03: Lesson[] = [
           { es: "Segundo Silva (2018), a escola reproduz desigualdades.", en: "According to Silva (2018), schools reproduce inequalities." },
           { es: "Silva (2018) afirma que a escola reproduz desigualdades.", en: "Silva (2018) states that schools reproduce inequalities." },
           { es: "Conforme aponta Ribeiro (2019), o tema ainda é pouco estudado.", en: "As Ribeiro (2019) points out, the topic is still under-researched." },
-          { es: "Souza e Costa (2021) analisaram trezentas redações do ENEM.", en: "Souza and Costa (2021) analysed three hundred ENEM essays." },
+          { es: "Souza e Costa (2021) analisaram trezentas redações do ENEM.", en: "Souza and Costa (2021) analyzed three hundred ENEM essays." },
           { es: "Freire (1967 apud Lima, 2010) define a educação como prática da liberdade.", en: "Freire (1967, cited in Lima, 2010) defines education as a practice of freedom." },
         ],
         checkpoint: [
@@ -2282,19 +2282,19 @@ export const PT_C1_U03: Lesson[] = [
     level: "PT-C1",
     number: 9,
     title: "Real-World Mission: A Mini Literature Review",
-    summary: "Synthesise three sources on cell phones in Brazilian classrooms into one hedged literature review paragraph, grouped by idea and ending with the research gap.",
+    summary: "Synthesize three sources on cell phones in Brazilian classrooms into one hedged literature review paragraph, grouped by idea and ending with the research gap.",
     duration: "15 min",
     sections: [
       {
         heading: "Three sources, one question",
         body: [
-          "Your mission is a literature review paragraph on one question: does banning cell phones in class improve learning? You have three fictional sources. Almeida (2019) studied 400 secondary students in Recife and found that the ban raised attention and slightly improved maths grades. Rocha and Lima (2021) found no significant difference in performance across twelve schools in Curitiba, but observed fewer classroom conflicts. Martins et al. (2023) reviewed thirty studies and concluded that the effect depends on how the phone is used in teaching.",
+          "Your mission is a literature review paragraph on one question: does banning cell phones in class improve learning? You have three fictional sources. Almeida (2019) studied 400 high school students in Recife and found that the ban raised attention and slightly improved math grades. Rocha and Lima (2021) found no significant difference in performance across twelve schools in Curitiba, but observed fewer classroom conflicts. Martins et al. (2023) reviewed thirty studies and concluded that the effect depends on how the phone is used in teaching.",
           "Report each finding with a verb that matches its strength, as in the citation lesson: \"constatar\" and \"demonstrar\" for solid results, \"sugerir\" and \"apontar\" for tentative ones. Brazilian reviews report in the present (\"Almeida afirma\") or the perfeito (\"Almeida constatou\"). Choose one and keep it.",
           "Don't translate found as \"descobrir\", which suggests uncovering something hidden. Results are \"encontrados\", \"observados\" or \"constatados\". Two authors take a plural verb, and so does \"et al.\": \"Martins et al. concluem\".",
         ],
         examples: [
           { es: "Almeida (2019) constatou que a proibição do celular aumentou a atenção dos alunos.", en: "Almeida (2019) found that banning cell phones increased students' attention." },
-          { es: "Segundo Almeida (2019), houve uma leve melhora nas notas de matemática.", en: "According to Almeida (2019), there was a slight improvement in maths grades." },
+          { es: "Segundo Almeida (2019), houve uma leve melhora nas notas de matemática.", en: "According to Almeida (2019), there was a slight improvement in math grades." },
           { es: "Rocha e Lima (2021) não encontraram diferença significativa no desempenho dos alunos.", en: "Rocha and Lima (2021) found no significant difference in students' performance." },
           { es: "Os autores observaram, no entanto, uma redução dos conflitos em sala de aula.", en: "The authors did, however, observe a reduction in classroom conflicts." },
           { es: "Martins et al. (2023) concluem que o efeito depende do uso pedagógico do aparelho.", en: "Martins et al. (2023) conclude that the effect depends on the device's pedagogical use." },
@@ -2329,15 +2329,15 @@ export const PT_C1_U03: Lesson[] = [
         ],
       },
       {
-        heading: "Synthesise, don't list",
+        heading: "Synthesize, don't list",
         body: [
-          "The typical weakness in a learner's review is the shopping list: one sentence per author, in the order you read them. A synthesis is organised by idea. Group the sources that agree and set them against those that don't. The authors then appear as support for your claims, often in parentheses in the ABNT format \"(ALMEIDA, 2019)\".",
+          "The typical weakness in a learner's review is the shopping list: one sentence per author, in the order you read them. A synthesis is organized by idea. Group the sources that agree and set them against those that don't. The authors then appear as support for your claims, often in parentheses in the ABNT format \"(ALMEIDA, 2019)\".",
           "To show agreement, use \"tanto X quanto Y\", \"em consonância com\" and \"os resultados de X corroboram os de Y\". To show disagreement, use \"em contrapartida\", \"divergem quanto a\" and \"ao passo que\" (whereas). \"Ao passo que\" holds two contrasting findings in one sentence, which is exactly what a synthesis needs.",
           "Then account for the divergence instead of only noting it: different samples, methods or contexts. \"Embora\" with the subjunctive keeps both findings in view: \"embora tenham observado menos conflitos\".",
         ],
         examples: [
           { es: "Almeida (2019) associa a proibição a melhores notas, ao passo que Rocha e Lima (2021) não observam esse efeito.", en: "Almeida (2019) links the ban to better grades, whereas Rocha and Lima (2021) don't observe this effect." },
-          { es: "Tanto Almeida (2019) quanto Rocha e Lima (2021) registram efeitos positivos no comportamento dos alunos.", en: "Both Almeida (2019) and Rocha and Lima (2021) record positive effects on student behaviour." },
+          { es: "Tanto Almeida (2019) quanto Rocha e Lima (2021) registram efeitos positivos no comportamento dos alunos.", en: "Both Almeida (2019) and Rocha and Lima (2021) record positive effects on student behavior." },
           { es: "Os estudos divergem quanto ao impacto da medida sobre o desempenho.", en: "The studies diverge on the measure's impact on performance." },
           { es: "Essa divergência pode decorrer de diferenças de amostra e de método.", en: "This divergence may stem from differences in sample and method." },
           { es: "Em consonância com Martins et al. (2023), o efeito parece depender menos da presença do aparelho do que do seu uso.", en: "In line with Martins et al. (2023), the effect seems to depend less on the device's presence than on its use." },
@@ -2387,7 +2387,7 @@ export const PT_C1_U03: Lesson[] = [
         ],
         examples: [
           { es: "Ainda são escassos os estudos realizados em escolas rurais.", en: "Studies carried out in rural schools are still scarce." },
-          { es: "Pouco se sabe sobre os efeitos da medida no ensino fundamental.", en: "Little is known about the measure's effects in primary and lower secondary school." },
+          { es: "Pouco se sabe sobre os efeitos da medida no ensino fundamental.", en: "Little is known about the measure's effects in elementary and middle school." },
           { es: "São raros os trabalhos que investiguem o ponto de vista dos professores.", en: "Studies that investigate teachers' point of view are rare." },
           { es: "Permanece em aberto a questão de como avaliar o uso pedagógico do celular.", en: "The question of how to assess the pedagogical use of phones remains open." },
           { es: "Nesse sentido, o presente estudo busca preencher essa lacuna.", en: "In this sense, the present study seeks to fill this gap." },
@@ -2424,7 +2424,7 @@ export const PT_C1_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Both studies record positive effects on student behaviour.",
+        source: "Both studies record positive effects on student behavior.",
         answer: "Ambos os estudos registram efeitos positivos no comportamento dos alunos.",
         altAnswers: [
           "Os dois estudos registram efeitos positivos no comportamento dos alunos.",
@@ -2489,7 +2489,7 @@ export const PT_C1_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Rocha and Lima's results [corroborate] Almeida's as regards behaviour.",
+        en: "Rocha and Lima's results [corroborate] Almeida's as regards behavior.",
         sentence: "Os resultados de Rocha e Lima ___ os de Almeida no que se refere ao comportamento.",
         answer: "corroboram",
         altAnswers: ["confirmam", "reforçam"],
@@ -2504,7 +2504,7 @@ export const PT_C1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which opening synthesises the three sources rather than listing them?",
+        question: "Which opening synthesizes the three sources rather than listing them?",
         options: [
           "Almeida (2019) fez um estudo em Recife. Rocha e Lima (2021) fizeram um estudo em Curitiba.",
           "Eu acho que os três estudos sobre o celular são muito interessantes.",
@@ -2512,7 +2512,7 @@ export const PT_C1_U03: Lesson[] = [
           "O primeiro texto fala do celular, o segundo também fala e o terceiro fala mais.",
         ],
         correctIndex: 2,
-        explanation: "The third option organises the field by idea: where the sources converge and where they diverge. The others list sources or fall into an informal \"eu acho\".",
+        explanation: "The third option organizes the field by idea: where the sources converge and where they diverge. The others list sources or fall into an informal \"eu acho\".",
       },
       {
         type: "listen-choose",
@@ -2541,7 +2541,7 @@ export const PT_C1_U03: Lesson[] = [
         maxWords: 170,
         rubric: [
           "Opens by stating the debate in one sentence",
-          "Groups the findings by idea (behaviour vs performance), not one author per sentence",
+          "Groups the findings by idea (behavior vs performance), not one author per sentence",
           "Uses at least one marker of agreement and one of contrast (tanto... quanto, corroborar, ao passo que, em contrapartida)",
           "Explains the divergence with Martins et al. or with differences in sample or context",
           "Hedges proportionally (parece, sugere-se, pode)",
@@ -2570,9 +2570,9 @@ export const PT_C1_U03: Lesson[] = [
           "Watch \"sugerir\". When it reports what the data show, it takes the indicative: \"os dados sugerem que há\". When it proposes an action, it takes the subjunctive: \"sugere-se que a política seja revista\".",
         ],
         examples: [
-          { es: "O presente estudo tem como objetivo analisar o impacto do ensino remoto em escolas públicas de Recife.", en: "This study aims to analyse the impact of remote teaching in public schools in Recife." },
+          { es: "O presente estudo tem como objetivo analisar o impacto do ensino remoto em escolas públicas de Recife.", en: "This study aims to analyze the impact of remote teaching in public schools in Recife." },
           { es: "Foram entrevistados 120 professores da rede municipal.", en: "120 teachers from the municipal school system were interviewed." },
-          { es: "Analisaram-se os dados por meio de estatística descritiva.", en: "The data were analysed using descriptive statistics." },
+          { es: "Analisaram-se os dados por meio de estatística descritiva.", en: "The data were analyzed using descriptive statistics." },
           { es: "Os resultados sugerem que a falta de acesso à internet tende a ampliar as desigualdades.", en: "The results suggest that lack of internet access tends to widen inequalities." },
           { es: "É provável que haja outros fatores envolvidos.", en: "Other factors are likely to be involved." },
           { es: "Em certa medida, os achados confirmam a hipótese inicial.", en: "To some extent, the findings confirm the initial hypothesis." },
@@ -2582,7 +2582,7 @@ export const PT_C1_U03: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The results suggest that the programme tends to reduce school dropout.",
+            source: "The results suggest that the program tends to reduce school dropout.",
             answer: "Os resultados sugerem que o programa tende a reduzir a evasão escolar.",
             altAnswers: [
               "Os resultados sugerem que o programa tende a diminuir a evasão escolar.",
@@ -2641,7 +2641,7 @@ export const PT_C1_U03: Lesson[] = [
               "Conforme Lima (2019), a política reduziu as desigualdades.",
               "Para Lima (2019), a política reduziu as desigualdades.",
             ],
-            explanation: "\"Segundo\", \"de acordo com\" and \"conforme\" all attribute a claim to a source. \"Para Lima\" works too, though it leans towards 'in Lima's view'.",
+            explanation: "\"Segundo\", \"de acordo com\" and \"conforme\" all attribute a claim to a source. \"Para Lima\" works too, though it leans toward 'in Lima's view'.",
           },
           {
             type: "fill-blank",
@@ -2674,11 +2674,11 @@ export const PT_C1_U03: Lesson[] = [
           "Reviewers circle three anglicisms. The first is \"endereçar\" for 'address a problem': say \"abordar\", \"tratar de\" or \"enfrentar\". The second is \"evidenciar\" for every 'show', where \"mostrar\", \"indicar\" and \"demonstrar\" fit most contexts. The third is \"onde\" for any link, when it belongs to places. For a theory, a period or a study, use \"em que\" or \"no qual\".",
         ],
         examples: [
-          { es: "A análise dos dados revelou diferenças significativas entre as regiões.", en: "The analysis of the data revealed significant differences between the regions." },
+          { es: "A análise dos dados revelou diferenças significativas entre as regiões.", en: "The analyzis of the data revealed significant differences between the regions." },
           { es: "O estudo aborda o problema da mobilidade urbana em São Paulo.", en: "The study addresses the problem of urban mobility in São Paulo." },
           { es: "Neste artigo, propomos uma releitura do conceito de cidadania.", en: "In this article, we propose a rereading of the concept of citizenship." },
           { es: "A pesquisa em que nos baseamos foi realizada em 2018.", en: "The research we draw on was carried out in 2018." },
-          { es: "Os resultados mostram que o programa teve efeito limitado.", en: "The results show that the programme had a limited effect." },
+          { es: "Os resultados mostram que o programa teve efeito limitado.", en: "The results show that the program had a limited effect." },
         ],
         checkpoint: [
           {
@@ -2729,7 +2729,7 @@ export const PT_C1_U03: Lesson[] = [
           "Foram entrevistados cento e vinte professores.",
           "Entrevistaram-se cento e vinte professores.",
         ],
-        explanation: "Method sections favour the passive with inversion: \"foram entrevistados\" agrees with \"professores\". With the impersonal \"se\", the norm also wants the plural: \"entrevistaram-se\".",
+        explanation: "Method sections favor the passive with inversion: \"foram entrevistados\" agrees with \"professores\". With the impersonal \"se\", the norm also wants the plural: \"entrevistaram-se\".",
       },
       {
         type: "translate",
@@ -2844,7 +2844,7 @@ export const PT_C1_U03: Lesson[] = [
 
 export const PT_C1_U03_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You've finished a study for a university seminar in Belo Horizonte on school vegetable gardens (\"hortas escolares\") and children's eating habits. Write its \"resumo\" (abstract) in academic Portuguese. Use these sources and data. Souza (2019) found that growing vegetables at school increases children's vegetable consumption. Lima et al. (2021) argue that the effect fades without family involvement. You gave questionnaires to 320 pupils in eight public schools and interviewed teachers and parents. You found a moderate increase in vegetable consumption, larger where families took part. State the objective, situate the study in the literature, describe the method, report the results with careful hedging and mention one limitation. End with \"palavras-chave\".",
+  prompt: "You've finished a study for a university seminar in Belo Horizonte on school vegetable gardens (\"hortas escolares\") and children's eating habits. Write its \"resumo\" (abstract) in academic Portuguese. Use these sources and data. Souza (2019) found that growing vegetables at school increases children's vegetable consumption. Lima et al. (2021) argue that the effect fades without family involvement. You gave questionnaires to 320 students in eight public schools and interviewed teachers and parents. You found a moderate increase in vegetable consumption, larger where families took part. State the objective, situate the study in the literature, describe the method, report the results with careful hedging and mention one limitation. End with \"palavras-chave\".",
   minWords: 180,
   maxWords: 300,
   rubric: [

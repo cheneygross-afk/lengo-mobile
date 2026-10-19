@@ -454,7 +454,7 @@ export const PT_A1_U02: Lesson[] = [
         heading: "T before i: tia, leite, noite",
         body: [
           "In most of Brazil, \"t\" before an i sound becomes the ch of cheese. \"Tia\" (aunt) sounds like 'CHEE-ah' and \"Tiago\" like 'chee-AH-goo'. Reading it as the t of tea is the quickest way to sound foreign.",
-          "A final unstressed \"-e\" sounds like i (Lesson 1), so a final \"-te\" turns into 'chee' as well. That's why \"leite\" (milk) sounds like 'leitchi', \"noite\" (night) like 'NOY-chee' and \"estudante\" like 'es-too-DAHN-chee'. The spelling never changes; only the sound does.",
+          "A final unstressed \"-e\" sounds like i (Lesson 1), so a final \"-te\" turns into 'chee' as well. That's why \"leite\" (milk) sounds like 'LAY-chee', \"noite\" (night) like 'NOY-chee' and \"estudante\" like 'es-too-DAHN-chee'. The spelling never changes; only the sound does.",
         ],
         examples: [
           { es: "Boa noite, tia!", en: "Good evening, auntie!" },
@@ -486,7 +486,7 @@ export const PT_A1_U02: Lesson[] = [
             en: "Coffee with [milk], please.",
             sentence: "Café com ___, por favor.",
             answer: "leite",
-            explanation: "\"Leite\" is spelled with a t but said 'leitchi': the final \"-e\" is an i sound, so the t before it becomes ch.",
+            explanation: "\"Leite\" is spelled with a t but said 'LAY-chee': the final \"-e\" is an i sound, so the t before it becomes ch.",
           },
         ],
       },
@@ -550,7 +550,7 @@ export const PT_A1_U02: Lesson[] = [
             source: "All great, thanks.",
             answer: "Tudo ótimo, obrigado.",
             altAnswers: ["Tudo ótimo, obrigada.", "Ótimo, obrigado.", "Ótimo, obrigada."],
-            explanation: "The t in \"tudo\" is plain, but in \"ótimo\" the \"ti\" is 'chee': 'OH-chee-moo'. A woman says \"obrigada\".",
+            explanation: "The t in \"tudo\" is plain, but in \"ótimo\" the \"ti\" is 'chee': 'AW-chee-moo', with the open ó of law. A woman says \"obrigada\".",
           },
           {
             type: "multiple-choice",
@@ -652,7 +652,7 @@ export const PT_A1_U02: Lesson[] = [
           { left: "verdade", right: "truth" },
           { left: "leite", right: "milk" },
         ],
-        explanation: "Every Portuguese word here has a t or d before an i sound: 'JEE-ah', 'TAR-jee', 'see-DAH-jee', 'ver-DAH-jee', 'leitchi'.",
+        explanation: "Every Portuguese word here has a t or d before an i sound: 'JEE-ah', 'TAR-jee', 'see-DAH-jee', 'ver-DAH-jee', 'LAY-chee'.",
       },
     ],
   },
@@ -749,7 +749,7 @@ export const PT_A1_U02: Lesson[] = [
       {
         heading: "R at the end of a syllable: porta, falar",
         body: [
-          "Before a consonant or at the end of a word, \"r\" depends on the region. In Rio, Salvador and Recife it's the soft h, so \"porta\" sounds like 'POH-ta' and \"tarde\" like 'TAH-dji'. Many people in São Paulo city tap it, and in the interior of São Paulo it's close to an American r.",
+          "Before a consonant or at the end of a word, \"r\" depends on the region. In Rio, Salvador and Recife it's the soft h, so \"porta\" sounds like 'PAWH-tah' and \"tarde\" like 'TAH-jee'. Many people in São Paulo city tap it, and in the interior of São Paulo it's close to an American r.",
           "At the very end of a word, especially in verbs like \"falar\", the r is often barely heard: 'fa-LAH'. Every version is correct Brazilian Portuguese. Choose one and stay consistent.",
         ],
         examples: [
@@ -920,7 +920,7 @@ export const PT_A1_U02: Lesson[] = [
         heading: "Final s: s in most of Brazil, sh in Rio",
         body: [
           "At the end of a syllable, \"s\" and \"z\" sound like s in most of Brazil: \"nós\", \"três\", \"vocês\". In Rio de Janeiro they sound like sh, so \"três\" is tresh and \"estudante\" starts with esh. Both accents are correct, and you'll hear both on Brazilian TV.",
-          "When the next word starts with a vowel, a final \"s\" joins it and becomes z everywhere in Brazil: \"somos amigos\" sounds like so-mo-za-mi-gos.",
+          "When the next word starts with a vowel, a final \"s\" joins it and becomes z everywhere in Brazil: \"somos amigos\" sounds like 'soh-moo-zah-MEE-goos'.",
         ],
         examples: [
           { es: "Nós somos estudantes.", en: "We're students." },
@@ -949,7 +949,7 @@ export const PT_A1_U02: Lesson[] = [
           {
             type: "speak",
             text: "Somos amigos.",
-            tip: "Link the final s of somos to amigos as a z: so-mo-za-mi-gos.",
+            tip: "Link the final s of somos to amigos as a z: 'soh-moo-zah-MEE-goos'.",
             explanation: "A final s before a vowel always links as z, in every Brazilian accent.",
           },
         ],
@@ -1101,7 +1101,7 @@ export const PT_A1_U02: Lesson[] = [
         heading: "LH: the lli in million",
         body: [
           "The letters \"lh\" make one sound, not an l followed by an h. It's close to the lli in million. Press the middle of your tongue flat against the roof of your mouth and say l and y at the same moment. \"Filho\" (son) sounds like FEE-lyu, never fil-ho.",
-          "The \"h\" here is never breathed out. Remember the reduced final vowel: \"trabalho\" (work) ends in a u sound. \"Mulher\" (woman) is stressed on the last syllable: mu-LYER.",
+          "The \"h\" here is never breathed out. Remember the reduced final vowel: \"trabalho\" (work) ends in a u sound. \"Mulher\" (woman) is stressed on the last syllable: 'moo-LYEHR'.",
         ],
         examples: [
           { es: "filho", en: "son" },
@@ -1118,7 +1118,7 @@ export const PT_A1_U02: Lesson[] = [
             source: "He's my son.",
             answer: "Ele é meu filho.",
             altAnswers: ["Ele é o meu filho.", "É meu filho.", "É o meu filho."],
-            explanation: "\"Filho\" is spelled with \"lh\", a single sound like the lli in million. Learn \"meu\" (my) as a chunk for now. Possessives come in Unit 7.",
+            explanation: "\"Filho\" is spelled with \"lh\", a single sound like the lli in million. Learn \"meu\" (my) as a chunk for now. Possessives come in Unit 10.",
           },
           {
             type: "speak",
@@ -1172,14 +1172,14 @@ export const PT_A1_U02: Lesson[] = [
       {
         heading: "Minimal pairs: fila or filha?",
         body: [
-          "Swap a plain l or n for \"lh\" or \"nh\" and you get a different word. \"Fila\" is a queue, but \"filha\" is a daughter. \"Mina\" is a mine, but \"minha\" means my. For the plain l and n the tongue tip touches behind the teeth. For \"lh\" and \"nh\" the middle of the tongue does the work.",
-          "Practise the pairs slowly, then faster: \"vela, velha\", \"sono, sonho\". Context usually saves you, but \"minha fila\" instead of \"minha filha\" means my queue.",
+          "Swap a plain l or n for \"lh\" or \"nh\" and you get a different word. \"Fila\" is a line (of people waiting), but \"filha\" is a daughter. \"Mina\" is a mine, but \"minha\" means my. For the plain l and n the tongue tip touches behind the teeth. For \"lh\" and \"nh\" the middle of the tongue does the work.",
+          "Practice the pairs slowly, then faster: \"vela, velha\", \"sono, sonho\". Context usually saves you, but \"minha fila\" instead of \"minha filha\" means my line.",
         ],
         examples: [
-          { es: "fila / filha", en: "queue / daughter" },
-          { es: "mina / minha", en: "mine (for minerals) / my" },
-          { es: "vela / velha", en: "candle / old" },
-          { es: "sono / sonho", en: "sleep / dream" },
+          { es: "fila, filha", en: "line (of people), daughter" },
+          { es: "mina, minha", en: "mine (for minerals), my" },
+          { es: "vela, velha", en: "candle, old" },
+          { es: "sono, sonho", en: "sleep, dream" },
           { es: "Minha filha é cozinheira.", en: "My daughter is a cook." },
         ],
         checkpoint: [
@@ -1264,17 +1264,17 @@ export const PT_A1_U02: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Are you my neighbour? (to an older woman)",
+        prompt: "Put the words in order to say: Are you my neighbor? (to an older woman)",
         words: ["A", "senhora", "é", "minha", "vizinha?"],
-        translation: "Are you my neighbour?",
-        explanation: "\"A senhora\" takes the ele/ela form \"é\". \"Vizinha\" (neighbour) has the nh sound.",
+        translation: "Are you my neighbor?",
+        explanation: "\"A senhora\" takes the ele/ela form \"é\". \"Vizinha\" (neighbor) has the nh sound.",
       },
       {
         type: "multiple-choice",
         question: "At a party in Rio, Rafael introduces his daughter. What does he say?",
         options: ["Ela é minha fila.", "Ela é minha filha.", "Ela é meu filho.", "Ela é mina filha."],
         correctIndex: 1,
-        explanation: "\"Minha filha\" (my daughter): nh in \"minha\", lh in \"filha\". \"Fila\" is a queue, and \"filho\" is a son.",
+        explanation: "\"Minha filha\" (my daughter): nh in \"minha\", lh in \"filha\". \"Fila\" is a line of people, and \"filho\" is a son.",
       },
       {
         type: "dictation",
@@ -1397,7 +1397,7 @@ export const PT_A1_U02: Lesson[] = [
           { es: "Como se escreve seu nome?", en: "How do you spell your name?" },
           { es: "Beatriz: bê, é, a, tê, erre, i, zê.", en: "Beatriz: B, E, A, T, R, I, Z." },
           { es: "João: jota, ó, a com til, ó.", en: "João: J, O, A with a tilde, O." },
-          { es: "Açúcar se escreve com cê-cedilha.", en: "'Açúcar' is spelled with a ç." },
+          { es: "Açúcar se escreve com cê-cedilha.", en: "Açúcar is spelled with a ç." },
         ],
         checkpoint: [
           {
@@ -1545,6 +1545,6 @@ export const PT_A1_U02_WRITING: WriteExercise = {
     "Use at least three words with written accents or a tilde, spelled correctly, such as \"é\", \"ótimo\", \"não\", \"até\" or \"amanhã\".",
     "Close with a goodbye such as \"até amanhã\", \"até logo\" or \"tchau\".",
   ],
-  modelAnswer: "Oi, pessoal! Bom dia! Meu nome é Kate. Como se escreve? K-A-T-E. Eu sou inglesa, de Manchester, e sou estudante. Não sou professora! A professora Beatriz é brasileira, de Curitiba. Ela é ótima. Até amanhã! Tchau!",
+  modelAnswer: "Oi, pessoal! Bom dia! Meu nome é Kate. Como se escreve? Cá, á, tê, é. Eu sou inglesa, de Manchester, e sou estudante. Não sou professora! A professora Beatriz é brasileira, de Curitiba. Ela é ótima. Até amanhã! Tchau!",
   explanation: "Accents change meaning here. \"É\" with an acute means 'is', while \"e\" without one means 'and'. The acute in \"ótima\" puts the stress on the first syllable and opens the o. The tilde in \"não\" and \"amanhã\" makes the vowel nasal. When you read it aloud, the final -e of \"estudante\" sounds like i and its t sounds like ch. In the grammar, jobs take no article after \"sou\". A woman says \"inglesa\" and \"brasileira\" with a small letter."
 };

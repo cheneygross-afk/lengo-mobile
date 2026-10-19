@@ -9,7 +9,7 @@ export const PT_C1_U06: Lesson[] = [
     level: "PT-C1",
     number: 1,
     title: "Grammar: Lisboa and São Paulo",
-    summary: "Recognise the grammar that separates Lisbon from São Paulo (estar a + infinitive, tu with its own verb, pronouns after the verb, the article before names) and turn a European text into Brazilian Portuguese.",
+    summary: "Recognize the grammar that separates Lisbon from São Paulo (estar a + infinitive, tu with its own verb, pronouns after the verb, the article before names) and turn a European text into Brazilian Portuguese.",
     duration: "15 min",
     sections: [
       {
@@ -178,7 +178,7 @@ export const PT_C1_U06: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "They told me the meeting had been cancelled.",
+        source: "They told me the meeting had been canceled.",
         answer: "Eles me disseram que a reunião tinha sido cancelada.",
         altAnswers: ["Me disseram que a reunião tinha sido cancelada.", "Eles me disseram que a reunião foi cancelada.", "Me disseram que a reunião foi cancelada.", "Disseram-me que a reunião tinha sido cancelada."],
         explanation: "Brazilian speech puts \"me\" before the verb, even at the start: \"Me disseram\". \"Disseram-me\" is also correct in formal Brazilian writing, and it is the everyday order in Portugal.",
@@ -265,7 +265,7 @@ export const PT_C1_U06: Lesson[] = [
     level: "PT-C1",
     number: 2,
     title: "Vocabulary: Comboio, Ecrã, Giro",
-    summary: "Recognise the high-frequency words of European Portuguese, avoid the false friends that shock Brazilians, and keep your own vocabulary Brazilian.",
+    summary: "Recognize the high-frequency words of European Portuguese, avoid the false friends that shock Brazilians, and keep your own vocabulary Brazilian.",
     duration: "15 min",
     sections: [
       {
@@ -315,14 +315,14 @@ export const PT_C1_U06: Lesson[] = [
         body: [
           "A handful of words are harmless in Portugal and loaded in Brazil. In Lisbon a \"rapariga\" is simply a girl or young woman. In much of Brazil, especially the Nordeste, the word is an insult that suggests a mistress or a prostitute. Say \"moça\" or \"garota\".",
           "\"Propina\" in Portugal is a university tuition fee, but in Brazil it's a bribe. So \"as propinas subiram\" is a story about fees in Lisbon and about corruption in Brasília. A Portuguese \"puto\" is a kid (\"os putos\" are the children). In Brazil the word is vulgar, and \"estou puto\" means I'm furious.",
-          "In Portugal you can stand in a \"bicha\" (a queue). In Brazil that word is a slur against gay men, and the queue is a \"fila\". There are smaller traps too. A Portuguese \"camisola\" is a sweater, while a Brazilian one is a nightgown. A \"fato\" in Lisbon is a suit (\"terno\"), but in Brazil \"fato\" means fact.",
+          "In Portugal you can stand in a \"bicha\" (a line). In Brazil that word is a slur against gay men, and the line is a \"fila\". There are smaller traps too. A Portuguese \"camisola\" is a sweater, while a Brazilian one is a nightgown. A \"fato\" in Lisbon is a suit (\"terno\"), but in Brazil \"fato\" means fact.",
         ],
         examples: [
-          { es: "A moça da loja foi muito simpática.", en: "The girl in the shop was very nice." },
+          { es: "A moça da loja foi muito simpática.", en: "The girl in the store was very nice." },
           { es: "As propinas da universidade vão subir.", en: "University tuition fees are going up. (Portugal)" },
           { es: "O deputado foi preso por receber propina.", en: "The congressman was arrested for taking bribes. (Brazil)" },
           { es: "As crianças estão brincando na praça.", en: "The kids are playing in the square." },
-          { es: "Havia uma bicha enorme no supermercado.", en: "There was a huge queue at the supermarket. (Portugal; Brazil: \"Tinha uma fila enorme no supermercado.\")" },
+          { es: "Havia uma bicha enorme no supermercado.", en: "There was a huge line at the supermarket. (Portugal; Brazil: \"Tinha uma fila enorme no supermercado.\")" },
           { es: "Comprei um fato para o casamento.", en: "I bought a suit for the wedding. (Portugal; Brazil: \"Comprei um terno para o casamento.\")" },
         ],
         checkpoint: [
@@ -340,7 +340,7 @@ export const PT_C1_U06: Lesson[] = [
             source: "There was a huge line at the bank. (Brazil)",
             answer: "Tinha uma fila enorme no banco.",
             altAnswers: ["Havia uma fila enorme no banco."],
-            explanation: "A queue in Brazil is \"fila\", never \"bicha\", which is a slur there. Speech says \"tinha\" for there was, and writing prefers \"havia\".",
+            explanation: "A line in Brazil is \"fila\", never \"bicha\", which is a slur there. Speech says \"tinha\" for there was, and writing prefers \"havia\".",
           },
           {
             type: "translate",
@@ -430,7 +430,7 @@ export const PT_C1_U06: Lesson[] = [
         question: "What does it mean?",
         options: ["There was a huge line at the bank.", "There was a huge line at the bakery.", "There's a huge line at the bank.", "I had a huge bill at the bank."],
         correctIndex: 0,
-        explanation: "\"Tinha\" is the spoken Brazilian there was, and \"fila\" is the queue. Portugal can also say \"bicha\", which is a slur in Brazil.",
+        explanation: "\"Tinha\" is the spoken Brazilian there was, and \"fila\" is the line. Portugal can also say \"bicha\", which is a slur in Brazil.",
       },
       {
         type: "dictation",
@@ -480,7 +480,7 @@ export const PT_C1_U06: Lesson[] = [
           { left: "suco", right: "juice" },
           { left: "celular", right: "cell phone" },
         ],
-        explanation: "These are the Brazilian words for the everyday European ones in this lesson. Recognise the European forms when you hear them, and use these yourself.",
+        explanation: "These are the Brazilian words for the everyday European ones in this lesson. Recognize the European forms when you hear them, and use these yourself.",
       },
       {
         type: "speak",
@@ -537,7 +537,7 @@ export const PT_C1_U06: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The flight to Recife was cancelled.",
+            source: "The flight to Recife was canceled.",
             answer: "O voo para Recife foi cancelado.",
             altAnswers: ["O voo pra Recife foi cancelado."],
             explanation: "\"Voo\" lost its circumflex in 2009, like \"enjoo\". The passive \"foi cancelado\" agrees with \"o voo\".",
@@ -754,7 +754,7 @@ export const PT_C1_U06: Lesson[] = [
         examples: [
           { es: "Desculpe, não entendi.", en: "Sorry, I didn't catch that. (In Lisbon the unstressed vowels nearly vanish.)" },
           { es: "O telefone não para de tocar.", en: "The phone won't stop ringing. (In Lisbon the first two vowels drop out.)" },
-          { es: "O apartamento é pequeno, mas é lindo.", en: "The flat is small, but it's lovely. (In Lisbon the first e of small almost disappears.)" },
+          { es: "O apartamento é pequeno, mas é lindo.", en: "The apartment is small, but it's lovely. (In Lisbon the first e of small almost disappears.)" },
           { es: "Vamos devagar, por favor.", en: "Let's go slowly, please. (In Lisbon slowly loses its first vowel.)" },
           { es: "Preciso de um advogado.", en: "I need a lawyer. (Many Brazilians add an extra vowel in lawyer.)" },
         ],
@@ -785,7 +785,7 @@ export const PT_C1_U06: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The flat is [small], but it's lovely.",
+            en: "The apartment is [small], but it's lovely.",
             sentence: "O apartamento é ___, mas é lindo.",
             answer: "pequeno",
             explanation: "\"Pequeno\" has three full syllables in Brazil (pe-QUE-nu). In Lisbon the first e almost disappears ('pkénu').",
@@ -842,7 +842,7 @@ export const PT_C1_U06: Lesson[] = [
       {
         heading: "The r, the l and two Lisbon vowels",
         body: [
-          "Initial \"r\" and \"rr\" in Lisbon are made at the back of the throat, a rasping sound close to the French r. In the north and in older rural speech you'll also hear a rolled r. Most Brazilians use a breathy, h-like sound, so \"rua\" and \"carro\" are still recognisable, only rougher.",
+          "Initial \"r\" and \"rr\" in Lisbon are made at the back of the throat, a rasping sound close to the French r. In the north and in older rural speech you'll also hear a rolled r. Most Brazilians use a breathy, h-like sound, so \"rua\" and \"carro\" are still recognizable, only rougher.",
           "At the end of a word, Portugal keeps the \"r\" as a clear tap, as in \"falar\" and \"mulher\". Many Brazilians soften or drop it in speech ('falá'), so the European version sounds over-careful to them. Final \"l\" works the opposite way. Brazilians turn it into a w ('Portugau', 'Brasiu'), while Portugal keeps a dark l, as in English full.",
           "Two Lisbon vowels complete the picture. \"Ei\" sounds close to 'ai', so \"leite\" is near 'laite'. Final \"-em\" sounds like 'ãi', so \"também\" is close to 'tambãi'.",
         ],
@@ -1027,7 +1027,7 @@ export const PT_C1_U06: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "My neighbour is from Cabo Verde.",
+            source: "My neighbor is from Cabo Verde.",
             answer: "Meu vizinho é de Cabo Verde.",
             altAnswers: ["Minha vizinha é de Cabo Verde.", "O meu vizinho é de Cabo Verde.", "A minha vizinha é de Cabo Verde.", "Meu vizinho é cabo-verdiano.", "Minha vizinha é cabo-verdiana."],
             explanation: "\"Cabo Verde\" takes no article, so it's \"de Cabo Verde\", not \"do Cabo Verde\". The nationality is \"cabo-verdiano\" / \"cabo-verdiana\", with a hyphen.",
@@ -1052,9 +1052,9 @@ export const PT_C1_U06: Lesson[] = [
       {
         heading: "Angola and Mozambique: Portuguese beside Bantu languages",
         body: [
-          "Angolan and Mozambican Portuguese grew up beside Bantu languages: Kimbundu and Umbundu in Angola, Emakhuwa and Changana in Mozambique. The grammar stays close to the European base, so you'll hear \"estar a\" + infinitive and \"tu\", as in the previous lessons. Contact with the Bantu languages still shows. One feature to recognise is \"lhe\" as a direct object, as in \"eu lhe vi\" where the norm has \"eu o vi\". You'll hear this in the Brazilian Northeast too.",
+          "Angolan and Mozambican Portuguese grew up beside Bantu languages: Kimbundu and Umbundu in Angola, Emakhuwa and Changana in Mozambique. The grammar stays close to the European base, so you'll hear \"estar a\" + infinitive and \"tu\", as in the previous lessons. Contact with the Bantu languages still shows. One feature to recognize is \"lhe\" as a direct object, as in \"eu lhe vi\" where the norm has \"eu o vi\". You'll hear this in the Brazilian Northeast too.",
           "You'll notice the vocabulary first. In Angola: \"kota\" (an older person, said with respect), \"mais-velho\" (an elder, also used as a title), \"candongueiro\" (Luanda's shared minibus taxi), \"bazar\" (to leave), \"kumbu\" (money). In Mozambique: \"machimbombo\" (a bus), \"chapa\" (a minibus taxi), \"maningue\" (a lot, very), \"machamba\" (a family farm plot).",
-          "Learn these words to recognise them. In Brazil, keep saying \"ônibus\" and \"muito\". They aren't mistakes either: Luanda and Maputo have their own norms, just as São Paulo does.",
+          "Learn these words to recognize them. In Brazil, keep saying \"ônibus\" and \"muito\". They aren't mistakes either: Luanda and Maputo have their own norms, just as São Paulo does.",
         ],
         examples: [
           { es: "Em Luanda, as pessoas chamam um senhor mais velho de kota.", en: "In Luanda, people call an older man a kota." },
@@ -1214,7 +1214,7 @@ export const PT_C1_U06: Lesson[] = [
           { left: "morabeza", right: "warm hospitality (Cabo Verde)" },
           { left: "obrigadu", right: "thank you (Tetum)" },
         ],
-        explanation: "Learn these words to recognise them. In Brazil you'd say \"ônibus\", \"muito\" and \"obrigado\".",
+        explanation: "Learn these words to recognize them. In Brazil you'd say \"ônibus\", \"muito\" and \"obrigado\".",
       },
       {
         type: "dictation",
@@ -1490,10 +1490,10 @@ export const PT_C1_U06: Lesson[] = [
         audio: "Estamos vendo um filme.",
         question: "What does it mean?",
         options: [
-          "We're watching a film.",
-          "We're going to watch a film.",
-          "We watched a film.",
-          "We want to see a film.",
+          "We're watching a movie.",
+          "We're going to watch a movie.",
+          "We watched a movie.",
+          "We want to see a movie.",
         ],
         correctIndex: 0,
         explanation: "\"Estamos vendo\" is the Brazilian progressive; the European version is \"estamos a ver\". It is not a future, which would be \"vamos ver\".",
@@ -2008,7 +2008,7 @@ export const PT_C1_U06: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My name is Rafael and I work at reception.",
+        source: "My name is Rafael and I work at the front desk.",
         answer: "Eu me chamo Rafael e trabalho na recepção.",
         altAnswers: ["Meu nome é Rafael e trabalho na recepção.", "Me chamo Rafael e trabalho na recepção.", "Meu nome é Rafael e eu trabalho na recepção.", "Eu me chamo Rafael e eu trabalho na recepção."],
         explanation: "There are two European slips to avoid here. \"Chamo-me\" puts the pronoun after the verb, and \"receção\" is the European spelling. In Brazil it's \"Eu me chamo\" and \"recepção\".",
@@ -2085,7 +2085,7 @@ export const PT_C1_U06: Lesson[] = [
         heading: "Pass 1: The grammar layer",
         body: [
           "Adapting is not translating. The facts, the structure and the tone of the article stay; you change only what a Brazilian reader would stumble over. Work in three passes: grammar, then vocabulary and spelling, then references. In the grammar pass, \"estar a\" + infinitive becomes the gerund (\"estão a negociar\" → \"estão negociando\"), and a reader addressed as \"tu\" becomes \"você\".",
-          "Check the neighbouring constructions too. \"Continuar a\", \"ficar a\" and \"andar a\" + infinitive sound European; Brazilians say \"continuam subindo\" and \"ficou olhando\". Don't over-correct, though: \"começar a\", \"voltar a\" and \"aprender a\" are Brazilian as well.",
+          "Check the neighboring constructions too. \"Continuar a\", \"ficar a\" and \"andar a\" + infinitive sound European; Brazilians say \"continuam subindo\" and \"ficou olhando\". Don't over-correct, though: \"começar a\", \"voltar a\" and \"aprender a\" are Brazilian as well.",
           "Pronouns are the last grammar check. Ênclise in the middle of a sentence (\"os moradores queixam-se\", \"o ministro disse-lhes\") reads as European. Brazilian newsrooms put the pronoun first (\"os moradores se queixam\") or replace it with a noun (\"disse aos jornalistas\"). Ênclise at the very start of a sentence, as in \"Trata-se de...\", is standard in Brazilian writing too.",
         ],
         examples: [
@@ -2143,7 +2143,7 @@ export const PT_C1_U06: Lesson[] = [
           { es: "O trem para Sintra atrasou quarenta minutos.", en: "The train to Sintra was forty minutes late." },
           { es: "A equipe atendeu mais de cem pacientes no pronto-socorro.", en: "The team saw over a hundred patients in the emergency room." },
           { es: "O crescimento econômico ficou abaixo do previsto.", en: "Economic growth came in below forecast." },
-          { es: "A recepção do hotel funciona vinte e quatro horas.", en: "The hotel reception is open 24 hours." },
+          { es: "A recepção do hotel funciona vinte e quatro horas.", en: "The hotel front desk is open 24 hours." },
           { es: "Muitos estudantes passam horas na frente da tela do celular.", en: "Many students spend hours in front of their phone screens." },
           { es: "O debate sobre igualdade de gênero chegou às escolas.", en: "The debate on gender equality has reached the schools." },
         ],
@@ -2151,7 +2151,7 @@ export const PT_C1_U06: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The [train] to Porto was cancelled.",
+            en: "The [train] to Porto was canceled.",
             sentence: "O ___ para o Porto foi cancelado.",
             answer: "trem",
             explanation: "The European \"comboio\" is \"trem\" in Brazil. \"O Porto\" keeps its article in both varieties.",
@@ -2178,7 +2178,7 @@ export const PT_C1_U06: Lesson[] = [
           "Finally, read the text the way a Brazilian would. If a sentence only works in Lisbon, such as a local idiom or a joke about a local habit, rewrite the idea rather than the words. Change the variety, never the voice: a formal statement stays formal, and slang added to sound Brazilian is a new error.",
         ],
         examples: [
-          { es: "O prefeito de Lisboa anunciou novas ciclovias.", en: "The mayor of Lisbon announced new cycle lanes." },
+          { es: "O prefeito de Lisboa anunciou novas ciclovias.", en: "The mayor of Lisbon announced new bike lanes." },
           { es: "A Câmara Municipal de Lisboa, equivalente à prefeitura, aprovou o projeto.", en: "Lisbon City Hall approved the project." },
           { es: "O SNS, o sistema público de saúde de Portugal, ampliou o horário de atendimento.", en: "The SNS, Portugal's public health service, extended its opening hours." },
           { es: "O aluguel médio em Lisboa já passa de 1.500 euros.", en: "Average rent in Lisbon is now over 1,500 euros." },
@@ -2348,7 +2348,7 @@ export const PT_C1_U06: Lesson[] = [
           { es: "Você vai à praia amanhã?", en: "Are you going to the beach tomorrow? (you with the he/she verb form)" },
           { es: "Me diz a verdade.", en: "Tell me the truth. (pronoun first, even at the start)" },
           { es: "Eu me chamo Inês e sou de Coimbra.", en: "My name is Inês and I'm from Coimbra." },
-          { es: "Meu carro está na oficina.", en: "My car is at the garage. (no article before the possessive)" },
+          { es: "Meu carro está na oficina.", en: "My car is at the mechanic's. (no article before the possessive)" },
           { es: "Estávamos jantando quando ele ligou.", en: "We were having dinner when he called." },
         ],
         checkpoint: [
@@ -2390,7 +2390,7 @@ export const PT_C1_U06: Lesson[] = [
           { es: "Peguei o trem para o Porto.", en: "I caught the train to Porto." },
           { es: "A tela do meu celular quebrou.", en: "My phone screen broke." },
           { es: "No café da manhã sempre tomo um suco de laranja.", en: "I always have an orange juice for breakfast." },
-          { es: "As mensalidades da faculdade subiram.", en: "University fees went up." },
+          { es: "As mensalidades da faculdade subiram.", en: "College tuition went up." },
           { es: "É um fato: o contato com a equipe foi ótimo.", en: "It's a fact: communication with the team was great." },
           { es: "Sua casa é tão linda!", en: "Your house is so lovely!" },
         ],
@@ -2496,7 +2496,7 @@ export const PT_C1_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "My son's university [fees] went up again.",
+        en: "My son's college [fees] went up again.",
         sentence: "As ___ da faculdade do meu filho subiram de novo.",
         answer: "mensalidades",
         explanation: "Brazilian private universities charge \"mensalidades\". \"Propinas\" means tuition fees in Portugal, but in Brazil \"propina\" is a bribe.",
@@ -2542,7 +2542,7 @@ export const PT_C1_U06: Lesson[] = [
           { left: "trem", right: "train" },
           { left: "tela", right: "screen" },
           { left: "café da manhã", right: "breakfast" },
-          { left: "celular", right: "mobile phone" },
+          { left: "celular", right: "cell phone" },
           { left: "mensalidade", right: "monthly tuition fee" },
           { left: "banheiro", right: "bathroom" },
         ],
@@ -2554,7 +2554,7 @@ export const PT_C1_U06: Lesson[] = [
 
 export const PT_C1_U06_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You work at the São Paulo branch of a company. The Lisbon office has sent a welcome guide, written in European Portuguese, for staff coming to a training week in Portugal. Rewrite it as an email to your Brazilian colleagues who are travelling (200-300 words). Cover arrival and transport from the airport, the hotel, the week's schedule, a contact person, and a short tip about understanding the Portuguese they'll hear in Lisbon. Adapt everything for Brazilian readers: Brazilian grammar, vocabulary and spelling only, with no European forms left in.",
+  prompt: "You work at the São Paulo branch of a company. The Lisbon office has sent a welcome guide, written in European Portuguese, for staff coming to a training week in Portugal. Rewrite it as an email to your Brazilian colleagues who are traveling (200-300 words). Cover arrival and transport from the airport, the hotel, the week's schedule, a contact person, and a short tip about understanding the Portuguese they'll hear in Lisbon. Adapt everything for Brazilian readers: Brazilian grammar, vocabulary and spelling only, with no European forms left in.",
   minWords: 200,
   maxWords: 300,
   rubric: [

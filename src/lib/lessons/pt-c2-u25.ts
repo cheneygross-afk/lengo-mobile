@@ -8,16 +8,16 @@ export const PT_C2_U25: Lesson[] = [
     slug: "c2-listening-football",
     level: "PT-C2",
     number: 1,
-    title: "Football Narration",
-    summary: "Follow a Brazilian football broadcast at full speed: the narrador's formulas, the comentarista's analysis and the metaphors that carry a goal from build-up to the scream.",
+    title: "Soccer Narration",
+    summary: "Follow a Brazilian soccer broadcast at full speed: the narrador's formulas, the comentarista's analysis and the metaphors that carry a goal from build-up to the scream.",
     duration: "18 min",
     kind: "teach",
     sections: [
       {
         heading: "Two voices: the narrador and the comentarista",
         body: [
-          "A Brazilian broadcast has a division of labour. The \"narrador\" tells you where the ball is, second by second; the \"comentarista\" explains why things are happening; the \"repórter de campo\" stands by the pitch with news from the benches. On radio the narrador never stops, because the listener can't see anything: every pass, every foul and every throw-in is said aloud, at a speed that defeats most advanced learners. TV narration is slower and leaves gaps, because the picture does the work.",
-          "The narrador's speed is manageable because so much of it is formula. The match starts with \"Bola rolando!\". Possession is \"Tocou para...\", \"Domina...\", \"Lá vai ele...\". A move down the flank is \"Abriu na direita\", a cross is \"Cruzou na área\", and the alarm before a chance is \"Olha o gol, olha o gol!\". Once you know the formulas, the only new information in each sentence is a name and a place on the pitch, and that is what your ear should hunt for.",
+          "A Brazilian broadcast has a division of labor. The \"narrador\" tells you where the ball is, second by second; the \"comentarista\" explains why things are happening; the \"repórter de campo\" stands by the field with news from the benches. On radio the narrador never stops, because the listener can't see anything: every pass, every foul and every throw-in is said aloud, at a speed that defeats most advanced learners. TV narration is slower and leaves gaps, because the picture does the work.",
+          "The narrador's speed is manageable because so much of it is formula. The match starts with \"Bola rolando!\". Possession is \"Tocou para...\", \"Domina...\", \"Lá vai ele...\". A move down the flank is \"Abriu na direita\", a cross is \"Cruzou na área\", and the alarm before a chance is \"Olha o gol, olha o gol!\". Once you know the formulas, the only new information in each sentence is a name and a place on the field, and that is what your ear should hunt for.",
           "The comentarista speaks in full, slower sentences with the vocabulary of analysis: \"O time está muito recuado\", \"Falta criatividade no meio de campo\", \"O técnico precisa mexer\". The register shift is your cue: when the voice drops and the sentences lengthen, someone is giving an opinion, not a description.",
         ],
         examples: [
@@ -63,7 +63,7 @@ export const PT_C2_U25: Lesson[] = [
       {
         heading: "The metaphors of the goal",
         body: [
-          "Brazilian football talk has a rich stock of images, and many of them have moved into daily speech. A goal \"balança a rede\" (shakes the net), or in older narration \"o barbante\" or \"o filó\". A shot into the top corner goes \"no ângulo\" or \"na gaveta\" (in the drawer). \"Bola na trave\" is a shot off the post, and in everyday life a near miss: \"Não passei no concurso, mas foi bola na trave.\"",
+          "Brazilian soccer talk has a rich stock of images, and many of them have moved into daily speech. A goal \"balança a rede\" (shakes the net), or in older narration \"o barbante\" or \"o filó\". A shot into the top corner goes \"no ângulo\" or \"na gaveta\" (in the drawer). \"Bola na trave\" is a shot off the post, and in everyday life a near miss: \"Não passei no concurso, mas foi bola na trave.\"",
           "Skills have their own nouns. A \"chapéu\" or \"lençol\" lifts the ball over an opponent's head; a \"caneta\" is a nutmeg; a \"pedalada\" is a step-over. When a goalkeeper lets in an easy shot he has taken a \"frango\" (a chicken). \"Pintou o craque\" announces that a star has arrived: a talented youngster, or a player who suddenly shows class.",
           "The grammar of these phrases is fixed, so learn them whole. \"Bater na trave\" takes \"na\", not \"a\"; \"tomar um frango\" is said of the goalkeeper; \"dar um chapéu em alguém\" and \"dar uma caneta em alguém\" take \"em\" for the victim. The mistake learners make is to translate English idioms: there is no \"meter na esquina\" for top corner.",
         ],
@@ -71,7 +71,7 @@ export const PT_C2_U25: Lesson[] = [
           { es: "Chutou forte, e a bola balançou a rede!", en: "He hit it hard, and the ball hit the back of the net!" },
           { es: "Que golaço! A bola entrou no ângulo.", en: "What a goal! It went into the top corner." },
           { es: "O goleiro tomou um frango no último minuto.", en: "The goalkeeper let in a soft goal in the last minute." },
-          { es: "Ele deu uma caneta no zagueiro e saiu na cara do gol.", en: "He nutmegged the centre-back and was through on goal." },
+          { es: "Ele deu uma caneta no zagueiro e saiu na cara do gol.", en: "He nutmegged the center-back and was through on goal." },
           { es: "Não consegui a vaga, mas foi bola na trave.", en: "I didn't get the job, but it was a near miss." },
           { es: "Pintou o craque! O garoto de dezessete anos fez mais um.", en: "A star is born! The seventeen-year-old has scored again." },
         ],
@@ -111,8 +111,8 @@ export const PT_C2_U25: Lesson[] = [
         ],
         examples: [
           { es: "Passou por um, passou por dois e bateu cruzado!", en: "Past one, past two, and he hit it across the keeper!" },
-          { es: "É gol! Gol do Corinthians, aos quarenta e três do segundo tempo!", en: "It's a goal! Corinthians score, in the 88th minute!" },
-          { es: "O Bahia vence por dois a um, nos acréscimos.", en: "Bahia lead two-one, in stoppage time." },
+          { es: "É gol! Gol do Corinthians, aos quarenta e três do segundo tempo!", en: "It's a goal! Corinthians scores, in the 88th minute!" },
+          { es: "O Bahia vence por dois a um, nos acréscimos.", en: "Bahia leads two-one, in stoppage time." },
           { es: "O camisa 10 cobrou a falta direto no ângulo.", en: "The number 10 put the free kick straight into the top corner." },
           { es: "Pênalti! O juiz não teve dúvida.", en: "Penalty! The referee had no doubt." },
         ],
@@ -126,7 +126,7 @@ export const PT_C2_U25: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Fluminense are winning two-nil, in stoppage time.",
+            source: "Fluminense is winning two-nothing, in stoppage time.",
             answer: "O Fluminense vence por dois a zero, nos acréscimos.",
             altAnswers: [
               "O Fluminense está vencendo por dois a zero, nos acréscimos.",
@@ -162,7 +162,7 @@ export const PT_C2_U25: Lesson[] = [
         source: "The ball went into the top corner.",
         answer: "A bola entrou no ângulo.",
         altAnswers: ["A bola foi no ângulo.", "A bola entrou na gaveta.", "A bola foi na gaveta."],
-        explanation: "The top corner is \"o ângulo\" or, more colourfully, \"a gaveta\".",
+        explanation: "The top corner is \"o ângulo\" or, more colorfully, \"a gaveta\".",
       },
       {
         type: "translate",
@@ -201,8 +201,8 @@ export const PT_C2_U25: Lesson[] = [
         options: [
           "A player beat two opponents, crossed, and a header went in.",
           "A player beat two opponents and shot over the bar.",
-          "Two players were booked for fouls in the box.",
-          "A cross was headed out by the defence.",
+          "Two players got yellow cards for fouls in the box.",
+          "A cross was headed out by the defense.",
         ],
         correctIndex: 0,
         explanation: "\"Passou por um, passou por dois\" is beating two players; \"cruzou na área, cabeceou\" is the cross and header, and \"é gol\" confirms it went in.",
@@ -251,21 +251,21 @@ export const PT_C2_U25: Lesson[] = [
     level: "PT-C2",
     number: 2,
     title: "Talk Radio and Call-Ins",
-    summary: "Follow listeners phoning an AM talk show: how calls open and close, how complaints are built, how the host interrupts and steers, and how to cope with accents and bad phone audio.",
+    summary: "Follow listeners phoning a talk-radio show: how calls open and close, how complaints are built, how the host interrupts and steers, and how to cope with accents and bad phone audio.",
     duration: "18 min",
     kind: "teach",
     sections: [
       {
         heading: "How a call-in works",
         body: [
-          "AM radio is still a daily habit in Brazil, especially in the morning and among older listeners and drivers. Stations like Itatiaia in Belo Horizonte, Gaúcha in Porto Alegre or Bandeirantes in São Paulo mix news, football and the voice of the \"ouvinte\" (listener), who calls in or sends an áudio to complain about a hole in the road, a late bus or a water cut.",
-          "Every call follows a script. The host opens: \"Alô, você está no ar\", \"Pode falar, ouvinte\", \"Bom dia, seu Antônio, de onde o senhor fala?\". The caller checks and greets: \"Alô, tô no ar? Bom dia, um abraço a todos aí da rádio.\" Then comes the place, because the listener is half-way through a sentence about a street you don't know: \"Aqui é do Jardim Ângela, na zona sul.\" Hearing the neighbourhood early helps you predict the complaint.",
+          "Talk radio (traditionally on AM, now mostly on FM and streaming too) is still a daily habit in Brazil, especially in the morning and among older listeners and drivers. Stations like Itatiaia in Belo Horizonte, Gaúcha in Porto Alegre or Bandeirantes in São Paulo mix news, soccer and the voice of the \"ouvinte\" (listener), who calls in or sends an áudio to complain about a hole in the road, a late bus or a water cut.",
+          "Every call follows a script. The host opens: \"Alô, você está no ar\", \"Pode falar, ouvinte\", \"Bom dia, seu Antônio, de onde o senhor fala?\". The caller checks and greets: \"Alô, tô no ar? Bom dia, um abraço a todos aí da rádio.\" Then comes the place, because the listener is halfway through a sentence about a street you don't know: \"Aqui é do Jardim Ângela, na zona sul.\" Hearing the neighborhood early helps you predict the complaint.",
           "The opening greetings are where learners lose the most time. Their only content is warmth: \"um abraço\", \"sou ouvinte há trinta anos\", \"parabéns pelo programa\". Let them go by and wait for the verb of the complaint.",
         ],
         examples: [
           { es: "Alô, você está no ar. Pode falar.", en: "Hello, you're on the air. Go ahead." },
           { es: "Bom dia, dona Cida, de onde a senhora fala?", en: "Good morning, Dona Cida, where are you calling from?" },
-          { es: "Alô, tô no ar? Bom dia, um abraço pra toda a equipe!", en: "Hello, am I on? Good morning, love to the whole team!" },
+          { es: "Alô, tô no ar? Bom dia, um abraço pra toda a equipe!", en: "Hello, am I on? Good morning, a big hello to the whole team!" },
           { es: "Eu sou ouvinte de vocês há mais de vinte anos.", en: "I've been listening to you for more than twenty years." },
           { es: "Aqui é do Barreiro, em Belo Horizonte.", en: "I'm calling from Barreiro, in Belo Horizonte." },
         ],
@@ -310,10 +310,10 @@ export const PT_C2_U25: Lesson[] = [
         ],
         examples: [
           { es: "Tem um buraco enorme na minha rua, e já faz três meses.", en: "There's a huge pothole in my street, and it's been three months." },
-          { es: "Já liguei na prefeitura, já abri protocolo, e nada.", en: "I've already called the council, I've opened a case, and nothing." },
+          { es: "Já liguei na prefeitura, já abri protocolo, e nada.", en: "I've already called City Hall, I've opened a case, and nothing." },
           { es: "Isso é um descaso com a população!", en: "This is sheer neglect of the people!" },
           { es: "O ônibus passa lá pelas seis, quando passa.", en: "The bus comes around six, when it comes at all." },
-          { es: "Bah, tchê, faz uma semana que a gente está sem água aqui.", en: "Honestly, mate, we've been without water here for a week." },
+          { es: "Bah, tchê, faz uma semana que a gente está sem água aqui.", en: "Honestly, man, we've been without water here for a week." },
           { es: "Umas quarenta famílias moram nessa rua, uai.", en: "About forty families live on this street, you know." },
         ],
         checkpoint: [
@@ -321,7 +321,7 @@ export const PT_C2_U25: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I've already called the council three times, and nothing.",
+            source: "I've already called City Hall three times, and nothing.",
             answer: "Já liguei para a prefeitura três vezes, e nada.",
             altAnswers: [
               "Eu já liguei para a prefeitura três vezes, e nada.",
@@ -330,7 +330,7 @@ export const PT_C2_U25: Lesson[] = [
               "Já liguei pra prefeitura três vezes, e nada.",
               "Já liguei três vezes para a prefeitura, e nada.",
             ],
-            explanation: "A city council is \"a prefeitura\". \"Ligar para\" is the norm; \"ligar na\" is very common in speech. The bare \"e nada\" is the typical punchline of a complaint.",
+            explanation: "City hall is \"a prefeitura\". \"Ligar para\" is the norm; \"ligar na\" is very common in speech. The bare \"e nada\" is the typical punchline of a complaint.",
           },
           {
             type: "fill-blank",
@@ -353,14 +353,14 @@ export const PT_C2_U25: Lesson[] = [
         heading: "The host takes control",
         body: [
           "Talk-radio hosts interrupt constantly, and that is part of the genre, not rudeness. Learn the signals: \"Só um minutinho\", \"Deixa eu te interromper\", \"Vamos por partes\", \"Já entendi\", \"Seu Antônio, o senhor tem trinta segundos\". \"Perfeito\" and \"certo, certo\" in rapid succession mean 'I've got it, wrap up'. The caller often keeps talking over the host, and the two voices overlap.",
-          "Then the host summarises and passes the problem on: \"Então, o problema é o seguinte...\", \"Fica aqui o recado para a prefeitura\", \"Nossa produção vai entrar em contato\". The summary is a gift: it repeats the whole complaint slowly and in standard Portuguese. If the call lost you, the summary will bring you back.",
-          "Hosts close with catchphrases and fixed formulas: \"Obrigado pela participação\", \"Um abraço, fica com Deus\", \"Bola pra frente\", \"Vamos ao intervalo\". Each station and host has favourites, and regular listeners repeat them.",
+          "Then the host summarizes and passes the problem on: \"Então, o problema é o seguinte...\", \"Fica aqui o recado para a prefeitura\", \"Nossa produção vai entrar em contato\". The summary is a gift: it repeats the whole complaint slowly and in standard Portuguese. If the call lost you, the summary will bring you back.",
+          "Hosts close with catchphrases and fixed formulas: \"Obrigado pela participação\", \"Um abraço, fica com Deus\", \"Bola pra frente\", \"Vamos ao intervalo\". Each station and host has favorites, and regular listeners repeat them.",
         ],
         examples: [
           { es: "Só um minutinho, dona Cida, deixa eu te interromper.", en: "Just a second, Dona Cida, let me stop you there." },
           { es: "Certo, certo, já entendi. Vamos por partes.", en: "Right, right, I've got it. Let's take this step by step." },
-          { es: "Então, o problema é o seguinte: falta luz no bairro desde sábado.", en: "So, the problem is this: the neighbourhood has had no electricity since Saturday." },
-          { es: "Fica aqui o recado para a prefeitura.", en: "That's the message for the council." },
+          { es: "Então, o problema é o seguinte: falta luz no bairro desde sábado.", en: "So, the problem is this: the neighborhood has had no electricity since Saturday." },
+          { es: "Fica aqui o recado para a prefeitura.", en: "That's the message for City Hall." },
           { es: "Obrigado pela participação, um abraço, fica com Deus.", en: "Thanks for calling in, all the best, God bless." },
         ],
         checkpoint: [
@@ -409,7 +409,7 @@ export const PT_C2_U25: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I've been listening to this programme for thirty years.",
+        source: "I've been listening to this program for thirty years.",
         answer: "Sou ouvinte deste programa há trinta anos.",
         altAnswers: [
           "Eu sou ouvinte deste programa há trinta anos.",
@@ -489,16 +489,16 @@ export const PT_C2_U25: Lesson[] = [
         type: "speak",
         text: "Alô, tô no ar? Bom dia, aqui é do Jardim Ângela, na zona sul.",
         tip: "Run \"tô no ar\" together: tô-nu-ar. The final o of \"no\" sounds like u.",
-        explanation: "A caller's opening: check the line, greet, and give the neighbourhood straight away.",
+        explanation: "A caller's opening: check the line, greet, and give the neighborhood straight away.",
       },
       {
         type: "multiple-choice",
         question: "The host says \"Certo, certo, perfeito\" quickly while the caller is still speaking. What is happening?",
         options: [
-          "The host is signalling that the caller should wrap up.",
+          "The host is signaling that the caller should wrap up.",
           "The host is agreeing enthusiastically with every point.",
           "The host is correcting the caller's facts.",
-          "The host is reading an advert.",
+          "The host is reading an ad.",
         ],
         correctIndex: 0,
         explanation: "Fast, repeated agreement words are a closing signal on talk radio, not real agreement. A summary or \"vamos ao intervalo\" usually follows.",
@@ -518,7 +518,7 @@ export const PT_C2_U25: Lesson[] = [
         heading: "The escalada: headlines at speed",
         body: [
           "A Brazilian telejornal opens with the \"escalada\": the anchors alternate short headline sentences, often with no article and no main verb, over dramatic music. \"Boa noite. Chuva forte deixa mortos e desabrigados no litoral paulista. Governo anuncia novo programa de habitação.\" Every headline is in the present, even when the event happened that morning. That headline present is the first thing to get used to.",
-          "Headlines compress by dropping articles and stacking nouns: \"Alta dos juros\", \"Queda no desemprego\", \"Operação contra fraude no INSS\". Your ear has to rebuild the sentence: 'interest rates are rising', 'unemployment has fallen'. Then the anchor greets again (\"Boa noite, as principais notícias desta quinta-feira\") and the first report begins. The headlines are a map of the programme: write down a keyword for each and you will know what is coming.",
+          "Headlines compress by dropping articles and stacking nouns: \"Alta dos juros\", \"Queda no desemprego\", \"Operação contra fraude no INSS\". Your ear has to rebuild the sentence: 'interest rates are rising', 'unemployment has fallen'. Then the anchor greets again (\"Boa noite, as principais notícias desta quinta-feira\") and the first report begins. The headlines are a map of the program: write down a keyword for each and you will know what is coming.",
           "Anchors read at a steady, even pace, with careful pronunciation and very few pauses. Their speech is the clearest you will hear all evening. The difficulty is density: every sentence carries a number, a place or a name.",
         ],
         examples: [
@@ -526,7 +526,7 @@ export const PT_C2_U25: Lesson[] = [
           { es: "Chuva forte deixa desabrigados no litoral paulista.", en: "Heavy rain leaves people homeless on the São Paulo coast." },
           { es: "Banco Central anuncia nova alta dos juros.", en: "The Central Bank announces another rise in interest rates." },
           { es: "Polícia faz operação contra fraude em aposentadorias.", en: "Police carry out a raid over pension fraud." },
-          { es: "Seleção estreia hoje na Copa América.", en: "Brazil play their first Copa América match today." },
+          { es: "Seleção estreia hoje na Copa América.", en: "Brazil plays its first Copa América match today." },
         ],
         checkpoint: [
           {
@@ -562,14 +562,14 @@ export const PT_C2_U25: Lesson[] = [
       {
         heading: "The reporter on location",
         body: [
-          "A report (\"reportagem\" or \"matéria\") has a fixed structure that professionals name. The \"off\" is the reporter's voice over pictures; the \"sonora\" is a soundbite from an interviewee; the \"passagem\" is the moment the reporter appears on camera; a \"link ao vivo\" is a live cross: \"Vamos agora ao vivo para Manaus, com a repórter Carla Souza.\" Each part sounds different, and recognising which you are hearing tells you whose words they are.",
+          "A report (\"reportagem\" or \"matéria\") has a fixed structure that professionals name. The \"off\" is the reporter's voice over pictures; the \"sonora\" is a soundbite from an interviewee; the \"passagem\" is the moment the reporter appears on camera; a \"link ao vivo\" is a live cross: \"Vamos agora ao vivo para Manaus, com a repórter Carla Souza.\" Each part sounds different, and recognizing which you are hearing tells you whose words they are.",
           "Reporters attribute everything: \"segundo a Defesa Civil\", \"de acordo com a polícia\", \"ainda não há informações sobre feridos\". They use the conditional and \"teria\" for unconfirmed claims: \"o motorista teria perdido o controle do carro\". That \"teria\" + past participle is the journalist's 'allegedly', and missing it changes the meaning: the fact is reported, not confirmed.",
           "Live crosses add noise, wind and the lag between studio and location. Reporters fill the lag with \"É isso mesmo, Renata\" and \"Boa noite, Renata, boa noite a todos\". The real information starts after the greeting.",
         ],
         examples: [
           { es: "Vamos agora ao vivo para Manaus, com a repórter Carla Souza.", en: "We go live now to Manaus, with our reporter Carla Souza." },
-          { es: "Segundo a Defesa Civil, quarenta famílias tiveram que deixar suas casas.", en: "According to the civil defence agency, forty families had to leave their homes." },
-          { es: "O motorista teria perdido o controle do caminhão.", en: "The driver is said to have lost control of the lorry." },
+          { es: "Segundo a Defesa Civil, quarenta famílias tiveram que deixar suas casas.", en: "According to the civil defense agency, forty families had to leave their homes." },
+          { es: "O motorista teria perdido o controle do caminhão.", en: "The driver is said to have lost control of the truck." },
           { es: "Ainda não há informações sobre feridos.", en: "There's no information yet on injuries." },
           { es: "Boa noite, Renata, boa noite a todos. Eu estou aqui na avenida principal.", en: "Good evening, Renata, good evening everyone. I'm here on the main avenue." },
         ],
@@ -637,7 +637,7 @@ export const PT_C2_U25: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese as a TV headline.",
-        source: "Government announces new housing programme.",
+        source: "Government announces new housing program.",
         answer: "Governo anuncia novo programa de habitação.",
         altAnswers: ["Governo anuncia novo programa habitacional.", "Governo anuncia novo programa de moradia."],
         explanation: "No article, present tense: the headline formula of the escalada.",
@@ -679,10 +679,10 @@ export const PT_C2_U25: Lesson[] = [
         audio: "Segundo a Defesa Civil, trinta famílias estão desabrigadas.",
         question: "What did the report say?",
         options: [
-          "Thirty families have lost their homes, according to the civil defence agency.",
+          "Thirty families have lost their homes, according to the civil defense agency.",
           "Thirty families have been temporarily moved out, according to the police.",
-          "The civil defence agency has rescued thirty people.",
-          "Thirty homes have been rebuilt by the civil defence agency.",
+          "The civil defense agency has rescued thirty people.",
+          "Thirty homes have been rebuilt by the civil defense agency.",
         ],
         correctIndex: 0,
         explanation: "\"Desabrigadas\" means they have lost their homes; \"desalojadas\" would mean only temporarily moved out. The source is the \"Defesa Civil\".",
@@ -774,7 +774,7 @@ export const PT_C2_U25: Lesson[] = [
             options: [
               "The villain caused a huge public row in the middle of the party.",
               "The villain built a little hut in the garden.",
-              "The villain organised the biggest party of the year.",
+              "The villain organized the biggest party of the year.",
               "The villain quietly left in the middle of the party.",
             ],
             correctIndex: 0,
@@ -842,7 +842,7 @@ export const PT_C2_U25: Lesson[] = [
             type: "speak",
             text: "Eu não acredito no que eu estou ouvindo!",
             tip: "Slow down, put a long pause before \"ouvindo\" and let your voice rise and shake: novela delivery.",
-            explanation: "The shock formula is said with exaggerated intonation, which is what makes it easy to recognise.",
+            explanation: "The shock formula is said with exaggerated intonation, which is what makes it easy to recognize.",
           },
         ],
       },
@@ -1005,11 +1005,11 @@ export const PT_C2_U25: Lesson[] = [
         heading: "Digressions, jokes and the way back",
         body: [
           "Podcasts wander, and the speakers mark it. Opening a digression: \"Abrindo um parêntese\", \"Só um parêntese\", \"Aliás\", \"Isso me lembra uma coisa\". Closing it: \"Fechando o parêntese\", \"Mas enfim\", \"Voltando ao assunto\", \"Onde é que eu tava?\". When you hear \"aliás\", you can relax: what follows is a side story, and \"mas enfim\" will bring you back to the main thread.",
-          "Humour depends on shared references. Regular hosts have in-jokes (\"como diria o nosso amigo...\"), mock each other (\"lá vem ele com essa história de novo\") and laugh over each other's words. Laughter often hides the punchline, but the reaction tells you a joke happened: \"Não, gente!\", \"Para!\", \"Eu não aguento\", \"Morri\". \"Para!\" here doesn't mean stop; it means 'you're killing me'.",
+          "Humor depends on shared references. Regular hosts have in-jokes (\"como diria o nosso amigo...\"), mock each other (\"lá vem ele com essa história de novo\") and laugh over each other's words. Laughter often hides the punchline, but the reaction tells you a joke happened: \"Não, gente!\", \"Para!\", \"Eu não aguento\", \"Morri\". \"Para!\" here doesn't mean stop; it means 'you're killing me'.",
           "\"Gente\" used as a vocative (\"Gente, olha isso\") addresses everyone present and the listeners too. It often opens a new topic or a moment of surprise.",
         ],
         examples: [
-          { es: "Abrindo um parêntese: eu já morei nesse bairro.", en: "Quick aside: I used to live in that neighbourhood." },
+          { es: "Abrindo um parêntese: eu já morei nesse bairro.", en: "Quick aside: I used to live in that neighborhood." },
           { es: "Mas enfim, voltando ao assunto do episódio.", en: "Anyway, back to what this episode is about." },
           { es: "Onde é que eu tava? Ah, sim, no aeroporto.", en: "Where was I? Oh yes, at the airport." },
           { es: "Para, eu não aguento! Morri com essa.", en: "Stop, I can't take it! That killed me." },
@@ -1045,7 +1045,7 @@ export const PT_C2_U25: Lesson[] = [
         body: [
           "The real listening task in a discussion podcast is mapping positions. Agreement comes in degrees: \"Concordo totalmente\", \"Concordo em partes\" (very common in Brazil, though some prefer \"em parte\"), \"Até certo ponto\", \"Faz sentido, mas...\". Disagreement is usually softened: \"Não sei se eu concordo\", \"Eu vejo de outro jeito\", \"Será?\", \"Discordo de você nisso\". A single \"será?\" with a falling tone is a polite but clear doubt.",
           "Watch for changes of position: \"Tá, você me convenceu\", \"Retiro o que eu disse\", \"Pensando bem...\". A speaker who started against an idea can end up for it by the last ten minutes, and that is often the point of the episode.",
-          "Note positions in a simple grid: each speaker's name, their view, and any shift. When summarising afterwards, use reporting verbs with care: \"o Lucas defende que...\", \"a Bia discorda e argumenta que...\", \"no fim, o Rafa admite que...\". These carry the attitude better than a repeated \"disse\".",
+          "Note positions in a simple grid: each speaker's name, their view, and any shift. When summarizing afterwards, use reporting verbs with care: \"o Lucas defende que...\", \"a Bia discorda e argumenta que...\", \"no fim, o Rafa admite que...\". These carry the attitude better than a repeated \"disse\".",
         ],
         examples: [
           { es: "Concordo em partes, mas acho que você está exagerando.", en: "I partly agree, but I think you're overdoing it." },
@@ -1199,10 +1199,10 @@ export const PT_C2_U25: Lesson[] = [
         body: [
           "Brazil is one of the world's heaviest users of WhatsApp voice messages, and the \"áudio\" has become a genre with its own rules and jokes. People send áudios to family groups, to colleagues, to the plumber. Long ones are a national joke (\"o áudio de cinco minutos\"), and many people listen at double speed (\"ouvir no 2x\" or \"acelerar o áudio\"), which makes them even harder for a learner.",
           "Openings are formulaic and often apologetic: \"Oi, amiga, tudo bem? Então, é o seguinte...\", \"Desculpa mandar áudio, mas é que eu tô dirigindo\", \"Vou mandar áudio porque é muita coisa pra escrever\", \"Desculpa o áudio gigante\". \"Então, é o seguinte\" is the signal that the actual content is about to begin.",
-          "An áudio is spoken without a listener reacting, so speakers fill the silence with \"né?\", \"sabe?\", \"tipo\" and \"assim\", ask questions they then answer (\"E aí, o que que eu fiz? Liguei pra ela.\") and change plan halfway through. The background matters too: traffic, a child, a TV. People apologise for it (\"desculpa o barulho\") or comment on it.",
+          "An áudio is spoken without a listener reacting, so speakers fill the silence with \"né?\", \"sabe?\", \"tipo\" and \"assim\", ask questions they then answer (\"E aí, o que que eu fiz? Liguei pra ela.\") and change plan halfway through. The background matters too: traffic, a child, a TV. People apologize for it (\"desculpa o barulho\") or comment on it.",
         ],
         examples: [
-          { es: "Oi, amiga, tudo bem? Então, é o seguinte...", en: "Hi, love, how are you? So, here's the thing..." },
+          { es: "Oi, amiga, tudo bem? Então, é o seguinte...", en: "Hi, girl, how are you? So, here's the thing..." },
           { es: "Desculpa mandar áudio, é que eu tô dirigindo.", en: "Sorry for the voice message, it's just that I'm driving." },
           { es: "Desculpa o áudio gigante, mas é muita coisa.", en: "Sorry for the massive voice note, but there's a lot to say." },
           { es: "Eu sempre ouço os áudios do meu chefe no 2x.", en: "I always listen to my boss's voice notes at double speed." },
@@ -1223,7 +1223,7 @@ export const PT_C2_U25: Lesson[] = [
               "Desculpa o áudio, eu estou dirigindo.",
               "Desculpe o áudio, estou dirigindo.",
             ],
-            explanation: "\"Desculpa mandar áudio\" apologises for the format itself, a very Brazilian move. Driving is \"dirigir\" in Brazil.",
+            explanation: "\"Desculpa mandar áudio\" apologizes for the format itself, a very Brazilian move. Driving is \"dirigir\" in Brazil.",
           },
           {
             type: "fill-blank",
@@ -1246,7 +1246,7 @@ export const PT_C2_U25: Lesson[] = [
         examples: [
           { es: "A gente se encontra às oito, não, pera, às oito e meia.", en: "Let's meet at eight, no, wait, at half past eight." },
           { es: "Eu nunca fui lá. Não, mentira, eu fui uma vez com a Ju.", en: "I've never been there. No, actually, I went once with Ju." },
-          { es: "Compra aquele negócio, como é que fala, o papel-manteiga.", en: "Buy that thing, what's it called, baking paper." },
+          { es: "Compra aquele negócio, como é que fala, o papel-manteiga.", en: "Buy that thing, what's it called, parchment paper." },
           { es: "Na quinta, quer dizer, na sexta, porque na quinta eu trabalho.", en: "On Thursday, I mean Friday, because I'm working on Thursday." },
           { es: "Ah, e outra coisa: você pode trazer as cadeiras?", en: "Oh, and another thing: could you bring the chairs?" },
         ],
@@ -1322,7 +1322,7 @@ export const PT_C2_U25: Lesson[] = [
         source: "Sorry for the massive voice note.",
         answer: "Desculpa o áudio gigante.",
         altAnswers: ["Desculpa o áudio enorme.", "Desculpa o áudio longo.", "Desculpe o áudio gigante.", "Desculpe o áudio enorme.", "Foi mal o áudio gigante."],
-        explanation: "Apologising for length is a ritual of the genre. \"Desculpa\" is the everyday imperative; \"desculpe\" is a little more formal.",
+        explanation: "Apologizing for length is a ritual of the genre. \"Desculpa\" is the everyday imperative; \"desculpe\" is a little more formal.",
       },
       {
         type: "translate",
@@ -1347,13 +1347,13 @@ export const PT_C2_U25: Lesson[] = [
         audio: "Compra o pão, o leite e, ah, e outra coisa, passa na farmácia pra mim?",
         question: "What does the speaker ask for?",
         options: [
-          "Bread, milk, and a stop at the chemist's",
+          "Bread, milk, and a stop at the pharmacy",
           "Bread and milk only",
           "Bread, milk and some medicine for the cat",
-          "Only a stop at the chemist's",
+          "Only a stop at the pharmacy",
         ],
         correctIndex: 0,
-        explanation: "\"Ah, e outra coisa\" adds a third request: \"passa na farmácia pra mim?\" (stop at the chemist's for me).",
+        explanation: "\"Ah, e outra coisa\" adds a third request: \"passa na farmácia pra mim?\" (stop at the pharmacy for me).",
       },
       {
         type: "translate",
@@ -1372,9 +1372,9 @@ export const PT_C2_U25: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Buy that thing, what's it called, the baking paper.",
+        prompt: "Put the words in order to say: Buy that thing, what's it called, the parchment paper.",
         words: ["Compra", "aquele", "negócio,", "como é que fala,", "o", "papel-manteiga."],
-        translation: "Buy that thing, what's it called, the baking paper.",
+        translation: "Buy that thing, what's it called, the parchment paper.",
         explanation: "\"Aquele negócio\" and \"como é que fala\" fill a word search; the real word arrives at the end.",
       },
       {
@@ -1457,7 +1457,7 @@ export const PT_C2_U25: Lesson[] = [
       {
         heading: "Misheard lyrics and embromation",
         body: [
-          "Brazilians mishear their own songs all the time, and it's a favourite topic of jokes and lists online. The reasons are the ones in this course: fused syllables, homophones and word boundaries. \"A gente\" and \"agente\" sound the same; \"cem\" and \"sem\", \"conserto\" and \"concerto\", \"cela\" and \"sela\" are identical; \"de repente\" can't be heard as two words or three. A listener who doesn't know the line rebuilds it with the nearest words that make sense, often comically.",
+          "Brazilians mishear their own songs all the time, and it's a favorite topic of jokes and lists online. The reasons are the ones in this course: fused syllables, homophones and word boundaries. \"A gente\" and \"agente\" sound the same; \"cem\" and \"sem\", \"conserto\" and \"concerto\", \"cela\" and \"sela\" are identical; \"de repente\" can't be heard as two words or three. A listener who doesn't know the line rebuilds it with the nearest words that make sense, often comically.",
           "There is also a name for singing nonsense that only sounds like English: \"embromation\", a joke word built on \"embromar\" (to fake it). Generations of Brazilians have sung English pop hits in confident embromation. The phenomenon shows what your ear also does: it hears the rhythm and the vowels, and fills the gaps.",
           "To check a lyric, ask whether it fits the context of the verse. If you hear \"sem\" where \"cem\" makes better sense (\"cem anos\", a hundred years), trust the meaning. Then check a lyrics site and compare.",
         ],
@@ -1508,7 +1508,7 @@ export const PT_C2_U25: Lesson[] = [
         examples: [
           { es: "O refrão do samba-enredo é fácil de cantar.", en: "The chorus of the samba-enredo is easy to sing." },
           { es: "O puxador começou a cantar e a avenida inteira respondeu.", en: "The lead singer started and the whole parade route sang back." },
-          { es: "Esse rap fala da vida na quebrada.", en: "This rap is about life in the neighbourhood." },
+          { es: "Esse rap fala da vida na quebrada.", en: "This rap is about life in the neighborhood." },
           { es: "Hoje é dia de sofrência: só sertanejo no bar.", en: "Tonight's a night for heartbreak songs: nothing but sertanejo at the bar." },
           { es: "No forró, a sanfona, a zabumba e o triângulo não podem faltar.", en: "In forró you can't do without the accordion, the bass drum and the triangle." },
         ],
@@ -1530,7 +1530,7 @@ export const PT_C2_U25: Lesson[] = [
               { left: "puxador", right: "lead singer of a samba school" },
               { left: "sanfona", right: "accordion" },
               { left: "sofrência", right: "heartbreak songs and mood" },
-              { left: "quebrada", right: "the neighbourhood (periphery slang)" },
+              { left: "quebrada", right: "the neighborhood (periphery slang)" },
             ],
             explanation: "Genre vocabulary: \"refrão\" and \"puxador\" (samba), \"sanfona\" (forró), \"sofrência\" (sertanejo), \"quebrada\" (rap).",
           },
@@ -1613,7 +1613,7 @@ export const PT_C2_U25: Lesson[] = [
         type: "speak",
         text: "Eu sei que eu vou te amar por toda a minha vida.",
         tip: "Sing or say it smoothly: \"que eu\" becomes one syllable, queu, and \"te amar\" becomes tchamar.",
-        explanation: "Practising elision aloud trains you to hear it.",
+        explanation: "Practicing elision aloud trains you to hear it.",
       },
       {
         type: "multiple-choice",
@@ -1685,9 +1685,9 @@ export const PT_C2_U25: Lesson[] = [
           "The same \"Não acredito!\" can be delight or fury, and only the tune decides. Delight rises and opens up, often with laughter: \"Não acredito! Você veio!\" Fury hits each syllable and falls: \"Não a-cre-di-to que você fez isso.\" \"Era só o que faltava\" is almost always irritation; English speakers sometimes read it literally as something missing.",
         ],
         examples: [
-          { es: "Você tá de brincadeira! Cancelaram o voo de novo?", en: "You've got to be kidding! They've cancelled the flight again?" },
+          { es: "Você tá de brincadeira! Cancelaram o voo de novo?", en: "You've got to be kidding! They've canceled the flight again?" },
           { es: "Eu falei pra você que ia chover!", en: "I told you it was going to rain!" },
-          { es: "Era só o que faltava: o elevador quebrou.", en: "That's all we needed: the lift's broken." },
+          { es: "Era só o que faltava: o elevador quebrou.", en: "That's all we needed: the elevator's broken." },
           { es: "Não acredito! Você veio de Manaus só pra festa?", en: "No way! You came from Manaus just for the party? (delighted)" },
           { es: "Não acredito que você contou pra ela.", en: "I can't believe you told her. (angry)" },
         ],
@@ -1848,10 +1848,10 @@ export const PT_C2_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend helps you move house. You say \"Imagina!\" quickly and warmly when she apologises for being late. What have you said?",
+        question: "A friend helps you move. You say \"Imagina!\" quickly and warmly when she apologizes for being late. What have you said?",
         options: ["Don't worry about it at all.", "As if that's true!", "Imagine that!", "I can't believe it."],
         correctIndex: 0,
-        explanation: "A quick, warm \"imagina\" is the sincere 'not at all'. Only a slow, raised \"imagina...\" turns sceptical.",
+        explanation: "A quick, warm \"imagina\" is the sincere 'not at all'. Only a slow, raised \"imagina...\" turns skeptical.",
       },
     ],
   },
@@ -1860,7 +1860,7 @@ export const PT_C2_U25: Lesson[] = [
     level: "PT-C2",
     number: 9,
     title: "Dialogue Lab: A Ligação Ruim",
-    summary: "A phone call from the noisy Mercado Modelo in Salvador keeps breaking up: practise saying the line is bad, asking for exactly the part you missed, checking numbers and names, and recovering when the call drops.",
+    summary: "A phone call from the noisy Mercado Modelo in Salvador keeps breaking up: practice saying the line is bad, asking for exactly the part you missed, checking numbers and names, and recovering when the call drops.",
     duration: "16 min",
     kind: "reinforce",
     format: "Dialogue Lab",
@@ -1872,7 +1872,7 @@ export const PT_C2_U25: Lesson[] = [
           "Brazilian phone Portuguese has a set of verbs for broken audio: \"Tá cortando\" (it's cutting out), \"Tá picotando\" (it's breaking up, literally being chopped into bits), \"Tá falhando\", \"Sua voz tá sumindo\". \"Tá me ouvindo?\" checks the line. \"Tô te ouvindo mal\" (I can barely hear you) is more useful than \"não entendi\", because it blames the line, not the speaker. Note \"meu rei\": in Salvador it's an affectionate way to address a man, used by stallholders, friends and strangers alike.",
         ],
         examples: [
-          { es: "Alô? Lucas? Tá me ouvindo, meu rei?", en: "Hello? Lucas? Can you hear me, love?" },
+          { es: "Alô? Lucas? Tá me ouvindo, meu rei?", en: "Hello? Lucas? Can you hear me, my friend?" },
           { es: "Oi, Dona Neide! Tô te ouvindo mal, tá cortando.", en: "Hi, Dona Neide! I can barely hear you, it's cutting out." },
           { es: "Oxe, aqui tá um barulho danado, viu?", en: "Gosh, it's terribly noisy here, you know?" },
           { es: "Sua voz tá sumindo. A senhora pode falar mais alto?", en: "Your voice keeps fading. Could you speak up?" },
@@ -1923,7 +1923,7 @@ export const PT_C2_U25: Lesson[] = [
         heading: "Repete a última parte",
         body: [
           "A good repair asks for exactly what you missed, not the whole message. Dona Neide says: \"O berimbau tá pronto, você pode pegar amanhã depois das... [static] ...ali na entrada.\" Lucas doesn't need everything again: \"Depois das quantas?\" or \"Amanhã depois de que horas?\" An echo question with the gap filled by a question word is the most efficient repair: \"Pegar onde?\", \"Falar com quem?\". You can also ask for the end: \"Repete a última parte\", \"Não entendi o finalzinho\".",
-          "Numbers are the most fragile words on a bad line. \"Quinze\" and \"cinquenta\", \"sessenta\" and \"setenta\" collapse into each other, so check: \"Quinze ou cinquenta?\", \"Um-cinco ou cinco-zero?\". Brazilians read phone numbers in pairs or single digits and say \"meia\" (from meia dúzia, half a dozen) for six, to avoid confusing \"seis\" and \"três\". Names are spelt with \"de\": \"N de navio, E de elefante\".",
+          "Numbers are the most fragile words on a bad line. \"Quinze\" and \"cinquenta\", \"sessenta\" and \"setenta\" collapse into each other, so check: \"Quinze ou cinquenta?\", \"Um-cinco ou cinco-zero?\". Brazilians read phone numbers in pairs or single digits and say \"meia\" (from meia dúzia, half a dozen) for six, to avoid confusing \"seis\" and \"três\". Names are spelled with \"de\": \"N de navio, E de elefante\".",
         ],
         examples: [
           { es: "Desculpa, depois das quantas? Cortou.", en: "Sorry, after what time? It cut out." },
@@ -1974,7 +1974,7 @@ export const PT_C2_U25: Lesson[] = [
         heading: "Cortou: when the call drops",
         body: [
           "When the line goes, Brazilians say \"Caiu a ligação\" or simply \"Caiu\". The person who called usually calls back; if not, the next message on WhatsApp is \"Caiu aqui, vou te ligar de volta\" or \"Te ligo já já\". If the signal is hopeless, move to text: \"Me manda por mensagem\", \"Me manda a localização\", \"Vou sair daqui que o sinal tá ruim\".",
-          "Summarise before hanging up, to check you got the essentials: \"Então, só pra confirmar: amanhã, às dez, na entrada do Mercado, cento e cinquenta reais, é isso?\" The other person answers \"Isso!\" or corrects one item. \"Só pra confirmar\" is your safety net: on a bad line, never hang up without it.",
+          "Summarize before hanging up, to check you got the essentials: \"Então, só pra confirmar: amanhã, às dez, na entrada do Mercado, cento e cinquenta reais, é isso?\" The other person answers \"Isso!\" or corrects one item. \"Só pra confirmar\" is your safety net: on a bad line, never hang up without it.",
         ],
         examples: [
           { es: "Caiu a ligação. Vou ligar de volta pra ela.", en: "The call dropped. I'll call her back." },
@@ -2083,7 +2083,7 @@ export const PT_C2_U25: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese. (A stallholder in Salvador to a male customer.)",
-        source: "Your berimbau is ready, love.",
+        source: "Your berimbau is ready, my friend.",
         answer: "Seu berimbau tá pronto, meu rei.",
         altAnswers: ["O seu berimbau tá pronto, meu rei.", "Seu berimbau está pronto, meu rei.", "O seu berimbau está pronto, meu rei.", "Teu berimbau tá pronto, meu rei."],
         explanation: "\"Meu rei\" is Salvador's affectionate address for a man, from friends and strangers alike.",
@@ -2161,7 +2161,7 @@ export const PT_C2_U25: Lesson[] = [
           { es: "Ele saiu há pouco.", en: "He left a moment ago." },
           { es: "O ônibus passa daqui a dez minutos.", en: "The bus comes in ten minutes." },
           { es: "Moro em Curitiba há cinco anos.", en: "I've lived in Curitiba for five years." },
-          { es: "A farmácia fica a dois quarteirões daqui.", en: "The chemist's is two blocks from here." },
+          { es: "A farmácia fica a dois quarteirões daqui.", en: "The pharmacy is two blocks from here." },
           { es: "A gente se conheceu dez anos atrás.", en: "We met ten years ago." },
         ],
         checkpoint: [
@@ -2196,7 +2196,7 @@ export const PT_C2_U25: Lesson[] = [
           { es: "Meu celular está no conserto.", en: "My phone is being repaired." },
           { es: "Fomos a um concerto da Orquestra Sinfônica.", en: "We went to a concert by the Symphony Orchestra." },
           { es: "A próxima sessão começa às nove.", en: "The next screening starts at nine." },
-          { es: "Os vizinhos têm dois cachorros.", en: "The neighbours have two dogs." },
+          { es: "Os vizinhos têm dois cachorros.", en: "The neighbors have two dogs." },
           { es: "Ele não é mau, só dormiu mal.", en: "He's not a bad person, he just slept badly." },
         ],
         checkpoint: [
@@ -2207,7 +2207,7 @@ export const PT_C2_U25: Lesson[] = [
             source: "I took the fridge to be repaired.",
             answer: "Levei a geladeira para o conserto.",
             altAnswers: ["Eu levei a geladeira para o conserto.", "Levei a geladeira pro conserto.", "Levei a geladeira para consertar."],
-            explanation: "\"Conserto\" (from \"consertar\", to repair) is spelt with s. A \"concerto\" is music.",
+            explanation: "\"Conserto\" (from \"consertar\", to repair) is spelled with s. A \"concerto\" is music.",
           },
           {
             type: "fill-blank",
@@ -2272,11 +2272,11 @@ export const PT_C2_U25: Lesson[] = [
         options: [
           "They have a concert on Saturday.",
           "He has a repair on Saturday.",
-          "They have a repair booked on Saturday.",
+          "They had a concert last Saturday.",
           "He has a concert on Saturday.",
         ],
         correctIndex: 0,
-        explanation: "\"Eles\" makes the verb \"têm\" plural. Without the written text only context separates \"concerto\" from \"conserto\"; with a band or orchestra, it's music.",
+        explanation: "\"Eles\" makes the verb \"têm\" plural, and \"no sábado\" with the present points ahead. \"Concerto\" and \"conserto\" sound alike, so only context separates them.",
       },
       {
         type: "translate",

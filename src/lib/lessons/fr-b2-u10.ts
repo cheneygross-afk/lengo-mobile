@@ -48,7 +48,7 @@ export const FR_B2_U10: Lesson[] = [
       {
         heading: "Unit 8: artificial intelligence and society",
         body: [
-          "The AI debate: \"l'intelligence artificielle\" (feminine, often \"l'IA\"), \"un algorithme\" (masculine, no h after the t, unlike English), \"les données\" (data, feminine plural: \"les données personnelles\"), \"la vie privée\" (privacy), \"remplacer\" (to replace), \"un emploi\" (a job), \"supprimer des postes\" (to cut jobs).",
+          "The AI debate: \"l'intelligence artificielle\" (feminine, often \"l'IA\"), \"un algorithme\" (masculine; i after the r, never *\"algorythme\"), \"les données\" (data, feminine plural: \"les données personnelles\"), \"la vie privée\" (privacy), \"remplacer\" (to replace), \"un emploi\" (a job), \"supprimer des postes\" (to cut jobs).",
           "Useful verbs for a debate: \"menacer\" (to threaten), \"faciliter\" (to make easier), \"dépendre de\", \"se méfier de\" (to be wary of).",
           "False friend: \"actuellement\" means currently, not actually (which is \"en fait\"). \"Éventuellement\" means possibly, not eventually (which is \"finalement\").",
         ],
@@ -68,7 +68,7 @@ export const FR_B2_U10: Lesson[] = [
             source: "Currently, algorithms decide what we read.",
             answer: "Actuellement, les algorithmes décident de ce que nous lisons.",
             altAnswers: ["Actuellement, les algorithmes décident de ce qu'on lit.", "En ce moment, les algorithmes décident de ce que nous lisons.", "Aujourd'hui, les algorithmes décident de ce que nous lisons.", "Actuellement, les algorithmes décident ce que nous lisons."],
-            explanation: "Currently = \"actuellement\" (a false friend of actually). \"Algorithme\" has no h after the t.",
+            explanation: "Currently = \"actuellement\" (a false friend of actually). \"Algorithme\" is spelled with i after the r, like English algorithm.",
           },
           {
             type: "fill-blank",
@@ -513,7 +513,7 @@ export const FR_B2_U10: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Your friend is late. You say 'He could have missed his train' (maybe he did). Which French fits?",
-            options: ["Il a peut-être raté son train.", "Il aurait pu rater son train.", "Il aurait dû rater son train.", "Il pourrait avoir raté son train hier."],
+            options: ["Il a peut-être raté son train.", "Il aurait pu rater son train.", "Il aurait dû rater son train.", "Il devait rater son train."],
             correctIndex: 0,
             explanation: "For a guess about what happened, use \"peut-être\" (or \"il a pu rater\"). \"Il aurait pu rater\" means he nearly missed it.",
           },
@@ -523,7 +523,7 @@ export const FR_B2_U10: Lesson[] = [
         heading: "Il aurait fallu, j'aurais mieux fait de",
         body: [
           "\"Il aurait fallu\" (it would have been necessary) is the impersonal version of should have: \"Il aurait fallu partir plus tôt\" (We / one should have left earlier). With a specific person, add \"que\" + subjunctive: \"Il aurait fallu que tu me le dises\" (You should have told me).",
-          "As always after a main verb in any past form, the subjunctive is in the present for a simultaneous or later action: \"il aurait fallu qu'il vienne\", not *\"qu'il soit venu\" (though the past subjunctive is possible to stress completion: \"il aurait fallu que tout soit fini avant midi\").",
+          "As always after a main verb in any past form, the subjunctive is in the present for a simultaneous or later action: \"il aurait fallu qu'il vienne\", not usually \"qu'il soit venu\" (though the past subjunctive is possible to stress completion: \"il aurait fallu que tout soit fini avant midi\").",
           "\"J'aurais mieux fait de\" + infinitive means I'd have done better to, I'd have been better off: \"J'aurais mieux fait de me taire\" (I should have kept my mouth shut). It is very common, a bit more conversational than \"j'aurais dû\", and always implies a better alternative was available.",
         ],
         examples: [
@@ -541,7 +541,7 @@ export const FR_B2_U10: Lesson[] = [
             prompt: "Translate into French.",
             source: "I should have kept my mouth shut.",
             answer: "J'aurais mieux fait de me taire.",
-            altAnswers: ["J'aurais dû me taire.", "J'aurais mieux fait de fermer ma bouche."],
+            altAnswers: ["J'aurais dû me taire.", "J'aurais mieux fait de la fermer."],
             explanation: "\"J'aurais mieux fait de\" + infinitive: a regret that implies a better choice existed.",
           },
           {
@@ -1377,7 +1377,7 @@ export const FR_B2_U10: Lesson[] = [
             source: "If Napoleon had won at Waterloo, he would have stayed in power.",
             answer: "Si Napoléon avait gagné à Waterloo, il serait resté au pouvoir.",
             altAnswers: ["Napoléon serait resté au pouvoir s'il avait gagné à Waterloo.", "Si Napoléon avait remporté la bataille de Waterloo, il serait resté au pouvoir.", "Si Napoléon avait gagné la bataille de Waterloo, il serait resté au pouvoir."],
-            explanation: "Reverse the fact (he lost → si il avait gagné); \"rester\" takes être.",
+            explanation: "Reverse the fact (he lost → \"s'il avait gagné\"); \"rester\" takes être.",
           },
           {
             type: "fill-blank",
@@ -1394,7 +1394,7 @@ export const FR_B2_U10: Lesson[] = [
         body: [
           "French history offers many \"et si... ?\" moments. In 1791, Louis XVI tried to flee Paris and was recognised and arrested at Varennes. \"Si Louis XVI n'avait pas été reconnu à Varennes, il aurait peut-être sauvé sa tête.\"",
           "Blaise Pascal wrote in the 17th century that if Cleopatra's nose had been shorter, the whole face of the earth would have changed. His original uses old literary forms (\"s'il eût été plus court\"); today we say: \"Si le nez de Cléopâtre avait été plus court, la face du monde aurait changé.\"",
-          "Note the passive in the plus-que-parfait (\"n'avait pas été reconnu\") and the conditionnel passé of the passive (\"aurait été changé\") for events that happen to someone.",
+          "Note the passive in the plus-que-parfait (\"n'avait pas été reconnu\") and in the conditionnel passé (\"il aurait été reconnu\") for events that happen to someone.",
         ],
         examples: [
           { es: "Si Louis XVI n'avait pas été reconnu à Varennes, il aurait peut-être sauvé sa tête.", en: "If Louis XVI hadn't been recognised at Varennes, he might have saved his head." },
@@ -1814,7 +1814,7 @@ export const FR_B2_U10: Lesson[] = [
         heading: "Situations at home and at work",
         body: [
           "Read each situation and think which form fits before you answer. At home: dishes left in the sink, a forgotten anniversary, a door left open. At work: a missed deadline, a colleague who didn't pass on a message.",
-          "Remember the pronoun position: before the infinitive (\"tu aurais pu me le dire\"), never before \"aurais\" (*\"tu me l'aurais pu dire\" is old-fashioned and sounds odd today).",
+          "Remember the pronoun position: before the infinitive (\"tu aurais pu me le dire\"), not before \"aurais\" (\"tu me l'aurais pu dire\" is old-fashioned and sounds odd today).",
         ],
         examples: [
           { es: "Tu aurais pu faire la vaisselle !", en: "You could have done the washing-up!" },
@@ -2288,7 +2288,7 @@ export const FR_B2_U10: Lesson[] = [
         body: [
           "Formal: \"présenter ses excuses\" (to offer one's apologies), \"je vous prie de m'excuser\", \"veuillez nous excuser pour ce retard\". Everyday: \"je suis désolé(e)\", \"pardon\", \"excuse-moi\", \"je te demande pardon\" (stronger, heartfelt).",
           "Accepting: \"ce n'est pas grave\" (it's no big deal), \"ce n'est rien\", \"je ne t'en veux pas\", \"c'est oublié\" (let's forget it). \"Pardonner à quelqu'un\" takes à: \"je te pardonne\", \"elle lui a pardonné\".",
-          "Trap: *\"je m'excuse\" is extremely common and accepted in speech, but purists say you can't excuse yourself; \"excusez-moi\" or \"je vous prie de m'excuser\" is safer in formal writing.",
+          "Trap: \"je m'excuse\" is extremely common and accepted in speech, but purists say you can't excuse yourself; \"excusez-moi\" or \"je vous prie de m'excuser\" is safer in formal writing.",
         ],
         examples: [
           { es: "Je tiens à vous présenter mes excuses.", en: "I'd like to offer you my apologies." },
@@ -2643,6 +2643,6 @@ export const FR_B2_U10_WRITING: WriteExercise = {
     "Makes a gentle reproach with \"tu aurais pu\" + infinitive",
     "Uses at least one past hypothetical (\"si j'avais...\", conditionnel passé) and one \"j'aurais aimé que\" + subjunctive",
   ],
-  modelAnswer: "Chère Camille,\n\nJe suis vraiment désolé pour samedi. Je n'arrive pas à croire que je t'ai laissée attendre deux heures à la gare. Je te demande pardon.\n\nVoilà ce qui s'est passé : j'avais noté ton arrivée pour dimanche dans mon agenda. J'aurais dû vérifier ton message au lieu de me fier à ma mémoire. Si j'avais relu ton texto vendredi soir, je me serais rendu compte de mon erreur et je serais venu te chercher à l'heure. J'aurais mieux fait de mettre une alarme sur mon téléphone, comme d'habitude.\n\nCela dit, tu aurais pu demander à quelqu'un de te prêter son téléphone pour m'appeler ! J'ai essayé de te joindre dix fois quand j'ai vu ton message, mais ton portable était éteint. J'aurais aimé que tu me préviennes plus tôt, je serais arrivé en vingt minutes.\n\nJe regrette sincèrement de t'avoir gâché ton arrivée. Pour me faire pardonner, je t'invite au restaurant samedi prochain, et c'est moi qui paie le taxi du retour !\n\nJ'espère que tu ne m'en veux pas trop.\n\nJe t'embrasse,\nThomas",
+  modelAnswer: "Chère Camille,\n\nJe suis vraiment désolé pour samedi. Je n'arrive pas à croire que je t'ai laissée attendre deux heures à la gare. Je te demande pardon.\n\nVoilà ce qui s'est passé : j'avais noté ton arrivée pour dimanche dans mon agenda. J'aurais dû vérifier ton message au lieu de me fier à ma mémoire. Si j'avais relu ton texto vendredi soir, je me serais rendu compte de mon erreur et je serais venu te chercher à l'heure. J'aurais mieux fait de mettre une alarme sur mon téléphone, comme d'habitude.\n\nCela dit, tu aurais pu demander à quelqu'un de te prêter son téléphone pour m'appeler ! J'ai essayé de te joindre dix fois quand j'ai vu ton message, mais ton portable était éteint. J'aurais aimé que tu me préviennes plus tôt, je serais arrivé en vingt minutes.\n\nJe regrette sincèrement d'avoir gâché ton arrivée. Pour me faire pardonner, je t'invite au restaurant samedi prochain, et c'est moi qui paie le taxi du retour !\n\nJ'espère que tu ne m'en veux pas trop.\n\nJe t'embrasse,\nThomas",
   explanation: "Regrets use \"j'aurais dû\" / \"j'aurais mieux fait de\" + plain infinitive (never *\"je devrais avoir\"); the reproach uses \"tu aurais pu\" + infinitive. The past hypothetical has the plus-que-parfait after si and the conditionnel passé in the result. \"Regretter de\" takes the past infinitive for a past action, and \"j'aurais aimé que\" is followed by the present subjunctive (\"préviennes\").",
 };

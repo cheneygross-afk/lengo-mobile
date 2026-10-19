@@ -52,7 +52,7 @@ export const FR_C1_U19: Lesson[] = [
         body: [
           "Second paragraph: \"Le succès du festival dépend sur les bénévoles, qui participent dans l'organisation depuis vingt ans. Les décisions que la mairie a pris l'an dernier ont été critiqué. Quelque soit le prix des billets, les spectateurs reviennent.\"",
           "Prepositions (Unit 9): \"dépendre de\" (not sur, a calque of depend on), \"participer à\" (not dans). Agreement: with avoir, the past participle agrees with a direct object placed before it: \"les décisions que la mairie a prises\"; with être, it agrees with the subject: \"ont été critiquées\". And \"quel que soit\" is two words, agreeing with its subject: \"quel que soit le prix\" (masculine singular); \"quelque soit\" in one word is a spelling error.",
-          "These errors are invisible to the ear (pris / prises differ, but critiqué / critiquées don't), which is why written French at Advanced requires a final proofreading pass dedicated to agreements.",
+          "These errors are often invisible to the ear (pris / prises do sound different, but critiqué / critiquées don't), which is why written French at Advanced requires a final proofreading pass dedicated to agreements.",
         ],
         examples: [
           { es: "Le succès du festival dépend des bénévoles.", en: "The festival's success depends on the volunteers." },
@@ -99,7 +99,7 @@ export const FR_C1_U19: Lesson[] = [
           { es: "C'est le seul événement qui rassemble tout le monde.", en: "It's the only event that brings everyone together." },
           { es: "Je m'en suis rendu compte l'été dernier, en assistant à un concert.", en: "I realised this last summer, while attending a concert." },
           { es: "Malgré la mauvaise météo, l'ambiance était excellente.", en: "Despite the bad weather, the atmosphere was excellent." },
-          { es: "Bien que la météo soit mauvaise, le public est venu en nombre.", en: "Although the weather is bad, the audience came in large numbers." },
+          { es: "Bien que la météo ait été mauvaise, le public est venu en nombre.", en: "Although the weather was bad, the audience came in large numbers." },
         ],
         checkpoint: [
           {
@@ -492,7 +492,7 @@ export const FR_C1_U19: Lesson[] = [
       {
         heading: "However much and whoever",
         body: [
-          "However much: French has several structures from Unit 2. With a verb: \"avoir beau\" + infinitive (\"J'ai beau expliquer, il ne comprend pas\" = however much I explain...) With an adjective: \"si / aussi / quelque\" + adjective + \"que\" + subjunctive (\"si compliqué que ce soit\" = however complicated it is). With a quantity: \"quelque\" + noun + \"que\" (\"quelques efforts que tu fasses\"), or more simply \"tu as beau faire des efforts\".",
+          "However much: French has several structures from Unit 2. With a verb: \"avoir beau\" + infinitive (\"J'ai beau expliquer, il ne comprend pas\" = however much I explain...). With an adjective: \"si / aussi / quelque\" + adjective + \"que\" + subjunctive (\"si compliqué que ce soit\" = however complicated it is). With a quantity: \"quelque\" + noun + \"que\" (\"quelques efforts que tu fasses\"), or more simply \"tu as beau faire des efforts\".",
           "Whoever: as subject of a clause, \"quiconque\" (\"Quiconque a vu ce film s'en souvient\" = whoever has seen this film remembers it) or \"celui qui\" / \"toute personne qui\". As concession (whoever it is, no matter who), \"qui que\" + subjunctive: \"Qui que vous soyez, vous devez attendre votre tour.\" Whatever likewise: \"quoi que\" + subjunctive (\"quoi qu'il dise\") vs \"quel que soit\" + noun.",
           "Wherever: \"où que\" + subjunctive (\"où que tu ailles\"). These universal formulas from Unit 1 always take the subjunctive.",
         ],
@@ -637,7 +637,7 @@ export const FR_C1_U19: Lesson[] = [
         prompt: "Translate into French.",
         source: "I'm the one who paid for the tickets.",
         answer: "C'est moi qui ai payé les billets.",
-        altAnswers: ["C'est moi qui ai payé pour les billets.", "C'est moi qui les ai payés, les billets."],
+        altAnswers: ["C'est moi qui les ai payés, les billets."],
         explanation: "\"Payer\" + direct object (no pour); in a cleft with \"moi qui\", the verb is first person: \"ai payé\".",
       },
       {
@@ -716,7 +716,7 @@ export const FR_C1_U19: Lesson[] = [
         examples: [
           { es: "C'est le meilleur livre que j'aie lu cette année.", en: "It's the best book I've read this year." },
           { es: "Il n'y a personne qui sache réparer cette machine.", en: "There's nobody who knows how to repair this machine." },
-          { es: "C'est le premier coureur qui est arrivé.", en: "He's the first runner who arrived." },
+          { es: "C'est le premier coureur qui est arrivé.", en: "He's the first runner to arrive." },
           { es: "Qu'il soit compétent, personne n'en doute.", en: "That he's competent, nobody doubts." },
           { es: "Que tu viennes ou non, on part à huit heures.", en: "Whether you come or not, we're leaving at eight." },
           { es: "Je suis ravie qu'elle soit venue.", en: "I'm delighted that she came." },
@@ -791,8 +791,7 @@ export const FR_C1_U19: Lesson[] = [
         prompt: "Translate into French.",
         source: "It's the best book I've read this year.",
         answer: "C'est le meilleur livre que j'aie lu cette année.",
-        altAnswers: ["C'est le meilleur livre que j'ai lu cette année."],
-        explanation: "Subjective superlative: past subjunctive \"j'aie lu\" is the careful choice; the indicative is common in speech.",
+        explanation: "Subjective superlative: past subjunctive \"j'aie lu\". The indicative \"j'ai lu\" is common in speech, but this challenge tests the careful written norm.",
       },
       {
         type: "translate",
@@ -800,7 +799,7 @@ export const FR_C1_U19: Lesson[] = [
         prompt: "Translate into French.",
         source: "I realised he was lying.",
         answer: "J'ai compris qu'il mentait.",
-        altAnswers: ["Je me suis rendu compte qu'il mentait.", "J'ai réalisé qu'il mentait."],
+        altAnswers: ["Je me suis rendu compte qu'il mentait."],
         explanation: "\"Comprendre que\" + indicative = to realise a fact.",
       },
       {
@@ -835,8 +834,8 @@ export const FR_C1_U19: Lesson[] = [
         prompt: "Translate into French.",
         source: "She'll probably come tomorrow.",
         answer: "Il est probable qu'elle viendra demain.",
-        altAnswers: ["Elle viendra probablement demain.", "Elle viendra sans doute demain.", "Il est probable qu'elle vienne demain."],
-        explanation: "Probability takes the indicative in the norm (\"viendra\"); the subjunctive is heard but not required.",
+        altAnswers: ["Elle viendra probablement demain.", "Elle viendra sans doute demain."],
+        explanation: "Probability takes the indicative in the norm (\"viendra\"); the subjunctive is sometimes heard but is not the standard choice.",
       },
       {
         type: "translate",
@@ -1142,7 +1141,7 @@ export const FR_C1_U19: Lesson[] = [
             prompt: "Translate into French with a participial clause.",
             source: "Having finished her studies, she went to Canada.",
             answer: "Ayant terminé ses études, elle est partie au Canada.",
-            altAnswers: ["Ayant fini ses études, elle est partie au Canada.", "Ses études terminées, elle est partie au Canada.", "Ses études finies, elle est partie au Canada.", "Après avoir terminé ses études, elle est partie au Canada."],
+            altAnswers: ["Ayant fini ses études, elle est partie au Canada.", "Ses études terminées, elle est partie au Canada.", "Ses études finies, elle est partie au Canada."],
             explanation: "\"Ayant\" + past participle marks an earlier action with the same subject as the main clause.",
           },
         ],
@@ -1359,7 +1358,7 @@ export const FR_C1_U19: Lesson[] = [
       {
         heading: "Direct speech to free indirect style",
         body: [
-          "Free indirect style (Unit 6) keeps the character's voice (exclamations, questions, words) but drops the reporting verb and shifts tenses and persons as in reported speech. Direct: Elle pensa : « Je partirai demain. Quelle folie ! Pourquoi l'ai-je cru ? » Indirect: Elle pensa qu'elle partirait le lendemain. Free indirect: \"Elle partirait demain. Quelle folie ! Pourquoi l'avait-elle cru ?\"",
+          "Free indirect style (Unit 6) keeps the character's voice (exclamations, questions, words) but drops the reporting verb and shifts tenses and persons as in reported speech. Direct: \"Elle pensa : « Je partirai demain. Quelle folie ! Pourquoi l'ai-je cru ? »\" Indirect: \"Elle pensa qu'elle partirait le lendemain.\" Free indirect: \"Elle partirait demain. Quelle folie ! Pourquoi l'avait-elle cru ?\"",
           "The ripple effects: \"je\" → \"elle\"; future → conditional (\"partirai\" → \"partirait\"); passé composé → plus-que-parfait (\"ai cru\" → \"avait cru\"); present → imperfect. But deictics like \"demain\", \"ici\", \"maintenant\" can stay in free indirect style (they stay in the character's point of view), whereas indirect speech changes them (\"le lendemain\", \"là\", \"alors\").",
           "This is the voice of Flaubert and of much modern fiction: the reader hears the character's thoughts through the narrator.",
         ],
@@ -1405,7 +1404,7 @@ export const FR_C1_U19: Lesson[] = [
         body: [
           "Switching from tu to vous changes more than the pronoun: verb endings, imperatives, possessives (\"ton / ta / tes\" → \"votre / vos\"), object pronouns (\"te\" → \"vous\"), stressed pronouns (\"toi\" → \"vous\"), and reflexives (\"tu t'assieds\" → \"vous vous asseyez\"). And when vous is polite (one person), adjectives stay singular: \"Vous êtes prête ?\" to one woman.",
           "\"Assieds-toi, je t'apporte ton café. Tu es sûre que tu ne veux pas de sucre ?\" → \"Asseyez-vous, je vous apporte votre café. Vous êtes sûre que vous ne voulez pas de sucre ?\" Count the changes: imperative and reflexive, object pronoun, possessive, verb endings, but \"sûre\" stays singular and feminine.",
-          "In the other direction, watch \"-ez\" imperatives that lose their s in the tu form: \"Mangez\" → \"Mange\" (no s for -er verbs), \"Prenez\" → \"Prends\".",
+          "In the other direction, watch the tu imperative: -er verbs have no final s (\"Mangez\" → \"Mange\"), other verbs keep it (\"Prenez\" → \"Prends\").",
         ],
         examples: [
           { es: "Assieds-toi, je t'apporte ton café.", en: "Sit down, I'll bring you your coffee. (tu)" },
@@ -1798,7 +1797,7 @@ export const FR_C1_U19: Lesson[] = [
       {
         heading: "Nouns and adjectives",
         body: [
-          "Nouns derived from verbs often keep the verb's preposition: \"la participation à\", \"la réponse à\", \"la dépendance à\" (addiction to), \"l'accès à\", \"la confiance en\" (trust in), \"l'intérêt pour\" (interest in), \"la lutte contre\" (fight against), \"l'attachement à\", \"la hausse / la baisse de\" (rise / fall in: \"une hausse de 5 %\" = by 5 %, \"la hausse des prix\" = of prices).",
+          "Nouns derived from verbs often keep the verb's preposition: \"la participation à\", \"la réponse à\", \"la dépendance à\" (addiction to), \"l'accès à\", \"la confiance en\" (trust in), \"l'intérêt pour\" (interest in), \"la lutte contre\" (fight against), \"l'attachement à\", \"la hausse / la baisse de\" (rise / fall in: \"une hausse de 5 %\" = a rise of 5%, \"la hausse des prix\" = the rise in prices).",
           "Adjectives: \"capable de\", \"fier de\", \"responsable de\", \"satisfait de\", \"sensible à\", \"favorable à\", \"opposé à\", \"prêt à\", \"apte à\", \"fort en\" (good at a subject: \"fort en maths\"), \"nul en\", \"doué pour\", \"bon en\".",
           "Proportion and frequency: \"un Français sur trois\" (one in three), \"deux fois par semaine\", \"cent euros par mois\", \"à 50 km/h\", \"augmenter de 3 %\" (by), \"passer de 10 à 12 %\".",
         ],
@@ -1986,7 +1985,7 @@ export const FR_C1_U19: Lesson[] = [
           "English uses reportedly, allegedly, is said to, according to reports; French uses the verb form alone, often reinforced by \"selon\" or \"d'après\". Translating \"le suspect aurait pris la fuite\" as 'the suspect would have fled' is a classic misreading.",
         ],
         examples: [
-          { es: "Selon les premiers éléments, le feu aurait pris dans un local technique.", en: "According to initial reports, the fire reportedly started in a technical room." },
+          { es: "Selon les premiers éléments, le feu aurait pris dans un local technique.", en: "According to initial findings, the fire is thought to have started in a technical room." },
           { es: "Aucune victime ne serait à déplorer.", en: "There are reportedly no casualties." },
           { es: "Le propriétaire aurait reçu des menaces ces dernières semaines.", en: "The owner is said to have received threats in recent weeks." },
           { es: "Le suspect aurait pris la fuite à bord d'un scooter.", en: "The suspect allegedly fled on a scooter." },
@@ -2016,7 +2015,7 @@ export const FR_C1_U19: Lesson[] = [
         heading: "The dialogue: conjecture with the future",
         body: [
           "Two colleagues, Nadia and Hugo, discuss the news at the office. \"— Tu as vu, l'entrepôt du port a brûlé. — Oui, et le patron de Karim n'est pas venu ce matin. Il aura appris la nouvelle, c'est son entrepôt. — Ah bon ? Il sera en train de parler aux assurances, alors.\"",
-          "The futur antérieur of probability (\"il aura appris\" = he must have heard) and the simple future of probability (\"il sera en train de parler\" = he's probably talking) express a guess about the present or recent past. They're common in conversation and equivalent to \"il a dû apprendre\" / \"il doit être en train de parler\". English must have / must be.",
+          "The futur antérieur of probability (\"il aura appris\" = he must have heard) and the simple future of probability (\"il sera en train de parler\" = he's probably talking) express a guess about the present or recent past. They're common in conversation and equivalent to \"il a dû apprendre\" / \"il doit être en train de parler\", English must have / must be.",
           "Don't confuse with the real future: context decides. \"Il aura fini à midi\" can be a prediction (he will have finished by noon) or a guess (he must have finished at noon); the time reference usually tells you.",
         ],
         examples: [
@@ -2233,7 +2232,7 @@ export const FR_C1_U19: Lesson[] = [
         heading: "Facts, demand and deadline",
         body: [
           "The facts: \"Ce train a été supprimé sans aucun préavis. Le train de remplacement n'est arrivé à Paris qu'à 12 h 30, soit avec plus de trois heures de retard, si bien que j'ai manqué un entretien d'embauche auquel je m'étais engagée à me présenter.\" Passive, \"ne... que\" (only), \"soit\" (i.e., that is), \"si bien que\" + indicative, a relative with \"auquel\" and a pluperfect.",
-          "The demand, with the legal basis and the subjunctive: \"Conformément à vos conditions générales et au règlement européen sur les droits des voyageurs ferroviaires, je vous demande de bien vouloir procéder au remboursement intégral de mon billet, soit 89 euros. Je souhaiterais également que vous preniez en charge les frais de taxi que j'ai dû engager, soit 45 euros.\" Note \"que j'ai dû engager\" (which I had to incur: no agreement with the participle of devoir followed by an implied infinitive).",
+          "The demand, with the legal basis and the subjunctive: \"Conformément à vos conditions générales et au règlement européen sur les droits des voyageurs ferroviaires, je vous demande de bien vouloir procéder au remboursement intégral de mon billet, soit 89 euros. Je souhaiterais également que vous preniez en charge les frais de taxi que j'ai dû engager, soit 45 euros.\" Note \"que j'ai dû engager\" (which I had to incur: \"dû\" does not agree when an infinitive follows it).",
           "The deadline: \"Bien que votre site annonce un délai de traitement de trente jours, aucune réponse ne m'est parvenue à ce jour. À défaut de règlement sous quinzaine, je me verrai contrainte de saisir le médiateur de la SNCF.\" And the closing: \"Dans l'attente de votre réponse, je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\"",
         ],
         examples: [
@@ -2545,9 +2544,9 @@ export const FR_C1_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into standard French of France: C'est plate, j'ai pas compris pantoute.",
-        source: "It's annoying, I didn't understand at all.",
+        source: "That's too bad, I didn't understand at all.",
         answer: "C'est dommage, je n'ai pas compris du tout.",
-        altAnswers: ["C'est pénible, je n'ai pas compris du tout.", "C'est embêtant, je n'ai pas compris du tout.", "C'est nul, je n'ai rien compris du tout.", "C'est dommage, je n'ai rien compris.", "C'est pénible, je n'ai rien compris.", "C'est ennuyeux, je n'ai pas compris du tout.", "C'est dommage, j'ai pas compris du tout."],
+        altAnswers: ["C'est pénible, je n'ai pas compris du tout.", "C'est embêtant, je n'ai pas compris du tout.", "C'est dommage, je n'ai rien compris.", "C'est pénible, je n'ai rien compris.", "C'est ennuyeux, je n'ai pas compris du tout.", "C'est dommage, j'ai pas compris du tout."],
         explanation: "\"C'est plate\" = it's boring / a shame; \"pantoute\" = pas du tout.",
       },
       {
@@ -2693,7 +2692,7 @@ export const FR_C1_U19: Lesson[] = [
           {
             type: "speak",
             text: "Qu'entendez-vous par là ?",
-            tip: "Liaison: \"entendez-vous\" with no break.",
+            tip: "The z of \"entendez\" is silent before vous: kan-tan-dé-vou.",
             explanation: "A useful question in the DALF oral to ask the jury to clarify.",
           },
         ],

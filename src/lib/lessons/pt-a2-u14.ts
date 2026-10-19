@@ -85,10 +85,10 @@ export const PT_A2_U14: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The neighbour [who] lives upstairs has a dog.",
+            en: "The neighbor [who] lives upstairs has a dog.",
             sentence: "O vizinho ___ mora no andar de cima tem um cachorro.",
             answer: "que",
-            explanation: "\"Que\" is the subject of \"mora\" here: the neighbour is the one who lives upstairs. It's the same \"que\" you use for things.",
+            explanation: "\"Que\" is the subject of \"mora\" here: the neighbor is the one who lives upstairs. It's the same \"que\" you use for things.",
           },
         ],
       },
@@ -362,7 +362,7 @@ export const PT_A2_U14: Lesson[] = [
           { es: "O rapaz de quem ela gosta mora em Niterói.", en: "The guy she likes lives in Niterói." },
           { es: "É a médica de quem eu preciso.", en: "She's the doctor I need." },
           { es: "A garota que eu conheci na festa é arquiteta.", en: "The girl I met at the party is an architect." },
-          { es: "Os vizinhos com quem a gente jantou são de Manaus.", en: "The neighbours we had dinner with are from Manaus." },
+          { es: "Os vizinhos com quem a gente jantou são de Manaus.", en: "The neighbors we had dinner with are from Manaus." },
           { es: "A amiga para quem eu dei o presente adorou.", en: "The friend I gave the present to loved it." },
         ],
         checkpoint: [
@@ -435,7 +435,7 @@ export const PT_A2_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The neighbours [we had dinner with] are from Manaus.",
+        en: "The neighbors [we had dinner with] are from Manaus.",
         sentence: "Os vizinhos ___ são de Manaus.",
         answer: "com quem a gente jantou",
         altAnswers: ["com quem nós jantamos", "com quem jantamos"],
@@ -597,7 +597,7 @@ export const PT_A2_U14: Lesson[] = [
           { es: "Quando eu saio do trabalho, vou para a academia.", en: "When I leave work, I go to the gym." },
           { es: "Quando eu era criança, morava em Manaus.", en: "When I was a child, I lived in Manaus." },
           { es: "Sempre tomo café antes de sair de casa.", en: "I always have coffee before I leave home." },
-          { es: "Depois de jantar, eles assistiram a um filme.", en: "After dinner, they watched a film." },
+          { es: "Depois de jantar, eles assistiram a um filme.", en: "After dinner, they watched a movie." },
           { es: "Depois que o Rafael chegou, a festa ficou melhor.", en: "After Rafael arrived, the party got better." },
         ],
         checkpoint: [
@@ -621,9 +621,9 @@ export const PT_A2_U14: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: After the film ended, we went to dinner.",
+            prompt: "Put the words in order to say: After the movie ended, we went to dinner.",
             words: ["Depois", "que", "o", "filme", "acabou,", "fomos", "jantar."],
-            translation: "After the film ended, we went to dinner.",
+            translation: "After the movie ended, we went to dinner.",
             explanation: "With a conjugated verb (\"acabou\"), after is \"depois que\". \"Depois de\" would need the infinitive.",
           },
           {
@@ -763,17 +763,17 @@ export const PT_A2_U14: Lesson[] = [
     level: "PT-A2",
     number: 4,
     title: "Renting a Place",
-    summary: "Learn the words for a Brazilian flat and its costs, and ask a landlord about the rent, the condomínio and the garage.",
+    summary: "Learn the words for a Brazilian apartment and its costs, and ask a landlord about the rent, the condomínio and the garage.",
     duration: "12 min",
     sections: [
       {
         heading: "Quarto, sala, cozinha: the rooms",
         body: [
-          "Brazilian listings count bedrooms: \"um apartamento de dois quartos\" is a two-bedroom flat. \"Quarto\" is a bedroom (it also means fourth and quarter), \"sala\" is the living room and \"cozinha\" the kitchen. A \"suíte\" is a bedroom with its own bathroom, and the \"área de serviço\" is the small laundry area most flats have.",
+          "Brazilian listings count bedrooms: \"um apartamento de dois quartos\" is a two-bedroom apartment. \"Quarto\" is a bedroom (it also means fourth and quarter), \"sala\" is the living room and \"cozinha\" the kitchen. A \"suíte\" is a bedroom with its own bathroom, and the \"área de serviço\" is the small laundry area most apartments have.",
           "\"Mobiliado\" means furnished, not mobile, and it agrees like any adjective: \"um apartamento mobiliado\", \"uma casa mobiliada\". Ask with \"ser\" about what the place is like (\"é mobiliado?\"); \"está mobiliado?\" is also heard, about its state right now.",
         ],
         examples: [
-          { es: "O apartamento tem dois quartos e uma sala grande.", en: "The flat has two bedrooms and a big living room." },
+          { es: "O apartamento tem dois quartos e uma sala grande.", en: "The apartment has two bedrooms and a big living room." },
           { es: "A cozinha é pequena, mas é nova.", en: "The kitchen is small, but it's new." },
           { es: "O quarto maior é uma suíte.", en: "The bigger bedroom has its own bathroom." },
           { es: "A casa é mobiliada?", en: "Is the house furnished?" },
@@ -810,7 +810,7 @@ export const PT_A2_U14: Lesson[] = [
         heading: "Aluguel and condomínio: what you pay",
         body: [
           "\"Alugar\" is to rent and \"o aluguel\" is the rent; the plural follows \"papel\" → \"papéis\": \"aluguéis\". Ask \"quanto é o aluguel?\" or \"quanto fica?\", and the answer is per month: \"dois mil reais por mês\".",
-          "In a flat you also pay the \"condomínio\", a monthly fee for the porter, cleaning and lifts; the word also means the building or gated complex itself. On top comes the \"IPTU\", the city property tax. Advertised rents rarely cover either, so ask \"está incluído?\".",
+          "In an apartment you also pay the \"condomínio\", a monthly fee for the doorman, cleaning and elevators; the word also means the building or gated complex itself. On top comes the \"IPTU\", the city property tax. Advertised rents rarely cover either, so ask \"está incluído?\".",
           "To sign, landlords usually want a \"fiador\" (a guarantor who owns property) or a \"caução\" (a deposit, often three months' rent). Foreigners without a \"fiador\" usually pay the \"caução\".",
         ],
         examples: [
@@ -841,7 +841,7 @@ export const PT_A2_U14: Lesson[] = [
         ],
       },
       {
-        heading: "Tem garagem?: asking about a flat",
+        heading: "Tem garagem?: asking about an apartment",
         body: [
           "Most questions are yes/no questions by intonation, built on \"tem\" for there is: \"tem garagem?\", \"tem elevador?\". A parking space in a building is a \"vaga\": \"tem vaga na garagem?\". Answer by repeating the verb: \"tem\" or \"não tem\".",
           "Open politely with \"eu queria\" or \"eu gostaria de\": \"eu queria ver o apartamento\", \"eu gostaria de marcar uma visita\". Ask about pets with \"pode ter animal?\" and about moving in with \"está disponível?\".",
@@ -897,7 +897,7 @@ export const PT_A2_U14: Lesson[] = [
         source: "Is the apartment furnished?",
         answer: "O apartamento é mobiliado?",
         altAnswers: ["O apartamento está mobiliado?"],
-        explanation: "\"Mobiliado\" agrees with \"apartamento\". \"É\" asks what kind of flat it is; \"está\" asks about its state now. Both are heard.",
+        explanation: "\"Mobiliado\" agrees with \"apartamento\". \"É\" asks what kind of apartment it is; \"está\" asks about its state now. Both are heard.",
       },
       {
         type: "translate",
@@ -958,7 +958,7 @@ export const PT_A2_U14: Lesson[] = [
           { left: "o fiador", right: "the guarantor" },
           { left: "a vaga", right: "the parking space" },
         ],
-        explanation: "The basic words of any Brazilian flat listing. \"Quarto\" is the bedroom; \"sala\" is the living room.",
+        explanation: "The basic words of any Brazilian apartment listing. \"Quarto\" is the bedroom; \"sala\" is the living room.",
       },
       {
         type: "multiple-choice",
@@ -989,19 +989,19 @@ export const PT_A2_U14: Lesson[] = [
     slug: "a2-travel",
     level: "PT-A2",
     number: 5,
-    title: "Travelling Around Brazil",
+    title: "Traveling Around Brazil",
     summary: "Buy a bus ticket at the rodoviária, check in at a pousada and ask about breakfast, Wi-Fi and departure times.",
     duration: "12 min",
     sections: [
       {
         heading: "Na rodoviária: buying a passagem",
         body: [
-          "Long trips in Brazil usually mean the ônibus, and intercity buses leave from the \"rodoviária\" (bus station). A travel ticket for a bus or a plane is a \"passagem\". For a show or a football game you buy an \"ingresso\" instead, so don't ask for a \"passagem\" at the Maracanã.",
-          "Ask with the polite \"eu queria\" and use \"para\" for the destination: \"Eu queria uma passagem para Paraty\". One way is \"só de ida\" and return is \"ida e volta\". Your seat is a \"poltrona\", and the bus leaves from a numbered \"plataforma\".",
+          "Long trips in Brazil usually mean the ônibus, and intercity buses leave from the \"rodoviária\" (bus station). A travel ticket for a bus or a plane is a \"passagem\". For a show or a soccer game you buy an \"ingresso\" instead, so don't ask for a \"passagem\" at the Maracanã.",
+          "Ask with the polite \"eu queria\" and use \"para\" for the destination: \"Eu queria uma passagem para Paraty\". One way is \"só de ida\" and round trip is \"ida e volta\". Your seat is a \"poltrona\", and the bus leaves from a numbered \"plataforma\".",
         ],
         examples: [
           { es: "Eu queria uma passagem para Paraty, por favor.", en: "I'd like a ticket to Paraty, please." },
-          { es: "É só de ida ou ida e volta?", en: "Is it one way or return?" },
+          { es: "É só de ida ou ida e volta?", en: "Is it one way or round trip?" },
           { es: "Quanto é a passagem para Curitiba?", en: "How much is the ticket to Curitiba?" },
           { es: "Tem poltrona na janela?", en: "Is there a window seat?" },
           { es: "O ônibus sai da plataforma 8.", en: "The bus leaves from platform 8." },
@@ -1011,7 +1011,7 @@ export const PT_A2_U14: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'd like a return ticket to Salvador.",
+            source: "I'd like a round-trip ticket to Salvador.",
             answer: "Eu queria uma passagem de ida e volta para Salvador.",
             altAnswers: [
               "Queria uma passagem de ida e volta para Salvador.",
@@ -1022,7 +1022,7 @@ export const PT_A2_U14: Lesson[] = [
               "Eu queria uma passagem ida e volta para Salvador.",
               "Eu queria uma passagem para Salvador de ida e volta.",
             ],
-            explanation: "A travel ticket is a \"passagem\", and return is \"de ida e volta\". The polite \"eu queria\" softens the request, and \"para\" marks the destination.",
+            explanation: "A travel ticket is a \"passagem\", and round trip is \"de ida e volta\". The polite \"eu queria\" softens the request, and \"para\" marks the destination.",
           },
           {
             type: "multiple-choice",
@@ -1193,7 +1193,7 @@ export const PT_A2_U14: Lesson[] = [
         type: "speak",
         text: "Eu fiz uma reserva em nome de Lucas Almeida.",
         prompt: "Say it in Portuguese: I made a booking under the name Lucas Almeida.",
-        tip: "The r in reserva is a quick tap, and the de sounds like 'dji'.",
+        tip: "The r at the start of \"reserva\" is the strong, breathy h-like R, and \"de\" sounds like 'dji'.",
         explanation: "\"Eu fiz uma reserva em nome de...\" is the standard check-in sentence at any pousada or hotel.",
       },
       {
@@ -1234,14 +1234,14 @@ export const PT_A2_U14: Lesson[] = [
     level: "PT-A2",
     number: 6,
     title: "Dialogue Lab: Visiting an Apartment",
-    summary: "Visit a flat in Florianópolis with its owner: say which listing you saw, ask about the rent, the building fee and what's nearby, and arrange to move in.",
+    summary: "Visit an apartment in Florianópolis with its owner: say which listing you saw, ask about the rent, the building fee and what's nearby, and arrange to move in.",
     duration: "12 min",
     sections: [
       {
         heading: "Arriving: o apartamento que eu vi no site",
         body: [
-          "You've found a flat online in Florianópolis, and the owner, Dona Cláudia, shows you round. She's older and this is business, so call her \"a senhora\" the whole time. She'll use standard commands with you: \"entre\" (come in), \"fique à vontade\" (make yourself at home).",
-          "Say which flat you mean with \"que\": \"o apartamento que eu vi no site\". English can drop that (the flat I saw), but Portuguese never drops \"que\". With a preposition, the preposition moves to the front: \"a pessoa com quem eu falei\". The sentence never ends on \"com\".",
+          "You've found an apartment online in Florianópolis, and the owner, Dona Cláudia, shows you around. She's older and this is business, so call her \"a senhora\" the whole time. She'll use standard commands with you: \"entre\" (come in), \"fique à vontade\" (make yourself at home).",
+          "Say which apartment you mean with \"que\": \"o apartamento que eu vi no site\". English can drop that (the apartment I saw), but Portuguese never drops \"que\". With a preposition, the preposition moves to the front: \"a pessoa com quem eu falei\". The sentence never ends on \"com\".",
         ],
         examples: [
           { es: "Boa tarde! Eu vim ver o apartamento que vi no site.", en: "Good afternoon! I've come to see the apartment I saw on the website." },
@@ -1395,7 +1395,7 @@ export const PT_A2_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The neighbourhood where I live now is very noisy.",
+        source: "The neighborhood where I live now is very noisy.",
         answer: "O bairro onde eu moro agora é muito barulhento.",
         altAnswers: ["O bairro onde moro agora é muito barulhento.", "O bairro em que eu moro agora é muito barulhento.", "O bairro em que moro agora é muito barulhento."],
         explanation: "\"Onde\" joins a place to the clause about it: \"o bairro onde eu moro\". \"Em que\" is the same in a more careful style.",
@@ -1455,7 +1455,7 @@ export const PT_A2_U14: Lesson[] = [
           { left: "a vaga na garagem", right: "the parking space" },
           { left: "o mercado mais perto", right: "the nearest supermarket" },
         ],
-        explanation: "These are the words you need for any flat viewing in Brazil. Always ask whether the \"condomínio\" is included in the \"aluguel\".",
+        explanation: "These are the words you need for any apartment viewing in Brazil. Always ask whether the \"condomínio\" is included in the \"aluguel\".",
       },
     ],
   },
@@ -1478,7 +1478,7 @@ export const PT_A2_U14: Lesson[] = [
           { es: "Ele disse que vem amanhã.", en: "He said he's coming tomorrow." },
           { es: "Ela não pôde vir à festa.", en: "She couldn't come to the party." },
           { es: "Quando eu era criança, eu morava em Recife.", en: "When I was a child, I lived in Recife." },
-          { es: "Eu conheci o Rafael na faculdade.", en: "I met Rafael at university." },
+          { es: "Eu conheci o Rafael na faculdade.", en: "I met Rafael at college." },
           { es: "Estava chovendo quando eu saí de casa.", en: "It was raining when I left home." },
         ],
         checkpoint: [
@@ -1511,7 +1511,7 @@ export const PT_A2_U14: Lesson[] = [
       {
         heading: "Pronouns and por / para",
         body: [
-          "In Brazil, object pronouns go before the verb: \"eu te amo\", \"ele me ligou\". \"Eu amo-te\" sounds European. \"Lhe\" means to him or to you, so \"eu lhe vi\" is wrong. Say \"eu vi ele\" in speech or \"eu o vi\" in writing. After a preposition, use \"mim\": \"o livro é para mim\", not \"para eu\".",
+          "In Brazil, object pronouns go before the verb: \"eu te amo\", \"ele me ligou\". \"Eu amo-te\" sounds European. \"Lhe\" means to him or to you, so \"eu lhe vi\" is non-standard (you may hear it in parts of the Northeast). Say \"eu vi ele\" in speech or \"eu o vi\" in writing. After a preposition, use \"mim\": \"o livro é para mim\", not \"para eu\".",
           "\"Por\" covers thanks, cause and route, and \"para\" covers purpose and destination: \"obrigado por tudo\", \"vou para Manaus para estudar\". To say how long, use \"há\" or \"faz\", not \"desde\": \"moro aqui há três anos\".",
         ],
         examples: [
@@ -1792,8 +1792,8 @@ export const PT_A2_U14: Lesson[] = [
           "Don't mix the two. \"Prezado senhor Paulo, me manda o contrato\" sounds rude, and \"Atenciosamente\" to your friend Bia sounds cold.",
         ],
         examples: [
-          { es: "Oi, Bia! Vi o apê ontem e tá ótimo!", en: "Hi Bia! I saw the flat yesterday and it's great!" },
-          { es: "Prezado senhor Paulo, eu visitei o apartamento ontem e gostei muito.", en: "Dear Mr Paulo, I visited the apartment yesterday and liked it very much." },
+          { es: "Oi, Bia! Vi o apê ontem e tá ótimo!", en: "Hi Bia! I saw the apartment yesterday and it's great!" },
+          { es: "Prezado senhor Paulo, eu visitei o apartamento ontem e gostei muito.", en: "Dear Mr. Paulo, I visited the apartment yesterday and liked it very much." },
           { es: "Me manda o contrato?", en: "Can you send me the contract? (to a friend)" },
           { es: "O senhor poderia me enviar o contrato?", en: "Could you send me the contract? (to a landlord)" },
           { es: "Eu gostaria de me mudar no dia primeiro.", en: "I would like to move in on the first." },
@@ -1802,7 +1802,7 @@ export const PT_A2_U14: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "You're emailing your landlord, Mr Paulo, to ask him to send the contract. What do you write?",
+            question: "You're emailing your landlord, Mr. Paulo, to ask him to send the contract. What do you write?",
             options: ["O senhor pode me enviar o contrato?", "Me manda o contrato, tá?", "Manda o contrato pra mim!", "Você me manda o contrato aí?"],
             correctIndex: 0,
             explanation: "To a landlord you write \"o senhor\" plus a request with \"pode\". The other options are friendly commands or casual speech, which is fine with Bia but too familiar here.",
@@ -1916,7 +1916,7 @@ export const PT_A2_U14: Lesson[] = [
       {
         type: "speak",
         text: "Bom dia, Dona Lúcia. Eu gostei muito do apartamento.",
-        prompt: "Say it in Portuguese: Good morning, Mrs Lúcia. I liked the apartment a lot.",
+        prompt: "Say it in Portuguese: Good morning, Mrs. Lúcia. I liked the apartment a lot.",
         tip: "Stress the \"Lú\" in \"Lúcia\" (LÚ-sia), and in \"gostei\" stress the ending: gos-TEI.",
         explanation: "\"Dona\" + first name is a polite way to address an older woman such as a landlady. \"Gostei muito do\" uses the contraction de + o.",
       },
@@ -1933,7 +1933,7 @@ export const PT_A2_U14: Lesson[] = [
       {
         heading: "Where you went: the opening",
         body: [
-          "Your mission is to write a message to your Brazilian friend Beatriz about a trip around the Nordeste. Open with the facts in the perfeito: where you went, who you went with and how you travelled. \"Para\" marks the destination: \"fui para Salvador\".",
+          "Your mission is to write a message to your Brazilian friend Beatriz about a trip around the Nordeste. Open with the facts in the perfeito: where you went, who you went with and how you traveled. \"Para\" marks the destination: \"fui para Salvador\".",
           "Three verbs carry most trip stories. \"Pegar\" means to take a bus or a boat. \"Chegar\" means to arrive, and its eu form is \"cheguei\". \"Ficar\" says where you stayed: \"fiquei numa pousada\". Don't use \"estar\" for staying, because \"estive em Salvador\" only says you were there.",
         ],
         examples: [
@@ -1967,7 +1967,7 @@ export const PT_A2_U14: Lesson[] = [
         heading: "What it was like: setting the scene",
         body: [
           "Description goes in the imperfeito: what the place, the weather and the people were like, as in \"a cidade era linda\" and \"fazia muito calor\". The perfeito sums up the whole trip as one finished event: \"a viagem foi incrível\".",
-          "Comparisons and \"-íssimo\" add colour, as in \"mais quente do que\" and \"baratíssima\". Use \"onde\" or \"que\" to join a detail to a noun: \"a pousada onde a gente ficou\". Watch agreement: \"as praias eram lindas\".",
+          "Comparisons and \"-íssimo\" add color, as in \"mais quente do que\" and \"baratíssima\". Use \"onde\" or \"que\" to join a detail to a noun: \"a pousada onde a gente ficou\". Watch agreement: \"as praias eram lindas\".",
         ],
         examples: [
           { es: "A cidade era linda e as ruas eram cheias de música.", en: "The city was beautiful and the streets were full of music." },
@@ -2006,7 +2006,7 @@ export const PT_A2_U14: Lesson[] = [
         examples: [
           { es: "A gente estava voltando para a pousada quando começou a chover.", en: "We were heading back to the guesthouse when it started to rain." },
           { es: "Eu ia pegar o barco das nove, mas cheguei atrasado.", en: "I was going to take the nine o'clock boat, but I got there late." },
-          { es: "Então um moço nos ajudou e nos levou de carro até o centro.", en: "Then a young man helped us and drove us to the centre." },
+          { es: "Então um moço nos ajudou e nos levou de carro até o centro.", en: "Then a young man helped us and drove us to the center." },
           { es: "No fim, foi o melhor dia da viagem.", en: "In the end, it was the best day of the trip." },
         ],
         checkpoint: [
@@ -2092,7 +2092,7 @@ export const PT_A2_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "We [stayed] at a guesthouse near the centre.",
+        en: "We [stayed] at a guesthouse near the center.",
         sentence: "A gente ___ numa pousada perto do centro.",
         answer: "ficou",
         explanation: "\"A gente\" takes the ele/ela form, so you write \"ficou\". \"Nós ficamos\" would be the other way to say it.",
@@ -2400,7 +2400,7 @@ export const PT_A2_U14: Lesson[] = [
 
 export const PT_A2_U14_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You've just moved into a rented apartment in Florianópolis. Write a message to a Brazilian friend: describe the apartment and the neighbourhood, compare it with your old place, tell what happened on moving day, and invite your friend to visit.",
+  prompt: "You've just moved into a rented apartment in Florianópolis. Write a message to a Brazilian friend: describe the apartment and the neighborhood, compare it with your old place, tell what happened on moving day, and invite your friend to visit.",
   minWords: 60,
   maxWords: 100,
   rubric: [

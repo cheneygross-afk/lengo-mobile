@@ -303,7 +303,7 @@ export const PT_A1_U07: Lesson[] = [
             question: "What does it mean?",
             options: ["His car is new.", "Her car is new.", "Your car is new.", "His car is old."],
             correctIndex: 0,
-            explanation: "\"Dele\" ends in an i sound (DÊ-li): his. \"Dela\" would be her, and \"seu carro\" would be your car.",
+            explanation: "\"Dele\" ends in an i sound ('DAY-lee'): his. \"Dela\" would be her, and \"seu carro\" would be your car.",
           },
         ],
       },
@@ -416,7 +416,7 @@ export const PT_A1_U07: Lesson[] = [
         type: "speak",
         text: "A irmã dela é engenheira.",
         prompt: "Say it in Portuguese: Her sister is an engineer.",
-        tip: "Open the e in dela (DÉ-la). In dele it's closed, with a final i sound: DÊ-li.",
+        tip: "Open the e in dela: 'DEH-lah'. In dele it's closed, with a final i sound: 'DAY-lee'.",
         explanation: "\"A irmã dela\": feminine thing, female owner. No article before \"engenheira\".",
       },
       {
@@ -670,7 +670,7 @@ export const PT_A1_U07: Lesson[] = [
         examples: [
           { es: "Tem uma farmácia aqui?", en: "Is there a pharmacy here?" },
           { es: "Tem dois bancos na avenida.", en: "There are two banks on the avenue." },
-          { es: "Não tem padaria no meu bairro.", en: "There's no bakery in my neighbourhood." },
+          { es: "Não tem padaria no meu bairro.", en: "There's no bakery in my neighborhood." },
           { es: "Tem muitos restaurantes em Salvador.", en: "There are lots of restaurants in Salvador." },
           { es: "Há um mercado na esquina.", en: "There's a market on the corner." },
           { es: "Há três hotéis no centro.", en: "There are three hotels downtown." },
@@ -696,7 +696,7 @@ export const PT_A1_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You want to know if there's a bakery in the neighbourhood. What do you ask?",
+            question: "You want to know if there's a bakery in the neighborhood. What do you ask?",
             options: ["Tem uma padaria no bairro?", "Está uma padaria no bairro?", "Têm uma padaria no bairro?", "É uma padaria no bairro?"],
             correctIndex: 0,
             explanation: "Asking whether something exists takes \"tem\". \"Está\" is for where a known thing is, and \"têm\" means they have.",
@@ -798,7 +798,7 @@ export const PT_A1_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "There's no bakery in my neighbourhood.",
+        source: "There's no bakery in my neighborhood.",
         answer: "Não tem padaria no meu bairro.",
         altAnswers: ["Não tem uma padaria no meu bairro.", "No meu bairro não tem padaria.", "Não há padaria no meu bairro.", "Não tem padaria no bairro onde eu moro."],
         explanation: "\"Não\" goes before \"tem\". After a negative, Brazilians usually drop \"uma\": \"não tem padaria\".",
@@ -870,7 +870,7 @@ export const PT_A1_U07: Lesson[] = [
         type: "speak",
         text: "Onde fica o ponto de ônibus?",
         prompt: "Say it in Portuguese: Where's the bus stop?",
-        tip: "Stress the first syllable of ônibus, with a closed ô; de sounds like dji.",
+        tip: "Stress the first syllable of ônibus, with a closed ô; de sounds like 'jee'.",
         explanation: "A particular place: \"onde fica\" + \"o ponto de ônibus\".",
       },
       {
@@ -975,7 +975,7 @@ export const PT_A1_U07: Lesson[] = [
         heading: "Meu avô, minha avó: family words",
         body: [
           "\"Meu\" / \"minha\" and \"nosso\" / \"nossa\" also match the thing owned, so with family words the relative's gender decides: \"meu avô\" (my grandfather), \"minha avó\" (my grandmother), \"nosso tio\", \"nossa tia\". The speaker's gender changes nothing.",
-          "Listen for the vowel: \"avô\" has a closed ô, like the o in go; \"avó\" an open ó, like the o in hot. Plurals add -s, and a mixed group takes the masculine: \"meus avós\" (my grandparents), \"meus pais\" (my parents).",
+          "Listen for the vowel: \"avô\" has a closed ô, like the o in go; \"avó\" an open ó, like the o in law. Plurals add -s, and a mixed group takes the masculine: \"meus avós\" (my grandparents), \"meus pais\" (my parents).",
         ],
         examples: [
           { es: "Meu avô é de Curitiba.", en: "My grandfather is from Curitiba." },
@@ -1099,7 +1099,7 @@ export const PT_A1_U07: Lesson[] = [
         type: "speak",
         text: "A irmã dele mora em Recife.",
         prompt: "Say it in Portuguese: His sister lives in Recife.",
-        tip: "Make the ã in irmã nasal, and say dele as DE-li.",
+        tip: "Make the ã in irmã nasal, and say dele as 'DAY-lee'.",
         explanation: "\"A irmã dele\": the sister is a woman, but the owner is a man, so \"dele\".",
       },
       {
@@ -1318,7 +1318,7 @@ export const PT_A1_U07: Lesson[] = [
         type: "speak",
         text: "Meu pai mora no Rio.",
         prompt: "Say it in Portuguese: My father lives in Rio.",
-        tip: "The r at the start of Rio is an h-like sound: \"Hiu\".",
+        tip: "The r at the start of Rio is an h-like sound: 'HEE-oo'.",
         explanation: "\"Meu pai\" agrees with the masculine noun, and \"no Rio\" is em + o.",
       },
     ],
@@ -1327,14 +1327,14 @@ export const PT_A1_U07: Lesson[] = [
     slug: "a1-mission-my-neighbourhood",
     level: "PT-A1",
     number: 7,
-    title: "Real-World Mission: My Family and My Neighbourhood",
-    summary: "Put Unit 7 to work: describe your family and tell a new neighbour how to walk from your home to the nearest padaria and farmácia.",
+    title: "Real-World Mission: My Family and My Neighborhood",
+    summary: "Put Unit 10 to work: describe your family and tell a new neighbor how to walk from your home to the nearest padaria and farmácia.",
     duration: "12 min",
     sections: [
       {
         heading: "Minha família: who's who",
         body: [
-          "Your mission is to write a short message to a new neighbour in Curitiba about your family and how to walk from your home to the padaria and the farmácia. For the family, \"ser\" says who people are, \"ter\" says how many and how old, and \"morar em\" says where they live.",
+          "Your mission is to write a short message to a new neighbor in Curitiba about your family and how to walk from your home to the padaria and the farmácia. For the family, \"ser\" says who people are, \"ter\" says how many and how old, and \"morar em\" says where they live.",
           "Possessives agree with the person owned, not with you: \"minha irmã\", \"meus pais\". For his and her, put \"dele\" or \"dela\" after the noun: \"o filho dela\".",
         ],
         examples: [
@@ -1356,7 +1356,7 @@ export const PT_A1_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're telling a friend about your neighbour Ana. How do you say: Her son lives in Curitiba?",
+            question: "You're telling a friend about your neighbor Ana. How do you say: Her son lives in Curitiba?",
             options: [
               "O filho dela mora em Curitiba.",
               "O filho dele mora em Curitiba.",
@@ -1387,7 +1387,7 @@ export const PT_A1_U07: Lesson[] = [
           { es: "Tem uma padaria na minha rua.", en: "There's a bakery on my street." },
           { es: "A farmácia fica perto do banco.", en: "The pharmacy is near the bank." },
           { es: "A padaria fica ao lado do mercado.", en: "The bakery is next to the supermarket." },
-          { es: "O banco fica em frente à praça.", en: "The bank is opposite the square." },
+          { es: "O banco fica em frente à praça.", en: "The bank is across from the square." },
           { es: "Minha casa fica entre a farmácia e a padaria.", en: "My house is between the pharmacy and the bakery." },
           { es: "O mercado fica longe da minha casa.", en: "The supermarket is far from my house." },
         ],
@@ -1414,25 +1414,25 @@ export const PT_A1_U07: Lesson[] = [
             audio: "Tem uma farmácia em frente à padaria.",
             question: "What does it mean?",
             options: [
-              "There's a pharmacy opposite the bakery.",
+              "There's a pharmacy across from the bakery.",
               "There's a pharmacy next to the bakery.",
-              "There's a bakery opposite the pharmacy.",
+              "There's a bakery across from the pharmacy.",
               "The pharmacy is far from the bakery.",
             ],
             correctIndex: 0,
-            explanation: "\"Tem uma farmácia\" means there's a pharmacy, and \"em frente à padaria\" means opposite the bakery. \"À\" is \"a\" + \"a\".",
+            explanation: "\"Tem uma farmácia\" means there's a pharmacy, and \"em frente à padaria\" means across from the bakery. \"À\" is \"a\" + \"a\".",
           },
         ],
       },
       {
         heading: "Como chegar: giving directions",
         body: [
-          "Brazilians give directions with plain present-tense verbs addressed to \"você\": \"você vai reto\" (you go straight on), \"você vira à direita\" (you turn right), \"vira à esquerda\" (you turn left). \"Virar\" is a regular -ar verb, so \"você vira\" works like \"você fala\".",
+          "Brazilians give directions with plain present-tense verbs addressed to \"você\": \"você vai reto\" (you go straight ahead), \"você vira à direita\" (you turn right), \"vira à esquerda\" (you turn left). \"Virar\" is a regular -ar verb, so \"você vira\" works like \"você fala\".",
           "Then say where: \"na esquina\" (at the corner), \"na primeira rua\" (at the first street), \"na segunda rua\" (the second). \"À direita\" and \"à esquerda\" always have the grave accent, because they are \"a\" + \"a\".",
           "Finish with the distance: \"é perto\", \"é longe\", \"dez minutos a pé\".",
         ],
         examples: [
-          { es: "Da minha casa, você vai reto até a esquina.", en: "From my house, you go straight on to the corner." },
+          { es: "Da minha casa, você vai reto até a esquina.", en: "From my house, you go straight ahead to the corner." },
           { es: "Na esquina, você vira à direita.", en: "At the corner, you turn right." },
           { es: "Você vira à esquerda na segunda rua.", en: "You turn left at the second street." },
           { es: "A farmácia fica à esquerda, ao lado do banco.", en: "The pharmacy is on the left, next to the bank." },
@@ -1521,7 +1521,7 @@ export const PT_A1_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "You go straight on and turn right at the second street.",
+        source: "You go straight ahead and turn right at the second street.",
         answer: "Você vai reto e vira à direita na segunda rua.",
         altAnswers: ["Vai reto e vira à direita na segunda rua.", "Você vai reto e, na segunda rua, vira à direita."],
         explanation: "Directions use the present tense: \"você vai reto\", \"vira à direita\". Don't drop the accent on \"à\".",
@@ -1558,10 +1558,10 @@ export const PT_A1_U07: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "vai reto", right: "go straight on" },
+          { left: "vai reto", right: "go straight ahead" },
           { left: "vira à esquerda", right: "turn left" },
           { left: "na esquina", right: "at the corner" },
-          { left: "em frente à praça", right: "opposite the square" },
+          { left: "em frente à praça", right: "across from the square" },
           { left: "ao lado do banco", right: "next to the bank" },
         ],
         explanation: "These are the building blocks of directions. Notice the contractions \"à\" and \"do\".",
@@ -1573,7 +1573,7 @@ export const PT_A1_U07: Lesson[] = [
     level: "PT-A1",
     number: 8,
     title: "Spiral Review: People and Places",
-    summary: "Mix family words, possessives, contractions and places around town in fresh sentences about people and neighbourhoods.",
+    summary: "Mix family words, possessives, contractions and places around town in fresh sentences about people and neighborhoods.",
     duration: "12 min",
     kind: "review",
     sections: [
@@ -1659,14 +1659,14 @@ export const PT_A1_U07: Lesson[] = [
       {
         heading: "Around town: tem, no, na, perto de",
         body: [
-          "In speech, \"tem\" means there is or there are: \"tem uma farmácia aqui perto\"; writing prefers \"há\". For where a known place is, use \"estar\": \"a farmácia está na praça\".",
+          "In speech, \"tem\" means there is or there are: \"tem uma farmácia aqui perto\"; writing prefers \"há\". For where a known place is, use \"fica\" or \"estar\": \"a farmácia fica na praça\", \"a farmácia está na praça\".",
           "\"Em\" joins articles too (\"no\", \"na\", \"nos\", \"nas\", \"num\", \"numa\"), and so does the \"de\" in \"perto de\" and \"ao lado de\": \"perto do banco\", \"ao lado da padaria\". Most cities take no article (\"em Manaus\"), but Rio is \"no Rio\".",
         ],
         examples: [
           { es: "Tem uma padaria perto da minha casa.", en: "There's a bakery near my house." },
           { es: "A farmácia está ao lado do banco.", en: "The pharmacy is next to the bank." },
           { es: "Meus pais moram no Rio.", en: "My parents live in Rio." },
-          { es: "O mercado está em frente à praça.", en: "The market is opposite the square." },
+          { es: "O mercado está em frente à praça.", en: "The market is across from the square." },
           { es: "Tem um banco na Rua Augusta.", en: "There's a bank on Rua Augusta." },
           { es: "Minha tia trabalha numa farmácia em São Paulo.", en: "My aunt works at a pharmacy in São Paulo." },
         ],
@@ -1690,10 +1690,10 @@ export const PT_A1_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A neighbour asks where the market is. It's next to the bakery. What do you say?",
+            question: "A neighbor asks where the market is. It's next to the bakery. What do you say?",
             options: ["O mercado está ao lado da padaria.", "O mercado está ao lado de a padaria.", "O mercado está ao lado do padaria.", "O mercado tem ao lado da padaria."],
             correctIndex: 0,
-            explanation: "The location of a known place takes \"estar\", and \"de\" + \"a padaria\" must join into \"da\". \"Padaria\" is feminine, so \"do\" is wrong.",
+            explanation: "The location of a known place takes \"estar\" (or \"fica\"), and \"de\" + \"a padaria\" must join into \"da\". \"Padaria\" is feminine, so \"do\" is wrong.",
           },
         ],
       },
@@ -1715,7 +1715,7 @@ export const PT_A1_U07: Lesson[] = [
         source: "Her father is from Porto Alegre.",
         answer: "O pai dela é de Porto Alegre.",
         altAnswers: ["Seu pai é de Porto Alegre.", "O seu pai é de Porto Alegre."],
-        explanation: "\"O pai dela\" is clear in speech. Origin takes \"ser de\", and Porto Alegre takes no article.",
+        explanation: "\"O pai dela\" is clear in speech; \"seu pai\" can mean her father in writing, but in conversation it sounds like your father.",
       },
       {
         type: "fill-blank",
@@ -1804,7 +1804,7 @@ export const PT_A1_U07: Lesson[] = [
 
 export const PT_A1_U07_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your new language-exchange partner in Brazil asks about your life. Write a short message describing your family and your neighbourhood: who is in your family, something about one of them, where you live, and where a place or two is near your home.",
+  prompt: "Your new language-exchange partner in Brazil asks about your life. Write a short message describing your family and your neighborhood: who is in your family, something about one of them, where you live, and where a place or two is near your home.",
   minWords: 30,
   maxWords: 60,
   rubric: [

@@ -103,7 +103,7 @@ export const FR_A2_U09: Lesson[] = [
         ],
         examples: [
           { es: "Je me brosse les dents après le petit-déjeuner.", en: "I brush my teeth after breakfast." },
-          { es: "Lave-toi les mains avant de manger !", en: "Wash your hands before eating!" },
+          { es: "Je me lave les mains avant le dîner.", en: "I wash my hands before dinner." },
           { es: "Elle se sèche les cheveux dans la salle de bains.", en: "She dries her hair in the bathroom." },
           { es: "Il se lave le visage à l'eau froide.", en: "He washes his face with cold water." },
           { es: "Les filles se brossent les cheveux.", en: "The girls are brushing their hair." },
@@ -281,10 +281,10 @@ export const FR_A2_U09: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "We're called the Martins.",
-            answer: "Nous nous appelons les Martin.",
-            altAnswers: ["On s'appelle les Martin."],
-            explanation: "\"Nous nous appelons\" has one l because the ending is pronounced. French family names don't take an -s in the plural.",
+            source: "Our surname is Martin. (literally: we are called Martin)",
+            answer: "Nous nous appelons Martin.",
+            altAnswers: ["On s'appelle Martin."],
+            explanation: "\"Nous nous appelons\" has one l because the ending is pronounced.",
           },
           {
             type: "listen-choose",
@@ -856,7 +856,7 @@ export const FR_A2_U09: Lesson[] = [
         ],
         examples: [
           { es: "Demain, je ne vais pas me lever avant dix heures.", en: "Tomorrow I'm not going to get up before ten." },
-          { es: "Ne t'inquiète pas, tu ne dois pas t'inquiéter.", en: "Don't worry, you mustn't worry." },
+          { es: "Tu ne dois pas t'inquiéter, tout va bien.", en: "You mustn't worry, everything's fine." },
           { es: "Le petit ne veut pas se coucher.", en: "The little one doesn't want to go to bed." },
           { es: "Nous ne pouvons pas nous arrêter ici.", en: "We can't stop here." },
           { es: "Vous n'allez pas vous ennuyer.", en: "You're not going to get bored." },
@@ -1267,9 +1267,9 @@ export const FR_A2_U09: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence means: Do you remember that restaurant? (to a friend)",
-            options: ["Tu te rappelles ce restaurant ?", "Tu rappelles ce restaurant ?", "Tu te rappelles de ce restaurant ?", "Tu te trompes de ce restaurant ?"],
+            options: ["Tu te rappelles ce restaurant ?", "Tu rappelles ce restaurant ?", "Tu te souviens ce restaurant ?", "Tu te trompes de ce restaurant ?"],
             correctIndex: 0,
-            explanation: "'Remember' is \"se rappeler\" + direct object. \"Tu rappelles\" alone means you call back. The \"de\" version is common in speech but not standard.",
+            explanation: "'Remember' is \"se rappeler\" + direct object. \"Tu rappelles\" alone means you call back, and \"se souvenir\" needs \"de\": \"tu te souviens de ce restaurant ?\"",
           },
           {
             type: "listen-choose",

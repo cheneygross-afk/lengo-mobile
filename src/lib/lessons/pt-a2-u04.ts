@@ -24,7 +24,7 @@ export const PT_A2_U04: Lesson[] = [
           { es: "Ela trabalhava num banco.", en: "She worked at a bank." },
           { es: "Nós falávamos inglês em casa.", en: "We spoke English at home." },
           { es: "Vocês estudavam juntos?", en: "Did you use to study together?" },
-          { es: "A gente jogava bola na rua.", en: "We used to play football in the street." },
+          { es: "A gente jogava bola na rua.", en: "We used to play soccer in the street." },
         ],
         checkpoint: [
           {
@@ -156,7 +156,7 @@ export const PT_A2_U04: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "We [used to open] the shop at eight.",
+        en: "We [used to open] the store at eight.",
         sentence: "Nós ___ a loja às oito.",
         answer: "abríamos",
         explanation: "\"Abrir\" becomes \"abríamos\" for nós. It needs the accent on í because the stress falls three syllables from the end.",
@@ -172,9 +172,9 @@ export const PT_A2_U04: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: We used to play football in the street.",
+        prompt: "Put the words in order to say: We used to play soccer in the street.",
         words: ["A", "gente", "jogava", "bola", "na", "rua."],
-        translation: "We used to play football in the street.",
+        translation: "We used to play soccer in the street.",
         explanation: "\"A gente\" takes the ele form, so it's \"jogava\", not \"jogávamos\".",
       },
       {
@@ -246,7 +246,7 @@ export const PT_A2_U04: Lesson[] = [
           { es: "A casa era grande e muito antiga.", en: "The house was big and very old." },
           { es: "Meu avô era alto e muito calmo.", en: "My grandfather was tall and very calm." },
           { es: "Minha mãe era professora em Recife.", en: "My mother was a teacher in Recife." },
-          { es: "Nós éramos vizinhos no Rio.", en: "We were neighbours in Rio." },
+          { es: "Nós éramos vizinhos no Rio.", en: "We were neighbors in Rio." },
           { es: "Era domingo e estava muito quente.", en: "It was Sunday and it was very hot." },
           { es: "Eram três horas da manhã.", en: "It was three in the morning." },
         ],
@@ -283,14 +283,14 @@ export const PT_A2_U04: Lesson[] = [
         body: [
           "\"Ter\" becomes \"eu tinha\", \"ele tinha\", \"nós tínhamos\", \"eles tinham\". The \"nh\" sounds like the ny in canyon, and \"tínhamos\" takes an accent, like \"comíamos\".",
           "Portuguese gives your age with \"ter\" (\"tenho trinta anos\"), so in the past it's \"eu tinha oito anos\": I was eight. \"Eu era oito anos\" is the classic English-speaker mistake.",
-          "In speech \"tinha\" is also the past of \"tem\" for there is: \"tinha um parque perto de casa\" (there was a park near home), \"não tinha metrô\" (there was no metro). It never changes for plural: \"tinha muitas árvores\".",
+          "In speech \"tinha\" is also the past of \"tem\" for there is: \"tinha um parque perto de casa\" (there was a park near home), \"não tinha metrô\" (there was no subway). It never changes for plural: \"tinha muitas árvores\".",
         ],
         examples: [
           { es: "Em 1998, eu tinha oito anos.", en: "In 1998, I was eight." },
           { es: "Nós tínhamos uma casa em Curitiba.", en: "We had a house in Curitiba." },
           { es: "Ela tinha o cabelo comprido.", en: "She had long hair." },
           { es: "Tinha um parque perto da minha casa.", en: "There was a park near my house." },
-          { es: "Em 2010 não tinha metrô em Salvador.", en: "In 2010 there was no metro in Salvador." },
+          { es: "Em 2010 não tinha metrô em Salvador.", en: "In 2010 there was no subway in Salvador." },
         ],
         checkpoint: [
           {
@@ -357,7 +357,7 @@ export const PT_A2_U04: Lesson[] = [
             question: "What did you hear?",
             options: ["Ele vinha de ônibus.", "Ele veio de ônibus.", "Ele tinha um ônibus.", "Eles vinham de ônibus."],
             correctIndex: 0,
-            explanation: "\"Vinha\" ends in the nasal \"nha\"; \"veio\" ends in a diphthong. \"Vinham\" would end in a nasal \"-ão\" sound.",
+            explanation: "\"Vinha\" has a nasal i followed by the nh sound (VEE-nya); \"veio\" has no nasal and ends in a diphthong (VEI-u). \"Vinham\" would end in a nasal \"-ão\" sound.",
           },
         ],
       },
@@ -419,10 +419,10 @@ export const PT_A2_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "In 2005 there was no metro here.",
+        source: "In 2005 there was no subway here.",
         answer: "Em 2005 não tinha metrô aqui.",
         altAnswers: ["Em 2005 não havia metrô aqui.", "Não tinha metrô aqui em 2005.", "Não havia metrô aqui em 2005."],
-        explanation: "\"Não tinha\" is there wasn't in speech; \"não havia\" is the written version. Metro is \"metrô\" in Brazil.",
+        explanation: "\"Não tinha\" is there wasn't in speech; \"não havia\" is the written version. The subway is \"metrô\" in Brazil.",
       },
       {
         type: "multiple-choice",
@@ -519,11 +519,11 @@ export const PT_A2_U04: Lesson[] = [
       {
         heading: "Costumava + infinitive: used to",
         body: [
-          "\"Costumar\" means to usually do something, and \"costumava\" + infinitive is the closest match for used to: \"eu costumava jogar bola\" (I used to play football). Only \"costumava\" changes (\"nós costumávamos\", \"eles costumavam\"). The second verb stays in the infinitive.",
+          "\"Costumar\" means to usually do something, and \"costumava\" + infinitive is the closest match for used to: \"eu costumava jogar bola\" (I used to play soccer). Only \"costumava\" changes (\"nós costumávamos\", \"eles costumavam\"). The second verb stays in the infinitive.",
           "Never build used to with \"usar\", which means to use or to wear: \"eu usava óculos\" is I used to wear glasses, and \"usava jogar\" means nothing. In conversation the plain imperfeito is more common; \"costumava\" puts extra weight on the habit.",
         ],
         examples: [
-          { es: "Eu costumava jogar bola no parque.", en: "I used to play football in the park." },
+          { es: "Eu costumava jogar bola no parque.", en: "I used to play soccer in the park." },
           { es: "Ela costumava acordar às cinco.", en: "She used to wake up at five." },
           { es: "Nós costumávamos almoçar na casa da minha tia.", en: "We used to have lunch at my aunt's house." },
           { es: "Vocês costumavam viajar nas férias?", en: "Did you use to travel on vacation? (to several people)" },
@@ -534,7 +534,7 @@ export const PT_A2_U04: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I used to play football.",
+            source: "I used to play soccer.",
             answer: "Eu costumava jogar bola.",
             altAnswers: [
               "Costumava jogar bola.",
@@ -545,7 +545,7 @@ export const PT_A2_U04: Lesson[] = [
               "Eu jogava futebol.",
               "Jogava futebol.",
             ],
-            explanation: "\"Costumava\" + the infinitive \"jogar\", or simply the imperfeito \"jogava\". \"Jogar bola\" is the everyday way to say play football.",
+            explanation: "\"Costumava\" + the infinitive \"jogar\", or simply the imperfeito \"jogava\". \"Jogar bola\" is the everyday way to say play soccer.",
           },
           {
             type: "word-order",
@@ -566,7 +566,7 @@ export const PT_A2_U04: Lesson[] = [
       {
         heading: "Sempre, toda semana, antigamente: habit words",
         body: [
-          "Habit words point to the imperfeito: \"sempre\" (always), \"às vezes\" (sometimes), \"todo dia\" (every day), \"toda semana\" (every week), \"nos fins de semana\" (at weekends). \"Todo\" agrees with its noun: \"todo verão\", but \"toda semana\" and \"toda segunda\".",
+          "Habit words point to the imperfeito: \"sempre\" (always), \"às vezes\" (sometimes), \"todo dia\" (every day), \"toda semana\" (every week), \"nos fins de semana\" (on weekends). \"Todo\" agrees with its noun: \"todo verão\", but \"toda semana\" and \"toda segunda\".",
           "\"Antigamente\" (in the old days) and \"quando eu era criança\" set the scene for a whole string of habits: \"antigamente a gente não tinha celular e escrevia cartas\". With \"nunca\", the imperfeito means never used to: \"eu nunca comia verdura\".",
         ],
         examples: [
@@ -700,7 +700,7 @@ export const PT_A2_U04: Lesson[] = [
       {
         type: "speak",
         text: "Eu costumava jogar bola no parque.",
-        prompt: "Say it in Portuguese: I used to play football in the park.",
+        prompt: "Say it in Portuguese: I used to play soccer in the park.",
         tip: "Stress costumava on the -ma-: cos-tu-MA-va. The j in jogar sounds like the s in measure.",
         explanation: "\"Costumava\" + the infinitive \"jogar\": only the first verb changes.",
       },
@@ -850,8 +850,8 @@ export const PT_A2_U04: Lesson[] = [
         examples: [
           { es: "Antes a rua era tranquila; agora é barulhenta.", en: "The street used to be quiet; now it's noisy." },
           { es: "Antes eu morava em Manaus; agora moro em Curitiba.", en: "I used to live in Manaus; now I live in Curitiba." },
-          { es: "Antes tinha um cinema aqui.", en: "There used to be a cinema here." },
-          { es: "Naquela época o bairro tinha muitas árvores.", en: "Back then the neighbourhood had lots of trees." },
+          { es: "Antes tinha um cinema aqui.", en: "There used to be a movie theater here." },
+          { es: "Naquela época o bairro tinha muitas árvores.", en: "Back then the neighborhood had lots of trees." },
           { es: "Hoje em dia ele é sério, mas antes era muito engraçado.", en: "Nowadays he's serious, but he used to be really funny." },
         ],
         checkpoint: [
@@ -859,7 +859,7 @@ export const PT_A2_U04: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "There used to be a cinema here.",
+            source: "There used to be a movie theater here.",
             answer: "Antes tinha um cinema aqui.",
             altAnswers: ["Tinha um cinema aqui antes.", "Antes havia um cinema aqui.", "Antigamente tinha um cinema aqui."],
             explanation: "\"Tinha\" is there was, the past of \"tem\". \"Antes\" marks that it's gone now; English needs used to, Portuguese just needs the imperfeito.",
@@ -905,10 +905,10 @@ export const PT_A2_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Back then the neighbourhood was very quiet.",
+        source: "Back then the neighborhood was very quiet.",
         answer: "Naquela época o bairro era muito tranquilo.",
         altAnswers: ["Antigamente o bairro era muito tranquilo.", "O bairro era muito tranquilo naquela época."],
-        explanation: "\"Naquela época\" sets the scene in the past, and what the neighbourhood was like takes \"era\".",
+        explanation: "\"Naquela época\" sets the scene in the past, and what the neighborhood was like takes \"era\".",
       },
       {
         type: "fill-blank",
@@ -996,16 +996,16 @@ export const PT_A2_U04: Lesson[] = [
         examples: [
           { es: "Eu era muito tímido.", en: "I was very shy." },
           { es: "A nossa casa era pequena.", en: "Our house was small." },
-          { es: "Nós éramos vizinhos.", en: "We were neighbours." },
+          { es: "Nós éramos vizinhos.", en: "We were neighbors." },
           { es: "Ela tinha dez anos.", en: "She was ten." },
-          { es: "Eles tinham uma loja no centro.", en: "They had a shop downtown." },
+          { es: "Eles tinham uma loja no centro.", en: "They had a store downtown." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We were neighbours.",
+            source: "We were neighbors.",
             answer: "Nós éramos vizinhos.",
             altAnswers: ["Éramos vizinhos.", "Nós éramos vizinhas.", "Éramos vizinhas."],
             explanation: "A lasting description takes \"ser\" in the imperfeito. The nós form is \"éramos\", with the accent on the first syllable. Use \"vizinhas\" if all of you are women.",
@@ -1030,8 +1030,8 @@ export const PT_A2_U04: Lesson[] = [
           { es: "Todo sábado eu ia à feira.", en: "Every Saturday I went to the market." },
           { es: "A gente ia para a praia todo verão.", en: "We used to go to the beach every summer." },
           { es: "Nós íamos à escola a pé.", en: "We used to walk to school." },
-          { es: "O que vocês faziam nas férias?", en: "What did you all do on holiday?" },
-          { es: "Minha mãe fazia pão de queijo aos domingos.", en: "My mum used to make pão de queijo on Sundays." },
+          { es: "O que vocês faziam nas férias?", en: "What did you all do on vacation?" },
+          { es: "Minha mãe fazia pão de queijo aos domingos.", en: "My mom used to make pão de queijo on Sundays." },
           { es: "Em Curitiba fazia muito frio no inverno.", en: "It was very cold in Curitiba in winter." },
         ],
         checkpoint: [
@@ -1057,10 +1057,10 @@ export const PT_A2_U04: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: My mum used to make cake on Sundays.",
+            prompt: "Put the words in order to say: My mom used to make cake on Sundays.",
             words: ["Minha", "mãe", "fazia", "bolo", "aos", "domingos."],
             altOrders: [["Aos", "domingos", "minha", "mãe", "fazia", "bolo."]],
-            translation: "My mum used to make cake on Sundays.",
+            translation: "My mom used to make cake on Sundays.",
             explanation: "\"Fazia\" is the regular imperfeito of \"fazer\". \"Aos domingos\" (a + os) marks the habit.",
           },
           {
@@ -1101,7 +1101,7 @@ export const PT_A2_U04: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "We [used to go] to the cinema every Friday.",
+            en: "We [used to go] to the movies every Friday.",
             sentence: "A gente ___ ao cinema toda sexta.",
             answer: "ia",
             explanation: "\"A gente\" takes the ele/ela form: \"a gente ia\". \"Íamos\" goes only with \"nós\".",
@@ -1131,7 +1131,7 @@ export const PT_A2_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "They had a shop in Recife.",
+        source: "They had a store in Recife.",
         answer: "Eles tinham uma loja em Recife.",
         altAnswers: ["Elas tinham uma loja em Recife.", "Tinham uma loja em Recife."],
         explanation: "\"Tinham\" is the eles/elas form of \"ter\" in the imperfeito. \"Recife\" takes \"em\" with no article.",
@@ -1711,7 +1711,7 @@ export const PT_A2_U04: Lesson[] = [
             type: "listen-choose",
             audio: "Ela abria a loja às oito.",
             question: "What does it mean?",
-            options: ["She opens the shop at eight.", "She used to open the shop at eight.", "She's going to open the shop at eight.", "She used to close the shop at eight."],
+            options: ["She opens the store at eight.", "She used to open the store at eight.", "She's going to open the store at eight.", "She used to close the store at eight."],
             correctIndex: 1,
             explanation: "\"Abria\" is the imperfeito of \"abrir\", a past habit. The present would be \"abre\".",
           },
@@ -1724,7 +1724,7 @@ export const PT_A2_U04: Lesson[] = [
           "\"Tem\" meaning there is follows the same rule, so \"agora tem metrô\" becomes \"antes não tinha metrô\". It stays singular even before a plural noun. There were lots of trees is \"tinha muitas árvores\", never \"tinham\". English changes is to were, but Portuguese doesn't.",
         ],
         examples: [
-          { es: "Antes não tinha metrô na cidade.", en: "There was no metro in the city before." },
+          { es: "Antes não tinha metrô na cidade.", en: "There was no subway in the city before." },
           { es: "Antigamente tinha muitas árvores na minha rua.", en: "There used to be lots of trees on my street." },
           { es: "O bairro era tranquilo e as casas eram pequenas.", en: "The neighborhood was quiet and the houses were small." },
           { es: "Meu pai tinha um fusca azul.", en: "My dad had a blue Beetle." },
@@ -1736,7 +1736,7 @@ export const PT_A2_U04: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Before, there was no metro.",
+            source: "Before, there was no subway.",
             answer: "Antes não tinha metrô.",
             altAnswers: ["Antes não havia metrô.", "Não tinha metrô antes.", "Antigamente não tinha metrô."],
             explanation: "\"Agora tem metrô\" becomes \"antes não tinha metrô\": \"tem\" (there is) becomes \"tinha\" (there was).",
@@ -1766,7 +1766,7 @@ export const PT_A2_U04: Lesson[] = [
           { es: "Quando eu era criança, eu acordava cedo e pegava o ônibus.", en: "When I was a kid, I woke up early and caught the bus." },
           { es: "Ele costumava jogar bola depois da aula.", en: "He used to play soccer after school." },
           { es: "Antes a gente não tinha celular e escrevia cartas.", en: "We didn't have cell phones before, and we wrote letters." },
-          { es: "Antigamente as lojas fechavam na hora do almoço.", en: "In the old days, shops closed at lunchtime." },
+          { es: "Antigamente as lojas fechavam na hora do almoço.", en: "In the old days, stores closed at lunchtime." },
           { es: "Minha mãe sempre fazia bolo de fubá aos domingos.", en: "My mom always made cornmeal cake on Sundays." },
         ],
         checkpoint: [
@@ -1908,7 +1908,7 @@ export const PT_A2_U04: Lesson[] = [
           { es: "Quando eu era criança, eu morava em Recife.", en: "When I was a child, I lived in Recife." },
           { es: "A gente morava numa casa pequena perto da praia.", en: "We lived in a small house near the beach." },
           { es: "Na minha rua tinha uma padaria e uma farmácia.", en: "There was a bakery and a pharmacy on my street." },
-          { es: "No bairro tinha muitas árvores.", en: "There were lots of trees in the neighbourhood." },
+          { es: "No bairro tinha muitas árvores.", en: "There were lots of trees in the neighborhood." },
           { es: "Eu tinha sete anos e meu irmão tinha cinco.", en: "I was seven and my brother was five." },
         ],
         checkpoint: [
@@ -1955,8 +1955,8 @@ export const PT_A2_U04: Lesson[] = [
         ],
         examples: [
           { es: "Todo domingo a gente ia à casa da minha avó.", en: "Every Sunday we went to my grandma's house." },
-          { es: "Depois da escola, eu jogava bola na rua.", en: "After school, I played football in the street." },
-          { es: "Nas férias, nós íamos para Salvador.", en: "In the holidays, we went to Salvador." },
+          { es: "Depois da escola, eu jogava bola na rua.", en: "After school, I played soccer in the street." },
+          { es: "Nas férias, nós íamos para Salvador.", en: "On vacation, we went to Salvador." },
           { es: "Meu pai sempre fazia pão de queijo no sábado.", en: "My dad always made cheese bread on Saturdays." },
           { es: "Eu costumava ler gibis à noite.", en: "I used to read comics at night." },
         ],
@@ -1982,10 +1982,10 @@ export const PT_A2_U04: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: I used to play football after school.",
+            prompt: "Put the words in order to say: I used to play soccer after school.",
             words: ["Eu", "jogava", "bola", "depois", "da", "escola."],
             altOrders: [["Depois", "da", "escola", "eu", "jogava", "bola."]],
-            translation: "I used to play football after school.",
+            translation: "I used to play soccer after school.",
             explanation: "\"Jogava\" already means used to play. \"Da escola\" is de + a.",
           },
           {
@@ -2205,7 +2205,7 @@ export const PT_A2_U04: Lesson[] = [
           { es: "Eu tinha dez anos.", en: "I was ten." },
           { es: "A casa tinha um quintal enorme.", en: "The house had a huge backyard." },
           { es: "Eram três horas e as crianças estavam cansadas.", en: "It was three o'clock and the kids were tired." },
-          { es: "Antes não tinha metrô no bairro.", en: "There used to be no metro in the neighbourhood." },
+          { es: "Antes não tinha metrô no bairro.", en: "There used to be no subway in the neighborhood." },
         ],
         checkpoint: [
           {
@@ -2245,7 +2245,7 @@ export const PT_A2_U04: Lesson[] = [
           { es: "Eu ia a Salvador todo ano.", en: "I used to go to Salvador every year." },
           { es: "No sábado passado a gente comeu feijoada.", en: "Last Saturday we had feijoada." },
           { es: "A gente comia feijoada todo sábado.", en: "We used to have feijoada every Saturday." },
-          { es: "Ontem minha mãe fez um bolo de cenoura.", en: "Yesterday my mum made a carrot cake." },
+          { es: "Ontem minha mãe fez um bolo de cenoura.", en: "Yesterday my mom made a carrot cake." },
         ],
         checkpoint: [
           {
@@ -2332,7 +2332,7 @@ export const PT_A2_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The neighbourhood was very quiet.",
+        source: "The neighborhood was very quiet.",
         answer: "O bairro era muito tranquilo.",
         altAnswers: ["O bairro era bem tranquilo."],
         explanation: "How a place was in general takes \"era\", not \"foi\". \"Bairro\" is masculine, so \"tranquilo\".",
@@ -2345,8 +2345,8 @@ export const PT_A2_U04: Lesson[] = [
       {
         type: "speak",
         text: "Antigamente a gente ia ao cinema toda semana.",
-        prompt: "Say it in Portuguese: We used to go to the cinema every week.",
-        tip: "The t in \"gente\" sounds like the ch in cheese, because final -e is said like i: GEN-tchi.",
+        prompt: "Say it in Portuguese: We used to go to the movies every week.",
+        tip: "The t in \"gente\" sounds like the ch in cheese, because final -e is said like i: ZHEN-tchi, with the g like the s in measure.",
         explanation: "\"A gente ia\": a repeated habit, so the imperfeito of \"ir\" in the ele/ela form that \"a gente\" takes.",
       },
       {
@@ -2376,7 +2376,7 @@ export const PT_A2_U04: Lesson[] = [
 
 export const PT_A2_U04_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A Brazilian friend is putting together a little online album called \"Minha infância\" and asks you to send a short paragraph about your childhood. Say where you lived and how old you were, describe your home and the people around you, tell them what you used to do (after school, at weekends, in the summer), and end with one thing that is different today.",
+  prompt: "A Brazilian friend is putting together a little online album called \"Minha infância\" and asks you to send a short paragraph about your childhood. Say where you lived and how old you were, describe your home and the people around you, tell them what you used to do (after school, on weekends, in the summer), and end with one thing that is different today.",
   minWords: 50,
   maxWords: 100,
   rubric: [

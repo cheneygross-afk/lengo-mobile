@@ -10,7 +10,7 @@ export const PT_C1_S02_STORIES: Story[] = [
     title: `A saideira`,
     subtitle: `Two old friends meet at their usual Botafogo bar on a Thursday, as they have for forty years, but one of them has brought an envelope.`,
     paragraphs: [
-      `O Bar do Adonias, em Botafogo, não tinha nome na fachada, só um toldo verde desbotado e uma geladeira que fazia barulho de avião. Jorge e Beto se encontravam ali às quintas desde 1984, quando ainda tinham cabelo e convicções. Os dois tinham sobrevivido a três moedas, cinco presidentes, dois casamentos do Beto e nenhum do Jorge, que considerava o casamento uma instituição admirável, desde que fosse a dos outros.`,
+      `O Bar do Adonias, em Botafogo, não tinha nome na fachada, só um toldo verde desbotado e uma geladeira que fazia barulho de avião. Jorge e Beto se encontravam ali às quintas desde 1984, quando ainda tinham cabelo e convicções. Os dois tinham sobrevivido a seis moedas, nove presidentes, dois casamentos do Beto e nenhum do Jorge, que considerava o casamento uma instituição admirável, desde que fosse a dos outros.`,
       `Naquela quinta, Beto chegou cedo, o que já era estranho. Chegou de camisa passada, o que era mais estranho ainda. E pediu água com gás antes da cerveja, coisa que, em quarenta anos, Jorge nunca tinha visto. Adonias, atrás do balcão, levantou a sobrancelha. Jorge preferiu não comentar. Amizade de boteco tem regras, e a primeira é que ninguém pergunta o que o outro não oferece.`,
       `Falaram do Botafogo, claro, que estava indo bem, o que deixava os dois desconfiados. Falaram da sobrinha do Jorge, que tinha virado influenciadora de alguma coisa que nenhum dos dois entendia. Falaram do Adonias, que ameaçava se aposentar desde o governo Sarney. Beto ria nas horas certas, mas ria um pouco atrasado, como um rádio mal sintonizado.`,
       `Lá pela terceira cerveja do Jorge (Beto ainda estava na primeira, que esquentava no copo), ele tirou do bolso um envelope pardo e o empurrou pela mesa. “Os discos”, disse. “A chave do armário lá de casa. Quero que fiquem com você.” Jorge olhou o envelope sem tocar. Os discos do Beto eram uma lenda: mil e tantos vinis, Cartola, Nelson Cavaquinho, uma primeira prensagem de samba que Beto jurava valer um apartamento. Nunca emprestava nenhum. Uma vez quase tinha rompido com um cunhado por causa de um arranhão.`,
@@ -22,7 +22,7 @@ export const PT_C1_S02_STORIES: Story[] = [
     questions: [
       {
         question: `What showed that Beto was different that night?`,
-        options: [`He arrived late and very loud.`, `He came early, in an ironed shirt, and ordered sparkling water first.`, `He brought his wife along.`, `He refused to talk about football.`],
+        options: [`He arrived late and very loud.`, `He came early, in an ironed shirt, and ordered sparkling water first.`, `He brought his wife along.`, `He refused to talk about soccer.`],
         correctIndex: 1,
         explanation: `"Beto chegou cedo", "Chegou de camisa passada" and "pediu água com gás antes da cerveja".`,
       },
@@ -70,7 +70,7 @@ export const PT_C1_S02_STORIES: Story[] = [
       },
       {
         question: `According to the grandfather, why did the garoa disappear?`,
-        options: [`Because of pollution from the factories.`, `It left offended, because nobody had time to notice it any more.`, `Because the trees were cut down.`, `Because the city grew too hot.`],
+        options: [`Because of pollution from the factories.`, `It left offended, because nobody had time to notice it anymore.`, `Because the trees were cut down.`, `Because the city grew too hot.`],
         correctIndex: 1,
         explanation: `He said "a garoa tinha ido embora ofendida, porque ninguém mais tinha tempo de reparar nela".`,
       },
@@ -107,7 +107,7 @@ export const PT_C1_S02_STORIES: Story[] = [
     questions: [
       {
         question: `What does the narrator do in the Aterro on Sundays?`,
-        options: [`He plays football with the boys.`, `He practises tango by the cycle path.`, `He sits on a bench with a book he doesn't read and watches people.`, `He does stretching exercises.`],
+        options: [`He plays soccer with the boys.`, `He practices tango by the bike path.`, `He sits on a bench with a book he doesn't read and watches people.`, `He does stretching exercises.`],
         correctIndex: 2,
         explanation: `"Eu desço com um livro que não leio" and "passo a manhã olhando os outros".`,
       },
@@ -156,7 +156,7 @@ export const PT_C1_S02_STORIES: Story[] = [
       },
       {
         question: `Where did he find Helena's instructions?`,
-        options: [`In a kitchen drawer`, `In her diary`, `Stuck to the bottom of each pot`, `In the agenda he bought`],
+        options: [`In a kitchen drawer`, `In her diary`, `Stuck to the bottom of each pot`, `In the planner he bought`],
         correctIndex: 2,
         explanation: `"Colado no fundo do vaso, dentro de um saquinho plástico, um papel dobrado" and "Havia um bilhete em cada um."`,
       },
@@ -248,7 +248,7 @@ export const PT_C1_S02_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "o granizo", en: "hail", forms: ["granizo"] },
   ],
   "pt-domingo-no-aterro": [
-    { es: "a caixa de isopor", en: "cool box", forms: ["isopor"] },
+    { es: "a caixa de isopor", en: "cooler", forms: ["isopor"] },
     { es: "a ressaca", en: "hangover", forms: ["ressaca"] },
     { es: "o alongamento", en: "stretching", forms: ["alongamento"] },
     { es: "o apito", en: "whistle", forms: ["apito"] },

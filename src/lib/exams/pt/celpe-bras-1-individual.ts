@@ -78,7 +78,7 @@ export const CELPE_BRAS_1_INDIVIDUAL: ExamPaper = {
         modelAnswer: paras(
           "– Do que trata esse material?",
           "– O texto fala do trabalho híbrido, que se tornou comum no Brasil depois da pandemia. A imagem mostra justamente uma mãe trabalhando na cozinha enquanto a filha desenha ao lado, o que resume bem as vantagens e as dificuldades desse modelo.",
-          "– E quais são as desvantagens de trabalhar em casa, na sua opinião?",
+          "– Quais são as vantagens e as desvantagens de trabalhar em casa, na sua opinião?",
           "– A principal vantagem, sem dúvida, é não perder tempo no trânsito; numa cidade grande isso pode significar duas ou três horas por dia. Mas, como a foto sugere, é difícil separar a vida pessoal do trabalho. Muita gente acaba trabalhando mais horas, e quem mora num apartamento pequeno nem tem um lugar adequado.",
           "– Você acha que as empresas têm razão?",
           "– Em parte, sim. Quando eu comecei a trabalhar, aprendi muito ouvindo os colegas mais experientes, coisa que numa videochamada não acontece. Por isso acho que o modelo híbrido é o mais equilibrado. No meu país, aliás, a discussão é parecida: as empresas de tecnologia deixam as pessoas escolherem, mas os bancos estão exigindo a volta ao escritório.",

@@ -166,7 +166,7 @@ export const FR_B2_U01: Lesson[] = [
         prompt: "Translate into French.",
         source: "I know someone who can fix bikes.",
         answer: "Je connais quelqu'un qui sait réparer les vélos.",
-        altAnswers: ["Je connais quelqu'un qui sait réparer des vélos.", "Je connais une personne qui sait réparer les vélos."],
+        altAnswers: ["Je connais quelqu'un qui sait réparer des vélos.", "Je connais une personne qui sait réparer les vélos.", "Je connais quelqu'un qui peut réparer les vélos.", "Je connais quelqu'un qui peut réparer des vélos."],
         explanation: "You know this person, so the clause states a fact: indicative \"sait\".",
       },
       {
@@ -175,7 +175,7 @@ export const FR_B2_U01: Lesson[] = [
         prompt: "Translate into French.",
         source: "I'm looking for someone who can fix bikes.",
         answer: "Je cherche quelqu'un qui sache réparer les vélos.",
-        altAnswers: ["Je cherche quelqu'un qui sache réparer des vélos.", "Je cherche une personne qui sache réparer les vélos."],
+        altAnswers: ["Je cherche quelqu'un qui sache réparer des vélos.", "Je cherche une personne qui sache réparer les vélos.", "Je cherche quelqu'un qui puisse réparer les vélos.", "Je cherche quelqu'un qui puisse réparer des vélos."],
         explanation: "Same clause, but the person is only wanted: subjunctive \"sache\".",
       },
       {
@@ -208,7 +208,7 @@ export const FR_B2_U01: Lesson[] = [
         prompt: "Translate into French.",
         source: "They need a doctor who speaks English.",
         answer: "Ils ont besoin d'un médecin qui parle anglais.",
-        altAnswers: ["Elles ont besoin d'un médecin qui parle anglais.", "Il leur faut un médecin qui parle anglais.", "Ils ont besoin d'une médecin qui parle anglais.", "Elles ont besoin d'une médecin qui parle anglais."],
+        altAnswers: ["Elles ont besoin d'un médecin qui parle anglais.", "Il leur faut un médecin qui parle anglais.", "Ils ont besoin d'une médecin qui parle anglais.", "Elles ont besoin d'une médecin qui parle anglais.", "Il leur faut une médecin qui parle anglais."],
         explanation: "Grammatically this is a subjunctive, but \"parle\" has the same form in both moods, so nothing changes on the page.",
       },
       {
@@ -388,7 +388,7 @@ export const FR_B2_U01: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "She dreams of a job [that leaves] her some free time.",
+        en: "She dreams of a job [that leaves her] some free time.",
         sentence: "Elle rêve d'un travail ___ du temps libre.",
         answer: "qui lui laisse",
         explanation: "\"Laisser quelque chose à quelqu'un\" → \"lui laisse\". The pronoun goes before the subjunctive verb.",
@@ -519,7 +519,7 @@ export const FR_B2_U01: Lesson[] = [
           { es: "Nous cherchons un garage qui soit ouvert le dimanche.", en: "We're looking for a garage that's open on Sundays." },
           { es: "Elle a une collègue qui fait du japonais.", en: "She has a colleague who studies Japanese." },
           { es: "Elle cherche une collègue qui fasse du japonais avec elle.", en: "She's looking for a colleague to study Japanese with her." },
-          { es: "Je connais un taxi qui vient vite.", en: "I know a taxi firm that comes quickly." },
+          { es: "Je connais un taxi qui vient vite.", en: "I know a taxi driver who comes quickly." },
           { es: "Il me faut un taxi qui vienne tout de suite.", en: "I need a taxi that can come right away." },
         ],
         checkpoint: [
@@ -812,7 +812,7 @@ export const FR_B2_U01: Lesson[] = [
             prompt: "Translate into French.",
             source: "There's nobody here who has a car.",
             answer: "Il n'y a personne ici qui ait une voiture.",
-            altAnswers: ["Il n'y a personne ici qui ait de voiture.", "Personne ici n'a de voiture.", "Personne ici n'a une voiture."],
+            altAnswers: ["Personne ici n'a de voiture."],
             explanation: "\"Personne\" with \"ne\" only; the clause takes \"ait\", the subjunctive of avoir.",
           },
           {
@@ -1411,7 +1411,7 @@ export const FR_B2_U01: Lesson[] = [
         body: [
           "\"Qui que ce soit\" and \"quoi que ce soit\" are frozen expressions containing the subjunctive \"soit\". You don't conjugate them; you drop them in where English says 'anyone (at all)' or 'anything (at all)' in a negative, a question, or after \"sans\" or \"si\".",
           "\"Je n'en ai parlé à qui que ce soit\" (I haven't spoken about it to anyone at all) is stronger than \"je n'en ai parlé à personne\". \"Si tu as besoin de quoi que ce soit, appelle-moi\" (if you need anything at all, call me) is a very common, warm offer. \"Il est parti sans rien dire à qui que ce soit\" (without saying anything to anyone).",
-          "In an affirmative sentence they mean 'whoever it is' / 'whatever it is': \"Qui que ce soit, je ne suis pas là\" (whoever it is, I'm not in).",
+          "With a negative you will also often see \"pas\" added: \"je n'en ai pas parlé à qui que ce soit\", \"ne touchez pas à quoi que ce soit\". Both versions are correct. In an affirmative sentence they mean 'whoever it is' / 'whatever it is': \"Qui que ce soit, je ne suis pas là\" (whoever it is, I'm not in).",
         ],
         examples: [
           { es: "Si tu as besoin de quoi que ce soit, appelle-moi.", en: "If you need anything at all, call me." },
@@ -1531,7 +1531,7 @@ export const FR_B2_U01: Lesson[] = [
         prompt: "Translate into French.",
         source: "I haven't mentioned it to anyone at all.",
         answer: "Je n'en ai parlé à qui que ce soit.",
-        altAnswers: ["Je n'en ai parlé à personne.", "Je n'en ai rien dit à qui que ce soit.", "Je n'en ai parlé à personne du tout."],
+        altAnswers: ["Je n'en ai pas parlé à qui que ce soit.", "Je n'en ai parlé à personne.", "Je n'en ai rien dit à qui que ce soit.", "Je n'en ai parlé à personne du tout."],
         explanation: "\"À qui que ce soit\" reinforces the negative; \"à personne\" is the plainer equivalent.",
       },
       {
@@ -1944,8 +1944,8 @@ export const FR_B2_U01: Lesson[] = [
             prompt: "Translate into French.",
             source: "I'd like to meet someone I can talk to about anything.",
             answer: "J'aimerais rencontrer quelqu'un avec qui je puisse parler de tout.",
-            altAnswers: ["Je voudrais rencontrer quelqu'un avec qui je puisse parler de tout.", "J'aimerais rencontrer quelqu'un avec qui je peux parler de tout.", "Je voudrais rencontrer quelqu'un avec qui je peux parler de tout."],
-            explanation: "French moves the preposition to the front: \"avec qui je puisse parler\". The subjunctive marks a person you haven't met.",
+            altAnswers: ["Je voudrais rencontrer quelqu'un avec qui je puisse parler de tout."],
+            explanation: "French moves the preposition to the front: \"avec qui je puisse parler\". The subjunctive marks a person you haven't met; \"je peux\" would present this person as already known.",
           },
           {
             type: "word-order",

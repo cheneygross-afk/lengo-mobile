@@ -336,7 +336,7 @@ export const FR_CULTURE_U01: Lesson[] = [
             prompt: "Translate into French.",
             source: "The kids are off for the autumn half-term.",
             answer: "Les enfants sont en vacances de la Toussaint.",
-            altAnswers: ["Les enfants sont aux vacances de la Toussaint.", "C'est les vacances de la Toussaint pour les enfants.", "Ce sont les vacances de la Toussaint pour les enfants."],
+            altAnswers: ["C'est les vacances de la Toussaint pour les enfants.", "Ce sont les vacances de la Toussaint pour les enfants."],
             explanation: "\"Les vacances de la Toussaint\" are the school holidays around 1 November, named after All Saints' Day, nothing festive about them.",
           },
           {
@@ -532,7 +532,7 @@ export const FR_CULTURE_U01: Lesson[] = [
       {
         heading: "Birthdays, name days, and fêter vs faire la fête",
         body: [
-          "For a birthday, French people sing \"Joyeux anniversaire\" to the same tune as the English song, and the birthday person blows out the candles: \"souffler les bougies\". \"Fais un vœu !\" (make a wish). People ask \"Tu as quel âge ?\", rarely the US-style 'how old are you turning?'.",
+          "For a birthday, French people sing \"Joyeux anniversaire\" to the same tune as the English song, and the birthday person blows out the candles: \"souffler les bougies\". \"Fais un vœu !\" (make a wish). People ask \"Tu as quel âge ?\", rarely anything like the US-style how old are you turning?",
           "France also has \"la fête\", your name day. The post office calendar gives a saint for each day, and on your saint's day friends may say \"Bonne fête, Nicolas !\" (on 6 December). Radio and TV weather presenters still end with \"Demain, nous fêterons les Sophie\". It is a small, friendly gesture, not a party. Careful: \"bonne fête\" means happy name day, not happy birthday.",
           "Trap: \"fêter\" vs \"faire la fête\". \"Fêter\" (or \"célébrer\") is transitive, you celebrate something: \"On fête mon anniversaire samedi.\" \"Faire la fête\" means to party, with no object: \"Ils ont fait la fête toute la nuit.\" Saying \"on va faire la fête de mon anniversaire\" sounds odd; say \"on va fêter mon anniversaire\".",
         ],
@@ -1303,7 +1303,7 @@ export const FR_CULTURE_U01: Lesson[] = [
         body: [
           "A proper French meal, especially with guests or on Sunday, follows a fixed sequence, and knowing it tells you how much to eat at each stage. It starts with \"l'apéro\": a drink and nibbles, standing or in the living room. Then everyone sits down for \"l'entrée\", then \"le plat\" (or \"le plat principal\"), then \"le fromage\", then \"le dessert\", and finally \"le café\".",
           "The trap for Americans: \"l'entrée\" is the starter, the dish you enter the meal with, not the main course as in American English. On a menu, \"entrée + plat\" or \"plat + dessert\" are the two classic \"formules\". British English speakers have it easier: entrée = starter.",
-          "\"Le plat\" is the hot main dish, usually meat or fish with \"une garniture\" (side: vegetables, potatoes, rice). Pace yourself: \"il faut garder de la place\" (you need to save room) because three more stages are coming. A green salad often follows the main course, to \"refresh\" the palate before the cheese.",
+          "\"Le plat\" is the hot main dish, usually meat or fish with \"une garniture\" (side: vegetables, potatoes, rice). Pace yourself: \"il faut garder de la place\" (you need to save room) because three more stages are coming. A green salad often follows the main course, to refresh the palate before the cheese.",
         ],
         examples: [
           { es: "On commence par l'apéro dans le salon.", en: "We start with drinks and nibbles in the living room." },
@@ -1433,7 +1433,7 @@ export const FR_CULTURE_U01: Lesson[] = [
         prompt: "Translate into French.",
         source: "Save some room, there's still the cheese!",
         answer: "Garde de la place, il y a encore le fromage !",
-        altAnswers: ["Gardez de la place, il y a encore le fromage !", "Garde-toi de la place, il y a encore le fromage !", "Garde un peu de place, il y a encore le fromage !", "Gardez un peu de place, il y a encore le fromage !"],
+        altAnswers: ["Gardez de la place, il y a encore le fromage !", "Garde un peu de place, il y a encore le fromage !", "Gardez un peu de place, il y a encore le fromage !"],
         explanation: "\"Garder de la place\" = to save room; \"il y a encore\" = there's still.",
       },
       {
@@ -1732,7 +1732,7 @@ export const FR_CULTURE_U01: Lesson[] = [
           { es: "Une tradition pas trop cuite, s'il vous plaît.", en: "A traditional baguette, not too well done, please." },
           { es: "Tu peux me passer le pain, s'il te plaît ?", en: "Can you pass me the bread, please?" },
           { es: "On pose le pain directement sur la nappe.", en: "You put the bread straight on the tablecloth." },
-          { es: "Je peux saucer ? Ta sauce est trop bonne.", en: "Can I mop up the sauce? Your sauce is too good." },
+          { es: "Je peux saucer ? Ta sauce est trop bonne.", en: "Can I mop up the sauce? Your sauce is delicious." },
           { es: "Il reste du pain ? J'en voudrais un morceau.", en: "Is there any bread left? I'd like a piece." },
           { es: "Le pain, ça se rompt avec les mains, ça ne se coupe pas à table.", en: "Bread is broken with your hands, it isn't cut at the table." },
         ],
@@ -1912,7 +1912,7 @@ export const FR_CULTURE_U01: Lesson[] = [
       {
         type: "speak",
         text: "Une tradition pas trop cuite, s'il vous plaît.",
-        tip: "\"Cuite\": the ui glides quickly, kwit.",
+        tip: "\"Cuite\": the ui glides quickly, as in \"huit\": rounded lips as for u, then i (not a w sound).",
         explanation: "How many Parisians order their daily bread.",
       },
       {
@@ -1937,7 +1937,7 @@ export const FR_CULTURE_U01: Lesson[] = [
         heading: "Before the meal: arriving and the bottle",
         body: [
           "Tom has been invited for lunch at 12 h 30 by his colleague Claire's parents in Tours. His first gaffe happens before he even sits down: he rings the bell at 12 h 30 exactly, while Mme Moreau is still in her apron. In France, at someone's home, punctuality is not a virtue: \"le quart d'heure de politesse\" means you arrive about ten to fifteen minutes late, giving the hosts time to finish. Arriving early is worse still. (For a restaurant, a train or a work meeting, be on time.)",
-          "Gaffe two: Tom hands over a bottle of wine and says \"On peut l'ouvrir maintenant !\" The host has chosen the wines to match the menu; bringing wine is acceptable, but expecting it to be served tonight puts the host in an awkward spot. Il vaut mieux bring flowers (sent beforehand or brought, not chrysanthemums), chocolates, or a dessert agreed in advance. If you bring wine, say \"C'est pour une autre fois.\"",
+          "Gaffe two: Tom hands over a bottle of wine and says \"On peut l'ouvrir maintenant !\" The host has chosen the wines to match the menu; bringing wine is acceptable, but expecting it to be served tonight puts the host in an awkward spot. It's better (\"il vaut mieux\") to bring flowers (sent beforehand or brought, not chrysanthemums), chocolates, or a dessert agreed in advance. If you bring wine, say \"C'est pour une autre fois.\"",
           "The tools for this lesson: \"ça ne se fait pas de\" + infinitive (it isn't done to...), \"il vaut mieux\" + infinitive (it's better to...), \"il faut\" / \"on doit\" for rules, and \"ce qu'il aurait dû faire, c'est...\" for what Tom should have done.",
         ],
         examples: [
@@ -1952,7 +1952,7 @@ export const FR_CULTURE_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Tom says to the host: « On peut l'ouvrir maintenant ! » Give the French for what he should say instead.",
+            prompt: "Tom says to the host: \"On peut l'ouvrir maintenant !\" Give the French for what he should say instead.",
             source: "It's for another time.",
             answer: "C'est pour une autre fois.",
             altAnswers: ["C'est pour une prochaine fois.", "C'est pour plus tard.", "Ce sera pour une autre fois."],
@@ -1987,7 +1987,7 @@ export const FR_CULTURE_U01: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "Tom writes: « On met les mains sous la table. » Write the French for the bold words to fix it.",
+            prompt: "Tom writes: \"On met les mains sous la table.\" Write the French for the bold words to fix it.",
             en: "You keep your hands [on the table].",
             sentence: "On garde les mains ___.",
             answer: "sur la table",
@@ -2030,7 +2030,7 @@ export const FR_CULTURE_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Tom says « Je suis plein ! » when offered more. Give the French for what a native would say.",
+            prompt: "Tom says \"Je suis plein !\" when offered more. Give the French for what a native would say.",
             source: "No thanks, I'm full, I've eaten very well.",
             answer: "Non merci, je n'ai plus faim, j'ai très bien mangé.",
             altAnswers: ["Non merci, j'ai très bien mangé.", "Non merci, je n'ai plus faim.", "Non merci, j'ai trop mangé, j'ai très bien mangé.", "Non merci, je n'ai plus faim, j'ai bien mangé."],
@@ -2039,7 +2039,7 @@ export const FR_CULTURE_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Tom says « C'est très bon cuisine. » Give the correct French.",
+            prompt: "Tom says \"C'est très bon cuisine.\" Give the correct French.",
             source: "Your leg of lamb is delicious!",
             answer: "Il est délicieux, votre gigot !",
             altAnswers: ["Votre gigot est délicieux !", "Ton gigot est délicieux !", "Il est délicieux, ton gigot !"],
@@ -2049,7 +2049,7 @@ export const FR_CULTURE_U01: Lesson[] = [
             type: "speak",
             text: "Vous cuisinez vraiment très bien.",
             prompt: "Say it in French, to your host: You're a really good cook.",
-            tip: "\"Cuisinez\": the ui is one quick glide, kwee.",
+            tip: "\"Cuisinez\": the ui is one quick glide, as in \"huit\": start with rounded lips as for u, then slide to i (not a w sound).",
             explanation: "A sincere compliment to the cook is part of the meal.",
           },
         ],
@@ -2076,7 +2076,7 @@ export const FR_CULTURE_U01: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Tom writes: « Je commence à manger tout de suite. » Write the French for the bold words to fix it.",
+        prompt: "Tom writes: \"Je commence à manger tout de suite.\" Write the French for the bold words to fix it.",
         en: "I wait [for the hostess to say] \"bon appétit\".",
         sentence: "J'attends ___ bon appétit.",
         answer: "que la maîtresse de maison dise",
@@ -2089,7 +2089,7 @@ export const FR_CULTURE_U01: Lesson[] = [
         prompt: "Translate into French.",
         source: "You don't ask for ketchup at someone's home.",
         answer: "Ça ne se fait pas de demander du ketchup chez quelqu'un.",
-        altAnswers: ["On ne demande pas de ketchup chez quelqu'un.", "Il ne faut pas demander de ketchup chez quelqu'un.", "On ne demande pas du ketchup chez quelqu'un."],
+        altAnswers: ["On ne demande pas de ketchup chez quelqu'un.", "Il ne faut pas demander de ketchup chez quelqu'un."],
         explanation: "\"Ça ne se fait pas de\" + infinitive. In \"on ne demande pas de ketchup\" the negation turns \"du\" into \"de\"; after \"ça ne se fait pas de demander\" the verb demander is not negated, so \"du ketchup\" stays.",
       },
       {
@@ -2185,7 +2185,7 @@ export const FR_CULTURE_U01: Lesson[] = [
       {
         heading: "Food idioms: de la tarte, du fromage, des salades",
         body: [
-          "French is full of food idioms, and using one at the right moment makes you sound at home. \"Ce n'est pas de la tarte\" (it's not tart): it's not easy, it's no piece of cake. Notice the image is the same as English, just a different dessert. \"En faire tout un fromage\": to make a big fuss about something small.",
+          "French is full of food idioms, and using one at the right moment makes you sound at home. \"Ce n'est pas de la tarte\" (literally it's not pie): it's not easy, it's no piece of cake. Notice the image is the same as English, just a different dessert. \"En faire tout un fromage\": to make a big fuss about something small.",
           "\"Raconter des salades\": to tell tall stories, fibs. \"Mettre du beurre dans les épinards\" (put butter in the spinach): to improve one's finances, make life more comfortable: a second job \"met du beurre dans les épinards\". \"Avoir un cœur d'artichaut\" (an artichoke heart, with a leaf for everyone): to fall in love easily.",
           "A few more: \"tomber dans les pommes\" (to faint), \"avoir la pêche\" or \"avoir la frite\" (to be full of energy), \"c'est la fin des haricots\" (it's the last straw, all is lost), \"en avoir gros sur la patate\" (to be very upset).",
         ],
@@ -2234,7 +2234,7 @@ export const FR_CULTURE_U01: Lesson[] = [
       {
         heading: "The host's lines and the polite refusal",
         body: [
-          "A French host keeps offering: \"Sers-toi !\" / \"Servez-vous !\" (help yourself), \"Reprends-en !\" (have some more), \"Il en reste, hein !\" (there's some left, you know), \"Finis-le, sinon ça va se perdre.\" Notice the imperative with \"en\": the tu form adds an s before \"en\" for the sound: \"manges-en\", \"reprends-en\", \"vas-y\".",
+          "A French host keeps offering: \"Sers-toi !\" / \"Servez-vous !\" (help yourself), \"Reprends-en !\" (have some more), \"Il en reste, hein !\" (there's some left, you know), \"Finis-le, sinon ça va se perdre.\" Notice the imperative with \"en\": an -er verb's tu form gets its s back before \"en\" and \"y\" for the sound (\"manges-en\", \"vas-y\"); \"reprends-en\" already has its s.",
           "It is polite to accept a second helping (\"Volontiers, c'est délicieux\") but also normal to refuse once you've had enough. The trap: \"je suis plein(e)\" doesn't mean I'm full in French; it sounds crude or means drunk (and \"pleine\" is said of a pregnant animal). Say instead \"Non merci, je n'ai plus faim\", \"J'ai très bien mangé\", \"J'ai trop mangé\" or \"Je n'en peux plus\".",
           "Refuse with a compliment so the host doesn't think you disliked it: \"C'était délicieux, mais vraiment, je n'en peux plus.\" If you're pressed again, \"Juste une petite part, alors !\" is the graceful surrender.",
         ],

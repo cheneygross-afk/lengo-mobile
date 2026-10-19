@@ -17,7 +17,7 @@ export const PT_B1_U03: Lesson[] = [
         body: [
           "An impersonal expression has no person as its subject: \"é importante\" (it's important), \"é bom\" (it's good). With an infinitive after it, it states a general rule for everyone: \"é importante descansar\". You already know this shape from \"é melhor\" + infinitive.",
           "When you name who should act, Portuguese switches to \"que\" + subjunctive: \"é importante que você descanse\". The reason is the same as after \"quero que\": the sentence is about what should happen, not what is happening.",
-          "English says it's important for you to rest. Don't copy that structure with \"para você\". The natural way to name the person is \"que você\" + subjunctive, and never \"que\" + infinitive.",
+          "English says it's important for you to rest. Don't copy it word for word with \"para você\": the standard way to name the person is \"que você\" + subjunctive, and never \"que\" + infinitive.",
         ],
         examples: [
           { es: "É importante descansar depois de uma cirurgia.", en: "It's important to rest after surgery." },
@@ -254,7 +254,7 @@ export const PT_B1_U03: Lesson[] = [
         body: [
           "An emotion about what someone else does takes \"que\" + subjunctive: \"fico feliz que você esteja aqui\" (I'm glad you're here). English uses a plain verb, and the fact can be completely certain, so this feels odd. Portuguese isn't asking whether it's true. The clause is the object of a feeling, and feelings call for the subjunctive, just as wanting and hoping did.",
           "\"Ficar\" + adjective is the everyday way to say how something makes you feel: \"fico feliz\", \"fico triste\", \"fico chateado\" (I get upset). \"Adorar\" and \"odiar\" follow the same rule: \"adoro que você cozinhe\", \"odeio que ele fume\".",
-          "For something already done you'll hear \"tenha\" + participle: \"fico feliz que você tenha vindo\" (I'm glad you came). Learn to recognise it for now; you'll build it yourself later. In relaxed speech many Brazilians use the indicative here (\"fico feliz que você veio\"), but the subjunctive is the standard.",
+          "For something already done you'll hear \"tenha\" + participle: \"fico feliz que você tenha vindo\" (I'm glad you came). Learn to recognize it for now; you'll build it yourself later. In relaxed speech many Brazilians use the indicative here (\"fico feliz que você veio\"), but the subjunctive is the standard.",
         ],
         examples: [
           { es: "Fico feliz que você esteja aqui.", en: "I'm glad you're here." },
@@ -295,7 +295,7 @@ export const PT_B1_U03: Lesson[] = [
         heading: "Que pena que, tenho medo que, me incomoda que",
         body: [
           "\"Que pena que\" (what a shame that) reacts to bad news: \"que pena que você não possa vir\". \"Tenho medo que\" (I'm afraid that) looks ahead to something you fear: \"tenho medo que chova\". Many speakers add \"de\" (\"tenho medo de que\"); both are correct.",
-          "With \"incomodar\", \"preocupar\" and \"irritar\", the thing that bothers you is the subject and you're the object: \"me incomoda que ele fale alto\" (it bothers me that he talks loudly). Put \"me\" first, as Brazilians do, and don't look for a word for it: there isn't one.",
+          "With \"incomodar\", \"preocupar\" and \"irritar\", the thing that bothers you is the subject and you're the object: \"me incomoda que ele fale alto\" (it bothers me that he talks loudly). In speech Brazilians put \"me\" first (formal writing has \"incomoda-me\"), and don't look for a word for it: there isn't one.",
           "A common slip is a future after a fear: \"tenho medo que ele vai perder o emprego\" is wrong. The present subjunctive already points forward: \"tenho medo que ele perca o emprego\".",
         ],
         examples: [
@@ -755,7 +755,7 @@ export const PT_B1_U03: Lesson[] = [
         ],
         examples: [
           { es: "Duvido que ela ligue hoje.", en: "I doubt she'll call today." },
-          { es: "É possível que chova no fim de semana.", en: "It might rain at the weekend." },
+          { es: "É possível que chova no fim de semana.", en: "It might rain on the weekend." },
           { es: "Não é verdade que o restaurante seja caro.", en: "It's not true that the restaurant is expensive." },
           { es: "Talvez o João esteja no escritório.", en: "Maybe João is at the office." },
           { es: "Duvido que eles saibam o endereço.", en: "I doubt they know the address." },
@@ -1057,7 +1057,7 @@ export const PT_B1_U03: Lesson[] = [
           {
             type: "speak",
             text: "Pode ser que chova amanhã.",
-            tip: "The ch in chova sounds like English sh, and the stress falls on the first syllable: CHO-va.",
+            tip: "The ch in chova sounds like English sh, and the stressed o is closed: SHÔ-va (while \"chove\" has an open ó).",
             explanation: "\"Pode ser que\" always takes the subjunctive: \"chova\", from \"chover\".",
           },
         ],
@@ -1303,7 +1303,7 @@ export const PT_B1_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I think the film is good.",
+        source: "I think the movie is good.",
         answer: "Acho que o filme é bom.",
         altAnswers: ["Eu acho que o filme é bom."],
         explanation: "A positive \"acho que\" states a belief, so the indicative \"é\" follows.",
@@ -1312,7 +1312,7 @@ export const PT_B1_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I don't think the film is good.",
+        source: "I don't think the movie is good.",
         answer: "Não acho que o filme seja bom.",
         altAnswers: ["Eu não acho que o filme seja bom."],
         explanation: "Adding \"não\" denies the belief, so \"é\" becomes the subjunctive \"seja\".",
@@ -1659,10 +1659,10 @@ export const PT_B1_U03: Lesson[] = [
         examples: [
           { es: "É importante beber muita água no verão.", en: "It's important to drink lots of water in summer." },
           { es: "É importante que você beba muita água.", en: "It's important that you drink lots of water." },
-          { es: "É melhor que você vá de metrô.", en: "It's better if you go by metro." },
+          { es: "É melhor que você vá de metrô.", en: "It's better if you go by subway." },
           { es: "É necessário chegar cedo para a prova.", en: "You need to arrive early for the exam." },
           { es: "É possível que o voo atrase.", en: "The flight might be delayed." },
-          { es: "É bom que a gente saia cedo.", en: "It's good that we're leaving early." },
+          { es: "É bom que a gente saia cedo.", en: "We should leave early." },
         ],
         checkpoint: [
           {
@@ -2067,7 +2067,7 @@ export const PT_B1_U03: Lesson[] = [
             source: "It's important that you rest.",
             answer: "É importante que você descanse.",
             altAnswers: ["É importante que o senhor descanse.", "É importante que a senhora descanse.", "É importante que vocês descansem."],
-            explanation: "A judgement about another person's action: \"é importante que\" + subjunctive. \"Descansar\" is an -ar verb, so it takes -e: \"descanse\".",
+            explanation: "A judgment about another person's action: \"é importante que\" + subjunctive. \"Descansar\" is an -ar verb, so it takes -e: \"descanse\".",
           },
           {
             type: "fill-blank",

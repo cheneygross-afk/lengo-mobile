@@ -20,7 +20,7 @@ export const PT_C2_U24: Lesson[] = [
         ],
         examples: [
           { es: "A empresa pretende abrir duas lojas em Manaus no ano que vem.", en: "The company intends to open two shops in Manaus next year." },
-          { es: "Eventualmente o voo atrasa, mas raramente é cancelado.", en: "The flight is occasionally delayed, but rarely cancelled." },
+          { es: "Eventualmente o voo atrasa, mas raramente é cancelado.", en: "The flight is occasionally delayed, but rarely canceled." },
           { es: "O estudo foi realizado com mil famílias do Recife.", en: "The study was carried out with a thousand families in Recife." },
           { es: "Reduzir o desperdício é a prioridade do novo gerente.", en: "Cutting waste is the new manager's priority." },
           { es: "Ela é a líder da equipe de atendimento ao cliente.", en: "She's the customer service team leader." },
@@ -57,12 +57,12 @@ export const PT_C2_U24: Lesson[] = [
       {
         heading: "Reporting verbs and reformulation",
         body: [
-          "When you summarise, the reporting verb carries your reading of the source, so choose it as carefully as the facts. \"Afirmar\" and \"declarar\" are neutral. \"Sustentar\" means to maintain against opposition, and \"alegar\" signals that the claim is unproven. \"Admitir\" concedes a point against one's interest, \"ponderar\" weighs, and \"ressalvar\" adds a caveat. \"Refutar\" is to disprove with arguments, and \"insinuar\" is to imply without saying. Swapping \"afirma\" for \"alega\" changes the story.",
+          "When you summarize, the reporting verb carries your reading of the source, so choose it as carefully as the facts. \"Afirmar\" and \"declarar\" are neutral. \"Sustentar\" means to maintain against opposition, and \"alegar\" signals that the claim is unproven. \"Admitir\" concedes a point against one's interest, \"ponderar\" weighs, and \"ressalvar\" adds a caveat. \"Refutar\" is to disprove with arguments, and \"insinuar\" is to imply without saying. Swapping \"afirma\" for \"alega\" changes the story.",
           "Reformulation markers let you explain a dense source without copying it: \"ou seja\", \"isto é\", \"vale dizer\" (formal), \"em outras palavras\", and for closing, \"em suma\" or \"em síntese\". Paraphrase means new syntax, not synonyms dropped into the author's sentence.",
         ],
         examples: [
-          { es: "O ministro afirmou que o programa será mantido.", en: "The minister stated that the programme will be kept." },
-          { es: "A defesa alega que o réu estava em Curitiba naquela noite.", en: "The defence claims the defendant was in Curitiba that night." },
+          { es: "O ministro afirmou que o programa será mantido.", en: "The minister stated that the program will be kept." },
+          { es: "A defesa alega que o réu estava em Curitiba naquela noite.", en: "The defense claims the defendant was in Curitiba that night." },
           { es: "A autora admite que a amostra é pequena, mas sustenta a conclusão.", en: "The author admits the sample is small, but stands by the conclusion." },
           { es: "O relatório ressalva que os dados de 2024 são preliminares.", en: "The report notes that the 2024 data are preliminary." },
           { es: "A inflação subiu, vale dizer, o salário compra menos.", en: "Inflation has risen; in other words, wages buy less." },
@@ -100,7 +100,7 @@ export const PT_C2_U24: Lesson[] = [
         heading: "Mediating several sources for a Brazilian reader",
         body: [
           "A synthesis compares rather than lists. \"Enquanto o relatório da ONU defende..., o estudo da USP...\" and \"ao passo que\" set two views side by side; \"ambos\" and \"convergem em\" show agreement; \"divergem quanto a\" names the point of conflict. Lead with what the reader needs, not the order in which you read the sources.",
-          "Mediation also means localising. Convert miles and Fahrenheit, write money as \"US$ 3 milhões\" or \"R$ 15 milhões\", put dates in day-month order, and explain what a Brazilian reader can't know (\"o NHS, o sistema público de saúde britânico\"). Brazilian decimals use a comma: \"2,5%\".",
+          "Mediation also means localizing. Convert miles and Fahrenheit, write money as \"US$ 3 milhões\" or \"R$ 15 milhões\", put dates in day-month order, and explain what a Brazilian reader can't know (\"o NHS, o sistema público de saúde britânico\"). Brazilian decimals use a comma: \"2,5%\".",
         ],
         examples: [
           { es: "Enquanto o relatório britânico defende mais impostos, o estudo da USP propõe cortar gastos.", en: "While the British report argues for higher taxes, the USP study proposes cutting spending." },
@@ -151,7 +151,7 @@ export const PT_C2_U24: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The defence [maintains] that the evidence is illegal.",
+        en: "The defense [maintains] that the evidence is illegal.",
         sentence: "A defesa ___ que a prova é ilegal.",
         answer: "sustenta",
         altAnswers: ["alega", "defende"],
@@ -196,7 +196,7 @@ export const PT_C2_U24: Lesson[] = [
         question: "A source says the minister \"denied any wrongdoing\". Your summary says: \"O ministro insinuou que não fez nada de errado.\" What's wrong?",
         options: ["\"Insinuar\" means to imply; the minister denied it openly: \"negou qualquer irregularidade\".", "Nothing: the verb is accurate.", "It should use \"alegou\", because he is lying.", "It should be in the conditional."],
         correctIndex: 0,
-        explanation: "An open denial is \"negar\". \"Insinuar\" distorts the source, and \"alegar\" would add a judgement the source doesn't make.",
+        explanation: "An open denial is \"negar\". \"Insinuar\" distorts the source, and \"alegar\" would add a judgment the source doesn't make.",
       },
       {
         type: "listen-choose",
@@ -335,7 +335,7 @@ export const PT_C2_U24: Lesson[] = [
           { es: "Com todo o respeito, esse argumento não procede.", en: "With all due respect, that argument doesn't hold." },
           { es: "A tese do colega carece de fundamento.", en: "My colleague's thesis lacks any basis." },
           { es: "Concordo até certo ponto, mas os números dizem outra coisa.", en: "I agree up to a point, but the figures say otherwise." },
-          { es: "Senhor presidente, peço a palavra para uma questão de ordem.", en: "Mr Chairman, I ask for the floor on a point of order." },
+          { es: "Senhor presidente, peço a palavra para uma questão de ordem.", en: "Mr. Chairman, I ask for the floor on a point of order." },
           { es: "Deixa eu terminar, por favor. Não foi isso que eu disse.", en: "Let me finish, please. That's not what I said." },
         ],
         checkpoint: [
@@ -351,8 +351,8 @@ export const PT_C2_U24: Lesson[] = [
           {
             type: "speak",
             text: "Senhor presidente, peço a palavra para uma questão de ordem.",
-            prompt: "Say it in Portuguese: Mr Chairman, I ask for the floor on a point of order.",
-            tip: "\"Questão\": the u is silent, KES-tão.",
+            prompt: "Say it in Portuguese: Mr. Chairman, I ask for the floor on a point of order.",
+            tip: "\"Questão\": the u is silent and the stress falls on the end, kes-TÃO.",
             explanation: "\"Questão de ordem\" raises a procedural point and takes priority in formal debate.",
           },
         ],
@@ -500,7 +500,7 @@ export const PT_C2_U24: Lesson[] = [
             en: "According to the police, the suspect [allegedly received] bribes.",
             sentence: "Segundo a polícia, o suspeito ___ propina.",
             answer: "teria recebido",
-            explanation: "The conditional of rumour, \"teria recebido\", marks the fact as unconfirmed; \"recebeu\" would state it as true.",
+            explanation: "The conditional of rumor, \"teria recebido\", marks the fact as unconfirmed; \"recebeu\" would state it as true.",
           },
           {
             type: "listen-choose",
@@ -555,7 +555,7 @@ export const PT_C2_U24: Lesson[] = [
       {
         heading: "From specialist text to news",
         body: [
-          "Turning a specialist text into news means choosing the fact that matters to the reader, putting it in the headline, and attributing the technical source in the lide: \"segundo o laudo\", \"de acordo com o acórdão\", \"conforme dados do IBGE\". Siglas are spelt out at first mention: \"o IBGE (Instituto Brasileiro de Geografia e Estatística)\".",
+          "Turning a specialist text into news means choosing the fact that matters to the reader, putting it in the headline, and attributing the technical source in the lide: \"segundo o laudo\", \"de acordo com o acórdão\", \"conforme dados do IBGE\". Siglas are spelled out at first mention: \"o IBGE (Instituto Brasileiro de Geografia e Estatística)\".",
           "Then translate the jargon once, without talking down: \"a liminar, uma decisão provisória\", \"o IPCA, índice oficial de inflação\". Keep the specialist's caution: \"compatível com\" becomes \"indica\", never \"prova\".",
         ],
         examples: [
@@ -578,7 +578,7 @@ export const PT_C2_U24: Lesson[] = [
           {
             type: "speak",
             text: "De acordo com dados do IBGE, o desemprego caiu para seis vírgula oito por cento.",
-            prompt: "Read the bulletin aloud in Portuguese: According to IBGE data, unemployment fell to six point eight per cent.",
+            prompt: "Read the bulletin aloud in Portuguese: According to IBGE data, unemployment fell to six point eight percent.",
             tip: "Read the decimal comma as \"vírgula\"; say IBGE letter by letter: i-bê-gê-é.",
             explanation: "Brazilian numbers use a comma for decimals, read aloud as \"vírgula\".",
           },
@@ -599,7 +599,7 @@ export const PT_C2_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "According to the prosecutors, the businessman allegedly paid the councillors.",
+        source: "According to the prosecutors, the businessman allegedly paid the city council members.",
         answer: "Segundo o Ministério Público, o empresário teria pago os vereadores.",
         altAnswers: ["Segundo o Ministério Público, o empresário teria pagado os vereadores.", "De acordo com o Ministério Público, o empresário teria pago os vereadores.", "Segundo os promotores, o empresário teria pago os vereadores.", "Segundo o MP, o empresário teria pago os vereadores.", "De acordo com os promotores, o empresário teria pagado os vereadores."],
         explanation: "\"Teria pago\" (or \"pagado\") marks an allegation; Brazilian prosecutors are the \"Ministério Público\".",
@@ -708,7 +708,7 @@ export const PT_C2_U24: Lesson[] = [
           { es: "Observei que você chegou atrasado às três últimas reuniões.", en: "I've noticed you were late to the last three meetings." },
           { es: "O impacto foi que o cliente esperou vinte minutos.", en: "The impact was that the client waited twenty minutes." },
           { es: "Preciso que o relatório chegue até quinta. Conto com você.", en: "I need the report by Thursday. I'm counting on you." },
-          { es: "Entendo sua frustração, mas vamos separar as coisas.", en: "I understand your frustration, but let's take one thing at a time." },
+          { es: "Entendo sua frustração. Vamos separar as coisas.", en: "I understand your frustration. Let's take one thing at a time." },
           { es: "Vamos tratar esse problema na reunião de segunda.", en: "We'll deal with that problem at Monday's meeting." },
         ],
         checkpoint: [
@@ -765,7 +765,7 @@ export const PT_C2_U24: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[We got it wrong], and we apologise to our customers.",
+            en: "[We got it wrong], and we apologize to our customers.",
             sentence: "___, e pedimos desculpas aos nossos clientes.",
             answer: "Erramos",
             altAnswers: ["Nós erramos", "A gente errou"],
@@ -822,7 +822,7 @@ export const PT_C2_U24: Lesson[] = [
         source: "I've noticed the reports have arrived late three times this month.",
         answer: "Observei que os relatórios chegaram atrasados três vezes este mês.",
         altAnswers: ["Notei que os relatórios chegaram atrasados três vezes este mês.", "Observei que os relatórios chegaram atrasados três vezes neste mês.", "Percebi que os relatórios chegaram atrasados três vezes este mês.", "Observei que os relatórios atrasaram três vezes este mês."],
-        explanation: "Start with an observable fact, not a judgement: \"observei que\", \"notei que\".",
+        explanation: "Start with an observable fact, not a judgment: \"observei que\", \"notei que\".",
       },
       {
         type: "translate",
@@ -885,11 +885,11 @@ export const PT_C2_U24: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "Entendo sua frustração, mas vamos separar as coisas.",
+        audio: "Entendo sua frustração. Vamos separar as coisas.",
         question: "What does it mean?",
-        options: ["I understand your frustration, but let's take one thing at a time.", "I understand your frustration, so let's split up.", "I don't understand your frustration.", "Your frustration is separating the team."],
+        options: ["I understand your frustration. Let's take one thing at a time.", "I understand your frustration, so let's split up.", "I don't understand your frustration.", "Your frustration is separating the team."],
         correctIndex: 0,
-        explanation: "\"Vamos separar as coisas\" untangles issues without dismissing feelings.",
+        explanation: "\"Vamos separar as coisas\" untangles issues without dismissing feelings; no \"mas\", which would cancel the acknowledgement.",
       },
       {
         type: "dictation",
@@ -937,7 +937,7 @@ export const PT_C2_U24: Lesson[] = [
           { es: "Observou-se associação entre a exposição a poluentes e as internações por asma.", en: "An association was observed between exposure to pollutants and asthma admissions. (expert)" },
           { es: "Poluição aumenta internações de crianças por asma, aponta estudo.", en: "Pollution increases child asthma admissions, study finds. (press)" },
           { es: "Resumo: o estudo liga poluição a mais internações; isso reforça nosso projeto.", en: "Bottom line: the study links pollution to more admissions; that strengthens our project. (boss)" },
-          { es: "Quando o ar está mais poluído, mais crianças vão parar no hospital com asma.", en: "When the air is more polluted, more children end up in hospital with asthma. (public)" },
+          { es: "Quando o ar está mais poluído, mais crianças vão parar no hospital com asma.", en: "When the air is more polluted, more children end up in the hospital with asthma. (public)" },
           { es: "O estudo não prova que a poluição causa asma, mas mostra uma ligação forte.", en: "The study doesn't prove pollution causes asthma, but it shows a strong link. (public, careful)" },
         ],
         checkpoint: [
@@ -945,7 +945,7 @@ export const PT_C2_U24: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Write it for the general public, in plain Portuguese.",
-            source: "When the air is more polluted, more children end up in hospital.",
+            source: "When the air is more polluted, more children end up in the hospital.",
             answer: "Quando o ar está mais poluído, mais crianças vão parar no hospital.",
             altAnswers: ["Quando o ar está mais poluído, mais crianças acabam no hospital.", "Quando o ar fica mais poluído, mais crianças vão parar no hospital.", "Quando o ar está mais poluído, mais crianças acabam indo para o hospital.", "Quando o ar está mais poluído, mais crianças são internadas.", "Quando o ar fica mais poluído, mais crianças acabam no hospital."],
             explanation: "Plain register: a subject (\"o ar\"), an active verb and the everyday \"ir parar no hospital\" instead of \"internações\".",
@@ -1019,16 +1019,16 @@ export const PT_C2_U24: Lesson[] = [
         examples: [
           { es: "Preciso te atualizar: vamos atrasar três semanas.", en: "I need to update you: we're going to be three weeks late. (boss)" },
           { es: "Vou ser direto com vocês: o prazo não vai ser cumprido.", en: "I'll be straight with you: we won't meet the deadline. (team)" },
-          { es: "Informamos que a entrega foi remarcada para 15 de julho.", en: "Please note that delivery has been rescheduled to 15 July. (clients)" },
+          { es: "Informamos que a entrega foi remarcada para 15 de julho.", en: "Please note that delivery has been rescheduled to July 15. (clients)" },
           { es: "Comunicamos a essa Agência que o cronograma foi revisto, conforme o anexo.", en: "We hereby inform the Agency that the schedule has been revised, as attached. (regulator)" },
-          { es: "Pedimos desculpas pelo transtorno e seguimos à disposição.", en: "We apologise for the inconvenience and remain at your disposal." },
+          { es: "Pedimos desculpas pelo transtorno e seguimos à disposição.", en: "We apologize for the inconvenience and remain at your disposal." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into formal Portuguese for clients.",
-            source: "Please note that the delivery has been rescheduled to 10 June.",
+            source: "Please note that the delivery has been rescheduled to June 10.",
             answer: "Informamos que a entrega foi remarcada para 10 de junho.",
             altAnswers: ["Informamos que a entrega foi remarcada para o dia 10 de junho.", "Comunicamos que a entrega foi remarcada para 10 de junho.", "Informamos que a entrega foi reagendada para 10 de junho.", "Informamos que a entrega foi adiada para 10 de junho.", "Informamos que a entrega foi remarcada para 10/6."],
             explanation: "\"Informamos que\" opens a formal notice to clients; 'please note' has no literal equivalent.",
@@ -1128,7 +1128,7 @@ export const PT_C2_U24: Lesson[] = [
       {
         type: "speak",
         text: "Quando o ar está mais poluído, mais crianças vão parar no hospital com asma.",
-        prompt: "Explain the study to a radio audience in Portuguese: When the air is more polluted, more children end up in hospital with asthma.",
+        prompt: "Explain the study to a radio audience in Portuguese: When the air is more polluted, more children end up in the hospital with asthma.",
         tip: "\"Poluído\" has four syllables: po-lu-Í-do.",
         explanation: "The public register: active verbs and everyday words, the same claim as the expert's \"associação\".",
       },
@@ -1158,7 +1158,7 @@ export const PT_C2_U24: Lesson[] = [
       {
         heading: "The report",
         body: [
-          "An analyst's report contains these sentences. \"*Eventualmente, os resultados confirmaram a hipótese\" uses \"eventualmente\" for 'eventually'; write \"por fim\". \"*A pesquisa realizou que os jovens leem menos\" uses \"realizar\" for 'realise'; write \"constatou\" or \"concluiu\". \"*O autor alega que a amostra é pequena\" makes the author's honest caveat look dubious; write \"admite\" or \"ressalva\". \"*Conquanto os dados são limitados\" needs the subjunctive: \"sejam\".",
+          "An analyst's report contains these sentences. \"*Eventualmente, os resultados confirmaram a hipótese\" uses \"eventualmente\" for 'eventually'; write \"por fim\". \"*A pesquisa realizou que os jovens leem menos\" uses \"realizar\" for 'realize'; write \"constatou\" or \"concluiu\". \"*O autor alega que a amostra é pequena\" makes the author's honest caveat look dubious; write \"admite\" or \"ressalva\". \"*Conquanto os dados são limitados\" needs the subjunctive: \"sejam\".",
           "Noun stacks also slip through: \"*a equipe gestão risco\" needs its prepositions, \"a equipe de gestão de riscos\". So does copying the source's sentences into a summary, which is not paraphrase.",
         ],
         examples: [
@@ -1176,7 +1176,7 @@ export const PT_C2_U24: Lesson[] = [
             source: "The survey found that consumption fell.",
             answer: "A pesquisa constatou que o consumo caiu.",
             altAnswers: ["A pesquisa mostrou que o consumo caiu.", "A pesquisa concluiu que o consumo caiu.", "A pesquisa verificou que o consumo caiu.", "A pesquisa apontou que o consumo caiu.", "A pesquisa revelou que o consumo caiu."],
-            explanation: "\"Realizar\" means to carry out; 'realise' or 'find' is \"constatar\", \"perceber\" or \"concluir\".",
+            explanation: "\"Realizar\" means to carry out; 'realize' or 'find' is \"constatar\", \"perceber\" or \"concluir\".",
           },
           {
             type: "fill-blank",
@@ -1381,13 +1381,13 @@ export const PT_C2_U24: Lesson[] = [
       {
         heading: "The news story: headline, lide, attribution",
         body: [
-          "The facts: at 7:40 on a Tuesday, ammonia leaked at the Serra Azul Alimentos food factory in Contagem, near Belo Horizonte. Forty workers were taken to hospital, none in a serious condition; residents of two nearby streets were evacuated for three hours; the cause is not yet known. The fire brigade suspects a faulty valve.",
+          "The facts: at 7:40 on a Tuesday, ammonia leaked at the Serra Azul Alimentos food factory in Contagem, near Belo Horizonte. Forty workers were taken to the hospital, none in a serious condition; residents of two nearby streets were evacuated for three hours; the cause is not yet known. The fire department suspects a faulty valve.",
           "The news version moves the most important fact to the front and adds sources. The headline uses the present: \"Vazamento de amônia em fábrica de Contagem leva 40 trabalhadores ao hospital\". The lide answers the six questions in one or two sentences, and attribution is everywhere: \"segundo o Corpo de Bombeiros\", \"em nota, a empresa informou\". The suspected cause goes in the conditional: \"a falha teria ocorrido em uma válvula\".",
         ],
         examples: [
-          { es: "Vazamento de amônia em fábrica de Contagem leva 40 trabalhadores ao hospital", en: "Ammonia leak at Contagem factory sends 40 workers to hospital" },
+          { es: "Vazamento de amônia em fábrica de Contagem leva 40 trabalhadores ao hospital", en: "Ammonia leak at Contagem factory sends 40 workers to the hospital" },
           { es: "Um vazamento de amônia atingiu na manhã desta terça-feira a fábrica da Serra Azul Alimentos, em Contagem.", en: "An ammonia leak hit the Serra Azul Alimentos factory in Contagem on Tuesday morning." },
-          { es: "Segundo o Corpo de Bombeiros, nenhum dos atendidos está em estado grave.", en: "According to the fire brigade, none of those treated is in a serious condition." },
+          { es: "Segundo o Corpo de Bombeiros, nenhum dos atendidos está em estado grave.", en: "According to the fire department, none of those treated is in a serious condition." },
           { es: "A falha teria ocorrido em uma válvula do sistema de refrigeração.", en: "The fault allegedly occurred in a valve in the refrigeration system." },
           { es: "Moradores de duas ruas foram retirados de casa por três horas.", en: "Residents of two streets were evacuated from their homes for three hours." },
         ],
@@ -1396,7 +1396,7 @@ export const PT_C2_U24: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Write it as a Brazilian headline.",
-            source: "Ammonia leak sends 40 workers to hospital.",
+            source: "Ammonia leak sends 40 workers to the hospital.",
             answer: "Vazamento de amônia leva 40 trabalhadores ao hospital",
             altAnswers: ["Vazamento de amônia leva 40 trabalhadores ao hospital.", "Vazamento de amônia leva 40 trabalhadores para o hospital", "Vazamento de amônia deixa 40 trabalhadores no hospital", "Vazamento de amônia manda 40 trabalhadores ao hospital"],
             explanation: "Present tense for a past event, no article, the number up front. \"Amônia\" has a circumflex in Brazil.",
@@ -1408,7 +1408,7 @@ export const PT_C2_U24: Lesson[] = [
             sentence: "A falha ___ em uma válvula.",
             answer: "teria ocorrido",
             altAnswers: ["teria acontecido"],
-            explanation: "The cause is unconfirmed, so the press uses the conditional of rumour.",
+            explanation: "The cause is unconfirmed, so the press uses the conditional of rumor.",
           },
         ],
       },
@@ -1421,7 +1421,7 @@ export const PT_C2_U24: Lesson[] = [
         examples: [
           { es: "A Serra Azul Alimentos lamenta profundamente o ocorrido.", en: "Serra Azul Alimentos deeply regrets what happened." },
           { es: "Assumimos a responsabilidade pelo atendimento de todos os afetados.", en: "We take responsibility for the care of everyone affected." },
-          { es: "Quero agradecer aos bombeiros, aos médicos e aos vizinhos que ajudaram.", en: "I want to thank the firefighters, the doctors and the neighbours who helped." },
+          { es: "Quero agradecer aos bombeiros, aos médicos e aos vizinhos que ajudaram.", en: "I want to thank the firefighters, the doctors and the neighbors who helped." },
           { es: "Muitos vão perguntar: como isso foi acontecer?", en: "Many will ask: how could this happen?" },
           { es: "Vamos responder com fatos, com perícia e com transparência.", en: "We will answer with facts, with expert investigation and with transparency." },
           { es: "Na sexta-feira, apresentaremos o resultado da perícia.", en: "On Friday, we will present the results of the investigation." },
@@ -1500,7 +1500,7 @@ export const PT_C2_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Write it for the news story.",
-        source: "According to the fire brigade, none of the workers is in a serious condition.",
+        source: "According to the fire department, none of the workers is in a serious condition.",
         answer: "Segundo o Corpo de Bombeiros, nenhum dos trabalhadores está em estado grave.",
         altAnswers: ["De acordo com o Corpo de Bombeiros, nenhum dos trabalhadores está em estado grave.", "Segundo os bombeiros, nenhum dos trabalhadores está em estado grave.", "Segundo o Corpo de Bombeiros, nenhum trabalhador está em estado grave.", "De acordo com os bombeiros, nenhum trabalhador está em estado grave."],
         explanation: "Attribution first, then the fact; \"estado grave\" is the standard phrase.",
@@ -1526,7 +1526,7 @@ export const PT_C2_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Write it for the mayor's speech.",
-        source: "I want to thank the firefighters, the doctors and the neighbours who helped.",
+        source: "I want to thank the firefighters, the doctors and the neighbors who helped.",
         answer: "Quero agradecer aos bombeiros, aos médicos e aos vizinhos que ajudaram.",
         altAnswers: ["Eu quero agradecer aos bombeiros, aos médicos e aos vizinhos que ajudaram.", "Quero agradecer os bombeiros, os médicos e os vizinhos que ajudaram.", "Agradeço aos bombeiros, aos médicos e aos vizinhos que ajudaram."],
         explanation: "\"Agradecer a alguém\" in the norm; \"agradecer alguém\" is common in speech. A triad of thanks opens the speech.",
@@ -1681,7 +1681,7 @@ export const PT_C2_U24: Lesson[] = [
         heading: "The interpreter",
         body: [
           "The engineer who led the inspection, Dr. Helen Ward, answers in English, and the interpreter, Paula, renders her consecutively. Ward says: 'Actually, the building is not safe to use at the moment. Eventually, after the repairs, we expect it to reopen.' A literal rendering (\"*Atualmente o prédio não é seguro... Eventualmente esperamos reabri-lo\") would say the opposite of what she means. Paula says: \"Na verdade, neste momento o prédio não tem condições de uso. Ao fim das obras, a expectativa é que ele seja reaberto.\"",
-          "She also localises: 'cracks up to two inches wide' becomes \"rachaduras de até cinco centímetros\". She keeps the register of a public briefing, and she speaks in the first person for the speaker (\"nós recomendamos\"), as professional interpreters do.",
+          "She also localizes: 'cracks up to two inches wide' becomes \"rachaduras de até cinco centímetros\". She keeps the register of a public briefing, and she speaks in the first person for the speaker (\"nós recomendamos\"), as professional interpreters do.",
         ],
         examples: [
           { es: "Na verdade, neste momento o prédio não tem condições de uso.", en: "Actually, the building is not safe to use at the moment." },
@@ -1756,7 +1756,7 @@ export const PT_C2_U24: Lesson[] = [
         source: "We found cracks up to two inches wide.",
         answer: "Encontramos rachaduras de até cinco centímetros.",
         altAnswers: ["Encontramos rachaduras de até cinco centímetros de largura.", "Encontramos fissuras de até cinco centímetros.", "Encontramos rachaduras com até cinco centímetros de largura.", "Encontramos rachaduras de até 5 cm."],
-        explanation: "Localise units for a Brazilian audience: two inches is about five centimetres.",
+        explanation: "Localize units for a Brazilian audience: two inches is about five centimeters.",
       },
       {
         type: "word-order",
@@ -1829,7 +1829,7 @@ export const PT_C2_U24: Lesson[] = [
       {
         heading: "The synthesis: five minutes for the secretary",
         body: [
-          "You work in the communications office of Campinas city hall during a dengue surge. Three sources have landed on your desk. The \"boletim epidemiológico\" reports 4,200 confirmed cases in April, three times April last year, and three deaths \"em investigação\". A study by local researchers links the rise to an unusually hot autumn and to water stored in uncovered containers. And the residents' associations complain that the \"fumacê\" (insecticide spraying) hasn't reached the eastern neighbourhoods.",
+          "You work in the communications office of Campinas city hall during a dengue surge. Three sources have landed on your desk. The \"boletim epidemiológico\" reports 4,200 confirmed cases in April, three times April last year, and three deaths \"em investigação\". A study by local researchers links the rise to an unusually hot autumn and to water stored in uncovered containers. And the residents' associations complain that the \"fumacê\" (insecticide spraying) hasn't reached the eastern neighborhoods.",
           "The secretary has five minutes. The \"sumário executivo\" leads with the conclusion and the decision required, then compares the sources: what they agree on (\"convergem em\"), where they differ (\"divergem quanto a\"), and what is still unknown. Choose reporting verbs that are fair to each source: the boletim \"registra\", the study \"aponta\", the associations \"reclamam\" or \"denunciam\". Don't write that they \"alegam\" unless you doubt them.",
         ],
         examples: [
@@ -1875,7 +1875,7 @@ export const PT_C2_U24: Lesson[] = [
         ],
         examples: [
           { es: "A Prefeitura de Campinas informa que foram confirmados 4.200 casos de dengue em abril.", en: "Campinas city hall reports that 4,200 dengue cases were confirmed in April." },
-          { es: "Reconhecemos que o fumacê não chegou a todos os bairros, e isso será corrigido nesta semana.", en: "We acknowledge that the spraying hasn't reached every neighbourhood, and this will be corrected this week." },
+          { es: "Reconhecemos que o fumacê não chegou a todos os bairros, e isso será corrigido nesta semana.", en: "We acknowledge that the spraying hasn't reached every neighborhood, and this will be corrected this week." },
           { es: "A partir de segunda-feira, dez equipes extras vão atuar na zona leste.", en: "From Monday, ten extra teams will work in the eastern zone." },
           { es: "Pedimos a ajuda de todos para eliminar a água parada em casa.", en: "We ask everyone's help in getting rid of standing water at home." },
           { es: "Três óbitos estão em investigação; o resultado será divulgado assim que for concluído.", en: "Three deaths are under investigation; the result will be released as soon as it is complete." },
@@ -1885,10 +1885,10 @@ export const PT_C2_U24: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Write it for the nota oficial.",
-            source: "We acknowledge that the spraying hasn't reached every neighbourhood.",
+            source: "We acknowledge that the spraying hasn't reached every neighborhood.",
             answer: "Reconhecemos que o fumacê não chegou a todos os bairros.",
             altAnswers: ["Reconhecemos que o fumacê ainda não chegou a todos os bairros.", "Nós reconhecemos que o fumacê não chegou a todos os bairros.", "Reconhecemos que a nebulização não chegou a todos os bairros.", "Reconhecemos que o fumacê não alcançou todos os bairros."],
-            explanation: "\"Reconhecemos que\" takes responsibility for a specific failure without dramatising it.",
+            explanation: "\"Reconhecemos que\" takes responsibility for a specific failure without dramatizing it.",
           },
           {
             type: "translate",
@@ -1950,7 +1950,7 @@ export const PT_C2_U24: Lesson[] = [
         source: "The bulletin records 4,200 confirmed cases, three times last April's figure.",
         answer: "O boletim registra 4.200 casos confirmados, o triplo de abril do ano passado.",
         altAnswers: ["O boletim registra 4.200 casos confirmados, três vezes o número de abril do ano passado.", "O boletim registra 4.200 casos confirmados, o triplo do registrado em abril do ano passado.", "O boletim registra 4.200 casos confirmados, o triplo de abril passado.", "O boletim epidemiológico registra 4.200 casos confirmados, o triplo de abril do ano passado."],
-        explanation: "Brazilian style uses a full stop for thousands (\"4.200\"); \"o triplo de\" makes the comparison tangible.",
+        explanation: "Brazilian style uses a period for thousands (\"4.200\"); \"o triplo de\" makes the comparison tangible.",
       },
       {
         type: "translate",
@@ -2263,7 +2263,7 @@ export const PT_C2_U24_WRITING: WriteExercise = {
   rubric: [
     "The executive summary leads with the conclusion and compares the sources with stance-accurate reporting verbs and synthesis connectors (\"segundo\", \"aponta\", \"alega\" only if the claim is disputed, \"enquanto\", \"convergem em\", \"divergem quanto a\").",
     "The nota oficial takes responsibility in the active voice (\"reconhecemos\", \"assumimos\", \"lamentamos\"), gives facts with numbers and dates, and avoids blame-shifting passives (\"houve uma falha\"), calques (\"endereçar\") and gerundismo.",
-    "Conditions, deadlines and unconfirmed facts are precise: \"caso\" / \"desde que\" + subjunctive, \"assim que\" + future subjunctive, \"até as 18h\", the conditional of rumour (\"teria ocorrido\") or \"em apuração\" for what is not yet known.",
+    "Conditions, deadlines and unconfirmed facts are precise: \"caso\" / \"desde que\" + subjunctive, \"assim que\" + future subjunctive, \"até as 18h\", the conditional of rumor (\"teria ocorrido\") or \"em apuração\" for what is not yet known.",
     "The talking points are short and repeatable, and the prepared answer uses rhetoric for the ear: prolepsis (\"alguns vão dizer que...\"), concede-then-rebut (\"é verdade que..., mas\") and a bridge back to the key message (\"o importante agora é...\")."
   ],
   modelAnswer: "1. SUMÁRIO EXECUTIVO (para a prefeita)\n\nConclusão: o abastecimento deve ser normalizado até quinta-feira às 18h, mas os hospitais precisam de caminhões-pipa ainda hoje.\n\nSegundo o relatório técnico da companhia de água, uma bomba da estação de tratamento queimou na madrugada de segunda-feira; a peça de reposição chega amanhã. A associação dos hospitais relata que dois prontos-socorros já adiaram cirurgias e pede prioridade no abastecimento. A imprensa afirma que a falha teria sido prevista em uma auditoria de 2023, informação que a companhia ainda não confirmou. As três fontes convergem quanto à gravidade, mas divergem quanto à responsabilidade: enquanto a companhia fala em \"falha imprevisível\", os jornais apontam falta de manutenção.\n\nDecisão necessária: autorizar a contratação emergencial de 30 caminhões-pipa.\n\n2. NOTA OFICIAL\n\nA Prefeitura lamenta profundamente os transtornos causados pela interrupção no abastecimento de água, que atinge cerca de 200 mil moradores desde segunda-feira. Reconhecemos que a população deveria ter sido informada mais cedo, e assumimos a responsabilidade por essa falha de comunicação.\n\nA partir de hoje, 30 caminhões-pipa vão atender, com prioridade, hospitais, escolas e unidades de saúde. A previsão é que o abastecimento seja normalizado até quinta-feira às 18h, desde que a peça de reposição seja instalada no prazo. Caso haja qualquer mudança, ela será comunicada imediatamente. As causas da falha estão em apuração, e o resultado será divulgado assim que a investigação for concluída.\n\n3. MENSAGENS-CHAVE\n\n- A água volta até quinta-feira às 18h.\n- Hospitais e escolas têm prioridade nos caminhões-pipa.\n- Vamos apurar tudo e divulgar o resultado.\n\nPergunta difícil: \"A prefeitura sabia do risco desde 2023?\"\nResposta: Alguns vão dizer que a falha era previsível. É verdade que uma auditoria apontou a necessidade de manutenção, mas ela não indicava risco imediato. Vamos apurar se algum alerta foi ignorado e, se houver responsáveis, eles vão responder. O importante agora é garantir água para quem mais precisa.",

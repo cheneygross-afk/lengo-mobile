@@ -440,7 +440,7 @@ export const FR_B1_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Join: « J'ai une amie. Elle parle cinq langues. »",
+        question: "Join: \"J'ai une amie. Elle parle cinq langues.\"",
         options: [
           "J'ai une amie qui parle cinq langues.",
           "J'ai une amie qu'elle parle cinq langues.",
@@ -503,7 +503,6 @@ export const FR_B1_U16: Lesson[] = [
             en: "Mix with the whisk [you'll find] in the drawer.",
             sentence: "Mélangez avec le fouet ___ dans le tiroir.",
             answer: "que vous trouverez",
-            altAnswers: ["que tu trouveras"],
             explanation: "Object of trouver → \"que\".",
           },
         ],
@@ -640,7 +639,6 @@ export const FR_B1_U16: Lesson[] = [
         en: "Pour the batter [you've prepared].",
         sentence: "Versez la pâte ___.",
         answer: "que vous avez préparée",
-        altAnswers: ["que tu as préparée"],
         explanation: "\"Que\" + agreement.",
       },
       {
@@ -1406,7 +1404,7 @@ export const FR_B1_U16: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "« L'homme qui l'a vu est parti. » What does it mean?",
+            question: "\"L'homme qui l'a vu est parti.\" What does it mean?",
             options: ["The man who saw him has left.", "The man he saw has left.", "The man saw him leave.", "He saw the man leave."],
             correctIndex: 0,
             explanation: "\"Qui\" = subject (the man saw); \"l'\" = him.",
@@ -1863,7 +1861,7 @@ export const FR_B1_U16: Lesson[] = [
         ],
         examples: [
           { es: "J'ai une amie dont le père est médecin.", en: "I've got a friend whose father is a doctor." },
-          { es: "C'est l'écrivain dont j'ai lu tous les livres.", en: "He's the writer whose books I've read all of." },
+          { es: "C'est l'écrivain dont j'ai lu tous les livres.", en: "He's the writer all of whose books I've read." },
           { es: "La femme dont j'admire le travail donne une conférence ce soir.", en: "The woman whose work I admire is giving a talk tonight." },
           { es: "Les voisins dont la voiture est mal garée sont en vacances.", en: "The neighbours whose car is badly parked are on holiday." },
           { es: "C'est un village dont les habitants parlent encore le basque.", en: "It's a village whose inhabitants still speak Basque." },
@@ -2369,7 +2367,7 @@ export const FR_B1_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Quand je suis arrivé, le bus ___ je devais prendre ___. »",
+        question: "\"Quand je suis arrivé, le bus ___ je devais prendre ___.\"",
         options: ["que / était parti", "qui / était parti", "dont / est parti", "que / partira"],
         correctIndex: 0,
         explanation: "Object of prendre → \"que\"; already gone → PQP.",
@@ -2611,7 +2609,7 @@ export const FR_B1_U16: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« La personne ___ j'attends est en retard. »",
+            question: "\"La personne ___ j'attends est en retard.\"",
             options: ["que", "dont", "qui", "où"],
             correctIndex: 0,
             explanation: "\"Attendre\" takes a direct object (no preposition, unlike wait for).",

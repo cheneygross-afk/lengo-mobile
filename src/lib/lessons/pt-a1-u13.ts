@@ -12,10 +12,10 @@ export const PT_A1_U13: Lesson[] = [
     duration: "12 min",
     sections: [
       {
-        heading: "Shops and services",
+        heading: "Stores and services",
         body: [
           "Learn each place with its article, because the article will soon fuse with \"em\", \"de\" and \"a\": \"a padaria\" (bakery and café), \"a farmácia\", \"o mercado\" (local grocery), \"o supermercado\", \"o banco\", \"a banca\" (newsstand), \"o shopping\" (mall) and \"o posto de gasolina\".",
-          "The post office is always plural: \"os correios\", so \"os correios estão fechados\". And \"o shopping\" is the building, never the activity: shopping is \"fazer compras\", as you saw in Unit 5.",
+          "The post office is always plural: \"os correios\", so \"os correios estão fechados\". And \"o shopping\" is the building, never the activity: shopping is \"fazer compras\", as you saw in Unit 6.",
         ],
         examples: [
           { es: "A padaria abre às seis.", en: "The bakery opens at six." },
@@ -54,7 +54,7 @@ export const PT_A1_U13: Lesson[] = [
       {
         heading: "Public places and transport",
         body: [
-          "\"O posto de saúde\" is the local public health clinic; \"o hospital\" is for emergencies. \"A escola\", \"a igreja\" and \"a praça\" (square) are at the heart of most bairros (neighbourhoods).",
+          "\"O posto de saúde\" is the local public health clinic; \"o hospital\" is for emergencies. \"A escola\", \"a igreja\" and \"a praça\" (square) are at the heart of most bairros (neighborhoods).",
           "\"A feira\" is the weekly street market, on the same day every week, with fruit, vegetables and pastel. For transport: \"o ponto de ônibus\" (bus stop) and \"a estação de metrô\". \"Ponto\" is masculine, \"estação\" feminine, like every -ção word.",
         ],
         examples: [
@@ -79,7 +79,7 @@ export const PT_A1_U13: Lesson[] = [
             question: "You have a fever and need a doctor today, but it's not an emergency. Where do you go?",
             options: ["Ao posto de saúde.", "À banca.", "Aos correios.", "Ao posto de gasolina."],
             correctIndex: 0,
-            explanation: "\"O posto de saúde\" is the local public clinic. \"Posto de gasolina\" is a petrol station.",
+            explanation: "\"O posto de saúde\" is the local public clinic. \"Posto de gasolina\" is a gas station.",
           },
         ],
       },
@@ -87,7 +87,7 @@ export const PT_A1_U13: Lesson[] = [
         heading: "What you do there",
         body: [
           "Describe errands with verbs you know and \"no\" / \"na\": \"na padaria eu compro pão\", \"na farmácia eu compro remédio\", \"na banca eu compro o jornal\". At the bank, learn \"tirar dinheiro\" (take out money) as a chunk: \"no banco eu tiro dinheiro\".",
-          "Plural places take \"nos\" / \"nas\": \"nos correios eu mando cartas\". \"Mandar\" (to send) is a regular -ar verb. Errands are \"fazer compras\" in a shop and \"fazer feira\", a lovely Brazilian chunk for doing the weekly market shop.",
+          "Plural places take \"nos\" / \"nas\": \"nos correios eu mando cartas\". \"Mandar\" (to send) is a regular -ar verb. Errands are \"fazer compras\" in a store and \"fazer feira\", a lovely Brazilian chunk for doing the weekly market run.",
         ],
         examples: [
           { es: "Na padaria eu compro pão e leite.", en: "At the bakery I buy bread and milk." },
@@ -192,7 +192,7 @@ export const PT_A1_U13: Lesson[] = [
         source: "On Saturday I do the market shopping.",
         answer: "No sábado eu faço feira.",
         altAnswers: ["No sábado faço feira.", "No sábado eu faço compras na feira.", "No sábado faço compras na feira."],
-        explanation: "\"Fazer feira\" is the weekly market shop.",
+        explanation: "\"Fazer feira\" is the weekly market run.",
       },
       {
         type: "word-order",
@@ -208,7 +208,7 @@ export const PT_A1_U13: Lesson[] = [
           { left: "a padaria", right: "the bakery" },
           { left: "os correios", right: "the post office" },
           { left: "a banca", right: "the newsstand" },
-          { left: "o posto de gasolina", right: "the petrol station" },
+          { left: "o posto de gasolina", right: "the gas station" },
           { left: "a feira", right: "the street market" },
           { left: "o shopping", right: "the mall" },
         ],
@@ -283,11 +283,11 @@ export const PT_A1_U13: Lesson[] = [
         heading: "Aos, às, and às for times",
         body: [
           "Plural places take \"aos\" (a + os) and \"às\" (a + as): \"vou aos correios\", \"eles vão às lojas\". The crase on \"às\" is the same a + a, just plural.",
-          "You already know \"às\" from Unit 6: \"às oito\", \"às duas e meia\". It's the same contraction, because \"horas\" is feminine plural: \"às oito\" is short for \"às oito horas\". One o'clock is \"à uma\", and noon \"ao meio-dia\", because \"meio-dia\" is masculine.",
+          "You already know \"às\" from Unit 8: \"às oito\", \"às duas e meia\". It's the same contraction, because \"horas\" is feminine plural: \"às oito\" is short for \"às oito horas\". One o'clock is \"à uma\", and noon \"ao meio-dia\", because \"meio-dia\" is masculine.",
         ],
         examples: [
           { es: "Vou aos correios.", en: "I'm going to the post office." },
-          { es: "As meninas vão às lojas.", en: "The girls are going to the shops." },
+          { es: "As meninas vão às lojas.", en: "The girls are going to the stores." },
           { es: "O banco abre às dez.", en: "The bank opens at ten." },
           { es: "A aula é à uma.", en: "The class is at one." },
           { es: "Vamos almoçar ao meio-dia.", en: "Let's have lunch at noon." },
@@ -321,7 +321,7 @@ export const PT_A1_U13: Lesson[] = [
         examples: [
           { es: "Vou ao trabalho a pé.", en: "I walk to work." },
           { es: "Vamos a Salvador em julho.", en: "We're going to Salvador in July." },
-          { es: "Eles vão ao Rio no fim de semana.", en: "They're going to Rio at the weekend." },
+          { es: "Eles vão ao Rio no fim de semana.", en: "They're going to Rio on the weekend." },
           { es: "Vou para casa às seis.", en: "I'm going home at six." },
           { es: "Ela vai à escola a pé.", en: "She walks to school." },
         ],
@@ -366,7 +366,7 @@ export const PT_A1_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "They're going to the shops.",
+        source: "They're going to the stores.",
         answer: "Eles vão às lojas.",
         altAnswers: ["Elas vão às lojas.", "Eles vão para as lojas.", "Elas vão para as lojas."],
         explanation: "A + as = \"às\".",
@@ -384,7 +384,7 @@ export const PT_A1_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The film starts at nine.",
+        source: "The movie starts at nine.",
         answer: "O filme começa às nove.",
         explanation: "Times take \"às\", the plural crase.",
       },
@@ -424,7 +424,7 @@ export const PT_A1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Shall we go [to the] cinema?",
+        en: "Shall we go [to the] movies?",
         sentence: "Vamos ___ cinema?",
         answer: "ao",
         explanation: "\"O cinema\" is masculine: a + o = \"ao\".",
@@ -464,11 +464,11 @@ export const PT_A1_U13: Lesson[] = [
         heading: "Pelo, pela: through, past, along",
         body: [
           "\"Por\" joins the article too, but it changes shape: por + o = \"pelo\", por + a = \"pela\", and the plurals \"pelos\", \"pelas\". There's no \"por o\" in Portuguese, just as there's no \"em o\".",
-          "With \"passar\" (to pass, to go by), \"por\" means through, past or along: \"passo pela praça\" (I go through the square), \"o ônibus passa pelo centro\" (the bus goes through the centre). Cities without an article take plain \"por\": \"o trem passa por Campinas\".",
+          "With \"passar\" (to pass, to go by), \"por\" means through, past or along: \"passo pela praça\" (I go through the square), \"o ônibus passa pelo centro\" (the bus goes through the center). Cities without an article take plain \"por\": \"o trem passa por Campinas\".",
         ],
         examples: [
           { es: "Eu passo pela praça todo dia.", en: "I go through the square every day." },
-          { es: "O ônibus passa pelo centro.", en: "The bus goes through the centre." },
+          { es: "O ônibus passa pelo centro.", en: "The bus goes through the center." },
           { es: "Vamos pela praia?", en: "Shall we go along the beach?" },
           { es: "O trem passa por Campinas.", en: "The train goes through Campinas." },
           { es: "Ela passa pelos correios às dez.", en: "She goes past the post office at ten." },
@@ -478,7 +478,7 @@ export const PT_A1_U13: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The bus goes through the centre.",
+            source: "The bus goes through the center.",
             answer: "O ônibus passa pelo centro.",
             explanation: "Por + o = \"pelo\".",
           },
@@ -517,7 +517,7 @@ export const PT_A1_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A man thanks his neighbour for the cake. What does he say?",
+            question: "A man thanks his neighbor for the cake. What does he say?",
             options: ["Obrigado pelo bolo!", "Obrigada pelo bolo!", "Obrigado por o bolo!", "Obrigado pela bolo!"],
             correctIndex: 0,
             explanation: "\"Obrigado\" from a man, and \"pelo\" because \"bolo\" is masculine.",
@@ -534,7 +534,7 @@ export const PT_A1_U13: Lesson[] = [
           { es: "Moro num apartamento pequeno.", en: "I live in a small apartment." },
           { es: "Ela trabalha numa escola.", en: "She works in a school." },
           { es: "Vamos almoçar num restaurante japonês.", en: "Let's have lunch in a Japanese restaurant." },
-          { es: "Ele mora em um bairro tranquilo.", en: "He lives in a quiet neighbourhood." },
+          { es: "Ele mora em um bairro tranquilo.", en: "He lives in a quiet neighborhood." },
           { es: "É a casa de uma amiga.", en: "It's a friend's house." },
         ],
         checkpoint: [
@@ -1004,8 +1004,8 @@ export const PT_A1_U13: Lesson[] = [
         examples: [
           { es: "Gosto de praia.", en: "I like beaches." },
           { es: "Gosto da praia de Ipanema.", en: "I like Ipanema beach." },
-          { es: "Ela gosta de futebol.", en: "She likes football." },
-          { es: "Ela gosta do time do Recife.", en: "She likes the Recife team." },
+          { es: "Ela gosta de futebol.", en: "She likes soccer." },
+          { es: "Ela gosta do time da cidade.", en: "She likes the city's team." },
           { es: "Você gosta de café?", en: "Do you like coffee?" },
         ],
         checkpoint: [
@@ -1116,10 +1116,10 @@ export const PT_A1_U13: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I like football, but I don't like the team here.",
+        prompt: "Put the words in order to say: I like soccer, but I don't like the team here.",
         words: ["Gosto", "de", "futebol,", "mas", "não", "gosto", "do", "time", "daqui."],
-        translation: "I like football, but I don't like the team here.",
-        explanation: "Football in general: \"de futebol\". One particular team: \"do time\".",
+        translation: "I like soccer, but I don't like the team here.",
+        explanation: "Soccer in general: \"de futebol\". One particular team: \"do time\".",
       },
       {
         type: "multiple-choice",
@@ -1227,12 +1227,12 @@ export const PT_A1_U13: Lesson[] = [
       {
         heading: "Do lado do mercado, em frente à igreja",
         body: [
-          "Place words carry \"de\" or \"a\" and contract with the article: \"perto do banco\", \"longe da praia\", \"do lado do mercado\" (next to the market; in speech Brazilians say \"do lado de\" more than \"ao lado de\"), \"em frente à igreja\" (opposite the church), \"na esquina\" (on the corner).",
+          "Place words carry \"de\" or \"a\" and contract with the article: \"perto do banco\", \"longe da praia\", \"do lado do mercado\" (next to the market; in speech Brazilians say \"do lado de\" more than \"ao lado de\"), \"em frente à igreja\" (across from the church), \"na esquina\" (on the corner).",
           "\"Entre\" (between) never contracts: \"entre o banco e a padaria\". No commands yet: you'll learn \"vire\" and \"siga\" at A2. For now, describe where it is.",
         ],
         examples: [
           { es: "A farmácia fica do lado do mercado.", en: "The pharmacy is next to the grocery store." },
-          { es: "O banco é em frente à igreja.", en: "The bank is opposite the church." },
+          { es: "O banco é em frente à igreja.", en: "The bank is across from the church." },
           { es: "A padaria é na esquina.", en: "The bakery is on the corner." },
           { es: "Os correios ficam entre o banco e a praça.", en: "The post office is between the bank and the square." },
           { es: "O ponto de ônibus é perto do hospital.", en: "The bus stop is near the hospital." },
@@ -1242,7 +1242,7 @@ export const PT_A1_U13: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The bank is opposite the church.",
+            source: "The bank is across from the church.",
             answer: "O banco fica em frente à igreja.",
             altAnswers: ["O banco é em frente à igreja."],
             explanation: "\"Em frente a\" + \"a igreja\" = \"em frente à igreja\".",
@@ -1347,9 +1347,9 @@ export const PT_A1_U13: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The bus stop is opposite the hospital.",
+        prompt: "Put the words in order to say: The bus stop is across from the hospital.",
         words: ["O", "ponto", "de", "ônibus", "é", "em", "frente", "ao", "hospital."],
-        translation: "The bus stop is opposite the hospital.",
+        translation: "The bus stop is across from the hospital.",
         explanation: "\"Em frente a\" + \"o hospital\" = \"em frente ao\".",
       },
       {
@@ -1372,19 +1372,19 @@ export const PT_A1_U13: Lesson[] = [
     level: "PT-A1",
     number: 7,
     title: "Dialogue Lab: Tem uma Farmácia Aqui Perto?",
-    summary: "A new resident in Recife asks her neighbour Dona Célia about the bairro: where the bakery, the bank and the street market are.",
+    summary: "A new resident in Recife asks her neighbor Dona Célia about the bairro: where the bakery, the bank and the street market are.",
     duration: "12 min",
     sections: [
       {
         heading: "Meeting Dona Célia",
         body: [
-          "Mariana has just moved to Boa Viagem, a bairro by the beach in Recife. On the stairs she meets her neighbour, Dona Célia, an older woman, so Mariana uses \"a senhora\" with the ele/ela form of the verb. Dona Célia calls her \"você\" and \"minha filha\", an affectionate way older Brazilians talk to younger people.",
-          "Mariana introduces herself with \"sou a nova vizinha\" (I'm the new neighbour) and asks the first question with \"tem\": \"tem uma padaria aqui perto?\".",
+          "Mariana has just moved to Boa Viagem, a bairro by the beach in Recife. On the stairs she meets her neighbor, Dona Célia, an older woman, so Mariana uses \"a senhora\" with the ele/ela form of the verb. Dona Célia calls her \"você\" and \"minha filha\", an affectionate way older Brazilians talk to younger people.",
+          "Mariana introduces herself with \"sou a nova vizinha\" (I'm the new neighbor) and asks the first question with \"tem\": \"tem uma padaria aqui perto?\".",
         ],
         examples: [
           { es: "Bom dia! A senhora mora aqui?", en: "Good morning! Do you live here?" },
           { es: "Moro, sim. No apartamento 302.", en: "Yes, I do. In apartment 302." },
-          { es: "Eu sou a Mariana, a nova vizinha.", en: "I'm Mariana, the new neighbour." },
+          { es: "Eu sou a Mariana, a nova vizinha.", en: "I'm Mariana, the new neighbor." },
           { es: "Muito prazer, minha filha! Eu sou a Célia.", en: "Nice to meet you, dear! I'm Célia." },
           { es: "Dona Célia, tem uma padaria aqui perto?", en: "Dona Célia, is there a bakery near here?" },
         ],
@@ -1400,10 +1400,10 @@ export const PT_A1_U13: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'm the new neighbour. (a woman speaking)",
+            source: "I'm the new neighbor. (a woman speaking)",
             answer: "Sou a nova vizinha.",
             altAnswers: ["Eu sou a nova vizinha."],
-            explanation: "\"Nova\" goes before the noun here, as in \"a nova vizinha\" (the new neighbour).",
+            explanation: "\"Nova\" goes before the noun here, as in \"a nova vizinha\" (the new neighbor).",
           },
         ],
       },
@@ -1411,7 +1411,7 @@ export const PT_A1_U13: Lesson[] = [
         heading: "The padaria and the bank",
         body: [
           "Dona Célia answers with \"tem\" and places: \"tem, sim, na esquina\". For the bank, Mariana switches to \"onde é...?\", because she knows there is one. The answers use the contractions of this unit: \"do lado da farmácia\", \"em frente à praça\".",
-          "Listen for \"pertinho\", a very Brazilian way to say very near. The ending -inho makes a word smaller or friendlier: \"pertinho\" is just near, \"cafezinho\" a little coffee.",
+          "Listen for \"pertinho\", a very Brazilian way to say very near. The ending -inho makes a word smaller, friendlier or stronger: \"pertinho\" is really close, and \"cafezinho\" is a little coffee.",
         ],
         examples: [
           { es: "Tem, sim. É na esquina, pertinho.", en: "Yes, there is. It's on the corner, very close." },
@@ -1452,7 +1452,7 @@ export const PT_A1_U13: Lesson[] = [
       {
         heading: "The feira and the mercado",
         body: [
-          "Mariana asks about the market. Dona Célia explains that \"a feira é no sábado\" and that the mercado is \"do lado da praça\". To say thank you, Mariana uses this unit's \"pelo\" / \"pela\": \"obrigada pela ajuda\". Dona Célia replies \"imagina!\" (don't mention it), from Unit 11.",
+          "Mariana asks about the market. Dona Célia explains that \"a feira é no sábado\" and that the mercado is \"do lado da praça\". To say thank you, Mariana uses this unit's \"pelo\" / \"pela\": \"obrigada pela ajuda\". Dona Célia replies \"imagina!\" (don't mention it), from Unit 9.",
           "Notice who says what: Mariana says \"obrigada\" because she's a woman, and Dona Célia offers help with \"qualquer coisa, é só falar\" (if you need anything, just say).",
         ],
         examples: [
@@ -1538,7 +1538,7 @@ export const PT_A1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The bakery is [opposite the] square.",
+        en: "The bakery is [across from the] square.",
         sentence: "A padaria é ___ praça.",
         answer: "em frente à",
         explanation: "\"Em frente a\" + \"a praça\" = \"em frente à\".",
@@ -1546,7 +1546,7 @@ export const PT_A1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I'm [the new neighbour]. (a woman speaking)",
+        en: "I'm [the new neighbor]. (a woman speaking)",
         sentence: "Eu sou ___.",
         answer: "a nova vizinha",
         explanation: "\"Vizinha\" for a woman; \"o novo vizinho\" for a man.",
@@ -1581,7 +1581,7 @@ export const PT_A1_U13: Lesson[] = [
         options: [
           "On the avenue, next to the pharmacy",
           "On the corner, next to the pharmacy",
-          "On the avenue, opposite the pharmacy",
+          "On the avenue, across from the pharmacy",
           "On the square, next to the bakery",
         ],
         correctIndex: 0,
@@ -1682,7 +1682,7 @@ export const PT_A1_U13: Lesson[] = [
           "\"Estou na casa\" for I'm at home sounds unfinished: whose house? Your own home is \"em casa\". And thanks need \"pelo\" / \"pela\": \"obrigado por a ajuda\" must be \"obrigado pela ajuda\".",
         ],
         examples: [
-          { es: "O banco é em frente à igreja.", en: "The bank is opposite the church." },
+          { es: "O banco é em frente à igreja.", en: "The bank is across from the church." },
           { es: "Vou a pé.", en: "I'm walking." },
           { es: "Estou em casa.", en: "I'm at home." },
           { es: "Obrigado pela ajuda!", en: "Thanks for the help!" },
@@ -1746,7 +1746,7 @@ export const PT_A1_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The pharmacy is opposite the church. (fix: em frente a igreja)",
+        source: "The pharmacy is across from the church. (fix: em frente a igreja)",
         answer: "A farmácia é em frente à igreja.",
         altAnswers: ["A farmácia fica em frente à igreja."],
         explanation: "\"Em frente a\" + \"a igreja\" = \"em frente à\".",
@@ -1778,7 +1778,7 @@ export const PT_A1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The bus goes [through the] centre. (fix: por o centro)",
+        en: "The bus goes [through the] center. (fix: por o centro)",
         sentence: "O ônibus passa ___ centro.",
         answer: "pelo",
         explanation: "Por + o = \"pelo\".",
@@ -1836,11 +1836,11 @@ export const PT_A1_U13: Lesson[] = [
           "If the new place has no article, the plain \"a\" comes back: \"vou ao Rio\" → \"vou a Salvador\".",
         ],
         examples: [
-          { es: "Vou ao mercado. → Vou à farmácia.", en: "I'm going to the grocery store. → I'm going to the pharmacy." },
-          { es: "Vou à farmácia. → Vou aos correios.", en: "I'm going to the pharmacy. → I'm going to the post office." },
-          { es: "Vou aos correios. → Vou às lojas.", en: "I'm going to the post office. → I'm going to the shops." },
-          { es: "Vamos ao Rio. → Vamos a Salvador.", en: "We're going to Rio. → We're going to Salvador." },
-          { es: "Ela vai ao banco. → Ela vai à padaria.", en: "She's going to the bank. → She's going to the bakery." },
+          { es: "Vou ao mercado. Vou à farmácia.", en: "I'm going to the grocery store. I'm going to the pharmacy." },
+          { es: "Vou à farmácia. Vou aos correios.", en: "I'm going to the pharmacy. I'm going to the post office." },
+          { es: "Vou aos correios. Vou às lojas.", en: "I'm going to the post office. I'm going to the stores." },
+          { es: "Vamos ao Rio. Vamos a Salvador.", en: "We're going to Rio. We're going to Salvador." },
+          { es: "Ela vai ao banco. Ela vai à padaria.", en: "She's going to the bank. She's going to the bakery." },
         ],
         checkpoint: [
           {
@@ -1854,7 +1854,7 @@ export const PT_A1_U13: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "We're going to the beach. → We're going [to the] shops.",
+            en: "We're going to the beach. → We're going [to the] stores.",
             sentence: "Vamos ___ lojas.",
             answer: "às",
             explanation: "Feminine plural: \"às lojas\".",
@@ -1865,14 +1865,14 @@ export const PT_A1_U13: Lesson[] = [
         heading: "No, na, em: where you live",
         body: [
           "\"Moro no Rio\" → \"moro em São Paulo\" → \"moro na Bahia\" → \"moro nos Estados Unidos\". With an article, \"em\" fuses (\"no\", \"na\", \"nos\", \"nas\"); without one, it stays \"em\".",
-          "With a bairro or a building, use the same test: \"moro no centro\", \"moro na Vila Madalena\", \"moro em Copacabana\". Neighbourhood names vary, so copy what locals say.",
+          "With a bairro or a building, use the same test: \"moro no centro\", \"moro na Vila Madalena\", \"moro em Copacabana\". Neighborhood names vary, so copy what locals say.",
         ],
         examples: [
-          { es: "Moro no Rio. → Moro em São Paulo.", en: "I live in Rio. → I live in São Paulo." },
-          { es: "Moro em São Paulo. → Moro na Bahia.", en: "I live in São Paulo. → I live in Bahia." },
-          { es: "Ela mora no centro. → Ela mora em Copacabana.", en: "She lives in the centre. → She lives in Copacabana." },
-          { es: "Trabalho no hospital. → Trabalho na escola.", en: "I work at the hospital. → I work at the school." },
-          { es: "Estamos no Brasil. → Estamos nos Estados Unidos.", en: "We're in Brazil. → We're in the United States." },
+          { es: "Moro no Rio. Moro em São Paulo.", en: "I live in Rio. I live in São Paulo." },
+          { es: "Moro em São Paulo. Moro na Bahia.", en: "I live in São Paulo. I live in Bahia." },
+          { es: "Ela mora no centro. Ela mora em Copacabana.", en: "She lives in the center. She lives in Copacabana." },
+          { es: "Trabalho no hospital. Trabalho na escola.", en: "I work at the hospital. I work at the school." },
+          { es: "Estamos no Brasil. Estamos nos Estados Unidos.", en: "We're in Brazil. We're in the United States." },
         ],
         checkpoint: [
           {
@@ -1909,11 +1909,11 @@ export const PT_A1_U13: Lesson[] = [
           "Several changes at once is where slips happen, so take one step at a time: the person and verb first, then the place and its little word.",
         ],
         examples: [
-          { es: "Sou do Ceará. → Sou de Goiás.", en: "I'm from Ceará. → I'm from Goiás." },
-          { es: "Ele é da Bahia. → Elas são da Bahia.", en: "He's from Bahia. → They're from Bahia." },
-          { es: "Ele é baiano. → Elas são baianas.", en: "He's from Bahia. → They're from Bahia. (women)" },
-          { es: "Ela vem do trabalho. → Ela vem da escola.", en: "She's coming from work. → She's coming from school." },
-          { es: "Somos de Minas. → Somos do Paraná.", en: "We're from Minas. → We're from Paraná." },
+          { es: "Sou do Ceará. Sou de Goiás.", en: "I'm from Ceará. I'm from Goiás." },
+          { es: "Ele é da Bahia. Elas são da Bahia.", en: "He's from Bahia. They're from Bahia." },
+          { es: "Ele é baiano. Elas são baianas.", en: "He's from Bahia. They're from Bahia. (women)" },
+          { es: "Ela vem do trabalho. Ela vem da escola.", en: "She's coming from work. She's coming from school." },
+          { es: "Somos de Minas. Somos do Paraná.", en: "We're from Minas. We're from Paraná." },
         ],
         checkpoint: [
           {
@@ -1965,7 +1965,7 @@ export const PT_A1_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We live in the centre.",
+        source: "We live in the center.",
         answer: "Moramos no centro.",
         altAnswers: ["Nós moramos no centro."],
         explanation: "\"O centro\": \"no\".",
@@ -2023,9 +2023,9 @@ export const PT_A1_U13: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The children are going to the shops.",
+        prompt: "Put the words in order to say: The children are going to the stores.",
         words: ["As", "crianças", "vão", "às", "lojas."],
-        translation: "The children are going to the shops.",
+        translation: "The children are going to the stores.",
         explanation: "Feminine plural: \"às lojas\".",
       },
       {
@@ -2053,13 +2053,13 @@ export const PT_A1_U13: Lesson[] = [
     level: "PT-A1",
     number: 10,
     title: "Real-World Mission: Saturday Errands",
-    summary: "Write your plan for a Saturday in Curitiba as a message to your flatmate: where you're going and when, what you need, where each place is, and where to meet for lunch.",
+    summary: "Write your plan for a Saturday in Curitiba as a message to your roommate: where you're going and when, what you need, where each place is, and where to meet for lunch.",
     duration: "14 min",
     sections: [
       {
         heading: "The plan: when and where",
         body: [
-          "Your mission: a WhatsApp message to your flatmate Lucas about your Saturday in Curitiba. Start with the plan. \"Ir\" with a place needs no infinitive: \"às nove vou ao banco\", \"depois vou à feira\". For an activity, \"ir\" + infinitive: \"vou fazer compras\".",
+          "Your mission: a WhatsApp message to your roommate Lucas about your Saturday in Curitiba. Start with the plan. \"Ir\" with a place needs no infinitive: \"às nove vou ao banco\", \"depois vou à feira\". For an activity, \"ir\" + infinitive: \"vou fazer compras\".",
           "Two crases in a row is normal: \"às dez vou à farmácia\". \"Depois\" (then, afterwards) links the steps.",
         ],
         examples: [
@@ -2092,14 +2092,14 @@ export const PT_A1_U13: Lesson[] = [
       {
         heading: "What you need and where it is",
         body: [
-          "Say what you need at each place with \"preciso de\" + noun or \"preciso\" + verb: \"no banco preciso tirar dinheiro\", \"na farmácia preciso de remédio\". Then say where it is: \"a farmácia fica do lado do banco\", \"os correios são na Rua XV\".",
-          "Ask your flatmate for things with \"você precisa de alguma coisa?\" (do you need anything?) and offer with \"posso comprar...\".",
+          "Say what you need at each place with \"preciso de\" + noun or \"preciso\" + verb: \"no banco preciso tirar dinheiro\", \"na farmácia preciso de remédio\". Then say where it is: \"a farmácia fica do lado do banco\", \"os correios são na Rua Quinze\".",
+          "Ask your roommate for things with \"você precisa de alguma coisa?\" (do you need anything?) and offer with \"posso comprar...\".",
         ],
         examples: [
           { es: "No banco preciso tirar dinheiro.", en: "At the bank I need to take out money." },
           { es: "Na farmácia preciso de protetor solar.", en: "At the pharmacy I need sunscreen." },
           { es: "A farmácia fica do lado do banco.", en: "The pharmacy is next to the bank." },
-          { es: "Os correios são na Rua XV, perto da praça.", en: "The post office is on Rua XV, near the square." },
+          { es: "Os correios são na Rua Quinze, perto da praça.", en: "The post office is on Rua Quinze, near the square." },
           { es: "Você precisa de alguma coisa da feira?", en: "Do you need anything from the market?" },
         ],
         checkpoint: [
@@ -2126,7 +2126,7 @@ export const PT_A1_U13: Lesson[] = [
             question: "What does it mean?",
             options: [
               "The pharmacy is next to the bank.",
-              "The pharmacy is opposite the bank.",
+              "The pharmacy is across from the bank.",
               "The bank is in the pharmacy.",
               "The pharmacy is far from the bank.",
             ],
@@ -2145,7 +2145,7 @@ export const PT_A1_U13: Lesson[] = [
           { es: "Vamos almoçar juntos?", en: "Shall we have lunch together?" },
           { es: "Ao meio-dia, no Mercado Municipal.", en: "At noon, at the Mercado Municipal." },
           { es: "Eu passo pela praça e encontro você lá.", en: "I'll go through the square and meet you there." },
-          { es: "O restaurante fica em frente à igreja.", en: "The restaurant is opposite the church." },
+          { es: "O restaurante fica em frente à igreja.", en: "The restaurant is across from the church." },
           { es: "Beijos, até mais tarde!", en: "Love, see you later!" },
         ],
         checkpoint: [
@@ -2161,7 +2161,7 @@ export const PT_A1_U13: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The restaurant is opposite the square.",
+            source: "The restaurant is across from the square.",
             answer: "O restaurante fica em frente à praça.",
             altAnswers: ["O restaurante é em frente à praça."],
             explanation: "\"Em frente à\" before a feminine noun.",
@@ -2255,9 +2255,9 @@ export const PT_A1_U13: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The post office is on Rua XV, near the square.",
-        words: ["Os", "correios", "são", "na", "Rua", "XV,", "perto", "da", "praça."],
-        translation: "The post office is on Rua XV, near the square.",
+        prompt: "Put the words in order to say: The post office is on Rua Quinze, near the square.",
+        words: ["Os", "correios", "são", "na", "Rua", "Quinze,", "perto", "da", "praça."],
+        translation: "The post office is on Rua Quinze, near the square.",
         explanation: "Plural \"os correios\", \"na Rua\", \"perto da praça\".",
       },
       {
@@ -2320,7 +2320,7 @@ export const PT_A1_U13: Lesson[] = [
         heading: "Across Brazil: where they're from and live",
         body: [
           "Origin takes \"ser de\", where people live \"morar em\", and the article decides the contraction: \"os primos dela são da Bahia\", \"meu tio mora em Pernambuco\", \"minha tia mora no Paraná\".",
-          "Gentílicos add colour: \"minha cunhada é gaúcha\" (my sister-in-law is from Rio Grande do Sul), \"o marido dela é carioca\".",
+          "Gentílicos add color: \"minha cunhada é gaúcha\" (my sister-in-law is from Rio Grande do Sul), \"o marido dela é carioca\".",
         ],
         examples: [
           { es: "Os primos dela são da Bahia.", en: "Her cousins are from Bahia." },
@@ -2365,7 +2365,7 @@ export const PT_A1_U13: Lesson[] = [
         examples: [
           { es: "Meu pai sai do banco às onze.", en: "My father leaves the bank at eleven." },
           { es: "Minha avó vem da feira de táxi.", en: "My grandmother is coming from the market by taxi." },
-          { es: "Às duas nós vamos ao cinema.", en: "At two we're going to the cinema." },
+          { es: "Às duas nós vamos ao cinema.", en: "At two we're going to the movies." },
           { es: "Minha mãe vai à igreja no domingo.", en: "My mother goes to church on Sunday." },
           { es: "Meu irmão chega do trabalho às seis.", en: "My brother gets back from work at six." },
         ],
@@ -2374,7 +2374,7 @@ export const PT_A1_U13: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "At two we're going to the cinema.",
+            source: "At two we're going to the movies.",
             answer: "Às duas vamos ao cinema.",
             altAnswers: ["Às duas nós vamos ao cinema.", "Vamos ao cinema às duas.", "Nós vamos ao cinema às duas."],
             explanation: "\"Às duas\" and \"ao cinema\".",
@@ -2505,7 +2505,7 @@ export const PT_A1_U13: Lesson[] = [
 
 export const PT_A1_U13_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A Brazilian friend is coming to stay with you for a weekend. Write a WhatsApp message describing your neighbourhood: what places are near your home and where they are, where you're going on Saturday morning and at what time, and where you'll meet your friend for lunch.",
+  prompt: "A Brazilian friend is coming to stay with you for a weekend. Write a WhatsApp message describing your neighborhood: what places are near your home and where they are, where you're going on Saturday morning and at what time, and where you'll meet your friend for lunch.",
   minWords: 30,
   maxWords: 60,
   rubric: [

@@ -513,10 +513,10 @@ export const FR_B2_U07_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which two conjunctions both mean 'unless' but take different moods?",
-            options: ["sauf si (indicative) / à moins que (subjunctive)", "au cas où (subjunctive) / sinon (conditional)", "même si (subjunctive) / bien que (indicative)", "pourvu que (indicative) / à condition que (conditional)"],
+            question: "Which sentence is correct? (We'll walk, unless it rains.)",
+            options: ["On ira à pied, sauf s'il pleut.", "On ira à pied, sauf s'il pleuve.", "On ira à pied, à moins qu'il pleut.", "On ira à pied, à moins s'il pleut."],
             correctIndex: 0,
-            explanation: "\"Sauf s'il pleut\" vs \"à moins qu'il pleuve\".",
+            explanation: "Both mean unless, but \"sauf si\" behaves like si and takes the indicative (\"sauf s'il pleut\"), while \"à moins que\" takes the subjunctive (\"à moins qu'il pleuve\").",
           },
         ],
       },
@@ -564,7 +564,7 @@ export const FR_B2_U07_EXTRA: Lesson[] = [
         en: "I'll lend you my flat [provided you water] the plants.",
         sentence: "Je te prête mon appartement ___ les plantes.",
         answer: "à condition que tu arroses",
-        altAnswers: ["pourvu que tu arroses", "à condition d'arroser"],
+        altAnswers: ["pourvu que tu arroses"],
         explanation: "\"À condition que\" + subjunctive \"arroses\".",
       },
       {
@@ -573,7 +573,7 @@ export const FR_B2_U07_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "We'll take a taxi, unless we find a bus.",
         answer: "On prendra un taxi, à moins de trouver un bus.",
-        altAnswers: ["On prendra un taxi, sauf si on trouve un bus.", "Nous prendrons un taxi, à moins de trouver un bus.", "On prendra un taxi, à moins qu'on trouve un bus."],
+        altAnswers: ["On prendra un taxi, sauf si on trouve un bus.", "Nous prendrons un taxi, à moins de trouver un bus."],
         explanation: "Same subject: \"à moins de\" + infinitive.",
       },
       {
@@ -616,7 +616,7 @@ export const FR_B2_U07_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "You can borrow my car as long as you bring it back tonight. (to a friend)",
         answer: "Tu peux emprunter ma voiture à condition de la rapporter ce soir.",
-        altAnswers: ["Tu peux emprunter ma voiture à condition que tu la rapportes ce soir.", "Tu peux emprunter ma voiture pourvu que tu la rapportes ce soir.", "Tu peux prendre ma voiture à condition de la ramener ce soir."],
+        altAnswers: ["Tu peux emprunter ma voiture pourvu que tu la rapportes ce soir.", "Tu peux prendre ma voiture à condition de la ramener ce soir."],
         explanation: "Same subject: \"à condition de\" + infinitive.",
       },
       {
@@ -900,7 +900,7 @@ export const FR_B2_U07_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "I wouldn't change anything, unless I could prevent a war.",
         answer: "Je ne changerais rien, à moins de pouvoir empêcher une guerre.",
-        altAnswers: ["Je ne changerais rien, sauf si je pouvais empêcher une guerre.", "Je ne changerais rien, à moins que je puisse empêcher une guerre."],
+        altAnswers: ["Je ne changerais rien, sauf si je pouvais empêcher une guerre."],
         explanation: "\"Sauf si\" + imparfait, or \"à moins de\" + infinitive.",
       },
       {
@@ -1036,7 +1036,7 @@ export const FR_B2_U07_EXTRA: Lesson[] = [
         en: "If the cashier gave me too much change, [I'd give it back to her].",
         sentence: "Si la caissière me rendait trop de monnaie, ___.",
         answer: "je la lui rendrais",
-        altAnswers: ["je lui rendrais", "je lui rendrais la différence"],
+        altAnswers: ["je lui rendrais la différence"],
         explanation: "Double pronoun \"la lui\" + conditional.",
       },
       {
@@ -1054,7 +1054,7 @@ export const FR_B2_U07_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "I'd accept the job, provided I didn't have to lie.",
         answer: "J'accepterais le poste, à condition de ne pas devoir mentir.",
-        altAnswers: ["J'accepterais le poste, à condition de ne pas avoir à mentir.", "J'accepterais le poste, à condition que je n'aie pas à mentir.", "J'accepterais le travail, à condition de ne pas devoir mentir."],
+        altAnswers: ["J'accepterais le poste, à condition de ne pas avoir à mentir.", "J'accepterais le travail, à condition de ne pas devoir mentir."],
         explanation: "Same subject: \"à condition de\" + negative infinitive.",
       },
       {

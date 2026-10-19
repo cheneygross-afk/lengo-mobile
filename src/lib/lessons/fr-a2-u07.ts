@@ -896,7 +896,7 @@ export const FR_A2_U07: Lesson[] = [
         heading: "Before an infinitive",
         body: [
           "When a verb is followed by an infinitive (aller + infinitive, pouvoir, vouloir, devoir...), the pronoun goes in front of the verb it belongs to logically: the infinitive. \"Je vais le faire\" (I'm going to do it), \"Je peux la voir ?\" (can I see it?), \"Tu dois les appeler\" (you have to call them).",
-          "English speakers (and learners who know older or Spanish patterns) often put it in front of the first verb: \"*je le vais faire*\". That's wrong in modern French. Ask yourself: what am I doing to it? Doing, seeing, calling: so the pronoun goes before \"faire\", \"voir\", \"appeler\".",
+          "Learners often put it in front of the first verb: \"*je le vais faire*\". That order existed in older French, but it's wrong in modern French. Ask yourself: what am I doing to it? Doing, seeing, calling: so the pronoun goes before \"faire\", \"voir\", \"appeler\".",
           "In the negative, ne...pas surrounds the first verb, and the pronoun stays with the infinitive: \"Je ne vais pas le faire\", \"Je ne peux pas les voir\".",
         ],
         examples: [
@@ -1250,7 +1250,7 @@ export const FR_A2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Ta valise ? Tu l'as ___ ?\" (Did you pack it? = Did you do it?)",
+        question: "Your friend asks if you've packed your suitcase (\"faire sa valise\" = to pack). Which word completes \"Ta valise ? Tu l'as ___ ?\"",
         options: ["faite", "fait", "faites", "faits"],
         correctIndex: 0,
         explanation: "\"L'\" = ta valise (feminine singular) → \"faite\".",
@@ -1456,7 +1456,7 @@ export const FR_A2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Transform with a pronoun: \"Elle a ouvert la porte.\"",
+        question: "The door? How do you say 'She opened it'?",
         options: ["Elle l'a ouverte.", "Elle l'a ouvert.", "Elle a l'ouverte.", "Elle la a ouverte."],
         correctIndex: 0,
         explanation: "\"L'\" before \"a\", and \"ouverte\" agrees with \"la porte\".",

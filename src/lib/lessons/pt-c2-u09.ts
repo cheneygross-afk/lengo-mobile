@@ -15,13 +15,13 @@ export const PT_C2_U09: Lesson[] = [
       {
         heading: "A maioria dos alunos chegou / chegaram",
         body: [
-          "When the subject is a partitive expression followed by a plural noun (\"a maioria dos\", \"a maior parte das\", \"metade dos\", \"um grupo de\"), the norm accepts two agreements. The verb can follow the head noun, which is singular: \"a maioria dos alunos chegou\". It can also follow the plural noun beside it, which names the people who actually act: \"a maioria dos alunos chegaram\". Careful editors lean towards the singular. The plural puts the individuals in focus.",
+          "When the subject is a partitive expression followed by a plural noun (\"a maioria dos\", \"a maior parte das\", \"metade dos\", \"um grupo de\"), the norm accepts two agreements. The verb can follow the head noun, which is singular: \"a maioria dos alunos chegou\". It can also follow the plural noun beside it, which names the people who actually act: \"a maioria dos alunos chegaram\". Careful editors lean toward the singular. The plural puts the individuals in focus.",
           "The trap is to stretch that freedom too far. Without a plural complement, only the singular works: \"a maioria votou\", never \"a maioria votaram\". Once you choose, everything after the verb agrees with the same word: \"a maioria dos candidatos foi aprovada\" or \"foram aprovados\", never the hybrid \"foi aprovados\".",
         ],
         examples: [
           { es: "A maioria dos alunos chegou atrasada.", en: "Most of the students arrived late." },
           { es: "A maioria dos alunos chegaram atrasados.", en: "Most of the students arrived late (stressing the individuals)." },
-          { es: "Metade dos funcionários está de férias.", en: "Half the staff are on holiday." },
+          { es: "Metade dos funcionários está de férias.", en: "Half the staff are on vacation." },
           { es: "A maioria votou contra a proposta.", en: "The majority voted against the proposal." },
           { es: "Um grupo de turistas se perdeu no centro de Salvador.", en: "A group of tourists got lost in downtown Salvador." },
         ],
@@ -116,7 +116,7 @@ export const PT_C2_U09: Lesson[] = [
           { es: "Seguem anexas as fotos do evento.", en: "Please find the photos of the event attached." },
           { es: "Seguem em anexo as planilhas atualizadas.", en: "Please find the updated spreadsheets attached." },
           { es: "O café da manhã e as taxas estão inclusos na diária.", en: "Breakfast and taxes are included in the nightly rate." },
-          { es: "Elas mesmas organizaram a formatura.", en: "They organised the graduation themselves." },
+          { es: "Elas mesmas organizaram a formatura.", en: "They organized the graduation themselves." },
         ],
         checkpoint: [
           {
@@ -153,7 +153,7 @@ export const PT_C2_U09: Lesson[] = [
         ],
         examples: [
           { es: "É proibido entrada de animais.", en: "No animals allowed." },
-          { es: "É proibida a entrada de pessoas estranhas ao serviço.", en: "Authorised personnel only." },
+          { es: "É proibida a entrada de pessoas estranhas ao serviço.", en: "Authorized personnel only." },
           { es: "Nessa profissão, é necessário paciência.", en: "In this profession, patience is necessary." },
           { es: "A paciência é necessária nessa profissão.", en: "Patience is necessary in this profession." },
           { es: "Água de coco é bom para a ressaca.", en: "Coconut water is good for a hangover." },
@@ -337,8 +337,8 @@ export const PT_C2_U09: Lesson[] = [
         ],
         examples: [
           { es: "O atirador visou o centro do alvo.", en: "The marksman aimed at the bull's-eye." },
-          { es: "O gerente visou o cheque antes de entregá-lo.", en: "The manager certified the cheque before handing it over." },
-          { es: "O programa visa à redução da evasão escolar.", en: "The programme aims to reduce school dropout." },
+          { es: "O gerente visou o cheque antes de entregá-lo.", en: "The manager certified the check before handing it over." },
+          { es: "O programa visa à redução da evasão escolar.", en: "The program aims to reduce school dropout." },
           { es: "A medida visa a proteger os pequenos produtores.", en: "The measure is meant to protect small producers." },
           { es: "Ela aspira a uma vaga no Itamaraty.", en: "She aspires to a post at the Foreign Ministry." },
           { es: "Na varanda, ele aspirou o ar frio da serra.", en: "On the balcony, he breathed in the cold mountain air." },
@@ -373,7 +373,7 @@ export const PT_C2_U09: Lesson[] = [
       {
         heading: "Implicar and proceder: entail, pick on, carry out",
         body: [
-          "When \"implicar\" means to entail, it takes a direct object: \"a fusão implica demissões\". \"Implicar em\", modelled on \"resultar em\", fills Brazilian speech and much of the press. Recent dictionaries record it, but editors and exam boards still mark it. \"Implicar com\" is another verb altogether: to pick on, to find fault with (\"minha avó implica com tudo o que eu visto\").",
+          "When \"implicar\" means to entail, it takes a direct object: \"a fusão implica demissões\". \"Implicar em\", modeled on \"resultar em\", fills Brazilian speech and much of the press. Recent dictionaries record it, but editors and exam boards still mark it. \"Implicar com\" is another verb altogether: to pick on, to find fault with (\"minha avó implica com tudo o que eu visto\").",
           "\"Proceder\" has three lives. With no complement it means to have grounds (\"a reclamação não procede\") or to behave (\"ele procedeu mal\"). With \"de\" it means to come from: \"esses grãos procedem do cerrado mineiro\". With \"a\" it is the formal to carry out: \"o juiz procedeu à leitura da sentença\".",
           "In minutes and reports, avoid \"proceder com a votação\", a form shaped by English proceed with. The norm form is \"proceder à votação\", crase included. In the impersonal style it becomes \"procedeu-se à apuração dos votos\".",
         ],
@@ -621,9 +621,9 @@ export const PT_C2_U09: Lesson[] = [
         examples: [
           { es: "A universidade oferece cursos de graduação a distância.", en: "The university offers distance-learning degrees." },
           { es: "Os seguranças acompanhavam tudo a distância.", en: "The security guards watched everything from a distance." },
-          { es: "O hotel fica à distância de duzentos metros da praia.", en: "The hotel is two hundred metres from the beach." },
+          { es: "O hotel fica à distância de duzentos metros da praia.", en: "The hotel is two hundred meters from the beach." },
           { es: "A informação está à distância de um clique.", en: "The information is a click away." },
-          { es: "Pagando à vista, você tem dez por cento de desconto.", en: "If you pay in cash, you get ten per cent off." },
+          { es: "Pagando à vista, você tem dez por cento de desconto.", en: "If you pay in cash, you get ten percent off." },
         ],
         checkpoint: [
           {
@@ -643,7 +643,7 @@ export const PT_C2_U09: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The school is [at a distance of] five kilometres from the centre.",
+            en: "The school is [at a distance of] five kilometers from the center.",
             sentence: "A escola fica ___ cinco quilômetros do centro.",
             answer: "à distância de",
             altAnswers: ["a uma distância de"],
@@ -655,12 +655,12 @@ export const PT_C2_U09: Lesson[] = [
         heading: "Até a or até à",
         body: [
           "After \"até\", the crase is optional. \"Até\" can work alone (\"até a praia\": até + article) or with a second preposition (\"até à praia\": até + a + article). Both are correct. Brazil overwhelmingly writes \"até a\" and \"até o\", while \"até à\" and \"até ao\" sound European. Neither is an error, so don't 'correct' one into the other.",
-          "Clock times work the same way: \"até as 18h\" and \"até às 18h\" are both accepted. Parallelism in a range is not optional. \"Das 9h às 18h\" pairs article with article (de + as, a + as), and \"de 9h a 18h\" drops both. Mixing them, as in \"*das 9h as 18h\" or \"*de segunda à sexta\", is the error on countless shop doors.",
+          "Clock times work the same way: \"até as 18h\" and \"até às 18h\" are both accepted. Parallelism in a range is not optional. \"Das 9h às 18h\" pairs article with article (de + as, a + as), and \"de 9h a 18h\" drops both. Mixing them, as in \"*das 9h as 18h\" or \"*de segunda à sexta\", is the error on countless store doors.",
         ],
         examples: [
           { es: "Fomos a pé até a Praça da Liberdade.", en: "We walked as far as Praça da Liberdade." },
           { es: "A trilha vai até à cachoeira.", en: "The trail goes as far as the waterfall. (correct, but rarer in Brazil)" },
-          { es: "A loja abre de segunda a sexta, das 9h às 18h.", en: "The shop is open Monday to Friday, 9 a.m. to 6 p.m." },
+          { es: "A loja abre de segunda a sexta, das 9h às 18h.", en: "The store is open Monday to Friday, 9 a.m. to 6 p.m." },
           { es: "A reunião vai até as 17h.", en: "The meeting runs until 5 p.m." },
           { es: "O plantão vai de 8h a 20h.", en: "The shift runs from 8 a.m. to 8 p.m." },
         ],
@@ -715,7 +715,7 @@ export const PT_C2_U09: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "We've been in the queue [since 8 a.m.]",
+            en: "We've been in line [since 8 a.m.]",
             sentence: "Estamos na fila ___.",
             answer: "desde as 8h",
             altAnswers: ["desde as oito", "desde as oito horas", "desde as 8 horas", "desde as oito da manhã", "desde as 8h da manhã"],
@@ -802,7 +802,7 @@ export const PT_C2_U09: Lesson[] = [
       {
         type: "speak",
         text: "A loja abre de segunda a sexta, das nove às seis.",
-        prompt: "Say it in Portuguese: The shop is open Monday to Friday, from nine to six.",
+        prompt: "Say it in Portuguese: The store is open Monday to Friday, from nine to six.",
         tip: "\"Às\" sounds exactly like \"as\": the crase is only in the spelling. Keep the stress on se-GUN-da.",
         explanation: "\"De segunda a sexta\" has no articles and no crase. \"Das nove às seis\" has articles on both ends, so the closing \"às\" carries the crase.",
       },
@@ -843,7 +843,7 @@ export const PT_C2_U09: Lesson[] = [
           { left: "na medida em que", right: "insofar as" },
           { left: "a distância", right: "from a distance" },
           { left: "à vista", right: "in cash" },
-          { left: "a partir das 14h", right: "from 2 p.m. onwards" },
+          { left: "a partir das 14h", right: "from 2 p.m. on" },
         ],
         explanation: "\"À medida que\" and \"à vista\" are fixed feminine locutions with the crase. \"A partir das\" contains \"de + as\", so there's no crase.",
       },
@@ -877,14 +877,14 @@ export const PT_C2_U09: Lesson[] = [
         heading: "Fazer and tomar: where make and take mislead you",
         body: [
           "English sorts these nouns under make and take, and Portuguese sorts them differently. A translated verb is where polished writing gives itself away. You \"fazer uma pergunta\" (ask a question), \"fazer uma prova\" (take an exam) and \"fazer um curso\" (take a course). But you \"tomar uma decisão\" (make a decision), \"tomar providências\" (take steps) and \"tomar nota\" (make a note). \"Fazer uma decisão\" and \"perguntar uma pergunta\" are calques that no Brazilian would write.",
-          "English take is spread over several verbs: \"tirar uma foto\", \"tirar férias\" (take time off), \"levar cinco horas\" (take five hours), \"aceitar o emprego\" (take the job). Keep \"tomar\" for decisions and measures, medicine and drinks, baths, and some things that happen to you where English says get: \"tomar um susto\" or \"levar um susto\" (get a fright), \"tomar uma bronca\" (get told off).",
+          "English take is spread over several verbs: \"tirar uma foto\", \"tirar férias\" (take time off), \"levar cinco horas\" (take five hours), \"aceitar o emprego\" (take the job). Keep \"tomar\" for decisions and measures, medicine and drinks, baths, and some things that happen to you where English says get: \"tomar um susto\" or \"levar um susto\" (get a fright), \"tomar uma bronca\" (get scolded).",
           "A few chunks with \"fazer\" are fixed: \"fazer questão de\" (insist on), \"fazer falta\" (be missed). \"Fazer sentido\" began as an anglicism and is now everywhere, but some editors still prefer \"ter sentido\" in formal prose.",
         ],
         examples: [
           { es: "Posso fazer uma pergunta rápida?", en: "Can I ask a quick question?" },
           { es: "A diretoria tomou a decisão ontem à noite.", en: "The board made the decision last night." },
           { es: "Ela vai fazer a prova da OAB em novembro.", en: "She's taking the bar exam in November." },
-          { es: "A prefeitura já tomou providências.", en: "The city council has already taken steps." },
+          { es: "A prefeitura já tomou providências.", en: "City Hall has already taken steps." },
           { es: "A viagem de Curitiba a Florianópolis leva umas cinco horas de ônibus.", en: "The trip from Curitiba to Florianópolis takes about five hours by bus." },
           { es: "Tirei uma semana de férias em julho.", en: "I took a week off in July." },
         ],
@@ -920,16 +920,16 @@ export const PT_C2_U09: Lesson[] = [
         heading: "Prestar and correr: paying and running",
         body: [
           "Where English pays, Portuguese uses \"prestar\": \"prestar atenção\" (pay attention), \"prestar homenagem a\" (pay tribute to), \"prestar contas a\" (be accountable to). \"Pagar atenção\" is the classic calque. The same verb covers formal acts done for others: \"prestar um serviço\", \"prestar socorro\" (give aid at an accident), \"prestar depoimento\" (give a statement to the police or a court).",
-          "In Brazil \"prestar\" also means to sit a competitive exam: \"prestar vestibular\", \"prestar concurso\" (the civil-service entrance exam). On its own, \"não presta\" means is no good: \"esse carregador não presta\".",
-          "\"Correr\" matches English run in \"correr um risco\" and \"correr perigo\". The risk of doing something takes \"de\" + infinitive: \"corre o risco de perder o prazo\". \"Correr\" also covers spreading and counting: \"corre o boato de que...\" (rumour has it that...), \"o prazo começa a correr amanhã\" (the deadline starts running tomorrow).",
+          "In Brazil \"prestar\" also means to take a competitive exam: \"prestar vestibular\", \"prestar concurso\" (the civil-service entrance exam). On its own, \"não presta\" means is no good: \"esse carregador não presta\".",
+          "\"Correr\" matches English run in \"correr um risco\" and \"correr perigo\". The risk of doing something takes \"de\" + infinitive: \"corre o risco de perder o prazo\". \"Correr\" also covers spreading and counting: \"corre o boato de que...\" (rumor has it that...), \"o prazo começa a correr amanhã\" (the deadline starts running tomorrow).",
         ],
         examples: [
           { es: "Presta atenção, porque só vou explicar uma vez.", en: "Pay attention, because I'm only going to explain once." },
           { es: "O prefeito prestou homenagem às vítimas da enchente.", en: "The mayor paid tribute to the flood victims." },
           { es: "Todo gestor público deve prestar contas à população.", en: "Every public official must be accountable to the people." },
           { es: "Meu irmão está estudando para prestar concurso.", en: "My brother is studying for a civil-service exam." },
-          { es: "Quem dirige assim corre o risco de perder a habilitação.", en: "Anyone who drives like that risks losing their licence." },
-          { es: "Corre o boato de que a fábrica vai fechar.", en: "Rumour has it the factory is going to close." },
+          { es: "Quem dirige assim corre o risco de perder a habilitação.", en: "Anyone who drives like that risks losing their license." },
+          { es: "Corre o boato de que a fábrica vai fechar.", en: "Rumor has it the factory is going to close." },
         ],
         checkpoint: [
           {
@@ -953,9 +953,9 @@ export const PT_C2_U09: Lesson[] = [
             type: "listen-choose",
             audio: "Corre o boato de que o técnico vai sair.",
             question: "What does it mean?",
-            options: ["Rumour has it the coach is leaving.", "The coach is running away from the rumour.", "The coach ran out to deny the rumour.", "There's a risk the coach will leave."],
+            options: ["Rumor has it the coach is leaving.", "The coach is running away from the rumor.", "The coach ran out to deny the rumor.", "There's a risk the coach will leave."],
             correctIndex: 0,
-            explanation: "\"Corre o boato de que\" means a rumour is going around. \"Correr\" here means spreading, not running, and the subject \"o boato\" follows the verb.",
+            explanation: "\"Corre o boato de que\" means a rumor is going around. \"Correr\" here means spreading, not running, and the subject \"o boato\" follows the verb.",
           },
         ],
       },
@@ -963,15 +963,15 @@ export const PT_C2_U09: Lesson[] = [
         heading: "Dar, and the verbs English hides",
         body: [
           "\"Dar\" means give when the giving is teaching or performing: \"dar aula\" (teach), \"dar uma palestra\" (give a talk), \"dar um conselho\", \"dar uma festa\" (throw a party). In business it reports results: \"dar lucro\" (make a profit), \"dar prejuízo\" (make a loss). Remember the crase in \"dar à luz\" (give birth).",
-          "Watch the pronoun. \"Dar conta de\" means to cope with or get through (\"não dou conta de tanto trabalho\"). \"Se dar conta de\" (\"dar-se conta de\" in formal writing) means to realise. And realise is never \"realizar\", which means to carry out: \"realizar um sonho\", \"realizar uma pesquisa\".",
+          "Watch the pronoun. \"Dar conta de\" means to cope with or get through (\"não dou conta de tanto trabalho\"). \"Se dar conta de\" (\"dar-se conta de\" in formal writing) means to realize. And realize is never \"realizar\", which means to carry out: \"realizar um sonho\", \"realizar uma pesquisa\".",
           "Some English verbs have no twin at all. Take place is \"acontecer\" or, formally, \"ser realizado\": \"o congresso será realizado em Belo Horizonte\", never \"tomará lugar\". Have a good time is \"se divertir\", and run a company is \"dirigir uma empresa\". Ask what a Brazilian newspaper would print, not what the English verb is.",
         ],
         examples: [
-          { es: "A professora dá aula numa escola pública de Salvador.", en: "The teacher teaches at a state school in Salvador." },
+          { es: "A professora dá aula numa escola pública de Salvador.", en: "The teacher teaches at a public school in Salvador." },
           { es: "Ele vai dar uma palestra sobre inteligência artificial na quinta.", en: "He's giving a talk on artificial intelligence on Thursday." },
-          { es: "A loja nova já está dando lucro.", en: "The new shop is already making a profit." },
+          { es: "A loja nova já está dando lucro.", en: "The new store is already making a profit." },
           { es: "Não dou conta de revisar tudo isso até sexta.", en: "I can't get through revising all this by Friday." },
-          { es: "Só me dei conta do erro depois de enviar o e-mail.", en: "I only realised the mistake after sending the email." },
+          { es: "Só me dei conta do erro depois de enviar o e-mail.", en: "I only realized the mistake after sending the email." },
           { es: "O congresso será realizado em Belo Horizonte, em setembro.", en: "The conference will take place in Belo Horizonte in September." },
         ],
         checkpoint: [
@@ -979,23 +979,23 @@ export const PT_C2_U09: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "She only realised later.",
+            source: "She only realized later.",
             answer: "Ela só se deu conta depois.",
             altAnswers: ["Ela só percebeu depois.", "Só depois ela se deu conta.", "Ela só se deu conta mais tarde.", "Ela só percebeu mais tarde.", "Só depois ela percebeu."],
-            explanation: "Realise is \"se dar conta\" or \"perceber\". \"Ela só realizou depois\" would mean she only carried it out later.",
+            explanation: "Realize is \"se dar conta\" or \"perceber\". \"Ela só realizou depois\" would mean she only carried it out later.",
           },
           {
             type: "multiple-choice",
             question: "You're writing a press release: The meeting will take place on Monday. Which sentence do you use?",
             options: ["A reunião será realizada na segunda-feira.", "A reunião tomará lugar na segunda-feira.", "A reunião fará lugar na segunda-feira.", "A reunião dará lugar na segunda-feira."],
             correctIndex: 0,
-            explanation: "Formal take place is \"ser realizado\" (or simply \"acontecer\"). \"Tomar lugar\" is a calque, and \"dar lugar a\" means to give way to.",
+            explanation: "Formal take place is \"ser realizado\" (or simply \"acontecer\"). \"Tomar lugar\" is a calque, and \"dar lugar a\" means to make way for.",
           },
           {
             type: "speak",
             text: "Não dou conta de tanto trabalho sozinho.",
             tip: "Keep the \"con\" in \"conta\" nasal with no n sound, and make the ou in \"dou\" a closed o.",
-            explanation: "\"Dar conta de\" means to cope with, and it takes no pronoun. With \"me\" it would mean I don't realise.",
+            explanation: "\"Dar conta de\" means to cope with, and it takes no pronoun. With \"me\" it would mean I don't realize.",
           },
         ],
       },
@@ -1023,7 +1023,7 @@ export const PT_C2_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "He's sitting the university entrance exam again this year.",
+        source: "He's taking the college entrance exam again this year.",
         answer: "Ele vai prestar vestibular de novo este ano.",
         altAnswers: ["Ele vai fazer vestibular de novo este ano.", "Ele vai prestar o vestibular de novo este ano.", "Ele vai fazer o vestibular de novo este ano.", "Ele vai prestar vestibular novamente este ano.", "Ele vai fazer vestibular novamente este ano.", "Ele vai prestar vestibular de novo esse ano.", "Ele vai fazer vestibular de novo esse ano.", "Ele presta vestibular de novo este ano."],
         explanation: "In Brazil competitive exams are \"prestados\": \"prestar vestibular\", \"prestar concurso\". \"Fazer vestibular\" is equally common.",
@@ -1115,7 +1115,7 @@ export const PT_C2_U09: Lesson[] = [
         ],
         examples: [
           { es: "Por que você não me avisou?", en: "Why didn't you let me know?" },
-          { es: "Ninguém entendeu por que a reunião foi cancelada.", en: "Nobody understood why the meeting was cancelled." },
+          { es: "Ninguém entendeu por que a reunião foi cancelada.", en: "Nobody understood why the meeting was canceled." },
           { es: "Esse é o motivo por que eu voltei para Salvador.", en: "That's the reason why I went back to Salvador." },
           { es: "Ela não veio porque o voo atrasou.", en: "She didn't come because the flight was delayed." },
           { es: "— Por que você está rindo? — Porque lembrei de uma piada.", en: "— Why are you laughing? — Because I remembered a joke." },
@@ -1198,7 +1198,7 @@ export const PT_C2_U09: Lesson[] = [
         body: [
           "In Brazil final l sounds like u, so \"mal\" and \"mau\" are homophones. \"Mal\" is the opposite of \"bem\". It is an adverb (\"dormi mal\"), a noun (\"o mal\", \"os males\") and the conjunction meaning as soon as from B2 (\"mal cheguei, começou a chover\"). \"Mau\" is the opposite of \"bom\": an adjective, feminine \"má\" (\"mau humor\", \"má notícia\"). Swap in bem or bom and the spelling follows.",
           "Compounds are where near-natives slip: \"de mau humor\" but \"mal-humorado\", \"mal-educado\", \"mal-entendido\", because their opposites are \"bem-humorado\" and \"bem-educado\". \"Mal\" modifies an adjective or participle; \"mau\" qualifies a noun.",
-          "\"A fim de\" is three words and means in order to. In speech, \"estar a fim de\" means to feel like something or to fancy someone. \"Afim\", one word, is an adjective meaning related or akin, plural \"afins\": \"áreas afins\". \"Estou afim de sair\", seen everywhere online, is a misspelling.",
+          "\"A fim de\" is three words and means in order to. In speech, \"estar a fim de\" means to feel like something or to have a crush on someone. \"Afim\", one word, is an adjective meaning related or akin, plural \"afins\": \"áreas afins\". \"Estou afim de sair\", seen everywhere online, is a misspelling.",
         ],
         examples: [
           { es: "Dormi mal por causa do calor.", en: "I slept badly because of the heat." },
@@ -1246,7 +1246,7 @@ export const PT_C2_U09: Lesson[] = [
         examples: [
           { es: "Leva o guarda-chuva, senão você vai se molhar.", en: "Take the umbrella, or else you'll get wet." },
           { es: "Ninguém senão a Beatriz sabia a senha.", en: "Nobody but Beatriz knew the password." },
-          { es: "Se não me engano, a loja fecha às seis.", en: "If I'm not mistaken, the shop closes at six." },
+          { es: "Se não me engano, a loja fecha às seis.", en: "If I'm not mistaken, the store closes at six." },
           { es: "Eles se mudaram para Recife há dois anos.", en: "They moved to Recife two years ago." },
           { es: "A reunião começa daqui a meia hora.", en: "The meeting starts in half an hour." },
           { es: "O hotel fica a cinco minutos da praia.", en: "The hotel is five minutes from the beach." },
@@ -1439,7 +1439,7 @@ export const PT_C2_U09: Lesson[] = [
           "With crase, one accent changes the sentence. \"Cheguei às duas\" means I arrived at two. \"Chamei as duas\" means I called both of them. Two fixed phrases are easy to cross. \"À medida que\" means as, in proportion. \"Na medida em que\" means insofar as. The hybrid \"à medida em que\" is the classic slip.",
         ],
         examples: [
-          { es: "Assistimos ao jogo no Maracanã.", en: "We watched the match at the Maracanã. (Without the preposition, \"assistir o paciente\" means to care for the patient.)" },
+          { es: "Assistimos ao jogo no Maracanã.", en: "We watched the game at the Maracanã. (Without the preposition, \"assistir o paciente\" means to care for the patient.)" },
           { es: "Ela sempre aspirou a uma carreira diplomática.", en: "She always aspired to a diplomatic career. (Without \"a\", \"aspirar\" means to inhale or to vacuum.)" },
           { es: "A fusão das duas empresas implica demissões.", en: "The merger of the two companies means layoffs. (No \"em\" after \"implica\".)" },
           { es: "À medida que a cidade cresce, o trânsito piora.", en: "As the city grows, traffic gets worse." },
@@ -1472,14 +1472,14 @@ export const PT_C2_U09: Lesson[] = [
         body: [
           "Collocations give away translation from English faster than grammar does. Reminder: in Portuguese you \"faz\" a question, \"toma\" a decision, \"presta\" attention, \"corre\" a risk and \"tira\" a photo. \"Tomar uma decisão\" and \"tomar uma foto\" look parallel. Only the first exists, and the second marks a learner at once.",
           "Time has its own verbs. You \"tira\" férias, \"marca\" a meeting, \"passa\" a weekend somewhere and \"leva\" two hours to get there. None of them is the verb English suggests.",
-          "Some calques are grammatical but still foreign. \"Fazer sentido\" is now fully Brazilian. \"Realizar que\" for to realise is not: Brazilians \"percebem\" or \"se dão conta\".",
+          "Some calques are grammatical but still foreign. \"Fazer sentido\" is now fully Brazilian. \"Realizar que\" for to realize is not: Brazilians \"percebem\" or \"se dão conta\".",
         ],
         examples: [
           { es: "Posso fazer uma pergunta rápida?", en: "Can I ask a quick question? (Never \"perguntar uma pergunta\".)" },
           { es: "A diretoria vai tomar uma decisão até sexta.", en: "The board will make a decision by Friday." },
           { es: "Ninguém prestou atenção ao aviso da síndica.", en: "Nobody paid attention to the building manager's notice." },
           { es: "Quem investe tudo numa só empresa corre um risco enorme.", en: "Anyone who puts everything into one company takes a huge risk." },
-          { es: "Vou tirar férias em julho e passar uns dias em Paraty.", en: "I'm taking a holiday in July and spending a few days in Paraty." },
+          { es: "Vou tirar férias em julho e passar uns dias em Paraty.", en: "I'm taking a vacation in July and spending a few days in Paraty." },
         ],
         checkpoint: [
           {
@@ -1832,7 +1832,7 @@ export const PT_C2_U09: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "We don't know [why] the meeting was cancelled.",
+        en: "We don't know [why] the meeting was canceled.",
         sentence: "Não sabemos ___ a reunião foi cancelada.",
         answer: "por que",
         explanation: "An indirect question takes \"por que\", written as two words with no accent. \"Porque\" is the answer form, meaning 'because'.",
@@ -1984,7 +1984,7 @@ export const PT_C2_U09: Lesson[] = [
           "Then look for crases that shouldn't be there. There is none before a verb or a masculine word (\"a partir de março\", \"a prazo\"), and none before \"essa\" or \"esta\" (\"refiro-me a essa proposta\"). Before a clock time, the crase is obligatory: \"às 10h\".",
         ],
         examples: [
-          { es: "O programa visa à redução de custos.", en: "The programme aims to reduce costs." },
+          { es: "O programa visa à redução de custos.", en: "The program aims to reduce costs." },
           { es: "A mudança implica novos investimentos.", en: "The change entails new investment." },
           { es: "À medida que os contratos vencerem, vamos renegociá-los.", en: "As the contracts expire, we'll renegotiate them." },
           { es: "A proposta é interessante na medida em que reduz o risco.", en: "The proposal is attractive insofar as it reduces risk." },
@@ -1995,7 +1995,7 @@ export const PT_C2_U09: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The programme [aims at] reducing costs.",
+            en: "The program [aims at] reducing costs.",
             sentence: "O programa ___ redução de custos.",
             answer: "visa à",
             explanation: "\"Visar\" meaning to aim at takes \"a\" in the norm, and \"a\" + \"a redução\" gives the crase: \"visa à redução\". Without the accent, \"visa a redução\" reads as the direct-object use, which means to target or to stamp.",
@@ -2032,7 +2032,7 @@ export const PT_C2_U09: Lesson[] = [
           { es: "A empresa não quer correr esse risco.", en: "The company doesn't want to take that risk." },
           { es: "Não sei por que o cliente ficou de mau humor.", en: "I don't know why the client was in a bad mood." },
           { es: "O sistema funcionou mal na primeira semana.", en: "The system worked badly in the first week." },
-          { es: "Daqui a dois meses teremos os números.", en: "In two months' time we'll have the figures." },
+          { es: "Daqui a dois meses teremos os números.", en: "In two months we'll have the figures." },
         ],
         checkpoint: [
           {
@@ -2055,7 +2055,7 @@ export const PT_C2_U09: Lesson[] = [
           {
             type: "speak",
             text: "Daqui a dois meses teremos os números.",
-            tip: "Run \"daqui a\" together (da-KI-a), and keep the e in \"teremos\" closed: te-RÊ-mos.",
+            tip: "Run \"daqui a\" together (da-KI-a), and keep the e in \"teremos\" closed: te-RÊ-mus.",
             explanation: "\"Daqui a\" looks forward in time, so it takes \"a\" with no h. \"Há\" would point to the past.",
           },
         ],
@@ -2144,7 +2144,7 @@ export const PT_C2_U09: Lesson[] = [
           { left: "fazer uma pergunta", right: "to ask a question" },
           { left: "de mau humor", right: "in a bad mood" },
         ],
-        explanation: "In each pair the Portuguese verb differs from the English one, which is why these collocations are memorised as units rather than translated word for word.",
+        explanation: "In each pair the Portuguese verb differs from the English one, which is why these collocations are memorized as units rather than translated word for word.",
       },
       {
         type: "translate",
@@ -2323,7 +2323,7 @@ export const PT_C2_U09: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "We don't know [why] the client cancelled.",
+        en: "We don't know [why] the client canceled.",
         sentence: "Não sabemos ___ o cliente cancelou.",
         answer: "por que",
         explanation: "An indirect question means 'for what reason', so it takes \"por que\" in two words. \"Porque\" in one word gives the cause.",
@@ -2390,7 +2390,7 @@ export const PT_C2_U09: Lesson[] = [
         source: "Overall it's great; I left a few optional comments.",
         answer: "No geral está ótimo; deixei alguns comentários opcionais.",
         altAnswers: ["No geral ficou ótimo; deixei alguns comentários opcionais.", "No geral está ótimo; deixei uns comentários opcionais.", "De modo geral está ótimo; deixei alguns comentários opcionais."],
-        explanation: "Praise first, then frame the changes. Labelling them \"opcionais\" tells the writer they are your taste, not errors.",
+        explanation: "Praise first, then frame the changes. Labeling them \"opcionais\" tells the writer they are your taste, not errors.",
       },
       {
         type: "speak",
@@ -2420,7 +2420,7 @@ export const PT_C2_U09: Lesson[] = [
         examples: [
           { es: "A maioria dos funcionários aprovou a proposta.", en: "Most of the staff approved the proposal." },
           { es: "Ela saiu da reunião meio irritada.", en: "She left the meeting somewhat annoyed." },
-          { es: "Ainda há bastantes vagas para o curso de inverno.", en: "There are still plenty of places on the winter course." },
+          { es: "Ainda há bastantes vagas para o curso de inverno.", en: "There are still plenty of spots in the winter course." },
           { es: "Seguem anexas as planilhas do terceiro trimestre.", en: "Please find attached the spreadsheets for the third quarter." },
           { es: "É proibida a entrada de animais no restaurante.", en: "Animals are not allowed in the restaurant." },
         ],
@@ -2450,7 +2450,7 @@ export const PT_C2_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A sign at a building site must say 'No entry for unauthorised persons'. Which version follows the norm?",
+            question: "A sign at a construction site must say 'No entry for unauthorized persons'. Which version follows the norm?",
             options: [
               "É proibida a entrada de pessoas não autorizadas.",
               "É proibido a entrada de pessoas não autorizadas.",
@@ -2472,7 +2472,7 @@ export const PT_C2_U09: Lesson[] = [
         examples: [
           { es: "Milhões de pessoas assistiram à final da Copa do Brasil.", en: "Millions of people watched the Copa do Brasil final." },
           { es: "A enfermeira assiste os pacientes do turno da noite.", en: "The nurse looks after the night-shift patients." },
-          { es: "O programa visa à inclusão digital de idosos.", en: "The programme aims at digital inclusion for older people." },
+          { es: "O programa visa à inclusão digital de idosos.", en: "The program aims at digital inclusion for older people." },
           { es: "Prefiro trabalhar no escritório a ficar em casa o dia todo.", en: "I'd rather work at the office than stay at home all day." },
           { es: "À medida que o prazo se aproximava, a equipe ficava mais tensa.", en: "As the deadline approached, the team grew tenser." },
           { es: "A mudança implica novos custos para as famílias.", en: "The change entails new costs for families." },
@@ -2520,7 +2520,7 @@ export const PT_C2_U09: Lesson[] = [
       {
         heading: "Collocations: the verb the noun expects",
         body: [
-          "Reminder: nouns choose their light verb, and English rarely predicts it. You \"fazer\" a question but \"tomar\" a decision, \"prestar\" attention, \"correr\" a risk and \"tirar\" holidays. \"Dar\" covers walks, examples and opinions (\"dar uma volta\", \"dar um exemplo\").",
+          "Reminder: nouns choose their light verb, and English rarely predicts it. You \"fazer\" a question but \"tomar\" a decision, \"prestar\" attention, \"correr\" a risk and \"tirar\" a vacation. \"Dar\" covers walks, examples and opinions (\"dar uma volta\", \"dar um exemplo\").",
           "The traps are the calques: \"fazer uma decisão\", \"pagar atenção\", \"tomar um risco\", \"tomar férias\". Each is understood but sounds foreign at once, so one wrong verb gives away an otherwise flawless paragraph. \"Prestar atenção\" also takes \"a\", which brings crase back: \"prestar atenção às regras\".",
         ],
         examples: [
@@ -2528,7 +2528,7 @@ export const PT_C2_U09: Lesson[] = [
           { es: "A diretoria precisa tomar uma decisão até sexta.", en: "The board needs to make a decision by Friday." },
           { es: "Os alunos não prestaram atenção às instruções.", en: "The students didn't pay attention to the instructions." },
           { es: "Quem investe tudo numa empresa só corre um risco enorme.", en: "Anyone who puts everything into a single company is running a huge risk." },
-          { es: "Vou tirar férias em julho e dar uma volta pelo Nordeste.", en: "I'm going to take a holiday in July and travel around the Northeast." },
+          { es: "Vou tirar férias em julho e dar uma volta pelo Nordeste.", en: "I'm going to take a vacation in July and travel around the Northeast." },
         ],
         checkpoint: [
           {
@@ -2564,11 +2564,11 @@ export const PT_C2_U09: Lesson[] = [
           "\"A fim de\" means in order to, and \"afim\" means related (\"áreas afins\"). \"Senão\" is otherwise or except. \"Se não\" is if not, and it survives the swap test with \"caso não\". For time and distance, \"há\" looks back (\"há cinco anos\") while \"a\" looks ahead or measures (\"daqui a cinco anos\", \"a dez minutos do centro\").",
         ],
         examples: [
-          { es: "Ninguém entendeu por que a reunião foi cancelada.", en: "Nobody understood why the meeting was cancelled." },
+          { es: "Ninguém entendeu por que a reunião foi cancelada.", en: "Nobody understood why the meeting was canceled." },
           { es: "Você saiu mais cedo por quê?", en: "Why did you leave early?" },
-          { es: "Ele não é mau aluno; só foi mal na prova.", en: "He isn't a bad student; he just did badly in the exam." },
+          { es: "Ele não é mau aluno; só foi mal na prova.", en: "He isn't a bad student; he just did badly on the exam." },
           { es: "Corra, senão você perde o último ônibus.", en: "Hurry, or you'll miss the last bus." },
-          { es: "Moro a dez minutos do metrô há quase cinco anos.", en: "I've lived ten minutes from the metro for almost five years." },
+          { es: "Moro a dez minutos do metrô há quase cinco anos.", en: "I've lived ten minutes from the subway for almost five years." },
         ],
         checkpoint: [
           {

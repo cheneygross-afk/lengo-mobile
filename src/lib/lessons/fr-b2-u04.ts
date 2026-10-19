@@ -162,7 +162,7 @@ export const FR_B2_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Parle fort, de sorte que tout le monde t'___. » Which form?",
+            question: "Which form completes the sentence? « Parle fort, de sorte que tout le monde t'___. » (Speak loudly so that everyone hears you.)",
             options: ["entende", "entend", "entendra", "a entendu"],
             correctIndex: 0,
             explanation: "An aim (purpose): \"de sorte que\" + subjunctive.",
@@ -209,10 +209,10 @@ export const FR_B2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which conjunction takes the subjunctive?",
-        options: ["bien que", "après que", "tant que", "puisque"],
+        question: "Which sentence is correct?",
+        options: ["Bien qu'il soit tard, on continue.", "Après qu'il soit parti, on a dîné.", "Tant qu'il soit là, je reste.", "Puisqu'il soit là, profitons-en."],
         correctIndex: 0,
-        explanation: "\"Bien que\" takes the subjunctive; the other three take the indicative.",
+        explanation: "\"Bien que\" takes the subjunctive (\"soit\"). \"Après que\", \"tant que\" and \"puisque\" take the indicative: \"après qu'il est parti\", \"tant qu'il est là\", \"puisqu'il est là\".",
       },
       {
         type: "fill-blank",
@@ -229,7 +229,7 @@ export const FR_B2_U04: Lesson[] = [
         prompt: "Translate into French.",
         source: "As long as you're here, I'll feel at ease. (to a friend)",
         answer: "Tant que tu seras là, je serai tranquille.",
-        altAnswers: ["Tant que tu es là, je suis tranquille.", "Tant que tu seras là, je serai rassuré.", "Tant que tu seras là, je serai rassurée."],
+        altAnswers: ["Tant que tu seras là, je serai rassuré.", "Tant que tu seras là, je serai rassurée."],
         explanation: "\"Tant que\" + future for future time.",
       },
       {
@@ -415,7 +415,7 @@ export const FR_B2_U04: Lesson[] = [
         prompt: "Transform: Elle est partie sans dire au revoir → without her parents knowing.",
         source: "She left without her parents knowing.",
         answer: "Elle est partie sans que ses parents le sachent.",
-        altAnswers: ["Elle est partie sans que ses parents sachent.", "Elle est partie sans que ses parents soient au courant."],
+        altAnswers: ["Elle est partie sans que ses parents soient au courant."],
         explanation: "\"Sans que\" + \"sachent\".",
       },
       {
@@ -458,7 +458,7 @@ export const FR_B2_U04: Lesson[] = [
         prompt: "Translate into French.",
         source: "We'll go, unless we miss the train.",
         answer: "On ira, à moins de rater le train.",
-        altAnswers: ["On ira à moins de rater le train.", "Nous irons, à moins de rater le train.", "On ira, à moins qu'on rate le train.", "On ira, à moins de manquer le train."],
+        altAnswers: ["On ira à moins de rater le train.", "Nous irons, à moins de rater le train.", "On ira, à moins de manquer le train."],
         explanation: "Same subject: \"à moins de\" + infinitive.",
       },
       {
@@ -549,7 +549,7 @@ export const FR_B2_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Les propriétaires vont retirer leurs biens du marché, si bien que l'offre ___. »",
+            question: "Which form completes the sentence? « Les propriétaires vont retirer leurs biens du marché, si bien que l'offre ___. » (Owners are going to take their properties off the market, so supply is going to fall.)",
             options: ["va diminuer", "diminue-t-elle", "diminuerait", "aille diminuer"],
             correctIndex: 0,
             explanation: "\"Si bien que\" introduces a result: indicative.",
@@ -1238,7 +1238,7 @@ export const FR_B2_U04: Lesson[] = [
         prompt: "Translate into French.",
         source: "As long as I'm in good health, I'll keep running.",
         answer: "Tant que je serai en bonne santé, je continuerai à courir.",
-        altAnswers: ["Tant que je serai en bonne santé, je continuerai de courir.", "Tant que je suis en bonne santé, je continue à courir."],
+        altAnswers: ["Tant que je serai en bonne santé, je continuerai de courir."],
         explanation: "\"Tant que\" + future.",
       },
       {
@@ -1553,7 +1553,7 @@ export const FR_B2_U04: Lesson[] = [
         ],
         examples: [
           { es: "Il faut partir avant qu'il fasse nuit.", en: "We must leave before it gets dark." },
-          { es: "Ils sont arrivés après qu'il a fait nuit.", en: "They arrived after it had got dark." },
+          { es: "Ils sont arrivés après que la nuit était tombée.", en: "They arrived after night had fallen." },
           { es: "Je le dis pour que tu le saches.", en: "I'm saying it so that you know." },
           { es: "Je le dis parce que tu le sais déjà.", en: "I'm saying it because you already know." },
           { es: "Écris lisiblement, de sorte qu'on puisse te lire.", en: "Write legibly, so that people can read you." },
@@ -1561,10 +1561,10 @@ export const FR_B2_U04: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "« Ils sont arrivés après qu'il ___ nuit. »",
-            options: ["a fait", "ait fait", "fasse", "fera"],
+            question: "Which form completes the sentence? « Ils sont arrivés après que la nuit ___ tombée. » (They arrived after night had fallen.)",
+            options: ["était", "soit", "sera", "ait été"],
             correctIndex: 0,
-            explanation: "\"Après que\" + indicative.",
+            explanation: "\"Après que\" + indicative: the event has happened, so the plus-que-parfait \"était tombée\". The subjunctive \"soit\" is a common mistake, by analogy with \"avant que\".",
           },
           {
             type: "listen-choose",
@@ -1658,7 +1658,7 @@ export const FR_B2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Il a tellement neigé ___ les routes sont fermées. »",
+        question: "Which word completes the sentence? « Il a tellement neigé ___ les routes sont fermées. » (It snowed so much that the roads are closed.)",
         options: ["que", "pour que", "bien que", "avant que"],
         correctIndex: 0,
         explanation: "\"Tellement... que\" introduces a result, with the indicative.",

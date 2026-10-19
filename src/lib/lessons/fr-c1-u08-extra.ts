@@ -145,7 +145,7 @@ export const FR_C1_U08_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "The pharmacist on duty is open until midnight.",
+        source: "The duty pharmacy is open until midnight.",
         answer: "La pharmacie de garde est ouverte jusqu'à minuit.",
         altAnswers: ["La pharmacie de garde reste ouverte jusqu'à minuit."],
         explanation: "In French it's the pharmacy that is \"de garde\".",
@@ -348,7 +348,7 @@ export const FR_C1_U08_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite with 'ça fait... que': Il pleut depuis une semaine.",
+            prompt: "Translate into French (rewrite with \"ça fait... que\"): \"Il pleut depuis une semaine.\"",
             source: "It's been raining for a week.",
             answer: "Ça fait une semaine qu'il pleut.",
             explanation: "Spoken duration frame.",
@@ -356,7 +356,7 @@ export const FR_C1_U08_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite formally with 'appartenir': Cette voiture est à mon oncle.",
+            prompt: "Translate into French (rewrite formally with \"appartenir\"): \"Cette voiture est à mon oncle.\"",
             source: "This car belongs to my uncle.",
             answer: "Cette voiture appartient à mon oncle.",
             explanation: "\"Être à\" → \"appartenir à\".",
@@ -376,7 +376,7 @@ export const FR_C1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with 'avoir lieu': Il y a eu une manifestation samedi.",
+        prompt: "Translate into French (rewrite with \"avoir lieu\"): \"Il y a eu une manifestation samedi.\"",
         source: "A demonstration took place on Saturday.",
         answer: "Une manifestation a eu lieu samedi.",
         explanation: "Formal transform of \"il y a\".",
@@ -384,7 +384,7 @@ export const FR_C1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with 'en être à': Je suis en train de lire le dernier chapitre.",
+        prompt: "Translate into French (rewrite with \"en être à\"): \"Je suis en train de lire le dernier chapitre.\"",
         source: "I'm on the last chapter.",
         answer: "J'en suis au dernier chapitre.",
         explanation: "\"En être à\" + stage.",
@@ -392,7 +392,7 @@ export const FR_C1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with 'il y a... que': Je la connais depuis vingt ans.",
+        prompt: "Translate into French (rewrite with \"il y a... que\"): \"Je la connais depuis vingt ans.\"",
         source: "I've known her for twenty years.",
         answer: "Il y a vingt ans que je la connais.",
         explanation: "\"Il y a\" + duration + \"que\" + present.",
@@ -400,7 +400,7 @@ export const FR_C1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite formally with 'être âgé de': La victime a 45 ans.",
+        prompt: "Translate into French (rewrite formally with \"être âgé de\"): \"La victime a 45 ans.\"",
         source: "The victim is 45 years of age.",
         answer: "La victime est âgée de 45 ans.",
         altAnswers: ["La victime est âgée de quarante-cinq ans."],
@@ -409,7 +409,7 @@ export const FR_C1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with 'avoir l'air': Elle fait sérieux.",
+        prompt: "Translate into French (rewrite with \"avoir l'air\"): \"Elle fait sérieux.\"",
         source: "She looks serious.",
         answer: "Elle a l'air sérieuse.",
         altAnswers: ["Elle a l'air sérieux."],
@@ -418,7 +418,7 @@ export const FR_C1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with 'avoir du mal à': Je trouve difficilement mes mots.",
+        prompt: "Translate into French (rewrite with \"avoir du mal à\"): \"Je trouve difficilement mes mots.\"",
         source: "I struggle to find my words.",
         answer: "J'ai du mal à trouver mes mots.",
         explanation: "Adverb → \"avoir du mal à\".",
@@ -480,7 +480,7 @@ export const FR_C1_U08_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Ça fait une semaine qu'il pleut.",
-        prompt: "Say it in French, with 'ça fait': It's been raining for a week.",
+        prompt: "Say it in French, with \"ça fait\": It's been raining for a week.",
         explanation: "Spoken duration frame.",
       },
     ],
@@ -713,7 +713,7 @@ export const FR_C1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French, with 'voilà'.",
+        prompt: "Translate into French, with \"voilà\".",
         source: "I've been looking for you for an hour!",
         answer: "Voilà une heure que je te cherche !",
         altAnswers: ["Voilà une heure que je vous cherche !"],
@@ -730,7 +730,7 @@ export const FR_C1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French in a literary style, with 'il est'.",
+        prompt: "Translate into French in a literary style, with \"il est\".",
         source: "There are silences that speak louder than words.",
         answer: "Il est des silences qui en disent plus long que les mots.",
         altAnswers: ["Il est des silences qui parlent plus fort que les mots."],
@@ -793,7 +793,7 @@ export const FR_C1_U08_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Voilà une heure que je te cherche !",
-        prompt: "Say it in French, with 'voilà': I've been looking for you for an hour!",
+        prompt: "Say it in French, with \"voilà\": I've been looking for you for an hour!",
         explanation: "Expressive duration frame.",
       },
     ],

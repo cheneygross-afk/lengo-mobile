@@ -330,7 +330,7 @@ export const FR_C1_GUIDES: FrGrammarGuide[] = [
       {
         heading: "Suffixes and the gender they carry",
         body: [
-          "Most verb-based nouns are formed with a handful of suffixes, and the suffix decides the gender. \"-ment\" and \"-age\" are masculine (\"le licenciement\", \"le nettoyage\"), except a few short words in \"-age\" that aren't derived from verbs: \"la page\", \"l'image\", \"la plage\", \"la cage\", \"la nage\", \"la rage\". \"-tion\", \"-sion\", \"-ance\", \"-ence\", \"-ure\" and \"-ée\" are feminine (\"la réduction\", \"la croissance\", \"la signature\", \"l'arrivée\").",
+          "Most verb-based nouns are formed with a handful of suffixes, and the suffix decides the gender. \"-ment\" and \"-age\" are masculine (\"le licenciement\", \"le nettoyage\"), except a few short words in \"-age\" that aren't derived from verbs: \"la page\", \"l'image\", \"la plage\", \"la cage\", \"la rage\". \"-tion\", \"-sion\", \"-ance\", \"-ence\", \"-ure\" and \"-ée\" are feminine (\"la réduction\", \"la croissance\", \"la signature\", \"l'arrivée\").",
           "Nouns from adjectives are overwhelmingly feminine: \"-ité\" (\"la rapidité\"), \"-eur\" (\"la lenteur\", \"la largeur\"), \"-esse\" (\"la faiblesse\"), \"-ise\" (\"la franchise\"), \"-ude\" (\"l'exactitude\"). The exception is \"-isme\", which is masculine: \"le réalisme\".",
           "Which suffix a verb takes can't be fully predicted, and inventing one is a classic error: \"développer\" gives \"le développement\", not \"*la développation\"; \"licencier\" gives \"le licenciement\", not \"*la licenciation\". When in doubt, check.",
         ],
@@ -528,7 +528,7 @@ export const FR_C1_GUIDES: FrGrammarGuide[] = [
         body: [
           "When the subject of a \"que\" clause is the same as the main subject, French often prefers an infinitive, and with \"vouloir\", \"préférer\" or \"souhaiter\" it's obligatory: \"je veux partir\", never \"*je veux que je parte\". With verbs of opinion and declaration (\"croire\", \"penser\", \"affirmer\", \"espérer\", \"reconnaître\") the infinitive is an elegant alternative: \"Je crois avoir compris\", \"Il affirme l'avoir vue.\"",
           "The past infinitive (\"avoir\" or \"être\" + participle) marks an action already completed. It's required after \"après\" (\"après avoir mangé\", \"après être sortie\", \"après s'être levé\"), and common after \"pour\" giving a cause (\"condamné pour avoir menti\") and after \"sans\" (\"sans avoir prévenu\").",
-          "The infinitive also works as a subject or noun (\"Fumer tue\", \"Partir, c'est mourir un peu\"), in instructions and signs (\"Laisser reposer dix minutes\", \"Ne pas se pencher au dehors\") and in deliberative questions (\"Que faire ?\", \"Où aller ?\"). Note that \"ne pas\" goes together before an infinitive.",
+          "The infinitive also works as a subject or noun (\"Fumer tue\", \"Partir, c'est mourir un peu\"), in instructions and signs (\"Laisser reposer dix minutes\", \"Ne pas se pencher au-dehors\") and in deliberative questions (\"Que faire ?\", \"Où aller ?\"). Note that \"ne pas\" goes together before an infinitive.",
         ],
         examples: [
           { fr: "Je crois avoir compris le problème.", en: "I think I've understood the problem." },
@@ -961,7 +961,7 @@ export const FR_C1_GUIDES: FrGrammarGuide[] = [
         heading: "Verbs that change meaning with the preposition",
         body: [
           "\"Manquer\" is the great trap. \"Manquer à quelqu'un\" means to be missed by someone, so the person who misses is the indirect object: \"Tu me manques\" is I miss you, \"Paris lui manque\" is he misses Paris. \"Manquer de\" means to lack (\"Il manque de patience\"), and \"manquer\" + direct object means to miss a train, a class, a target.",
-          "The others follow the same idea: the preposition changes the relationship. \"Penser à\" is to think about; \"penser de\" is to have an opinion of, only in questions (\"Qu'est-ce que tu penses de ce film ?\"). \"Tenir à\" is to care about or insist on; \"tenir de\" is to take after. \"Servir à\" is to be used for; \"servir de\" is to serve as; \"se servir de\" is to use.",
+          "The others follow the same idea: the preposition changes the relationship. \"Penser à\" is to think about; \"penser de\" is to have an opinion of, mostly in questions (\"Qu'est-ce que tu penses de ce film ?\"). \"Tenir à\" is to care about or insist on; \"tenir de\" is to take after. \"Servir à\" is to be used for; \"servir de\" is to serve as; \"se servir de\" is to use.",
         ],
         table: {
           headers: ["Verb", "+ à", "+ de", "Direct object"],

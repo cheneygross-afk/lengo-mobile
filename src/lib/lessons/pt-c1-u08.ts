@@ -15,15 +15,15 @@ export const PT_C1_U08: Lesson[] = [
       {
         heading: "Topic first: esse filme, eu nunca vi",
         body: [
-          "English can say 'That film, I've never seen', but it sounds marked. Brazilian Portuguese fronts the thing it's talking about all the time: \"Esse filme, eu nunca vi.\" The front slot holds the topic (what the sentence is about), and the rest is the comment. The listener must be able to identify the topic, so it usually carries \"esse\", an article or a name. A generic bare noun also works: \"Café, eu só tomo de manhã.\"",
+          "English can say 'That movie, I've never seen', but it sounds marked. Brazilian Portuguese fronts the thing it's talking about all the time: \"Esse filme, eu nunca vi.\" The front slot holds the topic (what the sentence is about), and the rest is the comment. The listener must be able to identify the topic, so it usually carries \"esse\", an article or a name. A generic bare noun also works: \"Café, eu só tomo de manhã.\"",
           "In speech the object slot after the verb is simply left empty: \"eu nunca vi\", with no pronoun. Brazilian Portuguese drops third-person objects whenever the context supplies them, so the gap is normal, not sloppy. Give the topic its own rising tune and a tiny pause. In writing, use a comma.",
           "The most common reason to front is contrast: you line up two topics and say something different about each. \"O vinho, eu trouxe; a sobremesa, a Ana vai trazer\" sounds far more natural than two plain subject-verb-object sentences.",
         ],
         examples: [
-          { es: "Esse filme, eu nunca vi.", en: "That film, I've never seen." },
+          { es: "Esse filme, eu nunca vi.", en: "That movie, I've never seen." },
           { es: "O livro, eu já devolvi para a biblioteca.", en: "The book, I've already returned to the library." },
           { es: "Café, eu só tomo de manhã.", en: "Coffee, I only drink in the morning." },
-          { es: "Esse bairro, eu conheço bem.", en: "That neighbourhood, I know well." },
+          { es: "Esse bairro, eu conheço bem.", en: "That neighborhood, I know well." },
           { es: "O vinho, eu trouxe; a sobremesa, a Ana vai trazer.", en: "I brought the wine; the dessert, Ana's going to bring." },
         ],
         checkpoint: [
@@ -57,7 +57,7 @@ export const PT_C1_U08: Lesson[] = [
         body: [
           "Speech often goes a step further and leaves a pronoun in the comment that points back to the topic: \"O João, ninguém aguenta ele.\" This resumptive pronoun is the spoken object \"ele\" / \"ela\" you've used since A2. With things, both the gap and the pronoun work. With people, Brazilians usually prefer the pronoun.",
           "Some topics can't leave a gap at all, because a gap couldn't show their role. A possessor needs \"dele\" / \"dela\": \"Meu irmão, a namorada dele mora em Recife.\" A prepositional object needs the preposition plus a pronoun: \"Esse assunto, ninguém fala dele.\" English does this in casual talk too ('My brother, his girlfriend...'), but Portuguese uses it far more freely.",
-          "Learn to recognise one step beyond this, the topic-subject: \"Meu celular quebrou a tela\" (my phone's screen broke), \"Essa casa bate muito sol\" (this house gets a lot of sun). Here the topic has become the grammatical subject. You'll hear it everywhere in conversation, but careful writing avoids it.",
+          "Learn to recognize one step beyond this, the topic-subject: \"Meu celular quebrou a tela\" (my phone's screen broke), \"Essa casa bate muito sol\" (this house gets a lot of sun). Here the topic has become the grammatical subject. You'll hear it everywhere in conversation, but careful writing avoids it.",
         ],
         examples: [
           { es: "O João, ninguém aguenta ele.", en: "João, nobody can stand him." },
@@ -72,7 +72,7 @@ export const PT_C1_U08: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "My neighbour, his son plays in a band.",
+            source: "My neighbor, his son plays in a band.",
             answer: "Meu vizinho, o filho dele toca numa banda.",
             altAnswers: ["O meu vizinho, o filho dele toca numa banda.", "Meu vizinho, o filho dele toca em uma banda.", "O meu vizinho, o filho dele toca em uma banda."],
             explanation: "The topic is the possessor, so the comment needs \"dele\" to link back to it. A gap can't express possession.",
@@ -183,9 +183,9 @@ export const PT_C1_U08: Lesson[] = [
       {
         type: "multiple-choice",
         question: "A friend says \"O carro furou o pneu.\" What does it mean?",
-        options: ["The car got a flat tyre.", "The car ran over a tyre.", "Someone punctured the car with a tyre.", "The tyre damaged the car."],
+        options: ["The car got a flat tire.", "The car ran over a tire.", "Someone punctured the car with a tire.", "The tire damaged the car."],
         correctIndex: 0,
-        explanation: "This is a topic-subject: \"o carro\" is what the sentence is about and has become the subject. Read it as 'the car, its tyre got punctured'.",
+        explanation: "This is a topic-subject: \"o carro\" is what the sentence is about and has become the subject. Read it as 'the car, its tire got punctured'.",
       },
       {
         type: "dictation",
@@ -195,7 +195,7 @@ export const PT_C1_U08: Lesson[] = [
       {
         type: "speak",
         text: "Esse filme, eu nunca vi.",
-        prompt: "Say it in Portuguese, putting the topic first: That film, I've never seen.",
+        prompt: "Say it in Portuguese, putting the topic first: That movie, I've never seen.",
         tip: "Let your voice rise on filme and pause briefly before dropping into the comment.",
         explanation: "The topic gets its own intonation unit, which is what a comma stands for in writing.",
       },
@@ -281,7 +281,7 @@ export const PT_C1_U08: Lesson[] = [
         ],
         examples: [
           { es: "Fui eu que deixei a porta aberta.", en: "I'm the one who left the door open." },
-          { es: "Fomos nós que organizamos a festa.", en: "We're the ones who organised the party." },
+          { es: "Fomos nós que organizamos a festa.", en: "We're the ones who organized the party." },
           { es: "Foram eles quem pediu a reunião.", en: "They're the ones who asked for the meeting." },
           { es: "Foi você que trouxe esse bolo?", en: "Was it you who brought this cake?" },
           { es: "Foram os moradores que reclamaram do barulho.", en: "It was the residents who complained about the noise." },
@@ -372,7 +372,7 @@ export const PT_C1_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'm the one who has to apologise.",
+        source: "I'm the one who has to apologize.",
         answer: "Sou eu que tenho que pedir desculpas.",
         altAnswers: ["Sou eu quem tem que pedir desculpas.", "Sou eu que tenho de pedir desculpas.", "Sou eu quem tem de pedir desculpas.", "Sou eu quem tenho que pedir desculpas.", "Eu é que tenho que pedir desculpas.", "Quem tem que pedir desculpas sou eu."],
         explanation: "\"Sou eu\" agrees with the pronoun. After \"que\" the verb is \"tenho\"; after \"quem\" the norm prefers \"tem\".",
@@ -505,7 +505,7 @@ export const PT_C1_U08: Lesson[] = [
         examples: [
           { es: "O que é que você quer comer?", en: "What do you want to eat?" },
           { es: "O que que aconteceu com o seu celular?", en: "What happened to your phone?" },
-          { es: "Por que é que a loja está fechada?", en: "Why is the shop closed?" },
+          { es: "Por que é que a loja está fechada?", en: "Why is the store closed?" },
           { es: "Como é que você sabe disso?", en: "How do you know that?" },
           { es: "Como é que é? Você vendeu o carro?", en: "Come again? You sold the car?" },
         ],
@@ -697,7 +697,7 @@ export const PT_C1_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The delivery man hands you the parcel you've been waiting for all week. You shout to your flatmate:",
+            question: "The delivery man hands you the package you've been waiting for all week. You shout to your roommate:",
             options: ["Chegou o pacote!", "Chegaram o pacote!", "O pacote foi chegado!", "Chegou-se o pacote!"],
             correctIndex: 0,
             explanation: "Verb first, then the news: \"Chegou o pacote!\". \"Chegaram\" doesn't agree with the singular subject, \"chegar\" has no passive, and it takes no \"se\" here.",
@@ -716,11 +716,11 @@ export const PT_C1_U08: Lesson[] = [
         heading: "Chegaram as encomendas: agreement still applies",
         body: [
           "The subject after the verb is still the subject, so the verb agrees with it: \"Chegaram as encomendas\", \"Faltam dois dias\", \"Sobraram três fatias\". English speakers slip here because the verb comes out before the plural noun does, and 'there's two days left' is common in casual English.",
-          "Relaxed Brazilian speech often leaves the verb singular (\"chegou as encomendas\", \"faltou dois alunos\"). Recognise it, but don't write it: it's one of the first things an editor or an ENEM examiner marks. Keep \"haver\" separate: meaning there is, it never agrees, so \"há problemas\" but \"existem problemas\".",
+          "Relaxed Brazilian speech often leaves the verb singular (\"chegou as encomendas\", \"faltou dois alunos\"). Recognize it, but don't write it: it's one of the first things an editor or an ENEM grader flags. Keep \"haver\" separate: meaning there is, it never agrees, so \"há problemas\" but \"existem problemas\".",
           "\"Faltar\" and \"sobrar\" often have a person in front as an indirect object: \"Me falta paciência\", \"Nos faltaram recursos\". The person is not the subject. The thing missing is the subject, and it decides the verb.",
         ],
         examples: [
-          { es: "Chegaram as encomendas da loja.", en: "The orders from the shop have arrived." },
+          { es: "Chegaram as encomendas da loja.", en: "The orders from the store have arrived." },
           { es: "Faltam só dois dias para o Carnaval.", en: "There are only two days left until Carnival." },
           { es: "Sobraram três fatias de pizza.", en: "There are three slices of pizza left over." },
           { es: "Existem várias explicações possíveis.", en: "There are several possible explanations." },
@@ -730,7 +730,7 @@ export const PT_C1_U08: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The orders from the shop [have arrived].",
+            en: "The orders from the store [have arrived].",
             sentence: "___ as encomendas da loja.",
             answer: "Chegaram",
             explanation: "The subject \"as encomendas\" is plural, so the verb is too: \"Chegaram\". \"Chegou as encomendas\" is heard in speech but is wrong in writing.",
@@ -762,7 +762,7 @@ export const PT_C1_U08: Lesson[] = [
         ],
         examples: [
           { es: "Morre aos 92 anos um dos fundadores da bossa nova.", en: "One of the founders of bossa nova dies at 92." },
-          { es: "Sobe pela terceira vez o preço da gasolina.", en: "Petrol prices rise for the third time." },
+          { es: "Sobe pela terceira vez o preço da gasolina.", en: "Gas prices rise for the third time." },
           { es: "Começa hoje a campanha de vacinação em Recife.", en: "Vaccination campaign starts today in Recife." },
           { es: "Entrou então um homem de chapéu e pediu um café.", en: "Then a man in a hat came in and ordered a coffee." },
           { es: "Na mesa estavam duas cartas sem remetente.", en: "On the table lay two letters with no return address." },
@@ -949,11 +949,11 @@ export const PT_C1_U08: Lesson[] = [
           "Negative even is \"nem\" or \"nem mesmo\", never \"até não\": \"Nem a professora sabia\". Tell even from until by what follows. \"Até as dez\" sets a time limit, while \"até as crianças\" adds a surprise.",
         ],
         examples: [
-          { es: "Até o meu pai gostou do filme.", en: "Even my dad liked the film." },
+          { es: "Até o meu pai gostou do filme.", en: "Even my dad liked the movie." },
           { es: "Meu pai até chorou no final.", en: "My dad even cried at the end." },
-          { es: "Ele pediu desculpas e até pagou o jantar.", en: "He apologised and even paid for dinner." },
+          { es: "Ele pediu desculpas e até pagou o jantar.", en: "He apologized and even paid for dinner." },
           { es: "Nem a professora sabia a resposta.", en: "Not even the teacher knew the answer." },
-          { es: "A loja fica aberta até as dez.", en: "The shop stays open until ten." },
+          { es: "A loja fica aberta até as dez.", en: "The store stays open until ten." },
         ],
         checkpoint: [
           {
@@ -994,7 +994,7 @@ export const PT_C1_U08: Lesson[] = [
           { es: "Mesmo o João, que odeia festa, veio.", en: "Even João, who hates parties, came." },
           { es: "O João mesmo me contou.", en: "João told me himself." },
           { es: "Ela veio mesmo, apesar da chuva.", en: "She really did come, despite the rain." },
-          { es: "Eu mesma resolvi o problema.", en: "I sorted out the problem myself. (said by a woman)" },
+          { es: "Eu mesma resolvi o problema.", en: "I solved the problem myself. (said by a woman)" },
           { es: "A gente sempre vai ao mesmo restaurante.", en: "We always go to the same restaurant." },
         ],
         checkpoint: [
@@ -1159,13 +1159,13 @@ export const PT_C1_U08: Lesson[] = [
       {
         heading: "Known first, new last",
         body: [
-          "English marks focus mostly with the voice: JOHN broke it, I've never seen THAT film. Portuguese can stress words too, but it prefers to move them. Every pair in this lesson follows one principle. What is already known goes first, and the new or important information goes last, where the sentence lands.",
-          "Subject-verb-object is the neutral order. \"Eu nunca vi esse filme\" simply reports a fact and would answer 'what's new?'. Fronting the object, as in \"Esse filme, eu nunca vi\", makes the film the topic and usually implies a contrast: not that one, but others, yes. Two fronted topics side by side make the contrast explicit.",
+          "English marks focus mostly with the voice: JOHN broke it, I've never seen THAT movie. Portuguese can stress words too, but it prefers to move them. Every pair in this lesson follows one principle. What is already known goes first, and the new or important information goes last, where the sentence lands.",
+          "Subject-verb-object is the neutral order. \"Eu nunca vi esse filme\" simply reports a fact and would answer 'what's new?'. Fronting the object, as in \"Esse filme, eu nunca vi\", makes the movie the topic and usually implies a contrast: not that one, but others, yes. Two fronted topics side by side make the contrast explicit.",
           "In speech the fronted noun is often picked up again by a pronoun (\"O Rafael, ninguém aguenta ele\"). In careful writing, drop the pronoun or use \"o\".",
         ],
         examples: [
-          { es: "Eu nunca vi esse filme.", en: "I've never seen that film." },
-          { es: "Esse filme, eu nunca vi.", en: "That film I've never seen (the others, yes)." },
+          { es: "Eu nunca vi esse filme.", en: "I've never seen that movie." },
+          { es: "Esse filme, eu nunca vi.", en: "That movie I've never seen (the others, yes)." },
           { es: "A Beatriz já leu o relatório.", en: "Beatriz has already read the report." },
           { es: "O relatório, a Beatriz já leu; a apresentação, ainda não.", en: "The report Beatriz has read; the presentation, not yet." },
           { es: "Essa música, todo mundo conhece.", en: "That song, everybody knows." },
@@ -1238,15 +1238,15 @@ export const PT_C1_U08: Lesson[] = [
         heading: "Subject after the verb, and where só goes",
         body: [
           "With verbs of arrival, appearance and existence, a subject placed after the verb is presented as news. \"Chegou um pacote para você!\" announces something unexpected, while \"O pacote chegou\" updates a story everyone already knew about. The same instinct gives headlines like \"Morre aos 80 anos o cantor...\". With other verbs inversion sounds odd: say \"A Ana comprou um carro\", not \"Comprou a Ana um carro\".",
-          "Focus adverbs like \"só\" and \"até\" attach to the word right after them, so moving them changes the claim. \"Só a Ana viu o filme\" means nobody else did. \"A Ana viu só o filme\" means the film and nothing else. Before the verb, \"só\" can cover the whole action: \"A Ana só viu o filme, não leu o livro.\"",
+          "Focus adverbs like \"só\" and \"até\" attach to the word right after them, so moving them changes the claim. \"Só a Ana viu o filme\" means nobody else did. \"A Ana viu só o filme\" means the movie and nothing else. Before the verb, \"só\" can cover the whole action: \"A Ana só viu o filme, não leu o livro.\"",
           "English 'only' drifts freely in speech. In written Portuguese, put \"só\" right where the focus is.",
         ],
         examples: [
           { es: "O pacote chegou.", en: "The package (the one we ordered) has arrived." },
           { es: "Chegou um pacote para você!", en: "A package has come for you!" },
-          { es: "Só a Ana viu o filme.", en: "Only Ana saw the film." },
-          { es: "A Ana viu só o filme.", en: "Ana saw just the film (nothing else)." },
-          { es: "A Ana só viu o filme, não leu o livro.", en: "Ana only saw the film; she didn't read the book." },
+          { es: "Só a Ana viu o filme.", en: "Only Ana saw the movie." },
+          { es: "A Ana viu só o filme.", en: "Ana saw just the movie (nothing else)." },
+          { es: "A Ana só viu o filme, não leu o livro.", en: "Ana only saw the movie; she didn't read the book." },
           { es: "Até o diretor riu da piada.", en: "Even the director laughed at the joke." },
         ],
         checkpoint: [
@@ -1312,7 +1312,7 @@ export const PT_C1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Nobody knew the new manager was starting today, and he has just walked into reception. You rush into the office. What do you say?",
+        question: "Nobody knew the new manager was starting today, and he has just walked in. You rush into the office. What do you say?",
         options: [
           "Chegou o novo gerente!",
           "Foi o novo gerente que chegou!",
@@ -1376,7 +1376,7 @@ export const PT_C1_U08: Lesson[] = [
     level: "PT-C1",
     number: 7,
     title: "Dialogue Lab: Não Fui Eu!",
-    summary: "Follow a flat-share row over a cracked TV and argue back with clefts, topics, inversion, focus adverbs and the emphatic double negative.",
+    summary: "Follow a fight between roommates over a cracked TV and argue back with clefts, topics, inversion, focus adverbs and the emphatic double negative.",
     duration: "15 min",
     kind: "reinforce",
     format: "Dialogue Lab",
@@ -1384,7 +1384,7 @@ export const PT_C1_U08: Lesson[] = [
       {
         heading: "Scene 1: Something's broken",
         body: [
-          "Rafael gets home to the flat he shares with Beatriz and Lucas in Pinheiros and finds the TV screen cracked. His first lines use subject inversion. With verbs of appearing, arriving and disappearing, the new information goes after the verb, so \"apareceu uma rachadura\" sounds natural where \"uma rachadura apareceu\" sounds staged.",
+          "Rafael gets home to the apartment he shares with Beatriz and Lucas in Pinheiros and finds the TV screen cracked. His first lines use subject inversion. With verbs of appearing, arriving and disappearing, the new information goes after the verb, so \"apareceu uma rachadura\" sounds natural where \"uma rachadura apareceu\" sounds staged.",
           "His questions carry \"é que\". Said in an angry voice, it turns a request for information into a demand: \"o que é que aconteceu aqui?\" is close to 'what on earth happened here?'. About a finished event, Brazilians often say \"foi que\" instead: \"quem foi que quebrou a TV?\". Save it for the questions that matter. On every line it sounds like an interrogation.",
         ],
         examples: [
@@ -1468,14 +1468,14 @@ export const PT_C1_U08: Lesson[] = [
         heading: "Scene 3: Não quebrei, não",
         body: [
           "Lucas arrives and digs in with the double negative of speech: \"não quebrei, não\". The final \"não\" doesn't cancel the first one. It hammers it home, like 'I did not, OK?'. It belongs to conversation; in an email or a complaint it sounds like shouting.",
-          "Focus adverbs settle the details, and their position carries the meaning. \"Só o Lucas joga bola em casa\" blames Lucas alone, while \"o Lucas só joga bola em casa\" says home is the only place he plays. \"Até\" right before a noun adds surprise: \"até a vizinha de baixo ouviu\" ('even the neighbour').",
+          "Focus adverbs settle the details, and their position carries the meaning. \"Só o Lucas joga bola em casa\" blames Lucas alone, while \"o Lucas só joga bola em casa\" says home is the only place he plays. \"Até\" right before a noun adds surprise: \"até a vizinha de baixo ouviu\" ('even the neighbor').",
           "The scene closes with a pseudo-cleft, \"o que eu quero é...\", which holds the key point back until after \"é\". Then a final cleft reveals the culprit: \"quem derrubou a TV foi o gato\".",
         ],
         examples: [
           { es: "Eu não quebrei nada, não!", en: "I didn't break anything, OK?!" },
           { es: "Não fui eu, não. Pergunta pro gato.", en: "It wasn't me, no way. Ask the cat." },
           { es: "Só o Lucas joga bola dentro de casa.", en: "Lucas is the only one who plays ball indoors." },
-          { es: "Até a vizinha de baixo ouviu o barulho.", en: "Even the downstairs neighbour heard the noise." },
+          { es: "Até a vizinha de baixo ouviu o barulho.", en: "Even the downstairs neighbor heard the noise." },
           { es: "O que eu quero é saber a verdade.", en: "What I want is to know the truth." },
           { es: "Quem derrubou a TV foi o gato, gente!", en: "The one who knocked the TV over was the cat, guys!" },
         ],
@@ -1484,7 +1484,7 @@ export const PT_C1_U08: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Even the downstairs neighbour heard the noise.",
+            source: "Even the downstairs neighbor heard the noise.",
             answer: "Até a vizinha de baixo ouviu o barulho.",
             altAnswers: ["Até o vizinho de baixo ouviu o barulho.", "Até a vizinha de baixo escutou o barulho.", "Até o vizinho de baixo escutou o barulho."],
             explanation: "\"Até\" directly before the noun it focuses means even: \"até a vizinha\". \"De baixo\" means downstairs.",
@@ -1523,7 +1523,7 @@ export const PT_C1_U08: Lesson[] = [
         source: "I didn't break anything, no way!",
         answer: "Eu não quebrei nada, não!",
         altAnswers: ["Não quebrei nada, não!"],
-        explanation: "The emphatic spoken double negative: a second \"não\" at the end of the sentence reinforces the denial instead of cancelling it.",
+        explanation: "The emphatic spoken double negative: a second \"não\" at the end of the sentence reinforces the denial instead of canceling it.",
       },
       {
         type: "fill-blank",
@@ -1596,7 +1596,7 @@ export const PT_C1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're writing a formal email to the building manager to say your flat did not damage the lift. Which sentence fits?",
+        question: "You're writing a formal email to the building manager to say your household did not damage the elevator. Which sentence fits?",
         options: ["Não fomos nós que danificamos o elevador.", "Não danificamos o elevador, não.", "O elevador, a gente não danificou ele, não.", "Não foi nós que danificamos o elevador."],
         correctIndex: 0,
         explanation: "A correctly agreed cleft (\"fomos nós\") is emphatic and fine in writing. The double \"não\" and the resumptive \"ele\" belong to speech, and \"foi nós\" is an agreement error.",
@@ -1622,7 +1622,7 @@ export const PT_C1_U08: Lesson[] = [
         ],
         examples: [
           { es: "Fomos nós que pagamos a conta.", en: "We're the ones who paid the bill." },
-          { es: "Foram as meninas que organizaram a festa.", en: "It was the girls who organised the party." },
+          { es: "Foram as meninas que organizaram a festa.", en: "It was the girls who organized the party." },
           { es: "Fui eu que esqueci a chave.", en: "I'm the one who forgot the key." },
           { es: "Somos nós que decidimos o cardápio.", en: "We're the ones who decide the menu." },
           { es: "Vocês é que sabem.", en: "It's your call." },
@@ -1657,13 +1657,13 @@ export const PT_C1_U08: Lesson[] = [
       {
         heading: "Só, mesmo, até: one word, one target",
         body: [
-          "In English, \"only\" sits before the verb and stress shows its target: I only signed it can mean nobody else did. Portuguese \"só\" (and \"apenas\") points at the word right after it, so a misplaced \"só\" changes the claim. \"O diretor só pode assinar\" says the director can do nothing but sign. To say no one else can, write \"só o diretor pode assinar\".",
+          "In English, 'only' sits before the verb and stress shows its target: I only signed it can mean nobody else did. Portuguese \"só\" (and \"apenas\") points at the word right after it, so a misplaced \"só\" changes the claim. \"O diretor só pode assinar\" says the director can do nothing but sign. To say no one else can, write \"só o diretor pode assinar\".",
           "Before the verb, \"só\" is natural when only one target makes sense (\"só volto amanhã\": I won't be back until tomorrow). In writing, put it next to the word you mean. \"Mesmo\" and \"até\" work the same way: \"mesmo ele\" means even he, while \"ele mesmo\" means he himself.",
         ],
         examples: [
           { es: "Só o diretor pode assinar o contrato.", en: "Only the director can sign the contract." },
           { es: "O diretor só pode assinar o contrato.", en: "The director can only sign the contract (not change it)." },
-          { es: "A loja aceita só cartão.", en: "The shop only takes cards." },
+          { es: "A loja aceita só cartão.", en: "The store only takes cards." },
           { es: "Só a Beatriz respondeu ao e-mail.", en: "Only Beatriz answered the email." },
           { es: "Mesmo ele ficou surpreso.", en: "Even he was surprised." },
           { es: "Ele mesmo ligou para o cliente.", en: "He called the client himself." },
@@ -1703,7 +1703,7 @@ export const PT_C1_U08: Lesson[] = [
           "A clause used as a subject belongs at the end: \"é estranho que ninguém tenha avisado\", not a sentence that opens with the whole clause.",
         ],
         examples: [
-          { es: "Chegou um pacote para você.", en: "A parcel came for you." },
+          { es: "Chegou um pacote para você.", en: "A package came for you." },
           { es: "Existem duas saídas de emergência neste andar.", en: "There are two emergency exits on this floor." },
           { es: "Lá vem o ônibus!", en: "Here comes the bus!" },
           { es: "Lá se vai meu fim de semana.", en: "There goes my weekend." },
@@ -2259,7 +2259,7 @@ export const PT_C1_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "That neighbourhood, I don't know well.",
+        source: "That neighborhood, I don't know well.",
         answer: "Esse bairro, eu não conheço bem.",
         altAnswers: ["Esse bairro eu não conheço bem.", "Esse bairro, não conheço bem.", "Esse bairro, eu não conheço muito bem.", "Esse bairro eu não conheço muito bem.", "Esse bairro, não conheço muito bem."],
         explanation: "The topic \"esse bairro\" comes first, and the rest is a normal sentence with the object gap left empty, as in careful speech and writing.",
@@ -2330,7 +2330,7 @@ export const PT_C1_U08: Lesson[] = [
       {
         type: "speak",
         text: "Foi a Beatriz quem resolveu tudo.",
-        prompt: "Say it in Portuguese: It was Beatriz who sorted everything out.",
+        prompt: "Say it in Portuguese: It was Beatriz who took care of everything.",
         tip: "Put the main stress on \"Beatriz\", the focus, and let \"quem resolveu tudo\" fall in pitch. \"Tudo\" ends in a u sound.",
         explanation: "\"Foi a Beatriz quem\" spotlights the person. After \"quem\" the verb stays in the third person, \"resolveu\".",
       },

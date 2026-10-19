@@ -38,10 +38,10 @@ export const FR_B2_U04_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which mood follows \"après que\" in careful French?",
-            options: ["The indicative", "The subjunctive", "The conditional", "The infinitive"],
+            question: "Which sentence is correct in careful French? (After the kids are in bed, I read a little.)",
+            options: ["Après que les enfants sont couchés, je lis un peu.", "Après que les enfants soient couchés, je lis un peu.", "Après que les enfants seraient couchés, je lis un peu.", "Après que les enfants se coucher, je lis un peu."],
             correctIndex: 0,
-            explanation: "The action after \"après que\" has really happened, so the indicative.",
+            explanation: "The action after \"après que\" has really happened, so the indicative \"sont couchés\". \"Soient couchés\" is common in speech but still counts as a mistake.",
           },
         ],
       },
@@ -188,7 +188,7 @@ export const FR_B2_U04_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Il a laissé la porte ouverte de sorte que le chat ___ sortir. (His goal: the cat should be able to go out.)",
+            question: "Which form completes the sentence? « Il a laissé la porte ouverte de sorte que le chat ___ sortir. » (His goal: the cat should be able to go out.)",
             options: ["puisse", "peut", "pourra", "pourrait"],
             correctIndex: 0,
             explanation: "A goal: subjunctive \"puisse\".",
@@ -296,7 +296,7 @@ export const FR_B2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Il a laissé la porte ouverte, si bien que le chat ___ parti. (The cat did leave.)",
+        question: "Which form completes the sentence? « Il a laissé la porte ouverte, si bien que le chat ___ parti. » (The cat did leave.)",
         options: ["est", "soit", "sera", "serait"],
         correctIndex: 0,
         explanation: "\"Si bien que\" always introduces a real result: indicative \"est parti\".",
@@ -455,7 +455,7 @@ export const FR_B2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Dès que tu ___ tes clés, rappelle-moi. (You'll find them first, then call.)",
+        question: "Which form completes the sentence? « Dès que tu ___ tes clés, rappelle-moi. » (As soon as you've found your keys, call me back.)",
         options: ["auras trouvé", "as trouvé", "trouves", "aies trouvé"],
         correctIndex: 0,
         explanation: "Futur antérieur: finding comes before calling.",
@@ -501,7 +501,7 @@ export const FR_B2_U04_EXTRA: Lesson[] = [
           { es: "Bien que les nouveaux bureaux soient plus petits, ils sont plus lumineux.", en: "Although the new offices are smaller, they're brighter." },
           { es: "Puisque les travaux sont presque finis, nous déménagerons le 15.", en: "Since the work is almost finished, we'll move on the 15th." },
           { es: "Dès que vous aurez reçu vos cartons, commencez à ranger vos affaires.", en: "As soon as you've received your boxes, start packing your things." },
-          { es: "Vous pourrez travailler de chez vous à condition que vous préveniez votre responsable.", en: "You can work from home provided that you tell your manager." },
+          { es: "Vous pourrez travailler de chez vous à condition de prévenir votre responsable.", en: "You can work from home provided that you tell your manager." },
           { es: "Après que le camion sera parti, nous fermerons l'ancien bureau.", en: "After the truck has left, we'll close the old office." },
         ],
         checkpoint: [
@@ -516,7 +516,7 @@ export const FR_B2_U04_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "___ vous avez des questions, n'hésitez pas à m'écrire.",
+            question: "Which word completes the sentence? « ___ vous avez des questions, n'hésitez pas à m'écrire. » (If you have any questions, don't hesitate to write to me.)",
             options: ["Si", "Bien que", "Pour que", "Avant que"],
             correctIndex: 0,
             explanation: "A condition with the indicative: \"si vous avez\".",
@@ -557,9 +557,9 @@ export const FR_B2_U04_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into French.",
         source: "You can work from home provided that you tell your manager.",
-        answer: "Vous pourrez travailler de chez vous à condition que vous préveniez votre responsable.",
-        altAnswers: ["Vous pouvez travailler de chez vous à condition que vous préveniez votre responsable.", "Vous pourrez travailler de chez vous à condition de prévenir votre responsable.", "Vous pouvez travailler de chez vous à condition de prévenir votre responsable.", "Vous pourrez télétravailler à condition de prévenir votre responsable.", "Vous pouvez télétravailler à condition de prévenir votre responsable."],
-        explanation: "\"À condition que\" + subjunctive \"préveniez\", or \"à condition de\" + infinitive with the same subject.",
+        answer: "Vous pourrez travailler de chez vous à condition de prévenir votre responsable.",
+        altAnswers: ["Vous pouvez travailler de chez vous à condition de prévenir votre responsable.", "Vous pourrez télétravailler à condition de prévenir votre responsable.", "Vous pouvez télétravailler à condition de prévenir votre responsable."],
+        explanation: "Same subject (you work, you tell): \"à condition de\" + infinitive. \"À condition que vous préveniez\" is heard, but with one subject French prefers the infinitive.",
       },
       {
         type: "fill-blank",
@@ -615,7 +615,7 @@ export const FR_B2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Nous resterons dans l'ancien bureau jusqu'à ce que la peinture ___ sèche.",
+        question: "Which form completes the sentence? « Nous resterons dans l'ancien bureau jusqu'à ce que la peinture ___ sèche. » (We'll stay in the old office until the paint is dry.)",
         options: ["soit", "est", "sera", "a été"],
         correctIndex: 0,
         explanation: "\"Jusqu'à ce que\" + subjunctive.",

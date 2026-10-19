@@ -44,7 +44,7 @@ export const PT_A1_U12: Lesson[] = [
         ],
       },
       {
-        heading: "Articles, agreement and possessives (Units 3 and 7)",
+        heading: "Articles, agreement and possessives (Units 3 and 10)",
         body: [
           "Every noun has a gender, and the article and adjective follow it: \"o problema sério\", \"a mão fria\", \"os hotéis caros\", \"as lições fáceis\". Adjectives usually come after the noun.",
           "Possessives agree with the thing owned: \"meu pai\", \"minha mãe\", \"nossos filhos\". \"Seu\" / \"sua\" means your; for his and her say \"o carro dele\", \"a casa dela\".",
@@ -77,17 +77,17 @@ export const PT_A1_U12: Lesson[] = [
         ],
       },
       {
-        heading: "Describing people, homes and clothes (Unit 9)",
+        heading: "Describing people, homes and clothes (Unit 5)",
         body: [
-          "One English is, three Portuguese verbs: \"ela é alta\" (trait), \"ela tem olhos verdes\" (features, with \"ter\"), \"ela está de vestido azul\" (what she has on now). Colours agree like adjectives, but \"cinza\", \"rosa\" and \"laranja\" never change: \"as camisas rosa\".",
-          "Homes take \"ter\" for what they have: \"o apartamento tem dois quartos\". \"A calça\" is one pair of trousers, and \"tênis\" is the same in the plural.",
+          "One English is, three Portuguese verbs: \"ela é alta\" (trait), \"ela tem olhos verdes\" (features, with \"ter\"), \"ela está de vestido azul\" (what she has on now). Colors agree like adjectives, but \"cinza\", \"rosa\" and \"laranja\" never change: \"as camisas rosa\".",
+          "Homes take \"ter\" for what they have: \"o apartamento tem dois quartos\". \"A calça\" is one pair of pants, and \"tênis\" is the same in the plural.",
         ],
         examples: [
           { es: "Ele é alto e tem cabelo cacheado.", en: "He's tall and has curly hair." },
           { es: "Ela está de camiseta branca.", en: "She's wearing a white T-shirt." },
           { es: "O apartamento tem três quartos.", en: "The apartment has three bedrooms." },
           { es: "As portas são azuis.", en: "The doors are blue." },
-          { es: "Eu uso tênis no trabalho.", en: "I wear trainers at work." },
+          { es: "Eu uso tênis no trabalho.", en: "I wear sneakers at work." },
         ],
         checkpoint: [
           {
@@ -203,9 +203,9 @@ export const PT_A1_U12: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: She's wearing blue trousers today.",
+        prompt: "Put the words in order to say: She's wearing blue pants today.",
         words: ["Hoje", "ela", "está", "de", "calça", "azul."],
-        translation: "She's wearing blue trousers today.",
+        translation: "She's wearing blue pants today.",
         altOrders: [["Ela", "está", "de", "calça", "azul", "hoje."]],
         explanation: "\"Estar de\" + clothes; one pair is \"a calça\".",
       },
@@ -234,7 +234,7 @@ export const PT_A1_U12: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "The present tense and its irregular eu forms (Units 4, 5 and 10)",
+        heading: "The present tense and its irregular eu forms (Units 4, 6 and 7)",
         body: [
           "Regular verbs: -ar \"falo, fala, falamos, falam\"; -er \"como, come, comemos, comem\"; -ir \"abro, abre, abrimos, abrem\". \"Não\" goes before the verb, and yes/no questions just rise.",
           "Most irregulars change only for eu: \"faço\", \"posso\", \"vejo\", \"venho\", \"sei\", \"conheço\", \"saio\", \"durmo\", \"ouço\", \"trago\", \"ponho\", \"peço\", \"dou\". \"Ter\" and \"ir\" change more: \"tenho, tem, temos, têm\"; \"vou, vai, vamos, vão\".",
@@ -267,7 +267,7 @@ export const PT_A1_U12: Lesson[] = [
         ],
       },
       {
-        heading: "Plans, wants and know-how (Units 5 and 10)",
+        heading: "Plans, wants and know-how (Units 6 and 7)",
         body: [
           "Plans are \"ir\" + infinitive: \"vou viajar\". \"Querer\" and \"poder\" take a bare infinitive too: \"quero aprender\", \"posso entrar?\". \"Ter que\" + infinitive is have to.",
           "\"Saber\" is knowing facts and how to do something (\"sei nadar\"); \"conhecer\" is knowing people and places (\"conheço a Beatriz\", \"você conhece Salvador?\"). \"Jogar\" for games and sports, \"tocar\" for instruments.",
@@ -276,7 +276,7 @@ export const PT_A1_U12: Lesson[] = [
           { es: "Vamos viajar para Natal no verão.", en: "We're going to travel to Natal in summer." },
           { es: "Você sabe dirigir?", en: "Can you drive?" },
           { es: "Conheço o Rio, mas não conheço Manaus.", en: "I know Rio, but I don't know Manaus." },
-          { es: "Ele toca violão e joga futebol.", en: "He plays the guitar and plays football." },
+          { es: "Ele toca violão e joga futebol.", en: "He plays the guitar and plays soccer." },
           { es: "Hoje não posso, tenho que trabalhar.", en: "I can't today, I have to work." },
         ],
         checkpoint: [
@@ -300,14 +300,14 @@ export const PT_A1_U12: Lesson[] = [
             type: "listen-choose",
             audio: "Ela vai viajar amanhã.",
             question: "What does it mean?",
-            options: ["She's going to travel tomorrow.", "She travels every day.", "She's travelling now.", "She wants to travel tomorrow."],
+            options: ["She's going to travel tomorrow.", "She travels every day.", "She's traveling now.", "She wants to travel tomorrow."],
             correctIndex: 0,
             explanation: "\"Vai viajar\": ir + infinitive for a plan.",
           },
         ],
       },
       {
-        heading: "Likes, right now and a gente (Unit 8)",
+        heading: "Likes, right now and a gente (Unit 12)",
         body: [
           "\"Gostar de\" needs its \"de\", contracted before an article: \"gosto de praia\", \"gosto do Rio\". \"Adorar\" and \"preferir\" take none.",
           "Right now is \"estar\" + -ando / -endo / -indo: \"estou trabalhando\". Habits take the simple present. \"A gente\" means we with the ele form: \"a gente vai\", never \"a gente vamos\".",
@@ -324,7 +324,7 @@ export const PT_A1_U12: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We're watching a film. (the everyday we)",
+            source: "We're watching a movie. (the everyday we)",
             answer: "A gente está vendo um filme.",
             altAnswers: [
               "Nós estamos vendo um filme.",
@@ -462,10 +462,10 @@ export const PT_A1_U12: Lesson[] = [
     duration: "15 min",
     sections: [
       {
-        heading: "Questions, numbers and paying (Units 6 and 11)",
+        heading: "Questions, numbers and paying (Units 8 and 9)",
         body: [
           "Question words go first: \"o que\", \"quem\", \"onde\", \"de onde\", \"quando\", \"como\", \"qual\", \"quanto\". \"Quantos\" / \"quantas\", \"um\" / \"uma\", \"dois\" / \"duas\" and the hundreds agree: \"duzentas pessoas\".",
-          "Prices: R$ 27,90 is \"vinte e sete e noventa\". At the till: \"quanto é?\", \"posso pagar com cartão?\", \"crédito ou débito?\", \"tem troco para cinquenta?\". When you're lost: \"não entendi\", \"pode repetir?\", \"mais devagar, por favor\".",
+          "Prices: R$ 27,90 is \"vinte e sete e noventa\". At the register: \"quanto é?\", \"posso pagar com cartão?\", \"crédito ou débito?\", \"tem troco para cinquenta?\". When you're lost: \"não entendi\", \"pode repetir?\", \"mais devagar, por favor\".",
         ],
         examples: [
           { es: "Quanto é?", en: "How much is it?" },
@@ -500,10 +500,10 @@ export const PT_A1_U12: Lesson[] = [
         ],
       },
       {
-        heading: "Times and dates (Unit 6)",
+        heading: "Times and dates (Unit 8)",
         body: [
           "\"É uma hora\", \"é meio-dia\", but \"são duas horas\". At a time: \"às oito\", \"à uma\", \"ao meio-dia\". Minutes before the hour: \"quinze para as três\".",
-          "Days take \"no\" / \"na\" (\"na sexta\"), habits \"nos\" / \"nas\", months \"em\" (\"em março\"), dates \"dia 7 de setembro\". Timetables use the 24-hour clock: \"o ônibus sai às 14h30\".",
+          "Days take \"no\" / \"na\" (\"na sexta\"), habits \"nos\" / \"nas\", months \"em\" (\"em março\"), dates \"dia 7 de setembro\". Schedules use the 24-hour clock: \"o ônibus sai às 14h30\".",
         ],
         examples: [
           { es: "O ônibus sai às catorze e trinta.", en: "The bus leaves at 14:30." },
@@ -533,14 +533,14 @@ export const PT_A1_U12: Lesson[] = [
         ],
       },
       {
-        heading: "Places and contractions (Units 7 and 13)",
+        heading: "Places and contractions (Units 10 and 11)",
         body: [
           "Prepositions fuse with articles: \"ao\" / \"à\", \"do\" / \"da\", \"no\" / \"na\", \"pelo\" / \"pela\", \"num\" / \"numa\". No article, no fusion: \"em São Paulo\", \"a pé\", \"em casa\". States vary: \"da Bahia\", \"de Minas\".",
           "\"Tem\" means there is in speech, \"há\" in writing; \"fica\" says where a known place is.",
         ],
         examples: [
           { es: "Tem uma farmácia perto da praça.", en: "There's a pharmacy near the square." },
-          { es: "Há um hotel no centro.", en: "There's a hotel in the centre." },
+          { es: "Há um hotel no centro.", en: "There's a hotel in the center." },
           { es: "Vou à rodoviária de táxi.", en: "I'm going to the bus station by taxi." },
           { es: "Ela é de Minas, mas mora na Bahia.", en: "She's from Minas, but she lives in Bahia." },
           { es: "Obrigada pela informação!", en: "Thanks for the information!" },
@@ -652,9 +652,9 @@ export const PT_A1_U12: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The bus goes through the centre.",
+        prompt: "Put the words in order to say: The bus goes through the center.",
         words: ["O", "ônibus", "passa", "pelo", "centro."],
-        translation: "The bus goes through the centre.",
+        translation: "The bus goes through the center.",
         explanation: "Por + o = \"pelo\".",
       },
       {
@@ -677,7 +677,7 @@ export const PT_A1_U12: Lesson[] = [
     level: "PT-A1",
     number: 4,
     title: "Beginner Challenge: Core Vocabulary Check",
-    summary: "Test yourself on the core Beginner words by theme: greetings, jobs, family, house, clothes and colours, food and drink, free time, weather, the city and transport.",
+    summary: "Test yourself on the core Beginner words by theme: greetings, jobs, family, house, clothes and colors, food and drink, free time, weather, the city and transport.",
     duration: "15 min",
     sections: [
       {
@@ -718,16 +718,16 @@ export const PT_A1_U12: Lesson[] = [
         ],
       },
       {
-        heading: "Home, clothes and colours",
+        heading: "Home, clothes and colors",
         body: [
           "Home: \"a sala\", \"o quarto\", \"a cozinha\", \"o banheiro\", \"a varanda\"; \"o sofá\", \"a cama\", \"a geladeira\", \"o fogão\", \"o chuveiro\". Clothes: \"a camiseta\", \"a calça\", \"a saia\", \"o vestido\", \"o casaco\", \"o tênis\", \"o chinelo\", \"o boné\".",
-          "Colours follow the noun and agree: \"vermelho\", \"amarelo\", \"branco\", \"preto\", \"azul\", \"verde\", \"marrom\", \"roxo\"; \"cinza\", \"rosa\" and \"laranja\" don't change.",
+          "Colors follow the noun and agree: \"vermelho\", \"amarelo\", \"branco\", \"preto\", \"azul\", \"verde\", \"marrom\", \"roxo\"; \"cinza\", \"rosa\" and \"laranja\" don't change.",
         ],
         examples: [
           { es: "A geladeira está na cozinha.", en: "The fridge is in the kitchen." },
-          { es: "O quarto tem uma cama e um armário.", en: "The bedroom has a bed and a wardrobe." },
+          { es: "O quarto tem uma cama e um armário.", en: "The bedroom has a bed and a closet." },
           { es: "Ele está de chinelo e boné.", en: "He's wearing flip-flops and a cap." },
-          { es: "Uma saia amarela e uma camiseta cinza.", en: "A yellow skirt and a grey T-shirt." },
+          { es: "Uma saia amarela e uma camiseta cinza.", en: "A yellow skirt and a gray T-shirt." },
           { es: "O sofá da sala é verde.", en: "The living-room sofa is green." },
         ],
         checkpoint: [
@@ -752,7 +752,7 @@ export const PT_A1_U12: Lesson[] = [
             type: "listen-choose",
             audio: "Ele está de casaco marrom.",
             question: "What does it mean?",
-            options: ["He's wearing a brown jacket.", "He's wearing a brown shirt.", "He has a red jacket.", "He's wearing brown trousers."],
+            options: ["He's wearing a brown jacket.", "He's wearing a brown shirt.", "He has a red jacket.", "He's wearing brown pants."],
             correctIndex: 0,
             explanation: "\"Casaco\" = jacket, \"marrom\" = brown.",
           },
@@ -792,7 +792,7 @@ export const PT_A1_U12: Lesson[] = [
           {
             type: "speak",
             text: "Eu jogo futebol e toco violão.",
-            prompt: "Say it in Portuguese: I play football and the guitar.",
+            prompt: "Say it in Portuguese: I play soccer and the guitar.",
             explanation: "\"Jogar\" for sports, \"tocar\" for instruments.",
           },
         ],
@@ -829,7 +829,7 @@ export const PT_A1_U12: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'm wearing trainers.",
+        source: "I'm wearing sneakers.",
         answer: "Estou de tênis.",
         altAnswers: ["Eu estou de tênis.", "Estou usando tênis.", "Eu estou usando tênis."],
         explanation: "\"Tênis\" is the same in the plural.",
@@ -997,7 +997,7 @@ export const PT_A1_U12: Lesson[] = [
           { es: "Eu faço o jantar.", en: "I make dinner." },
           { es: "Conheço a Ana.", en: "I know Ana." },
           { es: "Estou falando com a minha mãe.", en: "I'm talking to my mother." },
-          { es: "A gente vai ao cinema.", en: "We're going to the cinema." },
+          { es: "A gente vai ao cinema.", en: "We're going to the movies." },
           { es: "São quinze para as três.", en: "It's a quarter to three." },
         ],
         checkpoint: [
@@ -1101,7 +1101,7 @@ export const PT_A1_U12: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I like football, [but] I prefer volleyball. (fix: pero)",
+        en: "I like soccer, [but] I prefer volleyball. (fix: pero)",
         sentence: "Gosto de futebol, ___ prefiro vôlei.",
         answer: "mas",
         explanation: "But is \"mas\".",
@@ -1194,7 +1194,7 @@ export const PT_A1_U12: Lesson[] = [
           { es: "Tem um banco aqui perto.", en: "There's a bank near here." },
           { es: "Vou para casa.", en: "I'm going home." },
           { es: "A casa dela é grande.", en: "Her house is big." },
-          { es: "Não tem farmácia no bairro.", en: "There's no pharmacy in the neighbourhood." },
+          { es: "Não tem farmácia no bairro.", en: "There's no pharmacy in the neighborhood." },
         ],
         checkpoint: [
           {
@@ -1420,7 +1420,7 @@ export const PT_A1_U12: Lesson[] = [
           "Prepositions fuse as the phrase grows: \"num restaurante novo\", \"no centro\", \"da Bahia\", \"pela praça\".",
         ],
         examples: [
-          { es: "Um restaurante japonês novo no centro.", en: "A new Japanese restaurant in the centre." },
+          { es: "Um restaurante japonês novo no centro.", en: "A new Japanese restaurant in the center." },
           { es: "O carro vermelho do meu pai.", en: "My father's red car." },
           { es: "Uma casa grande perto da praia.", en: "A big house near the beach." },
           { es: "As meninas simpáticas da escola.", en: "The friendly girls from school." },
@@ -1579,7 +1579,7 @@ export const PT_A1_U12: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I live [in a new apartment] in the centre.",
+        en: "I live [in a new apartment] in the center.",
         sentence: "Moro ___ no centro.",
         answer: "num apartamento novo",
         altAnswers: ["em um apartamento novo"],
@@ -1590,10 +1590,10 @@ export const PT_A1_U12: Lesson[] = [
         audio: "A gente vai jantar num restaurante novo no centro.",
         question: "What does it mean?",
         options: [
-          "We're going to have dinner at a new restaurant in the centre.",
-          "We have dinner at a new restaurant in the centre.",
+          "We're going to have dinner at a new restaurant in the center.",
+          "We have dinner at a new restaurant in the center.",
           "They're going to have dinner at a new restaurant.",
-          "We're going to have lunch at an old restaurant in the centre.",
+          "We're going to have lunch at an old restaurant in the center.",
         ],
         correctIndex: 0,
         explanation: "\"Vai jantar\": plan; \"num restaurante novo no centro\".",
@@ -1695,7 +1695,7 @@ export const PT_A1_U12: Lesson[] = [
       {
         heading: "Natural speed: messages, prices, addresses",
         body: [
-          "At natural speed words run together: \"somos amigos\" sounds like so-mo-za-mi-gos, and \"está\" is often just \"tá\". Listen for the key information first (a number, a place, a time), then fill in the rest.",
+          "At natural speed words run together: \"somos amigos\" sounds like 'soh-moo-zah-MEE-goos', and \"está\" is often just \"tá\". Listen for the key information first (a number, a place, a time), then fill in the rest.",
         ],
         examples: [
           { es: "Oi, é a Ana. Tô no ônibus, chego às oito.", en: "Hi, it's Ana. I'm on the bus, I'll arrive at eight." },
@@ -1871,7 +1871,7 @@ export const PT_A1_U12: Lesson[] = [
       {
         heading: "The bus and the way to the Pelourinho",
         body: [
-          "From Barra she takes the bus to the centre. At the bus stop she checks with \"esse ônibus vai para o Pelourinho?\" (\"esse\" as a chunk from Unit 11) and asks \"é longe?\".",
+          "From Barra she takes the bus to the center. At the bus stop she checks with \"esse ônibus vai para o Pelourinho?\" (\"esse\" as a chunk from Unit 9) and asks \"é longe?\".",
           "In the Cidade Alta she asks the way with \"onde fica...?\" and understands the answer: \"é perto, do lado da igreja\", \"em frente à praça\".",
         ],
         examples: [
@@ -1886,7 +1886,7 @@ export const PT_A1_U12: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Does this bus go to the centre?",
+            source: "Does this bus go to the center?",
             answer: "Esse ônibus vai para o centro?",
             altAnswers: ["Este ônibus vai para o centro?", "Esse ônibus vai ao centro?"],
             explanation: "\"Esse ônibus\" as a chunk, then \"vai para\".",
@@ -1902,7 +1902,7 @@ export const PT_A1_U12: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A local answers: \"É do lado da igreja.\" Where is it?",
-            options: ["Next to the church", "Opposite the church", "Inside the church", "Far from the church"],
+            options: ["Next to the church", "Across from the church", "Inside the church", "Far from the church"],
             correctIndex: 0,
             explanation: "\"Do lado da\" = next to the.",
           },
@@ -1912,10 +1912,10 @@ export const PT_A1_U12: Lesson[] = [
         heading: "The Elevador and a friend's family",
         body: [
           "The Elevador Lacerda links the Cidade Alta and the Cidade Baixa; she pays at the turnstile and asks \"a que horas fecha?\". Downstairs she meets her friend Tiago and his family at the Mercado Modelo.",
-          "Introductions recycle Unit 1 and Unit 7: \"essa é a minha mãe\" (this is my mother, as a chunk), \"muito prazer\", \"a senhora é de Salvador?\". Tiago's mother is older, so \"a senhora\".",
+          "Introductions recycle Unit 1 and Unit 10: \"essa é a minha mãe\" (this is my mother, as a chunk), \"muito prazer\", \"a senhora é de Salvador?\". Tiago's mother is older, so \"a senhora\".",
         ],
         examples: [
-          { es: "A que horas o elevador fecha?", en: "What time does the lift close?" },
+          { es: "A que horas o elevador fecha?", en: "What time does the elevator close?" },
           { es: "Oi, Emily! Essa é a minha mãe, Dona Lúcia.", en: "Hi, Emily! This is my mother, Dona Lúcia." },
           { es: "Muito prazer, Dona Lúcia!", en: "Very nice to meet you, Dona Lúcia!" },
           { es: "A senhora é de Salvador?", en: "Are you from Salvador?" },
@@ -2006,7 +2006,7 @@ export const PT_A1_U12: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The bakery is [opposite the] pousada.",
+        en: "The bakery is [across from the] pousada.",
         sentence: "A padaria fica ___ pousada.",
         answer: "em frente à",
         explanation: "\"Em frente a\" + \"a pousada\".",
@@ -2022,9 +2022,9 @@ export const PT_A1_U12: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: What time does the lift close?",
+        prompt: "Put the words in order to say: What time does the elevator close?",
         words: ["A", "que", "horas", "o", "elevador", "fecha?"],
-        translation: "What time does the lift close?",
+        translation: "What time does the elevator close?",
         altOrders: [["A", "que", "horas", "fecha", "o", "elevador?"]],
         explanation: "\"A que horas\" + subject + verb.",
       },
@@ -2519,7 +2519,7 @@ export const PT_A1_U12: Lesson[] = [
         examples: [
           { es: "O ônibus para Ouro Preto sai às quinze e trinta.", en: "The bus to Ouro Preto leaves at 15:30." },
           { es: "São trinta e sete e cinquenta.", en: "That's thirty-seven fifty." },
-          { es: "A farmácia fica em frente ao banco.", en: "The pharmacy is opposite the bank." },
+          { es: "A farmácia fica em frente ao banco.", en: "The pharmacy is across from the bank." },
         ],
         checkpoint: [
           {
@@ -2542,9 +2542,9 @@ export const PT_A1_U12: Lesson[] = [
             type: "listen-choose",
             audio: "A farmácia fica em frente ao banco.",
             question: "Where's the pharmacy?",
-            options: ["Opposite the bank", "Next to the bank", "Inside the bank", "Far from the bank"],
+            options: ["Across from the bank", "Next to the bank", "Inside the bank", "Far from the bank"],
             correctIndex: 0,
-            explanation: "\"Em frente ao\" = opposite the.",
+            explanation: "\"Em frente ao\" = across from the.",
           },
           {
             type: "listen-choose",
@@ -2611,7 +2611,7 @@ export const PT_A1_U12: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "A sign on a shop door: \"Fechado para almoço das 12h às 13h.\" When can't you go in?",
+            question: "A sign on a store door: \"Fechado para almoço das 12h às 13h.\" When can't you go in?",
             options: ["From 12 to 1", "After 1", "Before 12", "All day"],
             correctIndex: 0,
             explanation: "\"Fechado das 12h às 13h\": closed from noon to one.",
@@ -2619,9 +2619,9 @@ export const PT_A1_U12: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A sign at a padaria: \"Aceitamos Pix e cartão. Não aceitamos cheque.\" What can't you use?",
-            options: ["A cheque", "A card", "Pix", "Cash"],
+            options: ["A check", "A card", "Pix", "Cash"],
             correctIndex: 0,
-            explanation: "\"Não aceitamos cheque\": no cheques.",
+            explanation: "\"Não aceitamos cheque\": no checks.",
           },
           {
             type: "multiple-choice",
@@ -2654,7 +2654,7 @@ export const PT_A1_U12: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A bus sign: \"Linha 175 – Centro / Rodoviária.\" Where does the bus go?",
-            options: ["To the centre and the bus station", "To the beach", "To the airport", "Only to the centre"],
+            options: ["To the center and the bus station", "To the beach", "To the airport", "Only to the center"],
             correctIndex: 0,
             explanation: "\"Rodoviária\" = long-distance bus station.",
           },

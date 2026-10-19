@@ -16,7 +16,7 @@ export const FR_B2_U16_EXTRA: Lesson[] = [
       {
         heading: "Recap: asking for work to be done",
         body: [
-          "When someone else does the work, French uses faire + infinitive: \"Je voudrais faire réparer ma chaudière.\" The thing being repaired comes after the infinitive, and the person doing the job is introduced with \"par\": \"Je l'ai fait vérifier par un électricien.\"",
+          "When someone else does the work, French uses \"faire\" + infinitive: \"Je voudrais faire réparer ma chaudière.\" The thing being repaired comes after the infinitive, and the person doing the job is introduced with \"par\": \"Je l'ai fait vérifier par un électricien.\"",
           "With pronouns, they go before \"faire\": \"Je vais la faire réparer.\" In the passé composé, \"fait\" never agrees: \"La fenêtre ? Je l'ai fait changer.\" For yourself, use \"se faire\": \"Je me suis fait installer la fibre.\"",
         ],
         examples: [
@@ -34,12 +34,12 @@ export const FR_B2_U16_EXTRA: Lesson[] = [
             prompt: "Translate into French.",
             source: "The leak? I'm going to have it repaired tomorrow.",
             answer: "La fuite ? Je vais la faire réparer demain.",
-            altAnswers: ["La fuite ? Je vais la faire réparer demain", "La fuite ? Je la ferai réparer demain."],
+            altAnswers: ["La fuite ? Je la ferai réparer demain."],
             explanation: "The pronoun \"la\" goes before \"faire\", not before \"réparer\".",
           },
           {
             type: "fill-blank",
-            prompt: "Write the French for the bracketed words.",
+            prompt: "Write the French for the bold words.",
             en: "We [had] all the windows [replaced] last year.",
             sentence: "Nous ___ toutes les fenêtres l'an dernier.",
             answer: "avons fait changer",
@@ -70,7 +70,7 @@ export const FR_B2_U16_EXTRA: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Write the French for the bracketed words.",
+        prompt: "Write the French for the bold words.",
         en: "I [had] the roof [checked] after the storm.",
         sentence: "J'___ la toiture après la tempête.",
         answer: "ai fait vérifier",
@@ -120,7 +120,7 @@ export const FR_B2_U16_EXTRA: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Write the French for the bracketed words.",
+        prompt: "Write the French for the bold words.",
         en: "Dear Sir, I [would like to have] my kitchen [renovated].",
         sentence: "Monsieur, je ___ ma cuisine.",
         answer: "souhaiterais faire rénover",
@@ -133,7 +133,7 @@ export const FR_B2_U16_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "The plumber made us wait all morning.",
         answer: "Le plombier nous a fait attendre toute la matinée.",
-        altAnswers: ["Le plombier nous a fait attendre toute la matinée", "Le plombier nous a fait attendre tout le matin."],
+        altAnswers: ["Le plombier nous a fait attendre tout le matin."],
         explanation: "\"Faire attendre quelqu'un\": to keep someone waiting.",
       },
       {
@@ -183,11 +183,11 @@ export const FR_B2_U16_EXTRA: Lesson[] = [
         heading: "Recap: describing a transformation",
         body: [
           "To say what something has become, use \"devenir\" + a noun or adjective (with \"être\" in the passé composé): \"Le quartier est devenu très chic.\" To say what made it change, use \"rendre\" + adjective: \"Les travaux ont rendu la maison plus lumineuse.\"",
-          "Many changes have their own verb: grandir, vieillir, s'agrandir, rajeunir, s'embellir, se dégrader. \"Se transformer en\" and \"être transformé en\" describe a complete change: \"L'usine a été transformée en lofts.\" Contrast the past with the imparfait: \"Avant, c'était un terrain vague.\"",
+          "Many changes have their own verb: \"grandir\", \"vieillir\", \"s'agrandir\", \"rajeunir\", \"s'embellir\", \"se dégrader\". \"Se transformer en\" and \"être transformé en\" describe a complete change: \"L'usine a été transformée en lofts.\" Contrast the past with the imparfait: \"Avant, c'était un terrain vague.\"",
         ],
         examples: [
           { es: "Avant, c'était un terrain vague ; aujourd'hui, c'est un parc.", en: "Before, it was a wasteland; today, it's a park." },
-          { es: "Le quartier est devenu très chic en dix ans.", en: "The neighbourhood has become very trendy in ten years." },
+          { es: "Le quartier est devenu très chic en dix ans.", en: "The neighbourhood has become very upmarket in ten years." },
           { es: "Les travaux ont rendu la maison beaucoup plus lumineuse.", en: "The renovation has made the house much brighter." },
           { es: "L'ancienne usine a été transformée en lofts.", en: "The old factory has been turned into lofts." },
           { es: "Sur cette photo, mon grand-père a l'air d'avoir rajeuni.", en: "In this photo, my grandfather looks as if he's got younger." },
@@ -205,8 +205,8 @@ export const FR_B2_U16_EXTRA: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Write the French for the bracketed words.",
-            en: "The neighbourhood [has become] very trendy.",
+            prompt: "Write the French for the bold words.",
+            en: "The neighbourhood [has become] very upmarket.",
             sentence: "Le quartier ___ très chic.",
             answer: "est devenu",
             explanation: "\"Devenir\" takes \"être\" in the passé composé.",
@@ -242,7 +242,7 @@ export const FR_B2_U16_EXTRA: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Write the French for the bracketed words.",
+        prompt: "Write the French for the bold words.",
         en: "The new lighting makes the room [warmer].",
         sentence: "Le nouvel éclairage rend la pièce ___.",
         answer: "plus chaleureuse",
@@ -300,7 +300,7 @@ export const FR_B2_U16_EXTRA: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Write the French for the bracketed words.",
+        prompt: "Write the French for the bold words.",
         en: "My grandmother [has aged a lot] since last year.",
         sentence: "Ma grand-mère ___ depuis l'an dernier.",
         answer: "a beaucoup vieilli",
@@ -352,8 +352,8 @@ export const FR_B2_U16_EXTRA: Lesson[] = [
       {
         heading: "Recap: one story, three tools",
         body: [
-          "Units 13-16 gave you three tools that often appear together. The gérondif (en + -ant) says how or when something happened, with the same subject as the main verb: \"En quittant Paris, elle a retrouvé le calme.\" Faire + infinitive says that someone else did the work: \"Elle a fait rénover une vieille ferme.\" Laisser + infinitive lets something happen: \"Elle a laissé pousser ses cheveux.\"",
-          "Verbs of change describe the result: devenir (with être), rendre + adjective, se mettre à + infinitive. \"Ce changement l'a rendue plus sereine\" ; \"Elle s'est mise à peindre.\" Read the story in the examples, then rebuild it in French.",
+          "Units 13-16 gave you three tools that often appear together. The gérondif (en + -ant) says how or when something happened, with the same subject as the main verb: \"En quittant Paris, elle a retrouvé le calme.\" \"Faire\" + infinitive says that someone else did the work: \"Elle a fait rénover une vieille ferme.\" \"Laisser\" + infinitive lets something happen: \"Elle a laissé pousser ses cheveux.\"",
+          "Verbs of change describe the result: \"devenir\" (with \"être\"), \"rendre\" + adjective, \"se mettre à\" + infinitive: \"Ce changement l'a rendue plus sereine\", \"Elle s'est mise à peindre.\" Read the story in the examples, then rebuild it in French.",
         ],
         examples: [
           { es: "En quittant Paris, Claire a enfin retrouvé le calme.", en: "By leaving Paris, Claire finally found peace again." },
@@ -375,7 +375,7 @@ export const FR_B2_U16_EXTRA: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Write the French for the bracketed words.",
+            prompt: "Write the French for the bold words.",
             en: "This change [has made her] much calmer.",
             sentence: "Ce changement ___ beaucoup plus sereine.",
             answer: "l'a rendue",
@@ -405,7 +405,7 @@ export const FR_B2_U16_EXTRA: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Write the French for the bracketed words.",
+        prompt: "Write the French for the bold words.",
         en: "[While renovating] the barn, they found old coins.",
         sentence: "___ la grange, ils ont trouvé de vieilles pièces.",
         answer: "En rénovant",
@@ -433,7 +433,7 @@ export const FR_B2_U16_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "This trip made me want to learn Italian.",
         answer: "Ce voyage m'a donné envie d'apprendre l'italien.",
-        altAnswers: ["Ce voyage m'a donné envie d'apprendre l'italien"],
+        altAnswers: ["Ce voyage m'a donné l'envie d'apprendre l'italien."],
         explanation: "\"Donner envie de\": a common way to express that something made you want to do something.",
       },
       {
@@ -454,7 +454,7 @@ export const FR_B2_U16_EXTRA: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Write the French for the bracketed words.",
+        prompt: "Write the French for the bold words.",
         en: "Since the move, the children [have become] more independent.",
         sentence: "Depuis le déménagement, les enfants ___ plus autonomes.",
         answer: "sont devenus",

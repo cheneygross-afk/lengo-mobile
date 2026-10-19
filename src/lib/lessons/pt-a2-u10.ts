@@ -21,7 +21,7 @@ export const PT_A2_U10: Lesson[] = [
         examples: [
           { es: "Vou para Manaus na semana que vem.", en: "I'm going to Manaus next week." },
           { es: "Ela voltou para casa cedo.", en: "She went back home early." },
-          { es: "No ano passado eu viajei para Salvador.", en: "Last year I travelled to Salvador." },
+          { es: "No ano passado eu viajei para Salvador.", en: "Last year I traveled to Salvador." },
           { es: "A gente vai pra praia no sábado.", en: "We're going to the beach on Saturday." },
           { es: "Você vai pro trabalho de ônibus?", en: "Do you go to work by bus?" },
         ],
@@ -180,10 +180,10 @@ export const PT_A2_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "For me, the film was great.",
+        source: "For me, the movie was great.",
         answer: "Para mim, o filme foi ótimo.",
         altAnswers: ["Pra mim, o filme foi ótimo.", "Para mim, o filme foi muito bom.", "Pra mim, o filme foi muito bom.", "O filme foi ótimo para mim."],
-        explanation: "\"Para mim\" at the start gives an opinion. The film is one finished event, so it takes the perfeito \"foi\".",
+        explanation: "\"Para mim\" at the start gives an opinion. The movie is one finished event, so it takes the perfeito \"foi\".",
       },
       {
         type: "multiple-choice",
@@ -248,7 +248,7 @@ export const PT_A2_U10: Lesson[] = [
     level: "PT-A2",
     number: 2,
     title: "Por: Through, By, Because Of",
-    summary: "Use por for the route you take, the reason you thank or apologise, rates like per day, and swaps and payments, with pelo and pela.",
+    summary: "Use por for the route you take, the reason you thank or apologize, rates like per day, and swaps and payments, with pelo and pela.",
     duration: "12 min",
     sections: [
       {
@@ -277,7 +277,7 @@ export const PT_A2_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You've just moved to a new neighbourhood in Recife. How do you ask a neighbour if there's a pharmacy around here?",
+            question: "You've just moved to a new neighborhood in Recife. How do you ask a neighbor if there's a pharmacy around here?",
             options: ["Tem uma farmácia por aqui?", "Tem uma farmácia para aqui?", "Tem uma farmácia pela aqui?", "Tem uma farmácia de aqui?"],
             correctIndex: 0,
             explanation: "\"Por aqui\" means around here, somewhere in the area. \"Aqui\" has no article, so there's nothing for \"por\" to join: \"pela aqui\" is wrong.",
@@ -527,7 +527,7 @@ export const PT_A2_U10: Lesson[] = [
       {
         heading: "Obrigado por, um presente para: reason or receiver",
         body: [
-          "English for hides two ideas here. \"Por\" looks back at a reason or an exchange: what you thank someone for, apologise for or pay for. \"Para\" looks ahead at who gets something or what it's meant for.",
+          "English for hides two ideas here. \"Por\" looks back at a reason or an exchange: what you thank someone for, apologize for or pay for. \"Para\" looks ahead at who gets something or what it's meant for.",
           "So it's \"obrigada pelo presente\" (the present is the reason for the thanks) but \"comprei um presente para você\" (you receive it). Thanks always take \"por\". \"Obrigado para tudo\" is the classic English-speaker slip.",
         ],
         examples: [
@@ -771,7 +771,7 @@ export const PT_A2_U10: Lesson[] = [
           { es: "No sábado eu fui à feira.", en: "On Saturday I went to the street market." },
           { es: "A prova é na quinta.", en: "The test is on Thursday." },
           { es: "Na sexta a gente vai sair com os amigos.", en: "On Friday we're going out with our friends." },
-          { es: "O que você fez no fim de semana?", en: "What did you do at the weekend?" },
+          { es: "O que você fez no fim de semana?", en: "What did you do on the weekend?" },
           { es: "Aos domingos, meu avô faz churrasco.", en: "On Sundays, my grandfather makes a barbecue." },
         ],
         checkpoint: [
@@ -787,7 +787,7 @@ export const PT_A2_U10: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "We're going to rest [at the weekend].",
+            en: "We're going to rest [on the weekend].",
             sentence: "Nós vamos descansar ___.",
             answer: "no fim de semana",
             explanation: "\"Fim\" is masculine, so em + o = \"no fim de semana\". English says at or on the weekend; Portuguese always uses \"no\".",
@@ -811,8 +811,8 @@ export const PT_A2_U10: Lesson[] = [
         ],
         examples: [
           { es: "O museu abre de terça a domingo.", en: "The museum is open Tuesday to Sunday." },
-          { es: "A loja abre das nove às seis.", en: "The shop is open from nine to six." },
-          { es: "As férias são de dezembro a fevereiro.", en: "The holidays are from December to February." },
+          { es: "A loja abre das nove às seis.", en: "The store is open from nine to six." },
+          { es: "As férias são de dezembro a fevereiro.", en: "Vacation is from December to February." },
           { es: "Eu almoço do meio-dia à uma.", en: "I have lunch from noon to one." },
           { es: "A aula começa às sete da noite.", en: "The class starts at seven in the evening." },
           { es: "A que horas o banco abre?", en: "What time does the bank open?" },
@@ -874,14 +874,14 @@ export const PT_A2_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "On Saturdays I play football.",
+        source: "On Saturdays I play soccer.",
         answer: "Aos sábados eu jogo futebol.",
         altAnswers: ["Aos sábados jogo futebol.", "Eu jogo futebol aos sábados.", "Jogo futebol aos sábados.", "Todo sábado eu jogo futebol.", "Eu jogo futebol todo sábado.", "Nos sábados eu jogo futebol.", "Eu jogo futebol nos sábados."],
         explanation: "A weekly habit takes the plural: \"aos sábados\" (a + os) or \"todo sábado\". \"No sábado\" would mean one particular Saturday.",
       },
       {
         type: "multiple-choice",
-        question: "Which sentence correctly says: The shop is open Monday to Saturday?",
+        question: "Which sentence correctly says: The store is open Monday to Saturday?",
         options: ["A loja abre de segunda a sábado.", "A loja abre de segunda à sábado.", "A loja abre em segunda a sábado.", "A loja abre na segunda a sábado."],
         correctIndex: 0,
         explanation: "A range of days is \"de... a\" with no articles. \"À\" is impossible here: there's no article, and \"sábado\" is masculine anyway.",
@@ -912,7 +912,7 @@ export const PT_A2_U10: Lesson[] = [
         pairs: [
           { left: "no verão", right: "in summer" },
           { left: "à noite", right: "at night" },
-          { left: "no fim de semana", right: "at the weekend" },
+          { left: "no fim de semana", right: "on the weekend" },
           { left: "em 2024", right: "in 2024" },
           { left: "aos domingos", right: "on Sundays" },
           { left: "ao meio-dia", right: "at noon" },
@@ -1153,7 +1153,7 @@ export const PT_A2_U10: Lesson[] = [
         type: "speak",
         text: "Faz muito tempo que eu não te vejo!",
         prompt: "Say it in Portuguese: I haven't seen you for ages!",
-        tip: "The z at the end of faz sounds like s, and the ui in muito is nasal.",
+        tip: "Before the m of muito, the z of faz is voiced, like the z in zoo (in Rio, like the s in measure). The ui in muito is nasal.",
         explanation: "\"Faz muito tempo que\" + the present \"não te vejo\": the not-seeing is still going on.",
       },
       {
@@ -1175,7 +1175,7 @@ export const PT_A2_U10: Lesson[] = [
     level: "PT-A2",
     number: 6,
     title: "Ir a or Ir Para?",
-    summary: "Choose between \"ir para\" and \"ir a\", fuse \"a\" with the article (\"ao\", \"à\"), and recognise the casual \"vou no mercado\" you'll hear everywhere.",
+    summary: "Choose between \"ir para\" and \"ir a\", fuse \"a\" with the article (\"ao\", \"à\"), and recognize the casual \"vou no mercado\" you'll hear everywhere.",
     duration: "12 min",
     sections: [
       {
@@ -1189,7 +1189,7 @@ export const PT_A2_U10: Lesson[] = [
           { es: "A Beatriz foi para Portugal e não voltou.", en: "Beatriz went to Portugal and never came back." },
           { es: "Meu irmão vai para Londres estudar por dois anos.", en: "My brother is going to London to study for two years." },
           { es: "O presidente foi a Brasília ontem.", en: "The president went to Brasília yesterday." },
-          { es: "Vamos para Florianópolis nas férias.", en: "We're going to Florianópolis for the holidays." },
+          { es: "Vamos para Florianópolis nas férias.", en: "We're going to Florianópolis on vacation." },
         ],
         checkpoint: [
           {
@@ -1488,11 +1488,11 @@ export const PT_A2_U10: Lesson[] = [
           "Means of transport take \"de\" with no article: \"de ônibus\", \"de avião\", \"de carro\". Many Brazilians travel long distances by bus. In speech \"para\" usually shrinks to \"pra\", as in \"vou pra Floripa\", the nickname for Florianópolis.",
         ],
         examples: [
-          { es: "Para onde você vai nas férias?", en: "Beatriz: Where are you going for the holidays?" },
+          { es: "Para onde você vai nas férias?", en: "Beatriz: Where are you going on vacation?" },
           { es: "Vou para Florianópolis com a minha irmã.", en: "Lucas: I'm going to Florianópolis with my sister." },
           { es: "Vocês vão de avião?", en: "Beatriz: Are you flying?" },
           { es: "Não, de ônibus. A gente passa por Curitiba.", en: "Lucas: No, by bus. We go through Curitiba." },
-          { es: "O ônibus passa pelo centro da cidade.", en: "Lucas: The bus goes through the city centre." },
+          { es: "O ônibus passa pelo centro da cidade.", en: "Lucas: The bus goes through the city center." },
         ],
         checkpoint: [
           {
@@ -1630,7 +1630,7 @@ export const PT_A2_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Where are you going for the holidays?",
+        source: "Where are you going on vacation?",
         answer: "Para onde você vai nas férias?",
         altAnswers: [
           "Pra onde você vai nas férias?",
@@ -1641,7 +1641,7 @@ export const PT_A2_U10: Lesson[] = [
           "Para onde o senhor vai nas férias?",
           "Para onde a senhora vai nas férias?",
         ],
-        explanation: "\"Para onde\" asks for the destination, just like \"aonde\". \"Nas férias\" (em + as) means for or during the holidays.",
+        explanation: "\"Para onde\" asks for the destination, just like \"aonde\". \"Nas férias\" (em + as) means on or during vacation.",
       },
       {
         type: "multiple-choice",
@@ -1653,7 +1653,7 @@ export const PT_A2_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The bus goes [through the] centre of Curitiba.",
+        en: "The bus goes [through the] center of Curitiba.",
         sentence: "O ônibus passa ___ centro de Curitiba.",
         answer: "pelo",
         explanation: "\"Passar por\" + \"o centro\" contracts to \"pelo centro\". Before a feminine noun it's \"pela\".",
@@ -1843,7 +1843,7 @@ export const PT_A2_U10: Lesson[] = [
           { es: "Ela chega na segunda.", en: "She arrives on Monday." },
           { es: "O curso começa em março.", en: "The course starts in March." },
           { es: "Trabalho de segunda a sexta.", en: "I work Monday to Friday." },
-          { es: "A loja abre das nove às seis.", en: "The shop is open from nine to six." },
+          { es: "A loja abre das nove às seis.", en: "The store is open from nine to six." },
         ],
         checkpoint: [
           {
@@ -2182,7 +2182,7 @@ export const PT_A2_U10: Lesson[] = [
         type: "speak",
         text: "Faz vinte minutos que eu estou esperando.",
         prompt: "Say it in Portuguese: I've been waiting for twenty minutes.",
-        tip: "The z at the end of faz sounds like an s (like sh in Rio). Link it smoothly into vinte, with the t before e sounding like ch: vin-tchi.",
+        tip: "Before the v of vinte, the z of faz is voiced, like the z in zoo (in Rio, like the s in measure). The t before e sounds like ch: vin-tchi.",
         explanation: "\"Faz vinte minutos que\" + the present progressive \"estou esperando\", because you're still waiting.",
       },
     ],
@@ -2250,7 +2250,7 @@ export const PT_A2_U10: Lesson[] = [
         examples: [
           { es: "Ela nasceu em julho de 1998.", en: "She was born in July 1998." },
           { es: "No sábado a gente vai para a feira.", en: "On Saturday we're going to the market." },
-          { es: "A loja abre de segunda a sábado, das nove às seis.", en: "The shop opens Monday to Saturday, from nine to six." },
+          { es: "A loja abre de segunda a sábado, das nove às seis.", en: "The store opens Monday to Saturday, from nine to six." },
           { es: "Ontem eu trabalhei até as onze da noite.", en: "Yesterday I worked until eleven at night." },
           { es: "Durante o voo, eu dormi muito.", en: "During the flight, I slept a lot." },
         ],
@@ -2443,7 +2443,7 @@ export const PT_A2_U10: Lesson[] = [
 
 export const PT_A2_U10_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You're travelling around Brazil next month. Write a message to your Brazilian friend Beatriz, who lives in Curitiba. Say where you're going and why, which city you'll pass through and when, how long you'll stay and until when, and what the bus ticket costs. Also tell her how long you've been studying Portuguese and when your classes are.",
+  prompt: "You're traveling around Brazil next month. Write a message to your Brazilian friend Beatriz, who lives in Curitiba. Say where you're going and why, which city you'll pass through and when, how long you'll stay and until when, and what the bus ticket costs. Also tell her how long you've been studying Portuguese and when your classes are.",
   minWords: 50,
   maxWords: 100,
   rubric: [

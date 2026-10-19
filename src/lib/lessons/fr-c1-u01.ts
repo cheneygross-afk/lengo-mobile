@@ -379,7 +379,7 @@ export const FR_C1_U01: Lesson[] = [
             prompt: "Translate into French.",
             source: "The fact that he lied shocks me.",
             answer: "Le fait qu'il ait menti me choque.",
-            altAnswers: ["Le fait qu'il ait menti me choque beaucoup.", "Le fait qu'il a menti me choque."],
+            altAnswers: ["Le fait qu'il a menti me choque."],
             explanation: "\"Le fait que\" as the subject of an emotional reaction (\"me choque\") takes the subjunctive, here past (\"qu'il ait menti\") because the lie came first. The indicative is heard but less elegant.",
           },
           {
@@ -763,7 +763,7 @@ export const FR_C1_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: Bien que le fournisseur a confirmé la livraison... Write the correct French for: Although the supplier has confirmed the delivery, I'd rather we checked.",
+            prompt: "A learner wrote: \"Bien que le fournisseur a confirmé la livraison...\" Write the correct French for: Although the supplier has confirmed the delivery, I'd rather we checked.",
             source: "Although the supplier has confirmed the delivery, I'd rather we checked.",
             answer: "Bien que le fournisseur ait confirmé la livraison, je préfère qu'on vérifie.",
             altAnswers: ["Bien que le fournisseur ait confirmé la livraison, je préfère que nous vérifiions.", "Bien que le fournisseur ait confirmé la livraison, je préférerais qu'on vérifie.", "Bien que le fournisseur ait confirmé la livraison, je préférerais que nous vérifiions.", "Quoique le fournisseur ait confirmé la livraison, je préfère qu'on vérifie."],
@@ -771,7 +771,7 @@ export const FR_C1_U01: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "A learner wrote: Je suis content qu'il vient hier. Write the French for the bold words.",
+            prompt: "A learner wrote: \"Je suis content qu'il vient hier.\" Write the French for the bold words.",
             en: "I'm glad [he came] yesterday.",
             sentence: "Je suis content qu'___ hier.",
             answer: "il soit venu",
@@ -798,7 +798,7 @@ export const FR_C1_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: Je ne pense pas que le quartier est dangereux. Translate correctly into French.",
+            prompt: "A learner wrote: \"Je ne pense pas que le quartier est dangereux.\" Translate correctly into French.",
             source: "I don't think the neighbourhood is dangerous.",
             answer: "Je ne pense pas que le quartier soit dangereux.",
             altAnswers: ["Je ne crois pas que le quartier soit dangereux."],
@@ -836,7 +836,7 @@ export const FR_C1_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: Je suis surpris que vous n'avez pas répondu. Translate correctly into French.",
+            prompt: "A learner wrote: \"Je suis surpris que vous n'avez pas répondu.\" Translate correctly into French.",
             source: "I'm surprised you haven't replied.",
             answer: "Je suis surpris que vous n'ayez pas répondu.",
             altAnswers: ["Je suis surprise que vous n'ayez pas répondu.", "Je suis étonné que vous n'ayez pas répondu.", "Je suis étonnée que vous n'ayez pas répondu.", "Je suis surpris que tu n'aies pas répondu.", "Je suis surprise que tu n'aies pas répondu."],
@@ -862,7 +862,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: C'est le seul restaurant qui est ouvert le lundi. Write the polished written French.",
+        prompt: "A learner wrote: \"C'est le seul restaurant qui est ouvert le lundi.\" Write the polished written French.",
         source: "It's the only restaurant that's open on Mondays.",
         answer: "C'est le seul restaurant qui soit ouvert le lundi.",
         altAnswers: ["C'est le seul restaurant ouvert le lundi."],
@@ -871,7 +871,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Bien qu'il est malade, il travaille. Translate correctly into French.",
+        prompt: "A learner wrote: \"Bien qu'il est malade, il travaille.\" Translate correctly into French.",
         source: "Although he's ill, he's working.",
         answer: "Bien qu'il soit malade, il travaille.",
         altAnswers: ["Quoiqu'il soit malade, il travaille.", "Bien qu'il soit malade, il est au travail."],
@@ -879,7 +879,7 @@ export const FR_C1_U01: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote: Je regrette que tu n'as pas pu venir. Write the French for the bold words.",
+        prompt: "A learner wrote: \"Je regrette que tu n'as pas pu venir.\" Write the French for the bold words.",
         en: "I'm sorry [you couldn't] come.",
         sentence: "Je regrette que ___ venir.",
         answer: "tu n'aies pas pu",
@@ -888,7 +888,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Je cherche quelqu'un qui sait réparer les vélos. Translate correctly into French.",
+        prompt: "A learner wrote: \"Je cherche quelqu'un qui sait réparer les vélos.\" Translate correctly into French.",
         source: "I'm looking for someone who knows how to repair bikes.",
         answer: "Je cherche quelqu'un qui sache réparer les vélos.",
         altAnswers: ["Je cherche quelqu'un qui sache réparer des vélos.", "Je cherche une personne qui sache réparer les vélos."],
@@ -909,7 +909,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Il faut partir avant qu'il pleut. Translate correctly into French.",
+        prompt: "A learner wrote: \"Il faut partir avant qu'il pleut.\" Translate correctly into French.",
         source: "We must leave before it rains.",
         answer: "Il faut partir avant qu'il pleuve.",
         altAnswers: ["Il faut partir avant qu'il ne pleuve.", "Nous devons partir avant qu'il pleuve.", "On doit partir avant qu'il pleuve.", "Il faut qu'on parte avant qu'il pleuve."],
@@ -918,7 +918,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Je doute qu'elle a reçu ma lettre. Translate correctly into French.",
+        prompt: "A learner wrote: \"Je doute qu'elle a reçu ma lettre.\" Translate correctly into French.",
         source: "I doubt she has received my letter.",
         answer: "Je doute qu'elle ait reçu ma lettre.",
         explanation: "\"Douter que\" + subjunctive; the receiving would be complete: \"qu'elle ait reçu\".",
@@ -933,7 +933,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Est-il possible que vous soyez passé demain ? Translate correctly into French.",
+        prompt: "A learner wrote: \"Est-il possible que vous soyez passé demain ?\" Translate correctly into French.",
         source: "Would it be possible for you to come by tomorrow?",
         answer: "Serait-il possible que vous passiez demain ?",
         altAnswers: ["Est-il possible que vous passiez demain ?", "Est-ce qu'il serait possible que vous passiez demain ?", "Est-ce qu'il est possible que vous passiez demain ?", "Pourriez-vous passer demain ?"],
@@ -956,7 +956,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Il est le meilleur prof que j'ai jamais eu. Translate in polished written French.",
+        prompt: "A learner wrote: \"Il est le meilleur prof que j'ai jamais eu.\" Translate in polished written French.",
         source: "He's the best teacher I've ever had.",
         answer: "C'est le meilleur prof que j'aie jamais eu.",
         altAnswers: ["C'est le meilleur professeur que j'aie jamais eu.", "C'est le meilleur enseignant que j'aie jamais eu."],
@@ -999,7 +999,7 @@ export const FR_C1_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « J'ai compris qu'elle était partie » mean?",
+            question: "What does \"J'ai compris qu'elle était partie\" mean?",
             options: [
               "I realised she had left.",
               "I sympathised with her leaving.",
@@ -1122,7 +1122,7 @@ export const FR_C1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your manager emails: « Je dis que chacun fasse un effort. » What does she mean?",
+        question: "Your manager emails: \"Je dis que chacun fasse un effort.\" What does she mean?",
         options: [
           "Everyone should make an effort.",
           "Everyone is making an effort.",
@@ -1218,7 +1218,7 @@ export const FR_C1_U01: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "What does « Je crains qu'il ne vienne » mean?",
+            question: "What does \"Je crains qu'il ne vienne\" mean?",
             options: ["I'm afraid he'll come.", "I'm afraid he won't come.", "I fear he didn't come.", "I'm not afraid he'll come."],
             correctIndex: 0,
             explanation: "The ne explétif adds no negation: the speaker fears that he will come. 'He won't come' would be \"qu'il ne vienne pas\".",
@@ -1348,7 +1348,7 @@ export const FR_C1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A formal letter says: « Nous maintiendrons la date, à moins que vous ne nous informiez d'un empêchement. » What does it mean?",
+        question: "A formal letter says: \"Nous maintiendrons la date, à moins que vous ne nous informiez d'un empêchement.\" What does it mean?",
         options: [
           "We'll keep the date unless you tell us of a problem.",
           "We'll keep the date unless you don't tell us of a problem.",
@@ -1560,7 +1560,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Change the person: now say it about 'we'.",
+        prompt: "Translate into French (the same sentence as before, now with 'we').",
         source: "Wherever we go, we take our camera.",
         answer: "Où que nous allions, nous emportons notre appareil photo.",
         altAnswers: ["Où que nous allions, nous prenons notre appareil photo.", "Où qu'on aille, on emporte notre appareil photo.", "Où qu'on aille, on prend notre appareil photo.", "Où que nous allions, nous emportons notre appareil."],
@@ -1640,10 +1640,10 @@ export const FR_C1_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "Whatever their reasons, they should have warned us.",
-        answer: "Quelles que soient leurs raisons, ils auraient dû nous prévenir.",
-        altAnswers: ["Quelles que soient leurs raisons, elles auraient dû nous prévenir.", "Quoi qu'il en soit, ils auraient dû nous prévenir."],
-        explanation: "Before a noun, 'whatever' is \"quel que soit\", agreeing with the noun (\"quelles... raisons\"). \"Quoi que\" can't be followed directly by être + noun. Unit 2 practises this form.",
+        source: "Whatever their parents say, they'll do as they please.",
+        answer: "Quoi que disent leurs parents, ils feront ce qu'ils veulent.",
+        altAnswers: ["Quoi que leurs parents disent, ils feront ce qu'ils veulent.", "Quoi que disent leurs parents, ils n'en feront qu'à leur tête.", "Quoi que leurs parents disent, ils n'en feront qu'à leur tête.", "Quoi que disent leurs parents, elles feront ce qu'elles veulent.", "Quoi que leurs parents disent, elles feront ce qu'elles veulent."],
+        explanation: "'Whatever' + verb is \"quoi que\" (two words) + subjunctive \"disent\"; with a noun subject, formal French often inverts it (\"quoi que disent leurs parents\"). Before être + noun ('whatever their reasons') French uses \"quel que soit\" instead, which Unit 2 teaches.",
       },
     ],
   },
@@ -1896,7 +1896,7 @@ export const FR_C1_U01: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "In a novel you read: « Il fallait qu'elle fût prête à six heures. » Which modern French says the same?",
+            question: "In a novel you read: \"Il fallait qu'elle fût prête à six heures.\" Which modern French says the same?",
             options: [
               "Il fallait qu'elle soit prête à six heures.",
               "Il fallait qu'elle était prête à six heures.",
@@ -1909,7 +1909,7 @@ export const FR_C1_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A literary text says: Je voulais qu'il me répondît. Write it in modern French: I wanted him to answer me.",
+            prompt: "A literary text says: \"Je voulais qu'il me répondît.\" Write it in modern French: I wanted him to answer me.",
             source: "I wanted him to answer me.",
             answer: "Je voulais qu'il me réponde.",
             explanation: "\"Répondît\" → modern present subjunctive \"réponde\". Vouloir que + subjunctive, whatever the tense of vouloir.",
@@ -1946,7 +1946,7 @@ export const FR_C1_U01: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "A novel reads: Il était le seul qui sût la vérité. Write the modern French for the bold words.",
+            prompt: "A novel reads: \"Il était le seul qui sût la vérité.\" Write the modern French for the bold words.",
             en: "He was the only one [who knew] the truth.",
             sentence: "Il était le seul ___ la vérité.",
             answer: "qui sache",
@@ -1973,7 +1973,7 @@ export const FR_C1_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A novel says: Bien qu'il fût timide, il avait accepté. Write it in modern French: Although he was shy, he had accepted.",
+            prompt: "A novel says: \"Bien qu'il fût timide, il avait accepté.\" Write it in modern French: Although he was shy, he had accepted.",
             source: "Although he was shy, he had accepted.",
             answer: "Bien qu'il soit timide, il avait accepté.",
             altAnswers: ["Quoiqu'il soit timide, il avait accepté."],
@@ -1994,7 +1994,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: Je souhaitais qu'elle vînt. Write it in modern French: I wished she would come.",
+        prompt: "A text says: \"Je souhaitais qu'elle vînt.\" Write it in modern French: I wished she would come.",
         source: "I wished she would come.",
         answer: "Je souhaitais qu'elle vienne.",
         explanation: "\"Vînt\" → \"vienne\": present subjunctive of venir.",
@@ -2002,15 +2002,15 @@ export const FR_C1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: Quoiqu'il eût raison, on l'ignora. Write the first part in modern French: Although he was right...",
+        prompt: "A text says: \"Quoiqu'il eût raison, on l'ignora.\" Write the first part in modern French: Although he was right...",
         source: "Although he was right",
-        answer: "Bien qu'il ait raison",
-        altAnswers: ["Quoiqu'il ait raison"],
+        answer: "Quoiqu'il ait raison",
+        altAnswers: ["Bien qu'il ait raison"],
         explanation: "\"Eût\" (avoir) → \"ait\". \"Avoir raison\" = to be right.",
       },
       {
         type: "fill-blank",
-        prompt: "A text says: Il fallait que tout fût prêt. Write the modern French for the bold words.",
+        prompt: "A text says: \"Il fallait que tout fût prêt.\" Write the modern French for the bold words.",
         en: "Everything had to [be] ready.",
         sentence: "Il fallait que tout ___ prêt.",
         answer: "soit",
@@ -2026,7 +2026,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: Elle attendait qu'il fît nuit. Write it in modern French: She was waiting for it to get dark.",
+        prompt: "A text says: \"Elle attendait qu'il fît nuit.\" Write it in modern French: She was waiting for it to get dark.",
         source: "She was waiting for it to get dark.",
         answer: "Elle attendait qu'il fasse nuit.",
         explanation: "\"Fît\" (faire) → \"fasse\". \"Attendre que\" + subjunctive.",
@@ -2034,7 +2034,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: Nous craignions qu'ils ne vinssent trop tard. Write it in modern French: We were afraid they'd come too late.",
+        prompt: "A text says: \"Nous craignions qu'ils ne vinssent trop tard.\" Write it in modern French: We were afraid they'd come too late.",
         source: "We were afraid they'd come too late.",
         answer: "Nous craignions qu'ils ne viennent trop tard.",
         altAnswers: ["Nous craignions qu'ils viennent trop tard.", "Nous avions peur qu'ils ne viennent trop tard.", "Nous avions peur qu'ils viennent trop tard."],
@@ -2054,7 +2054,7 @@ export const FR_C1_U01: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Rewrite in modern French: Il exigea qu'on lui obéît. (He demanded to be obeyed.)",
+        prompt: "A text says: \"Il exigea qu'on lui obéît.\" Put the words in order to say it in modern French: He demanded to be obeyed.",
         words: ["Il a exigé", "qu'on", "lui", "obéisse."],
         translation: "He demanded to be obeyed.",
         explanation: "\"Obéît\" → \"obéisse\"; and in modern narration the passé simple \"exigea\" becomes \"a exigé\".",
@@ -2062,7 +2062,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: Il partit sans qu'elle le sût. Write the modern French: He left without her knowing.",
+        prompt: "A text says: \"Il partit sans qu'elle le sût.\" Write the modern French: He left without her knowing.",
         source: "He left without her knowing.",
         answer: "Il est parti sans qu'elle le sache.",
         altAnswers: ["Il est parti sans qu'elle sache.", "Il partit sans qu'elle le sache."],
@@ -2085,7 +2085,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: C'était le plus beau jardin qu'il eût jamais vu. Write the modern French: It was the most beautiful garden he had ever seen.",
+        prompt: "A text says: \"C'était le plus beau jardin qu'il eût jamais vu.\" Write the modern French: It was the most beautiful garden he had ever seen.",
         source: "It was the most beautiful garden he had ever seen.",
         answer: "C'était le plus beau jardin qu'il ait jamais vu.",
         altAnswers: ["C'était le plus beau jardin qu'il avait jamais vu."],
@@ -2120,7 +2120,7 @@ export const FR_C1_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A text says: J'eusse préféré l'apprendre de vous. Write it in modern French: I would have preferred to hear it from you.",
+            prompt: "A text says: \"J'eusse préféré l'apprendre de vous.\" Write it in modern French: I would have preferred to hear it from you.",
             source: "I would have preferred to hear it from you.",
             answer: "J'aurais préféré l'apprendre de vous.",
             altAnswers: ["J'aurais préféré l'apprendre par vous.", "J'aurais préféré que ce soit vous qui me le disiez."],
@@ -2128,7 +2128,7 @@ export const FR_C1_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « Il eût mieux valu partir » mean?",
+            question: "What does \"Il eût mieux valu partir\" mean?",
             options: ["It would have been better to leave.", "It was better to leave.", "It will be better to leave.", "He had better leave."],
             correctIndex: 0,
             explanation: "\"Il eût mieux valu\" = \"il aurait mieux valu\": a past conditional.",
@@ -2139,7 +2139,7 @@ export const FR_C1_U01: Lesson[] = [
         heading: "Eût-il su, dût-il: inverted hypotheses",
         body: [
           "Inverted forms of the plus-que-parfait du subjonctif express a hypothesis or concession without \"si\": \"Eût-il su la vérité, il n'aurait rien dit\" (even if he had known the truth, he wouldn't have said anything). It's the literary cousin of the modern \"Aurait-il su la vérité qu'il n'aurait rien dit\" or simply \"Même s'il avait su...\".",
-          "A related survival is \"dût-il\" / \"dussé-je\" (imparfait du subjonctif of devoir, inverted): \"Je le ferai, dût-il m'en coûter\" (I'll do it, even if it costs me). \"Dussé-je y passer la nuit\" (even if I have to spend the night on it) is a playful, grandiloquent phrase you'll hear in speeches and witty speech.",
+          "A related survival is \"dût-il\" / \"dussé-je\" (imparfait du subjonctif of devoir, inverted): \"Je le ferai, dût-il m'en coûter\" (I'll do it, even if it costs me). \"Dussé-je y passer la nuit\" (even if I have to spend the night on it) is a playful, grandiloquent phrase you'll hear in speeches and in jest.",
           "These inversions all mean 'even if' and sit at the start or end of a sentence, separated by a comma. You will meet them in essays, editorials and literary criticism.",
         ],
         examples: [
@@ -2153,7 +2153,7 @@ export const FR_C1_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A text says: Eût-il couru, il aurait raté le train. Write it in modern French with même si: Even if he had run, he would have missed the train.",
+            prompt: "A text says: \"Eût-il couru, il aurait raté le train.\" Write it in modern French with même si: Even if he had run, he would have missed the train.",
             source: "Even if he had run, he would have missed the train.",
             answer: "Même s'il avait couru, il aurait raté le train.",
             altAnswers: ["Même s'il avait couru, il aurait manqué le train."],
@@ -2218,7 +2218,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: J'eusse aimé qu'on me prévînt. Write it in modern French: I would have liked to be warned.",
+        prompt: "A text says: \"J'eusse aimé qu'on me prévînt.\" Write it in modern French: I would have liked to be warned.",
         source: "I would have liked to be warned.",
         answer: "J'aurais aimé qu'on me prévienne.",
         altAnswers: ["J'aurais aimé être prévenu.", "J'aurais aimé être prévenue.", "J'aurais aimé qu'on me prévienne avant."],
@@ -2235,7 +2235,7 @@ export const FR_C1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A newspaper headline reads: « Le petit club breton en finale de la Coupe : qui l'eût cru ? » What does the last part mean?",
+        question: "A newspaper headline reads: \"Le petit club breton en finale de la Coupe : qui l'eût cru ?\" What does the last part mean?",
         options: ["Who would have thought it?", "Who believed it?", "Who will believe it?", "Who could believe him?"],
         correctIndex: 0,
         explanation: "\"Qui l'eût cru\" is a frozen plus-que-parfait du subjonctif = \"qui l'aurait cru\".",
@@ -2243,7 +2243,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: On eût dit qu'il avait vu un fantôme. Write it in modern French: You'd have thought he'd seen a ghost.",
+        prompt: "A text says: \"On eût dit qu'il avait vu un fantôme.\" Write it in modern French: You'd have thought he'd seen a ghost.",
         source: "You'd have thought he'd seen a ghost.",
         answer: "On aurait dit qu'il avait vu un fantôme.",
         explanation: "\"On eût dit\" = \"on aurait dit\": it looked as if.",
@@ -2260,7 +2260,7 @@ export const FR_C1_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A text says: S'il eût été là, rien ne serait arrivé. Write it in modern French: If he had been there, nothing would have happened.",
+        prompt: "A text says: \"S'il eût été là, rien ne serait arrivé.\" Write it in modern French: If he had been there, nothing would have happened.",
         source: "If he had been there, nothing would have happened.",
         answer: "S'il avait été là, rien ne serait arrivé.",
         altAnswers: ["S'il avait été là, il ne se serait rien passé.", "S'il avait été présent, rien ne serait arrivé."],
@@ -2336,7 +2336,7 @@ export const FR_C1_U01: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Why is « ait connue » in the subjunctive in « la transformation la plus rapide que le monde du travail ait connue »?",
+            question: "Why is \"ait connue\" in the subjunctive in \"la transformation la plus rapide que le monde du travail ait connue\"?",
             options: [
               "Because it follows a superlative.",
               "Because it follows a verb of fear.",
@@ -2585,7 +2585,7 @@ export const FR_C1_U01: Lesson[] = [
         heading: "Messages at work",
         body: [
           "Now a message from a manager, Mme Lefèvre, to her team: \"Bonjour à tous, je souhaite que chacun ait relu le dossier avant jeudi. Qu'il y ait encore des désaccords, c'est normal ; je ne pense pas pour autant qu'il faille reporter la décision. Je cherche un volontaire qui puisse présenter la synthèse. Merci de me répondre avant que je ne parte en déplacement mercredi.\"",
-          "Here: \"je souhaite que\" + past subjunctive (\"ait relu\": finished by Thursday); que-fronting (\"Qu'il y ait\"); a negated opinion (\"je ne pense pas qu'il faille\"); a wanted person (\"un volontaire qui puisse\"); \"avant que\" with the formal ne explétif. Note how the register differs from Camille's text: the ne explétif appears, \"resto\" becomes \"restaurant\", \"on\" becomes \"nous\".",
+          "Here: \"je souhaite que\" + past subjunctive (\"ait relu\": finished by Thursday); que-fronting (\"Qu'il y ait\"); a negated opinion (\"je ne pense pas qu'il faille\"); a wanted person (\"un volontaire qui puisse\"); \"avant que\" with the formal ne explétif. Note how the register differs from Camille's text: the ne explétif appears, and there is no slang (\"resto\") or chatty exclamation, only the measured tone of a manager writing to a team.",
           "Remember the same-subject rule from the Upper-intermediate level: \"avant que je ne parte\" is fine because the subjects differ (you reply, I leave). With the same subject, use the infinitive: \"avant de partir\".",
         ],
         examples: [

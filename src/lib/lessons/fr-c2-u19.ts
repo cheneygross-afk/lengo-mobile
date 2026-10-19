@@ -24,7 +24,7 @@ export const FR_C2_U19: Lesson[] = [
           { es: "Qui pourrait sérieusement le nier ?", en: "Who could seriously deny it? (= nobody can)" },
           { es: "Ne l'avais-je pas annoncé dès le mois de mars ?", en: "Hadn't I predicted it as early as March? (= I had)" },
           { es: "Est-ce ma faute si le train avait deux heures de retard ?", en: "Is it my fault if the train was two hours late? (= it isn't)" },
-          { es: "Que diable allait-il faire dans cette galère ?", en: "What the devil was he doing in that galley? (the famous line from Scapin: he should never have got involved)" },
+          { es: "Que diable allait-il faire dans cette galère ?", en: "What the devil was he doing in that galley? (the old father's famous line in the comedy The Tricks of Scapin: he should never have got involved)" },
           { es: "Avons-nous vraiment le choix ?", en: "Do we really have a choice? (= we don't)" },
         ],
         checkpoint: [
@@ -38,7 +38,7 @@ export const FR_C2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French (a rhetorical question, inversion).",
+            prompt: "Translate into French (a rhetorical question).",
             source: "Isn't it obvious?",
             answer: "N'est-ce pas évident ?",
             altAnswers: ["Ce n'est pas évident ?", "Est-ce que ce n'est pas évident ?"],
@@ -1409,7 +1409,7 @@ export const FR_C2_U19: Lesson[] = [
             prompt: "Translate into French (insinuating, formal).",
             source: "Could it be that you have something to hide?",
             answer: "Serait-ce que vous avez quelque chose à cacher ?",
-            altAnswers: ["Serait-ce que vous auriez quelque chose à cacher ?", "Auriez-vous quelque chose à cacher ?", "Serait-ce que tu as quelque chose à cacher ?"],
+            altAnswers: ["Serait-ce que vous auriez quelque chose à cacher ?", "Auriez-vous quelque chose à cacher ?"],
             explanation: "\"Serait-ce que\" + indicative: the conditional of \"être\" carries the insinuation.",
           },
           {

@@ -82,7 +82,7 @@ export const FR_B2_U15: Lesson[] = [
             prompt: "Translate into French.",
             source: "I had the contract checked by a lawyer.",
             answer: "J'ai fait vérifier le contrat par un avocat.",
-            altAnswers: ["J'ai fait relire le contrat par un avocat.", "J'ai fait vérifier le contrat par une avocate."],
+            altAnswers: ["J'ai fait relire le contrat par un avocat.", "J'ai fait vérifier le contrat par une avocate.", "J'ai fait vérifier le contrat à un avocat.", "J'ai fait contrôler le contrat par un avocat."],
             explanation: "The infinitive has an object (\"le contrat\"), so the agent comes with \"par\" (or \"à\").",
           },
           {
@@ -116,7 +116,7 @@ export const FR_B2_U15: Lesson[] = [
             prompt: "Translate into French.",
             source: "My bike? I'm having it repaired tomorrow.",
             answer: "Mon vélo ? Je le fais réparer demain.",
-            altAnswers: ["Mon vélo ? Je vais le faire réparer demain.", "Mon vélo ? Je le fais réparer demain matin."],
+            altAnswers: ["Mon vélo ? Je vais le faire réparer demain."],
             explanation: "The pronoun goes before \"faire\": \"je le fais réparer\".",
           },
           {
@@ -150,7 +150,7 @@ export const FR_B2_U15: Lesson[] = [
             prompt: "Translate into French.",
             source: "Her parents don't let her go out in the evenings.",
             answer: "Ses parents ne la laissent pas sortir le soir.",
-            altAnswers: ["Ses parents ne la laissent pas sortir les soirs.", "Ses parents ne la laissent pas sortir le soir venu."],
+            altAnswers: ["Ses parents ne la laissent pas sortir les soirs.", "Ses parents ne la laissent pas sortir le soir."],
             explanation: "Pronoun before \"laisser\"; negation around \"laissent\".",
           },
           {
@@ -226,7 +226,7 @@ export const FR_B2_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "'I got him to read it.' Which is correct?",
+        question: "'I got him to read it' (it = la lettre). Which is correct?",
         options: ["Je la lui ai fait lire.", "Je lui ai fait la lire.", "Je l'ai fait lui lire.", "Je lui l'ai fait lire."],
         correctIndex: 0,
         explanation: "Both pronouns go before \"faire\", in the order \"la lui\".",
@@ -334,7 +334,7 @@ export const FR_B2_U15: Lesson[] = [
             prompt: "Translate into French.",
             source: "He had his phone stolen on the metro.",
             answer: "Il s'est fait voler son téléphone dans le métro.",
-            altAnswers: ["Il s'est fait voler son portable dans le métro.", "Il s'est fait voler son téléphone dans le métro hier."],
+            altAnswers: ["Il s'est fait voler son portable dans le métro."],
             explanation: "A misfortune: \"se faire voler\" + the stolen object.",
           },
           {
@@ -418,7 +418,7 @@ export const FR_B2_U15: Lesson[] = [
         prompt: "Translate into French.",
         source: "I'm having my suit cleaned.",
         answer: "Je fais nettoyer mon costume.",
-        altAnswers: ["Je fais nettoyer mon costume au pressing.", "Je donne mon costume au pressing."],
+        altAnswers: ["Je fais nettoyer mon costume au pressing.", "Je me fais nettoyer mon costume."],
         explanation: "\"Faire nettoyer\": a service on an object.",
       },
       {
@@ -546,9 +546,9 @@ export const FR_B2_U15: Lesson[] = [
           {
             type: "multiple-choice",
             question: "« Restez ensemble ! » How do you report it?",
-            options: ["Il nous a demandé de rester ensemble.", "Il nous a demandé que nous restions ensemble.", "Il nous a demandé qu'on reste ensemble.", "Il nous a demandé rester ensemble."],
+            options: ["Il nous a demandé de rester ensemble.", "Il nous a demandé de restez ensemble.", "Il nous a demandé si nous restions ensemble.", "Il nous a demandé rester ensemble."],
             correctIndex: 0,
-            explanation: "Commands are reported with \"demander de\" + infinitive.",
+            explanation: "Commands are reported with \"demander de\" + infinitive: the imperative \"restez\" becomes the infinitive \"rester\". \"Demander si\" would report a yes/no question, not an order.",
           },
         ],
       },
@@ -640,7 +640,7 @@ export const FR_B2_U15: Lesson[] = [
         question: "Which sentence is correct?",
         options: ["Après que l'hélicoptère est reparti, nous avons continué.", "Après que l'hélicoptère soit reparti, nous avons continué.", "Après que l'hélicoptère reparte, nous avons continué.", "Après l'hélicoptère est reparti, nous avons continué."],
         correctIndex: 0,
-        explanation: "\"Après que\" + indicative in careful French.",
+        explanation: "\"Après que\" + indicative in careful French: the action has really happened. \"Après que... soit\" is common in speech (by analogy with \"avant que\") but is still considered a mistake.",
       },
       {
         type: "translate",
@@ -752,7 +752,7 @@ export const FR_B2_U15: Lesson[] = [
             prompt: "Translate into French.",
             source: "I let him choose his clothes.",
             answer: "Je le laisse choisir ses vêtements.",
-            altAnswers: ["Je la laisse choisir ses vêtements.", "Je lui laisse choisir ses vêtements."],
+            altAnswers: ["Je lui laisse choisir ses vêtements.", "Je le laisse choisir ses habits."],
             explanation: "Pronoun before \"laisser\": \"je le laisse choisir\".",
           },
           {
@@ -1162,7 +1162,7 @@ export const FR_B2_U15: Lesson[] = [
             prompt: "Translate into French.",
             source: "It's a shame these trades have disappeared.",
             answer: "C'est dommage que ces métiers aient disparu.",
-            altAnswers: ["Dommage que ces métiers aient disparu.", "C'est dommage que ces métiers soient en train de disparaître.", "C'est dommage que ces métiers disparaissent."],
+            altAnswers: ["Dommage que ces métiers aient disparu.", "C'est dommage que ces métiers aient disparu."],
             explanation: "\"C'est dommage que\" + past subjunctive; \"disparaître\" takes \"avoir\".",
           },
           {
@@ -1239,7 +1239,7 @@ export const FR_B2_U15: Lesson[] = [
         prompt: "Translate into French.",
         source: "In the past, people had their shoes repaired.",
         answer: "Autrefois, on faisait réparer ses chaussures.",
-        altAnswers: ["Avant, on faisait réparer ses chaussures.", "Autrefois, les gens faisaient réparer leurs chaussures.", "Avant, les gens faisaient réparer leurs chaussures.", "Autrefois, on faisait réparer nos chaussures."],
+        altAnswers: ["Avant, on faisait réparer ses chaussures.", "Autrefois, les gens faisaient réparer leurs chaussures.", "Avant, les gens faisaient réparer leurs chaussures.", "Autrefois, on faisait réparer les chaussures."],
         explanation: "Imparfait for a past habit + causative \"faire réparer\".",
       },
       {
@@ -1393,7 +1393,7 @@ export const FR_B2_U15: Lesson[] = [
       {
         heading: "-ir verbs made from adjectives",
         body: [
-          "French has a whole family of regular -ir verbs built from adjectives, each meaning 'to become + adjective'. Where English says 'get fat', 'go red', 'grow old', French uses one verb: \"grossir\" (to put on weight, from gros), \"maigrir\" (to lose weight, maigre), \"vieillir\" (to grow old, vieux), \"rajeunir\" (to look or feel younger, jeune), \"rougir\" (to blush, rouge), \"pâlir\" (to turn pale, pâle), \"grandir\" (to grow up / taller, grand), \"blanchir\" (to go white), \"brunir\" (to tan), \"mûrir\" (to ripen, to mature), \"embellir\" (to become more beautiful), \"s'enrichir\" (to get rich).",
+          "French has a whole family of regular -ir verbs built from adjectives, each meaning 'to become + adjective'. Where English says 'get fat', 'go red', 'grow old', French uses one verb: \"grossir\" (to put on weight, from \"gros\"), \"maigrir\" (to lose weight, \"maigre\"), \"vieillir\" (to grow old, \"vieux\"), \"rajeunir\" (to look or feel younger, \"jeune\"), \"rougir\" (to blush, \"rouge\"), \"pâlir\" (to turn pale, \"pâle\"), \"grandir\" (to grow up / taller, \"grand\"), \"blanchir\" (to go white), \"brunir\" (to tan), \"mûrir\" (to ripen, to mature), \"embellir\" (to become more beautiful), \"s'enrichir\" (to get rich).",
           "They conjugate like \"finir\" and take \"avoir\": \"Il a grossi de cinq kilos\" (by five kilos), \"Elle a beaucoup mûri\", \"Les enfants grandissent vite\".",
         ],
         examples: [
@@ -1523,7 +1523,7 @@ export const FR_B2_U15: Lesson[] = [
         prompt: "Translate into French.",
         source: "My grandfather has aged a lot.",
         answer: "Mon grand-père a beaucoup vieilli.",
-        explanation: "\"Vieillir\" (from vieux): to grow old, with \"avoir\".",
+        explanation: "\"Vieillir\" (from \"vieux\"): to grow old, with \"avoir\".",
       },
       {
         type: "dictation",
@@ -1726,8 +1726,8 @@ export const FR_B2_U15: Lesson[] = [
         prompt: "Translate into French.",
         source: "Our neighbours have become friends.",
         answer: "Nos voisins sont devenus des amis.",
-        altAnswers: ["Nos voisins sont devenus nos amis.", "Nos voisines sont devenues des amies."],
-        explanation: "\"Devenir\" + noun with an article here (not a profession).",
+        altAnswers: ["Nos voisins sont devenus nos amis.", "Nos voisins sont devenus amis.", "Nos voisines sont devenues des amies.", "Nos voisines sont devenues amies."],
+        explanation: "\"Devenir\" + noun: \"des amis\" (or, very commonly, just \"devenus amis\", used like an adjective). \"Sont devenus\": \"devenir\" takes \"être\" and agrees.",
       },
       {
         type: "dictation",
@@ -2025,9 +2025,9 @@ export const FR_B2_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "If I hadn't met you, I'd still live in Lille.",
+        source: "If I hadn't met you, I'd still be living in Lille.",
         answer: "Si je ne t'avais pas rencontré, je vivrais encore à Lille.",
-        altAnswers: ["Si je ne t'avais pas rencontrée, je vivrais encore à Lille.", "Si je ne t'avais pas rencontré, j'habiterais encore à Lille.", "Si je ne t'avais pas rencontrée, j'habiterais encore à Lille.", "Si je ne vous avais pas rencontré, je vivrais encore à Lille.", "Si je ne t'avais pas rencontré, je vivrais toujours à Lille.", "Si je ne t'avais pas rencontrée, je vivrais toujours à Lille."],
+        altAnswers: ["Si je ne t'avais pas rencontrée, je vivrais encore à Lille.", "Si je ne t'avais pas rencontré, j'habiterais encore à Lille.", "Si je ne t'avais pas rencontrée, j'habiterais encore à Lille.", "Si je ne vous avais pas rencontré, je vivrais encore à Lille.", "Si je ne vous avais pas rencontrée, je vivrais encore à Lille.", "Si je ne t'avais pas rencontré, je vivrais toujours à Lille.", "Si je ne t'avais pas rencontrée, je vivrais toujours à Lille."],
         explanation: "\"Encore\" → present result.",
       },
       {
@@ -2099,7 +2099,7 @@ export const FR_B2_U15: Lesson[] = [
             prompt: "Translate into French.",
             source: "Her parents made her leave school at fourteen.",
             answer: "Ses parents lui ont fait quitter l'école à quatorze ans.",
-            altAnswers: ["Ses parents l'ont fait quitter l'école à quatorze ans."],
+            altAnswers: ["Ses parents lui ont fait arrêter l'école à quatorze ans."],
             explanation: "Causative \"faire quitter\": the infinitive has an object (\"l'école\"), so the person is indirect (\"lui\"); \"fait\" does not agree.",
           },
         ],
@@ -2214,7 +2214,7 @@ export const FR_B2_U15: Lesson[] = [
       {
         type: "multiple-choice",
         question: "'At sixty, she became famous.' Which is correct?",
-        options: ["À soixante ans, elle est devenue célèbre.", "À soixante ans, elle a devenu célèbre.", "À soixante ans, elle s'est rendue célèbre.", "À soixante ans, elle a fait célèbre."],
+        options: ["À soixante ans, elle est devenue célèbre.", "À soixante ans, elle a devenu célèbre.", "À soixante ans, elle est rendue célèbre.", "À soixante ans, elle a fait célèbre."],
         correctIndex: 0,
         explanation: "\"Devenir\" + adjective, with \"être\".",
       },
@@ -2234,7 +2234,7 @@ export const FR_B2_U15: Lesson[] = [
         source: "She matured a lot during those years.",
         answer: "Elle a beaucoup mûri pendant ces années-là.",
         altAnswers: ["Elle a beaucoup mûri durant ces années-là.", "Elle a beaucoup mûri pendant ces années."],
-        explanation: "\"Mûrir\" (from mûr): to mature.",
+        explanation: "\"Mûrir\" (from \"mûr\"): to mature, with \"avoir\".",
       },
       {
         type: "word-order",
@@ -2452,7 +2452,7 @@ export const FR_B2_U15: Lesson[] = [
             prompt: "Translate into French.",
             source: "The wait made him nervous.",
             answer: "L'attente l'a rendu nerveux.",
-            altAnswers: ["L'attente l'a énervé.", "L'attente l'a rendu anxieux."],
+            altAnswers: ["L'attente l'a rendu anxieux.", "L'attente l'a rendu fébrile."],
             explanation: "Something makes someone feel a state: \"rendre\" + adjective.",
           },
           {
@@ -2553,7 +2553,7 @@ export const FR_B2_U15: Lesson[] = [
         source: "The leaves turn yellow in October.",
         answer: "Les feuilles jaunissent en octobre.",
         altAnswers: ["Les feuilles deviennent jaunes en octobre."],
-        explanation: "\"Jaunir\" (from jaune): one verb for 'turn yellow'.",
+        explanation: "\"Jaunir\" (from \"jaune\"): one verb for 'turn yellow'.",
       },
       {
         type: "translate",

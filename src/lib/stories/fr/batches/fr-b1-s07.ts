@@ -62,7 +62,7 @@ export const FR_B1_S07_STORIES: Story[] = [
     questions: [
       {
         question: `What was unusual about the parcel?`,
-        options: [`It was very heavy.`, `It came from France.`, `It had no name on it, only "Pour la plus belle femme de Sainte-Anne".`, `It had no stamp.`],
+        options: [`It was very heavy.`, `It came from abroad.`, `It had no name on it, only "Pour la plus belle femme de Sainte-Anne".`, `It had no stamp.`],
         correctIndex: 2,
         explanation: `"Sur l'adresse, il n'y avait pas de nom." It only said "Pour la plus belle femme de Sainte-Anne".`,
       },
@@ -176,7 +176,7 @@ export const FR_B1_S07_STORIES: Story[] = [
     paragraphs: [
       `Depuis la naissance de son fils, Camille travaillait trois jours par semaine chez elle, à Bordeaux. Elle était cheffe de projet dans une entreprise de logiciels, et la plupart de ses réunions avaient lieu en visioconférence. Ce mardi-là, Léon, cinq ans, avait de la fièvre et ne pouvait pas aller à l'école. Il était donc assis à côté d'elle, sur le tapis du salon, avec ses jouets.`,
       `À dix heures commençait la réunion la plus redoutée de la semaine : celle avec le nouveau directeur, M. Garnier. C'était un homme de soixante ans, compétent mais très bavard, qui pouvait parler quarante minutes sans s'arrêter. Quinze petits visages fatigués l'écoutaient sur l'écran de Camille. Elle avait coupé son micro, comme d'habitude, et elle prenait des notes.`,
-      `Ce jour-là, Léon jouait avec son cadeau d'anniversaire : un énorme tyrannosaure en plastique qui rugissait quand on appuyait sur un bouton. Et il appuyait beaucoup. Au bout de dix minutes, Camille s'est penchée vers son fils et elle a chuchoté, un peu énervée : « Léon, ça suffit. Le dinosaure parle trop. Dès qu'il se tait, on va goûter, d'accord ? »`,
+      `Ce jour-là, Léon jouait avec son cadeau d'anniversaire : un énorme tyrannosaure en plastique qui rugissait quand on appuyait sur un bouton. Et il appuyait beaucoup. Au bout de dix minutes, Camille s'est penchée vers son fils et elle a chuchoté, un peu énervée : « Léon, ça suffit. Le dinosaure parle trop. Dès qu'il se tait, je te lis une histoire, d'accord ? »`,
       `Puis elle a levé les yeux vers l'écran. Quinze visages la regardaient, immobiles. M. Garnier s'était arrêté au milieu d'une phrase. En bas de l'écran, une petite icône verte brillait : son micro était allumé. Elle l'avait réactivé quelques minutes plus tôt pour répondre à une question, et elle avait oublié de le couper. « Pardon, Camille ? » a dit le directeur d'une voix glaciale. « Le dinosaure parle trop ? »`,
       `Pendant trois secondes, Camille a cru qu'elle allait mourir. Dans la fenêtre de discussion privée, les messages de ses collègues arrivaient les uns après les autres. « Tu es une héroïne. » « Tu es folle ? » « On pense tous la même chose, mais quand même ! » Elle a ouvert la bouche pour s'expliquer, mais aucun mot n'est sorti.`,
       `C'est Léon qui l'a sauvée. Curieux de voir à qui sa mère parlait, il a grimpé sur ses genoux, il a mis son tyrannosaure juste devant la caméra et il a appuyé sur le bouton. Le monstre a poussé un rugissement terrible. Il y a eu un silence, puis quelqu'un a commencé à rire, et bientôt toute la réunion riait, M. Garnier compris. « Ah, c'est ce dinosaure-là ! » a-t-il dit en s'essuyant les yeux. « Vous savez, mes petits-enfants disent que je suis un dinosaure, moi aussi. Ils n'ont peut-être pas tort. »`,
@@ -251,7 +251,7 @@ export const FR_B1_S07_ENGLISH: Record<string, string[]> = {
   "fr-b1-le-micro-allume": [
     `Since her son was born, Camille had been working from home three days a week, in Bordeaux. She was a project manager at a software company, and most of her meetings took place by video call. That Tuesday, Léon, five, had a fever and couldn't go to school. So he was sitting beside her, on the living-room rug, with his toys.`,
     `At ten o'clock came the most dreaded meeting of the week: the one with the new director, M. Garnier. He was a sixty-year-old man, competent but very talkative, who could speak for forty minutes without stopping. Fifteen tired little faces were listening to him on Camille's screen. She had muted her microphone, as usual, and was taking notes.`,
-    `That day, Léon was playing with his birthday present: an enormous plastic tyrannosaurus that roared when you pressed a button. And he pressed it a lot. After ten minutes, Camille leaned towards her son and whispered, a little irritated: "Léon, that's enough. The dinosaur talks too much. As soon as it's quiet, we'll have a snack, OK?"`,
+    `That day, Léon was playing with his birthday present: an enormous plastic tyrannosaurus that roared when you pressed a button. And he pressed it a lot. After ten minutes, Camille leaned towards her son and whispered, a little irritated: "Léon, that's enough. The dinosaur talks too much. As soon as it's quiet, I'll read you a story, OK?"`,
     `Then she looked up at the screen. Fifteen faces were looking at her, motionless. M. Garnier had stopped in the middle of a sentence. At the bottom of the screen, a little green icon was shining: her microphone was on. She had switched it back on a few minutes earlier to answer a question, and had forgotten to mute it. "Sorry, Camille?" said the director in an icy voice. "The dinosaur talks too much?"`,
     `For three seconds, Camille thought she was going to die. In the private chat window, her colleagues' messages arrived one after another. "You're a heroine." "Are you crazy?" "We all think the same thing, but still!" She opened her mouth to explain, but no words came out.`,
     `It was Léon who saved her. Curious to see who his mother was talking to, he climbed onto her lap, put his tyrannosaurus right in front of the camera and pressed the button. The monster let out a terrible roar. There was a silence, then someone started to laugh, and soon the whole meeting was laughing, M. Garnier included. "Ah, that dinosaur!" he said, wiping his eyes. "You know, my grandchildren say I'm a dinosaur too. Maybe they're not wrong."`,
@@ -324,7 +324,7 @@ export const FR_B1_S07_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "couper (le micro)", en: "to mute (the mic)", forms: ["coupé", "couper"] },
     { es: "rugir", en: "to roar", forms: ["rugissait"] },
     { es: "chuchoter", en: "to whisper", forms: ["chuchoté"] },
-    { es: "goûter", en: "to have an afternoon snack", forms: ["goûter"] },
+    { es: "se taire", en: "to go quiet, to stop talking", forms: ["tait"] },
     { es: "glacial", en: "icy", forms: ["glaciale"] },
     { es: "grimper", en: "to climb", forms: ["grimpé"] },
     { es: "s'essuyer", en: "to wipe", forms: ["s'essuyant"] },

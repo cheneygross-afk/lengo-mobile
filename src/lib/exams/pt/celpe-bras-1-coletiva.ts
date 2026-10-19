@@ -62,9 +62,9 @@ export const CELPE_BRAS_1_COLETIVA: ExamPaper = {
           minWords: 150,
           maxWords: 250,
           rubric: [
-            "\"Adequação ao contexto\": a formal e-mail to the \"subprefeitura\", written as a resident on behalf of the neighbours, that proposes a \"horta comunitária\" and asks for support",
-            "Uses the report: the benefits it shows (healthy food, a meeting place, rainwater absorbed, cooler streets) and the support it says is needed (authorisation, soil testing, water)",
-            "Reworks the report in your own words and ties it to your own neighbourhood and plot of land, instead of retelling the report",
+            "\"Adequação ao contexto\": a formal e-mail to the \"subprefeitura\", written as a resident on behalf of the neighbors, that proposes a \"horta comunitária\" and asks for support",
+            "Uses the report: the benefits it shows (healthy food, a meeting place, rainwater absorbed, cooler streets) and the support it says is needed (authorization, soil testing, water)",
+            "Reworks the report in your own words and ties it to your own neighborhood and plot of land, instead of retelling the report",
             "\"Adequação discursiva\": a subject line, a formal greeting and sign-off (\"Prezado Senhor Subprefeito, … Atenciosamente\"), paragraphs that lead to a clear request",
             "\"Adequação linguística\": a formal register kept throughout, connectors such as \"além de\", \"no entanto\", \"por isso\", and \"para que\" with the subjunctive",
           ],

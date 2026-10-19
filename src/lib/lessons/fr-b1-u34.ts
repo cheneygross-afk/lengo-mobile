@@ -452,7 +452,7 @@ export const FR_B1_U34: Lesson[] = [
         prompt: "Translate into French.",
         source: "I can't give it to you today. (to a friend, the money)",
         answer: "Je ne peux pas te le donner aujourd'hui.",
-        altAnswers: ["Je peux pas te le donner aujourd'hui.", "Je ne peux pas te le rendre aujourd'hui."],
+        altAnswers: ["Je peux pas te le donner aujourd'hui."],
         explanation: "Position 3: \"te le\" before the infinitive, the negation around \"peux\".",
       },
       {
@@ -470,7 +470,7 @@ export const FR_B1_U34: Lesson[] = [
         prompt: "Translate into French.",
         source: "Don't tell me! (to a friend)",
         answer: "Ne me le dis pas !",
-        altAnswers: ["Ne me dis pas !", "Me le dis pas !", "Ne me le dis pas."],
+        altAnswers: ["Me le dis pas !", "Ne me le dis pas."],
         explanation: "Negative command: back to position 1, \"me\" before \"le\".",
       },
       {
@@ -554,7 +554,7 @@ export const FR_B1_U34: Lesson[] = [
             prompt: "Translate into French.",
             source: "I realised that I had lost my wallet.",
             answer: "Je me suis rendu compte que j'avais perdu mon portefeuille.",
-            altAnswers: ["Je me suis rendue compte que j'avais perdu mon portefeuille.", "J'ai réalisé que j'avais perdu mon portefeuille.", "Je me suis aperçu que j'avais perdu mon portefeuille.", "Je me suis aperçue que j'avais perdu mon portefeuille."],
+            altAnswers: ["J'ai réalisé que j'avais perdu mon portefeuille.", "Je me suis aperçu que j'avais perdu mon portefeuille.", "Je me suis aperçue que j'avais perdu mon portefeuille."],
             explanation: "The loss came first: plus-que-parfait \"j'avais perdu\". \"Se rendre compte\" is the standard to realise.",
           },
           {
@@ -1276,7 +1276,7 @@ export const FR_B1_U34: Lesson[] = [
             prompt: "Translate into French. (Lucas wrote: *J'ai resté un mois chez vous.)",
             source: "I stayed at your place for a month.",
             answer: "Je suis resté un mois chez vous.",
-            altAnswers: ["Je suis restée un mois chez vous.", "Je suis resté chez vous pendant un mois.", "Je suis restée chez vous pendant un mois.", "Je suis resté chez vous un mois."],
+            altAnswers: ["Je suis resté chez vous pendant un mois.", "Je suis resté chez vous un mois."],
             explanation: "\"Rester\" is one of the être verbs, despite meaning to stay rather than to move.",
           },
           {
@@ -1314,7 +1314,7 @@ export const FR_B1_U34: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Lucas wrote: « Je lui l'ai donné. » What's the correct version?",
+            question: "Lucas wrote: \"Je lui l'ai donné.\" What's the correct version?",
             options: ["Je le lui ai donné.", "Je l'ai lui donné.", "Je lui ai le donné.", "Je l'lui ai donné."],
             correctIndex: 0,
             explanation: "\"Le / la / les\" come before \"lui / leur\", and both go before the auxiliary.",
@@ -1434,7 +1434,7 @@ export const FR_B1_U34: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A learner wrote: « Quand j'ai fini mes études, j'irai au Canada. » What's the correct version?",
+        question: "A learner wrote: \"Quand j'ai fini mes études, j'irai au Canada.\" What's the correct version?",
         options: ["Quand j'aurai fini mes études, j'irai au Canada.", "Quand je finirais mes études, j'irai au Canada.", "Quand j'avais fini mes études, j'irai au Canada.", "Quand j'aurais fini mes études, j'irai au Canada."],
         correctIndex: 0,
         explanation: "A future action completed before another: futur antérieur \"j'aurai fini\".",
@@ -1492,7 +1492,7 @@ export const FR_B1_U34: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "The receptionist says: « Elle est en ligne, vous patientez ? » You'd rather leave a message. What do you say?",
+            question: "The receptionist says: \"Elle est en ligne, vous patientez ?\" You'd rather leave a message. What do you say?",
             options: ["Non merci, je préfère laisser un message.", "Non merci, je préfère que je laisse un message.", "Ouais, je rappelle, salut !", "Non merci, je préfère de laisser un message."],
             correctIndex: 0,
             explanation: "\"Préférer\" + infinitive with no \"de\" (same subject, so no \"que\" either), and a polite register; \"Ouais... salut\" is far too casual for a receptionist.",
@@ -1576,7 +1576,7 @@ export const FR_B1_U34: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The doctor says: « Si ça ne va pas mieux, revenez me voir. » What does she mean?",
+            question: "The doctor says: \"Si ça ne va pas mieux, revenez me voir.\" What does she mean?",
             options: ["If you don't feel better, come back and see me.", "If you feel better, don't come back.", "If I'm not better, I'll come and see you.", "You'll feel better if you come back."],
             correctIndex: 0,
             explanation: "\"Si\" + present → imperative \"revenez\".",
@@ -1679,7 +1679,7 @@ export const FR_B1_U34: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your landlord says: « Il faut que vous me fournissiez une attestation d'assurance. » What do you have to do?",
+        question: "Your landlord says: \"Il faut que vous me fournissiez une attestation d'assurance.\" What do you have to do?",
         options: ["Give him a certificate of insurance.", "Pay the insurance for him.", "Find him an insurer.", "Cancel your insurance."],
         correctIndex: 0,
         explanation: "\"Fournir\" = to provide; \"une attestation\" = a certificate.",

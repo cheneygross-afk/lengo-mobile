@@ -1472,7 +1472,7 @@ export const FR_B1_U10: Lesson[] = [
             en: "How much [would it be] per night?",
             sentence: "___ combien par nuit ?",
             answer: "Ce serait",
-            altAnswers: ["Ça serait", "Ça ferait", "Ce ferait"],
+            altAnswers: ["Ça serait", "Ça ferait"],
             explanation: "\"Ce serait\" makes the price question gentler.",
           },
         ],
@@ -1910,7 +1910,7 @@ export const FR_B1_U10: Lesson[] = [
       {
         heading: "Avec un million, j'achèterais...",
         body: [
-          "Your mission: a post for a French forum thread called « Qu'est-ce que tu ferais avec un million ? ». Start the dream with \"Avec un million (d'euros)...\" and keep going in the conditional.",
+          "Your mission: a post for a French forum thread called \"Qu'est-ce que tu ferais avec un million ?\". Start the dream with \"Avec un million (d'euros)...\" and keep going in the conditional.",
           "Big purchases first: \"j'achèterais une maison\", \"je m'offrirais une voiture\" (I'd treat myself to a car). \"S'offrir\" is a lovely verb for treating yourself.",
         ],
         examples: [
@@ -2118,7 +2118,7 @@ export const FR_B1_U10: Lesson[] = [
           "I created a grant for young artists.",
         ],
         correctIndex: 0,
-        explanation: "\"Créerais\" is the conditional of \"créer\" (three e's in a row in \"créerais\"); \"une bourse\" here is a grant.",
+        explanation: "\"Créerais\" is the conditional of \"créer\" (keep both e's of the stem: \"créer-\" + \"-ais\"); \"une bourse\" here is a grant.",
       },
       {
         type: "dictation",

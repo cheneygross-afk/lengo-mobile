@@ -80,7 +80,7 @@ export const FR_B1_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A news headline says: « Le président serait en vacances en Corse. » What does it mean?",
+            question: "A news headline says: \"Le président serait en vacances en Corse.\" What does it mean?",
             options: [
               "The president is reportedly on holiday in Corsica.",
               "The president would be on holiday in Corsica.",
@@ -452,7 +452,7 @@ export const FR_B1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend asks « Tu ferais quoi si tu avais un mois de vacances ? » Which answer fits?",
+        question: "A friend asks \"Tu ferais quoi si tu avais un mois de vacances ?\" Which answer fits?",
         options: ["Je partirais au Japon.", "Je partirai au Japon.", "Je pars au Japon.", "Je suis parti au Japon."],
         correctIndex: 0,
         explanation: "An answer to a hypothetical question stays in the conditional: \"je partirais\".",
@@ -912,7 +912,7 @@ export const FR_B1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Turn this into a hypothesis: « Si tu viens, on ira au restaurant. »",
+        question: "Turn this into a hypothesis: \"Si tu viens, on ira au restaurant.\"",
         options: [
           "Si tu venais, on irait au restaurant.",
           "Si tu viendrais, on irait au restaurant.",
@@ -961,7 +961,7 @@ export const FR_B1_U13: Lesson[] = [
         body: [
           "Affirmative: the reflexive pronoun follows the verb with a hyphen, and \"te\" becomes \"toi\": \"Dépêche-toi\", \"Assieds-toi\", \"Calme-toi\". With nous and vous it stays \"nous\" / \"vous\": \"Dépêchons-nous\", \"Dépêchez-vous\".",
           "Negative: the pronoun jumps back in front of the verb and \"toi\" goes back to \"te\": \"Ne te dépêche pas\", \"Ne nous dépêchons pas\", \"Ne vous dépêchez pas\". Learners often write \"*ne dépêche-toi pas\" or \"*ne t'inquiète-toi pas\", mixing the two patterns.",
-          "Before a vowel \"te\" shortens: \"Ne t'inquiète pas\", \"Ne t'énerve pas\". In the affirmative \"toi\" never shortens: \"Énerve-toi\" is rare, but \"Habille-toi\" is everyday.",
+          "Before a vowel \"te\" shortens: \"Ne t'inquiète pas\", \"Ne t'énerve pas\". In the affirmative \"toi\" stays whole before a vowel sound: \"Habille-toi\", \"Inscris-toi\". It only shortens before \"en\": \"Va-t'en !\"",
         ],
         examples: [
           { es: "Dépêche-toi, on va rater le train !", en: "Hurry up, we're going to miss the train!" },
@@ -1438,7 +1438,7 @@ export const FR_B1_U13: Lesson[] = [
         examples: [
           { es: "Si tu le vois, dis-le-lui.", en: "If you see him, tell him." },
           { es: "Si tu as besoin de la voiture, prends-la.", en: "If you need the car, take it." },
-          { es: "Si tu as des questions, pose-les-moi.", en: "If you have any questions, ask me them." },
+          { es: "Si tu as des questions, pose-les-moi.", en: "If you have any questions, put them to me." },
           { es: "Si tu trouves mes lunettes, apporte-les-moi.", en: "If you find my glasses, bring them to me." },
           { es: "Si vous avez trop de pain, donnez-en aux voisins.", en: "If you have too much bread, give some to the neighbours." },
           { es: "Si elle t'appelle, ne lui réponds pas.", en: "If she calls you, don't answer her." },
@@ -1799,7 +1799,7 @@ export const FR_B1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "I don't think [they know] the address.",
+        en: "I don't think they [know] the address.",
         sentence: "Je ne pense pas qu'ils ___ l'adresse.",
         answer: "connaissent",
         explanation: "Negative opinion → subjunctive; \"connaître\" for knowing an address. Ils form: \"connaissent\".",
@@ -1814,7 +1814,7 @@ export const FR_B1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which ending fits « Il est probable que... »?",
+        question: "Which ending fits \"Il est probable que...\"?",
         options: ["...le train aura du retard.", "...le train ait du retard.", "...le train aurait du retard.", "...le train avoir du retard."],
         correctIndex: 0,
         explanation: "\"Il est probable que\" takes the indicative.",
@@ -1895,7 +1895,7 @@ export const FR_B1_U13: Lesson[] = [
         heading: "Safety, pollution, transport",
         body: [
           "\"La sécurité\" is both safety and security: \"la sécurité routière\" (road safety), \"un problème de sécurité\". \"L'insécurité\" is the feeling that a place isn't safe, a big topic in French politics.",
-          "\"La pollution de l'air\", \"la qualité de l'air\", \"les embouteillages\" (traffic jams). \"Les transports en commun\" are public transport (bus, métro, tram, train): note the plural, and \"en commun\", not *publics.",
+          "\"La pollution de l'air\", \"la qualité de l'air\", \"les embouteillages\" (traffic jams). \"Les transports en commun\" are public transport (bus, métro, tram, train): note the plural. \"Les transports publics\" exists too, but \"en commun\" is the everyday phrase in France.",
           "\"Un problème de société\" is a social issue: something that concerns everyone, not a problem in a club.",
         ],
         examples: [
@@ -2045,7 +2045,7 @@ export const FR_B1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A French friend says « Il y a un vrai sentiment d'insécurité dans ce quartier. » What do they mean?",
+        question: "A French friend says \"Il y a un vrai sentiment d'insécurité dans ce quartier.\" What do they mean?",
         options: [
           "People don't feel safe in this neighbourhood.",
           "People feel insecure about themselves here.",
@@ -2340,7 +2340,7 @@ export const FR_B1_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A friend says « Je ne parle jamais de politique. » What does it mean?",
+            question: "A friend says \"Je ne parle jamais de politique.\" What does it mean?",
             options: ["I never talk about politics.", "I never talk about policy.", "I never talk politely.", "I never talk to politicians."],
             correctIndex: 0,
             explanation: "\"La politique\" here means politics in general.",
@@ -2649,7 +2649,7 @@ export const FR_B1_U13: Lesson[] = [
             type: "speak",
             text: "Viens ! Il faut que tu viennes !",
             tip: "Viennes rhymes with Vienne.",
-            explanation: "Imperative \"viens\" and subjunctive \"viennes\": same sound, different spelling.",
+            explanation: "Imperative \"viens\" ends in a nasal vowel; subjunctive \"viennes\" ends in a clear n sound, like the city of Vienne.",
           },
         ],
       },
@@ -2730,7 +2730,7 @@ export const FR_B1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which form completes « Il faut que vous ___ attention » (pay attention)?",
+        question: "Which form completes \"Il faut que vous ___ attention\" (pay attention)?",
         options: ["fassiez", "faites", "ferez", "feriez"],
         correctIndex: 0,
         explanation: "Subjunctive of faire, vous form: \"fassiez\".",
@@ -2741,7 +2741,7 @@ export const FR_B1_U13: Lesson[] = [
         question: "What did you hear?",
         options: ["Je ferais du sport.", "Je ferai du sport.", "Je faisais du sport.", "Je fais du sport."],
         correctIndex: 0,
-        explanation: "Open è at the end: conditional \"ferais\". \"Faisais\" has an extra syllable.",
+        explanation: "Open è at the end: conditional \"ferais\". \"Faisais\" has a z sound where \"ferais\" has an r.",
       },
       {
         type: "speak",

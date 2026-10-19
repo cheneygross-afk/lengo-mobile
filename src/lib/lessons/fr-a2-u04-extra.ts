@@ -317,9 +317,9 @@ export const FR_A2_U04_EXTRA: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
         en: "The village [had] only one cafe.",
-        sentence: "Le village n'___ qu'un café.",
+        sentence: "Le village ___ un seul café.",
         answer: "avait",
-        explanation: "\"Ne... que\" = only; \"avait\".",
+        explanation: "\"Avoir\" → \"avait\": a lasting fact in the past, so imparfait. \"Un seul café\" = only one café.",
       },
       {
         type: "fill-blank",
@@ -331,7 +331,7 @@ export const FR_A2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "He had blue eyes.",
+        question: "How do you say: He had blue eyes?",
         options: ["Il était les yeux bleus.", "Il avait les yeux bleus.", "Il avait des yeux bleu.", "Il a eu les yeux bleus."],
         correctIndex: 1,
         explanation: "\"Avoir les yeux\" + colour (plural agreement); imparfait for description.",
@@ -516,11 +516,11 @@ export const FR_A2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Every summer we went to the mountains.",
+        question: "How do you say: Every summer we went to the mountains?",
         options: [
           "Chaque été, nous sommes allés à la montagne une fois.",
           "Chaque été, nous allions à la montagne.",
-          "Chaque été, nous irons à la montagne.",
+          "Chaque été, nous avons allé à la montagne.",
           "Chaque été, nous allons à la montagne hier.",
         ],
         correctIndex: 1,
@@ -533,7 +533,7 @@ export const FR_A2_U04_EXTRA: Lesson[] = [
         options: [
           "Parfois, on mange au restaurant.",
           "Parfois, on a mangé au restaurant.",
-          "Parfois, on mangera au restaurant.",
+          "Parfois, on va manger au restaurant.",
           "Parfois, on mangeait au restaurant.",
         ],
         correctIndex: 3,
@@ -1061,7 +1061,7 @@ export const FR_A2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "While I was cooking, he was reading.",
+        question: "How do you say: While I was cooking, he was reading?",
         options: [
           "Pendant je cuisinais, il lisait.",
           "Pendant que je cuisinais, il a lu.",
@@ -1797,7 +1797,7 @@ export const FR_A2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend asks: C'était comment, ton week-end à Nice ? Which answer fits?",
+        question: "A friend asks: \"C'était comment, ton week-end à Nice ?\" Which answer fits?",
         options: ["C'est super, il fait beau !", "C'était super, il faisait beau !", "Il a été super, il a fait beau !", "J'étais super, il faisait beau !"],
         correctIndex: 1,
         explanation: "Describe with \"c'était\" and \"il faisait\".",
@@ -1985,7 +1985,7 @@ export const FR_A2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Nadia says: Tu parlais tout le temps ! What does she mean?",
+        question: "Nadia says: \"Tu parlais tout le temps !\" What does she mean?",
         options: ["You talked once.", "You always talk!", "You were always talking!", "You never talked!"],
         correctIndex: 2,
         explanation: "Imparfait + \"tout le temps\" = always, as a habit.",
@@ -2518,7 +2518,7 @@ export const FR_A2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Nous étudions le soir. → (back then)",
+        question: "Make it a past habit: \"Nous étudions le soir.\" How do you say: We used to study in the evening?",
         options: ["Nous étudions le soir.", "Nous étudiions le soir.", "Nous étudiaient le soir.", "Nous avons étudié le soir."],
         correctIndex: 1,
         explanation: "Stem \"étudi-\" + -ions = \"étudiions\".",
@@ -2527,7 +2527,7 @@ export const FR_A2_U04_EXTRA: Lesson[] = [
         type: "listen-choose",
         audio: "Je prenais le bus.",
         question: "What did you hear?",
-        options: ["Je prends le bus.", "J'ai pris le bus.", "Je prenais le bus.", "Je prendrai le bus."],
+        options: ["Je prends le bus.", "J'ai pris le bus.", "Je prenais le bus.", "Je vais prendre le bus."],
         correctIndex: 2,
         explanation: "\"Prenais\": pre-nè.",
       },

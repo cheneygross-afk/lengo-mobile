@@ -411,7 +411,6 @@ export const FR_A2_U18: Lesson[] = [
         en: "I'd like [a medicine] for a cough.",
         sentence: "Je voudrais ___ contre la toux.",
         answer: "un médicament",
-        altAnswers: ["quelque chose"],
         explanation: "Medicine is \"un médicament\"; \"la drogue\" means illegal drugs.",
       },
       {
@@ -648,8 +647,8 @@ export const FR_A2_U18: Lesson[] = [
         en: "You need to [rest].",
         sentence: "Il faut ___.",
         answer: "vous reposer",
-        altAnswers: ["te reposer"],
-        explanation: "After \"il faut\", the reflexive pronoun matches the person spoken to: \"vous reposer\".",
+        altAnswers: ["te reposer", "se reposer"],
+        explanation: "After \"il faut\", the reflexive pronoun matches the person spoken to: \"vous reposer\". As a general rule, \"il faut se reposer\" also works.",
       },
       {
         type: "translate",
@@ -687,7 +686,7 @@ export const FR_A2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The doctor says: « Il faut aller aux urgences. » Where should you go?",
+        question: "The doctor says: \"Il faut aller aux urgences.\" Where should you go?",
         options: ["To A&E (the emergency department)", "To the pharmacy", "Home to bed", "Back to work"],
         correctIndex: 0,
         explanation: "\"Les urgences\" is the hospital's emergency department.",
@@ -744,7 +743,7 @@ export const FR_A2_U18: Lesson[] = [
             prompt: "Translate into French.",
             source: "Hello, I have a booking under the name Moreau.",
             answer: "Bonjour, j'ai une réservation au nom de Moreau.",
-            altAnswers: ["Bonjour, j'ai réservé au nom de Moreau.", "Bonjour, j'ai une réservation au nom Moreau."],
+            altAnswers: ["Bonjour, j'ai réservé au nom de Moreau."],
             explanation: "\"Au nom de\" + surname, as for a restaurant booking.",
           },
           {
@@ -1039,7 +1038,7 @@ export const FR_A2_U18: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You hear: « Le train de 9 h 40 est supprimé. » What has happened?",
+            question: "You hear: \"Le train de 9 h 40 est supprimé.\" What has happened?",
             options: ["The train is cancelled.", "The train is delayed.", "The train is full.", "The train has changed platform."],
             correctIndex: 0,
             explanation: "\"Supprimé\" = cancelled. Delayed would be \"en retard\".",
@@ -1163,7 +1162,7 @@ export const FR_A2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're in a Paris bus and want to buy a ticket. What do you ask for?",
+        question: "You're at a Paris metro station and want a ticket for one journey. What do you ask for?",
         options: ["Un ticket, s'il vous plaît.", "Un billet de bus aller-retour, s'il vous plaît.", "Une place en première, s'il vous plaît.", "Un quai, s'il vous plaît."],
         correctIndex: 0,
         explanation: "For buses and the metro it's \"un ticket\"; returns and classes are for trains.",
@@ -1455,7 +1454,7 @@ export const FR_A2_U18: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « Je voudrais couper mes cheveux » suggest?",
+            question: "What does \"Je voudrais couper mes cheveux\" suggest?",
             options: ["You want to cut your hair yourself.", "You want a haircut at the salon.", "You want a single hair cut.", "You want your hair washed."],
             correctIndex: 0,
             explanation: "Without \"me faire\", you are the one cutting. At the salon: \"je voudrais me faire couper les cheveux\".",
@@ -1862,7 +1861,7 @@ export const FR_A2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You met Sophie by chance in the street yesterday. Which verb fits? « Hier, j'ai ___ Sophie dans la rue. »",
+        question: "You met Sophie by chance in the street yesterday. Which verb fits? \"Hier, j'ai ___ Sophie dans la rue.\"",
         options: ["rencontré", "retrouvé", "rendu visite", "revu à"],
         correctIndex: 0,
         explanation: "\"Rencontrer\" = to meet by chance or for the first time; \"retrouver\" is meeting by arrangement.",
@@ -2469,7 +2468,7 @@ export const FR_A2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "I've had a backache for a week.",
+            source: "I've had backache for a week.",
             answer: "J'ai mal au dos depuis une semaine.",
             altAnswers: ["Ça fait une semaine que j'ai mal au dos."],
             explanation: "\"Au dos\" (à + le); \"depuis\" + present for something still going on.",

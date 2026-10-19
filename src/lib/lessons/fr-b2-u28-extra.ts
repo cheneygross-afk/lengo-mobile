@@ -145,7 +145,7 @@ export const FR_B2_U28_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In a radio debate, a guest says: Je ne partage pas du tout votre avis. What does she mean?",
+        question: "In a radio debate, a guest says: « Je ne partage pas du tout votre avis. » What does she mean?",
         options: ["She completely disagrees.", "She partly agrees.", "She has no opinion.", "She wants to share her time."],
         correctIndex: 0,
         explanation: "\"Ne pas partager l'avis de quelqu'un\" = to disagree.",
@@ -197,7 +197,7 @@ export const FR_B2_U28_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Why does the author use the conditional in serait responsable?",
+            question: "Why does the author use the conditional in \"serait responsable\"?",
             options: ["To present a figure from another source without fully vouching for it.", "To express a wish.", "To talk about the future.", "To make a polite request."],
             correctIndex: 0,
             explanation: "The journalistic conditional reports unconfirmed information: 'reportedly'.",
@@ -261,7 +261,6 @@ export const FR_B2_U28_EXTRA: Lesson[] = [
         en: "[Admittedly], cheap fashion lets everyone get dressed.",
         sentence: "___, la mode à petit prix permet à tous de s'habiller.",
         answer: "Certes",
-        altAnswers: ["Il est vrai que"],
         explanation: "\"Certes\" opens a concession.",
       },
       {
@@ -284,9 +283,9 @@ export const FR_B2_U28_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Who has made this T-shirt?",
+        prompt: "Put the words in order to say: Who made this T-shirt?",
         words: ["Qui", "a", "fabriqué", "ce", "tee-shirt ?"],
-        translation: "Who has made this T-shirt?",
+        translation: "Who made this T-shirt?",
         explanation: "\"Qui\" as subject: no inversion needed.",
       },
       {
@@ -432,7 +431,7 @@ export const FR_B2_U28_EXTRA: Lesson[] = [
         source: "If companies adopted the four-day week, employees would be less tired.",
         answer: "Si les entreprises adoptaient la semaine de quatre jours, les salariés seraient moins fatigués.",
         altAnswers: ["Si les entreprises adoptaient la semaine de quatre jours, les employés seraient moins fatigués."],
-        explanation: "Si + imparfait → conditionnel présent.",
+        explanation: "\"Si\" + imparfait → conditionnel présent.",
       },
       {
         type: "word-order",
@@ -492,7 +491,7 @@ export const FR_B2_U28_EXTRA: Lesson[] = [
         text: "Ce document pose la question suivante : peut-on travailler moins sans produire moins ?",
         prompt: "Present the document. Say in French: This document raises the following question: can we work less without producing less?",
         tip: "Let your voice rise on the final question.",
-        explanation: "Inversion \"peut-on\" suits a formal problématique.",
+        explanation: "Inversion \"peut-on\" suits a formal \"problématique\".",
       },
       {
         type: "speak",

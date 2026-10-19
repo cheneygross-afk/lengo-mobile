@@ -15,12 +15,12 @@ export const PT_B2_U27: Lesson[] = [
       {
         heading: "Educação infantil, fundamental, médio",
         body: [
-          "Brazilian schooling has three stages. \"Educação infantil\" covers the \"creche\" (nursery, up to three) and the \"pré-escola\" (four and five). Then come nine years of \"ensino fundamental\", split into \"anos iniciais\" (1st to 5th year) and \"anos finais\" (6th to 9th), and three years of \"ensino médio\", the equivalent of high school. The word for the stage is \"ensino\", not \"educação\": \"ela terminou o ensino médio\".",
+          "Brazilian schooling has three stages. \"Educação infantil\" covers the \"creche\" (daycare, up to three) and the \"pré-escola\" (four and five). Then come nine years of \"ensino fundamental\", split into \"anos iniciais\" (1st to 5th year) and \"anos finais\" (6th to 9th), and three years of \"ensino médio\", the equivalent of high school. The word for the stage is \"ensino\", not \"educação\": \"ela terminou o ensino médio\".",
           "Years are counted with ordinals and \"ano\": \"meu filho está no sétimo ano\". Older Brazilians still say \"série\" (\"na sétima série\"), and the shift brought a renumbering, so the old \"oitava série\" is today's \"nono ano\". Keep \"no\" before the year: being in a year is \"estar no quinto ano\", not \"estar em quinto ano\".",
         ],
         examples: [
-          { es: "A minha filha ainda está na creche.", en: "My daughter is still at nursery." },
-          { es: "O Lucas está no sétimo ano do ensino fundamental.", en: "Lucas is in the seventh year of primary and middle school." },
+          { es: "A minha filha ainda está na creche.", en: "My daughter is still in daycare." },
+          { es: "O Lucas está no sétimo ano do ensino fundamental.", en: "Lucas is in the seventh year of elementary and middle school." },
           { es: "Ela terminou o ensino médio em 2023.", en: "She finished high school in 2023." },
           { es: "No meu tempo, a gente falava oitava série, não nono ano.", en: "In my day, we said eighth grade, not ninth year." },
           { es: "É obrigatório que a criança esteja matriculada a partir dos quatro anos.", en: "Children must be enrolled from the age of four." },
@@ -50,14 +50,14 @@ export const PT_B2_U27: Lesson[] = [
         heading: "Pública ou particular, integral ou meio período",
         body: [
           "A school is \"pública\" (run by the state or the city, free) or \"particular\" (fee-paying). In everyday speech say \"escola particular\": \"privada\" on its own also means toilet, so \"estudo numa privada\" gets a laugh. Statistics and the news do say \"rede privada\" and \"rede pública\", where \"rede\" is the whole network of schools.",
-          "Most schools run in shifts (\"turnos\"): a child goes \"de manhã\" or \"à tarde\", so the school day is only four or five hours. A school \"de período integral\" (or \"de tempo integral\") keeps pupils all day, with lunch. The fee at a private school is the \"mensalidade\", paid monthly, and the yearly sign-up is the \"matrícula\".",
+          "Most schools run in shifts (\"turnos\"): a child goes \"de manhã\" or \"à tarde\", so the school day is only four or five hours. A school \"de período integral\" (or \"de tempo integral\") keeps students all day, with lunch. The fee at a private school is the \"mensalidade\", paid monthly, and the yearly sign-up is the \"matrícula\".",
         ],
         examples: [
-          { es: "Ela sempre estudou em escola pública.", en: "She always went to state schools." },
+          { es: "Ela sempre estudou em escola pública.", en: "She always went to public schools." },
           { es: "A mensalidade da escola particular subiu de novo.", en: "The private school's monthly fee went up again." },
           { es: "O meu filho estuda de manhã e faz inglês à tarde.", en: "My son goes to school in the morning and does English in the afternoon." },
           { es: "A prefeitura prometeu que todas as escolas seriam de período integral.", en: "The city promised that all the schools would be full-day." },
-          { es: "A matrícula para o ano que vem já está aberta.", en: "Enrolment for next year is already open." },
+          { es: "A matrícula para o ano que vem já está aberta.", en: "Enrollment for next year is already open." },
         ],
         checkpoint: [
           {
@@ -80,22 +80,22 @@ export const PT_B2_U27: Lesson[] = [
             type: "listen-choose",
             audio: "A matrícula na escola pública é gratuita.",
             question: "What does it mean?",
-            options: ["Enrolment at the state school is free.", "The state school's monthly fee is low.", "The registration for the exam is free.", "The state school is open all day."],
+            options: ["Enrollment at the public school is free.", "The public school's monthly fee is low.", "The registration for the exam is free.", "The public school is open all day."],
             correctIndex: 0,
-            explanation: "\"Matrícula\" is enrolment, \"gratuita\" is free of charge. The monthly fee would be the \"mensalidade\".",
+            explanation: "\"Matrícula\" is enrollment, \"gratuita\" is free of charge. The monthly fee would be the \"mensalidade\".",
           },
         ],
       },
       {
         heading: "Passar de ano, reprovar, recuperação",
         body: [
-          "A pupil who meets the grade \"passa de ano\" (moves up a year). One who doesn't \"repete de ano\" or \"é reprovado\". The active \"reprovar\" works too: \"ele reprovou em matemática\", and in speech even \"a professora me reprovou\". \"Fui reprovado\" is the plain passive from earlier in B2. Before failing outright, many schools offer \"recuperação\", a resit period at the end of a term or year.",
-          "Marks are \"notas\", usually from 0 to 10: \"tirar nota boa\", \"tirar 7\". They appear in the \"boletim\" (report card). A school subject is a \"matéria\": \"qual é a sua matéria preferida?\" And remember \"colégio\": in Brazil it is a school, often private, for children and teenagers. A college in the American sense is a \"faculdade\".",
+          "A student who meets the grade \"passa de ano\" (moves up a year). One who doesn't \"repete de ano\" or \"é reprovado\". The active \"reprovar\" works too: \"ele reprovou em matemática\", and in speech even \"a professora me reprovou\". \"Fui reprovado\" is the plain passive from earlier in B2. Before failing outright, many schools offer \"recuperação\", a make-up period at the end of a term or year.",
+          "Grades are \"notas\", usually from 0 to 10: \"tirar nota boa\", \"tirar 7\". They appear in the \"boletim\" (report card). A school subject is a \"matéria\": \"qual é a sua matéria preferida?\" And remember \"colégio\": in Brazil it is a school, often private, for children and teenagers. A college in the American sense is a \"faculdade\".",
         ],
         examples: [
           { es: "Se ele não passar de ano, vai ter que repetir tudo.", en: "If he doesn't move up a year, he'll have to repeat everything." },
           { es: "Ela foi reprovada em química por meio ponto.", en: "She failed chemistry by half a point." },
-          { es: "Eu fiquei de recuperação em física no segundo ano.", en: "I had to do the physics resit in the second year of high school." },
+          { es: "Eu fiquei de recuperação em física no segundo ano.", en: "I had to do the physics make-up exam in the second year of high school." },
           { es: "Ele tirou dez na prova de história.", en: "He got ten out of ten in the history test." },
           { es: "O boletim chega no fim de cada bimestre.", en: "The report card comes at the end of every two-month term." },
           { es: "O meu irmão estudou no mesmo colégio que eu.", en: "My brother went to the same school as me." },
@@ -105,7 +105,7 @@ export const PT_B2_U27: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "He failed maths and had to repeat the year.",
+            source: "He failed math and had to repeat the year.",
             answer: "Ele foi reprovado em matemática e teve que repetir de ano.",
             altAnswers: ["Ele reprovou em matemática e teve que repetir de ano.", "Ele foi reprovado em matemática e teve que repetir o ano.", "Ele reprovou em matemática e teve que repetir o ano.", "Ele foi reprovado em matemática e teve de repetir o ano.", "Ele levou bomba em matemática e teve que repetir de ano."],
             explanation: "\"Ser reprovado em\" + subject is to fail it; \"repetir de ano\" (or \"repetir o ano\") is to repeat the year.",
@@ -117,7 +117,7 @@ export const PT_B2_U27: Lesson[] = [
             sentence: "Ela ___ em português.",
             answer: "tirou oito",
             altAnswers: ["tirou 8", "tirou um oito"],
-            explanation: "Marks take \"tirar\": \"tirar oito\", \"tirar nota boa\". English got becomes \"tirou\", never \"pegou\" or \"recebeu\".",
+            explanation: "Grades take \"tirar\": \"tirar oito\", \"tirar nota boa\". English got becomes \"tirou\", never \"pegou\" or \"recebeu\".",
           },
         ],
       },
@@ -127,7 +127,7 @@ export const PT_B2_U27: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My daughter goes to a state school in the afternoon.",
+        source: "My daughter goes to a public school in the afternoon.",
         answer: "A minha filha estuda numa escola pública à tarde.",
         altAnswers: ["Minha filha estuda numa escola pública à tarde.", "A minha filha estuda em uma escola pública à tarde.", "Minha filha estuda em uma escola pública à tarde.", "A minha filha estuda em escola pública à tarde.", "Minha filha estuda em escola pública à tarde."],
         explanation: "Going to a school is \"estudar em\". \"À tarde\" takes a crase, because \"a\" + \"a tarde\".",
@@ -188,7 +188,7 @@ export const PT_B2_U27: Lesson[] = [
         question: "What does it mean?",
         options: ["He had to do resits in two subjects.", "He recovered from two illnesses.", "He passed two subjects easily.", "He dropped two subjects."],
         correctIndex: 0,
-        explanation: "\"Ficar de recuperação\" is to be sent to the resit period. \"Matéria\" is a school subject.",
+        explanation: "\"Ficar de recuperação\" is to be sent to the make-up period. \"Matéria\" is a school subject.",
       },
       {
         type: "dictation",
@@ -198,7 +198,7 @@ export const PT_B2_U27: Lesson[] = [
       {
         type: "speak",
         text: "Meu filho está no nono ano do ensino fundamental.",
-        prompt: "Say it in Portuguese: My son is in the ninth year of primary and middle school.",
+        prompt: "Say it in Portuguese: My son is in the ninth year of elementary and middle school.",
         tip: "Nono is NÔ-nu with a closed o, and fundamental ends in a soft u sound: fun-da-men-TAU.",
         explanation: "\"Estar no\" + ordinal + \"ano\". The ninth year is the last year of \"ensino fundamental\".",
       },
@@ -206,7 +206,7 @@ export const PT_B2_U27: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "a creche", right: "nursery" },
+          { left: "a creche", right: "daycare" },
           { left: "o ensino médio", right: "high school" },
           { left: "o boletim", right: "report card" },
           { left: "a mensalidade", right: "monthly fee" },
@@ -233,7 +233,7 @@ export const PT_B2_U27: Lesson[] = [
           "Places are \"vagas\", and competition is measured as \"candidatos por vaga\": medicine at a federal university can have over a hundred per place. Many students spend a year or two at a \"cursinho\" (a prep course) after high school. Watch the verb: you pass the exam with \"passar em\" (\"passou na Fuvest\"), and you get into a course with \"entrar em\" (\"entrou em medicina\").",
         ],
         examples: [
-          { es: "Ela prestou vestibular para medicina três vezes.", en: "She sat the entrance exam for medicine three times." },
+          { es: "Ela prestou vestibular para medicina três vezes.", en: "She took the entrance exam for medicine three times." },
           { es: "Ele passou na Fuvest e entrou em direito na USP.", en: "He passed the Fuvest and got into law at USP." },
           { es: "A nota do ENEM é usada no Sisu.", en: "The ENEM score is used in Sisu." },
           { es: "O curso de medicina teve 120 candidatos por vaga.", en: "The medicine course had 120 applicants per place." },
@@ -263,7 +263,7 @@ export const PT_B2_U27: Lesson[] = [
       {
         heading: "Federal, particular, cotas, bolsas",
         body: [
-          "The best-known universities are public: \"federais\" (run by the União) and \"estaduais\" (like the USP and the Unicamp, run by São Paulo state). They charge no fees, which surprises English speakers: \"a federal é de graça\". Private universities and \"faculdades\" charge a \"mensalidade\". Government programmes help here: the \"ProUni\" gives full or partial \"bolsas\" (grants) at private institutions, and the \"FIES\" is a student loan.",
+          "The best-known universities are public: \"federais\" (run by the União) and \"estaduais\" (like the USP and the Unicamp, run by São Paulo state). They charge no fees, which surprises English speakers: \"a federal é de graça\". Private universities and \"faculdades\" charge a \"mensalidade\". Government programs help here: the \"ProUni\" gives full or partial \"bolsas\" (grants) at private institutions, and the \"FIES\" is a student loan.",
           "Since the 2012 \"Lei de Cotas\", half the places at federal universities are reserved for students from state high schools, with part of them for Black, brown and Indigenous students and for low-income families. You enter \"pelas cotas\" or \"pela ampla concorrência\" (open competition). The debate around quotas is a classic topic for Celpe-Bras and the ENEM essay, so expect \"embora\" and \"para que\" around it.",
         ],
         examples: [
@@ -295,7 +295,7 @@ export const PT_B2_U27: Lesson[] = [
             type: "speak",
             text: "Ela entrou na federal pelas cotas.",
             prompt: "Say it in Portuguese: She got into the federal university through the quotas.",
-            tip: "Federal ends in a u sound: fe-de-RAU. Cotas has an open o, as in English cot.",
+            tip: "Federal ends in a u sound: fe-de-RAU. Cotas has an open o, like the o in English 'law': CÓ-tas.",
             explanation: "\"Entrar pelas cotas\" names the route in, and \"pela ampla concorrência\" is the open-competition route.",
           },
         ],
@@ -304,12 +304,12 @@ export const PT_B2_U27: Lesson[] = [
         heading: "Once you're in: matrícula, graduação, formatura",
         body: [
           "A university degree is a \"graduação\", so a \"graduando\" is an undergraduate, and anything after it is \"pós-graduação\": \"mestrado\" (master's), \"doutorado\" (PhD), or a shorter \"especialização\" or \"MBA\". English graduate study is \"pós\", never \"graduação\". To graduate is \"se formar\": \"ela se formou em arquitetura\", and \"formado\" means having a degree. The ceremony and party is the \"formatura\".",
-          "You \"fazer a matrícula\" (enrol) each term. If you need a break you \"trancar a matrícula\" (suspend your enrolment), which keeps your place. You \"largar\" or \"abandonar o curso\" when you drop out for good. A freshman is a \"calouro\" and a senior student a \"veterano\", and the \"trote\" (freshman hazing, now mostly charity events) is famous.",
+          "You \"fazer a matrícula\" (enroll) each term. If you need a break you \"trancar a matrícula\" (suspend your enrollment), which keeps your place. You \"largar\" or \"abandonar o curso\" when you drop out for good. A freshman is a \"calouro\" and a senior student a \"veterano\", and the \"trote\" (freshman hazing, increasingly replaced by charity drives and blood donation) is famous.",
         ],
         examples: [
           { es: "Ela se formou em arquitetura pela UFMG.", en: "She graduated in architecture from UFMG." },
           { es: "Ele está fazendo mestrado em economia.", en: "He's doing a master's in economics." },
-          { es: "Eu tranquei a matrícula por um semestre para trabalhar.", en: "I suspended my enrolment for a semester to work." },
+          { es: "Eu tranquei a matrícula por um semestre para trabalhar.", en: "I suspended my enrollment for a semester to work." },
           { es: "A formatura vai ser em dezembro.", en: "The graduation ceremony is going to be in December." },
           { es: "Os calouros foram recebidos pelos veteranos.", en: "The freshmen were welcomed by the older students." },
         ],
@@ -326,7 +326,7 @@ export const PT_B2_U27: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "I'm going to [suspend my enrolment] next semester.",
+            en: "I'm going to [suspend my enrollment] next semester.",
             sentence: "Eu vou ___ no próximo semestre.",
             answer: "trancar a matrícula",
             altAnswers: ["trancar minha matrícula", "trancar a minha matrícula"],
@@ -446,8 +446,8 @@ export const PT_B2_U27: Lesson[] = [
           "\"Quem dera\" and \"eu queria que\" take the imperfect subjunctive for wishes that can't come true now: \"quem dera eu tivesse começado antes\".",
         ],
         examples: [
-          { es: "Se eu tivesse estudado mais no terceiro ano, teria passado.", en: "If I'd studied more in the last year of school, I'd have got in." },
-          { es: "Se eu tivesse treinado a redação, hoje estaria na federal.", en: "If I'd practised the essay, I'd be at the federal university now." },
+          { es: "Se eu tivesse estudado mais no terceiro ano, teria passado.", en: "If I'd studied more in the last year of school, I'd have gotten in." },
+          { es: "Se eu tivesse treinado a redação, hoje estaria na federal.", en: "If I'd practiced the essay, I'd be at the federal university now." },
           { es: "Quem dera eu tivesse levado o ENEM a sério.", en: "If only I'd taken the ENEM seriously." },
           { es: "Meus pais queriam que eu fizesse cursinho desde o segundo ano.", en: "My parents wanted me to do a prep course from the second year." },
           { es: "Fiquei a cinco pontos da nota de corte.", en: "I was five points short of the cut-off score." },
@@ -623,7 +623,7 @@ export const PT_B2_U27: Lesson[] = [
         type: "speak",
         text: "Se eu tivesse começado antes, hoje estaria na federal.",
         prompt: "Say it in Portuguese: If I'd started earlier, I'd be at the federal university today.",
-        tip: "Tivesse: the double ss is a clear s, and the e before it is closed: chi-VE-si.",
+        tip: "Tivesse: the double ss is a clear s, and the e before it is closed: chi-VÊ-si.",
         explanation: "Mixed condition: \"tivesse começado\" (past) with \"estaria\" (present result).",
       },
     ],
@@ -646,7 +646,7 @@ export const PT_B2_U27: Lesson[] = [
         examples: [
           { es: "O Brasil tem três Poderes independentes.", en: "Brazil has three independent branches of government." },
           { es: "A segurança pública é responsabilidade dos estados.", en: "Policing is the responsibility of the states." },
-          { es: "O município cuida das creches e das escolas de ensino fundamental.", en: "The city government looks after nurseries and primary schools." },
+          { es: "O município cuida das creches e das escolas de ensino fundamental.", en: "The city government looks after daycare centers and elementary schools." },
           { es: "O dinheiro foi repassado pela União aos municípios.", en: "The money was passed on by the federal government to the cities." },
           { es: "O Poder Judiciário deve ser independente do Executivo.", en: "The judiciary must be independent of the executive." },
         ],
@@ -676,22 +676,22 @@ export const PT_B2_U27: Lesson[] = [
           "Two traps. \"Prefeito\" is a mayor, not a school prefect, and \"a prefeitura\" is both the city government and the city hall building. And \"ministro\" covers both cabinet ministers and the eleven judges of the \"STF\" (Supremo Tribunal Federal): \"o ministro do STF\" is a Supreme Court justice.",
         ],
         examples: [
-          { es: "A prefeita de Porto Alegre se reuniu com os vereadores.", en: "The mayor of Porto Alegre met the city councillors." },
+          { es: "A prefeita de Porto Alegre se reuniu com os vereadores.", en: "The mayor of Porto Alegre met the city councilors." },
           { es: "Vou na prefeitura tirar uma certidão.", en: "I'm going to the city hall to get a certificate." },
           { es: "O governador foi eleito no primeiro turno.", en: "The governor was elected in the first round." },
           { es: "Ele foi deputado federal por dois mandatos.", en: "He was a federal deputy for two terms." },
           { es: "Cada estado elege três senadores.", en: "Each state elects three senators." },
-          { es: "A decisão foi tomada por um ministro do STF.", en: "The decision was taken by a Supreme Court justice." },
+          { es: "A decisão foi tomada por um ministro do STF.", en: "The decision was made by a Supreme Court justice." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The mayor met the city councillors yesterday.",
+            source: "The mayor met the city councilors yesterday.",
             answer: "O prefeito se reuniu com os vereadores ontem.",
             altAnswers: ["A prefeita se reuniu com os vereadores ontem.", "Ontem o prefeito se reuniu com os vereadores.", "Ontem a prefeita se reuniu com os vereadores.", "O prefeito encontrou os vereadores ontem.", "A prefeita encontrou os vereadores ontem."],
-            explanation: "Mayor is \"prefeito\" (or \"prefeita\"), councillors are \"vereadores\". Meeting formally is \"se reunir com\".",
+            explanation: "Mayor is \"prefeito\" (or \"prefeita\"), councilors are \"vereadores\". Meeting formally is \"se reunir com\".",
           },
           {
             type: "fill-blank",
@@ -706,7 +706,7 @@ export const PT_B2_U27: Lesson[] = [
             type: "listen-choose",
             audio: "O ministro do Supremo votou contra.",
             question: "What does it mean?",
-            options: ["The Supreme Court justice voted against.", "The minister voted in favour.", "The prime minister was voted out.", "The Supreme Court minister resigned."],
+            options: ["The Supreme Court justice voted against.", "The minister voted in favor.", "The prime minister was voted out.", "The Supreme Court minister resigned."],
             correctIndex: 0,
             explanation: "\"Ministro do Supremo\" (or \"do STF\") is one of the eleven Supreme Court justices. \"Votar contra\" is to vote against.",
           },
@@ -721,7 +721,7 @@ export const PT_B2_U27: Lesson[] = [
         examples: [
           { es: "O projeto de lei foi aprovado pela Câmara e segue para o Senado.", en: "The bill was passed by the lower house and now goes to the Senate." },
           { es: "A lei foi sancionada pelo presidente na sexta-feira.", en: "The law was signed by the president on Friday." },
-          { es: "O governador vetou o aumento dos salários.", en: "The governor vetoed the pay rise." },
+          { es: "O governador vetou o aumento dos salários.", en: "The governor vetoed the raise." },
           { es: "O Congresso derrubou o veto por ampla maioria.", en: "Congress overturned the veto by a large majority." },
           { es: "O PL foi rejeitado por 280 votos a 190.", en: "The bill was rejected by 280 votes to 190." },
         ],
@@ -799,16 +799,16 @@ export const PT_B2_U27: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The decision was taken by the Supreme Court.",
+        prompt: "Put the words in order to say: The decision was made by the Supreme Court.",
         words: ["A", "decisão", "foi", "tomada", "pelo", "STF."],
-        translation: "The decision was taken by the Supreme Court.",
+        translation: "The decision was made by the Supreme Court.",
         explanation: "\"Tomar uma decisão\" is to take a decision; in the passive \"foi tomada\", agreeing with \"decisão\".",
       },
       {
         type: "listen-choose",
         audio: "A prefeitura vai reformar todas as creches do município.",
         question: "What does it mean?",
-        options: ["The city government is going to renovate all the city's nurseries.", "The mayor's office is going to close the nurseries.", "The state government is going to build nurseries.", "The city hall is going to be renovated."],
+        options: ["The city government is going to renovate all the city's daycare centers.", "The mayor's office is going to close the daycare centers.", "The state government is going to build daycare centers.", "The city hall is going to be renovated."],
         correctIndex: 0,
         explanation: "\"A prefeitura\" acts here as the city government. \"Reformar\" means to renovate, not to reform.",
       },
@@ -829,7 +829,7 @@ export const PT_B2_U27: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "o prefeito", right: "mayor" },
-          { left: "o vereador", right: "city councillor" },
+          { left: "o vereador", right: "city councilor" },
           { left: "a União", right: "the federal government" },
           { left: "sancionar", right: "to sign into law" },
           { left: "vetar", right: "to veto" },
@@ -857,7 +857,7 @@ export const PT_B2_U27: Lesson[] = [
         examples: [
           { es: "No Brasil, o voto é obrigatório a partir dos dezoito anos.", en: "In Brazil, voting is compulsory from the age of eighteen." },
           { es: "Ela tirou o título de eleitor com dezesseis anos.", en: "She got her voter card at sixteen." },
-          { es: "Eu estava viajando e tive que justificar o voto.", en: "I was travelling and had to justify not voting." },
+          { es: "Eu estava viajando e tive que justificar o voto.", en: "I was traveling and had to justify not voting." },
           { es: "Em quem você vai votar para prefeito?", en: "Who are you going to vote for for mayor?" },
           { es: "Muita gente votou em branco nesta eleição.", en: "Many people left their ballot blank in this election." },
           { es: "Os votos são apurados em poucas horas.", en: "The votes are counted in a few hours." },
@@ -926,7 +926,7 @@ export const PT_B2_U27: Lesson[] = [
         heading: "Campaign, polls and promises",
         body: [
           "A \"campanha\" runs for about six weeks. Parties get free TV and radio time, the \"horário eleitoral\", and debates are a national event. A \"pesquisa eleitoral\" (opinion poll) reports \"intenções de voto\": \"segundo a pesquisa, ela tem 35% das intenções de voto\". \"Pesquisa\" also means research, so context decides.",
-          "Promises are the heart of campaign coverage, and they come in reported speech. \"Vou construir dez escolas\" becomes \"ele prometeu que ia construir dez escolas\" or, more formally, \"que construiria\". A promise in the future subjunctive keeps it: \"prometeu que, se fosse eleito, abriria hospitais\". Asking for a vote is \"pedir voto\".",
+          "Promises are the heart of campaign coverage, and they come in reported speech. \"Vou construir dez escolas\" becomes \"ele prometeu que ia construir dez escolas\" or, more formally, \"que construiria\". A future subjunctive in the promise steps back to the imperfect subjunctive: \"se eu for eleito, vou abrir hospitais\" becomes \"prometeu que, se fosse eleito, abriria hospitais\". Asking for a vote is \"pedir voto\".",
         ],
         examples: [
           { es: "Segundo a pesquisa, os dois candidatos estão empatados.", en: "According to the poll, the two candidates are tied." },
@@ -1083,22 +1083,22 @@ export const PT_B2_U27: Lesson[] = [
         heading: "Manifestação, abaixo-assinado, ONG",
         body: [
           "A \"manifestação\" is a protest or demonstration, not a manifestation; a \"manifestante\" is a protester. An \"abaixo-assinado\" is a petition (literally undersigned), and you \"fazer\" or \"organizar\" one and \"assinar\" it, on paper or online. The plural is \"abaixo-assinados\".",
-          "Civil society also works through \"ONGs\" (NGOs, said as one word, \"ongue\"), the \"associação de moradores\" (residents' association) and \"voluntariado\" (volunteering). You \"fazer trabalho voluntário\" or \"ser voluntário\". Purpose clauses explain why people organise: \"para que\" + subjunctive when the subject changes, \"para\" + infinitive when it doesn't.",
+          "Civil society also works through \"ONGs\" (NGOs, said as one word, \"ongue\"), the \"associação de moradores\" (residents' association) and \"voluntariado\" (volunteering). You \"fazer trabalho voluntário\" or \"ser voluntário\". Purpose clauses explain why people organize: \"para que\" + subjunctive when the subject changes, \"para\" + infinitive when it doesn't.",
         ],
         examples: [
           { es: "Milhares de pessoas participaram da manifestação na Paulista.", en: "Thousands of people took part in the protest on Avenida Paulista." },
-          { es: "A gente fez um abaixo-assinado para que a prefeitura consertasse a praça.", en: "We organised a petition so that the city would repair the square." },
+          { es: "A gente fez um abaixo-assinado para que a prefeitura consertasse a praça.", en: "We organized a petition so that the city would repair the square." },
           { es: "Mais de cinco mil pessoas já assinaram.", en: "More than five thousand people have already signed." },
           { es: "Ela faz trabalho voluntário numa ONG de Salvador.", en: "She does voluntary work at an NGO in Salvador." },
           { es: "A associação de moradores se reúne toda primeira segunda-feira do mês.", en: "The residents' association meets on the first Monday of every month." },
-          { es: "Os manifestantes pediram mais segurança no bairro.", en: "The protesters called for more safety in the neighbourhood." },
+          { es: "Os manifestantes pediram mais segurança no bairro.", en: "The protesters called for more safety in the neighborhood." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We organised a petition so that the city would build a crèche.",
+            source: "We organized a petition so that the city would build a daycare center.",
             answer: "A gente organizou um abaixo-assinado para que a prefeitura construísse uma creche.",
             altAnswers: ["Nós organizamos um abaixo-assinado para que a prefeitura construísse uma creche.", "Organizamos um abaixo-assinado para que a prefeitura construísse uma creche.", "A gente fez um abaixo-assinado para que a prefeitura construísse uma creche.", "Nós fizemos um abaixo-assinado para que a prefeitura construísse uma creche.", "Fizemos um abaixo-assinado para que a prefeitura construísse uma creche."],
             explanation: "\"Para que\" + subjunctive because the subject changes; the main verb is past, so imperfect: \"construísse\".",
@@ -1122,7 +1122,7 @@ export const PT_B2_U27: Lesson[] = [
       {
         heading: "Cobrar, denunciar, reclamar",
         body: [
-          "\"Cobrar\" means to charge money, but in civic talk it means to demand action or hold someone to account: \"cobrar o poder público\" (put pressure on the authorities), \"a população cobra respostas\". \"O poder público\" is the umbrella term for every level of government. A \"denúncia\" is a report of wrongdoing, and \"denunciar\" usually means to report something to the authorities, not just to criticise it.",
+          "\"Cobrar\" means to charge money, but in civic talk it means to demand action or hold someone to account: \"cobrar o poder público\" (put pressure on the authorities), \"a população cobra respostas\". \"O poder público\" is the umbrella term for every level of government. A \"denúncia\" is a report of wrongdoing, and \"denunciar\" usually means to report something to the authorities, not just to criticize it.",
           "Brazilians report problems to the \"ouvidoria\" (ombudsman office) of the \"prefeitura\", the \"Ministério Público\" (public prosecutors) or through a \"protocolo\" (an official request with a number). Concession keeps a complaint fair: \"embora a prefeitura tenha prometido, nada foi feito\", \"mesmo que demore, vamos continuar cobrando\".",
         ],
         examples: [
@@ -1146,7 +1146,7 @@ export const PT_B2_U27: Lesson[] = [
             type: "listen-choose",
             audio: "Ele denunciou a obra irregular à prefeitura.",
             question: "What does it mean?",
-            options: ["He reported the illegal building work to the city.", "He criticised the city's building work on TV.", "He asked the city for building permission.", "He gave up the building work."],
+            options: ["He reported the illegal building work to the city.", "He criticized the city's building work on TV.", "He asked the city for building permission.", "He gave up the building work."],
             correctIndex: 0,
             explanation: "\"Denunciar\" means to report to an authority. \"Obra irregular\" is building work without a permit.",
           },
@@ -1217,7 +1217,7 @@ export const PT_B2_U27: Lesson[] = [
         type: "listen-choose",
         audio: "A associação de moradores fez uma reunião ontem.",
         question: "What does it mean?",
-        options: ["The residents' association held a meeting yesterday.", "The residents moved out yesterday.", "The neighbourhood held a party yesterday.", "The city council met the residents yesterday."],
+        options: ["The residents' association held a meeting yesterday.", "The residents moved out yesterday.", "The neighborhood held a party yesterday.", "The city council met the residents yesterday."],
         correctIndex: 0,
         explanation: "\"Associação de moradores\" is a residents' association. \"Fazer uma reunião\" is to hold a meeting.",
       },
@@ -1266,7 +1266,7 @@ export const PT_B2_U27: Lesson[] = [
         examples: [
           { es: "Boa noite a todos, obrigada por terem vindo.", en: "Good evening, everyone, thank you for coming." },
           { es: "É importante que vocês acompanhem o dever de casa.", en: "It's important that you keep an eye on the homework." },
-          { es: "Peço que olhem a agenda todos os dias.", en: "I'd ask you to check the homework diary every day." },
+          { es: "Peço que olhem a agenda todos os dias.", en: "I'd ask you to check the homework planner every day." },
           { es: "Embora eu queira ajudar, eu chego em casa às nove.", en: "Although I want to help, I get home at nine." },
           { es: "Pode ajudar, desde que ele tente fazer sozinho primeiro.", en: "You can help, as long as he tries to do it on his own first." },
         ],
@@ -1300,7 +1300,7 @@ export const PT_B2_U27: Lesson[] = [
       {
         heading: "Phones in class",
         body: [
-          "Next comes the hot topic: phones. Since 2025, a federal law has restricted pupils' use of phones at school, and Professora Cláudia explains how her school applies it. Phones stay \"desligados na mochila\" and are only used \"para fins pedagógicos\" (for teaching). A mother, Dona Sônia, worries: \"e se acontecer alguma coisa?\" The future subjunctive after \"se\" carries the worry.",
+          "Next comes the hot topic: phones. Since 2025, a federal law has restricted students' use of phones at school, and Professora Cláudia explains how her school applies it. Phones stay \"desligados na mochila\" and are only used \"para fins pedagógicos\" (for teaching). A mother, Dona Sônia, worries: \"e se acontecer alguma coisa?\" The future subjunctive after \"se\" carries the worry.",
           "The teacher reassures her with \"caso\" + present subjunctive and the passive: \"caso haja uma emergência, os pais são avisados pela secretaria\". The \"secretaria\" is the school office. Watch \"pedagógico\": it's a normal word in Brazilian schools, unlike English pedagogical.",
         ],
         examples: [
@@ -1308,7 +1308,7 @@ export const PT_B2_U27: Lesson[] = [
           { es: "Só pode usar para fins pedagógicos, com autorização do professor.", en: "They can only be used for teaching purposes, with the teacher's permission." },
           { es: "E se acontecer alguma coisa com o meu filho?", en: "And what if something happens to my son?" },
           { es: "Caso haja uma emergência, os pais são avisados pela secretaria.", en: "In case of an emergency, parents are informed by the school office." },
-          { es: "Desde que a regra começou, as crianças estão conversando mais no recreio.", en: "Since the rule started, the children have been talking more at break." },
+          { es: "Desde que a regra começou, as crianças estão conversando mais no recreio.", en: "Since the rule started, the children have been talking more at recess." },
           { es: "Eu preferia que eles pudessem ligar na hora do almoço.", en: "I'd rather they could call at lunchtime." },
         ],
         checkpoint: [
@@ -1343,13 +1343,13 @@ export const PT_B2_U27: Lesson[] = [
       {
         heading: "Safety at the gate, and the wrap-up",
         body: [
-          "The last item is the \"saída\", home time at the school gate, where cars double-park and children cross the street. Seu Roberto proposes asking the city for a crossing guard: \"a gente podia fazer um pedido à prefeitura para que mandem um agente de trânsito\". \"Para que\" + subjunctive states the purpose.",
+          "The last item is the \"saída\", pickup time at the school gate, where cars double-park and children cross the street. Seu Roberto proposes asking the city for a crossing guard: \"a gente podia fazer um pedido à prefeitura para que mandem um agente de trânsito\". \"Para que\" + subjunctive states the purpose.",
           "Professora Cláudia closes with a summary in reported speech: \"ficou combinado que\" (it was agreed that) and \"ficou decidido que\" are the standard minutes-of-a-meeting phrases. She thanks everyone with \"obrigada pela presença\", and as a woman she says \"obrigada\".",
         ],
         examples: [
-          { es: "Na saída é uma confusão, com carro parado em fila dupla.", en: "At home time it's chaos, with cars double-parked." },
+          { es: "Na saída é uma confusão, com carro parado em fila dupla.", en: "At pickup time it's chaos, with cars double-parked." },
           { es: "A gente podia pedir à prefeitura que mandasse um agente de trânsito.", en: "We could ask the city to send a traffic officer." },
-          { es: "Vamos fazer um ofício para que a prefeitura pinte a faixa de pedestres.", en: "Let's write an official letter so the city paints a zebra crossing." },
+          { es: "Vamos fazer um ofício para que a prefeitura pinte a faixa de pedestres.", en: "Let's write an official letter so the city paints a crosswalk." },
           { es: "Ficou combinado que os pais vão revezar na porta da escola.", en: "It was agreed that parents will take turns at the school door." },
           { es: "Obrigada pela presença de todos.", en: "Thank you all for coming." },
         ],
@@ -1378,10 +1378,10 @@ export const PT_B2_U27: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'd ask you to check the homework diary every day.",
+        source: "I'd ask you to check the homework planner every day.",
         answer: "Peço que vocês olhem a agenda todos os dias.",
         altAnswers: ["Peço que olhem a agenda todos os dias.", "Peço que vocês olhem a agenda todo dia.", "Peço que olhem a agenda todo dia.", "Peço que vocês vejam a agenda todos os dias.", "Peço que vejam a agenda todos os dias."],
-        explanation: "\"Pedir que\" + present subjunctive: \"olhem\". The school \"agenda\" is the homework diary.",
+        explanation: "\"Pedir que\" + present subjunctive: \"olhem\". The school \"agenda\" is the homework planner.",
       },
       {
         type: "translate",
@@ -1396,10 +1396,10 @@ export const PT_B2_U27: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We're going to ask the city to paint a zebra crossing.",
+        source: "We're going to ask the city to paint a crosswalk.",
         answer: "Vamos pedir à prefeitura que pinte uma faixa de pedestres.",
         altAnswers: ["A gente vai pedir à prefeitura que pinte uma faixa de pedestres.", "Vamos pedir para a prefeitura pintar uma faixa de pedestres.", "A gente vai pedir para a prefeitura pintar uma faixa de pedestres.", "Nós vamos pedir à prefeitura que pinte uma faixa de pedestres.", "Vamos pedir à prefeitura para pintar uma faixa de pedestres."],
-        explanation: "\"Pedir a alguém que\" + subjunctive, or in speech \"pedir para alguém\" + infinitive. A zebra crossing is a \"faixa de pedestres\".",
+        explanation: "\"Pedir a alguém que\" + subjunctive, or in speech \"pedir para alguém\" + infinitive. A crosswalk is a \"faixa de pedestres\".",
       },
       {
         type: "fill-blank",
@@ -1468,7 +1468,7 @@ export const PT_B2_U27: Lesson[] = [
         heading: "Colégio, faculdade, universidade",
         body: [
           "\"Colégio\" is a school for children and teenagers, usually private: \"o Colégio Santo Inácio\". It is never a college. College in the American sense is \"faculdade\": \"fazer faculdade\" (go to college), \"na época da faculdade\" (in my college days). \"Faculdade\" is also a faculty inside a university (\"Faculdade de Direito\") and a smaller institution of higher education.",
-          "\"Universidade\" is the big institution with many faculties, and in speech Brazilians often say \"a facul\" or just \"a federal\" for it. A \"curso\" is your degree programme: \"meu curso é de cinco anos\" (my degree takes five years), \"curso de engenharia\". English course in the sense of one subject is a \"disciplina\".",
+          "\"Universidade\" is the big institution with many faculties, and in speech Brazilians often say \"a facul\" or just \"a federal\" for it. A \"curso\" is your degree program: \"meu curso é de cinco anos\" (my degree takes five years), \"curso de engenharia\". English course in the sense of one subject is a \"disciplina\".",
         ],
         examples: [
           { es: "Eu estudei num colégio de freiras em Curitiba.", en: "I went to a convent school in Curitiba." },
@@ -1531,7 +1531,7 @@ export const PT_B2_U27: Lesson[] = [
             type: "listen-choose",
             audio: "Ele é aluno de pós.",
             question: "What does it mean?",
-            options: ["He's a graduate student.", "He's an undergraduate.", "He's a former student.", "He's a primary pupil."],
+            options: ["He's a graduate student.", "He's an undergraduate.", "He's a former student.", "He's an elementary school student."],
             correctIndex: 0,
             explanation: "\"Pós\" is short for \"pós-graduação\", study after the first degree.",
           },
@@ -1540,23 +1540,23 @@ export const PT_B2_U27: Lesson[] = [
       {
         heading: "Nota, matéria, disciplina, aula, turma, professor",
         body: [
-          "\"A nota\" is a mark or grade (\"tirei nota baixa\"), and also a banknote. \"A matéria\" is a school subject (\"matemática é a minha matéria preferida\"), the material for a test (\"a matéria da prova\") and a news article. At university, a subject on the timetable is a \"disciplina\". \"Aula\" is a lesson or class session, and \"turma\" is a class as a group of students: \"a minha turma é muito unida\".",
+          "\"A nota\" is a mark or grade (\"tirei nota baixa\"), and also a banknote. \"A matéria\" is a school subject (\"matemática é a minha matéria preferida\"), the material for a test (\"a matéria da prova\") and a news article. At university, a subject on the schedule is a \"disciplina\". \"Aula\" is a lesson or class session, and \"turma\" is a class as a group of students: \"a minha turma é muito unida\".",
           "\"Professor\" is any teacher, from the \"pré-escola\" to the university, so \"a professora do meu filho\" teaches a six-year-old. There is no special word for a university professor; titles like \"doutor\" appear only on official occasions. To lecture is \"dar aula\", and to take a class is \"assistir à aula\" or simply \"ter aula\".",
         ],
         examples: [
           { es: "Qual é a matéria da prova de amanhã?", en: "What's on tomorrow's test?" },
           { es: "Neste semestre eu tenho seis disciplinas.", en: "This semester I'm taking six courses." },
           { es: "A professora do meu filho é ótima.", en: "My son's teacher is great." },
-          { es: "Hoje eu não tenho aula, a professora faltou.", en: "I don't have class today, the teacher's off." },
+          { es: "Hoje eu não tenho aula, a professora faltou.", en: "I don't have class today, the teacher's out." },
           { es: "A nossa turma vai fazer uma viagem para Ouro Preto.", en: "Our class is going on a trip to Ouro Preto." },
-          { es: "Ele dá aula de história numa escola estadual.", en: "He teaches history at a state school." },
+          { es: "Ele dá aula de história numa escola estadual.", en: "He teaches history at a public school." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "She teaches maths at a state school.",
+            source: "She teaches math at a public school.",
             answer: "Ela dá aula de matemática numa escola estadual.",
             altAnswers: ["Ela dá aula de matemática em uma escola estadual.", "Ela dá aulas de matemática numa escola estadual.", "Ela é professora de matemática numa escola estadual.", "Ela é professora de matemática em uma escola estadual.", "Ela dá aula de matemática numa escola pública."],
             explanation: "To teach a subject is \"dar aula de\". \"Ensinar\" is correct too but less common for a job.",
@@ -1590,7 +1590,7 @@ export const PT_B2_U27: Lesson[] = [
         source: "I got a low mark in physics.",
         answer: "Eu tirei nota baixa em física.",
         altAnswers: ["Tirei nota baixa em física.", "Eu tirei uma nota baixa em física.", "Tirei uma nota baixa em física."],
-        explanation: "Marks are \"notas\", and you \"tirar\" them.",
+        explanation: "Grades are \"notas\", and you \"tirar\" them.",
       },
       {
         type: "translate",
@@ -1631,15 +1631,15 @@ export const PT_B2_U27: Lesson[] = [
         prompt: "Put the words in order to say: My degree takes four years.",
         words: ["O", "meu", "curso", "dura", "quatro", "anos."],
         translation: "My degree takes four years.",
-        explanation: "\"Curso\" is the whole degree programme. \"Durar\" is to last.",
+        explanation: "\"Curso\" is the whole degree program. \"Durar\" is to last.",
       },
       {
         type: "listen-choose",
         audio: "Hoje não tem aula porque o professor está doente.",
         question: "What does it mean?",
-        options: ["There's no class today because the teacher is ill.", "The teacher has no classroom today.", "There's no school today because of a strike.", "The professor is giving a lecture on illness."],
+        options: ["There's no class today because the teacher is sick.", "The teacher has no classroom today.", "There's no school today because of a strike.", "The professor is giving a lecture on illness."],
         correctIndex: 0,
-        explanation: "\"Aula\" is the class session. \"Não tem aula\" is the everyday way to say it's cancelled.",
+        explanation: "\"Aula\" is the class session. \"Não tem aula\" is the everyday way to say it's canceled.",
       },
       {
         type: "dictation",
@@ -1649,8 +1649,8 @@ export const PT_B2_U27: Lesson[] = [
       {
         type: "speak",
         text: "Na época da faculdade, eu dividia apartamento com três amigos.",
-        prompt: "Say it in Portuguese: In my college days, I shared a flat with three friends.",
-        tip: "Faculdade ends in dji: fa-kul-DA-dji.",
+        prompt: "Say it in Portuguese: In my college days, I shared an apartment with three friends.",
+        tip: "Faculdade ends in dji: fa-kuw-DA-dji, with the l before d sounding like a w.",
         explanation: "\"Na época da faculdade\" is the standard way to say in my college days.",
       },
       {
@@ -1660,7 +1660,7 @@ export const PT_B2_U27: Lesson[] = [
           { left: "a turma", right: "class (the group)" },
           { left: "a aula", right: "class (the lesson)" },
           { left: "a disciplina", right: "university course" },
-          { left: "o curso", right: "degree programme" },
+          { left: "o curso", right: "degree program" },
           { left: "o colégio", right: "school" },
           { left: "a faculdade", right: "college" },
         ],
@@ -1686,7 +1686,7 @@ export const PT_B2_U27: Lesson[] = [
         ],
         examples: [
           { es: "O orçamento foi aprovado pela Câmara Municipal.", en: "The budget was passed by the city council." },
-          { es: "Foram eleitos 21 vereadores em Florianópolis.", en: "Twenty-one councillors were elected in Florianópolis." },
+          { es: "Foram eleitos 21 vereadores na cidade.", en: "Twenty-one city councilors were elected in the city." },
           { es: "Discute-se uma nova lei para o transporte por aplicativo.", en: "A new law on ride-hailing is being discussed." },
           { es: "Veto derrubado: a lei entra em vigor em janeiro.", en: "Veto overturned: the law comes into force in January." },
           { es: "A proposta foi rejeitada por 40 votos a 33.", en: "The proposal was rejected by 40 votes to 33." },
@@ -1716,9 +1716,9 @@ export const PT_B2_U27: Lesson[] = [
         ],
         examples: [
           { es: "O governador garantiu que as obras seriam concluídas em março.", en: "The governor gave assurances that the works would be finished in March." },
-          { es: "Segundo o ministro, o programa vai atender dois milhões de famílias.", en: "According to the minister, the programme will help two million families." },
+          { es: "Segundo o ministro, o programa vai atender dois milhões de famílias.", en: "According to the minister, the program will help two million families." },
           { es: "O deputado negou que tivesse recebido dinheiro.", en: "The deputy denied having received money." },
-          { es: "A oposição criticou a decisão do STF.", en: "The opposition criticised the Supreme Court's decision." },
+          { es: "A oposição criticou a decisão do STF.", en: "The opposition criticized the Supreme Court's decision." },
           { es: "A prefeita anunciou que vai concorrer à reeleição.", en: "The mayor announced she will run for re-election." },
         ],
         checkpoint: [
@@ -1739,7 +1739,7 @@ export const PT_B2_U27: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[According to] the minister, the programme will help two million families.",
+            en: "[According to] the minister, the program will help two million families.",
             sentence: "___ o ministro, o programa vai atender dois milhões de famílias.",
             answer: "Segundo",
             altAnswers: ["De acordo com", "Conforme"],
@@ -1799,7 +1799,7 @@ export const PT_B2_U27: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The budget was rejected by the councillors.",
+        source: "The budget was rejected by the councilors.",
         answer: "O orçamento foi rejeitado pelos vereadores.",
         altAnswers: ["Os vereadores rejeitaram o orçamento."],
         explanation: "\"Pelos\" = por + os, for a plural agent. \"Orçamento\" is masculine, so \"rejeitado\".",
@@ -1844,7 +1844,7 @@ export const PT_B2_U27: Lesson[] = [
         type: "listen-choose",
         audio: "A oposição criticou a decisão, mas o governo garantiu que vai recorrer.",
         question: "What does it mean?",
-        options: ["The opposition criticised the decision, but the government said it will appeal.", "The opposition and the government both appealed.", "The government criticised the opposition's decision.", "The opposition guaranteed it would accept the decision."],
+        options: ["The opposition criticized the decision, but the government said it will appeal.", "The opposition and the government both appealed.", "The government criticized the opposition's decision.", "The opposition guaranteed it would accept the decision."],
         correctIndex: 0,
         explanation: "\"Garantir\" is to assure, and \"recorrer\" is to appeal a decision.",
       },
@@ -1869,7 +1869,7 @@ export const PT_B2_U27: Lesson[] = [
     level: "PT-B2",
     number: 10,
     title: "Thematic Review: O Abaixo-Assinado",
-    summary: "Residents of a Fortaleza neighbourhood campaign for a new bus line: their formal request to the Câmara Municipal, a councillor's promises in reported speech, and what would be different if the line existed.",
+    summary: "Residents of a Fortaleza neighborhood campaign for a new bus line: their formal request to the Câmara Municipal, a councilor's promises in reported speech, and what would be different if the line existed.",
     duration: "15 min",
     kind: "review",
     format: "Thematic review",
@@ -1877,12 +1877,12 @@ export const PT_B2_U27: Lesson[] = [
       {
         heading: "The request to the Câmara",
         body: [
-          "In Messejana, on the edge of Fortaleza, residents spend up to two hours getting to the centre, and the residents' association has collected 4,000 signatures for a new bus line. Their request to the \"Câmara Municipal\" uses the formal register: \"vimos, por meio deste, solicitar\" (we hereby request), and \"solicitamos que seja criada uma linha\", a passive in the present subjunctive after a request.",
-          "The reasons come with formal cause connectors, \"uma vez que\" and \"visto que\" + indicative, and the purpose with \"a fim de que\" + subjunctive. Councillors are addressed as \"Vossa Excelência\" in official letters, with the verb in the third person: \"pedimos que Vossa Excelência apoie\".",
+          "In Messejana, on the edge of Fortaleza, residents spend up to two hours getting to the center, and the residents' association has collected 4,000 signatures for a new bus line. Their request to the \"Câmara Municipal\" uses the formal register: \"vimos, por meio deste, solicitar\" (we hereby request), and \"solicitamos que seja criada uma linha\", a passive in the present subjunctive after a request.",
+          "The reasons come with formal cause connectors, \"uma vez que\" and \"visto que\" + indicative, and the purpose with \"a fim de que\" + subjunctive. Councilors are addressed as \"Vossa Excelência\" in official letters, with the verb in the third person: \"pedimos que Vossa Excelência apoie\".",
         ],
         examples: [
           { es: "Nós, moradores de Messejana, vimos, por meio deste, solicitar a criação de uma nova linha de ônibus.", en: "We, the residents of Messejana, hereby request the creation of a new bus line." },
-          { es: "Solicitamos que seja criada uma linha direta até o centro.", en: "We request that a direct line to the centre be created." },
+          { es: "Solicitamos que seja criada uma linha direta até o centro.", en: "We request that a direct line to the center be created." },
           { es: "Uma vez que não há linha direta, os moradores levam até duas horas para chegar ao trabalho.", en: "Since there is no direct line, residents take up to two hours to get to work." },
           { es: "Pedimos que Vossa Excelência apoie o projeto na próxima sessão.", en: "We ask that you support the proposal at the next session." },
           { es: "O documento foi assinado por mais de quatro mil moradores.", en: "The document was signed by more than four thousand residents." },
@@ -1909,13 +1909,13 @@ export const PT_B2_U27: Lesson[] = [
         ],
       },
       {
-        heading: "What the councillor promised",
+        heading: "What the councilor promised",
         body: [
           "The association meets Vereador Antônio Melo, and the minutes report his promises. \"Vou levar o pedido à sessão\" becomes \"o vereador prometeu que levaria o pedido à sessão\". A time clause in the future subjunctive moves into the imperfect subjunctive: \"assim que eu receber\" becomes \"assim que recebesse\".",
           "The idiom \"ficar de\" + infinitive from Unit 11 is the everyday way to report a promise: \"ele ficou de conversar com a empresa de ônibus\". Two months later, the residents \"cobram\" him: \"o senhor disse que nos daria uma resposta em trinta dias\".",
         ],
         examples: [
-          { es: "O vereador prometeu que levaria o pedido à próxima sessão.", en: "The councillor promised he would take the request to the next session." },
+          { es: "O vereador prometeu que levaria o pedido à próxima sessão.", en: "The councilor promised he would take the request to the next session." },
           { es: "Ele disse que, assim que recebesse o documento, marcaria uma audiência.", en: "He said that as soon as he received the document, he would arrange a hearing." },
           { es: "Ele ficou de conversar com a empresa de ônibus.", en: "He said he'd talk to the bus company." },
           { es: "O senhor disse que nos daria uma resposta em trinta dias.", en: "You said you would give us an answer within thirty days." },
@@ -1934,7 +1934,7 @@ export const PT_B2_U27: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The councillor said: 'Assim que eu receber o documento, marco a audiência.' How do the minutes report it?",
+            question: "The councilor said: 'Assim que eu receber o documento, marco a audiência.' How do the minutes report it?",
             options: ["Ele disse que, assim que recebesse o documento, marcaria a audiência.", "Ele disse que, assim que receber o documento, marcaria a audiência.", "Ele disse que, assim que recebeu o documento, marca a audiência.", "Ele disse que, assim que recebia o documento, marcou a audiência."],
             correctIndex: 0,
             explanation: "In reported speech, the future subjunctive \"receber\" shifts to the imperfect subjunctive \"recebesse\", and the result to the conditional.",
@@ -2013,7 +2013,7 @@ export const PT_B2_U27: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "We ask that you [support] the proposal. (formal letter to a councillor)",
+        en: "We ask that you [support] the proposal. (formal letter to a councilor)",
         sentence: "Pedimos que Vossa Excelência ___ o projeto.",
         answer: "apoie",
         explanation: "\"Vossa Excelência\" takes the third person, and \"pedir que\" the present subjunctive: \"apoie\".",
@@ -2068,7 +2068,7 @@ export const PT_B2_U27: Lesson[] = [
     level: "PT-B2",
     number: 11,
     title: "Real-World Mission: Write to Your Vereador",
-    summary: "Write a formal message to a city councillor asking for one concrete improvement: introduce yourself, explain the problem with reasons and figures, make a clear request and close politely.",
+    summary: "Write a formal message to a city councilor asking for one concrete improvement: introduce yourself, explain the problem with reasons and figures, make a clear request and close politely.",
     duration: "15 min",
     kind: "reinforce",
     format: "Real-world mission",
@@ -2076,13 +2076,13 @@ export const PT_B2_U27: Lesson[] = [
       {
         heading: "Greeting and who you are",
         body: [
-          "Your mission: you live in Belo Horizonte, the square near your home has no lighting, and you want your \"vereadora\", Cristina Alves, to take it up. An email to a councillor is semi-formal: open with \"Prezada Vereadora Cristina Alves\" (\"Excelentíssima Senhora\" is for very official letters) and use \"a senhora\" or \"Vossa Excelência\", never \"você\".",
+          "Your mission: you live in Belo Horizonte, the square near your home has no lighting, and you want your \"vereadora\", Cristina Alves, to take it up. An email to a councilor is semi-formal: open with \"Prezada Vereadora Cristina Alves\" (\"Excelentíssima Senhora\" is for very official letters) and use \"a senhora\" or \"Vossa Excelência\", never \"você\".",
           "Then say who you are and why you're writing: \"Meu nome é..., moro no bairro Santa Tereza há dez anos\", with \"há\" for how long. \"Venho por meio desta mensagem\" + infinitive (I am writing to) is the standard formal start. Keep \"desta\" (this message), feminine, after \"mensagem\".",
         ],
         examples: [
-          { es: "Prezada Vereadora Cristina Alves,", en: "Dear Councillor Cristina Alves," },
+          { es: "Prezada Vereadora Cristina Alves,", en: "Dear Councilor Cristina Alves," },
           { es: "Meu nome é Rafael Souza e moro no bairro Santa Tereza há dez anos.", en: "My name is Rafael Souza and I've lived in Santa Tereza for ten years." },
-          { es: "Venho por meio desta mensagem pedir o seu apoio para um problema do bairro.", en: "I am writing to ask for your support with a problem in the neighbourhood." },
+          { es: "Venho por meio desta mensagem pedir o seu apoio para um problema do bairro.", en: "I am writing to ask for your support with a problem in the neighborhood." },
           { es: "Sei que a senhora tem uma agenda cheia, por isso serei breve.", en: "I know your schedule is busy, so I'll be brief." },
           { es: "Escrevo em nome da associação de moradores.", en: "I am writing on behalf of the residents' association." },
         ],
@@ -2091,14 +2091,14 @@ export const PT_B2_U27: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I have lived in this neighbourhood for fifteen years.",
+            source: "I have lived in this neighborhood for fifteen years.",
             answer: "Moro neste bairro há quinze anos.",
             altAnswers: ["Eu moro neste bairro há quinze anos.", "Moro nesse bairro há quinze anos.", "Eu moro nesse bairro há quinze anos.", "Moro neste bairro há 15 anos.", "Eu moro neste bairro há 15 anos.", "Vivo neste bairro há quinze anos."],
             explanation: "Portuguese uses the present + \"há\" for something still going on. English have lived is not \"tenho morado\" here.",
           },
           {
             type: "multiple-choice",
-            question: "Which sentence fits an email to a city councillor?",
+            question: "Which sentence fits an email to a city councilor?",
             options: ["Venho por meio desta mensagem pedir o seu apoio.", "Oi, tudo bem? Queria te pedir uma força.", "E aí, vereadora, beleza?", "Você podia me dar uma mão aí?"],
             correctIndex: 0,
             explanation: "\"Venho por meio desta mensagem\" + infinitive is the formal opening. \"Te\", \"uma força\" and \"beleza\" are for friends.",
@@ -2156,10 +2156,10 @@ export const PT_B2_U27: Lesson[] = [
         ],
         examples: [
           { es: "Solicito que sejam instalados novos postes na praça.", en: "I request that new lampposts be installed in the square." },
-          { es: "Seria fundamental que a obra fosse feita antes das férias escolares.", en: "It would be essential for the work to be done before the school holidays." },
+          { es: "Seria fundamental que a obra fosse feita antes das férias escolares.", en: "It would be essential for the work to be done before the school vacation." },
           { es: "Gostaria de saber se seria possível marcar uma visita ao local.", en: "I'd like to know whether it would be possible to arrange a visit to the site." },
           { es: "Desde já agradeço a atenção.", en: "Thank you in advance for your attention." },
-          { es: "Fico à disposição para mais informações. Atenciosamente, Rafael Souza", en: "I'm available for any further information. Yours sincerely, Rafael Souza" },
+          { es: "Fico à disposição para mais informações. Atenciosamente, Rafael Souza", en: "I'm available for any further information. Sincerely, Rafael Souza" },
         ],
         checkpoint: [
           {
@@ -2220,7 +2220,7 @@ export const PT_B2_U27: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you sign off a formal email to a councillor?",
+        question: "How do you sign off a formal email to a councilor?",
         options: ["Atenciosamente,", "Beijos,", "Abração,", "Valeu,"],
         correctIndex: 0,
         explanation: "\"Atenciosamente\" is the neutral formal close. \"Cordialmente\" is also fine; the others are for friends.",
@@ -2266,7 +2266,7 @@ export const PT_B2_U27: Lesson[] = [
       {
         type: "speak",
         text: "Prezada Vereadora, venho por meio desta mensagem pedir o seu apoio.",
-        prompt: "Say it in Portuguese: Dear Councillor, I am writing to ask for your support.",
+        prompt: "Say it in Portuguese: Dear Councilor, I am writing to ask for your support.",
         tip: "Prezada: the z is voiced, pre-ZA-da.",
         explanation: "\"Prezada\" + title is the standard semi-formal greeting.",
       },
@@ -2289,11 +2289,11 @@ export const PT_B2_U27: Lesson[] = [
           "Impersonal expressions take the subjunctive: \"é fundamental que todas as escolas tenham internet\".",
         ],
         examples: [
-          { es: "É fundamental que todas as escolas públicas tenham internet.", en: "It's essential that all state schools have internet." },
+          { es: "É fundamental que todas as escolas públicas tenham internet.", en: "It's essential that all public schools have internet." },
           { es: "Ela foi a primeira da família a se formar.", en: "She was the first in her family to graduate." },
-          { es: "Se ele tivesse feito cursinho, talvez tivesse passado.", en: "If he'd done a prep course, he might have got in." },
+          { es: "Se ele tivesse feito cursinho, talvez tivesse passado.", en: "If he'd done a prep course, he might have gotten in." },
           { es: "Embora estude de manhã, ela almoça na escola.", en: "Although she studies in the morning, she has lunch at school." },
-          { es: "Ele entrou na federal pelas cotas e se formou com louvor.", en: "He got into the federal university through the quotas and graduated with honours." },
+          { es: "Ele entrou na federal pelas cotas e se formou com louvor.", en: "He got into the federal university through the quotas and graduated with honors." },
         ],
         checkpoint: [
           {
@@ -2323,9 +2323,9 @@ export const PT_B2_U27: Lesson[] = [
         ],
         examples: [
           { es: "O projeto foi aprovado pelo Senado, mas ainda pode ser vetado.", en: "The bill was passed by the Senate, but it can still be vetoed." },
-          { es: "A candidata prometeu que construiria cinquenta creches.", en: "The candidate promised she would build fifty nurseries." },
+          { es: "A candidata prometeu que construiria cinquenta creches.", en: "The candidate promised she would build fifty daycare centers." },
           { es: "Se ninguém tiver maioria, vai ter segundo turno.", en: "If nobody has a majority, there will be a runoff." },
-          { es: "Em quem você votou para vereador?", en: "Who did you vote for for councillor?" },
+          { es: "Em quem você votou para vereador?", en: "Who did you vote for for councilor?" },
           { es: "A lei foi sancionada sem vetos.", en: "The law was signed without vetoes." },
         ],
         checkpoint: [
@@ -2333,7 +2333,7 @@ export const PT_B2_U27: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The candidate promised that she would build fifty nurseries.",
+            source: "The candidate promised that she would build fifty daycare centers.",
             answer: "A candidata prometeu que construiria cinquenta creches.",
             altAnswers: ["A candidata prometeu que ia construir cinquenta creches.", "A candidata prometeu construir cinquenta creches.", "A candidata prometeu que construiria 50 creches.", "A candidata prometeu que ia construir 50 creches."],
             explanation: "Reported promise: conditional \"construiria\" or \"ia construir\".",
@@ -2354,7 +2354,7 @@ export const PT_B2_U27: Lesson[] = [
           "Reminders: \"direitos e deveres\", \"manifestação\", \"abaixo-assinado\", \"ONG\", \"denunciar\", \"cobrar o poder público\". Purpose with \"para que\" + subjunctive; concession with \"embora\" and \"mesmo que\".",
         ],
         examples: [
-          { es: "Fizemos um abaixo-assinado para que a rua fosse asfaltada.", en: "We organised a petition so that the street would be paved." },
+          { es: "Fizemos um abaixo-assinado para que a rua fosse asfaltada.", en: "We organized a petition so that the street would be paved." },
           { es: "Mesmo que a prefeitura não responda, vamos continuar cobrando.", en: "Even if the city doesn't reply, we'll keep up the pressure." },
           { es: "A manifestação foi pacífica e terminou às oito.", en: "The protest was peaceful and ended at eight." },
           { es: "Ela denunciou a escola por falta de acessibilidade.", en: "She reported the school for lack of accessibility." },
@@ -2420,7 +2420,7 @@ export const PT_B2_U27: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "We organised a petition [so that the city would repair] the school.",
+        en: "We organized a petition [so that the city would repair] the school.",
         sentence: "Fizemos um abaixo-assinado ___ a escola.",
         answer: "para que a prefeitura reformasse",
         altAnswers: ["para que a prefeitura consertasse", "para a prefeitura reformar", "para a prefeitura consertar"],
@@ -2485,7 +2485,7 @@ export const PT_B2_U27: Lesson[] = [
 
 export const PT_B2_U27_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your neighbourhood's municipal primary school has no full-day option, and many parents can't pick their children up at midday. Write a formal email to a city councillor (vereador or vereadora) asking for full-day classes at the school. Say who you are, describe the problem with reasons, mention what has already been tried, make one clear request, and close politely.",
+  prompt: "Your neighborhood's municipal elementary school has no full-day option, and many parents can't pick their children up at midday. Write a formal email to a city councilor (vereador or vereadora) asking for full-day classes at the school. Say who you are, describe the problem with reasons, mention what has already been tried, make one clear request, and close politely.",
   minWords: 140,
   maxWords: 220,
   rubric: [
@@ -2495,5 +2495,5 @@ export const PT_B2_U27_WRITING: WriteExercise = {
     "Makes a clear request with \"solicito que\" + subjunctive, ideally in the passive (\"que seja implantado\")",
   ],
   modelAnswer: "Prezada Vereadora Cristina Alves,\n\nMeu nome é Beatriz Lima, sou mãe de dois alunos da Escola Municipal Padre Eustáquio e moro no bairro há doze anos. Venho por meio desta mensagem pedir o seu apoio para um problema que afeta centenas de famílias.\n\nA escola atende cerca de quatrocentas crianças do ensino fundamental, mas funciona só em meio período. Uma vez que a maioria dos pais trabalha até as seis da tarde, muitas crianças ficam sozinhas em casa depois do almoço. Embora a escola tenha espaço e uma cozinha nova, não há verba para oferecer período integral.\n\nNo ano passado, a associação de moradores fez um abaixo-assinado com mais de dois mil nomes, que foi entregue à Secretaria Municipal de Educação. Na época, nos prometeram que o pedido seria analisado em seis meses, mas até agora não recebemos nenhuma resposta.\n\nPor isso, solicito que a senhora leve o caso à Câmara e que seja implantado o período integral na escola a partir do próximo ano. Seria fundamental que o poder público ouvisse as famílias antes de tomar uma decisão.\n\nDesde já agradeço a atenção e fico à disposição para mais informações.\n\nAtenciosamente,\nBeatriz Lima",
-  explanation: "A formal request rests on three structures. Requests and evaluations take the subjunctive: \"solicito que a senhora leve\", \"que seja implantado\" (a passive in the present subjunctive), and \"seria fundamental que... ouvisse\", with the imperfect after a conditional. Reasons use formal connectors with the indicative (\"uma vez que a maioria trabalha\"), while \"embora\" takes the subjunctive (\"tenha espaço\"). The earlier promise is reported with the future shifted to the conditional: \"prometeram que o pedido seria analisado\". The councillor is addressed as \"a senhora\", never \"você\".",
+  explanation: "A formal request rests on three structures. Requests and evaluations take the subjunctive: \"solicito que a senhora leve\", \"que seja implantado\" (a passive in the present subjunctive), and \"seria fundamental que... ouvisse\", with the imperfect after a conditional. Reasons use formal connectors with the indicative (\"uma vez que a maioria trabalha\"), while \"embora\" takes the subjunctive (\"tenha espaço\"). The earlier promise is reported with the future shifted to the conditional: \"prometeram que o pedido seria analisado\". The councilor is addressed as \"a senhora\", never \"você\".",
 };

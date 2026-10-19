@@ -281,7 +281,7 @@ export const PT_B1_U15: Lesson[] = [
       {
         heading: "The contract and the benefits",
         body: [
-          "The first thing Brazilians check is the contract. \"Carteira assinada\" (a signed work card) means a formal job under the CLT, the labour code: paid holidays, the \"13º salário\" (an extra month's pay in December) and the FGTS savings fund. \"PJ\" (pessoa jurídica) means you invoice as a company: often more money, far fewer rights. An \"estágio\" is a student internship, paid with a \"bolsa\" (stipend).",
+          "The first thing Brazilians check is the contract. \"Carteira assinada\" (a signed work card) means a formal job under the CLT, the labor code: paid vacation, the \"13º salário\" (an extra month's pay in December) and the FGTS savings fund. \"PJ\" (pessoa jurídica) means you invoice as a company: often more money, far fewer rights. An \"estágio\" is a student internship, paid with a \"bolsa\" (stipend).",
           "\"Benefícios\" get their own list: \"vale-refeição\" (a card for restaurant meals), \"vale-alimentação\" (for groceries), \"vale-transporte\" (for the commute) and \"plano de saúde\". \"Salário a combinar\" means the pay is negotiable.",
         ],
         examples: [
@@ -307,7 +307,7 @@ export const PT_B1_U15: Lesson[] = [
             question: "What does it mean?",
             options: ["The job is a formal contract with full employment rights.", "The job is for a contractor who invoices as a company.", "The job is a student internship.", "The job comes with a meal voucher."],
             correctIndex: 0,
-            explanation: "\"Carteira assinada\" means a formal CLT job: paid holidays, the 13th salary and the FGTS.",
+            explanation: "\"Carteira assinada\" means a formal CLT job: paid vacation, the 13th salary and the FGTS.",
           },
           {
             type: "fill-blank",
@@ -355,7 +355,7 @@ export const PT_B1_U15: Lesson[] = [
             type: "speak",
             text: "Tenho experiência em atendimento ao cliente.",
             tip: "In atendimento, the d before i sounds like dj: a-ten-dji-MEN-tu, with the final o as u.",
-            explanation: "\"Tenho experiência em\" + field is the standard first-person CV frame. \"Atendimento ao cliente\" is customer service.",
+            explanation: "\"Tenho experiência em\" + field is the standard first-person résumé frame. \"Atendimento ao cliente\" is customer service.",
           },
         ],
       },
@@ -393,7 +393,7 @@ export const PT_B1_U15: Lesson[] = [
         prompt: "Put the words in order to say: Marketing analyst with five years of experience.",
         words: ["Analista", "de", "marketing", "com", "cinco", "anos", "de", "experiência."],
         translation: "Marketing analyst with five years of experience.",
-        explanation: "A CV profile drops the subject and starts with the job title. \"Analista de marketing\": the main noun comes first.",
+        explanation: "A résumé profile drops the subject and starts with the job title. \"Analista de marketing\": the main noun comes first.",
       },
       {
         type: "translate",
@@ -402,14 +402,14 @@ export const PT_B1_U15: Lesson[] = [
         source: "I've worked in the finance field since 2018.",
         answer: "Atuo na área financeira desde 2018.",
         altAnswers: ["Trabalho na área financeira desde 2018.", "Eu atuo na área financeira desde 2018.", "Eu trabalho na área financeira desde 2018.", "Atuo na área de finanças desde 2018.", "Trabalho na área de finanças desde 2018.", "Eu atuo na área de finanças desde 2018.", "Eu trabalho na área de finanças desde 2018."],
-        explanation: "Something still true since a point in time takes the present + \"desde\", where English uses the present perfect. \"Atuo\" is the more professional verb for a CV.",
+        explanation: "Something still true since a point in time takes the present + \"desde\", where English uses the present perfect. \"Atuo\" is the more professional verb for a résumé.",
       },
       {
         type: "multiple-choice",
         question: "What does \"Atualmente, estou procurando uma vaga de estágio.\" mean?",
         options: ["I'm currently looking for an internship.", "Actually, I'm looking for an internship.", "I'm currently offering an internship.", "I'm currently looking for a parking space."],
         correctIndex: 0,
-        explanation: "\"Atualmente\" is currently, not actually (\"na verdade\"). \"Vaga de estágio\" is an internship opening; a parking space would be \"vaga\" on its own, in a car park.",
+        explanation: "\"Atualmente\" is currently, not actually (\"na verdade\"). \"Vaga de estágio\" is an internship opening; a parking space would be \"vaga\" on its own, in a parking lot.",
       },
       {
         type: "dictation",
@@ -421,7 +421,7 @@ export const PT_B1_U15: Lesson[] = [
         text: "Inglês fluente e espanhol intermediário.",
         prompt: "Say it in Portuguese: Fluent English and intermediate Spanish.",
         tip: "The d before i in intermediário sounds like dj: in-ter-me-dji-Á-riu. The final e of fluente sounds like i.",
-        explanation: "Languages on a CV: language + level, with the adjective after the noun and no article.",
+        explanation: "Languages on a résumé: language + level, with the adjective after the noun and no article.",
       },
       {
         type: "matching",
@@ -447,7 +447,7 @@ export const PT_B1_U15: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Ana's CV: [Graduated] in Journalism from PUC-Rio.",
+        en: "Ana's résumé: [Graduated] in Journalism from PUC-Rio.",
         sentence: "___ em Jornalismo pela PUC-Rio.",
         answer: "Formada",
         explanation: "The participle agrees with the person: Ana is a woman, so \"formada\". \"Pela\" because PUC is a \"universidade\".",
@@ -514,7 +514,7 @@ export const PT_B1_U15: Lesson[] = [
           { es: "Tenho experiência em atendimento ao cliente.", en: "I have experience in customer service." },
           { es: "Tenho seis anos de experiência na área financeira.", en: "I have six years of experience in finance." },
           { es: "Um dos meus pontos fortes é a comunicação.", en: "One of my strengths is communication." },
-          { es: "Sou uma pessoa organizada e trabalho bem em equipe.", en: "I'm an organised person and I work well in a team." },
+          { es: "Sou uma pessoa organizada e trabalho bem em equipe.", en: "I'm an organized person and I work well in a team." },
           { es: "Tenho aprendido a delegar mais tarefas.", en: "I've been learning to delegate more tasks." },
           { es: "Às vezes tenho dificuldade de dizer não.", en: "Sometimes I find it hard to say no." },
         ],
@@ -532,7 +532,7 @@ export const PT_B1_U15: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "One of my strengths is organisation.",
+            source: "One of my strengths is organization.",
             answer: "Um dos meus pontos fortes é a organização.",
             altAnswers: ["Um dos meus pontos fortes é organização."],
             explanation: "\"Um dos meus pontos fortes\": \"um\" agrees with \"ponto\" (masculine). Abstract nouns like \"a organização\" usually take the article.",
@@ -728,7 +728,7 @@ export const PT_B1_U15: Lesson[] = [
       {
         heading: "Oi, tudo bem? or Prezada Senhora: the frame",
         body: [
-          "A WhatsApp message to a colleague and an email to a client can carry the same news, but the frame around it changes completely. Chat opens with \"Oi\" or \"Olá\", the first name and usually \"tudo bem?\". A formal email opens with \"Prezado\" or \"Prezada\" (agreeing with the reader) plus the title and surname, or with the slightly warmer \"Bom dia, Dr. Ferreira,\" that is common in Brazilian offices.",
+          "A WhatsApp message to a colleague and an email to a client can carry the same news, but the frame around it changes completely. Chat opens with \"Oi\" or \"Olá\", the first name and usually \"tudo bem?\". A formal email opens with \"Prezado\" or \"Prezada\" (agreeing with the reader) plus the title and last name, or with the slightly warmer \"Bom dia, Dr. Ferreira,\" that is common in Brazilian offices.",
           "Closings split the same way: \"Abraço\", \"Beijos\" or \"Valeu!\" in chat; \"Atenciosamente\" or \"Cordialmente\" and your full name in an email. Mixing the two is the classic slip. \"Beijos\" to a client sounds careless, and \"Atenciosamente\" in the family group sounds like a joke.",
         ],
         examples: [
@@ -798,7 +798,7 @@ export const PT_B1_U15: Lesson[] = [
         heading: "Rewriting a whole message, both ways",
         body: [
           "Requests change the most. Chat uses a bare command or a quick question (\"Me manda o relatório?\"); an email softens it with the conditional: \"Poderia me enviar o relatório?\", \"Gostaria de confirmar a reunião\". Everyday verbs also move up a step: \"mandar\" becomes \"enviar\", \"ver\" becomes \"verificar\", \"avisar\" becomes \"informar\".",
-          "To go the other way, strip the email down: drop the formulas, turn \"nós\" into \"a gente\" and \"para\" into \"pra\", and make the request a short question. A formal sentence pasted into a WhatsApp group sounds stiff and distant, so practise both directions.",
+          "To go the other way, strip the email down: drop the formulas, turn \"nós\" into \"a gente\" and \"para\" into \"pra\", and make the request a short question. A formal sentence pasted into a WhatsApp group sounds stiff and distant, so practice both directions.",
         ],
         examples: [
           { es: "Me manda o relatório até amanhã?", en: "Can you send me the report by tomorrow? (chat)" },
@@ -828,7 +828,7 @@ export const PT_B1_U15: Lesson[] = [
           {
             type: "speak",
             text: "Poderia me enviar o relatório até amanhã?",
-            tip: "Stress po-de-RI-a, and give relatório an open ó: re-la-TÓ-rio.",
+            tip: "Stress po-de-RI-a, and give relatório an open ó: he-la-TÓ-riu, with the initial r said like h.",
             explanation: "\"Poderia\" (conditional) plus \"enviar\": the polite request that suits an email or a call with a client.",
           },
         ],
@@ -942,7 +942,7 @@ export const PT_B1_U15: Lesson[] = [
     level: "PT-B1",
     number: 5,
     title: "Bureaucracy: CPF, Cartório and Agendamento",
-    summary: "Get through Brazilian paperwork with the CPF and RG, the cartório, appointments, queues and reference numbers, and ask clerks for information politely.",
+    summary: "Get through Brazilian paperwork with the CPF and RG, the cartório, appointments, lines and reference numbers, and ask clerks for information politely.",
     duration: "14 min",
     sections: [
       {
@@ -982,7 +982,7 @@ export const PT_B1_U15: Lesson[] = [
             question: "At the bank the clerk asks: \"Qual é o seu CPF?\" What does she want?",
             options: ["Your tax number", "Your home address", "Your passport", "Your signature"],
             correctIndex: 0,
-            explanation: "\"Qual é o seu CPF?\" asks for the number itself. Brazilians usually know it by heart, because shops and banks ask for it all the time.",
+            explanation: "\"Qual é o seu CPF?\" asks for the number itself. Brazilians usually know it by heart, because stores and banks ask for it all the time.",
           },
         ],
       },
@@ -1023,13 +1023,13 @@ export const PT_B1_U15: Lesson[] = [
       {
         heading: "Agendamento, senha, fila, protocolo",
         body: [
-          "Many offices, such as the Polícia Federal where foreigners register, only see you with an \"agendamento\", an appointment you book online: \"agendar um horário\". Otherwise you take a \"senha\" and join the \"fila\" (queue). \"Senha\" means password, but at a counter it means your queue number. The \"fila preferencial\" is for older people, pregnant women and people with disabilities.",
+          "Many offices, such as the Polícia Federal where foreigners register, only see you with an \"agendamento\", an appointment you book online: \"agendar um horário\". Otherwise you take a \"senha\" and join the \"fila\" (line). \"Senha\" means password, but at a counter it means your number in line. The \"fila preferencial\" is for older people, pregnant women and people with disabilities.",
           "Every request gets a \"número de protocolo\" (reference number). Keep it, because every follow-up starts with that number.",
           "With clerks, use the polite conditional from earlier in this unit together with \"o senhor\" or \"a senhora\": \"Poderia me informar...?\", \"Gostaria de saber se...\".",
         ],
         examples: [
           { es: "Gostaria de agendar um horário para tirar o passaporte.", en: "I'd like to book an appointment to get a passport." },
-          { es: "A senhora pode pegar uma senha e aguardar na fila.", en: "You can take a number and wait in the queue, ma'am." },
+          { es: "A senhora pode pegar uma senha e aguardar na fila.", en: "You can take a number and wait in line, ma'am." },
           { es: "Guarde o número do protocolo.", en: "Keep the reference number." },
           { es: "O senhor poderia me informar quais documentos são necessários?", en: "Could you tell me which documents are needed, sir?" },
           { es: "Seria possível remarcar o agendamento para sexta?", en: "Would it be possible to move the appointment to Friday?" },
@@ -1049,9 +1049,9 @@ export const PT_B1_U15: Lesson[] = [
             type: "listen-choose",
             audio: "Pegue uma senha e aguarde na fila.",
             question: "What does it mean?",
-            options: ["Take a number and wait in the queue.", "Enter your password and wait online.", "Take a form and wait in the office.", "Sign here and wait outside."],
+            options: ["Take a number and wait in line.", "Enter your password and wait online.", "Take a form and wait in the office.", "Sign here and wait outside."],
             correctIndex: 0,
-            explanation: "At a counter \"senha\" is the queue ticket, not a password. \"Aguardar\" is the formal word for wait.",
+            explanation: "At a counter \"senha\" is the numbered ticket, not a password. \"Aguardar\" is the formal word for wait.",
           },
           {
             type: "multiple-choice",
@@ -1130,7 +1130,7 @@ export const PT_B1_U15: Lesson[] = [
         sentence: "Você precisa ___ e aguardar.",
         answer: "pegar uma senha",
         altAnswers: ["tirar uma senha", "pegar senha", "retirar uma senha"],
-        explanation: "At a counter you \"pegar uma senha\": the ticket with your queue number. \"Senha\" is also the word for password.",
+        explanation: "At a counter you \"pegar uma senha\": the ticket with your number in line. \"Senha\" is also the word for password.",
       },
       {
         type: "translate",
@@ -1150,7 +1150,7 @@ export const PT_B1_U15: Lesson[] = [
         type: "speak",
         text: "Gostaria de saber se o cartório abre aos sábados.",
         prompt: "Say it in Portuguese: I'd like to know if the notary's office opens on Saturdays.",
-        tip: "Stress car-TÓ-rio with an open ó, and stress SÁ-ba-dos on the first syllable.",
+        tip: "Stress car-TÓ-riu with an open ó, and stress SÁ-ba-dus on the first syllable.",
         explanation: "\"Gostaria de saber se\" + indicative is the polite way to ask a clerk for information.",
       },
       {
@@ -1244,7 +1244,7 @@ export const PT_B1_U15: Lesson[] = [
         ],
         examples: [
           { es: "Quais são seus pontos fortes?", en: "What are your strengths?" },
-          { es: "Sou organizado e gosto de trabalhar em equipe.", en: "I'm organised and I like working in a team." },
+          { es: "Sou organizado e gosto de trabalhar em equipe.", en: "I'm organized and I like working in a team." },
           { es: "Tenho facilidade com números.", en: "I'm good with numbers." },
           { es: "Às vezes sou perfeccionista, mas tenho aprendido a delegar.", en: "Sometimes I'm a perfectionist, but I've been learning to delegate." },
           { es: "Gostaria de crescer na área de tecnologia.", en: "I'd like to grow in the tech field." },
@@ -1254,7 +1254,7 @@ export const PT_B1_U15: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'm organised and I like working in a team.",
+            source: "I'm organized and I like working in a team.",
             answer: "Sou organizado e gosto de trabalhar em equipe.",
             altAnswers: [
               "Eu sou organizado e gosto de trabalhar em equipe.",
@@ -1496,8 +1496,8 @@ export const PT_B1_U15: Lesson[] = [
         ],
         examples: [
           { es: "Prezada Senhora, gostaria de solicitar uma segunda via do boleto.", en: "Dear Madam, I would like to request a copy of the payment slip." },
-          { es: "Prezado Sr. Almeida, agradeço o retorno.", en: "Dear Mr Almeida, thank you for getting back to me." },
-          { es: "Bom dia, Sr. Almeida. Escrevo para confirmar a reunião de amanhã.", en: "Good morning, Mr Almeida. I'm writing to confirm tomorrow's meeting." },
+          { es: "Prezado Sr. Almeida, agradeço o retorno.", en: "Dear Mr. Almeida, thank you for getting back to me." },
+          { es: "Bom dia, Sr. Almeida. Escrevo para confirmar a reunião de amanhã.", en: "Good morning, Mr. Almeida. I'm writing to confirm tomorrow's meeting." },
           { es: "Fico no aguardo do seu retorno.", en: "I look forward to hearing from you." },
           { es: "Atenciosamente, Mariana Costa", en: "Kind regards, Mariana Costa" },
         ],
@@ -1537,7 +1537,7 @@ export const PT_B1_U15: Lesson[] = [
         ],
         examples: [
           { es: "Também gostaria de saber o prazo de entrega.", en: "I'd also like to know the delivery time." },
-          { es: "Não pude comparecer porque estava doente.", en: "I couldn't attend because I was ill." },
+          { es: "Não pude comparecer porque estava doente.", en: "I couldn't attend because I was sick." },
           { es: "Por que o pedido ainda não foi enviado?", en: "Why hasn't the order been sent yet?" },
           { es: "Obrigado pela mensagem.", en: "Thank you for your message. (a man writing)" },
           { es: "Nós precisamos dos documentos até sexta-feira.", en: "We need the documents by Friday." },
@@ -1555,7 +1555,7 @@ export const PT_B1_U15: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "I couldn't attend the meeting [because] I was ill.",
+            en: "I couldn't attend the meeting [because] I was sick.",
             sentence: "Não pude comparecer à reunião ___ estava doente.",
             answer: "porque",
             explanation: "A reason takes \"porque\" as one word. \"Pq\" is chat spelling, and \"por que\" as two words is for questions.",
@@ -1602,7 +1602,7 @@ export const PT_B1_U15: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're writing to Mr Ferreira, the mayor of Curitiba, to ask for a meeting. Which sentence fits?",
+            question: "You're writing to Mr. Ferreira, the mayor of Curitiba, to ask for a meeting. Which sentence fits?",
             options: ["O senhor poderia me receber na próxima semana?", "Você poderia me receber na próxima semana?", "Oi, você pode me receber na semana que vem?", "Estou te escrevendo para pedir uma reunião."],
             correctIndex: 0,
             explanation: "An authority gets \"o senhor\" and the polite \"poderia\". \"Você\" and \"te\" are too familiar for a letter to the mayor.",
@@ -1619,8 +1619,8 @@ export const PT_B1_U15: Lesson[] = [
           { es: "Segue anexo o contrato assinado.", en: "Please find the signed contract attached." },
           { es: "Seguem anexos os documentos solicitados.", en: "Please find the requested documents attached." },
           { es: "Segue anexa a nota fiscal.", en: "Please find the invoice attached." },
-          { es: "Seguem em anexo as fotos do apartamento.", en: "Please find the photos of the flat attached." },
-          { es: "Segue em anexo o meu currículo.", en: "Please find my CV attached." },
+          { es: "Seguem em anexo as fotos do apartamento.", en: "Please find the photos of the apartment attached." },
+          { es: "Segue em anexo o meu currículo.", en: "Please find my résumé attached." },
         ],
         checkpoint: [
           {
@@ -1763,7 +1763,7 @@ export const PT_B1_U15: Lesson[] = [
         ],
         examples: [
           { es: "Prezada Senhora, escrevo para solicitar uma vaga no curso de extensão.", en: "Dear Madam, I am writing to request a place on the extension course." },
-          { es: "Prezados Senhores, venho por meio desta reclamar do atendimento que recebi na loja do centro.", en: "Dear Sirs, I am writing to complain about the service I received at the downtown store." },
+          { es: "Prezados Senhores, venho por meio desta reclamar do atendimento que recebi na loja do centro.", en: "Dear Sir or Madam, I am writing to complain about the service I received at the downtown store." },
           { es: "Meu nome é Daniel Moore e sou aluno de intercâmbio na Universidade Federal da Bahia.", en: "My name is Daniel Moore and I am an exchange student at the Federal University of Bahia." },
           { es: "Escrevo para manifestar minha insatisfação com o serviço de internet prestado por esta empresa.", en: "I am writing to express my dissatisfaction with the internet service provided by this company." },
           { es: "O senhor poderia me informar o prazo para a matrícula?", en: "Could you tell me the deadline for enrollment?" },
@@ -1801,7 +1801,7 @@ export const PT_B1_U15: Lesson[] = [
           { es: "No dia 12 de março, comprei uma geladeira pelo site da loja.", en: "On 12 March, I bought a refrigerator on the store's website." },
           { es: "A geladeira foi entregue no dia 20, com a porta amassada.", en: "The refrigerator was delivered on the 20th, with a dented door." },
           { es: "Entrei em contato com o SAC duas vezes, sob os protocolos 4512 e 4517.", en: "I contacted customer service twice, under reference numbers 4512 and 4517." },
-          { es: "Quando liguei pela segunda vez, o pedido já tinha sido cancelado sem aviso.", en: "When I called the second time, the order had already been cancelled without notice." },
+          { es: "Quando liguei pela segunda vez, o pedido já tinha sido cancelado sem aviso.", en: "When I called the second time, the order had already been canceled without notice." },
           { es: "Lamento informar que o problema continua sem solução.", en: "I regret to inform you that the problem remains unsolved." },
         ],
         checkpoint: [
@@ -1961,8 +1961,8 @@ export const PT_B1_U15: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "Prezados Senhores", right: "Dear Sirs" },
-          { left: "Atenciosamente", right: "Yours sincerely" },
+          { left: "Prezados Senhores", right: "Dear Sir or Madam" },
+          { left: "Atenciosamente", right: "Sincerely" },
           { left: "Fico no aguardo", right: "I look forward to hearing from you" },
           { left: "Até o momento", right: "So far" },
           { left: "Lamento informar que", right: "I regret to inform you that" },
@@ -2004,7 +2004,7 @@ export const PT_B1_U15: Lesson[] = [
       {
         heading: "The opening: who you are and why you're writing",
         body: [
-          "A Brazilian cover email is short: three brief paragraphs in the email itself, with your CV attached. Put the job in the subject line (\"Candidatura: vaga de estágio em Marketing\") and open with \"Prezada Sra. Ribeiro,\" or, if you don't know the name, \"Prezados,\". Never \"Querido\": that's for people you love.",
+          "A Brazilian cover email is short: three brief paragraphs in the email itself, with your résumé attached. Put the job in the subject line (\"Candidatura: vaga de estágio em Marketing\") and open with \"Prezada Sra. Ribeiro,\" or, if you don't know the name, \"Prezados,\". Never \"Querido\": that's for people you love.",
           "State your purpose in the first sentence: \"escrevo para me candidatar à vaga de...\". The verb is \"candidatar-se a\", and \"a\" + \"a vaga\" gives \"à vaga\". Avoid \"aplicar para\": plenty of young Brazilians say it, but recruiters read it as an anglicism.",
           "Add one line on where you saw the ad: \"vi o anúncio no LinkedIn\" or, with the passive, \"a vaga foi divulgada no site da empresa\".",
         ],
@@ -2099,8 +2099,8 @@ export const PT_B1_U15: Lesson[] = [
           "Sign off with \"Atenciosamente,\" or \"Cordialmente,\", then your full name and phone number. Keep the register formal throughout: \"gostaria de\", \"seria um prazer\", \"para\", never \"pra\", \"a gente\" or \"vc\".",
         ],
         examples: [
-          { es: "Segue em anexo meu currículo.", en: "Please find my CV attached." },
-          { es: "Seguem em anexo meu currículo e meu portfólio.", en: "Please find my CV and my portfolio attached." },
+          { es: "Segue em anexo meu currículo.", en: "Please find my résumé attached." },
+          { es: "Seguem em anexo meu currículo e meu portfólio.", en: "Please find my résumé and my portfolio attached." },
           { es: "Fico à disposição para uma entrevista.", en: "I'm available for an interview." },
           { es: "Seria um prazer fazer parte da equipe.", en: "It would be a pleasure to join the team." },
           { es: "Agradeço desde já a atenção e fico no aguardo do seu retorno.", en: "Thank you in advance for your attention; I look forward to hearing from you." },
@@ -2109,7 +2109,7 @@ export const PT_B1_U15: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Attached are] my CV and my portfolio.",
+            en: "[Attached are] my résumé and my portfolio.",
             sentence: "___ meu currículo e meu portfólio.",
             answer: "Seguem em anexo",
             altAnswers: ["Seguem anexos"],
@@ -2152,7 +2152,7 @@ export const PT_B1_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My CV is attached.",
+        source: "My résumé is attached.",
         answer: "Segue em anexo meu currículo.",
         altAnswers: ["Meu currículo segue em anexo.", "Segue anexo meu currículo.", "Segue em anexo o meu currículo.", "Meu currículo está em anexo."],
         explanation: "\"Segue em anexo\" + the attachment is the fixed formula; one item, so the singular \"segue\".",
@@ -2357,7 +2357,7 @@ export const PT_B1_U15: Lesson[] = [
         examples: [
           { es: "Manda o arquivo pra gente conferir?", en: "Can you send the file so we can check it? (to a colleague)" },
           { es: "Peço que o senhor nos envie o arquivo para que possamos conferi-lo.", en: "Please send us the file so that we can check it. (to a client)" },
-          { es: "Segue em anexo o meu currículo para os senhores avaliarem.", en: "Please find my CV attached for your review." },
+          { es: "Segue em anexo o meu currículo para os senhores avaliarem.", en: "Please find my résumé attached for your review." },
           { es: "Esta é a vaga à qual me candidatei.", en: "This is the position I applied for." },
           { es: "Agradeço a oportunidade e fico no aguardo do seu retorno.", en: "Thank you for the opportunity; I look forward to hearing from you." },
         ],
@@ -2373,10 +2373,10 @@ export const PT_B1_U15: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Attached is my CV for you to review. (formal, to a hiring team)",
+            source: "Attached is my résumé for you to review. (formal, to a hiring team)",
             answer: "Segue em anexo o meu currículo para os senhores avaliarem.",
             altAnswers: ["Segue em anexo meu currículo para os senhores avaliarem.", "Segue anexo o meu currículo para os senhores avaliarem.", "Segue anexo meu currículo para os senhores avaliarem.", "Segue em anexo o meu currículo para os senhores analisarem.", "Segue em anexo meu currículo para os senhores analisarem.", "Segue em anexo o meu currículo para que os senhores o avaliem.", "Segue em anexo meu currículo para que os senhores o avaliem.", "Segue em anexo o meu currículo para que os senhores avaliem."],
-            explanation: "\"Segue em anexo\" agrees with one CV. A new subject after \"para\" takes the personal infinitive, \"os senhores avaliarem\", or \"para que\" + subjunctive.",
+            explanation: "\"Segue em anexo\" agrees with one résumé. A new subject after \"para\" takes the personal infinitive, \"os senhores avaliarem\", or \"para que\" + subjunctive.",
           },
         ],
       },
@@ -2487,7 +2487,7 @@ export const PT_B1_U15: Lesson[] = [
 
 export const PT_B1_U15_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You've seen an ad for a marketing analyst position at a company in São Paulo. Write a formal email to the HR manager, Beatriz Lima, to apply. Say why you're writing, briefly describe your experience and what you've been doing lately, mention that your CV is attached, and politely ask one or two questions (the type of contract, the interview dates). Close the email formally.",
+  prompt: "You've seen an ad for a marketing analyst position at a company in São Paulo. Write a formal email to the HR manager, Beatriz Lima, to apply. Say why you're writing, briefly describe your experience and what you've been doing lately, mention that your résumé is attached, and politely ask one or two questions (the type of contract, the interview dates). Close the email formally.",
   minWords: 80,
   maxWords: 150,
   rubric: [

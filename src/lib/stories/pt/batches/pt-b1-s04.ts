@@ -64,7 +64,7 @@ export const PT_B1_S04_STORIES: Story[] = [
     questions: [
       {
         question: `Where did seu Ademir and Dona Neide meet?`,
-        options: [`At her fabric shop`, `In a water aerobics class`, `At a family lunch`, `At the registry office`],
+        options: [`At her fabric store`, `In a water aerobics class`, `At a family lunch`, `At the registry office`],
         correctIndex: 1,
         explanation: `"Se conheceram na aula de hidroginástica do clube."`,
       },
@@ -179,7 +179,7 @@ export const PT_B1_S04_STORIES: Story[] = [
     subtitle: `Three siblings who barely speak inherit their father's sweet shop in Pelotas, with a condition in the will that none of them wanted.`,
     paragraphs: [
       `Seu Otávio passou cinquenta anos atrás do balcão da Doceria Otávio, no centro de Pelotas, vendendo quindins, camafeus e bem-casados para a cidade inteira. Quando ele morreu, em março, os três filhos voltaram para casa pela primeira vez em muitos anos. Helena, a mais velha, era advogada em Porto Alegre. Sérgio, o do meio, trabalhava com tecnologia em São Paulo. Mariana, a caçula, era atriz no Rio e estava, como ela mesma dizia, “entre dois trabalhos”.`,
-      `Os três mal se falavam. Não tinha acontecido nenhuma grande briga, só anos de aniversários esquecidos e ligações curtas. No dia da leitura do testamento, eles se sentaram longe um do outro. O advogado leu: a doceria ficaria para os três, com uma condição. Eles teriam de administrar o negócio juntos durante um ano. Só depois disso poderiam vender. Caso algum deles desista antes, a doceria passa para Dona Iracema, a funcionária mais antiga.`,
+      `Os três mal se falavam. Não tinha acontecido nenhuma grande briga, só anos de aniversários esquecidos e ligações curtas. No dia da leitura do testamento, eles se sentaram longe um do outro. O advogado leu: a doceria ficaria para os três, com uma condição. Eles teriam de administrar o negócio juntos durante um ano. Só depois disso poderiam vender. Se algum deles desistisse antes, a doceria passaria para Dona Iracema, a funcionária mais antiga.`,
       `Helena queria vender no primeiro dia possível. Sérgio queria transformar a doceria numa marca, com loja virtual e entrega para o país inteiro. Mariana só sabia que não queria ver a doceria do pai fechada. Mesmo assim, os três aceitaram a condição. Helena pediu licença do escritório, Sérgio passou a trabalhar a distância, e Mariana, que não tinha nada a perder, voltou para o seu antigo quarto.`,
       `Na primeira semana, descobriram uma coisa terrível: nenhum deles sabia fazer os doces. O pai nunca tinha escrito as receitas. Quem sabia tudo de cor era Dona Iracema, que trabalhava ali havia trinta e oito anos. Ela olhou para os três com os braços cruzados. “Eu ensino”, disse. “Mas é preciso que vocês venham juntos. Os três. Todo dia, às cinco da manhã.”`,
       `Os primeiros meses foram um desastre. O quindim de Helena saiu duro como borracha. Os fios de ovos de Sérgio viraram omelete. Mariana queimou duas panelas de doce de leite. E eles brigavam o tempo todo: sobre o preço, sobre a vitrine, sobre quem tinha deixado o forno ligado. Dona Iracema não dizia nada. Só mandava mexer.`,
@@ -282,7 +282,7 @@ export const PT_B1_S04_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "de cor", en: "by heart", forms: ["cor"] },
     { es: "a borracha", en: "rubber", forms: ["borracha"] },
     { es: "os fios de ovos", en: "sweet egg threads", forms: ["fios"] },
-    { es: "a vitrine", en: "shop window", forms: ["vitrine"] },
+    { es: "a vitrine", en: "display window", forms: ["vitrine"] },
     { es: "mexer", en: "to stir", forms: ["mexer", "mexiam", "mexe"] },
     { es: "o tacho", en: "large cooking pan", forms: ["tacho"] },
     { es: "separar-se", en: "to separate, get divorced", forms: ["separando"] },

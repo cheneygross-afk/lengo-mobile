@@ -107,7 +107,7 @@ export const FR_C1_U04: Lesson[] = [
         body: [
           "The perfect participle (like the gérondif) must refer to the subject of the main clause. \"Ayant terminé son rapport, elle est partie\": she finished, she left. If the subjects differ, the sentence becomes ambiguous or absurd: \"*Ayant terminé son rapport, son chef l'a félicitée\" literally says the boss finished the report.",
           "Fixes: change the main clause so the subjects match (\"Ayant terminé son rapport, elle a été félicitée par son chef\"), or use a conjunction (\"Comme elle avait terminé son rapport, son chef l'a félicitée\" / \"Une fois qu'elle a eu terminé...\"). Next lesson shows a third fix: the absolute participial clause with its own subject.",
-          "English writers dangle participles too ('Having finished the report, the boss congratulated her'), but English readers tolerate it more. French grammar is stricter, and examiners notice. Part 5 of this unit is an Error Hunt dedicated to it.",
+          "English writers dangle participles too ('Having finished the report, the boss congratulated her'), but English readers tolerate it more. French grammar is stricter, and examiners notice. This unit's Error Hunt lesson is dedicated to it.",
         ],
         examples: [
           { es: "Ayant terminé son rapport, elle a été félicitée par son chef.", en: "Having finished her report, she was congratulated by her boss." },
@@ -207,7 +207,7 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with après avoir: Ayant visité le château, nous avons déjeuné.",
+        prompt: "Translate into French (rewrite with après avoir): \"Ayant visité le château, nous avons déjeuné.\"",
         source: "After visiting the castle, we had lunch.",
         answer: "Après avoir visité le château, nous avons déjeuné.",
         altAnswers: ["Après avoir visité le château, on a déjeuné."],
@@ -352,7 +352,7 @@ export const FR_C1_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in everyday French with une fois: Les secours prévenus, l'agent a sécurisé la zone.",
+            prompt: "Translate into French (rewrite in everyday French with une fois): \"Les secours prévenus, l'agent a sécurisé la zone.\"",
             source: "Once the emergency services had been called, the officer secured the area.",
             answer: "Une fois les secours prévenus, l'agent a sécurisé la zone.",
             altAnswers: ["Une fois que les secours ont été prévenus, l'agent a sécurisé la zone.", "Une fois que les secours ont été appelés, l'agent a sécurisé la zone.", "Quand les secours ont été prévenus, l'agent a sécurisé la zone."],
@@ -446,7 +446,7 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in everyday French with comme: Le magasin étant fermé, nous sommes allés au marché.",
+        prompt: "Translate into French (rewrite in everyday French with comme): \"Le magasin étant fermé, nous sommes allés au marché.\"",
         source: "As the shop was closed, we went to the market.",
         answer: "Comme le magasin était fermé, nous sommes allés au marché.",
         altAnswers: ["Comme le magasin était fermé, on est allés au marché.", "Le magasin était fermé, donc nous sommes allés au marché."],
@@ -800,7 +800,7 @@ export const FR_C1_U04: Lesson[] = [
         prompt: "Translate into French with a present participle clause.",
         source: "As the price was too high, we didn't buy anything.",
         answer: "Le prix étant trop élevé, nous n'avons rien acheté.",
-        altAnswers: ["Le prix étant trop élevé, on n'a rien acheté.", "Le prix étant trop cher, nous n'avons rien acheté."],
+        altAnswers: ["Le prix étant trop élevé, on n'a rien acheté."],
         explanation: "Own subject + \"étant\": cause.",
       },
       {
@@ -893,7 +893,7 @@ export const FR_C1_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: En sortant du métro, la pluie a commencé. Write a correct version with quand.",
+            prompt: "A learner wrote: \"En sortant du métro, la pluie a commencé.\" Write a correct version with quand.",
             source: "When I came out of the metro, it started raining.",
             answer: "Quand je suis sorti du métro, il a commencé à pleuvoir.",
             altAnswers: ["Quand je suis sortie du métro, il a commencé à pleuvoir.", "Quand je suis sorti du métro, la pluie a commencé.", "Quand je suis sortie du métro, la pluie a commencé.", "Lorsque je suis sorti du métro, il a commencé à pleuvoir.", "Lorsque je suis sortie du métro, il a commencé à pleuvoir."],
@@ -931,7 +931,7 @@ export const FR_C1_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: Étant en retard, le professeur m'a grondé. Write a correct version with comme.",
+            prompt: "A learner wrote: \"Étant en retard, le professeur m'a grondé.\" Write a correct version with comme.",
             source: "As I was late, the teacher told me off.",
             answer: "Comme j'étais en retard, le professeur m'a grondé.",
             altAnswers: ["Comme j'étais en retard, le professeur m'a grondée.", "Comme j'étais en retard, la professeure m'a grondé.", "Comme j'étais en retard, le prof m'a grondé.", "Comme j'étais en retard, le prof m'a grondée."],
@@ -939,7 +939,7 @@ export const FR_C1_U04: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "A learner wrote: Ayant passé l'entretien, le directeur m'a embauché. Write the French for the bold words.",
+            prompt: "A learner wrote: \"Ayant passé l'entretien, le directeur m'a embauché.\" Write the French for the bold words.",
             en: "Having had the interview, [I was hired] by the director.",
             sentence: "Ayant passé l'entretien, ___ par le directeur.",
             answer: "j'ai été embauché",
@@ -966,7 +966,7 @@ export const FR_C1_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: En relisant le contrat, plusieurs erreurs m'ont sauté aux yeux. Write a correct version.",
+            prompt: "A learner wrote: \"En relisant le contrat, plusieurs erreurs m'ont sauté aux yeux.\" Write a correct version.",
             source: "Rereading the contract, I noticed several mistakes.",
             answer: "En relisant le contrat, j'ai remarqué plusieurs erreurs.",
             altAnswers: ["En relisant le contrat, j'ai repéré plusieurs erreurs.", "En relisant le contrat, j'ai vu plusieurs erreurs.", "Quand j'ai relu le contrat, plusieurs erreurs m'ont sauté aux yeux."],
@@ -987,7 +987,7 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: En traversant la rue, une voiture m'a renversé. Write a correct version with a matching subject.",
+        prompt: "A learner wrote: \"En traversant la rue, une voiture m'a renversé.\" Write a correct version with a matching subject.",
         source: "While crossing the street, I was knocked down by a car.",
         answer: "En traversant la rue, j'ai été renversé par une voiture.",
         altAnswers: ["En traversant la rue, j'ai été renversée par une voiture.", "Pendant que je traversais la rue, une voiture m'a renversé.", "Pendant que je traversais la rue, une voiture m'a renversée.", "Alors que je traversais la rue, une voiture m'a renversé."],
@@ -996,7 +996,7 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Étant fatigué, ma femme a conduit. Write a correct version with comme.",
+        prompt: "A learner wrote: \"Étant fatigué, ma femme a conduit.\" Write a correct version with comme.",
         source: "As I was tired, my wife drove.",
         answer: "Comme j'étais fatigué, ma femme a conduit.",
         altAnswers: ["Comme j'étais fatigué, c'est ma femme qui a conduit.", "Comme j'étais fatigué, ma femme a pris le volant."],
@@ -1004,7 +1004,7 @@ export const FR_C1_U04: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote: En arrivant à l'hôtel, la chambre n'était pas prête. Write the French for the bold words.",
+        prompt: "A learner wrote: \"En arrivant à l'hôtel, la chambre n'était pas prête.\" Write the French for the bold words.",
         en: "On arriving at the hotel, [we found] that the room wasn't ready.",
         sentence: "En arrivant à l'hôtel, ___ que la chambre n'était pas prête.",
         answer: "nous avons constaté",
@@ -1026,7 +1026,7 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Ayant fini mes études, mon père m'a offert un voyage. Write a correct version with comme.",
+        prompt: "A learner wrote: \"Ayant fini mes études, mon père m'a offert un voyage.\" Write a correct version with comme.",
         source: "As I had finished my studies, my father gave me a trip.",
         answer: "Comme j'avais fini mes études, mon père m'a offert un voyage.",
         altAnswers: ["Comme j'avais terminé mes études, mon père m'a offert un voyage.", "Quand j'ai fini mes études, mon père m'a offert un voyage.", "Quand j'ai terminé mes études, mon père m'a offert un voyage."],
@@ -1044,7 +1044,7 @@ export const FR_C1_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: En faisant les courses, mon portefeuille a été volé. Write a correct version with a matching subject.",
+        prompt: "A learner wrote: \"En faisant les courses, mon portefeuille a été volé.\" Write a correct version with a matching subject.",
         source: "While I was shopping, someone stole my wallet.",
         answer: "Pendant que je faisais les courses, on m'a volé mon portefeuille.",
         altAnswers: ["En faisant les courses, je me suis fait voler mon portefeuille.", "Pendant que je faisais les courses, quelqu'un m'a volé mon portefeuille.", "Alors que je faisais les courses, on m'a volé mon portefeuille."],
@@ -1122,7 +1122,7 @@ export const FR_C1_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Elle a fini de manger. » What does it mean?",
+            question: "\"Elle a fini de manger.\" What does it mean?",
             options: ["She's finished eating.", "She ended up eating.", "She stopped eating for good.", "She eventually agreed to eat."],
             correctIndex: 0,
             explanation: "\"Finir de\" = to complete the activity.",
@@ -1169,7 +1169,7 @@ export const FR_C1_U04: Lesson[] = [
         heading: "Where you're at: en être à, être en passe de",
         body: [
           "\"En être à\" + noun or infinitive says what stage you've reached: \"On en est où ?\" (where are we up to?), \"J'en suis au chapitre 5\", \"Il en est à son troisième divorce\", \"J'en suis à me demander si ça vaut la peine\" (I've got to the point of wondering...).",
-          "\"Être en passe de\" + infinitive = to be on the point of, well on the way to: \"L'équipe est en passe de remporter le championnat.\" \"Être sur le point de\" (about to) is more immediate: \"Le train est sur le point de partir.\" \"Être en train de\" (in the middle of) comes in Part 9's Contrast Clinic.",
+          "\"Être en passe de\" + infinitive = to be on the point of, well on the way to: \"L'équipe est en passe de remporter le championnat.\" \"Être sur le point de\" (about to) is more immediate: \"Le train est sur le point de partir.\" \"Être en train de\" (in the middle of) comes in this unit's next Contrast Clinic.",
           "Together these verbs let French express aspect (beginning, continuation, end, stage) without any special tense, exactly as English does with 'keep on', 'end up', 'get to the point of'.",
         ],
         examples: [
@@ -1240,7 +1240,7 @@ export const FR_C1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Le chef n'arrête pas de nous interrompre. » What does it mean?",
+        question: "\"Le chef n'arrête pas de nous interrompre.\" What does it mean?",
         options: ["The boss keeps interrupting us.", "The boss doesn't stop us interrupting.", "The boss stopped interrupting us.", "The boss never interrupts us."],
         correctIndex: 0,
         explanation: "\"Ne pas arrêter de\" = constantly, keep on.",
@@ -1334,7 +1334,6 @@ export const FR_C1_U04: Lesson[] = [
             prompt: "Translate into French with an infinitive.",
             source: "He denies having lied.",
             answer: "Il nie avoir menti.",
-            altAnswers: ["Il nie qu'il a menti.", "Il nie qu'il ait menti."],
             explanation: "Same subject → past infinitive \"avoir menti\".",
           },
           {
@@ -1430,7 +1429,7 @@ export const FR_C1_U04: Lesson[] = [
         prompt: "Translate into French with an infinitive.",
         source: "I think I've found the solution.",
         answer: "Je crois avoir trouvé la solution.",
-        altAnswers: ["Je pense avoir trouvé la solution.", "Je crois que j'ai trouvé la solution.", "Je pense que j'ai trouvé la solution."],
+        altAnswers: ["Je pense avoir trouvé la solution."],
         explanation: "Same subject → \"croire\" + past infinitive.",
       },
       {
@@ -1601,7 +1600,7 @@ export const FR_C1_U04: Lesson[] = [
             en: "[Do not exceed] the stated dose.",
             sentence: "___ la dose prescrite.",
             answer: "Ne pas dépasser",
-            explanation: "Negative infinitive: \"ne pas\" both before the verb.",
+            explanation: "Negative infinitive: both parts, \"ne pas\", go before the verb.",
           },
           {
             type: "translate",
@@ -1806,7 +1805,7 @@ export const FR_C1_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Where is être en train de natural?",
+            question: "Where is \"être en train de\" natural?",
             options: [
               "Rappelle-moi plus tard, je suis en train de conduire.",
               "Je suis en train de savoir la réponse.",
@@ -1849,7 +1848,7 @@ export const FR_C1_U04: Lesson[] = [
             prompt: "Translate into French with aller en.",
             source: "Prices keep going up.",
             answer: "Les prix vont en augmentant.",
-            altAnswers: ["Les prix augmentent de plus en plus.", "Les prix vont en montant."],
+            altAnswers: ["Les prix vont en montant."],
             explanation: "A trend → \"aller en augmentant\".",
           },
         ],
@@ -1876,7 +1875,7 @@ export const FR_C1_U04: Lesson[] = [
             prompt: "Translate into French with ne faire que.",
             source: "All he does is sleep.",
             answer: "Il ne fait que dormir.",
-            altAnswers: ["Il ne fait rien d'autre que dormir.", "Il passe son temps à dormir."],
+            altAnswers: ["Il ne fait rien d'autre que dormir."],
             explanation: "\"Ne faire que\" + infinitive = do nothing but.",
           },
           {
@@ -1885,7 +1884,7 @@ export const FR_C1_U04: Lesson[] = [
             prompt: "Translate into informal French.",
             source: "The baby keeps crying.",
             answer: "Le bébé n'arrête pas de pleurer.",
-            altAnswers: ["Le bébé ne fait que pleurer.", "Le bébé ne cesse de pleurer."],
+            altAnswers: ["Le bébé ne fait que pleurer."],
             explanation: "\"Ne pas arrêter de\" is the everyday choice.",
           },
         ],
@@ -1925,7 +1924,7 @@ export const FR_C1_U04: Lesson[] = [
         prompt: "Translate into French with aller en.",
         source: "The number of students is gradually decreasing.",
         answer: "Le nombre d'étudiants va en diminuant.",
-        altAnswers: ["Le nombre d'étudiants va en décroissant.", "Le nombre d'étudiants diminue progressivement.", "Le nombre d'élèves va en diminuant."],
+        altAnswers: ["Le nombre d'étudiants va en décroissant.", "Le nombre d'élèves va en diminuant."],
         explanation: "Trend → \"aller en\" + participle.",
       },
       {
@@ -1943,7 +1942,6 @@ export const FR_C1_U04: Lesson[] = [
         prompt: "Translate into French with ne faire que.",
         source: "I'm only passing through.",
         answer: "Je ne fais que passer.",
-        altAnswers: ["Je suis juste de passage.", "Je ne suis que de passage."],
         explanation: "Here \"ne faire que\" = only.",
       },
       {
@@ -1964,7 +1962,7 @@ export const FR_C1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does « Elle ne fait que travailler » mean?",
+        question: "What does \"Elle ne fait que travailler\" mean?",
         options: ["She does nothing but work.", "She has just started working.", "She doesn't work.", "She's working at the moment."],
         correctIndex: 0,
         explanation: "\"Ne faire que\" = nothing but.",
@@ -2047,7 +2045,7 @@ export const FR_C1_U04: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "She ended up [by accepting].",
+            en: "She finished [by accepting].",
             sentence: "Elle a fini ___.",
             answer: "par accepter",
             explanation: "\"Finir par\" + infinitive, not \"en\" + participle.",
@@ -2113,7 +2111,6 @@ export const FR_C1_U04: Lesson[] = [
             prompt: "Translate into French with an infinitive.",
             source: "I heard her singing.",
             answer: "Je l'ai entendue chanter.",
-            altAnswers: ["Je l'ai entendue qui chantait."],
             explanation: "Perception verb + infinitive (agreement of \"entendue\" is covered in the next lesson).",
           },
           {
@@ -2763,7 +2760,7 @@ export const FR_C1_U04: Lesson[] = [
           "Model ending: \"Enfourner pour 35 minutes en surveillant la coloration. La tarte une fois dorée, la sortir du four et la saupoudrer de sucre glace. Servir tiède, accompagnée d'une boule de glace vanille.\" Note \"accompagnée\" agreeing with the implied \"la tarte\".",
         ],
         examples: [
-          { es: "Préchauffer le four à 180 °C.", en: "Preheat the oven to 180 C." },
+          { es: "Préchauffer le four à 180 °C.", en: "Preheat the oven to 180°C." },
           { es: "Éplucher les pommes et les couper en lamelles.", en: "Peel the apples and cut them into thin slices." },
           { es: "Mélanger les œufs et le sucre en fouettant énergiquement.", en: "Mix the eggs and sugar, whisking vigorously." },
           { es: "Verser la crème sur les pommes en remuant.", en: "Pour the cream over the apples while stirring." },
@@ -3102,7 +3099,7 @@ export const FR_C1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which rewrite is correct for: Comme le train avait du retard, nous avons raté la correspondance?",
+        question: "Which rewrite is correct for \"Comme le train avait du retard, nous avons raté la correspondance\"?",
         options: [
           "Le train ayant du retard, nous avons raté la correspondance.",
           "Ayant du retard, nous avons raté la correspondance à cause du train.",

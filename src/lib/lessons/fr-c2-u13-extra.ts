@@ -10,7 +10,7 @@ export const FR_C2_U13_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Argumentation, Learned Connectors with Fine Nuance, Part 1 of 3",
-    summary: "Or, dès lors, partant, aussi with inversion, en effet vs en fait, du reste, au demeurant and a fortiori: choose and place them correctly.",
+    summary: "\"Or\", \"dès lors\", \"partant\", \"aussi\" with inversion, \"en effet\" vs \"en fait\", \"du reste\", \"au demeurant\" and \"a fortiori\": choose and place them correctly.",
     duration: "15 min",
     sections: [
       {
@@ -31,7 +31,7 @@ export const FR_C2_U13_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French using aussi.",
+            prompt: "Translate into French using \"aussi\".",
             source: "There was no evidence; the judge therefore dismissed the case.",
             answer: "Les preuves manquaient ; aussi le juge a-t-il prononcé un non-lieu.",
             altAnswers: ["Les preuves manquaient, aussi le juge a-t-il prononcé un non-lieu.", "Il n'y avait pas de preuves ; aussi le juge a-t-il prononcé un non-lieu.", "Il n'y avait pas de preuves, aussi le juge a-t-il prononcé un non-lieu."],
@@ -57,7 +57,7 @@ export const FR_C2_U13_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French using or.",
+        prompt: "Translate into French using \"or\".",
         source: "All candidates must speak English; yet she doesn't speak it.",
         answer: "Tous les candidats doivent parler anglais ; or, elle ne le parle pas.",
         altAnswers: ["Tous les candidats doivent parler anglais ; or elle ne le parle pas.", "Tous les candidats doivent parler anglais, or elle ne le parle pas.", "Tous les candidats doivent parler l'anglais ; or, elle ne le parle pas."],
@@ -66,7 +66,7 @@ export const FR_C2_U13_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French using dès lors que.",
+        prompt: "Translate into French using \"dès lors que\".",
         source: "Since the contract is signed, it can no longer be changed.",
         answer: "Dès lors que le contrat est signé, il ne peut plus être modifié.",
         altAnswers: ["Dès lors que le contrat est signé, on ne peut plus le modifier.", "Dès lors que le contrat a été signé, il ne peut plus être modifié.", "Dès lors que le contrat a été signé, on ne peut plus le modifier."],
@@ -75,7 +75,7 @@ export const FR_C2_U13_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French using aussi.",
+        prompt: "Translate into French using \"aussi\".",
         source: "The road was closed; we therefore took the train.",
         answer: "La route était fermée ; aussi avons-nous pris le train.",
         altAnswers: ["La route était fermée, aussi avons-nous pris le train.", "La route était coupée ; aussi avons-nous pris le train.", "La route était coupée, aussi avons-nous pris le train."],
@@ -123,7 +123,7 @@ export const FR_C2_U13_EXTRA: Lesson[] = [
         en: "The figures are false; [consequently], the conclusion collapses.",
         sentence: "Les chiffres sont faux ; ___, la conclusion s'effondre.",
         answer: "dès lors",
-        altAnswers: ["par conséquent", "partant", "de ce fait", "dès lors,"],
+        altAnswers: ["par conséquent", "partant", "de ce fait"],
         explanation: "\"Dès lors\" draws the consequence; \"partant\" is a literary synonym.",
       },
       {
@@ -144,7 +144,7 @@ export const FR_C2_U13_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence uses aussi correctly to mean therefore?",
+        question: "Which sentence uses \"aussi\" correctly to mean therefore?",
         options: [
           "Il pleuvait ; aussi sommes-nous restés à la maison.",
           "Il pleuvait ; aussi nous sommes restés à la maison.",
@@ -188,7 +188,7 @@ export const FR_C2_U13_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Argumentation, the Mood That Argues, Part 2 of 3",
-    summary: "Indicative or subjunctive after il semble que, il me semble que, il est probable / possible que, je ne doute pas que and croyez-vous que.",
+    summary: "Indicative or subjunctive after \"il semble que\", \"il me semble que\", \"il est probable / possible que\", \"je ne doute pas que\" and \"croyez-vous que\".",
     duration: "15 min",
     sections: [
       {
@@ -360,7 +360,7 @@ export const FR_C2_U13_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Argumentation, Il Convient, Il Importe and Courteous Disagreement, Part 3 of 3",
-    summary: "Il convient de, il y a lieu de, il importe de, il est permis de penser que, and the formal formulas of disagreement.",
+    summary: "\"Il convient de\", \"il y a lieu de\", \"il importe de\", \"il est permis de penser que\", and the formal formulas of disagreement.",
     duration: "15 min",
     sections: [
       {
@@ -401,7 +401,7 @@ export const FR_C2_U13_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French using il convient de.",
+        prompt: "Translate into French using \"il convient de\".",
         source: "Two aspects of the problem should be distinguished.",
         answer: "Il convient de distinguer deux aspects du problème.",
         altAnswers: ["Il convient de distinguer deux aspects de ce problème."],
@@ -410,7 +410,7 @@ export const FR_C2_U13_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French using il convient que.",
+        prompt: "Translate into French using \"il convient que\".",
         source: "The council should publish the figures.",
         answer: "Il convient que le conseil publie les chiffres.",
         altAnswers: ["Il conviendrait que le conseil publie les chiffres."],
@@ -675,10 +675,10 @@ export const FR_C2_U13_EXTRA: Lesson[] = [
         type: "multiple-choice",
         question: "« Certes, la mesure est coûteuse. » What must follow?",
         options: [
-          "A refutation introduced by mais, toutefois or il n'en reste pas moins que.",
-          "Another concession introduced by certes.",
-          "The thesis, introduced by je soutiens que.",
-          "Nothing: certes can end the argument.",
+          "A refutation introduced by \"mais\", \"toutefois\" or \"il n'en reste pas moins que\".",
+          "Another concession introduced by \"certes\".",
+          "The thesis, introduced by \"je soutiens que\".",
+          "Nothing: \"certes\" can end the argument.",
         ],
         correctIndex: 0,
         explanation: "\"Certes\" sets up a turn: a concession without its refutation leaves the argument hanging.",
@@ -746,7 +746,7 @@ export const FR_C2_U13_EXTRA: Lesson[] = [
               { left: "Sous réserve de l'accord de la direction", right: "Conditioning" },
               { left: "Marché conclu.", right: "Closing" },
             ],
-            explanation: "Each function has its typical forms: conditional, prêt à, future negative, sous réserve de, set closing phrases.",
+            explanation: "Each function has its typical forms: the conditional, \"prêt à\", a negative future, \"sous réserve de\", set closing phrases.",
           },
         ],
       },
@@ -989,8 +989,8 @@ export const FR_C2_U13_EXTRA: Lesson[] = [
         en: "[Although it is] useful in principle, the meeting has become a ritual. (tribune)",
         sentence: "___ utile en principe, la réunion est devenue un rituel.",
         answer: "Bien qu'elle soit",
-        altAnswers: ["Quoiqu'elle soit", "Bien que", "Quoique"],
-        explanation: "Formal concession: \"bien que\" + subjunctive, or the elliptical \"bien que utile\".",
+        altAnswers: ["Quoiqu'elle soit", "Quoique"],
+        explanation: "Formal concession: \"bien que\" + subjunctive, or the elliptical \"quoique utile\" / \"bien qu'utile\".",
       },
       {
         type: "fill-blank",
@@ -1036,7 +1036,7 @@ export const FR_C2_U13_EXTRA: Lesson[] = [
         type: "listen-choose",
         audio: "Franchement, la réunion du lundi, ça sert à rien.",
         question: "Which register is this?",
-        options: ["Casual (casual chat)", "Standard (meeting)", "Formal (written tribune)", "Legal"],
+        options: ["Casual (café chat)", "Standard (meeting)", "Formal (written tribune)", "Legal"],
         correctIndex: 0,
         explanation: "Dropped \"ne\", \"ça\", dislocation and \"franchement\": casual speech.",
       },

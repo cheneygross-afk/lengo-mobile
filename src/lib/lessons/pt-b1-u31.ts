@@ -15,13 +15,13 @@ export const PT_B1_U31: Lesson[] = [
         heading: "Chefe, gestor, equipe, setor: the people",
         body: [
           "\"Chefe\" is the everyday word for boss and has the same form for a man or a woman: \"o chefe\", \"a chefe\" (\"a chefa\" is jokey). In company language you'll hear \"gestor\" / \"gestora\" (manager) and \"líder\". The people you work with are \"colegas de trabalho\", and in an informal office, \"o pessoal\".",
-          "A company is split into \"setores\" or \"departamentos\": \"o setor financeiro\", \"o RH\" (recursos humanos, said \"erre agá\"). Your team is \"a equipe\", which takes a singular verb even though it means several people: \"a equipe está atrasada\". \"Time\" is also used in offices now, borrowed from football. Outside the company are \"clientes\" and \"fornecedores\" (suppliers).",
+          "A company is split into \"setores\" or \"departamentos\": \"o setor financeiro\", \"o RH\" (recursos humanos, said \"erre agá\"). Your team is \"a equipe\", which takes a singular verb even though it means several people: \"a equipe está atrasada\". \"Time\" is also used in offices now, borrowed from soccer. Outside the company are \"clientes\" and \"fornecedores\" (suppliers).",
         ],
         examples: [
           { es: "Minha chefe é exigente, mas muito justa.", en: "My boss is demanding, but very fair." },
           { es: "A gestora do projeto marcou uma reunião para segunda.", en: "The project manager set up a meeting for Monday." },
           { es: "A equipe de vendas bateu a meta do mês.", en: "The sales team hit the monthly target." },
-          { es: "Fale com o RH sobre as suas férias.", en: "Talk to HR about your holiday." },
+          { es: "Fale com o RH sobre as suas férias.", en: "Talk to HR about your vacation." },
           { es: "O fornecedor atrasou a entrega de novo.", en: "The supplier delivered late again." },
         ],
         checkpoint: [
@@ -36,10 +36,10 @@ export const PT_B1_U31: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You want to say that your (female) boss is on holiday. Which sentence is right?",
+            question: "You want to say that your (female) boss is on vacation. Which sentence is right?",
             options: ["A minha chefe está de férias.", "O minha chefe está de férias.", "A minha chefe está em férias de trabalho.", "A minha patroa de trabalho está de férias."],
             correctIndex: 0,
-            explanation: "\"Chefe\" doesn't change for a woman; the article and possessive do: \"a minha chefe\". \"Estar de férias\" is the set phrase for being on holiday. \"Patroa\" sounds like the employer of a domestic worker, or a jokey word for your wife.",
+            explanation: "\"Chefe\" doesn't change for a woman; the article and possessive do: \"a minha chefe\". \"Estar de férias\" is the set phrase for being on vacation. \"Patroa\" sounds like the employer of a domestic worker, or a jokey word for your wife.",
           },
         ],
       },
@@ -88,13 +88,13 @@ export const PT_B1_U31: Lesson[] = [
       {
         heading: "Turno, plantão, escala, hora extra, home office: the schedule",
         body: [
-          "Many jobs run in \"turnos\" (shifts): \"o turno da noite\". A \"plantão\" is a duty shift, often a long one, in hospitals, pharmacies, newsrooms and the police: \"a médica está de plantão\". \"A escala\" is the rota, and \"escala 6x1\" (\"seis por um\": six days on, one off) is common in shops and a hot political topic.",
+          "Many jobs run in \"turnos\" (shifts): \"o turno da noite\". A \"plantão\" is a duty shift, often a long one, in hospitals, pharmacies, newsrooms and the police: \"a médica está de plantão\". \"A escala\" is the work schedule, and \"escala 6x1\" (\"seis por um\": six days on, one off) is common in stores and a hot political topic.",
           "\"Hora extra\" is overtime, and \"fazer hora extra\" means to work it; by law it is paid at least 50% more. For where you work, Brazilians use the English loans: \"trabalhar de home office\" or \"em home office\", and \"o modelo híbrido\" (two or three days in the office). You may also need a \"crachá\" (ID badge) to get through the turnstile.",
         ],
         examples: [
           { es: "Ela trabalha no turno da noite num hospital em Manaus.", en: "She works the night shift at a hospital in Manaus." },
           { es: "Hoje não posso sair, estou de plantão.", en: "I can't go out today, I'm on duty." },
-          { es: "A escala de fim de ano ainda não saiu.", en: "The end-of-year rota hasn't come out yet." },
+          { es: "A escala de fim de ano ainda não saiu.", en: "The end-of-year schedule hasn't come out yet." },
           { es: "Fiz duas horas extras ontem.", en: "I did two hours of overtime yesterday." },
           { es: "A empresa adotou o modelo híbrido: três dias no escritório e dois de home office.", en: "The company adopted the hybrid model: three days in the office and two working from home." },
           { es: "Esqueci o crachá e não consegui entrar.", en: "I forgot my badge and couldn't get in." },
@@ -127,7 +127,7 @@ export const PT_B1_U31: Lesson[] = [
           { left: "o prazo", right: "the deadline" },
           { left: "a meta", right: "the target" },
           { left: "o fornecedor", right: "the supplier" },
-          { left: "a escala", right: "the rota" },
+          { left: "a escala", right: "the work schedule" },
           { left: "o crachá", right: "the ID badge" },
           { left: "a hora extra", right: "overtime" },
         ],
@@ -157,7 +157,7 @@ export const PT_B1_U31: Lesson[] = [
         en: "Pharmacies [on duty] open on Sundays.",
         sentence: "As farmácias ___ abrem aos domingos.",
         answer: "de plantão",
-        explanation: "\"Farmácia de plantão\" is the pharmacy on the duty rota, open when the others are closed.",
+        explanation: "\"Farmácia de plantão\" is the pharmacy on the duty schedule, open when the others are closed.",
       },
       {
         type: "translate",
@@ -216,40 +216,40 @@ export const PT_B1_U31: Lesson[] = [
     ],
   },
   {
-    slug: "b1-word-web-labour-rights",
+    slug: "b1-word-web-labor-rights",
     level: "PT-B1",
     number: 2,
-    title: "Word Web: Labour Rights",
-    summary: "Talk about the rights that come with carteira assinada: 13º salário, paid holidays plus a third, FGTS, INSS, transport and meal vouchers, parental leave, aviso prévio and rescisão.",
+    title: "Word Web: Labor Rights",
+    summary: "Talk about the rights that come with carteira assinada: 13º salário, paid vacation plus a third, FGTS, INSS, transport and meal vouchers, parental leave, aviso prévio and rescisão.",
     duration: "14 min",
     sections: [
       {
         heading: "13º salário and férias remuneradas",
         body: [
-          "A job with \"carteira assinada\" (under the CLT, the labour code) brings rights that surprise many foreigners. The best known is the \"13º salário\", said \"décimo terceiro\": an extra month's pay each year, usually in two parts, the first by the end of November and the second by 20 December. Shops count on it for Christmas.",
-          "After a year in the job you get thirty days of \"férias remuneradas\" (paid holiday), and on top of your normal pay the company adds a third, \"o terço de férias\". So the holiday month pays more than a normal month. You can split the thirty days into up to three periods, and holidays can't start just before a weekend or a public holiday.",
+          "A job with \"carteira assinada\" (under the CLT, the labor code) brings rights that surprise many foreigners. The best known is the \"13º salário\", said \"décimo terceiro\": an extra month's pay each year, usually in two parts, the first by the end of November and the second by December 20. Shops count on it for Christmas.",
+          "After a year in the job you get thirty days of \"férias remuneradas\" (paid vacation), and on top of your normal pay the company adds a third, \"o terço de férias\". So the vacation month pays more than a normal month. You can split the thirty days into up to three periods, and vacation can't start just before a weekend or a public holiday.",
         ],
         examples: [
-          { es: "O décimo terceiro cai em duas parcelas.", en: "The thirteenth-month salary is paid in two instalments." },
+          { es: "O décimo terceiro cai em duas parcelas.", en: "The thirteenth-month salary is paid in two installments." },
           { es: "Vou usar o décimo terceiro para pagar as dívidas.", en: "I'm going to use my thirteenth salary to pay off my debts." },
-          { es: "Ela tirou quinze dias de férias em julho.", en: "She took fifteen days of holiday in July." },
-          { es: "Com o terço de férias, o salário de janeiro veio maior.", en: "With the holiday bonus, January's pay came out bigger." },
-          { es: "É obrigatório que a empresa pague as férias antes de o funcionário sair.", en: "The company has to pay the holiday before the employee leaves." },
+          { es: "Ela tirou quinze dias de férias em julho.", en: "She took fifteen days of vacation in July." },
+          { es: "Com o terço de férias, o salário de janeiro veio maior.", en: "With the vacation bonus, January's pay came out bigger." },
+          { es: "É obrigatório que a empresa pague as férias antes de o funcionário sair.", en: "The company has to pay the vacation before the employee leaves." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'm going to take thirty days of holiday in December.",
+            source: "I'm going to take thirty days of vacation in December.",
             answer: "Vou tirar trinta dias de férias em dezembro.",
             altAnswers: ["Eu vou tirar trinta dias de férias em dezembro.", "Vou tirar 30 dias de férias em dezembro.", "Eu vou tirar 30 dias de férias em dezembro.", "Em dezembro vou tirar trinta dias de férias.", "Em dezembro eu vou tirar trinta dias de férias."],
-            explanation: "You \"tirar férias\" (take holiday). \"Férias\" is always plural, even for a few days.",
+            explanation: "You \"tirar férias\" (take vacation). \"Férias\" is always plural, even for a few days.",
           },
           {
             type: "multiple-choice",
-            question: "A friend from London asks what \"décimo terceiro\" is. What's the best explanation?",
-            options: ["An extra month's pay every year, paid by the end of the year.", "A bonus for working thirteen months without holidays.", "A tax taken on the thirteenth of each month.", "Overtime paid at thirteen per cent more."],
+            question: "A friend from Chicago asks what \"décimo terceiro\" is. What's the best explanation?",
+            options: ["An extra month's pay every year, paid by the end of the year.", "A bonus for working thirteen months without vacation.", "A tax taken on the thirteenth of each month.", "Overtime paid at thirteen percent more."],
             correctIndex: 0,
             explanation: "The \"13º salário\" is one extra month's salary a year for CLT workers, paid in two parts at the end of the year.",
           },
@@ -264,7 +264,7 @@ export const PT_B1_U31: Lesson[] = [
         examples: [
           { es: "A empresa deposita o FGTS todo mês.", en: "The company pays into the FGTS fund every month." },
           { es: "O INSS é descontado direto do salário.", en: "The INSS contribution is taken straight out of your salary." },
-          { es: "Usei o FGTS para dar entrada no apartamento.", en: "I used my FGTS to make the down payment on the flat." },
+          { es: "Usei o FGTS para dar entrada no apartamento.", en: "I used my FGTS to make the down payment on the apartment." },
           { es: "O vale-refeição não dá para o mês inteiro.", en: "The meal voucher doesn't last the whole month." },
           { es: "Como eu vou de bicicleta, abri mão do vale-transporte.", en: "Since I cycle to work, I gave up the transport voucher." },
         ],
@@ -275,7 +275,7 @@ export const PT_B1_U31: Lesson[] = [
             en: "The INSS [is taken out of] my salary.",
             sentence: "O INSS ___ do meu salário.",
             answer: "é descontado",
-            explanation: "The passive \"ser descontado\" is how payslips and rules describe deductions. The participle agrees with \"o INSS\": \"descontado\".",
+            explanation: "The passive \"ser descontado\" is how pay stubs and rules describe deductions. The participle agrees with \"o INSS\": \"descontado\".",
           },
           {
             type: "translate",
@@ -292,14 +292,14 @@ export const PT_B1_U31: Lesson[] = [
         heading: "Licença, aviso prévio, rescisão",
         body: [
           "\"Licença\" means leave: \"licença-maternidade\" is 120 days (180 at some companies), \"licença-paternidade\" is much shorter, and \"licença médica\" is sick leave with an \"atestado\" (doctor's note). The expression \"estar de licença\" works like \"estar de férias\".",
-          "When a job ends, either side gives \"aviso prévio\": at least thirty days' notice. It can be \"trabalhado\" (you keep working) or \"indenizado\" (paid without working). Then comes \"a rescisão\", the end of the contract and the final payment, with the \"verbas rescisórias\" (what you're owed). Dismissed without cause, you also get a 40% fine on your FGTS and can apply for \"seguro-desemprego\" (unemployment benefit).",
+          "When a job ends, either side gives \"aviso prévio\": at least thirty days' notice. It can be \"trabalhado\" (you keep working) or \"indenizado\" (paid without working). Then comes \"a rescisão\", the end of the contract and the final payment, with the \"verbas rescisórias\" (what you're owed). Dismissed without cause, you also get a 40% fine on your FGTS and can apply for \"seguro-desemprego\" (unemployment benefits).",
         ],
         examples: [
           { es: "Ela está de licença-maternidade até março.", en: "She's on maternity leave until March." },
-          { es: "O médico me deu um atestado de três dias.", en: "The doctor gave me a three-day sick note." },
+          { es: "O médico me deu um atestado de três dias.", en: "The doctor gave me a three-day doctor's note." },
           { es: "Ele cumpriu o aviso prévio e saiu no fim do mês.", en: "He worked out his notice and left at the end of the month." },
           { es: "A rescisão deve ser paga em até dez dias.", en: "The final payment must be made within ten days." },
-          { es: "Quem é demitido sem justa causa tem direito ao seguro-desemprego.", en: "Anyone dismissed without just cause is entitled to unemployment benefit." },
+          { es: "Quem é demitido sem justa causa tem direito ao seguro-desemprego.", en: "Anyone dismissed without just cause is entitled to unemployment benefits." },
         ],
         checkpoint: [
           {
@@ -315,9 +315,9 @@ export const PT_B1_U31: Lesson[] = [
             type: "listen-choose",
             audio: "Ele foi mandado embora e vai receber o seguro-desemprego.",
             question: "What does it mean?",
-            options: ["He was let go and is going to receive unemployment benefit.", "He quit and is going to look for a new job.", "He was promoted and is going to get a bonus.", "He's on leave and is going to come back next month."],
+            options: ["He was let go and is going to receive unemployment benefits.", "He quit and is going to look for a new job.", "He was promoted and is going to get a bonus.", "He's on leave and is going to come back next month."],
             correctIndex: 0,
-            explanation: "\"Ser mandado embora\" means to be let go, and \"seguro-desemprego\" is unemployment benefit.",
+            explanation: "\"Ser mandado embora\" means to be let go, and \"seguro-desemprego\" is unemployment benefits.",
           },
         ],
       },
@@ -331,7 +331,7 @@ export const PT_B1_U31: Lesson[] = [
           { left: "o aviso prévio", right: "notice" },
           { left: "a rescisão", right: "termination and final payment" },
           { left: "o atestado", right: "a doctor's note" },
-          { left: "o seguro-desemprego", right: "unemployment benefit" },
+          { left: "o seguro-desemprego", right: "unemployment benefits" },
         ],
         explanation: "These are the words you'll see on a Brazilian contract and on the day a job ends.",
       },
@@ -382,16 +382,16 @@ export const PT_B1_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "With the holiday bonus, I earned more in January.",
+        source: "With the vacation bonus, I earned more in January.",
         answer: "Com o terço de férias, eu ganhei mais em janeiro.",
         altAnswers: ["Com o terço de férias, ganhei mais em janeiro.", "Com o terço de férias, recebi mais em janeiro.", "Com o terço de férias, eu recebi mais em janeiro.", "Com o adicional de férias, ganhei mais em janeiro.", "Com o adicional de férias, recebi mais em janeiro."],
-        explanation: "\"O terço de férias\" is the extra third you get with your holiday pay. \"Ganhar\" and \"receber\" both work for pay.",
+        explanation: "\"O terço de férias\" is the extra third you get with your vacation pay. \"Ganhar\" and \"receber\" both work for pay.",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: She's entitled to unemployment benefit.",
+        prompt: "Put the words in order to say: She's entitled to unemployment benefits.",
         words: ["Ela", "tem", "direito", "ao", "seguro-desemprego."],
-        translation: "She's entitled to unemployment benefit.",
+        translation: "She's entitled to unemployment benefits.",
         explanation: "\"Ter direito a\" means to be entitled to, and \"a\" + \"o\" contracts to \"ao\".",
       },
       {
@@ -402,8 +402,8 @@ export const PT_B1_U31: Lesson[] = [
       {
         type: "speak",
         text: "Eu tenho carteira assinada, décimo terceiro e férias remuneradas.",
-        prompt: "Say it in Portuguese: I have a formal contract, a thirteenth salary and paid holidays.",
-        tip: "In \"décimo\" the stress falls on the first syllable: DÉ-ci-mo. The \"c\" before \"i\" sounds like s.",
+        prompt: "Say it in Portuguese: I have a formal contract, a thirteenth salary and paid vacation.",
+        tip: "In \"décimo\" the stress falls on the first syllable: DÉ-si-mu. The \"c\" before \"i\" sounds like s.",
         explanation: "This sentence sums up the three best-known CLT rights.",
       },
       {
@@ -422,7 +422,7 @@ export const PT_B1_U31: Lesson[] = [
     level: "PT-B1",
     number: 3,
     title: "Word Web: Salaries and the Holerite",
-    summary: "Read a simple Brazilian payslip and talk about pay: salário bruto and líquido, descontos, holerite or contracheque, salário mínimo, aumento, reajuste, bônus, comissão and the quinto dia útil.",
+    summary: "Read a simple Brazilian pay stub and talk about pay: salário bruto and líquido, descontos, holerite or contracheque, salário mínimo, aumento, reajuste, bônus, comissão and the quinto dia útil.",
     duration: "13 min",
     sections: [
       {
@@ -460,13 +460,13 @@ export const PT_B1_U31: Lesson[] = [
       {
         heading: "Holerite or contracheque, and the quinto dia útil",
         body: [
-          "Your payslip is \"o holerite\" in São Paulo and much of the South, and \"o contracheque\" in Rio and other places. On it you'll find \"vencimentos\" or \"proventos\" (earnings) in one column and \"descontos\" in the other, with the \"total líquido\" at the bottom.",
-          "By law, the salary is paid by the \"quinto dia útil\" (fifth working day) of the following month. A \"dia útil\" is a weekday that isn't a public holiday; Saturdays count in the CLT, though banks don't open. Many companies also pay an \"adiantamento\" (advance) mid-month, sometimes called \"o vale\".",
+          "Your pay stub is \"o holerite\" in São Paulo and much of the South, and \"o contracheque\" in Rio and other places. On it you'll find \"vencimentos\" or \"proventos\" (earnings) in one column and \"descontos\" in the other, with the \"total líquido\" at the bottom.",
+          "By law, the salary is paid by the \"quinto dia útil\" (fifth business day) of the following month. A \"dia útil\" is a weekday that isn't a public holiday; Saturdays count in the CLT, though banks don't open. Many companies also pay an \"adiantamento\" (advance) mid-month, sometimes called \"o vale\".",
         ],
         examples: [
-          { es: "O holerite já está disponível no aplicativo.", en: "The payslip is already available in the app." },
-          { es: "No contracheque aparecem os proventos e os descontos.", en: "The payslip shows earnings and deductions." },
-          { es: "O salário é pago até o quinto dia útil do mês seguinte.", en: "Salaries are paid by the fifth working day of the following month." },
+          { es: "O holerite já está disponível no aplicativo.", en: "The pay stub is already available in the app." },
+          { es: "No contracheque aparecem os proventos e os descontos.", en: "The pay stub shows earnings and deductions." },
+          { es: "O salário é pago até o quinto dia útil do mês seguinte.", en: "Salaries are paid by the fifth business day of the following month." },
           { es: "Com o feriado, o pagamento só vai cair na terça.", en: "With the holiday, the money won't come in until Tuesday." },
           { es: "Pedi um adiantamento porque o carro quebrou.", en: "I asked for an advance because my car broke down." },
         ],
@@ -474,7 +474,7 @@ export const PT_B1_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The salary [is paid] by the fifth working day.",
+            en: "The salary [is paid] by the fifth business day.",
             sentence: "O salário ___ até o quinto dia útil.",
             answer: "é pago",
             altAnswers: ["deve ser pago", "tem que ser pago"],
@@ -493,20 +493,20 @@ export const PT_B1_U31: Lesson[] = [
             type: "listen-choose",
             audio: "Você pode me mandar o holerite do último mês?",
             question: "What is being asked for?",
-            options: ["Last month's payslip.", "Last month's electricity bill.", "The salary for next month.", "A bank statement for the year."],
+            options: ["Last month's pay stub.", "Last month's electricity bill.", "The salary for next month.", "A bank statement for the year."],
             correctIndex: 0,
-            explanation: "\"Holerite\" is the payslip, and landlords and banks often ask for the last one or three.",
+            explanation: "\"Holerite\" is the pay stub, and landlords and banks often ask for the last one or three.",
           },
         ],
       },
       {
         heading: "Aumento, reajuste, bônus, comissão",
         body: [
-          "An \"aumento\" is a pay rise for you, usually because you earned it or were promoted. A \"reajuste\" is an adjustment for everyone, often to keep up with inflation, negotiated each year by the \"sindicato\" (union). \"O salário mínimo teve reajuste\" sounds like news, \"pedi um aumento\" sounds personal.",
+          "An \"aumento\" is a raise for you, usually because you earned it or were promoted. A \"reajuste\" is an adjustment for everyone, often to keep up with inflation, negotiated each year by the \"sindicato\" (union). \"O salário mínimo teve reajuste\" sounds like news, \"pedi um aumento\" sounds personal.",
           "Variable pay has its own words: \"bônus\" (bonus, same in the plural), \"comissão\" (commission, for sales) and \"PLR\" (participação nos lucros e resultados, profit sharing). Remember the passive from Unit 12 for company announcements: \"o reajuste foi aprovado\", \"os bônus serão pagos em março\".",
         ],
         examples: [
-          { es: "Pedi um aumento ao meu chefe e ele disse que ia pensar.", en: "I asked my boss for a rise and he said he'd think about it." },
+          { es: "Pedi um aumento ao meu chefe e ele disse que ia pensar.", en: "I asked my boss for a raise and he said he'd think about it." },
           { es: "O reajuste de 5% foi negociado pelo sindicato.", en: "The 5% pay adjustment was negotiated by the union." },
           { es: "Os vendedores ganham um fixo mais comissão.", en: "The salespeople earn a base salary plus commission." },
           { es: "A PLR vai ser paga em fevereiro.", en: "The profit-sharing bonus is going to be paid in February." },
@@ -517,10 +517,10 @@ export const PT_B1_U31: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'm going to ask for a pay rise.",
+            source: "I'm going to ask for a raise.",
             answer: "Vou pedir um aumento.",
             altAnswers: ["Eu vou pedir um aumento.", "Vou pedir aumento.", "Eu vou pedir aumento.", "Vou pedir um aumento de salário.", "Eu vou pedir um aumento de salário."],
-            explanation: "A personal rise is an \"aumento\", and you \"pedir\" it. A \"reajuste\" would be for everyone.",
+            explanation: "A personal raise is an \"aumento\", and you \"pedir\" it. A \"reajuste\" would be for everyone.",
           },
           {
             type: "multiple-choice",
@@ -554,7 +554,7 @@ export const PT_B1_U31: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The money [comes in] on the fifth working day.",
+        en: "The money [comes in] on the fifth business day.",
         sentence: "O dinheiro ___ no quinto dia útil.",
         answer: "cai",
         altAnswers: ["entra"],
@@ -564,9 +564,9 @@ export const PT_B1_U31: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "o holerite", right: "the payslip" },
+          { left: "o holerite", right: "the pay stub" },
           { left: "o reajuste", right: "an adjustment for everyone" },
-          { left: "o aumento", right: "a personal pay rise" },
+          { left: "o aumento", right: "a personal raise" },
           { left: "a comissão", right: "commission on sales" },
           { left: "o adiantamento", right: "an advance" },
         ],
@@ -593,9 +593,9 @@ export const PT_B1_U31: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Your landlord in Rio asks for your \"contracheque\". What do you send?",
-        options: ["Your payslip.", "Your work contract.", "A cheque for the rent.", "Your bank card."],
+        options: ["Your pay stub.", "Your work contract.", "A check for the rent.", "Your bank card."],
         correctIndex: 0,
-        explanation: "\"Contracheque\" is the Rio word for payslip, the same thing as a \"holerite\" in São Paulo.",
+        explanation: "\"Contracheque\" is the Rio word for pay stub, the same thing as a \"holerite\" in São Paulo.",
       },
       {
         type: "word-order",
@@ -613,7 +613,7 @@ export const PT_B1_U31: Lesson[] = [
         type: "speak",
         text: "Meu salário bruto é de cinco mil, mas o líquido é bem menor.",
         prompt: "Say it in Portuguese: My gross salary is five thousand, but the net is much lower.",
-        tip: "\"Líquido\" is stressed on the first syllable, LÍ-qui-do, and the \"qu\" sounds like k.",
+        tip: "\"Líquido\" is stressed on the first syllable, LÍ-ki-du, and the \"qu\" sounds like k.",
         explanation: "\"Bem menor\" means much smaller; \"bem\" intensifies the comparative.",
       },
       {
@@ -856,7 +856,7 @@ export const PT_B1_U31: Lesson[] = [
         examples: [
           { es: "Estou juntando dinheiro para fazer um intercâmbio.", en: "I'm saving up to go on an exchange abroad." },
           { es: "A gente economizou muito cozinhando em casa.", en: "We saved a lot by cooking at home." },
-          { es: "Ela guarda dez por cento do salário todo mês.", en: "She puts aside ten per cent of her salary every month." },
+          { es: "Ela guarda dez por cento do salário todo mês.", en: "She puts aside ten percent of her salary every month." },
           { es: "Meu dinheiro está todo na poupança.", en: "All my money is in a savings account." },
           { es: "Montei uma planilha para controlar os gastos.", en: "I set up a spreadsheet to keep track of my spending." },
         ],
@@ -882,12 +882,12 @@ export const PT_B1_U31: Lesson[] = [
       {
         heading: "Dívida, juros, parcela: the risky part",
         body: [
-          "\"Dívida\" is a debt and \"dever\" is to owe: \"devo dois mil para o banco\". \"Juros\" (always plural) is interest, and Brazilian interest rates are famously high: \"os juros do cartão são altíssimos\". Paying in instalments is \"parcelar\", each instalment is \"uma parcela\", and shops love \"em dez vezes sem juros\".",
+          "\"Dívida\" is a debt and \"dever\" is to owe: \"devo dois mil para o banco\". \"Juros\" (always plural) is interest, and Brazilian interest rates are famously high: \"os juros do cartão são altíssimos\". Paying in installments is \"parcelar\", each installment is \"uma parcela\", and stores love \"em dez vezes sem juros\".",
           "Credit card language is everyday Portuguese here. \"Pagar o mínimo da fatura\" (the statement) sends the rest to \"o rotativo\", the revolving credit, the most expensive debt in the country. A loan is \"um empréstimo\"; \"emprestar\" is to lend, and borrowing is \"pegar emprestado\".",
         ],
         examples: [
-          { es: "Parcelei a geladeira em doze vezes.", en: "I paid for the fridge in twelve instalments." },
-          { es: "Ainda faltam três parcelas do celular.", en: "There are still three instalments left on the phone." },
+          { es: "Parcelei a geladeira em doze vezes.", en: "I paid for the fridge in twelve installments." },
+          { es: "Ainda faltam três parcelas do celular.", en: "There are still three installments left on the phone." },
           { es: "Os juros do rotativo são os mais altos do mercado.", en: "Revolving credit interest is the highest on the market." },
           { es: "Ele pegou um empréstimo para pagar as dívidas.", en: "He took out a loan to pay off his debts." },
           { es: "Você me empresta cinquenta reais até sexta?", en: "Can you lend me fifty reais until Friday?" },
@@ -897,10 +897,10 @@ export const PT_B1_U31: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Can I pay in ten instalments with no interest?",
+            source: "Can I pay in ten installments with no interest?",
             answer: "Posso parcelar em dez vezes sem juros?",
             altAnswers: ["Eu posso parcelar em dez vezes sem juros?", "Dá para parcelar em dez vezes sem juros?", "Dá pra parcelar em dez vezes sem juros?", "Posso pagar em dez vezes sem juros?", "Posso parcelar em 10 vezes sem juros?", "Dá para parcelar em 10 vezes sem juros?", "Posso dividir em dez vezes sem juros?"],
-            explanation: "\"Parcelar\" is to pay in instalments, counted in \"vezes\". \"Juros\" is always plural.",
+            explanation: "\"Parcelar\" is to pay in installments, counted in \"vezes\". \"Juros\" is always plural.",
           },
           {
             type: "fill-blank",
@@ -972,7 +972,7 @@ export const PT_B1_U31: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "os juros", right: "interest" },
-          { left: "a parcela", right: "an instalment" },
+          { left: "a parcela", right: "an installment" },
           { left: "o orçamento", right: "the budget" },
           { left: "a fatura", right: "the card statement" },
           { left: "o empréstimo", right: "a loan" },
@@ -1054,25 +1054,25 @@ export const PT_B1_U31: Lesson[] = [
       {
         heading: "Promoção, liquidação, cupom, frete grátis",
         body: [
-          "\"Promoção\" is a special offer on some items: \"está na promoção\" (it's on offer). \"Liquidação\" is a clearance sale, the end-of-season kind with big signs. A \"desconto\" is a discount, and online you type in a \"cupom\" (coupon code) and hope for \"frete grátis\" (free shipping; \"frete\" is the delivery charge). \"Black Friday\" arrived in Brazil in the 2010s and is now a national event, along with the jokes about \"Black Fraude\" when prices go up first.",
+          "\"Promoção\" is a special offer on some items: \"está na promoção\" (it's on sale). \"Liquidação\" is a clearance sale, the end-of-season kind with big signs. A \"desconto\" is a discount, and online you type in a \"cupom\" (coupon code) and hope for \"frete grátis\" (free shipping; \"frete\" is the delivery charge). \"Black Friday\" arrived in Brazil in the 2010s and is now a national event, along with the jokes about \"Black Fraude\" when prices go up first.",
           "\"Caro\" is expensive (never dear as in a letter opening), \"barato\" is cheap, and \"uma pechincha\" is a real bargain: \"isso foi uma pechincha\". \"Oferta\" is a deal: \"as ofertas da semana\".",
         ],
         examples: [
-          { es: "O tênis estava na promoção, com quarenta por cento de desconto.", en: "The trainers were on offer, forty per cent off." },
+          { es: "O tênis estava na promoção, com quarenta por cento de desconto.", en: "The sneakers were on sale, forty percent off." },
           { es: "A liquidação de verão começa amanhã.", en: "The summer clearance sale starts tomorrow." },
           { es: "Usei um cupom e ganhei frete grátis.", en: "I used a coupon and got free shipping." },
           { es: "O frete saiu mais caro que o produto.", en: "The shipping cost more than the product." },
-          { es: "Na Black Friday, muitas lojas aumentaram os preços antes.", en: "For Black Friday, many shops raised their prices beforehand." },
+          { es: "Na Black Friday, muitas lojas aumentaram os preços antes.", en: "For Black Friday, many stores raised their prices beforehand." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "This blender is on offer.",
+            source: "This blender is on sale.",
             answer: "Este liquidificador está na promoção.",
             altAnswers: ["Esse liquidificador está na promoção.", "Este liquidificador está em promoção.", "Esse liquidificador está em promoção.", "O liquidificador está na promoção.", "O liquidificador está em promoção."],
-            explanation: "\"Estar na promoção\" or \"em promoção\" is on offer: a temporary state, so \"estar\".",
+            explanation: "\"Estar na promoção\" or \"em promoção\" is on sale: a temporary state, so \"estar\".",
           },
           {
             type: "multiple-choice",
@@ -1086,14 +1086,14 @@ export const PT_B1_U31: Lesson[] = [
       {
         heading: "À vista ou a prazo? Paying and haggling",
         body: [
-          "At the checkout you'll hear \"à vista ou a prazo?\" \"À vista\" means paid in full now, by Pix, cash or debit; \"a prazo\" means in instalments, \"parcelado\". Many shops give \"desconto à vista\", so it's worth asking \"quanto fica à vista?\" (how much is it if I pay in full?). Note the crasis in \"à vista\" and none in \"a prazo\".",
-          "\"Pechinchar\" is to haggle. It's normal at a feira, with camelôs and at small shops, much less so in a mall. Brazilians do it politely and indirectly, with the conditional and the imperfeito you know: \"faz um descontinho?\", \"dá para fazer por cem?\", \"eu queria levar dois, sai mais barato?\"",
+          "At the checkout you'll hear \"à vista ou a prazo?\" \"À vista\" means paid in full now, by Pix, cash or debit; \"a prazo\" means in installments, \"parcelado\". Many stores give \"desconto à vista\", so it's worth asking \"quanto fica à vista?\" (how much is it if I pay in full?). Note the crasis in \"à vista\" and none in \"a prazo\".",
+          "\"Pechinchar\" is to haggle. It's normal at a feira, with camelôs and at small stores, much less so in a mall. Brazilians do it politely and indirectly, with the conditional and the imperfeito you know: \"faz um descontinho?\", \"dá para fazer por cem?\", \"eu queria levar dois, sai mais barato?\"",
         ],
         examples: [
-          { es: "À vista no Pix tem dez por cento de desconto.", en: "Paid in full by Pix, there's a ten per cent discount." },
-          { es: "Prefiro comprar a prazo, em seis vezes.", en: "I'd rather buy on instalments, over six months." },
+          { es: "À vista no Pix tem dez por cento de desconto.", en: "Paid in full by Pix, there's a ten percent discount." },
+          { es: "Prefiro comprar a prazo, em seis vezes.", en: "I'd rather buy on installments, over six months." },
           { es: "Quanto fica à vista?", en: "How much is it if I pay in full?" },
-          { es: "Moço, faz um descontinho para mim?", en: "Could you give me a little discount? (to a stallholder)" },
+          { es: "Moço, faz um descontinho para mim?", en: "Could you give me a little discount? (to a vendor)" },
           { es: "Levando três, sai por quanto?", en: "If I take three, how much does it come to?" },
         ],
         checkpoint: [
@@ -1119,12 +1119,12 @@ export const PT_B1_U31: Lesson[] = [
       {
         heading: "Compra por impulso, consumo consciente, vale a pena",
         body: [
-          "\"Compra por impulso\" is an impulse buy, and \"consumismo\" is consumerism. Its opposite is \"consumo consciente\": buying less, buying second-hand at a \"brechó\" (thrift shop), repairing instead of replacing. You'll meet these words in ads, news and Celpe-Bras texts.",
+          "\"Compra por impulso\" is an impulse buy, and \"consumismo\" is consumerism. Its opposite is \"consumo consciente\": buying less, buying second-hand at a \"brechó\" (thrift store), repairing instead of replacing. You'll meet these words in ads, news and Celpe-Bras texts.",
           "\"Vale a pena\" (it's worth it) is everywhere: \"vale a pena comprar\", \"não vale a pena\", \"valeu cada centavo\". Recommendations with the subjunctive fit naturally here: \"sugiro que você compare os preços\", \"é melhor que você espere a liquidação\".",
         ],
         examples: [
           { es: "Comprei por impulso e me arrependi no dia seguinte.", en: "I bought it on impulse and regretted it the next day." },
-          { es: "Ela só compra roupa em brechó.", en: "She only buys clothes at thrift shops." },
+          { es: "Ela só compra roupa em brechó.", en: "She only buys clothes at thrift stores." },
           { es: "O consumo consciente começa com a pergunta: eu preciso disso?", en: "Conscious consumption starts with the question: do I need this?" },
           { es: "Não vale a pena comprar o modelo mais caro.", en: "It isn't worth buying the most expensive model." },
           { es: "É melhor que você espere a Black Friday.", en: "You'd better wait for Black Friday." },
@@ -1181,10 +1181,10 @@ export const PT_B1_U31: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "a prazo", right: "in instalments" },
+          { left: "a prazo", right: "in installments" },
           { left: "à vista", right: "paid in full" },
           { left: "a pechincha", right: "a bargain" },
-          { left: "o brechó", right: "a thrift shop" },
+          { left: "o brechó", right: "a thrift store" },
           { left: "a compra por impulso", right: "an impulse buy" },
         ],
         explanation: "\"À vista\" has the crasis, \"a prazo\" doesn't: \"prazo\" is masculine.",
@@ -1229,7 +1229,7 @@ export const PT_B1_U31: Lesson[] = [
       {
         type: "speak",
         text: "Moço, faz um descontinho pagando à vista?",
-        prompt: "Say it in Portuguese: Could you give me a little discount if I pay in full? (to a stallholder)",
+        prompt: "Say it in Portuguese: Could you give me a little discount if I pay in full? (to a vendor)",
         tip: "\"Descontinho\" is stressed on \"-ti-\", and the t before i sounds like the ch in English cheese.",
         explanation: "The diminutive \"descontinho\" makes the request friendly, which is how Brazilians haggle. The gerund \"pagando à vista\" means if I pay in full.",
       },
@@ -1293,9 +1293,9 @@ export const PT_B1_U31: Lesson[] = [
         examples: [
           { es: "Os brasileiros poupam pouco, segundo a pesquisa.", en: "Brazilians save little, according to the survey." },
           { es: "Ela abriu uma poupança para a filha.", en: "She opened a savings account for her daughter." },
-          { es: "Pegue o metrô para poupar tempo.", en: "Take the metro to save time." },
+          { es: "Pegue o metrô para poupar tempo.", en: "Take the subway to save time." },
           { es: "Me poupe dos detalhes, por favor.", en: "Spare me the details, please." },
-          { es: "O técnico poupou os titulares para a final.", en: "The coach rested the first-team players for the final." },
+          { es: "O técnico poupou os titulares para a final.", en: "The coach rested the starters for the final." },
         ],
         checkpoint: [
           {
@@ -1328,7 +1328,7 @@ export const PT_B1_U31: Lesson[] = [
           { es: "O Brasil desperdiça toneladas de comida por ano.", en: "Brazil wastes tons of food a year." },
           { es: "Comprar água em garrafa todo dia é jogar dinheiro fora.", en: "Buying bottled water every day is throwing money away." },
           { es: "Ela vende bolo de pote para ter uma renda extra.", en: "She sells cake in jars to have a side income." },
-          { es: "A renda familiar inclui o salário dos dois e o aluguel da kitnet.", en: "The household income includes both their salaries and the rent from the studio flat." },
+          { es: "A renda familiar inclui o salário dos dois e o aluguel da kitnet.", en: "The household income includes both their salaries and the rent from the studio apartment." },
         ],
         checkpoint: [
           {
@@ -1344,7 +1344,7 @@ export const PT_B1_U31: Lesson[] = [
             type: "listen-choose",
             audio: "Ele tem uma boa renda, mas gasta tudo o que ganha.",
             question: "What does it mean?",
-            options: ["He has a good income, but he spends everything he earns.", "He pays a lot of rent and saves the rest.", "He has a good salary, and he saves everything he earns.", "He rents a good flat, but wastes his time."],
+            options: ["He has a good income, but he spends everything he earns.", "He pays a lot of rent and saves the rest.", "He has a good salary, and he saves everything he earns.", "He rents a good apartment, but wastes his time."],
             correctIndex: 0,
             explanation: "\"Renda\" is income, not rent, and \"gastar\" is to spend.",
           },
@@ -1421,7 +1421,7 @@ export const PT_B1_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Take the metro to save time.",
+        source: "Take the subway to save time.",
         answer: "Pegue o metrô para poupar tempo.",
         altAnswers: ["Pegue o metrô para economizar tempo.", "Pega o metrô para poupar tempo.", "Pega o metrô para economizar tempo.", "Pegue o metrô pra ganhar tempo.", "Pegue o metrô para ganhar tempo.", "Pega o metrô pra ganhar tempo."],
         explanation: "With time, \"poupar\", \"economizar\" and \"ganhar tempo\" all work.",
@@ -1454,7 +1454,7 @@ export const PT_B1_U31: Lesson[] = [
     level: "PT-B1",
     number: 8,
     title: "Dialogue Lab: Vale a Pena Ser PJ?",
-    summary: "Follow two friends in São Paulo comparing a CLT offer with a PJ offer: net pay, the 13º and holidays you lose, taxes and the accountant, and the advice you'd give with the conditional.",
+    summary: "Follow two friends in São Paulo comparing a CLT offer with a PJ offer: net pay, the 13º and vacation you lose, taxes and the accountant, and the advice you'd give with the conditional.",
     duration: "13 min",
     sections: [
       {
@@ -1492,22 +1492,22 @@ export const PT_B1_U31: Lesson[] = [
       {
         heading: "O líquido é maior, mas...: weighing it up",
         body: [
-          "Bruno does the maths. As PJ, \"o líquido é maior\", but there's no 13º, no paid holiday, no FGTS. He uses \"embora\" with the subjunctive, the concession from Unit 4: \"embora pague mais, não tem férias\". \"Mas\" + indicative says the same thing more plainly.",
-          "Notice how they reason: \"se você não trabalha um mês, não ganha\" (a real condition, so plain present); \"tem que colocar tudo na ponta do lápis\" (an idiom: do the sums carefully, literally on the tip of the pencil). \"Fazer as contas\" is to do the maths.",
+          "Bruno does the math. As PJ, \"o líquido é maior\", but there's no 13º, no paid vacation, no FGTS. He uses \"embora\" with the subjunctive, the concession from Unit 4: \"embora pague mais, não tem férias\". \"Mas\" + indicative says the same thing more plainly.",
+          "Notice how they reason: \"se você não trabalha um mês, não ganha\" (a real condition, so plain present); \"tem que colocar tudo na ponta do lápis\" (an idiom: do the sums carefully, literally on the tip of the pencil). \"Fazer as contas\" is to do the math.",
         ],
         examples: [
-          { es: "Bruno: O líquido é maior, mas não tem décimo terceiro nem férias.", en: "Bruno: The net is higher, but there's no thirteenth salary or holiday." },
+          { es: "Bruno: O líquido é maior, mas não tem décimo terceiro nem férias.", en: "Bruno: The net is higher, but there's no thirteenth salary or paid vacation." },
           { es: "Bruno: Embora pague mais, a vaga PJ não tem FGTS.", en: "Bruno: Even though it pays more, the PJ job has no FGTS." },
           { es: "Camila: Mas como PJ eu pago menos imposto.", en: "Camila: But as a PJ I pay less tax." },
           { es: "Bruno: Se você fica doente, ninguém te paga.", en: "Bruno: If you get sick, nobody pays you." },
           { es: "Bruno: Você tem que colocar tudo na ponta do lápis.", en: "Bruno: You have to do the sums very carefully." },
-          { es: "Camila: Fiz as contas e a diferença é de uns dois mil por mês.", en: "Camila: I did the maths and the difference is about two thousand a month." },
+          { es: "Camila: Fiz as contas e a diferença é de uns dois mil por mês.", en: "Camila: I did the math and the difference is about two thousand a month." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Even though it pays] more, it doesn't have paid holidays.",
+            en: "[Even though it pays] more, it doesn't have paid vacation.",
             sentence: "___ mais, não tem férias remuneradas.",
             answer: "Embora pague",
             explanation: "\"Embora\" always takes the subjunctive: \"pague\", from \"pagar\" with the spelling change g → gu.",
@@ -1534,11 +1534,11 @@ export const PT_B1_U31: Lesson[] = [
       {
         heading: "Eu no seu lugar...: giving advice",
         body: [
-          "Bruno ends with advice in the conditional from Unit 6: \"eu no seu lugar pediria um reajuste na proposta CLT\" (if I were you). \"No seu lugar\" lets you give a hypothesis without any if-clause. He also uses the subjunctive after influence verbs: \"sugiro que você negocie\", \"o ideal é que você converse com um contador\".",
+          "Bruno ends with advice in the conditional from Unit 6: \"eu, no seu lugar, pediria um reajuste na proposta CLT\" (if I were you). \"No seu lugar\" lets you give a hypothesis without any if-clause. He also uses the subjunctive after influence verbs: \"sugiro que você negocie\", \"o ideal é que você converse com um contador\".",
           "Camila agrees, but hedges: \"pode ser\", \"depende\", \"até certo ponto\". Brazilians rarely give a flat yes or no about money; \"vou pensar\" closes a conversation politely.",
         ],
         examples: [
-          { es: "Bruno: Eu no seu lugar pediria um reajuste na proposta CLT.", en: "Bruno: If I were you, I'd ask for a better salary on the CLT offer." },
+          { es: "Bruno: Eu, no seu lugar, pediria um reajuste na proposta CLT.", en: "Bruno: If I were you, I'd ask for a better salary on the CLT offer." },
           { es: "Bruno: Sugiro que você negocie antes de responder.", en: "Bruno: I suggest you negotiate before you reply." },
           { es: "Bruno: O ideal é que você converse com um contador.", en: "Bruno: Ideally you'd talk to an accountant." },
           { es: "Camila: Faz sentido. Vou pensar com calma.", en: "Camila: That makes sense. I'll think it over calmly." },
@@ -1548,9 +1548,9 @@ export const PT_B1_U31: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "If I were you, I'd ask for a pay rise.",
-            answer: "Eu no seu lugar pediria um aumento.",
-            altAnswers: ["No seu lugar, eu pediria um aumento.", "No seu lugar, pediria um aumento.", "Eu, no seu lugar, pediria um aumento.", "No seu lugar, eu pediria um reajuste.", "Eu no seu lugar pediria um reajuste.", "Eu no seu lugar pedia um aumento.", "No seu lugar, eu pedia um aumento."],
+            source: "If I were you, I'd ask for a raise.",
+            answer: "Eu, no seu lugar, pediria um aumento.",
+            altAnswers: ["No seu lugar, eu pediria um aumento.", "No seu lugar, pediria um aumento.", "Eu no seu lugar pediria um aumento.", "No seu lugar, eu pediria um reajuste.", "Eu no seu lugar pediria um reajuste.", "Eu no seu lugar pedia um aumento.", "No seu lugar, eu pedia um aumento."],
             explanation: "\"No seu lugar\" + conditional is the natural if I were you. In speech the imperfeito \"pedia\" is common too.",
           },
           {
@@ -1585,18 +1585,18 @@ export const PT_B1_U31: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Camila asks what you think. You'd take the CLT job for the stability. What do you say?",
-        options: ["Eu no seu lugar escolheria a CLT, pela estabilidade.", "Eu no seu lugar escolhi a CLT, pela estabilidade.", "Eu no seu lugar escolha a CLT, pela estabilidade.", "Eu no seu lugar escolhendo a CLT, pela estabilidade."],
+        options: ["Eu, no seu lugar, escolheria a CLT, pela estabilidade.", "Eu, no seu lugar, escolhi a CLT, pela estabilidade.", "Eu, no seu lugar, escolha a CLT, pela estabilidade.", "Eu, no seu lugar, escolhendo a CLT, pela estabilidade."],
         correctIndex: 0,
         explanation: "A hypothesis needs the conditional: \"escolheria\".",
       },
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I [did the maths] and the difference is small.",
+        en: "I [did the math] and the difference is small.",
         sentence: "Eu ___ e a diferença é pequena.",
         answer: "fiz as contas",
         altAnswers: ["coloquei na ponta do lápis", "botei na ponta do lápis"],
-        explanation: "\"Fazer as contas\" is to do the maths; \"fiz\" is the irregular perfeito of \"fazer\".",
+        explanation: "\"Fazer as contas\" is to do the math; \"fiz\" is the irregular perfeito of \"fazer\".",
       },
       {
         type: "translate",
@@ -1630,9 +1630,9 @@ export const PT_B1_U31: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The PJ offer pays more, but it has no holidays.",
+        prompt: "Put the words in order to say: The PJ offer pays more, but it has no paid vacation.",
         words: ["A", "proposta", "PJ", "paga", "mais,", "mas", "não", "tem", "férias."],
-        translation: "The PJ offer pays more, but it has no holidays.",
+        translation: "The PJ offer pays more, but it has no paid vacation.",
         explanation: "\"Mas\" + indicative: the plain version of the \"embora\" sentence.",
       },
       {
@@ -1642,7 +1642,7 @@ export const PT_B1_U31: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Eu no seu lugar pediria um reajuste antes de aceitar.",
+        text: "Eu, no seu lugar, pediria um reajuste antes de aceitar.",
         prompt: "Say it in Portuguese: If I were you, I'd ask for a better salary before accepting.",
         tip: "In \"reajuste\" say each vowel: re-a-JUS-te. In most of Brazil the final \"te\" sounds like chee.",
         explanation: "\"No seu lugar\" + conditional \"pediria\" is the standard way to give advice as a hypothesis.",
@@ -1677,7 +1677,7 @@ export const PT_B1_U31: Lesson[] = [
           { es: "Thiago: De novo? Mas eu recebi no dia cinco!", en: "Thiago: Again? But I got paid on the fifth!" },
           { es: "Larissa: Olha aqui: a gente tem gastado demais com delivery.", en: "Larissa: Look here: we've been spending way too much on delivery." },
           { es: "Thiago: Quanto foi este mês?", en: "Thiago: How much was it this month?" },
-          { es: "Larissa: Quase novecentos reais, só de comida pedida.", en: "Larissa: Almost nine hundred reais, just on takeaway food." },
+          { es: "Larissa: Quase novecentos reais, só de comida pedida.", en: "Larissa: Almost nine hundred reais, just on takeout." },
         ],
         checkpoint: [
           {
@@ -1692,7 +1692,7 @@ export const PT_B1_U31: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Thiago says \"Mas eu recebi no dia cinco!\" What does he mean?",
-            options: ["He got paid on the fifth.", "He received a parcel on the fifth.", "He paid the bills on the fifth.", "He'll get paid on the fifth."],
+            options: ["He got paid on the fifth.", "He received a package on the fifth.", "He paid the bills on the fifth.", "He'll get paid on the fifth."],
             correctIndex: 0,
             explanation: "\"Receber\" on its own often means to get paid: \"já recebi\", \"recebo no quinto dia útil\".",
           },
@@ -1881,7 +1881,7 @@ export const PT_B1_U31: Lesson[] = [
           "\"*Estou em vermelho\" drops the article. The fixed phrase is \"estar no vermelho\", with \"no\". The same goes for the way out: \"sair do vermelho\".",
         ],
         examples: [
-          { es: "Economizei trezentos reais cancelando a academia.", en: "I saved three hundred reais by cancelling my gym membership." },
+          { es: "Economizei trezentos reais cancelando a academia.", en: "I saved three hundred reais by canceling my gym membership." },
           { es: "Juntei dinheiro durante um ano para a viagem.", en: "I saved up for a year for the trip." },
           { es: "Estou no vermelho desde março.", en: "I've been in the red since March." },
           { es: "Finalmente saí do vermelho!", en: "I'm finally out of the red!" },
@@ -1891,8 +1891,8 @@ export const PT_B1_U31: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"*Salvei mil reais para as férias.\" Write the correct Portuguese for: I saved up a thousand reais for the holidays.",
-            source: "I saved up a thousand reais for the holidays.",
+            prompt: "A learner wrote \"*Salvei mil reais para as férias.\" Write the correct Portuguese for: I saved up a thousand reais for vacation.",
+            source: "I saved up a thousand reais for vacation.",
             answer: "Juntei mil reais para as férias.",
             altAnswers: ["Eu juntei mil reais para as férias.", "Guardei mil reais para as férias.", "Eu guardei mil reais para as férias.", "Economizei mil reais para as férias.", "Eu economizei mil reais para as férias.", "Juntei mil reais pras férias.", "Guardei mil reais pras férias.", "Poupei mil reais para as férias."],
             explanation: "Putting money aside is \"juntar\" or \"guardar\"; \"economizar\" also works. \"Salvar\" never takes money as its object.",
@@ -1947,7 +1947,7 @@ export const PT_B1_U31: Lesson[] = [
         examples: [
           { es: "Me mandaram embora na sexta-feira.", en: "They let me go on Friday." },
           { es: "Ele foi demitido depois da fusão.", en: "He was let go after the merger." },
-          { es: "O salário é pago no quinto dia útil.", en: "The salary is paid on the fifth working day." },
+          { es: "O salário é pago no quinto dia útil.", en: "The salary is paid on the fifth business day." },
           { es: "O boleto já está pago.", en: "The payment slip is already paid." },
           { es: "Todo o dinheiro foi gasto em uma semana.", en: "All the money was spent in a week." },
         ],
@@ -2058,7 +2058,7 @@ export const PT_B1_U31: Lesson[] = [
         type: "speak",
         text: "Eu não fui mandado embora, eu pedi demissão.",
         prompt: "Say it in Portuguese: I wasn't let go, I quit.",
-        tip: "\"Embora\" is stressed on the middle syllable: em-BO-ra, with a closed o.",
+        tip: "\"Embora\" is stressed on the middle syllable: em-BÓ-ra, with an open o.",
         explanation: "The two sides of leaving a job, in one sentence.",
       },
       {
@@ -2077,7 +2077,7 @@ export const PT_B1_U31: Lesson[] = [
     level: "PT-B1",
     number: 11,
     title: "Real-World Mission: A Monthly Budget",
-    summary: "Draw up a monthly budget and write to your flatmate proposing how to split the bills and save for a trip together, with the subjunctive, the personal infinitive and friendly but clear Portuguese.",
+    summary: "Draw up a monthly budget and write to your roommate proposing how to split the bills and save for a trip together, with the subjunctive, the personal infinitive and friendly but clear Portuguese.",
     duration: "14 min",
     kind: "skills",
     format: "Real-world mission",
@@ -2090,7 +2090,7 @@ export const PT_B1_U31: Lesson[] = [
         ],
         examples: [
           { es: "Os gastos fixos somam três mil e duzentos por mês.", en: "Our fixed costs come to three thousand two hundred a month." },
-          { es: "A conta de luz vem por débito automático.", en: "The electricity bill is paid by direct debit." },
+          { es: "A conta de luz vem por débito automático.", en: "The electricity bill is paid by automatic debit." },
           { es: "A gente divide o aluguel meio a meio.", en: "We split the rent half and half." },
           { es: "Vamos rachar a internet e o streaming?", en: "Shall we split the internet and the streaming?" },
           { es: "Que tal fazer uma vaquinha para as compras do mês?", en: "How about a kitty for the monthly shopping?" },
@@ -2110,10 +2110,10 @@ export const PT_B1_U31: Lesson[] = [
             instructions: "Match the Portuguese to the English.",
             pairs: [
               { left: "os gastos fixos", right: "fixed costs" },
-              { left: "o débito automático", right: "direct debit" },
+              { left: "o débito automático", right: "automatic debit" },
               { left: "meio a meio", right: "half and half" },
               { left: "a vaquinha", right: "a kitty" },
-              { left: "o condomínio", right: "the building service charge" },
+              { left: "o condomínio", right: "the condo fee" },
             ],
             explanation: "\"Condomínio\" is the monthly fee every apartment owner or tenant pays the building.",
           },
@@ -2164,7 +2164,7 @@ export const PT_B1_U31: Lesson[] = [
       {
         heading: "The message: clear, friendly, signed off",
         body: [
-          "A message to a flatmate is informal but organised. Open warmly (\"Oi, Gabriel, tudo bem?\"), state the problem in one line, give the numbers, make your proposal and end by inviting a reply: \"me fala o que você acha\", \"a gente conversa hoje à noite?\". Number the points if there are several; Brazilians often write \"1)\", \"2)\".",
+          "A message to a roommate is informal but organized. Open warmly (\"Oi, Gabriel, tudo bem?\"), state the problem in one line, give the numbers, make your proposal and end by inviting a reply: \"me fala o que você acha\", \"a gente conversa hoje à noite?\". Number the points if there are several; Brazilians often write \"1)\", \"2)\".",
           "Keep the tenses honest: perfeito composto for the recent pattern (\"as contas têm atrasado\"), present for facts, \"vamos\" + infinitive or the subjunctive for the plan.",
         ],
         examples: [
@@ -2235,13 +2235,13 @@ export const PT_B1_U31: Lesson[] = [
         question: "You want to end your message to Gabriel in a friendly but clear way. Which line fits?",
         options: ["Me fala o que você acha, e a gente conversa hoje à noite.", "Atenciosamente, aguardo o seu retorno.", "Exijo que você responda hoje.", "Venho por meio deste solicitar uma resposta."],
         correctIndex: 0,
-        explanation: "A flatmate gets the informal register. The other options are formal emails, or rude.",
+        explanation: "A roommate gets the informal register. The other options are formal emails, or rude.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The electricity bill is paid by direct debit.",
+        source: "The electricity bill is paid by automatic debit.",
         answer: "A conta de luz é paga por débito automático.",
         altAnswers: ["A conta de luz é paga no débito automático.", "A conta de luz vem no débito automático.", "A conta de luz vem por débito automático.", "A conta de luz está no débito automático."],
         explanation: "Passive \"é paga\", short participle agreeing with \"a conta\".",
@@ -2298,14 +2298,14 @@ export const PT_B1_U31: Lesson[] = [
       {
         heading: "A formal email to the RH",
         body: [
-          "Your payslip has an error, so you write to HR. Unit 15's formal frame carries the new vocabulary: \"Prezada Sra.\", \"gostaria de solicitar\", \"segue em anexo o holerite\", \"fico no aguardo\". The passive describes the problem neutrally, without blaming anyone: \"o vale-transporte foi descontado duas vezes\".",
+          "Your pay stub has an error, so you write to HR. Unit 15's formal frame carries the new vocabulary: \"Prezada Sra.\", \"gostaria de solicitar\", \"segue em anexo o holerite\", \"fico no aguardo\". The passive describes the problem neutrally, without blaming anyone: \"o vale-transporte foi descontado duas vezes\".",
         ],
         examples: [
-          { es: "Prezada Sra. Renata, verifiquei que o vale-transporte foi descontado duas vezes.", en: "Dear Ms Renata, I noticed the transport voucher was deducted twice." },
-          { es: "Segue em anexo o holerite de setembro.", en: "Please find September's payslip attached." },
+          { es: "Prezada Sra. Renata, verifiquei que o vale-transporte foi descontado duas vezes.", en: "Dear Ms. Renata, I noticed the transport voucher was deducted twice." },
+          { es: "Segue em anexo o holerite de setembro.", en: "Please find September's pay stub attached." },
           { es: "Gostaria de solicitar a correção do valor.", en: "I would like to request that the amount be corrected." },
           { es: "Poderia me informar quando a diferença será paga?", en: "Could you let me know when the difference will be paid?" },
-          { es: "Fico no aguardo. Atenciosamente, Pedro Alves", en: "I look forward to hearing from you. Kind regards, Pedro Alves" },
+          { es: "Fico no aguardo. Atenciosamente, Pedro Alves", en: "I look forward to hearing from you. Sincerely, Pedro Alves" },
         ],
         checkpoint: [
           {
@@ -2363,11 +2363,11 @@ export const PT_B1_U31: Lesson[] = [
       {
         heading: "Advice to a friend in debt",
         body: [
-          "Your friend Juliana is \"no vermelho\" with a \"cartão estourado\". Advice combines the subjunctive (\"é importante que você negocie a dívida\", \"sugiro que você corte o cartão\"), the conditional (\"eu no seu lugar faria uma planilha\") and conjunctions (\"antes que os juros aumentem\", \"para você sair do vermelho\").",
+          "Your friend Juliana is \"no vermelho\" with a \"cartão estourado\". Advice combines the subjunctive (\"é importante que você negocie a dívida\", \"sugiro que você corte o cartão\"), the conditional (\"eu, no seu lugar, faria uma planilha\") and conjunctions (\"antes que os juros aumentem\", \"para você sair do vermelho\").",
         ],
         examples: [
           { es: "É importante que você negocie a dívida com o banco.", en: "It's important that you negotiate the debt with the bank." },
-          { es: "Eu no seu lugar pararia de usar o cartão de crédito.", en: "If I were you, I'd stop using the credit card." },
+          { es: "Eu, no seu lugar, pararia de usar o cartão de crédito.", en: "If I were you, I'd stop using the credit card." },
           { es: "Pague a fatura antes que os juros aumentem ainda mais.", en: "Pay the statement before the interest goes up even more." },
           { es: "Para você sair do vermelho, vai ter que apertar o cinto.", en: "For you to get out of the red, you'll have to tighten your belt." },
         ],
@@ -2377,8 +2377,8 @@ export const PT_B1_U31: Lesson[] = [
             direction: "en-es",
             prompt: "Translate into Portuguese.",
             source: "If I were you, I'd stop using the card.",
-            answer: "Eu no seu lugar pararia de usar o cartão.",
-            altAnswers: ["No seu lugar, eu pararia de usar o cartão.", "No seu lugar, pararia de usar o cartão.", "Eu, no seu lugar, pararia de usar o cartão.", "Eu no seu lugar parava de usar o cartão.", "No seu lugar, eu parava de usar o cartão.", "Eu no seu lugar deixaria de usar o cartão.", "No seu lugar, eu deixaria de usar o cartão."],
+            answer: "Eu, no seu lugar, pararia de usar o cartão.",
+            altAnswers: ["No seu lugar, eu pararia de usar o cartão.", "No seu lugar, pararia de usar o cartão.", "Eu no seu lugar pararia de usar o cartão.", "Eu no seu lugar parava de usar o cartão.", "No seu lugar, eu parava de usar o cartão.", "Eu no seu lugar deixaria de usar o cartão.", "No seu lugar, eu deixaria de usar o cartão."],
             explanation: "\"No seu lugar\" + conditional. \"Parar de\" + infinitive is to stop doing.",
           },
           {
@@ -2398,7 +2398,7 @@ export const PT_B1_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Please find attached my September payslip.",
+        source: "Please find attached my September pay stub.",
         answer: "Segue em anexo o meu holerite de setembro.",
         altAnswers: ["Segue em anexo meu holerite de setembro.", "Segue em anexo o holerite de setembro.", "Segue anexo o meu holerite de setembro.", "Segue em anexo o meu contracheque de setembro.", "Segue em anexo meu contracheque de setembro.", "Segue em anexo o contracheque de setembro."],
         explanation: "One attachment, so \"segue\". \"Holerite\" and \"contracheque\" are both right.",
@@ -2432,7 +2432,7 @@ export const PT_B1_U31: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence would you write in an email to HR about a payslip error?",
+        question: "Which sentence would you write in an email to HR about a pay stub error?",
         options: ["Gostaria de solicitar a correção do valor descontado.", "Oi, o desconto tá errado, arruma aí.", "Vocês me deram o fogo no salário.", "Exijo que vocês me pagam hoje."],
         correctIndex: 0,
         explanation: "Formal register with the conditional \"gostaria\". \"Exijo que\" would need the subjunctive, and still sounds aggressive.",
@@ -2469,7 +2469,7 @@ export const PT_B1_U31: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Eu no seu lugar negociaria a dívida antes que os juros aumentem.",
+        text: "Eu, no seu lugar, negociaria a dívida antes que os juros aumentem.",
         prompt: "Say it in Portuguese: If I were you, I'd negotiate the debt before the interest goes up.",
         tip: "\"Negociaria\" has six syllables: ne-go-ci-a-RI-a. Keep the vowels separate and stress the \"ri\".",
         explanation: "Conditional for advice, and \"antes que\" + subjunctive \"aumentem\".",
@@ -2489,7 +2489,7 @@ export const PT_B1_U31: Lesson[] = [
 
 export const PT_B1_U31_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your friend Mariana has two job offers in São Paulo: a CLT job at 8,000 reais gross and a PJ contract at 11,000 reais a month. She also tells you she's been in the red for months and wants to start saving for a trip. Write her a message (or email) comparing the two offers, explaining which labour rights she would or wouldn't have, and giving her advice on her budget.",
+  prompt: "Your friend Mariana has two job offers in São Paulo: a CLT job at 8,000 reais gross and a PJ contract at 11,000 reais a month. She also tells you she's been in the red for months and wants to start saving for a trip. Write her a message (or email) comparing the two offers, explaining which labor rights she would or wouldn't have, and giving her advice on her budget.",
   minWords: 80,
   maxWords: 150,
   rubric: [

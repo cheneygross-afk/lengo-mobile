@@ -462,7 +462,8 @@ export const FR_B1_U18: Lesson[] = [
             en: "[Go up] to the second floor.",
             sentence: "___ au deuxième étage.",
             answer: "Montez",
-            explanation: "Vous imperative of monter: \"montez\".",
+            altAnswers: ["Monte"],
+            explanation: "Vous imperative of monter: \"montez\" (\"monte\" to a friend, with no s like every -er verb). The second floor is \"le deuxième étage\", two floors above the \"rez-de-chaussée\".",
           },
         ],
       },
@@ -488,7 +489,7 @@ export const FR_B1_U18: Lesson[] = [
             prompt: "Translate into French.",
             source: "Could you wake me up at seven?",
             answer: "Pourriez-vous me réveiller à sept heures ?",
-            altAnswers: ["Pourriez-vous me réveiller à 7 heures ?", "Vous pourriez me réveiller à sept heures ?", "Vous pourriez me réveiller à 7 heures ?", "Est-ce que vous pourriez me réveiller à sept heures ?", "Est-ce que vous pourriez me réveiller à 7 heures ?"],
+            altAnswers: ["Pourriez-vous me réveiller à 7 heures ?", "Vous pourriez me réveiller à sept heures ?", "Vous pourriez me réveiller à 7 heures ?", "Est-ce que vous pourriez me réveiller à sept heures ?", "Est-ce que vous pourriez me réveiller à 7 heures ?", "Pourriez-vous me réveiller à 7 h ?", "Tu pourrais me réveiller à sept heures ?", "Tu pourrais me réveiller à 7 heures ?", "Pourrais-tu me réveiller à sept heures ?", "Pourrais-tu me réveiller à 7 heures ?"],
             explanation: "Conditional \"pourriez-vous\" + infinitive; the pronoun \"me\" goes before the infinitive.",
           },
           {
@@ -497,7 +498,7 @@ export const FR_B1_U18: Lesson[] = [
             prompt: "Translate into French.",
             source: "Would you mind keeping my suitcase?",
             answer: "Ça vous dérangerait de garder ma valise ?",
-            altAnswers: ["Cela vous dérangerait de garder ma valise ?", "Est-ce que ça vous dérangerait de garder ma valise ?"],
+            altAnswers: ["Cela vous dérangerait de garder ma valise ?", "Est-ce que ça vous dérangerait de garder ma valise ?", "Ça te dérangerait de garder ma valise ?", "Est-ce que ça te dérangerait de garder ma valise ?"],
             explanation: "\"Ça vous dérangerait de\" + infinitive: would you mind.",
           },
         ],
@@ -562,7 +563,7 @@ export const FR_B1_U18: Lesson[] = [
         prompt: "Translate into French.",
         source: "Could you call me a taxi?",
         answer: "Pourriez-vous m'appeler un taxi ?",
-        altAnswers: ["Vous pourriez m'appeler un taxi ?", "Est-ce que vous pourriez m'appeler un taxi ?"],
+        altAnswers: ["Vous pourriez m'appeler un taxi ?", "Est-ce que vous pourriez m'appeler un taxi ?", "Tu pourrais m'appeler un taxi ?", "Pourrais-tu m'appeler un taxi ?", "Est-ce que tu pourrais m'appeler un taxi ?"],
         explanation: "\"Pourriez-vous\" + infinitive; \"m'\" = for me.",
       },
       {
@@ -673,7 +674,7 @@ export const FR_B1_U18: Lesson[] = [
         body: [
           "For the treatment, doctors switch to \"il faut que vous\" + subjunctive (\"Il faut que vous preniez ce médicament pendant dix jours\", \"Il faut que vous buviez beaucoup d'eau\") and \"je voudrais que vous\" + subjunctive (\"Je voudrais que vous reveniez dans une semaine\", \"Je voudrais que vous fassiez une prise de sang\": a blood test).",
           "Two-stem subjunctives come up all the time: \"prendre\" → \"que vous preniez\", \"boire\" → \"que vous buviez\", \"revenir\" → \"que vous reveniez\" (nous/vous use the nous stem). Irregulars: \"faire\" → \"que vous fassiez\", \"aller\" → \"que vous alliez\", \"être\" → \"que vous soyez\".",
-          "Same subject? Use the infinitive: \"Il faut rester au lit\" (general), or \"Vous devez rester au lit\". \"Il faut que vous restiez au lit\" is more personal and insistent.",
+          "For a general instruction, use the infinitive: \"Il faut rester au lit\", or \"Vous devez rester au lit\". \"Il faut que vous restiez au lit\" is aimed squarely at the patient and sounds more insistent.",
         ],
         examples: [
           { es: "Il faut que vous preniez ce médicament pendant dix jours.", en: "You need to take this medicine for ten days." },
@@ -707,7 +708,7 @@ export const FR_B1_U18: Lesson[] = [
         heading: "Dosage instructions: prenez-en deux",
         body: [
           "At the chemist's, the pharmacist explains the dosage (\"la posologie\") with imperatives and \"en\" for quantities: \"Prenez-en deux par jour\" (Take two a day), \"N'en prenez pas plus de six\", \"Prenez-le au moment des repas\" (with meals), \"à jeun\" (on an empty stomach).",
-          "\"En\" replaces a noun after a number or quantity; in the affirmative imperative it goes after the verb: \"prenez-en\", \"mettez-en un peu\". In the tu form of an -er verb, the s comes back: \"mets-en\", but \"manges-en\", \"vas-y\". In the negative it goes before: \"n'en prenez pas\".",
+          "\"En\" replaces a noun after a number or quantity; in the affirmative imperative it goes after the verb: \"prenez-en\", \"mettez-en un peu\". Tu forms that already end in -s keep it (\"prends-en\", \"mets-en\"), and -er verbs and aller get their s back before en and y: \"manges-en\", \"vas-y\". In the negative it goes before: \"n'en prenez pas\".",
           "Written instructions on boxes use the infinitive instead: \"Ne pas dépasser la dose prescrite\" (Do not exceed the stated dose), \"Tenir hors de portée des enfants\", \"Agiter avant emploi\" (Shake before use).",
         ],
         examples: [
@@ -788,14 +789,14 @@ export const FR_B1_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "This syrup? [Take] a spoonful of it before bed. (to a friend)",
+        en: "This syrup? [Take] a spoonful [of it] before bed. (to a friend)",
         sentence: "Ce sirop ? ___ une cuillère avant de dormir.",
         answer: "Prends-en",
-        explanation: "Tu imperative + en: \"prends-en\".",
+        explanation: "Tu imperative + en: \"prends-en\". \"En\" stands for du sirop and goes after the affirmative imperative, joined with a hyphen.",
       },
       {
         type: "multiple-choice",
-        question: "What does « Tenir hors de portée des enfants » on a medicine box mean?",
+        question: "What does \"Tenir hors de portée des enfants\" on a medicine box mean?",
         options: ["Keep out of reach of children.", "Not suitable for children.", "Hold the child's hand.", "Children must take it with an adult."],
         correctIndex: 0,
         explanation: "Written instructions use the infinitive; \"hors de portée\" = out of reach.",

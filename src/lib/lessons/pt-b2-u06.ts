@@ -311,7 +311,7 @@ export const PT_B2_U06: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "My father prefers football [to] volleyball.",
+            en: "My father prefers soccer [to] volleyball.",
             sentence: "Meu pai prefere o futebol ___ vôlei.",
             answer: "ao",
             explanation: "\"Preferir X a Y\": the \"a\" joins the article of \"o vôlei\" to make \"ao\". \"Do que\" belongs to \"mais... do que\", not to \"preferir\".",
@@ -465,9 +465,9 @@ export const PT_B2_U06: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: They prefer cinema to theatre.",
+        prompt: "Put the words in order to say: They prefer movies to theater.",
         words: ["Eles", "preferem", "cinema", "a", "teatro."],
-        translation: "They prefer cinema to theatre.",
+        translation: "They prefer movies to theater.",
         explanation: "\"Preferir X a Y\". Neither noun has an article here, so the \"a\" stays on its own.",
       },
       {
@@ -512,7 +512,7 @@ export const PT_B2_U06: Lesson[] = [
           { es: "Vou à farmácia comprar remédio.", en: "I'm going to the pharmacy to buy medicine." },
           { es: "Ela foi à feira no sábado de manhã.", en: "She went to the street market on Saturday morning." },
           { es: "Chegamos à praia antes das nove.", en: "We got to the beach before nine." },
-          { es: "Fomos às lojas do centro.", en: "We went to the shops downtown." },
+          { es: "Fomos às lojas do centro.", en: "We went to the stores downtown." },
           { es: "Ele leva as crianças à escola.", en: "He takes the kids to school." },
         ],
         checkpoint: [
@@ -529,7 +529,7 @@ export const PT_B2_U06: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We went to the shops downtown.",
+            source: "We went to the stores downtown.",
             answer: "Fomos às lojas do centro.",
             altAnswers: ["Nós fomos às lojas do centro.", "A gente foi às lojas do centro."],
             explanation: "\"Ir a\" + \"as lojas\" fuses into \"às\". The plural crase follows the same rule as the singular.",
@@ -546,7 +546,7 @@ export const PT_B2_U06: Lesson[] = [
           { es: "Entreguei o trabalho à professora.", en: "I handed the assignment in to the teacher." },
           { es: "O gerente enviou o relatório à diretora.", en: "The manager sent the report to the director." },
           { es: "Dei a chave à recepcionista.", en: "I gave the key to the receptionist." },
-          { es: "A loja pediu desculpas às clientes.", en: "The shop apologised to the customers." },
+          { es: "A loja pediu desculpas às clientes.", en: "The store apologized to the customers." },
           { es: "Agradecemos à enfermeira pela paciência.", en: "We thanked the nurse for her patience." },
         ],
         checkpoint: [
@@ -608,9 +608,9 @@ export const PT_B2_U06: Lesson[] = [
         ],
         examples: [
           { es: "Fui ao banco e depois à farmácia.", en: "I went to the bank and then to the pharmacy." },
-          { es: "Assisti ao filme, mas não assisti à peça.", en: "I watched the film, but I didn't watch the play." },
+          { es: "Assisti ao filme, mas não assisti à peça.", en: "I watched the movie, but I didn't watch the play." },
           { es: "Visitei o museu e a exposição nova.", en: "I visited the museum and the new exhibition." },
-          { es: "Encontrei a diretora no corredor.", en: "I ran into the director in the corridor." },
+          { es: "Encontrei a diretora no corredor.", en: "I ran into the director in the hallway." },
         ],
         checkpoint: [
           {
@@ -659,7 +659,7 @@ export const PT_B2_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The shop closes [at] midnight.",
+        en: "The store closes [at] midnight.",
         sentence: "A loja fecha ___ meia-noite.",
         answer: "à",
         explanation: "\"Meia-noite\" is feminine, so at midnight is \"à meia-noite\", while at noon is \"ao meio-dia\".",
@@ -758,7 +758,7 @@ export const PT_B2_U06: Lesson[] = [
         examples: [
           { es: "A gente foi a pé até o centro.", en: "We walked downtown." },
           { es: "Começou a chover às cinco.", en: "It started raining at five." },
-          { es: "A partir de segunda, o escritório abre às oito.", en: "From Monday, the office opens at eight." },
+          { es: "A partir de segunda, o escritório abre às oito.", en: "Starting Monday, the office opens at eight." },
           { es: "Não contei nada a ninguém.", en: "I didn't tell anyone anything." },
           { es: "Pedi ajuda à senhora da recepção.", en: "I asked the lady at reception for help." },
           { es: "Entreguei a chave àquele rapaz de boné.", en: "I gave the key to that guy in the cap." },
@@ -839,14 +839,14 @@ export const PT_B2_U06: Lesson[] = [
         heading: "Possessives and fixed expressions",
         body: [
           "Before a feminine possessive the crase is optional, because in Brazil the article itself is optional (\"a minha casa\" or \"minha casa\"). So \"fui à minha cidade\" and \"fui a minha cidade\" are both correct. In the plural it's all or nothing: \"às minhas amigas\" or \"a minhas amigas\", never \"à minhas\".",
-          "Many fixed expressions take a crase, often because \"à moda de\" (in the style of) is hidden inside: \"filé à parmegiana\", \"frango à mineira\". Learn the rest as chunks: \"às vezes\" (sometimes), \"à toa\" (for no reason), \"à mão\" (by hand), \"às pressas\" (in a rush) and \"à direita\" (on the right). There's also \"à vista\" (in cash, all at once). Its opposite \"a prazo\" (in instalments) has no crase, because \"prazo\" is masculine.",
+          "Many fixed expressions take a crase, often because \"à moda de\" (in the style of) is hidden inside: \"filé à parmegiana\", \"frango à mineira\". Learn the rest as chunks: \"às vezes\" (sometimes), \"à toa\" (for no reason), \"à mão\" (by hand), \"às pressas\" (in a rush) and \"à direita\" (on the right). There's also \"à vista\" (in cash, all at once). Its opposite \"a prazo\" (in installments) has no crase, because \"prazo\" is masculine.",
           "Be careful with \"às vezes\". Without the accent, \"as vezes\" means the times: \"lembro as vezes que fomos lá\".",
         ],
         examples: [
           { es: "Fui à minha cidade no Natal.", en: "I went to my hometown at Christmas. (\"a minha cidade\" is also correct)" },
           { es: "Mandei flores às minhas tias.", en: "I sent flowers to my aunts." },
           { es: "À vista sai mais barato.", en: "It's cheaper if you pay in cash." },
-          { es: "Comprei o sofá a prazo, em dez vezes.", en: "I bought the sofa in instalments, ten payments." },
+          { es: "Comprei o sofá a prazo, em dez vezes.", en: "I bought the sofa in installments, ten payments." },
           { es: "Pedi um filé à parmegiana.", en: "I ordered a steak parmigiana." },
           { es: "Ele saiu às pressas e esqueceu o celular.", en: "He left in a rush and forgot his phone." },
         ],
@@ -891,7 +891,7 @@ export const PT_B2_U06: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "From Monday, the shop opens at nine.",
+        source: "Starting Monday, the store opens at nine.",
         answer: "A partir de segunda, a loja abre às nove.",
         altAnswers: ["A partir de segunda-feira, a loja abre às nove.", "A partir de segunda, a loja abre às nove horas.", "A partir de segunda-feira, a loja abre às nove horas.", "A loja abre às nove a partir de segunda.", "A loja abre às nove a partir de segunda-feira."],
         explanation: "\"A partir de\" never has a crase, because \"partir\" is a verb. \"Às nove\" does, because it stands for \"as nove horas\".",
@@ -925,7 +925,7 @@ export const PT_B2_U06: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I bought the fridge in instalments.",
+        source: "I bought the fridge in installments.",
         answer: "Comprei a geladeira a prazo.",
         altAnswers: ["Eu comprei a geladeira a prazo.", "Comprei a geladeira parcelada.", "Eu comprei a geladeira parcelada."],
         explanation: "\"Prazo\" is masculine, so \"a prazo\" has no crase, unlike its opposite \"à vista\".",
@@ -973,7 +973,7 @@ export const PT_B2_U06: Lesson[] = [
           { left: "à toa", right: "for no reason" },
           { left: "às pressas", right: "in a rush" },
           { left: "à vista", right: "in cash, all at once" },
-          { left: "a prazo", right: "in instalments" },
+          { left: "a prazo", right: "in installments" },
           { left: "à mão", right: "by hand" },
         ],
         explanation: "These are all fixed expressions. Only \"a prazo\" has no crase, because \"prazo\" is masculine.",
@@ -991,12 +991,12 @@ export const PT_B2_U06: Lesson[] = [
       {
         heading: "The preposition goes first",
         body: [
-          "English parks the preposition at the end: the film I watched, the person I dream about. Portuguese never leaves a preposition hanging. When the verb inside the relative clause takes one (\"gostar de\", \"pensar em\", \"sonhar com\", \"assistir a\"), it moves to the front, right before the relative: \"o filme a que assisti\", \"a pessoa com quem sonho\".",
+          "English parks the preposition at the end: the movie I watched, the person I dream about. Portuguese never leaves a preposition hanging. When the verb inside the relative clause takes one (\"gostar de\", \"pensar em\", \"sonhar com\", \"assistir a\"), it moves to the front, right before the relative: \"o filme a que assisti\", \"a pessoa com quem sonho\".",
           "As at B1, things take \"que\" after short prepositions and people take \"quem\". The preposition belongs to the verb of the clause, not to the main sentence, so find that verb first. In \"a cidade em que pensei\", the \"em\" comes from \"pensar em\".",
           "\"Que\" has no article, so nothing contracts: \"de que\", \"em que\", and \"a que\" with no crase (\"a peça a que assisti\").",
         ],
         examples: [
-          { es: "Esse é o filme a que assisti ontem.", en: "That's the film I watched yesterday." },
+          { es: "Esse é o filme a que assisti ontem.", en: "That's the movie I watched yesterday." },
           { es: "A pessoa de quem mais gosto é minha avó.", en: "The person I like most is my grandmother." },
           { es: "Recife é a cidade em que sempre penso.", en: "Recife is the city I always think about." },
           { es: "Não encontrei o documento de que precisava.", en: "I couldn't find the document I needed." },
@@ -1083,7 +1083,7 @@ export const PT_B2_U06: Lesson[] = [
       {
         heading: "Speech lets the preposition go",
         body: [
-          "In everyday speech most Brazilians simply drop the preposition: \"o filme que eu assisti\", \"a festa que a gente foi\", \"a música que eu te falei\". Educated speakers do it too, and in conversation it sounds completely normal. You may also hear the preposition tacked on at the end with a pronoun (\"a menina que ele gosta dela\"): recognise it, don't copy it.",
+          "In everyday speech most Brazilians simply drop the preposition: \"o filme que eu assisti\", \"a festa que a gente foi\", \"a música que eu te falei\". Educated speakers do it too, and in conversation it sounds completely normal. You may also hear the preposition tacked on at the end with a pronoun (\"a menina que ele gosta dela\"): recognize it, don't copy it.",
           "In writing that follows the norm, from a work email to an essay or the Celpe-Bras, put the preposition back. To find it, turn the clause into a sentence: \"eu falei da música\" shows you need \"a música de que falei\". Verbs with a direct object need nothing: \"o rapaz que ela namora\", \"o livro que eu li\". For places, \"onde\" is a fine written alternative to \"em que\": \"a cidade onde nasci\".",
         ],
         examples: [
@@ -1198,10 +1198,10 @@ export const PT_B2_U06: Lesson[] = [
         audio: "É o filme de que todo mundo está falando.",
         question: "What does it mean?",
         options: [
-          "It's the film everyone is talking about.",
-          "It's the film everyone is watching.",
-          "It's the film nobody talks about.",
-          "It's the film everyone talked about.",
+          "It's the movie everyone is talking about.",
+          "It's the movie everyone is watching.",
+          "It's the movie nobody talks about.",
+          "It's the movie everyone talked about.",
         ],
         correctIndex: 0,
         explanation: "\"Falar de\" puts \"de\" before \"que\": \"de que todo mundo está falando\". \"Está falando\" is happening now, not in the past.",
@@ -1215,7 +1215,7 @@ export const PT_B2_U06: Lesson[] = [
         type: "speak",
         text: "A peça a que assistimos foi ótima.",
         prompt: "Say it in Portuguese: The play we watched was great.",
-        tip: "In \"assistimos\" the t before i sounds like the ch in cheese: as-sis-CHI-mos.",
+        tip: "In \"assistimos\" the t before i sounds like the ch in cheese: a-sis-TCHI-mus.",
         explanation: "\"Assistir a\" + \"que\": \"a que assistimos\", with no crase because \"que\" has no article.",
       },
       {
@@ -1321,8 +1321,8 @@ export const PT_B2_U06: Lesson[] = [
           { es: "O voo sai daqui a duas horas.", en: "The flight leaves in two hours." },
           { es: "Daqui a pouco eu te ligo.", en: "I'll call you in a little while." },
           { es: "A farmácia fica a duas quadras daqui.", en: "The pharmacy is two blocks from here." },
-          { es: "Recife fica a uns 800 quilômetros de Salvador.", en: "Recife is about 800 kilometres from Salvador." },
-          { es: "A partir de segunda, a loja abre às nove.", en: "Starting Monday, the shop opens at nine." },
+          { es: "Recife fica a uns 800 quilômetros de Salvador.", en: "Recife is about 800 kilometers from Salvador." },
+          { es: "A partir de segunda, a loja abre às nove.", en: "Starting Monday, the store opens at nine." },
         ],
         checkpoint: [
           {
@@ -1377,7 +1377,7 @@ export const PT_B2_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence correctly says 'I got back from the beach two days ago and I'm travelling again in a week'?",
+            question: "Which sentence correctly says 'I got back from the beach two days ago and I'm traveling again in a week'?",
             options: [
               "Voltei da praia há dois dias e viajo de novo daqui a uma semana.",
               "Voltei da praia a dois dias e viajo de novo daqui há uma semana.",
@@ -1457,7 +1457,7 @@ export const PT_B2_U06: Lesson[] = [
       {
         type: "speak",
         text: "A partir de segunda, a loja abre às nove.",
-        prompt: "Say it in Portuguese: Starting Monday, the shop opens at nine.",
+        prompt: "Say it in Portuguese: Starting Monday, the store opens at nine.",
         tip: "Don't lengthen the à in às: in Brazil, a, à and há sound the same. The t in partir sounds like ch: par-tchir.",
         explanation: "\"A partir de\" has no crase, because \"partir\" is a verb. \"Às nove\" has one, because clock times take the article \"as\".",
       },
@@ -1467,7 +1467,7 @@ export const PT_B2_U06: Lesson[] = [
         pairs: [
           { left: "há dois dias", right: "two days ago" },
           { left: "daqui a dois dias", right: "in two days" },
-          { left: "a dois quilômetros", right: "two kilometres away" },
+          { left: "a dois quilômetros", right: "two kilometers away" },
           { left: "às duas", right: "at two o'clock" },
           { left: "há duas pessoas", right: "there are two people" },
         ],
@@ -1507,7 +1507,7 @@ export const PT_B2_U06: Lesson[] = [
     level: "PT-B2",
     number: 7,
     title: "Dialogue Lab: Vamos ao Teatro?",
-    summary: "Follow two friends planning a cultural weekend in São Paulo and practise ao/à, às with clock times, preferir... a and assistir a in real conversation.",
+    summary: "Follow two friends planning a cultural weekend in São Paulo and practice ao/à, às with clock times, preferir... a and assistir a in real conversation.",
     duration: "14 min",
     sections: [
       {
@@ -1558,11 +1558,11 @@ export const PT_B2_U06: Lesson[] = [
           "Rafael wants to be early: \"Vamos chegar ao teatro às sete e meia.\" The norm is \"chegar a\", while speech says \"chegar no teatro\". Use \"ao\" when you write and either one when you speak.",
         ],
         examples: [
-          { es: "Vamos assistir a uma peça no Sesc Pompeia?", en: "Shall we see a play at Sesc Pompeia?" },
+          { es: "Vamos assistir a uma peça no Sesc Pompeia?", en: "Should we see a play at Sesc Pompeia?" },
           { es: "A peça começa às oito.", en: "The play starts at eight." },
           { es: "A que horas abre a bilheteria?", en: "What time does the box office open?" },
-          { es: "Prefiro teatro a cinema, sinceramente.", en: "Honestly, I prefer theatre to cinema." },
-          { es: "Vamos chegar ao teatro às sete e meia.", en: "Let's get to the theatre at half past seven." },
+          { es: "Prefiro teatro a cinema, sinceramente.", en: "Honestly, I prefer theater to movies." },
+          { es: "Vamos chegar ao teatro às sete e meia.", en: "Let's get to the theater at seven thirty." },
           { es: "Assisti à estreia no ano passado.", en: "I saw the premiere last year." },
         ],
         checkpoint: [
@@ -1578,7 +1578,7 @@ export const PT_B2_U06: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Honestly, I prefer theatre to cinema.",
+            source: "Honestly, I prefer theater to movies.",
             answer: "Sinceramente, prefiro teatro a cinema.",
             altAnswers: ["Sinceramente, eu prefiro teatro a cinema.", "Prefiro teatro a cinema, sinceramente.", "Eu prefiro teatro a cinema, sinceramente.", "Sinceramente, prefiro o teatro ao cinema.", "Sinceramente, eu prefiro o teatro ao cinema."],
             explanation: "\"Preferir X a Y\". \"Cinema\" is masculine, so you write \"a\" without an article, or \"ao\" if you use one (\"o teatro ao cinema\").",
@@ -1638,7 +1638,7 @@ export const PT_B2_U06: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Shall we go to the Liberdade market on Sunday?",
+        source: "Should we go to the Liberdade market on Sunday?",
         answer: "Vamos à feira da Liberdade no domingo?",
         altAnswers: ["A gente vai à feira da Liberdade no domingo?", "Vamos à feira da Liberdade domingo?", "No domingo vamos à feira da Liberdade?"],
         explanation: "\"Ir a\" + \"a feira\" = \"à feira\", and \"de\" + \"a Liberdade\" = \"da Liberdade\".",
@@ -1689,9 +1689,9 @@ export const PT_B2_U06: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The concert starts at half past nine.",
+        prompt: "Put the words in order to say: The concert starts at nine thirty.",
         words: ["O", "show", "começa", "às", "nove", "e", "meia."],
-        translation: "The concert starts at half past nine.",
+        translation: "The concert starts at nine thirty.",
         explanation: "Clock times take \"às\": the feminine \"horas\" is understood.",
       },
       {
@@ -1705,7 +1705,7 @@ export const PT_B2_U06: Lesson[] = [
         type: "listen-choose",
         audio: "Prefiro ir ao teatro a ficar em casa.",
         question: "What does it mean?",
-        options: ["I'd rather go to the theatre than stay home.", "I'd rather stay home than go to the theatre.", "I prefer to watch theatre at home.", "I want to go to the theatre and then stay home."],
+        options: ["I'd rather go to the theater than stay home.", "I'd rather stay home than go to the theater.", "I prefer to watch theater at home.", "I want to go to the theater and then stay home."],
         correctIndex: 0,
         explanation: "\"Preferir X a Y\" with two infinitives. There's no crase before the verb \"ficar\".",
       },
@@ -1746,7 +1746,7 @@ export const PT_B2_U06: Lesson[] = [
       {
         heading: "À pé, à partir de: a crase with nothing to fuse",
         body: [
-          "The crase marks two a's fused into one: the preposition \"a\" plus the feminine article \"a\". If either one is missing, there's nothing to fuse. \"Pé\" is masculine, so it can never take the article \"a\". Write \"vou a pé\", never \"vou à pé\". The same goes for \"a cavalo\", \"a lápis\" and \"a prazo\" (in instalments).",
+          "The crase marks two a's fused into one: the preposition \"a\" plus the feminine article \"a\". If either one is missing, there's nothing to fuse. \"Pé\" is masculine, so it can never take the article \"a\". Write \"vou a pé\", never \"vou à pé\". The same goes for \"a cavalo\", \"a lápis\" and \"a prazo\" (in installments).",
           "Verbs take no article at all, which is why \"a partir de\" has no accent: \"partir\" is a verb. Learners add one because the phrase looks like \"à noite\" or \"à vista\", but those end in feminine nouns. Before you write \"à\", check that the next word is a feminine noun that could take \"a\".",
         ],
         examples: [
@@ -1754,7 +1754,7 @@ export const PT_B2_U06: Lesson[] = [
           { es: "Ela foi a cavalo até a cachoeira.", en: "She rode a horse to the waterfall." },
           { es: "A partir de segunda-feira, a padaria abre às seis.", en: "Starting Monday, the bakery opens at six." },
           { es: "O contrato vale a partir de março.", en: "The contract is valid from March." },
-          { es: "Comprei a geladeira a prazo.", en: "I bought the fridge in instalments." },
+          { es: "Comprei a geladeira a prazo.", en: "I bought the fridge in installments." },
         ],
         checkpoint: [
           {
@@ -1828,7 +1828,7 @@ export const PT_B2_U06: Lesson[] = [
         heading: "Assisti o jogo, prefiro mais... do que: verbs and their prepositions",
         body: [
           "In the written norm, \"assistir\" meaning to watch takes \"a\": \"assisti ao jogo\", \"assistimos à peça\" (a + a). \"Assisti o jogo\" is what most Brazilians say, and it's fine in a chat, but a redação or a work report will mark it wrong. Without the preposition, \"assistir\" means to assist.",
-          "\"Preferir\" already contains the idea of more, so \"prefiro mais\" says it twice. The norm pairs it with \"a\", not \"do que\": \"prefiro café a chá\", \"prefiro a praia à montanha\". You'll hear \"prefiro café do que chá\" all the time, so recognise it, but write \"a\". With infinitives the pattern is the same: \"prefiro caminhar a pegar o ônibus\".",
+          "\"Preferir\" already contains the idea of more, so \"prefiro mais\" says it twice. The norm pairs it with \"a\", not \"do que\": \"prefiro café a chá\", \"prefiro a praia à montanha\". You'll hear \"prefiro café do que chá\" all the time, so recognize it, but write \"a\". With infinitives the pattern is the same: \"prefiro caminhar a pegar o ônibus\".",
         ],
         examples: [
           { es: "Ontem assisti ao jogo do Flamengo.", en: "Yesterday I watched the Flamengo game." },
@@ -1981,7 +1981,7 @@ export const PT_B2_U06: Lesson[] = [
           { es: "Cheguei ao aeroporto às seis.", en: "I got to the airport at six." },
           { es: "Cheguei à rodoviária às seis.", en: "I got to the bus station at six." },
           { es: "Ontem eu assisti à novela das nove.", en: "Yesterday I watched the nine o'clock soap opera." },
-          { es: "Nas férias, fomos às festas juninas do interior.", en: "On holiday we went to the June festivals in the countryside." },
+          { es: "Nas férias, fomos às festas juninas do interior.", en: "On vacation we went to the June festivals in the countryside." },
         ],
         checkpoint: [
           {
@@ -2044,7 +2044,7 @@ export const PT_B2_U06: Lesson[] = [
           "Before a possessive the article is optional, so the crase is too. \"Ao meu irmão\" becomes \"à minha irmã\" or \"a minha irmã\".",
         ],
         examples: [
-          { es: "Pedi ajuda a uma vizinha.", en: "I asked a neighbour for help." },
+          { es: "Pedi ajuda a uma vizinha.", en: "I asked a neighbor for help." },
           { es: "Vou a Salvador em julho.", en: "I'm going to Salvador in July." },
           { es: "Ela voltou à Bahia depois de dez anos.", en: "She went back to Bahia after ten years." },
           { es: "Mandei uma mensagem à minha irmã.", en: "I sent a message to my sister." },
@@ -2104,7 +2104,7 @@ export const PT_B2_U06: Lesson[] = [
         en: "We watched [the] championship final.",
         sentence: "Assistimos ___ final do campeonato.",
         answer: "à",
-        explanation: "\"Assistir a\" (to watch) + \"a final\", which is feminine for the deciding match, gives \"à final\". Compare \"assistimos ao jogo\".",
+        explanation: "\"Assistir a\" (to watch) + \"a final\", which is feminine for the deciding game, gives \"à final\". Compare \"assistimos ao jogo\".",
       },
       {
         type: "fill-blank",
@@ -2243,8 +2243,8 @@ export const PT_B2_U06: Lesson[] = [
           "When you proofread, run the swap test on every \"a\" before a feminine noun. \"Entreguei o relatório ao diretor\" confirms \"entreguei o relatório à diretora\".",
         ],
         examples: [
-          { es: "A loja abre às oito e fecha à meia-noite.", en: "The shop opens at eight and closes at midnight." },
-          { es: "O pagamento pode ser feito à vista ou em três parcelas.", en: "Payment can be made upfront or in three instalments." },
+          { es: "A loja abre às oito e fecha à meia-noite.", en: "The store opens at eight and closes at midnight." },
+          { es: "O pagamento pode ser feito à vista ou em três parcelas.", en: "Payment can be made upfront or in three installments." },
           { es: "Entregue o formulário à secretária ou ao coordenador.", en: "Hand the form to the secretary or the coordinator." },
           { es: "O grupo vai a Salvador e depois à Chapada Diamantina.", en: "The group is going to Salvador and then to the Chapada Diamantina." },
           { es: "Às vezes a equipe fica no escritório até tarde.", en: "Sometimes the team stays at the office until late." },
@@ -2291,7 +2291,7 @@ export const PT_B2_U06: Lesson[] = [
           { es: "A regra à qual todos obedecem foi criada em 2010.", en: "The rule everyone obeys was created in 2010." },
           { es: "Moramos em Belo Horizonte há cinco anos.", en: "We've lived in Belo Horizonte for five years." },
           { es: "A conferência começa daqui a duas semanas.", en: "The conference starts in two weeks." },
-          { es: "A partir de março, o escritório vai ficar a dez minutos do metrô.", en: "From March, the office will be ten minutes from the metro." },
+          { es: "A partir de março, o escritório vai ficar a dez minutos do metrô.", en: "Starting in March, the office will be ten minutes from the metro." },
         ],
         checkpoint: [
           {
@@ -2315,7 +2315,7 @@ export const PT_B2_U06: Lesson[] = [
           {
             type: "speak",
             text: "Moramos em Belo Horizonte há cinco anos.",
-            tip: "The h in há is silent, so it sounds exactly like a. The final te in Horizonte sounds like chee.",
+            tip: "The h in há is silent, so it sounds exactly like a. The final te in Horizonte sounds like tchi.",
             explanation: "\"Há\" + a period of time + the present means you still live there: 'we've lived here for five years'.",
           },
         ],
@@ -2343,7 +2343,7 @@ export const PT_B2_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "(Formal email) If you had got [to the] airport earlier, you wouldn't have missed the flight.",
+        en: "(Formal email) If you had gotten [to the] airport earlier, you wouldn't have missed the flight.",
         sentence: "Se você tivesse chegado ___ aeroporto mais cedo, não teria perdido o voo.",
         answer: "ao",
         explanation: "In the norm \"chegar\" takes \"a\": \"ao aeroporto\". \"Chegado no aeroporto\" is the spoken version.",
@@ -2380,7 +2380,7 @@ export const PT_B2_U06: Lesson[] = [
         type: "listen-choose",
         audio: "Ele mora aqui há dez anos.",
         question: "What does it mean?",
-        options: ["He has lived here for ten years.", "He'll move here in ten years.", "He lives ten kilometres from here.", "He lived here until ten years ago."],
+        options: ["He has lived here for ten years.", "He'll move here in ten years.", "He lives ten kilometers from here.", "He lived here until ten years ago."],
         correctIndex: 0,
         explanation: "\"Há\" + time + the present is an action that started in the past and is still going on. 'In ten years' would be \"daqui a dez anos\".",
       },
@@ -2431,7 +2431,7 @@ export const PT_B2_U06: Lesson[] = [
 
 export const PT_B2_U06_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your Brazilian friend Mariana is visiting São Paulo next weekend and has asked you to plan a cultural weekend for her. Write her an email (120-200 words) suggesting where to go and when on Saturday and Sunday, saying what you prefer and why, and mentioning a show or film you've already seen. Write it carefully, following the written norm for prepositions and the crase.",
+  prompt: "Your Brazilian friend Mariana is visiting São Paulo next weekend and has asked you to plan a cultural weekend for her. Write her an email (120-200 words) suggesting where to go and when on Saturday and Sunday, saying what you prefer and why, and mentioning a show or movie you've already seen. Write it carefully, following the written norm for prepositions and the crase.",
   minWords: 120,
   maxWords: 200,
   rubric: [

@@ -21,7 +21,7 @@ export const PT_A2_U05: Lesson[] = [
         examples: [
           { es: "Era tarde. Ouvi um barulho.", en: "It was late. I heard a noise." },
           { es: "Fazia frio e eu fechei a janela.", en: "It was cold and I closed the window." },
-          { es: "A loja estava cheia, mas eu comprei o presente.", en: "The shop was busy, but I bought the present." },
+          { es: "A loja estava cheia, mas eu comprei o presente.", en: "The store was busy, but I bought the present." },
           { es: "Eu estava cansado e dormi cedo.", en: "I was tired and went to bed early." },
           { es: "O Lucas estava com fome e comeu um sanduíche.", en: "Lucas was hungry and ate a sandwich." },
         ],
@@ -52,7 +52,7 @@ export const PT_A2_U05: Lesson[] = [
       {
         heading: "Setting the scene: the imperfeito",
         body: [
-          "The background is what a film shows before anything happens: the time (\"eram dez horas\"), the weather (\"fazia calor\"), places and people (\"a rua estava vazia\"), feelings and states (\"eu estava nervosa\"). All of these take the imperfeito.",
+          "The background is what a movie shows before anything happens: the time (\"eram dez horas\"), the weather (\"fazia calor\"), places and people (\"a rua estava vazia\"), feelings and states (\"eu estava nervosa\"). All of these take the imperfeito.",
           "\"Estava chovendo\" is \"está chovendo\" moved into the past: it was raining, an action already in progress. You'll drill it later in this unit; for now, read it as scene-setting.",
           "Watch \"estar\": a state in the scene is \"eu estava cansado\", not \"eu estive\", which reports a completed stay (\"estive em Salvador\").",
         ],
@@ -325,7 +325,7 @@ export const PT_A2_U05: Lesson[] = [
           { es: "A Beatriz sempre chegava atrasada.", en: "Beatriz always arrived late." },
           { es: "Todo verão a gente ia para Salvador.", en: "Every summer we went to Salvador." },
           { es: "Geralmente eu almoçava no escritório.", en: "I usually had lunch at the office." },
-          { es: "De vez em quando eles assistiam a um filme juntos.", en: "Now and then they watched a film together." },
+          { es: "De vez em quando eles assistiam a um filme juntos.", en: "Now and then they watched a movie together." },
         ],
         checkpoint: [
           {
@@ -451,7 +451,7 @@ export const PT_A2_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "In the old days there was no metro here.",
+        source: "In the old days there was no subway here.",
         answer: "Antigamente não tinha metrô aqui.",
         altAnswers: [
           "Antigamente aqui não tinha metrô.",
@@ -514,8 +514,8 @@ export const PT_A2_U05: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "Toda sexta eu ia ao cinema.", right: "Every Friday I went to the cinema." },
-          { left: "Na sexta eu fui ao cinema.", right: "On Friday I went to the cinema." },
+          { left: "Toda sexta eu ia ao cinema.", right: "Every Friday I went to the movies." },
+          { left: "Na sexta eu fui ao cinema.", right: "On Friday I went to the movies." },
           { left: "Ele trabalhava aos domingos.", right: "He used to work on Sundays." },
           { left: "Ele trabalhou no domingo.", right: "He worked on Sunday." },
         ],
@@ -584,7 +584,7 @@ export const PT_A2_U05: Lesson[] = [
           { es: "Estava chovendo quando a gente saiu.", en: "It was raining when we left." },
           { es: "Quando o João chegou, nós estávamos jantando.", en: "When João arrived, we were having dinner." },
           { es: "Ela estava dirigindo quando viu o acidente.", en: "She was driving when she saw the accident." },
-          { es: "Eles estavam vendo o jogo quando o vizinho bateu na porta.", en: "They were watching the game when the neighbour knocked on the door." },
+          { es: "Eles estavam vendo o jogo quando o vizinho bateu na porta.", en: "They were watching the game when the neighbor knocked on the door." },
         ],
         checkpoint: [
           {
@@ -1002,7 +1002,7 @@ export const PT_A2_U05: Lesson[] = [
         text: "Eu conheci o Rafael em Recife.",
         prompt: "Say it in Portuguese: I met Rafael in Recife.",
         tip: "Say co-nhe-SI: the nh is like the ny in canyon, and the stress falls on the last syllable.",
-        explanation: "A first meeting in a place is \"conheci\". The \"o\" before \"Rafael\" is the usual article with first names.",
+        explanation: "A first meeting in a place is \"conheci\". The \"o\" before \"Rafael\" is the article many Brazilians use with first names; \"conheci Rafael\" is also correct.",
       },
     ],
   },
@@ -1050,7 +1050,7 @@ export const PT_A2_U05: Lesson[] = [
       {
         heading: "Mas...: when the plan fell through",
         body: [
-          "Usually \"ia\" + infinitive tells a plan that didn't happen. That is why it so often comes with \"mas\" and a perfeito for what really happened: \"eu ia ligar, mas esqueci\" (I was going to call, but I forgot). The imperfeito sets up the plan as background, and the perfeito is the event that cancelled it.",
+          "Usually \"ia\" + infinitive tells a plan that didn't happen. That is why it so often comes with \"mas\" and a perfeito for what really happened: \"eu ia ligar, mas esqueci\" (I was going to call, but I forgot). The imperfeito sets up the plan as background, and the perfeito is the event that canceled it.",
           "With \"quando\" it means was about to: \"eu ia sair quando começou a chover\" (I was about to leave when it started to rain). English switches phrases here, but Portuguese keeps the same \"ia\".",
         ],
         examples: [
@@ -1442,12 +1442,12 @@ export const PT_A2_U05: Lesson[] = [
       {
         heading: "Desculpa o atraso!: arriving late",
         body: [
-          "Beatriz is waiting for Rafael outside a cinema on Avenida Paulista, and he's forty minutes late. Her first question is the one this lesson answers: \"O que aconteceu?\" (What happened?). \"Aconteceu\" is the perfeito of \"acontecer\": one finished event.",
+          "Beatriz is waiting for Rafael outside a movie theater on Avenida Paulista, and he's forty minutes late. Her first question is the one this lesson answers: \"O que aconteceu?\" (What happened?). \"Aconteceu\" is the perfeito of \"acontecer\": one finished event.",
           "Rafael apologizes with \"Desculpa o atraso\" (sorry I'm late), or casually \"Foi mal\" (my bad). Then he sets the scene: \"eu estava saindo de casa quando...\". As you've seen, \"estava\" + gerund is the action in progress, and the perfeito after \"quando\" is the event that cut into it.",
         ],
         examples: [
           { es: "Rafael! O que aconteceu?", en: "Rafael! What happened?" },
-          { es: "Já são oito e meia!", en: "It's already half past eight!" },
+          { es: "Já são oito e meia!", en: "It's already eight thirty!" },
           { es: "Eu estava preocupada.", en: "I was worried. (Beatriz speaking)" },
           { es: "Desculpa o atraso, Beatriz.", en: "Sorry I'm late, Beatriz." },
           { es: "Foi mal, eu sei que estou atrasado.", en: "My bad, I know I'm late." },
@@ -1535,15 +1535,15 @@ export const PT_A2_U05: Lesson[] = [
       {
         heading: "Eu ia te ligar, mas...: the excuse",
         body: [
-          "Then the excuse: a plan that never happened. \"Ia\" + infinitive is was going to, and \"mas\" brings in what stopped it: \"eu ia te ligar, mas meu celular estava sem bateria\". \"Te ligar\" means call you; object pronouns come in the next unit, so learn it as a chunk.",
-          "\"Estar sem bateria\" (to be without battery) is how Brazilians say a phone is dead. Beatriz forgives him with \"Tudo bem\" or \"Não tem problema\", because the film \"ainda não começou\".",
+          "Then the excuse: a plan that never happened. \"Ia\" + infinitive is was going to, and \"mas\" brings in what stopped it: \"eu ia te ligar, mas meu celular estava sem bateria\". \"Te ligar\" means call you; object pronouns get their own unit later in the level, so learn it as a chunk for now.",
+          "\"Estar sem bateria\" (to be without battery) is how Brazilians say a phone is dead. Beatriz forgives him with \"Tudo bem\" or \"Não tem problema\", because the movie \"ainda não começou\".",
         ],
         examples: [
           { es: "Eu ia te ligar, mas meu celular estava sem bateria.", en: "I was going to call you, but my phone was dead." },
           { es: "Eu ia pegar um táxi, mas não tinha dinheiro.", en: "I was going to take a taxi, but I didn't have any cash." },
           { es: "Eu queria chegar cedo hoje.", en: "I wanted to get here early today." },
           { es: "Tudo bem, não tem problema.", en: "It's fine, no problem." },
-          { es: "O filme ainda não começou.", en: "The film hasn't started yet." },
+          { es: "O filme ainda não começou.", en: "The movie hasn't started yet." },
         ],
         checkpoint: [
           {
@@ -1572,9 +1572,9 @@ export const PT_A2_U05: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: The film hasn't started yet.",
+            prompt: "Put the words in order to say: The movie hasn't started yet.",
             words: ["O", "filme", "ainda", "não", "começou."],
-            translation: "The film hasn't started yet.",
+            translation: "The movie hasn't started yet.",
             explanation: "\"Ainda não\" + perfeito is not yet; English uses the present perfect, Portuguese the perfeito \"começou\".",
           },
         ],
@@ -1601,7 +1601,7 @@ export const PT_A2_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I [was going to] take the metro, but it was closed.",
+        en: "I [was going to] take the subway, but it was closed.",
         sentence: "Eu ___ pegar o metrô, mas estava fechado.",
         answer: "ia",
         explanation: "\"Ia\" + infinitive for a plan that fell through. \"Vou\" would be a plan for the future.",
@@ -1705,14 +1705,14 @@ export const PT_A2_U05: Lesson[] = [
       {
         heading: "Ontem eu fui, not ontem eu ia",
         body: [
-          "A learner wrote \"Ontem eu ia ao cinema\" to mean I went to the cinema yesterday. One finished event at a known time takes the perfeito: \"Ontem eu fui ao cinema.\"",
+          "A learner wrote \"Ontem eu ia ao cinema\" to mean I went to the movies yesterday. One finished event at a known time takes the perfeito: \"Ontem eu fui ao cinema.\"",
           "The imperfeito tells a different story. \"Eu ia ao cinema\" means I was going to go (a plan that fell through) or, with \"todo domingo\", I used to go. Time words like \"ontem\", \"no sábado\" and \"de repente\" point to the perfeito.",
         ],
         examples: [
-          { es: "Ontem eu fui ao cinema.", en: "I went to the cinema yesterday." },
+          { es: "Ontem eu fui ao cinema.", en: "I went to the movies yesterday." },
           { es: "No sábado a gente foi à praia.", en: "On Saturday we went to the beach." },
-          { es: "Eu ia ao cinema, mas choveu.", en: "I was going to go to the cinema, but it rained." },
-          { es: "Todo domingo eu ia ao cinema com meu pai.", en: "Every Sunday I used to go to the cinema with my dad." },
+          { es: "Eu ia ao cinema, mas choveu.", en: "I was going to go to the movies, but it rained." },
+          { es: "Todo domingo eu ia ao cinema com meu pai.", en: "Every Sunday I used to go to the movies with my dad." },
         ],
         checkpoint: [
           {
@@ -1931,7 +1931,7 @@ export const PT_A2_U05: Lesson[] = [
           { left: "Eu conhecia a Ana.", right: "I knew Ana." },
           { left: "Eu soube.", right: "I found out." },
           { left: "Eu sabia.", right: "I knew it." },
-          { left: "Todo sábado eu ia ao cinema.", right: "Every Saturday I went to the cinema." },
+          { left: "Todo sábado eu ia ao cinema.", right: "Every Saturday I went to the movies." },
         ],
         explanation: "The perfeito marks a moment (met, found out); the imperfeito marks a state or a habit (knew, used to go).",
       },
@@ -2208,7 +2208,7 @@ export const PT_A2_U05: Lesson[] = [
         examples: [
           { es: "Era sábado e fazia muito calor em Salvador.", en: "It was Saturday and it was very hot in Salvador." },
           { es: "A praia estava cheia, então nós fomos para um bar.", en: "The beach was packed, so we went to a bar." },
-          { es: "Eu tinha dezoito anos quando viajei sozinho pela primeira vez.", en: "I was eighteen when I travelled alone for the first time." },
+          { es: "Eu tinha dezoito anos quando viajei sozinho pela primeira vez.", en: "I was eighteen when I traveled alone for the first time." },
           { es: "A festa foi ótima, mas a música era muito alta.", en: "The party was great, but the music was very loud." },
           { es: "De repente, a luz acabou.", en: "Suddenly the power went out." },
         ],
@@ -2293,7 +2293,7 @@ export const PT_A2_U05: Lesson[] = [
             source: "We were going to have lunch outside, but it rained.",
             answer: "A gente ia almoçar lá fora, mas choveu.",
             altAnswers: ["Nós íamos almoçar lá fora, mas choveu.", "A gente ia almoçar lá fora, mas começou a chover.", "Nós íamos almoçar lá fora, mas começou a chover.", "Íamos almoçar lá fora, mas choveu."],
-            explanation: "The cancelled plan is \"ia\" or \"íamos\" + infinitive. The reason it didn't happen is a single event, so it takes the perfeito: \"choveu\".",
+            explanation: "The canceled plan is \"ia\" or \"íamos\" + infinitive. The reason it didn't happen is a single event, so it takes the perfeito: \"choveu\".",
           },
           {
             type: "multiple-choice",
@@ -2334,9 +2334,9 @@ export const PT_A2_U05: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: He was going to study, but he went to the cinema.",
+        prompt: "Put the words in order to say: He was going to study, but he went to the movies.",
         words: ["Ele", "ia", "estudar,", "mas", "foi", "ao", "cinema."],
-        translation: "He was going to study, but he went to the cinema.",
+        translation: "He was going to study, but he went to the movies.",
         explanation: "\"Ia estudar\" is the plan, and \"foi ao cinema\" is what actually happened, in the perfeito.",
       },
       {

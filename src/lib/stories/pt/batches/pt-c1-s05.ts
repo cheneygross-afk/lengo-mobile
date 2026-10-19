@@ -194,7 +194,7 @@ export const PT_C1_S05_STORIES: Story[] = [
     subtitle: `A biologist counting pink river dolphins on the Solimões hires a boatman who claims a strange family tie to them.`,
     paragraphs: [
       `A bióloga chegou a Tefé com uma planilha, um binóculo e a certeza de que sabia o que eram os botos. Chamava-se Camila, era de Campinas e passaria três meses contando golfinhos cor-de-rosa num trecho do rio Solimões. Precisava de um barqueiro, e todos na cidade indicaram o mesmo nome: seu Raimundo, que conhecia cada boto daquela água “pelo nome e pelo sobrenome”.`,
-      `Raimundo tinha a pele curtida de sol, um chapéu de palha comido nas pontas e uma voadeira com motor de rabeta que tossia mais que gente gripada. Nas primeiras manhãs, falou pouco. Pilotava de pé, lendo o rio como quem lê jornal: um redemoinho aqui, um tronco submerso ali, a cor da água mudando onde o igarapé despejava sua tinta escura no barro do Solimões.`,
+      `Raimundo tinha a pele curtida de sol, um chapéu de palha comido nas pontas e uma canoa com motor de rabeta que tossia mais que gente gripada. Nas primeiras manhãs, falou pouco. Pilotava de pé, lendo o rio como quem lê jornal: um redemoinho aqui, um tronco submerso ali, a cor da água mudando onde o igarapé despejava sua tinta escura no barro do Solimões.`,
       `Os botos apareciam aos pares, aos trios, rosados como chiclete mascado. Camila anotava. Raimundo corrigia. “Esse aí tu já contou ontem. É a Cicatriz, tem um corte na barbatana. Aquele outro é filho dela.” Ela duvidou, conferiu as fotos à noite e descobriu que ele tinha razão. Na terceira semana, já não anotava nada sem perguntar primeiro.`,
       `Numa tarde de chuva grossa, abrigados debaixo do telhado de uma casa de palafita, Camila perguntou sobre a lenda. Sabia de cor a versão dos livros: o boto que vira um moço bonito, de chapéu branco, aparece nas festas de São João, dança com a moça mais bonita e some antes do amanhecer, deixando-a grávida. Raimundo acendeu um cigarro e olhou para o rio. “Pois eu sou filho do boto”, disse.`,
       `Ela riu, achando que fosse brincadeira. Ele não riu. Contou que a mãe tinha dezesseis anos quando engravidou, e que a família inteira, a comunidade inteira, aceitou a explicação sem perguntar mais nada. “Aqui é assim, mana. O boto leva a culpa de muita coisa. É melhor pra todo mundo. Ninguém precisa brigar, ninguém precisa casar à força, e a criança nasce com uma história bonita em vez de uma vergonha.”`,
@@ -317,8 +317,8 @@ export const PT_C1_S05_STORIES: Story[] = [
 
 export const PT_C1_S05_GLOSSES: Record<string, StoryGloss[]> = {
   "pt-o-umbu-da-coxilha": [
-    { es: "o minuano", en: "cold south-west wind of the pampa", forms: ["minuano"] },
-    { es: "a bombacha", en: "baggy gaucho trousers", forms: ["bombacha"] },
+    { es: "o minuano", en: "cold southwest wind of the pampa", forms: ["minuano"] },
+    { es: "a bombacha", en: "baggy gaucho pants", forms: ["bombacha"] },
     { es: "a cuia", en: "gourd for drinking chimarrão", forms: ["cuia"] },
     { es: "a guria", en: "girl (in the South)", forms: ["guria"] },
     { es: "bah", en: "gaucho interjection, wow / well", forms: ["bah"] },
@@ -331,11 +331,11 @@ export const PT_C1_S05_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "a trena", en: "measuring tape", forms: ["trena"] },
   ],
   "pt-o-tijolo-assinado": [
-    { es: "o pau de arara", en: "open truck that carried migrants from the North-East", forms: ["arara"] },
+    { es: "o pau de arara", en: "open truck that carried migrants from the Northeast", forms: ["arara"] },
     { es: "a rede", en: "hammock", forms: ["rede"] },
-    { es: "o servente", en: "construction labourer", forms: ["servente"] },
+    { es: "o servente", en: "construction laborer", forms: ["servente"] },
     { es: "o torcicolo", en: "stiff neck", forms: ["torcicolo"] },
-    { es: "o cabra", en: "guy, fellow (North-East)", forms: ["cabra"] },
+    { es: "o cabra", en: "guy, fellow (Northeast)", forms: ["cabra"] },
     { es: "assentar", en: "to lay (bricks)", forms: ["assentar", "assentou"] },
     { es: "o reboco", en: "plaster", forms: ["reboco"] },
     { es: "o arranha-céu", en: "skyscraper", forms: ["arranha-céu"] },
@@ -345,7 +345,7 @@ export const PT_C1_S05_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "manso", en: "tame, gentle", forms: ["manso"] },
   ],
   "pt-a-receita-da-vo-zica": [
-    { es: "a assadeira", en: "baking tray", forms: ["assadeira"] },
+    { es: "a assadeira", en: "baking sheet", forms: ["assadeira"] },
     { es: "encarregar", en: "to entrust with", forms: ["encarregou"] },
     { es: "ralo", en: "weak, watery (of coffee)", forms: ["ralo"] },
     { es: "a broa de fubá", en: "cornmeal cake", forms: ["broa", "fubá"] },
@@ -361,8 +361,7 @@ export const PT_C1_S05_GLOSSES: Record<string, StoryGloss[]> = {
   "pt-o-filho-do-boto": [
     { es: "o boto", en: "Amazon river dolphin", forms: ["boto", "botos"] },
     { es: "curtido", en: "weathered, tanned", forms: ["curtida"] },
-    { es: "a voadeira", en: "small aluminium motorboat", forms: ["voadeira"] },
-    { es: "o motor de rabeta", en: "long-tail outboard motor", forms: ["rabeta"] },
+    { es: "o motor de rabeta", en: "long-tail motor (for small boats)", forms: ["rabeta"] },
     { es: "o igarapé", en: "narrow forest creek", forms: ["igarapé"] },
     { es: "a barbatana", en: "fin", forms: ["barbatana"] },
     { es: "a palafita", en: "house on stilts", forms: ["palafita"] },

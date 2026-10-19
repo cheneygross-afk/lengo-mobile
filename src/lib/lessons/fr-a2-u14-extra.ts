@@ -307,7 +307,7 @@ export const FR_A2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does « Je n'ai que vingt minutes » mean?",
+        question: "What does \"Je n'ai que vingt minutes\" mean?",
         options: ["I only have twenty minutes.", "I don't have twenty minutes.", "I have more than twenty minutes.", "I have nearly twenty minutes."],
         correctIndex: 0,
         explanation: "\"Ne...que\" = only.",
@@ -532,7 +532,7 @@ export const FR_A2_U14_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Sophie says « Vous ne faites jamais rien ! » Karim disagrees. What does he say?",
+            question: "Sophie says \"Vous ne faites jamais rien !\" Karim disagrees. What does he say?",
             options: ["Si !", "Oui !", "Moi non plus !", "Moi aussi !"],
             correctIndex: 0,
             explanation: "Contradicting a negative statement: \"si\".",
@@ -632,7 +632,7 @@ export const FR_A2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Hugo says: « J'ai fait les courses. » Karim did too. What does he say?",
+        question: "Hugo says: \"J'ai fait les courses.\" Karim did too. What does he say?",
         options: ["Moi aussi.", "Moi non plus.", "Pas moi.", "Si."],
         correctIndex: 0,
         explanation: "Agreeing with a positive: \"moi aussi\".",
@@ -777,7 +777,7 @@ export const FR_A2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Tu as des frères ? » You have none. Which answer is correct?",
+        question: "\"Tu as des frères ?\" You have none. Which answer is correct?",
         options: ["Non, je n'en ai pas.", "Non, je n'en ai pas un.", "Non, je n'ai pas.", "Non, je n'en ai que."],
         correctIndex: 0,
         explanation: "A plain negative drops the number: \"je n'en ai pas\".",
@@ -786,9 +786,9 @@ export const FR_A2_U14_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "Most of the cakes? We ate them all.",
-        answer: "La plupart des gâteaux ? On les a tous mangés.",
-        altAnswers: ["La plupart des gâteaux ? Nous les avons tous mangés."],
+        source: "The cakes from the party? We ate them all.",
+        answer: "Les gâteaux de la fête ? On les a tous mangés.",
+        altAnswers: ["Les gâteaux de la fête ? Nous les avons tous mangés.", "Les gâteaux de la soirée ? On les a tous mangés.", "Les gâteaux de la soirée ? Nous les avons tous mangés."],
         explanation: "Specific cakes → \"les\", and the participle agrees; \"tous\" sits between auxiliary and participle.",
       },
       {
@@ -1099,7 +1099,7 @@ export const FR_A2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Je n'ai jamais vu la mer. » Your friend hasn't either. What does she say?",
+        question: "\"Je n'ai jamais vu la mer.\" Your friend hasn't either. What does she say?",
         options: ["Moi non plus.", "Moi aussi.", "Moi si.", "Pas moi."],
         correctIndex: 0,
         explanation: "Agreeing with a negative: \"moi non plus\".",

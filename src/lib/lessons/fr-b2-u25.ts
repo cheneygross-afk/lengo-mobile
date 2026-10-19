@@ -24,13 +24,13 @@ export const FR_B2_U25: Lesson[] = [
     level: "FR-B2",
     number: 1,
     title: "Word Web: Technology and Artificial Intelligence",
-    summary: "Talk precisely about algorithms, data, software and the digital world, and speculate about the future of AI with si, au cas où and the subjunctive conjunctions.",
+    summary: "Talk precisely about algorithms, data, software and the digital world, and speculate about the future of AI with \"si\", \"au cas où\" and the subjunctive conjunctions.",
     duration: "14 min",
     sections: [
       {
         heading: "Le numérique: data, software and algorithms",
         body: [
-          "The core nouns of tech French are mostly cognates, but their grammar is not. \"Les données\" (data) is feminine and plural: \"les données sont stockées\", never *la donnée est when you mean data in general. \"Un logiciel\" is a piece of software and is countable, so French happily says \"des logiciels\" where English says software. \"Un algorithme\" is masculine, and so is \"le numérique\", the digital world.",
+          "The core nouns of tech French are mostly cognates, but their grammar is not. \"Les données\" (data) is feminine and plural: \"les données sont stockées\", never *\"la donnée est\" when you mean data in general. \"Un logiciel\" is a piece of software and is countable, so French happily says \"des logiciels\" where English says software. \"Un algorithme\" is masculine, and so is \"le numérique\", the digital world.",
           "\"Numérique\" is the word to use for digital: \"la transition numérique\", \"un appareil photo numérique\", \"l'économie numérique\". \"Digital\" exists in French advertising, but careful speakers avoid it, because \"digital\" properly refers to fingers: \"une empreinte digitale\" is a fingerprint. In an essay or an exam, \"numérique\" is always the safe choice.",
           "Artificial intelligence is \"l'intelligence artificielle\", usually shortened to \"l'IA\" (pronounced i-a), and it is feminine: \"l'IA est capable de...\", \"une IA générative\". A computer is \"un ordinateur\", a screen \"un écran\", and the cloud \"le cloud\" or, officially, \"le nuage\".",
         ],
@@ -227,8 +227,8 @@ export const FR_B2_U25: Lesson[] = [
         type: "speak",
         text: "Si les robots remplaçaient les médecins, je n'aurais plus confiance.",
         prompt: "Say it in French: If robots replaced doctors, I wouldn't trust them any more.",
-        tip: "Keep the r of remplaçaient and aurais at the back of the throat; the -aient ending sounds like è.",
-        explanation: "Imagined situation: \"si\" + imparfait, then the conditionnel \"je n'aurais plus confiance\" (avoir confiance: to trust).",
+        tip: "Keep the r of \"remplaçaient\" and \"aurais\" at the back of the throat; the -aient ending sounds like \"è\".",
+        explanation: "Imagined situation: \"si\" + imparfait, then the conditionnel \"je n'aurais plus confiance\" (\"avoir confiance\": to trust).",
       },
     ],
   },
@@ -237,14 +237,14 @@ export const FR_B2_U25: Lesson[] = [
     level: "FR-B2",
     number: 2,
     title: "Spiral Review: Le Village de Montagne",
-    summary: "Describe a mountain village, its people and its history with dont, duquel and preposition + lequel, the relatives of precise written French.",
+    summary: "Describe a mountain village, its people and its history with \"dont\", \"duquel\" and preposition + \"lequel\", the relatives of precise written French.",
     duration: "13 min",
     sections: [
       {
         heading: "Un village dont les maisons sont en pierre",
         body: [
           "Our story: Claire, a photographer from Grenoble, spends a winter in Saint-Véran, a village in the Hautes-Alpes. Her descriptions lean on \"dont\", which replaces \"de\" + a noun. With a noun complement, \"dont\" translates whose: \"un village dont les maisons sont en pierre\" (a village whose houses are made of stone).",
-          "Keep normal French word order after \"dont\": subject, verb, then object. \"Un berger dont je connais le fils\" (a shepherd whose son I know), never *dont le fils je connais. And never add a possessive: *dont ses maisons is wrong, because \"dont\" already contains the of.",
+          "Keep normal French word order after \"dont\": subject, verb, then object. \"Un berger dont je connais le fils\" (a shepherd whose son I know), never *\"dont le fils je connais\". And never add a possessive: *\"dont ses maisons\" is wrong, because \"dont\" already contains the of.",
           "\"Dont\" also follows verbs and adjectives built with \"de\": \"parler de\", \"se souvenir de\", \"avoir besoin de\", \"être fier de\". \"Le refuge dont on m'avait parlé\", \"la vue dont les habitants sont si fiers\".",
         ],
         examples: [
@@ -262,7 +262,7 @@ export const FR_B2_U25: Lesson[] = [
             prompt: "Translate into French.",
             source: "It's a village whose streets are very narrow.",
             answer: "C'est un village dont les rues sont très étroites.",
-            explanation: "Whose + noun → \"dont les rues\": the article stays, no possessive (*dont ses rues).",
+            explanation: "Whose + noun → \"dont les rues\": the article stays, no possessive (*\"dont ses rues\").",
           },
           {
             type: "word-order",
@@ -276,7 +276,7 @@ export const FR_B2_U25: Lesson[] = [
       {
         heading: "L'église à côté de laquelle...: places with compound prepositions",
         body: [
-          "When the preposition is longer than a simple \"de\", \"dont\" is impossible: you need \"duquel\", \"de laquelle\", \"desquels\" or \"desquelles\". \"L'église à côté de laquelle se trouve la fontaine\", \"le lac au bord duquel nous avons pique-niqué\", \"les sommets au pied desquels\". The test: \"à côté de\", \"au bord de\", \"au milieu de\", \"près de\", \"au cours de\" end in de but are multi-word prepositions.",
+          "When the preposition is longer than a simple \"de\", \"dont\" is impossible: you need \"duquel\", \"de laquelle\", \"desquels\" or \"desquelles\". \"L'église à côté de laquelle se trouve la fontaine\", \"le lac au bord duquel nous avons pique-niqué\", \"les sommets au pied desquels\". The test: \"à côté de\", \"au bord de\", \"au milieu de\", \"près de\", \"au cours de\" end in \"de\" but are multi-word prepositions.",
           "With a simple preposition (\"sur\", \"dans\", \"par\", \"pour\", \"avec\"), use \"lequel\" and its forms: \"le chemin par lequel les troupeaux descendent\", \"la cabane dans laquelle dormait le berger\". With \"à\", it contracts: \"le col auquel on accède en deux heures\". For a place, \"où\" often replaces \"dans lequel\": \"la maison où / dans laquelle je logeais\".",
           "Notice how often French inverts after these relatives in description: \"la place au milieu de laquelle se dresse un vieux tilleul\". The subject (a long noun phrase) moves after the verb; it is elegant and frequent in writing, not obligatory.",
         ],
@@ -295,7 +295,7 @@ export const FR_B2_U25: Lesson[] = [
             en: "The square [in the middle of which] stands an old lime tree.",
             sentence: "La place ___ se dresse un vieux tilleul.",
             answer: "au milieu de laquelle",
-            explanation: "\"Au milieu de\" is a compound preposition, so \"dont\" is impossible: \"au milieu de laquelle\" (place is feminine).",
+            explanation: "\"Au milieu de\" is a compound preposition, so \"dont\" is impossible: \"au milieu de laquelle\" (\"place\" is feminine).",
           },
           {
             type: "multiple-choice",
@@ -311,7 +311,7 @@ export const FR_B2_U25: Lesson[] = [
             source: "the hut in which the shepherd slept",
             answer: "la cabane dans laquelle dormait le berger",
             altAnswers: ["la cabane dans laquelle le berger dormait", "la cabane où dormait le berger", "la cabane où le berger dormait"],
-            explanation: "Simple preposition \"dans\" + \"laquelle\" (cabane is feminine), or simply \"où\" for a place. The subject can follow the verb.",
+            explanation: "Simple preposition \"dans\" + \"laquelle\" (\"cabane\" is feminine), or simply \"où\" for a place. The subject can follow the verb.",
           },
         ],
       },
@@ -319,7 +319,7 @@ export const FR_B2_U25: Lesson[] = [
         heading: "Ce dont on se souvient: memories and reasons",
         body: [
           "At the end of her stay, Claire writes about what she will remember. \"Ce dont\" is the headless version of \"dont\": \"ce dont je me souviendrai, c'est le silence\" (what I'll remember is the silence). The verb decides: \"se souvenir de\" → \"ce dont\"; \"aimer\" → \"ce que\"; \"penser à\" → \"ce à quoi\".",
-          "\"La raison pour laquelle\" (the reason why) is fixed: never *la raison pourquoi. Likewise time takes \"où\": \"l'hiver où je suis arrivée\", never *l'hiver quand.",
+          "\"La raison pour laquelle\" (the reason why) is fixed: never *\"la raison pourquoi\". Likewise time takes \"où\": \"l'hiver où je suis arrivée\", never *\"l'hiver quand\".",
           "For people after a preposition, \"qui\" is the usual choice: \"la vieille dame avec qui j'ai parlé\", \"le maire à qui j'ai écrit\". \"Lequel\" also works for people but sounds more formal.",
         ],
         examples: [
@@ -376,7 +376,7 @@ export const FR_B2_U25: Lesson[] = [
         en: "The mountains [at the foot of which] the village lies are covered in snow.",
         sentence: "Les montagnes ___ se trouve le village sont couvertes de neige.",
         answer: "au pied desquelles",
-        explanation: "\"Au pied de\" + \"lesquelles\" (montagnes, feminine plural) contracts to \"au pied desquelles\".",
+        explanation: "\"Au pied de\" + \"lesquelles\" (\"montagnes\", feminine plural) contracts to \"au pied desquelles\".",
       },
       {
         type: "word-order",
@@ -408,7 +408,7 @@ export const FR_B2_U25: Lesson[] = [
         source: "The reason why I came back is the light.",
         answer: "La raison pour laquelle je suis revenu, c'est la lumière.",
         altAnswers: ["La raison pour laquelle je suis revenue, c'est la lumière.", "La raison pour laquelle je suis revenu est la lumière.", "La raison pour laquelle je suis revenue est la lumière."],
-        explanation: "\"La raison pour laquelle\": never *la raison pourquoi. \"Revenir\" takes \"être\", so a woman writes \"revenue\".",
+        explanation: "\"La raison pour laquelle\": never *\"la raison pourquoi\". \"Revenir\" takes \"être\", so a woman writes \"revenue\".",
       },
       {
         type: "fill-blank",
@@ -416,7 +416,7 @@ export const FR_B2_U25: Lesson[] = [
         en: "[What] the village needs is young families.",
         sentence: "___ le village a besoin, ce sont des jeunes familles.",
         answer: "Ce dont",
-        explanation: "\"Avoir besoin de\" → \"ce dont\". *Ce que le village a besoin is the classic mistake.",
+        explanation: "\"Avoir besoin de\" → \"ce dont\". *\"Ce que le village a besoin\" is the classic mistake.",
       },
       {
         type: "dictation",
@@ -427,7 +427,7 @@ export const FR_B2_U25: Lesson[] = [
         type: "speak",
         text: "Ce dont je me souviendrai toujours, c'est le silence des nuits d'hiver.",
         prompt: "Say it in French: What I'll always remember is the silence of the winter nights.",
-        tip: "Pause slightly at the comma before c'est: the pseudo-cleft has two halves.",
+        tip: "Pause slightly at the comma before \"c'est\": the pseudo-cleft has two halves.",
         explanation: "\"Se souvenir de\" → \"ce dont\", then \"c'est\" introduces the highlighted element.",
       },
     ],
@@ -477,8 +477,8 @@ export const FR_B2_U25: Lesson[] = [
       {
         heading: "Un cas difficile: what would you do?",
         body: [
-          "One Friday evening, a young man Sophie has never seen hands her a prescription for a strong painkiller. The handwriting is odd, the doctor's stamp looks blurred, and he is in a hurry. She suspects \"une ordonnance falsifiée\" (a forged prescription). Hypotheses help her think: \"si l'ordonnance était fausse, je serais complice\" (imagined present: si + imparfait → conditionnel).",
-          "She weighs the alternatives with \"au cas où\" + conditionnel and \"à moins que\" + subjunctive: \"je vais appeler le médecin, au cas où il y aurait une erreur\", \"je ne peux pas la lui délivrer, à moins que le médecin ne confirme\". The \"ne\" after \"à moins que\" is the optional ne explétif of formal French; it is not a negation.",
+          "One Friday evening, a young man Sophie has never seen hands her a prescription for a strong painkiller. The handwriting is odd, the doctor's stamp looks blurred, and he is in a hurry. She suspects \"une ordonnance falsifiée\" (a forged prescription). Hypotheses help her think: \"si l'ordonnance était fausse, je serais complice\" (imagined present: \"si\" + imparfait → conditionnel).",
+          "She weighs the alternatives with \"au cas où\" + conditionnel and \"à moins que\" + subjunctive: \"je vais appeler le médecin, au cas où il y aurait une erreur\", \"je ne peux pas la lui délivrer, à moins que le médecin ne confirme\". The \"ne\" after \"à moins que\" is the optional \"ne\" explétif of formal French; it is not a negation.",
           "Suspicion verbs: \"soupçonner quelqu'un de\" + infinitive (to suspect someone of), \"se méfier de\" (to be wary of), \"avoir des doutes sur\". \"Je le soupçonne d'avoir falsifié l'ordonnance\" uses the infinitif passé.",
         ],
         examples: [
@@ -497,7 +497,7 @@ export const FR_B2_U25: Lesson[] = [
             source: "If the prescription were forged, I'd call the police.",
             answer: "Si l'ordonnance était falsifiée, j'appellerais la police.",
             altAnswers: ["Si l'ordonnance était fausse, j'appellerais la police.", "Si l'ordonnance était falsifiée, je préviendrais la police.", "Si l'ordonnance était fausse, je préviendrais la police."],
-            explanation: "Si + imparfait (\"était\") → conditionnel (\"j'appellerais\", with double l from appeler).",
+            explanation: "\"Si\" + imparfait (\"était\") → conditionnel (\"j'appellerais\", with double l from \"appeler\").",
           },
           {
             type: "fill-blank",
@@ -538,7 +538,7 @@ export const FR_B2_U25: Lesson[] = [
             source: "I should have called the hospital.",
             answer: "J'aurais dû appeler l'hôpital.",
             altAnswers: ["J'aurais dû téléphoner à l'hôpital.", "Il aurait fallu que j'appelle l'hôpital.", "J'aurais dû contacter l'hôpital."],
-            explanation: "Should have = \"j'aurais dû\" + infinitive (conditionnel passé of devoir). \"Téléphoner à\" needs the preposition, \"appeler\" doesn't.",
+            explanation: "Should have = \"j'aurais dû\" + infinitive (conditionnel passé of \"devoir\"). \"Téléphoner à\" needs the preposition, \"appeler\" doesn't.",
           },
           {
             type: "multiple-choice",
@@ -575,7 +575,7 @@ export const FR_B2_U25: Lesson[] = [
         en: "I [could have] given him a dose for the night.",
         sentence: "J'___ lui donner une dose pour la nuit.",
         answer: "aurais pu",
-        explanation: "Could have = \"aurais pu\" + infinitive (conditionnel passé of pouvoir).",
+        explanation: "Could have = \"aurais pu\" + infinitive (conditionnel passé of \"pouvoir\").",
       },
       {
         type: "translate",
@@ -627,7 +627,7 @@ export const FR_B2_U25: Lesson[] = [
         question: "What does it mean?",
         options: ["I should have kept calm.", "I'll have to keep calm.", "I kept calm, as I had to.", "I'd have to keep calm."],
         correctIndex: 0,
-        explanation: "\"Il aurait fallu que\" (conditionnel passé of falloir) + subjunctive: a reproach about the past.",
+        explanation: "\"Il aurait fallu que\" (conditionnel passé of \"falloir\") + subjunctive: a reproach about the past.",
       },
       {
         type: "speak",
@@ -715,7 +715,7 @@ export const FR_B2_U25: Lesson[] = [
             type: "speak",
             text: "Il me parlait comme s'il me connaissait depuis toujours.",
             prompt: "Say it in French: He talked to me as if he'd known me forever.",
-            tip: "S'il is one syllable: comme-sil.",
+            tip: "\"S'il\" is one syllable: \"comme-sil\".",
             explanation: "\"Comme si\" + imparfait; \"si il\" always contracts to \"s'il\" (but not \"si elle\").",
           },
         ],
@@ -752,7 +752,7 @@ export const FR_B2_U25: Lesson[] = [
             source: "I trusted him.",
             answer: "Je lui faisais confiance.",
             altAnswers: ["Je lui ai fait confiance.", "J'avais confiance en lui."],
-            explanation: "\"Faire confiance à quelqu'un\" → \"lui\"; or \"avoir confiance en lui\". *Je le faisais confiance is wrong.",
+            explanation: "\"Faire confiance à quelqu'un\" → \"lui\"; or \"avoir confiance en lui\". *\"Je le faisais confiance\" is wrong.",
           },
         ],
       },
@@ -783,7 +783,7 @@ export const FR_B2_U25: Lesson[] = [
         sentence: "___ ta banque.",
         answer: "Il vaudrait mieux que tu préviennes",
         altAnswers: ["Il vaudrait mieux que tu avertisses"],
-        explanation: "\"Il vaudrait mieux que\" + subjunctive: \"tu préviennes\" (prévenir → que je prévienne).",
+        explanation: "\"Il vaudrait mieux que\" + subjunctive: \"tu préviennes\" (\"prévenir\" → \"que je prévienne\").",
       },
       {
         type: "multiple-choice",
@@ -814,7 +814,7 @@ export const FR_B2_U25: Lesson[] = [
         prompt: "Translate into French.",
         source: "He talked to me as if he were my brother.",
         answer: "Il me parlait comme s'il était mon frère.",
-        altAnswers: ["Il me parlait comme s'il avait été mon frère.", "Il m'a parlé comme s'il était mon frère."],
+        altAnswers: ["Il m'a parlé comme s'il était mon frère."],
         explanation: "\"Comme si\" + imparfait (\"était\"): simultaneous with \"parlait\".",
       },
       {
@@ -840,7 +840,7 @@ export const FR_B2_U25: Lesson[] = [
       {
         type: "dictation",
         audio: "Ils s'étaient écrit tous les soirs pendant huit mois.",
-        explanation: "\"S'écrire\" has an indirect object (écrire à quelqu'un), so no agreement: \"écrit\", not *écrits.",
+        explanation: "\"S'écrire\" has an indirect object (\"écrire à quelqu'un\"), so no agreement: \"écrit\", not *\"écrits\".",
       },
       {
         type: "speak",
@@ -855,13 +855,13 @@ export const FR_B2_U25: Lesson[] = [
     level: "FR-B2",
     number: 5,
     title: "Word Web: Decisions and Regrets",
-    summary: "Take, put off and regret decisions in idiomatic French: prendre une décision, se décider à, hésiter à, renoncer à, regretter de, remords and missed opportunities.",
+    summary: "Take, put off and regret decisions in idiomatic French: \"prendre une décision\", \"se décider à\", \"hésiter à\", \"renoncer à\", \"regretter de\", \"remords\" and missed opportunities.",
     duration: "14 min",
     sections: [
       {
         heading: "Prendre une décision, se décider à",
         body: [
-          "In French you take a decision: \"prendre une décision\". *Faire une décision is the classic anglicism. The verb \"décider de\" + infinitive states the choice (\"j'ai décidé de partir\"); \"se décider à\" + infinitive means to finally make up your mind after hesitating (\"je me suis enfin décidé à partir\"). \"Être décidé à\" means to be determined to.",
+          "In French you take a decision: \"prendre une décision\". *\"Faire une décision\" is the classic anglicism. The verb \"décider de\" + infinitive states the choice (\"j'ai décidé de partir\"); \"se décider à\" + infinitive means to finally make up your mind after hesitating (\"je me suis enfin décidé à partir\"). \"Être décidé à\" means to be determined to.",
           "Hesitation: \"hésiter à\" + infinitive (\"j'hésite à accepter\"), \"hésiter entre\" two things, \"être partagé\" (to be torn), \"peser le pour et le contre\" (to weigh up the pros and cons). Changing your mind is \"changer d'avis\", with no article.",
           "Note the prepositions, which English never gives you: \"décider de\", \"se décider à\", \"hésiter à\", \"renoncer à\", \"choisir de\". Learn each verb with its preposition as one unit.",
         ],
@@ -881,14 +881,14 @@ export const FR_B2_U25: Lesson[] = [
             source: "We have to make a decision before Friday.",
             answer: "Nous devons prendre une décision avant vendredi.",
             altAnswers: ["On doit prendre une décision avant vendredi.", "Il faut que nous prenions une décision avant vendredi.", "Il faut qu'on prenne une décision avant vendredi.", "Il faut prendre une décision avant vendredi."],
-            explanation: "\"Prendre une décision\": never *faire une décision.",
+            explanation: "\"Prendre une décision\": never *\"faire une décision\".",
           },
           {
             type: "multiple-choice",
             question: "After months of hesitation, Karim finally made up his mind to move. Which sentence says this?",
             options: ["Karim s'est enfin décidé à déménager.", "Karim a enfin fait la décision de déménager.", "Karim s'est enfin décidé de déménager.", "Karim a enfin hésité à déménager."],
             correctIndex: 0,
-            explanation: "\"Se décider à\" + infinitive is to finally make up one's mind; \"décider de\" takes de, \"se décider\" takes à.",
+            explanation: "\"Se décider à\" + infinitive is to finally make up one's mind; \"décider de\" takes \"de\", \"se décider\" takes \"à\".",
           },
         ],
       },
@@ -914,7 +914,7 @@ export const FR_B2_U25: Lesson[] = [
             prompt: "Translate into French.",
             source: "She gave up her trip.",
             answer: "Elle a renoncé à son voyage.",
-            altAnswers: ["Elle a abandonné son projet de voyage.", "Elle a annulé son voyage."],
+            altAnswers: ["Elle a abandonné son projet de voyage."],
             explanation: "\"Renoncer à\" + noun: to give up, to forgo something.",
           },
           {
@@ -995,7 +995,7 @@ export const FR_B2_U25: Lesson[] = [
         en: "He finally [made up his mind to] call her.",
         sentence: "Il ___ l'appeler.",
         answer: "s'est enfin décidé à",
-        explanation: "\"Se décider à\" (with à) after a long hesitation; \"enfin\" sits between the auxiliary and the participle.",
+        explanation: "\"Se décider à\" (with \"à\") after a long hesitation; \"enfin\" sits between the auxiliary and the participle.",
       },
       {
         type: "translate",
@@ -1019,7 +1019,7 @@ export const FR_B2_U25: Lesson[] = [
         question: "Which sentence is correct French?",
         options: ["Il a changé d'avis à la dernière minute.", "Il a changé son avis à la dernière minute.", "Il a fait une décision à la dernière minute.", "Il a renoncé son projet à la dernière minute."],
         correctIndex: 0,
-        explanation: "\"Changer d'avis\" has no article or possessive. *Faire une décision and *renoncer son projet (missing à) are anglicisms.",
+        explanation: "\"Changer d'avis\" has no article or possessive. *\"Faire une décision\" and *\"renoncer son projet\" (missing \"à\") are anglicisms.",
       },
       {
         type: "word-order",
@@ -1114,7 +1114,7 @@ export const FR_B2_U25: Lesson[] = [
         body: [
           "Second leg: the three conditions. Real: \"si\" + présent → futur or présent (\"si tu viens, on ira au cinéma\"). Unreal present: \"si\" + imparfait → conditionnel (\"si j'avais le temps, je t'aiderais\"). Unreal past: \"si\" + plus-que-parfait → conditionnel passé (\"si j'avais su, je serais venu\"). Mixed: \"si j'avais accepté ce poste, je vivrais à Lyon aujourd'hui\".",
           "Regrets and reproaches: \"j'aurais dû\" (I should have), \"tu aurais pu\" (you could have), \"j'aurais mieux fait de\" (I'd have done better to), \"si seulement\" + plus-que-parfait (if only).",
-          "English would after if is the giveaway trap: if you would call me → \"si tu m'appelais\", never *si tu m'appellerais.",
+          "English would after if is the giveaway trap: if you would call me → \"si tu m'appelais\", never *\"si tu m'appellerais\".",
         ],
         examples: [
           { es: "Si tu viens samedi, on ira voir l'exposition.", en: "If you come on Saturday, we'll go and see the exhibition." },
@@ -1209,7 +1209,7 @@ export const FR_B2_U25: Lesson[] = [
             prompt: "Translate into French.",
             source: "I'm the one who's right.",
             answer: "C'est moi qui ai raison.",
-            explanation: "After \"c'est moi qui\", the verb agrees with \"moi\": \"ai\", never *a.",
+            explanation: "After \"c'est moi qui\", the verb agrees with \"moi\": \"ai\", never *\"a\".",
           },
           {
             type: "translate",
@@ -1249,7 +1249,7 @@ export const FR_B2_U25: Lesson[] = [
         source: "If I'd known, I would have come.",
         answer: "Si j'avais su, je serais venu.",
         altAnswers: ["Si j'avais su, je serais venue."],
-        explanation: "Unreal past: \"si j'avais su\" + conditionnel passé \"je serais venu(e)\" (venir takes être).",
+        explanation: "Unreal past: \"si j'avais su\" + conditionnel passé \"je serais venu(e)\" (\"venir\" takes \"être\").",
       },
       {
         type: "translate",
@@ -1306,7 +1306,7 @@ export const FR_B2_U25: Lesson[] = [
         prompt: "Translate into French.",
         source: "Although it was raining, we went out.",
         answer: "Bien qu'il pleuve, nous sommes sortis.",
-        altAnswers: ["Même s'il pleuvait, nous sommes sortis.", "Bien qu'il pleuve, on est sortis.", "Même s'il pleuvait, on est sortis.", "Bien qu'il ait plu, nous sommes sortis.", "Il pleuvait, pourtant nous sommes sortis.", "Il pleuvait ; pourtant, nous sommes sortis.", "Bien qu'il pleuve, nous sommes sorties.", "Même s'il pleuvait, nous sommes sorties."],
+        altAnswers: ["Même s'il pleuvait, nous sommes sortis.", "Bien qu'il pleuve, on est sortis.", "Même s'il pleuvait, on est sortis.", "Il pleuvait, pourtant nous sommes sortis.", "Il pleuvait ; pourtant, nous sommes sortis.", "Bien qu'il pleuve, nous sommes sorties.", "Même s'il pleuvait, nous sommes sorties."],
         explanation: "\"Bien que\" + subjunctive (modern French uses the present subjunctive even in a past context); \"même si\" takes the indicative.",
       },
       {
@@ -1318,7 +1318,7 @@ export const FR_B2_U25: Lesson[] = [
         type: "speak",
         text: "C'est moi qui ai raison, pas toi.",
         prompt: "Say it in French, to a friend: I'm the one who's right, not you.",
-        tip: "Qui ai: two separate vowels, ki-é.",
+        tip: "\"Qui ai\": two separate vowels, ki-é.",
         explanation: "\"C'est moi qui\" + first-person verb: \"ai\".",
       },
     ],
@@ -1328,14 +1328,14 @@ export const FR_B2_U25: Lesson[] = [
     level: "FR-B2",
     number: 7,
     title: "Spiral Review: Talk About Yourself: Ce que J'aime dans Ma Ville",
-    summary: "Talk about your town and highlight what matters with pseudo-clefts, dislocation and c'est... qui / que, the way French speakers do instead of stressing words with the voice.",
+    summary: "Talk about your town and highlight what matters with pseudo-clefts, dislocation and \"c'est... qui / que\", the way French speakers do instead of stressing words with the voice.",
     duration: "13 min",
     sections: [
       {
         heading: "Ce qui me plaît, c'est...",
         body: [
           "To present your town, start with a pseudo-cleft: \"ce qui me plaît dans ma ville, c'est le marché du dimanche\", \"ce que j'aime, c'est les petites rues\". The relative depends on the verb: \"plaire\" has the thing as subject (\"ce qui me plaît\"), \"aimer\" has it as object (\"ce que j'aime\"), \"profiter de\" needs \"ce dont\", \"penser à\" needs \"ce à quoi\".",
-          "After the comma, \"c'est\" introduces the highlighted part. Before a plural noun, careful French says \"ce sont\" (\"ce que j'aime, ce sont les petites rues\"); in conversation \"c'est\" is normal. Before a verb, use \"de\" + infinitive when it is the object of a verb with de, or \"c'est\" + infinitive otherwise: \"ce que je préfère, c'est me promener le long du canal\".",
+          "After the comma, \"c'est\" introduces the highlighted part. Before a plural noun, careful French says \"ce sont\" (\"ce que j'aime, ce sont les petites rues\"); in conversation \"c'est\" is normal. Before a verb, use \"de\" + infinitive when it is the object of a verb with \"de\", or \"c'est\" + infinitive otherwise: \"ce que je préfère, c'est me promener le long du canal\".",
           "In speech, this structure gives you time to think and makes your answer sound structured. It is ideal in the DELF oral.",
         ],
         examples: [
@@ -1354,13 +1354,13 @@ export const FR_B2_U25: Lesson[] = [
             source: "What I like about my town is the market.",
             answer: "Ce que j'aime dans ma ville, c'est le marché.",
             altAnswers: ["Ce qui me plaît dans ma ville, c'est le marché.", "Ce que j'aime dans ma ville c'est le marché.", "Ce que j'adore dans ma ville, c'est le marché."],
-            explanation: "\"Aimer\" → \"ce que\"; \"plaire\" → \"ce qui\". About my town is \"dans ma ville\", not *à propos de.",
+            explanation: "\"Aimer\" → \"ce que\"; \"plaire\" → \"ce qui\". About my town is \"dans ma ville\", not *\"à propos de\".",
           },
           {
             type: "speak",
             text: "Ce qui me plaît dans ma ville, c'est le marché du dimanche matin.",
             prompt: "Say it in French: What I like about my town is the Sunday morning market.",
-            tip: "Let your voice rise on ville, then fall on c'est le marché.",
+            tip: "Let your voice rise on \"ville\", then fall on \"c'est le marché\".",
             explanation: "\"Ce qui me plaît\": the thing is the subject of \"plaire\", so \"ce qui\".",
           },
         ],
@@ -1368,7 +1368,7 @@ export const FR_B2_U25: Lesson[] = [
       {
         heading: "Mon quartier, je l'adore: dislocation",
         body: [
-          "Spoken French loves dislocation: put the topic first and pick it up with a pronoun. \"Mon quartier, je l'adore.\" \"Le marché, j'y vais tous les samedis.\" \"Des parcs, il y en a partout.\" The pronoun must match the verb: \"le / la / les\" for a direct object, \"y\" for à + place or thing, \"en\" for de or a quantity.",
+          "Spoken French loves dislocation: put the topic first and pick it up with a pronoun. \"Mon quartier, je l'adore.\" \"Le marché, j'y vais tous les samedis.\" \"Des parcs, il y en a partout.\" The pronoun must match the verb: \"le / la / les\" for a direct object, \"y\" for \"à\" + place or thing, \"en\" for \"de\" or a quantity.",
           "A stressed pronoun at the front marks a contrast between people: \"moi, je préfère le centre ; mes enfants, eux, adorent la banlieue\". \"Eux\" and \"elles\" are the stressed plural forms.",
           "You can also dislocate to the right, adding the topic as an afterthought: \"je l'adore, ce quartier\". It sounds warm and spontaneous, and it is very common.",
         ],
@@ -1387,7 +1387,7 @@ export const FR_B2_U25: Lesson[] = [
             prompt: "Translate into French, putting the market first.",
             source: "I go to the market every Saturday.",
             answer: "Le marché, j'y vais tous les samedis.",
-            altAnswers: ["Le marché, j'y vais chaque samedi.", "Au marché, j'y vais tous les samedis."],
+            altAnswers: ["Le marché, j'y vais chaque samedi."],
             explanation: "\"Aller à\" + place → \"y\" when the place has been moved to the front.",
           },
           {
@@ -1396,7 +1396,7 @@ export const FR_B2_U25: Lesson[] = [
             en: "Parks, [there are some] everywhere.",
             sentence: "Des parcs, ___ partout.",
             answer: "il y en a",
-            explanation: "\"Des parcs\" is a quantity (de), so it's taken up by \"en\": \"il y en a\".",
+            explanation: "\"Des parcs\" is a quantity (\"de\"), so it's taken up by \"en\": \"il y en a\".",
           },
         ],
       },
@@ -1404,7 +1404,7 @@ export const FR_B2_U25: Lesson[] = [
         heading: "C'est le dimanche que la ville est la plus belle",
         body: [
           "The cleft \"c'est... qui / que\" singles out one element: \"c'est le dimanche matin que la ville est la plus belle\" (Sunday morning is when...), \"c'est ici que j'ai rencontré ma femme\", \"c'est ma voisine qui m'a fait découvrir ce café\". \"Qui\" after the subject, \"que\" after anything else (time, place, object).",
-          "Add exclamations to sound enthusiastic: \"qu'est-ce que c'est beau !\", \"comme c'est calme le soir !\", \"quelle vue !\". Never *comment c'est beau: English how is \"comme\" or \"qu'est-ce que\" here.",
+          "Add exclamations to sound enthusiastic: \"qu'est-ce que c'est beau !\", \"comme c'est calme le soir !\", \"quelle vue !\". Never *\"comment c'est beau\": English how is \"comme\" or \"qu'est-ce que\" here.",
           "A good spoken description mixes the three structures: one pseudo-cleft, one dislocation, one cleft, one exclamation. That is exactly what the DELF B2 examiner listens for.",
         ],
         examples: [
@@ -1423,14 +1423,14 @@ export const FR_B2_U25: Lesson[] = [
             source: "This is where I met my wife.",
             answer: "C'est ici que j'ai rencontré ma femme.",
             altAnswers: ["C'est là que j'ai rencontré ma femme.", "C'est ici que j'ai fait la connaissance de ma femme."],
-            explanation: "A place highlighted by a cleft: \"c'est ici que\", never *c'est ici où.",
+            explanation: "A place highlighted by a cleft: \"c'est ici que\", never *\"c'est ici où\".",
           },
           {
             type: "multiple-choice",
             question: "You're showing a friend the view from the hill. What do you say?",
             options: ["Qu'est-ce que c'est beau !", "Comment c'est beau !", "Qu'est-ce que c'est beau ?", "Quel c'est beau !"],
             correctIndex: 0,
-            explanation: "\"Qu'est-ce que\" + clause (or \"comme c'est beau !\") is an exclamation of degree; *comment c'est beau is an anglicism.",
+            explanation: "\"Qu'est-ce que\" + clause (or \"comme c'est beau !\") is an exclamation of degree; *\"comment c'est beau\" is an anglicism.",
           },
           {
             type: "listen-choose",
@@ -1485,7 +1485,7 @@ export const FR_B2_U25: Lesson[] = [
         en: "[It's in the evening that] the town is at its prettiest.",
         sentence: "___ la ville est la plus jolie.",
         answer: "C'est le soir que",
-        explanation: "A time highlighted: \"c'est le soir que\", never *c'est le soir quand.",
+        explanation: "A time highlighted: \"c'est le soir que\", never *\"c'est le soir quand\".",
       },
       {
         type: "multiple-choice",
@@ -1510,7 +1510,7 @@ export const FR_B2_U25: Lesson[] = [
         source: "How quiet it is here!",
         answer: "Comme c'est calme ici !",
         altAnswers: ["Qu'est-ce que c'est calme ici !", "Que c'est calme ici !", "Comme c'est tranquille ici !", "Qu'est-ce que c'est tranquille ici !", "Que c'est tranquille ici !", "Ce que c'est calme ici !"],
-        explanation: "Exclamation of degree: \"comme\", \"que\" or \"qu'est-ce que\" + clause; never *comment.",
+        explanation: "Exclamation of degree: \"comme\", \"que\" or \"qu'est-ce que\" + clause; never *\"comment\".",
       },
       {
         type: "dictation",
@@ -1536,7 +1536,7 @@ export const FR_B2_U25: Lesson[] = [
     level: "FR-B2",
     number: 8,
     title: "Word Web: Journalism and the Media",
-    summary: "Read and talk about the news like a French reader: la presse, un quotidien, la une, la rédaction, une source, une infox, and reported speech to say who said what.",
+    summary: "Read and talk about the news like a French reader: \"la presse\", \"un quotidien\", \"la une\", \"la rédaction\", \"une source\", \"une infox\", and reported speech to say who said what.",
     duration: "14 min",
     sections: [
       {
@@ -1620,7 +1620,7 @@ export const FR_B2_U25: Lesson[] = [
       {
         heading: "Infox and reported speech",
         body: [
-          "Fake news is \"une infox\" (the official word, from information + intox), \"une fausse information\" or, in everyday speech, \"une fake news\". \"Démentir\" is to deny officially (\"le ministère a démenti l'information\"), \"un démenti\" a denial; \"vérifier\", \"une rumeur\", \"se propager\" (to spread).",
+          "Fake news is \"une infox\" (the official word, from \"information\" + \"intox\"), \"une fausse information\" or, in everyday speech, \"une fake news\". \"Démentir\" is to deny officially (\"le ministère a démenti l'information\"), \"un démenti\" a denial; \"vérifier\", \"une rumeur\", \"se propager\" (to spread).",
           "Media French is full of reported speech. After a past reporting verb, shift the tenses: \"le porte-parole a déclaré que le gouvernement allait réagir\", \"elle a affirmé qu'elle n'avait jamais reçu d'argent\", \"il a annoncé que la loi serait votée en mars\". Choose a precise reporting verb: \"affirmer\", \"déclarer\", \"annoncer\", \"reconnaître\" (to admit), \"nier\" (to deny), \"démentir\", \"assurer\".",
           "\"Nier\" + infinitif passé is elegant when the subject is the same: \"il a nié avoir reçu de l'argent\" (he denied receiving money).",
         ],
@@ -1670,7 +1670,7 @@ export const FR_B2_U25: Lesson[] = [
         source: "This story made the front page of every newspaper.",
         answer: "Cette affaire a fait la une de tous les journaux.",
         altAnswers: ["Cette histoire a fait la une de tous les journaux.", "Cette affaire a fait la une de tous les quotidiens."],
-        explanation: "\"Faire la une de\"; plural of journal is \"journaux\".",
+        explanation: "\"Faire la une de\"; plural of \"journal\" is \"journaux\".",
       },
       {
         type: "matching",
@@ -1744,14 +1744,14 @@ export const FR_B2_U25: Lesson[] = [
     level: "FR-B2",
     number: 9,
     title: "Spiral Review: Dont in Definitions",
-    summary: "Define objects, people and ideas with dont, the way dictionaries and word games do: c'est un outil dont on se sert pour..., c'est une personne dont le métier est de...",
+    summary: "Define objects, people and ideas with \"dont\", the way dictionaries and word games do: \"c'est un outil dont on se sert pour...\", \"c'est une personne dont le métier est de...\"",
     duration: "12 min",
     sections: [
       {
         heading: "Objects: c'est un outil dont on se sert pour...",
         body: [
           "When you don't know a word, define it. The most useful frame is \"c'est un objet / un outil / un appareil dont on se sert pour\" + infinitive (it's a tool you use to...). \"Se servir de\" (to use) takes \"de\", so the relative is \"dont\". The same goes for \"avoir besoin de\": \"c'est un truc dont on a besoin pour ouvrir une bouteille\".",
-          "Compare with \"utiliser\", which takes a direct object: \"c'est un objet qu'on utilise pour...\". Both are correct; what matters is matching the relative to the verb. *Un outil qu'on se sert is the classic error.",
+          "Compare with \"utiliser\", which takes a direct object: \"c'est un objet qu'on utilise pour...\". Both are correct; what matters is matching the relative to the verb. *\"Un outil qu'on se sert\" is the classic error.",
           "Other everyday definers: \"c'est une sorte de\", \"c'est un genre de\", \"ça sert à\" + infinitive (it's used for): \"un tire-bouchon, ça sert à ouvrir les bouteilles\".",
         ],
         examples: [
@@ -1784,9 +1784,9 @@ export const FR_B2_U25: Lesson[] = [
       {
         heading: "People: une personne dont le métier est de...",
         body: [
-          "For a person, \"dont\" introduces the noun complement: \"c'est une personne dont le métier est de soigner les animaux\" (whose job is to...), \"c'est quelqu'un dont on parle beaucoup en ce moment\". Keep the article (\"le métier\"), never the possessive (*dont son métier).",
-          "\"Dont\" also replaces de + noun after adjectives: \"c'est un artisan dont la ville est fière\" (être fier de), \"c'est une actrice dont je suis fan\" (être fan de).",
-          "For definitions of jobs, \"c'est quelqu'un qui\" + verb is just as common: \"un traducteur, c'est quelqu'un qui traduit des textes\". Use \"dont\" when the definition starts from something belonging to the person or a verb with de.",
+          "For a person, \"dont\" introduces the noun complement: \"c'est une personne dont le métier est de soigner les animaux\" (whose job is to...), \"c'est quelqu'un dont on parle beaucoup en ce moment\". Keep the article (\"le métier\"), never the possessive (*\"dont son métier\").",
+          "\"Dont\" also replaces \"de\" + noun after adjectives: \"c'est un artisan dont la ville est fière\" (\"être fier de\"), \"c'est une actrice dont je suis fan\" (\"être fan de\").",
+          "For definitions of jobs, \"c'est quelqu'un qui\" + verb is just as common: \"un traducteur, c'est quelqu'un qui traduit des textes\". Use \"dont\" when the definition starts from something belonging to the person or a verb with \"de\".",
         ],
         examples: [
           { es: "Un vétérinaire, c'est une personne dont le métier est de soigner les animaux.", en: "A vet is someone whose job is to treat animals." },
@@ -1818,7 +1818,7 @@ export const FR_B2_U25: Lesson[] = [
       {
         heading: "Ideas and feelings: c'est ce dont...",
         body: [
-          "Abstract nouns are defined the same way: \"la nostalgie, c'est un sentiment dont on souffre quand on pense au passé\" (souffrir de), \"la liberté, c'est ce dont on rêve quand on est enfermé\" (rêver de).",
+          "Abstract nouns are defined the same way: \"la nostalgie, c'est un sentiment dont on souffre quand on pense au passé\" (\"souffrir de\"), \"la liberté, c'est ce dont on rêve quand on est enfermé\" (\"rêver de\").",
           "When there is no noun to hang the definition on, use \"ce dont\": \"c'est ce dont on a besoin quand on est malade\". This is the guessing game \"Devinez le mot\": you describe, the others guess.",
           "\"Dont\" is never used after a preposition: if the verb takes \"à\" (\"penser à\", \"s'intéresser à\"), switch to \"auquel\" or \"ce à quoi\": \"c'est un sujet auquel je pense souvent\".",
         ],
@@ -1874,7 +1874,7 @@ export const FR_B2_U25: Lesson[] = [
         source: "An orphan is a child whose parents have died.",
         answer: "Un orphelin, c'est un enfant dont les parents sont morts.",
         altAnswers: ["Un orphelin est un enfant dont les parents sont morts.", "Un orphelin, c'est un enfant dont les parents sont décédés.", "Un orphelin est un enfant dont les parents sont décédés."],
-        explanation: "Whose parents → \"dont les parents\", with the article, not *dont ses parents.",
+        explanation: "Whose parents → \"dont les parents\", with the article, not *\"dont ses parents\".",
       },
       {
         type: "fill-blank",
@@ -1907,7 +1907,7 @@ export const FR_B2_U25: Lesson[] = [
         prompt: "Translate into French.",
         source: "It's a subject I often think about.",
         answer: "C'est un sujet auquel je pense souvent.",
-        explanation: "\"Penser à\" → \"auquel\" (à + lequel); \"dont\" is only for de.",
+        explanation: "\"Penser à\" → \"auquel\" (\"à\" + \"lequel\"); \"dont\" is only for \"de\".",
       },
       {
         type: "word-order",
@@ -1925,7 +1925,7 @@ export const FR_B2_U25: Lesson[] = [
           { left: "penser à", right: "auquel: something you think about" },
           { left: "souffrir de", right: "dont: something you suffer from" },
         ],
-        explanation: "The verb's construction decides: de → \"dont\", à → \"auquel\" / \"à qui\", direct object → \"que\".",
+        explanation: "The verb's construction decides: \"de\" → \"dont\", \"à\" → \"auquel\" / \"à qui\", direct object → \"que\".",
       },
       {
         type: "dictation",
@@ -1987,7 +1987,7 @@ export const FR_B2_U25: Lesson[] = [
         heading: "La réponse: à votre place...",
         body: [
           "The agony aunt, Hélène, answers with \"vous\" (a magazine addresses its readers formally). Her advice uses the full Upper-intermediate range: \"je vous conseille de\" + infinitive, \"vous pourriez\" + infinitive, \"à votre place, je\" + conditionnel, \"il faudrait que vous\" + subjunctive, \"il vaudrait mieux que vous\" + subjunctive.",
-          "She also imagines alternatives: \"si vous lui proposiez un déjeuner en tête-à-tête, elle accepterait peut-être\" (si + imparfait → conditionnel), and avoids reproaches: \"vous auriez pu...\" would sound harsh; \"il aurait peut-être fallu...\" is gentler.",
+          "She also imagines alternatives: \"si vous lui proposiez un déjeuner en tête-à-tête, elle accepterait peut-être\" (\"si\" + imparfait → conditionnel), and avoids reproaches: \"vous auriez pu...\" would sound harsh; \"il aurait peut-être fallu...\" is gentler.",
           "Write \"conseiller à quelqu'un de faire quelque chose\": the person takes \"à\" (indirect pronoun \"vous\", \"lui\"), the action takes \"de\". \"Je lui ai conseillé de patienter.\"",
         ],
         examples: [
@@ -2002,7 +2002,7 @@ export const FR_B2_U25: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French (to a reader, vous).",
+            prompt: "Translate into French (to a reader, using \"vous\").",
             source: "You ought to tell her what you feel.",
             answer: "Il faudrait que vous lui disiez ce que vous ressentez.",
             altAnswers: ["Vous devriez lui dire ce que vous ressentez.", "Il faudrait que vous lui disiez ce que vous éprouvez.", "Vous devriez lui dire ce que vous éprouvez."],
@@ -2028,7 +2028,7 @@ export const FR_B2_U25: Lesson[] = [
         body: [
           "A good reply has a structure, and connectors make it visible: \"d'abord\" (first), \"ensuite\", \"enfin\" for the steps; \"d'ailleurs\" (besides, incidentally) to add a related point; \"en revanche\" to contrast two different things; \"bref\" or \"en somme\" (in short) to sum up.",
           "Concession first, then the real point: \"certes, c'est douloureux ; néanmoins, les amitiés traversent souvent des phases\". \"Néanmoins\" and \"toutefois\" are more formal than \"mais\"; \"pourtant\" signals a contradiction with what you would expect.",
-          "Finish warmly: \"je vous souhaite de retrouver cette complicité\" (souhaiter à quelqu'un de + infinitive), \"n'hésitez pas à nous écrire de nouveau\".",
+          "Finish warmly: \"je vous souhaite de retrouver cette complicité\" (\"souhaiter à quelqu'un de\" + infinitive), \"n'hésitez pas à nous écrire de nouveau\".",
         ],
         examples: [
           { es: "D'abord, essayez de comprendre ce qu'elle traverse.", en: "First, try to understand what she's going through." },
@@ -2137,7 +2137,7 @@ export const FR_B2_U25: Lesson[] = [
         type: "speak",
         text: "Certes, c'est douloureux ; néanmoins, les amitiés traversent souvent des phases.",
         prompt: "Say it in French: Admittedly it's painful; nevertheless, friendships often go through phases.",
-        tip: "Néanmoins: né-an-moin, three syllables, two nasal vowels.",
+        tip: "\"Néanmoins\": né-an-moin, three syllables, two nasal vowels.",
         explanation: "\"Certes... néanmoins\": concede, then make the main point.",
       },
     ],
@@ -2147,7 +2147,7 @@ export const FR_B2_U25: Lesson[] = [
     level: "FR-B2",
     number: 11,
     title: "Word Web: Psychology and Personality",
-    summary: "Describe character, moods and complex emotions without falling into the false friends: caractère, sensible, susceptible, gêné, déçu, angoissé, épanoui, and rendre + adjective.",
+    summary: "Describe character, moods and complex emotions without falling into the false friends: \"caractère\", \"sensible\", \"susceptible\", \"gêné\", \"déçu\", \"angoissé\", \"épanoui\", and \"rendre\" + adjective.",
     duration: "14 min",
     sections: [
       {
@@ -2173,7 +2173,7 @@ export const FR_B2_U25: Lesson[] = [
             prompt: "Translate into French.",
             source: "Be sensible!",
             answer: "Sois raisonnable !",
-            altAnswers: ["Soyez raisonnable !", "Soyez raisonnables !", "Sois sage !"],
+            altAnswers: ["Soyez raisonnable !", "Soyez raisonnables !"],
             explanation: "Sensible → \"raisonnable\". \"Sensible\" in French means sensitive.",
           },
           {
@@ -2209,7 +2209,7 @@ export const FR_B2_U25: Lesson[] = [
             source: "We were disappointed by the film.",
             answer: "Nous avons été déçus par le film.",
             altAnswers: ["Nous étions déçus par le film.", "On a été déçus par le film.", "On était déçus par le film.", "Le film nous a déçus.", "Nous avons été déçues par le film.", "On a été déçu par le film."],
-            explanation: "Disappointed → \"déçu\" (from décevoir). Deceived would be \"trompé\".",
+            explanation: "Disappointed → \"déçu\" (from \"décevoir\"). Deceived would be \"trompé\".",
           },
           {
             type: "fill-blank",
@@ -2217,14 +2217,14 @@ export const FR_B2_U25: Lesson[] = [
             en: "I'm [so excited about] seeing you again!",
             sentence: "J'___ te revoir !",
             answer: "ai hâte de",
-            explanation: "\"Avoir hâte de\" + infinitive is the natural excited; \"excité\" has unwanted connotations.",
+            explanation: "\"Avoir hâte de\" + infinitive is the natural way to say excited; \"excité\" has unwanted connotations.",
           },
         ],
       },
       {
         heading: "Ça me rend nerveux: rendre + adjective",
         body: [
-          "To say that something makes you feel a certain way, French uses \"rendre\" + adjective: \"ce bruit me rend fou\" (this noise is driving me mad), \"la musique la rend heureuse\". *Ça me fait nerveux is a calque from English; \"faire\" is followed by an infinitive (\"ça me fait rire\"), not an adjective.",
+          "To say that something makes you feel a certain way, French uses \"rendre\" + adjective: \"ce bruit me rend fou\" (this noise is driving me mad), \"la musique la rend heureuse\". *\"Ça me fait nerveux\" is a calque from English; \"faire\" is followed by an infinitive (\"ça me fait rire\"), not an adjective.",
           "The adjective agrees with the person: \"cette attente la rend nerveuse\", \"ces critiques les ont rendus méfiants\". Compare with \"devenir\" (to become): \"il est devenu méfiant\".",
           "Other ways to talk about emotions: \"ça me met en colère\" (it makes me angry), \"ça me fait peur\", \"ça me donne le cafard\" (it gets me down), \"ça me remonte le moral\" (it cheers me up).",
         ],
@@ -2243,8 +2243,8 @@ export const FR_B2_U25: Lesson[] = [
             prompt: "Translate into French.",
             source: "This noise makes me nervous.",
             answer: "Ce bruit me rend nerveux.",
-            altAnswers: ["Ce bruit me rend nerveuse.", "Ce bruit m'énerve."],
-            explanation: "Make + adjective → \"rendre\" + adjective, agreeing with the person (\"nerveuse\" for a woman). *Me fait nerveux is a calque.",
+            altAnswers: ["Ce bruit me rend nerveuse."],
+            explanation: "Make + adjective → \"rendre\" + adjective, agreeing with the person (\"nerveuse\" for a woman). *\"Me fait nerveux\" is a calque.",
           },
           {
             type: "listen-choose",
@@ -2296,7 +2296,7 @@ export const FR_B2_U25: Lesson[] = [
         source: "I was embarrassed to tell him the truth.",
         answer: "J'étais gêné de lui dire la vérité.",
         altAnswers: ["J'étais gênée de lui dire la vérité.", "J'étais embarrassé de lui dire la vérité.", "J'étais embarrassée de lui dire la vérité.", "J'ai été gêné de lui dire la vérité.", "J'ai été gênée de lui dire la vérité."],
-        explanation: "\"Être gêné de\" + infinitive; embarrassed is never *embarrassé à.",
+        explanation: "\"Être gêné de\" + infinitive; embarrassed is never *\"embarrassé à\".",
       },
       {
         type: "fill-blank",
@@ -2305,7 +2305,7 @@ export const FR_B2_U25: Lesson[] = [
         sentence: "Cette attente ___.",
         answer: "me rend fou",
         altAnswers: ["me rend folle"],
-        explanation: "\"Rendre fou / folle\": rendre + adjective agreeing with the person.",
+        explanation: "\"Rendre fou / folle\": \"rendre\" + adjective agreeing with the person.",
       },
       {
         type: "translate",

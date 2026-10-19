@@ -125,7 +125,7 @@ export const PT_A1_U06: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Where do you live? (to Dona Maria, an older neighbour)",
+        source: "Where do you live? (to Dona Maria, an older neighbor)",
         answer: "Onde a senhora mora?",
         altAnswers: ["A senhora mora onde?", "Dona Maria, onde a senhora mora?"],
         explanation: "An older woman gets \"a senhora\", with the ele/ela form \"mora\". \"Onde\" goes first, and no do is needed.",
@@ -197,7 +197,7 @@ export const PT_A1_U06: Lesson[] = [
         type: "speak",
         text: "Como é o Rio?",
         prompt: "Say it in Portuguese: What's Rio like?",
-        tip: "The R at the start of Rio is h-like, close to 'Hiu'. The final o in como sounds like u.",
+        tip: "The R at the start of Rio is h-like, close to 'HEE-oo'. The final o in como sounds like u.",
         explanation: "\"Como é\" asks what a place is like. Rio takes the article: \"o Rio\".",
       },
       {
@@ -233,7 +233,7 @@ export const PT_A1_U06: Lesson[] = [
           { es: "Qual é o seu nome?", en: "What's your name?" },
           { es: "Qual é o seu telefone?", en: "What's your phone number?" },
           { es: "Qual é a capital do Brasil?", en: "What's the capital of Brazil?" },
-          { es: "Quais são as cores do Brasil?", en: "What are Brazil's colours?" },
+          { es: "Quais são as cores do Brasil?", en: "What are Brazil's colors?" },
           { es: "Qual ônibus vai para Copacabana?", en: "Which bus goes to Copacabana?" },
         ],
         checkpoint: [
@@ -259,7 +259,7 @@ export const PT_A1_U06: Lesson[] = [
         heading: "Quanto, quanta, quantos, quantas: how much, how many",
         body: [
           "\"Quanto\" (how much, how many) agrees with the noun after it, like an adjective: \"quanto tempo\", \"quanta água\", \"quantos anos\", \"quantas pessoas\". Check the noun's gender first, then whether there's more than one.",
-          "On its own, \"quanto\" asks the price: \"quanto custa?\" or, at the till, \"quanto é?\". A common slip is \"quantos pessoas\". \"Pessoa\" is feminine, so the correct form is \"quantas pessoas\".",
+          "On its own, \"quanto\" asks the price: \"quanto custa?\" or, at the register, \"quanto é?\". A common slip is \"quantos pessoas\". \"Pessoa\" is feminine, so the correct form is \"quantas pessoas\".",
         ],
         examples: [
           { es: "Quanto custa o pão de queijo?", en: "How much is the pão de queijo?" },
@@ -626,7 +626,7 @@ export const PT_A1_U06: Lesson[] = [
         type: "speak",
         text: "É nove, meia, dois, três, quatro.",
         prompt: "Say it in Portuguese, the Brazilian way: It's 9-6-2-3-4.",
-        tip: "Use \"meia\" for the 6, stressed MEI-a. The final -e of \"nove\" sounds like a short i.",
+        tip: "Use \"meia\" for the 6, stressed 'MAY-ah'. The final -e of \"nove\" sounds like a short i.",
         explanation: "Brazilians read phone numbers digit by digit and say \"meia\" for six.",
       },
       {
@@ -766,7 +766,7 @@ export const PT_A1_U06: Lesson[] = [
             source: "The phone costs a thousand reais.",
             answer: "O celular custa mil reais.",
             altAnswers: ["O telefone custa mil reais."],
-            explanation: "A thousand is just \"mil\". \"Um mil\" is wrong in everyday Portuguese. \"Celular\" is the Brazilian word for a mobile phone.",
+            explanation: "A thousand is just \"mil\". \"Um mil\" is wrong in everyday Portuguese. \"Celular\" is the Brazilian word for a cell phone.",
           },
           {
             type: "multiple-choice",
@@ -858,7 +858,7 @@ export const PT_A1_U06: Lesson[] = [
         type: "speak",
         text: "O tênis custa trezentos e cinquenta reais.",
         prompt: "Say it in Portuguese: The sneakers cost three hundred and fifty reais.",
-        tip: "Say every e: trezentos e cinquenta. Reais has two syllables: re-AIS.",
+        tip: "Say every e: trezentos e cinquenta. Reais has two syllables and an h-like r: 'heh-ICE'.",
         explanation: "\"Trezentos e cinquenta\": masculine hundreds for \"reais\", joined to the tens with \"e\".",
       },
       {
@@ -880,7 +880,7 @@ export const PT_A1_U06: Lesson[] = [
     level: "PT-A1",
     number: 5,
     title: "Telling the Time",
-    summary: "Ask and tell the time, say when things happen with às, and read the 24-hour clock on Brazilian timetables.",
+    summary: "Ask and tell the time, say when things happen with às, and read the 24-hour clock on Brazilian schedules.",
     duration: "12 min",
     sections: [
       {
@@ -968,11 +968,11 @@ export const PT_A1_U06: Lesson[] = [
         heading: "A que horas? Às oito and the 24-hour clock",
         body: [
           "To ask when something happens, say \"A que horas...?\" (at what time?). The answer uses \"às\" (at): \"às oito\", \"às duas e meia\". One o'clock is singular, \"à uma\". Noon and midnight are \"ao meio-dia\" and \"à meia-noite\". Learn these four as chunks.",
-          "Timetables, tickets and opening hours use the 24-hour clock, written \"18h30\" or \"18:30\". It is usually read with \"e trinta\": \"dezoito e trinta\". In conversation people switch back to \"seis e meia da tarde\".",
+          "Schedules, tickets and opening hours use the 24-hour clock, written \"18h30\" or \"18:30\". It is usually read with \"e trinta\": \"dezoito e trinta\". In conversation people switch back to \"seis e meia da tarde\".",
         ],
         examples: [
-          { es: "A que horas começa o filme?", en: "What time does the film start?" },
-          { es: "O filme começa às oito.", en: "The film starts at eight." },
+          { es: "A que horas começa o filme?", en: "What time does the movie start?" },
+          { es: "O filme começa às oito.", en: "The movie starts at eight." },
           { es: "A padaria abre às seis e meia.", en: "The bakery opens at half past six." },
           { es: "A reunião é ao meio-dia.", en: "The meeting is at noon." },
           { es: "O ônibus para Curitiba parte às vinte e duas e quinze.", en: "The bus to Curitiba leaves at 22:15." },
@@ -1045,7 +1045,7 @@ export const PT_A1_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The film starts [at eight].",
+        en: "The movie starts [at eight].",
         sentence: "O filme começa ___.",
         answer: "às oito",
         altAnswers: ["às oito horas"],
@@ -1073,7 +1073,7 @@ export const PT_A1_U06: Lesson[] = [
         source: "The train arrives at 18:30.",
         answer: "O trem chega às dezoito e trinta.",
         altAnswers: ["O trem chega às 18h30.", "O trem chega às 18:30.", "O trem chega às seis e meia da tarde.", "O trem chega às seis e meia."],
-        explanation: "Timetables use the 24-hour clock, read \"dezoito e trinta\". In conversation \"seis e meia da tarde\" is just as natural.",
+        explanation: "Schedules use the 24-hour clock, read \"dezoito e trinta\". In conversation \"seis e meia da tarde\" is just as natural.",
       },
       {
         type: "listen-choose",
@@ -1127,7 +1127,7 @@ export const PT_A1_U06: Lesson[] = [
           { es: "Hoje é segunda-feira.", en: "Today is Monday." },
           { es: "Amanhã é sexta!", en: "Tomorrow is Friday!" },
           { es: "Que dia é hoje?", en: "What day is it today?" },
-          { es: "Domingo é dia de futebol.", en: "Sunday is football day." },
+          { es: "Domingo é dia de futebol.", en: "Sunday is soccer day." },
           { es: "O restaurante abre de terça a domingo.", en: "The restaurant is open Tuesday to Sunday." },
         ],
         checkpoint: [
@@ -1157,7 +1157,7 @@ export const PT_A1_U06: Lesson[] = [
           "Make it plural for a habit: \"nos sábados\" (on Saturdays), \"nas terças\" (on Tuesdays). The singular is one day, usually the next one: \"vou viajar no sábado\" (this Saturday).",
         ],
         examples: [
-          { es: "Vou ao cinema no sábado.", en: "I'm going to the cinema on Saturday." },
+          { es: "Vou ao cinema no sábado.", en: "I'm going to the movies on Saturday." },
           { es: "A feira é na quarta.", en: "The street market is on Wednesday." },
           { es: "Você pode na sexta?", en: "Can you make it on Friday?" },
           { es: "Ela tem aula de inglês nas terças.", en: "She has English class on Tuesdays." },
@@ -1249,7 +1249,7 @@ export const PT_A1_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Lucas plays football [on Sundays].",
+        en: "Lucas plays soccer [on Sundays].",
         sentence: "O Lucas joga futebol ___.",
         answer: "nos domingos",
         altAnswers: ["aos domingos", "todo domingo", "todos os domingos"],
@@ -1374,7 +1374,7 @@ export const PT_A1_U06: Lesson[] = [
       {
         heading: "Na rodoviária: when does the bus leave?",
         body: [
-          "At the \"rodoviária\" (the long-distance bus station), ask \"A que horas sai o ônibus para Ouro Preto?\". \"Sai\" means it leaves; learn it as a chunk for now. For arriving, use \"chega\", from the regular \"chegar\".",
+          "At the \"rodoviária\" (the long-distance bus station), ask \"A que horas sai o ônibus para Ouro Preto?\". \"Sai\", from \"sair\", means it leaves. For arriving, use \"chega\", from the regular \"chegar\".",
           "Screens and tickets use the 24-hour clock, so 14h30 is read \"catorze e trinta\", but the person at the counter will often say \"duas e meia\". Ask the price with \"Quanto custa a passagem?\"; the answer often drops the word \"reais\": \"cinquenta e oito\".",
         ],
         examples: [
@@ -1459,7 +1459,7 @@ export const PT_A1_U06: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Are you open on Saturday? (to the staff of a shop)",
+        source: "Are you open on Saturday? (to the staff of a store)",
         answer: "Vocês abrem no sábado?",
         altAnswers: ["Vocês abrem sábado?", "Abre no sábado?", "Abre sábado?"],
         explanation: "Talking to the staff, \"vocês\" takes the eles form \"abrem\". Portuguese says \"abrir\" (open) where English says be open.",
@@ -1643,7 +1643,7 @@ export const PT_A1_U06: Lesson[] = [
           {
             type: "speak",
             text: "A aula começa às oito da manhã.",
-            tip: "Link \"às oito\": the s sounds like z before the vowel, \"à-zoito\".",
+            tip: "Link \"às oito\": the s sounds like z before the vowel: 'ah-ZOY-too'.",
             explanation: "\"Às oito\": a set time takes \"às\", and \"da manhã\" makes it clear it's morning.",
           },
         ],
@@ -1775,7 +1775,7 @@ export const PT_A1_U06: Lesson[] = [
         type: "speak",
         text: "Quando é o seu aniversário?",
         prompt: "Say it in Portuguese: When is your birthday?",
-        tip: "The final o of \"aniversário\" sounds like u: \"aniversáriu\".",
+        tip: "The final o of \"aniversário\" sounds like u: 'ah-nee-ver-SAH-ree-oo'.",
         explanation: "\"Quando\" asks for the date, and \"é\" is the verb: \"Quando é...?\".",
       },
       {

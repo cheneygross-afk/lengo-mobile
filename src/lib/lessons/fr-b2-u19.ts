@@ -9,7 +9,7 @@ export const FR_B2_U19: Lesson[] = [
     level: "FR-B2",
     number: 1,
     title: "Emphasis and Word Order, Part 1 of 2",
-    summary: "French highlights words by moving them, not by stressing them with the voice: stressed pronouns and dislocation to the left and right, including with en and y.",
+    summary: "French highlights words by moving them, not by stressing them with the voice: stressed pronouns and dislocation to the left and right, including with \"en\" and \"y\".",
     duration: "15 min",
     sections: [
       {
@@ -125,10 +125,10 @@ export const FR_B2_U19: Lesson[] = [
         ],
       },
       {
-        heading: "Dislocation with en and y",
+        heading: "Dislocation with \"en\" and \"y\"",
         body: [
-          "When the dislocated element is a partitive or a quantity (du, de la, des), the pronoun is \"en\": \"Du café, j'en bois trois par jour.\" \"Des amis, il en a partout.\" \"De l'argent, je n'en ai plus.\" Notice that the dislocated phrase keeps its partitive article.",
-          "When it's a place or a thing introduced by à, the pronoun is \"y\": \"À Paris, j'y vais souvent.\" \"Ce problème, j'y pense tout le temps\" (penser à). And with de + noun after a verb like parler de: \"Ce projet, on en a parlé hier.\"",
+          "When the dislocated element is a partitive or a quantity (\"du\", \"de la\", \"des\"), the pronoun is \"en\": \"Du café, j'en bois trois par jour.\" \"Des amis, il en a partout.\" \"De l'argent, je n'en ai plus.\" Notice that the dislocated phrase keeps its partitive article.",
+          "When it's a place or a thing introduced by \"à\", the pronoun is \"y\": \"À Paris, j'y vais souvent.\" \"Ce problème, j'y pense tout le temps\" (\"penser à\"). And with \"de\" + noun after a verb like \"parler de\": \"Ce projet, on en a parlé hier.\"",
           "Trap for English speakers: the pronoun is not optional. *\"Du café, je bois trois\" or *\"À Paris, je vais souvent\" sound broken. Once you dislocate, you must take up the element with its pronoun.",
         ],
         examples: [
@@ -214,7 +214,7 @@ export const FR_B2_U19: Lesson[] = [
       {
         type: "multiple-choice",
         question: "'I love chocolate' (chocolate in general). Which is natural spoken French?",
-        options: ["Le chocolat, j'adore ça.", "Le chocolat, je l'adore ça.", "Le chocolat, j'adore.", "Du chocolat, je l'adore."],
+        options: ["Le chocolat, j'adore ça.", "Le chocolat, je l'adore ça.", "Le chocolat, j'en adore.", "Du chocolat, je l'adore."],
         correctIndex: 0,
         explanation: "A generic noun is taken up by \"ça\". \"Je l'adore\" would refer to a specific chocolate.",
       },
@@ -232,7 +232,7 @@ export const FR_B2_U19: Lesson[] = [
         prompt: "Put the words in order to say: That meeting, I'd completely forgotten it.",
         words: ["Cette réunion,", "je l'avais", "complètement", "oubliée."],
         translation: "That meeting, I'd completely forgotten it.",
-        explanation: "\"Oubliée\" agrees with \"l'\" (la réunion), placed before the auxiliary.",
+        explanation: "\"Oubliée\" agrees with \"l'\" (\"la réunion\"), placed before the auxiliary.",
       },
       {
         type: "translate",
@@ -241,7 +241,7 @@ export const FR_B2_U19: Lesson[] = [
         source: "What time did your parents leave?",
         answer: "Ils sont partis à quelle heure, tes parents ?",
         altAnswers: ["Ils sont partis à quelle heure, vos parents ?", "À quelle heure ils sont partis, tes parents ?"],
-        explanation: "Spoken question with right dislocation; \"partis\" agrees with ils.",
+        explanation: "Spoken question with right dislocation; \"partis\" agrees with \"ils\".",
       },
       {
         type: "translate",
@@ -270,7 +270,7 @@ export const FR_B2_U19: Lesson[] = [
     level: "FR-B2",
     number: 2,
     title: "Pattern Practice: Le Livre, Je l'ai Acheté Hier",
-    summary: "Drill one frame with every pronoun: move the object to the front and take it up again with le, la, les, lui, leur, en or y.",
+    summary: "Drill one frame with every pronoun: move the object to the front and take it up again with \"le\", \"la\", \"les\", \"lui\", \"leur\", \"en\" or \"y\".",
     duration: "13 min",
     sections: [
       {
@@ -294,7 +294,7 @@ export const FR_B2_U19: Lesson[] = [
             prompt: "Translate into French, putting the letter first.",
             source: "The letter, I sent it this morning.",
             answer: "La lettre, je l'ai envoyée ce matin.",
-            explanation: "\"L'\" = la lettre, so \"envoyée\" agrees.",
+            explanation: "\"L'\" = \"la lettre\", so \"envoyée\" agrees.",
           },
           {
             type: "translate",
@@ -310,14 +310,14 @@ export const FR_B2_U19: Lesson[] = [
             question: "What does it mean?",
             options: ["Have you seen the photos?", "Did you take the photos?", "The photos, have you lost them?", "Did they see your photos?"],
             correctIndex: 0,
-            explanation: "\"Tu les as vues ?\": vues agrees with les (les photos).",
+            explanation: "\"Tu les as vues ?\": \"vues\" agrees with \"les\" (\"les photos\").",
           },
         ],
       },
       {
         heading: "Indirect objects: lui and leur",
         body: [
-          "With verbs that take à + person (parler à, téléphoner à, écrire à, dire à, demander à, répondre à), the pronoun is \"lui\" (one person) or \"leur\" (several). No participle agreement with indirect objects: \"Ma sœur, je lui ai téléphoné.\" \"Tes parents, tu leur as dit ?\"",
+          "With verbs that take \"à\" + person (\"parler à\", \"téléphoner à\", \"écrire à\", \"dire à\", \"demander à\", \"répondre à\"), the pronoun is \"lui\" (one person) or \"leur\" (several). No participle agreement with indirect objects: \"Ma sœur, je lui ai téléphoné.\" \"Tes parents, tu leur as dit ?\"",
           "Watch the trap with \"leur\": as a pronoun it never takes -s (\"je leur ai écrit\"), unlike the possessive \"leurs\" (\"leurs enfants\").",
         ],
         examples: [
@@ -348,9 +348,9 @@ export const FR_B2_U19: Lesson[] = [
         ],
       },
       {
-        heading: "En and y",
+        heading: "\"En\" and \"y\"",
         body: [
-          "Quantities and de + thing → \"en\": \"Des enfants, ils en ont trois.\" \"Ce voyage, on en parle depuis des mois.\" Places and à + thing → \"y\": \"Au cinéma, je n'y vais plus.\" \"Cette idée, j'y tiens.\" (I'm attached to that idea: tenir à.)",
+          "Quantities and de + thing → \"en\": \"Des enfants, ils en ont trois.\" \"Ce voyage, on en parle depuis des mois.\" Places and à + thing → \"y\": \"Au cinéma, je n'y vais plus.\" \"Cette idée, j'y tiens.\" (I'm attached to that idea: \"tenir à\".)",
           "With a number, the number stays after the verb: \"Des enfants, ils en ont trois\" (not *ils en ont trois enfants: the noun is already at the front).",
         ],
         examples: [
@@ -466,7 +466,7 @@ export const FR_B2_U19: Lesson[] = [
       {
         type: "dictation",
         audio: "La lettre, je l'ai envoyée ce matin.",
-        explanation: "\"Envoyée\" with -ée, agreeing with l' (la lettre).",
+        explanation: "\"Envoyée\" with -ée, agreeing with \"l'\" (\"la lettre\").",
       },
       {
         type: "speak",
@@ -489,7 +489,7 @@ export const FR_B2_U19: Lesson[] = [
         heading: "Link 1: bien que + subjunctive",
         body: [
           "The chain starts with \"bien que\" (or the more literary \"quoique\") + subjunctive: \"Bien que le musée soit gratuit, il y a peu de visiteurs.\" For an earlier event, the past subjunctive: \"Bien qu'il ait beaucoup plu, la récolte a été bonne.\"",
-          "With the same subject, bien que can be shortened with an adjective or participle: \"Bien que fatiguée, elle a continué.\" Remember: \"même si\" + indicative means almost the same: \"même si le musée est gratuit...\".",
+          "With the same subject, \"bien que\" can be shortened with an adjective or participle: \"Bien que fatiguée, elle a continué.\" Remember: \"même si\" + indicative means almost the same: \"même si le musée est gratuit...\".",
         ],
         examples: [
           { es: "Bien que le musée soit gratuit, il y a peu de visiteurs.", en: "Although the museum is free, there are few visitors." },
@@ -502,7 +502,7 @@ export const FR_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French with bien que.",
+            prompt: "Translate into French with \"bien que\".",
             source: "Although it rained a lot, the harvest was good.",
             answer: "Bien qu'il ait beaucoup plu, la récolte a été bonne.",
             altAnswers: ["Bien qu'il ait beaucoup plu, la récolte était bonne."],
@@ -511,7 +511,7 @@ export const FR_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French with bien que.",
+            prompt: "Translate into French with \"bien que\".",
             source: "Although the museum is free, there are few visitors.",
             answer: "Bien que le musée soit gratuit, il y a peu de visiteurs.",
             altAnswers: ["Bien que l'entrée du musée soit gratuite, il y a peu de visiteurs.", "Quoique le musée soit gratuit, il y a peu de visiteurs."],
@@ -544,7 +544,7 @@ export const FR_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French with malgré.",
+            prompt: "Translate into French with \"malgré\".",
             source: "Despite their limited means, they set up a company.",
             answer: "Malgré leurs faibles moyens, ils ont créé une entreprise.",
             altAnswers: ["Malgré leurs moyens limités, ils ont créé une entreprise.", "Malgré leurs faibles moyens, ils ont monté une entreprise.", "Malgré leurs moyens limités, ils ont monté une entreprise."],
@@ -563,8 +563,8 @@ export const FR_B2_U19: Lesson[] = [
       {
         heading: "Link 3: pourtant, cependant, toutefois",
         body: [
-          "Finally, split the idea into two independent sentences linked by an adverb: \"Il a beaucoup plu. Pourtant, la récolte a été bonne.\" Pourtant stresses the surprise; \"cependant\" / \"toutefois\" are neutral. The adverb can follow the verb: \"La récolte a pourtant été bonne.\"",
-          "Choosing among the three links is a question of style: bien que for a subordinate clause in a long sentence, malgré for density, pourtant for rhythm and emphasis (short sentences hit harder).",
+          "Finally, split the idea into two independent sentences linked by an adverb: \"Il a beaucoup plu. Pourtant, la récolte a été bonne.\" \"Pourtant\" stresses the surprise; \"cependant\" / \"toutefois\" are neutral. The adverb can follow the verb: \"La récolte a pourtant été bonne.\"",
+          "Choosing among the three links is a question of style: \"bien que\" for a subordinate clause in a long sentence, \"malgré\" for density, \"pourtant\" for rhythm and emphasis (short sentences hit harder).",
         ],
         examples: [
           { es: "Il a beaucoup plu. Pourtant, la récolte a été bonne.", en: "It rained a lot. And yet the harvest was good." },
@@ -577,7 +577,7 @@ export const FR_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French with pourtant.",
+            prompt: "Translate into French with \"pourtant\".",
             source: "She was tired; yet she carried on working.",
             answer: "Elle était fatiguée ; elle a pourtant continué à travailler.",
             altAnswers: ["Elle était fatiguée ; pourtant, elle a continué à travailler.", "Elle était fatiguée, et pourtant elle a continué à travailler.", "Elle était fatiguée, pourtant elle a continué à travailler.", "Elle était fatiguée ; elle a pourtant continué de travailler."],
@@ -586,7 +586,7 @@ export const FR_B2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Il a beaucoup plu. Pourtant, la récolte a été bonne.",
-            prompt: "Say it in French with pourtant: It rained a lot. And yet the harvest was good.",
+            prompt: "Say it in French with \"pourtant\": It rained a lot. And yet the harvest was good.",
             explanation: "Short sentences with \"pourtant\" make the contrast punchier.",
           },
         ],
@@ -596,7 +596,7 @@ export const FR_B2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with bien que.",
+        prompt: "Translate into French with \"bien que\".",
         source: "Although the hotel was expensive, the room was tiny.",
         answer: "Bien que l'hôtel soit cher, la chambre était minuscule.",
         altAnswers: ["Bien que l'hôtel ait été cher, la chambre était minuscule.", "Bien que l'hôtel fût cher, la chambre était minuscule.", "Quoique l'hôtel soit cher, la chambre était minuscule."],
@@ -605,15 +605,16 @@ export const FR_B2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with malgré.",
+        prompt: "Translate into French with \"malgré\".",
         source: "Despite the price of the hotel, the room was tiny.",
         answer: "Malgré le prix de l'hôtel, la chambre était minuscule.",
+        altAnswers: ["Malgré le prix élevé de l'hôtel, la chambre était minuscule."],
         explanation: "\"L'hôtel était cher\" → \"malgré le prix de l'hôtel\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with pourtant.",
+        prompt: "Translate into French with \"pourtant\".",
         source: "The hotel was expensive, and yet the room was tiny.",
         answer: "L'hôtel était cher, et pourtant la chambre était minuscule.",
         altAnswers: ["L'hôtel était cher, pourtant la chambre était minuscule.", "L'hôtel était cher ; pourtant, la chambre était minuscule.", "L'hôtel coûtait cher, et pourtant la chambre était minuscule."],
@@ -622,7 +623,7 @@ export const FR_B2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with bien que.",
+        prompt: "Translate into French with \"bien que\".",
         source: "Although he's very young, he's in charge of the team.",
         answer: "Bien qu'il soit très jeune, il dirige l'équipe.",
         altAnswers: ["Bien qu'il soit très jeune, il est responsable de l'équipe.", "Quoiqu'il soit très jeune, il dirige l'équipe."],
@@ -631,7 +632,7 @@ export const FR_B2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with malgré.",
+        prompt: "Translate into French with \"malgré\".",
         source: "Despite his youth, he's in charge of the team.",
         answer: "Malgré sa jeunesse, il dirige l'équipe.",
         altAnswers: ["Malgré son jeune âge, il dirige l'équipe.", "Malgré sa jeunesse, il est responsable de l'équipe."],
@@ -650,12 +651,12 @@ export const FR_B2_U19: Lesson[] = [
         en: "Although [tired], she carried on working.",
         sentence: "Bien que ___, elle a continué à travailler.",
         answer: "fatiguée",
-        explanation: "With the same subject, \"bien que\" + adjective (agreeing with elle).",
+        explanation: "With the same subject, \"bien que\" + adjective (agreeing with \"elle\").",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with cependant.",
+        prompt: "Translate into French with \"cependant\".",
         source: "The museum is free; there are, however, few visitors.",
         answer: "Le musée est gratuit ; il y a cependant peu de visiteurs.",
         altAnswers: ["Le musée est gratuit ; cependant, il y a peu de visiteurs.", "Le musée est gratuit ; il y a toutefois peu de visiteurs.", "Le musée est gratuit ; toutefois, il y a peu de visiteurs."],
@@ -671,7 +672,7 @@ export const FR_B2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into French with bien que.",
+        prompt: "Translate into French with \"bien que\".",
         source: "Although they had trained hard, they lost.",
         answer: "Bien qu'ils se soient beaucoup entraînés, ils ont perdu.",
         altAnswers: ["Bien qu'elles se soient beaucoup entraînées, elles ont perdu.", "Bien qu'ils se soient bien entraînés, ils ont perdu.", "Bien qu'ils se soient entraînés dur, ils ont perdu."],
@@ -685,7 +686,7 @@ export const FR_B2_U19: Lesson[] = [
       {
         type: "speak",
         text: "Bien qu'il ait beaucoup plu, la récolte a été bonne.",
-        prompt: "Say it in French with bien que: Although it rained a lot, the harvest was good.",
+        prompt: "Say it in French with \"bien que\": Although it rained a lot, the harvest was good.",
         explanation: "Past subjunctive \"ait plu\".",
       },
     ],
@@ -695,7 +696,7 @@ export const FR_B2_U19: Lesson[] = [
     level: "FR-B2",
     number: 4,
     title: "Spiral Review: The Right Reporting Verb",
-    summary: "Spaced review of Unit 11: replace dire with the verb that says how something was said: affirmer, avouer, nier, prétendre, promettre, suggérer.",
+    summary: "Spaced review of Unit 11: replace \"dire\" with the verb that says how something was said: \"affirmer\", \"avouer\", \"nier\", \"prétendre\", \"promettre\", \"suggérer\".",
     duration: "13 min",
     sections: [
       {
@@ -742,8 +743,8 @@ export const FR_B2_U19: Lesson[] = [
       {
         heading: "Denying and promising: nier, promettre, jurer",
         body: [
-          "\"Nier\" (to deny) is followed by an infinitive (\"il nie avoir volé l'argent\") or by que, often with the subjunctive because the fact is rejected: \"il nie qu'elle soit venue\". The indicative is also found when the speaker thinks the fact is true.",
-          "\"Promettre\" and \"jurer\" (to swear) take \"de\" + infinitive for the same subject (\"il a promis de rembourser\") or que + future in the past, the conditional: \"il a juré qu'il ne recommencerait pas\".",
+          "\"Nier\" (to deny) is followed by an infinitive (\"il nie avoir volé l'argent\") or by \"que\", often with the subjunctive because the fact is rejected: \"il nie qu'elle soit venue\". The indicative is also found when the speaker thinks the fact is true.",
+          "\"Promettre\" and \"jurer\" (to swear) take \"de\" + infinitive for the same subject (\"il a promis de rembourser\") or \"que\" + future in the past, the conditional: \"il a juré qu'il ne recommencerait pas\".",
         ],
         examples: [
           { es: "Il nie avoir volé l'argent.", en: "He denies stealing the money." },
@@ -822,7 +823,7 @@ export const FR_B2_U19: Lesson[] = [
         source: "She acknowledged having made a mistake.",
         answer: "Elle a reconnu avoir fait une erreur.",
         altAnswers: ["Elle a reconnu qu'elle avait fait une erreur.", "Elle a admis avoir fait une erreur.", "Elle a admis qu'elle avait fait une erreur.", "Elle a reconnu avoir commis une erreur."],
-        explanation: "\"Reconnaître\" + past infinitive, or que + plus-que-parfait.",
+        explanation: "\"Reconnaître\" + past infinitive, or \"que\" + plus-que-parfait.",
       },
       {
         type: "translate",
@@ -876,7 +877,7 @@ export const FR_B2_U19: Lesson[] = [
           { left: "suggérer", right: "to suggest" },
           { left: "faire semblant", right: "to pretend" },
         ],
-        explanation: "Prétendre is a false friend: 'to pretend' is faire semblant.",
+        explanation: "\"Prétendre\" is a false friend: 'to pretend' is \"faire semblant\".",
       },
       {
         type: "word-order",
@@ -897,7 +898,7 @@ export const FR_B2_U19: Lesson[] = [
       {
         type: "dictation",
         audio: "Il nie avoir volé l'argent.",
-        explanation: "\"Nie\" (present of nier, with a silent e); past infinitive \"avoir volé\".",
+        explanation: "\"Nie\" (present of \"nier\", with a silent e); past infinitive \"avoir volé\".",
       },
       {
         type: "speak",
@@ -919,7 +920,7 @@ export const FR_B2_U19: Lesson[] = [
         heading: "Becoming and making: devenir vs rendre",
         body: [
           "\"Devenir\" (+ noun or adjective, with être) says what someone or something becomes: \"elle est devenue avocate\", \"la situation devient urgente\". No article before a profession.",
-          "\"Rendre\" + adjective says what something makes someone feel or be: \"ce travail me rend fou\", \"la naissance de sa fille l'a rendu plus calme\". The English 'make' + adjective is never *faire + adjective: *\"ça me fait triste\" is wrong; it's \"ça me rend triste\". (Faire + infinitive is the causative: \"ça me fait rire\".)",
+          "\"Rendre\" + adjective says what something makes someone feel or be: \"ce travail me rend fou\", \"la naissance de sa fille l'a rendu plus calme\". The English 'make' + adjective is never *\"faire\" + adjective: *\"ça me fait triste\" is wrong; it's \"ça me rend triste\". (\"Faire\" + infinitive is the causative: \"ça me fait rire\".)",
         ],
         examples: [
           { es: "Elle est devenue avocate à trente ans.", en: "She became a lawyer at thirty." },
@@ -936,14 +937,14 @@ export const FR_B2_U19: Lesson[] = [
             prompt: "Translate into French.",
             source: "Success made her arrogant.",
             answer: "Le succès l'a rendue arrogante.",
-            explanation: "\"Rendre\" + adjective; \"rendue\" agrees with l' (her).",
+            explanation: "\"Rendre\" + adjective; \"rendue\" agrees with \"l'\" (her).",
           },
           {
             type: "multiple-choice",
             question: "'This news makes me sad.' Which is correct?",
             options: ["Cette nouvelle me rend triste.", "Cette nouvelle me fait triste.", "Cette nouvelle me devient triste.", "Cette nouvelle me met triste."],
             correctIndex: 0,
-            explanation: "'Make' + adjective = \"rendre\". Faire is followed by an infinitive, not an adjective.",
+            explanation: "'Make' + adjective = \"rendre\". \"Faire\" is followed by an infinitive, not an adjective.",
           },
           {
             type: "listen-choose",
@@ -959,7 +960,7 @@ export const FR_B2_U19: Lesson[] = [
         heading: "Starting and ending up: se mettre à, finir par, tomber",
         body: [
           "\"Se mettre à\" + infinitive = to start (often suddenly): \"il s'est mis à pleuvoir\", \"elle s'est mise à rire\". \"Se mettre en colère\" = to get angry. \"Finir par\" + infinitive = to end up doing: \"on a fini par se perdre\".",
-          "\"Tomber\" + malade / amoureux (to fall ill / in love), with être. And -ir verbs from adjectives: \"grossir\" (to put on weight), \"maigrir\", \"vieillir\", \"rougir\" (to blush), \"pâlir\", \"grandir\", \"rajeunir\".",
+          "\"Tomber\" + \"malade\" / \"amoureux\" (to fall ill / in love), with être. And -ir verbs from adjectives: \"grossir\" (to put on weight), \"maigrir\", \"vieillir\", \"rougir\" (to blush), \"pâlir\", \"grandir\", \"rajeunir\".",
         ],
         examples: [
           { es: "Il s'est mis à pleuvoir dès qu'on est sortis.", en: "It started raining as soon as we went out." },
@@ -1028,7 +1029,7 @@ export const FR_B2_U19: Lesson[] = [
         prompt: "Translate into French.",
         source: "She became a lawyer at thirty.",
         answer: "Elle est devenue avocate à trente ans.",
-        explanation: "\"Devenir\" + profession, no article; être, so \"devenue\".",
+        explanation: "\"Devenir\" + profession, no article; \"être\", so \"devenue\".",
       },
       {
         type: "translate",
@@ -1045,7 +1046,7 @@ export const FR_B2_U19: Lesson[] = [
         source: "We ended up getting lost in the forest.",
         answer: "On a fini par se perdre dans la forêt.",
         altAnswers: ["Nous avons fini par nous perdre dans la forêt.", "Finalement, on s'est perdus dans la forêt."],
-        explanation: "\"Finir par\" + infinitive; the reflexive matches the subject (on → se, nous → nous).",
+        explanation: "\"Finir par\" + infinitive; the reflexive matches the subject (\"on\" → \"se\", \"nous\" → \"nous\").",
       },
       {
         type: "fill-blank",
@@ -1053,7 +1054,7 @@ export const FR_B2_U19: Lesson[] = [
         en: "She [got angry] for no reason.",
         sentence: "Elle ___ sans raison.",
         answer: "s'est mise en colère",
-        explanation: "\"Se mettre en colère\"; \"mise\" agrees with elle.",
+        explanation: "\"Se mettre en colère\"; \"mise\" agrees with \"elle\".",
       },
       {
         type: "multiple-choice",
@@ -1069,7 +1070,7 @@ export const FR_B2_U19: Lesson[] = [
         source: "You've grown since last year!",
         answer: "Tu as grandi depuis l'année dernière !",
         altAnswers: ["Vous avez grandi depuis l'année dernière !", "Tu as grandi depuis l'an dernier !", "Vous avez grandi depuis l'an dernier !"],
-        explanation: "\"Grandir\" (from grand), with avoir.",
+        explanation: "\"Grandir\" (from \"grand\"), with \"avoir\".",
       },
       {
         type: "translate",
@@ -1077,14 +1078,14 @@ export const FR_B2_U19: Lesson[] = [
         prompt: "Translate into French.",
         source: "This film made me cry.",
         answer: "Ce film m'a fait pleurer.",
-        explanation: "Causative \"faire\" + infinitive (not rendre, which takes an adjective).",
+        explanation: "Causative \"faire\" + infinitive (not \"rendre\", which takes an adjective).",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: The wasteland has turned into a community garden.",
         words: ["La friche", "s'est", "transformée", "en jardin", "partagé."],
         translation: "The wasteland has turned into a community garden.",
-        explanation: "\"Se transformer en\", \"transformée\" agreeing with la friche.",
+        explanation: "\"Se transformer en\", \"transformée\" agreeing with \"la friche\".",
       },
       {
         type: "translate",
@@ -1093,12 +1094,12 @@ export const FR_B2_U19: Lesson[] = [
         source: "She blushed when someone spoke to her.",
         answer: "Elle a rougi quand on lui a parlé.",
         altAnswers: ["Elle a rougi lorsqu'on lui a parlé."],
-        explanation: "\"Rougir\" from rouge; \"on\" for 'someone'.",
+        explanation: "\"Rougir\" from \"rouge\"; \"on\" for 'someone'.",
       },
       {
         type: "dictation",
         audio: "Le succès l'a rendue arrogante.",
-        explanation: "\"Rendue\" agrees with l' (a woman), placed before avoir.",
+        explanation: "\"Rendue\" agrees with \"l'\" (a woman), placed before \"avoir\".",
       },
       {
         type: "speak",
@@ -1113,7 +1114,7 @@ export const FR_B2_U19: Lesson[] = [
     level: "FR-B2",
     number: 6,
     title: "Transformation Chain: C'est Anne qui l'a Dit",
-    summary: "Turn neutral sentences into cleft sentences to highlight who, what, when or where: c'est... qui for subjects, c'est... que for everything else.",
+    summary: "Turn neutral sentences into cleft sentences to highlight who, what, when or where: \"c'est... qui\" for subjects, \"c'est... que\" for everything else.",
     duration: "14 min",
     sections: [
       {
@@ -1155,15 +1156,15 @@ export const FR_B2_U19: Lesson[] = [
             question: "What does it mean?",
             options: ["It was the rain that ruined everything.", "The rain was ruined by everything.", "Everything was fine despite the rain.", "It's the rain that ruins everything every time."],
             correctIndex: 0,
-            explanation: "\"C'est... qui\" highlights la pluie as the subject of \"a tout gâché\".",
+            explanation: "\"C'est... qui\" highlights \"la pluie\" as the subject of \"a tout gâché\".",
           },
         ],
       },
       {
         heading: "Highlighting the object: c'est... que",
         body: [
-          "For a direct object, use \"que\": \"J'ai perdu les clés\" → \"Ce sont les clés que j'ai perdues\" (or, in speech, \"c'est les clés que j'ai perdues\"). The past participle agrees with que, which stands for the object placed before it: \"perdues\".",
-          "Trap: don't keep the original pronoun. *\"C'est ce livre que je l'ai lu\" is wrong: que already replaces the object.",
+          "For a direct object, use \"que\": \"J'ai perdu les clés\" → \"Ce sont les clés que j'ai perdues\" (or, in speech, \"c'est les clés que j'ai perdues\"). The past participle agrees with \"que\", which stands for the object placed before it: \"perdues\".",
+          "Trap: don't keep the original pronoun. *\"C'est ce livre que je l'ai lu\" is wrong: \"que\" already replaces the object.",
         ],
         examples: [
           { es: "C'est ce livre que je cherchais.", en: "That's the book I was looking for." },
@@ -1179,7 +1180,7 @@ export const FR_B2_U19: Lesson[] = [
             prompt: "Translate into French, highlighting the tea.",
             source: "I ordered TEA, not coffee.",
             answer: "C'est du thé que j'ai commandé, pas du café.",
-            altAnswers: ["C'est du thé que j'ai demandé, pas du café.", "J'ai commandé du thé, pas du café."],
+            altAnswers: ["C'est du thé que j'ai demandé, pas du café."],
             explanation: "Object highlighted: \"c'est... que\"; the participle doesn't agree with a partitive.",
           },
           {
@@ -1195,7 +1196,7 @@ export const FR_B2_U19: Lesson[] = [
       {
         heading: "Highlighting when, where and how",
         body: [
-          "Adverbs and prepositional phrases are highlighted with \"c'est... que\" too, never with où or quand: \"Je suis parti hier\" → \"C'est hier que je suis parti.\" \"Nous nous sommes rencontrés à Lyon\" → \"C'est à Lyon que nous nous sommes rencontrés.\" (not *c'est à Lyon où).",
+          "Adverbs and prepositional phrases are highlighted with \"c'est... que\" too, never with \"où\" or \"quand\": \"Je suis parti hier\" → \"C'est hier que je suis parti.\" \"Nous nous sommes rencontrés à Lyon\" → \"C'est à Lyon que nous nous sommes rencontrés.\" (not *c'est à Lyon où).",
           "Same for manner and cause: \"C'est en lisant que j'ai appris le français.\" \"C'est parce qu'il pleuvait que nous sommes rentrés.\"",
         ],
         examples: [
@@ -1242,7 +1243,7 @@ export const FR_B2_U19: Lesson[] = [
         source: "It was yesterday that I left.",
         answer: "C'est hier que je suis parti.",
         altAnswers: ["C'est hier que je suis partie.", "C'était hier que je suis parti."],
-        explanation: "Time highlighted with \"que\", not quand.",
+        explanation: "Time highlighted with \"que\", not \"quand\".",
       },
       {
         type: "translate",
@@ -1250,7 +1251,7 @@ export const FR_B2_U19: Lesson[] = [
         prompt: "Translate into French, highlighting your opinion.",
         source: "It's your opinion I want, not his.",
         answer: "C'est ton avis que je veux, pas le sien.",
-        altAnswers: ["C'est votre avis que je veux, pas le sien.", "C'est ton avis que je veux, pas celui de ton frère."],
+        altAnswers: ["C'est votre avis que je veux, pas le sien."],
         explanation: "Object highlighted: \"c'est... que\"; \"le sien\" = his.",
       },
       {
@@ -1258,7 +1259,7 @@ export const FR_B2_U19: Lesson[] = [
         question: "Which cleft sentence is correct?",
         options: ["C'est à Lyon que nous nous sommes rencontrés.", "C'est à Lyon où nous nous sommes rencontrés.", "C'est Lyon où nous nous sommes rencontrés.", "C'est à Lyon qui nous nous sommes rencontrés."],
         correctIndex: 0,
-        explanation: "Place and time in a cleft take \"que\", not où.",
+        explanation: "Place and time in a cleft take \"que\", not \"où\".",
       },
       {
         type: "fill-blank",
@@ -1266,7 +1267,7 @@ export const FR_B2_U19: Lesson[] = [
         en: "It was that detail [that] made me suspicious.",
         sentence: "C'est ce détail ___ m'a mis la puce à l'oreille.",
         answer: "qui",
-        explanation: "Ce détail is the subject of \"m'a mis\": \"qui\".",
+        explanation: "\"Ce détail\" is the subject of \"m'a mis\": \"qui\".",
       },
       {
         type: "translate",
@@ -1284,7 +1285,7 @@ export const FR_B2_U19: Lesson[] = [
         source: "It was because it was raining that we went home.",
         answer: "C'est parce qu'il pleuvait que nous sommes rentrés.",
         altAnswers: ["C'est parce qu'il pleuvait qu'on est rentrés.", "C'est parce qu'il pleuvait que nous sommes rentrées.", "C'est parce qu'il pleuvait qu'on est rentré."],
-        explanation: "\"C'est parce que... que\": only parce que can be highlighted this way, not car or puisque.",
+        explanation: "\"C'est parce que... que\": only \"parce que\" can be highlighted this way, not \"car\" or \"puisque\".",
       },
       {
         type: "word-order",
@@ -1305,7 +1306,7 @@ export const FR_B2_U19: Lesson[] = [
       {
         type: "dictation",
         audio: "Ce sont les clés que j'ai perdues, pas le portefeuille.",
-        explanation: "\"Perdues\" agrees with que = les clés.",
+        explanation: "\"Perdues\" agrees with \"que\" = \"les clés\".",
       },
       {
         type: "speak",
@@ -1321,13 +1322,13 @@ export const FR_B2_U19: Lesson[] = [
     level: "FR-B2",
     number: 7,
     title: "Emphasis and Word Order, Part 2 of 2",
-    summary: "Clefts in full: verb agreement after c'est moi qui, repeating the preposition in c'est à lui que, ce sont vs c'est, and the pseudo-clefts ce qui, ce que, ce dont, ce à quoi... c'est.",
+    summary: "Clefts in full: verb agreement after \"c'est moi qui\", repeating the preposition in \"c'est à lui que\", \"ce sont\" vs \"c'est\", and the pseudo-clefts \"ce qui\", \"ce que\", \"ce dont\", \"ce à quoi... c'est\".",
     duration: "15 min",
     sections: [
       {
         heading: "C'est moi qui ai raison: agreement after qui",
         body: [
-          "In \"c'est... qui\", the verb after qui agrees with the highlighted word, not with c'est. So: \"c'est moi qui ai raison\", \"c'est toi qui as gagné\", \"c'est nous qui sommes en retard\", \"c'est vous qui avez choisi\". The classic mistake, even among French speakers, is *\"c'est moi qui a\" or *\"c'est nous qui sont\".",
+          "In \"c'est... qui\", the verb after \"qui\" agrees with the highlighted word, not with \"c'est\". So: \"c'est moi qui ai raison\", \"c'est toi qui as gagné\", \"c'est nous qui sommes en retard\", \"c'est vous qui avez choisi\". The classic mistake, even among French speakers, is *\"c'est moi qui a\" or *\"c'est nous qui sont\".",
           "The highlighted pronoun is always the stressed form: \"moi, toi, lui, elle, nous, vous, eux, elles\", never *c'est je qui. Past participles and adjectives agree too: \"c'est elle qui est partie la première\", \"c'est nous qui sommes arrivés les premiers\".",
         ],
         examples: [
@@ -1354,7 +1355,7 @@ export const FR_B2_U19: Lesson[] = [
             en: "We're the ones who [are] late, not them.",
             sentence: "C'est nous qui ___ en retard, pas eux.",
             answer: "sommes",
-            explanation: "The verb agrees with nous: \"sommes\".",
+            explanation: "The verb agrees with \"nous\": \"sommes\".",
           },
           {
             type: "listen-choose",
@@ -1371,7 +1372,7 @@ export const FR_B2_U19: Lesson[] = [
         body: [
           "When the highlighted element comes with a preposition, the preposition moves with it to the front: \"Je parle à Paul\" → \"C'est à Paul que je parle.\" \"Je pense à toi\" → \"C'est à toi que je pense.\" \"J'ai besoin de ce livre\" → \"C'est de ce livre que j'ai besoin.\" The connecting word is then always \"que\".",
           "English often leaves the preposition at the end ('It's Paul I'm talking to'), which leads to *\"c'est Paul que je parle\". Keep the preposition in front.",
-          "\"Ce sont\" vs \"c'est\": with a plural noun or eux / elles, careful French uses \"ce sont\": \"Ce sont mes voisins qui ont appelé la police\", \"Ce sont eux qui ont gagné.\" Spoken French very often says \"c'est eux\", \"c'est mes voisins\". With nous and vous, always \"c'est\": \"c'est nous\".",
+          "\"Ce sont\" vs \"c'est\": with a plural noun or \"eux\" / \"elles\", careful French uses \"ce sont\": \"Ce sont mes voisins qui ont appelé la police\", \"Ce sont eux qui ont gagné.\" Spoken French very often says \"c'est eux\", \"c'est mes voisins\". With \"nous\" and \"vous\", always \"c'est\": \"c'est nous\".",
         ],
         examples: [
           { es: "C'est à toi que je parle !", en: "I'm talking to YOU!" },
@@ -1389,7 +1390,7 @@ export const FR_B2_U19: Lesson[] = [
             source: "It's Julie I'm going on holiday with.",
             answer: "C'est avec Julie que je pars en vacances.",
             altAnswers: ["C'est avec Julie que je vais en vacances.", "C'est avec Julie que je pars en congés."],
-            explanation: "The preposition \"avec\" moves to the front with Julie; then \"que\".",
+            explanation: "The preposition \"avec\" moves to the front with \"Julie\"; then \"que\".",
           },
           {
             type: "translate",
@@ -1398,15 +1399,15 @@ export const FR_B2_U19: Lesson[] = [
             source: "It was my neighbours who called the police.",
             answer: "Ce sont mes voisins qui ont appelé la police.",
             altAnswers: ["Ce sont mes voisins qui ont prévenu la police.", "Ce sont mes voisines qui ont appelé la police."],
-            explanation: "\"Ce sont\" before a plural noun in careful French; the verb agrees with voisins.",
+            explanation: "\"Ce sont\" before a plural noun in careful French; the verb agrees with \"voisins\".",
           },
         ],
       },
       {
         heading: "Pseudo-clefts: ce qui..., c'est / ce que..., c'est",
         body: [
-          "A pseudo-cleft builds suspense: you announce a category, then reveal the content after \"c'est\": \"Ce qui m'énerve, c'est le bruit.\" (What annoys me is the noise.) \"Ce que j'aime, c'est voyager.\" Choose the relative by the verb: ce qui for a subject (\"ce qui me plaît\"), ce que for a direct object (\"ce que je veux\").",
-          "With a verb + de, use \"ce dont\" and keep de after c'est: \"Ce dont j'ai besoin, c'est de repos.\" With a verb + à, use \"ce à quoi\" and keep à: \"Ce à quoi je pense, c'est à mes vacances.\" (In speech the second de / à is often dropped, but it's correct to keep it.)",
+          "A pseudo-cleft builds suspense: you announce a category, then reveal the content after \"c'est\": \"Ce qui m'énerve, c'est le bruit.\" (What annoys me is the noise.) \"Ce que j'aime, c'est voyager.\" Choose the relative by the verb: \"ce qui\" for a subject (\"ce qui me plaît\"), \"ce que\" for a direct object (\"ce que je veux\").",
+          "With a verb + \"de\", use \"ce dont\" and keep \"de\" after \"c'est\": \"Ce dont j'ai besoin, c'est de repos.\" With a verb + \"à\", use \"ce à quoi\" and keep \"à\": \"Ce à quoi je pense, c'est à mes vacances.\" (In speech the second \"de\" / \"à\" is often dropped, but it's correct to keep it.)",
           "When the revealed part is a clause, use \"c'est que\": \"Ce qui m'inquiète, c'est qu'il ne répond pas.\" When it's plural, \"ce sont\" is possible in careful writing: \"Ce que je préfère, ce sont les fruits rouges.\"",
         ],
         examples: [
@@ -1425,7 +1426,7 @@ export const FR_B2_U19: Lesson[] = [
             source: "What I need is rest.",
             answer: "Ce dont j'ai besoin, c'est de repos.",
             altAnswers: ["Ce dont j'ai besoin, c'est du repos.", "Ce dont j'ai besoin, c'est de me reposer."],
-            explanation: "\"Avoir besoin de\" → \"ce dont\"; keep \"de\" after c'est.",
+            explanation: "\"Avoir besoin de\" → \"ce dont\"; keep \"de\" after \"c'est\".",
           },
           {
             type: "fill-blank",
@@ -1440,7 +1441,7 @@ export const FR_B2_U19: Lesson[] = [
             text: "Ce qui m'énerve, c'est le bruit des voisins.",
             prompt: "Say it in French: What annoys me is the neighbours' noise.",
             tip: "Small pause before \"c'est\": the suspense is part of the structure.",
-            explanation: "\"Ce qui\" (subject of m'énerve), then the reveal after \"c'est\".",
+            explanation: "\"Ce qui\" (subject of \"m'énerve\"), then the reveal after \"c'est\".",
           },
         ],
       },
@@ -1453,7 +1454,7 @@ export const FR_B2_U19: Lesson[] = [
         source: "You're the one who won!",
         answer: "C'est toi qui as gagné !",
         altAnswers: ["C'est vous qui avez gagné !"],
-        explanation: "Verb in the tu form: \"as\".",
+        explanation: "Verb in the \"tu\" form: \"as\".",
       },
       {
         type: "translate",
@@ -1471,14 +1472,14 @@ export const FR_B2_U19: Lesson[] = [
         source: "What I love is travelling alone.",
         answer: "Ce que j'aime, c'est voyager seule.",
         altAnswers: ["Ce que j'aime, c'est voyager seul.", "Ce que j'adore, c'est voyager seul.", "Ce que j'adore, c'est voyager seule."],
-        explanation: "Object of aimer: \"ce que\"; infinitive after c'est.",
+        explanation: "Object of \"aimer\": \"ce que\"; infinitive after \"c'est\".",
       },
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
         options: ["C'est nous qui avons organisé la fête.", "C'est nous qui ont organisé la fête.", "C'est nous qui a organisé la fête.", "Ce sont nous qui avons organisé la fête."],
         correctIndex: 0,
-        explanation: "The verb agrees with nous (\"avons\"); with nous, always \"c'est\".",
+        explanation: "The verb agrees with \"nous\" (\"avons\"); with \"nous\", always \"c'est\".",
       },
       {
         type: "translate",
@@ -1487,7 +1488,7 @@ export const FR_B2_U19: Lesson[] = [
         source: "What I'm thinking about is my holidays.",
         answer: "Ce à quoi je pense, c'est à mes vacances.",
         altAnswers: ["Ce à quoi je pense, c'est mes vacances.", "Ce à quoi je pense, ce sont mes vacances."],
-        explanation: "\"Penser à\" → \"ce à quoi\"; the second à is correct and careful.",
+        explanation: "\"Penser à\" → \"ce à quoi\"; the second \"à\" is correct and careful.",
       },
       {
         type: "fill-blank",
@@ -1495,7 +1496,7 @@ export const FR_B2_U19: Lesson[] = [
         en: "It's [this book that] I need.",
         sentence: "C'est ___ j'ai besoin.",
         answer: "de ce livre que",
-        explanation: "The preposition moves to the front and the link is \"que\": \"c'est de ce livre que j'ai besoin\". *C'est de ce livre dont is a common mistake: the de is already there.",
+        explanation: "The preposition moves to the front and the link is \"que\": \"c'est de ce livre que j'ai besoin\". *\"C'est de ce livre dont\" is a common mistake: the \"de\" is already there.",
       },
       {
         type: "translate",
@@ -1504,7 +1505,7 @@ export const FR_B2_U19: Lesson[] = [
         source: "She was the one who left first.",
         answer: "C'est elle qui est partie la première.",
         altAnswers: ["C'était elle qui est partie la première.", "C'est elle qui est partie en premier."],
-        explanation: "Verb and participle agree with elle: \"est partie\".",
+        explanation: "Verb and participle agree with \"elle\": \"est partie\".",
       },
       {
         type: "word-order",
@@ -1520,7 +1521,7 @@ export const FR_B2_U19: Lesson[] = [
         source: "They're the ones who won, not us.",
         answer: "Ce sont eux qui ont gagné, pas nous.",
         altAnswers: ["Ce sont elles qui ont gagné, pas nous.", "C'est eux qui ont gagné, pas nous.", "C'est elles qui ont gagné, pas nous."],
-        explanation: "\"Ce sont eux\" in careful French (\"c'est eux\" in speech); verb agrees with eux.",
+        explanation: "\"Ce sont eux\" in careful French (\"c'est eux\" in speech); verb agrees with \"eux\".",
       },
       {
         type: "translate",
@@ -1533,13 +1534,13 @@ export const FR_B2_U19: Lesson[] = [
       {
         type: "dictation",
         audio: "C'est moi qui ai raison, pas toi.",
-        explanation: "\"Qui ai\": je form after c'est moi qui.",
+        explanation: "\"Qui ai\": \"je\" form after \"c'est moi qui\".",
       },
       {
         type: "speak",
         text: "Ce dont j'ai besoin, c'est de repos.",
         prompt: "Say it in French: What I need is rest.",
-        explanation: "\"Ce dont\" + avoir besoin de; \"de\" kept after c'est.",
+        explanation: "\"Ce dont\" + \"avoir besoin de\"; \"de\" kept after \"c'est\".",
       },
     ],
   },
@@ -1548,14 +1549,14 @@ export const FR_B2_U19: Lesson[] = [
     level: "FR-B2",
     number: 8,
     title: "Spiral Review: En Partant / Partant",
-    summary: "Spaced review of Unit 13: the gérondif (en + -ant), the invariable present participle and the agreeing adjectif verbal, in minimal pairs.",
+    summary: "Spaced review of Unit 13: the gérondif (\"en\" + -ant), the invariable present participle and the agreeing adjectif verbal, in minimal pairs.",
     duration: "13 min",
     sections: [
       {
         heading: "En partant vs partant",
         body: [
           "The gérondif (\"en partant\") describes an action of the main subject at the same time, or how, why or on what condition it happens: \"En partant tôt, on évitera les bouchons.\" (by leaving early). It always refers to the subject of the main verb.",
-          "The present participle without en (\"partant\") is written French. It replaces a qui clause (\"les trains partant de Lyon\" = qui partent de Lyon) or gives a cause (\"partant tôt, il n'a pas vu la fin\" = comme il partait tôt). It can refer to a noun other than the subject.",
+          "The present participle without \"en\" (\"partant\") is written French. It replaces a \"qui\" clause (\"les trains partant de Lyon\" = \"qui partent de Lyon\") or gives a cause (\"partant tôt, il n'a pas vu la fin\" = \"comme il partait tôt\"). It can refer to a noun other than the subject.",
           "The difference matters: \"J'ai vu Marc en sortant du cinéma\" (I was leaving) vs \"J'ai vu Marc sortant du cinéma\" (Marc was leaving).",
         ],
         examples: [
@@ -1573,7 +1574,7 @@ export const FR_B2_U19: Lesson[] = [
             prompt: "Translate into French (you were leaving).",
             source: "I saw Marc as I was leaving the cinema.",
             answer: "J'ai vu Marc en sortant du cinéma.",
-            explanation: "The gérondif refers to the subject (je): I was leaving.",
+            explanation: "The gérondif refers to the subject (\"je\"): I was leaving.",
           },
           {
             type: "translate",
@@ -1590,7 +1591,7 @@ export const FR_B2_U19: Lesson[] = [
             question: "Who was leaving the cinema?",
             options: ["Marc", "The speaker", "Both of them", "Nobody: it's a film title"],
             correctIndex: 0,
-            explanation: "Without en, the participle can describe Marc. With \"en sortant\", it would be the speaker.",
+            explanation: "Without \"en\", the participle can describe Marc. With \"en sortant\", it would be the speaker.",
           },
         ],
       },
@@ -1624,7 +1625,7 @@ export const FR_B2_U19: Lesson[] = [
             en: "In the days [before] the exam, she slept little.",
             sentence: "Les jours ___ l'examen, elle a peu dormi.",
             answer: "précédant",
-            explanation: "A participle with an object (l'examen): \"précédant\", invariable, with -ant.",
+            explanation: "A participle with an object (\"l'examen\"): \"précédant\", invariable, with -ant.",
           },
         ],
       },
@@ -1692,7 +1693,7 @@ export const FR_B2_U19: Lesson[] = [
         question: "Which sentence is spelt correctly?",
         options: ["C'est un argument convaincant.", "C'est un argument convainquant.", "C'est un argument convaincante.", "C'est un argument en convainquant."],
         correctIndex: 0,
-        explanation: "Adjective: \"convaincant\" (c, not qu), masculine to agree with argument.",
+        explanation: "Adjective: \"convaincant\" (c, not qu), masculine to agree with \"argument\".",
       },
       {
         type: "fill-blank",
@@ -1717,7 +1718,7 @@ export const FR_B2_U19: Lesson[] = [
         prompt: "Translate into French.",
         source: "The previous week, it had snowed.",
         answer: "La semaine précédente, il avait neigé.",
-        explanation: "Adjective \"précédente\" (with e, agreeing); the participle would be précédant.",
+        explanation: "Adjective \"précédente\" (with e, agreeing); the participle would be \"précédant\".",
       },
       {
         type: "word-order",
@@ -1738,7 +1739,7 @@ export const FR_B2_U19: Lesson[] = [
       {
         type: "dictation",
         audio: "Ne sachant pas quoi dire, il s'est tu.",
-        explanation: "\"Sachant\" (from savoir); \"s'est tu\" (passé composé of se taire).",
+        explanation: "\"Sachant\" (from \"savoir\"); \"s'est tu\" (passé composé of \"se taire\").",
       },
       {
         type: "speak",
@@ -1753,14 +1754,14 @@ export const FR_B2_U19: Lesson[] = [
     level: "FR-B2",
     number: 9,
     title: "Transformations: Cleft Sentences",
-    summary: "Take neutral sentences and highlight who, what, when or where with c'est... qui / que and ce qui / ce que..., c'est, following the ripple effects on agreement.",
+    summary: "Take neutral sentences and highlight who, what, when or where with \"c'est... qui\" / \"que\" and \"ce qui\" / \"ce que..., c'est\", following the ripple effects on agreement.",
     duration: "14 min",
     sections: [
       {
         heading: "Who: c'est... qui with agreement",
         body: [
           "Starting sentence: \"Marie a trouvé la solution.\" Highlight the subject: \"C'est Marie qui a trouvé la solution.\" Now replace Marie with a pronoun, and watch the verb: \"C'est moi qui ai trouvé\", \"C'est nous qui avons trouvé\", \"C'est vous qui avez trouvé\", \"Ce sont eux qui ont trouvé\".",
-          "The ripple effect: the verb after qui changes person, and with être the participle changes too: \"C'est nous qui sommes venues\" (a group of women).",
+          "The ripple effect: the verb after \"qui\" changes person, and with être the participle changes too: \"C'est nous qui sommes venues\" (a group of women).",
         ],
         examples: [
           { es: "C'est Marie qui a trouvé la solution.", en: "It was Marie who found the solution." },
@@ -1776,7 +1777,7 @@ export const FR_B2_U19: Lesson[] = [
             prompt: "Change « C'est Marie qui a trouvé la solution » to 'we': We're the ones who found the solution.",
             source: "We're the ones who found the solution.",
             answer: "C'est nous qui avons trouvé la solution.",
-            explanation: "\"Qui avons\": the verb follows nous.",
+            explanation: "\"Qui avons\": the verb follows \"nous\".",
           },
           {
             type: "fill-blank",
@@ -1784,7 +1785,7 @@ export const FR_B2_U19: Lesson[] = [
             en: "You're the ones who [found] the solution. (vous)",
             sentence: "C'est vous qui ___ la solution.",
             answer: "avez trouvé",
-            explanation: "Vous form after \"c'est vous qui\".",
+            explanation: "\"Vous\" form after \"c'est vous qui\".",
           },
           {
             type: "listen-choose",
@@ -1792,7 +1793,7 @@ export const FR_B2_U19: Lesson[] = [
             question: "What did you hear?",
             options: ["C'est nous qui avons trouvé la solution.", "C'est nous qui ont trouvé la solution.", "C'est nous qu'avons trouvé la solution.", "C'est vous qui avez trouvé la solution."],
             correctIndex: 0,
-            explanation: "\"Qui avons\": the verb agrees with nous. \"Qui ont\" would be the classic mistake.",
+            explanation: "\"Qui avons\": the verb agrees with \"nous\". \"Qui ont\" would be the classic mistake.",
           },
         ],
       },
@@ -1800,7 +1801,7 @@ export const FR_B2_U19: Lesson[] = [
         heading: "What: c'est... que and ce que..., c'est",
         body: [
           "Starting sentence: \"Il a oublié son passeport.\" Highlight the object with a cleft: \"C'est son passeport qu'il a oublié.\" Or with a pseudo-cleft, for suspense: \"Ce qu'il a oublié, c'est son passeport.\"",
-          "Ripple effect: when que stands for a feminine or plural direct object, the participle agrees: \"C'est sa valise qu'il a oubliée.\" In the pseudo-cleft, \"ce que\" is masculine singular, so no agreement: \"Ce qu'il a oublié, c'est sa valise.\"",
+          "Ripple effect: when \"que\" stands for a feminine or plural direct object, the participle agrees: \"C'est sa valise qu'il a oubliée.\" In the pseudo-cleft, \"ce que\" is masculine singular, so no agreement: \"Ce qu'il a oublié, c'est sa valise.\"",
         ],
         examples: [
           { es: "C'est son passeport qu'il a oublié.", en: "It's his passport he forgot." },
@@ -1813,10 +1814,10 @@ export const FR_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Highlight the suitcase with c'est... que: It's his suitcase he forgot.",
+            prompt: "Translate into French, highlighting the suitcase with \"c'est... que\".",
             source: "It's his suitcase he forgot.",
             answer: "C'est sa valise qu'il a oubliée.",
-            explanation: "\"Que\" = sa valise (feminine), before avoir: \"oubliée\".",
+            explanation: "\"Que\" = \"sa valise\" (feminine), before \"avoir\": \"oubliée\".",
           },
           {
             type: "translate",
@@ -1873,7 +1874,7 @@ export const FR_B2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Change to 'I': I'm the one who found the solution.",
+        prompt: "Translate into French with a cleft.",
         source: "I'm the one who found the solution.",
         answer: "C'est moi qui ai trouvé la solution.",
         explanation: "Je form: \"qui ai\".",
@@ -1900,7 +1901,7 @@ export const FR_B2_U19: Lesson[] = [
         en: "It was in 2019 [that] we moved to Nantes.",
         sentence: "C'est en 2019 ___ nous avons déménagé à Nantes.",
         answer: "que",
-        explanation: "Time highlighted: \"que\", never quand.",
+        explanation: "Time highlighted: \"que\", never \"quand\".",
       },
       {
         type: "translate",
@@ -1909,7 +1910,7 @@ export const FR_B2_U19: Lesson[] = [
         source: "They're the ones who found the solution.",
         answer: "Ce sont eux qui ont trouvé la solution.",
         altAnswers: ["Ce sont elles qui ont trouvé la solution.", "C'est eux qui ont trouvé la solution."],
-        explanation: "\"Ce sont eux\" in careful writing; verb agrees with eux.",
+        explanation: "\"Ce sont eux\" in careful writing; verb agrees with \"eux\".",
       },
       {
         type: "translate",
@@ -1925,7 +1926,7 @@ export const FR_B2_U19: Lesson[] = [
         prompt: "Put the words in order to say: We were the ones who came first. (women)",
         words: ["C'est nous", "qui", "sommes venues", "les", "premières."],
         translation: "We were the ones who came first.",
-        explanation: "Être verb: \"venues\" agrees with nous (women).",
+        explanation: "Être verb: \"venues\" agrees with \"nous\" (women).",
       },
       {
         type: "translate",
@@ -1938,7 +1939,7 @@ export const FR_B2_U19: Lesson[] = [
       {
         type: "dictation",
         audio: "C'est sa valise qu'il a oubliée.",
-        explanation: "Agreement with que = sa valise: \"oubliée\".",
+        explanation: "Agreement with \"que\" = \"sa valise\": \"oubliée\".",
       },
       {
         type: "speak",
@@ -1953,11 +1954,11 @@ export const FR_B2_U19: Lesson[] = [
     level: "FR-B2",
     number: 10,
     title: "Spiral Review: Je Veux que → Je Voudrais que",
-    summary: "Spaced review of Unit 6: soften demands with the conditional (je voudrais que, il vaudrait mieux que, j'aimerais que) and keep the subjunctive.",
+    summary: "Spaced review of Unit 6: soften demands with the conditional (\"je voudrais que\", \"il vaudrait mieux que\", \"j'aimerais que\") and keep the subjunctive.",
     duration: "13 min",
     sections: [
       {
-        heading: "From je veux que to je voudrais que",
+        heading: "From \"je veux que\" to \"je voudrais que\"",
         body: [
           "\"Je veux que tu viennes\" is direct, even bossy. Putting the main verb in the conditional softens it without changing the grammar of the subordinate clause: \"Je voudrais que tu viennes\", \"J'aimerais que tu viennes\", \"Je souhaiterais que vous veniez\" (formal). The subjunctive stays: the conditional only affects the main verb.",
           "Trap: don't put the subordinate verb in the conditional. *\"Je voudrais que tu viendrais\" is a frequent mistake. The pattern is always conditional + que + subjunctive.",
@@ -1975,7 +1976,7 @@ export const FR_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French (polite, to a colleague you call vous).",
+            prompt: "Translate into French (polite, to a colleague you call \"vous\").",
             source: "I'd like you to send me the file before Thursday.",
             answer: "J'aimerais que vous m'envoyiez le dossier avant jeudi.",
             altAnswers: ["Je voudrais que vous m'envoyiez le dossier avant jeudi.", "Je souhaiterais que vous m'envoyiez le dossier avant jeudi.", "J'aimerais que vous m'envoyiez le dossier d'ici jeudi."],
@@ -2027,7 +2028,7 @@ export const FR_B2_U19: Lesson[] = [
             en: "It would be better if she didn't [know] anything.",
             sentence: "Il vaudrait mieux qu'elle ne ___ rien.",
             answer: "sache",
-            explanation: "Subjunctive of savoir: \"sache\".",
+            explanation: "Subjunctive of \"savoir\": \"sache\".",
           },
         ],
       },
@@ -2104,7 +2105,7 @@ export const FR_B2_U19: Lesson[] = [
         en: "She'd like her children [to be] more independent.",
         sentence: "Elle aimerait que ses enfants ___ plus autonomes.",
         answer: "soient",
-        explanation: "Subjunctive of être, ils form: \"soient\".",
+        explanation: "Subjunctive of \"être\", \"ils\" form: \"soient\".",
       },
       {
         type: "translate",
@@ -2143,7 +2144,7 @@ export const FR_B2_U19: Lesson[] = [
       {
         type: "dictation",
         audio: "J'aurais voulu que tu sois là.",
-        explanation: "\"Sois\": subjunctive of être, tu form.",
+        explanation: "\"Sois\": subjunctive of \"être\", \"tu\" form.",
       },
       {
         type: "speak",
@@ -2209,7 +2210,7 @@ export const FR_B2_U19: Lesson[] = [
         heading: "Pseudo-clefts for suspense",
         body: [
           "Pseudo-clefts hold back the key information until the end, ideal for surprises and opinions: \"Ce que ma voisine a offert à mon frère, c'est un tableau.\" \"Ce qui m'a surpris, c'est qu'elle lui ait offert un tableau.\" (After an emotion like surprise, the subjunctive can follow \"c'est que\".)",
-          "With a verb + de or à: \"Ce dont mon frère rêvait, c'est d'un tableau de ce peintre.\" \"Ce à quoi il ne s'attendait pas, c'est à un cadeau aussi généreux.\" (s'attendre à = to expect).",
+          "With a verb + \"de\" or \"à\": \"Ce dont mon frère rêvait, c'est d'un tableau de ce peintre.\" \"Ce à quoi il ne s'attendait pas, c'est à un cadeau aussi généreux.\" (\"s'attendre à\" = to expect).",
         ],
         examples: [
           { es: "Ce que ma voisine a offert à mon frère, c'est un tableau.", en: "What my neighbour gave my brother was a painting." },
@@ -2234,7 +2235,7 @@ export const FR_B2_U19: Lesson[] = [
             en: "[What] my brother dreamt of was a painting by this artist.",
             sentence: "___ mon frère rêvait, c'est d'un tableau de ce peintre.",
             answer: "Ce dont",
-            explanation: "\"Rêver de\" → \"ce dont\"; de is repeated after c'est.",
+            explanation: "\"Rêver de\" → \"ce dont\"; \"de\" is repeated after \"c'est\".",
           },
         ],
       },
@@ -2312,7 +2313,7 @@ export const FR_B2_U19: Lesson[] = [
         source: "What surprised me was that she gave him a painting.",
         answer: "Ce qui m'a surpris, c'est qu'elle lui ait offert un tableau.",
         altAnswers: ["Ce qui m'a surprise, c'est qu'elle lui ait offert un tableau.", "Ce qui m'a surpris, c'est qu'elle lui a offert un tableau.", "Ce qui m'a surprise, c'est qu'elle lui a offert un tableau."],
-        explanation: "\"Ce qui\" (subject of surprendre); subjunctive after emotion is preferred, indicative common.",
+        explanation: "\"Ce qui\" (subject of \"surprendre\"); subjunctive after emotion is preferred, indicative common.",
       },
       {
         type: "fill-blank",
@@ -2328,7 +2329,6 @@ export const FR_B2_U19: Lesson[] = [
         prompt: "Translate into spoken French with dislocation.",
         source: "He wasn't expecting it at all.",
         answer: "Lui, il ne s'y attendait pas du tout.",
-        altAnswers: ["Il ne s'y attendait pas du tout."],
         explanation: "\"Lui, il...\" highlights him; \"s'y attendre\" = to expect it.",
       },
       {
@@ -2336,7 +2336,7 @@ export const FR_B2_U19: Lesson[] = [
         prompt: "Put the words in order to say: He hung the painting in his living room.",
         words: ["Ce tableau,", "il l'a", "accroché", "dans son", "salon."],
         translation: "He hung the painting in his living room.",
-        explanation: "Dislocation of the object; \"accroché\" agrees with l' (masculine).",
+        explanation: "Dislocation of the object; \"accroché\" agrees with \"l'\" (masculine).",
       },
       {
         type: "translate",
@@ -2365,7 +2365,7 @@ export const FR_B2_U19: Lesson[] = [
     level: "FR-B2",
     number: 12,
     title: "Real-World Mission: Une Critique Passionnée",
-    summary: "Write a review of a concert you loved (or hated) with every emphasis structure: ce qui m'a frappé, c'est..., le chanteur, lui, ..., c'est ce morceau qui...",
+    summary: "Write a review of a concert you loved (or hated) with every emphasis structure: \"ce qui m'a frappé, c'est...\", \"le chanteur, lui, ...\", \"c'est ce morceau qui...\"",
     duration: "15 min",
     sections: [
       {
@@ -2388,7 +2388,7 @@ export const FR_B2_U19: Lesson[] = [
             prompt: "Translate into French with a pseudo-cleft.",
             source: "What I'll remember from this evening is her voice.",
             answer: "Ce que je retiendrai de cette soirée, c'est sa voix.",
-            altAnswers: ["Ce que je retiendrai de cette soirée, ce sera sa voix.", "Ce dont je me souviendrai de cette soirée, c'est sa voix."],
+            altAnswers: ["Ce que je retiendrai de cette soirée, ce sera sa voix."],
             explanation: "\"Retenir\" (to remember, keep in mind) takes a direct object: \"ce que\".",
           },
           {
@@ -2448,7 +2448,7 @@ export const FR_B2_U19: Lesson[] = [
         heading: "The verdict: exclamations and a final pseudo-cleft",
         body: [
           "End with a verdict that sums up your feeling: \"Bref, ce que je peux vous dire, c'est que vous devez absolument la voir sur scène.\" Or, if you hated it: \"Ce qui est sûr, c'est que je ne paierai plus 60 euros pour une heure de playback.\" (lip-syncing)",
-          "A final cleft with \"c'est... que\" can underline the essential: \"C'est rare qu'un concert me donne des frissons.\" (It's rare for a concert to give me goosebumps; note the subjunctive after \"c'est rare que\".)",
+          "A final impersonal \"c'est\" + adjective + \"que\" can underline the essential: \"C'est rare qu'un concert me donne des frissons.\" (It's rare for a concert to give me goosebumps. This is not a cleft; note the subjunctive after \"c'est rare que\".)",
         ],
         examples: [
           { es: "Ce que je peux vous dire, c'est que vous devez absolument la voir sur scène.", en: "What I can tell you is that you absolutely must see her live." },
@@ -2484,7 +2484,7 @@ export const FR_B2_U19: Lesson[] = [
         source: "What struck me from the very first notes was the total silence in the hall.",
         answer: "Ce qui m'a frappé dès les premières notes, c'est le silence absolu de la salle.",
         altAnswers: ["Ce qui m'a frappée dès les premières notes, c'est le silence absolu de la salle.", "Ce qui m'a frappé dès les premières notes, c'était le silence absolu de la salle.", "Ce qui m'a frappée dès les premières notes, c'était le silence absolu de la salle."],
-        explanation: "\"Ce qui\" (subject of frapper).",
+        explanation: "\"Ce qui\" (subject of \"frapper\").",
       },
       {
         type: "translate",
@@ -2493,7 +2493,7 @@ export const FR_B2_U19: Lesson[] = [
         source: "It was on the last track that the audience stood up.",
         answer: "C'est sur le dernier morceau que la salle s'est levée.",
         altAnswers: ["C'est sur le dernier titre que la salle s'est levée.", "C'est sur le dernier morceau que le public s'est levé.", "C'était sur le dernier morceau que la salle s'est levée."],
-        explanation: "\"C'est sur... que\"; \"levée\" agrees with la salle.",
+        explanation: "\"C'est sur... que\"; \"levée\" agrees with \"la salle\".",
       },
       {
         type: "translate",
@@ -2502,14 +2502,14 @@ export const FR_B2_U19: Lesson[] = [
         source: "It was the acoustic arrangements that moved me most.",
         answer: "Ce sont les arrangements acoustiques qui m'ont le plus ému.",
         altAnswers: ["Ce sont les arrangements acoustiques qui m'ont le plus émue.", "C'est les arrangements acoustiques qui m'ont le plus ému.", "C'est les arrangements acoustiques qui m'ont le plus émue."],
-        explanation: "\"Ce sont\" before a plural; verb agrees with arrangements.",
+        explanation: "\"Ce sont\" before a plural; verb agrees with \"arrangements\".",
       },
       {
         type: "multiple-choice",
         question: "Which sentence is a correct pseudo-cleft?",
         options: ["Ce dont j'avais besoin, c'est d'une soirée comme celle-là.", "Ce que j'avais besoin, c'est d'une soirée comme celle-là.", "Ce qui j'avais besoin, c'est une soirée comme celle-là.", "Ce dont j'avais besoin, c'est que une soirée comme celle-là."],
         correctIndex: 0,
-        explanation: "\"Avoir besoin de\" → \"ce dont\", with de repeated after c'est.",
+        explanation: "\"Avoir besoin de\" → \"ce dont\", with \"de\" repeated after \"c'est\".",
       },
       {
         type: "fill-blank",
@@ -2595,7 +2595,7 @@ export const FR_B2_U19: Lesson[] = [
             prompt: "Translate into French (news style).",
             source: "Residents were evacuated by the fire brigade.",
             answer: "Les habitants ont été évacués par les pompiers.",
-            explanation: "Passé composé passive; agent with par.",
+            explanation: "Passé composé passive; agent with \"par\".",
           },
           {
             type: "translate",
@@ -2688,7 +2688,7 @@ export const FR_B2_U19: Lesson[] = [
         source: "About thirty houses were flooded during the night.",
         answer: "Une trentaine de maisons ont été inondées pendant la nuit.",
         altAnswers: ["Une trentaine de maisons ont été inondées dans la nuit.", "Une trentaine de maisons a été inondée pendant la nuit.", "Une trentaine de maisons a été inondée dans la nuit."],
-        explanation: "\"Une trentaine de\" = about thirty; the verb usually agrees with maisons.",
+        explanation: "\"Une trentaine de\" = about thirty; the verb usually agrees with \"maisons\".",
       },
       {
         type: "translate",
@@ -2712,7 +2712,7 @@ export const FR_B2_U19: Lesson[] = [
         question: "'The mayor fears the situation may happen again.' Which is correct?",
         options: ["Le maire craint que la situation ne se reproduise.", "Le maire craint que la situation se reproduira.", "Le maire craint que la situation ne se reproduit.", "Le maire craint de la situation se reproduire."],
         correctIndex: 0,
-        explanation: "\"Craindre que\" + subjunctive, with the optional ne explétif.",
+        explanation: "\"Craindre que\" + subjunctive, with the optional \"ne\" explétif.",
       },
       {
         type: "fill-blank",
@@ -2720,7 +2720,7 @@ export const FR_B2_U19: Lesson[] = [
         en: "The State [must face up] to its responsibilities.",
         sentence: "Il faut que l'État ___ ses responsabilités.",
         answer: "prenne",
-        explanation: "\"Il faut que\" + subjunctive of prendre: \"prenne\".",
+        explanation: "\"Il faut que\" + subjunctive of \"prendre\": \"prenne\".",
       },
       {
         type: "translate",
@@ -2759,7 +2759,7 @@ export const FR_B2_U19: Lesson[] = [
       {
         type: "dictation",
         audio: "Les habitants ont été évacués par les pompiers.",
-        explanation: "\"Évacués\" agrees with les habitants.",
+        explanation: "\"Évacués\" agrees with \"les habitants\".",
       },
       {
         type: "speak",
@@ -2783,5 +2783,5 @@ export const FR_B2_U19_WRITING: WriteExercise = {
     "Gives a clear verdict, with connectors from Unit 17 (\"certes\", \"en revanche\", \"pourtant\")",
   ],
   modelAnswer: "« Les Heures Claires » : un film qu'on n'oublie pas\n\nCe film, je l'ai vu deux fois en une semaine, et je pourrais le revoir demain. Ce qui m'a frappé dès la première scène, c'est la lumière : chaque plan ressemble à un tableau. C'est Lucie Marchal qui joue la mère, et c'est elle qui porte tout le film. Les autres acteurs, eux, sont justes, mais un peu effacés à côté d'elle.\n\nCertes, l'histoire est simple : une famille se retrouve dans la maison de son enfance après un deuil. Pourtant, ce qui rend le film bouleversant, ce sont les silences. Ce dont on parle le plus à la sortie, c'est de la scène du piano, où personne ne dit un mot.\n\nLa musique, en revanche, m'a moins convaincu : elle souligne trop les émotions. Mais ce à quoi je repense depuis, c'est à la dernière image, sur la plage.\n\nBref, c'est rare qu'un film me touche autant. Allez-y, et c'est moi qui vous le dis : vous ne le regretterez pas.",
-  explanation: "Left dislocation (\"ce film, je l'ai vu\") sets the topic; pseudo-clefts (\"ce qui m'a frappé, c'est...\", \"ce dont on parle..., c'est de...\", \"ce à quoi je repense, c'est à...\") build suspense and keep the preposition after c'est. Clefts single out people (\"c'est elle qui porte\", \"c'est moi qui vous le dis\" with the verb agreeing), \"ce sont les silences\" is plural, and the stressed pronoun \"eux\" contrasts the other actors. \"Certes\", \"pourtant\" and \"en revanche\" structure the opinion, and \"c'est rare que\" takes the subjunctive.",
+  explanation: "Left dislocation (\"ce film, je l'ai vu\") sets the topic; pseudo-clefts (\"ce qui m'a frappé, c'est...\", \"ce dont on parle..., c'est de...\", \"ce à quoi je repense, c'est à...\") build suspense and keep the preposition after \"c'est\". Clefts single out people (\"c'est elle qui porte\", \"c'est moi qui vous le dis\" with the verb agreeing), \"ce sont les silences\" is plural, and the stressed pronoun \"eux\" contrasts the other actors. \"Certes\", \"pourtant\" and \"en revanche\" structure the opinion, and \"c'est rare que\" takes the subjunctive.",
 };

@@ -218,6 +218,7 @@ export const FR_B2_U12_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "She begged me to stay.",
         answer: "Elle m'a supplié de rester.",
+        altAnswers: ["Elle m'a suppliée de rester."],
         explanation: "\"Supplier de\" + infinitive.",
       },
       {
@@ -252,7 +253,7 @@ export const FR_B2_U12_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "She told me not to tell him.",
         answer: "Elle m'a dit de ne pas le lui dire.",
-        altAnswers: ["Elle m'a dit de ne rien lui dire."],
+        altAnswers: ["Elle m'a dit de ne rien lui dire.", "Elle m'a dit de ne pas lui dire."],
         explanation: "\"Ne pas\" + pronouns + infinitive.",
       },
       {
@@ -261,7 +262,7 @@ export const FR_B2_U12_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "The rain prevented us from going out.",
         answer: "La pluie nous a empêchés de sortir.",
-        altAnswers: ["La pluie nous a empêché de sortir."],
+        altAnswers: ["La pluie nous a empêchées de sortir."],
         explanation: "\"Empêcher quelqu'un de\" (direct object, so \"empêchés\" agrees).",
       },
       {

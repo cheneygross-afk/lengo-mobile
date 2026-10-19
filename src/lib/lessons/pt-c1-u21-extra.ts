@@ -21,10 +21,10 @@ export const PT_C1_U21_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Compete à União emitir moeda.", en: "Issuing currency falls to the federal government." },
-          { es: "O vereador mais votado da cidade é professor.", en: "The city's most-voted councillor is a teacher." },
+          { es: "O vereador mais votado da cidade é professor.", en: "The city's most-voted council member is a teacher." },
           { es: "A ministra do STF votou contra a liminar.", en: "The STF justice voted against the injunction." },
           { es: "Em Belo Horizonte, a eleição para prefeito foi para o segundo turno.", en: "In Belo Horizonte, the mayoral election went to a second round." },
-          { es: "Ela anulou o voto em protesto.", en: "She spoilt her ballot in protest." },
+          { es: "Ela anulou o voto em protesto.", en: "She spoiled her ballot in protest." },
         ],
         checkpoint: [
           {
@@ -52,7 +52,7 @@ export const PT_C1_U21_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The mayor and the councillors are elected every four years.",
+        source: "The mayor and the council members are elected every four years.",
         answer: "O prefeito e os vereadores são eleitos a cada quatro anos.",
         altAnswers: ["O prefeito e os vereadores são eleitos de quatro em quatro anos.", "Prefeito e vereadores são eleitos a cada quatro anos.", "Prefeito e vereadores são eleitos de quatro em quatro anos."],
         explanation: "\"A cada quatro anos\" or \"de quatro em quatro anos\"; the participle \"eleitos\" agrees with the plural subject.",
@@ -124,14 +124,14 @@ export const PT_C1_U21_EXTRA: Lesson[] = [
         question: "Which court settles how a federal law should be interpreted, outside constitutional questions?",
         options: ["O STJ", "O STF", "O TSE", "A Assembleia Legislativa"],
         correctIndex: 0,
-        explanation: "The \"Superior Tribunal de Justiça\" standardises the interpretation of federal law.",
+        explanation: "The \"Superior Tribunal de Justiça\" standardizes the interpretation of federal law.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: No candidate got half of the valid votes.",
         words: ["Nenhum candidato", "obteve", "metade", "dos votos", "válidos."],
         translation: "No candidate got half of the valid votes.",
-        explanation: "\"Obter\" (to obtain) is the news verb for votes; \"votos válidos\" excludes blank and spoilt ballots.",
+        explanation: "\"Obter\" (to obtain) is the news verb for votes; \"votos válidos\" excludes blank and spoiled ballots.",
       },
       {
         type: "translate",
@@ -153,7 +153,7 @@ export const PT_C1_U21_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "O voto é obrigatório para os maiores de dezoito anos.",
-        explanation: "\"Maiores de dezoito anos\" is the legal over-18s.",
+        explanation: "\"Maiores de dezoito anos\" is the legal over-18s. The full rule: compulsory for literate citizens from 18 to 70.",
       },
       {
         type: "speak",
@@ -243,7 +243,7 @@ export const PT_C1_U21_EXTRA: Lesson[] = [
         source: "The amendment needs three fifths of the votes in each house.",
         answer: "A emenda precisa de três quintos dos votos em cada Casa.",
         altAnswers: ["A emenda precisa de três quintos dos votos em cada casa.", "A PEC precisa de três quintos dos votos em cada Casa.", "A emenda precisa de 3/5 dos votos em cada Casa.", "A emenda necessita de três quintos dos votos em cada Casa."],
-        explanation: "\"Três quintos\" (3/5); each house of Congress is a \"Casa\", often capitalised in news.",
+        explanation: "\"Três quintos\" (3/5); each house of Congress is a \"Casa\", often capitalized in news.",
       },
       {
         type: "fill-blank",
@@ -290,9 +290,9 @@ export const PT_C1_U21_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Charging for enrolment in public schools is prohibited.",
+        prompt: "Put the words in order to say: Charging for enrollment in public schools is prohibited.",
         words: ["É vedada", "a cobrança", "de matrícula", "nas escolas", "públicas."],
-        translation: "Charging for enrolment in public schools is prohibited.",
+        translation: "Charging for enrollment in public schools is prohibited.",
         explanation: "\"Vedada\" agrees with \"a cobrança\".",
       },
       {
@@ -346,7 +346,7 @@ export const PT_C1_U21_EXTRA: Lesson[] = [
           { es: "A audiência foi convocada a pedido dos moradores.", en: "The hearing was called at the residents' request." },
           { es: "O projeto só passa se o Centrão votar a favor.", en: "The bill will only pass if the Centrão votes for it." },
           { es: "A política de habitação do município mudou em 2023.", en: "The city's housing policy changed in 2023." },
-          { es: "Segundo os organizadores, oito mil pessoas participaram do ato.", en: "According to the organisers, eight thousand people took part in the rally." },
+          { es: "Segundo os organizadores, oito mil pessoas participaram do ato.", en: "According to the organizers, eight thousand people took part in the rally." },
         ],
         checkpoint: [
           {
@@ -446,7 +446,7 @@ export const PT_C1_U21_EXTRA: Lesson[] = [
         question: "What is \"politicagem\"?",
         options: ["Petty, self-serving politicking.", "Political science as a university subject.", "A public policy.", "A political party's manifesto."],
         correctIndex: 0,
-        explanation: "\"Politicagem\" is pejorative; \"politizado\" (politically aware) is its positive neighbour.",
+        explanation: "\"Politicagem\" is pejorative; \"politizado\" (politically aware) is its positive neighbor.",
       },
       {
         type: "word-order",
@@ -459,10 +459,10 @@ export const PT_C1_U21_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "In the participatory budget, the residents chose a new day-care centre.",
+        source: "In the participatory budget, the residents chose a new day-care center.",
         answer: "No orçamento participativo, os moradores escolheram uma nova creche.",
         altAnswers: ["No orçamento participativo, os moradores escolheram construir uma nova creche.", "No orçamento participativo os moradores escolheram uma nova creche.", "No orçamento participativo, os moradores optaram por uma nova creche.", "No orçamento participativo, os moradores votaram por uma nova creche."],
-        explanation: "\"Creche\" is a day-care centre or nursery, a typical local priority.",
+        explanation: "\"Creche\" is a day-care center or nursery, a typical local priority.",
       },
       {
         type: "listen-choose",

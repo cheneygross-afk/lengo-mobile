@@ -9,7 +9,7 @@ export const PT_B2_U10_EXTRA: Lesson[] = [
     level: "PT-B2",
     number: 1,
     title: "Extra Practice: Nouns, Part 1 of 3",
-    summary: "Practise gender traps (o problema, o mapa, a cabeça / o cabeça, o grama / a grama, o capital / a capital) and plurals of compounds and -ão nouns.",
+    summary: "Practice gender traps (o problema, o mapa, a cabeça / o cabeça, o grama / a grama, o capital / a capital) and plurals of compounds and -ão nouns.",
     duration: "12 min",
     optional: true,
     kind: "drill",
@@ -18,7 +18,7 @@ export const PT_B2_U10_EXTRA: Lesson[] = [
         heading: "Gender traps and plurals",
         body: [
           "Many Greek-origin words in \"-ma\" are masculine: \"o problema\", \"o tema\", \"o sistema\", \"o clima\", \"o programa\"; also \"o mapa\", \"o dia\". Some change meaning with gender: \"a capital\" (city) / \"o capital\" (money), \"a cabeça\" (head) / \"o cabeça\" (ringleader), \"a grama\" (grass) / \"o grama\" (gram), \"a moral\" (morals) / \"o moral\" (morale).",
-          "Compound plurals: noun + noun or noun + adjective pluralise both (\"segundas-feiras\", \"cachorros-quentes\"); verb + noun pluralises only the noun (\"guarda-chuvas\", \"para-brisas\"). \"-ão\" has three plurals: \"pães\", \"mãos\", \"limões\"; learn them word by word.",
+          "Compound plurals: noun + noun or noun + adjective pluralize both (\"segundas-feiras\", \"cachorros-quentes\"); verb + noun pluralizes only the noun (\"guarda-chuvas\", \"para-brisas\"). \"-ão\" has three plurals: \"pães\", \"mãos\", \"limões\"; learn them word by word.",
         ],
         examples: [
           { es: "O problema é o clima.", en: "The problem is the climate." },
@@ -100,7 +100,7 @@ export const PT_B2_U10_EXTRA: Lesson[] = [
         source: "On Fridays we have a meeting.",
         answer: "Nas sextas-feiras temos reunião.",
         altAnswers: ["Às sextas-feiras temos reunião.", "Nas sextas-feiras a gente tem reunião.", "Às sextas temos reunião.", "Nas sextas temos reunião."],
-        explanation: "\"Sexta-feira\" is a compound of two nominal parts, so both pluralise: \"sextas-feiras\". For habitual days, use \"nas\" or \"às\": \"Nas/Às sextas-feiras\".",
+        explanation: "\"Sexta-feira\" is a compound of two nominal parts, so both pluralize: \"sextas-feiras\". For habitual days, use \"nas\" or \"às\": \"Nas/Às sextas-feiras\".",
       },
       {
         type: "translate",
@@ -114,7 +114,7 @@ export const PT_B2_U10_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The [windscreens] were broken.",
+        en: "The [windshields] were broken.",
         sentence: "Os ___ estavam quebrados.",
         answer: "para-brisas",
         explanation: "\"Para-brisa\" is verb (\"parar\") + noun, so only the noun takes the plural: \"os para-brisas\". The verb part never changes.",
@@ -125,7 +125,7 @@ export const PT_B2_U10_EXTRA: Lesson[] = [
         en: "Look at [the map].",
         sentence: "Olha ___.",
         answer: "o mapa",
-        explanation: "\"Mapa\" ends in -a but is masculine: \"o mapa\". Like \"o dia\" and \"o planeta\", it is a common exception worth memorising.",
+        explanation: "\"Mapa\" ends in -a but is masculine: \"o mapa\". Like \"o dia\" and \"o planeta\", it is a common exception worth memorizing.",
       },
       {
         type: "multiple-choice",
@@ -172,7 +172,7 @@ export const PT_B2_U10_EXTRA: Lesson[] = [
     level: "PT-B2",
     number: 2,
     title: "Extra Practice: Nouns, Part 2 of 3",
-    summary: "Practise adjective position changing meaning: um grande homem / um homem grande, um velho amigo / um amigo velho, pobre, certo, simples.",
+    summary: "Practice adjective position changing meaning: um grande homem / um homem grande, um velho amigo / um amigo velho, pobre, certo, simples.",
     duration: "12 min",
     optional: true,
     kind: "drill",
@@ -337,7 +337,7 @@ export const PT_B2_U10_EXTRA: Lesson[] = [
     level: "PT-B2",
     number: 3,
     title: "Extra Practice: Nouns, Part 3 of 3",
-    summary: "Practise word formation (des-, in-, re-, -ção, -mento, -dade, -eiro, -ista, -oso) and diminutives and augmentatives with attitude.",
+    summary: "Practice word formation (des-, in-, re-, -ção, -mento, -dade, -eiro, -ista, -oso) and diminutives and augmentatives with attitude.",
     duration: "12 min",
     optional: true,
     kind: "drill",

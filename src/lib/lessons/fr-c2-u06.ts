@@ -31,7 +31,7 @@ export const FR_C2_U06: Lesson[] = [
         heading: "Le calembour: one sound, several words",
         body: [
           "French is a paradise for puns because so many words sound the same and are spelled differently. The sound [vɛʁ] can be \"vert\" (green), \"verre\" (glass), \"ver\" (worm), \"vers\" (towards, or a line of verse) and even \"vair\" (an old word for squirrel fur). A pun built on such homophones is \"un calembour\". Children's riddles and adverts love them: \"un ver vert allait vers un verre vert\".",
-          "The trap for learners is reading: a French pun is almost always a pun for the ear, not the eye. If a joke on paper makes no sense, read it aloud. \"Le maire de la mer a perdu sa mère\" is meaningless written down until you hear three identical [mɛʁ]. The same goes for \"cou / coup / coût\", \"saint / sain / sein / cinq\" (the last only before a pause), \"sans / sang / cent / sent\", \"foi / foie / fois\".",
+          "The trap for learners is reading: a French pun is almost always a pun for the ear, not the eye. If a joke on paper makes no sense, read it aloud. \"Le maire de la mer a perdu sa mère\" is meaningless written down until you hear three identical [mɛʁ]. The same goes for \"cou / coup / coût\", \"saint / sain / sein / cinq\" (the last only before a consonant, as in \"cinq livres\"), \"sans / sang / cent / sent\", \"foi / foie / fois\".",
           "Even French literary history has a famous calembour: in Cinderella, is the slipper made of \"verre\" (glass) or \"vair\" (fur)? Perrault wrote \"verre\", and the 'fur' theory, popular for a century, is now considered wrong; but the debate shows how tempting homophones are in French.",
         ],
         examples: [
@@ -222,7 +222,7 @@ export const FR_C2_U06: Lesson[] = [
           { left: "courriel", right: "courrier + électronique" },
           { left: "adulescent", right: "adulte + adolescent" },
         ],
-        explanation: "A mot-valise keeps the start of one word and the end of the other.",
+        explanation: "A mot-valise usually keeps the start of one word and the end of the other; \"courriel\" is an exception, made from the start of both.",
       },
       {
         type: "dictation",
@@ -311,11 +311,11 @@ export const FR_C2_U06: Lesson[] = [
           },
           {
             type: "listen-choose",
-            audio: "Il y a un jeu de mots entre comte et comté.",
+            audio: "Le titre joue sur le double sens du mot mousse.",
             question: "What did you hear?",
-            options: ["Il y a un jeu de mots entre comte et comté.", "Il y a un jeu de mots entre conte et comté.", "Il y a un jeu de mots entre comte et compter.", "Il y a un jeu de mots entre compte et comté."],
+            options: ["Le titre joue sur le double sens du mot « mousse ».", "Le titre jouait sur le double sens du mot « mousse ».", "Le titre joue sur les deux sens du mot « mousse ».", "Le titre joue sur le double sens du mot « mouche »."],
             correctIndex: 0,
-            explanation: "\"Comte\", \"conte\" and \"compte\" are all pronounced [kɔ̃t]: only context (the explanation) decides. The \"é\" of \"comté\" is the audible difference.",
+            explanation: "Present \"joue\", not imperfect \"jouait\"; \"le double sens\", not \"les deux sens\"; and \"mousse\", not \"mouche\". Note that \"comte\", \"conte\" and \"compte\" all sound [kɔ̃t] and \"comté\" sounds like \"compter\": a pun on them can only be told apart in writing or by context.",
           },
         ],
       },
@@ -1153,7 +1153,7 @@ export const FR_C2_U06: Lesson[] = [
       {
         heading: "Les cinq comiques: Molière's toolbox",
         body: [
-          "Every French pupil learns to analyse comedy with five categories, drawn from Molière. \"Le comique de mots\" plays on language: puns, jargon, accents, misused words (the doctors' fake Latin in Le Malade imaginaire). \"Le comique de gestes\" is physical: blows, falls, chases (the famous scene where Scapin beats his master hidden in a sack). \"Le comique de situation\" comes from the plot: misunderstandings (\"un quiproquo\"), hiding places, mistaken identity.",
+          "Every French pupil learns to analyse comedy with five categories, drawn from Molière. \"Le comique de mots\" plays on language: puns, jargon, accents, misused words (the doctors' fake Latin in Le Malade imaginaire). \"Le comique de gestes\" is physical: blows, falls, chases (the famous scene where Scapin beats old Géronte, his master's father, hidden in a sack). \"Le comique de situation\" comes from the plot: misunderstandings (\"un quiproquo\"), hiding places, mistaken identity.",
           "\"Le comique de caractère\" makes us laugh at a personality pushed to excess: the miser Harpagon in L'Avare, the hypochondriac Argan. \"Le comique de répétition\" repeats a line or action until it becomes funny. Molière's best-known example is in Tartuffe: whatever news he is given about his family, Orgon only asks about Tartuffe and sighs \"Le pauvre homme !\" In L'Avare, Harpagon answers every objection to his daughter's marriage with \"Sans dot !\" (without a dowry).",
           "In a commentaire, use them precisely: \"la scène repose sur un comique de répétition\", \"Molière associe comique de gestes et comique de situation\", \"le quiproquo crée un comique de situation\". The structure is always \"le comique de\" + noun, singular, with no article before the second noun.",
         ],
@@ -1856,7 +1856,7 @@ export const FR_C2_U06: Lesson[] = [
       {
         heading: "One verb, a whole family: résoudre",
         body: [
-          "At the Mastery level you multiply your vocabulary by learning families rather than words. Take \"résoudre\" (to solve, to resolve). Its noun has two forms with different uses: \"la résolution\" (of a conflict, a crisis, a screen, a New Year's resolution, an UN resolution) and \"la solution\" (of a problem, an equation, a riddle). You \"résous un problème\" and find \"la solution\", but \"la résolution du conflit\" takes months.",
+          "At the Mastery level you multiply your vocabulary by learning families rather than words. Take \"résoudre\" (to solve, to resolve). Its noun has two forms with different uses: \"la résolution\" (of a conflict, a crisis, a screen, a New Year's resolution, a UN resolution) and \"la solution\" (of a problem, an equation, a riddle). You \"résous un problème\" and find \"la solution\", but \"la résolution du conflit\" takes months.",
           "The adjective \"résolu\" means determined (\"une femme résolue\") as well as solved (\"le problème est résolu\"), and the adverb \"résolument\" means resolutely, decidedly (\"un projet résolument moderne\"). \"Se résoudre à\" + infinitive means to bring oneself to do something reluctantly: \"elle s'est résolue à vendre la maison\". \"Irrésolu\" (indecisive) and \"insoluble\" (unsolvable) complete the family.",
           "Conjugation is part of the family too: \"je résous, nous résolvons, j'ai résolu, il résolut\". Learners often write *\"résolvé\" or *\"je résoud\". The same pattern applies to \"dissoudre\" (to dissolve: \"dissous, dissoute\") and \"absoudre\".",
         ],

@@ -33,7 +33,7 @@ export const FR_C1_U05: Lesson[] = [
           "You met the passive at the Intermediate level: \"être\" + past participle, agreeing with the subject. At the Advanced level the challenge is not the form but the range. The rule never changes: put \"être\" in the tense you need and keep the participle as it is. \"Le pont sera construit\" (future), \"le tableau avait été vendu\" (pluperfect), \"le concert aurait été annulé\" (past conditional), \"il faut que le dossier soit validé\" (subjunctive).",
           "In compound tenses there are two participles, and only the second one agrees: \"la maison a été vendue\", \"les lettres avaient été envoyées\". \"Été\" never agrees; it is the participle of \"être\" conjugated with \"avoir\". The most common written slip at this level is *\"la décision a étée prise\".",
           "The passive conditional is the workhorse of French journalism for unconfirmed facts: \"le suspect aurait été arrêté à Marseille\" means 'the suspect has reportedly been arrested'. English needs an adverb (reportedly, allegedly); French does it with the tense alone. Recognise it in headlines and use it whenever you report something you can't vouch for.",
-          "Long passives get heavy quickly (\"le projet aura dû être présenté\"), and good writers notice. If the agent is unknown or unimportant, a French speaker often prefers \"on\" or a pronominal verb (Parts 2 and 6); keep the passive for when the thing done is your true topic.",
+          "Long passives get heavy quickly (\"le projet aura dû être présenté\"), and good writers notice. If the agent is unknown or unimportant, a French speaker often prefers \"on\" or a pronominal verb (see the Transformations lesson and Part 6); keep the passive for when the thing done is your true topic.",
         ],
         examples: [
           { es: "Le nouveau pont sera inauguré au printemps prochain.", en: "The new bridge will be opened next spring." },
@@ -149,7 +149,7 @@ export const FR_C1_U05: Lesson[] = [
         prompt: "Translate into French.",
         source: "The results will be published on Monday.",
         answer: "Les résultats seront publiés lundi.",
-        altAnswers: ["Les résultats vont être publiés lundi.", "Les résultats seront publiés le lundi."],
+        altAnswers: ["Les résultats vont être publiés lundi."],
         explanation: "Future passive \"seront publiés\", agreeing with \"les résultats\" (masculine plural). 'On Monday' for a specific day is just \"lundi\".",
       },
       {
@@ -307,6 +307,7 @@ export const FR_C1_U05: Lesson[] = [
             prompt: "Translate into French.",
             source: "All you have to do is ask.",
             answer: "Il suffit de demander.",
+            altAnswers: ["Tu n'as qu'à demander.", "Vous n'avez qu'à demander."],
             explanation: "\"Il suffit de\" + infinitive: 'all you have to do is', with no subject pronoun for 'you'.",
           },
           {
@@ -395,6 +396,7 @@ export const FR_C1_U05: Lesson[] = [
         prompt: "Translate into French.",
         source: "I'm twenty euros short.",
         answer: "Il me manque vingt euros.",
+        altAnswers: ["Il me manque 20 euros."],
         explanation: "Impersonal \"il manque\" with an indirect object for the person who lacks: \"il me manque vingt euros\".",
       },
       {
@@ -446,7 +448,7 @@ export const FR_C1_U05: Lesson[] = [
         source: "It sometimes happens that the system crashes.",
         answer: "Il arrive que le système plante.",
         altAnswers: ["Il arrive que le système tombe en panne.", "Il arrive que le système se bloque."],
-        explanation: "\"Il arrive que\" + subjunctive (\"plante\" is the same form in both moods here, but \"tombe\", \"se bloque\" are subjunctive too).",
+        explanation: "\"Il arrive que\" + subjunctive. With -er verbs like \"planter\", \"tomber\" or \"se bloquer\", the present subjunctive looks the same as the indicative; with \"être\" you would see it: \"il arrive que le système soit en panne\".",
       },
     ],
   },
@@ -480,7 +482,6 @@ export const FR_C1_U05: Lesson[] = [
             prompt: "Translate into French, using se faire.",
             source: "She had her bag stolen on the metro.",
             answer: "Elle s'est fait voler son sac dans le métro.",
-            altAnswers: ["Elle s'est fait voler son sac dans le metro."],
             explanation: "\"Se faire\" + infinitive with the victim as subject; \"fait\" never agrees (*\"s'est faite\" is wrong). On the metro is \"dans le métro\".",
           },
           {
@@ -677,7 +678,7 @@ export const FR_C1_U05: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error: *Ce podcast s'agit de la vie à la campagne. Write the corrected French.",
+            prompt: "Fix the error in \"*Ce podcast s'agit de la vie à la campagne.\" and write the corrected French.",
             source: "This podcast is about life in the countryside.",
             answer: "Ce podcast parle de la vie à la campagne.",
             altAnswers: ["Dans ce podcast, il s'agit de la vie à la campagne.", "Ce podcast porte sur la vie à la campagne.", "Ce podcast traite de la vie à la campagne.", "Dans ce podcast, on parle de la vie à la campagne."],
@@ -697,7 +698,7 @@ export const FR_C1_U05: Lesson[] = [
         body: [
           "From a work email: *\"Il s'agissait des enfants qui avaient cassé la vitre.\" The writer meant 'It was the children who had broken the window'. \"Il s'agit de\" means 'it's about' or 'it concerns', not 'it is'. To identify someone, use \"c'était\": \"C'étaient les enfants qui avaient cassé la vitre\" (or \"c'était\" in speech). \"Il s'agissait des enfants\" is grammatical, but it means 'it concerned the children', which is not what the writer wanted.",
           "Watch the contraction: \"de + le\" gives \"du\", \"de + les\" gives \"des\": \"il s'agit du projet\", \"il s'agit des nouveaux horaires\". But before an infinitive or a noun with \"un / une\": \"il s'agit de partir\", \"il s'agit d'une erreur\".",
-          "And the tense: *\"il s'est agi\" is rare but correct; *\"il s'agissait\" for an ongoing past situation is the usual choice in narration: \"Il s'agissait d'une vieille maison au bord du lac.\"",
+          "And the tense: \"il s'est agi\" is rare but correct; \"il s'agissait\" for an ongoing past situation is the usual choice in narration: \"Il s'agissait d'une vieille maison au bord du lac.\"",
         ],
         examples: [
           { es: "C'étaient les enfants des voisins qui avaient cassé la vitre.", en: "It was the neighbours' children who had broken the window." },
@@ -718,7 +719,7 @@ export const FR_C1_U05: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error: *Il s'agissait mon frère qui a appelé. Write the corrected French.",
+            prompt: "Fix the error in \"*Il s'agissait mon frère qui a appelé.\" and write the corrected French.",
             source: "It was my brother who called.",
             answer: "C'était mon frère qui a appelé.",
             altAnswers: ["C'est mon frère qui a appelé.", "C'était mon frère qui avait appelé."],
@@ -745,7 +746,7 @@ export const FR_C1_U05: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error: *Il restent quatre parts de tarte. Write the corrected French.",
+            prompt: "Fix the error in \"*Il restent quatre parts de tarte.\" and write the corrected French.",
             source: "There are four slices of tart left.",
             answer: "Il reste quatre parts de tarte.",
             explanation: "\"Il reste\" is impersonal: the verb stays singular whatever follows.",
@@ -762,7 +763,7 @@ export const FR_C1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error: *Cette exposition s'agit de la photographie de guerre. Write the corrected French.",
+        prompt: "Fix the error in \"*Cette exposition s'agit de la photographie de guerre.\" and write the corrected French.",
         source: "This exhibition is about war photography.",
         answer: "Cette exposition porte sur la photographie de guerre.",
         altAnswers: ["Cette exposition est consacrée à la photographie de guerre.", "Dans cette exposition, il s'agit de la photographie de guerre.", "Cette exposition parle de la photographie de guerre.", "Cette exposition traite de la photographie de guerre."],
@@ -771,7 +772,7 @@ export const FR_C1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error: *Il manquent deux joueurs dans l'équipe. Write the corrected French.",
+        prompt: "Fix the error in \"*Il manquent deux joueurs dans l'équipe.\" and write the corrected French.",
         source: "The team is two players short.",
         answer: "Il manque deux joueurs dans l'équipe.",
         altAnswers: ["Il manque deux joueurs à l'équipe.", "Il manque deux joueuses dans l'équipe.", "Il manque deux joueuses à l'équipe."],
@@ -780,7 +781,7 @@ export const FR_C1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error: *Ça s'agit d'un malentendu. Write the corrected French.",
+        prompt: "Fix the error in \"*Ça s'agit d'un malentendu.\" and write the corrected French.",
         source: "It's a misunderstanding.",
         answer: "Il s'agit d'un malentendu.",
         altAnswers: ["C'est un malentendu."],
@@ -789,7 +790,7 @@ export const FR_C1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the error: *Il est arrivés trois colis ce matin. Write the corrected French.",
+        prompt: "Fix the error in \"*Il est arrivés trois colis ce matin.\" and write the corrected French.",
         source: "Three parcels arrived this morning.",
         answer: "Il est arrivé trois colis ce matin.",
         altAnswers: ["Trois colis sont arrivés ce matin."],
@@ -1476,7 +1477,7 @@ export const FR_C1_U05: Lesson[] = [
         heading: "The brief and the model opening",
         body: [
           "You work for the town hall of Villeneuve-sur-Lot. The main avenue will be resurfaced for three weeks, a bus line will be diverted and parking will be banned. Your press release must announce the works, explain why, list the restrictions and tell residents what to do, in the neutral, agentless style of French public communication.",
-          "Read the opening of a model release: « Des travaux de réfection de la chaussée seront réalisés avenue de la République du 3 au 24 mars. Il s'agit de la dernière tranche du programme de rénovation de la voirie lancé en 2023. Pendant toute la durée du chantier, la circulation sera interdite entre 8 h et 18 h et le stationnement sera neutralisé. »",
+          "Read the opening of a model release: \"Des travaux de réfection de la chaussée seront réalisés avenue de la République du 3 au 24 mars. Il s'agit de la dernière tranche du programme de rénovation de la voirie lancé en 2023. Pendant toute la durée du chantier, la circulation sera interdite entre 8 h et 18 h et le stationnement sera neutralisé.\"",
           "Notice what's missing: no \"nous\", no named company, no \"la mairie va...\". Everything is a passive (\"seront réalisés\", \"sera interdite\", \"sera neutralisé\"), an impersonal frame (\"il s'agit de\") or a nominalised phrase (\"travaux de réfection\", \"la durée du chantier\"). Press releases also favour the future tense for planned measures.",
         ],
         examples: [
@@ -1569,7 +1570,7 @@ export const FR_C1_U05: Lesson[] = [
           {
             type: "speak",
             text: "Nous vous prions de bien vouloir excuser la gêne occasionnée.",
-            prompt: "Say the standard closing line: We apologise for any inconvenience caused.",
+            prompt: "Say it in French (the standard closing line): We apologise for any inconvenience caused.",
             explanation: "A fixed formula of French public communication.",
           },
         ],
@@ -1818,7 +1819,7 @@ export const FR_C1_U05: Lesson[] = [
         en: "We [got caught] by the ticket inspector.",
         sentence: "Nous ___ par le contrôleur.",
         answer: "nous sommes fait prendre",
-        altAnswers: ["nous sommes fait attraper", "nous sommes fait contrôler", "nous sommes fait choper"],
+        altAnswers: ["nous sommes fait attraper", "nous sommes fait choper"],
         explanation: "\"Se faire prendre / attraper\" = to get caught; \"fait\" stays invariable.",
       },
       {
@@ -1978,7 +1979,7 @@ export const FR_C1_U05: Lesson[] = [
           {
             type: "speak",
             text: "Si l'on veut réussir, il faut travailler régulièrement.",
-            prompt: "Read this formal sentence aloud.",
+            prompt: "Say it in French (formal written style): If you want to succeed, you have to work regularly.",
             tip: "Say \"si l'on\" as one smooth unit: si-lon.",
             explanation: "\"L'on\" after \"si\" avoids the hiatus of \"si on\".",
           },
@@ -2278,7 +2279,7 @@ export const FR_C1_U05: Lesson[] = [
       {
         heading: "Reading an official notice",
         body: [
-          "Here is a notice from a university, the kind of text you'll meet in a DALF reading paper: « Avis aux étudiants. Suite à la découverte d'une fuite dans la toiture, la bibliothèque universitaire sera fermée du 12 au 16 février. Il est rappelé que les ouvrages empruntés doivent être rendus dans les délais. Il se peut que certaines salles de lecture soient rouvertes avant la date prévue ; il convient donc de consulter régulièrement l'intranet. »",
+          "Here is a notice from a university, the kind of text you'll meet in a DALF reading paper: \"Avis aux étudiants. Suite à la découverte d'une fuite dans la toiture, la bibliothèque universitaire sera fermée du 12 au 16 février. Il est rappelé que les ouvrages empruntés doivent être rendus dans les délais. Il se peut que certaines salles de lecture soient rouvertes avant la date prévue ; il convient donc de consulter régulièrement l'intranet.\"",
           "Count the devices: a nominalisation for the cause (\"suite à la découverte d'une fuite\", Unit 3), a future passive (\"sera fermée\"), an impersonal passive (\"il est rappelé que\"), a passive infinitive after a modal (\"doivent être rendus\"), \"il se peut que\" + passive subjunctive (\"soient rouvertes\"), and \"il convient de\". Not a single human agent.",
           "\"Suite à\" (following) is widely used in administrative French, though purists prefer \"à la suite de\". Both are fine in a notice.",
         ],

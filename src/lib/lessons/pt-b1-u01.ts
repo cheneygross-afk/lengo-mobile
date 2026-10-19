@@ -164,7 +164,7 @@ export const PT_B1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your flatmate keeps the window shut, and you want them to open it. What do you say?",
+        question: "Your roommate keeps the window shut, and you want them to open it. What do you say?",
         options: ["Quero que você abra a janela.", "Quero que você abre a janela.", "Quero você abrir a janela.", "Quero que você abrir a janela."],
         correctIndex: 0,
         explanation: "\"Abrir\" takes a in the subjunctive: \"que você abra\". \"Abre\" is the indicative, and the infinitive can't follow a new subject.",
@@ -272,7 +272,7 @@ export const PT_B1_U01: Lesson[] = [
         examples: [
           { es: "Quero que vocês venham para o meu aniversário.", en: "I want you all to come to my birthday party." },
           { es: "Prefiro que você ponha as malas no carro agora.", en: "I'd rather you put the bags in the car now." },
-          { es: "A Beatriz quer que eu veja o filme com ela.", en: "Beatriz wants me to watch the film with her." },
+          { es: "A Beatriz quer que eu veja o filme com ela.", en: "Beatriz wants me to watch the movie with her." },
           { es: "Quero que você traga o vinho.", en: "I want you to bring the wine." },
           { es: "Prefiro que o senhor peça um táxi.", en: "I'd rather you called a taxi, sir." },
         ],
@@ -414,7 +414,7 @@ export const PT_B1_U01: Lesson[] = [
       {
         type: "dictation",
         audio: "Quero que vocês cheguem cedo.",
-        explanation: "\"Cheguem\" is written with gu but sounds the same as \"chegar\": the u keeps the g hard.",
+        explanation: "\"Cheguem\" is spelled with gu so the g stays hard, as in \"chegar\". The u is silent, and the g sounds like the g in get.",
       },
       {
         type: "listen-choose",
@@ -522,7 +522,7 @@ export const PT_B1_U01: Lesson[] = [
         examples: [
           { es: "O professor prefere que nós falemos só português na aula.", en: "The teacher would rather we spoke only Portuguese in class." },
           { es: "Prefiro que a gente divida a conta.", en: "I'd rather we split the bill." },
-          { es: "Quero que vocês assistam a esse filme.", en: "I want you all to watch that film." },
+          { es: "Quero que vocês assistam a esse filme.", en: "I want you all to watch that movie." },
           { es: "A Beatriz quer que os filhos comam mais verdura.", en: "Beatriz wants her kids to eat more vegetables." },
           { es: "Prefiro que elas morem perto da gente.", en: "I'd rather they lived near us." },
         ],
@@ -571,7 +571,7 @@ export const PT_B1_U01: Lesson[] = [
         ],
         examples: [
           { es: "Quero que vocês façam o trabalho juntos.", en: "I want you all to do the assignment together." },
-          { es: "Prefiro que vocês venham de metrô.", en: "I'd rather you all came by metro." },
+          { es: "Prefiro que vocês venham de metrô.", en: "I'd rather you all came by subway." },
           { es: "Ela quer que eu diga a verdade.", en: "She wants me to tell the truth." },
           { es: "Prefiro que eles vejam o apartamento antes.", en: "I'd rather they saw the apartment first." },
           { es: "O guia quer que nós cheguemos cedo ao Pelourinho.", en: "The guide wants us to get to Pelourinho early." },
@@ -616,7 +616,7 @@ export const PT_B1_U01: Lesson[] = [
           "O Lucas quer que a gente assista o jogo na casa dele.",
           "Lucas quer que a gente assista o jogo na casa dele.",
         ],
-        explanation: "\"A gente\" takes the singular form \"assista\", while \"nós\" takes \"assistamos\". In speech many Brazilians drop the \"a\" after \"assistir\".",
+        explanation: "\"A gente\" takes the singular form \"assista\", while \"nós\" takes \"assistamos\". In speech many Brazilians say \"assistir o jogo\" with no \"a\"; careful writing keeps \"assistir ao jogo\".",
       },
       {
         type: "translate",
@@ -775,7 +775,7 @@ export const PT_B1_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your flatmate asks what you want to do tonight. You'd like to stay home. What do you say?",
+            question: "Your roommate asks what you want to do tonight. You'd like to stay home. What do you say?",
             options: ["Quero ficar em casa.", "Quero que eu fique em casa.", "Quero que fico em casa.", "Quero eu ficar em casa."],
             correctIndex: 0,
             explanation: "You both want and stay, so it's one subject and the plain infinitive: \"quero ficar\". No \"que\" when the subject doesn't change.",
@@ -793,14 +793,14 @@ export const PT_B1_U01: Lesson[] = [
         heading: "Pedir: two ways to ask",
         body: [
           "\"Pedir\" (to ask someone to do something) works the same way. In writing and careful speech it's \"pedir que\" + subjunctive: \"peço que vocês cheguem cedo\". With one subject, the infinitive: \"ele pediu para sair\" (he asked to leave).",
-          "In everyday speech Brazilians prefer \"pedir para\" (usually \"pra\") + the person + the infinitive: \"ele pediu pra eu ligar\" (he asked me to call). The person is the subject of \"ligar\", so it's \"eu\", not \"mim\": \"pra mim ligar\" is widely heard but counts as a mistake. After a past \"pediu\", use this pattern for now; \"pediu que\" needs a past subjunctive you'll meet later.",
+          "In everyday speech Brazilians prefer \"pedir para\" (usually \"pra\") + the person + the infinitive: \"ele pediu pra eu ligar\" (he asked me to call). The person is the subject of \"ligar\", so it's \"eu\", not \"mim\": \"pra mim ligar\" is widely heard in casual speech but is marked as nonstandard, so avoid it in writing and careful speech. After a past \"pediu\", use this pattern for now; \"pediu que\" needs a past subjunctive you'll meet later.",
           "To ask a question is a different verb, \"perguntar\": \"ela me perguntou onde eu moro\".",
         ],
         examples: [
           { es: "Peço que vocês cheguem às oito.", en: "I'm asking you all to arrive at eight." },
           { es: "A professora pede que a gente desligue o celular.", en: "The teacher asks us to switch off our phones." },
           { es: "Ele pediu pra eu ligar depois.", en: "He asked me to call later." },
-          { es: "Minha mãe pediu para você trazer a sobremesa.", en: "My mum asked you to bring dessert." },
+          { es: "Minha mãe pediu para você trazer a sobremesa.", en: "My mom asked you to bring dessert." },
           { es: "O Rafael pediu para sair mais cedo.", en: "Rafael asked to leave early." },
           { es: "Ela me perguntou onde eu moro.", en: "She asked me where I live." },
         ],
@@ -844,7 +844,7 @@ export const PT_B1_U01: Lesson[] = [
         heading: "Deixar: let me see",
         body: [
           "\"Deixar\" (to let) takes the person + the infinitive, with no \"que\": \"deixa eu ver\" (let me see) is what you'll hear all day. \"Me deixa ver\" is just as natural; \"deixe-me ver\" is the written, formal version.",
-          "With rules and permission: \"meus pais não me deixam sair\", or in speech \"não deixam eu sair\". And \"pode deixar\" is a fixed reply meaning leave it to me, the standard yes to a favour.",
+          "With rules and permission: \"meus pais não me deixam sair\", or in speech \"não deixam eu sair\". And \"pode deixar\" is a fixed reply meaning leave it to me, the standard yes to a favor.",
         ],
         examples: [
           { es: "Deixa eu ver o cardápio.", en: "Let me see the menu." },
@@ -1087,7 +1087,7 @@ export const PT_B1_U01: Lesson[] = [
         heading: "Vem or venha: irregular stems",
         body: [
           "Verbs with an irregular eu form carry it into the subjunctive, so the two moods can look unrelated: \"ele vem\" / \"quero que ele venha\", \"ela faz\" / \"prefiro que ela faça\", \"você tem\" / \"peço que você tenha\". When you hear \"venha\", \"faça\" or \"diga\", someone wants something to happen.",
-          "\"Espero que\" (I hope that) works like \"querer que\", and you'll practise it in the next unit. \"Sei que ele vem\" states a fact. \"Espero que ele venha\" hopes for it.",
+          "\"Espero que\" (I hope that) works like \"querer que\", and you'll practice it in the next unit. \"Sei que ele vem\" states a fact. \"Espero que ele venha\" hopes for it.",
           "Don't let time decide the mood. \"Ele vem amanhã\" is about the future, yet it stays indicative after \"sei que\". Only the verb before \"que\" matters.",
         ],
         examples: [
@@ -1253,7 +1253,7 @@ export const PT_B1_U01: Lesson[] = [
     level: "PT-B1",
     number: 6,
     title: "Dialogue Lab: Preciso Que Você Me Ajude",
-    summary: "Flatmates in São Paulo split the chores: ask for help with preciso que and quero que, negotiate with prefiro que a gente, and agree with pode deixar.",
+    summary: "Roommates in São Paulo split the chores: ask for help with preciso que and quero que, negotiate with prefiro que a gente, and agree with pode deixar.",
     duration: "12 min",
     sections: [
       {
@@ -1341,7 +1341,7 @@ export const PT_B1_U01: Lesson[] = [
       {
         heading: "Deixa eu ver: passing it on and closing the deal",
         body: [
-          "Rafael, the third flatmate, gets home late, and Lucas passes on the plan: \"A Bia pediu para você limpar a geladeira.\" In speech, \"pedir para\" + infinitive is the everyday way to report a request. With \"querer que\" you need the subjunctive: \"ela quer que você limpe\".",
+          "Rafael, the third roommate, gets home late, and Lucas passes on the plan: \"A Bia pediu para você limpar a geladeira.\" In speech, \"pedir para\" + infinitive is the everyday way to report a request. With \"querer que\" you need the subjunctive: \"ela quer que você limpe\".",
           "Rafael buys time with \"Deixa eu ver\" (let me see), which is \"deixar\" + eu + infinitive. Then he agrees with \"Combinado!\" (deal!) or \"Pode deixar\". House rules for everyone use \"peço que vocês\" + subjunctive.",
         ],
         examples: [
@@ -1523,7 +1523,7 @@ export const PT_B1_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your flatmate's note says \"Quero que você lava a louça.\" What should it say?",
+            question: "Your roommate's note says \"Quero que você lava a louça.\" What should it say?",
             options: ["Quero que você lave a louça.", "Quero que você lava a louça.", "Quero você lavar a louça.", "Quero que você lavar a louça."],
             correctIndex: 0,
             explanation: "After \"quero que\" with a new subject, the verb goes into the subjunctive. \"Lavar\" is an -ar verb, so the correct form is \"lave\".",
@@ -1533,7 +1533,7 @@ export const PT_B1_U01: Lesson[] = [
       {
         heading: "Quero você falar, quero que eu saia: who does it?",
         body: [
-          "English says I want you to call, and copying it gives *\"quero você ligar\". \"Querer\" and \"preferir\" can't take a person plus an infinitive. When someone else is to act, use \"que\" + subjunctive: \"quero que você ligue\". Only \"pedir para\" allows a person and an infinitive (\"ele pediu para eu ligar\"), and even then the person goes after \"para\".",
+          "English says I want you to call, and copying it gives *\"quero você ligar\". \"Querer\" and \"preferir\" can't take a person plus an infinitive. When someone else is to act, use \"que\" + subjunctive: \"quero que você ligue\". Only \"pedir para\" (\"ele pediu para eu ligar\", with the person after \"para\") and \"deixar\" (\"deixa eu ver\") take a person and an infinitive.",
           "The opposite slip is *\"quero que eu saia\". When the person who wants and the person who acts are the same, Portuguese uses the plain infinitive, just as English does: \"quero sair\", \"prefiro ficar\". \"Que\" + subjunctive signals a change of subject.",
         ],
         examples: [
@@ -1674,7 +1674,7 @@ export const PT_B1_U01: Lesson[] = [
         text: "Quero que você venha amanhã.",
         prompt: "Say it in Portuguese: I want you to come tomorrow.",
         tip: "The nh in venha sounds like the ny in canyon, and amanhã ends in a nasal ã.",
-        explanation: "\"Venho\" gives \"venha\". Building it from the infinitive would give the wrong form *\"vena\".",
+        explanation: "\"Venho\" gives \"venha\": the nh of the eu form stays. Don't confuse it with \"veja\", from \"ver\".",
       },
       {
         type: "matching",
@@ -1703,7 +1703,7 @@ export const PT_B1_U01: Lesson[] = [
     level: "PT-B1",
     number: 8,
     title: "Transformations: From Command to Request",
-    summary: "Turn blunt commands into requests with quero que and prefiro que plus the subjunctive, change who the request is for, and recognise the softer preferia que você falasse.",
+    summary: "Turn blunt commands into requests with quero que and prefiro que plus the subjunctive, change who the request is for, and recognize the softer preferia que você falasse.",
     duration: "12 min",
     sections: [
       {
@@ -1808,7 +1808,7 @@ export const PT_B1_U01: Lesson[] = [
         heading: "Step three: the softer preferia que... falasse",
         body: [
           "To soften a request further, Brazilians use the imperfect, like the polite \"eu queria\" at the padaria: \"Eu preferia que você falasse mais devagar\" (I'd prefer it if you spoke more slowly). It's the same request, only gentler, the way English says I'd rather you didn't.",
-          "After \"queria\" or \"preferia\", the verb moves into the past subjunctive, which you'll learn properly later. For now, recognise it by its ending: \"-sse\" for one person (\"falasse\", \"comesse\", \"abrisse\") and \"-ssem\" for several (\"chegassem\"). When you speak, keep using \"quero que\" or \"prefiro que\" with the present subjunctive.",
+          "After \"queria\" or \"preferia\", the verb moves into the past subjunctive, which you'll learn properly later. For now, recognize it by its ending: \"-sse\" for one person (\"falasse\", \"comesse\", \"abrisse\") and \"-ssem\" for several (\"chegassem\"). When you speak, keep using \"quero que\" or \"prefiro que\" with the present subjunctive.",
         ],
         examples: [
           { es: "Eu preferia que você falasse mais devagar.", en: "I'd prefer it if you spoke more slowly." },
@@ -1925,9 +1925,9 @@ export const PT_B1_U01: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I want you to see this film.",
+        prompt: "Put the words in order to say: I want you to see this movie.",
         words: ["Quero", "que", "você", "veja", "esse", "filme."],
-        translation: "I want you to see this film.",
+        translation: "I want you to see this movie.",
         explanation: "\"Vejo\" gives \"veja\". In everyday Brazilian speech \"esse\" covers both this and that.",
       },
       {
@@ -1974,7 +1974,7 @@ export const PT_B1_U01: Lesson[] = [
     level: "PT-B1",
     number: 9,
     title: "Real-World Mission: House Rules",
-    summary: "Write a friendly note for a new flatmate setting out what you'd like them to do and not do, using the present subjunctive.",
+    summary: "Write a friendly note for a new roommate setting out what you'd like them to do and not do, using the present subjunctive.",
     duration: "12 min",
     sections: [
       {
@@ -2003,7 +2003,7 @@ export const PT_B1_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You want to tell your new flatmate, as a preference, that you'd like them to take out the trash at night. What do you write?",
+            question: "You want to tell your new roommate, as a preference, that you'd like them to take out the trash at night. What do you write?",
             options: ["Prefiro que você tire o lixo à noite.", "Prefiro que você tira o lixo à noite.", "Prefiro você tirar o lixo à noite.", "Prefiro que eu tire o lixo à noite."],
             correctIndex: 0,
             explanation: "\"Prefiro que\" + subjunctive: \"tire\". \"Tira\" is the indicative, \"prefiro você tirar\" copies English word order, and \"que eu tire\" changes who does the job.",
@@ -2064,7 +2064,7 @@ export const PT_B1_U01: Lesson[] = [
         body: [
           "When a sentence is about you, nobody else acts, so use the plain infinitive: \"quero ajudar\", \"prefiro conversar pessoalmente\". A good note mixes both kinds: \"Prefiro conversar, mas peço que você me avise antes.\"",
           "Sign off warmly. \"Fique à vontade\" (make yourself at home) is a standard command. \"Qualquer coisa, me chama!\" means if you need anything, just call me. End with \"Abraço\", or \"Beijos\" between friends. \"Beijos\" is an everyday sign-off, not a romantic one.",
-          "Write \"você\" all through the note. \"O senhor\" would sound cold to a flatmate your own age.",
+          "Write \"você\" all through the note. \"O senhor\" would sound cold to a roommate your own age.",
         ],
         examples: [
           { es: "Quero que você se sinta em casa.", en: "I want you to feel at home." },
@@ -2139,7 +2139,7 @@ export const PT_B1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your flatmate always leaves the air conditioning on. How do you write I'd rather you turned it off?",
+        question: "Your roommate always leaves the air conditioning on. How do you write I'd rather you turned it off?",
         options: ["Prefiro que você desligue o ar-condicionado.", "Prefiro que você deslige o ar-condicionado.", "Prefiro que você desliga o ar-condicionado.", "Prefiro desligar o ar-condicionado."],
         correctIndex: 0,
         explanation: "\"Desligar\" takes the \"-gue\" spelling to keep the hard g: \"desligue\". \"Desliga\" is the indicative, and \"prefiro desligar\" means you'll turn it off yourself.",
@@ -2186,7 +2186,7 @@ export const PT_B1_U01: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Your new flatmate, Lucas, moves in tomorrow. Write him a note in Portuguese with at least four house rules: things you'd like him to do and not do, plus one thing you'll do yourself. Start with a greeting and end with a warm sign-off.",
+        prompt: "Your new roommate, Lucas, moves in tomorrow. Write him a note in Portuguese with at least four house rules: things you'd like him to do and not do, plus one thing you'll do yourself. Start with a greeting and end with a warm sign-off.",
         minWords: 50,
         maxWords: 120,
         rubric: [
@@ -2220,7 +2220,7 @@ export const PT_B1_U01: Lesson[] = [
           { es: "Você chegou tarde ontem. Amanhã quero que você chegue cedo.", en: "You got in late yesterday. Tomorrow I want you to arrive early." },
           { es: "O Lucas não entregou o trabalho, então o professor pede que ele entregue hoje.", en: "Lucas didn't hand in the assignment, so the teacher is asking him to hand it in today." },
           { es: "Minha mãe sempre cozinhava aos domingos; agora ela prefere que a gente cozinhe.", en: "My mother always used to cook on Sundays; now she prefers that we cook." },
-          { es: "A Beatriz já viu esse filme, então prefere que a gente veja outro.", en: "Beatriz has already seen that film, so she'd rather we watch another one." },
+          { es: "A Beatriz já viu esse filme, então prefere que a gente veja outro.", en: "Beatriz has already seen that movie, so she'd rather we watch another one." },
           { es: "Eles não trouxeram nada. Desta vez quero que tragam a sobremesa.", en: "They didn't bring anything. This time I want them to bring dessert." },
         ],
         checkpoint: [
@@ -2249,7 +2249,7 @@ export const PT_B1_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your flatmate paid the bill last month. You want him to pay it this month too. What do you say?",
+            question: "Your roommate paid the bill last month. You want him to pay it this month too. What do you say?",
             options: [
               "Quero que você pague este mês também.",
               "Quero que você pagou este mês também.",
@@ -2274,7 +2274,7 @@ export const PT_B1_U01: Lesson[] = [
           { es: "Dona Maria pede que os netos se levantem cedo.", en: "Dona Maria asks her grandchildren to get up early." },
           { es: "A gente quer que você se sinta em casa.", en: "We want you to feel at home." },
           { es: "Prefiro que a gente se encontre no centro.", en: "I'd rather we meet downtown." },
-          { es: "Quero que você convide ela para a festa.", en: "I want you to invite her to the party. (speech; in writing: que você a convide)" },
+          { es: "Quero que você convide ela para a festa.", en: "I want you to invite her to the party." },
         ],
         checkpoint: [
           {
@@ -2312,7 +2312,7 @@ export const PT_B1_U01: Lesson[] = [
       {
         heading: "Same subject, the near future and pedir para",
         body: [
-          "Before reaching for \"que\", check the subject. The same person wants and does → infinitive: \"quero descansar\". A different person does it → que + subjunctive: \"quero que você descanse\". English I want you to rest pushes learners towards \"quero você descansar\", which Portuguese doesn't allow.",
+          "Before reaching for \"que\", check the subject. The same person wants and does → infinitive: \"quero descansar\". A different person does it → que + subjunctive: \"quero que você descanse\". English I want you to rest pushes learners toward \"quero você descansar\", which Portuguese doesn't allow.",
           "In speech, \"pedir para\" + infinitive often replaces \"pedir que\": \"vou pedir pra ela trazer o bolo\" means the same as \"vou pedir que ela traga o bolo\". And \"deixa eu\" + infinitive is the everyday let me: \"deixa eu pagar\".",
         ],
         examples: [
@@ -2390,7 +2390,7 @@ export const PT_B1_U01: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Mariana has already seen that film, so she'd rather we [watch] another one.",
+        en: "Mariana has already seen that movie, so she'd rather we [watch] another one.",
         sentence: "A Mariana já viu esse filme, então prefere que a gente ___ outro.",
         answer: "veja",
         explanation: "\"Vejo\" → \"veja\", and \"a gente\" takes the ele form. Compare the perfeito \"viu\" in the first half.",
@@ -2477,7 +2477,7 @@ export const PT_B1_U01: Lesson[] = [
 
 export const PT_B1_U01_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You're going away for a week, and your friend Lucas is staying in your flat in São Paulo to look after your cat, Mimi. Write him a message in Portuguese saying what you want him to do and not do, what you'd prefer, and one thing you want to do yourself when you get back.",
+  prompt: "You're going away for a week, and your friend Lucas is staying in your apartment in São Paulo to look after your cat, Mimi. Write him a message in Portuguese saying what you want him to do and not do, what you'd prefer, and one thing you want to do yourself when you get back.",
   minWords: 80,
   maxWords: 150,
   rubric: [

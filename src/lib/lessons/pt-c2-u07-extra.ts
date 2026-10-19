@@ -9,7 +9,7 @@ export const PT_C2_U07_EXTRA: Lesson[] = [
     level: "PT-C2",
     number: 1,
     title: "Extra Practice: Specialist Registers, Part 1 of 2",
-    summary: "Practise legal language (réu, autor, ação, sentença, recurso, liminar, jurisprudência) and medical language (diagnóstico, prognóstico, quadro clínico, posologia, contraindicação).",
+    summary: "Practice legal language (réu, autor, ação, sentença, recurso, liminar, jurisprudência) and medical language (diagnóstico, prognóstico, quadro clínico, posologia, contraindicação).",
     duration: "15 min",
     optional: true,
     kind: "drill",
@@ -17,12 +17,12 @@ export const PT_C2_U07_EXTRA: Lesson[] = [
       {
         heading: "Law and medicine",
         body: [
-          "Law: the \"autor\" (plaintiff) files an \"ação\" (lawsuit) against the \"réu\" (defendant); the judge issues a \"sentença\" (ruling); the loser files a \"recurso\" (appeal); a \"liminar\" is an urgent provisional order; \"jurisprudência\" is case law. Typical structures: passive and nominalisation (\"a ação foi julgada procedente\" = the claim was upheld).",
+          "Law: the \"autor\" (plaintiff) files an \"ação\" (lawsuit) against the \"réu\" (defendant); the judge issues a \"sentença\" (ruling); the loser files a \"recurso\" (appeal); a \"liminar\" is an urgent provisional order; \"jurisprudência\" is case law. Typical structures: passive and nominalization (\"a ação foi julgada procedente\" = the claim was upheld).",
           "Medicine: \"o diagnóstico\", \"o prognóstico\" (likely outcome), \"o quadro clínico\" (clinical picture), \"a posologia\" (dosage), \"a contraindicação\", \"o efeito colateral\" (side effect), \"o paciente evoluiu bem\" (the patient progressed well). Plain language: \"posologia\" → \"como tomar o remédio\".",
         ],
         examples: [
           { es: "O réu foi condenado a dois anos de prisão.", en: "The defendant was sentenced to two years in prison." },
-          { es: "A defesa vai entrar com recurso.", en: "The defence will file an appeal." },
+          { es: "A defesa vai entrar com recurso.", en: "The defense will file an appeal." },
           { es: "O juiz concedeu uma liminar.", en: "The judge granted an injunction." },
           { es: "O quadro clínico do paciente é estável.", en: "The patient's condition is stable." },
           { es: "Leia a posologia antes de tomar.", en: "Read the dosage instructions before taking it." },
@@ -137,9 +137,9 @@ export const PT_C2_U07_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The defence will appeal.",
+        prompt: "Put the words in order to say: The defense will appeal.",
         words: ["A", "defesa", "vai", "recorrer."],
-        translation: "The defence will appeal.",
+        translation: "The defense will appeal.",
         explanation: "\"Recorrer\" is to appeal; \"vai recorrer\" is the spoken future. The legal noun is \"o recurso\".",
       },
       {
@@ -150,9 +150,9 @@ export const PT_C2_U07_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Leia a bula antes de tomar o medicamento.",
-        prompt: "Say it in Portuguese: Read the package leaflet before taking the medicine.",
+        prompt: "Say it in Portuguese: Read the package insert before taking the medicine.",
         tip: "Bula: BU-la = package insert.",
-        explanation: "The \"bula\" is the package leaflet that comes with every medicine in Brazil; \"tomar o medicamento\" is to take it.",
+        explanation: "The \"bula\" is the package insert that comes with every medicine in Brazil; \"tomar o medicamento\" is to take it.",
       },
       {
         type: "matching",
@@ -173,7 +173,7 @@ export const PT_C2_U07_EXTRA: Lesson[] = [
     level: "PT-C2",
     number: 2,
     title: "Extra Practice: Specialist Registers, Part 2 of 2",
-    summary: "Practise economic language (PIB, inflação, juros, taxa Selic, câmbio, recessão, superávit) and science popularisation in plain language.",
+    summary: "Practice economic language (PIB, inflação, juros, taxa Selic, câmbio, recessão, superávit) and science popularization in plain language.",
     duration: "15 min",
     optional: true,
     kind: "drill",
@@ -338,7 +338,7 @@ export const PT_C2_U07_EXTRA: Lesson[] = [
     level: "PT-C2",
     number: 3,
     title: "Extra Practice: Specialist Registers, Latinisms and Plain Language",
-    summary: "Practise Latinisms in law, academia and the press, then rewrite legal, medical and economic jargon in accurate plain Portuguese.",
+    summary: "Practice Latinisms in law, academia and the press, then rewrite legal, medical and economic jargon in accurate plain Portuguese.",
     duration: "15 min",
     optional: true,
     kind: "drill",
@@ -346,16 +346,16 @@ export const PT_C2_U07_EXTRA: Lesson[] = [
       {
         heading: "Latinisms: fixed, exact, unaccented",
         body: [
-          "Latin expressions never change form and take no accent or hyphen; careful writers italicise them. \"Ad hoc\" is set up for one case (\"perito ad hoc\"), \"in loco\" is on site, \"a priori\" / \"a posteriori\" before / after the facts, \"sine qua non\" an absolute requirement. Never write a crase on \"a priori\", and never \"a grosso modo\": it's just \"grosso modo\".",
-          "The courts add their own. \"Data venia\" (or \"com a devida vênia\") announces disagreement, not deference; a \"habeas corpus\" is masculine, invariable and \"impetrado\"; \"in dubio pro reo\" means doubt favours the defendant. A \"pós-graduação lato sensu\" is a specialisation or MBA; \"stricto sensu\" is a master's or doctorate.",
+          "Latin expressions never change form and take no accent or hyphen; careful writers italicize them. \"Ad hoc\" is set up for one case (\"perito ad hoc\"), \"in loco\" is on site, \"a priori\" / \"a posteriori\" before / after the facts, \"sine qua non\" an absolute requirement. Never write a crase on \"a priori\", and never \"a grosso modo\": it's just \"grosso modo\".",
+          "The courts add their own. \"Data venia\" (or \"com a devida vênia\") announces disagreement, not deference; a \"habeas corpus\" is masculine, invariable and \"impetrado\"; \"in dubio pro reo\" means doubt favors the defendant. A \"pós-graduação lato sensu\" is a specialization or MBA; \"stricto sensu\" is a master's or doctorate.",
         ],
         examples: [
           { es: "A universidade criou uma comissão ad hoc para revisar o edital.", en: "The university set up a committee specifically to review the call for applications." },
           { es: "Os fiscais fizeram uma inspeção in loco no restaurante.", en: "The inspectors carried out an on-site inspection of the restaurant." },
           { es: "A priori, o contrato parece válido.", en: "On the face of it, the contract seems valid." },
-          { es: "Grosso modo, metade do orçamento vai para salários.", en: "Roughly speaking, half the budget goes on salaries." },
+          { es: "Grosso modo, metade do orçamento vai para salários.", en: "Roughly speaking, half the budget goes to salaries." },
           { es: "Experiência em vendas é condição sine qua non.", en: "Sales experience is an absolute must." },
-          { es: "Data venia, Excelência, a testemunha não estava no local.", en: "With all due respect, Your Honour, the witness wasn't at the scene." },
+          { es: "Data venia, Excelência, a testemunha não estava no local.", en: "With all due respect, Your Honor, the witness wasn't at the scene." },
         ],
         checkpoint: [
           {
@@ -370,7 +370,7 @@ export const PT_C2_U07_EXTRA: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The defence filed for habeas corpus.",
+            source: "The defense filed for habeas corpus.",
             answer: "A defesa impetrou um habeas corpus.",
             altAnswers: ["A defesa impetrou habeas corpus.", "A defesa impetrou um pedido de habeas corpus."],
             explanation: "A \"habeas corpus\" is \"impetrado\", and the term never changes form.",
@@ -379,9 +379,9 @@ export const PT_C2_U07_EXTRA: Lesson[] = [
             type: "listen-choose",
             audio: "Ela fez uma pós-graduação lato sensu em gestão de projetos.",
             question: "What kind of course did she take?",
-            options: ["A specialisation course, not a master's.", "A master's degree.", "A doctorate.", "An undergraduate degree."],
+            options: ["A specialization course, not a master's.", "A master's degree.", "A doctorate.", "An undergraduate degree."],
             correctIndex: 0,
-            explanation: "\"Lato sensu\" is a specialisation or MBA; \"stricto sensu\" is a master's or doctorate.",
+            explanation: "\"Lato sensu\" is a specialization or MBA; \"stricto sensu\" is a master's or doctorate.",
           },
         ],
       },
@@ -396,7 +396,7 @@ export const PT_C2_U07_EXTRA: Lesson[] = [
           { es: "Seu pedido de isenção foi aprovado.", en: "Your exemption request has been approved. (plain)" },
           { es: "A administração do fármaco deve ocorrer em jejum.", en: "The drug must be administered on an empty stomach. (specialist)" },
           { es: "Tome o remédio antes do café da manhã.", en: "Take the medicine before breakfast. (plain)" },
-          { es: "Um juiz deu uma decisão provisória a favor dos inquilinos.", en: "A judge issued a temporary ruling in the tenants' favour. (plain for a liminar)" },
+          { es: "Um juiz deu uma decisão provisória a favor dos inquilinos.", en: "A judge issued a temporary ruling in the tenants' favor. (plain for a liminar)" },
         ],
         checkpoint: [
           {
@@ -410,7 +410,7 @@ export const PT_C2_U07_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the accurate plain version of the leaflet line 'O medicamento pode causar sonolência'?",
+            question: "Which is the accurate plain version of the pamphlet line 'O medicamento pode causar sonolência'?",
             options: ["Este remédio pode dar sono.", "Este remédio dá sono.", "Este remédio não dá sono.", "Este remédio causa insônia."],
             correctIndex: 0,
             explanation: "Keep the hedge: \"pode\" survives the rewrite; \"dá sono\" overstates it.",
@@ -418,7 +418,7 @@ export const PT_C2_U07_EXTRA: Lesson[] = [
           {
             type: "speak",
             text: "O Banco Central subiu os juros, e os empréstimos vão ficar mais caros.",
-            prompt: "Say the plain version aloud, as if leaving a voice message for a neighbour.",
+            prompt: "Say the plain version aloud, as if leaving a voice message for a neighbor.",
             tip: "\"Juros\" is plural: os JU-ros; link \"vão ficar\" smoothly.",
             explanation: "For the public, the consequence is the content.",
           },
@@ -457,7 +457,7 @@ export const PT_C2_U07_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, as a lawyer in court.",
-        source: "With all due respect, Your Honour, the defence disagrees.",
+        source: "With all due respect, Your Honor, the defense disagrees.",
         answer: "Data venia, Excelência, a defesa discorda.",
         altAnswers: ["Com a devida vênia, Excelência, a defesa discorda."],
         explanation: "The ritual formula before contradicting the bench.",
@@ -501,7 +501,7 @@ export const PT_C2_U07_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into plain Portuguese for a patient leaflet.",
+        prompt: "Translate into plain Portuguese for a patient handout.",
         source: "Pregnant women should not take this medicine.",
         answer: "Grávidas não devem tomar este remédio.",
         altAnswers: ["Mulheres grávidas não devem tomar este remédio.", "Grávidas não devem tomar esse remédio.", "Grávidas não devem usar este remédio.", "Grávidas não devem tomar este medicamento.", "Gestantes não devem tomar este remédio."],
@@ -581,7 +581,7 @@ export const PT_C2_U07_EXTRA: Lesson[] = [
         examples: [
           { es: "É um comprimido de doze em doze horas, sempre depois do almoço e do jantar.", en: "It's one tablet every twelve hours, always after lunch and dinner." },
           { es: "O exame é compatível com uma infecção, mas ainda precisamos confirmar.", en: "The test is consistent with an infection, but we still need to confirm it." },
-          { es: "O prognóstico é bom, desde que a senhora faça a fisioterapia.", en: "The prognosis is good, provided you do the physiotherapy." },
+          { es: "O prognóstico é bom, desde que a senhora faça a fisioterapia.", en: "The prognosis is good, provided you do the physical therapy." },
           { es: "A juíza julgou procedente a ação e condenou o banco a devolver o dinheiro.", en: "The judge found for the plaintiff and ordered the bank to return the money." },
           { es: "O tribunal negou provimento ao recurso da construtora.", en: "The court dismissed the construction company's appeal." },
         ],
@@ -597,7 +597,7 @@ export const PT_C2_U07_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The defendant [was served] and has fifteen days to file a defence.",
+            en: "The defendant [was served] and has fifteen days to file a defense.",
             sentence: "O réu ___ e tem quinze dias para apresentar a contestação.",
             answer: "foi citado",
             explanation: "In a lawsuit, \"citação\" is the summons, so \"foi citado\" means he was formally served.",
@@ -633,7 +633,7 @@ export const PT_C2_U07_EXTRA: Lesson[] = [
             question: "What happened?",
             options: ["The rate rose by half a percentage point.", "The rate rose by 50%.", "The rate fell by half a point.", "The rate was held."],
             correctIndex: 0,
-            explanation: "\"Elevou\" is raised; \"meio ponto percentual\" is half a point, not half a per cent of the rate.",
+            explanation: "\"Elevou\" is raised; \"meio ponto percentual\" is half a point, not half a percent of the rate.",
           },
           {
             type: "translate",
@@ -774,9 +774,9 @@ export const PT_C2_U07_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Developed a fever on the second day in hospital.",
+        prompt: "Put the words in order to say: Developed a fever on the second day in the hospital.",
         words: ["Evoluiu", "com", "quadro", "febril", "no", "segundo", "dia", "de", "internação."],
-        translation: "Developed a fever on the second day in hospital.",
+        translation: "Developed a fever on the second day in the hospital.",
         explanation: "\"Evoluir com\" is to go on to develop; \"quadro febril\" is simply a fever.",
       },
     ],

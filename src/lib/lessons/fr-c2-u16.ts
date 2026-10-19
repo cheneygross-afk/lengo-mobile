@@ -9,7 +9,7 @@ export const FR_C2_U16: Lesson[] = [
     level: "FR-C2",
     number: 1,
     title: "Présentations et Négociation, Part 5 of 8",
-    summary: "Voice and body: posture, eye contact, gesture, pace, intonation and silence; the French gestures that carry meaning (la moue, the bof shrug, mon œil, ras le bol); and the verbal tics to tame.",
+    summary: "Voice and body: posture, eye contact, gesture, pace, intonation and silence; the French gestures that carry meaning (\"la moue\", the \"bof\" shrug, \"mon œil\", \"ras le bol\"); and the verbal tics to tame.",
     duration: "18 min",
     sections: [
       {
@@ -112,7 +112,7 @@ export const FR_C2_U16: Lesson[] = [
             type: "multiple-choice",
             question: "During a negotiation, your counterpart pulls down his lower eyelid with one finger. What does it mean?",
             options: [
-              "Mon œil ! He doesn't believe you.",
+              "\"Mon œil !\" He doesn't believe you.",
               "He has something in his eye.",
               "He's tired and wants a break.",
               "He agrees completely.",
@@ -223,7 +223,7 @@ export const FR_C2_U16: Lesson[] = [
         type: "speak",
         text: "C'est in-ac-cep-table !",
         prompt: "Say it in French with emphatic stress on the first syllable: It's unacceptable!",
-        tip: "Stress the first syllable \"in\" and detach the others: this is l'accent d'insistance.",
+        tip: "Stress the first syllable \"in\" and detach the others: this is \"l'accent d'insistance\".",
         explanation: "French emphasis falls on the first syllable for emotion, not on the usual final syllable.",
       },
     ],
@@ -444,7 +444,7 @@ export const FR_C2_U16: Lesson[] = [
         type: "multiple-choice",
         question: "Why does the journalist write in the present tense?",
         options: [
-          "It's the présent de narration, which makes the scene vivid.",
+          "It's the \"présent de narration\", which makes the scene vivid.",
           "Because the presentation hasn't happened yet.",
           "Because the passé composé is too formal for journalism.",
           "Because it is a direct quotation of the CEO.",
@@ -924,7 +924,7 @@ export const FR_C2_U16: Lesson[] = [
     level: "FR-C2",
     number: 5,
     title: "Présentations et Négociation, Part 7 of 8",
-    summary: "Closing the deal (conclure, finaliser, les modalités, le calendrier, le protocole d'accord, la lettre d'intention) and the confirmation email, with the agreement rules of ci-joint.",
+    summary: "Closing the deal (\"conclure\", \"finaliser\", \"les modalités\", \"le calendrier\", \"le protocole d'accord\", \"la lettre d'intention\") and the confirmation email, with the agreement rules of \"ci-joint\".",
     duration: "19 min",
     sections: [
       {
@@ -991,7 +991,7 @@ export const FR_C2_U16: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the French for the bold words.",
-            en: "[Looking forward to hearing from you], yours sincerely.",
+            en: "[Looking forward to hearing from you], kind regards.",
             sentence: "___, bien cordialement.",
             answer: "Dans l'attente de votre retour",
             altAnswers: ["Dans l'attente de votre réponse"],
@@ -1368,7 +1368,7 @@ export const FR_C2_U16: Lesson[] = [
     level: "FR-C2",
     number: 7,
     title: "Présentations et Négociation, Part 8 of 8",
-    summary: "Minutes and follow-up: le compte rendu vs le relevé de décisions, their nominal and impersonal style (il a été convenu que), the action list (qui fait quoi, pour quand) and the reminder email.",
+    summary: "Minutes and follow-up: \"le compte rendu\" vs \"le relevé de décisions\", their nominal and impersonal style (\"il a été convenu que\"), the action list (\"qui fait quoi, pour quand\") and the reminder email.",
     duration: "18 min",
     sections: [
       {
@@ -1376,7 +1376,7 @@ export const FR_C2_U16: Lesson[] = [
         body: [
           "French workplaces distinguish two kinds of minutes. \"Le compte rendu\" (CR) reports the discussion: who said what, the arguments, the points of disagreement, then the decisions. \"Le relevé de décisions\" records only what was decided and who must do what; it is shorter and increasingly preferred because people actually read it. \"Le procès-verbal\" (PV) is the formal, often legal record of a board or general meeting, approved and signed.",
           "Their style is impersonal and largely nominal. Present tense for what happens in the meeting: \"M. Dufour présente le budget. Mme Haddad souligne le retard du chantier.\" Impersonal passives for decisions: \"il a été décidé que\", \"il a été convenu que\", \"il est rappelé que\". Nominal phrases for items: \"validation du budget prévisionnel\", \"report de la livraison au 15 mars\", \"mise en place d'un comité de suivi\".",
-          "Reported speech uses precise verbs rather than \"dire\": \"rappelle\", \"souligne\", \"propose\", \"s'interroge sur\", \"fait observer que\", \"émet des réserves sur\". These verbs, which you know from Unit 14, also show the speaker's stance: \"émettre des réserves\" (to express reservations) is milder than \"s'opposer à\".",
+          "Reported speech uses precise verbs rather than \"dire\": \"rappelle\", \"souligne\", \"propose\", \"s'interroge sur\", \"fait observer que\", \"émet des réserves sur\". These verbs, which you have met in earlier units, also show the speaker's stance: \"émettre des réserves\" (to express reservations) is milder than \"s'opposer à\".",
         ],
         examples: [
           { es: "Le compte rendu de la réunion sera diffusé d'ici vendredi.", en: "The minutes of the meeting will be circulated by Friday." },
@@ -1411,8 +1411,8 @@ export const FR_C2_U16: Lesson[] = [
       {
         heading: "Nominal style and the action list",
         body: [
-          "The heart of a relevé de décisions is \"le tableau des actions\" or \"la liste des actions\": \"qui fait quoi, pour quand\" (who does what, by when). Each line is a nominal phrase or an infinitive: \"Envoi du contrat au prestataire – S. Marchand – avant le 30 avril\", \"Relancer le service juridique – T. Lefort – semaine 18\".",
-          "Turning sentences into nominal phrases is the key skill (you practised nominalisation at the Advanced level): \"nous allons envoyer le contrat\" → \"envoi du contrat\"; \"on doit vérifier les devis\" → \"vérification des devis\"; \"le comité se réunira chaque mois\" → \"réunion mensuelle du comité\". Watch the noun forms: envoyer → l'envoi, relancer → la relance, valider → la validation, reporter → le report, mettre en place → la mise en place.",
+          "The heart of a \"relevé de décisions\" is \"le tableau des actions\" or \"la liste des actions\": \"qui fait quoi, pour quand\" (who does what, by when). Each line is a nominal phrase or an infinitive: \"Envoi du contrat au prestataire – S. Marchand – avant le 30 avril\", \"Relancer le service juridique – T. Lefort – semaine 18\".",
+          "Turning sentences into nominal phrases is the key skill (you practised nominalisation at the Advanced level): \"nous allons envoyer le contrat\" → \"envoi du contrat\"; \"on doit vérifier les devis\" → \"vérification des devis\"; \"le comité se réunira chaque mois\" → \"réunion mensuelle du comité\". Watch the noun forms: \"envoyer\" → \"l'envoi\", \"relancer\" → \"la relance\", \"valider\" → \"la validation\", \"reporter\" → \"le report\", \"mettre en place\" → \"la mise en place\".",
           "Responsibility and deadlines have fixed forms: \"responsable :\" or \"pilote :\" (the owner), \"échéance :\" (deadline), \"pour le\" + date, \"au plus tard le\". In a meeting, the chair often closes with \"je propose qu'on fasse un tour de table des actions\" (go round the table on actions).",
         ],
         examples: [
@@ -1435,7 +1435,7 @@ export const FR_C2_U16: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How would « Nous allons reporter la mise en service à septembre » appear in a relevé de décisions?",
+            question: "How would « Nous allons reporter la mise en service à septembre » appear in a \"relevé de décisions\"?",
             options: [
               "Report de la mise en service à septembre.",
               "Nous allons reporter la mise en service, voilà.",
@@ -1482,7 +1482,7 @@ export const FR_C2_U16: Lesson[] = [
             prompt: "Translate into French.",
             source: "Unless I'm mistaken, we haven't received it yet.",
             answer: "Sauf erreur de ma part, nous ne l'avons pas encore reçu.",
-            altAnswers: ["Sauf erreur de ma part, nous ne l'avons toujours pas reçu.", "Sauf erreur de ma part, nous ne l'avons pas encore reçue.", "Sauf erreur de ma part, on ne l'a pas encore reçu."],
+            altAnswers: ["Sauf erreur de ma part, nous ne l'avons toujours pas reçu.", "Sauf erreur de ma part, on ne l'a pas encore reçu."],
             explanation: "\"Sauf erreur de ma part\" leaves the other person a way out; \"reçu\" agrees with the object \"l'\" (masculine for le contrat).",
           },
           {
@@ -1510,7 +1510,7 @@ export const FR_C2_U16: Lesson[] = [
         source: "The minutes of the meeting will be circulated by Friday.",
         answer: "Le compte rendu de la réunion sera diffusé d'ici vendredi.",
         altAnswers: ["Le compte rendu de la réunion sera envoyé d'ici vendredi.", "Le compte rendu de la réunion sera diffusé avant vendredi.", "Le compte rendu de la réunion sera transmis d'ici vendredi."],
-        explanation: "\"Le compte rendu\" (no hyphen in modern spelling, and no plural s on \"rendu\" in the singular).",
+        explanation: "\"Le compte rendu\" has no hyphen; the plural is \"des comptes rendus\".",
       },
       {
         type: "translate",
@@ -1577,15 +1577,15 @@ export const FR_C2_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What is the difference between a compte rendu and a relevé de décisions?",
+        question: "What is the difference between a \"compte rendu\" and a \"relevé de décisions\"?",
         options: [
-          "The compte rendu reports the discussion; the relevé lists only decisions and actions.",
+          "The \"compte rendu\" reports the discussion; the \"relevé\" lists only decisions and actions.",
           "They are exactly the same document.",
-          "The relevé is a legal document signed by a notary.",
-          "The compte rendu is only for informal meetings.",
+          "The \"relevé\" is a legal document signed by a notary.",
+          "The \"compte rendu\" is only for informal meetings.",
         ],
         correctIndex: 0,
-        explanation: "The relevé is shorter and action-focused; the procès-verbal is the formal legal record.",
+        explanation: "The \"relevé\" is shorter and action-focused; the \"procès-verbal\" is the formal legal record.",
       },
       {
         type: "dictation",
@@ -1605,7 +1605,7 @@ export const FR_C2_U16: Lesson[] = [
     level: "FR-C2",
     number: 8,
     title: "Spiral Review: Négocier avec la Grammaire Avancée",
-    summary: "The conditional of politeness, si + imparfait proposals, the subjunctive after à condition que and pour que, and euphemism and attenuation: Advanced grammar at the service of agreement.",
+    summary: "The conditional of politeness, \"si\" + imparfait proposals, the subjunctive after \"à condition que\" and \"pour que\", and euphemism and attenuation: Advanced grammar at the service of agreement.",
     duration: "18 min",
     sections: [
       {
@@ -1684,7 +1684,7 @@ export const FR_C2_U16: Lesson[] = [
         heading: "Euphemism and attenuation",
         body: [
           "Negotiators soften bad news with euphemism and attenuation, the Advanced tools you learned for indirect language. \"Un léger décalage\" (a slight delay) for a three-week delay; \"un ajustement tarifaire\" for a price rise; \"des difficultés d'approvisionnement\" for a shortage; \"ce n'est pas tout à fait ce que nous espérions\" for this is bad.",
-          "Attenuators: \"peut-être\", \"un peu\", \"légèrement\", \"il se pourrait que\" + subjunctive, \"nous craignons que\" + subjunctive (often with ne explétif: \"nous craignons que les délais ne soient difficiles à tenir\"), litotes (\"ce n'est pas négligeable\" for it's significant). Use them to protect the relationship, never to hide facts the other side will discover anyway.",
+          "Attenuators: \"peut-être\", \"un peu\", \"légèrement\", \"il se pourrait que\" + subjunctive, \"nous craignons que\" + subjunctive (often with the expletive \"ne\": \"nous craignons que les délais ne soient difficiles à tenir\"), litotes (\"ce n'est pas négligeable\" for it's significant). Use them to protect the relationship, never to hide facts the other side will discover anyway.",
         ],
         examples: [
           { es: "Nous prévoyons un léger décalage de la livraison.", en: "We're anticipating a slight delay in delivery." },
@@ -1824,7 +1824,7 @@ export const FR_C2_U16: Lesson[] = [
     level: "FR-C2",
     number: 9,
     title: "Mastery Vocabulary: Paronyms That Fool Even Natives",
-    summary: "Recouvrer / recouvrir, inclinaison / inclination, éruption / irruption, prolongation / prolongement, allocution / allocation, évoquer / invoquer, notable / notoire, opprimer / oppresser.",
+    summary: "\"Recouvrer\" / \"recouvrir\", \"inclinaison\" / \"inclination\", \"éruption\" / \"irruption\", \"prolongation\" / \"prolongement\", \"allocution\" / \"allocation\", \"évoquer\" / \"invoquer\", \"notable\" / \"notoire\", \"opprimer\" / \"oppresser\".",
     duration: "18 min",
     sections: [
       {
@@ -2020,7 +2020,7 @@ export const FR_C2_U16: Lesson[] = [
         sentence: "Le service chargé du ___ a relancé le client.",
         answer: "recouvrement des créances",
         altAnswers: ["recouvrement"],
-        explanation: "\"Le recouvrement\" (from recouvrer): the collection of debts.",
+        explanation: "\"Le recouvrement\" (from \"recouvrer\"): the collection of debts.",
       },
       {
         type: "fill-blank",
@@ -2070,7 +2070,7 @@ export const FR_C2_U16: Lesson[] = [
 
 export const FR_C2_U16_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You are the project manager of a software company. This morning you met the IT director of a regional hospital and agreed on the deployment of your scheduling software. Write the confirmation email: subject line, greeting, the terms agreed (price, timetable, training), each party's commitments with deadlines, conditions, attachments (with ci-joint used correctly), a tactful line inviting corrections, and a professional closing.",
+  prompt: "You are the project manager of a software company. This morning you met the IT director of a regional hospital and agreed on the deployment of your scheduling software. Write the confirmation email: subject line, greeting, the terms agreed (price, timetable, training), each party's commitments with deadlines, conditions, attachments (with \"ci-joint\" used correctly), a tactful line inviting corrections, and a professional closing.",
   minWords: 250,
   maxWords: 400,
   rubric: [

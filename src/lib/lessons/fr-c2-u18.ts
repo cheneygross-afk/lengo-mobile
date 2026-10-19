@@ -93,7 +93,7 @@ export const FR_C2_U18: Lesson[] = [
         heading: "Synthèse, compte rendu, and counting words",
         body: [
           "\"La synthèse\" (the DALF C2 and BTS exercise, the \"note de synthèse\" of administrative exams) combines several documents around a theme. It has its own plan (not document by document), a title, an introduction and a conclusion, and stays objective. Here you do name the sources: \"le document 1\", \"l'article du Monde\", \"selon l'économiste interrogé\".",
-          "\"Le compte rendu\" reports a single text, a book or a meeting, and refers to it explicitly: \"l'auteur montre que\", \"dans un premier temps, elle analyse...\". A \"compte rendu critique\" (a review) adds your evaluation at the end. Note the spelling: \"un compte rendu\" without a hyphen in the modern spelling, plural \"des comptes rendus\".",
+          "\"Le compte rendu\" reports a single text, a book or a meeting, and refers to it explicitly: \"l'auteur montre que\", \"dans un premier temps, elle analyse...\". A \"compte rendu critique\" (a review) adds your evaluation at the end. Note the spelling: \"un compte rendu\" without a hyphen, plural \"des comptes rendus\".",
           "Counting words follows a convention given in the instructions, often: a word is whatever stands between two spaces, an apostrophe or a hyphen counts as a separator, so \"l'homme\" is two words and \"c'est-à-dire\" four, but \"aujourd'hui\" is one; a number is one word, an acronym is one word. Write the total at the end (\"nombre de mots : 152\") and mark every fifty words in the margin if asked. Lying about the count is severely penalised.",
         ],
         examples: [
@@ -632,7 +632,7 @@ export const FR_C2_U18: Lesson[] = [
         heading: "Le nous de modestie: plural verb, singular agreement",
         body: [
           "A single author writing an academic text in French traditionally says \"nous\", not \"je\": \"nous avons montré\", \"nous nous proposons d'examiner\". It is called \"le nous de modestie\" (or \"nous d'auteur\"): the author effaces the self behind a collective voice of reason, and it also includes the reader in the reasoning (\"nous voyons ici que...\").",
-          "The trap is agreement. The verb is plural (\"nous sommes\"), but adjectives and past participles agree with the real person, who is one man or one woman: \"nous sommes convaincu\" (a male author), \"nous sommes convaincue\" (a female author), \"nous nous sommes efforcée de\" (a woman). Writing \"nous sommes convaincus\" makes you sound like a research team. The same rule holds for the \"vous de politesse\": \"vous êtes certain, madame ?\".",
+          "The trap is agreement. The verb is plural (\"nous sommes\"), but adjectives and past participles agree with the real person, who is one man or one woman: \"nous sommes convaincu\" (a male author), \"nous sommes convaincue\" (a female author), \"nous nous sommes efforcée de\" (a woman). Writing \"nous sommes convaincus\" makes you sound like a research team. The same rule holds for the \"vous de politesse\": \"vous êtes certaine, madame ?\".",
           "Possessives follow the plural form: \"notre hypothèse\", \"nos résultats\", \"notre propos\" (our aim, our argument).",
         ],
         examples: [
@@ -650,6 +650,7 @@ export const FR_C2_U18: Lesson[] = [
             prompt: "Translate into French (a female author, nous de modestie).",
             source: "I am convinced that these phenomena are linked.",
             answer: "Nous sommes convaincue que ces phénomènes sont liés.",
+            altAnswers: ["Nous sommes persuadée que ces phénomènes sont liés."],
             explanation: "Plural verb \"sommes\", but \"convaincue\" agrees with one woman: singular feminine. \"Convaincues\" would mean several women.",
           },
           {
@@ -766,7 +767,7 @@ export const FR_C2_U18: Lesson[] = [
             type: "speak",
             text: "Nous nous proposons d'examiner trois cas.",
             prompt: "Say it in French, academic style: I propose to examine three cases.",
-            tip: "Link \"trois cas\" without liaison: the s of trois is silent before a consonant.",
+            tip: "No liaison in \"trois cas\": the s of trois is silent before a consonant.",
             explanation: "\"Se proposer de\" with the nous de modestie: the classic announcement of a plan.",
           },
         ],
@@ -1123,7 +1124,7 @@ export const FR_C2_U18: Lesson[] = [
         body: [
           "Verbs of saying and believing take the indicative in the affirmative (\"il affirme que\", \"elle pense que\", \"ils espèrent que\"). Negated or questioned, verbs of opinion usually take the subjunctive (\"il ne pense pas que la réforme soit utile\"; \"pense-t-elle que ce soit possible ?\").",
           "Verbs of doubt and denial take the subjunctive: \"douter que\", \"nier que\", \"contester que\", \"démentir que\" (\"le ministre dément que des fonds aient été détournés\"). With \"nier\" the indicative is possible when the writer holds the fact as real: \"il nie qu'il a menti\" suggests he did lie.",
-          "\"Dire\" changes meaning with the mood: \"il dit que tu viens\" (he says you're coming, a statement), \"il dit que tu viennes\" (he says you should come, an order, rarer and literary; normally \"il te dit de venir\"). Likewise \"prétendre que\" + indicative = to claim, + subjunctive = to demand (\"je ne prétends pas qu'on me croie\").",
+          "\"Dire\" changes meaning with the mood: \"il dit que tu viens\" (he says you're coming, a statement), \"il dit que tu viennes\" (he says you should come, an order, rarer and literary; normally \"il te dit de venir\"). Likewise \"prétendre que\" + indicative = to claim, + subjunctive = to demand, in literary style (\"il prétend qu'on lui obéisse\", he demands to be obeyed).",
         ],
         examples: [
           { es: "Le ministre dément que des fonds aient été détournés.", en: "The minister denies that funds were misappropriated." },
@@ -1164,7 +1165,7 @@ export const FR_C2_U18: Lesson[] = [
       {
         heading: "Questions, commands and the shifted world",
         body: [
-          "Indirect questions: \"si\" for yes/no, \"ce que\" / \"ce qui\" for \"qu'est-ce que\" / \"qu'est-ce qui\", question words unchanged, no inversion, no question mark. Commands: \"de\" + infinitive (\"elle les a exhortés à\", \"il nous a priés de\"). Deictics: \"la veille\", \"le lendemain\", \"ce jour-là\", \"la semaine suivante\", \"deux ans plus tôt\".",
+          "Indirect questions: \"si\" for yes/no, \"ce que\" / \"ce qui\" for \"qu'est-ce que\" / \"qu'est-ce qui\", question words unchanged, no inversion, no question mark. Commands: \"de\" + infinitive (\"il nous a priés de\", \"elle leur a ordonné de\"), or \"à\" after verbs such as \"exhorter\" (\"elle les a exhortés à\"). Deictics: \"la veille\", \"le lendemain\", \"ce jour-là\", \"la semaine suivante\", \"deux ans plus tôt\".",
           "In academic prose, the indirect question often follows \"s'interroger sur\" + noun or \"se demander si / comment / dans quelle mesure\": \"l'autrice se demande dans quelle mesure la réforme a profité aux plus modestes\". Remember: no inversion after the question word in an indirect question (\"*dans quelle mesure la réforme a-t-elle profité*\" is wrong here).",
         ],
         examples: [
@@ -1341,7 +1342,7 @@ export const FR_C2_U18: Lesson[] = [
         heading: "Government and Parliament: censure, 49.3, remaniement",
         body: [
           "Under the Fifth Republic, the government is answerable to the Assemblée nationale. Deputies can bring it down with \"une motion de censure\", which must win an absolute majority of the members. The Prime Minister can seek the Assembly's support on the government's programme with \"la question de confiance\" (\"engager la responsabilité du gouvernement\").",
-          "\"Le 49.3\" (said \"quarante-neuf trois\"), from article 49, paragraph 3 of the Constitution, lets the government pass a bill without a vote: the text is considered adopted unless a motion de censure, tabled within 24 hours, is voted. Its use is always controversial, and the press speaks of \"dégainer le 49.3\" (to draw the 49.3, like a weapon) or \"passer en force\".",
+          "\"Le 49.3\" (said \"quarante-neuf trois\"), from article 49, paragraph 3 of the Constitution, lets the government pass a bill without a vote: the text is considered adopted unless a motion de censure, tabled within 24 hours, is voted. Since 2008 it can be used without limit only for budget and social-security bills, and for one other text per session. Its use is always controversial, and the press speaks of \"dégainer le 49.3\" (to draw the 49.3, like a weapon) or \"passer en force\".",
           "\"Un remaniement\" (ministériel) is a cabinet reshuffle; a minister may be \"reconduit\" (kept on), \"promu\" or \"écarté\". \"La dissolution\" of the Assemblée nationale is the President's power to call early legislative elections.",
         ],
         examples: [
@@ -1698,7 +1699,7 @@ export const FR_C2_U18: Lesson[] = [
         prompt: "Translate into French.",
         source: "He looks the part, but he failed physics.",
         answer: "Il a le physique de l'emploi, mais il a échoué en physique.",
-        altAnswers: ["Il a le physique de l'emploi, mais il a raté la physique.", "Il a le physique de l'emploi, mais il a échoué à l'examen de physique."],
+        altAnswers: ["Il a le physique de l'emploi, mais il a raté son examen de physique.", "Il a le physique de l'emploi, mais il a échoué à l'examen de physique."],
         explanation: "\"Le physique\" (appearance) vs \"la physique\" (the science).",
       },
       {

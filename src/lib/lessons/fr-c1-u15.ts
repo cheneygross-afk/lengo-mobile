@@ -39,8 +39,8 @@ export const FR_C1_U15: Lesson[] = [
           { es: "Il y avait septante personnes à la réunion.", en: "There were seventy people at the meeting. (Belgium, Switzerland)" },
           { es: "Le billet coûte huitante francs.", en: "The ticket costs eighty francs. (Vaud, Valais, Fribourg)" },
           { es: "J'habite au numéro septante et un.", en: "I live at number seventy-one." },
-          { es: "En Belgique, on dit septante et nonante, mais quatre-vingts.", en: "In Belgium people say septante and nonante, but quatre-vingts." },
-          { es: "À Genève, on entend plutôt quatre-vingts que huitante.", en: "In Geneva you hear quatre-vingts rather than huitante." },
+          { es: "En Belgique, on dit septante et nonante, mais quatre-vingts.", en: "In Belgium people say \"septante\" and \"nonante\", but \"quatre-vingts\"." },
+          { es: "À Genève, on entend plutôt quatre-vingts que huitante.", en: "In Geneva you hear \"quatre-vingts\" rather than \"huitante\"." },
         ],
         checkpoint: [
           {
@@ -225,7 +225,7 @@ export const FR_C1_U15: Lesson[] = [
       {
         type: "dictation",
         audio: "Ma grand-mère a nonante-trois ans.",
-        explanation: "\"Nonante\": no s, no hyphen before \"trois\" other than the usual compound hyphen.",
+        explanation: "\"Nonante-trois\" is hyphenated like any compound number, and \"nonante\" never takes an s.",
       },
     ],
   },
@@ -278,7 +278,7 @@ export const FR_C1_U15: Lesson[] = [
           "Belgian bakery vocabulary: \"un pistolet\" (a small round crusty roll), \"une gaufre de Liège\" (dense, with pearl sugar) vs \"une gaufre de Bruxelles\" (light, rectangular), \"un cramique\" (raisin brioche), \"un craquelin\" (brioche with sugar). Switzerland: \"une tresse\" (a braided Sunday loaf), \"un ramequin\" (a cheese tart). Québec: \"un beigne\" (a doughnut, \"un beignet\" in France), \"une tarte au sucre\".",
         ],
         examples: [
-          { es: "À Toulouse, on dit chocolatine, pas pain au chocolat !", en: "In Toulouse they say chocolatine, not pain au chocolat!" },
+          { es: "À Toulouse, on dit chocolatine, pas pain au chocolat !", en: "In Toulouse they say \"chocolatine\", not \"pain au chocolat\"!" },
           { es: "Une couque au chocolat et deux pistolets, s'il vous plaît.", en: "A chocolate pastry and two rolls, please. (Belgium)" },
           { es: "Je préfère la gaufre de Liège, avec ses perles de sucre.", en: "I prefer the Liege waffle, with its pearl sugar." },
           { es: "Le dimanche, on mange une tresse au petit-déjeuner.", en: "On Sundays we eat a braided loaf for breakfast. (Switzerland)" },
@@ -353,14 +353,14 @@ export const FR_C1_U15: Lesson[] = [
         prompt: "Translate into Québec French.",
         source: "Come over for dinner on Saturday.",
         answer: "Viens souper chez nous samedi.",
-        altAnswers: ["Viens souper chez moi samedi.", "Venez souper chez nous samedi.", "Viens souper à la maison samedi.", "Viens-tu souper chez nous samedi ?"],
+        altAnswers: ["Viens souper chez moi samedi.", "Venez souper chez nous samedi.", "Viens souper à la maison samedi."],
         explanation: "Québec \"souper\" = evening meal; \"chez nous\" often means my place.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "In Toulouse, they say chocolatine, not pain au chocolat!",
+        source: "In Toulouse, they say \"chocolatine\", not \"pain au chocolat\"!",
         answer: "À Toulouse, on dit chocolatine, pas pain au chocolat !",
         altAnswers: ["À Toulouse, on dit « chocolatine », pas « pain au chocolat » !", "À Toulouse, on dit chocolatine et pas pain au chocolat !", "À Toulouse, on ne dit pas pain au chocolat, on dit chocolatine !"],
         explanation: "\"On dit\" + word, without article when quoting the word itself.",
@@ -468,7 +468,7 @@ export const FR_C1_U15: Lesson[] = [
           { es: "Passe la loque dans la salle de bain, s'il te plaît.", en: "Mop the bathroom, please. (Belgium)" },
           { es: "J'ai passé la moppe partout après le party.", en: "I mopped everywhere after the party. (Quebec)" },
           { es: "Remplis la chaudière d'eau chaude.", en: "Fill the bucket with hot water. (Quebec)" },
-          { es: "Ma grand-mère du Nord disait toujours « la wassingue ».", en: "My grandmother from the north always said wassingue." },
+          { es: "Ma grand-mère du Nord disait toujours « la wassingue ».", en: "My grandmother from the north always said \"la wassingue\"." },
         ],
         checkpoint: [
           {
@@ -639,7 +639,7 @@ export const FR_C1_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "In France, a poche is a pocket; in Québec, it can also be a bag.",
+        source: "In France, a \"poche\" is a pocket; in Québec, it can also be a bag.",
         answer: "En France, une poche est une poche de vêtement ; au Québec, ça peut aussi être un sac.",
         altAnswers: ["En France, une poche, c'est une poche de vêtement ; au Québec, ça peut aussi être un sac.", "En France, une « poche » est une poche ; au Québec, ce peut aussi être un sac.", "En France, une poche, c'est une poche ; au Québec, ça peut aussi être un sac.", "En France, une poche est une poche ; au Québec, ça peut aussi être un sac."],
         explanation: "\"Ça peut aussi être\" (spoken) or \"ce peut aussi être\" (formal).",
@@ -738,7 +738,7 @@ export const FR_C1_U15: Lesson[] = [
         ],
       },
       {
-        heading: "Sunday shopping in Geneva",
+        heading: "Saturday shopping in Geneva",
         body: [
           "Third stop: a supermarket in Geneva on Saturday (most Swiss shops close on Sundays!). Your list: \"du gruyère, des röstis surgelés, une tresse, du lait\". The cashier vouvoie you, asks if you want \"un cornet\" (a bag, which you pay for) and whether you have the shop's loyalty card.",
           "In Geneva, 80 is usually \"quatre-vingts\", not \"huitante\"; 70 and 90 are \"septante\" and \"nonante\". Prices are rounded to 5 centimes. \"Bonne journée\", \"Merci, à vous aussi\" and, as you leave, possibly \"Service !\" when you thank someone.",
@@ -1021,7 +1021,7 @@ export const FR_C1_U15: Lesson[] = [
         en: "[What a shame], the show is cancelled. (heard as \"c'est plate\")",
         sentence: "___, le spectacle est annulé.",
         answer: "C'est dommage",
-        altAnswers: ["Dommage", "Quel dommage", "C'est nul", "C'est bête"],
+        altAnswers: ["Dommage", "Quel dommage", "C'est bête"],
         explanation: "\"C'est plate\" = it's a shame, it's boring.",
       },
       {
@@ -1357,7 +1357,7 @@ export const FR_C1_U15: Lesson[] = [
           { es: "Mets des bas chauds, on va au chalet.", en: "Put on warm socks, we're going to the cottage. (Quebec)" },
           { es: "On prend mon char ?", en: "Shall we take my car? (Quebec)" },
           { es: "Mes enfants sont restés à Paris.", en: "My kids stayed in Paris." },
-          { es: "En France, « mes gosses », ce sont mes enfants ; au Québec, surtout pas !", en: "In France, mes gosses means my kids; in Quebec, absolutely not!" },
+          { es: "En France, « mes gosses », ce sont mes enfants ; au Québec, surtout pas !", en: "In France, \"mes gosses\" means my kids; in Quebec, absolutely not!" },
         ],
         checkpoint: [
           {
@@ -1443,7 +1443,7 @@ export const FR_C1_U15: Lesson[] = [
         sentence: "Ma voiture est en panne, j'ai appelé ___.",
         answer: "un dépanneur",
         altAnswers: ["une dépanneuse"],
-        explanation: "In France, \"un dépanneur\" is the mechanic (and \"une dépanneuse\" the tow truck): a false friend with Québec.",
+        explanation: "In France, \"un dépanneur\" is the breakdown mechanic and \"une dépanneuse\" the tow truck; you call either. A false friend with Québec, where \"le dépanneur\" is the corner shop.",
       },
       {
         type: "translate",
@@ -1475,7 +1475,7 @@ export const FR_C1_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "In Switzerland, dîner is at noon.",
+        source: "In Switzerland, \"le dîner\" is at noon.",
         answer: "En Suisse, le dîner, c'est à midi.",
         altAnswers: ["En Suisse, le dîner est à midi.", "En Suisse, on dîne à midi.", "En Suisse, le dîner a lieu à midi."],
         explanation: "Dislocation \"le dîner, c'est à midi\" is natural in speech.",
@@ -1506,7 +1506,7 @@ export const FR_C1_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "In France, mes gosses means my kids; in Quebec, it's vulgar.",
+        source: "In France, \"mes gosses\" means my kids; in Quebec, it's vulgar.",
         answer: "En France, « mes gosses » veut dire mes enfants ; au Québec, c'est vulgaire.",
         altAnswers: ["En France, mes gosses veut dire mes enfants ; au Québec, c'est vulgaire.", "En France, « mes gosses », ce sont mes enfants ; au Québec, c'est vulgaire.", "En France, « mes gosses » signifie mes enfants ; au Québec, c'est vulgaire.", "En France, mes gosses signifie mes enfants ; au Québec, c'est vulgaire."],
         explanation: "\"Vouloir dire\" or \"signifier\" for meaning; a quoted expression takes a singular verb.",
@@ -1557,7 +1557,7 @@ export const FR_C1_U15: Lesson[] = [
       {
         heading: "Québec: le fun, malade, écœurant, hot",
         body: [
-          "Québec has its own set. \"C'est le fun\" (it's fun, it's great: \"c'était vraiment le fun\") is everyday and harmless, also used as an adjective (\"une soirée le fun\"). \"C'est malade !\" and \"c'est hot\" (pronounced with an h-less English vowel) are enthusiastic and youthful. \"C'est écœurant\" is a strong compliment in the right tone (awesome), and \"c'est capotant\" (mind-blowing) comes from \"capoter\", to freak out.",
+          "Québec has its own set. \"C'est le fun\" (it's fun, it's great: \"c'était vraiment le fun\") is everyday and harmless, also used as an adjective (\"une soirée le fun\"). \"C'est malade !\" and \"c'est hot\" (borrowed from English and pronounced much as in English) are enthusiastic and youthful. \"C'est écœurant\" is a strong compliment in the right tone (awesome), and \"c'est capotant\" (mind-blowing) comes from \"capoter\", to freak out.",
           "\"Tiguidou\" (all good, great) and \"c'est bon en masse\" (it's really good) complete the picture. Note that \"c'est plate\" is the opposite: boring or too bad.",
         ],
         examples: [
@@ -1864,7 +1864,7 @@ export const FR_C1_U15: Lesson[] = [
         en: "This DJ really knows how to [liven up] a party.",
         sentence: "Ce DJ sait vraiment ___ une soirée.",
         answer: "ambiancer",
-        altAnswers: ["enjailler", "mettre l'ambiance dans"],
+        altAnswers: ["mettre l'ambiance dans"],
         explanation: "\"Ambiancer\" = to liven up (France: \"mettre de l'ambiance\").",
       },
       {
@@ -1989,7 +1989,7 @@ export const FR_C1_U15: Lesson[] = [
           { es: "Passe la wassingue, il y a de la berdouille partout.", en: "Mop the floor, there's mud everywhere. (north)" },
           { es: "On s'arrête à la baraque à frites ?", en: "Shall we stop at the chip van? (north)" },
           { es: "« Bienvenue chez les Ch'tis » a attiré plus de vingt millions de spectateurs.", en: "Welcome to the Sticks drew more than twenty million cinema-goers." },
-          { es: "Dans le Nord, on dit « ch'est » pour « c'est ».", en: "In the north, people say ch'est for c'est." },
+          { es: "Dans le Nord, on dit « ch'est » pour « c'est ».", en: "In the north, people say \"ch'est\" for \"c'est\"." },
         ],
         checkpoint: [
           {
@@ -2077,7 +2077,7 @@ export const FR_C1_U15: Lesson[] = [
         en: "I [really love] this song!",
         sentence: "Je ___ cette chanson !",
         answer: "kiffe trop",
-        altAnswers: ["kiffe grave", "kiffe vraiment", "kiffe à mort", "kiffe"],
+        altAnswers: ["kiffe grave", "kiffe vraiment", "kiffe à mort"],
         explanation: "\"Kiffer\" (from Arabic \"kif\") = to love, to be into; \"trop\" or \"grave\" intensify it.",
       },
       {
@@ -2126,7 +2126,7 @@ export const FR_C1_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "In the north, people say ch'est for c'est.",
+        source: "In the north, people say \"ch'est\" for \"c'est\".",
         answer: "Dans le Nord, on dit « ch'est » pour « c'est ».",
         altAnswers: ["Dans le Nord, on dit ch'est pour c'est.", "Dans le Nord, les gens disent « ch'est » pour « c'est ».", "Dans le Nord, les gens disent ch'est pour c'est."],
         explanation: "\"Le Nord\" with a capital for the region; \"dire X pour Y\".",
@@ -2201,7 +2201,7 @@ export const FR_C1_U15: Lesson[] = [
           "But spoken Québec French is full of anglicisms, the result of two centuries of contact with English: \"canceller\" (to cancel), \"checker\" (to check), \"être game\" (to be up for it: \"t'es-tu game ?\"), \"c'est cute\", \"un chum\", \"le fun\", \"pas de trouble\", \"une job\" (feminine in Québec), and calques like \"faire du sens\" (to make sense; standard: \"avoir du sens\"), \"prendre une marche\" (to take a walk; standard: \"faire une promenade\"), \"appliquer sur un poste\" (to apply for a job; standard: \"postuler à\").",
         ],
         examples: [
-          { es: "Au Québec, les panneaux d'arrêt disent « ARRÊT ».", en: "In Quebec, stop signs say ARRET." },
+          { es: "Au Québec, les panneaux d'arrêt disent « ARRÊT ».", en: "In Quebec, stop signs say \"ARRÊT\"." },
           { es: "Ils ont cancellé le show à la dernière minute.", en: "They cancelled the show at the last minute. (Quebec, spoken)" },
           { es: "On fait du canot samedi, t'es-tu game ?", en: "We're going canoeing on Saturday, are you up for it? (Quebec)" },
           { es: "Je vais checker mes courriels.", en: "I'm going to check my emails. (Quebec, spoken)" },
@@ -2231,7 +2231,7 @@ export const FR_C1_U15: Lesson[] = [
       {
         heading: "France: le week-end, le parking, un mail",
         body: [
-          "The irony: France, which has the Académie française, uses more English words in everyday standard French than Québec does. Parisians say \"le week-end\", \"le parking\", \"un mail\" or \"un e-mail\", \"faire du shopping\", \"un smartphone\", \"le brunch\", \"liker\" un post, \"un open space\", \"une start-up\", \"un deadline\" or \"une deadline\", \"un meeting\", \"le babysitting\". In business, \"le feedback\", \"le call\", \"le brief\" are everywhere.",
+          "The irony: France, which has the Académie française, uses more English words in everyday standard French than Québec does. Parisians say \"le week-end\", \"le parking\", \"un mail\" or \"un e-mail\", \"faire du shopping\", \"un smartphone\", \"le brunch\", \"liker un post\", \"un open space\", \"une start-up\", \"un deadline\" or \"une deadline\", \"un meeting\", \"le babysitting\". In business, \"le feedback\", \"le call\", \"le brief\" are everywhere.",
           "Some anglicisms in France are false anglicisms, unknown in English: \"un footing\" (a jog), \"un relooking\" (a makeover), \"un brushing\" (a blow-dry), \"un pressing\" (a dry cleaner's), \"un camping\" (a campsite), \"un tennis\" (a trainer, shoe). They sound English but would confuse an English speaker.",
           "For a learner: in formal writing, prefer the French term (\"courriel\" or \"message\", \"date limite\", \"réunion\", \"retour\"); in everyday speech in France, the anglicism is often the natural word. In Québec, use the French term in writing and expect anglicisms in casual talk.",
         ],
@@ -2503,7 +2503,7 @@ export const FR_C1_U15: Lesson[] = [
         en: "[This lunchtime] I got a chocolate croissant. (Toulouse speaker said \"ce midi\")",
         sentence: "___, j'ai pris un pain au chocolat.",
         answer: "Ce midi",
-        altAnswers: ["À midi", "Ce midi-là"],
+        altAnswers: ["À midi"],
         explanation: "\"Ce midi\" (this lunchtime) is common across France; only \"chocolatine\" was regional.",
       },
       {
@@ -2657,7 +2657,7 @@ export const FR_C1_U15: Lesson[] = [
           "Adapting to local neutral usage shows respect and avoids misunderstandings. Imitating slang or accents too early can sound like mockery. And whatever you choose, be consistent within one message.",
         ],
         examples: [
-          { es: "À Bruxelles, j'ai fini par dire « septante » tout naturellement.", en: "In Brussels I ended up saying septante quite naturally." },
+          { es: "À Bruxelles, j'ai fini par dire « septante » tout naturellement.", en: "In Brussels I ended up saying \"septante\" quite naturally." },
           { es: "Je dis « dépanneur » parce que c'est le mot normal ici.", en: "I say \"dépanneur\" because it's the normal word here." },
           { es: "Je préfère ne pas imiter l'accent, ça pourrait paraître moqueur.", en: "I'd rather not imitate the accent, it could seem mocking." },
           { es: "Sois cohérent dans un même message.", en: "Be consistent within one message." },
@@ -2762,7 +2762,7 @@ export const FR_C1_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "In Brussels I ended up saying septante quite naturally.",
+        source: "In Brussels I ended up saying \"septante\" quite naturally.",
         answer: "À Bruxelles, j'ai fini par dire « septante » tout naturellement.",
         altAnswers: ["À Bruxelles, j'ai fini par dire septante tout naturellement.", "À Bruxelles, j'ai fini par dire « septante » tout à fait naturellement.", "À Bruxelles, j'ai fini par dire septante très naturellement."],
         explanation: "\"Finir par\" + infinitive = to end up doing.",

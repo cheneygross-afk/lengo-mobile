@@ -15,7 +15,7 @@ export const PT_B2_U09: Lesson[] = [
       {
         heading: "Mandioca, aipim, macaxeira: one root, many names",
         body: [
-          "Brazil is the size of a continent, and everyday things change name from region to region. Cassava is \"mandioca\" in São Paulo and the Centre-West, \"aipim\" in Rio, Bahia and the South, and \"macaxeira\" in most of the Nordeste and the North. All three are standard Portuguese. None of them is slang or a mistake.",
+          "Brazil is the size of a continent, and everyday things change name from region to region. Cassava is \"mandioca\" in São Paulo and the Center-West, \"aipim\" in Rio, Bahia and the South, and \"macaxeira\" in most of the Nordeste and the North. All three are standard Portuguese. None of them is slang or a mistake.",
           "The trap is assuming your textbook word is the Brazilian word. Order \"mandioca frita\" in Fortaleza and you'll be understood, but you'll sound like a tourist from São Paulo. In the Nordeste pumpkin is often \"jerimum\" rather than \"abóbora\", and a kid in Porto Alegre is a \"guri\" or a \"guria\".",
           "In formal writing, pick the most widely known word (\"mandioca\", \"abóbora\"). In conversation, follow the people around you.",
         ],
@@ -24,7 +24,7 @@ export const PT_B2_U09: Lesson[] = [
           { es: "No Rio, o aipim frito é um petisco clássico de bar.", en: "In Rio, fried cassava is a classic bar snack." },
           { es: "Em São Paulo, pedimos uma porção de mandioca frita.", en: "In São Paulo, we ordered a portion of fried cassava." },
           { es: "Na feira de Natal, o jerimum estava baratíssimo.", en: "At the market in Natal, pumpkin was really cheap." },
-          { es: "O guri do vizinho já está na escola.", en: "The neighbour's kid is already at school. (Porto Alegre)" },
+          { es: "O guri do vizinho já está na escola.", en: "The neighbor's kid is already at school. (Porto Alegre)" },
         ],
         checkpoint: [
           {
@@ -54,7 +54,7 @@ export const PT_B2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Traffic lights, bread rolls and biscuits",
+        heading: "Traffic lights, bread rolls and cookies",
         body: [
           "City words vary just as much. A traffic light is \"semáforo\" on road signs and in the news. People say \"sinal\" in Rio and much of the country, \"farol\" in São Paulo and \"sinaleira\" in Porto Alegre and Salvador. A light that turns red \"fecha\", and one that turns green \"abre\".",
           "At the padaria, the everyday crusty roll is \"pão francês\" in São Paulo, \"pão de sal\" in Minas Gerais and \"cacetinho\" in Rio Grande do Sul. Never start the \"bolacha\" vs \"biscoito\" argument lightly: paulistas say \"bolacha\", cariocas say \"biscoito\", and each side insists the other is wrong.",
@@ -65,7 +65,7 @@ export const PT_B2_U09: Lesson[] = [
           { es: "O sinal fechou bem na nossa frente.", en: "The light turned red right in front of us. (Rio)" },
           { es: "Em Porto Alegre, todo mundo espera a sinaleira abrir.", en: "In Porto Alegre, everyone waits for the light to turn green." },
           { es: "Me vê dez pães de sal, por favor.", en: "Ten bread rolls, please. (Belo Horizonte)" },
-          { es: "Você quer uma bolacha de chocolate?", en: "Do you want a chocolate biscuit? (São Paulo)" },
+          { es: "Você quer uma bolacha de chocolate?", en: "Do you want a chocolate cookie? (São Paulo)" },
           { es: "Minha avó gaúcha sempre traz bergamota da feira.", en: "My grandmother from the South always brings tangerines from the market." },
         ],
         checkpoint: [
@@ -92,7 +92,7 @@ export const PT_B2_U09: Lesson[] = [
         heading: "Como vocês chamam isso aqui?",
         body: [
           "When you don't know the local word, ask. The most natural question is \"Como vocês chamam isso aqui?\", pointing at the thing. To check a word you already know, try \"Aqui vocês falam aipim ou mandioca?\" or \"Isso é o mesmo que tangerina?\".",
-          "Here \"vocês\" means 'you people from this place'. The question shows curiosity, not judgement, and Brazilians love it; it often starts a long, friendly chat. Avoid \"Qual é a palavra certa?\", because it suggests that one region is right and the other is wrong.",
+          "Here \"vocês\" means 'you people from this place'. The question shows curiosity, not judgment, and Brazilians love it; it often starts a long, friendly chat. Avoid \"Qual é a palavra certa?\", because it suggests that one region is right and the other is wrong.",
         ],
         examples: [
           { es: "Como vocês chamam isso aqui?", en: "What do you call this here?" },
@@ -150,7 +150,7 @@ export const PT_B2_U09: Lesson[] = [
         type: "listen-choose",
         audio: "O sinal fechou.",
         question: "What does it mean?",
-        options: ["The traffic light turned red.", "The traffic light turned green.", "The shop closed.", "The signal was lost."],
+        options: ["The traffic light turned red.", "The traffic light turned green.", "The store closed.", "The signal was lost."],
         correctIndex: 0,
         explanation: "A traffic light \"fecha\" (turns red) and \"abre\" (turns green). \"Sinal\" is the word in Rio and much of Brazil.",
       },
@@ -247,7 +247,7 @@ export const PT_B2_U09: Lesson[] = [
           "It's the quickest way to spot a \"carioca\", but Belém and Florianópolis have it too, and Recife hushes only before t and d: \"festa\" yes, \"mesmo\" no. Between vowels and at the start of a word, the s sounds the same everywhere.",
         ],
         examples: [
-          { es: "Vamos à festa depois das dez?", en: "Shall we go to the party after ten?" },
+          { es: "Vamos à festa depois das dez?", en: "Should we go to the party after ten?" },
           { es: "Custa dois reais e cinquenta.", en: "It costs two reais fifty." },
           { es: "O carioca chia no s.", en: "People from Rio hush their s's." },
           { es: "Faz anos que ele mora em Curitiba, mas ainda chia.", en: "He's lived in Curitiba for years, but he still hushes his s's." },
@@ -368,7 +368,7 @@ export const PT_B2_U09: Lesson[] = [
             source: "Good morning, auntie! Do you want some hot milk?",
             answer: "Bom dia, tia! Você quer um leite quente?",
             altAnswers: ["Bom dia, tia! Quer um leite quente?", "Bom dia, tia! A senhora quer um leite quente?", "Bom dia, tia! Você quer leite quente?", "Bom dia, tia! Quer leite quente?"],
-            explanation: "\"Bom dia\" and \"tia\" both have d or t before an i sound. In Rio they're 'jia' and 'chia'; in Recife they stay hard.",
+            explanation: "\"Bom dia\" and \"tia\" both have d or t before an i sound. In Rio they're 'djia' and 'tchia'; in Recife they stay hard.",
           },
         ],
       },
@@ -552,13 +552,13 @@ export const PT_B2_U09: Lesson[] = [
     level: "PT-B2",
     number: 3,
     title: "Tu Vais, Tu Vai: Tu Across Brazil",
-    summary: "Recognise tu the way Brazilians use it, with the standard verb (tu vais) in parts of the South and North and with the você verb (tu vai) in everyday speech, while writing você yourself.",
+    summary: "Recognize tu the way Brazilians use it, with the standard verb (tu vais) in parts of the South and North and with the você verb (tu vai) in everyday speech, while writing você yourself.",
     duration: "14 min",
     sections: [
       {
         heading: "Where Brazilians say tu",
         body: [
-          "\"Você\" is the you of most of Brazil, and it's the one this course writes. In Rio Grande do Sul, much of Santa Catarina, Pará, Maranhão, Pernambuco and other parts of the Nordeste, friends and family say \"tu\". Many cariocas mix \"tu\" and \"você\" in casual speech. São Paulo, Minas Gerais and the Centre-West stick to \"você\" or \"cê\".",
+          "\"Você\" is the you of most of Brazil, and it's the one this course writes. In Rio Grande do Sul, much of Santa Catarina, Pará, Maranhão, Pernambuco and other parts of the Nordeste, friends and family say \"tu\". Many cariocas mix \"tu\" and \"você\" in casual speech. São Paulo, Minas Gerais and the Center-West stick to \"você\" or \"cê\".",
           "Brazilian \"tu\" is informal and never shows respect. It takes the place of \"você\", while \"o senhor\" and \"a senhora\" still go to older people and customers. People in tu regions also understand and use \"você\", so a learner loses nothing by sticking with it. Outside those regions, \"tu\" sounds regional, not friendlier.",
           "Whichever pronoun people use, the object is \"te\" everywhere: \"te ligo amanhã\".",
         ],
@@ -782,7 +782,7 @@ export const PT_B2_U09: Lesson[] = [
     level: "PT-B2",
     number: 4,
     title: "Brazil and Portugal: Grammar",
-    summary: "Recognise the grammar of European Portuguese (estar a + infinitive, tu, pronouns after the verb, the article before possessives) and keep your own Portuguese Brazilian.",
+    summary: "Recognize the grammar of European Portuguese (estar a + infinitive, tu, pronouns after the verb, the article before possessives) and keep your own Portuguese Brazilian.",
     duration: "15 min",
     kind: "teach",
     sections: [
@@ -894,7 +894,7 @@ export const PT_B2_U09: Lesson[] = [
         heading: "O meu carro, meu carro: possessives and other clues",
         body: [
           "Portugal almost always puts the article before a possessive: \"o meu carro\", \"a minha casa\", \"os teus pais\". In Brazil the article is optional and often dropped in speech: \"meu carro está na oficina\". Both versions are correct Brazilian Portuguese. A text that never drops the article simply leans European.",
-          "To recognise a European text, add up the clues instead of trusting just one: \"a\" + infinitive after \"estar\", \"tu\" with -s verbs, pronouns hyphenated after a subject (\"ela chama-se\"), and the article on every possessive. Accents help too: Portugal writes \"António\" and \"económico\" where Brazil writes \"Antônio\" and \"econômico\".",
+          "To recognize a European text, add up the clues instead of trusting just one: \"a\" + infinitive after \"estar\", \"tu\" with -s verbs, pronouns hyphenated after a subject (\"ela chama-se\"), and the article on every possessive. Accents help too: Portugal writes \"António\" and \"económico\" where Brazil writes \"Antônio\" and \"econômico\".",
         ],
         examples: [
           { es: "O meu irmão mora em Curitiba.", en: "My brother lives in Curitiba. (both)" },
@@ -915,7 +915,7 @@ export const PT_B2_U09: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "My car is at the garage.",
+            source: "My car is in the shop.",
             answer: "Meu carro está na oficina.",
             altAnswers: ["O meu carro está na oficina."],
             explanation: "In Brazil the article before a possessive is optional, so \"meu carro\" and \"o meu carro\" are both right.",
@@ -945,7 +945,7 @@ export const PT_B2_U09: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "My friends [are playing] football on the beach.",
+        en: "My friends [are playing] soccer on the beach.",
         sentence: "Meus amigos ___ futebol na praia.",
         answer: "estão jogando",
         explanation: "\"Estão jogando\" is the Brazilian progressive. The European \"a\" + infinitive would mark the sentence as Portuguese from Portugal.",
@@ -1029,14 +1029,14 @@ export const PT_B2_U09: Lesson[] = [
     level: "PT-B2",
     number: 5,
     title: "Brazil and Portugal: Words",
-    summary: "Recognise the everyday words that differ between Portugal and Brazil, from autocarro and telemóvel to the traps rapariga and bicha, and use the Brazilian ones.",
+    summary: "Recognize the everyday words that differ between Portugal and Brazil, from autocarro and telemóvel to the traps rapariga and bicha, and use the Brazilian ones.",
     duration: "12 min",
     sections: [
       {
         heading: "Ônibus, trem, metrô: getting around",
         body: [
           "Brazil and Portugal share their grammar, but many everyday words differ. In Lisbon you wait for the \"autocarro\" or the \"comboio\". In Brazil it's the \"ônibus\" and the \"trem\". The subway is \"metrô\" in Brazil, stressed on the closed final ô, and \"metro\" in Portugal.",
-          "The verb changes too. A Portuguese person \"apanha\" the bus, and a Brazilian \"pega\" it. In Brazil \"apanhar\" most often means to take a beating, so \"apanhei o ônibus\" sounds strange at best. A lift is a \"carona\" in Brazil and a \"boleia\" in Portugal.",
+          "The verb changes too. A Portuguese person \"apanha\" the bus, and a Brazilian \"pega\" it. In Brazil \"apanhar\" most often means to take a beating, so \"apanhei o ônibus\" sounds strange at best. A ride is a \"carona\" in Brazil and a \"boleia\" in Portugal.",
         ],
         examples: [
           { es: "Vou pegar o ônibus para o centro.", en: "I'm going to take the bus downtown." },
@@ -1109,8 +1109,8 @@ export const PT_B2_U09: Lesson[] = [
         heading: "Moça, not rapariga",
         body: [
           "In Portugal \"rapariga\" is the neutral word for girl, the partner of \"rapaz\" (boy). In Brazil, above all in the Nordeste, it's an insult meaning a promiscuous woman or a prostitute. Don't use it here, not even as a joke.",
-          "Brazilians say \"moça\" (young woman, and a polite way to call a shop assistant: \"Moça, por favor\"). They also say \"menina\" (girl, and among friends any woman) and \"garota\" (girl, a bit more casual). \"Rapaz\" is safe in both countries.",
-          "A second trap: in Portugal people traditionally queue in a \"bicha\". In Brazil that word is an offensive slur for a gay man. A queue here is a \"fila\".",
+          "Brazilians say \"moça\" (young woman, and a polite way to call a store clerk: \"Moça, por favor\"). They also say \"menina\" (girl, and among friends any woman) and \"garota\" (girl, a bit more casual). \"Rapaz\" is safe in both countries.",
+          "A second trap: in Portugal people traditionally stand in a \"bicha\" (a line). In Brazil that word is an offensive slur for a gay man. A line here is a \"fila\".",
         ],
         examples: [
           { es: "Aquela moça trabalha na padaria.", en: "That young woman works at the bakery." },
@@ -1123,7 +1123,7 @@ export const PT_B2_U09: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "You're in a shop in Recife and want the attention of a young woman who works there. What do you say?",
+            question: "You're in a store in Recife and want the attention of a young woman who works there. What do you say?",
             options: ["Moça, por favor!", "Rapariga, por favor!", "Menino, por favor!", "Senhor, por favor!"],
             correctIndex: 0,
             explanation: "\"Moça\" is the polite, everyday way to address a young woman in Brazil. \"Rapariga\" is neutral in Portugal but offensive in Brazil, especially in the Nordeste.",
@@ -1135,7 +1135,7 @@ export const PT_B2_U09: Lesson[] = [
             source: "The line at the bakery is huge.",
             answer: "A fila da padaria está enorme.",
             altAnswers: ["A fila na padaria está enorme.", "A fila da padaria tá enorme.", "A fila na padaria tá enorme."],
-            explanation: "A queue is a \"fila\" in Brazil. Avoid the European \"bicha\", which is a slur here. \"Estar\" is used because the line is huge right now.",
+            explanation: "A line is a \"fila\" in Brazil. Avoid the European \"bicha\", which is a slur here. \"Estar\" is used because the line is huge right now.",
           },
         ],
       },
@@ -1172,7 +1172,7 @@ export const PT_B2_U09: Lesson[] = [
         prompt: "Put the words in order to say: Can you give me a ride?",
         words: ["Você", "me", "dá", "uma", "carona?"],
         translation: "Can you give me a ride?",
-        explanation: "A lift is \"carona\" in Brazil (\"boleia\" in Portugal). The pronoun goes before the verb in Brazilian speech: \"você me dá\".",
+        explanation: "A ride is \"carona\" in Brazil (\"boleia\" in Portugal). The pronoun goes before the verb in Brazilian speech: \"você me dá\".",
       },
       {
         type: "fill-blank",
@@ -1198,8 +1198,8 @@ export const PT_B2_U09: Lesson[] = [
           { left: "trem", right: "train" },
           { left: "celular", right: "cell phone" },
           { left: "café da manhã", right: "breakfast" },
-          { left: "carona", right: "ride, lift" },
-          { left: "fila", right: "line, queue" },
+          { left: "carona", right: "ride (in a car)" },
+          { left: "fila", right: "line (of people)" },
         ],
         explanation: "These are the Brazilian forms. In Portugal they'd be \"autocarro\", \"comboio\", \"telemóvel\", \"pequeno-almoço\", \"boleia\" and often \"bicha\".",
       },
@@ -1496,7 +1496,7 @@ export const PT_B2_U09: Lesson[] = [
         heading: "At the airport: oxe, eita and visse",
         body: [
           "Lucas, a paulistano, lands in Recife, and his friend Camila picks him up. You already know all the grammar. What changes first is a set of small words that carry a lot of meaning. \"Oxe\" (or \"oxente\") signals surprise or mild disbelief, close to 'what?!' or 'come on'. \"Eita\" is 'whoa', for anything striking, good or bad.",
-          "\"Visse?\" closes a sentence the way \"né?\" does in São Paulo: it checks that you agree, or it softens advice. It comes from \"tu visse\", the Pernambuco past of \"ver\" (standard \"tu viste\": did you see?), but nobody hears it as a verb any more. As a visitor, go easy: one well-timed \"oxe\" sounds friendly, but five sound like a parody.",
+          "\"Visse?\" closes a sentence the way \"né?\" does in São Paulo: it checks that you agree, or it softens advice. It comes from \"tu visse\", the Pernambuco past of \"ver\" (standard \"tu viste\": did you see?), but nobody hears it as a verb anymore. As a visitor, go easy: one well-timed \"oxe\" sounds friendly, but five sound like a parody.",
         ],
         examples: [
           { es: "Oxe, você já chegou? O voo não era às onze?", en: "What, you're here already? Wasn't your flight at eleven?" },
@@ -1681,9 +1681,9 @@ export const PT_B2_U09: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: What do you call this sweet here?",
+        prompt: "Put the words in order to say: What do you call this candy here?",
         words: ["Como", "vocês", "chamam", "esse", "doce", "aqui?"],
-        translation: "What do you call this sweet here?",
+        translation: "What do you call this candy here?",
         altOrders: [["Como", "vocês", "chamam", "aqui", "esse", "doce?"]],
         explanation: "\"Como\" + subject + \"chamar\" + the thing. \"Vocês\" includes the locals in general, not just the vendor.",
       },
@@ -1733,7 +1733,7 @@ export const PT_B2_U09: Lesson[] = [
       {
         heading: "Preconceito linguístico: judging people by their speech",
         body: [
-          "\"Preconceito linguístico\" is judging people by how they speak: laughing at the caipira r, or calling someone ignorant for saying \"os menino\" or \"nós vai\". The linguist Marcos Bagno popularised the term in a 1999 book of the same name, and Brazilian schools and universities still read it.",
+          "\"Preconceito linguístico\" is judging people by how they speak: laughing at the caipira r, or calling someone ignorant for saying \"os menino\" or \"nós vai\". The linguist Marcos Bagno popularized the term in a 1999 book of the same name, and Brazilian schools and universities still read it.",
           "Linguists separate the \"norma culta\" (the variety of formal writing and schooling) from the many \"variedades\" Brazilians actually speak. Non-standard forms follow rules of their own. \"Os menino\" marks the plural once, on the article: that is a system, not chaos. So linguists prefer \"adequado\" or \"inadequado\" for the situation over \"certo\" and \"errado\".",
           "False friend: \"prejuízo\" means loss or damage. Prejudice is \"preconceito\", and a biased person is \"preconceituoso\".",
         ],
@@ -1809,13 +1809,13 @@ export const PT_B2_U09: Lesson[] = [
       {
         heading: "Discussing it: the vocabulary of the debate",
         body: [
-          "The key words: \"estigma\" and \"estigmatizado\" (stigmatised), \"prestígio\" (\"a variedade de prestígio\"), \"escolaridade\" (level of schooling), \"ridicularizar\", \"zombar de\" (to make fun of), \"valorizar\", \"desvalorizar\" and \"combater\" (to fight against).",
+          "The key words: \"estigma\" and \"estigmatizado\" (stigmatized), \"prestígio\" (\"a variedade de prestígio\"), \"escolaridade\" (level of schooling), \"ridicularizar\", \"zombar de\" (to make fun of), \"valorizar\", \"desvalorizar\" and \"combater\" (to fight against).",
           "The usual argument is that linguistic prejudice hides social prejudice. The varieties people mock belong to the poor, to rural areas and to poorer regions. The prestige variety belongs to people who had good schools. Most linguists still defend the norm: they want school to teach it as an extra tool without telling students their own speech is wrong.",
           "This is opinion territory, so your subjunctives come back: \"não acho que exista\", \"é importante que a escola ensine\", \"embora a norma seja útil\".",
         ],
         examples: [
           { es: "O preconceito linguístico costuma esconder um preconceito social.", en: "Linguistic prejudice usually hides social prejudice." },
-          { es: "As variedades das classes mais pobres são as mais estigmatizadas.", en: "The varieties of the poorest classes are the most stigmatised." },
+          { es: "As variedades das classes mais pobres são as mais estigmatizadas.", en: "The varieties of the poorest classes are the most stigmatized." },
           { es: "É importante que a escola ensine a norma culta sem desvalorizar a fala dos alunos.", en: "It's important for schools to teach the standard without devaluing the way students speak." },
           { es: "Não acho que exista um português mais bonito do que outro.", en: "I don't think one kind of Portuguese is more beautiful than another." },
           { es: "Embora a norma seja útil, ela não é a única forma legítima de falar.", en: "Although the standard is useful, it isn't the only legitimate way to speak." },
@@ -1896,7 +1896,7 @@ export const PT_B2_U09: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The way she speaks is [stigmatised] in big cities.",
+        en: "The way she speaks is [stigmatized] in big cities.",
         sentence: "O jeito como ela fala é ___ nas grandes cidades.",
         answer: "estigmatizado",
         explanation: "The participle agrees with \"o jeito\", so it is masculine singular: \"estigmatizado\".",
@@ -1940,7 +1940,7 @@ export const PT_B2_U09: Lesson[] = [
     level: "PT-B2",
     number: 9,
     title: "Real-World Mission: A Regional Guide",
-    summary: "Write a friendly guide for a friend travelling to another region of Brazil, covering local words, food and expressions, with the future subjunctive for advice.",
+    summary: "Write a friendly guide for a friend traveling to another region of Brazil, covering local words, food and expressions, with the future subjunctive for advice.",
     duration: "15 min",
     sections: [
       {
@@ -2245,7 +2245,7 @@ export const PT_B2_U09: Lesson[] = [
     level: "PT-B2",
     number: 10,
     title: "Spiral Review: Varieties of Portuguese",
-    summary: "Mixed practice recognising regional and European Portuguese, adapting them to standard Brazilian usage, and talking about accents with your B2 grammar.",
+    summary: "Mixed practice recognizing regional and European Portuguese, adapting them to standard Brazilian usage, and talking about accents with your B2 grammar.",
     duration: "15 min",
     sections: [
       {
@@ -2346,7 +2346,7 @@ export const PT_B2_U09: Lesson[] = [
       {
         heading: "Talking about accents and prejudice",
         body: [
-          "Brazilians talk openly about \"preconceito linguístico\". Mocking a Nordeste accent or a caipira r is a social judgement, not a point of grammar. The norma culta is the standard for formal writing, but that doesn't make any accent wrong.",
+          "Brazilians talk openly about \"preconceito linguístico\". Mocking a Nordeste accent or a caipira r is a social judgment, not a point of grammar. The norma culta is the standard for formal writing, but that doesn't make any accent wrong.",
           "Accents differ in sound, not in correctness. The carioca s sounds like sh before a consonant. The caipira r curls back. In much of the Nordeste the t before i stays a plain t.",
           "These debates are a good place for your B2 tools. Use \"embora\" + subjunctive to concede, \"como se\" + imperfect subjunctive for an attitude you reject, and \"se eu morasse...\" to imagine. In formal writing, impersonal \"havia\" stays singular.",
         ],
@@ -2515,6 +2515,6 @@ export const PT_B2_U09_WRITING: WriteExercise = {
     "Describe at least one regional feature of speech, such as \"bah\" and \"tri\" in the South, \"oxe\" and \"visse\" in the Nordeste, or the dry t in \"tia\" in Recife.",
     "End with advice using \"se\" or \"quando\" and the future subjunctive (\"se alguém comentar\", \"quando você chegar\") and a friendly sign-off.",
   ],
-  modelAnswer: "Oi, Inês! Que bom que você vai passar um ano no Brasil! Como você vai morar em Porto Alegre e depois conhecer Recife, preparei umas dicas.\n\nPrimeiro, algumas palavras do dia a dia são diferentes das de Portugal. Aqui você pega ônibus e trem, liga do celular e toma café da manhã na padaria.\n\nA comida também muda de nome conforme a região. Em Porto Alegre, a mandioca se chama \"aipim\" e o pão francês é o \"cacetinho\". Em Recife, você vai pedir \"macaxeira\". Até o semáforo muda: no Sul é \"sinaleira\", no Nordeste é \"sinal\".\n\nQuanto ao sotaque, os gaúchos falam com uma melodia própria e dizem muito \"bah\" e \"tri\". No Nordeste, as vogais são mais abertas, o t de \"tia\" é mais seco, e você vai ouvir muito \"oxe\" e \"visse\".\n\nUm último conselho: se alguém comentar o seu sotaque, não leve a mal. E, se você não entender uma palavra, pergunte: \"Como vocês chamam isso aqui?\" Ninguém fala \"errado\"; cada região tem o seu jeito.\n\nQuando você chegar, me avisa!\nBeijos,\nMariana",
+  modelAnswer: "Oi, Inês! Que bom que você vai passar um ano no Brasil! Como você vai morar em Porto Alegre e depois conhecer Recife, preparei umas dicas.\n\nPrimeiro, algumas palavras do dia a dia são diferentes das de Portugal. Aqui você pega ônibus e trem, liga do celular e toma café da manhã na padaria.\n\nA comida também muda de nome conforme a região. Em Porto Alegre, a mandioca se chama \"aipim\" e o pão francês é o \"cacetinho\". Em Recife, você vai pedir \"macaxeira\". Até o semáforo muda: em Porto Alegre é \"sinaleira\", em Recife é \"sinal\".\n\nQuanto ao sotaque, os gaúchos falam com uma melodia própria e dizem muito \"bah\" e \"tri\". No Nordeste, as vogais são mais abertas, o t de \"tia\" é mais seco, e você vai ouvir muito \"oxe\" e \"visse\".\n\nUm último conselho: se alguém comentar o seu sotaque, não leve a mal. E, se você não entender uma palavra, pergunte: \"Como vocês chamam isso aqui?\" Ninguém fala \"errado\"; cada região tem o seu jeito.\n\nQuando você chegar, me avisa!\nBeijos,\nMariana",
   explanation: "The message gives the everyday Brazilian words a visitor from Portugal needs: \"ônibus\", \"trem\", \"celular\" and \"café da manhã\". It ties each regional word to a place: \"aipim\", \"cacetinho\" and \"sinaleira\" in Porto Alegre, \"macaxeira\" and \"sinal\" in Recife. The advice uses \"se\" and \"quando\" with the future subjunctive (\"se alguém comentar\", \"se você não entender\", \"quando você chegar\"). It places the pronoun before the verb, as Brazilians do (\"se chama\", \"me avisa\"). It also mixes the standard imperative \"pergunte\" with the everyday \"me avisa\", which suits a friendly message.",
 };

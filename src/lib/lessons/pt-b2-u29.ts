@@ -15,11 +15,11 @@ export const PT_B2_U29: Lesson[] = [
       {
         heading: "Aparece lá em casa: invitations and what to bring",
         body: [
-          "\"Aparece lá em casa\" (come round to my place) is often warmth rather than a plan. An invitation becomes real when it has a day and a time: \"sábado, às sete, lá em casa\". When it's real, ask \"posso levar alguma coisa?\". The usual answer, \"não precisa, só traz você\" (no need, just bring yourself), is polite, not literal: bring something small anyway.",
+          "\"Aparece lá em casa\" (come over to my place) is often warmth rather than a plan. An invitation becomes real when it has a day and a time: \"sábado, às sete, lá em casa\". When it's real, ask \"posso levar alguma coisa?\". The usual answer, \"não precisa, só traz você\" (no need, just bring yourself), is polite, not literal: bring something small anyway.",
           "Turning up empty-handed to a dinner \"pega mal\" (looks bad). Wine, a dessert, beer or soft drinks for a churrasco, or flowers for the host are all safe. Notice the grammar of social norms: \"pega mal\" takes an infinitive (\"pega mal chegar de mãos vazias\"), while \"é comum que\" and \"não pega bem que\" take the subjunctive (\"é comum que o convidado leve uma sobremesa\").",
         ],
         examples: [
-          { es: "Aparece lá em casa qualquer dia desses!", en: "Come round to my place one of these days!" },
+          { es: "Aparece lá em casa qualquer dia desses!", en: "Come over to my place one of these days!" },
           { es: "Sábado, às sete, lá em casa. Você vem?", en: "Saturday at seven, at my place. Are you coming?" },
           { es: "Posso levar alguma coisa?", en: "Can I bring anything?" },
           { es: "Não precisa, só traz você!", en: "No need, just bring yourself!" },
@@ -63,7 +63,7 @@ export const PT_B2_U29: Lesson[] = [
         heading: "Entra, fica à vontade: being a guest",
         body: [
           "The host's first lines are formulas: \"entra, fica à vontade\" (come in, make yourself comfortable), \"a casa é sua\" (make yourself at home) and, more formally or in writing, \"sinta-se em casa\". They're warm, not literal: you still ask before you open the fridge (\"posso pegar uma água?\"). Note the crase in \"à vontade\".",
-          "Food and drink are offered more than once. \"Aceita um cafezinho?\" and \"come mais um pouquinho\" are a form of care, and a first \"não, obrigado\" is often heard as mere politeness, so the host insists. To really decline, soften it and give a reason: \"tô satisfeito, sério, estava uma delícia\". To accept: \"só um pouquinho, então\". Never say \"estou cheio\" for full: it means I'm fed up.",
+          "Food and drink are offered more than once. \"Aceita um cafezinho?\" and \"come mais um pouquinho\" are a form of care, and a first \"não, obrigado\" is often heard as mere politeness, so the host insists. To really decline, soften it and give a reason: \"tô satisfeito, sério, estava uma delícia\". To accept: \"só um pouquinho, então\". Say \"estou satisfeito\" for full: \"estou cheio\" is heard but can sound blunt, and \"estar cheio\" also means to be fed up.",
         ],
         examples: [
           { es: "Entra, fica à vontade!", en: "Come in, make yourself comfortable!" },
@@ -98,7 +98,7 @@ export const PT_B2_U29: Lesson[] = [
               "Estou satisfeito, sério. Estava delicioso!",
               "Estou satisfeita, sério. Estava delicioso!",
             ],
-            explanation: "Full after a meal is \"satisfeito\" / \"satisfeita\"; \"estou cheio\" means I'm fed up. The compliment \"estava uma delícia\" softens the refusal.",
+            explanation: "Full after a meal is \"satisfeito\" / \"satisfeita\"; \"estou cheio\" is heard too, but it sounds blunter and can also mean I'm fed up. The compliment \"estava uma delícia\" softens the refusal.",
           },
           {
             type: "listen-choose",
@@ -156,7 +156,7 @@ export const PT_B2_U29: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Come round to my place one of these days!",
+        source: "Come over to my place one of these days!",
         answer: "Aparece lá em casa qualquer dia desses!",
         altAnswers: [
           "Aparece lá em casa um dia desses!",
@@ -256,7 +256,7 @@ export const PT_B2_U29: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "aparece lá em casa", right: "come round to my place" },
+          { left: "aparece lá em casa", right: "come over to my place" },
           { left: "fica à vontade", right: "make yourself comfortable" },
           { left: "vou indo", right: "I'd better get going" },
           { left: "sair à francesa", right: "leave without saying goodbye" },
@@ -279,7 +279,7 @@ export const PT_B2_U29: Lesson[] = [
       {
         heading: "Horário brasileiro: social time and work time",
         body: [
-          "Brazilians joke about \"horário brasileiro\": a party \"às oito\" really starts around nine, and arriving at eight sharp can catch the host still in the shower. At a birthday or a churrasco it's normal for guests to turn up thirty to sixty minutes late, and nobody apologises for it.",
+          "Brazilians joke about \"horário brasileiro\": a party \"às oito\" really starts around nine, and arriving at eight sharp can catch the host still in the shower. At a birthday or a churrasco it's normal for guests to turn up thirty to sixty minutes late, and nobody apologizes for it.",
           "Work is different. Meetings, job interviews, doctors, flights and exams start on time, and a lateness there needs an apology and a reason. A useful rule: if a stranger or an institution sets the time, be punctual; if friends set it, add half an hour. When in doubt, ask: \"é pra chegar às oito mesmo?\" (do you really mean eight?).",
         ],
         examples: [
@@ -306,7 +306,7 @@ export const PT_B2_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A new friend invites you to her birthday party \"às oito\" at her flat. When do you arrive?",
+            question: "A new friend invites you to her birthday party \"às oito\" at her apartment. When do you arrive?",
             options: ["Around half past eight or nine.", "At a quarter to eight, to help.", "At eight sharp.", "After eleven."],
             correctIndex: 0,
             explanation: "For a party among friends, \"às oito\" is a rough start. Thirty to sixty minutes later is normal; very early is awkward unless you offered to help.",
@@ -316,11 +316,11 @@ export const PT_B2_U29: Lesson[] = [
       {
         heading: "Marcar, desmarcar, furar: making and breaking plans",
         body: [
-          "\"Marcar\" is to set up a plan (\"vamos marcar um café\"), \"desmarcar\" to call it off and \"remarcar\" to move it. Cancelling \"em cima da hora\" (at the last minute) is frowned on, and simply not showing up is \"furar\": \"ele furou comigo de novo\" (he bailed on me again). \"Dar um bolo em alguém\" means the same: to stand someone up.",
+          "\"Marcar\" is to set up a plan (\"vamos marcar um café\"), \"desmarcar\" to call it off and \"remarcar\" to move it. Canceling \"em cima da hora\" (at the last minute) is frowned on, and simply not showing up is \"furar\": \"ele furou comigo de novo\" (he bailed on me again). \"Dar um bolo em alguém\" means the same: to stand someone up.",
           "Lateness has its own vocabulary. \"Tô chegando\" (I'm almost there) is famous for being optimistic: it can be said while still at home. \"Tô saindo agora\" (I'm leaving now) is more honest, and a quick \"vou atrasar uns quinze minutos\" by message is the polite norm. Brazilians forgive lateness much more easily than silence.",
         ],
         examples: [
-          { es: "Vamos marcar um café na semana que vem?", en: "Shall we arrange a coffee next week?" },
+          { es: "Vamos marcar um café na semana que vem?", en: "Should we get together for coffee next week?" },
           { es: "Tive que desmarcar o dentista, posso remarcar para sexta?", en: "I had to cancel the dentist, can I move it to Friday?" },
           { es: "Ele furou comigo de novo, em cima da hora.", en: "He bailed on me again, at the last minute." },
           { es: "Ela me deu um bolo no sábado.", en: "She stood me up on Saturday." },
@@ -405,7 +405,7 @@ export const PT_B2_U29: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Shall we arrange a coffee next week?",
+        source: "Should we get together for coffee next week?",
         answer: "Vamos marcar um café na semana que vem?",
         altAnswers: ["Vamos marcar um café semana que vem?", "Vamos marcar um café na próxima semana?", "Bora marcar um café na semana que vem?", "Que tal marcar um café na semana que vem?"],
         explanation: "\"Marcar\" is to arrange or set up a plan. \"Na semana que vem\" and \"na próxima semana\" both mean next week.",
@@ -439,17 +439,17 @@ export const PT_B2_U29: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "He cancelled [at the last minute].",
+        en: "He canceled [at the last minute].",
         sentence: "Ele desmarcou ___.",
         answer: "em cima da hora",
-        explanation: "\"Em cima da hora\" (literally on top of the hour) is at the last minute, the kind of cancelling that annoys people.",
+        explanation: "\"Em cima da hora\" (literally on top of the hour) is at the last minute, the kind of canceling that annoys people.",
       },
       {
         type: "multiple-choice",
         question: "You're running twenty minutes late to meet a friend. Which message is the most honest and polite?",
         options: ["Vou atrasar uns vinte minutos, desculpa!", "Tô chegando!", "Já cheguei.", "Vou furar, foi mal."],
         correctIndex: 0,
-        explanation: "Giving a realistic delay and apologising is the norm. \"Tô chegando\" is often too optimistic, and \"vou furar\" means you're not coming at all.",
+        explanation: "Giving a realistic delay and apologizing is the norm. \"Tô chegando\" is often too optimistic, and \"vou furar\" means you're not coming at all.",
       },
       {
         type: "word-order",
@@ -536,7 +536,7 @@ export const PT_B2_U29: Lesson[] = [
         ],
         examples: [
           { es: "Não tem mais vaga, mas vou ver se dou um jeito.", en: "There are no places left, but I'll see if I can sort something out." },
-          { es: "O vizinho quebrou o galho e me emprestou a furadeira.", en: "My neighbour helped me out and lent me his drill." },
+          { es: "O vizinho quebrou o galho e me emprestou a furadeira.", en: "My neighbor helped me out and lent me his drill." },
           { es: "Esse carregador não é o ideal, mas quebra o galho.", en: "This charger isn't ideal, but it'll do for now." },
           { es: "Fica tranquila, a gente dá um jeito.", en: "Don't worry, we'll find a way." },
           { es: "O mecânico deu um jeitinho e o carro voltou a funcionar.", en: "The mechanic worked his magic and the car started running again." },
@@ -575,11 +575,11 @@ export const PT_B2_U29: Lesson[] = [
       {
         heading: "Furar a fila, levar vantagem: the dark side",
         body: [
-          "The same jeitinho can slide into rule-breaking: \"furar a fila\" (to jump the queue), \"dar uma carteirada\" (to pull rank, flashing an ID or a title), \"molhar a mão\" (to grease someone's palm) or the famous \"você sabe com quem está falando?\" (do you know who you're talking to?). Brazilians themselves criticise this side harshly.",
-          "\"Levar vantagem\" is to get the upper hand; the \"Lei de Gérson\", after a 1970s cigarette advert in which a footballer said he liked to \"levar vantagem em tudo\", names the habit of always looking for an edge at others' expense. In discussion, people separate \"o jeitinho\" that solves a problem from \"a malandragem\" (crafty dishonesty) or \"a corrupção\" that harms someone else.",
+          "The same jeitinho can slide into rule-breaking: \"furar a fila\" (to cut in line), \"dar uma carteirada\" (to pull rank, flashing an ID or a title), \"molhar a mão\" (to grease someone's palm) or the famous \"você sabe com quem está falando?\" (do you know who you're talking to?). Brazilians themselves criticize this side harshly.",
+          "\"Levar vantagem\" is to get the upper hand; the \"Lei de Gérson\", after a 1970s cigarette ad in which a soccer player said he liked to \"levar vantagem em tudo\", names the habit of always looking for an edge at others' expense. In discussion, people separate \"o jeitinho\" that solves a problem from \"a malandragem\" (crafty dishonesty) or \"a corrupção\" that harms someone else.",
         ],
         examples: [
-          { es: "Pega muito mal furar a fila no banco.", en: "Jumping the queue at the bank looks really bad." },
+          { es: "Pega muito mal furar a fila no banco.", en: "Cutting in line at the bank looks really bad." },
           { es: "Ele deu uma carteirada para não pagar a multa.", en: "He pulled rank to get out of paying the fine." },
           { es: "Tem gente que quer levar vantagem em tudo.", en: "Some people want to get one over on everyone." },
           { es: "Você sabe com quem está falando?", en: "Do you know who you're talking to?" },
@@ -590,10 +590,10 @@ export const PT_B2_U29: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Jumping the queue looks really bad.",
+            source: "Cutting in line looks really bad.",
             answer: "Pega muito mal furar a fila.",
             altAnswers: ["Fica muito feio furar a fila.", "Furar a fila pega muito mal.", "Pega mal demais furar a fila.", "Furar fila pega muito mal.", "Pega muito mal furar fila."],
-            explanation: "\"Furar a fila\" is to jump the queue. \"Pega mal\" + infinitive states the norm; \"muito\" goes between them.",
+            explanation: "\"Furar a fila\" is to cut in line. \"Pega mal\" + infinitive states the norm; \"muito\" goes between them.",
           },
           {
             type: "multiple-choice",
@@ -623,7 +623,7 @@ export const PT_B2_U29: Lesson[] = [
           { es: "Por um lado, é criatividade; por outro, é falta de respeito às regras.", en: "On the one hand it's creativity; on the other, it's a lack of respect for the rules." },
           { es: "Apesar de ser criativo, o jeitinho às vezes prejudica os outros.", en: "Despite being creative, the jeitinho sometimes harms others." },
           { es: "O problema é quando alguém leva vantagem às custas dos outros.", en: "The problem is when someone gets ahead at other people's expense." },
-          { es: "Ainda que a burocracia seja lenta, furar a fila não se justifica.", en: "Even if bureaucracy is slow, jumping the queue isn't justified." },
+          { es: "Ainda que a burocracia seja lenta, furar a fila não se justifica.", en: "Even if bureaucracy is slow, cutting in line isn't justified." },
         ],
         checkpoint: [
           {
@@ -662,7 +662,7 @@ export const PT_B2_U29: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My neighbour helped me out and lent me a ladder.",
+        source: "My neighbor helped me out and lent me a ladder.",
         answer: "Meu vizinho quebrou o galho e me emprestou uma escada.",
         altAnswers: ["O meu vizinho quebrou o galho e me emprestou uma escada.", "Minha vizinha quebrou o galho e me emprestou uma escada.", "A minha vizinha quebrou o galho e me emprestou uma escada.", "Meu vizinho quebrou meu galho e me emprestou uma escada.", "Minha vizinha quebrou meu galho e me emprestou uma escada."],
         explanation: "\"Quebrar o galho\" (or \"quebrar um galho\" for someone) is to help out. \"Emprestar\" is to lend; to borrow is \"pegar emprestado\".",
@@ -688,7 +688,7 @@ export const PT_B2_U29: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Even if bureaucracy is slow, jumping the queue isn't justified.",
+        source: "Even if bureaucracy is slow, cutting in line isn't justified.",
         answer: "Ainda que a burocracia seja lenta, furar a fila não se justifica.",
         altAnswers: [
           "Mesmo que a burocracia seja lenta, furar a fila não se justifica.",
@@ -762,12 +762,12 @@ export const PT_B2_U29: Lesson[] = [
         pairs: [
           { left: "dar um jeito", right: "to find a way" },
           { left: "quebrar o galho", right: "to help out" },
-          { left: "furar a fila", right: "to jump the queue" },
+          { left: "furar a fila", right: "to cut in line" },
           { left: "levar vantagem", right: "to get the upper hand" },
           { left: "dar uma carteirada", right: "to pull rank" },
           { left: "molhar a mão", right: "to grease someone's palm" },
         ],
-        explanation: "The first two are the jeitinho's friendly face; the last four are what Brazilians criticise.",
+        explanation: "The first two are the jeitinho's friendly face; the last four are what Brazilians criticize.",
       },
     ],
   },
@@ -783,7 +783,7 @@ export const PT_B2_U29: Lesson[] = [
       {
         heading: "Arraiá, quadrilha, fogueira: the festa junina",
         body: [
-          "June is \"festa junina\" season, built around three saints: Santo Antônio (13 June, the matchmaker), São João (24 June) and São Pedro (29 June). Schools, churches and neighbourhoods hold an \"arraiá\", the country pronunciation of \"arraial\" (a village fair), decorated with \"bandeirinhas\" (little paper flags) and lit by a \"fogueira\" (bonfire).",
+          "June is \"festa junina\" season, built around three saints: Santo Antônio (June 13, the matchmaker), São João (June 24) and São Pedro (June 29). Schools, churches and neighborhoods hold an \"arraiá\", the country pronunciation of \"arraial\" (a village fair), decorated with \"bandeirinhas\" (little paper flags) and lit by a \"fogueira\" (bonfire).",
           "The food comes from the corn harvest: \"pamonha\" (corn paste cooked in the husk), \"milho cozido\", \"pipoca\", \"pé de moleque\" (peanut brittle) and \"bolo de fubá\" (cornmeal cake). To drink there's \"quentão\", hot cachaça with ginger and cinnamon. Careful: \"canjica\" names different dishes in different regions; in the Northeast it's a creamy corn pudding that São Paulo calls \"curau\".",
           "The highlight is the \"quadrilha\", a square dance descended from the French quadrille, with a caller shouting \"anarriê!\" (step back), \"olha a cobra!\" (watch out, a snake!) and \"é mentira!\" (just kidding!). Dancers dress \"de caipira\", as country folk: checked shirts, straw hats, patched dresses.",
         ],
@@ -876,7 +876,7 @@ export const PT_B2_U29: Lesson[] = [
         ],
         examples: [
           { es: "A festa é realizada no Parque do Povo, em Campina Grande.", en: "The festival is held in the Parque do Povo, in Campina Grande." },
-          { es: "As fogueiras são acesas na véspera de São João.", en: "The bonfires are lit on St John's Eve." },
+          { es: "As fogueiras são acesas na véspera de São João.", en: "The bonfires are lit on St. John's Eve." },
           { es: "Em junho, a cidade fica lotada de turistas.", en: "In June the city is packed with tourists." },
           { es: "As ruas ficam enfeitadas com bandeirinhas.", en: "The streets are decorated with little flags." },
           { es: "Come-se muito milho nessa época do ano.", en: "People eat a lot of corn at this time of year." },
@@ -886,7 +886,7 @@ export const PT_B2_U29: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The bonfires [are lit] on St John's Eve.",
+            en: "The bonfires [are lit] on St. John's Eve.",
             sentence: "As fogueiras ___ na véspera de São João.",
             answer: "são acesas",
             explanation: "\"Acender\" has the short participle \"aceso\" after \"ser\"; it agrees with \"as fogueiras\": \"são acesas\".",
@@ -917,13 +917,13 @@ export const PT_B2_U29: Lesson[] = [
         source: "I love pamonha, but I prefer the sweet kind.",
         answer: "Eu adoro pamonha, mas prefiro a doce.",
         altAnswers: ["Adoro pamonha, mas prefiro a doce.", "Eu adoro pamonha, mas eu prefiro a doce.", "Eu amo pamonha, mas prefiro a doce.", "Amo pamonha, mas prefiro a doce.", "Eu adoro pamonha, mas prefiro a pamonha doce."],
-        explanation: "\"A pamonha\" is feminine, so the sweet one is \"a doce\". It also comes savoury: \"a salgada\".",
+        explanation: "\"A pamonha\" is feminine, so the sweet one is \"a doce\". It also comes savory: \"a salgada\".",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The festival is held in the city centre.",
+        source: "The festival is held in the city center.",
         answer: "A festa é realizada no centro da cidade.",
         altAnswers: ["A festa acontece no centro da cidade.", "O festival é realizado no centro da cidade.", "A festa é feita no centro da cidade.", "O festival acontece no centro da cidade."],
         explanation: "\"Ser realizado\" is the standard passive for events being held; \"acontecer\" (to take place) is a simpler active alternative.",
@@ -1031,14 +1031,14 @@ export const PT_B2_U29: Lesson[] = [
         heading: "Escola de samba: the parade in Rio",
         body: [
           "Rio's showpiece is the \"desfile das escolas de samba\" at the Sambódromo. An \"escola de samba\" is not a school but a community association, often rooted in a favela or a working-class suburb, that spends the whole year preparing its parade. Each one has an \"enredo\" (theme) and a \"samba-enredo\" (the song that tells it), sung by thousands of members in \"fantasias\" (costumes).",
-          "The parade is judged item by item: \"a bateria\" (drum section), \"a comissão de frente\" (the opening group), \"o mestre-sala e a porta-bandeira\" (the couple who carry the flag) and \"os carros alegóricos\" (floats). On Ash Wednesday the marks are read out live in \"a apuração\". False friend: \"fantasia\" is a costume as well as a fantasy.",
+          "The parade is judged item by item: \"a bateria\" (drum section), \"a comissão de frente\" (the opening group), \"o mestre-sala e a porta-bandeira\" (the couple who carry the flag) and \"os carros alegóricos\" (floats). On Ash Wednesday the scores are read out live in \"a apuração\". False friend: \"fantasia\" is a costume as well as a fantasy.",
         ],
         examples: [
           { es: "A escola de samba prepara o desfile durante o ano inteiro.", en: "The samba school prepares its parade all year round." },
           { es: "O enredo deste ano homenageia uma cantora baiana.", en: "This year's theme pays tribute to a singer from Bahia." },
           { es: "A bateria entrou na avenida e o público foi à loucura.", en: "The drum section came onto the avenue and the crowd went wild." },
           { es: "Minha fantasia pesa quase dez quilos.", en: "My costume weighs almost ten kilos." },
-          { es: "As notas são lidas na quarta-feira de cinzas.", en: "The marks are read out on Ash Wednesday." },
+          { es: "As notas são lidas na quarta-feira de cinzas.", en: "The scores are read out on Ash Wednesday." },
         ],
         checkpoint: [
           {
@@ -1055,7 +1055,7 @@ export const PT_B2_U29: Lesson[] = [
             question: "A Brazilian colleague says she \"sai numa escola de samba\". What does she do?",
             options: [
               "She parades with a samba school's community association at Carnaval.",
-              "She teaches samba at a primary school.",
+              "She teaches samba at a elementary school.",
               "She's leaving a dance school.",
               "She takes samba lessons twice a week.",
             ],
@@ -1067,7 +1067,7 @@ export const PT_B2_U29: Lesson[] = [
       {
         heading: "Bloco, trio elétrico, abadá: the street Carnaval",
         body: [
-          "Most Brazilians spend Carnaval in the street. A \"bloco\" is a group that parades with music, and anyone can follow it; Rio, São Paulo and Belo Horizonte now have hundreds. In Salvador the party follows the \"trio elétrico\", a truck carrying a band and a huge sound system, invented there in 1950. Paying revellers wear an \"abadá\", the shirt that lets them inside the rope around a bloco; those who follow outside, for free, are \"a pipoca\".",
+          "Most Brazilians spend Carnaval in the street. A \"bloco\" is a group that parades with music, and anyone can follow it; Rio, São Paulo and Belo Horizonte now have hundreds. In Salvador the party follows the \"trio elétrico\", a truck carrying a band and a huge sound system, invented there in 1950. Paying revelers wear an \"abadá\", the shirt that lets them inside the rope around a bloco; those who follow outside, for free, are \"a pipoca\".",
           "Recife and Olinda have their own rhythms: \"frevo\", fast and acrobatic, danced with a small umbrella, and \"maracatu\", with heavy drums of African origin. Recife's \"Galo da Madrugada\" is one of the biggest blocos in the world, and Olinda's steep streets fill with \"bonecos gigantes\" (giant puppets).",
         ],
         examples: [
@@ -1075,7 +1075,7 @@ export const PT_B2_U29: Lesson[] = [
           { es: "Em Salvador, a gente seguiu o trio elétrico até Ondina.", en: "In Salvador we followed the trio elétrico all the way to Ondina." },
           { es: "Comprei um abadá, mas acabei saindo na pipoca.", en: "I bought an abadá, but I ended up following outside the rope." },
           { es: "Em Olinda, os bonecos gigantes descem as ladeiras.", en: "In Olinda, the giant puppets come down the steep streets." },
-          { es: "O frevo é dançado com um guarda-chuva pequeno e colorido.", en: "Frevo is danced with a small, colourful umbrella." },
+          { es: "O frevo é dançado com um guarda-chuva pequeno e colorido.", en: "Frevo is danced with a small, colorful umbrella." },
         ],
         checkpoint: [
           {
@@ -1160,10 +1160,10 @@ export const PT_B2_U29: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The marks are read out on Ash Wednesday.",
+        source: "The scores are read out on Ash Wednesday.",
         answer: "As notas são lidas na quarta-feira de cinzas.",
         altAnswers: ["As notas são lidas na Quarta-Feira de Cinzas.", "As notas são divulgadas na quarta-feira de cinzas.", "As notas são anunciadas na quarta-feira de cinzas.", "As notas são lidas na quarta de cinzas."],
-        explanation: "The passive with \"ser\": \"são lidas\" (from \"ler\"), agreeing with \"as notas\". The reading of the marks is \"a apuração\".",
+        explanation: "The passive with \"ser\": \"são lidas\" (from \"ler\"), agreeing with \"as notas\". The reading of the scores is \"a apuração\".",
       },
       {
         type: "fill-blank",
@@ -1218,7 +1218,7 @@ export const PT_B2_U29: Lesson[] = [
         type: "listen-choose",
         audio: "Os bonecos gigantes descem as ladeiras de Olinda.",
         question: "What does it mean?",
-        options: ["The giant puppets come down Olinda's steep streets.", "The giant dolls are sold in Olinda's shops.", "The giant puppets climb the hills of Olinda.", "The tall men dance in Olinda's square."],
+        options: ["The giant puppets come down Olinda's steep streets.", "The giant dolls are sold in Olinda's stores.", "The giant puppets climb the hills of Olinda.", "The tall men dance in Olinda's square."],
         correctIndex: 0,
         explanation: "\"Descer\" is to go down and \"ladeiras\" are steep streets; \"subir\" would be to go up.",
       },
@@ -1242,7 +1242,7 @@ export const PT_B2_U29: Lesson[] = [
           { left: "a fantasia", right: "the costume" },
           { left: "a bateria", right: "the drum section" },
           { left: "o bloco", right: "the street party group" },
-          { left: "a apuração", right: "the reading of the marks" },
+          { left: "a apuração", right: "the reading of the scores" },
           { left: "o desfile", right: "the parade" },
         ],
         explanation: "Watch the false friends: \"fantasia\" is a costume and \"bateria\" is the drummers.",
@@ -1254,7 +1254,7 @@ export const PT_B2_U29: Lesson[] = [
     level: "PT-B2",
     number: 6,
     title: "Futebol: Torcida and Rivalry",
-    summary: "Talk football like a Brazilian: torcer para, the torcida, clássicos, the Brasileirão and rebaixamento, plus football idioms used everywhere, from the office to the family table.",
+    summary: "Talk soccer like a Brazilian: torcer para, the torcida, clássicos, the Brasileirão and rebaixamento, plus soccer idioms used everywhere, from the office to the family table.",
     duration: "15 min",
     kind: "teach",
     sections: [
@@ -1262,13 +1262,13 @@ export const PT_B2_U29: Lesson[] = [
         heading: "Você torce para que time?",
         body: [
           "\"Torcer para\" is to support a team: \"eu torço para o Corinthians\" (\"torço pelo\" is also heard). A newcomer will soon be asked \"você torce para que time?\" or \"qual é o seu time?\". Fans are \"torcedores\" and the fan base is \"a torcida\". \"Torcer por\" a person is to root for them (\"estou torcendo por você\"), and \"torcer para que\" + subjunctive is to hope: \"torço para que dê certo\".",
-          "A \"clássico\" is a derby between local rivals: the Fla-Flu (Flamengo x Fluminense) in Rio, the Gre-Nal (Grêmio x Internacional) in Porto Alegre, Corinthians x Palmeiras in São Paulo, the Ba-Vi in Salvador. The national league is the \"Brasileirão\"; the bottom four are relegated (\"rebaixados\") to Série B, and fans say \"o time caiu\". \"A seleção\" is the national side.",
+          "A \"clássico\" is a rivalry game between local rivals: the Fla-Flu (Flamengo x Fluminense) in Rio, the Gre-Nal (Grêmio x Internacional) in Porto Alegre, Corinthians x Palmeiras in São Paulo, the Ba-Vi in Salvador. The national league is the \"Brasileirão\"; the bottom four are relegated (\"rebaixados\") to Série B, and fans say \"o time caiu\". \"A seleção\" is the national team.",
         ],
         examples: [
           { es: "Eu torço para o Grêmio desde criança.", en: "I've supported Grêmio since I was a kid." },
           { es: "Você torce para que time?", en: "Which team do you support?" },
           { es: "A torcida do Flamengo é enorme.", en: "Flamengo has a huge fan base." },
-          { es: "Domingo tem clássico: Corinthians e Palmeiras.", en: "There's a derby on Sunday: Corinthians against Palmeiras." },
+          { es: "Domingo tem clássico: Corinthians e Palmeiras.", en: "There's a big rivalry game on Sunday: Corinthians against Palmeiras." },
           { es: "Se perder mais um jogo, o time vai ser rebaixado.", en: "If they lose one more game, the team will be relegated." },
           { es: "Torço para que a seleção ganhe a Copa.", en: "I hope the national team wins the World Cup." },
         ],
@@ -1293,14 +1293,14 @@ export const PT_B2_U29: Lesson[] = [
         ],
       },
       {
-        heading: "Pisar na bola: football in everyday language",
+        heading: "Pisar na bola: soccer in everyday language",
         body: [
-          "Football idioms are everywhere, from meetings to family dinners. \"Pisar na bola\" (to step on the ball) is to mess up or let someone down: \"você pisou na bola comigo\". \"Fazer gol contra\" (to score an own goal) is to act against your own interests. \"Tirar de letra\" is to do something with ease: \"a prova? Tirei de letra\".",
-          "After a setback, Brazilians say \"bola pra frente\" (let's move on). At work, \"vestir a camisa\" (to wear the shirt) is to be fully committed to the company, and \"entrar em campo\" is to step in and act. Someone who retires \"pendura as chuteiras\" (hangs up their boots), even if they never played.",
+          "Soccer idioms are everywhere, from meetings to family dinners. \"Pisar na bola\" (to step on the ball) is to mess up or let someone down: \"você pisou na bola comigo\". \"Fazer gol contra\" (to score an own goal) is to act against your own interests. \"Tirar de letra\" is to do something with ease: \"a prova? Tirei de letra\".",
+          "After a setback, Brazilians say \"bola pra frente\" (let's move on). At work, \"vestir a camisa\" (to wear the shirt) is to be fully committed to the company, and \"entrar em campo\" is to step in and act. Someone who retires \"pendura as chuteiras\" (hangs up their cleats), even if they never played.",
         ],
         examples: [
           { es: "Você pisou na bola quando esqueceu o aniversário dela.", en: "You really dropped the ball when you forgot her birthday." },
-          { es: "Criticar o chefe na frente do cliente foi um gol contra.", en: "Criticising the boss in front of the client was an own goal." },
+          { es: "Criticar o chefe na frente do cliente foi um gol contra.", en: "Criticizing the boss in front of the client was an own goal." },
           { es: "A entrevista? Ela tirou de letra.", en: "The interview? She breezed through it." },
           { es: "Não deu certo, mas bola pra frente.", en: "It didn't work out, but let's move on." },
           { es: "Ele vestiu a camisa da empresa desde o primeiro dia.", en: "He was fully committed to the company from day one." },
@@ -1321,7 +1321,7 @@ export const PT_B2_U29: Lesson[] = [
             question: "Your colleague says about the exam: \"Tirei de letra.\" How did it go?",
             options: ["Very easily.", "Badly: she failed.", "She cheated.", "She hasn't taken it yet."],
             correctIndex: 0,
-            explanation: "\"Tirar de letra\" is to do something effortlessly, like a footballer flicking the ball with ease.",
+            explanation: "\"Tirar de letra\" is to do something effortlessly, like a soccer player flicking the ball with ease.",
           },
           {
             type: "listen-choose",
@@ -1336,14 +1336,14 @@ export const PT_B2_U29: Lesson[] = [
       {
         heading: "Zoar e secar: the social game",
         body: [
-          "Football is the universal small talk: with the porteiro, the taxi driver, the colleague at the coffee machine. On Monday mornings fans \"zoam\" (tease) friends whose team lost, and many enjoy \"secar\" a rival, rooting against them. All this is affectionate, but losing badly to a rival can make some fans touchy, so read the room.",
+          "Soccer is the universal small talk: with the porteiro, the taxi driver, the colleague at the coffee machine. On Monday mornings fans \"zoam\" (tease) friends whose team lost, and many enjoy \"secar\" a rival, rooting against them. All this is affectionate, but losing badly to a rival can make some fans touchy, so read the room.",
           "A newcomer who says \"ainda não tenho time\" will be recruited on the spot. Two practical tips: never wear a rival's shirt near a stadium on match day, and in mixed company it's fine to say \"lá em casa é dividido\" (my family's split). Expressions with the subjunctive come up all the time: \"tomara que o Palmeiras perca\", \"duvido que eles ganhem\".",
         ],
         examples: [
           { es: "Segunda-feira o escritório inteiro me zoou por causa do jogo.", en: "On Monday the whole office teased me about the game." },
           { es: "Eu não torço para ninguém hoje, eu só estou secando o rival.", en: "I'm not supporting anyone today, I'm just rooting against the rival." },
           { es: "Ainda não tenho time, mas estou aceitando sugestões.", en: "I don't have a team yet, but I'm open to suggestions." },
-          { es: "Lá em casa é dividido: meu pai é Inter e minha mãe é Grêmio.", en: "My family's split: my dad's Inter and my mum's Grêmio." },
+          { es: "Lá em casa é dividido: meu pai é Inter e minha mãe é Grêmio.", en: "My family's split: my dad's Inter and my mom's Grêmio." },
           { es: "Duvido que eles ganhem o campeonato este ano.", en: "I doubt they'll win the league this year." },
         ],
         checkpoint: [
@@ -1387,7 +1387,7 @@ export const PT_B2_U29: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Criticising the client was [an own goal].",
+        en: "Criticizing the client was [an own goal].",
         sentence: "Criticar o cliente foi ___.",
         answer: "um gol contra",
         explanation: "\"Fazer gol contra\" is to act against your own interests; \"foi um gol contra\" judges the act.",
@@ -1404,16 +1404,16 @@ export const PT_B2_U29: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Your manager praises a colleague: \"Ela realmente veste a camisa.\" What does she mean?",
-        options: ["She's really committed to the company.", "She always wears the company T-shirt.", "She plays for the company football team.", "She dresses very formally."],
+        options: ["She's really committed to the company.", "She always wears the company T-shirt.", "She plays for the company soccer team.", "She dresses very formally."],
         correctIndex: 0,
         explanation: "\"Vestir a camisa\" (of a team, of a company) is to be fully committed and loyal.",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: There's a derby on Sunday.",
+        prompt: "Put the words in order to say: There's a big rivalry game on Sunday.",
         words: ["Domingo", "tem", "clássico."],
         altOrders: [["Tem", "clássico", "Domingo."]],
-        translation: "There's a derby on Sunday.",
+        translation: "There's a big rivalry game on Sunday.",
         explanation: "\"Clássico\" is a match between traditional rivals; \"tem\" is the spoken there is.",
       },
       {
@@ -1432,7 +1432,7 @@ export const PT_B2_U29: Lesson[] = [
         source: "It didn't work out, but let's move on.",
         answer: "Não deu certo, mas bola pra frente.",
         altAnswers: ["Não deu certo, mas bola para frente.", "Não deu, mas bola pra frente.", "Não deu certo, mas vamos em frente.", "Não deu certo, mas vida que segue."],
-        explanation: "\"Dar certo\" is to work out; \"bola pra frente\" is the football way of saying let's move on.",
+        explanation: "\"Dar certo\" is to work out; \"bola pra frente\" is the soccer way of saying let's move on.",
       },
       {
         type: "dictation",
@@ -1445,7 +1445,7 @@ export const PT_B2_U29: Lesson[] = [
         question: "What does it mean?",
         options: ["Today I'm just rooting against the rival.", "Today I'm drying the rival's shirts.", "Today I'm only supporting the rival.", "Today I'm just watching the rival train."],
         correctIndex: 0,
-        explanation: "\"Secar\" (to dry) in football slang is to root against a team, hoping they lose.",
+        explanation: "\"Secar\" (to dry) in soccer slang is to root against a team, hoping they lose.",
       },
       {
         type: "speak",
@@ -1465,7 +1465,7 @@ export const PT_B2_U29: Lesson[] = [
           { left: "pendurar as chuteiras", right: "to retire" },
           { left: "secar o rival", right: "to root against the rival" },
         ],
-        explanation: "Football idioms are used far beyond football, at work and at home.",
+        explanation: "Soccer idioms are used far beyond soccer, at work and at home.",
       },
     ],
   },
@@ -1523,8 +1523,8 @@ export const PT_B2_U29: Lesson[] = [
       {
         heading: "Réveillon: branco, sete ondas e simpatias",
         body: [
-          "\"Réveillon\" (New Year's Eve, from the French) is often spent on the beach. Copacabana draws enormous crowds for \"a queima de fogos\" (the fireworks). People \"vestem branco\" for peace, a custom linked to Afro-Brazilian religions, and some pick the colour of their underwear: yellow for money, red for love. The stroke of midnight is \"a virada\".",
-          "Then come the \"simpatias\", small rituals for luck (a false friend: not sympathy). At midnight you \"pula sete ondas\", jumping seven waves and making a wish for each, in honour of Iemanjá, the sea goddess; you eat lentils for money or keep pomegranate seeds in your wallet. Few people take them seriously, and almost everyone does them.",
+          "\"Réveillon\" (New Year's Eve, from the French) is often spent on the beach. Copacabana draws enormous crowds for \"a queima de fogos\" (the fireworks). People \"vestem branco\" for peace, a custom linked to Afro-Brazilian religions, and some pick the color of their underwear: yellow for money, red for love. The stroke of midnight is \"a virada\".",
+          "Then come the \"simpatias\", small rituals for luck (a false friend: not sympathy). At midnight you \"pula sete ondas\", jumping seven waves and making a wish for each, in honor of Iemanjá, the sea goddess; you eat lentils for money or keep pomegranate seeds in your wallet. Few people take them seriously, and almost everyone does them.",
         ],
         examples: [
           { es: "A gente vai passar o réveillon em Copacabana.", en: "We're spending New Year's Eve in Copacabana." },
@@ -1737,7 +1737,7 @@ export const PT_B2_U29: Lesson[] = [
             source: "What should I bring?",
             answer: "O que eu levo?",
             altAnswers: ["O que levo?", "O que eu posso levar?", "O que posso levar?", "O que você quer que eu leve?", "O que eu devo levar?", "Quer que eu leve alguma coisa?"],
-            explanation: "In speech the present asks for instructions: \"o que eu levo?\" (what shall I bring?). \"Levar\" because the things go to the host's place.",
+            explanation: "In speech the present asks for instructions: \"o que eu levo?\" (what should I bring?). \"Levar\" because the things go to the host's place.",
           },
           {
             type: "multiple-choice",
@@ -1759,7 +1759,7 @@ export const PT_B2_U29: Lesson[] = [
       {
         heading: "A carne: choosing, praising and the point",
         body: [
-          "The meat comes in rounds, sliced at the grill and passed on a board. The classics: \"picanha\" (rump cap, the star), \"fraldinha\" (flank), \"linguiça\" (sausage), \"coração de frango\" (chicken hearts) and \"pão de alho\" (garlic bread), with \"farofa\" and \"vinagrete\" on the side. To say how you like it: \"mal passada\" (rare), \"ao ponto\" (medium) or \"bem passada\" (well done).",
+          "The meat comes in rounds, sliced at the grill and passed on a board. The classics: \"picanha\" (top sirloin cap, the star), \"fraldinha\" (flank), \"linguiça\" (sausage), \"coração de frango\" (chicken hearts) and \"pão de alho\" (garlic bread), with \"farofa\" and \"vinagrete\" on the side. To say how you like it: \"mal passada\" (rare), \"ao ponto\" (medium) or \"bem passada\" (well done).",
           "Compliments go to the churrasqueiro, by name: \"Rafa, essa picanha está no ponto!\" or \"você manda bem na churrasqueira\" (you're great at the grill). If you don't eat something, say so lightly and without explanation: \"coração eu passo, mas a linguiça eu quero\".",
         ],
         examples: [
@@ -1844,7 +1844,7 @@ export const PT_B2_U29: Lesson[] = [
         source: "We're having a barbecue at my place on Sunday. Coming?",
         answer: "Domingo vai ter churrasco lá em casa. Bora?",
         altAnswers: ["Domingo vai ter churrasco lá em casa. Vamos?", "No domingo vai ter churrasco lá em casa. Bora?", "No domingo vai ter churrasco lá em casa. Vamos?", "Domingo vai ter churrasco lá em casa. Você vem?", "No domingo vai ter churrasco lá em casa. Você vem?", "Domingo tem churrasco lá em casa. Bora?"],
-        explanation: "\"Vai ter\" is the spoken there's going to be; \"bora?\" (from \"embora\") is the informal shall we?",
+        explanation: "\"Vai ter\" is the spoken there's going to be; \"bora?\" (from \"embora\") is the informal should we?",
       },
       {
         type: "translate",
@@ -1954,11 +1954,11 @@ export const PT_B2_U29: Lesson[] = [
         heading: "Vamos marcar! or Vamos marcar sexta?",
         body: [
           "\"Vamos marcar!\" and \"passa lá em casa qualquer dia\" are said warmly and often, but on their own they mean I like you, not I've planned something. The test is detail: a day, a time or a place turns the phrase into a plan. \"Vamos marcar um dia!\" is vague; \"vamos marcar sexta, às sete, naquele bar?\" is real.",
-          "Answer a vague invitation in kind (\"vamos, sim! Me chama!\"); don't take out your diary. If you want it to happen, you add the detail: \"que tal sábado?\" Brazilians won't be offended if you never mention it again, and many friendships grow exactly this way.",
+          "Answer a vague invitation in kind (\"vamos, sim! Me chama!\"); don't take out your planner. If you want it to happen, you add the detail: \"que tal sábado?\" Brazilians won't be offended if you never mention it again, and many friendships grow exactly this way.",
         ],
         examples: [
           { es: "Vamos marcar um dia!", en: "Let's get together some time!" },
-          { es: "Vamos marcar sexta, às sete, naquele bar da esquina?", en: "Shall we meet on Friday at seven at that bar on the corner?" },
+          { es: "Vamos marcar sexta, às sete, naquele bar da esquina?", en: "Should we meet on Friday at seven at that bar on the corner?" },
           { es: "Passa lá em casa qualquer dia.", en: "Drop by some time." },
           { es: "Passa lá em casa sábado à tarde, vou fazer um bolo.", en: "Come over on Saturday afternoon, I'm making a cake." },
           { es: "Vamos, sim! Me chama!", en: "Yes, let's! Give me a shout!" },
@@ -2062,7 +2062,7 @@ export const PT_B2_U29: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Shall we meet on Friday at seven?",
+        source: "Should we meet on Friday at seven?",
         answer: "Vamos marcar sexta, às sete?",
         altAnswers: ["Vamos marcar na sexta, às sete?", "Vamos nos encontrar na sexta, às sete?", "Vamos marcar sexta às sete?", "Vamos marcar sexta-feira, às sete?", "Que tal sexta, às sete?", "Vamos nos ver sexta, às sete?", "A gente se encontra sexta, às sete?"],
         explanation: "A day and a time make \"vamos marcar\" a real plan. \"Às sete\" has the crase.",
@@ -2167,7 +2167,7 @@ export const PT_B2_U29: Lesson[] = [
     level: "PT-B2",
     number: 10,
     title: "Error Hunt: Social Codes",
-    summary: "Fix language that sounds cold or rude in Brazil, from requests with no greeting to a flat não, and the unit's grammar slips with quando, que and pega mal.",
+    summary: "Fix language that sounds cold or rude in Brazil, from requests with no greeting to an apartment não, and the unit's grammar slips with quando, que and pega mal.",
     duration: "15 min",
     kind: "reinforce",
     format: "Error hunt",
@@ -2176,14 +2176,14 @@ export const PT_B2_U29: Lesson[] = [
         heading: "No greeting, no softener: requests that sound cold",
         body: [
           "Learners often write grammatically perfect messages that sound brusque. *\"Preciso do relatório até amanhã.\" is fine in English office style, but in Brazil a request with no greeting reads as irritation. Open with the person: \"Oi, Marcos, tudo bem?\" Then soften: \"será que você consegue...?\", \"você poderia...?\", \"quando puder...\".",
-          "\"Ter que\" aimed at someone else sounds like an order: *\"você tem que me mandar o seu número\" makes a colleague bristle. Ask instead: \"você pode me passar seu número?\" The same goes for \"quero\" in a shop or café: \"me vê um pão de queijo, por favor\" or \"eu queria um café\" sound friendlier than *\"quero um café\".",
+          "\"Ter que\" aimed at someone else sounds like an order: *\"você tem que me mandar o seu número\" makes a colleague bristle. Ask instead: \"você pode me passar seu número?\" The same goes for \"quero\" in a store or café: \"me vê um pão de queijo, por favor\" or \"eu queria um café\" sound friendlier than a bare \"quero um café\", which is fine with \"por favor\" but can come across as abrupt.",
         ],
         examples: [
           { es: "Oi, Marcos, tudo bem? Será que você consegue me mandar o relatório até amanhã?", en: "Hi Marcos, how are you? Do you think you could send me the report by tomorrow?" },
           { es: "Você pode me passar seu número?", en: "Could you give me your number?" },
           { es: "Quando puder, dá uma olhada nesse arquivo?", en: "When you get a chance, could you have a look at this file?" },
           { es: "Me vê um pão de queijo, por favor.", en: "Can I have a cheese bread, please?" },
-          { es: "Eu queria um café com leite.", en: "I'd like a white coffee." },
+          { es: "Eu queria um café com leite.", en: "I'd like a coffee with milk." },
         ],
         checkpoint: [
           {
@@ -2365,8 +2365,8 @@ export const PT_B2_U29: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the tone: a learner said *\"Quero um café.\" at a café. Translate the friendlier version.",
-        source: "I'd like a white coffee, please.",
+        prompt: "Fix the tone: a learner said a bare \"Quero um café.\" at a café. Translate the friendlier version.",
+        source: "I'd like a coffee with milk, please.",
         answer: "Eu queria um café com leite, por favor.",
         altAnswers: ["Queria um café com leite, por favor.", "Me vê um café com leite, por favor.", "Me dá um café com leite, por favor.", "Eu gostaria de um café com leite, por favor.", "Um café com leite, por favor."],
         explanation: "The imperfeito \"queria\" softens a request, and \"me vê\" is the everyday Brazilian way to order.",
@@ -2459,7 +2459,7 @@ export const PT_B2_U29: Lesson[] = [
           "Commands are fine in moderation, and \"não precisa\" + infinitive reassures (\"não precisa levar presente caro\"). Give each tip a reason with \"porque\" or \"já que\": a guide that explains why helps Sarah handle situations you didn't foresee.",
         ],
         examples: [
-          { es: "Quando alguém disser \"aparece lá em casa\", não pegue a agenda.", en: "When someone says come round to my place, don't get your diary out." },
+          { es: "Quando alguém disser \"aparece lá em casa\", não pegue a agenda.", en: "When someone says come over to my place, don't get your planner out." },
           { es: "É bom que você leve alguma coisa, nem que seja um refrigerante.", en: "It's good to bring something, even if it's just a soft drink." },
           { es: "Não precisa levar presente caro.", en: "There's no need to bring an expensive gift." },
           { es: "Pega mal recusar o cafezinho na primeira visita.", en: "It looks bad to turn down the coffee on your first visit." },
@@ -2470,7 +2470,7 @@ export const PT_B2_U29: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "When someone [says] come round to my place, don't get your diary out.",
+            en: "When someone [says] come over to my place, don't get your planner out.",
             sentence: "Quando alguém ___ \"aparece lá em casa\", não pegue a agenda.",
             answer: "disser",
             explanation: "A future situation after \"quando\": future subjunctive of \"dizer\", \"disser\" (from \"disseram\").",
@@ -2814,7 +2814,7 @@ export const PT_B2_U29: Lesson[] = [
           { left: "torcer para", right: "to support a team" },
           { left: "fica pra próxima", right: "maybe next time" },
         ],
-        explanation: "One expression from each corner of the unit: codes, the jeitinho, New Year, Carnaval, football and the soft no.",
+        explanation: "One expression from each corner of the unit: codes, the jeitinho, New Year, Carnaval, soccer and the soft no.",
       },
     ],
   },

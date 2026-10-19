@@ -271,7 +271,7 @@ export const PT_B2_U24_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Even if he apologised, I wouldn't forgive him.",
+        source: "Even if he apologized, I wouldn't forgive him.",
         answer: "Mesmo que ele pedisse desculpas, eu não o perdoaria.",
         altAnswers: ["Mesmo que ele pedisse desculpas, eu não perdoaria ele.", "Mesmo que ele pedisse desculpa, eu não o perdoaria.", "Mesmo se ele pedisse desculpas, eu não o perdoaria.", "Mesmo que ele pedisse desculpas, não o perdoaria.", "Mesmo que ele pedisse desculpas, eu não ia perdoar ele.", "Mesmo se ele pedisse desculpas, eu não perdoaria ele."],
         explanation: "\"Mesmo que\" + imperfect subjunctive for an unlikely case; \"o perdoaria\" (written) or \"perdoaria ele\" (spoken).",

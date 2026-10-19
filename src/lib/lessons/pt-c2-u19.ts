@@ -15,7 +15,7 @@ export const PT_C2_U19: Lesson[] = [
         heading: "Ainda que and mesmo que: the subjunctive is not optional",
         body: [
           "You already use \"embora\" with the subjunctive. \"Ainda que\" and \"mesmo que\" work the same way, and the subjunctive after them is not a matter of style: \"mesmo que ele tem razão\" is simply wrong, however often you hear it in hurried speech. What they add is range. \"Embora\" concedes something you accept as true (\"Embora o projeto seja caro, vale a pena\": it is expensive). \"Ainda que\" and \"mesmo que\" can concede a fact or a mere possibility, so they cover both English 'even though' and 'even if'.",
-          "\"Mesmo que\" leans towards the hypothetical and the emphatic: \"Mesmo que me paguem o dobro, não aceito\" (even if they pay me double). \"Ainda que\" is a shade more formal and the usual choice in an essay or a legal opinion. In debate, both let you grant your opponent's premise and still refuse the conclusion, which is the whole point of a concession.",
+          "\"Mesmo que\" leans toward the hypothetical and the emphatic: \"Mesmo que me paguem o dobro, não aceito\" (even if they pay me double). \"Ainda que\" is a shade more formal and the usual choice in an essay or a legal opinion. In debate, both let you grant your opponent's premise and still refuse the conclusion, which is the whole point of a concession.",
         ],
         examples: [
           { es: "Ainda que a proposta tenha méritos, ela não resolve o problema central.", en: "Although the proposal has merits, it doesn't solve the central problem." },
@@ -83,7 +83,7 @@ export const PT_C2_U19: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Even though he had apologised, the opposition demanded his resignation.",
+            source: "Even though he had apologized, the opposition demanded his resignation.",
             answer: "Ainda que ele tivesse pedido desculpas, a oposição exigiu a renúncia dele.",
             altAnswers: [
               "Ainda que ele tivesse pedido desculpas, a oposição exigiu sua renúncia.",
@@ -173,12 +173,12 @@ export const PT_C2_U19: Lesson[] = [
       {
         heading: "Se bem que, and choosing by register",
         body: [
-          "\"Se bem que\" has two lives. In speech it adds an afterthought that weakens what you just said, like English 'mind you' or 'then again', and it takes the indicative: \"O plano é ruim. Se bem que o anterior era pior.\" In formal writing it is a plain concessive conjunction, like \"embora\", with the subjunctive: \"A medida foi aprovada, se bem que nem todos a apoiassem.\"",
+          "\"Se bem que\" has two lives. In speech it adds an afterthought that weakens what you just said, like English 'then again' or 'though', and it takes the indicative: \"O plano é ruim. Se bem que o anterior era pior.\" In formal writing it is a plain concessive conjunction, like \"embora\", with the subjunctive: \"A medida foi aprovada, se bem que nem todos a apoiassem.\"",
           "Choose by register. In conversation, \"mesmo que\" and the afterthought \"se bem que\" sound natural; in an essay or an opinion column, \"ainda que\" and \"embora\"; at the podium, \"por mais que\" for force. Keep in mind that \"apesar de\" is a preposition: it takes a noun or an infinitive (\"apesar da crise\", \"apesar de ser caro\"). \"Apesar que é caro\" is heard in speech but marks an essay as careless.",
         ],
         examples: [
-          { es: "O plano é ruim. Se bem que o anterior era pior.", en: "The plan is bad. Mind you, the previous one was worse." },
-          { es: "Não gostei do filme. Se bem que eu estava muito cansado.", en: "I didn't like the film. Then again, I was very tired." },
+          { es: "O plano é ruim. Se bem que o anterior era pior.", en: "The plan is bad. Then again, the previous one was worse." },
+          { es: "Não gostei do filme. Se bem que eu estava muito cansado.", en: "I didn't like the movie. Then again, I was very tired." },
           { es: "A medida foi aprovada, se bem que nem todos a apoiassem.", en: "The measure was passed, although not everyone supported it." },
           { es: "Apesar da crise, o setor de serviços cresceu.", en: "Despite the crisis, the service sector grew." },
         ],
@@ -187,7 +187,7 @@ export const PT_C2_U19: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I didn't like the film. Then again, I was very tired.",
+            source: "I didn't like the movie. Then again, I was very tired.",
             answer: "Não gostei do filme. Se bem que eu estava muito cansado.",
             altAnswers: [
               "Não gostei do filme. Se bem que eu estava muito cansada.",
@@ -316,7 +316,7 @@ export const PT_C2_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The plan is bad. Mind you, the previous one was worse.",
+        source: "The plan is bad. Then again, the previous one was worse.",
         answer: "O plano é ruim. Se bem que o anterior era pior.",
         altAnswers: [
           "O plano é ruim, se bem que o anterior era pior.",
@@ -324,7 +324,7 @@ export const PT_C2_U19: Lesson[] = [
           "O plano é ruim, se bem que o anterior foi pior.",
           "O plano é ruim. Se bem que o outro era pior.",
         ],
-        explanation: "'Mind you' as an afterthought is the spoken \"se bem que\", followed by the indicative.",
+        explanation: "'Then again' as an afterthought is the spoken \"se bem que\", followed by the indicative.",
       },
       {
         type: "word-order",
@@ -430,7 +430,7 @@ export const PT_C2_U19: Lesson[] = [
           { es: "Não obstante a crise, as exportações bateram recorde.", en: "Despite the crisis, exports hit a record." },
           { es: "A economia cresceu. Não obstante, o desemprego subiu.", en: "The economy grew. Nevertheless, unemployment rose." },
           { es: "O texto, não obstante algumas imprecisões, é um bom ponto de partida.", en: "The text, despite a few inaccuracies, is a good starting point." },
-          { es: "O prefeito manteve o veto, malgrado a pressão dos vereadores.", en: "The mayor upheld the veto, despite pressure from the councillors." },
+          { es: "O prefeito manteve o veto, malgrado a pressão dos vereadores.", en: "The mayor upheld the veto, despite pressure from the council members." },
         ],
         checkpoint: [
           {
@@ -471,7 +471,7 @@ export const PT_C2_U19: Lesson[] = [
               "Despite the team's efforts, the project never got off the drawing board.",
               "Thanks to the team's efforts, the project finally got off the ground.",
               "The team made no effort, so the project stayed on paper.",
-              "Because of the team's bad grace, the project was cancelled.",
+              "Because of the team's bad grace, the project was canceled.",
             ],
             correctIndex: 0,
             explanation: "\"Malgrado\" means despite, and \"não sair do papel\" means never to get beyond the planning stage. The word comes from 'bad grace', but its meaning today is simply despite.",
@@ -482,19 +482,19 @@ export const PT_C2_U19: Lesson[] = [
         heading: "Em que pese: however much it may weigh",
         body: [
           "\"Em que pese\" is literally 'however much it may weigh', which explains both its meaning (despite, notwithstanding) and its subjunctive \"pese\". It is the signature connector of Brazilian legal writing: \"Em que pesem os argumentos da defesa, o recurso não merece provimento.\" Columnists and academics use it too, to grant an opposing point before overriding it.",
-          "Since the noun is the subject of \"pesar\", careful writers make the verb agree: \"em que pese a crise\", \"em que pesem as críticas\". An older construction keeps the singular and adds the preposition \"a\": \"em que pese aos argumentos\". The very common mix \"em que pese os argumentos\" is criticised by purists, so avoid it in exams and formal texts. In speech, all of this becomes \"apesar de\".",
+          "Since the noun is the subject of \"pesar\", careful writers make the verb agree: \"em que pese a crise\", \"em que pesem as críticas\". An older construction keeps the singular and adds the preposition \"a\": \"em que pese aos argumentos\". The very common mix \"em que pese os argumentos\" is criticized by purists, so avoid it in exams and formal texts. In speech, all of this becomes \"apesar de\".",
         ],
         examples: [
-          { es: "Em que pesem os argumentos da defesa, o recurso não merece provimento.", en: "Notwithstanding the defence's arguments, the appeal should not be upheld." },
+          { es: "Em que pesem os argumentos da defesa, o recurso não merece provimento.", en: "Notwithstanding the defense's arguments, the appeal should not be upheld." },
           { es: "Em que pese a boa intenção do autor, o projeto é inconstitucional.", en: "Despite the author's good intentions, the bill is unconstitutional." },
-          { es: "Em que pesem as críticas, o programa foi renovado por mais dois anos.", en: "Despite the criticism, the programme was renewed for another two years." },
+          { es: "Em que pesem as críticas, o programa foi renovado por mais dois anos.", en: "Despite the criticism, the program was renewed for another two years." },
           { es: "Em que pese o esforço do relator, o texto final ficou confuso.", en: "Despite the rapporteur's efforts, the final text turned out muddled." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Despite the] criticism, the programme was renewed.",
+            en: "[Despite the] criticism, the program was renewed.",
             sentence: "___ críticas, o programa foi renovado.",
             answer: "Em que pesem as",
             altAnswers: ["Apesar das", "Não obstante as", "Malgrado as"],
@@ -547,14 +547,14 @@ export const PT_C2_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into formal Portuguese, using \"malgrado\".",
-        source: "The mayor upheld the veto, despite pressure from the councillors.",
+        source: "The mayor upheld the veto, despite pressure from the council members.",
         answer: "O prefeito manteve o veto, malgrado a pressão dos vereadores.",
         altAnswers: [
           "Malgrado a pressão dos vereadores, o prefeito manteve o veto.",
           "O prefeito manteve o veto, malgrado as pressões dos vereadores.",
           "Malgrado as pressões dos vereadores, o prefeito manteve o veto.",
         ],
-        explanation: "\"Malgrado\" + noun, no preposition. City councillors in Brazil are \"vereadores\".",
+        explanation: "\"Malgrado\" + noun, no preposition. City council members in Brazil are \"vereadores\".",
       },
       {
         type: "fill-blank",
@@ -584,7 +584,7 @@ export const PT_C2_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into formal Portuguese, using \"em que pese\".",
-        source: "Notwithstanding the defence's arguments, the appeal should not be upheld.",
+        source: "Notwithstanding the defense's arguments, the appeal should not be upheld.",
         answer: "Em que pesem os argumentos da defesa, o recurso não merece provimento.",
         altAnswers: [
           "Em que pesem os argumentos da defesa, o recurso não deve ser provido.",
@@ -624,7 +624,7 @@ export const PT_C2_U19: Lesson[] = [
       {
         type: "speak",
         text: "Em que pesem as críticas, o programa foi renovado.",
-        prompt: "Say it in Portuguese, formally: Despite the criticism, the programme was renewed.",
+        prompt: "Say it in Portuguese, formally: Despite the criticism, the program was renewed.",
         tip: "Say \"pesem\" with an open é, as in \"ela pesa\" (PÉ-zeim), and make the final -em nasal.",
         explanation: "Plural \"críticas\" means plural \"pesem\": the noun is the subject of \"pesar\".",
       },
@@ -661,14 +661,14 @@ export const PT_C2_U19: Lesson[] = [
         heading: "Granting a fact: é verdade que, não se nega que",
         body: [
           "A concession that works has three beats: grant, turn, counter. The grant names exactly what you accept, the turn signals the change of direction, and the counter carries your real point. Skip the grant and you sound deaf to the other side; linger on it and the audience remembers only what you gave away.",
-          "To grant a fact, use a frame that asserts and keep the indicative: \"é verdade que\", \"é fato que\", \"não se nega que\", \"ninguém discute que\", \"reconheço que\". These are acknowledgements, not doubts: \"É verdade que o desemprego caiu\", not \"caia\". \"Não se nega que\" is the impersonal, written version; in a live debate, \"ninguém está negando que\" sounds more natural.",
+          "To grant a fact, use a frame that asserts and keep the indicative: \"é verdade que\", \"é fato que\", \"não se nega que\", \"ninguém discute que\", \"reconheço que\". These are acknowledgments, not doubts: \"É verdade que o desemprego caiu\", not \"caia\". \"Não se nega que\" is the impersonal, written version; in a live debate, \"ninguém está negando que\" sounds more natural.",
         ],
         examples: [
           { es: "É verdade que o desemprego caiu, mas a renda média continua estagnada.", en: "It's true that unemployment has fallen, but average income is still stagnant." },
-          { es: "Não se nega que o programa trouxe benefícios; contudo, seu custo é insustentável.", en: "No one denies that the programme has brought benefits; its cost, however, is unsustainable." },
+          { es: "Não se nega que o programa trouxe benefícios; contudo, seu custo é insustentável.", en: "No one denies that the program has brought benefits; its cost, however, is unsustainable." },
           { es: "Ninguém discute que a violência é um problema grave.", en: "Nobody disputes that violence is a serious problem." },
           { es: "Reconheço que a primeira versão do projeto tinha falhas.", en: "I acknowledge that the first version of the bill had flaws." },
-          { es: "É fato que o transporte melhorou. A questão é a que preço.", en: "It's a fact that transport has improved. The question is at what price." },
+          { es: "É fato que o transporte melhorou. A questão é a que preço.", en: "It's a fact that public transportation has improved. The question is at what price." },
         ],
         checkpoint: [
           {
@@ -742,7 +742,7 @@ export const PT_C2_U19: Lesson[] = [
           "\"Ainda assim\" and \"mesmo assim\" (even so) are stronger: they say that the concession is true and changes nothing. In conversation, \"só que\" (the thing is) and \"o problema é que\" make the turn sound like a natural next thought rather than a rhetorical move. Don't stack turns: \"mas, no entanto\" is redundant, a slip that comes from translating 'but however'.",
         ],
         examples: [
-          { es: "A proposta, contudo, ignora o custo para os municípios.", en: "The proposal, however, ignores the cost to local councils." },
+          { es: "A proposta, contudo, ignora o custo para os municípios.", en: "The proposal, however, ignores the cost to municipalities." },
           { es: "O argumento é engenhoso. Ainda assim, não convence.", en: "The argument is clever. Even so, it isn't convincing." },
           { es: "Concordo com o diagnóstico, só que a solução é outra.", en: "I agree with the diagnosis; the thing is, the solution is a different one." },
           { es: "Tudo isso é verdade. O problema é que ninguém vai pagar a conta.", en: "All of that is true. The problem is that nobody is going to foot the bill." },
@@ -791,10 +791,10 @@ export const PT_C2_U19: Lesson[] = [
         heading: "Concede narrowly: tem razão quando..., mas esquece que",
         body: [
           "The most persuasive concession is the narrowest. \"Você tem toda a razão, mas...\" grants everything and then contradicts it, which sounds either insincere or confused. Name the exact point you accept instead: \"O senhor tem razão quando diz que a fila cresceu, mas esquece que a demanda dobrou.\" The pattern \"tem razão quando..., mas esquece / omite / ignora que...\" grants and accuses in the same breath.",
-          "Other narrow frames: \"Até aí, concordo\" (up to that point I agree), \"Nisso estamos de acordo\", and \"Concordo com o diagnóstico, não com a receita\". The last is a favourite of Brazilian columnists: it splits the opponent's argument in two and accepts only the half that costs you nothing.",
+          "Other narrow frames: \"Até aí, concordo\" (up to that point I agree), \"Nisso estamos de acordo\", and \"Concordo com o diagnóstico, não com a receita\". The last is a favorite of Brazilian columnists: it splits the opponent's argument in two and accepts only the half that costs you nothing.",
         ],
         examples: [
-          { es: "O senhor tem razão quando diz que a fila cresceu, mas esquece que a demanda dobrou.", en: "You're right when you say the queue has grown, but you forget that demand has doubled." },
+          { es: "O senhor tem razão quando diz que a fila cresceu, mas esquece que a demanda dobrou.", en: "You're right when you say the line has grown, but you forget that demand has doubled." },
           { es: "Até aí, concordo. O que não posso aceitar é a conclusão.", en: "Up to that point, I agree. What I can't accept is the conclusion." },
           { es: "Nisso estamos de acordo: a escola precisa de mais professores.", en: "On that we agree: the school needs more teachers." },
         ],
@@ -803,7 +803,7 @@ export const PT_C2_U19: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, addressing an older opponent formally.",
-            source: "You're right when you say the queue has grown, but you forget that demand has doubled.",
+            source: "You're right when you say the line has grown, but you forget that demand has doubled.",
             answer: "O senhor tem razão quando diz que a fila cresceu, mas esquece que a demanda dobrou.",
             altAnswers: [
               "A senhora tem razão quando diz que a fila cresceu, mas esquece que a demanda dobrou.",
@@ -833,7 +833,7 @@ export const PT_C2_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Nobody is denying that the programme brought benefits, but its cost is unsustainable.",
+        source: "Nobody is denying that the program brought benefits, but its cost is unsustainable.",
         answer: "Ninguém está negando que o programa trouxe benefícios, mas o custo dele é insustentável.",
         altAnswers: [
           "Ninguém está negando que o programa trouxe benefícios, mas seu custo é insustentável.",
@@ -906,7 +906,7 @@ export const PT_C2_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "It's a fact that transport has improved. The question is at what price.",
+        source: "It's a fact that public transportation has improved. The question is at what price.",
         answer: "É fato que o transporte melhorou. A questão é a que preço.",
         altAnswers: [
           "É verdade que o transporte melhorou. A questão é a que preço.",
@@ -1100,7 +1100,7 @@ export const PT_C2_U19: Lesson[] = [
               "Típico de quem nunca pegou ônibus na vida.",
             ],
             correctIndex: 0,
-            explanation: "Criticise the evidence (\"estão desatualizados\"). The other three target the speaker's honesty, competence or life, which audiences read as weakness.",
+            explanation: "Criticize the evidence (\"estão desatualizados\"). The other three target the speaker's honesty, competence or life, which audiences read as weakness.",
           },
         ],
       },
@@ -1178,7 +1178,7 @@ export const PT_C2_U19: Lesson[] = [
           "Um aluno cotista abandonou o curso, logo as cotas não funcionam.",
         ],
         correctIndex: 0,
-        explanation: "The first reply exposes a strawman: it points out that the position attacked was never held. The others commit fallacies themselves: an ad hominem, a false dichotomy and a hasty generalisation.",
+        explanation: "The first reply exposes a strawman: it points out that the position attacked was never held. The others commit fallacies themselves: an ad hominem, a false dichotomy and a hasty generalization.",
       },
       {
         type: "translate",
@@ -1325,7 +1325,7 @@ export const PT_C2_U19: Lesson[] = [
           { es: "Suponhamos que a lei seja aprovada amanhã. Quem vai fiscalizar?", en: "Suppose the law is passed tomorrow. Who's going to enforce it?" },
           { es: "Suponhamos que o país adotasse a semana de quatro dias. O que aconteceria com o comércio?", en: "Suppose the country adopted the four-day week. What would happen to retail?" },
           { es: "Vamos supor que o senhor esteja certo.", en: "Let's suppose you're right." },
-          { es: "Na hipótese de o projeto ser aprovado, os municípios perderão receita.", en: "If the bill is passed, local councils will lose revenue." },
+          { es: "Na hipótese de o projeto ser aprovado, os municípios perderão receita.", en: "If the bill is passed, municipalities will lose revenue." },
         ],
         checkpoint: [
           {
@@ -1479,7 +1479,7 @@ export const PT_C2_U19: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[If the bill is passed], local councils will lose revenue.",
+        en: "[If the bill is passed], municipalities will lose revenue.",
         sentence: "___, os municípios perderão receita.",
         answer: "Na hipótese de o projeto ser aprovado",
         altAnswers: ["Caso o projeto seja aprovado", "Se o projeto for aprovado", "Na hipótese de o projeto de lei ser aprovado"],
@@ -1523,7 +1523,6 @@ export const PT_C2_U19: Lesson[] = [
           "Mesmo que o réu tivesse agido de boa-fé, o dano existiu.",
           "Ainda que o réu tivesse agido de boa-fé, o dano foi causado.",
           "Mesmo que o réu tivesse agido de boa-fé, o dano foi causado.",
-          "Ainda que o réu tivesse agido de boa fé, o dano existiu.",
           "Ainda que o acusado tivesse agido de boa-fé, o dano existiu.",
         ],
         explanation: "The hypothesis is past and the consequence a real past fact, so the main verb stays in the indicative: \"existiu\".",
@@ -1763,7 +1762,7 @@ export const PT_C2_U19: Lesson[] = [
         sentence: "Concordo, ___.",
         answer: "com ressalvas",
         altAnswers: ["com algumas ressalvas", "mas com ressalvas"],
-        explanation: "A \"ressalva\" is a reservation or proviso. \"Com ressalvas\" agrees while signalling that conditions will follow.",
+        explanation: "A \"ressalva\" is a reservation or proviso. \"Com ressalvas\" agrees while signaling that conditions will follow.",
       },
       {
         type: "translate",
@@ -1830,7 +1829,7 @@ export const PT_C2_U19: Lesson[] = [
         type: "speak",
         text: "Nem tanto ao mar, nem tanto à terra.",
         prompt: "Say it in Portuguese: Neither one extreme nor the other.",
-        tip: "Open the a in \"mar\" and tap the final r lightly; give \"à terra\" one smooth stress on TÉ.",
+        tip: "Open the a in \"mar\" and keep its final r light; give \"à terra\" one smooth stress on TÉ.",
         explanation: "The proverb claims the middle ground. Follow it with a precise proposal, or it sounds like evasion.",
       },
       {
@@ -1914,7 +1913,7 @@ export const PT_C2_U19: Lesson[] = [
           { es: "Não foi isso que eu disse. O que eu disse foi que o prazo é curto.", en: "That's not what I said. What I said was that the deadline is short." },
           { es: "Você está distorcendo o que eu falei.", en: "You're twisting what I said." },
           { es: "Você está colocando palavras na minha boca.", en: "You're putting words in my mouth." },
-          { es: "Uma coisa é criticar a polícia, outra coisa é ser contra a polícia.", en: "Criticising the police is one thing; being against the police is another." },
+          { es: "Uma coisa é criticar a polícia, outra coisa é ser contra a polícia.", en: "Criticizing the police is one thing; being against the police is another." },
           { es: "Ninguém falou em demitir ninguém.", en: "Nobody said anything about firing anyone." },
         ],
         checkpoint: [
@@ -1936,7 +1935,7 @@ export const PT_C2_U19: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[Criticising] the government is one thing; [being against] the country is another.",
+            en: "[Criticizing] the government is one thing; [being against] the country is another.",
             sentence: "Uma coisa é criticar o governo, outra coisa é ___ o país.",
             answer: "ser contra",
             explanation: "\"Uma coisa é X, outra coisa é Y\" separates two positions; each half takes an infinitive: \"criticar\", \"ser contra\".",
@@ -1946,7 +1945,7 @@ export const PT_C2_U19: Lesson[] = [
       {
         heading: "Lowering the temperature",
         body: [
-          "Once a debate turns personal, nobody in the audience is listening to arguments any more. Whoever lowers the temperature first usually looks like the more reasonable side. The spoken formulas: \"Calma, vamos baixar o tom\" (let's keep our voices down), the colloquial \"vamos baixar a bola\" (let's calm down), \"Vamos voltar ao ponto\" (let's get back to the point), \"Acho que estamos falando de coisas diferentes\".",
+          "Once a debate turns personal, nobody in the audience is listening to arguments anymore. Whoever lowers the temperature first usually looks like the more reasonable side. The spoken formulas: \"Calma, vamos baixar o tom\" (let's keep our voices down), the colloquial \"vamos baixar a bola\" (let's calm down), \"Vamos voltar ao ponto\" (let's get back to the point), \"Acho que estamos falando de coisas diferentes\".",
           "Acknowledging the other person's feeling costs nothing and buys goodwill: \"Entendo que o assunto mexe com você\" (I understand this touches a nerve). If you lose your temper yourself, say so briefly and move on: \"Desculpa, me exaltei.\" Avoid the escalators: \"Você não sabe do que está falando\", \"Isso é ridículo\" and anything with \"cala a boca\" end the debate on the worst terms.",
         ],
         examples: [
@@ -1977,7 +1976,7 @@ export const PT_C2_U19: Lesson[] = [
             audio: "Desculpa, me exaltei. Retomando:",
             question: "What is the speaker doing?",
             options: [
-              "Apologising for getting carried away and picking up the argument.",
+              "Apologizing for getting carried away and picking up the argument.",
               "Accusing the other person of shouting.",
               "Asking to end the debate.",
               "Thanking the audience for their patience.",
@@ -2123,7 +2122,7 @@ export const PT_C2_U19: Lesson[] = [
         type: "speak",
         text: "Calma, vamos voltar ao ponto.",
         prompt: "Say it in Portuguese: Easy, let's get back to the point.",
-        tip: "Keep the tone low and even; the open a in \"calma\" and \"vamos\" helps it sound calm.",
+        tip: "Keep the tone low and even; the open a in \"calma\" helps it sound calm.",
         explanation: "Lower the temperature, then steer the debate back to the issue.",
       },
       {
@@ -2208,10 +2207,10 @@ export const PT_C2_U19: Lesson[] = [
           "This is the clearest case in Portuguese of mood carrying meaning, and English speakers miss it because English uses 'once' and 'since' without any change in the verb. When you read a contract or a ruling, the verb after \"uma vez que\" tells you whether something has happened or is still pending.",
         ],
         examples: [
-          { es: "Uma vez que o contrato foi assinado, começamos as obras.", en: "Since the contract was signed, we started the works." },
-          { es: "Uma vez que o contrato seja assinado, começamos as obras.", en: "Once the contract is signed, we'll start the works." },
+          { es: "Uma vez que o contrato foi assinado, começamos as obras.", en: "Since the contract was signed, we started construction." },
+          { es: "Uma vez que o contrato seja assinado, começamos as obras.", en: "Once the contract is signed, we'll start construction." },
           { es: "Uma vez que você já sabe a resposta, por que pergunta?", en: "Since you already know the answer, why are you asking?" },
-          { es: "Uma vez aprovado o orçamento, a licitação será aberta.", en: "Once the budget is approved, the tender will be opened." },
+          { es: "Uma vez aprovado o orçamento, a licitação será aberta.", en: "Once the budget is approved, the call for bids will be issued." },
         ],
         checkpoint: [
           {
@@ -2219,10 +2218,10 @@ export const PT_C2_U19: Lesson[] = [
             audio: "Uma vez que o contrato seja assinado, começamos as obras.",
             question: "What does it mean?",
             options: [
-              "Once the contract is signed, we'll start the works.",
-              "Since the contract was signed, we started the works.",
-              "Although the contract was signed, we haven't started the works.",
-              "Even if the contract is signed, we won't start the works.",
+              "Once the contract is signed, we'll start construction.",
+              "Since the contract was signed, we started construction.",
+              "Although the contract was signed, we haven't started construction.",
+              "Even if the contract is signed, we won't start construction.",
             ],
             correctIndex: 0,
             explanation: "The subjunctive \"seja\" makes \"uma vez que\" conditional: the signing hasn't happened yet. With \"foi assinado\" it would be causal.",
@@ -2245,7 +2244,7 @@ export const PT_C2_U19: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Once the budget [is approved], the tender will be opened.",
+            en: "Once the budget [is approved], the call for bids will be issued.",
             sentence: "Uma vez que o orçamento ___, a licitação será aberta.",
             answer: "seja aprovado",
             explanation: "A pending event: the subjunctive \"seja aprovado\" makes \"uma vez que\" mean once.",
@@ -2346,7 +2345,7 @@ export const PT_C2_U19: Lesson[] = [
     exercises: [
       {
         type: "multiple-choice",
-        question: "Which sentence says the works will start only after the signing?",
+        question: "Which sentence says construction will start only after the signing?",
         options: [
           "Uma vez que o contrato seja assinado, as obras começam.",
           "Uma vez que o contrato foi assinado, as obras começaram.",
@@ -2429,7 +2428,7 @@ export const PT_C2_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into formal Portuguese.",
-        source: "Once the budget is approved, the tender will be opened.",
+        source: "Once the budget is approved, the call for bids will be issued.",
         answer: "Uma vez aprovado o orçamento, a licitação será aberta.",
         altAnswers: [
           "Uma vez que o orçamento seja aprovado, a licitação será aberta.",
@@ -2442,8 +2441,8 @@ export const PT_C2_U19: Lesson[] = [
       {
         type: "speak",
         text: "Uma vez que o contrato seja assinado, começamos as obras.",
-        prompt: "Say it in Portuguese: Once the contract is signed, we'll start the works.",
-        tip: "Nasalise \"começamos\" (co-me-SÃ-mus) and keep \"seja\" short: SÊ-ja.",
+        prompt: "Say it in Portuguese: Once the contract is signed, we'll start construction.",
+        tip: "Nasalize \"começamos\" (co-me-SÃ-mus) and keep \"seja\" short: SÊ-ja.",
         explanation: "The subjunctive \"seja\" turns \"uma vez que\" into once: a condition still to be met.",
       },
       {
@@ -2489,7 +2488,7 @@ export const PT_C2_U19: Lesson[] = [
     level: "PT-C2",
     number: 9,
     title: "Dialogue Lab: A Réplica",
-    summary: "Follow a university debate on the four-day week in which each argument meets a sharper objection, and practise the concessions, refutations and hypotheses that keep it going.",
+    summary: "Follow a university debate on the four-day week in which each argument meets a sharper objection, and practice the concessions, refutations and hypotheses that keep it going.",
     duration: "18 min",
     kind: "reinforce",
     format: "Dialogue Lab",
@@ -2497,11 +2496,11 @@ export const PT_C2_U19: Lesson[] = [
       {
         heading: "Abertura: the motion and the first argument",
         body: [
-          "It's the final of an inter-university debating tournament in São Paulo. The motion (\"moção\") is \"Esta Casa adotaria a semana de quatro dias de trabalho\". Larissa Monteiro speaks for the proposition, Diego Fonseca for the opposition, and Professor Regina Alves chairs (\"preside a mesa\"). The format follows the parliamentary style you know from Unit 6: each speaker has a fixed time, then a \"réplica\", then a \"tréplica\".",
+          "It's the final round of an inter-university debate tournament in São Paulo. The motion (\"moção\") is \"Esta Casa adotaria a semana de quatro dias de trabalho\". Larissa Monteiro speaks for the proposition, Diego Fonseca for the opposition, and Professor Regina Alves chairs (\"preside a mesa\"). The format follows the parliamentary style you know from Unit 6: each speaker has a fixed time, then a \"réplica\", then a \"tréplica\".",
           "Larissa opens with a claim, a hedge and a frame. Note the reporting verb \"sugerem\" (suggest), which promises less than \"provam\" and so is harder to refute, and the definition she sets at the start. By fixing what \"semana de quatro dias\" means (32 hours on the same pay, not 40 hours squeezed into four days), she closes off one line of attack before Diego can open it.",
         ],
         examples: [
-          { es: "Boa noite a todos. A moção de hoje é: Esta Casa adotaria a semana de quatro dias de trabalho.", en: "Good evening, everyone. Tonight's motion is: This House would adopt the four-day working week." },
+          { es: "Boa noite a todos. A moção de hoje é: Esta Casa adotaria a semana de quatro dias de trabalho.", en: "Good evening, everyone. Tonight's motion is: This House would adopt the four-day workweek." },
           { es: "Com a palavra, a proposição. A senhora tem sete minutos.", en: "The floor goes to the proposition. You have seven minutes." },
           { es: "Quando falamos em semana de quatro dias, falamos em 32 horas com o mesmo salário, não em 40 horas espremidas em quatro dias.", en: "When we talk about a four-day week, we mean 32 hours on the same pay, not 40 hours squeezed into four days." },
           { es: "Experiências em vários países sugerem que a produtividade se mantém e o adoecimento diminui.", en: "Trials in several countries suggest that productivity holds steady and work-related illness falls." },
@@ -2546,7 +2545,7 @@ export const PT_C2_U19: Lesson[] = [
           { es: "Agradeço à colega. É verdade que alguns estudos apontam ganhos de produtividade.", en: "I thank my colleague. It's true that some studies point to productivity gains." },
           { es: "A colega omite, porém, que quase todos foram feitos em escritórios.", en: "What my colleague leaves out, however, is that almost all of them were done in offices." },
           { es: "Admitamos que funcione num escritório. Ainda assim, como fica a enfermeira de plantão?", en: "Let's grant that it works in an office. Even so, what happens to the nurse on shift?" },
-          { es: "E o motorista de ônibus, o caixa do supermercado, o pequeno comerciante?", en: "And the bus driver, the supermarket cashier, the small shopkeeper?" },
+          { es: "E o motorista de ônibus, o caixa do supermercado, o pequeno comerciante?", en: "And the bus driver, the supermarket cashier, the small business owner?" },
         ],
         checkpoint: [
           {
@@ -2599,7 +2598,7 @@ export const PT_C2_U19: Lesson[] = [
           { es: "Ninguém aqui propôs fechar hospitais às sextas-feiras. Isso é um espantalho.", en: "Nobody here proposed closing hospitals on Fridays. That's a strawman." },
           { es: "Mesmo que fosse preciso contratar mais enfermeiros, isso geraria empregos.", en: "Even if more nurses had to be hired, that would create jobs." },
           { es: "Concordo em parte: a transição deve ser gradual e setorial.", en: "I partly agree: the transition should be gradual and sector by sector." },
-          { es: "O colega tem razão quando fala dos serviços essenciais, mas esquece que eles já funcionam em escalas.", en: "My colleague is right when he mentions essential services, but he forgets that they already run on shift rotas." },
+          { es: "O colega tem razão quando fala dos serviços essenciais, mas esquece que eles já funcionam em escalas.", en: "My colleague is right when he mentions essential services, but he forgets that they already run on rotating shifts." },
         ],
         checkpoint: [
           {
@@ -2635,7 +2634,7 @@ export const PT_C2_U19: Lesson[] = [
       {
         heading: "O aparte: heat, order and the closing",
         body: [
-          "As Larissa closes, Diego cuts in: \"Isso é utopia!\" She keeps the floor in the register of the room, which is formal but alive: \"Peraí, deixa eu terminar\" would be too casual for a final, so she says \"Peço que me deixe concluir\". The chair steps in with the standard formulas: \"Peço aos debatedores que respeitem o tempo\", \"Tempo esgotado\".",
+          "As Larissa closes, Diego cuts in: \"Isso é utopia!\" She keeps the floor in the register of the room, which is formal but alive: \"Peraí, deixa eu terminar\" would be too casual for a final round, so she says \"Peço que me deixe concluir\". The chair steps in with the standard formulas: \"Peço aos debatedores que respeitem o tempo\", \"Tempo esgotado\".",
           "Diego's closing speech uses the strongest concession of all, \"por mais que\": \"Por mais sedutora que seja a ideia, uma política pública precisa servir a todos.\" He grants that the idea is appealing and still holds his line. Then Professor Regina closes the debate and hands the decision to the judges.",
         ],
         examples: [
@@ -2665,7 +2664,7 @@ export const PT_C2_U19: Lesson[] = [
             type: "speak",
             text: "Peço que me deixe concluir; o senhor teve o seu tempo.",
             prompt: "Say it in Portuguese, formally: I'd ask you to let me finish; you had your time.",
-            tip: "Keep \"peço\" with a closed ê (PÊ-ssu), and stress \"tempo\" at the end, without raising your voice.",
+            tip: "Keep \"peço\" with an open é (PÉ-ssu), and stress \"tempo\" at the end, without raising your voice.",
             explanation: "\"Pedir que\" + subjunctive claims the floor politely, and the second clause points out the unfairness.",
           },
         ],
@@ -2741,7 +2740,7 @@ export const PT_C2_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My colleague is right when he mentions essential services, but he forgets that they already run on rotas.",
+        source: "My colleague is right when he mentions essential services, but he forgets that they already run on rotating shifts.",
         answer: "O colega tem razão quando fala dos serviços essenciais, mas esquece que eles já funcionam em escalas.",
         altAnswers: [
           "O colega tem razão quando fala dos serviços essenciais, mas esquece que eles já funcionam por escala.",
@@ -2750,7 +2749,7 @@ export const PT_C2_U19: Lesson[] = [
           "O colega tem razão quando fala dos serviços essenciais, mas esquece que já funcionam em escalas.",
           "Meu colega tem razão quando fala dos serviços essenciais, mas esquece que eles já funcionam em escalas.",
         ],
-        explanation: "The narrow concession again: \"tem razão quando...\" + \"mas esquece que...\". Shift rotas in Brazil are \"escalas\".",
+        explanation: "The narrow concession again: \"tem razão quando...\" + \"mas esquece que...\". Shift schedules in Brazil are \"escalas\".",
       },
       {
         type: "speak",
@@ -2889,7 +2888,7 @@ export const PT_C2_U19: Lesson[] = [
         examples: [
           { es: "O colega propõe reformar a polícia. O problema dessa proposta é o custo.", en: "My colleague proposes reforming the police. The problem with that proposal is the cost." },
           { es: "Os números que o deputado citou não incluem o trabalho informal.", en: "The figures the deputy cited don't include informal work." },
-          { es: "Poucas pessoas usam a ciclovia no inverno.", en: "Few people use the cycle lane in winter." },
+          { es: "Poucas pessoas usam a ciclovia no inverno.", en: "Few people use the bike lane in winter." },
         ],
         checkpoint: [
           {
@@ -2908,7 +2907,7 @@ export const PT_C2_U19: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Rewrite the absolute claim \"Ninguém usa a ciclovia\" as a qualified one.",
-            source: "Few people use the cycle lane in winter.",
+            source: "Few people use the bike lane in winter.",
             answer: "Poucas pessoas usam a ciclovia no inverno.",
             altAnswers: ["Pouca gente usa a ciclovia no inverno.", "No inverno, poucas pessoas usam a ciclovia.", "No inverno, pouca gente usa a ciclovia.", "Poucos usam a ciclovia no inverno."],
             explanation: "A qualified claim (\"poucas pessoas\", \"no inverno\") survives a single counterexample; \"ninguém\" doesn't.",
@@ -2940,7 +2939,7 @@ export const PT_C2_U19: Lesson[] = [
               "Malgrado as infelizes declarações do deputado, a votação foi mantida.",
               "Apesar das infelizes declarações do deputado, a votação foi mantida.",
             ],
-            explanation: "A formal connector needs formal neighbours: \"as declarações infelizes do deputado\", not \"o cara ter falado besteira\".",
+            explanation: "A formal connector needs formal neighbors: \"as declarações infelizes do deputado\", not \"o cara ter falado besteira\".",
           },
           {
             type: "listen-choose",
@@ -3001,7 +3000,7 @@ export const PT_C2_U19: Lesson[] = [
           "Em que pesam as críticas, o programa foi mantido.",
         ],
         correctIndex: 0,
-        explanation: "The plural noun is the subject of \"pesar\", in the subjunctive: \"pesem\". \"Em que pese as críticas\" is common but criticised.",
+        explanation: "The plural noun is the subject of \"pesar\", in the subjunctive: \"pesem\". \"Em que pese as críticas\" is common but criticized.",
       },
       {
         type: "translate",
@@ -3042,7 +3041,7 @@ export const PT_C2_U19: Lesson[] = [
         type: "speak",
         text: "Embora o projeto seja bom, falta financiamento.",
         prompt: "Say it in Portuguese: Although the project is good, there's no funding.",
-        tip: "\"Embora\": em-BÓ-ra, with an open ó; nasalise the final -ento of \"financiamento\".",
+        tip: "\"Embora\": em-BÓ-ra, with an open ó; nasalize the final -ento of \"financiamento\".",
         explanation: "\"Embora\" + subjunctive replaces the careless \"apesar que\" + indicative.",
       },
       {
@@ -3082,11 +3081,11 @@ export const PT_C2_U19: Lesson[] = [
       {
         heading: "The brief: answer the column",
         body: [
-          "Your mission: a São Paulo daily has published a column by Márcio Penteado headlined \"Menos ciclovias, mais viadutos\". He argues that cycle lanes have made traffic worse, that hardly anyone uses them and that the money should go into flyovers. You work for an urban mobility institute, and the newspaper has offered you the same space for a reply (a \"réplica\" or \"artigo de resposta\").",
-          "The genre has rules. Open by identifying the text and summarising its thesis fairly, with a reporting verb that carries stance (Unit 18): \"sustenta\" is neutral, \"alega\" signals doubt. Refer to the author as \"o colunista\" or \"o articulista\", in the third person, and never in a tone you wouldn't use to his face.",
+          "Your mission: a São Paulo daily has published a column by Márcio Penteado headlined \"Menos ciclovias, mais viadutos\". He argues that bike lanes have made traffic worse, that hardly anyone uses them and that the money should go into overpasses. You work for an urban mobility institute, and the newspaper has offered you the same space for a reply (a \"réplica\" or \"artigo de resposta\").",
+          "The genre has rules. Open by identifying the text and summarizing its thesis fairly, with a reporting verb that carries stance (Unit 18): \"sustenta\" is neutral, \"alega\" signals doubt. Refer to the author as \"o colunista\" or \"o articulista\", in the third person, and never in a tone you wouldn't use to his face.",
         ],
         examples: [
-          { es: "Em artigo publicado neste jornal no último domingo, o colunista Márcio Penteado sustenta que as ciclovias pioraram o trânsito.", en: "In an article published in this newspaper last Sunday, the columnist Márcio Penteado argues that cycle lanes have made traffic worse." },
+          { es: "Em artigo publicado neste jornal no último domingo, o colunista Márcio Penteado sustenta que as ciclovias pioraram o trânsito.", en: "In an article published in this newspaper last Sunday, the columnist Márcio Penteado argues that bike lanes have made traffic worse." },
           { es: "O articulista alega, ainda, que quase ninguém as utiliza.", en: "The writer further claims that hardly anyone uses them." },
           { es: "O debate é bem-vindo, mas as premissas do texto merecem exame.", en: "The debate is welcome, but the article's premises deserve scrutiny." },
           { es: "Proponho examinar cada um desses argumentos.", en: "I propose to examine each of these arguments." },
@@ -3096,7 +3095,7 @@ export const PT_C2_U19: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into formal Portuguese.",
-            source: "In an article published in this newspaper last Sunday, the columnist argues that cycle lanes have made traffic worse.",
+            source: "In an article published in this newspaper last Sunday, the columnist argues that bike lanes have made traffic worse.",
             answer: "Em artigo publicado neste jornal no último domingo, o colunista sustenta que as ciclovias pioraram o trânsito.",
             altAnswers: [
               "Em artigo publicado neste jornal no último domingo, o colunista defende que as ciclovias pioraram o trânsito.",
@@ -3128,17 +3127,17 @@ export const PT_C2_U19: Lesson[] = [
           "Then the refutation, aimed at the reasoning: \"Não procede, contudo, a ideia de que...\", \"Esse raciocínio não se sustenta\". The strongest evidence is his own: if his figures show the lanes are full on weekdays, say so. \"Os próprios números citados pelo articulista mostram...\" is hard to answer, because he can't reject his own data.",
         ],
         examples: [
-          { es: "Tem razão o colunista quando afirma que algumas ciclovias foram mal planejadas.", en: "The columnist is right when he says that some cycle lanes were badly planned." },
+          { es: "Tem razão o colunista quando afirma que algumas ciclovias foram mal planejadas.", en: "The columnist is right when he says that some bike lanes were badly planned." },
           { es: "Não procede, contudo, a ideia de que elas sejam a causa dos congestionamentos.", en: "The idea that they cause the traffic jams, however, doesn't hold up." },
           { es: "Os próprios números citados pelo articulista mostram que o uso cresce nos dias úteis.", en: "The very figures the writer cites show that use is growing on weekdays." },
-          { es: "Muito pelo contrário: onde a rede é contínua, as ciclovias estão cheias.", en: "Quite the opposite: where the network is continuous, the cycle lanes are full." },
+          { es: "Muito pelo contrário: onde a rede é contínua, as ciclovias estão cheias.", en: "Quite the opposite: where the network is continuous, the bike lanes are full." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into formal Portuguese, with the verb first.",
-            source: "The columnist is right when he says that some cycle lanes were badly planned.",
+            source: "The columnist is right when he says that some bike lanes were badly planned.",
             answer: "Tem razão o colunista quando afirma que algumas ciclovias foram mal planejadas.",
             altAnswers: [
               "Tem razão o colunista quando diz que algumas ciclovias foram mal planejadas.",
@@ -3180,17 +3179,17 @@ export const PT_C2_U19: Lesson[] = [
           "Qualify where honesty demands it. \"Concordo em parte\" or \"com uma ressalva\" shows you've read the column carefully, and \"depende do que se entende por trânsito\" can turn the debate: if traffic means moving people, not cars, the conclusion changes.",
         ],
         examples: [
-          { es: "Ainda que as ciclovias fossem pouco usadas hoje, isso não provaria que são inúteis.", en: "Even if cycle lanes were little used today, that wouldn't prove they're useless." },
+          { es: "Ainda que as ciclovias fossem pouco usadas hoje, isso não provaria que são inúteis.", en: "Even if bike lanes were little used today, that wouldn't prove they're useless." },
           { es: "Se seguíssemos esse raciocínio, teríamos de fechar as linhas de metrô recém-inauguradas.", en: "If we followed that reasoning, we'd have to close the newly opened metro lines." },
           { es: "Tudo depende do que se entende por trânsito: carros ou pessoas?", en: "It all depends what we mean by traffic: cars or people?" },
-          { es: "Concordo em parte: algumas ciclovias precisam ser redesenhadas.", en: "I partly agree: some cycle lanes need to be redesigned." },
+          { es: "Concordo em parte: algumas ciclovias precisam ser redesenhadas.", en: "I partly agree: some bike lanes need to be redesigned." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into formal Portuguese.",
-            source: "Even if cycle lanes were little used today, that wouldn't prove they're useless.",
+            source: "Even if bike lanes were little used today, that wouldn't prove they're useless.",
             answer: "Ainda que as ciclovias fossem pouco usadas hoje, isso não provaria que são inúteis.",
             altAnswers: [
               "Mesmo que as ciclovias fossem pouco usadas hoje, isso não provaria que são inúteis.",
@@ -3224,8 +3223,8 @@ export const PT_C2_U19: Lesson[] = [
           "Don't end on a refutation; end on what you would do instead. Signal the close (\"Em suma\", \"Em síntese\"), restate your position in one sentence, then offer the alternative: \"Em vez de mais viadutos, que atraem mais carros, a cidade precisa completar a rede.\" Finish with an open, courteous line: the debate continues, and you've shown you can conduct it civilly.",
         ],
         examples: [
-          { es: "Em suma, o problema não são as ciclovias, mas a falta de uma rede contínua.", en: "In short, the problem isn't the cycle lanes but the lack of a continuous network." },
-          { es: "Em vez de mais viadutos, que atraem mais carros, a cidade precisa completar a rede.", en: "Instead of more flyovers, which attract more cars, the city needs to complete the network." },
+          { es: "Em suma, o problema não são as ciclovias, mas a falta de uma rede contínua.", en: "In short, the problem isn't the bike lanes but the lack of a continuous network." },
+          { es: "Em vez de mais viadutos, que atraem mais carros, a cidade precisa completar a rede.", en: "Instead of more overpasses, which attract more cars, the city needs to complete the network." },
           { es: "Fica o convite ao colunista para pedalarmos juntos pela avenida Paulista.", en: "The columnist is warmly invited to cycle along Avenida Paulista with me." },
         ],
         checkpoint: [
@@ -3233,7 +3232,7 @@ export const PT_C2_U19: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into formal Portuguese.",
-            source: "In short, the problem isn't the cycle lanes but the lack of a continuous network.",
+            source: "In short, the problem isn't the bike lanes but the lack of a continuous network.",
             answer: "Em suma, o problema não são as ciclovias, mas a falta de uma rede contínua.",
             altAnswers: [
               "Em síntese, o problema não são as ciclovias, mas a falta de uma rede contínua.",
@@ -3284,7 +3283,7 @@ export const PT_C2_U19: Lesson[] = [
           "O debate é bem-vindo, mas as premissas do texto merecem análise.",
           "O debate é bem-vindo, mas as premissas do artigo merecem uma análise cuidadosa.",
         ],
-        explanation: "Welcoming the debate before criticising the premises sets a civil tone that readers reward.",
+        explanation: "Welcoming the debate before criticizing the premises sets a civil tone that readers reward.",
       },
       {
         type: "fill-blank",
@@ -3331,7 +3330,7 @@ export const PT_C2_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into formal Portuguese.",
-        source: "Instead of more flyovers, which attract more cars, the city needs to complete the network.",
+        source: "Instead of more overpasses, which attract more cars, the city needs to complete the network.",
         answer: "Em vez de mais viadutos, que atraem mais carros, a cidade precisa completar a rede.",
         altAnswers: [
           "Em vez de mais viadutos, que atraem mais carros, a cidade precisa concluir a rede.",
@@ -3345,7 +3344,7 @@ export const PT_C2_U19: Lesson[] = [
       {
         type: "speak",
         text: "Não procede, contudo, a ideia de que as ciclovias causem os congestionamentos.",
-        prompt: "Say it in Portuguese, formally: The idea that cycle lanes cause the traffic jams, however, doesn't hold up.",
+        prompt: "Say it in Portuguese, formally: The idea that bike lanes cause the traffic jams, however, doesn't hold up.",
         tip: "Pause around \"contudo\", and stress con-ges-tio-na-MEN-tos.",
         explanation: "Verb-first refutation with a formal turn: \"não procede, contudo, a ideia de que...\".",
       },
@@ -3376,7 +3375,7 @@ export const PT_C2_U19: Lesson[] = [
 
 export const PT_C2_U19_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A Porto Alegre newspaper has published an opinion column arguing that the city should ban shared electric scooters (patinetes elétricos) because they cause accidents, clutter the pavements and are only used by tourists. Write a formal rebuttal for the same opinion page. Present the column's thesis fairly, concede what is true, refute the rest point by point, use at least one hypothetical argument, and end with a concrete counterproposal.",
+  prompt: "A Porto Alegre newspaper has published an opinion column arguing that the city should ban shared electric scooters (patinetes elétricos) because they cause accidents, clutter the sidewalks and are only used by tourists. Write a formal rebuttal for the same opinion page. Present the column's thesis fairly, concede what is true, refute the rest point by point, use at least one hypothetical argument, and end with a concrete counterproposal.",
   minWords: 250,
   maxWords: 400,
   rubric: [

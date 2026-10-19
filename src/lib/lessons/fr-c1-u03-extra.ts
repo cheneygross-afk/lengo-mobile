@@ -323,7 +323,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
         type: "listen-choose",
         audio: "La fraîcheur des produits est notre priorité.",
         question: "What does it mean?",
-        options: ["The freshness of our produce is our priority.", "Cold products are our priority.", "Our products are kept cool as a priority.", "We prioritise frozen products."],
+        options: ["The freshness of our produce is our priority.", "Cold products are our priority.", "Fresh products are on special offer.", "We prioritise frozen products."],
         correctIndex: 0,
         explanation: "\"Frais\" → \"la fraîcheur\" (freshness or coolness).",
       },
@@ -360,7 +360,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Turn into a noun phrase: Les températures ont brusquement chuté.",
+            prompt: "Translate into French (turn into a noun phrase): \"Les températures ont brusquement chuté.\"",
             source: "The abrupt drop in temperatures",
             answer: "La brusque chute des températures",
             altAnswers: ["La chute brusque des températures", "La brusque baisse des températures", "La baisse brusque des températures"],
@@ -368,7 +368,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the noun phrase for « La ville a vendu le château »?",
+            question: "Which is the noun phrase for \"La ville a vendu le château\"?",
             options: ["la vente du château par la ville", "la vente de la ville par le château", "le vendage du château de la ville", "la vente du château à la ville"],
             correctIndex: 0,
             explanation: "Object → \"du château\", agent → \"par la ville\".",
@@ -380,7 +380,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Turn into a noun phrase: Les salaires ont légèrement augmenté.",
+        prompt: "Translate into French (turn into a noun phrase): \"Les salaires ont légèrement augmenté.\"",
         source: "The slight rise in wages",
         answer: "La légère hausse des salaires",
         altAnswers: ["La légère augmentation des salaires"],
@@ -389,7 +389,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Turn into a noun phrase: Le Premier ministre est arrivé à Lille.",
+        prompt: "Translate into French (turn into a noun phrase): \"Le Premier ministre est arrivé à Lille.\"",
         source: "The Prime Minister's arrival in Lille",
         answer: "L'arrivée du Premier ministre à Lille",
         explanation: "Subject → \"du Premier ministre\"; place keeps \"à\".",
@@ -397,7 +397,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Turn into a noun phrase: Les élèves ont massivement réussi le bac.",
+        prompt: "Translate into French (turn into a noun phrase): \"Les élèves ont massivement réussi le bac.\"",
         source: "Pupils' widespread success in the baccalauréat",
         answer: "La réussite massive des élèves au bac",
         altAnswers: ["Le succès massif des élèves au bac", "La réussite massive des élèves au baccalauréat"],
@@ -415,7 +415,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Turn into a noun phrase: La région a rapidement réagi.",
+        prompt: "Translate into French (turn into a noun phrase): \"La région a rapidement réagi.\"",
         source: "The region's rapid reaction",
         answer: "La réaction rapide de la région",
         altAnswers: ["La rapide réaction de la région"],
@@ -424,7 +424,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Turn into a noun phrase: Les habitants s'opposent au projet.",
+        prompt: "Translate into French (turn into a noun phrase): \"Les habitants s'opposent au projet.\"",
         source: "Residents' opposition to the project",
         answer: "L'opposition des habitants au projet",
         explanation: "\"S'opposer à\" → \"l'opposition à\".",
@@ -440,7 +440,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which noun phrase corresponds to « Elle a brillamment réussi »?",
+        question: "Which noun phrase corresponds to \"Elle a brillamment réussi\"?",
         options: ["sa brillante réussite", "son brillamment réussite", "sa réussite brillamment", "son brillant réussir"],
         correctIndex: 0,
         explanation: "\"Brillamment\" → \"brillante\"; \"elle\" → \"sa\".",
@@ -448,7 +448,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Turn into a noun phrase: L'entreprise a supprimé 300 postes.",
+        prompt: "Translate into French (turn into a noun phrase): \"L'entreprise a supprimé 300 postes.\"",
         source: "The company's cutting of 300 jobs",
         answer: "La suppression de 300 postes par l'entreprise",
         altAnswers: ["La suppression de trois cents postes par l'entreprise"],
@@ -457,7 +457,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Turn into a noun phrase: Les citoyens font confiance aux médecins.",
+        prompt: "Translate into French (turn into a noun phrase): \"Les citoyens font confiance aux médecins.\"",
         source: "Citizens' trust in doctors",
         answer: "La confiance des citoyens dans les médecins",
         altAnswers: ["La confiance des citoyens envers les médecins"],
@@ -473,11 +473,10 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Turn into a noun phrase: Le vote a été reporté à mardi.",
+        prompt: "Translate into French (turn into a noun phrase): \"Le vote a été reporté à mardi.\"",
         source: "The postponement of the vote to Tuesday",
         answer: "Le report du vote à mardi",
-        altAnswers: ["Le report du vote au mardi"],
-        explanation: "\"Reporter à\" → \"le report à\".",
+                explanation: "\"Reporter à\" → \"le report à\".",
       },
       {
         type: "listen-choose",
@@ -521,7 +520,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rebuild the sentence behind the headline: Inondations dans le Gard : évacuation de 300 habitants.",
+            prompt: "Translate into French (rebuild the sentence behind the headline): \"Inondations dans le Gard : évacuation de 300 habitants\"",
             source: "300 residents have been evacuated because of floods in the Gard.",
             answer: "Trois cents habitants ont été évacués à cause des inondations dans le Gard.",
             altAnswers: ["300 habitants ont été évacués à cause des inondations dans le Gard.", "Dans le Gard, 300 habitants ont été évacués à cause des inondations.", "Dans le Gard, trois cents habitants ont été évacués à cause des inondations."],
@@ -529,7 +528,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Pénurie de médecins dans les campagnes » means:",
+            question: "\"Pénurie de médecins dans les campagnes\" means:",
             options: ["Shortage of doctors in rural areas", "Doctors' strike in the countryside", "Doctors leave the cities for the country", "Rural doctors get a pay rise"],
             correctIndex: 0,
             explanation: "\"La pénurie\" = shortage.",
@@ -568,7 +567,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rebuild the sentence behind the headline: Report du Tour de France d'une semaine.",
+        prompt: "Translate into French (rebuild the sentence behind the headline): \"Report du Tour de France d'une semaine\"",
         source: "The Tour de France has been postponed by a week.",
         answer: "Le Tour de France a été reporté d'une semaine.",
         altAnswers: ["Le Tour de France est reporté d'une semaine."],
@@ -577,7 +576,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rebuild the sentence behind the headline: Forte progression des ventes de vélos électriques.",
+        prompt: "Translate into French (rebuild the sentence behind the headline): \"Forte progression des ventes de vélos électriques\"",
         source: "Sales of electric bikes are rising sharply.",
         answer: "Les ventes de vélos électriques progressent fortement.",
         altAnswers: ["Les ventes de vélos électriques augmentent fortement.", "Les ventes de vélos électriques ont fortement progressé."],
@@ -595,9 +594,10 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rebuild the sentence behind the headline: Rejet de la motion de censure.",
+        prompt: "Translate into French (rebuild the sentence behind the headline): \"Rejet de la motion de censure\"",
         source: "The motion of no confidence has been rejected.",
         answer: "La motion de censure a été rejetée.",
+        altAnswers: ["La motion de censure est rejetée."],
         explanation: "\"Rejet\" → passive \"a été rejetée\" (agreeing with \"la motion\").",
       },
       {
@@ -624,9 +624,10 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rebuild the sentence behind the headline: Nomination d'une nouvelle directrice à l'Opéra de Lyon.",
+        prompt: "Translate into French (rebuild the sentence behind the headline): \"Nomination d'une nouvelle directrice à l'Opéra de Lyon\"",
         source: "A new director has been appointed at the Lyon Opera.",
         answer: "Une nouvelle directrice a été nommée à l'Opéra de Lyon.",
+        altAnswers: ["Une nouvelle directrice est nommée à l'Opéra de Lyon.", "On a nommé une nouvelle directrice à l'Opéra de Lyon."],
         explanation: "\"Nomination\" → \"a été nommée\".",
       },
       {
@@ -659,7 +660,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Nouvelle hausse du prix du gaz en janvier.",
-        prompt: "Read the headline aloud: Gas prices to rise again in January.",
+        prompt: "Say it in French, as a headline: Gas prices to rise again in January.",
         explanation: "\"Again\" → \"nouvelle\" before the noun.",
       },
     ],
@@ -689,7 +690,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in plain French: Il est procédé au relevé des compteurs le 5.",
+            prompt: "Translate into French (rewrite in plain French): \"Il est procédé au relevé des compteurs le 5.\"",
             source: "We read the meters on the 5th.",
             answer: "Nous relevons les compteurs le 5.",
             altAnswers: ["On relève les compteurs le 5.", "Nous relevons les compteurs le cinq."],
@@ -714,7 +715,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain French: La transmission de vos documents doit être effectuée avant le 15.",
+        prompt: "Translate into French (rewrite in plain French): \"La transmission de vos documents doit être effectuée avant le 15.\"",
         source: "Send us your documents before the 15th.",
         answer: "Envoyez-nous vos documents avant le 15.",
         altAnswers: ["Vous devez nous envoyer vos documents avant le 15.", "Transmettez-nous vos documents avant le 15.", "Envoyez vos documents avant le 15.", "Merci de nous envoyer vos documents avant le 15."],
@@ -723,7 +724,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain French: Votre réclamation fera l'objet d'un traitement dans les meilleurs délais.",
+        prompt: "Translate into French (rewrite in plain French): \"Votre réclamation fera l'objet d'un traitement dans les meilleurs délais.\"",
         source: "We'll deal with your complaint as soon as possible.",
         answer: "Nous traiterons votre réclamation dans les meilleurs délais.",
         altAnswers: ["Nous traiterons votre réclamation le plus vite possible.", "Nous allons traiter votre réclamation dans les meilleurs délais.", "Nous traiterons votre réclamation au plus vite."],
@@ -732,7 +733,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain French: Au niveau des horaires, il y a eu une modification.",
+        prompt: "Translate into French (rewrite in plain French): \"Au niveau des horaires, il y a eu une modification.\"",
         source: "The timetable has changed.",
         answer: "Les horaires ont changé.",
         altAnswers: ["Les horaires ont été modifiés.", "Nous avons modifié les horaires."],
@@ -750,7 +751,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain French: La mise en conformité de l'installation électrique est à la charge du propriétaire.",
+        prompt: "Translate into French (rewrite in plain French): \"La mise en conformité de l'installation électrique est à la charge du propriétaire.\"",
         source: "The owner must bring the wiring up to standard.",
         answer: "Le propriétaire doit mettre l'installation électrique aux normes.",
         altAnswers: ["Le propriétaire doit mettre l'installation électrique en conformité.", "C'est au propriétaire de mettre l'installation électrique aux normes.", "Le propriétaire doit faire mettre l'installation électrique aux normes."],
@@ -759,7 +760,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain French: L'accès au parking est réservé aux détenteurs d'un badge.",
+        prompt: "Translate into French (rewrite in plain French): \"L'accès au parking est réservé aux détenteurs d'un badge.\"",
         source: "Only badge holders can use the car park.",
         answer: "Seuls les détenteurs d'un badge peuvent accéder au parking.",
         altAnswers: ["Seules les personnes qui ont un badge peuvent entrer dans le parking.", "Seuls les détenteurs d'un badge peuvent utiliser le parking.", "Il faut un badge pour accéder au parking.", "Il faut un badge pour entrer dans le parking."],
@@ -775,7 +776,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain French: Il est procédé à la fermeture de la piscine pour cause de vidange.",
+        prompt: "Translate into French (rewrite in plain French): \"Il est procédé à la fermeture de la piscine pour cause de vidange.\"",
         source: "We're closing the pool to drain it.",
         answer: "Nous fermons la piscine pour la vider.",
         altAnswers: ["Nous fermons la piscine pour la vidanger.", "La piscine est fermée pour vidange.", "On ferme la piscine pour la vider.", "La piscine ferme pour être vidée."],
@@ -784,7 +785,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain French: Le non-respect de ces consignes entraînera l'exclusion du participant.",
+        prompt: "Translate into French (rewrite in plain French): \"Le non-respect de ces consignes entraînera l'exclusion du participant.\"",
         source: "If you don't follow these instructions, you'll be excluded.",
         answer: "Si vous ne respectez pas ces consignes, vous serez exclu.",
         altAnswers: ["Si vous ne respectez pas ces consignes, vous serez exclue.", "Si vous ne respectez pas ces consignes, vous serez exclus.", "Si vous ne suivez pas ces consignes, vous serez exclu.", "Si vous ne suivez pas ces consignes, vous serez exclue."],
@@ -800,7 +801,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain French: En termes de sécurité, le port du casque est obligatoire.",
+        prompt: "Translate into French (rewrite in plain French): \"En termes de sécurité, le port du casque est obligatoire.\"",
         source: "You must wear a helmet.",
         answer: "Vous devez porter un casque.",
         altAnswers: ["Il faut porter un casque.", "Le casque est obligatoire.", "Portez un casque."],
@@ -809,7 +810,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in plain French: Le paiement par carte bancaire fait l'objet d'un supplément de 2 %.",
+        prompt: "Translate into French (rewrite in plain French): \"Le paiement par carte bancaire fait l'objet d'un supplément de 2 %.\"",
         source: "There's a 2% surcharge if you pay by card.",
         answer: "Si vous payez par carte bancaire, il y a un supplément de 2 %.",
         altAnswers: ["Si vous payez par carte, il y a un supplément de 2 %.", "Nous ajoutons 2 % si vous payez par carte.", "Payer par carte coûte 2 % de plus."],
@@ -881,7 +882,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "The fact that he didn't apologise shocks me.",
         answer: "Le fait qu'il ne se soit pas excusé me choque.",
-        altAnswers: ["Le fait qu'il ne se soit pas excusé me choque beaucoup.", "Le fait qu'il ne s'est pas excusé me choque."],
+        altAnswers: ["Le fait qu'il ne s'est pas excusé me choque."],
         explanation: "Reaction → past subjunctive of a pronominal verb.",
       },
       {
@@ -915,8 +916,8 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into French.",
         source: "Most of the guests left before midnight.",
-        answer: "L'essentiel des invités est parti avant minuit.",
-        altAnswers: ["La plupart des invités sont partis avant minuit.", "L'essentiel des invités sont partis avant minuit."],
+        answer: "La plupart des invités sont partis avant minuit.",
+        altAnswers: ["L'essentiel des invités est parti avant minuit.", "L'essentiel des invités sont partis avant minuit."],
         explanation: "\"L'essentiel de\" or \"la plupart de\" = most of.",
       },
       {
@@ -974,7 +975,7 @@ export const FR_C1_U03_EXTRA: Lesson[] = [
           { left: "le savoir-faire", right: "know-how" },
           { left: "le fait que", right: "the fact that" },
         ],
-        explanation: "Three nominal tools plus a set phrase.",
+        explanation: "Two \"le + adjective\" nouns, a nominalised infinitive and the clause-to-noun tool \"le fait que\".",
       },
       {
         type: "translate",

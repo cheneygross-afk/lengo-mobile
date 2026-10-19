@@ -67,7 +67,7 @@ export const PT_C1_U11: Lesson[] = [
         ],
         examples: [
           { es: "Nos séculos XVI e XVII, o açúcar era a base da economia colonial.", en: "In the 16th and 17th centuries, sugar was the basis of the colonial economy." },
-          { es: "Os engenhos de Pernambuco e da Bahia dependiam do trabalho de africanos escravizados.", en: "The sugar mills of Pernambuco and Bahia depended on the labour of enslaved Africans." },
+          { es: "Os engenhos de Pernambuco e da Bahia dependiam do trabalho de africanos escravizados.", en: "The sugar mills of Pernambuco and Bahia depended on the labor of enslaved Africans." },
           { es: "No fim do século XVII, foi descoberto ouro em Minas Gerais.", en: "At the end of the 17th century, gold was discovered in Minas Gerais." },
           { es: "A Coroa cobrava o quinto, um imposto de 20% sobre o ouro extraído.", en: "The Crown charged the fifth, a 20% tax on the gold mined." },
           { es: "Em 1763, a capital foi transferida de Salvador para o Rio de Janeiro.", en: "In 1763, the capital was moved from Salvador to Rio de Janeiro." },
@@ -107,7 +107,7 @@ export const PT_C1_U11: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The sugar mills depended on the labour of [enslaved] Africans.",
+            en: "The sugar mills depended on the labor of [enslaved] Africans.",
             sentence: "Os engenhos dependiam do trabalho de africanos ___.",
             answer: "escravizados",
             explanation: "\"Escravizados\" is the participle of \"escravizar\": it presents slavery as something imposed. It agrees with \"africanos\", masculine plural.",
@@ -118,14 +118,14 @@ export const PT_C1_U11: Lesson[] = [
         heading: "1808-1822: from colony to empire",
         body: [
           "In 1808, fleeing Napoleon's armies, the Portuguese court crossed to Brazil, and Rio became the seat of the empire. Dom João opened the ports \"às nações amigas\", and in 1815 Brazil was raised to a kingdom united with Portugal. He sailed home in 1821. His son Pedro, ordered back too, refused: \"o Dia do Fico\" (from \"fico\", I'm staying).",
-          "On 7 September 1822, by the Ipiranga stream in São Paulo, Pedro declared independence and was crowned emperor as Pedro I. Unlike its neighbours, Brazil stayed a monarchy until 1889. Monarchs' numbers are read as ordinals: Pedro II is \"Dom Pedro segundo\".",
+          "On September 7, 1822, by the Ipiranga stream in São Paulo, Pedro declared independence and was crowned emperor as Pedro I. Unlike its neighbors, Brazil stayed a monarchy until 1889. Monarchs' numbers are read as ordinals: Pedro II is \"Dom Pedro segundo\".",
           "Textbooks and museum panels like the historical present (\"Dom Pedro proclama a Independência\") and the participle clause from Unit 2 (\"proclamada a Independência\"). Pick one narrative tense per paragraph and don't drift between them.",
         ],
         examples: [
           { es: "Fugindo das tropas de Napoleão, a família real chegou ao Brasil em 1808.", en: "Fleeing Napoleon's troops, the royal family arrived in Brazil in 1808." },
           { es: "Ainda em 1808, Dom João abriu os portos às nações amigas.", en: "That same year, Dom João opened the ports to friendly nations." },
           { es: "Em 1815, o Brasil passou a fazer parte de um reino unido com Portugal.", en: "In 1815, Brazil became part of a kingdom united with Portugal." },
-          { es: "Em 7 de setembro de 1822, Dom Pedro proclama a Independência às margens do Ipiranga.", en: "On 7 September 1822, Dom Pedro declares independence on the banks of the Ipiranga." },
+          { es: "Em 7 de setembro de 1822, Dom Pedro proclama a Independência às margens do Ipiranga.", en: "On September 7, 1822, Dom Pedro declares independence on the banks of the Ipiranga." },
           { es: "Proclamada a Independência, Dom Pedro foi coroado imperador.", en: "Once independence had been declared, Dom Pedro was crowned emperor." },
           { es: "O Império durou até 1889, quando foi proclamada a República.", en: "The Empire lasted until 1889, when the Republic was proclaimed." },
         ],
@@ -333,7 +333,7 @@ export const PT_C1_U11: Lesson[] = [
       {
         heading: "Resistência: quilombos and alforria",
         body: [
-          "Resistance was constant: escape (\"a fuga\"), uprisings such as the Revolta dos Malês in Salvador (1835), and above all \"os quilombos\", settlements founded by people who had escaped. Palmares, in today's Alagoas, held out for most of the seventeenth century. Its leader Zumbi was killed on 20 November 1695, a date now marked as the \"Dia da Consciência Negra\" and a national holiday.",
+          "Resistance was constant: escape (\"a fuga\"), uprisings such as the Revolta dos Malês in Salvador (1835), and above all \"os quilombos\", settlements founded by people who had escaped. Palmares, in today's Alagoas, held out for most of the seventeenth century. Its leader Zumbi was killed on November 20, 1695, a date now marked as the \"Dia da Consciência Negra\" and a national holiday.",
           "\"Quilombola\" works as a noun and as an adjective. \"As comunidades quilombolas\" descend from those settlements, and the 1988 Constitution guarantees their right to their land. Another way out of slavery was \"a alforria\" (manumission), often bought with years of savings and recorded in \"a carta de alforria\". The freed person was \"um liberto\" or \"uma liberta\".",
         ],
         examples: [
@@ -373,8 +373,8 @@ export const PT_C1_U11: Lesson[] = [
       {
         heading: "Da Lei Áurea ao legado",
         body: [
-          "Abolition came law by law. An 1831 ban on the trade was so openly ignored that it is said to have given Portuguese the idiom \"para inglês ver\" (just for show), since Britain was the country pressing for it. Then came the Lei Eusébio de Queirós (1850), which actually ended the Atlantic trade, the Lei do Ventre Livre (1871) for children born to enslaved mothers, and the Lei dos Sexagenários (1885) for people over sixty. Finally the Lei Áurea, signed by Princesa Isabel on 13 May 1888, ended slavery outright. Historical writing links these steps with the passive and the participle clauses from Unit 2: \"assinada a lei, ...\".",
-          "The old story of a generous princess, \"a Redentora\", is now told alongside the abolitionists (Luís Gama, André Rebouças, Joaquim Nabuco) and the enslaved themselves, who left the plantations in mass escapes in the 1880s. Freedom came with no land, no compensation and no schooling, while the state subsidised European immigrants. Hence the term \"abolição inacabada\", and the link historians draw to \"o racismo estrutural\" and to \"as cotas raciais\" today.",
+          "Abolition came law by law. An 1831 ban on the trade was so openly ignored that it is said to have given Portuguese the idiom \"para inglês ver\" (just for show), since Britain was the country pressing for it. Then came the Lei Eusébio de Queirós (1850), which actually ended the Atlantic trade, the Lei do Ventre Livre (1871) for children born to enslaved mothers, and the Lei dos Sexagenários (1885) for people over sixty. Finally the Lei Áurea, signed by Princesa Isabel on May 13, 1888, ended slavery outright. Historical writing links these steps with the passive and the participle clauses from Unit 2: \"assinada a lei, ...\".",
+          "The old story of a generous princess, \"a Redentora\", is now told alongside the abolitionists (Luís Gama, André Rebouças, Joaquim Nabuco) and the enslaved themselves, who left the plantations in mass escapes in the 1880s. Freedom came with no land, no compensation and no schooling, while the state subsidized European immigrants. Hence the term \"abolição inacabada\", and the link historians draw to \"o racismo estrutural\" and to \"as cotas raciais\" today.",
         ],
         examples: [
           { es: "A Lei Áurea foi assinada pela Princesa Isabel em 13 de maio de 1888.", en: "The Lei Áurea was signed by Princess Isabel on May 13, 1888." },
@@ -451,9 +451,9 @@ export const PT_C1_U11: Lesson[] = [
       {
         type: "multiple-choice",
         question: "A Brazilian colleague says: \"Para o movimento negro, a data mais importante é o 20 de novembro, não o 13 de maio.\" What point is she making?",
-        options: ["Black resistance, symbolised by Zumbi, matters more than the princess's signature.", "Slavery actually ended on 20 November.", "The Lei Áurea was signed in November, not May.", "Zumbi was the one who signed the abolition law."],
+        options: ["Black resistance, symbolized by Zumbi, matters more than the princess's signature.", "Slavery actually ended on November 20.", "The Lei Áurea was signed in November, not May.", "Zumbi was the one who signed the abolition law."],
         correctIndex: 0,
-        explanation: "13 May is the Lei Áurea, and 20 November is Zumbi's death and the \"Dia da Consciência Negra\". Choosing 20 November puts the enslaved, not the monarchy, at the centre of the story.",
+        explanation: "May 13 is the Lei Áurea, and November 20 is Zumbi's death and the \"Dia da Consciência Negra\". Choosing November 20 puts the enslaved, not the monarchy, at the center of the story.",
       },
       {
         type: "dictation",
@@ -522,14 +522,14 @@ export const PT_C1_U11: Lesson[] = [
     level: "PT-C1",
     number: 3,
     title: "The Republic, Vargas and the Dictatorship",
-    summary: "Narrate Brazil's twentieth century, from the República Velha through Vargas, the 1964 coup and the AI-5 to Diretas Já and the 1988 Constitution, with words that carry the right historical judgement.",
+    summary: "Narrate Brazil's twentieth century, from the República Velha through Vargas, the 1964 coup and the AI-5 to Diretas Já and the 1988 Constitution, with words that carry the right historical judgment.",
     duration: "15 min",
     kind: "teach",
     sections: [
       {
         heading: "A República Velha: café com leite and coronéis",
         body: [
-          "On 15 November 1889 a military coup led by Marechal Deodoro da Fonseca ended the monarchy: \"a República foi proclamada\". The period up to 1930 is the \"República Velha\", or more neutrally the \"Primeira República\". The label 'velha' came from the men who overthrew it in 1930.",
+          "On November 15, 1889, a military coup led by Marechal Deodoro da Fonseca ended the monarchy: \"a República foi proclamada\". The period up to 1930 is the \"República Velha\", or more neutrally the \"Primeira República\". The label 'velha' came from the men who overthrew it in 1930.",
           "Power alternated between the oligarchies of São Paulo (coffee) and Minas Gerais (dairy). This was the \"política do café com leite\". In the countryside a \"coronel\", usually a landowner rather than an army officer, delivered votes through the \"voto de cabresto\" (literally the halter vote). Voting was open, not secret.",
         ],
         examples: [
@@ -571,14 +571,14 @@ export const PT_C1_U11: Lesson[] = [
         heading: "A Era Vargas: revolução, Estado Novo, CLT",
         body: [
           "In 1930 Getúlio Vargas lost the election and then took power with armed support. History kept the name \"Revolução de 1930\". In 1937 he closed Congress and set up the \"Estado Novo\", a dictatorship that lasted until 1945.",
-          "A constitution imposed by a ruler is \"outorgada\" (1937). One voted by an elected assembly is \"promulgada\" (1934, 1946, 1988). Each word carries a judgement, so choose it carefully.",
+          "A constitution imposed by a ruler is \"outorgada\" (1937). One voted by an elected assembly is \"promulgada\" (1934, 1946, 1988). Each word carries a judgment, so choose it carefully.",
           "Vargas's legacy has two sides. He was the \"pai dos pobres\", who gave women the vote in 1932 and workers the \"CLT\" in 1943. He also ran censorship and a political police. He was elected again in 1950 and shot himself in 1954, leaving a letter that ends \"saio da vida para entrar na história\".",
         ],
         examples: [
           { es: "Getúlio Vargas chegou ao poder em 1930.", en: "Getúlio Vargas came to power in 1930." },
           { es: "Em 1937, Vargas fechou o Congresso e instaurou o Estado Novo.", en: "In 1937 Vargas closed Congress and set up the Estado Novo." },
           { es: "A Constituição de 1937 foi outorgada, não promulgada.", en: "The 1937 Constitution was imposed, not voted in." },
-          { es: "A CLT reuniu as leis trabalhistas do país em 1943.", en: "In 1943 the CLT brought the country's labour laws together." },
+          { es: "A CLT reuniu as leis trabalhistas do país em 1943.", en: "In 1943 the CLT brought the country's labor laws together." },
           { es: "Vargas se suicidou em 1954, no Palácio do Catete.", en: "Vargas took his own life in 1954, in the Catete Palace." },
         ],
         checkpoint: [
@@ -605,7 +605,7 @@ export const PT_C1_U11: Lesson[] = [
       {
         heading: "1964 e o AI-5: golpe, não revolução",
         body: [
-          "On 31 March and 1 April 1964 the armed forces deposed President João Goulart. The regime called it the \"Revolução de 1964\". Historians and most of today's press say \"golpe de 1964\", and the word you choose takes a position. \"Ditadura militar\" is the standard term for 1964-1985; \"regime militar\" can sound like softening.",
+          "On March 31 and April 1, 1964, the armed forces deposed President João Goulart. The regime called it the \"Revolução de 1964\". Historians and most of today's press say \"golpe de 1964\", and the word you choose takes a position. \"Ditadura militar\" is the standard term for 1964-1985; \"regime militar\" can sound like softening.",
           "The \"AI-5\" (Ato Institucional nº 5) of December 1968 closed Congress, suspended habeas corpus for political crimes and widened censorship. It opened the \"anos de chumbo\" (years of lead). To \"cassar\" a mandate or political rights means to strip someone of them. It sounds exactly like \"caçar\" (to hunt), so only context and spelling tell them apart.",
         ],
         examples: [
@@ -638,13 +638,13 @@ export const PT_C1_U11: Lesson[] = [
         heading: "Diretas Já e a Constituição de 1988",
         body: [
           "General Geisel promised an opening that would be \"lenta, gradual e segura\". The \"Lei da Anistia\" came in 1979. In 1984 millions marched for \"Diretas Já\" (direct elections now), but the amendment failed in Congress. In 1985 an electoral college chose Tancredo Neves, who died before taking office, so José Sarney became president.",
-          "The \"Constituição de 1988\" was promulgated on 5 October. Ulysses Guimarães, who presided over the assembly, called it the citizens' constitution. It made torture a crime without bail and created the public health system, the \"SUS\". The whole transition is called the \"redemocratização\". The 1979 amnesty still divides opinion, because it also protected agents of the state.",
+          "The \"Constituição de 1988\" was promulgated on October 5. Ulysses Guimarães, who presided over the assembly, called it the citizens' constitution. It made torture a crime without bail and created the public health system, the \"SUS\". The whole transition is called the \"redemocratização\". The 1979 amnesty still divides opinion, because it also protected agents of the state.",
         ],
         examples: [
           { es: "Em 1984, milhões de pessoas foram às ruas pelas Diretas Já.", en: "In 1984, millions of people took to the streets for Diretas Já." },
           { es: "A emenda Dante de Oliveira não foi aprovada pelo Congresso.", en: "The Dante de Oliveira amendment wasn't passed by Congress." },
           { es: "Tancredo Neves morreu antes de tomar posse.", en: "Tancredo Neves died before taking office." },
-          { es: "A Constituição de 1988 foi promulgada em 5 de outubro.", en: "The 1988 Constitution was promulgated on 5 October." },
+          { es: "A Constituição de 1988 foi promulgada em 5 de outubro.", en: "The 1988 Constitution was promulgated on October 5." },
         ],
         checkpoint: [
           {
@@ -688,7 +688,7 @@ export const PT_C1_U11: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "In the years of lead, censorship [banned] songs and films.",
+        en: "In the years of lead, censorship [banned] songs and movies.",
         sentence: "Nos anos de chumbo, a censura ___ músicas e filmes.",
         answer: "proibia",
         altAnswers: ["proibiu", "vetava"],
@@ -790,7 +790,7 @@ export const PT_C1_U11: Lesson[] = [
           { es: "Meu filho pegou catapora na escola.", en: "My son caught chickenpox at school." },
           { es: "Para de me cutucar, eu estou tentando dormir.", en: "Stop poking me, I'm trying to sleep." },
           { es: "Você também se chama Rafael? Somos xarás!", en: "Your name's Rafael too? We're namesakes!" },
-          { es: "Depois das férias, fiquei na pindaíba até o fim do mês.", en: "After the holidays I was broke until the end of the month." },
+          { es: "Depois das férias, fiquei na pindaíba até o fim do mês.", en: "After vacation I was broke until the end of the month." },
         ],
         checkpoint: [
           {
@@ -814,7 +814,7 @@ export const PT_C1_U11: Lesson[] = [
           {
             type: "multiple-choice",
             question: "What does \"Ele está meio jururu desde ontem\" mean?",
-            options: ["He's been a bit glum since yesterday.", "He's been a bit broke since yesterday.", "He's been a bit ill since yesterday.", "He's been a bit angry since yesterday."],
+            options: ["He's been a bit glum since yesterday.", "He's been a bit broke since yesterday.", "He's been a bit sick since yesterday.", "He's been a bit angry since yesterday."],
             correctIndex: 0,
             explanation: "\"Jururu\", from Tupi, means sad or downcast. Broke would be \"na pindaíba\".",
           },
@@ -873,8 +873,8 @@ export const PT_C1_U11: Lesson[] = [
           { es: "As Cataratas do Iguaçu ficam na fronteira com a Argentina.", en: "The Iguaçu Falls are on the border with Argentina." },
           { es: "Ipanema quer dizer água ruim em tupi.", en: "Ipanema means bad water in Tupi." },
           { es: "Meu pai nasceu em Piracicaba, no interior de São Paulo.", en: "My father was born in Piracicaba, in inland São Paulo state." },
-          { es: "Ela vai à Paraíba nas férias, mas eu vou a Curitiba.", en: "She's going to Paraíba on holiday, but I'm going to Curitiba." },
-          { es: "Meu sobrinho joga no time mirim do bairro.", en: "My nephew plays in the neighbourhood children's team." },
+          { es: "Ela vai à Paraíba nas férias, mas eu vou a Curitiba.", en: "She's going to Paraíba on vacation, but I'm going to Curitiba." },
+          { es: "Meu sobrinho joga no time mirim do bairro.", en: "My nephew plays on the neighborhood kids' team." },
           { es: "Moro no Paraná há dez anos.", en: "I've lived in Paraná for ten years." },
         ],
         checkpoint: [
@@ -890,7 +890,7 @@ export const PT_C1_U11: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "She's going [to] Paraíba on holiday.",
+            en: "She's going [to] Paraíba on vacation.",
             sentence: "Ela vai ___ Paraíba nas férias.",
             answer: "à",
             altAnswers: ["para a", "pra"],
@@ -916,7 +916,7 @@ export const PT_C1_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Let's make popcorn and watch a film.",
+        source: "Let's make popcorn and watch a movie.",
         answer: "Vamos fazer pipoca e ver um filme.",
         altAnswers: ["Vamos fazer pipoca e assistir a um filme.", "Vamos fazer pipoca e assistir um filme.", "Vamos fazer pipoca e ver filme."],
         explanation: "\"Pipoca\" comes from Tupi and is uncountable here: \"fazer pipoca\", with no article. The verb \"pipocar\" (to pop up everywhere) grew from it.",
@@ -985,7 +985,7 @@ export const PT_C1_U11: Lesson[] = [
       {
         type: "multiple-choice",
         question: "What does \"O Lucas é o caçula da família\" mean?",
-        options: ["Lucas is the youngest in the family.", "Lucas is the oldest in the family.", "Lucas is the only son in the family.", "Lucas is the family favourite."],
+        options: ["Lucas is the youngest in the family.", "Lucas is the oldest in the family.", "Lucas is the only son in the family.", "Lucas is the family favorite."],
         correctIndex: 0,
         explanation: "\"Caçula\", from Kimbundu, is the youngest child. The oldest is \"o mais velho\" or \"o primogênito\".",
       },
@@ -1017,14 +1017,14 @@ export const PT_C1_U11: Lesson[] = [
         body: [
           "The IBGE census asks about \"cor ou raça\" and offers five answers: \"branca\", \"preta\", \"parda\", \"amarela\" and \"indígena\". The census doesn't define them. People choose for themselves (\"autodeclaração\"), the same principle used for racial quotas at universities. \"Pardo\" broadly covers people of mixed ancestry.",
           "The trap for English speakers: \"negro\" is not a slur. It is the standard, affirmed term, as in \"Movimento Negro\" and \"Dia da Consciência Negra\". In statistics, \"a população negra\" means \"pretos\" and \"pardos\" together. \"Pessoas negras\" is the safe choice in writing. \"Preto\" is a census category and many people have reclaimed it, but when you use it about someone else, tone matters.",
-          "Some words now sound outdated or worse. \"Pessoa de cor\" is not the English person of colour; in Brazil it sounds like a nervous euphemism. \"Mulato\" is widely felt as offensive. \"Moreno\" can sound like a way of avoiding the word \"negro\".",
+          "Some words now sound outdated or worse. \"Pessoa de cor\" is not the English person of color; in Brazil it sounds like a nervous euphemism. \"Mulato\" is widely felt as offensive. \"Moreno\" can sound like a way of avoiding the word \"negro\".",
         ],
         examples: [
           { es: "No Censo de 2022, mais da metade da população se declarou parda ou preta.", en: "In the 2022 Census, more than half the population declared itself brown or Black." },
           { es: "Ela se autodeclara parda.", en: "She self-identifies as pardo (mixed-race)." },
           { es: "A população negra ainda ganha menos, em média.", en: "Black Brazilians still earn less, on average." },
           { es: "As cotas raciais beneficiam estudantes pretos, pardos e indígenas.", en: "Racial quotas benefit Black, mixed-race and Indigenous students." },
-          { es: "Desde 2024, o dia 20 de novembro é feriado nacional.", en: "Since 2024, 20 November has been a national holiday." },
+          { es: "Desde 2024, o dia 20 de novembro é feriado nacional.", en: "Since 2024, November 20 has been a national holiday." },
         ],
         checkpoint: [
           {
@@ -1062,8 +1062,8 @@ export const PT_C1_U11: Lesson[] = [
       {
         heading: "Povos indígenas and quilombolas",
         body: [
-          "\"Índio\" is giving way to \"indígena\" and, for groups, \"povos indígenas\". The Ministério dos Povos Indígenas (2023) and the renamed \"Dia dos Povos Indígenas\" (19 April) mark the shift. \"Índio\" lumps more than 300 peoples into one stereotype. To many people \"tribo\" sounds primitive, so say \"povo\", \"etnia\" or \"comunidade\", and use \"aldeia\" for the village.",
-          "Better still, name the people: \"o povo Guarani Kaiowá\", \"os Yanomami\". By anthropological convention these names are capitalised and don't take a plural -s: \"os Yanomami\", not \"os Yanomamis\". \"Indígena\" and \"quilombola\" have one form for both genders, and the article shows which: \"o indígena\", \"a indígena\".",
+          "\"Índio\" is giving way to \"indígena\" and, for groups, \"povos indígenas\". The Ministério dos Povos Indígenas (2023) and the renamed \"Dia dos Povos Indígenas\" (April 19) mark the shift. \"Índio\" lumps more than 300 peoples into one stereotype. To many people \"tribo\" sounds primitive, so say \"povo\", \"etnia\" or \"comunidade\", and use \"aldeia\" for the village.",
+          "Better still, name the people: \"o povo Guarani Kaiowá\", \"os Yanomami\". By anthropological convention these names are capitalized and don't take a plural -s: \"os Yanomami\", not \"os Yanomamis\". \"Indígena\" and \"quilombola\" have one form for both genders, and the article shows which: \"o indígena\", \"a indígena\".",
           "\"Quilombolas\" are members of communities descended from quilombos, the settlements founded by people who escaped slavery. The 1988 Constitution guarantees their right to their land, so \"comunidades quilombolas\" and \"titulação\" (land titling) often appear together.",
         ],
         examples: [
@@ -1131,7 +1131,7 @@ export const PT_C1_U11: Lesson[] = [
             question: "Your coworker was born and raised in Recife, Pernambuco. How do you describe her accurately?",
             options: ["Ela é pernambucana.", "Ela é baiana.", "Ela é Pernambucana.", "Ela é nortista."],
             correctIndex: 0,
-            explanation: "Recife is in Pernambuco, so she is \"pernambucana\", in lower case. \"Baiana\" is the classic lazy generalisation, and Pernambuco is in the Nordeste, not the Norte.",
+            explanation: "Recife is in Pernambuco, so she is \"pernambucana\", in lower case. \"Baiana\" is the classic lazy generalization, and Pernambuco is in the Nordeste, not the Norte.",
           },
           {
             type: "translate",
@@ -1238,13 +1238,13 @@ export const PT_C1_U11: Lesson[] = [
           { left: "potiguar", right: "from Rio Grande do Norte" },
           { left: "fluminense", right: "from the state of Rio de Janeiro" },
         ],
-        explanation: "These irregular gentílicos come from Greek (\"soteropolitano\": Soteropolis, city of the Saviour, a calque of Salvador) and from Tupi (\"potiguar\", \"capixaba\"). All are written in lower case.",
+        explanation: "These irregular gentílicos come from Greek (\"soteropolitano\": Soteropolis, city of the Savior, a calque of Salvador) and from Tupi (\"potiguar\", \"capixaba\"). All are written in lower case.",
       },
       {
         type: "speak",
         text: "Desculpa, como você se identifica?",
         prompt: "Say it in Portuguese: Sorry, how do you identify?",
-        tip: "In \"identifica\" the d before i sounds like the j in jeans: i-djen-ti-FI-ca.",
+        tip: "In \"identifica\" the d before e stays plain, but the t before i sounds like the ch in cheese: ĩ-dẽ-tchi-FI-ka.",
         explanation: "Asking lets the other person name themselves, which is the principle behind \"autodeclaração\".",
       },
       {
@@ -1487,7 +1487,7 @@ export const PT_C1_U11: Lesson[] = [
         type: "speak",
         text: "Proclamada a República, a família imperial parte para o exílio.",
         prompt: "Say it in Portuguese (documentary narration, historical present): Once the Republic is proclaimed, the imperial family leaves for exile.",
-        tip: "In \"exílio\" the x sounds like z: e-ZÍ-lio.",
+        tip: "In \"exílio\" the x sounds like z: e-ZÍ-liu.",
         explanation: "The participle clause works in either frame. Here the main verb is in the historical present: \"parte\".",
       },
       {
@@ -1549,7 +1549,7 @@ export const PT_C1_U11: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "There was censorship in the theatre too.",
+            source: "There was censorship in the theater too.",
             answer: "Tinha censura no teatro também.",
             altAnswers: ["Havia censura no teatro também.", "Também tinha censura no teatro.", "Também havia censura no teatro.", "No teatro também tinha censura.", "No teatro também havia censura."],
             explanation: "Spoken narration uses \"tinha\" for there was. \"Havia\" is the written norm and just as correct.",
@@ -1560,11 +1560,11 @@ export const PT_C1_U11: Lesson[] = [
         heading: "O dia em que o Paulo sumiu",
         body: [
           "Lúcia now tells the story of the day her classmate Paulo was taken. The background runs in \"estava + gerúndio\", then the perfeito breaks in (\"quando chegaram dois carros sem placa\"), and \"já tinha + participle\" reaches further back. Note the verb-first order with arrival verbs: \"chegaram dois carros\".",
-          "She talks around what can't easily be said: \"sumiu\", \"levaram ele\", \"nunca mais voltou\". The public term is \"desaparecido político\", someone the state made disappear. Where she only has rumours, she keeps her distance with the conditional of report: \"dizem que ele teria sido levado para o DOPS\", the political police.",
+          "She talks around what can't easily be said: \"sumiu\", \"levaram ele\", \"nunca mais voltou\". The public term is \"desaparecido político\", someone the state made disappear. Where she only has rumors, she keeps her distance with the conditional of report: \"dizem que ele teria sido levado para o DOPS\", the political police.",
           "Júlia's job here is to acknowledge, not to interrogate. \"Nossa, vó...\" and \"Deve ter sido horrível\" (a guess about the past) keep her grandmother talking, and so does \"Imagino o medo que vocês sentiram\". \"Que interessante!\" would sound cold here.",
         ],
         examples: [
-          { es: "A gente estava saindo da aula quando chegaram dois carros sem placa.", en: "Lúcia: We were leaving class when two cars with no number plates pulled up." },
+          { es: "A gente estava saindo da aula quando chegaram dois carros sem placa.", en: "Lúcia: We were leaving class when two cars with no license plates pulled up." },
           { es: "No dia seguinte, a gente foi à pensão do Paulo, mas ele já tinha sumido.", en: "The next day we went to Paulo's boarding house, but he'd already disappeared." },
           { es: "Dizem que ele teria sido levado para o DOPS.", en: "People say he was taken to the DOPS, the political police." },
           { es: "Ele nunca mais voltou.", en: "He never came back." },
@@ -1595,7 +1595,7 @@ export const PT_C1_U11: Lesson[] = [
             source: "People say he was taken to the DOPS.",
             answer: "Dizem que ele teria sido levado para o DOPS.",
             altAnswers: ["Dizem que ele teria sido levado pro DOPS.", "Dizem que ele foi levado para o DOPS.", "Dizem que ele foi levado pro DOPS.", "Dizem que levaram ele para o DOPS.", "Dizem que levaram ele pro DOPS."],
-            explanation: "\"Teria sido levado\" signals an unconfirmed report, which suits a rumour. \"Foi levado\" states it as fact and is also correct.",
+            explanation: "\"Teria sido levado\" signals an unconfirmed report, which suits a rumor. \"Foi levado\" states it as fact and is also correct.",
           },
         ],
       },
@@ -1769,7 +1769,7 @@ export const PT_C1_U11: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Indigenous peoples resisted colonisation. (A learner wrote: \"Os índios resistiram à colonização.\")",
+            source: "Indigenous peoples resisted colonization. (A learner wrote: \"Os índios resistiram à colonização.\")",
             answer: "Os povos indígenas resistiram à colonização.",
             altAnswers: ["Os indígenas resistiram à colonização.", "Povos indígenas resistiram à colonização."],
             explanation: "\"Índio\" is the outdated colonial label; \"povos indígenas\" or \"indígenas\" is current usage. Keep the crase: \"resistir a\" + \"a colonização\" gives \"à colonização\".",
@@ -1802,9 +1802,9 @@ export const PT_C1_U11: Lesson[] = [
         examples: [
           { es: "A esquadra de Cabral chegou ao litoral da Bahia em abril de 1500.", en: "Cabral's fleet reached the coast of Bahia in April 1500." },
           { es: "Para os povos que já viviam ali, a chegada dos portugueses foi o início de uma invasão.", en: "For the peoples who already lived there, the arrival of the Portuguese was the start of an invasion." },
-          { es: "O chamado descobrimento marcou o início da colonização portuguesa.", en: "The so-called discovery marked the start of Portuguese colonisation." },
+          { es: "O chamado descobrimento marcou o início da colonização portuguesa.", en: "The so-called discovery marked the start of Portuguese colonization." },
           { es: "O golpe de 1964 instaurou uma ditadura que durou 21 anos.", en: "The 1964 coup set up a dictatorship that lasted 21 years." },
-          { es: "A Lei Áurea aboliu a escravidão no Brasil em 13 de maio de 1888.", en: "The Golden Law abolished slavery in Brazil on 13 May 1888." },
+          { es: "A Lei Áurea aboliu a escravidão no Brasil em 13 de maio de 1888.", en: "The Golden Law abolished slavery in Brazil on May 13, 1888." },
         ],
         checkpoint: [
           {
@@ -1839,7 +1839,7 @@ export const PT_C1_U11: Lesson[] = [
           { es: "Em 1888, o Brasil já tinha recebido milhões de africanos escravizados.", en: "By 1888, Brazil had already received millions of enslaved Africans." },
           { es: "Em 1822, D. Pedro declara a independência e, em dezembro, é coroado imperador.", en: "In 1822, Dom Pedro declares independence and, in December, is crowned emperor." },
           { es: "Enquanto o país vivia sob censura, artistas encontravam formas de protestar.", en: "While the country lived under censorship, artists found ways to protest." },
-          { es: "A Constituição de 1988 foi promulgada em 5 de outubro.", en: "The 1988 Constitution was promulgated on 5 October." },
+          { es: "A Constituição de 1988 foi promulgada em 5 de outubro.", en: "The 1988 Constitution was promulgated on October 5." },
           { es: "Encerrada a votação, a emenda das Diretas foi derrotada na Câmara.", en: "Once the vote was over, the Diretas amendment was defeated in the Chamber." },
         ],
         checkpoint: [
@@ -1981,14 +1981,14 @@ export const PT_C1_U11: Lesson[] = [
         body: [
           "Your mission is a panel (\"painel\" or \"texto de parede\") on the gold cycle for a museum in Ouro Preto. Visitors read it standing up, in about a minute: tourists, school groups, families. Aim for 150 to 200 words. Give it a short title, a \"linha fina\" (a subtitle saying what and when) and three brief paragraphs: context, events, legacy.",
           "Brazilian panels usually open by fixing time and place: \"No fim do século XVII, ...\". A dated, concrete fact beats both the essay cliché (\"desde os primórdios\") and the chatty first person (\"neste painel vou falar\"). Centuries are written in Roman numerals and read as cardinals from XI up, so \"século XVIII\" is read \"século dezoito\".",
-          "Titles favour the nominal style, with no verb: \"Ouro, fé e revolta\", \"A corrida do ouro em Minas\".",
+          "Titles favor the nominal style, with no verb: \"Ouro, fé e revolta\", \"A corrida do ouro em Minas\".",
         ],
         examples: [
           { es: "Ouro, fé e revolta: Minas Gerais no século XVIII", en: "Gold, faith and revolt: Minas Gerais in the 18th century" },
           { es: "No fim do século XVII, bandeirantes paulistas encontraram ouro no interior da colônia.", en: "At the end of the 17th century, bandeirantes from São Paulo found gold in the colony's interior." },
           { es: "Em poucas décadas, a região das minas recebeu milhares de portugueses e de africanos escravizados.", en: "Within a few decades, the mining region took in thousands of Portuguese settlers and enslaved Africans." },
           { es: "Fundada em 1711, Vila Rica é hoje a cidade de Ouro Preto.", en: "Founded in 1711, Vila Rica is today the city of Ouro Preto." },
-          { es: "Em 1980, o centro histórico de Ouro Preto foi declarado Patrimônio Mundial pela Unesco.", en: "In 1980, Ouro Preto's historic centre was declared a World Heritage Site by UNESCO." },
+          { es: "Em 1980, o centro histórico de Ouro Preto foi declarado Patrimônio Mundial pela Unesco.", en: "In 1980, Ouro Preto's historic center was declared a World Heritage Site by UNESCO." },
         ],
         checkpoint: [
           {
@@ -2032,7 +2032,7 @@ export const PT_C1_U11: Lesson[] = [
         ],
         examples: [
           { es: "Descoberto o ouro, a Coroa portuguesa passou a cobrar o quinto, um imposto de 20% sobre o metal.", en: "Once gold was discovered, the Portuguese Crown began charging the quinto, a 20% tax on the metal." },
-          { es: "Com isso, o eixo econômico da colônia se deslocou do Nordeste para o Centro-Sul.", en: "As a result, the colony's economic axis shifted from the Northeast to the Centre-South." },
+          { es: "Com isso, o eixo econômico da colônia se deslocou do Nordeste para o Centro-Sul.", en: "As a result, the colony's economic axis shifted from the Northeast to the Center-South." },
           { es: "Em 1763, a capital foi transferida de Salvador para o Rio de Janeiro, porto de saída do ouro.", en: "In 1763, the capital was moved from Salvador to Rio de Janeiro, the port the gold left from." },
           { es: "Em 1789, um grupo de intelectuais e militares planeja uma revolta contra a Coroa: a Inconfidência Mineira.", en: "In 1789, a group of intellectuals and officers plans a revolt against the Crown: the Inconfidência Mineira." },
           { es: "Denunciados antes de agir, os inconfidentes foram presos; Tiradentes foi enforcado no Rio de Janeiro em 1792.", en: "Betrayed before they could act, the conspirators were arrested; Tiradentes was hanged in Rio de Janeiro in 1792." },
@@ -2072,7 +2072,7 @@ export const PT_C1_U11: Lesson[] = [
           "End with the legacy, in the visitor's present (\"Hoje...\"), and point to the objects in the room with a standard imperative (\"Observe, na vitrine ao lado...\"). Don't end with a proposta de intervenção: a panel informs; it doesn't tell the government what to do.",
         ],
         examples: [
-          { es: "A extração do ouro dependeu do trabalho de milhares de africanos escravizados.", en: "Gold mining depended on the labour of thousands of enslaved Africans." },
+          { es: "A extração do ouro dependeu do trabalho de milhares de africanos escravizados.", en: "Gold mining depended on the labor of thousands of enslaved Africans." },
           { es: "As bandeiras também capturaram e escravizaram milhares de indígenas.", en: "The bandeiras also captured and enslaved thousands of Indigenous people." },
           { es: "Segundo a tradição, Aleijadinho teria esculpido com as ferramentas amarradas às mãos.", en: "According to tradition, Aleijadinho is said to have carved with his tools tied to his hands." },
           { es: "Não há documentos que comprovem essa versão.", en: "There are no documents that prove this version." },
@@ -2123,7 +2123,7 @@ export const PT_C1_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Founded in 1711, Vila Rica quickly became the centre of the gold region.",
+        source: "Founded in 1711, Vila Rica quickly became the center of the gold region.",
         answer: "Fundada em 1711, Vila Rica logo se tornou o centro da região do ouro.",
         altAnswers: [
           "Fundada em 1711, Vila Rica rapidamente se tornou o centro da região do ouro.",
@@ -2283,8 +2283,8 @@ export const PT_C1_U11: Lesson[] = [
           "When a claim is unconfirmed, the conditional of report marks your distance: \"o arquivo teria sido destruído\". Never use it for established facts, such as torture under the dictatorship, where it reads as doubt.",
         ],
         examples: [
-          { es: "A Lei Áurea, assinada em 13 de maio de 1888, aboliu a escravidão no Brasil.", en: "The Lei Áurea, signed on 13 May 1888, abolished slavery in Brazil." },
-          { es: "Zumbi dos Palmares foi morto em 20 de novembro de 1695.", en: "Zumbi dos Palmares was killed on 20 November 1695." },
+          { es: "A Lei Áurea, assinada em 13 de maio de 1888, aboliu a escravidão no Brasil.", en: "The Lei Áurea, signed on May 13, 1888, abolished slavery in Brazil." },
+          { es: "Zumbi dos Palmares foi morto em 20 de novembro de 1695.", en: "Zumbi dos Palmares was killed on November 20, 1695." },
           { es: "Proclamada a República em 1889, a família imperial partiu para o exílio.", en: "Once the Republic was proclaimed in 1889, the imperial family went into exile." },
           { es: "Instaurado o AI-5 em 1968, a censura se intensificou.", en: "Once AI-5 was imposed in 1968, censorship intensified." },
           { es: "A polícia política prendeu milhares de opositores.", en: "The political police arrested thousands of opponents." },
@@ -2351,7 +2351,7 @@ export const PT_C1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Os povos indígenas já viviam aqui muito antes de 1500.",
-            tip: "Stress in-DÍ-ge-nas, and in most of Brazil the d before í sounds like dj.",
+            tip: "Stress the DÍ: ĩ-DJÍ-je-nas. In most of Brazil the d before í sounds like dj, and the g before e like the s in measure.",
             explanation: "\"Já viviam\": the imperfeito for a state that lasted, with \"já\" stressing that they were there first.",
           },
         ],
@@ -2439,7 +2439,7 @@ export const PT_C1_U11: Lesson[] = [
         type: "speak",
         text: "O movimento Diretas Já levou milhões de pessoas às ruas.",
         prompt: "Say it in Portuguese: The Diretas Já movement brought millions of people onto the streets.",
-        tip: "\"Às\" is a + as fused into one longer open a.",
+        tip: "In Brazil \"às\" sounds just like \"as\": the crase shows in writing, not in speech. Keep the ões of \"milhões\" nasal.",
         explanation: "\"Levar às ruas\": the crase marks the preposition \"a\" fused with the article \"as\".",
       },
       {
@@ -2466,7 +2466,7 @@ export const PT_C1_U11: Lesson[] = [
 
 export const PT_C1_U11_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A cultural centre in Salvador is preparing an exhibition on the end of slavery in Brazil and has asked you to write the main panel text, in Portuguese, for adult visitors. In one short article, trace the path from the slave trade and Black resistance to the \"Lei Áurea\" of 1888. Then explain why historians call it an incomplete abolition and close with a reflection on its legacy today. Write in a formal, museum-panel register, with a title.",
+  prompt: "A cultural center in Salvador is preparing an exhibition on the end of slavery in Brazil and has asked you to write the main panel text, in Portuguese, for adult visitors. In one short article, trace the path from the slave trade and Black resistance to the \"Lei Áurea\" of 1888. Then explain why historians call it an incomplete abolition and close with a reflection on its legacy today. Write in a formal, museum-panel register, with a title.",
   minWords: 180,
   maxWords: 300,
   rubric: [
@@ -2475,6 +2475,6 @@ export const PT_C1_U11_WRITING: WriteExercise = {
     "Use current, respectful terminology: \"pessoas escravizadas\" rather than \"escravos\", \"pessoas negras\", \"população liberta\", \"quilombo\".",
     "Mention at least one word Portuguese owes to an African or Indigenous language, and end with a reflection that links 1888 to present-day inequality.",
   ],
-  modelAnswer: "Liberdade sem reparação: 1888 e depois\n\nDurante mais de três séculos, o Brasil foi o maior destino do tráfico transatlântico de pessoas escravizadas. Estima-se que cerca de 4,8 milhões de africanos tenham desembarcado nos portos da colônia e do Império, sobretudo em Salvador e no Rio de Janeiro. Arrancados de suas terras, eles foram forçados a trabalhar nos engenhos de açúcar, nas minas de ouro e, mais tarde, nos cafezais.\n\nA resistência, porém, nunca deixou de existir. Na Serra da Barriga, em Alagoas, Palmares chega a reunir milhares de pessoas e resiste por quase um século, até ser destruído em 1694. A palavra \"quilombo\", aliás, vem do quimbundo, assim como \"caçula\" e \"cafuné\", marcas cotidianas da presença africana na nossa língua.\n\nPressionado por revoltas, pelo movimento abolicionista e pela Inglaterra, o Império aprovou leis graduais: o tráfico foi proibido em 1850, e os filhos de mulheres escravizadas foram declarados livres em 1871. Em 13 de maio de 1888, finalmente, a Lei Áurea foi assinada pela princesa Isabel. O Brasil foi o último país das Américas a abolir a escravidão.\n\nAssinada a lei, no entanto, nada foi feito para integrar a população liberta. Não houve acesso à terra nem à educação, e o Estado incentivou a vinda de imigrantes europeus para ocupar os postos de trabalho assalariado. As desigualdades que ainda hoje atingem as pessoas negras têm raízes nessa abolição incompleta.\n\nHoje, o 20 de novembro, Dia da Consciência Negra, homenageia Zumbi dos Palmares e nos deixa uma pergunta: o que uma sociedade deve a quem a construiu?",
-  explanation: "Historical writing in Portuguese leans on the passive with \"ser\" + participle, which agrees with the subject (\"a Lei Áurea foi assinada\", \"os filhos foram declarados livres\"). Participle clauses compress time and cause: \"assinada a lei\" means once the law had been signed, with the participle agreeing with \"lei\". \"Pressionado\" and \"arrancados\" agree with the subjects they describe (\"o Império\", \"eles\"). The switch to the historical present (\"Palmares chega a reunir... e resiste\") brings one episode to the foreground, and \"estima-se que\" + subjunctive (\"tenham desembarcado\") hedges a figure that historians only estimate. \"Pessoas escravizadas\" names what was done to people rather than defining them by it, which is why it has replaced \"escravos\" in museums and the press.",
+  modelAnswer: "Liberdade sem reparação: 1888 e depois\n\nDurante mais de três séculos, o Brasil foi o maior destino do tráfico transatlântico de pessoas escravizadas. Estima-se que cerca de 4,8 milhões de africanos tenham desembarcado nos portos da colônia e do Império, sobretudo em Salvador e no Rio de Janeiro. Arrancados de suas terras, eles foram forçados a trabalhar nos engenhos de açúcar, nas minas de ouro e, mais tarde, nos cafezais.\n\nA resistência, porém, nunca deixa de existir. Na Serra da Barriga, em Alagoas, Palmares chega a reunir milhares de pessoas e resiste por quase um século, até ser destruído em 1694. A palavra \"quilombo\", aliás, vem do quimbundo, assim como \"caçula\" e \"cafuné\", marcas cotidianas da presença africana na nossa língua.\n\nPressionado por revoltas, pelo movimento abolicionista e pela Inglaterra, o Império aprovou leis graduais: o tráfico foi proibido em 1850, e os filhos de mulheres escravizadas foram declarados livres em 1871. Em 13 de maio de 1888, finalmente, a Lei Áurea foi assinada pela princesa Isabel. O Brasil foi o último país das Américas a abolir a escravidão.\n\nAssinada a lei, no entanto, nada foi feito para integrar a população liberta. Não houve acesso à terra nem à educação, e o Estado incentivou a vinda de imigrantes europeus para ocupar os postos de trabalho assalariado. As desigualdades que ainda hoje atingem as pessoas negras têm raízes nessa abolição incompleta.\n\nHoje, o 20 de novembro, Dia da Consciência Negra, homenageia Zumbi dos Palmares e nos deixa uma pergunta: o que uma sociedade deve a quem a construiu?",
+  explanation: "Historical writing in Portuguese leans on the passive with \"ser\" + participle, which agrees with the subject (\"a Lei Áurea foi assinada\", \"os filhos foram declarados livres\"). Participle clauses compress time and cause: \"assinada a lei\" means once the law had been signed, with the participle agreeing with \"lei\". \"Pressionado\" and \"arrancados\" agree with the subjects they describe (\"o Império\", \"eles\"). The switch to the historical present (\"nunca deixa de existir\", \"Palmares chega a reunir... e resiste\") brings one episode to the foreground and holds for the whole paragraph, so the frame never drifts; \"vem do quimbundo\" is a plain present about the language today. In the first paragraph, \"estima-se que\" + subjunctive (\"tenham desembarcado\") hedges a figure that historians only estimate. \"Pessoas escravizadas\" names what was done to people rather than defining them by it, which is why it has replaced \"escravos\" in museums and the press.",
 };

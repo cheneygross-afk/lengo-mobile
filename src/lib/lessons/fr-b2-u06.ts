@@ -365,8 +365,8 @@ export const FR_B2_U06: Lesson[] = [
         prompt: "Translate into French.",
         source: "The train will probably be late.",
         answer: "Il est probable que le train aura du retard.",
-        altAnswers: ["Le train aura probablement du retard.", "Il est probable que le train ait du retard.", "Le train va probablement avoir du retard."],
-        explanation: "\"Probable\" normally takes the indicative \"aura\".",
+        altAnswers: ["Le train aura probablement du retard.", "Le train va probablement avoir du retard."],
+        explanation: "\"Il est probable que\" takes the indicative \"aura\"; the subjunctive \"ait\" belongs to \"il est possible que\" and \"il est peu probable que\".",
       },
       {
         type: "translate",
@@ -497,7 +497,7 @@ export const FR_B2_U06: Lesson[] = [
           { es: "✗ Je pense que je sois fait pour ce travail. → ✓ Je pense que je suis fait pour ce travail.", en: "I think I'm cut out for this job." },
           { es: "✗ Après que j'aie déballé les cartons, je suis sorti. → ✓ Après que j'ai déballé les cartons, je suis sorti.", en: "After I'd unpacked the boxes, I went out." },
           { es: "✗ Même si Lille soit loin de la mer, j'adore. → ✓ Même si Lille est loin de la mer, j'adore.", en: "Even though Lille is far from the sea, I love it." },
-          { es: "✗ Il est probable que je reste ici longtemps. → ✓ Il est probable que je resterai ici longtemps.", en: "I'll probably stay here a long time." },
+          { es: "✗ Il est probable que je puisse rester ici longtemps. → ✓ Il est probable que je pourrai rester ici longtemps.", en: "I'll probably be able to stay here a long time." },
         ],
         checkpoint: [
           {
@@ -512,7 +512,7 @@ export const FR_B2_U06: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which correction is right for « Après que j'aie déballé les cartons, je suis sorti »?",
-            options: ["Après que j'ai déballé les cartons, je suis sorti.", "Après que je déballe les cartons, je suis sorti.", "Après que j'avais déballé les cartons, je suis sorti.", "No change needed."],
+            options: ["Après que j'ai déballé les cartons, je suis sorti.", "Après que je déballe les cartons, je suis sorti.", "Après que je déballerais les cartons, je suis sorti.", "No change needed."],
             correctIndex: 0,
             explanation: "\"Après que\" takes the indicative; the passé composé \"j'ai déballé\" is the simple fix (avoir déballé after après is also neat).",
           },
@@ -661,7 +661,7 @@ export const FR_B2_U06: Lesson[] = [
         heading: "Interdire, permettre, demander: à quelqu'un de + infinitive",
         body: [
           "A trap for English speakers: forbid, allow, ask and tell are usually followed by an infinitive in French, built with \"à quelqu'un de + infinitive\": \"on m'interdisait de sortir\" (I wasn't allowed out), \"mes parents me permettaient de veiller le samedi\", \"ma mère me demandait de mettre la table\", \"mon père me disait de me taire\".",
-          "The person is an indirect object (\"me\", \"te\", \"lui\", \"leur\"), never \"le\" or \"la\": *\"ma mère la demandait de...\" is wrong. And no \"que\": *\"mes parents interdisaient que je sorte\" is possible in formal French but sounds heavy; the infinitive is the natural choice.",
+          "The person is an indirect object (\"me\", \"te\", \"lui\", \"leur\"), never \"le\" or \"la\": *\"ma mère la demandait de...\" is wrong. And avoid \"que\": \"mes parents interdisaient que je sorte\" is possible in formal French but sounds heavy; the infinitive is the natural choice.",
           "\"Laisser\" (let) works differently: direct object + bare infinitive: \"mes parents me laissaient sortir\", \"ils ne la laissaient pas conduire\".",
         ],
         examples: [
@@ -1354,7 +1354,7 @@ export const FR_B2_U06: Lesson[] = [
       {
         type: "multiple-choice",
         question: "« Qu'est-ce que tes parents voulaient que tu fasses ? » Which answer is correct?",
-        options: ["Que je reprenne la boulangerie.", "Que je reprends la boulangerie.", "De reprendre la boulangerie que je.", "Que je reprendrais la boulangerie."],
+        options: ["Que je reprenne la boulangerie.", "Que je reprends la boulangerie.", "Que je reprenais la boulangerie.", "Que je reprendrais la boulangerie."],
         correctIndex: 0,
         explanation: "Short answer with \"que\" + subjunctive \"reprenne\".",
       },

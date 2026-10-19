@@ -73,7 +73,7 @@ export const PT_B1_U21: Lesson[] = [
           "Their plurals are \"sejam\", \"estejam\", \"vão\", \"saibam\", \"queiram\", \"deem\". \"Haja\" has no plural, because it means there is / there are: \"espero que haja lugar para todos\". Two spelling traps: \"dê\" has a circumflex to separate it from the preposition \"de\", and \"deem\" has none since the spelling reform.",
         ],
         examples: [
-          { es: "Tomara que seja um apartamento bom.", en: "Let's hope it's a good flat." },
+          { es: "Tomara que seja um apartamento bom.", en: "Let's hope it's a good apartment." },
           { es: "Espero que vocês estejam bem.", en: "I hope you're all well." },
           { es: "Ela não quer que a gente vá de carro.", en: "She doesn't want us to go by car." },
           { es: "É possível que não haja vaga na garagem.", en: "There may not be a parking space in the garage." },
@@ -114,7 +114,7 @@ export const PT_B1_U21: Lesson[] = [
         examples: [
           { es: "Quero que você fique com a chave.", en: "I want you to keep the key." },
           { es: "É importante que a gente pague o aluguel em dia.", en: "It's important that we pay the rent on time." },
-          { es: "Me avisa antes que o filme comece.", en: "Let me know before the film starts." },
+          { es: "Me avisa antes que o filme comece.", en: "Let me know before the movie starts." },
           { es: "Procuro alguém que conheça bem Florianópolis.", en: "I'm looking for someone who knows Florianópolis well." },
           { es: "Tomara que eles cheguem antes da chuva.", en: "Let's hope they get here before the rain." },
         ],
@@ -289,7 +289,7 @@ export const PT_B1_U21: Lesson[] = [
         heading: "Durma, sinta, sirva: -ir verbs that change the vowel",
         body: [
           "A group of -ir verbs changes its vowel in the eu form, and the subjunctive keeps that vowel in every person: \"dormir\" → \"durmo\" → \"durma\", \"sentir\" → \"sinto\" → \"sinta\", \"servir\" → \"sirvo\" → \"sirva\", \"seguir\" → \"sigo\" → \"siga\", \"preferir\" → \"prefiro\" → \"prefira\".",
-          "The classic slips are \"*que eles dormam\" and \"*que você se senta\" for that you feel. The second is a real word, but it belongs to \"sentar\" (to sit).",
+          "The classic slips are \"*que eles dormam\" and \"*que você se sente\" for that you feel. \"Sente\" is the indicative of \"sentir\" (and, confusingly, the subjunctive of \"sentar\", to sit); the subjunctive of \"sentir\" is \"sinta\".",
         ],
         examples: [
           { es: "Tomara que as crianças durmam a viagem toda.", en: "Let's hope the kids sleep the whole trip." },
@@ -333,7 +333,7 @@ export const PT_B1_U21: Lesson[] = [
           { es: "É melhor que a gente meça a sala antes de comprar o sofá.", en: "We'd better measure the room before buying the sofa." },
           { es: "Tomara que a gente não perca o ônibus.", en: "Let's hope we don't miss the bus." },
           { es: "Quero que vocês ouçam essa música.", en: "I want you to listen to this song." },
-          { es: "Ela pede que os vizinhos não façam barulho.", en: "She asks the neighbours not to make noise." },
+          { es: "Ela pede que os vizinhos não façam barulho.", en: "She asks the neighbors not to make noise." },
           { es: "Espero que você possa vir.", en: "I hope you can come." },
         ],
         checkpoint: [
@@ -536,7 +536,7 @@ export const PT_B1_U21: Lesson[] = [
           "Cause and time clauses about real events stay indicative too: \"porque\", \"já que\", \"depois que\", \"desde que\" meaning since. So do descriptions of people and things that exist: \"tenho um vizinho que fala alemão\".",
         ],
         examples: [
-          { es: "Acho que o apartamento é grande.", en: "I think the flat is big." },
+          { es: "Acho que o apartamento é grande.", en: "I think the apartment is big." },
           { es: "Tenho certeza que ela vai gostar.", en: "I'm sure she's going to like it." },
           { es: "É verdade que o aluguel subiu.", en: "It's true that the rent went up." },
           { es: "Ele disse que vem de ônibus.", en: "He said he's coming by bus." },
@@ -569,7 +569,7 @@ export const PT_B1_U21: Lesson[] = [
         ],
         examples: [
           { es: "Prefiro que vocês venham no domingo.", en: "I'd prefer you to come on Sunday." },
-          { es: "O síndico exige que os moradores separem o lixo.", en: "The building manager requires residents to sort their rubbish." },
+          { es: "O síndico exige que os moradores separem o lixo.", en: "The building manager requires residents to sort their trash." },
           { es: "Fico feliz que você esteja aqui.", en: "I'm glad you're here." },
           { es: "Que pena que ela não possa vir.", en: "What a shame she can't come." },
           { es: "É importante que todo mundo saiba a senha.", en: "It's important that everyone knows the password." },
@@ -579,7 +579,7 @@ export const PT_B1_U21: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'm glad you like the flat.",
+            source: "I'm glad you like the apartment.",
             answer: "Fico feliz que você goste do apartamento.",
             altAnswers: [
               "Que bom que você gosta do apartamento.",
@@ -671,7 +671,7 @@ export const PT_B1_U21: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Although the flat [is] small, it's very bright.",
+        en: "Although the apartment [is] small, it's very bright.",
         sentence: "Embora o apartamento ___ pequeno, é muito claro.",
         answer: "seja",
         explanation: "\"Embora\" always takes the subjunctive, even for a fact.",
@@ -679,7 +679,7 @@ export const PT_B1_U21: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "It's true that the metro [closes] at midnight.",
+        en: "It's true that the subway [closes] at midnight.",
         sentence: "É verdade que o metrô ___ à meia-noite.",
         answer: "fecha",
         explanation: "\"É verdade que\" presents a fact: indicative \"fecha\".",
@@ -688,7 +688,7 @@ export const PT_B1_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'll call you before the shop closes.",
+        source: "I'll call you before the store closes.",
         answer: "Te ligo antes que a loja feche.",
         altAnswers: [
           "Eu te ligo antes que a loja feche.",
@@ -785,7 +785,7 @@ export const PT_B1_U21: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "She wants to rent a flat in Recife.",
+            source: "She wants to rent an apartment in Recife.",
             answer: "Ela quer alugar um apartamento em Recife.",
             altAnswers: ["Ela quer alugar um apartamento no Recife."],
             explanation: "Same subject for wanting and renting, so the infinitive: \"quer alugar\". Locals often say \"no Recife\".",
@@ -848,7 +848,7 @@ export const PT_B1_U21: Lesson[] = [
           { es: "Saio cedo porque o ônibus passa às seis.", en: "I leave early because the bus comes at six." },
           { es: "Fala devagar para que eu entenda.", en: "Speak slowly so I understand." },
           { es: "Liga antes de vir.", en: "Call before you come." },
-          { es: "Quero chegar antes que a loja feche.", en: "I want to get there before the shop closes." },
+          { es: "Quero chegar antes que a loja feche.", en: "I want to get there before the store closes." },
         ],
         checkpoint: [
           {
@@ -926,7 +926,7 @@ export const PT_B1_U21: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "It's good [to rest] at the weekend.",
+        en: "It's good [to rest] on the weekend.",
         sentence: "É bom ___ no fim de semana.",
         answer: "descansar",
         explanation: "No particular person is named, so \"é bom\" takes the plain infinitive \"descansar\", with no \"que\".",
@@ -934,7 +934,7 @@ export const PT_B1_U21: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "It's good that you [rest] at the weekend.",
+        en: "It's good that you [rest] on the weekend.",
         sentence: "É bom que você ___ no fim de semana.",
         answer: "descanse",
         explanation: "Now it points at you, so \"que\" + subjunctive.",
@@ -1029,8 +1029,8 @@ export const PT_B1_U21: Lesson[] = [
           "Hope and knowledge split the same way: \"espero que ele venha\" (not known yet) and \"sei que ele vem\" (known). \"Tomara que\" works like \"espero que\"; \"tenho certeza que\" and \"é claro que\" work like \"sei que\".",
         ],
         examples: [
-          { es: "Embora seja caro, o bairro vale a pena.", en: "Although it's expensive, the neighbourhood is worth it." },
-          { es: "O bairro vale a pena porque é seguro.", en: "The neighbourhood is worth it because it's safe." },
+          { es: "Embora seja caro, o bairro vale a pena.", en: "Although it's expensive, the neighborhood is worth it." },
+          { es: "O bairro vale a pena porque é seguro.", en: "The neighborhood is worth it because it's safe." },
           { es: "Espero que ele venha para o jantar.", en: "I hope he comes to dinner." },
           { es: "Sei que ele vem para o jantar.", en: "I know he's coming to dinner." },
           { es: "Tomara que chova amanhã, porque as plantas precisam.", en: "Let's hope it rains tomorrow, because the plants need it." },
@@ -1062,8 +1062,8 @@ export const PT_B1_U21: Lesson[] = [
           "With probability, the exact word decides. \"Talvez\" before the verb takes the subjunctive (\"talvez ele venha\"), but \"com certeza\" and \"provavelmente\" are adverbs and keep the indicative (\"provavelmente ele vem\"). \"É provável que\" brings the subjunctive back, because it's an impersonal expression with \"que\".",
         ],
         examples: [
-          { es: "Procuro um apartamento que tenha varanda.", en: "I'm looking for a flat with a balcony." },
-          { es: "Tenho um apartamento que tem varanda.", en: "I have a flat with a balcony." },
+          { es: "Procuro um apartamento que tenha varanda.", en: "I'm looking for an apartment with a balcony." },
+          { es: "Tenho um apartamento que tem varanda.", en: "I have an apartment with a balcony." },
           { es: "Talvez ele venha de bicicleta.", en: "Maybe he'll come by bike." },
           { es: "Com certeza ele vem de bicicleta.", en: "He'll definitely come by bike." },
           { es: "É provável que ela chegue tarde.", en: "She'll probably arrive late." },
@@ -1123,7 +1123,7 @@ export const PT_B1_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your neighbour says: \"Você pode usar o carro, desde que devolva amanhã.\" What does she mean?",
+            question: "Your neighbor says: \"Você pode usar o carro, desde que devolva amanhã.\" What does she mean?",
             options: [
               "You can use the car, as long as you return it tomorrow.",
               "You can use the car, since you returned it yesterday.",
@@ -1349,10 +1349,10 @@ export const PT_B1_U21: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "We have a neighbour who [plays] the guitar.",
+            en: "We have a neighbor who [plays] the guitar.",
             sentence: "A gente tem um vizinho que ___ violão.",
             answer: "toca",
-            explanation: "The neighbour is real and known, so the description keeps the indicative \"toca\".",
+            explanation: "The neighbor is real and known, so the description keeps the indicative \"toca\".",
           },
           {
             type: "listen-choose",
@@ -1532,7 +1532,7 @@ export const PT_B1_U21: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "In case the company agrees, we'll move in March.",
+            source: "If the company agrees, we'll move in March.",
             answer: "Caso a empresa aceite, a gente se muda em março.",
             altAnswers: [
               "Caso a empresa aceite, nós nos mudamos em março.",
@@ -1540,6 +1540,8 @@ export const PT_B1_U21: Lesson[] = [
               "Caso a empresa aceite, a gente vai se mudar em março.",
               "Caso a empresa aceite, vamos nos mudar em março.",
               "Caso a empresa concorde, a gente se muda em março.",
+              "Se a empresa aceitar, a gente se muda em março.",
+              "Se a empresa aceitar, nós nos mudamos em março.",
             ],
             explanation: "\"Caso\" + subjunctive \"aceite\"; the main clause can use the present for a planned future.",
           },
@@ -1566,11 +1568,11 @@ export const PT_B1_U21: Lesson[] = [
       {
         heading: "O apartamento: queremos um que seja perto da praia",
         body: [
-          "Next they plan the search. Neither of them has seen a single flat yet, so every description takes the subjunctive: \"queremos um apartamento que seja perto da praia\", \"que tenha três quartos\", \"que aceite cachorro\". Camila repeats \"que\" before each item.",
+          "Next they plan the search. Neither of them has seen a single apartment yet, so every description takes the subjunctive: \"queremos um apartamento que seja perto da praia\", \"que tenha três quartos\", \"que aceite cachorro\". Camila repeats \"que\" before each item.",
           "Thiago's colleague already lives there, and he describes her place in the indicative: \"ela mora num prédio que fica a duas quadras do mar\". \"A duas quadras\" is two blocks away, the usual way to measure distance in a Brazilian city.",
         ],
         examples: [
-          { es: "Queremos um apartamento que seja perto da praia.", en: "We want a flat that's near the beach." },
+          { es: "Queremos um apartamento que seja perto da praia.", en: "We want an apartment that's near the beach." },
           { es: "E que tenha três quartos, um para cada criança.", en: "And that has three bedrooms, one for each child." },
           { es: "Precisa ser um lugar que aceite cachorro, por causa da Pipoca.", en: "It has to be a place that allows dogs, because of Pipoca." },
           { es: "Minha colega mora num prédio que fica a duas quadras do mar.", en: "My colleague lives in a building two blocks from the sea." },
@@ -1580,10 +1582,10 @@ export const PT_B1_U21: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "We want a flat that [has] three bedrooms.",
+            en: "We want an apartment that [has] three bedrooms.",
             sentence: "Queremos um apartamento que ___ três quartos.",
             answer: "tenha",
-            explanation: "No flat found yet, so the subjunctive \"tenha\".",
+            explanation: "No apartment found yet, so the subjunctive \"tenha\".",
           },
           {
             type: "translate",
@@ -1625,7 +1627,7 @@ export const PT_B1_U21: Lesson[] = [
           { es: "Tenho medo que eles sintam falta dos avós.", en: "I'm afraid they'll miss their grandparents." },
           { es: "Tomara que as crianças se adaptem rápido.", en: "Let's hope the kids settle in quickly." },
           { es: "A gente pode visitar Salvador nas férias para que eles não percam o contato.", en: "We can visit Salvador in the holidays so they don't lose touch." },
-          { es: "E a sua mãe pode vir passar o Natal com a gente.", en: "And your mum can come and spend Christmas with us." },
+          { es: "E a sua mãe pode vir passar o Natal com a gente.", en: "And your mom can come and spend Christmas with us." },
           { es: "Que dê tudo certo!", en: "Here's hoping it all works out!" },
         ],
         checkpoint: [
@@ -1659,7 +1661,7 @@ export const PT_B1_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Although it's expensive, the neighbourhood is very safe.",
+        source: "Although it's expensive, the neighborhood is very safe.",
         answer: "Embora seja caro, o bairro é muito seguro.",
         explanation: "\"Embora\" + \"seja\"; the main clause stays indicative.",
       },
@@ -1667,7 +1669,7 @@ export const PT_B1_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We need a flat that allows dogs.",
+        source: "We need an apartment that allows dogs.",
         answer: "Precisamos de um apartamento que aceite cachorro.",
         altAnswers: [
           "Nós precisamos de um apartamento que aceite cachorro.",
@@ -1677,7 +1679,7 @@ export const PT_B1_U21: Lesson[] = [
           "Precisamos de um apartamento que aceite animais.",
           "A gente precisa de um apartamento que aceite animais.",
         ],
-        explanation: "A flat not yet found: \"que aceite\". Keep \"de\" after \"precisar\".",
+        explanation: "An apartment not yet found: \"que aceite\". Keep \"de\" after \"precisar\".",
       },
       {
         type: "translate",
@@ -1707,7 +1709,7 @@ export const PT_B1_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "In case the school has places, we'll enrol the kids there.",
+        source: "If the school has openings, we'll enroll the kids there.",
         answer: "Caso a escola tenha vaga, a gente matricula as crianças lá.",
         altAnswers: [
           "Caso a escola tenha vagas, a gente matricula as crianças lá.",
@@ -1715,6 +1717,7 @@ export const PT_B1_U21: Lesson[] = [
           "Caso a escola tenha vaga, vamos matricular as crianças lá.",
           "Caso a escola tenha vagas, vamos matricular as crianças lá.",
           "Caso a escola tenha vaga, a gente vai matricular as crianças lá.",
+              "Se a escola tiver vaga, a gente matricula as crianças lá.",
         ],
         explanation: "\"Caso\" + \"tenha\". A school place is \"uma vaga\".",
       },
@@ -1748,7 +1751,7 @@ export const PT_B1_U21: Lesson[] = [
       {
         type: "dictation",
         audio: "Queremos um apartamento que seja perto da praia.",
-        explanation: "\"Que seja\" describes a flat they haven't found yet, so the subjunctive.",
+        explanation: "\"Que seja\" describes an apartment they haven't found yet, so the subjunctive.",
       },
       {
         type: "translate",
@@ -1799,7 +1802,7 @@ export const PT_B1_U21: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I hope you like the flat.",
+            source: "I hope you like the apartment.",
             answer: "Espero que você goste do apartamento.",
             altAnswers: [
               "Eu espero que você goste do apartamento.",
@@ -1868,12 +1871,12 @@ export const PT_B1_U21: Lesson[] = [
       {
         heading: "Doubt and descriptions",
         body: [
-          "\"*Duvido que ele vem\" and \"*talvez ela vai\" put the indicative after doubt: \"duvido que ele venha\", \"talvez ela vá\". In relaxed speech you'll hear \"ela vai, talvez\", with \"talvez\" after the verb, but when \"talvez\" comes first, use the subjunctive.",
+          "\"*Duvido que ele vem\" and \"*talvez ela vai\" put the indicative after doubt: \"duvido que ele venha\", \"talvez ela vá\". Casual speech sometimes has \"talvez\" + indicative, or puts \"talvez\" after the verb (\"ela vai, talvez\"), but when \"talvez\" comes first, standard Portuguese uses the subjunctive.",
           "\"*Procuro alguém que sabe alemão\" describes a person you haven't found as if they were real: \"procuro alguém que saiba alemão\". Don't overcorrect, though. \"Tenho um amigo que sabe alemão\" is right, because that friend exists.",
         ],
         examples: [
           { es: "Duvido que ele venha hoje.", en: "I doubt he's coming today." },
-          { es: "Talvez ela vá de metrô.", en: "Maybe she'll take the metro." },
+          { es: "Talvez ela vá de metrô.", en: "Maybe she'll take the subway." },
           { es: "Procuro alguém que saiba alemão.", en: "I'm looking for someone who knows German." },
           { es: "Tenho um amigo que sabe alemão.", en: "I have a friend who knows German." },
           { es: "Não conheço ninguém que more em Natal.", en: "I don't know anyone who lives in Natal." },
@@ -1891,7 +1894,7 @@ export const PT_B1_U21: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Maybe she'll go by metro.",
+            source: "Maybe she'll go by subway.",
             answer: "Talvez ela vá de metrô.",
             altAnswers: ["Ela vai de metrô, talvez."],
             explanation: "Not \"*talvez ela vai\": with \"talvez\" first, the subjunctive \"vá\".",
@@ -1947,7 +1950,7 @@ export const PT_B1_U21: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Let's hope the shop [isn't] closed.",
+        en: "Let's hope the store [isn't] closed.",
         sentence: "Tomara que a loja não ___ fechada.",
         answer: "esteja",
         explanation: "Not \"*está\": \"tomara que\" always takes the subjunctive.",
@@ -2026,7 +2029,7 @@ export const PT_B1_U21: Lesson[] = [
       {
         type: "speak",
         text: "Talvez ela vá de metrô.",
-        prompt: "Say it in Portuguese: Maybe she'll go by metro.",
+        prompt: "Say it in Portuguese: Maybe she'll go by subway.",
         tip: "Talvez: the l sounds like a w, tau-VEZ.",
         explanation: "\"Talvez\" before the verb + subjunctive \"vá\", the irregular form of \"ir\".",
       },
@@ -2181,14 +2184,14 @@ export const PT_B1_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "It's possible that the shop is closed.",
+        source: "It's possible that the store is closed.",
         answer: "É possível que a loja esteja fechada.",
         explanation: "\"A loja está fechada\" → \"é possível que a loja esteja fechada\".",
       },
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Maybe the shop [is] closed.",
+        en: "Maybe the store [is] closed.",
         sentence: "Talvez a loja ___ fechada.",
         answer: "esteja",
         explanation: "\"Talvez\" before the verb takes the subjunctive: \"esteja\".",
@@ -2196,7 +2199,7 @@ export const PT_B1_U21: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I'm sure the shop [is] closed.",
+        en: "I'm sure the store [is] closed.",
         sentence: "Tenho certeza que a loja ___ fechada.",
         answer: "está",
         explanation: "\"Tenho certeza que\" reports, so the verb goes back to the indicative \"está\".",
@@ -2214,7 +2217,7 @@ export const PT_B1_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Let's leave before the film ends.",
+        source: "Let's leave before the movie ends.",
         answer: "Vamos sair antes que o filme termine.",
         altAnswers: [
           "Vamos sair antes que o filme acabe.",
@@ -2448,13 +2451,15 @@ export const PT_B1_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "In case it rains, we'll go to the museum.",
+        source: "If it rains, we'll go to the museum.",
         answer: "Caso chova, a gente vai ao museu.",
         altAnswers: [
           "Caso chova, vamos ao museu.",
           "Caso chova, nós vamos ao museu.",
           "Caso chova, a gente vai no museu.",
           "Caso chova, a gente vai para o museu.",
+              "Se chover, a gente vai ao museu.",
+              "Se chover, vamos ao museu.",
         ],
         explanation: "\"Caso\" + \"chova\"; the main clause uses the present for the plan.",
       },
@@ -2530,14 +2535,14 @@ export const PT_B1_U21: Lesson[] = [
     slug: "b1-mission-surprise-party",
     level: "PT-B1",
     number: 11,
-    title: "Real-World Mission: Organising a Surprise Party",
-    summary: "Write the group message that organises a surprise party: who brings what, how to keep the secret, and what to do if things go wrong.",
+    title: "Real-World Mission: Organizing a Surprise Party",
+    summary: "Write the group message that organizes a surprise party: who brings what, how to keep the secret, and what to do if things go wrong.",
     duration: "15 min",
     sections: [
       {
         heading: "Who brings what: preciso que, quero que",
         body: [
-          "Your mission: write the WhatsApp message that organises a surprise party for Beatriz, who turns thirty on Saturday. Start with the tasks. Giving a named person a job is a request, so use \"quero que\", \"preciso que\" or \"peço que\" + subjunctive: \"preciso que o Pedro traga as bebidas\", \"quero que a Lívia faça o bolo\".",
+          "Your mission: write the WhatsApp message that organizes a surprise party for Beatriz, who turns thirty on Saturday. Start with the tasks. Giving a named person a job is a request, so use \"quero que\", \"preciso que\" or \"peço que\" + subjunctive: \"preciso que o Pedro traga as bebidas\", \"quero que a Lívia faça o bolo\".",
           "For the whole group, \"é importante que todo mundo...\" or \"o ideal é que...\" sound friendly but firm. Brazilians soften group messages with \"gente\" at the start and \"beleza?\" at the end.",
         ],
         examples: [
@@ -2574,7 +2579,7 @@ export const PT_B1_U21: Lesson[] = [
           "Put each of these clauses right after the task it explains: \"o Caio vai levar a Bia ao cinema para que ela não desconfie\". \"Ninguém\" + subjunctive warns the group: \"não quero que ninguém comente nada\".",
         ],
         examples: [
-          { es: "O Caio vai levar a Bia ao cinema para que ela não desconfie.", en: "Caio is taking Bia to the cinema so she doesn't suspect anything." },
+          { es: "O Caio vai levar a Bia ao cinema para que ela não desconfie.", en: "Caio is taking Bia to the movie theater so she doesn't suspect anything." },
           { es: "A gente decora a sala sem que ela perceba.", en: "We'll decorate the living room without her noticing." },
           { es: "Estacionem na rua de trás para que ela não veja os carros.", en: "Park on the street behind so she doesn't see the cars." },
           { es: "Não quero que ninguém comente nada no grupo da família.", en: "I don't want anyone to mention anything in the family group." },
@@ -2783,13 +2788,13 @@ export const PT_B1_U21: Lesson[] = [
       {
         heading: "The subjunctive next to the past",
         body: [
-          "This review mixes the present subjunctive with A2 grammar. The past tenses fit around it, as long as the trigger itself is in the present: \"ela me contou que vai se mudar; espero que dê tudo certo\". A past trigger (\"eu queria que...\") needs another subjunctive that comes later in B1, so keep your triggers in the present.",
+          "This review mixes the present subjunctive with A2 grammar. The past tenses fit around it, as long as the trigger itself is in the present: \"ela me contou que vai se mudar; espero que dê tudo certo\". A past trigger (\"eu queria que...\") needs another subjunctive, taught at B2, so keep your triggers in the present.",
           "A sentence can tell a past story in the indicative and still end with a present wish or request: \"ontem o João foi ao médico, e o médico quer que ele faça uns exames\".",
         ],
         examples: [
           { es: "Ela me contou que vai se mudar. Espero que dê tudo certo.", en: "She told me she's moving. I hope it all works out." },
           { es: "Ontem o João foi ao médico, e o médico quer que ele faça uns exames.", en: "Yesterday João went to the doctor, and the doctor wants him to have some tests." },
-          { es: "Quando eu era criança, morava no centro; hoje procuro um lugar que seja mais tranquilo.", en: "As a child I lived in the centre; now I'm looking for somewhere quieter." },
+          { es: "Quando eu era criança, morava no centro; hoje procuro um lugar que seja mais tranquilo.", en: "As a child I lived in the center; now I'm looking for somewhere quieter." },
           { es: "O ônibus atrasou de novo. Tomara que amanhã chegue na hora.", en: "The bus was late again. Let's hope it's on time tomorrow." },
           { es: "A gente conheceu um casal que mora em Manaus.", en: "We met a couple who live in Manaus." },
         ],
@@ -2866,8 +2871,8 @@ export const PT_B1_U21: Lesson[] = [
           "Comparatives slot into descriptions and judgements: \"procuro um apartamento que seja maior que este\", \"é melhor que você vá de metrô; é mais rápido do que de ônibus\". \"Melhor\", \"pior\", \"maior\" and \"menor\" are irregular, as at A2: never \"*mais bom\".",
         ],
         examples: [
-          { es: "Procuro um apartamento que seja maior que este.", en: "I'm looking for a flat that's bigger than this one." },
-          { es: "É melhor que você vá de metrô; é mais rápido do que de ônibus.", en: "You'd better take the metro; it's faster than the bus." },
+          { es: "Procuro um apartamento que seja maior que este.", en: "I'm looking for an apartment that's bigger than this one." },
+          { es: "É melhor que você vá de metrô; é mais rápido do que de ônibus.", en: "You'd better take the subway; it's faster than the bus." },
           { es: "Quero um celular que tire fotos melhores.", en: "I want a phone that takes better photos." },
           { es: "Não conheço ninguém que cozinhe melhor que a minha avó.", en: "I don't know anyone who cooks better than my grandmother." },
         ],
@@ -2895,7 +2900,7 @@ export const PT_B1_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Yesterday I saw a flat that has two balconies.",
+        source: "Yesterday I saw an apartment that has two balconies.",
         answer: "Ontem eu vi um apartamento que tem duas varandas.",
         altAnswers: ["Ontem vi um apartamento que tem duas varandas.", "Eu vi um apartamento ontem que tem duas varandas."],
         explanation: "You've seen it, so it exists: indicative \"tem\".",
@@ -2904,7 +2909,7 @@ export const PT_B1_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'm looking for a flat that's cheaper than this one.",
+        source: "I'm looking for an apartment that's cheaper than this one.",
         answer: "Procuro um apartamento que seja mais barato que este.",
         altAnswers: [
           "Estou procurando um apartamento que seja mais barato que este.",
@@ -2942,7 +2947,7 @@ export const PT_B1_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The neighbour was very nice; I hope she comes back.",
+        source: "The neighbor was very nice; I hope she comes back.",
         answer: "A vizinha foi muito simpática; espero que ela volte.",
         altAnswers: [
           "A vizinha era muito simpática; espero que ela volte.",
@@ -2955,7 +2960,7 @@ export const PT_B1_U21: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "You'd better [go] by metro; it's faster.",
+        en: "You'd better [go] by subway; it's faster.",
         sentence: "É melhor que você ___ de metrô; é mais rápido.",
         answer: "vá",
         explanation: "\"É melhor que\" + \"vá\", the subjunctive of \"ir\".",
@@ -3017,9 +3022,9 @@ export const PT_B1_U21: Lesson[] = [
       {
         type: "speak",
         text: "Procuro um apartamento que seja maior que este.",
-        prompt: "Say it in Portuguese: I'm looking for a flat that's bigger than this one.",
+        prompt: "Say it in Portuguese: I'm looking for an apartment that's bigger than this one.",
         tip: "Maior has two syllables, ma-IOR.",
-        explanation: "\"Que seja\" for a flat you haven't found, and \"maior que\".",
+        explanation: "\"Que seja\" for an apartment you haven't found, and \"maior que\".",
       },
     ],
   },

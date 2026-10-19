@@ -8,7 +8,7 @@ export const PT_A1_U05_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 1,
     title: "Extra Practice: -ER/-IR Verbs, Part 1 of 3",
-    summary: "Practise regular -er and -ir verbs in every person, with comemos and abrimos side by side.",
+    summary: "Practice regular -er and -ir verbs in every person, with comemos and abrimos side by side.",
     duration: "12 min",
     optional: true,
     sections: [
@@ -20,7 +20,7 @@ export const PT_A1_U05_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Nós comemos muito arroz.", en: "We eat a lot of rice." },
-          { es: "Nós abrimos a loja de manhã.", en: "We open the shop in the morning." },
+          { es: "Nós abrimos a loja de manhã.", en: "We open the store in the morning." },
           { es: "Você entende espanhol?", en: "Do you understand Spanish?" },
           { es: "Eles vendem frutas na feira.", en: "They sell fruit at the market." },
           { es: "Elas escrevem e-mails em inglês.", en: "They write emails in English." },
@@ -145,10 +145,10 @@ export const PT_A1_U05_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I share a flat with Beatriz.",
+        source: "I share an apartment with Beatriz.",
         answer: "Eu divido um apartamento com a Beatriz.",
         altAnswers: ["Divido um apartamento com a Beatriz.", "Eu divido um apartamento com Beatriz.", "Divido um apartamento com Beatriz."],
-        explanation: "\"Dividir\" covers sharing a flat. The eu form is \"divido\".",
+        explanation: "\"Dividir\" covers sharing an apartment. The eu form is \"divido\".",
       },
       {
         type: "word-order",
@@ -181,7 +181,7 @@ export const PT_A1_U05_EXTRA: Lesson[] = [
         type: "speak",
         text: "Eu como e ela bebe.",
         prompt: "Say it in Portuguese: I eat and she drinks.",
-        tip: "The final e of bebe sounds like i: BÉ-bi.",
+        tip: "Open the first e and say the final e like i: 'BEH-bee'.",
         explanation: "\"Como\" for eu and \"bebe\" for ela: the -er endings -o and -e.",
       },
     ],
@@ -191,7 +191,7 @@ export const PT_A1_U05_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 2,
     title: "Extra Practice: -ER/-IR Verbs, Part 2 of 3",
-    summary: "Practise ir, fazer, querer, poder, ver and vir together in mixed sentences.",
+    summary: "Practice ir, fazer, querer, poder, ver and vir together in mixed sentences.",
     duration: "12 min",
     optional: true,
     sections: [
@@ -221,7 +221,7 @@ export const PT_A1_U05_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "What [do you do] at the weekend? (to a friend)",
+            en: "What [do you do] on the weekend? (to a friend)",
             sentence: "O que você ___ no fim de semana?",
             answer: "faz",
             explanation: "\"Fazer\" in the você form loses its final e: \"faz\".",
@@ -280,7 +280,7 @@ export const PT_A1_U05_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "Can you speak more slowly? (to a friend)",
         answer: "Você pode falar mais devagar?",
-        explanation: "\"Você pode...?\" asks a favour. \"Poder\" + infinitive.",
+        explanation: "\"Você pode...?\" asks a favor. \"Poder\" + infinitive.",
       },
       {
         type: "translate",
@@ -373,7 +373,7 @@ export const PT_A1_U05_EXTRA: Lesson[] = [
     level: "PT-A1",
     number: 3,
     title: "Extra Practice: -ER/-IR Verbs, Part 3 of 3",
-    summary: "Practise plans with ir + infinitive and getting around by ônibus, metrô and a pé.",
+    summary: "Practice plans with ir + infinitive and getting around by ônibus, metrô and a pé.",
     duration: "12 min",
     optional: true,
     sections: [
@@ -384,7 +384,7 @@ export const PT_A1_U05_EXTRA: Lesson[] = [
           "Where you're going takes \"para\" or \"a\": \"vou para casa\", \"vou ao mercado\", \"vou à padaria\". Transport takes \"de\" with no article (\"de ônibus\", \"de metrô\", \"de carro\"), but walking is \"a pé\". \"Vamos!\" is let's go.",
         ],
         examples: [
-          { es: "Vou viajar no fim de semana.", en: "I'm going to travel at the weekend." },
+          { es: "Vou viajar no fim de semana.", en: "I'm going to travel on the weekend." },
           { es: "A Beatriz vai trabalhar de metrô.", en: "Beatriz is going to work by metro." },
           { es: "Amanhã de manhã vamos à padaria.", en: "Tomorrow morning we're going to the bakery." },
           { es: "Eles vão para o Rio de ônibus.", en: "They're going to Rio by bus." },
@@ -556,7 +556,7 @@ export const PT_A1_U05_EXTRA: Lesson[] = [
     slug: "a1-er-ir-extra-4",
     level: "PT-A1",
     number: 4,
-    title: "Extra Practice: Transformations: Today → Tomorrow",
+    title: "Extra Practice: Transformations: Today to Tomorrow",
     summary: "Turn present-tense sentences into plans with ir + infinitive and time words: hoje eu trabalho becomes amanhã eu vou trabalhar.",
     duration: "10 min",
     optional: true,
@@ -568,11 +568,11 @@ export const PT_A1_U05_EXTRA: Lesson[] = [
           "For going somewhere, \"ir\" alone is enough: \"hoje vou ao mercado\", \"amanhã vou ao mercado\", not \"vou ir\". \"Não\" moves in front of \"ir\": \"não vou trabalhar\".",
         ],
         examples: [
-          { es: "Hoje eu trabalho. → Amanhã eu vou trabalhar.", en: "Today I work. → Tomorrow I'm going to work." },
-          { es: "Ela faz o jantar. → Ela vai fazer o jantar.", en: "She makes dinner. → She's going to make dinner." },
-          { es: "Nós comemos fora. → Nós vamos comer fora.", en: "We eat out. → We're going to eat out." },
-          { es: "Eles vêm de ônibus. → Eles vão vir de ônibus.", en: "They come by bus. → They're going to come by bus." },
-          { es: "Não abro a loja. → Não vou abrir a loja.", en: "I don't open the shop. → I'm not going to open the shop." },
+          { es: "Hoje eu trabalho. Amanhã eu vou trabalhar.", en: "Today I work. Tomorrow I'm going to work." },
+          { es: "Ela faz o jantar. Ela vai fazer o jantar.", en: "She makes dinner. She's going to make dinner." },
+          { es: "Nós comemos fora. Nós vamos comer fora.", en: "We eat out. We're going to eat out." },
+          { es: "Eles vêm de ônibus. Eles vão vir de ônibus.", en: "They come by bus. They're going to come by bus." },
+          { es: "Não abro a loja. Não vou abrir a loja.", en: "I don't open the store. I'm not going to open the store." },
         ],
         checkpoint: [
           {
@@ -597,9 +597,9 @@ export const PT_A1_U05_EXTRA: Lesson[] = [
             audio: "Amanhã nós vamos abrir a loja.",
             question: "What does it mean?",
             options: [
-              "Tomorrow we're going to open the shop.",
-              "Today we open the shop.",
-              "Tomorrow they're going to open the shop.",
+              "Tomorrow we're going to open the store.",
+              "Today we open the store.",
+              "Tomorrow they're going to open the store.",
               "Tomorrow we're opening the bank.",
             ],
             correctIndex: 0,
@@ -745,7 +745,7 @@ export const PT_A1_U05_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "No fim de semana nós vamos viajar.",
-        prompt: "Say it in Portuguese: At the weekend we're going to travel.",
+        prompt: "Say it in Portuguese: On the weekend we're going to travel.",
         explanation: "\"Vamos viajar\": nós + \"ir\" + infinitive.",
       },
     ],

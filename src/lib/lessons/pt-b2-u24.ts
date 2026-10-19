@@ -8,7 +8,7 @@ export const PT_B2_U24: Lesson[] = [
     level: "PT-B2",
     number: 1,
     title: "Thematic Review: A Padaria da Família",
-    summary: "A family in Belo Horizonte argues about selling the bakery their grandfather founded: practise unreal conditions, concession and past regrets in one story.",
+    summary: "A family in Belo Horizonte argues about selling the bakery their grandfather founded: practice unreal conditions, concession and past regrets in one story.",
     duration: "15 min",
     kind: "review",
     format: "Thematic Review",
@@ -16,7 +16,7 @@ export const PT_B2_U24: Lesson[] = [
       {
         heading: "Se a gente vendesse: imagining the sale",
         body: [
-          "The Padaria Santa Rita has fed the Floresta neighbourhood of Belo Horizonte for forty years. Seu Antônio founded it; now his daughter Cláudia runs it, and a supermarket chain has made an offer. At Sunday lunch the family argues about it, and every argument is a hypothesis.",
+          "The Padaria Santa Rita has fed the Floresta neighborhood of Belo Horizonte for forty years. Seu Antônio founded it; now his daughter Cláudia runs it, and a supermarket chain has made an offer. At Sunday lunch the family argues about it, and every argument is a hypothesis.",
           "Unreal conditions pair \"se\" + imperfect subjunctive with the conditional, or with \"ia\" / \"podia\" in speech: \"Se a gente vendesse, eu poderia descansar\", \"Se eu fosse você, eu não vendia\". Keep the two halves matched: *se a gente venderia is the classic slip.",
         ],
         examples: [
@@ -53,8 +53,8 @@ export const PT_B2_U24: Lesson[] = [
         ],
         examples: [
           { es: "Embora o lucro seja pequeno, a padaria é a nossa história.", en: "Although the profit is small, the bakery is our history." },
-          { es: "Por mais que eu goste daqui, não aguento mais acordar às quatro.", en: "However much I like it here, I can't stand getting up at four any more." },
-          { es: "Apesar de trabalhar muito, a Cláudia nunca tira férias.", en: "Despite working hard, Cláudia never takes a holiday." },
+          { es: "Por mais que eu goste daqui, não aguento mais acordar às quatro.", en: "However much I like it here, I can't stand getting up at four anymore." },
+          { es: "Apesar de trabalhar muito, a Cláudia nunca tira férias.", en: "Despite working hard, Cláudia never takes a vacation." },
           { es: "A oferta é boa. Mesmo assim, eu não venderia.", en: "The offer is good. Even so, I wouldn't sell." },
           { es: "Mesmo que eles ofereçam o dobro, a resposta é não.", en: "Even if they offer double, the answer is no." },
         ],
@@ -140,7 +140,7 @@ export const PT_B2_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Despite working hard, she never takes a holiday.",
+        source: "Despite working hard, she never takes a vacation.",
         answer: "Apesar de trabalhar muito, ela nunca tira férias.",
         altAnswers: ["Apesar de trabalhar demais, ela nunca tira férias.", "Embora trabalhe muito, ela nunca tira férias.", "Embora ela trabalhe muito, nunca tira férias.", "Apesar de trabalhar muito, ela nunca sai de férias.", "Embora ela trabalhe muito, ela nunca tira férias."],
         explanation: "\"Apesar de\" + infinitive when the subject is the same; \"embora\" + subjunctive.",
@@ -218,7 +218,7 @@ export const PT_B2_U24: Lesson[] = [
           { es: "Quando a gente chegar em Curitiba, vou comprar um casaco de verdade.", en: "When we get to Curitiba, I'm going to buy a real coat." },
           { es: "Assim que o contrato for assinado, a gente pega as chaves.", en: "As soon as the contract is signed, we get the keys." },
           { es: "Se fizer muito frio, a gente compra um aquecedor.", en: "If it gets really cold, we'll buy a heater." },
-          { es: "Enquanto não acharmos um apartamento, vamos ficar na casa da tia Rosa.", en: "Until we find a flat, we'll stay at Aunt Rosa's." },
+          { es: "Enquanto não acharmos um apartamento, vamos ficar na casa da tia Rosa.", en: "Until we find an apartment, we'll stay at Aunt Rosa's." },
           { es: "Sempre que vocês puderem, venham nos visitar.", en: "Whenever you can, come and visit us." },
         ],
         checkpoint: [
@@ -275,13 +275,13 @@ export const PT_B2_U24: Lesson[] = [
       {
         heading: "Macaxeira, mandioca, sinaleiro, piá",
         body: [
-          "In Curitiba, the words change. The \"macaxeira\" Beatriz bought in Recife is \"mandioca\" here (and \"aipim\" further south), the \"sinal\" is a \"sinaleiro\", a boy is a \"piá\" and a hot dog sausage is a \"vina\". The bread roll is \"pão francês\", not the \"cacetinho\" their gaúcho neighbour talks about. Lucas also notices the accent: curitibanos pronounce the e at the end of \"leite\" as a clear e, not i.",
+          "In Curitiba, the words change. The \"macaxeira\" Beatriz bought in Recife is \"mandioca\" here (and \"aipim\" further south), the \"sinal\" is a \"sinaleiro\", a boy is a \"piá\" and a hot dog sausage is a \"vina\". The bread roll is \"pão francês\", not the \"cacetinho\" their gaúcho neighbor talks about. Lucas also notices the accent: curitibanos pronounce the e at the end of \"leite\" as a clear e, not i.",
         ],
         examples: [
           { es: "Aqui ninguém fala macaxeira, é mandioca.", en: "Nobody says macaxeira here, it's mandioca." },
           { es: "Vira à direita no segundo sinaleiro.", en: "Turn right at the second traffic light. (Curitiba)" },
-          { es: "O piá do vizinho já fala igual curitibano.", en: "The neighbour's boy already talks like a local." },
-          { es: "Nosso vizinho gaúcho chama o pão francês de cacetinho.", en: "Our neighbour from Rio Grande do Sul calls the bread roll cacetinho." },
+          { es: "O piá do vizinho já fala igual curitibano.", en: "The neighbor's boy already talks like a local." },
+          { es: "Nosso vizinho gaúcho chama o pão francês de cacetinho.", en: "Our neighbor from Rio Grande do Sul calls the bread roll cacetinho." },
           { es: "Me vê um cachorro-quente com duas vinas.", en: "A hot dog with two sausages, please. (Curitiba)" },
         ],
         checkpoint: [
@@ -319,7 +319,7 @@ export const PT_B2_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Until we find a flat, we'll stay at my aunt's house.",
+        source: "Until we find an apartment, we'll stay at my aunt's house.",
         answer: "Enquanto não acharmos um apartamento, vamos ficar na casa da minha tia.",
         altAnswers: ["Enquanto a gente não achar um apartamento, vamos ficar na casa da minha tia.", "Enquanto não encontrarmos um apartamento, vamos ficar na casa da minha tia.", "Enquanto a gente não achar um apartamento, a gente vai ficar na casa da minha tia.", "Até acharmos um apartamento, vamos ficar na casa da minha tia.", "Enquanto não acharmos um apartamento, ficaremos na casa da minha tia.", "Até a gente achar um apartamento, vamos ficar na casa da minha tia."],
         explanation: "\"Enquanto não\" + future subjunctive is Portuguese for until (in the future).",
@@ -383,7 +383,7 @@ export const PT_B2_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Our neighbour calls the bread roll cacetinho because he's from Porto Alegre.",
+        source: "Our neighbor calls the bread roll cacetinho because he's from Porto Alegre.",
         answer: "Nosso vizinho chama o pão francês de cacetinho porque é de Porto Alegre.",
         altAnswers: ["O nosso vizinho chama o pão francês de cacetinho porque é de Porto Alegre.", "Nosso vizinho chama o pão francês de cacetinho porque ele é de Porto Alegre.", "O nosso vizinho chama o pão francês de cacetinho porque ele é de Porto Alegre.", "Nosso vizinho chama o pãozinho de cacetinho porque é de Porto Alegre."],
         explanation: "\"Chamar algo de\" + name: Portuguese needs the \"de\".",
@@ -410,21 +410,21 @@ export const PT_B2_U24: Lesson[] = [
       {
         heading: "Na reunião: reactions and interruptions",
         body: [
-          "The Edifício Ipê in Pinheiros has a problem: the building's lift has broken three times this month, and the \"síndico\" (building manager), seu Jorge, wants to raise the \"taxa de condomínio\" to replace it. The residents' meeting is noisy. Dona Lúcia interrupts, the young couple from 52 react to every number, and seu Jorge tries to hold the floor.",
+          "The Edifício Ipê in Pinheiros has a problem: the building's elevator has broken three times this month, and the \"síndico\" (building manager), seu Jorge, wants to raise the \"taxa de condomínio\" to replace it. The residents' meeting is noisy. Dona Lúcia interrupts, the young couple from 52 react to every number, and seu Jorge tries to hold the floor.",
         ],
         examples: [
           { es: "Desculpa interromper, seu Jorge, mas quanto vai custar isso?", en: "Sorry to interrupt, seu Jorge, but how much is this going to cost?" },
           { es: "Oitenta mil reais? Sério? Não acredito!", en: "Eighty thousand reais? Seriously? I don't believe it!" },
           { es: "Peraí, gente, deixa eu terminar de explicar.", en: "Hang on, everyone, let me finish explaining." },
-          { es: "Embora seja caro, o elevador é uma questão de segurança.", en: "Although it's expensive, the lift is a safety issue." },
-          { es: "Se o elevador tivesse sido trocado antes, a gente não estaria nessa situação.", en: "If the lift had been replaced earlier, we wouldn't be in this situation." },
+          { es: "Embora seja caro, o elevador é uma questão de segurança.", en: "Although it's expensive, the elevator is a safety issue." },
+          { es: "Se o elevador tivesse sido trocado antes, a gente não estaria nessa situação.", en: "If the elevator had been replaced earlier, we wouldn't be in this situation." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "If the lift had been replaced earlier, we wouldn't be in this situation.",
+            source: "If the elevator had been replaced earlier, we wouldn't be in this situation.",
             answer: "Se o elevador tivesse sido trocado antes, a gente não estaria nessa situação.",
             altAnswers: ["Se o elevador tivesse sido trocado antes, nós não estaríamos nessa situação.", "Se o elevador tivesse sido substituído antes, a gente não estaria nessa situação.", "Se o elevador tivesse sido trocado antes, não estaríamos nessa situação.", "Se o elevador tivesse sido trocado antes, a gente não estaria nesta situação.", "Se o elevador tivesse sido substituído antes, não estaríamos nessa situação."],
             explanation: "A passive in the pluperfect subjunctive (\"tivesse sido trocado\") with a present result (\"estaria\").",
@@ -441,13 +441,13 @@ export const PT_B2_U24: Lesson[] = [
       {
         heading: "Ele disse que...: reporting the meeting",
         body: [
-          "Dona Lúcia missed the end and asks her neighbour what happened. Reported speech shifts the tenses back: \"vamos votar\" → \"disse que iam votar\"; \"quando chegar o orçamento, eu mando\" → \"disse que, quando chegasse o orçamento, mandaria\". Commands become \"pediu que\" + imperfect subjunctive, and questions become \"perguntou se\".",
+          "Dona Lúcia missed the end and asks her neighbor what happened. Reported speech shifts the tenses back: \"vamos votar\" → \"disse que iam votar\"; \"quando chegar o orçamento, eu mando\" → \"disse que, quando chegasse o orçamento, mandaria\". Commands become \"pediu que\" + imperfect subjunctive, and questions become \"perguntou se\".",
         ],
         examples: [
           { es: "O síndico disse que iam votar o aumento na próxima reunião.", en: "The manager said they were going to vote on the increase at the next meeting." },
           { es: "Ele disse que, quando chegasse o orçamento, mandaria para todo mundo.", en: "He said that when the quote arrived, he'd send it to everyone." },
           { es: "A moradora do 52 perguntou se a empresa tinha garantia.", en: "The resident in 52 asked if the company had a guarantee." },
-          { es: "Ele pediu que ninguém usasse o elevador de serviço com mudança.", en: "He asked that nobody use the service lift for moving furniture." },
+          { es: "Ele pediu que ninguém usasse o elevador de serviço com mudança.", en: "He asked that nobody use the service elevator for moving furniture." },
           { es: "O seu Jorge garantiu que as obras não durariam mais de um mês.", en: "Seu Jorge promised the work wouldn't last more than a month." },
         ],
         checkpoint: [
@@ -463,7 +463,7 @@ export const PT_B2_U24: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "He asked that nobody [use] the lift.",
+            en: "He asked that nobody [use] the elevator.",
             sentence: "Ele pediu que ninguém ___ o elevador.",
             answer: "usasse",
             explanation: "\"Pediu que\" in the past + imperfect subjunctive: \"usasse\".",
@@ -476,18 +476,18 @@ export const PT_B2_U24: Lesson[] = [
           "Next day the \"ata\" (minutes) goes round, in the written norm. No reactions, no \"a gente\": the passive and impersonal forms do the work. \"Ficou decidido que...\", \"Foi aprovada a troca do elevador\", \"Será cobrada uma taxa extra\", \"Solicitou-se aos moradores que...\". Remember agreement: \"foram aprovadas as contas\", and \"houve\" stays singular.",
         ],
         examples: [
-          { es: "Ficou decidido que o elevador será substituído em março.", en: "It was decided that the lift will be replaced in March." },
+          { es: "Ficou decidido que o elevador será substituído em março.", en: "It was decided that the elevator will be replaced in March." },
           { es: "Foi aprovada, por maioria, a cobrança de uma taxa extra.", en: "An extra charge was approved by a majority." },
           { es: "Foram apresentados três orçamentos.", en: "Three quotes were presented." },
           { es: "Houve muitas reclamações sobre o barulho das obras.", en: "There were many complaints about the noise of the work." },
-          { es: "Solicitou-se aos moradores que evitassem o uso do elevador de serviço.", en: "Residents were asked to avoid using the service lift." },
+          { es: "Solicitou-se aos moradores que evitassem o uso do elevador de serviço.", en: "Residents were asked to avoid using the service elevator." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, for the minutes.",
-            source: "It was decided that the lift will be replaced in March.",
+            source: "It was decided that the elevator will be replaced in March.",
             answer: "Ficou decidido que o elevador será substituído em março.",
             altAnswers: ["Ficou decidido que o elevador será trocado em março.", "Foi decidido que o elevador será substituído em março.", "Decidiu-se que o elevador será substituído em março.", "Ficou decidido que o elevador seria substituído em março.", "Foi decidido que o elevador será trocado em março."],
             explanation: "\"Ficou decidido que\" is the classic formula of Brazilian minutes; \"será substituído\" is the future passive.",
@@ -564,7 +564,7 @@ export const PT_B2_U24: Lesson[] = [
         type: "listen-choose",
         audio: "Ele pediu que ninguém usasse o elevador de serviço.",
         question: "What does it mean?",
-        options: ["He asked that nobody use the service lift.", "He asked who had used the service lift.", "Nobody asked him about the service lift.", "He asked to use the service lift."],
+        options: ["He asked that nobody use the service elevator.", "He asked who had used the service elevator.", "Nobody asked him about the service elevator.", "He asked to use the service elevator."],
         correctIndex: 0,
         explanation: "\"Pediu que\" + imperfect subjunctive \"usasse\".",
       },
@@ -628,7 +628,7 @@ export const PT_B2_U24: Lesson[] = [
             prompt: "The trainee wrote \"Nos informaram que o show será gratuito.\" Translate the English for a news item.",
             source: "We were informed that the show will be free.",
             answer: "Informaram-nos que o show será gratuito.",
-            altAnswers: ["Fomos informados de que o show será gratuito.", "Fomos informados que o show será gratuito.", "Informaram-nos de que o show será gratuito.", "Informaram-nos que o show seria gratuito."],
+            altAnswers: ["Fomos informados de que o show será gratuito.", "Informaram-nos de que o show será gratuito.", "Informaram-nos que o show seria gratuito."],
             explanation: "Formal writing doesn't start a sentence with \"nos\": \"Informaram-nos\" or the passive \"Fomos informados\".",
           },
         ],
@@ -669,7 +669,7 @@ export const PT_B2_U24: Lesson[] = [
           "Last, the commas and the verbs. No comma between subject and verb, however long the subject: *\"Os moradores do Centro Histórico, poderão...\" loses its comma. Commas do surround an explicative phrase (\"O Olodum, grupo criado em 1979, vai se apresentar\"). A subject after the verb still controls agreement: \"Faltam dois dias\", \"Serão montados dois palcos\".",
         ],
         examples: [
-          { es: "Os moradores do Centro Histórico poderão usar uma entrada exclusiva.", en: "Residents of the historic centre will be able to use a dedicated entrance." },
+          { es: "Os moradores do Centro Histórico poderão usar uma entrada exclusiva.", en: "Residents of the historic center will be able to use a dedicated entrance." },
           { es: "O Olodum, grupo criado em 1979, vai se apresentar às 21h.", en: "Olodum, a group founded in 1979, will perform at 9 p.m." },
           { es: "Faltam apenas dois dias para o evento.", en: "There are only two days left before the event." },
           { es: "Serão montados dois palcos na praça.", en: "Two stages will be set up in the square." },
@@ -699,7 +699,7 @@ export const PT_B2_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "The trainee wrote \"Os moradores do Centro Histórico, poderão usar uma entrada exclusiva.\" Translate the English correctly.",
-        source: "Residents of the historic centre will be able to use a dedicated entrance.",
+        source: "Residents of the historic center will be able to use a dedicated entrance.",
         answer: "Os moradores do Centro Histórico poderão usar uma entrada exclusiva.",
         altAnswers: ["Os moradores do Centro Histórico poderão utilizar uma entrada exclusiva.", "Moradores do Centro Histórico poderão usar uma entrada exclusiva."],
         explanation: "No comma between the subject and its verb, however long the subject is.",
@@ -877,7 +877,7 @@ export const PT_B2_U24: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "My mother wanted me to come home for Christmas.",
         answer: "Minha mãe queria que eu viesse para casa no Natal.",
-        altAnswers: ["A minha mãe queria que eu viesse para casa no Natal.", "Minha mãe queria que eu viesse pra casa no Natal.", "Minha mãe queria que eu fosse para casa no Natal.", "Minha mãe queria que eu viesse em casa no Natal.", "Minha mãe queria que eu passasse o Natal em casa."],
+        altAnswers: ["A minha mãe queria que eu viesse para casa no Natal.", "Minha mãe queria que eu viesse pra casa no Natal.", "Minha mãe queria que eu fosse para casa no Natal.", "Minha mãe queria que eu passasse o Natal em casa."],
         explanation: "Past \"queria que\" + imperfect subjunctive \"viesse\" (or \"fosse\", from the speaker's current viewpoint).",
       },
       {
@@ -947,9 +947,9 @@ export const PT_B2_U24: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Que bom que você tenha vindo! Se você não viesse, eu ia ficar triste.",
+        text: "Que bom que você tenha vindo! Se você não tivesse vindo, eu teria ficado triste.",
         prompt: "Say it in Portuguese: So glad you've come! If you hadn't come, I'd have been sad.",
-        explanation: "\"Tenha vindo\" for a fact; \"se você não viesse... eu ia ficar\" is the relaxed spoken hypothetical.",
+        explanation: "\"Tenha vindo\" for a finished fact seen from now; \"se você não tivesse vindo... eu teria ficado\" for a past that didn't happen. In relaxed speech you'll also hear \"eu tinha ficado\".",
       },
       {
         type: "translate",
@@ -1053,7 +1053,7 @@ export const PT_B2_U24: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'm looking for a flat that has a balcony.",
+            source: "I'm looking for an apartment that has a balcony.",
             answer: "Procuro um apartamento que tenha varanda.",
             altAnswers: ["Estou procurando um apartamento que tenha varanda.", "Procuro um apartamento que tenha sacada.", "Estou procurando um apartamento que tenha sacada.", "Procuro um apartamento com varanda.", "Estou procurando um apartamento com varanda."],
             explanation: "The flat may not exist yet, so the subjunctive \"tenha\".",
@@ -1180,7 +1180,7 @@ export const PT_B2_U24: Lesson[] = [
         ],
         examples: [
           { es: "Moro em Recife há dez anos.", en: "I've lived in Recife for ten years." },
-          { es: "Daqui a duas semanas eu viajo.", en: "In two weeks' time I'm travelling." },
+          { es: "Daqui a duas semanas eu viajo.", en: "In two weeks' time I'm traveling." },
           { es: "Vou à farmácia e depois ao banco.", en: "I'm going to the pharmacy and then to the bank." },
           { es: "Ela chegou há pouco.", en: "She arrived a moment ago." },
           { es: "A reunião vai das duas às quatro.", en: "The meeting runs from two to four." },
@@ -1285,7 +1285,7 @@ export const PT_B2_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The shop is open from nine to six.",
+        source: "The store is open from nine to six.",
         answer: "A loja abre das nove às seis.",
         altAnswers: ["A loja funciona das nove às seis.", "A loja fica aberta das nove às seis.", "A loja está aberta das nove às seis.", "A loja abre das 9h às 18h.", "A loja funciona das 9h às 18h."],
         explanation: "\"Das... às...\" with both times feminine plural.",
@@ -1339,7 +1339,7 @@ export const PT_B2_U24: Lesson[] = [
     level: "PT-B2",
     number: 8,
     title: "Thematic Review: O Festival de Parintins",
-    summary: "A reporter covers the boi-bumbá festival on an island in the Amazon: practise the passive, reported speech and word formation in news style.",
+    summary: "A reporter covers the boi-bumbá festival on an island in the Amazon: practice the passive, reported speech and word formation in news style.",
     duration: "15 min",
     kind: "review",
     format: "Thematic Review",
@@ -1365,7 +1365,7 @@ export const PT_B2_U24: Lesson[] = [
             source: "Caprichoso fans dress in blue.",
             answer: "Os torcedores do Caprichoso se vestem de azul.",
             altAnswers: ["Os torcedores do Caprichoso vestem azul.", "Os torcedores do Caprichoso se vestem com roupa azul.", "Os fãs do Caprichoso se vestem de azul.", "Torcedores do Caprichoso se vestem de azul."],
-            explanation: "\"Torcedor\" (fan, supporter) comes from \"torcer\" (to root for). \"Vestir-se de\" + colour.",
+            explanation: "\"Torcedor\" (fan, supporter) comes from \"torcer\" (to root for). \"Vestir-se de\" + color.",
           },
           {
             type: "matching",
@@ -1424,14 +1424,14 @@ export const PT_B2_U24: Lesson[] = [
       {
         heading: "Segundo o presidente: reported speech",
         body: [
-          "Juliana interviews the presidents of both bois and reports what they said. \"Vamos ganhar\" becomes \"afirmou que o boi ia ganhar\"; \"Venham torcer\" becomes \"pediu que os torcedores fossem torcer\". Stance verbs add colour: \"garantiu\", \"admitiu\", \"negou\", \"prometeu\". And \"aqui\" becomes \"lá\", \"amanhã\" becomes \"no dia seguinte\".",
+          "Juliana interviews the presidents of both bois and reports what they said. \"Vamos ganhar\" becomes \"afirmou que o boi ia ganhar\"; \"Venham torcer\" becomes \"pediu que os torcedores fossem torcer\". Stance verbs add color: \"garantiu\", \"admitiu\", \"negou\", \"prometeu\". And \"aqui\" becomes \"lá\", \"amanhã\" becomes \"no dia seguinte\".",
         ],
         examples: [
           { es: "O presidente do Garantido afirmou que o boi ia ganhar o título.", en: "Garantido's president stated that the team would win the title." },
           { es: "Ele pediu que os torcedores chegassem cedo no dia seguinte.", en: "He asked fans to arrive early the next day." },
           { es: "A presidente do Caprichoso negou que houvesse problemas com as alegorias.", en: "Caprichoso's president denied there were any problems with the floats." },
           { es: "Ela admitiu que o ensaio não tinha sido perfeito.", en: "She admitted that the rehearsal hadn't been perfect." },
-          { es: "Segundo os organizadores, a cidade recebeu mais turistas do que no ano passado.", en: "According to the organisers, the town received more tourists than last year." },
+          { es: "Segundo os organizadores, a cidade recebeu mais turistas do que no ano passado.", en: "According to the organizers, the town received more tourists than last year." },
         ],
         checkpoint: [
           {
@@ -1454,7 +1454,7 @@ export const PT_B2_U24: Lesson[] = [
           {
             type: "speak",
             text: "Segundo os organizadores, mais de cem mil turistas são esperados.",
-            prompt: "Read the line aloud like a TV reporter: According to the organisers, more than a hundred thousand tourists are expected.",
+            prompt: "Read the line aloud like a TV reporter: According to the organizers, more than a hundred thousand tourists are expected.",
             explanation: "\"Segundo\" names the source; \"são esperados\" is the passive.",
           },
         ],
@@ -1938,11 +1938,11 @@ export const PT_B2_U24: Lesson[] = [
       {
         heading: "O áudio: telling a friend",
         body: [
-          "The incident: on Tuesday night a pipe burst on the eighth floor of a building in Botafogo, Rio. Water flooded three flats, the power was cut, and the building company took six hours to send someone. Beatriz, on the seventh floor, tells it three times. First, an áudio to her friend: reactions, \"a gente\", \"tava\", \"pra\", and a story told in the perfeito with imperfect background.",
+          "The incident: on Tuesday night a pipe burst on the eighth floor of a building in Botafogo, Rio. Water flooded three apartments, the power was cut, and the building company took six hours to send someone. Beatriz, on the seventh floor, tells it three times. First, an áudio to her friend: reactions, \"a gente\", \"tava\", \"pra\", and a story told in the perfeito with imperfect background.",
         ],
         examples: [
           { es: "Amiga, cê não vai acreditar no que aconteceu ontem!", en: "Girl, you won't believe what happened yesterday!" },
-          { es: "Estourou um cano no oitavo andar e a água desceu toda pro meu apartamento.", en: "A pipe burst on the eighth floor and all the water came down into my flat." },
+          { es: "Estourou um cano no oitavo andar e a água desceu toda pro meu apartamento.", en: "A pipe burst on the eighth floor and all the water came down into my apartment." },
           { es: "A gente tava jantando quando começou a pingar do teto.", en: "We were having dinner when it started dripping from the ceiling." },
           { es: "E a empresa demorou seis horas pra mandar alguém, acredita?", en: "And the company took six hours to send someone, can you believe it?" },
           { es: "Foi um caos, mas enfim, já tá tudo bem.", en: "It was chaos, but anyway, everything's fine now." },
@@ -1975,7 +1975,7 @@ export const PT_B2_U24: Lesson[] = [
           { es: "O fornecimento de energia foi interrompido por cerca de seis horas.", en: "The power supply was cut off for about six hours." },
           { es: "Houve danos significativos no teto e nos móveis.", en: "There was significant damage to the ceiling and the furniture." },
           { es: "Solicito que os danos sejam avaliados com urgência.", en: "I request that the damage be assessed urgently." },
-          { es: "Caso não haja resposta em cinco dias úteis, recorrerei ao Procon.", en: "Should there be no reply within five working days, I will contact Procon." },
+          { es: "Caso não haja resposta em cinco dias úteis, recorrerei ao Procon.", en: "Should there be no reply within five business days, I will contact Procon." },
         ],
         checkpoint: [
           {
@@ -1985,7 +1985,7 @@ export const PT_B2_U24: Lesson[] = [
             source: "I request that the damage be assessed urgently.",
             answer: "Solicito que os danos sejam avaliados com urgência.",
             altAnswers: ["Solicito que os danos sejam avaliados urgentemente.", "Peço que os danos sejam avaliados com urgência.", "Solicito que sejam avaliados os danos com urgência.", "Solicito a avaliação dos danos com urgência.", "Solicito a avaliação urgente dos danos."],
-            explanation: "\"Solicitar que\" + subjunctive in a passive: \"sejam avaliados\". A nominalisation (\"a avaliação dos danos\") also suits formal writing.",
+            explanation: "\"Solicitar que\" + subjunctive in a passive: \"sejam avaliados\". A nominalization (\"a avaliação dos danos\") also suits formal writing.",
           },
           {
             type: "fill-blank",
@@ -2004,7 +2004,7 @@ export const PT_B2_U24: Lesson[] = [
         ],
         examples: [
           { es: "Um cano estourou na noite de terça-feira em um prédio em Botafogo.", en: "A pipe burst on Tuesday night in a building in Botafogo." },
-          { es: "Três apartamentos foram atingidos pela água.", en: "Three flats were affected by the water." },
+          { es: "Três apartamentos foram atingidos pela água.", en: "Three apartments were affected by the water." },
           { es: "Segundo os moradores, a equipe de manutenção demorou seis horas para chegar.", en: "According to residents, the maintenance team took six hours to arrive." },
           { es: "A administradora afirmou que o problema já tinha sido resolvido.", en: "The management company stated that the problem had already been solved." },
           { es: "Não houve feridos.", en: "No one was injured." },
@@ -2023,7 +2023,7 @@ export const PT_B2_U24: Lesson[] = [
             type: "listen-choose",
             audio: "Não houve feridos.",
             question: "What does it mean?",
-            options: ["No one was injured.", "There were no fires.", "No one heard anything.", "There were no holidays."],
+            options: ["No one was injured.", "There were no fires.", "No one heard anything.", "There were no vacation."],
             correctIndex: 0,
             explanation: "\"Não houve feridos\" is the stock news phrase for no injuries.",
           },
@@ -2053,7 +2053,7 @@ export const PT_B2_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, for the news item.",
-        source: "Three flats were affected by the water.",
+        source: "Three apartments were affected by the water.",
         answer: "Três apartamentos foram atingidos pela água.",
         altAnswers: ["Três apartamentos foram afetados pela água.", "Três apartamentos foram atingidos pelo vazamento.", "Três apartamentos foram alagados."],
         explanation: "Passive with \"pela\" (por + a) for the agent.",
@@ -2061,7 +2061,7 @@ export const PT_B2_U24: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words, for the formal complaint.",
-        en: "Should there be no reply within five working days, I [will contact] Procon.",
+        en: "Should there be no reply within five business days, I [will contact] Procon.",
         sentence: "Caso não haja resposta em cinco dias úteis, ___ ao Procon.",
         answer: "recorrerei",
         altAnswers: ["vou recorrer"],
@@ -2149,10 +2149,10 @@ export const PT_B2_U24: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "In a shop in Lisbon, Luana hears \"Quer carregar o telemóvel?\". What is she being offered?",
-            options: ["To charge her mobile phone.", "To carry her bags to the train.", "To top up her bus card.", "A cooler bag."],
+            question: "In a store in Lisbon, Luana hears \"Quer carregar o telemóvel?\". What is she being offered?",
+            options: ["To charge her cell phone.", "To carry her bags to the train.", "To top up her bus card.", "A cooler bag."],
             correctIndex: 0,
-            explanation: "In Portugal a mobile is a \"telemóvel\"; in Brazil, a \"celular\".",
+            explanation: "In Portugal a cell phone is a \"telemóvel\"; in Brazil, a \"celular\".",
           },
           {
             type: "translate",

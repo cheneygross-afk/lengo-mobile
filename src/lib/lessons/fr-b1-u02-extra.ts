@@ -200,7 +200,7 @@ export const FR_B1_U02_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Il faut que je sorte le chien avant de partir.", en: "I need to take the dog out before I leave." },
-          { es: "Il faut que tu dormes chez nous ce soir.", en: "You should sleep at our place tonight." },
+          { es: "Il faut que tu dormes chez nous ce soir.", en: "You must sleep at our place tonight." },
           { es: "Il faut qu'il lise les petites lignes.", en: "He needs to read the small print." },
           { es: "Il faut qu'elle mette ses bottes.", en: "She needs to put her boots on." },
           { es: "Il faut que tu attendes le feu vert.", en: "You have to wait for the green light." },
@@ -254,7 +254,7 @@ export const FR_B1_U02_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "You should sleep at our place tonight. (to a friend)",
+        source: "You must sleep at our place tonight. (to a friend)",
         answer: "Il faut que tu dormes chez nous ce soir.",
         altAnswers: ["Tu dois dormir chez nous ce soir."],
         explanation: "Ils dorment → \"que tu dormes\".",
@@ -358,7 +358,7 @@ export const FR_B1_U02_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Il faut que tu dormes chez nous.",
-        prompt: "Say it in French: You should sleep at our place. (to a friend)",
+        prompt: "Say it in French: You must sleep at our place. (to a friend)",
         tip: "Pronounce the m of \"dormes\".",
         explanation: "Ils dorment → \"dormes\".",
       },
@@ -470,9 +470,9 @@ export const FR_B1_U02_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into French.",
         source: "You need to wipe your feet. (formal)",
-        answer: "Il faut que vous essuyiez vos pieds.",
-        altAnswers: ["Vous devez vous essuyer les pieds.", "Il faut que vous vous essuyiez les pieds."],
-        explanation: "\"Essuyer\": the y returns in the vous form.",
+        answer: "Il faut que vous vous essuyiez les pieds.",
+        altAnswers: ["Vous devez vous essuyer les pieds.", "Il faut que vous essuyiez vos pieds."],
+        explanation: "\"Essuyer\": the y returns in the vous form (\"essuyiez\"). French usually says \"s'essuyer les pieds\" (reflexive + les), rather than \"vos pieds\".",
       },
       {
         type: "fill-blank",
@@ -677,7 +677,7 @@ export const FR_B1_U02_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Transform « Nous voyageons léger ».",
+        question: "\"Nous voyageons léger.\" How do you say: We need to travel light?",
         options: [
           "Il faut que nous voyagions léger.",
           "Il faut que nous voyageons léger.",
@@ -900,7 +900,7 @@ export const FR_B1_U02_EXTRA: Lesson[] = [
       {
         heading: "Recap: making a list of demands",
         body: [
-          "Children in France write \"une lettre au Père Noël\". Here a cheeky eight-year-old, Lucas, writes a list of what Père Noël has to do. Use \"il faut que vous\" (children often use \"vous\" with Père Noël, though \"tu\" is common too) or \"il faut que tu\", and \"il faut qu'il\" for the reindeer and elves.",
+          "Children in France write \"une lettre au Père Noël\". Here a cheeky eight-year-old, Lucas, writes a list of what Père Noël has to do. Use \"il faut que vous\" (most children use \"tu\" with Père Noël, though some write \"vous\") or \"il faut que tu\", and \"il faut qu'il\" for the reindeer and elves.",
         ],
         examples: [
           { es: "Cher Père Noël, il faut que tu lises toute ma lettre !", en: "Dear Father Christmas, you have to read my whole letter!" },
@@ -1078,7 +1078,7 @@ export const FR_B1_U02_EXTRA: Lesson[] = [
         examples: [
           { es: "Il faut que tu répondes.", en: "You have to answer." },
           { es: "Il faut qu'elle descende.", en: "She has to come down." },
-          { es: "Il faut que nous maigrissions un peu.", en: "We need to lose a bit of weight!" },
+          { es: "Il faut que nous maigrissions un peu.", en: "We need to lose a bit of weight." },
           { es: "Il faut que vous choisissiez.", en: "You have to choose." },
           { es: "Il faut qu'ils rendent les livres.", en: "They have to give back the books." },
         ],
@@ -1246,8 +1246,8 @@ export const FR_B1_U02_EXTRA: Lesson[] = [
       {
         heading: "Recap: a note with invented forms",
         body: [
-          "Thomas left this note for his flatmate: « Il faut que tu finis la vaisselle, que tu sors les poubelles et que tu lire le courrier. Il faut que nous parlons du loyer et que vous attendez le plombier. » Every verb after \"il faut que\" is wrong.",
-          "Corrected: « Il faut que tu finisses la vaisselle, que tu sortes les poubelles et que tu lises le courrier. Il faut que nous parlions du loyer et que vous attendiez le plombier. » Note that \"que\" is repeated before each verb.",
+          "Thomas left this note for his flatmate: \"Il faut que tu finis la vaisselle, que tu sors les poubelles et que tu lire le courrier. Il faut que nous parlons du loyer et que vous attendez le plombier.\" Every verb after \"il faut que\" is wrong.",
+          "Corrected: \"Il faut que tu finisses la vaisselle, que tu sortes les poubelles et que tu lises le courrier. Il faut que nous parlions du loyer et que vous attendiez le plombier.\" Note that \"que\" is repeated before each verb.",
         ],
         examples: [
           { es: "Il faut que tu finisses la vaisselle.", en: "You need to finish the washing-up." },
@@ -1378,12 +1378,12 @@ export const FR_B1_U02_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which correction is right for « il faut que vous sortez » ?",
+        question: "A learner wrote \"il faut que vous sortez\". Which correction is right?",
         options: [
           "il faut que vous sortissiez",
           "il faut que vous sortiez",
           "il faut que vous sortir",
-          "il faut que vous sortez bien",
+          "il faut que vous sortes",
         ],
         correctIndex: 1,
         explanation: "Vous subjunctive: nous stem \"sort-\" + \"-iez\".",
@@ -2143,7 +2143,7 @@ export const FR_B1_U02_EXTRA: Lesson[] = [
       {
         heading: "Recap: three short texts",
         body: [
-          "A text from Camille: « Il faut que tu m'attendes, je suis en retard ! » A doctor: « Il faut que vous dormiez plus et que vous mangiez moins salé. » A teacher's note: « Il faut que Lucas finisse ses exercices et qu'il lise un chapitre par soir. » Notice how \"que\" is repeated before each subjunctive.",
+          "A text from Camille: \"Il faut que tu m'attendes, je suis en retard !\" A doctor: \"Il faut que vous dormiez plus et que vous mangiez moins salé.\" A teacher's note: \"Il faut que Lucas finisse ses exercices et qu'il lise un chapitre par soir.\" Notice how \"que\" is repeated before each subjunctive.",
         ],
         examples: [
           { es: "Il faut que tu m'attendes, je suis en retard !", en: "You have to wait for me, I'm late!" },
@@ -2328,7 +2328,7 @@ export const FR_B1_U02_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "« Il faut que vous ___ (finir) avant midi. » Which form, and why?",
+            question: "\"Il faut que vous ___ (finir) avant midi.\" Which form, and why?",
             options: [
               "finissiez, from nous finissons + -iez",
               "finissez, from vous finissez",
@@ -2357,14 +2357,14 @@ export const FR_B1_U02_EXTRA: Lesson[] = [
     exercises: [
       {
         type: "multiple-choice",
-        question: "« Il faut qu'il ___ (écrire) à son oncle. » Which form, and why?",
+        question: "\"Il faut qu'il ___ (écrire) à son oncle.\" Which form, and why?",
         options: ["écrise, like lise", "écrit, from il écrit", "écrire, from the infinitive", "écrive, from ils écrivent"],
         correctIndex: 3,
         explanation: "The stem comes from \"ils écrivent\".",
       },
       {
         type: "multiple-choice",
-        question: "« Il faut que nous ___ (oublier) le passé. » Which form, and why?",
+        question: "\"Il faut que nous ___ (oublier) le passé.\" Which form, and why?",
         options: [
           "oublions, from nous oublions",
           "oubliyons, with y",

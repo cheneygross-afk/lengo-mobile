@@ -8,7 +8,7 @@ export const PT_C2_U15_EXTRA: Lesson[] = [
     level: "PT-C2",
     number: 1,
     title: "Extra Practice: Creative Writing, Part 1 of 3",
-    summary: "Practise writing dialogue: the travessão, verbos dicendi beyond disse, action beats and spoken forms in characters' mouths.",
+    summary: "Practice writing dialogue: the travessão, verbos dicendi beyond disse, action beats and spoken forms in characters' mouths.",
     duration: "15 min",
     optional: true,
     kind: "drill",
@@ -16,13 +16,13 @@ export const PT_C2_U15_EXTRA: Lesson[] = [
       {
         heading: "Dialogue in brief",
         body: [
-          "Each speech opens a paragraph with a travessão; a second dash brings in the attribution in lower case, and the speech's full stop disappears: \"— Não sei — disse ela.\" Question and exclamation marks stay. A third dash reopens the speech. An action beat can replace the dicendi verb.",
+          "Each speech opens a paragraph with a travessão; a second dash brings in the attribution in lower case, and the speech's period disappears: \"— Não sei — disse ela.\" Question and exclamation marks stay. A third dash reopens the speech. An action beat can replace the dicendi verb.",
           "Pick a precise verb (\"retrucou\", \"emendou\", \"resmungou\", \"desconversou\") instead of \"disse\" + adverb, and keep \"tá\", \"pra\", \"cê\", \"né\" for the characters, in moderation.",
         ],
         examples: [
           { es: "— Já vou — resmungou o Pedro, sem sair do sofá.", en: "'Coming,' Pedro grumbled, without getting off the sofa." },
           { es: "— Cê viu minha chave? — Tá em cima da geladeira.", en: "'Have you seen my key?' 'It's on top of the fridge.'" },
-          { es: "— Eu não vou pedir desculpa — retrucou ela. — Não fui eu.", en: "'I'm not going to apologise,' she retorted. 'It wasn't me.'" },
+          { es: "— Eu não vou pedir desculpa — retrucou ela. — Não fui eu.", en: "'I'm not going to apologize,' she retorted. 'It wasn't me.'" },
           { es: "— Pode sentar. — A dentista apontou a cadeira.", en: "'You can sit down.' The dentist pointed to the chair." },
           { es: "— E o casamento? — Sei lá — desconversou o tio.", en: "'And the wedding?' 'Who knows,' said her uncle, changing the subject." },
         ],
@@ -52,7 +52,7 @@ export const PT_C2_U15_EXTRA: Lesson[] = [
               "— Eu não vou pedir desculpa, — retrucou ela, — não fui eu.",
             ],
             correctIndex: 0,
-            explanation: "No full stop or comma before the second dash, a lower-case verb, and a third dash to reopen the speech.",
+            explanation: "No period or comma before the second dash, a lower-case verb, and a third dash to reopen the speech.",
           },
           {
             type: "listen-choose",
@@ -75,7 +75,7 @@ export const PT_C2_U15_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "'I'm not going to apologise,' she retorted. 'It wasn't me.'",
+        source: "'I'm not going to apologize,' she retorted. 'It wasn't me.'",
         answer: "— Eu não vou pedir desculpa — retrucou ela. — Não fui eu.",
         altAnswers: [
           "— Não vou pedir desculpa — retrucou ela. — Não fui eu.",
@@ -164,7 +164,7 @@ export const PT_C2_U15_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, as a teenager would say it.",
-        source: "'Relax, Mum, I'll be home by midnight.'",
+        source: "'Relax, Mom, I'll be home by midnight.'",
         answer: "— Relaxa, mãe, eu chego em casa até meia-noite.",
         altAnswers: [
           "— Relaxa, mãe, chego em casa até meia-noite.",
@@ -226,13 +226,13 @@ export const PT_C2_U15_EXTRA: Lesson[] = [
         audio: "Eu não vou pedir desculpa — retrucou ela.",
         question: "What does it mean?",
         options: [
-          "'I'm not going to apologise,' she retorted.",
+          "'I'm not going to apologize,' she retorted.",
           "'I won't ask for help,' she whispered.",
           "'I'm sorry I'm late,' she said.",
-          "'Don't apologise,' she answered.",
+          "'Don't apologize,' she answered.",
         ],
         correctIndex: 0,
-        explanation: "\"Pedir desculpa\" is to apologise; \"retrucar\" is to retort.",
+        explanation: "\"Pedir desculpa\" is to apologize; \"retrucar\" is to retort.",
       },
       {
         type: "dictation",
@@ -253,7 +253,7 @@ export const PT_C2_U15_EXTRA: Lesson[] = [
     level: "PT-C2",
     number: 2,
     title: "Extra Practice: Creative Writing, Part 2 of 3",
-    summary: "Practise holding a narrative perspective and writing a character's thoughts as free indirect speech.",
+    summary: "Practice holding a narrative perspective and writing a character's thoughts as free indirect speech.",
     duration: "15 min",
     optional: true,
     kind: "drill",
@@ -266,7 +266,7 @@ export const PT_C2_U15_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Pela cara dele, percebi que já sabia de tudo.", en: "From his face, I could tell he already knew everything." },
-          { es: "Ele parou na calçada e acendeu um cigarro.", en: "He stopped on the pavement and lit a cigarette." },
+          { es: "Ele parou na calçada e acendeu um cigarro.", en: "He stopped on the sidewalk and lit a cigarette." },
           { es: "Ana não sabia que o marido estava no mesmo prédio.", en: "Ana didn't know her husband was in the same building." },
           { es: "Amanhã ia pedir demissão. Ia, sim!", en: "Tomorrow she was going to quit. She was, too!" },
           { es: "Quem ele pensava que era? Logo ele, que nunca tinha feito nada!", en: "Who did he think he was? Him of all people, who had never done a thing!" },
@@ -309,10 +309,10 @@ export const PT_C2_U15_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, as an observer narrator.",
-        source: "He stopped on the pavement and lit a cigarette.",
+        source: "He stopped on the sidewalk and lit a cigarette.",
         answer: "Ele parou na calçada e acendeu um cigarro.",
         altAnswers: ["Parou na calçada e acendeu um cigarro."],
-        explanation: "Two visible actions in the perfeito. The pavement is \"calçada\" in Brazil.",
+        explanation: "Two visible actions in the perfeito. The sidewalk is \"calçada\" in Brazil.",
       },
       {
         type: "translate",
@@ -351,7 +351,7 @@ export const PT_C2_U15_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, as a witness narrator.",
-        source: "I only saw my neighbour cry once, the day her son left for São Paulo.",
+        source: "I only saw my neighbor cry once, the day her son left for São Paulo.",
         answer: "Só vi minha vizinha chorar uma vez, no dia em que o filho dela foi para São Paulo.",
         altAnswers: [
           "Só vi a minha vizinha chorar uma vez, no dia em que o filho dela foi para São Paulo.",
@@ -402,7 +402,7 @@ export const PT_C2_U15_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "That day, [two hundred kilometres away], his father was waiting by the phone.",
+        en: "That day, [two hundred kilometers away], his father was waiting by the phone.",
         sentence: "Naquele dia, ___, o pai esperava ao lado do telefone.",
         answer: "a duzentos quilômetros dali",
         altAnswers: ["a duzentos quilômetros de lá", "a duzentos quilômetros de distância"],
@@ -450,7 +450,7 @@ export const PT_C2_U15_EXTRA: Lesson[] = [
         options: [
           "Tomorrow she was going to quit. She was, too!",
           "Yesterday she asked for a promotion.",
-          "Tomorrow she will ask for a pay rise.",
+          "Tomorrow she will ask for a raise.",
           "She quit the day before, and she was glad.",
         ],
         correctIndex: 0,
@@ -475,7 +475,7 @@ export const PT_C2_U15_EXTRA: Lesson[] = [
     level: "PT-C2",
     number: 3,
     title: "Extra Practice: Creative Writing, Part 3 of 3",
-    summary: "Practise rhythm, tense choice in fiction and showing instead of telling.",
+    summary: "Practice rhythm, tense choice in fiction and showing instead of telling.",
     duration: "15 min",
     optional: true,
     kind: "drill",
@@ -692,7 +692,7 @@ export const PT_C2_U15_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Três dias sem chuva. Depois, a tempestade.",
-        explanation: "\"Tempestade\" ends in -dade with the soft d before e: tem-pes-TA-dji.",
+        explanation: "In \"tempestade\" the final unstressed e sounds like i, so the d before it becomes \"dj\": tem-pes-TA-dji.",
       },
       {
         type: "speak",

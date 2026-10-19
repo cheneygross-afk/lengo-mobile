@@ -15,7 +15,7 @@ export const PT_C1_U05: Lesson[] = [
       {
         heading: "A request in the third person",
         body: [
-          "A \"requerimento\" is the formal request you file with a university, a \"prefeitura\" (city hall) or a public agency to ask for something it has the power to grant: a transcript, a make-up exam, a refund, a licence. Its shape is fixed, and the official expects it: who it's addressed to, who is asking, what is asked and why, and a closing formula.",
+          "A \"requerimento\" is the formal request you file with a university, a \"prefeitura\" (city hall) or a public agency to ask for something it has the power to grant: a transcript, a make-up exam, a refund, a license. Its shape is fixed, and the official expects it: who it's addressed to, who is asking, what is asked and why, and a closing formula.",
           "The surprise for English speakers is that the applicant, \"o requerente\" or \"a requerente\", refers to themselves in the third person. The classic text says \"Mariana Costa (...) vem requerer\", not \"eu venho requerer\", and keeps the third person to the end. Pre-printed forms sometimes start \"Eu, ...,\", but never mix the two: \"Mariana Costa venho\" is wrong.",
           "The opening, the \"qualificação\", lists name, nationality, marital status, occupation, documents and address, separated by commas: \"portadora do RG nº...\", \"inscrita no CPF sob o nº...\", \"residente e domiciliada na Rua...\". Each adjective agrees with the applicant: \"portador\" for a man, \"portadora\" for a woman.",
         ],
@@ -46,7 +46,7 @@ export const PT_C1_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Ana Souza, [holder] of ID card no. 12.345.678-9, requests the cancellation of her enrolment.",
+            en: "Ana Souza, [holder] of ID card no. 12.345.678-9, requests the cancellation of her enrollment.",
             sentence: "Ana Souza, ___ do RG nº 12.345.678-9, vem requerer o cancelamento de sua matrícula.",
             answer: "portadora",
             explanation: "\"Portador do RG\" is the fixed formula for the holder of an ID card, and it agrees with the applicant: Ana is a woman, so \"portadora\".",
@@ -73,9 +73,9 @@ export const PT_C1_U05: Lesson[] = [
           "The closing never varies: \"Nestes termos, pede deferimento.\", then place, date and signature. \"Deferir\" means to grant, and the answer comes back \"deferido\" or \"indeferido\". Don't confuse it with \"diferir\" (to differ). \"Requerer\" is not simply \"re-\" + \"querer\": the present is \"eu requeiro\" and \"que ele requeira\", but the past is regular, \"requereu\", never \"requis\".",
         ],
         examples: [
-          { es: "Senhor Coordenador do Curso de Engenharia Civil,", en: "To the Coordinator of the Civil Engineering Programme," },
-          { es: "A requerente vem, respeitosamente, requerer a V. Sa. a realização de prova substitutiva.", en: "The applicant respectfully requests that you allow her to sit a make-up exam." },
-          { es: "O pedido se justifica tendo em vista que o requerente esteve internado no dia da prova.", en: "The request is justified because the applicant was in hospital on the day of the exam." },
+          { es: "Senhor Coordenador do Curso de Engenharia Civil,", en: "To the Coordinator of the Civil Engineering Program," },
+          { es: "A requerente vem, respeitosamente, requerer a V. Sa. a realização de prova substitutiva.", en: "The applicant respectfully requests that you allow her to take a make-up exam." },
+          { es: "O pedido se justifica tendo em vista que o requerente esteve internado no dia da prova.", en: "The request is justified because the applicant was in the hospital on the day of the exam." },
           { es: "O atraso ocorreu em razão de uma greve dos ônibus, conforme declaração anexa.", en: "The delay was due to a bus strike, as shown in the attached statement." },
           { es: "Nestes termos, pede deferimento.", en: "On these terms, the applicant requests approval." },
           { es: "O pedido foi indeferido por falta de documentos.", en: "The request was denied for lack of documents." },
@@ -176,14 +176,14 @@ export const PT_C1_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The applicant (a woman) was in hospital on the day of the exam, as shown in the attached medical certificate.",
+        source: "The applicant (a woman) was in the hospital on the day of the exam, as shown in the attached medical certificate.",
         answer: "A requerente esteve internada no dia da prova, conforme atestado médico anexo.",
         altAnswers: [
           "A requerente esteve internada no dia da prova, conforme atestado médico em anexo.",
           "A requerente ficou internada no dia da prova, conforme atestado médico anexo.",
           "A requerente ficou internada no dia da prova, conforme atestado médico em anexo.",
         ],
-        explanation: "To be in hospital is \"estar internado\", here \"internada\" for a woman. \"Conforme atestado médico anexo\" points to the proof, as the reason should.",
+        explanation: "To be hospitalized is \"estar internado\", here \"internada\" for a woman. \"Conforme atestado médico anexo\" points to the proof, as the reason should.",
       },
       {
         type: "word-order",
@@ -277,7 +277,7 @@ export const PT_C1_U05: Lesson[] = [
         ],
         examples: [
           { es: "Assunto: Solicitação de segunda via do diploma – matrícula 2019-0345", en: "Subject: Request for a duplicate diploma – student number 2019-0345" },
-          { es: "Prezada Sra. Albuquerque,", en: "Dear Ms Albuquerque," },
+          { es: "Prezada Sra. Albuquerque,", en: "Dear Ms. Albuquerque," },
           { es: "Prezados, bom dia.", en: "Dear all, good morning." },
           { es: "Escrevo para solicitar a revisão da minha nota final.", en: "I'm writing to request a review of my final grade." },
           { es: "Venho, por meio deste e-mail, solicitar o cancelamento do contrato.", en: "I'm writing to request the cancellation of the contract." },
@@ -320,7 +320,7 @@ export const PT_C1_U05: Lesson[] = [
           { es: "Solicito, por gentileza, o envio do boleto atualizado.", en: "Could you kindly send me the updated payment slip?" },
           { es: "Poderia me informar o prazo para a emissão do certificado?", en: "Could you tell me how long it will take to issue the certificate?" },
           { es: "Agradeceria se o senhor pudesse confirmar a data da reunião.", en: "I'd be grateful if you could confirm the date of the meeting." },
-          { es: "Preciso da declaração até sexta-feira, dia 14, para a matrícula.", en: "I need the letter by Friday the 14th for my enrolment." },
+          { es: "Preciso da declaração até sexta-feira, dia 14, para a matrícula.", en: "I need the letter by Friday the 14th for my enrollment." },
         ],
         checkpoint: [
           {
@@ -593,7 +593,7 @@ export const PT_C1_U05: Lesson[] = [
         ],
         examples: [
           { es: "O presente contrato é celebrado entre as partes abaixo qualificadas.", en: "This contract is entered into by the parties identified below." },
-          { es: "Maria Souza, doravante denominada LOCADORA, aluga o imóvel a Pedro Lima, doravante denominado LOCATÁRIO.", en: "Maria Souza, hereinafter the Landlord, lets the property to Pedro Lima, hereinafter the Tenant." },
+          { es: "Maria Souza, doravante denominada LOCADORA, aluga o imóvel a Pedro Lima, doravante denominado LOCATÁRIO.", en: "Maria Souza, hereinafter the Landlord, leases the property to Pedro Lima, hereinafter the Tenant." },
           { es: "O objeto deste contrato é o apartamento 52 do edifício situado na Rua Augusta, 1200, em São Paulo.", en: "The subject of this contract is apartment 52 in the building at Rua Augusta 1200, São Paulo." },
           { es: "O LOCATÁRIO obriga-se a pagar o aluguel até o dia 5 de cada mês.", en: "The Tenant undertakes to pay the rent by the 5th of each month." },
           { es: "Fica vedada a sublocação do imóvel sem autorização por escrito do LOCADOR.", en: "Subletting the property without the Landlord's written consent is prohibited." },
@@ -618,7 +618,7 @@ export const PT_C1_U05: Lesson[] = [
           {
             type: "multiple-choice",
             question: "In a rental contract, which party is the \"LOCATÁRIO\"?",
-            options: ["The tenant", "The landlord", "The guarantor", "The estate agent"],
+            options: ["The tenant", "The landlord", "The guarantor", "The real estate agent"],
             correctIndex: 0,
             explanation: "The \"locatário\" rents the property and pays. The \"locador\" owns it and the \"fiador\" guarantees the tenant's debts.",
           },
@@ -637,11 +637,11 @@ export const PT_C1_U05: Lesson[] = [
         heading: "Vigência, vencimento e reajuste",
         body: [
           "\"Vigência\" is the period during which the contract is in force, and \"vigorar\" is the verb: \"o contrato vigorará por 30 meses, a contar de 1º de março\". Don't use \"validade\" here, which belongs to documents and food. \"Vencimento\" is the due date, from \"vencer\" (to fall due): \"o aluguel vence no dia 10\".",
-          "The rent is adjusted once a year by an index, usually the \"IGP-M\" or the \"IPCA\". In some years the IGP-M has run far above inflation, so note which index your contract uses. Then find the \"encargos\": \"IPTU\" (property tax), condomínio fees and utility bills. By law the tenant pays the ordinary condomínio costs and the owner pays the extraordinary ones, such as structural works.",
+          "The rent is adjusted once a year by an index, usually the \"IGP-M\" or the \"IPCA\". In some years the IGP-M has run far above inflation, so note which index your contract uses. Then find the \"encargos\": \"IPTU\" (property tax), condomínio fees and utility bills. By law the tenant pays the ordinary condomínio costs and the owner pays the extraordinary ones, such as structural repairs.",
           "Length matters too. If the contract runs for 30 months or more, the owner can take the property back at the end without giving a reason.",
         ],
         examples: [
-          { es: "O contrato vigorará por 30 meses, a contar de 1º de março de 2025.", en: "The contract will be in force for 30 months, starting from 1 March 2025." },
+          { es: "O contrato vigorará por 30 meses, a contar de 1º de março de 2025.", en: "The contract will be in force for 30 months, starting from March 1, 2025." },
           { es: "O aluguel vence no dia 10 de cada mês.", en: "The rent falls due on the 10th of each month." },
           { es: "O valor do aluguel será reajustado anualmente pelo IPCA.", en: "The rent will be adjusted annually by the IPCA." },
           { es: "Correrão por conta do LOCATÁRIO o IPTU e as despesas ordinárias de condomínio.", en: "Property tax and ordinary condominium expenses will be borne by the Tenant." },
@@ -664,7 +664,7 @@ export const PT_C1_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The contract will be in force for 12 months, [starting from] 1 March.",
+            en: "The contract will be in force for 12 months, [starting from] March 1.",
             sentence: "O contrato vigorará por 12 meses, ___ 1º de março.",
             answer: "a contar de",
             altAnswers: ["a partir de"],
@@ -772,7 +772,7 @@ export const PT_C1_U05: Lesson[] = [
         sentence: "___ pagará as despesas extraordinárias de condomínio.",
         answer: "O LOCADOR",
         altAnswers: ["O locador", "A locadora", "O proprietário"],
-        explanation: "The owner (\"locador\") bears the extraordinary costs, such as structural works. The tenant (\"locatário\") pays the ordinary ones.",
+        explanation: "The owner (\"locador\") bears the extraordinary costs, such as structural repairs. The tenant (\"locatário\") pays the ordinary ones.",
       },
       {
         type: "translate",
@@ -801,7 +801,7 @@ export const PT_C1_U05: Lesson[] = [
           "The penalty must be proportional to the time left on the contract.",
           "Penalties are not allowed in rental contracts.",
           "Only the landlord can request early termination.",
-          "The penalty must be paid in monthly instalments.",
+          "The penalty must be paid in monthly installments.",
         ],
         correctIndex: 0,
         explanation: "The Lei do Inquilinato requires the \"multa\" for early departure to be proportional to the period still to run. \"Independentemente do tempo decorrido\" (regardless of time elapsed) contradicts this.",
@@ -877,7 +877,7 @@ export const PT_C1_U05: Lesson[] = [
           { es: "Nos termos do § 1º do art. 18, o consumidor pode exigir a troca do produto.", en: "Under paragraph 1 of article 18, the consumer can demand a replacement." },
           { es: "A alínea b do inciso II foi revogada.", en: "Point b of item II was repealed." },
           { es: "Leia o art. 26 antes de reclamar: o prazo é de noventa dias para produtos duráveis.", en: "Read article 26 before you complain: the deadline is ninety days for durable goods." },
-          { es: "Conforme o disposto no art. 49, a compra pode ser cancelada em sete dias.", en: "As provided in article 49, the purchase can be cancelled within seven days." },
+          { es: "Conforme o disposto no art. 49, a compra pode ser cancelada em sete dias.", en: "As provided in article 49, the purchase can be canceled within seven days." },
         ],
         checkpoint: [
           {
@@ -911,14 +911,14 @@ export const PT_C1_U05: Lesson[] = [
       {
         heading: "The Código de Defesa do Consumidor",
         body: [
-          "The \"Código de Defesa do Consumidor\" (\"Lei nº 8.078\", from 1990, known as the \"CDC\") is the law Brazilians quote most in daily life: to a bank's call centre, at a shop counter, in a complaint to Procon. Its two key players are the \"consumidor\" and the \"fornecedor\". The \"fornecedor\" is any supplier, from a factory to the padaria on the corner.",
-          "Three articles are worth knowing by number. Article 49 gives a seven-day \"direito de arrependimento\" for purchases made outside a shop, online included. Article 39 bans abusive practices such as \"venda casada\" (tying one purchase to another), and its \"parágrafo único\" treats unrequested products as free samples. Article 42 forbids humiliating debtors and grants a double refund to anyone who paid an improper charge.",
+          "The \"Código de Defesa do Consumidor\" (\"Lei nº 8.078\", from 1990, known as the \"CDC\") is the law Brazilians quote most in daily life: to a bank's call center, at a store counter, in a complaint to Procon. Its two key players are the \"consumidor\" and the \"fornecedor\". The \"fornecedor\" is any supplier, from a factory to the padaria on the corner.",
+          "Three articles are worth knowing by number. Article 49 gives a seven-day \"direito de arrependimento\" for purchases made outside a store, online included. Article 39 bans abusive practices such as \"venda casada\" (tying one purchase to another), and its \"parágrafo único\" treats unrequested products as free samples. Article 42 forbids humiliating debtors and grants a double refund to anyone who paid an improper charge.",
           "Mind two false friends. \"Vício\" is a defect, not a vice. \"Repetição do indébito\" is the refund of an undue payment, and nothing is repeated.",
         ],
         examples: [
           { es: "O CDC protege o consumidor nas compras pela internet.", en: "The CDC protects consumers when they shop online." },
           { es: "Comprei pela internet e quero exercer o direito de arrependimento.", en: "I bought it online and I want to exercise my right to withdraw." },
-          { es: "A loja não pode condicionar a venda do celular à compra de um seguro.", en: "The shop can't make selling the phone conditional on buying insurance." },
+          { es: "A loja não pode condicionar a venda do celular à compra de um seguro.", en: "The store can't make selling the phone conditional on buying insurance." },
           { es: "O produto apresentou vício e o fornecedor tem trinta dias para saná-lo.", en: "The product turned out to be defective, and the supplier has thirty days to fix it." },
           { es: "Paguei uma taxa indevida e tenho direito à devolução em dobro.", en: "I paid an improper fee and I'm entitled to a double refund." },
           { es: "Vou registrar uma reclamação no Procon.", en: "I'm going to file a complaint with Procon." },
@@ -1068,7 +1068,7 @@ export const PT_C1_U05: Lesson[] = [
         type: "listen-choose",
         audio: "É facultado ao consumidor desistir da compra.",
         question: "What does it mean?",
-        options: ["The consumer may choose to cancel the purchase.", "The consumer is prohibited from cancelling the purchase.", "The consumer is required to cancel the purchase.", "The consumer was refunded for the purchase."],
+        options: ["The consumer may choose to cancel the purchase.", "The consumer is prohibited from canceling the purchase.", "The consumer is required to cancel the purchase.", "The consumer was refunded for the purchase."],
         correctIndex: 0,
         explanation: "\"É facultado\" grants an option, not a duty. A prohibition would be \"é vedado\", and a duty would be \"é obrigatório\".",
       },
@@ -1081,7 +1081,7 @@ export const PT_C1_U05: Lesson[] = [
         type: "speak",
         text: "Nos termos do artigo quarenta e nove do Código de Defesa do Consumidor.",
         prompt: "Say it in Portuguese: Under article 49 of the Consumer Protection Code.",
-        tip: "Stress CÓ-di-go on the first syllable, and read 49 as the cardinal quarenta e nove.",
+        tip: "Stress CÓ-dji-gu on the first syllable, with the d before i sounding like dj, and read 49 as the cardinal quarenta e nove.",
         explanation: "\"Nos termos do\" + the article is how a lawyer, or a well-informed customer, invokes a rule.",
       },
       {
@@ -1111,7 +1111,7 @@ export const PT_C1_U05: Lesson[] = [
         heading: "Excelência, Senhoria, Magnificência: who gets what",
         body: [
           "Official Portuguese addresses people through a title tied to their office, the pronomes de tratamento. \"Vossa Excelência\" (V. Exa.) goes to the top of the three powers: the President, ministers, governors, mayors, members of Congress, judges, ambassadors and generals. \"Vossa Senhoria\" (V. Sa.) covers everyone else you write to formally, such as a company director, a head of department or the official who receives your requerimento. In the body of a letter the titles are usually abbreviated, as in the examples below.",
-          "\"Vossa Magnificência\" (V. Mag.ª) belongs to university rectors, opened with \"Magnífico Reitor\". Recognise the religious and royal titles without needing to use them: \"Vossa Santidade\" (the Pope), \"Vossa Eminência\" (a cardinal), \"Vossa Majestade\" (a monarch).",
+          "\"Vossa Magnificência\" (V. Mag.ª) belongs to university rectors, opened with \"Magnífico Reitor\". Recognize the religious and royal titles without needing to use them: \"Vossa Santidade\" (the Pope), \"Vossa Eminência\" (a cardinal), \"Vossa Majestade\" (a monarch).",
           "The vocative that opens a text is not the pronoun inside it. The federal style manual uses \"Senhor Ministro,\" or \"Senhora Juíza,\" and keeps \"Excelentíssimo Senhor\" for heads of a power. In court, lawyers say \"Excelência\" or \"Meritíssimo\" aloud. A 2019 decree told the federal executive to use plain \"senhor\" with its own officials, but courts, legislatures and most institutions still expect the traditional forms.",
         ],
         examples: [
@@ -1119,7 +1119,7 @@ export const PT_C1_U05: Lesson[] = [
           { es: "Senhor Governador, V. Exa. conhece bem o problema.", en: "Governor, you know the problem well." },
           { es: "Solicito a V. Sa. a revisão da multa aplicada.", en: "I request that you review the fine imposed." },
           { es: "Magnífico Reitor, agradecemos a V. Mag.ª o convite para a cerimônia.", en: "Rector, we thank you for the invitation to the ceremony." },
-          { es: "Excelência, a defesa pede a palavra.", en: "Your Honour, the defence asks to speak." },
+          { es: "Excelência, a defesa pede a palavra.", en: "Your Honor, the defense asks to speak." },
           { es: "Informamos a V. Sa. que o prazo termina no dia 30.", en: "We inform you that the deadline ends on the 30th." },
         ],
         checkpoint: [
@@ -1183,7 +1183,7 @@ export const PT_C1_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "(To a mayor) We have received [your] letter of 3 March.",
+            en: "(To a mayor) We have received [your] letter of March 3.",
             sentence: "Recebemos a ___ carta de 3 de março.",
             answer: "sua",
             explanation: "The possessive for any pronome de tratamento is \"seu\" / \"sua\". \"Vossa carta\" is the second-person plural, which these titles never take.",
@@ -1206,14 +1206,14 @@ export const PT_C1_U05: Lesson[] = [
         heading: "Vossa or Sua: talking to or about",
         body: [
           "\"Vossa\" is for the person you address; when you mention them to someone else, the title becomes \"Sua\": \"Sua Excelência o Presidente chegará às dez\" (His Excellency the President). Writing \"Vossa Excelência\" about an absent minister is a slip even many Brazilians make.",
-          "Envelopes and address blocks also use \"Sua\": \"A Sua Excelência o Senhor\" plus name and post, with no crase because these titles take no article. For Vossa Senhoria, simply \"Ao Senhor\" or \"À Senhora\". For several people, pluralise and use a plural verb: \"V. Exas. decidirão\".",
+          "Envelopes and address blocks also use \"Sua\": \"A Sua Excelência o Senhor\" plus name and post, with no crase because these titles take no article. For Vossa Senhoria, simply \"Ao Senhor\" or \"À Senhora\". For several people, pluralize and use a plural verb: \"V. Exas. decidirão\".",
           "Closings follow rank: \"Respeitosamente\" to higher authorities, \"Atenciosamente\" to equals and below. Never slide into \"você\" mid-text; after the first mention, the third-person verb carries the title.",
         ],
         examples: [
           { es: "Sua Excelência o Ministro da Saúde visitará o hospital amanhã.", en: "His Excellency the Minister of Health will visit the hospital tomorrow." },
-          { es: "A Sua Excelência a Senhora Maria Souza, Governadora do Estado do Pará", en: "To Her Excellency Ms Maria Souza, Governor of the State of Pará" },
-          { es: "Ao Senhor Carlos Mendes, Diretor de Recursos Humanos", en: "To Mr Carlos Mendes, Director of Human Resources" },
-          { es: "V. Exas. decidirão o futuro do projeto.", en: "You, honourable members, will decide the future of the bill." },
+          { es: "A Sua Excelência a Senhora Maria Souza, Governadora do Estado do Pará", en: "To Her Excellency Ms. Maria Souza, Governor of the State of Pará" },
+          { es: "Ao Senhor Carlos Mendes, Diretor de Recursos Humanos", en: "To Mr. Carlos Mendes, Director of Human Resources" },
+          { es: "V. Exas. decidirão o futuro do projeto.", en: "You, honorable members, will decide the future of the bill." },
           { es: "Sua Santidade o Papa chegou ao Rio na segunda-feira.", en: "His Holiness the Pope arrived in Rio on Monday." },
         ],
         checkpoint: [
@@ -1301,7 +1301,7 @@ export const PT_C1_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "(To a male judge, in a petition) Your Honour was very clear.",
+        source: "(To a male judge, in a petition) Your Honor was very clear.",
         answer: "V. Exa. foi muito claro.",
         altAnswers: ["V. Exa. foi bastante claro."],
         explanation: "Judges receive \"Vossa Excelência\" (V. Exa.). The adjective agrees with the man, \"claro\", even though \"Excelência\" is feminine. \"Clara\" is the usual slip.",
@@ -1323,8 +1323,8 @@ export const PT_C1_U05: Lesson[] = [
       {
         type: "speak",
         text: "Excelência, a defesa pede a palavra.",
-        prompt: "Say it in Portuguese: Your Honour, the defence asks to speak.",
-        tip: "In \"Excelência\" the xc sounds like a single s and the ê is closed: e-se-LEN-sia.",
+        prompt: "Say it in Portuguese: Your Honor, the defense asks to speak.",
+        tip: "In \"Excelência\" the xc sounds like a single s and the stressed ê is closed and nasal: e-se-LẼN-sia.",
         explanation: "In court, \"Excelência\" alone is the spoken form of address to the judge.",
       },
       {
@@ -1359,8 +1359,8 @@ export const PT_C1_U05: Lesson[] = [
         examples: [
           { es: "Solicitamos que o pagamento seja efetuado até o dia 10.", en: "We request that payment be made by the 10th." },
           { es: "Pague até o dia 10.", en: "Pay by the 10th." },
-          { es: "A entrega dos documentos deverá ser realizada na recepção.", en: "Submission of the documents must be carried out at reception." },
-          { es: "Entregue os documentos na recepção.", en: "Hand in your documents at reception." },
+          { es: "A entrega dos documentos deverá ser realizada na recepção.", en: "Submission of the documents must be carried out at the front desk." },
+          { es: "Entregue os documentos na recepção.", en: "Hand in your documents at the front desk." },
           { es: "A Secretaria procederá à análise do pedido no prazo de 30 dias.", en: "The Department will proceed with the analysis of the request within 30 days." },
           { es: "Vamos analisar o seu pedido em até 30 dias.", en: "We'll look at your request within 30 days." },
         ],
@@ -1401,8 +1401,8 @@ export const PT_C1_U05: Lesson[] = [
         examples: [
           { es: "Fica vedada a entrada de animais nas dependências do condomínio.", en: "The entry of animals onto the premises of the building is prohibited." },
           { es: "Não é permitido entrar com animais no prédio.", en: "You can't bring animals into the building." },
-          { es: "É facultado ao contribuinte o parcelamento do débito.", en: "The taxpayer is entitled to pay the debt in instalments." },
-          { es: "Você pode pagar a sua dívida em parcelas.", en: "You can pay what you owe in instalments." },
+          { es: "É facultado ao contribuinte o parcelamento do débito.", en: "The taxpayer is entitled to pay the debt in installments." },
+          { es: "Você pode pagar a sua dívida em parcelas.", en: "You can pay what you owe in installments." },
           { es: "Solicita-se aos usuários que mantenham silêncio.", en: "Users are requested to maintain silence." },
           { es: "Por favor, fale baixo.", en: "Please keep your voice down." },
         ],
@@ -1420,7 +1420,7 @@ export const PT_C1_U05: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "You can pay in instalments. (plain, to a customer you address as você)",
+            source: "You can pay in installments. (plain, to a customer you address as você)",
             answer: "Você pode pagar em parcelas.",
             altAnswers: ["Pode pagar em parcelas.", "Você pode parcelar o pagamento.", "Você pode pagar parcelado.", "Você pode parcelar."],
             explanation: "\"Você pode\" is the plain version of \"é facultado ao contribuinte\": it names the reader and says outright what they're allowed to do.",
@@ -1437,12 +1437,12 @@ export const PT_C1_U05: Lesson[] = [
         heading: "Formulas and connectors: keep or cut?",
         body: [
           "Official prose leans on long connectors and Latinate words, and each one has a short everyday partner: \"em virtude de\" (\"por causa de\"), \"a fim de\" (\"para\"), \"tendo em vista\" (\"como\"), \"supracitado\" (\"esse\"), \"outrossim\" (\"também\"). \"Mediante apresentação de\" usually turns into an instruction (\"traga\"), and a mesóclise like \"dar-se-á\" has no place in a plain text.",
-          "Don't cut blindly. In a \"requerimento\", an \"ofício\" or a contract the formulas from this unit are expected, and replacing \"nos termos do art. 5º\" with something vaguer loses legal precision. Plain language is for texts the public has to act on: notices, bills, letters about benefits and government websites. Many Brazilian city halls and agencies now run \"linguagem simples\" programmes.",
+          "Don't cut blindly. In a \"requerimento\", an \"ofício\" or a contract the formulas from this unit are expected, and replacing \"nos termos do art. 5º\" with something vaguer loses legal precision. Plain language is for texts the public has to act on: notices, bills, letters about benefits and government websites. Many Brazilian city halls and agencies now run \"linguagem simples\" programs.",
           "Plain also means shape. Put the key information first, write one idea per sentence, and give dates, times and places in full.",
         ],
         examples: [
-          { es: "Em virtude de obras, o atendimento encontra-se suspenso.", en: "Owing to building work, service is suspended." },
-          { es: "Por causa de uma obra, o posto de saúde está fechado.", en: "The health clinic is closed because of building work." },
+          { es: "Em virtude de obras, o atendimento encontra-se suspenso.", en: "Due to construction work, service is suspended." },
+          { es: "Por causa de uma obra, o posto de saúde está fechado.", en: "The health clinic is closed because of construction work." },
           { es: "A retirada do documento dar-se-á mediante apresentação do protocolo.", en: "Collection of the document shall take place upon presentation of the receipt." },
           { es: "Para retirar o documento, traga o protocolo.", en: "To collect your document, bring your receipt." },
           { es: "Outrossim, informamos que o horário de atendimento foi alterado.", en: "Furthermore, please be advised that our opening hours have been changed." },
@@ -1486,7 +1486,7 @@ export const PT_C1_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Owing to building work, service is suspended. (official notice)",
+        source: "Due to construction work, service is suspended. (official notice)",
         answer: "Em virtude de obras, o atendimento está suspenso.",
         altAnswers: ["Em virtude das obras, o atendimento está suspenso.", "Em virtude de obras, o atendimento encontra-se suspenso.", "Em virtude das obras, o atendimento encontra-se suspenso.", "Devido a obras, o atendimento está suspenso.", "Devido às obras, o atendimento está suspenso."],
         explanation: "\"Em virtude de\" is the official connector for cause, and \"atendimento\" is the standard word for a public service. \"Encontra-se suspenso\" is even more formal.",
@@ -1495,7 +1495,7 @@ export const PT_C1_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Hand in the form at reception. (plain notice, to você)",
+        source: "Hand in the form at the front desk. (plain notice, to você)",
         answer: "Entregue o formulário na recepção.",
         altAnswers: ["Você deve entregar o formulário na recepção.", "Entregue a ficha na recepção."],
         explanation: "The plain version uses \"entregue\", not \"a entrega do formulário deverá ser realizada\". Name the action and the place, and nothing more.",
@@ -1519,13 +1519,13 @@ export const PT_C1_U05: Lesson[] = [
           "Proceder-se-á à interdição da Rua das Flores no sábado.",
         ],
         correctIndex: 0,
-        explanation: "The plain notice names the agent (\"a Prefeitura\"), uses a real verb (\"fechar\") and gives the time in full. The others rely on nominalisation, \"fica\" + participle, \"supracitada\" or mesóclise.",
+        explanation: "The plain notice names the agent (\"a Prefeitura\"), uses a real verb (\"fechar\") and gives the time in full. The others rely on nominalization, \"fica\" + participle, \"supracitada\" or mesóclise.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The Department (\"Secretaria\") will analyse the request within thirty days. (official, with \"proceder\")",
+        source: "The Department (\"Secretaria\") will analyze the request within thirty days. (official, with \"proceder\")",
         answer: "A Secretaria procederá à análise do pedido no prazo de trinta dias.",
         altAnswers: ["A Secretaria procederá à análise do pedido no prazo de 30 dias.", "A Secretaria procederá à análise do requerimento no prazo de trinta dias.", "A Secretaria procederá à análise do requerimento no prazo de 30 dias."],
         explanation: "\"Proceder a\" + noun, with crase before \"análise\", and the written future \"procederá\". The common slip is \"procederá a análise\", which drops the crase.",
@@ -1534,15 +1534,15 @@ export const PT_C1_U05: Lesson[] = [
         type: "listen-choose",
         audio: "É facultado ao contribuinte o parcelamento do débito.",
         question: "What does it mean?",
-        options: ["Taxpayers can pay the debt in instalments.", "Taxpayers must pay the debt in full.", "Taxpayers are forbidden to split the debt.", "The debt will be cancelled for taxpayers."],
+        options: ["Taxpayers can pay the debt in installments.", "Taxpayers must pay the debt in full.", "Taxpayers are forbidden to split the debt.", "The debt will be canceled for taxpayers."],
         correctIndex: 0,
         explanation: "\"É facultado\" means 'is permitted, is optional', so the plain version is \"você pode pagar em parcelas\". Don't confuse it with \"fica vedado\" (is prohibited).",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: You can pay the fine in three instalments.",
+        prompt: "Put the words in order to say: You can pay the fine in three installments.",
         words: ["Você", "pode", "pagar", "a", "multa", "em", "três", "parcelas."],
-        translation: "You can pay the fine in three instalments.",
+        translation: "You can pay the fine in three installments.",
         explanation: "Subject, modal and real verb: the plain pattern. The official version would be \"é facultado o parcelamento da multa em três vezes\".",
       },
       {
@@ -1554,7 +1554,7 @@ export const PT_C1_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Because of the rain, the market is cancelled. (plain notice about the street market)",
+        source: "Because of the rain, the market is canceled. (plain notice about the street market)",
         answer: "Por causa da chuva, a feira foi cancelada.",
         altAnswers: ["A feira foi cancelada por causa da chuva.", "Por causa da chuva, a feira está cancelada.", "A feira está cancelada por causa da chuva.", "Por causa da chuva, não vai ter feira.", "Por causa da chuva, não haverá feira."],
         explanation: "\"Por causa de\" is the everyday partner of \"em virtude de\", and it contracts with the article: \"da chuva\".",
@@ -1582,15 +1582,15 @@ export const PT_C1_U05: Lesson[] = [
     level: "PT-C1",
     number: 7,
     title: "Dialogue Lab: Reclamação Formal",
-    summary: "Follow a consumer from a frustrating call-centre call to a formal complaint letter that cites the Consumer Protection Code, and learn the phrases that get results.",
+    summary: "Follow a consumer from a frustrating call-center call to a formal complaint letter that cites the Consumer Protection Code, and learn the phrases that get results.",
     duration: "15 min",
     sections: [
       {
         heading: "Part 1: The call to the SAC",
         body: [
-          "Beatriz, in Curitiba, bought a washing machine online. It arrived leaking and went to the authorised repair service. Thirty-five days later it still hasn't come back. She calls the \"SAC\", the \"Serviço de Atendimento ao Consumidor\", and opens with the three facts an attendant needs: what she bought, when, and what went wrong. Polite but firm means \"gostaria de\" and \"poderia\", never a raised voice.",
+          "Beatriz, in Curitiba, bought a washing machine online. It arrived leaking and went to the authorized repair service. Thirty-five days later it still hasn't come back. She calls the \"SAC\", the \"Serviço de Atendimento ao Consumidor\", and opens with the three facts an attendant needs: what she bought, when, and what went wrong. Polite but firm means \"gostaria de\" and \"poderia\", never a raised voice.",
           "The word to hold on to is \"protocolo\". By law, every SAC call must generate a protocol number, and it is your proof that the conversation took place. Ask for it before anything else and quote it at every later step, from the next call to the formal letter.",
-          "Attendants call you \"a senhora\" or \"o senhor\" and follow a script. You will hear gerundismo (\"vou estar verificando\"). Recognise it, but answer in plain Portuguese: \"vou anotar\", not \"vou estar anotando\".",
+          "Attendants call you \"a senhora\" or \"o senhor\" and follow a script. You will hear gerundismo (\"vou estar verificando\"). Recognize it, but answer in plain Portuguese: \"vou anotar\", not \"vou estar anotando\".",
         ],
         examples: [
           { es: "Atendente: Central de atendimento, Juliana falando, bom dia. Em que posso ajudar?", en: "Customer service, Juliana speaking, good morning. How can I help?" },
@@ -1640,7 +1640,7 @@ export const PT_C1_U05: Lesson[] = [
           "Insistence has its own verbs. \"Solicitar\" is a formal request. \"Exigir\" is a demand backed by a right. \"Quero deixar registrado que...\" tells the attendant that every word is going on record. If the SAC stalls, the next step is the company's \"ouvidoria\", then Procon or the government platform \"consumidor.gov.br\".",
         ],
         examples: [
-          { es: "Atendente: Infelizmente, o reparo vai levar mais sete dias úteis.", en: "Unfortunately, the repair will take another seven working days." },
+          { es: "Atendente: Infelizmente, o reparo vai levar mais sete dias úteis.", en: "Unfortunately, the repair will take another seven business days." },
           { es: "Beatriz: O prazo legal de 30 dias já venceu.", en: "The legal 30-day deadline has already passed." },
           { es: "Beatriz: Pelo artigo 18 do Código de Defesa do Consumidor, a escolha da solução cabe a mim.", en: "Under Article 18 of the Consumer Protection Code, the choice of solution is mine." },
           { es: "Beatriz: Exijo a restituição integral do valor pago.", en: "I demand a full refund of the amount paid." },
@@ -1684,12 +1684,12 @@ export const PT_C1_U05: Lesson[] = [
       {
         heading: "Part 3: The formal letter",
         body: [
-          "Nothing changes, so Beatriz writes to the \"ouvidoria\". The unit's formulas return: \"Prezados Senhores\", \"venho, por meio desta\", \"sem mais para o momento\", \"atenciosamente\". \"Desta\" refers to the letter (\"carta\"); in an email, write \"por meio deste\".",
+          "Nothing changes, so Beatriz writes to the \"ouvidoria\". The unit's formulas return: \"Prezados Senhores\", \"venho, por meio desta\", \"sem mais para o momento\", \"atenciosamente\". \"Desta\" agrees with an implied \"carta\"; \"deste\" agrees with an implied \"documento\", \"ofício\" or \"e-mail\". Both are correct, so pick the one that matches what you are writing.",
           "A complaint that gets results makes four moves. It identifies the writer and the order, narrates the facts with dates, cites the law precisely, and states the solution wanted with a deadline. The citation has a fixed shape: \"nos termos do art. 18, § 1º, inciso II, da Lei nº 8.078/1990\". Read § as \"parágrafo\" and nº as \"número\".",
           "End by naming the next step, not by threatening. \"Caso a solicitação não seja atendida em dez dias, registrarei reclamação no Procon\" is firm because it is precise. The written future \"registrarei\" carries a weight that \"vou ver o que faço\" never will.",
         ],
         examples: [
-          { es: "Venho, por meio desta, formalizar a reclamação registrada sob o protocolo nº 2024558731.", en: "I am writing to formalise the complaint registered under protocol no. 2024558731." },
+          { es: "Venho, por meio desta, formalizar a reclamação registrada sob o protocolo nº 2024558731.", en: "I am writing to formalize the complaint registered under protocol no. 2024558731." },
           { es: "Em 3 de março, adquiri no site da empresa uma máquina de lavar, pedido nº 48213.", en: "On March 3rd, I purchased a washing machine from the company's website, order no. 48213." },
           { es: "O produto foi encaminhado à assistência técnica em 10 de março e, até a presente data, não foi reparado.", en: "The product was sent to the repair service on March 10th and, to date, has not been repaired." },
           { es: "Nos termos do art. 18, § 1º, inciso II, da Lei nº 8.078/1990, solicito a restituição imediata da quantia paga, monetariamente atualizada.", en: "Under Article 18, §1, item II of Law 8,078/1990, I request the immediate refund of the amount paid, adjusted for inflation." },
@@ -1880,7 +1880,7 @@ export const PT_C1_U05: Lesson[] = [
       {
         heading: "Formulas that come out muddled",
         body: [
-          "Official formulas are fixed, so a half-remembered version stands out. The opener is \"venho, por meio deste, solicitar\". Write \"desta\" if the document is a \"carta\", and \"vimos\" (the present of \"vir\") when a company writes. *\"Venho através deste\" is a common blend, because careful style keeps \"através de\" for passing through. *\"Desde já agradeço antecipadamente\" says in advance twice, so choose one.",
+          "Official formulas are fixed, so a half-remembered version stands out. The opener is \"venho, por meio deste, solicitar\", with \"deste\" agreeing with an implied \"documento\" or \"e-mail\". \"Desta\" (agreeing with \"carta\") is equally correct, and \"vimos\" (the present of \"vir\") when a company writes. *\"Venho através deste\" is a common blend, because careful style keeps \"através de\" for passing through. *\"Desde já agradeço antecipadamente\" says in advance twice, so choose one.",
           "Watch agreement in \"segue anexo\". \"Anexo\" is an adjective, so it agrees with what is attached, and the verb agrees too: \"segue anexa a cópia\", \"seguem anexos os comprovantes\". \"Em anexo\" never changes: \"seguem em anexo os comprovantes\". *\"Segue anexo as cópias\" breaks both agreements.",
           "Close once, with \"Atenciosamente\" or \"Cordialmente\", optionally after \"Sem mais para o momento\". Gerundismo is still out: *\"gostaria de estar solicitando\" is simply \"gostaria de solicitar\".",
         ],
@@ -1890,7 +1890,7 @@ export const PT_C1_U05: Lesson[] = [
           { es: "Seguem anexos os comprovantes de residência.", en: "Please find attached the proofs of address." },
           { es: "Segue em anexo a cópia do RG.", en: "Please find attached a copy of my ID card." },
           { es: "Desde já, agradeço a atenção.", en: "Thank you in advance for your attention." },
-          { es: "Gostaria de solicitar o cancelamento da matrícula.", en: "I would like to request the cancellation of my enrolment." },
+          { es: "Gostaria de solicitar o cancelamento da matrícula.", en: "I would like to request the cancellation of my enrollment." },
         ],
         checkpoint: [
           {
@@ -1914,7 +1914,7 @@ export const PT_C1_U05: Lesson[] = [
               "Venho solicitar uma cópia da ata.",
               "Solicito uma cópia da ata.",
             ],
-            explanation: "\"Gostaria de solicitar\" goes straight to the infinitive. *\"Gostaria de estar solicitando\" is gerundismo, a call-centre habit that sounds padded in writing.",
+            explanation: "\"Gostaria de solicitar\" goes straight to the infinitive. *\"Gostaria de estar solicitando\" is gerundismo, a call-center habit that sounds padded in writing.",
           },
           {
             type: "translate",
@@ -1942,7 +1942,7 @@ export const PT_C1_U05: Lesson[] = [
           { es: "Há um erro no valor do boleto referente a março.", en: "There is an error in the amount on the March payment slip." },
           { es: "Informaram-me que o prazo havia sido prorrogado.", en: "I was told that the deadline had been extended." },
           { es: "Aguardamos resposta até o dia 15.", en: "We await your reply by the 15th." },
-          { es: "O pedido foi protocolado em 3 de maio. Até hoje, não houve resposta.", en: "The request was filed on 3 May. To date, there has been no reply." },
+          { es: "O pedido foi protocolado em 3 de maio. Até hoje, não houve resposta.", en: "The request was filed on May 3. To date, there has been no reply." },
           { es: "Solicito, portanto, que o valor seja restituído no prazo de dez dias.", en: "I therefore request that the amount be refunded within ten days." },
         ],
         checkpoint: [
@@ -2109,7 +2109,7 @@ export const PT_C1_U05: Lesson[] = [
           { left: "Segue em anexo", right: "Please find attached" },
           { left: "Sem mais para o momento", right: "Nothing further at this time" },
           { left: "Desde já, agradeço", right: "Thank you in advance" },
-          { left: "Atenciosamente", right: "Yours sincerely" },
+          { left: "Atenciosamente", right: "Sincerely" },
         ],
         explanation: "Each formula has one fixed shape. Blending two of them, such as \"desde já\" with \"antecipadamente\", is the commonest muddle.",
       },
@@ -2126,15 +2126,15 @@ export const PT_C1_U05: Lesson[] = [
       {
         heading: "The facts: dates, numbers, protocols",
         body: [
-          "A formal complaint (\"reclamação formal\") persuades through precision, not anger. Open with the formula you know from the requerimento, \"venho, por meio desta, apresentar reclamação formal\". Here \"desta\" refers to the \"carta\". Then identify yourself and the order, and tell the facts in strict chronological order, in the perfeito. Give every step a date, an order number or a \"protocolo\" (the reference a call centre gives you).",
+          "A formal complaint (\"reclamação formal\") persuades through precision, not anger. Open with the formula you know from the requerimento, \"venho, por meio desta, apresentar reclamação formal\". Here \"desta\" refers to the \"carta\". Then identify yourself and the order, and tell the facts in strict chronological order, in the perfeito. Give every step a date, an order number or a \"protocolo\" (the reference a call center gives you).",
           "Reduced clauses keep the timeline tight: \"Ao receber o produto, constatei...\", \"Decorridos 30 dias...\". Choose neutral verbs such as \"adquirir\", \"constatar\" (to find, to verify) and \"entrar em contato com\". Cut \"absurdo\", \"vergonhoso\" and every exclamation mark. The person who decides your case at the company's \"ouvidoria\" (ombudsman) or at Procon reads indignation as weakness.",
           "False friend: \"reclamar\" means to complain, never to reclaim. A \"queixa\" suggests a personal grievance or a police report. The document you're writing is a \"reclamação\".",
         ],
         examples: [
-          { es: "Em 3 de março de 2025, adquiri um notebook no site da empresa (pedido nº 48213).", en: "On 3 March 2025 I bought a laptop on the company's website (order no. 48213)." },
+          { es: "Em 3 de março de 2025, adquiri um notebook no site da empresa (pedido nº 48213).", en: "On March 3, 2025, I bought a laptop on the company's website (order no. 48213)." },
           { es: "Ao ligar o aparelho, constatei que a tela não acendia.", en: "When I switched the device on, I found that the screen wouldn't light up." },
-          { es: "No dia 5 de março, entrei em contato com o SAC (protocolo nº 2025031187).", en: "On 5 March I contacted customer service (reference no. 2025031187)." },
-          { es: "Em 10 de março, o produto foi encaminhado à assistência técnica.", en: "On 10 March the product was sent to the authorised repair service." },
+          { es: "No dia 5 de março, entrei em contato com o SAC (protocolo nº 2025031187).", en: "On March 5 I contacted customer service (reference no. 2025031187)." },
+          { es: "Em 10 de março, o produto foi encaminhado à assistência técnica.", en: "On March 10 the product was sent to the authorized repair service." },
           { es: "Decorridos mais de 30 dias, o vício não foi sanado.", en: "More than 30 days have passed and the defect has not been fixed." },
         ],
         checkpoint: [
@@ -2158,7 +2158,7 @@ export const PT_C1_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "On 5 March I [contacted] customer service.",
+            en: "On March 5 I [contacted] customer service.",
             sentence: "No dia 5 de março, ___ o SAC.",
             answer: "entrei em contato com",
             altAnswers: ["contatei"],
@@ -2182,13 +2182,13 @@ export const PT_C1_U05: Lesson[] = [
         heading: "The legal basis: nos termos do art. 18",
         body: [
           "One exact citation outweighs a page of protest. Cite the article, then the law, with the formulas from the lesson on reading the law: \"nos termos do art. 18, § 1º, do Código de Defesa do Consumidor\", \"conforme dispõe o art. 49 do CDC\". Give the law's number once (Lei nº 8.078/1990) and use the abbreviation after that.",
-          "Three articles settle most cases. Article 18 covers a \"vício\", the code's term for a fault that makes a product unfit for use (it doesn't mean vice). If the vício isn't fixed within 30 days, you choose replacement, a refund or a price reduction. The shop can't send you to the manufacturer, because both are liable. Under Article 49, anything bought online or by phone can be returned within seven days of delivery, with no reason needed: this is the \"direito de arrependimento\". Under Article 42, if you paid a charge you didn't owe, you get back double the excess.",
+          "Three articles settle most cases. Article 18 covers a \"vício\", the code's term for a fault that makes a product unfit for use (it doesn't mean vice). If the vício isn't fixed within 30 days, you choose replacement, a refund or a price reduction. The store can't send you to the manufacturer, because both are liable. Under Article 49, anything bought online or by phone can be returned within seven days of delivery, with no reason needed: this is the \"direito de arrependimento\". Under Article 42, if you paid a charge you didn't owe, you get back double the excess.",
         ],
         examples: [
           { es: "Nos termos do art. 18, § 1º, do Código de Defesa do Consumidor, o vício deveria ter sido sanado em até 30 dias.", en: "Under Article 18 §1 of the Consumer Protection Code, the defect should have been fixed within 30 days." },
           { es: "Conforme dispõe o art. 49 do CDC, exerço meu direito de arrependimento.", en: "As Article 49 of the CDC provides, I am exercising my right to cancel." },
           { es: "A compra foi realizada pela internet, o que me assegura o direito de desistir em até sete dias.", en: "The purchase was made online, which gives me the right to cancel within seven days." },
-          { es: "A loja não pode me encaminhar ao fabricante: ambos respondem solidariamente.", en: "The shop can't refer me to the manufacturer: both are jointly liable." },
+          { es: "A loja não pode me encaminhar ao fabricante: ambos respondem solidariamente.", en: "The store can't refer me to the manufacturer: both are jointly liable." },
           { es: "O art. 42 garante a devolução em dobro do valor pago indevidamente.", en: "Article 42 guarantees a refund of double the amount wrongly paid." },
         ],
         checkpoint: [
@@ -2204,7 +2204,7 @@ export const PT_C1_U05: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The shop and the manufacturer are jointly liable for the defect.",
+            source: "The store and the manufacturer are jointly liable for the defect.",
             answer: "A loja e o fabricante respondem solidariamente pelo vício.",
             altAnswers: [
               "A loja e o fabricante respondem solidariamente pelo defeito.",
@@ -2221,12 +2221,12 @@ export const PT_C1_U05: Lesson[] = [
             question: "What does it mean?",
             options: [
               "As Article 49 of the Consumer Protection Code provides, I'm exercising my right to cancel the purchase.",
-              "As Article 49 of the Consumer Protection Code provides, I regret the purchase and apologise for the trouble.",
+              "As Article 49 of the Consumer Protection Code provides, I regret the purchase and apologize for the trouble.",
               "As Article 49 of the Consumer Protection Code provides, I'm asking for the product to be repaired.",
               "As Article 49 of the Consumer Protection Code provides, I'm withdrawing my complaint.",
             ],
             correctIndex: 0,
-            explanation: "\"Arrependimento\" literally means regret, but \"direito de arrependimento\" is the legal right to cancel a purchase made outside the shop within seven days. It has nothing to do with apologising.",
+            explanation: "\"Arrependimento\" literally means regret, but \"direito de arrependimento\" is the legal right to cancel a purchase made outside the store within seven days. It has nothing to do with apologizing.",
           },
         ],
       },
@@ -2240,7 +2240,7 @@ export const PT_C1_U05: Lesson[] = [
         examples: [
           { es: "Diante do exposto, solicito a restituição imediata da quantia paga, monetariamente atualizada.", en: "In view of the above, I request an immediate refund of the amount paid, adjusted for inflation." },
           { es: "Requeiro a substituição do produto por outro da mesma espécie, em perfeitas condições de uso.", en: "I request that the product be replaced with another of the same kind in perfect working order." },
-          { es: "Solicito a troca no prazo de 10 (dez) dias úteis, sob pena de adoção das medidas judiciais cabíveis.", en: "I request a replacement within ten working days, failing which I will take the appropriate legal action." },
+          { es: "Solicito a troca no prazo de 10 (dez) dias úteis, sob pena de adoção das medidas judiciais cabíveis.", en: "I request a replacement within ten business days, failing which I will take the appropriate legal action." },
           { es: "Caso não haja solução, registrarei reclamação no Procon e no portal consumidor.gov.br.", en: "If there is no solution, I will file a complaint with Procon and on the consumidor.gov.br portal." },
           { es: "Seguem em anexo a nota fiscal e o número do protocolo.", en: "Attached are the invoice and the reference number." },
           { es: "Sem mais para o momento, aguardo retorno.", en: "That is all for now; I look forward to your reply." },
@@ -2265,7 +2265,7 @@ export const PT_C1_U05: Lesson[] = [
           {
             type: "speak",
             text: "Diante do exposto, solicito a restituição imediata da quantia paga.",
-            tip: "In \"exposto\" the x before p sounds like s (sh in Rio). Give \"restituição\" five syllables, res-ti-tu-i-ÇÃO, and end on a nasal ão.",
+            tip: "In \"exposto\" the x before p sounds like s (sh in Rio). Give \"restituição\" five syllables, res-tchi-tu-i-SÃO, with the t before i sounding like ch, and end on a nasal ão.",
             explanation: "\"Diante do exposto\" signals the move from facts to request, and \"restituição imediata da quantia paga\" echoes the wording of the CDC.",
           },
         ],
@@ -2276,7 +2276,7 @@ export const PT_C1_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I bought a refrigerator through the shop's app on 12 June.",
+        source: "I bought a refrigerator through the store's app on June 12.",
         answer: "Adquiri uma geladeira pelo aplicativo da loja em 12 de junho.",
         altAnswers: [
           "Comprei uma geladeira pelo aplicativo da loja em 12 de junho.",
@@ -2329,7 +2329,7 @@ export const PT_C1_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I request a replacement of the product within ten working days.",
+        source: "I request a replacement of the product within ten business days.",
         answer: "Solicito a substituição do produto no prazo de dez dias úteis.",
         altAnswers: [
           "Solicito a substituição do produto no prazo de 10 (dez) dias úteis.",
@@ -2400,7 +2400,7 @@ export const PT_C1_U05: Lesson[] = [
         type: "speak",
         text: "Nos termos do artigo 18 do Código de Defesa do Consumidor, solicito a restituição integral da quantia paga.",
         prompt: "Say it in Portuguese: Under Article 18 of the Consumer Protection Code, I request a full refund of the amount paid.",
-        tip: "Say \"dezoito\" as dji-ZOI-tu, stressing ZOI, and keep the ó in \"Código\" open: CÓ-di-gu.",
+        tip: "Say \"dezoito\" as dji-ZOI-tu, stressing ZOI, and keep the ó in \"Código\" open: CÓ-dji-gu.",
         explanation: "\"Nos termos do artigo 18\" anchors the request in the law, and \"restituição integral da quantia paga\" asks for the whole amount back.",
       },
       {
@@ -2408,10 +2408,10 @@ export const PT_C1_U05: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "nota fiscal", right: "official invoice" },
-          { left: "protocolo", right: "call-centre reference number" },
+          { left: "protocolo", right: "call-center reference number" },
           { left: "laudo técnico", right: "technical report" },
           { left: "direito de arrependimento", right: "right to cancel within seven days" },
-          { left: "dias úteis", right: "working days" },
+          { left: "dias úteis", right: "business days" },
           { left: "vício do produto", right: "defect that makes a product unfit" },
         ],
         explanation: "These are the nouns a complaint is built on: the evidence (\"nota fiscal\", \"protocolo\", \"laudo\"), the legal concepts (\"vício\", \"arrependimento\") and the deadline (\"dias úteis\").",
@@ -2435,7 +2435,7 @@ export const PT_C1_U05: Lesson[] = [
         examples: [
           { es: "Venho, por meio deste, solicitar a emissão da segunda via do meu diploma.", en: "I hereby request a duplicate copy of my diploma." },
           { es: "A senhora poderia informar o prazo para a análise do pedido?", en: "Could you (madam) let me know how long the review of the request will take?" },
-          { es: "Segue em anexo o comprovante de matrícula.", en: "Please find attached the proof of enrolment." },
+          { es: "Segue em anexo o comprovante de matrícula.", en: "Please find attached the proof of enrollment." },
           { es: "Fico no aguardo de um retorno até sexta-feira.", en: "I look forward to hearing from you by Friday." },
           { es: "Sem mais para o momento, agradeço a atenção.", en: "With nothing further for now, thank you for your attention." },
           { es: "Nestes termos, pede deferimento.", en: "On these grounds, the applicant requests approval." },
@@ -2516,15 +2516,15 @@ export const PT_C1_U05: Lesson[] = [
         heading: "Choosing the register: notice, plain language, complaint",
         body: [
           "The same notice can be bureaucratic or written in \"linguagem simples\". Plain language keeps correct grammar but drops the impersonal \"informa-se que\", the chains of nouns and the long sentences. So \"o atendimento está suspenso\" replaces \"informa-se que o atendimento presencial se encontra suspenso\". In the formal version, note the próclise after \"que\".",
-          "A formal complaint sits between the two. It is written in the first person and sets out the facts in order, the right you are claiming and what you will do next. \"Caso\" takes the present subjunctive: \"caso não seja resolvido\". A deadline in \"dias úteis\" (working days) and a \"número de protocolo\" make the letter hard to ignore.",
+          "A formal complaint sits between the two. It is written in the first person and sets out the facts in order, the right you are claiming and what you will do next. \"Caso\" takes the present subjunctive: \"caso não seja resolvido\". A deadline in \"dias úteis\" (business days) and a \"número de protocolo\" make the letter hard to ignore.",
         ],
         examples: [
           { es: "Informa-se que o atendimento presencial se encontra suspenso até nova comunicação.", en: "Please be advised that in-person service is suspended until further notice." },
           { es: "O atendimento presencial está suspenso até novo aviso.", en: "In-person service is suspended until further notice." },
-          { es: "Comunicamos que, a partir de 1º de março, os boletos serão enviados apenas por e-mail.", en: "Please note that from 1 March, payment slips will be sent by email only." },
-          { es: "No dia 3 de maio, adquiri um notebook que apresentou defeito na primeira semana de uso.", en: "On 3 May I bought a laptop that developed a fault in its first week of use." },
+          { es: "Comunicamos que, a partir de 1º de março, os boletos serão enviados apenas por e-mail.", en: "Please note that from March 1, payment slips will be sent by email only." },
+          { es: "No dia 3 de maio, adquiri um notebook que apresentou defeito na primeira semana de uso.", en: "On May 3 I bought a laptop that developed a fault in its first week of use." },
           { es: "Apesar de três contatos com o SAC, o problema não foi solucionado.", en: "Despite three calls to customer service, the problem has not been solved." },
-          { es: "Caso a situação não seja resolvida em dez dias úteis, recorrerei ao Procon.", en: "If the situation is not resolved within ten working days, I will take the matter to Procon." },
+          { es: "Caso a situação não seja resolvida em dez dias úteis, recorrerei ao Procon.", en: "If the situation is not resolved within ten business days, I will take the matter to Procon." },
         ],
         checkpoint: [
           {
@@ -2593,7 +2593,7 @@ export const PT_C1_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The applicant requests the cancellation of his enrolment.",
+        source: "The applicant requests the cancellation of his enrollment.",
         answer: "O requerente solicita o cancelamento de sua matrícula.",
         altAnswers: ["O requerente solicita o cancelamento da sua matrícula.", "O requerente pede o cancelamento de sua matrícula.", "O requerente pede o cancelamento da sua matrícula."],
         explanation: "A requerimento names the applicant (\"o requerente\") and keeps to the third person throughout. That is also why it closes with \"pede deferimento\", not \"peço\".",
@@ -2622,7 +2622,7 @@ export const PT_C1_U05: Lesson[] = [
         text: "Gostaria de registrar uma reclamação formal.",
         prompt: "Say it in Portuguese: I would like to file a formal complaint.",
         tip: "Make the ão in reclamação nasal, with no n at the end, and stress the last syllable.",
-        explanation: "\"Gostaria de registrar\" is polite but firm. \"Registrar uma reclamação\" is the usual collocation with call centres and the ouvidoria.",
+        explanation: "\"Gostaria de registrar\" is polite but firm. \"Registrar uma reclamação\" is the usual collocation with call centers and the ouvidoria.",
       },
       {
         type: "translate",
@@ -2660,11 +2660,11 @@ export const PT_C1_U05: Lesson[] = [
 
 export const PT_C1_U05_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You live in Curitiba. On 3 January you bought a monthly subscription to an online course on the company's website. On 7 January, within seven days, you cancelled it by email and received a protocol number. The company still charged your credit card in February and March. Write a formal complaint to the company's Ouvidoria. Give the facts with dates and amounts, and cite your rights under the Código de Defesa do Consumidor: art. 49 (the right to withdraw from purchases made outside the shop) and art. 42, parágrafo único (a refund of double the amount wrongly charged). Then make a clear request with a deadline, say what you'll do if it isn't met, and close formally.",
+  prompt: "You live in Curitiba. On January 3 you bought a monthly subscription to an online course on the company's website. On January 7, within seven days, you canceled it by email and received a protocol number. The company still charged your credit card in February and March. Write a formal complaint to the company's Ouvidoria. Give the facts with dates and amounts, and cite your rights under the Código de Defesa do Consumidor: art. 49 (the right to withdraw from purchases made outside the store) and art. 42, parágrafo único (a refund of double the amount wrongly charged). Then make a clear request with a deadline, say what you'll do if it isn't met, and close formally.",
   minWords: 180,
   maxWords: 300,
   rubric: [
-    "Uses the fixed formulas of official correspondence: \"venho, por meio deste\", \"Diante do exposto\", \"Sem mais para o momento\" and \"Atenciosamente\".",
+    "Uses the fixed formulas of official correspondence: \"venho, por meio desta\" (or \"deste\"), \"Diante do exposto\", \"Sem mais para o momento\" and \"Atenciosamente\".",
     "Addresses the recipient with the formal title, abbreviated \"V. Sa.\", and third-person verbs: \"solicito a V. Sa. que providencie\".",
     "Cites the law precisely: \"conforme o art. 49 do Código de Defesa do Consumidor\" and \"nos termos do art. 42, parágrafo único, do CDC\".",
     "Uses formal connectors and legal vocabulary (\"Outrossim\", \"Não obstante\", \"mediante\", \"estorno\", \"protocolo\") and sets out the request in numbered items with a deadline.",

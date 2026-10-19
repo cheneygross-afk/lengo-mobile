@@ -36,7 +36,7 @@ export const FR_A2_U12_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Tu iras au marché demain ? How do you say: Yes, I'll go?",
+            question: "\"Tu iras au marché demain ?\" How do you say 'Yes, I'll go'?",
             options: ["Oui, j'irai.", "Oui, j'y irai.", "Oui, je irai.", "Oui, j'y vais aller."],
             correctIndex: 0,
             explanation: "\"Y\" disappears before the future of \"aller\": \"j'irai\".",
@@ -142,7 +142,7 @@ export const FR_A2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which reply to: Vous allez en Italie cet été ? is correct?",
+        question: "Which reply to \"Vous allez en Italie cet été ?\" is correct?",
         options: ["Oui, nous y allons en août.", "Oui, nous allons en août.", "Oui, nous allons y en août.", "Oui, nous lui allons en août."],
         correctIndex: 0,
         explanation: "\"Y\" before the verb; \"aller\" needs it.",
@@ -447,7 +447,7 @@ export const FR_A2_U12_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "You can't park there. (to a driver)",
         answer: "Vous ne pouvez pas vous y garer.",
-        altAnswers: ["On ne peut pas s'y garer.", "Vous ne pouvez pas vous garer ici.", "Vous ne pouvez pas vous garer là."],
+        altAnswers: ["On ne peut pas s'y garer.", "Vous ne pouvez pas vous garer là."],
         explanation: "With a pronominal infinitive: \"vous y garer\".",
       },
       {
@@ -459,7 +459,7 @@ export const FR_A2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'I'm not going to go there'?",
         options: ["Je ne vais pas y aller.", "Je n'y vais pas aller.", "Je ne vais y pas aller.", "Je ne y vais pas aller."],
         correctIndex: 0,
         explanation: "\"Y\" before the infinitive, outside the negation.",
@@ -511,7 +511,7 @@ export const FR_A2_U12_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Tu vas à la poste ? Which reply is neutral and natural?",
+            question: "\"Tu vas à la poste ?\" Which reply is neutral and natural?",
             options: ["Oui, j'y vais.", "Oui, j'y vais là-bas.", "Oui, je vais.", "Oui, là-bas je vais."],
             correctIndex: 0,
             explanation: "A neutral reply uses \"y\". Don't double up with \"là-bas\".",
@@ -740,7 +740,7 @@ export const FR_A2_U12_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "I'm not used to it yet.",
         answer: "Je ne m'y suis pas encore habitué.",
-        altAnswers: ["Je ne m'y suis pas encore habituée.", "Je ne m'y habitue pas encore."],
+        altAnswers: ["Je ne m'y suis pas encore habituée.", "Je n'y suis pas encore habitué.", "Je n'y suis pas encore habituée."],
         explanation: "\"S'habituer à\" → \"m'y\".",
       },
       {
@@ -778,7 +778,7 @@ export const FR_A2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Nora asks: Tu viens au cours de zumba ? You're not coming. What do you say?",
+        question: "Nora asks: \"Tu viens au cours de zumba ?\" You're not coming. What do you say?",
         options: ["Non, je n'y vais pas aujourd'hui.", "Non, je ne vais pas aujourd'hui.", "Non, je n'y lui vais pas.", "Non, j'y ne vais pas aujourd'hui."],
         correctIndex: 0,
         explanation: "\"N'y\" + verb + \"pas\".",
@@ -1092,7 +1092,7 @@ export const FR_A2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The agent asks: Vous voulez visiter Ajaccio ? Which answer is right?",
+        question: "The agent asks: \"Vous voulez visiter Ajaccio ?\" Which answer is right?",
         options: ["Oui, je veux y aller.", "Oui, j'y veux aller.", "Oui, je veux aller.", "Oui, je lui veux aller."],
         correctIndex: 0,
         explanation: "\"Y\" before the infinitive.",
@@ -1248,7 +1248,7 @@ export const FR_A2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Ta copine ? Tu penses souvent ___ ?",
+        question: "Complete to say 'Your girlfriend? Do you often think about her?': \"Ta copine ? Tu penses souvent ___ ?\"",
         options: ["à elle", "y", "lui", "la"],
         correctIndex: 0,
         explanation: "\"Penser à\" + person → \"à elle\".",
@@ -1409,7 +1409,7 @@ export const FR_A2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the future version of: J'y vais en train?",
+        question: "How do you say 'I'll go there by train' (futur simple)?",
         options: ["J'irai en train.", "J'y irai en train.", "J'y vais irai en train.", "J'irai y en train."],
         correctIndex: 0,
         explanation: "\"Y\" drops before \"irai\".",
@@ -1566,7 +1566,7 @@ export const FR_A2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Le directeur ? Je ___ ai posé une question.",
+        question: "Complete to say 'The manager? I asked him a question': \"Le directeur ? Je ___ ai posé une question.\"",
         options: ["lui", "l'", "y", "le"],
         correctIndex: 0,
         explanation: "\"Poser une question à\" + person → \"lui\".",
@@ -1701,9 +1701,9 @@ export const FR_A2_U12_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "When I'm in Lyon, I'll go there.",
-        answer: "Quand je serai à Lyon, j'irai.",
-        altAnswers: ["Quand je serai à Lyon, j'y passerai.", "Quand je serai à Lyon, je vais y aller."],
+        source: "The museum? I'll go when I'm in Lyon.",
+        answer: "Le musée ? J'irai quand je serai à Lyon.",
+        altAnswers: ["Le musée ? Quand je serai à Lyon, j'irai.", "Le musée ? J'y passerai quand je serai à Lyon.", "Le musée ? Je vais y aller quand je serai à Lyon."],
         explanation: "\"Quand\" + future; no \"y\" before \"irai\".",
       },
       {
@@ -1724,7 +1724,7 @@ export const FR_A2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say 'He didn't want to go back there'?",
         options: ["Il n'a pas voulu y retourner.", "Il n'y a pas voulu retourner.", "Il n'a pas y voulu retourner.", "Il n'a pas voulu retourner y."],
         correctIndex: 0,
         explanation: "\"Y\" belongs to \"retourner\".",
@@ -1880,7 +1880,7 @@ export const FR_A2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A tourist asks: On peut aller au marché le lundi ? It's closed. What do you say?",
+        question: "A tourist asks: \"On peut aller au marché le lundi ?\" It's closed. What do you say?",
         options: ["Non, on ne peut pas y aller le lundi.", "Non, on n'y peut pas aller le lundi.", "Non, on ne peut pas aller le lundi.", "Non, on ne peut pas aller y le lundi."],
         correctIndex: 0,
         explanation: "Negation around \"peut\"; \"y aller\".",
@@ -1921,7 +1921,7 @@ export const FR_A2_U12_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Tes cousins ? Je ___ ai parlé hier.",
+            question: "Complete to say 'Your cousins? I talked to them yesterday': \"Tes cousins ? Je ___ ai parlé hier.\"",
             options: ["leur", "y", "lui", "à eux"],
             correctIndex: 0,
             explanation: "\"Parler à\" + several people → \"leur\".",
@@ -2041,7 +2041,7 @@ export const FR_A2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Ma sœur ? Je fais attention ___.",
+        question: "Complete to say 'My sister? I pay attention to her': \"Ma sœur ? Je fais attention ___.\"",
         options: ["à elle", "y", "lui", "la"],
         correctIndex: 0,
         explanation: "\"Faire attention à\" + person → \"à elle\".",

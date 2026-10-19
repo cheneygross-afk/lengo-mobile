@@ -48,7 +48,7 @@ export const PT_B1_U19: Lesson[] = [
         heading: "O médico recomenda que você durma oito horas",
         body: [
           "\"Recomendar que\" is the verb of doctors, guides and reviews. It follows the same rule: \"o médico recomenda que você durma oito horas\". \"Dormir\" has \"durmo\" in the eu form, so the subjunctive is \"durma\".",
-          "With no person named, both verbs take a noun or an infinitive: \"recomendo esse hotel\", \"recomendo reservar com antecedência\" (I recommend booking ahead). Don't write \"*recomendo você descansar\", an English pattern; name the person with \"que\": \"recomendo que você descanse\".",
+          "With no person named, both verbs take a noun or an infinitive: \"recomendo esse hotel\", \"recomendo reservar com antecedência\" (I recommend booking ahead). \"Recomendo você descansar\" copies English and is avoided in careful Portuguese; name the person with \"que\": \"recomendo que você descanse\".",
         ],
         examples: [
           { es: "O médico recomenda que você durma oito horas por noite.", en: "The doctor recommends that you sleep eight hours a night." },
@@ -281,7 +281,7 @@ export const PT_B1_U19: Lesson[] = [
           { es: "O condomínio proíbe que os moradores façam barulho depois das 22h.", en: "The building forbids residents to make noise after 10 p.m." },
           { es: "A escola não permite que os alunos usem celular na aula.", en: "The school doesn't allow students to use their phones in class." },
           { es: "Meu pai proíbe que a gente coma no sofá.", en: "My dad won't let us eat on the sofa." },
-          { es: "O clube não permite que os sócios levem convidados no fim de semana.", en: "The club doesn't let members bring guests at the weekend." },
+          { es: "O clube não permite que os sócios levem convidados no fim de semana.", en: "The club doesn't let members bring guests on the weekend." },
           { es: "É proibido fumar nas áreas comuns.", en: "Smoking is not allowed in the common areas." },
         ],
         checkpoint: [
@@ -424,7 +424,7 @@ export const PT_B1_U19: Lesson[] = [
         type: "speak",
         text: "A escola não permite que os alunos usem celular.",
         prompt: "Say it in Portuguese: The school doesn't allow students to use phones.",
-        tip: "Celular ends in a w sound: ce-lu-LAW.",
+        tip: "Celular ends in r, not l: ce-lu-LAR, with a soft final r that often fades in fast speech.",
         explanation: "\"Não permite que\" + subjunctive: \"usem\". The students are a different subject from the school, so \"que\" is needed.",
       },
       {
@@ -456,7 +456,7 @@ export const PT_B1_U19: Lesson[] = [
           { es: "O ideal é que você chegue meia hora antes.", en: "Ideally, you should get there half an hour early." },
           { es: "O importante é que ninguém se machuque.", en: "The main thing is that nobody gets hurt." },
           { es: "O melhor é que a gente espere a chuva passar.", en: "The best thing is for us to wait for the rain to stop." },
-          { es: "O certo é que ele peça desculpas.", en: "The right thing is for him to apologise." },
+          { es: "O certo é que ele peça desculpas.", en: "The right thing is for him to apologize." },
           { es: "O ideal é beber dois litros de água por dia.", en: "Ideally, you should drink two litres of water a day." },
         ],
         checkpoint: [
@@ -480,7 +480,7 @@ export const PT_B1_U19: Lesson[] = [
         ],
       },
       {
-        heading: "Não precisa vir: the host's favourite line",
+        heading: "Não precisa vir: the host's favorite line",
         body: [
           "To say something isn't necessary, the formal pattern is \"não é preciso que\" + subjunctive: \"não é preciso que você venha\". In everyday Brazilian speech you'll almost always hear \"não precisa\" + infinitive instead, with no subject at all: \"não precisa vir\".",
           "\"Não precisa trazer nada\" (you don't need to bring anything) is what every Brazilian host says, and \"não precisa se preocupar\" means don't worry about it. \"Precisa\" here is impersonal, so it doesn't change for vocês.",
@@ -582,7 +582,7 @@ export const PT_B1_U19: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The right thing is for him to [apologise].",
+        en: "The right thing is for him to [apologize].",
         sentence: "O certo é que ele ___ desculpas.",
         answer: "peça",
         explanation: "\"O certo é que\" + subjunctive. \"Peço\" gives \"peça\".",
@@ -842,7 +842,7 @@ export const PT_B1_U19: Lesson[] = [
         type: "speak",
         text: "É bom que eu chegue cedo.",
         prompt: "Say it in Portuguese: It's good for me to get there early.",
-        tip: "Chegue: SHEH-gi, with a hard g.",
+        tip: "Chegue: SHAY-gi, with a closed e and a hard g.",
         explanation: "\"Chegue\" could be eu, ele or você, so keep \"eu\" so the listener knows who arrives.",
       },
       {
@@ -1177,7 +1177,7 @@ export const PT_B1_U19: Lesson[] = [
           {
             type: "speak",
             text: "Insisto que você fique para o jantar.",
-            tip: "Fique: FEE-ki. Jantar ends in a light tap r, or is dropped in fast speech.",
+            tip: "Fique: FEE-ki. The final r of jantar is soft (a light breath in Rio, a light tap in São Paulo) and often drops in fast speech.",
             explanation: "\"Insisto que\" here is a demand, so the subjunctive \"fique\" follows.",
           },
         ],
@@ -1190,7 +1190,7 @@ export const PT_B1_U19: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "She says the meeting is at three.",
         answer: "Ela diz que a reunião é às três.",
-        altAnswers: ["Ela fala que a reunião é às três.", "Ela disse que a reunião é às três.", "Ela está dizendo que a reunião é às três."],
+        altAnswers: ["Ela fala que a reunião é às três.", "Ela está dizendo que a reunião é às três."],
         explanation: "\"Diz que\" reports information, so the indicative \"é\" stays.",
       },
       {
@@ -1512,7 +1512,7 @@ export const PT_B1_U19: Lesson[] = [
         ],
         examples: [
           { es: "Boa noite, gente. Obrigada por virem.", en: "Good evening, everyone. Thanks for coming." },
-          { es: "A escola exige que os alunos usem uniforme todos os dias.", en: "The school requires students to wear uniform every day." },
+          { es: "A escola exige que os alunos usem uniforme todos os dias.", en: "The school requires students to wear a uniform every day." },
           { es: "Não permitimos que eles usem o celular durante a aula.", en: "We don't allow them to use their phones during class." },
           { es: "Pedimos que os senhores avisem a escola em caso de falta.", en: "We ask you to let the school know if your child is absent." },
           { es: "É proibido entrar depois das sete e quinze.", en: "No one can come in after quarter past seven." },
@@ -1522,7 +1522,7 @@ export const PT_B1_U19: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The school requires students to wear uniform.",
+            source: "The school requires students to wear a uniform.",
             answer: "A escola exige que os alunos usem uniforme.",
             altAnswers: ["O colégio exige que os alunos usem uniforme.", "A escola exige que os alunos usem o uniforme.", "O colégio exige que os alunos usem o uniforme."],
             explanation: "\"Exige que\" + subjunctive: \"usar\" becomes \"usem\" for \"os alunos\".",
@@ -1818,7 +1818,7 @@ export const PT_B1_U19: Lesson[] = [
           {
             type: "speak",
             text: "Não precisa trazer nada, só venha!",
-            tip: "Venha: VEH-nya. The nh is like the ny in canyon.",
+            tip: "Venha: VAYN-ya, with a nasal closed e. The nh is like the ny in canyon.",
             explanation: "\"Não precisa\" + infinitive, then the command \"venha\".",
           },
         ],
@@ -1966,13 +1966,13 @@ export const PT_B1_U19: Lesson[] = [
       {
         heading: "Step 2: from rule to advice",
         body: [
-          "Now soften the rule into advice for specific people: \"sugiro que vocês façam a festa mais cedo\". The verb stays subjunctive, but the speaker and the tone change: you're a neighbour, not the building.",
+          "Now soften the rule into advice for specific people: \"sugiro que vocês façam a festa mais cedo\". The verb stays subjunctive, but the speaker and the tone change: you're a neighbor, not the building.",
           "Advice often adds a reason with \"porque\" (indicative, since it states a fact) or a chunk like \"o ideal é que\": \"o ideal é que vocês terminem antes das dez, porque o síndico é rigoroso\".",
         ],
         examples: [
           { es: "Sugiro que vocês façam a festa mais cedo.", en: "I suggest you have the party earlier." },
           { es: "O ideal é que vocês terminem antes das dez, porque o síndico é rigoroso.", en: "Ideally you should finish before ten, because the building manager is strict." },
-          { es: "Te aconselho a avisar os vizinhos antes.", en: "I'd advise you to let the neighbours know beforehand." },
+          { es: "Te aconselho a avisar os vizinhos antes.", en: "I'd advise you to let the neighbors know beforehand." },
           { es: "É melhor que vocês deixem o portão fechado.", en: "You'd better keep the gate shut." },
           { es: "O importante é que ninguém reclame.", en: "The main thing is that nobody complains." },
         ],
@@ -1990,7 +1990,7 @@ export const PT_B1_U19: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'd advise you to let the neighbours know.",
+            source: "I'd advise you to let the neighbors know.",
             answer: "Te aconselho a avisar os vizinhos.",
             altAnswers: ["Eu te aconselho a avisar os vizinhos.", "Aconselho que você avise os vizinhos.", "Aconselho você a avisar os vizinhos.", "Aconselho que vocês avisem os vizinhos."],
             explanation: "\"Aconselhar\" + person + \"a\" + infinitive, or \"que\" + subjunctive.",
@@ -2040,7 +2040,7 @@ export const PT_B1_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The building doesn't allow residents to leave rubbish in the hallway.",
+        source: "The building doesn't allow residents to leave trash in the hallway.",
         answer: "O condomínio não permite que os moradores deixem lixo no corredor.",
         altAnswers: ["O prédio não permite que os moradores deixem lixo no corredor.", "O condomínio proíbe que os moradores deixem lixo no corredor.", "O condomínio não deixa os moradores deixarem lixo no corredor."],
         explanation: "Command \"não deixe lixo\" → rule \"não permite que os moradores deixem\".",
@@ -2049,7 +2049,7 @@ export const PT_B1_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I suggest you leave the rubbish downstairs.",
+        source: "I suggest you leave the trash downstairs.",
         answer: "Sugiro que você deixe o lixo lá embaixo.",
         altAnswers: ["Eu sugiro que você deixe o lixo lá embaixo.", "Sugiro que vocês deixem o lixo lá embaixo.", "Sugiro que você deixe o lixo embaixo."],
         explanation: "Turning a rule into advice: \"sugiro que\" + subjunctive \"deixe\" for one person.",
@@ -2142,10 +2142,10 @@ export const PT_B1_U19: Lesson[] = [
         ],
         examples: [
           { es: "Prezados moradores,", en: "Dear residents," },
-          { es: "Comunicamos que a piscina vai ficar fechada para manutenção de 3 a 10 de março.", en: "Please note that the pool will be closed for maintenance from 3 to 10 March." },
+          { es: "Comunicamos que a piscina vai ficar fechada para manutenção de 3 a 10 de março.", en: "Please note that the pool will be closed for maintenance from March 3 to 10." },
           { es: "Solicitamos que os moradores retirem os objetos pessoais da área da piscina.", en: "We request that residents remove personal belongings from the pool area." },
           { es: "Lembramos que o horário de silêncio começa às 22h.", en: "We remind you that quiet hours start at 10 p.m." },
-          { es: "Atenciosamente, a Administração.", en: "Yours sincerely, the Management." },
+          { es: "Atenciosamente, a Administração.", en: "Sincerely, the Management." },
         ],
         checkpoint: [
           {
@@ -2253,7 +2253,7 @@ export const PT_B1_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We ask residents not to leave rubbish in the hallway.",
+        source: "We ask residents not to leave trash in the hallway.",
         answer: "Pedimos que os moradores não deixem lixo no corredor.",
         altAnswers: ["Solicitamos que os moradores não deixem lixo no corredor.", "Pedimos aos moradores que não deixem lixo no corredor.", "Solicitamos aos moradores que não deixem lixo no corredor."],
         explanation: "\"Pedimos que\" + negative subjunctive: \"não deixem\".",
@@ -2350,7 +2350,7 @@ export const PT_B1_U19: Lesson[] = [
           { es: "O síndico não deixou a gente usar o salão de festas.", en: "The building manager didn't let us use the function room." },
           { es: "Ela recomenda que eu tome o remédio depois do almoço.", en: "She recommends that I take the medicine after lunch." },
           { es: "Quando eu era criança, minha mãe não me deixava ver televisão à noite.", en: "When I was a child, my mom didn't let me watch TV at night." },
-          { es: "Meu chefe me proibiu de trabalhar no fim de semana.", en: "My boss banned me from working at the weekend." },
+          { es: "Meu chefe me proibiu de trabalhar no fim de semana.", en: "My boss banned me from working on the weekend." },
         ],
         checkpoint: [
           {
@@ -2379,7 +2379,7 @@ export const PT_B1_U19: Lesson[] = [
           "Reactions from Unit 3 sit naturally next to advice: \"que pena que você esteja doente; sugiro que você fique em casa\". Belief keeps the indicative (\"acho que é gripe\"), doubt brings the subjunctive (\"duvido que seja grave\").",
         ],
         examples: [
-          { es: "Que pena que você esteja doente!", en: "What a shame you're ill!" },
+          { es: "Que pena que você esteja doente!", en: "What a shame you're sick!" },
           { es: "Acho que é só uma gripe.", en: "I think it's just the flu." },
           { es: "Duvido que seja grave, mas é melhor que você vá ao médico.", en: "I doubt it's serious, but you'd better see a doctor." },
           { es: "Fico feliz que você esteja melhor.", en: "I'm glad you're better." },
@@ -2389,9 +2389,9 @@ export const PT_B1_U19: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "What a shame you're ill! I suggest you stay at home.",
+            source: "What a shame you're sick! I suggest you stay at home.",
             answer: "Que pena que você esteja doente! Sugiro que você fique em casa.",
-            altAnswers: ["Que pena que você está doente! Sugiro que você fique em casa.", "Que pena que você esteja doente! Sugiro que fique em casa.", "Que pena que você esteja doente! Te aconselho a ficar em casa."],
+            altAnswers: ["Que pena que você esteja doente! Sugiro que fique em casa.", "Que pena que você esteja doente! Te aconselho a ficar em casa."],
             explanation: "\"Que pena que\" + \"esteja\", then \"sugiro que\" + \"fique\".",
           },
           {
@@ -2457,7 +2457,7 @@ export const PT_B1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend's flat is noisy. Which sentence gives advice correctly?",
+        question: "Your friend's apartment is noisy. Which sentence gives advice correctly?",
         options: ["Sugiro que você converse com o vizinho.", "Sugiro que você conversa com o vizinho.", "Sugiro você conversar com o vizinho.", "Sugiro que conversar com o vizinho."],
         correctIndex: 0,
         explanation: "\"Sugiro que\" + subjunctive: \"conversar\" becomes \"converse\".",
@@ -2514,7 +2514,7 @@ export const PT_B1_U19: Lesson[] = [
 
 export const PT_B1_U19_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You are the síndico of a building in Porto Alegre. After complaints about noise, rubbish and the garage, write the notice for the noticeboard (80-150 words). Open formally, remind residents of the facts, state the rules, make requests and give some friendly recommendations, and close politely.",
+  prompt: "You are the síndico of a building in Porto Alegre. After complaints about noise, trash and the garage, write the notice for the noticeboard (80-150 words). Open formally, remind residents of the facts, state the rules, make requests and give some friendly recommendations, and close politely.",
   minWords: 80,
   maxWords: 150,
   rubric: [

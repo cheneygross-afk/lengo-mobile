@@ -14,8 +14,8 @@ export const PT_B1_U32: Lesson[] = [
       {
         heading: "Rio: escolas de samba and the Sambódromo",
         body: [
-          "The postcard Carnaval is the \"desfile das escolas de samba\" in Rio's Sambódromo, the avenue designed by Oscar Niemeyer and opened in 1984. An \"escola de samba\" is not a school at all: it's a community association, usually from a working-class neighbourhood or a favela, that spends the whole year preparing its parade.",
-          "Each escola chooses an \"enredo\" (theme) and a \"samba-enredo\" (its song), and parades with its \"bateria\" (percussion section), \"alas\" (sections in matching costumes) and \"carros alegóricos\" (floats). Judges give marks, and the results are read out on Quarta-Feira de Cinzas (Ash Wednesday) in the \"apuração\", which fans follow like a cup final.",
+          "The postcard Carnaval is the \"desfile das escolas de samba\" in Rio's Sambódromo, the avenue designed by Oscar Niemeyer and opened in 1984. An \"escola de samba\" is not a school at all: it's a community association, usually from a working-class neighborhood or a favela, that spends the whole year preparing its parade.",
+          "Each escola chooses an \"enredo\" (theme) and a \"samba-enredo\" (its song), and parades with its \"bateria\" (percussion section), \"alas\" (sections in matching costumes) and \"carros alegóricos\" (floats). Judges give scores, and the results are read out on Quarta-Feira de Cinzas (Ash Wednesday) in the \"apuração\", which fans follow like a cup final.",
         ],
         examples: [
           { es: "O desfile das escolas de samba acontece no Sambódromo.", en: "The samba school parade takes place in the Sambódromo." },
@@ -39,19 +39,19 @@ export const PT_B1_U32: Lesson[] = [
             question: "A friend thinks an \"escola de samba\" is a dance school. How do you correct her?",
             options: ["É uma associação de um bairro que prepara o desfile o ano todo.", "É uma escola onde as crianças aprendem samba.", "É uma faculdade de música no Rio.", "É um bloco que só sai na Quarta-Feira de Cinzas."],
             correctIndex: 0,
-            explanation: "An \"escola de samba\" is a neighbourhood association that prepares its parade all year round.",
+            explanation: "An \"escola de samba\" is a neighborhood association that prepares its parade all year round.",
           },
         ],
       },
       {
         heading: "Blocos de rua and the trio elétrico",
         body: [
-          "Most Brazilians never see the Sambódromo. Their Carnaval is \"o bloco de rua\": a group of musicians and revellers who \"saem\" (go out) through the streets, free and open to anyone. Some are tiny neighbourhood blocos, others drag hundreds of thousands of people. Rio has the Cordão da Bola Preta, founded in 1918, and São Paulo's street Carnaval has grown enormously since the 2010s.",
+          "Most Brazilians never see the Sambódromo. Their Carnaval is \"o bloco de rua\": a group of musicians and revelers who \"saem\" (go out) through the streets, free and open to anyone. Some are tiny neighborhood blocos, others drag hundreds of thousands of people. Rio has the Cordão da Bola Preta, founded in 1918, and São Paulo's street Carnaval has grown enormously since the 2010s.",
           "In Salvador the stars are the \"trios elétricos\": trucks with huge speaker systems and a band on top, playing axé music, followed by the crowd. Some groups sell an \"abadá\" (a shirt that gets you inside the rope around the trio); people outside it are \"a pipoca\" (the popcorn), the free crowd.",
         ],
         examples: [
           { es: "O bloco sai às oito da manhã da praça.", en: "The bloco sets off from the square at eight in the morning." },
-          { es: "Este ano vou atrás de um bloco pequeno, só de vizinhos.", en: "This year I'm going to follow a small bloco, just neighbours." },
+          { es: "Este ano vou atrás de um bloco pequeno, só de vizinhos.", en: "This year I'm going to follow a small bloco, just neighbors." },
           { es: "Em Salvador, os trios elétricos tocam axé o dia inteiro.", en: "In Salvador, the trios elétricos play axé all day long." },
           { es: "Comprei um abadá para sair no bloco da Ivete.", en: "I bought an abadá to join Ivete's bloco." },
           { es: "Preferi ficar na pipoca, que é de graça.", en: "I preferred to stay with the free crowd outside the ropes." },
@@ -79,11 +79,11 @@ export const PT_B1_U32: Lesson[] = [
       {
         heading: "Frevo, maracatu, fantasias and marchinhas",
         body: [
-          "In Recife and Olinda, Carnaval has its own rhythms. \"Frevo\" is fast brass music danced with a small colourful umbrella, and it was named a UNESCO intangible heritage in 2012. \"Maracatu\", with heavy drums and a royal court procession, comes from Afro-Brazilian traditions. Recife's Galo da Madrugada fills the city on Carnaval Saturday, and Olinda's steep streets are taken over by \"bonecos gigantes\".",
+          "In Recife and Olinda, Carnaval has its own rhythms. \"Frevo\" is fast brass music danced with a small colorful umbrella, and it was named a UNESCO intangible heritage in 2012. \"Maracatu\", with heavy drums and a royal court procession, comes from Afro-Brazilian traditions. Recife's Galo da Madrugada fills the city on Carnaval Saturday, and Olinda's steep streets are taken over by \"bonecos gigantes\".",
           "Watch the false friend: \"fantasia\" is a costume (\"vou de pirata\" means I'm going dressed as a pirate). \"Marchinhas\" are the old, cheeky Carnaval songs everyone knows by heart. It all ends on Quarta-Feira de Cinzas, when people say \"o ano só começa depois do Carnaval\".",
         ],
         examples: [
-          { es: "O frevo é dançado com uma sombrinha colorida.", en: "Frevo is danced with a small colourful umbrella." },
+          { es: "O frevo é dançado com uma sombrinha colorida.", en: "Frevo is danced with a small colorful umbrella." },
           { es: "O maracatu é uma tradição que veio das nações africanas.", en: "Maracatu is a tradition that came from African nations." },
           { es: "Olinda é a cidade onde desfilam os bonecos gigantes.", en: "Olinda is the town where the giant puppets parade." },
           { es: "Minha fantasia deste ano é de astronauta.", en: "My costume this year is an astronaut." },
@@ -104,7 +104,7 @@ export const PT_B1_U32: Lesson[] = [
             type: "listen-choose",
             audio: "O frevo é dançado com uma sombrinha colorida.",
             question: "What does it mean?",
-            options: ["Frevo is danced with a small colourful umbrella.", "Frevo is danced in the shade of colourful trees.", "Frevo is sung by a colourful choir.", "Frevo is danced only by children."],
+            options: ["Frevo is danced with a small colorful umbrella.", "Frevo is danced in the shade of colorful trees.", "Frevo is sung by a colorful choir.", "Frevo is danced only by children."],
             correctIndex: 0,
             explanation: "\"Sombrinha\" is a small umbrella, the symbol of frevo. The passive \"é dançado\" agrees with \"o frevo\".",
           },
@@ -217,7 +217,7 @@ export const PT_B1_U32: Lesson[] = [
       {
         heading: "Santo Antônio, São João, São Pedro",
         body: [
-          "June in Brazil means \"festas juninas\", country-style parties held in schools, churches, squares and whole cities. They celebrate three Catholic saints: Santo Antônio (13 June), the matchmaker saint, São João (24 June), the biggest night, and São Pedro (29 June). In July the parties go on as \"festas julinas\".",
+          "June in Brazil means \"festas juninas\", country-style parties held in schools, churches, squares and whole cities. They celebrate three Catholic saints: Santo Antônio (June 13), the matchmaker saint, São João (June 24), the biggest night, and São Pedro (June 29). In July the parties go on as \"festas julinas\".",
           "In the Nordeste, São João is as important as Carnaval, or more. Campina Grande, in Paraíba, calls its festa \"o maior São João do mundo\", and Caruaru, in Pernambuco, disputes the title. The music is forró, and people travel home from all over the country for it.",
         ],
         examples: [
@@ -242,14 +242,14 @@ export const PT_B1_U32: Lesson[] = [
             question: "Which saint do single people traditionally ask for a partner?",
             options: ["Santo Antônio.", "São João.", "São Pedro.", "São Paulo."],
             correctIndex: 0,
-            explanation: "Santo Antônio is the \"santo casamenteiro\", the matchmaker saint, celebrated on 13 June.",
+            explanation: "Santo Antônio is the \"santo casamenteiro\", the matchmaker saint, celebrated on June 13.",
           },
         ],
       },
       {
         heading: "Quadrilha, fogueira, bandeirinhas: the party",
         body: [
-          "The square is decorated with \"bandeirinhas\" (little coloured paper flags), and on São João a \"fogueira\" (bonfire) is lit. People wear \"roupa caipira\" (country clothes): checked shirts, straw hats, patched dresses. The highlight is the \"quadrilha\", a square dance in pairs led by a caller who shouts instructions such as \"olha a chuva!\" and \"é mentira!\".",
+          "The square is decorated with \"bandeirinhas\" (little colored paper flags), and on São João a \"fogueira\" (bonfire) is lit. People wear \"roupa caipira\" (country clothes): checked shirts, straw hats, patched dresses. The highlight is the \"quadrilha\", a square dance in pairs led by a caller who shouts instructions such as \"olha a chuva!\" and \"é mentira!\".",
           "The quadrilha often acts out a \"casamento caipira\", a mock country wedding. There are games too: \"pescaria\" (fishing for prizes) and \"correio elegante\", little notes you pay to have delivered to your crush. In descriptions you'll meet the passive: \"a fogueira é acesa\", \"a quadrilha é dançada em pares\".",
         ],
         examples: [
@@ -281,7 +281,7 @@ export const PT_B1_U32: Lesson[] = [
             type: "listen-choose",
             audio: "Olha a chuva! É mentira!",
             question: "Where would you hear this?",
-            options: ["In a quadrilha at a festa junina.", "In a weather forecast.", "At a football match.", "In a samba school parade."],
+            options: ["In a quadrilha at a festa junina.", "In a weather forecast.", "At a soccer match.", "In a samba school parade."],
             correctIndex: 0,
             explanation: "The quadrilha caller shouts warnings like \"olha a chuva!\" and the dancers react, then hear \"é mentira!\" (just kidding!).",
           },
@@ -290,7 +290,7 @@ export const PT_B1_U32: Lesson[] = [
       {
         heading: "Quentão, pamonha, canjica, paçoca: the food",
         body: [
-          "Festa junina food is built on corn, peanuts and coconut, the harvest of the season. \"Pamonha\" is a sweet or savoury corn paste cooked in the husk, \"milho cozido\" is corn on the cob, and \"pipoca\" is popcorn. \"Paçoca\" is a crumbly peanut sweet, and \"pé de moleque\" is peanut brittle.",
+          "Festa junina food is built on corn, peanuts and coconut, the harvest of the season. \"Pamonha\" is a sweet or savory corn paste cooked in the husk, \"milho cozido\" is corn on the cob, and \"pipoca\" is popcorn. \"Paçoca\" is a crumbly peanut sweet, and \"pé de moleque\" is peanut brittle.",
           "\"Canjica\" changes with the region: in the South and Southeast it's white corn cooked in milk with cinnamon; in the Nordeste that dish is \"mungunzá\", and \"canjica\" is a yellow corn cream. To drink there's \"quentão\" (hot cachaça with ginger and cinnamon) or \"vinho quente\" (mulled wine), because June is winter in most of Brazil.",
         ],
         examples: [
@@ -401,7 +401,7 @@ export const PT_B1_U32: Lesson[] = [
         type: "speak",
         text: "Eu adoro pamonha, paçoca e pé de moleque.",
         prompt: "Say it in Portuguese: I love pamonha, paçoca and peanut brittle.",
-        tip: "\"Paçoca\": the ç is an s sound, and the stress is on \"ço\": pa-ÇO-ca.",
+        tip: "\"Paçoca\": the ç is an s sound, and the stress is on an open \"ço\": pa-SÓ-ca.",
         explanation: "\"Adorar\" takes a direct object, with no \"de\", unlike \"gostar de\".",
       },
       {
@@ -426,8 +426,8 @@ export const PT_B1_U32: Lesson[] = [
       {
         heading: "Samba and bossa nova: Rio's two sounds",
         body: [
-          "\"Samba\" grew up in Rio in the early 20th century, in the homes of Afro-Brazilian families who had come from Bahia, mixing African rhythms with other influences. \"Pelo Telefone\", recorded in 1917, is usually called the first samba on record. Today samba lives in the \"rodas de samba\", informal circles of musicians round a table, often on a Sunday afternoon.",
-          "\"Bossa nova\" was born at the end of the 1950s in Rio's Zona Sul: quiet voice, soft guitar, jazz harmonies. João Gilberto, Tom Jobim and Vinicius de Moraes made it famous, and \"Garota de Ipanema\" took it round the world. Notice the dates: \"no século XX\", \"nos anos 50\", \"no fim dos anos 50\".",
+          "\"Samba\" grew up in Rio in the early 20th century, in the homes of Afro-Brazilian families who had come from Bahia, mixing African rhythms with other influences. \"Pelo Telefone\", recorded in 1917, is usually called the first samba on record. Today samba lives in the \"rodas de samba\", informal circles of musicians around a table, often on a Sunday afternoon.",
+          "\"Bossa nova\" was born at the end of the 1950s in Rio's Zona Sul: quiet voice, soft guitar, jazz harmonies. João Gilberto, Tom Jobim and Vinicius de Moraes made it famous, and \"Garota de Ipanema\" took it around the world. Notice the dates: \"no século XX\", \"nos anos 50\", \"no fim dos anos 50\".",
         ],
         examples: [
           { es: "O samba nasceu no Rio no começo do século XX.", en: "Samba was born in Rio at the beginning of the 20th century." },
@@ -458,7 +458,7 @@ export const PT_B1_U32: Lesson[] = [
       {
         heading: "Forró, sertanejo and the rest of the map",
         body: [
-          "\"Forró\" comes from the Nordeste: an accordion (\"sanfona\"), a bass drum (\"zabumba\") and a triangle, danced in close pairs. Luiz Gonzaga, \"o Rei do Baião\", took it to the whole country. \"Sertanejo\" comes from the rural interior of the Centre-South and is sung by \"duplas\" (duos); today it's the most played genre in Brazil.",
+          "\"Forró\" comes from the Nordeste: an accordion (\"sanfona\"), a bass drum (\"zabumba\") and a triangle, danced in close pairs. Luiz Gonzaga, \"o Rei do Baião\", took it to the whole country. \"Sertanejo\" comes from the rural interior of the Center-South and is sung by \"duplas\" (duos); today it's the most played genre in Brazil.",
           "Other names you'll hear: \"MPB\" (Música Popular Brasileira: Caetano Veloso, Gilberto Gil, Chico Buarque, Elis Regina), \"pagode\" (a lighter, romantic offshoot of samba), \"axé\" (Bahia's Carnaval music since the 1980s) and \"funk carioca\", born in Rio's favelas and now exported worldwide.",
         ],
         examples: [
@@ -482,7 +482,7 @@ export const PT_B1_U32: Lesson[] = [
             type: "listen-choose",
             audio: "O sertanejo é o gênero mais ouvido no Brasil.",
             question: "What does it mean?",
-            options: ["Sertanejo is the most listened-to genre in Brazil.", "Sertanejo is the oldest genre in Brazil.", "Sertanejo is only heard in the countryside.", "Sertanejo is the most criticised genre in Brazil."],
+            options: ["Sertanejo is the most listened-to genre in Brazil.", "Sertanejo is the oldest genre in Brazil.", "Sertanejo is only heard in the countryside.", "Sertanejo is the most criticized genre in Brazil."],
             correctIndex: 0,
             explanation: "\"Mais ouvido\" means most listened to: \"ouvir\" gives the participle \"ouvido\".",
           },
@@ -630,7 +630,7 @@ export const PT_B1_U32: Lesson[] = [
         heading: "Feijoada, moqueca, acarajé: from Rio to Bahia",
         body: [
           "\"Feijoada\" is black beans slow-cooked with pork cuts, served with rice, \"couve\" (shredded kale), \"farofa\" (toasted cassava flour) and orange slices. In Rio it's a Wednesday and Saturday dish, a long lunch rather than a quick meal. \"Moqueca\" is a fish or seafood stew in a clay pot: the Bahian version uses \"dendê\" (palm oil) and coconut milk, the one from Espírito Santo, \"a capixaba\", uses neither, and the two states argue about which is the real one.",
-          "\"Acarajé\" is a black-eyed pea fritter fried in dendê and filled with \"vatapá\" and shrimp. It comes from West African tradition and is sold on the streets of Salvador by the \"baianas de acarajé\" in white dresses. Order it \"quente\" (with chilli) or \"frio\" (without), which has nothing to do with temperature.",
+          "\"Acarajé\" is a black-eyed pea fritter fried in dendê and filled with \"vatapá\" and shrimp. It comes from West African tradition and is sold on the streets of Salvador by the \"baianas de acarajé\" in white dresses. Order it \"quente\" (with chili) or \"frio\" (without), which has nothing to do with temperature.",
         ],
         examples: [
           { es: "A feijoada é servida com arroz, couve, farofa e laranja.", en: "Feijoada is served with rice, kale, farofa and orange." },
@@ -652,9 +652,9 @@ export const PT_B1_U32: Lesson[] = [
           {
             type: "multiple-choice",
             question: "At an acarajé stall the baiana asks \"quente ou frio?\". What is she asking?",
-            options: ["Whether you want chilli in it.", "Whether you want it heated up.", "Whether you want a cold drink with it.", "Whether you'll eat it now or later."],
+            options: ["Whether you want chili in it.", "Whether you want it heated up.", "Whether you want a cold drink with it.", "Whether you'll eat it now or later."],
             correctIndex: 0,
-            explanation: "For acarajé, \"quente\" means with chilli (\"pimenta\") and \"frio\" means without.",
+            explanation: "For acarajé, \"quente\" means with chili (\"pimenta\") and \"frio\" means without.",
           },
         ],
       },
@@ -662,7 +662,7 @@ export const PT_B1_U32: Lesson[] = [
         heading: "Pão de queijo, tacacá, churrasco, baião de dois",
         body: [
           "Every region has its pride. Minas Gerais gives \"pão de queijo\", cheese bread made with \"polvilho\" (cassava starch), so it's naturally gluten-free. Pará has \"tacacá\", a hot broth of \"tucupi\" (yellow cassava juice) with shrimp and \"jambu\", a leaf that makes your mouth tingle, served in a gourd bowl. Rio Grande do Sul has \"churrasco\", meat on skewers with only coarse salt. Ceará has \"baião de dois\", rice and beans cooked together with \"queijo coalho\".",
-          "\"Açaí\" surprises visitors. In the Amazon it's a savoury staple, eaten unsweetened with fried fish and cassava flour. In the South and Southeast it's a frozen dessert with granola, banana and condensed milk. And at every birthday party there's \"brigadeiro\", a chocolate truffle made from condensed milk.",
+          "\"Açaí\" surprises visitors. In the Amazon it's a savory staple, eaten unsweetened with fried fish and cassava flour. In the South and Southeast it's a frozen dessert with granola, banana and condensed milk. And at every birthday party there's \"brigadeiro\", a chocolate truffle made from condensed milk.",
         ],
         examples: [
           { es: "O pão de queijo é feito com polvilho, então não tem glúten.", en: "Pão de queijo is made with cassava starch, so it has no gluten." },
@@ -694,7 +694,7 @@ export const PT_B1_U32: Lesson[] = [
             type: "listen-choose",
             audio: "O jambu deixa a boca formigando.",
             question: "What does it mean?",
-            options: ["Jambu makes your mouth tingle.", "Jambu makes your mouth burn with chilli.", "Jambu leaves a sweet taste in your mouth.", "Jambu is too hot to put in your mouth."],
+            options: ["Jambu makes your mouth tingle.", "Jambu makes your mouth burn with chili.", "Jambu leaves a sweet taste in your mouth.", "Jambu is too hot to put in your mouth."],
             correctIndex: 0,
             explanation: "\"Deixar\" + gerund: to leave or make something a certain way. \"Formigar\" (to tingle) comes from \"formiga\", ant.",
           },
@@ -703,7 +703,7 @@ export const PT_B1_U32: Lesson[] = [
       {
         heading: "PF, por quilo, rodízio: eating out",
         body: [
-          "Three ways to eat out that every visitor should know. The \"prato feito\" or \"PF\" is a set plate at a fixed price: rice, beans, a meat, salad and maybe fries, the lunch of millions of workers. At a \"restaurante por quilo\" you serve yourself from a buffet and pay by weight. A \"rodízio\" is all-you-can-eat: waiters bring round meat (\"churrascaria rodízio\"), pizza or sushi until you give up.",
+          "Three ways to eat out that every visitor should know. The \"prato feito\" or \"PF\" is a set plate at a fixed price: rice, beans, a meat, salad and maybe fries, the lunch of millions of workers. At a \"restaurante por quilo\" you serve yourself from a buffet and pay by weight. A \"rodízio\" is all-you-can-eat: waiters bring meat around (\"churrascaria rodízio\"), pizza or sushi until you give up.",
           "When you recommend, use the subjunctive: \"sugiro que você prove o tacacá\", \"é bom que você chegue cedo, porque enche\". And with \"vale a pena\": \"vale a pena experimentar\".",
         ],
         examples: [
@@ -833,7 +833,7 @@ export const PT_B1_U32: Lesson[] = [
     level: "PT-B1",
     number: 5,
     title: "Culture: Futebol",
-    summary: "Talk football like a Brazilian: time, torcida and torcedor, clássicos and the Brasileirão, gol, pênalti, impedimento and the juiz, rebaixamento, a seleção, torcer para and zoar o rival.",
+    summary: "Talk soccer like a Brazilian: time, torcida and torcedor, clássicos and the Brasileirão, gol, pênalti, impedimento and the juiz, rebaixamento, a seleção, torcer para and zoar o rival.",
     duration: "13 min",
     sections: [
       {
@@ -910,7 +910,7 @@ export const PT_B1_U32: Lesson[] = [
         examples: [
           { es: "Foi pênalti claro, mas o juiz não marcou!", en: "It was a clear penalty, but the referee didn't give it!" },
           { es: "O gol foi anulado por impedimento.", en: "The goal was disallowed for offside." },
-          { es: "O árbitro que apitou o jogo foi muito criticado.", en: "The referee who took charge of the game was heavily criticised." },
+          { es: "O árbitro que apitou o jogo foi muito criticado.", en: "The referee who took charge of the game was heavily criticized." },
           { es: "Na segunda, todo mundo no escritório zoou o meu time.", en: "On Monday, everyone in the office teased me about my team." },
           { es: "Não assiste comigo, você é pé-frio!", en: "Don't watch it with me, you bring bad luck!" },
         ],
@@ -995,7 +995,7 @@ export const PT_B1_U32: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The referee who took charge of the derby was criticised.",
+        source: "The referee who took charge of the derby was criticized.",
         answer: "O juiz que apitou o clássico foi criticado.",
         altAnswers: ["O árbitro que apitou o clássico foi criticado.", "O juiz que apitou o clássico foi muito criticado.", "O árbitro que apitou o clássico foi muito criticado.", "Criticaram o juiz que apitou o clássico.", "Criticaram o árbitro que apitou o clássico."],
         explanation: "A \"que\" relative clause plus the passive \"foi criticado\".",
@@ -1079,7 +1079,7 @@ export const PT_B1_U32: Lesson[] = [
         examples: [
           { es: "A mocinha descobre que foi trocada na maternidade.", en: "The heroine finds out she was swapped at birth." },
           { es: "Ele se apaixona pela filha do inimigo.", en: "He falls in love with his enemy's daughter." },
-          { es: "A vilã finge que está doente para não ser presa.", en: "The villain pretends she's ill so she won't be arrested." },
+          { es: "A vilã finge que está doente para não ser presa.", en: "The villain pretends she's sick so she won't be arrested." },
           { es: "No final, ela se vinga de todo mundo.", en: "In the end, she gets revenge on everyone." },
           { es: "Ela tinha escondido o segredo durante vinte anos.", en: "She had hidden the secret for twenty years." },
           { es: "Posso dar spoiler ou você ainda não viu?", en: "Can I give you a spoiler, or haven't you seen it yet?" },
@@ -1120,7 +1120,7 @@ export const PT_B1_U32: Lesson[] = [
         ],
         examples: [
           { es: "O paredão de ontem teve milhões de votos.", en: "Last night's eviction vote got millions of votes." },
-          { es: "Maratonei a série inteira no fim de semana.", en: "I binge-watched the whole series at the weekend." },
+          { es: "Maratonei a série inteira no fim de semana.", en: "I binge-watched the whole series on the weekend." },
           { es: "O que você está assistindo agora?", en: "What are you watching at the moment?" },
           { es: "Hoje em dia muita gente assiste às novelas pelo streaming.", en: "These days a lot of people watch novelas on streaming." },
         ],
@@ -1224,7 +1224,7 @@ export const PT_B1_U32: Lesson[] = [
         type: "speak",
         text: "Você viu o capítulo de ontem? A vilã roubou a cena!",
         prompt: "Say it in Portuguese: Did you see last night's episode? The villain stole the show!",
-        tip: "\"Vilã\" ends in a nasal \"ã\": don't add an n sound, just nasalise the a.",
+        tip: "\"Vilã\" ends in a nasal \"ã\": don't add an n sound, just nasalize the a.",
         explanation: "\"Vilã\" is the feminine of \"vilão\". \"Roubar a cena\" means to steal the show.",
       },
       {
@@ -1254,7 +1254,7 @@ export const PT_B1_U32: Lesson[] = [
         ],
         examples: [
           { es: "A fogueira é acesa na véspera de São João.", en: "The bonfire is lit on the eve of Saint John's day." },
-          { es: "Os blocos são formados por vizinhos e amigos.", en: "The blocos are made up of neighbours and friends." },
+          { es: "Os blocos são formados por vizinhos e amigos.", en: "The blocos are made up of neighbors and friends." },
           { es: "As fantasias das alas são feitas à mão.", en: "The costumes for the sections are made by hand." },
           { es: "O desfile é transmitido pela televisão para o país inteiro.", en: "The parade is broadcast on television to the whole country." },
           { es: "A procissão é acompanhada por milhares de fiéis.", en: "The procession is followed by thousands of worshippers." },
@@ -1322,7 +1322,7 @@ export const PT_B1_U32: Lesson[] = [
       {
         heading: "O Réveillon: white clothes and seven waves",
         body: [
-          "New Year's Eve, \"o Réveillon\" (a French word), is the perfect place to practise. On the beaches, millions dress in white for peace; some add a colour for a wish, yellow for money, red for love. At midnight people jump seven waves, making a wish for each, and flowers are thrown into the sea for Iemanjá, the Afro-Brazilian queen of the sea.",
+          "New Year's Eve, \"o Réveillon\" (a French word), is the perfect place to practice. On the beaches, millions dress in white for peace; some add a color for a wish, yellow for money, red for love. At midnight people jump seven waves, making a wish for each, and flowers are thrown into the sea for Iemanjá, the Afro-Brazilian queen of the sea.",
           "There are also \"simpatias\" (small rituals for luck): lentils are eaten for money, and pomegranate seeds are kept in the wallet. Copacabana's \"queima de fogos\" (fireworks) is watched by more than two million people on the sand.",
         ],
         examples: [
@@ -1358,7 +1358,7 @@ export const PT_B1_U32: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The blocos are made up of neighbours.",
+        source: "The blocos are made up of neighbors.",
         answer: "Os blocos são formados por vizinhos.",
         altAnswers: ["Os blocos são formados de vizinhos.", "Os blocos são compostos por vizinhos.", "Os blocos são feitos por vizinhos."],
         explanation: "Passive with \"são formados\", masculine plural, and \"por\" for the agent.",
@@ -1441,7 +1441,7 @@ export const PT_B1_U32: Lesson[] = [
         source: "In Rio, the samba schools are followed by millions of fans.",
         answer: "No Rio, as escolas de samba são acompanhadas por milhões de torcedores.",
         altAnswers: ["No Rio, as escolas de samba são seguidas por milhões de torcedores.", "No Rio, as escolas de samba são acompanhadas por milhões de fãs.", "No Rio, milhões de torcedores acompanham as escolas de samba.", "No Rio de Janeiro, as escolas de samba são acompanhadas por milhões de torcedores."],
-        explanation: "\"Acompanhar\" is to follow closely. Samba schools have \"torcedores\", just like football teams.",
+        explanation: "\"Acompanhar\" is to follow closely. Samba schools have \"torcedores\", just like soccer teams.",
       },
     ],
   },
@@ -1678,7 +1678,7 @@ export const PT_B1_U32: Lesson[] = [
             question: "What is a \"colorada\"?",
             options: ["A woman who supports Internacional.", "A woman who supports Grêmio.", "A woman who paints her face for the game.", "A woman referee."],
             correctIndex: 0,
-            explanation: "Internacional's fans are \"colorados\", from the club's red colour. Grêmio's fans are \"gremistas\".",
+            explanation: "Internacional's fans are \"colorados\", from the club's red color. Grêmio's fans are \"gremistas\".",
           },
         ],
       },
@@ -1718,7 +1718,7 @@ export const PT_B1_U32: Lesson[] = [
             type: "listen-choose",
             audio: "O comentarista disse que o VAR ia rever o lance.",
             question: "What did the commentator say?",
-            options: ["That the VAR was going to review the play.", "That the VAR had cancelled the goal.", "That the referee was going to send someone off.", "That the game was going to end soon."],
+            options: ["That the VAR was going to review the play.", "That the VAR had canceled the goal.", "That the referee was going to send someone off.", "That the game was going to end soon."],
             correctIndex: 0,
             explanation: "Reported speech: \"vai rever\" becomes \"ia rever\" after \"disse que\".",
           },
@@ -1727,7 +1727,7 @@ export const PT_B1_U32: Lesson[] = [
       {
         heading: "Tomara que...: hopes and teasing",
         body: [
-          "Near the end, Grêmio are losing and the table looks bad. Felipe hopes with \"tomara que\" + subjunctive, from Unit 2: \"tomara que a gente não seja rebaixado\", \"tomara que o juiz dê mais cinco minutos\". \"A gente\" here means his team, as fans always say \"we\".",
+          "Near the end, Grêmio is losing and the table looks bad. Felipe hopes with \"tomara que\" + subjunctive, from Unit 2: \"tomara que a gente não seja rebaixado\", \"tomara que o juiz dê mais cinco minutos\". \"A gente\" here means his team, as fans always say \"we\".",
           "Bruna \"zoa\" him, and Tom learns the last lesson of the clássico: \"segunda-feira no trabalho vai ser difícil\". The friendship survives, \"mas só até o próximo Grenal\".",
         ],
         examples: [
@@ -1864,7 +1864,7 @@ export const PT_B1_U32: Lesson[] = [
         heading: "*As festas são celebrado, *a equipa",
         body: [
           "In the passive the participle is an adjective, so it agrees with the subject in gender and number: \"as festas são celebradas\", \"o samba-enredo foi escolhido\", \"as músicas foram gravadas\". \"*As festas são celebrado\" forgets the agreement, a slip even advanced learners make when the sentence is long.",
-          "\"*A equipa\" is European Portuguese. In Brazil a football team is \"o time\"; \"a equipe\" exists, but in sport it's formal or for groups like \"a equipe de reportagem\". Never \"equipa\" in Brazil.",
+          "\"*A equipa\" is European Portuguese. In Brazil a soccer team is \"o time\"; \"a equipe\" exists, but in sport it's formal or for groups like \"a equipe de reportagem\". Never \"equipa\" in Brazil.",
         ],
         examples: [
           { es: "As festas juninas são celebradas em junho e julho.", en: "Festas juninas are celebrated in June and July." },
@@ -1889,7 +1889,7 @@ export const PT_B1_U32: Lesson[] = [
             source: "My team won.",
             answer: "Meu time ganhou.",
             altAnswers: ["O meu time ganhou.", "Meu time venceu.", "O meu time venceu."],
-            explanation: "In Brazil a football team is \"o time\". \"Equipa\" is European.",
+            explanation: "In Brazil a soccer team is \"o time\". \"Equipa\" is European.",
           },
         ],
       },
@@ -2042,7 +2042,7 @@ export const PT_B1_U32: Lesson[] = [
         prompt: "Put the words in order to say: The novela I told you about starts today.",
         words: ["A", "novela", "de", "que", "eu", "te", "falei", "estreia", "hoje."],
         translation: "The novela I told you about starts today.",
-        explanation: "\"Estrear\" is to premiere, used for novelas, films and shows.",
+        explanation: "\"Estrear\" is to premiere, used for novelas, movies and shows.",
       },
       {
         type: "dictation",
@@ -2053,7 +2053,7 @@ export const PT_B1_U32: Lesson[] = [
         type: "speak",
         text: "Eu gosto de samba, mas torço para o Vasco.",
         prompt: "Say it in Portuguese: I like samba, but I support Vasco.",
-        tip: "\"Torço\" has an open o: TÓR-so. The ç is an s sound.",
+        tip: "\"Torço\" has a closed o: TÔR-su (but \"torce\" has an open o). The ç is an s sound.",
         explanation: "Both verbs with their prepositions: \"gostar de\" and \"torcer para\".",
       },
     ],
@@ -2112,7 +2112,7 @@ export const PT_B1_U32: Lesson[] = [
           { es: "Não deixe de ver os bonecos gigantes em Olinda.", en: "Don't miss the giant puppets in Olinda." },
           { es: "Vale a pena ir ao Galo, mas é bom que você chegue cedo.", en: "The Galo is worth going to, but you'd better get there early." },
           { es: "Recomendo que você leve protetor solar e uma garrafinha de água.", en: "I recommend you take sunscreen and a little bottle of water." },
-          { es: "É melhor ir de metrô, porque as ruas ficam fechadas.", en: "It's better to take the metro, because the streets are closed." },
+          { es: "É melhor ir de metrô, porque as ruas ficam fechadas.", en: "It's better to take the subway, because the streets are closed." },
         ],
         checkpoint: [
           {
@@ -2215,7 +2215,7 @@ export const PT_B1_U32: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Avoid wearing jewellery at the bloco.",
+        source: "Avoid wearing jewelry at the bloco.",
         answer: "Evite usar joias no bloco.",
         altAnswers: ["Evite usar joia no bloco.", "Evite ir de joias para o bloco.", "Evita usar joias no bloco.", "Evite levar joias para o bloco."],
         explanation: "\"Evitar\" + infinitive. \"Joias\" has no accent since the spelling reform.",
@@ -2264,7 +2264,7 @@ export const PT_B1_U32: Lesson[] = [
     level: "PT-B1",
     number: 12,
     title: "Spiral Review: Brazilian Culture",
-    summary: "Mix culture vocabulary from the whole unit with the passive and se, relative clauses, the three past tenses and the subjunctive, in new sentences about festas, music, food, football and TV.",
+    summary: "Mix culture vocabulary from the whole unit with the passive and se, relative clauses, the three past tenses and the subjunctive, in new sentences about festas, music, food, soccer and TV.",
     duration: "13 min",
     kind: "review",
     format: "Spiral review",
@@ -2444,7 +2444,7 @@ export const PT_B1_U32: Lesson[] = [
         type: "speak",
         text: "Embora seja caro, o desfile no Sambódromo vale a pena.",
         prompt: "Say it in Portuguese: Even though it's expensive, the parade at the Sambódromo is worth it.",
-        tip: "\"Sambódromo\" is stressed on \"bó\", with an open o: sam-BÓ-dro-mo.",
+        tip: "\"Sambódromo\" is stressed on \"bó\", with an open o: sam-BÓ-dro-mu.",
         explanation: "\"Embora\" + subjunctive \"seja\", then the indicative in the main clause.",
       },
       {
@@ -2462,7 +2462,7 @@ export const PT_B1_U32: Lesson[] = [
 
 export const PT_B1_U32_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A Brazilian blog for foreigners asks readers to write about a Brazilian tradition they know (Carnaval, festa junina, the Réveillon, a regional dish, football or the novela). Describe how it's celebrated or done, how it used to be and how it has been changing, and give a visitor two or three recommendations.",
+  prompt: "A Brazilian blog for foreigners asks readers to write about a Brazilian tradition they know (Carnaval, festa junina, the Réveillon, a regional dish, soccer or the novela). Describe how it's celebrated or done, how it used to be and how it has been changing, and give a visitor two or three recommendations.",
   minWords: 80,
   maxWords: 150,
   rubric: [

@@ -323,7 +323,8 @@ export const FR_B1_U20: Lesson[] = [
             prompt: "Translate into French.",
             source: "She had an operation on her shoulder.",
             answer: "Elle s'est fait opérer de l'épaule.",
-            explanation: "\"Fait\" + infinitive never agrees: \"s'est fait\", not *faite*.",
+            altAnswers: ["Elle a été opérée de l'épaule."],
+            explanation: "\"Fait\" + infinitive never agrees: \"s'est fait\", not *faite*. The plain passive \"elle a été opérée\" is also correct (and there \"opérée\" does agree).",
           },
           {
             type: "multiple-choice",
@@ -441,7 +442,7 @@ export const FR_B1_U20: Lesson[] = [
       {
         heading: "Single event: passive or on",
         body: [
-          "For one event at one time, use the être passive or \"on\": \"Tout le pain a été vendu avant midi\" / \"On a vendu tout le pain avant midi\". The pronominal passive is wrong here: *Le pain s'est vendu avant midi* sounds odd for a single sale (it would suggest the bread sold itself).",
+          "For one event at one time, use the être passive or \"on\": \"Tout le pain a été vendu avant midi\" / \"On a vendu tout le pain avant midi\". The pronominal passive is not the usual choice for a plain report of one event: \"Le pain s'est vendu avant midi\" is understandable, but it sounds like a comment on how well the bread sold rather than a report of what happened.",
           "Some verbs do accept se for a single result, especially in speech (\"Les places se sont vendues en dix minutes\": the seats sold out in ten minutes), but as a rule of thumb at the Intermediate level: one event → passive or on.",
         ],
         examples: [
@@ -1026,7 +1027,7 @@ export const FR_B1_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does « CDD de six mois » mean?",
+        question: "What does \"CDD de six mois\" mean?",
         options: ["a six-month fixed-term contract", "a six-month internship", "a permanent contract after six months", "six months of temp work"],
         correctIndex: 0,
         explanation: "\"CDD\" = contrat à durée déterminée.",
@@ -1082,7 +1083,7 @@ export const FR_B1_U20: Lesson[] = [
             prompt: "Translate into French.",
             source: "If you come in June, we'll go to the beach. (to a friend)",
             answer: "Si tu viens en juin, on ira à la plage.",
-            altAnswers: ["Si tu viens en juin, nous irons à la plage.", "Si vous venez en juin, on ira à la plage.", "Si vous venez en juin, nous irons à la plage."],
+            altAnswers: ["Si tu viens en juin, nous irons à la plage."],
             explanation: "\"Si\" + present, future in the main clause.",
           },
           {
@@ -1534,7 +1535,7 @@ export const FR_B1_U20: Lesson[] = [
       {
         heading: "Hearing the difference",
         body: [
-          "For many verbs the two moods sound different: \"vient\" / \"vienne\" (vyè / vyèn), \"fait\" / \"fasse\", \"est\" / \"soit\", \"a\" / \"ait\" (same sound!), \"va\" / \"aille\", \"part\" / \"parte\" (you hear the t). For -er verbs they often sound the same: \"il appelle\" / \"qu'il appelle\".",
+          "For many verbs the two moods sound different: \"vient\" / \"vienne\" (vyè / vyèn), \"fait\" / \"fasse\", \"est\" / \"soit\", \"a\" / \"ait\" (an a sound vs an è sound), \"va\" / \"aille\", \"part\" / \"parte\" (you hear the t). For -er verbs they often sound the same: \"il appelle\" / \"qu'il appelle\".",
           "Ask yourself: is the speaker reporting what someone says (indicative) or relaying an instruction (subjunctive)? \"Il dit qu'il part\" (he says he's leaving) vs \"Dis-lui qu'il parte\" (tell him to leave).",
         ],
         examples: [
@@ -1591,7 +1592,7 @@ export const FR_B1_U20: Lesson[] = [
         source: "Tell them to wait for me.",
         answer: "Dis-leur qu'ils m'attendent.",
         altAnswers: ["Dites-leur qu'ils m'attendent.", "Dis-leur de m'attendre.", "Dites-leur de m'attendre."],
-        explanation: "Order → subjunctive (same form as the indicative for -er verbs here).",
+        explanation: "Order → subjunctive. For ils, \"attendent\" looks and sounds the same in both moods, so here only the meaning (an instruction) tells you it's subjunctive.",
       },
       {
         type: "translate",
@@ -1666,7 +1667,7 @@ export const FR_B1_U20: Lesson[] = [
         heading: "Greetings: bise, tu or vous?",
         body: [
           "Newcomers to France often struggle with greetings. Between friends, \"on se fait la bise\" (two kisses in most regions). At work, \"on se serre la main\" with people you don't know, and \"la bise\" with close colleagues in some offices.",
-          "\"Tu\" or \"vous\"? \"On se vouvoie\" (people say vous to each other) with strangers, older people and often with your manager; \"on se tutoie\" between friends and, increasingly, between colleagues of the same level. When in doubt, use \"vous\" and wait: the other person may say « On peut se tutoyer ? ».",
+          "\"Tu\" or \"vous\"? \"On se vouvoie\" (people say vous to each other) with strangers, older people and often with your manager; \"on se tutoie\" between friends and, increasingly, between colleagues of the same level. When in doubt, use \"vous\" and wait: the other person may say \"On peut se tutoyer ?\".",
           "In shops: \"Ça ne se fait pas d'entrer dans un magasin sans dire bonjour\". The \"Bonjour, madame\" is not optional in France.",
         ],
         examples: [

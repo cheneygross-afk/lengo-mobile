@@ -290,7 +290,7 @@ export const FR_B1_U03: Lesson[] = [
         heading: "Aller and vouloir: two stems",
         body: [
           "\"Aller\" has an irregular stem \"aill-\" for je, tu, il and ils, and goes back to the normal nous stem for nous and vous: \"que j'aille, que tu ailles, qu'il aille, que nous allions, que vous alliez, qu'ils aillent\". \"Aille\" is pronounced like \"ail\" [aj], the word for garlic.",
-          "\"Vouloir\" works the same way: \"que je veuille, que tu veuilles, qu'il veuille, que nous voulions, que vous vouliez, qu'ils veuillent\". \"Veuille\" sounds like [vœj]. You know it already from the polite formula \"veuillez patienter\" (please wait).",
+          "\"Vouloir\" works the same way: \"que je veuille, que tu veuilles, qu'il veuille, que nous voulions, que vous vouliez, qu'ils veuillent\". \"Veuille\" sounds like [vœj]. You may already have seen it in the polite formula \"veuillez patienter\" (please wait), which you'll study with the imperative.",
         ],
         examples: [
           { es: "Il faut que j'aille à la poste.", en: "I need to go to the post office." },
@@ -379,7 +379,7 @@ export const FR_B1_U03: Lesson[] = [
           { es: "Il vaut mieux partir tôt.", en: "It's better to leave early." },
           { es: "Il vaut mieux qu'il sache la vérité.", en: "It's better that he knows the truth." },
           { es: "Il vaut mieux que nous soyons deux.", en: "It's better if there are two of us." },
-          { es: "Je ne pense pas qu'il faille s'inquiéter.", en: "I don't think we need to worry." },
+          { es: "Il vaut mieux que vous soyez à l'heure.", en: "You'd better be on time." },
         ],
         checkpoint: [
           {
@@ -1055,7 +1055,7 @@ export const FR_B1_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does « Il faut que je prévienne mes parents » mean?",
+            question: "What does \"Il faut que je prévienne mes parents\" mean?",
             options: [
               "I need to prevent my parents.",
               "I need to come before my parents.",
@@ -1247,15 +1247,15 @@ export const FR_B1_U03: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which family does « recevoir » belong to?",
+            question: "How do you say: I need to receive the parcel / We need to receive the parcel? (Il faut que...)",
             options: [
-              "Two stems: que je reçoive / que nous recevions",
-              "One stem: que je recevoie / que nous recevoions",
-              "Irregular: que je reçuisse",
-              "Regular: que je recevoie",
+              "que je reçoive le colis / que nous recevions le colis",
+              "que je reçoive le colis / que nous reçoivions le colis",
+              "que je recevoie le colis / que nous recevoions le colis",
+              "que je reçois le colis / que nous recevons le colis",
             ],
             correctIndex: 0,
-            explanation: "Ils reçoivent / nous recevons: two stems.",
+            explanation: "\"Recevoir\" has two stems: ils reçoivent → \"que je reçoive\", nous recevons → \"que nous recevions\". Using the ils stem for nous (\"*reçoivions\") is the typical slip; \"reçois / recevons\" are the present.",
           },
           {
             type: "translate",
@@ -1743,7 +1743,7 @@ export const FR_B1_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Mon vol a deux heures de retard. » What does it mean?",
+            question: "\"Mon vol a deux heures de retard.\" What does it mean?",
             options: [
               "My flight is two hours late.",
               "My theft is two hours late.",
@@ -1800,7 +1800,7 @@ export const FR_B1_U03: Lesson[] = [
           { es: "Il vaut mieux que tu te méfies des inconnus.", en: "You'd better be wary of strangers." },
           { es: "Il ne faut pas que tu laisses ton sac sur la chaise.", en: "You mustn't leave your bag on the chair." },
           { es: "Ce quartier est un peu dangereux la nuit.", en: "This area is a bit dangerous at night." },
-          { es: "Méfie-toi, c'est sûrement une arnaque.", en: "Be careful, it's surely a scam." },
+          { es: "Méfie-toi, c'est sûrement une arnaque.", en: "Watch out, it's bound to be a scam." },
         ],
         checkpoint: [
           {
@@ -1831,9 +1831,10 @@ export const FR_B1_U03: Lesson[] = [
         altAnswers: [
           "On a été cambriolés pendant les vacances.",
           "Nous avons été cambriolés pendant les vacances.",
-          "Notre maison a été cambriolée pendant les vacances d'été.",
+          "On nous a cambriolés pendant les vacances.",
+          "Des cambrioleurs sont entrés chez nous pendant les vacances.",
         ],
-        explanation: "\"Cambrioler\" = to burgle; passive \"a été cambriolée\".",
+        explanation: "\"Cambrioler\" = to burgle. \"A été cambriolée\" works like \"a été annulé\": \"être\" in the passé composé + a participle that agrees like an adjective (you'll study this passive properly in Unit 19). \"On nous a cambriolés\" says the same with \"on\".",
       },
       {
         type: "translate",

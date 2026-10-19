@@ -63,7 +63,7 @@ export const CELPE_BRAS_3_COLETIVA: ExamPaper = {
           minWords: 150,
           maxWords: 250,
           rubric: [
-            "\"Adequação ao contexto\": a school blog post by a teacher, addressed to the pupils' families, that informs them and asks them to take part",
+            "\"Adequação ao contexto\": a school blog post by a teacher, addressed to the students' families, that informs them and asks them to take part",
             "Uses the report: what the waste pickers' work means (from working alone in the street to a fixed income), why recycling matters (landfill, raw materials, energy)",
             "Gives the practical guidance from the report (dry and wet waste apart, rinse the packaging, nothing dirty with the recyclables) and why it matters (almost a third is lost)",
             "\"Adequação discursiva\": a title, a greeting to the families, the news of the partnership, the explanation, the guidance and an invitation that closes the post",
@@ -125,7 +125,7 @@ export const CELPE_BRAS_3_COLETIVA: ExamPaper = {
           rubric: [
             "\"Adequação ao contexto\": a message in the gym's app from the gym to its members: direct, friendly and motivating, not alarmist",
             "Uses the bulletin: the situation (28 %, the lowest in ten years, less than half the expected rain, lower pressure at night, a possible \"rodízio\") and the engineer's figures and advice",
-            "Adapts the advice to a gym's changing rooms (short showers, taps, reporting leaks) and says what the gym itself is doing",
+            "Adapts the advice to a gym's locker rooms (short showers, faucets, reporting leaks) and says what the gym itself is doing",
             "\"Adequação discursiva\": a catchy title, the situation, the requests (a list is fine), the gym's part and a short positive close",
             "\"Adequação linguística\": the imperative with \"você\" (\"tome\", \"feche\", \"avise\"), the future and conditional for what may happen (\"poderá haver rodízio\"), accurate figures",
           ],
@@ -163,9 +163,9 @@ export const CELPE_BRAS_3_COLETIVA: ExamPaper = {
           minWords: 150,
           maxWords: 250,
           rubric: [
-            "\"Adequação ao contexto\": a shop's introduction on social media, by its two owners, aimed at young potential customers: persuasive and lively",
-            "Uses the text's three reasons to buy second-hand (price, one-off pieces, the environment and \"moda circular\") as selling points",
-            "Shows the shop follows the good practice the text describes (clean pieces in good condition, sorted by style and size, fair prices, trade-ins for a discount)",
+            "\"Adequação ao contexto\": a store's introduction on social media, by its two owners, aimed at young potential customers: persuasive and lively",
+            "Uses the text's three reasons to buy second-hand (price, one-of-a-kind pieces, the environment and \"moda circular\") as selling points",
+            "Shows the store follows the good practice the text describes (clean pieces in good condition, sorted by style and size, fair prices, trade-ins for a discount)",
             "\"Adequação discursiva\": a welcome or slogan, who you are, why buy here, the invitation with date, time and address, and a call to action",
             "\"Adequação linguística\": persuasive devices (questions to the reader, the imperative: \"venha\", \"traga\"), a light register that stays correct, accurate vocabulary (\"peça\", \"garimpar\", \"brechó\")",
           ],

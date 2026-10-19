@@ -50,12 +50,12 @@ export const PT_B2_U21: Lesson[] = [
         heading: "Tinha sido prometida: the compound tenses",
         body: [
           "In the compound tenses the passive has two participles in a row. \"Ter\" carries the tense, \"sido\" never changes, and only the last participle agrees: \"a obra tinha sido prometida\", \"os moradores tinham sido avisados\". In newspapers you'll also read \"havia sido prometida\", the formal twin. The conditional perfect follows the same pattern: \"o acidente teria sido evitado\".",
-          "The trap for English speakers is \"tem sido\". \"A ponte tem sido criticada\" means it has been criticised again and again, up to now. It is never the one-off English present perfect. 'The bill has been approved' is \"o projeto foi aprovado\". Use \"tem sido\" only for something repeated or ongoing: \"o prefeito tem sido muito criticado\" (lately).",
+          "The trap for English speakers is \"tem sido\". \"A ponte tem sido criticada\" means it has been criticized again and again, up to now. It is never the one-off English present perfect. 'The bill has been approved' is \"o projeto foi aprovado\". Use \"tem sido\" only for something repeated or ongoing: \"o prefeito tem sido muito criticado\" (lately).",
         ],
         examples: [
           { es: "A obra tinha sido prometida em 2022, mas nunca começou.", en: "The work had been promised in 2022, but it never started." },
           { es: "Os moradores não tinham sido avisados sobre o corte de água.", en: "The residents hadn't been warned about the water cut." },
-          { es: "O metrô de Salvador tem sido muito elogiado pelos turistas.", en: "Salvador's metro has been getting a lot of praise from tourists." },
+          { es: "O metrô de Salvador tem sido muito elogiado pelos turistas.", en: "Salvador's subway has been getting a lot of praise from tourists." },
           { es: "O projeto de lei foi aprovado.", en: "The bill has been approved." },
           { es: "Segundo os engenheiros, o desabamento teria sido causado pela chuva.", en: "According to the engineers, the collapse was reportedly caused by the rain." },
           { es: "As provas já haviam sido corrigidas quando o erro foi descoberto.", en: "The tests had already been marked when the mistake was discovered." },
@@ -81,7 +81,7 @@ export const PT_B2_U21: Lesson[] = [
             type: "listen-choose",
             audio: "A ponte tem sido muito criticada.",
             question: "What does it mean?",
-            options: ["The bridge has been criticised a lot lately.", "The bridge was criticised once.", "The bridge will be criticised a lot.", "The bridge had been criticised before."],
+            options: ["The bridge has been criticized a lot lately.", "The bridge was criticized once.", "The bridge will be criticized a lot.", "The bridge had been criticized before."],
             correctIndex: 0,
             explanation: "\"Tem sido\" is the repeated, up-to-now passive: the criticism keeps coming.",
           },
@@ -91,12 +91,12 @@ export const PT_B2_U21: Lesson[] = [
         heading: "Reading news leads",
         body: [
           "Brazilian news leads pack several passives into one sentence, often in different tenses. Read them in time order: \"A creche, que tinha sido prometida em 2021, foi entregue ontem e será ampliada no ano que vem.\" Three tenses of \"ser\", three agreements with \"a creche\".",
-          "Notice also the short participles you learnt at B1: \"entregue\", \"pago\", \"aceito\", \"eleito\", \"preso\". With \"ser\" they are the only natural choice, whatever the tense: \"tinha sido pago\", \"será entregue\".",
+          "Notice also the short participles you learned at B1: \"entregue\", \"pago\", \"aceito\", \"eleito\", \"preso\". With \"ser\" they are the only natural choice, whatever the tense: \"tinha sido pago\", \"será entregue\".",
         ],
         examples: [
-          { es: "A creche, que tinha sido prometida em 2021, foi entregue ontem.", en: "The nursery, which had been promised in 2021, was handed over yesterday." },
+          { es: "A creche, que tinha sido prometida em 2021, foi entregue ontem.", en: "The daycare center, which had been promised in 2021, was handed over yesterday." },
           { es: "O suspeito foi preso em Recife e será ouvido amanhã.", en: "The suspect was arrested in Recife and will be questioned tomorrow." },
-          { es: "A nova vereadora foi eleita com mais de vinte mil votos.", en: "The new councillor was elected with more than twenty thousand votes." },
+          { es: "A nova vereadora foi eleita com mais de vinte mil votos.", en: "The new councilor was elected with more than twenty thousand votes." },
           { es: "A dívida já tinha sido paga quando a cobrança chegou.", en: "The debt had already been paid when the bill arrived." },
           { es: "A praça será reformada e ganhará uma nova iluminação.", en: "The square will be renovated and will get new lighting." },
         ],
@@ -151,7 +151,7 @@ export const PT_B2_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The mayor has been criticised a lot this year.",
+        source: "The mayor has been criticized a lot this year.",
         answer: "O prefeito tem sido muito criticado este ano.",
         altAnswers: ["O prefeito tem sido muito criticado neste ano.", "O prefeito tem sido bastante criticado este ano.", "A prefeita tem sido muito criticada este ano.", "A prefeita tem sido muito criticada neste ano."],
         explanation: "Repeated criticism up to now is exactly what \"tem sido\" expresses.",
@@ -254,7 +254,7 @@ export const PT_B2_U21: Lesson[] = [
           { es: "Se a lei fosse aprovada, os aluguéis cairiam.", en: "If the law were passed, rents would go down." },
           { es: "Quando o pedido for confirmado, você vai receber um e-mail.", en: "When the order is confirmed, you'll get an email." },
           { es: "Se o seu nome for sorteado, entraremos em contato.", en: "If your name is drawn, we'll get in touch." },
-          { es: "Caso a reunião seja cancelada, os participantes serão avisados.", en: "If the meeting is cancelled, participants will be notified." },
+          { es: "Caso a reunião seja cancelada, os participantes serão avisados.", en: "If the meeting is canceled, participants will be notified." },
           { es: "Assim que os votos forem contados, saberemos o resultado.", en: "As soon as the votes are counted, we'll know the result." },
         ],
         checkpoint: [
@@ -294,7 +294,7 @@ export const PT_B2_U21: Lesson[] = [
           { es: "Se a barragem tivesse sido inspecionada, o acidente teria sido evitado.", en: "If the dam had been inspected, the accident would have been avoided." },
           { es: "Esperamos que a mensagem tenha sido recebida.", en: "We hope the message has been received." },
           { es: "Não acredito que o contrato tenha sido assinado sem revisão.", en: "I can't believe the contract was signed without being checked." },
-          { es: "Se o alarme tivesse sido ligado, o ladrão não teria entrado.", en: "If the alarm had been switched on, the thief wouldn't have got in." },
+          { es: "Se o alarme tivesse sido ligado, o ladrão não teria entrado.", en: "If the alarm had been switched on, the thief wouldn't have gotten in." },
           { es: "Embora o prazo tenha sido prorrogado, muitos não conseguiram se inscrever.", en: "Although the deadline was extended, many people didn't manage to sign up." },
         ],
         checkpoint: [
@@ -355,7 +355,7 @@ export const PT_B2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're writing to a client: 'If the meeting is cancelled, you will be notified.' Which sentence is correct?",
+        question: "You're writing to a client: 'If the meeting is canceled, you will be notified.' Which sentence is correct?",
         options: ["Caso a reunião seja cancelada, o senhor será avisado.", "Caso a reunião for cancelada, o senhor será avisado.", "Caso a reunião é cancelada, o senhor será avisado.", "Caso a reunião fosse cancelada, o senhor será avisado."],
         correctIndex: 0,
         explanation: "\"Caso\" takes the present subjunctive: \"seja cancelada\". \"For\" goes with \"se\", not with \"caso\".",
@@ -404,7 +404,7 @@ export const PT_B2_U21: Lesson[] = [
     level: "PT-B2",
     number: 3,
     title: "Deve Ser Entregue, Está Sendo Investigado",
-    summary: "Use the passive after dever, poder, precisar and ter que, describe ongoing processes with estar sendo + participle, and steer clear of the call-centre gerundismo vai estar sendo enviado.",
+    summary: "Use the passive after dever, poder, precisar and ter que, describe ongoing processes with estar sendo + participle, and steer clear of the call-center gerundismo vai estar sendo enviado.",
     duration: "15 min",
     kind: "teach",
     sections: [
@@ -412,7 +412,7 @@ export const PT_B2_U21: Lesson[] = [
         heading: "Deve ser entregue, pode ser feito",
         body: [
           "After a modal verb, the passive is simply \"ser\" in the infinitive + the participle: \"o relatório deve ser entregue até sexta\", \"a taxa pode ser paga pelo aplicativo\", \"o texto precisa ser revisado\", \"tudo tem que ser refeito\". The modal agrees with the subject as a verb, the participle as an adjective: \"as taxas podem ser pagas\".",
-          "This is the backbone of instructions, rules and forms. Note that \"precisar\" takes no \"de\" before an infinitive: \"precisa ser revisado\", not \"*precisa de ser revisado\". The preposition only appears before a noun: \"precisa de revisão\".",
+          "This is the backbone of instructions, rules and forms. Note that \"precisar\" takes no \"de\" before an infinitive: \"precisa ser revisado\", not \"precisa de ser revisado\", which sounds European in Brazil. Before a noun the preposition is needed: \"precisa de revisão\".",
           "With \"ter que\" and \"dever\" the difference is the usual one: \"tem que ser feito\" is a firm necessity, \"deve ser feito\" an obligation or a rule (or, in some contexts, a likelihood: \"o pacote deve ser entregue amanhã\" can mean it should arrive tomorrow).",
         ],
         examples: [
@@ -478,11 +478,11 @@ export const PT_B2_U21: Lesson[] = [
       {
         heading: "Vai estar sendo enviado: the gerundismo trap",
         body: [
-          "Call centres made a construction famous: \"o seu cartão vai estar sendo enviado\", \"vou estar transferindo a sua ligação\". This is called gerundismo, and Brazilians mock it as clumsy. For a single future action, use the plain future: \"o seu cartão será enviado\" (or \"vai ser enviado\"), \"vou transferir a sua ligação\".",
+          "Call centers made a construction famous: \"o seu cartão vai estar sendo enviado\", \"vou estar transferindo a sua ligação\". This is called gerundismo, and Brazilians mock it as clumsy. For a single future action, use the plain future: \"o seu cartão será enviado\" (or \"vai ser enviado\"), \"vou transferir a sua ligação\".",
           "\"Ir + estar + gerúndio\" is fine when you really mean something in progress at a future moment: \"amanhã às dez eu vou estar dando aula\" (I'll be in the middle of teaching). The test: could you say 'in the middle of'? If not, drop \"estar\".",
         ],
         examples: [
-          { es: "O seu cartão será enviado em até dez dias úteis.", en: "Your card will be sent within ten working days." },
+          { es: "O seu cartão será enviado em até dez dias úteis.", en: "Your card will be sent within ten business days." },
           { es: "Vou transferir a sua ligação para o setor financeiro.", en: "I'm going to transfer your call to the finance department." },
           { es: "A resposta vai ser enviada por e-mail.", en: "The reply is going to be sent by email." },
           { es: "Amanhã às dez eu vou estar dando aula, então me liga depois.", en: "Tomorrow at ten I'll be teaching, so call me later." },
@@ -494,7 +494,7 @@ export const PT_B2_U21: Lesson[] = [
             question: "You're writing to a customer: 'The new card will be sent tomorrow.' Which sentence avoids gerundismo?",
             options: ["O novo cartão será enviado amanhã.", "O novo cartão vai estar sendo enviado amanhã.", "O novo cartão vai estar enviando amanhã.", "O novo cartão estará sendo enviado amanhã."],
             correctIndex: 0,
-            explanation: "A single future action takes the plain future passive: \"será enviado\". The \"estar sendo\" versions are the mocked call-centre style.",
+            explanation: "A single future action takes the plain future passive: \"será enviado\". The \"estar sendo\" versions are the mocked call-center style.",
           },
           {
             type: "translate",
@@ -509,7 +509,7 @@ export const PT_B2_U21: Lesson[] = [
             type: "speak",
             text: "Vou transferir a sua ligação.",
             tip: "Keep the r of \"transferir\" soft or drop it, as many Brazilians do: transfe-RI.",
-            explanation: "The plain \"ir\" + infinitive, without the call-centre \"vou estar transferindo\".",
+            explanation: "The plain \"ir\" + infinitive, without the call-center \"vou estar transferindo\".",
           },
         ],
       },
@@ -535,7 +535,7 @@ export const PT_B2_U21: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The fee [can be paid] in instalments.",
+        en: "The fee [can be paid] in installments.",
         sentence: "A taxa ___ em parcelas.",
         answer: "pode ser paga",
         altAnswers: ["pode ser parcelada"],
@@ -612,13 +612,13 @@ export const PT_B2_U21: Lesson[] = [
         heading: "Ficou pronto: the result of a change",
         body: [
           "\"Ficar\" + participle (or adjective) tells you how something ended up after a change: \"o bolo ficou pronto\" (the cake was ready, it got done), \"a cozinha ficou destruída\" (the kitchen was left destroyed), \"ele ficou conhecido no Brasil inteiro\" (he became known). English uses was, got, ended up or became, so learners reach for \"foi\" and lose the idea of a result.",
-          "It also covers staying in a state for a while: \"a loja ficou fechada um mês\" (the shop stayed closed for a month), \"o carro ficou parado na garagem\". The participle agrees with the subject like an adjective.",
+          "It also covers staying in a state for a while: \"a loja ficou fechada um mês\" (the store stayed closed for a month), \"o carro ficou parado na garagem\". The participle agrees with the subject like an adjective.",
         ],
         examples: [
           { es: "O jantar ficou pronto às oito.", en: "Dinner was ready at eight." },
           { es: "Depois da enchente, a cozinha ficou destruída.", en: "After the flood, the kitchen was left destroyed." },
           { es: "A cantora ficou conhecida com o primeiro disco.", en: "The singer became known with her first album." },
-          { es: "A loja ficou fechada durante um mês.", en: "The shop stayed closed for a month." },
+          { es: "A loja ficou fechada durante um mês.", en: "The store stayed closed for a month." },
           { es: "O carro ficou parado na garagem o inverno inteiro.", en: "The car sat in the garage all winter." },
         ],
         checkpoint: [
@@ -653,7 +653,7 @@ export const PT_B2_U21: Lesson[] = [
           { es: "Ficou decidido que a reunião será às nove.", en: "It was decided that the meeting will be at nine." },
           { es: "Ficou combinado que cada um leva um prato.", en: "We agreed that everyone would bring a dish." },
           { es: "Ficou provado que o réu mentiu ao juiz.", en: "It was proven that the defendant lied to the judge." },
-          { es: "O problema do vazamento já ficou resolvido.", en: "The leak problem has been sorted out." },
+          { es: "O problema do vazamento já ficou resolvido.", en: "The leak problem has been fixed." },
           { es: "Então fica combinado: oito horas na porta do cinema.", en: "So it's settled: eight o'clock at the cinema entrance." },
           { es: "Ficou acertado que a empresa vai pagar as despesas.", en: "It was agreed that the company will pay the expenses." },
         ],
@@ -693,7 +693,7 @@ export const PT_B2_U21: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Choose the best verb: 'After the storm, the whole neighbourhood ___ sem luz por dois dias.'",
+            question: "Choose the best verb: 'After the storm, the whole neighborhood ___ sem luz por dois dias.'",
             options: ["ficou", "foi", "está", "era"],
             correctIndex: 0,
             explanation: "A result that lasted a while: \"ficou sem luz por dois dias\".",
@@ -810,10 +810,10 @@ export const PT_B2_U21: Lesson[] = [
           "The Unit 5 rules for pronoun position still apply: \"não se aceitam cheques\", \"os produtos que se vendem aqui\". After a trigger the \"se\" moves before the verb, but the agreement stays.",
         ],
         examples: [
-          { es: "Alugam-se salas comerciais no centro.", en: "Office rooms for rent in the city centre." },
-          { es: "Vende-se apartamento de dois quartos.", en: "Two-bedroom flat for sale." },
-          { es: "Consertam-se celulares e computadores.", en: "Mobile phones and computers repaired." },
-          { es: "Não se aceitam cheques nem cartões de crédito.", en: "Cheques and credit cards are not accepted." },
+          { es: "Alugam-se salas comerciais no centro.", en: "Office rooms for rent in the city center." },
+          { es: "Vende-se apartamento de dois quartos.", en: "Two-bedroom apartment for sale." },
+          { es: "Consertam-se celulares e computadores.", en: "Cell phones and computers repaired." },
+          { es: "Não se aceitam cheques nem cartões de crédito.", en: "Checks and credit cards are not accepted." },
           { es: "Ouviram-se gritos na rua durante a noite.", en: "Shouts were heard in the street during the night." },
           { es: "Os livros que se vendem nessa feira são usados.", en: "The books sold at that fair are second-hand." },
         ],
@@ -840,7 +840,7 @@ export const PT_B2_U21: Lesson[] = [
         heading: "Precisa-se de: the se indeterminado never goes plural",
         body: [
           "When the verb takes a preposition (\"precisar de\", \"tratar de\", \"confiar em\", \"gostar de\") or has no object at all (\"viver\", \"trabalhar\", \"dormir\"), the \"se\" doesn't make a passive. It just marks an unnamed someone, like English one or people. The noun after the preposition is not the subject, so the verb stays singular: \"precisa-se de funcionários\", \"trata-se de problemas antigos\", \"vive-se bem em Curitiba\".",
-          "The test is the preposition. \"Vendem-se casas\": no preposition, plural verb. \"Precisa-se de vendedores\": \"de\" in between, singular verb. \"*Precisam-se de vendedores\" is a classic hypercorrection by people who learnt the first rule too well.",
+          "The test is the preposition. \"Vendem-se casas\": no preposition, plural verb. \"Precisa-se de vendedores\": \"de\" in between, singular verb. \"*Precisam-se de vendedores\" is a classic hypercorrection by people who learned the first rule too well.",
         ],
         examples: [
           { es: "Precisa-se de vendedores com experiência.", en: "Experienced salespeople wanted." },
@@ -885,9 +885,9 @@ export const PT_B2_U21: Lesson[] = [
         ],
         examples: [
           { es: "Aqui conserta celular e tablet.", en: "Phones and tablets fixed here. (spoken style)" },
-          { es: "Naquela loja eles consertam qualquer coisa.", en: "That shop fixes anything." },
+          { es: "Naquela loja eles consertam qualquer coisa.", en: "That store fixes anything." },
           { es: "Em Belém você come muito bem e paga pouco.", en: "In Belém you eat very well and pay little." },
-          { es: "Alugam-se apartamentos mobiliados por temporada.", en: "Furnished flats for short-term rent." },
+          { es: "Alugam-se apartamentos mobiliados por temporada.", en: "Furnished apartments for short-term rent." },
         ],
         checkpoint: [
           {
@@ -1033,13 +1033,13 @@ export const PT_B2_U21: Lesson[] = [
         heading: "He was born, it was stolen: verbs that stay active",
         body: [
           "Some English passives are just active verbs in Portuguese. \"Ele nasceu em 1990\" (he was born): \"nascer\" is an ordinary verb. \"Ela se formou em Direito\" (she graduated), \"o show se chama...\" (the show is called), \"o filme se passa em Manaus\" (the film is set in Manaus).",
-          "For everyday incidents, speech prefers the active with an unnamed they: \"roubaram meu celular\" (my phone was stolen), \"cancelaram o voo\" (the flight was cancelled), \"me mandaram embora\" (I was fired). \"Meu celular foi roubado\" is correct and sounds more like a police report. The impersonal \"dizem que\" or \"diz-se que\" covers it is said that.",
+          "For everyday incidents, speech prefers the active with an unnamed they: \"roubaram meu celular\" (my phone was stolen), \"cancelaram o voo\" (the flight was canceled), \"me mandaram embora\" (I was fired). \"Meu celular foi roubado\" is correct and sounds more like a police report. The impersonal \"dizem que\" or \"diz-se que\" covers it is said that.",
         ],
         examples: [
           { es: "Meu avô nasceu em Manaus em 1948.", en: "My grandfather was born in Manaus in 1948." },
           { es: "O filme se passa no interior da Bahia.", en: "The film is set in the interior of Bahia." },
           { es: "Roubaram meu celular no ônibus.", en: "My phone was stolen on the bus." },
-          { es: "Cancelaram o voo por causa da neblina.", en: "The flight was cancelled because of the fog." },
+          { es: "Cancelaram o voo por causa da neblina.", en: "The flight was canceled because of the fog." },
           { es: "Dizem que o restaurante vai fechar.", en: "It's said that the restaurant is going to close." },
         ],
         checkpoint: [
@@ -1124,7 +1124,7 @@ export const PT_B2_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The flight was cancelled. (casual)",
+        source: "The flight was canceled. (casual)",
         answer: "Cancelaram o voo.",
         altAnswers: ["O voo foi cancelado."],
         explanation: "Speech: unnamed they, \"cancelaram\". The passive \"foi cancelado\" is also correct.",
@@ -1166,7 +1166,7 @@ export const PT_B2_U21: Lesson[] = [
         type: "listen-choose",
         audio: "Me disseram que a loja fecha às seis.",
         question: "What does it mean?",
-        options: ["I was told the shop closes at six.", "I told them the shop closes at six.", "They asked me when the shop closes.", "The shop told me it opens at six."],
+        options: ["I was told the store closes at six.", "I told them the store closes at six.", "They asked me when the store closes.", "The store told me it opens at six."],
         correctIndex: 0,
         explanation: "\"Me disseram\" = they told me, the Portuguese for I was told.",
       },
@@ -1225,20 +1225,20 @@ export const PT_B2_U21: Lesson[] = [
         heading: "Os moradores tinham sido avisados?",
         body: [
           "Next, Cláudia asks the questions a reader will ask: were the residents warned? Is anything being done now? Diego's notes are in speech style (\"ninguém avisou os moradores\", \"estão analisando o caso\"), and she helps him turn them into print: \"os moradores não tinham sido avisados\", \"o caso está sendo analisado pelo Ministério Público\".",
-          "She also cuts a line straight out of a call centre. The city hall's note said \"a população vai estar sendo informada\". In the article it becomes \"a população será informada\".",
+          "She also cuts a line straight out of a call center. The city hall's note said \"a população vai estar sendo informada\". In the article it becomes \"a população será informada\".",
         ],
         examples: [
           { es: "Os moradores tinham sido avisados da interrupção?", en: "Had the residents been told about the halt?" },
           { es: "Não, ninguém avisou os moradores. Eles souberam pela TV.", en: "No, nobody told the residents. They found out from TV." },
           { es: "Então escreve: \"Os moradores não tinham sido avisados.\"", en: "Then write: 'The residents had not been informed.'" },
           { es: "O caso está sendo analisado pelo Ministério Público.", en: "The case is being looked into by the Public Prosecutor's Office." },
-          { es: "Tira esse \"vai estar sendo informada\". Coloca \"será informada\".", en: "Take out that call-centre gerund. Put the plain future." },
+          { es: "Tira esse \"vai estar sendo informada\". Coloca \"será informada\".", en: "Take out that call-center gerund. Put the plain future." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The case [is being analysed] by the Public Prosecutor's Office.",
+            en: "The case [is being analyzed] by the Public Prosecutor's Office.",
             sentence: "O caso ___ pelo Ministério Público.",
             answer: "está sendo analisado",
             altAnswers: ["está sendo investigado"],
@@ -1269,9 +1269,9 @@ export const PT_B2_U21: Lesson[] = [
           "The last paragraph reports the meeting between the residents and the city hall. Diego wrote \"eles combinaram que\", and Cláudia changes it to \"ficou combinado que\": it's the outcome that matters, and \"eles\" was unclear. She keeps one agent, though: \"a vistoria será feita pela Defesa Civil\". When who does it is news, name it with \"pelo\" or \"pela\"; when it's obvious or unknown, leave it out.",
         ],
         examples: [
-          { es: "Ficou combinado que a prefeitura vai publicar um novo cronograma.", en: "It was agreed that the city hall will publish a new timetable." },
-          { es: "A vistoria será feita pela Defesa Civil na semana que vem.", en: "The inspection will be carried out by Civil Defence next week." },
-          { es: "Precisa dizer quem fez? Aqui, sim: é a Defesa Civil.", en: "Do we need to say who does it? Here, yes: it's Civil Defence." },
+          { es: "Ficou combinado que a prefeitura vai publicar um novo cronograma.", en: "It was agreed that the city hall will publish a new schedule." },
+          { es: "A vistoria será feita pela Defesa Civil na semana que vem.", en: "The inspection will be carried out by Civil Defense next week." },
+          { es: "Precisa dizer quem fez? Aqui, sim: é a Defesa Civil.", en: "Do we need to say who does it? Here, yes: it's Civil Defense." },
           { es: "Ótimo. Agora a matéria está pronta para ser publicada.", en: "Great. Now the story is ready to be published." },
         ],
         checkpoint: [
@@ -1279,7 +1279,7 @@ export const PT_B2_U21: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "It was agreed that a new timetable will be published.",
+            source: "It was agreed that a new schedule will be published.",
             answer: "Ficou combinado que um novo cronograma será publicado.",
             altAnswers: ["Ficou combinado que um novo cronograma vai ser publicado.", "Ficou acertado que um novo cronograma será publicado.", "Ficou combinado que será publicado um novo cronograma.", "Ficou combinado que um cronograma novo será publicado."],
             explanation: "\"Ficou combinado que\" for the outcome, then a future passive.",
@@ -1287,7 +1287,7 @@ export const PT_B2_U21: Lesson[] = [
           {
             type: "speak",
             text: "A vistoria será feita pela Defesa Civil.",
-            tip: "\"Pela\" has an open e, like in English 'pell'.",
+            tip: "\"Pela\" has a closed e, like the e in English 'they' without the glide: PÊ-la.",
             explanation: "The agent is named with \"pela\" because who does the inspection is part of the news.",
           },
         ],
@@ -1315,7 +1315,7 @@ export const PT_B2_U21: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The inspection [will be carried out] by Civil Defence.",
+        en: "The inspection [will be carried out] by Civil Defense.",
         sentence: "A vistoria ___ pela Defesa Civil.",
         answer: "será feita",
         altAnswers: ["vai ser feita", "será realizada", "vai ser realizada"],
@@ -1393,8 +1393,8 @@ export const PT_B2_U21: Lesson[] = [
           "English uses was closed for both the event and the past state, which is why learners write \"foi fechada\" when they mean \"estava fechada\": \"quando cheguei, a loja estava fechada\" (it was already closed) vs \"a loja foi fechada às seis\" (someone closed it at six).",
         ],
         examples: [
-          { es: "A loja foi fechada pela prefeitura ontem.", en: "The shop was closed down by the city hall yesterday." },
-          { es: "A loja está fechada; volte amanhã.", en: "The shop is closed; come back tomorrow." },
+          { es: "A loja foi fechada pela prefeitura ontem.", en: "The store was closed down by the city hall yesterday." },
+          { es: "A loja está fechada; volte amanhã.", en: "The store is closed; come back tomorrow." },
           { es: "Quando cheguei, a farmácia já estava fechada.", en: "When I arrived, the pharmacy was already closed." },
           { es: "A farmácia foi fechada às dez em ponto.", en: "The pharmacy was closed at exactly ten." },
           { es: "O contrato foi assinado na terça; agora está assinado e arquivado.", en: "The contract was signed on Tuesday; now it's signed and filed." },
@@ -1422,14 +1422,14 @@ export const PT_B2_U21: Lesson[] = [
         heading: "Está fechada / ficou fechada",
         body: [
           "\"Ficou fechada\" adds a change or a duration that \"está\" doesn't have. \"A estrada ficou fechada três dias\" (it stayed closed for three days, then reopened). \"Depois da reforma, a sala ficou ótima\" (it turned out great). If your sentence has \"por\", \"durante\" or a stretch of time, or describes how something turned out, \"ficar\" is usually the verb.",
-          "\"Ficou\" also gives the result of an action without naming it: \"o problema ficou resolvido\" (it's sorted now), against \"o problema foi resolvido pelo técnico\" (the technician solved it).",
+          "\"Ficou\" also gives the result of an action without naming it: \"o problema ficou resolvido\" (it's fixed now), against \"o problema foi resolvido pelo técnico\" (the technician solved it).",
         ],
         examples: [
           { es: "A estrada ficou fechada três dias por causa do deslizamento.", en: "The road stayed closed for three days because of the landslide." },
           { es: "A estrada está fechada; vamos pegar outro caminho.", en: "The road is closed; let's take another route." },
           { es: "Depois da reforma, a sala ficou muito mais clara.", en: "After the renovation, the living room turned out much brighter." },
           { es: "O problema foi resolvido pelo técnico em dez minutos.", en: "The problem was solved by the technician in ten minutes." },
-          { es: "O problema ficou resolvido, pelo menos por enquanto.", en: "The problem is sorted, at least for now." },
+          { es: "O problema ficou resolvido, pelo menos por enquanto.", en: "The problem is fixed, at least for now." },
         ],
         checkpoint: [
           {
@@ -1535,7 +1535,7 @@ export const PT_B2_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The problem is sorted now.",
+        source: "The problem is fixed now.",
         answer: "O problema já está resolvido.",
         altAnswers: ["Agora o problema está resolvido.", "O problema está resolvido agora.", "O problema ficou resolvido.", "O problema já ficou resolvido."],
         explanation: "A present state: \"está resolvido\"; \"ficou resolvido\" also presents the outcome.",
@@ -1558,7 +1558,7 @@ export const PT_B2_U21: Lesson[] = [
       {
         type: "speak",
         text: "A loja foi fechada pela prefeitura.",
-        prompt: "Say it in Portuguese: The shop was closed down by the city hall.",
+        prompt: "Say it in Portuguese: The store was closed down by the city hall.",
         tip: "\"Prefeitura\": the ei is a full diphthong, pre-FEI-tu-ra.",
         explanation: "The event with an agent: \"foi fechada pela\".",
       },
@@ -1569,7 +1569,7 @@ export const PT_B2_U21: Lesson[] = [
     level: "PT-B2",
     number: 9,
     title: "Error Hunt: The Passive",
-    summary: "Find and fix the passive mistakes learners and native writers make: broken agreement, vende-se casas, precisam-se de, foi aceitado, eu fui dito and the call-centre vai estar sendo.",
+    summary: "Find and fix the passive mistakes learners and native writers make: broken agreement, vende-se casas, precisam-se de, foi aceitado, eu fui dito and the call-center vai estar sendo.",
     duration: "15 min",
     kind: "drill",
     format: "Error Hunt",
@@ -1584,7 +1584,7 @@ export const PT_B2_U21: Lesson[] = [
           { es: "As casas foram vendidas em menos de um mês.", en: "The houses were sold in less than a month." },
           { es: "A carta foi escrita pelo próprio presidente.", en: "The letter was written by the president himself." },
           { es: "A lista com os nomes dos aprovados foi divulgada hoje.", en: "The list with the names of those who passed was published today." },
-          { es: "As provas tinham sido corrigidas antes do feriado.", en: "The tests had been marked before the holiday." },
+          { es: "As provas tinham sido corrigidas antes do feriado.", en: "The tests had been graded before the break." },
           { es: "Os resultados das provas foram divulgados ontem.", en: "The exam results were published yesterday." },
         ],
         checkpoint: [
@@ -1784,11 +1784,11 @@ export const PT_B2_U21: Lesson[] = [
           "Watch the participles that change form: \"prendido\" in the active becomes \"presos\" with \"ser\"; \"tinha entregado\" becomes \"tinha sido entregue\".",
         ],
         examples: [
-          { es: "A prefeitura vai reformar a praça. → A praça será reformada pela prefeitura.", en: "The city hall is going to renovate the square. → The square will be renovated by the city hall." },
-          { es: "A polícia tinha prendido dois suspeitos. → Dois suspeitos tinham sido presos.", en: "The police had arrested two suspects. → Two suspects had been arrested." },
-          { es: "O júri escolheu as finalistas. → As finalistas foram escolhidas pelo júri.", en: "The jury chose the finalists. → The finalists were chosen by the jury." },
-          { es: "Os vizinhos estão pintando o muro. → O muro está sendo pintado.", en: "The neighbours are painting the wall. → The wall is being painted." },
-          { es: "A empresa teria demitido cem pessoas. → Cem pessoas teriam sido demitidas.", en: "The company reportedly fired a hundred people. → A hundred people were reportedly fired." },
+          { es: "A praça será reformada pela prefeitura.", en: "The square will be renovated by the city hall. (active: the city hall is going to renovate the square)" },
+          { es: "Dois suspeitos tinham sido presos pela polícia.", en: "Two suspects had been arrested by the police. (active: the police had arrested two suspects)" },
+          { es: "As finalistas foram escolhidas pelo júri.", en: "The finalists were chosen by the jury. (active: the jury chose the finalists)" },
+          { es: "O muro está sendo pintado pelos vizinhos.", en: "The wall is being painted by the neighbors. (active: the neighbors are painting the wall)" },
+          { es: "Cem pessoas teriam sido demitidas pela empresa.", en: "A hundred people were reportedly fired by the company. (active: the company reportedly fired them)" },
         ],
         checkpoint: [
           {
@@ -1802,7 +1802,7 @@ export const PT_B2_U21: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The wall [is being painted] by the neighbours.",
+            en: "The wall [is being painted] by the neighbors.",
             sentence: "O muro ___ pelos vizinhos.",
             answer: "está sendo pintado",
             explanation: "Active progressive \"estão pintando\" → passive \"está sendo pintado\", singular with \"o muro\".",
@@ -1816,10 +1816,10 @@ export const PT_B2_U21: Lesson[] = [
           "Often the agent disappears in the passive version, and that's the point: the sentence is about the text, the residents, the order.",
         ],
         examples: [
-          { es: "É preciso que alguém revise o texto. → É preciso que o texto seja revisado.", en: "Someone needs to check the text. → The text needs to be checked." },
-          { es: "Se tivessem avisado os moradores... → Se os moradores tivessem sido avisados...", en: "If they had warned the residents... → If the residents had been warned..." },
-          { es: "Quando a empresa aprovar o pedido... → Quando o pedido for aprovado...", en: "When the company approves the order... → When the order is approved..." },
-          { es: "Pediram que enviássemos as fotos. → Pediram que as fotos fossem enviadas.", en: "They asked us to send the photos. → They asked for the photos to be sent." },
+          { es: "É preciso que o texto seja revisado.", en: "The text needs to be checked. (active: someone needs to check the text)" },
+          { es: "Se os moradores tivessem sido avisados, nada disso teria acontecido.", en: "If the residents had been warned, none of this would have happened. (active: if they had warned the residents)" },
+          { es: "Quando o pedido for aprovado, a entrega será feita em dois dias.", en: "When the order is approved, delivery will take two days. (active: when the company approves the order)" },
+          { es: "Pediram que as fotos fossem enviadas.", en: "They asked for the photos to be sent. (active: they asked us to send the photos)" },
         ],
         checkpoint: [
           {
@@ -1847,17 +1847,17 @@ export const PT_B2_U21: Lesson[] = [
           "Going the other way, from a spoken report to an official text: \"roubaram o carro do vizinho\" → \"o carro do vizinho foi roubado\". In the police version, add the time and place: \"foi roubado na madrugada de sábado\".",
         ],
         examples: [
-          { es: "Casas são vendidas aqui. → Vendem-se casas aqui.", en: "Houses are sold here. (two written versions)" },
-          { es: "Roubaram o carro do vizinho. → O carro do vizinho foi roubado.", en: "Our neighbour's car was stolen. (speech → report)" },
-          { es: "Dizem que a ponte vai cair. → Diz-se que a ponte vai cair.", en: "People say the bridge is going to fall. (speech → formal)" },
-          { es: "Cancelaram o show por causa da chuva. → O show foi cancelado.", en: "The show was cancelled because of the rain." },
+          { es: "Vendem-se casas aqui.", en: "Houses are sold here. (the se passive, also written \"casas são vendidas aqui\")" },
+          { es: "O carro do vizinho foi roubado.", en: "Our neighbor's car was stolen. (report style; in speech: they stole our neighbor's car)" },
+          { es: "Diz-se que a ponte vai cair.", en: "It is said that the bridge is going to fall. (formal; in speech: people say the bridge is going to fall)" },
+          { es: "O show foi cancelado por causa da chuva.", en: "The show was canceled because of the rain. (in speech: they canceled the show)" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite \"Roubaram o carro do vizinho\" as a police report. Translate: The neighbour's car was stolen on Saturday night.",
-            source: "The neighbour's car was stolen on Saturday night.",
+            prompt: "Rewrite \"Roubaram o carro do vizinho\" as a police report. Translate: The neighbor's car was stolen on Saturday night.",
+            source: "The neighbor's car was stolen on Saturday night.",
             answer: "O carro do vizinho foi roubado no sábado à noite.",
             altAnswers: ["O carro do vizinho foi roubado na noite de sábado.", "O carro do vizinho foi furtado no sábado à noite.", "O carro do vizinho foi furtado na noite de sábado."],
             explanation: "Report style: passive \"foi roubado\" with the time.",
@@ -1866,7 +1866,7 @@ export const PT_B2_U21: Lesson[] = [
             type: "speak",
             text: "Vendem-se casas aqui.",
             prompt: "Say the written se version of: Casas são vendidas aqui.",
-            tip: "\"Vendem-se\": VEN-dãy-si, the -em is nasal.",
+            tip: "\"Vendem-se\": VEN-dẽy-si, the -em is nasal.",
             explanation: "The se passivo agrees with \"casas\".",
           },
         ],
@@ -1927,7 +1927,7 @@ export const PT_B2_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, as in speech.",
-        source: "The show was cancelled because of the rain.",
+        source: "The show was canceled because of the rain.",
         answer: "Cancelaram o show por causa da chuva.",
         altAnswers: ["O show foi cancelado por causa da chuva."],
         explanation: "Speech prefers the active with an unnamed they.",
@@ -1973,9 +1973,9 @@ export const PT_B2_U21: Lesson[] = [
           "Brazilian official notices open with a fixed formula: \"A Viação Litoral comunica que...\" or \"A Viação Litoral informa aos seus passageiros que...\". The company speaks of itself in the third person, never \"nós\" at the start. The rest is impersonal: the passive for what will happen, the se for general instructions.",
         ],
         examples: [
-          { es: "A Viação Litoral comunica que, a partir de 1º de junho, duas linhas sofrerão alterações.", en: "Viação Litoral announces that from 1 June two routes will change." },
+          { es: "A Viação Litoral comunica que, a partir de 1º de junho, duas linhas sofrerão alterações.", en: "Viação Litoral announces that starting June 1 two routes will change." },
           { es: "A Viação Litoral informa aos seus passageiros que a bilheteria será fechada para reforma.", en: "Viação Litoral informs passengers that the ticket office will be closed for renovation." },
-          { es: "Os horários foram revisados para atender à nova demanda.", en: "The timetables have been revised to meet the new demand." },
+          { es: "Os horários foram revisados para atender à nova demanda.", en: "The schedules have been revised to meet the new demand." },
           { es: "As passagens poderão ser compradas pelo aplicativo.", en: "Tickets can be bought through the app." },
         ],
         checkpoint: [
@@ -2007,10 +2007,10 @@ export const PT_B2_U21: Lesson[] = [
         ],
         examples: [
           { es: "Fica suspensa a venda de passagens no guichê da rodoviária.", en: "Ticket sales at the bus station counter are suspended." },
-          { es: "Ficam mantidos os horários de sábado e domingo.", en: "The Saturday and Sunday timetables remain unchanged." },
+          { es: "Ficam mantidos os horários de sábado e domingo.", en: "The Saturday and Sunday schedules remain unchanged." },
           { es: "Recomenda-se chegar ao ponto com dez minutos de antecedência.", en: "Passengers are advised to arrive at the stop ten minutes early." },
-          { es: "Solicita-se aos passageiros que verifiquem os novos horários.", en: "Passengers are asked to check the new timetables." },
-          { es: "Pedimos desculpas pelo transtorno.", en: "We apologise for the inconvenience." },
+          { es: "Solicita-se aos passageiros que verifiquem os novos horários.", en: "Passengers are asked to check the new schedules." },
+          { es: "Pedimos desculpas pelo transtorno.", en: "We apologize for the inconvenience." },
           { es: "Mais informações podem ser obtidas pelo telefone 0800 123 4567.", en: "More information is available on 0800 123 4567." },
         ],
         checkpoint: [
@@ -2043,7 +2043,7 @@ export const PT_B2_U21: Lesson[] = [
           "A model order: the formula and the news (\"comunica que...\"), the reason in the passive (\"as linhas foram reorganizadas para...\"), the practical details with \"ficar\" and modals, an instruction with the se, the apology and the contact. Keep each sentence short; the reader is scanning on a phone at a bus stop.",
         ],
         examples: [
-          { es: "As linhas 210 e 340 foram reorganizadas para reduzir o tempo de espera.", en: "Routes 210 and 340 have been reorganised to reduce waiting times." },
+          { es: "As linhas 210 e 340 foram reorganizadas para reduzir o tempo de espera.", en: "Routes 210 and 340 have been reorganized to reduce waiting times." },
           { es: "A partir de segunda-feira, a linha 210 deixará de passar pela Avenida Beira-Mar.", en: "From Monday, route 210 will no longer run along Avenida Beira-Mar." },
           { es: "Ficou definido, em acordo com a prefeitura, que haverá um ônibus extra nos horários de pico.", en: "It has been agreed with the city hall that there will be an extra bus at peak times." },
         ],
@@ -2052,7 +2052,7 @@ export const PT_B2_U21: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The routes have been reorganised to reduce waiting times.",
+            source: "The routes have been reorganized to reduce waiting times.",
             answer: "As linhas foram reorganizadas para reduzir o tempo de espera.",
             altAnswers: ["As linhas foram reorganizadas para diminuir o tempo de espera.", "As linhas foram reorganizadas a fim de reduzir o tempo de espera."],
             explanation: "A one-off change: perfeito passive \"foram reorganizadas\", not \"têm sido\".",
@@ -2115,16 +2115,16 @@ export const PT_B2_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The weekend timetables remain unchanged.",
+        source: "The weekend schedules remain unchanged.",
         answer: "Ficam mantidos os horários do fim de semana.",
         altAnswers: ["Os horários do fim de semana ficam mantidos.", "Os horários do fim de semana permanecem os mesmos.", "Ficam mantidos os horários de fim de semana.", "Os horários de fim de semana ficam mantidos."],
         explanation: "Official \"ficam mantidos\", agreeing with \"os horários\".",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: We apologise for the inconvenience.",
+        prompt: "Put the words in order to say: We apologize for the inconvenience.",
         words: ["Pedimos", "desculpas", "pelo", "transtorno."],
-        translation: "We apologise for the inconvenience.",
+        translation: "We apologize for the inconvenience.",
         explanation: "The fixed closing apology.",
       },
       {
@@ -2234,7 +2234,7 @@ export const PT_B2_U21: Lesson[] = [
         examples: [
           { es: "Embora tenha sido avisado, ele não apareceu.", en: "Although he had been told, he didn't show up." },
           { es: "Talvez a reunião seja adiada para a semana que vem.", en: "The meeting may be postponed until next week." },
-          { es: "Procuramos um apartamento que já tenha sido reformado.", en: "We're looking for a flat that has already been renovated." },
+          { es: "Procuramos um apartamento que já tenha sido reformado.", en: "We're looking for an apartment that has already been renovated." },
           { es: "Caso o pedido seja recusado, o valor será devolvido.", en: "If the request is refused, the amount will be refunded." },
         ],
         checkpoint: [
@@ -2351,7 +2351,7 @@ export const PT_B2_U21: Lesson[] = [
         type: "speak",
         text: "Os documentos devem ser enviados até sexta.",
         prompt: "Say it in Portuguese: The documents must be sent by Friday.",
-        tip: "\"Devem ser\": DÉ-vẽy-ser, nasal at the end of \"devem\".",
+        tip: "\"Devem ser\": DÊ-vẽy-ser, nasal at the end of \"devem\".",
         explanation: "Modal + passive infinitive, plural participle.",
       },
     ],
@@ -2360,7 +2360,7 @@ export const PT_B2_U21: Lesson[] = [
 
 export const PT_B2_U21_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You work in the communications office of a city hall in Brazil. A bridge in the city centre, promised years ago, has finally been reopened after delays. Write a short news item for the city's website: say what had been promised and when, what was done and by whom, what is being checked now, what was agreed with the residents and what will be done next. Use the passive in several tenses, ficar + participle and at least one se construction.",
+  prompt: "You work in the communications office of a city hall in Brazil. A bridge in the city center, promised years ago, has finally been reopened after delays. Write a short news item for the city's website: say what had been promised and when, what was done and by whom, what is being checked now, what was agreed with the residents and what will be done next. Use the passive in several tenses, ficar + participle and at least one se construction.",
   minWords: 120,
   maxWords: 220,
   rubric: [

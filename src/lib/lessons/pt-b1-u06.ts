@@ -278,7 +278,7 @@ export const PT_B1_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say: When I was a kid, I would play football every day?",
+            question: "How do you say: When I was a kid, I would play soccer every day?",
             options: [
               "Quando eu era criança, eu jogava futebol todo dia.",
               "Quando eu era criança, eu jogaria futebol todo dia.",
@@ -299,7 +299,7 @@ export const PT_B1_U06: Lesson[] = [
         examples: [
           { es: "Eu, no seu lugar, falaria com o chefe.", en: "If I were you, I'd talk to the boss." },
           { es: "No seu lugar, eu não assinaria esse contrato.", en: "In your place, I wouldn't sign that contract." },
-          { es: "No lugar dele, eu pediria desculpas.", en: "In his place, I'd apologise." },
+          { es: "No lugar dele, eu pediria desculpas.", en: "In his place, I'd apologize." },
           { es: "Você deveria ir ao médico.", en: "You should go to the doctor." },
           { es: "Seria melhor sair mais cedo por causa do trânsito.", en: "It'd be better to leave earlier because of the traffic." },
           { es: "Eu não faria isso.", en: "I wouldn't do that." },
@@ -528,7 +528,7 @@ export const PT_B1_U06: Lesson[] = [
       {
         heading: "Eu queria, você podia: polite requests",
         body: [
-          "In conversation, Brazilians rarely say \"eu gostaria\" or \"você poderia\". They use the imperfeito instead: \"eu queria um café\" (I'd like a coffee), \"você podia me ajudar?\" (could you help me?). The meaning is the same as the conditional, but the tone is lighter. This is exactly how people order at the padaria.",
+          "In casual conversation, Brazilians use \"eu gostaria\" and \"você poderia\" less than you might expect. They often use the imperfeito instead: \"eu queria um café\" (I'd like a coffee), \"você podia me ajudar?\" (could you help me?). The meaning is the same as the conditional, but the tone is lighter. This is exactly how people order at the padaria.",
           "English softens requests with a past form too (I was wondering if...). The past puts a little distance between you and what you ask for. So \"eu queria\" sounds less pushy than \"eu quero\", and \"você podia\" is gentler than \"você pode\". \"Dava para...?\" (would it be possible to...?) works the same way: \"dava para você fechar a janela?\"",
         ],
         examples: [
@@ -831,7 +831,7 @@ export const PT_B1_U06: Lesson[] = [
         heading: "Softening complaints and requests at work",
         body: [
           "Brazilian workplaces value cordiality, and a blunt complaint can sound aggressive even when it's fair. Build it in three steps. Start with a cushion (\"desculpe incomodar\", \"com licença\"), frame the problem with \"acho que\", then make a request in the conditional: \"acho que houve um engano. Seria possível conferir?\"",
-          "\"Daria para\" + infinitive is the everyday cousin of \"seria possível\"; in speech it's \"daria pra\". To criticise a colleague, avoid \"você precisa\" or \"você deve\". \"Seria bom\" + infinitive or \"seria melhor\" + infinitive points to the fix without pointing at the person.",
+          "\"Daria para\" + infinitive is the everyday cousin of \"seria possível\"; in speech it's \"daria pra\". To criticize a colleague, avoid \"você precisa\" or \"você deve\". \"Seria bom\" + infinitive or \"seria melhor\" + infinitive points to the fix without pointing at the person.",
         ],
         examples: [
           { es: "Desculpe incomodar, mas o ar-condicionado está muito forte.", en: "Sorry to bother you, but the air conditioning is really strong." },
@@ -1014,7 +1014,7 @@ export const PT_B1_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your friend asks if she should rent a very expensive flat in Copacabana. You think not. What do you say?",
+            question: "Your friend asks if she should rent a very expensive apartment in Copacabana. You think not. What do you say?",
             options: [
               "Eu, no seu lugar, não alugaria.",
               "Eu, no seu lugar, não alugo.",
@@ -1187,7 +1187,7 @@ export const PT_B1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Seu Antônio, your older neighbour, asks whether he should drive to Santos tonight. You politely advise against it. What do you say?",
+        question: "Seu Antônio, your older neighbor, asks whether he should drive to Santos tonight. You politely advise against it. What do you say?",
         options: [
           "Se eu fosse o senhor, não iria de carro à noite.",
           "Se eu seria o senhor, não iria de carro à noite.",
@@ -1431,7 +1431,7 @@ export const PT_B1_U06: Lesson[] = [
         source: "He would never do that.",
         answer: "Ele nunca faria isso.",
         altAnswers: ["Ele jamais faria isso.", "Ele nunca ia fazer isso.", "Ele não faria isso nunca."],
-        explanation: "Imagined behaviour takes \"faria\". \"Ele nunca fará isso\" would be a prediction: he will never do that.",
+        explanation: "Imagined behavior takes \"faria\". \"Ele nunca fará isso\" would be a prediction: he will never do that.",
       },
       {
         type: "translate",
@@ -1498,7 +1498,7 @@ export const PT_B1_U06: Lesson[] = [
       {
         heading: "Se você ganhasse...: opening the dream",
         body: [
-          "Lucas, Beatriz and Rafael are in the queue at a lotérica in São Paulo, about to play the Mega da Virada, Brazil's huge New Year's Eve draw. Lucas asks the question every Brazilian has asked at least once: \"O que você faria se ganhasse na Mega-Sena?\"",
+          "Lucas, Beatriz and Rafael are in line at a lotérica in São Paulo, about to play the Mega da Virada, Brazil's huge New Year's Eve draw. Lucas asks the question every Brazilian has asked at least once: \"O que você faria se ganhasse na Mega-Sena?\"",
           "\"Se você ganhasse\" (if you won) is a past subjunctive you'll study properly later. For now treat it as a fixed chunk that switches on the imaginary world. The answers come in the futuro do pretérito: \"eu compraria\", \"eu pararia\".",
           "Watch the preposition. In Portuguese you win \"na loteria\" or \"na Mega-Sena\", with \"em\". English speakers often write \"ganhar a loteria\", which sounds like a word-for-word translation.",
         ],
@@ -1762,7 +1762,7 @@ export const PT_B1_U06: Lesson[] = [
             question: "Mariana wants to write 'I would tell the truth.' Which version is correct?",
             options: ["Eu diria a verdade.", "Eu dizeria a verdade.", "Eu direria a verdade.", "Eu disseria a verdade."],
             correctIndex: 0,
-            explanation: "\"Dizer\" uses the short stem \"dir-\", as in \"direi\": \"diria\". The other options are regularised or mixed with the past stem \"disse-\".",
+            explanation: "\"Dizer\" uses the short stem \"dir-\", as in \"direi\": \"diria\". The other options are regularized or mixed with the past stem \"disse-\".",
           },
         ],
       },
@@ -1804,7 +1804,7 @@ export const PT_B1_U06: Lesson[] = [
         heading: "Gostaria que + subjunctive",
         body: [
           "When you'd like someone else to do something, \"gostaria que\" brings in a new subject. Like \"quero que\", it needs the subjunctive. \"*Eu gostaria que você vem\" uses the indicative, and it's the most frequent mistake here.",
-          "After a would verb, the subjunctive takes its past form, the one you saw in \"preferia que você falasse\". You build it from the eles form of the perfeito: drop -ram and add -sse (-ssem for eles and vocês). So \"falaram\" → \"falasse\", \"fizeram\" → \"fizesse\", \"vieram\" → \"viesse\" and \"foram\" → \"fosse\". In speech, \"eu queria que\" works the same way.",
+          "After a would verb, the subjunctive takes its past form, the one you saw in \"preferia que você falasse\". You build it from the eles form of the perfeito: drop -ram and add -sse (-ssem for eles and vocês). So \"falaram\" → \"falasse\", \"fizeram\" → \"fizesse\", \"vieram\" → \"viesse\" and \"foram\" → \"fosse\". In speech, \"eu queria que\" works the same way. The full tense comes later in the course; for now, use these forms only after \"gostaria que\" and \"queria que\". Casual speech sometimes has the present subjunctive here (\"gostaria que você venha\"), but careful Portuguese uses the -sse form.",
         ],
         examples: [
           { es: "Eu gostaria que você viesse à festa.", en: "I'd like you to come to the party." },
@@ -2151,7 +2151,7 @@ export const PT_B1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A reader in Recife writes that her neighbour plays loud music every night. Which sentence gives her advice?",
+        question: "A reader in Recife writes that her neighbor plays loud music every night. Which sentence gives her advice?",
         options: ["Eu no seu lugar, conversaria com o vizinho com calma.", "Eu conversei com o vizinho com calma.", "Eu converso com o vizinho com calma.", "Eu vou conversar com o vizinho com calma."],
         correctIndex: 0,
         explanation: "Only \"eu no seu lugar\" + conditional is advice. The others say what I did, what I do or what I'm going to do.",
@@ -2160,7 +2160,7 @@ export const PT_B1_U06: Lesson[] = [
         type: "listen-choose",
         audio: "Eu no seu lugar, procuraria outro apartamento.",
         question: "What does it mean?",
-        options: ["If I were you, I'd look for another flat.", "I'm looking for another flat.", "I looked for another flat.", "I'll look for another flat."],
+        options: ["If I were you, I'd look for another apartment.", "I'm looking for another apartment.", "I looked for another apartment.", "I'll look for another apartment."],
         correctIndex: 0,
         explanation: "Listen for the -ia ending in \"procuraria\": that's the conditional, would look.",
       },

@@ -192,7 +192,7 @@ export const FR_C2_U11: Lesson[] = [
         prompt: "Translate into French.",
         source: "The court dismissed his claim.",
         answer: "Le tribunal l'a débouté de sa demande.",
-        altAnswers: ["Le tribunal a rejeté sa demande.", "Le tribunal l'a débouté.", "Le tribunal a débouté sa demande."],
+        altAnswers: ["Le tribunal a rejeté sa demande.", "Le tribunal l'a débouté."],
         explanation: "\"Débouter quelqu'un de sa demande\" is the legal formula; text type tells you it is a court decision.",
       },
       {
@@ -254,7 +254,7 @@ export const FR_C2_U11: Lesson[] = [
           {
             type: "multiple-choice",
             question: "In the letter, what does « un baragouin » mean, and what clue proves it?",
-            options: ["Gibberish: 'personne n'a rien compris'", "A dessert: 'à table'", "A loud voice: 'dur d'oreille'", "A long speech: 'trois fois'"],
+            options: ["Gibberish: \"personne n'a rien compris\"", "A dessert: \"à table\"", "A loud voice: \"dur d'oreille\"", "A long speech: \"trois fois\""],
             correctIndex: 0,
             explanation: "The mixture of languages and the fact that nobody understood point to gibberish.",
           },
@@ -373,7 +373,7 @@ export const FR_C2_U11: Lesson[] = [
         en: "[One can deduce from] the text that the author is ironic.",
         sentence: "___ texte que l'auteur est ironique.",
         answer: "On peut déduire du",
-        altAnswers: ["On peut en déduire d'après le", "Il ressort du"],
+        altAnswers: ["Il ressort du"],
         explanation: "\"Déduire de\" + noun: \"de + le\" contracts to \"du\".",
       },
       {
@@ -447,7 +447,7 @@ export const FR_C2_U11: Lesson[] = [
     level: "FR-C2",
     number: 3,
     title: "Stratégies de Compréhension, Part 2 of 8",
-    summary: "Register shifts and what they mean: switching between tu and vous, dropping or restoring ne, bagnole vs véhicule, on vs nous; register as a signal of closeness, irony, anger or authority.",
+    summary: "Register shifts and what they mean: switching between \"tu\" and \"vous\", dropping or restoring \"ne\", \"bagnole\" vs \"véhicule\", \"on\" vs \"nous\"; register as a signal of closeness, irony, anger or authority.",
     duration: "18 min",
     sections: [
       {
@@ -458,10 +458,10 @@ export const FR_C2_U11: Lesson[] = [
           "When you listen to French films, interviews or dialogues in novels, track the pronouns: the switch often marks the turning point of a scene, and the author expects you to notice.",
         ],
         examples: [
-          { es: "On se connaît depuis six mois, on peut peut-être se tutoyer ?", en: "We've known each other for six months, shall we use tu?" },
+          { es: "On se connaît depuis six mois, on peut peut-être se tutoyer ?", en: "We've known each other for six months, shall we use \"tu\"?" },
           { es: "Écoutez, Thomas, je vous ai déjà dit que ce n'était pas négociable.", en: "Listen, Thomas, I've already told you it's not negotiable." },
-          { es: "Après leur dispute, elle s'est remise à le vouvoyer.", en: "After their argument, she went back to calling him vous." },
-          { es: "Mes grands-parents se sont vouvoyés toute leur vie.", en: "My grandparents called each other vous all their lives." },
+          { es: "Après leur dispute, elle s'est remise à le vouvoyer.", en: "After their argument, she went back to calling him \"vous\"." },
+          { es: "Mes grands-parents se sont vouvoyés toute leur vie.", en: "My grandparents called each other \"vous\" all their lives." },
           { es: "Tu vas avancer, oui ?", en: "Are you going to move or what?" },
           { es: "Vous êtes trop aimable, chère amie !", en: "You're too kind, my dear!" },
         ],
@@ -477,7 +477,7 @@ export const FR_C2_U11: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into French.",
-            source: "Shall we use tu with each other?",
+            source: "Shall we use \"tu\" with each other?",
             answer: "On se tutoie ?",
             altAnswers: ["On peut se tutoyer ?", "Et si on se tutoyait ?", "On pourrait se tutoyer ?", "Ça vous dérange si on se tutoie ?", "Est-ce qu'on peut se tutoyer ?"],
             explanation: "\"Se tutoyer\" / \"se vouvoyer\": French has verbs for the choice itself.",
@@ -486,9 +486,9 @@ export const FR_C2_U11: Lesson[] = [
             type: "listen-choose",
             audio: "Après la dispute, elle s'est remise à le vouvoyer.",
             question: "What happened?",
-            options: ["She went back to the formal vous with him.", "She started to call him tu.", "She stopped speaking to him.", "She called him by his surname."],
+            options: ["She went back to the formal \"vous\" with him.", "She started to call him \"tu\".", "She stopped speaking to him.", "She called him by his surname."],
             correctIndex: 0,
-            explanation: "\"Se remettre à vouvoyer\": returning to vous, a sign of coldness.",
+            explanation: "\"Se remettre à vouvoyer\": returning to \"vous\", a sign of coldness.",
           },
         ],
       },
@@ -568,7 +568,7 @@ export const FR_C2_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "My grandparents always called each other vous.",
+        source: "My grandparents always called each other \"vous\".",
         answer: "Mes grands-parents se sont toujours vouvoyés.",
         altAnswers: ["Mes grands-parents se vouvoyaient toujours.", "Mes grands-parents se sont toujours dit vous.", "Mes grands-parents se vouvoyaient."],
         explanation: "\"Se vouvoyer\": reciprocal pronominal verb with être; the participle agrees.",
@@ -595,7 +595,7 @@ export const FR_C2_U11: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "After the argument, he went back to using vous with her.",
+        source: "After the argument, he went back to using \"vous\" with her.",
         answer: "Après la dispute, il s'est remis à la vouvoyer.",
         altAnswers: ["Après la dispute, il a recommencé à la vouvoyer.", "Après leur dispute, il s'est remis à la vouvoyer.", "Après leur dispute, il a recommencé à la vouvoyer."],
         explanation: "\"Se remettre à\" + infinitive: to start again.",
@@ -648,9 +648,9 @@ export const FR_C2_U11: Lesson[] = [
         type: "listen-choose",
         audio: "On peut se tutoyer ?",
         question: "What is the speaker proposing?",
-        options: ["To use the informal tu", "To use the formal vous", "To meet again", "To speak English"],
+        options: ["To use the informal \"tu\"", "To use the formal \"vous\"", "To meet again", "To speak English"],
         correctIndex: 0,
-        explanation: "\"Se tutoyer\": to use tu with each other.",
+        explanation: "\"Se tutoyer\": to use \"tu\" with each other.",
       },
       {
         type: "speak",
@@ -665,7 +665,7 @@ export const FR_C2_U11: Lesson[] = [
     level: "FR-C2",
     number: 4,
     title: "Dialogue Lab: Repérer le Changement de Registre",
-    summary: "Mid-conversation someone switches from tu to vous or from slang to formal French: work out what they are communicating (coldness, a joke, a threat, a return to business) and respond accordingly.",
+    summary: "Mid-conversation someone switches from \"tu\" to \"vous\" or from slang to formal French: work out what they are communicating (coldness, a joke, a threat, a return to business) and respond accordingly.",
     duration: "18 min",
     sections: [
       {
@@ -707,7 +707,7 @@ export const FR_C2_U11: Lesson[] = [
         body: [
           "Two flatmates in Lyon, Inès and Karim: « Karim : Inès, t'aurais pas vu mon chargeur ? Inès : Votre chargeur, très cher ? Il gît sur la table basse, là où Monsieur l'a abandonné hier soir. Karim : Ah, merci. Inès : Et Monsieur voudrait-il, par la même occasion, sortir les poubelles, qui l'attendent depuis trois jours ? »",
           "Here \"vous\", \"très cher\", \"Monsieur\" in the third person, the verb \"gésir\" and the inversion \"voudrait-il\" are not coldness but mock-formality: Inès is teasing Karim about his laziness. The exaggeration is the clue: nobody really speaks like a butler to a flatmate.",
-          "The best response plays along or concedes with humour: « Monsieur s'exécute, Madame. » or simply « Ok, ok, j'y vais ! » Taking the vous literally (\"Pourquoi tu me vouvoies ?\") would show you missed the joke.",
+          "The best response plays along or concedes with humour: « Monsieur s'exécute, Madame. » or simply « Ok, ok, j'y vais ! » Taking the \"vous\" literally (\"Pourquoi tu me vouvoies ?\") would show you missed the joke.",
         ],
         examples: [
           { es: "T'aurais pas vu mon chargeur ?", en: "You haven't seen my charger, have you?" },
@@ -748,7 +748,7 @@ export const FR_C2_U11: Lesson[] = [
         heading: "Scene 3: from slang to threat, and back to business",
         body: [
           "At a neighbourhood meeting, a resident, Marc, shouts at the building manager: « Marc : Ça fait trois mois que l'ascenseur est en rade, vous vous foutez de nous ou quoi ? Le gestionnaire : Monsieur, je comprends votre colère, mais je vous demanderai de rester courtois. Marc : Courtois ? Très bien. Dans ce cas, je vous informe que nous saisirons le tribunal si les travaux ne sont pas réalisés sous quinze jours. »",
-          "Marc moves from slang (\"en rade\", broken down; \"vous vous foutez de nous\", vulgar) to formal administrative French (\"je vous informe que nous saisirons le tribunal\"). The second register is more threatening than the first: formal language announces legal action. The manager's \"je vous demanderai de rester courtois\" (conditional-future of politeness) is the classic way to call someone to order.",
+          "Marc moves from slang (\"en rade\", broken down; \"vous vous foutez de nous\", vulgar) to formal administrative French (\"je vous informe que nous saisirons le tribunal\"). The second register is more threatening than the first: formal language announces legal action. The manager's \"je vous demanderai de rester courtois\" (the future of politeness) is the classic way to call someone to order.",
           "To de-escalate, the manager should stay in neutral-formal and propose something concrete: « Je prends note. Je vous propose de faire un point écrit avec l'ascensoriste d'ici vendredi. » Getting dragged into slang (\"calmez-vous, on n'est pas au marché\") would escalate.",
         ],
         examples: [
@@ -812,7 +812,7 @@ export const FR_C2_U11: Lesson[] = [
       {
         type: "multiple-choice",
         question: "A friend who has always said « tu » writes: « Je vous remercie de ne plus me contacter. » What is happening?",
-        options: ["She is ending the friendship coldly.", "She is joking.", "She is writing to several people.", "She is being extra polite."],
+        options: ["She is ending the friendship coldly.", "She is joking.", "She is asking you to phone her instead.", "She is being extra polite."],
         correctIndex: 0,
         explanation: "A sudden formal \"vous\" in writing from a close friend is a deliberate break.",
       },
@@ -875,7 +875,7 @@ export const FR_C2_U11: Lesson[] = [
         type: "listen-choose",
         audio: "Non, Julien. Vous allez corriger ça ce soir.",
         question: "What does the switch to « vous » communicate?",
-        options: ["This is now an official, serious demand.", "She has forgotten they use tu.", "She's joking.", "She is talking to several people."],
+        options: ["This is now an official, serious demand.", "She has forgotten they use \"tu\".", "She's joking.", "She is talking to several people."],
         correctIndex: 0,
         explanation: "Switching from \"tu\" to \"vous\" marks a reprimand.",
       },
@@ -892,7 +892,7 @@ export const FR_C2_U11: Lesson[] = [
     level: "FR-C2",
     number: 5,
     title: "Stratégies de Compréhension, Part 3 of 8",
-    summary: "Implicit logical links: cause, consequence, opposition and concession expressed by juxtaposition, the colon, the gérondif, the participle, or and simple order; rebuild the hidden connector to check your understanding.",
+    summary: "Implicit logical links: cause, consequence, opposition and concession expressed by juxtaposition, the colon, the gérondif, the participle, \"or\" and simple order; rebuild the hidden connector to check your understanding.",
     duration: "19 min",
     sections: [
       {
@@ -1164,7 +1164,7 @@ export const FR_C2_U11: Lesson[] = [
         heading: "Step 2: compress into an implicit version",
         body: [
           "Now the reverse: a heavy sentence full of connectors can be made more elegant. \"Comme il avait raté son train, et parce qu'il ne voulait pas être en retard, il a pris un taxi\" → \"Ayant raté son train, il a pris un taxi pour ne pas être en retard.\" The participle absorbs the cause, \"pour\" the purpose.",
-          "Other compression tools: the colon (\"il n'est pas venu parce qu'il était malade\" → \"il n'est pas venu : il était malade\"), a nominal phrase (\"parce que les pluies ont été abondantes\" → \"en raison de pluies abondantes\" or \"faute de pluie\"), a detached adjective (\"bien qu'elle fût épuisée\" → \"épuisée, elle continuait\").",
+          "Other compression tools: the colon (\"il n'est pas venu parce qu'il était malade\" → \"il n'est pas venu : il était malade\"), a nominal phrase (\"parce que les pluies ont été abondantes\" → \"en raison de pluies abondantes\"; \"parce qu'il n'a pas plu\" → \"faute de pluie\"), a detached adjective (\"bien qu'elle fût épuisée\" → \"épuisée, elle continuait\").",
           "Compression is a mark of Mastery writing, but don't overdo it: a text where every link is implicit becomes hard to follow. In a DALF synthesis, the logical structure must stay clear; use implicit links inside paragraphs and explicit connectors between them.",
         ],
         examples: [
@@ -1551,7 +1551,7 @@ export const FR_C2_U11: Lesson[] = [
         type: "speak",
         text: "En fait, c'est plus compliqué que ça.",
         prompt: "Say it in French: Actually, it's more complicated than that.",
-        tip: "In relaxed speech, en fait is often pronounced with the final t: en fètt.",
+        tip: "In relaxed speech, \"en fait\" is often pronounced with the final t sounded, as if spelt \"en fète\".",
         explanation: "\"En fait\" corrects an assumption.",
       },
     ],
@@ -1787,6 +1787,6 @@ export const FR_C2_U11_WRITING: WriteExercise = {
     "Uses implicit links (colon, gérondif, participle, \"or\") and makes at least two of them explicit with connectors (\"car\", \"si bien que\", \"alors que\", \"pourtant\", \"dès lors\")",
     "Infers or explains at least one unfamiliar word from context or morphology (\"d'après le contexte, ce mot doit signifier...\")",
   ],
-  modelAnswer: "Chère Anna,\n\nJe te raconte une scène à laquelle j'ai assisté hier à la cafétéria, parce qu'elle illustre parfaitement ce qu'on étudie en ce moment. Deux collègues, Malik et Sandrine, discutaient de la nouvelle organisation des équipes. Voici à peu près ce que j'ai entendu :\n\n« – T'as vu le mail de la direction ? Y a encore une réorg.\n– Ouais, chais pas c'qu'i'veulent, du coup on change de bureau en janvier.\n– En fait, c'est toi qui as proposé ça, non ?\n– Je vous demanderai de ne pas répéter ce genre de rumeur. »\n\nEn français écrit standard, cela donnerait : « As-tu vu le courriel de la direction ? Il y a encore une réorganisation. – Oui, je ne sais pas ce qu'ils veulent : nous changeons donc de bureau en janvier. – En réalité, c'est toi qui as proposé ce changement, n'est-ce pas ? – Je vous demanderai de ne pas répéter ce genre de rumeur. »\n\nLe plus intéressant, c'est la dernière réplique. Sandrine tutoyait Malik depuis des années ; en passant brusquement au vouvoiement, elle a rétabli une distance glaciale. Le « ne » réapparaît, le futur de politesse aussi : le message est clair, la plaisanterie est terminée. Elle ne l'a pas dit explicitement, mais elle était manifestement vexée, car Malik l'accusait, devant témoins, d'être à l'origine d'une décision impopulaire.\n\nRemarque aussi les liens implicites. Quand Sandrine dit qu'elle ne comprend pas la direction et qu'on change de bureau, il n'y a aucun connecteur ; or, la relation est une conséquence : la réorganisation a été décidée, si bien que tout le monde déménage. De même, Sandrine a quitté la table sans un mot, laissant son café à moitié plein : elle était furieuse, alors que quelques secondes plus tôt elle riait encore.\n\nUn dernier détail : Malik a qualifié la réunion de la veille de « gabegie ». Je ne connaissais pas ce mot, mais d'après le contexte, il devait signifier un gaspillage de temps et d'argent, ce que le dictionnaire m'a confirmé.\n\nBref, une minute de conversation, et toute une leçon de sociolinguistique !\n\nJe t'embrasse,\nClaire",
+  modelAnswer: "Chère Anna,\n\nJe te raconte une scène à laquelle j'ai assisté hier à la cafétéria, parce qu'elle illustre parfaitement ce qu'on étudie en ce moment. Deux collègues, Malik et Sandrine, discutaient de la nouvelle organisation des équipes. Voici à peu près ce que j'ai entendu :\n\n« – T'as vu le mail de la direction ? Y a encore une réorg.\n– Ouais, chais pas c'qu'i'veulent, du coup on change de bureau en janvier.\n– En fait, c'est toi qui as proposé ça, non ?\n– Je vous demanderai de ne pas répéter ce genre de rumeur. »\n\nEn français écrit standard, cela donnerait : « As-tu vu le courriel de la direction ? Il y a encore une réorganisation. – Oui, je ne sais pas ce qu'ils veulent : nous changeons donc de bureau en janvier. – En réalité, c'est toi qui as proposé ce changement, n'est-ce pas ? – Je vous demanderai de ne pas répéter ce genre de rumeur. »\n\nLe plus intéressant, c'est la dernière réplique. Sandrine tutoyait Malik depuis des années ; en passant brusquement au vouvoiement, elle a rétabli une distance glaciale. Le « ne » réapparaît, le futur de politesse aussi : le message est clair, la plaisanterie est terminée. Elle ne l'a pas dit explicitement, mais elle était manifestement vexée, car Malik l'accusait, devant témoins, d'être à l'origine d'une décision impopulaire.\n\nRemarque aussi les liens implicites. Quand Sandrine dit qu'elle ne comprend pas la direction et qu'on change de bureau, le seul lien est un « du coup » de remplissage ; or, la vraie relation logique est ailleurs : la réorganisation a été décidée, si bien que tout le monde déménage. De même, Sandrine a quitté la table sans un mot, laissant son café à moitié plein : elle était furieuse, alors que quelques secondes plus tôt elle riait encore.\n\nUn dernier détail : Malik a qualifié la réunion de la veille de « gabegie ». Je ne connaissais pas ce mot, mais d'après le contexte, il devait signifier un gaspillage de temps et d'argent, ce que le dictionnaire m'a confirmé.\n\nBref, une minute de conversation, et toute une leçon de sociolinguistique !\n\nJe t'embrasse,\nClaire",
   explanation: "The model quotes reduced spoken forms (\"t'as\", \"y a\", \"chais pas\", \"i'veulent\", \"du coup\", \"en fait\") and restores them (\"il y a\", \"je ne sais pas\", \"donc\", \"en réalité\"). It interprets the switch from \"tu\" to \"vous\" with restored \"ne\" as a deliberate distancing, makes implicit links explicit with \"or\", \"si bien que\", \"car\" and \"alors que\", uses a participle (\"laissant son café\") and the colon, and justifies an inference with \"d'après le contexte, il devait signifier\".",
 };

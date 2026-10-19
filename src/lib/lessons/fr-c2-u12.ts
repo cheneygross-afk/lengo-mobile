@@ -9,7 +9,7 @@ export const FR_C2_U12: Lesson[] = [
     level: "FR-C2",
     number: 1,
     title: "Stratégies de Compréhension, Part 5 of 8",
-    summary: "Listening to radio and podcasts (France Culture, France Inter, RFI): how an interview is built, the host's framing questions, telling fact from opinion, and catching the speaker's attitude from modalisers like il me semble, force est de constater, j'ose espérer.",
+    summary: "Listening to radio and podcasts (France Culture, France Inter, RFI): how an interview is built, the host's framing questions, telling fact from opinion, and catching the speaker's attitude from modalisers like \"il me semble\", \"force est de constater\", \"j'ose espérer\".",
     duration: "18 min",
     sections: [
       {
@@ -230,7 +230,7 @@ export const FR_C2_U12: Lesson[] = [
         type: "speak",
         text: "J'ose espérer que le ministre a lu le rapport.",
         prompt: "Say it in French: I would hope that the minister has read the report.",
-        tip: "Stress ose slightly to make the irony audible.",
+        tip: "Stress \"ose\" slightly to make the irony audible.",
         explanation: "\"J'ose espérer\": polite on the surface, doubtful underneath.",
       },
     ],
@@ -915,7 +915,7 @@ export const FR_C2_U12: Lesson[] = [
       {
         heading: "Abbreviations and symbols",
         body: [
-          "French students take notes with a shared set of abbreviations. Common words: \"qqch\" (quelque chose), \"qqn\" (quelqu'un), \"pb\" (problème), \"tjs\" (toujours), \"ds\" (dans), \"pr\" (pour), \"ms\" (mais), \"tt\" (tout), \"bcp\" (beaucoup), \"cad\" or \"c-à-d\" (c'est-à-dire), \"cf.\" (voir, compare). Endings: \"-mt\" for \"-ment\" (\"gvt\" gouvernement, \"dvpt\" développement), \"-on\" written as a superscript or \"°\" for \"-tion\" (\"educ°\").",
+          "French students take notes with a shared set of abbreviations. Common words: \"qqch\" (quelque chose), \"qqn\" (quelqu'un), \"pb\" (problème), \"tjs\" (toujours), \"ds\" (dans), \"pr\" (pour), \"ms\" (mais), \"tt\" (tout), \"bcp\" (beaucoup), \"cad\" or \"c-à-d\" (c'est-à-dire), \"cf.\" (Latin \"confer\": voir, se reporter à). Endings: \"-mt\" for \"-ment\" (\"gvt\" gouvernement, \"dvpt\" développement), \"°\" (or a superscript \"on\") for \"-tion\" (\"educ°\" for \"éducation\").",
           "Symbols replace logical words: → (entraîne, donc), ← (provient de), = (égale, signifie), ≠ (différent de, s'oppose à), ⊂ (fait partie de), + / - (plus, moins), ↗ / ↘ (augmente, diminue), ∆ (changement), ∴ (donc), NB (nota bene, important). Use them consistently; inventing a new one mid-lecture is a recipe for confusion when you reread.",
           "Abbreviations must remain readable a week later. A good rule: abbreviate frequent grammatical words and the lecture's recurring key terms (decide on an abbreviation at the start: \"mondialisat°\" → \"MD\"), but write rare or technical words in full.",
         ],
@@ -1216,7 +1216,6 @@ export const FR_C2_U12: Lesson[] = [
             en: "Common belief: young people [no longer read].",
             sentence: "Idée reçue : les jeunes ___.",
             answer: "ne lisent plus",
-            altAnswers: ["lisent plus"],
             explanation: "\"Ne... plus\" surrounds the verb; in the notes it was compressed to \"jeunes ne lisent plus\".",
           },
         ],
@@ -1639,7 +1638,7 @@ export const FR_C2_U12: Lesson[] = [
           { es: "Un nouveau règlement serait à l'étude.", en: "A new regulation is reportedly under consideration." },
           { es: "Aucune date n'a été avancée.", en: "No date has been put forward." },
           { es: "Les opérateurs assurent que tout va bien.", en: "The operators insist that all is well." },
-          { es: "La citation familière donne de la voix aux habitants.", en: "The colloquial quotation gives the residents a voice." },
+          { es: "La citation familière donne la parole aux habitants.", en: "The colloquial quotation gives the residents a voice." },
           { es: "Le conditionnel signale une information non confirmée.", en: "The conditional signals unconfirmed information." },
         ],
         checkpoint: [
@@ -1921,7 +1920,7 @@ export const FR_C2_U12: Lesson[] = [
             en: "To [make up for] the shortage of teachers...",
             sentence: "Pour ___ le manque d'enseignants...",
             answer: "pallier",
-            altAnswers: ["compenser", "remédier au"],
+            altAnswers: ["compenser"],
             explanation: "\"Pallier\" is transitive: \"pallier le manque\", not \"pallier au manque\".",
           },
           {
@@ -1959,7 +1958,6 @@ export const FR_C2_U12: Lesson[] = [
         en: "This course will [fill the gaps] in my knowledge.",
         sentence: "Cette formation va ___ dans mes connaissances.",
         answer: "combler les lacunes",
-        altAnswers: ["combler mes lacunes"],
         explanation: "\"Combler une lacune\": to fill a gap.",
       },
       {
@@ -1976,7 +1974,7 @@ export const FR_C2_U12: Lesson[] = [
         question: "Which sentence contains a calque?",
         options: ["Il faut faire une décision rapidement.", "Il faut prendre une décision rapidement.", "Il faut trancher rapidement.", "Il faut se décider rapidement."],
         correctIndex: 0,
-        explanation: "\"*Faire une décision\" copies English 'make a decision'.",
+        explanation: "\"*Faire une décision\" copies English make a decision; French says \"prendre une décision\".",
       },
       {
         type: "translate",

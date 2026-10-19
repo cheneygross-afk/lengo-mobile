@@ -17,7 +17,7 @@ export const PT_A1_U05: Lesson[] = [
         body: [
           "Verbs ending in -er work like the -ar verbs you know, with e where -ar verbs have a. Take \"comer\" (to eat): \"eu como\", \"você come\", \"ele come\", \"ela come\", \"nós comemos\", \"vocês comem\", \"eles comem\", \"elas comem\".",
           "Compare \"falar\": \"falo, fala, falamos, falam\". The eu form still ends in -o, and every other ending swaps a for e. As always, \"você\" takes the ele form and \"vocês\" takes the eles form.",
-          "Final -e sounds like i, so \"come\" is said 'comi'. Don't confuse \"eu como\" (I eat) with \"como?\" (how?). The sentence always tells you which one you have.",
+          "Final -e sounds like i, so \"come\" ends in an i sound: 'KOH-mee'. Don't confuse \"eu como\" (I eat) with \"como?\" (how?). The sentence always tells you which one you have.",
         ],
         examples: [
           { es: "Eu como pão de queijo.", en: "I eat cheese bread." },
@@ -77,7 +77,7 @@ export const PT_A1_U05: Lesson[] = [
             source: "She sells fruit at the market.",
             answer: "Ela vende frutas na feira.",
             altAnswers: ["Ela vende fruta na feira.", "Ela vende frutas no mercado.", "Ela vende fruta no mercado."],
-            explanation: "\"Ela vende\": the ele/ela form of \"vender\" ends in -e. \"Na feira\" is the open-air street market, \"no mercado\" a market or grocery shop.",
+            explanation: "\"Ela vende\": the ele/ela form of \"vender\" ends in -e. \"Na feira\" is the open-air street market, \"no mercado\" a market or grocery store.",
           },
         ],
       },
@@ -91,7 +91,7 @@ export const PT_A1_U05: Lesson[] = [
         examples: [
           { es: "Eu abro a janela.", en: "I open the window." },
           { es: "A farmácia abre cedo.", en: "The pharmacy opens early." },
-          { es: "Nós abrimos a loja.", en: "We open the shop." },
+          { es: "Nós abrimos a loja.", en: "We open the store." },
           { es: "Vocês abrem a porta, por favor?", en: "Can you open the door, please? (to several people)" },
           { es: "Os bancos não abrem hoje.", en: "The banks aren't open today." },
         ],
@@ -99,7 +99,7 @@ export const PT_A1_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "We [open] the shop.",
+            en: "We [open] the store.",
             sentence: "Nós ___ a loja.",
             answer: "abrimos",
             explanation: "-ir verbs take -imos in the nós form: \"abrimos\", not *\"abremos\".",
@@ -234,14 +234,14 @@ export const PT_A1_U05: Lesson[] = [
       {
         heading: "Assistir a: to watch",
         body: [
-          "\"Assistir\" means to watch a film, a game or the news. It does not mean to assist; that's \"ajudar\". It's a regular -ir verb: \"eu assisto\", \"você assiste\", \"nós assistimos\", \"vocês assistem\".",
+          "\"Assistir\" means to watch a movie, a game or the news. It does not mean to assist; that's \"ajudar\". It's a regular -ir verb: \"eu assisto\", \"você assiste\", \"nós assistimos\", \"vocês assistem\".",
           "In standard Portuguese it takes \"a\" before what you watch, and that \"a\" joins the article: \"assisto ao jogo\" (a + o) and \"assisto à novela\" (a + a, written with a grave accent). Learn these as chunks for now. In casual speech many Brazilians drop the \"a\" (\"assisto o jogo\"), but the form with \"a\" is never wrong.",
         ],
         examples: [
           { es: "Eu assisto à novela todo dia.", en: "I watch the soap opera every day." },
           { es: "Você assiste ao jogo hoje?", en: "Are you watching the game today?" },
           { es: "Ele assiste ao jornal na sala.", en: "He watches the news in the living room." },
-          { es: "Nós assistimos a filmes em casa.", en: "We watch films at home." },
+          { es: "Nós assistimos a filmes em casa.", en: "We watch movies at home." },
           { es: "Elas assistem ao jogo no bar.", en: "They watch the game at the bar." },
         ],
         checkpoint: [
@@ -267,11 +267,11 @@ export const PT_A1_U05: Lesson[] = [
         heading: "Dividir, decidir, partir, escrever",
         body: [
           "These follow last lesson's pattern. \"Dividir\" (to split, to share), \"decidir\" (to decide) and \"partir\" (to leave) are -ir verbs: \"divido\", \"divide\", \"dividimos\", \"dividem\". \"Escrever\" (to write) is an -er verb: \"escrevo\", \"escreve\", \"escrevemos\", \"escrevem\". Only the nós form differs: \"dividimos\" but \"escrevemos\".",
-          "\"Dividir a conta\" means to split the bill, and \"dividir um apartamento\" means to share a flat. \"Partir\" for leaving sounds formal: you hear it at stations and in timetables. It also means to break into pieces: \"partir o pão\".",
+          "\"Dividir a conta\" means to split the bill, and \"dividir um apartamento\" means to share an apartment. \"Partir\" for leaving sounds formal: you hear it at stations and in schedules. It also means to break into pieces: \"partir o pão\".",
         ],
         examples: [
           { es: "Nós dividimos a conta.", en: "We split the bill." },
-          { es: "Eu divido um apartamento com a Beatriz.", en: "I share a flat with Beatriz." },
+          { es: "Eu divido um apartamento com a Beatriz.", en: "I share an apartment with Beatriz." },
           { es: "Vocês decidem.", en: "You decide. (to several people)" },
           { es: "O trem parte de Curitiba hoje.", en: "The train leaves Curitiba today." },
           { es: "Eu escrevo e-mails no trabalho.", en: "I write emails at work." },
@@ -363,7 +363,7 @@ export const PT_A1_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The kids watch films at home.",
+        source: "The kids watch movies at home.",
         answer: "As crianças assistem a filmes em casa.",
         altAnswers: ["As crianças assistem filmes em casa."],
         explanation: "With no article, \"a\" stays on its own: \"assistem a filmes\". \"Crianças\" takes the eles form \"assistem\".",
@@ -375,7 +375,7 @@ export const PT_A1_U05: Lesson[] = [
         source: "The bus leaves São Paulo today.",
         answer: "O ônibus parte de São Paulo hoje.",
         altAnswers: ["Hoje o ônibus parte de São Paulo."],
-        explanation: "\"Partir de\" is to leave a place, the word of timetables. Bus is \"ônibus\" in Brazil.",
+        explanation: "\"Partir de\" is to leave a place, the word of schedules. Bus is \"ônibus\" in Brazil.",
       },
       {
         type: "fill-blank",
@@ -423,7 +423,7 @@ export const PT_A1_U05: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "Eu assisto ao filme.", right: "I watch the film." },
+          { left: "Eu assisto ao filme.", right: "I watch the movie." },
           { left: "Eu divido a conta.", right: "I split the bill." },
           { left: "Eu decido hoje.", right: "I decide today." },
           { left: "Eu escrevo e-mails.", right: "I write emails." },
@@ -488,7 +488,7 @@ export const PT_A1_U05: Lesson[] = [
         heading: "Going somewhere: ir para, ir a",
         body: [
           "Where you're going takes \"para\" (to): \"vou para casa\" (I'm going home), \"ela vai para o trabalho\". Like \"em casa\", \"para casa\" has no article. Most cities take none either (\"vou para Salvador\"), but Rio does: \"para o Rio\".",
-          "\"Ir a\" also means to go to. It is a little more formal and often used for a short trip. \"A\" joins the article: \"ao\" (a + o) and \"à\" (a + a). Learn \"vou ao mercado\" and \"vou à padaria\" as chunks; the full rule comes in Unit 7.",
+          "\"Ir a\" also means to go to. It is a little more formal and often used for a short trip. \"A\" joins the article: \"ao\" (a + o) and \"à\" (a + a). Learn \"vou ao mercado\" and \"vou à padaria\" as chunks; the full rule comes in Unit 10.",
           "Don't use \"em\" here. \"Em\" says where you are (\"estou em casa\"), and \"para\" says where you're heading. You'll hear \"vou no mercado\" in casual speech, but \"vou ao mercado\" or \"vou para o mercado\" is always right.",
         ],
         examples: [
@@ -705,7 +705,7 @@ export const PT_A1_U05: Lesson[] = [
       {
         heading: "Hoje, amanhã, na semana que vem: when",
         body: [
-          "Time words for plans: \"hoje\" (today), \"amanhã\" (tomorrow), \"hoje à noite\" (tonight), \"amanhã de manhã\" (tomorrow morning), \"no fim de semana\" (at the weekend), \"na semana que vem\" (next week).",
+          "Time words for plans: \"hoje\" (today), \"amanhã\" (tomorrow), \"hoje à noite\" (tonight), \"amanhã de manhã\" (tomorrow morning), \"no fim de semana\" (on the weekend), \"na semana que vem\" (next week).",
           "\"Que vem\" means 'that's coming', so \"no mês que vem\" is next month and \"no ano que vem\" is next year. The little word agrees with the noun. Feminine \"semana\" takes \"na\", and masculine \"mês\", \"ano\" and \"fim de semana\" take \"no\". Saturday is masculine too: \"no sábado\".",
           "Put the time word at the start or the end, as in English: \"Amanhã eu vou trabalhar\" or \"Eu vou trabalhar amanhã\".",
         ],
@@ -750,7 +750,7 @@ export const PT_A1_U05: Lesson[] = [
         ],
         examples: [
           { es: "Não vou trabalhar amanhã.", en: "I'm not going to work tomorrow." },
-          { es: "Você vai viajar no fim de semana?", en: "Are you going to travel at the weekend?" },
+          { es: "Você vai viajar no fim de semana?", en: "Are you going to travel on the weekend?" },
           { es: "O que você vai fazer hoje?", en: "What are you going to do today?" },
           { es: "Amanhã eu vou ao mercado.", en: "Tomorrow I'm going to the market." },
           { es: "A Mariana não vai comer em casa hoje.", en: "Mariana isn't going to eat at home today." },
@@ -778,9 +778,9 @@ export const PT_A1_U05: Lesson[] = [
             type: "listen-choose",
             audio: "Você vai viajar no fim de semana?",
             question: "What does it mean?",
-            options: ["Are you going to travel at the weekend?", "Are you traveling this week?", "Are you going to work at the weekend?", "Did you travel at the weekend?"],
+            options: ["Are you going to travel on the weekend?", "Are you traveling this week?", "Are you going to work on the weekend?", "Did you travel on the weekend?"],
             correctIndex: 0,
-            explanation: "\"Você vai viajar\" is are you going to travel, and \"no fim de semana\" is at the weekend.",
+            explanation: "\"Você vai viajar\" is are you going to travel, and \"no fim de semana\" is on the weekend.",
           },
         ],
       },
@@ -850,9 +850,9 @@ export const PT_A1_U05: Lesson[] = [
       {
         type: "speak",
         text: "O que você vai fazer no fim de semana?",
-        prompt: "Say it in Portuguese: What are you going to do at the weekend?",
-        tip: "Fim is nasal, with no n sound at the end, and de sounds like dji.",
-        explanation: "\"O que você vai fazer?\" is the chunk for asking about plans, and \"no fim de semana\" is at the weekend.",
+        prompt: "Say it in Portuguese: What are you going to do on the weekend?",
+        tip: "Fim is nasal, with no n sound at the end, and de sounds like 'jee'.",
+        explanation: "\"O que você vai fazer?\" is the chunk for asking about plans, and \"no fim de semana\" is on the weekend.",
       },
       {
         type: "matching",
@@ -861,7 +861,7 @@ export const PT_A1_U05: Lesson[] = [
           { left: "hoje", right: "today" },
           { left: "amanhã", right: "tomorrow" },
           { left: "hoje à noite", right: "tonight" },
-          { left: "no fim de semana", right: "at the weekend" },
+          { left: "no fim de semana", right: "on the weekend" },
           { left: "na semana que vem", right: "next week" },
         ],
         explanation: "These time words go at the start or the end of a sentence with \"ir\" + infinitive.",
@@ -924,7 +924,7 @@ export const PT_A1_U05: Lesson[] = [
             sentence: "Hoje ___ calor em Salvador.",
             answer: "faz",
             altAnswers: ["está"],
-            explanation: "Weather takes \"faz\": \"faz calor\". \"Está calor\" is just as common.",
+            explanation: "Weather takes \"faz\": \"faz calor\". \"Está calor\" is also common in speech.",
           },
           {
             type: "listen-choose",
@@ -980,7 +980,7 @@ export const PT_A1_U05: Lesson[] = [
         heading: "Poder: posso, pode, podemos, podem",
         body: [
           "\"Poder\" covers English can and may. It changes only in the eu form: \"eu posso\", \"você pode\", \"nós podemos\", \"eles podem\". \"Podo\" doesn't exist. The o in \"posso\" and \"pode\" is open, like the ó in \"avó\".",
-          "An infinitive always follows. \"Posso...?\" asks permission (\"posso entrar?\": may I come in?). \"Você pode...?\" asks a favour. \"Não posso\" says something stops you: \"não posso sair, tenho que trabalhar\".",
+          "An infinitive always follows. \"Posso...?\" asks permission (\"posso entrar?\": may I come in?). \"Você pode...?\" asks a favor. \"Não posso\" says something stops you: \"não posso sair, tenho que trabalhar\".",
         ],
         examples: [
           { es: "Posso entrar?", en: "May I come in?" },
@@ -1101,7 +1101,7 @@ export const PT_A1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend is visiting your flat. How do you offer her a juice?",
+        question: "A friend is visiting your apartment. How do you offer her a juice?",
         options: ["Você quer um suco?", "Você querer um suco?", "Você quere um suco?", "Você pode um suco?"],
         correctIndex: 0,
         explanation: "\"Você quer...?\" is the natural offer. The você form is \"quer\", with no final e, and \"poder\" needs an infinitive after it.",
@@ -1129,14 +1129,14 @@ export const PT_A1_U05: Lesson[] = [
         heading: "Vejo, vê, vemos, veem: to see",
         body: [
           "\"Ver\" (to see) is irregular in the eu form: \"eu vejo\". The rest is short: \"você vê\", \"ele vê\", \"ela vê\", \"nós vemos\", \"vocês veem\", \"eles veem\".",
-          "Watch the spelling. \"Vê\" has a circumflex. \"Veem\" has two e's and no accent, and you say both: ve-em. As in English, \"ver\" also means to watch TV and films: \"vejo novela\" is as natural as \"assisto à novela\".",
+          "Watch the spelling. \"Vê\" has a circumflex. \"Veem\" has two e's and no accent, and you say both: ve-em. As in English, \"ver\" also means to watch TV and movies: \"vejo novela\" is as natural as \"assisto à novela\".",
         ],
         examples: [
           { es: "Eu vejo o mar da janela.", en: "I can see the sea from the window." },
           { es: "Você vê a placa ali?", en: "Do you see the sign over there?" },
           { es: "Ela vê novela à noite.", en: "She watches soap operas at night." },
           { es: "Nós vemos a Beatriz no fim de semana.", en: "We see Beatriz on the weekend." },
-          { es: "Eles veem muitos filmes.", en: "They watch a lot of films." },
+          { es: "Eles veem muitos filmes.", en: "They watch a lot of movies." },
         ],
         checkpoint: [
           {
@@ -1212,7 +1212,7 @@ export const PT_A1_U05: Lesson[] = [
             question: "Your mother calls you from the kitchen. You answer that you're on your way. What do you say?",
             options: ["Já vou!", "Já venho!", "Já vem!", "Já vai!"],
             correctIndex: 0,
-            explanation: "You're leaving where you are, so Portuguese uses \"ir\": \"já vou!\" \"Já venho\" sounds like you're already where she is.",
+            explanation: "You're leaving where you are, so Portuguese uses \"ir\": \"já vou!\" \"Já venho\" means I'll be right back, said as you leave.",
           },
           {
             type: "translate",
@@ -1389,7 +1389,7 @@ export const PT_A1_U05: Lesson[] = [
         heading: "Vou or venho? Away from you or toward you",
         body: [
           "\"Ir\" is movement away from where the speaker is; \"vir\" is movement toward the speaker. \"Vou para lá\" is I'm going there; \"venho aqui amanhã\" is I'm coming here tomorrow.",
-          "The trap: English also says come for moving toward the listener. When a friend calls you from the kitchen, you answer \"Já vou!\" (I'm coming!), never \"Já venho\". You're going to where she is, away from where you are.",
+          "The trap: English also says come for moving toward the listener. When a friend calls you from the kitchen, you answer \"Já vou!\" (I'm coming!), never \"Já venho\" (I'll be right back). You're going to where she is, away from where you are.",
           "So \"vir\" only fits when the speaker is at the destination: \"Você vem aqui hoje?\" is asked by someone who'll be here.",
         ],
         examples: [
@@ -1406,7 +1406,7 @@ export const PT_A1_U05: Lesson[] = [
             question: "Your friend shouts from the kitchen that lunch is ready. How do you say I'm coming!?",
             options: ["Já vou!", "Já venho!", "Já vem!", "Já vai!"],
             correctIndex: 0,
-            explanation: "You're moving away from where you are, toward her, so Portuguese uses \"ir\": \"Já vou!\". \"Já venho\" doesn't mean this, and \"vem\" and \"vai\" are the forms for ele/ela, not for eu.",
+            explanation: "You're moving away from where you are, toward her, so Portuguese uses \"ir\": \"Já vou!\". \"Já venho\" means I'll be right back, and \"vem\" and \"vai\" are the forms for ele/ela, not for eu.",
           },
           {
             type: "translate",
@@ -1706,7 +1706,7 @@ export const PT_A1_U05: Lesson[] = [
           {
             type: "speak",
             text: "Nós vamos viajar no sábado.",
-            tip: "Stress the last syllable of viajar: via-JAR. The final r is soft, almost silent.",
+            tip: "Stress the last syllable of viajar: 'vee-ah-ZHAR'. The final r is soft, almost silent.",
             explanation: "\"Vamos viajar\": only \"ir\" changes, and \"viajar\" stays in the infinitive.",
           },
         ],
@@ -1797,7 +1797,7 @@ export const PT_A1_U05: Lesson[] = [
         type: "speak",
         text: "Eu não posso vir amanhã.",
         prompt: "Say it in Portuguese: I can't come tomorrow.",
-        tip: "The o in posso is open, as in pot, and the final o sounds like u: \"póssu\".",
+        tip: "The o in posso is open, as in law, and the final o sounds like u: 'PAW-soo'.",
         explanation: "\"Não\" goes before \"posso\", and \"vir\" stays in the infinitive.",
       },
       {
@@ -1905,7 +1905,7 @@ export const PT_A1_U05: Lesson[] = [
         heading: "Getting there: transport, ir and vir",
         body: [
           "Transport takes \"de\" with no article: \"de ônibus\", \"de metrô\", \"de carro\", \"de táxi\". Walking is \"a pé\". The transport phrase usually goes after the place: \"vou para Ipanema de metrô\".",
-          "Keep \"ir\" and \"vir\" apart. \"Ir\" means going there, away from the speaker. \"Vir\" means coming here, towards the speaker. \"Você vem?\" means are you coming (to where I am)?",
+          "Keep \"ir\" and \"vir\" apart. \"Ir\" means going there, away from the speaker. \"Vir\" means coming here, toward the speaker. \"Você vem?\" means are you coming (to where I am)?",
         ],
         examples: [
           { es: "Vamos para Ipanema de metrô.", en: "We're going to Ipanema by metro." },
@@ -1928,7 +1928,7 @@ export const PT_A1_U05: Lesson[] = [
             en: "Mariana [is coming] from Recife by bus.",
             sentence: "A Mariana ___ de Recife de ônibus.",
             answer: "vem",
-            explanation: "Coming towards the speaker is \"vir\", and its ela form is \"vem\". \"Vir de\" gives the starting point: \"de Recife\".",
+            explanation: "Coming toward the speaker is \"vir\", and its ela form is \"vem\". \"Vir de\" gives the starting point: \"de Recife\".",
           },
           {
             type: "translate",
@@ -1977,7 +1977,7 @@ export const PT_A1_U05: Lesson[] = [
         source: "João is coming from São Paulo by car.",
         answer: "O João vem de São Paulo de carro.",
         altAnswers: ["João vem de São Paulo de carro.", "O João vai vir de São Paulo de carro.", "João vai vir de São Paulo de carro."],
-        explanation: "Coming towards the speaker is \"vir\": \"vem de São Paulo\". The second \"de\" is for the transport: \"de carro\".",
+        explanation: "Coming toward the speaker is \"vir\": \"vem de São Paulo\". The second \"de\" is for the transport: \"de carro\".",
       },
       {
         type: "translate",
@@ -2048,11 +2048,11 @@ export const PT_A1_U05: Lesson[] = [
 
 export const PT_A1_U05_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You're spending a weekend in Rio de Janeiro. Write a short message (25-60 words) to a Brazilian friend. Say how you're travelling and what you want to see, eat or do. Invite your friend to join you, and mention one thing you can't do.",
+  prompt: "You're spending a weekend in Rio de Janeiro. Write a short message (25-60 words) to a Brazilian friend. Say how you're traveling and what you want to see, eat or do. Invite your friend to join you, and mention one thing you can't do.",
   minWords: 25,
   maxWords: 60,
   rubric: [
-    "Say how you're travelling with \"ir\" and a transport phrase, such as \"vou para o Rio de ônibus\" or \"de carro\".",
+    "Say how you're traveling with \"ir\" and a transport phrase, such as \"vou para o Rio de ônibus\" or \"de carro\".",
     "Give at least two plans with \"ir\" + infinitive or \"querer\" + infinitive, such as \"vou assistir\" or \"quero comer\".",
     "Use at least one -er or -ir verb, such as \"comer\", \"beber\", \"ver\" or \"assistir a\".",
     "Invite your friend or say what you can't do with \"querer\" or \"poder\", such as \"Você quer ir também?\" or \"Não posso ficar\".",

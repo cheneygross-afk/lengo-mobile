@@ -8,7 +8,7 @@ export const PT_A2_U20: Lesson[] = [
     level: "PT-A2",
     number: 1,
     title: "Survival: The CPF and Your Documents",
-    summary: "Understand the CPF and why every shop asks for it, name your documents (RG, passaporte, comprovante de residência) and handle queues and tickets with a senha.",
+    summary: "Understand the CPF and why every shop asks for it, name your documents (RG, passaporte, comprovante de residência) and handle lines and tickets with a senha.",
     duration: "13 min",
     kind: "teach",
     sections: [
@@ -78,7 +78,7 @@ export const PT_A2_U20: Lesson[] = [
         ],
       },
       {
-        heading: "A senha: tickets and queues",
+        heading: "A senha: tickets and lines",
         body: [
           "In banks, government offices and clinics, you \"pegar a senha\" (take a ticket) from a machine and wait for your number on the screen: \"senha 42, guichê 3\" (ticket 42, counter 3). \"Senha\" also means password, so \"a senha do wi-fi\" is the wi-fi password. Context makes it clear.",
           "\"O atendimento preferencial\" is priority service for older people, pregnant women and people with disabilities. Signs say \"aguarde\" (please wait), and the clerk may say \"pode aguardar ali, por favor\".",
@@ -98,7 +98,7 @@ export const PT_A2_U20: Lesson[] = [
             source: "Where do I take a ticket?",
             answer: "Onde eu pego a senha?",
             altAnswers: ["Onde pego a senha?", "Onde eu pego senha?", "Onde é que eu pego a senha?"],
-            explanation: "A queue ticket is \"a senha\", and you \"pegar\" it. The plain present asks what to do.",
+            explanation: "A line ticket is \"a senha\", and you \"pegar\" it. The plain present asks what to do.",
           },
           {
             type: "listen-choose",
@@ -106,13 +106,13 @@ export const PT_A2_U20: Lesson[] = [
             question: "What does it mean?",
             options: ["Ticket forty-two, counter three.", "Password forty-two, line three.", "Ticket twenty-four, counter three.", "Ticket forty-two, floor three."],
             correctIndex: 0,
-            explanation: "\"Senha\" here is the queue ticket, and \"o guichê\" is the service counter.",
+            explanation: "\"Senha\" here is the line ticket, and \"o guichê\" is the service counter.",
           },
           {
             type: "speak",
             text: "Qual é a senha do wi-fi?",
             tip: "Brazilians say wi-fi as uai-fai.",
-            explanation: "The same word, \"senha\", for a password and a queue ticket.",
+            explanation: "The same word, \"senha\", for a password and a line ticket.",
           },
         ],
       },
@@ -143,7 +143,7 @@ export const PT_A2_U20: Lesson[] = [
         sentence: "Primeiro você ___ ali.",
         answer: "pega a senha",
         altAnswers: ["pega uma senha"],
-        explanation: "\"Pegar a senha\" is the fixed chunk for taking a queue ticket.",
+        explanation: "\"Pegar a senha\" is the fixed chunk for taking a line ticket.",
       },
       {
         type: "translate",
@@ -212,21 +212,21 @@ export const PT_A2_U20: Lesson[] = [
     level: "PT-A2",
     number: 2,
     title: "Survival: The Bank and Pix",
-    summary: "Open an account, use the cash machine, send and receive money by Pix, and pay by card: débito ou crédito?, parcelar em três vezes sem juros, a maquininha.",
+    summary: "Open an account, use the ATM, send and receive money by Pix, and pay by card: débito ou crédito?, parcelar em três vezes sem juros, a maquininha.",
     duration: "13 min",
     kind: "teach",
     sections: [
       {
         heading: "No banco: abrir uma conta, sacar, depositar",
         body: [
-          "The bank vocabulary: \"abrir uma conta\" (open an account), \"o caixa eletrônico\" (the cash machine), \"sacar dinheiro\" (withdraw cash), \"depositar\" (deposit), \"transferir\" (transfer) and \"o saldo\" (the balance). Careful: \"a conta\" is both the bank account and the bill, and \"o caixa\" is both the cash machine and the cashier.",
+          "The bank vocabulary: \"abrir uma conta\" (open an account), \"o caixa eletrônico\" (the ATM), \"sacar dinheiro\" (withdraw cash), \"depositar\" (deposit), \"transferir\" (transfer) and \"o saldo\" (the balance). Careful: \"a conta\" is both the bank account and the bill, and \"o caixa\" is both the ATM and the cashier.",
           "Most banking happens in the bank's app now, but for opening an account you may still go in person with your CPF, passport and proof of address. Ask with \"eu queria abrir uma conta\" or \"eu gostaria de abrir uma conta\".",
         ],
         examples: [
           { es: "Eu queria abrir uma conta.", en: "I'd like to open an account." },
-          { es: "Onde tem um caixa eletrônico?", en: "Where is there a cash machine?" },
+          { es: "Onde tem um caixa eletrônico?", en: "Where is there an ATM?" },
           { es: "Eu preciso sacar duzentos reais.", en: "I need to withdraw two hundred reais." },
-          { es: "O caixa eletrônico engoliu o meu cartão!", en: "The cash machine swallowed my card!" },
+          { es: "O caixa eletrônico engoliu o meu cartão!", en: "The ATM swallowed my card!" },
           { es: "Vou ver o saldo no aplicativo.", en: "I'm going to check the balance in the app." },
         ],
         checkpoint: [
@@ -243,7 +243,7 @@ export const PT_A2_U20: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Where is there a cash machine?",
+            source: "Where is there an ATM?",
             answer: "Onde tem um caixa eletrônico?",
             altAnswers: ["Onde há um caixa eletrônico?", "Tem um caixa eletrônico aqui perto?", "Onde fica o caixa eletrônico?"],
             explanation: "\"Onde tem...?\" asks where there is one. \"Eletrônico\" has a circumflex in Brazil.",
@@ -287,13 +287,13 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "Débito ou crédito? Parcelar em três vezes",
         body: [
-          "To pay by card, ask \"pode passar no cartão?\". The cashier brings \"a maquininha\" (the card machine) and asks \"débito ou crédito?\". On credit, Brazilians often \"parcelar\": split a purchase into monthly instalments. \"Em três vezes sem juros\" means in three interest-free payments, and \"à vista\" means paying all at once, often with a discount.",
-          "Shops write it as \"3x sem juros\" (read \"três vezes\"). Asking \"dá para parcelar?\" (can I pay in instalments?) is completely normal, even for clothes or a phone.",
+          "To pay by card, ask \"pode passar no cartão?\". The cashier brings \"a maquininha\" (the card machine) and asks \"débito ou crédito?\". On credit, Brazilians often \"parcelar\": split a purchase into monthly installments. \"Em três vezes sem juros\" means in three interest-free payments, and \"à vista\" means paying all at once, often with a discount.",
+          "Shops write it as \"3x sem juros\" (read \"três vezes\"). Asking \"dá para parcelar?\" (can I pay in installments?) is completely normal, even for clothes or a phone.",
         ],
         examples: [
           { es: "Pode passar no cartão?", en: "Can I pay by card?" },
           { es: "Débito ou crédito?", en: "Debit or credit?" },
-          { es: "Dá para parcelar em três vezes?", en: "Can I pay in three instalments?" },
+          { es: "Dá para parcelar em três vezes?", en: "Can I pay in three installments?" },
           { es: "Em até dez vezes sem juros.", en: "In up to ten interest-free payments." },
           { es: "À vista tem dez por cento de desconto.", en: "Paying in full, there's a ten percent discount." },
         ],
@@ -302,7 +302,7 @@ export const PT_A2_U20: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Can I pay in three instalments?",
+            source: "Can I pay in three installments?",
             answer: "Dá para parcelar em três vezes?",
             altAnswers: ["Dá pra parcelar em três vezes?", "Posso parcelar em três vezes?", "Eu posso parcelar em três vezes?", "Pode parcelar em três vezes?"],
             explanation: "\"Parcelar em três vezes\": \"vezes\" counts the payments. \"Dá para\" + infinitive asks if something is possible.",
@@ -313,7 +313,7 @@ export const PT_A2_U20: Lesson[] = [
             question: "What does it mean?",
             options: ["Paying in full, there's a ten percent discount.", "On sight, it costs ten percent more.", "In ten payments, there's no interest.", "With the card, there's a ten percent discount."],
             correctIndex: 0,
-            explanation: "\"À vista\" means paying all at once, not in instalments.",
+            explanation: "\"À vista\" means paying all at once, not in installments.",
           },
           {
             type: "speak",
@@ -346,7 +346,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The cash machine [swallowed] my card!",
+        en: "The ATM [swallowed] my card!",
         sentence: "O caixa eletrônico ___ o meu cartão!",
         answer: "engoliu",
         altAnswers: ["comeu"],
@@ -380,7 +380,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         type: "multiple-choice",
         question: "A shop sign says: \"Em até 6x sem juros\". What does it offer?",
-        options: ["Up to six interest-free instalments.", "Six percent off.", "Six items for the price of five.", "Free delivery within six days."],
+        options: ["Up to six interest-free installments.", "Six percent off.", "Six items for the price of five.", "Free delivery within six days."],
         correctIndex: 0,
         explanation: "\"6x\" is read \"seis vezes\": six payments. \"Sem juros\" is interest-free.",
       },
@@ -418,7 +418,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         type: "speak",
         text: "Dá para parcelar em três vezes?",
-        prompt: "Say it in Portuguese: Can I pay in three instalments?",
+        prompt: "Say it in Portuguese: Can I pay in three installments?",
         explanation: "\"Dá para\" + infinitive asks whether something is possible.",
       },
     ],
@@ -428,20 +428,20 @@ export const PT_A2_U20: Lesson[] = [
     level: "PT-A2",
     number: 3,
     title: "Survival: A Brazilian Phone Number",
-    summary: "Buy a chip, choose pré-pago or pós-pago, top up, understand the DDD area code and give and take a phone number aloud.",
+    summary: "Buy a chip, choose pré-pago or pós-pago, add credit, understand the DDD area code and give and take a phone number aloud.",
     duration: "12 min",
     kind: "teach",
     sections: [
       {
         heading: "O chip: pré-pago ou pós-pago",
         body: [
-          "A SIM card is \"o chip\". At a phone shop or a newsstand, ask \"eu queria comprar um chip\". You'll choose \"pré-pago\" (prepaid, you top up when you want) or \"pós-pago\" (a monthly contract, \"o plano\"). Prepaid chips must be registered with a CPF; some shops can register a foreigner with a passport.",
-          "To add credit is \"fazer uma recarga\" (a top-up), at the shop, the supermarket or in the app. Data comes in \"o plano de dados\" or \"os gigas\" (gigabytes). WhatsApp is usually free in the plan, which is why everyone uses it instead of calls.",
+          "A SIM card is \"o chip\". At a phone store or a newsstand, ask \"eu queria comprar um chip\". You'll choose \"pré-pago\" (prepaid, you add credit when you want) or \"pós-pago\" (a monthly contract, \"o plano\"). Prepaid chips must be registered with a CPF; some shops can register a foreigner with a passport.",
+          "To add credit is \"fazer uma recarga\" (a recharge), at the shop, the supermarket or in the app. Data comes in \"o plano de dados\" or \"os gigas\" (gigabytes). WhatsApp is usually free in the plan, which is why everyone uses it instead of calls.",
         ],
         examples: [
           { es: "Eu queria comprar um chip pré-pago.", en: "I'd like to buy a prepaid SIM card." },
           { es: "Precisa de CPF para ativar o chip?", en: "Do you need a CPF to activate the chip?" },
-          { es: "Eu fiz uma recarga de trinta reais.", en: "I did a thirty-real top-up." },
+          { es: "Eu fiz uma recarga de trinta reais.", en: "I added thirty reais of credit." },
           { es: "O meu plano tem quinze gigas por mês.", en: "My plan has fifteen gigs a month." },
           { es: "O WhatsApp não gasta os dados.", en: "WhatsApp doesn't use up the data." },
         ],
@@ -458,19 +458,19 @@ export const PT_A2_U20: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "I need [to top up].",
+            en: "I need [to add credit].",
             sentence: "Eu preciso ___.",
             answer: "fazer uma recarga",
             altAnswers: ["fazer recarga", "colocar crédito"],
-            explanation: "\"Fazer uma recarga\" is to top up a prepaid phone.",
+            explanation: "\"Fazer uma recarga\" is to add credit to a prepaid phone.",
           },
         ],
       },
       {
         heading: "O DDD: 11, 21, 31",
         body: [
-          "Brazil's area codes are \"o DDD\": 11 for São Paulo, 21 for Rio, 31 for Belo Horizonte, 71 for Salvador, 61 for Brasília. A mobile number has nine digits and starts with 9, so a full number looks like (11) 98765-4321. People ask \"qual é o DDD?\" or \"é DDD 21?\".",
-          "Your chip belongs to the DDD where you bought it. A call to another DDD is a \"ligação interurbana\" (a long-distance call); from a landline you dial 0, a carrier code and then the DDD, while mobile plans usually handle it for you.",
+          "Brazil's area codes are \"o DDD\": 11 for São Paulo, 21 for Rio, 31 for Belo Horizonte, 71 for Salvador, 61 for Brasília. A cell number has nine digits and starts with 9, so a full number looks like (11) 98765-4321. People ask \"qual é o DDD?\" or \"é DDD 21?\".",
+          "Your chip belongs to the DDD where you bought it. A call to another DDD is a \"ligação interurbana\" (a long-distance call); from a landline you dial 0, a carrier code and then the DDD, while cell plans usually handle it for you.",
         ],
         examples: [
           { es: "O DDD de São Paulo é onze.", en: "São Paulo's area code is eleven." },
@@ -550,7 +550,7 @@ export const PT_A2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I did a fifty-real top-up.",
+        source: "I added fifty reais of credit.",
         answer: "Eu fiz uma recarga de cinquenta reais.",
         altAnswers: ["Fiz uma recarga de cinquenta reais."],
         explanation: "\"Fazer uma recarga de\" + amount; \"fiz\" is the eu form of fazer in the past.",
@@ -630,29 +630,29 @@ export const PT_A2_U20: Lesson[] = [
     level: "PT-A2",
     number: 4,
     title: "Survival: The Post Office and Deliveries",
-    summary: "Send a parcel at the Correios, track it with the código de rastreamento, collect it from the porteiro and fill in an address for a food delivery app.",
+    summary: "Send a package at the Correios, track it with the código de rastreamento, collect it from the porteiro and fill in an address for a food delivery app.",
     duration: "13 min",
     kind: "teach",
     sections: [
       {
         heading: "Nos Correios: mandar uma encomenda",
         body: [
-          "The post office is \"os Correios\" (always plural): \"vou aos Correios\", \"os Correios estão em greve\". A parcel is \"uma encomenda\" or \"um pacote\". To send it, say \"eu queria mandar essa encomenda para Manaus\", and the clerk will ask for \"o CEP\" (the eight-digit postcode) of the address.",
-          "You'll get \"o código de rastreamento\" (the tracking code) to follow it online. The status says things like \"objeto postado\" (posted), \"em trânsito\" and \"saiu para entrega\" (out for delivery).",
+          "The post office is \"os Correios\" (always plural): \"vou aos Correios\", \"os Correios estão em greve\". A package is \"uma encomenda\" or \"um pacote\". To send it, say \"eu queria mandar essa encomenda para Manaus\", and the clerk will ask for \"o CEP\" (the eight-digit ZIP code) of the address.",
+          "You'll get \"o código de rastreamento\" (the tracking code) to follow it online. The status says things like \"objeto postado\" (shipped), \"em trânsito\" and \"saiu para entrega\" (out for delivery).",
         ],
         examples: [
-          { es: "Eu queria mandar essa encomenda para Manaus.", en: "I'd like to send this parcel to Manaus." },
-          { es: "Qual é o CEP?", en: "What's the postcode?" },
+          { es: "Eu queria mandar essa encomenda para Manaus.", en: "I'd like to send this package to Manaus." },
+          { es: "Qual é o CEP?", en: "What's the ZIP code?" },
           { es: "Quanto tempo demora para chegar?", en: "How long does it take to arrive?" },
           { es: "Me manda o código de rastreamento?", en: "Can you send me the tracking code?" },
-          { es: "A encomenda saiu para entrega.", en: "The parcel is out for delivery." },
+          { es: "A encomenda saiu para entrega.", en: "The package is out for delivery." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'd like to send this parcel to Recife.",
+            source: "I'd like to send this package to Recife.",
             answer: "Eu queria mandar essa encomenda para Recife.",
             altAnswers: ["Queria mandar essa encomenda para Recife.", "Eu gostaria de mandar essa encomenda para Recife.", "Gostaria de mandar essa encomenda para Recife.", "Eu queria mandar esta encomenda para Recife.", "Eu queria enviar essa encomenda para Recife.", "Eu queria mandar esse pacote para Recife."],
             explanation: "\"Mandar\" (or the more formal \"enviar\") + \"para\" for the destination.",
@@ -661,7 +661,7 @@ export const PT_A2_U20: Lesson[] = [
             type: "listen-choose",
             audio: "A encomenda saiu para entrega.",
             question: "What does it mean?",
-            options: ["The parcel is out for delivery.", "The parcel was delivered.", "The parcel was sent back.", "The parcel is at the post office."],
+            options: ["The package is out for delivery.", "The package was delivered.", "The package was sent back.", "The package is at the post office."],
             correctIndex: 0,
             explanation: "\"Saiu para entrega\" is literally 'left for delivery': it's on its way to you.",
           },
@@ -670,14 +670,14 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "O porteiro recebeu",
         body: [
-          "Many Brazilians live in buildings with \"o porteiro\" (the doorman) at \"a portaria\" (the front desk). Deliveries are usually left there: \"o porteiro recebeu a sua encomenda\". The \"entregador\" (delivery person) may call or ring up: \"tem uma entrega para o 302\".",
+          "Many Brazilians live in buildings with \"o porteiro\" (the doorman) at \"a portaria\" (the front desk). Deliveries are usually left there: \"o porteiro recebeu a sua encomenda\". The \"entregador\" (delivery person) may call or buzz up: \"tem uma entrega para o 302\".",
           "If you're out, ask \"pode deixar na portaria\" (you can leave it at the front desk). To pick it up, go down and say \"chegou alguma encomenda para mim?\" or \"vim buscar uma encomenda\".",
         ],
         examples: [
-          { es: "O porteiro recebeu a sua encomenda.", en: "The doorman received your parcel." },
+          { es: "O porteiro recebeu a sua encomenda.", en: "The doorman received your package." },
           { es: "Pode deixar na portaria, por favor.", en: "You can leave it at the front desk, please." },
-          { es: "Chegou alguma encomenda para mim?", en: "Did any parcel arrive for me?" },
-          { es: "Vim buscar uma encomenda do 302.", en: "I've come to pick up a parcel for 302." },
+          { es: "Chegou alguma encomenda para mim?", en: "Did any package arrive for me?" },
+          { es: "Vim buscar uma encomenda do 302.", en: "I've come to pick up a package for 302." },
           { es: "O entregador ligou, mas eu não estava em casa.", en: "The delivery guy called, but I wasn't home." },
         ],
         checkpoint: [
@@ -704,14 +704,14 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "Pedindo comida: rua, número, complemento",
         body: [
-          "Delivery apps and online shops ask for an address in parts: \"a rua\" (the street, or \"a avenida\"), \"o número\", \"o complemento\" (the flat details: \"apartamento 302, bloco B\"), \"o bairro\" (the neighbourhood), \"o CEP\" and often \"o ponto de referência\" (a landmark: \"perto da padaria\").",
+          "Delivery apps and online shops ask for an address in parts: \"a rua\" (the street, or \"a avenida\"), \"o número\", \"o complemento\" (the apartment details: \"apartamento 302, bloco B\"), \"o bairro\" (the neighborhood), \"o CEP\" and often \"o ponto de referência\" (a landmark: \"perto da padaria\").",
           "In Brazil the street name comes before the number: \"Rua das Flores, 120\". Say it aloud the same way: \"eu moro na Rua das Flores, número cento e vinte, apartamento trezentos e dois\".",
         ],
         examples: [
           { es: "Rua das Flores, número 120, apartamento 302.", en: "120 Rua das Flores, apartment 302." },
           { es: "O complemento é bloco B, apartamento 1004.", en: "The address details are block B, apartment 1004." },
           { es: "O ponto de referência é a farmácia da esquina.", en: "The landmark is the pharmacy on the corner." },
-          { es: "Eu moro no bairro do Batel.", en: "I live in the Batel neighbourhood." },
+          { es: "Eu moro no bairro do Batel.", en: "I live in the Batel neighborhood." },
         ],
         checkpoint: [
           {
@@ -753,7 +753,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[The doorman] received your parcel.",
+        en: "[The doorman] received your package.",
         sentence: "___ recebeu a sua encomenda.",
         answer: "O porteiro",
         explanation: "\"O porteiro\" works at \"a portaria\", the building's front desk.",
@@ -762,7 +762,7 @@ export const PT_A2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Did any parcel arrive for me?",
+        source: "Did any package arrive for me?",
         answer: "Chegou alguma encomenda para mim?",
         altAnswers: ["Chegou alguma encomenda pra mim?", "Tem alguma encomenda para mim?", "Tem alguma encomenda pra mim?", "Chegou algum pacote para mim?"],
         explanation: "\"Alguma\" agrees with \"encomenda\"; \"para mim\" after a preposition.",
@@ -778,9 +778,9 @@ export const PT_A2_U20: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I've come to pick up a parcel.",
+        prompt: "Put the words in order to say: I've come to pick up a package.",
         words: ["Vim", "buscar", "uma", "encomenda."],
-        translation: "I've come to pick up a parcel.",
+        translation: "I've come to pick up a package.",
         explanation: "\"Vim\" is the perfeito of vir: I came. \"Buscar\" is to fetch.",
       },
       {
@@ -788,7 +788,7 @@ export const PT_A2_U20: Lesson[] = [
         question: "A delivery app asks for your \"complemento\". What do you write?",
         options: ["Apartamento 302, bloco B.", "Rua das Flores.", "01310-100.", "Perto da padaria."],
         correctIndex: 0,
-        explanation: "\"O complemento\" is the flat number and block. The others are the street, the CEP and the landmark.",
+        explanation: "\"O complemento\" is the apartment number and block. The others are the street, the CEP and the landmark.",
       },
       {
         type: "listen-choose",
@@ -802,7 +802,7 @@ export const PT_A2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The parcel hasn't arrived yet.",
+        source: "The package hasn't arrived yet.",
         answer: "A encomenda ainda não chegou.",
         altAnswers: ["O pacote ainda não chegou.", "Ainda não chegou a encomenda."],
         explanation: "\"Ainda não\" + perfeito: not yet. Portuguese doesn't use a have-form.",
@@ -815,7 +815,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         type: "speak",
         text: "Eu queria mandar essa encomenda para Manaus.",
-        prompt: "Say it in Portuguese: I'd like to send this parcel to Manaus.",
+        prompt: "Say it in Portuguese: I'd like to send this package to Manaus.",
         explanation: "\"Eu queria\" + infinitive, and \"para\" for the destination.",
       },
     ],
@@ -825,7 +825,7 @@ export const PT_A2_U20: Lesson[] = [
     level: "PT-A2",
     number: 5,
     title: "Survival: Buses, Metro and Ride Apps",
-    summary: "Get around by bus, metro and ride app: the transport card, the catraca, signalling the bus, asking esse ônibus passa na Paulista? and checking the placa before you get in.",
+    summary: "Get around by bus, metro and ride app: the transport card, the catraca, signaling the bus, asking esse ônibus passa na Paulista? and checking the placa before you get in.",
     duration: "13 min",
     kind: "teach",
     sections: [
@@ -897,12 +897,12 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "Pedindo um carro pelo aplicativo",
         body: [
-          "Ride apps are cheap and everywhere. You \"pedir um carro pelo aplicativo\" (order a car through the app), and the trip is \"a corrida\". Before you get in, check \"a placa\" (the number plate) and the driver's name: \"é o Carlos? Placa ABC1D23?\". Brazilians usually sit in the back.",
+          "Ride apps are cheap and everywhere. You \"pedir um carro pelo aplicativo\" (order a car through the app), and the trip is \"a corrida\". Before you get in, check \"a placa\" (the license plate) and the driver's name: \"é o Carlos? Placa ABC1D23?\". Brazilians usually sit in the back.",
           "The driver may ask \"qual é o destino?\" or \"vai pelo aplicativo mesmo?\" (shall I follow the app?). The price shows up front, so you can say \"a corrida deu vinte reais\" (the ride came to twenty reais).",
         ],
         examples: [
           { es: "Vou pedir um carro pelo aplicativo.", en: "I'm going to order a car through the app." },
-          { es: "Qual é a placa do carro?", en: "What's the car's number plate?" },
+          { es: "Qual é a placa do carro?", en: "What's the car's license plate?" },
           { es: "Oi, é o Carlos? Pode abrir o porta-malas?", en: "Hi, are you Carlos? Can you open the trunk?" },
           { es: "A corrida deu vinte e oito reais.", en: "The ride came to twenty-eight reais." },
         ],
@@ -928,7 +928,7 @@ export const PT_A2_U20: Lesson[] = [
             type: "speak",
             text: "Qual é a placa do carro?",
             tip: "Placa: the pl is said together, PLA-ka, with no extra vowel.",
-            explanation: "\"A placa\" is the number plate: always check it before getting in.",
+            explanation: "\"A placa\" is the license plate: always check it before getting in.",
           },
         ],
       },
@@ -991,7 +991,7 @@ export const PT_A2_U20: Lesson[] = [
         question: "An app car pulls up. What should you check before getting in?",
         options: ["A placa e o nome do motorista.", "A catraca e o cobrador.", "O ponto final e a linha.", "O CEP e o complemento."],
         correctIndex: 0,
-        explanation: "Check \"a placa\" (number plate) and the driver's name against the app.",
+        explanation: "Check \"a placa\" (license plate) and the driver's name against the app.",
       },
       {
         type: "listen-choose",
@@ -1035,13 +1035,13 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "Posso experimentar? Tamanho e número",
         body: [
-          "To try something on, ask \"posso experimentar?\". The shop assistant shows you to \"o provador\" (the fitting room). Clothes sizes are letters: \"P\" (pequeno), \"M\" (médio), \"G\" (grande) and \"GG\". Ask \"tem no tamanho M?\" or \"qual é o seu tamanho?\".",
+          "To try something on, ask \"posso experimentar?\". The salesclerk shows you to \"o provador\" (the fitting room). Clothes sizes are letters: \"P\" (pequeno), \"M\" (médio), \"G\" (grande) and \"GG\". Ask \"tem no tamanho M?\" or \"qual é o seu tamanho?\".",
           "Shoes don't have a \"tamanho\", they have \"um número\": \"qual é o seu número?\", \"eu calço 40\" (I wear a 40). Brazilian shoe numbers are smaller than European ones: a European 41 is about a Brazilian 39 or 40, so try before you buy.",
         ],
         examples: [
           { es: "Posso experimentar essa camisa?", en: "Can I try on this shirt?" },
           { es: "O provador é ali no fundo.", en: "The fitting room is over there at the back." },
-          { es: "Tem essa calça no tamanho M?", en: "Do you have these trousers in a medium?" },
+          { es: "Tem essa calça no tamanho M?", en: "Do you have these pants in a medium?" },
           { es: "Qual é o seu número?", en: "What's your shoe size?" },
           { es: "Eu calço 38.", en: "I'm a size 38 in shoes." },
         ],
@@ -1057,7 +1057,7 @@ export const PT_A2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You want sneakers. The assistant asks what size you wear. Which question did she ask?",
+            question: "You want sneakers. The salesclerk asks what size you wear. Which question did she ask?",
             options: ["Qual é o seu número?", "Qual é o seu tamanho?", "Qual é a sua altura?", "Quanto você pesa?"],
             correctIndex: 0,
             explanation: "For shoes it's \"o número\"; \"o tamanho\" is for clothes.",
@@ -1072,10 +1072,10 @@ export const PT_A2_U20: Lesson[] = [
         ],
         examples: [
           { es: "Ficou um pouco apertado.", en: "It's a bit tight." },
-          { es: "A calça ficou larga na cintura.", en: "The trousers are loose at the waist." },
+          { es: "A calça ficou larga na cintura.", en: "The pants are loose at the waist." },
           { es: "Os sapatos ficaram pequenos.", en: "The shoes are too small." },
           { es: "Tem um número maior?", en: "Do you have a bigger size?" },
-          { es: "Tem em outra cor?", en: "Do you have it in another colour?" },
+          { es: "Tem em outra cor?", en: "Do you have it in another color?" },
           { es: "Nossa, ficou ótimo em você!", en: "Wow, it looks great on you!" },
         ],
         checkpoint: [
@@ -1083,7 +1083,7 @@ export const PT_A2_U20: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The trousers are a bit tight.",
+            source: "The pants are a bit tight.",
             answer: "A calça ficou um pouco apertada.",
             altAnswers: ["A calça ficou meio apertada.", "A calça está um pouco apertada.", "A calça ficou um pouquinho apertada."],
             explanation: "\"Ficar\" for fit: \"ficou apertada\", feminine to match \"a calça\" (singular in Portuguese).",
@@ -1091,7 +1091,7 @@ export const PT_A2_U20: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Do you have it [in another colour]?",
+            en: "Do you have it [in another color]?",
             sentence: "Tem ___?",
             answer: "em outra cor",
             explanation: "\"Em outra cor\": em for the version, and no article before \"outra\".",
@@ -1192,7 +1192,7 @@ export const PT_A2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're returning a jacket. The assistant asks: \"A senhora tem a nota fiscal?\" What does she want?",
+        question: "You're returning a jacket. The salesclerk asks: \"A senhora tem a nota fiscal?\" What does she want?",
         options: ["The receipt.", "Your ID card.", "The price tag.", "Your phone number."],
         correctIndex: 0,
         explanation: "\"A nota fiscal\" is the official receipt you need for an exchange.",
@@ -1201,7 +1201,7 @@ export const PT_A2_U20: Lesson[] = [
         type: "listen-choose",
         audio: "A calça ficou larga na cintura.",
         question: "What does it mean?",
-        options: ["The trousers are loose at the waist.", "The trousers are long in the leg.", "The trousers are tight at the waist.", "The jacket is wide at the shoulders."],
+        options: ["The pants are loose at the waist.", "The pants are long in the leg.", "The pants are tight at the waist.", "The jacket is wide at the shoulders."],
         correctIndex: 0,
         explanation: "\"Larga\" is loose or wide, a false friend: long is \"comprida\".",
       },
@@ -1291,7 +1291,7 @@ export const PT_A2_U20: Lesson[] = [
             source: "I need to cancel my appointment.",
             answer: "Eu preciso desmarcar o meu horário.",
             altAnswers: ["Preciso desmarcar o meu horário.", "Eu preciso desmarcar meu horário.", "Preciso desmarcar meu horário.", "Eu preciso cancelar o meu horário.", "Preciso cancelar o meu horário.", "Eu preciso desmarcar a minha consulta.", "Preciso desmarcar a minha consulta."],
-            explanation: "\"Desmarcar\" is the everyday word for cancelling a booking; \"cancelar\" also works.",
+            explanation: "\"Desmarcar\" is the everyday word for canceling a booking; \"cancelar\" also works.",
           },
           {
             type: "translate",
@@ -1442,15 +1442,15 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "O chuveiro não esquenta",
         body: [
-          "Brazilian homes have their own typical problems. Many showers are electric, so the classic complaint is \"o chuveiro não esquenta\" (the shower doesn't heat up), not \"não está quente\". Others: \"a internet caiu\" (the internet's down), \"a geladeira quebrou\" (the fridge broke), \"a pia está entupida\" (the sink is blocked), \"a descarga não funciona\" (the toilet won't flush).",
-          "\"Faltar\" means to run out or be cut off: \"faltou luz\" (there was a power cut), \"está faltando água\" (there's no water). These verbs usually come before the noun.",
+          "Brazilian homes have their own typical problems. Many showers are electric, so the classic complaint is \"o chuveiro não esquenta\" (the shower doesn't heat up), not \"não está quente\". Others: \"a internet caiu\" (the internet's down), \"a geladeira quebrou\" (the fridge broke), \"a pia está entupida\" (the sink is clogged), \"a descarga não funciona\" (the toilet won't flush).",
+          "\"Faltar\" means to run out or be cut off: \"faltou luz\" (there was a power outage), \"está faltando água\" (there's no water). These verbs usually come before the noun.",
         ],
         examples: [
           { es: "O chuveiro não esquenta.", en: "The shower doesn't heat up." },
           { es: "A internet caiu de novo.", en: "The internet's down again." },
           { es: "A geladeira quebrou.", en: "The fridge broke." },
-          { es: "A pia da cozinha está entupida.", en: "The kitchen sink is blocked." },
-          { es: "Ontem à noite faltou luz no prédio todo.", en: "Last night there was a power cut in the whole building." },
+          { es: "A pia da cozinha está entupida.", en: "The kitchen sink is clogged." },
+          { es: "Ontem à noite faltou luz no prédio todo.", en: "Last night there was a power outage in the whole building." },
         ],
         checkpoint: [
           {
@@ -1465,7 +1465,7 @@ export const PT_A2_U20: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Last night [there was a power cut].",
+            en: "Last night [there was a power outage].",
             sentence: "Ontem à noite ___.",
             answer: "faltou luz",
             altAnswers: ["faltou energia", "acabou a luz"],
@@ -1483,7 +1483,7 @@ export const PT_A2_U20: Lesson[] = [
           { es: "A máquina de lavar parou de funcionar ontem à noite.", en: "The washing machine stopped working last night." },
           { es: "Eu estava tomando banho quando o chuveiro desligou.", en: "I was taking a shower when the shower cut out." },
           { es: "A geladeira quebrou há dois dias.", en: "The fridge broke two days ago." },
-          { es: "O apartamento está sem água desde ontem.", en: "The flat has had no water since yesterday." },
+          { es: "O apartamento está sem água desde ontem.", en: "The apartment has had no water since yesterday." },
           { es: "A internet caiu quando eu estava numa reunião.", en: "The internet went down while I was in a meeting." },
         ],
         checkpoint: [
@@ -1510,7 +1510,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "O técnico, o porteiro, o síndico",
         body: [
-          "In a building, report problems to \"o porteiro\" or to \"o síndico\" (the building manager, elected by the residents). For repairs inside your flat, \"chamar o técnico\" (call the repairman) or, for plumbing, \"o encanador\".",
+          "In a building, report problems to \"o porteiro\" or to \"o síndico\" (the building manager, elected by the residents). For repairs inside your apartment, \"chamar o técnico\" (call the repairman) or, for plumbing, \"o encanador\".",
           "Ask politely with the conditional or \"pode\" + infinitive: \"o senhor poderia mandar alguém?\", \"vocês podem vir hoje?\", \"tem algum técnico disponível amanhã?\".",
         ],
         examples: [
@@ -1560,14 +1560,14 @@ export const PT_A2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The bathroom sink is blocked.",
+        source: "The bathroom sink is clogged.",
         answer: "A pia do banheiro está entupida.",
         explanation: "\"Estar entupida\": a state, so estar. \"Banheiro\" is the Brazilian word for bathroom.",
       },
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The flat has had no water [since yesterday].",
+        en: "The apartment has had no water [since yesterday].",
         sentence: "O apartamento está sem água ___.",
         answer: "desde ontem",
         explanation: "\"Desde\" + a point in time, with the present \"está\" where English says has had.",
@@ -1609,9 +1609,9 @@ export const PT_A2_U20: Lesson[] = [
         type: "listen-choose",
         audio: "Ontem à noite faltou luz no prédio todo.",
         question: "What does it mean?",
-        options: ["Last night there was a power cut in the whole building.", "Last night the lights were on in the whole building.", "Tonight there will be no water in the building.", "Last night the building's lift broke."],
+        options: ["Last night there was a power outage in the whole building.", "Last night the lights were on in the whole building.", "Tonight there will be no water in the building.", "Last night the building's elevator broke."],
         correctIndex: 0,
-        explanation: "\"Faltou luz\" is a power cut; \"o prédio todo\" is the whole building.",
+        explanation: "\"Faltou luz\" is a power outage; \"o prédio todo\" is the whole building.",
       },
       {
         type: "translate",
@@ -1647,7 +1647,7 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "Socorro! 190, 192, 193",
         body: [
-          "In an emergency, shout \"socorro!\" (help!) and call the right number: \"190\" for the police (\"a polícia\"), \"192\" for an ambulance (\"o SAMU\") and \"193\" for the fire brigade (\"os bombeiros\"). Say the number digit by digit: \"um, nove, zero\".",
+          "In an emergency, shout \"socorro!\" (help!) and call the right number: \"190\" for the police (\"a polícia\"), \"192\" for an ambulance (\"o SAMU\") and \"193\" for the fire department (\"os bombeiros\"). Say the number digit by digit: \"um, nove, zero\".",
           "On the phone, keep it short and give the essentials: what happened, where, and whether someone is hurt. \"Teve um acidente na Rua XV\", \"uma pessoa está machucada\", \"precisamos de uma ambulância\". Stress makes long sentences hard; short ones in the present and perfeito are enough.",
         ],
         examples: [
@@ -1663,7 +1663,7 @@ export const PT_A2_U20: Lesson[] = [
             question: "There's a fire in your building. Which number do you call?",
             options: ["193", "190", "192", "180"],
             correctIndex: 0,
-            explanation: "\"193\" is \"os bombeiros\" (the fire brigade). 190 is the police and 192 the ambulance.",
+            explanation: "\"193\" is \"os bombeiros\" (the fire department). 190 is the police and 192 the ambulance.",
           },
           {
             type: "translate",
@@ -2070,7 +2070,7 @@ export const PT_A2_U20: Lesson[] = [
           { es: "Roubaram meu celular na praia.", en: "Someone stole my phone at the beach." },
           { es: "Eu fui assaltado na saída do metrô.", en: "I was mugged at the metro exit." },
           { es: "Eu gostaria de trocar essa camisa.", en: "I'd like to exchange this shirt." },
-          { es: "Eu queria trocar por outra cor.", en: "I'd like to swap it for another colour." },
+          { es: "Eu queria trocar por outra cor.", en: "I'd like to swap it for another color." },
         ],
         checkpoint: [
           {
@@ -2116,7 +2116,7 @@ export const PT_A2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're buying sandals. Which question do you expect from the assistant?",
+            question: "You're buying sandals. Which question do you expect from the salesclerk?",
             options: ["Qual é o seu número?", "Qual é o seu tamanho de pé?", "Qual é a sua medida?", "Quanto você calça de tamanho G?"],
             correctIndex: 0,
             explanation: "Shoes have \"um número\": \"qual é o seu número?\".",
@@ -2126,13 +2126,13 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "*Um conto, *não está quente, *a password",
         body: [
-          "\"O conto\" is a short story; a bank account is \"a conta\". So \"eu quero abrir uma conta\". The same word means the bill at a restaurant.",
-          "For an electric shower, \"*o chuveiro não está quente\" sounds strange; say \"o chuveiro não esquenta\". And there's no English \"password\" in Portuguese: both the queue ticket and the password are \"a senha\": \"pega a senha da fila\", \"qual é a senha do wi-fi?\".",
+          "\"O conto\" is a short story; a bank account is \"a conta\". So \"eu quero abrir uma conta\". The same word means the check at a restaurant.",
+          "For an electric shower, \"*o chuveiro não está quente\" sounds strange; say \"o chuveiro não esquenta\". And there's no English \"password\" in Portuguese: both the line ticket and the password are \"a senha\": \"pega a senha da fila\", \"qual é a senha do wi-fi?\".",
         ],
         examples: [
           { es: "Eu quero abrir uma conta no banco.", en: "I want to open a bank account." },
           { es: "O chuveiro não esquenta desde ontem.", en: "The shower hasn't heated up since yesterday." },
-          { es: "Pega a senha da fila ali.", en: "Take a queue ticket over there." },
+          { es: "Pega a senha da fila ali.", en: "Take a line ticket over there." },
           { es: "Esqueci a senha do aplicativo.", en: "I forgot the app password." },
         ],
         checkpoint: [
@@ -2220,13 +2220,13 @@ export const PT_A2_U20: Lesson[] = [
         question: "Which sentence is correct?",
         options: ["A conta, por favor.", "O conto, por favor.", "A conto, por favor.", "O conta, por favor."],
         correctIndex: 0,
-        explanation: "The bill is \"a conta\", feminine.",
+        explanation: "The check is \"a conta\", feminine.",
       },
       {
         type: "listen-choose",
         audio: "Esqueci a senha do aplicativo.",
         question: "What does it mean?",
-        options: ["I forgot the app password.", "I lost my queue ticket.", "I forgot to download the app.", "I don't have the app's number."],
+        options: ["I forgot the app password.", "I lost my line ticket.", "I forgot to download the app.", "I don't have the app's number."],
         correctIndex: 0,
         explanation: "\"A senha\" is a password here; context decides.",
       },
@@ -2257,7 +2257,7 @@ export const PT_A2_U20: Lesson[] = [
     level: "PT-A2",
     number: 12,
     title: "Real-World Mission: A Day of Errands",
-    summary: "Handle a day of errands in Curitiba (top up your phone, collect a parcel, exchange a shirt, book a haircut and report a broken shower) with a short, polite message for each.",
+    summary: "Handle a day of errands in Curitiba (add phone credit, collect a package, exchange a shirt, book a haircut and report a broken shower) with a short, polite message for each.",
     duration: "14 min",
     kind: "skills",
     format: "Real-world mission",
@@ -2265,13 +2265,13 @@ export const PT_A2_U20: Lesson[] = [
       {
         heading: "Manhã: a recarga e a encomenda",
         body: [
-          "You've just moved into a flat in Curitiba, and Saturday is errand day. Brazilians handle most of this by WhatsApp, so each task ends with a short message. Keep them friendly and polite: a greeting (\"bom dia\", \"oi, tudo bem?\"), the request with \"eu queria\", \"você poderia\" or \"pode\", and thanks.",
-          "First, your phone has no credit: you go to the newsstand for \"uma recarga\". Then the app says your parcel was delivered, so you message the doorman: \"Seu Paulo, chegou alguma encomenda para o 302?\".",
+          "You've just moved into an apartment in Curitiba, and Saturday is errand day. Brazilians handle most of this by WhatsApp, so each task ends with a short message. Keep them friendly and polite: a greeting (\"bom dia\", \"oi, tudo bem?\"), the request with \"eu queria\", \"você poderia\" or \"pode\", and thanks.",
+          "First, your phone has no credit: you go to the newsstand for \"uma recarga\". Then the app says your package was delivered, so you message the doorman: \"Seu Paulo, chegou alguma encomenda para o 302?\".",
         ],
         examples: [
-          { es: "Bom dia! Eu queria fazer uma recarga de trinta reais.", en: "Good morning! I'd like a thirty-real top-up." },
+          { es: "Bom dia! Eu queria fazer uma recarga de trinta reais.", en: "Good morning! I'd like to add thirty reais of credit." },
           { es: "Qual é a operadora e o número com DDD?", en: "Which network, and what's the number with the area code?" },
-          { es: "Seu Paulo, chegou alguma encomenda para o 302?", en: "Seu Paulo, did any parcel arrive for 302?" },
+          { es: "Seu Paulo, chegou alguma encomenda para o 302?", en: "Seu Paulo, did any package arrive for 302?" },
           { es: "Chegou, sim. Está aqui na portaria.", en: "Yes, it did. It's here at the front desk." },
           { es: "Obrigada! Desço daqui a pouco para buscar.", en: "Thanks! I'll come down shortly to pick it up. (a woman speaking)" },
         ],
@@ -2280,7 +2280,7 @@ export const PT_A2_U20: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I'd like a fifty-real top-up.",
+            source: "I'd like to add fifty reais of credit.",
             answer: "Eu queria fazer uma recarga de cinquenta reais.",
             altAnswers: ["Queria fazer uma recarga de cinquenta reais.", "Eu queria uma recarga de cinquenta reais.", "Eu gostaria de fazer uma recarga de cinquenta reais.", "Gostaria de fazer uma recarga de cinquenta reais."],
             explanation: "\"Eu queria\" + \"fazer uma recarga de\" + amount.",
@@ -2289,10 +2289,10 @@ export const PT_A2_U20: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Did any parcel arrive for apartment 302?",
+            source: "Did any package arrive for apartment 302?",
             answer: "Chegou alguma encomenda para o 302?",
             altAnswers: ["Chegou alguma encomenda para o apartamento 302?", "Chegou alguma encomenda pro 302?", "Tem alguma encomenda para o 302?", "Tem alguma encomenda para o apartamento 302?"],
-            explanation: "\"Alguma encomenda\" in a question means any parcel. Flats are often just \"o 302\".",
+            explanation: "\"Alguma encomenda\" in a question means any package. Apartments are often just \"o 302\".",
           },
         ],
       },
@@ -2365,10 +2365,10 @@ export const PT_A2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Good morning! I'd like to top up my phone.",
+        source: "Good morning! I'd like to add credit to my phone.",
         answer: "Bom dia! Eu queria fazer uma recarga.",
         altAnswers: ["Bom dia! Queria fazer uma recarga.", "Bom dia! Eu gostaria de fazer uma recarga.", "Bom dia! Eu queria colocar crédito no celular.", "Bom dia! Eu queria fazer uma recarga no celular."],
-        explanation: "\"Fazer uma recarga\" is the chunk for topping up.",
+        explanation: "\"Fazer uma recarga\" is the chunk for adding phone credit.",
       },
       {
         type: "translate",
@@ -2435,12 +2435,12 @@ export const PT_A2_U20: Lesson[] = [
         source: "Sorry it's so late, and thanks! (a woman speaking)",
         answer: "Desculpa a hora, e obrigada!",
         altAnswers: ["Desculpe a hora, e obrigada!", "Desculpa o horário, e obrigada!", "Desculpe o horário, e obrigada!", "Desculpa a hora e obrigada!"],
-        explanation: "\"Desculpa a hora\" apologises for the time; a woman says \"obrigada\".",
+        explanation: "\"Desculpa a hora\" apologizes for the time; a woman says \"obrigada\".",
       },
       {
         type: "dictation",
         audio: "Seu Paulo, chegou alguma encomenda?",
-        explanation: "\"Seu\" + first name for an older man; \"alguma encomenda\" for any parcel.",
+        explanation: "\"Seu\" + first name for an older man; \"alguma encomenda\" for any package.",
       },
       {
         type: "speak",
@@ -2467,9 +2467,9 @@ export const PT_A2_U20: Lesson[] = [
         ],
         examples: [
           { es: "Você poderia me mandar a chave Pix?", en: "Could you send me the Pix key?" },
-          { es: "Dá para parcelar em cinco vezes sem juros?", en: "Can I pay in five interest-free instalments?" },
+          { es: "Dá para parcelar em cinco vezes sem juros?", en: "Can I pay in five interest-free installments?" },
           { es: "Eu queria um chip pré-pago com bastante internet.", en: "I'd like a prepaid chip with plenty of data." },
-          { es: "Não tem nenhum caixa eletrônico aqui perto?", en: "Isn't there any cash machine near here?" },
+          { es: "Não tem nenhum caixa eletrônico aqui perto?", en: "Isn't there any ATM near here?" },
         ],
         checkpoint: [
           {
@@ -2485,7 +2485,7 @@ export const PT_A2_U20: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Isn't there any cash machine near here?",
+            source: "Isn't there any ATM near here?",
             answer: "Não tem nenhum caixa eletrônico aqui perto?",
             altAnswers: ["Não tem nenhum caixa eletrônico por aqui?", "Não há nenhum caixa eletrônico aqui perto?"],
             explanation: "Double negation: \"não tem nenhum\".",
@@ -2499,7 +2499,7 @@ export const PT_A2_U20: Lesson[] = [
         ],
         examples: [
           { es: "Eu estava no metrô quando roubaram a minha carteira.", en: "I was on the metro when someone stole my wallet." },
-          { es: "A encomenda chegou, mas a caixa estava aberta.", en: "The parcel arrived, but the box was open." },
+          { es: "A encomenda chegou, mas a caixa estava aberta.", en: "The package arrived, but the box was open." },
           { es: "O tênis ficou apertado, então eu troquei.", en: "The sneakers were tight, so I exchanged them." },
           { es: "Me ligaram da clínica para remarcar a consulta.", en: "The clinic called me to reschedule the appointment." },
         ],
@@ -2517,7 +2517,7 @@ export const PT_A2_U20: Lesson[] = [
             type: "listen-choose",
             audio: "A encomenda chegou, mas a caixa estava aberta.",
             question: "What does it mean?",
-            options: ["The parcel arrived, but the box was open.", "The parcel didn't arrive, and the box was open.", "The parcel arrived, but the shop was closed.", "The parcel will arrive, but the box is open."],
+            options: ["The package arrived, but the box was open.", "The package didn't arrive, and the box was open.", "The package arrived, but the shop was closed.", "The package will arrive, but the box is open."],
             correctIndex: 0,
             explanation: "\"Chegou\" for the event, \"estava aberta\" for the state it was in.",
           },
@@ -2580,7 +2580,7 @@ export const PT_A2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "At the shop, the assistant asks: \"Débito ou crédito?\" You want to split the payment. What do you say?",
+        question: "At the store, the salesclerk asks: \"Débito ou crédito?\" You want to split the payment. What do you say?",
         options: ["Crédito, em três vezes, por favor.", "Débito, em três vezes, por favor.", "À vista, em três vezes, por favor.", "Crédito, por três vezes, por favor."],
         correctIndex: 0,
         explanation: "Only credit can be split (\"parcelado\"): \"em três vezes\".",
@@ -2606,10 +2606,10 @@ export const PT_A2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "There was a power cut, so I didn't do anything.",
+        source: "There was a power outage, so I didn't do anything.",
         answer: "Faltou luz, então eu não fiz nada.",
         altAnswers: ["Faltou luz, então não fiz nada.", "Faltou luz, por isso eu não fiz nada.", "Faltou luz, por isso não fiz nada.", "Acabou a luz, então eu não fiz nada."],
-        explanation: "\"Faltou luz\" (power cut) and double negation \"não fiz nada\".",
+        explanation: "\"Faltou luz\" (power outage) and double negation \"não fiz nada\".",
       },
       {
         type: "dictation",
@@ -2620,7 +2620,7 @@ export const PT_A2_U20: Lesson[] = [
         type: "speak",
         text: "Eu queria um chip pré-pago com bastante internet.",
         prompt: "Say it in Portuguese: I'd like a prepaid chip with plenty of data.",
-        explanation: "\"Bastante\" means plenty; \"internet\" is used for mobile data too.",
+        explanation: "\"Bastante\" means plenty; \"internet\" is used for cell data too.",
       },
     ],
   },
@@ -2628,7 +2628,7 @@ export const PT_A2_U20: Lesson[] = [
 
 export const PT_A2_U20_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You live in a flat in São Paulo, and yesterday was a bad day: something in the flat stopped working and someone stole your phone on the bus. Write a WhatsApp message to the building manager, Seu Marcos: explain what happened to your phone (so he can't call you), describe the problem in the flat and when it started, and ask politely for a technician and a time.",
+  prompt: "You live in an apartment in São Paulo, and yesterday was a bad day: something in the apartment stopped working and someone stole your phone on the bus. Write a WhatsApp message to the building manager, Seu Marcos: explain what happened to your phone (so he can't call you), describe the problem in the apartment and when it started, and ask politely for a technician and a time.",
   minWords: 60,
   maxWords: 100,
   rubric: [

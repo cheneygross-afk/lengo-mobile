@@ -69,7 +69,7 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
         examples: [
           { pt: "Você já almoçou? Ainda não.", en: "Have you had lunch? Not yet." },
           { pt: "Já terminei o relatório.", en: "I've already finished the report." },
-          { pt: "Eu nunca viajei para o Nordeste.", en: "I've never travelled to the Northeast." },
+          { pt: "Eu nunca viajei para o Nordeste.", en: "I've never traveled to the Northeast." },
           { pt: "Vocês já experimentaram tapioca?", en: "Have you ever tried tapioca?" },
         ],
       },
@@ -192,7 +192,7 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
       {
         heading: `Ago: "há" and "faz"`,
         body: [
-          `To say ago, put "há" or "faz" before the amount of time: "Há dois dias" or "Faz dois dias" (two days ago). It can go at the start or the end: "Cheguei há uma semana", "Faz um mês que eu vi ela." "Faz" is more common in speech, "há" in writing; both are correct.`,
+          `To say ago, put "há" or "faz" before the amount of time: "Há dois dias" or "Faz dois dias" (two days ago). It can go at the start or the end: "Cheguei há uma semana", "Faz um mês que eu vi a Júlia." "Faz" is more common in speech, "há" in writing; both are correct.`,
           `Don't confuse "há" (ago, spelled with h) with "a" in "daqui a" (from now, for the future): "Cheguei há dois dias" (two days ago) but "Vou viajar daqui a dois dias" (in two days).`,
         ],
         examples: [
@@ -374,7 +374,7 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
     level: "A2",
     intro: [
       `English mostly uses one simple past (I lived, I went) and adds used to or was -ing when needed. Portuguese makes you choose every time: the perfeito for events that happened and finished, the imperfeito for the background around them.`,
-      `Picture a film. The imperfeito sets the scene: "Era tarde e estava chovendo." The perfeito moves the story forward: "De repente, alguém bateu na porta." (It was late and it was raining. Suddenly, someone knocked at the door.)`,
+      `Picture a movie. The imperfeito sets the scene: "Era tarde e estava chovendo." The perfeito moves the story forward: "De repente, alguém bateu na porta." (It was late and it was raining. Suddenly, someone knocked at the door.)`,
     ],
     sections: [
       {
@@ -443,8 +443,8 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
         why: `Being a child is a state over a period, background, so it takes "era".`,
       },
       {
-        wrong: "Eu conhecia ela ontem.",
-        right: "Eu conheci ela ontem.",
+        wrong: "Eu conhecia a Ana ontem.",
+        right: "Eu conheci a Ana ontem.",
         why: `Meeting someone for the first time is a one-time event: "conheci".`,
       },
       {
@@ -622,7 +622,7 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
           rows: [
             ["She gave me a present.", "Ela me deu um presente.", "Ela me deu um presente."],
             ["I'll send you the photo.", "Eu te mando a foto.", "Eu lhe envio a foto."],
-            ["I gave him the book.", "Dei o livro pra ele.", "Dei-lhe o livro. / Eu lhe dei o livro."],
+            ["I gave him the book.", "Dei o livro pra ele.", "Eu lhe dei o livro."],
             ["We told them the news.", "Contamos a notícia pra eles.", "Contamos-lhes a notícia."],
           ],
         },
@@ -682,7 +682,7 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
     faqs: [
       {
         q: `Should I use "lhe" at all?`,
-        a: `Recognise it, and use it in formal writing: "Agradeço-lhe a atenção". In conversation, "te", "para você", "para ele" or "para o senhor" sound more natural in most of Brazil.`,
+        a: `Recognize it, and use it in formal writing: "Agradeço-lhe a atenção". In conversation, "te", "para você", "para ele" or "para o senhor" sound more natural in most of Brazil.`,
       },
       {
         q: `What is "pra"?`,
@@ -863,7 +863,7 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
         heading: `Superlatives and -íssimo`,
         body: [
           `The superlative is the article plus "mais" or "menos", with "de" for in or of: "o prédio mais alto da cidade" (the tallest building in the city). Note the order: the noun comes between the article and "mais".`,
-          `For very, Portuguese has two options: "muito" before the adjective, or the ending "-íssimo" on it, which is stronger and very common in speech: "lindo, lindíssimo", "caro, caríssimo", "bom, ótimo" or "boníssimo". Some adjectives change their spelling: "rico, riquíssimo", "feliz, felicíssimo", "fácil, facílimo" (formal; in speech "muito fácil" or "facinho").`,
+          `For very, Portuguese has two options: "muito" before the adjective, or the ending "-íssimo" on it, which is stronger and very common in speech: "lindo, lindíssimo", "caro, caríssimo", "bom, ótimo" or "boníssimo". Some adjectives change their spelling: "rico, riquíssimo", "feliz, felicíssimo", "fácil, facílimo" (very formal; "facilíssimo" is the common form, and in speech "muito fácil" or "facinho" are everyday too).`,
         ],
         examples: [
           { pt: "É a praia mais bonita do Nordeste.", en: "It's the most beautiful beach in the Northeast." },
@@ -907,7 +907,7 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `Can I say "mais pequeno"?`,
-        a: `In Brazil, no: use "menor". "Mais pequeno" sounds Portuguese to Brazilians.`,
+        a: `In Brazil, use "menor". "Mais pequeno" is not ungrammatical, but it sounds European to Brazilians and is a typical learner slip.`,
       },
       {
         q: `Are comparisons different in Portugal?`,
@@ -934,14 +934,14 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
     level: "A2",
     intro: [
       `Brazilians use diminutives all the time, and not only for small things. "Um cafezinho" is a coffee offered with warmth, "um minutinho" is a polite just a moment, "pertinho" means really close and "rapidinho" means super quick.`,
-      `The augmentative "-ão" does the opposite: "um carrão" is a big, impressive car, "um amigão" a great friend. Both endings add colour and feeling, and getting them right makes your Portuguese sound much more Brazilian.`,
+      `The augmentative "-ão" does the opposite: "um carrão" is a big, impressive car, "um amigão" a great friend. Both endings add color and feeling, and getting them right makes your Portuguese sound much more Brazilian.`,
     ],
     sections: [
       {
         heading: `Forming the diminutive`,
         body: [
           `Words ending in unstressed "-o" or "-a" drop the vowel and add "-inho" or "-inha": "casa, casinha", "gato, gatinho". The gender stays the same. Spelling adjusts to keep the sound: "amigo, amiguinho", "pouco, pouquinho".`,
-          `Words ending in a stressed vowel, a nasal, a diphthong or a consonant add "-zinho" or "-zinha" to the whole word: "café, cafezinho", "pão, pãozinho", "mãe, mãezinha", "flor, florzinha". In the plural, "-zinho" words pluralise both parts: "pães" + "-zinhos" gives "pãezinhos", "flores" gives "florezinhas".`,
+          `Words ending in a stressed vowel, a nasal, a diphthong or a consonant add "-zinho" or "-zinha" to the whole word: "café, cafezinho", "pão, pãozinho", "mãe, mãezinha", "flor, florzinha". In careful Portuguese, "-zinho" words pluralize both parts: "pães" + "-zinhos" gives "pãezinhos", "flores" gives "florezinhas". In relaxed speech many Brazilians just add "-s" at the end ("pãozinhos", "florzinhas"), but the written norm is the double plural.`,
         ],
         table: {
           headers: ["Word", "Diminutive", "Rule"],
@@ -996,7 +996,7 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
       {
         wrong: "Eu quero dois pãozinhos.",
         right: "Eu quero dois pãezinhos.",
-        why: `With "-zinho", both parts take the plural: "pães" + "-zinhos".`,
+        why: `With "-zinho", the written norm puts both parts in the plural: "pães" + "-zinhos". You will hear "pãozinhos" in speech, but write "pãezinhos".`,
       },
       {
         wrong: "Ele é meu amigoinho.",
@@ -1020,7 +1020,7 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `Does Portugal use diminutives too?`,
-        a: `Yes, but less freely. European Portuguese has its own favourites, such as "um bocadinho" (a little bit), where Brazil says "um pouquinho".`,
+        a: `Yes, but less freely. European Portuguese has its own favorites, such as "um bocadinho" (a little bit), where Brazil says "um pouquinho".`,
       },
     ],
     related: ["comparatives-superlatives", "adjective-agreement"],
@@ -1034,7 +1034,7 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
     level: "A2",
     intro: [
       `Brazilian Portuguese has a true future tense, the "futuro do presente" ("falarei", I will speak), but in conversation almost nobody uses it. The everyday future is "ir" plus an infinitive: "Vou viajar amanhã" (I'm going to travel tomorrow), "Vai chover" (it's going to rain).`,
-      `The difference is register, not meaning: "Vou te ligar" in a text to a friend, "Entraremos em contato" in a company email. You need to use the first and recognise the second.`,
+      `The difference is register, not meaning: "Vou te ligar" in a text to a friend, "Entraremos em contato" in a company email. You need to use the first and recognize the second.`,
     ],
     sections: [
       {
@@ -1311,7 +1311,7 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
         table: {
           headers: ["Use", "Example", "Meaning"],
           rows: [
-            ["through, along", "Fomos pela orla.", "We went along the seafront."],
+            ["through, along", "Fomos pela orla.", "We went along the waterfront."],
             ["around (place)", "Ele mora por aqui.", "He lives around here."],
             ["cause, thanks", "Obrigado pelo convite.", "Thanks for the invitation."],
             ["exchange", "Paguei cinquenta reais por isso.", "I paid fifty reais for this."],
@@ -1390,7 +1390,7 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
             ["embaixo de", "under", "O gato está embaixo da cama."],
             ["dentro de", "inside", "O celular está dentro da bolsa."],
             ["ao lado de", "next to", "A farmácia fica ao lado do banco."],
-            ["em frente a, em frente de", "opposite, in front of", "O ponto é em frente à escola."],
+            ["em frente a, em frente de", "across from, in front of", "O ponto é em frente à escola."],
             ["atrás de", "behind", "O estacionamento é atrás do prédio."],
             ["perto de, longe de", "near, far from", "Moro perto do metrô."],
             ["entre", "between", "Fica entre a padaria e o correio."],
@@ -1398,8 +1398,8 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
         },
         examples: [
           { pt: "Tem um restaurante bom perto daqui?", en: "Is there a good restaurant near here?" },
-          { pt: "O mercado fica em frente à praça.", en: "The market is opposite the square." },
-          { pt: "Deixei as compras dentro do carro.", en: "I left the shopping inside the car." },
+          { pt: "O mercado fica em frente à praça.", en: "The market is across from the square." },
+          { pt: "Deixei as compras dentro do carro.", en: "I left the groceries inside the car." },
           { pt: "A estação não é longe do hotel.", en: "The station isn't far from the hotel." },
         ],
       },
@@ -1411,9 +1411,9 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
         ],
         examples: [
           { pt: "Eu nasci em 1995, em julho.", en: "I was born in 1995, in July." },
-          { pt: "A loja abre de segunda a sábado.", en: "The shop opens Monday to Saturday." },
+          { pt: "A loja abre de segunda a sábado.", en: "The store is open Monday through Saturday." },
           { pt: "Trabalho das oito às cinco.", en: "I work from eight to five." },
-          { pt: "A gente se vê no fim de semana.", en: "See you at the weekend." },
+          { pt: "A gente se vê no fim de semana.", en: "See you on the weekend." },
         ],
       },
       {
@@ -1469,7 +1469,7 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
       },
       {
         q: `Are place words different in Portugal?`,
-        a: `Mostly the same, with some local favourites. Portugal often says "ao pé de" for near, "à frente de" for in front of, and writes "debaixo de" for under, where Brazilian speech prefers "embaixo de".`,
+        a: `Mostly the same, with some local favorites. Portugal often says "ao pé de" for near, "à frente de" for in front of, and favors "debaixo de" for under; Brazil uses both "embaixo de" and "debaixo de", with "embaixo de" more frequent in speech.`,
       },
     ],
     related: ["por-vs-para", "contractions-no-na-do-da", "numbers-time-dates", "preterito-perfeito-irregular"],
@@ -1513,7 +1513,7 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
           { pt: "Alguém viu as minhas chaves?", en: "Has anyone seen my keys?" },
           { pt: "Você precisa de alguma coisa do mercado?", en: "Do you need anything from the market?" },
           { pt: "Tenho alguns amigos em Porto Alegre.", en: "I have some friends in Porto Alegre." },
-          { pt: "Nenhuma loja estava aberta.", en: "No shop was open." },
+          { pt: "Nenhuma loja estava aberta.", en: "No store was open." },
         ],
       },
       {
@@ -1524,7 +1524,7 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
         ],
         examples: [
           { pt: "Eu não entendi nada.", en: "I didn't understand anything." },
-          { pt: "Não tem ninguém na fila.", en: "There's nobody in the queue." },
+          { pt: "Não tem ninguém na fila.", en: "There's nobody in line." },
           { pt: "Ninguém me avisou!", en: "Nobody told me!" },
           { pt: "Não comprei nenhum presente ainda.", en: "I haven't bought any presents yet." },
         ],
@@ -1725,7 +1725,7 @@ export const PT_A2_GUIDES: PtGrammarGuide[] = [
             ["stay", "Hoje eu fico em casa.", "Today I'm staying at home."],
             ["be located", "Onde fica a rodoviária?", "Where's the bus station?"],
             ["suit, look", "Essa camisa ficou ótima em você.", "That shirt looks great on you."],
-            ["keep doing", "Fiquei esperando uma hora.", "I kept waiting for an hour."],
+            ["keep doing", "Fiquei esperando uma hora.", "I spent an hour waiting."],
             ["keep, take", "Vou ficar com a azul.", "I'll take the blue one."],
           ],
         },

@@ -24,7 +24,7 @@ export const PT_B2_U07: Lesson[] = [
           { es: "Ainda que chova, o show vai acontecer.", en: "Even if it rains, the show will go ahead." },
           { es: "Embora ele trabalhe muito, ganha pouco.", en: "Although he works a lot, he earns very little." },
           { es: "Embora morasse perto da praia, ela quase nunca ia ao mar.", en: "Although she lived near the beach, she hardly ever went in the sea." },
-          { es: "Embora tenha chovido a manhã toda, o jogo não foi cancelado.", en: "Although it rained all morning, the game wasn't cancelled." },
+          { es: "Embora tenha chovido a manhã toda, o jogo não foi cancelado.", en: "Although it rained all morning, the game wasn't canceled." },
           { es: "Ainda que você não concorde, a decisão já foi tomada.", en: "Even if you don't agree, the decision has already been made." },
         ],
         checkpoint: [
@@ -256,7 +256,7 @@ export const PT_B2_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'm going to buy that car, even if I have to sell my motorbike.",
+        source: "I'm going to buy that car, even if I have to sell my motorcycle.",
         answer: "Vou comprar aquele carro, nem que eu tenha que vender minha moto.",
         altAnswers: [
           "Eu vou comprar aquele carro, nem que eu tenha que vender minha moto.",
@@ -290,13 +290,13 @@ export const PT_B2_U07: Lesson[] = [
         body: [
           "\"Apesar de\" means despite or in spite of. It takes a noun or an infinitive, never a conjugated verb. Its \"de\" contracts as usual: \"apesar do trânsito\", \"apesar da chuva\", \"apesar disso\". English speakers tend to drop the \"de\" (*\"apesar o trânsito\"), but it is never optional.",
           "With the same subject, use the plain infinitive: \"apesar de estar cansada, ela foi\". With a different subject, use the personal infinitive and put the subject first: \"apesar de os ingressos serem caros\". Careful writing keeps \"de o\" apart before the subject of an infinitive. Speech usually says \"apesar dos ingressos serem\".",
-          "Unlike \"embora\" from the last lesson, \"apesar de\" never needs the subjunctive. You'll also hear \"apesar de que\" + indicative (\"apesar de que ele é simpático\"). Recognise it, but write \"apesar de ele ser simpático\".",
+          "Unlike \"embora\" from the last lesson, \"apesar de\" never needs the subjunctive. You'll also hear \"apesar de que\" + indicative (\"apesar de que ele é simpático\"). Recognize it, but write \"apesar de ele ser simpático\".",
         ],
         examples: [
           { es: "Apesar da chuva, o show em Copacabana continuou.", en: "Despite the rain, the show in Copacabana went on." },
           { es: "Apesar do trânsito, chegamos a tempo.", en: "Despite the traffic, we arrived on time." },
           { es: "Apesar de estar cansada, ela foi à festa.", en: "Despite being tired, she went to the party." },
-          { es: "Apesar de os ingressos serem caros, o teatro lotou.", en: "Despite the tickets being expensive, the theatre was full." },
+          { es: "Apesar de os ingressos serem caros, o teatro lotou.", en: "Despite the tickets being expensive, the theater was full." },
           { es: "Ele aceitou a vaga apesar do salário baixo.", en: "He took the job despite the low salary." },
         ],
         checkpoint: [
@@ -378,7 +378,7 @@ export const PT_B2_U07: Lesson[] = [
           "It has nothing to do with \"se\" meaning if, so don't read a condition into it.",
         ],
         examples: [
-          { es: "O apartamento é ótimo, só que fica longe do metrô.", en: "The flat is great, the thing is it's far from the metro." },
+          { es: "O apartamento é ótimo, só que fica longe do metrô.", en: "The apartment is great, the thing is it's far from the metro." },
           { es: "Eu ia te ligar, só que acabou a bateria do celular.", en: "I was going to call you, but my phone battery died." },
           { es: "O restaurante é caro, só que a comida vale cada centavo.", en: "The restaurant is expensive, but the food is worth every cent." },
           { es: "Vamos de carro. Se bem que no sábado o trânsito é pior.", en: "Let's go by car. Then again, the traffic is worse on Saturdays." },
@@ -389,7 +389,7 @@ export const PT_B2_U07: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The flat is great, the thing is it's far from the metro.",
+            source: "The apartment is great, the thing is it's far from the metro.",
             answer: "O apartamento é ótimo, só que fica longe do metrô.",
             altAnswers: ["O apartamento é ótimo, só que é longe do metrô.", "O apartamento é ótimo, mas fica longe do metrô.", "O apartamento é ótimo, mas é longe do metrô."],
             explanation: "\"Só que\" introduces the catch, followed by the indicative \"fica\". \"Ficar\" is the usual verb for where a place is located.",
@@ -442,7 +442,7 @@ export const PT_B2_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Despite the tickets being expensive, the theatre was full.",
+        source: "Despite the tickets being expensive, the theater was full.",
         answer: "Apesar de os ingressos serem caros, o teatro lotou.",
         altAnswers: ["Apesar dos ingressos serem caros, o teatro lotou.", "Apesar de os ingressos serem caros, o teatro ficou lotado.", "Apesar de os ingressos serem caros, o teatro estava lotado.", "Apesar dos ingressos serem caros, o teatro ficou lotado.", "O teatro lotou apesar de os ingressos serem caros."],
         explanation: "A different subject takes the personal infinitive: \"os ingressos serem\". Careful writing keeps \"de os\" apart, and speech often says \"dos\".",
@@ -528,9 +528,9 @@ export const PT_B2_U07: Lesson[] = [
         ],
         examples: [
           { es: "Já que você está aqui, me ajuda com essas caixas?", en: "Since you're here, can you help me with these boxes?" },
-          { es: "Uma vez que o voo foi cancelado, a companhia ofereceu um hotel.", en: "Since the flight was cancelled, the airline offered a hotel." },
+          { es: "Uma vez que o voo foi cancelado, a companhia ofereceu um hotel.", en: "Since the flight was canceled, the airline offered a hotel." },
           { es: "Visto que o prazo acabou, não aceitamos mais inscrições.", en: "Since the deadline has passed, we're no longer accepting registrations." },
-          { es: "Dado que a população está envelhecendo, o sistema de saúde precisa mudar.", en: "Given that the population is ageing, the health system needs to change." },
+          { es: "Dado que a população está envelhecendo, o sistema de saúde precisa mudar.", en: "Given that the population is aging, the health system needs to change." },
           { es: "Não vou ao jantar, já que ninguém me convidou.", en: "I'm not going to the dinner, since nobody invited me." },
         ],
         checkpoint: [
@@ -538,7 +538,7 @@ export const PT_B2_U07: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Since the meeting was cancelled, I'm going home.",
+            source: "Since the meeting was canceled, I'm going home.",
             answer: "Já que a reunião foi cancelada, vou para casa.",
             altAnswers: [
               "Já que a reunião foi cancelada, eu vou para casa.",
@@ -584,12 +584,12 @@ export const PT_B2_U07: Lesson[] = [
           "Neither can take a full clause: \"por causa da chuva\" but \"porque está chovendo\", never \"por causa de está chovendo\". With a possessive, \"por sua causa\" (because of you) is a common alternative to \"por causa de você\".",
         ],
         examples: [
-          { es: "O jogo foi adiado por causa da chuva.", en: "The match was postponed because of the rain." },
+          { es: "O jogo foi adiado por causa da chuva.", en: "The game was postponed because of the rain." },
           { es: "Cheguei atrasado por causa do trânsito.", en: "I was late because of the traffic." },
           { es: "O voo para Manaus atrasou devido ao mau tempo.", en: "The flight to Manaus was delayed due to bad weather." },
           { es: "Devido à greve, o metrô não vai funcionar amanhã.", en: "Due to the strike, the metro won't run tomorrow." },
           { es: "Ela mudou de cidade por causa dele.", en: "She moved to another city because of him." },
-          { es: "A loja ficará fechada devido a reformas.", en: "The shop will be closed due to renovations." },
+          { es: "A loja ficará fechada devido a reformas.", en: "The store will be closed due to renovations." },
         ],
         checkpoint: [
           {
@@ -624,7 +624,7 @@ export const PT_B2_U07: Lesson[] = [
             question: "What does it mean?",
             options: [
               "The flight to Manaus was delayed due to bad weather.",
-              "The flight to Manaus was cancelled due to bad weather.",
+              "The flight to Manaus was canceled due to bad weather.",
               "The flight to Manaus was delayed despite the bad weather.",
               "Thanks to good weather, the flight to Manaus was on time.",
             ],
@@ -640,7 +640,7 @@ export const PT_B2_U07: Lesson[] = [
           "The exception is irony, as in English: \"Graças a você, a gente perdeu o ônibus!\" is a complaint, and Brazilians hear it as one. \"Graças a Deus\" (thank God) is a fixed expression of relief.",
         ],
         examples: [
-          { es: "Graças ao apoio da família, ela terminou a faculdade.", en: "Thanks to her family's support, she finished university." },
+          { es: "Graças ao apoio da família, ela terminou a faculdade.", en: "Thanks to her family's support, she finished college." },
           { es: "Graças à vacina, a doença quase desapareceu.", en: "Thanks to the vaccine, the disease has almost disappeared." },
           { es: "Consegui o emprego graças a uma indicação do Rafael.", en: "I got the job thanks to a recommendation from Rafael." },
           { es: "Graças a você, a gente perdeu o ônibus!", en: "Thanks to you, we missed the bus! (ironic)" },
@@ -699,7 +699,7 @@ export const PT_B2_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The shop will be closed due to renovations.",
+        source: "The store will be closed due to renovations.",
         answer: "A loja ficará fechada devido a reformas.",
         altAnswers: [
           "A loja vai ficar fechada devido a reformas.",
@@ -889,11 +889,11 @@ export const PT_B2_U07: Lesson[] = [
         heading: "Result: tão... que, tanto que + indicative",
         body: [
           "A result clause reports something that actually happens or happened, so it takes the indicative. Before an adjective or adverb, use \"tão\": \"O filme era tão longo que eu dormi\". Before a noun, use \"tanto\", which agrees with the noun: \"tanta gente\", \"tantos problemas\". After a verb, \"tanto\" never changes: \"Ele trabalhou tanto que ficou doente\".",
-          "English so and such both translate as \"tão\" or \"tanto\": such a long film is \"um filme tão longo\". The classic slip is putting \"tão\" before a noun. Heat is a noun in Portuguese, so you say \"tanto calor\", never \"tão calor\".",
+          "English so and such both translate as \"tão\" or \"tanto\": such a long movie is \"um filme tão longo\". The classic slip is putting \"tão\" before a noun. Heat is a noun in Portuguese, so you say \"tanto calor\", never \"tão calor\".",
           "At the start of a clause, \"tanto que\" means so much so that: \"Ela adora Salvador, tanto que se mudou para lá\". In formal writing, \"de tal forma que\" and \"de tal modo que\" do the same job after a verb.",
         ],
         examples: [
-          { es: "O filme era tão longo que eu dormi no meio.", en: "The film was so long that I fell asleep halfway through." },
+          { es: "O filme era tão longo que eu dormi no meio.", en: "The movie was so long that I fell asleep halfway through." },
           { es: "Fazia tanto calor que a gente passou o dia na praia.", en: "It was so hot that we spent the day at the beach." },
           { es: "Tinha tanta gente na feira que a gente mal conseguia andar.", en: "There were so many people at the market that we could barely walk." },
           { es: "Ele trabalhou tanto que ficou doente.", en: "He worked so much that he got sick." },
@@ -967,7 +967,7 @@ export const PT_B2_U07: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "It rained all week, so the festival was cancelled.",
+            source: "It rained all week, so the festival was canceled.",
             answer: "Choveu a semana toda, de modo que o festival foi cancelado.",
             altAnswers: [
               "Choveu a semana inteira, de modo que o festival foi cancelado.",
@@ -1079,7 +1079,7 @@ export const PT_B2_U07: Lesson[] = [
         type: "speak",
         text: "Tinha tanta gente que a gente foi embora.",
         prompt: "Say it in Portuguese: There were so many people that we left.",
-        tip: "Nasalise the first syllable of \"tanta\" without adding an n sound, and keep the t hard before a.",
+        tip: "Nasalize the first syllable of \"tanta\" without adding an n sound, and keep the t hard before a.",
         explanation: "\"Gente\" is a feminine noun, so the form is \"tanta gente\". Leaving really happened, so the verb is in the indicative: \"foi embora\".",
       },
       {
@@ -1130,7 +1130,7 @@ export const PT_B2_U07: Lesson[] = [
           { es: "Já que você está aqui, me ajuda com a mala?", en: "Since you're here, can you help me with the suitcase?" },
           { es: "Como o metrô estava parado, fomos a pé.", en: "As the metro was down, we walked." },
           { es: "Ele treinou tanto que ganhou a corrida.", en: "He trained so much that he won the race." },
-          { es: "Deixei a chave com a vizinha para que você possa entrar.", en: "I left the key with the neighbour so that you can get in." },
+          { es: "Deixei a chave com a vizinha para que você possa entrar.", en: "I left the key with the neighbor so that you can get in." },
           { es: "Embora o hotel seja simples, o café da manhã é ótimo.", en: "Although the hotel is basic, the breakfast is great." },
           { es: "O restaurante é caro, se bem que a comida vale a pena.", en: "The restaurant is expensive, though the food is worth it." },
         ],
@@ -1174,7 +1174,7 @@ export const PT_B2_U07: Lesson[] = [
           "A quick test: if \"por isso\" (so, therefore) fits, use the indicative; if \"para que\" fits, use the subjunctive. The result reading typically follows a comma and a finished event; the purpose reading follows an instruction or a plan.",
         ],
         examples: [
-          { es: "Choveu a noite toda, de modo que o jogo foi adiado.", en: "It rained all night, so the match was postponed." },
+          { es: "Choveu a noite toda, de modo que o jogo foi adiado.", en: "It rained all night, so the game was postponed." },
           { es: "Fale mais alto, de modo que todos ouçam.", en: "Speak louder so that everyone can hear." },
           { es: "O ônibus atrasou, de forma que eu perdi a reunião.", en: "The bus was late, so I missed the meeting." },
           { es: "Organizamos as mesas de maneira que ninguém ficasse de costas para o palco.", en: "We arranged the tables so that nobody would have their back to the stage." },
@@ -1281,7 +1281,7 @@ export const PT_B2_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Provided it doesn't rain, the party will be in the garden.",
+        source: "Provided it doesn't rain, the party will be in the backyard.",
         answer: "Desde que não chova, a festa vai ser no jardim.",
         altAnswers: ["Contanto que não chova, a festa vai ser no jardim.", "Desde que não chova, a festa será no jardim.", "Contanto que não chova, a festa será no jardim.", "A festa vai ser no jardim, desde que não chova."],
         explanation: "A condition, so the subjunctive: \"não chova\". \"Contanto que\" works the same way.",
@@ -1290,7 +1290,7 @@ export const PT_B2_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Even though he's Brazilian, he doesn't like football.",
+        source: "Even though he's Brazilian, he doesn't like soccer.",
         answer: "Embora seja brasileiro, ele não gosta de futebol.",
         altAnswers: ["Embora ele seja brasileiro, não gosta de futebol.", "Embora ele seja brasileiro, ele não gosta de futebol.", "Ainda que seja brasileiro, ele não gosta de futebol.", "Ele não gosta de futebol, embora seja brasileiro."],
         explanation: "Being Brazilian is a fact, but \"embora\" still takes the subjunctive: \"seja\". \"Embora é\" is the typical mistake.",
@@ -1298,7 +1298,7 @@ export const PT_B2_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The film was long, [though] it wasn't boring.",
+        en: "The movie was long, [though] it wasn't boring.",
         sentence: "O filme foi longo, ___ não foi chato.",
         answer: "se bem que",
         altAnswers: ["mas", "porém"],
@@ -1383,7 +1383,7 @@ export const PT_B2_U07: Lesson[] = [
           "Don't confuse it with \"ir embora\" (to leave): \"ela foi embora\" just means she left.",
         ],
         examples: [
-          { es: "Embora o apartamento seja pequeno, a localização é ótima.", en: "Although the flat is small, the location is great." },
+          { es: "Embora o apartamento seja pequeno, a localização é ótima.", en: "Although the apartment is small, the location is great." },
           { es: "Embora ele trabalhe muito, ganha pouco.", en: "Although he works a lot, he earns very little." },
           { es: "Embora fosse tarde, a gente continuou conversando.", en: "Although it was late, we kept on talking." },
           { es: "Embora tenha chovido de manhã, o show na praia aconteceu.", en: "Although it rained in the morning, the beach concert went ahead." },
@@ -1427,7 +1427,7 @@ export const PT_B2_U07: Lesson[] = [
           { es: "Apesar do trânsito, chegamos a tempo.", en: "Despite the traffic, we arrived on time." },
           { es: "Apesar da chuva, a feira estava cheia.", en: "Despite the rain, the street market was packed." },
           { es: "Apesar de estar cansada, a Beatriz foi à academia.", en: "Although she was tired, Beatriz went to the gym." },
-          { es: "Apesar de os ingressos serem caros, o teatro lotou.", en: "Although the tickets were expensive, the theatre sold out." },
+          { es: "Apesar de os ingressos serem caros, o teatro lotou.", en: "Although the tickets were expensive, the theater sold out." },
           { es: "Apesar de ter estudado muito, o Lucas não passou na prova.", en: "Despite having studied a lot, Lucas didn't pass the exam." },
           { es: "O serviço demorou. Apesar disso, ninguém reclamou.", en: "The service was slow. Despite that, nobody complained." },
         ],
@@ -1444,10 +1444,10 @@ export const PT_B2_U07: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Despite [the tickets being] expensive, the theatre sold out.",
+            en: "Despite [the tickets being] expensive, the theater sold out.",
             sentence: "Apesar de ___ caros, o teatro lotou.",
             answer: "os ingressos serem",
-            explanation: "The subjects differ (tickets vs theatre), so you name the subject and use the personal infinitive \"serem\". In writing, \"de os\" stays uncontracted, although speech says \"dos ingressos serem\".",
+            explanation: "The subjects differ (tickets vs theater), so you name the subject and use the personal infinitive \"serem\". In writing, \"de os\" stays uncontracted, although speech says \"dos ingressos serem\".",
           },
           {
             type: "multiple-choice",
@@ -1485,7 +1485,7 @@ export const PT_B2_U07: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The film is long, but [even so] it's worth it.",
+            en: "The movie is long, but [even so] it's worth it.",
             sentence: "O filme é longo, mas ___ vale a pena.",
             answer: "mesmo assim",
             altAnswers: ["ainda assim"],
@@ -1587,7 +1587,7 @@ export const PT_B2_U07: Lesson[] = [
         type: "speak",
         text: "Embora seja tarde, vou ficar mais um pouco.",
         prompt: "Say it in Portuguese: Although it's late, I'm going to stay a bit longer.",
-        tip: "Stress em-BO-ra with an open ó, and keep the ê in seja closed.",
+        tip: "Stress em-BÓ-ra with an open ó, and keep the ê in seja closed.",
         explanation: "\"Embora\" + \"seja\": the subjunctive, even though it really is late.",
       },
       {
@@ -1609,7 +1609,7 @@ export const PT_B2_U07: Lesson[] = [
     level: "PT-B2",
     number: 7,
     title: "Dialogue Lab: Vale a Pena?",
-    summary: "Follow two colleagues in São Paulo as they argue about moving their office out of the centre, and use concession, cause and purpose connectors to concede, give reasons and propose a compromise.",
+    summary: "Follow two colleagues in São Paulo as they argue about moving their office out of the center, and use concession, cause and purpose connectors to concede, give reasons and propose a compromise.",
     duration: "14 min",
     kind: "reinforce",
     format: "Dialogue Lab",
@@ -1731,7 +1731,7 @@ export const PT_B2_U07: Lesson[] = [
           "Rodrigo's last line adds a condition with \"desde que\" (provided that) + subjunctive: a yes, but a qualified one.",
         ],
         examples: [
-          { es: "A empresa podia oferecer um ônibus fretado, de modo que ninguém precise dirigir.", en: "Rodrigo: The company could lay on a charter bus, so that nobody has to drive." },
+          { es: "A empresa podia oferecer um ônibus fretado, de modo que ninguém precise dirigir.", en: "Rodrigo: The company could provide a charter bus, so that nobody has to drive." },
           { es: "Ou um modelo híbrido, a fim de que as pessoas venham só três dias por semana.", en: "Camila: Or a hybrid model, so that people only come in three days a week." },
           { es: "Hoje o trânsito na Paulista já está tão ruim que eu levo uma hora para chegar.", en: "Rodrigo: Traffic around Paulista is already so bad that it takes me an hour to get in." },
           { es: "Gostei da ideia, tanto que vou levar a proposta para a reunião de sexta.", en: "Camila: I like the idea, so much so that I'm taking the proposal to Friday's meeting." },
@@ -1770,7 +1770,7 @@ export const PT_B2_U07: Lesson[] = [
           {
             type: "speak",
             text: "Então vale a pena, desde que todo mundo seja ouvido.",
-            tip: "In \"desde\" the s before d buzzes like a z, and the final -de sounds like 'djee'. The final o of \"ouvido\" sounds like u.",
+            tip: "In \"desde\" the s before d buzzes like a z, and the final -de sounds like 'dji'. The final o of \"ouvido\" sounds like u.",
             explanation: "\"Desde que\" meaning provided that takes the subjunctive: \"seja ouvido\".",
           },
         ],
@@ -2010,8 +2010,8 @@ export const PT_B2_U07: Lesson[] = [
         ],
         examples: [
           { es: "O voo atrasou devido ao mau tempo.", en: "The flight was delayed due to bad weather." },
-          { es: "A estrada foi fechada devido às obras.", en: "The road was closed due to the roadworks." },
-          { es: "Graças à ajuda dos vizinhos, a gente conseguiu se mudar em um dia.", en: "Thanks to the neighbours' help, we managed to move in a day." },
+          { es: "A estrada foi fechada devido às obras.", en: "The road was closed due to the construction work." },
+          { es: "Graças à ajuda dos vizinhos, a gente conseguiu se mudar em um dia.", en: "Thanks to the neighbors' help, we managed to move in a day." },
           { es: "O jogo foi cancelado por causa da chuva.", en: "The game was called off because of the rain." },
           { es: "Cheguei atrasado por causa do trânsito na Marginal.", en: "I got there late because of the traffic on the Marginal." },
           { es: "Graças a você, eu passei na prova.", en: "Thanks to you, I passed the exam." },
@@ -2055,7 +2055,7 @@ export const PT_B2_U07: Lesson[] = [
               "Por causa a chuva, o jogo foi cancelado.",
             ],
             correctIndex: 0,
-            explanation: "A cancelled game is bad news, so the cause takes \"por causa de\": \"por causa da chuva\". \"Devido\" would need the crase: \"devido à chuva\".",
+            explanation: "A canceled game is bad news, so the cause takes \"por causa de\": \"por causa da chuva\". \"Devido\" would need the crase: \"devido à chuva\".",
           },
         ],
       },
@@ -2111,7 +2111,7 @@ export const PT_B2_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The flight was cancelled due to the fog.",
+        source: "The flight was canceled due to the fog.",
         answer: "O voo foi cancelado devido à neblina.",
         altAnswers: [
           "O voo foi cancelado por causa da neblina.",
@@ -2213,7 +2213,7 @@ export const PT_B2_U07: Lesson[] = [
           { es: "Embora as obras sejam caras, a prefeitura deve ampliar as ciclovias.", en: "Although the works are expensive, the city should expand the bike lanes." },
           { es: "Apesar do custo, o projeto vale a pena.", en: "Despite the cost, the project is worth it." },
           { es: "Ainda que muitos motoristas reclamem, as ciclovias tornam a cidade mais segura.", en: "Even though many drivers complain, bike lanes make the city safer." },
-          { es: "Por mais que o metrô tenha melhorado, ainda falta transporte na periferia.", en: "However much the metro has improved, the outskirts still lack transport." },
+          { es: "Por mais que o metrô tenha melhorado, ainda falta transporte na periferia.", en: "However much the metro has improved, the outskirts still lack public transportation." },
           { es: "Embora o home office fosse uma novidade em 2019, hoje faz parte da rotina de muitas empresas.", en: "Although working from home was a novelty in 2019, today it's part of many companies' routine." },
         ],
         checkpoint: [
@@ -2491,11 +2491,11 @@ export const PT_B2_U07: Lesson[] = [
         heading: "Conceding in any tense",
         body: [
           "\"Embora\", \"ainda que\", \"mesmo que\" and \"por mais que\" always take the subjunctive. What changes is which subjunctive. Follow the sequence of tenses: a present or future main clause takes the present subjunctive, and a past main clause takes the imperfect. An event finished before the main one takes the perfect subjunctive (\"embora tenha chovido\").",
-          "\"Mesmo que\" + imperfect subjunctive also concedes something imaginary: \"mesmo que chovesse, eu iria\" (even if it rained, I'd go). Before a noun or infinitive, switch to \"apesar de\". After a full stop, \"mesmo assim\" and \"ainda assim\" are followed by the plain indicative.",
+          "\"Mesmo que\" + imperfect subjunctive also concedes something imaginary: \"mesmo que chovesse, eu iria\" (even if it rained, I'd go). Before a noun or infinitive, switch to \"apesar de\". After a period, \"mesmo assim\" and \"ainda assim\" are followed by the plain indicative.",
         ],
         examples: [
-          { es: "Embora o aluguel seja caro, o bairro vale a pena.", en: "Although the rent is expensive, the neighbourhood is worth it." },
-          { es: "Embora o aluguel fosse caro, ficamos três anos naquele apartamento.", en: "Although the rent was expensive, we stayed in that flat for three years." },
+          { es: "Embora o aluguel seja caro, o bairro vale a pena.", en: "Although the rent is expensive, the neighborhood is worth it." },
+          { es: "Embora o aluguel fosse caro, ficamos três anos naquele apartamento.", en: "Although the rent was expensive, we stayed in that apartment for three years." },
           { es: "Por mais que eu tentasse, não conseguia dormir.", en: "However hard I tried, I couldn't sleep." },
           { es: "Embora tenha chovido a tarde toda, o show aconteceu.", en: "Although it rained all afternoon, the concert went ahead." },
           { es: "Apesar de estar cansada, a Beatriz foi à reunião.", en: "Despite being tired, Beatriz went to the meeting." },
@@ -2546,7 +2546,7 @@ export const PT_B2_U07: Lesson[] = [
         examples: [
           { es: "Já que você estava lá, podia ter me avisado.", en: "Since you were there, you could have told me." },
           { es: "O voo atrasou devido ao mau tempo.", en: "The flight was delayed due to bad weather." },
-          { es: "Graças à ajuda dos vizinhos, a festa foi um sucesso.", en: "Thanks to the neighbours' help, the party was a success." },
+          { es: "Graças à ajuda dos vizinhos, a festa foi um sucesso.", en: "Thanks to the neighbors' help, the party was a success." },
           { es: "A professora falou devagar para que todos entendessem.", en: "The teacher spoke slowly so that everyone would understand." },
           { es: "Deixei a chave com o porteiro para vocês entrarem.", en: "I left the key with the doorman so you could get in." },
           { es: "A palestra foi tão longa que metade do público saiu.", en: "The talk was so long that half the audience left." },
@@ -2569,7 +2569,7 @@ export const PT_B2_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You want to say the meeting was cancelled because of the rain. Which sentence is right?",
+            question: "You want to say the meeting was canceled because of the rain. Which sentence is right?",
             options: [
               "A reunião foi cancelada por causa da chuva.",
               "A reunião foi cancelada graças à chuva.",
@@ -2577,13 +2577,13 @@ export const PT_B2_U07: Lesson[] = [
               "A reunião foi cancelada embora chovesse.",
             ],
             correctIndex: 0,
-            explanation: "\"Por causa da chuva\" is a neutral cause. \"Graças à\" sounds as if the rain did you a favour. \"Devido a\" needs the crase here (\"devido à chuva\"). \"Embora\" means although, the opposite idea.",
+            explanation: "\"Por causa da chuva\" is a neutral cause. \"Graças à\" sounds as if the rain did you a favor. \"Devido a\" needs the crase here (\"devido à chuva\"). \"Embora\" means although, the opposite idea.",
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: The queue was so long that we gave up.",
+            prompt: "Put the words in order to say: The line was so long that we gave up.",
             words: ["A fila", "era", "tão grande", "que", "desistimos."],
-            translation: "The queue was so long that we gave up.",
+            translation: "The line was so long that we gave up.",
             explanation: "\"Tão... que\" introduces a result that actually happened, so the verb is indicative: \"desistimos\".",
           },
         ],
@@ -2595,9 +2595,9 @@ export const PT_B2_U07: Lesson[] = [
           "Two connectors lead double lives. \"Desde que\" means since with the indicative and provided that with the subjunctive. \"De modo que\" gives a result with the indicative and a purpose with the subjunctive.",
         ],
         examples: [
-          { es: "Embora a obra custe caro, ela é necessária, uma vez que o bairro não tem metrô.", en: "Although the works are expensive, they're necessary, since the neighbourhood has no metro." },
-          { es: "A prefeitura vai ampliar as ciclovias, desde que o orçamento permita.", en: "The city will expand the cycle lanes, provided the budget allows." },
-          { es: "Se a prefeitura investir em transporte, menos gente vai usar carro.", en: "If the city invests in transport, fewer people will use cars." },
+          { es: "Embora a obra custe caro, ela é necessária, uma vez que o bairro não tem metrô.", en: "Although the works are expensive, they're necessary, since the neighborhood has no metro." },
+          { es: "A prefeitura vai ampliar as ciclovias, desde que o orçamento permita.", en: "The city will expand the bike lanes, provided the budget allows." },
+          { es: "Se a prefeitura investir em transporte, menos gente vai usar carro.", en: "If the city invests in transportation, fewer people will use cars." },
           { es: "Desde que me mudei para Curitiba, uso mais a bicicleta.", en: "Since I moved to Curitiba, I've been cycling more." },
           { es: "Organizamos os horários de modo que ninguém precisasse trabalhar no domingo.", en: "We arranged the schedule so that nobody would have to work on Sunday." },
         ],
@@ -2670,7 +2670,7 @@ export const PT_B2_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Although he [has apologised], she's still angry.",
+        en: "Although he [has apologized], she's still angry.",
         sentence: "Embora ele ___ desculpas, ela ainda está brava.",
         answer: "tenha pedido",
         explanation: "The apology is already finished, but it is seen from the present (\"está brava\"). So \"embora\" takes the perfect subjunctive: \"tenha\" + participle.",
@@ -2707,7 +2707,7 @@ export const PT_B2_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The shop closed due to the crisis.",
+        source: "The store closed due to the crisis.",
         answer: "A loja fechou devido à crise.",
         altAnswers: ["A loja fechou por causa da crise.", "A loja foi fechada devido à crise.", "A loja foi fechada por causa da crise."],
         explanation: "\"Devido a\" + \"a crise\" makes \"devido à\", with the crase. \"Graças à crise\" would wrongly sound like good news.",
@@ -2775,7 +2775,7 @@ export const PT_B2_U07: Lesson[] = [
 
 export const PT_B2_U07_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your neighbourhood association in Belo Horizonte wants residents' views on turning Rua Pernambuco into a pedestrian street (\"calçadão\"). Write a formal message to the association with a balanced opinion. Admit at least one drawback, explain your reasons, and propose a solution saying what it is for. Write 150-220 words.",
+  prompt: "Your neighborhood association in Belo Horizonte wants residents' views on turning Rua Pernambuco into a pedestrian street (\"calçadão\"). Write a formal message to the association with a balanced opinion. Admit at least one drawback, explain your reasons, and propose a solution saying what it is for. Write 150-220 words.",
   minWords: 150,
   maxWords: 220,
   rubric: [

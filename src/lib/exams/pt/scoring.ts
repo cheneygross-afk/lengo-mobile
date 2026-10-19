@@ -1,7 +1,7 @@
 // Synced from cheneygross-afk/lengo:src/lib/exams/pt/scoring.ts by scripts/sync-content.mjs -- edit it there, not here.
 // Marking for the Celpe-Bras practice exams (Brazilian Portuguese course),
 // following the real exam's rules as closely as the shared exam framework
-// allows. The real Celpe-Bras (Inep, Brazil's Ministry of Education) is
+// allows. The real Celpe-Bras (Inep, an agency of Brazil's Ministry of Education) is
 // one exam for every candidate, in two parts:
 // - Parte Coletiva: four integrated writing tasks, each given a holistic
 //   mark from 0 to 5 (adequação ao contexto, adequação discursiva,
@@ -51,7 +51,7 @@ export const PT_TASK_MARKS: { mark: number; label: string; hint: string }[] = [
   {
     mark: 4,
     label: "4",
-    hint: "Good: well organised for its reader, source information reworked in your words, good range, few errors / Cumpre bem a tarefa",
+    hint: "Good: well organized for its reader, source information reworked in your words, good range, few errors / Cumpre bem a tarefa",
   },
   {
     mark: 5,
@@ -125,7 +125,7 @@ export function celpePassMarkExplanation(exam: Exam): string {
     return (
       "This is a Deep End practice test, not a Celpe-Bras exam, and it gives no certificate level. Each part is marked out of " +
       `${PAPER_POINTS} from 1-5 marks per task, as in the Celpe-Bras practice exams. Around 3 out of 5 on every task means you ` +
-      "handle A2 tasks comfortably and are ready to work towards B1, where Celpe-Bras practice starts."
+      "handle A2 tasks comfortably and are ready to work toward B1, where Celpe-Bras practice starts."
     );
   }
   const bands = CELPE_BANDS.map((b) => `"${b.level}" ${b.from.toFixed(2)}-${b.to.toFixed(2)}`).join(", ");

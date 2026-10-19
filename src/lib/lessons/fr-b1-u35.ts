@@ -5,7 +5,7 @@ import type { Lesson, WriteExercise } from "./types";
 
 export const FR_B1_U35_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A French website asks its readers: « Vaut-il mieux vivre en ville ou à la campagne ? » Write your contribution to the forum (80-150 words) in the style of a DELF B1 opinion essay: give your point of view, at least two arguments with examples from your own life, acknowledge one argument on the other side, and conclude.",
+  prompt: "A French website asks its readers: \"Vaut-il mieux vivre en ville ou à la campagne ?\" Write your contribution to the forum (80-150 words) in the style of a DELF B1 opinion essay: give your point of view, at least two arguments with examples from your own life, acknowledge one argument on the other side, and conclude.",
   minWords: 80,
   maxWords: 150,
   rubric: [
@@ -280,7 +280,7 @@ export const FR_B1_U35: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Quand j'ai vu le directeur, j'___ peur. » She means: I suddenly got scared. Which form?",
+            question: "\"Quand j'ai vu le directeur, j'___ peur.\" She means: I suddenly got scared. Which form?",
             options: ["ai eu", "avais", "aurai eu", "aurais"],
             correctIndex: 0,
             explanation: "A sudden reaction at a precise moment is an event: \"j'ai eu peur\". \"J'avais peur\" would describe an ongoing state.",
@@ -433,7 +433,7 @@ export const FR_B1_U35: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Quand je suis arrivé à la fête, tout le monde ___. » Everyone had already left before I came. Which form?",
+        question: "\"Quand je suis arrivé à la fête, tout le monde ___.\" Everyone had already left before I came. Which form?",
         options: ["était parti", "est parti", "partait", "sera parti"],
         correctIndex: 0,
         explanation: "Before my arrival: plus-que-parfait \"était parti\". \"Partait\" would mean they were in the middle of leaving.",
@@ -444,7 +444,7 @@ export const FR_B1_U35: Lesson[] = [
         prompt: "Translate into French.",
         source: "I realised that I had left my phone on the train.",
         answer: "Je me suis rendu compte que j'avais laissé mon téléphone dans le train.",
-        altAnswers: ["Je me suis rendue compte que j'avais laissé mon téléphone dans le train.", "J'ai réalisé que j'avais laissé mon téléphone dans le train.", "Je me suis aperçu que j'avais oublié mon téléphone dans le train.", "Je me suis aperçue que j'avais oublié mon téléphone dans le train.", "Je me suis rendu compte que j'avais oublié mon téléphone dans le train.", "Je me suis rendue compte que j'avais oublié mon téléphone dans le train."],
+        altAnswers: ["J'ai réalisé que j'avais laissé mon téléphone dans le train.", "Je me suis aperçu que j'avais oublié mon téléphone dans le train.", "Je me suis aperçue que j'avais oublié mon téléphone dans le train.", "Je me suis rendu compte que j'avais oublié mon téléphone dans le train."],
         explanation: "The realising is the event; the leaving came earlier, so plus-que-parfait. On a train is \"dans le train\".",
       },
       {
@@ -462,8 +462,8 @@ export const FR_B1_U35: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Ce jour-là, il faisait gris et j'étais très nerveux.",
-        prompt: "Say it in French: That day it was grey and I was very nervous.",
+        text: "Ce jour-là, il faisait gris et j'étais très nerveuse.",
+        prompt: "Say it in French, as Camille: That day it was grey and I was very nervous.",
         explanation: "Scene-setting: imparfait for weather and feelings.",
       },
     ],
@@ -752,7 +752,7 @@ export const FR_B1_U35: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "The ad says: « T2 meublé, 3e étage sans ascenseur, garant exigé. » Which statement is true?",
+            question: "The ad says: \"T2 meublé, 3e étage sans ascenseur, garant exigé.\" Which statement is true?",
             options: ["It's furnished, but Tom will have to climb the stairs.", "It's unfurnished and has a lift.", "Tom doesn't need a guarantor.", "It has two bedrooms and a lift."],
             correctIndex: 0,
             explanation: "\"Meublé\" = furnished; \"sans ascenseur\" = no lift; \"garant exigé\" = guarantor required. A T2 has one bedroom.",
@@ -898,7 +898,7 @@ export const FR_B1_U35: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "An ad says: « Loyer : 780 € CC. » What does CC mean?",
+        question: "An ad says: \"Loyer : 780 € CC.\" What does CC mean?",
         options: ["Bills included (charges comprises)", "Credit card only", "Cash only", "Council tax included"],
         correctIndex: 0,
         explanation: "\"CC\" = \"charges comprises\"; \"HC\" = \"hors charges\" (bills extra).",
@@ -1034,7 +1034,7 @@ export const FR_B1_U35: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your neighbour says: « On se tutoie ? » What is she suggesting?",
+            question: "Your neighbour says: \"On se tutoie ?\" What is she suggesting?",
             options: ["That you use tu with each other.", "That you go for a drink.", "That you keep using vous.", "That you swap phone numbers."],
             correctIndex: 0,
             explanation: "\"Tutoyer\" = to use tu; \"vouvoyer\" = to use vous.",
@@ -1138,7 +1138,7 @@ export const FR_B1_U35: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The shop assistant says: « On ne rembourse pas, mais on peut vous faire un avoir. » What does Tom get?",
+        question: "The shop assistant says: \"On ne rembourse pas, mais on peut vous faire un avoir.\" What does Tom get?",
         options: ["A credit note to spend in the shop.", "His money back.", "A discount on his next purchase.", "Nothing at all."],
         correctIndex: 0,
         explanation: "\"Un avoir\" is a credit note; \"rembourser\" = to refund.",
@@ -1191,7 +1191,7 @@ export const FR_B1_U35: Lesson[] = [
         examples: [
           { es: "Objet : réclamation concernant la commande n° 4521", en: "Subject: complaint about order no. 4521" },
           { es: "Madame, Monsieur,", en: "Dear Sir or Madam," },
-          { es: "Je vous écris au sujet du séjour que j'ai effectué dans votre hôtel.", en: "I am writing about the stay I made at your hotel." },
+          { es: "Je vous écris au sujet du séjour que j'ai effectué dans votre hôtel.", en: "I am writing about my stay at your hotel." },
           { es: "Je me permets de vous écrire pour vous faire part de mon mécontentement.", en: "I am writing to express my dissatisfaction." },
           { es: "Dans l'attente de votre réponse, je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.", en: "I look forward to your reply. Yours faithfully." },
         ],
@@ -1490,7 +1490,7 @@ export const FR_B1_U35: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The examiner says: « À la campagne, on s'ennuie ! » Which reply is most suitable for the exam?",
+            question: "The examiner says: \"À la campagne, on s'ennuie !\" Which reply is most suitable for the exam?",
             options: ["Je comprends ce point de vue, mais je ne pense pas que ce soit vrai pour tout le monde.", "N'importe quoi !", "Ouais, bof, je sais pas.", "Je ne pense pas que c'est vrai."],
             correctIndex: 0,
             explanation: "Acknowledge, then counter, with the subjunctive after \"je ne pense pas que\". The others are too rude, too vague, or wrong in mood.",

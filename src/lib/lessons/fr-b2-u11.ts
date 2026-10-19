@@ -638,7 +638,7 @@ export const FR_B2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "This morning, Paul said \"« Je partirai demain »\". You report it this afternoon.",
+        question: "This morning, Paul said \"« Je partirai demain »\". You report it this afternoon. Which report is right?",
         options: ["Paul m'a dit qu'il partirait demain.", "Paul m'a dit qu'il partirait le lendemain.", "Paul m'a dit qu'il partira la veille.", "Paul m'a dit qu'il était parti demain."],
         correctIndex: 0,
         explanation: "Tomorrow is still tomorrow: keep \"demain\". Only the tense shifts.",
@@ -858,10 +858,10 @@ export const FR_B2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is a mixed conditional (past condition, present result)?",
-        options: ["Si tu m'avais demandé plus tôt, on en serait déjà là.", "Si tu me demandais, je te répondrais.", "Si tu m'avais demandé, je t'aurais répondu.", "Si tu me demandes, je te répondrai."],
+        question: "Which sentence says 'If you'd asked me earlier, we'd already be at this point'?",
+        options: ["Si tu m'avais demandé plus tôt, on en serait déjà là.", "Si tu m'aurais demandé plus tôt, on en serait déjà là.", "Si tu me demandais plus tôt, on en serait déjà là.", "Si tu m'avais demandé plus tôt, on en sera déjà là."],
         correctIndex: 0,
-        explanation: "\"Avais demandé\" (past) + \"serait\" (present).",
+        explanation: "Mixed conditional: past condition in the plus-que-parfait (\"m'avais demandé\"), present result in the conditionnel présent (\"serait\"). Never the conditional after si, and never the future after a plus-que-parfait condition.",
       },
       {
         type: "word-order",
@@ -913,7 +913,6 @@ export const FR_B2_U11: Lesson[] = [
             prompt: "Translate into French.",
             source: "He assured me he would come.",
             answer: "Il m'a assuré qu'il viendrait.",
-            altAnswers: ["Il m'a promis qu'il viendrait."],
             explanation: "\"Assurer à quelqu'un que\" + conditionnel (future in the past).",
           },
           {
@@ -979,7 +978,7 @@ export const FR_B2_U11: Lesson[] = [
           { es: "Il nie avoir volé l'argent.", en: "He denies stealing the money." },
           { es: "Le directeur nie qu'il y ait eu un problème.", en: "The director denies that there was a problem." },
           { es: "Elle m'a promis qu'elle rappellerait.", en: "She promised me she'd call back." },
-          { es: "Elle m'a promis de rappeler.", en: "She promised me to call back." },
+          { es: "Elle m'a promis de rappeler.", en: "She promised to call me back." },
           { es: "Il se plaint toujours du bruit.", en: "He's always complaining about the noise." },
           { es: "Les voisins se plaignent que la musique soit trop forte.", en: "The neighbours complain that the music is too loud." },
         ],
@@ -1402,7 +1401,7 @@ export const FR_B2_U11: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence means 'He'd have been better off taking the train'?",
-            options: ["Il aurait mieux fait de prendre le train.", "Il aurait fait mieux prendre le train.", "Il devrait avoir pris le train.", "Il aurait été mieux de prendre le train."],
+            options: ["Il aurait mieux fait de prendre le train.", "Il aurait fait mieux prendre le train.", "Il devrait avoir pris le train.", "Il avait mieux fait de prendre le train."],
             correctIndex: 0,
             explanation: "\"Avoir mieux fait de\" + infinitive.",
           },
@@ -1838,7 +1837,7 @@ export const FR_B2_U11: Lesson[] = [
           {
             type: "multiple-choice",
             question: "\"Ils ont promis que les travaux seraient terminés en juin.\" What did they say?",
-            options: ["« Les travaux seront terminés en juin. »", "« Les travaux seraient terminés en juin. »", "« Les travaux sont terminés depuis juin. »", "« Les travaux étaient terminés en juin. »"],
+            options: ["« Les travaux seront terminés en juin. »", "« Les travaux ont été terminés en juin. »", "« Les travaux sont terminés depuis juin. »", "« Les travaux étaient terminés en juin. »"],
             correctIndex: 0,
             explanation: "\"Seraient terminés\" in the report comes from the future \"seront terminés\".",
           },

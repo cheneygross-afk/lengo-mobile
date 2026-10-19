@@ -21,7 +21,7 @@ export const PT_C2_U31: Lesson[] = [
         ],
         examples: [
           { es: "Você é o coordenador de um projeto social e vai escrever uma carta ao prefeito.", en: "You are the coordinator of a social project and you are going to write a letter to the mayor." },
-          { es: "Com base no vídeo, escreva um e-mail à diretora da escola.", en: "Based on the video, write an email to the head teacher." },
+          { es: "Com base no vídeo, escreva um e-mail à diretora da escola.", en: "Based on the video, write an email to the principal." },
           { es: "Leia a reportagem e escreva uma carta de leitor para o jornal.", en: "Read the report and write a reader's letter to the newspaper." },
           { es: "Na Parte Individual, o candidato conversa com o entrevistador durante vinte minutos.", en: "In the individual part, the candidate talks with the interviewer for twenty minutes." },
           { es: "O certificado corresponde ao desempenho mais fraco entre as duas partes.", en: "The certificate reflects the weaker performance of the two parts." },
@@ -53,9 +53,9 @@ export const PT_C2_U31: Lesson[] = [
             audio: "Você é morador do bairro e vai escrever uma carta à subprefeitura.",
             question: "What does it mean?",
             options: [
-              "You are a resident of the neighbourhood and you are going to write a letter to the district council.",
-              "You are a journalist and you are going to interview the residents of the neighbourhood.",
-              "The district council is going to write a letter to the residents.",
+              "You are a resident of the neighborhood and you are going to write a letter to the borough office.",
+              "You are a journalist and you are going to interview the residents of the neighborhood.",
+              "The borough office is going to write a letter to the residents.",
               "You are going to read a letter written by a resident.",
             ],
             correctIndex: 0,
@@ -67,10 +67,10 @@ export const PT_C2_U31: Lesson[] = [
         heading: "Enunciador, interlocutor, propósito",
         body: [
           "The marking grid has three headings. \"Adequação contextual\" asks whether the text answers the frame: you write as the \"enunciador\" you were given, to the \"interlocutor\" named, for the stated \"propósito\" (to complain, persuade, inform, invite), with the information from the source that this reader needs. \"Adequação discursiva\" asks whether it works as the genre and holds together (coherence and cohesion). \"Adequação linguística\" asks whether the vocabulary and grammar suit the context.",
-          "The examiners mark holistically, and context comes first. A flawless text addressed to the wrong reader, or a letter that summarises the video without ever asking for what the task wants, cannot reach the top band however good its Portuguese is. Before you write, answer four questions in a line each: who am I, who is reading, what do I want from them, and what do they need to know.",
+          "The examiners mark holistically, and context comes first. A flawless text addressed to the wrong reader, or a letter that summarizes the video without ever asking for what the task wants, cannot reach the top band however good its Portuguese is. Before you write, answer four questions in a line each: who am I, who is reading, what do I want from them, and what do they need to know.",
         ],
         examples: [
-          { es: "Escreva como morador do bairro, e não como jornalista.", en: "Write as a resident of the neighbourhood, not as a journalist." },
+          { es: "Escreva como morador do bairro, e não como jornalista.", en: "Write as a resident of the neighborhood, not as a journalist." },
           { es: "O interlocutor é o secretário de Meio Ambiente, e não o leitor do jornal.", en: "Your reader is the environment secretary, not the newspaper's readers." },
           { es: "O propósito é convencer a diretoria a adiar a decisão.", en: "The purpose is to persuade the board to postpone the decision." },
           { es: "Um texto impecável na gramática pode perder pontos se ignorar o propósito.", en: "A grammatically flawless text can lose points if it ignores the purpose." },
@@ -106,15 +106,15 @@ export const PT_C2_U31: Lesson[] = [
       {
         heading: "Avançado or Avançado Superior?",
         body: [
-          "At Avançado the text does the job. At Avançado Superior it does the job the way a Brazilian professional would. The sources are fully transformed: selected, reordered and put to work for your purpose, never retold in the order you met them. The register holds from the greeting to the signature. Cohesion is almost invisible: pronouns, synonyms and summarising nouns (\"essa medida\", \"o programa\") carry the thread, and each connector states the exact logical link. The vocabulary is precise (\"reivindicar\", \"viabilizar\", \"acarretar\"), and the rare errors never get in the reader's way.",
-          "Compare the two versions below. The first is correct and clear; the second attributes the information, picks the figure that matters, names the request formally and ends with a signature that restates the writer's role. In the interview the same distinction holds: long, organised turns, ideas developed without being prompted, and a real conversation with the examiner rather than answers to questions.",
+          "At Avançado the text does the job. At Avançado Superior it does the job the way a Brazilian professional would. The sources are fully transformed: selected, reordered and put to work for your purpose, never retold in the order you met them. The register holds from the greeting to the signature. Cohesion is almost invisible: pronouns, synonyms and summarizing nouns (\"essa medida\", \"o programa\") carry the thread, and each connector states the exact logical link. The vocabulary is precise (\"reivindicar\", \"viabilizar\", \"acarretar\"), and the rare errors never get in the reader's way.",
+          "Compare the two versions below. The first is correct and clear; the second attributes the information, picks the figure that matters, names the request formally and ends with a signature that restates the writer's role. In the interview the same distinction holds: long, organized turns, ideas developed without being prompted, and a real conversation with the examiner rather than answers to questions.",
         ],
         examples: [
           { es: "O vídeo fala que muitas pessoas não têm médico. Isso é um problema grave.", en: "The video says that many people don't have a doctor. That is a serious problem. (Avançado: correct but flat)" },
           { es: "Como mostra a reportagem, quase metade dos moradores não tem acesso regular a um médico, um quadro que exige resposta imediata.", en: "As the report shows, almost half the residents have no regular access to a doctor, a situation that demands an immediate response." },
           { es: "Peço que vocês façam alguma coisa sobre isso.", en: "I'm asking you to do something about it. (vague request)" },
-          { es: "Solicitamos que a Secretaria avalie, com a urgência que o caso requer, a ampliação do programa.", en: "We ask the Department to consider, with the urgency the case requires, expanding the programme." },
-          { es: "Atenciosamente, Mariana Costa, moradora do bairro da Várzea.", en: "Yours sincerely, Mariana Costa, a resident of the Várzea neighbourhood." },
+          { es: "Solicitamos que a Secretaria avalie, com a urgência que o caso requer, a ampliação do programa.", en: "We ask the Department to consider, with the urgency the case requires, expanding the program." },
+          { es: "Atenciosamente, Mariana Costa, moradora do bairro da Várzea.", en: "Yours sincerely, Mariana Costa, a resident of the Várzea neighborhood." },
           { es: "Essa medida acarretaria custos menores do que os atuais.", en: "This measure would entail lower costs than the current ones." },
         ],
         checkpoint: [
@@ -147,7 +147,7 @@ export const PT_C2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "You are a teacher and you are going to write an email to your pupils' parents.",
+        source: "You are a teacher and you are going to write an email to your students' parents.",
         answer: "Você é professor e vai escrever um e-mail aos pais dos seus alunos.",
         altAnswers: [
           "Você é professora e vai escrever um e-mail aos pais dos seus alunos.",
@@ -254,7 +254,7 @@ export const PT_C2_U31: Lesson[] = [
       {
         type: "speak",
         text: "Eu sou o enunciador, a diretora é a interlocutora, e o propósito é pedir uma reunião.",
-        prompt: "Say it in Portuguese: I'm the writer, the head teacher is the reader, and the purpose is to ask for a meeting.",
+        prompt: "Say it in Portuguese: I'm the writer, the principal is the reader, and the purpose is to ask for a meeting.",
         explanation: "The four-question plan said aloud before writing: who I am, who reads, and what I want. \"A interlocutora\" agrees with \"a diretora\".",
       },
     ],
@@ -277,7 +277,7 @@ export const PT_C2_U31: Lesson[] = [
         ],
         examples: [
           { es: "Na comunidade de São Raimundo, o médico mais próximo fica a seis horas de barco.", en: "In the São Raimundo community, the nearest doctor is six hours away by boat." },
-          { es: "Desde que o programa começou, as consultas a distância já passam de três mil.", en: "Since the programme began, remote consultations have already passed three thousand." },
+          { es: "Desde que o programa começou, as consultas a distância já passam de três mil.", en: "Since the program began, remote consultations have already passed three thousand." },
           { es: "Segundo a enfermeira Ana Lúcia, o maior ganho foi evitar viagens desnecessárias.", en: "According to the nurse, Ana Lúcia, the biggest gain was avoiding unnecessary trips." },
           { es: "O sinal de internet ainda é o principal obstáculo.", en: "The internet signal is still the main obstacle." },
           { es: "Antes, a gente perdia o dia inteiro só pra mostrar um exame.", en: "Before, we used to lose the whole day just to show someone a test result." },
@@ -300,7 +300,7 @@ export const PT_C2_U31: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Since the programme began, remote consultations have already passed three thousand.",
+            source: "Since the program began, remote consultations have already passed three thousand.",
             answer: "Desde que o programa começou, as consultas a distância já passam de três mil.",
             altAnswers: [
               "Desde que o programa começou, as consultas a distância já ultrapassam três mil.",
@@ -316,13 +316,13 @@ export const PT_C2_U31: Lesson[] = [
       {
         heading: "Selecting for the secretary",
         body: [
-          "Now the reader decides what goes in. The secretary needs to know that the programme works (three thousand consultations, fewer trips), what it needs (a signal, equipment, trained staff) and what you are asking for. He doesn't need the opening shot of the river at dawn or the reporter's closing line. Anything that doesn't serve the request stays in your notes.",
+          "Now the reader decides what goes in. The secretary needs to know that the program works (three thousand consultations, fewer trips), what it needs (a signal, equipment, trained staff) and what you are asking for. He doesn't need the opening shot of the river at dawn or the reporter's closing line. Anything that doesn't serve the request stays in your notes.",
           "Then change the point of view. The video is about São Raimundo; your letter is about your municipality, and São Raimundo becomes the evidence. That shift is the heart of adequação contextual: the facts from the source are put to work in a new situation. A letter that retells the report in order, however correct, reads as a summary and drops a band.",
         ],
         examples: [
-          { es: "Em nosso município, a situação não é diferente: muitas famílias ribeirinhas vivem a horas do posto de saúde mais próximo.", en: "In our municipality the situation is no different: many riverside families live hours from the nearest health centre." },
+          { es: "Em nosso município, a situação não é diferente: muitas famílias ribeirinhas vivem a horas do posto de saúde mais próximo.", en: "In our municipality the situation is no different: many riverside families live hours from the nearest health center." },
           { es: "Os resultados obtidos em São Raimundo indicam que o modelo é viável.", en: "The results achieved in São Raimundo indicate that the model is viable." },
-          { es: "Solicito que a Secretaria estude a viabilidade de um programa semelhante.", en: "I ask the Department to study the feasibility of a similar programme." },
+          { es: "Solicito que a Secretaria estude a viabilidade de um programa semelhante.", en: "I ask the Department to study the feasibility of a similar program." },
           { es: "A experiência mostra que o investimento se paga com a redução dos deslocamentos.", en: "The experience shows that the investment pays for itself through fewer journeys." },
           { es: "Para tanto, seria necessário garantir o sinal de internet nas comunidades.", en: "To that end, it would be necessary to guarantee an internet signal in the communities." },
         ],
@@ -344,7 +344,7 @@ export const PT_C2_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[I ask the Department to study] the feasibility of a similar programme.",
+            en: "[I ask the Department to study] the feasibility of a similar program.",
             sentence: "___ a viabilidade de um programa semelhante.",
             answer: "Solicito que a Secretaria estude",
             altAnswers: ["Peço que a Secretaria estude", "Solicito à Secretaria que estude", "Peço à Secretaria que estude"],
@@ -373,7 +373,7 @@ export const PT_C2_U31: Lesson[] = [
         examples: [
           { es: "Os moradores relatam que perdiam um dia inteiro de trabalho apenas para mostrar um exame.", en: "Residents report that they used to lose a whole day's work just to show someone a test result." },
           { es: "A enfermeira admite que o sinal de internet ainda falha nos dias de chuva.", en: "The nurse admits that the internet signal still fails on rainy days." },
-          { es: "O coordenador do programa ressalta que nenhum paciente deixou de ser atendido.", en: "The programme coordinator stresses that no patient has gone without care." },
+          { es: "O coordenador do programa ressalta que nenhum paciente deixou de ser atendido.", en: "The program coordinator stresses that no patient has gone without care." },
           { es: "Conforme a reportagem, o número de viagens de barco caiu pela metade.", en: "According to the report, the number of boat journeys has fallen by half." },
           { es: "Especialistas alertam para o risco de a tecnologia substituir o contato humano.", en: "Experts warn of the risk of technology replacing human contact." },
         ],
@@ -400,7 +400,7 @@ export const PT_C2_U31: Lesson[] = [
             sentence: "A enfermeira ___ que o sinal ainda falha nos dias de chuva.",
             answer: "admite",
             altAnswers: ["reconhece"],
-            explanation: "\"Admitir\" or \"reconhecer\" frames the fact as a concession from a supporter of the programme, which is exactly how it came across in the video.",
+            explanation: "\"Admitir\" or \"reconhecer\" frames the fact as a concession from a supporter of the program, which is exactly how it came across in the video.",
           },
         ],
       },
@@ -463,7 +463,7 @@ export const PT_C2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into formal Portuguese.",
-        source: "The programme coordinator stresses that no patient has gone without care.",
+        source: "The program coordinator stresses that no patient has gone without care.",
         answer: "O coordenador do programa ressalta que nenhum paciente deixou de ser atendido.",
         altAnswers: [
           "O coordenador do programa ressalta que nenhum paciente ficou sem atendimento.",
@@ -491,13 +491,13 @@ export const PT_C2_U31: Lesson[] = [
           "Senhor Secretário, segue o resumo da reportagem que assisti.",
         ],
         correctIndex: 0,
-        explanation: "The first names the source and immediately turns it towards the municipality and the purpose. The second retells the video in order, the third is the wrong register, and the fourth announces a summary (and \"assisti\" needs \"a que\": \"a que assisti\").",
+        explanation: "The first names the source and immediately turns it toward the municipality and the purpose. The second retells the video in order, the third is the wrong register, and the fourth announces a summary (and \"assisti\" needs \"a que\": \"a que assisti\").",
       },
       {
         type: "speak",
         text: "A experiência de São Raimundo mostra que o investimento se paga com a redução dos deslocamentos.",
         prompt: "Say it in Portuguese: The São Raimundo experience shows that the investment pays for itself through fewer journeys.",
-        explanation: "\"Pagar-se\" is to pay for itself; spoken Brazilian puts the pronoun before the verb: \"se paga\". \"A redução dos deslocamentos\" is a nominalisation that suits the formal letter.",
+        explanation: "\"Pagar-se\" is to pay for itself; spoken Brazilian puts the pronoun before the verb: \"se paga\". \"A redução dos deslocamentos\" is a nominalization that suits the formal letter.",
       },
       {
         type: "dictation",
@@ -508,7 +508,7 @@ export const PT_C2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into formal Portuguese.",
-        source: "Many riverside families live hours from the nearest health centre.",
+        source: "Many riverside families live hours from the nearest health center.",
         answer: "Muitas famílias ribeirinhas vivem a horas do posto de saúde mais próximo.",
         altAnswers: [
           "Muitas famílias ribeirinhas moram a horas do posto de saúde mais próximo.",
@@ -533,12 +533,12 @@ export const PT_C2_U31: Lesson[] = [
         heading: "Notes at the speed of radio",
         body: [
           "The task: \"Você faz parte da associação de moradores do seu bairro, em Belo Horizonte. Com base na entrevista, escreva um texto para o site da associação convencendo os vizinhos a participar de um mutirão de plantio de árvores.\" The audio is a radio interview with an urban planner about \"ilhas de calor\", and it is played twice. With no pictures to help, your notes have to do all the work.",
-          "Write in your own shorthand. Brazilians use \"p/\" (para), \"q\" (que), \"tb\" (também), \"vc\" (você) and \"+\" and \"-\", and an arrow is faster than any verb. Get the figures down exactly the first time, with their unit: \"4 a 6 °C\" is useless if you can't remember whether it was degrees or per cent. Write names and roles on the second listening.",
+          "Write in your own shorthand. Brazilians use \"p/\" (para), \"q\" (que), \"tb\" (também), \"vc\" (você) and \"+\" and \"-\", and an arrow is faster than any verb. Get the figures down exactly the first time, with their unit: \"4 a 6 °C\" is useless if you can't remember whether it was degrees or percent. Write names and roles on the second listening.",
           "Radio speech is built around signposts that announce what comes next: \"o primeiro ponto é\", \"agora, o mais grave\", \"ou seja\", \"quer dizer\", \"por exemplo\", \"no fim das contas\". When you hear one, the next sentence matters. An \"ou seja\" rewords what came before, so you can stop writing and listen.",
         ],
         examples: [
           { es: "O primeiro ponto é que o asfalto e o concreto acumulam calor durante o dia.", en: "The first point is that asphalt and concrete store up heat during the day." },
-          { es: "Um bairro sem árvores pode ficar de quatro a seis graus mais quente do que um bairro arborizado.", en: "A neighbourhood without trees can be four to six degrees hotter than a tree-lined one." },
+          { es: "Um bairro sem árvores pode ficar de quatro a seis graus mais quente do que um bairro arborizado.", en: "A neighborhood without trees can be four to six degrees hotter than a tree-lined one." },
           { es: "Agora, o mais grave é que quem mais sofre são os idosos e as crianças.", en: "Now, the most serious thing is that the people who suffer most are the elderly and children." },
           { es: "Ou seja, plantar árvore não é luxo, é saúde pública.", en: "In other words, planting trees isn't a luxury, it's public health." },
           { es: "No fim das contas, cada árvore funciona como um ar-condicionado natural.", en: "When it comes down to it, every tree works like a natural air conditioner." },
@@ -549,10 +549,10 @@ export const PT_C2_U31: Lesson[] = [
             audio: "Um bairro sem árvores pode ficar de quatro a seis graus mais quente.",
             question: "What did you hear?",
             options: [
-              "A neighbourhood without trees can be four to six degrees hotter.",
-              "A neighbourhood without trees can be up to fourteen degrees hotter.",
-              "A neighbourhood with six trees is four degrees cooler.",
-              "Four to six neighbourhoods have no trees at all.",
+              "A neighborhood without trees can be four to six degrees hotter.",
+              "A neighborhood without trees can be up to fourteen degrees hotter.",
+              "A neighborhood with six trees is four degrees cooler.",
+              "Four to six neighborhoods have no trees at all.",
             ],
             correctIndex: 0,
             explanation: "\"De quatro a seis graus\" gives a range. This is exactly the kind of figure to write down, with its unit, on the first listening.",
@@ -581,10 +581,10 @@ export const PT_C2_U31: Lesson[] = [
           "Remember that the audio may contradict itself or hedge, and your text should reflect that honestly. If she says \"isso ainda está sendo estudado\", don't turn it into a proven fact; write \"os estudos ainda estão em andamento\" or \"segundo a especialista, há indícios de que...\". Precise attribution of uncertainty is a top-band marker.",
         ],
         examples: [
-          { es: "Tem bairro aí que, tipo, chega a ficar seis graus mais quente, né?", en: "There are neighbourhoods that, like, get up to six degrees hotter, you know? (spoken)" },
-          { es: "Há bairros que chegam a ficar seis graus mais quentes.", en: "Some neighbourhoods get as much as six degrees hotter. (written)" },
-          { es: "A gente não pode esperar a prefeitura resolver tudo sozinha.", en: "We can't wait for the city council to sort everything out on its own. (spoken)" },
-          { es: "Não se pode esperar que a prefeitura resolva tudo sozinha.", en: "One cannot expect the council to resolve everything alone. (written)" },
+          { es: "Tem bairro aí que, tipo, chega a ficar seis graus mais quente, né?", en: "There are neighborhoods that, like, get up to six degrees hotter, you know? (spoken)" },
+          { es: "Há bairros que chegam a ficar seis graus mais quentes.", en: "Some neighborhoods get as much as six degrees hotter. (written)" },
+          { es: "A gente não pode esperar a prefeitura resolver tudo sozinha.", en: "We can't wait for City Hall to sort everything out on its own. (spoken)" },
+          { es: "Não se pode esperar que a prefeitura resolva tudo sozinha.", en: "One cannot expect City Hall to resolve everything alone. (written)" },
           { es: "Segundo a especialista, há indícios de que as áreas verdes reduzem as internações por calor.", en: "According to the specialist, there is evidence that green areas reduce hospital admissions caused by heat." },
         ],
         checkpoint: [
@@ -592,7 +592,7 @@ export const PT_C2_U31: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into written Portuguese.",
-            source: "Some neighbourhoods get as much as six degrees hotter.",
+            source: "Some neighborhoods get as much as six degrees hotter.",
             answer: "Há bairros que chegam a ficar seis graus mais quentes.",
             altAnswers: [
               "Alguns bairros chegam a ficar seis graus mais quentes.",
@@ -605,7 +605,7 @@ export const PT_C2_U31: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[One cannot expect] the council to resolve everything alone.",
+            en: "[One cannot expect] City Hall to resolve everything alone.",
             sentence: "___ que a prefeitura resolva tudo sozinha.",
             answer: "Não se pode esperar",
             altAnswers: ["Não podemos esperar", "Não é possível esperar"],
@@ -614,10 +614,10 @@ export const PT_C2_U31: Lesson[] = [
         ],
       },
       {
-        heading: "Writing for the neighbours",
+        heading: "Writing for the neighbors",
         body: [
-          "The genre is a text for the association's website, the interlocutors are your neighbours, and the purpose is to get them to the \"mutirão\" (a collective work day). That changes the register: friendly and direct, \"você\" or \"vocês\", a title that catches the eye, but no slang and no errors. The planner's data become reasons for the reader to act: not 'the specialist said trees cool the street' but 'imagine your street four degrees cooler next summer'.",
-          "End with the practical call to action the genre demands: date, place, what to bring, in the imperative. A text that informs perfectly but never tells the neighbours where to be on Saturday has missed its propósito.",
+          "The genre is a text for the association's website, the interlocutors are your neighbors, and the purpose is to get them to the \"mutirão\" (a collective work day). That changes the register: friendly and direct, \"você\" or \"vocês\", a title that catches the eye, but no slang and no errors. The planner's data become reasons for the reader to act: not 'the specialist said trees cool the street' but 'imagine your street four degrees cooler next summer'.",
+          "End with the practical call to action the genre demands: date, place, what to bring, in the imperative. A text that informs perfectly but never tells the neighbors where to be on Saturday has missed its propósito.",
         ],
         examples: [
           { es: "Rua mais fresca começa com você", en: "A cooler street starts with you (title)" },
@@ -722,7 +722,7 @@ export const PT_C2_U31: Lesson[] = [
           "Traga luvas, boné e uma garrafa de água.",
           "Traga luvas, chapéu e uma garrafinha de água.",
         ],
-        explanation: "The imperative \"traga\" (from \"trazer\") for the practical instructions; \"tragam\" if you address the neighbours as \"vocês\".",
+        explanation: "The imperative \"traga\" (from \"trazer\") for the practical instructions; \"tragam\" if you address the neighbors as \"vocês\".",
       },
       {
         type: "multiple-choice",
@@ -746,14 +746,14 @@ export const PT_C2_U31: Lesson[] = [
       {
         type: "speak",
         text: "Não se pode esperar que a prefeitura resolva tudo sozinha.",
-        prompt: "Say it in formal Portuguese: One cannot expect the council to resolve everything alone.",
+        prompt: "Say it in formal Portuguese: One cannot expect City Hall to resolve everything alone.",
         explanation: "\"Não se pode\" puts the pronoun before the verb after \"não\". \"Esperar que\" takes the subjunctive \"resolva\".",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "A neighbourhood without trees can be four to six degrees hotter than a tree-lined one.",
+        source: "A neighborhood without trees can be four to six degrees hotter than a tree-lined one.",
         answer: "Um bairro sem árvores pode ficar de quatro a seis graus mais quente do que um bairro arborizado.",
         altAnswers: [
           "Um bairro sem árvores pode ficar de quatro a seis graus mais quente que um bairro arborizado.",
@@ -761,7 +761,7 @@ export const PT_C2_U31: Lesson[] = [
           "Um bairro sem árvores pode ficar de quatro a seis graus mais quente do que um arborizado.",
           "Um bairro sem árvores pode ficar entre quatro e seis graus mais quente do que um bairro arborizado.",
         ],
-        explanation: "\"De... a...\" or \"entre... e...\" for a range. \"Arborizado\" is the precise adjective for a tree-lined street or neighbourhood.",
+        explanation: "\"De... a...\" or \"entre... e...\" for a range. \"Arborizado\" is the precise adjective for a tree-lined street or neighborhood.",
       },
     ],
   },
@@ -782,10 +782,10 @@ export const PT_C2_U31: Lesson[] = [
         ],
         examples: [
           { es: "O Brasil está entre os maiores geradores de lixo eletrônico das Américas.", en: "Brazil is among the largest producers of electronic waste in the Americas." },
-          { es: "Celulares e baterias descartados no lixo comum liberam metais pesados, como chumbo e mercúrio.", en: "Phones and batteries thrown out with ordinary rubbish release heavy metals such as lead and mercury." },
+          { es: "Celulares e baterias descartados no lixo comum liberam metais pesados, como chumbo e mercúrio.", en: "Phones and batteries thrown out with ordinary garbage release heavy metals such as lead and mercury." },
           { es: "A maior parte dos aparelhos antigos fica esquecida em gavetas.", en: "Most old devices end up forgotten in drawers." },
           { es: "A lei obriga fabricantes e comerciantes a receber os produtos de volta.", en: "The law requires manufacturers and retailers to take products back." },
-          { es: "Um celular contém ouro, prata e cobre que podem ser reaproveitados.", en: "A mobile phone contains gold, silver and copper that can be recovered." },
+          { es: "Um celular contém ouro, prata e cobre que podem ser reaproveitados.", en: "A cell phone contains gold, silver and copper that can be recovered." },
         ],
         checkpoint: [
           {
@@ -809,7 +809,7 @@ export const PT_C2_U31: Lesson[] = [
             question: "Which part of the report is least useful for the school article?",
             options: [
               "A paragraph comparing e-waste figures across continents",
-              "The heavy metals released by phones in ordinary rubbish",
+              "The heavy metals released by phones in ordinary garbage",
               "The gold, silver and copper that can be recovered",
               "The law that obliges shops to take devices back",
             ],
@@ -825,30 +825,30 @@ export const PT_C2_U31: Lesson[] = [
           "Short exact expressions can stay if they are technical (\"logística reversa\", \"metais pesados\") or if you quote them deliberately. What must never stay is the reporter's sentence architecture.",
         ],
         examples: [
-          { es: "O descarte de celulares no lixo comum libera metais pesados.", en: "Throwing phones away with ordinary rubbish releases heavy metals. (verb turned into a noun)" },
+          { es: "O descarte de celulares no lixo comum libera metais pesados.", en: "Throwing phones away with ordinary garbage releases heavy metals. (verb turned into a noun)" },
           { es: "Sabe aquele celular antigo esquecido na gaveta?", en: "You know that old phone forgotten in the drawer? (the reader's point of view)" },
           { es: "Por lei, as lojas são obrigadas a aceitar os aparelhos usados.", en: "By law, shops are obliged to accept used devices. (active turned passive)" },
-          { es: "O que parece lixo é, na verdade, uma pequena mina de ouro, prata e cobre.", en: "What looks like rubbish is in fact a small mine of gold, silver and copper. (reframed)" },
-          { es: "Esquecidos em gavetas ou jogados no lixo comum, os aparelhos antigos poluem e desperdiçam metais valiosos.", en: "Forgotten in drawers or thrown out with ordinary rubbish, old devices pollute and waste valuable metals. (condensed)" },
+          { es: "O que parece lixo é, na verdade, uma pequena mina de ouro, prata e cobre.", en: "What looks like garbage is in fact a small mine of gold, silver and copper. (reframed)" },
+          { es: "Esquecidos em gavetas ou jogados no lixo comum, os aparelhos antigos poluem e desperdiçam metais valiosos.", en: "Forgotten in drawers or thrown out with ordinary garbage, old devices pollute and waste valuable metals. (condensed)" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, turning the verb into a noun.",
-            source: "Throwing phones away with ordinary rubbish releases heavy metals.",
+            source: "Throwing phones away with ordinary garbage releases heavy metals.",
             answer: "O descarte de celulares no lixo comum libera metais pesados.",
             altAnswers: [
               "O descarte de celulares em lixo comum libera metais pesados.",
               "O descarte de celulares junto com o lixo comum libera metais pesados.",
               "O descarte de celulares no lixo comum liberta metais pesados.",
             ],
-            explanation: "\"O descarte\" turns the action into the subject, so the verb is singular: \"libera\". Nominalisation is the quickest way to rebuild a source sentence.",
+            explanation: "\"O descarte\" turns the action into the subject, so the verb is singular: \"libera\". Nominalization is the quickest way to rebuild a source sentence.",
           },
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "What looks like rubbish is [in fact] a small mine.",
+            en: "What looks like garbage is [in fact] a small mine.",
             sentence: "O que parece lixo é, ___, uma pequena mina.",
             answer: "na verdade",
             altAnswers: ["na realidade", "de fato"],
@@ -921,7 +921,7 @@ export const PT_C2_U31: Lesson[] = [
           "Sabe aquele celular velho esquecido na gaveta? Pode ajudar o planeta.",
           "Você sabe aquele celular antigo esquecido na gaveta? Ele pode ajudar o planeta.",
         ],
-        explanation: "\"Sabe aquele...?\" opens by putting the reader in the scene, a natural move for a school newspaper article. \"Aquele\" points to something the reader recognises.",
+        explanation: "\"Sabe aquele...?\" opens by putting the reader in the scene, a natural move for a school newspaper article. \"Aquele\" points to something the reader recognizes.",
       },
       {
         type: "fill-blank",
@@ -962,7 +962,7 @@ export const PT_C2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, condensing into one sentence.",
-        source: "Forgotten in drawers or thrown out with ordinary rubbish, old devices pollute and waste valuable metals.",
+        source: "Forgotten in drawers or thrown out with ordinary garbage, old devices pollute and waste valuable metals.",
         answer: "Esquecidos em gavetas ou jogados no lixo comum, os aparelhos antigos poluem e desperdiçam metais valiosos.",
         altAnswers: [
           "Esquecidos em gavetas ou jogados no lixo comum, aparelhos antigos poluem e desperdiçam metais valiosos.",
@@ -985,10 +985,10 @@ export const PT_C2_U31: Lesson[] = [
         audio: "O que parece lixo é, na verdade, uma pequena mina de ouro.",
         question: "What does it mean?",
         options: [
-          "What looks like rubbish is actually a small gold mine.",
-          "Rubbish is currently being dumped in a small gold mine.",
-          "The gold mine is small and full of rubbish.",
-          "It looks like there is gold in the rubbish, but there isn't.",
+          "What looks like garbage is actually a small gold mine.",
+          "Garbage is currently being dumped in a small gold mine.",
+          "The gold mine is small and full of garbage.",
+          "It looks like there is gold in the garbage, but there isn't.",
         ],
         correctIndex: 0,
         explanation: "\"Na verdade\" (actually) turns the expectation around: the fact becomes an argument for the campaign.",
@@ -1027,14 +1027,14 @@ export const PT_C2_U31: Lesson[] = [
       {
         heading: "The first five minutes",
         body: [
-          "The interview opens with questions drawn from the questionnaire you filled in when you registered: your work, your studies, why Portuguese, your contact with Brazil. They look easy, and that is the trap. A two-line answer is a missed chance; a memorised speech is worse, because examiners hear the change in rhythm at once and steer you away from it.",
+          "The interview opens with questions drawn from the questionnaire you filled in when you registered: your work, your studies, why Portuguese, your contact with Brazil. They look easy, and that is the trap. A two-line answer is a missed chance; a memorized speech is worse, because examiners hear the change in rhythm at once and steer you away from it.",
           "Give each answer a shape: the answer, a reason, a concrete example, and a link that opens the next topic. \"Trabalho com comércio exterior\" is complete but closed. \"Trabalho com comércio exterior, então uso o português quase todos os dias, principalmente com fornecedores do Sul; aliás, foi assim que conheci Porto Alegre\" gives the examiner three doors to open. Address the interviewer as \"você\" if they use it with you, \"o senhor\" or \"a senhora\" otherwise, and stay consistent.",
         ],
         examples: [
           { es: "Comecei a estudar português por causa do trabalho, mas acabei me apaixonando pela música.", en: "I started learning Portuguese because of work, but I ended up falling in love with the music." },
           { es: "Trabalho com comércio exterior, então uso o português quase todos os dias.", en: "I work in foreign trade, so I use Portuguese almost every day." },
           { es: "Aliás, foi assim que conheci Porto Alegre.", en: "In fact, that's how I first got to know Porto Alegre." },
-          { es: "Na verdade, a minha relação com o Brasil começou bem antes, com um intercâmbio no ensino médio.", en: "Actually, my relationship with Brazil started much earlier, with an exchange in secondary school." },
+          { es: "Na verdade, a minha relação com o Brasil começou bem antes, com um intercâmbio no ensino médio.", en: "Actually, my relationship with Brazil started much earlier, with an exchange in high school." },
           { es: "O que mais me marcou foi a maneira como as pessoas recebem quem vem de fora.", en: "What struck me most was the way people welcome those who come from outside." },
         ],
         checkpoint: [
@@ -1072,7 +1072,7 @@ export const PT_C2_U31: Lesson[] = [
           { es: "A imagem sugere uma espera longa: estão todos parados, olhando para o celular.", en: "The image suggests a long wait: they are all standing still, looking at their phones." },
           { es: "O que me chama a atenção é a palavra liberdade no título, entre aspas.", en: "What strikes me is the word freedom in the headline, in quotation marks." },
           { es: "Isso me faz pensar no que aconteceu no meu país durante a pandemia.", en: "This makes me think of what happened in my country during the pandemic." },
-          { es: "No meu país, a discussão é parecida, mas a lei já reconhece alguns direitos.", en: "In my country the debate is similar, but the law already recognises some rights." },
+          { es: "No meu país, a discussão é parecida, mas a lei já reconhece alguns direitos.", en: "In my country the debate is similar, but the law already recognizes some rights." },
         ],
         checkpoint: [
           {
@@ -1090,7 +1090,7 @@ export const PT_C2_U31: Lesson[] = [
             question: "What does it mean?",
             options: [
               "The image suggests a long wait: they're all standing still, looking at their phones.",
-              "The image shows a long queue of people calling for help.",
+              "The image shows a long line of people calling for help.",
               "Everyone in the image has stopped working because of their phones.",
               "The image suggests they're all waiting for a phone call.",
             ],
@@ -1103,7 +1103,7 @@ export const PT_C2_U31: Lesson[] = [
         heading: "Depth: qualifying, imagining, holding the floor",
         body: [
           "What lifts a turn to the top band is depth: nuance (\"depende do que se entende por liberdade\"), both sides weighed (\"por um lado... por outro\"), hypotheses (\"se os entregadores tivessem um piso salarial, talvez...\"), and a concrete example. When the interviewer pushes back, don't simply agree: concede and refine (\"concordo em parte, mas...\"). That is a conversation, not an oral exam.",
-          "Native speakers also manage the floor out loud. To think without falling silent, use \"deixa eu pensar\" or \"como é que eu posso dizer\". To return to a point, \"voltando à sua pergunta\" or \"como eu ia dizendo\". If you didn't catch a question, asking is not penalised; asking well is a skill: \"não sei se entendi bem: a senhora quer saber se...?\" A paraphrase like that shows more Portuguese than a bare \"pode repetir?\".",
+          "Native speakers also manage the floor out loud. To think without falling silent, use \"deixa eu pensar\" or \"como é que eu posso dizer\". To return to a point, \"voltando à sua pergunta\" or \"como eu ia dizendo\". If you didn't catch a question, asking is not penalized; asking well is a skill: \"não sei se entendi bem: a senhora quer saber se...?\" A paraphrase like that shows more Portuguese than a bare \"pode repetir?\".",
         ],
         examples: [
           { es: "Depende do que se entende por liberdade.", en: "It depends on what is meant by freedom." },
@@ -1202,7 +1202,7 @@ export const PT_C2_U31: Lesson[] = [
           "Desculpa, não falo português muito bem.",
         ],
         correctIndex: 0,
-        explanation: "Paraphrasing the part you did understand checks the question and shows range. A bare \"Hã?\" or a guess loses the chance, and apologising for your Portuguese undercuts a C2 performance.",
+        explanation: "Paraphrasing the part you did understand checks the question and shows range. A bare \"Hã?\" or a guess loses the chance, and apologizing for your Portuguese undercuts a C2 performance.",
       },
       {
         type: "dictation",
@@ -1213,7 +1213,7 @@ export const PT_C2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "In my country the debate is similar, but the law already recognises some rights.",
+        source: "In my country the debate is similar, but the law already recognizes some rights.",
         answer: "No meu país, a discussão é parecida, mas a lei já reconhece alguns direitos.",
         altAnswers: [
           "No meu país, o debate é parecido, mas a lei já reconhece alguns direitos.",
@@ -1273,7 +1273,7 @@ export const PT_C2_U31: Lesson[] = [
         ],
         examples: [
           { es: "Querido prefeito, tudo bem com o senhor?", en: "Dear mayor, how are you? (too intimate for an authority)" },
-          { es: "Senhor Prefeito, escrevo como moradora do bairro da Jaqueira.", en: "Dear Mayor, I am writing as a resident of the Jaqueira neighbourhood." },
+          { es: "Senhor Prefeito, escrevo como moradora do bairro da Jaqueira.", en: "Dear Mayor, I am writing as a resident of the Jaqueira neighborhood." },
           { es: "Parque fechado à noite gera polêmica", en: "Park closed at night causes controversy (a headline: the wrong genre)" },
           { es: "Os moradores do Recife estão revoltados com o horário do parque.", en: "Recife residents are outraged at the park's opening hours. (no reader addressed)" },
           { es: "Venho, por meio desta, solicitar a Vossa Excelência a ampliação do horário do parque.", en: "I am writing to ask Your Excellency to extend the park's opening hours." },
@@ -1283,7 +1283,7 @@ export const PT_C2_U31: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "A candidate wrote \"Querido prefeito, tudo bem com o senhor?\". Fix the slip: translate into Portuguese.",
-            source: "Dear Mayor, I am writing as a resident of the Jaqueira neighbourhood.",
+            source: "Dear Mayor, I am writing as a resident of the Jaqueira neighborhood.",
             answer: "Senhor Prefeito, escrevo como moradora do bairro da Jaqueira.",
             altAnswers: [
               "Senhor Prefeito, escrevo como morador do bairro da Jaqueira.",
@@ -1313,15 +1313,15 @@ export const PT_C2_U31: Lesson[] = [
       {
         heading: "Copied lines and a missing purpose",
         body: [
-          "The source was a newspaper report that said: \"A falta de iluminação e de segurança levou a prefeitura a restringir o horário de funcionamento do parque.\" One candidate pasted that sentence into the letter unchanged. Another wrote three excellent paragraphs summarising the report and signed off without ever asking for anything. Both texts fail the task: the first doesn't transform the source, the second has no propósito.",
+          "The source was a newspaper report that said: \"A falta de iluminação e de segurança levou a prefeitura a restringir o horário de funcionamento do parque.\" One candidate pasted that sentence into the letter unchanged. Another wrote three excellent paragraphs summarizing the report and signed off without ever asking for anything. Both texts fail the task: the first doesn't transform the source, the second has no propósito.",
           "The fixes: make the source serve the request (\"Sei que a decisão de fechar o parque às 18 horas se deveu à falta de iluminação e de segurança; justamente por isso, proponho...\"), and make the request explicit and concrete near the end, with a polite close and a signature that repeats the role.",
         ],
         examples: [
-          { es: "A falta de iluminação e de segurança levou a prefeitura a restringir o horário de funcionamento do parque.", en: "The lack of lighting and security led the city council to restrict the park's opening hours. (copied from the source)" },
+          { es: "A falta de iluminação e de segurança levou a prefeitura a restringir o horário de funcionamento do parque.", en: "The lack of lighting and security led City Hall to restrict the park's opening hours. (copied from the source)" },
           { es: "Sei que a decisão se deveu à falta de iluminação e de segurança; justamente por isso, proponho uma solução.", en: "I know the decision was due to the lack of lighting and security; precisely for that reason, I propose a solution." },
           { es: "Peço, portanto, que o parque volte a funcionar até as 22 horas, com a instalação de iluminação adequada.", en: "I therefore ask that the park go back to opening until 10 pm, with suitable lighting installed." },
           { es: "Certa de sua atenção, agradeço desde já.", en: "Trusting in your attention, I thank you in advance." },
-          { es: "Luciana Barros, moradora do bairro da Jaqueira", en: "Luciana Barros, a resident of the Jaqueira neighbourhood" },
+          { es: "Luciana Barros, moradora do bairro da Jaqueira", en: "Luciana Barros, a resident of the Jaqueira neighborhood" },
         ],
         checkpoint: [
           {
@@ -1355,13 +1355,13 @@ export const PT_C2_U31: Lesson[] = [
         heading: "Register slips",
         body: [
           "Register slips are smaller, but at the top band they are what separates two good texts. The most common is mixed address: \"Senhor Prefeito, você poderia...\" or \"o senhor... te peço\". Once you choose \"o senhor\", the pronouns are \"o\", \"lhe\" and \"seu\", and the verbs are third person all the way through.",
-          "Next come spoken forms in a formal letter: \"a gente\", \"tá\", \"pra\", \"tem\" for there is. Then the opposite slip: pomposity in an informal genre. A mesóclise in a post for neighbours (\"realizar-se-á um mutirão\") sounds like a parody. Finally, the courtesy formula used as decoration: \"venho por meio desta\" in an email to a colleague. Fit the register to the genre and reader, not to a general idea of formality.",
+          "Next come spoken forms in a formal letter: \"a gente\", \"tá\", \"pra\", \"tem\" for there is. Then the opposite slip: pomposity in an informal genre. A mesóclise in a post for neighbors (\"realizar-se-á um mutirão\") sounds like a parody. Finally, the courtesy formula used as decoration: \"venho por meio desta\" in an email to a colleague. Fit the register to the genre and reader, not to a general idea of formality.",
         ],
         examples: [
-          { es: "Senhor Prefeito, você poderia rever essa decisão?", en: "Mr Mayor, could you reconsider this decision? (você clashes with Senhor Prefeito)" },
-          { es: "Senhor Prefeito, o senhor poderia rever essa decisão?", en: "Mr Mayor, would you reconsider this decision?" },
+          { es: "Senhor Prefeito, você poderia rever essa decisão?", en: "Mr. Mayor, could you reconsider this decision? (você clashes with Senhor Prefeito)" },
+          { es: "Senhor Prefeito, o senhor poderia rever essa decisão?", en: "Mr. Mayor, would you reconsider this decision?" },
           { es: "Peço-lhe que reconsidere a decisão e agradeço a sua atenção.", en: "I ask you to reconsider the decision, and I thank you for your attention." },
-          { es: "Realizar-se-á um mutirão no sábado.", en: "A work day shall be held on Saturday. (pompous in a post for neighbours)" },
+          { es: "Realizar-se-á um mutirão no sábado.", en: "A work day shall be held on Saturday. (pompous in a post for neighbors)" },
           { es: "No sábado vai ter mutirão na praça. Venha!", en: "There's a work day in the square on Saturday. Come along!" },
         ],
         checkpoint: [
@@ -1369,7 +1369,7 @@ export const PT_C2_U31: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "A candidate wrote \"Senhor Prefeito, te peço que reconsidere\". Fix the slip: translate into Portuguese.",
-            source: "Mr Mayor, I ask you to reconsider the decision.",
+            source: "Mr. Mayor, I ask you to reconsider the decision.",
             answer: "Senhor Prefeito, peço-lhe que reconsidere a decisão.",
             altAnswers: [
               "Senhor Prefeito, peço ao senhor que reconsidere a decisão.",
@@ -1384,8 +1384,8 @@ export const PT_C2_U31: Lesson[] = [
           {
             type: "speak",
             text: "No sábado vai ter mutirão na praça. Venha!",
-            prompt: "Say it to your neighbours, informally: There's a work day in the square on Saturday. Come along!",
-            explanation: "For neighbours, \"vai ter\" is exactly right; \"realizar-se-á\" would sound like a joke. The imperative \"venha\" closes with energy.",
+            prompt: "Say it to your neighbors, informally: There's a work day in the square on Saturday. Come along!",
+            explanation: "For neighbors, \"vai ter\" is exactly right; \"realizar-se-á\" would sound like a joke. The imperative \"venha\" closes with energy.",
           },
         ],
       },
@@ -1464,7 +1464,7 @@ export const PT_C2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "A candidate's letter ended with \"Tchau e obrigado\". Translate the correct close into Portuguese.",
-        source: "Thank you in advance for your attention. Yours sincerely, Pedro Alves, a resident of the neighbourhood.",
+        source: "Thank you in advance for your attention. Yours sincerely, Pedro Alves, a resident of the neighborhood.",
         answer: "Agradeço desde já a sua atenção. Atenciosamente, Pedro Alves, morador do bairro.",
         altAnswers: [
           "Agradeço desde já pela atenção. Atenciosamente, Pedro Alves, morador do bairro.",
@@ -1478,12 +1478,12 @@ export const PT_C2_U31: Lesson[] = [
       {
         type: "dictation",
         audio: "Venho, por meio desta, solicitar a ampliação do horário do parque.",
-        explanation: "\"Por meio desta\" (by means of this letter) belongs to official correspondence; \"ampliação do horário\" is the nominalised request.",
+        explanation: "\"Por meio desta\" (by means of this letter) belongs to official correspondence; \"ampliação do horário\" is the nominalized request.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A candidate wrote \"Realizar-se-á uma reunião\" in a post for neighbours. Translate the natural version into Portuguese.",
+        prompt: "A candidate wrote \"Realizar-se-á uma reunião\" in a post for neighbors. Translate the natural version into Portuguese.",
         source: "We're having a meeting on Thursday. Don't miss it!",
         answer: "Vamos fazer uma reunião na quinta. Não perca!",
         altAnswers: [
@@ -1495,13 +1495,13 @@ export const PT_C2_U31: Lesson[] = [
           "Teremos uma reunião na quinta-feira. Não perca!",
           "Vamos ter uma reunião na quinta. Não perca!",
         ],
-        explanation: "The mesóclise is correct but absurd for this reader. A post for neighbours wants \"vamos fazer\", \"vai ter\" or at most \"teremos\".",
+        explanation: "The mesóclise is correct but absurd for this reader. A post for neighbors wants \"vamos fazer\", \"vai ter\" or at most \"teremos\".",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Mr Mayor, would you reconsider this decision?",
+        prompt: "Put the words in order to say: Mr. Mayor, would you reconsider this decision?",
         words: ["Senhor Prefeito,", "o senhor", "poderia", "rever", "essa decisão?"],
-        translation: "Mr Mayor, would you reconsider this decision?",
+        translation: "Mr. Mayor, would you reconsider this decision?",
         explanation: "\"O senhor\" with the conditional \"poderia\" is a courteous request that matches the greeting.",
       },
       {
@@ -1527,8 +1527,8 @@ export const PT_C2_U31: Lesson[] = [
         heading: "Literary prose: reading between the lines",
         body: [
           "At C2 the reading questions are rarely about what a text says. They ask what it implies, whose voice is speaking and what it alludes to. The first passage is written in the manner of Machado de Assis, whose irony you studied in Unit 12. Read it once for the story and once for the narrator.",
-          "The narrator never criticises Doutor Bastos. He praises him, and the praise does the damage: a man with so many principles that he always has one to justify the opposite of yesterday. The dowry arrives \"por coincidência\", the widow's grief is measured by the will. Each sentence sets up a noble frame and lets one word undercut it. That is the irony test: find the word that turns the sentence against its subject.",
-          "The fourth line is an allusion: the closing words of \"Memórias Póstumas de Brás Cubas\". An educated Brazilian reader recognises it at once, the way an English reader hears Shakespeare inside a newspaper headline.",
+          "The narrator never criticizes Doutor Bastos. He praises him, and the praise does the damage: a man with so many principles that he always has one to justify the opposite of yesterday. The dowry arrives \"por coincidência\", the widow's grief is measured by the will. Each sentence sets up a noble frame and lets one word undercut it. That is the irony test: find the word that turns the sentence against its subject.",
+          "The fourth line is an allusion: the closing words of \"Memórias Póstumas de Brás Cubas\". An educated Brazilian reader recognizes it at once, the way an English reader hears Shakespeare inside a newspaper headline.",
         ],
         examples: [
           { es: "O doutor Bastos era homem de grandes princípios; tinha-os tantos que nunca lhe faltava um para justificar o contrário do que fizera na véspera.", en: "Doutor Bastos was a man of great principles; he had so many that he never lacked one to justify the opposite of what he had done the day before." },
@@ -1569,7 +1569,7 @@ export const PT_C2_U31: Lesson[] = [
       {
         heading: "The press: attribution and distance",
         body: [
-          "A news text tells you how far the newspaper stands from each claim. The \"futuro do pretérito\" of rumour, \"o ministro teria recebido\", means the minister allegedly received: the paper reports the claim without vouching for it. Quotation marks around a single phrase (a obra será entregue 'em breve') mark someone else's words held at arm's length. \"Alegar\" signals doubt, \"admitir\" a concession, \"segundo apurou a reportagem\" the paper's own investigation.",
+          "A news text tells you how far the newspaper stands from each claim. The \"futuro do pretérito\" of rumor, \"o ministro teria recebido\", means the minister allegedly received: the paper reports the claim without vouching for it. Quotation marks around a single phrase (a obra será entregue 'em breve') mark someone else's words held at arm's length. \"Alegar\" signals doubt, \"admitir\" a concession, \"segundo apurou a reportagem\" the paper's own investigation.",
           "Columnists add irony through juxtaposition: \"O prefeito garantiu que a obra será entregue em breve. É a quarta vez que o faz.\" Nothing in the second sentence is false or rude; the reader draws the conclusion. And the closing formula \"não se manifestou até o fechamento desta edição\" says the paper tried to get the other side.",
         ],
         examples: [
@@ -1592,7 +1592,7 @@ export const PT_C2_U31: Lesson[] = [
               "O ministro teria recebido os empresários fora da sua agenda oficial.",
               "O ministro teria recebido os empresários fora de sua agenda oficial.",
             ],
-            explanation: "The conditional of rumour, \"teria recebido\", reports an unconfirmed fact: English needs 'allegedly' or 'reportedly' to say the same.",
+            explanation: "The conditional of rumor, \"teria recebido\", reports an unconfirmed fact: English needs 'allegedly' or 'reportedly' to say the same.",
           },
           {
             type: "fill-blank",
@@ -1621,14 +1621,14 @@ export const PT_C2_U31: Lesson[] = [
       {
         heading: "The archive and the law",
         body: [
-          "Texts from before the 1943 spelling reform look foreign until you know the code: \"ph\" for f (\"pharmacia\"), double consonants (\"commercio\", \"illustre\"), 'y' for i (\"estylo\"), a silent h (\"hontem\") and \"á\" where today you write the crase. Read through the spelling to the sense; the grammar is the language you know, only more formal.",
+          "Texts from before the spelling reforms of the 1930s and 1940s look foreign until you know the code: \"ph\" for f (\"pharmacia\"), double consonants (\"commercio\", \"illustre\"), 'y' for i (\"estylo\"), a silent h (\"hontem\") and \"á\" where today you write the crase. Read through the spelling to the sense; the grammar is the language you know, only more formal.",
           "Legal and administrative prose has its own fixed formulas, and the test asks who is obliged to do what, and when the rule doesn't apply. \"Fica vedado\" means it is prohibited. \"Salvo disposição em contrário\" means unless otherwise provided. \"Sob pena de\" names the penalty for failing to comply. \"Nos termos do art. 5º\" means as laid down in article 5. Find the verb of obligation, then the exception.",
         ],
         examples: [
           { es: "Vende-se na Pharmacia Central, á Rua Direita n. 12, o afamado xarope peitoral.", en: "On sale at the Central Pharmacy, 12 Rua Direita: the famous chest syrup. (old spelling)" },
           { es: "Hontem chegou a esta capital o illustre senador.", en: "The illustrious senator arrived in this capital yesterday. (old spelling)" },
-          { es: "Fica vedada a cobrança de taxa de matrícula, salvo disposição em contrário.", en: "Charging an enrolment fee is prohibited, unless otherwise provided." },
-          { es: "O estabelecimento deverá regularizar a situação em trinta dias, sob pena de interdição.", en: "The establishment must regularise its situation within thirty days, or face closure." },
+          { es: "Fica vedada a cobrança de taxa de matrícula, salvo disposição em contrário.", en: "Charging an enrollment fee is prohibited, unless otherwise provided." },
+          { es: "O estabelecimento deverá regularizar a situação em trinta dias, sob pena de interdição.", en: "The establishment must regularize its situation within thirty days, or face closure." },
           { es: "Esta lei entra em vigor na data de sua publicação.", en: "This law comes into force on the date of its publication." },
         ],
         checkpoint: [
@@ -1636,7 +1636,7 @@ export const PT_C2_U31: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, in legal style.",
-            source: "Charging an enrolment fee is prohibited, unless otherwise provided.",
+            source: "Charging an enrollment fee is prohibited, unless otherwise provided.",
             answer: "Fica vedada a cobrança de taxa de matrícula, salvo disposição em contrário.",
             altAnswers: [
               "É vedada a cobrança de taxa de matrícula, salvo disposição em contrário.",
@@ -1716,7 +1716,7 @@ export const PT_C2_U31: Lesson[] = [
           "A quotation from a government report on poverty.",
         ],
         correctIndex: 0,
-        explanation: "The line is the famous close of \"Memórias Póstumas de Brás Cubas\". Readers who recognise it hear Machado's pessimism behind the columnist's argument.",
+        explanation: "The line is the famous close of \"Memórias Póstumas de Brás Cubas\". Readers who recognize it hear Machado's pessimism behind the columnist's argument.",
       },
       {
         type: "fill-blank",
@@ -1730,7 +1730,7 @@ export const PT_C2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, in legal style.",
-        source: "The establishment must regularise its situation within thirty days, or face closure.",
+        source: "The establishment must regularize its situation within thirty days, or face closure.",
         answer: "O estabelecimento deverá regularizar a situação em trinta dias, sob pena de interdição.",
         altAnswers: [
           "O estabelecimento deverá regularizar sua situação em trinta dias, sob pena de interdição.",
@@ -1829,7 +1829,7 @@ export const PT_C2_U31: Lesson[] = [
           "Context does most of the work. \"Barbaridade\" in Porto Alegre is not barbarity but an intensifier, and \"arretado\" in Recife is praise, not anger. When a word is new, let the intonation tell you whether the speaker is pleased, annoyed or amazed, then keep listening for the content.",
         ],
         examples: [
-          { es: "Bah, tchê, que frio barbaridade!", en: "Wow, mate, it's incredibly cold! (Porto Alegre)" },
+          { es: "Bah, tchê, que frio barbaridade!", en: "Wow, man, it's incredibly cold! (Porto Alegre)" },
           { es: "Uai, sô, cê num vai comer esse trem?", en: "Hey, aren't you going to eat that? (Minas Gerais)" },
           { es: "Oxente, menino, deixa de arrumar confusão!", en: "Come on, boy, stop picking fights! (the Northeast)" },
           { es: "Mano, o trampo hoje foi pesado, mas tá de boa.", en: "Bro, work was hard today, but it's all good. (São Paulo)" },
@@ -1848,7 +1848,7 @@ export const PT_C2_U31: Lesson[] = [
               "This barbaric cold has to stop.",
             ],
             correctIndex: 0,
-            explanation: "In southern Brazil \"barbaridade\" intensifies (really, incredibly); \"bah\" expresses surprise and \"tchê\" is an address word, like mate.",
+            explanation: "In southern Brazil \"barbaridade\" intensifies (really, incredibly); \"bah\" expresses surprise and \"tchê\" is an address word, like buddy.",
           },
           {
             type: "translate",
@@ -1865,7 +1865,7 @@ export const PT_C2_U31: Lesson[] = [
         heading: "Broadcast and formal speech",
         body: [
           "At the other end of the scale come TV news and formal speeches, fast in a different way: dense nominal phrases, fixed formulas and few pauses. Newsreaders \"deflagram operações\", report figures that \"recuam\" or \"avançam\", and hedge with \"segundo informações preliminares\". Speeches open with a list of dignitaries and the formula \"é com grande satisfação que...\".",
-          "Here the difficulty is not slang but density. Listen for the frame (who did what, when, according to whom) and let the official vocabulary pass if you have the gist. A formula you recognise frees your attention for the figure that follows it.",
+          "Here the difficulty is not slang but density. Listen for the frame (who did what, when, according to whom) and let the official vocabulary pass if you have the gist. A formula you recognize frees your attention for the figure that follows it.",
         ],
         examples: [
           { es: "A Polícia Federal deflagrou, na manhã desta terça-feira, uma operação contra fraudes em licitações.", en: "The Federal Police launched an operation against tender fraud on Tuesday morning." },
@@ -2075,7 +2075,7 @@ export const PT_C2_U31: Lesson[] = [
         ],
         examples: [
           { es: "O Museu de Arte da Cidade vem a público esclarecer o incidente ocorrido em seu sistema de venda de ingressos.", en: "The City Art Museum wishes to clarify publicly the incident that occurred in its ticketing system." },
-          { es: "Na última sexta-feira, identificamos um acesso indevido aos dados cadastrais de parte dos visitantes.", en: "Last Friday we identified unauthorised access to the registration details of some visitors." },
+          { es: "Na última sexta-feira, identificamos um acesso indevido aos dados cadastrais de parte dos visitantes.", en: "Last Friday we identified unauthorized access to the registration details of some visitors." },
           { es: "Nenhum dado bancário foi exposto.", en: "No bank details were exposed." },
           { es: "Lamentamos profundamente o ocorrido e assumimos a responsabilidade pela falha.", en: "We deeply regret what happened and take responsibility for the failure." },
           { es: "Os visitantes afetados serão contatados individualmente até o dia 20.", en: "The visitors affected will be contacted individually by the 20th." },
@@ -2093,7 +2093,7 @@ export const PT_C2_U31: Lesson[] = [
               "Lamentamos profundamente o ocorrido e assumimos total responsabilidade pela falha.",
               "Lamentamos profundamente o incidente e assumimos a responsabilidade pela falha.",
             ],
-            explanation: "\"O ocorrido\" (what happened) is the nominalised participle of official notes. \"Assumir a responsabilidade por\" in the first person plural makes the institution accountable.",
+            explanation: "\"O ocorrido\" (what happened) is the nominalized participle of official notes. \"Assumir a responsabilidade por\" in the first person plural makes the institution accountable.",
           },
           {
             type: "multiple-choice",
@@ -2105,14 +2105,14 @@ export const PT_C2_U31: Lesson[] = [
               "Problemas acontecem em qualquer instituição.",
             ],
             correctIndex: 0,
-            explanation: "The first names the agent, the fact and the action. The second hides who made the errors, the third is the wrong register, and the fourth minimises the problem.",
+            explanation: "The first names the agent, the fact and the action. The second hides who made the errors, the third is the wrong register, and the fourth minimizes the problem.",
           },
         ],
       },
       {
         heading: "Task B: a crônica",
         body: [
-          "Task B: \"Escreva uma crônica sobre um pequeno comércio do seu bairro que fechou as portas.\" The crônica, the genre of Rubem Braga and Fernando Sabino, starts from an everyday scene told in the first person and turns, almost without warning, towards a reflection. The tone is light; the last line carries the weight.",
+          "Task B: \"Escreva uma crônica sobre um pequeno comércio do seu bairro que fechou as portas.\" The crônica, the genre of Rubem Braga and Fernando Sabino, starts from an everyday scene told in the first person and turns, almost without warning, toward a reflection. The tone is light; the last line carries the weight.",
           "Three tools from the creative writing units make it work. The concrete detail does the job of an adjective: not \"he was a kind man\" but how he took his customers' coffee. A sentence sets up the turn (\"Foi numa terça-feira qualquer que...\"). And the ending is understated irony, never a moral. Compare \"a modernidade destrói as relações humanas\" with \"compro pão no supermercado, que é mais barato e não sabe o meu nome\": the second says the same and trusts the reader.",
         ],
         examples: [
@@ -2155,7 +2155,7 @@ export const PT_C2_U31: Lesson[] = [
           { es: "Informamos aos visitantes que nenhum dado bancário foi exposto.", en: "We inform visitors that no bank details were exposed. (not aos visitantes de que)" },
           { es: "A maioria dos visitantes afetados já foi notificada.", en: "Most of the affected visitors have already been notified." },
           { es: "Há dez anos, seu Manoel abriu a padaria.", en: "Ten years ago, Seu Manoel opened the bakery. (no atrás)" },
-          { es: "À medida que os dias passavam, a fila na porta diminuía.", en: "As the days went by, the queue at the door grew shorter." },
+          { es: "À medida que os dias passavam, a fila na porta diminuía.", en: "As the days went by, the line at the door grew shorter." },
           { es: "Ninguém se lembrou de avisá-lo.", en: "Nobody remembered to tell him." },
         ],
         checkpoint: [
@@ -2190,7 +2190,7 @@ export const PT_C2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into formal Portuguese.",
-        source: "Last Friday we identified unauthorised access to the registration details of some visitors.",
+        source: "Last Friday we identified unauthorized access to the registration details of some visitors.",
         answer: "Na última sexta-feira, identificamos um acesso indevido aos dados cadastrais de parte dos visitantes.",
         altAnswers: [
           "Na última sexta-feira, identificamos um acesso não autorizado aos dados cadastrais de parte dos visitantes.",
@@ -2199,7 +2199,7 @@ export const PT_C2_U31: Lesson[] = [
           "Na última sexta-feira, identificamos um acesso indevido aos dados cadastrais de alguns visitantes.",
           "Na sexta-feira passada, identificamos um acesso não autorizado aos dados cadastrais de alguns visitantes.",
         ],
-        explanation: "\"Acesso indevido\" is the standard term for unauthorised access, and \"dados cadastrais\" are registration details. \"Identificamos\" names the agent: the museum.",
+        explanation: "\"Acesso indevido\" is the standard term for unauthorized access, and \"dados cadastrais\" are registration details. \"Identificamos\" names the agent: the museum.",
       },
       {
         type: "translate",
@@ -2236,7 +2236,7 @@ export const PT_C2_U31: Lesson[] = [
           "Ninguém sabia o seu sobrenome, mas todo mundo sabia como ele gostava do café.",
           "Ninguém sabia o sobrenome dele, mas todo mundo sabia como ele gostava do seu café.",
         ],
-        explanation: "\"Todo mundo\" (everyone) takes a singular verb. The crônica favours this everyday language over \"todos\".",
+        explanation: "\"Todo mundo\" (everyone) takes a singular verb. The crônica favors this everyday language over \"todos\".",
       },
       {
         type: "translate",
@@ -2250,7 +2250,7 @@ export const PT_C2_U31: Lesson[] = [
           "Todas as manhãs, pouco depois das sete, seu Manoel abria a padaria como quem abre um livro.",
           "Toda manhã, às sete e pouco, o seu Manoel abria a padaria como quem abre um livro.",
         ],
-        explanation: "\"Como quem\" + verb (like someone who) is a crônica favourite for simile. The imperfect \"abria\" sets up the routine the story will break.",
+        explanation: "\"Como quem\" + verb (like someone who) is a crônica favorite for simile. The imperfect \"abria\" sets up the routine the story will break.",
       },
       {
         type: "multiple-choice",
@@ -2311,11 +2311,11 @@ export const PT_C2_U31: Lesson[] = [
       {
         heading: "A sustained argument",
         body: [
-          "Task 1: three minutes on \"O ensino a distância deve substituir parte das aulas presenciais na universidade?\". A spoken argument is not an essay read aloud. Nominalisations and long subordinate clauses that work on paper sink a listener. Speak in educated conversational Portuguese: shorter sentences, clear signposts, \"a gente\" where it is natural, and repetition used on purpose.",
+          "Task 1: three minutes on \"O ensino a distância deve substituir parte das aulas presenciais na universidade?\". A spoken argument is not an essay read aloud. Nominalizations and long subordinate clauses that work on paper sink a listener. Speak in educated conversational Portuguese: shorter sentences, clear signposts, \"a gente\" where it is natural, and repetition used on purpose.",
           "Give the turn an audible shape. State your position at once, with its condition if it has one. Number your reasons out loud (\"o primeiro motivo é\", \"além disso\", \"e tem mais um ponto\"). Raise the objection yourself (\"alguém poderia dizer que...\") and answer it with \"só que\" or \"acontece que\", which sound far more natural in speech than \"no entanto\". Close by returning to the position in one memorable line.",
         ],
         examples: [
-          { es: "Eu sou a favor, mas com uma condição: que o presencial continue sendo o centro.", en: "I'm in favour, but on one condition: that face-to-face teaching remains at the core." },
+          { es: "Eu sou a favor, mas com uma condição: que o presencial continue sendo o centro.", en: "I'm in favor, but on one condition: that face-to-face teaching remains at the core." },
           { es: "O primeiro motivo é simples: muita gente trabalha e não consegue estar no campus às sete da noite.", en: "The first reason is simple: lots of people work and can't be on campus at seven in the evening." },
           { es: "Alguém poderia dizer que a qualidade cai. Só que isso depende muito mais do professor do que da tela.", en: "Someone might say the quality drops. But that depends far more on the teacher than on the screen." },
           { es: "E tem mais um ponto, que pouca gente lembra: o custo do transporte.", en: "And there's one more point that few people remember: the cost of getting there." },
@@ -2349,12 +2349,12 @@ export const PT_C2_U31: Lesson[] = [
       {
         heading: "Mediation: an English report for Brazilian colleagues",
         body: [
-          "Task 2: you have read a British university's report on student mental health, in English, and you explain it to Brazilian colleagues in a meeting. Mediation is not translation. Select what this audience needs, say up front where the text comes from, and adapt anything that doesn't travel. A GP is roughly \"o clínico geral do posto\"; a British counselling service is closer to the \"apoio psicopedagógico\" of some federal universities.",
-          "Signal your own role as you go. \"Basicamente, o relatório diz que...\" summarises; \"se eu entendi bem\" flags an interpretation; \"eu não traduzi tudo, peguei o que interessa pra gente\" tells the listeners what you left out. Figures are rounded and converted (one in four, not 24.7%) unless the exact number matters.",
+          "Task 2: you have read a British university's report on student mental health, in English, and you explain it to Brazilian colleagues in a meeting. Mediation is not translation. Select what this audience needs, say up front where the text comes from, and adapt anything that doesn't travel. A GP is roughly \"o clínico geral do posto\"; a British counseling service is closer to the \"apoio psicopedagógico\" of some federal universities.",
+          "Signal your own role as you go. \"Basicamente, o relatório diz que...\" summarizes; \"se eu entendi bem\" flags an interpretation; \"eu não traduzi tudo, peguei o que interessa pra gente\" tells the listeners what you left out. Figures are rounded and converted (one in four, not 24.7%) unless the exact number matters.",
         ],
         examples: [
           { es: "Basicamente, o relatório diz que um em cada quatro estudantes procurou ajuda psicológica no ano passado.", en: "Basically, the report says one in four students sought psychological help last year." },
-          { es: "Lá eles falam em GP, que seria mais ou menos o nosso clínico geral do posto de saúde.", en: "Over there they talk about a GP, which would be more or less our family doctor at the health centre." },
+          { es: "Lá eles falam em GP, que seria mais ou menos o nosso clínico geral do posto de saúde.", en: "Over there they talk about a GP, which would be more or less our family doctor at the health center." },
           { es: "O serviço que eles descrevem é parecido com o apoio psicopedagógico de algumas federais.", en: "The service they describe is similar to the student support some federal universities offer." },
           { es: "Eu não traduzi tudo; peguei só o que interessa pra gente.", en: "I didn't translate everything; I picked out just what matters to us." },
           { es: "Se eu entendi bem, a recomendação principal é integrar esse apoio às aulas.", en: "If I understood correctly, the main recommendation is to build this support into teaching." },
@@ -2389,13 +2389,13 @@ export const PT_C2_U31: Lesson[] = [
       {
         heading: "The spontaneous anecdote",
         body: [
-          "Task 3: the examiner asks, without warning, for a story about an unexpected situation with strangers. Brazilian anecdotes have a recognisable grammar. They open with a hook (\"sabe o que me aconteceu?\"), set the scene in the imperfect (\"eu tava no ônibus, voltando do trabalho\"), move the plot with the preterite and \"aí\", and break into direct speech introduced by \"e ele:\" or \"e ela falou:\", with the voice changed.",
+          "Task 3: the examiner asks, without warning, for a story about an unexpected situation with strangers. Brazilian anecdotes have a recognizable grammar. They open with a hook (\"sabe o que me aconteceu?\"), set the scene in the imperfect (\"eu tava no ônibus, voltando do trabalho\"), move the plot with the preterite and \"aí\", and break into direct speech introduced by \"e ele:\" or \"e ela falou:\", with the voice changed.",
           "Two more markers keep it alive: \"pra você ter uma ideia\" before an exaggeration, \"quando eu vi\" for a sudden discovery. End with a twist or a reflection, not with \"e foi isso\". Speed and fillers are fine; silence and a story with no point are not.",
         ],
         examples: [
           { es: "Sabe o que me aconteceu na semana passada?", en: "Do you know what happened to me last week?" },
           { es: "Eu tava no ônibus, voltando do trabalho, quando o motorista parou no meio da avenida.", en: "I was on the bus on my way home from work when the driver stopped in the middle of the avenue." },
-          { es: "Aí ele se virou pra gente e falou: gente, o ônibus quebrou.", en: "Then he turned round to us and said: folks, the bus has broken down." },
+          { es: "Aí ele se virou pra gente e falou: gente, o ônibus quebrou.", en: "Then he turned around to us and said: folks, the bus has broken down." },
           { es: "Pra você ter uma ideia, a gente ficou quarenta minutos esperando.", en: "Just to give you an idea, we were left waiting for forty minutes." },
           { es: "No fim, foi a melhor conversa que eu tive com desconhecidos em anos.", en: "In the end, it was the best conversation I'd had with strangers in years." },
         ],
@@ -2436,7 +2436,7 @@ export const PT_C2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into natural spoken Portuguese.",
-        source: "I'm in favour, but on one condition: that face-to-face teaching remains at the core.",
+        source: "I'm in favor, but on one condition: that face-to-face teaching remains at the core.",
         answer: "Eu sou a favor, mas com uma condição: que o presencial continue sendo o centro.",
         altAnswers: [
           "Sou a favor, mas com uma condição: que o presencial continue sendo o centro.",
@@ -2466,7 +2466,7 @@ export const PT_C2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into natural spoken Portuguese.",
-        source: "Over there they talk about a GP, which would be more or less our family doctor at the health centre.",
+        source: "Over there they talk about a GP, which would be more or less our family doctor at the health center.",
         answer: "Lá eles falam em GP, que seria mais ou menos o nosso clínico geral do posto de saúde.",
         altAnswers: [
           "Lá eles falam em GP, que seria mais ou menos o nosso clínico geral do posto.",
@@ -2486,7 +2486,7 @@ export const PT_C2_U31: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[Then] he turned round to us and said: folks, the bus has broken down.",
+        en: "[Then] he turned around to us and said: folks, the bus has broken down.",
         sentence: "___ ele se virou pra gente e falou: gente, o ônibus quebrou.",
         answer: "Aí",
         altAnswers: ["Então", "Daí"],
@@ -2566,7 +2566,7 @@ export const PT_C2_U31: Lesson[] = [
           "This part gives no hints: each sentence hides one trap from the precision units, and you produce the form the norm requires. One reminder each. \"É proibida a entrada\" agrees once the noun has its article. \"Anexo\" agrees with what is attached. \"Visar\" meaning to aim at takes \"a\", and \"assistir\" meaning to watch takes \"a\". \"Preferir\" takes \"a\", never \"do que\", and \"implicar\" meaning to entail takes a direct object, never \"em\".",
         ],
         examples: [
-          { es: "É proibida a entrada de pessoas não autorizadas.", en: "Unauthorised persons are not allowed in." },
+          { es: "É proibida a entrada de pessoas não autorizadas.", en: "Unauthorized persons are not allowed in." },
           { es: "Seguem anexas as planilhas solicitadas.", en: "Please find the requested spreadsheets attached." },
           { es: "O projeto visa à redução das desigualdades regionais.", en: "The project aims to reduce regional inequalities." },
           { es: "Assistimos ao debate pela televisão.", en: "We watched the debate on television." },
@@ -2609,7 +2609,7 @@ export const PT_C2_U31: Lesson[] = [
           { es: "Refiro-me à proposta apresentada ontem.", en: "I am referring to the proposal presented yesterday." },
           { es: "Não se fará nenhuma alteração sem consulta prévia.", en: "No change will be made without prior consultation." },
           { es: "Ele devia ter lhe contado a verdade.", en: "He should have told her the truth." },
-          { es: "Vendem-se apartamentos na planta.", en: "Off-plan flats for sale." },
+          { es: "Vendem-se apartamentos na planta.", en: "Pre-construction apartments for sale." },
         ],
         checkpoint: [
           {
@@ -2767,14 +2767,14 @@ export const PT_C2_U31: Lesson[] = [
           "Os resultados serão publicados a partir das 14 horas.",
           "Os resultados serão divulgados a partir das duas da tarde.",
         ],
-        explanation: "No crase before \"partir\", a verb; the article for the time comes in \"das 14h\". Brazil writes times as \"14h\" with no space and no full stop.",
+        explanation: "No crase before \"partir\", a verb; the article for the time comes in \"das 14h\". Brazil writes times as \"14h\" with no space and no period.",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Off-plan flats for sale.",
+        prompt: "Put the words in order to say: Pre-construction apartments for sale.",
         words: ["Vendem-se", "apartamentos", "na planta."],
-        translation: "Off-plan flats for sale.",
-        explanation: "The passive \"se\" agrees with its subject: \"vendem-se apartamentos\". \"Na planta\" means off-plan.",
+        translation: "Pre-construction apartments for sale.",
+        explanation: "The passive \"se\" agrees with its subject: \"vendem-se apartamentos\". \"Na planta\" means pre-construction (off-plan).",
       },
       {
         type: "translate",
@@ -2822,7 +2822,7 @@ export const PT_C2_U31: Lesson[] = [
     level: "PT-C2",
     number: 12,
     title: "C2 Exit Test, Part 6: The Final Challenge",
-    summary: "One integrated task to close the course: read an English engineering report and listen to the stallholders of a market in Belém, write a formal recommendation to the city council, and speak at a public hearing.",
+    summary: "One integrated task to close the course: read an English engineering report and listen to the stallholders of a market in Belém, write a formal recommendation to City Hall, and speak at a public hearing.",
     duration: "20 min",
     kind: "level-test",
     format: "Exit test",
@@ -2830,7 +2830,7 @@ export const PT_C2_U31: Lesson[] = [
       {
         heading: "The sources: a report and the voices of the market",
         body: [
-          "The final task uses every skill at once. The city of Belém wants to renovate its old municipal market, whose iron structure is unsafe, and plans to move the stallholders to a temporary site for eighteen months. You are a consultant. You have an engineering report in English and recordings of the stallholders. You must write a recommendation to the council and then present it at an \"audiência pública\".",
+          "The final task uses every skill at once. The city of Belém wants to renovate its old municipal market, whose iron structure is unsafe, and plans to move the stallholders to a temporary site for eighteen months. You are a consultant. You have an engineering report in English and recordings of the stallholders. You must write a recommendation to City Hall and then present it at an \"audiência pública\".",
           "The two sources don't speak the same language in any sense. The report is technical, written in English, and buries its most useful line in an appendix: the works could be done in phases. The stallholders speak paraense Portuguese, with \"égua\" and \"mana\", and their fear is concrete: \"a freguesia some\", the customers will vanish. Your job is to hear what each one cannot say to the other.",
         ],
         examples: [
@@ -2875,15 +2875,15 @@ export const PT_C2_U31: Lesson[] = [
       {
         heading: "The written recommendation",
         body: [
-          "The recommendation to the council is a \"parecer\": formal, impersonal, built to be acted on. It summarises the facts with attribution (\"segundo o laudo\", \"os feirantes ouvidos\"), weighs them, and ends with a recommendation in the impersonal \"recomenda-se que\" + subjunctive. The proposal combines the two sources: safety from the report, livelihoods from the voices, and the phased works that reconcile them.",
+          "The recommendation to City Hall is a \"parecer\": formal, impersonal, built to be acted on. It summarizes the facts with attribution (\"segundo o laudo\", \"os feirantes ouvidos\"), weighs them, and ends with a recommendation in the impersonal \"recomenda-se que\" + subjunctive. The proposal combines the two sources: safety from the report, livelihoods from the voices, and the phased works that reconcile them.",
           "Two formulas mark the genre. \"Diante do exposto\" (in view of the above) opens the conclusion. The traditional close, \"É o parecer, salvo melhor juízo\", presents the opinion with professional modesty. Between them, the norm without slips: \"cabe à prefeitura\", \"de modo que\" + subjunctive, \"ressalte-se que\" at the start of a sentence.",
         ],
         examples: [
           { es: "Os feirantes ouvidos manifestaram apoio à reforma, desde que sejam consultados sobre o cronograma.", en: "The stallholders interviewed expressed support for the renovation, provided they are consulted about the schedule." },
           { es: "Ressalte-se que o próprio laudo técnico admite essa alternativa.", en: "It should be stressed that the technical report itself allows for this alternative." },
-          { es: "Cabe à prefeitura garantir a segurança da estrutura sem interromper a renda de quem depende do mercado.", en: "It falls to the council to make the structure safe without cutting off the income of those who depend on the market." },
+          { es: "Cabe à prefeitura garantir a segurança da estrutura sem interromper a renda de quem depende do mercado.", en: "It falls to City Hall to make the structure safe without cutting off the income of those who depend on the market." },
           { es: "Diante do exposto, recomenda-se que a obra seja realizada por etapas, de modo que parte dos boxes permaneça em funcionamento.", en: "In view of the above, it is recommended that the works be carried out in phases, so that some of the stalls remain open." },
-          { es: "É o parecer, salvo melhor juízo.", en: "This is my opinion, subject to better judgement." },
+          { es: "É o parecer, salvo melhor juízo.", en: "This is my opinion, subject to better judgment." },
         ],
         checkpoint: [
           {
@@ -2916,7 +2916,7 @@ export const PT_C2_U31: Lesson[] = [
       {
         heading: "At the public hearing, and goodbye",
         body: [
-          "At the audiência pública the same content changes register again. You are speaking to the stallholders, the council and the press at the same time, so speak educated, warm Portuguese. Open by naming the common ground (\"ninguém aqui é contra a reforma\"), state the proposal in one simple sentence, and turn the report's appendix into a promise the market can understand: \"se a obra for feita por partes, a freguesia não se perde\".",
+          "At the audiência pública the same content changes register again. You are speaking to the stallholders, city officials and the press at the same time, so speak educated, warm Portuguese. Open by naming the common ground (\"ninguém aqui é contra a reforma\"), state the proposal in one simple sentence, and turn the report's appendix into a promise the market can understand: \"se a obra for feita por partes, a freguesia não se perde\".",
           "That's the end of the course. You started with \"estou\" and \"está\". You have just mediated between an engineering report and a market in Belém, in three registers, in a single afternoon. Whoever gets this far no longer studies Portuguese: they live in it.",
         ],
         examples: [
@@ -2972,7 +2972,7 @@ export const PT_C2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into formal Portuguese.",
-        source: "It falls to the council to make the structure safe without cutting off the income of those who depend on the market.",
+        source: "It falls to City Hall to make the structure safe without cutting off the income of those who depend on the market.",
         answer: "Cabe à prefeitura garantir a segurança da estrutura sem interromper a renda de quem depende do mercado.",
         altAnswers: [
           "Cabe à prefeitura garantir a segurança da estrutura sem interromper a renda daqueles que dependem do mercado.",
@@ -3040,7 +3040,7 @@ export const PT_C2_U31: Lesson[] = [
           "Far-se-á a reforma por etapas.",
         ],
         correctIndex: 0,
-        explanation: "The first is warm, clear educated speech for a mixed audience. The second is the written parecer, the third imitates the stallholders' slang (which sounds patronising from a consultant) and the fourth is pompous.",
+        explanation: "The first is warm, clear educated speech for a mixed audience. The second is the written parecer, the third imitates the stallholders' slang (which sounds patronizing from a consultant) and the fourth is pompous.",
       },
       {
         type: "translate",
@@ -3055,13 +3055,13 @@ export const PT_C2_U31: Lesson[] = [
           "A reforma duraria dezoito meses e os feirantes seriam transferidos para um local provisório.",
           "A reforma levaria dezoito meses, e os feirantes seriam remanejados para uma área provisória.",
         ],
-        explanation: "The conditional (\"levaria\", \"seriam\") reports the council's plan as a proposal, not a fact. \"Feirante\" is a market stallholder.",
+        explanation: "The conditional (\"levaria\", \"seriam\") reports City Hall's plan as a proposal, not a fact. \"Feirante\" is a market stallholder.",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: This is my opinion, subject to better judgement.",
+        prompt: "Put the words in order to say: This is my opinion, subject to better judgment.",
         words: ["É", "o parecer,", "salvo", "melhor", "juízo."],
-        translation: "This is my opinion, subject to better judgement.",
+        translation: "This is my opinion, subject to better judgment.",
         explanation: "The traditional close of a Brazilian parecer, often abbreviated \"S.M.J.\": a formula of professional modesty.",
       },
       {
@@ -3098,7 +3098,7 @@ export const PT_C2_U31: Lesson[] = [
 
 export const PT_C2_U31_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A Celpe-Bras task at the top band. You run a bookshop on Rua Sapucaí in Belo Horizonte. The local newspaper has just published a report on the city council's plan to close the street to cars every Sunday and turn it into a leisure area. The report gives the results of a three-month pilot: visitors up by about 40%, families and cyclists enthusiastic, cafés and bars selling more, but some shops (yours among them) selling less because regular customers can no longer park nearby. Write a carta de leitor to the newspaper that refers to the report, takes a nuanced position, uses the report's information in your own words and proposes a compromise. Sign with your name, occupation and neighbourhood (250-400 words).",
+  prompt: "A Celpe-Bras task at the top band. You run a bookstore on Rua Sapucaí in Belo Horizonte. The local newspaper has just published a report on City Hall's plan to close the street to cars every Sunday and turn it into a leisure area. The report gives the results of a three-month pilot: visitors up by about 40%, families and cyclists enthusiastic, cafés and bars selling more, but some shops (yours among them) selling less because regular customers can no longer park nearby. Write a carta de leitor to the newspaper that refers to the report, takes a nuanced position, uses the report's information in your own words and proposes a compromise. Sign with your name, occupation and neighborhood (250-400 words).",
   minWords: 250,
   maxWords: 400,
   rubric: [
@@ -3108,5 +3108,5 @@ export const PT_C2_U31_WRITING: WriteExercise = {
     "Keep the norma culta of a published letter: crase (\"aos domingos\", \"à prefeitura\", \"às famílias\"), agreement with \"a maioria dos\", clitics after attractors (\"não se pode\"), and no slang or \"a gente\".",
   ],
   modelAnswer: "Li com atenção a reportagem publicada no último sábado sobre o fechamento da Rua Sapucaí para os carros aos domingos e gostaria de oferecer o ponto de vista de quem trabalha ali há quinze anos.\n\nNão se trata de ser contra a ideia. Como mostra a própria reportagem, o número de visitantes cresceu cerca de 40% durante os três meses do projeto-piloto, e quem passou pela rua num domingo de sol viu crianças de bicicleta, famílias sentadas nas calçadas e cafés lotados. É verdade que a cidade precisa de mais espaços como esse, e seria um erro desperdiçar o que se conquistou.\n\nNo entanto, o que os números gerais não mostram é que nem todos se beneficiaram da mesma forma. Bares e cafés venderam mais; livrarias, lojas de discos e pequenos comércios que dependem de clientes fiéis venderam menos. A maioria dos meus clientes de domingo são pessoas mais velhas, que vinham de carro de outros bairros e que, sem onde estacionar, simplesmente deixaram de vir. Para elas, a rua aberta às famílias tornou-se, paradoxalmente, uma rua fechada.\n\nProponho, portanto, um meio-termo. A rua poderia continuar fechada para os carros aos domingos, desde que a prefeitura garanta vagas de embarque e desembarque nas transversais e um estacionamento conveniado a poucos minutos a pé. Além disso, seria importante que os comerciantes fossem consultados antes de o modelo se tornar definitivo, de modo que a programação inclua também atividades que levem o público para dentro das lojas, como feiras de livros, lançamentos e apresentações.\n\nUma rua viva não é apenas uma rua cheia: é uma rua em que todos encontram o seu lugar. Cabe à prefeitura ouvir quem está do lado de dentro das vitrines antes de transformar um sucesso parcial em regra.\n\nRicardo Menezes, livreiro e morador da Floresta, Belo Horizonte",
-  explanation: "The letter answers the full Celpe-Bras frame: the enunciador (a bookseller on the street), the interlocutor (the paper's readers), the propósito (a nuanced position and a compromise) and the genre (it refers to the report, argues in paragraphs and signs with name, occupation and neighbourhood). The source is transformed, not retold: the 40% figure is attributed (\"como mostra a própria reportagem\") and the mixed sales become the core of the argument. The argument concedes (\"não se trata de ser contra\", \"é verdade que\"), turns (\"no entanto, o que os números gerais não mostram é que\") and proposes with \"desde que\" + present subjunctive (\"garanta\"), \"seria importante que\" + imperfect subjunctive (\"fossem consultados\") and \"de modo que\" + subjunctive (\"inclua\"). The norm is handled precisely: \"aos domingos\", \"às famílias\" and \"cabe à prefeitura\" with the crase, \"antes de o modelo se tornar\" with \"de\" kept apart from the subject of the infinitive, and \"a maioria dos meus clientes são\" agreeing with the plural complement. The closing antithesis (\"a rua aberta às famílias tornou-se uma rua fechada\") and the aphoristic last line show the stylistic range of the top band.",
+  explanation: "The letter answers the full Celpe-Bras frame: the enunciador (a bookseller on the street), the interlocutor (the paper's readers), the propósito (a nuanced position and a compromise) and the genre (it refers to the report, argues in paragraphs and signs with name, occupation and neighborhood). The source is transformed, not retold: the 40% figure is attributed (\"como mostra a própria reportagem\") and the mixed sales become the core of the argument. The argument concedes (\"não se trata de ser contra\", \"é verdade que\"), turns (\"no entanto, o que os números gerais não mostram é que\") and proposes with \"desde que\" + present subjunctive (\"garanta\"), \"seria importante que\" + imperfect subjunctive (\"fossem consultados\") and \"de modo que\" + subjunctive (\"inclua\"). The norm is handled precisely: \"aos domingos\", \"às famílias\" and \"cabe à prefeitura\" with the crase, \"antes de o modelo se tornar\" with \"de\" kept apart from the subject of the infinitive, and \"a maioria dos meus clientes são\" agreeing with the plural complement. The closing antithesis (\"a rua aberta às famílias tornou-se uma rua fechada\") and the aphoristic last line show the stylistic range of the top band.",
 };

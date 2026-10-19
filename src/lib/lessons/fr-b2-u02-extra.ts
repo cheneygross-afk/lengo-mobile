@@ -111,7 +111,7 @@ export const FR_B2_U02_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« C'est une méthode ___ j'ai appris à nager. »",
+        question: "Which words complete the sentence? « C'est une méthode ___ j'ai appris à nager. » (It's a method I learned to swim with.)",
         options: ["avec laquelle", "avec lequel", "avec qui", "avec que"],
         correctIndex: 0,
         explanation: "\"Méthode\" is feminine: \"avec laquelle\". \"Avec qui\" is for people.",
@@ -196,7 +196,7 @@ export const FR_B2_U02_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« La gare ___ je travaille est en travaux. » (near)",
+            question: "Which words complete the sentence? « La gare ___ je travaille est en travaux. » (The station I work near is being renovated.)",
             options: ["près de laquelle", "près duquel", "dont près", "près laquelle"],
             correctIndex: 0,
             explanation: "\"Gare\" is feminine: \"de laquelle\" doesn't contract.",
@@ -261,7 +261,7 @@ export const FR_B2_U02_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "It's a ring [I'm very attached to].",
+        en: "It's a piece of jewellery [I'm very attached to].",
         sentence: "C'est un bijou ___ beaucoup.",
         answer: "auquel je tiens",
         explanation: "\"Tenir à\" + \"bijou\" (m.) → \"auquel\".",
@@ -428,7 +428,7 @@ export const FR_B2_U02_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Agence cherche guide qui ___ parler trois langues. »",
+        question: "Which word completes the ad? « Agence cherche guide qui ___ parler trois langues. » (Agency seeking a guide who can speak three languages.)",
         options: ["sache", "sait", "saches", "savait"],
         correctIndex: 0,
         explanation: "A guide being sought: subjunctive \"sache\".",
@@ -455,7 +455,7 @@ export const FR_B2_U02_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "I have a friend who sells his car.",
+        source: "I have a friend who's selling his car.",
         answer: "J'ai un ami qui vend sa voiture.",
         altAnswers: ["J'ai une amie qui vend sa voiture."],
         explanation: "A real friend: \"vend\".",

@@ -223,7 +223,7 @@ export const FR_C2_U10: Lesson[] = [
       {
         type: "dictation",
         audio: "Faute de quorum, le vote est reporté.",
-        explanation: "\"Faute de\" + noun: for lack of. \"Quorum\" is pronounced like corps-homme.",
+        explanation: "\"Faute de\" + noun: for lack of. \"Quorum\" is pronounced like \"corps-homme\".",
       },
       {
         type: "speak",
@@ -405,7 +405,7 @@ export const FR_C2_U10: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which phrase is a pleonasm an editor would cut?",
-        options: ["une panacée universelle", "un changement de paradigme", "un parangon de vertu", "une diatribe violente contre"],
+        options: ["une panacée universelle", "un changement de paradigme", "un parangon de vertu", "une diatribe contre les élites"],
         correctIndex: 0,
         explanation: "\"Panacée\" already means a remedy for everything, so \"universelle\" repeats it.",
       },
@@ -688,7 +688,7 @@ export const FR_C2_U10: Lesson[] = [
         heading: "Getting started: faire le point, avoir le feu vert, du pain sur la planche",
         body: [
           "French office talk is full of idioms, and they are used by everyone from interns to CEOs. \"Faire le point\" is to take stock, review where things stand: \"faisons le point sur le projet\". Trap: \"faire un point\" (with the indefinite article) is office jargon for a quick catch-up meeting: \"on fait un point demain à 10 h ?\". The article changes the meaning.",
-          "\"Avoir le feu vert\" (to get the green light) and \"donner le feu vert à\" work as in English, but note the article: it is always \"le feu vert\", not a 'green light'. \"Avoir du pain sur la planche\" (literally bread on the board) means to have a lot of work ahead: \"avec ce nouveau client, on a du pain sur la planche\".",
+          "\"Avoir le feu vert\" (to get the green light) and \"donner le feu vert à\" work as in English, but note the determiner: it is \"le feu vert\" (or a possessive, \"son feu vert\"), not a 'green light'. \"Avoir du pain sur la planche\" (literally bread on the board) means to have a lot of work ahead: \"avec ce nouveau client, on a du pain sur la planche\".",
           "\"Mettre la main à la pâte\" (to put one's hand in the dough) is to pitch in, to roll up one's sleeves, especially when someone senior helps with the practical work: \"même la directrice a mis la main à la pâte pour le salon\". The fixed articles and possessives in these idioms cannot be changed: \"*mettre sa main à la pâte\" sounds wrong.",
         ],
         examples: [
@@ -813,7 +813,7 @@ export const FR_C2_U10: Lesson[] = [
         source: "The board has given us the green light.",
         answer: "Le conseil d'administration nous a donné le feu vert.",
         altAnswers: ["Le conseil d'administration nous a donné son feu vert.", "Le conseil nous a donné le feu vert.", "On a eu le feu vert du conseil d'administration.", "Nous avons eu le feu vert du conseil d'administration."],
-        explanation: "\"Donner le feu vert à quelqu'un\": always \"le feu vert\".",
+        explanation: "\"Donner le feu vert à quelqu'un\": the definite article or a possessive (\"son feu vert\"), never \"un\".",
       },
       {
         type: "translate",
@@ -853,9 +853,9 @@ export const FR_C2_U10: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence means 'Let's take stock of the year'?",
-        options: ["Faisons le point sur l'année.", "Faisons un point sur l'année.", "Mettons le point sur l'année.", "Prenons le stock de l'année."],
+        options: ["Faisons le point sur l'année.", "Mettons un point final à l'année.", "Mettons le point sur l'année.", "Prenons le stock de l'année."],
         correctIndex: 0,
-        explanation: "\"Faire le point\" (take stock); \"faire un point\" is a short meeting.",
+        explanation: "\"Faire le point\" (take stock); \"mettre un point final à\" means to put an end to something.",
       },
       {
         type: "translate",
@@ -916,7 +916,7 @@ export const FR_C2_U10: Lesson[] = [
         body: [
           "A Monday morning at Ateliers Morel, a family furniture maker near Nantes. The managing director, Sophie Morel, meets her finance director, Bruno, and her sales director, Nadia, about a big order from a hotel chain. Read the first part of the meeting: « Sophie : Bon, faisons le point. Le groupe hôtelier veut quatre cents chambres meublées pour septembre. Nadia, où en est-on ? Nadia : Ils sont très intéressés, mais ils veulent une remise de quinze pour cent. Bruno : Quinze pour cent ? On n'a pas les reins assez solides pour ça. Avec la hausse du bois, on serait dans le rouge dès la première livraison. »",
           "\"Ne pas avoir les reins assez solides\" (not to have strong enough kidneys, i.e. back) means not to be financially strong enough to take on a risk. Its positive is \"avoir les reins solides\". \"Où en est-on ?\" (where are we with this?) is the standard question to start a status update; in speech it is often \"on en est où ?\".",
-          "Note the register: everyone uses idioms, but the sentences remain well formed, with \"ne\" mostly kept by Bruno and Sophie. It is the 'courant soutenu' of a French meeting: relaxed, but not slangy.",
+          "Note the register: everyone uses idioms, but the sentences remain well formed, with \"ne\" mostly kept by Bruno and Sophie. It is the standard register (\"registre courant\") of a French meeting: relaxed, but not slangy.",
         ],
         examples: [
           { es: "Bon, faisons le point. Où en est-on avec le groupe hôtelier ?", en: "Right, let's take stock. Where are we with the hotel group?" },
@@ -952,7 +952,7 @@ export const FR_C2_U10: Lesson[] = [
         body: [
           "The meeting continues: « Nadia : Si on refuse, ils iront chez Durand, et on perd le marché de l'hôtellerie pour des années. Sophie : Il faut trancher dans le vif. Soit on accepte et on réduit nos marges, soit on refuse et on se concentre sur les particuliers. Bruno : Je propose de couper la poire en deux : huit pour cent, et un acompte de trente pour cent à la commande. Nadia : Huit pour cent... c'est pas gagné, mais je peux essayer. »",
           "\"Trancher dans le vif\" (to cut into living flesh) is to take a radical, painful decision without delay. \"Couper la poire en deux\" (to cut the pear in half) is to split the difference, reach a compromise. \"C'est pas gagné\" (it's not won yet) is a shrugging way to say success is far from certain: 'it's going to be tough'.",
-          "Notice how Nadia switches to a more colloquial \"c'est pas gagné\" (ne dropped): she is thinking aloud and showing doubt. Idioms often mark such changes of tone in a meeting; recognising them tells you where people really stand.",
+          "Notice how Nadia switches to a more colloquial \"c'est pas gagné\" (\"ne\" dropped): she is thinking aloud and showing doubt. Idioms often mark such changes of tone in a meeting; recognising them tells you where people really stand.",
         ],
         examples: [
           { es: "Il faut trancher dans le vif : on arrête cette gamme.", en: "We have to make a tough call: we're dropping this product line." },
@@ -1058,7 +1058,7 @@ export const FR_C2_U10: Lesson[] = [
         en: "Prepare a plan B in case it [falls through].",
         sentence: "Prépare un plan B au cas où ça ___.",
         answer: "capoterait",
-        altAnswers: ["capote", "échouerait", "tomberait à l'eau"],
+        altAnswers: ["échouerait", "tomberait à l'eau"],
         explanation: "\"Au cas où\" takes the conditional (\"capoterait\"); \"capoter\" is to fall through.",
       },
       {
@@ -1411,12 +1411,12 @@ export const FR_C2_U10: Lesson[] = [
         heading: "From the corridor to the report",
         body: [
           "Read this corridor exchange at Ateliers Morel after the hotel deal: « On a mis les bouchées doubles tout l'été, mais avec la hausse du bois, on a juste sauvé les meubles. Si les prix ne baissent pas, il va falloir se serrer la ceinture, et pas qu'un peu. Bref, c'est pas gagné pour l'an prochain. »",
-          "Now the report version: « Malgré une intensification de la production au cours de l'été, la hausse du coût des matières premières n'a permis que de limiter les pertes. En l'absence de baisse des prix, des mesures d'économie significatives s'imposeront. Les perspectives pour l'exercice suivant demeurent incertaines. »",
-          "Look at the transformations: \"mettre les bouchées doubles\" → \"une intensification de la production\" (nominalisation); \"on a sauvé les meubles\" → \"n'a permis que de limiter les pertes\" (restriction with \"ne... que\"); \"il va falloir se serrer la ceinture, et pas qu'un peu\" → \"des mesures d'économie significatives s'imposeront\" (the adjective replaces the colloquial intensifier); \"c'est pas gagné\" → \"les perspectives demeurent incertaines\".",
+          "Now the report version: « Malgré une intensification de la production au cours de l'été, l'entreprise n'a pu, face à la hausse du coût des matières premières, que limiter les pertes. En l'absence de baisse des prix, des mesures d'économie significatives s'imposeront. Les perspectives pour l'exercice suivant demeurent incertaines. »",
+          "Look at the transformations: \"mettre les bouchées doubles\" → \"une intensification de la production\" (nominalisation); \"on a juste sauvé les meubles\" → \"n'a pu... que limiter les pertes\" (restriction with \"ne... que\"); \"il va falloir se serrer la ceinture, et pas qu'un peu\" → \"des mesures d'économie significatives s'imposeront\" (the adjective replaces the colloquial intensifier); \"c'est pas gagné\" → \"les perspectives demeurent incertaines\".",
         ],
         examples: [
           { es: "Malgré une intensification de la production au cours de l'été...", en: "Despite a step-up in production over the summer..." },
-          { es: "La hausse du coût des matières premières n'a permis que de limiter les pertes.", en: "The rise in raw material costs meant that losses could only be limited." },
+          { es: "Face à la hausse du coût des matières premières, l'entreprise n'a pu que limiter les pertes.", en: "Faced with rising raw material costs, the company could only limit its losses." },
           { es: "En l'absence de baisse des prix, des mesures d'économie s'imposeront.", en: "If prices do not fall, cost-cutting measures will be necessary." },
           { es: "Les perspectives pour l'exercice suivant demeurent incertaines.", en: "The outlook for the next financial year remains uncertain." },
           { es: "Le chiffre d'affaires a progressé de 12 % sur un an.", en: "Turnover grew 12% year on year." },
@@ -1637,7 +1637,7 @@ export const FR_C2_U10: Lesson[] = [
         heading: "Altered French idioms",
         body: [
           "The second family of errors: real French idioms with one element changed. They show that the speaker half-remembers the phrase. \"*Mettre sa main à la pâte\" → \"mettre la main à la pâte\". \"*Avoir le pain sur la planche\" → \"avoir du pain sur la planche\". \"*Mettre la clé sous le paillasson\" → \"mettre la clé sous la porte\". \"*Tirer son aiguille du jeu\" → \"tirer son épingle du jeu\".",
-          "Others mix two idioms: \"*couper la poire en quatre\" (a confusion with \"se couper en quatre\", to bend over backwards) → \"couper la poire en deux\". \"*Mettre les bouchées triples\" is a joke at best. \"*Renvoyer la balle\" exists but means to return the ball in an argument (to answer back, or pass the buck); to return a favour is \"renvoyer l'ascenseur\".",
+          "Others mix two idioms: \"*couper la poire en quatre\" (a confusion with \"se couper en quatre\", to bend over backwards) → \"couper la poire en deux\". \"*Mettre les bouchées triples\" is a joke at best. \"Renvoyer la balle\" exists but means to return the ball in an argument (to answer back, or pass the buck); to return a favour is \"renvoyer l'ascenseur\".",
           "The fix is to learn idioms as frozen blocks with their articles and possessives, and to check doubtful ones in a dictionary of expressions (the Robert's \"Dictionnaire des expressions et locutions\" is the classic).",
         ],
         examples: [

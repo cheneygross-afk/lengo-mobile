@@ -16,7 +16,7 @@ export const PT_A2_U22: Lesson[] = [
       {
         heading: "At the airport: messages and a chip",
         body: [
-          "Emily, a nurse from Leeds, lands at Galeão airport and texts her host, Beatriz. Text messages are spoken Portuguese written down: \"tô\" for \"estou\", \"pra\" for \"para\", and you'll often see \"vc\" for \"você\" and \"blz\" for \"beleza\" (OK). Recognise them; write them only to friends.",
+          "Emily, a nurse from Leeds, lands at Galeão airport and texts her host, Beatriz. Text messages are spoken Portuguese written down: \"tô\" for \"estou\", \"pra\" for \"para\", and you'll often see \"vc\" for \"você\" and \"blz\" for \"beleza\" (OK). Recognize them; write them only to friends.",
           "Next she buys a prepaid SIM, which Brazilians call \"um chip\". The polite opener is \"eu queria\", and the clerk tells her what she needs with \"precisa\" + infinitive.",
         ],
         examples: [
@@ -49,7 +49,7 @@ export const PT_A2_U22: Lesson[] = [
         heading: "To Botafogo and the kilo restaurant",
         body: [
           "Emily orders a car on a ride app (\"pedi um carro pelo aplicativo\"). The driver checks: \"você é a Emily?\". The ride goes along the coast to Botafogo, and she tells Beatriz what it was like with the imperfeito: \"o trânsito estava parado\".",
-          "For lunch, a \"restaurante a quilo\": you serve yourself, the plate is weighed and you pay for the weight. Useful phrases: \"é por quilo?\", \"quanto é o quilo?\", \"pode pesar, por favor?\", and at the till, \"pode ser no cartão?\".",
+          "For lunch, a \"restaurante a quilo\": you serve yourself, the plate is weighed and you pay for the weight. Useful phrases: \"é por quilo?\", \"quanto é o quilo?\", \"pode pesar, por favor?\", and at the register, \"pode ser no cartão?\".",
         ],
         examples: [
           { es: "Pedi um carro pelo aplicativo e ele chegou em cinco minutos.", en: "I ordered a car on the app and it arrived in five minutes." },
@@ -89,13 +89,13 @@ export const PT_A2_U22: Lesson[] = [
       {
         heading: "Selarón steps and Copacabana",
         body: [
-          "In the afternoon Emily walks to the Escadaria Selarón, the tiled staircase in Lapa. A man gives directions with everyday commands: \"segue reto\" (go straight on), \"vira à esquerda\" (turn left), \"é pertinho\" (it's really close). The standard forms \"siga\" and \"vire\" appear on signs and from polite strangers.",
+          "In the afternoon Emily walks to the Escadaria Selarón, the tiled staircase in Lapa. A man gives directions with everyday commands: \"segue reto\" (go straight ahead), \"vira à esquerda\" (turn left), \"é pertinho\" (it's really close). The standard forms \"siga\" and \"vire\" appear on signs and from polite strangers.",
           "At sunset she's on Copacabana's \"calçadão\" (the wavy promenade), drinking \"água de coco\". Exclamations with \"que\" carry the mood: \"que vista!\", \"que lindo!\".",
         ],
         examples: [
-          { es: "Segue reto e vira à esquerda na segunda rua.", en: "Go straight on and turn left at the second street." },
+          { es: "Segue reto e vira à esquerda na segunda rua.", en: "Go straight ahead and turn left at the second street." },
           { es: "A escadaria fica no fim dessa rua. É pertinho!", en: "The staircase is at the end of this street. It's really close!" },
-          { es: "A escadaria tem mais de duzentos degraus coloridos.", en: "The staircase has more than two hundred colourful steps." },
+          { es: "A escadaria tem mais de duzentos degraus coloridos.", en: "The staircase has more than two hundred colorful steps." },
           { es: "Me vê uma água de coco, por favor.", en: "Can I get a coconut water, please?" },
           { es: "Que pôr do sol lindo!", en: "What a beautiful sunset!" },
         ],
@@ -104,7 +104,7 @@ export const PT_A2_U22: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Go straight on and turn right.",
+            source: "Go straight ahead and turn right.",
             answer: "Segue reto e vira à direita.",
             altAnswers: ["Siga reto e vire à direita.", "Siga em frente e vire à direita.", "Segue em frente e vira à direita.", "Vai reto e vira à direita."],
             explanation: "Everyday commands: \"segue\", \"vira\"; standard: \"siga\", \"vire\". To the right is \"à direita\", with the crasis accent.",
@@ -112,7 +112,7 @@ export const PT_A2_U22: Lesson[] = [
           {
             type: "speak",
             text: "Que pôr do sol lindo!",
-            tip: "\"Pôr\" has a closed ô; the final r is soft or almost silent in Rio.",
+            tip: "\"Pôr\" has a closed ô; in Rio its r sounds like a light h before \"do\".",
             explanation: "\"Que\" + noun + adjective makes an exclamation: what a beautiful sunset!",
           },
         ],
@@ -175,7 +175,7 @@ export const PT_A2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "At the till, Emily wants to pay by card. What does she say?",
+        question: "At the register, Emily wants to pay by card. What does she say?",
         options: ["Pode ser no cartão?", "Pode ser pelo cartão de você?", "Eu paguei cartão?", "Cartão é para mim?"],
         correctIndex: 0,
         explanation: "\"Pode ser no cartão?\" is the everyday way to ask.",
@@ -183,7 +183,7 @@ export const PT_A2_U22: Lesson[] = [
       {
         type: "multiple-choice",
         question: "A passer-by says: Vira à esquerda e segue reto até a praia. What should Emily do?",
-        options: ["Turn left and go straight on to the beach.", "Turn right and walk along the beach.", "Go back and turn left at the beach.", "Wait at the corner for the beach bus."],
+        options: ["Turn left and go straight ahead to the beach.", "Turn right and walk along the beach.", "Go back and turn left at the beach.", "Wait at the corner for the beach bus."],
         correctIndex: 0,
         explanation: "\"Esquerda\" is left, \"direita\" is right; \"até\" means as far as.",
       },
@@ -211,7 +211,7 @@ export const PT_A2_U22: Lesson[] = [
       {
         type: "speak",
         text: "Eu queria um chip pré-pago, por favor.",
-        prompt: "Say it in Portuguese at the phone shop: I'd like a prepaid SIM card, please.",
+        prompt: "Say it in Portuguese at the phone store: I'd like a prepaid SIM card, please.",
         tip: "\"Chip\" is said \"shipi\" in Brazil, with a little extra vowel.",
         explanation: "\"Eu queria\" is the polite I'd like.",
       },
@@ -248,7 +248,7 @@ export const PT_A2_U22: Lesson[] = [
             source: "We were going to go to the beach, but it rained.",
             answer: "A gente ia à praia, mas choveu.",
             altAnswers: ["A gente ia para a praia, mas choveu.", "Nós íamos à praia, mas choveu.", "Íamos à praia, mas choveu.", "A gente ia pra praia, mas choveu.", "A gente ia ir à praia, mas choveu.", "Nós íamos para a praia, mas choveu.", "Íamos para a praia, mas choveu."],
-            explanation: "A plan that didn't happen: \"ia\" + destination or infinitive. \"Choveu\" is the event that cancelled it.",
+            explanation: "A plan that didn't happen: \"ia\" + destination or infinitive. \"Choveu\" is the event that canceled it.",
           },
           {
             type: "multiple-choice",
@@ -263,7 +263,7 @@ export const PT_A2_U22: Lesson[] = [
         heading: "A sore throat and the pharmacy",
         body: [
           "On Thursday Emily wakes up with a sore throat: \"acordei com dor de garganta\". At the pharmacy she explains with \"estou com\" and \"desde ontem\", and the pharmacist gives instructions with standard commands: \"tome um comprimido de oito em oito horas\" (every eight hours), \"beba bastante água\".",
-          "Advice uses \"é melhor\" + infinitive or \"deve\" + infinitive: \"é melhor descansar hoje\". If it gets worse, Brazilians say \"se piorar, procure um médico\"; recognise \"se piorar\" as a fixed chunk.",
+          "Advice uses \"é melhor\" + infinitive or \"deve\" + infinitive: \"é melhor descansar hoje\". If it gets worse, Brazilians say \"se piorar, procure um médico\"; recognize \"se piorar\" as a fixed chunk.",
         ],
         examples: [
           { es: "Acordei com dor de garganta e um pouco de febre.", en: "I woke up with a sore throat and a bit of a fever." },
@@ -597,7 +597,7 @@ export const PT_A2_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I met my neighbour yesterday.",
+        source: "I met my neighbor yesterday.",
         answer: "Eu conheci o meu vizinho ontem.",
         altAnswers: ["Conheci o meu vizinho ontem.", "Eu conheci meu vizinho ontem.", "Conheci meu vizinho ontem.", "Eu conheci a minha vizinha ontem.", "Conheci minha vizinha ontem.", "Ontem eu conheci o meu vizinho."],
         explanation: "Met for the first time: \"conheci\".",
@@ -706,8 +706,8 @@ export const PT_A2_U22: Lesson[] = [
         ],
         examples: [
           { es: "Você quer jantar comigo hoje?", en: "Do you want to have dinner with me tonight?" },
-          { es: "Para mim, o melhor bairro é Santa Teresa.", en: "For me, the best neighbourhood is Santa Teresa." },
-          { es: "Ela trabalha para pagar a faculdade.", en: "She works to pay for university." },
+          { es: "Para mim, o melhor bairro é Santa Teresa.", en: "For me, the best neighborhood is Santa Teresa." },
+          { es: "Ela trabalha para pagar a faculdade.", en: "She works to pay for college." },
           { es: "Troquei a camisa por uma maior.", en: "I exchanged the shirt for a bigger one." },
           { es: "O relatório é para sexta-feira.", en: "The report is due on Friday." },
         ],
@@ -881,12 +881,12 @@ export const PT_A2_U22: Lesson[] = [
       {
         heading: "Round 1: the future",
         body: [
-          "Speech: \"vou\" + infinitive (\"vou viajar\", \"vai chover\"). Writing and formal speech: the futuro, with endings on the whole infinitive (\"viajarei\", \"viajará\", \"viajaremos\", \"viajarão\") and three short stems: \"farei\", \"direi\", \"trarei\". Timetables use the present: \"o trem sai às oito\".",
+          "Speech: \"vou\" + infinitive (\"vou viajar\", \"vai chover\"). Writing and formal speech: the futuro, with endings on the whole infinitive (\"viajarei\", \"viajará\", \"viajaremos\", \"viajarão\") and three short stems: \"farei\", \"direi\", \"trarei\". Schedules use the present: \"o trem sai às oito\".",
           "Time words: \"amanhã\", \"depois de amanhã\", \"semana que vem\", \"daqui a dois dias\" (in two days' time). For a guess: \"acho que vai...\".",
         ],
         examples: [
           { es: "Depois de amanhã eu vou começar num emprego novo.", en: "The day after tomorrow I'm starting a new job." },
-          { es: "Acho que vai fazer calor no fim de semana.", en: "I think it's going to be hot at the weekend." },
+          { es: "Acho que vai fazer calor no fim de semana.", en: "I think it's going to be hot on the weekend." },
           { es: "O presidente fará um discurso amanhã.", en: "The president will give a speech tomorrow." },
           { es: "Daqui a dois dias a gente vai para Ouro Preto.", en: "In two days we're going to Ouro Preto." },
           { es: "O ônibus sai às sete e meia.", en: "The bus leaves at half past seven." },
@@ -1052,7 +1052,7 @@ export const PT_A2_U22: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The film was [very, very boring].",
+        en: "The movie was [very, very boring].",
         sentence: "O filme foi ___.",
         answer: "chatíssimo",
         altAnswers: ["muito chato", "muito, muito chato"],
@@ -1104,9 +1104,9 @@ export const PT_A2_U22: Lesson[] = [
         ],
         examples: [
           { es: "Proibido estacionar. Garagem.", en: "No parking. Garage entrance." },
-          { es: "Aluga-se. Tratar no local.", en: "For rent. Enquire on site." },
+          { es: "Aluga-se. Tratar no local.", en: "For rent. Inquire on site." },
           { es: "Favor não fumar.", en: "Please do not smoke." },
-          { es: "Elevador não funciona. Use a escada.", en: "Lift out of order. Use the stairs." },
+          { es: "Elevador não funciona. Use a escada.", en: "Elevator out of order. Use the stairs." },
           { es: "Horário de funcionamento: de segunda a sexta, das 8h às 18h.", en: "Opening hours: Monday to Friday, 8 am to 6 pm." },
         ],
         checkpoint: [
@@ -1162,7 +1162,7 @@ export const PT_A2_U22: Lesson[] = [
             type: "listen-choose",
             audio: "A reunião de amanhã mudou para as três.",
             question: "What changed?",
-            options: ["The time of tomorrow's meeting.", "The place of tomorrow's meeting.", "The day of the meeting.", "The meeting was cancelled."],
+            options: ["The time of tomorrow's meeting.", "The place of tomorrow's meeting.", "The day of the meeting.", "The meeting was canceled."],
             correctIndex: 0,
             explanation: "\"Mudou para as três\": it moved to three o'clock.",
           },
@@ -1172,19 +1172,19 @@ export const PT_A2_U22: Lesson[] = [
         heading: "A short article",
         body: [
           "Articles use the written register: \"nós\", the passive \"foi inaugurada\" (was opened), and the written future. Read the title and first sentence for the topic, then look for numbers and comparisons.",
-          "The article: \"Cada vez mais paulistanos usam a bicicleta para ir ao trabalho. Há dez anos, a cidade tinha menos de cem quilômetros de ciclovias; hoje tem mais de setecentos. A prefeitura construirá mais duzentos quilômetros até 2028.\"",
+          "The article: \"Cada vez mais paulistanos usam a bicicleta para ir ao trabalho. Há quinze anos, a cidade tinha menos de cem quilômetros de ciclovias; hoje tem mais de setecentos. A prefeitura construirá mais duzentos quilômetros até 2028.\"",
         ],
         examples: [
           { es: "Cada vez mais paulistanos usam a bicicleta para ir ao trabalho.", en: "More and more people in São Paulo cycle to work." },
-          { es: "Há dez anos, a cidade tinha menos de cem quilômetros de ciclovias.", en: "Ten years ago, the city had less than a hundred kilometres of bike lanes." },
+          { es: "Há quinze anos, a cidade tinha menos de cem quilômetros de ciclovias.", en: "Fifteen years ago, the city had fewer than a hundred kilometers of bike lanes." },
           { es: "Hoje tem mais de setecentos.", en: "Today it has more than seven hundred." },
-          { es: "A prefeitura construirá mais duzentos quilômetros até 2028.", en: "The city council will build another two hundred kilometres by 2028." },
+          { es: "A prefeitura construirá mais duzentos quilômetros até 2028.", en: "The city government will build another two hundred kilometers by 2028." },
           { es: "Para muitos, a bicicleta é mais rápida do que o ônibus.", en: "For many, the bike is faster than the bus." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "According to the article, how many kilometres of bike lanes does São Paulo have today?",
+            question: "According to the article, how many kilometers of bike lanes does São Paulo have today?",
             options: ["More than 700.", "Less than 100.", "200.", "2028."],
             correctIndex: 0,
             explanation: "\"Hoje tem mais de setecentos\": today, more than seven hundred.",
@@ -1250,10 +1250,10 @@ export const PT_A2_U22: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[Ten years ago], the city had few bike lanes.",
+        en: "[Fifteen years ago], the city had few bike lanes.",
         sentence: "___, a cidade tinha poucas ciclovias.",
-        answer: "Há dez anos",
-        altAnswers: ["Faz dez anos"],
+        answer: "Há quinze anos",
+        altAnswers: ["Faz quinze anos"],
         explanation: "Ago: \"há\" + time.",
       },
       {
@@ -1269,7 +1269,7 @@ export const PT_A2_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Tomorrow's trip was cancelled because of the rain.",
+        source: "Tomorrow's trip was canceled because of the rain.",
         answer: "O passeio de amanhã foi cancelado por causa da chuva.",
         altAnswers: ["O passeio de amanhã foi cancelado devido à chuva.", "A viagem de amanhã foi cancelada por causa da chuva.", "Cancelaram o passeio de amanhã por causa da chuva."],
         explanation: "\"Por causa de\" + noun gives the reason; de + a = \"da\". A day trip is \"um passeio\".",
@@ -1277,7 +1277,7 @@ export const PT_A2_U22: Lesson[] = [
       {
         type: "multiple-choice",
         question: "What does the article say will happen by 2028?",
-        options: ["The city will build 200 more kilometres of bike lanes.", "Bikes will be banned.", "Buses will be faster than bikes.", "The city will have 100 km of bike lanes."],
+        options: ["The city will build 200 more kilometers of bike lanes.", "Bikes will be banned.", "Buses will be faster than bikes.", "The city will have 100 km of bike lanes."],
         correctIndex: 0,
         explanation: "\"Construirá\" is the written future of \"construir\": will build.",
       },
@@ -1286,7 +1286,7 @@ export const PT_A2_U22: Lesson[] = [
         prompt: "Put the words in order to say: The apartment has two bedrooms and a parking space.",
         words: ["O", "apartamento", "tem", "dois", "quartos", "e", "uma", "vaga."],
         translation: "The apartment has two bedrooms and a parking space.",
-        explanation: "\"Vaga\" is the parking space that comes with a flat.",
+        explanation: "\"Vaga\" is the parking space that comes with an apartment.",
       },
       {
         type: "dictation",
@@ -1395,7 +1395,7 @@ export const PT_A2_U22: Lesson[] = [
         examples: [
           { es: "Deu quarenta e cinco e noventa.", en: "That comes to R$ 45.90." },
           { es: "A camisa está com vinte por cento de desconto.", en: "The shirt has twenty percent off." },
-          { es: "A consulta é na quinta, às nove e quinze, com a doutora Helena.", en: "The appointment is on Thursday at 9:15 with Dr Helena." },
+          { es: "A consulta é na quinta, às nove e quinze, com a doutora Helena.", en: "The appointment is on Thursday at 9:15 with Dr. Helena." },
           { es: "Tome o remédio antes das refeições.", en: "Take the medicine before meals." },
           { es: "Volte daqui a uma semana.", en: "Come back in a week." },
         ],
@@ -1532,12 +1532,12 @@ export const PT_A2_U22: Lesson[] = [
       {
         heading: "The short message (30-50 words)",
         body: [
-          "Exam tasks name a reader and a purpose: thank, invite, apologise, change a plan. Answer every point in the task; a short text that covers all of them scores better than a long one that misses one.",
+          "Exam tasks name a reader and a purpose: thank, invite, apologize, change a plan. Answer every point in the task; a short text that covers all of them scores better than a long one that misses one.",
           "A friendly message has four moves: greeting (\"Oi, Lucas!\"), the reason (\"é que...\"), the detail (when, where) and a request or closing (\"me avisa\", \"beijos\", \"abraço\"). Write in the speech register: \"a gente\", \"pra\", \"te\", the everyday command.",
         ],
         examples: [
           { es: "Oi, Lucas! Tudo bem?", en: "Hi, Lucas! How are you?" },
-          { es: "Desculpa, mas não vou poder ir ao cinema hoje.", en: "Sorry, but I won't be able to go to the cinema today." },
+          { es: "Desculpa, mas não vou poder ir ao cinema hoje.", en: "Sorry, but I won't be able to go to the movies today." },
           { es: "É que eu fiquei doente e estou com febre.", en: "The thing is I got sick and I have a fever." },
           { es: "Que tal no sábado, às sete?", en: "How about Saturday at seven?" },
           { es: "Me avisa! Abraço, Kate.", en: "Let me know! Hugs, Kate." },
@@ -1579,7 +1579,7 @@ export const PT_A2_U22: Lesson[] = [
       {
         heading: "The email (80-100 words)",
         body: [
-          "An email to a landlord or host family is semi-formal: \"Prezada Dona Lúcia\" or \"Olá, Dona Lúcia\", \"a senhora\", \"nós\", \"para\", standard commands. Organise it: who you are and why you're writing, the details, your questions, a polite closing.",
+          "An email to a landlord or host family is semi-formal: \"Prezada Dona Lúcia\" or \"Olá, Dona Lúcia\", \"a senhora\", \"nós\", \"para\", standard commands. Organize it: who you are and why you're writing, the details, your questions, a polite closing.",
           "Questions sound polite with \"gostaria de saber se...\" (I'd like to know whether) or \"a senhora poderia...?\". Close with \"Muito obrigada pela atenção\" and \"Atenciosamente\" or, warmer, \"Um abraço\".",
         ],
         examples: [
@@ -1618,7 +1618,7 @@ export const PT_A2_U22: Lesson[] = [
         ],
         examples: [
           { es: "No ano passado eu fui a Lisboa, mas estava muito frio.", en: "Last year I went to Lisbon, but it was very cold." },
-          { es: "Esta vez vou ficar três semanas.", en: "This time I'm going to stay three weeks." },
+          { es: "Desta vez vou ficar três semanas.", en: "This time I'm going to stay three weeks." },
           { es: "Estudo português há dois anos, então entendo bastante.", en: "I've been studying Portuguese for two years, so I understand quite a lot." },
           { es: "Quero conhecer a cidade onde a senhora nasceu.", en: "I want to see the city where you were born." },
           { es: "Não como carne, mas como peixe.", en: "I don't eat meat, but I eat fish." },
@@ -1774,7 +1774,7 @@ export const PT_A2_U22: Lesson[] = [
           { es: "Prezados moradores, informamos que a água será cortada na terça-feira, das 8h às 17h.", en: "Dear residents, we inform you that the water will be cut off on Tuesday from 8 am to 5 pm." },
           { es: "O corte é necessário para a manutenção da caixa-d'água.", en: "The cut is necessary for maintenance of the water tank." },
           { es: "A piscina ficará fechada durante todo o mês de março.", en: "The pool will be closed for the whole of March." },
-          { es: "Lembramos que é proibido deixar lixo no corredor.", en: "We remind you that leaving rubbish in the corridor is forbidden." },
+          { es: "Lembramos que é proibido deixar lixo no corredor.", en: "We remind you that leaving trash in the corridor is forbidden." },
           { es: "A taxa de condomínio terá um aumento de 8% a partir de abril.", en: "The building fee will go up by 8% from April." },
         ],
         checkpoint: [
@@ -1804,7 +1804,7 @@ export const PT_A2_U22: Lesson[] = [
         ],
         examples: [
           { es: "Gostaria de saber se a água vai voltar antes das cinco.", en: "I'd like to know whether the water will come back before five." },
-          { es: "O elevador está quebrado há duas semanas.", en: "The lift has been broken for two weeks." },
+          { es: "O elevador está quebrado há duas semanas.", en: "The elevator has been broken for two weeks." },
           { es: "Já reclamei duas vezes, mas ninguém consertou.", en: "I've already complained twice, but nobody fixed it." },
           { es: "Acho que o aumento de 8% é alto demais.", en: "I think the 8% increase is too high." },
           { es: "O senhor poderia mandar alguém esta semana?", en: "Could you send someone this week?" },
@@ -1814,7 +1814,7 @@ export const PT_A2_U22: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The lift has been broken for a week.",
+            source: "The elevator has been broken for a week.",
             answer: "O elevador está quebrado há uma semana.",
             altAnswers: ["O elevador está quebrado faz uma semana.", "Faz uma semana que o elevador está quebrado.", "Há uma semana o elevador está quebrado.", "O elevador está com defeito há uma semana."],
             explanation: "Still broken now: present + \"há\".",
@@ -1841,13 +1841,13 @@ export const PT_A2_U22: Lesson[] = [
       {
         heading: "Write it in the right register",
         body: [
-          "The reader is the síndico, so: \"Prezado senhor Carlos\" or \"Bom dia, seu Carlos\", \"o senhor\", \"nós\" for the residents, \"para\" not \"pra\", and a closing with \"Atenciosamente\" plus your flat number (\"apartamento 302\").",
+          "The reader is the síndico, so: \"Prezado senhor Carlos\" or \"Bom dia, seu Carlos\", \"o senhor\", \"nós\" for the residents, \"para\" not \"pra\", and a closing with \"Atenciosamente\" plus your apartment number (\"apartamento 302\").",
           "Join the parts with connectors: \"além disso\" (also, in addition), \"mas\", \"por isso\". A good A2 reply is 60-80 words and answers all three points.",
         ],
         examples: [
-          { es: "Prezado senhor Carlos,", en: "Dear Mr Carlos," },
+          { es: "Prezado senhor Carlos,", en: "Dear Mr. Carlos," },
           { es: "Recebi o comunicado sobre o corte de água.", en: "I received the notice about the water cut." },
-          { es: "Além disso, o elevador está quebrado há duas semanas.", en: "In addition, the lift has been broken for two weeks." },
+          { es: "Além disso, o elevador está quebrado há duas semanas.", en: "In addition, the elevator has been broken for two weeks." },
           { es: "Por isso, muitos moradores estão usando a escada.", en: "So a lot of residents are using the stairs." },
           { es: "Atenciosamente, Laura Smith, apartamento 302", en: "Kind regards, Laura Smith, apartment 302" },
         ],
@@ -1901,7 +1901,7 @@ export const PT_A2_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, for the reply.",
-        source: "Could you send someone to fix the lift?",
+        source: "Could you send someone to fix the elevator?",
         answer: "O senhor poderia mandar alguém para consertar o elevador?",
         altAnswers: ["O senhor poderia mandar alguém consertar o elevador?", "O senhor pode mandar alguém para consertar o elevador?", "Poderia mandar alguém para consertar o elevador?", "A senhora poderia mandar alguém para consertar o elevador?"],
         explanation: "\"Poderia\" + infinitive, with \"para\" + infinitive for the purpose.",
@@ -1926,7 +1926,7 @@ export const PT_A2_U22: Lesson[] = [
       {
         type: "multiple-choice",
         question: "The notice says: Lembramos que é proibido deixar lixo no corredor. What does it remind residents of?",
-        options: ["Rubbish must not be left in the corridor.", "Rubbish is collected in the corridor.", "The corridor will be cleaned.", "Residents must remember their keys."],
+        options: ["Trash must not be left in the corridor.", "Trash is collected in the corridor.", "The corridor will be cleaned.", "Residents must remember their keys."],
         correctIndex: 0,
         explanation: "\"É proibido\" + infinitive: it is forbidden to...",
       },
@@ -1940,7 +1940,7 @@ export const PT_A2_U22: Lesson[] = [
       {
         type: "dictation",
         audio: "Atenciosamente, apartamento trezentos e dois.",
-        explanation: "Residents sign with their flat number: \"trezentos e dois\" is 302.",
+        explanation: "Residents sign with their apartment number: \"trezentos e dois\" is 302.",
       },
       {
         type: "write",
@@ -1948,7 +1948,7 @@ export const PT_A2_U22: Lesson[] = [
         minWords: 60,
         maxWords: 90,
         rubric: [
-          "Open and close formally (\"Prezado senhor Carlos\", \"Atenciosamente\", your flat number).",
+          "Open and close formally (\"Prezado senhor Carlos\", \"Atenciosamente\", your apartment number).",
           "Ask a question using information from the notice (\"Gostaria de saber se...\").",
           "Complain with \"há\" + time or a perfeito (\"está quebrado há...\", \"ninguém consertou\").",
           "Make a polite request with \"o senhor poderia...?\" and join the parts with \"além disso\" or \"por isso\".",
@@ -1959,7 +1959,7 @@ export const PT_A2_U22: Lesson[] = [
       {
         type: "speak",
         text: "O elevador está quebrado há duas semanas e ninguém consertou.",
-        prompt: "Say it in Portuguese: The lift has been broken for two weeks and nobody has fixed it.",
+        prompt: "Say it in Portuguese: The elevator has been broken for two weeks and nobody has fixed it.",
         tip: "\"Elevador\": e-le-va-DOR, with a soft final r.",
         explanation: "Present + \"há\" for the ongoing problem; perfeito for what nobody did.",
       },
@@ -2018,7 +2018,7 @@ export const PT_A2_U22: Lesson[] = [
           { es: "À esquerda, uma moça está vendendo frutas.", en: "On the left, a young woman is selling fruit." },
           { es: "No fundo dá para ver umas montanhas.", en: "In the background you can see some mountains." },
           { es: "Parece que está fazendo muito calor.", en: "It looks like it's very hot." },
-          { es: "Isso me lembra a feira do meu bairro.", en: "This reminds me of the market in my neighbourhood." },
+          { es: "Isso me lembra a feira do meu bairro.", en: "This reminds me of the market in my neighborhood." },
         ],
         checkpoint: [
           {
@@ -2057,7 +2057,7 @@ export const PT_A2_U22: Lesson[] = [
         examples: [
           { es: "Durante a semana eu me levanto às sete e vou de bicicleta para o trabalho.", en: "During the week I get up at seven and cycle to work." },
           { es: "No fim de semana passado eu fui a um casamento. Estava chovendo, mas foi ótimo.", en: "Last weekend I went to a wedding. It was raining, but it was great." },
-          { es: "Que tal a gente ir ao cinema no sábado? Pode ser?", en: "How about going to the cinema on Saturday? Does that work?" },
+          { es: "Que tal a gente ir ao cinema no sábado? Pode ser?", en: "How about going to the movies on Saturday? Does that work?" },
           { es: "Deixa eu pensar... Acho que domingo é melhor.", en: "Let me think... I think Sunday is better." },
           { es: "Como se diz... não sei a palavra, mas é uma coisa que a gente usa na chuva.", en: "How do you say... I don't know the word, but it's something you use in the rain." },
         ],
@@ -2147,11 +2147,11 @@ export const PT_A2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In the exam, you forget the word for 'tap'. What's the best thing to say?",
+        question: "In the exam, you forget the word for 'faucet'. What's the best thing to say?",
         options: [
           "Não sei a palavra, mas é uma coisa que tem na cozinha para a água.",
           "Sorry, I don't know.",
-          "Tap?",
+          "Faucet?",
           "Eu não sei nada.",
         ],
         correctIndex: 0,
@@ -2169,10 +2169,10 @@ export const PT_A2_U22: Lesson[] = [
         audio: "Isso me lembra as férias que eu passei na Bahia.",
         question: "What does the speaker say?",
         options: [
-          "This reminds me of the holiday I spent in Bahia.",
-          "I remember that I'm going to Bahia on holiday.",
-          "I spent my holidays reminding people about Bahia.",
-          "This holiday was better than Bahia.",
+          "This reminds me of the vacation I spent in Bahia.",
+          "I remember that I'm going to Bahia on vacation.",
+          "I spent my vacations reminding people about Bahia.",
+          "This vacation was better than Bahia.",
         ],
         correctIndex: 0,
         explanation: "\"Isso me lembra\" is this reminds me of; \"que eu passei\" joins with a relative.",
@@ -2187,7 +2187,7 @@ export const PT_A2_U22: Lesson[] = [
       {
         type: "speak",
         text: "Que tal a gente ir ao cinema no sábado? Pode ser?",
-        prompt: "Suggest a plan to a friend: going to the cinema on Saturday.",
+        prompt: "Suggest a plan to a friend: going to the movies on Saturday.",
         tip: "Let your voice rise on \"pode ser?\".",
         explanation: "\"Que tal\" + infinitive and \"pode ser?\" check if the plan works.",
       },
@@ -2286,7 +2286,7 @@ export const PT_A2_U22: Lesson[] = [
         ],
         examples: [
           { es: "Moro em Belo Horizonte há dois anos.", en: "I've lived in Belo Horizonte for two years." },
-          { es: "Cheguei em Belo Horizonte há dois anos.", en: "I arrived in Belo Horizonte two years ago." },
+          { es: "Cheguei a Belo Horizonte há dois anos.", en: "I arrived in Belo Horizonte two years ago." },
           { es: "Ela ficou muito feliz com o presente.", en: "She was really happy with the present." },
           { es: "A pessoa com quem eu mais falo é a minha irmã.", en: "The person I talk to most is my sister." },
           { es: "Não tem nada melhor do que um cafezinho.", en: "There's nothing better than a little coffee." },
@@ -2433,7 +2433,7 @@ export const PT_A2_U22: Lesson[] = [
         ],
         examples: [
           { es: "Oi, gente! A semana passada foi bem corrida.", en: "Hi, guys! Last week was really hectic." },
-          { es: "Na segunda eu tive uma entrevista numa empresa que fica no centro.", en: "On Monday I had an interview at a company that's in the city centre." },
+          { es: "Na segunda eu tive uma entrevista numa empresa que fica no centro.", en: "On Monday I had an interview at a company that's in the city center." },
           { es: "Eu estava muito nervoso, mas a entrevista foi ótima.", en: "I was very nervous, but the interview went really well." },
           { es: "Ontem me ligaram e disseram que eu consegui o emprego!", en: "Yesterday they called me and said I got the job!" },
           { es: "Vou começar no dia primeiro, e o salário é melhor do que o do meu emprego atual.", en: "I'm starting on the first, and the salary is better than at my current job." },
@@ -2504,7 +2504,7 @@ export const PT_A2_U22: Lesson[] = [
           "Three short texts: a notice, a message and an article. Read the question first, then find the line that answers it. The notice: \"Academia fechada para reforma de 10 a 20 de julho. Os alunos podem usar a unidade da Rua Augusta.\" The message: \"Carol, o show começa às nove, mas a gente vai se encontrar às oito na frente do bar.\" The article: \"O açaí, que antes era comido só no Norte, hoje é popular no Brasil inteiro.\"",
         ],
         examples: [
-          { es: "Academia fechada para reforma de 10 a 20 de julho.", en: "Gym closed for renovation from 10 to 20 July." },
+          { es: "Academia fechada para reforma de 10 a 20 de julho.", en: "Gym closed for renovation from July 10 to 20." },
           { es: "Os alunos podem usar a unidade da Rua Augusta.", en: "Members can use the branch on Rua Augusta." },
           { es: "O show começa às nove, mas a gente vai se encontrar às oito na frente do bar.", en: "The show starts at nine, but we're going to meet at eight in front of the bar." },
           { es: "O açaí, que antes era comido só no Norte, hoje é popular no Brasil inteiro.", en: "Açaí, which used to be eaten only in the North, is now popular all over Brazil." },
@@ -2528,7 +2528,7 @@ export const PT_A2_U22: Lesson[] = [
             type: "listen-choose",
             audio: "Academia fechada para reforma de dez a vinte de julho.",
             question: "What does the notice say?",
-            options: ["The gym is closed from 10 to 20 July.", "The gym opens on 10 July.", "The gym is closed on 20 June.", "The gym is open from 10 to 20 July."],
+            options: ["The gym is closed from July 10 to 20.", "The gym opens on July 10.", "The gym is closed on June 20.", "The gym is open from July 10 to 20."],
             correctIndex: 0,
             explanation: "\"De dez a vinte de julho\" gives the range of days.",
           },
@@ -2647,14 +2647,14 @@ export const PT_A2_U22: Lesson[] = [
       {
         heading: "Part 4: listening",
         body: [
-          "Listen to each item once or twice, as in the exam. Read the options before you play the audio, and listen for the key facts: who, when, how much, where.",
+          "Listen to each item once or twice, as on the exam. Read the options before you play the audio, and listen for the key facts: who, when, how much, where.",
           "The two dialogues below are the kind you'll hear: a patient booking an appointment and a customer at a shoe shop.",
         ],
         examples: [
-          { es: "Bom dia. Eu queria marcar uma consulta com o doutor Paulo.", en: "Good morning. I'd like to book an appointment with Dr Paulo." },
+          { es: "Bom dia. Eu queria marcar uma consulta com o doutor Paulo.", en: "Good morning. I'd like to book an appointment with Dr. Paulo." },
           { es: "Ele só tem horário na quarta, às quatro e meia. Pode ser?", en: "He only has a slot on Wednesday at half past four. Is that OK?" },
           { es: "Pode, sim. Obrigada.", en: "Yes, that's fine. Thank you. (a woman speaking)" },
-          { es: "Esse tênis tem no número quarenta?", en: "Do you have these trainers in size forty?" },
+          { es: "Esse tênis tem no número quarenta?", en: "Do you have these sneakers in size forty?" },
           { es: "Tem, mas só na cor preta. Custa trezentos e dez reais.", en: "Yes, but only in black. They cost three hundred and ten reais." },
         ],
         checkpoint: [
@@ -2669,7 +2669,7 @@ export const PT_A2_U22: Lesson[] = [
           {
             type: "listen-choose",
             audio: "Tem, mas só na cor preta. Custa trezentos e dez reais.",
-            question: "How much are the trainers?",
+            question: "How much are the sneakers?",
             options: ["R$ 310", "R$ 300", "R$ 210", "R$ 313"],
             correctIndex: 0,
             explanation: "\"Trezentos e dez\" is 310.",
@@ -2688,14 +2688,14 @@ export const PT_A2_U22: Lesson[] = [
       {
         heading: "Part 5: writing",
         body: [
-          "Two tasks, as in the exam. First a message of 30-50 words to a friend; then, in the final part, an email of 80-100 words. For each, check the reader (friend or official?), the purpose and every point the task asks for.",
+          "Two tasks, as on the exam. First a message of 30-50 words to a friend; then, in the final part, an email of 80-100 words. For each, check the reader (friend or official?), the purpose and every point the task asks for.",
           "Before you start, jot down the structures you'll show: a past event, a description, a plan, a comparison, a relative, connectors, a polite request.",
         ],
         examples: [
           { es: "Oi, Pedro! Obrigado pelo convite.", en: "Hi, Pedro! Thanks for the invitation." },
-          { es: "Infelizmente não vou poder ir, porque vou viajar no fim de semana.", en: "Unfortunately I won't be able to go, because I'm travelling at the weekend." },
+          { es: "Infelizmente não vou poder ir, porque vou viajar no fim de semana.", en: "Unfortunately I won't be able to go, because I'm traveling on the weekend." },
           { es: "Que tal um almoço na semana que vem?", en: "How about lunch next week?" },
-          { es: "Prezado senhor Mendes, escrevo para confirmar a minha reserva.", en: "Dear Mr Mendes, I'm writing to confirm my booking." },
+          { es: "Prezado senhor Mendes, escrevo para confirmar a minha reserva.", en: "Dear Mr. Mendes, I'm writing to confirm my booking." },
           { es: "Gostaria de saber se o café da manhã está incluído.", en: "I'd like to know whether breakfast is included." },
         ],
         checkpoint: [
@@ -2738,7 +2738,7 @@ export const PT_A2_U22: Lesson[] = [
         ],
         examples: [
           { es: "Eu moro em Manchester há quatro anos e trabalho num banco.", en: "I've lived in Manchester for four years and I work in a bank." },
-          { es: "Quando eu era criança, eu passava as férias na casa dos meus avós.", en: "When I was a child, I spent my holidays at my grandparents' house." },
+          { es: "Quando eu era criança, eu passava as férias na casa dos meus avós.", en: "When I was a child, I spent my vacations at my grandparents' house." },
           { es: "No sábado passado eu fui a um show. Estava lotado, mas foi incrível.", en: "Last Saturday I went to a concert. It was packed, but it was amazing." },
           { es: "Ano que vem eu vou fazer um curso de português em Salvador.", en: "Next year I'm going to do a Portuguese course in Salvador." },
         ],
@@ -2840,7 +2840,7 @@ export const PT_A2_U22: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write an email (80-100 words) to Mr Mendes, the owner of a guesthouse in Paraty. Confirm your booking for three nights, say when you'll arrive, tell him briefly about a previous trip to Brazil, and ask two questions.",
+        prompt: "Write an email (80-100 words) to Mr. Mendes, the owner of a guesthouse in Paraty. Confirm your booking for three nights, say when you'll arrive, tell him briefly about a previous trip to Brazil, and ask two questions.",
         minWords: 80,
         maxWords: 100,
         rubric: [

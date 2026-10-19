@@ -17,11 +17,11 @@ export const PT_A1_U08: Lesson[] = [
         heading: "Gosto de: you like 'of' something",
         body: [
           "\"Gostar\" is a regular -ar verb (\"gosto\", \"gosta\", \"gostamos\", \"gostam\"), but it always takes \"de\": in Portuguese you like 'of' something. \"Gosto de música\" means I like music. Leaving out the \"de\" is the classic English-speaker mistake.",
-          "Before an article, \"de\" contracts as you saw in Unit 7: \"do\" (de + o), \"da\" (de + a), \"dos\", \"das\". Things in general take no article: \"gosto de café\", \"gosto de futebol\". Something specific or named usually does: \"gosto do Brasil\", \"você gosta da novela?\"",
+          "Before an article, \"de\" contracts as you saw in Unit 10: \"do\" (de + o), \"da\" (de + a), \"dos\", \"das\". Things in general take no article: \"gosto de café\", \"gosto de futebol\". Something specific or named usually does: \"gosto do Brasil\", \"você gosta da novela?\"",
         ],
         examples: [
           { es: "Eu gosto de música.", en: "I like music." },
-          { es: "Eles gostam de futebol.", en: "They like football." },
+          { es: "Eles gostam de futebol.", en: "They like soccer." },
           { es: "A Beatriz gosta do Brasil.", en: "Beatriz likes Brazil." },
           { es: "Você gosta da novela?", en: "Do you like the soap opera?" },
           { es: "Gosto dos meus primos.", en: "I like my cousins." },
@@ -33,7 +33,7 @@ export const PT_A1_U08: Lesson[] = [
             prompt: "Translate into Portuguese.",
             source: "I like music.",
             answer: "Eu gosto de música.",
-            altAnswers: ["Gosto de música.", "Eu gosto da música.", "Gosto da música."],
+            altAnswers: ["Gosto de música."],
             explanation: "\"Gostar\" always needs \"de\": \"gosto de música\". Music in general takes no article, so there is no contraction.",
           },
           {
@@ -56,11 +56,11 @@ export const PT_A1_U08: Lesson[] = [
       {
         heading: "Gostar de + a verb",
         body: [
-          "To say you like doing something, put the infinitive right after \"de\": \"gostamos de viajar\" (we like travelling). Where English uses -ing, Portuguese uses the plain -ar, -er or -ir form.",
+          "To say you like doing something, put the infinitive right after \"de\": \"gostamos de viajar\" (we like traveling). Where English uses -ing, Portuguese uses the plain -ar, -er or -ir form.",
           "\"Não\" goes before the verb as usual: \"não gosto de acordar cedo\". For really like, put \"muito\" between the verb and \"de\": \"gosto muito de cozinhar\". To answer a question, repeat the verb: \"Você gosta de samba?\" \"Gosto!\"",
         ],
         examples: [
-          { es: "Nós gostamos de viajar.", en: "We like travelling." },
+          { es: "Nós gostamos de viajar.", en: "We like traveling." },
           { es: "Ela gosta de dançar samba.", en: "She likes dancing samba." },
           { es: "Não gosto de acordar cedo.", en: "I don't like waking up early." },
           { es: "O Lucas gosta muito de cozinhar.", en: "Lucas really likes cooking." },
@@ -71,10 +71,10 @@ export const PT_A1_U08: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We like travelling.",
+            source: "We like traveling.",
             answer: "Nós gostamos de viajar.",
             altAnswers: ["Gostamos de viajar.", "A gente gosta de viajar."],
-            explanation: "\"Gostamos de\" + the infinitive \"viajar\". Travelling becomes the plain infinitive, not an -ing form.",
+            explanation: "\"Gostamos de\" + the infinitive \"viajar\". Traveling becomes the plain infinitive, not an -ing form.",
           },
           {
             type: "word-order",
@@ -86,7 +86,7 @@ export const PT_A1_U08: Lesson[] = [
           {
             type: "speak",
             text: "Ela gosta muito de dançar.",
-            tip: "In most of Brazil \"de\" sounds like \"dji\": the d before an i sound becomes a j.",
+            tip: "In most of Brazil \"de\" sounds like 'jee': the d before an i sound becomes a j.",
             explanation: "\"Muito\" sits between \"gosta\" and \"de\": \"gosta muito de dançar\" (she really likes dancing).",
           },
         ],
@@ -137,10 +137,10 @@ export const PT_A1_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "They like football.",
+        source: "They like soccer.",
         answer: "Eles gostam de futebol.",
         altAnswers: ["Elas gostam de futebol.", "Gostam de futebol."],
-        explanation: "\"Gostam de futebol\": football in general, so no article after \"de\".",
+        explanation: "\"Gostam de futebol\": soccer in general, so no article after \"de\".",
       },
       {
         type: "translate",
@@ -229,7 +229,7 @@ export const PT_A1_U08: Lesson[] = [
           { left: "Odeio trânsito.", right: "I hate traffic." },
           { left: "Prefiro chá.", right: "I prefer tea." },
           { left: "Gosto de café.", right: "I like coffee." },
-          { left: "Não gosto de futebol.", right: "I don't like football." },
+          { left: "Não gosto de futebol.", right: "I don't like soccer." },
         ],
         explanation: "Only \"gostar\" takes \"de\". \"Adorar\", \"odiar\" and \"preferir\" take the thing directly.",
       },
@@ -371,7 +371,7 @@ export const PT_A1_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "They're opening the shop.",
+        source: "They're opening the store.",
         answer: "Eles estão abrindo a loja.",
         altAnswers: ["Elas estão abrindo a loja.", "Estão abrindo a loja."],
         explanation: "\"Abrir\" is an -ir verb, so its gerund is \"abrindo\". \"Estão\" agrees with eles or elas.",
@@ -509,7 +509,7 @@ export const PT_A1_U08: Lesson[] = [
         examples: [
           { es: "O que você está fazendo?", en: "What are you doing?" },
           { es: "Estou cozinhando o jantar.", en: "I'm cooking dinner." },
-          { es: "Estou vendo um filme com a minha irmã.", en: "I'm watching a film with my sister." },
+          { es: "Estou vendo um filme com a minha irmã.", en: "I'm watching a movie with my sister." },
           { es: "O que o senhor está fazendo aqui?", en: "What are you doing here, sir?" },
           { es: "O que você faz? Sou enfermeira.", en: "What do you do? I'm a nurse." },
         ],
@@ -533,7 +533,7 @@ export const PT_A1_U08: Lesson[] = [
           {
             type: "speak",
             text: "Estou vendo um filme.",
-            prompt: "Say it in Portuguese: I'm watching a film.",
+            prompt: "Say it in Portuguese: I'm watching a movie.",
             tip: "The e in vendo is nasal and the final o sounds like u: VEN-du, with no full n.",
             explanation: "\"Estou vendo\": \"ver\" makes a regular gerund, \"vendo\".",
           },
@@ -550,7 +550,7 @@ export const PT_A1_U08: Lesson[] = [
           { es: "Este mês estou morando com os meus pais.", en: "This month I'm living with my parents." },
           { es: "A Mariana está estudando muito esta semana.", en: "Mariana is studying a lot this week." },
           { es: "Vou trabalhar amanhã.", en: "I'm working tomorrow." },
-          { es: "Vamos viajar para Salvador no sábado.", en: "We're travelling to Salvador on Saturday." },
+          { es: "Vamos viajar para Salvador no sábado.", en: "We're traveling to Salvador on Saturday." },
         ],
         checkpoint: [
           {
@@ -651,7 +651,7 @@ export const PT_A1_U08: Lesson[] = [
         type: "speak",
         text: "Estou morando em Curitiba este ano.",
         prompt: "Say it in Portuguese: I'm living in Curitiba this year.",
-        tip: "In \"este\" the t comes before a final e, so it sounds like ch: ES-tchi.",
+        tip: "In \"este\" the t comes before a final e, so it sounds like ch: 'ESS-chee'.",
         explanation: "\"Estou morando\" presents it as a temporary situation for this year.",
       },
       {
@@ -856,9 +856,9 @@ export const PT_A1_U08: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: We like our neighbourhood.",
+        prompt: "Put the words in order to say: We like our neighborhood.",
         words: ["A", "gente", "gosta", "do", "nosso", "bairro."],
-        translation: "We like our neighbourhood.",
+        translation: "We like our neighborhood.",
         explanation: "\"A gente gosta de\" + \"o nosso bairro\" becomes \"do nosso bairro\". The possessive stays \"nosso\".",
       },
       {
@@ -1070,7 +1070,7 @@ export const PT_A1_U08: Lesson[] = [
         type: "speak",
         text: "Eu sempre almoço ao meio-dia.",
         prompt: "Say it in Portuguese: I always have lunch at noon.",
-        tip: "The ç in \"almoço\" sounds like s, and the \"di\" in \"meio-dia\" sounds like \"dji\".",
+        tip: "The ç in \"almoço\" sounds like s, and the \"di\" in \"meio-dia\" sounds like 'jee'.",
         explanation: "\"Sempre\" goes before the verb, and at noon is \"ao meio-dia\".",
       },
       {
@@ -1133,7 +1133,7 @@ export const PT_A1_U08: Lesson[] = [
           { es: "Oi, Mariana! É o Lucas.", en: "Hi, Mariana! It's Lucas." },
           { es: "O que você está fazendo?", en: "What are you doing?" },
           { es: "Estou tomando café da manhã.", en: "I'm having breakfast." },
-          { es: "Estou vendo um filme. E você?", en: "I'm watching a film. And you?" },
+          { es: "Estou vendo um filme. E você?", en: "I'm watching a movie. And you?" },
         ],
         checkpoint: [
           {
@@ -1169,11 +1169,11 @@ export const PT_A1_U08: Lesson[] = [
           "Answer yes with the verb itself, \"gosto!\", or more warmly, \"adoro!\". For no, double the \"não\": \"não, não gosto\". \"Prefiro\" lets you suggest something else: \"prefiro cinema\".",
         ],
         examples: [
-          { es: "O que você gosta de fazer no fim de semana?", en: "What do you like doing at the weekend?" },
-          { es: "Gosto de nadar e de jogar futebol.", en: "I like swimming and playing football." },
+          { es: "O que você gosta de fazer no fim de semana?", en: "What do you like doing on the weekend?" },
+          { es: "Gosto de nadar e de jogar futebol.", en: "I like swimming and playing soccer." },
           { es: "Você gosta de praia?", en: "Do you like the beach?" },
           { es: "Adoro! Sou carioca.", en: "I love it! I'm from Rio." },
-          { es: "Não, não gosto muito. Prefiro cinema.", en: "No, I don't really like it. I prefer the cinema." },
+          { es: "Não, não gosto muito. Prefiro cinema.", en: "No, I don't really like it. I prefer the movies." },
         ],
         checkpoint: [
           {
@@ -1196,7 +1196,7 @@ export const PT_A1_U08: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "[I like] playing football.",
+            en: "[I like] playing soccer.",
             sentence: "___ de jogar futebol.",
             answer: "Gosto",
             altAnswers: ["Eu gosto"],
@@ -1269,7 +1269,7 @@ export const PT_A1_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "What do you like [doing] at the weekend?",
+        en: "What do you like [doing] on the weekend?",
         sentence: "O que você gosta de ___ no fim de semana?",
         answer: "fazer",
         explanation: "After \"gostar de\" the verb stays in the infinitive: \"gosta de fazer\", never a gerund.",
@@ -1278,7 +1278,7 @@ export const PT_A1_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Shall we go to the cinema?",
+        source: "Shall we go to the movies?",
         answer: "Vamos ao cinema?",
         altAnswers: ["A gente vai ao cinema?"],
         explanation: "\"O cinema\" is masculine, so a + o becomes \"ao\": \"vamos ao cinema?\".",
@@ -1421,7 +1421,7 @@ export const PT_A1_U08: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "My parents live [in the] city centre.",
+            en: "My parents live [in the] city center.",
             sentence: "Meus pais moram ___ centro.",
             answer: "no",
             explanation: "\"Em\" + \"o centro\" contracts to \"no centro\". \"Em o\" never appears in Portuguese.",
@@ -1513,7 +1513,7 @@ export const PT_A1_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The kids [are playing] football on the beach.",
+        en: "The kids [are playing] soccer on the beach.",
         sentence: "As crianças ___ futebol na praia.",
         answer: "estão jogando",
         explanation: "The plural \"estão\" + \"jogando\". \"Estão jogar\" or \"estão a jogar\" would be wrong in Brazil.",
@@ -1786,7 +1786,7 @@ export const PT_A1_U08: Lesson[] = [
         type: "speak",
         text: "Eu preciso de ajuda, por favor.",
         prompt: "Say it in Portuguese: I need help, please.",
-        tip: "In most of Brazil the d in \"de\" sounds like the j in jeans: \"dji\".",
+        tip: "In most of Brazil the d in \"de\" sounds like the j in jeans: 'jee'.",
         explanation: "\"Precisar\" always takes \"de\" before a noun: \"preciso de ajuda\".",
       },
       {
@@ -1808,7 +1808,7 @@ export const PT_A1_U08: Lesson[] = [
     level: "PT-A1",
     number: 9,
     title: "Beginner Final Review, Part 2 of 2",
-    summary: "A mixed review of Units 5-8 in fresh situations: plans with ir, irregular verbs, questions, numbers and time, family and places, likes, the present progressive and a gente.",
+    summary: "A mixed review of the second half of A1 in fresh situations: plans with ir, irregular verbs, questions, numbers and time, family and places, likes, the present progressive and a gente.",
     duration: "14 min",
     sections: [
       {
@@ -1835,7 +1835,7 @@ export const PT_A1_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your flatmates are on their way home. How do you say: They're coming from work by bus?",
+            question: "Your roommates are on their way home. How do you say: They're coming from work by bus?",
             options: ["Eles vêm do trabalho de ônibus.", "Eles vem do trabalho de ônibus.", "Eles veem do trabalho de ônibus.", "Eles vão do trabalho de ônibus."],
             correctIndex: 0,
             explanation: "They come is \"eles vêm\", with the circumflex. \"Vem\" is the singular, and \"veem\" is from \"ver\" (to see).",
@@ -1937,7 +1937,7 @@ export const PT_A1_U08: Lesson[] = [
           "For right now, use \"estar\" + gerund (\"-ando\", \"-endo\", \"-indo\"). Habits take the simple present: \"todo dia eu almoço em casa\". \"A gente\" means we and takes the ele form: \"a gente está jantando\".",
         ],
         examples: [
-          { es: "A gente adora futebol.", en: "We love football." },
+          { es: "A gente adora futebol.", en: "We love soccer." },
           { es: "Você gosta do Carnaval de Salvador?", en: "Do you like Carnival in Salvador?" },
           { es: "Agora eu estou assistindo ao jogo do meu time.", en: "Right now I'm watching my team's game." },
           { es: "Eu sempre me levanto às seis.", en: "I always get up at six." },
@@ -2012,7 +2012,7 @@ export const PT_A1_U08: Lesson[] = [
         prompt: "Put the words in order to say: Can you come to my house on Saturday?",
         words: ["Você", "pode", "vir", "à", "minha", "casa", "no", "sábado?"],
         translation: "Can you come to my house on Saturday?",
-        explanation: "\"Poder\" + infinitive \"vir\". \"Vir\" means come towards the speaker, so it's \"vir\", not \"ir\".",
+        explanation: "\"Poder\" + infinitive \"vir\". \"Vir\" means come toward the speaker, so it's \"vir\", not \"ir\".",
       },
       {
         type: "multiple-choice",
@@ -2069,7 +2069,7 @@ export const PT_A1_U08: Lesson[] = [
           { left: "Faz frio em Curitiba.", right: "It's cold in Curitiba." },
           { left: "O carro deles é novo.", right: "Their car is new." },
         ],
-        explanation: "These sentences mix Units 5-8: a routine chunk, the progressive, \"a gente\" with the ele form, \"fazer\" for weather and \"deles\" for their.",
+        explanation: "These sentences mix the second half of A1: a routine chunk, the progressive, \"a gente\" with the ele form, \"fazer\" for weather and \"deles\" for their.",
       },
     ],
   },
@@ -2077,7 +2077,7 @@ export const PT_A1_U08: Lesson[] = [
 
 export const PT_A1_U08_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your Brazilian friend Beatriz sends you a WhatsApp message: \"Oi! O que você está fazendo?\" Write a short reply. Say what you are doing right now and what someone at home is doing, say what you like and don't like doing, say what you and your friends usually do at the weekend, and invite her to do something with you.",
+  prompt: "Your Brazilian friend Beatriz sends you a WhatsApp message: \"Oi! O que você está fazendo?\" Write a short reply. Say what you are doing right now and what someone at home is doing, say what you like and don't like doing, say what you and your friends usually do on the weekend, and invite her to do something with you.",
   minWords: 30,
   maxWords: 60,
   rubric: [

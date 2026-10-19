@@ -358,7 +358,7 @@ export const FR_B2_U27_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What is « une nouvelle » in a bookshop?",
+            question: "What is \"une nouvelle\" in a bookshop?",
             options: ["a short story", "a novel", "a new book", "a newspaper"],
             correctIndex: 0,
             explanation: "\"Une nouvelle\" is a short story; a novel is \"un roman\".",

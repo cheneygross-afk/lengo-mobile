@@ -150,7 +150,7 @@ export const FR_B1_U08: Lesson[] = [
         prompt: "Translate into French.",
         source: "Be careful on the road. (to friends leaving)",
         answer: "Soyez prudents sur la route.",
-        altAnswers: ["Soyez prudentes sur la route.", "Soyez prudent sur la route.", "Soyez prudente sur la route.", "Sois prudent sur la route."],
+        altAnswers: ["Soyez prudentes sur la route."],
         explanation: "Être → \"soyez\"; the adjective agrees with the people addressed.",
       },
       {

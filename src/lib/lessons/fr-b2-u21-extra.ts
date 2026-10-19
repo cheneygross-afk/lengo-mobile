@@ -10,13 +10,13 @@ export const FR_B2_U21_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Dont or Que?",
-    summary: "Let the verb decide: a direct object gives que, a de-construction gives dont.",
+    summary: "Let the verb decide: a direct object gives \"que\", a construction with \"de\" gives \"dont\".",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: check the verb, not the noun",
         body: [
-          "Ask how the verb in the relative clause is built. With a direct object (voir quelque chose, aimer, lire, acheter) → \"que\": \"le film que j'ai vu\". With \"de\" (parler de, avoir besoin de, se souvenir de, se servir de, être fier de) → \"dont\": \"le film dont j'ai parlé\".",
+          "Ask how the verb in the relative clause is built. With a direct object (\"voir quelque chose\", \"aimer\", \"lire\", \"acheter\") → \"que\": \"le film que j'ai vu\". With \"de\" (\"parler de\", \"avoir besoin de\", \"se souvenir de\", \"se servir de\", \"être fier de\") → \"dont\": \"le film dont j'ai parlé\".",
           "Pairs to watch: \"se rappeler quelque chose\" → \"que\" but \"se souvenir de\" → \"dont\"; \"utiliser\" → \"que\" but \"se servir de\" → \"dont\"; \"vouloir\" → \"que\" but \"avoir envie de\" → \"dont\".",
         ],
         examples: [
@@ -112,7 +112,7 @@ export const FR_B2_U21_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "the instrument he plays",
+        question: "Which is correct for: the instrument he plays?",
         options: ["l'instrument dont il joue", "l'instrument qu'il joue", "l'instrument auquel il joue", "l'instrument où il joue"],
         correctIndex: 0,
         explanation: "\"Jouer d'un instrument\" → \"dont\".",
@@ -139,8 +139,7 @@ export const FR_B2_U21_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "The town I come from is very small.",
         answer: "La ville d'où je viens est très petite.",
-        altAnswers: ["La ville dont je viens est très petite."],
-        explanation: "\"Venir de\" a place → \"d'où\" is most common; \"dont\" is possible in careful style.",
+        explanation: "\"Venir de\" a place → \"d'où\". \"Dont\" with \"venir\" or \"sortir\" is kept for family origin (\"la famille dont il est issu\"), not for places.",
       },
       {
         type: "translate",
@@ -173,13 +172,13 @@ export const FR_B2_U21_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Dont or Duquel?",
-    summary: "Simple de goes into dont; a de that belongs to a compound preposition needs duquel, de laquelle, desquels.",
+    summary: "A simple \"de\" goes into \"dont\"; a \"de\" that belongs to a compound preposition needs \"duquel\", \"de laquelle\", \"desquels\".",
     duration: "12 min",
     sections: [
       {
-        heading: "Recap: whose de is it?",
+        heading: "Recap: whose \"de\" is it?",
         body: [
-          "If the \"de\" belongs to the verb, the adjective or the noun (parler de, fier de, le fils de), use \"dont\". If it belongs to a compound preposition (à côté de, près de, au cours de, au milieu de, à cause de, le long de), use \"duquel / de laquelle / desquels / desquelles\". For people, \"de qui\" also works after a compound preposition.",
+          "If the \"de\" belongs to the verb, the adjective or the noun (\"parler de\", \"fier de\", \"le fils de\"), use \"dont\". If it belongs to a compound preposition (\"à côté de\", \"près de\", \"au cours de\", \"au milieu de\", \"à cause de\", \"le long de\"), use \"duquel / de laquelle / desquels / desquelles\". For people, \"de qui\" also works after a compound preposition.",
           "Quick test: can you stick the word before \"de\" onto the noun? \"À côté du parc\" → \"le parc à côté duquel\". Nothing to stick on, only a verb? → \"dont\".",
         ],
         examples: [
@@ -265,7 +264,7 @@ export const FR_B2_U21_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "the reasons because of which he left",
+        question: "Which is correct for: the reasons because of which he left?",
         options: ["les raisons à cause desquelles il est parti", "les raisons à cause dont il est parti", "les raisons dont il est parti à cause", "les raisons à cause de qui il est parti"],
         correctIndex: 0,
         explanation: "\"À cause de\" + \"lesquelles\". (\"Pour lesquelles\" is even more natural.)",
@@ -335,13 +334,13 @@ export const FR_B2_U21_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Ce dont, Ce à quoi, Ce que",
-    summary: "English what, three ways: the verb construction decides between ce que, ce dont and ce à quoi.",
+    summary: "English \"what\", three ways: the verb construction decides between \"ce que\", \"ce dont\" and \"ce à quoi\".",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: what = ce + the right relative",
         body: [
-          "\"Ce qui\" for a subject (\"ce qui m'inquiète\"), \"ce que\" for a direct object (\"ce que je veux\"), \"ce dont\" for de-verbs (\"ce dont je rêve\"), \"ce à quoi\" for à-verbs (\"ce à quoi je pense\"), and \"ce sur quoi / ce contre quoi\" for other prepositions.",
+          "\"Ce qui\" for a subject (\"ce qui m'inquiète\"), \"ce que\" for a direct object (\"ce que je veux\"), \"ce dont\" for verbs with \"de\" (\"ce dont je rêve\"), \"ce à quoi\" for verbs with \"à\" (\"ce à quoi je pense\"), and \"ce sur quoi / ce contre quoi\" for other prepositions.",
           "In a pseudo-cleft, the preposition can come back after \"c'est\": \"Ce dont j'ai besoin, c'est de dormir\", \"Ce à quoi je pense, c'est à mon père.\" Both with and without it are heard; with it is more careful.",
         ],
         examples: [
@@ -427,7 +426,7 @@ export const FR_B2_U21_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What he's interested in is football.",
+        question: "Which is correct for: What he's interested in is football?",
         options: ["Ce à quoi il s'intéresse, c'est le foot.", "Ce qu'il s'intéresse, c'est le foot.", "Ce dont il s'intéresse, c'est le foot.", "Ce qui il s'intéresse, c'est le foot."],
         correctIndex: 0,
         explanation: "\"S'intéresser à\" → \"ce à quoi\". (\"Ce qui l'intéresse\" is a simpler alternative.)",

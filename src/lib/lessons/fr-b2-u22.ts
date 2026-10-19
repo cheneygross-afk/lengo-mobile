@@ -15,7 +15,7 @@ export const FR_B2_U22_WRITING: WriteExercise = {
     "Links ideas with formal connectors (\"en outre\", \"par ailleurs\", \"néanmoins\", \"ainsi\") rather than \"et\" and \"mais\" only",
   ],
   modelAnswer: "COMMUNIQUÉ DE PRESSE\n\nLe musée de la Vallée a le plaisir d'annoncer l'ouverture, le 12 mars prochain, de l'exposition « Le Métier de ma grand-mère », consacrée à un objet dont l'histoire traverse tout le XXe siècle : un métier à tisser fabriqué à Lyon en 1903.\n\nCe métier, sur lequel trois générations de tisserandes ont travaillé, a été donné au musée par la famille Garnier, dont la dernière représentante, Madeleine, a cessé son activité en 1978. L'atelier au fond duquel il était installé a depuis été transformé en logement.\n\nCe à quoi le musée tient particulièrement, c'est de montrer les gestes qui ont disparu. Ainsi, des démonstrations seront proposées chaque samedi par une artisane, afin que les visiteurs puissent comprendre ce dont ces femmes étaient capables. En outre, un espace sera consacré aux témoignages des anciennes ouvrières, parmi lesquelles plusieurs ont accepté d'être filmées.\n\nBien que l'objet soit fragile, les visiteurs pourront s'en approcher. L'exposition est ouverte du mardi au dimanche, de 10 h à 18 h. L'entrée est gratuite pour les moins de dix-huit ans.",
-  explanation: "\"Dont l'histoire\", \"dont la dernière représentante\" (whose), \"ce dont ces femmes étaient capables\" (être capable de) and \"ce à quoi le musée tient\" (tenir à) show the de- and à-relatives; \"sur lequel\", \"au fond duquel\" and \"parmi lesquelles\" the prepositional ones. The passive (\"a été donné\", \"seront proposées\"), the subjunctive after \"afin que\" and \"bien que\", and the connectors \"ainsi\", \"en outre\" give the formal register.",
+  explanation: "\"Dont l'histoire\", \"dont la dernière représentante\" (whose), \"ce dont ces femmes étaient capables\" (\"être capable de\") and \"ce à quoi le musée tient\" (\"tenir à\") show the relatives built on \"de\" and \"à\"; \"sur lequel\", \"au fond duquel\" and \"parmi lesquelles\" the prepositional ones. The passive (\"a été donné\", \"seront proposées\"), the subjunctive after \"afin que\" and \"bien que\", and the connectors \"ainsi\", \"en outre\" give the formal register.",
 };
 
 export const FR_B2_U22: Lesson[] = [
@@ -24,7 +24,7 @@ export const FR_B2_U22: Lesson[] = [
     level: "FR-B2",
     number: 1,
     title: "Transformations: Join the Sentences with Dont or Duquel",
-    summary: "Turn two short sentences into one elegant one: son, de + noun and en become dont; a compound preposition becomes duquel.",
+    summary: "Turn two short sentences into one elegant one: \"son\", \"de\" + noun and \"en\" become \"dont\"; a compound preposition becomes \"duquel\".",
     duration: "14 min",
     sections: [
       {
@@ -168,7 +168,7 @@ export const FR_B2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "the festival during which the prize is awarded",
+        question: "Which is correct for: the festival during which the prize is awarded?",
         options: ["le festival au cours duquel le prix est remis", "le festival au cours dont le prix est remis", "le festival dont au cours le prix est remis", "le festival au cours de qui le prix est remis"],
         correctIndex: 0,
         explanation: "\"Au cours de\" + \"lequel\" → \"au cours duquel\".",
@@ -279,7 +279,7 @@ export const FR_B2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "in case the bank refuses",
+            question: "Which is correct for: in case the bank refuses?",
             options: ["au cas où la banque refuserait", "au cas où la banque refuse", "au cas où la banque refuserais", "au cas où la banque refuse-t-elle"],
             correctIndex: 0,
             explanation: "\"Au cas où\" + conditionnel: \"refuserait\".",
@@ -356,7 +356,7 @@ export const FR_B2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Although they were disappointed, they helped me.",
+        question: "Which is correct for: Although they were disappointed, they helped me?",
         options: ["Bien qu'ils aient été déçus, ils m'ont aidé.", "Bien qu'ils ont été déçus, ils m'ont aidé.", "Même s'ils aient été déçus, ils m'ont aidé.", "Bien qu'ils seraient déçus, ils m'ont aidé."],
         correctIndex: 0,
         explanation: "\"Bien que\" + past subjunctive \"aient été\".",
@@ -556,7 +556,7 @@ export const FR_B2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Wouldn't it be wiser to wait?",
+        question: "Which is correct for: Wouldn't it be wiser to wait?",
         options: ["Ne serait-il pas plus sage d'attendre ?", "N'est-il pas plus sage qu'attendre ?", "Ne serait-il pas plus sage qu'on attend ?", "Ne sera-t-il pas plus sage attendre ?"],
         correctIndex: 0,
         explanation: "Polite conditional with inversion: \"ne serait-il pas\" + \"de\" + infinitive.",
@@ -612,7 +612,7 @@ export const FR_B2_U22: Lesson[] = [
     level: "FR-B2",
     number: 4,
     title: "Error Hunt: Dont, Duquel and Lequel",
-    summary: "Six classic mistakes with formal relatives, from *le livre que je t'ai parlé to *le jour quand: spot them, explain them, fix them.",
+    summary: "Six classic mistakes with formal relatives, from *\"le livre que je t'ai parlé\" to *\"le jour quand\": spot them, explain them, fix them.",
     duration: "14 min",
     sections: [
       {
@@ -704,7 +704,7 @@ export const FR_B2_U22: Lesson[] = [
             prompt: "A learner wrote: « C'est la raison pourquoi je suis parti. » Write the correct French for: That's the reason why I left.",
             source: "That's the reason why I left.",
             answer: "C'est la raison pour laquelle je suis parti.",
-            altAnswers: ["C'est la raison pour laquelle je suis partie.", "Voilà la raison pour laquelle je suis parti.", "Voilà la raison pour laquelle je suis partie.", "C'est pour ça que je suis parti.", "C'est pour ça que je suis partie.", "C'est pour cela que je suis parti.", "C'est pour cela que je suis partie."],
+            altAnswers: ["C'est la raison pour laquelle je suis partie.", "Voilà la raison pour laquelle je suis parti.", "Voilà la raison pour laquelle je suis partie."],
             explanation: "\"La raison pour laquelle\", never *\"la raison pourquoi\".",
           },
           {
@@ -840,7 +840,7 @@ export const FR_B2_U22: Lesson[] = [
             source: "It's the house I inherited.",
             answer: "C'est la maison dont j'ai hérité.",
             altAnswers: ["Voilà la maison dont j'ai hérité."],
-            explanation: "\"Hériter de\" → \"dont\". *\"La maison que j'ai héritée\" is a common error.",
+            explanation: "\"Hériter de\" → \"dont\". \"La maison que j'ai héritée\" is common but nonstandard on its own; the direct object is only accepted when the person is named: \"la maison que j'ai héritée de ma tante\".",
           },
           {
             type: "matching",
@@ -898,10 +898,10 @@ export const FR_B2_U22: Lesson[] = [
         examples: [
           { es: "Je veux bien vendre, à condition que chacun puisse garder un objet.", en: "I'm happy to sell, as long as everyone can keep an object." },
           { es: "Bien que je tienne à cette maison, je comprends votre décision.", en: "Although I'm attached to this house, I understand your decision." },
-          { es: "Si on la louait, on pourrait la garder tous ensemble.", en: "If we rented it out, we could keep it all together." },
+          { es: "Si on la louait, on pourrait la garder tous ensemble.", en: "If we rented it out, we could all keep it together." },
           { es: "Si maman avait fait un testament, on ne se serait pas disputés.", en: "If Mum had made a will, we wouldn't have argued." },
           { es: "Ce à quoi je tiens, c'est la vieille horloge.", en: "What I care about is the old clock." },
-          { es: "Moi, l'argent, ça ne m'intéresse pas.", en: "Me, I'm not interested in the money." },
+          { es: "Moi, l'argent, ça ne m'intéresse pas.", en: "Personally, I'm not interested in the money." },
         ],
         checkpoint: [
           {
@@ -961,7 +961,7 @@ export const FR_B2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "It hurts me that you're arguing.",
+        question: "Which is correct for: It hurts me that you're arguing?",
         options: ["Ça me fait de la peine que vous vous disputiez.", "Ça me fait de la peine que vous vous disputez.", "Ça me fait de la peine de vous disputer.", "Ça me fait de la peine si vous vous disputiez."],
         correctIndex: 0,
         explanation: "Emotion + different subject → subjunctive \"disputiez\".",
@@ -1002,7 +1002,7 @@ export const FR_B2_U22: Lesson[] = [
       {
         type: "speak",
         text: "Si on la louait, on pourrait la garder tous ensemble.",
-        prompt: "Say it in French: If we rented it out, we could keep it all together.",
+        prompt: "Say it in French: If we rented it out, we could all keep it together.",
         explanation: "\"Si\" + imparfait → conditionnel.",
       },
     ],
@@ -1020,7 +1020,7 @@ export const FR_B2_U22: Lesson[] = [
         body: [
           "A museum label (\"un cartel\") is dense and impersonal: no \"je\", lots of nouns, relatives and the passive. It packs the object, the date, the maker and one story into three or four sentences.",
           "Typical moves: \"Ce coffre, dont le bois provient des forêts du Jura, a été fabriqué vers 1780.\" \"Il appartenait à une famille de notaires, dans laquelle il s'est transmis pendant deux siècles.\" \"Le couvercle, sur lequel on distingue encore des initiales, a été restauré en 2012.\"",
-          "Note the incise (a relative between commas): it adds information without breaking the main sentence. This is exactly where \"lequel\" as a subject can remove ambiguity: \"la fille du notaire, laquelle a légué l'objet au musée\".",
+          "Note the \"incise\" (a relative clause set between commas): it adds information without breaking the main sentence. This is exactly where \"lequel\" as a subject can remove ambiguity: \"la fille du notaire, laquelle a légué l'objet au musée\".",
         ],
         examples: [
           { es: "Ce coffre, dont le bois provient du Jura, a été fabriqué vers 1780.", en: "This chest, whose wood comes from the Jura, was made around 1780." },
@@ -1087,9 +1087,9 @@ export const FR_B2_U22: Lesson[] = [
       {
         heading: "Polishing: register checks",
         body: [
-          "Formal texts avoid spoken features: no dislocation (\"le musée, il ouvre\"), no \"on\" for nous (use \"nous\" or the passive), \"cependant\" rather than \"mais bon\", \"toutefois\" rather than \"quand même\", \"en effet\" to justify.",
+          "Formal texts avoid spoken features: no dislocation (\"le musée, il ouvre\"), no \"on\" for \"nous\" (use \"nous\" or the passive), \"cependant\" rather than \"mais bon\", \"toutefois\" rather than \"quand même\", \"en effet\" to justify.",
           "Prefer precise verbs to \"faire\" and \"il y a\": \"organiser\", \"proposer\", \"présenter\", \"se dérouler\" (to take place), \"réunir\" (to bring together), \"consacrer à\" (to devote to).",
-          "Finally, check every relative: verb + de → \"dont\"; compound preposition → \"duquel\"; preposition + thing → \"lequel\"; time → \"où\".",
+          "Finally, check every relative: verb + \"de\" → \"dont\"; compound preposition → \"duquel\"; preposition + thing → \"lequel\"; time → \"où\".",
         ],
         examples: [
           { es: "L'exposition se déroulera du 3 mai au 30 septembre.", en: "The exhibition will run from 3 May to 30 September." },
@@ -1353,7 +1353,7 @@ export const FR_B2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "I hope you'll come back to see me.",
+        question: "Which is correct for: I hope you'll come back to see me?",
         options: ["J'espère que vous reviendrez me voir.", "J'espère que vous reveniez me voir.", "Je souhaite que vous reviendrez me voir.", "J'espère de vous revenir me voir."],
         correctIndex: 0,
         explanation: "\"Espérer que\" + indicative future.",
@@ -1475,7 +1475,7 @@ export const FR_B2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "in case she falls",
+            question: "Which is correct for: in case she falls?",
             options: ["au cas où elle tomberait", "au cas où elle tombe", "au cas où elle tombera", "au cas où elle tombait"],
             correctIndex: 0,
             explanation: "\"Au cas où\" + conditionnel.",
@@ -1553,7 +1553,7 @@ export const FR_B2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "It's obvious that technology can help.",
+        question: "Which is correct for: It's obvious that technology can help?",
         options: ["Il est évident que la technologie peut aider.", "Il est évident que la technologie puisse aider.", "Il n'est pas évident que la technologie peut aider.", "Il est évident la technologie pouvoir aider."],
         correctIndex: 0,
         explanation: "Certainty → indicative \"peut\".",
@@ -1640,7 +1640,7 @@ export const FR_B2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "After she left, we talked about her.",
+            question: "Which is correct for: After she left, we talked about her?",
             options: ["Après qu'elle est partie, on a parlé d'elle.", "Après qu'elle soit partie, on a parlé d'elle.", "Après qu'elle part, on a parlé d'elle.", "Après partir, on a parlé d'elle."],
             correctIndex: 0,
             explanation: "\"Après que\" takes the indicative in standard French (the subjunctive is common in speech but considered incorrect).",
@@ -1763,10 +1763,10 @@ export const FR_B2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "It seems that the shop is closed.",
-        options: ["Il semble que le magasin soit fermé.", "Il semble que le magasin est fermé.", "Il me semble que le magasin soit fermé.", "Il semble le magasin être fermé."],
+        question: "Which is correct for: It seems that the shop is closed?",
+        options: ["Il semble que le magasin soit fermé.", "Il semble que le magasin fût fermé.", "Il me semble que le magasin soit fermé.", "Il semble le magasin être fermé."],
         correctIndex: 0,
-        explanation: "\"Il semble que\" + subjunctive; \"il me semble que\" + indicative.",
+        explanation: "\"Il semble que\" + present subjunctive (the literary \"fût\" doesn't follow a present main verb); \"il me semble que\" + indicative.",
       },
       {
         type: "word-order",
@@ -1801,7 +1801,7 @@ export const FR_B2_U22: Lesson[] = [
         type: "speak",
         text: "Il faut que tu saches la vérité.",
         prompt: "Say it in French to a friend: You need to know the truth.",
-        explanation: "\"Il faut que\" + \"saches\" (savoir).",
+        explanation: "\"Il faut que\" + \"saches\" (\"savoir\").",
       },
     ],
   },
@@ -1810,7 +1810,7 @@ export const FR_B2_U22: Lesson[] = [
     level: "FR-B2",
     number: 10,
     title: "Spiral Review: Son → Dont",
-    summary: "Back to Unit 21: join sentences with dont, turn the possessive into an article, and keep normal word order.",
+    summary: "Back to Unit 21: join sentences with \"dont\", turn the possessive into an article, and keep normal word order.",
     duration: "12 min",
     sections: [
       {
@@ -1849,8 +1849,8 @@ export const FR_B2_U22: Lesson[] = [
       {
         heading: "Mixed practice",
         body: [
-          "Alternate the cases: whose + subject (\"dont le frère\"), whose + object (\"dont je connais le frère\"), a de-verb (\"dont je parle\"), a quantity (\"dont deux\").",
-          "Remember \"se passer de\" (to do without) and \"se moquer de\" (to make fun of, not to care about): both give \"dont\".",
+          "Alternate the cases: whose + subject (\"dont le frère\"), whose + object (\"dont je connais le frère\"), a verb with \"de\" (\"dont je parle\"), a quantity (\"dont deux\").",
+          "Remember \"se passer de\" (to do without) and \"se moquer de\" (to make fun of, or not to care about): both give \"dont\".",
         ],
         examples: [
           { es: "J'ai une amie dont le mari est chef cuisinier.", en: "I have a friend whose husband is a chef." },
@@ -1923,7 +1923,7 @@ export const FR_B2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "the colleague whose desk is next to mine",
+        question: "Which is correct for: the colleague whose desk is next to mine?",
         options: ["le collègue dont le bureau est à côté du mien", "le collègue dont son bureau est à côté du mien", "le collègue qui le bureau est à côté du mien", "le collègue duquel le bureau est à côté du mien"],
         correctIndex: 0,
         explanation: "\"Dont le bureau\": the simplest, correct form.",
@@ -2015,7 +2015,7 @@ export const FR_B2_U22: Lesson[] = [
           { es: "Sans ce projet, le moulin finira par s'écrouler.", en: "Without this project, the mill will end up collapsing." },
           { es: "Je refuse qu'on détruise notre patrimoine.", en: "I refuse to let them destroy our heritage." },
           { es: "Il est inacceptable que le conseil ait voté sans nous consulter.", en: "It's unacceptable that the council voted without consulting us." },
-          { es: "Certes, le projet crée des emplois ; or, ce sont des emplois saisonniers.", en: "Admittedly the project creates jobs; but they're seasonal jobs." },
+          { es: "Certes, le projet crée des emplois, mais ce sont des emplois saisonniers.", en: "Admittedly the project creates jobs, but they're seasonal jobs." },
           { es: "D'une part, il faut des emplois ; d'autre part, il faut protéger la rivière.", en: "On the one hand, we need jobs; on the other, we need to protect the river." },
         ],
         checkpoint: [
@@ -2030,7 +2030,7 @@ export const FR_B2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "It's unacceptable that they voted without us.",
+            question: "Which is correct for: It's unacceptable that they voted without us?",
             options: ["Il est inacceptable qu'ils aient voté sans nous.", "Il est inacceptable qu'ils ont voté sans nous.", "Il est inacceptable qu'ils votent sans nous hier.", "Il est inacceptable qu'ils auraient voté sans nous."],
             correctIndex: 0,
             explanation: "Judgement on a past action → past subjunctive \"aient voté\".",
@@ -2106,7 +2106,7 @@ export const FR_B2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "We need jobs. But the project would destroy the river.",
+        question: "Which is correct for: We need jobs. But the project would destroy the river?",
         options: ["Il nous faut des emplois. Or, le projet détruirait la rivière.", "Il nous faut des emplois. Donc, le projet détruirait la rivière.", "Il nous faut des emplois. Ainsi, le projet détruirait la rivière.", "Il nous faut des emplois. En effet, le projet détruirait la rivière."],
         correctIndex: 0,
         explanation: "\"Or\" introduces a fact that challenges what precedes.",
@@ -2227,7 +2227,7 @@ export const FR_B2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "As I opened the door, I recognised the smell.",
+            question: "Which is correct for: As I opened the door, I recognised the smell?",
             options: ["En ouvrant la porte, j'ai reconnu l'odeur.", "En ouvrir la porte, j'ai reconnu l'odeur.", "En ouvert la porte, j'ai reconnu l'odeur.", "À ouvrant la porte, j'ai reconnu l'odeur."],
             correctIndex: 0,
             explanation: "Gérondif \"en ouvrant\" for simultaneity, same subject.",
@@ -2303,7 +2303,7 @@ export const FR_B2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "I'd have liked my children to see the house.",
+        question: "Which is correct for: I'd have liked my children to see the house?",
         options: ["J'aurais aimé que mes enfants voient la maison.", "J'aurais aimé que mes enfants voyaient la maison.", "J'aurais aimé que mes enfants verraient la maison.", "J'aurais aimé mes enfants voir la maison."],
         correctIndex: 0,
         explanation: "\"J'aurais aimé que\" + present subjunctive \"voient\".",
@@ -2387,10 +2387,10 @@ export const FR_B2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "I don't know whether she'll accept.",
+            question: "Which is correct for: I don't know whether she'll accept?",
             options: ["Je ne sais pas si elle acceptera.", "Je ne sais pas qu'elle acceptera.", "Je ne sais pas si elle acceptait.", "Je ne sais pas si elle ait accepté."],
             correctIndex: 0,
-            explanation: "\"Si\" = whether can take the future.",
+            explanation: "\"Si\" meaning whether can take the future: \"si elle acceptera\".",
           },
         ],
       },
@@ -2508,7 +2508,7 @@ export const FR_B2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "It was you who broke the vase!",
+        question: "Which is correct for: It was you who broke the vase?",
         options: ["C'est toi qui as cassé le vase !", "C'est toi qui a cassé le vase !", "C'est toi que tu as cassé le vase !", "C'est tu qui as cassé le vase !"],
         correctIndex: 0,
         explanation: "Verb agrees with \"toi\": \"as cassé\".",

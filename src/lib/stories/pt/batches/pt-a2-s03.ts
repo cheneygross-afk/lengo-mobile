@@ -38,7 +38,7 @@ export const PT_A2_S03_STORIES: Story[] = [
       },
       {
         question: `What do they both really like?`,
-        options: [`Watching football`, `Reading at home`, `Dancing at parties`, `Going to the beach`],
+        options: [`Watching soccer`, `Reading at home`, `Dancing at parties`, `Going to the beach`],
         correctIndex: 1,
         explanation: `Fernanda said "De ler. De ficar em casa, de pijama, com um livro", and Gabriel answered "Eu também!"`,
       },
@@ -55,7 +55,7 @@ export const PT_A2_S03_STORIES: Story[] = [
       `No começo, a paisagem era linda: montanhas, cachoeiras, vacas. Depois, o asfalto acabou. Depois, começou a chover. E, às cinco da tarde, o carro atolou na lama, no meio do nada, sem sinal de celular. Mariana olhou para Igor. Ela não disse nada. Não precisou.`,
       `Meia hora depois, apareceu um trator. O motorista era um senhor de chapéu, seu Arlindo. Ele amarrou uma corda no carro e o tirou da lama em dois minutos. “Esse GPS já trouxe muita gente para cá”, ele disse, rindo. “Vocês estão com fome?”`,
       `A casa de seu Arlindo ficava perto. A esposa dele, dona Irene, fez frango com polenta, salada da horta e pudim de leite. Os três amigos tomaram vinho da região, ouviram as histórias da família e dormiram no quarto dos filhos, que moravam na cidade. De manhã, dona Irene os acordou com café, queijo e pão caseiro.`,
-      `Eles chegaram a Florianópolis um dia atrasados. Comeram camarão na praia, nadaram no mar e viram o pôr do sol. Mas, na volta, quando os amigos perguntaram qual foi a melhor parte da viagem, os três responderam a mesma coisa: “O dia em que o carro atolou.”`,
+      `Eles chegaram a Florianópolis com um dia de atraso. Comeram camarão na praia, nadaram no mar e viram o pôr do sol. Mas, na volta, quando a família e os colegas perguntaram qual foi a melhor parte da viagem, os três responderam a mesma coisa: “O dia em que o carro atolou.”`,
     ],
     questions: [
       {
@@ -66,7 +66,7 @@ export const PT_A2_S03_STORIES: Story[] = [
       },
       {
         question: `What happened at five in the afternoon?`,
-        options: [`They arrived in Florianópolis.`, `The car got stuck in the mud.`, `They ran out of petrol.`, `Mariana started driving.`],
+        options: [`They arrived in Florianópolis.`, `The car got stuck in the mud.`, `They ran out of gas.`, `Mariana started driving.`],
         correctIndex: 1,
         explanation: `"Às cinco da tarde, o carro atolou na lama."`,
       },
@@ -180,7 +180,7 @@ export const PT_A2_S03_STORIES: Story[] = [
     questions: [
       {
         question: `Where did Larissa hide the dirty dishes?`,
-        options: [`In the oven`, `In the wardrobe`, `On the balcony`, `Under the sofa`],
+        options: [`In the oven`, `In the closet`, `On the balcony`, `Under the sofa`],
         correctIndex: 0,
         explanation: `"Larissa escondeu a louça no forno."`,
       },
@@ -191,7 +191,7 @@ export const PT_A2_S03_STORIES: Story[] = [
         explanation: `"Seu pai e eu brigamos."`,
       },
       {
-        question: `What happened when dona Heloísa opened the wardrobe?`,
+        question: `What happened when dona Heloísa opened the closet?`,
         options: [`She found the dog.`, `She found her husband's present.`, `It was empty.`, `All the clothes fell on her.`],
         correctIndex: 3,
         explanation: `"Toda a roupa caiu em cima dela."`,
@@ -219,7 +219,7 @@ export const PT_A2_S03_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "derrubar", en: "to knock over", forms: ["derrubou"] },
     { es: "confessar", en: "to confess", forms: ["confessou"] },
     { es: "arregalar os olhos", en: "to open one's eyes wide", forms: ["arregalou"] },
-    { es: "a livraria", en: "bookshop", forms: ["livraria"] },
+    { es: "a livraria", en: "bookstore", forms: ["livraria"] },
   ],
   "pt-o-atalho": [
     { es: "o atalho", en: "shortcut", forms: ["atalho"] },
@@ -238,7 +238,7 @@ export const PT_A2_S03_GLOSSES: Record<string, StoryGloss[]> = {
   "pt-a-moqueca-do-vo-dito": [
     { es: "a moqueca", en: "Brazilian fish stew", forms: ["moqueca"] },
     { es: "a panela de barro", en: "clay pot", forms: ["panela", "barro"] },
-    { es: "o coentro", en: "coriander, cilantro", forms: ["coentro"] },
+    { es: "o coentro", en: "cilantro", forms: ["coentro"] },
     { es: "o segredo", en: "secret", forms: ["segredo"] },
     { es: "faltar", en: "to be missing", forms: ["faltava"] },
     { es: "o sabor", en: "flavor", forms: ["sabor"] },
@@ -252,7 +252,7 @@ export const PT_A2_S03_GLOSSES: Record<string, StoryGloss[]> = {
   "pt-a-noite-sem-luz": [
     { es: "o capítulo", en: "episode (of a telenovela)", forms: ["capítulo"] },
     { es: "a luz acabou", en: "the power went out", forms: ["acabou"] },
-    { es: "a lanterna", en: "flashlight, torch", forms: ["lanternas"] },
+    { es: "a lanterna", en: "flashlight", forms: ["lanternas"] },
     { es: "justo", en: "of all times (justo hoje: today of all days)", forms: ["justo"] },
     { es: "a companhia de energia", en: "power company", forms: ["companhia"] },
     { es: "antipático", en: "unfriendly", forms: ["antipático"] },
@@ -261,7 +261,7 @@ export const PT_A2_S03_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "o ventilador", en: "electric fan", forms: ["ventiladores"] },
     { es: "a vilã", en: "villain (woman)", forms: ["vilã"] },
     { es: "cumprimentar", en: "to greet", forms: ["cumprimentam"] },
-    { es: "a calçada", en: "sidewalk, pavement", forms: ["calçada"] },
+    { es: "a calçada", en: "sidewalk", forms: ["calçada"] },
   ],
   "pt-a-visita-surpresa": [
     { es: "a bagunça", en: "mess", forms: ["bagunça"] },

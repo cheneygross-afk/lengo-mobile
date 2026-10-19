@@ -301,7 +301,7 @@ export const FR_B1_U26: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Which suitcase is yours? The one I put on the bed. (to a friend)", answer: "Quelle valise est à toi ? Celle que j'ai posée sur le lit.", altAnswers: ["Quelle valise est la tienne ? Celle que j'ai posée sur le lit.", "Quelle valise est à toi ? Celle que j'ai mise sur le lit.", "Quelle valise est la tienne ? Celle que j'ai mise sur le lit."], explanation: "\"Quelle\" agrees with \"valise\"; \"celle que\" + \"posée\", agreeing with the preceding object." },
-          { type: "multiple-choice", question: "Your friend asks « Quel manteau ? ». Yours is the black one. What do you say?", options: ["Celui qui est noir.", "Celle qui est noire.", "Le noir qui est.", "Ce qui est noir."], correctIndex: 0, explanation: "\"Manteau\" is masculine: \"celui qui est noir\"." },
+          { type: "multiple-choice", question: "Your friend asks \"Quel manteau ?\". Yours is the black one. What do you say?", options: ["Celui qui est noir.", "Celle qui est noire.", "Le noir qui est.", "Ce qui est noir."], correctIndex: 0, explanation: "\"Manteau\" is masculine: \"celui qui est noir\"." },
           { type: "listen-choose", audio: "Ceux du haut, sur l'étagère.", question: "What does it mean?", options: ["The ones at the top, on the shelf.", "This one at the top, on the shelf.", "Those ones at the bottom, on the shelf.", "Them, up there on the shelf."], correctIndex: 0, explanation: "\"Ceux du haut\" = the ones at the top." },
         ],
       },
@@ -368,7 +368,7 @@ export const FR_B1_U26: Lesson[] = [
         heading: "Where it all goes: placard, grenier, cave",
         body: [
           "\"Un placard\" is a built-in cupboard or wardrobe; \"une armoire\" is a free-standing wardrobe; \"un tiroir\" a drawer; \"une étagère\" a shelf. \"Le grenier\" is the attic or loft, \"la cave\" the cellar (also where flats have their storage unit), \"le garage\".",
-          "False friend: \"une cave\" is a cellar, not a cave (\"une grotte\"). And \"le placard\" is never a poster or sign.",
+          "False friend: \"une cave\" is a cellar, not a cave (\"une grotte\"). And in a home, \"un placard\" is a cupboard; a placard you carry is \"une pancarte\".",
         ],
         examples: [
           { es: "Les draps sont dans le placard du couloir.", en: "The sheets are in the hall cupboard." },
@@ -529,7 +529,7 @@ export const FR_B1_U26: Lesson[] = [
       {
         heading: "Taking responsibility",
         body: [
-          "\"C'est de ma faute\" (it's my fault; \"c'est ma faute\" is also common). \"Je ne l'ai pas fait exprès\" (I didn't do it on purpose). \"Je me suis trompé(e)\" (I made a mistake, I got it wrong). \"Je te dois des excuses\" (I owe you an apology).",
+          "\"C'est ma faute\" (it's my fault; in everyday speech you'll also hear \"c'est de ma faute\"). \"Je ne l'ai pas fait exprès\" (I didn't do it on purpose). \"Je me suis trompé(e)\" (I made a mistake, I got it wrong). \"Je te dois des excuses\" (I owe you an apology).",
           "Then repair and promise: \"Je vais arranger ça\", \"Ça ne se reproduira plus\" (it won't happen again: a pronominal verb, literally it won't reproduce itself). In a work email: \"Je m'en occupe immédiatement.\"",
         ],
         examples: [
@@ -568,7 +568,7 @@ export const FR_B1_U26: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "I'm really sorry I'm late.", answer: "Je suis vraiment désolé d'être en retard.", altAnswers: ["Je suis vraiment désolée d'être en retard.", "Vraiment désolé d'être en retard.", "Vraiment désolée d'être en retard."], explanation: "Same subject: \"désolé de\" + infinitive." },
-      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "It's my fault; I forgot to send you the message. (to a friend)", answer: "C'est de ma faute, j'ai oublié de t'envoyer le message.", altAnswers: ["C'est ma faute, j'ai oublié de t'envoyer le message."], explanation: "\"C'est de ma faute\"; \"oublier de\" + infinitive." },
+      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "It's my fault; I forgot to send you the message. (to a friend)", answer: "C'est ma faute, j'ai oublié de t'envoyer le message.", altAnswers: ["C'est de ma faute, j'ai oublié de t'envoyer le message."], explanation: "\"C'est ma faute\" (\"c'est de ma faute\" in casual speech); \"oublier de\" + infinitive." },
       { type: "fill-blank", prompt: "Write the French for the bold words.", en: "Sorry [I left] without telling you. (a woman speaking)", sentence: "Désolée d'___ sans te prévenir.", answer: "être partie", explanation: "Past infinitive with être: \"être partie\", agreeing with the speaker." },
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "I owe you an apology for last night.", answer: "Je te dois des excuses pour hier soir.", altAnswers: ["Je vous dois des excuses pour hier soir."], explanation: "\"Devoir des excuses à quelqu'un\" = to owe someone an apology." },
       { type: "multiple-choice", question: "You want to promise your boss it won't happen again. What do you say?", options: ["Ça ne se reproduira plus.", "Ça ne se reproduit pas.", "Je ne le reproduis plus.", "Ce n'est pas grave."], correctIndex: 0, explanation: "\"Ça ne se reproduira plus\": future of the pronominal \"se reproduire\" + \"ne... plus\"." },
@@ -578,7 +578,7 @@ export const FR_B1_U26: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into French (formal email).", source: "Please accept my apologies for this mistake.", answer: "Je vous prie de m'excuser pour cette erreur.", altAnswers: ["Je vous prie de bien vouloir m'excuser pour cette erreur.", "Veuillez m'excuser pour cette erreur.", "Je vous présente mes excuses pour cette erreur."], explanation: "\"Je vous prie de m'excuser\" is the formal written apology." },
       { type: "listen-choose", audio: "Pardon de t'avoir fait attendre.", question: "What did you hear?", options: ["Pardon de t'avoir fait attendre.", "Pardon, je t'ai fait attendre.", "Pardon de te faire attendre.", "Pardon d'avoir attendu."], correctIndex: 0, explanation: "\"De t'avoir fait attendre\": past infinitive after \"pardon de\"." },
       { type: "dictation", audio: "Je ne l'ai pas fait exprès.", explanation: "\"Exprès\" with a grave accent; the s is silent." },
-      { type: "speak", text: "Je suis vraiment désolé, c'est de ma faute.", prompt: "Apologise and take the blame: I'm really sorry, it's my fault.", explanation: "\"Désolé\" + \"c'est de ma faute\"." },
+      { type: "speak", text: "Je suis vraiment désolé, c'est ma faute.", prompt: "Apologise and take the blame: I'm really sorry, it's my fault.", explanation: "\"Désolé\" + \"c'est ma faute\"." },
     ],
   },
   {
@@ -722,7 +722,7 @@ export const FR_B1_U26: Lesson[] = [
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "According to the police, there are reportedly three injured.", answer: "Selon la police, il y aurait trois blessés.", altAnswers: ["D'après la police, il y aurait trois blessés."], explanation: "Unconfirmed information: conditional \"il y aurait\"." },
-          { type: "multiple-choice", question: "What does « Le chanteur préparerait un nouvel album » mean?", options: ["The singer is reportedly working on a new album.", "The singer would prepare a new album.", "The singer should prepare a new album.", "The singer prepared a new album."], correctIndex: 0, explanation: "The news conditional reports unconfirmed facts: reportedly." },
+          { type: "multiple-choice", question: "What does \"Le chanteur préparerait un nouvel album\" mean?", options: ["The singer is reportedly working on a new album.", "The singer would prepare a new album.", "The singer should prepare a new album.", "The singer prepared a new album."], correctIndex: 0, explanation: "The news conditional reports unconfirmed facts: reportedly." },
           { type: "speak", text: "Le ministre serait malade.", tip: "Serait: two syllables, se-rè.", explanation: "Hearsay conditional: is said to be." },
         ],
       },
@@ -732,7 +732,7 @@ export const FR_B1_U26: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "If I were you, I'd be more careful.", answer: "À ta place, je serais plus prudent.", altAnswers: ["À ta place, je serais plus prudente.", "À votre place, je serais plus prudent.", "À votre place, je serais plus prudente.", "Si j'étais toi, je serais plus prudent.", "Si j'étais toi, je serais plus prudente.", "Si j'étais vous, je serais plus prudent.", "Si j'étais vous, je serais plus prudente."], explanation: "Advice: \"à ta place\" + conditional." },
       { type: "fill-blank", prompt: "Write the French for the bold words.", en: "If he were here, [he'd be] happy.", sentence: "S'il était là, ___ content.", answer: "il serait", explanation: "Si + imparfait, then the conditional \"serait\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Would you mind closing the window? (polite)", answer: "Ça vous dérangerait de fermer la fenêtre ?", altAnswers: ["Cela vous dérangerait de fermer la fenêtre ?", "Pourriez-vous fermer la fenêtre ?", "Vous pourriez fermer la fenêtre ?"], explanation: "\"Ça vous dérangerait de\" + infinitive = would you mind." },
-      { type: "multiple-choice", question: "« Vous devriez en parler à votre médecin. » Which use of the conditional is it?", options: ["Advice", "Hearsay", "Hypothesis after si", "Ordering in a café"], correctIndex: 0, explanation: "\"Vous devriez\" = you should: advice." },
+      { type: "multiple-choice", question: "\"Vous devriez en parler à votre médecin.\" Which use of the conditional is it?", options: ["Advice", "Hearsay", "Hypothesis after si", "Ordering in a café"], correctIndex: 0, explanation: "\"Vous devriez\" = you should: advice." },
       { type: "word-order", prompt: "Put the words in order to say: You'd better get some rest.", words: ["Tu", "ferais", "mieux", "de", "te reposer."], translation: "You'd better get some rest.", explanation: "\"Faire mieux de\" in the conditional: advice." },
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "The minister is said to be ill.", answer: "Le ministre serait malade.", altAnswers: ["La ministre serait malade."], explanation: "The hearsay conditional replaces is said to." },
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Would you have a room for two nights? (at a hotel)", answer: "Vous auriez une chambre pour deux nuits ?", altAnswers: ["Auriez-vous une chambre pour deux nuits ?", "Est-ce que vous auriez une chambre pour deux nuits ?"], explanation: "Polite conditional \"auriez\"." },

@@ -58,7 +58,7 @@ export const DELF_A2_PO: ExamPaper = {
           "Ce que vous aimez dans cette fête.",
         ],
         examinerQuestions: [
-          "Est-ce que vous préférez cette fête quand vous étiez enfant ou maintenant ?",
+          "Vous aimez plus cette fête aujourd'hui ou quand vous étiez enfant ?",
           "Est-ce qu'il y a une fête française que vous connaissez ?",
           "Qu'est-ce que vous allez faire pour la prochaine fête ?",
         ],

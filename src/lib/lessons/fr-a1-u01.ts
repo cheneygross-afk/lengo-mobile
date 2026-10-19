@@ -324,7 +324,7 @@ export const FR_A1_U01: Lesson[] = [
           {
             type: "speak",
             text: "Vous êtes ici ?",
-            tip: "Link vous and êtes with a z sound: vou-zê-tes.",
+            tip: "Link \"vous\" and \"êtes\" with a z sound: vou-zêt.",
             explanation: "\"Vous êtes\" always has the liaison; without the z it sounds broken to a French ear.",
           },
         ],
@@ -964,7 +964,7 @@ export const FR_A1_U01: Lesson[] = [
           {
             type: "speak",
             text: "Une étudiante et un étudiant.",
-            tip: "Étudiante ends with a clear t; étudiant ends in a nasal vowel with no t.",
+            tip: "\"Étudiante\" ends with a clear t; \"étudiant\" ends in a nasal vowel with no t.",
             explanation: "The feminine -e makes the final t audible: that's how you hear the difference.",
           },
         ],
@@ -1055,7 +1055,7 @@ export const FR_A1_U01: Lesson[] = [
         type: "speak",
         text: "Les enfants sont à l'école.",
         prompt: "Say it in French: The children are at school.",
-        tip: "Link les and enfants with a z: lay-zanfan.",
+        tip: "Link \"les\" and \"enfants\" with a z: lay-zanfan.",
         explanation: "The liaison z after \"les\" is required before a vowel.",
       },
     ],
@@ -1134,7 +1134,7 @@ export const FR_A1_U01: Lesson[] = [
           {
             type: "speak",
             text: "Le livre, les livres.",
-            tip: "Le = luh, les = lay. That vowel is the only difference you can hear.",
+            tip: "\"Le\" = luh, \"les\" = lay. That vowel is the only difference you can hear.",
             explanation: "Practising this pair trains your mouth to make the plural audible.",
           },
         ],
@@ -1742,7 +1742,7 @@ export const FR_A1_U01: Lesson[] = [
           {
             type: "speak",
             text: "Il est italien, elle est italienne.",
-            tip: "Italien ends in a nasal vowel; italienne ends in a clear n.",
+            tip: "\"Italien\" ends in a nasal vowel; \"italienne\" ends in a clear n.",
             explanation: "The feminine -enne brings back a full n sound.",
           },
         ],
@@ -1872,7 +1872,7 @@ export const FR_A1_U01: Lesson[] = [
         type: "speak",
         text: "Elle est petite et il est grand.",
         prompt: "Say it in French: She's small and he's tall.",
-        tip: "Pronounce the t of petite; grand ends in a nasal with no d.",
+        tip: "Pronounce the t of \"petite\"; \"grand\" ends in a nasal with no d.",
         explanation: "The feminine -e makes the consonant before it heard.",
       },
     ],
@@ -1951,7 +1951,7 @@ export const FR_A1_U01: Lesson[] = [
           {
             type: "speak",
             text: "C'est une bonne idée !",
-            tip: "Bonne has a clear n and an open o: bon-n'.",
+            tip: "\"Bonne\" has a clear n and an open o: bon-n'.",
             explanation: "\"Bonne\" (feminine of bon) goes before the noun. \"C'est\" here is just a set phrase: that's.",
           },
         ],
@@ -2075,7 +2075,7 @@ export const FR_A1_U01: Lesson[] = [
         type: "speak",
         text: "Le vieil hôtel est très beau.",
         prompt: "Say it in French: The old hotel is very beautiful.",
-        tip: "Vieil sounds like vyèy, flowing into hôtel.",
+        tip: "\"Vieil\" sounds like vyèy, flowing into \"hôtel\".",
         explanation: "\"Vieil\" before a vowel; \"beau\" after être in its normal masculine form.",
       },
     ],
@@ -2181,7 +2181,7 @@ export const FR_A1_U01: Lesson[] = [
           {
             type: "speak",
             text: "L'actrice est très heureuse.",
-            tip: "Heureuse ends with a z sound; heureux ends in the vowel.",
+            tip: "\"Heureuse\" ends with a z sound; \"heureux\" ends in the vowel.",
             explanation: "\"Actrice\" is feminine, so \"heureuse\".",
           },
         ],
@@ -2241,7 +2241,7 @@ export const FR_A1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Make it feminine: Le nouveau voisin est sympa et sérieux. (voisin = neighbour)",
+        question: "\"Le nouveau voisin est sympa et sérieux\" means: The new neighbour (a man) is nice and serious. How do you say it about a woman: The new neighbour is nice and serious?",
         options: ["La nouvelle voisine est sympa et sérieuse.", "La nouveau voisine est sympa et sérieuse.", "La nouvelle voisine est sympae et sérieux.", "La nouvel voisine est sympa et sérieuse."],
         correctIndex: 0,
         explanation: "\"Nouvelle\", \"voisine\", \"sérieuse\" change; \"sympa\" is the same for both genders.",
@@ -2470,7 +2470,7 @@ export const FR_A1_U01: Lesson[] = [
         type: "speak",
         text: "Voici Nina. Elle est italienne et très sympa.",
         prompt: "Say it in French: Here's Nina. She's Italian and very nice.",
-        tip: "Italienne ends in a clear n.",
+        tip: "\"Italienne\" ends in a clear n.",
         explanation: "\"Voici\" to present someone, then \"elle est\" + agreeing adjectives.",
       },
       {

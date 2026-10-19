@@ -19,7 +19,7 @@ export const PT_B1_U26: Lesson[] = [
           "Don't drop the \"de\". Without it, \"acabar\" means to finish something: \"acabei o relatório\" (I finished the report) vs \"acabei de ler o relatório\" (I've just read the report).",
         ],
         examples: [
-          { es: "Acabei de chegar em casa.", en: "I've just got home." },
+          { es: "Acabei de chegar em casa.", en: "I just got home." },
           { es: "A Mariana acabou de ligar para você.", en: "Mariana has just called you." },
           { es: "A gente acabou de jantar.", en: "We've just had dinner." },
           { es: "O governo acaba de anunciar novas medidas.", en: "The government has just announced new measures." },
@@ -30,7 +30,7 @@ export const PT_B1_U26: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I've just got home.",
+            source: "I just got home.",
             answer: "Acabei de chegar em casa.",
             altAnswers: ["Eu acabei de chegar em casa.", "Acabo de chegar em casa.", "Eu acabo de chegar em casa."],
             explanation: "Just done = \"acabar de\" + infinitive. \"Acabei de\" is the everyday Brazilian form.",
@@ -47,7 +47,7 @@ export const PT_B1_U26: Lesson[] = [
       {
         heading: "Acabava de: I had just",
         body: [
-          "Put \"acabar\" in the imperfeito and you get had just: \"eu acabava de sair quando ele chegou\" (I had just left when he arrived). In speech, Brazilians often use the perfeito here too, or the mais-que-perfeito: \"eu tinha acabado de sair quando ele chegou\". All three are correct.",
+          "Put \"acabar\" in the imperfeito and you get had just: \"eu acabava de sair quando ele chegou\" (I had just left when he arrived). In speech, the mais-que-perfeito is far more common: \"eu tinha acabado de sair quando ele chegou\". Both are correct; \"acabava de\" sounds more written.",
           "The pronoun goes before the infinitive in speech: \"acabei de te mandar uma mensagem\", \"ela acabou de me ligar\".",
         ],
         examples: [
@@ -227,7 +227,7 @@ export const PT_B1_U26: Lesson[] = [
       {
         heading: "Starting: começar a, passar a",
         body: [
-          "\"Começar a\" + infinitive is to start doing: \"comecei a estudar português em 2023\", \"começou a chover\". English allows started studying or started to study; Portuguese always uses \"a\" + infinitive, never the gerúndio after \"começar\".",
+          "\"Começar a\" + infinitive is to start doing: \"comecei a estudar português em 2023\", \"começou a chover\". English allows started studying or started to study; Portuguese uses \"a\" + infinitive. \"Começar\" + gerúndio means something else, to begin by doing: \"comecei lavando a louça\" (I started by doing the dishes).",
           "\"Passar a\" + infinitive means to start doing something as a new habit, from that point on: \"depois do susto, passei a correr três vezes por semana\" (I took up running). \"Começar a\" is the moment something starts; \"passar a\" is a change in routine that lasts.",
         ],
         examples: [
@@ -245,7 +245,7 @@ export const PT_B1_U26: Lesson[] = [
             source: "I started studying Portuguese in 2023.",
             answer: "Comecei a estudar português em 2023.",
             altAnswers: ["Eu comecei a estudar português em 2023."],
-            explanation: "\"Começar a\" + infinitive, never *\"comecei estudando\".",
+            explanation: "\"Começar a\" + infinitive, not \"comecei estudando\", which would mean I began by studying.",
           },
           {
             type: "multiple-choice",
@@ -294,7 +294,7 @@ export const PT_B1_U26: Lesson[] = [
         heading: "Again: voltar a vs de novo",
         body: [
           "\"Voltar a\" + infinitive means to do something again, usually after a break: \"voltei a estudar\" (I went back to studying), \"ela voltou a morar com os pais\". \"De novo\" (or \"outra vez\") also means again, added to any verb: \"ela errou de novo\".",
-          "The difference: \"voltar a\" suggests resuming something you'd stopped; \"de novo\" just repeats an action. \"Choveu de novo\" (it rained again, today too); \"voltou a chover\" (after a dry spell, rain is back). Don't mix them: *\"voltei de estudar\" means nothing.",
+          "The difference: \"voltar a\" suggests resuming something you'd stopped; \"de novo\" just repeats an action. \"Choveu de novo\" (it rained again, today too); \"voltou a chover\" (after a dry spell, rain is back). Don't mix in \"de\": \"voltei de\" means came back from (\"voltei de Recife\"), so *\"voltei de estudar\" doesn't say again.",
         ],
         examples: [
           { es: "Voltei a estudar depois de dez anos.", en: "I went back to studying after ten years." },
@@ -477,7 +477,7 @@ export const PT_B1_U26: Lesson[] = [
         heading: "Ando cansado: andar + adjective",
         body: [
           "\"Andar\" also works with an adjective, meaning to have been feeling or to have been in a state lately: \"ando meio cansado\" (I've been feeling kind of tired), \"ela anda estressada\", \"o tempo anda maluco\". The adjective agrees: \"ela anda preocupada\".",
-          "It's like \"estar\" stretched over recent weeks. \"Estou cansado\" is right now; \"ando cansado\" is lately. \"Meio\" (kind of, a bit) is a favourite partner: \"ando meio sem paciência\".",
+          "It's like \"estar\" stretched over recent weeks. \"Estou cansado\" is right now; \"ando cansado\" is lately. \"Meio\" (kind of, a bit) is a favorite partner: \"ando meio sem paciência\".",
         ],
         examples: [
           { es: "Ando meio cansado.", en: "I've been feeling kind of tired." },
@@ -515,9 +515,9 @@ export const PT_B1_U26: Lesson[] = [
         examples: [
           { es: "Ela vive reclamando do chefe.", en: "She's always complaining about her boss." },
           { es: "Meu irmão vive pedindo dinheiro emprestado.", en: "My brother's always borrowing money." },
-          { es: "O Rafael vive viajando a trabalho.", en: "Rafael is always travelling for work." },
+          { es: "O Rafael vive viajando a trabalho.", en: "Rafael is always traveling for work." },
           { es: "Ele vive ocupado, nunca tem tempo.", en: "He's always busy, he never has time." },
-          { es: "Esse elevador vive quebrando.", en: "This lift is always breaking down." },
+          { es: "Esse elevador vive quebrando.", en: "This elevator is always breaking down." },
         ],
         checkpoint: [
           {
@@ -587,7 +587,7 @@ export const PT_B1_U26: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "Rafael [is always travelling] for work.",
+        en: "Rafael [is always traveling] for work.",
         sentence: "O Rafael ___ a trabalho.",
         answer: "vive viajando",
         altAnswers: ["está sempre viajando"],
@@ -693,7 +693,7 @@ export const PT_B1_U26: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "A neighbour asks \"Tudo bem?\" and you're not great, but OK. What's a natural answer?",
+            question: "A neighbor asks \"Tudo bem?\" and you're not great, but OK. What's a natural answer?",
             options: ["Vou levando.", "Vou levar.", "Fui levando.", "Levei."],
             correctIndex: 0,
             explanation: "\"Vou levando\" is the fixed modest answer: getting by.",
@@ -713,7 +713,7 @@ export const PT_B1_U26: Lesson[] = [
         heading: "Venho pensando: a build-up to now",
         body: [
           "\"Vir\" + gerúndio describes something that has been building up from the past to now: \"venho pensando nisso há meses\" (I've been thinking about it for months), \"os preços vêm subindo desde janeiro\". It's very common in writing and the news, a little formal in conversation.",
-          "It's close to \"tenho\" + participle, but \"vir\" stresses the steady growth towards today: \"o número de turistas vem aumentando\" (has been steadily rising). Watch the forms: \"venho\", \"vem\", \"vimos\", \"vêm\" (with the circumflex for eles).",
+          "It's close to \"tenho\" + participle, but \"vir\" stresses the steady growth toward today: \"o número de turistas vem aumentando\" (has been steadily rising). Watch the forms: \"venho\", \"vem\", \"vimos\", \"vêm\" (with the circumflex for eles).",
         ],
         examples: [
           { es: "Venho pensando nisso há meses.", en: "I've been thinking about it for months." },
@@ -835,7 +835,7 @@ export const PT_B1_U26: Lesson[] = [
         type: "speak",
         text: "Venho pensando nisso há meses.",
         prompt: "Say it in Portuguese: I've been thinking about it for months.",
-        tip: "Venho: the nh is like the ny in canyon, VE-nhu.",
+        tip: "Venho: the e is nasal and the nh is like the ny in canyon: VẼ-nhu.",
         explanation: "\"Venho\" + gerúndio + \"há meses\".",
       },
       {
@@ -871,7 +871,7 @@ export const PT_B1_U26: Lesson[] = [
           { es: "A gente acabou ficando em casa por causa da chuva.", en: "We ended up staying at home because of the rain." },
           { es: "Ele foi para Goiânia a trabalho e acabou se mudando para lá.", en: "He went to Goiânia for work and ended up moving there." },
           { es: "Acabei dormindo no sofá.", en: "I ended up falling asleep on the sofa." },
-          { es: "O projeto acabou por ser cancelado.", en: "The project ended up being cancelled." },
+          { es: "O projeto acabou por ser cancelado.", en: "The project ended up being canceled." },
         ],
         checkpoint: [
           {
@@ -1083,7 +1083,7 @@ export const PT_B1_U26: Lesson[] = [
           { es: "Ela chegou a ligar para a polícia.", en: "She went as far as calling the police." },
           { es: "O livro era tão chato que eu nem cheguei a terminar.", en: "The book was so boring I didn't even get to the end." },
           { es: "Meu avô não chegou a conhecer o neto.", en: "My grandfather never got to meet his grandson." },
-          { es: "A gente chegou a ver um apartamento em Copacabana.", en: "We actually went to see a flat in Copacabana." },
+          { es: "A gente chegou a ver um apartamento em Copacabana.", en: "We actually went to see an apartment in Copacabana." },
         ],
         checkpoint: [
           {
@@ -1242,9 +1242,9 @@ export const PT_B1_U26: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: We actually went to see a flat in Copacabana.",
+        prompt: "Put the words in order to say: We actually went to see an apartment in Copacabana.",
         words: ["A", "gente", "chegou", "a", "ver", "um", "apartamento", "em", "Copacabana."],
-        translation: "We actually went to see a flat in Copacabana.",
+        translation: "We actually went to see an apartment in Copacabana.",
         explanation: "\"Chegar a\" + infinitive: actually did, went as far as.",
       },
       {
@@ -1325,8 +1325,8 @@ export const PT_B1_U26: Lesson[] = [
           { es: "A Juliana virou professora de yoga.", en: "Juliana became a yoga teacher." },
           { es: "O meu colega de escola virou chef.", en: "My old school friend became a chef." },
           { es: "A reunião virou briga.", en: "The meeting turned into a fight." },
-          { es: "A antiga fábrica virou um centro cultural.", en: "The old factory turned into a cultural centre." },
-          { es: "Esse bairro virou moda.", en: "This neighbourhood has become trendy." },
+          { es: "A antiga fábrica virou um centro cultural.", en: "The old factory turned into a cultural center." },
+          { es: "Esse bairro virou moda.", en: "This neighborhood has become trendy." },
         ],
         checkpoint: [
           {
@@ -1351,13 +1351,13 @@ export const PT_B1_U26: Lesson[] = [
       {
         heading: "Tornar-se: become, in writing",
         body: [
-          "\"Tornar-se\" + noun or adjective is the formal become, for news, CVs and essays: \"ela tornou-se presidente da empresa em 2020\", \"o bairro tornou-se perigoso\". In speech and informal writing, Brazilians put the pronoun first: \"ela se tornou presidente\". Both are correct; the enclitic \"tornou-se\" is written style.",
+          "\"Tornar-se\" + noun or adjective is the formal become, for news, résumés and essays: \"ela tornou-se presidente da empresa em 2020\", \"o bairro tornou-se perigoso\". In speech and informal writing, Brazilians put the pronoun first: \"ela se tornou presidente\". Both are correct; the enclitic \"tornou-se\" is written style.",
           "Don't forget the \"se\": *\"ela tornou médica\" is wrong. Without \"se\", \"tornar\" means to make (\"isso torna tudo mais fácil\") or to do again in old-fashioned style.",
         ],
         examples: [
           { es: "Ela tornou-se presidente da empresa em 2020.", en: "She became president of the company in 2020." },
           { es: "Ele se tornou um dos maiores escritores do país.", en: "He became one of the country's greatest writers." },
-          { es: "O bairro se tornou mais seguro nos últimos anos.", en: "The neighbourhood has become safer in recent years." },
+          { es: "O bairro se tornou mais seguro nos últimos anos.", en: "The neighborhood has become safer in recent years." },
           { es: "A cidade tornou-se um polo de tecnologia.", en: "The city became a technology hub." },
           { es: "Isso torna tudo mais fácil.", en: "That makes everything easier." },
         ],
@@ -1420,7 +1420,7 @@ export const PT_B1_U26: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The old factory turned into a cultural centre.",
+        source: "The old factory turned into a cultural center.",
         answer: "A antiga fábrica virou um centro cultural.",
         altAnswers: ["A antiga fábrica se tornou um centro cultural.", "A fábrica antiga virou um centro cultural.", "A antiga fábrica tornou-se um centro cultural."],
         explanation: "One thing turning into another: \"virar\" + noun (here with \"um\", since it's a thing, not a profession).",
@@ -1429,7 +1429,7 @@ export const PT_B1_U26: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The neighbourhood has become safer in recent years.",
+        source: "The neighborhood has become safer in recent years.",
         answer: "O bairro se tornou mais seguro nos últimos anos.",
         altAnswers: ["O bairro tornou-se mais seguro nos últimos anos.", "O bairro ficou mais seguro nos últimos anos.", "Nos últimos anos, o bairro ficou mais seguro.", "Nos últimos anos, o bairro se tornou mais seguro."],
         explanation: "\"Se tornou\" (formal) or \"ficou\" (spoken) + adjective. English has become uses the perfeito here.",
@@ -1445,7 +1445,7 @@ export const PT_B1_U26: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "This neighbourhood [has become] trendy.",
+        en: "This neighborhood [has become] trendy.",
         sentence: "Esse bairro ___ moda.",
         answer: "virou",
         explanation: "\"Virar moda\": to become fashionable.",
@@ -1553,7 +1553,7 @@ export const PT_B1_U26: Lesson[] = [
         examples: [
           { es: "Ela anda cansada.", en: "She's been tired lately." },
           { es: "Vocês andam cansados?", en: "Have you all been tired lately?" },
-          { es: "Eles vivem viajando.", en: "They're always travelling." },
+          { es: "Eles vivem viajando.", en: "They're always traveling." },
           { es: "Nós paramos de comer carne.", en: "We stopped eating meat." },
           { es: "As meninas ficaram esperando na porta.", en: "The girls were left waiting at the door." },
         ],
@@ -1562,7 +1562,7 @@ export const PT_B1_U26: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "They're always travelling.",
+            source: "They're always traveling.",
             answer: "Eles vivem viajando.",
             altAnswers: ["Elas vivem viajando.", "Eles estão sempre viajando.", "Elas estão sempre viajando."],
             explanation: "\"Vivem\" + gerúndio; the gerúndio doesn't change.",
@@ -1634,7 +1634,7 @@ export const PT_B1_U26: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "I want to [go back to playing] football.",
+        en: "I want to [go back to playing] soccer.",
         sentence: "Quero ___ futebol.",
         answer: "voltar a jogar",
         explanation: "\"Querer\" + \"voltar a\" + infinitive: a chain of three.",
@@ -1665,7 +1665,7 @@ export const PT_B1_U26: Lesson[] = [
         type: "listen-choose",
         audio: "Eles vivem viajando.",
         question: "What does it mean?",
-        options: ["They're always travelling.", "They live travelling abroad.", "They've just travelled.", "They're about to travel."],
+        options: ["They're always traveling.", "They live traveling abroad.", "They've just traveled.", "They're about to travel."],
         correctIndex: 0,
         explanation: "\"Viver\" + gerúndio: always.",
       },
@@ -1735,7 +1735,7 @@ export const PT_B1_U26: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Your neighbour's kids are shouting right now. Which do you say?",
+            question: "Your neighbor's kids are shouting right now. Which do you say?",
             options: ["Parem de gritar!", "Deixem de gritar!", "Voltem a gritar!", "Acabem gritando!"],
             correctIndex: 0,
             explanation: "Stopping something happening now: \"parar de\".",
@@ -1785,7 +1785,7 @@ export const PT_B1_U26: Lesson[] = [
           {
             type: "speak",
             text: "Ela voltou a sorrir.",
-            tip: "Sorrir has a strong double r, like a breathy h in Rio: so-HIR.",
+            tip: "Sorrir has a strong double r, a breathy h in most of Brazil: so-HIR.",
             explanation: "\"Voltar a\": doing something again after a gap.",
           },
         ],
@@ -2122,7 +2122,7 @@ export const PT_B1_U26: Lesson[] = [
           "Mistake 3: *\"voltei de estudar\". Do again takes \"a\": \"voltei a estudar\". \"Voltar de\" means to come back from a place: \"voltei de Recife\". A quick rule: verbs of starting and resuming take \"a\" (\"começar a\", \"passar a\", \"voltar a\", \"chegar a\"); verbs of ending take \"de\" (\"acabar de\", \"parar de\", \"deixar de\").",
         ],
         examples: [
-          { es: "Acabei de chegar do trabalho.", en: "I've just got back from work." },
+          { es: "Acabei de chegar do trabalho.", en: "I just got back from work." },
           { es: "Parei de fumar em 2019.", en: "I stopped smoking in 2019." },
           { es: "Voltei a estudar francês.", en: "I've gone back to studying French." },
           { es: "Voltei de Recife ontem.", en: "I came back from Recife yesterday." },
@@ -2140,7 +2140,7 @@ export const PT_B1_U26: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I've just got back from work.",
+            source: "I just got back from work.",
             answer: "Acabei de chegar do trabalho.",
             altAnswers: ["Eu acabei de chegar do trabalho.", "Acabei de voltar do trabalho.", "Eu acabei de voltar do trabalho.", "Acabo de chegar do trabalho."],
             explanation: "\"Acabar de\" + infinitive: the \"de\" can't be dropped.",
@@ -2189,7 +2189,7 @@ export const PT_B1_U26: Lesson[] = [
         ],
         examples: [
           { es: "Ela se tornou médica aos vinte e cinco anos.", en: "She became a doctor at twenty-five." },
-          { es: "Ele virou professor de matemática.", en: "He became a maths teacher." },
+          { es: "Ele virou professor de matemática.", en: "He became a math teacher." },
           { es: "Ele ficou nervoso na apresentação.", en: "He got nervous during the presentation." },
           { es: "A casa ficou linda depois da reforma.", en: "The house looked beautiful after the renovation." },
           { es: "A cidade tornou-se um destino turístico.", en: "The city became a tourist destination." },
@@ -2199,7 +2199,7 @@ export const PT_B1_U26: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "He became a maths teacher.",
+            source: "He became a math teacher.",
             answer: "Ele virou professor de matemática.",
             altAnswers: ["Ele se tornou professor de matemática.", "Ele tornou-se professor de matemática."],
             explanation: "A profession: \"virar\" or \"se tornar\", never \"ficar\".",
@@ -2349,7 +2349,7 @@ export const PT_B1_U26: Lesson[] = [
         examples: [
           { es: "Na escola, eu vivia desenhando nos cadernos.", en: "At school, I was always drawing in my notebooks." },
           { es: "Hoje sou arquiteta e moro em Florianópolis.", en: "Today I'm an architect and I live in Florianópolis." },
-          { es: "Virei engenheiro, apesar de odiar matemática na escola.", en: "I became an engineer, even though I hated maths at school." },
+          { es: "Virei engenheiro, apesar de odiar matemática na escola.", en: "I became an engineer, even though I hated math at school." },
           { es: "Me tornei mãe em 2018.", en: "I became a mother in 2018." },
           { es: "Com o tempo, fiquei mais calmo.", en: "Over time, I became calmer." },
         ],
@@ -2557,15 +2557,15 @@ export const PT_B1_U26: Lesson[] = [
           { es: "Naquela época, eu andava dormindo muito mal.", en: "Back then, I wasn't sleeping well at all." },
           { es: "Um dia, parei de tomar café à noite.", en: "One day, I stopped drinking coffee at night." },
           { es: "Eu já tinha tentado parar antes, sem sucesso.", en: "I had already tried to stop before, without success." },
-          { es: "Eu acabava de deitar quando o vizinho começou a tocar bateria.", en: "I had just gone to bed when the neighbour started playing the drums." },
-          { es: "No fim das contas, acabei me mudando de apartamento.", en: "In the end, I ended up moving flats." },
+          { es: "Eu acabava de deitar quando o vizinho começou a tocar bateria.", en: "I had just gone to bed when the neighbor started playing the drums." },
+          { es: "No fim das contas, acabei me mudando de apartamento.", en: "In the end, I ended up moving to a new apartment." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I had just gone to bed when the neighbour started playing the drums.",
+            source: "I had just gone to bed when the neighbor started playing the drums.",
             answer: "Eu acabava de deitar quando o vizinho começou a tocar bateria.",
             altAnswers: ["Eu tinha acabado de deitar quando o vizinho começou a tocar bateria.", "Acabava de deitar quando o vizinho começou a tocar bateria.", "Tinha acabado de deitar quando o vizinho começou a tocar bateria.", "Eu tinha acabado de me deitar quando o vizinho começou a tocar bateria.", "Eu acabava de me deitar quando o vizinho começou a tocar bateria.", "Eu acabava de deitar quando a vizinha começou a tocar bateria."],
             explanation: "Had just: \"acabava de\" / \"tinha acabado de\"; the event: \"começou a tocar\".",
@@ -2573,7 +2573,7 @@ export const PT_B1_U26: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "In the end, I [ended up moving] flats.",
+            en: "In the end, I [ended up moving] to a new apartment.",
             sentence: "No fim das contas, ___ de apartamento.",
             answer: "acabei me mudando",
             altAnswers: ["acabei mudando"],
@@ -2584,13 +2584,13 @@ export const PT_B1_U26: Lesson[] = [
       {
         heading: "Chains with wishes and advice",
         body: [
-          "With the present subjunctive, the auxiliary carries the subjunctive: \"espero que ele pare de reclamar\", \"tomara que volte a fazer sol\", \"é importante que você continue estudando\". With the conditional, the same: \"eu no seu lugar, voltaria a estudar\".",
+          "With the present subjunctive, the auxiliary carries the subjunctive: \"espero que ele pare de reclamar\", \"tomara que volte a fazer sol\", \"é importante que você continue estudando\". With the conditional, the same: \"eu, no seu lugar, voltaria a estudar\".",
         ],
         examples: [
           { es: "Espero que ele pare de reclamar.", en: "I hope he stops complaining." },
           { es: "Tomara que volte a fazer sol amanhã.", en: "Let's hope the sun comes back out tomorrow." },
           { es: "É importante que você continue estudando.", en: "It's important that you keep studying." },
-          { es: "Eu no seu lugar, voltaria a estudar.", en: "If I were you, I'd go back to studying." },
+          { es: "Eu, no seu lugar, voltaria a estudar.", en: "If I were you, I'd go back to studying." },
           { es: "O médico recomenda que eu deixe de comer açúcar.", en: "The doctor recommends that I give up sugar." },
         ],
         checkpoint: [
@@ -2613,7 +2613,7 @@ export const PT_B1_U26: Lesson[] = [
           },
           {
             type: "speak",
-            text: "Eu no seu lugar, voltaria a estudar.",
+            text: "Eu, no seu lugar, voltaria a estudar.",
             tip: "Voltaria: stress the ri, vol-ta-RI-a.",
             explanation: "Conditional advice: \"voltaria\" + \"a\" + infinitive.",
           },
@@ -2679,7 +2679,7 @@ export const PT_B1_U26: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
         en: "If I were you, I['d go back] to studying.",
-        sentence: "Eu no seu lugar, ___ a estudar.",
+        sentence: "Eu, no seu lugar, ___ a estudar.",
         answer: "voltaria",
         altAnswers: ["voltava"],
         explanation: "Conditional advice: \"voltaria\" (or spoken \"voltava\").",
@@ -2722,7 +2722,7 @@ export const PT_B1_U26: Lesson[] = [
       {
         type: "speak",
         text: "No fim das contas, acabei me mudando de apartamento.",
-        prompt: "Say it in Portuguese: In the end, I ended up moving flats.",
+        prompt: "Say it in Portuguese: In the end, I ended up moving to a new apartment.",
         tip: "Mudando: mu-DAN-du, with a nasal an.",
         explanation: "\"Acabei\" + gerúndio: the outcome.",
       },

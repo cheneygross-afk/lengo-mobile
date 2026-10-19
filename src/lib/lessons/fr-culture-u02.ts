@@ -5,7 +5,7 @@ import type { Lesson, WriteExercise } from "./types";
 
 export const FR_CULTURE_U02_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A French friend has asked you to write a short post for her blog's 'Mon week-end culture' column. Tell the story of a weekend in which you watched an important football match with French fans and went to the cinema to see a French film. Bring the match to life as if you were commenting it, give your opinion of the film, and end with a reflection on what football or French song taught you about the language.",
+  prompt: "A French friend has asked you to write a short post for her blog's \"Mon week-end culture\" column. Tell the story of a weekend in which you watched an important football match with French fans and went to the cinema to see a French film. Bring the match to life as if you were commenting it, give your opinion of the film, and end with a reflection on what football or French song taught you about the language.",
   minWords: 180,
   maxWords: 300,
   rubric: [
@@ -64,7 +64,7 @@ export const FR_CULTURE_U02: Lesson[] = [
       {
         heading: "Ligue 1, le Classique and the supporters",
         body: [
-          "The top division is \"la Ligue 1\". Its fiercest rivalry is \"le Classique\": \"le PSG\" (Paris Saint-Germain, rich, with Qatari owners) against \"l'OM\" (Olympique de Marseille, the only French club to have won the Champions League, in 1993). It is Paris against the provinces, the capital against the south, and Marseille fans never let you forget \"à jamais les premiers\" (forever the first).",
+          "The top division is \"la Ligue 1\". Its fiercest rivalry is \"le Classique\": \"le PSG\" (Paris Saint-Germain, rich, with Qatari owners) against \"l'OM\" (Olympique de Marseille, the first French club to win the Champions League, in 1993; PSG only followed in 2025). It is Paris against the provinces, the capital against the south, and Marseille fans never let you forget \"à jamais les premiers\" (forever the first).",
           "Fans are \"les supporters\" (the English word, pronounced the French way, and also \"supporteurs\"). The most committed groups are \"les ultras\", who stand in \"les virages\" (the curved stands behind the goals), prepare \"les tifos\" (giant banners) and sing for ninety minutes. \"Le Vélodrome\" (Marseille) and \"le Parc des Princes\" (Paris) are temples of that culture. Other historic clubs: Saint-Étienne (\"les Verts\"), Lyon, Lens, Nantes.",
           "Talking about your club: \"Je suis supporter de l'OM\", \"Je suis pour Lens\", \"Je supporte Saint-Étienne\". Careful: in standard French \"supporter\" means to bear, to put up with: \"je ne supporte pas le PSG\" means I can't stand PSG!",
         ],
@@ -1308,7 +1308,7 @@ export const FR_CULTURE_U02: Lesson[] = [
       {
         type: "speak",
         text: "Quand nous chanterons le temps des cerises",
-        tip: "\"Chanterons\": three syllables, the mute e drops (chan-tron).",
+        tip: "\"Chanterons\": in the song the mute e is sung, chan-te-rons (three syllables); in everyday speech it usually drops: chan-trons.",
         explanation: "The opening line of the 1866 song by Jean-Baptiste Clément, a classic of the French repertoire.",
       },
     ],
@@ -1403,7 +1403,7 @@ export const FR_CULTURE_U02: Lesson[] = [
           { es: "Grand Corps Malade a popularisé le slam en France.", en: "Grand Corps Malade made slam popular in France." },
           { es: "Alan Stivell a fait revivre la harpe celtique.", en: "Alan Stivell brought the Celtic harp back to life." },
           { es: "Céline Dion vient du Québec.", en: "Celine Dion comes from Quebec." },
-          { es: "Au Québec, « ma blonde », ça veut dire ma copine.", en: "In Quebec, ma blonde means my girlfriend." },
+          { es: "Au Québec, « ma blonde », ça veut dire ma copine.", en: "In Quebec, \"ma blonde\" means my girlfriend." },
           { es: "Le Festival interceltique a lieu à Lorient en août.", en: "The Interceltic Festival takes place in Lorient in August." },
         ],
         checkpoint: [
@@ -1769,7 +1769,7 @@ export const FR_CULTURE_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in standard French: « Il est trop relou, ce mec. »",
+            prompt: "Rewrite in standard French: \"Il est trop relou, ce mec.\"",
             source: "That guy is really annoying.",
             answer: "Cet homme est vraiment pénible.",
             altAnswers: ["Ce garçon est vraiment pénible.", "Cet homme est vraiment agaçant.", "Ce type est vraiment pénible.", "Cet homme est très pénible.", "Ce garçon est vraiment agaçant.", "Ce gars est vraiment pénible.", "Il est vraiment pénible, cet homme."],
@@ -1808,7 +1808,7 @@ export const FR_CULTURE_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in standard French: « J'ai le seum, la daronne veut pas que je sorte. »",
+            prompt: "Rewrite in standard French: \"J'ai le seum, la daronne veut pas que je sorte.\"",
             source: "I'm gutted, my mother doesn't want me to go out.",
             answer: "Je suis dégoûté, ma mère ne veut pas que je sorte.",
             altAnswers: ["Je suis dégoûtée, ma mère ne veut pas que je sorte.", "Je suis déçu, ma mère ne veut pas que je sorte.", "Je suis déçue, ma mère ne veut pas que je sorte.", "Je suis frustré, ma mère ne veut pas que je sorte.", "Je suis frustrée, ma mère ne veut pas que je sorte."],
@@ -1843,7 +1843,7 @@ export const FR_CULTURE_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in standard French: « Y a rien à faire ici, faut qu'on bouge. »",
+            prompt: "Rewrite in standard French: \"Y a rien à faire ici, faut qu'on bouge.\"",
             source: "There is nothing to do here, we have to leave.",
             answer: "Il n'y a rien à faire ici, il faut que nous partions.",
             altAnswers: ["Il n'y a rien à faire ici, il faut qu'on parte.", "Il n'y a rien à faire ici, nous devons partir.", "Il n'y a rien à faire ici, on doit partir.", "Il n'y a rien à faire ici, il faut partir."],
@@ -1869,7 +1869,7 @@ export const FR_CULTURE_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in standard French: « Wesh frérot, t'as vu la meuf ? Elle est chelou. »",
+        prompt: "Rewrite in standard French: \"Wesh frérot, t'as vu la meuf ? Elle est chelou.\"",
         source: "Hello, my friend, did you see that woman? She is strange.",
         answer: "Salut, mon ami, as-tu vu cette femme ? Elle est bizarre.",
         altAnswers: ["Salut, mon frère, as-tu vu cette femme ? Elle est bizarre.", "Bonjour, mon ami, as-tu vu cette femme ? Elle est bizarre.", "Salut, mon ami, tu as vu cette femme ? Elle est bizarre.", "Salut, mon frère, tu as vu cette femme ? Elle est bizarre.", "Salut, mon ami, as-tu vu cette femme ? Elle est étrange.", "Salut, mon frère, as-tu vu cette femme ? Elle est étrange."],
@@ -1878,7 +1878,7 @@ export const FR_CULTURE_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in standard French: « Je suis vénère, on m'a volé mon vélo. »",
+        prompt: "Rewrite in standard French: \"Je suis vénère, on m'a volé mon vélo.\"",
         source: "I'm furious, my bike has been stolen.",
         answer: "Je suis furieux, on m'a volé mon vélo.",
         altAnswers: ["Je suis furieuse, on m'a volé mon vélo.", "Je suis très énervé, on m'a volé mon vélo.", "Je suis très énervée, on m'a volé mon vélo.", "Je suis furieux, mon vélo a été volé.", "Je suis furieuse, mon vélo a été volé.", "Je suis en colère, on m'a volé mon vélo."],
@@ -1904,7 +1904,7 @@ export const FR_CULTURE_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in standard French: « Mon daron kiffe les vieux films. »",
+        prompt: "Rewrite in standard French: \"Mon daron kiffe les vieux films.\"",
         source: "My father loves old films.",
         answer: "Mon père adore les vieux films.",
         altAnswers: ["Mon père aime beaucoup les vieux films.", "Mon père aime les vieux films."],
@@ -1927,7 +1927,7 @@ export const FR_CULTURE_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in standard French: « T'as vu ? C'est ouf ! »",
+        prompt: "Rewrite in standard French: \"T'as vu ? C'est ouf !\"",
         source: "Did you see? It's incredible!",
         answer: "As-tu vu ? C'est incroyable !",
         altAnswers: ["Tu as vu ? C'est incroyable !", "As-tu vu ? C'est extraordinaire !", "Tu as vu ? C'est extraordinaire !", "As-tu vu ? C'est fou !", "Tu as vu ? C'est fou !"],

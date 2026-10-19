@@ -554,7 +554,7 @@ export const FR_C1_U05_EXTRA: Lesson[] = [
         prompt: "Translate into French (news style).",
         source: "The bank was robbed by three armed men.",
         answer: "La banque a été braquée par trois hommes armés.",
-        altAnswers: ["La banque a été cambriolée par trois hommes armés.", "La banque a été attaquée par trois hommes armés."],
+        altAnswers: ["La banque a été attaquée par trois hommes armés."],
         explanation: "\"Braquer\" = to hold up; agent with \"par\" because it's newsworthy.",
       },
       {
@@ -651,7 +651,7 @@ export const FR_C1_U05_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Un suspect a été interpellé par la gendarmerie à Lille.",
-        prompt: "Read this news lead aloud.",
+        prompt: "Say it in French (news style): A suspect was arrested by the gendarmerie in Lille.",
         explanation: "Passive with a newsworthy agent.",
       },
     ],
@@ -672,7 +672,7 @@ export const FR_C1_U05_EXTRA: Lesson[] = [
           "\"Se voir\" + infinitive turns an indirect object into a subject, mainly in the press: \"se voir refuser / confier / retirer / décerner / infliger\". \"Vu\" stays invariable before an infinitive.",
         ],
         examples: [
-          { es: "Je me suis fait piquer par un moustique toute la nuit.", en: "I got bitten by mosquitoes all night." },
+          { es: "Je me suis fait piquer par les moustiques toute la nuit.", en: "I got bitten by mosquitoes all night." },
           { es: "Elle s'est fait engueuler par son chef.", en: "She got yelled at by her boss." },
           { es: "Ils se sont fait rembourser leurs billets.", en: "They got their tickets refunded." },
           { es: "Le joueur s'est vu infliger trois matchs de suspension.", en: "The player was given a three-match ban." },
@@ -699,7 +699,7 @@ export const FR_C1_U05_EXTRA: Lesson[] = [
           },
           {
             type: "speak",
-            text: "Je me suis fait piquer par un moustique toute la nuit.",
+            text: "Je me suis fait piquer par les moustiques toute la nuit.",
             prompt: "Say it in French: I got bitten by mosquitoes all night.",
             explanation: "\"Se faire piquer\": insects 'sting' in French, even mosquitoes.",
           },

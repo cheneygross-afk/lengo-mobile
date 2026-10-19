@@ -14,7 +14,7 @@ export const PT_B2_U26: Lesson[] = [
       {
         heading: "Six biomes",
         body: [
-          "Brazilian schoolchildren learn six \"biomas\". The \"Amazônia\" covers almost half the country. The \"Cerrado\", a vast savanna in the centre, holds the sources of major rivers and is called the \"berço das águas\" (cradle of waters). The \"Mata Atlântica\", the coastal forest where most Brazilians live, has lost most of its original area. The \"Caatinga\" is the semi-arid scrubland of the Northeast and the only biome found nowhere else. The \"Pantanal\" is the world's largest tropical wetland, and the \"Pampa\" is the grassland of Rio Grande do Sul.",
+          "Brazilian schoolchildren learn six \"biomas\". The \"Amazônia\" covers almost half the country. The \"Cerrado\", a vast savanna in the center, holds the sources of major rivers and is called the \"berço das águas\" (cradle of waters). The \"Mata Atlântica\", the coastal forest where most Brazilians live, has lost most of its original area. The \"Caatinga\" is the semi-arid scrubland of the Northeast and the only biome found nowhere else. The \"Pantanal\" is the world's largest tropical wetland, and the \"Pampa\" is the grassland of Rio Grande do Sul.",
           "They are proper nouns with a fixed gender, so the article contracts with prepositions: \"na Amazônia\", \"na Mata Atlântica\", \"na Caatinga\", but \"no Cerrado\", \"no Pantanal\", \"no Pampa\". Spell \"Amazônia\" with a circumflex; the acute accent is European.",
         ],
         examples: [
@@ -29,9 +29,9 @@ export const PT_B2_U26: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The Pantanal is the largest wetland in the world.",
-            answer: "O Pantanal é a maior área úmida do mundo.",
-            altAnswers: ["O Pantanal é a maior planície alagada do mundo.", "O Pantanal é a maior área alagada do mundo.", "O Pantanal é a maior zona úmida do mundo.", "O Pantanal é a maior planície alagável do mundo.", "O Pantanal é a maior área úmida tropical do mundo."],
+            source: "The Pantanal is the largest tropical wetland in the world.",
+            answer: "O Pantanal é a maior área úmida tropical do mundo.",
+            altAnswers: ["O Pantanal é a maior planície alagada tropical do mundo.", "O Pantanal é a maior área alagada tropical do mundo.", "O Pantanal é a maior zona úmida tropical do mundo.", "O Pantanal é a maior planície alagável tropical do mundo.", "O Pantanal é a maior área úmida tropical do planeta.", "O Pantanal é a maior planície alagada tropical do planeta."],
             explanation: "\"O Pantanal\" is masculine. A wetland is an \"área úmida\" or \"planície alagada\"; \"úmida\" has an acute accent on the u.",
           },
           {
@@ -66,7 +66,7 @@ export const PT_B2_U26: Lesson[] = [
             source: "We saw two jaguars in the Pantanal.",
             answer: "Vimos duas onças-pintadas no Pantanal.",
             altAnswers: ["Nós vimos duas onças-pintadas no Pantanal.", "A gente viu duas onças-pintadas no Pantanal.", "Vimos duas onças no Pantanal.", "Nós vimos duas onças no Pantanal.", "A gente viu duas onças no Pantanal."],
-            explanation: "Noun + adjective compounds pluralise both parts: \"onças-pintadas\". \"Onça\" is feminine, so \"duas\".",
+            explanation: "Noun + adjective compounds pluralize both parts: \"onças-pintadas\". \"Onça\" is feminine, so \"duas\".",
           },
           {
             type: "multiple-choice",
@@ -234,13 +234,13 @@ export const PT_B2_U26: Lesson[] = [
       {
         heading: "Too much water: enchente, alagamento, deslizamento",
         body: [
-          "English flood covers three Portuguese words. An \"enchente\" is when a river rises and floods a town, like Rio Grande do Sul in 2024. An \"alagamento\" is a street or neighbourhood under water after heavy rain because the drains can't cope, an everyday event in São Paulo in summer. \"Inundação\" is the general, more formal word. The river \"transborda\" (overflows), and the street \"alaga\" or \"fica alagada\".",
-          "On hillsides, rain brings a \"deslizamento de terra\" (landslide), and houses can suffer a \"desabamento\" (collapse). The homes most exposed are in \"áreas de risco\", often informal neighbourhoods built on slopes or riverbanks.",
+          "English flood covers three Portuguese words. An \"enchente\" is when a river rises and floods a town, like Rio Grande do Sul in 2024. An \"alagamento\" is a street or neighborhood under water after heavy rain because the drains can't cope, an everyday event in São Paulo in summer. \"Inundação\" is the general, more formal word. The river \"transborda\" (overflows), and the street \"alaga\" or \"fica alagada\".",
+          "On hillsides, rain brings a \"deslizamento de terra\" (landslide), and houses can suffer a \"desabamento\" (collapse). The homes most exposed are in \"áreas de risco\", often informal neighborhoods built on slopes or riverbanks.",
         ],
         examples: [
           { es: "A enchente de 2024 atingiu quase todo o Rio Grande do Sul.", en: "The 2024 floods hit almost the whole of Rio Grande do Sul." },
           { es: "Choveu meia hora e a avenida já ficou alagada.", en: "It rained for half an hour and the avenue was already flooded." },
-          { es: "O rio Guaíba transbordou e invadiu o centro de Porto Alegre.", en: "The Guaíba overflowed and poured into central Porto Alegre." },
+          { es: "O Guaíba transbordou e invadiu o centro de Porto Alegre.", en: "The Guaíba overflowed and poured into central Porto Alegre." },
           { es: "Um deslizamento de terra destruiu cinco casas no morro.", en: "A landslide destroyed five houses on the hillside." },
           { es: "Milhares de famílias moram em áreas de risco em Petrópolis.", en: "Thousands of families live in at-risk areas in Petrópolis." },
         ],
@@ -275,7 +275,7 @@ export const PT_B2_U26: Lesson[] = [
       {
         heading: "Too little: seca, estiagem, onda de calor",
         body: [
-          "\"Seca\" is drought, the strong everyday word, and it also names the dry season in the Northeast and the Cerrado. \"Estiagem\" is a period without rain, the meteorologist's word: \"a estiagem já dura quatro meses\". In 2023 and 2024 the Amazon had a historic drought, and rivers that are motorways for local people became too shallow for boats.",
+          "\"Seca\" is drought, the strong everyday word, and it also names the dry season in the Northeast and the Cerrado. \"Estiagem\" is a period without rain, the meteorologist's word: \"a estiagem já dura quatro meses\". In 2023 and 2024 the Amazon had a historic drought, and rivers that are highways for local people became too shallow for boats.",
           "An \"onda de calor\" is a heatwave, and the forecasts warn of \"temperaturas recordes\" and \"baixa umidade do ar\" (low humidity). Drought brings \"racionamento de água\" (water rationing) and \"queimadas\" (fires, often started deliberately to clear land).",
         ],
         examples: [
@@ -308,7 +308,7 @@ export const PT_B2_U26: Lesson[] = [
       {
         heading: "The report: Defesa Civil, desabrigados and the passive",
         body: [
-          "The \"Defesa Civil\" (civil defence) issues alerts, often by text message, and evacuates \"áreas de risco\". Reports count the victims precisely: \"desabrigados\" have lost their homes and are in public shelters (\"abrigos\"); \"desalojados\" had to leave home but are staying with family or friends. A city can declare a \"estado de calamidade pública\".",
+          "The \"Defesa Civil\" (civil defense) issues alerts, often by text message, and evacuates \"áreas de risco\". Reports count the victims precisely: \"desabrigados\" have lost their homes and are in public shelters (\"abrigos\"); \"desalojados\" had to leave home but are staying with family or friends. A city can declare a \"estado de calamidade pública\".",
           "These reports use the passive because the victims are the topic: \"centenas de famílias foram desalojadas\", \"foram resgatadas 300 pessoas\", \"a estrada foi interditada\" (closed). The participle agrees with the people or things affected.",
           "\"Vítima\" (victim) is always feminine, even for a man: \"a vítima, um homem de 40 anos, foi resgatada\".",
         ],
@@ -316,7 +316,7 @@ export const PT_B2_U26: Lesson[] = [
           { es: "Centenas de famílias foram desalojadas pela enchente.", en: "Hundreds of families were forced out of their homes by the flood." },
           { es: "Os desabrigados foram levados para abrigos em escolas e ginásios.", en: "Those left homeless were taken to shelters in schools and sports halls." },
           { es: "Mais de trezentas pessoas foram resgatadas de barco.", en: "More than three hundred people were rescued by boat." },
-          { es: "A Defesa Civil enviou um alerta por SMS aos moradores.", en: "The civil defence sent residents a text alert." },
+          { es: "A Defesa Civil enviou um alerta por SMS aos moradores.", en: "The civil defense sent residents a text alert." },
           { es: "A rodovia foi interditada por causa de um deslizamento.", en: "The highway was closed because of a landslide." },
           { es: "Foi decretado estado de calamidade pública na cidade.", en: "A state of public emergency was declared in the city." },
         ],
@@ -356,7 +356,7 @@ export const PT_B2_U26: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The civil defence evacuated the at-risk areas.",
+        source: "The civil defense evacuated the at-risk areas.",
         answer: "A Defesa Civil evacuou as áreas de risco.",
         altAnswers: ["A Defesa Civil retirou os moradores das áreas de risco.", "A defesa civil evacuou as áreas de risco.", "As áreas de risco foram evacuadas pela Defesa Civil."],
         explanation: "\"Evacuar\" an area, or \"retirar\" the residents. \"Área de risco\" is the official term.",
@@ -411,7 +411,7 @@ export const PT_B2_U26: Lesson[] = [
       {
         type: "speak",
         text: "A Defesa Civil pediu que os moradores deixassem as áreas de risco.",
-        prompt: "Say it in Portuguese: The civil defence asked residents to leave the at-risk areas.",
+        prompt: "Say it in Portuguese: The civil defense asked residents to leave the at-risk areas.",
         tip: "Deixassem: the x sounds like sh and the double s is a clear s: dei-SHA-ssem.",
         explanation: "A reported request: \"pediu que\" + imperfect subjunctive.",
       },
@@ -461,7 +461,7 @@ export const PT_B2_U26: Lesson[] = [
         body: [
           "Brazil's \"matriz energética\" (energy mix) is unusually clean: most of its electricity comes from \"usinas hidrelétricas\" (hydroelectric plants), like Itaipu on the border with Paraguay. Wind (\"energia eólica\") has boomed in the Northeast, with huge \"parques eólicos\", and \"energia solar\" is spreading on rooftops. These are \"fontes renováveis\"; oil and gas are \"combustíveis fósseis\".",
           "Brazil also runs its cars on \"etanol\", made from \"cana-de-açúcar\". Most new cars are \"flex\", so at the \"posto de gasolina\" drivers choose between \"álcool\" (the everyday word for ethanol) and gasolina. \"Biocombustível\" is the general term.",
-          "Watch the gender: \"a hidrelétrica\" is short for \"a usina hidrelétrica\", so it is feminine, and locals often just say \"a usina\". \"Energia\" is also the everyday word for the power supply: \"acabou a energia\" (or \"acabou a luz\") means there is a power cut.",
+          "Watch the gender: \"a hidrelétrica\" is short for \"a usina hidrelétrica\", so it is feminine, and locals often just say \"a usina\". \"Energia\" is also the everyday word for the power supply: \"acabou a energia\" (or \"acabou a luz\") means there is a power outage.",
         ],
         examples: [
           { es: "A maior parte da energia elétrica do Brasil vem de hidrelétricas.", en: "Most of Brazil's electricity comes from hydroelectric plants." },
@@ -493,14 +493,14 @@ export const PT_B2_U26: Lesson[] = [
       {
         heading: "Agronegócio, garimpo and licensing",
         body: [
-          "The \"agronegócio\" (agribusiness, often just \"o agro\") makes Brazil a giant exporter of soy, beef, coffee and sugar, and it is at the centre of the debate about \"desmatamento\" (deforestation). Cattle and soy push into the Amazon and the Cerrado; defenders say the sector feeds the economy, critics that it destroys forest.",
+          "The \"agronegócio\" (agribusiness, often just \"o agro\") makes Brazil a giant exporter of soy, beef, coffee and sugar, and it is at the center of the debate about \"desmatamento\" (deforestation). Cattle and soy push into the Amazon and the Cerrado; defenders say the sector feeds the economy, critics that it destroys forest.",
           "\"Garimpo\" is small-scale gold mining, and \"garimpo ilegal\" in indigenous lands poisons rivers with mercury; the miners are \"garimpeiros\". New dams, mines or roads need \"licenciamento ambiental\" (environmental licensing), and the federal agency IBAMA can grant or refuse the \"licença\".",
         ],
         examples: [
           { es: "O agronegócio responde por boa parte das exportações brasileiras.", en: "Agribusiness accounts for a large share of Brazil's exports." },
           { es: "O desmatamento na Amazônia caiu no último ano, segundo o Inpe.", en: "Deforestation in the Amazon fell last year, according to Inpe." },
           { es: "O garimpo ilegal contaminou os rios da Terra Indígena Yanomami.", en: "Illegal gold mining contaminated the rivers of the Yanomami Indigenous Territory." },
-          { es: "A obra está parada porque ainda não recebeu a licença ambiental.", en: "Construction has stopped because it hasn't yet got its environmental licence." },
+          { es: "A obra está parada porque ainda não recebeu a licença ambiental.", en: "Construction has stopped because it hasn't gotten its environmental license yet." },
           { es: "O Ibama multou a empresa por desmatamento ilegal.", en: "Ibama fined the company for illegal deforestation." },
         ],
         checkpoint: [
@@ -662,7 +662,7 @@ export const PT_B2_U26: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The project can't start until it gets the environmental licence.",
+        source: "The project can't start until it gets the environmental license.",
         answer: "A obra não pode começar antes de receber a licença ambiental.",
         altAnswers: ["O projeto não pode começar antes de receber a licença ambiental.", "A obra não pode começar até receber a licença ambiental.", "O projeto não pode começar até receber a licença ambiental.", "A obra só pode começar quando receber a licença ambiental.", "O projeto só pode começar quando receber a licença ambiental.", "A obra não pode começar enquanto não receber a licença ambiental.", "O projeto não pode começar enquanto não receber a licença ambiental."],
         explanation: "\"Antes de\" + infinitive, or \"quando\" / \"enquanto não\" + future subjunctive. A construction project is an \"obra\".",
@@ -674,7 +674,7 @@ export const PT_B2_U26: Lesson[] = [
     level: "PT-B2",
     number: 4,
     title: "Spiral Review: A Usina no Rio",
-    summary: "A small town in Pará debates a new dam: practise embora, uma vez que, se + imperfect subjunctive, reported speech and the passive in a heated town meeting.",
+    summary: "A small town in Pará debates a new dam: practice embora, uma vez que, se + imperfect subjunctive, reported speech and the passive in a heated town meeting.",
     duration: "14 min",
     kind: "review",
     format: "Spiral review",
@@ -685,7 +685,7 @@ export const PT_B2_U26: Lesson[] = [
           "A company wants to build a \"usina hidrelétrica\" on the river beside Santa Rosa, a fictional town in Pará. The announcement is pure passive and future: \"a usina será construída em três anos\", \"serão criados dois mil empregos\". The town meets in the school hall to discuss it, and the mayor reports what the company promised: \"a empresa garantiu que ninguém seria prejudicado\".",
         ],
         examples: [
-          { es: "A usina será construída a dez quilômetros da cidade.", en: "The plant will be built ten kilometres from the town." },
+          { es: "A usina será construída a dez quilômetros da cidade.", en: "The plant will be built ten kilometers from the town." },
           { es: "Segundo a empresa, serão criados dois mil empregos.", en: "According to the company, two thousand jobs will be created." },
           { es: "O prefeito disse que a empresa tinha garantido que ninguém seria prejudicado.", en: "The mayor said the company had guaranteed that no one would be harmed." },
           { es: "A área que vai ser alagada inclui três comunidades ribeirinhas.", en: "The area that will be flooded includes three riverside communities." },
@@ -896,7 +896,7 @@ export const PT_B2_U26: Lesson[] = [
       {
         heading: "Apps, passwords and the cloud",
         body: [
-          "In Brazil an app is an \"aplicativo\", shortened in speech to \"o app\" (said \"ápi\"). You \"baixar\" (download) and \"instalar\" it, and later \"atualizar\" (update) it. A password is a \"senha\", and files go \"na nuvem\" (in the cloud). When a phone freezes, it \"trava\"; you \"reiniciar\" it. \"Carregar\" means both to charge a battery and to load a page: \"a página não carrega\".",
+          "In Brazil an app is an \"aplicativo\", shortened in speech to \"o app\" (said \"épi\"). You \"baixar\" (download) and \"instalar\" it, and later \"atualizar\" (update) it. A password is a \"senha\", and files go \"na nuvem\" (in the cloud). When a phone freezes, it \"trava\"; you \"reiniciar\" it. \"Carregar\" means both to charge a battery and to load a page: \"a página não carrega\".",
           "\"Tela\" is the screen and \"celular\" the phone. Brazilians also \"salvar\" a file (save) and \"apagar\" or \"excluir\" one (delete); \"excluir\" is the word you'll see on buttons.",
           "Two traps: \"desligar\" is to switch off, while \"deslogar\" (from log out) is the casual opposite of \"logar\" or \"fazer login\". And a Brazilian \"site\" is a website, never a place.",
         ],
@@ -1123,7 +1123,7 @@ export const PT_B2_U26: Lesson[] = [
         ],
         examples: [
           { es: "O algoritmo só me mostra vídeo de receita.", en: "The algorithm only shows me recipe videos." },
-          { es: "Usei uma ferramenta de IA para resumir o relatório.", en: "I used an AI tool to summarise the report." },
+          { es: "Usei uma ferramenta de IA para resumir o relatório.", en: "I used an AI tool to summarize the report." },
           { es: "Um deepfake do candidato circulou no WhatsApp antes da eleição.", en: "A deepfake of the candidate circulated on WhatsApp before the election." },
           { es: "Muita gente tem medo de que a IA substitua o seu trabalho.", en: "Lots of people are afraid that AI will replace their jobs." },
           { es: "O Congresso discute como regulamentar a inteligência artificial.", en: "Congress is discussing how to regulate artificial intelligence." },
@@ -1152,7 +1152,7 @@ export const PT_B2_U26: Lesson[] = [
       {
         heading: "Dados pessoais and the LGPD",
         body: [
-          "Brazil's data protection law is the \"LGPD\" (Lei Geral de Proteção de Dados), similar to Europe's GDPR. It protects your \"dados pessoais\" (personal data) and requires \"consentimento\" (consent) for many uses. In Brazil, shops ask for your \"CPF\" (tax number) at the till for discounts, and under the LGPD you can ask why.",
+          "Brazil's data protection law is the \"LGPD\" (Lei Geral de Proteção de Dados), similar to Europe's GDPR. It protects your \"dados pessoais\" (personal data) and requires \"consentimento\" (consent) for many uses. In Brazil, stores ask for your \"CPF\" (tax number) at the register for discounts, and under the LGPD you can ask why.",
           "A \"vazamento de dados\" is a data leak; the data \"vazaram\" (leaked) or \"foram expostos\" (were exposed). \"Os termos de uso\" are the terms of use you never read, and you \"aceitar os cookies\" on every site.",
         ],
         examples: [
@@ -1182,7 +1182,7 @@ export const PT_B2_U26: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A shop assistant asks \"CPF na nota?\" What does she want?",
+            question: "A store clerk asks \"CPF na nota?\" What does she want?",
             options: ["Your tax number on the receipt.", "Your phone number for a message.", "Your card password.", "Your signature on the receipt."],
             correctIndex: 0,
             explanation: "The \"CPF\" is the Brazilian taxpayer number, often added to receipts for tax rebates and loyalty schemes.",
@@ -1341,16 +1341,16 @@ export const PT_B2_U26: Lesson[] = [
       {
         heading: "What happened",
         body: [
-          "Juliana, a teacher in Recife, calls her friend Rafael in a panic: \"Meu WhatsApp foi clonado!\" She tells the story in the passive and with reported speech: someone called pretending to be from a shop, \"disse que eu tinha ganhado um prêmio\" and asked for \"o código de seis dígitos\" that arrived by text. She gave it, and lost her account.",
+          "Juliana, a teacher in Recife, calls her friend Rafael in a panic: \"Meu WhatsApp foi clonado!\" She tells the story in the passive and with reported speech: someone called pretending to be from a store, \"disse que eu tinha ganhado um prêmio\" and asked for \"o código de seis dígitos\" that arrived by text. She gave it, and lost her account.",
           "In this scam, the criminals then message the victim's contacts asking for a Pix (an instant bank transfer): \"mandaram mensagem para a minha mãe pedindo dinheiro\". Brazilians call the account \"clonado\" even when it was really taken over.",
         ],
         examples: [
           { es: "Rafael, socorro! Meu WhatsApp foi clonado!", en: "Rafael, help! My WhatsApp has been cloned!" },
-          { es: "Um cara me ligou dizendo que era da loja.", en: "A guy called me saying he was from the shop." },
+          { es: "Um cara me ligou dizendo que era da loja.", en: "A guy called me saying he was from the store." },
           { es: "Ele disse que eu tinha ganhado um prêmio e pediu um código.", en: "He said I'd won a prize and asked for a code." },
           { es: "Eu passei o código de seis dígitos sem pensar.", en: "I gave him the six-digit code without thinking." },
           { es: "Já foram enviadas mensagens para todos os meus contatos.", en: "Messages have already been sent to all my contacts." },
-          { es: "Pediram um Pix de mil reais para a minha mãe!", en: "They asked my mum to send them a thousand reais!" },
+          { es: "Pediram um Pix de mil reais para a minha mãe!", en: "They asked my mom to send them a thousand reais!" },
         ],
         checkpoint: [
           {
@@ -1422,7 +1422,7 @@ export const PT_B2_U26: Lesson[] = [
         examples: [
           { es: "Faz um B.O. online, é rapidinho.", en: "File a police report online, it's really quick." },
           { es: "Se eu tivesse desconfiado, não teria passado o código.", en: "If I'd been suspicious, I wouldn't have given the code." },
-          { es: "Ainda bem que a sua mãe não fez o Pix.", en: "Thank goodness your mum didn't send the money." },
+          { es: "Ainda bem que a sua mãe não fez o Pix.", en: "Thank goodness your mom didn't send the money." },
           { es: "Que bom que você percebeu rápido.", en: "It's good that you noticed quickly." },
           { es: "Da próxima vez, desconfia de qualquer pedido de código.", en: "Next time, be suspicious of any request for a code." },
         ],
@@ -1553,7 +1553,7 @@ export const PT_B2_U26: Lesson[] = [
     level: "PT-B2",
     number: 8,
     title: "Word Web: Science and Research",
-    summary: "Read and retell science news: pesquisa, pesquisador, estudo, hipótese, experimento, amostra, comprovar, apontar, segundo um estudo da USP, and the nominalisations that headlines love.",
+    summary: "Read and retell science news: pesquisa, pesquisador, estudo, hipótese, experimento, amostra, comprovar, apontar, segundo um estudo da USP, and the nominalizations that headlines love.",
     duration: "14 min",
     sections: [
       {
@@ -1626,12 +1626,12 @@ export const PT_B2_U26: Lesson[] = [
             question: "What does it mean?",
             options: ["The study finds that heat increases hospital admissions.", "The study points at the heat in hospitals.", "The study recommends heating in hospitals.", "The study asks hospitals to admit more patients."],
             correctIndex: 0,
-            explanation: "\"Apontar que\" is to find or indicate, a favourite reporting verb in Brazilian science news.",
+            explanation: "\"Apontar que\" is to find or indicate, a favorite reporting verb in Brazilian science news.",
           },
         ],
       },
       {
-        heading: "Nominalisation: from verb to noun",
+        heading: "Nominalization: from verb to noun",
         body: [
           "News packs whole sentences into nouns. \"O desmatamento aumentou\" becomes \"o aumento do desmatamento\"; \"reduziram as emissões\" becomes \"a redução das emissões\". You know the suffixes from the word formation unit: \"-mento\" (aumento, crescimento), \"-ção\" (redução, poluição), \"-da\" (descoberta, queda).",
           "The object or subject of the old verb follows with \"de\": \"a descoberta de uma nova espécie\", \"a queda do número de casos\". To understand a dense headline, turn the noun back into a verb.",
@@ -1659,7 +1659,7 @@ export const PT_B2_U26: Lesson[] = [
             source: "The rise in temperature worries researchers.",
             answer: "O aumento da temperatura preocupa os pesquisadores.",
             altAnswers: ["O aumento da temperatura preocupa pesquisadores.", "O aumento das temperaturas preocupa os pesquisadores.", "O aumento da temperatura preocupa os cientistas.", "A alta da temperatura preocupa os pesquisadores.", "O aumento de temperatura preocupa os pesquisadores."],
-            explanation: "\"O aumento de\" + the thing that rises. The nominalised subject is singular, so \"preocupa\".",
+            explanation: "\"O aumento de\" + the thing that rises. The nominalized subject is singular, so \"preocupa\".",
           },
         ],
       },
@@ -1775,7 +1775,7 @@ export const PT_B2_U26: Lesson[] = [
     level: "PT-B2",
     number: 9,
     title: "Spiral Review: Dictation: Science and Environment Headlines",
-    summary: "Hear and write Brazilian headlines about science and the environment, then unpack their nominalisations, dropped articles and present tense into full sentences.",
+    summary: "Hear and write Brazilian headlines about science and the environment, then unpack their nominalizations, dropped articles and present tense into full sentences.",
     duration: "13 min",
     kind: "review",
     format: "Spiral review",
@@ -1821,7 +1821,7 @@ export const PT_B2_U26: Lesson[] = [
       {
         heading: "Unpacking the nouns",
         body: [
-          "Each nominalisation hides a verb and its subject. \"Aumento das queimadas\" → \"as queimadas aumentaram\"; \"vazamento de dados de clientes\" → \"os dados dos clientes vazaram\"; \"descoberta de nova espécie\" → \"descobriram uma nova espécie\" or \"uma nova espécie foi descoberta\".",
+          "Each nominalization hides a verb and its subject. \"Aumento das queimadas\" → \"as queimadas aumentaram\"; \"vazamento de dados de clientes\" → \"os dados dos clientes vazaram\"; \"descoberta de nova espécie\" → \"descobriram uma nova espécie\" or \"uma nova espécie foi descoberta\".",
         ],
         examples: [
           { es: "Aumento das queimadas preocupa brigadistas.", en: "Rise in fires worries firefighters." },
@@ -1993,13 +1993,13 @@ export const PT_B2_U26: Lesson[] = [
       {
         heading: "Atualizar, realizar, perceber",
         body: [
-          "\"Atualizar\" means to update (\"atualizar o app\", \"atualizar a página\"), and nothing like actualise. \"Realizar\" means to carry out or hold, a formal word for \"fazer\": \"a empresa realizou testes\", \"o evento será realizado em maio\". English realise is \"perceber\" or \"se dar conta\": \"percebi que tinha apagado o arquivo\".",
+          "\"Atualizar\" means to update (\"atualizar o app\", \"atualizar a página\"), and nothing like actualize. \"Realizar\" means to carry out or hold, a formal word for \"fazer\": \"a empresa realizou testes\", \"o evento será realizado em maio\". English realize is \"perceber\" or \"se dar conta\": \"percebi que tinha apagado o arquivo\".",
           "Two more traps from everyday tech talk: \"eventualmente\" means occasionally, not eventually (which is \"no fim\" or \"mais cedo ou mais tarde\"), and \"assinar\" means to subscribe as well as to sign: \"assinar um serviço de streaming\".",
         ],
         examples: [
           { es: "Atualiza a página que o comentário aparece.", en: "Refresh the page and the comment will show up." },
           { es: "A empresa realizou testes com mil usuários.", en: "The company carried out tests with a thousand users." },
-          { es: "Só percebi que o arquivo não tinha salvado no dia seguinte.", en: "I only realised the file hadn't saved the next day." },
+          { es: "Só percebi que o arquivo não tinha salvado no dia seguinte.", en: "I only realized the file hadn't saved the next day." },
           { es: "Eu uso esse aplicativo eventualmente, uma vez por mês.", en: "I use this app occasionally, once a month." },
           { es: "Assinei dois serviços de streaming e quase não uso nenhum.", en: "I subscribed to two streaming services and hardly use either." },
         ],
@@ -2008,15 +2008,15 @@ export const PT_B2_U26: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I realised I had deleted the file.",
+            source: "I realized I had deleted the file.",
             answer: "Percebi que tinha apagado o arquivo.",
             altAnswers: ["Eu percebi que tinha apagado o arquivo.", "Percebi que eu tinha apagado o arquivo.", "Me dei conta de que tinha apagado o arquivo.", "Percebi que tinha deletado o arquivo.", "Eu percebi que tinha deletado o arquivo.", "Percebi que tinha excluído o arquivo.", "Percebi que havia apagado o arquivo."],
-            explanation: "Realise is \"perceber\", never \"realizar\". The earlier past is \"tinha apagado\".",
+            explanation: "Realize is \"perceber\", never \"realizar\". The earlier past is \"tinha apagado\".",
           },
           {
             type: "multiple-choice",
             question: "What does \"O evento será realizado em São Paulo\" mean?",
-            options: ["The event will be held in São Paulo.", "The event will be realised in São Paulo.", "The event will be noticed in São Paulo.", "The event will be cancelled in São Paulo."],
+            options: ["The event will be held in São Paulo.", "The event will be realized in São Paulo.", "The event will be noticed in São Paulo.", "The event will be canceled in São Paulo."],
             correctIndex: 0,
             explanation: "\"Realizar\" is to hold or carry out. It never means to notice or understand.",
           },
@@ -2025,7 +2025,7 @@ export const PT_B2_U26: Lesson[] = [
       {
         heading: "Brazil or Portugal?",
         body: [
-          "Tech is where Brazilian and European Portuguese split most. Brazil says \"aplicativo\", \"tela\", \"celular\", \"baixar\", \"arquivo\", \"senha\" and \"mouse\"; Portugal says \"aplicação\", \"ecrã\", \"telemóvel\", \"descarregar\", \"ficheiro\", \"palavra-passe\" and \"rato\". You'll meet the European forms in software translated in Lisbon; recognise them, but write the Brazilian ones.",
+          "Tech is where Brazilian and European Portuguese split most. Brazil says \"aplicativo\", \"tela\", \"celular\", \"baixar\", \"arquivo\", \"senha\" and \"mouse\"; Portugal says \"aplicação\", \"ecrã\", \"telemóvel\", \"descarregar\", \"ficheiro\", \"palavra-passe\" and \"rato\". You'll meet the European forms in software translated in Lisbon; recognize them, but write the Brazilian ones.",
           "In Brazil, \"aplicação\" exists but means an application of something (a vaccine, a law) or a financial investment: \"uma aplicação na poupança\".",
         ],
         examples: [
@@ -2050,7 +2050,7 @@ export const PT_B2_U26: Lesson[] = [
             source: "My phone screen is broken.",
             answer: "A tela do meu celular está quebrada.",
             altAnswers: ["A tela do meu celular quebrou.", "A tela do celular está quebrada.", "A tela do meu celular está rachada.", "A tela do meu celular rachou.", "Meu celular está com a tela quebrada."],
-            explanation: "\"Tela\" and \"celular\" are the Brazilian words for screen and mobile phone.",
+            explanation: "\"Tela\" and \"celular\" are the Brazilian words for screen and cell phone.",
           },
           {
             type: "listen-choose",
@@ -2089,7 +2089,7 @@ export const PT_B2_U26: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Delete that message before Mum sees it!",
+            source: "Delete that message before Mom sees it!",
             answer: "Apaga essa mensagem antes que a mãe veja!",
             altAnswers: ["Apaga essa mensagem antes da mãe ver!", "Deleta essa mensagem antes que a mãe veja!", "Apaga essa mensagem antes que a mamãe veja!", "Apague essa mensagem antes que a mãe veja!", "Apaga essa mensagem antes de a mãe ver!", "Deleta essa mensagem antes da mãe ver!", "Apaga essa mensagem antes que a mãe a veja!"],
             explanation: "Between siblings, \"apaga\" or \"deleta\". \"Antes que\" + present subjunctive (\"veja\").",
@@ -2121,7 +2121,7 @@ export const PT_B2_U26: Lesson[] = [
         question: "You suddenly understand you left your phone in the taxi. What do you say?",
         options: ["Percebi que esqueci o celular no táxi!", "Realizei que esqueci o celular no táxi!", "Atualizei que esqueci o celular no táxi!", "Eventualmente esqueci o celular no táxi!"],
         correctIndex: 0,
-        explanation: "To realise is \"perceber\". \"Realizei\" would mean I carried out.",
+        explanation: "To realize is \"perceber\". \"Realizei\" would mean I carried out.",
       },
       {
         type: "translate",
@@ -2160,7 +2160,7 @@ export const PT_B2_U26: Lesson[] = [
           { left: "arquivo", right: "ficheiro" },
           { left: "senha", right: "palavra-passe" },
         ],
-        explanation: "Write the left column; recognise the right one when you see software translated in Portugal.",
+        explanation: "Write the left column; recognize the right one when you see software translated in Portugal.",
       },
       {
         type: "listen-choose",
@@ -2173,7 +2173,7 @@ export const PT_B2_U26: Lesson[] = [
       {
         type: "dictation",
         audio: "Percebi que tinha apagado as fotos.",
-        explanation: "\"Perceber\" is to realise. \"Tinha apagado\": the deleting came first.",
+        explanation: "\"Perceber\" is to realize. \"Tinha apagado\": the deleting came first.",
       },
       {
         type: "speak",
@@ -2198,7 +2198,7 @@ export const PT_B2_U26: Lesson[] = [
         source: "The conference will be held online.",
         answer: "A conferência será realizada on-line.",
         altAnswers: ["A conferência será realizada online.", "A conferência vai ser realizada on-line.", "A conferência vai ser realizada online.", "O congresso será realizado on-line.", "O congresso será realizado online.", "A conferência vai ser on-line.", "A conferência vai ser online."],
-        explanation: "\"Ser realizado\" is the formal to be held. It has nothing to do with realise.",
+        explanation: "\"Ser realizado\" is the formal to be held. It has nothing to do with realize.",
       },
     ],
   },
@@ -2223,7 +2223,7 @@ export const PT_B2_U26: Lesson[] = [
           { es: "Os focos de incêndio foram detectados por satélites do Inpe.", en: "The fire hotspots were detected by Inpe satellites." },
           { es: "Dezenas de animais feridos foram resgatados pelos brigadistas.", en: "Dozens of injured animals were rescued by the firefighters." },
           { es: "Uma onça com as patas queimadas foi levada para tratamento em Goiás.", en: "A jaguar with burned paws was taken for treatment in Goiás." },
-          { es: "A fumaça chegou a cidades a mais de mil quilômetros de distância.", en: "The smoke reached cities more than a thousand kilometres away." },
+          { es: "A fumaça chegou a cidades a mais de mil quilômetros de distância.", en: "The smoke reached cities more than a thousand kilometers away." },
         ],
         checkpoint: [
           {
@@ -2467,13 +2467,13 @@ export const PT_B2_U26: Lesson[] = [
       {
         heading: "The screen",
         body: [
-          "On the digital side: regular -ar anglicisms (\"postar\", \"printar\", \"deletar\"), the passive in data news (\"os dados foram expostos\"), reporting verbs (\"a empresa negou que...\") and the future subjunctive in instructions (\"assim que receber o código...\"). Keep the false friends straight: \"atualizar\" (update), \"perceber\" (realise), \"eventualmente\" (occasionally).",
+          "On the digital side: regular -ar anglicisms (\"postar\", \"printar\", \"deletar\"), the passive in data news (\"os dados foram expostos\"), reporting verbs (\"a empresa negou que...\") and the future subjunctive in instructions (\"assim que receber o código...\"). Keep the false friends straight: \"atualizar\" (update), \"perceber\" (realize), \"eventualmente\" (occasionally).",
         ],
         examples: [
           { es: "Segundo a empresa, nenhum dado bancário foi exposto.", en: "According to the company, no bank details were exposed." },
           { es: "Assim que você receber o link, não clique: apague.", en: "As soon as you get the link, don't click it: delete it." },
           { es: "Ela printou a conversa e postou nas redes.", en: "She screenshotted the conversation and posted it online." },
-          { es: "Só percebi que era golpe quando o dinheiro sumiu da conta.", en: "I only realised it was a scam when the money vanished from my account." },
+          { es: "Só percebi que era golpe quando o dinheiro sumiu da conta.", en: "I only realized it was a scam when the money vanished from my account." },
           { es: "O estudo aponta que os jovens passam nove horas por dia na tela.", en: "The study finds that young people spend nine hours a day on screens." },
         ],
         checkpoint: [
@@ -2481,10 +2481,10 @@ export const PT_B2_U26: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I only realised it was a scam when it was too late.",
+            source: "I only realized it was a scam when it was too late.",
             answer: "Só percebi que era golpe quando já era tarde demais.",
             altAnswers: ["Eu só percebi que era golpe quando já era tarde demais.", "Só percebi que era um golpe quando já era tarde demais.", "Só percebi que era golpe quando era tarde demais.", "Eu só percebi que era um golpe quando já era tarde demais.", "Só me dei conta de que era golpe quando já era tarde demais.", "Só percebi que era golpe quando já era tarde."],
-            explanation: "Realise is \"perceber\"; \"realizar\" would mean carry out.",
+            explanation: "Realize is \"perceber\"; \"realizar\" would mean carry out.",
           },
           {
             type: "multiple-choice",
@@ -2506,7 +2506,7 @@ export const PT_B2_U26: Lesson[] = [
       {
         heading: "Science between the two",
         body: [
-          "Science news links planet and screen: \"segundo um estudo da USP\", \"pesquisadores apontam que\", and nominalisations like \"o aumento das queimadas\" or \"a queda do desmatamento\". When you retell a study to a friend, unpack the nouns and drop the formal verbs: \"o estudo diz que o desmatamento caiu\".",
+          "Science news links planet and screen: \"segundo um estudo da USP\", \"pesquisadores apontam que\", and nominalizations like \"o aumento das queimadas\" or \"a queda do desmatamento\". When you retell a study to a friend, unpack the nouns and drop the formal verbs: \"o estudo diz que o desmatamento caiu\".",
         ],
         examples: [
           { es: "Pesquisadores da Embrapa trabalham em variedades de soja mais resistentes à seca.", en: "Embrapa researchers are working on more drought-resistant soybean varieties." },
@@ -2549,7 +2549,7 @@ export const PT_B2_U26: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The civil defence asked residents to leave the at-risk area.",
+        source: "The civil defense asked residents to leave the at-risk area.",
         answer: "A Defesa Civil pediu que os moradores deixassem a área de risco.",
         altAnswers: ["A Defesa Civil pediu aos moradores que deixassem a área de risco.", "A Defesa Civil pediu para os moradores deixarem a área de risco.", "A Defesa Civil pediu que os moradores saíssem da área de risco.", "A Defesa Civil pediu para os moradores saírem da área de risco.", "A Defesa Civil pediu que os moradores abandonassem a área de risco."],
         explanation: "Past request + imperfect subjunctive (\"deixassem\", \"saíssem\").",
@@ -2591,7 +2591,7 @@ export const PT_B2_U26: Lesson[] = [
         source: "According to the study, the rise in temperature has increased hospital admissions.",
         answer: "Segundo o estudo, o aumento da temperatura elevou as internações.",
         altAnswers: ["Segundo o estudo, o aumento da temperatura aumentou as internações.", "De acordo com o estudo, o aumento da temperatura elevou as internações.", "De acordo com o estudo, o aumento da temperatura aumentou as internações.", "Segundo o estudo, o aumento da temperatura fez as internações aumentarem.", "Segundo o estudo, o aumento das temperaturas elevou as internações."],
-        explanation: "A nominalised subject (\"o aumento da temperatura\") with a singular verb. \"Elevar\" avoids repeating \"aumentar\".",
+        explanation: "A nominalized subject (\"o aumento da temperatura\") with a singular verb. \"Elevar\" avoids repeating \"aumentar\".",
       },
       {
         type: "multiple-choice",

@@ -32,10 +32,10 @@ export const PT_C1_U01: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We need a flat that has two bedrooms (any flat, as long as it does).",
+            source: "We need an apartment that has two bedrooms (any apartment, as long as it does).",
             answer: "Precisamos de um apartamento que tenha dois quartos.",
             altAnswers: ["Nós precisamos de um apartamento que tenha dois quartos.", "A gente precisa de um apartamento que tenha dois quartos."],
-            explanation: "No particular flat exists yet, only a profile, so the relative clause takes the subjunctive: \"que tenha\". With \"que tem\" you'd be saying you already know a flat like that.",
+            explanation: "No particular apartment exists yet, only a profile, so the relative clause takes the subjunctive: \"que tenha\". With \"que tem\" you'd be saying you already know an apartment like that.",
           },
           {
             type: "fill-blank",
@@ -298,7 +298,7 @@ export const PT_C1_U01: Lesson[] = [
       {
         heading: "O único, o primeiro, nenhum",
         body: [
-          "The same choice opens after words that single something out: \"o único\", \"o primeiro\", \"o último\". \"Ele é o único que sabe a senha\" reports a fact. \"Ele é o único que saiba a senha\" underlines the exclusivity, meaning as far as anyone can tell. Formal writing prefers the subjunctive after \"o único que\".",
+          "The same choice opens after words that single something out: \"o único\", \"o primeiro\", \"o último\". \"Ele é o único que sabe a senha\" reports a fact. \"Ele é o único que saiba a senha\" underlines the exclusivity, meaning as far as anyone can tell. Careful writing often chooses the subjunctive after \"o único que\" to sound measured, but the indicative is correct in any register.",
           "With \"nenhum\", \"ninguém\" and \"nada\", the thing described doesn't exist. As you saw at B1, that means the subjunctive is expected even in conversation: \"não conheço ninguém que fale japonês\". You will hear the indicative here, but it sounds careless.",
           "After \"o primeiro\", \"o último\" and \"o único\", Portuguese often drops the clause and uses \"a\" + infinitive: \"foi a primeira mulher a presidir o tribunal\". This mirrors English 'the first woman to' and sidesteps the mood question. Don't use \"para\" or \"que\" + infinitive here.",
         ],
@@ -686,7 +686,7 @@ export const PT_C1_U01: Lesson[] = [
         type: "speak",
         text: "Haja o que houver, nós vamos estar juntos.",
         prompt: "Say it in Portuguese: Come what may, we'll be together.",
-        tip: "The h in haja and houver is silent, and the ou in houver sounds like a closed ô, and the stressed e is open: o-VÉR.",
+        tip: "The h in haja and houver is silent. The ou in houver sounds like a closed ô, and the stressed e is open: o-VÉR.",
         explanation: "\"Haja o que houver\" keeps the old future subjunctive of \"haver\" frozen inside the phrase.",
       },
       {
@@ -807,7 +807,7 @@ export const PT_C1_U01: Lesson[] = [
           { es: "Dissessem o que dissessem, ela não mudou de ideia.", en: "Whatever people said, she didn't change her mind." },
           { es: "Fosse quem fosse, o porteiro não deixava ninguém subir sem avisar.", en: "Whoever it was, the doorman didn't let anyone go up without calling first." },
           { es: "Não importa o que aconteça, a gente se vê no sábado.", en: "No matter what happens, we'll see each other on Saturday." },
-          { es: "O que quer que aconteça, o contrato deverá ser cumprido.", en: "Whatever happens, the contract must be honoured." },
+          { es: "O que quer que aconteça, o contrato deverá ser cumprido.", en: "Whatever happens, the contract must be honored." },
         ],
         checkpoint: [
           {
@@ -952,7 +952,7 @@ export const PT_C1_U01: Lesson[] = [
         body: [
           "You already know \"tomara que\" + present subjunctive for a hope about something still open: \"tomara que não chova\". At C1 the tense after it does the fine-tuning. The perfect subjunctive hopes about a past whose outcome you don't know: \"tomara que ela tenha passado\" (I hope she passed). The imperfect subjunctive turns a hope into a wish for something unlikely or unreal: \"tomara que fosse verdade\" (if only it were true).",
           "On its own, \"Tomara!\" means I hope so, and \"Tomara que não!\" means I hope not. It is neutral to informal, at home in speech and messages.",
-          "\"Oxalá\" comes from Arabic, roughly 'God willing', and means the same. In Brazil it sounds literary: you'll read it in columns and song lyrics far more than you'll hear it at the padaria. It usually takes no \"que\": \"oxalá ele tenha razão\". Capitalised, \"Oxalá\" is also an orixá of Candomblé.",
+          "\"Oxalá\" comes from Arabic, roughly 'God willing', and means the same. In Brazil it sounds literary: you'll read it in columns and song lyrics far more than you'll hear it at the padaria. It usually takes no \"que\": \"oxalá ele tenha razão\". Capitalized, \"Oxalá\" is also an orixá of Candomblé.",
         ],
         examples: [
           { es: "Tomara que o voo não atrase.", en: "I hope the flight isn't delayed." },
@@ -997,10 +997,10 @@ export const PT_C1_U01: Lesson[] = [
           "Alone, \"Quem me dera!\" is a rueful I wish! It is not for a real hope about tomorrow: \"quem me dera que você venha\" clashes an open present subjunctive with an unreal wish. Say \"tomara que você venha\".",
         ],
         examples: [
-          { es: "Quem me dera ter férias agora.", en: "I wish I had a holiday right now." },
+          { es: "Quem me dera ter férias agora.", en: "I wish I were on vacation right now." },
           { es: "Quem me dera que meus pais morassem mais perto.", en: "I wish my parents lived closer." },
           { es: "Quem me dera eu falasse cinco línguas como ela.", en: "I wish I spoke five languages like her." },
-          { es: "Quem me dera ter aproveitado mais a faculdade.", en: "I wish I'd made more of university." },
+          { es: "Quem me dera ter aproveitado mais a faculdade.", en: "I wish I'd made the most of college." },
           { es: "— Você vai tirar janeiro de folga? — Quem me dera!", en: "\"Are you taking January off?\" \"I wish!\"" },
         ],
         checkpoint: [
@@ -1025,7 +1025,7 @@ export const PT_C1_U01: Lesson[] = [
           {
             type: "speak",
             text: "Quem me dera!",
-            prompt: "Say it in Portuguese: A colleague asks if you're spending your holiday in Fernando de Noronha. Answer: I wish!",
+            prompt: "Say it in Portuguese: A colleague asks if you're spending your vacation in Fernando de Noronha. Answer: I wish!",
             tip: "Keep \"quem\" nasal with no n at the end; the e in \"dera\" is open, like é, and the r is a single tap.",
             explanation: "\"Quem me dera!\" on its own is the rueful I wish!, perfect for something you'd love but won't get.",
           },
@@ -1035,7 +1035,7 @@ export const PT_C1_U01: Lesson[] = [
         heading: "Deus queira, Deus me livre: blessings and curses",
         body: [
           "Blessings and toasts are \"que\" + present subjunctive with nothing before it: \"que tudo dê certo\". Make God the subject and you get formulas heard everywhere: \"Deus te abençoe\", \"Deus queira que...\" (please God), \"Deus me livre!\" (God forbid, or plain distaste: \"Deus me livre de morar lá\"). \"Se Deus quiser\", with the future subjunctive, follows plans almost by reflex.",
-          "Curses use the same mould: \"que se dane\" (to hell with it), the theatrical \"que o diabo o carregue\". The fossil \"viva\" belongs here too, and the written norm makes it agree: \"vivam os noivos!\", though speech says \"viva os noivos!\".",
+          "Curses use the same mold: \"que se dane\" (to hell with it), the theatrical \"que o diabo o carregue\". The fossil \"viva\" belongs here too, and the written norm makes it agree: \"vivam os noivos!\", though speech says \"viva os noivos!\".",
           "These phrases are cultural more than devotional; Brazilians who never set foot in a church say \"se Deus quiser\". They are still personal: in a client email write \"esperamos que...\", and keep \"Deus queira\" for people you know. Said of someone who has died, \"que Deus o tenha\" (or \"a tenha\") is simply kind.",
         ],
         examples: [
@@ -1202,7 +1202,7 @@ export const PT_C1_U01: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "We're looking for a flat that has a garage (any one will do).",
+            source: "We're looking for an apartment that has a garage (any one will do).",
             answer: "Procuramos um apartamento que tenha garagem.",
             altAnswers: [
               "Nós procuramos um apartamento que tenha garagem.",
@@ -1211,11 +1211,11 @@ export const PT_C1_U01: Lesson[] = [
               "A gente está procurando um apartamento que tenha garagem.",
               "A gente procura um apartamento que tenha garagem.",
             ],
-            explanation: "No particular flat is in mind, so the relative clause takes the subjunctive: \"que tenha garagem\". \"Que tem\" would point to a specific flat you already know about.",
+            explanation: "No particular apartment is in mind, so the relative clause takes the subjunctive: \"que tenha garagem\". \"Que tem\" would point to a specific apartment you already know about.",
           },
           {
             type: "multiple-choice",
-            question: "In a shop, you point at a particular blue jacket you saw in the window. What do you say?",
+            question: "In a store, you point at a particular blue jacket you saw in the window. What do you say?",
             options: [
               "Quero a jaqueta azul que está na vitrine.",
               "Quero a jaqueta azul que esteja na vitrine.",
@@ -1247,7 +1247,7 @@ export const PT_C1_U01: Lesson[] = [
           { es: "Ela avisou que todos saíam às seis.", en: "She let us know everyone was leaving at six." },
           { es: "Ela avisou que todos saíssem às seis.", en: "She told everyone to leave at six." },
           { es: "A médica escreveu que eu descansasse uma semana.", en: "The doctor wrote that I should rest for a week." },
-          { es: "Insisto que ele peça desculpas.", en: "I insist that he apologise." },
+          { es: "Insisto que ele peça desculpas.", en: "I insist that he apologize." },
         ],
         checkpoint: [
           {
@@ -1296,7 +1296,7 @@ export const PT_C1_U01: Lesson[] = [
         examples: [
           { es: "Sinto que você está preocupado.", en: "I sense you're worried." },
           { es: "Sinto muito que você esteja preocupado.", en: "I'm sorry you're worried." },
-          { es: "Compreendo que a empresa está em crise.", en: "I realise the company is in crisis." },
+          { es: "Compreendo que a empresa está em crise.", en: "I realize the company is in crisis." },
           { es: "Compreendo que você esteja chateado com a decisão.", en: "I understand why you're upset about the decision." },
           { es: "Ela falou devagar, de modo que todos entenderam.", en: "She spoke slowly, so everyone understood." },
           { es: "Ela falou devagar de modo que todos entendessem.", en: "She spoke slowly so that everyone would understand." },
@@ -1397,7 +1397,7 @@ export const PT_C1_U01: Lesson[] = [
         question: "What does \"Compreendo que você esteja cansado\" mean?",
         options: [
           "I understand why you're tired; that's fair.",
-          "I realise you're tired.",
+          "I realize you're tired.",
           "I understand that you were tired.",
           "I hope you're not tired.",
         ],
@@ -1720,7 +1720,7 @@ export const PT_C1_U01: Lesson[] = [
     level: "PT-C1",
     number: 8,
     title: "Error Hunt: Advanced Mood Choices",
-    summary: "Find and fix the mood slips advanced learners make: que eu sei, seja o que for in the wrong slot, digam o que dizem and the indicative after o único que in formal writing.",
+    summary: "Find and fix the mood slips advanced learners make: que eu sei, seja o que for in the wrong slot, digam o que dizem, and when a hedged claim after o único que needs the subjunctive.",
     duration: "15 min",
     sections: [
       {
@@ -1841,7 +1841,7 @@ export const PT_C1_U01: Lesson[] = [
       {
         heading: "O único que, nenhum que: formal writing",
         body: [
-          "As you saw in lesson 2, after \"o único\", \"o primeiro\" or a superlative, the subjunctive presents the claim as the writer's judgment, and speech often uses the indicative. In a report, essay or abstract, an evaluative claim in the indicative reads as careless: write \"é o único estudo que trate do tema\", not \"*que trata\". Keep the indicative only to identify a verified fact: \"o único funcionário que fala alemão é o Rui\".",
+          "As you saw in lesson 2, after \"o único\", \"o primeiro\" or a superlative, the subjunctive presents the claim as the writer's judgment, the limit of what is known, while the indicative states it as fact. The indicative is never an error here, in speech or in writing. The slip is a mismatch: in a report, essay or abstract where you are hedging a claim you can't fully verify, \"é o único estudo que trate do tema\" says what you mean, and \"que trata\" claims more than you know. For a verified fact, keep the indicative: \"o único funcionário que fala alemão é o Rui\".",
           "After a negated antecedent there is no choice: \"não há nenhum dado que comprove\", never \"*que comprova\", because the thing doesn't exist. This one counts as an error in any register.",
         ],
         examples: [
@@ -1866,7 +1866,7 @@ export const PT_C1_U01: Lesson[] = [
             question: "In a thesis abstract you claim that, to your knowledge, no other survey covers every state. Which sentence fits?",
             options: ["Trata-se do único levantamento que inclua todos os estados.", "Trata-se do único levantamento que inclui todos os estados.", "Trata-se do único levantamento que incluísse todos os estados.", "Trata-se do único levantamento que incluiria todos os estados."],
             correctIndex: 0,
-            explanation: "An evaluative uniqueness claim in formal writing takes the present subjunctive \"inclua\". \"Incluísse\" breaks the sequence of tenses, and \"incluiria\" is hypothetical.",
+            explanation: "'To your knowledge' is a hedge, and the present subjunctive \"inclua\" builds it into the verb. \"Inclui\" is grammatical but states the uniqueness as verified fact, which is more than you can claim. \"Incluísse\" breaks the sequence of tenses, and \"incluiria\" is hypothetical.",
           },
         ],
       },
@@ -1876,7 +1876,7 @@ export const PT_C1_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "As far as I know, the shop opens at eight.",
+        source: "As far as I know, the store opens at eight.",
         answer: "Que eu saiba, a loja abre às oito.",
         altAnswers: ["A loja abre às oito, que eu saiba.", "Pelo que sei, a loja abre às oito.", "Pelo que eu sei, a loja abre às oito."],
         explanation: "\"Que eu saiba\", never \"*que eu sei\". The opening hour itself stays in the indicative: \"abre\".",
@@ -1922,17 +1922,17 @@ export const PT_C1_U01: Lesson[] = [
         type: "speak",
         text: "Digam o que disserem, eu vou continuar.",
         prompt: "Say it in Portuguese: Whatever people say, I'm going to keep going.",
-        tip: "Stress disserem on the middle syllable, with an open é: di-SSÉ-rem.",
+        tip: "Stress disserem on the middle syllable, with an open é, and say the d before i like the j in jeans: dji-SÉ-rẽin.",
         explanation: "\"Digam o que disserem\": the third-person plural is the impersonal they, as in people say.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "It is the only study that analyses this data. (in a formal report)",
+        source: "It is the only study that analyzes this data. (formal report; present it as the limit of what is known, not as verified fact)",
         answer: "É o único estudo que analise esses dados.",
         altAnswers: ["Este é o único estudo que analise esses dados.", "É o único estudo que analise estes dados.", "Este é o único estudo que analise estes dados.", "Trata-se do único estudo que analise esses dados."],
-        explanation: "In formal writing, an evaluative claim after \"o único\" takes the subjunctive: \"analise\". \"Analisa\" is a register slip here.",
+        explanation: "A hedged uniqueness claim after \"o único\" takes the subjunctive: \"analise\". \"Analisa\" is grammatical, but it asserts the claim as fact, which is not what the prompt asks for.",
       },
       {
         type: "word-order",
@@ -1984,11 +1984,11 @@ export const PT_C1_U01: Lesson[] = [
         heading: "Fact to hypothesis: talvez, é possível que",
         body: [
           "An assertion commits you to a claim. A hypothesis doesn't. To turn one into the other, add a marker of doubt (\"talvez\" before the verb, \"é possível que\", \"pode ser que\", \"supondo que\"). The verb then switches to the subjunctive, the mood of non-assertion from lesson 1: \"Ele está em casa\" → \"Talvez ele esteja em casa\".",
-          "The real trap is tense. Keep the time of the original event. A present or future fact takes the present subjunctive (\"vai chover\" → \"pode ser que chova\"). A finished past event takes the perfect subjunctive (\"ela esqueceu\" → \"talvez ela tenha esquecido\"). English 'maybe she forgot' tempts you towards \"talvez ela esquecesse\", but the imperfect subjunctive belongs to a past frame, as in \"era possível que ela esquecesse\".",
+          "The real trap is tense. Keep the time of the original event. A present or future fact takes the present subjunctive (\"vai chover\" → \"pode ser que chova\"). A finished past event takes the perfect subjunctive (\"ela esqueceu\" → \"talvez ela tenha esquecido\"). English 'maybe she forgot' tempts you toward \"talvez ela esquecesse\", but the imperfect subjunctive belongs to a past frame, as in \"era possível que ela esquecesse\".",
         ],
         examples: [
           { es: "Talvez a Beatriz esteja no escritório.", en: "Maybe Beatriz is at the office." },
-          { es: "É possível que o pacote já tenha chegado.", en: "The parcel may already have arrived." },
+          { es: "É possível que o pacote já tenha chegado.", en: "The package may already have arrived." },
           { es: "Pode ser que chova no domingo.", en: "It might rain on Sunday." },
           { es: "Supondo que a reunião acabe tarde, quem leva as crianças?", en: "Supposing the meeting finishes late, who takes the kids?" },
           { es: "Talvez eles não tenham entendido o e-mail.", en: "Maybe they didn't understand the email." },
@@ -2005,7 +2005,7 @@ export const PT_C1_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A colleague says \"A loja fecha às dez\", and you're not sure that's right. Which sentence turns it into a guess about the shop's usual hours?",
+            question: "A colleague says \"A loja fecha às dez\", and you're not sure that's right. Which sentence turns it into a guess about the store's usual hours?",
             options: ["Talvez a loja feche às dez.", "Talvez a loja fechasse às dez.", "Talvez a loja tenha fechado às dez.", "É possível que a loja fecha às dez."],
             correctIndex: 0,
             explanation: "A present fact becomes a present subjunctive: \"feche\". \"Tenha fechado\" guesses about one past closing, and \"é possível que\" can't take the indicative \"fecha\".",
@@ -2023,12 +2023,12 @@ export const PT_C1_U01: Lesson[] = [
       {
         heading: "Fact to concession: embora, por mais que",
         body: [
-          "To concede a fact and argue past it, use \"embora\" or \"ainda que\". Both take the subjunctive even when the fact is true: \"O apartamento é caro\" → \"Embora o apartamento seja caro, a localização compensa\". The mood marks the clause as background rather than the point you're making. English 'although it is' pulls you towards \"é\".",
-          "There are two stronger moulds. \"Por mais que\" + subjunctive means no matter how much. The reduplicated concessive from lesson 4 puts the present subjunctive first and then the same verb in the future subjunctive: \"digam o que disserem\", \"aconteça o que acontecer\".",
+          "To concede a fact and argue past it, use \"embora\" or \"ainda que\". Both take the subjunctive even when the fact is true: \"O apartamento é caro\" → \"Embora o apartamento seja caro, a localização compensa\". The mood marks the clause as background rather than the point you're making. English 'although it is' pulls you toward \"é\".",
+          "There are two stronger molds. \"Por mais que\" + subjunctive means no matter how much. The reduplicated concessive from lesson 4 puts the present subjunctive first and then the same verb in the future subjunctive: \"digam o que disserem\", \"aconteça o que acontecer\".",
           "Past facts shift too. A past state becomes the imperfect subjunctive (\"estava cansada\" → \"embora estivesse cansada\"). A single finished event becomes the perfect subjunctive (\"chegou atrasado\" → \"embora tenha chegado atrasado\").",
         ],
         examples: [
-          { es: "Embora o apartamento seja caro, a localização compensa.", en: "Although the flat is expensive, the location makes up for it." },
+          { es: "Embora o apartamento seja caro, a localização compensa.", en: "Although the apartment is expensive, the location makes up for it." },
           { es: "Por mais que eu explique, ele não entende.", en: "No matter how much I explain, he doesn't get it." },
           { es: "Embora estivesse cansada, a Mariana foi à festa.", en: "Although she was tired, Mariana went to the party." },
           { es: "Embora tenha chegado atrasado, o Lucas apresentou o trabalho.", en: "Although he arrived late, Lucas gave his presentation." },
@@ -2102,24 +2102,24 @@ export const PT_C1_U01: Lesson[] = [
         ],
       },
       {
-        heading: "One fact, four moulds",
+        heading: "One fact, four molds",
         body: [
-          "Run one fact through every mould and only the frame and the verb change. \"O Rafael vem\" becomes \"Talvez o Rafael venha\", \"Embora o Rafael venha, a Ana não vai\" and \"Tomara que o Rafael venha\". If you expect he won't come, it becomes \"Quem me dera que o Rafael viesse\".",
+          "Run one fact through every mold and only the frame and the verb change. \"O Rafael vem\" becomes \"Talvez o Rafael venha\", \"Embora o Rafael venha, a Ana não vai\" and \"Tomara que o Rafael venha\". If you expect he won't come, it becomes \"Quem me dera que o Rafael viesse\".",
           "Each time, ask two questions. Does the frame require the subjunctive? Which tense matches the time of the event? Move the whole sentence into the past and the subjunctive follows: \"É possível que ele venha\" → \"Era possível que ele viesse\".",
         ],
         examples: [
-          { es: "A prefeitura vai reformar a praça.", en: "The city council is going to renovate the square." },
-          { es: "Talvez a prefeitura reforme a praça.", en: "Maybe the council will renovate the square." },
-          { es: "Embora a prefeitura reforme a praça, o bairro continua sem creche.", en: "Although the council is renovating the square, the neighbourhood still has no daycare." },
-          { es: "Tomara que a prefeitura reforme a praça.", en: "I hope the council renovates the square." },
-          { es: "Quem me dera que a prefeitura reformasse a praça.", en: "If only the council would renovate the square." },
+          { es: "A prefeitura vai reformar a praça.", en: "The city is going to renovate the square." },
+          { es: "Talvez a prefeitura reforme a praça.", en: "Maybe the city will renovate the square." },
+          { es: "Embora a prefeitura reforme a praça, o bairro continua sem creche.", en: "Although the city is renovating the square, the neighborhood still has no daycare." },
+          { es: "Tomara que a prefeitura reforme a praça.", en: "I hope the city renovates the square." },
+          { es: "Quem me dera que a prefeitura reformasse a praça.", en: "If only the city would renovate the square." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "If only the metro reached our neighbourhood.",
+            source: "If only the metro reached our neighborhood.",
             answer: "Quem me dera que o metrô chegasse até o nosso bairro.",
             altAnswers: ["Quem me dera o metrô chegasse até o nosso bairro.", "Quem me dera que o metrô chegasse ao nosso bairro.", "Quem me dera o metrô chegasse ao nosso bairro.", "Quem me dera que o metrô chegasse até nosso bairro.", "Quem me dera o metrô chegasse até nosso bairro."],
             explanation: "The fact is \"o metrô não chega\", and a wish against present reality takes the imperfect subjunctive \"chegasse\". \"Que\" after \"quem me dera\" is optional.",
@@ -2236,11 +2236,11 @@ export const PT_C1_U01: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "Ela está doente.", right: "She's ill." },
-          { left: "Talvez ela esteja doente.", right: "She might be ill." },
-          { left: "Embora esteja doente, ela continua trabalhando.", right: "Although she's ill, she keeps working." },
-          { left: "Tomara que ela não esteja doente.", right: "I hope she isn't ill." },
-          { left: "Quem me dera que ela não estivesse doente.", right: "If only she weren't ill." },
+          { left: "Ela está doente.", right: "She's sick." },
+          { left: "Talvez ela esteja doente.", right: "She might be sick." },
+          { left: "Embora esteja doente, ela continua trabalhando.", right: "Although she's sick, she keeps working." },
+          { left: "Tomara que ela não esteja doente.", right: "I hope she isn't sick." },
+          { left: "Quem me dera que ela não estivesse doente.", right: "If only she weren't sick." },
         ],
         explanation: "One fact, four frames. Doubt, concession and an open wish take \"esteja\". The wish against reality steps back to \"estivesse\".",
       },
@@ -2260,7 +2260,7 @@ export const PT_C1_U01: Lesson[] = [
         heading: "Mood as meaning: asserting or not",
         body: [
           "Quick reminder: the subjunctive marks what the speaker doesn't assert. That covers what is unknown, doubted, wished for or simply taken as given. When both moods are grammatical, the mood is the message. \"Estou procurando um livro que explique isso\" means you don't know whether such a book exists. \"Estou procurando o livro que explica isso\" means you know it does.",
-          "\"Talvez\" takes the subjunctive before the verb and the indicative after it: \"talvez ele venha\", \"ele vem, talvez\". \"O fato de que\" reports news with the indicative. It takes the subjunctive when it passes judgement on a fact everyone already knows: \"o fato de que ele não tenha ligado me magoou\".",
+          "\"Talvez\" takes the subjunctive before the verb and the indicative after it: \"talvez ele venha\", \"ele vem, talvez\". \"O fato de que\" reports news with the indicative. It takes the subjunctive when it passes judgment on a fact everyone already knows: \"o fato de que ele não tenha ligado me magoou\".",
         ],
         examples: [
           { es: "Estou procurando um livro que explique isso de um jeito simples.", en: "I'm looking for a book that explains this simply (if one exists)." },
@@ -2294,10 +2294,10 @@ export const PT_C1_U01: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "We're looking for a flat that [has] a garden (any flat, if there is one).",
+            en: "We're looking for an apartment that [has] a garden (any apartment, if there is one).",
             sentence: "Estamos procurando um apartamento que ___ jardim.",
             answer: "tenha",
-            explanation: "The flat isn't known to exist yet, so the relative clause takes the subjunctive \"tenha\". The indicative \"tem\" would describe a flat you've already found.",
+            explanation: "The apartment isn't known to exist yet, so the relative clause takes the subjunctive \"tenha\". The indicative \"tem\" would describe an apartment you've already found.",
           },
         ],
       },
@@ -2319,7 +2319,7 @@ export const PT_C1_U01: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "It's the best film I've ever seen.",
+            source: "It's the best movie I've ever seen.",
             answer: "É o melhor filme que eu já tenha visto.",
             altAnswers: ["É o melhor filme que já tenha visto.", "É o melhor filme que eu já vi.", "É o melhor filme que já vi."],
             explanation: "After a superlative, \"que eu já tenha visto\" (perfect subjunctive) is the polished choice. \"Que eu já vi\" is what most people say.",
@@ -2341,10 +2341,10 @@ export const PT_C1_U01: Lesson[] = [
           "The reduplicated concessive pairs a present subjunctive with a future subjunctive: \"digam o que disserem\", \"aconteça o que acontecer\", \"faça o que fizer\", \"venha quem vier\". The classic slip is a present indicative in second place, as in \"digam o que dizem\".",
         ],
         examples: [
-          { es: "Que eu saiba, a loja abre aos domingos.", en: "As far as I know, the shop opens on Sundays." },
+          { es: "Que eu saiba, a loja abre aos domingos.", en: "As far as I know, the store opens on Sundays." },
           { es: "Seja como for, precisamos de uma resposta até sexta.", en: "Be that as it may, we need an answer by Friday." },
           { es: "Vou terminar a tese este ano, custe o que custar.", en: "I'm going to finish my thesis this year, whatever it takes." },
-          { es: "Quer queira, quer não, ele vai ter que pedir desculpas.", en: "Like it or not, he's going to have to apologise." },
+          { es: "Quer queira, quer não, ele vai ter que pedir desculpas.", en: "Like it or not, he's going to have to apologize." },
           { es: "Aconteça o que acontecer, me liga.", en: "Whatever happens, call me." },
           { es: "Digam o que disserem, ela fez um ótimo trabalho.", en: "Whatever people say, she did a great job." },
         ],

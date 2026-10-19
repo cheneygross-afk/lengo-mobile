@@ -32,7 +32,7 @@ export const PT_A2_S04_STORIES: Story[] = [
       },
       {
         question: `Why did dona Odete send the dog instead of going herself?`,
-        options: [`She didn't know Débora's address.`, `She was shy.`, `She was always busy.`, `Her legs couldn't go down the hill any more.`],
+        options: [`She didn't know Débora's address.`, `She was shy.`, `She was always busy.`, `Her legs couldn't go down the hill anymore.`],
         correctIndex: 3,
         explanation: `"Minhas pernas não descem mais a ladeira, mas o Tobias desce."`,
       },
@@ -118,7 +118,7 @@ export const PT_A2_S04_STORIES: Story[] = [
       },
       {
         question: `What did Vítor do on the trip back?`,
-        options: [`He arrived late again.`, `He slept on the floor.`, `He helped a lost young man find space, like dona Rosa did.`, `He travelled by plane.`],
+        options: [`He arrived late again.`, `He slept on the floor.`, `He helped a lost young man find space, like dona Rosa did.`, `He traveled by plane.`],
         correctIndex: 2,
         explanation: `He "afastou a rede dele um pouco" and said "Amarra aqui".`,
       },
@@ -146,7 +146,7 @@ export const PT_A2_S04_STORIES: Story[] = [
       },
       {
         question: `Why did Camila write again on Thursday?`,
-        options: [`Her mother broke her arm and couldn't make the cake.`, `She wanted to invite seu Gilberto.`, `The party was cancelled.`, `She changed the date of the party.`],
+        options: [`Her mother broke her arm and couldn't make the cake.`, `She wanted to invite seu Gilberto.`, `The party was canceled.`, `She changed the date of the party.`],
         correctIndex: 0,
         explanation: `"Minha mãe quebrou o braço e não pode fazer o bolo."`,
       },
@@ -208,7 +208,7 @@ export const PT_A2_S04_STORIES: Story[] = [
 
 export const PT_A2_S04_GLOSSES: Record<string, StoryGloss[]> = {
   "pt-o-cachorro-carteiro": [
-    { es: "o carteiro", en: "postman, mail carrier", forms: ["carteiro"] },
+    { es: "o carteiro", en: "mail carrier", forms: ["carteiro"] },
     { es: "caramelo", en: "caramel-colored (Brazil's typical mixed-breed dog)", forms: ["caramelo"] },
     { es: "o tapete", en: "doormat, rug", forms: ["tapete"] },
     { es: "abanar o rabo", en: "to wag its tail", forms: ["abanou", "rabo"] },
@@ -225,13 +225,13 @@ export const PT_A2_S04_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "o bolão", en: "lottery pool", forms: ["bolão"] },
     { es: "a contabilidade", en: "accounting", forms: ["contabilidade"] },
     { es: "o funcionário", en: "employee", forms: ["funcionários"] },
-    { es: "a lotérica", en: "lottery shop", forms: ["lotérica"] },
+    { es: "a lotérica", en: "lottery retailer (where tickets are sold)", forms: ["lotérica"] },
     { es: "o estagiário", en: "intern", forms: ["estagiário"] },
     { es: "o prêmio", en: "prize", forms: ["prêmio"] },
     { es: "a calculadora", en: "calculator", forms: ["calculadora"] },
     { es: "quieto", en: "quiet", forms: ["quieta"] },
     { es: "o colo", en: "lap", forms: ["colo"] },
-    { es: "o estacionamento", en: "parking lot, car park", forms: ["estacionamento"] },
+    { es: "o estacionamento", en: "parking lot", forms: ["estacionamento"] },
     { es: "o pedido de desculpas", en: "apology", forms: ["pedido", "desculpas"] },
     { es: "em ponto", en: "on the dot, sharp", forms: ["ponto"] },
   ],

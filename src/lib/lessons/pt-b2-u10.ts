@@ -24,7 +24,7 @@ export const PT_B2_U10: Lesson[] = [
           { es: "O capital inicial da empresa veio da família, não do banco.", en: "The company's start-up capital came from the family, not the bank." },
           { es: "Curitiba é a capital do Paraná.", en: "Curitiba is the capital of Paraná." },
           { es: "Me vê duzentos gramas de presunto, por favor.", en: "Can I have two hundred grams of ham, please?" },
-          { es: "Liguei o rádio e sintonizei a minha rádio favorita.", en: "I switched on the radio and tuned in to my favourite station." },
+          { es: "Liguei o rádio e sintonizei a minha rádio favorita.", en: "I switched on the radio and tuned in to my favorite station." },
           { es: "O moral do time está baixo depois da derrota.", en: "The team's morale is low after the defeat." },
         ],
         checkpoint: [
@@ -105,7 +105,7 @@ export const PT_B2_U10: Lesson[] = [
         examples: [
           { es: "O Rafael é uma pessoa muito tímida.", en: "Rafael is a very shy person." },
           { es: "A Laura ainda é um bebê muito pequeno.", en: "Laura is still a very small baby." },
-          { es: "A vítima, um homem de 40 anos, foi levada ao hospital.", en: "The victim, a 40-year-old man, was taken to hospital." },
+          { es: "A vítima, um homem de 40 anos, foi levada ao hospital.", en: "The victim, a 40-year-old man, was taken to the hospital." },
           { es: "A testemunha principal era o porteiro do prédio.", en: "The main witness was the building's doorman." },
           { es: "A nova gerente começa na segunda-feira.", en: "The new manager (a woman) starts on Monday." },
         ],
@@ -301,11 +301,11 @@ export const PT_B2_U10: Lesson[] = [
         ],
         examples: [
           { es: "Esqueci dois guarda-chuvas no ônibus este mês.", en: "I've left two umbrellas on the bus this month." },
-          { es: "Sempre tinha beija-flores no jardim da minha avó.", en: "There were always hummingbirds in my grandmother's garden." },
+          { es: "Sempre tinha beija-flores no jardim da minha avó.", en: "There were always hummingbirds in my grandmother's yard." },
           { es: "Os arranha-céus da Avenida Paulista brilham à noite.", en: "The skyscrapers on Avenida Paulista shine at night." },
           { es: "As crianças montaram três quebra-cabeças.", en: "The kids put together three jigsaw puzzles." },
           { es: "Os dois vice-presidentes chegaram atrasados.", en: "Both vice presidents arrived late." },
-          { es: "Os guardas-noturnos fazem a ronda do bairro.", en: "The night watchmen patrol the neighbourhood." },
+          { es: "Os guardas-noturnos fazem a ronda do bairro.", en: "The night watchmen patrol the neighborhood." },
         ],
         checkpoint: [
           {
@@ -416,7 +416,7 @@ export const PT_B2_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The shop is closed on Mondays.",
+        source: "The store is closed on Mondays.",
         answer: "A loja fecha às segundas-feiras.",
         altAnswers: [
           "A loja fica fechada às segundas-feiras.",
@@ -427,7 +427,7 @@ export const PT_B2_U10: Lesson[] = [
           "A loja fecha às segundas.",
           "A loja fica fechada às segundas.",
         ],
-        explanation: "\"Segundas-feiras\" has two plurals because \"segunda\" agrees with \"feira\". Avoid \"segunda-feiras\", modelled on English 'Mondays'.",
+        explanation: "\"Segundas-feiras\" has two plurals because \"segunda\" agrees with \"feira\". Avoid \"segunda-feiras\", modeled on English 'Mondays'.",
       },
       {
         type: "multiple-choice",
@@ -501,19 +501,19 @@ export const PT_B2_U10: Lesson[] = [
     level: "PT-B2",
     number: 3,
     title: "Um Grande Homem, Um Homem Grande",
-    summary: "Seven adjectives that change meaning with their position: after the noun they describe, before it they judge or emphasise.",
+    summary: "Seven adjectives that change meaning with their position: after the noun they describe, before it they judge or emphasize.",
     duration: "12 min",
     kind: "teach",
     sections: [
       {
-        heading: "Grande and pobre: description or judgement",
+        heading: "Grande and pobre: description or judgment",
         body: [
           "Most Portuguese adjectives follow the noun and classify it objectively: \"um prédio alto\", \"uma camisa azul\". A handful can also go before the noun, and there they stop describing and start judging. English often needs a different word for each meaning, so translating word by word goes wrong.",
           "\"Grande\" after the noun is physical size: \"um homem grande\" is a big, tall man. Before it, it means great or important: \"um grande homem\" is a great man of any height, and \"uma grande ideia\" is a great idea.",
           "\"Pobre\" after the noun means without money: \"uma família pobre\". Before it, it means pitiable: \"o pobre rapaz\" is the poor guy you feel sorry for, rich or not. Position never changes agreement: \"grandes\" and \"pobres\" in the plural either way.",
         ],
         examples: [
-          { es: "Ele é um homem grande, tem quase dois metros.", en: "He's a big man, almost two metres tall." },
+          { es: "Ele é um homem grande, tem quase dois metros.", en: "He's a big man, almost two meters tall." },
           { es: "Meu avô foi um grande homem.", en: "My grandfather was a great man." },
           { es: "Foi uma grande ideia vir de ônibus.", en: "Coming by bus was a great idea." },
           { es: "Eles cresceram numa família pobre do interior da Bahia.", en: "They grew up in a poor family in rural Bahia." },
@@ -545,7 +545,7 @@ export const PT_B2_U10: Lesson[] = [
           "\"Novo\" after the noun means brand-new or young: \"um carro novo\" has just left the factory, and \"ele é muito novo\" means he's very young. Before the noun it means new to you, the next one: \"meu novo carro\" can be a 2012 model I bought last week. With people, \"a professora nova\" may be young or just hired; \"a nova professora\" can only be the newcomer.",
         ],
         examples: [
-          { es: "Encontrei um velho amigo da escola no metrô.", en: "I ran into an old school friend on the metro." },
+          { es: "Encontrei um velho amigo da escola no metrô.", en: "I ran into an old school friend on the subway." },
           { es: "Moramos num prédio velho no centro do Rio.", en: "We live in an old building in downtown Rio." },
           { es: "Eles compraram um carro novo, zero quilômetro.", en: "They bought a brand-new car, straight from the dealer." },
           { es: "Meu novo carro é de 2012, mas está ótimo.", en: "My new car is a 2012 model, but it's great." },
@@ -556,7 +556,7 @@ export const PT_B2_U10: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Lucas is [an old friend] from university.",
+            en: "Lucas is [an old friend] from college.",
             sentence: "O Lucas é ___ da faculdade.",
             answer: "um velho amigo",
             altAnswers: ["meu velho amigo"],
@@ -564,7 +564,7 @@ export const PT_B2_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Beatriz has just moved into a flat in a building from the 1970s. How does she say 'my new flat'?",
+            question: "Beatriz has just moved into an apartment in a building from the 1970s. How does she say 'my new apartment'?",
             options: ["meu novo apartamento", "meu apartamento novo", "meu velho apartamento", "meu apartamento velho"],
             correctIndex: 0,
             explanation: "New to her, not newly built, so \"novo\" goes first: \"meu novo apartamento\". \"Meu apartamento novo\" suggests a brand-new building.",
@@ -693,7 +693,7 @@ export const PT_B2_U10: Lesson[] = [
         type: "speak",
         text: "Foi um grande prazer conhecer o senhor.",
         prompt: "Say it in Portuguese: It was a great pleasure to meet you. (to an older man)",
-        tip: "In \"grande\" the an is nasal and the final de sounds like dji: GRAN-dji.",
+        tip: "In \"grande\" the an is nasal and the final de sounds like dji: GRÃ-dji.",
         explanation: "\"Um grande prazer\": \"grande\" before the noun means great, not big. \"O senhor\" is the polite you for an older man.",
       },
       {
@@ -707,7 +707,7 @@ export const PT_B2_U10: Lesson[] = [
           { left: "a única chance", right: "the only chance" },
           { left: "uma chance única", right: "a one-of-a-kind chance" },
         ],
-        explanation: "After the noun the adjective describes literally; before it, it judges, emphasises or limits.",
+        explanation: "After the noun the adjective describes literally; before it, it judges, emphasizes or limits.",
       },
     ],
   },
@@ -754,7 +754,7 @@ export const PT_B2_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A colleague drove too fast with no licence. How do you write that he was irresponsible?",
+            question: "A colleague drove too fast with no license. How do you write that he was irresponsible?",
             options: ["Ele foi irresponsável.", "Ele foi iresponsável.", "Ele foi inresponsável.", "Ele foi desresponsável."],
             correctIndex: 0,
             explanation: "Before r, \"in-\" drops to \"i-\" and the r doubles: \"irresponsável\". A single r between vowels would be the tap sound.",
@@ -962,7 +962,7 @@ export const PT_B2_U10: Lesson[] = [
         body: [
           "You already know that \"-inho\" and \"-zinho\" make things small (\"cafezinho\", \"pertinho\"). In everyday Brazil, size is often beside the point: the diminutive softens. \"Espera um minutinho\" promises nothing about sixty seconds; it makes the request polite. \"Posso te fazer uma perguntinha?\" sounds lighter than a plain \"pergunta\", and a waiter's \"só um instantinho\" is friendly, not precise.",
           "It also cushions criticism and shows affection. \"Ele é feinho\" (he's a bit plain) is far kinder than \"feio\", and \"atrasadinho\" turns a complaint into a tease. \"Fofinho\" and \"que fofura!\" (how cute!) come from \"fofo\", soft and cuddly. A stressed final vowel takes \"-zinho\" and loses its accent: \"café\" → \"cafezinho\", \"pé\" → \"pezinho\".",
-          "Then there's \"o jeitinho brasileiro\". \"Dar um jeitinho\" means finding a creative way round a rule or a problem. Brazilians say it with pride and with irony: it can mean resourcefulness or a gentle bending of the rules.",
+          "Then there's \"o jeitinho brasileiro\". \"Dar um jeitinho\" means finding a creative way around a rule or a problem. Brazilians say it with pride and with irony: it can mean resourcefulness or a gentle bending of the rules.",
         ],
         examples: [
           { es: "Espera um minutinho, já te atendo.", en: "Hang on a moment, I'll be right with you." },
@@ -999,11 +999,11 @@ export const PT_B2_U10: Lesson[] = [
       {
         heading: "Belittling: when small means worthless",
         body: [
-          "The same ending can sneer. \"Um filminho\" is a forgettable film, \"um empreguinho\" a dead-end job, \"um salariozinho\" a pittance. \"Ela ganhou um prêmio\" is news; \"ela ganhou um premiozinho\" is a put-down.",
+          "The same ending can sneer. \"Um filminho\" is a forgettable movie, \"um empreguinho\" a dead-end job, \"um salariozinho\" a pittance. \"Ela ganhou um prêmio\" is news; \"ela ganhou um premiozinho\" is a put-down.",
           "With people it gets sharp. \"Uma pessoinha\" is petty and small-minded, \"esse seu namoradinho\" dismisses someone's boyfriend, and adding \"-zinho\" to a title (\"doutorzinho\", \"professorzinho\") mocks the person's authority. Yet \"que pessoinha linda!\" said about a baby is pure tenderness. Tone and context decide, so be careful with diminutives about adults you don't know well.",
         ],
         examples: [
-          { es: "Não foi nada de mais, só um filminho de ação.", en: "It was nothing special, just some throwaway action film." },
+          { es: "Não foi nada de mais, só um filminho de ação.", en: "It was nothing special, just some throwaway action movie." },
           { es: "Ele largou a faculdade por um empreguinho qualquer.", en: "He dropped out of college for some dead-end job." },
           { es: "Ela é uma pessoinha: fala mal de todo mundo pelas costas.", en: "She's a petty person: she badmouths everyone behind their back." },
           { es: "O professorzinho achou que podia mandar em todo mundo.", en: "The so-called teacher thought he could boss everyone around." },
@@ -1022,10 +1022,10 @@ export const PT_B2_U10: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "It was just some silly film.",
+            source: "It was just some silly movie.",
             answer: "Foi só um filminho bobo.",
             altAnswers: ["Era só um filminho bobo.", "Foi apenas um filminho bobo.", "Era apenas um filminho bobo.", "Foi só um filminho."],
-            explanation: "\"Um filminho\" here isn't a short film. It's one you don't take seriously.",
+            explanation: "\"Um filminho\" here isn't a short movie. It's one you don't take seriously.",
           },
           {
             type: "fill-blank",
@@ -1040,15 +1040,15 @@ export const PT_B2_U10: Lesson[] = [
       {
         heading: "Augmentatives: impressive, too much, or a joke",
         body: [
-          "Augmentatives praise more often than they measure. \"Um carrão\" is a big, flashy car, \"um festão\" a fantastic party, and \"ela é um mulherão\" means she's stunning. The suffix \"-aço\" is pure enthusiasm: \"um golaço\" (a superb goal), \"um filmaço\" (a brilliant film). Many feminine nouns turn masculine with \"-ão\": \"a festa\" → \"o festão\", \"a casa\" → \"o casarão\".",
+          "Augmentatives praise more often than they measure. \"Um carrão\" is a big, flashy car, \"um festão\" a fantastic party, and \"ela é um mulherão\" means she's stunning. The suffix \"-aço\" is pure enthusiasm: \"um golaço\" (a superb goal), \"um filmaço\" (a brilliant movie). Many feminine nouns turn masculine with \"-ão\": \"a festa\" → \"o festão\", \"a casa\" → \"o casarão\".",
           "They exaggerate and mock too: \"um dinheirão\" (a fortune), \"um livrão\" (a doorstop of a book), \"que narigão!\" (what a big nose!). Between friends, \"amigão\" and \"paizão\" are warm and admiring.",
-          "Some forms are now separate words that catch learners out: \"palavrão\" is a swearword, \"cartão\" a card, \"portão\" a gate, and \"camisinha\" a condom, not a little shirt.",
+          "Some forms are now separate words that trip learners up: \"palavrão\" is a swear word, \"cartão\" a card, \"portão\" a gate, and \"camisinha\" a condom, not a little shirt.",
         ],
         examples: [
-          { es: "Meu vizinho comprou um carrão só para se exibir.", en: "My neighbour bought a flashy car just to show off." },
-          { es: "Que filmaço! Saí do cinema emocionada.", en: "What a brilliant film! I left the cinema really moved. (a woman speaking)" },
+          { es: "Meu vizinho comprou um carrão só para se exibir.", en: "My neighbor bought a flashy car just to show off." },
+          { es: "Que filmaço! Saí do cinema emocionada.", en: "What an amazing movie! I left the theater really moved. (a woman speaking)" },
           { es: "O casamento foi um festão, com música até de manhã.", en: "The wedding was a fantastic party, with music until morning." },
-          { es: "Ela gastou um dinheirão na reforma da cozinha.", en: "She spent a fortune doing up the kitchen." },
+          { es: "Ela gastou um dinheirão na reforma da cozinha.", en: "She spent a fortune remodeling the kitchen." },
           { es: "Meu pai é um paizão, sempre me apoiou.", en: "My dad's a great dad; he's always supported me." },
           { es: "Não fala palavrão na frente das crianças!", en: "Don't swear in front of the kids!" },
         ],
@@ -1056,7 +1056,7 @@ export const PT_B2_U10: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "They paid [a fortune] for this flat.",
+            en: "They paid [a fortune] for this apartment.",
             sentence: "Eles pagaram ___ por esse apartamento.",
             answer: "um dinheirão",
             altAnswers: ["uma fortuna"],
@@ -1076,7 +1076,7 @@ export const PT_B2_U10: Lesson[] = [
             question: "A Brazilian friend tells you: \"Não fala palavrão!\" What does she mean?",
             options: ["Don't swear!", "Don't use long words!", "Don't talk so loudly!", "Don't make long speeches!"],
             correctIndex: 0,
-            explanation: "\"Palavrão\" is a separate word meaning swearword, not a big word.",
+            explanation: "\"Palavrão\" is a separate word meaning swear word, not a big word.",
           },
         ],
       },
@@ -1098,7 +1098,7 @@ export const PT_B2_U10: Lesson[] = [
         source: "He always finds a way.",
         answer: "Ele sempre dá um jeitinho.",
         altAnswers: ["Ele sempre dá um jeito.", "Ele dá sempre um jeitinho.", "Sempre dá um jeitinho."],
-        explanation: "\"Dar um jeitinho\" is to find a creative way round a problem or a rule, the famous \"jeitinho brasileiro\".",
+        explanation: "\"Dar um jeitinho\" is to find a creative way around a problem or a rule, the famous \"jeitinho brasileiro\".",
       },
       {
         type: "fill-blank",
@@ -1168,7 +1168,7 @@ export const PT_B2_U10: Lesson[] = [
         text: "Não fala palavrão na frente das crianças!",
         prompt: "Say it in Portuguese: Don't swear in front of the kids!",
         tip: "End palavrão with the nasal ão and no n sound.",
-        explanation: "\"Palavrão\" is a swearword. \"Não fala\" is the everyday spoken negative command.",
+        explanation: "\"Palavrão\" is a swear word. \"Não fala\" is the everyday spoken negative command.",
       },
       {
         type: "matching",
@@ -1176,7 +1176,7 @@ export const PT_B2_U10: Lesson[] = [
         pairs: [
           { left: "um carrão", right: "a flashy car" },
           { left: "um empreguinho", right: "a dead-end job" },
-          { left: "um palavrão", right: "a swearword" },
+          { left: "um palavrão", right: "a swear word" },
           { left: "um golaço", right: "a superb goal" },
           { left: "um minutinho", right: "just a moment" },
           { left: "uma camisinha", right: "a condom" },
@@ -1202,11 +1202,11 @@ export const PT_B2_U10: Lesson[] = [
         ],
         examples: [
           { es: "Meu avô era um grande homem.", en: "My grandfather was a great man." },
-          { es: "O goleiro do Flamengo é um homem grande, de quase dois metros.", en: "Flamengo's goalkeeper is a big man, nearly two metres tall." },
+          { es: "O goleiro do Flamengo é um homem grande, de quase dois metros.", en: "Flamengo's goalkeeper is a big man, nearly two meters tall." },
           { es: "A pobre moça perdeu o ônibus de novo.", en: "The poor girl missed the bus again." },
           { es: "Muitas famílias pobres moram na periferia.", en: "Many poor families live on the outskirts." },
-          { es: "Encontrei um velho amigo da faculdade em Curitiba.", en: "I ran into an old friend from university in Curitiba." },
-          { es: "Ela cuida de um vizinho velho que mora sozinho.", en: "She looks after an elderly neighbour who lives alone." },
+          { es: "Encontrei um velho amigo da faculdade em Curitiba.", en: "I ran into an old friend from college in Curitiba." },
+          { es: "Ela cuida de um vizinho velho que mora sozinho.", en: "She looks after an elderly neighbor who lives alone." },
         ],
         checkpoint: [
           {
@@ -1276,9 +1276,9 @@ export const PT_B2_U10: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: Some people never apologise.",
+            prompt: "Put the words in order to say: Some people never apologize.",
             words: ["Certas", "pessoas", "nunca", "pedem", "desculpas."],
-            translation: "Some people never apologise.",
+            translation: "Some people never apologize.",
             explanation: "\"Certas\" before the noun means some or certain, with a slightly critical tone. \"As pessoas certas\" would be the right people.",
           },
         ],
@@ -1357,7 +1357,7 @@ export const PT_B2_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "She lives in a very poor neighbourhood.",
+        source: "She lives in a very poor neighborhood.",
         answer: "Ela mora num bairro muito pobre.",
         altAnswers: ["Ela mora em um bairro muito pobre.", "Mora num bairro muito pobre.", "Mora em um bairro muito pobre."],
         explanation: "Lack of money is the literal meaning, so \"pobre\" follows the noun. Adding \"muito\" also sounds natural only after the noun.",
@@ -1425,7 +1425,7 @@ export const PT_B2_U10: Lesson[] = [
     level: "PT-B2",
     number: 7,
     title: "Dialogue Lab: Vale a Pena Comprar?",
-    summary: "Follow two friends as they weigh up earphone reviews and a restaurant in Pinheiros, using -ável adjectives, negative prefixes, meaningful adjective position and attitude suffixes.",
+    summary: "Follow two friends as they size up earphone reviews and a restaurant in Pinheiros, using -ável adjectives, negative prefixes, meaningful adjective position and attitude suffixes.",
     duration: "14 min",
     sections: [
       {
@@ -1440,7 +1440,7 @@ export const PT_B2_U10: Lesson[] = [
           { es: "Li umas vinte avaliações, e quase todas dizem que ele é bem confortável.", en: "Beatriz: I read about twenty reviews, and almost all of them say they're really comfortable." },
           { es: "A bateria é durável, mas o estojo é meio frágil.", en: "Beatriz: The battery lasts, but the case is a bit fragile." },
           { es: "A marca é confiável? Nunca ouvi falar dela.", en: "Rafael: Is the brand reliable? I've never heard of it." },
-          { es: "Um cara disse que o cancelamento de ruído é impressionante, mas o microfone é inaceitável.", en: "Beatriz: One guy said the noise cancelling is impressive, but the microphone is unacceptable." },
+          { es: "Um cara disse que o cancelamento de ruído é impressionante, mas o microfone é inaceitável.", en: "Beatriz: One guy said the noise canceling is impressive, but the microphone is unacceptable." },
           { es: "Pelo preço, não vale a pena.", en: "Beatriz: For the price, it's not worth it." },
         ],
         checkpoint: [
@@ -1475,14 +1475,14 @@ export const PT_B2_U10: Lesson[] = [
         body: [
           "The talk turns to dinner. Beatriz went to a small place in Pinheiros that a food blog praised. As the last lessons showed, some adjectives change meaning with position, so reviewers place them carefully.",
           "\"Um grande restaurante\" praises its quality; \"um restaurante grande\" just measures it. \"Um simples prato de arroz e feijão\" is just a plate of rice and beans; \"um cardápio simples\" is a plain menu. \"A única coisa ruim\" is the only bad thing; \"um lugar único\" is one of a kind.",
-          "Adjectives in \"-oso\" and \"-ante/-ente\" fill in the rest of a review: \"saboroso\" (tasty), \"atencioso\" (attentive), \"aconchegante\" (cosy). They agree like any adjective: \"comidas saborosas\".",
+          "Adjectives in \"-oso\" and \"-ante/-ente\" fill in the rest of a review: \"saboroso\" (tasty), \"atencioso\" (attentive), \"aconchegante\" (cozy). They agree like any adjective: \"comidas saborosas\".",
         ],
         examples: [
           { es: "O blog diz que é um grande restaurante.", en: "Rafael: The blog says it's a great restaurant." },
           { es: "Grande ele não é: só tem oito mesas. Mas é um lugar único.", en: "Beatriz: Big it isn't: there are only eight tables. But it's one of a kind." },
           { es: "Pedi um simples prato de arroz e feijão, e foi o melhor da minha vida.", en: "Beatriz: I ordered just a plate of rice and beans, and it was the best of my life." },
           { es: "O cardápio é simples, mas tudo é muito saboroso.", en: "Beatriz: The menu is simple, but everything is really tasty." },
-          { es: "O atendimento foi atencioso e o ambiente é bem aconchegante.", en: "Beatriz: The service was attentive and the atmosphere is really cosy." },
+          { es: "O atendimento foi atencioso e o ambiente é bem aconchegante.", en: "Beatriz: The service was attentive and the atmosphere is really cozy." },
           { es: "A única coisa ruim foi a demora.", en: "Beatriz: The only bad thing was the wait." },
         ],
         checkpoint: [
@@ -1598,7 +1598,7 @@ export const PT_B2_U10: Lesson[] = [
         source: "The menu is simple, but everything is tasty.",
         answer: "O cardápio é simples, mas tudo é saboroso.",
         altAnswers: ["O cardápio é simples, mas tudo é gostoso.", "O cardápio é simples, mas está tudo saboroso.", "O cardápio é simples, mas está tudo gostoso."],
-        explanation: "\"Simples\" after the noun means plain or simple. \"Saboroso\" is \"sabor\" + \"-oso\", full of flavour.",
+        explanation: "\"Simples\" after the noun means plain or simple. \"Saboroso\" is \"sabor\" + \"-oso\", full of flavor.",
       },
       {
         type: "translate",
@@ -1641,7 +1641,7 @@ export const PT_B2_U10: Lesson[] = [
         type: "speak",
         text: "Vale a pena comprar?",
         prompt: "Say it in Portuguese: Is it worth buying?",
-        tip: "In speech \"vale a pena\" flows as one word: va-li-a-PE-na.",
+        tip: "In speech \"vale a pena\" flows as one word: va-li-a-PÊ-na.",
         explanation: "\"Vale a pena\" + infinitive asks whether something is worth doing.",
       },
       {
@@ -1651,7 +1651,7 @@ export const PT_B2_U10: Lesson[] = [
           { left: "confiável", right: "reliable" },
           { left: "confiante", right: "confident" },
           { left: "imperdível", right: "unmissable" },
-          { left: "aconchegante", right: "cosy" },
+          { left: "aconchegante", right: "cozy" },
           { left: "saboroso", right: "tasty" },
           { left: "desconfortável", right: "uncomfortable" },
         ],
@@ -1672,13 +1672,13 @@ export const PT_B2_U10: Lesson[] = [
       {
         heading: "Gender traps: o problema, a grama",
         body: [
-          "Most nouns in -ma that come from Greek are masculine: \"o problema\", \"o sistema\", \"o tema\", \"o clima\", \"o programa\". The final -a pulls learners towards the feminine, and the article and adjective follow it: *\"uma problema séria\" should be \"um problema sério\".",
+          "Most nouns in -ma that come from Greek are masculine: \"o problema\", \"o sistema\", \"o tema\", \"o clima\", \"o programa\". The final -a pulls learners toward the feminine, and the article and adjective follow it: *\"uma problema séria\" should be \"um problema sério\".",
           "Some nouns change meaning with gender. \"A grama\" is grass. \"O grama\" is the unit of weight, so the norm is \"duzentos gramas de queijo\", even though you'll often hear \"duzentas gramas\" at the padaria. *\"Cortar o grama\" means cutting a unit of weight. The same split runs through \"a capital\" (the city) and \"o capital\" (money), and through \"a cabeça\" (the head) and \"o cabeça\" (the ringleader).",
         ],
         examples: [
           { es: "O problema é que ninguém respondeu.", en: "The problem is that nobody answered." },
           { es: "O clima de Curitiba é frio e úmido.", en: "Curitiba's climate is cold and damp." },
-          { es: "A grama do jardim está muito alta.", en: "The grass in the garden is really long." },
+          { es: "A grama do jardim está muito alta.", en: "The grass in the yard is really long." },
           { es: "Eu queria trezentos gramas de presunto, por favor.", en: "I'd like three hundred grams of ham, please." },
           { es: "O sistema novo ainda está com problemas.", en: "The new system is still having problems." },
         ],
@@ -1701,7 +1701,7 @@ export const PT_B2_U10: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "We need to cut [the grass] in the garden.",
+            en: "We need to cut [the grass] in the yard.",
             sentence: "Precisamos cortar ___ do jardim.",
             answer: "a grama",
             hint: "A learner wrote \"o grama\".",
@@ -1713,7 +1713,7 @@ export const PT_B2_U10: Lesson[] = [
         heading: "Compound plurals: guarda-chuvas, not guardas-chuva",
         body: [
           "In a verb + noun compound, only the noun takes the plural. \"Guarda\" is the verb \"guardar\", and verbs don't take a plural -s. So the plurals are \"os guarda-chuvas\", \"os guarda-roupas\" and \"os arranha-céus\". *\"Guardas-chuva\" puts the plural on the wrong half.",
-          "Compounds made of noun + noun or noun + adjective pluralise both parts: \"segundas-feiras\", \"cachorros-quentes\", \"cartões-postais\". *\"Segunda-feiras\" is the mirror-image slip, because \"segunda\" has to agree with \"feiras\".",
+          "Compounds made of noun + noun or noun + adjective pluralize both parts: \"segundas-feiras\", \"cachorros-quentes\", \"cartões-postais\". *\"Segunda-feiras\" is the mirror-image slip, because \"segunda\" has to agree with \"feiras\".",
         ],
         examples: [
           { es: "Esqueci os dois guarda-chuvas no ônibus.", en: "I left both umbrellas on the bus." },
@@ -1766,8 +1766,8 @@ export const PT_B2_U10: Lesson[] = [
           "The same pattern repeats. \"Um homem pobre\" has no money, while \"um pobre homem\" deserves pity. \"Um homem grande\" is big, while \"um grande homem\" is great. \"Um carro novo\" is brand-new, while \"um novo carro\" is simply a different car.",
         ],
         examples: [
-          { es: "O Rafael é um velho amigo da faculdade.", en: "Rafael is an old friend from university." },
-          { es: "Visitamos um amigo velho que mora num asilo.", en: "We visited an elderly friend who lives in a care home." },
+          { es: "O Rafael é um velho amigo da faculdade.", en: "Rafael is an old friend from college." },
+          { es: "Visitamos um amigo velho que mora num asilo.", en: "We visited an elderly friend who lives in a nursing home." },
           { es: "O pobre homem perdeu tudo na enchente.", en: "The poor man lost everything in the flood." },
           { es: "Santos Dumont foi um grande homem.", en: "Santos Dumont was a great man." },
           { es: "Comprei um novo carro, mas ele é de 2015.", en: "I got a new car, but it's a 2015 model." },
@@ -1813,7 +1813,7 @@ export const PT_B2_U10: Lesson[] = [
           { es: "É impossível estacionar no centro.", en: "It's impossible to park downtown." },
           { es: "A empresa também abriu um escritório em Recife.", en: "The company also opened an office in Recife." },
           { es: "Esse time é imbatível em casa.", en: "That team is unbeatable at home." },
-          { es: "Dirigir sem carteira é ilegal.", en: "Driving without a licence is illegal." },
+          { es: "Dirigir sem carteira é ilegal.", en: "Driving without a license is illegal." },
           { es: "Foi uma atitude irresponsável.", en: "It was an irresponsible thing to do." },
         ],
         checkpoint: [
@@ -1851,7 +1851,7 @@ export const PT_B2_U10: Lesson[] = [
         sentence: "A gente precisa de ___ de queijo.",
         answer: "duzentos gramas",
         altAnswers: ["200 gramas"],
-        explanation: "The unit is masculine, \"o grama\", so the number agrees: \"duzentos gramas\". You'll hear \"duzentas gramas\" in shops, but the norm is masculine.",
+        explanation: "The unit is masculine, \"o grama\", so the number agrees: \"duzentos gramas\". You'll hear \"duzentas gramas\" in stores, but the norm is masculine.",
       },
       {
         type: "translate",
@@ -1907,7 +1907,7 @@ export const PT_B2_U10: Lesson[] = [
         type: "speak",
         text: "O problema é que o clima mudou.",
         prompt: "Say it in Portuguese: The problem is that the climate has changed.",
-        tip: "Both \"problema\" and \"clima\" are stressed on the second-to-last syllable: pro-BLE-ma, CLI-ma.",
+        tip: "Both \"problema\" and \"clima\" are stressed on the second-to-last syllable: pro-BLÊ-ma, CLI-ma.",
         explanation: "\"O problema\" and \"o clima\" are both masculine -ma nouns.",
       },
       {
@@ -1953,7 +1953,7 @@ export const PT_B2_U10: Lesson[] = [
           "Cachorro-quente é mais barato às segundas-feiras.",
           "Cachorro-quente é mais barato às segundas.",
         ],
-        explanation: "Both compounds pluralise both parts: \"cachorros-quentes\" and \"segundas-feiras\". *\"Segunda-feiras\" leaves \"segunda\" without agreement.",
+        explanation: "Both compounds pluralize both parts: \"cachorros-quentes\" and \"segundas-feiras\". *\"Segunda-feiras\" leaves \"segunda\" without agreement.",
       },
     ],
   },
@@ -2138,9 +2138,9 @@ export const PT_B2_U10: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The construction of the metro was postponed.",
+        prompt: "Put the words in order to say: The construction of the subway was postponed.",
         words: ["A", "construção", "do", "metrô", "foi", "adiada."],
-        translation: "The construction of the metro was postponed.",
+        translation: "The construction of the subway was postponed.",
         explanation: "\"Construir\" → \"a construção\", which is feminine, so the participle agrees: \"foi adiada\".",
       },
       {
@@ -2226,7 +2226,7 @@ export const PT_B2_U10: Lesson[] = [
         ],
         examples: [
           { es: "O problema é que o sistema novo ainda está lento.", en: "The problem is that the new system is still slow." },
-          { es: "A grama do jardim está alta demais.", en: "The grass in the garden is far too long." },
+          { es: "A grama do jardim está alta demais.", en: "The grass in the yard is far too long." },
           { es: "Brasília é a capital do Brasil desde 1960.", en: "Brasília has been Brazil's capital since 1960." },
           { es: "Eles investiram todo o capital na empresa.", en: "They put all their capital into the company." },
           { es: "Esqueci os guarda-chuvas no carro.", en: "I left the umbrellas in the car." },
@@ -2268,11 +2268,11 @@ export const PT_B2_U10: Lesson[] = [
         heading: "Position and word families",
         body: [
           "Before the noun, some adjectives become figurative or subjective; after it, they keep their literal meaning. \"Um grande homem\" is great and \"um homem grande\" is big. \"Um velho amigo\" goes back years and \"um amigo velho\" is elderly. \"O pobre rapaz\" deserves pity and \"um rapaz pobre\" has no money. \"Uma simples pergunta\" is just a question and \"uma pessoa simples\" is down-to-earth. \"A única vez\" is the only time and \"um estilo único\" is a unique style.",
-          "Precise description also means choosing the right member of a word family: \"decidir\", \"a decisão\", \"decisivo\"; \"confiar\", \"a confiança\", \"confiável\". With the negative prefix, write \"m\" before \"p\" and \"b\" (\"impossível\", \"imbatível\") and \"n\" everywhere else (\"inaceitável\", \"infeliz\").",
+          "Precise description also means choosing the right member of a word family: \"decidir\", \"a decisão\", \"decisivo\"; \"confiar\", \"a confiança\", \"confiável\". With the negative prefix, write \"m\" before \"p\" and \"b\" (\"impossível\", \"imbatível\") and \"n\" before vowels and most other consonants (\"inaceitável\", \"infeliz\"), but plain \"i-\" before l and r (\"ilegal\", \"irresponsável\").",
         ],
         examples: [
           { es: "Meu avô foi um grande homem, embora não fosse um homem grande.", en: "My grandfather was a great man, though he wasn't a big man." },
-          { es: "Encontrei um velho amigo da faculdade no metrô.", en: "I ran into an old friend from college on the metro." },
+          { es: "Encontrei um velho amigo da faculdade no metrô.", en: "I ran into an old friend from college on the subway." },
           { es: "O pobre rapaz perdeu o voo duas vezes.", en: "The poor guy missed his flight twice." },
           { es: "Foi a única vez que eu fui a Manaus.", en: "It was the only time I went to Manaus." },
           { es: "A decisão da diretoria foi decisiva para o projeto.", en: "The board's decision was decisive for the project." },
@@ -2308,15 +2308,15 @@ export const PT_B2_U10: Lesson[] = [
       {
         heading: "Size, attitude and the whole toolkit",
         body: [
-          "\"-ão\" and \"-inho\" carry attitude as well as size. \"Um carrão\" impresses, \"um filminho\" belittles, \"um cafezinho\" is hospitality, and \"o jeitinho\" is the art of getting round an obstacle.",
+          "\"-ão\" and \"-inho\" carry attitude as well as size. \"Um carrão\" impresses, \"um filminho\" belittles, \"um cafezinho\" is hospitality, and \"o jeitinho\" is the art of getting around an obstacle.",
           "Watch the plural of \"-zinho\" words. Both parts go plural, built on the noun's own plural minus the s: \"pães\" → \"pãezinhos\", \"cafés\" → \"cafezinhos\". The noun's gender and number still control agreement inside the B2 tenses: \"se eu tivesse um carrão desses\", \"espero que os problemas sejam resolvidos\".",
         ],
         examples: [
           { es: "Se eu tivesse um carrão desses, viajaria até Porto Alegre.", en: "If I had a car like that, I'd drive all the way to Porto Alegre." },
-          { es: "Com um jeitinho, a gente conseguiu os ingressos.", en: "We found a way round it and got the tickets." },
-          { es: "Foi só um filminho bobo, nada de mais.", en: "It was just a silly little film, nothing special." },
+          { es: "Com um jeitinho, a gente conseguiu os ingressos.", en: "We found a way around it and got the tickets." },
+          { es: "Foi só um filminho bobo, nada de mais.", en: "It was just a silly little movie, nothing special." },
           { es: "Compra seis pãezinhos na padaria, por favor.", en: "Get six bread rolls at the bakery, please." },
-          { es: "Ela mora num apartamentinho perto da praia.", en: "She lives in a tiny flat near the beach." },
+          { es: "Ela mora num apartamentinho perto da praia.", en: "She lives in a tiny apartment near the beach." },
           { es: "Vocês aceitam um cafezinho?", en: "Would you like a coffee?" },
         ],
         checkpoint: [
@@ -2324,9 +2324,9 @@ export const PT_B2_U10: Lesson[] = [
             type: "listen-choose",
             audio: "Foi só um filminho bobo.",
             question: "What does it mean?",
-            options: ["It was just a silly little film.", "It was a really big film.", "It was only a silly little book.", "It wasn't a silly film."],
+            options: ["It was just a silly little movie.", "It was a really big movie.", "It was only a silly little book.", "It wasn't a silly movie."],
             correctIndex: 0,
-            explanation: "\"Filminho\" here is less about length than attitude: the speaker plays the film down. \"Só\" and \"bobo\" confirm the tone.",
+            explanation: "\"Filminho\" here is less about length than attitude: the speaker plays the movie down. \"Só\" and \"bobo\" confirm the tone.",
           },
           {
             type: "translate",
@@ -2483,5 +2483,5 @@ export const PT_B2_U10_WRITING: WriteExercise = {
     "Build words with prefixes and suffixes (\"desorganizado\", \"inesquecível\", \"imperdível\", \"tranquilidade\") and add at least one diminutive or augmentative that shows attitude (\"um jeitinho\", \"quentinho\", \"um cachorrão\")."
   ],
   modelAnswer: "Passei um feriado prolongado na Pousada Recanto Azul, em Paraty, e preciso compartilhar a experiência. O dono, seu Antônio, é um velho amigo da minha família e, sinceramente, um grande homem: atencioso, paciente e sempre disposto a dar um jeitinho quando algum hóspede precisa de alguma coisa. A pousada é simples, mas tem um charme inegável. A grama do jardim é muito bem cuidada, e o clima da região é perfeito para descansar. Quem recebe todo mundo na varanda é o Thor, um cachorrão preguiçoso que dorme o dia inteiro.\n\nO único problema foi o sistema de reservas, um pouco desorganizado: na primeira noite, a recepção não encontrou meu nome. Felizmente, a funcionária resolveu tudo com uma rapidez admirável. Um detalhe importante: o restaurante fecha às segundas-feiras, mas vale a pena experimentar os cachorros-quentes da praça, que são deliciosos.\n\nO café da manhã é um caso à parte, com pão de queijo quentinho e frutas da estação. Quando choveu, a pousada emprestou guarda-chuvas a todos os hóspedes, um gesto pequeno, mas inesquecível. Recomendo de olhos fechados: é um lugar imperdível para quem procura tranquilidade.",
-  explanation: "Position changes meaning: \"um velho amigo\" is a long-time friend, not an old one, \"um grande homem\" praises his character rather than his size, and \"o único problema\" means the only problem. Nouns in -ma like \"o problema\", \"o sistema\" and \"o clima\" are masculine, while \"a grama\" (grass) is feminine. In compounds, verb + noun pluralises only the noun (\"guarda-chuvas\"), and noun + adjective or noun + noun pluralises both (\"cachorros-quentes\", \"segundas-feiras\"). Prefixes and suffixes build precise words: \"des-\" + \"organizado\", \"in-\" becomes \"im-\" before p (\"imperdível\"), and \"-dade\" turns an adjective into a noun (\"tranquilidade\"). The diminutives \"jeitinho\" and \"quentinho\" sound warm and affectionate, and the augmentative \"cachorrão\" sounds fond, not just big."
+  explanation: "Position changes meaning: \"um velho amigo\" is a long-time friend, not an old one, \"um grande homem\" praises his character rather than his size, and \"o único problema\" means the only problem. Nouns in -ma like \"o problema\", \"o sistema\" and \"o clima\" are masculine, while \"a grama\" (grass) is feminine. In compounds, verb + noun pluralizes only the noun (\"guarda-chuvas\"), and noun + adjective or noun + noun pluralizes both (\"cachorros-quentes\", \"segundas-feiras\"). Prefixes and suffixes build precise words: \"des-\" + \"organizado\", \"in-\" becomes \"im-\" before p (\"imperdível\"), and \"-dade\" turns an adjective into a noun (\"tranquilidade\"). The diminutives \"jeitinho\" and \"quentinho\" sound warm and affectionate, and the augmentative \"cachorrão\" sounds fond, not just big."
 };

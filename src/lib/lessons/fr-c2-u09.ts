@@ -9,13 +9,13 @@ export const FR_C2_U09: Lesson[] = [
     level: "FR-C2",
     number: 1,
     title: "Exclamations et Interjections, Part 1 of 2",
-    summary: "React to surprising news the way French speakers actually do, from a genuine ça alors ! to the ironic tu m'étonnes !, and pick the mild swear word that suits the room.",
+    summary: "React to surprising news the way French speakers actually do, from a genuine \"ça alors !\" to the ironic \"tu m'étonnes !\", and pick the mild swear word that suits the room.",
     duration: "18 min",
     sections: [
       {
         heading: "Genuine surprise: ça alors !, sans blague !, c'est pas vrai !",
         body: [
-          "Textbook French gives you \"quelle surprise !\", which natives use mostly with a touch of irony. Real surprise sounds like this: \"ça alors !\" (well I never!), \"sans blague !\" (no kidding!), \"c'est pas vrai !\" (no way!), \"pas possible !\", \"non ?!\" and, for scandalised disbelief, \"non mais je rêve !\" (I must be dreaming!). Note that all of them are spoken French: the ne disappears in \"c'est pas vrai\", and writing \"ce n'est pas vrai !\" in a text message would sound oddly stiff.",
+          "Textbook French gives you \"quelle surprise !\", which natives use mostly with a touch of irony. Real surprise sounds like this: \"ça alors !\" (well I never!), \"sans blague !\" (no kidding!), \"c'est pas vrai !\" (no way!), \"pas possible !\", \"non ?!\" and, for scandalised disbelief, \"non mais je rêve !\" (I must be dreaming!). Note that all of them are spoken French: the \"ne\" disappears in \"c'est pas vrai\", and writing \"ce n'est pas vrai !\" in a text message would sound oddly stiff.",
           "Each one has its own colour. \"Ça alors !\" is pure astonishment, slightly old-fashioned and very warm, the reaction of someone who bumps into an old friend in a foreign station. \"Sans blague ?\" with a rising tone asks for confirmation; with a falling tone it becomes ironic (see the next section). \"Non mais je rêve !\" or \"non mais allô !\" is outrage at something absurd or rude: someone has just pushed in front of you in the queue.",
           "Intonation does most of the work. A long, rising \"non ?!\" invites the speaker to go on; a short, flat \"non.\" is a refusal. When you listen to French radio or films, pay attention to the melody before the words: the same \"c'est pas vrai\" can be delighted, horrified or exhausted.",
         ],
@@ -175,7 +175,7 @@ export const FR_C2_U09: Lesson[] = [
         prompt: "Translate into French.",
         source: "Some holiday that was! It rained for ten days.",
         answer: "Tu parles de vacances ! Il a plu pendant dix jours.",
-        altAnswers: ["Tu parles de vacances ! Il a plu dix jours.", "Parle-moi de vacances ! Il a plu pendant dix jours.", "Vous parlez de vacances ! Il a plu pendant dix jours.", "Tu parles de vacances ! Il a plu pendant dix jours d'affilée."],
+        altAnswers: ["Tu parles de vacances ! Il a plu dix jours.", "Vous parlez de vacances ! Il a plu pendant dix jours.", "Tu parles de vacances ! Il a plu pendant dix jours d'affilée."],
         explanation: "\"Tu parles de / d'un(e) + noun !\" is the ironic 'some ... that was!'. \"Vacances\" is plural, so \"de vacances\".",
       },
       {
@@ -334,7 +334,7 @@ export const FR_C2_U09: Lesson[] = [
       {
         heading: "Complaint and relief: j'en ai marre !, ras-le-bol !, ouf !",
         body: [
-          "Complaining is something of a national sport, and the language is well equipped for it. \"J'en ai marre !\" (I'm fed up!) is the everyday form; \"j'en ai marre de + noun / infinitive\" says what of: \"j'en ai marre de ce bruit\", \"j'en ai marre d'attendre\". In speech it becomes \"j'en ai ma claque\", \"j'en ai ras le bol\" or, ruder, \"j'en ai plein le dos\".",
+          "Complaining is something of a national sport, and the language is well equipped for it. \"J'en ai marre !\" (I'm fed up!) is the everyday form; \"j'en ai marre de + noun / infinitive\" says what of: \"j'en ai marre de ce bruit\", \"j'en ai marre d'attendre\". Synonyms in the same familiar register: \"j'en ai ma claque\", \"j'en ai ras le bol\", \"j'en ai plein le dos\"; the vulgar version is \"j'en ai plein le cul\".",
           "\"Y en a marre !\" (spoken form of \"il y en a marre\") is collective: everyone has had enough, the slogan of strikes and demonstrations. \"Ras-le-bol !\" (fed up to the brim) is also a noun: \"le ras-le-bol des usagers\" is the commuters' exasperation, a phrase you will meet in newspapers.",
           "When the trouble is over: \"ouf !\" (phew!), \"enfin !\" (at last!), \"on l'a échappé belle\" (that was a close shave), \"quel soulagement !\". Note \"enfin\" also corrects or softens (\"il est sympa, enfin, la plupart du temps\"), so the exclamation mark and the intonation matter.",
         ],
@@ -446,7 +446,7 @@ export const FR_C2_U09: Lesson[] = [
         prompt: "Put the words in order to say: We're fed up with this noise!",
         words: ["On", "en", "a", "marre", "de", "ce", "bruit !"],
         translation: "We're fed up with this noise!",
-        explanation: "\"En avoir marre de\": \"en\" sits before the auxiliary-like \"a\", and \"de\" introduces the cause.",
+        explanation: "\"En avoir marre de\": \"en\" goes before the verb \"a\", and \"de\" introduces the cause.",
       },
       {
         type: "listen-choose",
@@ -469,7 +469,7 @@ export const FR_C2_U09: Lesson[] = [
     level: "FR-C2",
     number: 3,
     title: "Contrast Clinic: L'Échelle du Non",
-    summary: "Grade a refusal from a lukewarm bof to plutôt mourir, match it to the situation and the listener, and use si ! to contradict a negative question.",
+    summary: "Grade a refusal from a lukewarm \"bof\" to \"plutôt mourir\", match it to the situation and the listener, and use \"si !\" to contradict a negative question.",
     duration: "16 min",
     sections: [
       {
@@ -698,7 +698,7 @@ export const FR_C2_U09: Lesson[] = [
         body: [
           "\"Quel\" + noun agrees with the noun and takes no article: \"quel temps !\", \"quelle chance !\", \"quels idiots !\", \"quelles vacances !\". English says 'what a', but French never adds \"un\": \"*quel un désastre\" is impossible. An adjective can slip in: \"quelle belle journée !\", \"quel sale temps !\".",
           "\"Que de\" + noun exclaims over quantity: \"que de monde !\" (what a crowd!), \"que de temps perdu !\" (so much wasted time!). It is slightly literary but alive in speech. \"Comme\" + a whole clause exclaims over degree: \"comme c'est beau !\", \"comme il a grandi !\". The adjective or adverb stays after the verb, unlike English 'how beautiful it is'.",
-          "Trap: \"comment\" is never exclamative. \"*Comment c'est beau !\" is a learner error carried over from 'how', and from Spanish \"¡qué bonito!\". Use \"comme\", \"que\" or \"qu'est-ce que\".",
+          "Trap: \"comment\" is never exclamative. \"*Comment c'est beau !\" is a learner error carried over from English 'how'. Use \"comme\", \"que\" or \"qu'est-ce que\".",
         ],
         examples: [
           { es: "Quelle chance tu as eue de trouver cet appartement !", en: "How lucky you were to find this flat!" },
@@ -741,7 +741,7 @@ export const FR_C2_U09: Lesson[] = [
         heading: "Ce que, qu'est-ce que, que: the same idea in three registers",
         body: [
           "French has three ways of saying 'how...!' with a clause, sorted by register. \"Qu'est-ce que c'est cher !\" is everyday spoken French. \"Ce que c'est cher !\" is also spoken, a little more colloquial and expressive. \"Que c'est cher !\" is neutral to slightly formal, and \"comme c'est cher !\" sits in the middle and is safe everywhere.",
-          "In writing, avoid \"qu'est-ce que\" exclamations unless you are reproducing speech; in a novel's narration or a formal letter, \"comme\" and \"que\" are the norm: \"Que la vie était douce alors !\". In the most literary style you will even find inversion: \"Combien il a souffert !\" (how much he suffered!).",
+          "In writing, avoid \"qu'est-ce que\" exclamations unless you are reproducing speech; in a novel's narration or a formal letter, \"comme\" and \"que\" are the norm: \"Que la vie était douce alors !\". In the most literary style you will also find \"combien\": \"Combien il a souffert !\" (how much he suffered!).",
           "The word order inside the clause stays declarative: subject + verb + rest. Do not invert after \"qu'est-ce que\" (\"*qu'est-ce qu'est-il bête\"). And the exclamation can bear on a verb, not just an adjective: \"Qu'est-ce qu'on a ri !\" (how we laughed!), \"Ce qu'il peut être pénible !\" (he can be such a pain!), with \"pouvoir\" adding exasperation.",
         ],
         examples: [
@@ -804,7 +804,7 @@ export const FR_C2_U09: Lesson[] = [
             source: "And to think we could have stayed at home!",
             answer: "Et dire qu'on aurait pu rester à la maison !",
             altAnswers: ["Et dire que nous aurions pu rester à la maison !", "Et dire qu'on aurait pu rester chez nous !", "Et dire que nous aurions pu rester chez nous !"],
-            explanation: "\"Et dire que\" + indicative (here a conditional perfect) introduces a regretful contrast.",
+            explanation: "\"Et dire que\" + indicative or conditional (here the past conditional) introduces a regretful contrast.",
           },
           {
             type: "fill-blank",
@@ -874,7 +874,7 @@ export const FR_C2_U09: Lesson[] = [
         prompt: "Translate into French.",
         source: "It's so expensive! (spoken)",
         answer: "Qu'est-ce que c'est cher !",
-        altAnswers: ["Ce que c'est cher !", "Que c'est cher !", "Comme c'est cher !", "C'est d'un cher !"],
+        altAnswers: ["Ce que c'est cher !", "Que c'est cher !", "Comme c'est cher !"],
         explanation: "\"Qu'est-ce que\" + clause is the everyday spoken exclamation; normal word order follows.",
       },
       {
@@ -942,7 +942,7 @@ export const FR_C2_U09: Lesson[] = [
         question: "What did you hear?",
         options: ["Aïe ! Ça fait mal !", "Ah ! Ça fait mal !", "Aïe ! Ça fait mieux !", "Hein ? Ça fait mal ?"],
         correctIndex: 0,
-        explanation: "\"Aïe\" (ow) has two syllables run together, a-ille; \"ça fait mal\" is 'it hurts'.",
+        explanation: "\"Aïe\" (ow) is a single syllable, pronounced like \"aille\"; \"ça fait mal\" is 'it hurts'.",
       },
       {
         type: "dictation",
@@ -1104,7 +1104,7 @@ export const FR_C2_U09: Lesson[] = [
         en: "They took everything? [Poor thing]... (about a woman)",
         sentence: "Ils ont tout pris ? ___...",
         answer: "La pauvre",
-        altAnswers: ["la pauvre", "Ma pauvre", "Oh, la pauvre"],
+        altAnswers: ["la pauvre", "Oh, la pauvre"],
         explanation: "\"Le / la pauvre\" expresses sympathy for a third person; the adjective is used as a noun.",
       },
       {
@@ -1629,15 +1629,15 @@ export const FR_C2_U09: Lesson[] = [
     level: "FR-C2",
     number: 8,
     title: "Diminutive and Pejorative Suffixes, Part 1 of 2",
-    summary: "French diminutives in -et / -ette, -on, -eau / -elle and -ot / -otte, the many words where the suffix no longer shrinks anything, and why petit usually does the job.",
+    summary: "French diminutives in -et / -ette, -on, -eau / -elle and -ot / -otte, the many words where the suffix no longer shrinks anything, and why \"petit\" usually does the job.",
     duration: "17 min",
     sections: [
       {
         heading: "-et and -ette: the main diminutive",
         body: [
           "The most common French diminutive suffix is \"-et\" for masculine nouns and \"-ette\" for feminine ones: \"un jardin\" → \"un jardinet\" (a small garden), \"une maison\" → \"une maisonnette\" (a little house, a cottage), \"une fille\" → \"une fillette\" (a little girl), \"un garçon\" → \"un garçonnet\" (a little boy, mostly in shop language: \"rayon garçonnet\"). The derived noun normally keeps the gender of its base.",
-          "The final consonant is often doubled before \"-ette\": \"maisonnette\", \"chaînette\", \"tablette\". And the suffix can change the meaning more than the size: \"une sucette\" is a lollipop, \"une camionnette\" a van, \"une tablette\" a bar of chocolate or a tablet computer.",
-          "Unlike Spanish or Italian, French does not let you add a diminutive to almost any noun. \"*Un livret\" exists, but means a booklet or a savings book, not a little book; \"*une tablette\" is not a small table. So the productive tool for size or affection is the adjective: \"un petit livre\", \"une petite table\". Use the suffix only in words you have met.",
+          "A final \"n\" is usually doubled before the suffix: \"maisonnette\", \"chansonnette\", \"cochonnet\". And the suffix can change the meaning more than the size: \"une sucette\" is a lollipop, \"une camionnette\" a van, \"une tablette\" a bar of chocolate or a tablet computer.",
+          "Unlike Spanish or Italian, French does not let you add a diminutive to almost any noun. \"Un livret\" exists, but means a booklet or a savings book, not a little book; \"une tablette\" is not a small table. So the productive tool for size or affection is the adjective: \"un petit livre\", \"une petite table\". Use the suffix only in words you have met.",
         ],
         examples: [
           { es: "Derrière la maison, il y a un jardinet plein de lavande.", en: "Behind the house there's a little garden full of lavender." },
@@ -1847,7 +1847,7 @@ export const FR_C2_U09: Lesson[] = [
     level: "FR-C2",
     number: 9,
     title: "Contrast Clinic: Le Petit qui Ne Rapetisse Pas",
-    summary: "Petit as affection, politeness or irony (un petit café, un petit quart d'heure, ma petite dame, une petite nature), plus terms of endearment and reduplication (mon chou, ma puce, fifille, Jojo).",
+    summary: "\"Petit\" as affection, politeness or irony (\"un petit café\", \"un petit quart d'heure\", \"ma petite dame\", \"une petite nature\"), plus terms of endearment and reduplication (\"mon chou\", \"ma puce\", \"fifille\", \"Jojo\").",
     duration: "16 min",
     sections: [
       {
@@ -1931,7 +1931,7 @@ export const FR_C2_U09: Lesson[] = [
         heading: "Terms of endearment and reduplication",
         body: [
           "French endearments often come from food and small animals, and they are grammatically surprising: \"mon chou\" (my cabbage, from \"chou à la crème\"), \"ma puce\" (my flea), \"mon lapin\", \"ma biche\" (my doe), \"mon cœur\", \"mon trésor\". \"Ma puce\" is common for little girls and partners; \"mon chou\" stays masculine even for a woman.",
-          "Reduplication is the other childlike diminutive: repeat a syllable to make a pet name or a baby word. \"Fifille\" (from fille, often ironic: \"la fifille à son papa\", daddy's girl), \"nounours\" (teddy bear, from ours), \"Mimi\", \"Jojo\", \"Lolo\", \"dodo\" (sleep: \"au dodo !\"), \"bobo\" (an ouch), \"toutou\" (doggy). Some, like \"Jojo\" or \"Mimi\", are now ordinary nicknames for adults.",
+          "Reduplication is the other childlike diminutive: repeat a syllable to make a pet name or a baby word. \"Fifille\" (from fille, often ironic: \"la fifille à son papa\", daddy's girl), \"nounours\" (teddy bear, from ours), \"Mimi\", \"Jojo\", \"Lolo\", \"dodo\" (sleep: \"au dodo !\"), \"bobo\" (a little hurt, a boo-boo), \"toutou\" (doggy). Some, like \"Jojo\" or \"Mimi\", are now ordinary nicknames for adults.",
           "Register matters: these words belong to the family and to couples. In the office, even among friends, they would sound strange, unless used ironically: \"Alors, mon lapin, ce rapport ?\" from a manager is a joke or a red flag.",
         ],
         examples: [
@@ -2335,7 +2335,7 @@ export const FR_C2_U09: Lesson[] = [
         heading: "Approximation: -âtre and -et for adjectives",
         body: [
           "The second branch is approximation, mostly with colours and tastes. \"-âtre\" gives '-ish': \"bleuâtre\", \"verdâtre\", \"jaunâtre\", \"grisâtre\", \"noirâtre\", \"douceâtre\", \"saumâtre\" (brackish, and figuratively unpleasant: \"la trouver saumâtre\", to find it hard to swallow). It almost always suggests something murky or unappealing.",
-          "For a neutral '-ish', French uses \"tirant sur le\" + colour (\"un vert tirant sur le bleu\") or \"légèrement\": \"une lumière légèrement bleutée\". The suffix \"-et\" on adjectives gives a softer, pleasant nuance: \"bleuté\", \"rondelet\" (plump, chubby, gently), \"maigrelet\" (skinny, affectionate or mocking), \"aigrelet\" (slightly sour).",
+          "For a neutral '-ish', French uses \"tirant sur le\" + colour (\"un vert tirant sur le bleu\") or \"légèrement\": \"une lumière légèrement bleutée\". A softer, pleasant nuance comes from \"bleuté\" (formed with \"-é\") and from the suffix \"-et\" on adjectives: \"rondelet\" (plump, chubby, gently), \"maigrelet\" (skinny, affectionate or mocking), \"aigrelet\" (slightly sour).",
           "So \"une eau verdâtre\" is unappetising, whereas \"des reflets bleutés\" is poetic. Choosing between them is choosing a point of view.",
         ],
         examples: [
@@ -2557,7 +2557,7 @@ export const FR_C2_U09: Lesson[] = [
         heading: "A Brussels chronicle: -ke and regional colour",
         body: [
           "Now an original newspaper chronicle in the Brussels style. « Dimanche matin, place du Jeu de Balle. Un ketje d'une dizaine d'années marchande un vieux vélo avec l'aplomb d'un brocanteur. “Allez, m'fieu, quinze euros, c'est donné !” lui lance le vendeur. À deux pas, devant le Manneken-Pis habillé pour l'occasion, des touristes photographient le petit bonhomme en bronze. On boit un café, on mange une gaufre, et l'on se dit qu'à Bruxelles, même l'ironie a quelque chose de tendre. »",
-          "\"-ke\" is a Brussels and Flemish diminutive suffix, borrowed from Dutch (\"-ke\", \"-tje\"): \"un ketje\" is a Brussels street kid, cheeky and lovable; \"manneke\" a little man (as in \"Manneken-Pis\"); \"un pistolet\" in Belgium is a bread roll. \"M'fieu\" (from \"mon fils\") is a Brussels address between men, like 'mate'. These words signal place and community: using them, the chronicler stands with the locals.",
+          "\"-ke\" and \"-tje\" are Brussels and Flemish diminutive suffixes, borrowed from Dutch: \"un ketje\" is a Brussels street kid, cheeky and lovable; \"manneke\" a little man (as in \"Manneken-Pis\"); \"un pistolet\" in Belgium is a bread roll. \"M'fieu\" (from \"mon fils\") is a Brussels address between men, like 'mate'. These words signal place and community: using them, the chronicler stands with the locals.",
           "The tone is affectionate self-mockery, typical of Belgian chronicles. Compare a neutral version: « un garçon d'une dizaine d'années négocie le prix d'un vélo d'occasion ». The facts are the same; the warmth and the sense of place are gone.",
         ],
         examples: [
@@ -2729,15 +2729,15 @@ export const FR_C2_U09: Lesson[] = [
 
 export const FR_C2_U09_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Write a lively personal email (250-400 words) to a French friend telling the story of a chaotic week: some good news, some bad news and an absurd annoyance. Report your own and other people's reactions in direct speech with natural exclamations, and use at least two expressive suffixes or a telling 'petit'.",
+  prompt: "Write a lively personal email (250-400 words) to a French friend telling the story of a chaotic week: some good news, some bad news and an absurd annoyance. Report your own and other people's reactions in direct speech with natural exclamations, and use at least two expressive suffixes or a telling \"petit\".",
   minWords: 250,
   maxWords: 400,
   rubric: [
     "Uses at least four exclamations suited to the situation, e.g. \"ça alors !\", \"tu m'étonnes !\", \"ben voyons !\", \"non mais je rêve !\", \"ouf !\"",
     "Uses the grammar of exclamation: \"quel\" + noun, \"qu'est-ce que\" / \"comme\" + clause, \"pourvu que\" + subjunctive or \"et dire que\"",
     "Includes expressive affixes or a non-literal \"petit\" (e.g. \"la paperasse\", \"un chauffard\", \"archiplein\", \"un petit quart d'heure\")",
-    "Keeps a consistent familiar register (tu, spoken forms in dialogue) and correct \"si\" to contradict a negative",
+    "Keeps a consistent familiar register (\"tu\", spoken forms in dialogue) and correct \"si\" to contradict a negative",
   ],
-  modelAnswer: "Salut Camille,\n\nTu ne devineras jamais la semaine que je viens de passer. Lundi, ma cheffe me convoque dans son bureau. Je me dis : « Ça y est, je suis virée. » Pas du tout : elle m'annonce que je suis promue responsable de l'équipe export ! Ça alors ! Quand je l'ai dit à Karim, il m'a répondu : « Tu m'étonnes, avec toutes les heures sup que tu fais ! » Il n'a pas tort, d'ailleurs.\n\nMardi, évidemment, la roue a tourné. En rentrant, je trouve la porte de l'immeuble forcée : la voisine du deuxième s'était fait cambrioler. La pauvre, ils ont pris les bijoux de sa mère. On a passé la soirée avec elle au commissariat, puis à remplir une montagne de paperasse pour l'assurance. Quelle soirée !\n\nEt le meilleur pour la fin : jeudi, grève surprise des bus. Le métro était archiplein, un type m'a écrasé le pied sans même s'excuser. Non mais je rêve ! Arrivée au bureau avec quarante minutes de retard, le directeur me lance : « Vous n'avez pas reçu mon message ? » Moi : « Si, mais je n'ai pas pu le lire, j'étais coincée entre trois parapluies ! » Il a ri, ouf.\n\nEt dire que je voulais une semaine tranquille pour préparer mon déménagement... Le propriétaire, lui, en a profité pour m'annoncer une hausse de loyer « purement symbolique ». Ben voyons ! Il m'a promis de passer réparer le chauffe-eau « dans un petit quart d'heure » : c'était mercredi, je l'attends toujours.\n\nBref, qu'est-ce que j'ai hâte d'être en vacances ! Pourvu que le train de samedi ne soit pas annulé, sinon je fais une crise. Tu viens toujours à Nantes le mois prochain ? Si tu savais comme j'ai besoin d'un petit week-end entre copines !\n\nJe t'embrasse fort,\nLéa",
+  modelAnswer: "Salut Camille,\n\nTu ne devineras jamais la semaine que je viens de passer. Lundi, ma cheffe me convoque dans son bureau. Je me dis : « Ça y est, je suis virée. » Pas du tout : elle m'annonce que je suis promue responsable de l'équipe export ! Ça alors ! Quand je l'ai dit à Karim, il m'a répondu : « Tu m'étonnes, avec toutes les heures sup que tu fais ! » Il n'a pas tort, d'ailleurs.\n\nMardi, évidemment, la roue a tourné. En rentrant, je trouve la porte de l'immeuble forcée : la voisine du deuxième s'était fait cambrioler. La pauvre, ils ont pris les bijoux de sa mère. On a passé la soirée avec elle au commissariat, puis à remplir une montagne de paperasse pour l'assurance. Quelle soirée !\n\nEt le meilleur pour la fin : jeudi, grève surprise des bus. Le métro était archiplein, un type m'a écrasé le pied sans même s'excuser. Non mais je rêve ! Quand j'arrive enfin au bureau, avec quarante minutes de retard, le directeur me lance : « Vous n'avez pas reçu mon message ? » Moi : « Si, mais je n'ai pas pu le lire, j'étais coincée entre trois parapluies ! » Il a ri, ouf.\n\nEt dire que je voulais une semaine tranquille pour préparer mon déménagement... Le propriétaire, lui, en a profité pour m'annoncer une hausse de loyer « purement symbolique ». Ben voyons ! Il m'a promis de passer réparer le chauffe-eau « dans un petit quart d'heure » : c'était mercredi, je l'attends toujours.\n\nBref, qu'est-ce que j'ai hâte d'être en vacances ! Pourvu que le train de samedi ne soit pas annulé, sinon je fais une crise. Tu viens toujours à Nantes le mois prochain ? Si tu savais comme j'ai besoin d'un petit week-end entre copines !\n\nJe t'embrasse fort,\nLéa",
   explanation: "The model reacts with exclamations matched to each event (genuine surprise \"ça alors\", ironic \"tu m'étonnes\" and \"ben voyons\", outrage \"non mais je rêve\", relief \"ouf\"), uses the grammar of exclamation (\"quelle soirée\", \"qu'est-ce que\" + clause, \"pourvu que\" + subjunctive \"soit\", \"et dire que\", \"si tu savais\"), contradicts a negative question with \"si\", and colours the story with \"paperasse\", \"archiplein\" and the ironic \"petit quart d'heure\".",
 };

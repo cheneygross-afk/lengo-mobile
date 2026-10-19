@@ -15,14 +15,14 @@ export const PT_C2_U20: Lesson[] = [
         heading: "The present for the past, and no articles",
         body: [
           "A Brazilian headline (\"título\") reports a past event in the present tense: \"Câmara aprova reforma tributária\", \"Governo anuncia corte de R$ 10 bi no Orçamento\". The present makes the news feel immediate, exactly as in English headlines. The trap for an English speaker is the opposite reflex in Portuguese prose: \"Governo anunciou corte\" looks like a blog post or a social media caption, not a newspaper.",
-          "Headlines also drop the initial article: \"Governo anuncia\", not \"O governo anuncia\"; \"Prefeitura fecha escolas\", not \"A prefeitura fecha\". Articles inside the headline may stay when the rhythm needs them (\"Inflação de setembro é a menor do ano\"). A headline has a verb whenever possible, uses figures for numbers and never ends with a full stop.",
+          "Headlines also drop the initial article: \"Governo anuncia\", not \"O governo anuncia\"; \"Prefeitura fecha escolas\", not \"A prefeitura fecha\". Articles inside the headline may stay when the rhythm needs them (\"Inflação de setembro é a menor do ano\"). A headline has a verb whenever possible, uses figures for numbers and never ends with a period.",
         ],
         examples: [
           { es: "Câmara aprova reforma tributária em segundo turno", en: "Lower house passes tax reform in second vote" },
           { es: "Governo anuncia corte de R$ 10 bi no Orçamento", en: "Government announces R$10bn budget cut" },
           { es: "Prefeitura de Salvador fecha três escolas por risco de desabamento", en: "Salvador city hall shuts three schools over collapse risk" },
           { es: "Inflação de setembro é a menor do ano", en: "September inflation is the lowest of the year" },
-          { es: "Seleção vence o Uruguai e assume a liderança das Eliminatórias", en: "Brazil beat Uruguay and go top of the qualifiers" },
+          { es: "Seleção vence o Uruguai e assume a liderança das Eliminatórias", en: "Brazil beats Uruguay and takes the lead in the qualifiers" },
         ],
         checkpoint: [
           {
@@ -38,7 +38,7 @@ export const PT_C2_U20: Lesson[] = [
               "Governo anuncia corte de 10 bilhões no Orçamento",
               "Governo anuncia corte de R$ 10 bi",
             ],
-            explanation: "Present tense, no initial article. Headlines abbreviate \"bilhões\" to \"bi\", and \"Orçamento\" (the federal budget) is often capitalised.",
+            explanation: "Present tense, no initial article. Headlines abbreviate \"bilhões\" to \"bi\", and \"Orçamento\" (the federal budget) is often capitalized.",
           },
           {
             type: "multiple-choice",
@@ -50,7 +50,7 @@ export const PT_C2_U20: Lesson[] = [
               "Ontem, a Câmara do Recife aprovou uma lei contra os fogos.",
             ],
             correctIndex: 0,
-            explanation: "Present tense, no initial article, no full stop, no \"ontem\". The others read as the first line of the story, not as a headline.",
+            explanation: "Present tense, no initial article, no period, no \"ontem\". The others read as the first line of the story, not as a headline.",
           },
         ],
       },
@@ -62,7 +62,7 @@ export const PT_C2_U20: Lesson[] = [
         ],
         examples: [
           { es: "Ministro deve deixar o cargo nesta semana", en: "Minister expected to step down this week" },
-          { es: "Prefeitura vai ampliar o horário dos postos de saúde", en: "City hall to extend health centre opening hours" },
+          { es: "Prefeitura vai ampliar o horário dos postos de saúde", en: "City hall to extend health center opening hours" },
           { es: "STF pode julgar o caso em dezembro", en: "Supreme Court may rule on the case in December" },
           { es: "Presidente viaja à China na sexta", en: "President travels to China on Friday" },
         ],
@@ -102,7 +102,7 @@ export const PT_C2_U20: Lesson[] = [
           { es: "Ponte é interditada após rachaduras", en: "Bridge closed after cracks appear" },
           { es: "Dois morrem em acidente na BR-101", en: "Two killed in crash on the BR-101 highway" },
           { es: "Ministro diz que inflação vai cair até o fim do ano", en: "Minister says inflation will fall by the end of the year" },
-          { es: "Ministra: \"Não haverá aumento de impostos\"", en: "Minister: 'There will be no tax rise'" },
+          { es: "Ministra: \"Não haverá aumento de impostos\"", en: "Minister: 'There will be no tax increase'" },
         ],
         checkpoint: [
           {
@@ -129,11 +129,11 @@ export const PT_C2_U20: Lesson[] = [
         heading: "The page: manchete, linha fina, intertítulo",
         body: [
           "\"Manchete\" is not any headline but the main headline on the front page (or on a section front); the general word is \"título\". Above the headline there may be a \"chapéu\" (kicker): a word or two that labels the topic, such as \"ELEIÇÕES 2026\". Below it comes the \"linha fina\", a full sentence, also in the present, that adds what the headline had no room for.",
-          "Inside the story, \"intertítulos\" (crossheads) break the text into blocks, and an \"olho\" is a quotation or a key sentence pulled out in large type. The headline and the linha fina shouldn't repeat each other: if the headline says what, the linha fina says how much, why or what next.",
+          "Inside the story, \"intertítulos\" (subheads) break the text into blocks, and an \"olho\" is a quotation or a key sentence pulled out in large type. The headline and the linha fina shouldn't repeat each other: if the headline says what, the linha fina says how much, why or what next.",
         ],
         examples: [
           { es: "Prefeitura vai fechar três escolas em Salvador", en: "City hall to close three schools in Salvador" },
-          { es: "Laudo aponta risco nas estruturas; 1.200 alunos serão transferidos até o fim do mês", en: "Report points to structural risk; 1,200 pupils to be moved by the end of the month" },
+          { es: "Laudo aponta risco nas estruturas; 1.200 alunos serão transferidos até o fim do mês", en: "Report points to structural risk; 1,200 students to be moved by the end of the month" },
           { es: "A manchete de hoje é sobre a reforma tributária.", en: "Today's lead headline is about the tax reform." },
         ],
         checkpoint: [
@@ -141,7 +141,7 @@ export const PT_C2_U20: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Write a Portuguese linha fina.",
-            source: "Report points to structural risk; 1,200 pupils to be moved by the end of the month",
+            source: "Report points to structural risk; 1,200 students to be moved by the end of the month",
             answer: "Laudo aponta risco nas estruturas; 1.200 alunos serão transferidos até o fim do mês",
             altAnswers: [
               "Laudo aponta risco estrutural; 1.200 alunos serão transferidos até o fim do mês",
@@ -157,8 +157,8 @@ export const PT_C2_U20: Lesson[] = [
             instructions: "Match the Portuguese to the English.",
             pairs: [
               { left: "manchete", right: "main front-page headline" },
-              { left: "linha fina", right: "deck or subheading under the headline" },
-              { left: "intertítulo", right: "crosshead inside the story" },
+              { left: "linha fina", right: "deck under the headline" },
+              { left: "intertítulo", right: "subhead inside the story" },
               { left: "chapéu", right: "kicker above the headline" },
               { left: "olho", right: "pull quote in large type" },
             ],
@@ -181,7 +181,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Write the Portuguese headline.",
-        source: "City hall to extend health centre opening hours",
+        source: "City hall to extend health center opening hours",
         answer: "Prefeitura vai ampliar o horário dos postos de saúde",
         altAnswers: [
           "Prefeitura vai ampliar horário dos postos de saúde",
@@ -256,7 +256,7 @@ export const PT_C2_U20: Lesson[] = [
         prompt: "Put the words in order to make the headline: September inflation is the lowest of the year",
         words: ["Inflação", "de", "setembro", "é", "a", "menor", "do", "ano"],
         translation: "September inflation is the lowest of the year",
-        explanation: "No initial article, but internal articles (\"a menor\") stay when the phrase needs them. No full stop.",
+        explanation: "No initial article, but internal articles (\"a menor\") stay when the phrase needs them. No period.",
       },
     ],
   },
@@ -277,8 +277,8 @@ export const PT_C2_U20: Lesson[] = [
         ],
         examples: [
           { es: "A Prefeitura de Salvador anunciou nesta segunda-feira (14) o fechamento de três escolas municipais no bairro da Liberdade.", en: "Salvador city hall announced on Monday the closure of three municipal schools in the Liberdade district." },
-          { es: "A decisão foi tomada depois que um laudo apontou risco de desabamento.", en: "The decision was taken after a technical report pointed to a risk of collapse." },
-          { es: "Os cerca de 1.200 alunos serão transferidos para unidades próximas.", en: "The roughly 1,200 pupils will be moved to nearby schools." },
+          { es: "A decisão foi tomada depois que um laudo apontou risco de desabamento.", en: "The decision was made after a technical report pointed to a risk of collapse." },
+          { es: "Os cerca de 1.200 alunos serão transferidos para unidades próximas.", en: "The roughly 1,200 students will be moved to nearby schools." },
           { es: "O quê, quem, quando, onde, como e por quê.", en: "What, who, when, where, how and why." },
         ],
         checkpoint: [
@@ -310,12 +310,12 @@ export const PT_C2_U20: Lesson[] = [
         heading: "Lead with the news, not the background",
         body: [
           "The first words of the lide carry the most newsworthy element, usually who did what. Don't open with the date (\"Na manhã desta segunda-feira...\"), the place or the history. The classic fault has a name: \"nariz de cera\" (literally wax nose), a rambling introduction that delays the news: \"Há décadas, o bairro da Liberdade convive com problemas de infraestrutura...\".",
-          "Decide what is new. If the closure was expected, the news may be the number of pupils affected, or the fact that the report was kept secret for a year. The lide should answer the question 'what happened today that didn't happen yesterday?'. English speakers sometimes write a lide as a suspenseful first line; in Brazilian hard news, suspense belongs to the reportagem, not to the notícia.",
+          "Decide what is new. If the closure was expected, the news may be the number of students affected, or the fact that the report was kept secret for a year. The lide should answer the question 'what happened today that didn't happen yesterday?'. English speakers sometimes write a lide as a suspenseful first line; in Brazilian hard news, suspense belongs to the reportagem, not to the notícia.",
         ],
         examples: [
           { es: "Um laudo mantido em sigilo por um ano levou a Prefeitura de Salvador a fechar três escolas.", en: "A report kept secret for a year has led Salvador city hall to close three schools." },
-          { es: "Cerca de 1.200 alunos da rede municipal de Salvador vão mudar de escola a partir de segunda-feira.", en: "Around 1,200 pupils in Salvador's municipal schools will change schools from Monday." },
-          { es: "Há décadas, o bairro convive com problemas de infraestrutura.", en: "For decades, the neighbourhood has lived with infrastructure problems." },
+          { es: "Cerca de 1.200 alunos da rede municipal de Salvador vão mudar de escola a partir de segunda-feira.", en: "Around 1,200 students in Salvador's municipal schools will change schools from Monday." },
+          { es: "Há décadas, o bairro convive com problemas de infraestrutura.", en: "For decades, the neighborhood has lived with infrastructure problems." },
         ],
         checkpoint: [
           {
@@ -391,20 +391,20 @@ export const PT_C2_U20: Lesson[] = [
       {
         heading: "Time references: nesta segunda-feira (14)",
         body: [
-          "Brazilian papers avoid \"ontem\" and \"hoje\" in stories that will be read online for days. Instead they name the day, with the date in parentheses: \"nesta segunda-feira (14)\" for the current week, \"na última sexta-feira (11)\" or \"na sexta (11)\" for the previous one, \"na próxima quarta (16)\" for the future. The parenthesised date is a convention popularised by the Folha de S.Paulo and now widespread.",
+          "Brazilian papers avoid \"ontem\" and \"hoje\" in stories that will be read online for days. Instead they name the day, with the date in parentheses: \"nesta segunda-feira (14)\" for the current week, \"na última sexta-feira (11)\" or \"na sexta (11)\" for the previous one, \"na próxima quarta (16)\" for the future. The parenthesized date is a convention popularized by the Folha de S.Paulo and now widespread.",
           "Days of the week and months are lowercase in Portuguese: \"segunda-feira\", \"março\". Times are written \"às 14h\" or \"às 9h30\", with no colon and no space.",
         ],
         examples: [
-          { es: "O ministro chegou a Brasília nesta terça-feira (15), às 9h30.", en: "The minister arrived in Brasília on Tuesday at 9.30am." },
-          { es: "A votação está marcada para a próxima quarta (16), às 14h.", en: "The vote is scheduled for next Wednesday at 2pm." },
+          { es: "O ministro chegou a Brasília nesta terça-feira (15), às 9h30.", en: "The minister arrived in Brasília on Tuesday at 9:30 a.m." },
+          { es: "A votação está marcada para a próxima quarta (16), às 14h.", en: "The vote is scheduled for next Wednesday at 2 p.m." },
           { es: "A empresa foi multada na última sexta-feira (11).", en: "The company was fined last Friday." },
-          { es: "O posto de vacinação funciona das 8h às 17h.", en: "The vaccination centre is open from 8am to 5pm." },
+          { es: "O posto de vacinação funciona das 8h às 17h.", en: "The vaccination center is open from 8 a.m. to 5 p.m." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The vote is scheduled for [next Wednesday (16), at 2pm].",
+            en: "The vote is scheduled for [next Wednesday (16), at 2 p.m.].",
             sentence: "A votação está marcada para ___.",
             answer: "a próxima quarta (16), às 14h",
             altAnswers: ["a próxima quarta-feira (16), às 14h", "a próxima quarta-feira (16), às 14 horas", "a próxima quarta (16), às 14 horas"],
@@ -413,7 +413,7 @@ export const PT_C2_U20: Lesson[] = [
           {
             type: "speak",
             text: "O ministro chegou a Brasília nesta terça-feira, às nove e meia.",
-            prompt: "Read aloud: The minister arrived in Brasília on Tuesday at half past nine.",
+            prompt: "Read aloud: The minister arrived in Brasília on Tuesday at nine-thirty.",
             tip: "Say \"9h30\" as \"nove e meia\"; on air the date in parentheses is usually dropped.",
             explanation: "In print, \"nesta terça-feira (15), às 9h30\"; read aloud, the parentheses disappear.",
           },
@@ -425,7 +425,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate the lide into Portuguese.",
-        source: "Around 1,200 pupils in Salvador's municipal schools will change schools from Monday.",
+        source: "Around 1,200 students in Salvador's municipal schools will change schools from Monday.",
         answer: "Cerca de 1.200 alunos da rede municipal de Salvador vão mudar de escola a partir de segunda-feira.",
         altAnswers: [
           "Cerca de 1.200 alunos da rede municipal de Salvador vão mudar de escola a partir da próxima segunda-feira.",
@@ -448,7 +448,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The decision was taken after a report pointed to a risk of collapse.",
+        source: "The decision was made after a report pointed to a risk of collapse.",
         answer: "A decisão foi tomada depois que um laudo apontou risco de desabamento.",
         altAnswers: [
           "A decisão foi tomada depois de um laudo apontar risco de desabamento.",
@@ -494,7 +494,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, in Brazilian press style.",
-        source: "The minister arrived in Brasília on Tuesday (15) at 9.30am.",
+        source: "The minister arrived in Brasília on Tuesday (15) at 9:30 a.m.",
         answer: "O ministro chegou a Brasília nesta terça-feira (15), às 9h30.",
         altAnswers: [
           "O ministro chegou a Brasília nesta terça (15), às 9h30.",
@@ -547,12 +547,12 @@ export const PT_C2_U20: Lesson[] = [
         heading: "Disse, afirmou, declarou: the neutral verbs",
         body: [
           "In hard news the reporting verb should report, not judge. \"Disse\" is the most neutral and the one the manuals recommend by default. \"Afirmou\" is a little more formal, and \"declarou\" suits official statements. \"Segundo\", \"de acordo com\" and \"conforme\" attribute without a verb: \"Segundo a polícia, o incêndio começou às 3h.\"",
-          "The stance verbs from the unit on summaries are dangerous here. \"Admitiu\" and \"reconheceu\" suggest the person was wrong, \"alegou\" suggests you doubt them, \"confessou\" belongs to crimes, and \"garantiu\" makes them sound like salespeople. The tabloid favourites \"disparou\" (fired off) and \"detonou\" (slammed) dramatise a quarrel. Use them only when the fact justifies them: \"o réu confessou o crime\" is accurate if he did confess.",
+          "The stance verbs from the unit on summaries are dangerous here. \"Admitiu\" and \"reconheceu\" suggest the person was wrong, \"alegou\" suggests you doubt them, \"confessou\" belongs to crimes, and \"garantiu\" makes them sound like salespeople. The tabloid favorites \"disparou\" (fired off) and \"detonou\" (slammed) dramatize a quarrel. Use them only when the fact justifies them: \"o réu confessou o crime\" is accurate if he did confess.",
         ],
         examples: [
-          { es: "O prefeito disse que a obra será entregue em março.", en: "The mayor said the works would be completed in March." },
-          { es: "Segundo a polícia, o incêndio começou por volta das 3h.", en: "According to the police, the fire started at around 3am." },
-          { es: "A ministra declarou que o programa será mantido.", en: "The minister stated that the programme would be kept." },
+          { es: "O prefeito disse que a obra será entregue em março.", en: "The mayor said the construction work would be completed in March." },
+          { es: "Segundo a polícia, o incêndio começou por volta das 3h.", en: "According to the police, the fire started at around 3 a.m." },
+          { es: "A ministra declarou que o programa será mantido.", en: "The minister stated that the program would be kept." },
           { es: "De acordo com o IBGE, o desemprego caiu para 6,2%.", en: "According to IBGE, the national statistics institute, unemployment fell to 6.2%." },
           { es: "O deputado admitiu ter usado o carro oficial em viagens pessoais.", en: "The deputy admitted to having used the official car for personal trips." },
         ],
@@ -561,7 +561,7 @@ export const PT_C2_U20: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, in neutral news style.",
-            source: "The mayor said the works would be completed in March.",
+            source: "The mayor said the construction work would be completed in March.",
             answer: "O prefeito disse que a obra será entregue em março.",
             altAnswers: [
               "O prefeito disse que a obra seria entregue em março.",
@@ -575,7 +575,7 @@ export const PT_C2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The minister announced a new programme. Which sentence reports it neutrally?",
+            question: "The minister announced a new program. Which sentence reports it neutrally?",
             options: [
               "A ministra disse que o programa começa em janeiro.",
               "A ministra admitiu que o programa começa em janeiro.",
@@ -680,12 +680,12 @@ export const PT_C2_U20: Lesson[] = [
         heading: "Quoting: the verb after the quote",
         body: [
           "After a direct quotation, Portuguese inverts the reporting verb and the subject: \"'Não vamos recuar', disse o ministro.\" Not \"o ministro disse\". The quotation goes in double quotation marks, and a quote inside it in single ones. Before the quote, a colon introduces it: \"O ministro foi direto: 'Não vamos recuar'.\"",
-          "Quote exactly, or paraphrase in indirect speech. In indirect speech, Brazilian papers often keep the original tense when it is still valid (\"disse que não vai recuar\") or shift it back (\"disse que não iria recuar\"). Never put quotation marks round a paraphrase.",
+          "Quote exactly, or paraphrase in indirect speech. In indirect speech, Brazilian papers often keep the original tense when it is still valid (\"disse que não vai recuar\") or shift it back (\"disse que não iria recuar\"). Never put quotation marks around a paraphrase.",
         ],
         examples: [
           { es: "\"Não vamos recuar\", disse o ministro.", en: "'We won't back down,' said the minister." },
           { es: "O ministro disse que o governo não vai recuar.", en: "The minister said the government would not back down." },
-          { es: "A diretora foi direta: \"A escola não tem condições de funcionar\".", en: "The head teacher was blunt: 'The school is in no condition to operate.'" },
+          { es: "A diretora foi direta: \"A escola não tem condições de funcionar\".", en: "The principal was blunt: 'The school is in no condition to operate.'" },
         ],
         checkpoint: [
           {
@@ -718,7 +718,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "According to the police, the fire started at around 3am.",
+        source: "According to the police, the fire started at around 3 a.m.",
         answer: "Segundo a polícia, o incêndio começou por volta das 3h.",
         altAnswers: [
           "De acordo com a polícia, o incêndio começou por volta das 3h.",
@@ -790,7 +790,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, putting the reporting verb after the quote.",
-        source: "'The school is in no condition to operate,' said the head teacher.",
+        source: "'The school is in no condition to operate,' said the principal.",
         answer: "\"A escola não tem condições de funcionar\", disse a diretora.",
         altAnswers: [
           "\"A escola não tem condições de funcionar\", afirmou a diretora.",
@@ -798,7 +798,7 @@ export const PT_C2_U20: Lesson[] = [
           "\"A escola não tem condições de funcionar\", disse o diretor.",
           "\"A escola não tem condições de funcionar\", afirmou o diretor.",
         ],
-        explanation: "Quote first, then the inverted verb and subject: \"disse a diretora\". 'Head teacher' is \"diretor\" or \"diretora\".",
+        explanation: "Quote first, then the inverted verb and subject: \"disse a diretora\". 'Principal' is \"diretor\" or \"diretora\".",
       },
       {
         type: "speak",
@@ -824,9 +824,9 @@ export const PT_C2_U20: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The minister stated that the programme will be kept.",
+        prompt: "Put the words in order to say: The minister stated that the program will be kept.",
         words: ["A", "ministra", "declarou", "que", "o", "programa", "será", "mantido."],
-        translation: "The minister stated that the programme will be kept.",
+        translation: "The minister stated that the program will be kept.",
         explanation: "\"Declarar\" suits an official statement and is still neutral.",
       },
     ],
@@ -876,7 +876,7 @@ export const PT_C2_U20: Lesson[] = [
       {
         heading: "Siglas: spell them out, then shorten",
         body: [
-          "On first mention, give the full name followed by the sigla in parentheses: \"o Instituto Brasileiro de Geografia e Estatística (IBGE)\". Very well-known ones (STF, SUS, PF) may appear alone, but explaining them never hurts. Capitalisation follows a rule: siglas of up to three letters are all capitals (STF, PF, TSE, SUS); longer ones stay in capitals if you spell them letter by letter (IBGE, INSS) and take only an initial capital if you say them as a word (Ibama, Anvisa, Unicamp).",
+          "On first mention, give the full name followed by the sigla in parentheses: \"o Instituto Brasileiro de Geografia e Estatística (IBGE)\". Very well-known ones (STF, SUS, PF) may appear alone, but explaining them never hurts. Capitalization follows a rule: siglas of up to three letters are all capitals (STF, PF, TSE, SUS); longer ones stay in capitals if you spell them letter by letter (IBGE, INSS) and take only an initial capital if you say them as a word (Ibama, Anvisa, Unicamp).",
           "A sigla takes the gender of its head noun: \"o STF\" (o Supremo Tribunal Federal), \"a PF\" (a Polícia Federal), \"a Anvisa\" (a Agência). International bodies use Portuguese siglas: \"ONU\", \"OMS\" (not WHO), \"FMI\" (not IMF). Plurals take a plain s: \"as ONGs\", never with an apostrophe.",
         ],
         examples: [
@@ -912,7 +912,7 @@ export const PT_C2_U20: Lesson[] = [
               "A Anvisa e o I.B.G.E. divulgaram os dados.",
             ],
             correctIndex: 0,
-            explanation: "\"Anvisa\" is said as a word, so only an initial capital; \"IBGE\" is spelled out, so all capitals. Genders follow the head nouns (agência, instituto), and siglas have no full stops.",
+            explanation: "\"Anvisa\" is said as a word, so only an initial capital; \"IBGE\" is spelled out, so all capitals. Genders follow the head nouns (agência, instituto), and siglas have no periods.",
           },
         ],
       },
@@ -923,9 +923,9 @@ export const PT_C2_U20: Lesson[] = [
           "Job titles are lowercase and come before the name, often as an appositive between commas when only one person holds the post: \"o ministro da Fazenda, Fulano de Tal\", \"a governadora do Pará\". Ministries and institutions keep their capitals (\"Fazenda\", \"Câmara\"). On second mention, use the surname or the name the person is known by. News never uses \"seu\", \"dona\" or \"doutor\" as courtesy titles: \"doutor\" for a lawyer is a social habit, not a press style.",
         ],
         examples: [
-          { es: "Raimunda Lima, 54, mora no bairro há 30 anos.", en: "Raimunda Lima, 54, has lived in the neighbourhood for 30 years." },
+          { es: "Raimunda Lima, 54, mora no bairro há 30 anos.", en: "Raimunda Lima, 54, has lived in the neighborhood for 30 years." },
           { es: "O ministro da Fazenda, Ricardo Paiva, deve anunciar o pacote na terça.", en: "Finance minister Ricardo Paiva is expected to announce the package on Tuesday." },
-          { es: "A governadora do Pará chegou a Belém às 10h.", en: "The governor of Pará arrived in Belém at 10am." },
+          { es: "A governadora do Pará chegou a Belém às 10h.", en: "The governor of Pará arrived in Belém at 10 a.m." },
           { es: "Paiva não respondeu às perguntas dos jornalistas.", en: "Paiva did not answer reporters' questions." },
         ],
         checkpoint: [
@@ -933,7 +933,7 @@ export const PT_C2_U20: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, in press style.",
-            source: "Raimunda Lima, 54, has lived in the neighbourhood for 30 years.",
+            source: "Raimunda Lima, 54, has lived in the neighborhood for 30 years.",
             answer: "Raimunda Lima, 54, mora no bairro há 30 anos.",
             altAnswers: [
               "Raimunda Lima, de 54 anos, mora no bairro há 30 anos.",
@@ -950,21 +950,21 @@ export const PT_C2_U20: Lesson[] = [
             sentence: "___ deve anunciar o pacote.",
             answer: "O ministro da Fazenda, Ricardo Paiva,",
             altAnswers: ["O ministro da Fazenda Ricardo Paiva"],
-            explanation: "Lowercase title, capitalised ministry, and the name as an appositive between commas, since there is only one finance minister.",
+            explanation: "Lowercase title, capitalized ministry, and the name as an appositive between commas, since there is only one finance minister.",
           },
         ],
       },
       {
         heading: "The neutral vocabulary of the press",
         body: [
-          "Police jargon and value judgements don't belong in news. \"Elemento\" and \"meliante\" (for suspect) are police-report words; \"vítima fatal\" becomes \"morto\" or a verb (\"duas pessoas morreram\"). \"O mesmo\" as a pronoun (\"o mesmo foi preso\") is bureaucratic; write \"ele\" or repeat the noun.",
+          "Police jargon and value judgments don't belong in news. \"Elemento\" and \"meliante\" (for suspect) are police-report words; \"vítima fatal\" becomes \"morto\" or a verb (\"duas pessoas morreram\"). \"O mesmo\" as a pronoun (\"o mesmo foi preso\") is bureaucratic; write \"ele\" or repeat the noun.",
           "Adjectives that judge (\"brutal\", \"absurdo\", \"polêmico\") are the reporter's opinion. Instead of \"polêmico\", say who objects and why. For minors, the manuals prefer \"criança\" or \"adolescente\" to \"menor\", which carries a stigma. \"Pessoa em situação de rua\" has largely replaced \"mendigo\". Prefer the plain word: \"usar\", not \"utilizar\"; \"começar\", not \"iniciar\".",
         ],
         examples: [
           { es: "Duas pessoas morreram no acidente.", en: "Two people died in the accident." },
           { es: "O suspeito foi preso em casa; ele não reagiu.", en: "The suspect was arrested at home; he didn't resist." },
           { es: "Um adolescente de 16 anos foi apreendido.", en: "A 16-year-old boy was taken into custody." },
-          { es: "A proposta é criticada por sindicatos e pela oposição.", en: "The proposal is criticised by unions and the opposition." },
+          { es: "A proposta é criticada por sindicatos e pela oposição.", en: "The proposal is criticized by unions and the opposition." },
         ],
         checkpoint: [
           {
@@ -1070,7 +1070,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, in press style.",
-        source: "The governor of Pará arrived in Belém at 10am on Monday.",
+        source: "The governor of Pará arrived in Belém at 10 a.m. on Monday.",
         answer: "A governadora do Pará chegou a Belém às 10h desta segunda-feira.",
         altAnswers: [
           "O governador do Pará chegou a Belém às 10h desta segunda-feira.",
@@ -1085,10 +1085,10 @@ export const PT_C2_U20: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The proposal is criticised by unions.",
+        prompt: "Put the words in order to say: The proposal is criticized by unions.",
         words: ["A", "proposta", "é", "criticada", "por", "sindicatos."],
-        translation: "The proposal is criticised by unions.",
-        explanation: "Instead of calling it \"polêmica\", say who criticises it.",
+        translation: "The proposal is criticized by unions.",
+        explanation: "Instead of calling it \"polêmica\", say who criticizes it.",
       },
     ],
   },
@@ -1107,7 +1107,7 @@ export const PT_C2_U20: Lesson[] = [
           "Questions are short and direct, and each one does one job. Interviewers of politicians and officials address them as \"o senhor\" or \"a senhora\" in print; artists, athletes and younger interviewees usually get \"você\". Avoid the double question (\"O senhor vai se candidatar e, se sim, com quem?\"), which lets the interviewee choose the easier half.",
         ],
         examples: [
-          { es: "O senhor vai se candidatar ao governo em 2026?", en: "Are you going to run for governor in 2026?" },
+          { es: "O senhor vai se candidatar ao governo em 2030?", en: "Are you going to run for governor in 2030?" },
           { es: "Por que a obra atrasou dois anos?", en: "Why was the project two years late?" },
           { es: "A senhora se arrepende de alguma decisão?", en: "Do you regret any of your decisions?" },
           { es: "Como você começou a cantar?", en: "How did you start singing?" },
@@ -1116,7 +1116,7 @@ export const PT_C2_U20: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate the interview question for a city councillor.",
+            prompt: "Translate the interview question for a city council member.",
             source: "Why was the project two years late?",
             answer: "Por que a obra atrasou dois anos?",
             altAnswers: ["Por que a obra atrasou dois anos, vereador?", "Por que a obra teve dois anos de atraso?", "Por que a obra atrasou em dois anos?", "Por que o projeto atrasou dois anos?"],
@@ -1145,7 +1145,7 @@ export const PT_C2_U20: Lesson[] = [
         examples: [
           { es: "Acho que a gente tem que repensar a escola.", en: "I think we have to rethink school." },
           { es: "Ele [o prefeito] nunca me recebeu.", en: "He [the mayor] never agreed to see me." },
-          { es: "Eu queria ser jogador de futebol, mas era muito ruim. (risos)", en: "I wanted to be a footballer, but I was terrible. (laughs)" },
+          { es: "Eu queria ser jogador de futebol, mas era muito ruim. (risos)", en: "I wanted to be a soccer player, but I was terrible. (laughs)" },
           { es: "Nós não temos esse número agora.", en: "We don't have that figure right now." },
         ],
         checkpoint: [
@@ -1179,7 +1179,7 @@ export const PT_C2_U20: Lesson[] = [
           { es: "Antes de abrir a porta do ateliê, Joana Freitas tira os sapatos.", en: "Before opening the door to her studio, Joana Freitas takes off her shoes." },
           { es: "Natural de Caruaru, filha de um sapateiro, ela começou a pintar aos 40 anos.", en: "Born in Caruaru, the daughter of a shoemaker, she began painting at 40." },
           { es: "Quem trabalha com ela diz que nunca a viu perder a paciência.", en: "Those who work with her say they have never seen her lose her temper." },
-          { es: "Aos 72 anos, ainda pinta todos os dias das 6h ao meio-dia.", en: "At 72, she still paints every day from 6am to noon." },
+          { es: "Aos 72 anos, ainda pinta todos os dias das 6h ao meio-dia.", en: "At 72, she still paints every day from 6 a.m. to noon." },
         ],
         checkpoint: [
           {
@@ -1216,10 +1216,10 @@ export const PT_C2_U20: Lesson[] = [
         heading: "Framing quotes: features versus hard news",
         body: [
           "In hard news, \"disse\" does almost all the work. A profile or interview introduction allows more expressive verbs, as long as they describe how something was said and don't judge it: \"conta\" (tells, for a story), \"lembra\" (recalls), \"brinca\" (jokes), \"resume\" (sums up), \"desabafa\" (unburdens herself). \"'Eu era muito ruim', brinca\" tells the reader the tone, which a transcript can't.",
-          "Use them sparingly and accurately. If the person wasn't joking, \"brinca\" falsifies the quote. If each quote has a different colourful verb, the reader starts watching the verbs instead of the person.",
+          "Use them sparingly and accurately. If the person wasn't joking, \"brinca\" falsifies the quote. If each quote has a different colorful verb, the reader starts watching the verbs instead of the person.",
         ],
         examples: [
-          { es: "\"Eu queria ser jogador, mas era muito ruim\", brinca.", en: "'I wanted to be a footballer, but I was terrible,' he jokes." },
+          { es: "\"Eu queria ser jogador, mas era muito ruim\", brinca.", en: "'I wanted to be a soccer player, but I was terrible,' he jokes." },
           { es: "\"Meu pai consertava sapatos para a cidade inteira\", lembra.", en: "'My father repaired shoes for the whole town,' she recalls." },
           { es: "\"Pintar é o que me mantém viva\", resume.", en: "'Painting is what keeps me alive,' she sums up." },
         ],
@@ -1254,15 +1254,15 @@ export const PT_C2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate the interview question.",
-        source: "Are you going to run for governor in 2026?",
-        answer: "O senhor vai se candidatar ao governo em 2026?",
+        source: "Are you going to run for governor in 2030?",
+        answer: "O senhor vai se candidatar ao governo em 2030?",
         altAnswers: [
-          "A senhora vai se candidatar ao governo em 2026?",
-          "O senhor vai ser candidato ao governo em 2026?",
-          "A senhora vai ser candidata ao governo em 2026?",
-          "O senhor vai concorrer ao governo em 2026?",
-          "A senhora vai concorrer ao governo em 2026?",
-          "Você vai se candidatar ao governo em 2026?",
+          "A senhora vai se candidatar ao governo em 2030?",
+          "O senhor vai ser candidato ao governo em 2030?",
+          "A senhora vai ser candidata ao governo em 2030?",
+          "O senhor vai concorrer ao governo em 2030?",
+          "A senhora vai concorrer ao governo em 2030?",
+          "Você vai se candidatar ao governo em 2030?",
         ],
         explanation: "\"Candidatar-se a\" with the pronoun before the infinitive in speech style: \"vai se candidatar\". Politicians get \"o senhor\" or \"a senhora\".",
       },
@@ -1310,10 +1310,10 @@ export const PT_C2_U20: Lesson[] = [
         audio: "Eu queria ser jogador de futebol, mas era muito ruim.",
         question: "What does it mean?",
         options: [
-          "I wanted to be a footballer, but I was terrible.",
-          "I'd like to be a footballer, but I'm terrible.",
-          "I was a footballer, but a very bad one.",
-          "I wanted to be a footballer, but it was a bad idea.",
+          "I wanted to be a soccer player, but I was terrible.",
+          "I'd like to be a soccer player, but I'm terrible.",
+          "I was a soccer player, but a very bad one.",
+          "I wanted to be a soccer player, but it was a bad idea.",
         ],
         correctIndex: 0,
         explanation: "\"Queria\" and \"era\" in the imperfect describe a past wish and a past state.",
@@ -1372,17 +1372,17 @@ export const PT_C2_U20: Lesson[] = [
           "The scene must lead somewhere. Within two or three paragraphs comes the turn that says why it matters: \"Raimunda é uma das cerca de 12 mil pessoas que dependem da pesca no trecho do rio que a seca deste ano deixou quase sem água.\" That paragraph is the story's thesis. A scene with no turn is a short story, not journalism.",
         ],
         examples: [
-          { es: "São 4h30, e a primeira lancha ainda não deixou o porto de Manaus.", en: "It's 4.30am, and the first boat still hasn't left the port of Manaus." },
+          { es: "São 4h30, e a primeira lancha ainda não deixou o porto de Manaus.", en: "It's 4:30 a.m., and the first boat still hasn't left the port of Manaus." },
           { es: "Raimunda Lima, 54, ajeita as caixas de peixe no convés.", en: "Raimunda Lima, 54, arranges the boxes of fish on the deck." },
           { es: "Raimunda é uma das cerca de 12 mil pessoas que dependem da pesca nesse trecho do rio.", en: "Raimunda is one of around 12,000 people who depend on fishing along this stretch of the river." },
-          { es: "Na fila do posto, ninguém fala; só se ouve o ventilador.", en: "In the queue at the health centre, nobody speaks; all you can hear is the fan." },
+          { es: "Na fila do posto, ninguém fala; só se ouve o ventilador.", en: "In line at the health center, nobody speaks; all you can hear is the fan." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate the opening into Portuguese, in the present.",
-            source: "It's 4.30am, and the first boat still hasn't left the port of Manaus.",
+            source: "It's 4:30 a.m., and the first boat still hasn't left the port of Manaus.",
             answer: "São 4h30, e a primeira lancha ainda não deixou o porto de Manaus.",
             altAnswers: [
               "São 4h30 e a primeira lancha ainda não deixou o porto de Manaus.",
@@ -1414,7 +1414,7 @@ export const PT_C2_U20: Lesson[] = [
           "The paper's own work is named: \"levantamento feito pela reportagem\" (a survey carried out by this newspaper), \"a reportagem percorreu 300 km de estrada e ouviu 40 moradores\". Brazilian journalism values this transparency, because it tells the reader how the facts were obtained. Official data are attributed to their source with \"segundo\" or \"de acordo com\", and the period is always stated: \"entre janeiro e agosto\".",
         ],
         examples: [
-          { es: "A reportagem percorreu 300 km de estrada e ouviu 40 moradores.", en: "This newspaper's reporters travelled 300 km of road and spoke to 40 residents." },
+          { es: "A reportagem percorreu 300 km de estrada e ouviu 40 moradores.", en: "This newspaper's reporters traveled 300 km of road and spoke to 40 residents." },
           { es: "Segundo levantamento feito pela reportagem, sete das dez escolas estão sem água.", en: "According to a survey by this newspaper, seven of the ten schools have no water." },
           { es: "De acordo com o Ibama, o desmatamento na região cresceu 18% entre janeiro e agosto.", en: "According to Ibama, the environmental agency, deforestation in the region grew 18% between January and August." },
           { es: "Para a hidróloga Ana Teles, a seca não é um evento isolado.", en: "For hydrologist Ana Teles, the drought is not an isolated event." },
@@ -1424,7 +1424,7 @@ export const PT_C2_U20: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Our reporters travelled 300 km and spoke to 40 residents.",
+            source: "Our reporters traveled 300 km and spoke to 40 residents.",
             answer: "A reportagem percorreu 300 km e ouviu 40 moradores.",
             altAnswers: [
               "A reportagem percorreu 300 quilômetros e ouviu 40 moradores.",
@@ -1453,9 +1453,9 @@ export const PT_C2_U20: Lesson[] = [
         ],
         examples: [
           { es: "Raimunda guarda a água da chuva em três baldes ao lado da cama.", en: "Raimunda keeps rainwater in three buckets beside her bed." },
-          { es: "O filho mais novo faz a lição de casa à luz do celular.", en: "Her youngest boy does his homework by the light of a mobile phone." },
+          { es: "O filho mais novo faz a lição de casa à luz do celular.", en: "Her youngest boy does his homework by the light of a cell phone." },
           { es: "Ela abre a geladeira: dois ovos e uma garrafa de água.", en: "She opens the fridge: two eggs and a bottle of water." },
-          { es: "\"Peixe, aqui, agora é só no congelador do mercado\", diz.", en: "'Fish round here now only comes from the supermarket freezer,' she says." },
+          { es: "\"Peixe, aqui, agora é só no congelador do mercado\", diz.", en: "'Fish around here now only comes from the supermarket freezer,' she says." },
         ],
         checkpoint: [
           {
@@ -1478,9 +1478,9 @@ export const PT_C2_U20: Lesson[] = [
             audio: "O filho mais novo faz a lição de casa à luz do celular.",
             question: "What does it mean?",
             options: [
-              "Her youngest child does their homework by the light of a mobile phone.",
-              "Her youngest child does their homework on a mobile phone.",
-              "Her eldest child lights the house with a mobile phone.",
+              "Her youngest child does their homework by the light of a cell phone.",
+              "Her youngest child does their homework on a cell phone.",
+              "Her eldest child lights the house with a cell phone.",
               "Her youngest child forgets their homework because of the phone.",
             ],
             correctIndex: 0,
@@ -1530,7 +1530,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate the opening into Portuguese.",
-        source: "In the queue at the health centre, nobody speaks; all you can hear is the fan.",
+        source: "In line at the health center, nobody speaks; all you can hear is the fan.",
         answer: "Na fila do posto, ninguém fala; só se ouve o ventilador.",
         altAnswers: [
           "Na fila do posto de saúde, ninguém fala; só se ouve o ventilador.",
@@ -1600,7 +1600,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Her youngest son does his homework by the light of a mobile phone.",
+        source: "Her youngest son does his homework by the light of a cell phone.",
         answer: "O filho mais novo faz a lição de casa à luz do celular.",
         altAnswers: [
           "O filho caçula faz a lição de casa à luz do celular.",
@@ -1614,7 +1614,7 @@ export const PT_C2_U20: Lesson[] = [
       {
         type: "speak",
         text: "São quatro e meia, e a primeira lancha ainda não deixou o porto.",
-        prompt: "Read the opening aloud: It's half past four, and the first boat still hasn't left the port.",
+        prompt: "Read the opening aloud: It's four-thirty, and the first boat still hasn't left the port.",
         tip: "Slow down: the scene opening works by rhythm. \"Lancha\" has a nasal an.",
         explanation: "Present tense and a precise time place the reader in the scene.",
       },
@@ -1655,13 +1655,13 @@ export const PT_C2_U20: Lesson[] = [
       {
         heading: "The nota: the facts and nothing else",
         body: [
-          "Take one set of facts. Recife city hall has closed a footbridge over Avenida Agamenon Magalhães after an inspection found cracks. Repairs will take 60 days, and around 15 thousand pedestrians a day must use a crossing 300 metres away. At its shortest, this is a \"nota\": two to four sentences with the essential facts, no quotations, often no byline, placed in a short-news column.",
+          "Take one set of facts. Recife city hall has closed a footbridge over Avenida Agamenon Magalhães after an inspection found cracks. Repairs will take 60 days, and around 15 thousand pedestrians a day must use a crossing 300 meters away. At its shortest, this is a \"nota\": two to four sentences with the essential facts, no quotations, often no byline, placed in a short-news column.",
           "Careful: \"nota\" has a second meaning in the press. \"Em nota, a prefeitura informou...\" refers to an official written statement, and a \"nota de repúdio\" is a statement of protest. \"A prefeitura divulgou uma nota\" means it issued a statement; \"o jornal publicou uma nota\" means a short item. The verb usually tells you which.",
         ],
         examples: [
           { es: "A Prefeitura do Recife interditou nesta terça-feira (8) a passarela da Avenida Agamenon Magalhães.", en: "Recife city hall closed the footbridge over Avenida Agamenon Magalhães on Tuesday." },
           { es: "Uma vistoria encontrou rachaduras na estrutura, e a reforma deve durar 60 dias.", en: "An inspection found cracks in the structure, and the repairs are expected to take 60 days." },
-          { es: "Os pedestres devem usar a faixa a 300 metros do local.", en: "Pedestrians should use the crossing 300 metres away." },
+          { es: "Os pedestres devem usar a faixa a 300 metros do local.", en: "Pedestrians should use the crossing 300 meters away." },
           { es: "Em nota, a prefeitura informou que não há risco de desabamento imediato.", en: "In a statement, city hall said there was no immediate risk of collapse." },
           { es: "Moradores divulgaram uma nota de repúdio contra o fechamento.", en: "Residents issued a statement protesting against the closure." },
         ],
@@ -1699,7 +1699,7 @@ export const PT_C2_U20: Lesson[] = [
         examples: [
           { es: "Cerca de 15 mil pedestres atravessam a passarela todos os dias.", en: "Around 15,000 pedestrians cross the footbridge every day." },
           { es: "\"A interdição é preventiva\", disse o secretário de Infraestrutura.", en: "'The closure is a precaution,' said the infrastructure secretary." },
-          { es: "\"Agora eu ando dez minutos a mais com as compras\", reclama a cozinheira Marta Souza, 61.", en: "'Now I walk ten minutes more with my shopping,' complains cook Marta Souza, 61." },
+          { es: "\"Agora eu ando dez minutos a mais com as compras\", reclama a cozinheira Marta Souza, 61.", en: "'Now I walk ten minutes more with my groceries,' complains cook Marta Souza, 61." },
           { es: "A matéria tem 3 mil caracteres.", en: "The story is 3,000 characters long." },
         ],
         checkpoint: [
@@ -1857,7 +1857,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "'Now I walk ten minutes more with my shopping,' complains cook Marta Souza, 61.",
+        source: "'Now I walk ten minutes more with my groceries,' complains cook Marta Souza, 61.",
         answer: "\"Agora eu ando dez minutos a mais com as compras\", reclama a cozinheira Marta Souza, 61.",
         altAnswers: [
           "\"Agora ando dez minutos a mais com as compras\", reclama a cozinheira Marta Souza, 61.",
@@ -2058,8 +2058,8 @@ export const PT_C2_U20: Lesson[] = [
         ],
         examples: [
           { es: "O Banco Central cortou hoje os juros pela terceira vez seguida.", en: "The Central Bank cut interest rates today for the third time in a row." },
-          { es: "A Selic, a taxa básica, caiu de onze para dez e meio por cento ao ano.", en: "The Selic, the benchmark rate, fell from eleven to ten and a half per cent a year." },
-          { es: "Repetindo: a Selic agora é de dez e meio por cento ao ano.", en: "Once again: the Selic is now ten and a half per cent a year." },
+          { es: "A Selic, a taxa básica, caiu de onze para dez e meio por cento ao ano.", en: "The Selic, the benchmark rate, fell from eleven to ten and a half percent a year." },
+          { es: "Repetindo: a Selic agora é de dez e meio por cento ao ano.", en: "Once again: the Selic is now ten and a half percent a year." },
           { es: "Segundo o presidente do Banco Central, a inflação está sob controle.", en: "According to the head of the Central Bank, inflation is under control." },
         ],
         checkpoint: [
@@ -2067,7 +2067,7 @@ export const PT_C2_U20: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Rewrite for radio: \"O Banco Central reduziu nesta quarta-feira (18) a Selic de 11% para 10,5% ao ano.\"",
-            source: "The Central Bank cut the Selic today from eleven to ten and a half per cent a year.",
+            source: "The Central Bank cut the Selic today from eleven to ten and a half percent a year.",
             answer: "O Banco Central cortou hoje a Selic de onze para dez e meio por cento ao ano.",
             altAnswers: [
               "O Banco Central reduziu hoje a Selic de onze para dez e meio por cento ao ano.",
@@ -2076,7 +2076,7 @@ export const PT_C2_U20: Lesson[] = [
               "O Banco Central cortou hoje a taxa Selic de onze para dez e meio por cento ao ano.",
               "O Banco Central cortou a Selic hoje de onze para dez e meio por cento ao ano.",
             ],
-            explanation: "For the ear: \"hoje\" replaces the parenthesised date, and the figures are written as spoken.",
+            explanation: "For the ear: \"hoje\" replaces the parenthesized date, and the figures are written as spoken.",
           },
           {
             type: "speak",
@@ -2109,7 +2109,7 @@ export const PT_C2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which time reference fits a radio bulletin about a decision taken today?",
+        question: "Which time reference fits a radio bulletin about a decision made today?",
         options: ["hoje", "nesta quarta-feira (18)", "em 18/9", "no dia em questão"],
         correctIndex: 0,
         explanation: "On air there are no parentheses and the listener lives in the present: \"hoje\".",
@@ -2117,7 +2117,7 @@ export const PT_C2_U20: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The Selic, [the benchmark rate], fell to ten and a half per cent.",
+        en: "The Selic, [the benchmark rate], fell to ten and a half percent.",
         sentence: "A Selic, ___, caiu para dez e meio por cento.",
         answer: "a taxa básica",
         altAnswers: ["a taxa básica de juros", "taxa básica de juros", "taxa básica"],
@@ -2154,7 +2154,7 @@ export const PT_C2_U20: Lesson[] = [
       {
         type: "speak",
         text: "A Selic, a taxa básica, caiu de onze para dez e meio por cento ao ano.",
-        prompt: "Read the radio line aloud: The Selic, the benchmark rate, fell from eleven to ten and a half per cent a year.",
+        prompt: "Read the radio line aloud: The Selic, the benchmark rate, fell from eleven to ten and a half percent a year.",
         tip: "Read numbers slowly and clearly; \"onze\" has a closed o, and \"meio\" is MEI-u.",
         explanation: "Spoken figures and an explained sigla: radio writing.",
       },
@@ -2172,7 +2172,7 @@ export const PT_C2_U20: Lesson[] = [
         prompt: "Put the words in order to make the headline: Interest rates fall for the third time in a row",
         words: ["Juros", "caem", "pela", "terceira", "vez", "seguida"],
         translation: "Interest rates fall for the third time in a row",
-        explanation: "\"Juros\" is plural, so \"caem\". No article, no full stop.",
+        explanation: "\"Juros\" is plural, so \"caem\". No article, no period.",
       },
     ],
   },
@@ -2194,7 +2194,7 @@ export const PT_C2_U20: Lesson[] = [
         ],
         examples: [
           { es: "Thiago, teu lide tá enterrado. A notícia tá no quarto parágrafo.", en: "Thiago, your lead's buried. The news is in the fourth paragraph." },
-          { es: "Começa pelo sobrepreço e corta esse nariz de cera.", en: "Start with the overpricing and cut that waffly intro." },
+          { es: "Começa pelo sobrepreço e corta esse nariz de cera.", en: "Start with the overpricing and cut that rambling intro." },
           { es: "Mas o contexto é importante, Sandra.", en: "But the context matters, Sandra." },
           { es: "O contexto vai pro pé da matéria.", en: "The context goes at the bottom of the story." },
         ],
@@ -2228,12 +2228,12 @@ export const PT_C2_U20: Lesson[] = [
       {
         heading: "Can we say it? Cravar or indicar",
         body: [
-          "Thiago wants to write \"superfaturamento\", which is a legal accusation: overbilling, usually fraud. Sandra asks the newsroom's key question: \"Dá pra cravar?\" (Can we state it definitively?). He has the tender spreadsheet (\"a planilha da licitação\") and one source speaking \"em off\" (off the record).",
+          "Thiago wants to write \"superfaturamento\", which is a legal accusation: overbilling, usually fraud. Sandra asks the newsroom's key question: \"Dá pra cravar?\" (Can we state it definitively?). He has the bidding spreadsheet (\"a planilha da licitação\") and one source speaking \"em off\" (off the record).",
           "Her ruling is precise. The documents prove a fact, that the city paid 40% above the market price, so that can be stated (\"sobrepreço\" is a measurable difference). Fraud cannot be stated on one anonymous source: \"Com uma fonte em off não dá pra cravar.\" So Thiago writes \"documentos obtidos pela reportagem mostram que...\" for the fact, and keeps the accusation attributed and in the conditional: \"segundo um servidor, o contrato teria sido direcionado\".",
         ],
         examples: [
           { es: "Dá pra cravar superfaturamento?", en: "Can we say flat out it was overbilling?" },
-          { es: "Tenho a planilha da licitação e uma fonte em off.", en: "I've got the tender spreadsheet and an off-the-record source." },
+          { es: "Tenho a planilha da licitação e uma fonte em off.", en: "I've got the bidding spreadsheet and an off-the-record source." },
           { es: "Com uma fonte em off não dá pra cravar.", en: "With one off-the-record source we can't state it as fact." },
           { es: "Documentos obtidos pela reportagem mostram que a prefeitura pagou 40% acima do preço de mercado.", en: "Documents obtained by this newspaper show that city hall paid 40% above the market price." },
           { es: "Segundo um servidor, o contrato teria sido direcionado.", en: "According to a civil servant, the contract was allegedly steered to a chosen bidder." },
@@ -2363,7 +2363,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into newsroom Portuguese.",
-        source: "Start with the overpricing and cut that waffly intro.",
+        source: "Start with the overpricing and cut that rambling intro.",
         answer: "Começa pelo sobrepreço e corta esse nariz de cera.",
         altAnswers: ["Começa pelo sobrepreço e tira esse nariz de cera.", "Comece pelo sobrepreço e corte esse nariz de cera.", "Começa com o sobrepreço e corta esse nariz de cera.", "Começa pelo sobrepreço e corta o nariz de cera."],
         explanation: "\"Nariz de cera\" is a rambling opening. The spoken imperative (\"começa\", \"corta\") is the indicative form, normal in Brazilian speech.",
@@ -2456,10 +2456,10 @@ export const PT_C2_U20: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I've got the tender spreadsheet and an off-the-record source.",
+        prompt: "Put the words in order to say: I've got the bidding spreadsheet and an off-the-record source.",
         words: ["Tenho", "a", "planilha", "da", "licitação", "e", "uma", "fonte", "em", "off."],
-        translation: "I've got the tender spreadsheet and an off-the-record source.",
-        explanation: "A public tender is a \"licitação\"; \"em off\" is the newsroom phrase for off the record.",
+        translation: "I've got the bidding spreadsheet and an off-the-record source.",
+        explanation: "A public bidding process is a \"licitação\"; \"em off\" is the newsroom phrase for off the record.",
       },
     ],
   },
@@ -2476,15 +2476,15 @@ export const PT_C2_U20: Lesson[] = [
       {
         heading: "Opinion slipping into the news",
         body: [
-          "In hard news, the reporter has no opinion on the page. The slip is usually one word: \"O prefeito, de forma irresponsável, vetou o projeto\", \"a polêmica decisão\", \"infelizmente, a obra atrasou\". Each of those words is a judgement the reader didn't ask for. Remove it and, if the judgement matters, give it to someone who holds it: \"Para a oposição, o veto é irresponsável.\"",
+          "In hard news, the reporter has no opinion on the page. The slip is usually one word: \"O prefeito, de forma irresponsável, vetou o projeto\", \"a polêmica decisão\", \"infelizmente, a obra atrasou\". Each of those words is a judgment the reader didn't ask for. Remove it and, if the judgment matters, give it to someone who holds it: \"Para a oposição, o veto é irresponsável.\"",
           "Watch also for loaded reporting verbs (\"o secretário admitiu\" when he simply said), and for adjectives that look factual but aren't: \"um aumento abusivo\", \"uma multa pesada\". \"Um aumento de 18%\" lets the reader judge.",
         ],
         examples: [
           { es: "O prefeito vetou o projeto nesta sexta-feira (4).", en: "The mayor vetoed the bill on Friday." },
           { es: "Para a oposição, o veto é irresponsável.", en: "The opposition says the veto is irresponsible." },
-          { es: "A obra atrasou oito meses.", en: "The works are eight months behind schedule." },
+          { es: "A obra atrasou oito meses.", en: "The construction work is eight months behind schedule." },
           { es: "A tarifa terá um aumento de 18%.", en: "The fare will rise by 18%." },
-          { es: "A medida é criticada por comerciantes e defendida por ambientalistas.", en: "The measure is criticised by shopkeepers and defended by environmentalists." },
+          { es: "A medida é criticada por comerciantes e defendida por ambientalistas.", en: "The measure is criticized by merchants and defended by environmentalists." },
         ],
         checkpoint: [
           {
@@ -2494,7 +2494,7 @@ export const PT_C2_U20: Lesson[] = [
             source: "The mayor vetoed the bill on Friday (4).",
             answer: "O prefeito vetou o projeto nesta sexta-feira (4).",
             altAnswers: ["O prefeito vetou nesta sexta-feira (4) o projeto.", "O prefeito vetou o projeto nesta sexta (4).", "O prefeito vetou o projeto de lei nesta sexta-feira (4)."],
-            explanation: "\"De forma irresponsável\" is the reporter's judgement. The fact is the veto; any criticism goes to a named source.",
+            explanation: "\"De forma irresponsável\" is the reporter's judgment. The fact is the veto; any criticism goes to a named source.",
           },
           {
             type: "translate",
@@ -2511,12 +2511,12 @@ export const PT_C2_U20: Lesson[] = [
         heading: "Past tenses in headlines and buried leads",
         body: [
           "A headline in the past (\"Prefeito anunciou novas regras para o Carnaval\") reads like a status update. Put it in the present: \"Prefeito anuncia novas regras para o Carnaval\". The reverse error appears in the lide: \"O prefeito anuncia nesta segunda-feira...\" for something that has already happened. The lide reports in the past: \"anunciou\".",
-          "A buried lead hides the news behind circumstances: \"Em reunião realizada na manhã desta segunda-feira no Palácio da Liberdade, acompanhado de secretários e assessores, o governador anunciou...\". Readers give up before the verb. Start with who did what, and let the circumstances follow if they matter at all.",
+          "A buried lead hides the news behind circumstances: \"Em reunião realizada na manhã desta segunda-feira na Cidade Administrativa, acompanhado de secretários e assessores, o governador anunciou...\". Readers give up before the verb. Start with who did what, and let the circumstances follow if they matter at all.",
         ],
         examples: [
           { es: "Prefeito anuncia novas regras para o Carnaval", en: "Mayor announces new rules for Carnival" },
           { es: "O governador anunciou nesta segunda-feira (7) o fim da cobrança de pedágio na rodovia.", en: "The governor on Monday announced the end of tolls on the highway." },
-          { es: "O anúncio foi feito no Palácio da Liberdade, em Belo Horizonte.", en: "The announcement was made at the Palácio da Liberdade in Belo Horizonte." },
+          { es: "O anúncio foi feito na Cidade Administrativa, em Belo Horizonte.", en: "The announcement was made at the Cidade Administrativa, the state government complex in Belo Horizonte." },
         ],
         checkpoint: [
           {
@@ -2531,7 +2531,7 @@ export const PT_C2_U20: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Unbury the lead: \"Em reunião realizada na manhã desta segunda-feira no Palácio da Liberdade, acompanhado de secretários, o governador anunciou o fim do pedágio.\"",
+            prompt: "Unbury the lead: \"Em reunião realizada na manhã desta segunda-feira na Cidade Administrativa, acompanhado de secretários, o governador anunciou o fim do pedágio.\"",
             source: "The governor on Monday (7) announced the end of tolls on the highway.",
             answer: "O governador anunciou nesta segunda-feira (7) o fim da cobrança de pedágio na rodovia.",
             altAnswers: [
@@ -2541,7 +2541,7 @@ export const PT_C2_U20: Lesson[] = [
               "O governador anunciou o fim do pedágio na rodovia nesta segunda-feira (7).",
               "A governadora anunciou nesta segunda-feira (7) o fim da cobrança de pedágio na rodovia.",
             ],
-            explanation: "Who did what comes first; the meeting, the palace and the entourage are circumstances that can follow or go.",
+            explanation: "Who did what comes first; the meeting, the venue and the entourage are circumstances that can follow or go.",
           },
           {
             type: "multiple-choice",
@@ -2566,7 +2566,7 @@ export const PT_C2_U20: Lesson[] = [
         examples: [
           { es: "Segundo a Polícia Federal, o deputado teria recebido propina.", en: "According to the Federal Police, the deputy allegedly took bribes." },
           { es: "O suspeito foi preso em flagrante.", en: "The suspect was caught in the act and arrested." },
-          { es: "O vereador é investigado pela PF por desvio de verbas.", en: "The councillor is being investigated by the Federal Police for embezzlement." },
+          { es: "O vereador é investigado pela PF por desvio de verbas.", en: "The council member is being investigated by the Federal Police for embezzlement." },
         ],
         checkpoint: [
           {
@@ -2601,7 +2601,7 @@ export const PT_C2_U20: Lesson[] = [
         ],
         examples: [
           { es: "O Conselho Monetário Nacional (CMN) aprovou novas regras para o crédito rural.", en: "The National Monetary Council (CMN) approved new rules for farm credit." },
-          { es: "A reunião começa às 14h desta segunda-feira.", en: "The meeting starts at 2pm on Monday." },
+          { es: "A reunião começa às 14h desta segunda-feira.", en: "The meeting starts at 2 p.m. on Monday." },
           { es: "O motorista fugiu, mas foi encontrado horas depois.", en: "The driver fled but was found hours later." },
           { es: "O desemprego caiu para 6,2% no trimestre.", en: "Unemployment fell to 6.2% in the quarter." },
         ],
@@ -2639,7 +2639,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Remove the opinion: \"Infelizmente, a obra atrasou oito meses.\"",
-        source: "The works are eight months behind schedule.",
+        source: "The construction work is eight months behind schedule.",
         answer: "A obra atrasou oito meses.",
         altAnswers: ["A obra está oito meses atrasada.", "As obras atrasaram oito meses.", "A obra tem oito meses de atraso.", "A obra está atrasada oito meses."],
         explanation: "\"Infelizmente\" is the reporter's feeling. The delay speaks for itself.",
@@ -2651,7 +2651,7 @@ export const PT_C2_U20: Lesson[] = [
         source: "The opposition says the veto is irresponsible.",
         answer: "Para a oposição, o veto é irresponsável.",
         altAnswers: ["Segundo a oposição, o veto é irresponsável.", "A oposição diz que o veto é irresponsável.", "A oposição afirma que o veto é irresponsável.", "A oposição considera o veto irresponsável."],
-        explanation: "\"Para a oposição\" attributes a judgement; the paper reports it without endorsing it.",
+        explanation: "\"Para a oposição\" attributes a judgment; the paper reports it without endorsing it.",
       },
       {
         type: "multiple-choice",
@@ -2668,7 +2668,7 @@ export const PT_C2_U20: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words. (Error: \"O vereador teria desviado verbas.\")",
-        en: "[According to the Federal Police], the councillor allegedly embezzled funds.",
+        en: "[According to the Federal Police], the council member allegedly embezzled funds.",
         sentence: "___, o vereador teria desviado verbas.",
         answer: "Segundo a Polícia Federal",
         altAnswers: ["Segundo a PF", "De acordo com a Polícia Federal", "De acordo com a PF"],
@@ -2692,7 +2692,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Fix the style slips: \"A reunião começa às 14:00 da Segunda-Feira.\"",
-        source: "The meeting starts at 2pm on Monday.",
+        source: "The meeting starts at 2 p.m. on Monday.",
         answer: "A reunião começa às 14h de segunda-feira.",
         altAnswers: ["A reunião começa às 14h desta segunda-feira.", "A reunião começa na segunda-feira, às 14h.", "A reunião começa às 14h da segunda-feira.", "A reunião começa às 14h na segunda-feira.", "A reunião começa nesta segunda-feira, às 14h."],
         explanation: "\"14h\" with no colon, and weekdays in lowercase.",
@@ -2702,10 +2702,10 @@ export const PT_C2_U20: Lesson[] = [
         audio: "O vereador é investigado pela PF por desvio de verbas.",
         question: "What does it mean?",
         options: [
-          "The councillor is being investigated by the Federal Police for embezzlement.",
-          "The councillor has been convicted of embezzlement.",
-          "The councillor is investigating the Federal Police for embezzlement.",
-          "The councillor diverted funds to the Federal Police.",
+          "The council member is being investigated by the Federal Police for embezzlement.",
+          "The council member has been convicted of embezzlement.",
+          "The council member is investigating the Federal Police for embezzlement.",
+          "The council member diverted funds to the Federal Police.",
         ],
         correctIndex: 0,
         explanation: "\"É investigado\" states the procedure, not guilt. \"Desvio de verbas\" is embezzlement of public funds.",
@@ -2723,7 +2723,7 @@ export const PT_C2_U20: Lesson[] = [
         words: ["O", "prefeito", "vetou", "o", "projeto", "nesta", "sexta-feira."],
         translation: "The mayor vetoed the bill on Friday.",
         altOrders: [["O", "prefeito", "vetou", "nesta", "sexta-feira.", "o", "projeto"]],
-        explanation: "Just the fact: who, what, when. No adverb of judgement.",
+        explanation: "Just the fact: who, what, when. No adverb of judgment.",
       },
     ],
   },
@@ -2747,7 +2747,7 @@ export const PT_C2_U20: Lesson[] = [
           { es: "A Câmara Municipal de Natal aprovou um projeto que proíbe fogos de artifício com estampido.", en: "Natal city council has passed a bill banning fireworks that bang." },
           { es: "Fogos de efeito apenas visual continuam permitidos.", en: "Fireworks with purely visual effects are still allowed." },
           { es: "A multa vai de R$ 2 mil a R$ 10 mil.", en: "The fine ranges from R$2,000 to R$10,000." },
-          { es: "O prefeito tem 15 dias úteis para sancionar ou vetar o texto.", en: "The mayor has 15 working days to sign or veto the bill." },
+          { es: "O prefeito tem 15 dias úteis para sancionar ou vetar o texto.", en: "The mayor has 15 business days to sign or veto the bill." },
         ],
         checkpoint: [
           {
@@ -2772,8 +2772,8 @@ export const PT_C2_U20: Lesson[] = [
             options: [
               "The council has passed a ban on noisy fireworks in the city.",
               "The vote was 19 to 6.",
-              "Councillor Luíza Andrade wrote the bill.",
-              "Shopkeepers are against the bill.",
+              "Council member Luíza Andrade wrote the bill.",
+              "Merchants are against the bill.",
             ],
             correctIndex: 0,
             explanation: "What changes for the city is the news. The vote count, the author and the opposition are details further down the pyramid.",
@@ -2790,7 +2790,7 @@ export const PT_C2_U20: Lesson[] = [
           { es: "Câmara de Natal aprova proibição de fogos com estampido", en: "Natal council approves ban on noisy fireworks" },
           { es: "Texto prevê multa de até R$ 10 mil e segue para sanção do prefeito", en: "Bill provides for fines of up to R$10,000 and goes to the mayor for signature" },
           { es: "O projeto ainda precisa ser sancionado.", en: "The bill still has to be signed into law." },
-          { es: "Vereadores aprovam fim dos fogos com estampido em Natal", en: "Councillors vote to end noisy fireworks in Natal" },
+          { es: "Vereadores aprovam fim dos fogos com estampido em Natal", en: "Council members vote to end noisy fireworks in Natal" },
         ],
         checkpoint: [
           {
@@ -2827,7 +2827,7 @@ export const PT_C2_U20: Lesson[] = [
         ],
         examples: [
           { es: "A Câmara Municipal de Natal aprovou nesta terça-feira (14), por 19 votos a 6, um projeto que proíbe fogos com estampido.", en: "Natal city council on Tuesday passed, by 19 votes to 6, a bill banning fireworks that bang." },
-          { es: "Segundo a autora, a vereadora Luíza Andrade, o barulho prejudica pessoas autistas, idosos e animais.", en: "According to the bill's author, councillor Luíza Andrade, the noise harms autistic people, the elderly and animals." },
+          { es: "Segundo a autora, a vereadora Luíza Andrade, o barulho prejudica pessoas autistas, idosos e animais.", en: "According to the bill's author, council member Luíza Andrade, the noise harms autistic people, the elderly and animals." },
           { es: "Quem descumprir a regra poderá ser multado em até R$ 10 mil.", en: "Anyone who breaks the rule may be fined up to R$10,000." },
         ],
         checkpoint: [
@@ -2870,10 +2870,10 @@ export const PT_C2_U20: Lesson[] = [
           "Then the city hall: \"Procurada, a prefeitura informou que vai analisar o texto.\" Finally the \"pé\", the background a cut can lose: other Brazilian cities with similar laws, and when the ban would start. Read the whole story once more for opinion that has slipped in. \"Finalmente\" or \"uma vitória para os animais\" would be yours, not the facts'.",
         ],
         examples: [
-          { es: "\"Festa não precisa machucar ninguém\", disse a vereadora.", en: "'A celebration doesn't need to hurt anyone,' the councillor said." },
+          { es: "\"Festa não precisa machucar ninguém\", disse a vereadora.", en: "'A celebration doesn't need to hurt anyone,' the council member said." },
           { es: "\"Vai quebrar o setor\", afirmou Márcio Teixeira, presidente da associação dos comerciantes de fogos.", en: "'It will ruin the trade,' said Márcio Teixeira, president of the fireworks traders' association." },
           { es: "Procurada, a prefeitura informou que vai analisar o texto.", en: "Asked for comment, city hall said it would review the bill." },
-          { es: "Se sancionada, a lei entra em vigor em 90 dias.", en: "If signed, the law will come into force in 90 days." },
+          { es: "Se sancionada, a lei entra em vigor em 90 dias.", en: "If signed, the law will take effect in 90 days." },
         ],
         checkpoint: [
           {
@@ -2907,7 +2907,7 @@ export const PT_C2_U20: Lesson[] = [
           {
             type: "speak",
             text: "Festa não precisa machucar ninguém.",
-            prompt: "Read the councillor's quote aloud.",
+            prompt: "Read the council member's quote aloud.",
             tip: "\"Machucar\": ma-chu-CAR, with the ch like English sh.",
             explanation: "A short, quotable line from the author supports the lide.",
           },
@@ -2919,7 +2919,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Expand the note into a news sentence.",
-        source: "The mayor has 15 working days to sign or veto the bill.",
+        source: "The mayor has 15 business days to sign or veto the bill.",
         answer: "O prefeito tem 15 dias úteis para sancionar ou vetar o texto.",
         altAnswers: [
           "O prefeito tem 15 dias úteis para sancionar ou vetar o projeto.",
@@ -2928,7 +2928,7 @@ export const PT_C2_U20: Lesson[] = [
           "A prefeita tem 15 dias úteis para sancionar ou vetar o texto.",
           "O prefeito tem 15 dias úteis para sancionar ou vetar a proposta.",
         ],
-        explanation: "\"Dias úteis\" are working days; \"sancionar\" means to sign a bill into law.",
+        explanation: "\"Dias úteis\" are business days; \"sancionar\" means to sign a bill into law.",
       },
       {
         type: "multiple-choice",
@@ -2946,7 +2946,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, in news style.",
-        source: "According to the bill's author, councillor Luíza Andrade, the noise harms autistic people, the elderly and animals.",
+        source: "According to the bill's author, council member Luíza Andrade, the noise harms autistic people, the elderly and animals.",
         answer: "Segundo a autora do projeto, a vereadora Luíza Andrade, o barulho prejudica pessoas autistas, idosos e animais.",
         altAnswers: [
           "De acordo com a autora do projeto, a vereadora Luíza Andrade, o barulho prejudica pessoas autistas, idosos e animais.",
@@ -2970,7 +2970,7 @@ export const PT_C2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese, in news style.",
-        source: "'A celebration doesn't need to hurt anyone,' the councillor said.",
+        source: "'A celebration doesn't need to hurt anyone,' the council member said.",
         answer: "\"Festa não precisa machucar ninguém\", disse a vereadora.",
         altAnswers: ["\"Festa não precisa machucar ninguém\", afirmou a vereadora.", "\"A festa não precisa machucar ninguém\", disse a vereadora.", "\"Festa não precisa ferir ninguém\", disse a vereadora."],
         explanation: "Quote first, then the inverted verb and subject: \"disse a vereadora\".",
@@ -3024,7 +3024,7 @@ export const PT_C2_U20: Lesson[] = [
 
 export const PT_C2_U20_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You are a reporter in Fortaleza. Write a news story, with a headline and a linha fina, from these notes: Yesterday (Monday 13) the mayor announced free bus travel on Sundays and public holidays from 1 December. Cost: about R$ 4 million a month, paid from the city budget. Estimated 400,000 passengers every Sunday. Mayor's quote: \"Domingo também é dia de ir à praia, ao parque, à casa da avó.\" The bus companies' union supports the plan but says the city still owes them money from last year (\"Apoiamos, mas a prefeitura precisa pagar o que deve\"). An opposition councillor says the money should go to more buses on weekdays. A transport researcher says similar schemes in other Brazilian cities increased Sunday ridership. Follow Brazilian house style.",
+  prompt: "You are a reporter in Fortaleza. Write a news story, with a headline and a linha fina, from these notes: Yesterday (Monday 13) the mayor announced free bus travel on Sundays and holidays from December 1. Cost: about R$ 4 million a month, paid from the city budget. Estimated 400,000 passengers every Sunday. Mayor's quote: \"Domingo também é dia de ir à praia, ao parque, à casa da avó.\" The bus companies' union supports the plan but says the city still owes them money from last year (\"Apoiamos, mas a prefeitura precisa pagar o que deve\"). An opposition council member says the money should go to more buses on weekdays. A transport researcher says similar schemes in other Brazilian cities increased Sunday ridership. Follow Brazilian house style.",
   minWords: 250,
   maxWords: 400,
   rubric: [

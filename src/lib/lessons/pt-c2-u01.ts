@@ -17,7 +17,7 @@ export const PT_C2_U01: Lesson[] = [
         body: [
           "A \"metáfora\" names one thing with a word that belongs to another, because the two share a feature. \"Meu chefe é uma fera\" says he is as furious as a wild animal, without saying 'as'. Add \"como\" and it becomes a \"comparação\" (simile): \"ele ficou bravo como uma fera\". Brazilian grammars keep the two apart, so in a commentary call each by its own name.",
           "Much everyday Portuguese is metaphor that nobody hears any more: \"o pé da mesa\", \"o braço do sofá\", \"a cabeça do alfinete\". When a faded metaphor is the only name a thing has, grammars call it \"catacrese\". The live metaphors are the trap, because English shares some and not others. A sea of people is \"um mar de gente\" in both languages, but a piece of cake is \"mamão com açúcar\" or \"moleza\", never a calque with \"bolo\".",
-          "In poetry one metaphor can carry a whole text. In Vinicius de Moraes's \"Soneto de Fidelidade\", love is \"chama\": bright and warm, but bound to go out, which is why it can be infinite only \"enquanto dure\". Vinicius uses \"posto que\" to mean since. Normative grammars give it as although, so quote his usage but don't copy it in your own essays.",
+          "In poetry one metaphor can carry a whole text. In Vinicius de Moraes's \"Soneto de Fidelidade\", love is \"chama\": bright and warm, but bound to go out, which is why it can be infinite only \"enquanto dure\". Vinicius uses \"posto que\" causally, to mean since. Normative grammar accepts only the concessive sense (although), so quote his line but write \"já que\" or \"uma vez que\" in your own essays.",
         ],
         examples: [
           { es: "Meu chefe vira uma fera quando alguém perde um prazo.", en: "My boss turns into a beast when someone misses a deadline." },
@@ -116,7 +116,7 @@ export const PT_C2_U01: Lesson[] = [
         heading: "Telling them apart, and naming them in analysis",
         body: [
           "Ask what links the two meanings. If the link is likeness, so that you could rephrase with \"como\" or \"parece\", it's a metaphor: \"o coração dela é de pedra\". If the link is contact, cause or belonging, it's a metonymy: \"a plateia aplaudiu\" means the people sitting in the plateia did.",
-          "The same word can do both. \"Coração\" is metonymy in \"ele tem bom coração\", where the organ stands for the feelings it was thought to hold. It is metaphor in \"o coração de São Paulo\", the centre of the city by likeness to the centre of a body.",
+          "The same word can do both. \"Coração\" is metonymy in \"ele tem bom coração\", where the organ stands for the feelings it was thought to hold. It is metaphor in \"o coração de São Paulo\", the center of the city by likeness to the center of a body.",
           "In an analysis, name the figure, quote it and say what it does: \"o poeta recorre à metáfora da pedra para...\". The crase there is \"recorrer a\" plus the article. Calling a metaphor 'beautiful' says nothing. Say what it compresses, hides or reveals.",
         ],
         examples: [
@@ -196,7 +196,7 @@ export const PT_C2_U01: Lesson[] = [
         prompt: "Put the words in order to say: Pelourinho is the heart of Salvador.",
         words: ["O", "Pelourinho", "é", "o", "coração", "de", "Salvador."],
         translation: "Pelourinho is the heart of Salvador.",
-        explanation: "\"Coração\" here is metaphor: the historic centre is to the city what the heart is to the body. Salvador takes no article, so it's \"de Salvador\".",
+        explanation: "\"Coração\" here is metaphor: the historic center is to the city what the heart is to the body. Salvador takes no article, so it's \"de Salvador\".",
       },
       {
         type: "translate",
@@ -233,7 +233,7 @@ export const PT_C2_U01: Lesson[] = [
         type: "speak",
         text: "A prova foi mamão com açúcar.",
         prompt: "Say it in Portuguese: The exam was a piece of cake.",
-        tip: "Nasalise the ão in \"mamão\" and stress \"açúcar\" on the middle syllable: a-ÇÚ-car.",
+        tip: "Nasalize the ão in \"mamão\" and stress \"açúcar\" on the middle syllable: a-ÇÚ-car.",
         explanation: "\"Mamão com açúcar\" is the Brazilian metaphor for something easy. English's piece of cake doesn't translate word for word.",
       },
       {
@@ -277,7 +277,7 @@ export const PT_C2_U01: Lesson[] = [
           { es: "Estou morrendo de fome, vamos comer?", en: "I'm starving, shall we eat?" },
           { es: "Quase morri de vergonha quando ela me chamou pelo nome errado.", en: "I nearly died of embarrassment when she called me by the wrong name." },
           { es: "Já te falei mil vezes para não deixar a porta aberta.", en: "I've told you a thousand times not to leave the door open." },
-          { es: "A fila do banco estava quilométrica.", en: "The queue at the bank was a mile long." },
+          { es: "A fila do banco estava quilométrica.", en: "The line at the bank was a mile long." },
           { es: "Esperei uma eternidade pelo ônibus.", en: "I waited forever for the bus." },
           { es: "Estou morrendo de vontade de te ver.", en: "I'm dying to see you." },
         ],
@@ -314,7 +314,7 @@ export const PT_C2_U01: Lesson[] = [
         body: [
           "The \"eufemismo\" softens what is painful, rude or awkward. You met the polite ones (\"faleceu\", \"acima do peso\") at C1. As a style it goes further: someone who has died \"nos deixou\", \"descansou\" or \"partiu\". Tone matters here. \"Foi dessa para melhor\" is jokey: fine for a broken fridge, not at a wake.",
           "Institutions live on euphemism. A company \"desliga\" staff during a \"reestruturação\". A government announces a \"readequação de tarifas\" rather than a price rise, and employees become \"colaboradores\". Reading Brazilian news well means translating these back into plain facts.",
-          "A close relative is the \"lítotes\": denying the opposite to make a point gently. \"Ele não é nada bobo\" means he's sharp, \"não foi das melhores ideias\" means it was a bad idea, and \"nada mal\" is real praise. English understatement works the same way, but Brazilians use lítotes even more to criticise without sounding harsh.",
+          "A close relative is the \"lítotes\": denying the opposite to make a point gently. \"Ele não é nada bobo\" means he's sharp, \"não foi das melhores ideias\" means it was a bad idea, and \"nada mal\" is real praise. English understatement works the same way, but Brazilians use lítotes even more to criticize without sounding harsh.",
         ],
         examples: [
           { es: "A avó dele nos deixou no ano passado.", en: "His grandmother passed away last year." },
@@ -363,7 +363,7 @@ export const PT_C2_U01: Lesson[] = [
         examples: [
           { es: "Que beleza! Começou a chover e eu sem guarda-chuva.", en: "Lovely! It's started raining and I've got no umbrella." },
           { es: "Chegou cedo hoje, hein?", en: "Early today, aren't we? (to someone who is late)" },
-          { es: "Era só o que faltava: o pneu furou.", en: "That's all I needed: a flat tyre." },
+          { es: "Era só o que faltava: o pneu furou.", en: "That's all I needed: a flat tire." },
           { es: "Ah, tá. Você estudou a noite toda, sei.", en: "Oh, sure. You studied all night, I'm sure you did." },
           { es: "Adoro acordar às cinco da manhã. Só que não.", en: "I love getting up at five in the morning. Not!" },
           { es: "O \"especialista\" errou a previsão de novo.", en: "The so-called expert got the forecast wrong again." },
@@ -435,10 +435,10 @@ export const PT_C2_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The queue was a mile long.",
+        source: "The line was a mile long.",
         answer: "A fila estava quilométrica.",
         altAnswers: ["A fila estava enorme.", "A fila era quilométrica.", "A fila estava gigante."],
-        explanation: "English exaggerates with a mile; Portuguese uses the adjective \"quilométrica\". \"Estar\" fits because it describes the queue at that moment.",
+        explanation: "English exaggerates with a mile; Portuguese uses the adjective \"quilométrica\". \"Estar\" fits because it describes the line at that moment.",
       },
       {
         type: "translate",
@@ -596,13 +596,13 @@ export const PT_C2_U01: Lesson[] = [
         heading: "Gradação: building up, or down",
         body: [
           "A \"gradação\" lines up three or more terms in rising intensity (\"clímax\") or falling intensity (\"anticlímax\"). Olavo Bilac's \"O primeiro milhão possuído excita, acirra, assanha a gula do milionário\" climbs from arousing to provoking to inflaming. The verbs come without \"e\", a choice called \"assíndeto\" that speeds up the rhythm. Putting \"e\" before the last term slows the line down and lands the final step.",
-          "Order is the whole device: each step must outweigh the last. \"Ele gritou, falou, sussurrou\" is a descending gradação. It is perfect for a voice fading out and absurd if you meant rage. Anticlimax also serves humour and disillusion, deflating big dreams one step at a time.",
+          "Order is the whole device: each step must outweigh the last. \"Ele gritou, falou, sussurrou\" is a descending gradação. It is perfect for a voice fading out and absurd if you meant rage. Anticlimax also serves humor and disillusion, deflating big dreams one step at a time.",
           "In speeches the ascending triad is the default closing, often ending on a hipérbole (lesson 2): \"Esperamos um dia, um ano, uma vida inteira\". Check that the third element really is the biggest. A weak last step sounds like a mistake, not modesty.",
         ],
         examples: [
           { es: "O primeiro milhão possuído excita, acirra, assanha a gula do milionário.", en: "The first million possessed arouses, stirs up, inflames the millionaire's greed. (Olavo Bilac)" },
           { es: "Esperamos um dia, um ano, uma vida inteira.", en: "We waited a day, a year, a whole lifetime." },
-          { es: "Não é uma rua, é um bairro, é uma cidade inteira que pede socorro.", en: "It isn't one street, it's a neighbourhood, it's a whole city crying out for help." },
+          { es: "Não é uma rua, é um bairro, é uma cidade inteira que pede socorro.", en: "It isn't one street, it's a neighborhood, it's a whole city crying out for help." },
           { es: "Sonhava com um castelo, depois com uma casa, por fim com um quarto alugado.", en: "He dreamed of a castle, then of a house, and finally of a rented room." },
           { es: "A voz dela foi do grito ao sussurro, do sussurro ao silêncio.", en: "Her voice went from a shout to a whisper, from a whisper to silence." },
         ],
@@ -689,11 +689,11 @@ export const PT_C2_U01: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "It wasn't one street, it was a neighbourhood, it was [a whole city].",
+        en: "It wasn't one street, it was a neighborhood, it was [a whole city].",
         sentence: "Não era uma rua, era um bairro, era ___.",
         answer: "uma cidade inteira",
         altAnswers: ["a cidade inteira", "toda uma cidade", "a cidade toda"],
-        explanation: "The third step of the climax must be the biggest: street, neighbourhood, whole city. \"Inteira\" agrees with the feminine \"cidade\".",
+        explanation: "The third step of the climax must be the biggest: street, neighborhood, whole city. \"Inteira\" agrees with the feminine \"cidade\".",
       },
       {
         type: "multiple-choice",
@@ -768,7 +768,7 @@ export const PT_C2_U01: Lesson[] = [
             source: "Three plates of wheat for three sad tigers.",
             answer: "Três pratos de trigo para três tigres tristes.",
             altAnswers: ["Três pratos de trigo pra três tigres tristes."],
-            explanation: "The tongue twister stacks the cluster tr- in \"três\", \"trigo\" and \"tristes\". Notice that \"tigres\" and \"tristes\" end in a chee sound in most of Brazil, which adds a second echo.",
+            explanation: "The tongue twister stacks the cluster tr- in \"três\", \"trigo\" and \"tristes\". Notice that \"tigres\" starts with a chee sound and \"tristes\" ends with one in most of Brazil, which adds a second echo.",
           },
           {
             type: "listen-choose",
@@ -821,7 +821,7 @@ export const PT_C2_U01: Lesson[] = [
           {
             type: "speak",
             text: "Sou Ana, da cama, da cana, fulana, bacana.",
-            tip: "Nasalise every stressed a before m or n (CÃma, CÃna, fuLÃna, baCÃna). Don't flatten them into an English a.",
+            tip: "Nasalize every stressed a before m or n (CÃma, CÃna, fuLÃna, baCÃna). Don't flatten them into an English a.",
             explanation: "The assonance only works if the stressed vowels sound the same. In Brazilian Portuguese all four are a nasal \"ã\".",
           },
         ],
@@ -830,7 +830,7 @@ export const PT_C2_U01: Lesson[] = [
         heading: "Anáfora: repeating the opening",
         body: [
           "\"Anáfora\" repeats a word or phrase at the start of successive lines or clauses. Gonçalves Dias's \"Canção do exílio\" uses \"nosso\" / \"nossa\" to list what Brazil has more of. Tom Jobim's \"Águas de março\" opens line after line with \"é\", like the Camões sonnet from the last lesson. The repetition creates expectation, and each new line fills the same frame with something different.",
-          "Speeches use it to organise an argument for the ear, usually in threes: \"Queremos escola para todos, queremos saúde para todos, queremos futuro para todos.\" The repeated ending, \"para todos\", is an \"epístrofe\". A line that returns between stanzas is a \"refrão\". English speakers writing Portuguese often vary their words out of school habit, and that kills the effect. In rhetoric, the repetition is the point.",
+          "Speeches use it to organize an argument for the ear, usually in threes: \"Queremos escola para todos, queremos saúde para todos, queremos futuro para todos.\" The repeated ending, \"para todos\", is an \"epístrofe\". A line that returns between stanzas is a \"refrão\". English speakers writing Portuguese often vary their words out of school habit, and that kills the effect. In rhetoric, the repetition is the point.",
           "Don't confuse the figure with the \"anáfora\" of cohesion, where a pronoun points back to something already said (\"Conheci a Bia; ela mora em Recife\"). The figure repeats on purpose; the pronoun is there to avoid repetition. Drummond's \"No meio do caminho tinha uma pedra / tinha uma pedra no meio do caminho\" shows a cousin, the \"quiasmo\": the same words returning in reverse order.",
         ],
         examples: [
@@ -887,7 +887,7 @@ export const PT_C2_U01: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "The rat gnawed the king of Rome's clothes.",
         answer: "O rato roeu a roupa do rei de Roma.",
-        explanation: "The classic trava-língua: \"rato\", \"roeu\", \"roupa\", \"rei\" and \"Roma\" all begin with the strong r. \"Do rei\" is de + o, the English possessive turned round.",
+        explanation: "The classic trava-língua: \"rato\", \"roeu\", \"roupa\", \"rei\" and \"Roma\" all begin with the strong r. \"Do rei\" is de + o, the English possessive turned around.",
       },
       {
         type: "translate",
@@ -924,7 +924,7 @@ export const PT_C2_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Good candy, cheap candy, Bia's candy. (a jingle for a sweet shop)",
+        source: "Good candy, cheap candy, Bia's candy. (a jingle for a candy store)",
         answer: "Bala boa, bala barata, bala da Bia.",
         explanation: "Two figures at once: aliteração on b (\"bala\", \"boa\", \"barata\", \"Bia\") and anáfora on \"bala\". Brazilian \"bala\" is a hard candy; the adjective follows the noun.",
       },
@@ -1062,7 +1062,7 @@ export const PT_C2_U01: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "He likes football; I, volleyball.",
+            source: "He likes soccer; I, volleyball.",
             answer: "Ele gosta de futebol; eu, de vôlei.",
             altAnswers: ["Ele gosta de futebol, e eu, de vôlei.", "Ele gosta de futebol e eu, de vôlei."],
             explanation: "\"Gosto\" is understood after \"eu\", even though the person changes. The \"de\" that \"gostar\" demands stays with the complement: \"eu, de vôlei\". \"Eu, vôlei\" is the common slip.",
@@ -1274,7 +1274,7 @@ export const PT_C2_U01: Lesson[] = [
     slug: "c2-style-analysis",
     level: "PT-C2",
     number: 6,
-    title: "Analysing Style",
+    title: "Analyzing Style",
     summary: "Describe a Portuguese text's style precisely: its register and tone, its rhythm, and what its figures of speech do to the reader.",
     duration: "15 min",
     sections: [
@@ -1291,14 +1291,14 @@ export const PT_C2_U01: Lesson[] = [
           { es: "O autor recorre à gíria para se aproximar do leitor.", en: "The author resorts to slang to get closer to the reader." },
           { es: "A prosa de Euclides da Cunha é rebuscada, cheia de termos científicos.", en: "Euclides da Cunha's prose is ornate, full of scientific terms." },
           { es: "O uso do diminutivo confere ao trecho um tom afetivo.", en: "The diminutive gives the passage an affectionate tone." },
-          { es: "A cronista lança mão do humor para tratar de um tema delicado.", en: "The columnist uses humour to deal with a delicate subject." },
+          { es: "A cronista lança mão do humor para tratar de um tema delicado.", en: "The columnist uses humor to deal with a delicate subject." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The author resorts to irony to criticise the government.",
+            source: "The author resorts to irony to criticize the government.",
             answer: "O autor recorre à ironia para criticar o governo.",
             altAnswers: [
               "O autor lança mão da ironia para criticar o governo.",
@@ -1505,7 +1505,7 @@ export const PT_C2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In a poem, \"nunca\" opens every line. Which comment analyses the style rather than just labelling it?",
+        question: "In a poem, \"nunca\" opens every line. Which comment analyzes the style rather than just labeling it?",
         options: [
           "A repetição de nunca no início de cada verso reforça a sensação de perda definitiva.",
           "O poema tem uma anáfora.",
@@ -1557,8 +1557,8 @@ export const PT_C2_U01: Lesson[] = [
           "As you saw with metonymy and hyperbole, worn figures run through everyday speech (\"tomar um copo\", \"morrer de rir\", \"o pé da mesa\") and pass as plain language. A fresh image is different: it draws attention to itself, so it has to repay that attention. Suppose the reader stops to decode \"a reunião foi um deserto de ideias\" and finds only 'the meeting was unproductive'. Then the figure has cost more than it gave.",
         ],
         examples: [
-          { es: "O metrô estava cheio demais.", en: "The metro was far too full. (plain)" },
-          { es: "O metrô estava uma lata de sardinha.", en: "The metro was packed like a tin of sardines. (figurative)" },
+          { es: "O metrô estava cheio demais.", en: "The subway was far too full. (plain)" },
+          { es: "O metrô estava uma lata de sardinha.", en: "The subway was packed like a can of sardines. (figurative)" },
           { es: "O projeto atrasou muito.", en: "The project fell a long way behind. (plain)" },
           { es: "O projeto andou a passo de tartaruga.", en: "The project moved at a snail's pace. (figurative)" },
           { es: "Ela ficou muito triste com a notícia.", en: "She was very sad about the news. (plain)" },
@@ -1716,7 +1716,7 @@ export const PT_C2_U01: Lesson[] = [
       {
         type: "multiple-choice",
         question: "A colleague says: \"A reunião foi um parto.\" What does she mean?",
-        options: ["The meeting was a painful, exhausting struggle.", "Someone went into labour during the meeting.", "The meeting gave birth to a great new idea.", "The meeting was short and productive."],
+        options: ["The meeting was a painful, exhausting struggle.", "Someone went into labor during the meeting.", "The meeting gave birth to a great new idea.", "The meeting was short and productive."],
         correctIndex: 0,
         explanation: "\"Foi um parto\" ('it was a childbirth') is a fixed metaphor for something long and painful to get through. The literal and positive readings miss the idiom.",
       },
@@ -1724,7 +1724,7 @@ export const PT_C2_U01: Lesson[] = [
         type: "listen-choose",
         audio: "O metrô estava uma lata de sardinha.",
         question: "What does it mean?",
-        options: ["The metro was packed.", "The metro smelled of fish.", "The metro had broken down.", "The metro was empty."],
+        options: ["The subway was packed.", "The subway smelled of fish.", "The subway had broken down.", "The subway was empty."],
         correctIndex: 0,
         explanation: "\"Uma lata de sardinha\" is about crowding, not fish. It's the figurative way to say \"lotado\".",
       },
@@ -1846,7 +1846,7 @@ export const PT_C2_U01: Lesson[] = [
         examples: [
           { es: "Hoje, 40% dos brasileiros usam o celular para pagar contas.", en: "Today 40% of Brazilians use their phone to pay bills. (instead of \"nos dias de hoje\")" },
           { es: "A vacinação reduziu as internações em 60%.", en: "Vaccination cut hospital admissions by 60%. (instead of \"é de suma importância\")" },
-          { es: "Desde o século XIX, a cidade cresce em direção ao litoral.", en: "Since the 19th century the city has grown towards the coast. (instead of \"desde os primórdios\")" },
+          { es: "Desde o século XIX, a cidade cresce em direção ao litoral.", en: "Since the 19th century the city has grown toward the coast. (instead of \"desde os primórdios\")" },
           { es: "O desemprego aumenta mês a mês.", en: "Unemployment is rising month by month. (instead of \"a cada dia que passa\")" },
           { es: "Vale ressaltar que o estudo ouviu apenas 200 pessoas.", en: "It's worth noting that the study surveyed only 200 people." },
         ],
@@ -2034,7 +2034,7 @@ export const PT_C2_U01: Lesson[] = [
         type: "listen-choose",
         audio: "Informamos que a reunião foi adiada.",
         question: "Where does this sentence belong?",
-        options: ["In a company's formal notice", "In a text message to a close friend", "In a football commentary", "In a love song"],
+        options: ["In a company's formal notice", "In a text message to a close friend", "In a soccer commentary", "In a love song"],
         correctIndex: 0,
         explanation: "\"Informamos que\" is the formulaic opening of notices and official emails. To a friend you'd write something like \"Oi, a reunião foi adiada\".",
       },
@@ -2075,8 +2075,8 @@ export const PT_C2_U01: Lesson[] = [
       {
         heading: "The brief and the slogan",
         body: [
-          "Your brief: the blood centre in Recife (\"Hemocentro\") needs young donors before Carnival, when blood stocks drop every year. You'll write a slogan for posters and buses and an 80-word text for Instagram. Draft in Portuguese from the start. A slogan translated from English rarely survives, because its rhythm and sound belong to the original language.",
-          "A slogan has to be remembered and repeated, and two features do most of that work: balance and sound. Brazilian slogans favour two parallel halves, often with the verb dropped in the second (elipse, Lesson 5). \"Um gesto pequeno, uma vida inteira\" has no verb at all, and the antithesis between small and whole carries the meaning. Aliteração and assonância hold a line together, but one figure per slogan is plenty. Three at once sounds like a school exercise.",
+          "Your brief: the blood center in Recife (\"Hemocentro\") needs young donors before Carnival, when blood stocks drop every year. You'll write a slogan for posters and buses and an 80-word text for Instagram. Draft in Portuguese from the start. A slogan translated from English rarely survives, because its rhythm and sound belong to the original language.",
+          "A slogan has to be remembered and repeated, and two features do most of that work: balance and sound. Brazilian slogans favor two parallel halves, often with the verb dropped in the second (elipse, Lesson 5). \"Um gesto pequeno, uma vida inteira\" has no verb at all, and the antithesis between small and whole carries the meaning. Aliteração and assonância hold a line together, but one figure per slogan is plenty. Three at once sounds like a school exercise.",
           "Address the reader with the standard imperative, built from the subjunctive stem: \"doe\", \"venha\", \"traga\". On a poster from a public institution it reads as neutral and polite. The everyday \"doa\", \"vem\", \"traz\" belongs in a casual caption, if anywhere. Avoid \"você deve doar\": an order with \"dever\" sounds like a scolding, while the imperative sounds like an invitation.",
         ],
         examples: [
@@ -2178,7 +2178,7 @@ export const PT_C2_U01: Lesson[] = [
         heading: "Polishing: cut, replace, check",
         body: [
           "Cut the vicious pleonasms that creep into persuasive writing: \"elo de ligação\", \"há dez anos atrás\", \"juntos em união\". Blood donation in Brazil is voluntary and unpaid by law, so \"doação gratuita\" adds nothing either. Keep repetition only where it does a job, as in your anáfora.",
-          "Then hunt down clichés: \"faça a diferença\", \"juntos somos mais fortes\", \"o futuro começa agora\". Readers have seen them on a hundred posters, and their eyes slide past. Replace each one with something concrete: a number, a place, an image from Recife such as the \"frevo\" or the queue at a bus stop on the Avenida Conde da Boa Vista.",
+          "Then hunt down clichés: \"faça a diferença\", \"juntos somos mais fortes\", \"o futuro começa agora\". Readers have seen them on a hundred posters, and their eyes slide past. Replace each one with something concrete: a number, a place, an image from Recife such as the \"frevo\" or the line at a bus stop on the Avenida Conde da Boa Vista.",
           "Run a final check before it goes to print. The slogan has one central figure. The text stays within one metaphor. Every verb uses the same form of address. The last line says where, when and how.",
         ],
         examples: [
@@ -2186,7 +2186,7 @@ export const PT_C2_U01: Lesson[] = [
           { es: "Há dez anos, a Ana recebeu sangue de um desconhecido.", en: "Ten years ago, Ana received blood from a stranger." },
           { es: "Quarenta minutos do seu dia. Até quatro vidas salvas.", en: "Forty minutes of your day. Up to four lives saved." },
           { es: "Sangue não se fabrica. Sangue se doa.", en: "Blood can't be manufactured. Blood is given." },
-          { es: "Do frevo à fila do Hemocentro, Recife tem coração.", en: "From the frevo to the Hemocentro queue, Recife has heart." },
+          { es: "Do frevo à fila do Hemocentro, Recife tem coração.", en: "From the frevo to the Hemocentro line, Recife has heart." },
         ],
         checkpoint: [
           {
@@ -2256,9 +2256,9 @@ export const PT_C2_U01: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: From the frevo to the Hemocentro queue, Recife has heart.",
+        prompt: "Put the words in order to say: From the frevo to the Hemocentro line, Recife has heart.",
         words: ["Do", "frevo", "à", "fila", "do Hemocentro,", "Recife", "tem", "coração."],
-        translation: "From the frevo to the Hemocentro queue, Recife has heart.",
+        translation: "From the frevo to the Hemocentro line, Recife has heart.",
         explanation: "\"De... a\" frames the image, and \"à\" is a + a before the feminine \"fila\". \"Ter coração\" is a metaphor that also points to the body, which is the subject of the campaign.",
       },
       {
@@ -2359,7 +2359,7 @@ export const PT_C2_U01: Lesson[] = [
     level: "PT-C2",
     number: 10,
     title: "Spiral Review: Style",
-    summary: "Mix every figure of speech from the unit in fresh sentences, analyse what each one does and edit prose the way a Brazilian editor would.",
+    summary: "Mix every figure of speech from the unit in fresh sentences, analyze what each one does and edit prose the way a Brazilian editor would.",
     duration: "20 min",
     kind: "review",
     format: "Spiral review",
@@ -2375,7 +2375,7 @@ export const PT_C2_U01: Lesson[] = [
           { es: "O Planalto não comentou a decisão.", en: "The presidency (the Planalto palace) didn't comment on the decision." },
           { es: "A cidade acordou debaixo de um cobertor de neblina.", en: "The city woke up under a blanket of fog." },
           { es: "Que beleza, choveu justo no dia da praia.", en: "Lovely: it rained on the one day we'd planned for the beach." },
-          { es: "Esperei uma eternidade na fila do banco.", en: "I waited an eternity in the queue at the bank." },
+          { es: "Esperei uma eternidade na fila do banco.", en: "I waited an eternity in line at the bank." },
           { es: "Seu Antônio nos deixou na semana passada.", en: "Seu Antônio passed away last week." },
           { es: "Ela leu Clarice a viagem inteira.", en: "She read Clarice Lispector the whole trip." },
         ],
@@ -2417,7 +2417,7 @@ export const PT_C2_U01: Lesson[] = [
           { es: "Rimos e choramos na mesma noite.", en: "We laughed and cried on the same night." },
           { es: "Quanto mais eu tenho, mais me falta.", en: "The more I have, the more I lack." },
           { es: "Primeiro duvidou, depois desconfiou, por fim acusou.", en: "First he doubted, then he grew suspicious, and in the end he accused." },
-          { es: "Lutamos pela escola, lutamos pelo bairro, lutamos pela cidade.", en: "We fight for the school, we fight for the neighbourhood, we fight for the city." },
+          { es: "Lutamos pela escola, lutamos pelo bairro, lutamos pela cidade.", en: "We fight for the school, we fight for the neighborhood, we fight for the city." },
           { es: "O rato roeu a roupa do rei de Roma.", en: "The rat gnawed the King of Rome's clothes (a tongue twister)." },
           { es: "Eu prefiro o mar; ela, a montanha.", en: "I prefer the sea; she, the mountains." },
         ],
@@ -2461,7 +2461,7 @@ export const PT_C2_U01: Lesson[] = [
           { es: "Isso aconteceu há dez anos.", en: "That happened ten years ago." },
           { es: "O prazo é de dois dias.", en: "The deadline is two days." },
           { es: "O relógio está contra nós.", en: "The clock is against us." },
-          { es: "Pouco sal, muito sabor.", en: "Less salt, more flavour." },
+          { es: "Pouco sal, muito sabor.", en: "Less salt, more flavor." },
         ],
         checkpoint: [
           {
@@ -2512,7 +2512,7 @@ export const PT_C2_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Our neighbour passed away on Sunday.",
+        source: "Our neighbor passed away on Sunday.",
         answer: "Nosso vizinho faleceu no domingo.",
         altAnswers: ["O nosso vizinho faleceu no domingo.", "Nossa vizinha faleceu no domingo.", "A nossa vizinha faleceu no domingo.", "Nosso vizinho nos deixou no domingo.", "Nossa vizinha nos deixou no domingo."],
         explanation: "'Passed away' is a euphemism, so keep the softened register with \"faleceu\" or \"nos deixou\". \"Morreu\" is correct but drops the euphemism.",
@@ -2613,5 +2613,5 @@ export const PT_C2_U01_WRITING: WriteExercise = {
     "Keeps the prose clean: no \"pleonasmo vicioso\" (\"subir para cima\", \"elo de ligação\"), no mixed metaphors, and a mix of short and long sentences for pace.",
   ],
   modelAnswer: "A cidade que acorda cansada\n\nSão Paulo não acorda: é arrancada da cama. Às seis da manhã, o despertador é um sino de igreja que ninguém respeita, e a cidade se veste às pressas, com o café ainda queimando a língua e o celular já cobrando respostas. Lá fora, o céu é cinza-chumbo, e a garoa, essa velha conhecida, cai devagar sobre os guarda-chuvas.\n\nNa estação Sé, um milhão de pessoas tenta entrar no mesmo vagão. Ninguém se conhece, e todos se conhecem de vista: a moça do fone vermelho, o senhor que lê Machado de pé, o estudante que cochila em pé como um cavalo cansado. As gravatas descem no centro; os uniformes, no fim da linha. O trem treme, trava, trepida, e o vagão inteiro prende a respiração.\n\nÉ um silêncio barulhento, feito de freios, avisos e suspiros. Ninguém diz nada, mas todo mundo reclama. \"Os trens estão circulando com velocidade reduzida\", anuncia o alto-falante, que é o jeito educado de dizer que ninguém sabe quando vamos chegar. Que delícia, pensa alguém, começar o dia com o cotovelo de um desconhecido nas costelas.\n\nPrimeiro vem o atraso; depois, a impaciência; depois, a raiva; por fim, uma resignação quase religiosa. Todo dia o mesmo trem. Todo dia o mesmo empurra-empurra. Todo dia a mesma promessa de que amanhã vai ser diferente.\n\nE, no entanto, há uma ternura escondida nessa multidão. Uma senhora oferece o lugar a uma grávida; um rapaz segura a porta para quem vem correndo; dois desconhecidos riem da mesma piada que ninguém contou. A cidade é dura, mas tem o coração mole.\n\nÀs oito em ponto, a cidade que acordou cansada já está correndo. Lá em cima, na rua, o sol finalmente aparece, tímido, como quem pede desculpas pelo atraso. Porque São Paulo não para, nem para respirar.",
-  explanation: "The model gives every figure a job. The \"personificação\" (\"São Paulo é arrancada da cama\", \"o celular cobrando respostas\") makes the city a tired body. The \"metonímias\" (\"lê Machado\", \"as gravatas\", \"os uniformes\") sketch social class in two words, and the \"hipérbole\" \"um milhão de pessoas\" gives the crush. The \"paradoxo\" \"um silêncio barulhento\" and the \"antítese\" \"dura\" / \"coração mole\" hold the tension. The \"ironia\" \"Que delícia\" and the \"eufemismo\" of the official \"velocidade reduzida\" add the humour. Rhythm comes from the \"aliteração\" in \"treme, trava, trepida\", the \"gradação\" from \"atraso\" to \"resignação\", the \"anáfora\" \"Todo dia...\" and the \"zeugma\" \"os uniformes, no fim da linha\" (with \"descem\" left out). The closing play on \"não para, nem para respirar\" (the verb, then the preposition) only works because Brazilian spelling writes \"para\" without an accent.",
+  explanation: "The model gives every figure a job. The \"personificação\" (\"São Paulo é arrancada da cama\", \"o celular cobrando respostas\") makes the city a tired body. The \"metonímias\" (\"lê Machado\", \"as gravatas\", \"os uniformes\") sketch social class in two words, and the \"hipérbole\" \"um milhão de pessoas\" gives the crush. The \"paradoxo\" \"um silêncio barulhento\" and the \"antítese\" \"dura\" / \"coração mole\" hold the tension. The \"ironia\" \"Que delícia\" and the \"eufemismo\" of the official \"velocidade reduzida\" add the humor. Rhythm comes from the \"aliteração\" in \"treme, trava, trepida\", the \"gradação\" from \"atraso\" to \"resignação\", the \"anáfora\" \"Todo dia...\" and the \"zeugma\" \"os uniformes, no fim da linha\" (with \"descem\" left out). The closing play on \"não para, nem para respirar\" (the verb, then the preposition) only works because Brazilian spelling writes \"para\" without an accent.",
 };

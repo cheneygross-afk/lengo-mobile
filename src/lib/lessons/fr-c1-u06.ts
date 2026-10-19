@@ -131,7 +131,6 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "speak",
             text: "Elle descendit l'escalier et sortit dans la rue.",
-            prompt: "Read this sentence from a novel aloud.",
             tip: "The final t of \"descendit\" and \"sortit\" is silent.",
             explanation: "Two passé simple forms in -it: \"descendit\", \"sortit\".",
           },
@@ -340,7 +339,6 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "speak",
             text: "Ils firent la paix et furent heureux.",
-            prompt: "Read this sentence aloud.",
             tip: "\"Firent\" has an i sound, \"furent\" a French u.",
             explanation: "\"Firent\" (faire) vs \"furent\" (être): the vowel carries the meaning.",
           },
@@ -443,7 +441,6 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "speak",
         text: "Flaubert naquit à Rouen en 1821 et mourut en 1880.",
-        prompt: "Read this sentence from a biography aloud.",
         explanation: "\"Naquit\" (naître) and \"mourut\" (mourir): the two pillars of biographies.",
       },
     ],
@@ -562,7 +559,6 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "speak",
             text: "La princesse se piqua le doigt et s'endormit.",
-            prompt: "Read this line from a fairy tale aloud.",
             explanation: "\"Se piqua\", \"s'endormit\": pronominal verbs in the passé simple need no auxiliary.",
           },
         ],
@@ -720,7 +716,6 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "speak",
             text: "Une voiture s'arrêta devant la maison.",
-            prompt: "Read this sentence aloud.",
             explanation: "\"S'arrêta\": an event, passé simple.",
           },
         ],
@@ -846,7 +841,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         heading: "The basic swap",
         body: [
-          "Here is Karim telling a friend what happened: « Hier soir, je suis rentré tard. Il pleuvait. J'ai ouvert la porte et j'ai vu une lumière dans la cuisine. » Turned into a third-person story: « Ce soir-là, Karim rentra tard. Il pleuvait. Il ouvrit la porte et vit une lumière dans la cuisine. »",
+          "Here is Karim telling a friend what happened: \"Hier soir, je suis rentré tard. Il pleuvait. J'ai ouvert la porte et j'ai vu une lumière dans la cuisine.\" Turned into a third-person story: \"Ce soir-là, Karim rentra tard. Il pleuvait. Il ouvrit la porte et vit une lumière dans la cuisine.\"",
           "Each passé composé (auxiliary + participle) becomes a single passé simple form: \"est rentré\" → \"rentra\", \"a ouvert\" → \"ouvrit\", \"a vu\" → \"vit\". The imparfait doesn't change: \"il pleuvait\" stays. Time markers tied to the moment of speaking shift too: \"hier soir\" → \"ce soir-là\" or \"la veille au soir\", as in reported speech.",
           "Because there's no auxiliary, there's no participle agreement to worry about: \"elle est partie\" → \"elle partit\", \"ils se sont levés\" → \"ils se levèrent\". This is one place where the literary tense is actually simpler.",
         ],
@@ -862,7 +857,7 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in the passé simple: Elle est partie sans dire au revoir.",
+            prompt: "Translate into French (rewrite in the passé simple): \"Elle est partie sans dire au revoir.\"",
             source: "She left without saying goodbye.",
             answer: "Elle partit sans dire au revoir.",
             explanation: "\"Est partie\" → \"partit\": one word, no agreement.",
@@ -870,7 +865,7 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in the passé simple: Ils se sont assis et ils ont attendu.",
+            prompt: "Translate into French (rewrite in the passé simple): \"Ils se sont assis et ils ont attendu.\"",
             source: "They sat down and waited.",
             answer: "Ils s'assirent et attendirent.",
             altAnswers: ["Ils s'assirent et ils attendirent.", "Ils s'assirent puis attendirent."],
@@ -883,7 +878,7 @@ export const FR_C1_U06: Lesson[] = [
         body: [
           "Most anecdotes are told in the first person; tales are usually in the third. Changing person brings ripple effects: \"je\" → \"il / elle\" + name the first time, \"mon\" → \"son\", \"me\" → \"se\" for reflexive verbs, \"chez moi\" → \"chez lui\".",
           "Spoken tics disappear too: \"et là\", \"du coup\", \"en fait\", \"genre\" have no place in a tale. Replace them with literary connectors: \"alors\", \"soudain\", \"aussitôt\", \"c'est alors que\", \"au même instant\".",
-          "Example: « Et là, du coup, j'ai paniqué, j'ai pris mon téléphone et j'ai appelé ma sœur. » → « Alors, pris de panique, il saisit son téléphone et appela sa sœur. » Notice that a participle (\"pris de panique\", Unit 4) replaces a whole clause.",
+          "Example: \"Et là, du coup, j'ai paniqué, j'ai pris mon téléphone et j'ai appelé ma sœur.\" → \"Alors, pris de panique, il saisit son téléphone et appela sa sœur.\" Notice that a participle (\"pris de panique\", Unit 4) replaces a whole clause.",
         ],
         examples: [
           { es: "Et là, du coup, j'ai paniqué.", en: "And then, like, I panicked. (spoken)" },
@@ -897,7 +892,7 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite as a written tale about Léa: J'ai pris mon sac et je suis rentrée chez moi.",
+            prompt: "Translate into French (rewrite as a written tale about Léa): \"J'ai pris mon sac et je suis rentrée chez moi.\"",
             source: "Léa took her bag and went home.",
             answer: "Léa prit son sac et rentra chez elle.",
             explanation: "Person change (\"mon\" → \"son\", \"chez moi\" → \"chez elle\") and tense change (\"prit\", \"rentra\").",
@@ -908,13 +903,12 @@ export const FR_C1_U06: Lesson[] = [
             en: "[At that very moment], the light went out.",
             sentence: "___, la lumière s'éteignit.",
             answer: "Au même instant",
-            altAnswers: ["À cet instant", "À ce moment-là", "Soudain"],
+            altAnswers: ["À cet instant", "À ce moment-là"],
             explanation: "A literary connector replaces spoken \"et là\".",
           },
           {
             type: "speak",
             text: "C'est alors qu'elle entendit des pas dans l'escalier.",
-            prompt: "Read this sentence aloud.",
             explanation: "\"C'est alors que\" + passé simple: the classic turning point of a story.",
           },
         ],
@@ -922,7 +916,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         heading: "What stays the same",
         body: [
-          "Not everything changes. The imparfait stays (\"il faisait nuit\"). The plus-que-parfait stays for things that happened before the story's moment (\"il avait oublié ses clés\"), though Part 4 will add the passé antérieur for one special case. Direct speech inside quotation marks stays in the tense the character used: « J'ai perdu mes clés ! » cria-t-il. Characters speak in the passé composé even in a novel.",
+          "Not everything changes. The imparfait stays (\"il faisait nuit\"). The plus-que-parfait stays for things that happened before the story's moment (\"il avait oublié ses clés\"), though Part 4 will add the passé antérieur for one special case. Direct speech inside quotation marks stays in the tense the character used: \"« J'ai perdu mes clés ! » cria-t-il\". Characters speak in the passé composé even in a novel.",
           "The conditional and the future-in-the-past stay too: \"il savait qu'elle viendrait\". And the present for general truths: \"il comprit que l'argent ne fait pas le bonheur\" (present kept for a timeless truth).",
         ],
         examples: [
@@ -957,7 +951,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in the passé simple: Il a mis son manteau et il est sorti.",
+        prompt: "Translate into French (rewrite in the passé simple): \"Il a mis son manteau et il est sorti.\"",
         source: "He put on his coat and went out.",
         answer: "Il mit son manteau et sortit.",
         altAnswers: ["Il mit son manteau et il sortit."],
@@ -966,7 +960,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in the passé simple: Nous avons marché jusqu'au port.",
+        prompt: "Translate into French (rewrite in the passé simple): \"Nous avons marché jusqu'au port.\"",
         source: "We walked to the harbour.",
         answer: "Nous marchâmes jusqu'au port.",
         explanation: "Nous form: \"marchâmes\" with a circumflex.",
@@ -974,7 +968,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in the passé simple: Elles ont eu peur et elles se sont enfuies.",
+        prompt: "Translate into French (rewrite in the passé simple): \"Elles ont eu peur et elles se sont enfuies.\"",
         source: "They got scared and ran away.",
         answer: "Elles eurent peur et s'enfuirent.",
         altAnswers: ["Elles eurent peur et elles s'enfuirent."],
@@ -983,7 +977,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in the passé simple: Il a fait nuit tôt et il a commencé à pleuvoir.",
+        prompt: "Translate into French (rewrite in the passé simple): \"Il a fait nuit tôt et il a commencé à pleuvoir.\"",
         source: "It got dark early and it began to rain.",
         answer: "La nuit tomba tôt et il commença à pleuvoir.",
         altAnswers: ["Il fit nuit tôt et il commença à pleuvoir.", "La nuit tomba tôt et la pluie commença à tomber."],
@@ -992,7 +986,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite as a written tale about Thomas: Je suis arrivé à la gare et j'ai vu que mon train était parti.",
+        prompt: "Translate into French (rewrite as a written tale about Thomas): \"Je suis arrivé à la gare et j'ai vu que mon train était parti.\"",
         source: "Thomas arrived at the station and saw that his train had left.",
         answer: "Thomas arriva à la gare et vit que son train était parti.",
         explanation: "Events → passé simple; the earlier event stays pluperfect (\"était parti\").",
@@ -1015,7 +1009,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in the passé simple: Ils ont dû attendre deux heures.",
+        prompt: "Translate into French (rewrite in the passé simple): \"Ils ont dû attendre deux heures.\"",
         source: "They had to wait two hours.",
         answer: "Ils durent attendre deux heures.",
         altAnswers: ["Elles durent attendre deux heures."],
@@ -1036,7 +1030,6 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "speak",
         text: "Ce soir-là, Karim rentra tard. Il pleuvait.",
-        prompt: "Read the opening of this story aloud.",
         explanation: "Passé simple for the event, imparfait for the weather.",
       },
     ],
@@ -1052,7 +1045,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         heading: "Three voices on the page",
         body: [
-          "A novel can give you a character's words in three ways. Direct speech, in quotation marks with a reporting verb: « Je partirai demain », dit-elle. Indirect speech, introduced by a reporting verb and \"que\", with the tense shifts you learned at the Upper-intermediate level: Elle dit qu'elle partirait le lendemain. And free indirect style, the subject of Part 5: no quotation marks, no reporting verb, but the character's own words and feelings come through the narration: Elle partirait demain. C'était décidé.",
+          "A novel can give you a character's words in three ways. Direct speech, in quotation marks with a reporting verb: \"« Je partirai demain », dit-elle.\" Indirect speech, introduced by a reporting verb and \"que\", with the tense shifts you learned at the Upper-intermediate level: \"Elle dit qu'elle partirait le lendemain.\" And free indirect style, the subject of Part 5: no quotation marks, no reporting verb, but the character's own words and feelings come through the narration: \"Elle partirait demain. C'était décidé.\"",
           "In the third version, who says \"c'était décidé\"? Not the narrator: it's the character's thought, in the narrator's tenses. Recognising this blend is a DALF reading skill: questions often ask what a character thinks versus what the narrator states.",
         ],
         examples: [
@@ -1117,7 +1110,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         heading: "A longer extract",
         body: [
-          "Read this extract and track the voices: « Claire referma la porte derrière elle et posa son sac. L'appartement était froid. Elle avait encore oublié de baisser les volets, évidemment. Quelle journée ! Le directeur l'avait convoquée à dix-sept heures, comme une écolière. Et maintenant ? Elle devrait tout recommencer, chercher un autre poste, expliquer à ses parents... Elle s'assit sur le canapé et ferma les yeux. »",
+          "Read this extract and track the voices: \"Claire referma la porte derrière elle et posa son sac. L'appartement était froid. Elle avait encore oublié de baisser les volets, évidemment. Quelle journée ! Le directeur l'avait convoquée à dix-sept heures, comme une écolière. Et maintenant ? Elle devrait tout recommencer, chercher un autre poste, expliquer à ses parents... Elle s'assit sur le canapé et ferma les yeux.\"",
           "Narrator: \"referma\", \"posa\", \"l'appartement était froid\", \"s'assit\", \"ferma\". Claire's voice: \"évidemment\", \"Quelle journée !\", \"comme une écolière\" (her bitterness), \"Et maintenant ?\", \"Elle devrait tout recommencer...\" (her thoughts in the conditional). The boundary between them is fluid: that fluidity is the point of the technique.",
         ],
         examples: [
@@ -1138,7 +1131,6 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "speak",
             text: "Et maintenant ? Elle devrait tout recommencer.",
-            prompt: "Read Claire's thought aloud, with feeling.",
             explanation: "Free indirect style: a question and a conditional carrying the character's despair.",
           },
         ],
@@ -1319,7 +1311,6 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "speak",
             text: "À peine eut-il fermé la porte que le téléphone sonna.",
-            prompt: "Read this sentence aloud.",
             tip: "Make the liaison in \"eut-il\": eu-til.",
             explanation: "Passé antérieur with inversion after \"à peine\", then \"que\" + passé simple.",
           },
@@ -1461,7 +1452,7 @@ export const FR_C1_U06: Lesson[] = [
         heading: "How it's built",
         body: [
           "Free indirect style (le style indirect libre) is a hybrid. From indirect speech it takes the third person and the tense shifts you learned at the Upper-intermediate level: present → imparfait, future → conditional, passé composé → plus-que-parfait. From direct speech it keeps the character's sentence types and words: exclamations, questions, interjections, \"demain\", \"ici\", familiar vocabulary. And it drops the reporting verb and \"que\" entirely.",
-          "Build it in three steps from direct speech: « Je partirai demain. Quelle folie ! Pourquoi est-ce que je l'ai cru ? » pensa-t-elle. 1) Third person: elle partira... 2) Tense shifts: elle partirait... l'avait-elle cru... 3) Remove the reporting frame: Elle partirait demain. Quelle folie ! Pourquoi l'avait-elle cru ?",
+          "Build it in three steps from direct speech: \"« Je partirai demain. Quelle folie ! Pourquoi est-ce que je l'ai cru ? » pensa-t-elle.\" 1) Third person: \"elle partira...\" 2) Tense shifts: \"elle partirait... l'avait-elle cru...\" 3) Remove the reporting frame: \"Elle partirait demain. Quelle folie ! Pourquoi l'avait-elle cru ?\"",
           "Notice that the question keeps its inversion (\"l'avait-elle cru\"), unlike in indirect speech (\"elle se demanda pourquoi elle l'avait cru\", no inversion). And \"demain\" stays \"demain\", not \"le lendemain\": we're inside the character's head.",
         ],
         examples: [
@@ -1476,7 +1467,7 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Convert to free indirect style: « Je ne reviendrai jamais ! » pensa-t-il.",
+            prompt: "Translate into French (convert to free indirect style): \"« Je ne reviendrai jamais ! » pensa-t-il.\"",
             source: "He would never come back!",
             answer: "Il ne reviendrait jamais !",
             explanation: "Third person + future → conditional, keep the exclamation, drop \"pensa-t-il\".",
@@ -1495,7 +1486,7 @@ export const FR_C1_U06: Lesson[] = [
         heading: "What it does: closeness and irony",
         body: [
           "Why do writers love it? It lets the reader slide into a character's mind without the heavy machinery of \"il pensa que\", and it creates a double voice: the reader hears the character, but through the narrator. Flaubert made it famous in \"Madame Bovary\": Emma's romantic clichés appear in her own words, and the narrator's silent irony frames them.",
-          "Example in Flaubert's manner: « Elle voulait mourir, et elle voulait habiter Paris. Paris ! Comme ce serait beau ! Elle aurait une calèche, des robes de soie, un salon où l'on parlerait de poésie... » Whose dream is it? Emma's. Who is gently mocking it? The narrator, by letting the clichés run on.",
+          "Example in Flaubert's manner: \"Elle voulait mourir, et elle voulait habiter Paris. Paris ! Comme ce serait beau ! Elle aurait une calèche, des robes de soie, un salon où l'on parlerait de poésie...\" Whose dream is it? Emma's. Who is gently mocking it? The narrator, by letting the clichés run on.",
           "In modern fiction and even journalism (portraits, long-form reportage), free indirect style is everywhere, often mixed with the present tense. At the Advanced level you should recognise it reliably and be able to use it for a few sentences.",
         ],
         examples: [
@@ -1544,7 +1535,7 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Convert to free indirect style: Il se demanda s'il pourrait un jour lui pardonner.",
+            prompt: "Translate into French (convert to free indirect style): \"Il se demanda s'il pourrait un jour lui pardonner.\"",
             source: "Would he ever be able to forgive her?",
             answer: "Pourrait-il un jour lui pardonner ?",
             altAnswers: ["Pourrait-il jamais lui pardonner ?"],
@@ -1553,7 +1544,6 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "speak",
             text: "Maintenant, tout était fini.",
-            prompt: "Read this line aloud.",
             explanation: "\"Maintenant\" with an imparfait: the character's present seen through the narrative past.",
           },
         ],
@@ -1563,7 +1553,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to free indirect style: « Je suis libre ! Enfin libre ! » pensa-t-elle.",
+        prompt: "Translate into French (convert to free indirect style): \"« Je suis libre ! Enfin libre ! » pensa-t-elle.\"",
         source: "She was free! Free at last!",
         answer: "Elle était libre ! Enfin libre !",
         explanation: "Third person, present → imparfait, exclamations kept, reporting verb dropped.",
@@ -1571,7 +1561,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to free indirect style: « Est-ce que je vais rater mon train ? » se demanda-t-il.",
+        prompt: "Translate into French (convert to free indirect style): \"« Est-ce que je vais rater mon train ? » se demanda-t-il.\"",
         source: "Was he going to miss his train?",
         answer: "Allait-il rater son train ?",
         altAnswers: ["Allait-il manquer son train ?"],
@@ -1580,7 +1570,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to free indirect style: Elle se dit qu'elle ne le reverrait jamais.",
+        prompt: "Translate into French (convert to free indirect style): \"Elle se dit qu'elle ne le reverrait jamais.\"",
         source: "She would never see him again.",
         answer: "Elle ne le reverrait jamais.",
         altAnswers: ["Jamais elle ne le reverrait.", "Elle ne le reverrait plus jamais."],
@@ -1604,7 +1594,7 @@ export const FR_C1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the free indirect version of « Je n'en peux plus ! » soupira Léa?",
+        question: "Which is the free indirect version of \"« Je n'en peux plus ! » soupira Léa\"?",
         options: ["Léa n'en pouvait plus !", "Léa soupira qu'elle n'en pouvait plus.", "« Elle n'en peut plus ! » soupira Léa.", "Léa n'en put plus."],
         correctIndex: 0,
         explanation: "Third person, imparfait, exclamation kept, no reporting verb.",
@@ -1641,7 +1631,6 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "speak",
         text: "Paris ! Comme ce serait beau !",
-        prompt: "Say Emma's dream aloud, with feeling.",
         explanation: "Exclamations and the conditional carry the character's fantasy.",
       },
     ],
@@ -1657,9 +1646,9 @@ export const FR_C1_U06: Lesson[] = [
       {
         heading: "The raw scene",
         body: [
-          "Here's a scene written flatly, with every thought reported: « Thomas regarda son téléphone. Il pensa : \"Elle n'a toujours pas répondu. Est-ce qu'elle est fâchée ?\" Il se demanda s'il devait l'appeler. Il se dit qu'il ne le ferait pas, qu'il avait sa fierté. »",
+          "Here's a scene written flatly, with every thought reported: \"Thomas regarda son téléphone. Il pensa : « Elle n'a toujours pas répondu. Est-ce qu'elle est fâchée ? » Il se demanda s'il devait l'appeler. Il se dit qu'il ne le ferait pas, qu'il avait sa fierté.\"",
           "It's correct but clumsy: \"il pensa\", \"il se demanda\", \"il se dit\" pile up. Free indirect style will cut the scaffolding and bring us into Thomas's head.",
-          "Rewrite: « Thomas regarda son téléphone. Elle n'avait toujours pas répondu. Était-elle fâchée ? Devait-il l'appeler ? Non, il ne le ferait pas. Il avait sa fierté, tout de même. » Every reporting verb is gone; the narration flows straight into Thomas's thoughts.",
+          "Rewrite: \"Thomas regarda son téléphone. Elle n'avait toujours pas répondu. Était-elle fâchée ? Devait-il l'appeler ? Non, il ne le ferait pas. Il avait sa fierté, tout de même.\" Every reporting verb is gone; the narration flows straight into Thomas's thoughts.",
         ],
         examples: [
           { es: "Thomas regarda son téléphone.", en: "Thomas looked at his phone." },
@@ -1673,7 +1662,7 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Convert to free indirect style: Il pensa : \"Elle n'a toujours pas répondu.\"",
+            prompt: "Translate into French (convert to free indirect style): \"Il pensa : « Elle n'a toujours pas répondu. »\"",
             source: "She still hadn't replied.",
             answer: "Elle n'avait toujours pas répondu.",
             explanation: "Passé composé → plus-que-parfait, no reporting verb.",
@@ -1681,7 +1670,7 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Convert to free indirect style: Il se demanda s'il devait l'appeler.",
+            prompt: "Translate into French (convert to free indirect style): \"Il se demanda s'il devait l'appeler.\"",
             source: "Should he call her?",
             answer: "Devait-il l'appeler ?",
             altAnswers: ["Fallait-il l'appeler ?"],
@@ -1693,7 +1682,7 @@ export const FR_C1_U06: Lesson[] = [
         heading: "Adding the character's colour",
         body: [
           "Free indirect style gets its life from the character's words. Add markers that belong to Thomas, not the narrator: an interjection (\"Bon\", \"Tant pis\", \"Ah non\"), a familiar term (\"ce n'était quand même pas sa faute\"), an evaluative adverb (\"évidemment\", \"forcément\"), an unfinished thought (\"Et si elle...\").",
-          "Continuing the scene: « Bon. Il attendrait demain. De toute façon, ce n'était pas lui qui avait commencé. Et puis, si elle tenait vraiment à lui, elle finirait bien par écrire. Forcément. Il posa son téléphone et alluma la télévision. »",
+          "Continuing the scene: \"Bon. Il attendrait demain. De toute façon, ce n'était pas lui qui avait commencé. Et puis, si elle tenait vraiment à lui, elle finirait bien par écrire. Forcément. Il posa son téléphone et alluma la télévision.\"",
           "Notice the last sentence returns to plain narration (\"posa\", \"alluma\" in the passé simple). The alternation between narrator and character is what makes the passage readable.",
         ],
         examples: [
@@ -1725,7 +1714,6 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "speak",
             text: "Bon. Il attendrait demain.",
-            prompt: "Read Thomas's thought aloud.",
             explanation: "\"Bon\" (his interjection) + conditional (his decision).",
           },
         ],
@@ -1767,7 +1755,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to free indirect style: Elle pensa : \"Il ne viendra pas.\"",
+        prompt: "Translate into French (convert to free indirect style): \"Elle pensa : « Il ne viendra pas. »\"",
         source: "He wouldn't come.",
         answer: "Il ne viendrait pas.",
         explanation: "Future → conditional; reporting verb removed.",
@@ -1775,7 +1763,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to free indirect style: Il se demanda : \"Qu'est-ce que je vais dire à mes parents ?\"",
+        prompt: "Translate into French (convert to free indirect style): \"Il se demanda : « Qu'est-ce que je vais dire à mes parents ? »\"",
         source: "What was he going to tell his parents?",
         answer: "Qu'allait-il dire à ses parents ?",
         altAnswers: ["Que dirait-il à ses parents ?"],
@@ -1784,7 +1772,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to free indirect style: Elle se dit qu'elle n'avait rien à perdre.",
+        prompt: "Translate into French (convert to free indirect style): \"Elle se dit qu'elle n'avait rien à perdre.\"",
         source: "After all, she had nothing to lose!",
         answer: "Après tout, elle n'avait rien à perdre !",
         altAnswers: ["Elle n'avait rien à perdre, après tout !", "Après tout, elle n'avait rien à perdre."],
@@ -1862,7 +1850,7 @@ export const FR_C1_U06: Lesson[] = [
         heading: "The core four",
         body: [
           "A written story in the past has four main tenses, each with a clear role. Passé simple: the events in sequence (\"il entra\"). Imparfait: the background, states, habits, ongoing actions (\"il pleuvait\"). Plus-que-parfait: what had happened before the story's moment, flashbacks, explanations (\"il avait perdu sa femme deux ans plus tôt\"). Passé antérieur: an action completed just before the next event, in a time clause (\"quand il eut fini\").",
-          "Here they are together: « Il était tard. Marc avait passé la journée à attendre. Quand il eut enfin reçu le message, il prit sa veste et sortit. » Imparfait (setting), plus-que-parfait (earlier background), passé antérieur (immediately prior), passé simple (events).",
+          "Here they are together: \"Il était tard. Marc avait passé la journée à attendre. Quand il eut enfin reçu le message, il prit sa veste et sortit.\" Imparfait (setting), plus-que-parfait (earlier background), passé antérieur (immediately prior), passé simple (events).",
         ],
         examples: [
           { es: "Il était tard.", en: "It was late." },
@@ -1951,7 +1939,6 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "speak",
             text: "Le 6 juin 1944, les Alliés débarquaient en Normandie.",
-            prompt: "Read this sentence from a history book aloud.",
             explanation: "Narrative imparfait: a dated event in slow motion.",
           },
         ],
@@ -1989,8 +1976,8 @@ export const FR_C1_U06: Lesson[] = [
         prompt: "Translate into French, using the narrative imparfait.",
         source: "A week later, the factory closed its doors.",
         answer: "Une semaine plus tard, l'usine fermait ses portes.",
-        altAnswers: ["Une semaine après, l'usine fermait ses portes.", "Une semaine plus tard, l'usine ferma ses portes."],
-        explanation: "Narrative imparfait with a precise time marker (the passé simple \"ferma\" is also correct).",
+        altAnswers: ["Une semaine après, l'usine fermait ses portes."],
+        explanation: "Narrative imparfait with a precise time marker: the event is presented as a frozen image. In ordinary narration the passé simple \"ferma\" would also be correct, but here the prompt asks for the imparfait.",
       },
       {
         type: "fill-blank",
@@ -2094,10 +2081,10 @@ export const FR_C1_U06: Lesson[] = [
       {
         heading: "The inverted incise",
         body: [
-          "When the reporting verb comes after or inside the quotation, French inverts subject and verb: « Viens », dit-il. Never *« Viens », il dit. English has 'said he' only in old texts; French requires the inversion in all correct writing.",
+          "When the reporting verb comes after or inside the quotation, French inverts subject and verb: \"« Viens », dit-il.\" Never \"*« Viens », il dit.\" English has 'said he' only in old texts; French requires the inversion in all correct writing.",
           "With a pronoun subject, add a hyphen, and a -t- between vowels: \"dit-il\", \"répondit-elle\", \"demanda-t-il\", \"s'écria-t-elle\", \"ajouta-t-on\". With a noun subject, the noun simply follows the verb: \"dit Marie\", \"répondit le médecin\", \"s'étonna sa mère\" (no pronoun added, unlike questions).",
-          "Compound tenses invert the auxiliary: « Pourquoi ? » a-t-elle demandé (in a passé composé narrative). Pronominal verbs keep the reflexive before: \"s'exclama-t-il\", \"s'enquit-elle\".",
-          "In spoken French and casual writing you'll hear « Viens », qu'il m'a dit: that's colloquial (and stigmatised in writing).",
+          "Compound tenses invert the auxiliary: \"« Pourquoi ? » a-t-elle demandé\" (in a passé composé narrative). Pronominal verbs keep the reflexive before: \"s'exclama-t-il\", \"s'enquit-elle\".",
+          "In spoken French and casual writing you'll hear \"« Viens », qu'il m'a dit\": that's colloquial (and stigmatised in writing).",
         ],
         examples: [
           { es: "« Viens », dit-il.", en: "\"Come,\" he said." },
@@ -2127,7 +2114,6 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "speak",
             text: "« Non », répliqua-t-elle sèchement.",
-            prompt: "Read this line of dialogue aloud.",
             tip: "Pronounce the -t-: ré-pli-qua-t-elle.",
             explanation: "The euphonic -t- links two vowels in the inversion.",
           },
@@ -2136,8 +2122,8 @@ export const FR_C1_U06: Lesson[] = [
       {
         heading: "Precision and nuance",
         body: [
-          "Some verbs carry the narrator's judgement. \"Prétendre\" suggests the claim is doubtful: « Je n'étais pas là », prétendit-il (he claimed). \"Affirmer\" is neutral-to-confident. \"Avouer\" implies something shameful. \"Concéder\" means conceding a point. \"Insinuer\" implies a hidden meaning.",
-          "Verbs that aren't strictly verbs of speech can also be used, for effect: « Encore toi ! » sourit-elle (she said with a smile), « Tant pis », haussa-t-il les épaules is wrong though: only verbs that can plausibly introduce speech work. Safe extended verbs: \"sourire\", \"soupirer\", \"ricaner\", \"sangloter\", \"s'impatienter\".",
+          "Some verbs carry the narrator's judgement. \"Prétendre\" suggests the claim is doubtful: \"« Je n'étais pas là », prétendit-il\" (he claimed). \"Affirmer\" is neutral-to-confident. \"Avouer\" implies something shameful. \"Concéder\" means conceding a point. \"Insinuer\" implies a hidden meaning.",
+          "Verbs that aren't strictly verbs of speech can also be used, for effect: \"« Encore toi ! » sourit-elle\" (she said with a smile), \"« Tant pis », haussa-t-il les épaules\" is wrong though: only verbs that can plausibly introduce speech work. Safe extended verbs: \"sourire\", \"soupirer\", \"ricaner\", \"sangloter\", \"s'impatienter\".",
           "Watch the false friend \"prétendre\": it means to claim, not to pretend (\"faire semblant\").",
         ],
         examples: [
@@ -2215,7 +2201,7 @@ export const FR_C1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does « Je n'ai rien vu », prétendit-elle suggest?",
+        question: "What does \"« Je n'ai rien vu », prétendit-elle\" suggest?",
         options: ["The narrator doubts her claim.", "She was pretending to be blind.", "She admitted seeing nothing, honestly.", "She whispered it."],
         correctIndex: 0,
         explanation: "\"Prétendre\" = to claim, with an implication of doubt; 'to pretend' is \"faire semblant\".",
@@ -2290,7 +2276,6 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "speak",
             text: "Elle ne dirait rien. À quoi bon ?",
-            prompt: "Read this character's thought aloud.",
             explanation: "Conditional + a rhetorical question: free indirect style.",
           },
         ],
@@ -2298,7 +2283,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         heading: "Warm-up: three voices",
         body: [
-          "Same thought, three styles. Direct: « Je ne dirai rien », pensa-t-elle. Indirect: Elle pensa qu'elle ne dirait rien. Free indirect: Elle ne dirait rien. Each choice changes how close the reader stands to the character.",
+          "Same thought, three styles. Direct: \"« Je ne dirai rien », pensa-t-elle.\" Indirect: \"Elle pensa qu'elle ne dirait rien.\" Free indirect: \"Elle ne dirait rien.\" Each choice changes how close the reader stands to the character.",
         ],
         examples: [
           { es: "« Je ne dirai rien », pensa-t-elle.", en: "\"I won't say anything,\" she thought." },
@@ -2311,7 +2296,7 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Convert to free indirect style: « Pourquoi moi ? » se demanda-t-il.",
+            prompt: "Translate into French (convert to free indirect style): \"« Pourquoi moi ? » se demanda-t-il.\"",
             source: "Why him?",
             answer: "Pourquoi lui ?",
             explanation: "First person \"moi\" becomes third person \"lui\"; no reporting verb.",
@@ -2349,7 +2334,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to free indirect style: « Je ne lui pardonnerai jamais ! » pensa Sophie.",
+        prompt: "Translate into French (convert to free indirect style): \"« Je ne lui pardonnerai jamais ! » pensa Sophie.\"",
         source: "She would never forgive him!",
         answer: "Elle ne lui pardonnerait jamais !",
         altAnswers: ["Jamais elle ne lui pardonnerait !"],
@@ -2358,7 +2343,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to free indirect style: Il se demanda s'il avait fait le bon choix.",
+        prompt: "Translate into French (convert to free indirect style): \"Il se demanda s'il avait fait le bon choix.\"",
         source: "Had he made the right choice?",
         answer: "Avait-il fait le bon choix ?",
         explanation: "Question restored with inversion in the plus-que-parfait.",
@@ -2444,9 +2429,9 @@ export const FR_C1_U06: Lesson[] = [
       {
         heading: "The competition brief",
         body: [
-          "A regional library runs a competition, « Nouvelles en 250 mots », on the theme \"Le dernier train\". The rules: third person, past tense, a single scene, a twist or revelation at the end. You'll write it in the literary tenses: passé simple for events, imparfait for setting, plus-que-parfait for backstory, and one passage in free indirect style.",
+          "A regional library runs a competition, \"Nouvelles en 250 mots\", on the theme \"Le dernier train\". The rules: third person, past tense, a single scene, a twist or revelation at the end. You'll write it in the literary tenses: passé simple for events, imparfait for setting, plus-que-parfait for backstory, and one passage in free indirect style.",
           "Plan in four beats: 1) the setting (imparfait), 2) the trigger event (passé simple, often with \"soudain\" or \"c'est alors que\"), 3) the character's inner reaction (free indirect style), 4) the final action or revelation (passé simple, maybe a narrative imparfait for the last line).",
-          "Here's a model opening: « La gare de Clermont était presque vide. Une pluie fine tombait sur les quais, et l'horloge indiquait vingt-trois heures quarante. Claire attendait depuis une heure. Elle avait raté le rendez-vous, elle le savait. »",
+          "Here's a model opening: \"La gare de Clermont était presque vide. Une pluie fine tombait sur les quais, et l'horloge indiquait vingt-trois heures quarante. Claire attendait depuis une heure. Elle avait raté le rendez-vous, elle le savait.\"",
         ],
         examples: [
           { es: "La gare était presque vide.", en: "The station was almost empty." },
@@ -2478,7 +2463,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         heading: "The middle: dialogue and inner voice",
         body: [
-          "Continue the model: « \"Vous attendez le dernier train ?\" demanda-t-il. Elle hocha la tête sans le regarder. Ce visage... Elle le connaissait. Mais d'où ? Du lycée ? De l'hôpital ? Non, c'était impossible. »",
+          "Continue the model: \"« Vous attendez le dernier train ? » demanda-t-il. Elle hocha la tête sans le regarder. Ce visage... Elle le connaissait. Mais d'où ? Du lycée ? De l'hôpital ? Non, c'était impossible.\"",
           "The dialogue uses an inverted incise (\"demanda-t-il\"). Then the narration slips into Claire's head: the suspension points, the questions, \"Non, c'était impossible\". No \"elle se demanda\". A short burst of free indirect style creates suspense far better than a reported thought.",
           "In your story, keep dialogue short: two or three lines, each with an incise that adds information (\"murmura-t-elle\", \"insista-t-il\").",
         ],
@@ -2502,7 +2487,6 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "speak",
             text: "« Vous attendez le dernier train ? » demanda-t-il.",
-            prompt: "Read this line of dialogue aloud.",
             explanation: "Inverted incise after a question.",
           },
         ],
@@ -2510,8 +2494,8 @@ export const FR_C1_U06: Lesson[] = [
       {
         heading: "The ending",
         body: [
-          "End with an action and a revelation, in the passé simple, possibly with a passé antérieur just before: « Quand le train fut entré en gare, l'homme se leva. Il lui tendit une enveloppe jaunie. Claire reconnut sa propre écriture : c'était la lettre qu'elle avait écrite à son père, trente ans plus tôt, et qu'il n'avait jamais reçue. »",
-          "A final narrative imparfait can add a cinematic freeze: « Le lendemain, Claire prenait le premier train pour Vichy. » Count your words: 250 goes fast. Cut adjectives before you cut tenses.",
+          "End with an action and a revelation, in the passé simple, possibly with a passé antérieur just before: \"Quand le train fut entré en gare, l'homme se leva. Il lui tendit une enveloppe jaunie. Claire reconnut sa propre écriture : c'était la lettre qu'elle avait écrite à son père, trente ans plus tôt, et qu'il n'avait jamais reçue.\"",
+          "A final narrative imparfait can add a cinematic freeze: \"Le lendemain, Claire prenait le premier train pour Vichy.\" Count your words: 250 goes fast. Cut adjectives before you cut tenses.",
           "Checklist: passé simple for events; imparfait for setting; plus-que-parfait for backstory; one passé antérieur; one free indirect passage; two inverted incises with precise verbs; no \"je\" outside quotation marks.",
         ],
         examples: [
@@ -2641,7 +2625,7 @@ export const FR_C1_U06: Lesson[] = [
         heading: "Reported speech in a literary past",
         body: [
           "At the Upper-intermediate level you learned indirect speech with a reporting verb in the passé composé: \"il a dit qu'il viendrait\". In literary narration the reporting verb is in the passé simple, and the same backshift applies: present → imparfait, passé composé → plus-que-parfait, future → conditionnel, future perfect → conditionnel passé. Time markers shift too: \"demain\" → \"le lendemain\", \"hier\" → \"la veille\", \"ici\" → \"là\".",
-          "« Je reviendrai demain », dit-il → Il dit qu'il reviendrait le lendemain. « J'ai tout perdu hier » → Elle avoua qu'elle avait tout perdu la veille. « Est-ce que tu viens ? » → Il lui demanda si elle venait. « Partez ! » → Il leur ordonna de partir.",
+          "\"« Je reviendrai demain », dit-il\" → \"Il dit qu'il reviendrait le lendemain.\" \"« J'ai tout perdu hier »\" → \"Elle avoua qu'elle avait tout perdu la veille.\" \"« Est-ce que tu viens ? »\" → \"Il lui demanda si elle venait.\" \"« Partez ! »\" → \"Il leur ordonna de partir.\"",
         ],
         examples: [
           { es: "Il dit qu'il reviendrait le lendemain.", en: "He said he would come back the next day." },
@@ -2655,7 +2639,7 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Convert to indirect speech (literary): « J'ai tout perdu hier », avoua-t-elle.",
+            prompt: "Translate into French (convert to literary indirect speech): \"« J'ai tout perdu hier », avoua-t-elle.\"",
             source: "She admitted she had lost everything the day before.",
             answer: "Elle avoua qu'elle avait tout perdu la veille.",
             explanation: "Passé composé → plus-que-parfait; \"hier\" → \"la veille\".",
@@ -2663,7 +2647,7 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Convert to indirect speech (literary): « Qu'est-ce qui s'est passé ? » demanda-t-elle.",
+            prompt: "Translate into French (convert to literary indirect speech): \"« Qu'est-ce qui s'est passé ? » demanda-t-elle.\"",
             source: "She asked what had happened.",
             answer: "Elle demanda ce qui s'était passé.",
             explanation: "\"Qu'est-ce qui\" → \"ce qui\", passé composé → plus-que-parfait, no inversion.",
@@ -2674,7 +2658,7 @@ export const FR_C1_U06: Lesson[] = [
         heading: "Choosing between the three styles",
         body: [
           "Direct speech dramatises: we hear the exact words. Indirect speech summarises and lets the narrator control things. Free indirect style puts us in the character's mind. Good narration alternates: a line of dialogue for the key moment, indirect speech for the routine exchanges, free indirect style for inner reactions.",
-          "« Il lui demanda si elle était libre le samedi suivant. Libre ? Elle n'avait rien de prévu depuis des mois ! \"Peut-être\", répondit-elle prudemment. » Indirect question, free indirect exclamation, direct speech with a precise incise.",
+          "\"Il lui demanda si elle était libre le samedi suivant. Libre ? Elle n'avait rien de prévu depuis des mois ! « Peut-être », répondit-elle prudemment.\" Indirect question, free indirect exclamation, direct speech with a precise incise.",
         ],
         examples: [
           { es: "Il lui demanda si elle était libre le samedi suivant.", en: "He asked her if she was free the following Saturday." },
@@ -2695,7 +2679,6 @@ export const FR_C1_U06: Lesson[] = [
           {
             type: "speak",
             text: "Libre ? Elle n'avait rien de prévu depuis des mois !",
-            prompt: "Read this character's reaction aloud.",
             explanation: "Free indirect style: her own surprise in the narrative tense.",
           },
         ],
@@ -2703,7 +2686,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         heading: "From an interview to a portrait",
         body: [
-          "Journalists writing a portrait turn interviews into narrative, mixing all three styles and often the historic present. A quote: « Je suis arrivée à Paris à dix-neuf ans, sans un sou. » In a portrait: \"Elle arrive à Paris à dix-neuf ans, sans un sou. Sans un sou, mais avec une certitude : elle serait comédienne.\" The last clause is free indirect style inside a present-tense narrative.",
+          "Journalists writing a portrait turn interviews into narrative, mixing all three styles and often the historic present. A quote: \"Je suis arrivée à Paris à dix-neuf ans, sans un sou.\" In a portrait: \"Elle arrive à Paris à dix-neuf ans, sans un sou. Sans un sou, mais avec une certitude : elle serait comédienne.\" The last clause is free indirect style inside a present-tense narrative.",
           "In a biography in the passé simple: \"Elle arriva à Paris à dix-neuf ans. Elle racontait souvent qu'elle n'avait alors pas un sou en poche.\" (indirect speech with an imparfait of habit for 'she often said').",
         ],
         examples: [
@@ -2738,7 +2721,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to indirect speech (literary): « Je partirai demain », annonça-t-il.",
+        prompt: "Translate into French (convert to literary indirect speech): \"« Je partirai demain », annonça-t-il.\"",
         source: "He announced he would leave the next day.",
         answer: "Il annonça qu'il partirait le lendemain.",
         explanation: "Future → conditional; \"demain\" → \"le lendemain\".",
@@ -2746,7 +2729,7 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to indirect speech (literary): « Où étiez-vous hier soir ? » demanda l'inspecteur.",
+        prompt: "Translate into French (convert to literary indirect speech): \"« Où étiez-vous hier soir ? » demanda l'inspecteur.\"",
         source: "The inspector asked where they had been the previous evening.",
         answer: "L'inspecteur demanda où ils avaient été la veille au soir.",
         altAnswers: ["L'inspecteur leur demanda où ils avaient été la veille au soir.", "L'inspecteur demanda où ils étaient la veille au soir.", "L'inspecteur lui demanda où il avait été la veille au soir.", "L'inspecteur lui demanda où il était la veille au soir."],
@@ -2755,16 +2738,16 @@ export const FR_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to indirect speech (literary): « Ne touchez à rien ! » cria le gardien.",
+        prompt: "Translate into French (convert to literary indirect speech): \"« Ne touchez à rien ! » cria le gardien.\"",
         source: "The guard shouted at them not to touch anything.",
         answer: "Le gardien leur cria de ne toucher à rien.",
         altAnswers: ["Le gardien leur ordonna de ne toucher à rien.", "Le gardien cria de ne toucher à rien."],
-        explanation: "Imperative → \"de\" + infinitive; \"ne... rien\" both before \"toucher\" except \"rien\" after the verb with \"à\": \"ne toucher à rien\".",
+        explanation: "Imperative → \"de\" + infinitive. With \"toucher à\", \"rien\" follows the preposition, so only \"ne\" comes before the infinitive: \"de ne toucher à rien\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Convert to free indirect style: Elle se demanda : « Est-ce qu'il m'aime encore ? »",
+        prompt: "Translate into French (convert to free indirect style): \"Elle se demanda : « Est-ce qu'il m'aime encore ? »\"",
         source: "Did he still love her?",
         answer: "L'aimait-il encore ?",
         explanation: "Third person, imparfait, inversion, no reporting verb.",
@@ -2788,7 +2771,7 @@ export const FR_C1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the correct indirect version of « Est-ce que vous avez compris ? » demanda le professeur?",
+        question: "Which is the correct indirect version of \"« Est-ce que vous avez compris ? » demanda le professeur\"?",
         options: ["Le professeur demanda s'ils avaient compris.", "Le professeur demanda est-ce qu'ils avaient compris.", "Le professeur demanda avaient-ils compris.", "Le professeur demanda que ils avaient compris."],
         correctIndex: 0,
         explanation: "Yes/no question → \"si\" (\"s'ils\"), no est-ce que, no inversion.",

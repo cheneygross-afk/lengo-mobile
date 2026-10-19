@@ -138,9 +138,9 @@ export const PT_A2_U21_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The friend I travelled with lost her passport.",
+        prompt: "Put the words in order to say: The friend I traveled with lost her passport.",
         words: ["A", "amiga", "com", "quem", "eu", "viajei", "perdeu", "o", "passaporte."],
-        translation: "The friend I travelled with lost her passport.",
+        translation: "The friend I traveled with lost her passport.",
         explanation: "\"Com quem\" right after the noun; \"perdeu\" for the event.",
       },
       {
@@ -155,13 +155,13 @@ export const PT_A2_U21_EXTRA: Lesson[] = [
         audio: "Quando eu era pequeno, a gente passava as férias numa fazenda.",
         question: "What does it mean?",
         options: [
-          "When I was little, we spent our holidays on a farm.",
-          "When I was little, we spent one holiday on a farm.",
+          "When I was little, we spent our vacations on a farm.",
+          "When I was little, we spent one vacation on a farm.",
           "When I was little, we lived on a farm.",
-          "We're going to spend our holidays on a farm.",
+          "We're going to spend our vacations on a farm.",
         ],
         correctIndex: 0,
-        explanation: "\"Passava\" is a repeated habit; one single holiday would be \"passou\".",
+        explanation: "\"Passava\" is a repeated habit; one single vacation would be \"passou\".",
       },
       {
         type: "dictation",
@@ -195,7 +195,7 @@ export const PT_A2_U21_EXTRA: Lesson[] = [
         examples: [
           { es: "Estudo inglês há dez anos e ainda erro.", en: "I've been studying English for ten years and I still make mistakes." },
           { es: "Ela ficou feliz com a notícia.", en: "She was happy about the news." },
-          { es: "Você pode levar o lixo para fora?", en: "Can you take the rubbish out?" },
+          { es: "Você pode levar o lixo para fora?", en: "Can you take the trash out?" },
           { es: "Pedi um copo de água ao garçom.", en: "I asked the waiter for a glass of water." },
           { es: "Não comprei nada no shopping.", en: "I didn't buy anything at the mall." },
         ],
@@ -246,7 +246,7 @@ export const PT_A2_U21_EXTRA: Lesson[] = [
         source: "Can you bring me a towel?",
         answer: "Você pode me trazer uma toalha?",
         altAnswers: ["Pode me trazer uma toalha?", "O senhor pode me trazer uma toalha?", "A senhora pode me trazer uma toalha?", "Me traz uma toalha?", "Você me traz uma toalha?"],
-        explanation: "Towards you: \"trazer\". \"Me\" goes before the infinitive.",
+        explanation: "Toward you: \"trazer\". \"Me\" goes before the infinitive.",
       },
       {
         type: "translate",
@@ -254,7 +254,7 @@ export const PT_A2_U21_EXTRA: Lesson[] = [
         prompt: "Translate into Portuguese.",
         source: "He asked me my name.",
         answer: "Ele me perguntou o meu nome.",
-        altAnswers: ["Ele me perguntou meu nome.", "Ele perguntou o meu nome.", "Ele perguntou meu nome.", "Ele perguntou o meu nome para mim."],
+        altAnswers: ["Ele me perguntou meu nome.", "Ele perguntou o meu nome.", "Ele perguntou meu nome."],
         explanation: "A question: \"perguntar\", with \"me\" before the verb.",
       },
       {
@@ -344,7 +344,7 @@ export const PT_A2_U21_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Moro aqui há seis anos e ainda não conheço o centro.",
-        prompt: "Say it in Portuguese: I've lived here for six years and I still don't know the city centre.",
+        prompt: "Say it in Portuguese: I've lived here for six years and I still don't know the city center.",
         tip: "\"Conheço\": the ç is a plain s sound.",
         explanation: "Present + \"há\"; \"conhecer\" for a place.",
       },
@@ -442,7 +442,7 @@ export const PT_A2_U21_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Rewrite as a message to a friend: \"Nós iremos ao cinema hoje.\"",
-        source: "We're going to the cinema today.",
+        source: "We're going to the movies today.",
         answer: "A gente vai pro cinema hoje.",
         altAnswers: ["A gente vai ao cinema hoje.", "A gente vai para o cinema hoje.", "A gente vai no cinema hoje.", "Hoje a gente vai pro cinema.", "Nós vamos ao cinema hoje."],
         explanation: "Speech: \"a gente vai\" and \"pro\" (para + o).",
@@ -491,7 +491,7 @@ export const PT_A2_U21_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your neighbour invites you to dinner, but you can't go. What's the friendliest reply?",
+        question: "Your neighbor invites you to dinner, but you can't go. What's the friendliest reply?",
         options: ["Puxa, hoje não vai dar. Fica para a próxima?", "Não quero.", "Não posso ir nunca.", "Eu não fui."],
         correctIndex: 0,
         explanation: "\"Não vai dar\" and \"fica para a próxima\" soften the no.",
@@ -502,7 +502,7 @@ export const PT_A2_U21_EXTRA: Lesson[] = [
         question: "What should you do?",
         options: ["Go to the airline's desk.", "Go to the boarding gate.", "Wait for a call.", "Leave the airport."],
         correctIndex: 0,
-        explanation: "\"Dirija-se ao balcão\" (go to the desk) is a formal written command you only need to recognise.",
+        explanation: "\"Dirija-se ao balcão\" (go to the desk) is a formal written command you only need to recognize.",
       },
       {
         type: "dictation",
@@ -512,7 +512,7 @@ export const PT_A2_U21_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Moço, esse ônibus passa pelo centro?",
-        prompt: "Say it in Portuguese: Excuse me, does this bus go through the centre?",
+        prompt: "Say it in Portuguese: Excuse me, does this bus go through the center?",
         tip: "\"Moço\" is a friendly way to address a young man, MO-su.",
         explanation: "\"Passar por\" for going through; por + o = \"pelo\".",
       },

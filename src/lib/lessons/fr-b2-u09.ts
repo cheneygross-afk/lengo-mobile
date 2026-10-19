@@ -16,7 +16,7 @@ export const FR_B2_U09: Lesson[] = [
         body: [
           "The conditionnel passé is the French would have done. It is built like every other compound tense: an auxiliary plus a past participle. Here the auxiliary is in the conditional you already know: \"j'aurais pris\" (I would have taken), \"je serais parti\" (I would have left).",
           "The auxiliary forms: \"j'aurais, tu aurais, il aurait, nous aurions, vous auriez, ils auraient\" and \"je serais, tu serais, il serait, nous serions, vous seriez, ils seraient\". The choice between avoir and être is exactly the one you make in the passé composé: movement and change-of-state verbs like \"aller\", \"venir\", \"partir\", \"naître\" and all pronominal verbs take être.",
-          "The big trap is English word by word. In English, would have done looks like would + have + done, so learners invent *\"je voudrais avoir fait\" or *\"je devrais avoir\". French has one tense for the whole idea: the auxiliary carries the would, the participle carries the done. There is no separate infinitive \"avoir\" in it.",
+          "The big trap is English word by word. In English, would have done looks like would + have + done, so learners write \"je voudrais avoir pris\" for I would have taken, but that means I'd like to have taken. French has one tense for the whole idea: the auxiliary carries the would, the participle carries the done. There is no separate infinitive \"avoir\" in it.",
           "Pronunciation: \"j'aurais\" (conditional) and \"j'aurai\" (future) sound almost the same, so the written -s matters. In speech, context does the work: would have done vs will have done.",
         ],
         examples: [
@@ -36,7 +36,7 @@ export const FR_B2_U09: Lesson[] = [
             source: "You would have loved that film. (to a friend)",
             answer: "Tu aurais adoré ce film.",
             altAnswers: ["Tu aurais adoré ce film-là.", "Tu aurais beaucoup aimé ce film.", "Tu aurais aimé ce film."],
-            explanation: "Conditional of avoir (\"tu aurais\") + the participle \"adoré\". Would have loved is one French tense, not *\"tu voudrais avoir aimé\".",
+            explanation: "Conditional of avoir (\"tu aurais\") + the participle \"adoré\". Would have loved is one French tense; \"tu voudrais avoir aimé\" would mean you'd like to have loved.",
           },
           {
             type: "fill-blank",
@@ -215,7 +215,7 @@ export const FR_B2_U09: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I would have taken it in blue.",
+        prompt: "Put the words in order to say (about a dress): I would have taken it in blue.",
         words: ["Je", "l'aurais", "prise", "en bleu."],
         translation: "I would have taken it in blue (a dress).",
         explanation: "The pronoun goes before the auxiliary, and with a preceding direct object (la robe) the participle agrees: \"prise\".",
@@ -1715,10 +1715,10 @@ export const FR_B2_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Claire says \"Tu les aurais eus de toute façon.\" Why is it \"eus\" and not \"eu\"?",
-            options: ["Because \"les\" (the exams) comes before the auxiliary avoir.", "Because the subject \"tu\" is plural.", "Because the conditionnel passé always agrees.", "Because \"eus\" is the feminine form."],
+            question: "Claire tells Nathan he would have passed his exams (les examens) anyway. Which sentence is spelled correctly?",
+            options: ["Tu les aurais eus de toute façon.", "Tu les aurais eu de toute façon.", "Tu les aurais eues de toute façon.", "Tu les serais eus de toute façon."],
             correctIndex: 0,
-            explanation: "With avoir, the participle agrees with a direct object placed before it: \"les\" = les examens, masculine plural.",
+            explanation: "With avoir, the participle agrees with a direct object placed before it: \"les\" = les examens, masculine plural, so \"eus\". \"Eu\" ignores the agreement, \"eues\" would be feminine, and \"avoir\" never takes être.",
           },
         ],
       },
@@ -1836,10 +1836,10 @@ export const FR_B2_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which line from the story is a present condition with a past result?",
-        options: ["Si j'étais plus prudente, je ne me serais jamais lancée.", "Si tu n'avais pas abandonné la fac, tu serais avocate.", "Si j'avais continué, j'aurais fini dans un cabinet.", "Si seulement j'avais eu une grand-mère comme la tienne !"],
+        question: "Claire is not a cautious person, and years ago she took the plunge. Which sentence says 'If I were more cautious, I would never have taken the plunge'?",
+        options: ["Si j'étais plus prudente, je ne me serais jamais lancée.", "Si j'étais plus prudente, je ne me lancerais jamais.", "Si j'avais été plus prudente, je ne me lancerais jamais.", "Si j'aurais été plus prudente, je ne me serais jamais lancée."],
         correctIndex: 0,
-        explanation: "\"Étais\" (imparfait: a lasting trait) + \"serais lancée\" (conditionnel passé: a past event).",
+        explanation: "\"Étais\" (imparfait: a lasting trait) + \"me serais lancée\" (conditionnel passé: a past event). \"Je ne me lancerais jamais\" would be about now, and the conditional never follows si.",
       },
       {
         type: "translate",
@@ -2041,9 +2041,9 @@ export const FR_B2_U09: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence means 'I was surprised that my desk was already ready'?",
-        options: ["J'étais surprise que mon bureau soit déjà prêt.", "J'étais surprise que mon bureau était déjà prêt.", "J'étais surprise que mon bureau fût déjà prêt.", "J'étais surprise que mon bureau serait déjà prêt."],
+        options: ["J'étais surprise que mon bureau soit déjà prêt.", "J'étais surprise que mon bureau était déjà prêt.", "J'étais surprise que mon bureau est déjà prêt.", "J'étais surprise que mon bureau serait déjà prêt."],
         correctIndex: 0,
-        explanation: "Surprise triggers the subjunctive; the present \"soit\" is used even after a past verb. \"Fût\" is literary only.",
+        explanation: "Surprise triggers the subjunctive; the present \"soit\" is used even after a past verb. \"Était\", \"est\" and \"serait\" are indicative or conditional forms.",
       },
       {
         type: "translate",
@@ -2375,7 +2375,7 @@ export const FR_B2_U09: Lesson[] = [
           "\"Sans que\" (without) takes the subjunctive and no negation: \"sans que personne le remarque\". With the same subject, use \"sans\" + infinitive.",
         ],
         examples: [
-          { es: "Tu peux sortir samedi soir, à condition que tu sois rentré pour le dîner de dimanche.", en: "You can go out on Saturday night, provided you're back for Sunday dinner." },
+          { es: "Tu peux sortir samedi soir, à condition d'être rentré pour le dîner de dimanche.", en: "You can go out on Saturday night, provided you're back for Sunday dinner." },
           { es: "On ira au restaurant, à moins que mamie préfère cuisiner.", en: "We'll go to a restaurant, unless granny would rather cook." },
           { es: "Bien que papy soit fatigué, il veut absolument voir le match.", en: "Although grandpa is tired, he absolutely wants to watch the match." },
           { es: "Même s'il pleut, on fera la promenade.", en: "Even if it rains, we'll go for the walk." },
@@ -2451,9 +2451,9 @@ export const FR_B2_U09: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into French.",
         source: "You can go out, provided you're back for dinner. (to a teenager)",
-        answer: "Tu peux sortir, à condition que tu sois rentré pour le dîner.",
-        altAnswers: ["Tu peux sortir, à condition que tu sois rentrée pour le dîner.", "Tu peux sortir, à condition que tu rentres pour le dîner.", "Tu peux sortir à condition d'être rentré pour le dîner.", "Tu peux sortir à condition d'être rentrée pour le dîner.", "Tu peux sortir, pourvu que tu sois rentré pour le dîner."],
-        explanation: "\"À condition que\" + subjunctive; the past subjunctive (\"sois rentré\") stresses being back by then.",
+        answer: "Tu peux sortir, à condition d'être rentré pour le dîner.",
+        altAnswers: ["Tu peux sortir, à condition d'être rentrée pour le dîner.", "Tu peux sortir à condition d'être rentré pour le dîner.", "Tu peux sortir à condition d'être rentrée pour le dîner.", "Tu peux sortir, à condition de rentrer pour le dîner.", "Tu peux sortir, pourvu que tu sois rentré pour le dîner.", "Tu peux sortir, pourvu que tu sois rentrée pour le dîner.", "Tu peux sortir, pourvu que tu rentres pour le dîner."],
+        explanation: "Same subject (tu goes out, tu comes back): \"à condition de\" + infinitive; the past infinitive (\"être rentré\") stresses being back by then. \"Pourvu que\" has no infinitive version, so it keeps the subjunctive.",
       },
       {
         type: "translate",

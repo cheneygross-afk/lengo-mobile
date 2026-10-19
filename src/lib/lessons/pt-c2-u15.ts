@@ -8,20 +8,20 @@ export const PT_C2_U15: Lesson[] = [
     level: "PT-C2",
     number: 1,
     title: "Voices to Learn From",
-    summary: "Rubem Braga, Fernando Sabino, Lygia Fagundes Telles, Antonio Prata and Conceição Evaristo: what makes a narrative voice recognisable in its first lines, and the words to describe it.",
+    summary: "Rubem Braga, Fernando Sabino, Lygia Fagundes Telles, Antonio Prata and Conceição Evaristo: what makes a narrative voice recognizable in its first lines, and the words to describe it.",
     duration: "16 min",
     sections: [
       {
         heading: "Rubem Braga and Fernando Sabino: the crônica in the first person",
         body: [
-          "Brazilian prose has a genre English has no good name for: the \"crônica\", a short personal piece written for a newspaper column, somewhere between essay, sketch and short story. Rubem Braga (1913-1990) wrote almost nothing else and is the model of its lyrical side. His first-person narrator notices a yellow butterfly over a street in Rio, a neighbour's bird, the sea at dusk, and makes the small thing carry a mood. The sentences are plain, the vocabulary everyday, and the feeling arrives sideways, often in the last line.",
-          "Fernando Sabino (1923-2004) shows the comic side. In \"O Homem Nu\" a man who steps out of his flat without clothes to fetch the bread is locked out, and a domestic accident becomes farce. The humour comes from timing: short scenes, quick dialogue, and a narrator who never laughs at his own jokes. What Braga and Sabino share is a voice you recognise in the first paragraph, an \"eu\" talking to the reader as if over coffee.",
+          "Brazilian prose has a genre English has no good name for: the \"crônica\", a short personal piece written for a newspaper column, somewhere between essay, sketch and short story. Rubem Braga (1913-1990) wrote almost nothing else and is the model of its lyrical side. His first-person narrator notices a yellow butterfly over a street in Rio, a neighbor's bird, the sea at dusk, and makes the small thing carry a mood. The sentences are plain, the vocabulary everyday, and the feeling arrives sideways, often in the last line.",
+          "Fernando Sabino (1923-2004) shows the comic side. In \"O Homem Nu\" a man who steps out of his apartment without clothes to fetch the bread is locked out, and a domestic accident becomes farce. The humor comes from timing: short scenes, quick dialogue, and a narrator who never laughs at his own jokes. What Braga and Sabino share is a voice you recognize in the first paragraph, an \"eu\" talking to the reader as if over coffee.",
           "To describe a voice in Portuguese, use \"voz narrativa\", \"tom\" (lírico, irônico, melancólico), \"registro\" (coloquial, culto) and \"dicção\". In criticism \"dicção\" is a writer's characteristic way of putting words together, not their pronunciation.",
         ],
         examples: [
-          { es: "A crônica nasce de um detalhe: uma borboleta, um ônibus atrasado, um vizinho que canta no banho.", en: "A crônica grows out of a detail: a butterfly, a late bus, a neighbour who sings in the shower." },
+          { es: "A crônica nasce de um detalhe: uma borboleta, um ônibus atrasado, um vizinho que canta no banho.", en: "A crônica grows out of a detail: a butterfly, a late bus, a neighbor who sings in the shower." },
           { es: "Rubem Braga torna lírico o que é pequeno, sem levantar a voz.", en: "Rubem Braga makes small things lyrical without raising his voice." },
-          { es: "O humor de Sabino depende do ritmo, não da piada.", en: "Sabino's humour depends on timing, not on the joke." },
+          { es: "O humor de Sabino depende do ritmo, não da piada.", en: "Sabino's humor depends on timing, not on the joke." },
           { es: "O narrador fala com o leitor como quem conversa numa mesa de bar.", en: "The narrator talks to the reader like someone chatting at a bar table." },
           { es: "O tom é melancólico, mas a dicção é simples.", en: "The tone is melancholy, but the diction is simple." },
           { es: "Hoje de manhã uma borboleta amarela atravessou a avenida, e o dia mudou.", en: "This morning a yellow butterfly crossed the avenue, and the day changed." },
@@ -31,7 +31,7 @@ export const PT_C2_U15: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Sabino's humour depends on timing, not on the joke.",
+            source: "Sabino's humor depends on timing, not on the joke.",
             answer: "O humor de Sabino depende do ritmo, não da piada.",
             altAnswers: [
               "O humor do Sabino depende do ritmo, não da piada.",
@@ -59,7 +59,7 @@ export const PT_C2_U15: Lesson[] = [
             sentence: "O narrador fala com o leitor ___ numa mesa de bar.",
             answer: "como quem conversa",
             altAnswers: ["como quem bate papo", "como quem papeia"],
-            explanation: "\"Como quem\" + verb ('like someone who...') is a favourite comparison of the crônica: \"como quem conversa\", \"como quem não quer nada\".",
+            explanation: "\"Como quem\" + verb ('like someone who...') is a favorite comparison of the crônica: \"como quem conversa\", \"como quem não quer nada\".",
           },
         ],
       },
@@ -123,7 +123,7 @@ export const PT_C2_U15: Lesson[] = [
           "When you write about a voice, these phrases do the work: \"o texto abre com...\", \"a primeira frase já estabelece o tom\", \"o narrador se dirige ao leitor\", \"a voz é a de uma criança\". Say what the choice achieves, not just that it exists.",
         ],
         examples: [
-          { es: "Meu pai nunca soube trocar uma lâmpada, mas sabia de cor todas as escalações do Corinthians.", en: "My father never knew how to change a light bulb, but he knew every Corinthians line-up by heart." },
+          { es: "Meu pai nunca soube trocar uma lâmpada, mas sabia de cor todas as escalações do Corinthians.", en: "My father never knew how to change a light bulb, but he knew every Corinthians lineup by heart." },
           { es: "A primeira frase já estabelece o tom do conto.", en: "The first sentence already sets the tone of the story." },
           { es: "O narrador se dirige ao leitor logo no primeiro parágrafo.", en: "The narrator addresses the reader in the very first paragraph." },
           { es: "A voz é a de uma criança que ainda não entende o mundo dos adultos.", en: "The voice is that of a child who doesn't yet understand the adult world." },
@@ -159,7 +159,7 @@ export const PT_C2_U15: Lesson[] = [
           {
             type: "speak",
             text: "O narrador se dirige ao leitor logo no primeiro parágrafo.",
-            tip: "In most of Brazil the d before i sounds like the j in jeans: dji-RI-ge.",
+            tip: "In most of Brazil the d before i sounds like the j in jeans: dji-RI-zhi.",
             explanation: "\"Dirigir-se a\" is to address someone. \"Logo no primeiro parágrafo\" means right in the first paragraph.",
           },
         ],
@@ -246,14 +246,14 @@ export const PT_C2_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My father never knew how to change a light bulb, but he knew every Corinthians line-up by heart.",
+        source: "My father never knew how to change a light bulb, but he knew every Corinthians lineup by heart.",
         answer: "Meu pai nunca soube trocar uma lâmpada, mas sabia de cor todas as escalações do Corinthians.",
         altAnswers: [
           "O meu pai nunca soube trocar uma lâmpada, mas sabia de cor todas as escalações do Corinthians.",
           "Meu pai nunca soube trocar uma lâmpada, mas sabia todas as escalações do Corinthians de cor.",
           "Meu pai nunca soube trocar lâmpada, mas sabia de cor todas as escalações do Corinthians.",
         ],
-        explanation: "\"Nunca soube\" (perfeito) sums up a lifetime; \"sabia\" (imperfeito) describes what he habitually knew. By heart is \"de cor\", and a team line-up is \"a escalação\".",
+        explanation: "\"Nunca soube\" (perfeito) sums up a lifetime; \"sabia\" (imperfeito) describes what he habitually knew. By heart is \"de cor\", and a team lineup is \"a escalação\".",
       },
       {
         type: "listen-choose",
@@ -277,7 +277,7 @@ export const PT_C2_U15: Lesson[] = [
         type: "speak",
         text: "Rubem Braga torna lírico o que é pequeno.",
         prompt: "Say it in Portuguese: Rubem Braga makes small things lyrical.",
-        tip: "Stress \"lírico\" on the first syllable: LÍ-ri-co.",
+        tip: "Stress \"lírico\" on the first syllable: LÍ-ri-ku.",
         explanation: "\"Tornar\" + adjective: to make something become lyrical.",
       },
     ],
@@ -300,7 +300,7 @@ export const PT_C2_U15: Lesson[] = [
         examples: [
           { es: "Eu tinha nove anos quando meu avô parou de falar.", en: "I was nine when my grandfather stopped speaking." },
           { es: "Nunca soube se ela chorou naquela noite; só sei que a luz do quarto ficou acesa.", en: "I never found out whether she cried that night; all I know is the bedroom light stayed on." },
-          { es: "O narrador testemunha conta a vida do vizinho, não a própria.", en: "The witness narrator tells the neighbour's life, not his own." },
+          { es: "O narrador testemunha conta a vida do vizinho, não a própria.", en: "The witness narrator tells the neighbor's life, not his own." },
           { es: "Pelo jeito como ela segurava a xícara, percebi que estava nervosa.", en: "From the way she held her cup, I could tell she was nervous." },
           { es: "Bentinho é um narrador em quem não podemos confiar inteiramente.", en: "Bentinho is a narrator we cannot fully trust." },
           { es: "Ao verme que primeiro roeu as frias carnes do meu cadáver dedico como saudosa lembrança estas memórias póstumas.", en: "To the worm who first gnawed the cold flesh of my corpse I dedicate, as a fond remembrance, these posthumous memoirs. (Machado de Assis)" },
@@ -351,7 +351,7 @@ export const PT_C2_U15: Lesson[] = [
         heading: "Narrador observador: the camera",
         body: [
           "The \"narrador observador\" tells in the third person and stays outside the characters' heads. He reports what a camera and a microphone would record: gestures, words, objects, silences. The reader does the interpreting, which is why this perspective suits tension and understatement. Rubem Fonseca's urban stories and much of Graciliano's dialogue scenes lean this way.",
-          "The discipline is to never write a verb of inner life with certainty: no \"pensou\", \"sentiu\", \"lembrou\", \"teve vontade\". Instead, \"parecer\" and visible behaviour carry the weight: \"ele olhou o relógio pela terceira vez\" says impatience without naming it. Even \"parecer\" should be rationed, because a narrator who keeps guessing starts to sound like a character.",
+          "The discipline is to never write a verb of inner life with certainty: no \"pensou\", \"sentiu\", \"lembrou\", \"teve vontade\". Instead, \"parecer\" and visible behavior carry the weight: \"ele olhou o relógio pela terceira vez\" says impatience without naming it. Even \"parecer\" should be rationed, because a narrator who keeps guessing starts to sound like a character.",
           "Choose the observer when the most important thing in the scene is what the characters won't say. A breakup told by an observer is two people, a table, a bill that nobody picks up.",
         ],
         examples: [
@@ -513,7 +513,7 @@ export const PT_C2_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A story is told by the neighbour who watched a family fall apart. What kind of narrator is that?",
+        question: "A story is told by the neighbor who watched a family fall apart. What kind of narrator is that?",
         options: ["Narrador testemunha.", "Narrador protagonista.", "Narrador onisciente.", "Narrador intruso."],
         correctIndex: 0,
         explanation: "A first-person narrator who tells someone else's story is a \"narrador testemunha\", a kind of \"narrador-personagem\".",
@@ -578,7 +578,7 @@ export const PT_C2_U15: Lesson[] = [
         heading: "The travessão: how Brazilian dialogue looks on the page",
         body: [
           "Brazilian fiction marks speech with the \"travessão\", the long dash (—), not with quotation marks. Each new speaker starts a new paragraph that opens with a dash and a space: \"— Você vem?\" Quotation marks (\"aspas\") are kept for quoting a word, a sign or a remembered phrase inside the narration. Some contemporary writers use aspas for dialogue, but in a competition or workshop the travessão is the default, and English-style quotes look like a translation.",
-          "When the narrator comes back in the same paragraph, a second dash separates the speech from the attribution, and the verb after it starts with a small letter: \"— Não vou — disse ela.\" The speech's own full stop disappears; question and exclamation marks stay: \"— Você vem? — perguntou o pai.\" If the speech continues after the attribution, a third dash reopens it: \"— Não vou — disse ela. — Estou cansada.\"",
+          "When the narrator comes back in the same paragraph, a second dash separates the speech from the attribution, and the verb after it starts with a small letter: \"— Não vou — disse ela.\" The speech's own period disappears; question and exclamation marks stay: \"— Você vem? — perguntou o pai.\" If the speech continues after the attribution, a third dash reopens it: \"— Não vou — disse ela. — Estou cansada.\"",
           "Two English habits cause most errors. English puts a comma inside the quotes before said; Portuguese puts nothing before the second dash. And English writers reach for quotation marks out of instinct: in a Brazilian manuscript they mark the text as translated, or as unedited.",
         ],
         examples: [
@@ -586,7 +586,7 @@ export const PT_C2_U15: Lesson[] = [
           { es: "— Não vou — disse ela. — Estou cansada.", en: "'I'm not going,' she said. 'I'm tired.'" },
           { es: "— Eu acho — disse o médico — que ainda é cedo para falar nisso.", en: "'I think,' said the doctor, 'that it's still too early to talk about that.'" },
           { es: "— Chega! — gritou a mãe da cozinha.", en: "'That's enough!' their mother shouted from the kitchen." },
-          { es: "Na porta da padaria, um cartaz dizia \"Fechado para balanço\".", en: "On the bakery door, a sign said 'Closed for stocktaking'." },
+          { es: "Na porta da padaria, um cartaz dizia \"Fechado para balanço\".", en: "On the bakery door, a sign said 'Closed for inventory'." },
         ],
         checkpoint: [
           {
@@ -599,7 +599,7 @@ export const PT_C2_U15: Lesson[] = [
               "— Não vou, — disse ela — estou cansada.",
             ],
             correctIndex: 0,
-            explanation: "The speech's full stop disappears before the second dash, the attribution starts with a small letter, and a third dash reopens the speech. Quotation marks with a comma inside are the English convention.",
+            explanation: "The speech's period disappears before the second dash, the attribution starts with a small letter, and a third dash reopens the speech. Quotation marks with a comma inside are the English convention.",
           },
           {
             type: "translate",
@@ -638,8 +638,8 @@ export const PT_C2_U15: Lesson[] = [
           { es: "— Vou sair. Volto tarde — emendou, já com a chave na mão.", en: "'I'm going out. I'll be back late,' he added, keys already in hand." },
           { es: "— Eu... eu não sabia — balbuciou o menino.", en: "'I... I didn't know,' the boy stammered." },
           { es: "— Está chovendo de novo — resmungou seu Antônio.", en: "'It's raining again,' grumbled Seu Antônio." },
-          { es: "— E o seu namorado? — Ah, sei lá — desconversou ela. — Vamos pedir?", en: "'And your boyfriend?' 'Oh, I don't know,' she said, changing the subject. 'Shall we order?'" },
-          { es: "— Uns quarenta anos? — arriscou a moça do caixa.", en: "'About forty?' the girl at the till ventured." },
+          { es: "— E o seu namorado? — Ah, sei lá — desconversou ela. — Vamos pedir?", en: "'And your boyfriend?' 'Oh, I don't know,' she said, changing the subject. 'Should we order?'" },
+          { es: "— Uns quarenta anos? — arriscou a moça do caixa.", en: "'About forty?' the young woman at the register ventured." },
         ],
         checkpoint: [
           {
@@ -770,7 +770,7 @@ export const PT_C2_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "'About forty?' the girl at the till ventured.",
+        source: "'About forty?' the young woman at the register ventured.",
         answer: "— Uns quarenta anos? — arriscou a moça do caixa.",
         altAnswers: [
           "— Uns quarenta? — arriscou a moça do caixa.",
@@ -778,7 +778,7 @@ export const PT_C2_U15: Lesson[] = [
           "— Uns quarenta anos? — arriscou a menina do caixa.",
           "— Quarenta anos, mais ou menos? — arriscou a moça do caixa.",
         ],
-        explanation: "\"Arriscar\" (to risk) is also to venture a guess. \"Uns\" before a number means about. The till is \"o caixa\".",
+        explanation: "\"Arriscar\" (to risk) is also to venture a guess. \"Uns\" before a number means about. The checkout register is \"o caixa\".",
       },
       {
         type: "multiple-choice",
@@ -855,7 +855,7 @@ export const PT_C2_U15: Lesson[] = [
     level: "PT-C2",
     number: 4,
     title: "Writing Dialogue, Part 2 of 2",
-    summary: "Put real Brazilian speech on the page: tá, pra, cê, né in characters' mouths, and region, age and register as characterisation without caricature.",
+    summary: "Put real Brazilian speech on the page: tá, pra, cê, né in characters' mouths, and region, age and register as characterization without caricature.",
     duration: "17 min",
     sections: [
       {
@@ -894,7 +894,7 @@ export const PT_C2_U15: Lesson[] = [
             type: "multiple-choice",
             question: "Which line sounds like a real Brazilian at a family barbecue?",
             options: [
-              "— Me passa a farofa, faz favor?",
+              "— Me passa a farofa, por favor?",
               "— Passa-me a farofa, por obséquio?",
               "— Poderia passar-me a farofa?",
               "— Há farofa? Dê-ma, se faz favor.",
@@ -914,14 +914,14 @@ export const PT_C2_U15: Lesson[] = [
         ],
       },
       {
-        heading: "Region as characterisation, without caricature",
+        heading: "Region as characterization, without caricature",
         body: [
-          "Brazil's regions have markers a reader recognises at once. A mineiro says \"uai\", \"sô\" and calls any object a \"trem\"; someone from the Nordeste says \"oxe\" or \"oxente\", \"visse?\" in Pernambuco, \"arretado\" for great; a carioca says \"caraca\" and \"mermão\"; a paulistano punctuates with \"meu\" and \"mano\"; a gaúcho says \"bah\", \"tchê\" and calls a child \"guri\" or \"guria\". One such word in the right place locates a character better than a paragraph of description.",
-          "The danger is caricature. Spelling pronunciation to show a character is poor or rural (\"*pobrema\", \"*mininu\") reads as condescension unless the whole narration works that way, as in some regionalist classics. It's safer to characterise through vocabulary, rhythm and syntax: what the character calls things, how long her sentences are, which proverbs she reaches for. The carioca's hissing s or the nordestino's open vowels can't be spelled, and shouldn't be.",
+          "Brazil's regions have markers a reader recognizes at once. A mineiro says \"uai\", \"sô\" and calls any object a \"trem\"; someone from the Nordeste says \"oxe\" or \"oxente\", \"visse?\" in Pernambuco, \"arretado\" for great; a carioca says \"caraca\" and \"mermão\"; a paulistano punctuates with \"meu\" and \"mano\"; a gaúcho says \"bah\", \"tchê\" and calls a child \"guri\" or \"guria\". One such word in the right place locates a character better than a paragraph of description.",
+          "The danger is caricature. Spelling pronunciation to show a character is poor or rural (\"*pobrema\", \"*mininu\") reads as condescension unless the whole narration works that way, as in some regionalist classics. It's safer to characterize through vocabulary, rhythm and syntax: what the character calls things, how long her sentences are, which proverbs she reaches for. The carioca's hissing s or the nordestino's open vowels can't be spelled, and shouldn't be.",
           "Ask what the regional marker does in the scene. If a mineira uses \"uai\" at the moment she's surprised, it tells us something about her. If she says it every line, it becomes a tic that the writer imposed.",
         ],
         examples: [
-          { es: "— Uai, sô, cê não ia viajar hoje?", en: "'Hey, weren't you supposed to be travelling today?' (Minas Gerais)" },
+          { es: "— Uai, sô, cê não ia viajar hoje?", en: "'Hey, weren't you supposed to be traveling today?' (Minas Gerais)" },
           { es: "— Passa aquele trem ali pra mim.", en: "'Pass me that thing over there.' (Minas Gerais)" },
           { es: "— Oxe, e eu lá sabia disso?", en: "'What? How was I supposed to know that?' (Northeast)" },
           { es: "— Bah, tchê, que frio! Vem pra dentro, guri.", en: "'Wow, it's freezing! Come inside, kid.' (Rio Grande do Sul)" },
@@ -974,12 +974,12 @@ export const PT_C2_U15: Lesson[] = [
         heading: "Age, class and the same person in two registers",
         body: [
           "Region is only one axis. A teenager in Recife and her grandmother share an accent but not a vocabulary: \"tipo\", \"mano\", \"sério?\", \"de boa\" against \"minha filha\", \"Deus me livre\", \"no meu tempo\". Forms of address carry the relationship: \"o senhor\" and \"a senhora\" for an older relative or a boss, \"você\" between equals, a first name with or without \"Dona\" or \"Seu\".",
-          "The strongest characterisation is a register shift. Show the same character speaking to her mother and then to her manager, and the reader learns who she is from the difference: \"— Mãe, tô chegando, guarda um prato pra mim\" and, ten minutes later, \"— Boa tarde, doutor Ricardo. O senhor recebeu o relatório?\" No narrator's comment is needed.",
+          "The strongest characterization is a register shift. Show the same character speaking to her mother and then to her manager, and the reader learns who she is from the difference: \"— Mãe, tô chegando, guarda um prato pra mim\" and, ten minutes later, \"— Boa tarde, doutor Ricardo. O senhor recebeu o relatório?\" No narrator's comment is needed.",
           "Keep the narration's register stable while the dialogue moves. If you write a first-person narrator with a colloquial voice, decide once how colloquial, and hold it.",
         ],
         examples: [
-          { es: "— Mãe, tô chegando, guarda um prato pra mim.", en: "'Mum, I'm almost there, save me a plate.'" },
-          { es: "— Boa tarde, doutor Ricardo. O senhor recebeu o relatório?", en: "'Good afternoon, Dr Ricardo. Did you get the report?'" },
+          { es: "— Mãe, tô chegando, guarda um prato pra mim.", en: "'Mom, I'm almost there, save me a plate.'" },
+          { es: "— Boa tarde, doutor Ricardo. O senhor recebeu o relatório?", en: "'Good afternoon, Dr. Ricardo. Did you get the report?'" },
           { es: "— Tipo, sério? Ele falou isso na frente de todo mundo?", en: "'Like, seriously? He said that in front of everyone?'" },
           { es: "— Minha filha, no meu tempo ninguém saía de casa assim.", en: "'My dear, in my day nobody went out dressed like that.'" },
           { es: "— Relaxa, tá de boa. Amanhã a gente vê isso.", en: "'Relax, it's fine. We'll deal with it tomorrow.'" },
@@ -1002,7 +1002,7 @@ export const PT_C2_U15: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "'Good afternoon, Dr Ricardo. [Did you get] the report?'",
+            en: "'Good afternoon, Dr. Ricardo. [Did you get] the report?'",
             sentence: "— Boa tarde, doutor Ricardo. ___ o relatório?",
             answer: "O senhor recebeu",
             altAnswers: ["O senhor já recebeu"],
@@ -1081,7 +1081,7 @@ export const PT_C2_U15: Lesson[] = [
           "Having a character call her boss \"o senhor\".",
         ],
         correctIndex: 0,
-        explanation: "Eye dialect, respelling pronunciation word by word, tends to mock. Vocabulary, rhythm and forms of address characterise without condescension.",
+        explanation: "Eye dialect, respelling pronunciation word by word, tends to mock. Vocabulary, rhythm and forms of address characterize without condescension.",
       },
       {
         type: "translate",
@@ -1112,7 +1112,7 @@ export const PT_C2_U15: Lesson[] = [
         question: "Where is the speaker most likely from?",
         options: ["Minas Gerais.", "Rio Grande do Sul.", "Pernambuco.", "Rio de Janeiro."],
         correctIndex: 0,
-        explanation: "\"Uai\" and \"sô\" are the classic mineiro markers. The question means 'Weren't you supposed to be travelling today?'",
+        explanation: "\"Uai\" and \"sô\" are the classic mineiro markers. The question means 'Weren't you supposed to be traveling today?'",
       },
       {
         type: "dictation",
@@ -1122,7 +1122,7 @@ export const PT_C2_U15: Lesson[] = [
       {
         type: "speak",
         text: "Boa tarde, doutor Ricardo. O senhor recebeu o relatório?",
-        prompt: "Say it in Portuguese, formally: Good afternoon, Dr Ricardo. Did you get the report?",
+        prompt: "Say it in Portuguese, formally: Good afternoon, Dr. Ricardo. Did you get the report?",
         tip: "\"Relatório\" has an open ó: re-la-TÓ-rio.",
         explanation: "\"O senhor\" plus the title \"doutor\" sets the professional register.",
       },
@@ -1224,7 +1224,7 @@ export const PT_C2_U15: Lesson[] = [
             options: [
               "The boys thought food grew on the shelf, did they?",
               "Did the boys find any food on the shelf?",
-              "The boys thought the food on the shelf had gone off.",
+              "The boys thought the food on the shelf had gone bad.",
               "The boys were looking for food on the shelf.",
             ],
             correctIndex: 0,
@@ -1241,8 +1241,8 @@ export const PT_C2_U15: Lesson[] = [
       {
         heading: "Pronouns, ambiguity and control",
         body: [
-          "Pronouns stay in the third person, but the character's forms of address survive inside them: \"E o Zé? O Zé que se virasse\" keeps her way of naming people. \"Você\" in free indirect speech is usually the character addressing herself or someone absent: \"Você é um bicho, Fabiano\" is Fabiano's own judgement of himself, given in the narration.",
-          "The technique is ambiguous by nature, and that's its value: the reader can't always say whether a judgement is the narrator's or the character's. Machado exploits this to let characters condemn themselves. In your own fiction, control the ambiguity: decide which sentences belong to whom, even if you never tell the reader.",
+          "Pronouns stay in the third person, but the character's forms of address survive inside them: \"E o Zé? O Zé que se virasse\" keeps her way of naming people. \"Você\" in free indirect speech is usually the character addressing herself or someone absent: \"Você é um bicho, Fabiano\" is Fabiano's own judgment of himself, given in the narration.",
+          "The technique is ambiguous by nature, and that's its value: the reader can't always say whether a judgment is the narrator's or the character's. Machado exploits this to let characters condemn themselves. In your own fiction, control the ambiguity: decide which sentences belong to whom, even if you never tell the reader.",
           "Two mistakes are common in learners' fiction. One is forgetting to backshift, so the character's present (\"Ele não vem\") suddenly breaks a past-tense narration. The other is adding \"ela pensou\" after every sentence, which turns free indirect speech back into reported thought.",
         ],
         examples: [
@@ -1390,14 +1390,14 @@ export const PT_C2_U15: Lesson[] = [
         heading: "The long sentence and the short one",
         body: [
           "Rhythm in prose comes first from contrast. A long sentence accumulates: it piles clauses with \"e\", lists details, follows a mind that won't stop, and draws the reader in. A short sentence strikes. Put one after the other and the short one lands twice as hard: \"Ela atravessou a sala, desviou das cadeiras, das sacolas da feira, do cachorro que dormia no tapete, e parou diante da porta do quarto do filho. Estava trancada.\"",
-          "Portuguese lends itself to the long sentence because it tolerates coordination well. The \"polissíndeto\", repeating \"e\" on purpose, slows the pace and gives weight: \"e chovia, e o ônibus não vinha, e ninguém dizia nada\". Raduan Nassar and Saramago, from Portugal, built whole books on breathless sentences. Learners usually fail the other way: every sentence the same medium length, subject, verb, object, full stop, which sounds like a report.",
+          "Portuguese lends itself to the long sentence because it tolerates coordination well. The \"polissíndeto\", repeating \"e\" on purpose, slows the pace and gives weight: \"e chovia, e o ônibus não vinha, e ninguém dizia nada\". Raduan Nassar and Saramago, from Portugal, built whole books on breathless sentences. Learners usually fail the other way: every sentence the same medium length, subject, verb, object, period, which sounds like a report.",
           "Match length to content. Tension, fear and shock want short units; memory, abundance and drift want long ones. Change the length when the feeling changes, not at random.",
         ],
         examples: [
           { es: "Ela atravessou a sala, desviou das cadeiras, das sacolas da feira, do cachorro que dormia no tapete, e parou diante da porta do quarto do filho. Estava trancada.", en: "She crossed the living room, stepped around the chairs, the market bags, the dog asleep on the rug, and stopped in front of her son's bedroom door. It was locked." },
           { es: "E chovia, e o ônibus não vinha, e ninguém dizia nada.", en: "And it was raining, and the bus wasn't coming, and nobody said anything." },
           { es: "O telefone tocou. Uma vez. Duas. Ninguém atendeu.", en: "The phone rang. Once. Twice. Nobody answered." },
-          { es: "Lembro do quintal da minha avó, das goiabas caindo no chão de terra, do cheiro de café que vinha da cozinha às quatro da tarde.", en: "I remember my grandmother's back yard, the guavas falling on the dirt, the smell of coffee drifting from the kitchen at four in the afternoon." },
+          { es: "Lembro do quintal da minha avó, das goiabas caindo no chão de terra, do cheiro de café que vinha da cozinha às quatro da tarde.", en: "I remember my grandmother's backyard, the guavas falling on the dirt, the smell of coffee drifting from the kitchen at four in the afternoon." },
           { es: "As frases têm todas o mesmo tamanho, e o texto parece um relatório.", en: "The sentences are all the same length, and the text reads like a report." },
         ],
         checkpoint: [
@@ -1539,7 +1539,7 @@ export const PT_C2_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I remember my grandmother's back yard, the guavas falling on the dirt, the smell of coffee from the kitchen.",
+        source: "I remember my grandmother's backyard, the guavas falling on the dirt, the smell of coffee from the kitchen.",
         answer: "Lembro do quintal da minha avó, das goiabas caindo no chão de terra, do cheiro de café que vinha da cozinha.",
         altAnswers: [
           "Eu me lembro do quintal da minha avó, das goiabas caindo no chão de terra, do cheiro de café que vinha da cozinha.",
@@ -1555,8 +1555,8 @@ export const PT_C2_U15: Lesson[] = [
         en: "The book [I told you about] was left on the table.",
         sentence: "O livro ___ ficou em cima da mesa.",
         answer: "de que te falei",
-        altAnswers: ["de que eu te falei", "que eu te falei", "que te falei", "sobre o qual te falei", "de que lhe falei", "do qual te falei"],
-        explanation: "The norm keeps the preposition of \"falar de\": \"de que te falei\". Speech often drops it (\"que te falei\"), which is acceptable in dialogue.",
+        altAnswers: ["de que eu te falei", "sobre o qual te falei", "de que lhe falei", "do qual te falei"],
+        explanation: "The norm keeps the preposition of \"falar de\": \"de que te falei\". Speech often drops it (\"que te falei\"), which is fine in a character's dialogue but not in narration like this.",
       },
       {
         type: "translate",
@@ -1615,7 +1615,7 @@ export const PT_C2_U15: Lesson[] = [
       {
         type: "dictation",
         audio: "O telefone tocou. Uma vez. Duas. Ninguém atendeu.",
-        explanation: "Each fragment ends with a full stop. \"Atendeu\" is answered, for phones and doors.",
+        explanation: "Each fragment ends with a period. \"Atendeu\" is answered, for phones and doors.",
       },
       {
         type: "speak",
@@ -1689,10 +1689,10 @@ export const PT_C2_U15: Lesson[] = [
           "Specific doesn't mean exotic. You don't need rare words; you need the exact everyday one. \"Chinelo\" is better than \"calçado\", \"marmita\" better than \"recipiente com comida\".",
         ],
         examples: [
-          { es: "O menino disparou pelo corredor.", en: "The boy shot off down the corridor." },
+          { es: "O menino disparou pelo corredor.", en: "The boy shot off down the hallway." },
           { es: "Ela encarou o médico sem piscar.", en: "She stared at the doctor without blinking." },
           { es: "Ele bateu a porta e desceu a escada de dois em dois degraus.", en: "He slammed the door and went down the stairs two at a time." },
-          { es: "A avó guardava as linhas numa lata de biscoitos.", en: "Grandma kept her threads in a biscuit tin." },
+          { es: "A avó guardava as linhas numa lata de biscoitos.", en: "Grandma kept her threads in a cookie tin." },
           { es: "Em cima da televisão, uma toalha de crochê e um cachorro de louça.", en: "On top of the television, a crocheted doily and a china dog." },
           { es: "Ele engoliu a marmita em pé, ao lado da máquina.", en: "He wolfed down his packed lunch standing up, next to the machine." },
         ],
@@ -1721,7 +1721,7 @@ export const PT_C2_U15: Lesson[] = [
             question: "What does it mean?",
             options: [
               "On top of the television, a crocheted doily and a china dog.",
-              "On the television, a cookery show and a dog.",
+              "On the television, a cooking show and a dog.",
               "Under the television, a towel and a sleeping dog.",
               "Next to the television, a crochet hook and a dog's bowl.",
             ],
@@ -1734,14 +1734,14 @@ export const PT_C2_U15: Lesson[] = [
         heading: "The senses, and dialogue that carries feeling",
         body: [
           "Writers lean on sight. The other senses are often more powerful in Portuguese prose because they come with less cliché: the smell of \"feijão\" cooking at eleven in the morning, the sound of a \"gás\" truck playing its tune down the street, the sticky plastic of a bus seat in January. One unexpected sense per scene is usually enough.",
-          "Dialogue shows feeling through what is not said. A mother who can't say she's worried asks \"— Você comeu?\". A father who can't apologise says \"— Quer carona amanhã?\". The reader understands the love or the guilt underneath, and the scene trusts them to.",
+          "Dialogue shows feeling through what is not said. A mother who can't say she's worried asks \"— Você comeu?\". A father who can't apologize says \"— Quer carona amanhã?\". The reader understands the love or the guilt underneath, and the scene trusts them to.",
           "When you revise, underline every named emotion and every -mente adverb. For each one, ask whether a gesture, an object, a sense or a line of dialogue could do the job. Keep the few that survive.",
         ],
         examples: [
           { es: "Às onze da manhã, o cheiro de feijão já tomava conta do prédio.", en: "By eleven in the morning, the smell of beans had already taken over the building." },
           { es: "Lá fora, o caminhão do gás passava tocando a mesma musiquinha.", en: "Outside, the gas truck went by playing the same little tune." },
           { es: "— Você comeu? — perguntou a mãe, sem olhar para ele.", en: "'Have you eaten?' his mother asked, without looking at him." },
-          { es: "— Quer carona amanhã? — disse o pai, depois de um longo silêncio.", en: "'Want a lift tomorrow?' his father said, after a long silence." },
+          { es: "— Quer carona amanhã? — disse o pai, depois de um longo silêncio.", en: "'Want a ride tomorrow?' his father said, after a long silence." },
         ],
         checkpoint: [
           {
@@ -1781,7 +1781,7 @@ export const PT_C2_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese with one precise verb.",
-        source: "The boy shot off down the corridor.",
+        source: "The boy shot off down the hallway.",
         answer: "O menino disparou pelo corredor.",
         altAnswers: ["O garoto disparou pelo corredor.", "O menino saiu correndo pelo corredor.", "O menino disparou corredor afora."],
         explanation: "\"Disparar\" (to fire, to shoot off) gives speed in a single verb. Movement along a path takes \"por\": \"pelo corredor\".",
@@ -1799,7 +1799,7 @@ export const PT_C2_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Grandma kept her threads in a biscuit tin.",
+        source: "Grandma kept her threads in a cookie tin.",
         answer: "A avó guardava as linhas numa lata de biscoitos.",
         altAnswers: [
           "A avó guardava as linhas em uma lata de biscoitos.",
@@ -1820,7 +1820,7 @@ export const PT_C2_U15: Lesson[] = [
           "— Eu te peço desculpas sinceramente.",
         ],
         correctIndex: 0,
-        explanation: "The offer of a lift carries the apology underneath. The others state the feeling outright, which this character, by definition, can't do.",
+        explanation: "The offer of a ride carries the apology underneath. The others state the feeling outright, which this character, by definition, can't do.",
       },
       {
         type: "translate",
@@ -1849,7 +1849,7 @@ export const PT_C2_U15: Lesson[] = [
           "Lá fora, o caminhão do gás passou tocando a mesma musiquinha.",
           "Lá fora, o caminhão do gás passava tocando a mesma música.",
         ],
-        explanation: "In Brazilian cities the gas-cylinder truck plays a tune as it goes by, a sound every Brazilian reader recognises. The gerund \"tocando\" describes the manner.",
+        explanation: "In Brazilian cities the gas-cylinder truck plays a tune as it goes by, a sound every Brazilian reader recognizes. The gerund \"tocando\" describes the manner.",
       },
       {
         type: "listen-choose",
@@ -1890,11 +1890,11 @@ export const PT_C2_U15: Lesson[] = [
         heading: "Abertura: starting in the middle",
         body: [
           "A \"conto\" has no room for warm-up. Brazilian workshops repeat Julio Cortázar's line that the novel wins on points and the short story by knockout (\"o conto vence por nocaute\"): everything must lead to one blow. So the opening should drop the reader into a situation already moving, \"in medias res\" or \"começar pelo meio\". Not \"Mariana acordou cedo naquele dia\" but \"Quando a polícia bateu na porta, Mariana ainda estava de pijama\".",
-          "A strong opening has a \"gancho\" (hook): a question the reader wants answered. Why the police? Why is she still in her pyjamas at that hour? The hook does not need to be dramatic; \"No dia em que meu pai aprendeu a mandar áudio, a família acabou\" is domestic, funny and impossible to stop reading.",
+          "A strong opening has a \"gancho\" (hook): a question the reader wants answered. Why the police? Why is she still in her pajamas at that hour? The hook does not need to be dramatic; \"No dia em que meu pai aprendeu a mandar áudio, a família acabou\" is domestic, funny and impossible to stop reading.",
           "Avoid the openings every jury has seen: the alarm clock, the weather, the character looking in the mirror to describe herself, and the dream that turns out to be a dream.",
         ],
         examples: [
-          { es: "Quando a polícia bateu na porta, Mariana ainda estava de pijama.", en: "When the police knocked at the door, Mariana was still in her pyjamas." },
+          { es: "Quando a polícia bateu na porta, Mariana ainda estava de pijama.", en: "When the police knocked at the door, Mariana was still in her pajamas." },
           { es: "No dia em que meu pai aprendeu a mandar áudio, a família acabou.", en: "The day my father learned to send voice messages, the family fell apart." },
           { es: "Ninguém na rua sabia o nome verdadeiro de Dona Zica.", en: "Nobody on the street knew Dona Zica's real name." },
           { es: "O conto começa pelo meio da briga, não pelo café da manhã.", en: "The story starts in the middle of the fight, not at breakfast." },
@@ -1905,14 +1905,14 @@ export const PT_C2_U15: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "When the police knocked at the door, Mariana was still in her pyjamas.",
+            source: "When the police knocked at the door, Mariana was still in her pajamas.",
             answer: "Quando a polícia bateu na porta, Mariana ainda estava de pijama.",
             altAnswers: [
               "Quando a polícia bateu à porta, Mariana ainda estava de pijama.",
               "Quando a polícia bateu na porta, a Mariana ainda estava de pijama.",
               "Quando a polícia bateu na porta, Mariana ainda estava de pijamas.",
             ],
-            explanation: "Knock at the door is \"bater na porta\" (or the more written \"bater à porta\"). In pyjamas is \"de pijama\", singular, like \"de chinelo\".",
+            explanation: "Knock at the door is \"bater na porta\" (or the more written \"bater à porta\"). In pajamas is \"de pijama\", singular, like \"de chinelo\".",
           },
           {
             type: "multiple-choice",
@@ -1942,12 +1942,12 @@ export const PT_C2_U15: Lesson[] = [
         body: [
           "Between opening and ending the story needs \"tensão\": something wanted and something in the way. In a conto this is often small, a son who wants his mother to notice his new job, a woman who wants to leave a party without being seen. The tension rises through two or three scenes, each a little closer to the point where something must give.",
           "That point is the \"virada\" or \"ponto de virada\" (turning point): a discovery, a decision, a line of dialogue after which the situation can't go back to what it was. Ricardo Piglia, an Argentine critic much read in Brazilian workshops, argued that every story tells two stories, a visible one and a hidden one, and that the turn is the moment the hidden story surfaces. Lygia Fagundes Telles's endings work exactly like this.",
-          "A useful test: summarise your story in two sentences, the first ending with \"mas\" and the second with \"então\". If you can't, the tension or the turn is missing.",
+          "A useful test: summarize your story in two sentences, the first ending with \"mas\" and the second with \"então\". If you can't, the tension or the turn is missing.",
         ],
         examples: [
           { es: "Ela só queria sair da festa sem ser vista.", en: "All she wanted was to leave the party without being seen." },
           { es: "A tensão cresce a cada cena, até que algo precisa ceder.", en: "The tension grows with every scene, until something has to give." },
-          { es: "A virada acontece quando a filha encontra as cartas no armário.", en: "The turn comes when the daughter finds the letters in the wardrobe." },
+          { es: "A virada acontece quando a filha encontra as cartas no armário.", en: "The turn comes when the daughter finds the letters in the closet." },
           { es: "Todo conto conta duas histórias: uma visível e outra escondida.", en: "Every story tells two stories: a visible one and a hidden one." },
           { es: "Depois daquela frase, nada podia voltar a ser como antes.", en: "After that sentence, nothing could go back to how it was before." },
         ],
@@ -1977,7 +1977,7 @@ export const PT_C2_U15: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The turn comes when the daughter [finds] the letters in the wardrobe.",
+            en: "The turn comes when the daughter [finds] the letters in the closet.",
             sentence: "A virada acontece quando a filha ___ as cartas no armário.",
             answer: "encontra",
             altAnswers: ["acha", "descobre"],
@@ -2152,7 +2152,7 @@ export const PT_C2_U15: Lesson[] = [
         type: "speak",
         text: "Ninguém na rua sabia o nome verdadeiro de Dona Zica.",
         prompt: "Say it in Portuguese: Nobody on the street knew Dona Zica's real name.",
-        tip: "\"Ninguém\" ends in a nasal diphthong, nin-GUÊIM with the m silent; don't pronounce an n at the end.",
+        tip: "\"Ninguém\" ends in a nasal diphthong, nĩ-GẼIN; don't pronounce a final n or m.",
         explanation: "An opening with a hook: the reader wants to know the name and why it's hidden.",
       },
     ],
@@ -2283,8 +2283,8 @@ export const PT_C2_U15: Lesson[] = [
         examples: [
           { es: "Naquela manhã, ela tinha ido ao banco.", en: "That morning, she had gone to the bank." },
           { es: "Ela tinha conhecido Paulo num ônibus para Ouro Preto.", en: "She had met Paulo on a bus to Ouro Preto." },
-          { es: "Ele sentou ao lado dela, ofereceu um biscoito, falou a viagem inteira.", en: "He sat next to her, offered her a biscuit, talked the whole journey." },
-          { es: "Agora, vinte anos depois, ela não lembrava a cor dos olhos dele.", en: "Now, twenty years later, she couldn't remember the colour of his eyes." },
+          { es: "Ele sentou ao lado dela, ofereceu um biscoito, falou a viagem inteira.", en: "He sat next to her, offered her a cookie, talked the whole trip." },
+          { es: "Agora, vinte anos depois, ela não lembrava a cor dos olhos dele.", en: "Now, twenty years later, she couldn't remember the color of his eyes." },
           { es: "O pai já saíra quando o telefone tocou.", en: "Her father had already left when the phone rang." },
         ],
         checkpoint: [
@@ -2375,7 +2375,7 @@ export const PT_C2_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "He sat next to her, offered her a biscuit, talked the whole journey.",
+        source: "He sat next to her, offered her a cookie, talked the whole trip.",
         answer: "Ele sentou ao lado dela, ofereceu um biscoito, falou a viagem inteira.",
         altAnswers: [
           "Ele se sentou ao lado dela, ofereceu um biscoito, falou a viagem inteira.",
@@ -2398,7 +2398,7 @@ export const PT_C2_U15: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Now, twenty years later, she couldn't remember the colour of his eyes.",
+        source: "Now, twenty years later, she couldn't remember the color of his eyes.",
         answer: "Agora, vinte anos depois, ela não lembrava a cor dos olhos dele.",
         altAnswers: [
           "Agora, vinte anos depois, ela não se lembrava da cor dos olhos dele.",
@@ -2498,7 +2498,7 @@ export const PT_C2_U15: Lesson[] = [
           { es: "O copo ficou no banco, cheio, ao lado dela.", en: "The cup stayed on the bench beside her, full." },
           { es: "Quando o ônibus de Caruaru encostou, ela se levantou e esfregou as mãos.", en: "When the bus from Caruaru pulled in, she stood up and rubbed her hands." },
           { es: "Ela ficou sentada mais meia hora.", en: "She stayed sitting there another half hour." },
-          { es: "Depois jogou o café no lixo e foi embora.", en: "Then she threw the coffee in the bin and left." },
+          { es: "Depois jogou o café no lixo e foi embora.", en: "Then she threw the coffee in the trash and left." },
         ],
         checkpoint: [
           {
@@ -2531,7 +2531,7 @@ export const PT_C2_U15: Lesson[] = [
             audio: "Depois jogou o café no lixo e foi embora.",
             question: "What does it mean?",
             options: [
-              "Then she threw the coffee in the bin and left.",
+              "Then she threw the coffee in the trash and left.",
               "Then she drank the coffee and went home.",
               "Then she bought another coffee and waited.",
               "Then she spilled the coffee and sat down again.",
@@ -2544,12 +2544,12 @@ export const PT_C2_U15: Lesson[] = [
       {
         heading: "The omniscient narrator: both sides of the road",
         body: [
-          "The omniscient narrator can go where Rita can't: into her memory, into the brother's head, ahead in time. \"Rita não sabia que, a duzentos quilômetros dali, o irmão olhava a passagem em cima da mesa.\" The ripples now run the other way: \"dali\" replaces Rita's \"daqui\", because the narrator isn't standing anywhere; the conditional appears for the future of the past (\"ele nunca chegaria a usá-la\").",
+          "The omniscient narrator can go where Rita can't: into her memory, into the brother's head, ahead in time. \"Rita não sabia que, a cento e trinta quilômetros dali, o irmão olhava a passagem em cima da mesa.\" The ripples now run the other way: \"dali\" replaces Rita's \"daqui\", because the narrator isn't standing anywhere; the conditional appears for the future of the past (\"ele nunca chegaria a usá-la\").",
           "Use the power sparingly. Telling the reader why the brother stayed home answers the story's question and kills its tension; an omniscient narrator who knows and withholds is often stronger than one who tells all. One line about the ticket on the table is enough.",
           "When you transform a scene, list the ripple effects before you write: person, possessives, deictics (\"aqui\" / \"ali\", \"hoje\" / \"naquele dia\"), what the narrator may know, and the tenses that follow from that.",
         ],
         examples: [
-          { es: "Rita não sabia que, a duzentos quilômetros dali, o irmão olhava a passagem em cima da mesa.", en: "Rita didn't know that, two hundred kilometres away, her brother was looking at the ticket on the table." },
+          { es: "Rita não sabia que, a cento e trinta quilômetros dali, o irmão olhava a passagem em cima da mesa.", en: "Rita didn't know that, a hundred and thirty kilometers away, her brother was looking at the ticket on the table." },
           { es: "Ele nunca chegaria a usá-la.", en: "He would never get to use it." },
           { es: "Ela lembrou da última vez que o vira, no enterro da mãe.", en: "She remembered the last time she had seen him, at their mother's funeral." },
           { es: "Naquele dia, ninguém na rodoviária reparou nela.", en: "That day, nobody at the bus station noticed her." },
@@ -2560,16 +2560,17 @@ export const PT_C2_U15: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese, as an omniscient narrator.",
-            source: "Rita didn't know that, two hundred kilometres away, her brother was looking at the ticket on the table.",
-            answer: "Rita não sabia que, a duzentos quilômetros dali, o irmão olhava a passagem em cima da mesa.",
+            source: "Rita didn't know that, a hundred and thirty kilometers away, her brother was looking at the ticket on the table.",
+            answer: "Rita não sabia que, a cento e trinta quilômetros dali, o irmão olhava a passagem em cima da mesa.",
             altAnswers: [
-              "Rita não sabia que, a duzentos quilômetros dali, o irmão dela olhava a passagem em cima da mesa.",
-              "Rita não sabia que, a duzentos quilômetros dali, o irmão estava olhando a passagem em cima da mesa.",
-              "Rita não sabia que, a duzentos quilômetros dali, o irmão olhava para a passagem em cima da mesa.",
-              "Rita não sabia que, a duzentos quilômetros de lá, o irmão olhava a passagem em cima da mesa.",
-              "Rita não sabia que, a duzentos quilômetros dali, o irmão olhava a passagem sobre a mesa.",
+              "Rita não sabia que, a cento e trinta quilômetros dali, o irmão dela olhava a passagem em cima da mesa.",
+              "Rita não sabia que, a cento e trinta quilômetros dali, o irmão estava olhando a passagem em cima da mesa.",
+              "Rita não sabia que, a cento e trinta quilômetros dali, o irmão olhava para a passagem em cima da mesa.",
+              "Rita não sabia que, a cento e trinta quilômetros de lá, o irmão olhava a passagem em cima da mesa.",
+              "Rita não sabia que, a cento e trinta quilômetros dali, o irmão olhava a passagem sobre a mesa.",
+          "Rita não sabia que, a 130 quilômetros dali, o irmão olhava a passagem em cima da mesa.",
             ],
-            explanation: "Distance takes \"a\": \"a duzentos quilômetros\". \"Dali\" (from there) replaces the character's \"daqui\". A bus ticket is \"passagem\".",
+            explanation: "Distance takes \"a\": \"a cento e trinta quilômetros\". \"Dali\" (from there) replaces the character's \"daqui\". A bus ticket is \"passagem\".",
           },
           {
             type: "fill-blank",
@@ -2577,7 +2578,7 @@ export const PT_C2_U15: Lesson[] = [
             en: "She remembered the last time [she had seen him], at their mother's funeral.",
             sentence: "Ela lembrou da última vez que ___, no enterro da mãe.",
             answer: "o vira",
-            altAnswers: ["o tinha visto", "o havia visto", "tinha visto ele", "o viu"],
+            altAnswers: ["o tinha visto", "o havia visto", "tinha visto ele"],
             explanation: "The simple mais-que-perfeito \"vira\" with the pronoun before it is literary; \"o tinha visto\" is the everyday written choice.",
           },
         ],
@@ -2688,7 +2689,7 @@ export const PT_C2_U15: Lesson[] = [
         type: "speak",
         text: "Rita não sabia que o irmão olhava a passagem em cima da mesa.",
         prompt: "Say it in Portuguese: Rita didn't know that her brother was looking at the ticket on the table.",
-        tip: "\"Passagem\" ends in a nasal sound: pa-SSA-gẽy.",
+        tip: "\"Passagem\" ends in a nasal sound: pa-SA-zhẽi.",
         explanation: "The omniscient narrator knows what the character doesn't.",
       },
     ],
@@ -2706,7 +2707,7 @@ export const PT_C2_U15: Lesson[] = [
       {
         heading: "Punctuation and verbos dicendi",
         body: [
-          "These sentences come from stories that learners sent to a writing workshop in Curitiba. The first group breaks the dialogue conventions. \"*'Não vou,' disse ela.\" uses English quotation marks and the English comma; Brazilian prose writes \"— Não vou — disse ela.\" \"*— Não vou. — Disse ela.\" keeps the full stop and capitalises the verb; both must go.",
+          "These sentences come from stories that learners sent to a writing workshop in Curitiba. The first group breaks the dialogue conventions. \"*'Não vou,' disse ela.\" uses English quotation marks and the English comma; Brazilian prose writes \"— Não vou — disse ela.\" \"*— Não vou. — Disse ela.\" keeps the period and capitalizes the verb; both must go.",
           "The second group piles up dicendi verbs and adverbs: \"*— Sim — balbuciou ela timidamente, murmurando.\" One precise verb is enough: \"— Sim — balbuciou ela.\" Watch also for calques: \"*disse ele de volta\" (said back) is \"respondeu\"; \"*ela pensou para si mesma\" (thought to herself) is just \"pensou\"; \"*ela perguntou uma pergunta\" is \"fez uma pergunta\".",
         ],
         examples: [
@@ -2759,21 +2760,21 @@ export const PT_C2_U15: Lesson[] = [
         body: [
           "Perspective slips are harder to see because each sentence is correct on its own. In a first-person story: \"*Meu chefe entrou na sala. Ele estava pensando na esposa, que o traíra.\" The narrator can't know this. Fix it by turning knowledge into inference (\"Parecia distraído\") or into something he was told later (\"Soube depois que...\").",
           "Tense drift is the other frequent error: \"*Ela abriu a janela e vê o mar.\" Pick one frame: \"Ela abriu a janela e viu o mar.\" A related slip is forgetting the mais-que-perfeito in a flashback: \"*Quando ela chegou, o trem saiu\" says the train left when she arrived; the writer meant \"o trem já tinha saído\".",
-          "Finally, the false friend that ruins countless stories: \"realizar\" is to carry out or to achieve, never to realise in the sense of notice. \"*Ela realizou que estava sozinha\" is \"Ela percebeu que estava sozinha\" or \"Ela se deu conta de que estava sozinha\".",
+          "Finally, the false friend that ruins countless stories: \"realizar\" is to carry out or to achieve, never to realize in the sense of notice. \"*Ela realizou que estava sozinha\" is \"Ela percebeu que estava sozinha\" or \"Ela se deu conta de que estava sozinha\".",
         ],
         examples: [
           { es: "Meu chefe entrou na sala. Parecia distraído.", en: "My boss came into the room. He seemed distracted." },
           { es: "Soube depois que a mulher dele tinha ido embora.", en: "I found out later that his wife had left." },
           { es: "Ela abriu a janela e viu o mar.", en: "She opened the window and saw the sea." },
           { es: "Quando ela chegou, o trem já tinha saído.", en: "When she arrived, the train had already left." },
-          { es: "Ela se deu conta de que estava sozinha na casa.", en: "She realised she was alone in the house." },
+          { es: "Ela se deu conta de que estava sozinha na casa.", en: "She realized she was alone in the house." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "A learner wrote \"*Ela realizou que estava sozinha na casa.\" Translate the English correctly.",
-            source: "She realised she was alone in the house.",
+            source: "She realized she was alone in the house.",
             answer: "Ela se deu conta de que estava sozinha na casa.",
             altAnswers: [
               "Ela percebeu que estava sozinha na casa.",
@@ -2782,7 +2783,7 @@ export const PT_C2_U15: Lesson[] = [
               "Ela percebeu que estava sozinha em casa.",
               "Se deu conta de que estava sozinha na casa.",
             ],
-            explanation: "Realise is \"perceber\" or \"dar-se conta de\". \"Realizar\" means to carry out (\"realizar um sonho\").",
+            explanation: "Realize is \"perceber\" or \"dar-se conta de\". \"Realizar\" means to carry out (\"realizar um sonho\").",
           },
           {
             type: "fill-blank",
@@ -2819,7 +2820,7 @@ export const PT_C2_U15: Lesson[] = [
           { es: "Ela deixou o café esfriar.", en: "She let her coffee go cold." },
           { es: "Ninguém tocou no bolo de aniversário.", en: "Nobody touched the birthday cake." },
           { es: "O pai ficou olhando a televisão desligada.", en: "Her father sat there staring at the switched-off television." },
-          { es: "Ela guardou o vestido da festa no fundo do armário.", en: "She put the party dress away at the back of the wardrobe." },
+          { es: "Ela guardou o vestido da festa no fundo do armário.", en: "She put the party dress away at the back of the closet." },
         ],
         checkpoint: [
           {
@@ -2852,7 +2853,7 @@ export const PT_C2_U15: Lesson[] = [
         question: "A learner wrote \"*'Não vou,' disse ela.\" Which is the correct Brazilian version?",
         options: ["— Não vou — disse ela.", "— Não vou, — disse ela.", "— Não vou. — Disse ela.", "\"— Não vou\" — disse ela."],
         correctIndex: 0,
-        explanation: "Travessão, no comma or full stop before the second dash, and a lower-case verb.",
+        explanation: "Travessão, no comma or period before the second dash, and a lower-case verb.",
       },
       {
         type: "translate",
@@ -2884,11 +2885,11 @@ export const PT_C2_U15: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ninguém tocou o bolo.\" Translate the English correctly.",
+        prompt: "A learner wrote \"Ninguém tocou o bolo.\" Translate the English the most natural Brazilian way.",
         source: "Nobody touched the birthday cake.",
         answer: "Ninguém tocou no bolo de aniversário.",
         altAnswers: ["Ninguém mexeu no bolo de aniversário.", "Ninguém encostou no bolo de aniversário."],
-        explanation: "\"Tocar\" meaning to touch takes \"em\": \"tocar no bolo\". \"Tocar o bolo\" sounds like playing it as an instrument.",
+        explanation: "In everyday Brazilian Portuguese, touching something you shouldn't is \"tocar em\" or \"mexer em\": \"tocar no bolo\". A direct object (\"tocar o bolo\") is possible in formal writing, but here it sounds stiff.",
       },
       {
         type: "multiple-choice",
@@ -2932,13 +2933,13 @@ export const PT_C2_U15: Lesson[] = [
         audio: "Ela se deu conta de que estava sozinha na casa.",
         question: "What does it mean?",
         options: [
-          "She realised she was alone in the house.",
+          "She realized she was alone in the house.",
           "She achieved her dream of a house of her own.",
           "She decided to stay alone in the house.",
           "She told herself she would be alone in the house.",
         ],
         correctIndex: 0,
-        explanation: "\"Dar-se conta de\" is to realise. Achieved a dream would be \"realizou um sonho\".",
+        explanation: "\"Dar-se conta de\" is to realize. Achieved a dream would be \"realizou um sonho\".",
       },
       {
         type: "dictation",
@@ -2949,7 +2950,7 @@ export const PT_C2_U15: Lesson[] = [
         type: "speak",
         text: "Ele guardou o presente de volta na sacola.",
         prompt: "Say it in Portuguese: He put the present back in the bag.",
-        tip: "\"Guardou\": the u after g is pronounced, gu-ar-DOU.",
+        tip: "\"Guardou\": the u after g is pronounced as a w glide, gwar-DOU.",
         explanation: "A concrete action that shows rejection without naming it.",
       },
     ],
@@ -2976,7 +2977,7 @@ export const PT_C2_U15: Lesson[] = [
           { es: "O conto deverá ter no máximo cinco laudas.", en: "The story must be no longer than five pages." },
           { es: "Os textos deverão ser assinados com pseudônimo.", en: "Texts must be signed with a pen name." },
           { es: "Será desclassificado o texto que identificar o autor.", en: "Any text that identifies its author will be disqualified." },
-          { es: "O prazo de inscrição termina no dia 30 de setembro.", en: "The deadline for entries is 30 September." },
+          { es: "O prazo de inscrição termina no dia 30 de setembro.", en: "The deadline for entries is September 30." },
           { es: "Os três primeiros colocados terão seus contos publicados em antologia.", en: "The top three will have their stories published in an anthology." },
         ],
         checkpoint: [
@@ -3024,7 +3025,7 @@ export const PT_C2_U15: Lesson[] = [
         heading: "Planning: title, opening, scenes",
         body: [
           "Plan before you write. Choose the narrator and the tense in one sentence each. Write the two-sentence summary from the conto lesson, with \"mas\" and \"então\". Then list three or four scenes, each with what the character wants and what blocks her, and mark the turning point.",
-          "The title in Portuguese is usually short and concrete, often a noun phrase: \"O Copo\", \"A Volta de Rita\", \"Domingo na Rodoviária\". Brazilian titles capitalise the first word and proper nouns, and many writers also capitalise the main words; be consistent. Avoid titles that give away the ending.",
+          "The title in Portuguese is usually short and concrete, often a noun phrase: \"O Copo\", \"A Volta de Rita\", \"Domingo na Rodoviária\". Brazilian titles capitalize the first word and proper nouns, and many writers also capitalize the main words; be consistent. Avoid titles that give away the ending.",
           "Write the opening last, or rewrite it at the end: by then you know which question the story really asks.",
         ],
         examples: [
@@ -3118,7 +3119,7 @@ export const PT_C2_U15: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[The deadline for entries] is 30 September.",
+        en: "[The deadline for entries] is September 30.",
         sentence: "___ termina no dia 30 de setembro.",
         answer: "O prazo de inscrição",
         altAnswers: ["O prazo das inscrições", "O prazo para inscrição", "O prazo para inscrições", "O prazo de inscrições"],
@@ -3222,6 +3223,6 @@ export const PT_C2_U15_WRITING: WriteExercise = {
     "Includes a passage where a character's thoughts enter the narration without a verb of thinking, with backshifted tenses (\"Claro que tinha perdido. Vinha no próximo\").",
     "Shows feelings through gestures, objects and the senses instead of naming them, varies sentence length with at least one strategic fragment, and ends on a concrete image.",
   ],
-  modelAnswer: "Domingo na Rodoviária\n\nCheguei à rodoviária de Recife uma hora antes. Comprei um café que não bebi e sentei no banco de frente para a plataforma sete, onde encostavam os ônibus de Caruaru.\n\nFazia dez anos que eu não via meu irmão. A última vez tinha sido no enterro da nossa mãe, quando ele saíra do cemitério sem se despedir de ninguém. Depois vieram as mensagens de aniversário, cada vez mais curtas, e por fim nem isso. Até que, na quinta-feira, o celular vibrou: \"Domingo eu chego. Às quatro.\"\n\nÀs três e meia, uma senhora sentou ao meu lado com uma sacola de mangas.\n\n— Tá esperando alguém, minha filha?\n\n— Meu irmão — respondi.\n\n— Faz tempo que não vê?\n\n— Um pouco.\n\nEla riu, como quem sabe.\n\n— Um pouco é muito, né?\n\nO ônibus das quatro chegou às quatro e vinte. Desceram dois soldados, uma moça com um bebê no colo, um rapaz de boné. Ele não. Fiquei olhando a porta aberta, o motorista acendendo um cigarro, o bagageiro vazio.\n\nE se ele tivesse perdido o ônibus? Claro que tinha perdido. Ele sempre perdia tudo: a hora, a chave, a mãe. Vinha no próximo, com certeza vinha.\n\nO próximo chegou às seis. Depois, o das oito.\n\n— Vai uma manga? — ofereceu a senhora, já de pé, ajeitando a sacola no ombro.\n\n— Não, obrigada — balbuciei.\n\nEla deixou uma mesmo assim no banco, ao lado do café frio.\n\nÀs nove, apagaram metade das luzes da plataforma. Joguei o café no lixo. A manga, eu levei.\n\nEm casa, coloquei a fruta na mesa da cozinha, onde a mãe deixava as dela, e fiquei ali, no escuro, sentindo o cheiro doce tomar conta da casa inteira.",
+  modelAnswer: "Domingo na Rodoviária\n\nCheguei à rodoviária do Recife uma hora antes. Comprei um café que não bebi e sentei no banco de frente para a plataforma sete, onde encostavam os ônibus de Caruaru.\n\nFazia dez anos que eu não via meu irmão. A última vez tinha sido no enterro da nossa mãe, quando ele saíra do cemitério sem se despedir de ninguém. Depois vieram as mensagens de aniversário, cada vez mais curtas, e por fim nem isso. Até que, na quinta-feira, o celular vibrou: \"Domingo eu chego. Às quatro.\"\n\nÀs três e meia, uma senhora sentou ao meu lado com uma sacola de mangas.\n\n— Tá esperando alguém, minha filha?\n\n— Meu irmão — respondi.\n\n— Faz tempo que não vê?\n\n— Um pouco.\n\nEla riu, como quem sabe.\n\n— Um pouco é muito, né?\n\nO ônibus das quatro chegou às quatro e vinte. Desceram dois soldados, uma moça com um bebê no colo, um rapaz de boné. Ele não. Fiquei olhando a porta aberta, o motorista acendendo um cigarro, o bagageiro vazio.\n\nE se ele tivesse perdido o ônibus? Claro que tinha perdido. Ele sempre perdia tudo: a hora, a chave, a mãe. Vinha no próximo, com certeza vinha.\n\nO próximo chegou às seis. Depois, o das oito.\n\n— Vai uma manga? — ofereceu a senhora, já de pé, ajeitando a sacola no ombro.\n\n— Não, obrigada — balbuciei.\n\nEla deixou uma mesmo assim no banco, ao lado do café frio.\n\nÀs nove, apagaram metade das luzes da plataforma. Joguei o café no lixo. A manga, eu levei.\n\nEm casa, coloquei a fruta na mesa da cozinha, onde a mãe deixava as dela, e fiquei ali, no escuro, sentindo o cheiro doce tomar conta da casa inteira.",
   explanation: "The model is told by a \"narradora-personagem\" in the past and never enters anyone else's head: the old woman's understanding is shown by a laugh (\"Ela riu, como quem sabe\"). The flashback opens with the \"mais-que-perfeito\" (\"tinha sido\", \"saíra\") and slides back into the perfeito. The dialogue uses the \"travessão\", lower-case attributions (\"respondi\", \"ofereceu a senhora\", \"balbuciei\") and spoken forms only in the old woman's mouth (\"Tá\", \"né\", \"minha filha\"). The paragraph \"E se ele tivesse perdido o ônibus? Claro que tinha perdido...\" gives the narrator's thoughts at that moment without a verb of thinking, in backshifted tenses. Feelings are never named: the undrunk coffee, the empty luggage hold and the mango carry the hope and the loss. Fragments (\"Ele não.\", \"Depois, o das oito.\") change the rhythm, and the story ends on an image of smell, not on a moral.",
 };

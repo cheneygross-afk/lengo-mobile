@@ -217,10 +217,10 @@ export const FR_B1_U29: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A colleague asks: « Ça vous dérange si j'ouvre la fenêtre ? » You're fine with it. What do you answer?",
-        options: ["Non, pas du tout.", "Oui, bien sûr.", "Oui, ça me dérange.", "Si, allez-y."],
+        question: "A colleague asks: \"Ça vous dérange si j'ouvre la fenêtre ?\" You're fine with it. What do you answer?",
+        options: ["Non, pas du tout.", "Oui, beaucoup.", "Oui, ça me dérange.", "Si, allez-y."],
         correctIndex: 0,
-        explanation: "The question is whether it bothers you, so no means go ahead: \"Non, pas du tout\". \"Oui, bien sûr\" would literally say yes, it bothers me.",
+        explanation: "The question is whether it bothers you, so no means go ahead: \"Non, pas du tout\". \"Oui, beaucoup\" and \"Oui, ça me dérange\" say it does bother you, and \"si\" only answers a negative question.",
       },
       {
         type: "translate",
@@ -780,9 +780,9 @@ export const FR_B1_U29: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence says 'I hope the charity will find new premises'?",
-            options: ["J'espère que l'association trouvera de nouveaux locaux.", "J'espère que l'association trouve de nouveaux locaux.", "J'espère que l'association trouverait de nouveaux locaux.", "J'espère que l'association ait trouvé de nouveaux locaux."],
+            options: ["J'espère que l'association trouvera de nouveaux locaux.", "J'espère que l'association trouvera de nouvelles locaux.", "J'espère que l'association trouverait de nouveaux locaux.", "J'espère que l'association ait trouvé de nouveaux locaux."],
             correctIndex: 0,
-            explanation: "\"Espérer que\" takes the indicative, usually the future for a hope about the future. \"Trouve\" would read as a subjunctive, which is wrong here.",
+            explanation: "\"Espérer que\" takes the indicative, usually the future for a hope about the future. The subjunctive \"ait trouvé\" is wrong after \"espérer que\", the conditional \"trouverait\" changes the meaning, and \"locaux\" is masculine, so it takes \"nouveaux\".",
           },
           {
             type: "translate",
@@ -922,7 +922,7 @@ export const FR_B1_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The receptionist asks: « C'est de la part de qui ? » What does she want to know?",
+            question: "The receptionist asks: \"C'est de la part de qui ?\" What does she want to know?",
             options: ["Who's calling", "Which department you want", "Why you're calling", "Who gave you the number"],
             correctIndex: 0,
             explanation: "\"C'est de la part de qui ?\" literally means on whose behalf, i.e. who's calling.",
@@ -1796,7 +1796,7 @@ export const FR_B1_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Je suis à découvert. » What's the situation?",
+            question: "\"Je suis à découvert.\" What's the situation?",
             options: ["My account is overdrawn.", "I've discovered a mistake.", "My card has been blocked.", "I've opened a new account."],
             correctIndex: 0,
             explanation: "\"Être à découvert\" means being overdrawn (literally uncovered).",
@@ -1916,7 +1916,7 @@ export const FR_B1_U29: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your landlord asks for « un RIB ». What does he want?",
+        question: "Your landlord asks for \"un RIB\". What does he want?",
         options: ["Your bank details", "A rent receipt", "Your ID card", "A reference from your employer"],
         correctIndex: 0,
         explanation: "\"Un RIB\" (relevé d'identité bancaire) is the document with your account details, needed for direct debits and salaries.",
@@ -1970,8 +1970,8 @@ export const FR_B1_U29: Lesson[] = [
       {
         heading: "The chat and the register mistakes",
         body: [
-          "The students of an evening class at the Alliance française in Bordeaux have a WhatsApp group that includes their teacher, Mme Garnier. Here's Tom's first message: « Salut Garnier ! T'es dispo demain ? Tu peux m'envoyer le PDF, stp ? » It's friendly, but completely off-register: you don't address a teacher by her surname alone, and a teacher you say vous to stays \"vous\" even in a chat.",
-          "Corrected: « Bonjour Madame Garnier, est-ce que vous seriez disponible demain ? Pourriez-vous m'envoyer le PDF, s'il vous plaît ? » Messages to the other students can stay casual, with \"tu\", dropped \"ne\" and abbreviations; that's the point of register: matching the person, not the medium.",
+          "The students of an evening class at the Alliance française in Bordeaux have a WhatsApp group that includes their teacher, Mme Garnier. Here's Tom's first message: \"Salut Garnier ! T'es dispo demain ? Tu peux m'envoyer le PDF, stp ?\" It's friendly, but completely off-register: you don't address a teacher by her surname alone, and a teacher you say vous to stays \"vous\" even in a chat.",
+          "Corrected: \"Bonjour Madame Garnier, est-ce que vous seriez disponible demain ? Pourriez-vous m'envoyer le PDF, s'il vous plaît ?\" Messages to the other students can stay casual, with \"tu\", dropped \"ne\" and abbreviations; that's the point of register: matching the person, not the medium.",
           "Other register mistakes in the chat: \"Coucou madame\" (\"coucou\" is for friends and family), \"Merci beaucoup, bisous !\" to the teacher (use \"Bonne soirée\" or \"Merci beaucoup, bonne journée\").",
         ],
         examples: [
@@ -1985,7 +1985,7 @@ export const FR_B1_U29: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Tom wrote « Tu peux m'envoyer le PDF, stp ? » to the teacher. Write it correctly: Could you send me the PDF, please?",
+            prompt: "Tom wrote \"Tu peux m'envoyer le PDF, stp ?\" to the teacher. Write it correctly: Could you send me the PDF, please?",
             source: "Could you send me the PDF, please? (to the teacher)",
             answer: "Pourriez-vous m'envoyer le PDF, s'il vous plaît ?",
             altAnswers: ["Vous pourriez m'envoyer le PDF, s'il vous plaît ?", "Est-ce que vous pourriez m'envoyer le PDF, s'il vous plaît ?", "Pouvez-vous m'envoyer le PDF, s'il vous plaît ?", "Est-ce que vous pouvez m'envoyer le PDF, s'il vous plaît ?"],
@@ -2003,9 +2003,9 @@ export const FR_B1_U29: Lesson[] = [
       {
         heading: "Pronoun order mistakes",
         body: [
-          "Next, Inès writes: « Le livre de Julie ? Je lui le rends demain. » The two pronouns are in the wrong order. Before the verb, the order is: me / te / se / nous / vous → le / la / les → lui / leur → y → en. So \"le\" comes before \"lui\": « Je le lui rends demain ».",
-          "And Paul writes: « Les exercices ? Envoie-moi-les ! » In an affirmative imperative, the direct object comes first: « Envoie-les-moi ! » In the negative, the normal order comes back: « Ne me les envoie pas ».",
-          "Finally Sofia: « Il y a des croissants ? Oui, j'en y ai apporté. » \"Y\" and \"en\" together are always \"y en\" (\"il y en a\"), but here \"y\" isn't needed at all: « Oui, j'en ai apporté ».",
+          "Next, Inès writes: \"Le livre de Julie ? Je lui le rends demain.\" The two pronouns are in the wrong order. Before the verb, the order is: me / te / se / nous / vous → le / la / les → lui / leur → y → en. So \"le\" comes before \"lui\": \"Je le lui rends demain\".",
+          "And Paul writes: \"Les exercices ? Envoie-moi-les !\" In an affirmative imperative, the direct object comes first: \"Envoie-les-moi !\" In the negative, the normal order comes back: \"Ne me les envoie pas\".",
+          "Finally Sofia: \"Il y a des croissants ? Oui, j'en y ai apporté.\" \"Y\" and \"en\" together are always \"y en\" (\"il y en a\"), but here \"y\" isn't needed at all: \"Oui, j'en ai apporté\".",
         ],
         examples: [
           { es: "Le livre de Julie ? Je le lui rends demain.", en: "Julie's book? I'm giving it back to her tomorrow." },
@@ -2019,7 +2019,7 @@ export const FR_B1_U29: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Inès wrote « Je lui le rends demain ». Write the correct French for: I'm giving it back to her tomorrow.",
+            prompt: "Inès wrote \"Je lui le rends demain\". Write the correct French for: I'm giving it back to her tomorrow.",
             source: "I'm giving it back to her tomorrow. (the book)",
             answer: "Je le lui rends demain.",
             altAnswers: ["Je vais le lui rendre demain.", "Je le lui rendrai demain."],
@@ -2039,7 +2039,7 @@ export const FR_B1_U29: Lesson[] = [
       {
         heading: "Mood mistakes",
         body: [
-          "The last messages: « Il faut que tu viens à 18 h » should be « Il faut que tu viennes » (subjunctive after \"il faut que\"). « Si tu viendrais, apporte du pain » should be « Si tu viens, apporte du pain » (never the conditional after si). « Je pense que ce soit une bonne idée » should be « Je pense que c'est une bonne idée » (affirmative \"penser\" takes the indicative). And « J'espère que tu sois là » should be « J'espère que tu seras là ».",
+          "The last messages: \"Il faut que tu viens à 18 h\" should be \"Il faut que tu viennes\" (subjunctive after \"il faut que\"). \"Si tu viendrais, apporte du pain\" should be \"Si tu viens, apporte du pain\" (never the conditional after si). \"Je pense que ce soit une bonne idée\" should be \"Je pense que c'est une bonne idée\" (affirmative \"penser\" takes the indicative). And \"J'espère que tu sois là\" should be \"J'espère que tu seras là\".",
           "A quick test: emotion, necessity, wish, doubt → subjunctive. Opinion stated as fact, hope (\"espérer\"), certainty → indicative. Si (if) → never the future or conditional.",
         ],
         examples: [
@@ -2054,7 +2054,7 @@ export const FR_B1_U29: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Someone wrote « Il faut que tu viens à 18 h ». Write the correct French for: You need to come at 6 p.m.",
+            prompt: "Someone wrote \"Il faut que tu viens à 18 h\". Write the correct French for: You need to come at 6 p.m.",
             source: "You need to come at 6 p.m. (to a friend)",
             answer: "Il faut que tu viennes à 18 heures.",
             altAnswers: ["Il faut que tu viennes à 18 h.", "Il faut que tu viennes à dix-huit heures.", "Tu dois venir à 18 heures.", "Tu dois venir à 18 h."],
@@ -2062,7 +2062,7 @@ export const FR_B1_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which correction of « J'espère que tu sois là » is right?",
+            question: "Which correction of \"J'espère que tu sois là\" is right?",
             options: ["J'espère que tu seras là.", "J'espère que tu serais là.", "J'espère que tu es été là.", "J'espère que tu soyez là."],
             correctIndex: 0,
             explanation: "\"Espérer que\" takes the indicative, usually the future for something to come.",
@@ -2125,7 +2125,7 @@ export const FR_B1_U29: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Paul wrote « Envoie-moi-les ! » Which is correct?",
+        question: "Paul wrote \"Envoie-moi-les !\" Which is correct?",
         options: ["Envoie-les-moi !", "Envoie-me-les !", "Les-moi envoie !", "Envoie-les-me !"],
         correctIndex: 0,
         explanation: "Affirmative imperative: direct before indirect, and \"me\" becomes \"moi\" at the end.",
@@ -2188,7 +2188,7 @@ export const FR_B1_U29: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "An ad says « T3, 900 € HC ». What does it mean?",
+            question: "An ad says \"T3, 900 € HC\". What does it mean?",
             options: ["A two-bedroom flat at 900 euros, charges not included", "A three-bedroom flat at 900 euros, charges included", "A flat on the third floor at 900 euros, heating included", "A three-room house at 900 euros a year"],
             correctIndex: 0,
             explanation: "T3 = three main rooms (living room + two bedrooms); HC = \"hors charges\", charges extra.",
@@ -2433,7 +2433,7 @@ export const FR_B1_U29: Lesson[] = [
             prompt: "Translate into French.",
             source: "Did you send it to her? (the file, polite)",
             answer: "Vous le lui avez envoyé ?",
-            altAnswers: ["Est-ce que vous le lui avez envoyé ?", "Le lui avez-vous envoyé ?", "Tu le lui as envoyé ?", "Est-ce que tu le lui as envoyé ?"],
+            altAnswers: ["Est-ce que vous le lui avez envoyé ?", "Le lui avez-vous envoyé ?"],
             explanation: "\"Le\" (the file) before \"lui\" (to her), both before the auxiliary.",
           },
           {
@@ -2523,7 +2523,7 @@ export const FR_B1_U29: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Vous avez parlé des travaux au propriétaire ? » Which answer replaces both objects?",
+        question: "\"Vous avez parlé des travaux au propriétaire ?\" Which answer replaces both objects?",
         options: ["Oui, je lui en ai parlé.", "Oui, je l'en ai parlé.", "Oui, je lui y ai parlé.", "Oui, je en lui ai parlé."],
         correctIndex: 0,
         explanation: "\"Au propriétaire\" → \"lui\", \"des travaux\" → \"en\", in the order \"lui en\".",

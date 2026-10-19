@@ -24,7 +24,7 @@ export const FR_A2_U10: Lesson[] = [
           { es: "Lyon est aussi beau que Bordeaux.", en: "Lyon is as beautiful as Bordeaux." },
           { es: "Ce livre est plus intéressant que le film.", en: "This book is more interesting than the film." },
           { es: "Les fraises sont plus chères qu'en été.", en: "Strawberries are more expensive than in summer." },
-          { es: "Mon appartement est moins lumineux que le tien.", en: "My flat is less bright than yours." },
+          { es: "Mon appartement est moins lumineux que la maison de mes parents.", en: "My flat is less bright than my parents' house." },
         ],
         checkpoint: [
           {
@@ -301,7 +301,7 @@ export const FR_A2_U10: Lesson[] = [
         ],
         examples: [
           { es: "Les tomates sont moins chères au marché.", en: "Tomatoes are cheaper at the market." },
-          { es: "Ces chaussures coûtent plus cher que les miennes.", en: "These shoes cost more than mine." },
+          { es: "Ces chaussures coûtent plus cher que mes bottes.", en: "These shoes cost more than my boots." },
           { es: "Le café est aussi cher ici qu'à la gare.", en: "Coffee is as expensive here as at the station." },
           { es: "C'est moins cher en ligne.", en: "It's cheaper online." },
         ],
@@ -379,10 +379,10 @@ export const FR_A2_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "Our flat is [bigger than theirs]. They have a studio.",
-        sentence: "Notre appartement est ___. Ils ont un studio.",
-        answer: "plus grand que le leur",
-        explanation: "\"Le leur\" = theirs (a possessive pronoun).",
+        en: "Our flat is [bigger than their studio].",
+        sentence: "Notre appartement est ___.",
+        answer: "plus grand que leur studio",
+        explanation: "\"Plus\" + adjective + \"que\"; \"grand\" agrees with \"appartement\", and \"leur\" (their) goes before a singular noun.",
       },
       {
         type: "translate",
@@ -438,7 +438,7 @@ export const FR_A2_U10: Lesson[] = [
         body: [
           "The superlative is the comparative with the definite article in front: \"le plus grand\" (the biggest), \"la plus chère\" (the most expensive), \"les moins chers\" (the cheapest, literally the least expensive). The article and the adjective both agree with the noun.",
           "Where does it go? Where the adjective normally goes. Adjectives that come before the noun (grand, petit, beau, jeune, vieux, bon...) keep that position: \"la plus belle ville\", \"le plus petit appartement\".",
-          "Adjectives that come after the noun stay after it, and then the article is repeated: \"le restaurant le plus cher\", \"la ville la plus calme\", \"les quartiers les plus animés\". Forgetting the second article (\"le restaurant plus cher\") changes the meaning to a more expensive restaurant.",
+          "Adjectives that come after the noun stay after it, and then the article is repeated: \"le restaurant le plus cher\", \"la ville la plus calme\", \"les quartiers les plus animés\". Forgetting the second article (\"le restaurant plus cher\") changes the meaning to 'the more expensive restaurant'.",
         ],
         examples: [
           { es: "C'est la plus belle ville de France.", en: "It's the most beautiful city in France." },
@@ -582,8 +582,8 @@ export const FR_A2_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "This cake is better than yours. (to a friend)",
-        answer: "Ce gâteau est meilleur que le tien.",
+        source: "This cake is better than the tart.",
+        answer: "Ce gâteau est meilleur que la tarte.",
         explanation: "Never \"plus bon\": \"meilleur\".",
       },
       {
@@ -757,7 +757,7 @@ export const FR_A2_U10: Lesson[] = [
         prompt: "Translate into French.",
         source: "You speak French better than me. (to a friend)",
         answer: "Tu parles mieux français que moi.",
-        altAnswers: ["Tu parles français mieux que moi."],
+        altAnswers: ["Tu parles français mieux que moi.", "Tu parles mieux le français que moi."],
         explanation: "How you speak: \"mieux\".",
       },
       {
@@ -1184,7 +1184,7 @@ export const FR_A2_U10: Lesson[] = [
         prompt: "Translate into French.",
         source: "Flat B is darker than flat A.",
         answer: "L'appartement B est plus sombre que l'appartement A.",
-        altAnswers: ["L'appartement B est plus sombre que l'A.", "B est plus sombre que A."],
+        altAnswers: ["B est plus sombre que A."],
         explanation: "\"Sombre\" = dark.",
       },
       {
@@ -1461,6 +1461,6 @@ export const FR_A2_U10_WRITING: WriteExercise = {
     "Uses at least one superlative with \"de\" for 'in' (\"le quartier le plus animé de la ville\").",
     "Uses \"meilleur\" or \"mieux\" correctly.",
   ],
-  modelAnswer: "Salut Antoine ! Ma ville est plus petite et beaucoup plus calme que Lyon. Les loyers sont moins chers : j'ai un appartement plus grand que le tien pour 600 euros. Mais il y a moins de bars et de cinémas, et les bus sont moins fréquents. Lyon est plus animée et plus pratique pour le travail. Le quartier le plus sympa de Lyon, c'est la Croix-Rousse. Pour toi, je pense que Lyon est le meilleur choix, parce que tu aimes sortir. Tu vas mieux t'amuser là-bas ! Bises, Julie",
+  modelAnswer: "Salut Antoine ! Ma ville est plus petite et beaucoup plus calme que Lyon. Les loyers sont moins chers : j'ai un appartement de 70 m² pour 600 euros. Mais il y a moins de bars et de cinémas, et les bus sont moins fréquents. Lyon est plus animée et plus pratique pour le travail. Le quartier le plus sympa de Lyon, c'est la Croix-Rousse. Pour toi, je pense que Lyon est le meilleur choix, parce que tu aimes sortir. Tu vas mieux t'amuser là-bas ! Bises, Julie",
   explanation: "Adjectives agree after \"plus/moins\" (\"plus petite\", \"plus animée\" for \"ville\"), quantities use \"moins de\" + noun, the superlative repeats the article after the noun and uses \"de\" (\"le quartier le plus sympa de Lyon\"), and \"meilleur\" describes a noun (\"le meilleur choix\") while \"mieux\" describes an action (\"mieux t'amuser\").",
 };

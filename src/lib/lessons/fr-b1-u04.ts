@@ -103,7 +103,7 @@ export const FR_B1_U04: Lesson[] = [
         ],
         examples: [
           { es: "J'espère qu'il viendra.", en: "I hope he'll come." },
-          { es: "Je souhaite qu'il vienne.", en: "I hope he comes." },
+          { es: "Je souhaite qu'il vienne.", en: "I'd like him to come." },
           { es: "J'espère que tu vas mieux.", en: "I hope you're feeling better." },
           { es: "J'espère qu'il fera beau demain.", en: "I hope the weather will be nice tomorrow." },
           { es: "On espère que vous avez fait bon voyage.", en: "We hope you had a good journey." },
@@ -502,7 +502,7 @@ export const FR_B1_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "« Quand j'étais petit, on ___ l'été chez mes grands-parents. » Which form, and why?",
+            question: "\"Quand j'étais petit, on ___ l'été chez mes grands-parents.\" Which form, and why?",
             options: [
               "a passé: a completed event",
               "vient de passer: recent past",
@@ -517,7 +517,7 @@ export const FR_B1_U04: Lesson[] = [
       {
         heading: "A story with gaps",
         body: [
-          "Read this story and decide each verb: « Samedi dernier, Karim (se lever) tard. Il (faire) beau, alors il (décider) d'aller courir. Il (venir de) partir quand il (commencer) à pleuvoir. Il (être en train de) chercher un abri quand il (voir) une ancienne collègue. »",
+          "Read this story and decide each verb: \"Samedi dernier, Karim (se lever) tard. Il (faire) beau, alors il (décider) d'aller courir. Il (venir de) partir quand il (commencer) à pleuvoir. Il (être en train de) chercher un abri quand il (voir) une ancienne collègue.\"",
           "Answers: \"s'est levé\" (event), \"faisait\" (weather), \"a décidé\" (event), \"venait de\" partir (had just), \"a commencé\" (event interrupting), \"était en train de\" chercher (in progress), \"a vu\" (event).",
         ],
         examples: [
@@ -665,7 +665,7 @@ export const FR_B1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Je ___ chez moi depuis une heure. » (être) Which form, and why?",
+        question: "\"Je ___ chez moi depuis une heure.\" (être) Which form, and why?",
         options: [
           "ai été: a completed event",
           "étais: background in the past",
@@ -749,7 +749,7 @@ export const FR_B1_U04: Lesson[] = [
         ],
         examples: [
           { es: "Je suis surpris qu'il ne réponde pas.", en: "I'm surprised he isn't answering." },
-          { es: "C'est bizarre qu'elle ne soit pas encore arrivée.", en: "It's strange that she hasn't arrived yet." },
+          { es: "C'est bizarre qu'elle ne soit pas encore là.", en: "It's strange that she isn't here yet." },
           { es: "Ça m'énerve que le bus soit toujours en retard.", en: "It annoys me that the bus is always late." },
           { es: "Je n'aime pas que tu fumes dans la voiture.", en: "I don't like you smoking in the car." },
           { es: "Ça me dérange que les voisins fassent du bruit la nuit.", en: "It bothers me that the neighbours make noise at night." },
@@ -866,10 +866,10 @@ export const FR_B1_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "It's strange that she hasn't arrived yet.",
-        answer: "C'est bizarre qu'elle ne soit pas encore arrivée.",
-        altAnswers: ["C'est étrange qu'elle ne soit pas encore arrivée."],
-        explanation: "\"C'est bizarre que\" + subjunctive; \"arriver\" takes \"être\".",
+        source: "It's strange that she isn't here yet.",
+        answer: "C'est bizarre qu'elle ne soit pas encore là.",
+        altAnswers: ["C'est étrange qu'elle ne soit pas encore là.", "C'est bizarre qu'elle ne soit pas encore ici."],
+        explanation: "\"C'est bizarre que\" + subjunctive \"soit\", not the indicative \"est\".",
       },
       {
         type: "fill-blank",
@@ -1834,7 +1834,7 @@ export const FR_B1_U04: Lesson[] = [
         heading: "The draft",
         body: [
           "A father, Patrick, writes to his teenage son Hugo, who's spending the week with his grandparents. Patrick is a learner of French as well, and he makes every mood mistake in the book:",
-          "« Hugo, je suis content que tu es chez Papi et Mamie. Je veux que tu fais tes devoirs tous les jours et que tu vas te coucher tôt. J'espère que tu sois gentil avec eux. Je suis désolé que je suis en retard pour t'appeler hier soir. »",
+          "\"Hugo, je suis content que tu es chez Papi et Mamie. Je veux que tu fais tes devoirs tous les jours et que tu vas te coucher tôt. J'espère que tu sois gentil avec eux. Je suis désolé que je suis en retard pour t'appeler hier soir.\"",
           "Four types of mistake: indicative after a subjunctive trigger (\"content que tu es\", \"veux que tu fais\", \"que tu vas\"), subjunctive after \"espérer\" (\"j'espère que tu sois\"), and \"que\" + subjunctive with the same subject (\"je suis désolé que je suis\").",
         ],
         examples: [
@@ -1868,7 +1868,7 @@ export const FR_B1_U04: Lesson[] = [
       {
         heading: "The corrected message",
         body: [
-          "« Hugo, je suis content que tu sois chez Papi et Mamie. Je veux que tu fasses tes devoirs tous les jours et que tu ailles te coucher tôt. J'espère que tu es gentil avec eux. Je suis désolé d'avoir été en retard pour t'appeler hier soir. »",
+          "\"Hugo, je suis content que tu sois chez Papi et Mamie. Je veux que tu fasses tes devoirs tous les jours et que tu ailles te coucher tôt. J'espère que tu es gentil avec eux. Je suis désolé d'avoir été en retard pour t'appeler hier soir.\"",
           "Note the last sentence: since he's apologising for something in the past and it's his own action, the natural form is \"désolé d'avoir été en retard\" (de + past infinitive: \"avoir\" + participle). \"Désolé d'être en retard\" is for right now.",
         ],
         examples: [
@@ -2182,6 +2182,7 @@ export const FR_B1_U04: Lesson[] = [
         prompt: "Translate into French.",
         source: "I'd rather wait.",
         answer: "Je préfère attendre.",
+        altAnswers: ["Je préférerais attendre.", "J'aime mieux attendre."],
         explanation: "Same subject: infinitive.",
       },
       {
@@ -2199,7 +2200,7 @@ export const FR_B1_U04: Lesson[] = [
         prompt: "Translate into French.",
         source: "My friends are happy I'm leaving.",
         answer: "Mes amis sont contents que je parte.",
-        altAnswers: ["Mes amies sont contentes que je parte."],
+        altAnswers: ["Mes amies sont contentes que je parte.", "Mes amis sont contents que je m'en aille."],
         explanation: "\"Contents que\" + \"parte\".",
       },
       {
@@ -2253,7 +2254,7 @@ export const FR_B1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Transform « Je veux partir » so that your brother is the one leaving.",
+        question: "Transform \"Je veux partir\" so that your brother is the one leaving.",
         options: [
           "Je veux que mon frère parte.",
           "Je veux mon frère partir.",
@@ -2341,7 +2342,7 @@ export const FR_B1_U04: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Your colleague asks: « Tu veux que je t'apporte un café ? » You'd like one. What's the most natural answer?",
+            question: "Your colleague asks: \"Tu veux que je t'apporte un café ?\" You'd like one. What's the most natural answer?",
             options: ["Oui, je veux.", "Oui, il faut.", "Oui, je suis content que tu apportes.", "Oui, je veux bien, merci."],
             correctIndex: 3,
             explanation: "\"Je veux bien\" is the polite yes.",
@@ -2592,6 +2593,7 @@ export const FR_B1_U04: Lesson[] = [
             prompt: "Translate into French.",
             source: "He'd rather I drove.",
             answer: "Il préfère que je conduise.",
+            altAnswers: ["Il préférerait que je conduise."],
             explanation: "Different subject: \"que je conduise\" (ils conduisent → conduis-).",
           },
           {
@@ -2668,6 +2670,7 @@ export const FR_B1_U04: Lesson[] = [
         prompt: "Translate into French.",
         source: "It's a shame you're leaving so early. (formal)",
         answer: "C'est dommage que vous partiez si tôt.",
+        altAnswers: ["Dommage que vous partiez si tôt.", "C'est dommage que vous partiez aussi tôt."],
         explanation: "\"C'est dommage que\" + \"partiez\".",
       },
       {
@@ -2704,7 +2707,7 @@ export const FR_B1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Mes parents sont contents ___ en France. » (I'm the one studying)",
+        question: "\"Mes parents sont contents ___ en France.\" (I'm the one studying)",
         options: ["que j'étudie", "d'étudier", "que j'étudies", "que j'étudier"],
         correctIndex: 0,
         explanation: "Your parents feel, you study: different subjects, so \"que j'étudie\".",

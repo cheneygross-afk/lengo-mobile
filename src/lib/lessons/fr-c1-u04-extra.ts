@@ -202,7 +202,7 @@ export const FR_C1_U04_EXTRA: Lesson[] = [
             prompt: "Translate into French with an infinitive.",
             source: "She says she has already paid.",
             answer: "Elle dit avoir déjà payé.",
-            altAnswers: ["Elle affirme avoir déjà payé.", "Elle dit qu'elle a déjà payé."],
+            altAnswers: ["Elle affirme avoir déjà payé."],
             explanation: "Same subject → past infinitive; \"déjà\" between \"avoir\" and the participle.",
           },
           {
@@ -593,7 +593,7 @@ export const FR_C1_U04_EXTRA: Lesson[] = [
         prompt: "Translate into French with a noun phrase.",
         source: "When she left, everyone applauded.",
         answer: "À son départ, tout le monde a applaudi.",
-        altAnswers: ["Lors de son départ, tout le monde a applaudi.", "Quand elle est partie, tout le monde a applaudi."],
+        altAnswers: ["Lors de son départ, tout le monde a applaudi."],
         explanation: "A noun (\"à son départ\") avoids the subject problem.",
       },
       {
@@ -646,7 +646,7 @@ export const FR_C1_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the best fix for: *Étant en retard, le professeur m'a puni?",
+        question: "Which is the best fix for \"*Étant en retard, le professeur m'a puni\"?",
         options: [
           "Comme j'étais en retard, le professeur m'a puni.",
           "Étant en retard, le professeur m'a puni moi.",
@@ -705,7 +705,7 @@ export const FR_C1_U04_EXTRA: Lesson[] = [
       {
         heading: "Recap: beginning, continuing, ending",
         body: [
-          "\"Continuer à / de\" (keep on), \"ne cesser de\" (formal: keep on), \"arrêter de\" (stop), \"se remettre à\" (start again), \"finir de\" (finish doing) vs \"finir par\" (end up doing), \"être en passe de\" (be about to, on the way to).",
+          "\"Continuer à / de\" (keep on), \"ne cesser de\" (formal: keep on), \"arrêter de\" (stop), \"se remettre à\" (start again), \"finir de\" (finish doing) vs \"finir par\" (end up doing), \"être en passe de\" (be well on the way to).",
           "Progress and repetition: \"être en train de\" (in the middle of, only when the emphasis matters), \"aller en\" + participle (gradual trend), \"ne faire que\" + infinitive (do nothing but / only), \"ne pas arrêter de\" (keep on, informal).",
         ],
         examples: [
@@ -788,7 +788,7 @@ export const FR_C1_U04_EXTRA: Lesson[] = [
         prompt: "Translate into French with ne faire que.",
         source: "All she does is work.",
         answer: "Elle ne fait que travailler.",
-        altAnswers: ["Elle ne fait rien d'autre que travailler.", "Elle passe son temps à travailler."],
+        altAnswers: ["Elle ne fait rien d'autre que travailler."],
         explanation: "\"Ne faire que\" = nothing but.",
       },
       {
@@ -797,7 +797,6 @@ export const FR_C1_U04_EXTRA: Lesson[] = [
         prompt: "Translate into French with aller en.",
         source: "His condition is gradually improving.",
         answer: "Son état va en s'améliorant.",
-        altAnswers: ["Son état s'améliore progressivement.", "Son état s'améliore peu à peu."],
         explanation: "Trend → \"aller en s'améliorant\".",
       },
       {
@@ -815,7 +814,7 @@ export const FR_C1_U04_EXTRA: Lesson[] = [
         en: "The project [is on the way to] succeeding.",
         sentence: "Le projet est ___ réussir.",
         answer: "en passe de",
-        altAnswers: ["en voie de", "en train de"],
+        altAnswers: ["en voie de"],
         explanation: "\"Être en passe de\" = on the way to.",
       },
       {
@@ -829,7 +828,7 @@ export const FR_C1_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« J'ai fini de lire ton roman » means:",
+        question: "\"J'ai fini de lire ton roman\" means:",
         options: ["I've finished reading your novel.", "I ended up reading your novel.", "I stopped reading your novel halfway.", "I'm still reading your novel."],
         correctIndex: 0,
         explanation: "\"Finir de\" = complete; \"finir par\" = end up.",

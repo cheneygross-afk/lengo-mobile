@@ -17,7 +17,7 @@ export const PT_B1_U12: Lesson[] = [
         heading: "Ser + participle: what was done",
         body: [
           "In the passive, the thing that receives the action becomes the subject: \"Os ingressos foram vendidos\" (The tickets were sold). Portuguese builds it like English, with \"ser\" + the past participle. Only \"ser\" changes tense: \"é vendido\" (is sold), \"foi vendido\" (was sold), \"era vendido\" (used to be sold), \"vai ser vendido\" (is going to be sold).",
-          "Don't reach for \"estar\" here. Was sold, was built and was cancelled are events, so they take \"ser\". The passive is the voice of news, history and formal writing, where what happened matters more than who did it. In conversation Brazilians use it less than English speakers do.",
+          "Don't reach for \"estar\" here. Was sold, was built and was canceled are events, so they take \"ser\". The passive is the voice of news, history and formal writing, where what happened matters more than who did it. In conversation Brazilians use it less than English speakers do.",
         ],
         examples: [
           { es: "Os ingressos foram vendidos em duas horas.", en: "The tickets were sold in two hours." },
@@ -31,7 +31,7 @@ export const PT_B1_U12: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The meeting was cancelled.",
+            source: "The meeting was canceled.",
             answer: "A reunião foi cancelada.",
             altAnswers: ["A reunião foi desmarcada."],
             explanation: "A completed event in the passive takes \"foi\" + participle. \"Reunião\" is feminine, so the participle is \"cancelada\".",
@@ -75,7 +75,7 @@ export const PT_B1_U12: Lesson[] = [
             en: "Brasília [was inaugurated] in 1960.",
             sentence: "Brasília ___ em 1960.",
             answer: "foi inaugurada",
-            explanation: "Cities are feminine, so the participle is \"inaugurada\". The subject is singular, so the verb is \"foi\".",
+            explanation: "\"Brasília\" is feminine, so the participle is \"inaugurada\". The subject is singular, so the verb is \"foi\".",
           },
           {
             type: "multiple-choice",
@@ -228,7 +228,7 @@ export const PT_B1_U12: Lesson[] = [
         pairs: [
           { left: "A ponte foi construída.", right: "The bridge was built." },
           { left: "Os livros foram publicados.", right: "The books were published." },
-          { left: "A festa vai ser organizada.", right: "The party is going to be organised." },
+          { left: "A festa vai ser organizada.", right: "The party is going to be organized." },
           { left: "O carro é lavado toda semana.", right: "The car is washed every week." },
           { left: "A janela foi quebrada pelas crianças.", right: "The window was broken by the kids." },
         ],
@@ -331,14 +331,14 @@ export const PT_B1_U12: Lesson[] = [
         body: [
           "Many adjectives you've used since A1 are participles: \"cansado\" (from \"cansar\"), \"preocupado\", \"animado\", \"sentado\", \"deitado\". That's why they take \"estar\": \"estou cansado\" works exactly like \"a loja está fechada\".",
           "For positions, English uses -ing and Portuguese uses the participle: 'I'm sitting' is \"estou sentado\", 'she's lying down' is \"ela está deitada\". \"Estou sentando\" means I'm in the act of sitting down.",
-          "With \"ser\", some of these become personality words: \"ele é fechado\" means he's a reserved person, not that he's shut. Useful chunks: \"está incluído\" (it's included), \"está resolvido\" (it's sorted), \"está combinado\" (it's agreed).",
+          "With \"ser\", some of these become personality words: \"ele é fechado\" means he's a reserved person, not that he's shut. Useful chunks: \"está incluído\" (it's included), \"está resolvido\" (it's settled), \"está combinado\" (it's agreed).",
         ],
         examples: [
           { es: "Estou muito cansada hoje.", en: "I'm really tired today. (a woman speaking)" },
           { es: "As crianças estão sentadas no chão.", en: "The kids are sitting on the floor." },
           { es: "Ele é fechado, quase não fala da vida dele.", en: "He's a reserved guy; he hardly talks about his life." },
           { es: "O café da manhã está incluído?", en: "Is breakfast included?" },
-          { es: "Está tudo resolvido, pode ficar tranquilo.", en: "Everything's sorted, don't worry." },
+          { es: "Está tudo resolvido, pode ficar tranquilo.", en: "Everything's taken care of, don't worry." },
         ],
         checkpoint: [
           {
@@ -424,7 +424,7 @@ export const PT_B1_U12: Lesson[] = [
       {
         type: "speak",
         text: "Está tudo resolvido?",
-        prompt: "Say it in Portuguese: Is everything sorted?",
+        prompt: "Say it in Portuguese: Is everything taken care of?",
         tip: "In \"resolvido\" the s between vowels sounds like z: re-zol-VI-do.",
         explanation: "\"Está resolvido\" describes the result: the problem has been dealt with.",
       },
@@ -589,9 +589,9 @@ export const PT_B1_U12: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: I had cleaned the whole flat.",
+            prompt: "Put the words in order to say: I had cleaned the whole apartment.",
             words: ["Eu", "tinha", "limpado", "o", "apartamento", "todo."],
-            translation: "I had cleaned the whole flat.",
+            translation: "I had cleaned the whole apartment.",
             explanation: "\"Ter\" takes the long form \"limpado\". \"Limpo\" goes with \"estar\": \"o apartamento está limpo\".",
           },
         ],
@@ -757,7 +757,7 @@ export const PT_B1_U12: Lesson[] = [
         body: [
           "In the se passivo, the thing being sold or rented is the grammatical subject, so the verb agrees with it: \"vende-se uma casa\", but \"vendem-se duas casas\". The plural adds -m before the hyphen: \"alugam-se\", \"consertam-se\", \"aceitam-se\".",
           "Many real signs say \"vende-se casas\", and most people never notice. Schools, the Celpe-Bras and any formal text count it as a mistake, so in writing make the verb plural whenever the noun is plural.",
-          "After \"não\", the \"se\" moves in front of the verb and loses its hyphen: \"não se aceitam cheques\" (no cheques accepted).",
+          "After \"não\", the \"se\" moves in front of the verb and loses its hyphen: \"não se aceitam cheques\" (no checks accepted).",
         ],
         examples: [
           { es: "Vendem-se casas na praia.", en: "Beach houses for sale." },
@@ -788,7 +788,7 @@ export const PT_B1_U12: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "No cheques accepted.",
+            source: "No checks accepted.",
             answer: "Não se aceitam cheques.",
             altAnswers: ["Não aceitamos cheques."],
             explanation: "After \"não\", the \"se\" goes before the verb with no hyphen. The verb is still plural because it agrees with \"cheques\".",
@@ -859,10 +859,10 @@ export const PT_B1_U12: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[For sale]: two flats in Copacabana.",
+        en: "[For sale]: two apartments in Copacabana.",
         sentence: "___ dois apartamentos em Copacabana.",
         answer: "Vendem-se",
-        explanation: "Two flats is plural, so the verb is \"vendem-se\". \"Vende-se dois apartamentos\" is what careful writing corrects.",
+        explanation: "Two apartments is plural, so the verb is \"vendem-se\". \"Vende-se dois apartamentos\" is what careful writing corrects.",
       },
       {
         type: "translate",
@@ -909,10 +909,10 @@ export const PT_B1_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're placing an ad for your flat in a newspaper. Which line is right for careful writing?",
+        question: "You're placing an ad for your apartment in a newspaper. Which line is right for careful writing?",
         options: ["Aluga-se apartamento no centro.", "Aluga apartamento no centro.", "Alugam-se apartamento no centro.", "Aluga-se apartamentos no centro."],
         correctIndex: 0,
-        explanation: "One flat, so the verb is singular, and in writing \"se\" stays on: \"aluga-se apartamento\". \"Aluga apartamento\" is the spoken style, and the other two get the agreement wrong.",
+        explanation: "One apartment, so the verb is singular, and in writing \"se\" stays on: \"aluga-se apartamento\". \"Aluga apartamento\" is the spoken style, and the other two get the agreement wrong.",
       },
       {
         type: "listen-choose",
@@ -994,7 +994,7 @@ export const PT_B1_U12: Lesson[] = [
         examples: [
           { es: "Dizem que vai chover amanhã.", en: "They say it's going to rain tomorrow." },
           { es: "Roubaram o celular do Lucas no ônibus.", en: "Lucas's phone was stolen on the bus." },
-          { es: "Falaram que o show foi cancelado.", en: "They said the concert was cancelled." },
+          { es: "Falaram que o show foi cancelado.", en: "They said the concert was canceled." },
           { es: "Me disseram que o metrô está em greve.", en: "I was told the subway is on strike." },
           { es: "Na padaria da esquina, eles fazem um pão de queijo ótimo.", en: "At the bakery on the corner, they make great pão de queijo." },
           { es: "Estão consertando a rua.", en: "They're fixing the street." },
@@ -1022,7 +1022,7 @@ export const PT_B1_U12: Lesson[] = [
             type: "listen-choose",
             audio: "Falaram que o show foi cancelado.",
             question: "What does it mean?",
-            options: ["They said the concert was cancelled.", "They say the concert will be cancelled.", "I said the concert was cancelled.", "We said the concert was cancelled."],
+            options: ["They said the concert was canceled.", "They say the concert will be canceled.", "I said the concert was canceled.", "We said the concert was canceled."],
             correctIndex: 0,
             explanation: "\"Falaram\" is the past plural with no subject, an unnamed they. \"Foi cancelado\" is the passive from earlier in this unit.",
           },
@@ -1126,7 +1126,7 @@ export const PT_B1_U12: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "In Brazil, you [pay for] almost everything in instalments.",
+        en: "In Brazil, you [pay for] almost everything in installments.",
         sentence: "No Brasil, você ___ quase tudo parcelado.",
         answer: "paga",
         explanation: "Generic \"você\" means anyone, and it takes the ele/ela form: \"você paga\". \"Pagar\" needs no preposition.",
@@ -1136,7 +1136,7 @@ export const PT_B1_U12: Lesson[] = [
         question: "A friend says about a club in Belo Horizonte: \"Eles cobram dez reais pela entrada.\" What does it mean?",
         options: ["They charge ten reais for entry.", "They paid ten reais for entry.", "Entry used to cost ten reais.", "We charge ten reais for entry."],
         correctIndex: 0,
-        explanation: "\"Eles\" here means the club, a specific organisation, and \"cobram\" is the present of \"cobrar\" (to charge).",
+        explanation: "\"Eles\" here means the club, a specific organization, and \"cobram\" is the present of \"cobrar\" (to charge).",
       },
       {
         type: "dictation",
@@ -1436,7 +1436,7 @@ export const PT_B1_U12: Lesson[] = [
     level: "PT-B1",
     number: 7,
     title: "Dialogue Lab: Você Viu a Notícia?",
-    summary: "Follow a coffee-break chat about the city news and talk about elections, roadworks and rumours with the passive and \"disseram que\".",
+    summary: "Follow a coffee-break chat about the city news and talk about elections, roadwork and rumors with the passive and \"disseram que\".",
     duration: "12 min",
     sections: [
       {
@@ -1548,7 +1548,7 @@ export const PT_B1_U12: Lesson[] = [
         examples: [
           { es: "Rafael: Disseram que a obra vai começar em março.", en: "Rafael: They said the work is going to start in March." },
           { es: "Beatriz: Sério? Falaram na televisão que seria só em junho.", en: "Beatriz: Really? On TV they said it would only be in June." },
-          { es: "Rafael: Estão dizendo que o metrô vai ganhar uma linha nova.", en: "Rafael: People are saying the metro is getting a new line." },
+          { es: "Rafael: Estão dizendo que o metrô vai ganhar uma linha nova.", en: "Rafael: People are saying the subway is getting a new line." },
           { es: "Beatriz: Duvido que fique pronta antes de 2030.", en: "Beatriz: I doubt it'll be ready before 2030." },
           { es: "Rafael: Nossa, que pessimismo!", en: "Rafael: Wow, so pessimistic!" },
         ],
@@ -1566,7 +1566,7 @@ export const PT_B1_U12: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "People are saying the metro is getting a new line.",
+            source: "People are saying the subway is getting a new line.",
             answer: "Estão dizendo que o metrô vai ganhar uma linha nova.",
             altAnswers: [
               "Estão dizendo que o metrô vai ganhar uma nova linha.",
@@ -1706,9 +1706,9 @@ export const PT_B1_U12: Lesson[] = [
         examples: [
           { es: "A casa foi vendida em março.", en: "The house was sold in March." },
           { es: "Os ingressos foram vendidos em duas horas.", en: "The tickets were sold in two hours." },
-          { es: "As vacinas foram distribuídas nos postos de saúde.", en: "The vaccines were distributed at the health centres." },
+          { es: "As vacinas foram distribuídas nos postos de saúde.", en: "The vaccines were distributed at the health centers." },
           { es: "A ponte vai ser reformada no ano que vem.", en: "The bridge is going to be renovated next year." },
-          { es: "A Mariana tinha vendido o apartamento.", en: "Mariana had sold the flat." },
+          { es: "A Mariana tinha vendido o apartamento.", en: "Mariana had sold the apartment." },
         ],
         checkpoint: [
           {
@@ -1738,7 +1738,7 @@ export const PT_B1_U12: Lesson[] = [
           { es: "A conta já foi paga.", en: "The bill has already been paid." },
           { es: "O meu cartão não foi aceito.", en: "My card wasn't accepted." },
           { es: "A proposta foi aceita pela diretoria.", en: "The proposal was accepted by the board." },
-          { es: "As encomendas foram entregues ontem.", en: "The parcels were delivered yesterday." },
+          { es: "As encomendas foram entregues ontem.", en: "The packages were delivered yesterday." },
           { es: "Todo o dinheiro foi gasto em uma semana.", en: "All the money was spent in one week." },
         ],
         checkpoint: [
@@ -1789,7 +1789,7 @@ export const PT_B1_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're writing a newspaper ad for two flats you want to rent out. Which heading is correct in careful writing?",
+            question: "You're writing a newspaper ad for two apartments you want to rent out. Which heading is correct in careful writing?",
             options: ["Alugam-se apartamentos.", "Aluga-se apartamentos.", "Aluga apartamentos.", "Alugam-se de apartamentos."],
             correctIndex: 0,
             explanation: "\"Apartamentos\" is the subject, so the verb agrees: \"alugam-se\". \"Aluga apartamentos\" is spoken style, and there's no \"de\" after \"alugar\".",
@@ -1834,7 +1834,7 @@ export const PT_B1_U12: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The flat was sold last week.",
+        source: "The apartment was sold last week.",
         answer: "O apartamento foi vendido semana passada.",
         altAnswers: ["O apartamento foi vendido na semana passada."],
         explanation: "\"Apartamento\" is masculine singular, so \"foi vendido\". With a feminine noun it would be \"vendida\".",
@@ -1843,7 +1843,7 @@ export const PT_B1_U12: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The letters were delivered by the postman.",
+        source: "The letters were delivered by the mail carrier.",
         answer: "As cartas foram entregues pelo carteiro.",
         explanation: "Short participle \"entregues\" with \"ser\" (not \"entregadas\"), and the agent with \"pelo\" (por + o).",
       },
@@ -1922,7 +1922,7 @@ export const PT_B1_U12: Lesson[] = [
         instructions: "Match the Portuguese to the English.",
         pairs: [
           { left: "A janela foi quebrada.", right: "The window was broken." },
-          { left: "O cheque foi aceito.", right: "The cheque was accepted." },
+          { left: "O cheque foi aceito.", right: "The check was accepted." },
           { left: "Alugam-se quartos.", right: "Rooms for rent." },
           { left: "O jogo foi ganho pelo Flamengo.", right: "The game was won by Flamengo." },
         ],
@@ -1972,7 +1972,7 @@ export const PT_B1_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Turn this into the passive: \"A empresa vai entregar as encomendas amanhã.\" (The company is going to deliver the parcels tomorrow.)",
+            question: "Turn this into the passive: \"A empresa vai entregar as encomendas amanhã.\" (The company is going to deliver the packages tomorrow.)",
             options: [
               "As encomendas vão ser entregues pela empresa amanhã.",
               "As encomendas vai ser entregue pela empresa amanhã.",
@@ -1994,9 +1994,9 @@ export const PT_B1_U12: Lesson[] = [
         examples: [
           { es: "Ladrão é preso em Copacabana.", en: "Thief arrested in Copacabana." },
           { es: "Vacinas são entregues em Manaus.", en: "Vaccines delivered in Manaus." },
-          { es: "Nova estação de metrô é inaugurada em São Paulo.", en: "New metro station opened in São Paulo." },
+          { es: "Nova estação de metrô é inaugurada em São Paulo.", en: "New subway station opened in São Paulo." },
           { es: "Lei é aprovada pelo Senado.", en: "Law passed by the Senate." },
-          { es: "Show na praia é cancelado por causa da chuva.", en: "Beach concert cancelled because of rain." },
+          { es: "Show na praia é cancelado por causa da chuva.", en: "Beach concert canceled because of rain." },
         ],
         checkpoint: [
           {
@@ -2043,7 +2043,7 @@ export const PT_B1_U12: Lesson[] = [
         ],
         examples: [
           { es: "A prefeitura fechou o museu.", en: "The city council closed the museum." },
-          { es: "Os vizinhos chamaram a polícia.", en: "The neighbours called the police." },
+          { es: "Os vizinhos chamaram a polícia.", en: "The neighbors called the police." },
           { es: "O governo vai construir um hospital em Curitiba.", en: "The government is going to build a hospital in Curitiba." },
           { es: "Venderam os ingressos em duas horas.", en: "They sold the tickets in two hours." },
           { es: "Roubaram o meu celular no ônibus.", en: "Someone stole my phone on the bus." },
@@ -2083,7 +2083,7 @@ export const PT_B1_U12: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The new metro station was opened by the governor.",
+        source: "The new subway station was opened by the governor.",
         answer: "A nova estação de metrô foi inaugurada pelo governador.",
         explanation: "\"Estação\" is feminine, so the participle is \"inaugurada\". The agent \"o governador\" follows \"por\": \"pelo governador\".",
       },
@@ -2091,7 +2091,7 @@ export const PT_B1_U12: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Concert cancelled in Copacabana. (a headline)",
+        source: "Concert canceled in Copacabana. (a headline)",
         answer: "Show é cancelado em Copacabana.",
         altAnswers: ["Show em Copacabana é cancelado."],
         explanation: "Headline style has no article and the present tense, and Portuguese keeps the verb: \"é cancelado\". \"Show\" is the everyday Brazilian word for a concert.",
@@ -2172,7 +2172,7 @@ export const PT_B1_U12: Lesson[] = [
         pairs: [
           { left: "Ladrão é preso", right: "Thief arrested" },
           { left: "Lei é aprovada", right: "Law passed" },
-          { left: "Show é cancelado", right: "Concert cancelled" },
+          { left: "Show é cancelado", right: "Concert canceled" },
           { left: "Vacinas são entregues", right: "Vaccines delivered" },
           { left: "Prefeito é reeleito", right: "Mayor re-elected" },
         ],
@@ -2254,9 +2254,9 @@ export const PT_B1_U12: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Room for rent near the metro.",
+            source: "Room for rent near the subway.",
             answer: "Aluga-se quarto perto do metrô.",
-            altAnswers: ["Aluga-se um quarto perto do metrô.", "Aluga quarto perto do metrô.", "Quarto para alugar perto do metrô."],
+            altAnswers: ["Aluga-se um quarto perto do metrô.", "Quarto para alugar perto do metrô."],
             explanation: "\"Aluga-se\" is singular because \"quarto\" is singular. \"Perto de\" + \"o metrô\" contracts to \"perto do metrô\".",
           },
           {
@@ -2284,7 +2284,7 @@ export const PT_B1_U12: Lesson[] = [
           "So one event has three versions: active (\"a polícia prendeu o ladrão\"), news (\"o ladrão foi preso pela polícia\") and conversation (\"prenderam o ladrão\").",
         ],
         examples: [
-          { es: "Roubaram o carro do vizinho.", en: "The neighbour's car got stolen." },
+          { es: "Roubaram o carro do vizinho.", en: "The neighbor's car got stolen." },
           { es: "Disseram que a estrada estava fechada.", en: "They said the road was closed." },
           { es: "A polícia prendeu o ladrão.", en: "The police arrested the thief." },
           { es: "O ladrão foi preso pela polícia.", en: "The thief was arrested by the police." },
@@ -2425,7 +2425,7 @@ export const PT_B1_U12: Lesson[] = [
 
 export const PT_B1_U12_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You run the community page of your neighbourhood in Curitiba. The local square and library have just been renovated. Write a short post for your neighbours. Say what was done and who did it, describe how things are now and what still needs fixing, and end with two or three short notices from neighbours (something for rent, something for sale, volunteers needed). Focus on what was done, not on who did it.",
+  prompt: "You run the community page of your neighborhood in Curitiba. The local square and library have just been renovated. Write a short post for your neighbors. Say what was done and who did it, describe how things are now and what still needs fixing, and end with two or three short notices from neighbors (something for rent, something for sale, volunteers needed). Focus on what was done, not on who did it.",
   minWords: 80,
   maxWords: 150,
   rubric: [

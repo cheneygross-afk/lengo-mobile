@@ -25,7 +25,7 @@ export const PT_B2_S04_STORIES: Story[] = [
           `That he would lose his job`,
           `That he had won the lottery`,
           `That he would miss Valdir's jokes`,
-          `That he would have to move house`,
+          `That he would have to move`,
         ],
         correctIndex: 1,
         explanation: `"achei que tinha ganhado na loteria".`,
@@ -87,13 +87,13 @@ export const PT_B2_S04_STORIES: Story[] = [
           `To make the street prettier`,
           `So that drivers could at least see where the hole was`,
           `Because the soil was good there`,
-          `As a protest against the councillor`,
+          `As a protest against the councilor`,
         ],
         correctIndex: 1,
         explanation: `She planted it "para que pelo menos os carros vissem onde ele estava".`,
       },
       {
-        question: `What had the councillor promised?`,
+        question: `What had the councilor promised?`,
         options: [
           `To build a square on the street`,
           `To come to the birthday party`,
@@ -109,13 +109,13 @@ export const PT_B2_S04_STORIES: Story[] = [
           `City workers filled the hole in four hours.`,
           `The residents were fined.`,
           `The pothole got bigger.`,
-          `The councillor resigned.`,
+          `The councilor resigned.`,
         ],
         correctIndex: 0,
         explanation: `"Em quatro horas, o buraco ... foi tapado, asfaltado e pintado."`,
       },
       {
-        question: `What didn't the councillor know about the cake?`,
+        question: `What didn't the councilor know about the cake?`,
         options: [
           `That dona Conceição had made it herself`,
           `That it had a candle inside`,
@@ -131,14 +131,14 @@ export const PT_B2_S04_STORIES: Story[] = [
     slug: "pt-o-onibus-das-cinco-e-dez",
     level: "PT-B2",
     title: `O ônibus das cinco e dez`,
-    subtitle: `A short piece of reportage follows a cleaner on her long daily commute from Ceilândia to the centre of Brasília, and what she does with those hours.`,
+    subtitle: `A short piece of reportage follows a cleaning worker on her long daily commute from Ceilândia to the center of Brasília, and what she does with those hours.`,
     paragraphs: [
       `Às quatro e vinte da manhã, ainda está escuro na Ceilândia, a cidade mais populosa do Distrito Federal, a trinta quilômetros do Congresso Nacional. É nessa hora que Edilene Rodrigues, de quarenta e três anos, sai de casa, atravessa duas quadras de terra e chega ao ponto onde, se tudo der certo, vai pegar o ônibus das cinco e dez. Ela trabalha como faxineira num prédio de ministério, na Esplanada. O expediente começa às sete. Para chegar a tempo, precisa sair quase três horas antes.`,
       `A reportagem acompanhou Edilene durante uma semana. A viagem, que de carro levaria quarenta minutos, de ônibus leva entre uma hora e meia e duas horas, dependendo do trânsito na Estrutural. Na volta, é pior. Somando ida e volta, são quase quatro horas por dia dentro de um ônibus, vinte por semana, cerca de mil por ano. “Se eu morasse no Plano Piloto, ia ter um outro emprego só com esse tempo”, ela calcula, sem amargura, enquanto procura um lugar para sentar.`,
       `A história de Edilene é a de centenas de milhares de brasilienses. Brasília foi planejada para ser uma cidade moderna, mas os trabalhadores que a construíram, nos anos cinquenta e sessenta, foram afastados para longe do centro, nas chamadas cidades-satélites. A própria Ceilândia nasceu de uma campanha de remoção de favelas, em 1971. Segundo urbanistas ouvidos pela reportagem, a distância entre onde as pessoas moram e onde trabalham continua sendo uma das maiores desigualdades da capital.`,
       `O que surpreende quem viaja com Edilene, porém, não é o cansaço. É o que ela faz com essas horas. Assim que consegue um lugar, ela abre a mochila e tira um livro grosso, cheio de anotações coloridas: um manual de direito constitucional. Edilene cursa o último ano de direito numa faculdade particular de Taguatinga, à noite, com uma bolsa do governo. Estuda no ônibus, de manhã e de noite, há cinco anos. “O ônibus é a minha biblioteca”, diz. “É o único lugar onde ninguém me pede nada.”`,
       `Os colegas de viagem já a conhecem. O motorista, seu Josué, guarda para ela o banco da frente, onde a luz é melhor. Uma vendedora de salgados que pega o mesmo ônibus faz perguntas para ela responder, como se fosse uma prova oral. Um rapaz que trabalha numa obra no Setor Comercial Sul empresta o fone de ouvido quando o ônibus está barulhento demais. Ninguém combinou nada. As coisas foram acontecendo, como acontecem em quem divide quatro horas por dia de estrada.`,
-      `Na sexta-feira em que a reportagem terminou de acompanhá-la, Edilene recebeu uma notícia pelo celular, às seis e quinze da manhã, ainda no ônibus, na altura do Park Way. Tinha sido aprovada no exame da Ordem dos Advogados, na primeira tentativa. Ela leu a mensagem em silêncio, guardou o celular e ficou um tempo olhando pela janela. Depois se levantou, foi até a frente e disse alguma coisa ao seu Josué. O motorista buzinou três vezes, sem motivo aparente, e o ônibus inteiro começou a aplaudir.`,
+      `Na sexta-feira em que a reportagem terminou de acompanhá-la, Edilene recebeu uma notícia pelo celular, às seis e quinze da manhã, ainda no ônibus, na altura da Cidade Estrutural. Tinha sido aprovada no exame da Ordem dos Advogados, na primeira tentativa. Ela leu a mensagem em silêncio, guardou o celular e ficou um tempo olhando pela janela. Depois se levantou, foi até a frente e disse alguma coisa ao seu Josué. O motorista buzinou três vezes, sem motivo aparente, e o ônibus inteiro começou a aplaudir.`,
       `Edilene não pretende largar a faxina tão cedo. Diz que precisa pagar as contas até conseguir os primeiros clientes. Mas já sabe em que tipo de causa quer trabalhar: direito à moradia e ao transporte. “Quem decide essas coisas mora perto”, explica. “Quero ser a advogada de quem mora longe.” Na segunda-feira seguinte, às cinco e dez, ela estava de novo no ponto. Com um livro novo na mochila.`,
     ],
     questions: [
@@ -157,7 +157,7 @@ export const PT_B2_S04_STORIES: Story[] = [
         question: `According to the article, how did Ceilândia begin?`,
         options: [
           `As a campaign to remove favelas in 1971`,
-          `As a neighbourhood for government ministers`,
+          `As a neighborhood for government ministers`,
           `As a farming town before Brasília existed`,
           `As a university campus`,
         ],
@@ -192,7 +192,7 @@ export const PT_B2_S04_STORIES: Story[] = [
     slug: "pt-roteiro-de-atendimento",
     level: "PT-B2",
     title: `Roteiro de atendimento`,
-    subtitle: `On her first job at a call centre in Natal, a young woman learns to follow the script, until a caller needs something the script doesn't cover.`,
+    subtitle: `On her first job at a call center in Natal, a young woman learns to follow the script, until a caller needs something the script doesn't cover.`,
     paragraphs: [
       `O primeiro emprego de carteira assinada da Larissa foi numa central de atendimento de uma operadora de telefonia, num prédio espelhado perto da BR-101, em Natal. Ela tinha dezenove anos, estava no segundo período de psicologia e precisava pagar a mensalidade. No primeiro dia, recebeu um fone de ouvido, um crachá, uma cadeira giratória e um documento de trinta e duas páginas chamado “Roteiro de atendimento”, que deveria seguir palavra por palavra.`,
       `O roteiro previa tudo. Como cumprimentar o cliente, como pedir o CPF, como dizer não sem dizer não. Previa, sobretudo, o que fazer quando alguém quisesse cancelar uma linha, que era o pesadelo da empresa. Nesses casos, era proibido cancelar na primeira ligação. A atendente devia oferecer três descontos, um depois do outro, e só depois, se o cliente insistisse muito, transferir a ligação para outro setor, onde a espera durava em média quarenta minutos. A supervisora, a Patrícia, ouvia as gravações e dava notas.`,
@@ -229,7 +229,7 @@ export const PT_B2_S04_STORIES: Story[] = [
       {
         question: `What did Larissa do that went against the script?`,
         options: [
-          `She cancelled the line immediately and stayed to listen.`,
+          `She canceled the line immediately and stayed to listen.`,
           `She transferred the call to another department.`,
           `She offered a bigger discount.`,
           `She hung up on dona Neide.`,
@@ -242,7 +242,7 @@ export const PT_B2_S04_STORIES: Story[] = [
         options: [
           `It was shortened to ten pages.`,
           `Patrícia's name was added to it.`,
-          `A new page said deaths should be cancelled immediately, without offers.`,
+          `A new page said deaths should be canceled immediately, without offers.`,
           `Cancellations were no longer allowed.`,
         ],
         correctIndex: 2,
@@ -254,7 +254,7 @@ export const PT_B2_S04_STORIES: Story[] = [
     slug: "pt-o-muro-cinza",
     level: "PT-B2",
     title: `O muro cinza`,
-    subtitle: `When the city of São Paulo orders a famous mural to be painted grey, the worker sent to do it has a very personal reason to hesitate.`,
+    subtitle: `When the city of São Paulo orders a famous mural to be painted gray, the worker sent to do it has a very personal reason to hesitate.`,
     paragraphs: [
       `O mural ocupava os quarenta metros do muro de um viaduto na zona norte de São Paulo, perto da Brasilândia. Mostrava o rosto de uma senhora negra, de lenço na cabeça, olhando para o alto, e em volta dela crianças, pipas, casas penduradas no morro e um céu de um azul impossível. Tinha sido pintado em três semanas, de madrugada, por um grupo de grafiteiros do bairro. A autora principal assinava apenas “Dandara”.`,
       `Em pouco tempo, o muro virou ponto turístico. Ônibus escolares paravam ali, casais tiravam fotos de casamento, uma revista estrangeira publicou uma reportagem de quatro páginas. Mas, em setembro, uma nova gestão da prefeitura lançou um programa chamado “Cidade Limpa de Novo”, que pretendia apagar pichações e grafites não autorizados. O mural da Brasilândia foi incluído na lista. Segundo a nota oficial, seria pintado de cinza “na próxima segunda-feira, conforme o cronograma”.`,
@@ -271,17 +271,17 @@ export const PT_B2_S04_STORIES: Story[] = [
         options: [
           `It had been damaged by rain.`,
           `The artist asked the city to remove it.`,
-          `A new city programme aimed to erase unauthorized graffiti.`,
+          `A new city program aimed to erase unauthorized graffiti.`,
           `A company had bought the wall for advertising.`,
         ],
         correctIndex: 2,
-        explanation: `The programme "pretendia apagar pichações e grafites não autorizados".`,
+        explanation: `The program "pretendia apagar pichações e grafites não autorizados".`,
       },
       {
         question: `Who was the woman painted on the mural?`,
         options: [
           `Gilberto's mother, Jaqueline's grandmother`,
-          `A famous singer from the neighbourhood`,
+          `A famous singer from the neighborhood`,
           `Jaqueline herself`,
           `The mayor's wife`,
         ],
@@ -291,7 +291,7 @@ export const PT_B2_S04_STORIES: Story[] = [
       {
         question: `What did Gilberto do when he reached his mother's face?`,
         options: [
-          `He painted it grey quickly.`,
+          `He painted it gray quickly.`,
           `He called Jaqueline for help.`,
           `He asked the reporter to leave.`,
           `He stopped and told his boss he would not paint that part.`,
@@ -305,7 +305,7 @@ export const PT_B2_S04_STORIES: Story[] = [
           `By a team of city artists`,
           `By Jaqueline, with her father painting the sky`,
           `By the foreign magazine's photographers`,
-          `By schoolchildren from the neighbourhood`,
+          `By schoolchildren from the neighborhood`,
         ],
         correctIndex: 1,
         explanation: `"Ao lado dela ... estava o pai, passando com cuidado o azul impossível do céu."`,
@@ -326,7 +326,7 @@ export const PT_B2_S04_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "a conquista", en: "achievement, hard-won gain", forms: ["conquista"] },
     { es: "presencial", en: "in person", forms: ["presencial"] },
     { es: "regar", en: "to water (plants)", forms: ["regava", "regado"] },
-    { es: "grisalho", en: "grey-haired", forms: ["grisalho"] },
+    { es: "grisalho", en: "gray-haired", forms: ["grisalho"] },
   ],
   "pt-parabens-buraco": [
     { es: "o buraco", en: "pothole, hole", forms: ["buraco"] },
@@ -337,15 +337,15 @@ export const PT_B2_S04_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "a bandeirinha", en: "little flag, bunting", forms: ["bandeirinhas"] },
     { es: "o descaso", en: "neglect", forms: ["descaso"] },
     { es: "espetado", en: "stuck (into something)", forms: ["espetada"] },
-    { es: "asfaltar", en: "to tarmac, to pave", forms: ["asfaltado"] },
-    { es: "o cronograma", en: "schedule, timetable", forms: ["cronograma"] },
+    { es: "asfaltar", en: "to pave", forms: ["asfaltado"] },
+    { es: "o cronograma", en: "schedule", forms: ["cronograma"] },
     { es: "o poste", en: "street lamp, lamppost", forms: ["poste"] },
     { es: "a quadrilha", en: "festa junina square dance", forms: ["quadrilha"] },
   ],
   "pt-o-onibus-das-cinco-e-dez": [
     { es: "populoso", en: "populous", forms: ["populosa"] },
     { es: "a quadra", en: "block (of streets)", forms: ["quadras"] },
-    { es: "a faxineira", en: "cleaner", forms: ["faxineira"] },
+    { es: "a faxineira", en: "cleaning lady, housecleaner", forms: ["faxineira"] },
     { es: "o expediente", en: "working day, office hours", forms: ["expediente"] },
     { es: "a amargura", en: "bitterness", forms: ["amargura"] },
     { es: "a remoção", en: "removal, eviction", forms: ["remoção"] },
@@ -357,7 +357,7 @@ export const PT_B2_S04_GLOSSES: Record<string, StoryGloss[]> = {
   ],
   "pt-roteiro-de-atendimento": [
     { es: "a carteira assinada", en: "formal employment contract", forms: ["carteira", "assinada"] },
-    { es: "a central de atendimento", en: "call centre", forms: ["central"] },
+    { es: "a central de atendimento", en: "call center", forms: ["central"] },
     { es: "a mensalidade", en: "monthly fee", forms: ["mensalidade"] },
     { es: "giratório", en: "swivel", forms: ["giratória"] },
     { es: "o CPF", en: "Brazilian taxpayer ID number", forms: ["cpf"] },
@@ -370,7 +370,7 @@ export const PT_B2_S04_GLOSSES: Record<string, StoryGloss[]> = {
   ],
   "pt-o-muro-cinza": [
     { es: "o muro", en: "(outdoor) wall", forms: ["muro"] },
-    { es: "o viaduto", en: "overpass, flyover", forms: ["viaduto"] },
+    { es: "o viaduto", en: "overpass", forms: ["viaduto"] },
     { es: "a pipa", en: "kite", forms: ["pipas"] },
     { es: "a gestão", en: "administration", forms: ["gestão"] },
     { es: "a pichação", en: "tagging, scrawled graffiti", forms: ["pichações"] },

@@ -19,11 +19,11 @@ export const PT_B1_U13: Lesson[] = [
           "\"Inclusive\" is a false friend. In Brazil it means even, including or in fact, and it adds a detail that strengthens or surprises: \"ela fala três línguas, inclusive japonês\". \"Aliás\" (by the way, actually) does two jobs. It slips in a side comment, or it corrects what you just said: \"é na segunda, aliás, na terça\".",
         ],
         examples: [
-          { es: "O apartamento é grande. Além disso, fica perto do metrô.", en: "The flat is big. What's more, it's close to the metro." },
+          { es: "O apartamento é grande. Além disso, fica perto do metrô.", en: "The apartment is big. What's more, it's close to the subway." },
           { es: "Além de ser barato, o restaurante tem uma vista linda.", en: "As well as being cheap, the restaurant has a lovely view." },
           { es: "A Beatriz fala três línguas, inclusive japonês.", en: "Beatriz speaks three languages, including Japanese." },
           { es: "O professor é ótimo. Inclusive, ele já deu aula em Harvard.", en: "The teacher is great. In fact, he's taught at Harvard." },
-          { es: "Gostei muito do filme. Aliás, você já leu o livro?", en: "I really liked the film. By the way, have you read the book?" },
+          { es: "Gostei muito do filme. Aliás, você já leu o livro?", en: "I really liked the movie. By the way, have you read the book?" },
           { es: "A reunião é na segunda, aliás, na terça.", en: "The meeting is on Monday, sorry, on Tuesday." },
         ],
         checkpoint: [
@@ -38,7 +38,7 @@ export const PT_B1_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say: The shop sells everything, even imported cheese?",
+            question: "How do you say: The store sells everything, even imported cheese?",
             options: [
               "A loja vende de tudo, inclusive queijo importado.",
               "A loja vende de tudo, além disso queijo importado.",
@@ -69,9 +69,9 @@ export const PT_B1_U13: Lesson[] = [
           { es: "O hotel é caro. No entanto, vale cada centavo.", en: "The hotel is expensive. However, it's worth every penny." },
           { es: "O projeto foi aprovado; porém, ainda não temos verba.", en: "The project was approved; however, we still don't have the funding." },
           { es: "O quarto é confortável. O serviço, porém, é muito lento.", en: "The room is comfortable. The service, however, is very slow." },
-          { es: "A cidade cresceu muito. Contudo, o transporte não acompanhou.", en: "The city has grown a lot. However, public transport hasn't kept up." },
+          { es: "A cidade cresceu muito. Contudo, o transporte não acompanhou.", en: "The city has grown a lot. However, public transportation hasn't kept up." },
           { es: "Choveu o dia todo. Mesmo assim, a gente foi à praia.", en: "It rained all day. Even so, we went to the beach." },
-          { es: "Ele pediu desculpas, mas mesmo assim ela não quis falar com ele.", en: "He apologised, but she still refused to talk to him." },
+          { es: "Ele pediu desculpas, mas mesmo assim ela não quis falar com ele.", en: "He apologized, but she still refused to talk to him." },
         ],
         checkpoint: [
           {
@@ -114,7 +114,7 @@ export const PT_B1_U13: Lesson[] = [
         ],
         examples: [
           { es: "Eu adoro praia, enquanto meu marido prefere a serra.", en: "I love the beach, whereas my husband prefers the mountains." },
-          { es: "Minha irmã é organizada, enquanto eu sou um desastre.", en: "My sister is organised, whereas I'm a disaster." },
+          { es: "Minha irmã é organizada, enquanto eu sou um desastre.", en: "My sister is organized, whereas I'm a disaster." },
           { es: "Em São Paulo chove mais no verão, enquanto em Recife a chuva vem no inverno.", en: "In São Paulo it rains more in summer, whereas in Recife the rain comes in winter." },
           { es: "Alguns alunos preferem aulas on-line, enquanto outros preferem aulas presenciais.", en: "Some students prefer online classes, whereas others prefer in-person ones." },
         ],
@@ -133,10 +133,10 @@ export const PT_B1_U13: Lesson[] = [
             audio: "Ele gosta de futebol, enquanto ela prefere vôlei.",
             question: "What does it mean?",
             options: [
-              "He likes football, whereas she prefers volleyball.",
-              "He likes football, and she does too.",
-              "He likes football, so she prefers volleyball.",
-              "She likes football, whereas he prefers volleyball.",
+              "He likes soccer, whereas she prefers volleyball.",
+              "He likes soccer, and she does too.",
+              "He likes soccer, so she prefers volleyball.",
+              "She likes soccer, whereas he prefers volleyball.",
             ],
             correctIndex: 0,
             explanation: "\"Enquanto\" here contrasts two tastes: \"ele gosta\" against \"ela prefere\".",
@@ -174,7 +174,7 @@ export const PT_B1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The neighbourhood is quiet. [However], there's no supermarket nearby.",
+        en: "The neighborhood is quiet. [However], there's no supermarket nearby.",
         sentence: "O bairro é tranquilo. ___, não tem supermercado perto.",
         answer: "No entanto",
         altAnswers: ["Porém", "Contudo", "Entretanto", "Mas"],
@@ -200,10 +200,10 @@ export const PT_B1_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The flat is cheap; however, it's far from the centre.",
+        source: "The apartment is cheap; however, it's far from the center.",
         answer: "O apartamento é barato; porém, fica longe do centro.",
         altAnswers: ["O apartamento é barato; no entanto, fica longe do centro.", "O apartamento é barato; contudo, fica longe do centro.", "O apartamento é barato; entretanto, fica longe do centro.", "O apartamento é barato; porém, é longe do centro.", "O apartamento é barato; no entanto, é longe do centro.", "O apartamento é barato. Porém, fica longe do centro.", "O apartamento é barato. No entanto, fica longe do centro."],
-        explanation: "After a semicolon, \"porém\" (or \"no entanto\", \"contudo\") takes a comma. \"Ficar\" gives the location of the flat.",
+        explanation: "After a semicolon, \"porém\" (or \"no entanto\", \"contudo\") takes a comma. \"Ficar\" gives the location of the apartment.",
       },
       {
         type: "multiple-choice",
@@ -260,9 +260,9 @@ export const PT_B1_U13: Lesson[] = [
         ],
         examples: [
           { es: "Já que você está aqui, me ajuda com essas caixas?", en: "Since you're here, can you help me with these boxes?" },
-          { es: "Vamos de metrô, já que o trânsito está horrível.", en: "Let's take the metro, since the traffic is awful." },
+          { es: "Vamos de metrô, já que o trânsito está horrível.", en: "Let's take the subway, since the traffic is awful." },
           { es: "Visto que o prazo terminou, não aceitamos mais inscrições.", en: "Given that the deadline has passed, we're no longer accepting applications." },
-          { es: "Uma vez que o sistema está fora do ar, a loja só aceita dinheiro hoje.", en: "Given that the system is down, the shop is only taking cash today." },
+          { es: "Uma vez que o sistema está fora do ar, a loja só aceita dinheiro hoje.", en: "Given that the system is down, the store is only taking cash today." },
           { es: "Moro em Curitiba desde 2019.", en: "I've lived in Curitiba since 2019." },
         ],
         checkpoint: [
@@ -283,7 +283,7 @@ export const PT_B1_U13: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "Given that the shop [closes] at six, we have to hurry.",
+            en: "Given that the store [closes] at six, we have to hurry.",
             sentence: "Visto que a loja ___ às seis, temos que correr.",
             answer: "fecha",
             explanation: "\"Visto que\" introduces a known fact, so the verb stays in the indicative: \"fecha\". The subjunctive \"feche\" would be wrong here.",
@@ -346,7 +346,7 @@ export const PT_B1_U13: Lesson[] = [
         examples: [
           { es: "O voo atrasou, por isso perdi a conexão.", en: "The flight was delayed, so I missed my connection." },
           { es: "A Beatriz trabalha à noite, por isso dorme até tarde.", en: "Beatriz works nights, so she sleeps late." },
-          { es: "O aluguel subiu muito; portanto, vamos procurar outro apartamento.", en: "The rent went up a lot; therefore, we're going to look for another flat." },
+          { es: "O aluguel subiu muito; portanto, vamos procurar outro apartamento.", en: "The rent went up a lot; therefore, we're going to look for another apartment." },
           { es: "O projeto custa caro; assim, precisamos de patrocínio.", en: "The project is expensive, so we need sponsorship." },
           { es: "Choveu a noite inteira, de modo que ninguém saiu de casa.", en: "It rained all night, so nobody left the house." },
           { es: "Explique o plano com calma, de modo que todos entendam.", en: "Explain the plan calmly so that everyone understands." },
@@ -432,7 +432,7 @@ export const PT_B1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The shop has no stock; [therefore], the order will be late.",
+        en: "The store has no stock; [therefore], the order will be late.",
         sentence: "A loja não tem estoque; ___, o pedido vai atrasar.",
         answer: "portanto",
         altAnswers: ["por isso", "assim"],
@@ -477,9 +477,9 @@ export const PT_B1_U13: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: That's why I live near the metro.",
+        prompt: "Put the words in order to say: That's why I live near the subway.",
         words: ["Por", "isso", "eu", "moro", "perto", "do", "metrô."],
-        translation: "That's why I live near the metro.",
+        translation: "That's why I live near the subway.",
         explanation: "\"Por isso\" can open a sentence to state a result: that's why. \"Do\" is de + o.",
       },
       {
@@ -490,7 +490,7 @@ export const PT_B1_U13: Lesson[] = [
       {
         type: "speak",
         text: "O trânsito estava horrível, por isso eu peguei o metrô.",
-        prompt: "Say it in Portuguese: The traffic was awful, so I took the metro.",
+        prompt: "Say it in Portuguese: The traffic was awful, so I took the subway.",
         tip: "Stress \"metrô\" on the last syllable, with a closed ô.",
         explanation: "The imperfeito \"estava\" describes the situation, and \"por isso\" + the perfeito \"peguei\" gives what you did about it.",
       },
@@ -539,7 +539,7 @@ export const PT_B1_U13: Lesson[] = [
     slug: "b1-connectors-sequence",
     level: "PT-B1",
     number: 3,
-    title: "Em Primeiro Lugar: Organising a Text",
+    title: "Em Primeiro Lugar: Organizing a Text",
     summary: "Order your points, give examples, rephrase and conclude with em primeiro lugar, em seguida, por fim, por exemplo, ou seja, enfim and em resumo.",
     duration: "12 min",
     sections: [
@@ -551,7 +551,7 @@ export const PT_B1_U13: Lesson[] = [
           "Watch \"finalmente\": it usually means at last, after a wait (\"finalmente o ônibus chegou\"), so at the end of a list it can sound like relief. \"Em seguida\" also gives the next step in a story, often straight away: \"ele leu o e-mail e, em seguida, ligou para o chefe\".",
         ],
         examples: [
-          { es: "Em primeiro lugar, o metrô é mais rápido que o ônibus.", en: "First of all, the metro is faster than the bus." },
+          { es: "Em primeiro lugar, o metrô é mais rápido que o ônibus.", en: "First of all, the subway is faster than the bus." },
           { es: "Em segundo lugar, a passagem é mais barata.", en: "Secondly, the fare is cheaper." },
           { es: "Em seguida, apresento os resultados da pesquisa.", en: "Next, I present the results of the survey." },
           { es: "Por fim, gostaria de agradecer a todos.", en: "Finally, I'd like to thank everyone." },
@@ -586,8 +586,8 @@ export const PT_B1_U13: Lesson[] = [
           "\"Ou seja\" (in other words, that is) restates an idea in plainer terms; \"isto é\" is its more formal twin. Both sit between commas. \"Seja\" here is a frozen subjunctive of \"ser\", so the phrase never changes: always \"ou seja\", even before a plural.",
         ],
         examples: [
-          { es: "Muitas cidades brasileiras, por exemplo Curitiba, investiram em transporte público.", en: "Many Brazilian cities, for example Curitiba, invested in public transport." },
-          { es: "Algumas matérias, como matemática e física, assustam os alunos.", en: "Some subjects, such as maths and physics, scare students." },
+          { es: "Muitas cidades brasileiras, por exemplo Curitiba, investiram em transporte público.", en: "Many Brazilian cities, for example Curitiba, invested in public transportation." },
+          { es: "Algumas matérias, como matemática e física, assustam os alunos.", en: "Some subjects, such as math and physics, scare students." },
           { es: "O curso é gratuito, ou seja, você não paga nada.", en: "The course is free; in other words, you don't pay anything." },
           { es: "A reunião foi adiada, isto é, não vai acontecer hoje.", en: "The meeting has been postponed, that is, it won't happen today." },
           { es: "Tem muita coisa para fazer em Salvador: as praias e o Pelourinho, por exemplo.", en: "There's lots to do in Salvador: the beaches and the Pelourinho, for example." },
@@ -666,7 +666,7 @@ export const PT_B1_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The flight was cancelled; [in other words], we're staying another day.",
+        en: "The flight was canceled; [in other words], we're staying another day.",
         sentence: "O voo foi cancelado, ___, vamos ficar mais um dia.",
         answer: "ou seja",
         altAnswers: ["isto é"],
@@ -792,7 +792,7 @@ export const PT_B1_U13: Lesson[] = [
         ],
         examples: [
           { es: "Em primeiro lugar, os ônibus estão sempre lotados nos horários de pico.", en: "First of all, the buses are always packed at rush hour." },
-          { es: "Além disso, muitos bairros da periferia ficam longe do metrô.", en: "On top of that, many outlying neighbourhoods are far from the metro." },
+          { es: "Além disso, muitos bairros da periferia ficam longe do metrô.", en: "On top of that, many outlying neighborhoods are far from the subway." },
           { es: "Por exemplo, quem mora no extremo sul pode levar duas horas para chegar ao centro.", en: "For example, people who live on the far south side can take two hours to get downtown." },
           { es: "Portanto, é urgente que a prefeitura invista em novas linhas.", en: "So it's urgent for the city government to invest in new lines." },
           { es: "Em resumo, o trabalho remoto economiza tempo, mas exige disciplina.", en: "In short, remote work saves time but demands discipline." },
@@ -951,10 +951,10 @@ export const PT_B1_U13: Lesson[] = [
         audio: "Além disso, muitos bairros ficam longe do metrô.",
         question: "What does it mean?",
         options: [
-          "On top of that, many neighbourhoods are far from the metro.",
-          "However, many neighbourhoods are close to the metro.",
-          "For example, many neighbourhoods have a metro station.",
-          "So many neighbourhoods are far from the centre.",
+          "On top of that, many neighborhoods are far from the subway.",
+          "However, many neighborhoods are close to the subway.",
+          "For example, many neighborhoods have a subway station.",
+          "So many neighborhoods are far from the center.",
         ],
         correctIndex: 0,
         explanation: "\"Além disso\" adds a reason, and \"ficar longe de\" means to be far from. \"Perto\" would be close.",
@@ -991,7 +991,7 @@ export const PT_B1_U13: Lesson[] = [
         ],
         examples: [
           { es: "Eu queria ir à festa, mas estava muito cansado.", en: "I wanted to go to the party, but I was really tired." },
-          { es: "O apartamento é pequeno, mas é bem localizado.", en: "The flat is small, but it's well located." },
+          { es: "O apartamento é pequeno, mas é bem localizado.", en: "The apartment is small, but it's well located." },
           { es: "O projeto foi aprovado, porém o prazo é curto.", en: "The project was approved, but the deadline is short." },
           { es: "A proposta é interessante, porém precisamos de mais informações.", en: "The proposal is interesting, but we need more information." },
           { es: "Os preços subiram. No entanto, as vendas continuaram altas.", en: "Prices went up. However, sales stayed high." },
@@ -1078,7 +1078,7 @@ export const PT_B1_U13: Lesson[] = [
           { es: "Não fui à aula porque estava doente.", en: "I didn't go to class because I was sick." },
           { es: "Já que está chovendo, vamos ficar em casa.", en: "Since it's raining, let's stay home." },
           { es: "Pode ir embora, já que você terminou tudo.", en: "You can go, since you've finished everything." },
-          { es: "O voo foi cancelado, pois havia uma tempestade em Brasília.", en: "The flight was cancelled because there was a storm in Brasília." },
+          { es: "O voo foi cancelado, pois havia uma tempestade em Brasília.", en: "The flight was canceled because there was a storm in Brasília." },
           { es: "Por que você está rindo? Porque essa história é engraçada.", en: "Why are you laughing? Because that story is funny." },
           { es: "Pois é, o show foi incrível.", en: "Yeah, the show was amazing." },
         ],
@@ -1101,7 +1101,7 @@ export const PT_B1_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In a formal email, you explain that the meeting was cancelled because the director is travelling. Which sentence works?",
+            question: "In a formal email, you explain that the meeting was canceled because the director is traveling. Which sentence works?",
             options: [
               "Pois o diretor está viajando, a reunião foi cancelada.",
               "A reunião foi cancelada, pois o diretor está viajando.",
@@ -1257,12 +1257,12 @@ export const PT_B1_U13: Lesson[] = [
         heading: "Four tasks, each with a reader",
         body: [
           "The Celpe-Bras is Brazil's official Portuguese exam for foreigners, run by the Ministry of Education. Everyone takes the same exam, and your result places you at a level from \"Intermediário\" to \"Avançado Superior\". The written part has four tasks. One starts from a short video, one from an audio, and two from texts you read.",
-          "Each task comes with an \"enunciado\" (the instructions), and that is where most marks are won or lost. It tells you who you are, who you're writing to, why, and what kind of text to write: an email, a letter to a newspaper, an article for a website. You never just summarise the source. You use its information to do something for a reader.",
+          "Each task comes with an \"enunciado\" (the instructions), and that is where most marks are won or lost. It tells you who you are, who you're writing to, why, and what kind of text to write: an email, a letter to a newspaper, an article for a website. You never just summarize the source. You use its information to do something for a reader.",
         ],
         examples: [
           { es: "Você é morador de Curitiba.", en: "You live in Curitiba." },
           { es: "Escreva um e-mail para a diretora da escola.", en: "Write an email to the head of the school." },
-          { es: "Com base no vídeo, escreva uma notícia para o site do bairro.", en: "Based on the video, write a news item for the neighbourhood website." },
+          { es: "Com base no vídeo, escreva uma notícia para o site do bairro.", en: "Based on the video, write a news item for the neighborhood website." },
           { es: "Use as informações do áudio para convencer seus colegas.", en: "Use the information from the audio to persuade your colleagues." },
           { es: "Seu texto será publicado no jornal da universidade.", en: "Your text will be published in the university newspaper." },
         ],
@@ -1343,7 +1343,7 @@ export const PT_B1_U13: Lesson[] = [
         examples: [
           { es: "Você poderia repetir a pergunta, por favor?", en: "Could you repeat the question, please?" },
           { es: "Não sei se entendi bem a pergunta.", en: "I'm not sure I understood the question properly." },
-          { es: "Essa imagem mostra uma praia cheia de lixo.", en: "This picture shows a beach full of rubbish." },
+          { es: "Essa imagem mostra uma praia cheia de lixo.", en: "This picture shows a beach full of trash." },
           { es: "Eu acho que a ideia é boa, já que a cidade tem pouco espaço.", en: "I think the idea is good, since the city has little space." },
           { es: "Posso pensar um pouco?", en: "Can I think for a moment?" },
           { es: "No meu país isso também acontece, por exemplo nas cidades grandes.", en: "This happens in my country too, for example in big cities." },
@@ -1360,9 +1360,9 @@ export const PT_B1_U13: Lesson[] = [
             type: "listen-choose",
             audio: "Essa imagem mostra uma praia cheia de lixo.",
             question: "What does it mean?",
-            options: ["This picture shows a beach full of rubbish.", "This picture shows a clean beach.", "This picture shows a street full of rubbish.", "This text is about a crowded beach."],
+            options: ["This picture shows a beach full of trash.", "This picture shows a clean beach.", "This picture shows a street full of trash.", "This text is about a crowded beach."],
             correctIndex: 0,
-            explanation: "\"Essa imagem mostra...\" is a good way to start talking about a picture. \"Cheia de lixo\" means full of rubbish.",
+            explanation: "\"Essa imagem mostra...\" is a good way to start talking about a picture. \"Cheia de lixo\" means full of trash.",
           },
           {
             type: "translate",
@@ -1492,7 +1492,7 @@ export const PT_B1_U13: Lesson[] = [
           "\"No entanto\", \"porém\" and \"contudo\" link two separate facts, so what follows them is an ordinary indicative sentence: \"No entanto, vale a pena\", never \"*no entanto, valha a pena\". The subjunctive belongs to \"embora\", which concedes inside one sentence: \"Embora seja caro, vale a pena.\" Learners mix them up because both translate as however or although.",
         ],
         examples: [
-          { es: "O apartamento é pequeno. Porém, o aluguel é barato.", en: "The flat is small. However, the rent is cheap." },
+          { es: "O apartamento é pequeno. Porém, o aluguel é barato.", en: "The apartment is small. However, the rent is cheap." },
           { es: "O aluguel, porém, sobe todo ano.", en: "The rent, however, goes up every year." },
           { es: "Choveu o fim de semana todo. No entanto, a festa foi um sucesso.", en: "It rained all weekend. However, the party was a success." },
           { es: "O curso é difícil. Contudo, os alunos gostam muito.", en: "The course is hard. Nevertheless, the students really like it." },
@@ -1537,8 +1537,8 @@ export const PT_B1_U13: Lesson[] = [
           "\"Mas\", \"porém\", \"no entanto\" and \"contudo\" all mean but or however, so one is enough. \"*Mas porém\" and \"*mas no entanto\" say but twice. Use \"mas\" inside a sentence and \"porém\" or \"no entanto\" to open a new one. \"Mas mesmo assim\" is correct, because \"mesmo assim\" means even so, not but.",
         ],
         examples: [
-          { es: "O bairro é seguro. Além disso, tem muitas praças.", en: "The neighbourhood is safe. What's more, it has lots of squares." },
-          { es: "Além de ser seguro, o bairro é bem tranquilo.", en: "As well as being safe, the neighbourhood is really quiet." },
+          { es: "O bairro é seguro. Além disso, tem muitas praças.", en: "The neighborhood is safe. What's more, it has lots of squares." },
+          { es: "Além de ser seguro, o bairro é bem tranquilo.", en: "As well as being safe, the neighborhood is really quiet." },
           { es: "Além do preço, a localização me agrada.", en: "As well as the price, I like the location." },
           { es: "Eu queria ir, mas estava muito cansado.", en: "I wanted to go, but I was very tired." },
           { es: "O trânsito estava horrível, mas mesmo assim chegamos cedo.", en: "The traffic was awful, but even so we arrived early." },
@@ -1555,7 +1555,7 @@ export const PT_B1_U13: Lesson[] = [
               "O apartamento é grande. Além disso, ele tem varanda.",
               "O apartamento é grande. Além disso, ele tem uma varanda.",
             ],
-            explanation: "A new point after a full stop opens with \"além disso\", not \"*além de que\".",
+            explanation: "A new point after a period opens with \"além disso\", not \"*além de que\".",
           },
           {
             type: "multiple-choice",
@@ -1571,9 +1571,9 @@ export const PT_B1_U13: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: As well as being cheap, the restaurant is near the metro.",
+            prompt: "Put the words in order to say: As well as being cheap, the restaurant is near the subway.",
             words: ["Além", "de", "ser", "barato,", "o", "restaurante", "fica", "perto do metrô."],
-            translation: "As well as being cheap, the restaurant is near the metro.",
+            translation: "As well as being cheap, the restaurant is near the subway.",
             explanation: "\"Além de\" + infinitive (\"além de ser barato\") adds a point inside one sentence. \"Além disso\" would start a new sentence.",
           },
         ],
@@ -1581,8 +1581,8 @@ export const PT_B1_U13: Lesson[] = [
       {
         heading: "Comma splices: one sentence or two?",
         body: [
-          "A comma alone can't glue two complete sentences together: \"*Eu adoro Recife, a comida é incrível.\" Teachers and Celpe-Bras examiners mark this in Portuguese just as English teachers do. Use a full stop, a semicolon, or a connector that really joins the two: \"Eu adoro Recife, porque a comida é incrível.\"",
-          "\"Mas\", \"e\" and \"porque\" can follow a comma. \"Além disso\" and \"no entanto\" open a new sentence, so in a text put a full stop or semicolon before them and a comma after: \"O voo atrasou; no entanto, ninguém reclamou.\" A comma on both sides, as in \"*o hotel é barato, além disso, fica perto da praia\", is the most common splice in learners' texts.",
+          "A comma alone can't glue two complete sentences together: \"*Eu adoro Recife, a comida é incrível.\" Teachers and Celpe-Bras examiners mark this in Portuguese just as English teachers do. Use a period, a semicolon, or a connector that really joins the two: \"Eu adoro Recife, porque a comida é incrível.\"",
+          "\"Mas\", \"e\" and \"porque\" can follow a comma. \"Além disso\" and \"no entanto\" open a new sentence, so in a text put a period or semicolon before them and a comma after: \"O voo atrasou; no entanto, ninguém reclamou.\" A comma on both sides, as in \"*o hotel é barato, além disso, fica perto da praia\", is the most common splice in learners' texts.",
         ],
         examples: [
           { es: "Eu adoro Recife. A comida é incrível.", en: "I love Recife. The food is amazing." },
@@ -1594,7 +1594,7 @@ export const PT_B1_U13: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "You're writing an email: The rent is high. However, the flat is great. Which version is correct written Portuguese?",
+            question: "You're writing an email: The rent is high. However, the apartment is great. Which version is correct written Portuguese?",
             options: [
               "O aluguel é alto. No entanto, o apartamento é ótimo.",
               "O aluguel é alto, o apartamento é ótimo.",
@@ -1649,7 +1649,7 @@ export const PT_B1_U13: Lesson[] = [
         sentence: "O hotel é barato. ___, fica perto da praia.",
         answer: "Além disso",
         altAnswers: ["Aliás", "Inclusive"],
-        explanation: "\"Além disso\" opens a new point after a full stop. \"*Além de que\" is the speech blend to avoid in writing.",
+        explanation: "\"Além disso\" opens a new point after a period. \"*Além de que\" is the speech blend to avoid in writing.",
       },
       {
         type: "translate",
@@ -1690,7 +1690,7 @@ export const PT_B1_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "Although the neighbourhood is noisy, I like living there.",
+        source: "Although the neighborhood is noisy, I like living there.",
         answer: "Embora o bairro seja barulhento, eu gosto de morar lá.",
         altAnswers: [
           "Embora o bairro seja barulhento, gosto de morar lá.",
@@ -1703,7 +1703,7 @@ export const PT_B1_U13: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "It rained a lot. That's why the game was cancelled.",
+        source: "It rained a lot. That's why the game was canceled.",
         answer: "Choveu muito. Por isso, o jogo foi cancelado.",
         altAnswers: ["Choveu muito, por isso o jogo foi cancelado.", "Choveu muito. Por isso o jogo foi cancelado."],
         explanation: "\"Por isso\" gives the result, with the passive \"foi cancelado\". Without a connector, \"*Choveu muito, o jogo foi cancelado\" would be a comma splice.",
@@ -1745,7 +1745,7 @@ export const PT_B1_U13: Lesson[] = [
       {
         type: "speak",
         text: "O bairro é longe. Porém, é muito tranquilo.",
-        prompt: "Say it in Portuguese: The neighbourhood is far. However, it's very quiet.",
+        prompt: "Say it in Portuguese: The neighborhood is far. However, it's very quiet.",
         tip: "Stress the last syllable of porém, po-RÉM, and let it end nasal with no full n.",
         explanation: "\"Porém\" opens the second sentence, and \"é muito tranquilo\" stays in the indicative.",
       },
@@ -1820,7 +1820,7 @@ export const PT_B1_U13: Lesson[] = [
         ],
         examples: [
           { es: "Além disso, as aulas online economizam tempo.", en: "What's more, online classes save time." },
-          { es: "As aulas são flexíveis, já que cada aluno organiza o próprio horário.", en: "The classes are flexible, since each student organises their own schedule." },
+          { es: "As aulas são flexíveis, já que cada aluno organiza o próprio horário.", en: "The classes are flexible, since each student organizes their own schedule." },
           { es: "No entanto, os alunos têm menos contato com os colegas.", en: "However, students have less contact with their classmates." },
           { es: "Porém, muitas famílias não têm computador em casa.", en: "However, many families don't have a computer at home." },
           { es: "Por isso, muitas escolas preferem um modelo misto.", en: "That's why many schools prefer a mixed model." },
@@ -2008,14 +2008,14 @@ export const PT_B1_U13: Lesson[] = [
         body: [
           "A Celpe-Bras writing task gives you a short source text and a role. Here the role is: \"Você mora no Recife e trabalha à noite. Leia a notícia e escreva uma carta ao jornal.\" The examiners check whether your text does its job for its reader, not only whether the grammar is right.",
           "Before you write, answer three questions. Who are you writing as? A night worker. Who reads the letter? The editor and every reader of the paper. Why are you writing? To protest and to propose a change. Each answer becomes a sentence in your letter.",
-          "The classic mistake is summarising the article. Your reader has already seen the news, so take one or two facts from it, put them in your own words, and spend the rest of the letter on your reaction.",
+          "The classic mistake is summarizing the article. Your reader has already seen the news, so take one or two facts from it, put them in your own words, and spend the rest of the letter on your reaction.",
         ],
         examples: [
           { es: "A prefeitura do Recife anunciou que vai reduzir os ônibus noturnos.", en: "Recife city hall has announced that it will cut night buses." },
           { es: "A mudança começa em março.", en: "The change starts in March." },
           { es: "Segundo a prefeitura, as linhas da madrugada são usadas por poucos passageiros.", en: "According to city hall, the late-night lines are used by few passengers." },
           { es: "A medida vai economizar dois milhões de reais por ano.", en: "The measure will save two million reais a year." },
-          { es: "A decisão foi criticada por sindicatos e moradores.", en: "The decision was criticised by unions and residents." },
+          { es: "A decisão foi criticada por sindicatos e moradores.", en: "The decision was criticized by unions and residents." },
         ],
         checkpoint: [
           {
@@ -2023,13 +2023,13 @@ export const PT_B1_U13: Lesson[] = [
             audio: "A decisão foi criticada por sindicatos e moradores.",
             question: "What does it mean?",
             options: [
-              "The decision was criticised by unions and residents.",
-              "Unions and residents criticised the mayor.",
-              "The decision will be criticised by residents.",
+              "The decision was criticized by unions and residents.",
+              "Unions and residents criticized the mayor.",
+              "The decision will be criticized by residents.",
               "Residents supported the unions' decision.",
             ],
             correctIndex: 0,
-            explanation: "\"Foi criticada\" is the passive in the past, and it agrees with \"a decisão\". \"Por\" introduces who did the criticising.",
+            explanation: "\"Foi criticada\" is the passive in the past, and it agrees with \"a decisão\". \"Por\" introduces who did the criticizing.",
           },
           {
             type: "multiple-choice",
@@ -2041,7 +2041,7 @@ export const PT_B1_U13: Lesson[] = [
               "A reportagem foi publicada no dia 12 e fala sobre ônibus.",
             ],
             correctIndex: 0,
-            explanation: "The first option says who the writer is and how she reacts. The second copies the article, the third is chat register, and the fourth only summarises.",
+            explanation: "The first option says who the writer is and how she reacts. The second copies the article, the third is chat register, and the fourth only summarizes.",
           },
           {
             type: "translate",
@@ -2063,7 +2063,7 @@ export const PT_B1_U13: Lesson[] = [
         examples: [
           { es: "Li com preocupação a reportagem sobre os ônibus noturnos.", en: "I read the report on the night buses with concern." },
           { es: "Sou enfermeira e trabalho no turno da noite.", en: "I'm a nurse and I work the night shift." },
-          { es: "Como moradora do bairro da Várzea, dependo desses ônibus.", en: "As a resident of the Várzea neighbourhood, I depend on these buses." },
+          { es: "Como moradora do bairro da Várzea, dependo desses ônibus.", en: "As a resident of the Várzea neighborhood, I depend on these buses." },
           { es: "Escrevo para manifestar minha opinião sobre a decisão da prefeitura.", en: "I'm writing to express my opinion about city hall's decision." },
           { es: "A reportagem afirma que poucas pessoas usam essas linhas.", en: "The report states that few people use these lines." },
         ],
@@ -2290,8 +2290,8 @@ export const PT_B1_U13: Lesson[] = [
           "The classic mistake is to carry the mood across. Never use the subjunctive after \"no entanto\", and never use the indicative after \"embora\" in writing. \"Apesar de\" takes a noun or an infinitive instead: \"apesar do preço\", \"apesar de ser caro\". \"Enquanto\" as whereas sets two facts side by side, both in the indicative.",
         ],
         examples: [
-          { es: "A escola é pública; no entanto, a estrutura é ótima.", en: "The school is state-run; however, its facilities are excellent." },
-          { es: "Embora a escola seja pública, a estrutura é ótima.", en: "Although the school is state-run, its facilities are excellent." },
+          { es: "A escola é pública; no entanto, a estrutura é ótima.", en: "It's a public school; however, its facilities are excellent." },
+          { es: "Embora a escola seja pública, a estrutura é ótima.", en: "Although it's a public school, its facilities are excellent." },
           { es: "O aplicativo é útil. Além disso, é gratuito.", en: "The app is useful. Besides, it's free." },
           { es: "Choveu a manhã toda; mesmo assim, a feira abriu.", en: "It rained all morning; even so, the market opened." },
           { es: "Apesar do trânsito, chegamos a tempo.", en: "Despite the traffic, we got there on time." },
@@ -2302,7 +2302,7 @@ export const PT_B1_U13: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "Although the rent is high, the neighbourhood is safe.",
+            source: "Although the rent is high, the neighborhood is safe.",
             answer: "Embora o aluguel seja alto, o bairro é seguro.",
             altAnswers: ["Embora o aluguel seja caro, o bairro é seguro.", "O bairro é seguro, embora o aluguel seja alto.", "O bairro é seguro, embora o aluguel seja caro."],
             explanation: "\"Embora\" always takes the subjunctive: \"seja\", not \"é\". The main clause stays in the indicative: \"o bairro é seguro\".",
@@ -2340,7 +2340,7 @@ export const PT_B1_U13: Lesson[] = [
           { es: "Já que a biblioteca fecha às oito, vamos estudar em casa.", en: "Since the library closes at eight, let's study at home." },
           { es: "A tarifa do ônibus subiu, o que irritou muita gente; por isso, houve protestos.", en: "The bus fare went up, which annoyed a lot of people; that's why there were protests." },
           { es: "Como a internet caiu, a reunião foi adiada.", en: "As the internet went down, the meeting was postponed." },
-          { es: "O bairro em que moro tem poucas ciclovias; portanto, quase ninguém vai de bicicleta.", en: "The neighbourhood I live in has few bike lanes; therefore, hardly anyone cycles." },
+          { es: "O bairro em que moro tem poucas ciclovias; portanto, quase ninguém vai de bicicleta.", en: "The neighborhood I live in has few bike lanes; therefore, hardly anyone cycles." },
           { es: "A professora, cujo método é muito criativo, ganhou um prêmio.", en: "The teacher, whose method is very creative, won an award." },
         ],
         checkpoint: [
@@ -2370,7 +2370,7 @@ export const PT_B1_U13: Lesson[] = [
         ],
         examples: [
           { es: "A prefeitura deve criar mais ciclovias para que as pessoas deixem o carro em casa.", en: "The city should build more bike lanes so that people leave their cars at home." },
-          { es: "Os horários mudaram, de modo que agora eu saio mais cedo.", en: "The timetable changed, so now I leave earlier." },
+          { es: "Os horários mudaram, de modo que agora eu saio mais cedo.", en: "The schedule changed, so now I leave earlier." },
           { es: "Explique tudo devagar, de modo que todos entendam.", en: "Explain everything slowly so that everyone understands." },
           { es: "Precisamos de professores que conheçam a realidade dos alunos.", en: "We need teachers who know what the students' lives are like." },
           { es: "Caso o projeto seja aprovado, as obras começam em março.", en: "If the project is approved, the work starts in March." },
@@ -2457,16 +2457,16 @@ export const PT_B1_U13: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Besides, the neighbourhood is very safe.",
+        prompt: "Put the words in order to say: Besides, the neighborhood is very safe.",
         words: ["Além", "disso,", "o", "bairro", "é", "muito", "seguro."],
-        translation: "Besides, the neighbourhood is very safe.",
+        translation: "Besides, the neighborhood is very safe.",
         explanation: "\"Além disso\" adds a new point at the start of the sentence, followed by a comma.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "We're looking for a flatmate who doesn't smoke.",
+        source: "We're looking for a roommate who doesn't smoke.",
         answer: "Estamos procurando um colega de apartamento que não fume.",
         altAnswers: ["Estamos procurando uma colega de apartamento que não fume.", "Procuramos um colega de apartamento que não fume.", "Procuramos uma colega de apartamento que não fume.", "Nós estamos procurando um colega de apartamento que não fume.", "A gente está procurando um colega de apartamento que não fume."],
         explanation: "The person hasn't been found yet, so the relative clause takes the subjunctive: \"que não fume\", not \"que não fuma\".",
@@ -2488,10 +2488,10 @@ export const PT_B1_U13: Lesson[] = [
         audio: "Embora o aluguel seja caro, o apartamento vale a pena.",
         question: "What does it mean?",
         options: [
-          "Although the rent is expensive, the flat is worth it.",
-          "Since the rent is expensive, the flat isn't worth it.",
-          "The rent is expensive, so the flat is worth it.",
-          "The rent is expensive, but the flat isn't worth it.",
+          "Although the rent is expensive, the apartment is worth it.",
+          "Since the rent is expensive, the apartment isn't worth it.",
+          "The rent is expensive, so the apartment is worth it.",
+          "The rent is expensive, but the apartment isn't worth it.",
         ],
         correctIndex: 0,
         explanation: "\"Embora\" means although, and \"vale a pena\" means it's worth it.",
@@ -2527,11 +2527,11 @@ export const PT_B1_U13: Lesson[] = [
 
 export const PT_B1_U13_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your neighbourhood association in Recife is debating whether to close the main avenue to cars on Sundays, as São Paulo does with the \"Avenida Paulista\". Write one well-organised paragraph for the association's newsletter giving your opinion. State your position, give two reasons and an example, acknowledge one problem, and finish with a conclusion.",
+  prompt: "Your neighborhood association in Recife is debating whether to close the main avenue to cars on Sundays, as São Paulo does with the \"Avenida Paulista\". Write one well-organized paragraph for the association's newsletter giving your opinion. State your position, give two reasons and an example, acknowledge one problem, and finish with a conclusion.",
   minWords: 90,
   maxWords: 150,
   rubric: [
-    "States a clear position and organises the reasons with \"em primeiro lugar\", \"além disso\" and \"em resumo\".",
+    "States a clear position and organizes the reasons with \"em primeiro lugar\", \"além disso\" and \"em resumo\".",
     "Gives a cause with \"já que\" or \"visto que\" (+ indicative) and a result with \"portanto\", \"por isso\" or \"de modo que\".",
     "Gives an example with \"por exemplo\" and admits a problem with \"no entanto\", \"porém\" or \"contudo\" at the start of the sentence.",
     "Uses the subjunctive where it's needed, as in \"é importante que a prefeitura ofereça\" or \"desde que haja\".",

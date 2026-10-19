@@ -45,7 +45,7 @@ export const PT_C2_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're analysing a poem in which someone mourns a lost love. Which sentence suits literary analysis?",
+            question: "You're analyzing a poem in which someone mourns a lost love. Which sentence suits literary analysis?",
             options: ["O eu lírico lamenta o amor perdido.", "O poeta lamenta o amor que perdeu na vida.", "A linha lamenta o amor perdido.", "O refrão do poema lamenta o amor perdido."],
             correctIndex: 0,
             explanation: "Analysis attributes the feeling to the \"eu lírico\", the voice of the poem, not to the author's biography. Lines are \"versos\", and \"refrão\" belongs to songs.",
@@ -57,7 +57,7 @@ export const PT_C2_U04: Lesson[] = [
         body: [
           "Portuguese meter counts \"sílabas poéticas\", and you stop at the last stressed syllable of the line; anything after it doesn't count. Vowels meeting across a word boundary usually merge (\"elisão\"), so \"que arde\" gives two poetic syllables. This counting is \"escansão\". English counts stressed beats in feet; Portuguese counts syllables and then says where the stresses fall, so talk of iambs sounds foreign.",
           "Camões's \"Amor é fogo que arde sem se ver\" scans A-mor-é-fo-go-quear-de-sem-se-ver: ten syllables, stressed on the sixth and tenth. That is the \"decassílabo heroico\", the line of the classical sonnet. Gonçalves Dias's \"Minha terra tem palmeiras\" has seven, because \"-ras\" falls after the last stress: that is the \"redondilha maior\", the meter of folk verse, cordel and countless songs.",
-          "Also know the \"redondilha menor\" (five syllables) and the \"alexandrino\" (twelve), a favourite of the Parnasianos.",
+          "Also know the \"redondilha menor\" (five syllables) and the \"alexandrino\" (twelve), a favorite of the Parnasianos.",
         ],
         examples: [
           { es: "Amor é fogo que arde sem se ver.", en: "Love is a fire that burns unseen. (Camões)" },
@@ -289,7 +289,7 @@ export const PT_C2_U04: Lesson[] = [
       {
         heading: "Inversion: hipérbato and anástrofe",
         body: [
-          "Portuguese prose already lets the subject follow the verb (\"chegou o pacote\"). Poetry goes much further. In \"hipérbato\" the poet rearranges the normal order of a sentence. In \"anástrofe\", its commonest kind, a complement jumps ahead of the word it depends on: \"do Ipiranga as margens\" instead of \"as margens do Ipiranga\". Inversion pushes a word into a stressed position, makes a rhyme or a metre work, or simply lifts the language above speech.",
+          "Portuguese prose already lets the subject follow the verb (\"chegou o pacote\"). Poetry goes much further. In \"hipérbato\" the poet rearranges the normal order of a sentence. In \"anástrofe\", its commonest kind, a complement jumps ahead of the word it depends on: \"do Ipiranga as margens\" instead of \"as margens do Ipiranga\". Inversion pushes a word into a stressed position, makes a rhyme or a meter work, or simply lifts the language above speech.",
           "The national anthem opens with the most famous example: \"Ouviram do Ipiranga as margens plácidas / De um povo heroico o brado retumbante\". Many Brazilians sang it for years without knowing who heard what. Treat it as a puzzle. Find the verb, then use agreement to find its subject. \"Ouviram\" is plural, so the subject can't be \"Ipiranga\" or \"povo\". It is \"as margens plácidas\", and what they heard is \"o brado retumbante\".",
           "English speakers tend to read left to right and take the first noun after the verb as its object, because English word order trains them to. Rebuild the \"ordem direta\" (subject, verb, object, complements) before you interpret, and check each adjective's gender and number against the nouns around it.",
         ],
@@ -388,7 +388,7 @@ export const PT_C2_U04: Lesson[] = [
         heading: "Enjambment and reading aloud",
         body: [
           "When a sentence runs past the end of a line, Brazilian critics call it \"enjambement\" (from French) or \"encadeamento\". The break often splits what belongs together: an article from its noun, a verb from its object. The result is a moment of suspense and extra weight on the first word of the next line. In \"O ônibus parou, mas ninguém / desceu\", the reader hangs on \"ninguém\" before learning what no one did.",
-          "When you read aloud, follow the syntax, not the layout. At an enjambed line end, hold the last syllable for a beat with your voice suspended, without the falling pitch of a full stop, then carry straight on. Pause fully only where the punctuation tells you to. If you stop dead at every line end, running verse turns into a list.",
+          "When you read aloud, follow the syntax, not the layout. At an enjambed line end, hold the last syllable for a beat with your voice suspended, without the falling pitch of a period, then carry straight on. Pause fully only where the punctuation tells you to. If you stop dead at every line end, running verse turns into a list.",
           "Two more habits. Vowels that meet across words merge (\"sinalefa\"): \"que arde\" is said almost as \"quiarde\", and poets count syllables that way. Also read inversions with the commas the poet gave you. The pause before a displaced phrase is what lets the listener rebuild the order.",
         ],
         examples: [
@@ -404,12 +404,12 @@ export const PT_C2_U04: Lesson[] = [
             question: "You're reading \"O ônibus parou, mas ninguém / desceu\" aloud. What should your voice do at the end of the first line?",
             options: [
               "Stay suspended on \"ninguém\" for a beat, then land on \"desceu\".",
-              "Drop in pitch and pause, as at a full stop.",
+              "Drop in pitch and pause, as at a period.",
               "Rush through without any break at all.",
               "Pause after \"parou\" only, and read \"ninguém desceu\" as a new sentence.",
             ],
             correctIndex: 0,
-            explanation: "The sentence runs on past \"ninguém\", so you mark the line end with a slight hold, not a falling full stop. The weight then falls on \"desceu\", the surprise.",
+            explanation: "The sentence runs on past \"ninguém\", so you mark the line end with a slight hold, not a falling period. The weight then falls on \"desceu\", the surprise.",
           },
           {
             type: "speak",
@@ -565,7 +565,7 @@ export const PT_C2_U04: Lesson[] = [
       {
         heading: "Reading a lyric: sound first",
         body: [
-          "A \"letra\" is written for the voice. The melody decides where each line breaks, so read a lyric aloud before you analyse it. The figures from Unit 1 all turn up, but stress and rhyme are tied to the music. Where a word's stress falls can matter as much as what it means.",
+          "A \"letra\" is written for the voice. The melody decides where each line breaks, so read a lyric aloud before you analyze it. The figures from Unit 1 all turn up, but stress and rhyme are tied to the music. Where a word's stress falls can matter as much as what it means.",
           "Chico Buarque's \"Construção\" (1971) tells the last day of a building worker. Every line ends in a proparoxytone, a word stressed on the third-last syllable, such as \"última\", \"máquina\" and \"tráfego\". Later stanzas reshuffle the same endings into other lines, so the man becomes as interchangeable as the bricks he lays. Here the form carries the argument.",
           "In analysis, the subject is \"o eu lírico\" (the speaking voice), not the singer. A paraphrase restates the content in plain prose. Your commentary then says what the paraphrase loses.",
         ],
@@ -623,7 +623,7 @@ export const PT_C2_U04: Lesson[] = [
             sentence: "No início, a canção ___ a censura.",
             answer: "driblou",
             altAnswers: ["burlou", "enganou", "contornou"],
-            explanation: "\"Driblar\" is a football verb (to dribble past) that Brazilians use for getting round any obstacle. \"Burlar\" is the more formal choice.",
+            explanation: "\"Driblar\" is a soccer verb (to dribble past) that Brazilians use for getting around any obstacle. \"Burlar\" is the more formal choice.",
           },
           {
             type: "listen-choose",
@@ -637,7 +637,7 @@ export const PT_C2_U04: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The lyric criticises the dictatorship without naming it.",
+            source: "The lyric criticizes the dictatorship without naming it.",
             answer: "A letra critica a ditadura sem nomeá-la.",
             altAnswers: ["A letra critica a ditadura sem a nomear.", "A letra critica a ditadura sem citá-la.", "A letra critica a ditadura sem mencioná-la."],
             explanation: "In written analysis use the clitic: \"nomeá-la\", where -r drops and \"la\" attaches. \"Sem nomear ela\" belongs to speech.",
@@ -795,14 +795,14 @@ export const PT_C2_U04: Lesson[] = [
         type: "listen-choose",
         audio: "O mundo é um moinho.",
         question: "What does it mean?",
-        options: ["The world is a mill.", "The world is a mess.", "The world is a dream.", "The world goes round."],
+        options: ["The world is a mill.", "The world is a mess.", "The world is a dream.", "The world goes around."],
         correctIndex: 0,
         explanation: "\"Moinho\" is a mill. Cartola's metaphor is of a world that grinds dreams to dust, with the nh sound as in canyon.",
       },
       {
         type: "speak",
         text: "A canção critica o regime sem nomeá-lo.",
-        prompt: "Say it in Portuguese: The song criticises the regime without naming it.",
+        prompt: "Say it in Portuguese: The song criticizes the regime without naming it.",
         tip: "Stress no-me-Á-lo. The verb \"critica\" is stressed cri-TI-ca, unlike the noun \"crítica\" (CRÍ-ti-ca).",
         explanation: "\"Nomeá-lo\": the infinitive loses its -r and takes \"lo\", the written form you'd use in an analysis.",
       },
@@ -835,12 +835,12 @@ export const PT_C2_U04: Lesson[] = [
       {
         heading: "O ínfimo: the poetry of small things",
         body: [
-          "Manoel de Barros (1916-2014) was born in Cuiabá and shaped by the Pantanal. He built a poetics out of what others step over: snails, ants, stones, frogs, rusty tins, the backyard. A late book is called \"Tratado geral das grandezas do ínfimo\", a general treatise on the greatness of the tiny. That title is an antithesis that sums up the whole project.",
+          "Manoel de Barros (1916-2014) was born in Cuiabá and shaped by the Pantanal. He built a poetics out of what others step over: snails, ants, stones, frogs, rusty cans, the backyard. A late book is called \"Tratado geral das grandezas do ínfimo\", a general treatise on the greatness of the tiny. That title is an antithesis that sums up the whole project.",
           "The key word is \"ínfimo\" (the lowest, the tiniest), with its companions \"o miúdo\", \"o rasteiro\", \"o chão\" and \"as coisas desimportantes\". Barros reverses the scale: the snail is great, and the backyard is bigger than the world. In an essay, don't render 'small things' as \"coisinhas\". The diminutive sounds cute, and his smallness is a stance, not a charm.",
-          "The voice is a child's or a fool's on purpose: \"Livro sobre nada\", \"O livro das ignorãças\". The misspelt \"ignorãças\" copies an unschooled pronunciation and turns ignorance into a method. You \"desaprender\" (unlearn) what is useful so that you can see again.",
+          "The voice is a child's or a fool's on purpose: \"Livro sobre nada\", \"O livro das ignorãças\". The misspelled \"ignorãças\" copies an unschooled pronunciation and turns ignorance into a method. You \"desaprender\" (unlearn) what is useful so that you can see again.",
         ],
         examples: [
-          { es: "Manoel de Barros passou a infância num sítio do Pantanal.", en: "Manoel de Barros spent his childhood on a smallholding in the Pantanal." },
+          { es: "Manoel de Barros passou a infância num sítio do Pantanal.", en: "Manoel de Barros spent his childhood on a small farm in the Pantanal." },
           { es: "Na poesia dele, uma lesma vale tanto quanto uma catedral.", en: "In his poetry, a snail is worth as much as a cathedral." },
           { es: "O poeta prefere o chão ao céu.", en: "The poet prefers the ground to the sky." },
           { es: "Ele dava importância às coisas desimportantes.", en: "He gave importance to unimportant things." },
@@ -915,13 +915,13 @@ export const PT_C2_U04: Lesson[] = [
       {
         heading: "Bending grammar: o verbo tem que pegar delírio",
         body: [
-          "Barros also invents without new words, by moving an ordinary word into a slot where it doesn't belong. A child, he observes, doesn't know that \"escutar\" works for sound and not for colour. When the function of a verb changes, the verb goes delirious. In \"O livro das ignorãças\" this becomes a rule of the craft: in poetry, the verb has to catch delirium. The child's line is his example: \"Eu escuto a cor dos passarinhos\".",
-          "The typical moves are these. A sense verb takes the wrong sense (synaesthesia). A thing performs human acts, like a stone that wants to be read. A noun is pushed into the role of a verb. School grammar is broken on purpose. Because Portuguese verbs carry the person in their ending, short lines like \"Sou formiga\" stay perfectly grammatical, which makes the semantic violation sharper.",
+          "Barros also invents without new words, by moving an ordinary word into a slot where it doesn't belong. A child, he observes, doesn't know that \"escutar\" works for sound and not for color. When the function of a verb changes, the verb goes delirious. In \"O livro das ignorãças\" this becomes a rule of the craft: in poetry, the verb has to catch delirium. The child's line is his example: \"Eu escuto a cor dos passarinhos\".",
+          "The typical moves are these. A sense verb takes the wrong sense (synesthesia). A thing performs human acts, like a stone that wants to be read. A noun is pushed into the role of a verb. School grammar is broken on purpose. Because Portuguese verbs carry the person in their ending, short lines like \"Sou formiga\" stay perfectly grammatical, which makes the semantic violation sharper.",
           "When you comment, name the operation instead of praising \"a criatividade do poeta\". Say \"o poeta desloca o verbo\", \"personifica a pedra\", \"subverte a regência\" or \"cria um neologismo por derivação prefixal\".",
         ],
         examples: [
-          { es: "Eu escuto a cor dos passarinhos.", en: "I hear the colour of the little birds." },
-          { es: "O poeta desloca o verbo do som para a cor.", en: "The poet moves the verb from sound to colour." },
+          { es: "Eu escuto a cor dos passarinhos.", en: "I hear the color of the little birds." },
+          { es: "O poeta desloca o verbo do som para a cor.", en: "The poet moves the verb from sound to color." },
           { es: "No poema, a pedra deseja ser lida.", en: "In the poem, the stone wants to be read." },
           { es: "Barros cria neologismos por derivação prefixal.", en: "Barros creates neologisms by prefixation." },
           { es: "A gramática da escola não explica esse menino.", en: "School grammar can't explain this boy." },
@@ -931,7 +931,7 @@ export const PT_C2_U04: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The poet moves the verb from sound to colour.",
+            source: "The poet moves the verb from sound to color.",
             answer: "O poeta desloca o verbo do som para a cor.",
             altAnswers: ["O poeta transfere o verbo do som para a cor.", "O poeta leva o verbo do som para a cor.", "O poeta desloca o verbo do som pra cor."],
             explanation: "\"Deslocar\" is the critic's verb for shifting a word out of its usual function. \"De... para\" marks the movement, with \"do\" = de + o.",
@@ -988,7 +988,7 @@ export const PT_C2_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The child listened to the colour of the birds.",
+        source: "The child listened to the color of the birds.",
         answer: "A criança escutava a cor dos passarinhos.",
         altAnswers: ["O menino escutava a cor dos passarinhos.", "A criança ouvia a cor dos passarinhos.", "A criança escutava a cor dos pássaros.", "A menina escutava a cor dos passarinhos."],
         explanation: "Synaesthesia: \"escutar\", a verb of sound, takes \"a cor\" as its object. \"Passarinhos\" is everyday Brazilian for small birds, not a cute diminutive.",
@@ -1037,7 +1037,7 @@ export const PT_C2_U04: Lesson[] = [
           { left: "transver", right: "to see through and beyond" },
           { left: "descomeço", right: "an un-beginning" },
           { left: "achadouro", right: "a place where things are found" },
-          { left: "ignorãça", right: "ignorance, spelt as an unschooled speaker says it" },
+          { left: "ignorãça", right: "ignorance, spelled as an unschooled speaker says it" },
         ],
         explanation: "Every coinage is a real pattern on an unexpected base: \"des-\" undoes, \"trans-\" goes beyond, \"-douro\" names a place, and the spelling of \"ignorãça\" imitates speech.",
       },
@@ -1055,12 +1055,12 @@ export const PT_C2_U04: Lesson[] = [
         heading: "Literatura marginal: from the mimeograph to the quebrada",
         body: [
           "\"Marginal\" has named two different movements. In the 1970s, the \"poesia marginal\" or \"geração mimeógrafo\" (Chacal, Cacaso, Ana Cristina Cesar) was mostly middle-class poetry, printed cheaply and sold hand to hand, outside the publishing houses and largely under the censors' radar. Around 2000, writers from the outskirts of the big cities reclaimed the word in a social sense. Ferréz, from Capão Redondo in São Paulo, edited special issues of the magazine \"Caros Amigos\" under the banner \"Literatura Marginal\" and became the movement's best-known voice.",
-          "Many now prefer \"literatura periférica\", which names a place rather than an exclusion. Learn the territory words with it. \"A periferia\" is the poor outskirts, the opposite of the English suburbs. \"A quebrada\" is slang for one's own neighbourhood. \"A comunidade\" is the euphemism for favela, and it is now standard. In Rio, \"subúrbio\" means the working-class districts of the north zone, never leafy commuter towns.",
+          "Many now prefer \"literatura periférica\", which names a place rather than an exclusion. Learn the territory words with it. \"A periferia\" is the poor outskirts, the opposite of the English suburbs. \"A quebrada\" is slang for one's own neighborhood. \"A comunidade\" is the euphemism for favela, and it is now standard. In Rio, \"subúrbio\" means the working-class districts of the north zone, never leafy commuter towns.",
           "The movement claims Carolina Maria de Jesus as its ancestor. She wrote her diary \"Quarto de Despejo\" (1960) while collecting scrap paper in a São Paulo favela. It was a best-seller, was then forgotten for decades, and is canonical again.",
         ],
         examples: [
           { es: "A poesia marginal dos anos 70 circulava em livrinhos mimeografados, vendidos de mão em mão.", en: "1970s marginal poetry circulated in little mimeographed booklets, sold hand to hand." },
-          { es: "O Ferréz escreve sobre o Capão Redondo, a quebrada onde cresceu.", en: "Ferréz writes about Capão Redondo, the neighbourhood where he grew up." },
+          { es: "O Ferréz escreve sobre o Capão Redondo, a quebrada onde cresceu.", en: "Ferréz writes about Capão Redondo, the neighborhood where he grew up." },
           { es: "Ela prefere o termo literatura periférica, porque nomeia o lugar, e não a exclusão.", en: "She prefers the term peripheral literature, because it names the place, not the exclusion." },
           { es: "No Rio, morar no subúrbio quer dizer morar na zona norte, não num condomínio de luxo.", en: "In Rio, living in the subúrbio means living in the north zone, not in a luxury gated community." },
           { es: "Quarto de Despejo foi escrito numa favela de São Paulo e traduzido para mais de dez línguas.", en: "Quarto de Despejo was written in a São Paulo favela and translated into more than ten languages." },
@@ -1137,7 +1137,7 @@ export const PT_C2_U04: Lesson[] = [
         heading: "New voices in prose, and how to talk about them",
         body: [
           "Conceição Evaristo, a Black writer from Belo Horizonte, coined \"escrevivência\": writing that grows out of lived experience, above all that of Black Brazilian women. The term now frames much contemporary prose. Itamar Vieira Junior's \"Torto Arado\" follows two sisters on a farm in the interior of Bahia. Jeferson Tenório's \"O Avesso da Pele\" deals with racism in Porto Alegre. Geovani Martins's stories in \"O Sol na Cabeça\" are written partly in the slang of young people in Rio's favelas.",
-          "To discuss them, you need four phrases. \"Dar voz a\" means to give a voice to. \"Lugar de fala\" is the standpoint someone speaks from, a term popularised by Djamila Ribeiro. \"Protagonismo\" means being the agent of one's own story. \"Tensionar a norma\" means to push against the standard language. Keep \"representação\" (how something is depicted) apart from \"representatividade\" (who gets to see themselves depicted).",
+          "To discuss them, you need four phrases. \"Dar voz a\" means to give a voice to. \"Lugar de fala\" is the standpoint someone speaks from, a term popularized by Djamila Ribeiro. \"Protagonismo\" means being the agent of one's own story. \"Tensionar a norma\" means to push against the standard language. Keep \"representação\" (how something is depicted) apart from \"representatividade\" (who gets to see themselves depicted).",
           "The trap is condescension. \"Periférica\" names a movement and a place, not a lower tier. Praising a book only as \"autêntico\" implies the craft doesn't count. Say what the text does: how the narrator switches register, whose voice the syntax carries, what the rhythm imitates.",
         ],
         examples: [
@@ -1145,7 +1145,7 @@ export const PT_C2_U04: Lesson[] = [
           { es: "Torto Arado acompanha duas irmãs no interior da Bahia.", en: "Torto Arado follows two sisters in the interior of Bahia." },
           { es: "O livro dá voz a personagens que a literatura brasileira costumava deixar à margem.", en: "The book gives a voice to characters Brazilian literature used to leave on the margins." },
           { es: "Para muitos leitores negros, a representatividade foi o primeiro impacto do romance.", en: "For many Black readers, seeing themselves represented was the novel's first impact." },
-          { es: "A narradora alterna a norma culta e a gíria da quebrada para marcar quem fala.", en: "The narrator switches between the standard language and neighbourhood slang to mark who is speaking." },
+          { es: "A narradora alterna a norma culta e a gíria da quebrada para marcar quem fala.", en: "The narrator switches between the standard language and neighborhood slang to mark who is speaking." },
           { es: "O conto tensiona a norma ao escrever como os personagens falam.", en: "The story pushes against the standard language by writing the way the characters speak." },
         ],
         checkpoint: [
@@ -1225,7 +1225,7 @@ export const PT_C2_U04: Lesson[] = [
         question: "A critic writes: \"É preciso considerar o lugar de fala da autora.\" What does \"lugar de fala\" mean here?",
         options: ["The social standpoint the author speaks from", "The venue where the author gave a talk", "The author's speaking slot at the sarau", "The author's regional accent"],
         correctIndex: 0,
-        explanation: "\"Lugar de fala\", popularised by Djamila Ribeiro, is the position shaped by race, gender and class from which someone speaks. It is not a physical place.",
+        explanation: "\"Lugar de fala\", popularized by Djamila Ribeiro, is the position shaped by race, gender and class from which someone speaks. It is not a physical place.",
       },
       {
         type: "dictation",
@@ -1236,7 +1236,7 @@ export const PT_C2_U04: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "a quebrada", right: "one's own neighbourhood (slang)" },
+          { left: "a quebrada", right: "one's own neighborhood (slang)" },
           { left: "o sarau", right: "a poetry and open-mic evening" },
           { left: "o protagonismo", right: "being the agent of one's own story" },
           { left: "mandar um poema", right: "to perform a poem (casual)" },
@@ -1346,7 +1346,7 @@ export const PT_C2_U04: Lesson[] = [
       {
         heading: "What it loses: sound, rhythm and compression",
         body: [
-          "The music goes first. Camões's \"Amor é fogo que arde sem se ver\" is a \"decassílabo\" with a paradox packed into eight words. \"O amor queima a pessoa sem que ela perceba\" keeps the claim and loses the line: it is longer and flatter, with no metre and no paradox you can feel.",
+          "The music goes first. Camões's \"Amor é fogo que arde sem se ver\" is a \"decassílabo\" with a paradox packed into eight words. \"O amor queima a pessoa sem que ela perceba\" keeps the claim and loses the line: it is longer and flatter, with no meter and no paradox you can feel.",
           "Sound links words that grammar keeps apart. In Cruz e Sousa's \"Vozes veladas, veludosas vozes\", the repeated v and s muffle the line. The mirrored order (noun-adjective, adjective-noun) also makes it fold back on itself. \"São vozes abafadas e macias\" describes the same voices and sounds like nothing at all.",
           "Compression is the third loss. Poems often drop verbs and connectors (\"elipse\"): \"Lá fora, a chuva; aqui dentro, o silêncio.\" A paraphrase has to put them back, and that forces a choice about how the ideas relate: \"enquanto\", \"mas\" or \"porque\"? The poet left that open. Once you write a connector, the relation is your decision.",
         ],
@@ -1531,7 +1531,7 @@ export const PT_C2_U04: Lesson[] = [
         type: "speak",
         text: "A paráfrase mantém o conteúdo, mas perde o ritmo.",
         prompt: "Say it in Portuguese: The paraphrase keeps the content but loses the rhythm.",
-        tip: "Stress pa-RÁ-fra-se on the second syllable, and nasalise the final -ém of mantém.",
+        tip: "Stress pa-RÁ-fra-se on the second syllable, and nasalize the final -ém of mantém.",
         explanation: "\"Mantém\" and \"perde\" are joined by \"mas\": the core contrast of the lesson in one sentence.",
       },
       {
@@ -1561,13 +1561,13 @@ export const PT_C2_U04: Lesson[] = [
         type: "matching",
         instructions: "Match the Portuguese to the English.",
         pairs: [
-          { left: "a métrica", right: "the metre" },
+          { left: "a métrica", right: "the meter" },
           { left: "a rima", right: "the rhyme" },
           { left: "o duplo sentido", right: "the double meaning" },
           { left: "a conotação", right: "the connotation" },
           { left: "o eu lírico", right: "the poetic speaker" },
         ],
-        explanation: "A paraphrase keeps the literal sense and the speaker's claims. It loses the metre, the rhyme, the double meaning and the connotation.",
+        explanation: "A paraphrase keeps the literal sense and the speaker's claims. It loses the meter, the rhyme, the double meaning and the connotation.",
       },
     ],
   },
@@ -1582,7 +1582,7 @@ export const PT_C2_U04: Lesson[] = [
       {
         heading: "Abrindo a noite: o microfone é de todos",
         body: [
-          "A \"sarau\" is an open-mic evening of poetry, music and conversation. In São Paulo the word now evokes the \"periferia\", the city's working-class outskirts. Since the Cooperifa started meeting in a bar in the Zona Sul in the early 2000s, saraus have spread through bars, libraries and community centres, and the rule is the same everywhere: you write your name on the list and wait to be called. The host's lines are formulaic, so learn them as chunks: \"o microfone está aberto\", \"quem quiser declamar, é só colocar o nome na lista\", \"uma salva de palmas para...\".",
+          "A \"sarau\" is an open-mic evening of poetry, music and conversation. In São Paulo the word now evokes the \"periferia\", the city's working-class outskirts. Since the Cooperifa started meeting in a bar in the Zona Sul in the early 2000s, saraus have spread through bars, libraries and community centers, and the rule is the same everywhere: you write your name on the list and wait to be called. The host's lines are formulaic, so learn them as chunks: \"o microfone está aberto\", \"quem quiser declamar, é só colocar o nome na lista\", \"uma salva de palmas para...\".",
           "Notice the verbs. \"Declamar\" is to recite with performance, and it's the normal word at a sarau. \"Recitar\" sounds like school, and \"ler\" is fine if you read from paper or a phone. A poet introduces a text briefly and modestly: \"vou ler um poema curtinho\", \"esse aqui eu escrevi no ônibus\". The diminutive softens without belittling.",
           "Brazilian audiences answer back. A host who says \"Boa noite!\" and gets a timid reply will shout \"Não ouvi!\" and try again. Joining in is part of the event, not an interruption.",
         ],
@@ -1636,7 +1636,7 @@ export const PT_C2_U04: Lesson[] = [
         examples: [
           { es: "Nossa, que forte! Me arrepiei no final.", en: "Wow, that was powerful! I got goosebumps at the end." },
           { es: "Aquele verso sobre a laje me pegou.", en: "That line about the rooftop got me." },
-          { es: "Mexeu muito comigo, porque minha mãe também era diarista.", en: "It really moved me, because my mother was a cleaner too." },
+          { es: "Mexeu muito comigo, porque minha mãe também era diarista.", en: "It really moved me, because my mother was a house cleaner too." },
           { es: "Fiquei emocionada com o jeito que você leu.", en: "I was moved by the way you read it." },
           { es: "É um poema sensível, sem ser piegas.", en: "It's a delicate poem without being sappy." },
           { es: "Gostei de como você quebrou o verso bem no meio da frase.", en: "I liked how you broke the line right in the middle of the sentence." },
@@ -1831,7 +1831,7 @@ export const PT_C2_U04: Lesson[] = [
           "The second slip is confusing the voice with the author. \"Gonçalves Dias está com saudade do Brasil\" is biography, not reading. Brazilian criticism speaks of the \"eu lírico\" (or \"eu poético\"), the voice the poem constructs; \"narrador\" belongs to prose fiction. Drop \"o autor quis dizer que\" as well. You can't know intentions, only what the text supports, so write \"o poema sugere\" or \"o texto permite ler\".",
         ],
         examples: [
-          { es: "O eu lírico, longe da pátria, idealiza a paisagem que deixou.", en: "The lyric speaker, far from home, idealises the landscape he left behind." },
+          { es: "O eu lírico, longe da pátria, idealiza a paisagem que deixou.", en: "The lyric speaker, far from home, idealizes the landscape he left behind." },
           { es: "No soneto de Camões, as antíteses traduzem a natureza contraditória do amor.", en: "In Camões's sonnet, the antitheses convey the contradictory nature of love." },
           { es: "A personificação do vento confere ao cenário uma presença quase ameaçadora.", en: "Personifying the wind gives the setting an almost threatening presence." },
           { es: "O poema sugere que a memória da infância é também uma forma de exílio.", en: "The poem suggests that childhood memory is also a form of exile." },
@@ -1854,7 +1854,7 @@ export const PT_C2_U04: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The lyric speaker idealises the homeland from afar.",
+            source: "The lyric speaker idealizes the homeland from afar.",
             answer: "O eu lírico idealiza a pátria de longe.",
             altAnswers: ["De longe, o eu lírico idealiza a pátria.", "O eu poético idealiza a pátria de longe.", "De longe, o eu poético idealiza a pátria."],
             explanation: "The subject is \"o eu lírico\", not \"Gonçalves Dias\". The analysis is about the voice the poem builds, not the author's biography.",
@@ -1874,8 +1874,8 @@ export const PT_C2_U04: Lesson[] = [
         heading: "Technical terms English gets wrong",
         body: [
           "A line of poetry is a \"verso\", never a \"linha\". English calls a song's stanza a verse, so learners write \"o segundo verso\" when they mean \"a segunda estrofe\", and a Brazilian reader looks for the second line. Name stanzas by size: \"dístico\" (two lines), \"terceto\" (three), \"quarteto\" (four). The Portuguese soneto is two quartetos and two tercetos. The Shakespearean pattern of three quatrains and a couplet is the exception.",
-          "\"Verso livre\" has no regular metre. \"Verso branco\" keeps the metre but drops the rhyme, like English blank verse. \"Aliteração\" repeats consonant sounds; repeated vowels are \"assonância\". A figure built with \"como\" or \"tal qual\" is a \"comparação\", not a \"metáfora\".",
-          "Metre is counted in \"sílabas poéticas\", and the count stops at the last stressed syllable. \"Minha terra tem palmeiras\" therefore has seven (mi-nha-ter-ra-tem-pal-mei), which makes it a \"redondilha maior\", not eight.",
+          "\"Verso livre\" has no regular meter. \"Verso branco\" keeps the meter but drops the rhyme, like English blank verse. \"Aliteração\" repeats consonant sounds; repeated vowels are \"assonância\". A figure built with \"como\" or \"tal qual\" is a \"comparação\", not a \"metáfora\".",
+          "Meter is counted in \"sílabas poéticas\", and the count stops at the last stressed syllable. \"Minha terra tem palmeiras\" therefore has seven (mi-nha-ter-ra-tem-pal-mei), which makes it a \"redondilha maior\", not eight.",
         ],
         examples: [
           { es: "O soneto se organiza em dois quartetos e dois tercetos.", en: "The sonnet is arranged in two quatrains and two tercets." },
@@ -1883,7 +1883,7 @@ export const PT_C2_U04: Lesson[] = [
           { es: "A assonância das vogais abertas prolonga os versos e reforça o tom de lamento.", en: "The assonance of open vowels draws out the lines and reinforces the mournful tone." },
           { es: "Os versos da Canção do Exílio são redondilhas maiores, de sete sílabas poéticas.", en: "The lines of the Canção do Exílio are seven-syllable redondilhas maiores." },
           { es: "Na terceira estrofe, o eu lírico abandona o tom descritivo e passa a suplicar.", en: "In the third stanza, the speaker drops the descriptive tone and begins to plead." },
-          { es: "Como o poema não tem métrica regular nem rima fixa, trata-se de verso livre.", en: "Since the poem has neither regular metre nor fixed rhyme, it's free verse." },
+          { es: "Como o poema não tem métrica regular nem rima fixa, trata-se de verso livre.", en: "Since the poem has neither regular meter nor fixed rhyme, it's free verse." },
         ],
         checkpoint: [
           {
@@ -1908,13 +1908,13 @@ export const PT_C2_U04: Lesson[] = [
             audio: "Trata-se de verso branco: há métrica, mas não há rima.",
             question: "What does it mean?",
             options: [
-              "It's blank verse: there's metre but no rhyme.",
-              "It's free verse: there's no metre and no rhyme.",
-              "It's blank verse: there's rhyme but no metre.",
-              "It's free verse: there's metre but no rhyme.",
+              "It's blank verse: there's meter but no rhyme.",
+              "It's free verse: there's no meter and no rhyme.",
+              "It's blank verse: there's rhyme but no meter.",
+              "It's free verse: there's meter but no rhyme.",
             ],
             correctIndex: 0,
-            explanation: "\"Verso branco\" keeps the metre and drops the rhyme. \"Verso livre\" is the one without regular metre.",
+            explanation: "\"Verso branco\" keeps the meter and drops the rhyme. \"Verso livre\" is the one without regular meter.",
           },
         ],
       },
@@ -1943,7 +1943,7 @@ export const PT_C2_U04: Lesson[] = [
               "Depois, o eu lírico conta que quer voltar para a terra dele.",
             ],
             correctIndex: 0,
-            explanation: "Only the first links a formal feature (the lack of adjectives) to an effect (an idealised landscape). The others retell the content with \"diz que\", \"fala que\", \"conta que\".",
+            explanation: "Only the first links a formal feature (the lack of adjectives) to an effect (an idealized landscape). The others retell the content with \"diz que\", \"fala que\", \"conta que\".",
           },
           {
             type: "translate",
@@ -1988,11 +1988,11 @@ export const PT_C2_U04: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "The poem is written in [free verse]: there is no regular metre.",
+        en: "The poem is written in [free verse]: there is no regular meter.",
         sentence: "O poema é escrito em ___: não há métrica regular.",
         answer: "verso livre",
         altAnswers: ["versos livres"],
-        explanation: "No regular metre means \"verso livre\". \"Verso branco\" would mean the metre stays and only the rhyme goes.",
+        explanation: "No regular meter means \"verso livre\". \"Verso branco\" would mean the meter stays and only the rhyme goes.",
       },
       {
         type: "translate",
@@ -2031,9 +2031,9 @@ export const PT_C2_U04: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The lack of adjectives idealises the landscape.",
+        prompt: "Put the words in order to say: The lack of adjectives idealizes the landscape.",
         words: ["A", "falta", "de", "adjetivos", "idealiza", "a", "paisagem."],
-        translation: "The lack of adjectives idealises the landscape.",
+        translation: "The lack of adjectives idealizes the landscape.",
         explanation: "A formal feature (\"a falta de adjetivos\") as subject, and a verb that makes the claim (\"idealiza\").",
       },
       {
@@ -2053,8 +2053,8 @@ export const PT_C2_U04: Lesson[] = [
         pairs: [
           { left: "verso", right: "a line of poetry" },
           { left: "estrofe", right: "a stanza" },
-          { left: "verso branco", right: "blank verse (metre, no rhyme)" },
-          { left: "verso livre", right: "free verse (no regular metre)" },
+          { left: "verso branco", right: "blank verse (meter, no rhyme)" },
+          { left: "verso livre", right: "free verse (no regular meter)" },
           { left: "assonância", right: "repeated vowel sounds" },
           { left: "eu lírico", right: "the speaker of a poem" },
         ],
@@ -2073,16 +2073,16 @@ export const PT_C2_U04: Lesson[] = [
       {
         heading: "The brief: a sarau and a concrete image",
         body: [
-          "Your mission: the sarau at a public library in São Paulo has opened the mic to newcomers. Each reader brings a poem of up to twelve lines, or a song verse, plus a \"nota do autor\" (author's note) of a few sentences for the programme. Write the poem first. The note comes last, once you know what you actually did.",
-          "Start from a thing, not a feeling. Learners tend to write \"a solidão é muito triste\" and stop there. Manoel de Barros showed how far a small object can go: a magnet on the fridge, cold coffee or the bus queue carries the feeling for you. Name the thing exactly (\"pão de queijo\", not \"comida\") and let the reader reach the conclusion.",
+          "Your mission: the sarau at a public library in São Paulo has opened the mic to newcomers. Each reader brings a poem of up to twelve lines, or a song verse, plus a \"nota do autor\" (author's note) of a few sentences for the program. Write the poem first. The note comes last, once you know what you actually did.",
+          "Start from a thing, not a feeling. Learners tend to write \"a solidão é muito triste\" and stop there. Manoel de Barros showed how far a small object can go: a magnet on the fridge, cold coffee or the line for the bus carries the feeling for you. Name the thing exactly (\"pão de queijo\", not \"comida\") and let the reader reach the conclusion.",
           "Pick a register and keep it. A poem can be colloquial (\"pra\", \"a gente\") or elevated. A single \"outrossim\" in a poem about the feira breaks the spell, unless the clash is the point.",
         ],
         examples: [
           { es: "A solidão é muito triste.", en: "Loneliness is very sad. (abstract: it tells and doesn't show)" },
           { es: "Na geladeira, um ímã segura uma conta paga e nenhum bilhete.", en: "On the fridge, a magnet holds a paid bill and no note." },
           { es: "A saudade tem cheiro de pão de queijo saindo do forno.", en: "Longing smells of cheese bread fresh from the oven." },
-          { es: "Meu bairro é um rádio ligado no volume máximo.", en: "My neighbourhood is a radio turned all the way up." },
-          { es: "Na fila do ônibus, ninguém se olha.", en: "In the bus queue, nobody looks at anyone." },
+          { es: "Meu bairro é um rádio ligado no volume máximo.", en: "My neighborhood is a radio turned all the way up." },
+          { es: "Na fila do ônibus, ninguém se olha.", en: "In line for the bus, nobody looks at anyone." },
         ],
         checkpoint: [
           {
@@ -2120,7 +2120,7 @@ export const PT_C2_U04: Lesson[] = [
       {
         heading: "Shaping the lines: rhythm, rhyme, the break",
         body: [
-          "You know the soneto, verso livre and enjambment from earlier lessons; now you choose. For a song verse the safest frame is the \"redondilha maior\", the seven-syllable line of cordel and of countless sambas. Count poetic syllables only up to the last stressed one, and let neighbouring vowels merge. In \"café esfria\", the end of \"café\" and the start of \"esfria\" count as one syllable.",
+          "You know the soneto, verso livre and enjambment from earlier lessons; now you choose. For a song verse the safest frame is the \"redondilha maior\", the seven-syllable line of cordel and of countless sambas. Count poetic syllables only up to the last stressed one, and let neighboring vowels merge. In \"café esfria\", the end of \"café\" and the start of \"esfria\" count as one syllable.",
           "Rhyme comes cheap in Portuguese, because so many words end in -ar, -ão or -or. Rhyming \"amor\" with \"dor\" or \"coração\" with \"paixão\" marks a beginner at once. A rhyme across word classes, like the adverb \"cedo\" with the noun \"segredo\", sounds earned.",
           "In verso livre, the line break does the job that rhyme does elsewhere. Break after the word you want left hanging (\"mas todos / esperam\"). Never break at random just to make prose look like a poem.",
         ],
@@ -2129,7 +2129,7 @@ export const PT_C2_U04: Lesson[] = [
           { es: "a cidade acorda cedo,", en: "the city wakes up early," },
           { es: "e eu guardo dentro da boca", en: "and I keep inside my mouth" },
           { es: "um nome feito segredo.", en: "a name made into a secret." },
-          { es: "Na fila do ônibus / ninguém se olha, / mas todos / esperam a mesma coisa.", en: "In the bus queue / nobody looks at anyone, / but everyone / is waiting for the same thing." },
+          { es: "Na fila do ônibus / ninguém se olha, / mas todos / esperam a mesma coisa.", en: "In line for the bus / nobody looks at anyone, / but everyone / is waiting for the same thing." },
         ],
         checkpoint: [
           {
@@ -2174,7 +2174,7 @@ export const PT_C2_U04: Lesson[] = [
         body: [
           "The note is prose in the first person: three to five sentences on what you chose and why, using the terms of this unit (\"verso\", \"estrofe\", \"rima\", \"quebra de verso\"). Describe what each choice does to the reader rather than what the poem means. \"A quebra cria uma pausa\" is better than \"o poema fala sobre a espera\".",
           "The verbs of choice are \"optar por\", \"preferir\", \"escolher\" and \"evitar\". Mind the regência: write \"optei pela redondilha\" and \"preferi o verso livre à rima\", never \"preferi... do que\" in print. Purpose takes \"para\" + infinitive, or \"para que\" + subjunctive when the subject changes: \"para que o leitor sinta\".",
-          "Avoid two traps. Don't apologise (\"não sou poeta, mas...\"), and don't walk through the poem line by line. One sentence per choice is enough; the poem should do the rest.",
+          "Avoid two traps. Don't apologize (\"não sou poeta, mas...\"), and don't walk through the poem line by line. One sentence per choice is enough; the poem should do the rest.",
         ],
         examples: [
           { es: "Optei pela redondilha maior para aproximar o poema da canção popular.", en: "I went for the seven-syllable line to bring the poem closer to popular song." },
@@ -2223,7 +2223,7 @@ export const PT_C2_U04: Lesson[] = [
           "Finally, test the title. It can name the scene, or it can add a second layer the poem doesn't spell out, as \"Ponto final\" does for a poem set at a bus stop.",
         ],
         examples: [
-          { es: "O sol queimava a calçada.", en: "The sun was scorching the pavement. (no need for quente: the verb already says it)" },
+          { es: "O sol queimava a calçada.", en: "The sun was scorching the sidewalk. (no need for quente: the verb already says it)" },
           { es: "Abri os olhos antes do despertador.", en: "I opened my eyes before the alarm clock." },
           { es: "Desci a ladeira com as sacolas da feira.", en: "I went down the hill with the bags from the market." },
           { es: "A noite cai devagar sobre o viaduto.", en: "Night falls slowly over the viaduct." },
@@ -2269,7 +2269,7 @@ export const PT_C2_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "In the bus queue, nobody looks at anyone.",
+        source: "In line for the bus, nobody looks at anyone.",
         answer: "Na fila do ônibus, ninguém se olha.",
         altAnswers: [
           "Na fila do ônibus, ninguém olha para ninguém.",
@@ -2304,7 +2304,7 @@ export const PT_C2_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "My neighbourhood is a radio turned all the way up.",
+        source: "My neighborhood is a radio turned all the way up.",
         answer: "Meu bairro é um rádio ligado no volume máximo.",
         altAnswers: [
           "O meu bairro é um rádio ligado no volume máximo.",
@@ -2365,7 +2365,7 @@ export const PT_C2_U04: Lesson[] = [
           "Este poema fala sobre a vida.",
         ],
         correctIndex: 0,
-        explanation: "A good note links a choice to its effect on the reader. The other options apologise, walk through the poem line by line, or are too vague to say anything.",
+        explanation: "A good note links a choice to its effect on the reader. The other options apologize, walk through the poem line by line, or are too vague to say anything.",
       },
       {
         type: "write",
@@ -2389,7 +2389,7 @@ export const PT_C2_U04: Lesson[] = [
     level: "PT-C2",
     number: 10,
     title: "Spiral Review: Poetry and Song",
-    summary: "Mixed practice in reading verse and lyrics: rebuilding inverted lines, scanning metre, naming forms precisely and writing analysis rather than paraphrase.",
+    summary: "Mixed practice in reading verse and lyrics: rebuilding inverted lines, scanning meter, naming forms precisely and writing analysis rather than paraphrase.",
     duration: "15 min",
     kind: "review",
     format: "Spiral Review",
@@ -2399,7 +2399,7 @@ export const PT_C2_U04: Lesson[] = [
         body: [
           "Poetic syntax bends prose order for rhythm and rhyme, so start by rebuilding the sentence. The national anthem opens \"Ouviram do Ipiranga as margens plácidas / De um povo heroico o brado retumbante\". Its subject is \"as margens plácidas\" and its object is \"o brado retumbante\": the banks heard the cry. English readers take the first noun as the subject. In inverted verse, find the verb first, then ask who does it.",
           "Ellipsis makes you supply a missing word, usually a repeated verb. Enjambment makes you read past the line end without dropping your voice. In Augusto dos Anjos's \"ninguém assistiu ao formidável / Enterro de tua última quimera\", the adjective hangs at the edge and the noun opens the next line, so \"Enterro\" lands with full weight. The norm regência is \"assistir a\", to witness.",
-          "Metre counts poetic syllables up to the last stressed one, and vowels merge across words. \"A-mor-é-fo-go-que ar-de-sem-se-ver\" is a decassílabo heroico, stressed on the sixth and tenth syllables.",
+          "Meter counts poetic syllables up to the last stressed one, and vowels merge across words. \"A-mor-é-fo-go-que ar-de-sem-se-ver\" is a decassílabo heroico, stressed on the sixth and tenth syllables.",
         ],
         examples: [
           { es: "Ouviram do Ipiranga as margens plácidas / De um povo heroico o brado retumbante.", en: "The placid banks of the Ipiranga heard / the resounding cry of a heroic people. (National Anthem)" },
@@ -2506,7 +2506,7 @@ export const PT_C2_U04: Lesson[] = [
           { es: "A letra é dela; a melodia, do parceiro.", en: "The lyrics are hers; the melody, her partner's." },
           { es: "O menino lesmava devagar pelo quintal.", en: "The boy slugged his way slowly across the yard." },
           { es: "O poeta desinventa a cidade para vê-la de novo.", en: "The poet un-invents the city so he can see it again." },
-          { es: "No sarau da quebrada, a gente lê o que a gente vive.", en: "At the neighbourhood sarau, we read what we live." },
+          { es: "No sarau da quebrada, a gente lê o que a gente vive.", en: "At the neighborhood sarau, we read what we live." },
           { es: "O registro oral do poema marca a voz da periferia.", en: "The poem's spoken register marks the voice of the periphery." },
         ],
         checkpoint: [
@@ -2564,7 +2564,7 @@ export const PT_C2_U04: Lesson[] = [
           "O poema está escrito em versos livres.",
           "O poema foi escrito em versos livres.",
         ],
-        explanation: "\"Verso livre\" means no fixed metre or rhyme scheme. \"Está escrito\" presents the form as a resulting state, and \"foi escrito\" as an event.",
+        explanation: "\"Verso livre\" means no fixed meter or rhyme scheme. \"Está escrito\" presents the form as a resulting state, and \"foi escrito\" as an event.",
       },
       {
         type: "translate",
@@ -2614,7 +2614,7 @@ export const PT_C2_U04: Lesson[] = [
           "A primeira estrofe do poema tem dez sílabas.",
         ],
         correctIndex: 0,
-        explanation: "A line is \"verso\" (masculine, so \"o primeiro\"), and metre is counted in \"sílabas poéticas\", which differ from grammatical syllables. A stanza of ten syllables makes no sense.",
+        explanation: "A line is \"verso\" (masculine, so \"o primeiro\"), and meter is counted in \"sílabas poéticas\", which differ from grammatical syllables. A stanza of ten syllables makes no sense.",
       },
       {
         type: "dictation",
@@ -2635,7 +2635,7 @@ export const PT_C2_U04: Lesson[] = [
           { left: "verso", right: "line of poetry" },
           { left: "estrofe", right: "stanza" },
           { left: "refrão", right: "chorus" },
-          { left: "métrica", right: "metre" },
+          { left: "métrica", right: "meter" },
           { left: "soneto", right: "sonnet" },
           { left: "rima", right: "rhyme" },
         ],
@@ -2699,12 +2699,12 @@ export const PT_C2_U04: Lesson[] = [
 
 export const PT_C2_U04_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Last Saturday you went to a sarau (an open-mic poetry evening) at a cultural centre in São Paulo. Write a review for the centre's newsletter about one poem you heard there. You may invent the poet and quote a few lines. Describe the poem's form, analyse its poetic syntax and any invented words, say what a plain paraphrase would lose, and place the poem in contemporary Brazilian writing. Write 250-400 words in Portuguese, in a critical but readable register.",
+  prompt: "Last Saturday you went to a sarau (an open-mic poetry evening) at a cultural center in São Paulo. Write a review for the center's newsletter about one poem you heard there. You may invent the poet and quote a few lines. Describe the poem's form, analyze its poetic syntax and any invented words, say what a plain paraphrase would lose, and place the poem in contemporary Brazilian writing. Write 250-400 words in Portuguese, in a critical but readable register.",
   minWords: 250,
   maxWords: 400,
   rubric: [
     "Describe the form with accurate terms: \"verso\", \"estrofe\", \"rima\", \"métrica\", \"verso livre\" (or \"soneto\").",
-    "Analyse poetic syntax with quoted lines: an \"inversão\", an \"enjambement\" (shown with \"/\") and an \"elipse\", saying what effect each has.",
+    "Analyze poetic syntax with quoted lines: an \"inversão\", an \"enjambement\" (shown with \"/\") and an \"elipse\", saying what effect each has.",
     "Comment on linguistic invention (\"neologismo\", built with prefixes such as \"des-\" or suffixes such as \"-ante\"), and compare it with a poet such as Manoel de Barros or Paulo Leminski.",
     "Contrast the poem with a \"paráfrase\" and keep a critical register: present tense of analysis, \"o poema\", \"a voz lírica\", \"dialoga com\", and judgements backed by evidence rather than vague praise.",
   ],

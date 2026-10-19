@@ -239,7 +239,7 @@ export const FR_B2_U26: Lesson[] = [
         heading: "Le jeu dans lequel tout a commencé",
         body: [
           "Théo (17, Strasbourg) and Malik (18, Toulouse) have played together for two years in an online game. To describe their world, use relatives: \"un jeu dans lequel on construit des villes\", \"l'équipe dont Théo est le capitaine\", \"les joueurs avec qui il discute tous les soirs\", \"le serveur sur lequel ils se sont rencontrés\".",
-          "Remember the choice: \"qui\" / \"que\" for subject / object; \"dont\" for de; preposition + \"lequel\" for things (\"sur lequel\", \"dans laquelle\"), preposition + \"qui\" for people (\"avec qui\", \"pour qui\").",
+          "Remember the choice: \"qui\" / \"que\" for subject / object; \"dont\" for \"de\"; preposition + \"lequel\" for things (\"sur lequel\", \"dans laquelle\"), preposition + \"qui\" for people (\"avec qui\", \"pour qui\").",
           "Gaming vocabulary: \"un jeu vidéo\", \"un joueur\", \"une partie\" (a game, a match), \"un serveur\", \"un pseudo\", \"le chat vocal\", \"jouer en ligne\", \"faire équipe avec\" (to team up with).",
         ],
         examples: [
@@ -274,7 +274,7 @@ export const FR_B2_U26: Lesson[] = [
         body: [
           "They decide to meet in Paris, halfway. Planning brings in the conjunctions. Subjunctive: \"avant que\" (\"avant que leurs parents ne s'inquiètent\"), \"pour que\" / \"afin que\", \"à condition que\", \"bien que\", \"à moins que\". Indicative: \"dès que\", \"quand\" + futur, \"après que\", \"parce que\", \"puisque\".",
           "When the subject is the same, use the preposition + infinitive instead: \"avant de partir\", \"pour se rencontrer\", \"à condition de prévenir ses parents\", \"sans le dire à personne\".",
-          "A common English-speaker slip: *après qu'il soit arrivé. \"Après que\" takes the indicative in careful French: \"après qu'il est arrivé\", or, more simply, \"après son arrivée\".",
+          "A common English-speaker slip: *\"après qu'il soit arrivé\". \"Après que\" takes the indicative in careful French: \"après qu'il est arrivé\", or, more simply, \"après son arrivée\".",
         ],
         examples: [
           { es: "Ils se retrouveront à Paris à condition que leurs parents soient d'accord.", en: "They'll meet in Paris provided their parents agree." },
@@ -405,7 +405,7 @@ export const FR_B2_U26: Lesson[] = [
         prompt: "Translate into French.",
         source: "He admitted to me that he had been scared.",
         answer: "Il m'a avoué qu'il avait eu peur.",
-        altAnswers: ["Il m'a admis qu'il avait eu peur.", "Il m'a avoué avoir eu peur."],
+                altAnswers: ["Il m'a avoué avoir eu peur."],
         explanation: "\"Avouer\" + plus-que-parfait for an earlier feeling; or \"avouer\" + infinitif passé.",
       },
       {
@@ -436,13 +436,13 @@ export const FR_B2_U26: Lesson[] = [
     level: "FR-B2",
     number: 3,
     title: "Spiral Review: Talk About Yourself: Quelqu'un qui a Beaucoup Changé",
-    summary: "Describe someone you know who has changed a lot, with devenir, rendre, se mettre à, finir par, the -ir verbs of change and causative faire.",
+    summary: "Describe someone you know who has changed a lot, with \"devenir\", \"rendre\", \"se mettre à\", \"finir par\", the -ir verbs of change and causative \"faire\".",
     duration: "13 min",
     sections: [
       {
         heading: "Devenir or rendre?",
         body: [
-          "Start with what the person has become. \"Devenir\" describes the change in the subject itself: \"mon cousin est devenu beaucoup plus calme\" (with \"être\" in the passé composé). \"Rendre\" + adjective describes what caused the change: \"la paternité l'a rendu plus calme\". English make + adjective is always \"rendre\", never *faire.",
+          "Start with what the person has become. \"Devenir\" describes the change in the subject itself: \"mon cousin est devenu beaucoup plus calme\" (with \"être\" in the passé composé). \"Rendre\" + adjective describes what caused the change: \"la paternité l'a rendu plus calme\". English make + adjective is always \"rendre\", never *\"faire\".",
           "Before a job, \"devenir\" takes no article (\"elle est devenue infirmière\"), unless there's an adjective (\"elle est devenue une infirmière remarquable\").",
           "Speaking tip: a structure like \"ce qui l'a changé, c'est...\" introduces the cause clearly and buys you time.",
         ],
@@ -563,7 +563,7 @@ export const FR_B2_U26: Lesson[] = [
         prompt: "Translate into French.",
         source: "Fatherhood made him calmer.",
         answer: "La paternité l'a rendu plus calme.",
-        explanation: "Make + adjective → \"rendre\", never *faire.",
+        explanation: "Make + adjective → \"rendre\", never *\"faire\".",
       },
       {
         type: "translate",
@@ -596,7 +596,7 @@ export const FR_B2_U26: Lesson[] = [
         source: "He took up yoga after his divorce.",
         answer: "Il s'est mis au yoga après son divorce.",
         altAnswers: ["Il a commencé le yoga après son divorce.", "Il s'est mis à faire du yoga après son divorce."],
-        explanation: "\"Se mettre à\" + noun (au yoga) or + infinitive.",
+        explanation: "\"Se mettre à\" + noun (\"au yoga\") or + infinitive.",
       },
       {
         type: "word-order",
@@ -632,14 +632,14 @@ export const FR_B2_U26: Lesson[] = [
     level: "FR-B2",
     number: 4,
     title: "Word Web: Personal Growth",
-    summary: "Talk about goals, habits and overcoming difficulties: se fixer des objectifs, progresser, se dépasser, prendre confiance en soi, l'épanouissement, une formation, réussir à.",
+    summary: "Talk about goals, habits and overcoming difficulties: \"se fixer des objectifs\", \"progresser\", \"se dépasser\", \"prendre confiance en soi\", \"l'épanouissement\", \"une formation\", \"réussir à\".",
     duration: "14 min",
     sections: [
       {
         heading: "Se fixer des objectifs",
         body: [
           "Goals are \"des objectifs\" (masculine) or \"des buts\". You \"se fixer un objectif\" (set yourself a goal), \"atteindre un objectif\" (reach it), \"se donner les moyens de\" (give yourself the means to). \"Un défi\" is a challenge: \"relever un défi\" (take up a challenge).",
-          "\"Réussir\" has three constructions: \"réussir un examen\" (pass an exam, direct object), \"réussir à\" + infinitive (to manage to, to succeed in: \"j'ai réussi à courir dix kilomètres\"), and \"réussir dans la vie\". *Réussir de is a frequent mistake.",
+          "\"Réussir\" has three constructions: \"réussir un examen\" (pass an exam, direct object), \"réussir à\" + infinitive (to manage to, to succeed in: \"j'ai réussi à courir dix kilomètres\"), and \"réussir dans la vie\". *\"Réussir de\" is a frequent mistake.",
           "Purpose and duration conjunctions fit here: \"je m'entraîne pour que mon corps s'habitue\", \"je continuerai jusqu'à ce que j'y arrive\", \"je me suis inscrit afin de progresser\".",
         ],
         examples: [
@@ -658,14 +658,14 @@ export const FR_B2_U26: Lesson[] = [
             source: "I managed to run ten kilometres.",
             answer: "J'ai réussi à courir dix kilomètres.",
             altAnswers: ["Je suis arrivé à courir dix kilomètres.", "Je suis arrivée à courir dix kilomètres.", "J'ai réussi à courir 10 kilomètres.", "J'ai réussi à courir dix km."],
-            explanation: "\"Réussir à\" + infinitive (to manage to); never *réussir de.",
+            explanation: "\"Réussir à\" + infinitive (to manage to); never *\"réussir de\".",
           },
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
             options: ["Elle a atteint les objectifs qu'elle s'était fixés.", "Elle a atteint les objectifs qu'elle s'était fixé.", "Elle a atteint les objectifs qu'elle avait fixé à elle.", "Elle a atteint les objectifs dont elle s'était fixés."],
             correctIndex: 0,
-            explanation: "\"Se fixer des objectifs\": the direct object \"que\" (objectifs) comes before, so \"fixés\" agrees (masculine plural).",
+            explanation: "\"Se fixer des objectifs\": the direct object \"que\" (\"objectifs\") comes before, so \"fixés\" agrees (masculine plural).",
           },
         ],
       },
@@ -813,7 +813,7 @@ export const FR_B2_U26: Lesson[] = [
         source: "At forty, he changed careers.",
         answer: "À quarante ans, il s'est reconverti.",
         altAnswers: ["À quarante ans, il a changé de métier.", "À 40 ans, il s'est reconverti.", "À 40 ans, il a changé de métier.", "À quarante ans, il a changé de carrière.", "À quarante ans, il a fait une reconversion professionnelle."],
-        explanation: "\"Se reconvertir\" or \"changer de métier\" (no article after changer de).",
+        explanation: "\"Se reconvertir\" or \"changer de métier\" (no article after \"changer de\").",
       },
       {
         type: "matching",
@@ -830,7 +830,7 @@ export const FR_B2_U26: Lesson[] = [
       {
         type: "dictation",
         audio: "Elle a atteint tous les objectifs qu'elle s'était fixés.",
-        explanation: "\"Fixés\" agrees with \"que\" (les objectifs), the direct object placed before the verb.",
+        explanation: "\"Fixés\" agrees with \"que\" (\"les objectifs\"), the direct object placed before the verb.",
       },
       {
         type: "speak",
@@ -845,14 +845,14 @@ export const FR_B2_U26: Lesson[] = [
     level: "FR-B2",
     number: 5,
     title: "Spiral Review: L'Essai d'Opinion",
-    summary: "Build a short opinion essay on banning phones in schools, step by step, with a problématique, arguments, a concession and a conclusion that use every Upper-intermediate tool.",
+    summary: "Build a short opinion essay on banning phones in schools, step by step, with a \"problématique\", arguments, a concession and a conclusion that use every Upper-intermediate tool.",
     duration: "15 min",
     sections: [
       {
         heading: "L'introduction et la problématique",
         body: [
           "The topic: « Faut-il interdire le téléphone portable au lycée ? ». A DELF B2 essay opens with a hook (a fact or a situation), then the \"problématique\", the question the essay will answer, then the plan. \"Aujourd'hui, neuf adolescents sur dix possèdent un smartphone.\"",
-          "The problématique is often an indirect question: \"on peut se demander si l'interdiction est la bonne solution\", \"il s'agit de savoir dans quelle mesure le téléphone nuit à l'apprentissage\". Indirect questions use \"si\", \"dans quelle mesure\", \"comment\", with no inversion.",
+          "The \"problématique\" is often an indirect question: \"on peut se demander si l'interdiction est la bonne solution\", \"il s'agit de savoir dans quelle mesure le téléphone nuit à l'apprentissage\". Indirect questions use \"si\", \"dans quelle mesure\", \"comment\", with no inversion.",
           "Announce the plan in one sentence: \"nous verrons d'abord..., puis nous examinerons...\". In French essays, \"nous\" is the academic I.",
         ],
         examples: [
@@ -878,7 +878,7 @@ export const FR_B2_U26: Lesson[] = [
             en: "The question is [to what extent] phones harm learning.",
             sentence: "Il s'agit de savoir ___ le téléphone nuit à l'apprentissage.",
             answer: "dans quelle mesure",
-            explanation: "\"Dans quelle mesure\" (to what extent) is the classic formula for a problématique.",
+            explanation: "\"Dans quelle mesure\" (to what extent) is the classic formula for a \"problématique\".",
           },
         ],
       },
@@ -925,8 +925,8 @@ export const FR_B2_U26: Lesson[] = [
       {
         heading: "La concession et la conclusion",
         body: [
-          "An Upper-intermediate essay must acknowledge the other side: \"certes, le téléphone peut être un outil pédagogique ; toutefois...\", \"il est vrai que les parents veulent pouvoir joindre leurs enfants ; néanmoins...\", \"bien que le téléphone soit utile en cas d'urgence, ...\" (subjunctive after \"bien que\"), \"malgré\" + noun (\"malgré ses avantages\"), never *malgré que in an exam.",
-          "The conclusion sums up (\"en définitive\", \"en conclusion\", \"somme toute\"), answers the problématique, and opens a perspective: \"il faudrait plutôt que l'école apprenne aux élèves à utiliser leur téléphone de façon responsable\" (subjunctive after \"il faudrait que\").",
+          "An Upper-intermediate essay must acknowledge the other side: \"certes, le téléphone peut être un outil pédagogique ; toutefois...\", \"il est vrai que les parents veulent pouvoir joindre leurs enfants ; néanmoins...\", \"bien que le téléphone soit utile en cas d'urgence, ...\" (subjunctive after \"bien que\"), \"malgré\" + noun (\"malgré ses avantages\"), never *\"malgré que\" in an exam.",
+          "The conclusion sums up (\"en définitive\", \"en conclusion\", \"somme toute\"), answers the \"problématique\", and opens a perspective: \"il faudrait plutôt que l'école apprenne aux élèves à utiliser leur téléphone de façon responsable\" (subjunctive after \"il faudrait que\").",
           "A final hypothesis is an elegant ending: \"si l'on apprenait aux jeunes à se déconnecter, l'interdiction deviendrait peut-être inutile\".",
         ],
         examples: [
@@ -952,7 +952,7 @@ export const FR_B2_U26: Lesson[] = [
             question: "Which concession is correct in a formal essay?",
             options: ["Malgré ses avantages, le portable distrait les élèves.", "Malgré que le portable ait des avantages, il distrait les élèves.", "Malgré qu'il a des avantages, le portable distrait les élèves.", "Malgré de ses avantages, le portable distrait les élèves."],
             correctIndex: 0,
-            explanation: "\"Malgré\" + noun; *malgré que is avoided in careful French: use \"bien que\" + subjunctive.",
+            explanation: "\"Malgré\" + noun; *\"malgré que\" is avoided in careful French: use \"bien que\" + subjunctive.",
           },
         ],
       },
@@ -1043,7 +1043,7 @@ export const FR_B2_U26: Lesson[] = [
       {
         type: "speak",
         text: "On peut se demander si l'interdiction est vraiment la bonne solution.",
-        prompt: "Say the problématique in French: One may wonder whether a ban is really the right solution.",
+        prompt: "Say the \"problématique\" in French: One may wonder whether a ban is really the right solution.",
         explanation: "\"Se demander si\": indirect question with no inversion.",
       },
     ],
@@ -1053,13 +1053,13 @@ export const FR_B2_U26: Lesson[] = [
     level: "FR-B2",
     number: 6,
     title: "Word Web: Debate and Argument",
-    summary: "Agree, disagree, concede, nuance and refute in a debate: argumenter, débattre de, réfuter, nuancer, avoir raison, être d'accord avec, prendre position.",
+    summary: "Agree, disagree, concede, nuance and refute in a debate: \"argumenter\", \"débattre de\", \"réfuter\", \"nuancer\", \"avoir raison\", \"être d'accord avec\", \"prendre position\".",
     duration: "14 min",
     sections: [
       {
         heading: "Prendre position: à mon avis, selon moi",
         body: [
-          "To give your opinion: \"à mon avis\", \"selon moi\", \"d'après moi\", \"pour ma part\", \"en ce qui me concerne\", \"je suis convaincu que\", \"j'estime que\". Never *dans mon opinion (a calque of English); and \"à mon avis\" already means I think, so *à mon avis, je pense que is redundant.",
+          "To give your opinion: \"à mon avis\", \"selon moi\", \"d'après moi\", \"pour ma part\", \"en ce qui me concerne\", \"je suis convaincu que\", \"j'estime que\". Never *\"dans mon opinion\" (a calque of English); and \"à mon avis\" already means I think, so *\"à mon avis, je pense que\" is redundant.",
           "\"Prendre position\" is to take a stand; \"un point de vue\" a point of view; \"un argument\" an argument (a reason, not a quarrel: a quarrel is \"une dispute\"). \"Débattre de\" or \"débattre d'un sujet\" (to debate), \"argumenter\" (to argue a case, give reasons), \"se disputer\" (to argue, quarrel).",
           "Opinion verbs and mood: \"je pense que\", \"je crois que\" + indicative; \"je ne pense pas que\", \"je doute que\" + subjunctive.",
         ],
@@ -1079,7 +1079,7 @@ export const FR_B2_U26: Lesson[] = [
             source: "In my opinion, this measure is useless.",
             answer: "À mon avis, cette mesure est inutile.",
             altAnswers: ["Selon moi, cette mesure est inutile.", "D'après moi, cette mesure ne sert à rien.", "À mon avis, cette mesure ne sert à rien.", "Selon moi, cette mesure ne sert à rien.", "D'après moi, cette mesure est inutile."],
-            explanation: "\"À mon avis\" / \"selon moi\"; *dans mon opinion is a calque.",
+            explanation: "\"À mon avis\" / \"selon moi\"; *\"dans mon opinion\" is a calque.",
           },
           {
             type: "multiple-choice",
@@ -1093,8 +1093,8 @@ export const FR_B2_U26: Lesson[] = [
       {
         heading: "Être d'accord, avoir raison",
         body: [
-          "\"Être d'accord avec quelqu'un\" (to agree with someone), \"être d'accord sur quelque chose\" (to agree on something), \"être d'accord pour\" + infinitive (to agree to do). *Je suis d'accord à is a common error, and so is *je suis agréé. \"Je suis entièrement / tout à fait d'accord\", \"je ne suis pas du tout d'accord\".",
-          "Right and wrong are possessed in French: \"avoir raison\" (to be right), \"avoir tort\" (to be wrong). *Être raison does not exist. \"Tu as tout à fait raison\", \"j'avais tort de m'inquiéter\".",
+          "\"Être d'accord avec quelqu'un\" (to agree with someone), \"être d'accord sur quelque chose\" (to agree on something), \"être d'accord pour\" + infinitive (to agree to do). *\"Je suis d'accord à\" is a common error, and so is *\"je suis agréé\". \"Je suis entièrement / tout à fait d'accord\", \"je ne suis pas du tout d'accord\".",
+          "Right and wrong are possessed in French: \"avoir raison\" (to be right), \"avoir tort\" (to be wrong). *\"Être raison\" does not exist. \"Tu as tout à fait raison\", \"j'avais tort de m'inquiéter\".",
           "Softer ways to agree or disagree: \"c'est vrai, mais...\", \"je vois ce que tu veux dire, cependant...\", \"je ne partage pas ton avis\", \"je ne suis pas sûr que\" + subjunctive.",
         ],
         examples: [
@@ -1113,7 +1113,7 @@ export const FR_B2_U26: Lesson[] = [
             source: "I agree with you.",
             answer: "Je suis d'accord avec toi.",
             altAnswers: ["Je suis d'accord avec vous."],
-            explanation: "\"Être d'accord avec\" + person; never *d'accord à.",
+            explanation: "\"Être d'accord avec\" + person; never *\"d'accord à\".",
           },
           {
             type: "fill-blank",
@@ -1306,7 +1306,7 @@ export const FR_B2_U26: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Ten seconds: There's nobody who ___ help us.",
+            question: "Ten seconds! Which is correct for: There's nobody who can help us?",
             options: ["Il n'y a personne qui puisse nous aider.", "Il n'y a personne qui peut nous aider demain.", "Il n'y a personne qui pourrait nous aider hier.", "Il n'y a personne qui pouvoir nous aider."],
             correctIndex: 0,
             explanation: "A non-existent antecedent (\"personne\") → subjunctive in the relative: \"puisse\".",
@@ -1316,7 +1316,7 @@ export const FR_B2_U26: Lesson[] = [
       {
         heading: "Round 2: conditions, regrets, reported speech",
         body: [
-          "Si + présent → futur; si + imparfait → conditionnel; si + plus-que-parfait → conditionnel passé. Never a conditional after \"si\" (if). \"J'aurais dû\" (should have), \"tu aurais pu\" (could have), \"si seulement\" + plus-que-parfait.",
+          "\"Si\" + présent → futur; \"si\" + imparfait → conditionnel; \"si\" + plus-que-parfait → conditionnel passé. Never a conditional after \"si\" (if). \"J'aurais dû\" (should have), \"tu aurais pu\" (could have), \"si seulement\" + plus-que-parfait.",
           "Reported speech after a past verb: présent → imparfait, passé composé → plus-que-parfait, futur → conditionnel; questions with \"si\", \"ce que\", \"ce qui\"; orders with \"de\" + infinitive.",
           "One sentence, one decision: find the time of the condition and the time of the result.",
         ],
@@ -1344,7 +1344,7 @@ export const FR_B2_U26: Lesson[] = [
             sentence: "Si tu m'avais prévenu, ___.",
             answer: "je serais venu",
             altAnswers: ["je serais venue"],
-            explanation: "Si + plus-que-parfait → conditionnel passé; \"venir\" takes \"être\".",
+            explanation: "\"Si\" + plus-que-parfait → conditionnel passé; \"venir\" takes \"être\".",
           },
           {
             type: "listen-choose",
@@ -1360,7 +1360,7 @@ export const FR_B2_U26: Lesson[] = [
         heading: "Round 3: participles, causatives, connectors, emphasis, relatives",
         body: [
           "Gérondif: \"en\" + -ant, same subject (\"en arrivant, j'ai vu...\"). Causative: \"faire\" + infinitive (\"je fais réparer\"), no agreement of \"fait\". Change: \"devenir\", \"rendre\" + adjective, \"se mettre à\", \"finir par\".",
-          "Connectors: contrast \"pourtant, cependant, en revanche\"; cause \"car, puisque, comme\" (comme first); consequence \"donc, par conséquent\"; addition \"de plus, en outre\". Emphasis: \"c'est moi qui ai\", \"ce qui me plaît, c'est...\". Relatives: \"dont\" for de, \"duquel\" after compound prepositions, \"lequel\" after prepositions, \"où\" for time.",
+          "Connectors: contrast \"pourtant, cependant, en revanche\"; cause \"car, puisque, comme\" (\"comme\" first); consequence \"donc, par conséquent\"; addition \"de plus, en outre\". Emphasis: \"c'est moi qui ai\", \"ce qui me plaît, c'est...\". Relatives: \"dont\" for \"de\", \"duquel\" after compound prepositions, \"lequel\" after prepositions, \"où\" for time.",
           "Speed comes from recognising the trigger: the verb's preposition, the logical relation, the subject.",
         ],
         examples: [
@@ -1379,7 +1379,7 @@ export const FR_B2_U26: Lesson[] = [
             source: "We're the ones who organised the party.",
             answer: "C'est nous qui avons organisé la fête.",
             altAnswers: ["C'est nous qui avons organisé la soirée."],
-            explanation: "After \"c'est nous qui\", the verb is in the nous form: \"avons\".",
+            explanation: "After \"c'est nous qui\", the verb is in the \"nous\" form: \"avons\".",
           },
           {
             type: "translate",
@@ -1388,7 +1388,7 @@ export const FR_B2_U26: Lesson[] = [
             source: "the day I met her",
             answer: "le jour où je l'ai rencontrée",
             altAnswers: ["le jour où j'ai fait sa connaissance"],
-            explanation: "Time → \"où\" (never *quand); \"rencontrée\" agrees with \"l'\" (her).",
+            explanation: "Time → \"où\" (never *\"quand\"); \"rencontrée\" agrees with \"l'\" (her).",
           },
         ],
       },
@@ -1418,7 +1418,7 @@ export const FR_B2_U26: Lesson[] = [
         prompt: "Translate into French.",
         source: "If I had more time, I'd learn Italian.",
         answer: "Si j'avais plus de temps, j'apprendrais l'italien.",
-        explanation: "Si + imparfait → conditionnel.",
+        explanation: "\"Si\" + imparfait → conditionnel.",
       },
       {
         type: "translate",
@@ -1520,7 +1520,7 @@ export const FR_B2_U26: Lesson[] = [
             source: "Although remote working is convenient, it isolates people.",
             answer: "Bien que le télétravail soit pratique, il isole les gens.",
             altAnswers: ["Bien que le télétravail soit pratique, il isole.", "Bien que le télétravail soit pratique, il isole les salariés.", "Quoique le télétravail soit pratique, il isole les gens.", "Malgré ses avantages pratiques, le télétravail isole les gens.", "Même si le télétravail est pratique, il isole les gens."],
-            explanation: "\"Bien que\" + subjunctive replaces *malgré que in formal writing.",
+            explanation: "\"Bien que\" + subjunctive replaces *\"malgré que\" in formal writing.",
           },
           {
             type: "multiple-choice",
@@ -1563,7 +1563,7 @@ export const FR_B2_U26: Lesson[] = [
             sentence: "___ télétravail, beaucoup de gens se sentent seuls.",
             answer: "À cause du",
             altAnswers: ["En raison du"],
-            explanation: "A negative cause → \"à cause de\" (+ le = du); \"grâce à\" is only for good outcomes.",
+            explanation: "A negative cause → \"à cause de\" (+ \"le\" = \"du\"); \"grâce à\" is only for good outcomes.",
           },
           {
             type: "speak",
@@ -1616,7 +1616,7 @@ export const FR_B2_U26: Lesson[] = [
         source: "Despite its advantages, remote working has limits.",
         answer: "Malgré ses avantages, le télétravail a des limites.",
         altAnswers: ["Malgré ses avantages, le télétravail présente des limites.", "En dépit de ses avantages, le télétravail a des limites.", "Malgré ses avantages, le télétravail comporte des limites."],
-        explanation: "\"Malgré\" + noun: the correct way to use malgré.",
+        explanation: "\"Malgré\" + noun: the correct way to use \"malgré\".",
       },
       {
         type: "translate",
@@ -1701,7 +1701,7 @@ export const FR_B2_U26: Lesson[] = [
         type: "speak",
         text: "Bien que le télétravail soit pratique, il isole les salariés.",
         prompt: "Say Hugo's corrected sentence: Although remote working is convenient, it isolates employees.",
-        explanation: "\"Bien que\" + subjunctive, not *malgré que.",
+        explanation: "\"Bien que\" + subjunctive, not *\"malgré que\".",
       },
     ],
   },
@@ -1710,7 +1710,7 @@ export const FR_B2_U26: Lesson[] = [
     level: "FR-B2",
     number: 9,
     title: "Word Web: Music and Performing Arts",
-    summary: "Rehearsals, premieres and reviews: une répétition, une première, la mise en scène, un comédien, un spectacle, une salle comble, faire un tabac, with emphasis to praise or criticise.",
+    summary: "Rehearsals, premieres and reviews: \"une répétition\", \"une première\", \"la mise en scène\", \"un comédien\", \"un spectacle\", \"une salle comble\", \"faire un tabac\", with emphasis to praise or criticise.",
     duration: "14 min",
     sections: [
       {
@@ -1887,7 +1887,7 @@ export const FR_B2_U26: Lesson[] = [
         question: "You loved the way the actress performed. What do you exclaim?",
         options: ["Qu'est-ce qu'elle joue bien !", "Comment elle joue bien !", "Quelle elle joue bien !", "Qu'elle joue bien ?"],
         correctIndex: 0,
-        explanation: "\"Qu'est-ce que\" + clause is an exclamation of degree; *comment is an anglicism.",
+        explanation: "\"Qu'est-ce que\" + clause is an exclamation of degree; *\"comment\" here is an anglicism.",
       },
       {
         type: "word-order",
@@ -2042,7 +2042,7 @@ export const FR_B2_U26: Lesson[] = [
         body: [
           "Last station. Connectors chosen by logic and register: \"cependant, néanmoins, toutefois\" (contrast), \"en revanche\" (comparison), \"pourtant\" (surprise), \"puisque, étant donné que\" (cause), \"par conséquent, ainsi\" (consequence), \"en outre, par ailleurs\" (addition), \"en effet\" (confirmation).",
           "Emphasis: dislocation (\"ce film, je l'ai adoré\"), clefts with agreement (\"c'est vous qui avez gagné\"), pseudo-clefts with the right pronoun (\"ce dont je rêve, c'est...\", \"ce à quoi je pense, c'est...\").",
-          "Relatives: \"dont\" (whose, de), \"lequel\" after prepositions, \"duquel\" after compound prepositions, \"à qui\" for people, \"où\" for place and time.",
+          "Relatives: \"dont\" (whose, \"de\"), \"lequel\" after prepositions, \"duquel\" after compound prepositions, \"à qui\" for people, \"où\" for place and time.",
         ],
         examples: [
           { es: "Il fait beau ; néanmoins, je reste à la maison.", en: "It's sunny; nevertheless, I'm staying at home." },
@@ -2059,7 +2059,7 @@ export const FR_B2_U26: Lesson[] = [
             prompt: "Translate into French.",
             source: "She's a friend whose courage I admire.",
             answer: "C'est une amie dont j'admire le courage.",
-            explanation: "\"Dont\" + normal word order: \"j'admire le courage\", never *dont le courage j'admire.",
+            explanation: "\"Dont\" + normal word order: \"j'admire le courage\", never *\"dont le courage j'admire\".",
           },
           {
             type: "listen-choose",
@@ -2098,7 +2098,7 @@ export const FR_B2_U26: Lesson[] = [
         source: "If I had known, I wouldn't have come.",
         answer: "Si j'avais su, je ne serais pas venu.",
         altAnswers: ["Si j'avais su, je ne serais pas venue."],
-        explanation: "Si + plus-que-parfait → conditionnel passé.",
+        explanation: "\"Si\" + plus-que-parfait → conditionnel passé.",
       },
       {
         type: "translate",
@@ -2185,7 +2185,7 @@ export const FR_B2_U26: Lesson[] = [
     level: "FR-B2",
     number: 11,
     title: "Spiral Review: Le Changement d'André",
-    summary: "An accountant becomes a baker: fill the gaps in André's story with devenir, rendre, se mettre à, finir par and the -ir verbs of change.",
+    summary: "An accountant becomes a baker: fill the gaps in André's story with \"devenir\", \"rendre\", \"se mettre à\", \"finir par\" and the -ir verbs of change.",
     duration: "13 min",
     sections: [
       {
@@ -2209,7 +2209,7 @@ export const FR_B2_U26: Lesson[] = [
             en: "His hair [was going white].",
             sentence: "Ses cheveux ___.",
             answer: "blanchissaient",
-            explanation: "\"Blanchir\" (from blanc) conjugates like finir: imparfait \"blanchissaient\".",
+            explanation: "\"Blanchir\" (from \"blanc\") conjugates like \"finir\": imparfait \"blanchissaient\".",
           },
           {
             type: "translate",
@@ -2270,7 +2270,7 @@ export const FR_B2_U26: Lesson[] = [
         body: [
           "Today André runs a bakery in a village in the Loire valley. The present describes him, the passé composé sums up the change: \"il a maigri de quinze kilos\", \"il a rajeuni\" (he looks younger), \"il est devenu quelqu'un d'autre\". \"Ce métier l'a rendu heureux\".",
           "Emphasis gives the story its ending: \"ce qui a changé, c'est tout\", \"c'est en se levant à quatre heures du matin qu'il a retrouvé le goût de vivre\". And a final regret, in the conditionnel passé: \"j'aurais dû le faire vingt ans plus tôt\".",
-          "Notice the agreement: \"sa femme, que ce changement a d'abord inquiétée, est aujourd'hui fière de lui\". The participle agrees with the preceding direct object \"que\" (sa femme).",
+          "Notice the agreement: \"sa femme, que ce changement a d'abord inquiétée, est aujourd'hui fière de lui\". The participle agrees with the preceding direct object \"que\" (\"sa femme\").",
         ],
         examples: [
           { es: "Aujourd'hui, André tient une boulangerie dans un village de la Loire.", en: "Today Andre runs a bakery in a village in the Loire." },
@@ -2315,7 +2315,7 @@ export const FR_B2_U26: Lesson[] = [
         prompt: "Translate into French.",
         source: "He had become irritable.",
         answer: "Il était devenu irritable.",
-        explanation: "Plus-que-parfait of \"devenir\" (with être).",
+        explanation: "Plus-que-parfait of \"devenir\" (with \"être\").",
       },
       {
         type: "fill-blank",

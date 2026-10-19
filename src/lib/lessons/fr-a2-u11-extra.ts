@@ -506,7 +506,7 @@ export const FR_A2_U11_EXTRA: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A learner wrote \"Nous allerons à la plage.\" What's correct?",
-            options: ["Nous irons à la plage.", "Nous allons à la plage demain.", "Nous allirons à la plage.", "Nous irerons à la plage."],
+            options: ["Nous irons à la plage.", "Nous irrons à la plage.", "Nous allirons à la plage.", "Nous irerons à la plage."],
             correctIndex: 0,
             explanation: "\"Aller\" → \"ir-\": \"nous irons\".",
           },
@@ -976,7 +976,7 @@ export const FR_A2_U11_EXTRA: Lesson[] = [
           {
             type: "multiple-choice",
             question: "The draft says \"Les mariés faisront un discours.\" What's correct?",
-            options: ["Les mariés feront un discours.", "Les mariés fairont un discours.", "Les mariés ferons un discours.", "Les mariés font un discours demain."],
+            options: ["Les mariés feront un discours.", "Les mariés fairont un discours.", "Les mariés ferons un discours.", "Les mariés faiseront un discours."],
             correctIndex: 0,
             explanation: "\"Faire\" → \"fer-\" + \"-ont\".",
           },

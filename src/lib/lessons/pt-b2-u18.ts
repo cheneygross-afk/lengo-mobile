@@ -15,7 +15,7 @@ export const PT_B2_U18: Lesson[] = [
       {
         heading: "Who's who, and the guarantee",
         body: [
-          "A Brazilian contrato de locação names the parties in legal words you won't hear at a barbecue. The \"locador\" is the landlord (in speech, \"o dono\" or \"o proprietário\"), the \"locatário\" is the tenant (in speech, \"o inquilino\"), and the \"imóvel\" is the property. The \"imobiliária\" is the letting agency that usually sits in the middle.",
+          "A Brazilian contrato de locação names the parties in legal words you won't hear at a barbecue. The \"locador\" is the landlord (in speech, \"o dono\" or \"o proprietário\"), the \"locatário\" is the tenant (in speech, \"o inquilino\"), and the \"imóvel\" is the property. The \"imobiliária\" is the real estate agency that usually sits in the middle.",
           "Almost every lease demands a \"garantia\". The classic is the \"fiador\", a guarantor who owns property in the same city and pays if you don't, which is a real problem for foreigners. The alternatives are the \"caução\", a deposit of up to three months' rent, and the \"seguro-fiança\", an insurance policy you pay for every year. A lease accepts only one of them.",
           "\"Prazo\" is the term of the contract: thirty months is the typical residential term. Don't confuse \"o aluguel\" (the monthly rent) with \"a locação\" (the rental arrangement as a whole).",
         ],
@@ -235,7 +235,7 @@ export const PT_B2_U18: Lesson[] = [
       {
         heading: "O senhor tem fiador?",
         body: [
-          "Daniel, a Canadian engineer, has found a two-bedroom flat in Florianópolis and goes to the imobiliária to close the deal. The agent, Simone, uses \"o senhor\" throughout: in an office, that's the default, even with someone her own age.",
+          "Daniel, a Canadian engineer, has found a two-bedroom apartment in Florianópolis and goes to the imobiliária to close the deal. The agent, Simone, uses \"o senhor\" throughout: in an office, that's the default, even with someone her own age.",
           "Listen for how Simone presents options with \"caso\" + present subjunctive and \"se\" + future subjunctive. Agents use these constantly because every condition in the contract is a possible future: \"caso o senhor não tenha fiador\", \"se o senhor preferir\".",
         ],
         examples: [
@@ -269,7 +269,7 @@ export const PT_B2_U18: Lesson[] = [
         heading: "E se eu precisar sair antes?",
         body: [
           "Daniel's contract with his employer lasts two years, but the lease is thirty months. So he asks the key question: \"e se eu precisar sair antes?\". This \"e se\" + future subjunctive is a real question about a possible future, not the imperfect-subjunctive suggestion of Unit 17.",
-          "Simone explains the multa rescisória and a common escape clause: many contracts waive the penalty if the tenant is transferred by his employer, as long as he proves it. Notice \"desde que\" (as long as) + present subjunctive from B1.",
+          "Simone explains the multa rescisória and a legal exception: under the Lei do Inquilinato there's no penalty if the tenant's employer transfers him to another city, as long as he gives 30 days' written notice; agencies usually ask for a letter from the employer. Notice \"desde que\" (as long as) + present subjunctive from B1.",
         ],
         examples: [
           { es: "E se eu precisar sair antes dos trinta meses?", en: "(Daniel) And what if I need to leave before the thirty months?" },
@@ -308,7 +308,7 @@ export const PT_B2_U18: Lesson[] = [
       {
         heading: "Closing the deal",
         body: [
-          "Before signing, Daniel negotiates. Brazilians expect some bargaining over rent, especially if the flat has been empty for a while. Simone can't decide alone; she'll consult the owner and call back: \"assim que o proprietário responder, eu ligo para o senhor\".",
+          "Before signing, Daniel negotiates. Brazilians expect some bargaining over rent, especially if the apartment has been empty for a while. Simone can't decide alone; she'll consult the owner and call back: \"assim que o proprietário responder, eu ligo para o senhor\".",
           "The vistoria and the keys come last. Notice the future subjunctive with \"assim que\" and \"quando\", and the polite \"seria possível\" + infinitive for a request.",
         ],
         examples: [
@@ -444,14 +444,14 @@ export const PT_B2_U18: Lesson[] = [
       {
         heading: "Infiltração, vazamento, mofo",
         body: [
-          "Brazilian flats have their own catalogue of problems. \"Infiltração\" is damp coming through a wall or ceiling, often from the flat above or from rain; \"vazamento\" is a leak from a pipe; \"mofo\" is mould, and walls with it are \"mofadas\". \"Entupido\" means blocked (a pia entupida, a blocked sink), and \"queimado\" means burnt out (o chuveiro elétrico queimou).",
+          "Brazilian apartments have their own catalog of problems. \"Infiltração\" is water seeping through a wall or ceiling, often from the apartment above or from rain; \"vazamento\" is a leak from a pipe; \"mofo\" is mold, and walls with it are \"mofadas\". \"Entupido\" means blocked (a pia entupida, a blocked sink), and \"queimado\" means burned out (o chuveiro elétrico queimou).",
           "Describe the problem with estar + gerúndio or a past tense, and say how long it has been going on: \"está vazando água do teto há uma semana\", \"a fechadura quebrou ontem\". A precise description, with dates and photos, makes the landlord take you seriously.",
           "Who pays? By law, structural problems and anything old (\"desgaste natural\", wear and tear) are the locador's responsibility; small repairs from everyday use are the tenant's.",
         ],
         examples: [
-          { es: "Tem uma infiltração no teto do banheiro desde a última chuva.", en: "There's damp coming through the bathroom ceiling since the last rain." },
+          { es: "Tem uma infiltração no teto do banheiro desde a última chuva.", en: "There's been water seeping through the bathroom ceiling since the last rain." },
           { es: "Está vazando água embaixo da pia da cozinha.", en: "Water is leaking under the kitchen sink." },
-          { es: "A parede do quarto está toda mofada.", en: "The bedroom wall is covered in mould." },
+          { es: "A parede do quarto está toda mofada.", en: "The bedroom wall is covered in mold." },
           { es: "A fechadura da porta da frente quebrou e eu não consigo trancar.", en: "The front door lock broke and I can't lock it." },
           { es: "O chuveiro queimou de novo.", en: "The electric shower burned out again." },
         ],
@@ -469,25 +469,25 @@ export const PT_B2_U18: Lesson[] = [
             type: "matching",
             instructions: "Match the Portuguese to the English.",
             pairs: [
-              { left: "a infiltração", right: "damp coming through a wall" },
+              { left: "a infiltração", right: "water seeping through a wall" },
               { left: "o vazamento", right: "a leak from a pipe" },
-              { left: "o mofo", right: "mould" },
+              { left: "o mofo", right: "mold" },
               { left: "entupido", right: "blocked" },
               { left: "a fechadura", right: "the lock" },
             ],
-            explanation: "The everyday vocabulary of flat problems in Brazil.",
+            explanation: "The everyday vocabulary of apartment problems in Brazil.",
           },
         ],
       },
       {
         heading: "The síndico and the condomínio",
         body: [
-          "In a building, some problems belong to the condomínio, not to your landlord: the water tank, the façade, the lifts, a leak from a shared pipe. Those go to the \"síndico\" (the elected building manager) or the \"administradora\" (the management company), often through the portaria or the building's app.",
+          "In a building, some problems belong to the condomínio, not to your landlord: the water tank, the façade, the elevators, a leak from a shared pipe. Those go to the \"síndico\" (the elected building manager) or the \"administradora\" (the management company), often through the portaria or the building's app.",
           "The \"regulamento interno\" (house rules) sets quiet hours (\"horário de silêncio\", typically from 10 p.m.), rules for moving in (\"mudança só de segunda a sábado\"), pets and works. A \"multa\" from the condomínio for breaking the rules can land on the tenant.",
         ],
         examples: [
-          { es: "A infiltração vem do apartamento de cima, então é com o síndico.", en: "The damp is coming from the flat upstairs, so it's for the building manager to deal with." },
-          { es: "O regulamento proíbe obras aos domingos.", en: "The rules forbid building work on Sundays." },
+          { es: "A infiltração vem do apartamento de cima, então é com o síndico.", en: "The water is coming from the apartment upstairs, so it's for the building manager to deal with." },
+          { es: "O regulamento proíbe obras aos domingos.", en: "The rules forbid construction work on Sundays." },
           { es: "O horário de silêncio começa às dez da noite.", en: "Quiet hours start at ten p.m." },
           { es: "Para fazer a mudança, é preciso avisar a portaria com antecedência.", en: "To move in, you need to tell the front desk in advance." },
           { es: "O condomínio me mandou uma multa por causa do barulho.", en: "The building sent me a fine because of the noise." },
@@ -497,7 +497,7 @@ export const PT_B2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "The rules forbid building work on Sundays.",
+            source: "The rules forbid construction work on Sundays.",
             answer: "O regulamento proíbe obras aos domingos.",
             altAnswers: ["O regulamento interno proíbe obras aos domingos.", "O regulamento proíbe obras no domingo.", "O regulamento não permite obras aos domingos.", "O regimento interno proíbe obras aos domingos."],
             explanation: "\"Proibir\" keeps the accent on \"proíbe\". \"Aos domingos\" = on Sundays, as a rule.",
@@ -505,7 +505,7 @@ export const PT_B2_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the Portuguese for the bold words.",
-            en: "The damp is coming from the flat upstairs, so it's [the building manager's problem].",
+            en: "The water is coming from the apartment upstairs, so it's [the building manager's problem].",
             sentence: "A infiltração vem do apartamento de cima, então é ___.",
             answer: "com o síndico",
             altAnswers: ["problema do síndico", "responsabilidade do condomínio", "com o condomínio"],
@@ -522,7 +522,7 @@ export const PT_B2_U18: Lesson[] = [
         examples: [
           { es: "Solicito que o senhor providencie o conserto o quanto antes.", en: "I request that you arrange the repair as soon as possible." },
           { es: "Peço que o conserto seja feito até o dia 15.", en: "I ask that the repair be done by the 15th." },
-          { es: "Seguem em anexo as fotos da infiltração.", en: "Attached are the photos of the damp." },
+          { es: "Seguem em anexo as fotos da infiltração.", en: "Attached are the photos of the water damage." },
           { es: "Se for necessário, posso enviar mais fotos.", en: "If necessary, I can send more photos." },
           { es: "Assim que o senhor puder, me avise o dia da visita do técnico.", en: "As soon as you can, let me know the day of the technician's visit." },
         ],
@@ -557,10 +557,10 @@ export const PT_B2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "The bedroom wall is covered in mould.",
+        source: "The bedroom wall is covered in mold.",
         answer: "A parede do quarto está toda mofada.",
         altAnswers: ["A parede do quarto está cheia de mofo.", "A parede do quarto está coberta de mofo.", "A parede do quarto tá toda mofada.", "A parede do quarto está mofada."],
-        explanation: "\"Toda\" agrees with \"parede\": all over. \"Mofada\" = mouldy.",
+        explanation: "\"Toda\" agrees with \"parede\": all over. \"Mofada\" = moldy.",
       },
       {
         type: "translate",
@@ -582,7 +582,7 @@ export const PT_B2_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "[Attached are] the photos of the damp.",
+        en: "[Attached are] the photos of the water damage.",
         sentence: "___ em anexo as fotos da infiltração.",
         answer: "Seguem",
         altAnswers: ["Envio", "Mando"],
@@ -599,7 +599,7 @@ export const PT_B2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The water tank of your building is leaking into your flat. Who should you contact first?",
+        question: "The water tank of your building is leaking into your apartment. Who should you contact first?",
         options: ["O síndico ou a administradora", "O fiador", "A Polícia Federal", "O Procon"],
         correctIndex: 0,
         explanation: "Shared parts of the building are the condomínio's responsibility.",
@@ -615,7 +615,7 @@ export const PT_B2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "There's been damp coming through the ceiling for a week.",
+        source: "Water has been seeping through the ceiling for a week.",
         answer: "Tem uma infiltração no teto há uma semana.",
         altAnswers: ["Há uma infiltração no teto há uma semana.", "Tem infiltração no teto há uma semana.", "Faz uma semana que tem uma infiltração no teto.", "Faz uma semana que tem infiltração no teto.", "Há uma semana tem uma infiltração no teto.", "Tem uma infiltração no teto faz uma semana."],
         explanation: "Present + \"há\" / \"faz\" + time for something still going on.",
@@ -636,7 +636,7 @@ export const PT_B2_U18: Lesson[] = [
       {
         type: "speak",
         text: "Tem uma infiltração no teto do banheiro desde a última chuva.",
-        prompt: "Say it in Portuguese: There's damp coming through the bathroom ceiling since the last rain.",
+        prompt: "Say it in Portuguese: There's been water seeping through the bathroom ceiling since the last rain.",
         explanation: "\"Infiltração\" + \"desde\" for the starting point.",
       },
     ],
@@ -646,23 +646,23 @@ export const PT_B2_U18: Lesson[] = [
     level: "PT-B2",
     number: 4,
     title: "Troca, Reembolso, Estorno: Consumer Rights",
-    summary: "Know the Código de Defesa do Consumidor, the 7-day direito de arrependimento, the garantia and the nota fiscal, and complain in a shop: gostaria de trocar, quero o estorno no cartão.",
+    summary: "Know the Código de Defesa do Consumidor, the 7-day direito de arrependimento, the garantia and the nota fiscal, and complain in a store: gostaria de trocar, quero o estorno no cartão.",
     duration: "14 min",
     kind: "teach",
     sections: [
       {
         heading: "The Código de Defesa do Consumidor",
         body: [
-          "Brazil's Código de Defesa do Consumidor (CDC) is strong and widely known; shops must even keep a copy available to customers. Three rights matter most. First, the \"direito de arrependimento\": for anything bought outside a physical shop (online, by phone), you can cancel within seven days of delivery, for any reason, and get all your money back, shipping included.",
+          "Brazil's Código de Defesa do Consumidor (CDC) is strong and widely known; stores must even keep a copy available to customers. Three rights matter most. First, the \"direito de arrependimento\": for anything bought outside a physical store (online, by phone), you can cancel within seven days of delivery, for any reason, and get all your money back, shipping included.",
           "Second, the \"garantia legal\": 30 days for non-durable goods and 90 days for durable ones, on top of any manufacturer's warranty. If a product is faulty, the supplier has 30 days to fix it; if they don't, you choose: a new product, your money back or a discount.",
-          "Third, a trap for English speakers: a shop is not obliged to exchange a non-faulty item you bought in person and simply don't like. Many do it as a courtesy (\"troca por cortesia\"), under their own rules.",
+          "Third, a trap for English speakers: a store is not obliged to exchange a non-faulty item you bought in person and simply don't like. Many do it as a courtesy (\"troca por cortesia\"), under their own rules.",
         ],
         examples: [
           { es: "Comprei pela internet e quero exercer o direito de arrependimento.", en: "I bought it online and I want to use my right to cancel." },
           { es: "O prazo para desistir da compra é de sete dias a partir do recebimento.", en: "The deadline to cancel the purchase is seven days from delivery." },
           { es: "A garantia legal para produtos duráveis é de noventa dias.", en: "The legal warranty for durable goods is ninety days." },
-          { es: "Se a loja não consertar em trinta dias, o senhor pode pedir outro produto.", en: "If the shop doesn't repair it within thirty days, you can ask for another product." },
-          { es: "A troca de produto sem defeito depende da política da loja.", en: "Exchanging a non-faulty product depends on the shop's policy." },
+          { es: "Se a loja não consertar em trinta dias, o senhor pode pedir outro produto.", en: "If the store doesn't repair it within thirty days, you can ask for another product." },
+          { es: "A troca de produto sem defeito depende da política da loja.", en: "Exchanging a non-faulty product depends on the store's policy." },
         ],
         checkpoint: [
           {
@@ -676,18 +676,18 @@ export const PT_B2_U18: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You bought a shirt in a shop in Recife. It's fine, but you don't like the colour. What does the CDC say?",
-            options: ["The shop may exchange it as a courtesy, but it isn't obliged to.", "The shop must give your money back within 7 days.", "The shop must exchange it within 30 days.", "You can go to the Procon to force an exchange."],
+            question: "You bought a shirt in a store in Recife. It's fine, but you don't like the color. What does the CDC say?",
+            options: ["The store may exchange it as a courtesy, but it isn't obliged to.", "The store must give your money back within 7 days.", "The store must exchange it within 30 days.", "You can go to the Procon to force an exchange."],
             correctIndex: 0,
-            explanation: "The 7-day right only covers purchases outside the shop. In person, exchanges of non-faulty items are \"por cortesia\".",
+            explanation: "The 7-day right only covers purchases outside the store. In person, exchanges of non-faulty items are \"por cortesia\".",
           },
         ],
       },
       {
         heading: "Troca, reembolso, estorno, nota fiscal",
         body: [
-          "Learn the four outcomes precisely. \"Troca\" is an exchange; \"reembolso\" (or \"devolução do dinheiro\") is a refund; \"estorno\" is a refund back onto your card, cancelling the charge; \"vale-troca\" or \"crédito na loja\" is store credit, which you don't have to accept when the product is faulty.",
-          "Everything starts with the \"nota fiscal\", the official receipt with the shop's CNPJ. Brazilian cashiers often ask \"CPF na nota?\" (do you want your tax number on the receipt?), which also helps you prove the purchase later. Keep it: without it, a claim gets much harder.",
+          "Learn the four outcomes precisely. \"Troca\" is an exchange; \"reembolso\" (or \"devolução do dinheiro\") is a refund; \"estorno\" is a refund back onto your card, canceling the charge; \"vale-troca\" or \"crédito na loja\" is store credit, which you don't have to accept when the product is faulty.",
+          "Everything starts with the \"nota fiscal\", the official receipt with the store's CNPJ. Brazilian cashiers often ask \"CPF na nota?\" (do you want your tax number on the receipt?), which also helps you prove the purchase later. Keep it: without it, a claim gets much harder.",
         ],
         examples: [
           { es: "Eu gostaria de trocar este liquidificador. Ele parou de funcionar.", en: "I'd like to exchange this blender. It stopped working." },
@@ -728,13 +728,13 @@ export const PT_B2_U18: Lesson[] = [
         heading: "At the counter: polite, then firm",
         body: [
           "Start politely with the conditional: \"eu gostaria de trocar\", \"seria possível falar com o gerente?\". If the clerk resists, name your right calmly: \"pelo Código de Defesa do Consumidor, a loja tem trinta dias para resolver\". Then state what you want with \"quero que\" + present subjunctive: \"quero que vocês me devolvam o dinheiro\".",
-          "The future subjunctive handles the next steps: \"se a loja não resolver, vou ao Procon\". The Procon is the state consumer protection agency; mentioning it is often enough. Say it as a fact, not a threat.",
+          "The future subjunctive handles the next steps: \"se a loja não resolver, vou ao Procon\". The Procon is a state or city consumer protection agency; mentioning it is often enough. Say it as a fact, not a threat.",
         ],
         examples: [
           { es: "Seria possível falar com o gerente, por favor?", en: "Would it be possible to speak to the manager, please?" },
-          { es: "Pelo Código de Defesa do Consumidor, a loja tem trinta dias para resolver.", en: "Under the Consumer Protection Code, the shop has thirty days to sort it out." },
+          { es: "Pelo Código de Defesa do Consumidor, a loja tem trinta dias para resolver.", en: "Under the Consumer Protection Code, the store has thirty days to sort it out." },
           { es: "Quero que vocês me devolvam o dinheiro.", en: "I want you to give me my money back." },
-          { es: "Se a loja não resolver, vou registrar uma reclamação no Procon.", en: "If the shop doesn't sort it out, I'll file a complaint with Procon." },
+          { es: "Se a loja não resolver, vou registrar uma reclamação no Procon.", en: "If the store doesn't sort it out, I'll file a complaint with Procon." },
           { es: "Entendo, mas o produto ainda está na garantia.", en: "I understand, but the product is still under warranty." },
         ],
         checkpoint: [
@@ -742,16 +742,16 @@ export const PT_B2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "I want you to give me my money back. (to the shop staff)",
+            source: "I want you to give me my money back. (to the store staff)",
             answer: "Quero que vocês me devolvam o dinheiro.",
             altAnswers: ["Eu quero que vocês me devolvam o dinheiro.", "Quero que vocês devolvam o meu dinheiro.", "Quero que vocês devolvam meu dinheiro.", "Eu quero que vocês devolvam o meu dinheiro.", "Quero que o senhor me devolva o dinheiro.", "Quero que a senhora me devolva o dinheiro.", "Quero que você me devolva o dinheiro."],
             explanation: "\"Quero que\" + present subjunctive \"devolvam\", not *\"devolvem\".",
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: If the shop doesn't sort it out, I'll go to Procon.",
+            prompt: "Put the words in order to say: If the store doesn't sort it out, I'll go to Procon.",
             words: ["Se", "a loja", "não", "resolver,", "vou", "ao Procon."],
-            translation: "If the shop doesn't sort it out, I'll go to Procon.",
+            translation: "If the store doesn't sort it out, I'll go to Procon.",
             explanation: "\"Se\" + future subjunctive \"resolver\" for a real next step.",
           },
           {
@@ -785,7 +785,7 @@ export const PT_B2_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "If the shop [doesn't repair] it within thirty days, you can ask for another product.",
+        en: "If the store [doesn't repair] it within thirty days, you can ask for another product.",
         sentence: "Se a loja ___ em trinta dias, o senhor pode pedir outro produto.",
         answer: "não consertar",
         altAnswers: ["não resolver", "não arrumar"],
@@ -804,7 +804,7 @@ export const PT_B2_U18: Lesson[] = [
         question: "Your new phone, bought online, arrived two days ago and you've changed your mind. What applies?",
         options: ["Direito de arrependimento: full refund within 7 days.", "No right at all: the phone isn't faulty.", "Only store credit.", "Only a repair under warranty."],
         correctIndex: 0,
-        explanation: "Purchases outside a shop can be cancelled within 7 days of delivery, for any reason.",
+        explanation: "Purchases outside a store can be canceled within 7 days of delivery, for any reason.",
       },
       {
         type: "translate",
@@ -835,7 +835,7 @@ export const PT_B2_U18: Lesson[] = [
         type: "listen-choose",
         audio: "Se a loja não resolver, vou registrar uma reclamação no Procon.",
         question: "What does it mean?",
-        options: ["If the shop doesn't sort it out, I'll file a complaint with Procon.", "The shop sorted it out, so I won't complain.", "I filed a complaint, but the shop didn't answer.", "If the shop had sorted it out, I wouldn't complain."],
+        options: ["If the store doesn't sort it out, I'll file a complaint with Procon.", "The store sorted it out, so I won't complain.", "I filed a complaint, but the store didn't answer.", "If the store had sorted it out, I wouldn't complain."],
         correctIndex: 0,
         explanation: "\"Se\" + future subjunctive + \"vou\": a real next step.",
       },
@@ -857,7 +857,7 @@ export const PT_B2_U18: Lesson[] = [
     level: "PT-B2",
     number: 5,
     title: "Dialogue Lab: O Senhor Tem o Número do Protocolo?",
-    summary: "Survive a long call to an internet provider: the menu, transfers, the protocolo and cancelling a plan, polite but firm: é a terceira vez que eu ligo.",
+    summary: "Survive a long call to an internet provider: the menu, transfers, the protocolo and canceling a plan, polite but firm: é a terceira vez que eu ligo.",
     duration: "15 min",
     kind: "reinforce",
     format: "Dialogue Lab",
@@ -938,7 +938,7 @@ export const PT_B2_U18: Lesson[] = [
         ],
       },
       {
-        heading: "Cancelling the plan",
+        heading: "Canceling the plan",
         body: [
           "After one more transfer, Juliana decides to cancel. The retention team (\"retenção\") offers discounts; she refuses politely and insists. Under Brazilian rules, cancellation must be accepted immediately, by phone or online, and the company can't make you call several times.",
           "Notice the future subjunctive in the agent's instructions: \"quando o técnico for retirar o modem, a senhora assina o termo\". And Juliana's last request protects her: \"quero que a fatura deste mês seja proporcional\".",
@@ -1083,7 +1083,7 @@ export const PT_B2_U18: Lesson[] = [
         examples: [
           { es: "No dia 3 de março, contratei o plano de internet de 500 mega.", en: "On March 3rd, I signed up for the 500 Mbps internet plan." },
           { es: "Cobrança indevida após cancelamento do serviço.", en: "Improper charge after cancellation of the service." },
-          { es: "Comprei uma geladeira no site da loja, com entrega prevista para o dia 10.", en: "I bought a fridge on the shop's website, with delivery scheduled for the 10th." },
+          { es: "Comprei uma geladeira no site da loja, com entrega prevista para o dia 10.", en: "I bought a fridge on the store's website, with delivery scheduled for the 10th." },
           { es: "Entrei em contato com o SAC três vezes, sem solução.", en: "I contacted customer service three times, with no solution." },
           { es: "Os números de protocolo são 2024-55812 e 2024-56930.", en: "The reference numbers are 2024-55812 and 2024-56930." },
         ],
@@ -1149,7 +1149,7 @@ export const PT_B2_U18: Lesson[] = [
       {
         heading: "What you want, and by when",
         body: [
-          "End with a precise request and a deadline. Formal formulas: \"solicito o estorno integral do valor\", \"solicito que o valor seja devolvido em até cinco dias úteis\", \"aguardo um retorno até o dia 20\". Name the right if you can (\"conforme o artigo 49 do CDC\").",
+          "End with a precise request and a deadline. Formal formulas: \"solicito o estorno integral do valor\", \"solicito que o valor seja devolvido em até cinco dias úteis\", \"aguardo um retorno até o dia 20\". Name the right if you can: \"conforme o Código de Defesa do Consumidor\", or a specific article, such as \"o artigo 49 do CDC\" for a purchase made online.",
           "The consequence uses the future subjunctive: \"caso o problema não seja resolvido, levarei o caso ao Procon\" or \"se não houver resposta até sexta, vou registrar uma reclamação\". Close with \"atenciosamente\" and your name. Never insult: aggressive complaints get less sympathy from readers and from the Procon.",
         ],
         examples: [
@@ -1184,7 +1184,7 @@ export const PT_B2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "On March 3rd, I cancelled the service by phone.",
+        source: "On March 3rd, I canceled the service by phone.",
         answer: "No dia 3 de março, cancelei o serviço por telefone.",
         altAnswers: ["Em 3 de março, cancelei o serviço por telefone.", "No dia 3 de março, eu cancelei o serviço por telefone.", "No dia três de março, cancelei o serviço por telefone.", "No dia 3 de março, cancelei o serviço pelo telefone."],
         explanation: "Dates: \"no dia 3 de março\". The perfeito narrates the facts.",
@@ -1427,7 +1427,7 @@ export const PT_B2_U18: Lesson[] = [
         source: "I need to block my card right now.",
         answer: "Preciso bloquear meu cartão agora mesmo.",
         altAnswers: ["Eu preciso bloquear meu cartão agora mesmo.", "Preciso bloquear o meu cartão agora mesmo.", "Preciso bloquear meu cartão agora.", "Eu preciso bloquear o meu cartão agora.", "Preciso bloquear meu cartão imediatamente."],
-        explanation: "\"Precisar\" + infinitive, no \"de\" needed in speech.",
+        explanation: "\"Precisar\" + infinitive takes no \"de\".",
       },
       {
         type: "multiple-choice",
@@ -1485,7 +1485,7 @@ export const PT_B2_U18: Lesson[] = [
       {
         heading: "What a BO is, and where to file it",
         body: [
-          "A \"boletim de ocorrência\" (BO) is the official police report. You need one for insurance, for the bank and to get new documents. Most states let you file it online at the \"delegacia eletrônica\" for theft, loss and fraud without violence; for robbery with violence or anything serious, go to a \"delegacia\" (police station). For tourists, many cities have a \"Deatur\".",
+          "A \"boletim de ocorrência\" (BO) is the official police report. You need one for insurance, for the bank and to get new documents. Most states let you file it online at the \"delegacia eletrônica\" for theft, loss and fraud without violence; for robbery with violence or anything serious, go to a \"delegacia\" (police station). For tourists, some cities, such as Rio and Salvador, have a special tourist police station (the name and acronym vary by state).",
           "Know the legal difference: \"furto\" is theft without violence (your phone vanished from your bag), while \"roubo\" is robbery with violence or threat. In everyday speech Brazilians say \"me roubaram\" for both, but the BO asks you to choose. \"Perda\" or \"extravio\" is loss.",
         ],
         examples: [
@@ -1559,13 +1559,13 @@ export const PT_B2_U18: Lesson[] = [
       {
         heading: "Segunda via: replacing documents",
         body: [
-          "With the BO number you can ask for a \"segunda via\" (replacement copy) of each document: the RG at the state identification office, the CNH (driving licence) at the Detran or its app, cards at the bank. Foreigners replace the RNM at the Polícia Federal, and a passport at their own consulate.",
+          "With the BO number you can ask for a \"segunda via\" (replacement copy) of each document: the RG at the state identification office, the CNH (driver's license) at the Detran or its app, cards at the bank. Foreigners replace the RNM at the Polícia Federal, and a passport at their own consulate.",
           "The questions are always the same: \"o que eu preciso levar para tirar a segunda via?\", \"precisa agendar?\", \"tem taxa?\". \"Tirar\" is the verb for getting a document issued. Officials answer with the future subjunctive: \"quando o senhor vier, traga o BO e uma foto\".",
         ],
         examples: [
           { es: "O que eu preciso levar para tirar a segunda via do RG?", en: "What do I need to bring to get a replacement ID card?" },
           { es: "Precisa agendar ou posso ir direto?", en: "Do I need an appointment or can I just go?" },
-          { es: "Tem taxa para a segunda via da carteira de motorista?", en: "Is there a fee for a replacement driving licence?" },
+          { es: "Tem taxa para a segunda via da carteira de motorista?", en: "Is there a fee for a replacement driver's license?" },
           { es: "Quando o senhor vier, traga o BO e um comprovante de residência.", en: "When you come, bring the police report and proof of address." },
           { es: "A segunda via fica pronta em até quinze dias.", en: "The replacement will be ready within fifteen days." },
         ],
@@ -1689,7 +1689,7 @@ export const PT_B2_U18: Lesson[] = [
     level: "PT-B2",
     number: 9,
     title: "Documents for Foreigners: RNM and the Federal Police",
-    summary: "Book an agendamento at the Polícia Federal, get or renew your RNM and residence, regularise your CPF, and go through the documents list, asking what's missing.",
+    summary: "Book an agendamento at the Polícia Federal, get or renew your RNM and residence, regularize your CPF, and go through the documents list, asking what's missing.",
     duration: "14 min",
     kind: "teach",
     sections: [
@@ -1722,8 +1722,8 @@ export const PT_B2_U18: Lesson[] = [
             en: "My RNM [expires] next month.",
             sentence: "Meu RNM ___ no mês que vem.",
             answer: "vence",
-            altAnswers: ["vai vencer"],
-            explanation: "Documents and contracts \"vencem\". *\"Expira\" exists but sounds like a translation.",
+            altAnswers: ["vai vencer", "expira", "vai expirar"],
+            explanation: "Documents and contracts \"vencem\": that's the everyday verb. \"Expira\" is understood but sounds like a translation.",
           },
         ],
       },
@@ -1731,12 +1731,12 @@ export const PT_B2_U18: Lesson[] = [
         heading: "The CPF",
         body: [
           "The CPF (Cadastro de Pessoas Físicas) is the tax number every resident needs: to open a bank account, sign a lease, buy a phone plan, even get a loyalty discount at the pharmacy. Foreigners can get one online through the Receita Federal, at a consulate abroad, or at partner offices such as the Correios and some banks.",
-          "A CPF can become \"pendente de regularização\" or \"suspenso\" if your details are out of date, and then banks and shops will refuse it. \"Regularizar o CPF\" means updating your data, usually online. Ask the clerk precisely: \"meu CPF está irregular?\", \"o que eu preciso fazer para regularizar?\".",
+          "A CPF can become \"pendente de regularização\" or \"suspenso\" if your details are out of date, and then banks and stores will refuse it. \"Regularizar o CPF\" means updating your data, usually online. Ask the clerk precisely: \"meu CPF está irregular?\", \"o que eu preciso fazer para regularizar?\".",
         ],
         examples: [
           { es: "Sem CPF, não consigo abrir conta no banco.", en: "Without a CPF, I can't open a bank account." },
-          { es: "O sistema diz que o meu CPF está pendente de regularização.", en: "The system says my CPF is pending regularisation." },
-          { es: "O que eu preciso fazer para regularizar o CPF?", en: "What do I need to do to regularise my CPF?" },
+          { es: "O sistema diz que o meu CPF está pendente de regularização.", en: "The system says my CPF is pending regularization." },
+          { es: "O que eu preciso fazer para regularizar o CPF?", en: "What do I need to do to regularize my CPF?" },
           { es: "Dá para tirar o CPF pela internet, no site da Receita.", en: "You can get a CPF online, on the Receita Federal website." },
           { es: "Se o senhor atualizar o endereço, o CPF volta a ficar regular.", en: "If you update your address, your CPF becomes regular again." },
         ],
@@ -1745,7 +1745,7 @@ export const PT_B2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "What do I need to do to regularise my CPF?",
+            source: "What do I need to do to regularize my CPF?",
             answer: "O que eu preciso fazer para regularizar o CPF?",
             altAnswers: ["O que eu preciso fazer para regularizar o meu CPF?", "O que eu preciso fazer para regularizar meu CPF?", "O que preciso fazer para regularizar o CPF?", "O que eu tenho que fazer para regularizar o CPF?", "O que eu tenho que fazer para regularizar meu CPF?", "O que eu preciso fazer pra regularizar meu CPF?"],
             explanation: "\"Regularizar\" = to put in order. \"Precisar\" + infinitive.",
@@ -2059,7 +2059,7 @@ export const PT_B2_U18: Lesson[] = [
       {
         type: "multiple-choice",
         question: "You've called politely twice with no result. What's the best next level?",
-        options: ["Firm: facts, your right and a deadline.", "Rude: insult the agent.", "Even more polite: apologise for calling.", "Give up."],
+        options: ["Firm: facts, your right and a deadline.", "Rude: insult the agent.", "Even more polite: apologize for calling.", "Give up."],
         correctIndex: 0,
         explanation: "Escalate to firm, not rude: \"exijo uma solução até...\", \"conforme o CDC...\".",
       },
@@ -2106,7 +2106,7 @@ export const PT_B2_U18: Lesson[] = [
     level: "PT-B2",
     number: 11,
     title: "Error Hunt: Contracts and Complaints",
-    summary: "Fix the classic slips: *se o senhor precisa amanhã, *quero que vocês me devolvem, *eu gostaria um reembolso, *o contrato expira, *apliquei para o visto, *fazer uma reclamação para a empresa.",
+    summary: "Fix the classic slips: *se o senhor precisa amanhã, *quero que vocês me devolvem, *eu gostaria um reembolso, o contrato expira (for vence), *apliquei para o visto, *fazer uma reclamação para a empresa.",
     duration: "14 min",
     kind: "reinforce",
     format: "Error Hunt",
@@ -2179,11 +2179,11 @@ export const PT_B2_U18: Lesson[] = [
       {
         heading: "False friends: vencer, solicitar",
         body: [
-          "*\"O contrato expira em junho\" is understood but sounds translated. Contracts, documents, bills and deadlines \"vencem\": \"o contrato vence em junho\", \"o boleto vence amanhã\", \"meu visto está vencido\". \"Expirar\" is used mostly for passwords, sessions and medical terms.",
+          "\"O contrato expira em junho\" is understood but sounds translated. Contracts, documents, bills and deadlines \"vencem\": \"o contrato vence em junho\", \"o boleto vence amanhã\", \"meu visto está vencido\". \"Expirar\" is used mostly for passwords, sessions and medical terms.",
           "*\"Apliquei para o visto\" is the classic English calque. \"Aplicar\" means to apply a cream, apply a rule or invest money. For applications use \"solicitar\", \"pedir\" or \"dar entrada em\": \"solicitei o visto\", \"dei entrada no pedido\".",
         ],
         examples: [
-          { es: "O contrato vence em junho.", en: "The lease expires in June. (not *expira)" },
+          { es: "O contrato vence em junho.", en: "The lease expires in June. (more natural than expira)" },
           { es: "O boleto vence amanhã.", en: "The payment slip is due tomorrow." },
           { es: "Solicitei o visto em janeiro.", en: "I applied for the visa in January. (not *apliquei para)" },
           { es: "Dei entrada no pedido de residência ontem.", en: "I submitted the residence application yesterday." },
@@ -2206,7 +2206,7 @@ export const PT_B2_U18: Lesson[] = [
             sentence: "O contrato ___ em junho.",
             answer: "vence",
             altAnswers: ["termina", "acaba"],
-            explanation: "Contracts \"vencem\" or \"terminam\".",
+            explanation: "Contracts \"vencem\" or \"terminam\". \"Expira\" is understood but sounds translated.",
           },
           {
             type: "speak",
@@ -2266,7 +2266,7 @@ export const PT_B2_U18: Lesson[] = [
         question: "Which sentence has no mistake?",
         options: ["Gostaria de cancelar o contrato, que vence em junho.", "Gostaria cancelar o contrato, que expira em junho.", "Gostaria de cancelar o contrato, que expira em junho para.", "Gostaria que cancelar o contrato em junho."],
         correctIndex: 0,
-        explanation: "\"Gostaria de\" + infinitive, and contracts \"vencem\".",
+        explanation: "\"Gostaria\" needs \"de\" before an infinitive, so the second option is wrong even before \"expira\", which is understood but less natural than \"vence\".",
       },
       {
         type: "translate",
@@ -2310,7 +2310,7 @@ export const PT_B2_U18: Lesson[] = [
     level: "PT-B2",
     number: 12,
     title: "Real-World Mission: Get Your Money Back",
-    summary: "Plan the steps, make the call and write the complaint to recover a charge for a gym membership you had already cancelled.",
+    summary: "Plan the steps, make the call and write the complaint to recover a charge for a gym membership you had already canceled.",
     duration: "15 min",
     kind: "reinforce",
     format: "Real-World Mission",
@@ -2318,11 +2318,11 @@ export const PT_B2_U18: Lesson[] = [
       {
         heading: "The situation and the plan",
         body: [
-          "You live in Recife. In August you cancelled your membership at the gym chain \"Academia Forma Livre\" at the front desk and got a protocolo. In September and October, R$ 129,90 was still charged to your credit card. Your mission: get both charges refunded.",
+          "You live in Recife. In August you canceled your membership at the gym chain \"Academia Forma Livre\" at the front desk and got a protocolo. In September and October, R$ 129,90 was still charged to your credit card. Your mission: get both charges refunded.",
           "Plan before you call. Gather the evidence (the cancellation protocolo, the card statement, any e-mails), decide what you want (\"o estorno das duas cobranças\") and set your deadline. Then go in order: the gym's SAC, then your card's dispute (\"contestação\"), then Reclame Aqui or the Procon. Write each step as a sentence with the future subjunctive: \"se a academia não resolver até sexta, vou contestar no cartão\".",
         ],
         examples: [
-          { es: "Cancelei a matrícula em agosto e recebi um número de protocolo.", en: "I cancelled my membership in August and got a reference number." },
+          { es: "Cancelei a matrícula em agosto e recebi um número de protocolo.", en: "I canceled my membership in August and got a reference number." },
           { es: "Mesmo assim, fui cobrado em setembro e em outubro.", en: "Even so, I was charged in September and October." },
           { es: "Quero o estorno das duas cobranças.", en: "I want both charges refunded." },
           { es: "Se a academia não resolver até sexta, vou contestar no cartão.", en: "If the gym doesn't sort it out by Friday, I'll dispute it with my card." },
@@ -2356,7 +2356,7 @@ export const PT_B2_U18: Lesson[] = [
           "If the agent offers store credit or a free month (\"um mês grátis\"), refuse politely: \"agradeço, mas eu não quero crédito; quero o estorno\". End by getting the new protocolo and a date: \"em quantos dias o estorno vai aparecer na fatura?\".",
         ],
         examples: [
-          { es: "Bom dia. Estou ligando porque cancelei minha matrícula em agosto, protocolo 4471.", en: "Good morning. I'm calling because I cancelled my membership in August, reference 4471." },
+          { es: "Bom dia. Estou ligando porque cancelei minha matrícula em agosto, protocolo 4471.", en: "Good morning. I'm calling because I canceled my membership in August, reference 4471." },
           { es: "Na recepção, me garantiram que não haveria mais cobranças.", en: "At the front desk, they assured me there would be no more charges." },
           { es: "Agradeço, mas eu não quero crédito; quero o estorno.", en: "Thank you, but I don't want credit; I want the refund." },
           { es: "Em quantos dias o estorno vai aparecer na fatura?", en: "How many days until the refund shows up on my bill?" },
@@ -2395,10 +2395,10 @@ export const PT_B2_U18: Lesson[] = [
         ],
         examples: [
           { es: "Cobrança indevida após cancelamento da matrícula.", en: "Improper charge after cancellation of membership." },
-          { es: "No dia 12 de agosto, cancelei minha matrícula na unidade de Boa Viagem (protocolo 4471).", en: "On August 12th, I cancelled my membership at the Boa Viagem branch (reference 4471)." },
+          { es: "No dia 12 de agosto, cancelei minha matrícula na unidade de Boa Viagem (protocolo 4471).", en: "On August 12th, I canceled my membership at the Boa Viagem branch (reference 4471)." },
           { es: "Garantiram que não haveria novas cobranças. No entanto, fui cobrado em setembro e outubro.", en: "They assured me there would be no new charges. However, I was charged in September and October." },
           { es: "Solicito o estorno de R$ 259,80 em até cinco dias úteis.", en: "I request a refund of 259.80 reais within five business days." },
-          { es: "Caso não haja solução, levarei o caso ao Procon. Atenciosamente, Mark Evans.", en: "Should there be no solution, I'll take the case to Procon. Yours sincerely, Mark Evans." },
+          { es: "Caso não haja solução, levarei o caso ao Procon. Atenciosamente, Mark Evans.", en: "Should there be no solution, I'll take the case to Procon. Sincerely, Mark Evans." },
         ],
         checkpoint: [
           {
@@ -2425,7 +2425,7 @@ export const PT_B2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I cancelled my membership in August.",
+        source: "I canceled my membership in August.",
         answer: "Cancelei minha matrícula em agosto.",
         altAnswers: ["Eu cancelei minha matrícula em agosto.", "Cancelei a minha matrícula em agosto.", "Eu cancelei a minha matrícula em agosto.", "Cancelei meu plano em agosto.", "Cancelei a matrícula em agosto."],
         explanation: "A gym membership is \"a matrícula\" or \"o plano\".",
@@ -2467,7 +2467,7 @@ export const PT_B2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "I'm calling because I cancelled my membership in August.",
+        source: "I'm calling because I canceled my membership in August.",
         answer: "Estou ligando porque cancelei minha matrícula em agosto.",
         altAnswers: ["Eu estou ligando porque cancelei minha matrícula em agosto.", "Estou ligando porque cancelei a minha matrícula em agosto.", "Estou ligando porque eu cancelei minha matrícula em agosto.", "Tô ligando porque cancelei minha matrícula em agosto.", "Liguei porque cancelei minha matrícula em agosto."],
         explanation: "\"Estou ligando porque\" is the natural opening on the phone.",
@@ -2504,7 +2504,7 @@ export const PT_B2_U18: Lesson[] = [
       {
         type: "speak",
         text: "Bom dia. Estou ligando porque cancelei minha matrícula em agosto e continuo sendo cobrado.",
-        prompt: "Say it in Portuguese: Good morning. I'm calling because I cancelled my membership in August and I'm still being charged.",
+        prompt: "Say it in Portuguese: Good morning. I'm calling because I canceled my membership in August and I'm still being charged.",
         explanation: "\"Continuar sendo\" + participle = still being.",
       },
     ],
@@ -2529,7 +2529,7 @@ export const PT_B2_U18: Lesson[] = [
           { es: "Caso o locatário desocupe o imóvel antes do prazo, pagará multa.", en: "Should the tenant vacate before the end of the term, he'll pay a penalty." },
           { es: "Quando chegar o boleto, pague até o vencimento.", en: "When the payment slip arrives, pay it by the due date." },
           { es: "Enquanto o cartão estiver bloqueado, use o cartão virtual.", en: "While the card is blocked, use the virtual card." },
-          { es: "Se o senhor tiver dúvidas, ligue para a central.", en: "If you have questions, call the service centre." },
+          { es: "Se o senhor tiver dúvidas, ligue para a central.", en: "If you have questions, call the service center." },
         ],
         checkpoint: [
           {
@@ -2651,7 +2651,7 @@ export const PT_B2_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "If you [have] questions, call the service centre. (formal)",
+        en: "If you [have] questions, call the service center. (formal)",
         sentence: "Se o senhor ___ dúvidas, ligue para a central.",
         answer: "tiver",
         explanation: "\"Se\" + future subjunctive \"tiver\".",
@@ -2722,7 +2722,7 @@ export const PT_B2_U18: Lesson[] = [
 
 export const PT_B2_U18_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You rent a flat in Curitiba through an imobiliária. For three weeks there has been a leak (vazamento) from the bathroom ceiling, and mould is spreading. You called twice: the first time they promised a plumber would come on Monday, the second time they asked you to send photos, which you did. Nobody has come. Write a formal e-mail to the imobiliária (120-220 words): describe the problem and its history, report what was promised, make a clear request with a deadline, and say what you will do if it isn't solved.",
+  prompt: "You rent a apartment in Curitiba through an imobiliária. For three weeks there has been a leak (vazamento) from the bathroom ceiling, and mold is spreading. You called twice: the first time they promised a plumber would come on Monday, the second time they asked you to send photos, which you did. Nobody has come. Write a formal e-mail to the imobiliária (120-220 words): describe the problem and its history, report what was promised, make a clear request with a deadline, and say what you will do if it isn't solved.",
   minWords: 120,
   maxWords: 220,
   rubric: [

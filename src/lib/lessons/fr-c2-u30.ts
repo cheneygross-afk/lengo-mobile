@@ -171,7 +171,7 @@ export const FR_C2_U30: Lesson[] = [
         en: "The novel [closes with] a wedding.",
         sentence: "Le roman ___ un mariage.",
         answer: "se clôt sur",
-        altAnswers: ["se termine sur", "s'achève sur", "se termine par", "s'achève par", "se ferme sur"],
+        altAnswers: ["se termine sur", "s'achève sur", "se termine par", "s'achève par"],
         explanation: "\"Se clore sur\" mirrors \"s'ouvrir sur\"; the present of commentary.",
       },
       {
@@ -1128,7 +1128,7 @@ export const FR_C2_U30: Lesson[] = [
         body: [
           "Going up: \"réussi\" (successful, it achieves what it sets out to do), \"abouti\" (accomplished, fully realised), \"remarquable\" (outstanding, worth noticing), \"brillant\", \"saisissant\" (striking, gripping), \"bouleversant\" (deeply moving), \"magistral\" (masterly, a master's work), and at the very top \"un chef-d'œuvre\".",
           "\"Magistral\" is reserved for real mastery: \"une leçon de cinéma magistrale\", \"une interprétation magistrale\". Overusing it, like overusing \"chef-d'œuvre\", makes a critic lose credibility. \"Remarquable\" is strong but measured; \"époustouflant\" or \"stupéfiant\" are enthusiastic and slightly journalistic.",
-          "Adverbs fine-tune: \"parfaitement maîtrisé\", \"profondément original\", \"d'une rare intelligence\", \"d'une justesse confondante\" (astonishingly true). The structure \"d'un(e) + adjective + noun\" (\"d'une beauté rare\") is the most elegant way to praise a quality.",
+          "Adverbs fine-tune: \"parfaitement maîtrisé\", \"profondément original\", \"d'une rare intelligence\", \"d'une justesse confondante\" (astonishingly true). The structure \"d'un(e) + noun + adjective\" (\"d'une beauté rare\", or with the adjective first, \"d'une rare beauté\") is the most elegant way to praise a quality.",
         ],
         examples: [
           { es: "Une adaptation réussie, fidèle sans être servile.", en: "A successful adaptation, faithful without being slavish." },
@@ -1408,7 +1408,7 @@ export const FR_C2_U30: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French, starting with an apposition.",
-        source: "His third film, Les Ombres is set in Marseille.",
+        source: "His third film, Les Ombres, is set in Marseille.",
         answer: "Troisième film du réalisateur, Les Ombres se déroule à Marseille.",
         altAnswers: ["Troisième film de son réalisateur, Les Ombres se déroule à Marseille.", "Troisième long métrage du réalisateur, Les Ombres se déroule à Marseille.", "Troisième film du cinéaste, Les Ombres se déroule à Marseille.", "Troisième film du réalisateur, Les Ombres se passe à Marseille."],
         explanation: "Apposition without article opens the review; \"se dérouler\" for where a story is set.",
@@ -1536,7 +1536,7 @@ export const FR_C2_U30: Lesson[] = [
         body: [
           "\"Un bras de fer\" (arm wrestling) is a tough standoff between two sides: \"bras de fer entre les syndicats et la direction\". \"Une levée de boucliers\" (a raising of shields) is a general outcry of protest, typically from a group: \"levée de boucliers des maires contre la réforme\". \"Un tollé\" is a storm of indignation, a public outcry: \"la déclaration du ministre provoque un tollé\".",
           "\"Un coup de semonce\" (a warning shot, from naval language) is a serious warning before stronger action: \"la grève d'hier, un coup de semonce avant la mobilisation nationale\". \"Une fronde\" (from the 17th-century Fronde revolt) is a rebellion within a group: \"la fronde des députés de la majorité\", \"les frondeurs\".",
-          "Collocations: \"engager un bras de fer avec\", \"provoquer / susciter un tollé\", \"soulever une levée de boucliers\" (or \"se heurter à une levée de boucliers\"), \"lancer un coup de semonce\", \"mener la fronde\".",
+          "Collocations: \"engager un bras de fer avec\", \"provoquer / susciter un tollé\", \"provoquer / susciter une levée de boucliers\" (or \"se heurter à une levée de boucliers\"), \"lancer un coup de semonce\", \"mener la fronde\".",
         ],
         examples: [
           { es: "Bras de fer entre la direction et les syndicats chez le constructeur.", en: "Standoff between management and unions at the carmaker." },

@@ -8,7 +8,7 @@ export const PT_C2_S04_STORIES: Story[] = [
     slug: "pt-ata-da-assembleia-extraordinaria",
     level: "PT-C2",
     title: `Ata da assembleia extraordinária`,
-    subtitle: `The official minutes of a residents' meeting in a luxury condominium in Barra da Tijuca, where the agenda is security, smells and the neighbouring favela.`,
+    subtitle: `The official minutes of a residents' meeting in a luxury condominium in Barra da Tijuca, where the agenda is security, smells and the neighboring favela.`,
     paragraphs: [
       `Ata da Assembleia Geral Extraordinária do Condomínio Residencial Royal Garden Park, na Barra da Tijuca, Rio de Janeiro, realizada no salão de festas do Bloco 2, às vinte horas do dia 14 de março, em segunda convocação, por falta de quórum na primeira, que coincidiu com a final do torneio de beach tennis. Presentes cinquenta e três condôminos, conforme lista anexa, e o síndico, Dr. Rodrigo Albuquerque Neves, que presidiu os trabalhos e nomeou a si mesmo secretário, por economia.`,
       `Item 1 da pauta: segurança. O síndico relatou que a altura do muro, atualmente de quatro metros e vinte, com cerca elétrica e câmeras de reconhecimento facial, tem se mostrado insuficiente para a tranquilidade dos moradores, uma vez que, de alguns andares, ainda é possível ver a comunidade vizinha. A Sra. Patrícia Vasconcelos, do apartamento 1802, sugeriu que o muro fosse elevado para doze metros. O Sr. Fábio Meirelles, do 2301, observou que nesse caso o muro faria sombra na piscina das quatro às seis. Após debate, aprovou-se por maioria a construção de um segundo muro, interno, pintado com um mural de paisagem alpina, de modo que, de qualquer andar, se veja a Suíça.`,
@@ -22,13 +22,13 @@ export const PT_C2_S04_STORIES: Story[] = [
     questions: [
       {
         question: `Why was the meeting held at the second call?`,
-        options: [`The síndico was travelling.`, `The power was out.`, `The first call clashed with a beach tennis final.`, `The hall was being renovated.`],
+        options: [`The síndico was traveling.`, `The power was out.`, `The first call clashed with a beach tennis final.`, `The hall was being renovated.`],
         correctIndex: 2,
         explanation: `It was held "em segunda convocação, por falta de quórum na primeira, que coincidiu com a final do torneio de beach tennis".`,
       },
       {
         question: `What did the residents approve about the wall?`,
-        options: [`A second inner wall painted with an Alpine landscape`, `Raising the wall to twelve metres`, `Taking the electric fence down`, `Moving the pool away from the wall`],
+        options: [`A second inner wall painted with an Alpine landscape`, `Raising the wall to twelve meters`, `Taking the electric fence down`, `Moving the pool away from the wall`],
         correctIndex: 0,
         explanation: `"Um segundo muro, interno, pintado com um mural de paisagem alpina, de modo que, de qualquer andar, se veja a Suíça."`,
       },
@@ -40,7 +40,7 @@ export const PT_C2_S04_STORIES: Story[] = [
       },
       {
         question: `Who restored the electricity, and what was wrong?`,
-        options: [`The administrator's emergency team, who found a storm had damaged the generator`, `The caretaker, the night doorman and his son; a circuit breaker the caretaker had asked three times to replace`, `The síndico himself, who found a blown fuse`, `An electrician called by Sra. Helena`],
+        options: [`The administrator's emergency team, who found a storm had damaged the generator`, `The superintendent, the night doorman and his son; a circuit breaker the superintendent had asked three times to replace`, `The síndico himself, who found a blown fuse`, `An electrician called by Sra. Helena`],
         correctIndex: 1,
         explanation: `Sr. Josué, Sr. Wellington and his son went down to the basement; it was "um disjuntor cuja troca ele havia solicitado em três ocasiões".`,
       },
@@ -70,7 +70,7 @@ export const PT_C2_S04_STORIES: Story[] = [
       },
       {
         question: `What did the state deputy want done to his shadow?`,
-        options: [`Dyed a lighter colour`, `Shortened, because it reached places before he did`, `Sewn to his wife's`, `Removed for the election campaign`],
+        options: [`Dyed a lighter color`, `Shortened, because it reached places before he did`, `Sewn to his wife's`, `Removed for the election campaign`],
         correctIndex: 1,
         explanation: `He wanted it "encurtada, porque ela andava muito comprida e chegava aos lugares antes dele".`,
       },
@@ -224,8 +224,8 @@ export const PT_C2_S04_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "a cerca elétrica", en: "electric fence", forms: ["cerca"] },
     { es: "o prestador de serviço", en: "service provider, contractor", forms: ["prestadores"] },
     { es: "o entregador", en: "delivery worker", forms: ["entregadores"] },
-    { es: "a taxa condominial", en: "monthly building service charge", forms: ["taxas", "condominiais"] },
-    { es: "a corretora de imóveis", en: "estate agent", forms: ["corretora"] },
+    { es: "a taxa condominial", en: "monthly condo fee", forms: ["taxas", "condominiais"] },
+    { es: "a corretora de imóveis", en: "real estate agent", forms: ["corretora"] },
     { es: "o rateio", en: "levy split among residents", forms: ["rateio"] },
     { es: "acionar", en: "to start, switch on (a machine)", forms: ["acionava"] },
     { es: "o disjuntor", en: "circuit breaker", forms: ["disjuntor"] },
@@ -248,9 +248,9 @@ export const PT_C2_S04_GLOSSES: Record<string, StoryGloss[]> = {
   "pt-biografia-nao-autorizada": [
     { es: "o biógrafo", en: "biographer", forms: ["biógrafo"] },
     { es: "o biografado", en: "subject of a biography", forms: ["biografado"] },
-    { es: "o boletim", en: "school report", forms: ["boletins"] },
+    { es: "o boletim", en: "report card", forms: ["boletins"] },
     { es: "a carteira", en: "school desk", forms: ["carteira"] },
-    { es: "a normalista", en: "woman trained as a primary-school teacher", forms: ["normalista"] },
+    { es: "a normalista", en: "woman trained as an elementary school teacher", forms: ["normalista"] },
     { es: "manifestar-se", en: "to comment, make a statement", forms: ["manifestar"] },
     { es: "engavetar", en: "to shelve (lit. put in a drawer)", forms: ["engavetado"] },
     { es: "o marco", en: "landmark, milestone", forms: ["marco"] },
@@ -271,7 +271,7 @@ export const PT_C2_S04_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "o placar", en: "score", forms: ["placar"] },
     { es: "desnorteado", en: "bewildered", forms: ["desnorteado"] },
     { es: "o paralelepípedo", en: "cobblestone", forms: ["paralelepípedos"] },
-    { es: "achar graça", en: "to find something funny (graça: charm, humour; also a woman's name)", forms: ["graça"] },
+    { es: "achar graça", en: "to find something funny (graça: charm, humor; also a woman's name)", forms: ["graça"] },
   ],
   "pt-obrigada": [
     { es: "o prenome", en: "first name (legal term)", forms: ["prenomes", "prenome"] },

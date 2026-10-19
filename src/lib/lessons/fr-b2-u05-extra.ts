@@ -797,7 +797,7 @@ export const FR_B2_U05_EXTRA: Lesson[] = [
           { es: "Il est dommage que nous soyons restées à l'hôtel.", en: "It's a pity we (women) stayed at the hotel." },
           { es: "Je ne crois pas qu'ils se soient vus depuis le lycée.", en: "I don't think they've seen each other since secondary school." },
           { es: "Bien qu'elles se soient téléphoné hier, elles ne se sont rien dit.", en: "Although they phoned each other yesterday, they didn't say anything to each other." },
-          { es: "Je suis étonné qu'elle se soit coupé les cheveux.", en: "I'm surprised she's had her hair cut." },
+          { es: "Je suis étonné qu'elle se soit coupé les cheveux.", en: "I'm surprised she's cut her hair." },
         ],
         checkpoint: [
           {
@@ -851,7 +851,7 @@ export const FR_B2_U05_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "I'm surprised she's had her hair cut.",
+        source: "I'm surprised she's cut her hair.",
         answer: "Je suis étonné qu'elle se soit coupé les cheveux.",
         altAnswers: ["Je suis étonnée qu'elle se soit coupé les cheveux.", "Je suis surpris qu'elle se soit fait couper les cheveux.", "Je suis surprise qu'elle se soit fait couper les cheveux.", "Je suis étonné qu'elle se soit fait couper les cheveux.", "Je suis étonnée qu'elle se soit fait couper les cheveux."],
         explanation: "The object (les cheveux) comes after: no agreement on \"coupé\".",

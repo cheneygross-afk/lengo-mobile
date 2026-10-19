@@ -299,7 +299,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "The friends [we slept at] live in the countryside.",
+        en: "The friends [whose place we slept at] live in the countryside.",
         sentence: "Les amis ___ habitent à la campagne.",
         answer: "chez qui on a dormi",
         altAnswers: ["chez qui nous avons dormi"],
@@ -843,7 +843,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "These are the shoes I feel like buying.",
         answer: "Ce sont les chaussures dont j'ai envie.",
-        altAnswers: ["C'est les chaussures dont j'ai envie."],
+        altAnswers: ["C'est les chaussures dont j'ai envie.", "Ce sont les chaussures que j'ai envie d'acheter.", "C'est les chaussures que j'ai envie d'acheter."],
         explanation: "\"Avoir envie de\" → \"dont\".",
       },
       {
@@ -887,7 +887,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« C'est un sujet ___ je ne connais rien. »",
+        question: "\"C'est un sujet ___ je ne connais rien.\"",
         options: ["dont", "que", "qui", "où"],
         correctIndex: 0,
         explanation: "\"Ne rien connaître de\" → \"dont\".",
@@ -1019,7 +1019,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
         prompt: "Translate into French.",
         source: "Is that the guy you went out with? (to a friend)",
         answer: "C'est le type avec qui tu es sorti ?",
-        altAnswers: ["C'est le type avec qui tu es sortie ?", "C'est le gars avec qui tu es sortie ?", "C'est le mec avec qui tu es sortie ?"],
+        altAnswers: ["C'est le type avec qui tu es sortie ?", "C'est le gars avec qui tu es sorti ?", "C'est le gars avec qui tu es sortie ?", "C'est le mec avec qui tu es sorti ?", "C'est le mec avec qui tu es sortie ?"],
         explanation: "\"Avec qui\"; sortir avec = to go out with.",
       },
       {
@@ -1033,8 +1033,8 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "That's the friend [whose wedding] it was.",
-        sentence: "C'est l'amie ___ c'était le mariage.",
+        en: "That's the friend [whose] husband took the photos.",
+        sentence: "C'est l'amie ___ le mari a pris les photos.",
         answer: "dont",
         explanation: "Possession → \"dont\".",
       },
@@ -1063,7 +1063,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Karim asks « C'est qui, la fille avec qui tu danses sur la photo ? » What is he asking?",
+        question: "Karim asks \"C'est qui, la fille avec qui tu danses sur la photo ?\" What is he asking?",
         options: [
           "Who's the girl you're dancing with in the photo?",
           "Who's the girl dancing with you at the party?",
@@ -1253,7 +1253,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Join: « C'est une amie. Je suis fier de cette amie. »",
+        question: "Join: \"C'est une amie. Je suis fier de cette amie.\"",
         options: [
           "C'est une amie dont je suis fier.",
           "C'est une amie que je suis fier.",
@@ -1271,7 +1271,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
           "Voilà la gare où je suis arrivé.",
           "Voilà la gare que je suis arrivé.",
           "Voilà la gare dont je suis arrivé.",
-          "Voilà la gare ou je suis arrivé.",
+          "Voilà la gare où je suis allé.",
         ],
         correctIndex: 0,
         explanation: "Place → \"où\" (with accent).",
@@ -1386,7 +1386,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "The meal I feel like is a good pizza.",
+        source: "The meal I really fancy is a good pizza.",
         answer: "Le repas dont j'ai envie, c'est une bonne pizza.",
         altAnswers: ["Ce dont j'ai envie, c'est une bonne pizza."],
         explanation: "\"Avoir envie de\".",
@@ -1433,7 +1433,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« C'est le livre ___ j'utilise en cours. »",
+        question: "\"C'est le livre ___ j'utilise en cours.\"",
         options: ["que", "dont", "qui", "où"],
         correctIndex: 0,
         explanation: "\"Utiliser\" takes a direct object → \"que\" (compare \"se servir de\" → dont).",
@@ -1560,7 +1560,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into French.",
-        source: "It's the film I told you about.",
+        source: "It's the film I told you about. (to a friend)",
         answer: "C'est le film dont je t'ai parlé.",
         explanation: "\"Dont\".",
       },
@@ -1615,7 +1615,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend asks « C'est qui, le type dont tu parles tout le temps ? » Best answer?",
+        question: "Your friend asks \"C'est qui, le type dont tu parles tout le temps ?\" Best answer?",
         options: [
           "C'est un collègue que j'aime beaucoup.",
           "C'est un collègue dont j'aime beaucoup.",
@@ -1663,12 +1663,12 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       {
         heading: "Recap: the ad",
         body: [
-          "Read the ad: \"À louer : grand T3 qui donne sur un jardin, dans un immeuble ancien dont la façade vient d'être rénovée. Le quartier où il se trouve est calme et proche du tram. La cuisine, que les anciens locataires ont refaite, est entièrement équipée. Idéal pour une famille qui cherche de l'espace.\"",
+          "Read the ad: \"À louer : grand T3 qui donne sur un jardin, dans un immeuble ancien dont on vient de rénover la façade. Le quartier où il se trouve est calme et proche du tram. La cuisine, que les anciens locataires ont refaite, est entièrement équipée. Idéal pour une famille qui cherche de l'espace.\"",
           "Each relative adds one fact: qui (the flat does something), dont (whose façade), où (where it's located), que (what the tenants did to it).",
         ],
         examples: [
           { es: "Grand T3 qui donne sur un jardin.", en: "Large two-bedroom flat overlooking a garden." },
-          { es: "Un immeuble ancien dont la façade vient d'être rénovée.", en: "An old building whose front has just been renovated." },
+          { es: "Un immeuble ancien dont on vient de rénover la façade.", en: "An old building whose front has just been renovated." },
           { es: "Le quartier où il se trouve est calme.", en: "The area where it's located is quiet." },
           { es: "La cuisine, que les anciens locataires ont refaite, est équipée.", en: "The kitchen, which the previous tenants redid, is equipped." },
           { es: "Idéal pour une famille qui cherche de l'espace.", en: "Ideal for a family looking for space." },
@@ -1679,8 +1679,9 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
             direction: "en-es",
             prompt: "Translate into French.",
             source: "An old building whose front has just been renovated.",
-            answer: "Un immeuble ancien dont la façade vient d'être rénovée.",
-            explanation: "\"Dont la façade\"; \"venir d'être\" + participle = has just been.",
+            answer: "Un immeuble ancien dont on vient de rénover la façade.",
+            altAnswers: ["Un immeuble ancien dont la façade vient d'être rénovée.", "Un vieil immeuble dont on vient de rénover la façade."],
+            explanation: "\"Dont\" + normal word order: \"on vient de rénover la façade\" (someone has just renovated its front).",
           },
           {
             type: "fill-blank",
@@ -1779,7 +1780,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "The owner, [whom I spoke to on the phone], was very kind.",
+        en: "The owner, [whom I spoke to] on the phone, was very kind.",
         sentence: "Le propriétaire, ___ au téléphone, était très aimable.",
         answer: "à qui j'ai parlé",
         explanation: "\"Parler à\" → \"à qui\".",
@@ -1794,9 +1795,9 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Large flat whose kitchen has been redone.",
-        words: ["Grand", "appartement", "dont", "la cuisine", "a été", "refaite."],
-        translation: "Large flat whose kitchen has been redone.",
+        prompt: "Put the words in order to say: Large flat whose kitchen is fully equipped.",
+        words: ["Grand", "appartement", "dont", "la cuisine", "est", "entièrement équipée."],
+        translation: "Large flat whose kitchen is fully equipped.",
         explanation: "\"Dont la cuisine\".",
       },
       {
@@ -1985,10 +1986,10 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« C'est une chaise ___ ma mère s'asseyait pour lire. » (where)",
+        question: "\"C'est le coin ___ ma mère s'asseyait pour lire.\" (where)",
         options: ["où", "que", "dont", "qui"],
         correctIndex: 0,
-        explanation: "Place → \"où\" (also possible: \"sur laquelle\").",
+        explanation: "Place → \"où\": \"le coin où\" = the corner where.",
       },
       {
         type: "listen-choose",
@@ -2042,7 +2043,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "« C'est le jour ___ j'attendais. »",
+            question: "\"C'est le jour ___ j'attendais.\"",
             options: ["que", "où", "dont", "qui"],
             correctIndex: 0,
             explanation: "\"Attendre ce jour\": the day is the object → \"que\".",
@@ -2135,7 +2136,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "The year [I] spent in Spain changed my life.",
+        en: "The year [that] I spent in Spain changed my life.",
         sentence: "L'année ___ j'ai passée en Espagne a changé ma vie.",
         answer: "que",
         explanation: "\"Passer une année\": object → \"que\".",
@@ -2143,7 +2144,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "The year [I] lived in Spain, I learnt a lot.",
+        en: "The year [when] I lived in Spain, I learnt a lot.",
         sentence: "L'année ___ j'ai vécu en Espagne, j'ai beaucoup appris.",
         answer: "où",
         explanation: "\"Vivre\" has no object here → \"où\".",
@@ -2151,7 +2152,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "The weekend [we] organised was a success.",
+        en: "The weekend [that] we organised was a success.",
         sentence: "Le week-end ___ nous avons organisé a été un succès.",
         answer: "que",
         explanation: "\"Organiser le week-end\": object → \"que\".",
@@ -2165,7 +2166,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Les vacances ___ on a passées à Nice étaient géniales. »",
+        question: "\"Les vacances ___ on a passées à Nice étaient géniales.\"",
         options: ["que", "où", "dont", "qui"],
         correctIndex: 0,
         explanation: "\"Passer des vacances\": the holiday is the object → \"que\", hence the agreement \"passées\".",
@@ -2346,7 +2347,7 @@ export const FR_B1_U16_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "« Voilà le dossier ___ tu dois t'occuper. »",
+        question: "\"Voilà le dossier ___ tu dois t'occuper.\"",
         options: ["dont", "que", "où", "qui"],
         correctIndex: 0,
         explanation: "\"S'occuper de\" → \"dont\".",

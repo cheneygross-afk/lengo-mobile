@@ -88,7 +88,7 @@ export const FR_A2_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "I was able to leave early.",
+            question: "How do you say: I was able to leave early?",
             options: ["J'ai pouvu partir tôt.", "J'ai pouvé partir tôt.", "J'ai peu partir tôt.", "J'ai pu partir tôt."],
             correctIndex: 3,
             explanation: "\"Pouvoir\" → \"pu\": very short. \"Peu\" (a little) is a different word.",
@@ -282,7 +282,7 @@ export const FR_A2_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "I put on my coat.",
+            question: "How do you say: I put on my coat?",
             options: ["J'ai metté mon manteau.", "J'ai mis mon manteau.", "J'ai mettu mon manteau.", "J'ai mit mon manteau."],
             correctIndex: 1,
             explanation: "\"Mettre\" → \"mis\" (-is family). \"Mettre\" also means to put on clothes.",
@@ -664,7 +664,7 @@ export const FR_A2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The weather was cold all day.",
+        question: "How do you say: The weather was cold all day?",
         options: [
           "Il a fait froid toute la journée.",
           "Il a été froid toute la journée.",
@@ -745,7 +745,7 @@ export const FR_A2_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "We got cold at the stadium.",
+            question: "How do you say: We got cold at the stadium?",
             options: ["Nous avons été froids au stade.", "Nous avons eu froid au stade.", "Il a fait froid au stade.", "Nous sommes eu froid au stade."],
             correctIndex: 1,
             explanation: "Feeling cold = \"avoir froid\" → \"nous avons eu froid\". \"Il a fait froid\" is about the weather, not how you felt.",
@@ -1130,7 +1130,7 @@ export const FR_A2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Today he says no. → Yesterday...",
+        question: "Today he says no: \"Aujourd'hui, il dit non.\" How do you say: Yesterday he said no?",
         options: ["Hier, il a disé non.", "Hier, il a dit non.", "Hier, il a dire non.", "Hier, il dit non."],
         correctIndex: 1,
         explanation: "\"Dire\" → \"dit\".",
@@ -1197,7 +1197,7 @@ export const FR_A2_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "I've finished.",
+            question: "How do you say: I've finished?",
             options: ["J'ai finis.", "J'ai finit.", "J'ai finni.", "J'ai fini."],
             correctIndex: 3,
             explanation: "Feminine \"finie\": nothing hidden, so \"fini\".",
@@ -1358,7 +1358,7 @@ export const FR_A2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A homemade cake.",
+        question: "How do you say: a homemade cake?",
         options: ["Un gâteau fais maison.", "Un gâteau fai maison.", "Un gâteau fait maison.", "Un gâteau faire maison."],
         correctIndex: 2,
         explanation: "\"Fait\", the participle used as an adjective.",
@@ -1466,7 +1466,7 @@ export const FR_A2_U02: Lesson[] = [
       {
         heading: "Two traps that look right",
         body: [
-          "Some forms are wrong in a sneakier way. *Il a dû* is right but *il a du partir* (no accent) is a spelling error: \"dû\". And *j'ai eu malade* mixes avoir and être: \"j'ai été malade\".",
+          "Some forms are wrong in a sneakier way. \"Il a dû partir\" is right, but *il a du partir* (no accent) is a spelling error: \"dû\". And *j'ai eu malade* mixes avoir and être: \"j'ai été malade\".",
           "Finally, a correct sentence can hide among the wrong ones: \"j'ai couru\" (I ran) is right. \"Courir\" → \"couru\", an -u participle like \"vu\".",
         ],
         examples: [
@@ -1558,16 +1558,16 @@ export const FR_A2_U02: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the French for the bold words.",
-        en: "They [offered] us a coffee.",
-        sentence: "Ils nous ont ___ un café.",
+        en: "They [bought] Karim a coffee.",
+        sentence: "Ils ont ___ un café à Karim.",
         answer: "offert",
-        explanation: "\"Offrir\" → \"offert\". (\"Nous\" before the verb is an object pronoun, coming in Unit 7.)",
+        explanation: "\"Offrir\" → \"offert\" (not *offri*): -frir verbs are in the -ert family. \"Offrir un café à quelqu'un\" = to buy someone a coffee as a treat.",
       },
       {
         type: "multiple-choice",
         question: "Which sentence contains a mistake?",
         options: ["Tu as voulu partir ?", "Tu as pu dormir ?", "Tu as vouloir partir ?", "Tu as lu le livre ?"],
-        correctIndex: 0,
+        correctIndex: 2,
         explanation: "\"Vouloir\" → \"voulu\"; *as vouloir* uses the infinitive after \"avoir\".",
       },
       {
@@ -1690,7 +1690,7 @@ export const FR_A2_U02: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Your friend says: Tu n'as pas fait tes devoirs ? But you did. What do you answer?",
+            question: "Your friend says: \"Tu n'as pas fait tes devoirs ?\" But you did. What do you answer?",
             options: ["Si, j'ai fait mes devoirs.", "Oui, j'ai fait mes devoirs.", "Non, j'ai fait mes devoirs.", "Si, tu as fait tes devoirs."],
             correctIndex: 0,
             explanation: "\"Si\" contradicts a negative question; then switch to \"j'ai fait\" and \"mes\".",
@@ -1998,7 +1998,7 @@ export const FR_A2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which list item became the right past form? (prendre un taxi)",
+        question: "Camille's list said \"prendre un taxi\". How does she say: I took a taxi?",
         options: ["J'ai prendu un taxi.", "J'ai pris un taxi.", "J'ai prit un taxi.", "J'ai prendre un taxi."],
         correctIndex: 1,
         explanation: "\"Prendre\" → \"pris\", with a silent s (feminine \"prise\").",

@@ -53,7 +53,7 @@ export const FR_B1_U22: Lesson[] = [
         body: [
           "English plays both the piano and football. French distinguishes them: \"jouer de\" + an instrument (\"jouer du piano\", \"de la guitare\", \"du violon\"), \"jouer à\" + a game or a sport (\"jouer au foot\", \"au tennis\", \"aux cartes\", \"aux échecs\").",
           "A memory trick: you play AT a game (à), and music comes FROM (de) an instrument. The contractions apply: à + le = au, à + les = aux, de + le = du.",
-          "Some sports use \"faire\" instead: \"faire du vélo\", \"faire de la natation\", \"faire du ski\". With team sports and ball games, both are possible: \"jouer au tennis\" or \"faire du tennis\".",
+          "Some sports use \"faire\" instead: \"faire du vélo\", \"faire de la natation\", \"faire du ski\". With many sports, both are possible: \"jouer au tennis\" or \"faire du tennis\", \"jouer au foot\" or \"faire du foot\".",
         ],
         examples: [
           { es: "Il joue du piano depuis l'âge de six ans.", en: "He's played the piano since he was six." },
@@ -64,7 +64,7 @@ export const FR_B1_U22: Lesson[] = [
           { es: "Elle fait de la natation trois fois par semaine.", en: "She goes swimming three times a week." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Can you play the guitar? (to a friend)", answer: "Tu sais jouer de la guitare ?", altAnswers: ["Sais-tu jouer de la guitare ?", "Est-ce que tu sais jouer de la guitare ?", "Vous savez jouer de la guitare ?", "Tu joues de la guitare ?"], explanation: "Instrument = \"jouer de\". Can (know how to) = \"savoir\"." },
+          { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Can you play the guitar? (to a friend)", answer: "Tu sais jouer de la guitare ?", altAnswers: ["Sais-tu jouer de la guitare ?", "Est-ce que tu sais jouer de la guitare ?", "Tu joues de la guitare ?", "Est-ce que tu joues de la guitare ?"], explanation: "Instrument = \"jouer de\". Can (know how to) = \"savoir\"." },
           { type: "multiple-choice", question: "We play football every Sunday. Which is right?", options: ["On joue au foot tous les dimanches.", "On joue du foot tous les dimanches.", "On joue le foot tous les dimanches.", "On joue de foot tous les dimanches."], correctIndex: 0, explanation: "Games and sports: \"jouer à\" → \"au foot\"." },
           { type: "fill-blank", prompt: "Write the French for the bold words.", en: "My grandparents [play cards] in the evening.", sentence: "Mes grands-parents ___ le soir.", answer: "jouent aux cartes", explanation: "\"Jouer à\" + les cartes → \"aux cartes\"." },
         ],
@@ -171,16 +171,16 @@ export const FR_B1_U22: Lesson[] = [
           { es: "C'est une bonne idée, je n'y avais pas pensé.", en: "That's a good idea, I hadn't thought of it." },
         ],
         checkpoint: [
-          { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "What if you asked for a raise? (to a friend)", answer: "Et si tu demandais une augmentation ?", altAnswers: ["Et si vous demandiez une augmentation ?", "Si tu demandais une augmentation ?"], explanation: "\"Et si\" + imparfait = what if... ?, a soft suggestion." },
+          { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "What if you asked for a raise? (to a friend)", answer: "Et si tu demandais une augmentation ?", altAnswers: ["Si tu demandais une augmentation ?"], explanation: "\"Et si\" + imparfait = what if... ?, a soft suggestion." },
           { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "If I were you, I'd go and talk to him.", answer: "À ta place, j'irais lui parler.", altAnswers: ["Si j'étais toi, j'irais lui parler.", "À votre place, j'irais lui parler.", "Si j'étais vous, j'irais lui parler.", "À ta place, j'irais parler avec lui."], explanation: "\"J'irais\" is the conditional of aller; \"lui\" belongs to \"parler\", so it goes before the infinitive." },
           { type: "speak", text: "C'est une bonne idée, je n'y avais pas pensé.", explanation: "\"Penser à\" → \"y\"; the plus-que-parfait says you hadn't thought of it before now." },
         ],
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "You shouldn't drink so much coffee. (to a friend)", answer: "Tu ne devrais pas boire autant de café.", altAnswers: ["Vous ne devriez pas boire autant de café.", "Tu ne devrais pas boire tant de café.", "Tu ne devrais pas boire trop de café."], explanation: "Negative advice: \"ne devrais pas\" + infinitive; so much = \"autant de\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "You shouldn't drink so much coffee. (to a friend)", answer: "Tu ne devrais pas boire autant de café.", altAnswers: ["Tu ne devrais pas boire tant de café."], explanation: "Negative advice: \"ne devrais pas\" + infinitive; so much = \"autant de\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "If I were you, I'd take the train. (to a stranger)", answer: "À votre place, je prendrais le train.", altAnswers: ["Si j'étais vous, je prendrais le train."], explanation: "\"À votre place\" with someone you call vous, then the conditional." },
-      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Why don't you join a club? (to a friend)", answer: "Pourquoi tu ne t'inscris pas à un club ?", altAnswers: ["Pourquoi ne t'inscris-tu pas à un club ?", "Pourquoi est-ce que tu ne t'inscris pas à un club ?", "Pourquoi vous ne vous inscrivez pas à un club ?", "Tu devrais t'inscrire à un club."], explanation: "\"Pourquoi tu ne... pas ?\" is a natural suggestion; s'inscrire à = to join." },
+      { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "Why don't you join a club? (to a friend)", answer: "Pourquoi tu ne t'inscris pas à un club ?", altAnswers: ["Pourquoi ne t'inscris-tu pas à un club ?", "Pourquoi est-ce que tu ne t'inscris pas à un club ?", "Tu devrais t'inscrire à un club."], explanation: "\"Pourquoi tu ne... pas ?\" is a natural suggestion; s'inscrire à = to join." },
       { type: "fill-blank", prompt: "Write the French for the bold words.", en: "You'd better [go to bed], it's late.", sentence: "Tu ferais mieux ___, il est tard.", answer: "de te coucher", explanation: "\"Faire mieux de\" + infinitive; the reflexive pronoun matches tu: \"te coucher\"." },
       { type: "multiple-choice", question: "Which sentence is correct?", options: ["Si j'étais toi, j'accepterais.", "Si je serais toi, j'accepterais.", "Si j'étais toi, j'accepte.", "Si je suis toi, j'accepterais."], correctIndex: 0, explanation: "Hypothesis: si + imparfait, then the conditional. Never the conditional after si." },
       { type: "translate", direction: "en-es", prompt: "Translate into French.", source: "I really should do some exercise.", answer: "Je devrais vraiment faire du sport.", altAnswers: ["Je devrais vraiment faire de l'exercice."], explanation: "\"Je devrais\" = I should; to exercise = \"faire du sport\"." },

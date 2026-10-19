@@ -524,7 +524,7 @@ export const FR_A2_U21: Lesson[] = [
         heading: "Y and en with the future",
         body: [
           "\"Y\" and \"en\" go before the conjugated verb in the futur simple: \"j'y serai à 8 h\", \"tu en achèteras ?\", \"on y retournera\". With the futur proche they go before the infinitive, because that's the verb they belong to: \"je vais y aller\", \"on va en prendre deux\" (trap: *j'y vais aller*).",
-          "Combining everything: \"Quand j'aurai plus de temps, j'y retournerai plus souvent\" puts the future after \"quand\", \"y\" before the verb and a comparison at the end. One exception: French drops \"y\" before the future and conditional of \"aller\" to avoid the double i sound, so it's \"tu iras à Lyon ? — oui, j'irai\", not \"j'y irai\". You'll hear \"j'y irai\" in casual speech, but it's considered a mistake in writing.",
+          "Combining everything: \"Quand j'aurai plus de temps, j'y retournerai plus souvent\" puts the future after \"quand\", \"y\" before the verb and a comparison at the end. One exception: French drops \"y\" before the future and conditional of \"aller\" to avoid the double i sound, so it's \"tu iras à Lyon ? — oui, j'irai\", not \"j'y irai\". You'll hear \"j'y irai\" in casual speech, but careful writing avoids it.",
         ],
         examples: [
           { es: "La plage ? On y retournera demain matin.", en: "The beach? We'll go back there tomorrow morning." },
@@ -568,9 +568,9 @@ export const FR_A2_U21: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into French.",
         source: "My flat is smaller than yours. (to a friend)",
-        answer: "Mon appartement est plus petit que le tien.",
-        altAnswers: ["Mon appart est plus petit que le tien.", "Mon appartement est moins grand que le tien."],
-        explanation: "\"Plus\" + adjective + \"que\"; yours (for un appartement, to a friend) is \"le tien\".",
+        answer: "Mon appartement est plus petit que ta maison.",
+        altAnswers: ["Mon appart est plus petit que ta maison.", "Mon appartement est moins grand que ta maison."],
+        explanation: "\"Plus\" + adjective + \"que\": \"plus petit que ta maison\". \"Petit\" agrees with \"mon appartement\" (masculine).",
       },
       {
         type: "fill-blank",
@@ -831,7 +831,7 @@ export const FR_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has NO error?",
+        question: "How do you say 'We stayed two days'?",
         options: ["Nous sommes restés deux jours.", "Nous avons restés deux jours.", "Nous sommes resté deux jours.", "Nous avons resté deux jours."],
         correctIndex: 0,
         explanation: "\"Rester\" takes \"être\" (it's a change-of-state verb in the list), and the participle agrees with nous.",
@@ -1036,7 +1036,7 @@ export const FR_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A new colleague asks you 'Depuis quand vous habitez ici ?' Which answer fits?",
+        question: "A new colleague asks you \"Depuis quand vous habitez ici ?\" Which answer fits?",
         options: ["Depuis 2022.", "Pendant deux ans.", "Il y a deux ans.", "Dans deux ans."],
         correctIndex: 0,
         explanation: "\"Depuis quand\" asks for a starting point; \"depuis 2022\" answers it. \"Il y a deux ans\" answers when did you arrive.",
@@ -1136,7 +1136,7 @@ export const FR_A2_U21: Lesson[] = [
         examples: [
           { es: "Je n'ai vu personne à la fête.", en: "I didn't see anyone at the party." },
           { es: "Il n'a rien dit.", en: "He didn't say anything." },
-          { es: "Ta soupe est meilleure que la mienne.", en: "Your soup is better than mine." },
+          { es: "Ta soupe est meilleure qu'au restaurant.", en: "Your soup is better than at the restaurant." },
           { es: "C'est le plus vieux pont de Paris.", en: "It's the oldest bridge in Paris." },
         ],
         checkpoint: [
@@ -1231,8 +1231,8 @@ export const FR_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "'Her cakes are better than mine.' Which is correct?",
-        options: ["Ses gâteaux sont meilleurs que les miens.", "Ses gâteaux sont plus bons que les miens.", "Ses gâteaux sont mieux que les miens.", "Ses gâteaux sont meilleur que les miens."],
+        question: "How do you say 'Her cakes are better than at the bakery'?",
+        options: ["Ses gâteaux sont meilleurs qu'à la boulangerie.", "Ses gâteaux sont plus bons qu'à la boulangerie.", "Ses gâteaux sont mieux qu'à la boulangerie.", "Ses gâteaux sont meilleur qu'à la boulangerie."],
         correctIndex: 0,
         explanation: "Trap 9: \"meilleur\" for nouns, and it agrees: \"meilleurs\".",
       },
@@ -1718,7 +1718,7 @@ export const FR_A2_U21: Lesson[] = [
         heading: "With être verbs, pronominal verbs and y",
         body: [
           "Pronominal verbs carry their pronoun through every tense: \"elle se lève\" → \"elle s'est levée\" → \"elle se levait\" → \"elle se lèvera\". In the passé composé they switch to \"être\" and agree. Spelling verbs keep their accent in the future: \"elle se lèvera\", \"j'achèterai\".",
-          "\"Y\" works the same way: \"nous y allons\" → \"nous y sommes allés\" → \"nous y allions\". The one exception is the future of \"aller\": \"y\" disappears before the i sound, so it's \"nous irons\", not \"nous y irons\".",
+          "\"Y\" works the same way: \"nous y allons\" → \"nous y sommes allés\" → \"nous y allions\". The one exception is the future of \"aller\": \"y\" disappears before the i sound, so careful French says \"nous irons\" rather than \"nous y irons\".",
         ],
         examples: [
           { es: "Elle se lève à sept heures.", en: "She gets up at seven." },
@@ -1844,7 +1844,7 @@ export const FR_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the imparfait version of 'Je n'en mange pas'?",
+        question: "How do you say 'I didn't use to eat any' (imparfait of \"Je n'en mange pas\")?",
         options: ["Je n'en mangeais pas.", "Je n'en ai pas mangé.", "Je n'en mangerai pas.", "Je ne mangeais pas en."],
         correctIndex: 0,
         explanation: "Same pronoun position, imparfait ending: \"mangeais\" (with the e that keeps the g soft).",
@@ -1896,13 +1896,13 @@ export const FR_A2_U21: Lesson[] = [
           { es: "Samedi, je suis allé à un concert avec ma sœur.", en: "On Saturday I went to a concert with my sister." },
           { es: "Tu as vu tes parents ? — Oui, je les ai vus dimanche.", en: "Did you see your parents? Yes, I saw them on Sunday." },
           { es: "Tu n'es pas sorti samedi soir ? — Si, je suis sorti avec des amis.", en: "Didn't you go out on Saturday night? Yes, I went out with friends." },
-          { es: "Tu as acheté du pain ? — Oui, j'en ai acheté deux baguettes.", en: "Did you buy bread? Yes, I bought two baguettes." },
+          { es: "Tu as acheté du pain ? — Oui, j'ai acheté deux baguettes.", en: "Did you buy bread? Yes, I bought two baguettes." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Hugo asks: Tu as vu le match ? Translate your answer into French.",
+            prompt: "Hugo asks: \"Tu as vu le match ?\" Translate your answer into French.",
             source: "Yes, I watched it at Karim's.",
             answer: "Oui, je l'ai regardé chez Karim.",
             altAnswers: ["Oui, je l'ai vu chez Karim."],
@@ -1910,7 +1910,7 @@ export const FR_A2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Hugo asks: 'Tu n'es pas allé à la fête ?' You did go. What do you say?",
+            question: "Hugo asks: \"Tu n'es pas allé à la fête ?\" You did go. What do you say?",
             options: ["Si, j'y suis allé.", "Oui, j'y suis allé.", "Non, j'y suis allé.", "Si, j'en suis allé."],
             correctIndex: 0,
             explanation: "\"Si\" contradicts a negative question; \"y\" replaces à la fête.",
@@ -1934,7 +1934,7 @@ export const FR_A2_U21: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Hugo asks: C'était comment, la randonnée ? Translate your answer into French.",
+            prompt: "Hugo asks: \"C'était comment, la randonnée ?\" Translate your answer into French.",
             source: "It was great, but it was very hot.",
             answer: "C'était génial, mais il faisait très chaud.",
             altAnswers: ["C'était super, mais il faisait très chaud.", "C'était très bien, mais il faisait très chaud."],
@@ -1967,7 +1967,7 @@ export const FR_A2_U21: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Hugo asks: Tu vas inviter tes cousins ? Translate your answer into French.",
+            prompt: "Hugo asks: \"Tu vas inviter tes cousins ?\" Translate your answer into French.",
             source: "Yes, I'm going to invite them.",
             answer: "Oui, je vais les inviter.",
             altAnswers: ["Oui, je les inviterai."],
@@ -1986,7 +1986,7 @@ export const FR_A2_U21: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Hugo asks: Qu'est-ce que tu as fait samedi ? Translate your answer into French.",
+        prompt: "Hugo asks: \"Qu'est-ce que tu as fait samedi ?\" Translate your answer into French.",
         source: "I cleaned the flat and then I went to the cinema.",
         answer: "J'ai fait le ménage, puis je suis allé au cinéma.",
         altAnswers: ["J'ai fait le ménage, puis je suis allée au cinéma.", "J'ai fait le ménage et ensuite je suis allé au cinéma.", "J'ai fait le ménage et ensuite je suis allée au cinéma.", "J'ai rangé l'appartement, puis je suis allé au cinéma.", "J'ai rangé l'appartement, puis je suis allée au cinéma."],
@@ -1995,7 +1995,7 @@ export const FR_A2_U21: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Hugo asks: Tu as appelé ta grand-mère ? Translate your answer into French.",
+        prompt: "Hugo asks: \"Tu as appelé ta grand-mère ?\" Translate your answer into French.",
         source: "No, I'll call her tonight.",
         answer: "Non, je l'appellerai ce soir.",
         altAnswers: ["Non, je vais l'appeler ce soir.", "Non, je lui téléphonerai ce soir.", "Non, je vais lui téléphoner ce soir."],
@@ -2004,7 +2004,7 @@ export const FR_A2_U21: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Hugo asks: Il y avait du monde au marché ? Translate your answer into French.",
+        prompt: "Hugo asks: \"Il y avait du monde au marché ?\" Translate your answer into French.",
         source: "Yes, there were lots of people.",
         answer: "Oui, il y avait beaucoup de monde.",
         altAnswers: ["Oui, il y avait beaucoup de gens.", "Oui, il y en avait beaucoup."],
@@ -2012,7 +2012,7 @@ export const FR_A2_U21: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Hugo asks: Tu as parlé à Sophie ? Write the French for the bold words.",
+        prompt: "Hugo asks: \"Tu as parlé à Sophie ?\" Write the French for the bold words.",
         en: "Yes, [I talked to her] on Sunday.",
         sentence: "Oui, ___ dimanche.",
         answer: "je lui ai parlé",
@@ -2021,7 +2021,7 @@ export const FR_A2_U21: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Hugo asks: Tu es allé à la piscine ? Translate your answer into French.",
+        prompt: "Hugo asks: \"Tu es allé à la piscine ?\" Translate your answer into French.",
         source: "No, I didn't go. I was too tired.",
         answer: "Non, je n'y suis pas allé. J'étais trop fatigué.",
         altAnswers: ["Non, je n'y suis pas allée. J'étais trop fatiguée."],
@@ -2029,7 +2029,7 @@ export const FR_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Hugo asks: 'Tu as mangé des crêpes ?' You ate four. What do you say?",
+        question: "Hugo asks: \"Tu as mangé des crêpes ?\" You ate four. What do you say?",
         options: ["Oui, j'en ai mangé quatre.", "Oui, je les ai mangées quatre.", "Oui, j'ai mangé quatre.", "Oui, j'en ai mangées quatre."],
         correctIndex: 0,
         explanation: "A number with no noun needs \"en\"; no agreement with \"en\".",
@@ -2037,7 +2037,7 @@ export const FR_A2_U21: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Hugo asks: Qu'est-ce que tu feras dimanche prochain ? Translate your answer into French.",
+        prompt: "Hugo asks: \"Qu'est-ce que tu feras dimanche prochain ?\" Translate your answer into French.",
         source: "I'll visit my grandparents.",
         answer: "Je rendrai visite à mes grands-parents.",
         altAnswers: ["J'irai voir mes grands-parents.", "Je vais rendre visite à mes grands-parents.", "Je vais aller voir mes grands-parents.", "Je vais voir mes grands-parents."],
@@ -2046,7 +2046,7 @@ export const FR_A2_U21: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Hugo asks: C'était bien, la soirée ? Translate your answer into French.",
+        prompt: "Hugo asks: \"C'était bien, la soirée ?\" Translate your answer into French.",
         source: "Yes, we had a great time.",
         answer: "Oui, on s'est bien amusés.",
         altAnswers: ["Oui, nous nous sommes bien amusés.", "Oui, on s'est bien amusé.", "Oui, on s'est bien amusées.", "Oui, nous nous sommes bien amusées."],
@@ -2067,7 +2067,7 @@ export const FR_A2_U21: Lesson[] = [
       {
         type: "speak",
         text: "Oui, je les ai vus samedi.",
-        prompt: "Hugo asks: Tu as vu tes cousins ? Say in French: Yes, I saw them on Saturday.",
+        prompt: "Hugo asks: \"Tu as vu tes cousins ?\" Say in French: Yes, I saw them on Saturday.",
         explanation: "\"Les\" before the auxiliary; \"vus\" agrees with les cousins.",
       },
     ],
@@ -2469,9 +2469,9 @@ export const FR_A2_U21: Lesson[] = [
       {
         type: "multiple-choice",
         question: "You're signing off a postcard to your aunt. Which is the natural ending?",
-        options: ["Je t'embrasse, à bientôt !", "Je te baise, à bientôt !", "Salutations distinguées.", "Bonne journée, monsieur."],
+        options: ["Je t'embrasse, à bientôt !", "Je te salue, à bientôt !", "Salutations distinguées.", "Bonne journée, monsieur."],
         correctIndex: 0,
-        explanation: "\"Je t'embrasse\" is the warm written goodbye to family. Never use the verb \"baiser\": today it's vulgar.",
+        explanation: "\"Je t'embrasse\" is the warm written goodbye to family. \"Je te salue\" sounds stiff and odd on a postcard; and never use \"baiser\" for to kiss: today it's vulgar.",
       },
       {
         type: "word-order",

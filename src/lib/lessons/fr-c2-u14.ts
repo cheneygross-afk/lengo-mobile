@@ -9,7 +9,7 @@ export const FR_C2_U14: Lesson[] = [
     level: "FR-C2",
     number: 1,
     title: "L'Art du Débat et de l'Argumentation, Part 6 of 9",
-    summary: "Structuring an argument the French way: the dialectical and analytical plans, the introduction from accroche to annonce du plan, and the transitions that hold the parts together.",
+    summary: "Structuring an argument the French way: the dialectical and analytical plans, the introduction from \"accroche\" to \"annonce du plan\", and the transitions that hold the parts together.",
     duration: "19 min",
     sections: [
       {
@@ -34,7 +34,7 @@ export const FR_C2_U14: Lesson[] = [
             prompt: "Translate into French.",
             source: "My argument will fall into three stages.",
             answer: "Mon propos s'articulera en trois temps.",
-            altAnswers: ["Mon propos s'articulera autour de trois temps.", "Mon propos se déroulera en trois temps.", "Mon exposé s'articulera en trois temps.", "Mon propos s'organisera en trois temps."],
+            altAnswers: ["Mon propos se déroulera en trois temps.", "Mon exposé s'articulera en trois temps.", "Mon propos s'organisera en trois temps."],
             explanation: "\"S'articuler en / autour de\" is the standard verb for announcing a structure; \"temps\" here means stage.",
           },
           {
@@ -55,7 +55,7 @@ export const FR_C2_U14: Lesson[] = [
         heading: "L'introduction: accroche, problématique, annonce du plan",
         body: [
           "A French introduction has three fixed moves. \"L'accroche\" (the hook) catches attention: a fact, a quotation, a recent event, a paradox. Unlike an English hook, it is short, one or two sentences, and leads straight to the subject. Then come \"la présentation du sujet\" (defining the key terms) and \"la problématique\": the real question behind the topic, often introduced by \"dès lors\", \"on peut alors se demander\" or \"il convient de s'interroger sur\".",
-          "The problématique is not a repetition of the title. If the title is \"Le télétravail\", the problématique might be \"Dans quelle mesure le télétravail redéfinit-il la frontière entre vie professionnelle et vie privée ?\" \"Dans quelle mesure\" (to what extent) and \"en quoi\" (in what way) are the favourite openings because they force a nuanced answer, not yes or no.",
+          "The \"problématique\" is not a repetition of the title. If the title is \"Le télétravail\", the problématique might be \"Dans quelle mesure le télétravail redéfinit-il la frontière entre vie professionnelle et vie privée ?\" \"Dans quelle mesure\" (to what extent) and \"en quoi\" (in what way) are the favourite openings because they force a nuanced answer, not yes or no.",
           "Finally, \"l'annonce du plan\": \"Nous verrons dans un premier temps..., puis..., avant de...\" Use \"nous\" (the academic we) or impersonal forms; \"je\" is acceptable in an oral exposé, more rarely in writing. The tense is the future: \"nous verrons\", \"nous montrerons\", \"nous examinerons\".",
         ],
         examples: [
@@ -70,11 +70,11 @@ export const FR_C2_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into French (a problématique).",
+            prompt: "Translate into French (a \"problématique\").",
             source: "To what extent is remote work changing our relationship with work?",
             answer: "Dans quelle mesure le télétravail change-t-il notre rapport au travail ?",
             altAnswers: ["Dans quelle mesure le télétravail modifie-t-il notre rapport au travail ?", "Dans quelle mesure le télétravail transforme-t-il notre rapport au travail ?", "Dans quelle mesure le télétravail change-t-il notre relation au travail ?"],
-            explanation: "\"Dans quelle mesure\" + complex inversion (noun + verb + \"-t-il\"): the classic form of a problématique.",
+            explanation: "\"Dans quelle mesure\" + complex inversion (noun + verb + \"-t-il\"): the classic form of a \"problématique\".",
           },
           {
             type: "fill-blank",
@@ -89,9 +89,9 @@ export const FR_C2_U14: Lesson[] = [
             type: "listen-choose",
             audio: "En quoi cette évolution constitue-t-elle une rupture ?",
             question: "What is this sentence in a French introduction?",
-            options: ["The problématique", "The accroche", "The conclusion", "A concrete example"],
+            options: ["The \"problématique\"", "The \"accroche\"", "The conclusion", "A concrete example"],
             correctIndex: 0,
-            explanation: "\"En quoi...?\" with inversion is a typical problématique: it asks how, not whether.",
+            explanation: "\"En quoi...?\" with inversion is a typical \"problématique\": it asks how, not whether.",
           },
         ],
       },
@@ -165,7 +165,7 @@ export const FR_C2_U14: Lesson[] = [
         sentence: "___ si la mesure est juste.",
         answer: "On peut alors se demander",
         altAnswers: ["Dès lors, on peut se demander", "On peut dès lors se demander"],
-        explanation: "\"On peut alors se demander\" introduces the problématique as an indirect question.",
+        explanation: "\"On peut alors se demander\" introduces the \"problématique\" as an indirect question.",
       },
       {
         type: "fill-blank",
@@ -194,7 +194,7 @@ export const FR_C2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is a problématique rather than a restatement of the title?",
+        question: "Which sentence is a \"problématique\" rather than a restatement of the title?",
         options: [
           "Dans quelle mesure les réseaux sociaux transforment-ils le débat démocratique ?",
           "Les réseaux sociaux et la démocratie.",
@@ -202,7 +202,7 @@ export const FR_C2_U14: Lesson[] = [
           "Les réseaux sociaux existent depuis vingt ans.",
         ],
         correctIndex: 0,
-        explanation: "A problématique asks a real question that calls for a nuanced answer.",
+        explanation: "A \"problématique\" asks a real question that calls for a nuanced answer.",
       },
       {
         type: "matching",
@@ -301,7 +301,7 @@ export const FR_C2_U14: Lesson[] = [
             prompt: "Translate into French (a rhetorical question, with inversion).",
             source: "Can we really talk about savings when we're sacrificing the future?",
             answer: "Peut-on vraiment parler d'économies quand on sacrifie l'avenir ?",
-            altAnswers: ["Peut-on vraiment parler d'économie quand on sacrifie l'avenir ?", "Peut-on vraiment parler d'économies lorsqu'on sacrifie l'avenir ?", "Peut-on vraiment parler d'économies quand on sacrifie l'avenir ?"],
+            altAnswers: ["Peut-on vraiment parler d'économie quand on sacrifie l'avenir ?", "Peut-on vraiment parler d'économies lorsqu'on sacrifie l'avenir ?"],
             explanation: "\"Peut-on\" (inversion) gives the question its formal, oratorical tone; the expected answer is no.",
           },
           {
@@ -467,7 +467,7 @@ export const FR_C2_U14: Lesson[] = [
         heading: "Ethos, pathos, logos: Hugo against poverty",
         body: [
           "Aristotle's three means of persuasion are taught in every French lycée under their Greek names. \"L'ethos\" is the image the speaker projects (credibility, integrity, authority). \"Le pathos\" is the emotion stirred in the audience (pity, indignation, hope). \"Le logos\" is the reasoning (facts, figures, logic). A great speech weaves all three. Careful: in everyday French, \"faire du pathos\" or \"tomber dans le pathos\" is pejorative, meaning to lay on the emotion too thick.",
-          "Victor Hugo's speech on poverty (\"Discours sur la misère\", Assemblée nationale législative, 9 July 1849) shows the three working together. His ethos: a famous poet, a conservative who has changed his mind, and says so. His logos: a precise distinction between suffering, which no law can abolish, and destitution, which political action can. And his pathos: descriptions of families living in cellars in Paris and Lille.",
+          "Victor Hugo's speech on poverty (\"Discours sur la misère\", Assemblée nationale législative, 9 July 1849) shows the three working together. His ethos: a famous poet and former peer of France, elected on the conservative side, now confronting his own camp. His logos: a precise distinction between suffering, which no law can abolish, and destitution, which political action can. And his pathos: descriptions of Paris families sleeping on heaps of rotting rags and of a mother and her four children searching for food in the refuse of Montfaucon.",
           "The key sentence is built on a concession (I am not one of those who...) followed by a correction (but I am one of those who...): « Je ne suis pas, messieurs, de ceux qui croient qu'on peut supprimer la souffrance en ce monde ; la souffrance est une loi divine ; mais je suis de ceux qui pensent et qui affirment qu'on peut détruire la misère. » Notice the doublet \"qui pensent et qui affirment\", which moves from opinion to commitment, and the parallel structure \"je ne suis pas de ceux qui... je suis de ceux qui\", which is still used by politicians today.",
         ],
         examples: [
@@ -475,7 +475,7 @@ export const FR_C2_U14: Lesson[] = [
           { es: "« Mais je suis de ceux qui pensent et qui affirment qu'on peut détruire la misère. »", en: "'But I am one of those who think and who affirm that destitution can be destroyed.' (Hugo, 1849)" },
           { es: "L'ethos de l'orateur repose ici sur sa réputation et sur sa sincérité.", en: "Here the speaker's ethos rests on his reputation and his sincerity." },
           { es: "Le logos tient à une distinction précise entre la souffrance et la misère.", en: "The logos lies in a precise distinction between suffering and destitution." },
-          { es: "Hugo fait appel au pathos en décrivant des familles entières entassées dans des caves.", en: "Hugo appeals to pathos by describing whole families crammed into cellars." },
+          { es: "Hugo fait appel au pathos en décrivant des familles entières entassées dans des taudis.", en: "Hugo appeals to pathos by describing whole families crammed into slums." },
           { es: "Évitons de tomber dans le pathos : les faits parlent d'eux-mêmes.", en: "Let's not lay the emotion on too thick: the facts speak for themselves." },
         ],
         checkpoint: [
@@ -594,11 +594,11 @@ export const FR_C2_U14: Lesson[] = [
         type: "matching",
         instructions: "Match each speech to its dominant device.",
         pairs: [
-          { left: "Hugo, 1849", right: "Concession then correction: je ne suis pas de ceux qui..." },
+          { left: "Hugo, 1849", right: "Concession then correction: \"je ne suis pas de ceux qui...\"" },
           { left: "Veil, 1974", right: "Sober logos addressed to a hostile assembly" },
           { left: "De Gaulle, 18 juin 1940", right: "Rhetorical questions answered by a categorical no" },
           { left: "Malraux, 1964", right: "Apostrophe to the dead in a funeral oration" },
-          { left: "Jaurès, 1903", right: "Anaphora: Le courage, c'est..." },
+          { left: "Jaurès, 1903", right: "Anaphora: \"Le courage, c'est...\"" },
         ],
         explanation: "Each speech is remembered for one main device, though all combine ethos, pathos and logos.",
       },
@@ -695,7 +695,7 @@ export const FR_C2_U14: Lesson[] = [
     level: "FR-C2",
     number: 4,
     title: "Real-World Mission: La Conclusion qu'On Retient",
-    summary: "Write the closing statement of a university debate on a tourist tax: synthesise your points, contrast them with your opponent's, make a final appeal and end with the expected French ouverture.",
+    summary: "Write the closing statement of a university debate on a tourist tax: synthesise your points, contrast them with your opponent's, make a final appeal and end with the expected French \"ouverture\".",
     duration: "19 min",
     sections: [
       {
@@ -778,7 +778,7 @@ export const FR_C2_U14: Lesson[] = [
         body: [
           "French conclusions end with \"une ouverture\": a sentence that widens the debate to a related question, showing that your thinking goes beyond the topic. It is expected in the dissertation and appreciated in a debate. It must be related, brief and not a new argument. For example: \"Reste à savoir si nous, voyageurs, serons prêts à changer nos propres habitudes.\"",
           "Typical frames: \"reste à savoir si\", \"la question se pose désormais de savoir\", \"au-delà de ce débat, c'est notre rapport au voyage qui est en jeu\", \"et si la vraie question était...?\". The last is lighter and suits an oral.",
-          "A good closing is short. Two minutes is about 250 words. Count the moves: synthesis (2-3 sentences), contrast (2 sentences), appeal (1-2 sentences), ouverture (1 sentence). Nothing new, nothing apologetic: never close with \"voilà, c'est tout\" or \"j'espère avoir été clair\".",
+          "A good closing is short. Two minutes is about 250 words. Count the moves: synthesis (2-3 sentences), contrast (2 sentences), appeal (1-2 sentences), \"ouverture\" (1 sentence). Nothing new, nothing apologetic: never close with \"voilà, c'est tout\" or \"j'espère avoir été clair\".",
         ],
         examples: [
           { es: "Reste à savoir si nous, voyageurs, serons prêts à changer nos propres habitudes.", en: "It remains to be seen whether we travellers will be ready to change our own habits." },
@@ -799,7 +799,7 @@ export const FR_C2_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is the best ouverture for this debate?",
+            question: "Which sentence is the best \"ouverture\" for this debate?",
             options: [
               "Reste à savoir si nous serons prêts à changer nos propres habitudes de voyage.",
               "Voilà, c'est tout pour moi.",
@@ -807,7 +807,7 @@ export const FR_C2_U14: Lesson[] = [
               "J'espère avoir été clair, merci.",
             ],
             correctIndex: 0,
-            explanation: "An ouverture widens the debate briefly; it doesn't add a new argument or apologise.",
+            explanation: "An \"ouverture\" widens the debate briefly; it doesn't add a new argument or apologise.",
           },
         ],
       },
@@ -856,7 +856,7 @@ export const FR_C2_U14: Lesson[] = [
         sentence: "___ nous serons prêts.",
         answer: "Reste à savoir si",
         altAnswers: ["Il reste à savoir si"],
-        explanation: "\"Reste à savoir si\": a classic ouverture.",
+        explanation: "\"Reste à savoir si\": a classic \"ouverture\".",
       },
       {
         type: "fill-blank",
@@ -921,15 +921,15 @@ export const FR_C2_U14: Lesson[] = [
     level: "FR-C2",
     number: 5,
     title: "L'Art du Débat et de l'Argumentation, Part 8 of 9",
-    summary: "The conclusion and the péroraison: bilan, answer to the problématique and ouverture, the formulas that frame them, and the rhetorical climax of gradation, chiasmus and the memorable formule.",
+    summary: "The conclusion and the \"péroraison\": \"bilan\", answer to the \"problématique\" and \"ouverture\", the formulas that frame them, and the rhetorical climax of gradation, chiasmus and the memorable \"formule\".",
     duration: "19 min",
     sections: [
       {
         heading: "The written conclusion: bilan, réponse, ouverture",
         body: [
           "In a dissertation or a written synthesis, the conclusion has three parts, in this order. \"Le bilan\" sums up the path of the argument in two or three sentences (not a list of the parts). \"La réponse à la problématique\" gives a clear, nuanced answer to the question asked in the introduction; a conclusion that does not answer is the most common fault examiners note. \"L'ouverture\" widens the perspective.",
-          "The formulas: \"en définitive\", \"au terme de cette réflexion\" (at the end of this reflection), \"il apparaît que\" (it appears that, + indicative), \"nous avons pu constater que\", \"ainsi\", \"en somme\". \"En conclusion\" is acceptable but heavy; \"pour conclure\" belongs to speech. \"Reste à savoir si\" and \"on peut dès lors se demander si\" open the ouverture.",
-          "Mind the moods: \"il apparaît que\" and \"il ressort de cette analyse que\" take the indicative, because they present a result. But \"il n'est pas certain que\" in an ouverture takes the subjunctive: \"Il n'est pas certain que la loi suffise à changer les mentalités.\"",
+          "The formulas: \"en définitive\", \"au terme de cette réflexion\" (at the end of this reflection), \"il apparaît que\" (it appears that, + indicative), \"nous avons pu constater que\", \"ainsi\", \"en somme\". \"En conclusion\" is acceptable but heavy; \"pour conclure\" belongs to speech. \"Reste à savoir si\" and \"on peut dès lors se demander si\" open the \"ouverture\".",
+          "Mind the moods: \"il apparaît que\" and \"il ressort de cette analyse que\" take the indicative, because they present a result. But \"il n'est pas certain que\" in an \"ouverture\" takes the subjunctive: \"Il n'est pas certain que la loi suffise à changer les mentalités.\"",
         ],
         examples: [
           { es: "Au terme de cette réflexion, il apparaît que le télétravail est moins une révolution qu'une accélération.", en: "At the end of this reflection, it appears that remote work is less a revolution than an acceleration." },
@@ -999,7 +999,7 @@ export const FR_C2_U14: Lesson[] = [
         body: [
           "\"Le chiasme\" (chiasmus) reverses the order of two terms in parallel phrases: A B / B A. The classic is from Molière's L'Avare (1668): « Il faut manger pour vivre, et non pas vivre pour manger. » A chiasmus sounds definitive because it seems to close a circle; it is ideal for the last line of a speech: \"Il ne s'agit pas de travailler pour vivre moins bien, mais de vivre mieux pour mieux travailler.\"",
           "\"La formule\" (a memorable phrase, a sound bite) is the sentence people quote the next day. It is short, balanced and often based on antithesis or chiasmus. Pascal is the model: « Le cœur a ses raisons que la raison ne connaît point. » The same word, \"raison\", is used in two senses (reasons, reason): a pun turned into a thought. \"Avoir le sens de la formule\" is a compliment paid to good speakers and writers.",
-          "Do not overload: one chiasmus or one formula at the very end is enough. Many French speeches end with a short formula followed by a brief, conventional close: \"Je vous remercie.\" In a written conclusion, the formula can replace the ouverture if it opens the perspective.",
+          "Do not overload: one chiasmus or one formula at the very end is enough. Many French speeches end with a short formula followed by a brief, conventional close: \"Je vous remercie.\" In a written conclusion, the formula can replace the \"ouverture\" if it opens the perspective.",
         ],
         examples: [
           { es: "« Il faut manger pour vivre, et non pas vivre pour manger. »", en: "'One must eat to live, and not live to eat.' (from The Miser, 1668)" },
@@ -1085,7 +1085,7 @@ export const FR_C2_U14: Lesson[] = [
         prompt: "Put the words in order to say: One may therefore wonder whether the office still has a future.",
         words: ["On peut", "dès lors", "se demander", "si le bureau", "a encore un avenir."],
         translation: "One may therefore wonder whether the office still has a future.",
-        explanation: "\"On peut dès lors se demander si\" opens the ouverture.",
+        explanation: "\"On peut dès lors se demander si\" opens the \"ouverture\".",
       },
       {
         type: "translate",
@@ -1138,7 +1138,7 @@ export const FR_C2_U14: Lesson[] = [
     level: "FR-C2",
     number: 6,
     title: "Word Web: Le Lexique du Débat",
-    summary: "Organise the vocabulary of argument: thèse, argument, contre-argument, objection, réfutation, prémisse, conclusion, and the verbs réfuter, contester, soutenir, étayer, plaider, objecter, battre en brèche, faire valoir.",
+    summary: "Organise the vocabulary of argument: \"thèse\", \"argument\", \"contre-argument\", \"objection\", \"réfutation\", \"prémisse\", \"conclusion\", and the verbs \"réfuter\", \"contester\", \"soutenir\", \"étayer\", \"plaider\", \"objecter\", \"battre en brèche\", \"faire valoir\".",
     duration: "17 min",
     sections: [
       {
@@ -1146,7 +1146,7 @@ export const FR_C2_U14: Lesson[] = [
         body: [
           "The nouns of argument form a chain. \"Une prémisse\" (a premise) is a starting point taken as true. \"Un argument\" supports \"une thèse\" (the position). \"Une objection\" is raised against it; \"un contre-argument\" is a full argument on the other side. \"Une réfutation\" demolishes an argument; \"une conclusion\" is what follows from the premises.",
           "Distinctions that matter: \"une objection\" is a single point raised (\"soulever une objection\"); \"une réfutation\" is a demonstration that something is false (\"la réfutation de cette thèse\"). \"Un raisonnement\" is the whole chain of reasoning, \"une démonstration\" a rigorous proof, \"une argumentation\" the set of arguments you deploy. \"Un argument\" in French can also mean a summary of a plot in old texts, but not a quarrel: for a quarrel, French says \"une dispute\" or \"une querelle\".",
-          "Collocations: \"avancer un argument\", \"développer une argumentation\", \"partir d'une prémisse\", \"tirer une conclusion\", \"aboutir à une conclusion\", \"soulever / lever une objection\" (soulever = raise, lever = remove), \"se heurter à une objection\".",
+          "Collocations: \"avancer un argument\", \"développer une argumentation\", \"partir d'une prémisse\", \"tirer une conclusion\", \"aboutir à une conclusion\", \"soulever / lever une objection\" (\"soulever\" = raise, \"lever\" = remove), \"se heurter à une objection\".",
         ],
         examples: [
           { es: "Votre raisonnement part d'une prémisse fausse.", en: "Your reasoning starts from a false premise." },
@@ -1340,7 +1340,7 @@ export const FR_C2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence uses réfuter in its strict, recommended sense?",
+        question: "Which sentence uses \"réfuter\" in its strict, recommended sense?",
         options: [
           "Les chercheurs ont réfuté l'hypothèse par une série d'expériences.",
           "Le suspect a réfuté être sur place, sans preuve.",
@@ -1354,10 +1354,10 @@ export const FR_C2_U14: Lesson[] = [
         type: "multiple-choice",
         question: "« Soulever une objection » vs « lever une objection »: what is the difference?",
         options: [
-          "Soulever raises it; lever removes it.",
+          "\"Soulever\" raises it; \"lever\" removes it.",
           "They mean exactly the same.",
-          "Soulever removes it; lever raises it.",
-          "Lever is only used in court.",
+          "\"Soulever\" removes it; \"lever\" raises it.",
+          "\"Lever\" is only used in court.",
         ],
         correctIndex: 0,
         explanation: "One letter changes the meaning: \"soulever\" (raise) vs \"lever\" (lift away, remove).",
@@ -1365,7 +1365,7 @@ export const FR_C2_U14: Lesson[] = [
       {
         type: "dictation",
         audio: "Elle étaie sa thèse par des données précises.",
-        explanation: "\"Étaie\" (or \"étaye\"), from étayer: to back up.",
+        explanation: "\"Étaie\" (or \"étaye\"), from \"étayer\": to back up.",
       },
       {
         type: "speak",
@@ -1380,7 +1380,7 @@ export const FR_C2_U14: Lesson[] = [
     level: "FR-C2",
     number: 7,
     title: "L'Art du Débat et de l'Argumentation, Part 9 of 9",
-    summary: "The live debate: speaking time, the moderator's language, the débat d'entre-deux-tours as a French genre, and keeping your composure under interruption.",
+    summary: "The live debate: speaking time, the moderator's language, the \"débat d'entre-deux-tours\" as a French genre, and keeping your composure under interruption.",
     duration: "18 min",
     sections: [
       {
@@ -1573,7 +1573,7 @@ export const FR_C2_U14: Lesson[] = [
           "Tu te calmes, oui ?",
         ],
         correctIndex: 0,
-        explanation: "Turning to the audience's concerns is calm and effective; insults, threats and tu lose the room.",
+        explanation: "Turning to the audience's concerns is calm and effective; insults, threats and \"tu\" lose the room.",
       },
       {
         type: "matching",
@@ -1605,7 +1605,7 @@ export const FR_C2_U14: Lesson[] = [
     level: "FR-C2",
     number: 8,
     title: "Spiral Review: La Grammaire de l'Argumentation",
-    summary: "The grammar behind a good debate, mixed: the subjunctive after negated opinion, concessives, unreal conditionals, c'est... que clefts, dislocation and the hearsay conditional.",
+    summary: "The grammar behind a good debate, mixed: the subjunctive after negated opinion, concessives, unreal conditionals, \"c'est... que\" clefts, dislocation and the hearsay conditional.",
     duration: "18 min",
     sections: [
       {
@@ -1630,7 +1630,7 @@ export const FR_C2_U14: Lesson[] = [
             source: "I don't think this reform is fair, although it comes from good intentions.",
             answer: "Je ne crois pas que cette réforme soit juste, bien qu'elle parte d'une bonne intention.",
             altAnswers: ["Je ne pense pas que cette réforme soit juste, bien qu'elle parte d'une bonne intention.", "Je ne crois pas que cette réforme soit juste, bien qu'elle parte de bonnes intentions.", "Je ne pense pas que cette réforme soit juste, bien qu'elle parte de bonnes intentions.", "Je ne crois pas que cette réforme soit juste, quoiqu'elle parte d'une bonne intention."],
-            explanation: "Two subjunctives for two reasons: negated opinion (\"soit\") and \"bien que\" (\"parte\", from partir).",
+            explanation: "Two subjunctives for two reasons: negated opinion (\"soit\") and \"bien que\" (\"parte\", from \"partir\").",
           },
           {
             type: "fill-blank",
@@ -1823,14 +1823,14 @@ export const FR_C2_U14: Lesson[] = [
     level: "FR-C2",
     number: 9,
     title: "Mastery Vocabulary: Intensifying Collocations",
-    summary: "The adjective a native pairs with the noun: une erreur grossière, une ignorance crasse, une peur bleue, une colère noire, un échec cuisant, un succès retentissant, un refus catégorique and more.",
+    summary: "The adjective a native pairs with the noun: \"une erreur grossière\", \"une ignorance crasse\", \"une peur bleue\", \"une colère noire\", \"un échec cuisant\", \"un succès retentissant\", \"un refus catégorique\" and more.",
     duration: "17 min",
     sections: [
       {
         heading: "Errors, ignorance and failure",
         body: [
-          "A collocation is a pairing that natives make without thinking and learners rarely guess. English says a glaring error, French says \"une erreur grossière\" (gross, blatant); English says abysmal ignorance, French says \"une ignorance crasse\" (crasse literally means grime). Using \"très grande\" or \"énorme\" everywhere is correct but flat; the right collocation is what makes Mastery French sound native.",
-          "For failure: \"un échec cuisant\" (a stinging failure, from \"cuire\", to burn) and \"une défaite cuisante\"; \"un revers\" (a setback), \"un fiasco total\". For mistakes: \"une faute lourde\" (a serious misconduct, also a legal term in labour law), \"une bévue\" (a blunder), \"une erreur de jugement\".",
+          "A collocation is a pairing that natives make without thinking and learners rarely guess. English says a glaring error, French says \"une erreur grossière\" (gross, blatant); English says abysmal ignorance, French says \"une ignorance crasse\" (the noun \"crasse\" means grime). Using \"très grande\" or \"énorme\" everywhere is correct but flat; the right collocation is what makes Mastery French sound native.",
+          "For failure: \"un échec cuisant\" (a stinging failure, from \"cuire\", to burn) and \"une défaite cuisante\"; \"un revers\" (a setback), \"un fiasco total\". For mistakes: \"une faute lourde\" (serious misconduct; in labour law, the gravest category, implying intent to harm the employer), \"une bévue\" (a blunder), \"une erreur de jugement\".",
           "Some intensifiers are fixed to one noun and never move: \"une ignorance crasse\" but not \"*une erreur crasse\"; \"un échec cuisant\" but not \"*un succès cuisant\". Learn them as blocks, the way you learn a noun with its gender.",
         ],
         examples: [
@@ -1982,7 +1982,7 @@ export const FR_C2_U14: Lesson[] = [
         prompt: "Translate into French.",
         source: "Their blind faith in progress worries me.",
         answer: "Leur foi aveugle dans le progrès m'inquiète.",
-        altAnswers: ["Leur foi aveugle en le progrès m'inquiète.", "Leur confiance aveugle dans le progrès m'inquiète.", "Leur foi aveugle dans le progrès me préoccupe."],
+        altAnswers: ["Leur confiance aveugle dans le progrès m'inquiète.", "Leur foi aveugle dans le progrès me préoccupe."],
         explanation: "\"Une foi aveugle dans\" (or \"en\" before a noun without article: \"foi en l'avenir\").",
       },
       {
@@ -2061,13 +2061,13 @@ export const FR_C2_U14: Lesson[] = [
     level: "FR-C2",
     number: 10,
     title: "Vocabulary in Context: Portraits and Adjective Position",
-    summary: "Describe people with literary precision, and master the adjectives whose meaning changes with position: un grand homme / un homme grand, un ancien élève, un pauvre homme, sa propre chambre, un certain âge.",
+    summary: "Describe people with literary precision, and master the adjectives whose meaning changes with position: \"un grand homme\" / \"un homme grand\", \"un ancien élève\", \"un pauvre homme\", \"sa propre chambre\", \"un certain âge\".",
     duration: "18 min",
     sections: [
       {
         heading: "Before or after: the meaning changes",
         body: [
-          "Most French adjectives follow the noun, and a few short, common ones precede it (grand, petit, beau, bon, vieux). But a group of adjectives changes meaning with position. The rule of thumb: after the noun, the adjective has its literal, objective meaning; before it, a figurative, subjective or evaluative one.",
+          "Most French adjectives follow the noun, and a few short, common ones precede it (\"grand\", \"petit\", \"beau\", \"bon\", \"vieux\"). But a group of adjectives changes meaning with position. The rule of thumb: after the noun, the adjective has its literal, objective meaning; before it, a figurative, subjective or evaluative one.",
           "\"Un homme grand\" is tall; \"un grand homme\" is great (\"Aux grands hommes, la patrie reconnaissante\", engraved on the Panthéon). \"Un homme pauvre\" has no money; \"un pauvre homme\" is pitiable. \"Une maison ancienne\" is old; \"une ancienne maison\" is former (the house we used to have), and \"un ancien élève\" is a former pupil, an alumnus. \"Une chambre propre\" is clean; \"sa propre chambre\" is his own room.",
           "More pairs: \"un certain âge\" (a fairly advanced age, a euphemism) vs \"une chose certaine\" (a sure thing); \"un cher ami\" (dear) vs \"une robe chère\" (expensive); \"un seul homme\" (only one man) vs \"un homme seul\" (a lonely man, a man on his own); \"un brave homme\" (a decent man) vs \"un homme brave\" (brave, in literary use); \"un sale type\" (a nasty character) vs \"des mains sales\" (dirty hands).",
         ],
@@ -2087,7 +2087,7 @@ export const FR_C2_U14: Lesson[] = [
             prompt: "Translate into French.",
             source: "He's a former pupil of the school.",
             answer: "C'est un ancien élève de l'école.",
-            altAnswers: ["Il est un ancien élève de l'école.", "C'est un ancien élève de cette école.", "Il est ancien élève de l'école."],
+            altAnswers: ["C'est un ancien élève de cette école.", "Il est ancien élève de l'école."],
             explanation: "\"Ancien\" before the noun means former; after, it means old.",
           },
           {
@@ -2286,15 +2286,15 @@ export const FR_C2_U14: Lesson[] = [
 
 export const FR_C2_U14_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You took part in a university debate on the motion « Faut-il interdire les vols intérieurs quand le train met moins de quatre heures ? ». You argued in favour. Write the closing statement you would deliver (the péroraison): synthesise your points, contrast them fairly with your opponents' strongest argument, use at least two rhetorical devices (ternary rhythm, anaphora, rhetorical question, chiasmus or gradation), make a final appeal and end with an ouverture.",
+  prompt: "You took part in a university debate on the motion « Faut-il interdire les vols intérieurs quand le train met moins de quatre heures ? ». You argued in favour. Write the closing statement you would deliver (the \"péroraison\"): synthesise your points, contrast them fairly with your opponents' strongest argument, use at least two rhetorical devices (ternary rhythm, anaphora, rhetorical question, chiasmus or gradation), make a final appeal and end with an \"ouverture\".",
   minWords: 250,
   maxWords: 400,
   rubric: [
     "A real synthesis, not a list (\"au terme de ce débat\", \"en définitive\", \"il apparaît que\"), and a clear answer to the question.",
     "A fair contrast with the opponents (\"nos adversaires font valoir que\", \"c'est oublier que\", \"pour séduisant qu'il soit\") using concession with the right mood.",
     "At least two devices: a ternary rhythm or gradation, an anaphora, a rhetorical question with inversion (\"peut-on vraiment...?\"), a chiasmus or a cleft (\"c'est... que\").",
-    "A final appeal in the \"nous\" imperative or with \"je vous invite à\", and an ouverture (\"reste à savoir si\", \"au-delà de ce débat\").",
+    "A final appeal in the \"nous\" imperative or with \"je vous invite à\", and an \"ouverture\" (\"reste à savoir si\", \"au-delà de ce débat\").",
   ],
   modelAnswer: "Mesdames et Messieurs les membres du jury,\n\nAu terme de ce débat, une chose apparaît clairement : la question n'est pas de savoir si nous devons réduire les émissions du transport, mais à quel rythme et à quel prix. Nous avons montré que, sur les trajets de moins de quatre heures, le train émet jusqu'à cinquante fois moins de CO2 que l'avion ; que le temps de trajet réel, de centre-ville à centre-ville, est souvent comparable ; et que plusieurs pays européens ont déjà franchi le pas sans que leur économie s'effondre.\n\nNos adversaires font valoir que cette interdiction pénaliserait les régions enclavées et les voyageurs pressés. L'argument, pour respectable qu'il soit, ne résiste pas à l'examen des faits : la mesure ne concerne que les liaisons pour lesquelles une alternative ferroviaire existe déjà. C'est oublier, surtout, que l'inaction aussi a un coût, et que ce coût, ce sont nos enfants qui le paieront.\n\nPeut-on vraiment parler de liberté quand on hypothèque l'avenir de la génération suivante ? Interdire ces vols, ce n'est pas punir les voyageurs. Interdire ces vols, c'est investir dans le rail. Interdire ces vols, c'est enfin mettre nos actes en accord avec nos discours.\n\nIl ne s'agit pas d'adapter la planète à nos habitudes, mais d'adapter nos habitudes à la planète. Je vous invite donc à voter pour la motion : choisissons la cohérence, choisissons l'ambition, choisissons l'avenir.\n\nReste à savoir si l'État saura accompagner cette mesure d'un véritable investissement dans le réseau ferroviaire, car un train trop cher ou trop rare ne remplacera jamais un avion. C'est là, sans doute, que se jouera le prochain débat.\n\nJe vous remercie.",
-  explanation: "The péroraison opens with a synthesis (\"au terme de ce débat\", \"la question n'est pas de savoir si... mais\") and a three-part summary. The contrast is fair: \"font valoir que\", \"pour respectable qu'il soit\" with the subjunctive, \"c'est oublier que\", and a cleft (\"ce sont nos enfants qui le paieront\"). Devices: a rhetorical question with inversion (\"peut-on vraiment...?\"), an anaphora (\"Interdire ces vols, c'est...\"), a chiasmus (adapter la planète à nos habitudes / nos habitudes à la planète) and a ternary appeal in the nous imperative (\"choisissons...\"). The ouverture uses \"reste à savoir si\".",
+  explanation: "The \"péroraison\" opens with a synthesis (\"au terme de ce débat\", \"la question n'est pas de savoir si... mais\") and a three-part summary. The contrast is fair: \"font valoir que\", \"pour respectable qu'il soit\" with the subjunctive, \"c'est oublier que\", and a cleft (\"ce sont nos enfants qui le paieront\"). Devices: a rhetorical question with inversion (\"peut-on vraiment...?\"), an anaphora (\"Interdire ces vols, c'est...\"), a chiasmus (\"adapter la planète à nos habitudes\" / \"nos habitudes à la planète\") and a ternary appeal in the \"nous\" imperative (\"choisissons...\"). The \"ouverture\" uses \"reste à savoir si\".",
 };

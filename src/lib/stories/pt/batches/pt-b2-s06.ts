@@ -61,14 +61,14 @@ export const PT_B2_S06_STORIES: Story[] = [
     ],
     questions: [
       {
-        question: `What did seu Arno think of the snow made by the centre?`,
+        question: `What did seu Arno think of the snow made by the center?`,
         options: [`It was more beautiful than real snow.`, `It was not real snow, just frozen confetti.`, `It was too cold for tourists.`, `It fell at the wrong time of day.`],
         correctIndex: 1,
         explanation: `"Isso aí não é neve. É confete gelado."`,
       },
       {
         question: `What did the mayor demand that year?`,
-        options: [`That the centre close for the festival.`, `That snow fall only at weekends.`, `That Gustavo be replaced.`, `Continuous snow during the ten days of the winter festival.`],
+        options: [`That the center close for the festival.`, `That snow fall only on weekends.`, `That Gustavo be replaced.`, `Continuous snow during the ten days of the winter festival.`],
         correctIndex: 3,
         explanation: `He "exigiu que a central garantisse neve contínua durante os dez dias do festival de inverno".`,
       },
@@ -80,7 +80,7 @@ export const PT_B2_S06_STORIES: Story[] = [
       },
       {
         question: `What did Gustavo propose in his report?`,
-        options: [`Doubling the number of drones.`, `Moving the festival to another town.`, `Cutting artificial snow by half and announcing the nights without any.`, `Giving seu Arno a job at the centre.`],
+        options: [`Doubling the number of drones.`, `Moving the festival to another town.`, `Cutting artificial snow by half and announcing the nights without any.`, `Giving seu Arno a job at the center.`],
         correctIndex: 2,
         explanation: `He proposed "que a central reduzisse a neve artificial pela metade e anunciasse, com orgulho, as noites em que não haveria nenhuma".`,
       },
@@ -109,13 +109,13 @@ export const PT_B2_S06_STORIES: Story[] = [
       },
       {
         question: `What detail did Larissa notice that others had missed?`,
-        options: [`Ninety-seven minutes is the time an object in low orbit takes to go round the Earth.`, `The signal only came at night.`, `The signal was getting stronger.`, `The signal came from the sun.`],
+        options: [`Ninety-seven minutes is the time an object in low orbit takes to go around the Earth.`, `The signal only came at night.`, `The signal was getting stronger.`, `The signal came from the sun.`],
         correctIndex: 0,
         explanation: `"Noventa e sete minutos era o tempo que um objeto levaria para dar uma volta completa em torno da Terra numa órbita baixa."`,
       },
       {
         question: `Who had built SertãoSat-1?`,
-        options: [`An international space agency.`, `Engineers from São José dos Campos.`, `Larissa and her colleagues.`, `Students of a state school in Aguiar, guided by their physics teacher.`],
+        options: [`An international space agency.`, `Engineers from São José dos Campos.`, `Larissa and her colleagues.`, `Students of a public school in Aguiar, guided by their physics teacher.`],
         correctIndex: 3,
         explanation: `It "tinha sido construído por alunos de uma escola pública de Aguiar, com a orientação de um professor de física".`,
       },
@@ -131,7 +131,7 @@ export const PT_B2_S06_STORIES: Story[] = [
     slug: "pt-o-robo-que-aprendeu-forro",
     level: "PT-B2",
     title: `O robô que aprendeu forró`,
-    subtitle: `An old accordion player in Caruaru wants nothing to do with the care robot his daughter sends him, until a power cut changes things.`,
+    subtitle: `An old accordion player in Caruaru wants nothing to do with the care robot his daughter sends him, until a power outage changes things.`,
     paragraphs: [
       `Quando a filha mandou o robô de São Paulo, seu Expedito Lins, oitenta e dois anos, viúvo, ex-sanfoneiro de forró, deixou a caixa fechada no meio da sala durante uma semana inteira. “Eu não preciso de babá de lata”, disse ao telefone. Mas Juliana, que tinha medo de que o pai caísse no banheiro e ficasse dias sem ninguém saber, não aceitou a recusa. Na segunda semana, ligou para um vizinho e pediu que ele abrisse a caixa e ligasse a máquina.`,
       `O robô se chamava Lia, tinha um metro e sessenta, uma tela no lugar do rosto e uma voz tão educada que irritava. Lembrava os horários dos remédios, media a pressão, sugeria caminhadas, avisava quando a geladeira estava vazia. Seu Expedito a tratava como um fiscal da prefeitura. Respondia com monossílabos, tirava o carregador da tomada de propósito e, uma vez, chegou a trancá-la no quintal durante uma tarde inteira de chuva.`,
@@ -149,8 +149,8 @@ export const PT_B2_S06_STORIES: Story[] = [
         explanation: `She "tinha medo de que o pai caísse no banheiro e ficasse dias sem ninguém saber".`,
       },
       {
-        question: `What happened on the night of the power cut?`,
-        options: [`The robot broke down.`, `He played the accordion for the first time since his wife died.`, `He went to a party in the neighbourhood.`, `He called his daughter.`],
+        question: `What happened on the night of the power outage?`,
+        options: [`The robot broke down.`, `He played the accordion for the first time since his wife died.`, `He went to a party in the neighborhood.`, `He called his daughter.`],
         correctIndex: 1,
         explanation: `"Seu Expedito tirou a sanfona do armário pela primeira vez desde a morte da mulher."`,
       },
@@ -241,7 +241,7 @@ export const PT_B2_S06_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "demitir", en: "to fire, dismiss", forms: ["demitiu"] },
   ],
   "pt-o-sinal-de-aguiar": [
-    { es: "a caatinga", en: "dry thorny scrubland of the North-East", forms: ["caatinga"] },
+    { es: "a caatinga", en: "dry thorny scrubland of the Northeast", forms: ["caatinga"] },
     { es: "de plantão", en: "on duty", forms: ["plantão"] },
     { es: "estreito", en: "narrow", forms: ["estreito"] },
     { es: "descartar", en: "to rule out", forms: ["descartavam"] },
@@ -260,9 +260,9 @@ export const PT_B2_S06_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "a babá", en: "nanny", forms: ["babá"] },
     { es: "a lata", en: "tin can", forms: ["lata"] },
     { es: "a recusa", en: "refusal", forms: ["recusa"] },
-    { es: "a tomada", en: "power socket", forms: ["tomada"] },
+    { es: "a tomada", en: "outlet", forms: ["tomada"] },
     { es: "trancar", en: "to lock (in)", forms: ["trancá-la"] },
-    { es: "faltar luz", en: "to have a power cut", forms: ["faltou"] },
+    { es: "faltar luz", en: "to have a power outage", forms: ["faltou"] },
     { es: "coladinho", en: "cheek to cheek, very close", forms: ["coladinho"] },
     { es: "fingir", en: "to pretend", forms: ["fingiu"] },
     { es: "o arraial", en: "June festival fair", forms: ["arraial"] },
@@ -279,7 +279,7 @@ export const PT_B2_S06_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "cantarolar", en: "to hum", forms: ["cantarolar"] },
     { es: "espantar", en: "to scare away", forms: ["espantar"] },
     { es: "a cantiga de ninar", en: "lullaby", forms: ["cantiga", "ninar"] },
-    { es: "o asilo", en: "care home for the elderly", forms: ["asilo"] },
+    { es: "o asilo", en: "nursing home", forms: ["asilo"] },
     { es: "perdoar", en: "to forgive", forms: ["perdoar"] },
   ],
 };

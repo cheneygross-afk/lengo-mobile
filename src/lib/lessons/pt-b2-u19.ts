@@ -16,7 +16,7 @@ export const PT_B2_U19: Lesson[] = [
         heading: "Step 1: is there a trigger?",
         body: [
           "The indicative is the default. Facts, beliefs and statements take it: \"sei que\", \"acho que\", \"é verdade que\", \"tenho certeza de que\", \"porque\". You only leave it when something in the sentence pulls the verb out of the world of facts.",
-          "Those somethings are the triggers you already know: wanting and asking (\"quero que\", \"peço que\"), doubt and denial (\"duvido que\", \"não acho que\"), emotion (\"fico feliz que\", \"que pena que\"), judgement (\"é importante que\", \"é melhor que\"), certain conjunctions (\"para que\", \"embora\", \"antes que\", \"caso\", \"sem que\") and relatives about something you haven't found yet (\"procuro alguém que\").",
+          "Those somethings are the triggers you already know: wanting and asking (\"quero que\", \"peço que\"), doubt and denial (\"duvido que\", \"não acho que\"), emotion (\"fico feliz que\", \"que pena que\"), judgment (\"é importante que\", \"é melhor que\"), certain conjunctions (\"para que\", \"embora\", \"antes que\", \"caso\", \"sem que\") and relatives about something you haven't found yet (\"procuro alguém que\").",
           "A quick test: does the second verb describe a fact the speaker presents as real? Then indicative. Is it wished, feared, judged, doubted or not yet real? Then subjunctive.",
         ],
         examples: [
@@ -38,7 +38,7 @@ export const PT_B2_U19: Lesson[] = [
               "É melhor que vocês saíram cedo.",
             ],
             correctIndex: 0,
-            explanation: "\"É melhor que\" is a judgement, so the present subjunctive \"saiam\". Compare \"sei que vocês saem cedo\", where a fact keeps the indicative.",
+            explanation: "\"É melhor que\" is a judgment, so the present subjunctive \"saiam\". Compare \"sei que vocês saem cedo\", where a fact keeps the indicative.",
           },
           {
             type: "translate",
@@ -101,7 +101,7 @@ export const PT_B2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Quero que você saia cedo hoje.",
-            tip: "In \"saia\" the a and the i are separate: SA-ia. Don't merge it into one syllable.",
+            tip: "\"Saia\" has two syllables, SAI-a: the i glides into the final a.",
             explanation: "Different subjects, so \"quero que\" + the present subjunctive \"saia\".",
           },
         ],
@@ -214,7 +214,7 @@ export const PT_B2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're organising a party. How do you say: Whoever wants to can bring a friend?",
+        question: "You're organizing a party. How do you say: Whoever wants to can bring a friend?",
         options: [
           "Quem quiser pode trazer um amigo.",
           "Quem quer pode trazer um amigo.",
@@ -240,8 +240,8 @@ export const PT_B2_U19: Lesson[] = [
         type: "speak",
         text: "Eu sei que você está cansado, mas é importante que você venha.",
         prompt: "Say it in Portuguese: I know you're tired, but it's important that you come.",
-        tip: "In \"importante\" the te sounds like chee in casual Brazilian speech: im-por-TAN-chee.",
-        explanation: "\"Sei que\" keeps the indicative \"está\"; \"é importante que\" is a judgement and takes \"venha\".",
+        tip: "In most of Brazil the final te of \"importante\" sounds like chee: im-por-TAN-tchi.",
+        explanation: "\"Sei que\" keeps the indicative \"está\"; \"é importante que\" is a judgment and takes \"venha\".",
       },
     ],
   },
@@ -379,7 +379,7 @@ export const PT_B2_U19: Lesson[] = [
           {
             type: "speak",
             text: "É melhor vocês irem de metrô.",
-            tip: "Link \"vocês irem\" smoothly: vo-SEI-zi-rem, with the s turning into a z before the vowel.",
+            tip: "Link \"vocês irem\" smoothly: vo-SÊ-ZI-rem; the final s of vocês joins irem as a z.",
             explanation: "The personal infinitive \"vocês irem\" after \"é melhor\": light, natural and tense-free.",
           },
         ],
@@ -522,7 +522,7 @@ export const PT_B2_U19: Lesson[] = [
           { es: "Quando chego em casa, tomo banho.", en: "When I get home, I take a shower." },
           { es: "Quando chove, o trânsito de São Paulo para.", en: "When it rains, São Paulo's traffic stops." },
           { es: "Quando cheguei, ela já tinha saído.", en: "When I arrived, she'd already left." },
-          { es: "Quando eu era criança, passava as férias em Fortaleza.", en: "When I was a kid, I spent the holidays in Fortaleza." },
+          { es: "Quando eu era criança, passava as férias em Fortaleza.", en: "When I was a kid, I spent my vacations in Fortaleza." },
           { es: "Quando minha avó cozinhava, a casa toda ficava cheirosa.", en: "When my grandmother cooked, the whole house smelled good." },
         ],
         checkpoint: [
@@ -619,7 +619,7 @@ export const PT_B2_U19: Lesson[] = [
           "\"Sempre que\" + future subjunctive is a promise or instruction (\"sempre que precisar, pode me chamar\"), while \"sempre que\" + present describes your routine. \"Enquanto\" + imperfeito sets a past background: \"enquanto eu cozinhava, ele arrumava a mesa\".",
         ],
         examples: [
-          { es: "Sempre que posso, vou à praia no fim de semana.", en: "Whenever I can, I go to the beach at the weekend." },
+          { es: "Sempre que posso, vou à praia no fim de semana.", en: "Whenever I can, I go to the beach on the weekend." },
           { es: "Sempre que precisar, pode me chamar.", en: "Whenever you need to, you can call me." },
           { es: "Assim que ele chegou, o jantar foi servido.", en: "As soon as he arrived, dinner was served." },
           { es: "Assim que eu souber o resultado, te aviso.", en: "As soon as I know the result, I'll let you know." },
@@ -637,7 +637,7 @@ export const PT_B2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Assim que eu souber o resultado, te aviso.",
-            tip: "\"Souber\" has a closed ou, almost an o: so-BER, with a soft final r.",
+            tip: "\"Souber\": the ou sounds like a closed o, and the e is open: so-BÉR, with a soft final r.",
             explanation: "\"Assim que\" + the future subjunctive of \"saber\": \"souber\", from \"souberam\".",
           },
         ],
@@ -664,7 +664,7 @@ export const PT_B2_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into Portuguese.",
-        source: "When I was a teenager, I played football every day.",
+        source: "When I was a teenager, I played soccer every day.",
         answer: "Quando eu era adolescente, jogava futebol todo dia.",
         altAnswers: [
           "Quando eu era adolescente, eu jogava futebol todo dia.",
@@ -899,7 +899,7 @@ export const PT_B2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Se ela tivesse vindo, teria conhecido o noivo.",
-            tip: "Keep the ss in \"tivesse\" a clear s, and the stress on the i of \"teria\": te-RI-a.",
+            tip: "Keep the ss in \"tivesse\" a clear s: tchi-VÊ-si VIN-du. Stress the i of \"teria\": te-RI-a ko-nhe-SI-du.",
             explanation: "A past unreal condition: \"tivesse vindo\" + \"teria conhecido\".",
           },
         ],
@@ -1020,7 +1020,7 @@ export const PT_B2_U19: Lesson[] = [
         type: "speak",
         text: "Se chover, a gente muda a festa para o salão.",
         prompt: "Say it in Portuguese: If it rains, we'll move the party to the hall.",
-        tip: "\"Chover\" ends in a soft r; in many accents it almost disappears: cho-VEH.",
+        tip: "\"Chover\": the ch is English sh, and the final r is soft; in many accents it almost disappears: sho-VÊ.",
         explanation: "A likely future: \"se\" + the future subjunctive \"chover\", then the present for the plan.",
       },
     ],
@@ -1195,7 +1195,7 @@ export const PT_B2_U19: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Portuguese for the bold words.",
-        en: "It's not true that the wedding [was] cancelled.",
+        en: "It's not true that the wedding [was] canceled.",
         sentence: "Não é verdade que o casamento ___ cancelado.",
         answer: "tenha sido",
         altAnswers: ["foi"],
@@ -1203,7 +1203,7 @@ export const PT_B2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You're sure the shop closes at six. What do you say?",
+        question: "You're sure the store closes at six. What do you say?",
         options: [
           "Tenho certeza de que a loja fecha às seis.",
           "Tenho certeza de que a loja feche às seis.",
@@ -1373,7 +1373,7 @@ export const PT_B2_U19: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into Portuguese.",
-            source: "It might be that the shop is closed.",
+            source: "It might be that the store is closed.",
             answer: "Pode ser que a loja esteja fechada.",
             altAnswers: ["Pode ser que a loja esteja fechada hoje.", "É possível que a loja esteja fechada."],
             explanation: "\"Pode ser que\" takes the subjunctive: \"esteja fechada\".",
@@ -1396,7 +1396,7 @@ export const PT_B2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Pode ser que chova à tarde.",
-            tip: "\"Chova\" has an open o: CHÓ-va.",
+            tip: "\"Chova\" has an open o: SHÓ-va.",
             explanation: "\"Pode ser que\" + the present subjunctive \"chova\".",
           },
         ],
@@ -1510,7 +1510,7 @@ export const PT_B2_U19: Lesson[] = [
         type: "speak",
         text: "Talvez eu chegue um pouco atrasado.",
         prompt: "Say it in Portuguese: I might arrive a bit late. (as a man)",
-        tip: "\"Chegue\": the u is silent, so it sounds like SHEH-gee.",
+        tip: "\"Chegue\": the u is silent, so it sounds like SHÊ-gui, with a hard g as in get.",
         explanation: "\"Talvez\" first, so the present subjunctive \"chegue\".",
       },
     ],
@@ -1632,7 +1632,7 @@ export const PT_B2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Pode pedir o que você quiser.",
-            tip: "\"Quiser\": the u is silent, so it's ki-ZER.",
+            tip: "\"Quiser\": the u is silent and the e is open, so it's ki-ZÉR.",
             explanation: "\"O que\" + the future subjunctive \"quiser\": an open choice.",
           },
         ],
@@ -1734,7 +1734,7 @@ export const PT_B2_U19: Lesson[] = [
         type: "speak",
         text: "Quem chegar primeiro escolhe o lugar.",
         prompt: "Say it in Portuguese: Whoever arrives first picks the spot.",
-        tip: "\"Escolhe\": the lh is like the lli in million, es-KO-lhee.",
+        tip: "\"Escolhe\": the lh is like the lli in million, and the o is open: is-KÓ-lhi.",
         explanation: "\"Quem\" + future subjunctive \"chegar\", then the present for the rule.",
       },
     ],
@@ -1981,7 +1981,7 @@ export const PT_B2_U19: Lesson[] = [
           "Brazilian families plan out loud and overlap a lot, so the replies are short. \"Imagina!\" means don't be silly, and \"tá\" is the spoken \"está\".",
         ],
         examples: [
-          { es: "Juliana: Mãe, eu quero que a festa seja simples. Nada de quinhentos convidados.", en: "Juliana: Mum, I want the party to be simple. None of this five hundred guests business." },
+          { es: "Juliana: Mãe, eu quero que a festa seja simples. Nada de quinhentos convidados.", en: "Juliana: Mom, I want the party to be simple. None of this five hundred guests business." },
           { es: "Dona Célia: Simples, tudo bem, mas é importante que a família toda venha.", en: "Dona Célia: Simple, fine, but it's important that the whole family comes." },
           { es: "Juliana: Eu prefiro fazer só para os mais próximos.", en: "Juliana: I'd rather do it just for the closest people." },
           { es: "Rafael: Eu acho que cem pessoas tá ótimo.", en: "Rafael: I think a hundred people is perfect." },
@@ -2026,7 +2026,7 @@ export const PT_B2_U19: Lesson[] = [
           { es: "Rafael: E se chover? Outubro em Goiás já é época de chuva.", en: "Rafael: And what if it rains? October in Goiás is already the rainy season." },
           { es: "Juliana: Se chover, a gente muda para o salão. A chácara tem um coberto.", en: "Juliana: If it rains, we'll move to the hall. The farm has a covered area." },
           { es: "Dona Célia: Embora eu prefira igreja, vou respeitar a sua escolha.", en: "Dona Célia: Even though I'd prefer a church, I'll respect your choice." },
-          { es: "Juliana: Obrigada, mãe. Eu sabia que você ia entender.", en: "Juliana: Thanks, Mum. I knew you'd understand." },
+          { es: "Juliana: Obrigada, mãe. Eu sabia que você ia entender.", en: "Juliana: Thanks, Mom. I knew you'd understand." },
           { es: "Rafael: Talvez a tia Lúcia não goste muito da ideia.", en: "Rafael: Aunt Lúcia might not like the idea much." },
         ],
         checkpoint: [
@@ -2205,7 +2205,7 @@ export const PT_B2_U19: Lesson[] = [
         type: "speak",
         text: "Embora eu prefira igreja, vou respeitar a sua escolha.",
         prompt: "Say it in Portuguese: Even though I'd prefer a church, I'll respect your choice.",
-        tip: "\"Igreja\": the j is like the s in pleasure, i-GRE-ja.",
+        tip: "\"Igreja\": the j is like the s in pleasure, i-GRÊ-ja.",
         explanation: "\"Embora\" + present subjunctive \"prefira\".",
       },
     ],
@@ -2229,8 +2229,8 @@ export const PT_B2_U19: Lesson[] = [
         examples: [
           { es: "Espero que você venha amanhã.", en: "I hope you come tomorrow." },
           { es: "Talvez ele venha mais tarde.", en: "Maybe he'll come later." },
-          { es: "Acho que ele está doente.", en: "I think he's ill." },
-          { es: "Não acho que ele esteja doente.", en: "I don't think he's ill." },
+          { es: "Acho que ele está doente.", en: "I think he's sick." },
+          { es: "Não acho que ele esteja doente.", en: "I don't think he's sick." },
         ],
         checkpoint: [
           {
@@ -2551,7 +2551,7 @@ export const PT_B2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Falei devagar para eles entenderem.",
-            tip: "Run \"para eles\" together in speech: pa-RE-lis.",
+            tip: "Run \"para eles\" together in speech: pa-RÊ-lis.",
             explanation: "The personal infinitive \"eles entenderem\" with no tense to choose.",
           },
         ],
@@ -2670,7 +2670,7 @@ export const PT_B2_U19: Lesson[] = [
           "No labels this time. For each sentence, ask the three questions: is there a trigger, is the subject the same, and what time does it point to?",
         ],
         examples: [
-          { es: "Meu irmão acha que a reunião vai ser cancelada.", en: "My brother thinks the meeting will be cancelled." },
+          { es: "Meu irmão acha que a reunião vai ser cancelada.", en: "My brother thinks the meeting will be canceled." },
           { es: "O chefe quer que a gente apresente o projeto na segunda.", en: "The boss wants us to present the project on Monday." },
           { es: "É possível que o voo tenha atrasado.", en: "It's possible the flight was delayed." },
           { es: "Não imaginei que fosse tão caro.", en: "I didn't imagine it would be so expensive." },
@@ -2710,7 +2710,7 @@ export const PT_B2_U19: Lesson[] = [
           "These mix \"quando\", \"se\", conjunctions and relatives. Watch for one future event (the future subjunctive) and for people or things that may not exist.",
         ],
         examples: [
-          { es: "Quando a obra terminar, a gente faz um churrasco.", en: "When the building work is finished, we'll have a barbecue." },
+          { es: "Quando a obra terminar, a gente faz um churrasco.", en: "When the construction work is finished, we'll have a barbecue." },
           { es: "Se eu soubesse cozinhar, faria o bolo do casamento.", en: "If I knew how to cook, I'd make the wedding cake." },
           { es: "Precisamos de um advogado que entenda de contratos.", en: "We need a lawyer who understands contracts." },
           { es: "Vou deixar o carro para vocês voltarem mais tarde.", en: "I'll leave the car so you can come back later." },
@@ -2756,7 +2756,7 @@ export const PT_B2_U19: Lesson[] = [
           { es: "A professora pediu que a gente lesse o capítulo inteiro.", en: "The teacher asked us to read the whole chapter." },
           { es: "Eu queria que você tivesse conhecido a minha avó.", en: "I wish you'd met my grandmother." },
           { es: "Ele saiu sem que ninguém percebesse.", en: "He left without anyone noticing." },
-          { es: "Se a gente tivesse reservado antes, teria conseguido mesa.", en: "If we'd booked earlier, we'd have got a table." },
+          { es: "Se a gente tivesse reservado antes, teria conseguido mesa.", en: "If we'd booked earlier, we'd have gotten a table." },
         ],
         checkpoint: [
           {
@@ -2900,7 +2900,7 @@ export const PT_B2_U19: Lesson[] = [
       {
         type: "speak",
         text: "Duvido que eles tenham terminado a obra.",
-        prompt: "Say it in Portuguese: I doubt they've finished the building work.",
+        prompt: "Say it in Portuguese: I doubt they've finished the construction work.",
         tip: "\"Obra\" has an open o: Ó-bra.",
         explanation: "A present doubt about a finished action: \"tenham terminado\".",
       },
@@ -2910,7 +2910,7 @@ export const PT_B2_U19: Lesson[] = [
 
 export const PT_B2_U19_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your grandparents are celebrating their 50th wedding anniversary, and you're organising a surprise party. Write a message to the family WhatsApp group. Say what kind of party you want and what you'd like each person to do, what happens if something goes wrong (rain, the grandparents finding out), what you doubt or aren't sure about, and what guests can bring. Mention one thing you wish had been done differently at the last family party.",
+  prompt: "Your grandparents are celebrating their 50th wedding anniversary, and you're organizing a surprise party. Write a message to the family WhatsApp group. Say what kind of party you want and what you'd like each person to do, what happens if something goes wrong (rain, the grandparents finding out), what you doubt or aren't sure about, and what guests can bring. Mention one thing you wish had been done differently at the last family party.",
   minWords: 130,
   maxWords: 200,
   rubric: [

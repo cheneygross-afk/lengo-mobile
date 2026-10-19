@@ -92,7 +92,7 @@ export const FR_C2_S08_STORIES: Story[] = [
     slug: "fr-c2-trois-lettres",
     level: "FR-C2",
     title: `Trois lettres`,
-    subtitle: `A juror at the assize court in Rennes must decide, by her inner conviction alone, the fate of a nurse who helped his dying mother end her life.`,
+    subtitle: `A juror at the assize court in Rennes must decide, by her inner conviction alone, the fate of a nurse who helped his own dying mother end her life.`,
     paragraphs: [
       `Nadia Benali, quarante-quatre ans, expert-comptable à Vitré, avait reçu en janvier une lettre recommandée qui l'informait qu'elle avait été tirée au sort pour siéger comme jurée à la cour d'assises d'Ille-et-Vilaine. Elle avait d'abord cherché un motif de dispense, n'en avait trouvé aucun, et s'était présentée un lundi matin au palais du Parlement de Bretagne, à Rennes, avec la vague appréhension de quelqu'un qu'on convoque à un examen dont il ignore la matière.`,
       `L'affaire était de celles qui divisent les dîners de famille. Thierry Le Bihan, cinquante-deux ans, infirmier, était accusé d'avoir donné la mort à sa mère, atteinte d'une maladie neurodégénérative au stade terminal, en lui administrant une dose massive de morphine. Il ne niait rien. Il expliquait qu'elle le lui avait demandé, des dizaines de fois, tant qu'elle pouvait encore parler, puis par des clignements d'yeux quand elle ne le pouvait plus. Le parquet requérait une condamnation pour assassinat, tout en laissant entendre, dans un réquisitoire d'une prudence remarquable, que la cour saurait mesurer la peine.`,
