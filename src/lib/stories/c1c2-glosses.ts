@@ -89,7 +89,7 @@ export const C1C2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "minado", en: "weakened", forms: ["minado"] },
     { es: "la morfina", en: "morphine", forms: ["morfina"] },
     { es: "la morriña", en: "homesickness", forms: ["morriña"] },
-    { es: "neoyorquino", en: "New York", forms: ["neoyorquino"] },
+    { es: "neoyorquino", en: "New York (adj.), New Yorker", forms: ["neoyorquino"] },
     { es: "la residencia", en: "nursing home", forms: ["residencia"] },
     { es: "el rostro", en: "face", forms: ["rostro"] },
   ],
@@ -889,7 +889,7 @@ export const C1C2_STORY_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "prever", en: "to provide for (of a law); to foresee", forms: ["preveía"] },
   ],
   "the-taste-of-exile": [
-    { es: "la caraota", en: "black bean", forms: ["caraotas"] },
+    { es: "la caraota", en: "bean (Venezuela)", forms: ["caraotas"] },
     { es: "venezolano", en: "Venezuelan", forms: ["venezolana", "venezolanos"] },
     { es: "el escalofrío", en: "shiver", forms: ["escalofrío"] },
     { es: "el exilio", en: "exile", forms: ["exilio"] },

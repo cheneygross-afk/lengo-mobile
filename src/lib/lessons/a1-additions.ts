@@ -388,7 +388,7 @@ export const A1_ADDITIONS: AnchoredLesson[] = [
         ],
         "The Spanish week runs lunes to domingo."
       ),
-      fb("Complete.", "Hoy es el veinte ___ abril.", "de", "El + number + de + month."),
+      fb("Complete.", "Hoy es el veinte ___ abril.", "de", "Spanish dates put the day first and link it to the month with de: el veinte de abril. Don't leave out de."),
       fb("Complete.", "No tengo clase ___ domingos.", "los", "Los + day means every week: los domingos = on Sundays. El domingo would mean one particular Sunday."),
       mc("How do you write \"July 4\" in Spanish?", ["el cuatro de julio", "julio cuatro", "el julio cuatro", "el cuatro julio"], 0, "Spanish dates put the day first, then de + month: el cuatro de julio. \"Julio cuatro\" and \"el julio cuatro\" copy English order, and \"el cuatro julio\" is missing de."),
       mc("Which is written correctly?", ["El lunes tengo un examen.", "El Lunes tengo un examen.", "En lunes tengo un examen.", "El lunes tengo un examen en Mayo."], 0, "Days and months are lowercase in Spanish, and a day takes el with no preposition: el lunes. \"El Lunes\" and \"Mayo\" wrongly use capitals, and \"En lunes\" adds a preposition Spanish doesn't use."),

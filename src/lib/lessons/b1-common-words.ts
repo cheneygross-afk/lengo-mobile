@@ -202,7 +202,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
         ],
         [
           ["La policía tiene un sospechoso, pero no tiene pruebas.", "The police have a suspect, but they don't have any evidence."],
-          ["Es muy sospechoso que nadie viera nada.", "It's very suspicious that nobody saw anything."],
+          ["Es muy sospechoso que nadie sepa nada.", "It's very suspicious that nobody knows anything."],
           ["El detective encontró una pista importante en el coche.", "The detective found an important clue in the car."],
           ["El mensaje estaba escrito en un código secreto.", "The message was written in a secret code."],
           ["La búsqueda del niño desaparecido duró dos días.", "The search for the missing boy lasted two days."],
@@ -366,7 +366,7 @@ export const B1_COMMON_WORDS: AnchoredLesson[] = [
       toEn("En la leyenda, el diablo le ofrece dinero a un pobre hombre.", "In the legend, the devil offers money to a poor man.", "El diablo = the devil; «le ofrece» anticipa «a un pobre hombre».", ["In the legend, the devil offers a poor man money."]),
       toEn("La niña dibujó un ángel y un monstruo.", "The girl drew an angel and a monster.", "Un ángel, un monstruo: los dos son masculinos.", ["The little girl drew an angel and a monster."]),
       wo("El monstruo del lago es solo una leyenda.", "Del = de + el.", "The lake monster is just a legend."),
-      wo("Mi hermano pequeño es un demonio cuando tiene hambre.", "Ser un demonio = portarse muy mal (en broma).", "My little brother is a little devil when he's hungry."),
+      wo("Mi hermano pequeño es un demonio cuando tiene hambre.", "Ser un demonio = portarse muy mal (en broma).", "My little brother is a real devil when he's hungry."),
     ]
   ),
   anchored(

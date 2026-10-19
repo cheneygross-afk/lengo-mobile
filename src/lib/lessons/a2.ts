@@ -2428,7 +2428,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "to probe"
         ],
         "correctIndex": 1,
-        "explanation": "Probarse (reflexive) means to try on clothes. To prove is demostrar, to taste is probar (not reflexive), and to probe is investigar."
+        "explanation": "Probarse (reflexive) means to try on clothes. To prove is demostrar (or probar, without se), to taste is probar (not reflexive), and to probe is investigar."
       },
       {
         "type": "matching",
@@ -2598,9 +2598,9 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Choose the correct pronoun.",
-        "sentence": "¿___ prestas tu carro a mí?",
+        "sentence": "¿___ prestas tu carro?",
         "answer": "Me",
-        "explanation": "A mí matches the pronoun me."
+        "explanation": "To me → me, before the verb. Adding a mí is only for emphasis."
       },
       {
         "type": "multiple-choice",
@@ -2921,7 +2921,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Which verb means to brush or comb your hair (cepillarse el pelo)?",
+            "question": "Which verb means to comb your hair?",
             "options": [
               "peinarse",
               "afeitarse",
@@ -6650,9 +6650,9 @@ const A2_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "Irregulars: decir, traer and -ucir verbs",
+        "heading": "Irregulars: decir, traer and -ducir verbs",
         "body": [
-          "Decir, traer and verbs ending in -ucir take -eron instead of -ieron in the ellos/ellas/ustedes form: dijeron, trajeron, tradujeron."
+          "Decir, traer and verbs ending in -ducir take -eron instead of -ieron in the ellos/ellas/ustedes form: dijeron, trajeron, tradujeron."
         ],
         "examples": [
           {
@@ -8227,7 +8227,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Translate to Spanish.",
-        "source": "Call me tonight!",
+        "source": "Call me tonight! (tú)",
         "answer": "¡Llámame esta noche!",
         "explanation": "In affirmative commands, the pronoun attaches to the end of the verb: llámame."
       },
@@ -9744,7 +9744,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "type": "translate",
         "direction": "en-es",
         "prompt": "Translate to Spanish.",
-        "source": "I will call you as soon as I arrive.",
+        "source": "I will call you (tú) as soon as I arrive.",
         "answer": "Te llamaré en cuanto llegue.",
         "altAnswers": ["Te llamaré tan pronto como llegue.", "Te llamaré apenas llegue."],
         "explanation": "Llamaré is the simple future of llamar. After en cuanto with a future meaning, Spanish uses the subjunctive (llegue); learn en cuanto llegue as a chunk for now."
@@ -11999,7 +11999,7 @@ const A2_BASE_LESSONS: Lesson[] = [
     "level": "A2",
     "number": 62,
     "title": "Elementary Vocabulary Practice, Part 4 of 5",
-    "summary": "Review the 60 words from the Body & Daily Routine and Clothing & Sizes vocabulary lists.",
+    "summary": "Review the 60 words from the Body & Daily Routine and Clothing & Sizes vocabulary lists, plus a few words from earlier themes.",
     "duration": "10 min",
     "sections": [
       {
@@ -12968,7 +12968,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "menos joven"
         ],
         "correctIndex": 1,
-        "explanation": "Mayor is an irregular comparative. For people's age, older is mayor. \"Más viejo\" exists but sounds blunt, \"más grande\" is bigger, and \"menos joven\" means less young."
+        "explanation": "Mayor is an irregular comparative. For people's age, older is mayor. \"Más viejo\" exists but sounds blunt, \"más grande\" usually means bigger (in much of Latin America it is also heard for older), and \"menos joven\" means less young."
       },
       {
         "type": "fill-blank",
@@ -13629,7 +13629,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Cuando el grupo entra en la sala de dinosaurios, Bruno se queda mirando un esqueleto enorme. Es el más grande que ha visto en su vida. Lee cada palabra del cartel y no se da cuenta de que su clase ya sale de la sala.",
           "Unos minutos después, Bruno mira a su alrededor y no ve a nadie de su clase. Empieza a sentirse un poco asustado. Camina por varios pasillos, pero no encuentra a sus compañeros ni a su profesor.",
           "Una guía del museo, llamada Marisol, ve a Bruno solo cerca de la sala de arte. \"¿Estás perdido?\", le pregunta con voz amable. Bruno le explica que perdió a su clase mientras miraba los dinosaurios.",
-          "Marisol saca su radio y habla con otros trabajadores del museo. \"Tenemos un estudiante perdido de la escuela San Martín\", dice. Mientras esperan noticias, Marisol le muestra a Bruno una sala con objetos de Egipto antiguo para calmarlo.",
+          "Marisol saca su radio y habla con otros trabajadores del museo. \"Tenemos un estudiante perdido de la escuela San Martín\", dice. Mientras esperan noticias, Marisol le muestra a Bruno una sala con objetos del antiguo Egipto para calmarlo.",
           "Después de diez minutos, otro trabajador encuentra al señor Fernández, que está buscando a Bruno con mucha preocupación. El profesor corre hacia la sala de Egipto y abraza a Bruno con alivio. \"¡No puedes separarte del grupo así!\", le dice, pero también está feliz de encontrarlo.",
           "Bruno le da las gracias a Marisol por su ayuda y le pregunta sobre los dinosaurios. Marisol le cuenta datos interesantes sobre el esqueleto que él estaba mirando. Bruno escucha con mucha atención y hace muchas preguntas más.",
           "Durante el resto de la visita, Bruno camina siempre cerca de su profesor. En el autobús de regreso a la escuela, les cuenta a sus amigos toda la aventura. \"Me perdí, pero conocí a una guía muy simpática que sabe todo sobre dinosaurios\", dice con una sonrisa."
@@ -13671,7 +13671,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "He sends Bruno home"
         ],
         "correctIndex": 1,
-        "explanation": "\"abraza a Bruno con alivio... pero también está feliz de encontrarlo\" — he hugs Bruno with relief and is happy to find him, while also warning him."
+        "explanation": "\"abraza a Bruno con alivio\" and tells him \"¡No puedes separarte del grupo así!\" — he hugs Bruno with relief but also warns him not to wander off from the group."
       }
     ]
   },
@@ -15075,7 +15075,7 @@ const A2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Lectura",
         "body": [
-          "En la cena de Navidad, la abuela de Paula preparó un plato nuevo con camarones. Paula nunca comía camarones en casa, así que quería probarlos.",
+          "En la cena de Navidad, la abuela de Paula preparó un plato nuevo con camarones. Paula nunca había comido camarones, así que quería probarlos.",
           "Después de comer unos camarones, Paula sintió que la boca le picaba un poco. Unos minutos después, le salieron manchas rojas en el cuello y los brazos. Le costaba respirar bien.",
           "Su papá vio las manchas y se asustó mucho. \"Vamos al hospital ahora mismo\", dijo, y todos salieron rápido de la casa. En el carro, Paula tenía miedo porque nunca se había sentido así.",
           "En el hospital, un doctor le dio una medicina rápidamente para bajar la reacción. Poco a poco, la picazón desapareció y Paula pudo respirar mejor. El doctor le explicó que era alérgica a los mariscos.",
@@ -15224,7 +15224,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Sofía recibía dos dólares cada semana por ayudar en casa. En vez de gastar el dinero en dulces, decidió guardarlo en una alcancía en forma de cerdo. Quería comprarle un regalo especial a su papá.",
           "El cumpleaños de su papá era dentro de tres meses, y Sofía calculó cuánto dinero necesitaba. Vio en una tienda una gorra de su equipo de fútbol favorito por veinte dólares. Empezó a ahorrar con mucha disciplina.",
           "Cada semana, Sofía ponía su dinero en la alcancía y la agitaba para escuchar las monedas. A veces quería comprar chicles o revistas, pero se controlaba. \"Es para mi papá\", se decía a sí misma.",
-          "Un mes antes del cumpleaños, Sofía contó todo el dinero de la alcancía. Tenía dieciséis dólares, todavía no era suficiente. Le pidió a su mamá trabajo extra para ganar más dinero.",
+          "Un mes antes del cumpleaños, Sofía contó todo el dinero de la alcancía. Tenía dieciséis dólares, pero todavía no era suficiente. Le pidió a su mamá trabajo extra para ganar más dinero.",
           "Su mamá le pagó por ayudar a organizar el garaje durante dos sábados. Con ese dinero extra, Sofía por fin llegó a los veinte dólares. Se sintió muy orgullosa de su esfuerzo.",
           "El día antes del cumpleaños, Sofía fue a la tienda con su mamá. Compró la gorra y pidió que la envolvieran en papel de regalo azul. Caminó a casa con una sonrisa enorme.",
           "El día del cumpleaños, Sofía le dio el regalo a su papá después de la cena. Él abrió la caja despacio y vio la gorra de su equipo favorito. \"¿Cómo pagaste esto?\" preguntó, muy sorprendido.",
@@ -16098,7 +16098,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Ese verano, la mamá de Sofía decidió inscribirla en clases de natación. Sofía no quería ir. —No me gusta el agua —le dijo a su mamá—. Tengo miedo.",
           "El primer día de clase, Sofía conoció a su instructora, la señorita Laura. La instructora era muy paciente y le explicó que iban a empezar despacio, en la parte poco profunda de la piscina.",
           "Durante las primeras clases, Sofía solo practicaba cómo poner la cara en el agua y cómo mover los brazos. No entraba en la parte profunda. Poco a poco, se sentía más segura.",
-          "Después de dos semanas, la señorita Laura le dijo: —Hoy vamos a nadar juntas hasta el otro lado de la piscina. —Sofía tenía miedo, pero confiaba en su instructora.",
+          "Después de dos semanas, la señorita Laura le dijo: —Hoy vas a nadar sola hasta el otro lado de la piscina. Yo voy a estar a tu lado. —Sofía tenía miedo, pero confiaba en su instructora.",
           "Sofía respiró profundamente y empezó a nadar. Movió los brazos y las piernas como en sus clases. Cuando llegó al otro lado, no lo podía creer. Nadó sola por primera vez.",
           "Al final del verano, Sofía ya nadaba mejor que muchas de sus amigas. Ahora le encantaba ir a la piscina todos los días. Su miedo al agua desapareció completamente."
         ]
@@ -16172,7 +16172,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Pablo se detuvo por un segundo, muy avergonzado. Rosa, que esperaba el bastón, le gritó: —¡No pasa nada, Pablo! ¡Recógelo y sigue corriendo! —Pablo tomó el bastón otra vez y corrió más rápido que antes.",
           "Rosa recibió el bastón y corrió su parte con mucha energía. Después, le pasó el bastón a Iván, el corredor más rápido del equipo. Iván corrió con todas sus fuerzas hasta la línea de meta.",
           "Los Rápidos terminaron en tercer lugar, no en primer lugar. Pablo estaba triste por el error con el bastón y pensaba que la culpa era suya.",
-          "Pero sus compañeros no estaban enojados. —Corriste muy bien después de la caída —le dijo Ana—. El tercer lugar es un premio también. —Pablo sonrió, y todos celebraron juntos con un abrazo grupal."
+          "Pero sus compañeros no estaban enojados. —Corriste muy bien después de dejar caer el bastón —le dijo Ana—. El tercer lugar es un premio también. —Pablo sonrió, y todos celebraron juntos con un abrazo grupal."
         ]
       }
     ],
@@ -16527,7 +16527,7 @@ const A2_BASE_LESSONS: Lesson[] = [
         "heading": "Lectura",
         "body": [
           "Leo recibió una consola de videojuegos nueva como regalo. Estaba muy emocionado porque el juego más popular de la escuela era «Aventura Espacial», un juego de dos jugadores. Invitó a su mejor amigo, Sam, a jugar en su casa.",
-          "Cuando Sam llegó, los dos niños empezaron a jugar juntos. Al principio, Leo quería jugar solo con el mejor control, el nuevo. Le dio a Sam el control viejo, que no funcionaba muy bien.",
+          "Cuando Sam llegó, los dos niños empezaron a jugar juntos. Al principio, Leo quería quedarse con el mejor control, el nuevo. Le dio a Sam el control viejo, que no funcionaba muy bien.",
           "Sam se sintió un poco mal, pero no dijo nada al principio. Después de media hora, Sam perdió el juego varias veces porque su control no respondía bien. —Este control es difícil de usar —le dijo a Leo, un poco frustrado.",
           "Leo se dio cuenta de que estaba siendo egoísta con su mejor amigo. Pensó un momento y comprendió que la situación no era justa. Decidió cambiar los controles.",
           "—Toma, usa el control nuevo —le dijo Leo a Sam—. Es más justo si compartimos. —Sam sonrió y aceptó el control nuevo con gusto.",
@@ -16675,7 +16675,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Su hermana mayor, Carla, le mostró un juego de computadora para practicar mecanografía. En el juego, las palabras caían desde arriba de la pantalla. Si Óscar no escribía la palabra a tiempo, la palabra caía al suelo y él perdía un punto.",
           "Óscar practicó con el juego todos los días durante veinte minutos. Al principio, perdía el juego rápidamente porque las palabras caían muy rápido para él. Pero con la práctica, empezó a mejorar poco a poco.",
           "Después de dos semanas, Óscar ya no necesitaba mirar el teclado tanto. Sus dedos recordaban dónde estaban las letras. También escribía más palabras por minuto que antes.",
-          "El día de la prueba, el maestro les dio un texto para escribir en cinco minutos. Óscar escribió con confianza, sin mirar el teclado casi nunca. Terminó el texto completo con dos minutos de sobra.",
+          "El día de la prueba, el maestro les dio un texto para escribir en cinco minutos. Óscar escribió con confianza, casi sin mirar el teclado. Terminó el texto completo con dos minutos de sobra.",
           "Cuando el maestro anunció los resultados, Óscar se sorprendió: escribía casi tan rápido como los mejores estudiantes de la clase. Estaba muy orgulloso de su progreso y decidió seguir practicando con el juego de su hermana."
         ]
       }
@@ -16961,7 +16961,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "Ximena jugaba vóleibol en el equipo de su escuela desde hacía un año. Le gustaba mucho el deporte, pero tenía un problema: le costaba mucho sacar bien la pelota. Sus saques casi siempre salían fuera de la cancha.",
           "Antes del partido más importante del año, contra la escuela rival, la entrenadora practicó saques con Ximena todos los días. —Necesitas doblar más las rodillas y mirar la pelota —le explicó la entrenadora.",
           "El día del partido, el gimnasio estaba lleno de estudiantes y padres. Ximena estaba muy nerviosa porque sabía que iba a sacar en algún momento del partido. Su equipo, Las Panteras, jugaba contra Las Estrellas.",
-          "En el segundo set, el marcador estaba muy cerca: veinticuatro a veintitrés para Las Panteras. La entrenadora eligió a Ximena para el próximo saque, un momento muy importante del partido.",
+          "En el segundo set, el marcador estaba muy igualado: veinticuatro a veintitrés para Las Panteras. La entrenadora eligió a Ximena para el próximo saque, un momento muy importante del partido.",
           "Ximena caminó hacia la línea de saque con las manos temblorosas. Recordó las palabras de su entrenadora: doblar las rodillas y mirar la pelota. Respiró profundamente y sacó la pelota con fuerza.",
           "La pelota voló por encima de la red y cayó dentro de la cancha del equipo rival, que no pudo devolverla a tiempo. ¡Las Panteras ganaron el punto y el set! Todo el equipo gritó de alegría y corrió a abrazar a Ximena.",
           "Al final, Las Panteras ganaron el partido completo. Ximena se sintió muy orgullosa porque su saque difícil fue el punto decisivo. Después del partido, siguió practicando cada semana para mejorar aún más."

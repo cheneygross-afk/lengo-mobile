@@ -808,17 +808,15 @@ export const B1_WRITING_TASKS: UnitWriting = {
   "b1d-cadena-tu-a-vosotros": [
     {
       "type": "write",
-      "prompt": "Tienes tres hijos y hoy vuelves tarde del trabajo. Escríbeles una nota para la nevera con lo que tienen que hacer por la tarde. Usa mandatos de vosotros, afirmativos y negativos.",
+      "prompt": "Tienes tres hijos y hoy vuelves tarde del trabajo. Escríbeles una nota para la nevera con lo que tienen que hacer por la tarde. Usa mandatos afirmativos de vosotros.",
       "minWords": 40,
       "maxWords": 80,
       "rubric": [
         "Al menos cinco mandatos afirmativos de vosotros (haced, poned, sacad…)",
-        "Al menos dos negativos (no veáis, no os peleéis…)",
-        "Un verbo reflexivo en mandato (duchaos…)",
         "Saludo y despedida"
       ],
-      "modelAnswer": "¡Hola, chicos! Hoy llego a las nueve. Al volver del colegio, merendad algo sano: hay fruta en la nevera. Haced los deberes antes de jugar y no veáis la tele hasta las siete. Sacad al perro a las seis y no os peleéis por el ordenador. Poned la mesa a las ocho y media. Antes de cenar, duchaos, por favor. ¡Os quiero mucho! Mamá",
-      "explanation": "El afirmativo de vosotros cambia la -r del infinitivo por -d (haced, sacad, poned); con os, la -d desaparece: duchaos. El negativo usa el subjuntivo: no veáis, no os peleéis."
+      "modelAnswer": "¡Hola, chicos! Hoy llego a las nueve. Al volver del colegio, merendad algo sano: hay fruta en la nevera. Haced los deberes antes de jugar y apagad la tele a las siete. Sacad al perro a las seis y compartid el ordenador. Poned la mesa a las ocho y media. Antes de cenar, recoged vuestra habitación, por favor. ¡Os quiero mucho! Mamá",
+      "explanation": "El afirmativo de vosotros cambia la -r del infinitivo por -d (haced, sacad, poned, apagad, recoged). El negativo y los reflexivos (no veáis, duchaos) los verás en la parte 2 de los mandatos de vosotros."
     }
   ],
   "b1r-tema-estres": [
@@ -829,12 +827,11 @@ export const B1_WRITING_TASKS: UnitWriting = {
       "maxWords": 90,
       "rubric": [
         "Al menos cuatro mandatos afirmativos de vosotros (organizad, dormid…)",
-        "Al menos dos mandatos negativos (no estudiéis, no os comparéis…)",
-        "Un reflexivo afirmativo (relajaos, acostaos…)",
+        "Al menos dos consejos con «es mejor que / os recomiendo que» + subjuntivo (os recomiendo que durmáis…)",
         "Tono de ánimo"
       ],
-      "modelAnswer": "Chicos, sé que estáis nerviosos por los exámenes, así que escuchadme un momento. Organizad bien el tiempo y haced una pausa cada hora. No estudiéis toda la noche: acostaos pronto y dormid ocho horas. Comed bien y salid a pasear un rato cada día. No os comparéis con los demás, porque cada uno tiene su ritmo. Y el día del examen, relajaos y leed bien las preguntas. Habéis trabajado mucho este año. ¡Confío en vosotros!",
-      "explanation": "Mandatos de vosotros: organizad, dormid, leed; con el pronombre os pierden la -d (acostaos, relajaos). El negativo es el subjuntivo: no estudiéis, no os comparéis."
+      "modelAnswer": "Chicos, sé que estáis nerviosos por los exámenes, así que escuchadme un momento. Organizad bien el tiempo y haced una pausa cada hora. Os recomiendo que no estudiéis toda la noche y que durmáis ocho horas. Comed bien y salid a pasear un rato cada día. Es mejor que no os comparéis con los demás, porque cada uno tiene su ritmo. Y el día del examen, respirad hondo y leed bien las preguntas. Habéis trabajado mucho este año. ¡Confío en vosotros!",
+      "explanation": "Mandatos afirmativos de vosotros: organizad, haced, comed, leed. Para aconsejar sin mandato, «os recomiendo que / es mejor que» + subjuntivo: que no estudiéis, que durmáis, que no os comparéis."
     }
   ],
   "b1d-rep-mezcla-correo-casero": [

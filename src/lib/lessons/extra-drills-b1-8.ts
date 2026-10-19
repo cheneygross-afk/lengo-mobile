@@ -254,7 +254,7 @@ export const DRILLS_B1_8: Record<string, Exercise[]> = {
     mc("—¿Les has contado el plan a tus hermanos? —", ["Sí, ya se lo he contado.", "Sí, ya les lo he contado.", "Sí, ya lo les he contado.", "Sí, ya se les he contado."], 0, "Les + lo → se lo, y los dos delante del auxiliar «he»."),
     toEs("Did you pay the plumber the bill? — Yes, I paid it to him in cash. (tú)", "¿Le pagaste la factura al fontanero? —Sí, se la pagué en efectivo.", "Le + la → se la en la respuesta.", ["¿Le pagaste la factura al plomero? —Sí, se la pagué en efectivo."]),
     wo("No, todavía no te la he mandado", "«Te la» delante del auxiliar «he»; nunca entre «he» y el participio.", "No, I haven't sent it to you yet (the invitation)"),
-    toEs("Did your parents buy you the computer? — No, my grandparents bought it for me.", "¿Te compraron el ordenador tus padres? —No, me lo compraron mis abuelos.", "Te → me en la respuesta; «lo» = el ordenador (con «computadora» sería «la»).", ["¿Tus padres te compraron el ordenador? —No, me lo compraron mis abuelos.", "¿Te compraron el ordenador tus padres? —No, mis abuelos me lo compraron.", "¿Tus padres te compraron el ordenador? —No, mis abuelos me lo compraron.", "¿Te compraron la computadora tus padres? —No, me la compraron mis abuelos.", "¿Tus padres te compraron la computadora? —No, mis abuelos me la compraron."]),
+    toEs("Did your parents buy you the computer? — No, my grandparents bought it for me. (tú)", "¿Te compraron el ordenador tus padres? —No, me lo compraron mis abuelos.", "Te → me en la respuesta; «lo» = el ordenador (con «computadora» sería «la»).", ["¿Tus padres te compraron el ordenador? —No, me lo compraron mis abuelos.", "¿Te compraron el ordenador tus padres? —No, mis abuelos me lo compraron.", "¿Tus padres te compraron el ordenador? —No, mis abuelos me lo compraron.", "¿Te compraron la computadora tus padres? —No, me la compraron mis abuelos.", "¿Tus padres te compraron la computadora? —No, mis abuelos me la compraron."]),
   ],
 
   "b1d-rep-formacion-reflexivos": [
@@ -267,7 +267,7 @@ export const DRILLS_B1_8: Record<string, Exercise[]> = {
     toEs("It's important that we relax before the exam.", "Es importante que nos relajemos antes del examen.", "Es importante que + subjuntivo, «nos» delante del verbo.", ["Es importante que nos tranquilicemos antes del examen."]),
     mc("«Ojalá ___ pronto.» (tú, mejorarse)", ["te mejores", "mejores", "te mejoras", "mejorarte"], 0, "Ojalá + subjuntivo, y el reflexivo no desaparece: «te mejores»."),
     toEs("Tell the children to wash their hands. (tú)", "Diles a los niños que se laven las manos.", "Decir que para dar una orden pide subjuntivo: «se laven».", ["Dile a los niños que se laven las manos.", "Di a los niños que se laven las manos."]),
-    toEs("We don't want you to get lost in the city. (ustedes)", "No queremos que se pierdan en la ciudad.", "Subjuntivo con o → ie y el pronombre delante: «se pierdan».", []),
+    toEs("We don't want you to get lost in the city. (ustedes)", "No queremos que se pierdan en la ciudad.", "Subjuntivo con e → ie y el pronombre delante: «se pierdan».", []),
     fe("Antes de salir, es necesario que ___ bien.", "nos abriguemos", "Before going out, it's necessary that we [wrap up] warm.", "Subjuntivo de abrigarse: g → gu delante de e; «nos» delante."),
     toEs("I'm glad you feel better. (tú)", "Me alegro de que te sientas mejor.", "Alegrarse de que + subjuntivo: «te sientas» (sentirse), no «te sientes».", ["Me alegra que te sientas mejor."]),
     wo("Mi madre quiere que nos quedemos a cenar", "Querer que + subjuntivo; «nos» va justo delante de «quedemos».", "My mother wants us to stay for dinner"),
@@ -279,7 +279,7 @@ export const DRILLS_B1_8: Record<string, Exercise[]> = {
   ],
 
   "combined-object-pronouns-2": [
-    fe("¿El vestido? Mi madre está ___ ahora.", "arreglándomelo", "The dress? My mother is [fixing it for me] now.", "Con gerundio, los dos pronombres se pegan al final y hace falta tilde: «arreglándomelo».", ["haciéndomelo"]),
+    fe("¿El vestido? Mi madre está ___ ahora.", "arreglándomelo", "The dress? My mother is [fixing it for me] now.", "Con gerundio, los dos pronombres se pegan al final y hace falta tilde: «arreglándomelo»."),
     toEs("I'm going to give it to you tomorrow. (the key, tú)", "Voy a dártela mañana.", "Con ir a + infinitivo: pegados al infinitivo (con tilde) o delante de «voy».", ["Te la voy a dar mañana.", "Mañana voy a dártela.", "Mañana te la voy a dar."]),
     toEs("Tell it to me! (the truth, tú)", "¡Dímela!", "Mandato afirmativo: los pronombres se pegan al final; «la» por «la verdad».", []),
     toEs("Don't buy it for him. (the game, tú)", "No se lo compres.", "Mandato negativo: pronombres delante y subjuntivo. «No cómpraselo» es incorrecto.", []),
@@ -360,7 +360,7 @@ export const DRILLS_B1_8: Record<string, Exercise[]> = {
     mc("«When my sister gets her holidays, she'll come home.»", ["Cuando mi hermana tenga vacaciones, vendrá a casa.", "Cuando mi hermana tendrá vacaciones, vendrá a casa.", "Cuando mi hermana tiene vacaciones, vendrá a casa.", "Cuando mi hermana tenga vacaciones, vendría a casa."], 0, "Cuando + subjuntivo para el futuro, y futuro en la otra parte. Nunca futuro después de «cuando»."),
     toEs("I'm glad you've found a good job. (tú)", "Me alegro de que hayas encontrado un buen trabajo.", "Alegrarse de que + perfecto de subjuntivo para algo reciente.", ["Me alegra que hayas encontrado un buen trabajo.", "Me alegro de que hayas encontrado un buen empleo."]),
     fe("Ojalá ___ pasar el verano juntos.", "podamos", "I hope we [can] spend the summer together.", "Ojalá + subjuntivo: «podamos»."),
-    toEs("I'd like you to come for my birthday. (tú)", "Me gustaría que vinieras a mi cumpleaños.", "Me gustaría que + imperfecto de subjuntivo: «vinieras».", ["Me gustaría que vinieras para mi cumpleaños."]),
+    toEs("I'd like you to come for my birthday. (tú)", "Me gustaría que vinieras a mi cumpleaños.", "Me gustaría que + imperfecto de subjuntivo: «vinieras». Por ahora apréndelo como bloque fijo (me gustaría que vinieras); lo estudiarás a fondo en el nivel Avanzado.", ["Me gustaría que vinieras para mi cumpleaños."]),
     wo("Echo de menos que me cuentes tus cosas cada noche", "Echar de menos que + subjuntivo «cuentes».", "I miss you telling me your news every night"),
     toEs("When I was little, my aunt lived in Mexico and wrote to us every month.", "Cuando era pequeño, mi tía vivía en México y nos escribía todos los meses.", "Costumbres y descripciones del pasado: imperfecto («era», «vivía», «escribía»).", ["Cuando era pequeña, mi tía vivía en México y nos escribía todos los meses.", "Cuando era niño, mi tía vivía en México y nos escribía todos los meses.", "Cuando era niña, mi tía vivía en México y nos escribía todos los meses.", "Cuando era pequeño, mi tía vivía en México y nos escribía cada mes.", "Cuando era pequeña, mi tía vivía en México y nos escribía cada mes."]),
     fe("Antes nos veíamos cada domingo, pero este año solo nos ___ dos veces.", "hemos visto", "We used to see each other every Sunday, but this year we['ve seen] each other only twice.", "«Este año» no ha terminado: pretérito perfecto. En América también se oye «vimos».", ["vimos"]),
@@ -445,7 +445,7 @@ export const DRILLS_B1_8: Record<string, Exercise[]> = {
     fe("Pásame el aceite. → ___.", "Pásamelo", "Pass me the oil. → [Pass it to me].", "Me + lo pegados al mandato, y tilde en «Pá-»."),
     toEs("Pass them to me, please. (the napkins, tú)", "Pásamelas, por favor.", "Mandato afirmativo: pasa + me + las, con tilde.", []),
     fe("Sírveles el vino a los invitados. → ___.", "Sírveselo", "Serve the guests the wine. → [Serve it to them].", "Les + lo → se lo: «Sírveselo»."),
-    toEs("Pass it to us, please. (the bread, usted)", "Pásenoslo, por favor.", "Mandato de usted: pase + nos + lo, todo junto y con tilde porque queda esdrújula: «pá-se-nos-lo».", ["Acérquenoslo, por favor."]),
+    toEs("Pass it to us, please. (the bread, usted)", "Pásenoslo, por favor.", "Mandato de usted: pase + nos + lo, todo junto y con tilde porque queda sobresdrújula: «pá-se-nos-lo».", ["Acérquenoslo, por favor."]),
     toEs("Pour it for your grandfather. (the coffee, tú)", "Sírveselo a tu abuelo.", "Le + lo → se lo, pegado al mandato; «a tu abuelo» aclara.", ["Échaselo a tu abuelo."]),
     fe("(usted) Tráigame la carta, por favor. → ___, por favor.", "Tráigamela", "(usted) Bring me the menu, please. → [Bring it to me], please.", "Mandato de usted + me + la, con tilde: «Tráigamela»."),
     toEs("Pass it to her, please. (the salad, tú)", "Pásasela, por favor.", "Le + la → se la: «Pásasela». Nunca «Pásalela».", []),
@@ -456,7 +456,7 @@ export const DRILLS_B1_8: Record<string, Exercise[]> = {
     toEs("Give it to the children. (the cake, tú)", "Dáselo a los niños.", "Les + lo → se lo; lleva tilde porque la palabra queda esdrújula: «dá-se-lo».", ["Dásela a los niños."]),
     wo("¿El queso? Pásaselo a tu padre", "Le + lo → se lo, pegado al mandato; «a tu padre» al final.", "The cheese? Pass it to your father"),
     toEs("Pass them to me. (the potatoes, ustedes)", "Pásenmelas.", "Mandato de ustedes: pasen + me + las, con tilde.", []),
-    mc("«Acércale la sal a tu abuelo.» → con pronombres:", ["Acércasela.", "Acércale la.", "Acércalela.", "Acercasela."], 0, "Le + la → se la, todo pegado y con tilde porque queda esdrújula: «acércasela»."),
+    mc("«Acércale la sal a tu abuelo.» → con pronombres:", ["Acércasela.", "Acércale la.", "Acércalela.", "Acercasela."], 0, "Le + la → se la, todo pegado y con tilde porque queda sobresdrújula: «acércasela»."),
     toEs("Serve it to us now, please. (the soup, usted)", "Sírvanosla ahora, por favor.", "Usted: sirva + nos + la, con tilde.", ["Sírvanosla ya, por favor."]),
     wo("Córtamela en trozos pequeños, por favor", "Me + la pegados al mandato, con tilde en «cór-»: «córtamela».", "Cut it into small pieces for me, please (the meat, tú)"),
     toEs("Heat it up for me, please. (the milk, tú)", "Caliéntamela, por favor.", "La leche es femenina: calienta + me + la, con tilde.", []),

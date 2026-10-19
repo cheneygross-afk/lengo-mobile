@@ -8,7 +8,7 @@ const { toEs, fe, wo, mc } = authoring("es");
 export const DRILLS_B1_12: Record<string, Exercise[]> = {
   "b1d-rep-mezcla-correo-amigo": [
     fe("Ojalá ___ buen tiempo el sábado.", "haga", "I hope the weather [is] nice on Saturday.", "Ojalá siempre va con subjuntivo: «haga», no «hace»."),
-    toEs("This week I've finished my exams.", "Esta semana he terminado mis exámenes.", "«Esta semana» es un periodo que aún no ha terminado: pretérito perfecto, no indefinido.", ["Esta semana he acabado mis exámenes."]),
+    toEs("This week I've finished my exams.", "Esta semana he terminado mis exámenes.", "«Esta semana» es un periodo que aún no ha terminado: en España, pretérito perfecto; en gran parte de América también «terminé».", ["Esta semana he acabado mis exámenes.", "Esta semana terminé mis exámenes.", "Esta semana acabé mis exámenes."]),
     toEs("I hope you like the city. (tú)", "Espero que te guste la ciudad.", "Esperar que + otra persona pide subjuntivo: «guste», no «gusta».", ["Ojalá que te guste la ciudad.", "Ojalá te guste la ciudad."]),
     toEs("My parents want me to visit them more.", "Mis padres quieren que los visite más.", "Dos sujetos distintos: querer que + subjuntivo; «quieren visitarlos» cambiaría quién visita.", ["Mis padres quieren que los visite más a menudo."]),
     toEs("If you come in August, we'll go to the beach. (tú)", "Si vienes en agosto, iremos a la playa.", "Tras «si» real va presente de indicativo, nunca futuro ni subjuntivo: «si vienes».", ["Si vienes en agosto, vamos a la playa.", "Si vienes en agosto, vamos a ir a la playa."]),
@@ -151,7 +151,7 @@ export const DRILLS_B1_12: Record<string, Exercise[]> = {
     toEs("If I were you, I would watch series in Spanish. (tú)", "Yo que tú, vería series en español.", "Consejo con «yo que tú» + condicional «vería».", ["Yo en tu lugar, vería series en español."]),
     wo("Este año he hecho muchos amigos hispanohablantes", "Periodo abierto con pretérito perfecto; «hecho» es irregular.", "This year I have made many Spanish-speaking friends"),
     toEs("My friends want me to speak Spanish with them.", "Mis amigos quieren que hable español con ellos.", "Sujetos distintos: querer que + subjuntivo «hable».", ["Mis amigos quieren que hable en español con ellos."]),
-    fe("La profesora con ___ practico es de Colombia.", "la que", "The teacher I practice [with] is from Colombia.", "La preposición «con» va delante del relativo; para persona vale «la que» o «quien».", ["quien"]),
+    fe("La profesora con ___ practico es de Colombia.", "la que", "The teacher [who] I practice with is from Colombia.", "La preposición «con» va delante del relativo; para persona vale «la que» o «quien».", ["quien"]),
     toEs("Have you ever dreamed in Spanish? (tú)", "¿Alguna vez has soñado en español?", "Experiencia: pretérito perfecto; en América también «¿Alguna vez soñaste…?».", ["¿Has soñado alguna vez en español?", "¿Alguna vez soñaste en español?", "¿Soñaste alguna vez en español?"]),
     toEs("I had never imagined that I would understand a song in Spanish.", "Nunca había imaginado que entendería una canción en español.", "Pluscuamperfecto para la idea anterior y condicional para el futuro visto desde el pasado.", ["Nunca me había imaginado que entendería una canción en español.", "Nunca había imaginado que iba a entender una canción en español.", "Nunca me había imaginado que iba a entender una canción en español."]),
     mc("«Espero que el año que viene ___ hablar sin miedo.»", ["puedo", "pueda", "podré", "poder"], 1, "Esperar que + subjuntivo: «pueda»; el futuro «podré» es el error típico."),
@@ -225,7 +225,7 @@ export const DRILLS_B1_12: Record<string, Exercise[]> = {
     toEs("If you see Laura, give it to her. (tú; it = la carta)", "Si ves a Laura, dásela.", "Si + presente; imperativo con «se la» pegado (le + la → se la).", ["Si ves a Laura, entrégasela."]),
     toEs("The friend I travelled with now lives in Chile.", "La amiga con la que viajé vive ahora en Chile.", "La preposición «con» va delante del relativo, que nunca se omite.", ["La amiga con quien viajé vive ahora en Chile.", "La amiga con la que viajé ahora vive en Chile.", "El amigo con el que viajé vive ahora en Chile.", "El amigo con quien viajé vive ahora en Chile.", "El amigo con el que viajé ahora vive en Chile.", "La amiga con la que viajé vive en Chile ahora.", "El amigo con el que viajé vive en Chile ahora."]),
     toEs("I want you to bring it to me before Friday. (tú; it = el informe)", "Quiero que me lo traigas antes del viernes.", "Querer que + subjuntivo; «me lo» va delante del verbo conjugado.", ["Quiero que me lo entregues antes del viernes."]),
-    fe("Esta semana todavía no ___ al gimnasio.", "he ido", "This week I still [haven't been] to the gym.", "«Esta semana» pide pretérito perfecto: «he ido»."),
+    fe("Esta semana todavía no ___ al gimnasio.", "he ido", "This week I still [haven't been] to the gym.", "«Esta semana» pide pretérito perfecto en España: «he ido»; en gran parte de América también «fui».", ["fui"]),
     toEs("We hope you like the food. (ustedes)", "Esperamos que les guste la comida.", "Esperar que + subjuntivo «guste»; «les» porque es ustedes.", ["Esperamos que la comida les guste."]),
   ],
 

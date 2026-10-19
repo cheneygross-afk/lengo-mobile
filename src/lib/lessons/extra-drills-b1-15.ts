@@ -214,7 +214,7 @@ export const DRILLS_B1_15: Record<string, Exercise[]> = {
 
   "present-past-perfect-drill-2": [
     fe("Ya ___ el billete de tren.", "he comprado", "I['ve] already [bought] the train ticket.", "Acción reciente con «ya»: pretérito perfecto."),
-    fe("Todavía no ___ la maleta.", "has hecho", "You haven't [packed] your suitcase yet. (tú)", "«Hacer la maleta» → has hecho; «todavía no» con perfecto."),
+    fe("Todavía no ___ la maleta.", "has hecho", "You [haven't packed] your suitcase yet. (tú)", "«Hacer la maleta» → has hecho; «todavía no» con perfecto."),
     fe("Cuando llegamos al cine, ya ___ todas las entradas.", "habían vendido", "When we got to the cinema, they [had] already [sold] all the tickets.", "Anterior a otro pasado (llegamos): pluscuamperfecto habían + participio."),
     fe("Hasta los veinte años, mi padre nunca ___ el mar.", "había visto", "Until he was twenty, my father [had never seen] the sea.", "Había + visto: experiencia anterior a un momento pasado."),
     mc("«Cuando llegó el técnico, nosotros ya ___ el problema.»", ["hemos resuelto", "habíamos resuelto", "resolvemos", "habíamos resolvido"], 1, "Anterior a «llegó»: pluscuamperfecto; el participio es «resuelto»."),
@@ -272,7 +272,7 @@ export const DRILLS_B1_15: Record<string, Exercise[]> = {
   ],
 
   "b1r-error-hunt-perfects": [
-    fe("Mi hijo ha ___ el cristal. (romper; el alumno escribió: rompido)", "roto", "My son has [broken] the glass.", "Romper tiene participio irregular: roto."),
+    fe("Mi hijo ha ___ el vaso. (romper; el alumno escribió: rompido)", "roto", "My son has [broken] the glass.", "Romper tiene participio irregular: roto."),
     fe("¿Quién ha ___ esto? (escribir; el alumno escribió: escribido)", "escrito", "Who has [written] this?", "Escribir → escrito, nunca «escribido»."),
     fe("Todavía no hemos ___ el problema. (resolver; el alumno escribió: resolvido)", "resuelto", "We still haven't [solved] the problem.", "Resolver → resuelto, como volver → vuelto."),
     fe("Hace dos días ___ una carta de mi abuela. (recibir, yo; el alumno escribió: he recibido)", "recibí", "Two days ago I [received] a letter from my grandmother.", "«Hace dos días» marca tiempo terminado: indefinido."),
@@ -293,7 +293,7 @@ export const DRILLS_B1_15: Record<string, Exercise[]> = {
   "b1r-story-crime-scene": [
     fe("Cuando la dueña volvió, alguien ya ___ la caja fuerte.", "había abierto", "When the owner came back, someone [had] already [opened] the safe.", "Anterior a «volvió»: pluscuamperfecto con abierto."),
     fe("Cuando sonó la alarma, el ladrón ya ___ el cuadro de la pared.", "había descolgado", "When the alarm went off, the thief [had] already [taken] the painting [down] from the wall.", "Anterior a «sonó»: pluscuamperfecto (había + participio).", ["había quitado"]),
-    fe("Los vecinos dijeron que no ___ nada raro esa noche.", "habían oído", "The neighbours said they had not [heard] anything strange that night.", "Tras «dijeron que», lo anterior va en pluscuamperfecto.", ["habían escuchado"]),
+    fe("Los vecinos dijeron que no ___ nada raro esa noche.", "habían oído", "The neighbours said they [had not heard] anything strange that night.", "Tras «dijeron que», lo anterior va en pluscuamperfecto.", ["habían escuchado"]),
     fe("El jardinero ___ a la mansión a las diez, como siempre.", "llegó", "The gardener [arrived] at the mansion at ten, as always.", "Hecho puntual del relato: indefinido, no pluscuamperfecto."),
     mc("El collar no estaba en la caja. ¿Qué concluye la inspectora?", ["Alguien se lo había llevado antes.", "Alguien se lo ha llevado mañana.", "Alguien se lo llevaba siempre.", "Alguien se lo había llevando."], 0, "Lo ocurrido antes del descubrimiento va en pluscuamperfecto: había + participio (llevado)."),
     mc("«Cuando el mayordomo entró en el salón, la ventana ___ abierta.»", ["estaba", "había estado", "ha estado", "estuvo"], 0, "Describe el estado de la escena en ese momento: imperfecto."),
@@ -377,8 +377,8 @@ export const DRILLS_B1_15: Record<string, Exercise[]> = {
     fe("—¿Habíais oído hablar de este pueblo antes del viaje? —No, nunca ___ hablar de él.", "habíamos oído", "—Had you heard of this village before the trip? (vosotros) —No, we [had never heard] of it.", "Pregunta en pluscuamperfecto → respuesta en pluscuamperfecto, de «habíais» a «habíamos».", ["habíamos escuchado"]),
     fe("—¿Has hecho ya la cama? —No, todavía no la ___.", "he hecho", "—Have you made the bed yet? (tú) —No, I [haven't made] it yet.", "Eco temporal en perfecto: «la» delante de haber y participio irregular «hecho»."),
     fe("—¿Han comprado ustedes los regalos? —Sí, ya los ___.", "hemos comprado", "—Have you all bought the presents? —Yes, we['ve] already [bought] them.", "De «han» (ustedes) a «hemos» (nosotros)."),
-    fe("—¿Le habías contado el secreto a alguien? —No, no se lo ___ a nadie.", "había contado", "—Had you told the secret to anyone? —No, I hadn't [told] it to anyone.", "Pluscuamperfecto con «se lo» antes de había."),
-    fe("—¿Ya ___ las invitaciones? —Sí, las he mandado esta mañana.", "has mandado", "—Have you [sent] the invitations yet? (tú) —Yes, I sent them this morning.", "Pregunta en perfecto: has + participio.", ["has enviado"]),
+    fe("—¿Le habías contado el secreto a alguien? —No, no se lo ___ a nadie.", "había contado", "—Had you told the secret to anyone? —No, I [hadn't told] it to anyone.", "Pluscuamperfecto con «se lo» antes de había."),
+    fe("—¿Ya ___ las invitaciones? —Sí, las he mandado esta mañana.", "has mandado", "—[Have you sent] the invitations yet? (tú) —Yes, I sent them this morning.", "Pregunta en perfecto: has + participio.", ["has enviado"]),
     mc("«—¿Habías estado en Lisboa antes del congreso? —No, nunca ___.»", ["había estado", "he estado", "estuve", "estaba"], 0, "Se responde en el mismo tiempo que la pregunta: pluscuamperfecto."),
     mc("«—¿Has regado las plantas? —Sí, ___.»", ["las he regado", "he las regado", "he regado las", "las había regado"], 0, "Pronombre antes de haber y mismo tiempo que la pregunta."),
     toEs("—Have you (tú) taken your medicine? —Yes, I've already taken it.", "—¿Te has tomado la medicina? —Sí, ya me la he tomado.", "Eco en perfecto con los pronombres delante de haber.", ["—¿Has tomado la medicina? —Sí, ya la he tomado.", "—¿Te has tomado el medicamento? —Sí, ya me lo he tomado.", "—¿Has tomado el medicamento? —Sí, ya lo he tomado.", "—¿Te has tomado la medicina? —Sí, ya la he tomado."]),
@@ -390,14 +390,14 @@ export const DRILLS_B1_15: Record<string, Exercise[]> = {
     toEs("—Have you all decided where to go on holiday? —No, we haven't decided yet. (ustedes)", "—¿Han decidido adónde ir de vacaciones? —No, todavía no lo hemos decidido.", "Ustedes «han» → nosotros «hemos».", ["—¿Han decidido adónde ir de vacaciones? —No, aún no lo hemos decidido.", "—¿Han decidido dónde ir de vacaciones? —No, todavía no lo hemos decidido.", "—¿Han decidido adónde ir de vacaciones? —No, todavía no hemos decidido.", "—¿Han decidido a dónde ir de vacaciones? —No, todavía no lo hemos decidido."]),
     toEs("—Had you (tú) booked the hotel before arriving? —Yes, I had booked it a month before.", "—¿Habías reservado el hotel antes de llegar? —Sí, lo había reservado un mes antes.", "Eco en pluscuamperfecto con «lo» delante de había."),
     toEs("—Has the plumber come? —No, he hasn't come yet, but he has called.", "—¿Ha venido el fontanero? —No, todavía no ha venido, pero ha llamado.", "Respuesta en el mismo tiempo: perfecto.", ["—¿Ha venido el plomero? —No, todavía no ha venido, pero ha llamado.", "—¿Ha venido el fontanero? —No, aún no ha venido, pero ha llamado.", "—¿Ha venido el plomero? —No, aún no ha venido, pero ha llamado."]),
-    fe("—¿Ya te habían dado las notas cuando hablaste con tu madre? —No, todavía no me las ___.", "habían dado", "—Had they already given you your grades when you spoke to your mother? —No, they had not [given] them to me yet.", "Pregunta en pluscuamperfecto → respuesta igual, con «me las» delante."),
+    fe("—¿Ya te habían dado las notas cuando hablaste con tu madre? —No, todavía no me las ___.", "habían dado", "—Had they already given you your grades when you spoke to your mother? —No, they [had not given] them to me yet.", "Pregunta en pluscuamperfecto → respuesta igual, con «me las» delante."),
   ],
 
   "b1d-habla-de-ti-logros": [
     fe("Este año ___ mi primera media maratón.", "he corrido", "This year I [have run] my first half marathon.", "Logro dentro de «este año», un periodo que incluye el presente: pretérito perfecto."),
     fe("Cuando empezó el año, todavía no ___ ningún libro en español.", "había leído", "When the year began, I [hadn't] yet [read] any book in Spanish.", "Anterior a un momento pasado («cuando empezó el año»): pluscuamperfecto."),
     fe("Este año por fin ___ un trabajo que me gusta.", "he encontrado", "This year I [have] finally [found] a job I like.", "Logro del periodo actual («este año»): he + participio.", ["he conseguido"]),
-    fe("Todavía no ___ el carné de conducir.", "he sacado", "I haven't [got] my driving licence yet.", "«Todavía no» + perfecto.", ["he obtenido"]),
+    fe("Todavía no ___ el carné de conducir.", "he sacado", "I [haven't got] my driving licence yet.", "«Todavía no» + perfecto.", ["he obtenido"]),
     mc("«Este año ___ mi primer libro.» (publicar, yo)", ["he publicado", "había publicado", "publicaba", "publicaré"], 0, "Logro de este año: pretérito perfecto."),
     toEs("This year I've saved enough money for a trip to Peru.", "Este año he ahorrado suficiente dinero para un viaje a Perú.", "Balance del año: perfecto.", ["Este año he ahorrado bastante dinero para un viaje a Perú.", "Este año he ahorrado suficiente dinero para un viaje al Perú.", "Este año he ahorrado el dinero suficiente para un viaje a Perú."]),
     toEs("This year I've changed jobs and I've moved to a new city.", "Este año he cambiado de trabajo y me he mudado a una ciudad nueva.", "Dos logros en perfecto; «me» antes de haber.", ["Este año he cambiado de trabajo y me he mudado a otra ciudad.", "Este año he cambiado de trabajo y me he mudado a una nueva ciudad.", "Este año he cambiado de empleo y me he mudado a una ciudad nueva."]),
@@ -435,7 +435,7 @@ export const DRILLS_B1_15: Record<string, Exercise[]> = {
 
   "b1d-dictado-pasados-compuestos": [
     fe("Mis padres todavía no me ___ dado permiso.", "han", "My parents [haven't] given me permission yet.", "El pronombre «me» va delante del auxiliar, así que el hueco es solo «han»."),
-    fe("Cuando Ana me llamó, ya ___ había escrito un mensaje.", "le", "When Ana called me, I [had] already written [her] a message.", "El pronombre de objeto indirecto «le» va delante de había, nunca entre había y el participio."),
+    fe("Cuando Ana me llamó, ya ___ había escrito un mensaje.", "le", "When Ana called me, I had already written [her] a message.", "El pronombre de objeto indirecto «le» va delante de había, nunca entre había y el participio."),
     mc("Orden correcto:", ["Ya se lo hemos enviado.", "Se lo ya hemos enviado.", "Hemos ya se lo enviado.", "Ya hemos se lo enviado."], 0, "«Ya» primero, luego los pronombres y después haber + participio."),
     mc("Orden correcto:", ["Todavía no me han pagado.", "No me todavía han pagado.", "Todavía me no han pagado.", "Todavía no han me pagado."], 0, "«Todavía no» + pronombre + haber + participio."),
     toEs("The bill? I've already paid it.", "¿La cuenta? Ya la he pagado.", "«Ya» + pronombre + he + participio.", ["¿La factura? Ya la he pagado."]),

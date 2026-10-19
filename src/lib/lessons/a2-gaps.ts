@@ -466,7 +466,7 @@ export const A2_GAPS: AnchoredLesson[] = [
         [
           "A bare command is normal between friends in Spanish and not rude, especially with por favor or a friendly tone.",
           "To sound gentler, add por favor, or use a question: ¿Me pasas la sal? (Will you pass me the salt?) is often friendlier than Pásame la sal.",
-          "With people you address as usted (a stranger, an older person, a customer) the command form is different (hable, coma), so at the Elementary level a polite question is the safe choice: ¿Puede hablar más despacio?",
+          "With people you address as usted (a stranger, an older person, a customer) the command form is different (hable, coma), so a polite question is often the gentlest choice: ¿Puede hablar más despacio? (You've already met usted commands like siga and gire in directions.)",
         ],
         [
           ["Pásame la sal, por favor.", "Pass me the salt, please."],

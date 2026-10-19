@@ -9,7 +9,7 @@ export const DRILLS_A1_3: Record<string, Exercise[]> = {
   "a1r-word-web-house": [
     toEs("There is a bed in the bedroom.", "Hay una cama en el dormitorio.", "Use hay for 'there is'; don't use está with an indefinite noun like una cama.", ["En el dormitorio hay una cama."]),
     toEs("The sofa is in the living room.", "El sofá está en la sala.", "Estar gives the location of a specific thing; es would be wrong here.", ["El sofá está en el salón."]),
-    fe("Hay una cama y un armario en el ___.", "dormitorio", "There is a bed and a wardrobe in the [bedroom].", "A bed and a wardrobe belong in el dormitorio (bedroom), not el baño.", ["cuarto", "habitación"]),
+    fe("Hay una cama y un armario en el ___.", "dormitorio", "There is a bed and a wardrobe in the [bedroom].", "A bed and a wardrobe belong in el dormitorio (bedroom), not el baño.", ["cuarto"]),
     toEs("The rug is under the bed.", "La alfombra está debajo de la cama.", "Debajo de + la cama; 'debajo la cama' without de is a common slip."),
     fe("Las almohadas están ___ la cama.", "encima de", "The pillows are [on top of] the bed.", "Encima de means on top of; remember the de.", ["en", "sobre"]),
     toEs("The lamp is next to the sofa.", "La lámpara está al lado del sofá.", "Al lado de + el contracts to al lado del."),
@@ -391,7 +391,7 @@ export const DRILLS_A1_3: Record<string, Exercise[]> = {
     toEs("a bad dog", "un mal perro", "Malo shortens to mal before a masculine singular noun.", ["un perro malo"]),
     toEs("a great friend (female)", "una gran amiga", "Grande shortens to gran before any singular noun, feminine too."),
     fe("Es una ___ idea.", "buena", "It's a [good] idea.", "Feminine doesn't shorten: buena."),
-    fe("Tengo un ___ problema.", "gran", "I have a [big] problem.", "Gran before a singular noun means great/big."),
+    fe("Tengo un ___ problema.", "gran", "I have a [big] problem.", "Before a singular noun, grande shortens to gran; before an abstract noun like problema it means big in the sense of serious. For physical size, grande goes after the noun (una casa grande)."),
     toEs("the tall women", "las mujeres altas", "Feminine plural: las … altas."),
     toEs("some good books", "unos buenos libros", "Plural doesn't shorten: buenos.", ["unos libros buenos"]),
     fe("Son ___ amigos.", "buenos", "They are [good] friends.", "Plural: buenos (only singular masculine shortens)."),

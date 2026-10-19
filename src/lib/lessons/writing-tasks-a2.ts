@@ -567,7 +567,7 @@ export const A2_WRITING_TASKS: UnitWriting = {
   "a2d-se-lo-pattern": [
     {
       "type": "write",
-      "prompt": "Write about the presents you gave your family last Christmas: what you bought for each person and how you gave it to them. Avoid repeating the presents.",
+      "prompt": "Write about the presents you gave your family last Christmas: what you bought for each person and how you gave it to them. Use pronouns instead of repeating the names of the presents.",
       "minWords": 25,
       "maxWords": 60,
       "rubric": [

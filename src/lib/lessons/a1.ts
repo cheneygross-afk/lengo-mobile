@@ -581,7 +581,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 4,
     "title": "Gender, Number & Articles, Part 2 of 2",
-    "summary": "Learn why Spanish nouns are masculine or feminine, and how to make them plural.",
+    "summary": "Read a short classroom description and learn twenty household nouns with their articles (la pared, el reloj, el sofá), plus plurals and hay.",
     "duration": "5 min",
     "sections": [
       {
@@ -1961,7 +1961,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "question": "Which of these are correctly conjugated?",
         "options": [
           "comemos",
-          "vivamos",
+          "vivemos",
           "escribimos",
           "hablomos"
         ],
@@ -1969,7 +1969,7 @@ const A1_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "Comemos and escribimos are correct. Vivir takes -imos (vivimos, not vivamos), and hablar takes -amos (hablamos, not hablomos)."
+        "explanation": "Comemos and escribimos are correct. Vivir takes -imos (vivimos, not vivemos), and hablar takes -amos (hablamos, not hablomos)."
       },
       {
         "type": "translate",
@@ -2940,7 +2940,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 15,
     "title": "Numbers: Counting, Ages & Ordinals, Part 1 of 2",
-    "summary": "Master Spanish numbers from zero to over a thousand, learn when uno becomes un or una, and use ordinal numbers like primero and tercero correctly.",
+    "summary": "Count from zero to a million: one-word 16-29, treinta y uno and up, cien vs. ciento, and hundreds that agree in gender (doscientas casas).",
     "duration": "6 min",
     "sections": [
       {
@@ -3151,7 +3151,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 16,
     "title": "Numbers: Counting, Ages & Ordinals, Part 2 of 2",
-    "summary": "Master Spanish numbers from zero to over a thousand, learn when uno becomes un or una, and use ordinal numbers like primero and tercero correctly.",
+    "summary": "Use un, una and uno correctly (veintiún, treinta y una), learn the ordinal numbers primero to décimo (el primer día), and give ages, prices and phone numbers.",
     "duration": "6 min",
     "sections": [
       {
@@ -3327,7 +3327,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 17,
     "title": "Telling Time: ¿Qué hora es?, Part 1 of 2",
-    "summary": "Learn to ask for and tell the time in Spanish, from Es la una to quarter-hours, minutes, and setting a time to meet.",
+    "summary": "Ask ¿Qué hora es? and tell the time in Spanish: es la una vs. son las dos, y cuarto, y media, menos cuarto, minutes and en punto.",
     "duration": "6 min",
     "sections": [
       {
@@ -3510,7 +3510,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 18,
     "title": "Telling Time: ¿Qué hora es?, Part 2 of 2",
-    "summary": "Learn to ask for and tell the time in Spanish, from Es la una to quarter-hours, minutes, and setting a time to meet.",
+    "summary": "Tell the time with noon, midnight and de la mañana, de la tarde or de la noche, and ask and answer ¿A qué hora...? to set a time to meet.",
     "duration": "6 min",
     "sections": [
       {
@@ -3612,8 +3612,8 @@ const A1_BASE_LESSONS: Lesson[] = [
             "en": "Luis: How about five thirty?"
           },
           {
-            "es": "Ana: Perfecto. ¿De la tarde o de la noche?",
-            "en": "Ana: Perfect. Afternoon or evening?"
+            "es": "Ana: Perfecto. ¿De la mañana o de la tarde?",
+            "en": "Ana: Perfect. Morning or afternoon?"
           },
           {
             "es": "Luis: De la tarde. Nos vemos a las cinco y media en punto.",
@@ -3670,12 +3670,16 @@ const A1_BASE_LESSONS: Lesson[] = [
         "direction": "en-es",
         "prompt": "Translate: \"At what time do you eat lunch?\"",
         "source": "At what time do you eat lunch?",
-        "answer": "¿A qué hora almuerzas?",
+        "answer": "¿A qué hora comes?",
         "altAnswers": [
-          "¿A qué hora comes?",
-          "¿A qué hora comen?"
+          "¿A qué hora almuerzas?",
+          "¿A qué hora come?",
+          "¿A qué hora almuerza?",
+          "¿A qué hora comen?",
+          "¿A qué hora almuerzan?",
+          "¿A qué hora coméis?"
         ],
-        "explanation": "¿A qué hora...? asks when something happens; here it's paired with almorzar (to have lunch)."
+        "explanation": "¿A qué hora...? asks when something happens. Comer is the usual verb for lunch in Spain; almorzar (o → ue) is common in Latin America."
       },
       {
         "type": "multiple-choice",
@@ -4003,6 +4007,11 @@ const A1_BASE_LESSONS: Lesson[] = [
         "prompt": "Translate to Spanish.",
         "source": "Where do you live?",
         "answer": "¿Dónde vives?",
+        "altAnswers": [
+          "¿Dónde vive?",
+          "¿Dónde viven?",
+          "¿Dónde vivís?"
+        ],
         "explanation": "Don't forget the opening upside-down question mark: ¿"
       }
     ]
@@ -4737,7 +4746,7 @@ const A1_BASE_LESSONS: Lesson[] = [
     "level": "A1",
     "number": 25,
     "title": "Key Irregular Verbs: Tener, Ir, Hacer + Hay, Part 1 of 2",
-    "summary": "Four essential irregular building blocks for everyday sentences.",
+    "summary": "Conjugate the irregular verbs tener, ir and hacer, and use them for age (tengo veinte años), obligation (tener que), plans (voy a + infinitive) and weather (hace calor).",
     "duration": "6 min",
     "sections": [
       {
@@ -8930,7 +8939,7 @@ const A1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Hacer for weather and time expressions",
         "body": [
-          "Reminder: hace is used impersonally for weather (hace calor) and elapsed time (hace + time)."
+          "New here: hace is used impersonally for weather (hace calor), and hace + time + que + present says how long something has been going on (hace dos años que vivo aquí = I have lived here for two years)."
         ],
         "examples": [
           {
@@ -11991,7 +12000,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "body": [
           "El abuelo de Valentina tiene un jardín grande detrás de su casa. Cada primavera, planta tomates, lechuga y flores de colores. Este año, Valentina quiere ayudar por primera vez. Su abuelo está muy contento con la idea.",
           "Un sábado de abril, el abuelo le da a Valentina unas semillas de tomate. \"Estas semillas necesitan tierra, agua y sol\", explica el abuelo. Valentina hace un hoyo pequeño en la tierra con sus manos. Con cuidado, pone las semillas y las cubre.",
-          "Cada mañana, Valentina va al jardín antes de la escuela. Riega las plantas con una regadera pequeña y verde. También quita las hierbas malas cerca de las semillas. El abuelo le enseña a cuidar las plantas cada día.",
+          "Cada mañana, Valentina va al jardín antes de la escuela. Riega las plantas con una regadera pequeña y verde. También quita las malas hierbas cerca de las semillas. El abuelo le enseña a cuidar las plantas cada día.",
           "Después de dos semanas, Valentina ve algo verde en la tierra. Son las primeras hojas pequeñas de sus plantas de tomate. Ella salta de alegría y llama a su abuelo rápidamente. \"¡Mira, abuelo, mis plantas crecen!\", grita Valentina.",
           "Durante el verano, las plantas crecen mucho más altas. Aparecen flores amarillas y después pequeños tomates verdes. Valentina cuenta los tomates todos los días con mucha emoción. Poco a poco, los tomates cambian de color a rojo.",
           "En agosto, Valentina y su abuelo cosechan los primeros tomates. Los llevan a la cocina y preparan una ensalada fresca. Toda la familia come la ensalada y dice que es deliciosa. Valentina se siente muy orgullosa de su primer jardín."
@@ -14429,9 +14438,9 @@ const A1_BASE_LESSONS: Lesson[] = [
           "Carlos está muy preocupado porque el estuche es un regalo de su abuela. Tiene lápices de colores y una goma especial adentro. Sin el estuche, Carlos no puede terminar su dibujo.",
           "Su amiga Rosa ve la cara triste de Carlos. \"¿Qué buscas?\", pregunta Rosa. Carlos explica el problema con voz baja.",
           "Rosa decide ayudar a Carlos. Los dos buscan en la biblioteca y en el patio. No encuentran el estuche en ningún lugar.",
-          "Rosa tiene una idea. \"¿Le prestaste tu estuche a alguien hoy?\", pregunta ella. Carlos recuerda algo importante de repente.",
-          "Carlos le prestó su estuche a Miguel durante la clase de arte. Los dos amigos caminan hacia la mesa de Miguel. El estuche está ahí, debajo de un papel.",
-          "Miguel se disculpa porque olvidó devolver el estuche. Carlos está muy contento de tener su estuche otra vez. Rosa y Carlos son buenos amigos ahora."
+          "Rosa tiene una idea. \"¿Tiene alguien tu estuche?\", pregunta ella. Carlos recuerda algo importante de repente.",
+          "En la clase de arte, Miguel usa el estuche de Carlos. Los dos amigos caminan hacia la mesa de Miguel. El estuche está ahí, debajo de un papel.",
+          "Miguel pide perdón y le devuelve el estuche. Carlos está muy contento de tener su estuche otra vez. Rosa y Carlos son buenos amigos ahora."
         ]
       }
     ],
@@ -14477,12 +14486,12 @@ const A1_BASE_LESSONS: Lesson[] = [
         "question": "Why does Miguel have the pencil case?",
         "options": [
           "He steals it",
-          "Carlos lends it to him during art class",
+          "He uses it during art class",
           "He finds it on the floor",
           "It is his own pencil case"
         ],
         "correctIndex": 1,
-        "explanation": "The text says \"Carlos le prestó su estuche a Miguel durante la clase de arte\" (Carlos lent his pencil case to Miguel during art class)."
+        "explanation": "The text says \"En la clase de arte, Miguel usa el estuche de Carlos\" (In art class, Miguel uses Carlos's pencil case)."
       }
     ]
   },
@@ -15029,7 +15038,7 @@ const A1_BASE_LESSONS: Lesson[] = [
         "question": "What is on Lucía's shopping list?",
         "options": [
           "Bread and milk",
-          "Two breads and some small pastries",
+          "Two loaves of bread and some small pastries",
           "Only pastries",
           "Fruit and bread"
         ],

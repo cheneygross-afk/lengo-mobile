@@ -392,9 +392,9 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
     "Carlos is very worried because the pencil case is a present from his grandmother. It has colored pencils and a special eraser inside. Without the pencil case, Carlos can't finish his drawing.",
     "His friend Rosa sees Carlos's sad face. \"What are you looking for?\" Rosa asks. Carlos explains the problem in a quiet voice.",
     "Rosa decides to help Carlos. The two of them look in the library and in the playground. They can't find the pencil case anywhere.",
-    "Rosa has an idea. \"Did you lend your pencil case to anyone today?\" she asks. Suddenly, Carlos remembers something important.",
-    "Carlos lent his pencil case to Miguel during art class. The two friends walk over to Miguel's table. The pencil case is there, under a piece of paper.",
-    "Miguel apologizes because he forgot to give the pencil case back. Carlos is very happy to have his pencil case again. Rosa and Carlos are good friends now.",
+    "Rosa has an idea. \"Does anyone have your pencil case?\" she asks. Suddenly, Carlos remembers something important.",
+    "In art class, Miguel uses Carlos's pencil case. The two friends walk over to Miguel's table. The pencil case is there, under a piece of paper.",
+    "Miguel says sorry and gives the pencil case back. Carlos is very happy to have his pencil case again. Rosa and Carlos are good friends now.",
   ],
   "la-clase-de-ajedrez": [
     "Every Tuesday, Iván goes to chess class after school. He really likes thinking about the moves. His favorite piece is the knight.",
@@ -709,7 +709,7 @@ export const A1_STORY_ENGLISH: Record<string, string[]> = {
     "Dad says, \"We're not opening this window now. The birds need peace and quiet.\" The whole family talks quietly in the kitchen.",
     "Two weeks later, Martín hears a sound: \"tweet, tweet, tweet.\" There are four baby birds in the nest! They have no feathers and their mouths are wide open. They are always hungry.",
     "The parent birds bring worms and insects all day long. The baby birds grow fast. Now they have gray feathers. Martín draws pictures of the baby birds in a notebook.",
-    "One day in April, the baby birds hop out of the nest and fly. At first they fly badly, but then they fly well. The nest is empty. Martín is a little sad. But his mom says, \"Maybe they'll come back next year.\" Martín keeps his notebook and waits for spring.",
+    "One day in April, the baby birds hop out of the nest and fly. At first they fly badly, but then they fly well. The nest is empty. Martín is a little sad. But his mom says, \"Maybe they'll come back next year.\" Martín keeps his notebook and waits for next spring.",
   ],
   "the-costume-party": [
     "On Friday there is a costume party at Álex's school. All his friends have new costumes from the store: a superhero, a pirate, a princess and a dinosaur.",

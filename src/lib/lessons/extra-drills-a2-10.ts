@@ -77,7 +77,7 @@ export const DRILLS_A2_10: Record<string, Exercise[]> = {
     toEs("The cake? I gave it to my neighbors.", "¿La tarta? Se la di a mis vecinos.", "Les + la becomes se la; never 'les la'.", ["¿El pastel? Se lo di a mis vecinos.", "¿La torta? Se la di a mis vecinos."]),
     toEs("We left at eight to catch the train.", "Salimos a las ocho para tomar el tren.", "Para + infinitive for purpose ('to / in order to').", ["Salimos a las ocho para coger el tren."]),
     fe("Gracias ___ las flores.", "por", "Thanks [for] the flowers.", "Gracias always takes por (the reason), not para."),
-    toEs("My grandfather is older than my grandmother.", "Mi abuelo es mayor que mi abuela.", "For people's age, 'older' is mayor, not 'más viejo' or 'más mayor'."),
+    toEs("My grandfather is older than my grandmother.", "Mi abuelo es mayor que mi abuela.", "For people's age, 'older' is normally mayor; 'más viejo' sounds blunt, and 'más mayor que' is wrong."),
     fe("No tengo ___ tiempo como tú.", "tanto", "I don't have [as much] time as you.", "With a noun, use tanto/tanta… como agreeing with it; tiempo is masculine singular."),
     toEs("I didn't see anything in the box.", "No vi nada en la caja.", "Spanish needs the double negative: no… nada, not 'vi nada'."),
     toEs("Next week we'll go out to dinner.", "La semana que viene saldremos a cenar.", "Salir has the irregular future stem saldr-: saldremos.", ["La próxima semana saldremos a cenar."]),
