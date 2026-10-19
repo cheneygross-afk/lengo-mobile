@@ -14,7 +14,7 @@ export const DE_C2_U18: Lesson[] = [
       {
         heading: "Opening formulas",
         body: [
-          "A German Zusammenfassung (summary) opens with a sentence that names the author, the text type, the title and the topic. Standard formulas: \"Der Text von X behandelt die Frage, ob...\", \"In ihrem Aufsatz untersucht die Soziologin Y, inwiefern...\", \"Der vorliegende Artikel beschäftigt sich mit...\", \"Die Autorin vertritt die These, dass...\".",
+          "A German summary (\"Zusammenfassung\") opens with a sentence that names the author, the text type, the title and the topic. Standard formulas: \"Der Text von X behandelt die Frage, ob...\", \"In ihrem Aufsatz untersucht die Soziologin Y, inwiefern...\", \"Der vorliegende Artikel beschäftigt sich mit...\", \"Die Autorin vertritt die These, dass...\".",
           "The verbs of topic and purpose are worth learning as a set: \"behandeln\" (to deal with), \"sich beschäftigen mit\", \"sich befassen mit\", \"untersuchen\" (to investigate), \"thematisieren\" (to make something the subject), \"der Frage nachgehen, ob...\" (to pursue the question whether). \"Handeln von\" (to be about) is used for stories and novels, less for academic texts.",
           "The tense is present throughout, even for a text published decades ago: \"Habermas argumentiert...\". English academic writing does the same, so this is one point where your instincts work.",
         ],
@@ -165,7 +165,7 @@ export const DE_C2_U18: Lesson[] = [
       {
         type: "multiple-choice",
         question: "The original lists \"Busse, Straßenbahnen und U-Bahnen\". How does a summary handle this?",
-        options: ["It generalises: der öffentliche Nahverkehr.", "It keeps all three words.", "It quotes the list directly.", "It leaves the idea out completely."],
+        options: ["It generalises: \"der öffentliche Nahverkehr\".", "It keeps all three words.", "It quotes the list directly.", "It leaves the idea out completely."],
         correctIndex: 0,
         explanation: "Summaries generalise lists into a superordinate term.",
       },
@@ -215,7 +215,7 @@ export const DE_C2_U18: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Zitieren und Belegen, Part 6 of 8",
-    summary: "Synthesise several sources: group them by position, contrast with während, wohingegen and im Gegensatz zu, show agreement with in Übereinstimmung mit, describe consensus and dissent, and hedge.",
+    summary: "Synthesise several sources: group them by position, contrast them with \"während\", \"wohingegen\" and \"im Gegensatz zu\", show agreement with \"in Übereinstimmung mit\", describe consensus and dissent, and hedge.",
     duration: "18 min",
     sections: [
       {
@@ -351,7 +351,7 @@ export const DE_C2_U18: Lesson[] = [
         source: "Lang's study confirms Hartmann's findings.",
         answer: "Langs Studie bestätigt die Befunde von Hartmann.",
         altAnswers: ["Langs Studie bestätigt Hartmanns Befunde.", "Die Studie von Lang bestätigt die Befunde von Hartmann.", "Die Studie von Lang bestätigt Hartmanns Befunde.", "Langs Studie bestätigt die Ergebnisse von Hartmann.", "Langs Studie bestätigt Hartmanns Ergebnisse."],
-        explanation: "The Saxon genitive with names has no apostrophe in German: \"Langs Studie\".",
+        explanation: "The Saxon genitive with names normally has no apostrophe in German: \"Langs Studie\" (an apostrophe is tolerated only to clarify the name, and never needed here).",
       },
       {
         type: "fill-blank",
@@ -421,13 +421,13 @@ export const DE_C2_U18: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Real-World Mission: Ein Absatz zum Forschungsstand",
-    summary: "Turn four short abstracts on the four-day week into a 200-word Forschungsstand paragraph: group, contrast, hedge and name the Forschungslücke.",
+    summary: "Turn four short abstracts on the four-day week into a 200-word paragraph on the state of research (\"Forschungsstand\"): group, contrast, hedge and name the research gap (\"Forschungslücke\").",
     duration: "20 min",
     sections: [
       {
         heading: "Your four abstracts",
         body: [
-          "Your mission: for a master's thesis on the four-day week (\"die Viertagewoche\"), write the paragraph on the state of research. You have four abstracts. (1) Krause (2021): a British pilot with 61 firms; productivity stable, sick days down 65 %. (2) Yıldız (2022): survey of 2,000 German employees; 73 % in favour, but mainly office workers. (3) Neumann (2023): case study of a Leipzig care home; staff shortages worsened because shifts could not be covered. (4) Lorenz (2023): economic model; positive effects only if productivity rises by at least 10 %.",
+          "Your mission: for a master's thesis on the four-day week (\"die Viertagewoche\"), write the paragraph on the state of research. You have four abstracts. (1) Krause (2023): a British pilot with 61 firms; productivity stable, sick days down 65 %. (2) Yıldız (2022): survey of 2,000 German employees; 73 % in favour, but mainly office workers. (3) Neumann (2023): case study of a Leipzig care home; staff shortages worsened because shifts could not be covered. (4) Lorenz (2023): economic model; positive effects only if productivity rises by at least 10 %.",
           "First, find the positions: Krause and Yıldız are broadly positive, Neumann and Lorenz point to limits. Then find what's missing: none of the studies looks at long-term effects in German industry or at small firms. That missing piece is your \"Forschungslücke\" (research gap), and naming it justifies your own thesis.",
           "Vocabulary: \"der Forschungsstand\" (state of research), \"die Forschungslücke\", \"das Desiderat\" (something research still lacks: \"Ein Desiderat der Forschung ist...\"), \"bislang\" / \"bisher\" (so far), \"kaum untersucht\" (hardly studied), \"bleibt offen\" (remains open).",
         ],
@@ -461,7 +461,7 @@ export const DE_C2_U18: Lesson[] = [
       {
         heading: "Building the paragraph",
         body: [
-          "Opening: frame the field. \"Die Forschung zur Viertagewoche hat in den letzten Jahren stark zugenommen, konzentriert sich jedoch bislang auf Pilotprojekte.\" Then the positive group: \"Mehrere Studien deuten darauf hin, dass eine verkürzte Arbeitswoche die Produktivität nicht beeinträchtigt (Krause 2021) und auf breite Zustimmung stößt (Yıldız 2022).\"",
+          "Opening: frame the field. \"Die Forschung zur Viertagewoche hat in den letzten Jahren stark zugenommen, konzentriert sich jedoch bislang auf Pilotprojekte.\" Then the positive group: \"Mehrere Studien deuten darauf hin, dass eine verkürzte Arbeitswoche die Produktivität nicht beeinträchtigt (Krause 2023) und auf breite Zustimmung stößt (Yıldız 2022).\"",
           "Contrast: \"Demgegenüber zeigt Neumann (2023) am Beispiel einer Leipziger Pflegeeinrichtung, dass sich der Personalmangel in Schichtberufen verschärfen kann. Auch Lorenz (2023) betont, positive Effekte seien nur bei deutlichen Produktivitätsgewinnen zu erwarten.\" Note the mix of indicative (accepted findings) and Konjunktiv I (a model's conditional claim).",
           "Gap: \"Weitgehend unberücksichtigt bleiben bislang die langfristigen Effekte in kleinen und mittleren Unternehmen der Industrie. Diese Lücke möchte die vorliegende Arbeit schließen.\" \"Eine Lücke schließen\" (to close a gap) is the classic final move.",
         ],
@@ -496,7 +496,7 @@ export const DE_C2_U18: Lesson[] = [
             type: "speak",
             text: "Hier setzt die vorliegende Arbeit an.",
             prompt: "Say it in German: This is where the present thesis comes in.",
-            explanation: "Short, formulaic and very common at the end of a Forschungsstand.",
+            explanation: "Short, formulaic and very common at the end of a \"Forschungsstand\"; \"ansetzen\" is separable, so \"an\" goes to the end.",
           },
         ],
       },
@@ -504,7 +504,7 @@ export const DE_C2_U18: Lesson[] = [
         heading: "Checking your paragraph",
         body: [
           "Check five things before you submit: (1) Is it organised by position, not by author? (2) Does every claim have a source in brackets? (3) Are contested claims in Konjunktiv I or hedged? (4) Is there no \"ich finde\"? (5) Does it end with the gap and your contribution?",
-          "Common errors in learners' Forschungsstände: listing authors one after the other (\"Krause schreibt... Yıldız schreibt...\"), overclaiming (\"Die Forschung beweist, dass die Viertagewoche funktioniert\"), and forgetting the gap. Another is the wrong preposition: research \"zu\" or \"über\" a topic, not \"auf\" (\"die Forschung zur Viertagewoche\").",
+          "Common errors in learners' literature reviews (\"Forschungsstände\"): listing authors one after the other (\"Krause schreibt... Yıldız schreibt...\"), overclaiming (\"Die Forschung beweist, dass die Viertagewoche funktioniert\"), and forgetting the gap. Another is the wrong preposition: research \"zu\" or \"über\" a topic, not \"auf\" (\"die Forschung zur Viertagewoche\").",
           "Length: 200 words is short. Each sentence should do work; cut \"Es ist wichtig zu erwähnen, dass...\" and similar padding.",
         ],
         examples: [
@@ -580,7 +580,7 @@ export const DE_C2_U18: Lesson[] = [
         type: "multiple-choice",
         question: "Which opening organises sources by position rather than by author?",
         options: [
-          "Mehrere Studien deuten auf positive Effekte hin (Krause 2021; Yıldız 2022).",
+          "Mehrere Studien deuten auf positive Effekte hin (Krause 2023; Yıldız 2022).",
           "Krause schreibt etwas über Großbritannien.",
           "Zuerst lese ich Krause, dann Yıldız.",
           "Krause ist eine britische Forscherin.",
@@ -631,7 +631,7 @@ export const DE_C2_U18: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Zitieren und Belegen, Part 7 of 8",
-    summary: "Write in the impersonal academic style: es lässt sich zeigen, es ist festzuhalten, es sei darauf hingewiesen, dass..., die vorliegende Arbeit, im Folgenden; and when ich, wir or the passive are acceptable in different disciplines.",
+    summary: "Write in the impersonal academic style (\"es lässt sich zeigen\", \"es ist festzuhalten\", \"es sei darauf hingewiesen, dass...\", \"die vorliegende Arbeit\", \"im Folgenden\") and know when \"ich\", \"wir\" or the passive are acceptable in different disciplines.",
     duration: "18 min",
     sections: [
       {
@@ -674,7 +674,7 @@ export const DE_C2_U18: Lesson[] = [
         body: [
           "The text itself acts instead of the author: \"Die vorliegende Arbeit untersucht...\", \"Ziel dieser Arbeit ist es, ... zu...\", \"Der folgende Abschnitt widmet sich...\" (is devoted to), \"Kapitel 3 stellt ... dar\". This personification of the text is normal in German, even where English would say I.",
           "Signposting adverbs: \"im Folgenden\" (below, in what follows; capital F because it's a nominalised adjective), \"oben\" / \"weiter oben\" (above), \"wie bereits erwähnt\" (as already mentioned), \"zusammenfassend lässt sich sagen\" (in summary), \"abschließend\".",
-          "Watch the capitals: \"im Folgenden\", \"im Wesentlichen\", \"im Allgemeinen\", \"des Weiteren\" are all capitalised since the 2006 reform; \"folgende Punkte\" (adjective before a noun) is not.",
+          "Watch the capitals: \"im Folgenden\", \"im Wesentlichen\", \"im Allgemeinen\", \"des Weiteren\" are all capitalised since the spelling reform (1996, confirmed in 2006); \"folgende Punkte\" (adjective before a noun) is not.",
         ],
         examples: [
           { es: "Die vorliegende Arbeit untersucht den Einfluss der Digitalisierung auf den Einzelhandel.", en: "This thesis examines the influence of digitalisation on retail." },
@@ -729,7 +729,7 @@ export const DE_C2_U18: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, without using ich.",
+            prompt: "Translate into German, without using \"ich\".",
             source: "The study is limited to the period from 1990 to 2010.",
             answer: "Die Untersuchung beschränkt sich auf den Zeitraum von 1990 bis 2010.",
             altAnswers: ["Die Studie beschränkt sich auf den Zeitraum von 1990 bis 2010.", "Die Arbeit beschränkt sich auf den Zeitraum von 1990 bis 2010.", "Die Untersuchung ist auf den Zeitraum von 1990 bis 2010 beschränkt.", "Die Studie ist auf den Zeitraum von 1990 bis 2010 beschränkt."],
@@ -741,7 +741,7 @@ export const DE_C2_U18: Lesson[] = [
             question: "What does it mean?",
             options: ["As we have seen, the situation is complex.", "We have seen a complex location.", "As we will see, the situation is simple.", "We saw that the situation was complex yesterday."],
             correctIndex: 0,
-            explanation: "The reader-inclusive \"wir\" (Leser-wir) is still common in German academic writing.",
+            explanation: "The reader-inclusive \"wir\" (\"Leser-wir\") is still common in German academic writing.",
           },
         ],
       },
@@ -784,7 +784,7 @@ export const DE_C2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which use of ich is acceptable in most German theses?",
+        question: "Which use of \"ich\" is acceptable in most German theses?",
         options: [
           "Ich beschränke mich auf den Zeitraum von 1990 bis 2010.",
           "Ich finde die Theorie total spannend.",
@@ -911,7 +911,7 @@ export const DE_C2_U18: Lesson[] = [
           {
             type: "speak",
             text: "Die 2020 veröffentlichte Studie kommt zu ähnlichen Ergebnissen.",
-            tip: "Read the extended attribute in one breath: die zwanzig-zwanzig veröffentlichte Studie.",
+            tip: "Read the extended attribute in one breath: \"die zweitausendzwanzig veröffentlichte Studie\" (years from 2000 on are read \"zweitausend...\" in standard German).",
             explanation: "Extended participles are typical of written academic German; read aloud, they need careful phrasing.",
           },
         ],
@@ -1041,8 +1041,8 @@ export const DE_C2_U18: Lesson[] = [
     slug: "c2-quoting-reported-speech-spiral",
     level: "DE-C2",
     number: 6,
-    title: "Spiral Review: Zitieren Heißt Wiedergeben",
-    summary: "Recombine Konjunktiv I and II, reported questions with ob and w-words, and reported commands with sollen and mögen, in a news text and an academic text.",
+    title: "Spiral Review: Zitieren heißt wiedergeben",
+    summary: "Combine Konjunktiv I and II, reported questions with \"ob\" and w-words, and reported commands with \"sollen\" and \"mögen\" in a news text and an academic text.",
     duration: "18 min",
     sections: [
       {
@@ -1082,7 +1082,7 @@ export const DE_C2_U18: Lesson[] = [
       {
         heading: "Reported commands: sollen and mögen",
         body: [
-          "A command or request in indirect speech uses a modal in Konjunktiv I. \"Sollen\" for commands and instructions: \"Warten Sie draußen!\" → \"Er sagte, wir sollten draußen warten\" (sollten because \"wir sollen\" looks indicative) or \"Er sagte, ich solle draußen warten.\"",
+          "A command or request in indirect speech uses a modal in Konjunktiv I. \"Sollen\" for commands and instructions: \"Warten Sie draußen!\" → \"Er sagte, wir sollten draußen warten\" (\"sollten\" because \"wir sollen\" looks indicative) or \"Er sagte, ich solle draußen warten.\"",
           "\"Mögen\" for polite requests: \"Bitte nehmen Sie Platz.\" → \"Sie bat ihn, er möge Platz nehmen.\" This \"möge\" is formal and slightly old-fashioned but standard in news and literature. The infinitive construction is often simpler: \"Sie bat ihn, Platz zu nehmen.\"",
           "Reporting verbs for commands: \"auffordern\" (to call on), \"bitten\", \"anweisen\" (to instruct), \"appellieren an\" (to appeal to): \"Die Polizei forderte die Anwohner auf, ihre Fenster geschlossen zu halten.\"",
         ],
@@ -1115,7 +1115,7 @@ export const DE_C2_U18: Lesson[] = [
           {
             type: "speak",
             text: "Sie bat ihn, er möge Platz nehmen.",
-            prompt: "Say it in German, using möge: She asked him to take a seat.",
+            prompt: "Say it in German, using \"möge\": She asked him to take a seat.",
             explanation: "Konjunktiv I \"möge\" for a reported polite request.",
           },
         ],
@@ -1218,7 +1218,7 @@ export const DE_C2_U18: Lesson[] = [
         source: "It remains open who is to pay for the training.",
         answer: "Offen bleibt, wer die Weiterbildung finanzieren soll.",
         altAnswers: ["Es bleibt offen, wer die Weiterbildung finanzieren soll.", "Offen bleibt, wer die Weiterbildung bezahlen soll.", "Es bleibt offen, wer die Weiterbildung bezahlen soll.", "Offen bleibt, wer für die Weiterbildung bezahlen soll."],
-        explanation: "An indirect w-question as subject; \"sollen\" for is to.",
+        explanation: "An indirect w-question as subject; \"sollen\" for 'is to'.",
       },
       {
         type: "word-order",
@@ -1248,22 +1248,22 @@ export const DE_C2_U18: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Mastery Vocabulary: The Language of Politics",
-    summary: "Talk about German politics precisely: Bundestag and Bundesrat, Koalitionsvertrag, Fraktion, Misstrauensvotum, Erst- and Zweitstimme, Gesetzentwurf, Lesung, Opposition and Regierungserklärung.",
+    summary: "Talk about German politics precisely: \"Bundestag\" and \"Bundesrat\", \"Erststimme\" and \"Zweitstimme\", \"Fraktion\", \"Koalitionsvertrag\", \"Misstrauensvotum\", \"Gesetzentwurf\", \"Lesung\", \"Opposition\" and \"Regierungserklärung\".",
     duration: "18 min",
     sections: [
       {
         heading: "Institutions and elections",
         body: [
-          "\"Der Bundestag\" is the federal parliament, elected by the people; \"der Bundesrat\" represents the 16 Länder (federal states) and must approve many laws. Members of the Bundestag are \"Abgeordnete\" (adjectival noun: \"ein Abgeordneter\", \"die Abgeordnete\"); the chancellor is \"der Bundeskanzler / die Bundeskanzlerin\", elected by the Bundestag, not directly by the people.",
-          "In a federal election (\"die Bundestagswahl\") each voter has two votes: \"die Erststimme\" for a constituency candidate (\"der Direktkandidat\" in a \"Wahlkreis\") and \"die Zweitstimme\" for a party list. The Zweitstimme decides the share of seats, which is why parties say: \"Beide Stimmen zählen, aber die Zweitstimme entscheidet.\" Parties need 5 % (\"die Fünfprozenthürde\") to enter the Bundestag.",
+          "\"Der Bundestag\" is the federal parliament, elected by the people; \"der Bundesrat\" represents the 16 \"Länder\" (federal states) and must approve many laws. Members of the Bundestag are \"Abgeordnete\" (adjectival noun: \"ein Abgeordneter\", \"die Abgeordnete\"); the chancellor is \"der Bundeskanzler / die Bundeskanzlerin\", elected by the Bundestag, not directly by the people.",
+          "In a federal election (\"die Bundestagswahl\") each voter has two votes: \"die Erststimme\" for a constituency candidate (\"der Direktkandidat\" in a \"Wahlkreis\") and \"die Zweitstimme\" for a party list. The Zweitstimme decides the share of seats, which is why parties say: \"Beide Stimmen zählen, aber die Zweitstimme entscheidet.\" Parties normally need 5 % of the second votes (\"die Fünfprozenthürde\") to enter the Bundestag; parties of national minorities are exempt.",
           "The MPs of one party form \"eine Fraktion\" (parliamentary group): \"die Fraktion der Grünen\", \"der Fraktionsvorsitzende\". False friend: \"Fraktion\" is not a faction in the sense of a splinter group (\"der Flügel\", wing). \"Fraktionszwang\" or \"Fraktionsdisziplin\" means party discipline in votes.",
         ],
         examples: [
           { es: "Der Bundesrat muss dem Gesetz noch zustimmen.", en: "The Federal Council still has to approve the law." },
           { es: "Mit der Erststimme wählt man einen Direktkandidaten im Wahlkreis.", en: "With the first vote you elect a constituency candidate." },
           { es: "Die Zweitstimme entscheidet über die Sitzverteilung im Bundestag.", en: "The second vote decides the distribution of seats in the Bundestag." },
-          { es: "Die Partei scheiterte an der Fünfprozenthürde.", en: "The party failed to clear the five percent threshold." },
-          { es: "Die Fraktion stimmte geschlossen gegen den Antrag.", en: "The parliamentary group voted unanimously against the motion." },
+          { es: "Die Partei scheiterte an der Fünfprozenthürde.", en: "The party failed to clear the five per cent threshold." },
+          { es: "Die Fraktion stimmte geschlossen gegen den Antrag.", en: "The parliamentary group voted as a bloc against the motion." },
           { es: "Der linke Flügel der Partei lehnt den Kompromiss ab.", en: "The left wing of the party rejects the compromise." },
         ],
         checkpoint: [
@@ -1271,7 +1271,7 @@ export const DE_C2_U18: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "The party failed to clear the five percent threshold.",
+            source: "The party failed to clear the five per cent threshold.",
             answer: "Die Partei scheiterte an der Fünfprozenthürde.",
             altAnswers: ["Die Partei ist an der Fünfprozenthürde gescheitert.", "Die Partei scheiterte an der Fünf-Prozent-Hürde.", "Die Partei ist an der Fünf-Prozent-Hürde gescheitert."],
             explanation: "\"An etwas scheitern\" (to fail because of something) takes \"an\" + dative; \"scheitern\" takes \"sein\" in the Perfekt.",
@@ -1294,7 +1294,7 @@ export const DE_C2_U18: Lesson[] = [
         ],
         examples: [
           { es: "Nach wochenlangen Verhandlungen wurde der Koalitionsvertrag unterzeichnet.", en: "After weeks of negotiations the coalition agreement was signed." },
-          { es: "Die Kanzlerin gab eine Regierungserklärung zur Energiekrise ab.", en: "The chancellor made a government statement on the energy crisis." },
+          { es: "Der Kanzler gab eine Regierungserklärung zur Energiekrise ab.", en: "The chancellor made a government statement on the energy crisis." },
           { es: "Die Opposition kritisierte den Haushalt scharf.", en: "The opposition sharply criticised the budget." },
           { es: "Ein konstruktives Misstrauensvotum hatte bisher nur einmal Erfolg.", en: "A constructive vote of no confidence has only succeeded once so far." },
           { es: "Der Kanzler stellte im Bundestag die Vertrauensfrage.", en: "The chancellor called a vote of confidence in the Bundestag." },
@@ -1314,7 +1314,7 @@ export const DE_C2_U18: Lesson[] = [
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
             en: "The chancellor [made a government statement] on the energy crisis.",
-            sentence: "Die Kanzlerin ___ zur Energiekrise ab.",
+            sentence: "Der Kanzler ___ zur Energiekrise ab.",
             answer: "gab eine Regierungserklärung",
             explanation: "\"Eine Erklärung abgeben\" (to make a statement) is separable: \"gab ... ab\".",
           },
@@ -1349,7 +1349,7 @@ export const DE_C2_U18: Lesson[] = [
             source: "The law comes into force on 1 January.",
             answer: "Das Gesetz tritt am 1. Januar in Kraft.",
             altAnswers: ["Das Gesetz tritt am ersten Januar in Kraft.", "Am 1. Januar tritt das Gesetz in Kraft.", "Das Gesetz wird am 1. Januar in Kraft treten."],
-            explanation: "\"In Kraft treten\" is the Funktionsverbgefüge for coming into force; \"am\" + date.",
+            explanation: "\"In Kraft treten\" is the fixed verb-noun phrase (\"Funktionsverbgefüge\") for coming into force; \"am\" + date.",
           },
           {
             type: "listen-choose",
@@ -1357,7 +1357,7 @@ export const DE_C2_U18: Lesson[] = [
             question: "What does it mean?",
             options: ["Twelve MPs abstained.", "Twelve MPs said goodbye.", "Twelve MPs voted in favour.", "Twelve MPs were absent."],
             correctIndex: 0,
-            explanation: "\"Sich enthalten\" (strong: enthielt) is to abstain in a vote.",
+            explanation: "\"Sich enthalten\" (strong: \"enthielt\") is to abstain in a vote.",
           },
         ],
       },
@@ -1413,7 +1413,7 @@ export const DE_C2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What happens in a German konstruktives Misstrauensvotum?",
+        question: "What happens in a German \"konstruktives Misstrauensvotum\"?",
         options: [
           "The Bundestag removes the chancellor by electing a successor.",
           "The chancellor asks for the Bundestag's confidence.",
@@ -1457,7 +1457,7 @@ export const DE_C2_U18: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Vocabulary in Context: When Gender Changes the Meaning",
-    summary: "Nouns whose meaning depends on their gender: der Band / das Band / die Band, der Leiter / die Leiter, der See / die See, der Kiefer / die Kiefer, das Steuer / die Steuer, der Gehalt / das Gehalt, der Tor / das Tor, der Verdienst / das Verdienst.",
+    summary: "Use the right article for nouns whose meaning depends on their gender: \"der Band\" / \"das Band\" / \"die Band\", \"der Leiter\" / \"die Leiter\", \"der See\" / \"die See\", \"der Kiefer\" / \"die Kiefer\", \"das Steuer\" / \"die Steuer\", \"der Tor\" / \"das Tor\", \"das Gehalt\" / \"der Gehalt\", \"der Verdienst\" / \"das Verdienst\".",
     duration: "16 min",
     sections: [
       {
@@ -1517,7 +1517,7 @@ export const DE_C2_U18: Lesson[] = [
             source: "Who was at the wheel when the accident happened?",
             answer: "Wer saß am Steuer, als der Unfall passierte?",
             altAnswers: ["Wer saß am Steuer, als der Unfall geschah?", "Wer hat am Steuer gesessen, als der Unfall passiert ist?", "Wer saß am Steuer, als es zu dem Unfall kam?"],
-            explanation: "\"Am Steuer\" (das Steuer, the wheel): dative \"am\" works only with the neuter. \"An der Steuer\" makes no sense.",
+            explanation: "\"Am Steuer\" (= an dem Steuer) points to neuter \"das Steuer\", the wheel; \"*an der Steuer*\" would refer to the tax and makes no sense here.",
           },
           {
             type: "fill-blank",
@@ -1544,7 +1544,7 @@ export const DE_C2_U18: Lesson[] = [
         ],
         examples: [
           { es: "Das Gehalt wird am Monatsende überwiesen.", en: "The salary is transferred at the end of the month." },
-          { es: "Der Alkoholgehalt liegt bei fünf Prozent.", en: "The alcohol content is five percent." },
+          { es: "Der Alkoholgehalt liegt bei fünf Prozent.", en: "The alcohol content is five per cent." },
           { es: "Der Wahrheitsgehalt der Aussage ist fraglich.", en: "How much truth there is in the statement is questionable." },
           { es: "Der Verdienst in der Pflege ist immer noch zu niedrig.", en: "Earnings in care work are still too low." },
           { es: "Es ist ihr Verdienst, dass das Projekt ein Erfolg wurde.", en: "It's thanks to her that the project became a success." },
@@ -1585,7 +1585,7 @@ export const DE_C2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The alcohol content is five percent.",
+        source: "The alcohol content is five per cent.",
         answer: "Der Alkoholgehalt liegt bei fünf Prozent.",
         altAnswers: ["Der Alkoholgehalt beträgt fünf Prozent.", "Der Alkoholgehalt liegt bei 5 Prozent.", "Der Alkoholgehalt beträgt 5 Prozent.", "Der Alkoholgehalt ist fünf Prozent."],
         explanation: "\"Der Gehalt\" (content) is masculine, so \"der Alkoholgehalt\".",
@@ -1660,7 +1660,7 @@ export const DE_C2_U18: Lesson[] = [
 
 export const DE_C2_U18_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Write the Forschungsstand section for a seminar paper on whether social media influence young people's political participation. Invent three or four sources with years. Summarise and synthesise them by position, contrast them, hedge where findings are uncertain, use the impersonal academic style, and end by naming a research gap and how the present paper addresses it.",
+  prompt: "Write the state-of-research section (\"Forschungsstand\") for a seminar paper on whether social media influence young people's political participation. Invent three or four sources with years. Summarise and synthesise them by position, contrast them, hedge where findings are uncertain, use the impersonal academic style, and end by naming a research gap and how the present paper addresses it.",
   minWords: 250,
   maxWords: 400,
   rubric: [

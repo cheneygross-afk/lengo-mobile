@@ -121,7 +121,7 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "He says he [will be] late.",
+        en: "He says he [will] be late.",
         sentence: "Er sagt, er ___ sich verspäten.",
         answer: "werde",
         explanation: "Future: \"werde\" + infinitive.",
@@ -140,10 +140,10 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the Konjunktiv I of \"er schläft\"?",
-        options: ["er schlafe", "er schläfe", "er schliefe", "er schläft"],
+        question: "Mia said: \"Leon schläft noch.\" Which is the neutral, news-style report?",
+        options: ["Mia sagt, Leon schlafe noch.", "Mia sagt, Leon schläfe noch.", "Mia sagt, Leon schliefe noch.", "Mia sagt, Leon schläft noch."],
         correctIndex: 0,
-        explanation: "Infinitive stem \"schlaf-\" + e. \"Schliefe\" would be Konjunktiv II.",
+        explanation: "Konjunktiv I is the infinitive stem \"schlaf-\" + e, with no umlaut: \"schlafe\". \"Schläfe\" doesn't exist, \"schliefe\" is Konjunktiv II, and \"schläft\" is the casual indicative.",
       },
       {
         type: "word-order",
@@ -277,7 +277,7 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The teachers say they [can't] do more.",
+        en: "The teachers say they [can] do no more.",
         sentence: "Die Lehrer sagen, sie ___ nicht mehr tun.",
         answer: "könnten",
         explanation: "\"Sie können\" = indicative → \"könnten\".",
@@ -285,7 +285,7 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Lena says she [can't] come.",
+        en: "Lena says she [can]not come.",
         sentence: "Lena sagt, sie ___ nicht kommen.",
         answer: "könne",
         explanation: "Singular \"könne\" differs from \"kann\": keep the Konjunktiv I.",
@@ -383,7 +383,7 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The witness said he had been at home at that time. (formal report)",
         answer: "Der Zeuge sagte, er sei zu diesem Zeitpunkt zu Hause gewesen.",
-        altAnswers: ["Der Zeuge sagte, er sei in diesem Moment zu Hause gewesen.", "Der Zeuge sagte, dass er zu diesem Zeitpunkt zu Hause gewesen sei.", "Der Zeuge sagte, er sei damals zu Hause gewesen."],
+        altAnswers: ["Der Zeuge sagte, er sei in diesem Moment zu Hause gewesen.", "Der Zeuge sagte, dass er zu diesem Zeitpunkt zu Hause gewesen sei.", "Der Zeuge sagte, er sei damals zu Hause gewesen.", "Der Zeuge sagte, er sei zu diesem Zeitpunkt zuhause gewesen."],
         explanation: "\"Jetzt\" → \"zu diesem Zeitpunkt\".",
       },
       {
@@ -419,7 +419,7 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
         prompt: "Reported the same day: Mia says she's working from home today.",
         source: "Mia says she's working from home today.",
         answer: "Mia sagt, sie arbeite heute von zu Hause.",
-        altAnswers: ["Mia sagt, sie arbeite heute im Homeoffice.", "Mia sagt, dass sie heute von zu Hause arbeite.", "Mia sagt, sie arbeite heute von zu Hause aus."],
+        altAnswers: ["Mia sagt, sie arbeite heute im Homeoffice.", "Mia sagt, dass sie heute von zu Hause arbeite.", "Mia sagt, sie arbeite heute von zu Hause aus.", "Mia sagt, sie arbeite heute von zuhause."],
         explanation: "Same day: \"heute\" stays.",
       },
       {
@@ -597,7 +597,7 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Mehmet says the others [had told] him that.",
+        en: "Mehmet says the others [had] told him that.",
         sentence: "Mehmet sagt, die anderen ___ ihm das so erzählt.",
         answer: "hätten",
         explanation: "Plural \"haben erzählt\" → \"hätten erzählt\".",
@@ -762,9 +762,9 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
         en: "The mayor [conceded] that there were problems.",
-        sentence: "Der Bürgermeister ___ ein, es gebe Probleme.",
-        answer: "räumte",
-        explanation: "\"Einräumen\" (to concede) is separable: \"räumte ... ein\".",
+        sentence: "Der Bürgermeister hat ___, es gebe Probleme.",
+        answer: "eingeräumt",
+        explanation: "\"Einräumen\" (to concede) is separable: participle \"eingeräumt\", with \"ge\" after the prefix.",
       },
       {
         type: "fill-blank",
@@ -824,7 +824,7 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
       {
         heading: "Recap: spelling the forms",
         body: [
-          "Konjunktiv I forms end in -e in the singular: \"sei\" is the exception (no -e). Plural of sein: \"seien\" (with -en). Rare du-forms: \"du habest\", \"du seist\" (or \"du seiest\"), \"du werdest\". Comma before every reported clause, with or without \"dass\".",
+          "Konjunktiv I forms end in -e in the ich and er/sie/es forms: \"sei\" is the exception (no -e). Plural of sein: \"seien\" (with -en). Rare du-forms: \"du habest\", \"du seist\" (or \"du seiest\"), \"du werdest\". Comma before every reported clause, with or without \"dass\".",
           "Listen for the final -e: \"er komme\" (Konjunktiv I) vs \"er kommt\" (indicative).",
         ],
         examples: [
@@ -986,7 +986,7 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
           { es: "Sie fragte nach meinen Gehaltsvorstellungen.", en: "She asked about my salary expectations." },
           { es: "Ich antwortete, ich hätte drei Jahre in einer Agentur gearbeitet.", en: "I answered that I had worked in an agency for three years." },
           { es: "Ich sagte, ich könne im Oktober anfangen.", en: "I said I could start in October." },
-          { es: "Herr Klein meinte, ich werde in zwei Wochen Bescheid bekommen.", en: "Mr Klein said I would hear back in two weeks." },
+          { es: "Herr Klein meinte, ich würde in zwei Wochen Bescheid bekommen.", en: "Mr Klein said I would hear back in two weeks." },
         ],
         checkpoint: [
           {
@@ -1033,9 +1033,9 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "Mr Klein said I would hear back in two weeks. (formal report)",
-        answer: "Herr Klein sagte, ich werde in zwei Wochen Bescheid bekommen.",
-        altAnswers: ["Herr Klein meinte, ich werde in zwei Wochen Bescheid bekommen.", "Herr Klein sagte, ich würde in zwei Wochen Bescheid bekommen.", "Herr Klein sagte, ich bekomme in zwei Wochen Bescheid.", "Herr Klein sagte, dass ich in zwei Wochen Bescheid bekommen werde."],
-        explanation: "\"Ich werde\" is identical to the indicative, so \"würde\" is also correct here.",
+        answer: "Herr Klein sagte, ich würde in zwei Wochen Bescheid bekommen.",
+        altAnswers: ["Herr Klein meinte, ich würde in zwei Wochen Bescheid bekommen.", "Herr Klein sagte, ich werde in zwei Wochen Bescheid bekommen.", "Herr Klein sagte, ich bekomme in zwei Wochen Bescheid.", "Herr Klein sagte, dass ich in zwei Wochen Bescheid bekommen werde."],
+        explanation: "\"Ich werde\" is identical to the indicative, so the substitution rule gives \"ich würde\"; \"ich werde\" is also seen and accepted.",
       },
       {
         type: "translate",
@@ -1084,7 +1084,7 @@ export const DE_B2_U03_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I said I [had] questions about the home office rules.",
+        en: "I said I [had] questions about the rules for working from home.",
         sentence: "Ich sagte, ich ___ Fragen zu den Homeoffice-Regeln.",
         answer: "hätte",
         explanation: "\"Ich habe\" = indicative → \"hätte\".",

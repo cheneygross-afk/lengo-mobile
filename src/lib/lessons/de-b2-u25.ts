@@ -8,13 +8,13 @@ export const DE_B2_U25: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Word Web: Technology and Artificial Intelligence",
-    summary: "The words of digital life, from KI and Algorithmus to herunterladen, speichern and Datenschutz, with sich lassen and -bar.",
+    summary: "Talk about apps, AI and data protection (\"die KI\", \"herunterladen\", \"speichern\", \"der Datenschutz\") and say what can or can't be done with \"sich lassen\" and -bar.",
     duration: "15 min",
     sections: [
       {
         heading: "KI, Algorithmen und Anwendungen",
         body: [
-          "Artificial intelligence is \"die künstliche Intelligenz\", almost always shortened to \"KI\" (said ka-i). The adjective is lowercase because it is a normal adjective, and it takes the usual endings: \"mit künstlicher Intelligenz\", \"die Grenzen der künstlichen Intelligenz\". You will also hear the English AI in tech circles, but news and everyday German say \"KI\".",
+          "Artificial intelligence is \"die künstliche Intelligenz\", almost always shortened to \"KI\" (said ka-i). The adjective is normally lowercase because it is an ordinary adjective (you will sometimes see \"Künstliche Intelligenz\" capitalised as a fixed term), and it takes the usual endings: \"mit künstlicher Intelligenz\", \"die Grenzen der künstlichen Intelligenz\". You will also hear the English AI in tech circles, but news and everyday German say \"KI\".",
           "\"Der Algorithmus\" (plural \"die Algorithmen\") decides what you see; \"die Anwendung\" is an application, more formal than \"die App\" (plural \"die Apps\"). \"Das Gerät\" is any device, \"der Bildschirm\" the screen, \"der Akku\" the rechargeable battery (\"Mein Akku ist leer\": my battery is dead), \"das Update\" the update (in formal texts \"die Aktualisierung\").",
           "False friend: a mobile phone is \"das Handy\" in Germany, a word that sounds English but isn't used that way in English. \"Das Smartphone\" is also common. Don't say \"*das Mobil\"; \"das Mobiltelefon\" exists but sounds like a contract or an official form.",
           "Genders are worth learning with the noun: \"die KI\", \"der Algorithmus\", \"die App\", \"das Update\", \"das Programm\", \"die Software\", \"die Datei\" (the file), \"der Ordner\" (the folder), \"das Passwort\".",
@@ -40,9 +40,9 @@ export const DE_B2_U25: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which noun phrase is correct for 'with artificial intelligence'?",
-            options: ["mit künstlicher Intelligenz", "mit künstliche Intelligenz", "mit Künstlicher Intelligenz", "mit künstlichen Intelligenz"],
+            options: ["mit künstlicher Intelligenz", "mit künstliche Intelligenz", "mit künstlichem Intelligenz", "mit künstlichen Intelligenz"],
             correctIndex: 0,
-            explanation: "\"Mit\" takes the dative, and with no article the adjective takes the strong ending -er for a feminine noun: \"künstlicher Intelligenz\". The adjective stays lowercase.",
+            explanation: "\"Mit\" takes the dative, and with no article the adjective takes the strong ending -er for a feminine noun: \"künstlicher Intelligenz\". \"-em\" would be masculine or neuter.",
           },
         ],
       },
@@ -121,7 +121,7 @@ export const DE_B2_U25: Lesson[] = [
             question: "What does it mean?",
             options: ["Unfortunately the result can't be understood.", "Unfortunately the result can't be changed.", "Unfortunately the result isn't available.", "Unfortunately the result hasn't been saved."],
             correctIndex: 0,
-            explanation: "\"Nachvollziehbar\" means comprehensible, possible to follow step by step; \"nicht nachvollziehbar\" is it makes no sense, I can't follow it.",
+            explanation: "\"Nachvollziehbar\" means comprehensible, possible to follow step by step; \"nicht nachvollziehbar\" means 'it makes no sense, I can't follow it'.",
           },
         ],
       },
@@ -155,7 +155,7 @@ export const DE_B2_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "Don't forget to log out. (to a friend)",
         answer: "Vergiss nicht, dich abzumelden.",
-        altAnswers: ["Vergiss nicht, dich auszuloggen.", "Vergesst nicht, euch abzumelden.", "Vergessen Sie nicht, sich abzumelden."],
+        altAnswers: ["Vergiss nicht, dich auszuloggen."],
         explanation: "In an infinitive clause the reflexive pronoun matches the person (\"dich\"), and \"zu\" goes between prefix and verb: \"abzumelden\".",
       },
       {
@@ -189,7 +189,7 @@ export const DE_B2_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "How the algorithm works isn't comprehensible.",
         answer: "Wie der Algorithmus funktioniert, ist nicht nachvollziehbar.",
-        altAnswers: ["Es ist nicht nachvollziehbar, wie der Algorithmus funktioniert."],
+        altAnswers: ["Es ist nicht nachvollziehbar, wie der Algorithmus funktioniert.", "Wie der Algorithmus arbeitet, ist nicht nachvollziehbar.", "Es ist nicht nachvollziehbar, wie der Algorithmus arbeitet."],
         explanation: "The indirect question is the subject, with the verb at the end (\"funktioniert\"); then the main verb \"ist\" follows in position 2.",
       },
       {
@@ -197,6 +197,7 @@ export const DE_B2_U25: Lesson[] = [
         prompt: "Put the words in order to say: You have to agree to the terms of use.",
         words: ["Sie", "müssen", "den", "Nutzungsbedingungen", "zustimmen."],
         translation: "You have to agree to the terms of use.",
+        altOrders: [["den", "Nutzungsbedingungen", "müssen", "Sie", "zustimmen."]],
         explanation: "\"Zustimmen\" takes the dative: \"den Nutzungsbedingungen\" (dative plural with -n).",
       },
       {
@@ -227,7 +228,7 @@ export const DE_B2_U25: Lesson[] = [
     level: "DE-B2",
     number: 2,
     title: "Spiral Review: Das Bergdorf",
-    summary: "A village in Tyrol argues about a new ski lift: connectors, genitive prepositions and Futur II in a story.",
+    summary: "Follow a village in Tyrol arguing about a new ski lift, and use connectors, genitive prepositions and Futur II to weigh up the plan.",
     duration: "14 min",
     sections: [
       {
@@ -294,7 +295,7 @@ export const DE_B2_U25: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence has the correct word order?",
-            options: ["Die Kosten sind hoch; jedoch würde das Dorf profitieren.", "Die Kosten sind hoch; jedoch das Dorf würde profitieren.", "Die Kosten sind hoch; jedoch das Dorf profitieren würde.", "Die Kosten sind hoch; jedoch würde profitieren das Dorf."],
+            options: ["Die Kosten sind hoch; jedoch würde das Dorf profitieren.", "Die Kosten sind hoch; jedoch profitieren würde das Dorf.", "Die Kosten sind hoch; jedoch das Dorf profitieren würde.", "Die Kosten sind hoch; jedoch würde profitieren das Dorf."],
             correctIndex: 0,
             explanation: "\"Jedoch\" in position 1 is followed directly by the finite verb (\"würde\"); the infinitive goes to the end.",
           },
@@ -367,6 +368,7 @@ export const DE_B2_U25: Lesson[] = [
         en: "[Within a year] the project is supposed to be finished.",
         sentence: "___ soll das Projekt fertig sein.",
         answer: "Innerhalb eines Jahres",
+        altAnswers: ["Innerhalb von einem Jahr"],
         explanation: "\"Innerhalb\" + genitive: \"eines Jahres\". In speech \"innerhalb von einem Jahr\" is also heard.",
       },
       {
@@ -438,8 +440,8 @@ export const DE_B2_U25: Lesson[] = [
     slug: "b2-thematic-review-dilemma-in-der-apotheke",
     level: "DE-B2",
     number: 3,
-    title: "Thematic Review: Dilemmas Hinter dem Tresen",
-    summary: "A pharmacist in Leipzig is asked for a prescription drug without a prescription: modal verbs, indirect speech and regrets.",
+    title: "Thematic Review: Dilemmas hinter dem Tresen",
+    summary: "Follow a pharmacist in Leipzig who is asked for a prescription drug without a prescription, and use \"nicht dürfen\" vs \"nicht müssen\", reported speech and regrets.",
     duration: "15 min",
     sections: [
       {
@@ -485,9 +487,9 @@ export const DE_B2_U25: Lesson[] = [
         ],
         examples: [
           { es: "Er sagte, seine Tochter habe seit zwei Tagen Fieber.", en: "He said his daughter had had a fever for two days." },
-          { es: "Der Kinderarzt sei am Wochenende nicht erreichbar.", en: "The paediatrician was not reachable at the weekend, (he said)." },
+          { es: "Der Kinderarzt sei am Wochenende nicht erreichbar.", en: "(He said) the paediatrician wasn't reachable at the weekend." },
           { es: "Er fragte, ob ich nicht eine Ausnahme machen könne.", en: "He asked whether I couldn't make an exception." },
-          { es: "Er habe das gleiche Antibiotikum schon einmal bekommen.", en: "He had been given the same antibiotic once before, (he said)." },
+          { es: "Er habe das gleiche Antibiotikum schon einmal bekommen.", en: "(He said) he had been given the same antibiotic once before." },
           { es: "Ich sagte ihm, er solle den Bereitschaftsdienst anrufen.", en: "I told him to call the out-of-hours service." },
           { es: "Er meinte, die Wartezeit dort sei viel zu lang.", en: "He said the waiting time there was far too long." },
         ],
@@ -517,7 +519,7 @@ export const DE_B2_U25: Lesson[] = [
         body: [
           "Sabine refused. Later she wonders whether she did the right thing. Regrets and reproaches use the double infinitive (Unit 2): \"Hätte ich ihm das Mittel geben sollen?\", \"Ich hätte ihm wenigstens ein fiebersenkendes Mittel empfehlen können.\" No participle of the modal: never \"*gesollt\" or \"*gekonnt\" here.",
           "In a subordinate clause, \"hätte\" jumps in front of the two infinitives: \"Ich frage mich, ob ich ihm hätte helfen sollen.\" English speakers want to put \"hätte\" at the very end; German doesn't allow it with a double infinitive.",
-          "And the unreal past for the other scenario: \"Wenn ich das Antibiotikum verkauft hätte, hätte ich meine Zulassung riskieren können\" (I could have risked my licence). \"Die Zulassung\" or \"die Approbation\" is the licence to practise.",
+          "And the unreal past for the other scenario: \"Wenn ich das Antibiotikum verkauft hätte, hätte ich meine Zulassung riskiert\" (I would have risked my licence). \"Die Zulassung\" or \"die Approbation\" is the licence to practise.",
         ],
         examples: [
           { es: "Hätte ich ihm das Antibiotikum einfach geben sollen?", en: "Should I have just given him the antibiotic?" },
@@ -647,8 +649,8 @@ export const DE_B2_U25: Lesson[] = [
     slug: "b2-thematic-review-wer-sitzt-am-anderen-ende",
     level: "DE-B2",
     number: 4,
-    title: "Thematic Review: Wer Sitzt am Anderen Ende?",
-    summary: "An online friendship that may be a fake profile: subjective modals, als ob and Futur II to guess who is really writing.",
+    title: "Thematic Review: Wer sitzt am anderen Ende?",
+    summary: "Work out who is behind an online friendship that may be a fake profile, using subjective modals, \"als ob\" and Futur II to make guesses.",
     duration: "15 min",
     sections: [
       {
@@ -660,7 +662,7 @@ export const DE_B2_U25: Lesson[] = [
         ],
         examples: [
           { es: "Das kann nicht stimmen, sie war doch angeblich in Hamburg.", en: "That can't be right, she was supposedly in Hamburg." },
-          { es: "Sie will Medizin studieren, aber sie weiß nichts über die Uni.", en: "She claims to study medicine, but she knows nothing about the university." },
+          { es: "Sie will Medizinstudentin sein, aber sie weiß nichts über die Uni.", en: "She claims to be a medical student, but she knows nothing about the university." },
           { es: "Das Profilbild dürfte aus einer Werbung stammen.", en: "The profile picture probably comes from an advert." },
           { es: "Sie muss die Fotos von einer anderen Seite kopiert haben.", en: "She must have copied the photos from another site." },
           { es: "Solche Profile sollen oft von Betrügern betrieben werden.", en: "Profiles like that are said to be run by fraudsters quite often." },
@@ -793,7 +795,7 @@ export const DE_B2_U25: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The photo [probably comes] from an advert.",
+        en: "The photo [probably] comes from an advert.",
         sentence: "Das Foto ___ aus einer Werbung stammen.",
         answer: "dürfte",
         explanation: "\"Dürfte\" (Konjunktiv II of dürfen) expresses probability: likely but not certain.",
@@ -851,7 +853,7 @@ export const DE_B2_U25: Lesson[] = [
     level: "DE-B2",
     number: 5,
     title: "Word Web: Decisions and Regrets",
-    summary: "Sich entscheiden, eine Entscheidung treffen, abwägen, zögern, bereuen, verpassen vs vermissen, with the double infinitive.",
+    summary: "Talk about decisions and regrets (\"sich entscheiden\", \"eine Entscheidung treffen\", \"abwägen\", \"bereuen\"), tell \"verpassen\" from \"vermissen\" and use the double infinitive.",
     duration: "15 min",
     sections: [
       {
@@ -876,7 +878,7 @@ export const DE_B2_U25: Lesson[] = [
             prompt: "Translate into German.",
             source: "We have to make a decision.",
             answer: "Wir müssen eine Entscheidung treffen.",
-            altAnswers: ["Wir müssen uns entscheiden."],
+            altAnswers: ["Wir müssen uns entscheiden.", "Wir müssen einen Entschluss fassen."],
             explanation: "\"Eine Entscheidung treffen\": the noun goes with \"treffen\". \"*Eine Entscheidung machen\" is a typical English-speaker mistake.",
           },
           {
@@ -927,7 +929,7 @@ export const DE_B2_U25: Lesson[] = [
         heading: "Bereuen, die Reue and the double infinitive",
         body: [
           "\"Bereuen\" (to regret) takes a direct object: \"Ich bereue meine Entscheidung\", \"Ich bereue nichts.\" With a clause: \"Ich bereue es, dass ich nicht gefragt habe\" or \"Ich bereue es, nicht gefragt zu haben.\" \"Die Reue\" (regret, remorse) is a fairly strong, serious word.",
-          "In everyday speech regret is usually \"Es tut mir leid, dass ...\" or the double infinitive from Unit 2: \"Ich hätte nicht zögern sollen\" (I shouldn't have hesitated). In a subordinate clause, \"hätte\" goes before the two infinitives: \"Ich ärgere mich, dass ich die Chance nicht hätte nutzen können.\"",
+          "In everyday speech regret is usually \"Es tut mir leid, dass ...\" or the double infinitive from Unit 2: \"Ich hätte nicht zögern sollen\" (I shouldn't have hesitated). In a subordinate clause, \"hätte\" goes before the two infinitives: \"Ich weiß, dass ich die Chance hätte nutzen sollen.\"",
           "\"Im Nachhinein\" (in hindsight) and \"rückblickend\" (looking back) frame a regret; \"Wer zögert, verliert\" is close to He who hesitates is lost.",
         ],
         examples: [
@@ -1036,8 +1038,8 @@ export const DE_B2_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "You should have taken the chance! (to a friend)",
         answer: "Du hättest die Chance nutzen sollen!",
-        altAnswers: ["Du hättest die Gelegenheit nutzen sollen!", "Du hättest die Chance ergreifen sollen!", "Du hättest die Gelegenheit ergreifen sollen!", "Du hättest die Chance nutzen müssen!"],
-        explanation: "A reproach with the double infinitive. To take a chance is \"nutzen\" or \"ergreifen\", not \"*nehmen\".",
+        altAnswers: ["Du hättest die Gelegenheit nutzen sollen!", "Du hättest die Chance ergreifen sollen!", "Du hättest die Gelegenheit ergreifen sollen!", "Du hättest die Chance nutzen müssen!", "Du hättest die Gelegenheit wahrnehmen sollen!"],
+        explanation: "A reproach with the double infinitive. To take a chance is \"nutzen\", \"ergreifen\" or (for an opportunity) \"wahrnehmen\", not plain \"*nehmen*\".",
       },
       {
         type: "word-order",
@@ -1084,7 +1086,7 @@ export const DE_B2_U25: Lesson[] = [
         heading: "Leg 1: a message to a colleague",
         body: [
           "A translation relay: every sentence asks you to pick a structure, not just words. Before you translate, ask three questions: Is it real or unreal (indicative or Konjunktiv II)? Who does the action, and does it matter (active, passive or an alternative)? What's the register (du or Sie, spoken or written)?",
-          "The first message is to a colleague, Herr Becker, so it's Sie, polite and a little formal. English would have been is a passive in Konjunktiv II past: \"wäre ... worden\" (the passive participle of werden is \"worden\", not \"geworden\"). English should have is the double infinitive.",
+          "The first message is to a colleague, Herr Becker, so it's Sie, polite and a little formal. English 'would have been done' is a passive in Konjunktiv II past: \"wäre ... worden\" (the passive participle of werden is \"worden\", not \"geworden\"). English 'should have' is the double infinitive.",
           "Polite requests use Konjunktiv II: \"Könnten Sie ...?\", \"Wären Sie so nett, ...?\", \"Es wäre schön, wenn ...\".",
         ],
         examples: [
@@ -1121,7 +1123,7 @@ export const DE_B2_U25: Lesson[] = [
         body: [
           "The second text goes on the noticeboard of a block of flats in Köln. It's written, polite and impersonal, so you'll want \"man\", passive alternatives (\"ist zu\" + infinitive for must, \"lässt sich\" for can) and genitive prepositions (\"während der Bauarbeiten\", \"aufgrund eines Wasserschadens\").",
           "Relative clauses carry a lot of information in notices: \"Bewohner, deren Fahrräder im Keller stehen, ...\" (residents whose bikes are in the cellar). \"Deren\" refers back to a plural or feminine noun, \"dessen\" to a masculine or neuter one.",
-          "English will is often just the German present in notices: \"Am Montag wird das Wasser abgestellt\" (passive) or \"Am Montag stellen wir das Wasser ab.\"",
+          "English 'will' is often just the German present in notices: \"Am Montag wird das Wasser abgestellt\" (passive) or \"Am Montag stellen wir das Wasser ab.\"",
         ],
         examples: [
           { es: "Aufgrund eines Wasserschadens wird das Wasser am Montag abgestellt.", en: "Because of water damage, the water will be turned off on Monday." },
@@ -1172,7 +1174,7 @@ export const DE_B2_U25: Lesson[] = [
             prompt: "Translate into German.",
             source: "By working from home, I save a lot of time.",
             answer: "Indem ich von zu Hause arbeite, spare ich viel Zeit.",
-            altAnswers: ["Indem ich im Homeoffice arbeite, spare ich viel Zeit.", "Dadurch, dass ich von zu Hause arbeite, spare ich viel Zeit.", "Durch das Homeoffice spare ich viel Zeit.", "Indem ich von zu Hause aus arbeite, spare ich viel Zeit."],
+            altAnswers: ["Indem ich im Homeoffice arbeite, spare ich viel Zeit.", "Dadurch, dass ich von zu Hause arbeite, spare ich viel Zeit.", "Durch das Homeoffice spare ich viel Zeit.", "Indem ich von zu Hause aus arbeite, spare ich viel Zeit.", "Indem ich von zuhause arbeite, spare ich viel Zeit."],
             explanation: "By + -ing is \"indem\" + clause (verb at the end), then the main clause starts with its verb. Time is \"sparen\", not \"speichern\".",
           },
           {
@@ -1216,7 +1218,7 @@ export const DE_B2_U25: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The door [can only be opened] with the new key.",
+        en: "The door [can only be] opened with the new key.",
         sentence: "Die Tür ___ mit dem neuen Schlüssel öffnen.",
         answer: "lässt sich nur",
         altAnswers: ["lässt sich nur noch"],
@@ -1234,7 +1236,7 @@ export const DE_B2_U25: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which German sentence matches 'Without the update the app would have crashed'?",
-        options: ["Ohne das Update wäre die App abgestürzt.", "Ohne das Update hätte die App abgestürzt.", "Ohne das Update würde die App abgestürzt sein.", "Ohne das Update ist die App abgestürzt."],
+        options: ["Ohne das Update wäre die App abgestürzt.", "Ohne das Update hätte die App abgestürzt.", "Ohne das Update würde die App abstürzen.", "Ohne das Update ist die App abgestürzt."],
         correctIndex: 0,
         explanation: "\"Abstürzen\" (to crash) is a change of state with \"sein\", so the unreal past is \"wäre ... abgestürzt\".",
       },
@@ -1252,6 +1254,7 @@ export const DE_B2_U25: Lesson[] = [
         prompt: "Put the words in order to say: Consequently, companies should offer both models.",
         words: ["Folglich", "sollten", "Firmen", "beide", "Modelle", "anbieten."],
         translation: "Consequently, companies should offer both models.",
+        altOrders: [["Firmen", "sollten", "folglich", "beide", "Modelle", "anbieten."]],
         explanation: "\"Folglich\" in position 1, the modal second, the separable infinitive \"anbieten\" at the end.",
       },
       {
@@ -1281,8 +1284,8 @@ export const DE_B2_U25: Lesson[] = [
     slug: "b2-spiral-talk-meine-stadt",
     level: "DE-B2",
     number: 7,
-    title: "Spiral Review: Talk About Yourself: Was Ich an Meiner Stadt Mag",
-    summary: "Describe your town with relative clauses, emphasis (Was ich am meisten mag, ist ...) and concession.",
+    title: "Spiral Review: Talk About Yourself: Was ich an meiner Stadt mag",
+    summary: "Describe your town with relative clauses, emphasis (\"Was ich am meisten mag, ist ...\") and concession.",
     duration: "14 min",
     sections: [
       {
@@ -1485,7 +1488,7 @@ export const DE_B2_U25: Lesson[] = [
     level: "DE-B2",
     number: 8,
     title: "Word Web: Journalism and the Media",
-    summary: "Newspapers, headlines, broadcasters and sources, with laut, zufolge and Konjunktiv I for reporting what others say.",
+    summary: "Talk about newspapers, headlines, broadcasters and sources, and report what others say with \"laut\", \"zufolge\" and Konjunktiv I.",
     duration: "15 min",
     sections: [
       {
@@ -1693,7 +1696,7 @@ export const DE_B2_U25: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Spiral Review: Participle Phrases in Definitions",
-    summary: "Define media and tech words with participle attributes and relative clauses: ein von Nutzern erstelltes Video.",
+    summary: "Define media and tech words with participle attributes and relative clauses (\"ein von Nutzern erstelltes Video\").",
     duration: "14 min",
     sections: [
       {
@@ -1736,7 +1739,7 @@ export const DE_B2_U25: Lesson[] = [
         heading: "Partizip I attributes: what the noun is doing",
         body: [
           "Partizip I (infinitive + d) is active and ongoing: \"ein ständig wachsendes Netzwerk\" (a constantly growing network) = ein Netzwerk, das ständig wächst. \"Die steigende Zahl der Nutzer\", \"ein sich schnell verbreitendes Gerücht\" (the reflexive \"sich\" stays inside).",
-          "Contrast: \"die veröffentlichte Meldung\" (published, finished) vs \"die Meldung veröffentlichende Zeitung\" (rare and clumsy). In practice Partizip I attributes are mostly short: \"wachsend\", \"steigend\", \"zunehmend\", \"führend\", \"laufend\".",
+          "Contrast: \"die veröffentlichte Meldung\" (published, finished) vs \"die die Meldung veröffentlichende Zeitung\" (the paper publishing the report: rare and clumsy). In practice Partizip I attributes are mostly short: \"wachsend\", \"steigend\", \"zunehmend\", \"führend\", \"laufend\".",
           "The gerundive \"zu\" + Partizip I says what must or can be done: \"die noch zu prüfenden Quellen\" (the sources still to be checked). It mirrors \"sein + zu\": \"Die Quellen sind noch zu prüfen.\"",
         ],
         examples: [
@@ -1911,11 +1914,11 @@ export const DE_B2_U25: Lesson[] = [
         ],
         examples: [
           { es: "Anna schreibt, ihre beste Freundin habe sich vor einem Jahr 2000 Euro von ihr geliehen.", en: "Anna writes that her best friend borrowed 2,000 euros from her a year ago." },
-          { es: "Seitdem habe Julia das Geld nie wieder erwähnt.", en: "Since then Julia has never mentioned the money again, (she says)." },
-          { es: "Die beiden hätten sich seit der Schulzeit nie ernsthaft gestritten.", en: "The two have never seriously argued since their school days, (she says)." },
-          { es: "Sie wisse nicht, wie sie das Thema ansprechen solle.", en: "She doesn't know how she should bring up the subject, (she says)." },
+          { es: "Seitdem habe Julia das Geld nie wieder erwähnt.", en: "Since then, she says, Julia has never mentioned the money again." },
+          { es: "Die beiden hätten sich seit der Schulzeit nie ernsthaft gestritten.", en: "The two of them, she says, have never seriously argued since their school days." },
+          { es: "Sie wisse nicht, wie sie das Thema ansprechen solle.", en: "She says she doesn't know how to bring up the subject." },
           { es: "Sie fragt, ob sie die Freundschaft aufs Spiel setzen dürfe.", en: "She asks whether she may put the friendship at risk." },
-          { es: "Julia sei gerade erst aus einem teuren Urlaub zurückgekommen.", en: "Julia has just come back from an expensive holiday, (she says)." },
+          { es: "Julia sei gerade erst aus einem teuren Urlaub zurückgekommen.", en: "Julia, she says, has only just come back from an expensive holiday." },
         ],
         checkpoint: [
           {
@@ -2074,6 +2077,7 @@ export const DE_B2_U25: Lesson[] = [
         prompt: "Put the words in order to say: In your place I'd be honest.",
         words: ["An", "Ihrer", "Stelle", "wäre", "ich", "ehrlich."],
         translation: "In your place I'd be honest.",
+        altOrders: [["ich", "wäre", "an", "Ihrer", "Stelle", "ehrlich."]],
         explanation: "\"An Ihrer Stelle\" is position 1; \"wäre\" (not \"würde ... sein\") is the usual form of sein.",
       },
       {
@@ -2094,7 +2098,7 @@ export const DE_B2_U25: Lesson[] = [
         type: "speak",
         text: "An Ihrer Stelle würde ich das Gespräch suchen.",
         prompt: "Say it in German: In your place I'd try to talk to her.",
-        tip: "\"Gespräch\": the ä is long, and the final ch is the throaty ach-sound because it follows a.",
+        tip: "\"Gespräch\": the ä is long, and the final ch is the soft ich-sound because it follows ä (only a, o, u and au give the throaty ach-sound).",
         explanation: "\"Das Gespräch suchen\": to seek a conversation, the natural phrase for trying to talk something through.",
       },
     ],
@@ -2104,7 +2108,7 @@ export const DE_B2_U25: Lesson[] = [
     level: "DE-B2",
     number: 11,
     title: "Word Web: Psychology and Personality",
-    summary: "Describe people precisely: ehrgeizig, gelassen, empfindlich, and the false friends sensibel, sympathisch, selbstbewusst, eifersüchtig and neidisch.",
+    summary: "Describe people precisely (\"ehrgeizig\", \"gelassen\", \"empfindlich\") and avoid the false friends \"sensibel\", \"sympathisch\" and \"selbstbewusst\", and tell \"eifersüchtig\" from \"neidisch\".",
     duration: "15 min",
     sections: [
       {
@@ -2142,7 +2146,7 @@ export const DE_B2_U25: Lesson[] = [
               { left: "stur", right: "stubborn" },
               { left: "großzügig", right: "generous" },
             ],
-            explanation: "\"Großzügig\" literally means big-pulling; \"ehrgeizig\" comes from \"Ehre\" (honour) + \"Geiz\" (greed).",
+            explanation: "Learn them as pairs with their opposites where you can (\"zuverlässig\" / \"unzuverlässig\"); \"ehrgeizig\" comes from \"Ehre\" (honour) + \"Geiz\" (in older German: craving, greed).",
           },
         ],
       },
@@ -2164,7 +2168,7 @@ export const DE_B2_U25: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "You want to say 'That's a sensible idea.' Which word do you need?",
+            question: "You want to say 'That's a sensible idea.' Which sentence do you need?",
             options: ["Das ist eine vernünftige Idee.", "Das ist eine sensible Idee.", "Das ist eine sympathische Idee.", "Das ist eine empfindliche Idee."],
             correctIndex: 0,
             explanation: "Sensible = \"vernünftig\". \"Sensibel\" means sensitive.",

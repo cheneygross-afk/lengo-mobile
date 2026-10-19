@@ -15,7 +15,7 @@ export const DE_A1_U08: Lesson[] = [
         heading: "Verb + gern: Ich koche gern",
         body: [
           "English says I like cooking. German doesn't use a like-verb for activities at all: it takes the activity verb and adds the little word \"gern\" (gladly): \"Ich koche gern\" means I cook gladly, so I like cooking. \"Ich lese gern\", \"Ich schwimme gern\", \"Wir tanzen gern\".",
-          "Because \"gern\" is an adverb, the verb is the normal conjugated verb in second place: \"Lena spielt gern Tennis\". The two classic English-speaker mistakes are copying the English (\"Ich mag spielen Fußball\") and putting \"gern\" before the verb (\"Ich gern spiele\").",
+          "Because \"gern\" is an adverb, the verb is the normal conjugated verb in second place: \"Lena spielt gern Tennis\". The two classic English-speaker mistakes are copying the English (\"*Ich mag spielen Fußball\") and putting \"gern\" before the verb (\"*Ich gern spiele\").",
           "You'll also hear \"gerne\" with an -e: it means exactly the same.",
         ],
         examples: [
@@ -33,7 +33,7 @@ export const DE_A1_U08: Lesson[] = [
             source: "I like cooking.",
             answer: "Ich koche gern.",
             altAnswers: ["Ich koche gerne."],
-            explanation: "Activity + \"gern\": \"Ich koche gern\". Not \"Ich mag kochen\" as a translation of English like + -ing.",
+            explanation: "Activity + \"gern\": \"Ich koche gern\". \"Ich mag kochen\" is heard in casual speech, but verb + \"gern\" is the normal German way to say you like doing something.",
           },
           {
             type: "multiple-choice",
@@ -218,7 +218,7 @@ export const DE_A1_U08: Lesson[] = [
         heading: "Gern, lieber, am liebsten",
         body: [
           "\"Gern\" has its own comparative and superlative, and they're irregular: \"gern\" (like), \"lieber\" (prefer, like more), \"am liebsten\" (like best, like most of all). \"Ich trinke gern Tee, lieber Kaffee und am liebsten Wasser.\"",
-          "Don't build them from \"mehr\" and \"meist\": \"mehr gern\" and \"am meisten gern\" are wrong. Just as English good becomes better and best, \"gern\" becomes \"lieber\" and \"am liebsten\".",
+          "Don't build them from \"mehr\" and \"meist\": \"*mehr gern\" and \"*am meisten gern\" are wrong. Just as English good becomes better and best, \"gern\" becomes \"lieber\" and \"am liebsten\".",
         ],
         examples: [
           { es: "Ich trinke gern Tee, aber lieber Kaffee.", en: "I like tea, but I prefer coffee." },
@@ -280,7 +280,7 @@ export const DE_A1_U08: Lesson[] = [
       {
         heading: "Am liebsten... at the start",
         body: [
-          "Like any adverb, \"lieber\" or \"am liebsten\" can start the sentence for emphasis, and the verb still has to be second: \"Am liebsten spiele ich Tennis\", not \"Am liebsten ich spiele Tennis\". This is a very natural way to talk about favourites.",
+          "Like any adverb, \"lieber\" or \"am liebsten\" can start the sentence for emphasis, and the verb still has to be second: \"Am liebsten spiele ich Tennis\", not \"*Am liebsten ich spiele Tennis\". This is a very natural way to talk about favourites.",
           "A typical three-step answer: \"Ich lese gern, ich koche lieber, und am liebsten schlafe ich!\"",
         ],
         examples: [
@@ -357,7 +357,7 @@ export const DE_A1_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "In winter I'd rather stay at home.",
         answer: "Im Winter bleibe ich lieber zu Hause.",
-        altAnswers: ["Ich bleibe im Winter lieber zu Hause."],
+        altAnswers: ["Ich bleibe im Winter lieber zu Hause.", "Im Winter bleibe ich lieber zuhause."],
         explanation: "\"Im Winter\" first, verb second; \"lieber\" follows the subject.",
       },
       {
@@ -407,7 +407,7 @@ export const DE_A1_U08: Lesson[] = [
         heading: "Ich mag Pizza vs Ich esse gern Pizza",
         body: [
           "\"Mögen\" means to like, but German uses it mainly with a noun: a thing, a food, a person. \"Ich mag Pizza\", \"Ich mag Hunde\", \"Magst du Jazz?\" Its forms are irregular: \"ich mag, du magst, er/sie mag, wir mögen, ihr mögt, sie/Sie mögen\".",
-          "For an activity, use verb + \"gern\": \"Ich esse gern Pizza\" (I like eating pizza). With food the two are close in meaning; with activities only \"gern\" sounds natural: \"Ich schwimme gern\", not \"Ich mag schwimmen\".",
+          "For an activity, use verb + \"gern\": \"Ich esse gern Pizza\" (I like eating pizza). With food the two are close in meaning; with activities \"gern\" is the natural choice: \"Ich schwimme gern\" rather than \"Ich mag schwimmen\" (heard, but much less common).",
         ],
         examples: [
           { es: "Ich mag Pizza.", en: "I like pizza." },
@@ -428,9 +428,9 @@ export const DE_A1_U08: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which is natural German for: I like swimming?",
-            options: ["Ich schwimme gern.", "Ich mag schwimmen.", "Ich möchte schwimmen gern.", "Ich mag gern schwimmen."],
+            options: ["Ich schwimme gern.", "Ich gern schwimme.", "Ich möchte schwimmen gern.", "Ich mag schwimmen gern."],
             correctIndex: 0,
-            explanation: "Activities take verb + \"gern\". \"Ich mag schwimmen\" is a typical English-speaker slip.",
+            explanation: "Activities take verb + \"gern\", with the verb second and \"gern\" after it. The other three put the verb or \"gern\" in the wrong place.",
           },
         ],
       },
@@ -514,7 +514,7 @@ export const DE_A1_U08: Lesson[] = [
         source: "My brother doesn't like cheese.",
         answer: "Mein Bruder mag keinen Käse.",
         altAnswers: ["Mein Bruder isst nicht gern Käse."],
-        explanation: "\"Mögen\" with a thing; the er form is \"mag\". Negate a noun with \"kein\": \"keinen Käse\" (der Käse).",
+        explanation: "\"Mögen\" with a thing; the er form is \"mag\". Negate a noun with \"kein\": \"keinen Käse\" (\"der Käse\").",
       },
       {
         type: "translate",
@@ -562,7 +562,7 @@ export const DE_A1_U08: Lesson[] = [
       {
         type: "multiple-choice",
         question: "You're tasting your friend's soup and it's delicious. What do you say?",
-        options: ["Die Suppe schmeckt gut!", "Ich möchte die Suppe!", "Die Suppe gefällt gut!", "Ich mag die Suppe gern!"],
+        options: ["Die Suppe schmeckt gut!", "Ich möchte die Suppe!", "Die Suppe gefällt gut!", "Die Suppe mag gut!"],
         correctIndex: 0,
         explanation: "For taste: \"schmeckt gut\". \"Gefallen\" is for how things look or feel.",
       },
@@ -605,7 +605,7 @@ export const DE_A1_U08: Lesson[] = [
     slug: "a1-dialogue-ich-auch",
     level: "DE-A1",
     number: 4,
-    title: "Dialogue Lab: Ich Auch, Ich Nicht",
+    title: "Dialogue Lab: Ich auch, ich nicht",
     summary: "Agree and disagree about likes in a real conversation: Ich auch, Ich auch nicht, Ich nicht and Ich schon.",
     duration: "12 min",
     sections: [
@@ -687,7 +687,7 @@ export const DE_A1_U08: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Mia says: Ich mag keinen Kaffee. Leon loves coffee. What does he say?",
+            question: "Mia says: \"Ich mag keinen Kaffee.\" Leon loves coffee. What does he say?",
             options: ["Ich schon!", "Ich auch nicht!", "Ich auch!", "Ich nicht!"],
             correctIndex: 0,
             explanation: "Disagreeing with a negative: \"Ich schon!\" (or \"Doch, ich!\").",
@@ -764,7 +764,7 @@ export const DE_A1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your colleague says: Ich esse nicht gern Fleisch. You love meat. What do you say?",
+        question: "Your colleague says: \"Ich esse nicht gern Fleisch.\" You love meat. What do you say?",
         options: ["Ich schon!", "Ich auch!", "Ich auch nicht!", "Ich nicht!"],
         correctIndex: 0,
         explanation: "Disagreeing with a negative: \"Ich schon!\"",
@@ -792,7 +792,7 @@ export const DE_A1_U08: Lesson[] = [
       {
         type: "speak",
         text: "Ich auch nicht!",
-        prompt: "Say it in German. Your friend says: Ich gehe nicht gern joggen. You don't like jogging either.",
+        prompt: "Say it in German. Your friend says: \"Ich gehe nicht gern joggen.\" You don't like jogging either.",
         explanation: "After a negative statement, agreement is \"Ich auch nicht\".",
       },
     ],
@@ -834,7 +834,7 @@ export const DE_A1_U08: Lesson[] = [
             en: "I have rolls [for breakfast].",
             sentence: "___ esse ich Brötchen.",
             answer: "Zum Frühstück",
-            explanation: "For a meal is \"zum\" + the meal: \"zum Frühstück\" (zu dem, das Frühstück).",
+            explanation: "For a meal is \"zum\" + the meal: \"zum Frühstück\" (\"zu dem\", because \"das Frühstück\" is neuter).",
           },
         ],
       },
@@ -886,7 +886,7 @@ export const DE_A1_U08: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "The waiter asks: Zusammen oder getrennt? You and your friend each want to pay for your own. What do you say?",
+            question: "The waiter asks: \"Zusammen oder getrennt?\" You and your friend each want to pay for your own. What do you say?",
             options: ["Getrennt, bitte.", "Zusammen, bitte.", "Stimmt so.", "Die Rechnung, bitte."],
             correctIndex: 0,
             explanation: "\"Getrennt\" means separately; \"zusammen\" means one bill for both.",
@@ -1087,7 +1087,7 @@ export const DE_A1_U08: Lesson[] = [
         heading: "Stress, and the two classic mistakes",
         body: [
           "The prefix is always stressed: \"AUFstehen, EINkaufen, ANrufen, MITkommen\". In the dictionary and after a modal they're written as one word; split only when the verb is conjugated in position 2.",
-          "Mistake one: forgetting the prefix. \"Ich stehe um sieben Uhr\" means I'm standing at seven o'clock, and \"Ich rufe Anna\" means I'm calling out to Anna. Mistake two: keeping the verb whole: \"Ich aufstehe\" doesn't exist. Get into the habit of checking the end of every sentence for a stranded prefix.",
+          "Mistake one: forgetting the prefix. \"Ich stehe um sieben Uhr\" means I'm standing at seven o'clock, and \"Ich rufe Anna\" means I'm calling out to Anna. Mistake two: keeping the verb whole: \"*Ich aufstehe\" doesn't exist. Get into the habit of checking the end of every sentence for a stranded prefix.",
         ],
         examples: [
           { es: "Ich kaufe heute ein.", en: "I'm doing the shopping today." },
@@ -1201,7 +1201,7 @@ export const DE_A1_U08: Lesson[] = [
         question: "What does it mean?",
         options: ["I'll call you tomorrow.", "I'll visit you tomorrow.", "Call me tomorrow.", "I'm calling you now."],
         correctIndex: 0,
-        explanation: "\"Rufe... an\" is anrufen, to phone. (\"Dich\" means you as an object: more on that in Unit 9.)",
+        explanation: "\"Rufe... an\" is \"anrufen\", to phone. (\"Dich\" means you as an object: more on that in Unit 9.)",
       },
       {
         type: "dictation",
@@ -1284,14 +1284,14 @@ export const DE_A1_U08: Lesson[] = [
             question: "What does it mean?",
             options: ["Are you coming along? (to friends)", "Are you coming with me? (to one friend)", "Are they coming?", "When are you coming?"],
             correctIndex: 0,
-            explanation: "\"Ihr\" is you for several friends; \"mit\" at the end makes it mitkommen.",
+            explanation: "\"Ihr\" is you for several friends; \"mit\" at the end makes it \"mitkommen\".",
           },
         ],
       },
       {
         heading: "Prefixes that never split: be-, ver-, er-, ent-, ge-",
         body: [
-          "Some prefixes are glued on for good: \"be-, ver-, er-, ent-, ge-\". These verbs never split and the prefix is never stressed: \"bekommen\" (to get, receive), \"verstehen\" (to understand), \"besuchen\" (to visit), \"erzählen\" (to tell), \"gefallen\" (to please). \"Ich verstehe das nicht\", never \"Ich stehe das nicht ver\".",
+          "Some prefixes are glued on for good: \"be-, ver-, er-, ent-, ge-\". These verbs never split and the prefix is never stressed: \"bekommen\" (to get, receive), \"verstehen\" (to understand), \"besuchen\" (to visit), \"erzählen\" (to tell), \"gefallen\" (to please). \"Ich verstehe das nicht\", never \"*Ich stehe das nicht ver\".",
           "Watch two traps. \"Bekommen\" means to get, not to become (that's \"werden\"): \"Ich bekomme ein Geschenk.\" And a prefix changes the meaning: \"kaufen\" (to buy a thing) vs \"einkaufen\" (to do the shopping) vs \"verkaufen\" (to sell).",
         ],
         examples: [
@@ -1390,7 +1390,7 @@ export const DE_A1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does Ich bekomme ein Geschenk mean?",
+        question: "What does \"Ich bekomme ein Geschenk\" mean?",
         options: ["I'm getting a present.", "I'm becoming a present.", "I'm buying a present.", "I'm giving a present."],
         correctIndex: 0,
         explanation: "\"Bekommen\" is to get or receive; it never means become.",
@@ -1427,7 +1427,7 @@ export const DE_A1_U08: Lesson[] = [
     slug: "a1-daily-routine",
     level: "DE-A1",
     number: 8,
-    title: "My Day: Ich Stehe Um Sieben Auf",
+    title: "My Day: Ich stehe um sieben auf",
     summary: "Describe your day from morning to night with separable verbs, times and zuerst, dann, danach.",
     duration: "14 min",
     sections: [
@@ -1699,7 +1699,7 @@ export const DE_A1_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Jonas texts: Kommst du am Samstag mit ins Kino? You'd love to. What do you reply?",
+            question: "Jonas texts: \"Kommst du am Samstag mit ins Kino?\" You'd love to. What do you reply?",
             options: ["Gern! Gute Idee!", "Leider kann ich nicht.", "Schade!", "Ich auch nicht."],
             correctIndex: 0,
             explanation: "\"Gern!\" accepts an invitation; \"Schade\" means what a pity.",
@@ -1876,7 +1876,7 @@ export const DE_A1_U08: Lesson[] = [
       {
         heading: "Verb first, Sie second",
         body: [
-          "The polite command is the easiest: take the Sie form of the present, put the verb first and \"Sie\" right after it: \"Kommen Sie!\" (come), \"Warten Sie!\" (wait), \"Nehmen Sie Platz!\" (take a seat). Unlike English, German keeps the pronoun: you can't just say \"Kommen!\"",
+          "The polite command is the easiest: take the Sie form of the present, put the verb first and \"Sie\" right after it: \"Kommen Sie!\" (come), \"Warten Sie!\" (wait), \"Nehmen Sie Platz!\" (take a seat). Unlike English, German keeps the pronoun: you can't just say \"*Kommen!\" to one person.",
           "Separable verbs split as usual: \"Kommen Sie herein!\" (come in), \"Rufen Sie mich an!\" (call me: learn it as a chunk). Even \"sein\" has a polite command: \"Seien Sie pünktlich!\" (be on time).",
           "The imperative looks exactly like a yes/no question: \"Kommen Sie?\" (are you coming?) vs \"Kommen Sie!\" (come!). In writing the exclamation mark tells them apart; in speech your voice falls at the end instead of rising.",
         ],
@@ -2077,8 +2077,8 @@ export const DE_A1_U08: Lesson[] = [
         heading: "The du form: Komm! Mach! Warte!",
         body: [
           "For someone you say du to, take the du form of the present, drop the -st ending and drop \"du\": \"du kommst\" → \"Komm!\", \"du machst\" → \"Mach!\", \"du trinkst\" → \"Trink!\" Verbs whose stem ends in -t or -d keep an -e: \"du wartest\" → \"Warte!\", \"du arbeitest\" → \"Arbeite!\"",
-          "Unlike the Sie form, the du imperative has no pronoun at all: \"Du komm!\" is wrong. (Like English, which says come here, not you come here.)",
-          "Stem changes are tricky. The e→i and e→ie changes stay: \"du nimmst\" → \"Nimm!\", \"du liest\" → \"Lies!\", \"du gibst\" → \"Gib!\", \"du isst\" → \"Iss!\", \"du sprichst\" → \"Sprich!\" But the a→ä change disappears: \"du fährst\" → \"Fahr!\", \"du schläfst\" → \"Schlaf!\" The typical mistakes are \"Nehme!\" and \"Fährst!\"",
+          "Unlike the Sie form, the du imperative has no pronoun at all: \"*Du komm!\" is wrong. (Like English, which says come here, not you come here.)",
+          "Stem changes are tricky. The e→i and e→ie changes stay: \"du nimmst\" → \"Nimm!\", \"du liest\" → \"Lies!\", \"du gibst\" → \"Gib!\", \"du isst\" → \"Iss!\", \"du sprichst\" → \"Sprich!\" But the a→ä change disappears: \"du fährst\" → \"Fahr!\", \"du schläfst\" → \"Schlaf!\" The typical mistakes are \"*Nehme!\" and \"*Fährst!\"",
         ],
         examples: [
           { es: "Komm schnell!", en: "Come quickly!" },
@@ -2096,7 +2096,7 @@ export const DE_A1_U08: Lesson[] = [
             source: "Have a piece of cake! (to a friend)",
             answer: "Nimm ein Stück Kuchen!",
             altAnswers: ["Nimm doch ein Stück Kuchen!", "Iss ein Stück Kuchen!"],
-            explanation: "\"Nehmen\": du nimmst → \"Nimm!\" The e→i change stays in the du imperative.",
+            explanation: "\"Nehmen\": \"du nimmst\" → \"Nimm!\" The e→i change stays in the du imperative.",
           },
           {
             type: "multiple-choice",
@@ -2193,10 +2193,10 @@ export const DE_A1_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Read this text! (to a friend)",
-        answer: "Lies diesen Text!",
-        altAnswers: ["Lies den Text!", "Lies mal den Text!", "Lies mal diesen Text!"],
-        explanation: "\"Lesen\": du liest → \"Lies!\" The e→ie change stays.",
+        source: "Read the text! (to a friend)",
+        answer: "Lies den Text!",
+        altAnswers: ["Lies mal den Text!", "Lies bitte den Text!", "Lies bitte mal den Text!"],
+        explanation: "\"Lesen\": \"du liest\" → \"Lies!\" The e→ie change stays; \"*Les!\" and \"*Liest!\" are wrong.",
       },
       {
         type: "translate",
@@ -2205,7 +2205,7 @@ export const DE_A1_U08: Lesson[] = [
         source: "Sleep well! (to a friend)",
         answer: "Schlaf gut!",
         altAnswers: ["Schlafe gut!"],
-        explanation: "\"Schlafen\": du schläfst, but the imperative drops the umlaut: \"Schlaf!\"",
+        explanation: "\"Schlafen\": \"du schläfst\", but the imperative drops the umlaut: \"Schlaf!\"",
       },
       {
         type: "translate",
@@ -2231,7 +2231,7 @@ export const DE_A1_U08: Lesson[] = [
         en: "[Speak] slowly, please! (to a friend)",
         sentence: "___ bitte langsam!",
         answer: "Sprich",
-        explanation: "\"Sprechen\": du sprichst → \"Sprich!\" The e→i change stays.",
+        explanation: "\"Sprechen\": \"du sprichst\" → \"Sprich!\" The e→i change stays.",
       },
       {
         type: "translate",
@@ -2244,7 +2244,7 @@ export const DE_A1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the correct du imperative of nehmen?",
+        question: "You're handing a friend something. How do you say: Take this!",
         options: ["Nimm das!", "Nehme das!", "Nimmst das!", "Du nimm das!"],
         correctIndex: 0,
         explanation: "\"Nimm!\": keep the e→i change, drop -st and drop \"du\".",
@@ -2263,7 +2263,7 @@ export const DE_A1_U08: Lesson[] = [
         question: "What does it mean?",
         options: ["Eat your vegetables!", "Are you eating your vegetables?", "Buy vegetables!", "He eats his vegetables."],
         correctIndex: 0,
-        explanation: "\"Essen\": du isst → \"Iss!\"",
+        explanation: "\"Essen\": \"du isst\" → \"Iss!\"",
       },
       {
         type: "dictation",
@@ -2274,7 +2274,7 @@ export const DE_A1_U08: Lesson[] = [
         type: "speak",
         text: "Fahr bitte langsam!",
         prompt: "Say it in German: Please drive slowly! (to a friend)",
-        explanation: "No umlaut in the imperative: \"Fahr!\", not \"Fähr!\"",
+        explanation: "No umlaut in the imperative: \"Fahr!\", not \"*Fähr!\"",
       },
     ],
   },
@@ -2487,7 +2487,7 @@ export const DE_A1_U08: Lesson[] = [
       {
         type: "speak",
         text: "Steh auf! Steht auf! Stehen Sie auf!",
-        prompt: "Say Get up! three ways: to one friend, to several friends, and politely.",
+        prompt: "Say 'Get up!' three ways: to one friend, to several friends, and politely.",
         explanation: "Du: no pronoun, no -st; ihr: the ihr form; Sie: verb + Sie.",
       },
     ],
@@ -2504,7 +2504,7 @@ export const DE_A1_U08: Lesson[] = [
         heading: "Der Kopf, der Bauch, die Hand",
         body: [
           "Body parts, with their genders: \"der Kopf\" (head), \"der Hals\" (neck, throat), \"der Bauch\" (stomach, belly), \"der Rücken\" (back), \"der Arm\", \"das Bein\" (leg), \"die Hand\", \"der Fuß\" (plural \"die Füße\"), \"das Auge\" (eye, plural \"die Augen\"), \"der Zahn\" (tooth, plural \"die Zähne\").",
-          "Like English, German uses the possessive with body parts: \"Mein Kopf\", \"meine Hand\". The ending follows the noun as always: \"mein Bein\" (das), \"meine Hand\" (die).",
+          "Like English, German uses the possessive with body parts: \"Mein Kopf\", \"meine Hand\". The ending follows the noun as always: \"mein Bein\" (\"das Bein\"), \"meine Hand\" (\"die Hand\").",
         ],
         examples: [
           { es: "Mein Rücken ist ein bisschen steif.", en: "My back is a bit stiff." },
@@ -2539,7 +2539,7 @@ export const DE_A1_U08: Lesson[] = [
       {
         heading: "Kopfschmerzen and tut weh",
         body: [
-          "Two ways to say something hurts. One: a compound with \"-schmerzen\" (pains) and \"haben\": \"Ich habe Kopfschmerzen\" (headache), \"Halsschmerzen\" (sore throat), \"Bauchschmerzen\" (stomach ache), \"Rückenschmerzen\", \"Zahnschmerzen\". It's plural, so no article: never \"eine Kopfschmerzen\".",
+          "Two ways to say something hurts. One: a compound with \"-schmerzen\" (pains) and \"haben\": \"Ich habe Kopfschmerzen\" (headache), \"Halsschmerzen\" (sore throat), \"Bauchschmerzen\" (stomach ache), \"Rückenschmerzen\", \"Zahnschmerzen\". It's plural, so no article: never \"*eine Kopfschmerzen\".",
           "Two: the body part + \"tut weh\" (hurts): \"Mein Bein tut weh.\" The verb agrees with the body part, so with a plural it's \"tun weh\": \"Meine Füße tun weh.\" Forgetting to switch to \"tun\" is the classic slip.",
         ],
         examples: [
@@ -2659,7 +2659,7 @@ export const DE_A1_U08: Lesson[] = [
         source: "I have to go to the doctor's today.",
         answer: "Ich muss heute zum Arzt.",
         altAnswers: ["Heute muss ich zum Arzt.", "Ich muss heute zum Arzt gehen.", "Ich muss heute zur Ärztin.", "Heute muss ich zum Arzt gehen."],
-        explanation: "\"Zum Arzt\" (zu dem); after \"muss\" the verb of motion can be left out.",
+        explanation: "\"Zum Arzt\" (\"zu dem\"); after \"muss\" the verb of motion can be left out.",
       },
       {
         type: "translate",
@@ -2700,7 +2700,7 @@ export const DE_A1_U08: Lesson[] = [
       {
         type: "speak",
         text: "Ich bin krank. Gute Besserung!",
-        prompt: "Your colleague says: Ich bin krank. What do you wish her? Say both lines.",
+        prompt: "Your colleague says: \"Ich bin krank.\" What do you wish her? Say both lines.",
         explanation: "\"Gute Besserung!\" is what you say to anyone who's ill.",
       },
     ],
@@ -2848,7 +2848,7 @@ export const DE_A1_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "I go to the course by tram.",
         answer: "Ich fahre mit der Straßenbahn zum Kurs.",
-        explanation: "\"Mit der Straßenbahn\" (feminine dative), \"zum Kurs\" (der Kurs).",
+        explanation: "\"Mit der Straßenbahn\" (feminine dative), \"zum Kurs\" (\"der Kurs\").",
       },
       {
         type: "fill-blank",
@@ -2877,7 +2877,7 @@ export const DE_A1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Ayşe says: Ich trinke keinen Kaffee. You love coffee. What do you say?",
+        question: "Ayşe says: \"Ich trinke keinen Kaffee.\" You love coffee. What do you say?",
         options: ["Ich schon!", "Ich auch!", "Ich auch nicht!", "Ich nicht!"],
         correctIndex: 0,
         explanation: "Disagreeing with a negative: \"Ich schon!\"",
@@ -3039,7 +3039,7 @@ export const DE_A1_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "On Saturday we're staying at home and watching TV.",
         answer: "Am Samstag bleiben wir zu Hause und sehen fern.",
-        altAnswers: ["Wir bleiben am Samstag zu Hause und sehen fern."],
+        altAnswers: ["Wir bleiben am Samstag zu Hause und sehen fern.", "Am Samstag bleiben wir zuhause und sehen fern."],
         explanation: "\"Zu Hause\" at home; \"fernsehen\" splits: \"sehen... fern\".",
       },
       {
@@ -3088,7 +3088,7 @@ export const DE_A1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The forecast says: Am Samstag regnet es. What do you tell your daughter?",
+        question: "The forecast says: \"Am Samstag regnet es.\" What do you tell your daughter?",
         options: ["Nimm einen Regenschirm mit!", "Nimm eine Sonnenbrille mit!", "Nimmst einen Regenschirm mit!", "Nehme einen Regenschirm mit!"],
         correctIndex: 0,
         explanation: "Rain → umbrella, and the du imperative \"Nimm... mit!\"",
@@ -3135,6 +3135,6 @@ export const DE_A1_U08_WRITING: WriteExercise = {
     "Give an instruction in the ihr imperative, e.g. \"Bringt bitte... mit!\"",
     "Invite with a question such as \"Habt ihr am Samstag Zeit?\" or \"Kommt ihr?\"",
   ],
-  modelAnswer: "Hallo Mia, hallo Jonas, habt ihr am Samstag Zeit? Ich mache ein Abendessen. Ich koche gern Pasta, und am liebsten esse ich Tiramisu! Wir fangen um sieben Uhr an. Bringt bitte Getränke mit! Ich muss am Samstag noch einkaufen, Ruft mich bitte bis Freitag an! Bis bald! Lea",
+  modelAnswer: "Hallo Mia, hallo Jonas, habt ihr am Samstag Zeit? Ich mache ein Abendessen. Ich koche gern Pasta, und am liebsten esse ich Tiramisu! Wir fangen um sieben Uhr an. Bringt bitte Getränke mit! Ich muss am Samstag noch einkaufen. Ruft mich bitte bis Freitag an! Bis bald! Lea",
   explanation: "Likes use verb + \"gern\" / \"am liebsten\". A separable verb splits in a statement (\"fangen... an\") and stays whole after a modal (\"muss... einkaufen\"). The ihr imperative is the ihr form without \"ihr\": \"Bringt... mit!\"",
 };

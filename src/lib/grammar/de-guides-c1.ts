@@ -49,8 +49,8 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
       {
         heading: `Nouns keep their prepositions`,
         body: [
-          `A noun derived from a prepositional verb or adjective usually keeps the preposition: "sich beschäftigen mit" → "die Beschäftigung mit", "verzichten auf" → "der Verzicht auf", "abhängig von" → "die Abhängigkeit von", "teilnehmen an" → "die Teilnahme an". A few change: "sich interessieren für" → "das Interesse an", "sich fürchten vor" → "die Furcht vor".`,
-          `Objects in the accusative become genitives, but prepositional objects stay prepositional: "die Teilnahme an der Konferenz", never "die Teilnahme der Konferenz".`,
+          `A noun derived from a prepositional verb or adjective usually keeps the preposition: "sich beschäftigen mit" → "die Beschäftigung mit", "verzichten auf" → "der Verzicht auf", "abhängig von" → "die Abhängigkeit von", "teilnehmen an" → "die Teilnahme an". A few change or gain one: "sich interessieren für" → "das Interesse an", "lieben" → "die Liebe zu".`,
+          `Objects in the accusative become genitives, but prepositional objects stay prepositional: "die Teilnahme an der Konferenz", never "*die Teilnahme der Konferenz*".`,
         ],
         examples: [
           { de: "Der Verzicht auf Plastik ist schwieriger als gedacht.", en: "Giving up plastic is harder than expected." },
@@ -83,9 +83,9 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
         why: `The verb is "sich interessieren für", but the noun takes "an" + dative.`,
       },
       {
-        wrong: "der Lösung des Problems",
-        right: "die Lösung des Problems",
-        why: `Nouns in "-ung" are always feminine. Gender errors in derived nouns are the most common Advanced slip.`,
+        wrong: "Der Lösung des Problems dauert lange.",
+        right: "Die Lösung des Problems dauert lange.",
+        why: `Nouns formed with "-ung" are always feminine. Gender errors in derived nouns are the most common Advanced slip.`,
       },
       {
         wrong: "die Lieferung Waren",
@@ -100,7 +100,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
       },
       {
         q: `Which suffix gives which gender?`,
-        a: `"-ung", "-heit", "-keit", "-schaft", "-ion", "-tät", "-ei" are feminine; "-ment", "-tum" (mostly), "-chen" and nominalised infinitives are neuter; "-er", "-ling", "-ismus" and many bare stems ("der Bau", "der Verzicht") are masculine.`,
+        a: `"-ung", "-heit", "-keit", "-schaft", "-ion", "-tät", "-ei" are feminine; "-ment" and "-tum" (both mostly: "der Moment", "der Irrtum"), "-chen" and nominalised infinitives are neuter; "-er" (people and tools), "-ling", "-ismus" and many bare stems ("der Bau", "der Verzicht") are masculine.`,
       },
       {
         q: `How do I unpack a heavy noun phrase quickly?`,
@@ -130,13 +130,13 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
     level: "C1",
     intro: [
       `"Wir stellen Ihnen ein Zimmer zur Verfügung" means we will provide you with a room. The verb "stellen" (put) has almost lost its meaning; the content lies in "Verfügung". Such combinations are called Funktionsverbgefüge (FVG): a noun, often with a preposition, plus a light verb.`,
-      `They are everywhere in formal German: in letters from the authorities, contracts, business e-mails and the news. Most have a simple verb equivalent ("zur Verfügung stellen" ≈ "bereitstellen", "eine Entscheidung treffen" ≈ "entscheiden"), but they are not always interchangeable. Many are fixed: you can "eine Entscheidung treffen" but not "machen".`,
+      `They are everywhere in formal German: in letters from the authorities, contracts, business e-mails and the news. Most have a simple verb equivalent ("zur Verfügung stellen" ≈ "bereitstellen", "eine Entscheidung treffen" ≈ "entscheiden"), but they are not always interchangeable. Many are fixed: you can "eine Entscheidung treffen" but not "*eine Entscheidung machen*".`,
     ],
     sections: [
       {
         heading: `The most important Funktionsverbgefüge`,
         body: [
-          `Learn them as units, with article or contraction exactly as they appear. Changing "zur" to "zu der" or adding an adjective often sounds wrong.`,
+          `Learn them as units, with article or contraction exactly as they appear. Changing "zur" to "zu der", or adding an adjective to the noun in the prepositional ones ("zur Verfügung"), usually sounds wrong.`,
         ],
         table: {
           headers: ["Funktionsverbgefüge", "Simple verb", "Meaning"],
@@ -176,7 +176,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
           rows: [
             ["etwas zur Verfügung stellen", "zur Verfügung stehen"],
             ["etwas zur Sprache bringen", "zur Sprache kommen"],
-            ["etwas in Frage stellen", "in Frage kommen (be an option)"],
+            ["etwas in Kraft setzen", "in Kraft treten"],
             ["etwas in Gang setzen / bringen", "in Gang kommen"],
             ["etwas zum Abschluss bringen", "zum Abschluss kommen"],
             ["jemanden in Verlegenheit bringen", "in Verlegenheit kommen / geraten"],
@@ -306,7 +306,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
         heading: `Formal cause, consequence and conclusion`,
         body: [
           `"Zumal" adds an extra reason with weight: all the more so because. "Infolgedessen", "demzufolge", "folglich", "somit" and the very formal "mithin" draw consequences (adverbs, position 1 or Mittelfeld). "Angesichts" + genitive gives a reason as a noun phrase.`,
-          `To conclude: "Zusammenfassend lässt sich sagen, dass ...", "Alles in allem ...", "Letztlich ...", "Unterm Strich ..." (colloquial: the bottom line). Learn the false friend: "schließlich" means finally or after all ("Er ist schließlich dein Bruder" = he is your brother, after all), while "endlich" means at last (after a long wait).`,
+          `To conclude: "Zusammenfassend lässt sich sagen, dass ...", "Alles in allem ...", "Letztlich ...", "Unterm Strich ..." (colloquial: the bottom line). Keep these apart: "schließlich" means finally or after all ("Er ist schließlich dein Bruder" = he is your brother, after all), while "endlich" means at last (after a long wait).`,
         ],
         examples: [
           { de: "Wir sollten früh losfahren, zumal es Glatteis geben soll.", en: "We should leave early, all the more so as there may be black ice." },
@@ -553,7 +553,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
         examples: [
           { de: "Sollte der Zug ausfallen, nehmen wir den Bus.", en: "Should the train be cancelled, we'll take the bus." },
           { de: "Sollten Sie Rückfragen haben, stehe ich Ihnen gern zur Verfügung.", en: "If you have any questions, I'm happy to help." },
-          { de: "Ich hätte da noch eine kurze Frage.", en: "I'd just have one more quick question." },
+          { de: "Ich hätte da noch eine kurze Frage.", en: "I've just got one more quick question." },
           { de: "Würden Sie so freundlich sein, die Tür zu schließen?", en: "Would you be so kind as to close the door?" },
         ],
       },
@@ -567,7 +567,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Ich habe fast den Zug verpasst.",
         right: "Ich hätte fast den Zug verpasst.",
-        why: `What nearly happened but did not is unreal, so German uses the past Konjunktiv II with "fast" or "beinahe".`,
+        why: `What nearly happened but did not is unreal, so German normally uses the past Konjunktiv II with "fast" or "beinahe". (The indicative is heard in casual speech.)`,
       },
       {
         wrong: "Wenn ich das würde wissen, ...",
@@ -577,13 +577,13 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Es war zu kalt, als dass wir baden konnten.",
         right: "Es war zu kalt, als dass wir hätten baden können.",
-        why: `"Zu ... als dass" introduces a result that did not happen and therefore takes Konjunktiv II.`,
+        why: `"Zu ... als dass" introduces a result that did not happen and therefore normally takes Konjunktiv II.`,
       },
     ],
     faqs: [
       {
         q: `Is "bräuchte" correct?`,
-        a: `Yes. "Bräuchte" (with umlaut) was once criticised, but it is now standard and far more common than "würde brauchen".`,
+        a: `Yes. "Bräuchte" (with umlaut) was once criticised, but it is now widely accepted, even in careful writing, and far more common than "würde brauchen".`,
       },
       {
         q: `Should I use "als ob" or "als" + verb?`,
@@ -781,7 +781,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
       {
         heading: `Dative verbs and the bekommen passive`,
         body: [
-          `Verbs with a dative object ("helfen", "danken", "gratulieren", "antworten", "folgen") keep the dative in the passive and have no subject: "Mir wurde geholfen" (I was helped), "Ihnen wird gratuliert". English I was told is "Mir wurde gesagt", never "Ich wurde gesagt".`,
+          `Verbs with a dative object ("helfen", "danken", "gratulieren", "antworten", "folgen") keep the dative in the passive and have no subject: "Mir wurde geholfen" (I was helped), "Ihnen wird gratuliert". English I was told is "Mir wurde gesagt", never "*Ich wurde gesagt*".`,
           `With verbs that have a dative person and an accusative thing ("schicken", "schenken", "erklären", "abnehmen"), the person can become the subject with "bekommen" (colloquially "kriegen") + Partizip II: "Ich bekomme das Paket zugeschickt" (the parcel is sent to me). "Er hat den Führerschein abgenommen bekommen" (he had his licence taken away).`,
         ],
         examples: [
@@ -904,21 +904,21 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
           headers: ["Use", "Present", "Perfekt"],
           rows: [
             ["causative", "Ich lasse das Auto reparieren.", "Ich habe das Auto reparieren lassen."],
-            ["leave", "Ich lasse das Auto stehen.", "Ich habe das Auto stehen lassen / stehengelassen."],
+            ["leave", "Ich lasse das Auto stehen.", "Ich habe das Auto stehen lassen."],
             ["leave (no infinitive)", "Ich lasse den Schlüssel hier.", "Ich habe den Schlüssel hier gelassen."],
             ["subordinate", "..., weil ich das Auto reparieren lasse.", "..., weil ich das Auto habe reparieren lassen."],
           ],
         },
         examples: [
           { de: "Hast du dir die Haare schneiden lassen?", en: "Have you had your hair cut?" },
-          { de: "Ich weiß nicht, ob er sich hat impfen lassen.", en: "I don't know whether he's had himself vaccinated." },
+          { de: "Ich weiß nicht, ob er sich hat impfen lassen.", en: "I don't know whether he's been vaccinated." },
         ],
       },
       {
         heading: `"Sich lassen" and other ways of causing`,
         body: [
           `"Sich lassen" + infinitive means can be done: "Das Fenster lässt sich nicht öffnen", "Darüber lässt sich streiten". See the guide to passive alternatives.`,
-          `"Lassen" is not the only causative. "Machen" + adjective causes a state: "Das macht mich müde." "Bringen" + "zu" causes an action or emotion: "Das bringt mich zum Lachen", "Er hat mich dazu gebracht, mitzukommen." English makes me laugh is never "macht mich lachen".`,
+          `"Lassen" is not the only causative. "Machen" + adjective causes a state: "Das macht mich müde." "Bringen" + "zu" causes an action or emotion: "Das bringt mich zum Lachen", "Er hat mich dazu gebracht, mitzukommen." English makes me laugh is not "*macht mich lachen*" in modern German.`,
         ],
         examples: [
           { de: "Der Fleck lässt sich leicht entfernen.", en: "The stain can easily be removed." },
@@ -1110,7 +1110,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
       {
         heading: `Inseparable prefixes and what they do`,
         body: [
-          `"Be-", "ver-", "zer-", "ent-", "er-", "miss-", "emp-" and "ge-" never separate, are never stressed, and their participles have no "ge-": "besucht", "verstanden", "zerbrochen". Each has typical meanings, though not every word follows them.`,
+          `"Be-", "ver-", "zer-", "ent-", "er-", "miss-", "emp-" and "ge-" never separate, are normally unstressed ("miss-" can be stressed), and their participles have no "ge-": "besucht", "verstanden", "zerbrochen". Each has typical meanings, though not every word follows them.`,
         ],
         table: {
           headers: ["Prefix", "Typical meaning", "Examples"],
@@ -1119,7 +1119,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
             ["ver-", "wrong, away, change, completion", "sich verlaufen, verschlafen, verkaufen, verändern"],
             ["zer-", "into pieces", "zerbrechen, zerstören, zerreißen"],
             ["ent-", "removal, away from, start", "entfernen, entkommen, entstehen"],
-            ["er-", "achieving a result; sometimes killing", "erreichen, erarbeiten, ertrinken"],
+            ["er-", "achieving a result; sometimes dying or killing", "erreichen, erarbeiten, ertrinken, erschießen"],
             ["miss-", "wrongly, badly", "missverstehen, misslingen, misstrauen"],
           ],
         },
@@ -1146,7 +1146,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
       {
         heading: `Suffixes: word class and gender`,
         body: [
-          `Noun suffixes fix the gender: "-ung", "-heit", "-keit", "-schaft", "-ion", "-tät", "-ei", "-ik" give feminine nouns; "-chen", "-lein", "-ment", "-tum", "-um" give neuter (with "der Irrtum" and "der Reichtum" as exceptions); "-er", "-ling", "-ismus", "-ist" give masculine.`,
+          `Noun suffixes fix the gender: "-ung", "-heit", "-keit", "-schaft", "-ion", "-tät", "-ei", "-ik" give feminine nouns; "-chen", "-lein", "-ment", "-tum", "-um" give neuter (exceptions include "der Irrtum", "der Reichtum" and "der Moment"); "-er" (for people and tools), "-ling", "-ismus", "-ist" give masculine.`,
           `Adjective suffixes add meaning: "-lich" (characteristic: "freundlich", "täglich"), "-ig" ("lustig", "heutig"), "-isch" (origin, often negative: "kindisch" childish vs "kindlich" childlike), "-bar" (can be done), "-los" (without), "-voll" (full of), "-haft" (like: "fehlerhaft", "schmerzhaft").`,
         ],
         examples: [
@@ -1181,8 +1181,8 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
         why: `Translate is the inseparable "übersetzen". The separable verb means to ferry across.`,
       },
       {
-        wrong: "der Wohnungtür",
-        right: "die Wohnungstür",
+        wrong: "Der Wohnungtür ist offen.",
+        right: "Die Wohnungstür ist offen.",
         why: `The gender comes from the last part ("die Tür"), and "-ung" normally takes a linking "-s-".`,
       },
       {
@@ -1271,7 +1271,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
         heading: `Du or Sie?`,
         body: [
           `"Sie" is the default with adults you do not know, in shops, at the bank and with the authorities, with superiors in traditional workplaces, and with teachers. "Du" is used with family, friends, children, among students and young people, in many sports clubs and online communities, and in many start-ups and companies that cultivate an informal culture.`,
-          `The switch to "du" is usually offered by the older or more senior person: "Wollen wir uns duzen?" or "Ich bin übrigens Anna." Declining is possible but delicate. Mixed forms exist: the "Hamburger Sie" (first name + Sie: "Anna, können Sie ...?") and the "Münchner Du" (surname + du), the latter now rare.`,
+          `The switch to "du" is usually offered by the older or more senior person: "Wollen wir uns duzen?" or "Ich bin übrigens Anna." Declining is possible but delicate. Mixed forms exist: the "Hamburger Sie" (first name + "Sie": "Anna, können Sie ...?") and the "Münchner Du" (surname + "du"), the latter now rare.`,
           `When you switch, everything changes together: pronouns, possessives, imperatives and reflexives. "Setzen Sie sich, nehmen Sie Ihren Mantel" becomes "Setz dich, nimm deinen Mantel".`,
         ],
         examples: [
@@ -1371,7 +1371,7 @@ export const DE_C1_GUIDES: DeGrammarGuide[] = [
         heading: `Closings and their distance`,
         body: [
           `"Mit freundlichen Grüßen" is the neutral formal closing, with no comma after it. "Freundliche Grüße" is slightly less stiff; "Beste Grüße" and "Viele Grüße" are friendly and professional; "Liebe Grüße" is for people you know well. "Hochachtungsvoll" sounds cold and is used today mainly in disputes.`,
-          `Swiss German writing uses "ss" instead of "ß": "Freundliche Grüsse". In e-mails, "Guten Tag Herr Yilmaz," and "Hallo Frau Becker," are common, more relaxed openings.`,
+          `Swiss Standard German uses "ss" instead of "ß": "Freundliche Grüsse". In e-mails, "Guten Tag Herr Yilmaz," and "Hallo Frau Becker," are common, more relaxed openings.`,
         ],
         table: {
           headers: ["Opening", "Closing", "Relationship"],

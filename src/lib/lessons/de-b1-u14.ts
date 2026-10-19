@@ -83,7 +83,7 @@ export const DE_B1_U14: Lesson[] = [
       {
         heading: "Werden, not sein",
         body: [
-          "The great trap for English speakers: English builds the passive with be (is built), so they reach for \"sein\". But *Das Haus ist gebaut* means something else: the house is finished, a state (you'll meet this Zustandspassiv at the Upper-intermediate level). For the process, the action happening, German uses \"werden\": \"Das Haus wird gebaut\".",
+          "The great trap for English speakers: English builds the passive with be (is built), so they reach for \"sein\". But \"Das Haus ist gebaut\" means something else: the house is finished, a state (you'll meet this Zustandspassiv at the Upper-intermediate level). For the process, the action happening, German uses \"werden\": \"Das Haus wird gebaut\".",
           "A quick test: if you could add right now or every day, it's an action: \"werden\". \"Die Tür wird um acht geschlossen\" (the door is closed at eight: someone closes it) vs \"Die Tür ist geschlossen\" (the door is closed: a state).",
         ],
         examples: [
@@ -136,7 +136,7 @@ export const DE_B1_U14: Lesson[] = [
         source: "The new school is being built.",
         answer: "Die neue Schule wird gebaut.",
         altAnswers: ["Die neue Schule wird gerade gebaut."],
-        explanation: "Process: \"wird gebaut\", not *ist gebaut*.",
+        explanation: "Process (it is happening): \"wird gebaut\". \"Ist gebaut\" would mean the building is already finished, a state.",
       },
       {
         type: "translate",
@@ -153,8 +153,8 @@ export const DE_B1_U14: Lesson[] = [
         prompt: "Translate into German.",
         source: "How is your name spelled? (formal)",
         answer: "Wie wird Ihr Name geschrieben?",
-        altAnswers: ["Wie schreibt man Ihren Namen?"],
-        explanation: "Question word, \"wird\", subject, participle at the end. \"Man\" is the active alternative.",
+        altAnswers: ["Wie schreibt man Ihren Namen?", "Wie wird Ihr Name buchstabiert?"],
+        explanation: "Question word, \"wird\", subject, participle at the end. \"Man\" is the active alternative; \"buchstabieren\" is to spell out letter by letter.",
       },
       {
         type: "fill-blank",
@@ -355,7 +355,7 @@ export const DE_B1_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "How [is] that [done]?",
+        en: "How [is] that done?",
         sentence: "Wie ___ das gemacht?",
         answer: "wird",
         explanation: "\"Das\" is singular: \"wird\".",
@@ -496,7 +496,7 @@ export const DE_B1_U14: Lesson[] = [
             type: "speak",
             text: "Dann wird der Schlüssel übergeben.",
             prompt: "Say it in German: Then the key is handed over.",
-            explanation: "\"Übergeben\" is inseparable: \"übergeben\" (no ge-).",
+            explanation: "\"Übergeben\" (hand over) is inseparable, so its participle is also \"übergeben\", with no ge-.",
           },
         ],
       },
@@ -702,6 +702,7 @@ export const DE_B1_U14: Lesson[] = [
         prompt: "Translate into German.",
         source: "A new bridge is being built.",
         answer: "Eine neue Brücke wird gebaut.",
+        altAnswers: ["Eine neue Brücke wird gerade gebaut.", "Es wird eine neue Brücke gebaut."],
         explanation: "\"Man baut eine neue Brücke\" → \"Eine neue Brücke wird gebaut\".",
       },
       {
@@ -843,8 +844,8 @@ export const DE_B1_U14: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'll help you. (to a friend)",
             answer: "Ich werde dir helfen.",
-            altAnswers: ["Ich helfe dir.", "Ich werde euch helfen.", "Ich werde Ihnen helfen."],
-            explanation: "\"Werde\" + infinitive \"helfen\" at the end.",
+            altAnswers: ["Ich helfe dir.", "Ich werde dir gern helfen."],
+            explanation: "\"Werde\" + infinitive \"helfen\" at the end; \"helfen\" takes the dative: \"dir\", not \"dich\".",
           },
           {
             type: "multiple-choice",
@@ -928,8 +929,8 @@ export const DE_B1_U14: Lesson[] = [
         prompt: "Translate into German.",
         source: "The new library will be opened in May.",
         answer: "Die neue Bibliothek wird im Mai eröffnet.",
-        altAnswers: ["Im Mai wird die neue Bibliothek eröffnet."],
-        explanation: "Present passive with a future time word: \"wird ... eröffnet\".",
+        altAnswers: ["Im Mai wird die neue Bibliothek eröffnet.", "Die neue Bibliothek wird im Mai eröffnet werden.", "Die neue Bibliothek wird im Mai geöffnet."],
+        explanation: "Present passive with a future time word: \"wird ... eröffnet\". A new building is \"eröffnet\" (opened for the first time).",
       },
       {
         type: "fill-blank",
@@ -999,7 +1000,7 @@ export const DE_B1_U14: Lesson[] = [
         body: [
           "For the past, put \"werden\" in the Präteritum: \"wurde\" (singular) or \"wurden\" (plural) + participle at the end: \"Der Kölner Dom wurde 1880 fertiggestellt\" (Cologne Cathedral was completed in 1880). \"Die Mauer wurde 1989 geöffnet\".",
           "The Präteritum passive is the standard form in history, news and reports, and it's common in speech too: \"Mein Fahrrad wurde gestern repariert\". The forms: ich wurde, du wurdest, er/sie/es wurde, wir wurden, ihr wurdet, sie wurden.",
-          "Years in German take no in: \"1989\" alone or \"im Jahr 1989\". English in 1989 → *in 1989* is a common mistake.",
+          "Years take no preposition in German: \"1989\" alone or \"im Jahr 1989\". Copying English in 1989 as \"*in 1989\" is a common mistake.",
         ],
         examples: [
           { es: "Der Kölner Dom wurde 1880 fertiggestellt.", en: "Cologne Cathedral was completed in 1880." },
@@ -1066,7 +1067,7 @@ export const DE_B1_U14: Lesson[] = [
         heading: "The passive in subordinate clauses",
         body: [
           "In a subordinate clause (weil, dass, wenn, ob, relative clauses) the conjugated verb goes to the end, so the passive ends with participle + werden-form: \"..., weil die Straße gerade repariert wird\", \"..., dass das Konzert abgesagt wurde\".",
-          "Order at the end: participle first, then \"wird\" / \"wurde\". English is the other way round (was cancelled), which is why learners write *dass das Konzert wurde abgesagt*.",
+          "Order at the end: participle first, then \"wird\" / \"wurde\". English is the other way round (was cancelled), which is why learners write \"*dass das Konzert wurde abgesagt\".",
         ],
         examples: [
           { es: "Wir kommen später, weil die Straße gerade repariert wird.", en: "We'll be late because the road is being repaired." },
@@ -1136,7 +1137,7 @@ export const DE_B1_U14: Lesson[] = [
         prompt: "Translate into German.",
         source: "We're late because the train was cancelled.",
         answer: "Wir sind zu spät, weil der Zug gestrichen wurde.",
-        altAnswers: ["Wir kommen zu spät, weil der Zug gestrichen wurde.", "Wir sind zu spät, weil der Zug ausgefallen ist.", "Wir kommen zu spät, weil der Zug ausgefallen ist.", "Wir sind spät dran, weil der Zug gestrichen wurde."],
+        altAnswers: ["Wir haben Verspätung, weil der Zug gestrichen wurde.", "Wir kommen zu spät, weil der Zug gestrichen wurde.", "Wir sind zu spät, weil der Zug ausgefallen ist.", "Wir kommen zu spät, weil der Zug ausgefallen ist.", "Wir sind spät dran, weil der Zug gestrichen wurde."],
         explanation: "In the weil-clause: \"gestrichen wurde\" at the end.",
       },
       {
@@ -1424,7 +1425,7 @@ export const DE_B1_U14: Lesson[] = [
         heading: "Passive or Konjunktiv?",
         body: [
           "\"Wurde\" + participle is past passive; \"würde\" + infinitive is Konjunktiv II. The last word confirms what your ear heard: \"Es wurde gemacht\" (it was done) vs \"Ich würde es machen\" (I would do it).",
-          "Watch out in writing: forgetting the umlaut turns a polite \"Würden Sie mir helfen?\" into nonsense (*Wurden Sie mir helfen?*).",
+          "Watch out in writing: forgetting the umlaut turns a polite \"Würden Sie mir helfen?\" into the past tense \"*Wurden Sie mir helfen?\", which makes no sense as a request.",
         ],
         examples: [
           { es: "Es wurde gemacht.", en: "It was done." },
@@ -1543,7 +1544,8 @@ export const DE_B1_U14: Lesson[] = [
         en: "[Would] you like a coffee? (formal)",
         sentence: "___ Sie gern einen Kaffee trinken?",
         answer: "Würden",
-        explanation: "Polite question with Konjunktiv II: \"Würden\".",
+        altAnswers: ["Möchten"],
+        explanation: "Polite question with Konjunktiv II: \"Würden\" with ü. Without the umlaut, \"wurden\" is the past tense.",
       },
       {
         type: "multiple-choice",
@@ -2092,7 +2094,7 @@ export const DE_B1_U14: Lesson[] = [
         prompt: "Translate into German.",
         source: "No smoking here.",
         answer: "Hier wird nicht geraucht.",
-        altAnswers: ["Rauchen verboten.", "Hier darf nicht geraucht werden."],
+        altAnswers: ["Rauchen verboten.", "Hier darf nicht geraucht werden.", "Rauchen ist hier verboten.", "Hier ist Rauchen verboten."],
         explanation: "Subjectless passive: \"Hier wird nicht geraucht\".",
       },
       {
@@ -2110,7 +2112,7 @@ export const DE_B1_U14: Lesson[] = [
         prompt: "Translate into German.",
         source: "Bikes will be removed.",
         answer: "Fahrräder werden entfernt.",
-        altAnswers: ["Die Fahrräder werden entfernt.", "Räder werden entfernt."],
+        altAnswers: ["Die Fahrräder werden entfernt.", "Räder werden entfernt.", "Fahrräder werden entfernt werden."],
         explanation: "Plural: \"werden ... entfernt\".",
       },
       {

@@ -48,7 +48,7 @@ export const DE_B1_U02: Lesson[] = [
         body: [
           "Weak verbs (the regular ones, those with a participle in -t) form the Präteritum by adding -te to the stem, then the person endings: \"ich machte, du machtest, er/sie/es machte, wir machten, ihr machtet, sie/Sie machten\".",
           "The endings are the same as for \"wollte\" and \"konnte\": nothing for ich and er, -st for du, -n for wir and sie, -t for ihr. Notice that ich and er are identical: \"ich wohnte, er wohnte\".",
-          "The most common error is adding a -t to the er form by analogy with the present (\"er macht\"): *er machtet* is wrong; \"er machte\" is right.",
+          "The most common error is adding a -t to the er form by analogy with the present (\"er macht\"): \"*er machtet*\" is wrong; \"er machte\" is right.",
         ],
         examples: [
           { es: "Ich kaufte ein altes Haus auf dem Land.", en: "I bought an old house in the country." },
@@ -65,7 +65,7 @@ export const DE_B1_U02: Lesson[] = [
             en: "He [learned] German quickly.",
             sentence: "Er ___ schnell Deutsch.",
             answer: "lernte",
-            explanation: "Stem \"lern\" + -te, no ending for er: \"lernte\" (not *lerntet*).",
+            explanation: "Stem \"lern\" + -te, no ending for er: \"lernte\" (not \"*lerntet*\").",
           },
           {
             type: "translate",
@@ -83,7 +83,7 @@ export const DE_B1_U02: Lesson[] = [
         body: [
           "If the stem ends in d or t, you couldn't hear a plain -te, so German adds an e: \"arbeiten → arbeitete\", \"reden → redete\", \"warten → wartete\", \"antworten → antwortete\", \"heiraten → heiratete\".",
           "The same happens after a consonant + m or n: \"öffnen → öffnete\", \"regnen → regnete\", \"atmen → atmete\", \"rechnen → rechnete\". These are the verbs whose present also has an extra e (\"er arbeitet\", \"es regnet\", \"sie öffnet\").",
-          "So \"er arbeitete\" really has three syllables of -te-ish sound: ar-bei-te-te. Don't swallow one in writing (*er arbeitte*).",
+          "So \"er arbeitete\" has four syllables, ar-bei-te-te, two of them -te. Don't swallow one in writing (\"*er arbeitte*\").",
         ],
         examples: [
           { es: "Sie arbeitete als Lehrerin in Leipzig.", en: "She worked as a teacher in Leipzig." },
@@ -157,7 +157,6 @@ export const DE_B1_U02: Lesson[] = [
         prompt: "Translate into German, in the written past (Präteritum).",
         source: "Did you play in a band? (to a friend)",
         answer: "Spieltest du in einer Band?",
-        altAnswers: ["Spieltet ihr in einer Band?", "Spielten Sie in einer Band?"],
         explanation: "du: -te + -st: \"spieltest\".",
       },
       {
@@ -217,7 +216,7 @@ export const DE_B1_U02: Lesson[] = [
         body: [
           "Run one verb through all persons until the endings feel automatic: \"ich suchte, du suchtest, er suchte, wir suchten, ihr suchtet, sie suchten\". With -ete: \"ich wartete, du wartetest, er wartete, wir warteten, ihr wartetet, sie warteten\".",
           "Verbs in -ieren are weak too: \"studieren → studierte\", \"telefonieren → telefonierte\", \"reparieren → reparierte\". No surprises there.",
-          "\"Haben\" is weak but slightly irregular: \"hatte\", not *habte*. You already know it from speech.",
+          "\"Haben\" is weak but slightly irregular: \"hatte\", not \"*habte*\". You already know it from speech.",
         ],
         examples: [
           { es: "Ich suchte zwei Monate eine Wohnung.", en: "I looked for a flat for two months." },
@@ -242,7 +241,7 @@ export const DE_B1_U02: Lesson[] = [
             en: "They [had] two children.",
             sentence: "Sie ___ zwei Kinder.",
             answer: "hatten",
-            explanation: "\"Haben → hatte\", plural \"hatten\" (never *habten*).",
+            explanation: "\"Haben → hatte\", plural \"hatten\" (never \"*habten*\").",
           },
         ],
       },
@@ -328,7 +327,7 @@ export const DE_B1_U02: Lesson[] = [
         question: "Which form is wrong?",
         options: ["er habte", "ich hatte", "wir hatten", "du hattest"],
         correctIndex: 0,
-        explanation: "\"Haben\" → \"hatte\": *habte* doesn't exist.",
+        explanation: "\"Haben\" → \"hatte\": \"*habte*\" doesn't exist.",
       },
       {
         type: "translate",
@@ -584,7 +583,7 @@ export const DE_B1_U02: Lesson[] = [
         heading: "Strong verbs: one vowel",
         body: [
           "Strong verbs show the past only in the vowel: \"er kommt\" / \"er kam\", \"er liest\" / \"er las\", \"sie gibt\" / \"sie gab\", \"er fällt\" / \"er fiel\", \"sie läuft\" / \"sie lief\".",
-          "Some present forms already change their vowel (\"er liest\", \"sie gibt\", \"er fällt\"), so don't build the past from them: it's \"las\", not *liest-te*.",
+          "Some present forms already change their vowel (\"er liest\", \"sie gibt\", \"er fällt\"), so don't build the past from them: it's \"las\", not \"*liest-te*\".",
         ],
         examples: [
           { es: "Er liest die Zeitung.", en: "He reads the paper." },
@@ -661,7 +660,7 @@ export const DE_B1_U02: Lesson[] = [
         source: "She ran to the station.",
         answer: "Sie lief zum Bahnhof.",
         altAnswers: ["Sie rannte zum Bahnhof."],
-        explanation: "\"Laufen → lief\" (not *läufte*).",
+        explanation: "\"Laufen → lief\" (not \"*läufte*\").",
       },
       {
         type: "fill-blank",
@@ -718,7 +717,7 @@ export const DE_B1_U02: Lesson[] = [
         heading: "Mixed verbs: vowel change + -te",
         body: [
           "A small group combines both systems: a new vowel like strong verbs, and -te like weak verbs. \"Bringen → brachte\", \"denken → dachte\", \"kennen → kannte\", \"nennen → nannte\", \"rennen → rannte\", \"wissen → wusste\". Their participles match: \"gebracht\", \"gedacht\", \"gekannt\", \"genannt\", \"gerannt\", \"gewusst\".",
-          "The Präteritum and participle share the vowel, so if you know one, you know the other. The invented *er denkte* and *sie bringte* are the typical slips.",
+          "The Präteritum and participle share the vowel, so if you know one, you know the other. The invented \"*er denkte*\" and \"*sie bringte*\" are the typical slips.",
           "English helps here too: bring/brought, think/thought, both with a vowel change and a t.",
         ],
         examples: [
@@ -737,7 +736,7 @@ export const DE_B1_U02: Lesson[] = [
             source: "The waiter brought the bill.",
             answer: "Der Kellner brachte die Rechnung.",
             altAnswers: ["Die Kellnerin brachte die Rechnung."],
-            explanation: "Mixed verb: \"bringen → brachte\" (never *bringte*).",
+            explanation: "Mixed verb: \"bringen → brachte\" (never \"*bringte*\").",
           },
           {
             type: "multiple-choice",
@@ -830,7 +829,7 @@ export const DE_B1_U02: Lesson[] = [
         source: "I thought of my grandmother.",
         answer: "Ich dachte an meine Großmutter.",
         altAnswers: ["Ich dachte an meine Oma."],
-        explanation: "\"Denken an\" + accusative; \"dachte\" (never *denkte*).",
+        explanation: "\"Denken an\" + accusative; \"dachte\" (never \"*denkte*\").",
       },
       {
         type: "translate",
@@ -838,6 +837,7 @@ export const DE_B1_U02: Lesson[] = [
         prompt: "Translate into German, in the written past (Präteritum).",
         source: "We didn't know the answer.",
         answer: "Wir wussten die Antwort nicht.",
+        altAnswers: ["Wir kannten die Antwort nicht."],
         explanation: "\"Wissen → wusste\", plural \"wussten\".",
       },
       {
@@ -887,6 +887,7 @@ export const DE_B1_U02: Lesson[] = [
         prompt: "Put the words in order to say: We bought vegetables at the market.",
         words: ["Wir", "kauften", "auf", "dem", "Markt", "Gemüse", "ein."],
         translation: "We bought vegetables at the market.",
+        altOrders: [["Auf", "dem", "Markt", "kauften", "wir", "Gemüse", "ein."]],
         explanation: "\"Einkaufen\": \"kauften ... ein\", prefix at the end.",
       },
       {
@@ -937,7 +938,7 @@ export const DE_B1_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite Er hat nichts gesagt in the Präteritum: He didn't say anything.",
+            prompt: "Rewrite \"Er hat nichts gesagt\" in the Präteritum: He didn't say anything.",
             source: "He didn't say anything.",
             answer: "Er sagte nichts.",
             explanation: "\"Hat ... gesagt\" → \"sagte\" in position 2.",
@@ -969,14 +970,14 @@ export const DE_B1_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite Der Bus ist pünktlich abgefahren in the Präteritum: The bus left on time.",
+            prompt: "Rewrite \"Der Bus ist pünktlich abgefahren\" in the Präteritum: The bus left on time.",
             source: "The bus left on time.",
             answer: "Der Bus fuhr pünktlich ab.",
             explanation: "\"Fuhr\" in position 2, \"ab\" at the end.",
           },
           {
             type: "multiple-choice",
-            question: "Mehmet hat mich abgeholt in the Präteritum?",
+            question: "Rewrite \"Mehmet hat mich abgeholt\" in the Präteritum. Which is right?",
             options: ["Mehmet holte mich ab.", "Mehmet abholte mich.", "Mehmet holt mich ab.", "Mehmet hielt mich ab."],
             correctIndex: 0,
             explanation: "\"Abholen\" is weak: \"holte ... ab\". (\"Hielt ab\" is from \"abhalten\", to hold back.)",
@@ -1000,7 +1001,7 @@ export const DE_B1_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite Ich habe ein Buch gelesen und bin eingeschlafen in the Präteritum: I read a book and fell asleep.",
+            prompt: "Rewrite \"Ich habe ein Buch gelesen und bin eingeschlafen\" in the Präteritum: I read a book and fell asleep.",
             source: "I read a book and fell asleep.",
             answer: "Ich las ein Buch und schlief ein.",
             explanation: "\"Las\" (strong), \"schlief ... ein\" (strong, separable).",
@@ -1018,7 +1019,7 @@ export const DE_B1_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite Wir haben lange gewartet in the Präteritum: We waited a long time.",
+        prompt: "Rewrite \"Wir haben lange gewartet\" in the Präteritum: We waited a long time.",
         source: "We waited a long time.",
         answer: "Wir warteten lange.",
         explanation: "\"Warteten\": weak with -ete.",
@@ -1026,7 +1027,7 @@ export const DE_B1_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite Ich habe ihm Blumen gebracht in the Präteritum: I brought him flowers.",
+        prompt: "Rewrite \"Ich habe ihm Blumen gebracht\" in the Präteritum: I brought him flowers.",
         source: "I brought him flowers.",
         answer: "Ich brachte ihm Blumen.",
         explanation: "Mixed verb: \"brachte\".",
@@ -1034,7 +1035,7 @@ export const DE_B1_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite Sie hat das Fenster aufgemacht in the Präteritum: She opened the window.",
+        prompt: "Rewrite \"Sie hat das Fenster aufgemacht\" in the Präteritum: She opened the window.",
         source: "She opened the window.",
         answer: "Sie machte das Fenster auf.",
         altAnswers: ["Sie öffnete das Fenster."],
@@ -1051,14 +1052,14 @@ export const DE_B1_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite Wir sind im Hotel geblieben in the Präteritum: We stayed at the hotel.",
+        prompt: "Rewrite \"Wir sind im Hotel geblieben\" in the Präteritum: We stayed at the hotel.",
         source: "We stayed at the hotel.",
         answer: "Wir blieben im Hotel.",
         explanation: "\"Sind ... geblieben\" → \"blieben\".",
       },
       {
         type: "multiple-choice",
-        question: "Er hat seinen Bruder angerufen in the Präteritum?",
+        question: "Rewrite \"Er hat seinen Bruder angerufen\" in the Präteritum. Which is right?",
         options: ["Er rief seinen Bruder an.", "Er anrief seinen Bruder.", "Er rufte seinen Bruder an.", "Er rief an seinen Bruder."],
         correctIndex: 0,
         explanation: "\"Anrufen\" is strong: \"rief\", with \"an\" at the end.",
@@ -1066,7 +1067,7 @@ export const DE_B1_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite Das Kind hat lange geweint in the Präteritum: The child cried for a long time.",
+        prompt: "Rewrite \"Das Kind hat lange geweint\" in the Präteritum: The child cried for a long time.",
         source: "The child cried for a long time.",
         answer: "Das Kind weinte lange.",
         explanation: "Weak: \"weinte\".",
@@ -1210,7 +1211,7 @@ export const DE_B1_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German, in the written past (Präteritum).",
-        source: "The vase was on the shelf.",
+        source: "The vase was standing on the shelf.",
         answer: "Die Vase stand auf dem Regal.",
         explanation: "Upright position: \"stand\" + dative.",
       },
@@ -1302,8 +1303,8 @@ export const DE_B1_U02: Lesson[] = [
       {
         heading: "Strong verbs with a weak ending",
         body: [
-          "The commonest invented forms come from adding -te to a strong verb: *er gingte*, *ich kamte*, *wir sahten*. Strong verbs never take -te; the vowel change is enough: \"er ging\", \"ich kam\", \"wir sahen\".",
-          "The opposite also happens with mixed verbs, which need both: *sie denkte* misses the vowel change (\"dachte\"), *er brang* misses the -te (\"brachte\").",
+          "The commonest invented forms come from adding -te to a strong verb: \"*er gingte*\", \"*ich kamte*\", \"*wir sahten*\". Strong verbs never take -te; the vowel change is enough: \"er ging\", \"ich kam\", \"wir sahen\".",
+          "The opposite also happens with mixed verbs, which need both: \"*sie denkte*\" misses the vowel change (\"dachte\"), \"*er brang*\" misses the -te (\"brachte\").",
         ],
         examples: [
           { es: "Er ging nach Hause.", en: "He went home. (not: er gingte)" },
@@ -1316,14 +1317,14 @@ export const DE_B1_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: Wir sahten einen tollen Film. Write the corrected sentence (written past).",
+            prompt: "A learner wrote: \"*Wir sahten einen tollen Film.\" Write the corrected sentence (written past).",
             source: "We saw a great film.",
             answer: "Wir sahen einen tollen Film.",
             explanation: "Strong verb: \"sahen\", no -te.",
           },
           {
             type: "fill-blank",
-            prompt: "A learner wrote: Sie denkte an ihre Kinder. Write the German for the bold word.",
+            prompt: "A learner wrote: \"*Sie denkte an ihre Kinder.\" Write the German for the bold word.",
             en: "She [thought] of her children.",
             sentence: "Sie ___ an ihre Kinder.",
             answer: "dachte",
@@ -1334,8 +1335,8 @@ export const DE_B1_U02: Lesson[] = [
       {
         heading: "Spelling slips and the participle trap",
         body: [
-          "*Ich wuste*: \"wissen → wusste\" keeps the double s (short u). *Er arbeitte*: after t you need the e, \"arbeitete\". *Er habte*: \"hatte\".",
-          "Another trap is using a participle as if it were a past tense: *Er gefahren nach Hamburg*. A participle alone is never a finite verb. Either \"Er ist nach Hamburg gefahren\" (Perfekt) or \"Er fuhr nach Hamburg\" (Präteritum).",
+          "\"*Ich wuste*\": \"wissen → wusste\" keeps the double s (short u). \"*Er arbeitte*\": after t you need the e, \"arbeitete\". \"*Er habte*\": \"hatte\".",
+          "Another trap is using a participle as if it were a past tense: \"*Er gefahren nach Hamburg*\". A participle alone is never a finite verb. Either \"Er ist nach Hamburg gefahren\" (Perfekt) or \"Er fuhr nach Hamburg\" (Präteritum).",
         ],
         examples: [
           { es: "Ich wusste das nicht.", en: "I didn't know that. (not: ich wuste)" },
@@ -1348,7 +1349,7 @@ export const DE_B1_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: Er gefahren nach Hamburg. Write the corrected sentence in the Präteritum.",
+            prompt: "A learner wrote: \"*Er gefahren nach Hamburg.\" Write the corrected sentence in the Präteritum.",
             source: "He went to Hamburg.",
             answer: "Er fuhr nach Hamburg.",
             explanation: "A participle can't stand alone: Präteritum \"fuhr\".",
@@ -1365,8 +1366,8 @@ export const DE_B1_U02: Lesson[] = [
       {
         heading: "Separable verbs in the wrong place",
         body: [
-          "*Er aufstand um sieben* keeps the verb joined in a main clause. In a main clause it splits: \"Er stand um sieben auf\". The joined form belongs only at the end of a subordinate clause: \"..., weil er um sieben aufstand\".",
-          "And the reverse slip: *..., weil er stand um sieben auf* keeps main-clause order after \"weil\". The verb goes to the end, joined.",
+          "\"*Er aufstand um sieben*\" keeps the verb joined in a main clause. In a main clause it splits: \"Er stand um sieben auf\". The joined form belongs only at the end of a subordinate clause: \"..., weil er um sieben aufstand\".",
+          "And the reverse slip: \"*..., weil er stand um sieben auf*\" keeps main-clause order after \"weil\". The verb goes to the end, joined.",
         ],
         examples: [
           { es: "Er stand um sieben auf.", en: "He got up at seven. (not: er aufstand)" },
@@ -1378,7 +1379,7 @@ export const DE_B1_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: Er aufstand um sieben. Write the corrected sentence (written past).",
+            prompt: "A learner wrote: \"*Er aufstand um sieben.\" Write the corrected sentence (written past).",
             source: "He got up at seven.",
             answer: "Er stand um sieben auf.",
             altAnswers: ["Er stand um sieben Uhr auf.", "Um sieben stand er auf."],
@@ -1398,7 +1399,7 @@ export const DE_B1_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Er gingte nach Hause. Write the corrected sentence (written past).",
+        prompt: "A learner wrote: \"*Er gingte nach Hause.\" Write the corrected sentence (written past).",
         source: "He went home.",
         answer: "Er ging nach Hause.",
         explanation: "Strong: \"ging\", no -te.",
@@ -1406,7 +1407,7 @@ export const DE_B1_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Ich kamte zu spät. Write the corrected sentence (written past).",
+        prompt: "A learner wrote: \"*Ich kamte zu spät.\" Write the corrected sentence (written past).",
         source: "I was late.",
         answer: "Ich kam zu spät.",
         explanation: "Strong: \"kam\".",
@@ -1414,7 +1415,7 @@ export const DE_B1_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Ich wuste das nicht. Write the corrected sentence (written past).",
+        prompt: "A learner wrote: \"*Ich wuste das nicht.\" Write the corrected sentence (written past).",
         source: "I didn't know that.",
         answer: "Ich wusste das nicht.",
         altAnswers: ["Das wusste ich nicht."],
@@ -1422,7 +1423,7 @@ export const DE_B1_U02: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote: Er bringte Wein mit. Write the German for the bold word.",
+        prompt: "A learner wrote: \"*Er bringte Wein mit.\" Write the German for the bold word.",
         en: "He [brought] some wine.",
         sentence: "Er ___ Wein mit.",
         answer: "brachte",
@@ -1431,7 +1432,7 @@ export const DE_B1_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Wir gegessen im Garten. Write the corrected sentence (written past).",
+        prompt: "A learner wrote: \"*Wir gegessen im Garten.\" Write the corrected sentence (written past).",
         source: "We ate in the garden.",
         answer: "Wir aßen im Garten.",
         explanation: "Präteritum \"aßen\"; a participle can't stand alone.",
@@ -1446,7 +1447,7 @@ export const DE_B1_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Der Laden zumachte um neun. Write the corrected sentence (written past).",
+        prompt: "A learner wrote: \"*Der Laden zumachte um neun.\" Write the corrected sentence (written past).",
         source: "The shop closed at nine.",
         answer: "Der Laden machte um neun zu.",
         altAnswers: ["Der Laden schloss um neun.", "Das Geschäft machte um neun zu."],
@@ -1526,7 +1527,7 @@ export const DE_B1_U02: Lesson[] = [
           "Every verb is in the Präteritum, and the vocabulary is more formal: \"beinahe\" (nearly) for \"fast\", \"der Rettungsdienst\" for \"der Krankenwagen\", \"eine Passantin\" (a passer-by) instead of \"ich\".",
         ],
         examples: [
-          { es: "Am Dienstagmorgen stürzte in der Bahnhofstraße ein Radfahrer.", en: "On Tuesday morning a cyclist fell in the street by the station." },
+          { es: "Am Dienstagmorgen stürzte in der Bahnhofstraße ein Radfahrer.", en: "On Tuesday morning a cyclist fell on Bahnhofstraße." },
           { es: "Ein Auto erfasste ihn beinahe.", en: "A car nearly hit him." },
           { es: "Eine Passantin rief sofort den Rettungsdienst.", en: "A passer-by immediately called the emergency services." },
           { es: "Der Mann war nur leicht verletzt.", en: "The man was only slightly injured." },
@@ -1600,7 +1601,7 @@ export const DE_B1_U02: Lesson[] = [
         prompt: "Translate into German, as a newspaper would write it.",
         source: "A cyclist fell on Bahnhofstraße.",
         answer: "In der Bahnhofstraße stürzte ein Radfahrer.",
-        altAnswers: ["Ein Radfahrer stürzte in der Bahnhofstraße."],
+        altAnswers: ["Ein Radfahrer stürzte in der Bahnhofstraße.", "Auf der Bahnhofstraße stürzte ein Radfahrer.", "Ein Radfahrer stürzte auf der Bahnhofstraße."],
         explanation: "Written: Präteritum \"stürzte\".",
       },
       {

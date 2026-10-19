@@ -97,7 +97,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
         source: "What other people think is none of my business.",
         answer: "Was andere Leute denken, ist nicht mein Bier.",
         altAnswers: ["Was andere denken, ist nicht mein Bier.", "Was andere Leute denken, geht mich nichts an.", "Was andere denken, geht mich nichts an."],
-        explanation: "\"Nicht mein Bier\" is always negated and possessive.",
+        explanation: "\"Nicht mein Bier\" is almost always negated, with a possessive (\"Das ist dein Bier\" = that's your problem).",
       },
       {
         type: "translate",
@@ -169,13 +169,13 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Idioms, Austria and Switzerland, Part 2 of 3",
-    summary: "Recognise and place Austrian and Swiss idioms: Das ist mir Powidl, sich nicht pflanzen lassen, eine Hetz haben, Schmäh führen, den Tarif durchgeben and über die Bücher gehen.",
+    summary: "Recognise and place Austrian and Swiss idioms (\"Das ist mir Powidl\", \"sich nicht pflanzen lassen\", \"eine Hetz haben\", \"Schmäh führen\", \"den Tarif durchgeben\", \"über die Bücher gehen\") and give their equivalents in Germany.",
     duration: "15 min",
     sections: [
       {
         heading: "Recap: idioms with a passport",
         body: [
-          "Austria: \"Das ist mir Powidl\" (Powidl = plum jam) means I don't care, like German \"Das ist mir Wurst\". \"Sich nicht pflanzen lassen\" means not to let oneself be made a fool of: \"Lass dich von dem nicht pflanzen!\" \"Eine Hetz haben\" means to have great fun: \"Gestern beim Heurigen hatten wir eine Hetz.\" \"Einen Schmäh führen\" means to joke, banter: \"Der führt immer einen Schmäh.\"",
+          "Austria: \"Das ist mir Powidl\" (\"Powidl\" = plum jam) means I don't care, like German \"Das ist mir Wurst\". \"Sich nicht pflanzen lassen\" means not to let oneself be made a fool of: \"Lass dich von dem nicht pflanzen!\" \"Eine Hetz haben\" means to have great fun: \"Gestern beim Heurigen hatten wir eine Hetz.\" \"Einen Schmäh führen\" means to joke, banter: \"Der führt immer einen Schmäh.\"",
           "Switzerland: \"den Tarif durchgeben\" means to make clear what is what, to lay down the law: \"Der Trainer hat in der Pause den Tarif durchgegeben.\" \"Über die Bücher gehen\" means to rethink, revise a plan: \"Wir müssen nochmals über die Bücher gehen.\" Swiss Standard German also uses \"nochmals\" more than Germany.",
         ],
         examples: [
@@ -189,7 +189,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into Austrian German, using Powidl.",
+            prompt: "Translate into Austrian German, using \"Powidl\".",
             source: "I don't care what people say.",
             answer: "Was die Leute reden, ist mir Powidl.",
             altAnswers: ["Was die Leute sagen, ist mir Powidl.", "Es ist mir Powidl, was die Leute reden.", "Mir ist Powidl, was die Leute reden.", "Es ist mir Powidl, was die Leute sagen."],
@@ -197,7 +197,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Where would you hear Wir müssen nochmals über die Bücher gehen?",
+            question: "Where would you hear \"Wir müssen nochmals über die Bücher gehen\"?",
             options: ["Switzerland", "Austria", "northern Germany", "Bavaria"],
             correctIndex: 0,
             explanation: "\"Über die Bücher gehen\" (rethink, revise) is a Helvetism.",
@@ -296,7 +296,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A Viennese colleague says Lass dich nicht pflanzen. What does she mean?",
+        question: "A Viennese colleague says: \"Lass dich nicht pflanzen.\" What does she mean?",
         options: ["Don't let yourself be fooled.", "Don't plant anything.", "Don't sit down.", "Don't stay too long."],
         correctIndex: 0,
         explanation: "\"Pflanzen\" in Austria = to tease or fool someone.",
@@ -323,14 +323,14 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Idioms, Press, Sport and Register, Part 3 of 3",
-    summary: "Idioms in headlines and football commentary: die Notbremse ziehen, ins Abseits geraten, den Ball flach halten, am Ball bleiben, ein Eigentor schießen and die Kuh vom Eis holen.",
+    summary: "Understand and use the idioms of headlines and football commentary (\"die Notbremse ziehen\", \"ins Abseits geraten\", \"den Ball flach halten\", \"am Ball bleiben\", \"ein Eigentor schießen\", \"die Kuh vom Eis holen\").",
     duration: "15 min",
     sections: [
       {
         heading: "Recap: from the pitch to the front page",
         body: [
           "Football gives politics many idioms. \"Ins Abseits geraten\" (to end up offside) means to become isolated or sidelined: \"Die Partei ist ins Abseits geraten.\" \"Den Ball flach halten\" (keep the ball low) means to stay modest, not overreact: \"Der Trainer mahnte, den Ball flach zu halten.\" \"Ein Eigentor schießen\" means to score an own goal, to harm oneself.",
-          "Others come from transport and farming: \"die Notbremse ziehen\" (to pull the emergency brake: to stop something drastic), \"am Ball bleiben\" (to keep at it), \"die Kuh vom Eis holen\" (to get the cow off the ice: to solve a tricky situation). They are neutral enough for newspapers and speeches.",
+          "\"Am Ball bleiben\" (to keep at it) is football too. Others come from transport and farming: \"die Notbremse ziehen\" (to pull the emergency brake: to stop something drastic), \"die Kuh vom Eis holen\" (to get the cow off the ice: to solve a tricky situation). They are neutral enough for newspapers and speeches.",
         ],
         examples: [
           { es: "Die Partei ist mit dieser Forderung ins Abseits geraten.", en: "The party has sidelined itself with this demand." },
@@ -351,7 +351,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does Die Kuh ist vom Eis mean in a headline?",
+            question: "What does \"Die Kuh ist vom Eis\" mean in a headline?",
             options: ["The crisis has been resolved.", "A farmer rescued a cow.", "Winter is over.", "The talks have failed."],
             correctIndex: 0,
             explanation: "\"Die Kuh vom Eis holen\" = to resolve a precarious situation.",
@@ -466,7 +466,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: The Right Idiom and Its Nuance",
-    summary: "Choose between near-synonymous idioms by intensity and situation: auf den Keks gehen or auf die Palme bringen, ins Wasser fallen or in die Hose gehen, Tacheles reden or kein Blatt vor den Mund nehmen.",
+    summary: "Choose between near-synonymous idioms by intensity and situation: \"auf den Keks gehen\" or \"auf die Palme bringen\", \"ins Wasser fallen\" or \"in die Hose gehen\", \"Tacheles reden\" or \"sich kein Blatt vor den Mund nehmen\".",
     duration: "15 min",
     sections: [
       {
@@ -546,7 +546,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
         prompt: "Translate into German, using an idiom.",
         source: "You're making a mountain out of a molehill.",
         answer: "Du machst aus einer Mücke einen Elefanten.",
-        altAnswers: ["Sie machen aus einer Mücke einen Elefanten.", "Ihr macht aus einer Mücke einen Elefanten.", "Du machst aus einer Mücke einen Elefant."],
+        altAnswers: ["Sie machen aus einer Mücke einen Elefanten.", "Ihr macht aus einer Mücke einen Elefanten."],
         explanation: "The accusing counterpart of \"die Kirche im Dorf lassen\": a mosquito, not a molehill. Standard is \"einen Elefanten\" (weak masculine noun).",
       },
       {
@@ -598,7 +598,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: Your constant excuses drive me up the wall.",
         words: ["Deine", "ständigen", "Ausreden", "bringen", "mich", "auf", "die", "Palme."],
         translation: "Your constant excuses drive me up the wall.",
-        explanation: "\"Bringen\" takes the accusative \"mich\", unlike \"mir geht ... auf den Keks\".",
+        explanation: "\"Bringen\" takes the accusative \"mich\", unlike \"Das geht mir auf den Keks\".",
       },
       {
         type: "word-order",
@@ -654,7 +654,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
         heading: "Recap: translate the function, not the picture",
         body: [
           "An English idiom has three possible fates in German. Sometimes the image is the same: to hit the nail on the head is \"den Nagel auf den Kopf treffen\", to sweep under the carpet is \"unter den Teppich kehren\", a frog in your throat is \"einen Frosch im Hals haben\". Sometimes the image changes: the last straw becomes the drop that makes the barrel overflow (\"der Tropfen, der das Fass zum Überlaufen bringt\"), a pig in a poke becomes a cat (\"die Katze im Sack kaufen\"), two birds with one stone become two flies with one swatter (\"zwei Fliegen mit einer Klappe schlagen\").",
-          "And sometimes German simply has no idiom, and the right translation is a plain word: a piece of cake is \"ein Kinderspiel\" or \"kinderleicht\", never *\"ein Stück Kuchen\". Raining cats and dogs is \"Es regnet in Strömen\" or \"Es schüttet wie aus Eimern\", never the calque. It's all Greek to me is \"Ich verstehe nur Bahnhof\".",
+          "And sometimes German simply has no idiom, and the right translation is a plain word: a piece of cake is \"ein Kinderspiel\" or \"kinderleicht\", never \"*ein Stück Kuchen*\". Raining cats and dogs is \"Es regnet in Strömen\" or \"Es schüttet wie aus Eimern\", never the calque. It's all Greek to me is \"Ich verstehe nur Bahnhof\".",
           "Watch the false friends: \"Das ist nicht mein Bier\" means it's none of my business, not it's not my cup of tea (that is \"nicht so mein Ding\"). The test is always the same: what does the English speaker want to say, and how would a German say that?",
         ],
         examples: [
@@ -680,7 +680,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
             question: "It's raining cats and dogs. What is the natural German?",
             options: ["Es schüttet wie aus Eimern.", "Es regnet Katzen und Hunde.", "Es regnet schwer.", "Es regnet wie Hunde."],
             correctIndex: 0,
-            explanation: "\"Es schüttet wie aus Eimern\" or \"Es regnet in Strömen\". The calque is meaningless, and heavy rain is \"starker Regen\", not *\"schwer\".",
+            explanation: "\"Es schüttet wie aus Eimern\" or \"Es regnet in Strömen\". The calque is meaningless, and heavy rain is \"starker Regen\", not \"*schwerer Regen*\".",
           },
           {
             type: "translate",
@@ -689,7 +689,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
             source: "The exam was a piece of cake.",
             answer: "Die Prüfung war ein Kinderspiel.",
             altAnswers: ["Die Prüfung war kinderleicht.", "Die Prüfung war ein Klacks.", "Die Klausur war ein Kinderspiel.", "Die Klausur war kinderleicht.", "Die Klausur war ein Klacks.", "Die Prüfung war total einfach.", "Die Prüfung war super einfach."],
-            explanation: "No cake in German: \"ein Kinderspiel\", \"kinderleicht\" or casual \"ein Klacks\". *\"Ein Stück Kuchen\" is a calque.",
+            explanation: "No cake in German: \"ein Kinderspiel\", \"kinderleicht\" or casual \"ein Klacks\". \"*Ein Stück Kuchen*\" is a calque.",
           },
         ],
       },
@@ -702,7 +702,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
         source: "Contracts like this are all Greek to me.",
         answer: "Bei solchen Verträgen verstehe ich nur Bahnhof.",
         altAnswers: ["Bei solchen Verträgen verstehe ich immer nur Bahnhof.", "Bei Verträgen wie diesem verstehe ich nur Bahnhof.", "Bei so einem Vertrag verstehe ich nur Bahnhof.", "Bei solchen Verträgen verstehe ich bloß Bahnhof."],
-        explanation: "German says it with a railway station: \"nur Bahnhof verstehen\". *\"Das ist Griechisch für mich\" is a calque.",
+        explanation: "German says it with a railway station: \"nur Bahnhof verstehen\". \"*Das ist Griechisch für mich*\" is a calque.",
       },
       {
         type: "translate",
@@ -720,7 +720,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
         source: "I don't want to buy a pig in a poke.",
         answer: "Ich will die Katze nicht im Sack kaufen.",
         altAnswers: ["Ich möchte die Katze nicht im Sack kaufen.", "Ich will nicht die Katze im Sack kaufen.", "Ich möchte nicht die Katze im Sack kaufen."],
-        explanation: "Pig becomes cat, and the article is frozen: \"die Katze im Sack kaufen\", never *\"eine Katze\".",
+        explanation: "Pig becomes cat, and the definite article is the standard form: \"die Katze im Sack kaufen\", not \"*eine Katze*\".",
       },
       {
         type: "translate",
@@ -729,7 +729,7 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
         source: "He really put his foot in it at the wedding.",
         answer: "Er ist auf der Hochzeit richtig ins Fettnäpfchen getreten.",
         altAnswers: ["Auf der Hochzeit ist er richtig ins Fettnäpfchen getreten.", "Er ist bei der Hochzeit richtig ins Fettnäpfchen getreten.", "Bei der Hochzeit ist er richtig ins Fettnäpfchen getreten.", "Er trat auf der Hochzeit richtig ins Fettnäpfchen.", "Er trat bei der Hochzeit richtig ins Fettnäpfchen.", "Auf der Hochzeit trat er richtig ins Fettnäpfchen."],
-        explanation: "The foot survives, the mouth disappears: \"ins Fettnäpfchen treten\", Perfekt with \"sein\" because it is movement.",
+        explanation: "The foot survives, but it steps into a little pot of fat: \"ins Fettnäpfchen treten\", Perfekt with \"sein\" because it is movement.",
       },
       {
         type: "translate",
@@ -917,8 +917,8 @@ export const DE_C2_U04_EXTRA: Lesson[] = [
         prompt: "Translate into German, using an idiom.",
         source: "The opposition rubbed its hands.",
         answer: "Die Opposition rieb sich die Hände.",
-        altAnswers: ["Die Opposition hat sich die Hände gerieben.", "Die Opposition reibt sich die Hände."],
-        explanation: "Dative \"sich\" plus the definite article for body parts, not *\"ihre Hände\": \"reiben, rieb, gerieben\".",
+        altAnswers: ["Die Opposition hat sich die Hände gerieben."],
+        explanation: "Dative \"sich\" plus the definite article for body parts, not \"*ihre Hände*\": \"reiben, rieb, gerieben\".",
       },
       {
         type: "translate",

@@ -9,7 +9,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Contrast Connectors",
-    summary: "Aber, jedoch, allerdings, dennoch and hingegen in short texts, with the word order each one needs.",
+    summary: "Contrast ideas with \"aber\", \"jedoch\", \"allerdings\", \"dennoch\" and \"hingegen\" in short texts, with the word order each one needs.",
     duration: "12 min",
     sections: [
       {
@@ -168,7 +168,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Consequence Connectors",
-    summary: "Deshalb, daher, folglich, somit and sodass with the correct word order.",
+    summary: "Express consequences with \"deshalb\", \"daher\", \"folglich\", \"somit\" and \"sodass\" in the correct word order.",
     duration: "12 min",
     sections: [
       {
@@ -249,7 +249,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "There were no tickets left; consequently, we stayed at home.",
         answer: "Es gab keine Karten mehr, folglich blieben wir zu Hause.",
-        altAnswers: ["Es gab keine Karten mehr, folglich sind wir zu Hause geblieben.", "Es gab keine Tickets mehr, folglich blieben wir zu Hause.", "Es gab keine Karten mehr, deshalb blieben wir zu Hause.", "Es gab keine Karten mehr, deshalb sind wir zu Hause geblieben.", "Es gab keine Karten mehr, also blieben wir zu Hause."],
+        altAnswers: ["Es gab keine Karten mehr, folglich sind wir zu Hause geblieben.", "Es gab keine Tickets mehr, folglich blieben wir zu Hause.", "Es gab keine Karten mehr, deshalb blieben wir zu Hause.", "Es gab keine Karten mehr, deshalb sind wir zu Hause geblieben.", "Es gab keine Karten mehr, also blieben wir zu Hause.", "Es gab keine Karten mehr, folglich blieben wir zuhause."],
         explanation: "\"Folglich\" + verb + subject.",
       },
       {
@@ -452,6 +452,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: First of all, I would like to thank the editorial team.",
         words: ["Zunächst", "möchte", "ich", "der", "Redaktion", "danken."],
         translation: "First of all, I would like to thank the editorial team.",
+        altOrders: [["Ich", "möchte", "zunächst", "der", "Redaktion", "danken."]],
         explanation: "\"Danken\" takes the dative: \"der Redaktion\".",
       },
       {
@@ -488,7 +489,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Transformations: Obwohl → Trotzdem → Jedoch",
-    summary: "One idea, three connectors and three word orders: verb last after obwohl, verb second after trotzdem and jedoch.",
+    summary: "Express one idea with three connectors and three word orders: verb last after \"obwohl\", verb second after \"trotzdem\" and \"jedoch\", and \"trotz\" + genitive.",
     duration: "12 min",
     sections: [
       {
@@ -509,7 +510,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using obwohl.",
+            prompt: "Translate into German, using \"obwohl\".",
             source: "Although he had a cold, he played.",
             answer: "Obwohl er erkältet war, spielte er mit.",
             altAnswers: ["Obwohl er erkältet war, hat er mitgespielt.", "Obwohl er erkältet war, spielte er.", "Obwohl er eine Erkältung hatte, spielte er mit.", "Obwohl er eine Erkältung hatte, hat er mitgespielt.", "Er spielte mit, obwohl er erkältet war."],
@@ -518,7 +519,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using trotzdem.",
+            prompt: "Translate into German, using \"trotzdem\".",
             source: "He had a cold. He played anyway.",
             answer: "Er war erkältet. Trotzdem spielte er mit.",
             altAnswers: ["Er war erkältet. Trotzdem hat er mitgespielt.", "Er war erkältet, trotzdem spielte er mit.", "Er hatte eine Erkältung. Trotzdem spielte er mit.", "Er war erkältet. Er spielte trotzdem mit.", "Er war erkältet. Er hat trotzdem mitgespielt."],
@@ -531,7 +532,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using trotz.",
+        prompt: "Translate into German, using \"trotz\".",
         source: "Despite the rain we went for a walk.",
         answer: "Trotz des Regens sind wir spazieren gegangen.",
         altAnswers: ["Trotz des Regens gingen wir spazieren.", "Wir sind trotz des Regens spazieren gegangen.", "Wir gingen trotz des Regens spazieren."],
@@ -540,7 +541,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using obwohl.",
+        prompt: "Translate into German, using \"obwohl\".",
         source: "Although it was raining, we went for a walk.",
         answer: "Obwohl es regnete, sind wir spazieren gegangen.",
         altAnswers: ["Obwohl es regnete, gingen wir spazieren.", "Obwohl es geregnet hat, sind wir spazieren gegangen.", "Wir sind spazieren gegangen, obwohl es regnete.", "Wir gingen spazieren, obwohl es regnete."],
@@ -549,7 +550,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using trotzdem.",
+        prompt: "Translate into German, using \"trotzdem\".",
         source: "It was raining. We went for a walk anyway.",
         answer: "Es regnete. Trotzdem sind wir spazieren gegangen.",
         altAnswers: ["Es regnete. Trotzdem gingen wir spazieren.", "Es hat geregnet. Trotzdem sind wir spazieren gegangen.", "Es regnete, trotzdem gingen wir spazieren.", "Es regnete. Wir sind trotzdem spazieren gegangen.", "Es regnete. Wir gingen trotzdem spazieren."],
@@ -558,7 +559,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using jedoch.",
+        prompt: "Translate into German, using \"jedoch\".",
         source: "We wanted to go for a walk; however, it was raining.",
         answer: "Wir wollten spazieren gehen, jedoch regnete es.",
         altAnswers: ["Wir wollten spazieren gehen, es regnete jedoch.", "Wir wollten spazieren gehen. Jedoch regnete es.", "Wir wollten spazieren gehen. Es regnete jedoch.", "Wir wollten spazieren gehen, jedoch hat es geregnet."],
@@ -567,7 +568,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using obwohl.",
+        prompt: "Translate into German, using \"obwohl\".",
         source: "Although she has little time, she volunteers.",
         answer: "Obwohl sie wenig Zeit hat, arbeitet sie ehrenamtlich.",
         altAnswers: ["Obwohl sie wenig Zeit hat, engagiert sie sich ehrenamtlich.", "Sie arbeitet ehrenamtlich, obwohl sie wenig Zeit hat.", "Sie engagiert sich ehrenamtlich, obwohl sie wenig Zeit hat."],
@@ -576,7 +577,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using dennoch.",
+        prompt: "Translate into German, using \"dennoch\".",
         source: "She has little time. Nevertheless, she volunteers.",
         answer: "Sie hat wenig Zeit. Dennoch arbeitet sie ehrenamtlich.",
         altAnswers: ["Sie hat wenig Zeit. Dennoch engagiert sie sich ehrenamtlich.", "Sie hat wenig Zeit, dennoch arbeitet sie ehrenamtlich.", "Sie hat wenig Zeit. Sie arbeitet dennoch ehrenamtlich."],
@@ -605,7 +606,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
         en: "She has experience. [Nevertheless she didn't get] the job.",
         sentence: "Sie hat Erfahrung. ___ die Stelle nicht bekommen.",
         answer: "Trotzdem hat sie",
-        altAnswers: ["Dennoch hat sie", "Jedoch hat sie", "Allerdings hat sie"],
+        altAnswers: ["Dennoch hat sie", "Jedoch hat sie"],
         explanation: "Adverb in position 1, then the auxiliary \"hat\", then the subject.",
       },
       {
@@ -613,6 +614,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: Despite the high price the concert was sold out.",
         words: ["Trotz", "des", "hohen", "Preises", "war", "das", "Konzert", "ausverkauft."],
         translation: "Despite the high price the concert was sold out.",
+        altOrders: [["Das", "Konzert", "war", "trotz", "des", "hohen", "Preises", "ausverkauft."]],
         explanation: "\"Trotz des hohen Preises\" is one element in position 1; the verb follows.",
       },
       {
@@ -649,7 +651,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: False Friends in Argument",
-    summary: "Eventuell (possibly, not eventually), konsequent (consistent), aktuell (current) and also (so, not also).",
+    summary: "Avoid four false friends in arguments: \"eventuell\" (possibly, not eventually), \"konsequent\" (consistent), \"aktuell\" (current) and \"also\" (so, not also).",
     duration: "12 min",
     sections: [
       {
@@ -808,7 +810,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Dictation of Connectors",
-    summary: "Hear and write sentences with jedoch, allerdings, zudem, folglich and nämlich.",
+    summary: "Hear and write sentences with \"jedoch\", \"allerdings\", \"zudem\", \"folglich\" and \"nämlich\".",
     duration: "12 min",
     sections: [
       {
@@ -863,6 +865,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: In addition, the flat is near the station.",
         words: ["Darüber", "hinaus", "liegt", "die", "Wohnung", "nah", "am", "Bahnhof."],
         translation: "In addition, the flat is near the station.",
+        altOrders: [["Die", "Wohnung", "liegt", "darüber", "hinaus", "nah", "am", "Bahnhof."]],
         explanation: "\"Darüber hinaus\" counts as one element; the verb \"liegt\" follows.",
       },
       {
@@ -923,6 +926,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: Moreover, there are no parking spaces.",
         words: ["Zudem", "gibt", "es", "keine", "Parkplätze."],
         translation: "Moreover, there are no parking spaces.",
+        altOrders: [["Es", "gibt", "zudem", "keine", "Parkplätze."]],
         explanation: "\"Zudem\" + verb.",
       },
       {
@@ -956,7 +960,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
     number: 7,
     optional: true,
     title: "Extra Practice: Mixed Practice: Die Theaterkritik",
-    summary: "A theatre review weighs strengths and weaknesses with jedoch, allerdings, zudem and folglich.",
+    summary: "Weigh the strengths and weaknesses of a theatre production with \"jedoch\", \"allerdings\", \"zudem\", \"dennoch\" and \"folglich\".",
     duration: "13 min",
     sections: [
       {
@@ -1080,7 +1084,7 @@ export const DE_B2_U17_EXTRA: Lesson[] = [
         words: ["Das", "Ende", "ist", "jedoch", "enttäuschend."],
         translation: "However, the end is disappointing.",
         altOrders: [["Jedoch", "ist", "das", "Ende", "enttäuschend."]],
-        explanation: "\"Enttäuschend\" (Partizip I) describes the thing that causes disappointment.",
+        explanation: "\"Jedoch\" after the verb, or in position 1 with the verb next. \"Enttäuschend\" (Partizip I) describes the thing that causes disappointment.",
       },
       {
         type: "multiple-choice",

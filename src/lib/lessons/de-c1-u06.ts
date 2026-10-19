@@ -36,7 +36,7 @@ export const DE_C1_U06: Lesson[] = [
         examples: [
           { es: "Am nächsten Morgen verließ sie früh das Haus.", en: "The next morning she left the house early." },
           { es: "Er schrieb jeden Abend in sein Tagebuch.", en: "He wrote in his diary every evening." },
-          { es: "Der Zug hielt mitten auf der Strecke.", en: "The train stopped in the middle of nowhere." },
+          { es: "Der Zug hielt mitten auf der Strecke.", en: "The train stopped between stations." },
           { es: "Niemand wusste, wohin sie gegangen war.", en: "Nobody knew where she had gone." },
           { es: "Gestern bin ich in die Stadt gefahren und habe Mehmet getroffen.", en: "Yesterday I went into town and met Mehmet. (spoken)" },
         ],
@@ -81,7 +81,7 @@ export const DE_C1_U06: Lesson[] = [
             prompt: "Translate into German, in the Präteritum (literary letter to a friend).",
             source: "Why didn't you come?",
             answer: "Warum kamst du nicht?",
-            altAnswers: ["Wieso kamst du nicht?", "Warum kamt ihr nicht?", "Weshalb kamst du nicht?"],
+            altAnswers: ["Wieso kamst du nicht?", "Weshalb kamst du nicht?"],
             explanation: "Strong verb, du-form: \"kam\" + -st.",
           },
           {
@@ -227,7 +227,7 @@ export const DE_C1_U06: Lesson[] = [
         type: "speak",
         text: "Warum kamst du nicht?",
         prompt: "Read this line from a novel aloud: Why didn't you come?",
-        tip: "Keep the -st clear: \"kamst\", not \"kams\".",
+        tip: "Keep the -st clear: \"kamst\", not \"*kams\".",
         explanation: "Literary du-form of the Präteritum.",
       },
     ],
@@ -237,7 +237,7 @@ export const DE_C1_U06: Lesson[] = [
     level: "DE-C1",
     number: 2,
     title: "Literary Narration, Part 2 of 6",
-    summary: "Rare and literary strong forms (schwor, glomm, focht, buk) and strong/weak doublets whose meaning changes: hing / hängte, erschrak / erschreckte, schuf / schaffte.",
+    summary: "Recognise rare literary strong forms (\"schwor\", \"glomm\", \"focht\", \"buk\") and choose correctly between strong/weak doublets whose meaning changes: \"hing\" / \"hängte\", \"erschrak\" / \"erschreckte\", \"schuf\" / \"schaffte\".",
     duration: "18 min",
     sections: [
       {
@@ -376,7 +376,7 @@ export const DE_C1_U06: Lesson[] = [
         prompt: "Translate into German, in the Präteritum.",
         source: "When she saw the spider, she got a fright.",
         answer: "Als sie die Spinne sah, erschrak sie.",
-        altAnswers: ["Als sie die Spinne sah, erschrak sie sich.", "Als sie die Spinne sah, bekam sie einen Schreck."],
+        altAnswers: ["Als sie die Spinne sah, erschrak sie sich.", "Als sie die Spinne sah, erschreckte sie sich.", "Als sie die Spinne sah, bekam sie einen Schreck."],
         explanation: "Got a fright (no object): strong \"erschrak\".",
       },
       {
@@ -498,7 +498,7 @@ export const DE_C1_U06: Lesson[] = [
       {
         heading: "Es war einmal: the shape of the Märchen",
         body: [
-          "German fairy tales (the Grimms' Kinder- und Hausmärchen) have a fixed shape. The opening: \"Es war einmal ein König, der hatte drei Töchter.\" (Note the old-fashioned verb-second relative clause \"der hatte\" instead of \"der ... hatte\".) The turn: \"Eines Tages...\", \"Da...\", \"Als nun...\". The closing: \"Und wenn sie nicht gestorben sind, dann leben sie noch heute.\" (literally: and if they haven't died, they're still alive today = happily ever after).",
+          "German fairy tales (the Grimms' \"Kinder- und Hausmärchen\") have a fixed shape. The opening: \"Es war einmal ein König, der hatte drei Töchter.\" (Note the old-fashioned verb-second relative clause \"der hatte\" instead of \"der ... hatte\".) The turn: \"Eines Tages...\", \"Da...\", \"Als nun...\". The closing: \"Und wenn sie nicht gestorben sind, dann leben sie noch heute.\" (literally: and if they haven't died, they're still alive today = happily ever after).",
           "Märchen narrate in the Präteritum, use \"da\" as a story-advancing connector (\"Da sprach der Wolf...\", \"Da kam ein Jäger vorbei\"), and like old forms: \"sprach\" for said, \"ward\" for wurde (very old), \"gar\" for very.",
           "You'll recognise the same rhythm in modern parodies, ads and jokes, so it pays to know the formulas.",
         ],
@@ -556,7 +556,7 @@ export const DE_C1_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A documentary narrator says: 1961 baut die DDR die Mauer. What tense is this, and why?",
+            question: "A documentary narrator says: \"1961 baut die DDR die Mauer.\" What tense is this, and why?",
             options: ["The historic present, to make history vivid.", "A mistake: it should be the Futur.", "The present because the Wall still stands.", "The Konjunktiv for reported speech."],
             correctIndex: 0,
             explanation: "The historic present tells past events as if happening now, common in documentaries and timelines.",
@@ -629,7 +629,7 @@ export const DE_C1_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Ten years later she [would become] chancellor.",
+        en: "Ten years later she [was to] become chancellor.",
         sentence: "Zehn Jahre später ___ sie Kanzlerin werden.",
         answer: "sollte",
         explanation: "\"Sollte\" + infinitive = would (later), a future seen from the past in historical narration.",
@@ -724,9 +724,9 @@ export const DE_C1_U06: Lesson[] = [
             type: "listen-choose",
             audio: "Die Nachricht erschreckte das ganze Dorf.",
             question: "What does it mean?",
-            options: ["The news frightened the whole village.", "The whole village got a fright from the news.", "The news reached the whole village.", "The whole village spread the news."],
+            options: ["The news frightened the whole village.", "The news surprised nobody in the village.", "The news reached the whole village.", "The whole village spread the news."],
             correctIndex: 0,
-            explanation: "Weak \"erschreckte\" with an object = frightened someone. Option 2 means much the same in English, but the German subject is the news, which acts on the village.",
+            explanation: "Weak \"erschreckte\" with an object = frightened someone: the news acts on the village.",
           },
         ],
       },
@@ -747,7 +747,7 @@ export const DE_C1_U06: Lesson[] = [
         prompt: "Translate into German, in the Präteritum.",
         source: "You kept your promise. (to a friend)",
         answer: "Du hieltest dein Versprechen.",
-        altAnswers: ["Ihr hieltet euer Versprechen.", "Sie hielten Ihr Versprechen."],
+        altAnswers: ["Du hieltst dein Versprechen."],
         explanation: "\"Halten → hielt\"; stem ends in -t: \"du hieltest\".",
       },
       {
@@ -850,7 +850,7 @@ export const DE_C1_U06: Lesson[] = [
         body: [
           "Jonas tells his friends: \"Letzten Sommer bin ich mit dem Nachtzug nach Wien gefahren. Ich hab mir extra ein Schlafwagenabteil gebucht. Um drei Uhr nachts hat plötzlich jemand an die Tür geklopft. Ich bin total erschrocken und hab erst mal gar nichts gesagt.\"",
           "The rewrite for a story: \"Im letzten Sommer fuhr Jonas mit dem Nachtzug nach Wien. Er hatte sich extra ein Schlafwagenabteil gebucht. Um drei Uhr nachts klopfte plötzlich jemand an die Tür. Jonas erschrak und sagte zunächst gar nichts.\"",
-          "The ripples: every Perfekt becomes a Präteritum (\"bin gefahren → fuhr\", \"hat geklopft → klopfte\", \"bin erschrocken → erschrak\"); spoken short forms disappear (\"hab\" → full verb); the separable prefix goes to the end in the Präteritum (\"zog ... an\"); and something that had been done before the trip moves to the Plusquamperfekt (\"hatte ... gebucht\"). Colloquial fillers (\"total\", \"erst mal\") become neutral (\"zunächst\").",
+          "The ripples: every Perfekt becomes a Präteritum (\"bin gefahren → fuhr\", \"hat geklopft → klopfte\", \"bin erschrocken → erschrak\"); spoken short forms disappear (\"hab\" → full verb); the separable prefix goes to the end in the Präteritum (\"machte ... auf\"); and something that had been done before the trip moves to the Plusquamperfekt (\"hatte ... gebucht\"). Colloquial fillers (\"total\", \"erst mal\") become neutral (\"zunächst\").",
         ],
         examples: [
           { es: "Ich bin mit dem Nachtzug gefahren. → Er fuhr mit dem Nachtzug.", en: "I took the night train. → He took the night train." },
@@ -904,7 +904,7 @@ export const DE_C1_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Spoken: Ich bin aufgestanden und hab die Tür aufgemacht. Which is the correct written version?",
+            question: "Spoken: \"Ich bin aufgestanden und hab die Tür aufgemacht.\" Which is the correct written version?",
             options: ["Er stand auf und machte die Tür auf.", "Er aufstand und aufmachte die Tür.", "Er stand auf und aufmachte die Tür.", "Er ist aufgestanden und machte auf die Tür."],
             correctIndex: 0,
             explanation: "In the Präteritum the separable prefix goes to the end of the clause: \"stand ... auf\", \"machte ... auf\".",
@@ -992,7 +992,7 @@ export const DE_C1_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Rewrite in the Präteritum. Write the German for the bold words.",
-        en: "She came back late and [switched] the light [on]. (written story)",
+        en: "She came back late and [switched] the light on. (written story)",
         sentence: "Sie kam spät zurück und ___ das Licht an.",
         answer: "machte",
         altAnswers: ["schaltete"],
@@ -1001,14 +1001,14 @@ export const DE_C1_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Then he [had to laugh]. (written story)",
+        en: "Then he [had to] laugh. (written story)",
         sentence: "Da ___ er lachen.",
         answer: "musste",
         explanation: "Modals are already in the Präteritum in speech; \"musste\" stays.",
       },
       {
         type: "multiple-choice",
-        question: "Spoken: Und dann ist der Zug einfach weggefahren! Which is the best written version?",
+        question: "Spoken: \"Und dann ist der Zug einfach weggefahren!\" Which is the best written version?",
         options: ["Und dann fuhr der Zug einfach davon.", "Und dann wegfuhr der Zug einfach.", "Und dann ist der Zug einfach weggefahren worden.", "Und dann fährt der Zug weg gefahren."],
         correctIndex: 0,
         explanation: "Präteritum with the prefix at the end; \"davonfahren\" is a slightly more literary choice than \"wegfahren\".",
@@ -1061,7 +1061,7 @@ export const DE_C1_U06: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Was sollte er jetzt bloß tun? Er hatte doch alles versucht! Whose voice is this?",
+            question: "Read: \"Was sollte er jetzt bloß tun? Er hatte doch alles versucht!\" Whose voice is this?",
             options: ["The character's, in erlebte Rede.", "The narrator's neutral report.", "Indirect speech with Konjunktiv I.", "Direct speech."],
             correctIndex: 0,
             explanation: "Third person and Präteritum, but a question, an exclamation and the particles \"bloß\" and \"doch\": erlebte Rede.",
@@ -1120,7 +1120,7 @@ export const DE_C1_U06: Lesson[] = [
         ],
         examples: [
           { es: "Leon fuhr die leere Landstraße entlang.", en: "Leon drove along the empty country road." },
-          { es: "Wie lange noch bis Göttingen?", en: "How much further could it be?" },
+          { es: "Wie lange noch bis Göttingen?", en: "How much longer to Göttingen?" },
           { es: "Er hätte doch den Zug nehmen sollen!", en: "He really should have taken the train!" },
           { es: "Ich bin so müde. Nur nicht einschlafen.", en: "I'm so tired. Mustn't fall asleep." },
           { es: "Die Scheinwerfer schnitten zwei helle Bahnen in den Nebel.", en: "The headlights cut two bright paths into the fog." },
@@ -1202,7 +1202,7 @@ export const DE_C1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Sie behauptete, sie habe nichts gewusst. What is this?",
+        question: "Read: \"Sie behauptete, sie habe nichts gewusst.\" What is this?",
         options: ["Indirect speech", "Erlebte Rede", "Direct speech", "Innerer Monolog"],
         correctIndex: 0,
         explanation: "A reporting verb + Konjunktiv I \"habe\": indirect speech.",
@@ -1247,7 +1247,7 @@ export const DE_C1_U06: Lesson[] = [
     level: "DE-C1",
     number: 7,
     title: "Literary Narration, Part 4 of 6",
-    summary: "Erlebte Rede in depth: third person and Präteritum carrying a character's questions, particles and time words; würde + infinitive as the future in the past; and how it differs from innerer Monolog and indirect speech.",
+    summary: "Write erlebte Rede: third person and Präteritum carrying a character's questions, particles and time words, with \"würde\" + infinitive as the future in the past, and tell it apart from innerer Monolog and indirect speech.",
     duration: "19 min",
     sections: [
       {
@@ -1434,8 +1434,8 @@ export const DE_C1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What's wrong with: Morgen sei Montag. Was solle sie bloß tun? (meant as erlebte Rede)",
-        options: ["Erlebte Rede uses the indicative (war, sollte), not Konjunktiv I.", "Erlebte Rede must be in the first person.", "Erlebte Rede can't contain questions.", "Nothing: it's correct erlebte Rede."],
+        question: "What's wrong with \"*Morgen sei Montag. Was solle sie bloß tun?\" (meant as erlebte Rede)",
+        options: ["Erlebte Rede uses the indicative (\"war\", \"sollte\"), not Konjunktiv I.", "Erlebte Rede must be in the first person.", "Erlebte Rede can't contain questions.", "Nothing: it's correct erlebte Rede."],
         correctIndex: 0,
         explanation: "Konjunktiv I turns it into reported speech; erlebte Rede keeps the narrator's indicative.",
       },
@@ -1464,14 +1464,14 @@ export const DE_C1_U06: Lesson[] = [
     level: "DE-C1",
     number: 8,
     title: "Literary Narration, Part 5 of 6",
-    summary: "Inversion for effect: what goes in the Vorfeld and why (Groß war die Freude, Nie wieder würde sie...), kaum...als and kaum dass, and verb-first narration in jokes.",
+    summary: "Use inversion for effect: what goes in the Vorfeld and why (\"Groß war die Freude\", \"Nie wieder würde sie...\"), \"kaum ... als\" and \"kaum dass\", and verb-first narration in jokes.",
     duration: "18 min",
     sections: [
       {
         heading: "The Vorfeld as a spotlight",
         body: [
           "German main clauses have one slot before the verb, the Vorfeld. Normally it holds the subject or a time phrase. In narration, writers put something unexpected there for emphasis: an adjective (\"Groß war die Freude\": the joy was great), a negative adverb (\"Nie wieder würde sie ihm glauben\"), an object (\"Diesen Tag würde er nie vergessen\"), even a participle (\"Gesagt, getan\": no sooner said than done).",
-          "English can do this only with a few words and a stiff, literary result (Never again would she..., Great was the joy). In German it's normal, unforced word order: any element can go first, and the verb simply stays second. That's why German narrative prose often begins sentences with objects and adverbs.",
+          "English can do this only with a few words and a stiff, literary result (Never again would she..., Great was the joy). In German, fronting is ordinary word order: almost any element can go first, and the verb simply stays second. That's why German narrative prose often begins sentences with objects and adverbs.",
           "Use it for contrast and rhythm: \"Den Brief las sie zweimal. Die Antwort schrieb sie nie.\" Starting each sentence with the object creates a parallel that English needs extra words for (The letter she read twice; the reply she never wrote).",
         ],
         examples: [
@@ -1519,7 +1519,7 @@ export const DE_C1_U06: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, with kaum...als.",
+            prompt: "Translate into German, with \"kaum ... als\".",
             source: "He had barely shut the door when the phone rang.",
             answer: "Kaum hatte er die Tür geschlossen, als das Telefon klingelte.",
             altAnswers: ["Kaum hatte er die Tür geschlossen, klingelte das Telefon.", "Kaum hatte er die Tür zugemacht, als das Telefon klingelte.", "Kaum hatte er die Tür zugemacht, klingelte das Telefon."],
@@ -1593,7 +1593,7 @@ export const DE_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, with kaum.",
+        prompt: "Translate into German, with \"kaum\".",
         source: "She had hardly arrived when it started to rain.",
         answer: "Kaum war sie angekommen, als es zu regnen begann.",
         altAnswers: ["Kaum war sie angekommen, fing es an zu regnen.", "Kaum war sie angekommen, als es anfing zu regnen.", "Kaum war sie angekommen, begann es zu regnen.", "Kaum dass sie angekommen war, fing es an zu regnen."],
@@ -1602,7 +1602,7 @@ export const DE_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, with kaum dass.",
+        prompt: "Translate into German, with \"kaum dass\".",
         source: "The film had hardly started when he fell asleep.",
         answer: "Kaum dass der Film angefangen hatte, schlief er ein.",
         altAnswers: ["Kaum hatte der Film angefangen, als er einschlief.", "Kaum hatte der Film angefangen, schlief er ein.", "Kaum dass der Film begonnen hatte, schlief er ein."],
@@ -1743,7 +1743,7 @@ export const DE_C1_U06: Lesson[] = [
             prompt: "Translate into German, as indirect speech with Konjunktiv I.",
             source: "A voice announced that the train was twenty minutes late.",
             answer: "Eine Stimme verkündete, der Zug habe zwanzig Minuten Verspätung.",
-            altAnswers: ["Eine Stimme verkündete, dass der Zug zwanzig Minuten Verspätung habe.", "Eine Stimme kündigte an, der Zug habe zwanzig Minuten Verspätung.", "Eine Stimme sagte durch, der Zug habe zwanzig Minuten Verspätung."],
+            altAnswers: ["Eine Stimme verkündete, dass der Zug zwanzig Minuten Verspätung habe.", "Eine Stimme kündigte an, der Zug habe zwanzig Minuten Verspätung."],
             explanation: "Indirect speech keeps distance: Konjunktiv I \"habe\".",
           },
         ],
@@ -1823,7 +1823,7 @@ export const DE_C1_U06: Lesson[] = [
         prompt: "Translate into German, as erlebte Rede.",
         source: "Hadn't he promised to be on time?",
         answer: "Hatte er nicht versprochen, pünktlich zu sein?",
-        altAnswers: ["Hatte er ihr nicht versprochen, pünktlich zu sein?", "Hatte er nicht versprochen, dass er pünktlich ist?"],
+        altAnswers: ["Hatte er ihr nicht versprochen, pünktlich zu sein?", "Hatte er nicht versprochen, dass er pünktlich sein würde?"],
         explanation: "A rhetorical question in third person + Plusquamperfekt.",
       },
       {
@@ -1877,7 +1877,7 @@ export const DE_C1_U06: Lesson[] = [
     level: "DE-C1",
     number: 10,
     title: "Contrast Clinic: The Tenses of the Story",
-    summary: "Präteritum, Plusquamperfekt, historic present, würde as future in the past, Konjunktiv I and II: what each one signals about time and voice in a narrative.",
+    summary: "Read what each story tense signals about time and voice: Präteritum, Plusquamperfekt, historic present, \"würde\" as future in the past, Konjunktiv I and II.",
     duration: "18 min",
     sections: [
       {
@@ -1892,7 +1892,7 @@ export const DE_C1_U06: Lesson[] = [
           { es: "Als ich kam, war er schon gegangen.", en: "When I arrived, he had already left." },
           { es: "Sie hatte die ganze Nacht nicht geschlafen.", en: "She hadn't slept all night." },
           { es: "Sie wartete und wartete. Da geht plötzlich die Tür auf.", en: "She waited and waited. Then suddenly the door opens." },
-          { es: "1871 wird in Versailles das Deutsche Reich gegründet.", en: "In 1871 the German Empire is founded at Versailles." },
+          { es: "1871 wird in Versailles das Deutsche Kaiserreich ausgerufen.", en: "In 1871 the German Empire is proclaimed at Versailles." },
         ],
         checkpoint: [
           {
@@ -1906,7 +1906,7 @@ export const DE_C1_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Als ich kam, ging er. What does it mean?",
+            question: "Read: \"Als ich kam, ging er.\" What does it mean?",
             options: ["He left as I arrived.", "He had left before I arrived.", "He will leave when I come.", "He would leave if I came."],
             correctIndex: 0,
             explanation: "Both in the Präteritum: the two events are simultaneous or in immediate sequence.",
@@ -2049,14 +2049,14 @@ export const DE_C1_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "She waited and waited. Then suddenly [the phone rings].",
+        en: "She waited and waited. Then suddenly the phone [rings].",
         sentence: "Sie wartete und wartete. Da ___ plötzlich das Telefon.",
         answer: "klingelt",
         explanation: "A deliberate switch to the historic present at the climax.",
       },
       {
         type: "multiple-choice",
-        question: "Er würde kommen, das wusste sie. What does würde express here?",
+        question: "Read: \"Er würde kommen, das wusste sie.\" What does \"würde\" express here?",
         options: ["The future seen from the past.", "An unreal condition.", "A polite request.", "A habit in the past."],
         correctIndex: 0,
         explanation: "No condition, a past narrative: \"würde\" = would (later).",
@@ -2091,7 +2091,7 @@ export const DE_C1_U06: Lesson[] = [
     level: "DE-C1",
     number: 11,
     title: "Literary Narration, Part 6 of 6",
-    summary: "Precise reporting verbs (entgegnen, erwidern, einwenden, gestehen, flüstern, seufzen) and the inverted inquit, with German quotation marks and the comma after the closing mark.",
+    summary: "Report speech with precise verbs (\"entgegnen\", \"erwidern\", \"einwenden\", \"gestehen\", \"flüstern\", \"seufzen\") and the inverted inquit, with German quotation marks and the comma after the closing mark.",
     duration: "18 min",
     sections: [
       {
@@ -2164,7 +2164,7 @@ export const DE_C1_U06: Lesson[] = [
       {
         heading: "German quotation marks and commas",
         body: [
-          "German direct speech uses low-high quotation marks: the opening mark sits low on the line, like a comma, and the closing mark high, shaped like an English opening mark (see the examples). Books also use French-style marks pointing inwards (fourth example). Never use straight English-style marks in a German text you hand in.",
+          "German direct speech uses low-high quotation marks: the opening mark sits low on the line, like a comma, and the closing mark high, shaped like an English opening mark (see the examples). Books also use French-style marks pointing inwards (fourth example). In careful writing, avoid English-style marks in a German text.",
           "Punctuation rules: a full stop at the end of the quote disappears when the inquit follows, but question and exclamation marks stay inside the quote. The comma after the closing mark is always there when the inquit follows, even after ? or !: this is where English and German differ most.",
           "When the quote ends the sentence, its final punctuation stays inside the closing mark, and there is no extra full stop after it (second example).",
         ],
@@ -2361,6 +2361,7 @@ export const DE_C1_U06: Lesson[] = [
             prompt: "Translate into German.",
             source: "Who's there? she called anxiously.",
             answer: "„Wer ist da?“, rief sie ängstlich.",
+            altAnswers: ["„Wer ist da?“, fragte sie ängstlich."],
             explanation: "Question mark inside, comma after the closing mark, then \"rief sie\".",
           },
           {
@@ -2404,7 +2405,7 @@ export const DE_C1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, with kaum.",
+        prompt: "Translate into German, with \"kaum\".",
         source: "He had barely sat down when his boss called.",
         answer: "Kaum hatte er sich hingesetzt, als sein Chef anrief.",
         altAnswers: ["Kaum hatte er sich gesetzt, als sein Chef anrief.", "Kaum hatte er sich hingesetzt, rief sein Chef an.", "Kaum hatte er sich gesetzt, rief sein Chef an.", "Kaum hatte er sich hingesetzt, als seine Chefin anrief."],
@@ -2487,13 +2488,13 @@ export const DE_C1_U06: Lesson[] = [
     level: "DE-C1",
     number: 13,
     title: "Real-World Mission: Write a Very Short Story",
-    summary: "Plan and write a 250-word Kurzgeschichte for a writing competition: Präteritum, an open ending and one passage of erlebte Rede.",
+    summary: "Plan and write a 250-word \"Kurzgeschichte\" (short story) for a writing competition, in the Präteritum with an open ending and one passage of erlebte Rede.",
     duration: "20 min",
     sections: [
       {
         heading: "The German Kurzgeschichte",
         body: [
-          "The German Kurzgeschichte (shaped after 1945 by Wolfgang Borchert and Heinrich Böll) has a recognisable form: it starts in the middle of things, without introduction (\"Sie stand am Fenster und wartete\"), tells a single everyday moment, uses simple, precise language, and ends open (\"offenes Ende\"): the reader has to complete it.",
+          "The German \"Kurzgeschichte\" (shaped after 1945 by Wolfgang Borchert and Heinrich Böll) has a recognisable form: it starts in the middle of things, without introduction (\"Sie stand am Fenster und wartete\"), tells a single everyday moment, uses simple, precise language, and ends open (\"offenes Ende\"): the reader has to complete it.",
           "Your competition brief: 250 words, theme \"Der Anruf\" (the phone call). Plan: one character, one place, one moment. Start in the middle. Narrate in the Präteritum, use the Plusquamperfekt for what had happened before, include one passage of erlebte Rede at the turning point, and end without explaining.",
           "A model opening: \"Das Telefon klingelte um 23 Uhr. Mehmet saß noch in der Küche, vor sich einen kalten Tee. Er wusste sofort, wer es war. Seit drei Wochen hatte sie sich nicht gemeldet.\"",
         ],
@@ -2607,8 +2608,8 @@ export const DE_C1_U06: Lesson[] = [
         prompt: "Translate into German, as background.",
         source: "He had moved to Hamburg two years earlier.",
         answer: "Er war zwei Jahre zuvor nach Hamburg gezogen.",
-        altAnswers: ["Zwei Jahre zuvor war er nach Hamburg gezogen.", "Er war zwei Jahre vorher nach Hamburg gezogen.", "Vor zwei Jahren war er nach Hamburg gezogen."],
-        explanation: "Plusquamperfekt with \"sein\" (\"ziehen\" = to move house); \"zuvor\" = earlier.",
+        altAnswers: ["Zwei Jahre zuvor war er nach Hamburg gezogen.", "Er war zwei Jahre vorher nach Hamburg gezogen."],
+        explanation: "Plusquamperfekt with \"sein\" (\"ziehen\" = to move house); \"zuvor\" = earlier. \"Vor zwei Jahren\" would count back from today, not from the story's moment.",
       },
       {
         type: "translate",

@@ -79,7 +79,8 @@ export const DE_B2_U08_EXTRA: Lesson[] = [
         en: "[The chairman] opened the meeting.",
         sentence: "___ eröffnete die Sitzung.",
         answer: "Der Vorsitzende",
-        explanation: "After der: weak -e.",
+        altAnswers: ["Die Vorsitzende"],
+        explanation: "After der: weak -e, not \"*der Vorsitzender\" (-er only after ein or with no article).",
       },
       {
         type: "translate",
@@ -441,7 +442,7 @@ export const DE_B2_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German, using a participle clause.",
         source: "Asked about the accident, the driver said nothing.",
         answer: "Nach dem Unfall gefragt, sagte der Fahrer nichts.",
-        altAnswers: ["Nach dem Unfall gefragt, schwieg der Fahrer.", "Nach dem Unfall gefragt, sagte die Fahrerin nichts."],
+        altAnswers: ["Nach dem Unfall gefragt, schwieg der Fahrer.", "Nach dem Unfall gefragt, sagte die Fahrerin nichts.", "Auf den Unfall angesprochen, sagte der Fahrer nichts."],
         explanation: "Passive Partizip II clause: \"nach etwas gefragt\".",
       },
       {
@@ -534,7 +535,7 @@ export const DE_B2_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Keys can be handed in at reception.",
         answer: "Die Schlüssel lassen sich an der Rezeption abgeben.",
-        altAnswers: ["Die Schlüssel können an der Rezeption abgegeben werden.", "Schlüssel können an der Rezeption abgegeben werden.", "Die Schlüssel sind an der Rezeption abzugeben."],
+        altAnswers: ["Die Schlüssel können an der Rezeption abgegeben werden.", "Schlüssel können an der Rezeption abgegeben werden.", "Schlüssel lassen sich an der Rezeption abgeben."],
         explanation: "Possibility: \"lassen sich abgeben\". (\"Sind abzugeben\" would make it a rule.)",
       },
       {
@@ -582,7 +583,7 @@ export const DE_B2_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence means The problem can't be solved?",
+        question: "Which sentence means 'The problem can't be solved'?",
         options: ["Das Problem lässt sich nicht lösen.", "Das Problem ist nicht gelöst.", "Das Problem wird nicht gelöst.", "Das gelöste Problem ist nicht."],
         correctIndex: 0,
         explanation: "Possibility: \"lässt sich nicht lösen\". The others describe a state or a process.",

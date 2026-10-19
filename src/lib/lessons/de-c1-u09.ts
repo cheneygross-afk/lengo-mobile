@@ -23,7 +23,7 @@ export const DE_C1_U09: Lesson[] = [
     level: "DE-C1",
     number: 1,
     title: "Fixed Prepositions, Part 1 of 6",
-    summary: "Verbs with an and auf: which take the accusative, which take the dative, and why the wo / wohin logic doesn't help here.",
+    summary: "Use verbs with \"an\" and \"auf\" with the right case, knowing which take the accusative, which take the dative, and why the wo / wohin logic doesn't help here.",
     duration: "18 min",
     sections: [
       {
@@ -31,7 +31,7 @@ export const DE_C1_U09: Lesson[] = [
         body: [
           "With an ordinary two-way preposition you choose the case by asking wo? (dative, position) or wohin? (accusative, movement). After a verb with a fixed preposition this logic switches off: the preposition is part of the verb, and the case simply has to be learned with it, like the gender of a noun. Learn \"denken an + Akk\", not \"denken an\".",
           "A large group of mental verbs takes \"an\" + accusative: \"denken an\" (think of / about), \"sich erinnern an\" (remember), \"sich gewöhnen an\" (get used to), \"glauben an\" (believe in), \"sich wenden an\" (turn to, contact), \"schreiben an\" (write to), \"appellieren an\". A helpful image: the mind moves towards something, so accusative.",
-          "English speakers make two typical slips here. First, they pick the English preposition: *\"Ich denke über dich\" for I'm thinking of you (it is \"an dich\"), *\"sich erinnern von\" for remember. Second, \"sich erinnern\" and \"sich gewöhnen\" are reflexive, and the reflexive pronoun is easy to forget: \"Ich erinnere mich an den Tag\", \"Ich habe mich an das Klima gewöhnt\".",
+          "English speakers make two typical slips here. First, they pick the English preposition: \"*Ich denke über dich\" for I'm thinking of you (it is \"an dich\"), \"*sich erinnern von\" for remember. Second, \"sich erinnern\" and \"sich gewöhnen\" are reflexive, and the reflexive pronoun is easy to forget: \"Ich erinnere mich an den Tag\", \"Ich habe mich an das Klima gewöhnt\".",
         ],
         examples: [
           { es: "Ich denke oft an meine Großmutter.", en: "I often think of my grandmother." },
@@ -48,15 +48,16 @@ export const DE_C1_U09: Lesson[] = [
             prompt: "Translate into German.",
             source: "I can't get used to the noise.",
             answer: "Ich kann mich nicht an den Lärm gewöhnen.",
-            altAnswers: ["An den Lärm kann ich mich nicht gewöhnen."],
+            altAnswers: ["An den Lärm kann ich mich nicht gewöhnen.", "Ich kann mich an den Lärm nicht gewöhnen."],
             explanation: "\"Sich gewöhnen an\" + accusative: \"an den Lärm\". The reflexive \"mich\" stays, and the infinitive goes to the end after the modal.",
           },
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Please [contact the] reception.",
-            sentence: "Bitte wenden Sie sich ___ Rezeption.",
-            answer: "an die",
+            en: "Please [contact reception].",
+            sentence: "Bitte ___.",
+            answer: "wenden Sie sich an die Rezeption",
+            altAnswers: ["wende dich an die Rezeption", "wendet euch an die Rezeption"],
             explanation: "\"Sich wenden an\" + accusative: \"an die Rezeption\". Contact someone is very often \"sich an jemanden wenden\" in formal German.",
           },
         ],
@@ -88,7 +89,7 @@ export const DE_C1_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence says: Nobody doubts the results.",
+            question: "Which sentence means nobody doubts the results?",
             options: ["Niemand zweifelt an den Ergebnissen.", "Niemand zweifelt an die Ergebnisse.", "Niemand zweifelt über die Ergebnisse.", "Niemand zweifelt die Ergebnisse."],
             correctIndex: 0,
             explanation: "\"Zweifeln an\" + dative: \"an den Ergebnissen\" (dative plural with -n). The accusative \"an die\" is the classic wrong guess.",
@@ -162,7 +163,7 @@ export const DE_C1_U09: Lesson[] = [
         en: "We [agreed on a] compromise.",
         sentence: "Wir haben uns ___ Kompromiss geeinigt.",
         answer: "auf einen",
-        explanation: "\"Sich einigen auf\" + accusative: \"auf einen Kompromiss\". After verbs, auf is accusative except with \"bestehen\" and \"beruhen\".",
+        explanation: "\"Sich einigen auf\" + accusative: \"auf einen Kompromiss\". After verbs, \"auf\" is accusative except with \"bestehen\" and \"beruhen\".",
       },
       {
         type: "translate",
@@ -239,7 +240,7 @@ export const DE_C1_U09: Lesson[] = [
     level: "DE-C1",
     number: 2,
     title: "Fixed Prepositions, Part 2 of 6",
-    summary: "Verbs with über, um, für, von, vor, zu, nach and mit, and the rule that a thing becomes darüber while a person stays über sie.",
+    summary: "Use verbs with \"über\", \"um\", \"für\", \"von\", \"vor\", \"zu\", \"nach\" and \"mit\", and replace a thing with a da-compound (\"darüber\") but a person with a pronoun (\"über sie\").",
     duration: "18 min",
     sections: [
       {
@@ -247,7 +248,7 @@ export const DE_C1_U09: Lesson[] = [
         body: [
           "\"Über\", \"um\" and \"für\" after a verb always take the accusative (\"um\" and \"für\" do anyway). Über: \"sich beschweren über\" (complain about), \"sich ärgern über\" (be annoyed about), \"nachdenken über\" (think about, reflect on), \"sich informieren über\", \"verfügen über\" (have at one's disposal, formal), \"sich freuen über\" (be pleased about).",
           "Um: \"sich bewerben um\" (apply for), \"bitten um\" (ask for), \"sich kümmern um\" (take care of), \"es geht um\" (it's about), \"sich handeln um\" (be a matter of), \"kämpfen um\". Für: \"sich entscheiden für\" (decide on), \"sich interessieren für\", \"sich bedanken für\", \"sich entschuldigen für\", \"sorgen für\" (provide, ensure), \"sich einsetzen für\" (stand up for).",
-          "The English verb often hides the preposition or uses a different one: apply for a job is \"sich um eine Stelle bewerben\" (not *für), ask for help is \"um Hilfe bitten\", have experience is formally \"über Erfahrung verfügen\". \"Fragen\" + for is a different verb: \"nach dem Weg fragen\", see below.",
+          "The English verb often hides the preposition or uses a different one: apply for a job is \"sich um eine Stelle bewerben\" (\"für\" is heard, but \"um\" is the standard), ask for help is \"um Hilfe bitten\", have experience is formally \"über Erfahrung verfügen\". \"Fragen\" + for is a different verb: \"nach dem Weg fragen\", see below.",
         ],
         examples: [
           { es: "Die Nachbarn haben sich über den Lärm beschwert.", en: "The neighbours complained about the noise." },
@@ -265,7 +266,7 @@ export const DE_C1_U09: Lesson[] = [
             source: "She's applying for a job in Cologne.",
             answer: "Sie bewirbt sich um eine Stelle in Köln.",
             altAnswers: ["Sie bewirbt sich auf eine Stelle in Köln.", "Sie bewirbt sich um einen Job in Köln.", "Sie bewirbt sich auf einen Job in Köln."],
-            explanation: "\"Sich bewerben um\" + accusative (also common: \"auf eine Stelle\", answering an advert). Never *\"für\", which is the English preposition.",
+            explanation: "\"Sich bewerben um\" + accusative (also common: \"auf eine Stelle\", answering an advert). \"Für\" copies the English preposition: it is heard, but avoid it in writing.",
           },
           {
             type: "fill-blank",
@@ -282,7 +283,7 @@ export const DE_C1_U09: Lesson[] = [
         body: [
           "\"Von\", \"zu\", \"nach\" and \"mit\" are dative prepositions anyway, and \"vor\" after a verb is always dative too. Von: \"abhängen von\" (depend on), \"träumen von\", \"sich erholen von\" (recover from), \"überzeugen von\" (convince of), \"sich verabschieden von\". Vor: \"warnen vor\" (warn about), \"schützen vor\" (protect from), \"sich fürchten vor\", \"fliehen vor\".",
           "Zu: \"gehören zu\" (be part of, belong to a group), \"neigen zu\" (tend to), \"beitragen zu\" (contribute to), \"gratulieren zu\", \"einladen zu\". Nach: \"fragen nach\" (ask about / for), \"sich erkundigen nach\" (enquire about), \"suchen nach\", \"riechen / schmecken nach\" (smell / taste of). Mit: \"sich beschäftigen mit\" (deal with, be occupied with), \"anfangen / aufhören mit\", \"rechnen mit\" (expect, count on), \"sich abfinden mit\" (come to terms with).",
-          "Two pairs English speakers mix up: \"gehören\" + dative alone is own (\"Das Buch gehört mir\"), \"gehören zu\" is be part of (\"Er gehört zur Familie\"). And \"abhängen von\" is depend on: *\"abhängen auf\" is a direct copy of English and wrong.",
+          "Two pairs English speakers mix up: \"gehören\" + dative alone is own (\"Das Buch gehört mir\"), \"gehören zu\" is be part of (\"Er gehört zur Familie\"). And \"abhängen von\" is depend on: \"*abhängen auf\" is a direct copy of English and wrong.",
         ],
         examples: [
           { es: "Das hängt vom Wetter ab.", en: "That depends on the weather." },
@@ -300,7 +301,7 @@ export const DE_C1_U09: Lesson[] = [
             source: "It depends on the price.",
             answer: "Es hängt vom Preis ab.",
             altAnswers: ["Das hängt vom Preis ab.", "Es hängt von dem Preis ab.", "Das hängt von dem Preis ab."],
-            explanation: "\"Abhängen von\" + dative: \"vom Preis\". The prefix \"ab\" goes to the end. *\"abhängen auf\" copies English depend on.",
+            explanation: "\"Abhängen von\" + dative: \"vom Preis\". The prefix \"ab\" goes to the end. \"*abhängen auf\" copies English depend on.",
           },
           {
             type: "translate",
@@ -318,7 +319,7 @@ export const DE_C1_U09: Lesson[] = [
         body: [
           "When the object of the preposition is a thing or an idea and you replace it with a pronoun, German uses a da-compound: \"da\" + preposition, with an -r- before a vowel: \"dafür\", \"damit\", \"davon\", \"dazu\", \"danach\", \"davor\", \"daran\", \"darauf\", \"darüber\", \"darum\". \"Ich denke an die Prüfung\" → \"Ich denke daran.\"",
           "When the object is a person (or an animal you think of as a person), you keep the preposition and add a personal pronoun in the right case: \"Ich denke an meine Schwester\" → \"Ich denke an sie.\" \"Wir sprechen über den Chef\" → \"Wir sprechen über ihn.\"",
-          "English uses it and him / her for both, so learners say *\"Ich denke an es\" (wrong: \"daran\") or *\"Ich warte darauf\" when they mean the bus driver (\"auf ihn\"). In casual speech you'll hear \"da\" split from its preposition (\"Da kann ich nichts für\") or shortened (\"dran\", \"drauf\", \"drüber\"): understand it, but write the full form.",
+          "English uses it and him / her for both, so learners say \"*Ich denke an es\" (wrong: \"daran\") or \"Ich warte darauf\" when they mean the bus driver (\"auf ihn\"). In casual speech you'll hear \"da\" split from its preposition (\"Da kann ich nichts für\") or shortened (\"dran\", \"drauf\", \"drüber\"): understand it, but write the full form.",
         ],
         examples: [
           { es: "Hast du an die Tickets gedacht? Ja, ich habe daran gedacht.", en: "Did you remember the tickets? Yes, I remembered them." },
@@ -331,7 +332,7 @@ export const DE_C1_U09: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Lena asks: Hast du dich über die Rechnung beschwert? You want to say: Yes, I complained about it.",
+            question: "Lena asks: \"Hast du dich über die Rechnung beschwert?\" You want to say: Yes, I complained about it.",
             options: ["Ja, ich habe mich darüber beschwert.", "Ja, ich habe mich über sie beschwert.", "Ja, ich habe mich über es beschwert.", "Ja, ich habe mich darauf beschwert."],
             correctIndex: 0,
             explanation: "A thing (the bill) becomes a da-compound: \"darüber\". \"Über sie\" would mean about her, a person, and \"über es\" isn't used for things.",
@@ -388,7 +389,7 @@ export const DE_C1_U09: Lesson[] = [
         source: "Did you ask about the price?",
         answer: "Hast du nach dem Preis gefragt?",
         altAnswers: ["Haben Sie nach dem Preis gefragt?", "Habt ihr nach dem Preis gefragt?", "Hast du dich nach dem Preis erkundigt?", "Haben Sie sich nach dem Preis erkundigt?", "Habt ihr euch nach dem Preis erkundigt?"],
-        explanation: "\"Fragen nach\" or \"sich erkundigen nach\" + dative: \"nach dem Preis\". *\"für den Preis fragen\" copies English ask for.",
+        explanation: "\"Fragen nach\" or \"sich erkundigen nach\" + dative: \"nach dem Preis\". \"*für den Preis fragen\" copies English ask for.",
       },
       {
         type: "translate",
@@ -401,7 +402,7 @@ export const DE_C1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend asks about her new colleague: Was denkst du über Frau Yilmaz? You want to say: I haven't thought about her yet.",
+        question: "Your friend asks about her new colleague: \"Was denkst du über Frau Yılmaz?\" You want to say: I haven't thought about her yet.",
         options: ["Über sie habe ich noch nicht nachgedacht.", "Darüber habe ich noch nicht nachgedacht.", "Über ihr habe ich noch nicht nachgedacht.", "Über es habe ich noch nicht nachgedacht."],
         correctIndex: 0,
         explanation: "A person keeps preposition + pronoun: \"über sie\" (accusative). \"Darüber\" would refer to a thing or a question.",
@@ -446,7 +447,7 @@ export const DE_C1_U09: Lesson[] = [
     level: "DE-C1",
     number: 3,
     title: "Fixed Prepositions, Part 3 of 6",
-    summary: "When the preposition changes the meaning: bestehen aus / auf / in, sich freuen auf / über, halten für / von, leiden an / unter, kommen auf / um and more.",
+    summary: "Choose the preposition that gives the meaning you want: \"bestehen aus\" / \"auf\" / \"in\", \"sich freuen auf\" / \"über\", \"halten für\" / \"von\", \"leiden an\" / \"unter\", \"kommen auf\" / \"um\" and more.",
     duration: "18 min",
     sections: [
       {
@@ -454,7 +455,7 @@ export const DE_C1_U09: Lesson[] = [
         body: [
           "Some verbs are really several verbs that share a stem. \"Bestehen aus\" + dative is consist of (\"Das Team besteht aus fünf Leuten\"); \"bestehen auf\" + dative is insist on; \"bestehen in\" + dative, formal, is consist in, lie in (\"Das Problem besteht darin, dass...\"). And \"bestehen\" alone with an accusative object means pass: \"eine Prüfung bestehen\".",
           "\"Sich freuen auf\" + accusative looks forward: to something still to come (\"Ich freue mich auf den Urlaub\"). \"Sich freuen über\" + accusative is be pleased about, glad about something that has happened or is there now (\"Ich habe mich über dein Geschenk gefreut\"). If you're glad that it's now the weekend, it's \"über\"; if it's Tuesday and you're thinking of Saturday, it's \"auf\".",
-          "Learners often say *\"Ich freue mich für das Wochenende\". \"Sich freuen für\" exists but only with a person: be happy for someone (\"Ich freue mich für dich!\").",
+          "Learners often say \"*Ich freue mich für das Wochenende\". \"Sich freuen für\" exists but only with a person: be happy for someone (\"Ich freue mich für dich!\").",
         ],
         examples: [
           { es: "Die Wohnung besteht aus drei Zimmern, Küche und Bad.", en: "The flat consists of three rooms, a kitchen and a bathroom." },
@@ -511,7 +512,7 @@ export const DE_C1_U09: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[I consider] that [a mistake].",
+            en: "I consider that [a mistake].",
             sentence: "Ich halte das ___.",
             answer: "für einen Fehler",
             explanation: "\"Halten für\" + accusative: consider something to be something, \"für einen Fehler\".",
@@ -562,7 +563,7 @@ export const DE_C1_U09: Lesson[] = [
         source: "I'm looking forward to the weekend.",
         answer: "Ich freue mich auf das Wochenende.",
         altAnswers: ["Ich freue mich aufs Wochenende."],
-        explanation: "Future event: \"sich freuen auf\" + accusative. Not *\"für das Wochenende\".",
+        explanation: "Future event: \"sich freuen auf\" + accusative. Not \"*für das Wochenende\".",
       },
       {
         type: "translate",
@@ -706,7 +707,7 @@ export const DE_C1_U09: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Ayşe asks: Denkst du noch an deinen Ex? You want to say: No, I never think about him.",
+            question: "Ayşe asks: \"Denkst du noch an deinen Ex?\" You want to say: No, I never think about him.",
             options: ["Nein, ich denke nie an ihn.", "Nein, ich denke nie daran.", "Nein, ich denke nie an ihm.", "Nein, ich denke nie über ihn."],
             correctIndex: 0,
             explanation: "A person: preposition + pronoun, and \"denken an\" takes the accusative \"ihn\".",
@@ -765,7 +766,7 @@ export const DE_C1_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "We're waiting for the results.",
         answer: "Wir warten auf die Ergebnisse.",
-        explanation: "\"Warten auf\" + accusative. Never *\"warten für\".",
+        explanation: "\"Warten auf\" + accusative. Never \"*warten für\".",
       },
       {
         type: "translate",
@@ -773,6 +774,7 @@ export const DE_C1_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "He's protecting the children from the dog.",
         answer: "Er schützt die Kinder vor dem Hund.",
+        altAnswers: ["Er beschützt die Kinder vor dem Hund."],
         explanation: "\"Schützen vor\" + dative: \"vor dem Hund\".",
       },
       {
@@ -829,20 +831,20 @@ export const DE_C1_U09: Lesson[] = [
     level: "DE-C1",
     number: 5,
     title: "Sorting: Preposition, Dative, Accusative or Genitive?",
-    summary: "Where English uses a preposition and German doesn't (helfen, anrufen, heiraten) and vice versa, plus the formal genitive verbs.",
+    summary: "Sort verbs that take a plain dative (\"helfen\", \"folgen\"), a plain accusative (\"anrufen\", \"heiraten\") or a genitive (\"gedenken\", \"bedürfen\") where English uses a preposition, and vice versa.",
     duration: "17 min",
     sections: [
       {
         heading: "No preposition, but the dative",
         body: [
           "A small, very frequent group of German verbs takes a dative object where English has a direct object or a preposition: \"helfen\" (help), \"danken\" (thank), \"folgen\" (follow), \"begegnen\" (run into, meet by chance), \"gratulieren\" (congratulate), \"zuhören\" (listen to), \"widersprechen\" (contradict), \"vertrauen\" (trust), \"schaden\" (harm), \"gehorchen\" (obey), \"ausweichen\" (avoid, get out of the way of).",
-          "Because English says help him, thank her, follow me, the accusative is the natural slip: *\"Ich helfe dich\", *\"Kannst du mich folgen?\". The correct forms are \"Ich helfe dir\", \"Kannst du mir folgen?\" (also: can you follow what I'm saying?).",
-          "Mind \"begegnen\" and \"folgen\": they take \"sein\" in the Perfekt (\"Ich bin ihm gestern begegnet\"). And listen to someone is \"jemandem zuhören\", with no preposition at all: *\"zu jemandem hören\" doesn't exist.",
+          "Because English says help him, thank her, follow me, the accusative is the natural slip: \"*Ich helfe dich\", \"*Kannst du mich folgen?\". The correct forms are \"Ich helfe dir\", \"Kannst du mir folgen?\" (also: can you follow what I'm saying?).",
+          "Mind \"begegnen\" and \"folgen\": they take \"sein\" in the Perfekt (\"Ich bin ihm gestern begegnet\"). And listen to someone is \"jemandem zuhören\", with no preposition at all: \"*zu jemandem hören\" doesn't exist.",
         ],
         examples: [
           { es: "Kann ich Ihnen helfen?", en: "Can I help you?" },
           { es: "Ich bin gestern zufällig deinem Bruder begegnet.", en: "I ran into your brother yesterday by chance." },
-          { es: "Wir gratulieren dir herzlich zum Geburtstag!", en: "Happy birthday from both of us! (we congratulate you)" },
+          { es: "Wir gratulieren dir herzlich zum Geburtstag!", en: "We wish you a very happy birthday! (literally: we congratulate you)" },
           { es: "Hör mir doch mal zu!", en: "Will you just listen to me!" },
           { es: "Ich muss dir da widersprechen.", en: "I have to disagree with you there." },
           { es: "Zu viel Zucker schadet der Gesundheit.", en: "Too much sugar is bad for your health." },
@@ -854,6 +856,7 @@ export const DE_C1_U09: Lesson[] = [
             prompt: "Translate into German.",
             source: "I don't trust him.",
             answer: "Ich vertraue ihm nicht.",
+            altAnswers: ["Ich traue ihm nicht."],
             explanation: "\"Vertrauen\" takes the dative: \"ihm\". English trust him tempts you to use the accusative \"ihn\".",
           },
           {
@@ -871,7 +874,7 @@ export const DE_C1_U09: Lesson[] = [
         heading: "No preposition, but the accusative",
         body: [
           "The opposite also happens: German uses a plain accusative object where English needs a preposition. \"Jemanden anrufen\" (phone someone, call someone up), \"jemanden heiraten\" (get married to someone), \"etwas betreten\" (enter, walk onto), \"etwas beantworten\" (answer a question or letter), \"jemanden fragen\" (ask someone), \"etwas bezweifeln\" (have doubts about), \"jemanden um etwas beneiden\".",
-          "\"Anrufen\" is the big one: *\"Ich rufe dir an\" and *\"Ich rufe zu dir an\" are typical mistakes. It is \"Ich rufe dich an\". In Switzerland and parts of the south you'll hear \"jemandem anläuten / telefonieren\", but in standard German \"anrufen\" takes the accusative.",
+          "\"Anrufen\" is the big one: \"*Ich rufe dir an\" and \"*Ich rufe zu dir an\" are typical mistakes. It is \"Ich rufe dich an\". In Switzerland and parts of the south you'll hear \"jemandem anläuten / telefonieren\", but in standard German \"anrufen\" takes the accusative.",
           "Some meanings exist both ways: \"etwas beantworten\" (accusative) = \"auf etwas antworten\" (preposition). \"Etwas bezweifeln\" = \"an etwas zweifeln\". The be- prefix often turns a prepositional verb into a transitive one: \"antworten auf\" → \"beantworten\", \"urteilen über\" → \"beurteilen\", \"klagen über\" → \"beklagen\".",
         ],
         examples: [
@@ -952,7 +955,7 @@ export const DE_C1_U09: Lesson[] = [
         source: "Have you answered the email yet?",
         answer: "Hast du die E-Mail schon beantwortet?",
         altAnswers: ["Haben Sie die E-Mail schon beantwortet?", "Habt ihr die E-Mail schon beantwortet?", "Hast du schon auf die E-Mail geantwortet?", "Haben Sie schon auf die E-Mail geantwortet?", "Habt ihr schon auf die E-Mail geantwortet?"],
-        explanation: "\"Beantworten\" + accusative, or \"antworten auf\" + accusative. Not *\"die E-Mail antworten\".",
+        explanation: "\"Beantworten\" + accusative, or \"antworten auf\" + accusative. Not \"*die E-Mail antworten\".",
       },
       {
         type: "translate",
@@ -966,7 +969,7 @@ export const DE_C1_U09: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[Congratulations on] your new job!",
+        en: "[Congratulations] on your new job!",
         sentence: "Ich ___ zur neuen Stelle!",
         answer: "gratuliere dir",
         altAnswers: ["gratuliere Ihnen", "gratuliere euch"],
@@ -1033,15 +1036,15 @@ export const DE_C1_U09: Lesson[] = [
     slug: "c1-contrast-halten-fuer-von-an",
     level: "DE-C1",
     number: 6,
-    title: "Contrast Clinic: Halten Für, Halten Von, Sich Halten An",
-    summary: "One verb, many meanings: consider someone something, think of something, stick to the rules, give a speech and keep your word.",
+    title: "Contrast Clinic: Halten für, Halten von, Sich halten an",
+    summary: "Use \"halten\" in all its senses: consider someone something (\"halten für\"), think of something (\"halten von\"), stick to the rules (\"sich halten an\"), give a speech and keep your word.",
     duration: "16 min",
     sections: [
       {
         heading: "Halten für: consider, take for",
         body: [
           "\"Jemanden / etwas halten für\" + accusative states your judgement: what you consider someone or something to be. What follows \"für\" is an adjective (\"Ich halte ihn für ehrlich\") or a noun phrase in the accusative (\"Ich halte das für einen Fehler\"). It is a stronger, more formal alternative to \"Ich finde ihn ehrlich\".",
-          "It also means mistake for: \"Sie hielt mich für meinen Bruder\" (she took me for my brother). The da-compound is \"dafür\": \"Ich halte es für möglich\" or \"Ich halte es für möglich, dass...\" and, with a clause after it, \"es\" points ahead. Don't use \"von\" here: *\"Ich halte ihn von ehrlich\" doesn't exist.",
+          "It also means mistake for: \"Sie hielt mich für meinen Bruder\" (she took me for my brother). Before a clause, \"es\" is the placeholder object: \"Ich halte es für möglich, dass...\" (\"es\" points ahead to the clause); the question word is \"wofür\". Don't use \"von\" here: \"*Ich halte ihn von ehrlich\" doesn't exist.",
         ],
         examples: [
           { es: "Ich halte das für eine gute Idee.", en: "I think that's a good idea." },
@@ -1065,7 +1068,6 @@ export const DE_C1_U09: Lesson[] = [
             en: "The waiter [took me for] a tourist.",
             sentence: "Der Kellner ___ einen Touristen.",
             answer: "hielt mich für",
-            altAnswers: ["hat mich für"],
             explanation: "Take for, mistake for: \"halten für\" + accusative, \"für einen Touristen\" (weak masculine noun with -en).",
           },
         ],
@@ -1108,7 +1110,7 @@ export const DE_C1_U09: Lesson[] = [
         body: [
           "\"Sich halten an\" + accusative means stick to, follow, comply with: \"sich an die Regeln / an den Plan / an die Vorschriften halten\". The da-compound: \"Halt dich bitte daran!\" It also means rely on a person for information: \"Halten Sie sich an Frau Weber, sie kennt sich aus.\"",
           "Without a preposition: \"eine Rede / einen Vortrag halten\" (give a speech / talk), \"Wort halten\" or \"sein Versprechen halten\" (keep one's word), \"den Mund halten\" (keep quiet), \"Kontakt halten\", \"Ordnung halten\". And of course plain \"halten\" (hold, stop: \"Der Bus hält hier nicht\") and \"sich halten\" (keep, last: \"Die Milch hält sich eine Woche\").",
-          "English give a speech is not \"geben\": *\"eine Rede geben\" is a classic calque. Likewise keep a promise is \"halten\", not *\"behalten\".",
+          "English give a speech is not \"geben\": \"*eine Rede geben\" is a classic calque. Likewise keep a promise is \"halten\", not \"*behalten\".",
         ],
         examples: [
           { es: "Wer sich nicht an die Regeln hält, fliegt raus.", en: "Anyone who doesn't stick to the rules is out." },
@@ -1131,7 +1133,7 @@ export const DE_C1_U09: Lesson[] = [
             type: "speak",
             text: "Ich habe Wort gehalten.",
             prompt: "Say it in German: I kept my word.",
-            tip: "The h in \"gehalten\" is pronounced; German h is never silent at the start of a syllable.",
+            tip: "The h in \"gehalten\" is pronounced: it begins the stem \"halten\".",
             explanation: "Keep one's word is \"Wort halten\", with no article.",
           },
         ],
@@ -1163,7 +1165,7 @@ export const DE_C1_U09: Lesson[] = [
         source: "She gave a brilliant talk.",
         answer: "Sie hat einen brillanten Vortrag gehalten.",
         altAnswers: ["Sie hielt einen brillanten Vortrag.", "Sie hat einen hervorragenden Vortrag gehalten.", "Sie hielt einen hervorragenden Vortrag."],
-        explanation: "Give a talk is \"einen Vortrag halten\", never *\"geben\".",
+        explanation: "Give a talk is \"einen Vortrag halten\", never \"*geben\".",
       },
       {
         type: "fill-blank",
@@ -1175,7 +1177,7 @@ export const DE_C1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Jonas says: Ich halte ihn für einen Betrüger. What does he mean?",
+        question: "Jonas says: \"Ich halte ihn für einen Betrüger.\" What does he mean?",
         options: ["I think he's a fraud.", "I'm holding him for a fraudster.", "I don't think much of the fraudster.", "I'm stopping him because he's a fraud."],
         correctIndex: 0,
         explanation: "\"Halten für\" + accusative: consider someone to be something.",
@@ -1214,7 +1216,7 @@ export const DE_C1_U09: Lesson[] = [
         question: "What does it mean?",
         options: ["I don't think anything of it at all.", "I'm not holding anything.", "I don't consider that anything.", "I don't stick to anything."],
         correctIndex: 0,
-        explanation: "\"Nichts halten von\" is have no opinion of, think nothing of; \"davon\" refers to a thing.",
+        explanation: "\"Nichts halten von\" is think nothing of, have no time for; \"davon\" refers to a thing.",
       },
       {
         type: "translate",
@@ -1232,7 +1234,7 @@ export const DE_C1_U09: Lesson[] = [
     level: "DE-C1",
     number: 7,
     title: "Fixed Prepositions, Part 4 of 6",
-    summary: "Nouns with fixed prepositions: Angst vor, Lust auf, Interesse an, Grund für, Suche nach, and where the noun's preposition differs from the verb's.",
+    summary: "Use nouns with fixed prepositions (\"Angst vor\", \"Lust auf\", \"Interesse an\", \"Grund für\", \"Suche nach\") and spot where the noun's preposition differs from the verb's.",
     duration: "18 min",
     sections: [
       {
@@ -1273,7 +1275,7 @@ export const DE_C1_U09: Lesson[] = [
       {
         heading: "Nouns that change the preposition",
         body: [
-          "Not every noun copies its verb. The most important mismatch: \"sich interessieren für\" but \"das Interesse an\" + dative (\"Interesse an der Stelle\"). Also: \"lieben\" (no preposition) but \"die Liebe zu\"; \"sich beziehen auf\" but \"die Beziehung zu\" (relationship with); \"verstehen\" but \"das Verständnis für\".",
+          "Not every noun copies its verb. The most important mismatch: \"sich interessieren für\" but \"das Interesse an\" + dative (\"Interesse an der Stelle\"; \"Interesse für\" also exists, but \"an\" is the default). Also: \"lieben\" (no preposition) but \"die Liebe zu\"; \"sich beziehen auf\" but \"die Beziehung zu\" (relationship with); \"verstehen\" but \"das Verständnis für\".",
           "Other nouns have no verb to lean on: \"die Lust auf\" (fancy, appetite for: \"Ich habe Lust auf Pizza\"), \"der Grund für\" (reason for), \"die Ursache für\" (cause of), \"der Bedarf an\" (need for), \"die Voraussetzung für\" (requirement for), \"die Kritik an\" (criticism of), \"der Einfluss auf\" (influence on), \"die Kenntnisse in\" (knowledge of a subject).",
           "\"Freude\" has three: \"die Freude an\" + dative (pleasure in an activity: \"Freude an der Arbeit\"), \"die Freude über\" + accusative (joy at an event), \"die Vorfreude auf\" (anticipation). They mirror \"sich freuen an / über / auf\".",
         ],
@@ -1345,6 +1347,7 @@ export const DE_C1_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm in the mood for a walk.",
         answer: "Ich habe Lust auf einen Spaziergang.",
+        altAnswers: ["Ich hätte Lust auf einen Spaziergang."],
         explanation: "\"Lust auf\" + accusative: feel like, be in the mood for.",
       },
       {
@@ -1403,7 +1406,7 @@ export const DE_C1_U09: Lesson[] = [
         source: "I have no interest in politics.",
         answer: "Ich habe kein Interesse an Politik.",
         altAnswers: ["Ich habe kein Interesse an der Politik.", "Ich interessiere mich nicht für Politik."],
-        explanation: "Noun: \"Interesse an\" + dative. Verb: \"sich interessieren für\". Both are right; just don't mix them (*Interesse für).",
+        explanation: "Noun: \"Interesse an\" + dative. Verb: \"sich interessieren für\". Both are right. \"Interesse für\" also occurs (\"Interesse für etwas zeigen\"), but \"Interesse an\" is the safe default.",
       },
       {
         type: "dictation",
@@ -1432,7 +1435,7 @@ export const DE_C1_U09: Lesson[] = [
     level: "DE-C1",
     number: 8,
     title: "Fixed Prepositions, Part 5 of 6",
-    summary: "Adjectives with fixed prepositions (stolz auf, abhängig von, zufrieden mit, bekannt für / mit) and adjectives that simply take the dative.",
+    summary: "Use adjectives with fixed prepositions (\"stolz auf\", \"abhängig von\", \"zufrieden mit\", \"bekannt für\" / \"mit\") and adjectives that simply take the dative (\"mir egal\", \"ihm ähnlich\").",
     duration: "18 min",
     sections: [
       {
@@ -1458,7 +1461,7 @@ export const DE_C1_U09: Lesson[] = [
             source: "I'm proud of you.",
             answer: "Ich bin stolz auf dich.",
             altAnswers: ["Ich bin stolz auf Sie.", "Ich bin stolz auf euch."],
-            explanation: "\"Stolz auf\" + accusative. *\"Stolz von\" copies English proud of.",
+            explanation: "\"Stolz auf\" + accusative. \"*Stolz von\" copies English proud of.",
           },
           {
             type: "fill-blank",
@@ -1476,7 +1479,7 @@ export const DE_C1_U09: Lesson[] = [
         body: [
           "Some adjectives change meaning with the preposition, like verbs. \"Bekannt für\" + Akk is famous for (\"Köln ist bekannt für seinen Dom\"); \"bekannt mit\" + Dat is acquainted with (\"Ich bin mit ihr bekannt\"); \"jemandem bekannt sein\" (dative, no preposition) is be known to someone.",
           "Others to learn: \"interessiert an\" + Dat (interested in: the adjective follows the noun \"Interesse an\", not the verb \"sich interessieren für\"), \"reich an\" + Dat (rich in), \"arm an\" + Dat, \"fähig zu\" + Dat (capable of), \"bereit zu\" + Dat (ready, willing to), \"verheiratet mit\" (married to), \"befreundet mit\" (friends with), \"vertraut mit\" (familiar with), \"überrascht von / über\".",
-          "\"Bereit\" and \"fähig\" often take a zu-infinitive with or without \"dazu\": \"Ich bin (dazu) bereit, dir zu helfen\". \"Fähig zu\" before a noun often has a nominalised verb: \"zu allem fähig\" (capable of anything).",
+          "\"Bereit\" and \"fähig\" often take a zu-infinitive with or without \"dazu\": \"Ich bin (dazu) bereit, dir zu helfen\". \"Fähig zu\" also takes a noun or pronoun: \"zu allem fähig\" (capable of anything).",
         ],
         examples: [
           { es: "Leipzig ist bekannt für seine Musiktradition.", en: "Leipzig is famous for its musical tradition." },
@@ -1509,7 +1512,7 @@ export const DE_C1_U09: Lesson[] = [
         heading: "Adjectives with a plain dative",
         body: [
           "A third group takes no preposition but a dative person: \"Das ist mir bekannt\" (I'm aware of that), \"Er ist seinem Vater sehr ähnlich\" (he's very like his father), \"Ich bin dir dankbar\" (I'm grateful to you), \"Das ist mir egal\" (I don't care), \"Das ist mir peinlich\" (that's embarrassing for me), \"Sie ist mir fremd\" (she's a stranger to me), \"Das ist mir wichtig\", \"Er war mir behilflich\" (he helped me, formal), \"Das ist mir neu\" (that's news to me).",
-          "English often has a different subject or a preposition: I don't care → \"Das ist mir egal\"; I'm aware → \"Das ist mir bekannt\"; similar to → dative \"ähnlich\" with no \"zu\". *\"Er ist ähnlich zu seinem Vater\" is a calque.",
+          "English often has a different subject or a preposition: I don't care → \"Das ist mir egal\"; I'm aware → \"Das ist mir bekannt\"; similar to → dative \"ähnlich\" with no \"zu\". \"*Er ist ähnlich zu seinem Vater\" is a calque.",
           "\"Dankbar\" can take both: the person in the dative, the reason with \"für\": \"Ich bin dir für deine Geduld dankbar.\"",
         ],
         examples: [
@@ -1547,7 +1550,7 @@ export const DE_C1_U09: Lesson[] = [
         source: "Are you satisfied with the result?",
         answer: "Bist du mit dem Ergebnis zufrieden?",
         altAnswers: ["Sind Sie mit dem Ergebnis zufrieden?", "Seid ihr mit dem Ergebnis zufrieden?"],
-        explanation: "\"Zufrieden mit\" + dative. *\"zufrieden von\" is a common slip.",
+        explanation: "\"Zufrieden mit\" + dative. \"*zufrieden von\" is a common slip.",
       },
       {
         type: "translate",
@@ -1637,14 +1640,14 @@ export const DE_C1_U09: Lesson[] = [
     level: "DE-C1",
     number: 9,
     title: "Error Hunt: English Interference in Prepositions",
-    summary: "Spot and fix the prepositions English speakers carry over: warten für, interessiert in, abhängig auf, stolz von, Ich denke über dich.",
+    summary: "Spot and fix the prepositions English speakers carry over: \"*warten für\", \"*interessiert in\", \"*abhängig auf\", \"*stolz von\", \"*Ich denke über dich\".",
     duration: "16 min",
     sections: [
       {
         heading: "For, in and of: the usual suspects",
         body: [
-          "These sentences come from emails and posts by advanced learners. Each has one preposition copied from English. *\"Ich warte für den Bus\" → \"Ich warte auf den Bus\". *\"Ich bin interessiert in Kunst\" → \"Ich bin an Kunst interessiert\" or \"Ich interessiere mich für Kunst\". *\"Er hat für Hilfe gefragt\" → \"Er hat um Hilfe gebeten\".",
-          "*\"Ich bin stolz von dir\" → \"Ich bin stolz auf dich\". *\"Ich habe Angst von Hunden\" → \"Ich habe Angst vor Hunden\". English of almost never becomes \"von\" after adjectives and feelings.",
+          "These sentences come from emails and posts by advanced learners. Each has one preposition copied from English. \"*Ich warte für den Bus\" → \"Ich warte auf den Bus\". \"*Ich bin interessiert in Kunst\" → \"Ich bin an Kunst interessiert\" or \"Ich interessiere mich für Kunst\". \"*Er hat für Hilfe gefragt\" → \"Er hat um Hilfe gebeten\".",
+          "\"*Ich bin stolz von dir\" → \"Ich bin stolz auf dich\". \"*Ich habe Angst von Hunden\" → \"Ich habe Angst vor Hunden\". English of almost never becomes \"von\" after adjectives and feelings.",
           "Note \"fragen\" vs \"bitten\": \"fragen\" asks a question (\"nach dem Weg fragen\": ask for directions); \"bitten um\" requests something (\"um Hilfe bitten\": ask for help). English ask for covers both.",
         ],
         examples: [
@@ -1658,7 +1661,7 @@ export const DE_C1_U09: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the mistake and translate into German: *Er hat für mehr Geld gefragt. (He asked for more money.)",
+            prompt: "Fix the mistake and translate into German: \"*Er hat für mehr Geld gefragt.\" (He asked for more money.)",
             source: "He asked for more money.",
             answer: "Er hat um mehr Geld gebeten.",
             altAnswers: ["Er bat um mehr Geld."],
@@ -1667,7 +1670,7 @@ export const DE_C1_U09: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the mistake and translate into German: *Ich bin interessiert in der Stelle. (I'm interested in the job.)",
+            prompt: "Fix the mistake and translate into German: \"*Ich bin interessiert in der Stelle.\" (I'm interested in the job.)",
             source: "I'm interested in the job.",
             answer: "Ich bin an der Stelle interessiert.",
             altAnswers: ["Ich interessiere mich für die Stelle.", "Ich habe Interesse an der Stelle."],
@@ -1678,9 +1681,9 @@ export const DE_C1_U09: Lesson[] = [
       {
         heading: "On, of and about",
         body: [
-          "*\"Das ist abhängig auf dem Wetter\" → \"Das hängt vom Wetter ab\" / \"Das ist abhängig vom Wetter\". *\"Ich erinnere mich von dem Tag\" → \"Ich erinnere mich an den Tag\". *\"Ich bin zufrieden von dem Service\" → \"zufrieden mit\".",
-          "*\"Ich denke über dich\" for I'm thinking of you → \"Ich denke an dich\". \"Denken an\" is having someone in your mind; \"nachdenken über\" is reflect on a question; \"denken über\" only appears in have an opinion about: \"Was denkst du über ihn?\" (what's your opinion of him?).",
-          "*\"Wir haben auf dem Thema gesprochen\" → \"über das Thema\". After verbs of speaking and thinking, about is usually \"über\" + accusative.",
+          "\"*Das ist abhängig auf dem Wetter\" → \"Das hängt vom Wetter ab\" / \"Das ist abhängig vom Wetter\". \"*Ich erinnere mich von dem Tag\" → \"Ich erinnere mich an den Tag\". \"*Ich bin zufrieden von dem Service\" → \"zufrieden mit\".",
+          "\"*Ich denke über dich\" for I'm thinking of you → \"Ich denke an dich\". \"Denken an\" is having someone in your mind; \"nachdenken über\" is reflect on a question; \"denken über\" only appears in have an opinion about: \"Was denkst du über ihn?\" (what's your opinion of him?).",
+          "\"*Wir haben auf dem Thema gesprochen\" → \"über das Thema\". After verbs of speaking and thinking, about is usually \"über\" + accusative.",
         ],
         examples: [
           { es: "Ich denke ganz oft an dich.", en: "I think of you very often." },
@@ -1692,7 +1695,7 @@ export const DE_C1_U09: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "Fix the mistake: *Ich denke über dich. Write the German for the bold words.",
+            prompt: "Fix the mistake \"*Ich denke über dich.\" Write the German for the bold words.",
             en: "I'm [thinking of you].",
             sentence: "Ich ___.",
             answer: "denke an dich",
@@ -1700,7 +1703,7 @@ export const DE_C1_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the corrected version of *Ich erinnere mich von dem Tag?",
+            question: "Which is the corrected version of \"*Ich erinnere mich von dem Tag\"?",
             options: ["Ich erinnere mich an den Tag.", "Ich erinnere mich an dem Tag.", "Ich erinnere mich über den Tag.", "Ich erinnere den Tag."],
             correctIndex: 0,
             explanation: "\"Sich erinnern an\" + accusative: \"an den Tag\". (\"An dem Tag\" would mean on that day.)",
@@ -1710,8 +1713,8 @@ export const DE_C1_U09: Lesson[] = [
       {
         heading: "Objects that aren't prepositional at all",
         body: [
-          "Sometimes the mistake is adding a preposition German doesn't have, or the wrong case: *\"Ich habe ihn angerufen zu\" (phone to) → \"Ich habe ihn angerufen\"; *\"Ich habe zu ihm telefoniert\" → \"Ich habe mit ihm telefoniert\". *\"Ich helfe dich\" → \"Ich helfe dir\"; *\"Sie hat mit ihm geheiratet\" → \"Sie hat ihn geheiratet\" or \"Sie hat sich mit ihm verlobt\" (get engaged to: here \"mit\" is right).",
-          "Also: *\"Ich habe auf die Frage beantwortet\" → \"Ich habe die Frage beantwortet\" or \"auf die Frage geantwortet\". *\"Er hat das Zimmer eingetreten\" → \"Er hat das Zimmer betreten\" or \"ist ins Zimmer getreten\".",
+          "Sometimes the mistake is adding a preposition German doesn't have, or the wrong case: \"*Ich habe ihn angerufen zu\" (phone to) → \"Ich habe ihn angerufen\"; \"*Ich habe zu ihm telefoniert\" → \"Ich habe mit ihm telefoniert\". \"*Ich helfe dich\" → \"Ich helfe dir\"; \"*Sie hat mit ihm geheiratet\" → \"Sie hat ihn geheiratet\" or \"Sie hat sich mit ihm verlobt\" (get engaged to: here \"mit\" is right).",
+          "Also: \"*Ich habe auf die Frage beantwortet\" → \"Ich habe die Frage beantwortet\" or \"auf die Frage geantwortet\". \"*Er hat das Zimmer eingetreten\" → \"Er hat das Zimmer betreten\" or \"ist ins Zimmer getreten\".",
         ],
         examples: [
           { es: "Ich habe gestern lange mit meiner Schwester telefoniert.", en: "I was on the phone with my sister for ages yesterday." },
@@ -1724,7 +1727,7 @@ export const DE_C1_U09: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the mistake and translate into German: *Ich habe zu meiner Mutter telefoniert. (I talked to my mother on the phone.)",
+            prompt: "Fix the mistake and translate into German: \"*Ich habe zu meiner Mutter telefoniert.\" (I talked to my mother on the phone.)",
             source: "I talked to my mother on the phone.",
             answer: "Ich habe mit meiner Mutter telefoniert.",
             explanation: "\"Telefonieren mit\" + dative; \"anrufen\" takes a plain accusative.",
@@ -1744,7 +1747,7 @@ export const DE_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the mistake and translate into German: *Wir warten für eine Antwort. (We're waiting for an answer.)",
+        prompt: "Fix the mistake and translate into German: \"*Wir warten für eine Antwort.\" (We're waiting for an answer.)",
         source: "We're waiting for an answer.",
         answer: "Wir warten auf eine Antwort.",
         explanation: "\"Warten auf\" + accusative, never \"für\".",
@@ -1752,7 +1755,7 @@ export const DE_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the mistake and translate into German: *Meine Eltern sind stolz von mir. (My parents are proud of me.)",
+        prompt: "Fix the mistake and translate into German: \"*Meine Eltern sind stolz von mir.\" (My parents are proud of me.)",
         source: "My parents are proud of me.",
         answer: "Meine Eltern sind stolz auf mich.",
         explanation: "\"Stolz auf\" + accusative.",
@@ -1760,7 +1763,7 @@ export const DE_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the mistake and translate into German: *Der Preis ist abhängig auf der Saison. (The price depends on the season.)",
+        prompt: "Fix the mistake and translate into German: \"*Der Preis ist abhängig auf der Saison.\" (The price depends on the season.)",
         source: "The price depends on the season.",
         answer: "Der Preis hängt von der Saison ab.",
         altAnswers: ["Der Preis ist von der Saison abhängig.", "Der Preis ist abhängig von der Saison."],
@@ -1769,7 +1772,7 @@ export const DE_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the mistake and translate into German: *Sie hat mit einem Arzt geheiratet. (She married a doctor.)",
+        prompt: "Fix the mistake and translate into German: \"*Sie hat mit einem Arzt geheiratet.\" (She married a doctor.)",
         source: "She married a doctor.",
         answer: "Sie hat einen Arzt geheiratet.",
         altAnswers: ["Sie heiratete einen Arzt.", "Sie hat eine Ärztin geheiratet.", "Sie heiratete eine Ärztin."],
@@ -1777,8 +1780,8 @@ export const DE_C1_U09: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Fix the mistake (*zufrieden von). Write the German for the bold words.",
-        en: "The customers are [satisfied with the] new app.",
+        prompt: "Fix the mistake (\"*zufrieden von\"). Write the German for the bold words.",
+        en: "The customers are satisfied [with the] new app.",
         sentence: "Die Kunden sind ___ neuen App zufrieden.",
         answer: "mit der",
         explanation: "\"Zufrieden mit\" + dative: \"mit der neuen App\".",
@@ -1786,7 +1789,7 @@ export const DE_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the mistake and translate into German: *Ich habe gestern über dich gedacht. (I thought of you yesterday.)",
+        prompt: "Fix the mistake and translate into German: \"*Ich habe gestern über dich gedacht.\" (I thought of you yesterday.)",
         source: "I thought of you yesterday.",
         answer: "Ich habe gestern an dich gedacht.",
         altAnswers: ["Gestern habe ich an dich gedacht.", "Ich dachte gestern an dich.", "Ich habe gestern an Sie gedacht.", "Gestern habe ich an Sie gedacht.", "Ich habe gestern an euch gedacht."],
@@ -1810,7 +1813,7 @@ export const DE_C1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the mistake and translate into German: *Ich habe auf alle E-Mails beantwortet. (I've answered all the emails.)",
+        prompt: "Fix the mistake and translate into German: \"*Ich habe auf alle E-Mails beantwortet.\" (I've answered all the emails.)",
         source: "I've answered all the emails.",
         answer: "Ich habe alle E-Mails beantwortet.",
         altAnswers: ["Ich habe auf alle E-Mails geantwortet."],
@@ -1819,7 +1822,7 @@ export const DE_C1_U09: Lesson[] = [
       {
         type: "dictation",
         audio: "Wir haben lange über das Thema gesprochen.",
-        explanation: "Talk about a topic: \"sprechen über\" + accusative, not *\"auf dem Thema\".",
+        explanation: "Talk about a topic: \"sprechen über\" + accusative, not \"*auf dem Thema\".",
       },
       {
         type: "speak",
@@ -1834,7 +1837,7 @@ export const DE_C1_U09: Lesson[] = [
     level: "DE-C1",
     number: 10,
     title: "Transformations: Prepositional Verbs in Questions and Relatives",
-    summary: "Turn statements with prepositional verbs into questions (Worauf? Auf wen?) and relative clauses (der Kollege, auf den...; alles, worüber...).",
+    summary: "Turn statements with prepositional verbs into questions (\"Worauf?\", \"Auf wen?\") and relative clauses (\"der Kollege, auf den...\"; \"alles, worüber...\").",
     duration: "18 min",
     sections: [
       {
@@ -1877,7 +1880,7 @@ export const DE_C1_U09: Lesson[] = [
         heading: "Relative clauses: der Kollege, auf den ich mich verlasse",
         body: [
           "In a relative clause the preposition comes first, then the relative pronoun in the case the preposition demands, and the verb goes to the end: \"Der Kollege, auf den ich mich verlasse, ...\"; \"die Stelle, um die ich mich bewerbe\"; \"das Projekt, an dem sie arbeitet\"; \"die Leute, mit denen ich wohne\".",
-          "English likes to leave the preposition at the end (the colleague I rely on, the job I'm applying for). German never does: *\"der Kollege, den ich mich verlasse auf\" is impossible. Start from the verb: \"sich verlassen auf + Akk\" → masculine accusative \"den\" → \"auf den\".",
+          "English likes to leave the preposition at the end (the colleague I rely on, the job I'm applying for). German never does: \"*der Kollege, den ich mich verlasse auf\" is impossible. Start from the verb: \"sich verlassen auf + Akk\" → masculine accusative \"den\" → \"auf den\".",
           "With things, formal and older texts sometimes use a wo-compound instead (\"das Haus, worin er wohnte\"); in modern German preposition + der / die / das is standard after a noun.",
         ],
         examples: [
@@ -2027,14 +2030,14 @@ export const DE_C1_U09: Lesson[] = [
     level: "DE-C1",
     number: 11,
     title: "Fixed Prepositions, Part 6 of 6",
-    summary: "The Korrelat: darauf, dass...; daran, ... zu...; darauf an, ob...; and when the da-compound is obligatory or optional.",
+    summary: "Link a prepositional verb to a clause with the Korrelat (\"darauf, dass...\", \"daran, ... zu...\", \"Es kommt darauf an, ob...\") and know when the da-compound is obligatory or optional.",
     duration: "19 min",
     sections: [
       {
         heading: "Da(r)- + dass-clause",
         body: [
           "When the object of a prepositional verb is a whole clause, German can't put the preposition directly before \"dass\". Instead, a da-compound stands in the main clause as a placeholder (the Korrelat), and the clause follows: \"Ich bestehe darauf, dass du mitkommst\" (I insist that you come along). Literally: I insist on-it, that you come along.",
-          "English simply drops the preposition (I insist that..., I'm looking forward to seeing you, I'm used to getting up early). German keeps it in the da-compound. *\"Ich bestehe, dass...\" is wrong.",
+          "English simply drops the preposition (I insist that..., I'm looking forward to seeing you, I'm used to getting up early). German keeps it in the da-compound. \"*Ich bestehe, dass...\" is wrong.",
           "The da-compound normally sits where the prepositional object would be, at the end of the main clause, just before the verb bracket closes: \"Ich habe mich darüber gefreut, dass du gekommen bist.\" It can also open the sentence for emphasis: \"Darauf kommt es an.\"",
         ],
         examples: [
@@ -2100,7 +2103,7 @@ export const DE_C1_U09: Lesson[] = [
       {
         heading: "Obligatory or optional?",
         body: [
-          "With some verbs the Korrelat is obligatory: leaving it out sounds wrong. Typically: \"bestehen auf\", \"warten auf\", \"ankommen auf\", \"abhängen von\", \"liegen an\", \"rechnen mit\", \"sich verlassen auf\", \"bestehen in\". \"Ich warte darauf, dass...\" (not *\"Ich warte, dass...\").",
+          "With some verbs the Korrelat is obligatory: leaving it out sounds wrong. Typically: \"bestehen auf\", \"warten auf\", \"ankommen auf\", \"abhängen von\", \"liegen an\", \"rechnen mit\", \"sich verlassen auf\", \"bestehen in\". \"Ich warte darauf, dass...\" (not \"*Ich warte, dass...\").",
           "With many verbs of feeling, thinking and saying it is optional, because the verb can also take a clause directly: \"Ich erinnere mich (daran), dass...\", \"Ich freue mich (darüber), dass...\", \"Sie hat (davon) geträumt, Ärztin zu werden\", \"Er hat sich (darüber) beschwert, dass...\", \"Ich bin (davon) überzeugt, dass...\".",
           "Rule of thumb: if in doubt, put it in. A Korrelat is never wrong where it's optional, but missing where it's obligatory it is a clear error. In formal writing, using it also makes the structure clearer.",
         ],
@@ -2274,9 +2277,9 @@ export const DE_C1_U09: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Who are you applying with?",
-            answer: "Mit wem bewirbst du dich?",
-            altAnswers: ["Mit wem bewerben Sie sich?", "Mit wem bewerbt ihr euch?"],
+            source: "Who are you meeting up with?",
+            answer: "Mit wem triffst du dich?",
+            altAnswers: ["Mit wem treffen Sie sich?", "Mit wem trefft ihr euch?"],
             explanation: "A person after \"mit\": \"mit wem\" (dative).",
           },
           {
@@ -2364,6 +2367,7 @@ export const DE_C1_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "He's very similar to his father.",
         answer: "Er ist seinem Vater sehr ähnlich.",
+        altAnswers: ["Er ähnelt seinem Vater sehr."],
         explanation: "\"Ähnlich\" + dative, no preposition.",
       },
       {
@@ -2393,13 +2397,13 @@ export const DE_C1_U09: Lesson[] = [
     level: "DE-C1",
     number: 13,
     title: "Real-World Mission: The Cover Letter",
-    summary: "Build a German Anschreiben with the fixed prepositions recruiters expect: sich bewerben um, sich interessieren für, verfügen über, sich freuen auf.",
+    summary: "Write a German cover letter (\"Anschreiben\") with the fixed prepositions recruiters expect: \"sich bewerben um\", \"sich interessieren für\", \"verfügen über\", \"sich freuen auf\".",
     duration: "20 min",
     sections: [
       {
         heading: "The opening: why you're writing",
         body: [
-          "A German cover letter (das Anschreiben) is shorter and more formal than an American one, and it lives on a handful of prepositional verbs. The opening states the job and how you found it: \"Mit großem Interesse habe ich Ihre Stellenanzeige auf StepStone gelesen\", \"Hiermit bewerbe ich mich um die Stelle als...\" (or \"auf die ausgeschriebene Stelle\").",
+          "A German cover letter (\"das Anschreiben\") is shorter and more formal than an American one, and it lives on a handful of prepositional verbs. The opening states the job and how you found it: \"Mit großem Interesse habe ich Ihre Stellenanzeige auf StepStone gelesen\", \"Hiermit bewerbe ich mich um die Stelle als...\" (or \"auf die ausgeschriebene Stelle\").",
           "Avoid the old-fashioned \"Hiermit bewerbe ich mich...\" as the very first sentence if you can: recruiters like a sentence that shows motivation, for example \"Ich interessiere mich seit Jahren für nachhaltige Mobilität, und Ihr Unternehmen...\". Note: \"als\" + the job title with no article (\"als Projektleiterin\").",
           "If someone referred you: \"Frau Weber hat mich auf diese Stelle aufmerksam gemacht\" (made me aware of, \"aufmerksam machen auf\" + Akk).",
         ],
@@ -2423,7 +2427,7 @@ export const DE_C1_U09: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "A former colleague [drew my attention to] your company.",
+            en: "A former colleague drew my attention [to] your company.",
             sentence: "Eine ehemalige Kollegin hat mich ___ Ihr Unternehmen aufmerksam gemacht.",
             answer: "auf",
             explanation: "\"Jemanden aufmerksam machen auf\" + accusative.",
@@ -2435,7 +2439,7 @@ export const DE_C1_U09: Lesson[] = [
         body: [
           "The middle paragraphs show experience and skills. Key phrases: \"Ich verfüge über mehrjährige Erfahrung in / im Bereich...\" (formal have), \"Ich bin für ... verantwortlich / zuständig\", \"Ich beschäftige mich mit...\", \"Ich habe an ... mitgewirkt / mitgearbeitet\" (an + Dat), \"Ich war an ... beteiligt\" (an + Dat), \"Ich bin mit ... vertraut\", \"Meine Stärken liegen im Bereich...\".",
           "Show results rather than adjectives: \"Ich war maßgeblich an der Einführung eines neuen CRM-Systems beteiligt\" impresses more than \"Ich bin teamfähig\". Use the Präteritum or Perfekt for past jobs and the present for current ones (with \"seit\").",
-          "Careful with \"Erfahrung\": \"Erfahrung in + Dat\" (a field) or \"mit + Dat\" (a tool or group: \"Erfahrung mit Kunden\"), never *\"Erfahrung von\".",
+          "Careful with \"Erfahrung\": \"Erfahrung in + Dat\" (a field) or \"mit + Dat\" (a tool or group: \"Erfahrung mit Kunden\"), never \"*Erfahrung von\".",
         ],
         examples: [
           { es: "Ich verfüge über mehrjährige Erfahrung im Projektmanagement.", en: "I have several years' experience in project management." },
@@ -2457,7 +2461,7 @@ export const DE_C1_U09: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence fits a cover letter: I was involved in planning the trade fair.",
-            options: ["Ich war an der Planung der Messe beteiligt.", "Ich war bei der Planung von der Messe beteiligt.", "Ich war in die Planung der Messe beteiligt.", "Ich war für die Planung der Messe beteiligt."],
+            options: ["Ich war an der Planung der Messe beteiligt.", "Ich war von der Planung der Messe beteiligt.", "Ich war in die Planung der Messe beteiligt.", "Ich war für die Planung der Messe beteiligt."],
             correctIndex: 0,
             explanation: "\"Beteiligt an\" + dative: \"an der Planung\". (\"In etwas eingebunden sein\" is another option, but not with \"beteiligt\".)",
           },
@@ -2518,7 +2522,7 @@ export const DE_C1_U09: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I [took part in] several international projects.",
+        en: "I have worked [on] several international projects.",
         sentence: "Ich habe ___ mehreren internationalen Projekten mitgearbeitet.",
         answer: "an",
         explanation: "\"Mitarbeiten an\" + dative: \"an mehreren Projekten\".",

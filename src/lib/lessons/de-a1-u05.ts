@@ -14,7 +14,7 @@ export const DE_A1_U05: Lesson[] = [
       {
         heading: "Wer, was, wie: question word first, verb second",
         body: [
-          "Most German question words start with w, which is why they're called W-Fragen: \"wer\" (who), \"was ist das?\" (what is that?), \"wie\" (how), \"wo\" (where), \"woher\" (where from), \"wohin\" (where to), \"wann\" (when). Watch out: \"wer\" looks like English where but means who, and \"wo\" is where. Drill it until it's automatic: \"wer\" = who, \"wo\" = where.",
+          "Most German question words start with w, which is why they're called W-Fragen: \"wer\" (who), \"was\" (what), \"wie\" (how), \"wo\" (where), \"woher\" (where from), \"wohin\" (where to), \"wann\" (when). Watch out: \"wer\" looks like English where but means who, and \"wo\" is where. Drill it until it's automatic: \"wer\" = who, \"wo\" = where.",
           "The word order is the verb-second rule you already know. The question word takes position 1, the conjugated verb comes straight after it, then the subject: \"Wie heißt du?\", \"Was machst du?\", \"Wer ist das?\"",
           "English needs the helper do in most questions (What do you drink?). German never does: the main verb itself moves into second place. \"Was trinkst du?\" is literally what drink you? and it covers what do you drink and what are you drinking.",
         ],
@@ -90,7 +90,7 @@ export const DE_A1_U05: Lesson[] = [
         heading: "Wann, and the trap: the verb must be second",
         body: [
           "\"Wann\" asks when: \"Wann kommst du?\", \"Wann beginnt der Kurs?\". Answers can be any time word you know: \"Heute.\" \"Morgen.\" \"Am Montag.\"",
-          "The classic beginner slip is to keep English statement order after the question word: *\"Wo du wohnst?\". In a German question the verb must come second, so the subject goes after it: \"Wo wohnst du?\". It's the same rule as \"Heute arbeite ich\".",
+          "The classic beginner slip is to keep English statement order after the question word: \"*Wo du wohnst?\". In a German question the verb must come second, so the subject goes after it: \"Wo wohnst du?\". It's the same rule as \"Heute arbeite ich\".",
           "Modal verbs follow the same pattern: the modal is second and the infinitive goes to the very end. \"Wann kannst du kommen?\", \"Was möchten Sie trinken?\", \"Wohin wollt ihr fahren?\"",
         ],
         examples: [
@@ -167,7 +167,7 @@ export const DE_A1_U05: Lesson[] = [
         question: "Which question is correct German for 'Where do you work?'",
         options: ["Wo arbeitest du?", "Wo du arbeitest?", "Wohin arbeitest du?", "Wer arbeitest du?"],
         correctIndex: 0,
-        explanation: "Location is \"wo\", and the verb comes second: \"Wo arbeitest du?\". *\"Wo du arbeitest?\" keeps English order.",
+        explanation: "Location is \"wo\", and the verb comes second: \"Wo arbeitest du?\". \"*Wo du arbeitest?\" keeps English order.",
       },
       {
         type: "word-order",
@@ -214,7 +214,7 @@ export const DE_A1_U05: Lesson[] = [
         body: [
           "\"Wie\" combines with other words to make new questions, and the whole group counts as position 1, so the verb still comes next: \"Wie alt bist du?\", \"Wie lange bleibst du?\"",
           "How much and how many: \"wie viel\" goes with things you can't count (\"wie viel Geld\", \"wie viel Zeit\", \"wie viel Kaffee\"), \"wie viele\" with plurals (\"wie viele Kinder\", \"wie viele Bücher\"). It's the same split as much and many in English. \"Wie viel kostet das?\" (How much is that?) is a fixed phrase.",
-          "Age uses \"sein\", as in English: \"Wie alt bist du? — Ich bin 25.\" Never *\"Ich habe 25 Jahre\". \"Wie lange\" asks how long something lasts: \"Wie lange lernst du schon Deutsch?\" is literally how long learn you already German.",
+          "Age uses \"sein\", as in English: \"Wie alt bist du? — Ich bin 25.\" Never \"*Ich habe 25 Jahre\". \"Wie lange\" asks how long something lasts: \"Wie lange lernst du schon Deutsch?\" is literally how long learn you already German.",
         ],
         examples: [
           { es: "Wie alt sind Sie?", en: "How old are you? (polite)" },
@@ -305,7 +305,7 @@ export const DE_A1_U05: Lesson[] = [
             question: "A friend says she has a new flat. You want to know what kind of flat it is. What do you ask?",
             options: ["Was für eine Wohnung ist das?", "Welcher Wohnung ist das?", "Was für ein Wohnung ist das?", "Wie viel Wohnung ist das?"],
             correctIndex: 0,
-            explanation: "\"Was für ein\" asks about the kind, and \"Wohnung\" is feminine, so \"eine\". Which one would be \"welche\", not *\"welcher\".",
+            explanation: "\"Was für ein\" asks about the kind, and \"Wohnung\" is feminine, so \"eine\". Which one would be \"welche\", not \"*welcher\".",
           },
           {
             type: "translate",
@@ -393,7 +393,7 @@ export const DE_A1_U05: Lesson[] = [
         type: "speak",
         text: "Welcher Bus fährt nach Köln?",
         prompt: "Say it in German: Which bus goes to Cologne?",
-        tip: "Köln has a long rounded ö: say e with your lips pushed forward.",
+        tip: "\"Köln\" has a short rounded ö: say e as in bed with your lips pushed forward.",
         explanation: "\"Der Bus\" is masculine, so \"welcher\". \"Fahren\" changes to \"fährt\" for er/sie/es.",
       },
     ],
@@ -410,7 +410,7 @@ export const DE_A1_U05: Lesson[] = [
         heading: "Verb first: Kommst du aus Berlin?",
         body: [
           "A yes/no question has no question word, so the conjugated verb jumps to position 1 and the subject follows: \"Kommst du aus Berlin?\", \"Hast du Zeit?\", \"Sind Sie Frau Meier?\". Your voice rises at the end, as in English.",
-          "English adds do or does (Do you have time?), but German has no helper verb. *\"Machst du sprechen Deutsch?\" is a word-for-word translation of do you speak and is meaningless: just move the main verb: \"Sprichst du Deutsch?\"",
+          "English adds do or does (Do you have time?), but German has no helper verb. \"*Machst du sprechen Deutsch?\" is a word-for-word translation of do you speak and is meaningless: just move the main verb: \"Sprichst du Deutsch?\"",
           "With a modal, the modal goes first and the infinitive to the end: \"Kannst du schwimmen?\", \"Möchten Sie bestellen?\"",
         ],
         examples: [
@@ -465,7 +465,7 @@ export const DE_A1_U05: Lesson[] = [
             type: "speak",
             text: "Ja, gern!",
             prompt: "Your friend asks if you want to come along. Say: Yes, I'd love to!",
-            tip: "The g in gern is always hard, as in go.",
+            tip: "The g in \"gern\" is always hard, as in go.",
             explanation: "\"Ja, gern!\" is the friendliest short yes to an offer or invitation.",
           },
         ],
@@ -487,7 +487,7 @@ export const DE_A1_U05: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "'Hast du keinen Hunger?' You ARE hungry. What do you answer?",
+            question: "A friend asks: \"Hast du keinen Hunger?\" You ARE hungry. What do you answer?",
             options: ["Doch!", "Ja!", "Nein!", "Nicht!"],
             correctIndex: 0,
             explanation: "After a negative question, \"doch\" contradicts it: yes, I am hungry. \"Nein\" would agree (no, I'm not).",
@@ -540,7 +540,7 @@ export const DE_A1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "'Kommst du mit?' You want to say no. What do you answer?",
+        question: "A friend asks: \"Kommst du mit?\" You want to say no. What do you answer?",
         options: ["Nein, ich komme nicht mit.", "Doch, ich komme nicht mit.", "Ja, ich komme nicht mit.", "Nein, ich nicht komme mit."],
         correctIndex: 0,
         explanation: "A positive question takes a plain \"nein\". \"Doch\" is only for contradicting a negative.",
@@ -580,8 +580,8 @@ export const DE_A1_U05: Lesson[] = [
       {
         type: "speak",
         text: "Doch, ich habe Zeit!",
-        prompt: "Your friend says 'Du hast keine Zeit, oder?' Contradict her: Yes I do, I have time!",
-        tip: "Doch has a short o and the ach-sound at the end, from the back of the throat.",
+        prompt: "Your friend says \"Du hast keine Zeit, oder?\" Contradict her: Yes I do, I have time!",
+        tip: "\"Doch\" has a short o and the ach-sound at the end, from the back of the throat.",
         explanation: "\"Doch\" contradicts the negative statement \"Du hast keine Zeit\".",
       },
     ],
@@ -599,7 +599,7 @@ export const DE_A1_U05: Lesson[] = [
         body: [
           "Building a question from an answer is a two-step job. First, find the piece of information the question is after and choose its W-word: a place → \"wo\", a city you come from → \"woher\", a destination → \"wohin\", a time or day → \"wann\", a person → \"wer\", a thing or activity → \"was ist...?\" or \"was machst du?\", a name or manner → \"wie\", an age → \"wie alt\".",
           "Second, flip the person. If the answer says \"ich\", the question says \"du\" or \"Sie\", and the verb ending changes with it: \"Ich wohne in Köln.\" → \"Wo wohnst du?\" / \"Wo wohnen Sie?\". If the answer says \"wir\", the question usually says \"ihr\": \"Wir fahren nach Wien.\" → \"Wohin fahrt ihr?\"",
-          "Stem-changing verbs change back too: \"Ich spreche Englisch.\" → \"Was sprichst du?\", \"Ich nehme den Bus.\" → \"Was nimmst du?\"",
+          "Stem-changing verbs change back too: \"Ich spreche Englisch.\" → \"Was sprichst du?\", \"Ich nehme die U-Bahn.\" → \"Was nimmst du?\"",
         ],
         examples: [
           { es: "Ich wohne in Köln. → Wo wohnst du?", en: "I live in Cologne. → Where do you live?" },
@@ -620,7 +620,7 @@ export const DE_A1_U05: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The answer is 'Ich bin 30.' Which question was asked?",
+            question: "The answer is \"Ich bin 30.\" Which question was asked?",
             options: ["Wie alt bist du?", "Wie alt hast du?", "Wie viele bist du?", "Wann bist du?"],
             correctIndex: 0,
             explanation: "Age is \"wie alt\" + \"sein\", just as the answer uses \"ich bin\".",
@@ -653,7 +653,7 @@ export const DE_A1_U05: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "The answer is 'Doch, ich arbeite heute.' Which question was asked?",
+            question: "The answer is \"Doch, ich arbeite heute.\" Which question was asked?",
             options: ["Arbeitest du heute nicht?", "Arbeitest du heute?", "Wann arbeitest du?", "Wo arbeitest du heute?"],
             correctIndex: 0,
             explanation: "\"Doch\" only answers a negative question, so the question contained \"nicht\".",
@@ -698,7 +698,7 @@ export const DE_A1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The answer is 'Aus Istanbul.' Which question was asked?",
+        question: "The answer is \"Aus Istanbul.\" Which question was asked?",
         options: ["Woher kommt Ayşe?", "Wo wohnt Ayşe?", "Wohin fährt Ayşe?", "Wer ist Ayşe?"],
         correctIndex: 0,
         explanation: "\"Aus\" + a city answers \"woher\" (where from).",
@@ -757,8 +757,8 @@ export const DE_A1_U05: Lesson[] = [
       {
         type: "speak",
         text: "Wo wohnst du?",
-        prompt: "Your new classmate says: 'Ich wohne in Leipzig. Und du?' Ask a different classmate the same question: Where do you live?",
-        tip: "Wo and wohnst both start with an English v sound.",
+        prompt: "Your new classmate says: \"Ich wohne in Leipzig. Und du?\" Ask a different classmate the same question: Where do you live?",
+        tip: "\"Wo\" and \"wohnst\" both start with an English v sound.",
         explanation: "Location → \"wo\", with the du form \"wohnst\" right after it.",
       },
     ],
@@ -775,7 +775,7 @@ export const DE_A1_U05: Lesson[] = [
         heading: "Subject and object",
         body: [
           "In \"Der Mann kauft den Tisch\" (The man buys the table), the man does the buying: he's the subject, in the nominative case. The table is what gets bought: it's the direct object, and German puts it in the accusative case.",
-          "English still has case, but only in pronouns: he sees him, she sees her, I see me. German marks case on the article in front of a noun as well. That's why \"Ich habe einen Bruder\", which you learned as a chunk, has \"einen\": the brother is the object of \"haben\".",
+          "English still has case, but only in pronouns: he sees him, she sees her, they see us. German marks case on the article in front of a noun as well. That's why \"Ich habe einen Bruder\", which you learned as a chunk, has \"einen\": the brother is the object of \"haben\".",
           "To find the object, ask what or whom the verb acts on: I buy what? the table. I have what? a brother. The answer to that question goes in the accusative.",
         ],
         examples: [
@@ -906,7 +906,7 @@ export const DE_A1_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Do you want [the] lamp?",
+        en: "Would you like [the] lamp?",
         sentence: "Möchtest du ___ Lampe?",
         answer: "die",
         explanation: "\"Die Lampe\" is feminine, and feminine doesn't change in the accusative.",
@@ -989,7 +989,7 @@ export const DE_A1_U05: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "What does 'Den Lehrer fragt der Student' mean?",
+            question: "What does \"Den Lehrer fragt der Student.\" mean?",
             options: ["The student asks the teacher.", "The teacher asks the student.", "The teacher and the student ask.", "Does the student ask the teacher?"],
             correctIndex: 0,
             explanation: "\"Den Lehrer\" is accusative, so the teacher is the one being asked, even though he comes first. \"Der Student\" is the subject.",
@@ -1008,7 +1008,7 @@ export const DE_A1_U05: Lesson[] = [
         heading: "Verbs that take an accusative object, and one that doesn't",
         body: [
           "Most everyday verbs take a direct object in the accusative: \"haben\", \"brauchen\", \"kaufen\", \"möchten\", \"suchen\", \"nehmen\", \"sehen\", \"finden\", \"kennen\", \"mögen\", \"bestellen\", \"essen\", \"trinken\". \"Ich finde den Film gut\" (I like the film) is a very common way to give an opinion.",
-          "\"Sein\" is different: it links two things that are the same person or thing, so both stay in the nominative. \"Das ist ein Tisch\", never *\"Das ist einen Tisch\". \"Er ist der Chef.\" The same goes for \"werden\": \"Das wird ein Problem.\"",
+          "\"Sein\" is different: it links two things that are the same person or thing, so both stay in the nominative. \"Das ist ein Tisch\", never \"*Das ist einen Tisch\". \"Er ist der Chef.\" The same goes for \"werden\": \"Das wird ein Problem.\"",
         ],
         examples: [
           { es: "Ich finde den Film gut.", en: "I think the film is good." },
@@ -1025,7 +1025,7 @@ export const DE_A1_U05: Lesson[] = [
             en: "That's [a] dog, not a cat.",
             sentence: "Das ist ___ Hund, keine Katze.",
             answer: "ein",
-            explanation: "\"Der Hund\" is masculine, but after \"sein\" there is no accusative: \"ein Hund\", never *\"einen Hund\".",
+            explanation: "\"Der Hund\" is masculine, but after \"sein\" there is no accusative: \"ein Hund\", never \"*einen Hund\".",
           },
           {
             type: "translate",
@@ -1095,7 +1095,8 @@ export const DE_A1_U05: Lesson[] = [
         prompt: "Translate into German.",
         source: "That's not a dog, that's a cat!",
         answer: "Das ist kein Hund, das ist eine Katze!",
-        explanation: "After \"sein\" everything stays nominative: \"kein Hund\", not *\"keinen Hund\".",
+        altAnswers: ["Das ist kein Hund, es ist eine Katze!"],
+        explanation: "After \"sein\" everything stays nominative: \"kein Hund\", not \"*keinen Hund\".",
       },
       {
         type: "translate",
@@ -1143,7 +1144,7 @@ export const DE_A1_U05: Lesson[] = [
         prompt: "Translate into German.",
         source: "Who are you visiting tomorrow? (to a friend)",
         answer: "Wen besuchst du morgen?",
-        explanation: "The person visited is the object, so \"wen\". *\"Wer besuchst du?\" is a common slip.",
+        explanation: "The person visited is the object, so \"wen\". \"*Wer besuchst du?\" is a common slip.",
       },
       {
         type: "translate",
@@ -1165,7 +1166,7 @@ export const DE_A1_U05: Lesson[] = [
         type: "speak",
         text: "Welchen Film siehst du?",
         prompt: "Say it in German: Which film are you watching? (to a friend)",
-        tip: "The -ch in welchen is the soft ich-sound, never a k.",
+        tip: "The ch in \"welchen\" is the soft ich-sound, never a k.",
         explanation: "\"Welchen\" for a masculine object, then the verb \"siehst\" second.",
       },
     ],
@@ -1174,14 +1175,14 @@ export const DE_A1_U05: Lesson[] = [
     slug: "a1-es-gibt",
     level: "DE-A1",
     number: 7,
-    title: "Es Gibt: There Is, There Are",
+    title: "Es gibt: There Is, There Are",
     summary: "Say what exists or is available with es gibt + accusative, always singular gibt, and tell it apart from da ist.",
     duration: "12 min",
     sections: [
       {
         heading: "Es gibt + accusative",
         body: [
-          "English there is / there are becomes \"es gibt\", literally it gives. Because \"geben\" takes an object, what follows is in the accusative: \"Es gibt einen Park\" (der Park), \"Es gibt eine Bäckerei\", \"Es gibt ein Kino\".",
+          "English there is / there are becomes \"es gibt\", literally it gives. Because \"geben\" takes an object, what follows is in the accusative: \"Es gibt einen Park\" (from \"der Park\"), \"Es gibt eine Bäckerei\", \"Es gibt ein Kino\".",
           "\"Gibt\" never changes for the plural. English switches from is to are, but German stays singular: \"Es gibt zwei Hotels\", \"Es gibt viele Cafés\". The \"es\" is a dummy subject, like it in it's raining, and it's always singular.",
           "Saying something doesn't exist uses \"kein\": \"Es gibt hier keine Bäckerei\", \"Es gibt keinen Supermarkt\".",
         ],
@@ -1207,7 +1208,7 @@ export const DE_A1_U05: Lesson[] = [
             question: "How do you say 'There are three restaurants'?",
             options: ["Es gibt drei Restaurants.", "Es geben drei Restaurants.", "Es sind drei Restaurants.", "Es gibt drei Restaurant."],
             correctIndex: 0,
-            explanation: "\"Es gibt\" is always singular, even with plural nouns. *\"Es sind\" is a common mistake for existence.",
+            explanation: "\"Es gibt\" is always singular, even with plural nouns. \"*Es sind\" is a common mistake for existence.",
           },
         ],
       },
@@ -1215,7 +1216,7 @@ export const DE_A1_U05: Lesson[] = [
         heading: "Questions: Gibt es WLAN? Was gibt es?",
         body: [
           "For a yes/no question, put \"gibt\" first: \"Gibt es hier WLAN?\" \"Gibt es noch Kaffee?\" (Is there any coffee left?)",
-          "\"Was gibt es?\" asks what's on offer, and in speech \"gibt es\" shortens to \"gibt’s\", and \"Und, was gibt's?\" also means so, what's up?. \"Was gibt es zum Essen?\" (What's for dinner?) and \"Was gibt es heute im Kino?\" (What's on at the cinema today?) are everyday chunks.",
+          "\"Was gibt es?\" asks what's on offer. In speech \"gibt es\" shortens to \"gibt's\", and \"Und, was gibt's?\" is a casual so, what's up? \"Was gibt es zum Essen?\" (What's for dinner?) and \"Was gibt es heute im Kino?\" (What's on at the cinema today?) are everyday chunks.",
         ],
         examples: [
           { es: "Gibt es hier WLAN?", en: "Is there Wi-Fi here?" },
@@ -1297,10 +1298,10 @@ export const DE_A1_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "There's [a] supermarket in Köpenick Street.",
+        en: "There's [a] supermarket on Köpenicker Straße.",
         sentence: "In der Köpenicker Straße gibt es ___ Supermarkt.",
         answer: "einen",
-        explanation: "\"Der Supermarkt\" is the object of \"gibt\": \"einen Supermarkt\". *\"Es gibt ein Supermarkt\" is a very common slip.",
+        explanation: "\"Der Supermarkt\" is the object of \"gibt\": \"einen Supermarkt\". \"*Es gibt ein Supermarkt\" is a very common slip.",
       },
       {
         type: "translate",
@@ -1315,7 +1316,7 @@ export const DE_A1_U05: Lesson[] = [
         question: "Which sentence is correct?",
         options: ["In Köln gibt es einen Dom.", "In Köln es gibt einen Dom.", "In Köln gibt es ein Dom.", "In Köln gibt es der Dom."],
         correctIndex: 0,
-        explanation: "Verb second (\"gibt\"), then \"es\", then the accusative \"einen Dom\" (der Dom).",
+        explanation: "Verb second (\"gibt\"), then \"es\", then the accusative \"einen Dom\" (from \"der Dom\", the cathedral).",
       },
       {
         type: "translate",
@@ -1410,7 +1411,7 @@ export const DE_A1_U05: Lesson[] = [
         heading: "Nie, nichts, niemand",
         body: [
           "Three words carry their own negation: \"nie\" (never), \"nichts\" (nothing) and \"niemand\" (nobody, no one). \"Ich esse nie Fleisch.\" \"Ich sehe nichts.\" \"Niemand ist da.\"",
-          "German doesn't allow double negatives, just like standard English: *\"Ich sehe nicht nichts\" is wrong. English often says not anything or not anybody; German uses the single negative word: I don't see anything = \"Ich sehe nichts\", I don't know anybody here = \"Ich kenne hier niemand\". (In careful writing the object form is \"niemanden\": \"Ich kenne hier niemanden\"; both are correct.)",
+          "German doesn't allow double negatives, just like standard English: \"*Ich sehe nicht nichts\" is wrong. English often says not anything or not anybody; German uses the single negative word: I don't see anything = \"Ich sehe nichts\", I don't know anybody here = \"Ich kenne hier niemand\". (In careful writing the object form is \"niemanden\": \"Ich kenne hier niemanden\"; both are correct.)",
           "These words make great one-word answers: \"Was machst du? — Nichts!\" \"Wer kommt? — Niemand.\"",
         ],
         examples: [
@@ -1451,7 +1452,7 @@ export const DE_A1_U05: Lesson[] = [
         heading: "Nicht mehr, kein ... mehr, noch nicht",
         body: [
           "No longer / not any more is \"nicht mehr\": \"Ich wohne nicht mehr in Bonn.\" \"Er raucht nicht mehr.\"",
-          "With a noun, use \"kein ... mehr\": \"Ich habe kein Geld mehr\" (I have no money left), \"Es gibt keinen Kaffee mehr.\" A common slip is *\"Ich habe nicht mehr Geld\", which means I don't have more money.",
+          "With a noun, use \"kein ... mehr\": \"Ich habe kein Geld mehr\" (I have no money left), \"Es gibt keinen Kaffee mehr.\" A common slip is \"*Ich habe nicht mehr Geld\", which means I don't have more money.",
           "Not yet is \"noch nicht\": \"Ich bin noch nicht fertig.\" \"Lena ist noch nicht da.\". With a noun, \"noch kein\": \"Ich habe noch keinen Job.\"",
         ],
         examples: [
@@ -1489,7 +1490,7 @@ export const DE_A1_U05: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm not buying the coat.",
         answer: "Ich kaufe den Mantel nicht.",
-        explanation: "\"Nicht\" goes after the definite object. With \"a coat\" you'd use \"keinen Mantel\".",
+        explanation: "\"Nicht\" goes after the definite object. With a coat (not the coat) you'd use \"keinen Mantel\".",
       },
       {
         type: "translate",
@@ -1506,7 +1507,7 @@ export const DE_A1_U05: Lesson[] = [
         source: "I can't see anything.",
         answer: "Ich sehe nichts.",
         altAnswers: ["Ich kann nichts sehen."],
-        explanation: "German just says I see nothing: \"Ich sehe nichts\". Never *\"nicht nichts\".",
+        explanation: "German just says I see nothing: \"Ich sehe nichts\". Never \"*nicht nichts\".",
       },
       {
         type: "translate",
@@ -1514,6 +1515,7 @@ export const DE_A1_U05: Lesson[] = [
         prompt: "Translate into German.",
         source: "I don't live in Hamburg any more.",
         answer: "Ich wohne nicht mehr in Hamburg.",
+        altAnswers: ["In Hamburg wohne ich nicht mehr."],
         explanation: "\"Nicht mehr\" (no longer) goes before the place.",
       },
       {
@@ -1537,7 +1539,7 @@ export const DE_A1_U05: Lesson[] = [
         prompt: "Translate into German.",
         source: "Nobody's at home.",
         answer: "Niemand ist zu Hause.",
-        altAnswers: ["Keiner ist zu Hause.", "Es ist niemand zu Hause."],
+        altAnswers: ["Keiner ist zu Hause.", "Es ist niemand zu Hause.", "Niemand ist zuhause."],
         explanation: "\"Niemand\" is the subject and takes the singular verb \"ist\". At home is \"zu Hause\".",
       },
       {
@@ -1568,7 +1570,7 @@ export const DE_A1_U05: Lesson[] = [
         type: "speak",
         text: "Nichts! Ich mache heute nichts.",
         prompt: "A friend asks what you're doing today. Say: Nothing! I'm not doing anything today.",
-        tip: "The ch in nichts is the soft ich-sound.",
+        tip: "The ch in \"nichts\" is the soft ich-sound.",
         explanation: "\"Nichts\" works as a one-word answer and inside the sentence.",
       },
     ],
@@ -1584,21 +1586,21 @@ export const DE_A1_U05: Lesson[] = [
       {
         heading: "Question slips",
         body: [
-          "Each sentence below has one mistake. First, *\"Wo du wohnst?\": English statement order after a question word. The verb must be second: \"Wo wohnst du?\"",
-          "Next, *\"Wer siehst du?\": the person seen is the object, so the question word must be \"wen\": \"Wen siehst du?\". The verb ending gives it away: \"siehst\" belongs to \"du\", so \"du\" is the subject.",
+          "Each sentence below has one mistake. First, \"*Wo du wohnst?\": English statement order after a question word. The verb must be second: \"Wo wohnst du?\"",
+          "Next, \"*Wer siehst du?\": the person seen is the object, so the question word must be \"wen\": \"Wen siehst du?\". The verb ending gives it away: \"siehst\" belongs to \"du\", so \"du\" is the subject.",
           "Third, a dialogue: \"Hast du nicht Zeit? — Ja!\" meant as yes, I do. Two mistakes in one: no time is \"keine Zeit\", and contradicting a negative takes \"doch\": \"Hast du keine Zeit? — Doch!\"",
         ],
         examples: [
-          { es: "Wo wohnst du?", en: "Where do you live? (not *Wo du wohnst?)" },
-          { es: "Wen siehst du?", en: "Who do you see? (not *Wer siehst du?)" },
+          { es: "Wo wohnst du?", en: "Where do you live? (not \"*Wo du wohnst?\")" },
+          { es: "Wen siehst du?", en: "Who do you see? (not \"*Wer siehst du?\")" },
           { es: "Hast du keine Zeit? — Doch!", en: "Don't you have time? — Yes, I do!" },
-          { es: "Was machst du heute?", en: "What are you doing today? (not *Was du machst heute?)" },
+          { es: "Was machst du heute?", en: "What are you doing today? (not \"*Was du machst heute?\")" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Wann du kommst? Write the correct German for: When are you coming?",
+            prompt: "A learner wrote \"*Wann du kommst?\" Write the correct German for: When are you coming?",
             source: "When are you coming? (to a friend)",
             answer: "Wann kommst du?",
             explanation: "After a question word, the verb comes second and the subject follows: \"Wann kommst du?\"",
@@ -1606,7 +1608,7 @@ export const DE_A1_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[Who] are you asking? (a learner wrote *Wer fragst du?)",
+            en: "[Who] are you asking? (a learner wrote \"*Wer fragst du?\")",
             sentence: "___ fragst du?",
             answer: "Wen",
             explanation: "\"Du\" is the subject (look at \"fragst\"), so the person asked is the object: \"wen\".",
@@ -1616,21 +1618,21 @@ export const DE_A1_U05: Lesson[] = [
       {
         heading: "Accusative slips",
         body: [
-          "*\"Ich habe ein Bruder.\" \"Der Bruder\" is masculine and the object of \"haben\", so \"ein\" must become \"einen\": \"Ich habe einen Bruder.\"",
-          "*\"Ich suche der Bahnhof.\" Same problem with the definite article: \"Ich suche den Bahnhof.\"",
-          "*\"Das ist einen Hund.\" Overcorrection! \"Sein\" never takes an accusative: \"Das ist ein Hund.\". And *\"Es gibt ein Supermarkt\": \"geben\" does take one, so \"Es gibt einen Supermarkt.\"",
+          "\"*Ich habe ein Bruder.\" \"Der Bruder\" is masculine and the object of \"haben\", so \"ein\" must become \"einen\": \"Ich habe einen Bruder.\"",
+          "\"*Ich suche der Bahnhof.\" Same problem with the definite article: \"Ich suche den Bahnhof.\"",
+          "\"*Das ist einen Hund.\" Overcorrection! \"Sein\" never takes an accusative: \"Das ist ein Hund.\". And \"*Es gibt ein Supermarkt\": \"geben\" does take one, so \"Es gibt einen Supermarkt.\"",
         ],
         examples: [
-          { es: "Ich habe einen Bruder.", en: "I have a brother. (not *ein Bruder)" },
-          { es: "Ich suche den Bahnhof.", en: "I'm looking for the station. (not *der Bahnhof)" },
-          { es: "Das ist ein Hund.", en: "That's a dog. (not *einen Hund)" },
-          { es: "Es gibt einen Supermarkt.", en: "There's a supermarket. (not *ein Supermarkt)" },
+          { es: "Ich habe einen Bruder.", en: "I have a brother. (not \"*ein Bruder\")" },
+          { es: "Ich suche den Bahnhof.", en: "I'm looking for the station. (not \"*der Bahnhof\")" },
+          { es: "Das ist ein Hund.", en: "That's a dog. (not \"*einen Hund\")" },
+          { es: "Es gibt einen Supermarkt.", en: "There's a supermarket. (not \"*ein Supermarkt\")" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Es gibt ein Park hier. Write the correct German.",
+            prompt: "A learner wrote \"*Es gibt ein Park hier.\" Write the correct German.",
             source: "There's a park here.",
             answer: "Es gibt hier einen Park.",
             altAnswers: ["Hier gibt es einen Park.", "Es gibt einen Park hier."],
@@ -1650,7 +1652,7 @@ export const DE_A1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Woher du kommst? Write the correct German.",
+        prompt: "A learner wrote \"*Woher du kommst?\" Write the correct German.",
         source: "Where are you from? (to a friend)",
         answer: "Woher kommst du?",
         explanation: "The verb must be second, right after the question word.",
@@ -1658,7 +1660,7 @@ export const DE_A1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Ich brauche ein Schlüssel. Write the correct German.",
+        prompt: "A learner wrote \"*Ich brauche ein Schlüssel.\" Write the correct German.",
         source: "I need a key.",
         answer: "Ich brauche einen Schlüssel.",
         explanation: "\"Der Schlüssel\" is masculine and the object of \"brauchen\": \"einen\".",
@@ -1666,7 +1668,7 @@ export const DE_A1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Das ist keinen Problem. Write the correct German.",
+        prompt: "A learner wrote \"*Das ist keinen Problem.\" Write the correct German.",
         source: "That's no problem.",
         answer: "Das ist kein Problem.",
         explanation: "\"Sein\" takes no accusative, and \"das Problem\" is neuter anyway: \"kein Problem\".",
@@ -1674,7 +1676,7 @@ export const DE_A1_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "You're not coming? — [Yes, I am]! (a learner answered *Ja!)",
+        en: "You're not coming? — [Yes, I am]! (a learner answered \"*Ja!\")",
         sentence: "Du kommst nicht? — ___!",
         answer: "Doch",
         explanation: "Contradicting a negative statement needs \"doch\"; \"ja\" would be unclear.",
@@ -1682,7 +1684,7 @@ export const DE_A1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Es sind zwei Supermärkte hier. Write the correct German.",
+        prompt: "A learner wrote \"*Es sind zwei Supermärkte hier.\" Write the correct German.",
         source: "There are two supermarkets here.",
         answer: "Es gibt hier zwei Supermärkte.",
         altAnswers: ["Hier gibt es zwei Supermärkte.", "Es gibt zwei Supermärkte hier."],
@@ -1691,7 +1693,7 @@ export const DE_A1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Ich sehe nicht nichts. Write the correct German.",
+        prompt: "A learner wrote \"*Ich sehe nicht nichts.\" Write the correct German.",
         source: "I can't see anything.",
         answer: "Ich sehe nichts.",
         altAnswers: ["Ich kann nichts sehen."],
@@ -1707,7 +1709,7 @@ export const DE_A1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Ich habe nicht Zeit heute. Write the correct German.",
+        prompt: "A learner wrote \"*Ich habe nicht Zeit heute.\" Write the correct German.",
         source: "I don't have time today.",
         answer: "Ich habe heute keine Zeit.",
         altAnswers: ["Heute habe ich keine Zeit."],
@@ -1715,7 +1717,7 @@ export const DE_A1_U05: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "A learner wrote *Was trinkst du gern Kaffee? Put the words in order to say: Which coffee do you like drinking?",
+        prompt: "A learner wrote \"*Was trinkst du gern Kaffee?\" Put the words in order to say: Which coffee do you like drinking?",
         words: ["Welchen", "Kaffee", "trinkst", "du", "gern?"],
         translation: "Which coffee do you like drinking?",
         explanation: "\"Welchen Kaffee\" is one block in position 1; the verb \"trinkst\" is second.",
@@ -1728,8 +1730,8 @@ export const DE_A1_U05: Lesson[] = [
       {
         type: "speak",
         text: "Ich habe einen Bruder.",
-        prompt: "Fix the sentence and say it: *Ich habe ein Bruder (I have a brother).",
-        tip: "Make the -en of einen clear: EI-nen.",
+        prompt: "Fix the sentence and say it: \"*Ich habe ein Bruder.\" (I have a brother)",
+        tip: "Make the -en of \"einen\" clear: EI-nen.",
         explanation: "\"Einen Bruder\": masculine object of \"haben\".",
       },
     ],
@@ -1803,7 +1805,7 @@ export const DE_A1_U05: Lesson[] = [
             question: "What does it mean?",
             options: ["I have a son but no dog.", "I have a dog but no son.", "I have no son and no dog.", "I have a son and a dog."],
             correctIndex: 0,
-            explanation: "\"Einen Sohn\" (accusative of ein) and \"keinen Hund\" (accusative of kein): both nouns are masculine.",
+            explanation: "\"Einen Sohn\" (accusative of \"ein\") and \"keinen Hund\" (accusative of \"kein\"): both nouns are masculine.",
           },
         ],
       },
@@ -1861,7 +1863,7 @@ export const DE_A1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your colleague says: 'Sie haben keine Kinder, oder?' Ayşe has a son. What does she say?",
+        question: "Your colleague says: \"Sie haben keine Kinder, oder?\" Ayşe has a son. What does she say?",
         options: ["Doch, einen Sohn.", "Ja, einen Sohn.", "Nein, einen Sohn.", "Doch, ein Sohn."],
         correctIndex: 0,
         explanation: "\"Doch\" contradicts the negative; \"einen Sohn\" stays accusative as the object of the understood \"habe\".",

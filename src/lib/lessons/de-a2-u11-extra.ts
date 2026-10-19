@@ -324,7 +324,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
         heading: "Recap: one place, two questions",
         body: [
           "A short text often uses the same place twice: \"Ich gehe in die Küche. In der Küche mache ich Kaffee.\" The first is movement (accusative), the second location (dative).",
-          "Contractions: \"im/am\" (dative) vs \"ins/ans\" (accusative). Feminine and masculine never contract in writing.",
+          "Contractions: \"im/am\" (dative, masculine and neuter) vs \"ins/ans\" (accusative, neuter only). Feminine forms (\"in der\", \"in die\") and the masculine accusative (\"in den\", \"an den\") never contract.",
         ],
         examples: [
           { es: "Ich gehe in die Küche. In der Küche mache ich Kaffee.", en: "I go into the kitchen. In the kitchen I make coffee." },
@@ -394,6 +394,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Jonas goes into the garden and reads in the garden.",
         answer: "Jonas geht in den Garten und liest im Garten.",
+        altAnswers: ["Jonas geht in den Garten und liest dort."],
         explanation: "Accusative for the movement, dative for the reading.",
       },
       {
@@ -402,6 +403,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I put the plate on the table. Now it's on the table.",
         answer: "Ich stelle den Teller auf den Tisch. Jetzt steht er auf dem Tisch.",
+        altAnswers: ["Ich stelle den Teller auf den Tisch. Jetzt ist er auf dem Tisch."],
         explanation: "\"Stellen\" + accusative, then \"stehen\" + dative.",
       },
       {
@@ -418,7 +420,8 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
         en: "Then we go [to the] lake.",
         sentence: "Dann gehen wir ___ See.",
         answer: "an den",
-        explanation: "\"Der See\" (lake) → accusative \"an den See\".",
+        altAnswers: ["zum"],
+        explanation: "\"Der See\" (lake) → accusative \"an den See\" (\"zum See\" is also common).",
       },
       {
         type: "fill-blank",
@@ -492,7 +495,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "We live in the country.",
             answer: "Wir wohnen auf dem Land.",
-            explanation: "In the country = \"auf dem Land\", not *in dem Land*.",
+            explanation: "In the country = \"auf dem Land\", not \"*in dem Land*\".",
           },
           {
             type: "translate",
@@ -580,7 +583,8 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
         en: "Are you coming [to the] party? (to a friend)",
         sentence: "Kommst du ___ Party?",
         answer: "auf die",
-        explanation: "Events: \"auf\"; direction: accusative.",
+        altAnswers: ["zur"],
+        explanation: "Events: \"auf\"; direction: accusative \"auf die Party\". \"Zur Party\" is also fine.",
       },
       {
         type: "word-order",
@@ -630,7 +634,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
         heading: "Recap: the gym tour",
         body: [
           "A trainer shows you round: \"Die Umkleide ist im Keller. Die Duschen sind neben der Umkleide. Leg deine Sachen in den Spind!\" (a locker). Location questions get the dative, instructions about putting things get the accusative.",
-          "Useful words: \"die Umkleide\" (changing room), \"der Spind\" (locker), \"das Handtuch\" (towel), \"die Matte\" (mat), \"das Laufband\" (treadmill), \"der Kursraum\" (class room).",
+          "Useful words: \"die Umkleide\" (changing room), \"der Spind\" (locker), \"das Handtuch\" (towel), \"die Matte\" (mat), \"das Laufband\" (treadmill), \"der Kursraum\" (studio).",
         ],
         examples: [
           { es: "Die Umkleide ist im Keller.", en: "The changing room is in the basement." },
@@ -926,7 +930,7 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
     duration: "10 min",
     sections: [
       {
-        heading: "Recap: Ayşe moves to Köln",
+        heading: "Recap: Ayşe moves to Cologne",
         body: [
           "Read the story: \"Am Samstag ist Ayşe nach Köln gezogen. Ihre Freunde haben die Kisten in den Flur getragen. Mehmet hat den Schrank ins Schlafzimmer gebracht und neben das Fenster gestellt. Am Abend haben alle auf dem Boden gesessen und Pizza gegessen. Die Kisten stehen noch heute im Flur!\"",
           "Each preposition phrase answers either wohin? (accusative: \"in den Flur\", \"ins Schlafzimmer\", \"neben das Fenster\") or wo? (dative: \"auf dem Boden\", \"im Flur\").",
@@ -1352,8 +1356,8 @@ export const DE_A2_U11_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Ich parke ___ Haus.\" Which fits?",
-        options: ["vor dem", "vor das", "vors", "vor den"],
+        question: "How do you say: I park in front of the house?",
+        options: ["Ich parke vor dem Haus.", "Ich parke vor das Haus.", "Ich parke vors Haus.", "Ich parke vor den Haus."],
         correctIndex: 0,
         explanation: "\"Parken\" asks wo?: dative.",
       },

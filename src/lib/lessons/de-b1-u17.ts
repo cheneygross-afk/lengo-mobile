@@ -8,7 +8,7 @@ export const DE_B1_U17: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Da- and Wo-Compounds, Part 1 of 2: Da-Compounds",
-    summary: "Replace preposition + thing with darauf, daran, darüber, damit, dafür: Ich warte darauf. For people keep the pronoun: Ich warte auf ihn.",
+    summary: "Replace preposition + thing with \"darauf\", \"daran\", \"darüber\", \"damit\", \"dafür\" (\"Ich warte darauf\"), and keep preposition + pronoun for people (\"Ich warte auf ihn\").",
     duration: "15 min",
     sections: [
       {
@@ -16,8 +16,8 @@ export const DE_B1_U17: Lesson[] = [
         body: [
           "In English you can say I'm waiting for it, I'm thinking about it, I'm pleased with it. German cannot put a pronoun like \"es\" (or \"ihn\", \"sie\" for things) after a preposition. Instead it glues \"da\" onto the front of the preposition: \"darauf\" (for it / on it), \"daran\" (of it), \"darüber\" (about it), \"damit\" (with it), \"dafür\" (for it), \"davon\" (of it / from it).",
           "So \"Ich warte auf den Bus\" becomes \"Ich warte darauf\"; \"Ich denke an die Prüfung\" becomes \"Ich denke daran\"; \"Wir sprechen über das Problem\" becomes \"Wir sprechen darüber\". Gender and number no longer matter: one form, \"darauf\", stands for \"auf den Bus\", \"auf die Antwort\", \"auf das Paket\" and \"auf die Ergebnisse\".",
-          "When the preposition starts with a vowel, an r is added for easier pronunciation: \"dar-auf\", \"dar-an\", \"dar-über\", \"dar-um\", \"dar-aus\", \"dar-in\". With a consonant, plain \"da-\": \"dafür\", \"damit\", \"davon\", \"dabei\", \"dazu\", \"danach\", \"davor\", \"dagegen\". *daauf* or *daüber* don't exist.",
-          "*auf es*, *an es*, *mit es* are impossible in standard German. That is one of the clearest markers of a non-native speaker, so make \"da(r)-\" automatic.",
+          "When the preposition starts with a vowel, an r is added for easier pronunciation: \"dar-auf\", \"dar-an\", \"dar-über\", \"dar-um\", \"dar-aus\", \"dar-in\". With a consonant, plain \"da-\": \"dafür\", \"damit\", \"davon\", \"dabei\", \"dazu\", \"danach\", \"davor\", \"dagegen\". \"*daauf*\" or \"*daüber*\" don't exist.",
+          "\"*auf es*\", \"*an es*\", \"*mit es*\" are impossible in standard German. That is one of the clearest markers of a non-native speaker, so make \"da(r)-\" automatic.",
         ],
         examples: [
           { es: "Wartest du auf das Paket? — Ja, ich warte schon seit Tagen darauf.", en: "Are you waiting for the parcel? — Yes, I've been waiting for it for days." },
@@ -25,7 +25,7 @@ export const DE_B1_U17: Lesson[] = [
           { es: "Das Problem ist ernst. Wir müssen darüber sprechen.", en: "The problem is serious. We have to talk about it." },
           { es: "Das ist mein neues Fahrrad. Ich fahre jeden Tag damit zur Arbeit.", en: "That's my new bike. I ride it to work every day." },
           { es: "Die Reise war teuer, aber ich habe lange dafür gespart.", en: "The trip was expensive, but I saved up for it for a long time." },
-          { es: "Ich habe von dem Unfall gehört. Weißt du mehr davon?", en: "I heard about the accident. Do you know more about it?" },
+          { es: "Ich habe von dem Unfall gehört. Weißt du mehr darüber?", en: "I heard about the accident. Do you know more about it?" },
         ],
         checkpoint: [
           {
@@ -34,7 +34,7 @@ export const DE_B1_U17: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm waiting for it.",
             answer: "Ich warte darauf.",
-            explanation: "\"Warten auf\" + a thing becomes \"darauf\": da- + r + auf. *Ich warte auf es* is impossible.",
+            explanation: "\"Warten auf\" + a thing becomes \"darauf\": da- + r + auf. \"*Ich warte auf es*\" is impossible.",
           },
           {
             type: "fill-blank",
@@ -46,7 +46,7 @@ export const DE_B1_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your friend asks: Denkst du an den Termin? How do you answer: Yes, I'm thinking of it?",
+            question: "Your friend asks: \"Denkst du an den Termin?\" How do you answer: Yes, I'm thinking of it?",
             options: ["Ja, ich denke daran.", "Ja, ich denke an ihn.", "Ja, ich denke an es.", "Ja, ich denke daan."],
             correctIndex: 0,
             explanation: "\"Der Termin\" is a thing, so an + it becomes \"daran\". \"An ihn\" would be about a person.",
@@ -169,15 +169,15 @@ export const DE_B1_U17: Lesson[] = [
         prompt: "Translate into German.",
         source: "Don't forget it! (to a friend)",
         answer: "Denk daran!",
-        altAnswers: ["Vergiss es nicht!", "Denkt daran!", "Denk bitte daran!"],
+        altAnswers: ["Vergiss es nicht!", "Vergiss das nicht!", "Vergesst es nicht!", "Denkt daran!", "Denk bitte daran!"],
         explanation: "\"Denk daran!\" (think of it) is the usual German reminder.",
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["Ich habe mich sehr darüber gefreut.", "Ich habe mich sehr über es gefreut.", "Ich habe mich sehr daüber gefreut.", "Ich habe mich sehr über das gefreut."],
+        question: "You got a present. How do you say: I was very pleased about it?",
+        options: ["Ich habe mich sehr darüber gefreut.", "Ich habe mich sehr über es gefreut.", "Ich habe mich sehr daüber gefreut.", "Ich habe mich sehr über ihm gefreut."],
         correctIndex: 0,
-        explanation: "Preposition + it is always a da-compound; before a vowel add r: \"darüber\".",
+        explanation: "Preposition + it (a thing) is a da-compound; before a vowel add r: \"darüber\". \"Über es\" is impossible, and \"über ihm\" is both the wrong case and a person.",
       },
       {
         type: "translate",
@@ -396,6 +396,7 @@ export const DE_B1_U17: Lesson[] = [
         prompt: "Put the words in order to say: In the evenings I often thought of my family.",
         words: ["Abends", "dachte", "ich", "oft", "an", "meine", "Familie."],
         translation: "In the evenings I often thought of my family.",
+        altOrders: [["Ich", "dachte", "abends", "oft", "an", "meine", "Familie."]],
         explanation: "Präteritum \"dachte\" in second position; \"an meine Familie\" in the accusative.",
       },
       {
@@ -456,11 +457,11 @@ export const DE_B1_U17: Lesson[] = [
       {
         heading: "Your answers",
         body: [
-          "Now talk about yourself. Use full sentences with a da-compound to add detail, reasons or feelings: \"Ich interessiere mich für Fotografie. Ich habe sogar einen Kurs dafür gemacht\". Things and plans take da-compounds; people keep the preposition + pronoun: \"Ich denke oft an meine Oma. Ich vermisse sie sehr\".",
+          "Now talk about yourself. Use full sentences with a da-compound to add detail, reasons or feelings: \"Ich interessiere mich für Fotografie. Ich habe sogar einen Kurs dazu gemacht\". Things and plans take da-compounds; people keep the preposition + pronoun: \"Ich denke oft an meine Oma. Ich vermisse sie sehr\".",
           "Fronting the da-compound is a good way to link sentences smoothly: \"Ich habe eine Katze. Um sie kümmert sich mein Nachbar, wenn ich verreise\" (a pet, treated like a person), \"Ich mache einen Spanischkurs. Darauf habe ich mich lange gefreut\".",
         ],
         examples: [
-          { es: "Ich interessiere mich für Fotografie und habe einen Kurs dafür gemacht.", en: "I'm interested in photography and I've done a course in it." },
+          { es: "Ich interessiere mich für Fotografie und habe einen Kurs dazu gemacht.", en: "I'm interested in photography and I've done a course in it." },
           { es: "Ich freue mich auf meinen Urlaub in Italien. Darauf warte ich schon das ganze Jahr.", en: "I'm looking forward to my holiday in Italy. I've been waiting for it all year." },
           { es: "Ich ärgere mich über den Lärm in meiner Straße, aber ich kann nichts dagegen tun.", en: "The noise in my street annoys me, but I can't do anything about it." },
           { es: "Ich träume von einem kleinen Café. Davon träume ich, seit ich zwanzig bin.", en: "I dream of a little café. I've dreamed of it since I was twenty." },
@@ -532,7 +533,7 @@ export const DE_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Someone asks: Worauf freust du dich? You want to answer: my birthday. Which is the natural short answer?",
+        question: "Someone asks: \"Worauf freust du dich?\" You want to answer: my birthday. Which is the natural short answer?",
         options: ["Auf meinen Geburtstag.", "Mein Geburtstag.", "Darauf meinen Geburtstag.", "Über meinen Geburtstag."],
         correctIndex: 0,
         explanation: "The short answer keeps the verb's preposition and case: \"Auf meinen Geburtstag\".",
@@ -570,7 +571,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "speak",
         text: "Ich träume von einer Reise nach Japan.",
-        prompt: "Answer aloud: Wovon träumst du? (Say: I dream of a trip to Japan.)",
+        prompt: "Answer aloud: \"Wovon träumst du?\" (Say: I dream of a trip to Japan.)",
         tip: "\"Reise\": the s between vowels is voiced like z.",
         explanation: "\"Träumen von\" + dative: \"von einer Reise\".",
       },
@@ -581,14 +582,14 @@ export const DE_B1_U17: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Da- and Wo-Compounds, Part 2 of 2: Wo-Compounds and Forward-Pointing Da-",
-    summary: "Ask about things with worauf, woran, wofür; about people with auf wen, mit wem; and use da-compounds to announce a dass- or zu-clause: Ich freue mich darauf, dich zu sehen.",
+    summary: "Ask about things with \"worauf\", \"woran\", \"wofür\" and about people with \"auf wen\", \"mit wem\", and use da-compounds to announce a dass- or zu-clause: \"Ich freue mich darauf, dich zu sehen.\"",
     duration: "15 min",
     sections: [
       {
         heading: "Wo-compounds: questions about things",
         body: [
           "To ask about a thing after a prepositional verb, German builds a question word from \"wo\" + preposition, with the same r-rule as da-compounds: \"worauf\", \"woran\", \"worüber\", \"worum\", \"woraus\" before vowels, and \"wofür\", \"womit\", \"wovon\", \"wozu\", \"wobei\", \"wonach\", \"wovor\" before consonants.",
-          "\"Worauf wartest du?\" (What are you waiting for?), \"Woran denkst du?\" (What are you thinking about?), \"Worüber habt ihr gesprochen?\" (What did you talk about?), \"Womit fährst du zur Arbeit?\" (What do you go to work by?).",
+          "\"Worauf wartest du?\" (What are you waiting for?), \"Woran denkst du?\" (What are you thinking about?), \"Worüber habt ihr gesprochen?\" (What did you talk about?), \"Womit fährst du zur Arbeit?\" (How do you get to work, by car, bike or train?).",
           "English puts the preposition at the end (What are you waiting for?); German puts the whole wo-compound at the start. In everyday speech you'll also hear \"Auf was wartest du?\" or \"Für was interessierst du dich?\"; that's colloquial, fine with friends, but in writing and exams use the wo-form.",
         ],
         examples: [
@@ -606,7 +607,7 @@ export const DE_B1_U17: Lesson[] = [
             prompt: "Translate into German.",
             source: "What are you thinking about? (to a friend)",
             answer: "Woran denkst du?",
-            altAnswers: ["Woran denkt ihr?", "Woran denkst du gerade?", "Worüber denkst du nach?"],
+            altAnswers: ["Woran denkst du gerade?", "Worüber denkst du nach?"],
             explanation: "\"Denken an\" + a thing → \"woran\" (wo + r + an) at the start of the question.",
           },
           {
@@ -641,7 +642,6 @@ export const DE_B1_U17: Lesson[] = [
             prompt: "Translate into German.",
             source: "Who are you waiting for? (to a friend)",
             answer: "Auf wen wartest du?",
-            altAnswers: ["Auf wen wartet ihr?"],
             explanation: "A person + \"warten auf\" (accusative): \"Auf wen\". English puts for at the end; German puts \"auf\" at the start.",
           },
           {
@@ -684,8 +684,8 @@ export const DE_B1_U17: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm looking forward to seeing you. (to a friend)",
             answer: "Ich freue mich darauf, dich zu sehen.",
-            altAnswers: ["Ich freue mich darauf, euch zu sehen.", "Ich freue mich, dich zu sehen.", "Ich freue mich schon darauf, dich zu sehen."],
-            explanation: "Same subject (I look forward, I see), so \"darauf\" + zu-infinitive. *Ich freue mich auf dich sehen* is impossible.",
+            altAnswers: ["Ich freue mich, dich zu sehen.", "Ich freue mich schon darauf, dich zu sehen."],
+            explanation: "Same subject (I look forward, I see), so \"darauf\" + zu-infinitive. \"*Ich freue mich auf dich sehen*\" is impossible.",
           },
           {
             type: "fill-blank",
@@ -720,7 +720,6 @@ export const DE_B1_U17: Lesson[] = [
         prompt: "Translate into German.",
         source: "Who are you thinking of? (to a friend)",
         answer: "An wen denkst du?",
-        altAnswers: ["An wen denkt ihr?"],
         explanation: "A person: preposition + \"wen\" (accusative, because \"denken an\" takes the accusative).",
       },
       {
@@ -746,7 +745,7 @@ export const DE_B1_U17: Lesson[] = [
         prompt: "Translate into German.",
         source: "Thank you for coming. (polite)",
         answer: "Danke, dass Sie gekommen sind.",
-        altAnswers: ["Danke dafür, dass Sie gekommen sind.", "Vielen Dank, dass Sie gekommen sind.", "Danke, dass du gekommen bist.", "Danke, dass ihr gekommen seid."],
+        altAnswers: ["Danke dafür, dass Sie gekommen sind.", "Vielen Dank, dass Sie gekommen sind."],
         explanation: "English -ing after for becomes a dass-clause; \"dafür\" can announce it.",
       },
       {
@@ -814,7 +813,7 @@ export const DE_B1_U17: Lesson[] = [
         heading: "Level 1: noun and person",
         body: [
           "This check goes up in three levels. First, the basic block: verb + preposition + noun in the right case, and preposition + pronoun for people. If you miss more than one here, go back to the two Verbs with Prepositions lessons in Unit 16.",
-          "Reminder: \"auf\", \"über\", \"für\", \"um\" → accusative; \"von\", \"mit\", \"bei\", \"zu\", \"nach\", \"aus\", \"vor\" → dative; \"an\" depends on the verb.",
+          "Reminder: \"für\", \"um\" and, with most of these verbs, \"auf\" and \"über\" → accusative; \"von\", \"mit\", \"bei\", \"zu\", \"nach\", \"aus\", \"vor\" → dative; \"an\" depends on the verb.",
         ],
         examples: [
           { es: "Ich warte auf meine Kollegin.", en: "I'm waiting for my colleague." },
@@ -859,12 +858,12 @@ export const DE_B1_U17: Lesson[] = [
             prompt: "Translate into German.",
             source: "What's annoying you? (to a friend)",
             answer: "Worüber ärgerst du dich?",
-            altAnswers: ["Worüber ärgert ihr euch?", "Was ärgert dich?"],
+            altAnswers: ["Was ärgert dich?"],
             explanation: "\"Sich ärgern über\" + thing → \"worüber\".",
           },
           {
             type: "multiple-choice",
-            question: "Ich habe lange mit Frau Schneider gesprochen. You want to replace mit Frau Schneider: Ich habe lange ... gesprochen. What fills the gap?",
+            question: "\"Ich habe lange mit Frau Schneider gesprochen.\" You want to replace \"mit Frau Schneider\": \"Ich habe lange ... gesprochen.\" What fills the gap?",
             options: ["mit ihr", "damit", "mit sie", "mit es"],
             correctIndex: 0,
             explanation: "A person: \"mit\" + dative pronoun \"ihr\".",
@@ -888,7 +887,7 @@ export const DE_B1_U17: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'd be really pleased if you came. (to a friend)",
             answer: "Ich würde mich sehr darüber freuen, wenn du kommen würdest.",
-            altAnswers: ["Ich würde mich sehr freuen, wenn du kommen würdest.", "Ich würde mich sehr darüber freuen, wenn du kämst.", "Ich würde mich sehr freuen, wenn du kämst.", "Ich würde mich sehr darüber freuen, wenn ihr kommen würdet.", "Ich würde mich sehr freuen, wenn ihr kommen würdet."],
+            altAnswers: ["Ich würde mich sehr freuen, wenn du kommen würdest.", "Ich würde mich sehr darüber freuen, wenn du kämst.", "Ich würde mich sehr freuen, wenn du kämst."],
             explanation: "Konjunktiv II in both parts; \"darüber\" announces the wenn-clause (optional here).",
           },
           {
@@ -1004,7 +1003,7 @@ export const DE_B1_U17: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Pattern Practice: Auf wen? or Worauf?",
-    summary: "Turn statements into questions: Ich warte auf meine Schwester → Auf wen wartest du? Ich warte auf das Paket → Worauf wartest du?",
+    summary: "Turn statements into questions about people or things: \"Ich warte auf meine Schwester\" → \"Auf wen wartest du?\"; \"Ich warte auf das Paket\" → \"Worauf wartest du?\"",
     duration: "12 min",
     sections: [
       {
@@ -1058,7 +1057,7 @@ export const DE_B1_U17: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Ich wohne bei meiner Tante. What's the question?",
+            question: "The answer is \"Ich wohne bei meiner Tante.\" What's the question?",
             options: ["Bei wem wohnst du?", "Bei wen wohnst du?", "Wobei wohnst du?", "Wem wohnst du bei?"],
             correctIndex: 0,
             explanation: "\"Bei\" is dative: \"bei wem\".",
@@ -1085,7 +1084,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Make a question. Ich warte auf den Techniker. Translate: Who are you waiting for?",
+        prompt: "Make a question about \"Ich warte auf den Techniker.\" Translate: Who are you waiting for?",
         source: "Who are you waiting for?",
         answer: "Auf wen wartest du?",
         altAnswers: ["Auf wen wartet ihr?", "Auf wen warten Sie?"],
@@ -1094,7 +1093,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Make a question. Ich warte auf die Lieferung. Translate: What are you waiting for?",
+        prompt: "Make a question about \"Ich warte auf die Lieferung.\" Translate: What are you waiting for?",
         source: "What are you waiting for?",
         answer: "Worauf wartest du?",
         altAnswers: ["Worauf wartet ihr?", "Worauf warten Sie?"],
@@ -1113,10 +1112,10 @@ export const DE_B1_U17: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "What did you pay for that?",
-        answer: "Wofür hast du das bezahlt?",
-        altAnswers: ["Wie viel hast du dafür bezahlt?", "Wofür habt ihr das bezahlt?", "Wofür haben Sie das bezahlt?"],
-        explanation: "\"Bezahlen für\" + thing → \"wofür\". (If you mean how much, ask \"Wie viel hast du dafür bezahlt?\")",
+        source: "What did you pay for? (to a friend)",
+        answer: "Wofür hast du bezahlt?",
+        altAnswers: ["Wofür hast du gezahlt?"],
+        explanation: "\"Bezahlen für\" + thing → \"wofür\". (To ask how much, it's \"Wie viel hast du dafür bezahlt?\")",
       },
       {
         type: "translate",
@@ -1153,14 +1152,14 @@ export const DE_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Er hat sich über das Geschenk gefreut. What's the question?",
+        question: "The answer is \"Er hat sich über das Geschenk gefreut.\" What's the question?",
         options: ["Worüber hat er sich gefreut?", "Über wen hat er sich gefreut?", "Über was hat er sich gefreut über?", "Wo hat er sich gefreut?"],
         correctIndex: 0,
         explanation: "A present is a thing: \"worüber\".",
       },
       {
         type: "multiple-choice",
-        question: "Er hat sich über seine Tochter gefreut. What's the question?",
+        question: "The answer is \"Er hat sich über seine Tochter gefreut.\" What's the question?",
         options: ["Über wen hat er sich gefreut?", "Worüber hat er sich gefreut?", "Über wem hat er sich gefreut?", "Wen hat er sich gefreut?"],
         correctIndex: 0,
         explanation: "A person and an accusative preposition: \"über wen\".",
@@ -1184,7 +1183,7 @@ export const DE_B1_U17: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Quick Round: Daran, Darauf or Darüber?",
-    summary: "Rapid replies with the right da-compound: Denkst du an den Termin? — Ja, ich denke daran.",
+    summary: "Answer quickly without repeating the noun, using the right da-compound: \"Denkst du an den Termin? — Ja, ich denke daran.\"",
     duration: "10 min",
     sections: [
       {
@@ -1205,7 +1204,7 @@ export const DE_B1_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Answer: Kümmerst du dich um die Tickets? Translate: Yes, I'll take care of it.",
+            prompt: "Answer \"Kümmerst du dich um die Tickets?\" Translate: Yes, I'll take care of it.",
             source: "Yes, I'll take care of it.",
             answer: "Ja, ich kümmere mich darum.",
             explanation: "\"Um\" → \"darum\" (r before a vowel).",
@@ -1213,7 +1212,7 @@ export const DE_B1_U17: Lesson[] = [
           {
             type: "speak",
             text: "Ja, ich denke daran.",
-            prompt: "Answer aloud: Denkst du an den Termin? (Say: Yes, I'll remember it.)",
+            prompt: "Answer aloud: \"Denkst du an den Termin?\" (Say: Yes, I'll remember it.)",
             tip: "In casual speech you'll hear \"Ich denk dran\".",
             explanation: "\"An den Termin\" → \"daran\".",
           },
@@ -1224,7 +1223,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer: Wartest du auf die E-Mail? Translate: Yes, I'm waiting for it.",
+        prompt: "Answer \"Wartest du auf die E-Mail?\" Translate: Yes, I'm waiting for it.",
         source: "Yes, I'm waiting for it.",
         answer: "Ja, ich warte darauf.",
         explanation: "\"Auf\" → \"darauf\".",
@@ -1232,7 +1231,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer: Interessierst du dich für Politik? Translate: No, I'm not interested in it.",
+        prompt: "Answer \"Interessierst du dich für Politik?\" Translate: No, I'm not interested in it.",
         source: "No, I'm not interested in it.",
         answer: "Nein, ich interessiere mich nicht dafür.",
         altAnswers: ["Nein, dafür interessiere ich mich nicht.", "Nein, das interessiert mich nicht."],
@@ -1241,7 +1240,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer: Hast du dich über die Karte gefreut? Translate: Yes, I was very pleased about it.",
+        prompt: "Answer \"Hast du dich über die Karte gefreut?\" Translate: Yes, I was very pleased about it.",
         source: "Yes, I was very pleased about it.",
         answer: "Ja, ich habe mich sehr darüber gefreut.",
         altAnswers: ["Ja, darüber habe ich mich sehr gefreut.", "Ja, ich habe mich sehr gefreut."],
@@ -1250,7 +1249,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer: Hast du Angst vor der Prüfung? Translate: Yes, I'm a bit scared of it.",
+        prompt: "Answer \"Hast du Angst vor der Prüfung?\" Translate: Yes, I'm a bit scared of it.",
         source: "Yes, I'm a bit scared of it.",
         answer: "Ja, ich habe ein bisschen Angst davor.",
         altAnswers: ["Ja, davor habe ich ein bisschen Angst.", "Ja, ich habe etwas Angst davor."],
@@ -1259,7 +1258,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer: Bist du mit dem Ergebnis zufrieden? Translate: No, I'm not happy with it.",
+        prompt: "Answer \"Bist du mit dem Ergebnis zufrieden?\" Translate: No, I'm not happy with it.",
         source: "No, I'm not happy with it.",
         answer: "Nein, ich bin nicht zufrieden damit.",
         altAnswers: ["Nein, ich bin damit nicht zufrieden.", "Nein, damit bin ich nicht zufrieden."],
@@ -1268,7 +1267,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Answer: Erinnerst du dich an den Urlaub? Translate: Yes, I remember it well.",
+        prompt: "Answer \"Erinnerst du dich an den Urlaub?\" Translate: Yes, I remember it well.",
         source: "Yes, I remember it well.",
         answer: "Ja, ich erinnere mich gut daran.",
         altAnswers: ["Ja, daran erinnere ich mich gut.", "Ja, ich kann mich gut daran erinnern."],
@@ -1292,14 +1291,14 @@ export const DE_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Sprecht ihr oft über Politik? — Ja, wir sprechen oft ...",
+        question: "Complete the answer: \"Sprecht ihr oft über Politik? — Ja, wir sprechen oft ...\"",
         options: ["darüber", "darauf", "daran", "dafür"],
         correctIndex: 0,
         explanation: "Reuse the preposition: \"über\" → \"darüber\".",
       },
       {
         type: "multiple-choice",
-        question: "Hast du dich um die Wohnung beworben? — Ja, ich habe mich ... beworben.",
+        question: "Complete the answer: \"Hast du dich um die Wohnung beworben? — Ja, ich habe mich ... beworben.\"",
         options: ["darum", "dafür", "damit", "daran"],
         correctIndex: 0,
         explanation: "\"Um\" → \"darum\".",
@@ -1308,7 +1307,7 @@ export const DE_B1_U17: Lesson[] = [
         type: "listen-choose",
         audio: "Ich denk dran!",
         question: "What does it mean?",
-        options: ["I'll remember!", "I'm thinking about it!", "I'm on it!", "I thought of that!"],
+        options: ["I'll remember!", "I'm looking forward to it!", "I'm on it!", "I thought of that!"],
         correctIndex: 0,
         explanation: "Casual \"Ich denk dran\" = \"Ich denke daran\": I'll remember it.",
       },
@@ -1326,28 +1325,28 @@ export const DE_B1_U17: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Error Hunt: Da- and Wo-Compounds",
-    summary: "Fix *Ich denke an es, *Ich warte darauf for a person, *Worüber sprichst du von?, *Für was interessierst du dich? and *daauf.",
+    summary: "Find and fix five typical mistakes: preposition + es (\"*an es*\"), a da-compound for a person, a doubled preposition (\"*Worüber sprichst du über?*\"), colloquial \"*Für was...?*\" in writing, and a missing r (\"*daauf*\").",
     duration: "13 min",
     sections: [
       {
         heading: "Five typical mistakes",
         body: [
-          "1. Preposition + es: *Ich denke an es.* → \"Ich denke daran.\" 2. Da-compound for a person: *Mein Bruder? Ich warte darauf.* → \"Ich warte auf ihn.\" 3. Missing r: *daauf, woan* → \"darauf, woran\".",
-          "4. Double preposition: *Worüber sprichst du über?* or *Woran denkst du an?* The wo-compound already contains the preposition; English habits (What are you talking about?) make learners add it again at the end.",
+          "1. Preposition + es: \"*Ich denke an es.*\" → \"Ich denke daran.\" 2. Da-compound for a person: \"*Mein Bruder? Ich warte darauf.*\" → \"Ich warte auf ihn.\" 3. Missing r: \"*daauf, woan*\" → \"darauf, woran\".",
+          "4. Double preposition: \"*Worüber sprichst du über?*\" or \"*Woran denkst du an?*\" The wo-compound already contains the preposition; English habits (What are you talking about?) make learners add it again at the end.",
           "5. Colloquial \"Für was...?\", \"Mit was...?\": common in speech, especially in the south, but not standard in writing. Write \"Wofür interessierst du dich?\", \"Womit fährst du?\".",
         ],
         examples: [
-          { es: "Ich denke daran.", en: "I'm thinking of it. (not *an es*)" },
-          { es: "Ich warte auf ihn.", en: "I'm waiting for him. (not *darauf* for a person)" },
+          { es: "Ich denke daran.", en: "I'm thinking of it. (not \"*an es*\")" },
+          { es: "Ich warte auf ihn.", en: "I'm waiting for him. (not \"*darauf*\" for a person)" },
           { es: "Worüber sprichst du?", en: "What are you talking about? (no second \"über\")" },
           { es: "Wofür interessierst du dich?", en: "What are you interested in? (standard written form)" },
-          { es: "Ich freue mich darauf.", en: "I'm looking forward to it. (not *daauf*)" },
+          { es: "Ich freue mich darauf.", en: "I'm looking forward to it. (not \"*daauf*\")" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix: *Woran denkst du an?* Write the correct German for: What are you thinking about?",
+            prompt: "Fix: \"*Woran denkst du an?*\" Write the correct German for: What are you thinking about?",
             source: "What are you thinking about?",
             answer: "Woran denkst du?",
             altAnswers: ["Woran denkt ihr?", "Woran denken Sie?"],
@@ -1356,7 +1355,7 @@ export const DE_B1_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix: *Meine Mutter? Ich mache mir Sorgen darum.* Write the correct German for: My mother? I'm worried about her.",
+            prompt: "Fix: \"*Meine Mutter? Ich mache mir Sorgen darum.*\" Write the correct German for: My mother? I'm worried about her.",
             source: "My mother? I'm worried about her.",
             answer: "Meine Mutter? Ich mache mir Sorgen um sie.",
             explanation: "A person: \"um sie\", not \"darum\".",
@@ -1367,13 +1366,13 @@ export const DE_B1_U17: Lesson[] = [
         heading: "Spot the mistake",
         body: [
           "In each of these learner sentences one thing is wrong. Decide which rule is broken (person or thing? r or no r? double preposition?), then write the correct version.",
-          "Learners also often forget that a da-compound is needed before a dass- or zu-clause with verbs like \"sich freuen auf\": *Ich freue mich auf, dich zu sehen* → \"Ich freue mich darauf, dich zu sehen\".",
+          "Learners also often forget that a da-compound is needed before a dass- or zu-clause with verbs like \"sich freuen auf\": \"*Ich freue mich auf, dich zu sehen*\" → \"Ich freue mich darauf, dich zu sehen\".",
         ],
         examples: [
-          { es: "Ich freue mich darauf, dich zu sehen.", en: "I'm looking forward to seeing you. (not *auf, dich zu sehen*)" },
-          { es: "Damit bin ich einverstanden.", en: "I agree with that. (not *mit das*)" },
-          { es: "Mit wem hast du gesprochen?", en: "Who did you talk to? (not *Womit* for a person)" },
-          { es: "Wovor hast du Angst?", en: "What are you afraid of? (not *Vor was hast du Angst?* in writing)" },
+          { es: "Ich freue mich darauf, dich zu sehen.", en: "I'm looking forward to seeing you. (not \"*auf, dich zu sehen*\")" },
+          { es: "Damit bin ich einverstanden.", en: "I agree with that. (not \"*mit das*\")" },
+          { es: "Mit wem hast du gesprochen?", en: "Who did you talk to? (not \"*Womit*\" for a person)" },
+          { es: "Wovor hast du Angst?", en: "What are you afraid of? (not \"*Vor was hast du Angst?*\" in writing)" },
         ],
         checkpoint: [
           {
@@ -1398,7 +1397,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Ich habe mich über es gefreut.* Write the correct German for: I was pleased about it.",
+        prompt: "Fix: \"*Ich habe mich über es gefreut.*\" Write the correct German for: I was pleased about it.",
         source: "I was pleased about it.",
         answer: "Ich habe mich darüber gefreut.",
         altAnswers: ["Darüber habe ich mich gefreut.", "Ich freute mich darüber."],
@@ -1407,7 +1406,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Ich warte daauf.* Write the correct German for: I'm waiting for it.",
+        prompt: "Fix: \"*Ich warte daauf.*\" Write the correct German for: I'm waiting for it.",
         source: "I'm waiting for it.",
         answer: "Ich warte darauf.",
         explanation: "Add r before a vowel: \"darauf\".",
@@ -1415,7 +1414,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Mein Freund? Ich denke oft daran.* Write the correct German for: My boyfriend? I often think about him.",
+        prompt: "Fix: \"*Mein Freund? Ich denke oft daran.*\" Write the correct German for: My boyfriend? I often think about him.",
         source: "My boyfriend? I often think about him.",
         answer: "Mein Freund? Ich denke oft an ihn.",
         explanation: "A person: \"an ihn\".",
@@ -1423,7 +1422,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Worüber habt ihr über gesprochen?* Write the correct German for: What did you talk about?",
+        prompt: "Fix: \"*Worüber habt ihr über gesprochen?*\" Write the correct German for: What did you talk about?",
         source: "What did you talk about? (to friends)",
         answer: "Worüber habt ihr gesprochen?",
         explanation: "One preposition only, inside \"worüber\".",
@@ -1431,7 +1430,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix (for a written text): *Für was interessieren Sie sich?* Write the standard German for: What are you interested in?",
+        prompt: "Fix (for a written text): \"*Für was interessieren Sie sich?*\" Write the standard German for: What are you interested in?",
         source: "What are you interested in? (polite)",
         answer: "Wofür interessieren Sie sich?",
         explanation: "Standard written German uses \"wofür\".",
@@ -1439,7 +1438,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Womit bist du ins Kino gegangen? — Mit Lena.* Write the correct question: Who did you go to the cinema with?",
+        prompt: "Fix: \"*Womit bist du ins Kino gegangen? — Mit Lena.*\" Write the correct question: Who did you go to the cinema with?",
         source: "Who did you go to the cinema with?",
         answer: "Mit wem bist du ins Kino gegangen?",
         altAnswers: ["Mit wem warst du im Kino?", "Mit wem seid ihr ins Kino gegangen?"],
@@ -1448,10 +1447,10 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Ich freue mich auf, dich zu sehen.* Write the correct German for: I'm looking forward to seeing you.",
+        prompt: "Fix: \"*Ich freue mich auf, dich zu sehen.*\" Write the correct German for: I'm looking forward to seeing you.",
         source: "I'm looking forward to seeing you. (to a friend)",
         answer: "Ich freue mich darauf, dich zu sehen.",
-        altAnswers: ["Ich freue mich, dich zu sehen.", "Ich freue mich darauf, euch zu sehen."],
+        altAnswers: ["Ich freue mich, dich zu sehen."],
         explanation: "The preposition needs something to attach to: \"darauf\" + zu-infinitive.",
       },
       {
@@ -1460,7 +1459,7 @@ export const DE_B1_U17: Lesson[] = [
         en: "The new app? I'm not happy [with it].",
         sentence: "Die neue App? Ich bin nicht zufrieden ___.",
         answer: "damit",
-        explanation: "\"Mit\" + it = \"damit\", not *mit ihr* for a thing in standard style.",
+        explanation: "\"Mit\" + it = \"damit\", not \"*mit ihr*\" for a thing in standard style.",
       },
       {
         type: "fill-blank",
@@ -1498,7 +1497,7 @@ export const DE_B1_U17: Lesson[] = [
     level: "DE-B1",
     number: 9,
     title: "Real-World Mission: The Group Chat Poll",
-    summary: "Organise a class outing in a group chat: ask what people are interested in, react (Ich bin dafür / dagegen) and sum up the result.",
+    summary: "Organise a class outing in a group chat: ask what people are interested in, react (\"Ich bin dafür / dagegen\") and sum up the result.",
     duration: "13 min",
     sections: [
       {
@@ -1677,7 +1676,7 @@ export const DE_B1_U17: Lesson[] = [
     level: "DE-B1",
     number: 10,
     title: "Themed Review: Life on Social Media",
-    summary: "A text and tasks about online habits: sich beschweren über, abhängig sein von, darauf achten, dass...",
+    summary: "Read a blog post about online habits and talk about them with \"sich beschweren über\", \"abhängig sein von\" and \"darauf achten, dass...\".",
     duration: "14 min",
     sections: [
       {
@@ -1854,7 +1853,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         heading: "The forum post",
         body: [
-          "Leon, a learner from Ireland, posted this in a German forum about his new flatmate. Every sentence has one mistake: *Mein neuer Mitbewohner heißt Mehmet. Ich verstehe mich gut damit. Er hat eine Katze, und ich kümmere mich oft um es. Mehmet kocht gern, und ich freue mich immer auf es. Aber er spielt nachts Gitarre, und ich ärgere mich über das. Ich habe mit ihm über es gesprochen. Jetzt warte ich auf, dass er leiser spielt.*",
+          "Leon, a learner from Ireland, posted this in a German forum about his new flatmate. Every sentence has one mistake: \"*Mein neuer Mitbewohner heißt Mehmet. Ich verstehe mich gut damit. Er hat eine Katze, und ich kümmere mich oft um es. Mehmet kocht gern, und ich freue mich immer auf es. Aber er spielt nachts Gitarre, und ich ärgere mich über das. Ich habe mit ihm über es gesprochen. Jetzt warte ich auf, dass er leiser spielt.*\"",
           "The problems: \"damit\" for a person (→ \"mit ihm\"), preposition + es for things (→ da-compounds), \"über das\" (→ \"darüber\"), and \"auf\" without da- before a dass-clause (→ \"darauf, dass\"). A pet is treated like a person: \"um sie\" (die Katze).",
         ],
         examples: [
@@ -1868,7 +1867,7 @@ export const DE_B1_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix: *Ich verstehe mich gut damit.* (about Mehmet) Write: I get on well with him.",
+            prompt: "Fix: \"*Ich verstehe mich gut damit.*\" (about Mehmet) Write: I get on well with him.",
             source: "I get on well with him.",
             answer: "Ich verstehe mich gut mit ihm.",
             explanation: "A person: \"mit ihm\", not \"damit\".",
@@ -1876,7 +1875,7 @@ export const DE_B1_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix: *Ich habe mit ihm über es gesprochen.* Write: I talked to him about it.",
+            prompt: "Fix: \"*Ich habe mit ihm über es gesprochen.*\" Write: I talked to him about it.",
             source: "I talked to him about it.",
             answer: "Ich habe mit ihm darüber gesprochen.",
             altAnswers: ["Ich habe darüber mit ihm gesprochen."],
@@ -1918,7 +1917,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Er hat eine Katze, und ich kümmere mich um es.* Write: He has a cat, and I look after her.",
+        prompt: "Fix: \"*Er hat eine Katze, und ich kümmere mich um es.*\" Write: He has a cat, and I look after her.",
         source: "He has a cat, and I look after her.",
         answer: "Er hat eine Katze, und ich kümmere mich um sie.",
         altAnswers: ["Er hat eine Katze und ich kümmere mich um sie."],
@@ -1927,7 +1926,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Er kocht gern, und ich freue mich auf es.* Write: He likes cooking, and I look forward to it.",
+        prompt: "Fix: \"*Er kocht gern, und ich freue mich auf es.*\" Write: He likes cooking, and I look forward to it.",
         source: "He likes cooking, and I look forward to it.",
         answer: "Er kocht gern, und ich freue mich darauf.",
         altAnswers: ["Er kocht gern und ich freue mich darauf."],
@@ -1936,7 +1935,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Ich warte auf, dass er antwortet.* Write: I'm waiting for him to answer.",
+        prompt: "Fix: \"*Ich warte auf, dass er antwortet.*\" Write: I'm waiting for him to answer.",
         source: "I'm waiting for him to answer.",
         answer: "Ich warte darauf, dass er antwortet.",
         explanation: "\"Darauf\" must announce the dass-clause.",
@@ -1944,7 +1943,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Die Küche ist schmutzig, und ich ärgere mich über das.* Write: The kitchen is dirty, and that annoys me.",
+        prompt: "Fix: \"*Die Küche ist schmutzig, und ich ärgere mich über das.*\" Write: The kitchen is dirty, and that annoys me.",
         source: "The kitchen is dirty, and that annoys me.",
         answer: "Die Küche ist schmutzig, und ich ärgere mich darüber.",
         altAnswers: ["Die Küche ist schmutzig und ich ärgere mich darüber.", "Die Küche ist schmutzig, und das ärgert mich."],
@@ -1953,7 +1952,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Meine Mitbewohnerin? Ich spreche oft damit.* Write: My flatmate? I often talk to her.",
+        prompt: "Fix: \"*Meine Mitbewohnerin? Ich spreche oft damit.*\" Write: My flatmate? I often talk to her.",
         source: "My flatmate? I often talk to her.",
         answer: "Meine Mitbewohnerin? Ich spreche oft mit ihr.",
         altAnswers: ["Meine Mitbewohnerin? Ich rede oft mit ihr."],
@@ -1962,7 +1961,7 @@ export const DE_B1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Wir haben einen Putzplan, aber niemand achtet auf es.* Write: We have a cleaning rota, but nobody pays attention to it.",
+        prompt: "Fix: \"*Wir haben einen Putzplan, aber niemand achtet auf es.*\" Write: We have a cleaning rota, but nobody pays attention to it.",
         source: "We have a cleaning rota, but nobody pays attention to it.",
         answer: "Wir haben einen Putzplan, aber niemand achtet darauf.",
         altAnswers: ["Wir haben einen Putzplan, aber keiner achtet darauf.", "Wir haben einen Putzplan, aber niemand hält sich daran.", "Wir haben einen Putzplan, aber keiner hält sich daran."],
@@ -2019,7 +2018,7 @@ export const DE_B1_U17: Lesson[] = [
     level: "DE-B1",
     number: 12,
     title: "Choose and Explain: Person or Thing?",
-    summary: "Choose between auf ihn / darauf and auf wen / worauf, and explain each choice.",
+    summary: "Choose between \"auf ihn\" / \"darauf\" and \"auf wen\" / \"worauf\", and explain each choice.",
     duration: "12 min",
     sections: [
       {
@@ -2039,14 +2038,14 @@ export const DE_B1_U17: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Kennst du Lena? — Ja, ich habe gestern ... telefoniert.",
+            question: "Complete the answer: \"Kennst du Lena? — Ja, ich habe gestern ... telefoniert.\"",
             options: ["mit ihr", "damit", "mit es", "womit"],
             correctIndex: 0,
             explanation: "Lena is a person and this is a statement: \"mit ihr\".",
           },
           {
             type: "multiple-choice",
-            question: "Kennst du das Buch? — Ja, ich habe viel ... gehört.",
+            question: "Complete the answer: \"Kennst du das Buch? — Ja, ich habe viel ... gehört.\"",
             options: ["davon", "von ihm", "von es", "wovon"],
             correctIndex: 0,
             explanation: "A thing in a statement: \"davon\".",
@@ -2165,7 +2164,7 @@ export const DE_B1_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Unser Hund ist krank. Ich mache mir Sorgen ...",
+        question: "Complete: \"Unser Hund ist krank. Ich mache mir Sorgen ...\"",
         options: ["um ihn", "darum", "worum", "um es"],
         correctIndex: 0,
         explanation: "Pets are usually treated like people: \"um ihn\" (der Hund).",
@@ -2293,7 +2292,7 @@ export const DE_B1_U17: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm looking forward to you visiting us. (to a friend)",
         answer: "Ich freue mich darauf, dass du uns besuchst.",
-        altAnswers: ["Ich freue mich darauf, dass ihr uns besucht.", "Ich freue mich, dass du uns besuchst."],
+        altAnswers: ["Ich freue mich, dass du uns besuchst."],
         explanation: "Different subjects: dass-clause after \"darauf\".",
       },
       {
@@ -2320,7 +2319,7 @@ export const DE_B1_U17: Lesson[] = [
         prompt: "Translate into German.",
         source: "Don't forget to call your mother! (to a friend)",
         answer: "Denk daran, deine Mutter anzurufen!",
-        altAnswers: ["Vergiss nicht, deine Mutter anzurufen!", "Denkt daran, eure Mutter anzurufen!"],
+        altAnswers: ["Vergiss nicht, deine Mutter anzurufen!"],
         explanation: "\"Denk daran\" + zu-infinitive; zu inside \"an-zu-rufen\".",
       },
       {

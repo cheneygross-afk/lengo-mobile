@@ -237,7 +237,9 @@ function strongParts(core: string, c: Core, s: StrongSpec): Parts {
   const k2 = k2Alts[0].map((_, i) => join(k2Alts.map((a) => a[i]!)));
   // du imperative: the e -> i/ie stem (gib, nimm, lies), else as for weak verbs.
   const iStem = s.presStems?.find((x) => !/[äöü]/.test(x) && x !== sh.stem);
-  const impDu = iStem ? withPrefix(pre, iStem) : weakImpDu(core, sh);
+  // halten, raten, laden, braten (a -> ä): "halt / halte", not only "halte".
+  const umlautDental = sh.dental && /[td]$/.test(sh.stem) && !!s.presStems?.some((x) => /ä/.test(x));
+  const impDu = iStem ? withPrefix(pre, iStem) : umlautDental ? `${sh.stem} / ${sh.stem}e` : weakImpDu(core, sh);
   return {
     pres,
     praet,
@@ -297,8 +299,8 @@ export function splitReflexive(input: string): [base: string, reflexive: boolean
 const AUX_EXAMPLES: Record<string, string> = {
   fahren: `"ich habe das Auto in die Garage gefahren"`,
   fliegen: `"die Pilotin hat die Maschine nach Rom geflogen"`,
-  ziehen: `"ich habe den Koffer hinter mir hergezogen"`,
-  schwimmen: `"ich habe früher viel geschwommen" (mostly in the north)`,
+  ziehen: `"das Pferd hat den Wagen gezogen"`,
+  schwimmen: `"ich habe früher viel geschwommen" (mostly in the north; "sein" is never wrong)`,
   biegen: `"ich habe den Draht gebogen"`,
   treten: `"er hat den Ball ins Tor getreten"`,
   reiten: `"sie hat das Pferd geritten"`,
@@ -316,8 +318,12 @@ const AUX_EXAMPLES: Record<string, string> = {
   scheiden: `"sie ist aus dem Amt geschieden"`,
   verderben: `"das Essen ist verdorben"`,
   verbrennen: `"das Holz ist verbrannt"`,
+  frieren: `"der See ist gefroren"`,
   ausziehen: `"wir sind letzten Monat ausgezogen"`,
 };
+
+/** sein-verbs that take "haben" for the activity itself (no direct object needed): "wir haben den ganzen Tag gesegelt". */
+const ACTIVITY_HABEN = new Set(["schwimmen", "segeln", "joggen"]);
 
 const cache = new Map<string, DeConjugation | null>();
 
@@ -569,7 +575,8 @@ function notesFor(v: DeConjugation, parts: Parts, core: string): string[] {
       `Strong verb: the stem vowel changes in the Präteritum (${q(`${er} ${first(t.praet.er)}`)}) and the Partizip II ends in "-en" (${q(first(v.partizip2))}). The Präteritum has no ending in the "ich" and "er/sie/es" forms.`,
     );
   } else if (v.kind === "mixed") {
-    n.push(`Mixed verb: weak endings ("-te", "-t") on a changed stem: ${q(`${er} ${first(t.praet.er)}`)}, ${q(first(v.partizip2))}.`);
+    if (/en$/.test(first(v.partizip2))) n.push(`Weak Präteritum in "-te" (${q(`${er} ${first(t.praet.er)}`)}), but a strong Partizip II in "-en" (${q(first(v.partizip2))}).`);
+    else n.push(`Mixed verb: weak endings ("-te", "-t") on a changed stem: ${q(`${er} ${first(t.praet.er)}`)}, ${q(first(v.partizip2))}.`);
   } else if (v.kind === "irregular") {
     const helper = v.base === "haben" || v.base === "sein" ? " It also forms the Perfekt of other verbs." : v.base === "werden" ? " It also forms the future and the passive." : "";
     n.push(`Irregular verb: learn its forms by heart.${helper}`);
@@ -580,7 +587,7 @@ function notesFor(v: DeConjugation, parts: Parts, core: string): string[] {
   if ((v.kind === "strong" || v.kind === "mixed") && v.marks.pres?.du === "irregular") {
     const du = first(t.pres.du);
     n.push(`In the present, "du" and "er/sie/es" change the vowel: ${q(`du ${du}`)}, ${q(`${er} ${first(t.pres.er)}`)} (but ${q(`ich ${first(t.pres.ich)}`)}).`);
-    if (v.marks.imp?.du === "irregular") n.push(`The "du" imperative keeps the i/ie and has no "-e": ${q(`${first(t.imp.du)}!`)}`);
+    if (v.marks.imp?.du === "irregular" && !(t.imp.du ?? "").includes(" / ")) n.push(`The "du" imperative keeps the i/ie and has no "-e": ${q(`${first(t.imp.du)}!`)}`);
   }
   if (sh.dental && !v.impersonal && v.kind !== "modal" && v.kind !== "irregular") {
     n.push(`The stem ends in ${/[td]$/.test(sh.stem) ? "-t or -d" : "a consonant + m/n"}, so an "-e-" comes before "-st" and "-t": ${q(`du ${first(t.pres.du)}`)}, ${q(`ihr ${first(t.pres.ihr)}`)}${v.kind === "weak" ? `, ${q(`ich ${first(t.praet.ich)}`)}` : ""}.`);
@@ -595,7 +602,8 @@ function notesFor(v: DeConjugation, parts: Parts, core: string): string[] {
     const ich = first(t.pres.ich);
     const parts1 = ich.split(" ");
     const verbWord = parts1[0];
-    const middle = parts1.slice(1, -1).join(" ");
+    // Dative reflexives need an object: "ich sehe mir das heute an".
+    const middle = [...parts1.slice(1, -1), ...(v.reflexive && v.reflexiveCase === "dat" ? ["das"] : [])].join(" ");
     const finiteIch = alts(parts.pres[0])[0];
     n.push(
       `Separable prefix ${v.separable}-: in a main clause it goes to the end (${q(`ich ${verbWord}${middle ? ` ${middle}` : ""} heute ${v.separable}`)}); in a subordinate clause it joins up again (${q(`weil ich${middle ? ` ${middle}` : ""} heute ${v.separable}${finiteIch}`)}). "ge-" and "zu" go between prefix and verb: ${q(first(v.partizip2))}, ${q(v.zuInfinitive.replace(/^sich /, ""))}. The stress is on the prefix.`,
@@ -612,12 +620,13 @@ function notesFor(v: DeConjugation, parts: Parts, core: string): string[] {
     n.push(
       `Reflexive verb: the pronoun changes with the subject (${q(`ich ${first(t.pres.ich)}`)}, ${q(`du ${first(t.pres.du)}`)}), and the Perfekt takes "haben" (${q(`ich ${first(t.perf.ich)}`)}).`,
     );
-    if (v.reflexiveCase === "dat") n.push(`The reflexive pronoun is dative (${q(pro.join(", "))}), because the verb has its own direct object: ${q(`ich ${alts(parts.pres[0])[0]} mir das`)}${v.separable ? ` ${v.separable}` : ""}.`);
+    if (v.reflexiveCase === "dat") n.push(`The reflexive pronoun is dative (${q(pro.join(", "))}), because the verb has its own direct object: ${q(`ich ${alts(parts.pres[0])[0]} mir das${v.separable ? ` ${v.separable}` : ""}`)}.`);
   } else if (v.aux === "sein") {
     n.push(`Perfekt with "sein" (a change of place or state, or "bleiben", "sein", "werden"): ${q(`ich ${first(t.perf.ich)}`)}, ${q(`${er} ${first(t.perf.er)}`)}.`);
     if (v.auxAlt === "haben") {
       const ex = AUX_EXAMPLES[v.base] ?? AUX_EXAMPLES[core];
-      n.push(`With a direct object it takes "haben" instead${ex ? `: ${ex}` : ""}.`);
+      if (ACTIVITY_HABEN.has(core)) n.push(`"haben" is also used when the activity itself matters more than the movement${ex ? `: ${ex}` : ""}.`);
+      else n.push(`With a direct object it takes "haben" instead${ex ? `: ${ex}` : ""}.`);
     }
   } else if (v.auxAlt === "sein") {
     const ex = AUX_EXAMPLES[v.base] ?? AUX_EXAMPLES[core];

@@ -34,7 +34,7 @@ export const DE_B1_U15: Lesson[] = [
       {
         heading: "Worden, never geworden",
         body: [
-          "This is the classic mistake: *Das Haus ist gebaut geworden*. \"Geworden\" only appears when \"werden\" is the main verb meaning become: \"Er ist Arzt geworden\" (He became a doctor), \"Es ist kalt geworden\" (It has got cold).",
+          "This is the classic mistake: \"*Das Haus ist gebaut geworden\". \"Geworden\" only appears when \"werden\" is the main verb meaning become: \"Er ist Arzt geworden\" (He became a doctor), \"Es ist kalt geworden\" (It has got cold).",
           "So the test is simple: is there another participle in the sentence? Then it's \"worden\". Is there an adjective or a noun? Then it's \"geworden\". \"Sie ist krank geworden\" (she fell ill) but \"Sie ist operiert worden\" (she was operated on).",
         ],
         examples: [
@@ -97,7 +97,7 @@ export const DE_B1_U15: Lesson[] = [
         body: [
           "To say something must, can or should be done, put the modal verb in position 2 and the passive infinitive at the end: participle + \"werden\". \"Die Heizung muss repariert werden\" (The heating must be repaired). \"Der Antrag kann online gestellt werden\" (The application can be submitted online).",
           "The modal agrees with the subject: \"Das Fenster muss geputzt werden\", but \"Die Fenster müssen geputzt werden\". \"Werden\" itself never changes: it stays an infinitive at the very end.",
-          "The trap for English speakers: must be repaired is not *muss repariert sein*. \"Sein\" would describe a finished state. For something that has to be done, it's always \"werden\".",
+          "The trap for English speakers: must be repaired is not \"*muss repariert sein\". \"Sein\" would describe a finished state. For something that has to be done, it's always \"werden\".",
         ],
         examples: [
           { es: "Die Heizung muss repariert werden.", en: "The heating must be repaired." },
@@ -141,7 +141,7 @@ export const DE_B1_U15: Lesson[] = [
           { es: "Das Problem konnte nicht gelöst werden.", en: "The problem couldn't be solved." },
           { es: "Der Flug musste abgesagt werden.", en: "The flight had to be cancelled." },
           { es: "Wir sind umgezogen, weil die Wohnung renoviert werden musste.", en: "We moved because the flat had to be renovated." },
-          { es: "Der Patient konnte gerettet werden.", en: "The patient could be saved." },
+          { es: "Der Patient konnte gerettet werden.", en: "They were able to save the patient." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The flight had to be cancelled.", answer: "Der Flug musste abgesagt werden.", altAnswers: ["Der Flug musste gestrichen werden.", "Der Flug musste storniert werden."], explanation: "\"Musste\" + \"abgesagt werden\"." },
@@ -151,10 +151,10 @@ export const DE_B1_U15: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The application can be submitted online.", answer: "Der Antrag kann online gestellt werden.", altAnswers: ["Der Antrag kann online eingereicht werden."], explanation: "\"Einen Antrag stellen\" → \"gestellt werden\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The door can't be opened.", answer: "Die Tür kann nicht geöffnet werden.", altAnswers: ["Die Tür lässt sich nicht öffnen."], explanation: "\"Nicht\" before the participle." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The door can't be opened.", answer: "Die Tür kann nicht geöffnet werden.", altAnswers: ["Die Tür lässt sich nicht öffnen.", "Man kann die Tür nicht öffnen.", "Die Tür kann nicht aufgemacht werden."], explanation: "\"Nicht\" before the participle." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The car must be washed.", answer: "Das Auto muss gewaschen werden.", altAnswers: ["Der Wagen muss gewaschen werden."], explanation: "Not \"gewaschen sein\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Smoking is not allowed on the train.", answer: "Im Zug darf nicht geraucht werden.", altAnswers: ["Im Zug darf man nicht rauchen."], explanation: "No subject: \"darf\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Can that still be changed?", answer: "Kann das noch geändert werden?", explanation: "Modal first in a yes/no question." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Can that still be changed?", answer: "Kann das noch geändert werden?", altAnswers: ["Kann man das noch ändern?"], explanation: "Modal first in a yes/no question, \"geändert werden\" at the end." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The flat had to be renovated.", answer: "Die Wohnung musste renoviert werden.", explanation: "Past: \"musste\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "We moved because the flat had to be renovated.", answer: "Wir sind umgezogen, weil die Wohnung renoviert werden musste.", altAnswers: ["Wir zogen um, weil die Wohnung renoviert werden musste."], explanation: "Modal at the very end." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "The form [must] be signed.", sentence: "Das Formular ___ unterschrieben werden.", answer: "muss", explanation: "Singular subject." },
@@ -368,7 +368,7 @@ export const DE_B1_U15: Lesson[] = [
       {
         heading: "What should be done",
         body: [
-          "To give your opinion about the future of your town, use the modal passive: \"Es muss mehr für Radfahrer getan werden\" (More must be done for cyclists), \"Die Busse sollten öfter fahren\" or \"Das alte Kino sollte renoviert werden\".",
+          "To give your opinion about the future of your town, use the modal passive: \"Es muss mehr für Radfahrer getan werden\" (More must be done for cyclists) or \"Das alte Kino sollte renoviert werden\" (The old cinema should be renovated). When the thing does the action itself, stay active: \"Die Busse sollten öfter fahren\".",
           "\"Sollte\" + passive is a polite suggestion; \"muss\" + passive is a strong demand.",
         ],
         examples: [
@@ -418,7 +418,7 @@ export const DE_B1_U15: Lesson[] = [
           { es: "Der Wasserhahn tropft.", en: "The tap is dripping." },
           { es: "Das Waschbecken ist verstopft.", en: "The sink is blocked." },
           { es: "In der Wand ist ein Riss.", en: "There's a crack in the wall." },
-          { es: "Der Schaden ist nicht groß.", en: "The damage isn't big." },
+          { es: "Der Schaden ist nicht groß.", en: "The damage isn't too bad." },
         ],
         checkpoint: [
           { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The washing machine has broken down.", answer: "Die Waschmaschine ist kaputtgegangen.", altAnswers: ["Die Waschmaschine ist kaputt."], explanation: "\"Kaputtgehen\" takes \"sein\"." },
@@ -466,7 +466,7 @@ export const DE_B1_U15: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Who broke the lamp?", answer: "Wer hat die Lampe kaputt gemacht?", altAnswers: ["Wer hat die Lampe kaputtgemacht?"], explanation: "Someone did it: \"kaputt machen\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The plumber is coming tomorrow.", answer: "Der Klempner kommt morgen.", altAnswers: ["Der Installateur kommt morgen."], explanation: "\"Der Klempner\": plumber." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "There's a crack in the wall.", answer: "In der Wand ist ein Riss.", altAnswers: ["Die Wand hat einen Riss.", "Es gibt einen Riss in der Wand."], explanation: "\"Der Riss\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The heating must be repaired by an electrician.", answer: "Die Heizung muss von einem Elektriker repariert werden.", explanation: "Modal passive + \"von\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The heating must be repaired by an electrician.", answer: "Die Heizung muss von einem Elektriker repariert werden.", altAnswers: ["Die Heizung muss von einer Elektrikerin repariert werden."], explanation: "Modal passive + \"von\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The damage was paid for by the insurance.", answer: "Der Schaden wurde von der Versicherung bezahlt.", altAnswers: ["Der Schaden ist von der Versicherung bezahlt worden."], explanation: "\"Von der Versicherung\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "My phone broke yesterday.", answer: "Mein Handy ist gestern kaputtgegangen.", altAnswers: ["Gestern ist mein Handy kaputtgegangen."], explanation: "\"Ist ... kaputtgegangen\"." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "Do you have a [screwdriver]?", sentence: "Hast du einen ___?", answer: "Schraubenzieher", altAnswers: ["Schraubendreher"], explanation: "\"Der Schraubenzieher\"." },
@@ -649,6 +649,6 @@ export const DE_B1_U15_WRITING: WriteExercise = {
     "\"Durch\" + accusative for the cause and \"von\" + dative for a person or company",
     "A polite email frame: \"Sehr geehrte Frau ...\", \"Mit freundlichen Grüßen\"",
   ],
-  modelAnswer: "Sehr geehrte Frau Albrecht,\n\nleider muss ich Ihnen einen Schaden in meiner Wohnung melden. Letzte Nacht ist das Fenster im Schlafzimmer durch den Sturm beschädigt worden, und der Boden ist nass geworden. Das Wasser ist schon von mir aufgewischt worden, und das Fenster wurde provisorisch mit Folie abgedeckt. Heute Morgen ist ein Handwerker von der Firma Kessler gekommen. Er sagt, dass die Scheibe komplett ersetzt werden muss. Außerdem sollte der Boden von einem Fachmann geprüft werden.\n\nKönnten Sie mir bitte sagen, wann die Reparatur durchgeführt werden kann? Muss der Schaden auch der Versicherung gemeldet werden? Fotos habe ich angehängt.\n\nMit freundlichen Grüßen\nDaniel Weber",
+  modelAnswer: "Sehr geehrte Frau Albrecht,\n\nleider muss ich Ihnen einen Schaden in meiner Wohnung melden. Letzte Nacht ist das Fenster im Schlafzimmer durch den Sturm beschädigt worden, und der Boden ist nass geworden. Das Wasser ist schon aufgewischt worden, und das Fenster wurde provisorisch mit Folie abgedeckt. Heute Morgen ist ein Handwerker von der Firma Kessler gekommen. Er sagt, dass die Scheibe komplett ersetzt werden muss. Außerdem sollte der Boden von einem Fachmann geprüft werden.\n\nKönnten Sie mir bitte sagen, wann die Reparatur durchgeführt werden kann? Muss der Schaden auch der Versicherung gemeldet werden? Fotos habe ich angehängt.\n\nMit freundlichen Grüßen\nDaniel Weber",
   explanation: "The email uses the Perfekt passive for completed actions (\"ist ... beschädigt worden\", \"ist ... aufgewischt worden\") and keeps \"geworden\" for become (\"nass geworden\"). The modal passive expresses what still needs doing (\"ersetzt werden muss\", \"durchgeführt werden kann\"), \"durch den Sturm\" names the cause and \"von einem Fachmann\" the person.",
 };

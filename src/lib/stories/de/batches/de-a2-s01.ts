@@ -88,10 +88,10 @@ export const DE_A2_S01_STORIES: Story[] = [
     title: `Ein Brief aus Graz`,
     subtitle: `Sophie writes to her sister about her new job in a café in Graz, where she speaks German but understands nothing.`,
     paragraphs: [
-      `Liebe Hanna, jetzt wohne ich schon drei Wochen in Graz! Die Stadt ist wunderschön, und meine Wohnung liegt direkt am Fluss. Seit Montag arbeite ich in einem Café in der Altstadt. Aber die ersten Tage waren nicht leicht. Ich muss dir alles erzählen.`,
+      `Liebe Hanna, jetzt wohne ich schon drei Wochen in Graz! Die Stadt ist wunderschön, und meine Wohnung liegt direkt am Fluss. Seit zwei Wochen arbeite ich in einem Café in der Altstadt. Aber die ersten Tage waren nicht leicht. Ich muss dir alles erzählen.`,
       `Am ersten Tag hat ein Gast „einen Kaiserschmarrn mit Schlagobers“ bestellt. Ich habe ihn nur angesehen. Schlagobers? Das Wort habe ich nicht gekannt. Mein Kollege Florian hat gelacht und mir erklärt: Schlagobers ist Sahne.`,
       `Am zweiten Tag wollte eine Frau einen Salat mit Paradeisern. Ich habe in der Küche gefragt: „Haben wir Paradeiser?“ Der Koch hat mir Tomaten gegeben. Am dritten Tag wollte ein Mann ein Sackerl, und ich habe lange gesucht. Ein Sackerl ist eine Tüte! Ich war so verwirrt. Ich habe gedacht: Ich spreche doch Deutsch, aber hier verstehe ich nichts.`,
-      `Florian war sehr nett. Jeden Abend nach der Arbeit hat er mir fünf neue Wörter beigebracht: Erdäpfel, Marille, Topfen, Semmel, Jause. Ich habe alle Wörter in ein kleines Heft geschrieben. Jetzt habe ich schon achtzig Wörter!`,
+      `Florian war sehr nett. Jeden Abend nach der Arbeit hat er mir fünf neue Wörter beigebracht: Erdäpfel, Marille, Topfen, Semmel, Jause. Ich habe alle Wörter in ein kleines Heft geschrieben. Jetzt habe ich schon fünfzig Wörter!`,
       `Gestern hat ein Tourist aus Köln einen Kaffee mit Sahne bestellt. Ich habe gelächelt und laut in die Küche gerufen: „Einen Kaffee mit Schlagobers, bitte!“ Der Chef hat mir zugezwinkert. Und Florian? Er hat mich für Samstag zum Essen eingeladen. Ich glaube, ich lerne hier nicht nur Wörter. Viele Grüße aus Graz, deine Sophie`,
     ],
     questions: [
@@ -99,7 +99,7 @@ export const DE_A2_S01_STORIES: Story[] = [
         question: `Where does Sophie work?`,
         options: [`In a hotel`, `In a bookshop`, `In a café in the old town`, `In a restaurant by the river`],
         correctIndex: 2,
-        explanation: `"Seit Montag arbeite ich in einem Café in der Altstadt."`,
+        explanation: `"Seit zwei Wochen arbeite ich in einem Café in der Altstadt."`,
       },
       {
         question: `What is "Schlagobers"?`,
@@ -129,7 +129,7 @@ export const DE_A2_S01_STORIES: Story[] = [
     paragraphs: [
       `Ruth Berger aus Bregenz hat eine Liste. Darauf stehen Dinge, die sie im Leben noch machen will. Fast alles hat sie schon gemacht: Sie ist nach Island gereist, sie hat Saxofon gelernt, und sie ist mit einem Heißluftballon über die Alpen geflogen. Nur ein Punkt fehlt noch: „Vom Zehn-Meter-Turm springen.“`,
       `Mit siebzehn ist Ruth schon einmal oben auf dem Turm gewesen. Alle ihre Freunde haben unten gewartet. Aber sie hatte zu viel Angst und ist die Treppe wieder hinuntergegangen. Die anderen haben gelacht. Das hat sie nie vergessen.`,
-      `Jetzt ist Ruth achtzig. An ihrem Geburtstag im August ist sie mit ihrem Enkel Jonas ins Strandbad am Bodensee gegangen. Jonas war nervös. „Oma, das ist gefährlich! Was sagt denn dein Arzt?“ „Mein Arzt sagt, dass ich gesund bin wie ein Pferd“, hat Ruth geantwortet. „Aber ein Pferd springt nicht vom Turm“, hat Jonas gesagt.`,
+      `Jetzt ist Ruth achtzig. An ihrem Geburtstag im August ist sie mit ihrem Enkel Jonas ins Strandbad am Bodensee gegangen. Jonas war nervös. „Oma, das ist gefährlich! Was sagt denn dein Arzt?“ „Mein Arzt sagt, dass ich gesund und stark wie ein Pferd bin“, hat Ruth geantwortet. „Aber ein Pferd springt nicht vom Turm“, hat Jonas gesagt.`,
       `Ruth ist die Treppe hinaufgestiegen, langsam, Stufe für Stufe. Oben hat sie hinuntergeschaut. Das Wasser war so weit weg! Ihre Knie haben gezittert, genau wie vor 63 Jahren. Unten haben die Leute aufgehört zu schwimmen und nach oben geschaut.`,
       `Dann hat Ruth die Augen zugemacht und ist gesprungen. Es hat laut geplatscht. Ein paar Sekunden später ist sie wieder aufgetaucht und hat gelacht. Alle Leute im Bad haben geklatscht, und Jonas am lautesten.`,
       `Am Abend hat Ruth ihre Liste geholt und den letzten Punkt durchgestrichen. Dann hat sie einen neuen Punkt geschrieben: „Nächstes Jahr: mit Kopfsprung.“`,
@@ -165,9 +165,9 @@ export const DE_A2_S01_STORIES: Story[] = [
     slug: "de-die-schneemaenner-von-lienz",
     level: "DE-A2",
     title: `Die Schneemänner von Lienz`,
-    subtitle: `Every morning in January, a new snowman appears outside a care home in Lienz, and a 91-year-old resident wants to know who builds them.`,
+    subtitle: `Every morning for a week in February, a new snowman appears outside a care home in Lienz, and a 91-year-old resident wants to know who builds them.`,
     paragraphs: [
-      `Frau Mair ist 91 Jahre alt und wohnt im Seniorenheim in Lienz. Sie kann nicht mehr gut gehen. Am liebsten sitzt sie am Fenster und schaut auf den Parkplatz. Im Januar hat es viel geschneit, und jeden Morgen hat sie dort etwas Neues gesehen: einen Schneemann.`,
+      `Frau Mair ist 91 Jahre alt und wohnt im Seniorenheim in Lienz. Sie kann nicht mehr gut gehen. Am liebsten sitzt sie am Fenster und schaut auf den Parkplatz. Im Februar hat es viel geschneit, und jeden Morgen hat sie dort etwas Neues gesehen: einen Schneemann.`,
       `Am Montag war der Schneemann klein und hatte eine Karotte als Nase. Am Dienstag stand dort ein Schneemann mit Hut. Am Mittwoch waren es zwei, und sie haben getanzt. Niemand im Heim wusste, wer sie gebaut hat. „Vielleicht die Kinder vom Kindergarten?“, hat die Pflegerin Sandra gesagt. Aber der Kindergarten war geschlossen, weil Ferien waren.`,
       `Frau Mair wollte das Geheimnis unbedingt wissen. In der Nacht von Donnerstag auf Freitag ist sie nicht ins Bett gegangen. Sie hat mit einer warmen Decke am Fenster gesessen und gewartet. Um vier Uhr ist ein großes orangefarbenes Auto auf den Parkplatz gefahren: der Schneepflug.`,
       `Ein junger Mann ist ausgestiegen. Er hat schnell Schnee gesammelt und einen Schneemann gebaut, mit einem Besen in der Hand. Dann hat er zum Fenster hochgeschaut und gewinkt. Frau Mair hat laut gelacht. Das war Florian, ihr Urenkel! Er arbeitet im Winter für die Stadt und fährt jede Nacht mit dem Schneepflug durch Lienz.`,
@@ -218,22 +218,22 @@ export const DE_A2_S01_ENGLISH: Record<string, string[]> = {
     `In March Max called his grandma, but she wasn't at home. In the evening he got a voice message only ten seconds long: "I can't talk now, I'm at a café with Werner. Bye!" Max laughed. So his grandma could do short messages too.`,
   ],
   "de-ein-brief-aus-graz": [
-    `Dear Hanna, I've already been living in Graz for three weeks! The city is beautiful and my flat is right by the river. Since Monday I've been working in a café in the old town. But the first few days weren't easy. I have to tell you everything.`,
+    `Dear Hanna, I've already been living in Graz for three weeks! The city is beautiful and my flat is right by the river. For two weeks I've been working in a café in the old town. But the first few days weren't easy. I have to tell you everything.`,
     `On the first day a guest ordered "a Kaiserschmarrn with Schlagobers." I just stared at him. Schlagobers? I didn't know the word. My colleague Florian laughed and explained: Schlagobers is cream.`,
     `On the second day a woman wanted a salad with Paradeiser. I asked in the kitchen: "Do we have Paradeiser?" The cook gave me tomatoes. On the third day a man wanted a Sackerl, and I searched for ages. A Sackerl is a bag! I was so confused. I thought: I speak German, but here I don't understand a thing.`,
-    `Florian was very kind. Every evening after work he taught me five new words: Erdäpfel, Marille, Topfen, Semmel, Jause. I wrote all the words in a little notebook. Now I already have eighty words!`,
+    `Florian was very kind. Every evening after work he taught me five new words: Erdäpfel, Marille, Topfen, Semmel, Jause. I wrote all the words in a little notebook. Now I already have fifty words!`,
     `Yesterday a tourist from Cologne ordered a coffee with cream. I smiled and called loudly into the kitchen: "One coffee with Schlagobers, please!" The boss winked at me. And Florian? He's invited me out for dinner on Saturday. I think I'm learning more than just words here. Love from Graz, your Sophie`,
   ],
   "de-oma-ruth-springt": [
     `Ruth Berger from Bregenz has a list. On it are things she still wants to do in her life. She has already done almost everything: she has travelled to Iceland, she has learned the saxophone, and she has flown over the Alps in a hot-air balloon. Only one item is still missing: "Jump from the ten-metre tower."`,
     `At seventeen Ruth was up on the tower once before. All her friends waited down below. But she was too scared and went back down the stairs. The others laughed. She never forgot it.`,
-    `Now Ruth is eighty. On her birthday in August she went to the lido on Lake Constance with her grandson Jonas. Jonas was nervous. "Grandma, that's dangerous! What does your doctor say?" "My doctor says I'm as healthy as a horse," Ruth answered. "But a horse doesn't jump off a tower," said Jonas.`,
+    `Now Ruth is eighty. On her birthday in August she went to the lido on Lake Constance with her grandson Jonas. Jonas was nervous. "Grandma, that's dangerous! What does your doctor say?" "My doctor says I'm as fit and strong as a horse," Ruth answered. "But a horse doesn't jump off a tower," said Jonas.`,
     `Ruth climbed up the stairs, slowly, step by step. At the top she looked down. The water was so far away! Her knees were shaking, just like 63 years ago. Down below, people stopped swimming and looked up.`,
     `Then Ruth closed her eyes and jumped. There was a loud splash. A few seconds later she came back up and laughed. Everyone at the pool clapped, and Jonas loudest of all.`,
     `In the evening Ruth fetched her list and crossed out the last item. Then she wrote a new one: "Next year: head first."`,
   ],
   "de-die-schneemaenner-von-lienz": [
-    `Frau Mair is 91 years old and lives in the care home in Lienz. She can't walk well any more. Her favourite thing is to sit at the window and look at the car park. In January it snowed a lot, and every morning she saw something new there: a snowman.`,
+    `Frau Mair is 91 years old and lives in the care home in Lienz. She can't walk well any more. Her favourite thing is to sit at the window and look at the car park. In February it snowed a lot, and every morning she saw something new there: a snowman.`,
     `On Monday the snowman was small and had a carrot for a nose. On Tuesday there was a snowman with a hat. On Wednesday there were two, and they were dancing. Nobody in the home knew who had built them. "Maybe the children from the kindergarten?" said Sandra, the nurse. But the kindergarten was closed because it was the holidays.`,
     `Frau Mair really wanted to know the secret. On the night from Thursday to Friday she didn't go to bed. She sat at the window with a warm blanket and waited. At four o'clock a big orange vehicle drove into the car park: the snowplough.`,
     `A young man got out. He quickly gathered snow and built a snowman with a broom in its hand. Then he looked up at the window and waved. Frau Mair laughed out loud. It was Florian, her great-grandson! In winter he works for the town and drives the snowplough through Lienz every night.`,
@@ -294,7 +294,7 @@ export const DE_A2_S01_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "auftauchen", en: "to come back up to the surface", forms: ["aufgetaucht"] },
     { es: "klatschen", en: "to clap", forms: ["geklatscht"] },
     { es: "durchstreichen", en: "to cross out", forms: ["durchgestrichen"] },
-    { es: "der Kopfsprung", en: "header, head-first dive", forms: ["kopfsprung"] },
+    { es: "der Kopfsprung", en: "head-first dive", forms: ["kopfsprung"] },
   ],
   "de-die-schneemaenner-von-lienz": [
     { es: "das Seniorenheim", en: "care home, old people's home", forms: ["seniorenheim"] },

@@ -8,14 +8,14 @@ export const DE_C2_U14: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Die Kunst der Debatte und Argumentation, Part 6 of 9",
-    summary: "The architecture of a persuasive text: Einleitung with hook and Fragestellung, a Hauptteil ordered for climax, a Schluss that lands; dialectical versus linear Erörterung and the connectors of order.",
+    summary: "Build a persuasive text: an \"Einleitung\" with a hook and a \"Fragestellung\", a \"Hauptteil\" ordered for climax and a \"Schluss\" that lands; choose a dialectical or linear \"Erörterung\" and guide the reader with connectors of order.",
     duration: "18 min",
     sections: [
       {
         heading: "The Einleitung: hook and Fragestellung",
         body: [
-          "A German persuasive text (Erörterung, Kommentar, speech) opens with an Einleitung that does two things: it catches attention (der Aufhänger, the hook: a current event, a figure, a quote, a scene) and it states the question (die Fragestellung) that the text will answer. Without an explicit question, German readers feel lost.",
-          "Typical moves: \"Kaum ein Thema wird derzeit so kontrovers diskutiert wie ...\", \"Laut einer aktuellen Umfrage ...\", \"Es stellt sich daher die Frage, ob ...\", \"Im Folgenden soll erörtert werden, inwiefern ...\". \"Inwiefern\" (to what extent) is the classic Erörterung question word.",
+          "A German persuasive text (\"Erörterung\", \"Kommentar\", speech) opens with an \"Einleitung\" that does two things: it catches attention (\"der Aufhänger\", the hook: a current event, a figure, a quote, a scene) and it states the question (\"die Fragestellung\") that the text will answer. Without an explicit question, German readers feel lost.",
+          "Typical moves: \"Kaum ein Thema wird derzeit so kontrovers diskutiert wie ...\", \"Laut einer aktuellen Umfrage ...\", \"Es stellt sich daher die Frage, ob ...\", \"Im Folgenden soll erörtert werden, inwiefern ...\". \"Inwiefern\" (to what extent) is the classic \"Erörterung\" question word.",
           "Avoid the cliché \"Seit Anbeginn der Menschheit ...\" (since the dawn of humanity): German teachers and Goethe examiners mark it down as empty. A concrete, current hook is always better.",
         ],
         examples: [
@@ -33,7 +33,7 @@ export const DE_C2_U14: Lesson[] = [
             source: "This raises the question of whether the model can work for everyone.",
             answer: "Es stellt sich daher die Frage, ob das Modell für alle funktionieren kann.",
             altAnswers: ["Es stellt sich die Frage, ob das Modell für alle funktionieren kann.", "Daher stellt sich die Frage, ob das Modell für alle funktionieren kann.", "Es stellt sich daher die Frage, ob das Modell für alle taugt."],
-            explanation: "\"Es stellt sich die Frage, ob ...\" (the question arises whether) states the Fragestellung.",
+            explanation: "\"Es stellt sich die Frage, ob ...\" (the question arises whether) states the \"Fragestellung\".",
           },
           {
             type: "translate",
@@ -56,8 +56,8 @@ export const DE_C2_U14: Lesson[] = [
       {
         heading: "The Hauptteil: linear or dialectical, and steigernde Anordnung",
         body: [
-          "The linear (steigernde) Erörterung argues one side, usually for an open question like \"Warum ...?\" or \"Welche Folgen ...?\". The dialectical (dialektische) Erörterung weighs both sides (Pro und Contra) for a yes/no question like \"Sollte ...?\" and comes to a reasoned verdict.",
-          "Order matters: in German rhetoric the strongest argument comes last (steigernde Anordnung, climactic order), because readers remember the end. In a dialectical text you usually treat the side you reject first, then the side you support, ending on its strongest point. The Sanduhr-Prinzip (hourglass) does exactly that: contra from strong to weak, then pro from weak to strong.",
+          "The linear (\"steigernde\") \"Erörterung\" argues one side, usually for an open question like \"Warum ...?\" or \"Welche Folgen ...?\". The dialectical (\"dialektische\") \"Erörterung\" weighs both sides (\"Pro und Contra\") for a yes/no question like \"Sollte ...?\" and comes to a reasoned verdict.",
+          "Order matters: in German rhetoric the strongest argument comes last (\"steigernde Anordnung\", climactic order), because readers remember the end. In a dialectical text you usually treat the side you reject first, then the side you support, ending on its strongest point. The \"Sanduhr-Prinzip\" (hourglass) does exactly that: contra from strong to weak, then pro from weak to strong.",
           "Transition between sides with \"Dem stehen jedoch gewichtige Argumente gegenüber\" (but there are weighty arguments against this) or \"Betrachtet man hingegen die andere Seite, ...\".",
         ],
         examples: [
@@ -79,7 +79,7 @@ export const DE_C2_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In a steigernde Anordnung, where does the strongest argument go?",
+            question: "In a \"steigernde Anordnung\", where does the strongest argument go?",
             options: ["Last", "First", "In the middle", "In the introduction"],
             correctIndex: 0,
             explanation: "Climactic order ends on the strongest point, which the reader remembers best.",
@@ -98,9 +98,9 @@ export const DE_C2_U14: Lesson[] = [
       {
         heading: "The Schluss and the connectors of order",
         body: [
-          "The Schluss answers the Fragestellung, weighs briefly (\"Wägt man die Argumente ab, ...\") and may look ahead (\"Es bleibt abzuwarten, ob ...\", \"Wünschenswert wäre ...\"). It introduces no new arguments.",
+          "The \"Schluss\" answers the \"Fragestellung\", weighs briefly (\"Wägt man die Argumente ab, ...\") and may look ahead (\"Es bleibt abzuwarten, ob ...\", \"Wünschenswert wäre ...\"). It introduces no new arguments.",
           "Connectors of order guide the reader through the whole text: \"zunächst\", \"zuerst\", \"erstens / zweitens\", \"des Weiteren\", \"darüber hinaus\", \"außerdem\", \"ferner\" (furthermore, formal), \"nicht zuletzt\" (last but not least), \"schließlich\", \"abschließend\", \"zusammenfassend\".",
-          "Careful: \"schließlich\" means finally in a list but also after all as a justification (\"Er muss es wissen, schließlich ist er Arzt\"). In a conclusion prefer \"abschließend\" to avoid the ambiguity.",
+          "Careful: \"schließlich\" means 'finally' in a list but also 'after all' as a justification (\"Er muss es wissen, schließlich ist er Arzt\"). In a conclusion prefer \"abschließend\" to avoid the ambiguity.",
         ],
         examples: [
           { es: "Wägt man die Argumente ab, so überwiegen die Vorteile.", en: "If one weighs up the arguments, the advantages outweigh the disadvantages." },
@@ -172,7 +172,7 @@ export const DE_C2_U14: Lesson[] = [
         question: "The essay question is \"Sollte das Wahlalter auf 16 gesenkt werden?\" Which type of Erörterung fits?",
         options: ["Dialectical (pro and contra)", "Linear (one side only)", "A narrative", "A report"],
         correctIndex: 0,
-        explanation: "A yes/no question asks you to weigh both sides: dialektische Erörterung.",
+        explanation: "A yes/no question asks you to weigh both sides: \"dialektische Erörterung\".",
       },
       {
         type: "translate",
@@ -204,7 +204,7 @@ export const DE_C2_U14: Lesson[] = [
         type: "listen-choose",
         audio: "Es stellt sich daher die Frage, ob das Modell für alle taugt.",
         question: "What part of the essay is this?",
-        options: ["The Fragestellung in the introduction", "The final verdict", "An example in the main part", "A counter-argument"],
+        options: ["The \"Fragestellung\" in the introduction", "The final verdict", "An example in the main part", "A counter-argument"],
         correctIndex: 0,
         explanation: "\"Es stellt sich die Frage, ob ...\" states the question the essay will answer.",
       },
@@ -217,7 +217,7 @@ export const DE_C2_U14: Lesson[] = [
         type: "speak",
         text: "Kaum ein Thema wird derzeit so kontrovers diskutiert wie die Vier-Tage-Woche.",
         prompt: "Say it in German: Hardly any topic is currently debated as controversially as the four-day week.",
-        explanation: "A classic hook for the Einleitung.",
+        explanation: "A classic hook for the \"Einleitung\".",
       },
     ],
   },
@@ -225,14 +225,14 @@ export const DE_C2_U14: Lesson[] = [
     slug: "c2-rhetorical-devices-style-workshop",
     level: "DE-C2",
     number: 2,
-    title: "Style Workshop: Stilmittel, die Überzeugen",
-    summary: "Write and revise with the devices of persuasion: Anapher, Parallelismus, Klimax, Trikolon, Antithese and Chiasmus (Wir leben nicht, um zu essen, sondern essen, um zu leben).",
+    title: "Style Workshop: Stilmittel, die überzeugen",
+    summary: "Write and revise with the devices of persuasion: \"Anapher\", \"Parallelismus\", \"Klimax\", \"Trikolon\", \"Antithese\" and \"Chiasmus\" (\"Wir leben nicht, um zu essen, sondern essen, um zu leben\").",
     duration: "18 min",
     sections: [
       {
         heading: "Anapher and Parallelismus",
         body: [
-          "An Anapher repeats the same word or phrase at the start of successive clauses: \"Wir brauchen Mut. Wir brauchen Geduld. Wir brauchen einander.\" A Parallelismus repeats the same structure with different words: \"Die Mieten steigen, die Löhne stagnieren, die Geduld schwindet.\" Combined, they create rhythm and make a speech memorable.",
+          "An \"Anapher\" repeats the same word or phrase at the start of successive clauses: \"Wir brauchen Mut. Wir brauchen Geduld. Wir brauchen einander.\" A \"Parallelismus\" repeats the same structure with different words: \"Die Mieten steigen, die Löhne stagnieren, die Geduld schwindet.\" Combined, they create rhythm and make a speech memorable.",
           "In German, verb-second order helps parallelism: each clause can start with a different element in position 1 while the verb stays in the same slot. Keep the parts similar in length; a parallel series that suddenly breaks feels clumsy, unless the break is the point.",
           "Revision tip: if you have three loosely connected sentences, try making them parallel. \"Es gibt zu wenig Personal. Außerdem sind die Gebäude marode, und Geld fehlt auch.\" → \"Es fehlt an Personal, es fehlt an Gebäuden, es fehlt an Geld.\"",
         ],
@@ -267,15 +267,15 @@ export const DE_C2_U14: Lesson[] = [
             question: "\"Wer jetzt zögert, verliert Zeit. Wer jetzt spart, verliert Vertrauen.\" Which device dominates?",
             options: ["Parallelismus (with anaphora)", "Chiasmus", "Klimax", "Euphemismus"],
             correctIndex: 0,
-            explanation: "Identical structure (Wer jetzt ..., verliert ...) repeated with new words.",
+            explanation: "Identical structure (\"Wer jetzt ..., verliert ...\") repeated with new words.",
           },
         ],
       },
       {
         heading: "Trikolon and Klimax",
         body: [
-          "A Trikolon is a series of three, the most powerful number in rhetoric: \"Bildung, Bildung, Bildung\", \"schneller, gerechter, günstiger\". A Klimax (climax) orders the elements from weak to strong: \"Es ist ärgerlich, es ist teuer, es ist gefährlich.\" Combining them, a rising Trikolon, is a standard way to end a paragraph or a speech.",
-          "The longest or heaviest element should come last (Behaghel's law of growing parts, das Gesetz der wachsenden Glieder): \"Wir fordern Respekt, Anerkennung und eine faire Bezahlung für alle Pflegekräfte.\"",
+          "A \"Trikolon\" is a series of three, the most powerful number in rhetoric: \"Bildung, Bildung, Bildung\", \"schneller, gerechter, günstiger\". A \"Klimax\" (climax) orders the elements from weak to strong: \"Es ist ärgerlich, es ist teuer, es ist gefährlich.\" Combining them, a rising \"Trikolon\", is a standard way to end a paragraph or a speech.",
+          "The longest or heaviest element should come last (Behaghel's law of growing parts, \"das Gesetz der wachsenden Glieder\"): \"Wir fordern Respekt, Anerkennung und eine faire Bezahlung für alle Pflegekräfte.\"",
           "Overuse warning: one trikolon per paragraph is plenty. In German academic writing it is used sparingly; in speeches and comments freely.",
         ],
         examples: [
@@ -289,7 +289,7 @@ export const DE_C2_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, as a rising Trikolon.",
+            prompt: "Translate into German, as a rising \"Trikolon\".",
             source: "It's annoying, it's expensive, it's dangerous.",
             answer: "Es ist ärgerlich, es ist teuer, es ist gefährlich.",
             altAnswers: ["Das ist ärgerlich, das ist teuer, das ist gefährlich.", "Es ist ärgerlich, teuer und gefährlich."],
@@ -309,8 +309,8 @@ export const DE_C2_U14: Lesson[] = [
       {
         heading: "Antithese and Chiasmus",
         body: [
-          "An Antithese sets opposites against each other: \"Die Reichen werden reicher, die Armen ärmer.\" \"Nicht ... sondern\" is the German antithesis machine: \"Nicht die Stärke entscheidet, sondern der Zusammenhalt.\"",
-          "A Chiasmus mirrors the structure, A-B / B-A: \"Wir leben nicht, um zu essen, sondern essen, um zu leben.\" \"Die Kunst ist lang, und kurz ist unser Leben\" (Goethe, Faust). It feels clever and final, so it suits the last line of a speech.",
+          "An \"Antithese\" sets opposites against each other: \"Die Reichen werden reicher, die Armen ärmer.\" \"Nicht ... sondern\" is the German antithesis machine: \"Nicht die Stärke entscheidet, sondern der Zusammenhalt.\"",
+          "A \"Chiasmus\" mirrors the structure, A-B / B-A: \"Wir leben nicht, um zu essen, sondern essen, um zu leben.\" \"Die Kunst ist lang, und kurz ist unser Leben\" (Goethe, Faust). It feels clever and final, so it suits the last line of a speech.",
           "To build a chiasmus, write a sentence with two elements, then swap them: \"Wir arbeiten, um zu leben\" / \"Wir leben, um zu arbeiten\" → \"Wir sollten arbeiten, um zu leben, nicht leben, um zu arbeiten.\"",
         ],
         examples: [
@@ -328,7 +328,7 @@ export const DE_C2_U14: Lesson[] = [
             source: "We should work to live, not live to work.",
             answer: "Wir sollten arbeiten, um zu leben, nicht leben, um zu arbeiten.",
             altAnswers: ["Wir sollten arbeiten, um zu leben, und nicht leben, um zu arbeiten.", "Wir sollten arbeiten, um zu leben – nicht leben, um zu arbeiten."],
-            explanation: "A-B / B-A: arbeiten-leben, leben-arbeiten. \"Um ... zu\" for purpose.",
+            explanation: "A-B / B-A: \"arbeiten\" - \"leben\", \"leben\" - \"arbeiten\". \"Um ... zu\" for purpose.",
           },
           {
             type: "speak",
@@ -339,7 +339,7 @@ export const DE_C2_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, as an antithesis with nicht ... sondern.",
+            prompt: "Translate into German, as an antithesis with \"nicht ... sondern\".",
             source: "It's not strength that decides, but solidarity.",
             answer: "Nicht die Stärke entscheidet, sondern der Zusammenhalt.",
             altAnswers: ["Nicht Stärke entscheidet, sondern Zusammenhalt.", "Nicht die Stärke ist entscheidend, sondern der Zusammenhalt.", "Es entscheidet nicht die Stärke, sondern der Zusammenhalt."],
@@ -390,7 +390,7 @@ export const DE_C2_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, as a rising Trikolon.",
+        prompt: "Translate into German, as a rising \"Trikolon\".",
         source: "We want a city that is safer, fairer and more liveable.",
         answer: "Wir wollen eine Stadt, die sicherer, gerechter und lebenswerter ist.",
         altAnswers: ["Wir wollen eine sicherere, gerechtere und lebenswertere Stadt.", "Wir wünschen uns eine Stadt, die sicherer, gerechter und lebenswerter ist."],
@@ -455,13 +455,13 @@ export const DE_C2_U14: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Die Kunst der Debatte und Argumentation, Part 7 of 9",
-    summary: "Emphasis through word order: the Vorfeld for focus, Was ..., ist ... and Wer ..., der ..., es ist ... der/die, and Ausklammerung (Wir müssen handeln, und zwar sofort).",
+    summary: "Put the key idea in focus through word order: the \"Vorfeld\", \"Was ..., ist ...\", \"Wer ..., der ...\", \"Es ist ..., der/die ...\" and \"Ausklammerung\" (\"Wir müssen handeln, und zwar sofort\").",
     duration: "18 min",
     sections: [
       {
         heading: "The Vorfeld: position 1 as a spotlight",
         body: [
-          "English emphasises with stress and with clefts (It was the minister who ...). German has a simpler and very powerful tool: whatever you put in position 1, before the verb (the Vorfeld), gets the spotlight. \"Diese Entscheidung bereue ich nicht\" puts the decision in focus: this decision (unlike others) I don't regret.",
+          "English emphasises with stress and with clefts ('It was the minister who ...'). German has a simpler and very powerful tool: whatever you put in position 1, before the verb (the \"Vorfeld\"), gets the spotlight. \"Diese Entscheidung bereue ich nicht\" puts the decision in focus: this decision (unlike others) I don't regret.",
           "Objects, adverbials, even infinitives and participles can move to the Vorfeld: \"Gelesen habe ich das Buch, verstanden habe ich es nicht\" (I did read the book; understand it, I didn't). \"Gerade diese Frage ist es, die ...\" combines Vorfeld focus with a focus particle.",
           "Focus particles strengthen the effect: \"gerade\" (precisely), \"ausgerechnet\" (of all things), \"selbst\" / \"sogar\" (even), \"erst\" (only, not until), \"allein\" (alone): \"Ausgerechnet der Verkehrsminister fährt einen SUV.\"",
         ],
@@ -480,16 +480,16 @@ export const DE_C2_U14: Lesson[] = [
             prompt: "Translate into German, putting the object first for emphasis.",
             source: "This decision I don't regret.",
             answer: "Diese Entscheidung bereue ich nicht.",
-            explanation: "Object in the Vorfeld, verb second, subject after: the German cleft-free emphasis.",
+            explanation: "Object in the \"Vorfeld\", verb second, subject after: the German cleft-free emphasis.",
           },
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, with \"erst\" in the Vorfeld.",
+            prompt: "Translate into German, with \"erst\" in the \"Vorfeld\".",
             source: "It was only after three years that the truth came out.",
             answer: "Erst nach drei Jahren kam die Wahrheit ans Licht.",
             altAnswers: ["Erst nach drei Jahren kam die Wahrheit heraus.", "Erst nach drei Jahren ist die Wahrheit ans Licht gekommen.", "Erst nach drei Jahren ist die Wahrheit herausgekommen."],
-            explanation: "English it was only ... that becomes simply \"Erst ...\" in position 1.",
+            explanation: "English 'it was only ... that' becomes simply \"Erst ...\" in position 1.",
           },
           {
             type: "translate",
@@ -507,7 +507,7 @@ export const DE_C2_U14: Lesson[] = [
         body: [
           "The closest German has to an English pseudo-cleft is the \"Was ..., ist ...\" structure: \"Was mich stört, ist die Arroganz.\" (What bothers me is the arrogance.) \"Was wir brauchen, sind Lösungen.\" Note the verb agrees with the noun after it: \"sind Lösungen\".",
           "\"Wer ..., (der) ...\" works for people: \"Wer schweigt, stimmt zu\" (whoever stays silent agrees). Repeating the pronoun \"der\" adds weight: \"Wer jetzt nicht handelt, der handelt verantwortungslos.\"",
-          "\"Es ist / war ..., der / die / das ...\" exists (\"Es war der Bürgermeister, der das entschieden hat\") but is less common than in English and sounds marked. Use it for strong contrast; otherwise prefer the Vorfeld: \"Der Bürgermeister hat das entschieden\" with stress on Bürgermeister.",
+          "\"Es ist / war ..., der / die / das ...\" exists (\"Es war der Bürgermeister, der das entschieden hat\") but is less common than in English and sounds marked. Use it for strong contrast; otherwise prefer the \"Vorfeld\": \"Der Bürgermeister hat das entschieden\" with stress on \"Bürgermeister\".",
         ],
         examples: [
           { es: "Was mich stört, ist die Arroganz der Verantwortlichen.", en: "What bothers me is the arrogance of those responsible." },
@@ -548,9 +548,9 @@ export const DE_C2_U14: Lesson[] = [
       {
         heading: "Ausklammerung: und zwar sofort",
         body: [
-          "Normally German closes the clause with the verb bracket. Putting something after the final verb (Ausklammerung) gives it end weight, an effect speakers use deliberately: \"Wir müssen handeln, und zwar sofort.\" \"Ich habe ihn gesehen, gestern, mit ihr.\"",
-          "\"Und zwar\" (namely, and what's more) is the standard way to add an emphatic specification after a complete clause. Comparisons are also often put after the bracket: \"Die Kosten sind gestiegen stärker als erwartet\" is colloquial, but \"Die Kosten sind stärker gestiegen als erwartet\" is the norm, with \"als erwartet\" after the participle.",
-          "In written argument, use Ausklammerung sparingly and only with a clear rhetorical purpose. In speeches it is very effective for the last words of a sentence.",
+          "Normally German closes the clause with the verb bracket. Putting something after the final verb (\"Ausklammerung\") gives it end weight, an effect speakers use deliberately: \"Wir müssen handeln, und zwar sofort.\" \"Ich habe ihn gesehen, gestern, mit ihr.\"",
+          "\"Und zwar\" (namely, and what's more) is the standard way to add an emphatic specification after a complete clause. Comparisons are also often put after the bracket: \"*Die Kosten sind gestiegen stärker als erwartet\" is not standard, but \"Die Kosten sind stärker gestiegen als erwartet\" is the norm, with \"als erwartet\" after the participle.",
+          "In written argument, use \"Ausklammerung\" sparingly and only with a clear rhetorical purpose. In speeches it is very effective for the last words of a sentence.",
         ],
         examples: [
           { es: "Wir müssen handeln, und zwar sofort.", en: "We must act, and we must act now." },
@@ -576,12 +576,12 @@ export const DE_C2_U14: Lesson[] = [
             source: "Costs have risen more sharply than expected.",
             answer: "Die Kosten sind stärker gestiegen als erwartet.",
             altAnswers: ["Die Kosten sind stärker als erwartet gestiegen.", "Die Kosten stiegen stärker als erwartet.", "Die Kosten sind deutlicher gestiegen als erwartet."],
-            explanation: "Comparisons with \"als\" usually stand after the participle (ausgeklammert).",
+            explanation: "Comparisons with \"als\" usually stand after the participle (\"ausgeklammert\").",
           },
           {
             type: "speak",
             text: "Es geht um unsere Zukunft, um die Zukunft unserer Kinder.",
-            tip: "Pause before the second um and stress Kinder.",
+            tip: "Pause before the second \"um\" and stress \"Kinder\".",
             explanation: "The repeated \"um\" phrase after the main clause gives end weight.",
           },
         ],
@@ -604,7 +604,7 @@ export const DE_C2_U14: Lesson[] = [
         source: "It was the mayor who decided that, not the council.",
         answer: "Es war der Bürgermeister, der das entschieden hat, nicht der Stadtrat.",
         altAnswers: ["Der Bürgermeister hat das entschieden, nicht der Stadtrat.", "Es war die Bürgermeisterin, die das entschieden hat, nicht der Stadtrat.", "Die Bürgermeisterin hat das entschieden, nicht der Stadtrat.", "Entschieden hat das der Bürgermeister, nicht der Stadtrat."],
-        explanation: "\"Es war ..., der ...\" is the German cleft; the simple Vorfeld version is often more natural.",
+        explanation: "\"Es war ..., der ...\" is the German cleft; the simple \"Vorfeld\" version is often more natural.",
       },
       {
         type: "fill-blank",
@@ -622,14 +622,14 @@ export const DE_C2_U14: Lesson[] = [
         source: "I did read the book; I didn't understand it.",
         answer: "Gelesen habe ich das Buch, verstanden habe ich es nicht.",
         altAnswers: ["Gelesen habe ich das Buch, aber verstanden habe ich es nicht.", "Gelesen habe ich das Buch schon, verstanden habe ich es nicht."],
-        explanation: "Participles in the Vorfeld create a contrastive focus.",
+        explanation: "Participles in the \"Vorfeld\" create a contrastive focus.",
       },
       {
         type: "multiple-choice",
         question: "Which sentence puts the strongest focus on \"diese Frage\"?",
         options: ["Gerade diese Frage ist es, die uns beschäftigen muss.", "Uns muss diese Frage beschäftigen.", "Diese Frage muss uns vielleicht beschäftigen.", "Es muss uns beschäftigen."],
         correctIndex: 0,
-        explanation: "Vorfeld + focus particle \"gerade\" + \"ist es, die\": triple emphasis.",
+        explanation: "\"Vorfeld\" + focus particle \"gerade\" + \"ist es, die\": triple emphasis.",
       },
       {
         type: "translate",
@@ -637,7 +637,8 @@ export const DE_C2_U14: Lesson[] = [
         prompt: "Translate into German.",
         source: "Silence means consent.",
         answer: "Wer schweigt, stimmt zu.",
-        explanation: "The proverb uses \"Wer ..., ...\": literally whoever is silent agrees.",
+        altAnswers: ["Schweigen bedeutet Zustimmung."],
+        explanation: "The proverb uses \"Wer ..., ...\": literally 'whoever is silent agrees'. \"Schweigen bedeutet Zustimmung\" is also correct, but less idiomatic.",
       },
       {
         type: "word-order",
@@ -653,7 +654,7 @@ export const DE_C2_U14: Lesson[] = [
         source: "Only today did we receive the letter.",
         answer: "Erst heute haben wir den Brief bekommen.",
         altAnswers: ["Erst heute haben wir den Brief erhalten.", "Erst heute bekamen wir den Brief.", "Erst heute erhielten wir den Brief.", "Erst heute haben wir das Schreiben erhalten."],
-        explanation: "\"Erst\" + time = not until; in the Vorfeld it carries the emphasis.",
+        explanation: "\"Erst\" + time = not until; in the \"Vorfeld\" it carries the emphasis.",
       },
       {
         type: "listen-choose",
@@ -661,7 +662,7 @@ export const DE_C2_U14: Lesson[] = [
         question: "Which part carries the emphasis?",
         options: ["sofort (immediately)", "wir (we)", "müssen (must)", "handeln (act)"],
         correctIndex: 0,
-        explanation: "Ausklammerung with \"und zwar\" puts the weight on the last word.",
+        explanation: "\"Ausklammerung\" with \"und zwar\" puts the weight on the last word.",
       },
       {
         type: "dictation",
@@ -672,7 +673,7 @@ export const DE_C2_U14: Lesson[] = [
         type: "speak",
         text: "Diese Entscheidung bereue ich nicht.",
         prompt: "Say it in German, stressing the decision: This decision I don't regret.",
-        tip: "Stress DIESE: the Vorfeld plus stress gives contrastive focus.",
+        tip: "Stress DIESE: the \"Vorfeld\" plus stress gives contrastive focus.",
         explanation: "Object in position 1 for emphasis.",
       },
     ],
@@ -681,7 +682,7 @@ export const DE_C2_U14: Lesson[] = [
     slug: "c2-closing-argument-mission",
     level: "DE-C2",
     number: 4,
-    title: "Real-World Mission: Ein Schluss, der Bleibt",
+    title: "Real-World Mission: Ein Schluss, der bleibt",
     summary: "Write and deliver the closing statement of a debate on free public transport: summarise, raise the stakes, and end with a tricolon or an appeal.",
     duration: "18 min",
     sections: [
@@ -781,7 +782,7 @@ export const DE_C2_U14: Lesson[] = [
             source: "Let us have the courage to break new ground.",
             answer: "Lassen Sie uns den Mut haben, neue Wege zu gehen.",
             altAnswers: ["Lasst uns den Mut haben, neue Wege zu gehen.", "Haben wir den Mut, neue Wege zu gehen.", "Lassen Sie uns den Mut haben, neue Wege einzuschlagen."],
-            explanation: "\"Neue Wege gehen\" (to take new paths) is the German idiom for break new ground.",
+            explanation: "\"Neue Wege gehen\" (to take new paths) is the German idiom for 'break new ground'.",
           },
           {
             type: "translate",
@@ -795,7 +796,7 @@ export const DE_C2_U14: Lesson[] = [
           {
             type: "speak",
             text: "Kostenloser Nahverkehr ist gerechter, sauberer und klüger.",
-            tip: "Pause before und klüger and lower your voice on the last word.",
+            tip: "Pause before \"und klüger\" and lower your voice on the last word.",
             explanation: "A rising tricolon of comparatives as the final line.",
           },
         ],
@@ -895,7 +896,7 @@ export const DE_C2_U14: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Die Kunst der Debatte und Argumentation, Part 8 of 9",
-    summary: "Famous speeches in German history: Weizsäcker on 8 May 1985, Brandt's Mehr Demokratie wagen, Kennedy and Reagan in Berlin, Merkel in 2015 and 2020; what devices they use and why they worked.",
+    summary: "Analyse famous speeches in German history (Weizsäcker on 8 May 1985, Brandt's \"Mehr Demokratie wagen\", Kennedy and Reagan in Berlin, Merkel in 2015 and 2020): the devices they use and why they worked.",
     duration: "20 min",
     sections: [
       {
@@ -927,7 +928,7 @@ export const DE_C2_U14: Lesson[] = [
             question: "What made Weizsäcker's \"Tag der Befreiung\" so significant?",
             options: ["It reframed a day many Germans saw as defeat as liberation.", "It announced a new public holiday.", "It celebrated a military victory.", "It was the first speech ever given in the Bundestag."],
             correctIndex: 0,
-            explanation: "The power lies in the reframing: from Niederlage (defeat) to Befreiung (liberation).",
+            explanation: "The power lies in the reframing: from \"Niederlage\" (defeat) to \"Befreiung\" (liberation).",
           },
           {
             type: "translate",
@@ -943,8 +944,8 @@ export const DE_C2_U14: Lesson[] = [
       {
         heading: "Kennedy 1963 and Reagan 1987: Berlin as a stage",
         body: [
-          "On 26 June 1963, John F. Kennedy spoke in front of Schöneberg Town Hall in West Berlin and ended with: \"Ich bin ein Berliner.\" Saying it in German made the solidarity personal. The myth that it means I am a doughnut is wrong: in Berlin a doughnut is called \"Pfannkuchen\", and the sentence was understood exactly as intended.",
-          "Kennedy built the speech around a refrain, a repeated anaphora: \"Lass sie nach Berlin kommen\" (Let them come to Berlin), answering those who claimed communism was the future. On 12 June 1987, Ronald Reagan spoke at the Brandenburg Gate: 'Mr. Gorbachev, tear down this wall!', in German usually quoted as \"Herr Gorbatschow, reißen Sie diese Mauer nieder!\": a direct apostrophe (addressing someone absent) and an imperative.",
+          "On 26 June 1963, John F. Kennedy spoke in front of Schöneberg Town Hall in West Berlin and ended with: \"Ich bin ein Berliner.\" Saying it in German made the solidarity personal. The myth that it means 'I am a doughnut' is wrong: in Berlin a doughnut is called \"Pfannkuchen\", and the sentence was understood exactly as intended.",
+          "Kennedy built the speech around a refrain that closed each sentence (an epiphora): \"Lass sie nach Berlin kommen\" (Let them come to Berlin), answering those who claimed communism was the future. On 12 June 1987, Ronald Reagan spoke at the Brandenburg Gate: 'Mr. Gorbachev, tear down this wall!', in German usually quoted as \"Herr Gorbatschow, reißen Sie diese Mauer nieder!\": a direct apostrophe (addressing someone absent) and an imperative.",
           "Both speeches used the place itself as an argument: the wall behind the speaker made the message visible. In German analyses you'll read: \"Die Kulisse wurde selbst zum Argument.\"",
         ],
         examples: [
@@ -1101,7 +1102,7 @@ export const DE_C2_U14: Lesson[] = [
         type: "speak",
         text: "Der 8. Mai war ein Tag der Befreiung.",
         prompt: "Say it in German: The 8th of May was a day of liberation.",
-        tip: "Read 8. as achte: der achte Mai.",
+        tip: "Read \"8.\" as \"achte\": \"der achte Mai\".",
         explanation: "Ordinals are read with an ending: \"der achte Mai\".",
       },
     ],
@@ -1111,7 +1112,7 @@ export const DE_C2_U14: Lesson[] = [
     level: "DE-C2",
     number: 6,
     title: "Word Web: Der Wortschatz der Debatte",
-    summary: "The nouns and verbs of argument: These, Gegenthese, Einwand, Beleg, Prämisse, Schlussfolgerung, Standpunkt, Stellungnahme, Abwägung, Fazit; vertreten, belegen, widerlegen, entkräften, untermauern.",
+    summary: "Name the parts of an argument (\"These\", \"Einwand\", \"Beleg\", \"Prämisse\", \"Fazit\" ...) with the right gender, and use the verbs of arguing precisely: \"vertreten\", \"belegen\", \"widerlegen\", \"entkräften\", \"untermauern\".",
     duration: "16 min",
     sections: [
       {
@@ -1119,7 +1120,7 @@ export const DE_C2_U14: Lesson[] = [
         body: [
           "The parts of an argument have precise names. \"Die These\" (claim) and \"die Gegenthese\" (counter-claim); \"die Prämisse\" (premise, the assumption an argument rests on); \"der Beleg\" (evidence, proof) and \"das Beispiel\"; \"der Einwand\" (objection); \"die Schlussfolgerung\" (conclusion drawn) and \"das Fazit\" (the final summary, bottom line).",
           "Position words: \"der Standpunkt\" (standpoint), \"die Stellungnahme\" (statement of position, also an official written statement), \"die Haltung\" (attitude), \"die Abwägung\" (weighing up), \"die Begründung\" (justification).",
-          "Gender traps: \"der Beleg\" (masculine), \"die These\", \"das Fazit\" (plural rarely used: \"die Fazits\" or \"die Fazite\"), \"die Prämisse\". \"Fazit\" is the classic opener of a conclusion: \"Mein Fazit: ...\", \"Als Fazit lässt sich festhalten ...\".",
+          "Gender traps: \"der Beleg\" (masculine), \"die These\", \"das Fazit\" (plural rarely used: \"die Fazite\" or \"die Fazits\"), \"die Prämisse\". \"Fazit\" is the classic opener of a conclusion: \"Mein Fazit: ...\", \"Als Fazit lässt sich festhalten ...\".",
         ],
         examples: [
           { es: "Ihre These lautet, dass Homeoffice die Produktivität steigert.", en: "Her thesis is that working from home increases productivity." },
@@ -1232,24 +1233,24 @@ export const DE_C2_U14: Lesson[] = [
         en: "The study [proves] a clear connection.",
         sentence: "Die Studie ___ einen klaren Zusammenhang.",
         answer: "belegt",
-        altAnswers: ["beweist", "zeigt"],
-        explanation: "\"Belegen\" implies hard evidence.",
+        altAnswers: ["beweist"],
+        explanation: "\"Belegen\" implies hard evidence; \"zeigen\" (shows) would be weaker than 'proves'.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "My conclusion: the advantages clearly outweigh.",
+        source: "My conclusion: the advantages clearly outweigh the disadvantages.",
         answer: "Mein Fazit: Die Vorteile überwiegen deutlich.",
         altAnswers: ["Mein Fazit lautet: Die Vorteile überwiegen deutlich.", "Mein Fazit: Die Vorteile überwiegen klar."],
-        explanation: "\"Fazit\" (from Latin facit) is the bottom line; after the colon a capital letter.",
+        explanation: "\"Fazit\" (from Latin facit) is the bottom line; \"überwiegen\" alone already implies 'outweigh the disadvantages'. After the colon a capital letter.",
       },
       {
         type: "multiple-choice",
         question: "What is the difference between \"widerlegen\" and \"entkräften\"?",
-        options: ["Widerlegen proves something false; entkräften weakens it.", "They mean exactly the same.", "Entkräften proves something true.", "Widerlegen means to repeat an argument."],
+        options: ["\"Widerlegen\" proves something false; \"entkräften\" weakens it.", "They mean exactly the same.", "\"Entkräften\" proves something true.", "\"Widerlegen\" means to repeat an argument."],
         correctIndex: 0,
-        explanation: "A refuted claim is false; a weakened (entkräftet) argument just no longer convinces.",
+        explanation: "A refuted claim is false; a weakened (\"entkräftet\") argument just no longer convinces.",
       },
       {
         type: "translate",
@@ -1311,14 +1312,14 @@ export const DE_C2_U14: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Die Kunst der Debatte und Argumentation, Part 9 of 9",
-    summary: "Ethos, pathos and logos in German: credibility formulas, emotional appeal with wir and unsere Kinder, logical chains; and how to score in the Goethe C2 Sprechen discussion.",
+    summary: "Persuade with ethos, pathos and logos in German (credibility formulas, emotional appeal with \"wir\" and \"unsere Kinder\", logical chains) and score in the Goethe C2 \"Sprechen\" discussion.",
     duration: "18 min",
     sections: [
       {
         heading: "Ethos: credibility",
         body: [
-          "Aristotle's three means of persuasion are used in German too, with German names: Ethos (Glaubwürdigkeit des Redners), Pathos (Gefühl) and Logos (Logik). Ethos is built by showing competence and fairness: \"Als Ärztin, die seit zwanzig Jahren in der Notaufnahme arbeitet, ...\", \"Ich habe mir die Zahlen genau angesehen\", \"Ich will ehrlich sein: ...\".",
-          "German audiences are sensitive to exaggeration: Sachlichkeit (objectivity) is a source of ethos. Admitting uncertainty (\"Ich gebe zu, dass wir nicht alles wissen\") often increases credibility rather than reducing it.",
+          "Aristotle's three means of persuasion are used in German too, with German names: Ethos (\"Glaubwürdigkeit des Redners\"), Pathos (\"Gefühl\") and Logos (\"Logik\"). Ethos is built by showing competence and fairness: \"Als Ärztin, die seit zwanzig Jahren in der Notaufnahme arbeitet, ...\", \"Ich habe mir die Zahlen genau angesehen\", \"Ich will ehrlich sein: ...\".",
+          "German audiences are sensitive to exaggeration: \"Sachlichkeit\" (objectivity) is a source of ethos. Admitting uncertainty (\"Ich gebe zu, dass wir nicht alles wissen\") often increases credibility rather than reducing it.",
         ],
         examples: [
           { es: "Als Ärztin, die seit zwanzig Jahren in der Notaufnahme arbeitet, weiß ich, wovon ich spreche.", en: "As a doctor who has worked in A&E for twenty years, I know what I'm talking about." },
@@ -1417,7 +1418,7 @@ export const DE_C2_U14: Lesson[] = [
           {
             type: "speak",
             text: "Da möchte ich direkt anknüpfen.",
-            tip: "Anknüpfen: stress AN; the k is pronounced.",
+            tip: "\"Anknüpfen\": stress AN; the k is pronounced.",
             explanation: "\"An etwas anknüpfen\" = to pick up on something: a perfect reaction move.",
           },
         ],
@@ -1461,7 +1462,7 @@ export const DE_C2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which move earns most points in Goethe C2 Sprechen Teil 2?",
+        question: "Which move earns most points in Goethe C2 \"Sprechen\" Teil 2?",
         options: ["Reacting to the partner's argument and proposing a compromise", "Delivering a memorised monologue", "Agreeing with everything the partner says", "Speaking as fast as possible"],
         correctIndex: 0,
         explanation: "The discussion task rewards interaction, reaction and steering towards a result.",
@@ -1599,7 +1600,7 @@ export const DE_C2_U14: Lesson[] = [
       {
         heading: "Emphasis and conclusion",
         body: [
-          "Finish with emphasis structures and a conclusion: Vorfeld focus (\"Gerade auf diesen Strecken ...\"), \"Was wir brauchen, ist ...\", Ausklammerung with \"und zwar\", and a connector of conclusion (\"Folglich\", \"Daraus folgt\").",
+          "Finish with emphasis structures and a conclusion: \"Vorfeld\" focus (\"Gerade auf diesen Strecken ...\"), \"Was wir brauchen, ist ...\", \"Ausklammerung\" with \"und zwar\", and a connector of conclusion (\"Folglich\", \"Daraus folgt\").",
           "Check every sentence for one thing: does its word order match the connector? Adverbs invert, conjunctions in position 0 don't, subordinators send the verb to the end.",
         ],
         examples: [
@@ -1622,8 +1623,8 @@ export const DE_C2_U14: Lesson[] = [
           {
             type: "speak",
             text: "Wir müssen umsteuern, und zwar jetzt.",
-            tip: "Pause before und zwar, then stress jetzt.",
-            explanation: "Ausklammerung with \"und zwar\" for end weight.",
+            tip: "Pause before \"und zwar\", then stress \"jetzt\".",
+            explanation: "\"Ausklammerung\" with \"und zwar\" for end weight.",
           },
         ],
       },
@@ -1658,11 +1659,11 @@ export const DE_C2_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, with Vorfeld emphasis.",
+        prompt: "Translate into German, with \"Vorfeld\" emphasis.",
         source: "It is precisely on these routes that rail is a real alternative.",
         answer: "Gerade auf diesen Strecken ist die Bahn eine echte Alternative.",
         altAnswers: ["Gerade auf diesen Strecken ist die Bahn eine wirkliche Alternative.", "Gerade auf diesen Strecken ist die Bahn eine echte Alternative zum Flugzeug."],
-        explanation: "\"Gerade\" + phrase in the Vorfeld replaces the English cleft.",
+        explanation: "\"Gerade\" + phrase in the \"Vorfeld\" replaces the English cleft.",
       },
       {
         type: "multiple-choice",
@@ -1722,13 +1723,13 @@ export const DE_C2_U14: Lesson[] = [
     level: "DE-C2",
     number: 9,
     title: "Mastery Vocabulary: Intensifying Collocations",
-    summary: "The fixed adjective-noun pairs that intensify: heftige Kritik, scharfe Worte, tiefe Besorgnis, hohes Ansehen, krasser Gegensatz, bittere Enttäuschung, schwerer Fehler, große Resonanz.",
+    summary: "Intensify with the fixed adjective-noun pairs of educated German, such as \"heftige Kritik\", \"tiefe Besorgnis\", \"hohes Ansehen\", \"krasser Gegensatz\" and \"schwerer Fehler\", instead of English-style 'big' or 'strong'.",
     duration: "16 min",
     sections: [
       {
         heading: "Criticism and conflict",
         body: [
-          "German nouns choose their intensifiers, and the wrong one sounds foreign. Criticism is \"heftig\", \"scharf\" or \"massiv\" (never *\"stark\" in good style, though you will hear it): \"heftige Kritik\", \"scharfe Kritik\", \"massive Kritik\". Words are \"scharf\": \"scharfe Worte\". A contrast is \"krass\" or \"scharf\": \"ein krasser Gegensatz\" (a stark contrast).",
+          "German nouns choose their intensifiers, and the wrong one sounds foreign. Criticism is usually \"heftig\", \"scharf\" or \"massiv\" (\"starke Kritik\" is heard too, but is less idiomatic): \"heftige Kritik\", \"scharfe Kritik\", \"massive Kritik\". Words are \"scharf\": \"scharfe Worte\". A contrast is \"krass\" or \"scharf\": \"ein krasser Gegensatz\" (a stark contrast).",
           "Conflict and debate: \"eine heftige Debatte\", \"ein erbitterter Streit\" (a bitter dispute), \"eine tiefe Kluft\" (a deep rift), \"ein heftiger Widerstand\". Note \"krass\" in collocations is standard and neutral (\"ein krasser Fall\", \"ein krasser Gegensatz\"); only as an exclamation (\"Krass!\") is it slang.",
           "Remember adjective endings: \"heftige Kritik\" (feminine, no article), \"scharfe Worte\" (plural), \"ein krasser Gegensatz\" (masculine with ein).",
         ],
@@ -1761,10 +1762,10 @@ export const DE_C2_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which collocation is idiomatic?",
-            options: ["scharfe Worte", "harte Worte finden ist falsch", "spitze Worte", "dicke Worte"],
+            question: "The minister criticised the companies harshly. Which phrase fits: \"Sie fand ___ für die Konzerne\"?",
+            options: ["scharfe Worte", "dicke Worte", "tiefe Worte", "schwere Worte"],
             correctIndex: 0,
-            explanation: "\"Scharfe Worte (finden)\" is the standard collocation. (\"Harte Worte\" also exists; the other two are not idiomatic in this sense.)",
+            explanation: "\"Scharfe Worte finden\" is the standard collocation (\"harte Worte\" is also possible); \"dick\", \"tief\" and \"schwer\" don't combine with \"Worte\" in this sense.",
           },
         ],
       },
@@ -1772,7 +1773,7 @@ export const DE_C2_U14: Lesson[] = [
         heading: "Feelings and judgements",
         body: [
           "Emotions: \"tiefe Besorgnis\" (deep concern; diplomatic language), \"bittere Enttäuschung\" (bitter disappointment), \"große Erleichterung\" (great relief), \"heller Aufruhr\" (uproar: \"in hellem Aufruhr sein\"), \"blankes Entsetzen\" (sheer horror).",
-          "Judgements and status: \"ein schwerer Fehler\" (a serious mistake; not *\"großer\" in formal style), \"ein grober Verstoß\" (a gross violation), \"hohes Ansehen genießen\" (to enjoy high esteem), \"große Resonanz finden\" (to meet with a strong response), \"breite Zustimmung\" (broad approval).",
+          "Judgements and status: \"ein schwerer Fehler\" (a serious mistake; \"ein großer Fehler\" is common in speech, \"schwer\" sounds more formal), \"ein grober Verstoß\" (a gross violation), \"hohes Ansehen genießen\" (to enjoy high esteem), \"große Resonanz finden\" (to meet with a strong response), \"breite Zustimmung\" (broad approval).",
           "These collocations often come with fixed verbs: \"Besorgnis äußern\", \"Ansehen genießen\", \"Resonanz finden\", \"einen Fehler begehen\" (to commit a mistake, formal).",
         ],
         examples: [
@@ -1860,7 +1861,7 @@ export const DE_C2_U14: Lesson[] = [
           { left: "Ansehen", right: "hoch" },
           { left: "Gegensatz", right: "krass" },
         ],
-        explanation: "Learn noun and adjective as one unit: tiefe Besorgnis, bittere Enttäuschung, schwerer Fehler, hohes Ansehen, krasser Gegensatz.",
+        explanation: "Learn noun and adjective as one unit: \"tiefe Besorgnis\", \"bittere Enttäuschung\", \"schwerer Fehler\", \"hohes Ansehen\", \"krasser Gegensatz\".",
       },
       {
         type: "translate",
@@ -1929,7 +1930,7 @@ export const DE_C2_U14: Lesson[] = [
     level: "DE-C2",
     number: 10,
     title: "Vocabulary in Context: Portraits",
-    summary: "Describe people precisely, as journalists and novelists do: Erscheinung, Auftreten, Ausstrahlung, Gebaren, and long descriptive noun phrases with the right adjective endings (ein hochgewachsener, leicht gebeugter Mann mit ergrautem Haar).",
+    summary: "Describe people precisely, as journalists and novelists do, with \"Erscheinung\", \"Auftreten\", \"Ausstrahlung\" and \"Gebaren\", and build long noun phrases with the right adjective endings (\"ein hochgewachsener, leicht gebeugter Mann mit ergrautem Haar\").",
     duration: "17 min",
     sections: [
       {
@@ -2011,7 +2012,7 @@ export const DE_C2_U14: Lesson[] = [
           {
             type: "speak",
             text: "Mit seinem durchdringenden Blick brachte er jeden zum Schweigen.",
-            tip: "Durchdringend: stress DURCH.",
+            tip: "\"Durchdringend\": stress DURCH.",
             explanation: "\"Jemanden zum Schweigen bringen\" = to silence someone.",
           },
         ],

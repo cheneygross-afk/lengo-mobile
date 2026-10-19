@@ -14,7 +14,7 @@ export const DE_A2_U22: Lesson[] = [
       {
         heading: "Station 1: stem changes in the present",
         body: [
-          "Many strong verbs change their vowel in the du and er/sie/es forms only. Three patterns: e → i (\"geben: du gibst, er gibt\"; \"nehmen: du nimmst, er nimmt\"; \"sprechen\", \"helfen\", \"essen: du isst\", \"treffen\"), e → ie (\"sehen: du siehst\"; \"lesen: er liest\"), a → ä (\"fahren: du fährst\"; \"schlafen\", \"tragen\", \"waschen\", \"laufen: er läuft\").",
+          "Many strong verbs change their vowel in the du and er/sie/es forms only. Three patterns: e → i (\"geben: du gibst, er gibt\"; \"nehmen: du nimmst, er nimmt\"; \"sprechen\", \"helfen\", \"essen: du isst\", \"treffen\"), e → ie (\"sehen: du siehst\"; \"lesen: er liest\"), a → ä (\"fahren: du fährst\"; \"schlafen\", \"tragen\", \"waschen\"), and its cousin au → äu (\"laufen: er läuft\").",
           "The ich, wir, ihr and sie forms are regular: \"ich nehme\", \"wir nehmen\", \"ihr nehmt\". If you hear a changed vowel, the subject is du or er/sie/es. Note the spelling of \"nehmen\": \"du nimmst\" loses the h and doubles the m.",
         ],
         examples: [
@@ -163,7 +163,7 @@ export const DE_A2_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "Did you know that? (to a friend)",
         answer: "Hast du das gewusst?",
-        altAnswers: ["Wusstest du das?", "Habt ihr das gewusst?", "Wusstet ihr das?", "Haben Sie das gewusst?", "Wussten Sie das?"],
+        altAnswers: ["Wusstest du das?"],
         explanation: "\"Wissen\" is mixed: \"gewusst\". The Präteritum \"wusstest\" is also very common in speech.",
       },
       {
@@ -188,7 +188,7 @@ export const DE_A2_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "I brought you something. (to a friend)",
         answer: "Ich habe dir etwas mitgebracht.",
-        altAnswers: ["Ich habe dir was mitgebracht.", "Ich habe euch etwas mitgebracht.", "Ich habe Ihnen etwas mitgebracht.", "Ich habe dir etwas gebracht."],
+        altAnswers: ["Ich habe dir was mitgebracht.", "Ich habe dir etwas gebracht."],
         explanation: "\"Mitbringen – mitgebracht\": mixed and separable.",
       },
       {
@@ -196,6 +196,7 @@ export const DE_A2_U22: Lesson[] = [
         prompt: "Put the words in order to say: Do you sleep well in the new flat?",
         words: ["Schläfst", "du", "gut", "in der", "neuen Wohnung?"],
         translation: "Do you sleep well in the new flat?",
+        altOrders: [["Schläfst", "du", "in der", "neuen Wohnung", "gut?"]],
         explanation: "\"Du schläfst\" with ä; \"in der neuen Wohnung\" is location, dative.",
       },
       {
@@ -225,7 +226,7 @@ export const DE_A2_U22: Lesson[] = [
       {
         heading: "Station 1: the article grid",
         body: [
-          "Four cases, four columns. Masculine: \"der / den / dem / des\". Feminine: \"die / die / der / der\". Neuter: \"das / das / dem / des\". Plural: \"die / die / den (+ -n) / der\". Only the masculine changes in the accusative, which is why English speakers often forget it: \"Ich habe einen Bruder\", not *ein Bruder*.",
+          "Four cases, four columns. Masculine: \"der / den / dem / des\". Feminine: \"die / die / der / der\". Neuter: \"das / das / dem / des\". Plural: \"die / die / den (+ -n) / der\". Only the masculine changes in the accusative, which is why English speakers often forget it: \"Ich habe einen Bruder\", not \"*ein Bruder*\".",
           "\"Ein\", \"kein\" and the possessives follow the same pattern: \"ein / einen / einem / eines\", \"eine / eine / einer / einer\". The tricky trio is \"der\" (masculine nominative, feminine dative, feminine and plural genitive): read the noun's gender before you decide.",
         ],
         examples: [
@@ -250,6 +251,7 @@ export const DE_A2_U22: Lesson[] = [
             en: "I'm writing [to the landlady].",
             sentence: "Ich schreibe ___.",
             answer: "der Vermieterin",
+            altAnswers: ["an die Vermieterin"],
             explanation: "The person you write to is dative; feminine dative \"der\".",
           },
         ],
@@ -276,7 +278,7 @@ export const DE_A2_U22: Lesson[] = [
             source: "I did it for her.",
             answer: "Ich habe es für sie gemacht.",
             altAnswers: ["Ich habe das für sie gemacht.", "Ich habe es für sie getan.", "Ich habe das für sie getan."],
-            explanation: "\"Für\" + accusative: her is \"sie\" (not *ihr*).",
+            explanation: "\"Für\" + accusative: her is \"sie\" (not \"*ihr*\").",
           },
           {
             type: "multiple-choice",
@@ -338,7 +340,7 @@ export const DE_A2_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "She lives with her old cat.",
         answer: "Sie wohnt mit ihrer alten Katze.",
-        altAnswers: ["Sie lebt mit ihrer alten Katze."],
+        altAnswers: ["Sie lebt mit ihrer alten Katze.", "Sie wohnt mit ihrer alten Katze zusammen.", "Sie lebt mit ihrer alten Katze zusammen."],
         explanation: "\"Mit\" + dative feminine: \"ihrer alten\".",
       },
       {
@@ -396,15 +398,16 @@ export const DE_A2_U22: Lesson[] = [
         prompt: "Put the words in order to say: The children are playing behind the big house.",
         words: ["Die Kinder", "spielen", "hinter", "dem großen", "Haus."],
         translation: "The children are playing behind the big house.",
+        altOrders: [["Hinter", "dem großen", "Haus", "spielen", "die Kinder."]],
         explanation: "Location, so dative: \"hinter dem großen Haus\".",
       },
       {
         type: "listen-choose",
-        audio: "Ich habe den Schlüssel dem Nachbarn gegeben.",
+        audio: "Ich habe dem Nachbarn den Schlüssel gegeben.",
         question: "What did you hear?",
-        options: ["Ich habe den Schlüssel dem Nachbarn gegeben.", "Ich habe dem Schlüssel den Nachbarn gegeben.", "Ich habe den Schlüssel den Nachbarn gegeben.", "Ich habe dem Schlüssel dem Nachbarn gegeben."],
+        options: ["Ich habe dem Nachbarn den Schlüssel gegeben.", "Ich habe den Nachbarn den Schlüssel gegeben.", "Ich habe dem Nachbarn dem Schlüssel gegeben.", "Ich habe den Nachbarn dem Schlüssel gegeben."],
         correctIndex: 0,
-        explanation: "The thing is accusative (\"den Schlüssel\"), the receiver dative (\"dem Nachbarn\").",
+        explanation: "The receiver is dative and comes first (\"dem Nachbarn\"), the thing is accusative (\"den Schlüssel\"). Two nouns: dative before accusative.",
       },
       {
         type: "speak",
@@ -536,6 +539,7 @@ export const DE_A2_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "Today she's a successful doctor.",
         answer: "Heute ist sie eine erfolgreiche Ärztin.",
+        altAnswers: ["Sie ist heute eine erfolgreiche Ärztin."],
         explanation: "With an adjective, the article comes back: \"eine erfolgreiche Ärztin\".",
       },
       {
@@ -559,7 +563,7 @@ export const DE_A2_U22: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "You're much taller than last year!",
+        source: "You're much taller than last year! (to a child)",
         answer: "Du bist viel größer als letztes Jahr!",
         altAnswers: ["Ihr seid viel größer als letztes Jahr!"],
         explanation: "\"Viel\" + comparative; \"als\" for than.",
@@ -577,7 +581,7 @@ export const DE_A2_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "As a child I wasn't allowed to watch TV.",
         answer: "Als Kind durfte ich nicht fernsehen.",
-        altAnswers: ["Als Kind durfte ich kein Fernsehen schauen.", "Als Kind durfte ich nicht fernschauen."],
+        altAnswers: ["Ich durfte als Kind nicht fernsehen.", "Als Kind durfte ich nicht fernschauen."],
         explanation: "\"Durfte\" (Präteritum of dürfen), infinitive \"fernsehen\" at the end.",
       },
       {
@@ -642,7 +646,7 @@ export const DE_A2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The doctor asks „Was fehlt Ihnen?“ What does she mean?",
+            question: "The doctor asks: \"Was fehlt Ihnen?\" What does she mean?",
             options: ["What's the matter with you?", "What are you missing?", "What did you forget?", "Who sent you?"],
             correctIndex: 0,
             explanation: "A standard doctor's question: literally what is missing to you, so what's wrong? The verb \"fehlen\" takes the dative \"Ihnen\".",
@@ -819,7 +823,7 @@ export const DE_A2_U22: Lesson[] = [
         heading: "1962: a new start in Stuttgart",
         body: [
           "Leon tells his grandfather's story: \"Mein Opa heißt Giuseppe. Er ist vor über sechzig Jahren aus Italien nach Deutschland gekommen. Als er 1962 in Stuttgart ankam, war er erst neunzehn. Er konnte kein Wort Deutsch und hatte nur einen kleinen Koffer.\"",
-          "Two time words: \"vor\" + dative means ago and comes before the time (\"vor sechzig Jahren\" = sixty years ago); \"seit\" means for/since and the action continues. \"Als\" is for one event or period in the past: \"Als er ankam, war er neunzehn.\" Years stand alone, without *in*: \"1962 kam er an\" or \"im Jahr 1962\".",
+          "Two time words: \"vor\" + dative means ago and comes before the time (\"vor sechzig Jahren\" = sixty years ago); \"seit\" means for/since and the action continues. \"Als\" is for one event or period in the past: \"Als er ankam, war er neunzehn.\" Years stand alone, without \"*in*\": \"1962 kam er an\" or \"im Jahr 1962\".",
           "Notice the tenses: a written family story can use the Präteritum (\"ankam\", \"war\", \"konnte\", \"hatte\"), while Leon speaking would mix in the Perfekt (\"ist gekommen\").",
         ],
         examples: [
@@ -845,7 +849,7 @@ export const DE_A2_U22: Lesson[] = [
             source: "When he arrived, he was only nineteen.",
             answer: "Als er ankam, war er erst neunzehn.",
             altAnswers: ["Als er angekommen ist, war er erst neunzehn.", "Als er ankam, war er nur neunzehn."],
-            explanation: "\"Als\" for one past event, verb last (\"ankam\" stays joined); then verb, comma, verb. Only with an age is \"erst\".",
+            explanation: "\"Als\" for one past event, verb last (\"ankam\" stays joined); then verb, comma, verb. With an age, only is usually \"erst\" (he'll get older), though \"nur\" is also heard.",
           },
         ],
       },
@@ -922,7 +926,7 @@ export const DE_A2_U22: Lesson[] = [
         source: "My grandmother was born in 1945.",
         answer: "Meine Oma ist 1945 geboren.",
         altAnswers: ["Meine Großmutter ist 1945 geboren.", "Meine Oma wurde 1945 geboren.", "Meine Großmutter wurde 1945 geboren.", "Meine Oma ist im Jahr 1945 geboren."],
-        explanation: "The year stands alone, no *in*. For living people \"ist ... geboren\"; \"wurde geboren\" also works.",
+        explanation: "The year stands alone, no \"*in*\". For living people \"ist ... geboren\"; \"wurde geboren\" also works.",
       },
       {
         type: "translate",
@@ -981,6 +985,7 @@ export const DE_A2_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "They have been married for fifty years.",
         answer: "Sie sind seit fünfzig Jahren verheiratet.",
+        altAnswers: ["Seit fünfzig Jahren sind sie verheiratet."],
         explanation: "\"Seit\" + present tense: \"sind verheiratet\".",
       },
       {
@@ -989,7 +994,7 @@ export const DE_A2_U22: Lesson[] = [
         words: ["1965", "hat", "er", "meine Oma", "kennengelernt."],
         translation: "In 1965 he met my grandma.",
         altOrders: [["Er", "hat", "1965", "meine Oma", "kennengelernt."]],
-        explanation: "The year without *in* is position 1; verb second.",
+        explanation: "The year without \"*in*\" is position 1; verb second.",
       },
       {
         type: "dictation",
@@ -1066,7 +1071,7 @@ export const DE_A2_U22: Lesson[] = [
             prompt: "Translate into German.",
             source: "Have you ever been to Switzerland? (to a friend)",
             answer: "Warst du schon mal in der Schweiz?",
-            altAnswers: ["Bist du schon mal in der Schweiz gewesen?", "Warst du schon einmal in der Schweiz?", "Bist du schon einmal in der Schweiz gewesen?", "Wart ihr schon mal in der Schweiz?", "Waren Sie schon mal in der Schweiz?", "Warst du jemals in der Schweiz?"],
+            altAnswers: ["Bist du schon mal in der Schweiz gewesen?", "Warst du schon einmal in der Schweiz?", "Bist du schon einmal in der Schweiz gewesen?", "Warst du jemals in der Schweiz?"],
             explanation: "\"Sein\" + \"gewesen\", or simply \"warst\". \"Die Schweiz\" always has the article: \"in der Schweiz\".",
           },
           {
@@ -1100,7 +1105,6 @@ export const DE_A2_U22: Lesson[] = [
             prompt: "Translate into German.",
             source: "When you're in Berlin, call me! (to a friend)",
             answer: "Wenn du in Berlin bist, ruf mich an!",
-            altAnswers: ["Wenn ihr in Berlin seid, ruft mich an!", "Wenn Sie in Berlin sind, rufen Sie mich an!"],
             explanation: "A future occasion: \"wenn\"; then the imperative \"ruf ... an\".",
           },
           {
@@ -1119,7 +1123,7 @@ export const DE_A2_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'll pick you up at eight. (to a friend)",
         answer: "Ich hole dich um acht ab.",
-        altAnswers: ["Ich hole dich um acht Uhr ab.", "Ich werde dich um acht abholen.", "Ich werde dich um acht Uhr abholen.", "Um acht hole ich dich ab.", "Ich hole euch um acht ab.", "Ich hole Sie um acht ab."],
+        altAnswers: ["Ich hole dich um acht Uhr ab.", "Ich werde dich um acht abholen.", "Ich werde dich um acht Uhr abholen.", "Um acht hole ich dich ab."],
         explanation: "\"Abholen\" splits: \"hole ... ab\". The present works for a planned future.",
       },
       {
@@ -1196,6 +1200,7 @@ export const DE_A2_U22: Lesson[] = [
         prompt: "Put the words in order to say: I didn't have time because I had to work.",
         words: ["Ich", "hatte", "keine Zeit,", "weil", "ich", "arbeiten", "musste."],
         translation: "I didn't have time because I had to work.",
+        altOrders: [["Weil", "ich", "arbeiten", "musste,", "hatte", "ich", "keine Zeit."]],
         explanation: "\"Keine Zeit\" negates the noun; after \"weil\" the modal goes last.",
       },
       {
@@ -1225,7 +1230,7 @@ export const DE_A2_U22: Lesson[] = [
       {
         heading: "Paragraph 1: Mehmet's move (errors 1-8)",
         body: [
-          "Mehmet wrote a blog post about his move to Hamburg. Paragraph one has eight errors: *Letzten Monat ich bin nach Hamburg umgezogen. Ich habe mit den Zug gefahren, weil ich habe kein Auto. Meine neue Wohnung ist klein, aber sie hat ein schöner Balkon. Am ersten Tag habe ich meine Nachbarin geholfen und sie hat mich ein Kuchen gebracht.*",
+          "Mehmet wrote a blog post about his move to Hamburg. Paragraph one has eight errors: \"*Letzten Monat ich bin nach Hamburg umgezogen. Ich habe mit den Zug gefahren, weil ich habe kein Auto. Meine neue Wohnung ist klein, aber sie hat ein schöner Balkon. Am ersten Tag habe ich meine Nachbarin geholfen und sie hat mich ein Kuchen gebracht.*\"",
           "The fixes: (1) verb second: \"Letzten Monat bin ich...\"; (2) \"mit\" + dative: \"mit dem Zug\"; (3) and \"fahren\" to a place takes \"sein\": \"bin ... gefahren\"; (4) \"weil\" sends the verb last: \"weil ich kein Auto habe\"; (5) \"der Balkon\" is masculine and the object of \"haben\": \"einen schönen Balkon\"; (6) \"helfen\" + dative: \"meiner Nachbarin\"; (7) the receiver is dative: \"mir\", not \"mich\"; (8) the thing is accusative and \"der Kuchen\" is masculine: \"einen Kuchen\".",
         ],
         examples: [
@@ -1239,7 +1244,7 @@ export const DE_A2_U22: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Mehmet wrote *Ich habe mit den Zug gefahren*. Write it correctly: I went by train.",
+            prompt: "Mehmet wrote \"*Ich habe mit den Zug gefahren*\". Write it correctly: I went by train.",
             source: "I went by train.",
             answer: "Ich bin mit dem Zug gefahren.",
             altAnswers: ["Ich fuhr mit dem Zug."],
@@ -1248,7 +1253,7 @@ export const DE_A2_U22: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Mehmet wrote *sie hat mich ein Kuchen gebracht*. Write it correctly: she brought me a cake.",
+            prompt: "Mehmet wrote \"*sie hat mich ein Kuchen gebracht*\". Write it correctly: she brought me a cake.",
             source: "She brought me a cake.",
             answer: "Sie hat mir einen Kuchen gebracht.",
             altAnswers: ["Sie brachte mir einen Kuchen."],
@@ -1259,8 +1264,8 @@ export const DE_A2_U22: Lesson[] = [
       {
         heading: "Paragraph 2: first impressions (errors 9-16)",
         body: [
-          "Paragraph two: *Hamburg ist größer wie Köln und es regnet mehr oft. Ich habe in Hamburg seit drei Wochen gewohnt. Gestern war ich in der Stadt und ich habe ein Pullover gekauft. Danach bin ich in einem Café gegangen. Ich freue mich über das Wochenende, weil meine Schwester kommt mich besuchen. Ich weiß nicht, ob sie mag Fisch.*",
-          "The fixes: (9) \"größer als\"; (10) \"öfter\" (oft, öfter, am häufigsten) instead of *mehr oft*; (11) he still lives there, so \"seit\" + present: \"Ich wohne seit drei Wochen in Hamburg\"; (12) \"einen Pullover\" (masculine accusative); (13) going into is direction: \"in ein Café\"; (14) looking forward is \"sich freuen auf\": \"auf das Wochenende\"; (15) after \"weil\" the verb goes last: \"weil meine Schwester mich besuchen kommt\"; (16) the same after \"ob\": \"ob sie Fisch mag\".",
+          "Paragraph two: \"*Hamburg ist größer wie Köln und es regnet mehr oft. Ich habe in Hamburg seit drei Wochen gewohnt. Gestern war ich in der Stadt und ich habe ein Pullover gekauft. Danach bin ich in einem Café gegangen. Ich freue mich über das Wochenende, weil meine Schwester kommt mich besuchen. Ich weiß nicht, ob sie mag Fisch.*\"",
+          "The fixes: (9) \"größer als\"; (10) \"öfter\" (oft, öfter, am häufigsten) instead of \"*mehr oft*\"; (11) he still lives there, so \"seit\" + present: \"Ich wohne seit drei Wochen in Hamburg\"; (12) \"einen Pullover\" (masculine accusative); (13) going into is direction: \"in ein Café\"; (14) looking forward is \"sich freuen auf\": \"auf das Wochenende\"; (15) after \"weil\" the verb goes last: \"weil meine Schwester mich besuchen kommt\"; (16) the same after \"ob\": \"ob sie Fisch mag\".",
         ],
         examples: [
           { es: "Hamburg ist größer als Köln, und es regnet öfter.", en: "Hamburg is bigger than Cologne, and it rains more often." },
@@ -1273,7 +1278,7 @@ export const DE_A2_U22: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Mehmet wrote *Danach bin ich in einem Café gegangen*. Write it correctly: After that I went into a café.",
+            prompt: "Mehmet wrote \"*Danach bin ich in einem Café gegangen*\". Write it correctly: After that I went into a café.",
             source: "After that I went into a café.",
             answer: "Danach bin ich in ein Café gegangen.",
             altAnswers: ["Dann bin ich in ein Café gegangen.", "Danach ging ich in ein Café."],
@@ -1291,7 +1296,7 @@ export const DE_A2_U22: Lesson[] = [
       {
         heading: "Paragraph 3: plans (errors 17-20)",
         body: [
-          "The last paragraph: *Nächste Woche ich will einen Deutschkurs anfangen. Der Kurs ist in der Nähe von meiner Arbeit, und er beginnt um 18 Uhr. Wenn ich habe Zeit, ich werde auch ins Fitnessstudio gehen. Ich habe noch keine Freunde hier, aber das ist kein Problem: In Hamburg gibt es viele nette Leuten. Ich muss nur Geduld haben!*",
+          "The last paragraph: \"*Nächste Woche ich will einen Deutschkurs anfangen. Der Kurs ist in der Nähe von meiner Arbeit, und er beginnt um 18 Uhr. Wenn ich habe Zeit, ich werde auch ins Fitnessstudio gehen. Ich habe noch keine Freunde hier, aber das ist kein Problem: In Hamburg gibt es viele nette Leuten. Ich muss nur Geduld haben!*\"",
           "The fixes: (17) verb second: \"Nächste Woche will ich...\" (the modal itself is right here: he wants to); (18) the verb goes last in the wenn-clause: \"wenn ich Zeit habe\"; (19) the wenn-clause counts as position 1, so the main verb comes straight after it: \"..., werde ich auch...\"; (20) \"Leute\" only adds -n in the dative plural: \"viele nette Leute\".",
           "And two traps that are NOT errors: \"in der Nähe von meiner Arbeit\" is fine (\"von\" + dative), and \"Ich muss nur Geduld haben\" is perfect. Hunting errors also means recognising correct German and leaving it alone.",
         ],
@@ -1325,7 +1330,7 @@ export const DE_A2_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Gestern ich habe meine Freundin angerufen*: Yesterday I called my girlfriend.",
+        prompt: "Fix \"*Gestern ich habe meine Freundin angerufen*\": Yesterday I called my girlfriend.",
         source: "Yesterday I called my girlfriend.",
         answer: "Gestern habe ich meine Freundin angerufen.",
         altAnswers: ["Ich habe gestern meine Freundin angerufen."],
@@ -1334,7 +1339,7 @@ export const DE_A2_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Ich danke dich für die Einladung*: Thank you for the invitation. (to a friend)",
+        prompt: "Fix \"*Ich danke dich für die Einladung*\": Thank you for the invitation. (to a friend)",
         source: "Thank you for the invitation. (to a friend)",
         answer: "Ich danke dir für die Einladung.",
         altAnswers: ["Danke für die Einladung.", "Vielen Dank für die Einladung."],
@@ -1343,7 +1348,7 @@ export const DE_A2_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Wir haben nach Italien geflogen*: We flew to Italy.",
+        prompt: "Fix \"*Wir haben nach Italien geflogen*\": We flew to Italy.",
         source: "We flew to Italy.",
         answer: "Wir sind nach Italien geflogen.",
         altAnswers: ["Wir flogen nach Italien."],
@@ -1352,7 +1357,7 @@ export const DE_A2_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Sie hat eine neue Handy*: She has a new mobile.",
+        prompt: "Fix \"*Sie hat eine neue Handy*\": She has a new mobile.",
         source: "She has a new mobile.",
         answer: "Sie hat ein neues Handy.",
         explanation: "\"Das Handy\" is neuter: \"ein neues Handy\".",
@@ -1360,7 +1365,7 @@ export const DE_A2_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Ich gehe zu Hause*: I'm going home.",
+        prompt: "Fix \"*Ich gehe zu Hause*\": I'm going home.",
         source: "I'm going home.",
         answer: "Ich gehe nach Hause.",
         explanation: "Direction home: \"nach Hause\". \"Zu Hause\" = at home.",
@@ -1368,10 +1373,10 @@ export const DE_A2_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Er ist mehr alt als ich*: He's older than me.",
+        prompt: "Fix \"*Er ist mehr alt als ich*\": He's older than me.",
         source: "He's older than me.",
         answer: "Er ist älter als ich.",
-        explanation: "Comparative with -er and umlaut: \"älter\", never *mehr alt*.",
+        explanation: "Comparative with -er and umlaut: \"älter\", never \"*mehr alt*\".",
       },
       {
         type: "fill-blank",
@@ -1391,7 +1396,7 @@ export const DE_A2_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Ich lege das Buch auf dem Tisch*: I'm putting the book on the table.",
+        prompt: "Fix \"*Ich lege das Buch auf dem Tisch*\": I'm putting the book on the table.",
         source: "I'm putting the book on the table.",
         answer: "Ich lege das Buch auf den Tisch.",
         explanation: "\"Legen\" is putting somewhere (wohin?), so \"auf\" + accusative: \"den Tisch\".",
@@ -1399,7 +1404,7 @@ export const DE_A2_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Ich habe mit meinem Freunde gesprochen*: I spoke with my friends.",
+        prompt: "Fix \"*Ich habe mit meinem Freunde gesprochen*\": I spoke with my friends.",
         source: "I spoke with my friends.",
         answer: "Ich habe mit meinen Freunden gesprochen.",
         altAnswers: ["Ich sprach mit meinen Freunden.", "Ich habe mit meinen Freundinnen gesprochen."],
@@ -1433,7 +1438,7 @@ export const DE_A2_U22: Lesson[] = [
         heading: "Dialogues 1 and 2: shop and hotel",
         body: [
           "In a clothes shop: \"Kann ich Ihnen helfen?\" – \"Ja, ich suche eine Jacke.\" – \"Welche Größe haben Sie?\" – \"M, glaube ich. Kann ich sie anprobieren?\" – \"Natürlich, die Umkleidekabine ist dort hinten.\" – \"Sie ist mir leider zu klein. Haben Sie sie eine Nummer größer?\"",
-          "At a hotel: \"Guten Abend, ich habe ein Zimmer reserviert. Mein Name ist Taylor.\" – \"Ja, ein Einzelzimmer für drei Nächte. Ab wann gibt es Frühstück?\" – \"Von sieben bis zehn Uhr.\" Notice \"zu klein\" + dative person (\"mir\") for too small for me, and \"ab\" for from (a time onwards).",
+          "At a hotel: \"Guten Abend, ich habe ein Zimmer reserviert. Mein Name ist Taylor.\" – \"Ja, ein Einzelzimmer für drei Nächte.\" – \"Ab wann gibt es Frühstück?\" – \"Von sieben bis zehn Uhr.\" Notice \"zu klein\" + dative person (\"mir\") for too small for me, and \"ab\" for from (a time onwards).",
         ],
         examples: [
           { es: "Kann ich Ihnen helfen? – Ja, ich suche eine Jacke.", en: "Can I help you? – Yes, I'm looking for a jacket." },
@@ -1562,7 +1567,6 @@ export const DE_A2_U22: Lesson[] = [
         en: "[Would you like] to come to my party? (to a friend)",
         sentence: "___ zu meiner Party zu kommen?",
         answer: "Hast du Lust",
-        altAnswers: ["Habt ihr Lust", "Haben Sie Lust"],
         explanation: "\"Lust haben\" + zu-infinitive for invitations.",
       },
       {
@@ -1801,6 +1805,7 @@ export const DE_A2_U22: Lesson[] = [
         prompt: "Put the words in order to say: After that she had to go back to the library.",
         words: ["Danach", "musste", "sie", "zurück", "in die Bibliothek."],
         translation: "After that she had to go back to the library.",
+        altOrders: [["Danach", "musste", "sie", "in die Bibliothek", "zurück."]],
         explanation: "A modal can drop an obvious verb of motion: \"musste ... zurück\".",
       },
       {
@@ -1842,6 +1847,7 @@ export const DE_A2_U22: Lesson[] = [
             prompt: "Put the words in order to say: She cycles to work every day.",
             words: ["Sie", "fährt", "jeden Tag", "mit dem Fahrrad", "zur Arbeit."],
             translation: "She cycles to work every day.",
+            altOrders: [["Jeden Tag", "fährt", "sie", "mit dem Fahrrad", "zur Arbeit."]],
             explanation: "Time (\"jeden Tag\") – manner (\"mit dem Fahrrad\") – place (\"zur Arbeit\").",
           },
           {
@@ -1873,6 +1879,7 @@ export const DE_A2_U22: Lesson[] = [
             prompt: "Put the words in order to say: Because it rained, we stayed at home.",
             words: ["Weil", "es", "geregnet hat,", "sind", "wir", "zu Hause", "geblieben."],
             translation: "Because it rained, we stayed at home.",
+            altOrders: [["Wir", "sind", "zu Hause", "geblieben,", "weil", "es", "geregnet hat."]],
             explanation: "The weil-clause is position 1; \"sind\" follows right after the comma.",
           },
           {
@@ -1904,6 +1911,7 @@ export const DE_A2_U22: Lesson[] = [
             prompt: "Put the words in order to say: At the weekend I have to help my brother move.",
             words: ["Am Wochenende", "muss", "ich", "meinem Bruder", "beim Umzug", "helfen."],
             translation: "At the weekend I have to help my brother move.",
+            altOrders: [["Ich", "muss", "am Wochenende", "meinem Bruder", "beim Umzug", "helfen."]],
             explanation: "Modal in position 2, \"helfen\" last, dative \"meinem Bruder\" in the middle.",
           },
           {
@@ -2052,7 +2060,7 @@ export const DE_A2_U22: Lesson[] = [
         heading: "Links 4-6: weil, deshalb, trotzdem",
         body: [
           "Next link: a reason. \"Weil\" (verb last) explains; \"deshalb\" (that's why, verb second) shows the result: \"Er war zu spät, deshalb war sein Chef sauer.\" \"Trotzdem\" (nevertheless) also takes position 1: \"Trotzdem ist er ruhig geblieben.\"",
-          "These three let your story breathe: cause, consequence, contrast. Learners often write *deshalb er war* by analogy with English so he was: remember the verb comes straight after \"deshalb\".",
+          "These three let your story breathe: cause, consequence, contrast. Learners often write \"*deshalb er war*\" by analogy with English so he was: remember the verb comes straight after \"deshalb\".",
         ],
         examples: [
           { es: "Er war zu spät, weil der Bus nicht gekommen ist.", en: "He was late because the bus didn't come." },
@@ -2135,7 +2143,7 @@ export const DE_A2_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "It was raining, so he took a taxi.",
         answer: "Es hat geregnet, deshalb hat er ein Taxi genommen.",
-        altAnswers: ["Es regnete, deshalb nahm er ein Taxi.", "Es hat geregnet, deshalb nahm er ein Taxi.", "Es regnete, deshalb hat er ein Taxi genommen.", "Es hat geregnet, darum hat er ein Taxi genommen."],
+        altAnswers: ["Es regnete, deshalb nahm er ein Taxi.", "Es hat geregnet, deshalb nahm er ein Taxi.", "Es regnete, deshalb hat er ein Taxi genommen.", "Es hat geregnet, darum hat er ein Taxi genommen.", "Es hat geregnet, deswegen hat er ein Taxi genommen.", "Weil es geregnet hat, hat er ein Taxi genommen."],
         explanation: "So = \"deshalb\" + verb second.",
       },
       {
@@ -2212,7 +2220,7 @@ export const DE_A2_U22: Lesson[] = [
         heading: "Dates into sentences",
         body: [
           "The timeline of Ayşe Demir: 1992 born in Duisburg; 1998 school; 2011 Abitur; 2011-2016 studied architecture in Berlin; 2017 moved to Munich; since 2019 works at an architecture firm; 2021 married; 2023 daughter Elif born.",
-          "Grammar for biographies: years stand alone or with \"im Jahr\" (\"1992\" / \"im Jahr 1992\"), never *in 1992*. Exact dates: \"am 3. Mai 1992\" (\"am dritten Mai\"). Ranges: \"von 2011 bis 2016\". Still true now: \"seit 2019\" + present.",
+          "Grammar for biographies: years stand alone or with \"im Jahr\" (\"1992\" / \"im Jahr 1992\"), never \"*in 1992*\". Exact dates: \"am 3. Mai 1992\" (\"am dritten Mai\"). Ranges: \"von 2011 bis 2016\". Still true now: \"seit 2019\" + present.",
           "Use the Perfekt for spoken biographies and \"war\" / \"hatte\" for states; a written CV-style text would use the Präteritum throughout (\"Sie studierte...\").",
         ],
         examples: [
@@ -2230,7 +2238,7 @@ export const DE_A2_U22: Lesson[] = [
             source: "In 2017 she moved to Munich.",
             answer: "2017 ist sie nach München gezogen.",
             altAnswers: ["Im Jahr 2017 ist sie nach München gezogen.", "Sie ist 2017 nach München gezogen.", "2017 zog sie nach München."],
-            explanation: "No *in* before the year. Moving house: \"ist ... gezogen\".",
+            explanation: "No \"*in*\" before the year. Moving house: \"ist ... gezogen\".",
           },
           {
             type: "fill-blank",
@@ -2246,7 +2254,7 @@ export const DE_A2_U22: Lesson[] = [
         heading: "Joining the events",
         body: [
           "A list of dates becomes a story with connectors: \"Nach dem Abitur ist sie nach Berlin gezogen, weil sie dort studieren wollte.\" \"Nach\" + dative noun (\"nach dem Studium\") is easier at the Elementary level than a full clause.",
-          "Add \"vor\" (ago) and \"später\" (later): \"Vor zwei Jahren hat sie geheiratet. Zwei Jahre später ist ihre Tochter Elif auf die Welt gekommen.\"",
+          "Add \"vor\" (ago) and \"später\" (later): \"Vor ein paar Jahren hat sie geheiratet. Zwei Jahre später ist ihre Tochter Elif auf die Welt gekommen.\"",
         ],
         examples: [
           { es: "Nach dem Abitur ist sie nach Berlin gezogen.", en: "After her A levels she moved to Berlin." },
@@ -2292,9 +2300,9 @@ export const DE_A2_U22: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "She lived in Berlin for six years.",
-            answer: "Sie hat sechs Jahre in Berlin gewohnt.",
-            altAnswers: ["Sie hat sechs Jahre lang in Berlin gewohnt.", "Sie wohnte sechs Jahre in Berlin.", "Sie hat sechs Jahre in Berlin gelebt."],
+            source: "She lived in Berlin for five years.",
+            answer: "Sie hat fünf Jahre in Berlin gewohnt.",
+            altAnswers: ["Sie hat fünf Jahre lang in Berlin gewohnt.", "Sie wohnte fünf Jahre in Berlin.", "Sie hat fünf Jahre in Berlin gelebt.", "Sie hat fünf Jahre lang in Berlin gelebt.", "Fünf Jahre hat sie in Berlin gewohnt."],
             explanation: "A finished period: Perfekt + duration, no \"seit\".",
           },
           {
@@ -2323,7 +2331,7 @@ export const DE_A2_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "In 1998 she started school.",
         answer: "1998 ist sie in die Schule gekommen.",
-        altAnswers: ["1998 hat sie mit der Schule angefangen.", "Im Jahr 1998 ist sie in die Schule gekommen.", "Sie ist 1998 in die Schule gekommen."],
+        altAnswers: ["1998 hat sie mit der Schule angefangen.", "Im Jahr 1998 ist sie in die Schule gekommen.", "Sie ist 1998 in die Schule gekommen.", "1998 wurde sie eingeschult."],
         explanation: "Starting school is \"in die Schule kommen\" (sein) or \"mit der Schule anfangen\".",
       },
       {
@@ -2373,6 +2381,7 @@ export const DE_A2_U22: Lesson[] = [
         prompt: "Put the words in order to say: From 2011 to 2016 she studied in Berlin.",
         words: ["Von 2011", "bis 2016", "hat", "sie", "in Berlin", "studiert."],
         translation: "From 2011 to 2016 she studied in Berlin.",
+        altOrders: [["Sie", "hat", "von 2011", "bis 2016", "in Berlin", "studiert."]],
         explanation: "The whole time phrase is position 1; \"studiert\" has no ge- (-ieren).",
       },
       {
@@ -2405,11 +2414,11 @@ export const DE_A2_U22_WRITING: WriteExercise = {
   minWords: 50,
   maxWords: 100,
   rubric: [
-    "Uses dates and years correctly: \"1950\" or \"im Jahr 1950\" (never *in 1950*), \"am 3. Mai\", \"vor ... Jahren\", \"seit\" + present",
+    "Uses dates and years correctly: \"1950\" or \"im Jahr 1950\" (never \"*in 1950*\"), \"am 3. Mai\", \"vor ... Jahren\", \"seit\" + present",
     "Tells the life in the past with the Perfekt and \"war\" / \"hatte\" / modals in the Präteritum",
     "Contrasts then and now with \"früher\" / \"heute\", adjective endings and at least one comparison with \"als\"",
     "Links ideas with connectors: \"als\", \"weil\", \"deshalb\" or \"trotzdem\", with the verb in the right position",
   ],
   modelAnswer: "Meine Oma Ingrid ist 1948 in Stuttgart geboren. Als junge Frau hat sie als Krankenschwester gearbeitet. 1965 hat sie auf einem Fest meinen Opa Giuseppe kennengelernt, und zwei Jahre später haben sie geheiratet. Früher war sie sehr sportlich und ist jeden Sonntag gewandert. Heute ist sie ruhiger als früher, aber sie hat immer noch viele Freundinnen und einen großen Garten. Sie wohnt seit über fünfzig Jahren in derselben Wohnung. Sie ist für mich sehr wichtig, weil sie mir als Kind so viel beigebracht hat. Deshalb besuche ich sie jede Woche.",
-  explanation: "The model gives the year without *in* (\"1948 ... geboren\"), uses the Perfekt for events (\"hat kennengelernt\", \"ist gewandert\"), \"war\" for a past state, \"seit\" + present for something still true, a comparative with \"als\", adjective endings (\"einen großen Garten\"), the verb last after \"weil\" and verb second after \"Deshalb\".",
+  explanation: "The model gives the year without \"*in*\" (\"1948 ... geboren\"), uses the Perfekt for events (\"hat kennengelernt\", \"ist gewandert\"), \"war\" for a past state, \"seit\" + present for something still true, a comparative with \"als\", adjective endings (\"einen großen Garten\"), the verb last after \"weil\" and verb second after \"Deshalb\".",
 };

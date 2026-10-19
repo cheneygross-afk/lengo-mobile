@@ -8,7 +8,7 @@ export const DE_C2_U02: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Juristisches Deutsch und Amtsdeutsch, Part 4 of 7",
-    summary: "The anatomy of a German contract, from Präambel and Vertragsgegenstand to Haftung, Gewährleistung and Schlussbestimmungen, and why bedürfen takes the genitive.",
+    summary: "Find your way around a German contract, from \"Präambel\" and \"Vertragsgegenstand\" to \"Haftung\", \"Gewährleistung\" and \"Schlussbestimmungen\", and use \"bedürfen\" with the genitive.",
     duration: "18 min",
     sections: [
       {
@@ -16,7 +16,7 @@ export const DE_C2_U02: Lesson[] = [
         body: [
           "German contracts are divided into numbered sections, \"§ 1, § 2 ...\", each with a heading. After the parties come, in a fairly fixed order: \"die Präambel\" (preamble: background and purpose, optional), \"der Vertragsgegenstand\" (subject matter: what the contract is about), \"die Leistungen\" (what each side must deliver or do) and \"die Vergütung\" (remuneration, the price or fee).",
           "Typical phrasing: \"Gegenstand dieses Vertrages ist die Erstellung einer Website für den Auftraggeber.\" Note \"der Auftraggeber\" (the client, who commissions) and \"der Auftragnehmer\" (the contractor, who carries out the work): another pair built on \"-geber / -nehmer\". \"Die Vergütung beträgt pauschal 4.800 Euro zuzüglich der gesetzlichen Umsatzsteuer\" (a flat fee of 4,800 euros plus statutory VAT).",
-          "Trap: \"die Leistung\" in a contract is not performance in the sense of results, but the service or delivery owed: \"Der Auftragnehmer erbringt folgende Leistungen\" (The contractor shall provide the following services). The verb is \"erbringen\", never *machen.",
+          "Trap: \"die Leistung\" in a contract is not performance in the sense of results, but the service or delivery owed: \"Der Auftragnehmer erbringt folgende Leistungen\" (The contractor shall provide the following services). The verb is \"erbringen\", not \"*machen*\".",
         ],
         examples: [
           { es: "Gegenstand dieses Vertrages ist die Lieferung von 200 Bürostühlen.", en: "The subject of this contract is the delivery of 200 office chairs." },
@@ -86,7 +86,7 @@ export const DE_C2_U02: Lesson[] = [
         body: [
           "The written-form clause appears in nearly every contract: \"Änderungen und Ergänzungen dieses Vertrages bedürfen der Schriftform.\" (Amendments and additions to this contract must be made in writing.) Often it adds: \"Dies gilt auch für die Aufhebung dieses Schriftformerfordernisses\" (This also applies to waiving this written-form requirement).",
           "\"Bedürfen\" (to require, to need) is a high-register verb that takes the genitive: \"der Schriftform\", \"der Zustimmung\", \"keiner weiteren Erklärung\", \"einer Genehmigung\". It conjugates like a modal in the present: \"es bedarf\", \"sie bedürfen\". The impersonal \"Es bedarf ...\" + genitive means ... is needed: \"Es bedarf keiner weiteren Begründung.\"",
-          "English speakers are tempted to write *\"bedarf die Schriftform\" (accusative). In everyday German you would say \"Änderungen müssen schriftlich erfolgen\" or \"brauchen die Zustimmung\", but in contracts \"bedürfen\" + genitive is standard.",
+          "English speakers are tempted to write \"*bedarf die Schriftform*\" (accusative). In everyday German you would say \"Änderungen müssen schriftlich erfolgen\" or \"brauchen die Zustimmung\", but in contracts \"bedürfen\" + genitive is standard.",
         ],
         examples: [
           { es: "Änderungen dieses Vertrages bedürfen der Schriftform.", en: "Amendments to this contract must be made in writing." },
@@ -99,7 +99,7 @@ export const DE_C2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. Use bedürfen.",
+            prompt: "Translate into German. Use \"bedürfen\".",
             source: "Subletting requires the landlord's consent.",
             answer: "Die Untervermietung bedarf der Zustimmung des Vermieters.",
             altAnswers: ["Untervermietung bedarf der Zustimmung des Vermieters.", "Die Untervermietung bedarf der Zustimmung der Vermieterin.", "Die Untervermietung bedarf der Genehmigung des Vermieters.", "Die Untervermietung bedarf der Erlaubnis des Vermieters."],
@@ -116,7 +116,7 @@ export const DE_C2_U02: Lesson[] = [
           {
             type: "speak",
             text: "Änderungen dieses Vertrages bedürfen der Schriftform.",
-            tip: "In bedürfen, the ü is short and the stress falls on the second syllable: be-DÜR-fen.",
+            tip: "In \"bedürfen\", the ü is short and the stress falls on the second syllable: be-DÜR-fen.",
             explanation: "The written-form clause: \"bedürfen\" + genitive \"der Schriftform\".",
           },
         ],
@@ -216,8 +216,8 @@ export const DE_C2_U02: Lesson[] = [
       {
         type: "speak",
         text: "Die Untervermietung bedarf der Zustimmung des Vermieters.",
-        prompt: "Say it in German, using bedürfen: Subletting requires the landlord's consent.",
-        explanation: "Two genitives in a row: \"der Zustimmung\" (object of bedürfen) and \"des Vermieters\" (whose consent).",
+        prompt: "Say it in German, using \"bedürfen\": Subletting requires the landlord's consent.",
+        explanation: "Two genitives in a row: \"der Zustimmung\" (object of \"bedürfen\") and \"des Vermieters\" (whose consent).",
       },
     ],
   },
@@ -226,7 +226,7 @@ export const DE_C2_U02: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Juristisches Deutsch und Amtsdeutsch, Part 5 of 7",
-    summary: "Conditions and consequences in legal style: sofern, soweit, es sei denn, andernfalls, widrigenfalls, and verb-first conditions with the so that opens the main clause.",
+    summary: "Express conditions and consequences in legal style with \"sofern\", \"soweit\", \"es sei denn\", \"andernfalls\" and \"widrigenfalls\", and build verb-first conditions with the \"so\" that opens the main clause.",
     duration: "20 min",
     sections: [
       {
@@ -234,7 +234,7 @@ export const DE_C2_U02: Lesson[] = [
         body: [
           "Legal texts rarely use plain \"wenn\". \"Sofern\" means provided that, if: \"Sofern nichts anderes vereinbart ist, gilt die gesetzliche Kündigungsfrist.\" \"Soweit\" means to the extent that, insofar as: \"Soweit der Schaden durch die Versicherung gedeckt ist, entfällt die Haftung des Mieters.\" The difference matters: \"sofern\" is all-or-nothing (if the condition holds, the rule applies), \"soweit\" is partial (the rule applies only as far as the condition reaches).",
           "\"Es sei denn\" (unless) uses the old Konjunktiv I of \"sein\" and is followed either by a dass-clause or by main-clause word order: \"Die Kaution wird zurückgezahlt, es sei denn, die Wohnung ist beschädigt\" or \"..., es sei denn, dass die Wohnung beschädigt ist.\" Both are correct; the main-clause version is more common.",
-          "\"Vorausgesetzt, (dass) ...\" (provided that) and \"unter der Voraussetzung, dass ...\" are the explicit alternatives. All of these clauses send the verb to the end, except \"es sei denn\" without \"dass\".",
+          "\"Vorausgesetzt, (dass) ...\" (provided that) and \"unter der Voraussetzung, dass ...\" are the explicit alternatives. All of these clauses send the verb to the end, except \"es sei denn\" and \"vorausgesetzt\" without \"dass\", which are followed by main-clause order.",
         ],
         examples: [
           { es: "Sofern nichts anderes vereinbart ist, gilt die gesetzliche Frist.", en: "Unless otherwise agreed, the statutory period applies." },
@@ -265,7 +265,7 @@ export const DE_C2_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Soweit der Schaden versichert ist, haftet der Mieter nicht. The damage is 5,000 euros; the insurance covers 3,000. What does the tenant owe?",
+            question: "\"Soweit der Schaden versichert ist, haftet der Mieter nicht.\" The damage is 5,000 euros; the insurance covers 3,000. What does the tenant owe?",
             options: ["2,000 euros", "Nothing", "5,000 euros", "3,000 euros"],
             correctIndex: 0,
             explanation: "\"Soweit\" is partial: the tenant is free only to the extent of the insured amount. With \"sofern\" the reading would be all-or-nothing.",
@@ -312,7 +312,7 @@ export const DE_C2_U02: Lesson[] = [
         heading: "Sollte der Käufer ..., so ...: conditions without wenn",
         body: [
           "The most typical condition in contracts puts the verb first and drops \"wenn\": \"Sollte der Käufer in Verzug geraten, so ist der Verkäufer berechtigt, vom Vertrag zurückzutreten.\" (Should the buyer default, the seller is entitled to withdraw.) \"Sollte\" + infinitive at the end adds a sense of if, against expectation. Without \"sollte\" the plain verb comes first: \"Kommt der Mieter seiner Pflicht nicht nach, ...\" (If the tenant fails to fulfil his obligation ...), \"Wird die Frist versäumt, ...\" (If the deadline is missed ...).",
-          "The main clause often begins with \"so\" (or \"dann\"), which takes position 1, so the verb follows it directly: \"..., so ist der Verkäufer berechtigt\". English speakers often leave out \"so\" and then forget to invert: *\"Sollte der Käufer in Verzug geraten, der Verkäufer ist berechtigt\". Without \"so\", the condition itself is position 1 and the verb still comes next: \"..., ist der Verkäufer berechtigt\".",
+          "The main clause often begins with \"so\" (or \"dann\"), which takes position 1, so the verb follows it directly: \"..., so ist der Verkäufer berechtigt\". English speakers often leave out \"so\" and then forget to invert: \"*Sollte der Käufer in Verzug geraten, der Verkäufer ist berechtigt*\". Without \"so\", the condition itself is position 1 and the verb still comes next: \"..., ist der Verkäufer berechtigt\".",
           "This \"so\" is not so in the sense of therefore; it is a resumptive word that marks the start of the consequence. It is optional and slightly old-fashioned, but standard in legal texts.",
         ],
         examples: [
@@ -326,7 +326,7 @@ export const DE_C2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. Start with Sollte.",
+            prompt: "Translate into German. Start with \"Sollte\".",
             source: "Should the buyer default, the seller may withdraw from the contract.",
             answer: "Sollte der Käufer in Verzug geraten, so kann der Verkäufer vom Vertrag zurücktreten.",
             altAnswers: ["Sollte der Käufer in Verzug geraten, kann der Verkäufer vom Vertrag zurücktreten.", "Sollte der Käufer in Verzug geraten, so ist der Verkäufer berechtigt, vom Vertrag zurückzutreten.", "Sollte der Käufer in Verzug geraten, ist der Verkäufer berechtigt, vom Vertrag zurückzutreten.", "Sollte der Käufer in Verzug kommen, so kann der Verkäufer vom Vertrag zurücktreten.", "Sollte der Käufer in Verzug kommen, kann der Verkäufer vom Vertrag zurücktreten."],
@@ -335,7 +335,7 @@ export const DE_C2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, without wenn.",
+            prompt: "Translate into German, without \"wenn\".",
             source: "If the deadline is missed, the claim lapses.",
             answer: "Wird die Frist versäumt, so verfällt der Anspruch.",
             altAnswers: ["Wird die Frist versäumt, verfällt der Anspruch.", "Wird die Frist nicht eingehalten, so verfällt der Anspruch.", "Wird die Frist nicht eingehalten, verfällt der Anspruch.", "Sollte die Frist versäumt werden, so verfällt der Anspruch.", "Sollte die Frist versäumt werden, verfällt der Anspruch."],
@@ -344,7 +344,7 @@ export const DE_C2_U02: Lesson[] = [
           {
             type: "speak",
             text: "Sollten Sie Fragen haben, stehen wir Ihnen gern zur Verfügung.",
-            prompt: "Say it in German, without wenn: Should you have any questions, we are happy to help.",
+            prompt: "Say it in German, without \"wenn\": Should you have any questions, we are happy to help.",
             explanation: "The everyday business use of the verb-first condition: \"Sollten Sie ...\", then the main verb \"stehen\" directly after the comma.",
           },
         ],
@@ -358,7 +358,7 @@ export const DE_C2_U02: Lesson[] = [
         source: "We will deliver tomorrow, provided the payment has arrived.",
         answer: "Wir liefern morgen, vorausgesetzt, die Zahlung ist eingegangen.",
         altAnswers: ["Wir liefern morgen, sofern die Zahlung eingegangen ist.", "Wir liefern morgen, vorausgesetzt, dass die Zahlung eingegangen ist.", "Wir werden morgen liefern, sofern die Zahlung eingegangen ist.", "Wir liefern morgen, vorausgesetzt, die Zahlung ist bei uns eingegangen.", "Wir liefern morgen, sofern die Zahlung bei uns eingegangen ist."],
-        explanation: "\"Vorausgesetzt\" + main-clause order or dass; \"sofern\" + verb at the end. \"Eingehen\" is used for payments and letters arriving.",
+        explanation: "\"Vorausgesetzt\" + main-clause order or \"dass\"; \"sofern\" + verb at the end. \"Eingehen\" is used for payments and letters arriving.",
       },
       {
         type: "translate",
@@ -372,7 +372,7 @@ export const DE_C2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, without wenn.",
+        prompt: "Translate into German, without \"wenn\".",
         source: "If the tenant does not pay, the landlord can terminate.",
         answer: "Zahlt der Mieter nicht, kann der Vermieter kündigen.",
         altAnswers: ["Zahlt der Mieter nicht, so kann der Vermieter kündigen.", "Sollte der Mieter nicht zahlen, kann der Vermieter kündigen.", "Sollte der Mieter nicht zahlen, so kann der Vermieter kündigen.", "Zahlt die Mieterin nicht, kann die Vermieterin kündigen."],
@@ -444,7 +444,7 @@ export const DE_C2_U02: Lesson[] = [
         type: "speak",
         text: "Sollte der Käufer in Verzug geraten, so ist der Verkäufer berechtigt, vom Vertrag zurückzutreten.",
         prompt: "Read the clause aloud.",
-        tip: "Pause slightly after geraten and after berechtigt: the commas mark the clause boundaries.",
+        tip: "Pause slightly after \"geraten\" and after \"berechtigt\": the commas mark the clause boundaries.",
         explanation: "Verb-first condition, resumptive \"so\" + verb, then a zu-infinitive with the separable \"zurückzutreten\".",
       },
     ],
@@ -454,20 +454,20 @@ export const DE_C2_U02: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Error Hunt: Schlecht Formulierte Klauseln",
-    summary: "Find and fix flawed clauses: case errors after gemäß, laut, zuzüglich and abzüglich, wrong participle endings, an ambiguous dieser, and deadlines that leave too much open.",
+    summary: "Find and fix flawed clauses: case errors after \"gemäß\", \"laut\", \"zuzüglich\" and \"abzüglich\", wrong participle endings, an ambiguous \"dieser\", and deadlines that leave too much open.",
     duration: "18 min",
     sections: [
       {
         heading: "Case errors after legal prepositions",
         body: [
-          "Error 1: *\"gemäß des Vertrages\". \"Gemäß\" takes the dative: \"gemäß dem Vertrag\" or \"dem Vertrag gemäß\". The genitive spreads by analogy with \"laut\", \"wegen\" and \"aufgrund\", and you will see it in real contracts, but it is still marked as wrong in careful German.",
-          "Error 2: *\"zuzüglich die Versandkosten\". \"Zuzüglich\" and \"abzüglich\" take the genitive: \"zuzüglich der Versandkosten\". With a bare plural noun, where the genitive is invisible, the dative is used: \"zuzüglich Versandkosten\" is fine, as is \"zuzüglich 19 % Mehrwertsteuer\". \"Laut\" takes the dative or genitive: \"laut dem Gutachten\" or \"laut des Gutachtens\" (both accepted), but never the accusative.",
-          "Error 3: *\"innerhalb zwei Wochen\". \"Innerhalb\" needs either the genitive or \"von\" + dative: \"innerhalb zweier Wochen\" (rare, stiff) or \"innerhalb von zwei Wochen\" (normal). \"Binnen\" takes the dative or (formal) the genitive: \"binnen zwei Wochen\", \"binnen eines Monats\".",
+          "Error 1: \"*gemäß des Vertrages*\". \"Gemäß\" takes the dative: \"gemäß dem Vertrag\" or \"dem Vertrag gemäß\". The genitive spreads by analogy with \"laut\", \"wegen\" and \"aufgrund\", and you will see it in real contracts, but it is still marked as wrong in careful German.",
+          "Error 2: \"*zuzüglich die Versandkosten*\". \"Zuzüglich\" and \"abzüglich\" take the genitive: \"zuzüglich der Versandkosten\". With a bare plural noun, where the genitive is invisible, the dative is used: \"zuzüglich Versandkosten\" is fine, as is \"zuzüglich 19 % Mehrwertsteuer\". \"Laut\" takes the dative or genitive: \"laut dem Gutachten\" or \"laut des Gutachtens\" (both accepted), but never the accusative.",
+          "Error 3: \"*innerhalb zwei Wochen*\". \"Innerhalb\" needs either the genitive or \"von\" + dative: \"innerhalb zweier Wochen\" (rare, stiff) or \"innerhalb von zwei Wochen\" (normal). \"Binnen\" takes the dative or (formal) the genitive: \"binnen zwei Wochen\", \"binnen eines Monats\".",
         ],
         examples: [
           { es: "Gemäß dem Vertrag ist die Miete monatlich im Voraus zu zahlen.", en: "Under the contract, rent is payable monthly in advance." },
           { es: "Der Preis versteht sich zuzüglich der Versandkosten.", en: "The price is exclusive of shipping costs." },
-          { es: "Zuzüglich Versandkosten kostet das Paket 34 Euro.", en: "Including shipping, the parcel costs 34 euros." },
+          { es: "Zuzüglich Versandkosten kostet das Paket 34 Euro.", en: "With shipping added, the parcel costs 34 euros." },
           { es: "Laut dem Gutachten ist die Mauer einsturzgefährdet.", en: "According to the expert report, the wall is in danger of collapsing." },
           { es: "Die Ware ist innerhalb von zwei Wochen zurückzusenden.", en: "The goods must be returned within two weeks." },
         ],
@@ -475,11 +475,11 @@ export const DE_C2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, with correct case after gemäß.",
+            prompt: "Translate into German, with correct case after \"gemäß\".",
             source: "Under the contract, the rent is payable in advance.",
             answer: "Gemäß dem Vertrag ist die Miete im Voraus zu zahlen.",
             altAnswers: ["Dem Vertrag gemäß ist die Miete im Voraus zu zahlen.", "Laut Vertrag ist die Miete im Voraus zu zahlen.", "Gemäß Vertrag ist die Miete im Voraus zu zahlen.", "Nach dem Vertrag ist die Miete im Voraus zu zahlen.", "Gemäß dem Vertrag ist die Miete im Voraus zu entrichten."],
-            explanation: "\"Gemäß\" + dative: \"gemäß dem Vertrag\". Not *\"gemäß des Vertrages\".",
+            explanation: "\"Gemäß\" + dative: \"gemäß dem Vertrag\". Not \"*gemäß des Vertrages*\".",
           },
           {
             type: "fill-blank",
@@ -487,15 +487,15 @@ export const DE_C2_U02: Lesson[] = [
             en: "The price is exclusive of [the shipping costs].",
             sentence: "Der Preis versteht sich zuzüglich ___.",
             answer: "der Versandkosten",
-            explanation: "\"Zuzüglich\" + genitive: \"der Versandkosten\". The error to fix is *\"zuzüglich die Versandkosten\".",
+            explanation: "\"Zuzüglich\" + genitive: \"der Versandkosten\". The error to fix is \"*zuzüglich die Versandkosten*\".",
           },
         ],
       },
       {
         heading: "Participle endings and the dangling dieser",
         body: [
-          "Error 4: wrong endings on participial attributes. *\"die fristgerecht eingereichte Unterlagen\" must be \"die fristgerecht eingereichten Unterlagen\" (plural after \"die\": -en). *\"mit dem vom Mieter unterschriebene Formular\" must be \"mit dem vom Mieter unterschriebenen Formular\". Check the ending against the article, exactly as for a simple adjective: the words between the article and the noun don't change the rule.",
-          "Error 5: the dangling \"dieser\". \"Der Vermieter informiert den Hausverwalter, sobald dieser die Unterlagen erhalten hat.\" Who received the documents? \"Dieser\" normally points to the last-mentioned masculine noun (the Hausverwalter), but readers and courts may disagree. Fix it by repeating the noun: \"..., sobald der Hausverwalter die Unterlagen erhalten hat\". Contracts prefer repetition to elegance.",
+          "Error 4: wrong endings on participial attributes. \"*die fristgerecht eingereichte Unterlagen*\" must be \"die fristgerecht eingereichten Unterlagen\" (plural after \"die\": -en). \"*mit dem vom Mieter unterschriebene Formular*\" must be \"mit dem vom Mieter unterschriebenen Formular\". Check the ending against the article, exactly as for a simple adjective: the words between the article and the noun don't change the rule.",
+          "Error 5: the dangling \"dieser\". \"Der Vermieter informiert den Hausverwalter, sobald dieser die Unterlagen erhalten hat.\" Who received the documents? \"Dieser\" normally points to the last-mentioned masculine noun (\"den Hausverwalter\"), but readers and courts may disagree. Fix it by repeating the noun: \"..., sobald der Hausverwalter die Unterlagen erhalten hat\". Contracts prefer repetition to elegance.",
           "Similarly \"er\", \"sein\" and \"dessen\" can be ambiguous. \"Dessen\" (whose, his) refers to the last-named masculine/neuter noun and is used precisely to avoid ambiguity: \"Herr Weber und sein Sohn und dessen Frau\" means the son's wife.",
         ],
         examples: [
@@ -517,7 +517,7 @@ export const DE_C2_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Herr Becker sprach mit seinem Anwalt und dessen Sekretärin. Whose secretary was it?",
+            question: "\"Herr Becker sprach mit seinem Anwalt und dessen Sekretärin.\" Whose secretary was it?",
             options: ["The lawyer's", "Herr Becker's", "Nobody's: she was a stranger", "It is impossible to tell"],
             correctIndex: 0,
             explanation: "\"Dessen\" refers to the last-mentioned masculine noun (\"Anwalt\"). \"Seiner Sekretärin\" would be ambiguous.",
@@ -572,7 +572,7 @@ export const DE_C2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. The faulty version had *gemäß des Gesetzes.",
+        prompt: "Translate into German. The faulty version had \"*gemäß des Gesetzes*\".",
         source: "In accordance with the law, the fee is waived.",
         answer: "Gemäß dem Gesetz entfällt die Gebühr.",
         altAnswers: ["Dem Gesetz gemäß entfällt die Gebühr.", "Laut Gesetz entfällt die Gebühr.", "Nach dem Gesetz entfällt die Gebühr.", "Gemäß dem Gesetz wird auf die Gebühr verzichtet.", "Gemäß Gesetz entfällt die Gebühr."],
@@ -580,7 +580,7 @@ export const DE_C2_U02: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Write the German for the bold words. The faulty version had *zuzüglich die Mehrwertsteuer.",
+        prompt: "Write the German for the bold words. The faulty version had \"*zuzüglich die Mehrwertsteuer*\".",
         en: "The price is 500 euros [plus VAT].",
         sentence: "Der Preis beträgt 500 Euro ___.",
         answer: "zuzüglich der Mehrwertsteuer",
@@ -590,7 +590,7 @@ export const DE_C2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. The faulty version had *die vom Notar beglaubigte Kopien.",
+        prompt: "Translate into German. The faulty version had \"*die vom Notar beglaubigte Kopien*\".",
         source: "Please enclose the copies certified by the notary.",
         answer: "Bitte fügen Sie die vom Notar beglaubigten Kopien bei.",
         altAnswers: ["Bitte legen Sie die vom Notar beglaubigten Kopien bei.", "Bitte fügen Sie die von der Notarin beglaubigten Kopien bei.", "Bitte legen Sie die von der Notarin beglaubigten Kopien bei.", "Bitte fügen Sie die notariell beglaubigten Kopien bei."],
@@ -599,7 +599,7 @@ export const DE_C2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. The faulty version had *innerhalb zwei Wochen.",
+        prompt: "Translate into German. The faulty version had \"*innerhalb zwei Wochen*\".",
         source: "The goods must be returned within two weeks.",
         answer: "Die Ware ist innerhalb von zwei Wochen zurückzusenden.",
         altAnswers: ["Die Ware muss innerhalb von zwei Wochen zurückgesendet werden.", "Die Ware ist binnen zwei Wochen zurückzusenden.", "Die Ware ist innerhalb von zwei Wochen zurückzuschicken.", "Die Ware muss innerhalb von zwei Wochen zurückgeschickt werden.", "Die Waren sind innerhalb von zwei Wochen zurückzusenden."],
@@ -608,7 +608,7 @@ export const DE_C2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, avoiding an ambiguous dieser.",
+        prompt: "Translate into German, avoiding an ambiguous \"dieser\".",
         source: "The buyer informs the seller as soon as the seller has delivered the goods.",
         answer: "Der Käufer informiert den Verkäufer, sobald der Verkäufer die Ware geliefert hat.",
         altAnswers: ["Der Käufer benachrichtigt den Verkäufer, sobald der Verkäufer die Ware geliefert hat.", "Die Käuferin informiert den Verkäufer, sobald der Verkäufer die Ware geliefert hat.", "Der Käufer informiert den Verkäufer, sobald der Verkäufer die Waren geliefert hat."],
@@ -670,8 +670,8 @@ export const DE_C2_U02: Lesson[] = [
     slug: "c2-contrast-gesamtschuldnerisch-kuendigen",
     level: "DE-C2",
     number: 4,
-    title: "Contrast Clinic: Gesamtschuldnerisch oder Anteilig; Kündigen, Widerrufen, Anfechten, Zurücktreten",
-    summary: "Joint and several versus proportional liability, and the four legal exits from a contract: kündigen, widerrufen, anfechten and vom Vertrag zurücktreten.",
+    title: "Contrast Clinic: Gesamtschuldnerisch oder anteilig; Kündigen, Widerrufen, Anfechten, Zurücktreten",
+    summary: "Tell joint and several liability from proportional liability, and choose the right legal exit from a contract: \"kündigen\", \"widerrufen\", \"anfechten\" or \"vom Vertrag zurücktreten\".",
     duration: "18 min",
     sections: [
       {
@@ -700,7 +700,7 @@ export const DE_C2_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Lena and Mehmet rent a flat as Gesamtschuldner. Mehmet stops paying his half. What can the landlord do?",
+            question: "Lena and Mehmet rent a flat as \"Gesamtschuldner\". Mehmet stops paying his half. What can the landlord do?",
             options: ["Demand the full rent from Lena.", "Demand only Lena's half from Lena.", "Nothing until Mehmet moves out.", "Reduce the rent by half."],
             correctIndex: 0,
             explanation: "Joint and several liability: the creditor may claim the whole amount from any one of the debtors.",
@@ -712,7 +712,7 @@ export const DE_C2_U02: Lesson[] = [
         body: [
           "\"Kündigen\" ends a continuing contract for the future, usually with notice: a job, a flat, a gym membership, a phone contract, an insurance policy. \"Ich habe meinen Handyvertrag gekündigt.\" The person can also be the object, in the passive or with the dative: \"Ihm wurde gekündigt\" (he was dismissed/given notice). \"Fristlos kündigen\" means without notice, for serious cause.",
           "\"Widerrufen\" revokes a declaration. For consumers it is a specific right: most contracts concluded online or at the door can be revoked within 14 days without giving reasons (\"das Widerrufsrecht\"). \"Ich widerrufe hiermit den von mir abgeschlossenen Vertrag über ...\". One also revokes a power of attorney (\"eine Vollmacht widerrufen\") or a statement (\"eine Aussage widerrufen\").",
-          "Trap: \"kündigen\" never means cancelling an appointment or an event. You \"sagen einen Termin ab\", \"stornieren eine Bestellung / Buchung\" (cancel an order or booking), and an event \"fällt aus\" or \"wird abgesagt\". *\"Ich habe das Meeting gekündigt\" makes a German colleague smile.",
+          "Trap: \"kündigen\" never means cancelling an appointment or an event. You \"sagen einen Termin ab\", \"stornieren eine Bestellung / Buchung\" (cancel an order or booking), and an event \"fällt aus\" or \"wird abgesagt\". \"*Ich habe das Meeting gekündigt*\" makes a German colleague smile.",
         ],
         examples: [
           { es: "Ich habe meine Wohnung zum 31. März gekündigt.", en: "I've given notice on my flat for 31 March." },
@@ -745,7 +745,7 @@ export const DE_C2_U02: Lesson[] = [
             type: "speak",
             text: "Hiermit widerrufe ich den am 3. Mai geschlossenen Vertrag.",
             prompt: "Say it in German: I hereby revoke the contract concluded on 3 May.",
-            tip: "Widerrufen is stressed on the third syllable: wider-RU-fen, and it's inseparable.",
+            tip: "\"Widerrufen\" is stressed on the third syllable: wi-der-RU-fen, and it's inseparable.",
             explanation: "\"Widerrufen\" is inseparable (\"ich widerrufe\"); the participial attribute \"am 3. Mai geschlossenen\" sits before the noun.",
           },
         ],
@@ -859,7 +859,7 @@ export const DE_C2_U02: Lesson[] = [
           { left: "zurücktreten", right: "withdraw because the other side failed to perform" },
           { left: "absagen", right: "cancel an appointment or event" },
         ],
-        explanation: "English cancel covers all five; German chooses by the legal situation.",
+        explanation: "English often says cancel for all five; German chooses by the legal situation.",
       },
       {
         type: "multiple-choice",
@@ -894,7 +894,7 @@ export const DE_C2_U02: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Juristisches Deutsch und Amtsdeutsch, Part 6 of 7",
-    summary: "Reminders, payment orders and deadlines: Mahnung, Mahnbescheid, Fristsetzung, Säumniszuschlag, Zustellung, and the nominal phrases nach Ablauf der Frist, mit Wirkung zum, vorbehaltlich.",
+    summary: "Understand reminders, payment orders and deadlines (\"Mahnung\", \"Mahnbescheid\", \"Fristsetzung\", \"Säumniszuschlag\", \"Zustellung\") and use nominal phrases such as \"nach Ablauf der Frist\", \"mit Wirkung zum\" and \"vorbehaltlich\".",
     duration: "18 min",
     sections: [
       {
@@ -928,7 +928,7 @@ export const DE_C2_U02: Lesson[] = [
             question: "What does it mean?",
             options: ["Unfortunately we have not received any payment so far.", "Unfortunately we cannot accept payment today.", "Unfortunately your payment arrived too late.", "Unfortunately we cannot find your invoice."],
             correctIndex: 0,
-            explanation: "The classic first line of a Mahnung: \"keinen Zahlungseingang feststellen\" = to register no incoming payment.",
+            explanation: "The classic first line of a \"Mahnung\": \"keinen Zahlungseingang feststellen\" = to register no incoming payment.",
           },
         ],
       },
@@ -967,7 +967,7 @@ export const DE_C2_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your employer writes: Wir kündigen das Arbeitsverhältnis fristlos. What happens?",
+            question: "Your employer writes: \"Wir kündigen das Arbeitsverhältnis fristlos.\" What happens?",
             options: ["Your job ends immediately.", "Your job ends after the normal notice period.", "Your contract is extended indefinitely.", "Your notice arrived on time."],
             correctIndex: 0,
             explanation: "\"Fristlos\" = without notice. On time would be \"fristgerecht\".",
@@ -978,7 +978,7 @@ export const DE_C2_U02: Lesson[] = [
         heading: "Nach Ablauf, vorbehaltlich, nach Maßgabe: the nominal phrases",
         body: [
           "Official notices compress whole clauses into prepositional phrases with a noun. \"Wenn die Frist abgelaufen ist\" → \"nach Ablauf der Frist\". \"Wenn Sie nicht zahlen\" → \"bei Nichtzahlung\". \"Nachdem wir Ihr Schreiben erhalten haben\" → \"nach Eingang Ihres Schreibens\". \"Wenn der Vorstand zustimmt\" → \"vorbehaltlich der Zustimmung des Vorstands\".",
-          "Most of these prepositions take the genitive (\"nach Ablauf der Frist\" is \"nach\" + dative \"Ablauf\" + genitive attribute) and stack: \"nach Ablauf der in § 4 genannten Frist\". Reading them fast means finding the hidden verb: \"Ablauf\" ← \"ablaufen\", \"Eingang\" ← \"eingehen\", \"Zustimmung\" ← \"zustimmen\".",
+          "Most of these phrases are a preposition + noun + genitive attribute (\"nach Ablauf der Frist\" is \"nach\" + dative \"Ablauf\" + genitive \"der Frist\"; \"vorbehaltlich\" itself takes the genitive), and they stack: \"nach Ablauf der in § 4 genannten Frist\". Reading them fast means finding the hidden verb: \"Ablauf\" ← \"ablaufen\", \"Eingang\" ← \"eingehen\", \"Zustimmung\" ← \"zustimmen\".",
           "Use them in your own formal letters, but sparingly: one per sentence is elegant, three make your text hard to read.",
         ],
         examples: [
@@ -1018,7 +1018,7 @@ export const DE_C2_U02: Lesson[] = [
         source: "You have been in default since 1 June.",
         answer: "Sie befinden sich seit dem 1. Juni in Verzug.",
         altAnswers: ["Sie sind seit dem 1. Juni in Verzug.", "Seit dem 1. Juni befinden Sie sich in Verzug.", "Seit dem 1. Juni sind Sie in Verzug.", "Du bist seit dem 1. Juni in Verzug."],
-        explanation: "\"In Verzug sein / sich in Verzug befinden\": seit + present tense for a state still continuing.",
+        explanation: "\"In Verzug sein / sich in Verzug befinden\": \"seit\" + present tense for a state still continuing.",
       },
       {
         type: "translate",
@@ -1084,10 +1084,10 @@ export const DE_C2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You received a Mahnbescheid from the court but you don't owe the money. What should you do within two weeks?",
+        question: "You received a \"Mahnbescheid\" from the court but you don't owe the money. What should you do within two weeks?",
         options: ["Widerspruch einlegen", "Revision einlegen", "den Vertrag kündigen", "nichts, das Gericht prüft den Anspruch"],
         correctIndex: 0,
-        explanation: "The court does not check the claim in the Mahnverfahren: you must lodge \"Widerspruch\" yourself, or a Vollstreckungsbescheid follows.",
+        explanation: "The court does not check the claim in the \"Mahnverfahren\": you must lodge \"Widerspruch\" yourself, or a \"Vollstreckungsbescheid\" follows.",
       },
       {
         type: "listen-choose",
@@ -1106,7 +1106,7 @@ export const DE_C2_U02: Lesson[] = [
         type: "speak",
         text: "Wir setzen Ihnen hiermit eine letzte Frist bis zum 20. Juni.",
         prompt: "Say it in German: We hereby set you a final deadline of 20 June.",
-        tip: "Read the date as zwanzigsten Juni.",
+        tip: "Read the date as \"zwanzigsten Juni\".",
         explanation: "\"Jemandem eine Frist setzen\" + \"bis zum\" + date.",
       },
     ],
@@ -1116,15 +1116,15 @@ export const DE_C2_U02: Lesson[] = [
     level: "DE-C2",
     number: 6,
     title: "Juristisches Deutsch und Amtsdeutsch, Part 7 of 7",
-    summary: "Buying property through a notary (Kaufvertrag, Beurkundung, Grundbuch, Auflassung, Grundschuld), challenging authorities in court, and extended participial attributes.",
+    summary: "Follow a property purchase through the notary (\"Kaufvertrag\", \"Beurkundung\", \"Grundbuch\", \"Auflassung\", \"Grundschuld\"), challenge an authority in court, and read and build extended participial attributes.",
     duration: "20 min",
     sections: [
       {
         heading: "Notar, Beurkundung, Grundbuch",
         body: [
           "In Germany, a contract to buy land or a flat is only valid if \"notariell beurkundet\" (notarised): the notary reads the whole contract aloud to both parties, explains it and has them sign. A handshake or an email is legally void. The neutral notary is chosen by the parties, usually by the buyer, who also pays the fees.",
-          "\"Das Grundbuch\" (land register), kept at the \"Grundbuchamt\" of the Amtsgericht, records who owns each property and what charges lie on it. Ownership passes only when the new owner is entered: \"im Grundbuch eingetragen\". Before that, the notary registers \"eine Auflassungsvormerkung\" (a priority notice) that protects the buyer. \"Die Auflassung\" itself is the formal agreement between seller and buyer that ownership shall pass.",
-          "Costs on top of the price: \"die Grunderwerbsteuer\" (land transfer tax, 3.5 to 6.5 per cent depending on the Land), notary and land register fees, and often \"die Maklerprovision\" or \"Courtage\" (estate agent's commission). Most buyers borrow from a bank, which secures the loan with \"eine Grundschuld\" (a land charge) entered in the Grundbuch.",
+          "\"Das Grundbuch\" (land register), kept at the \"Grundbuchamt\" of the \"Amtsgericht\", records who owns each property and what charges lie on it. Ownership passes only when the new owner is entered: \"im Grundbuch eingetragen\". Before that, the notary registers \"eine Auflassungsvormerkung\" (a priority notice) that protects the buyer. \"Die Auflassung\" itself is the formal agreement between seller and buyer that ownership shall pass.",
+          "Costs on top of the price: \"die Grunderwerbsteuer\" (land transfer tax, 3.5 to 6.5 per cent depending on the \"Land\"), notary and land register fees, and often \"die Maklerprovision\" or \"Courtage\" (estate agent's commission). Most buyers borrow from a bank, which secures the loan with \"eine Grundschuld\" (a land charge) entered in the \"Grundbuch\".",
         ],
         examples: [
           { es: "Der Kaufvertrag muss notariell beurkundet werden.", en: "The purchase contract must be notarised." },
@@ -1158,7 +1158,7 @@ export const DE_C2_U02: Lesson[] = [
         heading: "Die vom Notar beurkundete Auflassung: extended participial attributes",
         body: [
           "Legal German packs information between the article and the noun. A relative clause like \"die Auflassung, die vom Notar beurkundet wurde\" becomes \"die vom Notar beurkundete Auflassung\". \"Der Eigentümer, der im Grundbuch eingetragen ist\" becomes \"der im Grundbuch eingetragene Eigentümer\". The participle takes the normal adjective ending and stands directly before the noun; everything that belonged to it comes before it.",
-          "Past participles (\"beurkundet\", \"eingetragen\") have a passive or completed meaning: the Auflassung that was notarised. Present participles (\"-end\") are active and simultaneous: \"der den Vertrag verlesende Notar\" (the notary reading out the contract). With \"zu\" + present participle the meaning is must be: \"die zu zahlende Steuer\" (the tax to be paid), \"die einzureichenden Unterlagen\" (the documents to be submitted).",
+          "Past participles (\"beurkundet\", \"eingetragen\") have a passive or completed meaning: the \"Auflassung\" that was notarised. Present participles (\"-end\") are active and simultaneous: \"der den Vertrag verlesende Notar\" (the notary reading out the contract). With \"zu\" + present participle the meaning is must be: \"die zu zahlende Steuer\" (the tax to be paid), \"die einzureichenden Unterlagen\" (the documents to be submitted).",
           "To read these quickly: when an article is followed by something that is not a noun (\"die vom ...\", \"der im ...\"), hold the article in mind and jump forward to the first participle + noun; then read the middle part as a relative clause.",
         ],
         examples: [
@@ -1182,16 +1182,16 @@ export const DE_C2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, with zu + present participle.",
+            prompt: "Translate into German, with \"zu\" + present participle.",
             source: "The tax payable is 18,000 euros.",
             answer: "Die zu zahlende Steuer beträgt 18.000 Euro.",
             altAnswers: ["Die zu entrichtende Steuer beträgt 18.000 Euro.", "Die zu zahlende Steuer beläuft sich auf 18.000 Euro."],
-            explanation: "\"Die zu zahlende Steuer\" = the tax that must be paid: zu + present participle has a passive, obligatory meaning.",
+            explanation: "\"Die zu zahlende Steuer\" = the tax that must be paid: \"zu\" + present participle has a passive, obligatory meaning.",
           },
           {
             type: "speak",
             text: "Die vom Notar beurkundete Auflassung liegt dem Grundbuchamt vor.",
-            tip: "Keep the long noun phrase together in one breath up to Auflassung, then pause slightly.",
+            tip: "Keep the long noun phrase together in one breath up to \"Auflassung\", then pause slightly.",
             explanation: "One extended attribute (\"vom Notar beurkundete\") and \"vorliegen\" + dative (to be with, to lie before).",
           },
         ],
@@ -1199,9 +1199,9 @@ export const DE_C2_U02: Lesson[] = [
       {
         heading: "Widerspruchsverfahren and Klage vor dem Verwaltungsgericht",
         body: [
-          "If an authority rejects your application, the usual path is first \"das Widerspruchsverfahren\": you lodge a Widerspruch and the authority (or the next higher one) reviews its decision and issues \"einen Widerspruchsbescheid\". In some Länder and for some areas this step has been abolished, and you go straight to court; the Rechtsbehelfsbelehrung tells you which.",
-          "If the Widerspruch fails, you can bring \"eine Klage vor dem Verwaltungsgericht\", normally within one month of receiving the Widerspruchsbescheid. In administrative law, the plaintiff is \"der Kläger\", the defendant is the authority's legal entity (\"die Stadt Leipzig\", \"das Land\").",
-          "\"Die aufschiebende Wirkung\" (suspensive effect) is a key concept: as a rule, a Widerspruch or a Klage suspends the decision until it is decided. But some decisions are \"sofort vollziehbar\" (immediately enforceable), for example tax demands or a Bescheid with an \"Anordnung der sofortigen Vollziehung\": then you must pay or comply first and argue later, unless a court restores the suspensive effect.",
+          "If an authority rejects your application, the usual path is first \"das Widerspruchsverfahren\": you lodge a \"Widerspruch\" and the authority (or the next higher one) reviews its decision and issues \"einen Widerspruchsbescheid\". In some \"Länder\" and for some areas this step has been abolished, and you go straight to court; the \"Rechtsbehelfsbelehrung\" tells you which.",
+          "If the \"Widerspruch\" fails, you can bring \"eine Klage vor dem Verwaltungsgericht\", normally within one month of receiving the \"Widerspruchsbescheid\". In administrative law, the plaintiff is \"der Kläger\", the defendant is the authority's legal entity (\"die Stadt Leipzig\", \"das Land\").",
+          "\"Die aufschiebende Wirkung\" (suspensive effect) is a key concept: as a rule, a Widerspruch or a Klage suspends the decision until it is decided. But some decisions are \"sofort vollziehbar\" (immediately enforceable), for example tax demands or a \"Bescheid\" with an \"Anordnung der sofortigen Vollziehung\": then you must pay or comply first and argue later, unless a court restores the suspensive effect.",
         ],
         examples: [
           { es: "Der Widerspruch hat aufschiebende Wirkung.", en: "The objection has suspensive effect." },
@@ -1222,7 +1222,7 @@ export const DE_C2_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Der Bescheid ist sofort vollziehbar. You have lodged a Widerspruch. What does that mean for you?",
+            question: "\"Der Bescheid ist sofort vollziehbar.\" You have lodged a \"Widerspruch\". What does that mean for you?",
             options: ["You must comply now, even while the objection is pending.", "Nothing happens until the objection is decided.", "The decision has been cancelled.", "You may no longer object."],
             correctIndex: 0,
             explanation: "\"Sofort vollziehbar\" means the objection does not have suspensive effect: comply first, argue later.",
@@ -1238,7 +1238,7 @@ export const DE_C2_U02: Lesson[] = [
         source: "Please bring the documents to be submitted.",
         answer: "Bitte bringen Sie die einzureichenden Unterlagen mit.",
         altAnswers: ["Bitte bringen Sie die vorzulegenden Unterlagen mit.", "Bitte bring die einzureichenden Unterlagen mit.", "Bitte bringt die einzureichenden Unterlagen mit.", "Bringen Sie bitte die einzureichenden Unterlagen mit."],
-        explanation: "\"Die einzureichenden Unterlagen\": zu + present participle, with \"zu\" inside the separable verb.",
+        explanation: "\"Die einzureichenden Unterlagen\": \"zu\" + present participle, with \"zu\" inside the separable verb.",
       },
       {
         type: "translate",
@@ -1324,8 +1324,8 @@ export const DE_C2_U02: Lesson[] = [
         type: "speak",
         text: "Die zu zahlende Grunderwerbsteuer beträgt 18.000 Euro.",
         prompt: "Say it in German: The land transfer tax payable is 18,000 euros.",
-        tip: "Read 18.000 as achtzehntausend.",
-        explanation: "\"Die zu zahlende ...\": zu + present participle = must be paid.",
+        tip: "Read \"18.000\" as \"achtzehntausend\".",
+        explanation: "\"Die zu zahlende ...\": \"zu\" + present participle = must be paid.",
       },
     ],
   },
@@ -1334,14 +1334,14 @@ export const DE_C2_U02: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Text Detective: Ein Steuerbescheid vom Finanzamt",
-    summary: "Decode a real-style Einkommensteuerbescheid: festgesetzte Steuer, Erstattung or Nachzahlung, Vorauszahlungen, Erläuterungen, vorläufig gemäß § 165 AO and the Einspruchsfrist, then say what the taxpayer must do and by when.",
+    summary: "Decode a realistic \"Einkommensteuerbescheid\" (\"festgesetzte Steuer\", \"Erstattung\" or \"Nachzahlung\", \"Vorauszahlungen\", \"Erläuterungen\", \"vorläufig gemäß § 165 AO\", the \"Einspruchsfrist\") and say what the taxpayer must do and by when.",
     duration: "20 min",
     sections: [
       {
         heading: "The first page: festgesetzt, Erstattung, Nachzahlung",
         body: [
           "Jonas Weber from Hamburg receives this: \"Bescheid für 2025 über Einkommensteuer und Solidaritätszuschlag. Festsetzung: Einkommensteuer 9.412,00 €. Abzüglich Steuerabzug vom Lohn 10.106,00 €. Verbleibende Beträge: −694,00 €. Der Betrag von 694,00 € wird Ihnen erstattet und auf das angegebene Konto überwiesen.\"",
-          "Decoded: \"festsetzen\" is what the Finanzamt does with tax: it fixes the amount (\"die festgesetzte Steuer\"). His employer has already deducted more than that from his salary (\"Steuerabzug vom Lohn\", i.e. Lohnsteuer), so the difference comes back as \"eine Erstattung\" (refund). If he had paid too little, the letter would say \"Nachzahlung\" (additional payment) and \"Bitte zahlen Sie spätestens am ...\".",
+          "Decoded: \"festsetzen\" is what the \"Finanzamt\" does with tax: it fixes the amount (\"die festgesetzte Steuer\"). His employer has already deducted more than that from his salary (\"Steuerabzug vom Lohn\", i.e. Lohnsteuer), so the difference comes back as \"eine Erstattung\" (refund). If he had paid too little, the letter would say \"Nachzahlung\" (additional payment) and \"Bitte zahlen Sie spätestens am ...\".",
           "\"Der Solidaritätszuschlag\" (solidarity surcharge) is now only charged on high incomes, and for most people the line shows 0,00 €. \"Die Kirchensteuer\" (church tax) appears only for members of a church that levies it.",
         ],
         examples: [
@@ -1349,7 +1349,7 @@ export const DE_C2_U02: Lesson[] = [
           { es: "Der Betrag von 694 Euro wird Ihnen erstattet.", en: "The amount of 694 euros will be refunded to you." },
           { es: "Es ergibt sich eine Nachzahlung von 1.230 Euro.", en: "This results in an additional payment of 1,230 euros." },
           { es: "Bitte zahlen Sie den Betrag spätestens am 15. Juli.", en: "Please pay the amount by 15 July at the latest." },
-          { es: "Von seinem Gehalt wurde schon zu viel Lohnsteuer abgezogen.", en: "Too much wage tax had already been deducted from his salary." },
+          { es: "Von seinem Gehalt wurde schon zu viel Lohnsteuer abgezogen.", en: "Too much wage tax was already deducted from his salary." },
         ],
         checkpoint: [
           {
@@ -1363,8 +1363,8 @@ export const DE_C2_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The Bescheid says: Verbleibende Beträge: 1.230,00 € (Nachzahlung). What does Jonas have to do?",
-            options: ["Pay 1,230 euros to the Finanzamt.", "Wait for a refund of 1,230 euros.", "Nothing: the amount has been settled.", "Pay 1,230 euros to his employer."],
+            question: "The \"Bescheid\" says: \"Verbleibende Beträge: 1.230,00 € (Nachzahlung)\". What does Jonas have to do?",
+            options: ["Pay 1,230 euros to the tax office.", "Wait for a refund of 1,230 euros.", "Nothing: the amount has been settled.", "Pay 1,230 euros to his employer."],
             correctIndex: 0,
             explanation: "\"Nachzahlung\" = he must pay additional tax. A refund would be \"Erstattung\".",
           },
@@ -1373,8 +1373,8 @@ export const DE_C2_U02: Lesson[] = [
       {
         heading: "Vorauszahlungen and Erläuterungen",
         body: [
-          "If someone has income that is not taxed at source (freelance work, rent), the Finanzamt may also set \"Vorauszahlungen\" (advance payments) for the coming year: \"Die Vorauszahlungen für 2026 werden auf je 450,00 € festgesetzt, fällig am 10.03., 10.06., 10.09. und 10.12.\" These are separate from the bill for 2025 and easily overlooked.",
-          "\"Erläuterungen\" explain where the Finanzamt departed from your return: \"Die Aufwendungen für das Arbeitszimmer konnten nicht berücksichtigt werden, da die Voraussetzungen nicht vorliegen.\" (The costs of the study could not be taken into account because the conditions are not met.) \"Abweichend von Ihrer Erklärung ...\" (In departure from your return ...) always deserves a second look: this is where an Einspruch may be worthwhile.",
+          "If someone has income that is not taxed at source (freelance work, rent), the \"Finanzamt\" may also set \"Vorauszahlungen\" (advance payments) for the current year: \"Die Vorauszahlungen für 2026 werden auf je 450,00 € festgesetzt, fällig am 10.03., 10.06., 10.09. und 10.12.\" These are separate from the bill for 2025 and easily overlooked.",
+          "\"Erläuterungen\" explain where the \"Finanzamt\" departed from your return: \"Die Aufwendungen für das Arbeitszimmer konnten nicht berücksichtigt werden, da die Voraussetzungen nicht vorliegen.\" (The costs of the study could not be taken into account because the conditions are not met.) \"Abweichend von Ihrer Erklärung ...\" (In departure from your return ...) always deserves a second look: this is where an \"Einspruch\" may be worthwhile.",
           "Words to know: \"die Steuererklärung\" (tax return), \"die Werbungskosten\" (work-related expenses), \"die Sonderausgaben\" (special expenses, e.g. pension contributions), \"außergewöhnliche Belastungen\" (extraordinary burdens, e.g. medical costs), \"berücksichtigen\" (take into account), \"anerkennen\" (accept).",
         ],
         examples: [
@@ -1407,9 +1407,9 @@ export const DE_C2_U02: Lesson[] = [
       {
         heading: "Vorläufig gemäß § 165 AO and the Einspruchsfrist",
         body: [
-          "Many Bescheide contain the line: \"Die Festsetzung ist gemäß § 165 Abs. 1 Satz 2 AO teilweise vorläufig hinsichtlich ...\" (The assessment is provisional pursuant to section 165 of the Fiscal Code in respect of ...). \"Vorläufig\" means that on certain points that are being tested in court, the Bescheid stays open and will be changed automatically if the courts decide in the taxpayer's favour. \"AO\" is the \"Abgabenordnung\", the German Fiscal Code.",
-          "The Rechtsbehelfsbelehrung of a tax assessment names \"Einspruch\", not \"Widerspruch\": \"Der Bescheid kann mit dem Einspruch angefochten werden. Die Frist für die Einlegung des Einspruchs beträgt einen Monat. Sie beginnt mit Ablauf des Tages, an dem Ihnen dieser Bescheid bekannt gegeben worden ist.\" The Einspruch can be filed in writing, electronically (ELSTER) or in person.",
-          "Summary for Jonas in plain German: \"Du bekommst 694 Euro zurück. Ab nächstem Jahr musst du jedes Quartal 450 Euro vorauszahlen. Das Arbeitszimmer haben sie nicht anerkannt. Wenn du das anfechten willst, hast du einen Monat Zeit für einen Einspruch.\"",
+          "Many \"Bescheide\" contain the line: \"Die Festsetzung ist gemäß § 165 Abs. 1 Satz 2 AO teilweise vorläufig hinsichtlich ...\" (The assessment is provisional pursuant to section 165 of the Fiscal Code in respect of ...). \"Vorläufig\" means that on certain points that are being tested in court, the Bescheid stays open and will be changed automatically if the courts decide in the taxpayer's favour. \"AO\" is the \"Abgabenordnung\", the German Fiscal Code.",
+          "The \"Rechtsbehelfsbelehrung\" of a tax assessment names \"Einspruch\", not \"Widerspruch\": \"Der Bescheid kann mit dem Einspruch angefochten werden. Die Frist für die Einlegung des Einspruchs beträgt einen Monat. Sie beginnt mit Ablauf des Tages, an dem Ihnen dieser Bescheid bekannt gegeben worden ist.\" The \"Einspruch\" can be filed in writing, electronically (ELSTER) or in person.",
+          "Summary for Jonas in plain German: \"Du bekommst 694 Euro zurück. Ab jetzt musst du jedes Quartal 450 Euro vorauszahlen. Das Arbeitszimmer haben sie nicht anerkannt. Wenn du das anfechten willst, hast du einen Monat Zeit für einen Einspruch.\"",
         ],
         examples: [
           { es: "Die Festsetzung ist teilweise vorläufig.", en: "The assessment is partly provisional." },
@@ -1434,13 +1434,13 @@ export const DE_C2_U02: Lesson[] = [
             question: "What does it mean?",
             options: ["Parts of the assessment are still provisional.", "The assessment has been partly cancelled.", "The assessment is final in every respect.", "Only part of the tax has been paid."],
             correctIndex: 0,
-            explanation: "\"Vorläufig\" = provisional: those points can still change, without you lodging an Einspruch.",
+            explanation: "\"Vorläufig\" = provisional: those points can still change, without you lodging an \"Einspruch\".",
           },
           {
             type: "speak",
             text: "Du bekommst 694 Euro zurück, aber das Arbeitszimmer haben sie nicht anerkannt.",
             prompt: "Explain to a friend in German: You're getting 694 euros back, but they didn't accept the study.",
-            explanation: "Plain spoken German: \"zurückbekommen\" for \"erstattet werden\", and \"sie\" for the Finanzamt.",
+            explanation: "Plain spoken German: \"zurückbekommen\" for \"erstattet werden\", and \"sie\" for the \"Finanzamt\".",
           },
         ],
       },
@@ -1480,7 +1480,7 @@ export const DE_C2_U02: Lesson[] = [
         source: "Your travel costs were reduced, departing from your return.",
         answer: "Abweichend von Ihrer Erklärung wurden die Fahrtkosten gekürzt.",
         altAnswers: ["Abweichend von Ihrer Steuererklärung wurden die Fahrtkosten gekürzt.", "Abweichend von Ihrer Erklärung wurden Ihre Fahrtkosten gekürzt.", "Abweichend von Ihrer Steuererklärung wurden Ihre Fahrtkosten gekürzt."],
-        explanation: "\"Abweichend von\" + dative introduces each change the Finanzamt made.",
+        explanation: "\"Abweichend von\" + dative introduces each change the \"Finanzamt\" made.",
       },
       {
         type: "fill-blank",
@@ -1529,8 +1529,8 @@ export const DE_C2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "When does the one-month Einspruch deadline start?",
-        options: ["When the Bescheid counts as notified (bekannt gegeben).", "On the date printed at the top of the Bescheid.", "When you open the envelope.", "When the refund reaches your account."],
+        question: "When does the one-month deadline for an \"Einspruch\" start?",
+        options: ["When the \"Bescheid\" counts as notified (\"bekannt gegeben\").", "On the date printed at the top of the \"Bescheid\".", "When you open the envelope.", "When the refund reaches your account."],
         correctIndex: 0,
         explanation: "\"Sie beginnt mit Ablauf des Tages, an dem Ihnen dieser Bescheid bekannt gegeben worden ist\": notification counts, usually four days after posting.",
       },
@@ -1543,7 +1543,7 @@ export const DE_C2_U02: Lesson[] = [
         type: "speak",
         text: "Wenn du das anfechten willst, hast du einen Monat Zeit für einen Einspruch.",
         prompt: "Tell a friend in German: If you want to challenge it, you have a month to object.",
-        explanation: "A plain-language summary of the Rechtsbehelfsbelehrung.",
+        explanation: "A plain-language summary of the \"Rechtsbehelfsbelehrung\".",
       },
     ],
   },
@@ -1552,7 +1552,7 @@ export const DE_C2_U02: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Mastery Vocabulary: Precise Verbs Instead of Machen",
-    summary: "Replace machen with the exact verb a noun demands: einen Fehler begehen, eine Prüfung ablegen, einen Vorschlag unterbreiten, eine Reise unternehmen, Fortschritte erzielen.",
+    summary: "Replace \"machen\" with the exact verb a noun demands in formal German (\"einen Fehler begehen\", \"eine Prüfung ablegen\", \"einen Vorschlag unterbreiten\", \"eine Reise unternehmen\", \"Fortschritte erzielen\"), and know when \"machen\" is fine.",
     duration: "16 min",
     sections: [
       {
@@ -1573,7 +1573,7 @@ export const DE_C2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into formal German, without machen.",
+            prompt: "Translate into formal German, without \"machen\".",
             source: "We would like to submit a proposal to you.",
             answer: "Wir möchten Ihnen einen Vorschlag unterbreiten.",
             altAnswers: ["Wir würden Ihnen gern einen Vorschlag unterbreiten.", "Wir möchten Ihnen einen Vorschlag vorlegen.", "Wir würden Ihnen gerne einen Vorschlag unterbreiten."],
@@ -1582,7 +1582,7 @@ export const DE_C2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into formal German, without machen.",
+            prompt: "Translate into formal German, without \"machen\".",
             source: "She took the exam in June.",
             answer: "Sie hat die Prüfung im Juni abgelegt.",
             altAnswers: ["Sie legte die Prüfung im Juni ab.", "Im Juni hat sie die Prüfung abgelegt.", "Im Juni legte sie die Prüfung ab."],
@@ -1593,9 +1593,9 @@ export const DE_C2_U02: Lesson[] = [
       {
         heading: "Treffen, erzielen, bilden, leisten",
         body: [
-          "Some nouns refuse \"machen\" entirely. \"Eine Entscheidung treffen\" (make a decision), not *machen; likewise \"eine Vereinbarung treffen\" (make an agreement), \"Vorkehrungen treffen\" (make arrangements), \"eine Auswahl treffen\" (make a selection).",
+          "Some nouns refuse \"machen\" entirely. \"Eine Entscheidung treffen\" (make a decision), not \"*eine Entscheidung machen*\"; likewise \"eine Vereinbarung treffen\" (make an agreement), \"Vorkehrungen treffen\" (make arrangements), \"eine Auswahl treffen\" (make a selection).",
           "\"Erzielen\" (achieve, obtain) goes with results: \"Fortschritte erzielen\" (make progress), \"einen Gewinn erzielen\" (make a profit), \"eine Einigung erzielen\" (reach an agreement), \"ein Tor erzielen\" (score a goal). \"Bilden\" (form) appears in \"eine Ausnahme bilden\" (be an exception), \"eine Mehrheit bilden\", \"die Grundlage bilden\". \"Leisten\" (render) appears in \"einen Beitrag leisten\" (make a contribution), \"Hilfe leisten\" (give help), \"Widerstand leisten\" (put up resistance).",
-          "English make a decision, make progress and make a contribution are the source of the commonest calques: *\"eine Entscheidung machen\", *\"Fortschritt machen\" (colloquially \"Fortschritte machen\" exists, but not in formal writing), *\"einen Beitrag machen\".",
+          "English make a decision, make progress and make a contribution are the source of the commonest calques: \"*eine Entscheidung machen*\" and \"*einen Beitrag machen*\". \"Fortschritte machen\" is fine in everyday and neutral German, but formal writing prefers \"Fortschritte erzielen\".",
         ],
         examples: [
           { es: "Wir müssen bis Freitag eine Entscheidung treffen.", en: "We have to make a decision by Friday." },
@@ -1613,7 +1613,7 @@ export const DE_C2_U02: Lesson[] = [
             source: "We have to make a decision.",
             answer: "Wir müssen eine Entscheidung treffen.",
             altAnswers: ["Wir müssen uns entscheiden.", "Wir müssen entscheiden."],
-            explanation: "\"Eine Entscheidung treffen\" (never *machen), or simply \"sich entscheiden\".",
+            explanation: "\"Eine Entscheidung treffen\" (never \"*eine Entscheidung machen*\"), or simply \"sich entscheiden\".",
           },
           {
             type: "fill-blank",
@@ -1627,7 +1627,7 @@ export const DE_C2_U02: Lesson[] = [
             type: "speak",
             text: "Jeder kann einen Beitrag zum Klimaschutz leisten.",
             prompt: "Say it in German: Everyone can make a contribution to climate protection.",
-            explanation: "\"Einen Beitrag leisten\" (make a contribution), never *machen.",
+            explanation: "\"Einen Beitrag leisten\" (make a contribution), never \"*einen Beitrag machen*\".",
           },
         ],
       },
@@ -1669,7 +1669,7 @@ export const DE_C2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into formal German, without machen.",
+        prompt: "Translate into formal German, without \"machen\".",
         source: "An error was made in the calculation.",
         answer: "Bei der Berechnung wurde ein Fehler begangen.",
         altAnswers: ["Bei der Berechnung ist ein Fehler unterlaufen.", "Bei der Berechnung ist ein Fehler passiert.", "In der Berechnung wurde ein Fehler begangen."],
@@ -1696,7 +1696,7 @@ export const DE_C2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into formal German, without machen.",
+        prompt: "Translate into formal German, without \"machen\".",
         source: "In 2024 they made a trip around the world.",
         answer: "2024 unternahmen sie eine Weltreise.",
         altAnswers: ["Im Jahr 2024 unternahmen sie eine Weltreise.", "2024 haben sie eine Weltreise unternommen.", "Im Jahr 2024 haben sie eine Weltreise unternommen.", "Sie unternahmen 2024 eine Weltreise.", "2024 unternahmen sie eine Reise um die Welt."],
@@ -1752,7 +1752,7 @@ export const DE_C2_U02: Lesson[] = [
         question: "Which sentence is wrong?",
         options: ["Ich habe eine Entscheidung gemacht.", "Ich habe eine Entscheidung getroffen.", "Ich habe mich entschieden.", "Die Entscheidung ist gefallen."],
         correctIndex: 0,
-        explanation: "*\"Eine Entscheidung machen\" is a calque of English. Use \"treffen\" or \"sich entscheiden\".",
+        explanation: "\"*Eine Entscheidung machen*\" is a calque of English. Use \"treffen\" or \"sich entscheiden\".",
       },
       {
         type: "listen-choose",
@@ -1766,7 +1766,7 @@ export const DE_C2_U02: Lesson[] = [
         type: "speak",
         text: "Wir möchten Ihnen ein Angebot unterbreiten.",
         prompt: "Say it in formal German: We would like to submit an offer to you.",
-        tip: "Unterbreiten is stressed on the third syllable: unter-BREI-ten.",
+        tip: "\"Unterbreiten\" is stressed on the third syllable: un-ter-BREI-ten.",
         explanation: "\"Jemandem ein Angebot unterbreiten\": formal business register.",
       },
     ],
@@ -1776,7 +1776,7 @@ export const DE_C2_U02: Lesson[] = [
     level: "DE-C2",
     number: 9,
     title: "Mastery Check: Legal and Administrative German, Part 2 of 2",
-    summary: "A cumulative check of Parts 1-7: clauses, conditions without wenn, deadlines and notices, the notary, Widerspruch and plain-language rewriting.",
+    summary: "Check that you can handle contract clauses, conditions without \"wenn\", deadlines and notices, the notary, a \"Widerspruch\" and plain-language rewriting (Parts 1-7).",
     duration: "20 min",
     sections: [
       {
@@ -1795,7 +1795,7 @@ export const DE_C2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, without wenn.",
+            prompt: "Translate into German, without \"wenn\".",
             source: "Should the tenant not pay, the landlord may terminate.",
             answer: "Sollte der Mieter nicht zahlen, so kann der Vermieter kündigen.",
             altAnswers: ["Sollte der Mieter nicht zahlen, kann der Vermieter kündigen.", "Zahlt der Mieter nicht, kann der Vermieter kündigen.", "Zahlt der Mieter nicht, so kann der Vermieter kündigen.", "Sollte der Mieter nicht zahlen, so ist der Vermieter berechtigt zu kündigen.", "Sollte die Mieterin nicht zahlen, so kann die Vermieterin kündigen."],
@@ -1813,7 +1813,7 @@ export const DE_C2_U02: Lesson[] = [
       {
         heading: "Check 2: notices, deadlines and the notary",
         body: [
-          "Deadlines: \"fristgerecht\" (on time) vs \"fristlos\" (without notice); \"nach Ablauf der Frist\", \"mit Wirkung zum\", \"ab Zugang\", \"bis einschließlich\". Unpaid bills: \"Zahlungserinnerung → Mahnung → Mahnbescheid\" (Widerspruch within two weeks) → \"Vollstreckungsbescheid\".",
+          "Deadlines: \"fristgerecht\" (on time) vs \"fristlos\" (without notice); \"nach Ablauf der Frist\", \"mit Wirkung zum\", \"ab Zugang\", \"bis einschließlich\". Unpaid bills: \"Zahlungserinnerung → Mahnung → Mahnbescheid\" (\"Widerspruch\" within two weeks) → \"Vollstreckungsbescheid\".",
           "Property: \"notariell beurkundet\", \"im Grundbuch eingetragen\", \"Auflassungsvormerkung\", \"Grunderwerbsteuer\", \"Grundschuld\". Extended attributes: \"der im Grundbuch eingetragene Eigentümer\", \"die zu zahlende Steuer\".",
         ],
         examples: [
@@ -1858,7 +1858,7 @@ export const DE_C2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into plain German with wir.",
+            prompt: "Translate into plain German with \"wir\".",
             source: "If you don't send the documents, we will reject your application.",
             answer: "Wenn Sie die Unterlagen nicht schicken, lehnen wir Ihren Antrag ab.",
             altAnswers: ["Wenn Sie die Unterlagen nicht schicken, werden wir Ihren Antrag ablehnen.", "Wenn Sie die Unterlagen nicht einreichen, lehnen wir Ihren Antrag ab.", "Wenn Sie uns die Unterlagen nicht schicken, lehnen wir Ihren Antrag ab.", "Wenn du die Unterlagen nicht schickst, lehnen wir deinen Antrag ab."],
@@ -1868,7 +1868,7 @@ export const DE_C2_U02: Lesson[] = [
             type: "speak",
             text: "Hiermit lege ich fristgerecht Widerspruch gegen Ihren Bescheid ein.",
             prompt: "Say it in German: I hereby lodge an objection to your decision within the time limit.",
-            explanation: "The core formula of every Widerspruch.",
+            explanation: "The core formula of every \"Widerspruch\".",
           },
         ],
       },
@@ -1922,7 +1922,7 @@ export const DE_C2_U02: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "She was given notice without notice period.",
+        source: "She was dismissed without notice.",
         answer: "Ihr wurde fristlos gekündigt.",
         altAnswers: ["Sie wurde fristlos gekündigt.", "Man hat ihr fristlos gekündigt.", "Ihr ist fristlos gekündigt worden."],
         explanation: "\"Fristlos\" = without notice; \"jemandem kündigen\" + dative.",
@@ -1976,7 +1976,7 @@ export const DE_C2_U02: Lesson[] = [
     level: "DE-C2",
     number: 10,
     title: "Dialogue Lab: Beim Notar",
-    summary: "Lena and Mehmet buy a flat in Leipzig: the notary reads the Kaufvertrag, and they ask about the Grundschuld, the handover and the exclusion of warranty with polite clarifying questions.",
+    summary: "Ask polite clarifying questions at the notary\'s as Lena and Mehmet buy a flat in Leipzig: the \"Kaufvertrag\", the \"Grundschuld\", the handover and the exclusion of warranty.",
     duration: "18 min",
     sections: [
       {
@@ -1989,7 +1989,7 @@ export const DE_C2_U02: Lesson[] = [
         examples: [
           { es: "Ich darf Sie bitten, Ihre Ausweise bereitzuhalten.", en: "May I ask you to have your ID cards ready." },
           { es: "Wenn Sie Fragen haben, unterbrechen Sie mich bitte jederzeit.", en: "If you have questions, please interrupt me at any time." },
-          { es: "Darf ich kurz nachfragen, was mit Wohnungseigentum gemeint ist?", en: "May I just ask what is meant by Wohnungseigentum?" },
+          { es: "Darf ich kurz nachfragen, was mit Wohnungseigentum gemeint ist?", en: "May I just ask what is meant by \"Wohnungseigentum\"?" },
           { es: "Das heißt, dass Sie beide jeweils zur Hälfte Eigentümer werden.", en: "That means you will each own half." },
           { es: "Was bedeutet das konkret für uns?", en: "What does that mean for us in practice?" },
         ],
@@ -2160,7 +2160,7 @@ export const DE_C2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The seller says: Davon wusste ich nichts. If the defect was really unknown to him, what follows from the contract?",
+        question: "The seller says: \"Davon wusste ich nichts.\" If the defect was really unknown to him, what follows from the contract?",
         options: ["The buyers have no warranty claims.", "The buyers can rescind the contract for fraud.", "The notary must pay for the repair.", "The seller must repair the defect within two years."],
         correctIndex: 0,
         explanation: "The warranty is excluded unless the seller concealed a defect he knew about (\"arglistig verschwiegen\").",
@@ -2180,7 +2180,7 @@ export const DE_C2_U02: Lesson[] = [
       {
         type: "speak",
         text: "Darf ich kurz nachfragen, was mit Finanzierungsvollmacht gemeint ist?",
-        prompt: "Ask the notary in German what is meant by Finanzierungsvollmacht.",
+        prompt: "Ask the notary in German what is meant by \"Finanzierungsvollmacht\".",
         explanation: "Indirect question with the verb at the end: \"was mit ... gemeint ist\".",
       },
     ],
@@ -2190,7 +2190,7 @@ export const DE_C2_U02: Lesson[] = [
     level: "DE-C2",
     number: 11,
     title: "Spiral Review: Legal Style with Advanced Grammar",
-    summary: "Recombine Advanced grammar in legal and administrative texts: nominalisation, participial phrases, passive alternatives (sein + zu, -bar, sich lassen) and the Konjunktiv I.",
+    summary: "Recombine Advanced grammar in legal and administrative texts: nominalisation, participial phrases, passive alternatives (\"sein + zu\", \"-bar\", \"sich lassen\") and the Konjunktiv I.",
     duration: "18 min",
     sections: [
       {
@@ -2212,7 +2212,7 @@ export const DE_C2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, with -bar.",
+            prompt: "Translate into German, with \"-bar\".",
             source: "The contract can be terminated monthly.",
             answer: "Der Vertrag ist monatlich kündbar.",
             altAnswers: ["Der Vertrag ist jeden Monat kündbar.", "Der Vertrag ist zum Monatsende kündbar."],
@@ -2221,7 +2221,7 @@ export const DE_C2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, with sich lassen.",
+            prompt: "Translate into German, with \"sich lassen\".",
             source: "That cannot be proved.",
             answer: "Das lässt sich nicht beweisen.",
             altAnswers: ["Das lässt sich nicht nachweisen.", "Das ist nicht zu beweisen.", "Das ist nicht nachweisbar.", "Das ist nicht beweisbar.", "Das kann nicht bewiesen werden."],
@@ -2297,8 +2297,8 @@ export const DE_C2_U02: Lesson[] = [
           {
             type: "speak",
             text: "Die vom Mieter verursachten Schäden sind von diesem zu beseitigen.",
-            tip: "Stress verURsachten and beSEItigen: both have inseparable prefixes.",
-            explanation: "Participial attribute + sein + zu; \"von diesem\" points back to the tenant.",
+            tip: "Stress \"verursachten\" as ver-UR-sach-ten and \"beseitigen\" as be-SEI-ti-gen: both have unstressed inseparable prefixes.",
+            explanation: "Participial attribute + \"sein + zu\"; \"von diesem\" points back to the tenant.",
           },
         ],
       },
@@ -2307,7 +2307,7 @@ export const DE_C2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, with -bar.",
+        prompt: "Translate into German, with \"-bar\".",
         source: "The tax adviser's fees are deductible.",
         answer: "Die Kosten für den Steuerberater sind absetzbar.",
         altAnswers: ["Die Kosten für den Steuerberater sind steuerlich absetzbar.", "Die Steuerberaterkosten sind absetzbar.", "Die Steuerberatungskosten sind absetzbar.", "Die Gebühren des Steuerberaters sind absetzbar."],
@@ -2316,11 +2316,11 @@ export const DE_C2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, with sich lassen.",
+        prompt: "Translate into German, with \"sich lassen\".",
         source: "The defect can easily be remedied.",
         answer: "Der Mangel lässt sich leicht beheben.",
         altAnswers: ["Der Mangel ist leicht zu beheben.", "Der Mangel ist leicht behebbar.", "Der Mangel kann leicht behoben werden."],
-        explanation: "\"Sich lassen\" + infinitive, or sein + zu, or \"-bar\": all express can be done.",
+        explanation: "\"Sich lassen\" + infinitive, or \"sein + zu\", or \"-bar\": all express can be done.",
       },
       {
         type: "translate",
@@ -2338,7 +2338,7 @@ export const DE_C2_U02: Lesson[] = [
         source: "The deadline must be met without fail.",
         answer: "Die Frist ist unbedingt einzuhalten.",
         altAnswers: ["Die Frist muss unbedingt eingehalten werden.", "Die Frist ist unbedingt zu wahren.", "Die Frist muss unbedingt gewahrt werden."],
-        explanation: "Sein + zu with \"zu\" inside the separable verb: \"einzuhalten\".",
+        explanation: "\"Sein + zu\" with \"zu\" inside the separable verb: \"einzuhalten\".",
       },
       {
         type: "fill-blank",
@@ -2406,7 +2406,7 @@ export const DE_C2_U02: Lesson[] = [
     level: "DE-C2",
     number: 12,
     title: "Mastery Vocabulary: Precise Verbs Instead of Sagen",
-    summary: "äußern, behaupten, betonen, einräumen, erwähnen, darlegen, anmerken, versichern, beteuern, zu bedenken geben: what each implies about the speaker's stance, and which take dass or a noun.",
+    summary: "Report what people say with precise verbs (\"äußern\", \"behaupten\", \"betonen\", \"einräumen\", \"erwähnen\", \"darlegen\", \"anmerken\", \"versichern\", \"beteuern\", \"zu bedenken geben\"), knowing what each implies about the speaker's stance and which take \"dass\" or a noun.",
     duration: "18 min",
     sections: [
       {
@@ -2448,7 +2448,7 @@ export const DE_C2_U02: Lesson[] = [
       {
         heading: "Stance verbs: behaupten, einräumen, versichern, beteuern",
         body: [
-          "\"Behaupten\" (to claim, assert) signals that the reporter isn't vouching for the truth: \"Er behauptet, nichts davon gewusst zu haben.\" It takes dass or a zu-infinitive; with \"sich behaupten\" it means to hold one's own.",
+          "\"Behaupten\" (to claim, assert) signals that the reporter isn't vouching for the truth: \"Er behauptet, nichts davon gewusst zu haben.\" It takes \"dass\" or a zu-infinitive; with \"sich behaupten\" it means to hold one's own.",
           "\"Einräumen\" (to admit, concede) means admitting something unfavourable, often reluctantly: \"Der Konzern räumte Fehler ein\", \"Sie räumte ein, dass die Planung mangelhaft war.\" Compare \"zugeben\", which is more everyday and more about guilt.",
           "\"Versichern\" (to assure) takes the person in the dative: \"Ich versichere Ihnen, dass alles in Ordnung ist.\" \"Beteuern\" (to protest, affirm repeatedly) implies insistence, often in the face of doubt: \"Der Angeklagte beteuerte seine Unschuld\" (protested his innocence). \"Darlegen\" (to set out, explain in detail) takes a noun or a w-clause: \"seine Gründe darlegen\", \"darlegen, warum ...\". \"Zu bedenken geben, dass ...\" (to point out, as a caution) introduces an objection politely.",
         ],
@@ -2571,7 +2571,7 @@ export const DE_C2_U02: Lesson[] = [
         en: "I'd just like to [point out] that the figures are provisional.",
         sentence: "Ich möchte noch ___, dass die Zahlen vorläufig sind.",
         answer: "anmerken",
-        altAnswers: ["erwähnen", "betonen", "darauf hinweisen"],
+        altAnswers: ["erwähnen", "darauf hinweisen"],
         explanation: "\"Anmerken\" = add a remark; \"darauf hinweisen\" = draw attention to it.",
       },
       {
@@ -2630,7 +2630,7 @@ export const DE_C2_U02: Lesson[] = [
         type: "speak",
         text: "Die Ministerin wollte sich dazu nicht äußern.",
         prompt: "Say it in German: The minister declined to comment.",
-        tip: "Äußern: the äu sounds like oy in boy, followed by a sharp ss sound.",
+        tip: "\"Äußern\": the äu sounds like oy in boy, followed by a sharp ss sound.",
         explanation: "\"Sich zu etwas äußern\": the standard news phrase for (not) commenting.",
       },
     ],
@@ -2640,7 +2640,7 @@ export const DE_C2_U02: Lesson[] = [
     level: "DE-C2",
     number: 13,
     title: "Vocabulary in Context: Replacing All-Purpose Verbs",
-    summary: "Rewrite plain German full of machen, geben, haben, sagen, tun and gehen into precise, register-appropriate German: es gibt becomes besteht, herrscht or liegt vor.",
+    summary: "Rewrite plain German full of \"machen\", \"geben\", \"haben\", \"sagen\", \"tun\" and \"gehen\" into precise, register-appropriate German, for example \"es gibt\" as \"besteht\", \"herrscht\" or \"liegt vor\".",
     duration: "18 min",
     sections: [
       {
@@ -2662,7 +2662,7 @@ export const DE_C2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into formal German, without es gibt.",
+            prompt: "Translate into formal German, without \"es gibt\".",
             source: "There is no danger to the public.",
             answer: "Für die Bevölkerung besteht keine Gefahr.",
             altAnswers: ["Es besteht keine Gefahr für die Bevölkerung.", "Für die Öffentlichkeit besteht keine Gefahr.", "Es besteht keine Gefahr für die Öffentlichkeit."],
@@ -2671,19 +2671,19 @@ export const DE_C2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into formal German, without es gibt.",
+            prompt: "Translate into formal German, without \"es gibt\".",
             source: "There is an acute staff shortage in nursing.",
             answer: "In der Pflege herrscht akuter Personalmangel.",
             altAnswers: ["Es herrscht akuter Personalmangel in der Pflege.", "In der Pflege herrscht ein akuter Personalmangel.", "In der Pflege besteht akuter Personalmangel."],
-            explanation: "\"Herrschen\" for conditions and moods: Mangel, Einigkeit, Unsicherheit.",
+            explanation: "\"Herrschen\" for conditions and moods: \"Mangel\", \"Einigkeit\", \"Unsicherheit\".",
           },
         ],
       },
       {
         heading: "Haben, geben, tun, gehen",
         body: [
-          "\"Haben\" → \"verfügen über\" (to have at one's disposal: \"über ausreichende Mittel verfügen\"), \"aufweisen\" (to show, exhibit, for features and flaws: \"Die Wohnung weist Mängel auf\"), \"besitzen\" (own). \"Geben\" → \"erteilen\" (Auskunft, Erlaubnis, eine Vollmacht), \"gewähren\" (Rabatt, Zugang, Kredit), \"zur Verfügung stellen\".",
-          "\"Tun\" → \"ergreifen\" (Maßnahmen ergreifen: take measures), \"unternehmen\" (etwas gegen ... unternehmen: do something about), \"vornehmen\" (Änderungen vornehmen: make changes). \"Gehen\" → \"verlaufen\" (Die Verhandlung verlief ruhig), \"sich begeben\" (formal: to proceed somewhere), \"sich handeln um\" (es geht um → es handelt sich um: it is a matter of).",
+          "\"Haben\" → \"verfügen über\" (to have at one's disposal: \"über ausreichende Mittel verfügen\"), \"aufweisen\" (to show, exhibit, for features and flaws: \"Die Wohnung weist Mängel auf\"), \"besitzen\" (own). \"Geben\" → \"erteilen\" (\"Auskunft\", \"Erlaubnis\", \"eine Vollmacht\"), \"gewähren\" (\"Rabatt\", \"Zugang\", \"Kredit\"), \"zur Verfügung stellen\".",
+          "\"Tun\" → \"ergreifen\" (\"Maßnahmen ergreifen\": take measures), \"unternehmen\" (\"etwas gegen ... unternehmen\": do something about), \"vornehmen\" (\"Änderungen vornehmen\": make changes). \"Gehen\" → \"verlaufen\" (\"Die Verhandlung verlief ruhig\"), \"sich begeben\" (formal: to proceed somewhere), \"sich handeln um\" (\"es geht um\" → \"es handelt sich um\": it is a matter of).",
           "These are not just more elegant; they are more exact. \"Die Wohnung hat Mängel\" is fine in speech; \"Die Wohnung weist erhebliche Mängel auf\" is what a surveyor writes.",
         ],
         examples: [
@@ -2711,7 +2711,7 @@ export const DE_C2_U02: Lesson[] = [
             sentence: "Die Stadt muss Maßnahmen ___.",
             answer: "ergreifen",
             altAnswers: ["treffen"],
-            explanation: "\"Maßnahmen ergreifen\" (or \"treffen\"), never *machen or *tun.",
+            explanation: "\"Maßnahmen ergreifen\" (or \"treffen\"), never \"*Maßnahmen machen*\" or \"*Maßnahmen tun*\".",
           },
           {
             type: "listen-choose",
@@ -2759,7 +2759,7 @@ export const DE_C2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into formal German, without es gibt.",
+        prompt: "Translate into formal German, without \"es gibt\".",
         source: "We have not yet received your application.",
         answer: "Ihr Antrag liegt uns noch nicht vor.",
         altAnswers: ["Ihr Antrag liegt uns bislang nicht vor.", "Uns liegt Ihr Antrag noch nicht vor.", "Ihr Antrag ist bei uns noch nicht eingegangen."],
@@ -2786,7 +2786,7 @@ export const DE_C2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into formal German, without es gibt.",
+        prompt: "Translate into formal German, without \"es gibt\".",
         source: "There is broad agreement on the goals.",
         answer: "Über die Ziele herrscht weitgehend Einigkeit.",
         altAnswers: ["Über die Ziele herrscht weitgehende Einigkeit.", "Es herrscht weitgehend Einigkeit über die Ziele.", "Es herrscht weitgehende Einigkeit über die Ziele.", "Über die Ziele besteht weitgehend Einigkeit."],
@@ -2798,7 +2798,6 @@ export const DE_C2_U02: Lesson[] = [
         en: "The authority [granted] permission.",
         sentence: "Die Behörde ___ die Erlaubnis.",
         answer: "erteilte",
-        altAnswers: ["hat erteilt"],
         explanation: "\"Eine Erlaubnis erteilen\": the verb for permissions, information and powers of attorney.",
       },
       {
@@ -2838,7 +2837,7 @@ export const DE_C2_U02: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match the noun to the verb that replaces es gibt.",
+        instructions: "Match the noun to the verb that replaces \"es gibt\".",
         pairs: [
           { left: "die Gefahr", right: "besteht" },
           { left: "Unsicherheit", right: "herrscht" },
@@ -2849,7 +2848,7 @@ export const DE_C2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is the most precise formal version of Die Wohnung hat einen Balkon?",
+        question: "Which sentence is the most precise formal version of \"Die Wohnung hat einen Balkon.\"?",
         options: ["Die Wohnung verfügt über einen Balkon.", "Die Wohnung herrscht einen Balkon.", "Die Wohnung liegt einen Balkon vor.", "Die Wohnung gewährt einen Balkon."],
         correctIndex: 0,
         explanation: "\"Verfügen über\" for features a property has.",
@@ -2871,10 +2870,10 @@ export const DE_C2_U02: Lesson[] = [
 
 export const DE_C2_U02_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You cancelled your gym contract in writing three months before the end of its term, as the contract requires. The gym (FitPlus GmbH, Hamburg) has now sent you a Mahnung for 89 euros for a further month, claiming your notice arrived too late, and threatens a Mahnbescheid. Write a formal letter: refer to their reminder, set out the facts with dates, quote the relevant clause, state your position, set them a deadline to confirm the termination and say what you will do otherwise.",
+  prompt: "You cancelled your gym contract in writing three months before the end of its term, as the contract requires. The gym (FitPlus GmbH, Hamburg) has now sent you a \"Mahnung\" for 89 euros for a further month, claiming your notice arrived too late, and threatens a \"Mahnbescheid\". Write a formal letter: refer to their reminder, set out the facts with dates, quote the relevant clause, state your position, set them a deadline to confirm the termination and say what you will do otherwise.",
   minWords: 250,
   maxWords: 400,
-  rubric: ["Refers to the reminder and the contract precisely (date, Kundennummer, \"gemäß § ... des Vertrages\") and sets out the facts in formal, nominal style (\"nach Ablauf\", \"mit Wirkung zum\", \"fristgerecht\")", "Uses at least one condition without wenn or a legal connector (\"Sollte ..., so ...\", \"sofern\", \"es sei denn\", \"andernfalls\")", "Uses precise verbs instead of machen / sagen / es gibt (\"darlegen\", \"hinweisen\", \"bestehen\", \"vorliegen\", \"einräumen\")", "Ends with a clear demand and deadline (\"Ich fordere Sie auf, ... bis zum ... zu bestätigen\") and formal close"],
-  modelAnswer: "Leon Wagner\nEppendorfer Weg 12\n20259 Hamburg\n\nFitPlus GmbH\nKundenservice\nOsterstraße 88\n20259 Hamburg\n\nHamburg, 9. Oktober 2026\n\nIhre Mahnung vom 1. Oktober 2026\nKundennummer: 448213\n\nSehr geehrte Damen und Herren,\n\nmit Schreiben vom 1. Oktober 2026 fordern Sie mich auf, einen Mitgliedsbeitrag in Höhe von 89 Euro für den Monat Oktober zu zahlen, und kündigen andernfalls einen Mahnbescheid an. Diese Forderung weise ich zurück.\n\nGemäß § 6 Abs. 2 des Mitgliedsvertrages kann der Vertrag mit einer Frist von drei Monaten zum Ende der Laufzeit gekündigt werden. Die Laufzeit endete am 30. September 2026. Meine Kündigung habe ich am 20. Juni 2026 per Einschreiben verschickt; laut Sendungsverfolgung ist sie Ihnen am 23. Juni 2026 zugegangen, also mehr als drei Monate vor Ablauf der Laufzeit. Die Kündigung ist somit fristgerecht erfolgt und wurde mit Wirkung zum 30. September 2026 wirksam. Eine Kopie des Einlieferungsbelegs sowie der Sendungsverfolgung füge ich bei.\n\nIhre Behauptung, das Schreiben sei verspätet eingegangen, ist daher nicht nachvollziehbar. Sollte bei Ihnen ein abweichendes Eingangsdatum vermerkt sein, so bitte ich Sie, mir dies unter Vorlage eines Nachweises darzulegen. Ein Anspruch auf weitere Beiträge besteht jedenfalls nicht, es sei denn, Sie können belegen, dass die Kündigung erst nach dem 30. Juni bei Ihnen vorlag.\n\nIch fordere Sie daher auf, mir bis zum 23. Oktober 2026 schriftlich zu bestätigen, dass der Vertrag zum 30. September 2026 beendet ist und keine weiteren Forderungen bestehen. Andernfalls sehe ich mich gezwungen, gegen einen etwaigen Mahnbescheid Widerspruch einzulegen und die Verbraucherzentrale einzuschalten. Bereits abgebuchte Beträge für Oktober bitte ich umgehend zu erstatten.\n\nMit freundlichen Grüßen\n\nLeon Wagner\n\nAnlagen:\nKopie des Einlieferungsbelegs vom 20. Juni 2026\nAusdruck der Sendungsverfolgung",
-  explanation: "The letter cites the contract with \"gemäß § 6 Abs. 2\" (dative) and uses legal nominal style (\"mit einer Frist von drei Monaten zum Ende der Laufzeit\", \"nach Ablauf\", \"mit Wirkung zum\"). Conditions and consequences are expressed without wenn: \"Sollte ... vermerkt sein, so bitte ich ...\", \"es sei denn\", \"andernfalls\". Precise verbs replace all-purpose ones: \"zurückweisen\", \"darlegen\", \"bestehen\", \"vorliegen\", \"einschalten\", \"erstatten\"; the claim is reported with \"Behauptung\" and the Konjunktiv I \"sei ... eingegangen\". It closes with a clear demand and deadline (\"Ich fordere Sie daher auf, ... bis zum ... zu bestätigen\").",
+  rubric: ["Refers to the reminder and the contract precisely (date, \"Kundennummer\", \"gemäß § ... des Vertrages\") and sets out the facts in formal, nominal style (\"nach Ablauf\", \"mit Wirkung zum\", \"fristgerecht\")", "Uses at least one condition without \"wenn\" or a legal connector (\"Sollte ..., so ...\", \"sofern\", \"es sei denn\", \"andernfalls\")", "Uses precise verbs instead of \"machen\" / \"sagen\" / \"es gibt\" (\"darlegen\", \"hinweisen\", \"bestehen\", \"vorliegen\", \"einräumen\")", "Ends with a clear demand and deadline (\"Ich fordere Sie auf, ... bis zum ... zu bestätigen\") and formal close"],
+  modelAnswer: "Leon Wagner\nEppendorfer Weg 12\n20259 Hamburg\n\nFitPlus GmbH\nKundenservice\nOsterstraße 88\n20259 Hamburg\n\nHamburg, 9. Oktober 2026\n\nIhre Mahnung vom 1. Oktober 2026\nKundennummer: 448213\n\nSehr geehrte Damen und Herren,\n\nmit Schreiben vom 1. Oktober 2026 fordern Sie mich auf, einen Mitgliedsbeitrag in Höhe von 89 Euro für den Monat Oktober zu zahlen, und kündigen andernfalls einen Mahnbescheid an. Diese Forderung weise ich zurück.\n\nGemäß § 6 Abs. 2 des Mitgliedsvertrages kann der Vertrag mit einer Frist von drei Monaten zum Ende der Laufzeit gekündigt werden. Die Laufzeit endete am 30. September 2026. Meine Kündigung habe ich am 20. Juni 2026 per Einschreiben verschickt; laut Sendungsverfolgung ist sie Ihnen am 23. Juni 2026 zugegangen, also mehr als drei Monate vor Ablauf der Laufzeit. Die Kündigung ist somit fristgerecht erfolgt und wurde mit Wirkung zum 30. September 2026 wirksam. Eine Kopie des Einlieferungsbelegs sowie der Sendungsverfolgung füge ich bei.\n\nIhre Behauptung, das Schreiben sei verspätet eingegangen, ist daher nicht nachvollziehbar. Sollte bei Ihnen ein abweichendes Eingangsdatum vermerkt sein, so bitte ich Sie, mir dies unter Vorlage eines Nachweises darzulegen. Ein Anspruch auf weitere Beiträge besteht jedenfalls nicht, es sei denn, Sie können belegen, dass die Kündigung erst nach dem 30. Juni bei Ihnen vorlag.\n\nIch fordere Sie daher auf, mir bis zum 23. Oktober 2026 schriftlich zu bestätigen, dass der Vertrag zum 30. September 2026 beendet ist und keine weiteren Forderungen bestehen. Andernfalls sehe ich mich gezwungen, gegen einen etwaigen Mahnbescheid Widerspruch einzulegen und die Verbraucherzentrale einzuschalten. Sollten Sie für Oktober bereits Beträge abgebucht haben, so bitte ich Sie, diese umgehend zu erstatten.\n\nMit freundlichen Grüßen\n\nLeon Wagner\n\nAnlagen:\nKopie des Einlieferungsbelegs vom 20. Juni 2026\nAusdruck der Sendungsverfolgung",
+  explanation: "The letter cites the contract with \"gemäß § 6 Abs. 2\" (dative) and uses legal nominal style (\"mit einer Frist von drei Monaten zum Ende der Laufzeit\", \"nach Ablauf\", \"mit Wirkung zum\"). Conditions and consequences are expressed without \"wenn\": \"Sollte ... vermerkt sein, so bitte ich ...\", \"es sei denn\", \"andernfalls\". Precise verbs replace all-purpose ones: \"zurückweisen\", \"darlegen\", \"bestehen\", \"vorliegen\", \"einschalten\", \"erstatten\"; the claim is reported with \"Behauptung\" and the Konjunktiv I \"sei ... eingegangen\". It closes with a clear demand and deadline (\"Ich fordere Sie daher auf, ... bis zum ... zu bestätigen\").",
 };

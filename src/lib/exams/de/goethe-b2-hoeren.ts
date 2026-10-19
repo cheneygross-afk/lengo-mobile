@@ -273,7 +273,7 @@ export const GOETHE_B2_HOEREN: ExamPaper = {
       instructions:
         "Sie hören eine Diskussion. Sie hören den Text einmal. Wer sagt was? Ordnen Sie die Aussagen 17 bis 22 zu. Lesen Sie jetzt die Aussagen. Dazu haben Sie 60 Sekunden Zeit.",
       instructionsEn:
-        "On the radio programme „Streitfrage“, the presenter discusses a social-media ban for under-16s with Prof. Albrecht, a child psychiatrist, and Ms Yildiz, a media educator. You hear it only once. Who says what? Choose A, B or C for statements 17-22. The presenter and Ms Yildiz are read by the same female voice here, so listen for who is being addressed.",
+        "On the radio programme \"Streitfrage\", the presenter discusses a social-media ban for under-16s with Prof. Albrecht, a child psychiatrist, and Ms Yildiz, a media educator. You hear it only once. Who says what? Choose A, B or C for statements 17-22. The presenter and Ms Yildiz are read by the same female voice here, so listen for who is being addressed.",
       audio: [
         {
           label: "Radiodiskussion: Soziale Medien erst ab 16?",
@@ -302,9 +302,9 @@ export const GOETHE_B2_HOEREN: ExamPaper = {
             },
             {
               voice: "f",
-              text: "Nur verschiebt man das Problem um ein paar Jahre, Herr Albrecht. Mit sechzehn haben die Jugendlichen dann plötzlich vollen Zugang, ohne je gelernt zu haben, damit umzugehen. Ich wäre dafür, Medienkompetenz endlich als richtiges Schulfach einzuführen.",
+              text: "Herr Albrecht, als Medienpädagogin sehe ich das anders: Damit verschiebt man das Problem nur um ein paar Jahre. Mit sechzehn haben die Jugendlichen dann plötzlich vollen Zugang, ohne je gelernt zu haben, damit umzugehen. Ich wäre dafür, Medienkompetenz endlich als richtiges Schulfach einzuführen.",
             },
-            { voice: "f", text: "Herr Albrecht, wäre das nicht auch in Ihrem Sinne?" },
+            { voice: "f", text: "Danke, Frau Yildiz. Herr Albrecht, wäre das nicht auch in Ihrem Sinne?" },
             {
               voice: "m",
               text: "Natürlich, das eine schließt das andere ja nicht aus. Aber man kann die Verantwortung nicht nur den Schulen und Familien überlassen. Die Konzerne verdienen Milliarden mit der Aufmerksamkeit von Kindern. Die müssen wir in die Pflicht nehmen, zum Beispiel mit strengen Regeln für ihre Algorithmen.",
@@ -315,7 +315,7 @@ export const GOETHE_B2_HOEREN: ExamPaper = {
             },
             {
               voice: "f",
-              text: "Immerhin ein gemeinsamer Nenner. Ich selbst habe zwei Kinder im Teenageralter, und ich kann Ihnen sagen: Bei uns am Abendbrottisch wird über dieses Thema nicht weniger heftig gestritten als hier im Studio. Vielen Dank Ihnen beiden.",
+              text: "Frau Yildiz, Herr Albrecht, da haben Sie immerhin einen gemeinsamen Nenner gefunden. Ich selbst habe zwei Kinder im Teenageralter, und ich kann Ihnen sagen: Bei uns am Abendbrottisch wird über dieses Thema nicht weniger heftig gestritten als hier im Studio. Vielen Dank Ihnen beiden.",
             },
           ],
         },

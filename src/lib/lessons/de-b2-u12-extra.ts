@@ -103,14 +103,14 @@ export const DE_B2_U12_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Choose the connector: Mia hat das Fenster geöffnet, ___ frische Luft hereinkommt.",
+        question: "Choose the connector: \"Mia hat das Fenster geöffnet, ___ frische Luft hereinkommt.\"",
         options: ["damit", "sodass", "denn", "obwohl"],
         correctIndex: 0,
         explanation: "She opened it in order to let air in: purpose, \"damit\".",
       },
       {
         type: "multiple-choice",
-        question: "Choose the connector: Das Fenster stand offen, ___ es im Zimmer eiskalt wurde.",
+        question: "Choose the connector: \"Das Fenster stand offen, ___ es im Zimmer eiskalt wurde.\"",
         options: ["sodass", "damit", "zumal", "indem"],
         correctIndex: 0,
         explanation: "Nobody intended the cold: it's a result, \"sodass\".",
@@ -174,7 +174,7 @@ export const DE_B2_U12_EXTRA: Lesson[] = [
         heading: "Recap: the means",
         body: [
           "\"Indem\" + verb last answers how? and translates English by + -ing. In instructions it pairs with \"man\" or \"Sie\": \"Man meldet sich an, indem man ein Konto erstellt.\" \"Sie kündigen, indem Sie uns eine E-Mail schreiben.\"",
-          "A bare indem-clause can answer a question on its own: \"Wie kann ich mein Passwort ändern?\" – \"Indem Sie auf 'Einstellungen' klicken.\"",
+          "A bare indem-clause can answer a question on its own: \"Wie kann ich mein Passwort ändern?\" – \"Indem Sie auf „Einstellungen“ klicken.\"",
         ],
         examples: [
           { es: "Man meldet sich an, indem man ein Konto erstellt.", en: "You register by creating an account." },
@@ -244,19 +244,19 @@ export const DE_B2_U12_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "You can lower your costs [by switching] provider.",
+        en: "You can lower your costs [by] switching provider. (formal)",
         sentence: "Sie können Ihre Kosten senken, ___ den Anbieter wechseln.",
         answer: "indem Sie",
-        explanation: "\"Indem Sie ... wechseln\": by switching.",
+        explanation: "The blank is the conjunction and subject: \"indem Sie\" ... \"wechseln\" (verb last) = by switching.",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "You activate the card [by entering] the PIN.",
+        en: "You activate the card [by entering the PIN].",
         sentence: "Man aktiviert die Karte, ___.",
         answer: "indem man die PIN eingibt",
-        altAnswers: ["indem man die PIN-Nummer eingibt", "indem man den PIN eingibt"],
-        explanation: "\"Eingeben\" joined at the end: \"eingibt\".",
+        altAnswers: ["indem man die PIN-Nummer eingibt", "indem man seine PIN eingibt"],
+        explanation: "\"Eingeben\" joined at the end: \"eingibt\". Standard German says \"die PIN\" (feminine).",
       },
       {
         type: "multiple-choice",
@@ -346,7 +346,7 @@ export const DE_B2_U12_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Headline: Zugausfälle infolge eines Sturms. What happened?",
+            question: "Headline: \"Zugausfälle infolge eines Sturms\". What happened?",
             options: ["Trains were cancelled because of a storm.", "A storm was caused by train cancellations.", "Trains ran despite a storm.", "A storm is expected after train cancellations."],
             correctIndex: 0,
             explanation: "\"Infolge\" + genitive = as a result of.",
@@ -419,7 +419,7 @@ export const DE_B2_U12_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Unpack the headline into a sentence with weil: Verspätungen wegen dichten Nebels.",
+        prompt: "Unpack the headline into a sentence with \"weil\": \"Verspätungen wegen dichten Nebels\".",
         source: "There were delays because there was thick fog.",
         answer: "Es gab Verspätungen, weil es dichten Nebel gab.",
         altAnswers: ["Es gab Verspätungen, weil dichter Nebel herrschte.", "Es gab Verspätungen, weil es sehr neblig war.", "Weil es dichten Nebel gab, gab es Verspätungen.", "Es kam zu Verspätungen, weil es dichten Nebel gab."],

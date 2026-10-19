@@ -9,13 +9,13 @@ export const DE_B2_U28_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Goethe B2 Hören",
-    summary: "Exam-style listening tasks on radio interviews, announcements and discussions.",
+    summary: "Follow exam-style announcements, radio interviews and discussions and pick out who says what.",
     duration: "15 min",
     sections: [
       {
         heading: "Recap: listening like an examiner",
         body: [
-          "In Goethe B2 Hören you hear announcements once and interviews or discussions twice. Read the questions first and listen for signal words: \"allerdings\", \"dagegen\", \"im Gegenteil\", \"zwar ... aber\".",
+          "In the Goethe B2 \"Hören\" module some texts are played only once, so read the questions first and listen for signal words: \"allerdings\", \"dagegen\", \"im Gegenteil\", \"zwar ... aber\".",
           "Radio speech often uses reported speech (\"Der Sprecher sagte, der Zug falle aus\") and passive (\"Die Strecke wird gesperrt\"). Recognise them quickly and you understand who did what.",
         ],
         examples: [
@@ -131,10 +131,10 @@ export const DE_B2_U28_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In a radio discussion you hear 'Da muss ich Ihnen widersprechen.' What follows?",
+        question: "In a radio discussion you hear \"Da muss ich Ihnen widersprechen.\" What follows?",
         options: ["A disagreement", "A summary", "A thank-you", "An advert"],
         correctIndex: 0,
-        explanation: "\"Widersprechen\" = to contradict.",
+        explanation: "\"Widersprechen\" = to contradict, so the speaker is about to disagree and give a counter-argument.",
       },
       {
         type: "fill-blank",
@@ -169,7 +169,7 @@ export const DE_B2_U28_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Goethe B2 Lesen",
-    summary: "Exam-style reading of a newspaper article and forum posts with comprehension questions.",
+    summary: "Read an exam-style newspaper article and forum posts, unpack nominal style and tell who is for or against.",
     duration: "15 min",
     sections: [
       {
@@ -197,7 +197,7 @@ export const DE_B2_U28_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A forum post begins 'Das sehe ich anders.' The writer is...",
+            question: "A forum post begins \"Das sehe ich anders.\" The writer is...",
             options: ["disagreeing with the previous post", "agreeing completely", "asking a question", "changing the topic"],
             correctIndex: 0,
             explanation: "\"Etwas anders sehen\" = to disagree.",
@@ -277,7 +277,7 @@ export const DE_B2_U28_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In the text you read 'Die Maßnahme ist umstritten.' This means the measure...",
+        question: "In the text you read \"Die Maßnahme ist umstritten.\" This means the measure...",
         options: ["is controversial", "has been cancelled", "is very popular", "is expensive"],
         correctIndex: 0,
         explanation: "\"Umstritten\" = disputed, controversial.",
@@ -294,7 +294,7 @@ export const DE_B2_U28_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The decision [was postponed] once again.",
+        en: "The decision [was] postponed once again.",
         sentence: "Die Entscheidung ___ erneut verschoben.",
         answer: "wurde",
         altAnswers: [],
@@ -324,14 +324,14 @@ export const DE_B2_U28_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Goethe B2 Sprechen",
-    summary: "Prepare a short Vortrag and defend your opinion in a discussion.",
+    summary: "Give a short exam presentation (\"Vortrag\") and defend your opinion politely in a discussion.",
     duration: "15 min",
     sections: [
       {
-        heading: "Recap: Vortrag and Diskussion",
+        heading: "Recap: \"Vortrag\" and \"Diskussion\"",
         body: [
-          "Vortrag: introduce the topic, describe the situation in your country, give pros and cons, state your opinion and close. Signpost each step: \"Zunächst\", \"Außerdem\", \"Einerseits ... andererseits\", \"Zusammenfassend\".",
-          "Diskussion: react to your partner, agree in part, disagree politely and justify. \"Da gebe ich dir recht, aber ...\", \"Das sehe ich anders, weil ...\".",
+          "\"Vortrag\": introduce the topic, describe the situation in your country, give pros and cons, state your opinion and close. Signpost each step: \"Zunächst\", \"Außerdem\", \"Einerseits ... andererseits\", \"Zusammenfassend\".",
+          "\"Diskussion\": react to your partner, agree in part, disagree politely and justify. \"Da gebe ich dir recht, aber ...\", \"Das sehe ich anders, weil ...\".",
         ],
         examples: [
           { es: "In meinem Vortrag geht es um das Thema Homeoffice.", en: "My talk is about working from home." },
@@ -384,7 +384,7 @@ export const DE_B2_U28_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I partly [agree with you] there, but the costs are too high.",
+        en: "I partly [agree] with you there, but the costs are too high.",
         sentence: "Da ___ ich dir zum Teil recht, aber die Kosten sind zu hoch.",
         answer: "gebe",
         altAnswers: [],
@@ -396,7 +396,7 @@ export const DE_B2_U28_EXTRA: Lesson[] = [
         prompt: "Translate into German. (to a partner)",
         source: "I see it differently, because many people don't have a quiet room at home.",
         answer: "Das sehe ich anders, weil viele Menschen zu Hause kein ruhiges Zimmer haben.",
-        altAnswers: ["Ich sehe das anders, weil viele Menschen zu Hause kein ruhiges Zimmer haben.", "Das sehe ich anders, denn viele Menschen haben zu Hause kein ruhiges Zimmer.", "Das sehe ich anders, weil viele Leute zu Hause kein ruhiges Zimmer haben."],
+        altAnswers: ["Ich sehe das anders, weil viele Menschen zu Hause kein ruhiges Zimmer haben.", "Das sehe ich anders, denn viele Menschen haben zu Hause kein ruhiges Zimmer.", "Das sehe ich anders, weil viele Leute zu Hause kein ruhiges Zimmer haben.", "Das sehe ich anders, weil viele Menschen zuhause kein ruhiges Zimmer haben."],
         explanation: "\"Weil\" sends the verb to the end; \"denn\" keeps verb second.",
       },
       {
@@ -450,7 +450,7 @@ export const DE_B2_U28_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase best ends a Vortrag?",
+        question: "Which phrase best ends a \"Vortrag\"?",
         options: ["Vielen Dank für Ihre Aufmerksamkeit.", "Wie geht's?", "Bis gleich!", "Das ist mir egal."],
         correctIndex: 0,
         explanation: "\"Vielen Dank für Ihre Aufmerksamkeit\" is the standard close.",

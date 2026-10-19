@@ -61,10 +61,10 @@ export const DE_B1_U27: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "You're [soaking] wet! (surprised)",
+            en: "[Oh], you're soaking wet! (surprised)",
             sentence: "Du bist ___ ganz nass!",
             answer: "ja",
-            explanation: "Unstressed \"ja\" in an exclamation expresses surprise at something you can see.",
+            explanation: "Unstressed \"ja\" in an exclamation expresses surprise at something you can see; English uses oh or intonation. \"Ganz\" already says soaking.",
           },
           {
             type: "translate",
@@ -82,7 +82,7 @@ export const DE_B1_U27: Lesson[] = [
         body: [
           "Unstressed \"doch\" in an imperative urges or encourages: \"Komm doch mit!\" (come along, why don't you), \"Setz dich doch!\" (do sit down). In a statement it reminds someone of something they should know: \"Das habe ich dir doch gesagt!\" (but I told you that!).",
           "\"Mal\" (from \"einmal\", once) makes a request casual: \"Hör mal!\" (listen), \"Schau mal!\" (look), \"Warte mal!\" (wait a second). It's also used for a quick, low-effort action: \"Kann ich mal dein Handy haben?\".",
-          "They combine: \"Komm doch mal vorbei!\" (drop by sometime!). The order is always \"doch mal\", never *mal doch.",
+          "They combine: \"Komm doch mal vorbei!\" (drop by sometime!). The order is always \"doch mal\", never \"*mal doch\".",
         ],
         examples: [
           { es: "Setz dich doch!", en: "Do sit down!" },
@@ -174,7 +174,7 @@ export const DE_B1_U27: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has the particle in the right place?",
+        question: "How do you say: Why don't you give your mum a call?",
         options: ["Ruf doch mal deine Mutter an!", "Doch ruf mal deine Mutter an!", "Ruf mal doch deine Mutter an!", "Ruf deine Mutter an doch mal!"],
         correctIndex: 0,
         explanation: "After the verb, before the object, in the order \"doch mal\". Particles never start a sentence.",
@@ -343,7 +343,7 @@ export const DE_B1_U27: Lesson[] = [
             prompt: "Translate into German.",
             source: "You know I don't eat fish. (to a friend)",
             answer: "Du weißt doch, dass ich keinen Fisch esse.",
-            altAnswers: ["Du weißt ja, dass ich keinen Fisch esse.", "Ihr wisst doch, dass ich keinen Fisch esse.", "Sie wissen doch, dass ich keinen Fisch esse."],
+            altAnswers: ["Du weißt ja, dass ich keinen Fisch esse."],
             explanation: "\"Doch\" reminds: you know this already. \"Keinen Fisch\" negates the noun.",
           },
         ],
@@ -371,7 +371,7 @@ export const DE_B1_U27: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[Wait a second]!",
+        en: "[Wait] a second!",
         sentence: "___ kurz!",
         answer: "Warte mal",
         altAnswers: ["Wart mal"],
@@ -415,7 +415,7 @@ export const DE_B1_U27: Lesson[] = [
         prompt: "Translate into German.",
         source: "Can you come here a sec? (to a friend)",
         answer: "Kannst du mal kurz kommen?",
-        altAnswers: ["Kannst du mal kommen?", "Kannst du kurz kommen?", "Kannst du mal kurz herkommen?", "Kannst du mal herkommen?", "Könnt ihr mal kurz kommen?"],
+        altAnswers: ["Kannst du mal kommen?", "Kannst du kurz kommen?", "Kannst du mal kurz herkommen?", "Kannst du mal herkommen?"],
         explanation: "\"Mal kurz\" = for a second; the infinitive \"kommen\" goes to the end after the modal.",
       },
       {
@@ -538,7 +538,7 @@ export const DE_B1_U27: Lesson[] = [
             prompt: "Translate into German.",
             source: "You're coming along, aren't you? (to a friend)",
             answer: "Du kommst doch mit, oder?",
-            altAnswers: ["Du kommst mit, oder?", "Du kommst doch mit, ne?", "Du kommst mit, ne?", "Du kommst doch mit, nicht?", "Du kommst doch mit, gell?", "Ihr kommt doch mit, oder?", "Ihr kommt mit, oder?"],
+            altAnswers: ["Du kommst mit, oder?", "Du kommst doch mit, ne?", "Du kommst mit, ne?", "Du kommst doch mit, nicht?", "Du kommst doch mit, gell?"],
             explanation: "\"Doch\" expects agreement, and the tag \"oder?\" replaces English aren't you?.",
           },
           {
@@ -664,9 +664,9 @@ export const DE_B1_U27: Lesson[] = [
       {
         heading: "The text: Immer erreichbar",
         body: [
-          "Read this short magazine text about stress at work. The vocabulary of stress is worth learning as a group: \"der Stress\", \"gestresst sein\", \"überfordert sein\" (to be overwhelmed), \"erschöpft\" (exhausted), \"der Burnout\", \"sich erholen\" (to recover, to rest), \"die Erholung\".",
+          "The examples below come from a short magazine text about stress at work. The vocabulary of stress is worth learning as a group: \"der Stress\", \"gestresst sein\", \"überfordert sein\" (to be overwhelmed), \"erschöpft\" (exhausted), \"der Burnout\", \"sich erholen\" (to recover, to rest), \"die Erholung\".",
           "\"Der Feierabend\" is a very German idea: the end of the working day, and the time after it that belongs to you. \"Schönen Feierabend!\" is what colleagues say when they leave. \"Nach Feierabend\" means after work.",
-          "The text is written, so it uses full forms and the Präteritum; in the next sections you'll turn its advice into speech.",
+          "The text is written, so it uses full forms and no particles; in the next sections you'll turn its advice into speech.",
         ],
         examples: [
           { es: "Viele Menschen sind heute auch nach Feierabend erreichbar.", en: "Many people today can be reached even after work." },
@@ -877,7 +877,7 @@ export const DE_B1_U27: Lesson[] = [
       {
         heading: "The text: Die Miete wird erhöht",
         body: [
-          "Two out of three people in German cities rent. When a landlord (\"der Vermieter\") raises the rent, many tenants (\"die Mieter\") turn to the \"Mieterverein\", a tenants' association that gives legal advice for a small annual fee.",
+          "Most people in German cities rent. When a landlord (\"der Vermieter\") raises the rent, many tenants (\"die Mieter\") turn to the \"Mieterverein\", a tenants' association that gives legal advice for a small annual fee.",
           "Read Ayşe's story. Official letters love the passive: \"Die Miete wird erhöht\" (the rent is being raised), \"Das Haus wurde renoviert\" (the building was renovated). The passive is werden + participle, with \"wurde\" in the Präteritum and \"ist ... worden\" in the Perfekt.",
         ],
         examples: [
@@ -902,7 +902,7 @@ export const DE_B1_U27: Lesson[] = [
             question: "\"Das Haus war renoviert worden.\" What does it mean?",
             options: ["The building had been renovated.", "The building was being renovated.", "The building will be renovated.", "The building has to be renovated."],
             correctIndex: 0,
-            explanation: "\"War ... worden\" is the Plusquamperfekt passive: had been done. Note \"worden\", not *geworden, in the passive.",
+            explanation: "\"War ... worden\" is the Plusquamperfekt passive: had been done. Note \"worden\", not \"*geworden\", in the passive.",
           },
         ],
       },
@@ -937,7 +937,7 @@ export const DE_B1_U27: Lesson[] = [
             en: "She's been waiting [for an answer] for three weeks.",
             sentence: "Sie wartet seit drei Wochen ___.",
             answer: "auf eine Antwort",
-            explanation: "\"Warten auf\" + accusative: \"auf eine Antwort\". *Für is the classic English-speaker mistake.",
+            explanation: "\"Warten auf\" + accusative: \"auf eine Antwort\". \"*Für\" is the classic English-speaker mistake.",
           },
           {
             type: "translate",
@@ -960,16 +960,16 @@ export const DE_B1_U27: Lesson[] = [
           { es: "Die Erhöhung ist zu hoch, deshalb müssen Sie nicht zustimmen.", en: "The increase is too high, so you don't have to agree to it." },
           { es: "Außerdem wurde die Wohnung selbst gar nicht renoviert.", en: "Besides, the flat itself wasn't renovated at all." },
           { es: "Der Vermieter war unfreundlich, trotzdem blieb Ayşe ruhig.", en: "The landlord was unfriendly, but Ayşe still stayed calm." },
-          { es: "Sie müssen schriftlich antworten, sonst gilt die Erhöhung.", en: "You have to reply in writing, otherwise the increase applies." },
+          { es: "Lesen Sie den Brief genau, sonst übersehen Sie die Frist.", en: "Read the letter carefully, otherwise you'll miss the deadline." },
           { es: "Obwohl sie Angst hatte, schrieb sie dem Vermieter.", en: "Although she was nervous, she wrote to the landlord." },
         ],
         checkpoint: [
           {
             type: "word-order",
-            prompt: "Put the words in order to say: Otherwise the increase applies.",
-            words: ["Sonst", "gilt", "die", "Erhöhung."],
-            translation: "Otherwise the increase applies.",
-            explanation: "\"Sonst\" in position 1, verb \"gilt\" (from \"gelten\", to be valid) second.",
+            prompt: "Put the words in order to say: Otherwise you'll miss the deadline. (formal)",
+            words: ["Sonst", "übersehen", "Sie", "die", "Frist."],
+            translation: "Otherwise you'll miss the deadline.",
+            explanation: "\"Sonst\" in position 1, verb \"übersehen\" (to overlook) second, then the subject \"Sie\".",
           },
           {
             type: "translate",
@@ -1246,7 +1246,7 @@ export const DE_B1_U27: Lesson[] = [
         question: "A friend shows you an old ring. What's a natural casual question?",
         options: ["Wo hast du den denn her?", "Woher haben Sie den Ring bekommen worden?", "Wer hat dich den Ring geschenkt?", "Seit wann hattest du den gehabt?"],
         correctIndex: 0,
-        explanation: "\"Wo hast du den denn her?\" is natural and friendly. The others mix register or make case and tense errors (*dich for \"dir\").",
+        explanation: "\"Wo hast du den denn her?\" is natural and friendly. The others mix register or make case and tense errors (\"*dich\" for \"dir\").",
       },
       {
         type: "translate",
@@ -1434,7 +1434,7 @@ export const DE_B1_U27: Lesson[] = [
         prompt: "Translate into German.",
         source: "Then you'll just have to get up earlier. (to a friend)",
         answer: "Dann musst du halt früher aufstehen.",
-        altAnswers: ["Dann musst du eben früher aufstehen.", "Dann musst du einfach früher aufstehen.", "Dann müsst ihr halt früher aufstehen.", "Dann müsst ihr eben früher aufstehen."],
+        altAnswers: ["Dann musst du eben früher aufstehen.", "Dann musst du einfach früher aufstehen."],
         explanation: "\"Halt\" or \"eben\" for there's no other way; \"aufstehen\" stays together as an infinitive at the end.",
       },
       {
@@ -1550,7 +1550,7 @@ export const DE_B1_U27: Lesson[] = [
             prompt: "Translate into German.",
             source: "Are you free tonight? (to a friend)",
             answer: "Hast du heute Abend Zeit?",
-            altAnswers: ["Haste heute Abend Zeit?", "Hast du heute Abend schon was vor?", "Habt ihr heute Abend Zeit?"],
+            altAnswers: ["Haste heute Abend Zeit?", "Hast du heute Abend schon was vor?"],
             explanation: "Being free = \"Zeit haben\". In a chat, \"haste\" is normal.",
           },
         ],
@@ -1558,7 +1558,7 @@ export const DE_B1_U27: Lesson[] = [
       {
         heading: "Writing your own messages",
         body: [
-          "A good chat message is short but still German: the verb stays second (\"Bin gleich da\" drops the subject, but not the order), and particles keep the tone friendly: \"Kommst du auch mal vorbei?\", \"Sag mal Bescheid!\" (let me know).",
+          "A good chat message is short but still German: \"Bin gleich da\" just drops the subject \"ich\" and keeps everything else in place, and particles keep the tone friendly: \"Kommst du auch mal vorbei?\", \"Sag mal Bescheid!\" (let me know).",
           "Useful chat phrases: \"Bin gleich da\" (be there in a sec), \"Sag Bescheid\" (let me know), \"Klingt gut!\" (sounds good), \"Bin dabei!\" (I'm in), \"Melde mich später\" (I'll get back to you later), \"Alles klar\" (all right / OK).",
         ],
         examples: [
@@ -1575,7 +1575,7 @@ export const DE_B1_U27: Lesson[] = [
             prompt: "Translate into German.",
             source: "Let me know when you set off. (to a friend)",
             answer: "Sag Bescheid, wenn du losfährst.",
-            altAnswers: ["Sag mal Bescheid, wenn du losfährst.", "Sag mir Bescheid, wenn du losfährst.", "Sag Bescheid, wenn du losgehst.", "Sag mal Bescheid, wenn du losgehst.", "Sagt Bescheid, wenn ihr losfahrt."],
+            altAnswers: ["Sag mal Bescheid, wenn du losfährst.", "Sag mir Bescheid, wenn du losfährst.", "Sag Bescheid, wenn du losgehst.", "Sag mal Bescheid, wenn du losgehst."],
             explanation: "\"Bescheid sagen\" = to let someone know; \"wenn\" sends \"losfährst\" to the end, with the prefix attached.",
           },
           {
@@ -1806,7 +1806,7 @@ export const DE_B1_U27: Lesson[] = [
             prompt: "Translate into German.",
             source: "And you? What did you get up to? (to a friend)",
             answer: "Und du? Was hast du so gemacht?",
-            altAnswers: ["Und du? Was hast du gemacht?", "Und du? Was hast du denn so gemacht?", "Und ihr? Was habt ihr so gemacht?"],
+            altAnswers: ["Und du? Was hast du gemacht?", "Und du? Was hast du denn so gemacht?"],
             explanation: "\"So\" softens the question; Perfekt \"hast ... gemacht\".",
           },
           {
@@ -1919,7 +1919,7 @@ export const DE_B1_U27: Lesson[] = [
       {
         heading: "Scene 1: What shall we do tonight?",
         body: [
-          "Mia, Jonas and Ayşe are in their group chat call, deciding what to do on Friday evening. Listen to how they make suggestions: \"Wollen wir...?\" (shall we...?), \"Wie wär's mit...?\" (how about...?), \"Wir könnten doch...\" (we could...). \"Wär's\" is \"wäre es\" squeezed together.",
+          "Mia, Jonas and Ayşe are on a group call, deciding what to do on Friday evening. Listen to how they make suggestions: \"Wollen wir...?\" (shall we...?), \"Wie wär's mit...?\" (how about...?), \"Wir könnten doch...\" (we could...). \"Wär's\" is \"wäre es\" squeezed together.",
           "Notice the particles in every line: \"doch\" to suggest, \"denn\" to ask, \"mal\" to soften, and the dropped endings (\"hab\", \"geh\").",
         ],
         examples: [
@@ -2140,7 +2140,6 @@ export const DE_B1_U27: Lesson[] = [
             prompt: "Translate into German.",
             source: "Are you looking forward to the holiday? (to a friend)",
             answer: "Freust du dich auf den Urlaub?",
-            altAnswers: ["Freut ihr euch auf den Urlaub?"],
             explanation: "\"Sich freuen auf\" = to look forward to; with \"du\" the reflexive is \"dich\".",
           },
           {
@@ -2224,7 +2223,7 @@ export const DE_B1_U27: Lesson[] = [
         prompt: "Translate into German.",
         source: "Can I help you? (to a friend)",
         answer: "Kann ich dir helfen?",
-        altAnswers: ["Kann ich dir mal helfen?", "Soll ich dir helfen?", "Kann ich euch helfen?"],
+        altAnswers: ["Kann ich dir mal helfen?", "Soll ich dir helfen?"],
         explanation: "\"Ihnen\" → \"dir\": \"helfen\" takes the dative.",
       },
       {
@@ -2233,7 +2232,7 @@ export const DE_B1_U27: Lesson[] = [
         prompt: "Translate into German.",
         source: "Sit down! (to a friend)",
         answer: "Setz dich!",
-        altAnswers: ["Setz dich doch!", "Setz dich hin!", "Setzt euch!", "Setzt euch doch!"],
+        altAnswers: ["Setz dich doch!", "Setz dich hin!"],
         explanation: "\"Setzen Sie sich!\" → \"Setz dich!\": du-imperative without -st and without \"du\", reflexive \"dich\".",
       },
       {
@@ -2328,11 +2327,11 @@ export const DE_B1_U27: Lesson[] = [
         heading: "Morning: getting everyone up",
         body: [
           "Leon works as a \"Betreuer\" (counsellor) at a \"Ferienlager\" (summer camp) by a lake in Brandenburg. Counsellors and teenagers say du to each other, and the language is casual from the first minute.",
-          "Imperatives are everywhere, softened or sharpened with particles: \"Steht mal auf!\" (get up, would you), \"Jetzt kommt doch endlich!\" (come on, finally!), \"Beeilt euch mal ein bisschen!\" (hurry up a bit!). The ihr-imperative is just the ihr-form without \"ihr\": \"ihr steht auf\" → \"Steht auf!\".",
+          "Imperatives are everywhere, softened or sharpened with particles: \"Steht mal auf!\" (get up, would you), \"Jetzt kommt doch endlich!\" (come on, get a move on!), \"Beeilt euch mal ein bisschen!\" (hurry up a bit!). The ihr-imperative is just the ihr-form without \"ihr\": \"ihr steht auf\" → \"Steht auf!\".",
         ],
         examples: [
           { es: "Guten Morgen! Steht mal auf, es gibt Frühstück!", en: "Good morning! Get up, there's breakfast!" },
-          { es: "Jetzt kommt doch endlich!", en: "Come on, finally!" },
+          { es: "Jetzt kommt doch endlich!", en: "Come on, get a move on!" },
           { es: "Beeilt euch mal ein bisschen!", en: "Hurry up a bit!" },
           { es: "Wo ist denn Paul schon wieder?", en: "Where's Paul got to again?" },
           { es: "Der schläft halt noch.", en: "He's just still asleep." },
@@ -2497,7 +2496,7 @@ export const DE_B1_U27: Lesson[] = [
         prompt: "Translate into German.",
         source: "Have you got sun cream with you? (to a friend)",
         answer: "Hast du Sonnencreme dabei?",
-        altAnswers: ["Haste Sonnencreme dabei?", "Hast du Sonnencreme mit?", "Habt ihr Sonnencreme dabei?"],
+        altAnswers: ["Haste Sonnencreme dabei?", "Hast du Sonnencreme mit?"],
         explanation: "\"Dabeihaben\" = to have on you; spoken \"haste\".",
       },
       {

@@ -23,7 +23,7 @@ export const DE_C1_U11: Lesson[] = [
     level: "DE-C1",
     number: 1,
     title: "Emphasis and Focus, Part 1 of 6",
-    summary: "Focus particles and their scope: sogar, selbst, auch, nur, erst, schon, noch, placed right before what they focus, and erst vs nur for English only.",
+    summary: "Place focus particles (\"sogar\", \"selbst\", \"auch\", \"nur\", \"erst\", \"schon\", \"noch\") right before what they focus, and choose between \"erst\" and \"nur\" for English only.",
     duration: "18 min",
     sections: [
       {
@@ -65,7 +65,7 @@ export const DE_C1_U11: Lesson[] = [
         body: [
           "English only covers two different ideas that German separates. \"Nur\" means only, merely, nothing more: a limit on quantity or extent. \"Erst\" means only so far, not until, no earlier than: it implies that more will come, or that something happened later than expected.",
           "With time: \"Ich bin erst gestern angekommen\" (I only arrived yesterday: later than you might think). \"Der Zug fährt erst um zehn\" (not until ten). With age and quantity: \"Er ist erst 16\" (he's only 16, he'll get older), \"Ich habe erst drei Kapitel gelesen\" (only three so far; I'll read more). Compare: \"Ich habe nur drei Kapitel gelesen\" (only three, and that's all).",
-          "Learners overuse \"nur\" with times and ages: *\"Ich habe nur gestern angefangen\" sounds as if you started yesterday and on no other day. Use \"erst\".",
+          "Learners overuse \"nur\" with times and ages: \"*Ich habe nur gestern angefangen*\" sounds as if you started yesterday and on no other day. Use \"erst\".",
         ],
         examples: [
           { es: "Ich bin erst seit zwei Wochen in Berlin.", en: "I've only been in Berlin for two weeks." },
@@ -107,7 +107,7 @@ export const DE_C1_U11: Lesson[] = [
         heading: "Schon and noch",
         body: [
           "\"Schon\" (already) and \"noch\" (still, yet) also focus time and quantity, and they pair with \"erst\" and \"nicht mehr\". \"Schon\" says earlier or more than expected: \"Sie ist schon 80\" (she's already 80). \"Erst\" says later or less than expected: \"Sie ist erst 18.\"",
-          "The negations are tricky: not yet = \"noch nicht\"; no longer, not any more = \"nicht mehr\"; still not = \"immer noch nicht\". \"Er ist noch nicht da\" (he isn't here yet); \"Er ist nicht mehr da\" (he's no longer here). *\"Er ist schon nicht da\" is a calque from English and doesn't mean anything.",
+          "The negations are tricky: not yet = \"noch nicht\"; no longer, not any more = \"nicht mehr\"; still not = \"immer noch nicht\". \"Er ist noch nicht da\" (he isn't here yet); \"Er ist nicht mehr da\" (he's no longer here). \"*Er ist schon nicht da*\" does not mean he isn't here yet: it sounds odd, and with \"schon\" as a modal particle it would even mean don't worry, he won't be there.",
           "\"Noch\" + quantity means more, another: \"noch ein Bier\" (another beer), \"noch zwei Tage\" (two more days).",
         ],
         examples: [
@@ -168,7 +168,7 @@ export const DE_C1_U11: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "She's [not] here [yet].",
+        en: "She's [not yet] here.",
         sentence: "Sie ist ___ da.",
         answer: "noch nicht",
         explanation: "Not yet = \"noch nicht\". No longer would be \"nicht mehr\".",
@@ -211,6 +211,7 @@ export const DE_C1_U11: Lesson[] = [
         prompt: "Translate into German.",
         source: "We're staying three more days.",
         answer: "Wir bleiben noch drei Tage.",
+        altAnswers: ["Wir bleiben noch drei Tage länger.", "Wir bleiben drei Tage länger."],
         explanation: "\"Noch\" + quantity = more.",
       },
       {
@@ -231,7 +232,7 @@ export const DE_C1_U11: Lesson[] = [
     level: "DE-C1",
     number: 2,
     title: "Emphasis and Focus, Part 2 of 6",
-    summary: "Gerade, eben, ausgerechnet and genau: just now, precisely, of all things, and not exactly cheap.",
+    summary: "Use \"gerade\", \"eben\", \"ausgerechnet\" and \"genau\" to say just now, precisely, of all things and not exactly cheap.",
     duration: "17 min",
     sections: [
       {
@@ -305,7 +306,7 @@ export const DE_C1_U11: Lesson[] = [
         heading: "Eben and genau",
         body: [
           "\"Eben\" as a focus word means exactly, precisely, and as a reply it means exactly, that's my point: \"Das ist es ja eben!\" (that's exactly the point!). \"Eben!\" alone agrees emphatically. As a time adverb, \"eben\" = just (now): \"Er war eben noch hier.\" (\"Eben\" as a modal particle comes in Part 3.)",
-          "\"Genau\" focuses precision: \"genau das\" (exactly that), \"genau hier\", \"genau um acht\". As a reply it means exactly, right (backchannel, Unit 10). \"Genau das habe ich gemeint\" puts strong focus on das via the Vorfeld.",
+          "\"Genau\" focuses precision: \"genau das\" (exactly that), \"genau hier\", \"genau um acht\". As a reply it means exactly, right (backchannel, Unit 10). \"Genau das habe ich gemeint\" puts strong focus on \"das\" via the Vorfeld.",
         ],
         examples: [
           { es: "Das ist es ja eben: Niemand fühlt sich verantwortlich.", en: "That's just the point: nobody feels responsible." },
@@ -321,8 +322,8 @@ export const DE_C1_U11: Lesson[] = [
             prompt: "Translate into German.",
             source: "That's exactly what I wanted to say.",
             answer: "Genau das wollte ich sagen.",
-            altAnswers: ["Das wollte ich genau sagen.", "Eben das wollte ich sagen.", "Das ist genau das, was ich sagen wollte."],
-            explanation: "\"Genau das\" in the Vorfeld puts strong focus on das.",
+            altAnswers: ["Genau das habe ich sagen wollen.", "Eben das wollte ich sagen.", "Das ist genau das, was ich sagen wollte."],
+            explanation: "\"Genau das\" in the Vorfeld puts strong focus on \"das\". \"*Das wollte ich genau sagen*\" would mean I wanted to say it accurately.",
           },
           {
             type: "speak",
@@ -382,7 +383,7 @@ export const DE_C1_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Ayşe says: Wir haben zu wenig Zeit für das Projekt. You fully agree. What do you say?",
+        question: "Ayşe says: \"Wir haben zu wenig Zeit für das Projekt.\" You fully agree. What do you say?",
         options: ["Eben!", "Gerade!", "Ausgerechnet!", "Erst!"],
         correctIndex: 0,
         explanation: "\"Eben!\" as a reply = exactly, that's my point.",
@@ -496,7 +497,7 @@ export const DE_C1_U11: Lesson[] = [
         heading: "Focusing reasons and places",
         body: [
           "Reasons and places can take the spotlight too: \"Aus diesem Grund haben wir abgesagt\" (that's why we cancelled), \"Deshalb bin ich hier\" (that's why I'm here), \"Hier habe ich sie kennengelernt\" (this is where I met her).",
-          "English that's why / that's where / this is how structures map neatly onto a German Vorfeld: \"Deshalb...\", \"Dort...\", \"So...\". This sounds far more natural than a translated cleft like *\"Das ist warum...\" (which is an anglicism: say \"Deshalb...\" or \"Das ist der Grund, warum...\").",
+          "English that's why / that's where / this is how structures map neatly onto a German Vorfeld: \"Deshalb...\", \"Dort...\", \"So...\". This sounds far more natural than a translated cleft like \"*Das ist warum...*\" (which is an anglicism: say \"Deshalb...\" or \"Das ist der Grund, warum...\").",
         ],
         examples: [
           { es: "Deshalb bin ich heute hier.", en: "That's why I'm here today." },
@@ -512,7 +513,7 @@ export const DE_C1_U11: Lesson[] = [
             source: "That's why I'm calling.",
             answer: "Deshalb rufe ich an.",
             altAnswers: ["Deswegen rufe ich an.", "Darum rufe ich an.", "Aus diesem Grund rufe ich an."],
-            explanation: "That's why = \"Deshalb\" in the Vorfeld; *\"Das ist warum\" is an anglicism.",
+            explanation: "That's why = \"Deshalb\" in the Vorfeld; \"*Das ist warum*\" is an anglicism.",
           },
           {
             type: "speak",
@@ -539,7 +540,7 @@ export const DE_C1_U11: Lesson[] = [
         prompt: "Translate into German.",
         source: "It was Jonas who found the mistake, not me.",
         answer: "Jonas hat den Fehler gefunden, nicht ich.",
-        altAnswers: ["Nicht ich, sondern Jonas hat den Fehler gefunden.", "Den Fehler hat Jonas gefunden, nicht ich."],
+        altAnswers: ["Nicht ich, sondern Jonas hat den Fehler gefunden.", "Den Fehler hat Jonas gefunden, nicht ich.", "Es war Jonas, der den Fehler gefunden hat, nicht ich.", "Nicht ich habe den Fehler gefunden, sondern Jonas."],
         explanation: "German marks the contrast with order and \"nicht\"; a literal cleft (\"Es war Jonas, der...\") is possible but heavier.",
       },
       {
@@ -609,7 +610,7 @@ export const DE_C1_U11: Lesson[] = [
     level: "DE-C1",
     number: 4,
     title: "Dialogue Lab: Correcting with Emphasis",
-    summary: "A mix-up over who booked the holiday flat: correct people firmly with word order, stress and particles.",
+    summary: "Follow a mix-up over who booked the holiday flat and learn to correct people firmly with word order, stress, \"doch\" and other particles.",
     duration: "17 min",
     sections: [
       {
@@ -757,7 +758,7 @@ export const DE_C1_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Julia says: Du hast nicht abgewaschen. You did. What do you say?",
+        question: "Julia says: \"Du hast nicht abgewaschen.\" You did. What do you say?",
         options: ["Doch, habe ich!", "Ja, habe ich nicht!", "Nein, habe ich!", "Schon, nicht!"],
         correctIndex: 0,
         explanation: "Contradicting a negative statement: \"Doch!\".",
@@ -798,7 +799,7 @@ export const DE_C1_U11: Lesson[] = [
     level: "DE-C1",
     number: 5,
     title: "Emphasis and Focus, Part 3 of 6",
-    summary: "Modal particles at the Advanced level: ja, doch, eben, halt, wohl, schon, denn, bloß, nur, etwa, ruhig, and how they combine.",
+    summary: "Colour what you say with the modal particles \"ja\", \"doch\", \"eben\", \"halt\", \"wohl\", \"schon\", \"denn\", \"bloß\", \"nur\", \"etwa\" and \"ruhig\", and combine them naturally.",
     duration: "20 min",
     sections: [
       {
@@ -806,7 +807,7 @@ export const DE_C1_U11: Lesson[] = [
         body: [
           "Modal particles are small unstressed words in the Mittelfeld that colour a sentence with the speaker's attitude. They have no direct English equivalent; English uses tone, tags (you know, after all) or adverbs. They never stand in the Vorfeld.",
           "\"Ja\" marks something both speakers know or should know, often with mild surprise: \"Das ist ja interessant!\", \"Du weißt ja, wie er ist\" (you know what he's like). \"Doch\" in a statement reminds the listener of something they should remember, often with a reproach: \"Ich habe es dir doch gesagt!\" (but I told you!). In an imperative it urges: \"Komm doch mit!\" (do come along!).",
-          "\"Eben\" and \"halt\" express that something is just the way it is: \"Das ist eben so\", \"Dann muss ich halt laufen\". \"Halt\" is more colloquial and northern; \"eben\" is standard everywhere.",
+          "\"Eben\" and \"halt\" express that something is just the way it is: \"Das ist eben so\", \"Dann muss ich halt laufen\". \"Halt\" is more colloquial (originally southern, now heard everywhere); \"eben\" is more standard and especially common in the north.",
         ],
         examples: [
           { es: "Du weißt ja, wie meine Mutter ist.", en: "You know what my mother's like." },
@@ -1008,7 +1009,7 @@ export const DE_C1_U11: Lesson[] = [
     level: "DE-C1",
     number: 6,
     title: "Emphasis and Focus, Part 4 of 6",
-    summary: "Intensifiers (ganz, total, echt, voll, äußerst, durchaus) and exclamatives (Wie schön! Was für ein Chaos! Ist das schön!).",
+    summary: "Strengthen or tone down what you say with intensifiers (\"ganz\", \"total\", \"echt\", \"voll\", \"äußerst\", \"durchaus\") in the right register, and exclaim with \"Wie schön!\", \"Was für ein Chaos!\" and \"Ist das schön!\".",
     duration: "17 min",
     sections: [
       {
@@ -1029,7 +1030,7 @@ export const DE_C1_U11: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Your boss says about your report: Ganz gut. What does she probably mean?",
+            question: "Your boss says about your report: \"Ganz gut.\" What does she probably mean?",
             options: ["It's OK, but nothing special.", "It's excellent.", "It's completely finished.", "It's very bad."],
             correctIndex: 0,
             explanation: "Unstressed \"ganz\" + \"gut\" weakens: quite good, OK.",
@@ -1205,7 +1206,7 @@ export const DE_C1_U11: Lesson[] = [
     level: "DE-C1",
     number: 7,
     title: "Contrast Clinic: Sogar, Selbst, Auch, Gar",
-    summary: "Selbst as even vs himself, sogar vs auch, gar nicht / gar kein / gar nichts, ja sogar and wenn nicht gar.",
+    summary: "Tell \"selbst\" (even) from \"selbst\" (himself), choose between \"sogar\" and \"auch\", and use \"gar nicht\", \"gar kein\", \"gar nichts\", \"ja sogar\" and \"wenn nicht gar\".",
     duration: "16 min",
     sections: [
       {
@@ -1235,9 +1236,9 @@ export const DE_C1_U11: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence means: Even the teacher didn't know.",
-            options: ["Selbst der Lehrer wusste es nicht.", "Der Lehrer selbst wusste es nicht.", "Der Lehrer wusste es selbst nicht.", "Der Lehrer wusste sich nicht."],
+            options: ["Selbst der Lehrer wusste es nicht.", "Der Lehrer selbst wusste es nicht.", "Selbst der Lehrer wusste es.", "Der Lehrer wusste sich nicht."],
             correctIndex: 0,
-            explanation: "\"Selbst\" before the noun = even.",
+            explanation: "\"Selbst\" before the noun = even. \"Der Lehrer selbst\" means the teacher himself, as opposed to someone else.",
           },
         ],
       },
@@ -1245,7 +1246,7 @@ export const DE_C1_U11: Lesson[] = [
         heading: "Sogar vs auch",
         body: [
           "\"Auch\" adds something expected or neutral: also, too. \"Sogar\" adds something surprising, the extreme case: even. \"Auch mein Bruder kam\" (my brother came too); \"Sogar mein Bruder kam\" (even my brother came: he never comes to anything).",
-          "Negation: even... not is \"nicht einmal\" (colloquial \"nicht mal\"), NOT *\"sogar nicht\": \"Er hat nicht einmal angerufen\" (he didn't even call). *\"Er hat sogar nicht angerufen\" is a classic learner error.",
+          "Negation: even... not is \"nicht einmal\" (colloquial \"nicht mal\"), NOT \"*sogar nicht*\": \"Er hat nicht einmal angerufen\" (he didn't even call). \"*Er hat sogar nicht angerufen*\" is a classic learner error.",
         ],
         examples: [
           { es: "Auch meine Kollegen waren da.", en: "My colleagues were there too." },
@@ -1261,7 +1262,7 @@ export const DE_C1_U11: Lesson[] = [
             source: "He didn't even say goodbye.",
             answer: "Er hat sich nicht einmal verabschiedet.",
             altAnswers: ["Er hat sich nicht mal verabschiedet.", "Er hat nicht einmal Tschüss gesagt.", "Er hat nicht mal Tschüss gesagt.", "Er verabschiedete sich nicht einmal."],
-            explanation: "Even... not = \"nicht einmal\" / \"nicht mal\", never *\"sogar nicht\".",
+            explanation: "Even... not = \"nicht einmal\" / \"nicht mal\", never \"*sogar nicht*\".",
           },
           {
             type: "fill-blank",
@@ -1308,7 +1309,7 @@ export const DE_C1_U11: Lesson[] = [
           {
             type: "speak",
             text: "Das ist gar nicht so schwer, wie es aussieht.",
-            prompt: "Say it in German: It's not as hard as it looks at all.",
+            prompt: "Say it in German: It's not nearly as hard as it looks.",
             explanation: "\"Gar nicht so... wie\": not at all as... as.",
           },
         ],
@@ -1363,9 +1364,9 @@ export const DE_C1_U11: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct German for: He didn't even try.",
-        options: ["Er hat es nicht einmal versucht.", "Er hat es sogar nicht versucht.", "Er hat es selbst nicht versucht.", "Er hat es auch nicht einmal versucht."],
+        options: ["Er hat es nicht einmal versucht.", "Er hat es sogar nicht versucht.", "Er hat es selbst nicht versucht.", "Er hat es nicht sogar versucht."],
         correctIndex: 0,
-        explanation: "\"Nicht einmal\"; *\"sogar nicht\" is wrong, and \"selbst nicht\" means he himself didn't.",
+        explanation: "\"Nicht einmal\"; \"*sogar nicht*\" is wrong, and \"selbst nicht\" means he himself didn't.",
       },
       {
         type: "word-order",
@@ -1401,15 +1402,15 @@ export const DE_C1_U11: Lesson[] = [
     level: "DE-C1",
     number: 8,
     title: "Error Hunt: Particles and Focus",
-    summary: "Fix wrong placement and confusions: sogar nicht, nur gestern (erst), schon nicht (noch nicht), ganz as completely, doch as but, particles in the Vorfeld.",
+    summary: "Find and fix typical particle errors: \"sogar nicht\" for \"nicht einmal\", \"nur\" for \"erst\", \"schon nicht\" for \"noch nicht\", misreading \"ganz\", \"doch\" as but, and particles in the Vorfeld.",
     duration: "16 min",
     sections: [
       {
         heading: "Scope and negation errors",
         body: [
-          "*\"Ich habe sogar nicht gefrühstückt\" → \"Ich habe nicht einmal gefrühstückt.\" Even... not is \"nicht einmal\".",
-          "*\"Ich habe nur gestern angefangen\" (meaning only yesterday, later than expected) → \"Ich habe erst gestern angefangen.\" *\"Er ist schon nicht da\" (meaning not yet) → \"Er ist noch nicht da.\" *\"Ich wohne noch nicht in Berlin\" (meaning no longer) → \"Ich wohne nicht mehr in Berlin.\"",
-          "*\"Nur ich habe ihn gesehen\" when the speaker meant I only saw him (didn't speak to him) → \"Ich habe ihn nur gesehen.\" Check what the particle stands directly in front of.",
+          "\"*Ich habe sogar nicht gefrühstückt*\" → \"Ich habe nicht einmal gefrühstückt.\" Even... not is \"nicht einmal\".",
+          "\"*Ich habe nur gestern angefangen*\" (meaning only yesterday, later than expected) → \"Ich habe erst gestern angefangen.\" \"*Er ist schon nicht da*\" (meaning not yet) → \"Er ist noch nicht da.\" \"*Ich wohne noch nicht in Berlin*\" (meaning no longer) → \"Ich wohne nicht mehr in Berlin.\"",
+          "\"*Nur ich habe ihn gesehen*\" when the speaker meant I only saw him (didn't speak to him) → \"Ich habe ihn nur gesehen.\" Check what the particle stands directly in front of.",
         ],
         examples: [
           { es: "Ich habe heute nicht einmal gefrühstückt.", en: "I haven't even had breakfast today." },
@@ -1421,7 +1422,7 @@ export const DE_C1_U11: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the mistake and translate into German: *Ich bin nur seit Montag hier. (I've only been here since Monday.)",
+            prompt: "Fix the mistake and translate into German: \"*Ich bin nur seit Montag hier.*\" (I've only been here since Monday.)",
             source: "I've only been here since Monday.",
             answer: "Ich bin erst seit Montag hier.",
             altAnswers: ["Ich bin erst seit Montag da."],
@@ -1430,11 +1431,11 @@ export const DE_C1_U11: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the mistake and translate into German: *Sie hat sogar nicht gelächelt. (She didn't even smile.)",
+            prompt: "Fix the mistake and translate into German: \"*Sie hat sogar nicht gelächelt.*\" (She didn't even smile.)",
             source: "She didn't even smile.",
             answer: "Sie hat nicht einmal gelächelt.",
             altAnswers: ["Sie hat nicht mal gelächelt.", "Sie lächelte nicht einmal."],
-            explanation: "\"Nicht einmal\" replaces *\"sogar nicht\".",
+            explanation: "\"Nicht einmal\" replaces \"*sogar nicht*\".",
           },
         ],
       },
@@ -1442,8 +1443,8 @@ export const DE_C1_U11: Lesson[] = [
         heading: "Ganz, doch and modal particles in the wrong place",
         body: [
           "\"Ich habe das Buch ganz gelesen\" is fine: there \"ganz\" means completely. But reading \"ganz gut\" as completely good or very good is a comprehension error: \"Die Prüfung lief ganz gut\" = it went OK.",
-          "*\"Ich wollte kommen, doch habe ich keine Zeit\" → in modern German \"doch\" as but is position 0: \"..., doch ich hatte keine Zeit\" (or invert: \"doch hatte ich keine Zeit\" is old-fashioned). Simpler: \"aber\".",
-          "Modal particles never go in the Vorfeld: \"Ja, das ist teuer\" with \"ja\" first means Yes, that's expensive; the particle version is \"Das ist ja teuer!\". *\"Halt ist das so\" → \"Das ist halt so\". *\"Mal kannst du kommen?\" → \"Kannst du mal kommen?\"",
+          "\"*Ich wollte kommen, doch habe ich keine Zeit*\" mixes tenses: the reason is past too, so \"hatte\". With \"doch\" as but, both orders are correct: position 0 (\"..., doch ich hatte keine Zeit\", the usual choice in speech) or inversion (\"..., doch hatte ich keine Zeit\", more literary). Simpler: \"aber\".",
+          "Modal particles never go in the Vorfeld: \"Ja, das ist teuer\" with \"ja\" first means Yes, that's expensive; the particle version is \"Das ist ja teuer!\". \"*Halt ist das so*\" → \"Das ist halt so\". \"*Mal kannst du kommen?*\" → \"Kannst du mal kommen?\"",
         ],
         examples: [
           { es: "Ich wollte kommen, aber ich hatte keine Zeit.", en: "I wanted to come, but I didn't have time." },
@@ -1455,7 +1456,7 @@ export const DE_C1_U11: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the mistake and translate into German: *Halt ist das so. (That's just how it is.)",
+            prompt: "Fix the mistake and translate into German: \"*Halt ist das so.*\" (That's just how it is.)",
             source: "That's just how it is.",
             answer: "Das ist halt so.",
             altAnswers: ["Das ist eben so.", "Es ist halt so.", "Es ist eben so."],
@@ -1474,8 +1475,8 @@ export const DE_C1_U11: Lesson[] = [
       {
         heading: "Selbst and auch errors",
         body: [
-          "*\"Er hat selbst verletzt\" (meaning he hurt himself) → \"Er hat sich verletzt.\" \"Selbst\" is not reflexive. *\"Ich auch nicht habe Zeit\" → \"Ich habe auch keine Zeit\" or in reply \"Ich auch nicht.\"",
-          "*\"Auch ich habe auch das gesagt\": one \"auch\" is enough, before what it focuses. And remember \"auch\" in a negative sentence: not either = \"auch nicht\": \"Ich weiß es auch nicht\" (I don't know either).",
+          "\"*Er hat selbst verletzt*\" (meaning he hurt himself) → \"Er hat sich verletzt.\" \"Selbst\" is not reflexive. \"*Ich auch nicht habe Zeit*\" → \"Ich habe auch keine Zeit\" or in reply \"Ich auch nicht.\"",
+          "\"*Auch ich habe auch das gesagt*\": one \"auch\" is enough, before what it focuses. And remember \"auch\" in a negative sentence: not either = \"auch nicht\": \"Ich weiß es auch nicht\" (I don't know either).",
         ],
         examples: [
           { es: "Er hat sich beim Sport verletzt.", en: "He hurt himself doing sport." },
@@ -1506,7 +1507,7 @@ export const DE_C1_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the mistake and translate into German: *Er ist schon nicht angekommen. (He hasn't arrived yet.)",
+        prompt: "Fix the mistake and translate into German: \"*Er ist schon nicht angekommen.*\" (He hasn't arrived yet.)",
         source: "He hasn't arrived yet.",
         answer: "Er ist noch nicht angekommen.",
         altAnswers: ["Er ist noch nicht da."],
@@ -1515,7 +1516,7 @@ export const DE_C1_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the mistake and translate into German: *Wir wohnen noch nicht in Hamburg. (We no longer live in Hamburg.)",
+        prompt: "Fix the mistake and translate into German: \"*Wir wohnen noch nicht in Hamburg.*\" (We no longer live in Hamburg.)",
         source: "We no longer live in Hamburg.",
         answer: "Wir wohnen nicht mehr in Hamburg.",
         explanation: "No longer = \"nicht mehr\"; \"noch nicht\" = not yet.",
@@ -1523,7 +1524,7 @@ export const DE_C1_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the mistake and translate into German: *Ich habe sogar nicht geschlafen. (I didn't even sleep.)",
+        prompt: "Fix the mistake and translate into German: \"*Ich habe sogar nicht geschlafen.*\" (I didn't even sleep.)",
         source: "I didn't even sleep.",
         answer: "Ich habe nicht einmal geschlafen.",
         altAnswers: ["Ich habe nicht mal geschlafen."],
@@ -1532,7 +1533,7 @@ export const DE_C1_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the mistake and translate into German: *Sie hat selbst geschnitten. (She cut herself.)",
+        prompt: "Fix the mistake and translate into German: \"*Sie hat selbst geschnitten.*\" (She cut herself.)",
         source: "She cut herself.",
         answer: "Sie hat sich geschnitten.",
         altAnswers: ["Sie schnitt sich."],
@@ -1540,8 +1541,8 @@ export const DE_C1_U11: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Fix the mistake (*Mal kannst du helfen?). Write the German for the bold words.",
-        en: "Can you [give me a] hand?",
+        prompt: "Fix the mistake in \"*Mal kannst du mir helfen?*\" Write the German for the bold words.",
+        en: "Could you [just] help me?",
         sentence: "Kannst du mir ___ helfen?",
         answer: "mal",
         altAnswers: ["kurz", "mal kurz"],
@@ -1550,7 +1551,7 @@ export const DE_C1_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the mistake and translate into German: *Ich habe nur heute Morgen davon gehört. (I only heard about it this morning.)",
+        prompt: "Fix the mistake and translate into German: \"*Ich habe nur heute Morgen davon gehört.*\" (I only heard about it this morning.)",
         source: "I only heard about it this morning.",
         answer: "Ich habe erst heute Morgen davon gehört.",
         altAnswers: ["Erst heute Morgen habe ich davon gehört.", "Ich habe erst heute früh davon gehört."],
@@ -1558,8 +1559,8 @@ export const DE_C1_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["Das ist doch nicht so schlimm.", "Doch ist das nicht so schlimm.", "Das doch ist nicht so schlimm.", "Das ist nicht so schlimm doch."],
+        question: "You want to reassure a friend: it's not that bad, really. Which sentence is correct?",
+        options: ["Das ist doch nicht so schlimm.", "Das ist nicht so doch schlimm.", "Das doch ist nicht so schlimm.", "Das ist nicht so schlimm doch."],
         correctIndex: 0,
         explanation: "Modal particle \"doch\" in the Mittelfeld.",
       },
@@ -1597,7 +1598,7 @@ export const DE_C1_U11: Lesson[] = [
     level: "DE-C1",
     number: 9,
     title: "Emphasis and Focus, Part 5 of 6",
-    summary: "Emphatic syntax: Es war Max, der..., Was ich brauche, ist Zeit, Das Einzige, was..., demonstrative der / die / das, and left and right dislocation.",
+    summary: "Build emphatic sentences with clefts (\"Es war Max, der...\"), pseudo-clefts (\"Was ich brauche, ist Zeit\", \"Das Einzige, was...\"), stressed \"der / die / das\" and spoken left and right dislocation.",
     duration: "19 min",
     sections: [
       {
@@ -1670,7 +1671,7 @@ export const DE_C1_U11: Lesson[] = [
       {
         heading: "Demonstratives and dislocation in speech",
         body: [
-          "In speech, \"der / die / das\" replace \"er / sie / es\" when the person or thing is in focus or just mentioned: \"Kennst du Peter? Den kenne ich gut!\" \"Die Jacke? Die habe ich in Köln gekauft.\" They often take the Vorfeld and are stressed. In writing about people they can sound rude: \"Der ist doof\" vs \"Er ist doof\".",
+          "In speech, \"der / die / das\" replace \"er / sie / es\" when the person or thing is in focus or just mentioned: \"Kennst du Peter? Den kenne ich gut!\" \"Die Jacke? Die habe ich in Köln gekauft.\" They often take the Vorfeld and are stressed. Used for people, they can sound dismissive: \"Der ist doof\" is ruder than \"Er ist doof\".",
           "Left dislocation puts a topic outside the sentence and picks it up with a demonstrative: \"Den Peter, den kenne ich gut.\" \"Die neue Kollegin, die ist echt nett.\" Right dislocation adds the noun at the end as an afterthought: \"Die ist super, die Jacke.\" Both are typical of spoken German and of dialogues in novels, not of formal writing.",
           "The article before a first name (\"der Peter\") is colloquial and southern; in standard writing omit it.",
         ],
@@ -1733,6 +1734,7 @@ export const DE_C1_U11: Lesson[] = [
         prompt: "Translate into German.",
         source: "The only thing I regret is the time.",
         answer: "Das Einzige, was ich bereue, ist die Zeit.",
+        altAnswers: ["Das Einzige, was ich bedaure, ist die Zeit."],
         explanation: "\"Das Einzige, was\" + clause, then \"ist\" + focus.",
       },
       {
@@ -1794,7 +1796,7 @@ export const DE_C1_U11: Lesson[] = [
     level: "DE-C1",
     number: 10,
     title: "Emphasis and Focus, Part 6 of 6",
-    summary: "Emphatic negation (keineswegs, keinesfalls, mitnichten, überhaupt nicht, nicht im Geringsten) and litotes (nicht schlecht, nicht ohne, nicht wenige, nicht unbedingt).",
+    summary: "Deny forcefully with \"keineswegs\", \"keinesfalls\", \"mitnichten\", \"überhaupt nicht\" and \"nicht im Geringsten\", or understate with litotes such as \"nicht schlecht\", \"nicht ohne\", \"nicht wenige\" and \"nicht unbedingt\".",
     duration: "17 min",
     sections: [
       {
@@ -1859,7 +1861,7 @@ export const DE_C1_U11: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A colleague says about the new project: Das ist nicht ohne. What does she mean?",
+            question: "A colleague says about the new project: \"Das ist nicht ohne.\" What does she mean?",
             options: ["It's quite demanding.", "It's missing something.", "It's not without benefits.", "It's very easy."],
             correctIndex: 0,
             explanation: "\"Nicht ohne\" (colloquial) = tough, not to be underestimated.",
@@ -1870,7 +1872,7 @@ export const DE_C1_U11: Lesson[] = [
         heading: "Choosing the tone",
         body: [
           "Strong negation sounds decisive and sometimes rude; litotes sounds measured and often ironic. In a complaint or a debate, mixing them gives you control: \"Ihr Vorschlag ist keineswegs schlecht, aber die Kosten sind nicht unerheblich.\"",
-          "Be careful with double negatives in German: \"nicht unwichtig\" is fine (litotes), but \"nicht keine\" and \"nie nichts\" are dialectal or wrong in the standard: \"Ich habe nie etwas gesagt\", not *\"Ich habe nie nichts gesagt\".",
+          "Be careful with double negatives in German: \"nicht unwichtig\" is fine (litotes), but \"nicht keine\" and \"nie nichts\" are dialectal or wrong in the standard: \"Ich habe nie etwas gesagt\", not \"*Ich habe nie nichts gesagt*\".",
         ],
         examples: [
           { es: "Ihr Vorschlag ist keineswegs schlecht, aber nicht ganz billig.", en: "Your proposal is by no means bad, but it's not exactly cheap." },
@@ -1886,7 +1888,7 @@ export const DE_C1_U11: Lesson[] = [
             source: "I never said anything.",
             answer: "Ich habe nie etwas gesagt.",
             altAnswers: ["Ich habe niemals etwas gesagt.", "Ich habe nie was gesagt."],
-            explanation: "Standard German: one negation (\"nie\") + \"etwas\", not *\"nie nichts\".",
+            explanation: "Standard German: one negation (\"nie\") + \"etwas\", not \"*nie nichts*\".",
           },
           {
             type: "speak",
@@ -1923,6 +1925,7 @@ export const DE_C1_U11: Lesson[] = [
         prompt: "Translate into German, using litotes.",
         source: "The risks are considerable.",
         answer: "Die Risiken sind nicht unerheblich.",
+        altAnswers: ["Die Risiken sind nicht gering.", "Die Risiken sind nicht zu unterschätzen."],
         explanation: "\"Nicht unerheblich\" = considerable, cautiously stated.",
       },
       {
@@ -2014,6 +2017,7 @@ export const DE_C1_U11: Lesson[] = [
             prompt: "Translate into German.",
             source: "What we need is not a car park but a garden.",
             answer: "Was wir brauchen, ist kein Parkplatz, sondern ein Garten.",
+            altAnswers: ["Was wir brauchen, ist nicht ein Parkplatz, sondern ein Garten."],
             explanation: "Pseudo-cleft + \"kein... sondern\" for strong contrast.",
           },
           {
@@ -2022,8 +2026,8 @@ export const DE_C1_U11: Lesson[] = [
             en: "[It's precisely here] that children have no place to play.",
             sentence: "___ haben Kinder keinen Platz zum Spielen.",
             answer: "Gerade hier",
-            altAnswers: ["Genau hier", "Ausgerechnet hier"],
-            explanation: "Focus particle + place in the Vorfeld.",
+            altAnswers: ["Genau hier"],
+            explanation: "Focus particle + place in the Vorfeld. \"Ausgerechnet hier\" would add annoyance (here of all places), which doesn't suit this appeal.",
           },
         ],
       },
@@ -2180,7 +2184,7 @@ export const DE_C1_U11: Lesson[] = [
     level: "DE-C1",
     number: 12,
     title: "Spiral Review: Emphasis, Konjunktiv and Markers",
-    summary: "Recombine focus particles and modal particles with discourse markers and polite Konjunktiv II.",
+    summary: "Sound polite but pointed by combining focus and modal particles with discourse markers and Konjunktiv II.",
     duration: "17 min",
     sections: [
       {

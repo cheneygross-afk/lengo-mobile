@@ -16,7 +16,7 @@ export const DE_B1_U34: Lesson[] = [
         body: [
           "Three pasts, three jobs. The Perfekt is the spoken past (\"Ich habe gestern lange gearbeitet\"); the Präteritum is the written and narrative past, and in speech the past of \"sein\", \"haben\" and the modals (\"Ich war müde, ich konnte nicht schlafen\"); the Plusquamperfekt goes one step further back (\"Ich hatte schon gegessen, als er kam\").",
           "The auxiliary is the same choice in Perfekt and Plusquamperfekt: \"sein\" for movement from A to B and change of state (\"Wir waren schon losgefahren\"), \"haben\" for everything else. \"Sein\", \"bleiben\" and \"werden\" also take \"sein\".",
-          "A frequent Intermediate slip is using the Plusquamperfekt as a general past, the way some English speakers overuse had: *Gestern hatte ich Pizza gegessen*. Use it only when one past event comes before another.",
+          "A frequent Intermediate slip is using the Plusquamperfekt as a general past, the way some English speakers overuse had: \"Gestern hatte ich Pizza gegessen\" should be \"Gestern habe ich Pizza gegessen\". Use it only when one past event comes before another.",
         ],
         examples: [
           { es: "Wir sind gestern ins Kino gegangen.", en: "We went to the cinema yesterday." },
@@ -74,7 +74,7 @@ export const DE_B1_U34: Lesson[] = [
             prompt: "Translate into German.",
             source: "When I come home, I'll call you. (to a friend)",
             answer: "Wenn ich nach Hause komme, rufe ich dich an.",
-            altAnswers: ["Wenn ich nach Hause komme, rufe ich euch an.", "Wenn ich nach Hause komme, rufe ich Sie an.", "Sobald ich nach Hause komme, rufe ich dich an.", "Wenn ich zu Hause bin, rufe ich dich an."],
+            altAnswers: ["Sobald ich nach Hause komme, rufe ich dich an.", "Wenn ich zu Hause bin, rufe ich dich an."],
             explanation: "Future event: \"wenn\". Present tense in both clauses is normal for the future.",
           },
         ],
@@ -108,7 +108,7 @@ export const DE_B1_U34: Lesson[] = [
             type: "speak",
             text: "Wenn ich das wüsste, würde ich es dir sagen.",
             prompt: "Say it in German: If I knew that, I'd tell you.",
-            tip: "Wüsste: short ü, with rounded lips.",
+            tip: "\"Wüsste\": short ü, with rounded lips.",
             explanation: "\"Wüsste\" is the one-word Konjunktiv II of \"wissen\", much more common than \"wissen würde\".",
           },
         ],
@@ -121,7 +121,7 @@ export const DE_B1_U34: Lesson[] = [
         prompt: "Translate into German.",
         source: "I wanted to call you, but I didn't have time. (to a friend)",
         answer: "Ich wollte dich anrufen, aber ich hatte keine Zeit.",
-        altAnswers: ["Ich wollte dich anrufen, aber hatte keine Zeit.", "Ich wollte euch anrufen, aber ich hatte keine Zeit.", "Ich wollte Sie anrufen, aber ich hatte keine Zeit."],
+        altAnswers: ["Ich wollte dich anrufen, aber hatte keine Zeit."],
         explanation: "Modal and \"haben\" in the Präteritum, even in speech.",
       },
       {
@@ -157,7 +157,7 @@ export const DE_B1_U34: Lesson[] = [
         prompt: "Translate into German.",
         source: "If you need help, call me. (to a friend)",
         answer: "Wenn du Hilfe brauchst, ruf mich an.",
-        altAnswers: ["Wenn ihr Hilfe braucht, ruft mich an.", "Wenn Sie Hilfe brauchen, rufen Sie mich an.", "Ruf mich an, wenn du Hilfe brauchst."],
+        altAnswers: ["Ruf mich an, wenn du Hilfe brauchst."],
         explanation: "A real condition: indicative \"brauchst\"; the imperative \"ruf ... an\" in the main clause.",
       },
       {
@@ -270,7 +270,7 @@ export const DE_B1_U34: Lesson[] = [
             prompt: "Translate into German.",
             source: "As soon as I know more, I'll write to you. (to a friend)",
             answer: "Sobald ich mehr weiß, schreibe ich dir.",
-            altAnswers: ["Sobald ich mehr weiß, schreibe ich euch.", "Sobald ich mehr weiß, schreibe ich Ihnen.", "Sobald ich mehr weiß, melde ich mich."],
+            altAnswers: ["Sobald ich mehr weiß, melde ich mich."],
             explanation: "\"Sobald\" + verb last; present tense for the future.",
           },
           {
@@ -297,7 +297,7 @@ export const DE_B1_U34: Lesson[] = [
         prompt: "Translate into German.",
         source: "Before you go, give me your number. (to a friend)",
         answer: "Bevor du gehst, gib mir deine Nummer.",
-        altAnswers: ["Bevor ihr geht, gebt mir eure Nummer.", "Bevor Sie gehen, geben Sie mir Ihre Nummer.", "Gib mir deine Nummer, bevor du gehst."],
+        altAnswers: ["Gib mir deine Nummer, bevor du gehst."],
         explanation: "\"Bevor\" + verb last; imperative \"gib\" (geben, e to i).",
       },
       {
@@ -316,7 +316,7 @@ export const DE_B1_U34: Lesson[] = [
         source: "While I was cooking, the phone rang.",
         answer: "Während ich kochte, klingelte das Telefon.",
         altAnswers: ["Während ich gekocht habe, hat das Telefon geklingelt.", "Während ich kochte, hat das Telefon geklingelt."],
-        explanation: "\"Während\" for a background action; there is no -ing form in German: *während kochend* is wrong.",
+        explanation: "\"Während\" for a background action; there is no -ing form in German: \"während kochend\" is wrong.",
       },
       {
         type: "fill-blank",
@@ -445,7 +445,7 @@ export const DE_B1_U34: Lesson[] = [
             question: "Which is correct for: I'm taking an umbrella so that the children don't get wet?",
             options: ["Ich nehme einen Schirm mit, damit die Kinder nicht nass werden.", "Ich nehme einen Schirm mit, um die Kinder nicht nass zu werden.", "Ich nehme einen Schirm mit, damit die Kinder werden nicht nass.", "Ich nehme einen Schirm mit, um die Kinder nicht nass werden."],
             correctIndex: 0,
-            explanation: "Different subjects (ich / die Kinder): \"damit\" + clause with verb last.",
+            explanation: "Different subjects (\"ich\" / \"die Kinder\"): \"damit\" + clause with verb last. \"Um ... zu\" only works when the subject stays the same.",
           },
         ],
       },
@@ -460,7 +460,7 @@ export const DE_B1_U34: Lesson[] = [
           { es: "Die Brücke wird gerade renoviert.", en: "The bridge is being renovated at the moment." },
           { es: "Das Bild wurde von einem Kind gemalt.", en: "The picture was painted by a child." },
           { es: "Mein Handy ist gestohlen worden.", en: "My phone has been stolen." },
-          { es: "Ich erinnere mich gern daran.", en: "I like to remember it." },
+          { es: "Ich erinnere mich gern daran.", en: "I have fond memories of it." },
           { es: "Woran denkst du?", en: "What are you thinking about?" },
           { es: "Wir warten darauf, dass der Regen aufhört.", en: "We're waiting for the rain to stop." },
         ],
@@ -497,7 +497,7 @@ export const DE_B1_U34: Lesson[] = [
         prompt: "Translate into German.",
         source: "The book that you gave me is great. (to a friend)",
         answer: "Das Buch, das du mir geschenkt hast, ist toll.",
-        altAnswers: ["Das Buch, das du mir gegeben hast, ist toll.", "Das Buch, das du mir geschenkt hast, ist super.", "Das Buch, das ihr mir geschenkt habt, ist toll.", "Das Buch, das Sie mir geschenkt haben, ist toll."],
+        altAnswers: ["Das Buch, das du mir gegeben hast, ist toll.", "Das Buch, das du mir geschenkt hast, ist super."],
         explanation: "Neuter object: \"das\"; the verb cluster \"geschenkt hast\" at the end.",
       },
       {
@@ -506,7 +506,7 @@ export const DE_B1_U34: Lesson[] = [
         prompt: "Translate into German.",
         source: "Do you feel like coming along? (to a friend)",
         answer: "Hast du Lust, mitzukommen?",
-        altAnswers: ["Habt ihr Lust, mitzukommen?", "Haben Sie Lust, mitzukommen?", "Hast du Lust mitzukommen?"],
+        altAnswers: ["Hast du Lust mitzukommen?"],
         explanation: "\"Lust haben\" + zu-infinitive; \"zu\" goes inside the separable verb: \"mitzukommen\".",
       },
       {
@@ -542,6 +542,7 @@ export const DE_B1_U34: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'll take care of the children.",
         answer: "Ich kümmere mich um die Kinder.",
+        altAnswers: ["Ich passe auf die Kinder auf."],
         explanation: "\"Sich kümmern um\" + accusative; with people, no da-compound.",
       },
       {
@@ -647,7 +648,7 @@ export const DE_B1_U34: Lesson[] = [
             prompt: "Translate into German.",
             source: "I wish you a lovely day. (to a friend)",
             answer: "Ich wünsche dir einen schönen Tag.",
-            altAnswers: ["Ich wünsche dir einen wunderschönen Tag.", "Ich wünsche euch einen schönen Tag.", "Ich wünsche Ihnen einen schönen Tag."],
+            altAnswers: ["Ich wünsche dir einen wunderschönen Tag."],
             explanation: "Dative \"dir\" + accusative \"einen schönen Tag\" (masculine accusative -en).",
           },
           {
@@ -680,7 +681,7 @@ export const DE_B1_U34: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm looking forward to celebrating with you. (to a friend)",
             answer: "Ich freue mich darauf, mit dir zu feiern.",
-            altAnswers: ["Ich freue mich schon darauf, mit dir zu feiern.", "Ich freue mich darauf, mit euch zu feiern.", "Ich freue mich darauf, mit Ihnen zu feiern."],
+            altAnswers: ["Ich freue mich schon darauf, mit dir zu feiern."],
             explanation: "\"Darauf\" + zu-infinitive for English looking forward to -ing.",
           },
           {
@@ -694,7 +695,7 @@ export const DE_B1_U34: Lesson[] = [
           {
             type: "speak",
             text: "Alles Gute zum Geburtstag!",
-            tip: "Geburtstag: stress the middle, ge-BURTS-tag.",
+            tip: "\"Geburtstag\": stress the middle syllable, ge-BURTS-tag.",
             explanation: "The standard birthday wish; \"zum\" = \"zu dem\".",
           },
         ],
@@ -766,7 +767,7 @@ export const DE_B1_U34: Lesson[] = [
         prompt: "Translate into German.",
         source: "Enjoy your day! (to a friend)",
         answer: "Genieß deinen Tag!",
-        altAnswers: ["Genieße deinen Tag!", "Genießt euren Tag!", "Genießen Sie Ihren Tag!"],
+        altAnswers: ["Genieße deinen Tag!"],
         explanation: "Du imperative of \"genießen\": \"genieß\" or \"genieße\"; \"deinen Tag\" accusative.",
       },
       {
@@ -834,7 +835,7 @@ export const DE_B1_U34: Lesson[] = [
         body: [
           "Three connector groups, three word orders. Conjunctions with no effect (\"und, aber, oder, denn, sondern\"); adverbs in position 1 with inversion (\"deshalb, trotzdem, sonst, außerdem, dann\"); subordinators with the verb last (\"weil, dass, obwohl, wenn, ob\"). Plus two-part connectors (\"sowohl ... als auch\", \"weder ... noch\", \"zwar ... aber\", \"je ... desto\").",
           "Indefinite pronouns: \"man\" (\"einen, einem\"), \"jemand / niemand\" (\"jemanden, jemandem\"), \"etwas / nichts / alles\", and \"einer / keiner\" as pronouns with der-word endings: \"Hast du einen Stift? Ja, ich habe einen.\" For plural or uncountable some: \"welche\".",
-          "One negative is enough in German: \"Niemand hat etwas gesagt\", not *Niemand hat nichts gesagt*.",
+          "One negative is enough in German: \"Niemand hat etwas gesagt\", not \"Niemand hat nichts gesagt\".",
         ],
         examples: [
           { es: "Ich war müde, trotzdem bin ich mitgegangen.", en: "I was tired, but I went along anyway." },
@@ -860,7 +861,7 @@ export const DE_B1_U34: Lesson[] = [
             prompt: "Translate into German.",
             source: "Hurry up, otherwise we'll be late. (to a friend)",
             answer: "Beeil dich, sonst kommen wir zu spät.",
-            altAnswers: ["Beeilt euch, sonst kommen wir zu spät.", "Beeilen Sie sich, sonst kommen wir zu spät.", "Beeil dich, sonst sind wir zu spät."],
+            altAnswers: ["Beeil dich, sonst sind wir zu spät."],
             explanation: "\"Sonst\" + inversion: \"sonst kommen wir\".",
           },
         ],
@@ -868,7 +869,7 @@ export const DE_B1_U34: Lesson[] = [
       {
         heading: "Word formation and spoken German",
         body: [
-          "Suffixes tell you the gender and type: -ung, -heit, -keit, -schaft are feminine nouns (\"die Wohnung, die Freiheit, die Möglichkeit, die Freundschaft\"); -er and -ling are masculine (\"der Lehrer, der Lehrling\"); -chen is neuter (\"das Mädchen\"). Adjectives: -lich, -ig, -isch, -bar (\"machbar\": doable), -los (\"arbeitslos\"), and un- for the opposite.",
+          "Suffixes tell you the gender and type: -ung, -heit, -keit, -schaft are feminine nouns (\"die Wohnung, die Freiheit, die Möglichkeit, die Freundschaft\"); -ling and -er for people are masculine (\"der Lehrling, der Lehrer\"); -chen is neuter (\"das Mädchen\"). Adjectives: -lich, -ig, -isch, -bar (\"machbar\": doable), -los (\"arbeitslos\"), and un- for the opposite.",
           "Spoken German: \"hab\" for \"habe\", \"is\" for \"ist\", \"'n\" for \"ein\", the particles \"doch, mal, ja, halt, eben\", and tags like \"ne?\" and \"oder?\" at the end: \"Das ist doch super, oder?\" Use them in chat, not in formal writing.",
           "And the fillers that buy time: \"also\", \"na ja\", \"weißt du\", \"sag mal\".",
         ],
@@ -883,10 +884,10 @@ export const DE_B1_U34: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which noun is feminine?",
-            options: ["Möglichkeit", "Lehrling", "Häuschen", "Fahrer"],
+            question: "You want to say: That's a good opportunity. Which is correct?",
+            options: ["Das ist eine gute Möglichkeit.", "Das ist ein guter Möglichkeit.", "Das ist ein gutes Möglichkeit.", "Das ist einer guten Möglichkeit."],
             correctIndex: 0,
-            explanation: "-keit is always feminine: \"die Möglichkeit\". -ling and -er are masculine, -chen neuter.",
+            explanation: "-keit is always feminine (\"die Möglichkeit\"), so \"eine gute\". \"Ein guter\" would suit a masculine -ling or -er noun, \"ein gutes\" a neuter -chen noun.",
           },
           {
             type: "listen-choose",
@@ -978,6 +979,7 @@ export const DE_B1_U34: Lesson[] = [
         prompt: "Translate into German.",
         source: "The friendship is important to me.",
         answer: "Die Freundschaft ist mir wichtig.",
+        altAnswers: ["Die Freundschaft ist für mich wichtig."],
         explanation: "-schaft nouns are feminine; \"wichtig\" + dative person \"mir\".",
       },
       {
@@ -1021,7 +1023,7 @@ export const DE_B1_U34: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the sentence. Wrong: Als ich war in Köln, habe ich den Dom besichtigt. Write the correct German for: When I was in Cologne, I visited the cathedral.",
+            prompt: "Fix the sentence. Wrong: \"*Als ich war in Köln, habe ich den Dom besichtigt.\" Write the correct German for: When I was in Cologne, I visited the cathedral.",
             source: "When I was in Cologne, I visited the cathedral.",
             answer: "Als ich in Köln war, habe ich den Dom besichtigt.",
             altAnswers: ["Als ich in Köln war, besichtigte ich den Dom."],
@@ -1030,11 +1032,11 @@ export const DE_B1_U34: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the sentence. Wrong: Der Dom wurde in 1880 fertiggestellt. Write the correct German for: The cathedral was completed in 1880.",
+            prompt: "Fix the sentence. Wrong: \"*Der Dom wurde in 1880 fertiggestellt.\" Write the correct German for: The cathedral was completed in 1880.",
             source: "The cathedral was completed in 1880.",
             answer: "Der Dom wurde 1880 fertiggestellt.",
             altAnswers: ["Der Dom wurde im Jahr 1880 fertiggestellt.", "Der Dom wurde 1880 vollendet."],
-            explanation: "Years stand alone or with \"im Jahr\"; *in 1880* is an English pattern.",
+            explanation: "Years stand alone or with \"im Jahr\"; \"in 1880\" is an English pattern.",
           },
         ],
       },
@@ -1056,7 +1058,7 @@ export const DE_B1_U34: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the sentence. Wrong: Ich habe mehr Zeit, weil ich muss nicht pendeln. Write the correct German for: I have more time because I don't have to commute.",
+            prompt: "Fix the sentence. Wrong: \"*Ich habe mehr Zeit, weil ich muss nicht pendeln.\" Write the correct German for: I have more time because I don't have to commute.",
             source: "I have more time because I don't have to commute.",
             answer: "Ich habe mehr Zeit, weil ich nicht pendeln muss.",
             explanation: "\"Weil\" sends the conjugated verb \"muss\" to the very end, after the infinitive.",
@@ -1089,7 +1091,7 @@ export const DE_B1_U34: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the sentence. Wrong: Ich habe mit mein neuer Kollege gegessen. Write the correct German for: I ate with my new colleague.",
+            prompt: "Fix the sentence. Wrong: \"*Ich habe mit mein neuer Kollege gegessen.\" Write the correct German for: I ate with my new colleague.",
             source: "I ate with my new colleague.",
             answer: "Ich habe mit meinem neuen Kollegen gegessen.",
             altAnswers: ["Ich aß mit meinem neuen Kollegen.", "Ich habe mit meiner neuen Kollegin gegessen."],
@@ -1115,7 +1117,7 @@ export const DE_B1_U34: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the sentence. Wrong: Ich freue mich über die Ferien nächste Woche. Write the correct German for: I'm looking forward to the holidays next week.",
+        prompt: "Fix the sentence. Wrong: \"*Ich freue mich über die Ferien nächste Woche.\" Write the correct German for: I'm looking forward to the holidays next week.",
         source: "I'm looking forward to the holidays next week.",
         answer: "Ich freue mich auf die Ferien nächste Woche.",
         altAnswers: ["Ich freue mich auf die Ferien in der nächsten Woche."],
@@ -1124,7 +1126,7 @@ export const DE_B1_U34: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the sentence. Wrong: Ich habe seit drei Jahren in Wien gewohnt. Write the correct German for: I've been living in Vienna for three years (and still do).",
+        prompt: "Fix the sentence. Wrong: \"*Ich habe seit drei Jahren in Wien gewohnt.\" Write the correct German for: I've been living in Vienna for three years (and still do).",
         source: "I've been living in Vienna for three years.",
         answer: "Ich wohne seit drei Jahren in Wien.",
         altAnswers: ["Ich lebe seit drei Jahren in Wien.", "Seit drei Jahren wohne ich in Wien.", "Seit drei Jahren lebe ich in Wien."],
@@ -1133,7 +1135,7 @@ export const DE_B1_U34: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the sentence. Wrong: Er ist nicht reich, aber arm. Write the correct German for: He isn't rich, he's poor.",
+        prompt: "Fix the sentence. Wrong: \"*Er ist nicht reich, aber arm.\" Write the correct German for: He isn't rich, but poor.",
         source: "He isn't rich, but poor.",
         answer: "Er ist nicht reich, sondern arm.",
         explanation: "A correction after a negation needs \"sondern\".",
@@ -1141,7 +1143,7 @@ export const DE_B1_U34: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the sentence. Wrong: Ich lerne Deutsch, um ich in Berlin arbeiten kann. Write the correct German for: I'm learning German in order to work in Berlin.",
+        prompt: "Fix the sentence. Wrong: \"*Ich lerne Deutsch, um ich in Berlin arbeiten kann.\" Write the correct German for: I'm learning German in order to work in Berlin.",
         source: "I'm learning German in order to work in Berlin.",
         answer: "Ich lerne Deutsch, um in Berlin zu arbeiten.",
         altAnswers: ["Ich lerne Deutsch, damit ich in Berlin arbeiten kann."],
@@ -1149,7 +1151,7 @@ export const DE_B1_U34: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Write the German for the bold words. (A learner wrote: Je mehr ich übe, desto ich spreche besser.)",
+        prompt: "Write the German for the bold words. (A learner wrote: \"*Je mehr ich übe, desto ich spreche besser.\")",
         en: "The more I practise, [the better I speak].",
         sentence: "Je mehr ich übe, ___.",
         answer: "desto besser spreche ich",
@@ -1159,7 +1161,7 @@ export const DE_B1_U34: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the sentence. Wrong: Die Heizung muss repariert sein. Write the correct German for: The heating must be repaired.",
+        prompt: "Fix the sentence. Wrong: \"*Die Heizung muss repariert sein.\" Write the correct German for: The heating must be repaired.",
         source: "The heating must be repaired.",
         answer: "Die Heizung muss repariert werden.",
         explanation: "A process in the passive needs \"werden\"; \"sein\" describes the finished state.",
@@ -1167,7 +1169,7 @@ export const DE_B1_U34: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the sentence. Wrong: Ich habe mir das Buch von meiner Schwester geleiht. Write the correct German for: I borrowed the book from my sister.",
+        prompt: "Fix the sentence. Wrong: \"*Ich habe mir das Buch von meiner Schwester geleiht.\" Write the correct German for: I borrowed the book from my sister.",
         source: "I borrowed the book from my sister.",
         answer: "Ich habe mir das Buch von meiner Schwester geliehen.",
         altAnswers: ["Ich habe mir das Buch von meiner Schwester ausgeliehen.", "Ich lieh mir das Buch von meiner Schwester."],
@@ -1182,7 +1184,7 @@ export const DE_B1_U34: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Fix the order. Wrong: Deshalb ich habe angerufen. Put the words in order to say: That's why I called.",
+        prompt: "Fix the order. Wrong: \"*Deshalb ich habe angerufen.\" Put the words in order to say: That's why I called.",
         words: ["Deshalb", "habe", "ich", "angerufen."],
         translation: "That's why I called.",
         explanation: "Inversion after \"deshalb\": verb in position 2.",
@@ -1190,7 +1192,7 @@ export const DE_B1_U34: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the sentence. Wrong: Wenn ich war ein Kind, ich spielte immer draußen. Write the correct German for: When I was a child, I always played outside.",
+        prompt: "Fix the sentence. Wrong: \"*Wenn ich war ein Kind, ich spielte immer draußen.\" Write the correct German for: When I was a child, I always played outside.",
         source: "When I was a child, I always played outside.",
         answer: "Als ich ein Kind war, spielte ich immer draußen.",
         altAnswers: ["Als ich ein Kind war, habe ich immer draußen gespielt.", "Als ich Kind war, spielte ich immer draußen.", "Als ich klein war, spielte ich immer draußen.", "Als ich klein war, habe ich immer draußen gespielt."],
@@ -1386,10 +1388,10 @@ export const DE_B1_U34: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend says: Ich habe die Stelle bekommen! What's the best reply?",
+        question: "A friend says: \"Ich habe die Stelle bekommen!\" What's the best reply?",
         options: ["Echt? Das freut mich für dich!", "Das tut mir leid.", "Wie blöd!", "Könnten Sie das wiederholen?"],
         correctIndex: 0,
-        explanation: "She got the job: be happy for her. \"Das tut mir leid\" is for bad news.",
+        explanation: "Your friend got the job: be happy for them. \"Das tut mir leid\" and \"Wie blöd!\" are for bad news.",
       },
       {
         type: "word-order",
@@ -1425,7 +1427,7 @@ export const DE_B1_U34: Lesson[] = [
       {
         heading: "When and if",
         body: [
-          "When has four German translations: \"als\" (one past event), \"wenn\" (repeated or future), \"wann\" (questions), and sometimes \"da\" or \"wo\" in relative uses (\"in dem Moment, als...\").",
+          "When has three main German translations: \"als\" (one past event), \"wenn\" (repeated or future) and \"wann\" (questions). After a time noun you also hear \"als\" or \"wo\" (\"an dem Tag, als...\", \"in dem Moment, wo...\").",
           "If has two: \"wenn\" (condition) and \"ob\" (whether: \"Ich weiß nicht, ob er kommt\"). A test: if you can replace if with whether, it's \"ob\".",
           "Even if is \"auch wenn\" or \"selbst wenn\": \"Auch wenn es regnet, gehen wir raus.\"",
         ],
@@ -1503,7 +1505,7 @@ export const DE_B1_U34: Lesson[] = [
         heading: "But and one",
         body: [
           "But: \"aber\" (contrast) or \"sondern\" (correction after a negation): \"nicht heute, sondern morgen\". Also \"trotzdem\" for but still, and \"nur\" for but meaning only: \"Ich habe nur zehn Minuten.\"",
-          "One: as a number \"eins\" (counting) or \"ein/eine\" (before a noun); as a pronoun \"einer, eine, eins\" (\"Ich nehme eins\"); as people in general \"man\" (\"Man weiß nie\"). The little one, the red one: German drops one: \"die Rote\", \"der Kleine\".",
+          "One: as a number \"eins\" (counting) or \"ein/eine\" (before a noun); as a pronoun \"einer, eine, eins\" (\"Ich nehme eins\"); as people in general \"man\" (\"Man weiß nie\"). The red one, the little one: German drops one: \"die rote\" (when the noun was just mentioned), \"der Kleine\" (the little boy).",
           "These small words cause the most mistakes because English uses one word where German needs a choice.",
         ],
         examples: [
@@ -1520,7 +1522,6 @@ export const DE_B1_U34: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'll take the blue one. (the shirt: das Hemd)",
             answer: "Ich nehme das blaue.",
-            altAnswers: ["Ich nehme das Blaue."],
             explanation: "No word for one: the adjective takes the ending after \"das\": \"das blaue\".",
           },
           {
@@ -1748,7 +1749,7 @@ export const DE_B1_U34: Lesson[] = [
         prompt: "Translate into German.",
         source: "If you like, we can go to the cinema tonight. (to a friend)",
         answer: "Wenn du willst, können wir heute Abend ins Kino gehen.",
-        altAnswers: ["Wenn du möchtest, können wir heute Abend ins Kino gehen.", "Wenn ihr wollt, können wir heute Abend ins Kino gehen.", "Wenn Sie wollen, können wir heute Abend ins Kino gehen."],
+        altAnswers: ["Wenn du möchtest, können wir heute Abend ins Kino gehen."],
         explanation: "Verb last in the wenn-clause, verb first in the main clause.",
       },
       {
@@ -1776,7 +1777,7 @@ export const DE_B1_U34: Lesson[] = [
         sentence: "Ich weiß nicht, ob der Zug schon ___.",
         answer: "abgefahren ist",
         altAnswers: ["weg ist", "losgefahren ist"],
-        explanation: "\"Ob\" + verb cluster at the end: participle + \"ist\" (movement, so sein).",
+        explanation: "\"Ob\" + verb cluster at the end: participle + \"ist\" (movement, so \"sein\").",
       },
       {
         type: "translate",

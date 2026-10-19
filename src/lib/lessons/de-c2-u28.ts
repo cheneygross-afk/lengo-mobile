@@ -8,13 +8,13 @@ export const DE_C2_U28: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Philosophie und Abstrakte Ideen, Part 1 of 3",
-    summary: "The building blocks of philosophical German: nominalised infinitives (das Sein, das Denken), nominalised adjectives (das Gute, das Erhabene), and Kant's Enlightenment motto with its genitive object.",
+    summary: "You'll be able to read and use the building blocks of philosophical German: nominalised infinitives (\"das Sein\", \"das Denken\"), nominalised adjectives (\"das Gute\", \"das Erhabene\") and verbs with a genitive object, as in Kant's Enlightenment motto.",
     duration: "18 min",
     sections: [
       {
         heading: "Das Sein, das Nichts, das Denken",
         body: [
-          "Any German infinitive can become a neuter noun: capitalise it and add \"das\". \"Das Denken\" (thinking, thought), \"das Sein\" (being, existence), \"das Werden\" (becoming), \"das Handeln\" (action, acting). English needs an -ing form or a different word; German just turns the verb into a thing. Heidegger's main work is \"Sein und Zeit\", and Sartre's \"L'Être et le néant\" is \"Das Sein und das Nichts\" in German.",
+          "Any German infinitive can become a neuter noun: capitalise it and add \"das\". \"Das Denken\" (thinking, thought), \"das Sein\" (being, existence), \"das Werden\" (becoming), \"das Handeln\" (action, acting). English needs an -ing form or a different word; German just turns the verb into a thing. Heidegger's main work is \"Sein und Zeit\", and Sartre's Being and Nothingness is \"Das Sein und das Nichts\" in German.",
           "Pronouns can do the same: \"das Nichts\" (nothingness), \"das Ich\" (the self, the ego; Freud's model is \"das Es, das Ich und das Über-Ich\"). These nouns decline like any neuter noun: \"des Seins\", \"des Denkens\", \"dem Nichts\".",
           "Nominalised infinitives are also everyday German: \"das ständige Vergleichen mit anderen\" (constantly comparing yourself with others), \"beim Lesen\" (while reading). With an adjective in front they become very compact.",
         ],
@@ -277,7 +277,7 @@ export const DE_C2_U28: Lesson[] = [
       {
         heading: "Scene 2: Thought experiments in Konjunktiv II",
         body: [
-          "Philosophical arguments love thought experiments, and German builds them with Konjunktiv II: \"Angenommen, ein Computer könnte ... vorhersagen\" (suppose a computer could predict...), \"Stell dir vor, ...\", \"Was wäre, wenn...?\", \"Nehmen wir an, ...\". Once the hypothetical frame is set, every following clause stays in Konjunktiv II.",
+          "Philosophical arguments love thought experiments, and German builds them with Konjunktiv II: \"Angenommen, ein Computer könnte ... vorhersagen\" (suppose a computer could predict...), \"Stell dir vor, ...\", \"Was wäre, wenn...?\", \"Nehmen wir an, ...\". Once the hypothetical frame is set, the clauses that build on it normally stay in Konjunktiv II.",
           "The central question of moral responsibility is whether someone could have acted otherwise: \"Hätte er anders handeln können?\" Note the double infinitive \"handeln können\" after \"hätte\": not \"gekonnt\".",
           "\"Jemanden für etwas verantwortlich machen\" is to hold someone responsible; \"vorherbestimmt\" is predetermined.",
         ],
@@ -297,12 +297,12 @@ export const DE_C2_U28: Lesson[] = [
             source: "If everything were predetermined, nobody could be held responsible.",
             answer: "Wenn alles vorherbestimmt wäre, könnte man niemanden verantwortlich machen.",
             altAnswers: ["Wäre alles vorherbestimmt, könnte man niemanden verantwortlich machen.", "Wenn alles vorherbestimmt wäre, könnte niemand verantwortlich gemacht werden.", "Wäre alles vorherbestimmt, könnte niemand verantwortlich gemacht werden.", "Wenn alles vorherbestimmt wäre, könnte man niemanden zur Verantwortung ziehen.", "Wäre alles vorherbestimmt, könnte man niemanden zur Verantwortung ziehen."],
-            explanation: "Konjunktiv II in both clauses: \"wäre\", \"könnte\". The wenn can be dropped if the verb moves to the front: \"Wäre alles vorherbestimmt, ...\".",
+            explanation: "Konjunktiv II in both clauses: \"wäre\", \"könnte\". The \"wenn\" can be dropped if the verb moves to the front: \"Wäre alles vorherbestimmt, ...\".",
           },
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Could he [have acted] differently?",
+            en: "Could he have [acted] differently?",
             sentence: "Hätte er anders ___ können?",
             answer: "handeln",
             explanation: "Double infinitive after \"hätte\": \"hätte ... handeln können\", never \"gekonnt\" when another infinitive is present.",
@@ -447,7 +447,7 @@ export const DE_C2_U28: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Philosophie und Abstrakte Ideen, Part 2 of 3",
-    summary: "Define and distinguish like a philosopher: unter ... versteht man, ist zu unterscheiden von, im engeren und weiteren Sinne, Begriff vs Wort, an sich and für sich, a priori and a posteriori, and Hegel's triple aufheben.",
+    summary: "You'll be able to define and distinguish like a philosopher (\"unter ... versteht man\", \"ist zu unterscheiden von\", \"im engeren und weiteren Sinne\"), tell \"Begriff\" from \"Wort\", use \"an sich\", \"für sich\", \"a priori\" and \"a posteriori\", and read Hegel's triple \"aufheben\".",
     duration: "18 min",
     sections: [
       {
@@ -665,7 +665,7 @@ export const DE_C2_U28: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Word Web: Abstrakte Begriffe",
-    summary: "The key abstract nouns of German thought: Vernunft vs Verstand, Bewusstsein vs Gewissen, Wahrheit vs Wahrhaftigkeit, Gerechtigkeit, Würde (Article 1 of the Basic Law), Pflicht, Willkür, Freiheit and Verantwortung.",
+    summary: "You'll be able to choose the right abstract noun of German thought: \"Vernunft\" vs \"Verstand\", \"Bewusstsein\" vs \"Gewissen\", \"Wahrheit\" vs \"Wahrhaftigkeit\", plus \"Gerechtigkeit\", \"Würde\" (Article 1 of the Basic Law), \"Pflicht\", \"Willkür\", \"Freiheit\" and \"Verantwortung\".",
     duration: "17 min",
     sections: [
       {
@@ -673,7 +673,7 @@ export const DE_C2_U28: Lesson[] = [
         body: [
           "English reason splits into three German words. \"Die Vernunft\" is reason as the faculty of judging what is sensible and right (Kant's \"Kritik der reinen Vernunft\"; \"vernünftig\" = sensible; \"zur Vernunft kommen\" = to come to one's senses). \"Der Verstand\" is understanding, intellect, the ability to think clearly (\"den Verstand verlieren\" = to lose one's mind). And a reason why is \"der Grund\": \"aus diesem Grund\", never \"aus dieser Vernunft\".",
           "\"Das Bewusstsein\" is consciousness and awareness: \"das Bewusstsein verlieren\" (to lose consciousness), \"ein Bewusstsein für etwas schaffen\" (to raise awareness of something). \"Das Gewissen\" is conscience: \"ein schlechtes Gewissen haben\" (to feel guilty), \"Gewissensbisse\" (pangs of conscience).",
-          "English speakers often confuse these two because both relate to inner knowledge (both contain \"-wiss-\", from \"wissen\"). Rule of thumb: \"Bewusstsein\" is about being aware, \"Gewissen\" about right and wrong.",
+          "English speakers often confuse these two because both relate to inner knowledge (both go back to \"wissen\": \"bewusst\", \"gewiss\"). Rule of thumb: \"Bewusstsein\" is about being aware, \"Gewissen\" about right and wrong.",
         ],
         examples: [
           { es: "Kants Hauptwerk heißt „Kritik der reinen Vernunft“.", en: "Kant's main work is called Critique of Pure Reason." },
@@ -810,7 +810,7 @@ export const DE_C2_U28: Lesson[] = [
         source: "Come to your senses!",
         answer: "Komm zur Vernunft!",
         altAnswers: ["Komm doch zur Vernunft!", "Komm endlich zur Vernunft!", "Kommen Sie zur Vernunft!", "Kommt zur Vernunft!", "Komm doch endlich zur Vernunft!"],
-        explanation: "\"Zur Vernunft kommen\" = to come to one's senses; \"zur\" = zu der.",
+        explanation: "\"Zur Vernunft kommen\" = to come to one's senses; \"zur\" = \"zu der\".",
       },
       {
         type: "translate",
@@ -843,6 +843,7 @@ export const DE_C2_U28: Lesson[] = [
         prompt: "Put the words in order to say: The truth often lies somewhere in between.",
         words: ["Die Wahrheit", "liegt", "oft", "in der Mitte."],
         translation: "The truth often lies somewhere in between.",
+        altOrders: [["oft", "liegt", "Die Wahrheit", "in der Mitte."]],
         explanation: "A common saying: the truth is in the middle between two extreme positions.",
       },
       {
@@ -888,7 +889,7 @@ export const DE_C2_U28: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Philosophie und Abstrakte Ideen, Part 3 of 3",
-    summary: "Ethics and society in German thought: Nietzsche's Umwertung aller Werte, Arendt's Banalität des Bösen, Habermas's herrschaftsfreier Diskurs, and precise conditions with sofern, insofern ... als and gesetzt den Fall.",
+    summary: "You'll be able to discuss key ideas of German ethics and social thought (Nietzsche's \"Umwertung aller Werte\", Arendt's \"Banalität des Bösen\", Habermas's \"herrschaftsfreier Diskurs\") and set precise conditions with \"sofern\", \"insofern ... als\" and \"gesetzt den Fall\".",
     duration: "18 min",
     sections: [
       {
@@ -899,7 +900,7 @@ export const DE_C2_U28: Lesson[] = [
           "Nietzsche's most quoted line today is from \"Götzen-Dämmerung\": \"Was mich nicht umbringt, macht mich stärker.\" A caution often added in German texts: after his death his sister edited and partly falsified his unpublished writings, which made it easier for the Nazis to claim him.",
         ],
         examples: [
-          { es: "„Gott ist tot“ ist wohl Nietzsches berühmtester Satz.", en: "God is dead is probably Nietzsche's most famous sentence." },
+          { es: "„Gott ist tot“ ist wohl Nietzsches berühmtester Satz.", en: "'God is dead' is probably Nietzsche's most famous sentence." },
           { es: "Nietzsche forderte eine Umwertung aller Werte.", en: "Nietzsche called for a revaluation of all values." },
           { es: "Was mich nicht umbringt, macht mich stärker.", en: "What doesn't kill me makes me stronger." },
           { es: "Seine Schwester verfälschte später Teile seines Nachlasses.", en: "His sister later falsified parts of his unpublished writings." },
@@ -923,7 +924,7 @@ export const DE_C2_U28: Lesson[] = [
             source: "What doesn't kill me makes me stronger.",
             answer: "Was mich nicht umbringt, macht mich stärker.",
             altAnswers: ["Was mich nicht tötet, macht mich stärker."],
-            explanation: "The was-clause is the subject, so the main verb \"macht\" follows directly after the comma.",
+            explanation: "The \"was\"-clause is the subject, so the main verb \"macht\" follows directly after the comma.",
           },
           {
             type: "multiple-choice",
@@ -1056,7 +1057,7 @@ export const DE_C2_U28: Lesson[] = [
         en: "The thesis is provocative, [although] not unfounded.",
         sentence: "Die These ist provokant, ___ nicht unbegründet.",
         answer: "wenngleich",
-        altAnswers: ["wenn auch", "obgleich", "obwohl", "wenn auch nicht", "jedoch"],
+        altAnswers: ["wenn auch", "obgleich", "obwohl"],
         explanation: "\"Wenngleich\" (formal although) can introduce a shortened clause: \"wenngleich nicht unbegründet\".",
       },
       {
@@ -1108,7 +1109,7 @@ export const DE_C2_U28: Lesson[] = [
     slug: "c2-philosophical-argument-text-detective",
     level: "DE-C2",
     number: 6,
-    title: "Text Detective: Ein Philosophisches Argument Analysieren",
+    title: "Text Detective: Ein philosophisches Argument analysieren",
     summary: "Read an accessible version of Kant's famous argument against lying, then analyse it like a philosopher: premises, conclusion, definitions, objections and replies.",
     duration: "18 min",
     sections: [
@@ -1328,8 +1329,8 @@ export const DE_C2_U28: Lesson[] = [
     slug: "c2-philosophy-paragraph-mission",
     level: "DE-C2",
     number: 7,
-    title: "Real-World Mission: Ein Philosophischer Absatz",
-    summary: "Write a philosophical paragraph on Ist Lügen jemals erlaubt?: define your terms, build an argument with Konjunktiv II, then raise an objection and answer it, and watch the false friend grundsätzlich.",
+    title: "Real-World Mission: Ein philosophischer Absatz",
+    summary: "You'll be able to write a philosophical paragraph on \"Ist Lügen jemals erlaubt?\": define your terms, build an argument with Konjunktiv II, raise an objection and answer it, and use the false friend \"grundsätzlich\" correctly.",
     duration: "17 min",
     sections: [
       {
@@ -1549,7 +1550,7 @@ export const DE_C2_U28: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Mastery Vocabulary: Movement and Gesture",
-    summary: "Verbs that pack the manner of movement into one word (schlendern, schleichen, taumeln, stolpern, huschen, hasten) and the vocabulary of gestures and body language (nicken, winken, zucken, die Stirn runzeln, die Augen verdrehen).",
+    summary: "You'll be able to describe how people move with verbs that pack the manner into one word (\"schlendern\", \"schleichen\", \"taumeln\", \"stolpern\", \"huschen\", \"hasten\") and narrate gestures and body language (\"nicken\", \"winken\", \"zucken\", \"die Stirn runzeln\", \"die Augen verdrehen\").",
     duration: "16 min",
     sections: [
       {
@@ -1722,7 +1723,7 @@ export const DE_C2_U28: Lesson[] = [
         prompt: "Put the words in order to say: She hurried to the platform.",
         words: ["Sie", "hastete", "zum", "Bahnsteig."],
         translation: "She hurried to the platform.",
-        explanation: "\"Hasten\" (literary) = to hurry; \"zum\" = zu dem.",
+        explanation: "\"Hasten\" (literary) = to hurry; \"zum\" = \"zu dem\".",
       },
       {
         type: "translate",
@@ -1736,15 +1737,15 @@ export const DE_C2_U28: Lesson[] = [
       {
         type: "multiple-choice",
         question: "You want to say: He patted me on the shoulder. Which sentence is correct?",
-        options: ["Er klopfte mir auf die Schulter.", "Er klopfte meine Schulter.", "Er klopfte mich auf die Schulter.", "Er klopfte auf meine Schulter mir."],
+        options: ["Er klopfte mir auf die Schulter.", "Er klopfte meine Schulter.", "Er klopfte mir auf der Schulter.", "Er klopfte auf meine Schulter mir."],
         correctIndex: 0,
-        explanation: "Person in the dative (\"mir\"), body part with the article and a preposition (\"auf die Schulter\").",
+        explanation: "Person in the dative (\"mir\"), body part with the article and a preposition; the movement onto it needs the accusative: \"auf die Schulter\", not \"*auf der Schulter*\".",
       },
       {
         type: "listen-choose",
         audio: "Er ist gestolpert.",
         question: "What did you hear?",
-        options: ["Er ist gestolpert.", "Er ist gestorben.", "Er hat gestottert.", "Er ist gestoppt."],
+        options: ["Er ist gestolpert.", "Er ist gestorben.", "Er hat gestottert.", "Er hat gestoppt."],
         correctIndex: 0,
         explanation: "\"Gestolpert\" (tripped) vs \"gestorben\" (died), \"gestottert\" (stuttered) and \"gestoppt\" (stopped).",
       },
@@ -1767,7 +1768,7 @@ export const DE_C2_U28: Lesson[] = [
     level: "DE-C2",
     number: 9,
     title: "Vocabulary in Context: Synonyms by Register",
-    summary: "The same meaning in three registers: kriegen, bekommen, erhalten; abhauen, weggehen, sich entfernen; Kohle, Geld, Mittel; quatschen, reden, sich unterhalten; futtern, essen, speisen.",
+    summary: "You'll be able to pick the right register for the same meaning: \"kriegen\", \"bekommen\", \"erhalten\"; \"abhauen\", \"weggehen\", \"sich entfernen\"; \"Kohle\", \"Geld\", \"Mittel\"; \"quatschen\", \"reden\", \"sich unterhalten\"; \"futtern\", \"essen\", \"speisen\".",
     duration: "16 min",
     sections: [
       {
@@ -1988,7 +1989,7 @@ export const DE_C2_U28: Lesson[] = [
 
 export const DE_C2_U28_WRITING: WriteExercise = {
   type: "write",
-  prompt: "For a German philosophy blog, write a short essay (250-400 words) on the question: Sind wir für unsere Taten verantwortlich, wenn unser Gehirn entscheidet, bevor wir es merken? Define your key terms, build your argument with at least one thought experiment, raise an objection and answer it, and end with a clear conclusion.",
+  prompt: "For a German philosophy blog, write a short essay (250-400 words) on the question: \"Sind wir für unsere Taten verantwortlich, wenn unser Gehirn entscheidet, bevor wir es merken?\" Define your key terms, build your argument with at least one thought experiment, raise an objection and answer it, and end with a clear conclusion.",
   minWords: 250,
   maxWords: 400,
   rubric: [
@@ -1997,6 +1998,6 @@ export const DE_C2_U28_WRITING: WriteExercise = {
     "Build a thought experiment in Konjunktiv II (\"Angenommen, ...\", \"Gesetzt den Fall, dass ...\", \"hätte ... handeln können\")",
     "Raise an objection and reply with precise connectors (\"Dagegen lässt sich einwenden, dass ...\", \"insofern ... als\", \"sofern\", \"grundsätzlich\")",
   ],
-  modelAnswer: "Hirn, Wille und Verantwortung\n\nSeit den Experimenten des Physiologen Benjamin Libet behaupten manche Hirnforscher, der freie Wille sei eine Illusion: Das Gehirn entscheide, bevor wir es merkten. Folgt daraus, dass niemand für sein Handeln verantwortlich ist?\n\nZunächst müssen die Begriffe geklärt werden. Unter Willensfreiheit verstehe ich im weiteren Sinne die Fähigkeit, aus eigenen Gründen zu handeln. Davon ist die Freiheit im engeren, metaphysischen Sinne zu unterscheiden, nämlich die Vorstellung, eine Entscheidung habe überhaupt keine Ursache. Verantwortung wiederum bedeutet, dass man sich für sein Handeln rechtfertigen muss und dafür gelobt oder getadelt werden kann.\n\nDas Entscheidende ist nun: Dass im Gehirn etwas geschieht, bevor uns eine Entscheidung bewusst wird, spricht nur gegen die metaphysische Freiheit, nicht gegen die Freiheit im weiteren Sinne. Denn auch meine Gründe sind ja im Gehirn verankert. Angenommen, ein Neurologe könnte jede meiner Entscheidungen eine Sekunde vorher auf dem Bildschirm ablesen: Wäre ich deshalb weniger der Urheber meiner Handlungen? Mir scheint, nein. Es wäre immer noch mein Gehirn, das aus meinen Überzeugungen, Erfahrungen und Werten eine Entscheidung formt.\n\nDagegen lässt sich einwenden, dass Verantwortung voraussetzt, dass man anders hätte handeln können. Wer durch seine Biologie festgelegt ist, könne nicht schuldig sein. Dieser Einwand ist ernst zu nehmen. Er überzeugt jedoch insofern nicht, als wir im Alltag sehr wohl zwischen Menschen unterscheiden, die aus Überlegung handeln, und solchen, die unter Zwang, im Fieber oder unter Drogen stehen. Gesetzt den Fall, die Hirnforschung erklärte alles Verhalten restlos, so bliebe dieser Unterschied trotzdem bestehen, und mit ihm die Grundlage unserer Praxis des Verantwortens.\n\nIch komme daher zu dem Schluss, dass wir grundsätzlich für unsere Taten verantwortlich bleiben, sofern wir aus Gründen handeln, die wir als unsere eigenen erkennen. Die Hirnforschung zwingt uns nicht, Verantwortung aufzugeben, wohl aber, genauer zu sagen, was wir mit Freiheit meinen.",
+  modelAnswer: "Hirn, Wille und Verantwortung\n\nSeit den Experimenten des Physiologen Benjamin Libet behaupten manche Hirnforscher, der freie Wille sei eine Illusion: Das Gehirn entscheide, bevor wir es merkten. Folgt daraus, dass niemand für sein Handeln verantwortlich ist?\n\nZunächst müssen die Begriffe geklärt werden. Unter Willensfreiheit verstehe ich im weiteren Sinne die Fähigkeit, aus eigenen Gründen zu handeln. Davon ist die Freiheit im engeren, metaphysischen Sinne zu unterscheiden, nämlich die Vorstellung, eine Entscheidung habe überhaupt keine Ursache. Verantwortung wiederum bedeutet, dass man sich für sein Handeln rechtfertigen muss und dafür gelobt oder getadelt werden kann.\n\nDas Entscheidende ist nun: Dass im Gehirn etwas geschieht, bevor uns eine Entscheidung bewusst wird, spricht nur gegen die metaphysische Freiheit, nicht gegen die Freiheit im weiteren Sinne. Denn auch meine Gründe sind ja im Gehirn verankert. Angenommen, ein Neurologe könnte jede meiner Entscheidungen eine Sekunde vorher auf dem Bildschirm ablesen: Wäre ich deshalb weniger der Urheber meiner Handlungen? Mir scheint, nein. Es wäre immer noch mein Gehirn, das aus meinen Überzeugungen, Erfahrungen und Werten eine Entscheidung formt.\n\nDagegen lässt sich einwenden, dass Verantwortung voraussetzt, dass man anders hätte handeln können. Wer durch seine Biologie festgelegt ist, könne nicht schuldig sein. Dieser Einwand ist ernst zu nehmen. Er überzeugt jedoch insofern nicht, als wir im Alltag sehr wohl zwischen Menschen unterscheiden, die aus Überlegung handeln, und solchen, die unter Zwang, im Fieberwahn oder unter Drogeneinfluss handeln. Gesetzt den Fall, die Hirnforschung erklärte alles Verhalten restlos, so bliebe dieser Unterschied trotzdem bestehen, und mit ihm die Grundlage unserer Praxis des Verantwortens.\n\nIch komme daher zu dem Schluss, dass wir grundsätzlich für unsere Taten verantwortlich bleiben, sofern wir aus Gründen handeln, die wir als unsere eigenen erkennen. Die Hirnforschung zwingt uns nicht, Verantwortung aufzugeben, wohl aber, genauer zu sagen, was wir mit Freiheit meinen.",
   explanation: "The essay defines its terms with \"Unter ... verstehe ich\" and \"ist ... zu unterscheiden\", distinguishes the narrower and broader sense of freedom, uses abstract and nominalised nouns (\"das Handeln\", \"das Entscheidende\", \"Verantworten\"), builds a thought experiment in Konjunktiv II (\"Angenommen, ... könnte\", \"Wäre ich ...?\"), reports the opposing view in Konjunktiv I (\"entscheide\", \"könne\"), answers it with \"insofern ... als\" and \"Gesetzt den Fall\", and concludes carefully with \"grundsätzlich\" and \"sofern\".",
 };

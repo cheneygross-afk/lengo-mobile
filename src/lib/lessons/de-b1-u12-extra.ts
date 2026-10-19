@@ -9,7 +9,7 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Purpose and Result, Part 1 of 3",
-    summary: "More practice with um...zu for everyday goals.",
+    summary: "Say why you do everyday things with \"um ... zu\".",
     duration: "10 min",
     sections: [
       {
@@ -69,13 +69,13 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Purpose and Result, Part 2 of 3",
-    summary: "More practice with damit when the subject changes.",
+    summary: "Use \"damit\" + verb at the end when the subject changes.",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: damit",
         body: [
-          "When someone else does the second action, use \"damit\" + subject + verb at the end: \"Ich erkläre es dir, damit du es verstehst\". Leave out \"sollen\", \"wollen\" and \"müssen\" in the damit-clause; \"können\" is fine. Never *damit zu* and never *um dass*.",
+          "When someone else does the second action, use \"damit\" + subject + verb at the end: \"Ich erkläre es dir, damit du es verstehst\". Leave out \"sollen\" and \"wollen\" in the damit-clause; \"können\" and \"nicht müssen\" are fine. Never \"*damit zu*\" and never \"*um dass*\".",
         ],
         examples: [
           { es: "Ich erkläre es dir, damit du es verstehst.", en: "I'm explaining it to you so that you understand." },
@@ -91,7 +91,6 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm sending you a photo so that you recognise me. (to a friend)",
             answer: "Ich schicke dir ein Foto, damit du mich erkennst.",
-            altAnswers: ["Ich schicke euch ein Foto, damit ihr mich erkennt.", "Ich schicke Ihnen ein Foto, damit Sie mich erkennen."],
             explanation: "You recognise: a new subject, so \"damit du mich erkennst\".",
           },
           {
@@ -107,13 +106,13 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
     ],
     exercises: [
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I'm writing the date on the calendar so that everyone knows it.", answer: "Ich schreibe das Datum in den Kalender, damit alle es wissen.", altAnswers: ["Ich schreibe den Termin in den Kalender, damit alle ihn kennen.", "Ich trage das Datum in den Kalender ein, damit alle es wissen."], explanation: "\"Alle\" is the new subject: \"damit alle es wissen\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Speak louder so that the people at the back can hear you. (to a friend)", answer: "Sprich lauter, damit die Leute hinten dich hören können.", altAnswers: ["Sprich lauter, damit die Leute hinten dich hören.", "Sprechen Sie lauter, damit die Leute hinten Sie hören können.", "Sprecht lauter, damit die Leute hinten euch hören können."], explanation: "Imperative + \"damit\" + new subject." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Speak louder so that the people at the back can hear you. (to a friend)", answer: "Sprich lauter, damit die Leute hinten dich hören können.", altAnswers: ["Sprich lauter, damit die Leute hinten dich hören."], explanation: "Imperative + \"damit\" + new subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "My parents gave me money so that I could buy a bike.", answer: "Meine Eltern haben mir Geld gegeben, damit ich ein Fahrrad kaufen konnte.", altAnswers: ["Meine Eltern gaben mir Geld, damit ich ein Fahrrad kaufen konnte.", "Meine Eltern haben mir Geld gegeben, damit ich mir ein Fahrrad kaufen konnte.", "Meine Eltern haben mir Geld gegeben, damit ich ein Fahrrad kaufe."], explanation: "In the past: \"damit ich ... kaufen konnte\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I'm leaving the light on so that you don't fall.", answer: "Ich lasse das Licht an, damit du nicht hinfällst.", altAnswers: ["Ich lasse das Licht an, damit du nicht fällst.", "Ich lasse das Licht an, damit ihr nicht hinfallt.", "Ich lasse das Licht an, damit Sie nicht hinfallen."], explanation: "\"Damit du nicht hinfällst\": the verb last." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "She's explaining the rules again so that nobody makes a mistake.", answer: "Sie erklärt die Regeln noch einmal, damit niemand einen Fehler macht.", altAnswers: ["Sie erklärt die Regeln nochmal, damit niemand einen Fehler macht.", "Sie erklärt die Regeln noch mal, damit keiner einen Fehler macht."], explanation: "\"Niemand\" is the new subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "We're cooking a lot so that there's enough for everyone.", answer: "Wir kochen viel, damit es genug für alle gibt.", altAnswers: ["Wir kochen viel, damit genug für alle da ist.", "Wir kochen viel, damit alle genug bekommen."], explanation: "The subject changes to \"es\" (es gibt), so \"damit\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Turn the music down so that the neighbours don't complain. (to friends)", answer: "Macht die Musik leiser, damit die Nachbarn sich nicht beschweren.", altAnswers: ["Dreht die Musik leiser, damit die Nachbarn sich nicht beschweren.", "Macht die Musik leiser, damit sich die Nachbarn nicht beschweren."], explanation: "\"Ihr\" imperative: \"Macht\"; \"sich beschweren\" is to complain." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I'm putting the key under the plant pot so that you can get in.", answer: "Ich lege den Schlüssel unter den Blumentopf, damit du reinkommst.", altAnswers: ["Ich lege den Schlüssel unter den Blumentopf, damit du reinkommen kannst.", "Ich lege den Schlüssel unter den Blumentopf, damit ihr reinkommen könnt."], explanation: "\"Unter den Blumentopf\": accusative after \"legen\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I'm putting the key under the plant pot so that you can get in.", answer: "Ich lege den Schlüssel unter den Blumentopf, damit du reinkommst.", altAnswers: ["Ich lege den Schlüssel unter den Blumentopf, damit du reinkommen kannst.", "Ich lege den Schlüssel unter den Blumentopf, damit ihr reinkommen könnt.", "Ich lege den Schlüssel unter den Blumentopf, damit Sie reinkommen können."], explanation: "\"Unter den Blumentopf\": accusative after \"legen\"." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "I'm reminding you so that you [don't forget] it.", sentence: "Ich erinnere dich, damit du es ___.", answer: "nicht vergisst", explanation: "Verb last: \"nicht vergisst\"." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "Close the door [so that] the heat stays inside.", sentence: "Mach die Tür zu, ___ die Wärme drinbleibt.", answer: "damit", explanation: "\"Die Wärme\" is a new subject." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "We booked early so that we [got] good seats.", sentence: "Wir haben früh gebucht, damit wir gute Plätze ___.", answer: "bekommen", altAnswers: ["bekamen"], explanation: "Present or past is possible here; the verb goes last." },
@@ -129,7 +128,7 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Purpose and Result, Part 3 of 3",
-    summary: "More practice with zum + noun, für + noun and sodass.",
+    summary: "Express purpose with \"zum\" + noun and \"für\" + noun, and result with \"sodass\".",
     duration: "10 min",
     sections: [
       {
@@ -176,7 +175,7 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "My phone was broken, so I couldn't call you.", answer: "Mein Handy war kaputt, sodass ich dich nicht anrufen konnte.", altAnswers: ["Mein Handy war kaputt, so dass ich dich nicht anrufen konnte.", "Mein Handy war kaputt, sodass ich euch nicht anrufen konnte.", "Mein Handy war kaputt, sodass ich Sie nicht anrufen konnte."], explanation: "\"Sodass\" + \"konnte\" at the end." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "Here are glasses [for drinking].", sentence: "Hier sind Gläser ___.", answer: "zum Trinken", explanation: "\"Zum\" + capitalised infinitive." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "She's saving [for a trip].", sentence: "Sie spart ___.", answer: "für eine Reise", explanation: "\"Für\" + accusative noun." },
-      { type: "fill-blank", prompt: "Write the German for the bold words.", en: "He ran [so] fast [that] nobody could catch him.", sentence: "Er lief so schnell, ___ ihn niemand einholen konnte.", answer: "dass", explanation: "\"So schnell, dass\": result." },
+      { type: "fill-blank", prompt: "Write the German for the bold words.", en: "He ran so fast [that] nobody could catch him.", sentence: "Er lief so schnell, ___ ihn niemand einholen konnte.", answer: "dass", explanation: "\"So schnell, dass\": result." },
       { type: "word-order", prompt: "Put the words in order to say: The water isn't for drinking.", words: ["Das", "Wasser", "ist", "nicht", "zum", "Trinken."], translation: "The water isn't for drinking.", explanation: "\"Nicht zum Trinken\": a common sign on taps." },
       { type: "multiple-choice", question: "Which sentence expresses a result?", options: ["Es schneite stark, sodass die Schule ausfiel.", "Ich lerne, damit ich die Prüfung bestehe.", "Ich lerne für die Prüfung.", "Ich lerne, um die Prüfung zu bestehen."], correctIndex: 0, explanation: "\"Sodass\" shows a consequence; the others are purposes." },
       { type: "dictation", audio: "Der Kaffee war so stark, dass ich nicht schlafen konnte.", explanation: "\"So stark, dass\" + verb at the end." },
@@ -189,13 +188,13 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Dialogue Lab, At the Gym",
-    summary: "A trainer explains exercises and what each one is for, with um...zu, damit and zum.",
+    summary: "Follow a trainer explaining what each exercise is for, with \"um ... zu\", \"damit\" and \"zum\".",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: the trainer's purposes",
         body: [
-          "Jonas has his first session with a trainer, Frau Schneider. She explains each exercise with \"um ... zu\" (what Jonas achieves), \"damit\" (what his body or muscles do) and \"zum\" (what a machine is for). Trainers in Germany often use du with clients; here she says Sie at first.",
+          "Jonas has his first session with a trainer, Frau Schneider. She explains each exercise with \"um ... zu\" (what Jonas achieves), \"damit\" (what his body or muscles do) and \"zum\" (what a machine is for). Trainers in Germany often say \"du\" to clients; here she says \"Sie\" at first.",
         ],
         examples: [
           { es: "Wir fangen mit dem Laufband an, um die Muskeln aufzuwärmen.", en: "We'll start on the treadmill to warm up the muscles." },
@@ -232,12 +231,12 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "This machine is for the arms.", answer: "Dieses Gerät ist für die Arme.", altAnswers: ["Das Gerät ist für die Arme.", "Diese Maschine ist für die Arme."], explanation: "\"Für\" + accusative: purpose with a noun." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The mat is for stretching.", answer: "Die Matte ist zum Dehnen.", explanation: "\"Zum Dehnen\": activity as a noun." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I come three times a week to lose weight.", answer: "Ich komme dreimal pro Woche, um abzunehmen.", altAnswers: ["Ich komme dreimal die Woche, um abzunehmen.", "Ich komme dreimal in der Woche, um abzunehmen."], explanation: "\"Abnehmen\" (lose weight) is separable: \"abzunehmen\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I'll write you a plan so that you know what to do. (to a friend)", answer: "Ich schreibe dir einen Plan, damit du weißt, was du machen sollst.", altAnswers: ["Ich schreibe dir einen Plan, damit du weißt, was du tun sollst.", "Ich schreibe Ihnen einen Plan, damit Sie wissen, was Sie machen sollen.", "Ich schreibe dir einen Plan, damit du weißt, was zu tun ist."], explanation: "\"Damit du weißt\" + indirect question with the verb at the end." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I'll write you a plan so that you know what to do. (to a friend)", answer: "Ich schreibe dir einen Plan, damit du weißt, was du machen sollst.", altAnswers: ["Ich schreibe dir einen Plan, damit du weißt, was du tun sollst.", "Ich schreibe dir einen Plan, damit du weißt, was zu tun ist."], explanation: "\"Damit du weißt\" + indirect question with the verb at the end." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Start slowly so as not to hurt yourself. (formal)", answer: "Fangen Sie langsam an, um sich nicht zu verletzen.", altAnswers: ["Beginnen Sie langsam, um sich nicht zu verletzen.", "Fangen Sie langsam an, damit Sie sich nicht verletzen."], explanation: "Same subject: \"um sich nicht zu verletzen\"." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "Drink water [so that] your body doesn't dry out.", sentence: "Trinken Sie Wasser, ___ Ihr Körper nicht austrocknet.", answer: "damit", explanation: "Your body: a new subject." },
-      { type: "fill-blank", prompt: "Write the German for the bold words.", en: "We warm up [so as not] to get injured.", sentence: "Wir wärmen uns auf, ___ uns nicht zu verletzen.", answer: "um", explanation: "Same subject: \"um ... nicht zu verletzen\"." },
+      { type: "fill-blank", prompt: "Write the German for the bold words.", en: "We warm up [so as] not to get injured.", sentence: "Wir wärmen uns auf, ___ uns nicht zu verletzen.", answer: "um", explanation: "Same subject: \"um ... nicht zu verletzen\"." },
       { type: "word-order", prompt: "Put the words in order to say: Breathe out so that your muscles relax.", words: ["Atmen", "Sie", "aus,", "damit", "Ihre", "Muskeln", "sich", "entspannen."], translation: "Breathe out so that your muscles relax.", altOrders: [["Atmen", "Sie", "aus,", "damit", "sich", "Ihre", "Muskeln", "entspannen."]], explanation: "The reflexive \"sich\" can come before or after the noun subject in a subordinate clause." },
-      { type: "multiple-choice", question: "Frau Schneider asks: Wozu machen wir Kniebeugen? What's a good answer?", options: ["Um die Beine zu stärken.", "Damit die Beine zu stärken.", "Für die Beine zu stärken.", "Weil die Beine zu stärken."], correctIndex: 0, explanation: "A short answer to \"Wozu?\" with \"um ... zu\"." },
+      { type: "multiple-choice", question: "Frau Schneider asks: \"Wozu machen wir Kniebeugen?\" What's a good answer?", options: ["Um die Beine zu stärken.", "Damit die Beine zu stärken.", "Für die Beine zu stärken.", "Weil die Beine zu stärken."], correctIndex: 0, explanation: "A short answer to \"Wozu?\" with \"um ... zu\"." },
       { type: "matching", instructions: "Match the German with the English.", pairs: [{ left: "das Laufband", right: "treadmill" }, { left: "das Gerät", right: "machine" }, { left: "sich dehnen", right: "to stretch" }, { left: "sich aufwärmen", right: "to warm up" }, { left: "abnehmen", right: "to lose weight" }], explanation: "Gym vocabulary from the dialogue." },
       { type: "dictation", audio: "Atmen Sie ruhig, um nicht so schnell müde zu werden.", explanation: "\"Um nicht ... müde zu werden\": \"nicht\" before the predicate." },
       { type: "speak", text: "Ich komme dreimal pro Woche, um fit zu bleiben.", prompt: "Tell the trainer in German: I come three times a week to stay fit.", explanation: "\"Um fit zu bleiben\": same subject." },
@@ -249,7 +248,7 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Same Subject or Not?",
-    summary: "Decide between um...zu and damit by checking who does the second action.",
+    summary: "Decide between \"um ... zu\" and \"damit\" by checking who does the second action.",
     duration: "10 min",
     sections: [
       {
@@ -296,8 +295,8 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "She's speaking German to practise.", answer: "Sie spricht Deutsch, um zu üben.", explanation: "Same subject: \"um zu üben\"." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "I'm calling the plumber [so that] he repairs the tap.", sentence: "Ich rufe den Klempner an, ___ er den Wasserhahn repariert.", answer: "damit", explanation: "He repairs: new subject." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "I'm buying tools [to repair] the tap myself.", sentence: "Ich kaufe Werkzeug, um den Wasserhahn selbst ___.", answer: "zu reparieren", explanation: "Same subject: \"zu reparieren\"." },
-      { type: "multiple-choice", question: "Which connector fits? Ich packe dir ein Brot ein, ___ du in der Pause etwas zu essen hast.", options: ["damit", "um", "für", "sodass"], correctIndex: 0, explanation: "\"Du\" is a new subject, and it's a goal, so \"damit\"." },
-      { type: "multiple-choice", question: "Which connector fits? Ich packe mir ein Brot ein, ___ in der Pause etwas zu essen.", options: ["um", "damit", "für", "dass"], correctIndex: 0, explanation: "No new subject, and the clause ends in a zu-infinitive: \"um\"." },
+      { type: "multiple-choice", question: "Which connector fits? \"Ich packe dir ein Brot ein, ___ du in der Pause etwas zu essen hast.\" (so that you have something to eat at break)", options: ["damit", "um", "für", "sodass"], correctIndex: 0, explanation: "\"Du\" is a new subject, and it's a goal, so \"damit\"." },
+      { type: "multiple-choice", question: "Which connector fits? \"Ich packe mir ein Brot ein, ___ in der Pause etwas zu essen.\" (to have something to eat at break)", options: ["um", "damit", "für", "dass"], correctIndex: 0, explanation: "No new subject, and the clause ends in a zu-infinitive: \"um\"." },
       { type: "word-order", prompt: "Put the words in order to say: We're moving so that our children can go to a better school.", words: ["Wir", "ziehen", "um,", "damit", "unsere", "Kinder", "auf eine bessere Schule", "gehen", "können."], translation: "We're moving so that our children can go to a better school.", explanation: "New subject \"unsere Kinder\": \"damit\" + \"gehen können\" at the end." },
       { type: "dictation", audio: "Ich wecke meinen Sohn früh, damit er den Bus nicht verpasst.", explanation: "\"Damit er\": the son is the new subject." },
       { type: "speak", text: "Wir reden Deutsch, um zu üben.", prompt: "Say it in German: We speak German to practise.", explanation: "Same subject: \"um zu üben\"." },
@@ -309,7 +308,7 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Real-World Mission, What Is It For?",
-    summary: "Describe gadgets and everyday objects: Das braucht man zum..., damit...",
+    summary: "Describe what gadgets and everyday objects are for: \"Das braucht man zum ...\", \"..., damit ...\".",
     duration: "10 min",
     sections: [
       {
@@ -358,7 +357,7 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "You use a lock [so that] nobody steals your bike.", sentence: "Man benutzt ein Schloss, ___ niemand das Fahrrad stiehlt.", answer: "damit", explanation: "\"Niemand\" is the new subject." },
       { type: "matching", instructions: "Match the German with the English.", pairs: [{ left: "der Wasserkocher", right: "kettle" }, { left: "die Schere", right: "scissors" }, { left: "die Taschenlampe", right: "torch" }, { left: "das Ladegerät", right: "charger" }, { left: "der Dosenöffner", right: "tin opener" }], explanation: "Many gadget names describe the purpose: \"Dosenöffner\" opens tins, \"Ladegerät\" is a charging device." },
       { type: "word-order", prompt: "Put the words in order to say: You need it for opening tins.", words: ["Das", "braucht", "man", "zum", "Dosenöffnen."], translation: "You need it for opening tins.", explanation: "Object first for emphasis; \"zum Dosenöffnen\" at the end." },
-      { type: "multiple-choice", question: "Was ist das? Das braucht man zum Zähneputzen.", options: ["eine Zahnbürste", "ein Kamm", "ein Handtuch", "eine Seife"], correctIndex: 0, explanation: "\"Zum Zähneputzen\": a toothbrush." },
+      { type: "multiple-choice", question: "Which object is it? \"Das braucht man zum Zähneputzen.\"", options: ["eine Zahnbürste", "ein Kamm", "ein Handtuch", "eine Seife"], correctIndex: 0, explanation: "\"Zum Zähneputzen\": a toothbrush." },
       { type: "dictation", audio: "Das ist ein Gerät, mit dem man Kaffee kocht.", explanation: "Relative clause with \"mit dem\", verb at the end." },
       { type: "speak", text: "Das braucht man, um im Dunkeln zu sehen.", prompt: "Describe a torch in German: You need it to see in the dark.", explanation: "\"Um ... zu sehen\" with generic \"man\"." },
     ],
@@ -369,7 +368,7 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
     number: 7,
     optional: true,
     title: "Extra Practice: Why Do People...?",
-    summary: "Explain German customs and habits with um...zu and damit.",
+    summary: "Explain German customs and habits with \"um ... zu\" and \"damit\".",
     duration: "10 min",
     sections: [
       {
@@ -382,7 +381,7 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
           { es: "Viele Leute ziehen zu Hause die Schuhe aus, damit der Boden sauber bleibt.", en: "Many people take their shoes off at home so the floor stays clean." },
           { es: "Man bringt Pfandflaschen zurück, um das Pfand zurückzubekommen.", en: "People take deposit bottles back to get the deposit back." },
           { es: "Am Sonntag ist es ruhig, damit sich alle erholen können.", en: "On Sundays it's quiet so that everyone can rest." },
-          { es: "Man klopft auf den Tisch, um den anderen zu begrüßen.", en: "People knock on the table to greet the others." },
+          { es: "Man klopft auf den Tisch, um die anderen zu begrüßen.", en: "People knock on the table to greet the others." },
         ],
         checkpoint: [
           {
@@ -406,7 +405,7 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "People say Mahlzeit at lunchtime to be friendly.", answer: "Die Leute sagen mittags „Mahlzeit“, um freundlich zu sein.", altAnswers: ["Man sagt mittags „Mahlzeit“, um freundlich zu sein.", "Die Leute sagen mittags Mahlzeit, um freundlich zu sein.", "Man sagt mittags Mahlzeit, um freundlich zu sein."], explanation: "\"Um freundlich zu sein\": same subject." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "People say \"Mahlzeit\" at lunchtime to be friendly.", answer: "Die Leute sagen mittags „Mahlzeit“, um freundlich zu sein.", altAnswers: ["Man sagt mittags „Mahlzeit“, um freundlich zu sein.", "Die Leute sagen mittags Mahlzeit, um freundlich zu sein.", "Man sagt mittags Mahlzeit, um freundlich zu sein."], explanation: "\"Um freundlich zu sein\": same subject." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Children get a school cone so that the first day is sweeter.", answer: "Kinder bekommen eine Schultüte, damit der erste Tag süßer ist.", altAnswers: ["Die Kinder bekommen eine Schultüte, damit der erste Schultag süßer ist.", "Kinder bekommen eine Schultüte, damit der erste Schultag süßer ist."], explanation: "\"Der erste Tag\" is a new subject: \"damit\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "People air their flats every day to let in fresh air.", answer: "Die Leute lüften jeden Tag ihre Wohnung, um frische Luft hereinzulassen.", altAnswers: ["Man lüftet jeden Tag die Wohnung, um frische Luft hereinzulassen.", "Die Leute lüften jeden Tag, um frische Luft reinzulassen.", "Man lüftet jeden Tag, um frische Luft reinzulassen."], explanation: "\"Lüften\" is to air a room; \"hereinzulassen\" fused." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Shops close on Sundays so that employees have a day off.", answer: "Die Geschäfte schließen sonntags, damit die Angestellten einen freien Tag haben.", altAnswers: ["Die Geschäfte sind sonntags geschlossen, damit die Angestellten einen freien Tag haben.", "Läden schließen am Sonntag, damit die Mitarbeiter einen freien Tag haben."], explanation: "The employees: new subject." },
@@ -428,7 +427,7 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
     number: 8,
     optional: true,
     title: "Extra Practice: Weil, Um...zu or Damit?",
-    summary: "Reason or purpose: choose weil for causes, um...zu and damit for goals.",
+    summary: "Tell reason from purpose: \"weil\" for causes, \"um ... zu\" and \"damit\" for goals.",
     duration: "10 min",
     sections: [
       {
@@ -465,9 +464,9 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
       },
     ],
     exercises: [
-      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I'm staying at home because I'm ill.", answer: "Ich bleibe zu Hause, weil ich krank bin.", explanation: "Reason: \"weil\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I'm staying at home to rest.", answer: "Ich bleibe zu Hause, um mich auszuruhen.", altAnswers: ["Ich bleibe zu Hause, um mich zu erholen."], explanation: "Goal, same subject: \"um mich auszuruhen\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I'm staying at home so that the children aren't alone.", answer: "Ich bleibe zu Hause, damit die Kinder nicht allein sind.", altAnswers: ["Ich bleibe zu Hause, damit die Kinder nicht alleine sind."], explanation: "Goal, new subject: \"damit\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I'm staying at home because I'm ill.", answer: "Ich bleibe zu Hause, weil ich krank bin.", altAnswers: ["Ich bleibe zuhause, weil ich krank bin."], explanation: "Reason: \"weil\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I'm staying at home to rest.", answer: "Ich bleibe zu Hause, um mich auszuruhen.", altAnswers: ["Ich bleibe zu Hause, um mich zu erholen.", "Ich bleibe zuhause, um mich auszuruhen."], explanation: "Goal, same subject: \"um mich auszuruhen\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I'm staying at home so that the children aren't alone.", answer: "Ich bleibe zu Hause, damit die Kinder nicht allein sind.", altAnswers: ["Ich bleibe zu Hause, damit die Kinder nicht alleine sind.", "Ich bleibe zuhause, damit die Kinder nicht allein sind."], explanation: "Goal, new subject: \"damit\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "We're saving because the car is old.", answer: "Wir sparen, weil das Auto alt ist.", explanation: "Reason: \"weil\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "We're saving to buy a new car.", answer: "Wir sparen, um ein neues Auto zu kaufen.", explanation: "Goal: \"um ... zu kaufen\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "She's learning German because she loves the language.", answer: "Sie lernt Deutsch, weil sie die Sprache liebt.", altAnswers: ["Sie lernt Deutsch, weil sie die Sprache mag.", "Sie lernt Deutsch, weil sie die Sprache toll findet."], explanation: "Reason: \"weil\"." },
@@ -476,7 +475,7 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "I'm going to bed early [because] I'm tired.", sentence: "Ich gehe früh ins Bett, ___ ich müde bin.", answer: "weil", explanation: "Reason." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "I'm going to bed early [to be] fit tomorrow.", sentence: "Ich gehe früh ins Bett, um morgen fit ___.", answer: "zu sein", explanation: "Goal, same subject." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "I'm whispering [so that] the baby doesn't wake up.", sentence: "Ich flüstere, ___ das Baby nicht aufwacht.", answer: "damit", explanation: "Goal, new subject." },
-      { type: "multiple-choice", question: "Which connector fits? Er joggt jeden Tag, ___ er abnehmen will.", options: ["weil", "um", "damit", "zum"], correctIndex: 0, explanation: "\"Er abnehmen will\" is a reason (he wants to): \"weil\". With a goal it would be \"um abzunehmen\"." },
+      { type: "multiple-choice", question: "Which connector fits? \"Er joggt jeden Tag, ___ er abnehmen will.\"", options: ["weil", "um", "damit", "zum"], correctIndex: 0, explanation: "\"Er abnehmen will\" is a reason (he wants to): \"weil\". With a goal it would be \"um abzunehmen\"." },
       { type: "word-order", prompt: "Put the words in order to say: I'm taking an umbrella because it's going to rain.", words: ["Ich", "nehme", "einen Schirm", "mit,", "weil", "es", "regnen", "wird."], translation: "I'm taking an umbrella because it's going to rain.", explanation: "Reason: \"weil\" + verb at the end: \"regnen wird\"." },
       { type: "dictation", audio: "Sie bleibt zu Hause, um zu lernen.", explanation: "Goal with the same subject: \"um zu lernen\"." },
       { type: "speak", text: "Ich gehe zum Arzt, weil ich Fieber habe.", prompt: "Say it in German: I'm going to the doctor because I have a temperature.", explanation: "\"Weil\" for the reason, verb at the end." },
@@ -488,7 +487,7 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
     number: 9,
     optional: true,
     title: "Extra Practice: So Tired That...",
-    summary: "Result clauses with so...dass and sodass.",
+    summary: "Say what happened as a result with \"so ..., dass\" and \"sodass\".",
     duration: "10 min",
     sections: [
       {
@@ -547,7 +546,7 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
     number: 10,
     optional: true,
     title: "Extra Practice: Twelve Purposes Without Hints",
-    summary: "Free production with um...zu, damit, für, zum and sodass.",
+    summary: "Choose freely between \"um ... zu\", \"damit\", \"für\", \"zum\" and \"sodass\" with no hints.",
     duration: "12 min",
     sections: [
       {
@@ -590,11 +589,11 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I don't have a pen for writing.", answer: "Ich habe keinen Stift zum Schreiben.", explanation: "\"Zum Schreiben\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The street was so narrow that the lorry got stuck.", answer: "Die Straße war so eng, dass der Lkw stecken blieb.", altAnswers: ["Die Straße war so eng, dass der Lastwagen stecken geblieben ist.", "Die Straße war so schmal, dass der Lkw stecken blieb.", "Die Straße war so eng, dass der Lkw stecken geblieben ist.", "Die Straße war so schmal, dass der Lastwagen stecken blieb."], explanation: "Result: \"so eng, dass\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "We left the party early so as not to miss the last train.", answer: "Wir sind früh von der Party gegangen, um den letzten Zug nicht zu verpassen.", altAnswers: ["Wir gingen früh von der Party, um den letzten Zug nicht zu verpassen.", "Wir haben die Party früh verlassen, um den letzten Zug nicht zu verpassen."], explanation: "Own goal: \"um ... nicht zu verpassen\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Speak slowly so that your grandmother understands you. (to a friend)", answer: "Sprich langsam, damit deine Oma dich versteht.", altAnswers: ["Sprich langsam, damit deine Großmutter dich versteht.", "Sprecht langsam, damit eure Oma euch versteht.", "Sprechen Sie langsam, damit Ihre Großmutter Sie versteht."], explanation: "New subject: \"damit\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Speak slowly so that your grandmother understands you. (to a friend)", answer: "Sprich langsam, damit deine Oma dich versteht.", altAnswers: ["Sprich langsam, damit deine Großmutter dich versteht."], explanation: "New subject: \"damit\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I'm studying for my driving test.", answer: "Ich lerne für meine Führerscheinprüfung.", altAnswers: ["Ich lerne für die Führerscheinprüfung.", "Ich lerne für meine Fahrprüfung.", "Ich lerne für die Fahrprüfung."], explanation: "Noun purpose: \"für\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "He drank three coffees to stay awake.", answer: "Er hat drei Kaffee getrunken, um wach zu bleiben.", altAnswers: ["Er trank drei Kaffee, um wach zu bleiben.", "Er hat drei Tassen Kaffee getrunken, um wach zu bleiben."], explanation: "Own goal: \"um wach zu bleiben\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The weather is ideal for sailing.", answer: "Das Wetter ist ideal zum Segeln.", explanation: "\"Zum Segeln\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I'm leaving you a note so that you know where I am.", answer: "Ich lasse dir einen Zettel da, damit du weißt, wo ich bin.", altAnswers: ["Ich schreibe dir einen Zettel, damit du weißt, wo ich bin.", "Ich hinterlasse dir einen Zettel, damit du weißt, wo ich bin."], explanation: "New subject: \"damit du weißt\" + indirect question." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I'm leaving you a note so that you know where I am.", answer: "Ich lasse dir einen Zettel da, damit du weißt, wo ich bin.", altAnswers: ["Ich schreibe dir einen Zettel, damit du weißt, wo ich bin.", "Ich hinterlasse dir einen Zettel, damit du weißt, wo ich bin.", "Ich lasse Ihnen einen Zettel da, damit Sie wissen, wo ich bin.", "Ich lasse euch einen Zettel da, damit ihr wisst, wo ich bin."], explanation: "New subject: \"damit du weißt\" + indirect question." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The meeting took a long time, so I missed the bus.", answer: "Die Besprechung dauerte lange, sodass ich den Bus verpasste.", altAnswers: ["Die Besprechung hat lange gedauert, sodass ich den Bus verpasst habe.", "Das Meeting hat lange gedauert, sodass ich den Bus verpasst habe.", "Die Besprechung dauerte so lange, dass ich den Bus verpasste."], explanation: "Result: \"sodass\"." },
       { type: "multiple-choice", question: "Which sentence is wrong?", options: ["Ich spare, damit ein Auto zu kaufen.", "Ich spare für ein Auto.", "Ich spare, um ein Auto zu kaufen.", "Ich spare, damit ich ein Auto kaufen kann."], correctIndex: 0, explanation: "\"Damit\" never takes \"zu\"." },
       { type: "dictation", audio: "Ich habe keine Lust zum Aufräumen.", explanation: "\"Zum Aufräumen\": capitalised." },
@@ -607,7 +606,7 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
     number: 11,
     optional: true,
     title: "Extra Practice: Dictation, Study Tips",
-    summary: "Dictated study tips with um...zu and damit.",
+    summary: "Write down dictated study tips with \"um ... zu\" and \"damit\" and spell them correctly.",
     duration: "10 min",
     sections: [
       {
@@ -634,7 +633,7 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "Take breaks to concentrate. (to a friend)",
             answer: "Mach Pausen, um dich zu konzentrieren.",
-            altAnswers: ["Mache Pausen, um dich zu konzentrieren.", "Macht Pausen, um euch zu konzentrieren.", "Machen Sie Pausen, um sich zu konzentrieren."],
+            altAnswers: ["Mache Pausen, um dich zu konzentrieren."],
             explanation: "Reflexive pronoun before \"zu\": \"um dich zu konzentrieren\".",
           },
           {
@@ -657,7 +656,7 @@ export const DE_B1_U12_EXTRA: Lesson[] = [
       { type: "dictation", audio: "Ich war so müde, dass ich nichts mehr verstand.", explanation: "\"So müde, dass\": result." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Switch your phone off so that it doesn't distract you.", answer: "Schalte das Handy aus, damit es dich nicht ablenkt.", altAnswers: ["Schalt das Handy aus, damit es dich nicht ablenkt.", "Schalte dein Handy aus, damit es dich nicht ablenkt.", "Schalten Sie das Handy aus, damit es Sie nicht ablenkt."], explanation: "The phone is the new subject: \"damit\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Study in a group to motivate each other.", answer: "Lernt in einer Gruppe, um euch gegenseitig zu motivieren.", altAnswers: ["Lernen Sie in einer Gruppe, um sich gegenseitig zu motivieren.", "Lern in einer Gruppe, um dich zu motivieren."], explanation: "\"Um euch gegenseitig zu motivieren\": each other is \"gegenseitig\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Ask your teacher so that she can help you.", answer: "Frag deine Lehrerin, damit sie dir helfen kann.", altAnswers: ["Frag deine Lehrerin, damit sie dir hilft.", "Frage deine Lehrerin, damit sie dir helfen kann.", "Fragen Sie Ihre Lehrerin, damit sie Ihnen helfen kann."], explanation: "New subject: \"damit sie dir helfen kann\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Ask your teacher so that she can help you.", answer: "Frag deine Lehrerin, damit sie dir helfen kann.", altAnswers: ["Frag deine Lehrerin, damit sie dir hilft.", "Frage deine Lehrerin, damit sie dir helfen kann.", "Fragen Sie Ihre Lehrerin, damit sie Ihnen helfen kann.", "Fragt eure Lehrerin, damit sie euch helfen kann."], explanation: "New subject: \"damit sie dir helfen kann\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Sleep well to remember what you've learned.", answer: "Schlaf gut, um dir das Gelernte zu merken.", altAnswers: ["Schlaf gut, um dir zu merken, was du gelernt hast.", "Schlafen Sie gut, um sich zu merken, was Sie gelernt haben.", "Schlaf gut, damit du dir merkst, was du gelernt hast."], explanation: "\"Sich etwas merken\" (remember) with a dative pronoun." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Use flashcards for revising.", answer: "Benutze Karteikarten zum Wiederholen.", altAnswers: ["Benutz Karteikarten zum Wiederholen.", "Nimm Karteikarten zum Wiederholen.", "Benutzen Sie Karteikarten zum Wiederholen."], explanation: "\"Zum Wiederholen\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Read the questions twice so that you don't make mistakes.", answer: "Lies die Fragen zweimal, damit du keine Fehler machst.", altAnswers: ["Lies die Fragen zweimal, um keine Fehler zu machen.", "Lesen Sie die Fragen zweimal, damit Sie keine Fehler machen.", "Lesen Sie die Fragen zweimal, um keine Fehler zu machen."], explanation: "Same subject: both connectors work; the imperative of \"lesen\" is \"lies\"." },

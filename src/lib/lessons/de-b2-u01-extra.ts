@@ -408,7 +408,7 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "If only we had stayed at home!",
         answer: "Wären wir bloß zu Hause geblieben!",
-        altAnswers: ["Wären wir doch zu Hause geblieben!", "Wären wir nur zu Hause geblieben!", "Wären wir doch nur zu Hause geblieben!", "Wenn wir bloß zu Hause geblieben wären!", "Wenn wir doch zu Hause geblieben wären!", "Wenn wir nur zu Hause geblieben wären!", "Wenn wir doch nur zu Hause geblieben wären!", "Wären wir bloß daheim geblieben!"],
+        altAnswers: ["Wären wir doch zu Hause geblieben!", "Wären wir nur zu Hause geblieben!", "Wären wir doch nur zu Hause geblieben!", "Wenn wir bloß zu Hause geblieben wären!", "Wenn wir doch zu Hause geblieben wären!", "Wenn wir nur zu Hause geblieben wären!", "Wenn wir doch nur zu Hause geblieben wären!", "Wären wir bloß daheim geblieben!", "Wären wir bloß zuhause geblieben!"],
         explanation: "\"Bleiben\" takes sein: \"wären ... geblieben\".",
       },
       {
@@ -503,7 +503,7 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "By car we'd [have spent] three hours in a traffic jam.",
+            en: "By car we [would have] spent three hours in a traffic jam.",
             sentence: "Mit dem Auto ___ wir drei Stunden im Stau gestanden.",
             answer: "hätten",
             explanation: "\"Stehen\" takes haben in standard German (\"ich habe gestanden\"): \"hätten ... gestanden\".",
@@ -563,13 +563,13 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "We would have been home by eight.",
         answer: "Wir wären um acht zu Hause gewesen.",
-        altAnswers: ["Wir wären um acht Uhr zu Hause gewesen.", "Wir wären bis acht zu Hause gewesen.", "Wir wären um acht daheim gewesen."],
+        altAnswers: ["Wir wären um acht Uhr zu Hause gewesen.", "Wir wären bis acht zu Hause gewesen.", "Wir wären um acht daheim gewesen.", "Wir wären um acht zuhause gewesen."],
         explanation: "Would have been = \"wären ... gewesen\".",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Without the delay we [would have caught] the connection.",
+        en: "Without the delay we [would have] caught the connection.",
         sentence: "Ohne die Verspätung ___ wir den Anschluss erreicht.",
         answer: "hätten",
         explanation: "\"Erreichen\" has an object: hätte. \"Ohne\" + noun replaces the condition.",
@@ -577,7 +577,7 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Let's [ask for] our money back.",
+        en: "Let's [claim] our money [back].",
         sentence: "Lass uns unser Geld ___.",
         answer: "zurückfordern",
         altAnswers: ["zurückverlangen"],
@@ -603,7 +603,7 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Where would you have changed trains? (to a friend)",
         answer: "Wo wärst du umgestiegen?",
-        altAnswers: ["Wo wärest du umgestiegen?", "Wo wären Sie umgestiegen?", "Wo wärt ihr umgestiegen?"],
+        altAnswers: ["Wo wärest du umgestiegen?"],
         explanation: "\"Umsteigen\" takes sein; W-question with \"wärst\" in position 2.",
       },
       {
@@ -739,7 +739,7 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "If I weren't so shy, I [would have asked] her.",
+        en: "If I weren't so shy, I [would have] asked her.",
         sentence: "Wenn ich nicht so schüchtern wäre, ___ ich sie gefragt.",
         answer: "hätte",
         explanation: "The result is past: \"hätte ... gefragt\".",
@@ -821,7 +821,7 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "He would have been at home.",
             answer: "Er wäre zu Hause gewesen.",
-            altAnswers: ["Er wäre daheim gewesen."],
+            altAnswers: ["Er wäre daheim gewesen.", "Er wäre zuhause gewesen."],
             explanation: "\"Wäre ... gewesen\": the unreal past of sein.",
           },
           {
@@ -830,7 +830,7 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "He was at home.",
             answer: "Er war zu Hause.",
-            altAnswers: ["Er war daheim."],
+            altAnswers: ["Er war daheim.", "Er war zuhause."],
             explanation: "A real fact: \"war\", no umlaut.",
           },
         ],
@@ -955,7 +955,7 @@ export const DE_B2_U01_EXTRA: Lesson[] = [
     level: "DE-B2",
     number: 7,
     optional: true,
-    title: "Extra Practice: Sentence by Sentence: Ein Brief an Mein Jüngeres Ich",
+    title: "Extra Practice: Sentence by Sentence: Ein Brief an mein jüngeres Ich",
     summary: "Build a short letter to your younger self, one unreal past sentence at a time.",
     duration: "14 min",
     sections: [

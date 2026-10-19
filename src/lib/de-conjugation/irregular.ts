@@ -76,7 +76,7 @@ fliegen|-|flog|geflogen|-|sh
 fliehen|-|floh|geflohen|-|s
 fließen|-|floss|geflossen|-|s
 fressen|friss|fraß|gefressen|-|h
-frieren|-|fror|gefroren|-|h
+frieren|-|fror|gefroren|-|hs
 geben|gib|gab|gegeben|-|h
 gebären|-|gebar|geboren|-|h
 gedeihen|-|gedieh|gediehen|-|s

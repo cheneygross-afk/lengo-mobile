@@ -37,7 +37,8 @@ function usableEnglish(en: string | undefined, fr: string): en is string {
 const COPY: Copy = {
   title: (n, unit) => `Unit ${n} review: ${unit}`,
   summary: (unit, quiz) =>
-    `Listen, speak and write with what you learned in "${unit}"${quiz ? ", then a short unit quiz" : ", then translate three sentences"}.`,
+    // No quotes round the (English) unit title: quoted text is read by the German voice.
+    `Listen, speak and write with what you learned in this unit (${unit})${quiz ? ", then take a short unit quiz" : ", then translate three sentences"}.`,
   listening: [
     "Listening",
     "Five sentences from this unit's lessons. Play each one as often as you like before you answer: first pick what it means, then type exactly what you hear (🐢 plays it slowly).",

@@ -9,7 +9,7 @@ export const DE_B2_U22_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Relatives in Formal Writing",
-    summary: "Rewrite simple sentences into formal relative structures: dessen / deren, preposition + relative, welcher and was.",
+    summary: "Rewrite simple sentences as formal relative structures with \"dessen\" / \"deren\", a preposition + relative pronoun, \"welcher\" and \"was\".",
     duration: "12 min",
     sections: [
       {
@@ -84,7 +84,7 @@ export const DE_B2_U22_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence avoids the double die die in a formal way?",
+        question: "Which sentence avoids the double \"die die\" in a formal way?",
         options: ["Die Mitglieder, welche die Satzung kennen, stimmen ab.", "Die Mitglieder, deren die Satzung kennen, stimmen ab.", "Die Mitglieder, was die Satzung kennen, stimmen ab.", "Die Mitglieder, welches die Satzung kennen, stimmen ab."],
         correctIndex: 0,
         explanation: "\"Welche\" (plural nominative) replaces \"die\" as a relative pronoun.",
@@ -168,13 +168,13 @@ export const DE_B2_U22_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Spiral Review of the Konjunktiv",
-    summary: "Konjunktiv I and II in reporting, wishes, conditions and als ob.",
+    summary: "Choose Konjunktiv I or II for reporting, wishes, conditions and \"als ob\" in fresh sentences.",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: which Konjunktiv for which job?",
         body: [
-          "Konjunktiv II: unreal conditions (\"Wenn ich Zeit hätte, ...\", \"Wenn ich das gewusst hätte, wäre ich ...\"), wishes (\"Hätte ich doch ...!\"), als ob (\"als wüsste er nichts\"), politeness (\"Könnten Sie ...?\") and regrets with modals (\"Ich hätte ... sollen\").",
+          "Konjunktiv II: unreal conditions (\"Wenn ich Zeit hätte, ...\", \"Wenn ich das gewusst hätte, wäre ich ...\"), wishes (\"Hätte ich doch ...!\"), \"als ob\" (\"als wüsste er nichts\"), politeness (\"Könnten Sie ...?\") and regrets with modals (\"Ich hätte ... sollen\").",
           "Konjunktiv I: reported speech (\"Sie sagte, sie sei krank\"), replaced by Konjunktiv II when it looks like the indicative (\"sie hätten\").",
         ],
         examples: [
@@ -315,7 +315,7 @@ export const DE_B2_U22_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "He claims he was at home all evening.",
         answer: "Er behauptet, er sei den ganzen Abend zu Hause gewesen.",
-        altAnswers: ["Er behauptet, dass er den ganzen Abend zu Hause gewesen sei.", "Er behauptet, er sei den ganzen Abend daheim gewesen.", "Er will den ganzen Abend zu Hause gewesen sein."],
+        altAnswers: ["Er behauptet, dass er den ganzen Abend zu Hause gewesen sei.", "Er behauptet, er sei den ganzen Abend daheim gewesen.", "Er will den ganzen Abend zu Hause gewesen sein.", "Er behauptet, er sei den ganzen Abend zuhause gewesen."],
         explanation: "Konjunktiv I past: \"sei ... gewesen\". \"Er will ... gewesen sein\" expresses the same doubt.",
       },
     ],
@@ -357,6 +357,7 @@ export const DE_B2_U22_EXTRA: Lesson[] = [
             prompt: "Put the words in order to say: I'm going to Cologne by train tomorrow.",
             words: ["Ich", "fahre", "morgen", "mit dem Zug", "nach Köln."],
             translation: "I'm going to Cologne by train tomorrow.",
+            altOrders: [["Morgen", "fahre", "ich", "mit dem Zug", "nach Köln."]],
             explanation: "Time before manner before place (TeKaMoLo), unlike English.",
           },
         ],
@@ -446,6 +447,7 @@ export const DE_B2_U22_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: That film I've already seen.",
         words: ["Den Film", "habe", "ich", "schon", "gesehen."],
         translation: "That film I've already seen.",
+        altOrders: [["Ich", "habe", "den Film", "schon", "gesehen."]],
         explanation: "The object in the Vorfeld puts it in focus; the verb stays second.",
       },
       {

@@ -9,7 +9,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Forming Futur II",
-    summary: "Choose haben or sein and get the word order right in main and subordinate clauses.",
+    summary: "Form the Futur II correctly: choose \"haben\" or \"sein\" and get the word order right in main and subordinate clauses.",
     duration: "12 min",
     sections: [
       {
@@ -17,13 +17,13 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
         body: [
           "Main clause: \"werden\" in position 2, participle + \"haben\" / \"sein\" at the end. \"Er wird es vergessen haben.\"",
           "Subordinate clause: the conjugated \"werden\" moves to the very end, after the perfect infinitive: \"..., dass er es vergessen haben wird.\" \"..., weil sie bis dahin umgezogen sein wird.\"",
-          "Haben or sein: as in the Perfekt. Motion and change of state → \"sein\" (gefahren, angekommen, eingeschlafen, gestorben, geworden); most others → \"haben\".",
+          "Haben or sein: as in the Perfekt. Motion and change of state → \"sein\" (\"gefahren\", \"angekommen\", \"eingeschlafen\", \"gestorben\", \"geworden\"); most others → \"haben\".",
         ],
         examples: [
           { es: "Er wird es vergessen haben.", en: "He'll have forgotten it." },
           { es: "Ich fürchte, dass er es vergessen haben wird.", en: "I'm afraid he'll have forgotten it." },
           { es: "Bis dahin wird sie umgezogen sein.", en: "By then she'll have moved." },
-          { es: "Ich hoffe, dass wir bis Mai fertig geworden sein werden.", en: "I hope we'll have finished by May." },
+          { es: "Ich hoffe, dass wir bis Mai alles erledigt haben werden.", en: "I hope we'll have done everything by May." },
           { es: "Wenn du ankommst, werden die Kinder schon eingeschlafen sein.", en: "When you arrive, the children will have fallen asleep." },
         ],
         checkpoint: [
@@ -103,9 +103,9 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "I hope that we'll have finished by May.",
-        answer: "Ich hoffe, dass wir bis Mai fertig geworden sein werden.",
-        altAnswers: ["Ich hoffe, dass wir bis Mai fertig sein werden.", "Ich hoffe, wir werden bis Mai fertig sein.", "Ich hoffe, dass wir bis Mai fertig sind."],
-        explanation: "Full Futur II in a dass-clause is heavy; \"fertig sein werden\" or the present is more natural.",
+        answer: "Ich hoffe, dass wir bis Mai fertig sein werden.",
+        altAnswers: ["Ich hoffe, dass wir bis Mai fertig geworden sein werden.", "Ich hoffe, wir werden bis Mai fertig sein.", "Ich hoffe, dass wir bis Mai fertig sind."],
+        explanation: "The full Futur II \"fertig geworden sein werden\" is correct but very heavy; \"fertig sein werden\" or the present (\"fertig sind\") is what people say. In a \"dass\"-clause the conjugated \"werden\" goes last.",
       },
       {
         type: "translate",
@@ -131,10 +131,10 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which auxiliary goes with sterben in the Futur II?",
-        options: ["gestorben sein", "gestorben haben", "gestorben werden", "gesterbt sein"],
+        question: "Which is the correct German for: By then the old dog will have died?",
+        options: ["Bis dahin wird der alte Hund gestorben sein.", "Bis dahin wird der alte Hund gestorben haben.", "Bis dahin wird der alte Hund gestorben werden.", "Bis dahin wird der alte Hund gesterbt sein."],
         correctIndex: 0,
-        explanation: "\"Sterben\" (change of state) takes \"sein\".",
+        explanation: "\"Sterben\" (change of state) takes \"sein\", so \"gestorben sein\"; the participle is irregular (not \"gesterbt\").",
       },
       {
         type: "listen-choose",
@@ -147,7 +147,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "In zehn Jahren wird er Arzt geworden sein.",
-        explanation: "\"Geworden sein\": perfect infinitive of werden.",
+        explanation: "\"Geworden sein\": perfect infinitive of \"werden\" (become), with \"sein\".",
       },
       {
         type: "speak",
@@ -163,7 +163,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Futur II or Perfekt?",
-    summary: "Formal written predictions with the Futur II vs everyday speech with the Perfekt and a time phrase.",
+    summary: "Choose between the Futur II for formal written predictions and the Perfekt + time phrase for everyday speech.",
     duration: "12 min",
     sections: [
       {
@@ -203,7 +203,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words, using the Perfekt as in speech.",
-        en: "By the time you come, we'll [have eaten] already.",
+        en: "By the time you come, we'll [have] eaten already.",
         sentence: "Bis du kommst, ___ wir schon gegessen.",
         answer: "haben",
         explanation: "Perfekt + time clause.",
@@ -219,7 +219,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words, using the Perfekt as in speech.",
-        en: "I'll [have tidied up] by tonight.",
+        en: "I'll have [tidied up] by tonight.",
         sentence: "Bis heute Abend habe ich ___.",
         answer: "aufgeräumt",
         explanation: "Perfekt + \"bis heute Abend\".",
@@ -261,18 +261,19 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       },
       {
         type: "translate",
-        direction: "es-en",
-        prompt: "Translate into English.",
-        source: "Bis morgen habe ich dir das Geld überwiesen.",
-        answer: "I'll have transferred the money to you by tomorrow.",
-        altAnswers: ["I will have transferred the money to you by tomorrow.", "By tomorrow I'll have transferred the money to you.", "I'll have sent you the money by tomorrow.", "By tomorrow I'll have sent you the money."],
-        explanation: "Perfekt + \"bis morgen\" = future perfect in English.",
+        direction: "en-es",
+        prompt: "Translate into everyday German, using the Perfekt. (to a friend)",
+        source: "I'll have transferred the money to you by tomorrow.",
+        answer: "Bis morgen habe ich dir das Geld überwiesen.",
+        altAnswers: ["Ich habe dir das Geld bis morgen überwiesen.", "Bis morgen habe ich dir das Geld geschickt.", "Ich habe dir das Geld bis morgen geschickt."],
+        explanation: "Perfekt + \"bis morgen\" = English future perfect; \"überweisen\" (inseparable) → \"überwiesen\".",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: By tomorrow I'll have done that.",
         words: ["Bis", "morgen", "habe", "ich", "das", "gemacht."],
         translation: "By tomorrow I'll have done that.",
+        altOrders: [["Ich", "habe", "das", "bis", "morgen", "gemacht."]],
         explanation: "Perfekt with a future time phrase.",
       },
       {
@@ -308,8 +309,8 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
     level: "DE-B2",
     number: 3,
     optional: true,
-    title: "Extra Practice: Dialogue Lab: Wo Bleibt Paul?",
-    summary: "Flatmates in Freiburg guess why Paul hasn't come home, using werden + wohl, the Futur II and modal verbs.",
+    title: "Extra Practice: Dialogue Lab: Wo bleibt Paul?",
+    summary: "Flatmates in Freiburg guess why Paul hasn't come home, using \"werden\" + \"wohl\", the Futur II and modal verbs.",
     duration: "13 min",
     sections: [
       {
@@ -329,7 +330,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using werden.",
+            prompt: "Translate into German using \"werden\".",
             source: "He's probably gone to the pub.",
             answer: "Er wird wohl in die Kneipe gegangen sein.",
             altAnswers: ["Er wird in die Kneipe gegangen sein.", "Er wird wohl in eine Kneipe gegangen sein."],
@@ -368,10 +369,10 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "He [can't have forgotten] us.",
+        en: "He [can't] have forgotten us.",
         sentence: "Er ___ uns doch nicht vergessen haben.",
         answer: "kann",
-        explanation: "\"Kann nicht\" + perfect infinitive = impossible.",
+        explanation: "\"Kann ... nicht\" + perfect infinitive = impossible; \"doch\" adds disbelief. Not \"muss nicht\", which would mean doesn't have to.",
       },
       {
         type: "translate",
@@ -406,8 +407,8 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "He could at least have called.",
         answer: "Er hätte wenigstens anrufen können.",
-        altAnswers: ["Er hätte zumindest anrufen können.", "Er hätte wenigstens anrufen sollen."],
-        explanation: "\"Hätte ... anrufen können\".",
+        altAnswers: ["Er hätte zumindest anrufen können."],
+        explanation: "\"Hätte ... anrufen können\" = could have called (a reproach); \"sollen\" would mean should have.",
       },
       {
         type: "word-order",
@@ -418,7 +419,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "At 1 a.m. Paul texts: Bin bei Max, Handy war leer. Which guess was right?",
+        question: "At 1 a.m. Paul texts: \"Bin bei Max, Handy war leer.\" Which guess was right?",
         options: ["Sein Handy wird leer gewesen sein.", "Er wird in der Bibliothek sein.", "Er soll im Krankenhaus sein.", "Er will nach Hause gekommen sein."],
         correctIndex: 0,
         explanation: "His phone had died.",
@@ -457,7 +458,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Error Hunt: Werden and Wollen",
-    summary: "Correct sentences where werden (will) and wollen (want, claim) are confused.",
+    summary: "Correct sentences where \"werden\" (will) and \"wollen\" (want, claim) are confused.",
     duration: "12 min",
     sections: [
       {
@@ -465,7 +466,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
         body: [
           "German \"ich will\" = I want. English I will = German \"ich werde\". So \"Ich will morgen kommen\" means I want to come tomorrow, and \"Ich werde morgen kommen\" means I will come tomorrow.",
           "With a perfect infinitive the difference is bigger: \"Er wird es gesehen haben\" (he'll have seen it / he's probably seen it) vs \"Er will es gesehen haben\" (he claims to have seen it).",
-          "Forms: werden → ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden. Wollen → ich will, du willst, er will, wir wollen, ihr wollt, sie wollen.",
+          "Forms: \"werden\" → \"ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden\". \"Wollen\" → \"ich will, du willst, er will, wir wollen, ihr wollt, sie wollen\".",
         ],
         examples: [
           { es: "Ich werde morgen kommen.", en: "I will come tomorrow." },
@@ -477,7 +478,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "Correct the sentence: Ich will dich morgen anrufen (meant as a promise). Write the German for the bold words.",
+            prompt: "Correct the sentence: \"*Ich will dich morgen anrufen.\" (meant as a promise). Write the German for the bold words.",
             en: "I [will] call you tomorrow.",
             sentence: "Ich ___ dich morgen anrufen.",
             answer: "werde",
@@ -496,7 +497,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
     exercises: [
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: Du willst es schaffen! (meant as encouragement). Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Du willst es schaffen!\" (meant as encouragement). Write the German for the bold words.",
         en: "You [will] manage it!",
         sentence: "Du ___ es schaffen!",
         answer: "wirst",
@@ -504,7 +505,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: Bis Freitag will ich den Bericht geschrieben haben (meant as a plan). Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Bis Freitag will ich den Bericht geschrieben haben.\" (meant as a plan). Write the German for the bold words.",
         en: "By Friday I [will] have written the report.",
         sentence: "Bis Freitag ___ ich den Bericht geschrieben haben.",
         answer: "werde",
@@ -512,7 +513,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: Morgen es wird regnen. Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Morgen es wird regnen.\" Write the German for the bold words.",
         en: "It [will rain] tomorrow.",
         sentence: "Morgen ___.",
         answer: "wird es regnen",
@@ -520,7 +521,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: Wir werden nächstes Jahr nach Japan reisen (meant as a wish). Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Wir werden nächstes Jahr nach Japan reisen.\" (meant as a wish). Write the German for the bold words.",
         en: "We [want] to travel to Japan next year.",
         sentence: "Wir ___ nächstes Jahr nach Japan reisen.",
         answer: "wollen",
@@ -556,7 +557,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using werden.",
+        prompt: "Translate into German using \"werden\".",
         source: "He's probably seen it.",
         answer: "Er wird es gesehen haben.",
         altAnswers: ["Er wird es wohl gesehen haben.", "Er wird es schon gesehen haben."],
@@ -568,8 +569,8 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Will you help me? (to a friend)",
         answer: "Wirst du mir helfen?",
-        altAnswers: ["Hilfst du mir?", "Willst du mir helfen?", "Würdest du mir helfen?", "Kannst du mir helfen?"],
-        explanation: "A request can be phrased several ways; \"wirst du\" asks about the future.",
+        altAnswers: ["Hilfst du mir?", "Würdest du mir helfen?"],
+        explanation: "\"Wirst du\" (or the present \"Hilfst du\") asks whether he will; \"Willst du mir helfen?\" asks whether he wants to.",
       },
       {
         type: "word-order",
@@ -588,7 +589,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Ich will morgen kommen.",
-        question: "What does the speaker say?",
+        question: "What does it mean?",
         options: ["I want to come tomorrow.", "I will come tomorrow.", "I came yesterday.", "I would come tomorrow."],
         correctIndex: 0,
         explanation: "\"Will\" = want.",
@@ -611,7 +612,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
     level: "DE-B2",
     number: 5,
     optional: true,
-    title: "Extra Practice: Real-World Mission: Mein Leben in Zehn Jahren",
+    title: "Extra Practice: Real-World Mission: Mein Leben in zehn Jahren",
     summary: "Write and talk about what you will have achieved in ten years: studies, work, home, family and travel.",
     duration: "13 min",
     sections: [
@@ -728,8 +729,8 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Wahrscheinlich werde ich befördert worden sein.",
-        question: "What does the speaker predict?",
-        options: ["They'll probably have been promoted.", "They'll probably promote someone.", "They want to be promoted.", "They were promoted last year."],
+        question: "What does it mean?",
+        options: ["I'll probably have been promoted.", "I'll probably promote someone.", "I want to be promoted.", "I was promoted last year."],
         correctIndex: 0,
         explanation: "Passive Futur II: \"befördert worden sein\".",
       },
@@ -752,7 +753,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Probability Adverbs",
-    summary: "Rank and use wohl, wahrscheinlich, vermutlich, bestimmt and sicher, and put them in the right place.",
+    summary: "Rank and use \"wohl\", \"wahrscheinlich\", \"vermutlich\", \"bestimmt\" and \"sicher\", and put them in the right place.",
     duration: "12 min",
     sections: [
       {
@@ -781,10 +782,10 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the strongest?",
+            question: "You're sure your friend will come. Which word fits: \"Er kommt ___.\"",
             options: ["bestimmt", "vermutlich", "vielleicht", "wohl"],
             correctIndex: 0,
-            explanation: "\"Bestimmt\" = definitely.",
+            explanation: "\"Bestimmt\" = definitely; \"vermutlich\" and \"wohl\" only mean probably, \"vielleicht\" maybe.",
           },
         ],
       },
@@ -811,7 +812,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The flight [may be] cancelled.",
+        en: "[Possibly] the flight will be cancelled.",
         sentence: "___ wird der Flug gestrichen.",
         answer: "Möglicherweise",
         altAnswers: ["Vielleicht"],
@@ -823,8 +824,8 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
         en: "That's [probably] true.",
         sentence: "Das wird ___ stimmen.",
         answer: "wohl",
-        altAnswers: ["schon", "sicher", "bestimmt"],
-        explanation: "\"Wird wohl\" = probably.",
+        altAnswers: ["schon", "sicher"],
+        explanation: "\"Wird wohl\" = probably. \"Bestimmt\" would be too strong (definitely).",
       },
       {
         type: "translate",
@@ -855,18 +856,19 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       },
       {
         type: "translate",
-        direction: "es-en",
-        prompt: "Translate into English.",
-        source: "Sie ist sicher müde.",
-        answer: "She's surely tired.",
-        altAnswers: ["She's probably tired.", "She must be tired.", "I'm sure she's tired.", "She's bound to be tired."],
-        explanation: "Adverb \"sicher\" = surely, probably.",
+        direction: "en-es",
+        prompt: "Translate into German using \"sicher\".",
+        source: "She's surely tired.",
+        answer: "Sie ist sicher müde.",
+        altAnswers: ["Sicher ist sie müde."],
+        explanation: "The adverb \"sicher\" = surely, probably; \"Ich bin sicher\" (adjective) = I'm certain.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: She's probably heard it already.",
         words: ["Sie", "hat", "es", "wahrscheinlich", "schon", "gehört."],
         translation: "She's probably heard it already.",
+        altOrders: [["Wahrscheinlich", "hat", "sie", "es", "schon", "gehört."]],
         explanation: "Pronoun before the adverb.",
       },
       {
@@ -909,7 +911,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
     level: "DE-B2",
     number: 7,
     optional: true,
-    title: "Extra Practice: Talk About Yourself: Was Wirst Du bis Dahin Erreicht Haben?",
+    title: "Extra Practice: Talk About Yourself: Was wirst du bis dahin erreicht haben?",
     summary: "Talk about your own goals and deadlines: what you will have achieved by the end of the year, by 30, by retirement.",
     duration: "12 min",
     sections: [
@@ -951,7 +953,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "By the time I'm 30, I [want to have learned] three languages.",
+        en: "By the time I'm 30, I [want] to have learned three languages.",
         sentence: "Bis ich 30 bin, ___ ich drei Sprachen gelernt haben.",
         answer: "will",
         explanation: "\"Will ... gelernt haben\" = want to have learned (a goal, not a claim, in this context).",
@@ -987,6 +989,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "What do you want to have managed by then? (to a friend)",
         answer: "Was willst du bis dahin geschafft haben?",
+        altAnswers: ["Was möchtest du bis dahin geschafft haben?"],
         explanation: "\"Willst\" = want; perfect infinitive at the end.",
       },
       {
@@ -1016,7 +1019,7 @@ export const DE_B2_U15_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Bis ich 30 bin, will ich drei Sprachen gelernt haben.\" What does will express here?",
+        question: "\"Bis ich 30 bin, will ich drei Sprachen gelernt haben.\" What does \"will\" express here?",
         options: ["A goal: I want to have learned them.", "A prediction: I will have learned them.", "A claim: I say I've learned them.", "An obligation: I have to learn them."],
         correctIndex: 0,
         explanation: "With a future deadline and the speaker's own plans, \"will ... gelernt haben\" is a goal.",

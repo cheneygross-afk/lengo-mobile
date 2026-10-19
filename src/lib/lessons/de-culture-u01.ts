@@ -8,7 +8,7 @@ export const DE_CULTURE_U01: Lesson[] = [
     level: "DE-Culture",
     number: 1,
     title: "Feste und Traditionen, Part 1 of 3",
-    summary: "The German winter and spring calendar: Silvester and New Year's wishes, the Sternsinger at your door, and the very regional madness of Karneval, Fasching and Fasnacht.",
+    summary: "Talk about the German winter and spring calendar: wish people \"Guten Rutsch\" and \"Frohes Neues\" at the right moment, explain the \"Sternsinger\" chalk on the door, and find your way through the very regional \"Karneval\", \"Fasching\" and \"Fasnacht\".",
     duration: "18 min",
     sections: [
       {
@@ -83,14 +83,14 @@ export const DE_CULTURE_U01: Lesson[] = [
       {
         heading: "Karneval, Fasching, Fasnacht: one season, three worlds",
         body: [
-          "The \"fünfte Jahreszeit\" (fifth season) officially opens on 11 November at 11:11, but its high point is the week before Lent. What it is called and how it is celebrated depends entirely on where you are: \"Karneval\" in the Rhineland (Köln, Düsseldorf, Mainz), \"Fasching\" in Bavaria, Saxony and Austria, \"Fasnacht\" or \"Fastnacht\" in the south-west, where the Swabian-Alemannic tradition uses carved wooden masks and is much older and eerier than the Rhineland parties.",
-          "The key days: \"Weiberfastnacht\" (the Thursday before), when women take over town halls and cut off men's ties, so don't wear your best tie to the office in Cologne; \"Rosenmontag\", the Monday with the big parades, where people shout for sweets (\"Kamelle!\") thrown from the floats; and \"Aschermittwoch\" (Ash Wednesday), when it is all over and Lent begins. The cheers differ too: \"Alaaf!\" in Cologne, \"Helau!\" in Düsseldorf and Mainz. Shouting the wrong one in the wrong city is a real faux pas.",
+          "The \"fünfte Jahreszeit\" (fifth season) officially opens on 11 November at 11:11, but its high point is the week before Lent. What it is called and how it is celebrated depends entirely on where you are: \"Karneval\" in the Rhineland (Köln, Düsseldorf, Mainz), \"Fasching\" in Bavaria, Saxony and Austria, \"Fasnacht\" or \"Fastnacht\" in the south-west, where the Swabian-Alemannic tradition uses carved wooden masks and has older roots and looks much eerier than the Rhineland parties.",
+          "The key days: \"Weiberfastnacht\" (the Thursday before), when women take over town halls and cut off men's ties, so don't wear your best tie to the office in Cologne; \"Rosenmontag\", the Monday with the big parades, where people shout for sweets (\"Kamelle!\") thrown from the floats; and \"Aschermittwoch\" (Ash Wednesday), when it is all over and Lent begins. The cheers differ too: \"Alaaf!\" in Cologne, \"Helau!\" in Düsseldorf and Mainz. Shouting the wrong one in the wrong city will get you teased at the very least.",
           "The trap for foreigners: Karneval is not a national celebration. In Hamburg, Berlin or Rostock most people work normally and find the whole thing slightly baffling, and Rosenmontag is not an official public holiday anywhere, even if offices in Cologne shut for it. \"Das macht man im Rheinland so\" (That's what people do in the Rhineland) is the honest answer to most questions.",
         ],
         examples: [
           { es: "Die fünfte Jahreszeit beginnt am 11.11. um 11:11 Uhr.", en: "The fifth season starts on 11 November at 11:11." },
           { es: "An Weiberfastnacht werden den Männern die Krawatten abgeschnitten.", en: "On Weiberfastnacht men get their ties cut off." },
-          { es: "In Köln ruft man „Alaaf“, in Düsseldorf „Helau“.", en: "In Cologne people shout Alaaf, in \"Düsseldorf\" Helau." },
+          { es: "In Köln ruft man „Alaaf“, in Düsseldorf „Helau“.", en: "In Cologne people shout \"Alaaf\", in Düsseldorf \"Helau\"." },
           { es: "Am Rosenmontag haben viele Büros in Köln zu.", en: "On Rosenmontag many offices in Cologne are closed." },
           { es: "Am Aschermittwoch ist alles vorbei.", en: "On Ash Wednesday it's all over." },
           { es: "In Hamburg feiert kaum jemand Karneval.", en: "Hardly anyone celebrates carnival in Hamburg." },
@@ -177,7 +177,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "On Weiberfastnacht you shouldn't wear your best tie.",
         answer: "An Weiberfastnacht sollte man nicht seine beste Krawatte tragen.",
-        altAnswers: ["An Weiberfastnacht sollte man nicht die beste Krawatte tragen.", "An Weiberfastnacht solltest du nicht deine beste Krawatte tragen.", "An Weiberfastnacht sollten Sie nicht Ihre beste Krawatte tragen.", "An Weiberfastnacht sollte man lieber nicht seine beste Krawatte tragen.", "An Weiberfastnacht trägt man besser nicht seine beste Krawatte.", "Man sollte an Weiberfastnacht nicht seine beste Krawatte tragen."],
+        altAnswers: ["An Weiberfastnacht sollte man nicht die beste Krawatte tragen.", "An Weiberfastnacht solltest du nicht deine beste Krawatte tragen.", "An Weiberfastnacht sollten Sie nicht Ihre beste Krawatte tragen.", "An Weiberfastnacht sollte man lieber nicht seine beste Krawatte tragen.", "An Weiberfastnacht trägt man besser nicht seine beste Krawatte.", "Man sollte an Weiberfastnacht nicht seine beste Krawatte tragen.", "An Weiberfastnacht sollte man seine beste Krawatte nicht tragen."],
         explanation: "\"Sollte\" (Konjunktiv II of sollen) gives advice; with \"man\" the possessive is \"seine\". Generic you can be \"man\", \"du\" or \"Sie\".",
       },
       {
@@ -214,13 +214,13 @@ export const DE_CULTURE_U01: Lesson[] = [
     level: "DE-Culture",
     number: 2,
     title: "Word Web: Der Festkalender",
-    summary: "Map the German year of celebrations to dates, regions and words: from Ostern and the Maibaum to Sankt Martin, Nikolaus and the all-important Brückentag.",
+    summary: "Match the German year of celebrations to dates, regions and words, from \"Ostern\" and the \"Maibaum\" to \"Sankt Martin\", \"Nikolaus\" and the all-important \"Brückentag\", and never confuse a \"Feiertag\" with a party.",
     duration: "16 min",
     sections: [
       {
         heading: "Spring: Ostern, der 1. Mai, Pfingsten",
         body: [
-          "\"Ostern\" (Easter) is a long weekend: \"Karfreitag\" (Good Friday) and \"Ostermontag\" are public holidays everywhere. Children look for eggs and sweets hidden by the \"Osterhase\" (the Easter bunny is a German invention, exported to America by emigrants); families \"färben Ostereier\" (dye eggs) and hang them on branches as an \"Osterstrauch\". In the north and in many villages, huge \"Osterfeuer\" (Easter bonfires) are lit on Saturday night.",
+          "\"Ostern\" (Easter) is a long weekend: \"Karfreitag\" (Good Friday) and \"Ostermontag\" are public holidays everywhere. Children look for eggs and sweets hidden by the \"Osterhase\" (the Easter bunny is usually traced to German-speaking regions and is said to have reached America with German emigrants); families \"färben Ostereier\" (dye eggs) and hang them on branches as an \"Osterstrauch\". In the north and in many villages, huge \"Osterfeuer\" (Easter bonfires) are lit on Easter Saturday or Sunday night.",
           "On the night of 30 April people \"tanzen in den Mai\" (dance into May) at parties, and 1 May is a public holiday: Labour Day with union marches in the cities, and in Bavaria and elsewhere the raising of the \"Maibaum\", a tall decorated pole. Neighbouring villages traditionally try to steal each other's Maibaum, and the thieves have to be 'paid off' in beer.",
           "\"Pfingsten\" (Pentecost, seven weeks after Easter) brings another long weekend with \"Pfingstmontag\" free. Many Germans couldn't tell you what it commemorates, but they know exactly when it is, because it is ideal for a short trip.",
         ],
@@ -255,7 +255,7 @@ export const DE_CULTURE_U01: Lesson[] = [
       {
         heading: "Autumn and early winter: Einheit, Erntedank, Sankt Martin, Nikolaus",
         body: [
-          "\"Der Tag der Deutschen Einheit\" on 3 October is the only public holiday set by federal law: it marks reunification in 1990. Around the same time, on the first Sunday of October, churches celebrate \"Erntedank\" (harvest festival), with altars full of pumpkins, bread and apples.",
+          "\"Der Tag der Deutschen Einheit\" on 3 October is the only public holiday set by federal law: it marks reunification in 1990. Around the same time, usually on the first Sunday of October, churches celebrate \"Erntedank\" (harvest festival), with altars full of pumpkins, bread and apples.",
           "On or around 11 November children walk through the dark streets with home-made lanterns in a \"Laternenumzug\" (lantern procession), singing \"Ich geh mit meiner Laterne\", often behind a rider dressed as Sankt Martin, the Roman soldier who cut his cloak in half for a beggar. Many families eat a \"Martinsgans\" (St Martin's goose) that week.",
           "On the evening of 5 December children clean their boots and put them outside the door: \"die Stiefel vor die Tür stellen\". On the morning of 6 December (\"Nikolaus\") they find them filled with sweets, nuts and tangerines. In some regions Nikolaus comes in person, accompanied by a dark figure (Knecht Ruprecht, or the Krampus in Bavaria and Austria) for the children who were naughty.",
         ],
@@ -315,7 +315,7 @@ export const DE_CULTURE_U01: Lesson[] = [
             prompt: "Translate into German.",
             source: "I've taken the Friday off as a bridge day.",
             answer: "Ich habe mir den Freitag als Brückentag freigenommen.",
-            altAnswers: ["Ich habe den Freitag als Brückentag freigenommen.", "Ich nehme den Freitag als Brückentag frei.", "Ich habe mir den Freitag freigenommen, als Brückentag.", "Ich habe mir den Brückentag am Freitag freigenommen."],
+            altAnswers: ["Ich habe den Freitag als Brückentag freigenommen.", "Ich habe mir den Freitag freigenommen, als Brückentag.", "Ich habe mir den Brückentag am Freitag freigenommen."],
             explanation: "\"Sich (Dativ) einen Tag freinehmen\" is to take a day off; the participle is \"freigenommen\", one word.",
           },
           {
@@ -383,7 +383,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         source: "Corpus Christi is a public holiday in Bavaria but not in Berlin.",
         answer: "Fronleichnam ist in Bayern ein Feiertag, aber nicht in Berlin.",
         altAnswers: ["Fronleichnam ist in Bayern ein Feiertag, in Berlin aber nicht.", "In Bayern ist Fronleichnam ein Feiertag, aber nicht in Berlin.", "In Bayern ist Fronleichnam ein Feiertag, in Berlin nicht.", "Fronleichnam ist in Bayern ein Feiertag, in Berlin nicht."],
-        explanation: "Holidays depend on the Bundesland: Catholic states have Fronleichnam, Protestant Berlin does not.",
+        explanation: "Holidays depend on the Bundesland: Catholic states have \"Fronleichnam\"; Berlin, which is largely Protestant or non-religious, does not.",
       },
       {
         type: "word-order",
@@ -424,7 +424,7 @@ export const DE_CULTURE_U01: Lesson[] = [
     level: "DE-Culture",
     number: 3,
     title: "Feste und Traditionen, Part 2 of 3",
-    summary: "Advent, the Weihnachtsmarkt and a German Christmas that peaks on the evening of the 24th, plus the strict etiquette of German birthdays.",
+    summary: "Describe Advent, the \"Weihnachtsmarkt\" and a German Christmas that peaks on the evening of the 24th, and follow the strict etiquette of German birthdays.",
     duration: "18 min",
     sections: [
       {
@@ -465,7 +465,7 @@ export const DE_CULTURE_U01: Lesson[] = [
       {
         heading: "Heiligabend, the Bescherung and two Christmas Days",
         body: [
-          "The big moment of a German Christmas is \"Heiligabend\" (Christmas Eve), the 24th. Shops close at lunchtime, many families decorate the tree that day, go to church in the late afternoon and then have the \"Bescherung\": the giving of presents, in the evening of the 24th, not on the morning of the 25th as in Britain or the US. Dinner is often surprisingly simple: \"Kartoffelsalat mit Würstchen\" is the classic.",
+          "The big moment of a German Christmas is \"Heiligabend\" (Christmas Eve), the 24th. Shops close by early afternoon, many families decorate the tree that day, go to church in the late afternoon and then have the \"Bescherung\": the giving of presents, in the evening of the 24th, not on the morning of the 25th as in Britain or the US. Dinner is often surprisingly simple: \"Kartoffelsalat mit Würstchen\" is the classic.",
           "Who brings the presents depends on the region: in the Catholic south and west it is \"das Christkind\", an angel-like child; in the north and east it is \"der Weihnachtsmann\", a Santa Claus figure. Children are often sent out of the room while the Christkind 'comes', and a little bell signals that they may go in.",
           "The 25th and 26th are \"der erste und zweite Weihnachtsfeiertag\", both public holidays, devoted to big family meals (often a \"Weihnachtsgans\", Christmas goose) and visiting relatives. The wishes: \"Frohe Weihnachten!\" or \"Frohes Fest!\", and at work before the break \"Schöne Feiertage!\".",
         ],
@@ -589,7 +589,7 @@ export const DE_CULTURE_U01: Lesson[] = [
       {
         type: "multiple-choice",
         question: "It's 11 p.m. on the day before your German friend Jonas's birthday. What do you do?",
-        options: ["Wait until midnight, then say: Alles Gute zum Geburtstag!", "Say now: Alles Gute zum Geburtstag für morgen!", "Say now: Guten Rutsch!", "Say now: Frohes Fest!"],
+        options: ["Wait until midnight, then say \"Alles Gute zum Geburtstag!\"", "Say now: \"Alles Gute zum Geburtstag für morgen!\"", "Say now: \"Guten Rutsch!\"", "Say now: \"Frohes Fest!\""],
         correctIndex: 0,
         explanation: "Congratulating before the day is considered bad luck. That's exactly why Germans \"reinfeiern\": they wait for midnight together.",
       },
@@ -632,7 +632,7 @@ export const DE_CULTURE_U01: Lesson[] = [
     level: "DE-Culture",
     number: 4,
     title: "Dialogue Lab: Auf dem Weinfest",
-    summary: "Accept an invitation to a village Weinfest like a native, find your way through Schorle, Federweißer and Zwiebelkuchen, and react with the right words, including the untranslatable gemütlich.",
+    summary: "Accept an invitation to a village \"Weinfest\" like a native, order \"Schorle\", \"Federweißer\" and \"Zwiebelkuchen\", and react with the right words, including the untranslatable \"gemütlich\".",
     duration: "16 min",
     sections: [
       {
@@ -673,8 +673,8 @@ export const DE_CULTURE_U01: Lesson[] = [
         heading: "On the Fest: Schorle, Federweißer and the Weinkönigin",
         body: [
           "Lena: \"Schau mal, da vorne ist die Weinkönigin!\" Every wine region elects a \"Weinkönigin\" (wine queen), usually a young woman from a winemaking family who represents the region's wines for a year, crown and sash included. You: \"Ach, so was gibt's hier? Wird die jedes Jahr gewählt?\" Lena: \"Ja, jedes Jahr. Das ist hier eine große Sache.\"",
-          "At the stand: \"Für mich eine Weinschorle, bitte.\" A \"Schorle\" is wine (or apple juice: \"Apfelschorle\") mixed with sparkling water; in the Pfalz it comes in a half-litre dimpled glass, the \"Dubbeglas\". In autumn you must try \"Federweißer\", young, still fermenting wine, cloudy, sweet and deceptively strong, which is always eaten with \"Zwiebelkuchen\" (a hot onion tart). In Austria it is called \"Sturm\".",
-          "In the background a \"Blaskapelle\" (brass band) plays, people sit at long tables (\"Bierbänke\") with strangers, and someone will start swaying arm in arm: \"schunkeln\". You sit down by asking \"Ist hier noch frei?\", the standard question for any free seat at a shared table.",
+          "At the stand: \"Für mich eine Weinschorle, bitte.\" A \"Schorle\" is wine (or apple juice: \"Apfelschorle\") mixed with sparkling water; in the Pfalz it comes in a half-litre dimpled glass, the \"Dubbeglas\". In autumn you must try \"Federweißer\", young, still fermenting wine, cloudy, sweet and deceptively strong, which is traditionally eaten with \"Zwiebelkuchen\" (a hot onion tart). In Austria it is called \"Sturm\".",
+          "In the background a \"Blaskapelle\" (brass band) plays, people sit on beer benches (\"Bierbänke\") at long tables with strangers, and someone will start swaying arm in arm: \"schunkeln\". You sit down by asking \"Ist hier noch frei?\", the standard question for any free seat at a shared table.",
         ],
         examples: [
           { es: "Schau mal, da vorne ist die Weinkönigin!", en: "Look, the wine queen's over there!" },
@@ -834,23 +834,23 @@ export const DE_CULTURE_U01: Lesson[] = [
     level: "DE-Culture",
     number: 5,
     title: "Feste und Traditionen, Part 3 of 3",
-    summary: "The Oktoberfest the way Munich calls it, die Wiesn, the other great German Feste from Stuttgart to Kiel, and the colloquial language of partying, drinking and the morning after.",
+    summary: "Talk about the Oktoberfest the way Munich does (\"die Wiesn\"), name the other great German \"Feste\" from Stuttgart to Kiel, and use the colloquial language of partying, drinking and the morning after in the right register.",
     duration: "18 min",
     sections: [
       {
         heading: "Auf die Wiesn: the Oktoberfest from the inside",
         body: [
-          "Nobody in Munich says Oktoberfest in everyday speech: it is \"die Wiesn\" (Bavarian for die Wiese, the meadow, after the Theresienwiese where it takes place). You go \"auf die Wiesn\" and you are \"auf der Wiesn\". And despite the name it starts in September: it opens on a Saturday in the second half of September and ends on the first Sunday of October (or on 3 October if that falls later).",
+          "In Munich hardly anyone says Oktoberfest in everyday speech: it is \"die Wiesn\" (Bavarian for die Wiese, the meadow, after the Theresienwiese where it takes place). You go \"auf die Wiesn\" and you are \"auf der Wiesn\". And despite the name it starts in September: it opens on a Saturday in the second half of September and ends on the first Sunday of October (or on 3 October if that falls later).",
           "The opening ritual: at noon on the first Saturday the mayor of Munich taps the first keg in the Schottenhamel tent and shouts the Bavarian words O'zapft is! (that is, \"es ist angezapft\": it's tapped). Only then may beer be served. Many visitors wear \"Tracht\": the \"Dirndl\" for women and \"Lederhosen\" for men. Folk wisdom says a bow tied on the left of a Dirndl means single, on the right taken.",
-          "Beer comes in \"eine Maß\", one litre, and the word is feminine: \"eine Maß\", \"zwei Maß\" (no plural ending after a number). In Bavaria it is pronounced with a short a, like Mass. In the \"Bierzelt\" (beer tent) a brass band plays \"Ein Prosit der Gemütlichkeit\" roughly every twenty minutes, and the whole tent stands up, sings and drinks: a ritual partly designed to sell more beer.",
+          "Beer comes in \"eine Maß\", one litre, and the word is feminine: \"eine Maß\", \"zwei Maß\" (no plural ending after a number). In Bavaria it is pronounced with a short a, like Mass. In the \"Bierzelt\" (beer tent) a brass band plays \"Ein Prosit der Gemütlichkeit\" several times an hour (often said to be every twenty minutes), and the whole tent stands up, sings and drinks: a ritual that, people joke, mainly sells more beer.",
         ],
         examples: [
           { es: "Gehst du dieses Jahr auf die Wiesn?", en: "Are you going to the Oktoberfest this year?" },
           { es: "Die Wiesn fängt schon im September an.", en: "The Oktoberfest already starts in September." },
-          { es: "Um zwölf Uhr ruft der Oberbürgermeister „O'zapft is!“.", en: "At twelve o'clock the mayor shouts O'zapft is!" },
+          { es: "Um zwölf Uhr ruft der Oberbürgermeister „O'zapft is!“.", en: "At twelve o'clock the mayor shouts \"O'zapft is!\"" },
           { es: "Zwei Maß, bitte!", en: "Two litres of beer, please!" },
           { es: "Ohne Reservierung kommt man am Wochenende kaum ins Zelt.", en: "Without a reservation you'll hardly get into a tent at the weekend." },
-          { es: "Im Bierzelt wird alle zwanzig Minuten „Ein Prosit“ gespielt.", en: "In the beer tent Ein Prosit is played every twenty minutes." },
+          { es: "Im Bierzelt wird alle zwanzig Minuten „Ein Prosit“ gespielt.", en: "In the beer tent \"Ein Prosit\" is played every twenty minutes." },
         ],
         checkpoint: [
           {
@@ -874,7 +874,7 @@ export const DE_CULTURE_U01: Lesson[] = [
       {
         heading: "Wasen, Schützenfest, Kieler Woche, CSD and Kölner Lichter",
         body: [
-          "Munich is not the only party. Stuttgart has the \"Cannstatter Wasen\" (or \"Volksfest\"), held at the same time as the Wiesn and almost as big, with fewer tourists. In thousands of towns and villages, especially in North Rhine-Westphalia and Lower Saxony, the local rifle club organises the \"Schützenfest\": a parade, a funfair, a beer tent and a shooting contest whose winner becomes \"Schützenkönig\" for a year.",
+          "Munich is not the only party. Stuttgart has the \"Cannstatter Wasen\" (or \"Volksfest\"), which overlaps with the Wiesn and is often called the second-biggest beer festival, with fewer tourists. In thousands of towns and villages, especially in North Rhine-Westphalia and Lower Saxony, the local rifle club organises the \"Schützenfest\": a parade, a funfair, a beer tent and a shooting contest whose winner becomes \"Schützenkönig\" for a year.",
           "The \"Kieler Woche\" in June is one of the world's largest sailing events and a huge summer festival on the Baltic. The \"Christopher Street Day\" (\"CSD\") is what Germans call Pride: the name comes from the street in New York where the 1969 Stonewall riots began, and Cologne and Berlin host some of Europe's biggest parades. In July the \"Kölner Lichter\" fill the Rhine with boats and end with fireworks above the river.",
           "When you describe events like these, the passive and \"es handelt sich um\" (it is, it's a matter of) sound natural and precise: \"Beim Schützenfest wird ein Schützenkönig ermittelt\", \"Bei der Kieler Woche handelt es sich um eine Segelregatta\". Note the inversion: when another element comes first, \"es\" moves after the verb.",
         ],
@@ -1042,7 +1042,7 @@ export const DE_CULTURE_U01: Lesson[] = [
     level: "DE-Culture",
     number: 6,
     title: "Real-World Mission: Explain a Fest to a Foreigner",
-    summary: "Put an English-speaking friend right about the Oktoberfest and German Unity Day, using the Advanced phrases for explaining origins and history: Das geht auf ... zurück, ursprünglich, es handelt sich um.",
+    summary: "Put an English-speaking friend right about the Oktoberfest and German Unity Day, explaining origins and history with \"Das geht auf ... zurück\", \"ursprünglich\" and \"es handelt sich um\".",
     duration: "18 min",
     sections: [
       {
@@ -1246,7 +1246,7 @@ export const DE_CULTURE_U01: Lesson[] = [
     level: "DE-Culture",
     number: 7,
     title: "Essen und Tischkultur, Part 1 of 3",
-    summary: "The shape of a German eating day: a bread-based breakfast, the warm lunch and the Kantine greeting Mahlzeit, Sunday Kaffee und Kuchen, and the cold evening meal called Abendbrot.",
+    summary: "Describe the shape of a German eating day: a bread-based breakfast, the warm lunch and the office greeting \"Mahlzeit\", Sunday \"Kaffee und Kuchen\", and the cold evening meal called \"Abendbrot\".",
     duration: "17 min",
     sections: [
       {
@@ -1259,7 +1259,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         examples: [
           { es: "Sonntags holt mein Vater frische Brötchen vom Bäcker.", en: "On Sundays my father gets fresh rolls from the bakery." },
           { es: "Zwei Brötchen und ein Vollkornbrot, bitte.", en: "Two rolls and a wholemeal loaf, please." },
-          { es: "In München sagt man „Semmel“, in Berlin „Schrippe“.", en: "In Munich they say Semmel, in Berlin Schrippe." },
+          { es: "In München sagt man „Semmel“, in Berlin „Schrippe“.", en: "In Munich they say \"Semmel\", in Berlin \"Schrippe\"." },
           { es: "Zum Frühstück gibt es Käse, Aufschnitt und Marmelade.", en: "For breakfast there's cheese, cold cuts and jam." },
           { es: "Wie möchtest du dein Ei, weich oder hart?", en: "How would you like your egg, soft or hard?" },
           { es: "Unter der Woche frühstücke ich nur schnell im Stehen.", en: "During the week I just have a quick breakfast standing up." },
@@ -1450,7 +1450,7 @@ export const DE_CULTURE_U01: Lesson[] = [
     level: "DE-Culture",
     number: 8,
     title: "Contrast Clinic: Brotzeit, Jause, Vesper, Abendbrot, Imbiss",
-    summary: "Five German eating moments with no exact English match, where each is said, and the rituals around them: Guten Appetit or Mahlzeit, Prost or Zum Wohl, and why you never look away when you clink glasses.",
+    summary: "Tell apart five German eating moments with no exact English match and where each is said, and handle the rituals around them: \"Guten Appetit\" or \"Mahlzeit\", \"Prost\" or \"Zum Wohl\", and eye contact when you clink glasses.",
     duration: "16 min",
     sections: [
       {
@@ -1466,7 +1466,7 @@ export const DE_CULTURE_U01: Lesson[] = [
           { es: "Nach der Wanderung haben wir auf der Hütte gevespert.", en: "After the hike we had a cold snack at the mountain hut." },
           { es: "Hast du dein Pausenbrot eingepackt?", en: "Have you packed your sandwich for break time?" },
           { es: "Ein Brotzeitbrett für zwei, bitte.", en: "A board of cold cuts for two, please." },
-          { es: "Im Norden sagt man eher Abendbrot.", en: "In the north people tend to say Abendbrot." },
+          { es: "Im Norden sagt man eher Abendbrot.", en: "In the north people tend to say \"Abendbrot\"." },
         ],
         checkpoint: [
           {
@@ -1526,7 +1526,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         body: [
           "Before eating together, someone says \"Guten Appetit!\" and the others answer \"Danke, gleichfalls!\" (Thanks, you too) or \"Ebenso!\". Nobody starts before this, and at a family table the host usually says it. \"Mahlzeit!\" is the work version: a greeting at lunchtime, and sometimes said instead of Guten Appetit in the canteen.",
           "Before drinking, you clink glasses: \"Prost!\" (beer, spirits, informal) or \"Zum Wohl!\" (more formal, typical with wine; also \"Auf dein Wohl!\", To your health). Then comes the unwritten rule: look each person in the eye as your glasses touch. According to the popular joke, if you don't you'll have seven years of bad luck (the ruder version says seven years of bad sex).",
-          "With a larger group, don't cross arms with other people while clinking, and if the table is too long, raising your glass with eye contact is enough. Never toast with water: many Germans consider it bad luck (sailors' superstition).",
+          "With a larger group, don't cross arms with other people while clinking, and if the table is too long, raising your glass with eye contact is enough. Avoid toasting with water: many Germans consider it bad luck (an old superstition, often linked to sailors).",
         ],
         examples: [
           { es: "Guten Appetit! – Danke, gleichfalls!", en: "Enjoy your meal! – Thanks, you too!" },
@@ -1658,7 +1658,7 @@ export const DE_CULTURE_U01: Lesson[] = [
     level: "DE-Culture",
     number: 9,
     title: "Essen und Tischkultur, Part 2 of 3",
-    summary: "Bread, beer and cake: German Brotkultur, the Reinheitsgebot and the regional beer map, Kuchen versus Torte, the Pfand system, and how to order all of it naturally.",
+    summary: "Talk about bread, beer and cake: German \"Brotkultur\", the \"Reinheitsgebot\" and the regional beer map, \"Kuchen\" versus \"Torte\", the \"Pfand\" system, and order all of it naturally.",
     duration: "18 min",
     sections: [
       {
@@ -1723,7 +1723,7 @@ export const DE_CULTURE_U01: Lesson[] = [
           {
             type: "multiple-choice",
             question: "In a Cologne pub your Kölsch glass keeps being replaced. How do you signal you've had enough?",
-            options: ["Put your beer mat on top of the glass.", "Turn the glass upside down.", "Leave a little beer in the glass.", "Say: Noch eins, bitte!"],
+            options: ["Put your beer mat on top of the glass.", "Turn the glass upside down.", "Leave a little beer in the glass.", "Say \"Noch eins, bitte!\""],
             correctIndex: 0,
             explanation: "The \"Köbes\" replaces empty Stangen automatically; \"den Deckel aufs Glas legen\" is the signal to stop.",
           },
@@ -1862,7 +1862,7 @@ export const DE_CULTURE_U01: Lesson[] = [
     level: "DE-Culture",
     number: 10,
     title: "Error Hunt: Fettnäpfchen am Tisch",
-    summary: "Follow a foreign guest through a German family dinner and a restaurant bill, spot each Fettnäpfchen (faux pas), and say what a native would do instead.",
+    summary: "Follow a foreign guest through a German family dinner and a restaurant bill, spot each \"Fettnäpfchen\" (faux pas), and say what a native would do instead.",
     duration: "17 min",
     sections: [
       {
@@ -1938,7 +1938,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         heading: "The bill: getrennt, zusammen and Stimmt so",
         body: [
           "Mistake 6: eight friends finish dinner and Sam asks the waiter to 'split the bill into eight'. In Germany the waiter asks \"Zusammen oder getrennt?\" and, if you say \"getrennt\" (separately), each person pays for exactly what they ordered: \"Ich hatte die Pasta und zwei Bier.\" Dividing the total equally is unusual and needs to be said explicitly.",
-          "Mistake 7: Sam leaves no tip, assuming service is included. It is, legally, but rounding up by about 5 to 10 percent is expected for good service. The tip is not left on the table: you tell the waiter the amount when paying. The bill is 46,50 euros, you hand over a 50-euro note and say \"Stimmt so!\" (Keep the change), or with a card you say the total you want to pay: \"Machen Sie 50.\"",
+          "Mistake 7: Sam leaves no tip, assuming service is included. It is, legally, but rounding up by about 5 to 10 per cent is expected for good service. The tip is not left on the table: you tell the waiter the amount when paying. The bill is 46,50 euros, you hand over a 50-euro note and say \"Stimmt so!\" (Keep the change), or with a card you say the total you want to pay: \"Machen Sie 50.\"",
           "And one last Fettnäpfchen: the waiter will not bring the bill until you ask for it, because rushing guests is considered rude: \"Wir möchten bitte zahlen\" or \"Die Rechnung, bitte.\"",
         ],
         examples: [
@@ -2017,7 +2017,7 @@ export const DE_CULTURE_U01: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Sam says to the waiter: \"Bitte teilen Sie die Rechnung durch acht.\" What's the usual German way?",
-        options: ["The waiter asks Zusammen oder getrennt? and each person pays for what they ordered.", "The waiter always divides the total by the number of people.", "One person must pay for everyone.", "Each person pays exactly one eighth automatically."],
+        options: ["The waiter asks \"Zusammen oder getrennt?\" and each person pays for what they ordered.", "The waiter always divides the total by the number of people.", "One person must pay for everyone.", "Each person pays exactly one eighth automatically."],
         correctIndex: 0,
         explanation: "\"Getrennt\" means each pays their own items; splitting equally is unusual and must be asked for explicitly.",
       },
@@ -2068,14 +2068,14 @@ export const DE_CULTURE_U01: Lesson[] = [
     level: "DE-Culture",
     number: 11,
     title: "Essen und Tischkultur, Part 3 of 3",
-    summary: "Talk about food the way Germans really do: Kohldampf and futtern, the food idioms that run through everyday speech, the host's encouraging imperatives, and how to refuse a third helping politely.",
+    summary: "Talk about food the way Germans really do (\"Kohldampf\", \"futtern\"), use the food idioms of everyday speech, encourage guests like a host, and refuse a third helping politely.",
     duration: "18 min",
     sections: [
       {
         heading: "Kohldampf, futtern, lecker, eklig",
         body: [
           "Everyday food talk is colloquial. \"Ich habe Kohldampf\" (I'm starving) is stronger and more casual than \"Ich habe Hunger\". \"Futtern\" and \"mampfen\" mean to eat heartily or to munch: \"Die Kinder futtern alles weg.\" \"Lecker\" (tasty) is the all-purpose word of praise, used far more than \"köstlich\" (delicious) or \"schmackhaft\".",
-          "Strong praise: \"Das ist der Hammer!\" or \"Der Kuchen ist der Hammer!\" (It's amazing). The opposite: \"eklig\" (disgusting) or, very colloquially, \"widerlich\". Be careful with criticism at someone else's table: \"Das ist nicht so meins\" (It's not really my thing) is the diplomatic way to say you don't like something.",
+          "Strong praise: \"Das ist der Hammer!\" or \"Der Kuchen ist der Hammer!\" (It's amazing). The opposite: \"eklig\" (disgusting) or, stronger still, \"widerlich\" (revolting). Be careful with criticism at someone else's table: \"Das ist nicht so meins\" (It's not really my thing) is the diplomatic way to say you don't like something.",
           "Register matters: \"futtern\", \"mampfen\", \"Kohldampf\" and \"der Hammer\" are fine with friends and family, and even at a relaxed dinner party, but you wouldn't use them in a restaurant review or a business lunch.",
         ],
         examples: [
@@ -2101,7 +2101,7 @@ export const DE_CULTURE_U01: Lesson[] = [
             question: "Your friend's mother offers you more liver dumplings, which you don't like. What's the most diplomatic answer?",
             options: ["Danke, das ist nicht so meins, aber der Salat ist super!", "Nein, das ist eklig.", "Ich mag das nicht, das ist widerlich.", "Danke, ich bin voll."],
             correctIndex: 0,
-            explanation: "\"Das ist nicht so meins\" softens the refusal, and praising something else keeps the host happy. \"Ich bin voll\" means I'm drunk.",
+            explanation: "\"Das ist nicht so meins\" softens the refusal, and praising something else keeps the host happy. \"Ich bin voll\" can be heard as I'm drunk.",
           },
         ],
       },
@@ -2153,7 +2153,7 @@ export const DE_CULTURE_U01: Lesson[] = [
         body: [
           "German hosts encourage you with short, warm imperatives softened by particles: \"Greif ruhig zu!\" (Go ahead and help yourself!), \"Nimm dir doch noch was!\" (Do have some more!), \"Lass es dir schmecken!\" (Enjoy!), \"Hau rein!\" (Tuck in!, very casual). \"Ruhig\" here means don't hesitate; \"doch\" makes the urging friendly rather than bossy. To several guests: \"Greift zu!\", \"Nehmt euch noch!\"; to Sie-guests: \"Greifen Sie zu!\".",
           "Refusing a third helping politely: \"Danke, ich bin satt\" (Thanks, I'm full), \"Danke, ich kann nicht mehr, es war sehr lecker\", \"Vielleicht später noch ein kleines Stück\". Germans usually take a no at face value, so if you do want more, say yes the first time: there may not be a second offer.",
-          "The famous trap: \"Ich bin voll\" does not mean I'm full. In colloquial German it means I'm drunk. Say \"Ich bin satt\" (I've had enough to eat) or, colloquially, \"Ich bin pappsatt\" or \"Ich platze gleich\" (I'm about to burst).",
+          "The famous trap: \"Ich bin voll\" is risky. Some people do use it for I'm stuffed, but in colloquial German it very often means I'm drunk. Say \"Ich bin satt\" (I've had enough to eat) or, colloquially, \"Ich bin pappsatt\" or \"Ich platze gleich\" (I'm about to burst).",
         ],
         examples: [
           { es: "Greif ruhig zu, es ist genug da!", en: "Go ahead, help yourself, there's plenty!" },
@@ -2171,7 +2171,7 @@ export const DE_CULTURE_U01: Lesson[] = [
             source: "Thanks, I'm full. It was really delicious.",
             answer: "Danke, ich bin satt. Es war wirklich lecker.",
             altAnswers: ["Danke, ich bin satt. Es war sehr lecker.", "Danke, ich bin satt. Es war echt lecker.", "Danke, ich bin satt, es war wirklich lecker.", "Danke, ich bin satt. Es hat wirklich sehr gut geschmeckt.", "Danke, ich bin satt. Es hat wirklich gut geschmeckt."],
-            explanation: "\"Satt\" is full after eating. Never \"Ich bin voll\", which colloquially means I'm drunk.",
+            explanation: "\"Satt\" is full after eating. Avoid \"Ich bin voll\", which colloquially often means I'm drunk.",
           },
           {
             type: "translate",
@@ -2230,10 +2230,10 @@ export const DE_CULTURE_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "After a big dinner you want to say you couldn't eat another bite. Which sentence does NOT mean that?",
+        question: "After a big dinner you want to say you couldn't eat another bite. Which sentence is risky, because it is often understood as I'm drunk?",
         options: ["Ich bin voll.", "Ich bin satt.", "Ich kann nicht mehr.", "Ich platze gleich."],
         correctIndex: 0,
-        explanation: "\"Ich bin voll\" is colloquial for I'm drunk. The other three all mean you've had enough to eat.",
+        explanation: "\"Ich bin voll\" is often colloquial for I'm drunk. The other three clearly mean you've had enough to eat.",
       },
       {
         type: "translate",
@@ -2303,7 +2303,7 @@ export const DE_CULTURE_U01: Lesson[] = [
             prompt: "Translate into German.",
             source: "Right, we'll be heading off then.",
             answer: "So, wir machen uns dann mal auf den Weg.",
-            altAnswers: ["So, wir machen uns dann mal los.", "So, wir gehen dann mal.", "So, wir machen uns jetzt mal auf den Weg.", "So, wir machen uns auf den Weg.", "So, wir brechen dann mal auf."],
+            altAnswers: ["So, wir gehen dann mal.", "So, wir machen uns jetzt mal auf den Weg.", "So, wir machen uns auf den Weg.", "So, wir brechen dann mal auf."],
             explanation: "\"Sich auf den Weg machen\" (to set off) with the softening particles \"dann mal\": the standard first signal.",
           },
           {
@@ -2425,7 +2425,7 @@ export const DE_CULTURE_U01: Lesson[] = [
       {
         type: "multiple-choice",
         question: "You're leaving dinner with your new partner's parents, whom you've met for the first time. What's the safest goodbye?",
-        options: ["A handshake with eye contact: Auf Wiedersehen, und vielen Dank!", "A big hug and: Tschüss, macht's gut!", "Two kisses on the cheek.", "A wave from the door: Ciao!"],
+        options: ["A handshake with eye contact: \"Auf Wiedersehen, und vielen Dank!\"", "A big hug and \"Tschüss, macht's gut!\"", "Two kisses on the cheek.", "A wave from the door: \"Ciao!\""],
         correctIndex: 0,
         explanation: "With people you have just met (and probably say Sie to), a handshake with eye contact is safest unless they open their arms.",
       },
@@ -2486,6 +2486,6 @@ export const DE_CULTURE_U01_WRITING: WriteExercise = {
   minWords: 180,
   maxWords: 300,
   rubric: ["Describes customs with \"man\" and impersonal phrases (\"Es ist üblich, dass ...\", \"Das macht man nicht\", \"Das gehört sich nicht\")", "Uses the passive or \"sich lassen\" for customs (\"Der Baum wird am 24. geschmückt\", \"Das lässt sich gut vorbereiten\")", "Gives advice with \"sollte\" / \"Man sollte lieber ...\" (e.g. punctuality, Prost with eye contact, not congratulating early)", "Includes host and leave-taking formulas (\"Greif ruhig zu!\", \"Ich bin satt\", \"Vielen Dank für die Einladung\", \"Wir machen uns dann mal auf den Weg\")"],
-  modelAnswer: "Liebe Emma,\n\nich freue mich so, dass du im Dezember kommst! Damit du bei Familie Becker nicht ins Fettnäpfchen trittst, hier ein paar Tipps.\n\nIm Advent geht man auf den Weihnachtsmarkt. Auf die Glühweintasse zahlt man Pfand, das bekommt man zurück, wenn man sie zurückgibt. Der Stollen wird übrigens im Advent gegessen, nicht erst an Weihnachten.\n\nDas Wichtigste ist Heiligabend, der 24. Der Baum wird oft erst an diesem Tag geschmückt, und die Bescherung ist am Abend, nicht am Morgen des 25. Bei den Beckers gibt es Kartoffelsalat mit Würstchen, das lässt sich gut vorbereiten. Du solltest pünktlich sein und am besten Blumen oder Wein mitbringen.\n\nAm Tisch fängt man erst an, wenn jemand „Guten Appetit“ gesagt hat. Beim Anstoßen schaut man jedem in die Augen, sonst gibt es angeblich sieben Jahre Pech. Wenn Frau Becker sagt „Greif ruhig zu!“, darfst du dir wirklich nehmen. Wenn du nichts mehr willst, sag „Danke, ich bin satt“, aber bitte nie „Ich bin voll“, das heißt nämlich betrunken!\n\nZum Geburtstag von Jonas: Gratulier ihm auf keinen Fall vorher, das gehört sich nicht und bringt Unglück. Wir feiern um Mitternacht rein.\n\nWenn du gehen willst, sag einfach: „So, ich mache mich dann mal auf den Weg.“ Bedank dich für die Einladung und schreib am nächsten Tag eine kurze Nachricht. Es ist üblich, dass man sich nochmal für den schönen Abend bedankt.\n\nIch freue mich auf dich!\nLiebe Grüße\nLena",
+  modelAnswer: "Liebe Emma,\n\nich freue mich so, dass du im Dezember kommst! Damit du bei Familie Becker nicht ins Fettnäpfchen trittst, hier ein paar Tipps.\n\nIm Advent geht man auf den Weihnachtsmarkt. Auf die Glühweintasse zahlt man Pfand, das bekommt man zurück, wenn man sie zurückgibt. Der Stollen wird übrigens im Advent gegessen, nicht erst an Weihnachten.\n\nDas Wichtigste ist Heiligabend, der 24. Der Baum wird oft erst an diesem Tag geschmückt, und die Bescherung ist am Abend, nicht am Morgen des 25. Bei den Beckers gibt es Kartoffelsalat mit Würstchen, das lässt sich gut vorbereiten. Du solltest pünktlich sein und am besten Blumen oder Wein mitbringen.\n\nAm Tisch fängt man erst an, wenn jemand „Guten Appetit“ gesagt hat. Beim Anstoßen schaut man jedem in die Augen, sonst gibt es angeblich sieben Jahre Pech. Wenn Frau Becker sagt „Greif ruhig zu!“, darfst du dir wirklich nehmen. Wenn du nichts mehr willst, sag „Danke, ich bin satt“, aber bitte nicht „Ich bin voll“, das heißt nämlich oft betrunken!\n\nZum Geburtstag von Jonas: Gratulier ihm auf keinen Fall vorher, das gehört sich nicht und bringt Unglück. Wir feiern um Mitternacht rein.\n\nWenn du gehen willst, sag einfach: „So, ich mache mich dann mal auf den Weg.“ Bedank dich für die Einladung und schreib am nächsten Tag eine kurze Nachricht. Es ist üblich, dass man sich nochmal für den schönen Abend bedankt.\n\nIch freue mich auf dich!\nLiebe Grüße\nLena",
   explanation: "Customs are described with generic \"man\" (\"zahlt man Pfand\", \"fängt man erst an\") and impersonal phrases (\"Es ist üblich, dass ...\", \"das gehört sich nicht\"). The passive (\"wird gegessen\", \"wird geschmückt\") and \"sich lassen\" (\"lässt sich gut vorbereiten\") keep the ritual in focus. Advice uses \"solltest\", the host's line \"Greif ruhig zu!\" shows a particle-softened imperative, and \"Ich mache mich dann mal auf den Weg\" is the standard leave-taking formula.",
 };

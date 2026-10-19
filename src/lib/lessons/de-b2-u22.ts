@@ -8,14 +8,14 @@ export const DE_B2_U22: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Transformations: Join the Sentences with Dessen or Deren",
-    summary: "Combine pairs of sentences into one formal sentence with dessen / deren, with and without a preposition (in deren Mitte, mit dessen Unterstützung).",
+    summary: "Combine pairs of sentences into one formal sentence with \"dessen\" / \"deren\", with and without a preposition (\"in deren Mitte\", \"mit dessen Unterstützung\").",
     duration: "15 min",
     sections: [
       {
         heading: "Two sentences, one possessive, one relative",
         body: [
           "The transformation always follows the same three steps. Find the possessive in the second sentence that points back to a noun in the first (\"sein\", \"ihr\"). Replace it with \"dessen\" (masculine / neuter antecedent) or \"deren\" (feminine / plural). Put the relative clause right after its antecedent, with the verb at the end.",
-          "Herr Becker hat angerufen. Seine Firma liefert unsere Möbel. → \"Herr Becker, dessen Firma unsere Möbel liefert, hat angerufen.\" City and country names without an article are neuter, so they take \"dessen\": \"Wir besuchen Erfurt, dessen Dom berühmt ist.\"",
+          "\"Herr Becker hat angerufen. Seine Firma liefert unsere Möbel.\" → \"Herr Becker, dessen Firma unsere Möbel liefert, hat angerufen.\" City and country names without an article are neuter, so they take \"dessen\": \"Wir besuchen Erfurt, dessen Dom berühmt ist.\"",
           "Watch the verb agreement: it follows the subject of the relative clause, not the antecedent. \"Die Schule, deren Gebäude saniert wird\" (singular: das Gebäude), \"Der Lehrer, dessen Schüler gewonnen haben\" (plural: die Schüler).",
         ],
         examples: [
@@ -37,7 +37,7 @@ export const DE_B2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Join: Die Forscher stellten ihre Ergebnisse vor. Ihre Studie dauerte fünf Jahre.",
+            question: "Join the two sentences: \"Die Forscher stellten ihre Ergebnisse vor. Ihre Studie dauerte fünf Jahre.\"",
             options: ["Die Forscher, deren Studie fünf Jahre dauerte, stellten ihre Ergebnisse vor.", "Die Forscher, dessen Studie fünf Jahre dauerte, stellten ihre Ergebnisse vor.", "Die Forscher, deren Studie dauerte fünf Jahre, stellten ihre Ergebnisse vor.", "Die Forscher, die ihre Studie fünf Jahre dauerte, stellten ihre Ergebnisse vor."],
             correctIndex: 0,
             explanation: "Plural antecedent → \"deren\"; the verb \"dauerte\" goes to the end of the relative clause.",
@@ -47,8 +47,8 @@ export const DE_B2_U22: Lesson[] = [
       {
         heading: "With a preposition: mit dessen Unterstützung, in deren Mitte",
         body: [
-          "If the possessive sits inside a prepositional phrase, the whole phrase moves to the front of the relative clause. Der Verein feiert Jubiläum. Mit seiner Unterstützung wurde der Spielplatz gebaut. → \"Der Verein, mit dessen Unterstützung der Spielplatz gebaut wurde, feiert Jubiläum.\"",
-          "Das Dorf liegt im Tal. In seiner Mitte steht eine alte Linde. → \"Das Dorf, in dessen Mitte eine alte Linde steht, liegt im Tal.\" Die Gemeinde hat einen neuen Park. Von seiner Existenz wissen nur wenige. → \"Die Gemeinde hat einen neuen Park, von dessen Existenz nur wenige wissen.\"",
+          "If the possessive sits inside a prepositional phrase, the whole phrase moves to the front of the relative clause. \"Der Verein feiert Jubiläum. Mit seiner Unterstützung wurde der Spielplatz gebaut.\" → \"Der Verein, mit dessen Unterstützung der Spielplatz gebaut wurde, feiert Jubiläum.\"",
+          "\"Das Dorf liegt im Tal. In seiner Mitte steht eine alte Linde.\" → \"Das Dorf, in dessen Mitte eine alte Linde steht, liegt im Tal.\" \"Die Gemeinde hat einen neuen Park. Von seiner Existenz wissen nur wenige.\" → \"Die Gemeinde hat einen neuen Park, von dessen Existenz nur wenige wissen.\"",
           "This is the moment English speakers go wrong: in English the preposition can wait until the end (the club whose support the playground was built with). In German it must stand at the front.",
         ],
         examples: [
@@ -82,7 +82,7 @@ export const DE_B2_U22: Lesson[] = [
         heading: "Where the clause goes, and avoiding ambiguity",
         body: [
           "The relative clause normally follows its antecedent directly. If only a short verb part would be left after it, the clause can move into the Nachfeld, after the final verb: \"Ich habe gestern eine Frau kennengelernt, deren Bruder in Kanada lebt.\"",
-          "\"Dessen\" and \"deren\" refer to the nearest suitable noun. \"Die Tochter der Nachbarin, deren Hund ...\" means the neighbour's dog, not the daughter's: both are feminine, and the nearest wins. If that's not what you mean, rephrase.",
+          "\"Dessen\" and \"deren\" normally refer to the nearest suitable noun. \"Die Tochter der Nachbarin, deren Hund ...\" will usually be read as the neighbour's dog, but since both nouns are feminine it could also be the daughter's. If the meaning matters, rephrase.",
           "In a formal text you can chain several relative clauses, but more than two in a sentence becomes hard to read. Split long sentences: clarity is part of formal style.",
         ],
         examples: [
@@ -138,7 +138,7 @@ export const DE_B2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Join: Der Lehrer ist stolz. Seine Schüler haben den Wettbewerb gewonnen.",
+        question: "Join the two sentences: \"Der Lehrer ist stolz. Seine Schüler haben den Wettbewerb gewonnen.\"",
         options: ["Der Lehrer, dessen Schüler den Wettbewerb gewonnen haben, ist stolz.", "Der Lehrer, dessen Schüler den Wettbewerb gewonnen hat, ist stolz.", "Der Lehrer, deren Schüler den Wettbewerb gewonnen haben, ist stolz.", "Der Lehrer, dessen Schüler haben den Wettbewerb gewonnen, ist stolz."],
         correctIndex: 0,
         explanation: "\"Dessen\" for \"der Lehrer\"; the verb agrees with the plural \"Schüler\" and goes to the end.",
@@ -409,8 +409,8 @@ export const DE_B2_U22: Lesson[] = [
     slug: "b2-thematic-review-das-weingut",
     level: "DE-B2",
     number: 3,
-    title: "Thematic Review: Das Weingut Modernisieren",
-    summary: "A young winemaker on the Moselle takes over from her father: relative clauses with dessen / deren, regrets with the double infinitive, and Futur II.",
+    title: "Thematic Review: Das Weingut modernisieren",
+    summary: "Follow a young winemaker on the Moselle taking over from her father, using relative clauses with \"dessen\" / \"deren\", regrets with the double infinitive, and Futur II.",
     duration: "15 min",
     sections: [
       {
@@ -435,7 +435,7 @@ export const DE_B2_U22: Lesson[] = [
             source: "Her father, whose hands are rough, doesn't want to stop yet.",
             answer: "Ihr Vater, dessen Hände rau sind, will noch nicht aufhören.",
             altAnswers: ["Ihr Vater, dessen Hände rau sind, möchte noch nicht aufhören.", "Ihr Vater, dessen Hände rau sind, will noch nicht aufgeben."],
-            explanation: "\"Ihr Vater\" is masculine → \"dessen\", even though \"Hände\" is a feminine plural.",
+            explanation: "\"Ihr Vater\" is masculine → \"dessen\", even though \"Hände\" is plural.",
           },
           {
             type: "fill-blank",
@@ -458,7 +458,7 @@ export const DE_B2_U22: Lesson[] = [
         examples: [
           { es: "Ich hätte früher auf Bio umstellen sollen.", en: "I should have gone organic earlier." },
           { es: "Wir hätten schon vor Jahren einen Onlineshop aufbauen müssen.", en: "We should have set up an online shop years ago." },
-          { es: "Du hättest mich fragen können, bevor du die Etiketten bestellst.", en: "You could have asked me before ordering the labels." },
+          { es: "Du hättest mich fragen können, bevor du die Etiketten bestellt hast.", en: "You could have asked me before you ordered the labels." },
           { es: "Er gibt zu, dass er früher hätte umstellen sollen.", en: "He admits that he should have changed earlier." },
           { es: "Ich hätte nicht so lange in Berlin bleiben dürfen.", en: "I shouldn't have stayed in Berlin so long." },
         ],
@@ -544,8 +544,8 @@ export const DE_B2_U22: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "You [could have asked me] before ordering the labels.",
-        sentence: "Du ___, bevor du die Etiketten bestellst.",
+        en: "You [could have asked me] before you ordered the labels.",
+        sentence: "Du ___, bevor du die Etiketten bestellt hast.",
         answer: "hättest mich fragen können",
         explanation: "A reproach: \"hättest\" + infinitive + \"können\".",
       },
@@ -616,7 +616,7 @@ export const DE_B2_U22: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Error Hunt: Dessen, Deren and Genitive Prepositions",
-    summary: "Find and fix the typical mistakes: dessen for deren, dessem, innerhalb zwei Wochen, aufgrund dem Streik and das Beste, das.",
+    summary: "Find and fix typical mistakes with \"dessen\" / \"deren\", genitive prepositions and \"was\", such as \"*dessem\", \"*innerhalb zwei Wochen\" and \"*aufgrund dem Streik\".",
     duration: "14 min",
     sections: [
       {
@@ -637,7 +637,7 @@ export const DE_B2_U22: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: \"Die Frau, dessen Mann bei der Polizei ist, wohnt oben.\" Write the correct German for: The woman whose husband is in the police lives upstairs.",
+            prompt: "A learner wrote: \"*Die Frau, dessen Mann bei der Polizei ist, wohnt oben.*\" Write the correct German for: The woman whose husband is in the police lives upstairs.",
             source: "The woman whose husband is in the police lives upstairs.",
             answer: "Die Frau, deren Mann bei der Polizei ist, wohnt oben.",
             altAnswers: ["Die Frau, deren Mann Polizist ist, wohnt oben.", "Die Frau, deren Mann bei der Polizei arbeitet, wohnt oben."],
@@ -646,7 +646,7 @@ export const DE_B2_U22: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "That's the friend [with whose help] I moved. (not: mit dessem Hilfe)",
+            en: "That's the friend [with whose help] I moved. (not: \"*mit dessem Hilfe*\")",
             sentence: "Das ist der Freund, ___ ich umgezogen bin.",
             answer: "mit dessen Hilfe",
             explanation: "\"Dessen\" never takes a dative ending: \"*dessem\" doesn't exist.",
@@ -671,7 +671,7 @@ export const DE_B2_U22: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: \"Aufgrund dem Streik fallen alle Flüge aus.\" Write the correct German for: Due to the strike all flights are cancelled.",
+            prompt: "A learner wrote: \"*Aufgrund dem Streik fallen alle Flüge aus.*\" Write the correct German for: Due to the strike all flights are cancelled.",
             source: "Due to the strike all flights are cancelled.",
             answer: "Aufgrund des Streiks fallen alle Flüge aus.",
             altAnswers: ["Alle Flüge fallen aufgrund des Streiks aus.", "Aufgrund des Streikes fallen alle Flüge aus.", "Wegen des Streiks fallen alle Flüge aus.", "Aufgrund des Streiks werden alle Flüge gestrichen.", "Infolge des Streiks fallen alle Flüge aus."],
@@ -704,7 +704,7 @@ export const DE_B2_U22: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: \"Er kam zu spät, das mich ärgerte.\" Write the correct German for: He came late, which annoyed me.",
+            prompt: "A learner wrote: \"*Er kam zu spät, das mich ärgerte.*\" Write the correct German for: He came late, which annoyed me.",
             source: "He came late, which annoyed me.",
             answer: "Er kam zu spät, was mich ärgerte.",
             altAnswers: ["Er ist zu spät gekommen, was mich geärgert hat.", "Er kam zu spät, was mich geärgert hat.", "Er kam zu spät, worüber ich mich ärgerte.", "Er ist zu spät gekommen, worüber ich mich geärgert habe."],
@@ -722,7 +722,7 @@ export const DE_B2_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: \"Der Kollege, deren Auto kaputt ist, kommt mit dem Rad.\" Write the correct German for: The colleague whose car is broken is coming by bike.",
+        prompt: "A learner wrote: \"*Der Kollege, deren Auto kaputt ist, kommt mit dem Rad.*\" Write the correct German for: The colleague whose car is broken is coming by bike.",
         source: "The colleague whose car is broken is coming by bike.",
         answer: "Der Kollege, dessen Auto kaputt ist, kommt mit dem Rad.",
         altAnswers: ["Der Kollege, dessen Auto kaputt ist, kommt mit dem Fahrrad.", "Der Kollege, dessen Wagen kaputt ist, kommt mit dem Rad.", "Die Kollegin, deren Auto kaputt ist, kommt mit dem Rad.", "Die Kollegin, deren Auto kaputt ist, kommt mit dem Fahrrad."],
@@ -731,7 +731,7 @@ export const DE_B2_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: \"Wir antworten innerhalb zwei Wochen.\" Write the correct German for: We'll reply within two weeks.",
+        prompt: "A learner wrote: \"*Wir antworten innerhalb zwei Wochen.*\" Write the correct German for: We'll reply within two weeks.",
         source: "We'll reply within two weeks.",
         answer: "Wir antworten innerhalb von zwei Wochen.",
         altAnswers: ["Wir antworten Ihnen innerhalb von zwei Wochen.", "Wir werden innerhalb von zwei Wochen antworten.", "Innerhalb von zwei Wochen antworten wir.", "Wir melden uns innerhalb von zwei Wochen."],
@@ -740,7 +740,7 @@ export const DE_B2_U22: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Here's [everything you] need. (not: alles, das du brauchst)",
+        en: "Here's [everything you] need. (not: \"*alles, das du brauchst*\")",
         sentence: "Hier ist ___ brauchst.",
         answer: "alles, was du",
         explanation: "After \"alles\" the relative pronoun is \"was\".",
@@ -755,7 +755,7 @@ export const DE_B2_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: \"Sie hat bestanden, über was sich alle freuen.\" Write the correct German for: She passed, which everyone is happy about.",
+        prompt: "A learner wrote: \"*Sie hat bestanden, über was sich alle freuen.*\" Write the correct German for: She passed, which everyone is happy about.",
         source: "She passed, which everyone is happy about.",
         answer: "Sie hat bestanden, worüber sich alle freuen.",
         altAnswers: ["Sie hat bestanden, was alle freut.", "Sie hat die Prüfung bestanden, worüber sich alle freuen.", "Sie hat bestanden, worüber alle sich freuen.", "Sie hat die Prüfung bestanden, was alle freut."],
@@ -764,7 +764,7 @@ export const DE_B2_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: \"Das ist meine Schwester, mit deren neues Auto wir nach Italien fahren.\" Write the correct German for: That's my sister, in whose new car we're driving to Italy.",
+        prompt: "A learner wrote: \"*Das ist meine Schwester, mit deren neues Auto wir nach Italien fahren.*\" Write the correct German for: That's my sister, in whose new car we're driving to Italy.",
         source: "That's my sister, in whose new car we're driving to Italy.",
         answer: "Das ist meine Schwester, mit deren neuem Auto wir nach Italien fahren.",
         altAnswers: ["Das ist meine Schwester, mit deren neuem Wagen wir nach Italien fahren."],
@@ -788,7 +788,7 @@ export const DE_B2_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: \"Trotz dem Regen sind alle gekommen.\" Write it in correct written German: Despite the rain everyone came.",
+        prompt: "A learner wrote: \"*Trotz dem Regen sind alle gekommen.*\" Write it in correct written German: Despite the rain everyone came.",
         source: "Despite the rain everyone came.",
         answer: "Trotz des Regens sind alle gekommen.",
         altAnswers: ["Trotz des Regens kamen alle.", "Alle sind trotz des Regens gekommen.", "Alle kamen trotz des Regens."],
@@ -811,7 +811,7 @@ export const DE_B2_U22: Lesson[] = [
     slug: "b2-thematic-review-ein-erbe-teilen",
     level: "DE-B2",
     number: 5,
-    title: "Thematic Review: Ein Erbe Teilen",
+    title: "Thematic Review: Ein Erbe teilen",
     summary: "Three siblings divide their late mother's house: concession, reported speech at the notary's and reproaches with the double infinitive.",
     duration: "15 min",
     sections: [
@@ -833,7 +833,7 @@ export const DE_B2_U22: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using zwar ... aber.",
+            prompt: "Translate into German, using \"zwar ... aber\".",
             source: "Sabine would like to keep the house, but she can't buy out her siblings.",
             answer: "Zwar möchte Sabine das Haus behalten, aber sie kann ihre Geschwister nicht auszahlen.",
             altAnswers: ["Sabine möchte das Haus zwar behalten, aber sie kann ihre Geschwister nicht auszahlen.", "Sabine möchte zwar das Haus behalten, aber sie kann ihre Geschwister nicht auszahlen.", "Zwar möchte Sabine das Haus behalten, sie kann ihre Geschwister aber nicht auszahlen.", "Sabine würde das Haus zwar gern behalten, aber sie kann ihre Geschwister nicht auszahlen."],
@@ -876,7 +876,7 @@ export const DE_B2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Jana asked: Können wir das Haus nicht vermieten? How do the minutes report it?",
+            question: "Jana asked: \"Können wir das Haus nicht vermieten?\" How do the minutes report it?",
             options: ["Sie fragte, ob man das Haus nicht vermieten könne.", "Sie fragte, wenn man das Haus nicht vermieten könne.", "Sie fragte, ob man könne das Haus nicht vermieten.", "Sie fragte, dass man das Haus nicht vermieten könne."],
             correctIndex: 0,
             explanation: "A reported yes/no question uses \"ob\", with the verb at the end.",
@@ -1017,7 +1017,7 @@ export const DE_B2_U22: Lesson[] = [
     slug: "b2-mission-ein-formeller-text",
     level: "DE-B2",
     number: 6,
-    title: "Real-World Mission: Ein Formeller Text",
+    title: "Real-World Mission: Ein formeller Text",
     summary: "Write a residents' association statement (Stellungnahme) about a planned multi-storey car park, using genitive prepositions, nominal style and formal relatives.",
     duration: "15 min",
     sections: [
@@ -1224,7 +1224,7 @@ export const DE_B2_U22: Lesson[] = [
     level: "DE-B2",
     number: 7,
     title: "Thematic Review: Das Abiturjahr",
-    summary: "The last year before the Abitur: pressure, choices and plans, with als ob, Futur II and connectors.",
+    summary: "Talk about the last year before the Abitur (pressure, choices and plans) with \"als ob\", Futur II and connectors.",
     duration: "15 min",
     sections: [
       {
@@ -1364,7 +1364,7 @@ export const DE_B2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence uses nämlich correctly?",
+        question: "Which sentence uses \"nämlich\" correctly?",
         options: ["Ich komme nicht mit, ich muss nämlich lernen.", "Ich komme nicht mit, nämlich ich muss lernen.", "Ich komme nicht mit. Nämlich muss ich lernen.", "Nämlich ich komme nicht mit, weil ich lernen muss."],
         correctIndex: 0,
         explanation: "\"Nämlich\" sits in the Mittelfeld after the verb; it can't open the clause.",
@@ -1475,7 +1475,7 @@ export const DE_B2_U22: Lesson[] = [
         examples: [
           { es: "Frau Meier muss den Roboter mögen, sie spricht jeden Tag mit ihm.", en: "Mrs Meier must like the robot, she talks to it every day." },
           { es: "Das dürfte die Pflegekräfte deutlich entlasten.", en: "That will probably take a lot of pressure off the care workers." },
-          { es: "Pepper soll sogar Witze erzählen können.", en: "Pepper is supposed to be able to tell jokes, even." },
+          { es: "Pepper soll sogar Witze erzählen können.", en: "Pepper is even supposed to be able to tell jokes." },
           { es: "Herr Schulz will nie mit dem Roboter gesprochen haben.", en: "Mr Schulz claims never to have talked to the robot." },
           { es: "Die Robbe muss ihr sehr gefallen haben.", en: "She must have liked the seal a lot." },
           { es: "Das kann kein Zufall gewesen sein.", en: "That can't have been a coincidence." },
@@ -1535,7 +1535,7 @@ export const DE_B2_U22: Lesson[] = [
           {
             type: "speak",
             text: "Ein Roboter kann eine Pflegekraft unterstützen, aber nicht ersetzen.",
-            tip: "\"Pflegekraft\": pronounce the pf together, as in apfel.",
+            tip: "\"Pflegekraft\": pronounce the pf together, as in \"Apfel\".",
             explanation: "Two infinitives share one modal: \"kann ... unterstützen, aber nicht ersetzen\".",
           },
         ],
@@ -1603,9 +1603,9 @@ export const DE_B2_U22: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Pepper is supposed to be able to tell jokes.",
+        prompt: "Put the words in order to say: Pepper is even supposed to be able to tell jokes.",
         words: ["Pepper", "soll", "sogar", "Witze", "erzählen", "können."],
-        translation: "Pepper is supposed to be able to tell jokes, even.",
+        translation: "Pepper is even supposed to be able to tell jokes.",
         explanation: "Hearsay \"soll\" second, the two infinitives at the end: \"erzählen können\".",
       },
       {
@@ -1660,7 +1660,7 @@ export const DE_B2_U22: Lesson[] = [
             source: "If I'd known that, I would have come.",
             answer: "Wenn ich das gewusst hätte, wäre ich gekommen.",
             altAnswers: ["Hätte ich das gewusst, wäre ich gekommen.", "Wenn ich das gewusst hätte, dann wäre ich gekommen.", "Ich wäre gekommen, wenn ich das gewusst hätte.", "Hätte ich das gewusst, dann wäre ich gekommen."],
-            explanation: "\"Hätte\" for wissen, \"wäre\" for kommen (movement), in both halves of the sentence: never \"*würde gekommen sein\".",
+            explanation: "\"Hätte\" for \"wissen\", \"wäre\" for \"kommen\" (movement), in both halves of the sentence. \"Würde ... gekommen sein\" exists but sounds clumsy, so avoid it.",
           },
           {
             type: "fill-blank",
@@ -1698,7 +1698,7 @@ export const DE_B2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The students told the reporter: Wir haben keine Wohnung gefunden. How is it reported?",
+            question: "The students told the reporter: \"Wir haben keine Wohnung gefunden.\" How is it reported?",
             options: ["Sie sagten, sie hätten keine Wohnung gefunden.", "Sie sagten, sie haben keine Wohnung gefunden gehabt.", "Sie sagten, sie habe keine Wohnung gefunden.", "Sie sagten, sie würden keine Wohnung gefunden."],
             correctIndex: 0,
             explanation: "\"Sie haben\" looks like the indicative, so Konjunktiv II \"hätten\" replaces it.",
@@ -1876,7 +1876,7 @@ export const DE_B2_U22: Lesson[] = [
           "Prepositions move to the front: \"die Neiße, an deren Ufer die Stadt liegt\" (on whose banks the town lies).",
         ],
         examples: [
-          { es: "Görlitz, dessen Altstadt kaum zerstört wurde, ist bei Filmteams beliebt.", en: "Goerlitz, whose old town was hardly destroyed, is popular with film crews." },
+          { es: "Görlitz, dessen Altstadt kaum zerstört wurde, ist bei Filmteams beliebt.", en: "Görlitz, whose old town was hardly destroyed, is popular with film crews." },
           { es: "Die Stadt, deren Bevölkerung lange schrumpfte, wächst wieder.", en: "The town, whose population was shrinking for a long time, is growing again." },
           { es: "Die Neiße, an deren Ufer die Stadt liegt, bildet die Grenze zu Polen.", en: "The Neisse, on whose banks the town lies, forms the border with Poland." },
           { es: "Die Altstadt, deren Häuser aus vielen Jahrhunderten stammen, ist wunderschön.", en: "The old town, whose houses date from many centuries, is beautiful." },
@@ -1893,7 +1893,7 @@ export const DE_B2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Complete: Die Stadt, ___ Bevölkerung lange schrumpfte, wächst wieder.",
+            question: "Complete: \"Die Stadt, ___ Bevölkerung lange schrumpfte, wächst wieder.\"",
             options: ["deren", "dessen", "die", "derer"],
             correctIndex: 0,
             explanation: "\"Die Stadt\" is feminine → \"deren\".",
@@ -1961,7 +1961,7 @@ export const DE_B2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Join: Leipzig ist eine Messestadt. Ihr Bahnhof ist einer der größten Europas.",
+        question: "Join the two sentences: \"Leipzig ist eine Messestadt. Ihr Bahnhof ist einer der größten Europas.\"",
         options: ["Leipzig ist eine Messestadt, deren Bahnhof einer der größten Europas ist.", "Leipzig ist eine Messestadt, dessen Bahnhof einer der größten Europas ist.", "Leipzig ist eine Messestadt, deren Bahnhof ist einer der größten Europas.", "Leipzig ist eine Messestadt, die ihr Bahnhof einer der größten Europas ist."],
         correctIndex: 0,
         explanation: "The possessive \"ihr\" refers to \"eine Messestadt\" (feminine) → \"deren\", and the verb goes to the end.",
@@ -2101,7 +2101,7 @@ export const DE_B2_U22: Lesson[] = [
         heading: "Making the point: emphasis",
         body: [
           "Speakers at the meeting use the emphasis structures of Unit 20 to make their key point stand out: \"Was mich stört, ist die Art der Planung.\" \"Es geht nicht um ein paar Bäume, sondern um ein ganzes Ökosystem.\" \"Gerade hier brütet der Rotmilan.\"",
-          "Focus particles: \"ausgerechnet\" (of all places: Ausgerechnet neben dem Naturschutzgebiet!), \"sogar\" (even), \"gerade\" (precisely, of all places).",
+          "Focus particles: \"ausgerechnet\" (of all places: \"Ausgerechnet neben dem Naturschutzgebiet!\"), \"sogar\" (even), \"gerade\" (precisely, of all places).",
           "A whole clause can fill the Vorfeld for contrast: \"Dass wir mehr Windkraft brauchen, bestreitet niemand.\" (That we need more wind power, nobody disputes.)",
         ],
         examples: [
@@ -2309,7 +2309,7 @@ export const DE_B2_U22: Lesson[] = [
       {
         heading: "What she wishes she had done: regrets",
         body: [
-          "Standing in her old room, Claudia thinks about the last years. Regrets with the Konjunktiv II past (Unit 1-2): \"Ich hätte öfter nach Hause kommen sollen.\" \"Hätte ich doch mehr Fotos gemacht!\" \"Wenn ich mehr Zeit mit meiner Mutter verbracht hätte, wäre der Abschied leichter.\"",
+          "Standing in her old room, Claudia thinks about the last years. Regrets with the Konjunktiv II past (Units 1-2): \"Ich hätte öfter nach Hause kommen sollen.\" \"Hätte ich doch mehr Fotos gemacht!\" \"Wenn ich mehr Zeit mit meiner Mutter verbracht hätte, wäre der Abschied leichter.\"",
           "Note the last one: a past condition with a present result (mixed conditional).",
           "And a final thought in the indicative, because life goes on: \"Das Haus wird verkauft, aber die Erinnerungen bleiben.\"",
         ],
@@ -2434,7 +2434,7 @@ export const DE_B2_U22: Lesson[] = [
     level: "DE-B2",
     number: 13,
     title: "Spiral Review: Precision Tools",
-    summary: "The small forms of formal German together: genitive prepositions, dessen / deren, Funktionsverbgefüge and sein + zu.",
+    summary: "Combine the small forms of formal German: genitive prepositions, \"dessen\" / \"deren\", Funktionsverbgefüge and \"sein\" + \"zu\".",
     duration: "14 min",
     sections: [
       {
@@ -2461,7 +2461,7 @@ export const DE_B2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Complete: Bezüglich des Antrags, ___ Kopie beiliegt, bitten wir um Antwort.",
+            question: "Complete: \"Bezüglich des Antrags, ___ Kopie beiliegt, bitten wir um Antwort.\"",
             options: ["dessen", "deren", "dessem", "den"],
             correctIndex: 0,
             explanation: "\"Der Antrag\" is masculine → \"dessen\".",
@@ -2519,7 +2519,7 @@ export const DE_B2_U22: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using sein + zu.",
+            prompt: "Translate into German, using \"sein\" + \"zu\".",
             source: "The form must be filled in completely.",
             answer: "Das Formular ist vollständig auszufüllen.",
             altAnswers: ["Das Formular muss vollständig ausgefüllt werden.", "Das Formular ist komplett auszufüllen."],
@@ -2646,5 +2646,5 @@ export const DE_B2_U22_WRITING: WriteExercise = {
     "Structures the argument with formal connectors (\"zunächst\", \"darüber hinaus\", \"allerdings\", \"folglich\").",
   ],
   modelAnswer: "Sehr geehrte Damen und Herren,\n\nder Elternbeirat der Grundschule am Lindenplatz nimmt hiermit Stellung zur geplanten Schließung der Stadtteilbibliothek.\n\nDie Bibliothek, deren Räume direkt neben unserer Schule liegen, wird von über 200 Kindern regelmäßig genutzt. Zunächst ist sie für viele Familien, deren Wohnungen klein sind, der einzige ruhige Ort zum Lesen und Lernen. Darüber hinaus organisiert die Leiterin, mit deren Hilfe jedes Jahr ein Lesewettbewerb stattfindet, wöchentliche Vorlesestunden.\n\nAngesichts der schlechten Ergebnisse vieler Kinder beim Lesen halten wir eine Schließung für den falschen Weg. Zwar verstehen wir, dass die Stadt aufgrund steigender Kosten sparen muss. Allerdings würde die Einsparung nur rund 30.000 Euro im Jahr betragen.\n\nWir schlagen deshalb vor, die Bibliothek in die Schule zu verlegen. Die Schule könnte innerhalb von drei Monaten einen Raum zur Verfügung stellen, sodass keine Miete mehr anfiele. Folglich blieben die Kosten gering.\n\nWir bitten Sie, diesen Vorschlag in Betracht zu ziehen. Für Rückfragen stehen wir Ihnen gern zur Verfügung.\n\nMit freundlichen Grüßen\nAyşe Demir\nVorsitzende des Elternbeirats",
-  explanation: "The genitive prepositions carry their case (\"angesichts der schlechten Ergebnisse\", \"aufgrund steigender Kosten\" with the strong ending -er), and \"innerhalb von drei Monaten\" uses von + dative. \"Deren\" refers to feminine or plural antecedents (die Bibliothek, Familien, die Leiterin) whatever noun follows, and \"mit deren Hilfe\" puts the preposition first. Nominal style (\"die geplante Schließung\", \"die Einsparung\") and Funktionsverbgefüge (\"Stellung nehmen zu\", \"zur Verfügung stellen\", \"in Betracht ziehen\") set the formal register, and the connectors structure the argument with verb-second word order.",
+  explanation: "The genitive prepositions carry their case (\"angesichts der schlechten Ergebnisse\", \"aufgrund steigender Kosten\" with the strong ending -er), and \"innerhalb von drei Monaten\" uses von + dative. \"Deren\" refers to feminine or plural antecedents (\"die Bibliothek\", \"Familien\", \"die Leiterin\") whatever noun follows, and \"mit deren Hilfe\" puts the preposition first. Nominal style (\"die geplante Schließung\", \"die Einsparung\") and Funktionsverbgefüge (\"Stellung nehmen zu\", \"zur Verfügung stellen\", \"in Betracht ziehen\") set the formal register, and the connectors structure the argument with verb-second word order.",
 };

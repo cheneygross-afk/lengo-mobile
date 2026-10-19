@@ -16,7 +16,7 @@ export const DE_A2_U02: Lesson[] = [
         body: [
           "Regular verbs make their participle with ge- + stem + -t (\"gemacht\"). A smaller but very frequent group, the strong verbs, ends in -en instead: \"sehen\" → \"gesehen\", \"lesen\" → \"gelesen\", \"geben\" → \"gegeben\". English has the same split: walked (regular) but seen, given, written (irregular).",
           "In the easiest strong verbs the vowel doesn't change at all, so the participle is ge- + the infinitive: \"schlafen\" → \"geschlafen\", \"waschen\" → \"gewaschen\", \"lesen\" → \"gelesen\", \"sehen\" → \"gesehen\".",
-          "One oddity: \"essen\" → \"gegessen\", with an extra g in the middle. Old German had *geessen*, and the g was added to make it easier to say. Learn it as a one-off: it's one of the most useful participles you'll ever use.",
+          "One oddity: \"essen\" → \"gegessen\", with an extra g in the middle. In older German, ge- + essen merged into \"*gessen*\"; that no longer looked like a participle, so a second ge- was added in front: ge-gessen. Learn it as a one-off: it's one of the most useful participles you'll ever use.",
         ],
         examples: [
           { es: "Ich habe schon gegessen.", en: "I've already eaten." },
@@ -42,7 +42,7 @@ export const DE_A2_U02: Lesson[] = [
             en: "Have you [seen] the film? (to a friend)",
             sentence: "Hast du den Film ___?",
             answer: "gesehen",
-            explanation: "\"Sehen\" is strong: \"gesehen\", same vowel, ending -en. Not *gesehet*.",
+            explanation: "\"Sehen\" is strong: \"gesehen\", same vowel, ending -en. Not \"*gesehet*\".",
           },
         ],
       },
@@ -106,7 +106,7 @@ export const DE_A2_U02: Lesson[] = [
             prompt: "Translate into German.",
             source: "My brother helped me.",
             answer: "Mein Bruder hat mir geholfen.",
-            explanation: "\"Helfen\" → \"geholfen\" (e becomes o), and it takes \"mir\", not *mich*.",
+            explanation: "\"Helfen\" → \"geholfen\" (e becomes o), and it takes \"mir\", not \"*mich*\".",
           },
           {
             type: "translate",
@@ -249,7 +249,7 @@ export const DE_A2_U02: Lesson[] = [
             question: "What did you hear?",
             options: ["geschrieben", "geschreiben", "geschwiegen", "gestiegen"],
             correctIndex: 0,
-            explanation: "\"Geschrieben\" with ie (ee sound), not *geschreiben*.",
+            explanation: "\"Geschrieben\" with ie (ee sound), not \"*geschreiben*\".",
           },
         ],
       },
@@ -289,7 +289,7 @@ export const DE_A2_U02: Lesson[] = [
         body: [
           "Many verbs with \"e\" (which become \"i\" or \"ie\" in the du and er forms) take \"o\" in the participle: \"sprechen\" → \"gesprochen\", \"helfen\" → \"geholfen\", \"nehmen\" → \"genommen\", \"treffen\" → \"getroffen\".",
           "And the no-change group: \"essen\" → \"gegessen\", \"lesen\" → \"gelesen\", \"sehen\" → \"gesehen\", \"geben\" → \"gegeben\". Same family, same sound: if you know one, you know how the others feel.",
-          "Careful: \"er spricht\" and \"er nimmt\" change to i in the present, but that i never reaches the participle: not *gesprichen*, *genimmt*.",
+          "Careful: \"er spricht\" and \"er nimmt\" change to i in the present, but that i never reaches the participle: not \"*gesprichen*\", \"*genimmt*\".",
         ],
         examples: [
           { es: "Ich habe mit ihr gesprochen.", en: "I spoke to her." },
@@ -513,7 +513,6 @@ export const DE_A2_U02: Lesson[] = [
             prompt: "Translate into German.",
             source: "I thought of you. (to a friend)",
             answer: "Ich habe an dich gedacht.",
-            altAnswers: ["Ich habe an euch gedacht.", "Ich habe an Sie gedacht."],
             explanation: "\"Denken an\" + accusative = to think of; \"denken\" → \"gedacht\".",
           },
         ],
@@ -574,7 +573,6 @@ export const DE_A2_U02: Lesson[] = [
         prompt: "Translate into German.",
         source: "Have you paid yet? (to a friend)",
         answer: "Hast du schon bezahlt?",
-        altAnswers: ["Habt ihr schon bezahlt?", "Haben Sie schon bezahlt?"],
         explanation: "\"Bezahlen\" → \"bezahlt\": no ge- after be-.",
       },
       {
@@ -616,7 +614,7 @@ export const DE_A2_U02: Lesson[] = [
         body: [
           "\"Wissen\" is knowing information: a fact, an answer, that something is true. Its participle is \"gewusst\": \"Das habe ich nicht gewusst\" (I didn't know that), \"Hast du die Antwort gewusst?\" (Did you know the answer?).",
           "\"Wissen\" usually has \"das\", \"es\", \"nichts\", \"alles\", \"die Antwort\" or a whole clause as its object, never a person.",
-          "The traps are spelling: it's \"gewusst\", not *gewisst* (the vowel changes to u) and not *gewissen*. Double s because the u is short.",
+          "The traps are spelling: it's \"gewusst\", not \"*gewisst*\" (the vowel changes to u) and not \"*gewissen*\". Double s because the u is short.",
         ],
         examples: [
           { es: "Das habe ich nicht gewusst.", en: "I didn't know that." },
@@ -636,10 +634,10 @@ export const DE_A2_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is spelt correctly?",
-            options: ["gewusst", "gewisst", "gewissen", "gewußt"],
+            question: "Which is correct for: She knew everything.",
+            options: ["Sie hat alles gewusst.", "Sie hat alles gewisst.", "Sie hat alles gewissen.", "Sie hat alles gewußt."],
             correctIndex: 0,
-            explanation: "\"Gewusst\": u, ss after a short vowel (ß only after a long vowel or diphthong since 2006).",
+            explanation: "\"Gewusst\": u, ss after a short vowel (ß only after a long vowel or diphthong since 2006, so \"*gewußt*\" is the old spelling).",
           },
         ],
       },
@@ -647,7 +645,7 @@ export const DE_A2_U02: Lesson[] = [
         heading: "Gekannt: being familiar with someone or something",
         body: [
           "\"Kennen\" is being familiar with a person, a place, a film, a song: something you've met or experienced. Its participle is \"gekannt\": \"Ich habe ihn gut gekannt\" (I knew him well), \"Wir haben die Stadt nicht gekannt\" (we didn't know the city).",
-          "The trap here is *gekennt*: the e changes to a. Think of English know → known; German kennen → gekannt has its own odd vowel.",
+          "The trap here is \"*gekennt*\": the e changes to a. Think of English know → known; German kennen → gekannt has its own odd vowel.",
           "Many speakers prefer the simple past \"kannte\" and \"wusste\" for these verbs; you'll meet that in Unit 5. Both are correct.",
         ],
         examples: [
@@ -664,7 +662,7 @@ export const DE_A2_U02: Lesson[] = [
             source: "I knew him well.",
             answer: "Ich habe ihn gut gekannt.",
             altAnswers: ["Ich kannte ihn gut."],
-            explanation: "A person = \"kennen\" → \"gekannt\", not *gekennt*.",
+            explanation: "A person = \"kennen\" → \"gekannt\", not \"*gekennt*\".",
           },
           {
             type: "fill-blank",
@@ -730,14 +728,14 @@ export const DE_A2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which fits: Hast du die Antwort ___?",
+        question: "Did you know the answer? Which fits: Hast du die Antwort ___?",
         options: ["gewusst", "gekannt", "gekennt", "gewisst"],
         correctIndex: 0,
         explanation: "An answer is information: \"gewusst\".",
       },
       {
         type: "multiple-choice",
-        question: "Which fits: Hast du ihren Bruder ___?",
+        question: "Did you know her brother? Which fits: Hast du ihren Bruder ___?",
         options: ["gekannt", "gewusst", "gekennt", "gekonnt"],
         correctIndex: 0,
         explanation: "A person: \"gekannt\". \"Gekonnt\" comes from \"können\".",
@@ -748,7 +746,7 @@ export const DE_A2_U02: Lesson[] = [
         prompt: "Translate into German.",
         source: "Did you know the song? (to a friend)",
         answer: "Hast du das Lied gekannt?",
-        altAnswers: ["Kanntest du das Lied?", "Habt ihr das Lied gekannt?"],
+        altAnswers: ["Kanntest du das Lied?"],
         explanation: "A song you're familiar with: \"kennen\".",
       },
       {
@@ -826,7 +824,6 @@ export const DE_A2_U02: Lesson[] = [
             prompt: "Translate into German.",
             source: "You took the train. (to a friend)",
             answer: "Du hast den Zug genommen.",
-            altAnswers: ["Ihr habt den Zug genommen.", "Sie haben den Zug genommen."],
             explanation: "\"Du nimmst\" → \"du hast ... genommen\": the i of \"nimmst\" doesn't carry over.",
           },
         ],
@@ -834,7 +831,7 @@ export const DE_A2_U02: Lesson[] = [
       {
         heading: "Heute → gestern: the time word changes too",
         body: [
-          "When you move a sentence into the past, change the time word as well: \"heute\" → \"gestern\", \"diese Woche\" → \"letzte Woche\", \"jetzt\" → \"vorhin\" (a little while ago), \"morgen\" → \"gestern\".",
+          "When you move a sentence into the past, change the time word as well: \"heute\" → \"gestern\", \"diese Woche\" → \"letzte Woche\", \"jetzt\" → \"vorhin\" (a little while ago), \"heute Abend\" → \"gestern Abend\".",
           "If the time word is in position 1, verb-second still holds: \"Heute trinke ich Tee\" → \"Gestern habe ich Tee getrunken.\"",
         ],
         examples: [
@@ -939,7 +936,7 @@ export const DE_A2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Present: Du sprichst sehr gut Deutsch. Which is the Perfekt?",
+        question: "Present: Du sprichst sehr gut Deutsch. Which means: You spoke German very well. (to a friend)",
         options: ["Du hast sehr gut Deutsch gesprochen.", "Du hast sehr gut Deutsch gesprichen.", "Du hast gesprochen sehr gut Deutsch.", "Du bist sehr gut Deutsch gesprochen."],
         correctIndex: 0,
         explanation: "\"Hast ... gesprochen\": the i of \"sprichst\" goes; the participle has o.",
@@ -1033,7 +1030,6 @@ export const DE_A2_U02: Lesson[] = [
             prompt: "Translate into German.",
             source: "I forgot your birthday. (to a friend)",
             answer: "Ich habe deinen Geburtstag vergessen.",
-            altAnswers: ["Ich habe euren Geburtstag vergessen.", "Ich habe Ihren Geburtstag vergessen."],
             explanation: "\"Vergessen\" with ss (short e) and no ge-.",
           },
           {
@@ -1050,7 +1046,7 @@ export const DE_A2_U02: Lesson[] = [
         heading: "Same as the infinitive: read the auxiliary",
         body: [
           "\"Bekommen\", \"vergessen\" and \"verlassen\" look exactly like their infinitives as participles. In writing, the only clue is the auxiliary: \"Ich habe es vergessen\" (I forgot it) vs \"Ich vergesse es\" (I forget it) vs \"Ich will es vergessen\" (I want to forget it).",
-          "And -ieren verbs: \"studiert\", \"telefoniert\", never with ge-. *Gestudiert* is a common slip even among native children.",
+          "And -ieren verbs: \"studiert\", \"telefoniert\", never with ge-. \"*Gestudiert*\" is a common slip even among native children.",
         ],
         examples: [
           { es: "Ich habe es vergessen.", en: "I forgot it." },
@@ -1061,7 +1057,7 @@ export const DE_A2_U02: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is in the past?",
+            question: "Which means: I forgot it.",
             options: ["Ich habe es vergessen.", "Ich vergesse es.", "Ich will es vergessen.", "Vergiss es!"],
             correctIndex: 0,
             explanation: "Only the auxiliary \"habe\" marks the past; \"vergessen\" looks the same in all forms.",
@@ -1072,7 +1068,7 @@ export const DE_A2_U02: Lesson[] = [
             prompt: "Translate into German.",
             source: "He studied in Hamburg.",
             answer: "Er hat in Hamburg studiert.",
-            explanation: "\"Studiert\", never *gestudiert*.",
+            explanation: "\"Studiert\", never \"*gestudiert*\".",
           },
         ],
       },
@@ -1092,7 +1088,6 @@ export const DE_A2_U02: Lesson[] = [
         prompt: "Translate into German.",
         source: "Did you get my message? (to a friend)",
         answer: "Hast du meine Nachricht bekommen?",
-        altAnswers: ["Habt ihr meine Nachricht bekommen?", "Haben Sie meine Nachricht bekommen?"],
         explanation: "\"Bekommen\": double m, no ge-.",
       },
       {
@@ -1105,8 +1100,8 @@ export const DE_A2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which participle is spelt correctly?",
-        options: ["gegessen", "geessen", "gegeßen", "gegessn"],
+        question: "Which is correct for: We've already eaten.",
+        options: ["Wir haben schon gegessen.", "Wir haben schon geessen.", "Wir haben schon gegeßen.", "Wir haben schon gegessn."],
         correctIndex: 0,
         explanation: "\"Gegessen\": the extra g and ss after a short vowel.",
       },
@@ -1132,7 +1127,6 @@ export const DE_A2_U02: Lesson[] = [
         prompt: "Translate into German.",
         source: "Did you know that? (to a friend)",
         answer: "Hast du das gewusst?",
-        altAnswers: ["Habt ihr das gewusst?", "Haben Sie das gewusst?"],
         explanation: "\"Gewusst\" with ss.",
       },
       {
@@ -1169,20 +1163,20 @@ export const DE_A2_U02: Lesson[] = [
       {
         heading: "The diary entry",
         body: [
-          "Tom, an English student in Leipzig, wrote this diary entry. The story makes sense, but six participles are wrong: \"Am Sonntag habe ich lange *geschlaft*. Dann habe ich Kaffee *getrinkt* und die Zeitung *geleset*. Am Nachmittag habe ich meine Freundin *gebesucht*. Wir haben einen Film *gesehet* und ich habe ihn nicht *geverstanden*.\"",
+          "Tom, an English student in Leipzig, wrote this diary entry. The story makes sense, but six participles are wrong: \"Am Sonntag habe ich lange \"*geschlaft*\". Dann habe ich Kaffee \"*getrinkt*\" und die Zeitung \"*geleset*\". Am Nachmittag habe ich meine Freundin \"*gebesucht*\". Wir haben einen Film \"*gesehet*\" und ich habe ihn nicht \"*geverstanden*\".\"",
           "The pattern behind most of these slips is natural: Tom treats strong verbs like regular ones (ge- + stem + -t) and adds ge- to verbs that don't take it. Let's fix them one group at a time.",
         ],
         examples: [
-          { es: "Am Sonntag habe ich lange geschlafen.", en: "On Sunday I slept for a long time. (not *geschlaft*)" },
-          { es: "Dann habe ich Kaffee getrunken.", en: "Then I drank coffee. (not *getrinkt*)" },
-          { es: "Ich habe die Zeitung gelesen.", en: "I read the paper. (not *geleset*)" },
-          { es: "Am Nachmittag habe ich meine Freundin besucht.", en: "In the afternoon I visited my girlfriend. (not *gebesucht*)" },
+          { es: "Am Sonntag habe ich lange geschlafen.", en: "On Sunday I slept for a long time. (not \"*geschlaft*\")" },
+          { es: "Dann habe ich Kaffee getrunken.", en: "Then I drank coffee. (not \"*getrinkt*\")" },
+          { es: "Ich habe die Zeitung gelesen.", en: "I read the paper. (not \"*geleset*\")" },
+          { es: "Am Nachmittag habe ich meine Freundin besucht.", en: "In the afternoon I visited my girlfriend. (not \"*gebesucht*\")" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Tom wrote *Dann habe ich Kaffee getrinkt.* Write it correctly: Then I drank coffee.",
+            prompt: "Tom wrote \"*Dann habe ich Kaffee getrinkt.*\" Write it correctly: Then I drank coffee.",
             source: "Then I drank coffee.",
             answer: "Dann habe ich Kaffee getrunken.",
             explanation: "\"Trinken\" is strong: \"getrunken\" (i → u, -en).",
@@ -1190,7 +1184,7 @@ export const DE_A2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Tom wrote *Ich habe meine Freundin gebesucht.* Write it correctly: I visited my girlfriend.",
+            prompt: "Tom wrote \"*Ich habe meine Freundin gebesucht.*\" Write it correctly: I visited my girlfriend.",
             source: "I visited my girlfriend.",
             answer: "Ich habe meine Freundin besucht.",
             explanation: "No ge- after the inseparable prefix be-: \"besucht\".",
@@ -1200,20 +1194,20 @@ export const DE_A2_U02: Lesson[] = [
       {
         heading: "Strong verbs made regular",
         body: [
-          "*Geschlaft*, *getrinkt*, *geleset*, *gesehet* all apply the regular -t ending to strong verbs. The fix is to remember the -en ending and, where needed, the new vowel: \"geschlafen\", \"getrunken\", \"gelesen\", \"gesehen\".",
-          "Other common ones: *geschreibt* → \"geschrieben\", *gefindet* → \"gefunden\", *gesprecht* → \"gesprochen\", *genehmt* → \"genommen\", *gehelft* → \"geholfen\". If a verb changes its vowel in the present (\"er spricht\", \"er nimmt\", \"er hilft\"), that's a strong hint the participle is strong.",
+          "\"*Geschlaft*\", \"*getrinkt*\", \"*geleset*\", \"*gesehet*\" all apply the regular -t ending to strong verbs. The fix is to remember the -en ending and, where needed, the new vowel: \"geschlafen\", \"getrunken\", \"gelesen\", \"gesehen\".",
+          "Other common ones: \"*geschreibt*\" → \"geschrieben\", \"*gefindet*\" → \"gefunden\", \"*gesprecht*\" → \"gesprochen\", \"*genehmt*\" → \"genommen\", \"*gehelft*\" → \"geholfen\". If a verb changes its vowel in the present (\"er spricht\", \"er nimmt\", \"er hilft\"), that's a strong hint the participle is strong.",
         ],
         examples: [
-          { es: "Wir haben einen Film gesehen.", en: "We watched a film. (not *gesehet*)" },
-          { es: "Sie hat einen Brief geschrieben.", en: "She wrote a letter. (not *geschreibt*)" },
-          { es: "Ich habe nichts gefunden.", en: "I didn't find anything. (not *gefindet*)" },
-          { es: "Er hat mir geholfen.", en: "He helped me. (not *gehelft*)" },
+          { es: "Wir haben einen Film gesehen.", en: "We watched a film. (not \"*gesehet*\")" },
+          { es: "Sie hat einen Brief geschrieben.", en: "She wrote a letter. (not \"*geschreibt*\")" },
+          { es: "Ich habe nichts gefunden.", en: "I didn't find anything. (not \"*gefindet*\")" },
+          { es: "Er hat mir geholfen.", en: "He helped me. (not \"*gehelft*\")" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Sie hat einen Brief geschreibt.* Write it correctly: She wrote a letter.",
+            prompt: "A learner wrote \"*Sie hat einen Brief geschreibt.*\" Write it correctly: She wrote a letter.",
             source: "She wrote a letter.",
             answer: "Sie hat einen Brief geschrieben.",
             explanation: "\"Schreiben\" → \"geschrieben\": ei → ie and -en.",
@@ -1230,20 +1224,20 @@ export const DE_A2_U02: Lesson[] = [
       {
         heading: "Ge- where it doesn't belong",
         body: [
-          "*Gebesucht*, *geverstanden*, *gestudiert*, *gebekommen*: ge- never goes on verbs with be-, ver-, er-, ent-, ge-, zer-, emp- or on -ieren verbs. The fix is \"besucht\", \"verstanden\", \"studiert\", \"bekommen\".",
+          "\"*Gebesucht*\", \"*geverstanden*\", \"*gestudiert*\", \"*gebekommen*\": ge- never goes on verbs with be-, ver-, er-, ent-, ge-, zer-, emp- or on -ieren verbs. The fix is \"besucht\", \"verstanden\", \"studiert\", \"bekommen\".",
           "So Tom's last sentence should read: \"Wir haben einen Film gesehen und ich habe ihn nicht verstanden.\"",
         ],
         examples: [
-          { es: "Ich habe ihn nicht verstanden.", en: "I didn't understand it. (not *geverstanden*)" },
-          { es: "Sie hat Englisch studiert.", en: "She studied English. (not *gestudiert*)" },
-          { es: "Wir haben eine Rechnung bekommen.", en: "We got a bill. (not *gebekommen*)" },
+          { es: "Ich habe ihn nicht verstanden.", en: "I didn't understand it. (not \"*geverstanden*\")" },
+          { es: "Sie hat Englisch studiert.", en: "She studied English. (not \"*gestudiert*\")" },
+          { es: "Wir haben eine Rechnung bekommen.", en: "We got a bill. (not \"*gebekommen*\")" },
           { es: "Er hat seiner Oma alles erzählt.", en: "He told his grandma everything." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Tom wrote *Ich habe ihn nicht geverstanden.* Write it correctly: I didn't understand it.",
+            prompt: "Tom wrote \"*Ich habe ihn nicht geverstanden.*\" Write it correctly: I didn't understand it.",
             source: "I didn't understand it.",
             answer: "Ich habe ihn nicht verstanden.",
             altAnswers: ["Ich habe es nicht verstanden."],
@@ -1264,7 +1258,7 @@ export const DE_A2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Tom wrote *Am Sonntag habe ich lange geschlaft.* Write it correctly: On Sunday I slept for a long time.",
+        prompt: "Tom wrote \"*Am Sonntag habe ich lange geschlaft.*\" Write it correctly: On Sunday I slept for a long time.",
         source: "On Sunday I slept for a long time.",
         answer: "Am Sonntag habe ich lange geschlafen.",
         altAnswers: ["Ich habe am Sonntag lange geschlafen."],
@@ -1273,7 +1267,7 @@ export const DE_A2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Tom wrote *Ich habe die Zeitung geleset.* Write it correctly: I read the paper.",
+        prompt: "Tom wrote \"*Ich habe die Zeitung geleset.*\" Write it correctly: I read the paper.",
         source: "I read the paper.",
         answer: "Ich habe die Zeitung gelesen.",
         explanation: "\"Lesen\" → \"gelesen\".",
@@ -1290,7 +1284,7 @@ export const DE_A2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Ich habe nichts gefindet.* Write it correctly: I didn't find anything.",
+        prompt: "A learner wrote \"*Ich habe nichts gefindet.*\" Write it correctly: I didn't find anything.",
         source: "I didn't find anything.",
         answer: "Ich habe nichts gefunden.",
         explanation: "\"Finden\" → \"gefunden\".",
@@ -1306,7 +1300,7 @@ export const DE_A2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Er hat Deutsch gut gesprecht.* Write it correctly: He spoke German well.",
+        prompt: "A learner wrote \"*Er hat Deutsch gut gesprecht.*\" Write it correctly: He spoke German well.",
         source: "He spoke German well.",
         answer: "Er hat gut Deutsch gesprochen.",
         altAnswers: ["Er hat Deutsch gut gesprochen."],
@@ -1322,7 +1316,7 @@ export const DE_A2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Ich habe den Bus genehmt.* Write it correctly: I took the bus.",
+        prompt: "A learner wrote \"*Ich habe den Bus genehmt.*\" Write it correctly: I took the bus.",
         source: "I took the bus.",
         answer: "Ich habe den Bus genommen.",
         explanation: "\"Nehmen\" → \"genommen\".",
@@ -1334,7 +1328,7 @@ export const DE_A2_U02: Lesson[] = [
         source: "She took a lot of photos in Munich.",
         answer: "Sie hat in München viel fotografiert.",
         altAnswers: ["Sie hat viel in München fotografiert.", "Sie hat in München viele Fotos gemacht."],
-        explanation: "\"Fotografiert\", not *gefotografiert*.",
+        explanation: "\"Fotografiert\", not \"*gefotografiert*\".",
       },
       {
         type: "dictation",
@@ -1353,7 +1347,7 @@ export const DE_A2_U02: Lesson[] = [
     slug: "a2-qa-was-hast-du-gemacht",
     level: "DE-A2",
     number: 8,
-    title: "Q&A Drill: Was Hast Du Gemacht?",
+    title: "Q&A Drill: Was hast du gemacht?",
     summary: "Answer Perfekt questions in the right person, repeating the noun: Hast du den Film gesehen? Ja, ich habe den Film gesehen.",
     duration: "11 min",
     sections: [
@@ -1420,7 +1414,7 @@ export const DE_A2_U02: Lesson[] = [
       {
         heading: "Was hat sie gesagt? Reporting in the third person",
         body: [
-          "W-questions about someone else keep the third person: \"Was hat sie gesagt?\" → \"Sie hat gesagt, sie kommt später.\" \"Wann hat er angerufen?\" → \"Er hat um acht angerufen.\"",
+          "W-questions about someone else keep the third person: \"Was hat sie gesagt?\" → \"Sie hat gesagt, sie kommt später.\" \"Wann hat er geschrieben?\" → \"Er hat um acht geschrieben.\"",
           "After \"Sie hat gesagt,\" German often just adds a normal main clause (with a comma): \"Sie hat gesagt, sie hat keine Zeit.\" That's fine in speech; \"dass\" clauses come later.",
         ],
         examples: [
@@ -1563,7 +1557,7 @@ export const DE_A2_U02: Lesson[] = [
             source: "I called Grandma.",
             answer: "Ich habe Oma angerufen.",
             altAnswers: ["Ich habe die Oma angerufen.", "Ich habe meine Oma angerufen."],
-            explanation: "\"Angerufen\": a chunk for now; \"anrufen\" takes a direct object (accusative), unlike English call to.",
+            explanation: "\"Angerufen\": a chunk for now; \"anrufen\" takes a direct object (accusative) with no preposition: \"Oma anrufen\", \"ihn anrufen\".",
           },
           {
             type: "translate",
@@ -1624,6 +1618,7 @@ export const DE_A2_U02: Lesson[] = [
         prompt: "Translate into German.",
         source: "I did the shopping and did the washing.",
         answer: "Ich habe eingekauft und die Wäsche gewaschen.",
+        altAnswers: ["Ich habe eingekauft und Wäsche gewaschen."],
         explanation: "One \"habe\" for two participles: \"eingekauft\" and \"gewaschen\".",
       },
       {
@@ -1662,10 +1657,10 @@ export const DE_A2_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which list of participles is all correct?",
-        options: ["eingekauft, gewaschen, geschrieben, repariert", "eingekauft, gewascht, geschrieben, repariert", "geeinkauft, gewaschen, geschrieben, gerepariert", "eingekauft, gewaschen, geschreibt, repariert"],
+        question: "Which is correct for: I did the shopping, did the washing and repaired the bike.",
+        options: ["Ich habe eingekauft, die Wäsche gewaschen und das Fahrrad repariert.", "Ich habe eingekauft, die Wäsche gewascht und das Fahrrad repariert.", "Ich habe geeinkauft, die Wäsche gewaschen und das Fahrrad gerepariert.", "Ich habe eingekauft, die Wäsche gewaschen und das Fahrrad reparieren."],
         correctIndex: 0,
-        explanation: "Separable \"eingekauft\", strong \"gewaschen\" and \"geschrieben\", and \"repariert\" without ge-.",
+        explanation: "Separable \"eingekauft\" (ge- in the middle), strong \"gewaschen\" (not \"*gewascht*\"), and \"repariert\" without ge- (not \"*gerepariert*\"); after \"habe\" you need participles, not an infinitive.",
       },
       {
         type: "translate",

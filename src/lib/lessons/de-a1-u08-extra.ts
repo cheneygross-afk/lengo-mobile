@@ -9,13 +9,13 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Likes & Preferences, Part 1 of 3",
-    summary: "Gern and nicht gern with new activities.",
+    summary: "Say what you and other people like and don't like doing, with \"gern\" and \"nicht gern\" and new hobby verbs.",
     duration: "10 min",
     sections: [
       {
         heading: "Recap: verb + gern",
         body: [
-          "For activities German uses the verb + \"gern\": \"Ich wandere gern\" (I like hiking). \"Gern\" comes right after the verb, before a bare noun (\"Ich spiele gern Gitarre\"). To dislike: \"nicht gern\". Never \"Ich mag wandern\" or \"Ich gern wandere\".",
+          "For activities German uses the verb + \"gern\": \"Ich wandere gern\" (I like hiking). \"Gern\" comes right after the verb, before a bare noun (\"Ich spiele gern Gitarre\"). To dislike: \"nicht gern\". Avoid \"Ich mag wandern\" (it sounds clumsy) and never say \"Ich gern wandere\" (the verb must be second).",
           "New activities: \"wandern\" (hiking), \"joggen\", \"malen\" (painting), \"fotografieren\", \"singen\", \"backen\", \"Rad fahren\" (cycling: \"Ich fahre gern Rad\"), \"Gitarre spielen\", \"im Garten arbeiten\".",
         ],
         examples: [
@@ -33,7 +33,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
             source: "I like hiking.",
             answer: "Ich wandere gern.",
             altAnswers: ["Ich wandere gerne.", "Ich gehe gern wandern.", "Ich gehe gerne wandern."],
-            explanation: "Verb + \"gern\": \"Ich wandere gern\" (or \"Ich gehe gern wandern\").",
+            explanation: "Verb + \"gern\": \"Ich wandere gern\" (or \"Ich gehe gern wandern\"). \"Ich mag wandern\" sounds clumsy: German likes an activity with the adverb \"gern\".",
           },
           {
             type: "listen-choose",
@@ -149,7 +149,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Lena likes dancing, but she doesn't like singing.",
         answer: "Lena tanzt gern, aber sie singt nicht gern.",
-        altAnswers: ["Lena tanzt gerne, aber sie singt nicht gerne."],
+        altAnswers: ["Lena tanzt gerne, aber sie singt nicht gerne.", "Lena tanzt gern, singt aber nicht gern.", "Lena tanzt gerne, singt aber nicht gerne."],
         explanation: "\"Gern\" and \"nicht gern\" both straight after the verb.",
       },
       {
@@ -171,7 +171,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Likes & Preferences, Part 2 of 3",
-    summary: "Gern, lieber, am liebsten in comparisons and questions.",
+    summary: "Say what you like, prefer and like best, and ask others, with \"gern\", \"lieber\" and \"am liebsten\".",
     duration: "10 min",
     sections: [
       {
@@ -194,7 +194,8 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "We'd rather stay at home.",
             answer: "Wir bleiben lieber zu Hause.",
-            explanation: "\"Lieber\" after the verb for would rather.",
+            altAnswers: ["Wir bleiben lieber zuhause."],
+            explanation: "\"Lieber\" after the verb for would rather; there is no word for would.",
           },
           {
             type: "listen-choose",
@@ -214,7 +215,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I like juice, but I prefer water.",
         answer: "Ich trinke gern Saft, aber lieber Wasser.",
-        altAnswers: ["Ich trinke gern Saft, aber ich trinke lieber Wasser.", "Ich mag Saft, aber ich trinke lieber Wasser."],
+        altAnswers: ["Ich trinke gern Saft, aber ich trinke lieber Wasser.", "Ich mag Saft, aber ich trinke lieber Wasser.", "Ich trinke gerne Saft, aber lieber Wasser."],
         explanation: "\"Gern\" then \"lieber\" with the same verb.",
       },
       {
@@ -223,7 +224,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "What do you prefer, hiking or swimming? (to a friend)",
         answer: "Was machst du lieber, wandern oder schwimmen?",
-        altAnswers: ["Wanderst du lieber oder schwimmst du lieber?"],
+        altAnswers: ["Wanderst du lieber oder schwimmst du lieber?", "Gehst du lieber wandern oder schwimmen?", "Was machst du lieber, schwimmen oder wandern?"],
         explanation: "\"Was machst du lieber\" + the two infinitives.",
       },
       {
@@ -275,7 +276,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "In winter I'd rather go skiing.",
         answer: "Im Winter fahre ich lieber Ski.",
-        altAnswers: ["Ich fahre im Winter lieber Ski."],
+        altAnswers: ["Ich fahre im Winter lieber Ski.", "Im Winter gehe ich lieber Ski fahren.", "Ich gehe im Winter lieber Ski fahren."],
         explanation: "\"Ski fahren\" (to ski), with \"lieber\" after the verb and subject.",
       },
       {
@@ -287,16 +288,17 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend asks: Was trinkst du lieber, Tee oder Kaffee? You prefer tea. What do you say?",
+        question: "A friend asks: \"Was trinkst du lieber, Tee oder Kaffee?\" You prefer tea. What do you say?",
         options: ["Lieber Tee.", "Gern Kaffee.", "Am liebsten Kaffee.", "Mehr Tee."],
         correctIndex: 0,
-        explanation: "A short answer repeats \"lieber\": \"Lieber Tee.\"",
+        explanation: "A short answer repeats \"lieber\": \"Lieber Tee.\" \"Am liebsten Kaffee\" picks the wrong drink, and \"mehr\" means more (a bigger amount), not prefer.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: What do you like doing most at the weekend?",
         words: ["Was", "machst", "du", "am", "Wochenende", "am", "liebsten?"],
         translation: "What do you like doing most at the weekend?",
+        altOrders: [["Was", "machst", "du", "am", "liebsten", "am", "Wochenende?"]],
         explanation: "Time phrase before \"am liebsten\" at the end.",
       },
       {
@@ -327,7 +329,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Likes & Preferences, Part 3 of 3",
-    summary: "Ich auch / ich auch nicht exchanges and food preferences.",
+    summary: "Agree and disagree about food and likes with \"ich auch\", \"ich auch nicht\", \"ich nicht\" and \"ich schon\".",
     duration: "10 min",
     sections: [
       {
@@ -350,12 +352,13 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "I don't like olives. — Me neither.",
             answer: "Ich mag keine Oliven. — Ich auch nicht.",
-            explanation: "\"Keine Oliven\" is negative, so agreement is \"ich auch nicht\".",
+            altAnswers: ["Ich mag Oliven nicht. — Ich auch nicht."],
+            explanation: "\"Keine Oliven\" is negative, so agreement is \"ich auch nicht\". \"Ich auch\" would mean you DO like them.",
           },
           {
             type: "speak",
             text: "Ich auch!",
-            prompt: "Your friend says: Ich esse gern Fisch. You do too. Answer in German.",
+            prompt: "Your friend says: \"Ich esse gern Fisch.\" You do too. Answer in German.",
             explanation: "Agreeing with a positive: \"Ich auch!\"",
           },
         ],
@@ -433,14 +436,14 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend says: Ich trinke nicht gern Bier. You don't like beer either. What do you say?",
+        question: "Your friend says: \"Ich trinke nicht gern Bier.\" You don't like beer either. What do you say?",
         options: ["Ich auch nicht.", "Ich auch.", "Ich schon.", "Ich nicht."],
         correctIndex: 0,
-        explanation: "Negative + agree: \"Ich auch nicht.\"",
+        explanation: "Negative + agree: \"Ich auch nicht.\" \"Ich auch\" would agree with a positive, so it would mean you like beer.",
       },
       {
         type: "multiple-choice",
-        question: "Your friend says: Ich mag Schokolade. You don't. What do you say?",
+        question: "Your friend says: \"Ich mag Schokolade.\" You don't. What do you say?",
         options: ["Ich nicht.", "Ich auch nicht.", "Ich schon.", "Ich auch."],
         correctIndex: 0,
         explanation: "Positive + disagree: \"Ich nicht.\"",
@@ -456,10 +459,10 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The soup tastes good! — Yes, I like it too.",
-        answer: "Die Suppe schmeckt gut! — Ja, mir auch.",
-        altAnswers: ["Die Suppe schmeckt gut! — Ja, die schmeckt mir auch.", "Die Suppe schmeckt gut! — Ja, finde ich auch."],
-        explanation: "With \"schmecken\" the short agreement is \"mir auch\", following the \"mir\" chunk.",
+        source: "I like the soup! — Me too!",
+        answer: "Die Suppe schmeckt mir! — Mir auch!",
+        altAnswers: ["Die Suppe schmeckt mir gut! — Mir auch!", "Ich mag die Suppe! — Ich auch!"],
+        explanation: "With the chunk \"Das schmeckt mir\" the person is \"mir\", so the short agreement is \"Mir auch!\", not \"Ich auch!\". (With \"Ich mag die Suppe\" you answer \"Ich auch!\".)",
       },
       {
         type: "listen-choose",
@@ -483,7 +486,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Transformations: Likes Across Every Person",
-    summary: "Rewrite likes and dislikes for each person, positive and negative.",
+    summary: "Talk about anyone's likes and dislikes: change the person and the verb form, keep \"gern\", and switch between positive and negative.",
     duration: "10 min",
     sections: [
       {
@@ -563,7 +566,8 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Do you like jazz? (to two friends)",
         answer: "Mögt ihr Jazz?",
-        explanation: "\"Mögen\" for ihr: \"mögt\".",
+        altAnswers: ["Hört ihr gern Jazz?", "Hört ihr gerne Jazz?"],
+        explanation: "\"Mögen\" for ihr: \"mögt\" (not \"mögen\", which is for wir and sie).",
       },
       {
         type: "translate",
@@ -571,7 +575,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "We don't like coffee.",
         answer: "Wir mögen keinen Kaffee.",
-        altAnswers: ["Wir trinken nicht gern Kaffee.", "Wir trinken nicht gerne Kaffee."],
+        altAnswers: ["Wir trinken nicht gern Kaffee.", "Wir trinken nicht gerne Kaffee.", "Wir mögen Kaffee nicht."],
         explanation: "\"Mögen\" + \"kein\": \"keinen Kaffee\" (der Kaffee).",
       },
       {
@@ -597,7 +601,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "They like watching football.",
         answer: "Sie sehen gern Fußball.",
-        altAnswers: ["Sie sehen gerne Fußball.", "Sie schauen gern Fußball.", "Sie schauen gerne Fußball."],
+        altAnswers: ["Sie sehen gerne Fußball.", "Sie schauen gern Fußball.", "Sie schauen gerne Fußball.", "Sie gucken gern Fußball.", "Sie gucken gerne Fußball."],
         explanation: "\"Sehen\" for sie (they): \"sehen\", no stem change in the plural.",
       },
       {
@@ -651,14 +655,14 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Real-World Mission: A Dinner for Friends",
-    summary: "Plan a menu, list what to buy with quantities and invite friends: Kommt ihr am Freitag? Bringt bitte Getränke mit!",
+    summary: "Plan a dinner for friends: talk about what everyone eats, write a shopping list with quantities and invite them (\"Kommt ihr am Freitag? Bringt bitte Getränke mit!\").",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: plan, shop, invite",
         body: [
           "Your mission: a dinner for four friends on Friday. Plan the menu with likes (\"Mia isst kein Fleisch, Jonas mag Fisch\"), write a shopping list with quantities and no word for of (\"ein Kilo Kartoffeln, 500 Gramm Käse, zwei Flaschen Wein\"), and invite everyone.",
-          "The invitation uses the ihr imperative for friends: \"Kommt ihr am Freitag?\" \"Bringt bitte Getränke mit!\" (\"mitbringen\", separable). \"Wir fangen um acht an.\"",
+          "The invitation asks with \"ihr\" (\"Kommt ihr am Freitag?\") and makes requests with the ihr imperative, which drops \"ihr\": \"Bringt bitte Getränke mit!\" (\"mitbringen\", separable). \"Wir fangen um acht an.\"",
         ],
         examples: [
           { es: "Mia isst kein Fleisch.", en: "Mia doesn't eat meat." },
@@ -695,7 +699,8 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Are you free on Friday? (to two friends)",
         answer: "Habt ihr am Freitag Zeit?",
-        explanation: "\"Ihr habt\" → question \"Habt ihr...?\"",
+        altAnswers: ["Seid ihr am Freitag frei?", "Habt ihr Freitag Zeit?"],
+        explanation: "Free (no plans) is usually \"Zeit haben\": \"ihr habt\" → question \"Habt ihr...?\" \"Seid ihr frei?\" also works.",
       },
       {
         type: "translate",
@@ -747,7 +752,8 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I still have to do the shopping.",
         answer: "Ich muss noch einkaufen.",
-        explanation: "After a modal, \"einkaufen\" stays whole at the end.",
+        altAnswers: ["Ich muss noch einkaufen gehen."],
+        explanation: "After a modal, \"einkaufen\" stays whole at the end (not \"Ich muss noch kaufen ein\").",
       },
       {
         type: "translate",
@@ -764,6 +770,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Is Lena coming along too?",
         answer: "Kommt Lena auch mit?",
+        altAnswers: ["Kommt auch Lena mit?"],
         explanation: "\"Mitkommen\" in a question: \"Kommt... mit?\"",
       },
       {
@@ -811,7 +818,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Separable Verbs, Part 1 of 3",
-    summary: "Separable verbs in statements and questions across all persons.",
+    summary: "Use separable verbs correctly in statements and questions for every person, with the prefix at the end.",
     duration: "10 min",
     sections: [
       {
@@ -871,6 +878,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "When does the train leave?",
         answer: "Wann fährt der Zug ab?",
+        altAnswers: ["Wann fährt der Zug los?"],
         explanation: "\"Abfahren\": \"fährt\" (a→ä) second, \"ab\" last.",
       },
       {
@@ -973,7 +981,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
     number: 7,
     optional: true,
     title: "Extra Practice: Separable Verbs, Part 2 of 3",
-    summary: "Separable verbs with modals and in the imperative.",
+    summary: "Use separable verbs after modal verbs (whole at the end) and in commands (split again).",
     duration: "10 min",
     sections: [
       {
@@ -1065,7 +1073,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The train [is supposed to leave] at ten.",
+        en: "The train is supposed to [leave] at ten.",
         sentence: "Der Zug soll um zehn ___.",
         answer: "abfahren",
         explanation: "After \"soll\" the separable verb stays whole: \"abfahren\".",
@@ -1105,14 +1113,14 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the correct du command of abfahren?",
-        options: ["Fahr ab!", "Fährst ab!", "Fähr ab!", "Abfahr!"],
+        question: "Your friend is driving to Hamburg. You tell her: Leave at eight! What do you say?",
+        options: ["Fahr um acht ab!", "Fährst um acht ab!", "Fähr um acht ab!", "Abfahr um acht!"],
         correctIndex: 0,
-        explanation: "No umlaut and no -st in the du command; the prefix still goes last.",
+        explanation: "The du command of \"abfahren\" has no -st and no a→ä umlaut: \"Fahr... ab!\"; the prefix still goes last.",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Can you pick up the children?",
+        prompt: "Put the words in order to say: Can you pick up the children? (to a friend)",
         words: ["Kannst", "du", "die", "Kinder", "abholen?"],
         translation: "Can you pick up the children?",
         explanation: "Modal first in a question; \"abholen\" whole at the end.",
@@ -1127,7 +1135,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "dictation",
-        audio: "Kommt doch mit!",
+        audio: "Kommt bitte mit!",
         explanation: "Ihr command of \"mitkommen\".",
       },
     ],
@@ -1138,7 +1146,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
     number: 8,
     optional: true,
     title: "Extra Practice: Separable Verbs, Part 3 of 3",
-    summary: "Separable or inseparable? Use einkaufen / bekommen, anrufen / verstehen, mitkommen / besuchen in context.",
+    summary: "Tell separable from inseparable verbs and use pairs like \"einkaufen\" / \"bekommen\" and \"mitkommen\" / \"besuchen\" correctly.",
     duration: "10 min",
     sections: [
       {
@@ -1249,7 +1257,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Mrs Schneider sells her car.",
+        source: "Mrs Schneider is selling her car.",
         answer: "Frau Schneider verkauft ihr Auto.",
         explanation: "\"Verkaufen\" (sell) is inseparable; \"ihr Auto\" for her car.",
       },
@@ -1271,7 +1279,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does Ich bekomme ein Kind mean?",
+        question: "What does \"Ich bekomme ein Kind\" mean?",
         options: ["I'm having a baby.", "I'm becoming a child.", "I'm getting a child a present.", "I'm picking up a child."],
         correctIndex: 0,
         explanation: "\"Ein Kind bekommen\" means to have a baby; \"bekommen\" never means become.",
@@ -1302,7 +1310,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
     number: 9,
     optional: true,
     title: "Extra Practice: Error Hunt: Prefixes & Imperatives",
-    summary: "Find and fix: Ich aufstehe um 7, Ich muss früh stehe auf, Fährst langsam!, Nehme das!, Ich mag schwimmen gehen.",
+    summary: "Spot and fix the classic mistakes with separable verbs, commands and likes (\"Ich aufstehe\", \"Fährst langsam!\", \"Nehme das!\").",
     duration: "12 min",
     sections: [
       {
@@ -1322,7 +1330,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"Ich aufstehe um 7.\" Write the correct German for: I get up at 7.",
+            prompt: "A learner wrote \"*Ich aufstehe um 7.\" Write the correct German for: I get up at 7.",
             source: "I get up at 7.",
             answer: "Ich stehe um 7 auf.",
             altAnswers: ["Ich stehe um sieben auf.", "Ich stehe um sieben Uhr auf.", "Ich stehe um 7 Uhr auf.", "Um sieben stehe ich auf.", "Um 7 stehe ich auf."],
@@ -1331,7 +1339,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"Fährst langsam!\" Write the correct German for: Drive slowly! (to a friend)",
+            prompt: "A learner wrote \"*Fährst langsam!\" Write the correct German for: Drive slowly! (to a friend)",
             source: "Drive slowly!",
             answer: "Fahr langsam!",
             altAnswers: ["Fahr bitte langsam!", "Fahre langsam!"],
@@ -1344,7 +1352,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Ich muss früh stehe auf.\" Write the correct German for: I have to get up early.",
+        prompt: "A learner wrote \"*Ich muss früh stehe auf.\" Write the correct German for: I have to get up early.",
         source: "I have to get up early.",
         answer: "Ich muss früh aufstehen.",
         explanation: "After a modal, the separable verb is one infinitive at the end.",
@@ -1352,7 +1360,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Nehme das!\" Write the correct German for: Take that! (to a friend)",
+        prompt: "A learner wrote \"*Nehme das!\" Write the correct German for: Take that! (to a friend)",
         source: "Take that!",
         answer: "Nimm das!",
         altAnswers: ["Nimm das doch!", "Nimm das mal!"],
@@ -1361,7 +1369,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Ich mag schwimmen gehen.\" Write the correct German for: I like going swimming.",
+        prompt: "A learner wrote \"*Ich mag schwimmen gehen.\" Write the correct German for: I like going swimming.",
         source: "I like going swimming.",
         answer: "Ich gehe gern schwimmen.",
         altAnswers: ["Ich gehe gerne schwimmen.", "Ich schwimme gern.", "Ich schwimme gerne."],
@@ -1370,7 +1378,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Ich rufe meine Mutter.\" Write the correct German for: I'm phoning my mother.",
+        prompt: "A learner wrote \"*Ich rufe meine Mutter.\" Write the correct German for: I'm phoning my mother.",
         source: "I'm phoning my mother.",
         answer: "Ich rufe meine Mutter an.",
         explanation: "Without \"an\" it means calling out to her; \"anrufen\" needs its prefix at the end.",
@@ -1378,7 +1386,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Du komm mit!\" Write the correct German for: Come along! (to a friend)",
+        prompt: "A learner wrote \"*Du komm mit!\" Write the correct German for: Come along! (to a friend)",
         source: "Come along!",
         answer: "Komm mit!",
         altAnswers: ["Komm doch mit!", "Komm bitte mit!"],
@@ -1387,7 +1395,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Ich verstehe das nicht ver.\" Write the correct German for: I don't understand that.",
+        prompt: "A learner wrote \"*Ich verstehe das nicht ver.\" Write the correct German for: I don't understand that.",
         source: "I don't understand that.",
         answer: "Ich verstehe das nicht.",
         explanation: "\"Ver-\" never splits off.",
@@ -1395,7 +1403,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Ich gern lese.\" Write the correct German for: I like reading.",
+        prompt: "A learner wrote \"*Ich gern lese.\" Write the correct German for: I like reading.",
         source: "I like reading.",
         answer: "Ich lese gern.",
         altAnswers: ["Ich lese gerne."],
@@ -1404,14 +1412,14 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Ich trinke mehr gern Tee.\" Write the correct German for: I prefer drinking tea.",
+        prompt: "A learner wrote \"*Ich trinke mehr gern Tee.\" Write the correct German for: I prefer drinking tea.",
         source: "I prefer drinking tea.",
         answer: "Ich trinke lieber Tee.",
         explanation: "The comparative of \"gern\" is \"lieber\".",
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote \"Lest das!\" to one friend. Write the German for the bold words.",
+        prompt: "A learner wrote \"*Lest das!\" to one friend. Write the German for the bold words.",
         en: "[Read] that! (to one friend)",
         sentence: "___ das!",
         answer: "Lies",
@@ -1419,7 +1427,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote \"Ich mag nicht kein Fisch.\" Write the German for the bold words.",
+        prompt: "A learner wrote \"*Ich mag nicht kein Fisch.\" Write the German for the bold words.",
         en: "I [don't like] fish.",
         sentence: "Ich ___ Fisch.",
         answer: "mag keinen",
@@ -1428,7 +1436,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Der Film anfängt um acht.\" Write the correct German for: The film starts at eight.",
+        prompt: "A learner wrote \"*Der Film anfängt um acht.\" Write the correct German for: The film starts at eight.",
         source: "The film starts at eight.",
         answer: "Der Film fängt um acht an.",
         altAnswers: ["Der Film fängt um acht Uhr an.", "Der Film beginnt um acht.", "Der Film beginnt um acht Uhr."],
@@ -1437,7 +1445,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Kommen Sie herein?\" on a door sign. Write the correct German for: Come in! (polite)",
+        prompt: "A learner wrote \"*Kommen Sie herein?\" on a door sign. Write the correct German for: Come in! (polite)",
         source: "Come in! (polite)",
         answer: "Kommen Sie herein!",
         altAnswers: ["Kommen Sie bitte herein!", "Bitte kommen Sie herein!"],

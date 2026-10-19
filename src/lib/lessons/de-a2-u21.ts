@@ -15,7 +15,7 @@ export const DE_A2_U21: Lesson[] = [
         heading: "The Perfekt: haben or sein, and the right participle",
         body: [
           "The Perfekt is the everyday spoken past: a form of \"haben\" or \"sein\" in position 2 and the participle at the very end of the clause. One German Perfekt covers I did, I have done and I did do: \"Ich habe gestern Pizza gegessen\" is I ate pizza yesterday.",
-          "Most verbs take \"haben\". Verbs of movement from A to B (\"gehen\", \"fahren\", \"fliegen\", \"kommen\"), verbs of change of state (\"aufstehen\", \"einschlafen\", \"sterben\", \"werden\") and \"sein\" and \"bleiben\" take \"sein\": \"Ich bin nach Köln gefahren\", \"Wir sind zu Hause geblieben\". The classic English-speaker slip is *ich habe gegangen*.",
+          "Most verbs take \"haben\". Verbs of movement from A to B (\"gehen\", \"fahren\", \"fliegen\", \"kommen\"), verbs of change of state (\"aufstehen\", \"einschlafen\", \"sterben\", \"werden\") and \"sein\" and \"bleiben\" take \"sein\": \"Ich bin nach Köln gefahren\", \"Wir sind zu Hause geblieben\". The classic English-speaker slip is \"*ich habe gegangen*\".",
           "Regular verbs make ge-...-t (\"gemacht\", \"gearbeitet\"); strong verbs make ge-...-en, often with a new vowel (\"getrunken\", \"geschrieben\", \"genommen\"); mixed verbs combine the two (\"gebracht\", \"gedacht\", \"gewusst\"). Separable verbs put ge- inside (\"eingekauft\", \"angerufen\"), and verbs with be-, ver-, er- or -ieren take no ge- at all (\"bekommen\", \"vergessen\", \"telefoniert\").",
         ],
         examples: [
@@ -33,7 +33,7 @@ export const DE_A2_U21: Lesson[] = [
             prompt: "Translate into German.",
             source: "We stayed at home on Sunday.",
             answer: "Wir sind am Sonntag zu Hause geblieben.",
-            altAnswers: ["Am Sonntag sind wir zu Hause geblieben.", "Wir blieben am Sonntag zu Hause.", "Am Sonntag blieben wir zu Hause."],
+            altAnswers: ["Am Sonntag sind wir zu Hause geblieben.", "Wir blieben am Sonntag zu Hause.", "Am Sonntag blieben wir zu Hause.", "Wir sind am Sonntag zuhause geblieben."],
             explanation: "\"Bleiben\" takes \"sein\" in the Perfekt even though nobody moves: \"sind ... geblieben\". It is one of the two exceptions to learn by heart, with \"sein\" itself.",
           },
           {
@@ -91,14 +91,14 @@ export const DE_A2_U21: Lesson[] = [
         heading: "The dative: to whom, with whom",
         body: [
           "The dative marks the person something is given to, shown to or done for: \"Ich gebe dem Kind ein Eis\". The articles: \"dem\" (masculine and neuter), \"der\" (feminine), \"den\" + -n on the noun (plural): \"mit den Kindern\". The possessives follow \"ein\": \"meinem Bruder\", \"meiner Schwester\", \"meinen Eltern\".",
-          "Some verbs take only a dative object, where English uses a plain object: \"helfen\" (\"Ich helfe dir\"), \"danken\", \"gefallen\" (\"Das Kleid gefällt mir\"), \"gehören\", \"schmecken\". The most frequent error is *Ich helfe dich*.",
+          "Some verbs take only a dative object, where English uses a plain object: \"helfen\" (\"Ich helfe dir\"), \"danken\", \"gefallen\" (\"Das Kleid gefällt mir\"), \"gehören\", \"schmecken\". The most frequent error is \"*Ich helfe dich*\".",
           "The dative pronouns: \"mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen\". Note \"ihm\" (to him) vs \"ihn\" (him, accusative): one letter, a different case.",
         ],
         examples: [
           { es: "Ich habe meiner Schwester ein Buch geschenkt.", en: "I gave my sister a book." },
           { es: "Kannst du mir kurz helfen?", en: "Can you help me for a moment?" },
           { es: "Die Suppe hat uns gut geschmeckt.", en: "We really enjoyed the soup." },
-          { es: "Wem gehört der Rucksack?", en: "Whose rucksack is this?" },
+          { es: "Wem gehört der Rucksack?", en: "Who does the rucksack belong to?" },
           { es: "Wir haben den Kindern den Zoo gezeigt.", en: "We showed the children the zoo." },
         ],
         checkpoint: [
@@ -128,7 +128,6 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "Did you get up early? (to a friend)",
         answer: "Bist du früh aufgestanden?",
-        altAnswers: ["Seid ihr früh aufgestanden?", "Sind Sie früh aufgestanden?"],
         explanation: "\"Aufstehen\" is a change of state, so \"sein\"; separable, so \"aufgestanden\" with ge- inside.",
       },
       {
@@ -178,7 +177,7 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Put the words in order to say: On Friday I met my friends in the city.",
         words: ["Am Freitag", "habe", "ich", "meine Freunde", "in der Stadt", "getroffen."],
         translation: "On Friday I met my friends in the city.",
-        altOrders: [["Ich", "habe", "am Freitag", "meine Freunde", "in der Stadt", "getroffen."]],
+        altOrders: [["Ich", "habe", "am Freitag", "meine Freunde", "in der Stadt", "getroffen."], ["Ich", "habe", "meine Freunde", "am Freitag", "in der Stadt", "getroffen."]],
         explanation: "Time phrase first, verb second (\"habe\"), subject third, participle \"getroffen\" at the end.",
       },
       {
@@ -248,7 +247,7 @@ export const DE_A2_U21: Lesson[] = [
             source: "My grandfather died last year.",
             answer: "Mein Opa ist letztes Jahr gestorben.",
             altAnswers: ["Mein Großvater ist letztes Jahr gestorben.", "Letztes Jahr ist mein Opa gestorben.", "Letztes Jahr ist mein Großvater gestorben."],
-            explanation: "Dying is a change of state: \"ist ... gestorben\", never *hat gestorben*.",
+            explanation: "Dying is a change of state: \"ist ... gestorben\", never \"*hat gestorben*\".",
           },
         ],
       },
@@ -272,7 +271,7 @@ export const DE_A2_U21: Lesson[] = [
             prompt: "Translate into German.",
             source: "We visited our grandma.",
             answer: "Wir haben unsere Oma besucht.",
-            altAnswers: ["Wir haben unsere Großmutter besucht.", "Wir besuchten unsere Oma."],
+            altAnswers: ["Wir haben unsere Großmutter besucht.", "Wir besuchten unsere Oma.", "Wir besuchten unsere Großmutter."],
             explanation: "\"Besuchen\" has the inseparable prefix be-, so no ge-: \"besucht\". \"Die Oma\" is feminine: \"unsere\".",
           },
           {
@@ -297,7 +296,7 @@ export const DE_A2_U21: Lesson[] = [
         ],
         examples: [
           { es: "Ich habe meinem Vater eine Karte geschickt.", en: "I sent my father a card." },
-          { es: "Ich habe sie ihm gestern geschickt.", en: "I sent it to him yesterday." },
+          { es: "Ich habe sie ihm gestern geschickt.", en: "I sent it (the card) to him yesterday." },
           { es: "Kannst du mir das Problem erklären?", en: "Can you explain the problem to me?" },
           { es: "Die Kellnerin hat uns die Rechnung gebracht.", en: "The waitress brought us the bill." },
           { es: "Hast du es deiner Freundin gezeigt?", en: "Did you show it to your girlfriend?" },
@@ -338,7 +337,6 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "When did you arrive? (to a friend)",
         answer: "Wann bist du angekommen?",
-        altAnswers: ["Wann seid ihr angekommen?", "Wann sind Sie angekommen?"],
         explanation: "\"Ankommen\" is movement, so \"sein\"; separable, so \"angekommen\".",
       },
       {
@@ -419,7 +417,7 @@ export const DE_A2_U21: Lesson[] = [
       {
         heading: "Station 1: werden vs will",
         body: [
-          "\"Ich werde\" + infinitive is the future: I will. \"Ich will\" is the modal want to. This false friend is the most famous trap of the level: *Ich will morgen kommen* means I want to come tomorrow, not I will come.",
+          "\"Ich werde\" + infinitive is the future: I will. \"Ich will\" is the modal want to. This false friend is the most famous trap of the level: \"*Ich will morgen kommen*\" means I want to come tomorrow, not I will come.",
           "German often uses the present for the future when a time word makes it clear: \"Morgen fahre ich nach Bremen\". \"Werden\" adds a promise, a prediction or a plan further away: \"Es wird morgen regnen\", \"Ich werde dich anrufen\".",
           "Forms of werden: \"ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden\". The infinitive goes to the end, as with modals.",
         ],
@@ -437,7 +435,7 @@ export const DE_A2_U21: Lesson[] = [
             prompt: "Translate into German.",
             source: "I will help you. (to a friend)",
             answer: "Ich werde dir helfen.",
-            altAnswers: ["Ich werde euch helfen.", "Ich werde Ihnen helfen.", "Ich helfe dir.", "Ich helfe euch.", "Ich helfe Ihnen."],
+            altAnswers: ["Ich helfe dir."],
             explanation: "Future with \"werde\" + infinitive at the end. \"Ich will dir helfen\" would mean I want to help you. And \"helfen\" takes the dative.",
           },
           {
@@ -452,7 +450,7 @@ export const DE_A2_U21: Lesson[] = [
       {
         heading: "Station 2: comparisons",
         body: [
-          "Comparative: adjective + -er + \"als\": \"Berlin ist größer als München\". Equal: \"so ... wie\": \"Köln ist nicht so groß wie Berlin\". English than is \"als\", never *wie*.",
+          "Comparative: adjective + -er + \"als\": \"Berlin ist größer als München\". Equal: \"so ... wie\": \"Köln ist nicht so groß wie Berlin\". English than is \"als\", never \"*wie*\".",
           "Superlative: \"am\" + -sten after the verb (\"Der Zug ist am schnellsten\"), or the article + -ste before a noun (\"der schnellste Zug\"). Short adjectives often add an umlaut: \"alt, älter, am ältesten\"; \"groß, größer, am größten\"; \"jung, jünger\". The irregulars: \"gut, besser, am besten\"; \"viel, mehr, am meisten\"; \"gern, lieber, am liebsten\"; \"hoch, höher\".",
         ],
         examples: [
@@ -470,7 +468,7 @@ export const DE_A2_U21: Lesson[] = [
             sentence: "Der Bus ist ___ der Zug.",
             answer: "billiger als",
             altAnswers: ["günstiger als"],
-            explanation: "Comparative -er + \"als\". *billiger wie* is a common colloquial slip, but standard German uses \"als\".",
+            explanation: "Comparative -er + \"als\". \"*billiger wie*\" is a common colloquial slip, but standard German uses \"als\".",
           },
           {
             type: "translate",
@@ -478,6 +476,7 @@ export const DE_A2_U21: Lesson[] = [
             prompt: "Translate into German.",
             source: "I like swimming best.",
             answer: "Ich schwimme am liebsten.",
+            altAnswers: ["Am liebsten schwimme ich."],
             explanation: "\"Gern, lieber, am liebsten\" attaches to the verb: liking an activity best is \"am liebsten\" + verb.",
           },
         ],
@@ -577,7 +576,7 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "Football is more interesting than tennis.",
         answer: "Fußball ist interessanter als Tennis.",
-        explanation: "Long adjectives also just add -er: \"interessanter\", never *mehr interessant*.",
+        explanation: "Long adjectives also just add -er: \"interessanter\", never \"*mehr interessant*\".",
       },
       {
         type: "word-order",
@@ -628,7 +627,7 @@ export const DE_A2_U21: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Emma wrote *Dann habe ich nach London gefahren*. Write it correctly: Then I went to London.",
+            prompt: "Emma wrote \"*Dann habe ich nach London gefahren*\". Write it correctly: Then I went to London.",
             source: "Then I went to London.",
             answer: "Dann bin ich nach London gefahren.",
             altAnswers: ["Dann fuhr ich nach London."],
@@ -641,7 +640,7 @@ export const DE_A2_U21: Lesson[] = [
             sentence: "Wir haben viel ___.",
             answer: "gesprochen",
             altAnswers: ["geredet"],
-            explanation: "\"Sprechen\" is strong with a vowel change: \"gesprochen\", not *gesprecht*.",
+            explanation: "\"Sprechen\" is strong with a vowel change: \"gesprochen\", not \"*gesprecht*\".",
           },
         ],
       },
@@ -662,7 +661,7 @@ export const DE_A2_U21: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Emma wrote *Ich helfe Sie gern*. Write it correctly: I'm happy to help you. (polite)",
+            prompt: "Emma wrote \"*Ich helfe Sie gern*\". Write it correctly: I'm happy to help you. (polite)",
             source: "I'm happy to help you. (polite)",
             answer: "Ich helfe Ihnen gern.",
             altAnswers: ["Ich helfe Ihnen gerne."],
@@ -713,7 +712,7 @@ export const DE_A2_U21: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Gestern ich bin spät aufgestanden*: Yesterday I got up late.",
+        prompt: "Fix \"*Gestern ich bin spät aufgestanden*\": Yesterday I got up late.",
         source: "Yesterday I got up late.",
         answer: "Gestern bin ich spät aufgestanden.",
         altAnswers: ["Ich bin gestern spät aufgestanden."],
@@ -722,7 +721,7 @@ export const DE_A2_U21: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Ich habe mit meinen Freund telefoniert*: I phoned my friend.",
+        prompt: "Fix \"*Ich habe mit meinen Freund telefoniert*\": I phoned my friend.",
         source: "I phoned my friend.",
         answer: "Ich habe mit meinem Freund telefoniert.",
         altAnswers: ["Ich habe mit meiner Freundin telefoniert."],
@@ -731,7 +730,7 @@ export const DE_A2_U21: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Das Wetter war schöner wie in England*: The weather was nicer than in England.",
+        prompt: "Fix \"*Das Wetter war schöner wie in England*\": The weather was nicer than in England.",
         source: "The weather was nicer than in England.",
         answer: "Das Wetter war schöner als in England.",
         explanation: "Comparative + \"als\". \"Wie\" belongs to \"so ... wie\" (as ... as).",
@@ -748,7 +747,7 @@ export const DE_A2_U21: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Ich habe einen neuen Koffer gekauft, weil der alte ist kaputt*: I bought a new suitcase because the old one is broken.",
+        prompt: "Fix \"*Ich habe einen neuen Koffer gekauft, weil der alte ist kaputt*\": I bought a new suitcase because the old one is broken.",
         source: "I bought a new suitcase because the old one is broken.",
         answer: "Ich habe einen neuen Koffer gekauft, weil der alte kaputt ist.",
         altAnswers: ["Ich habe einen neuen Koffer gekauft, weil der alte kaputt war."],
@@ -756,15 +755,15 @@ export const DE_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Emma wrote: *Ich habe noch nie in Freiburg gewesen.* Which version is correct?",
-        options: ["Ich bin noch nie in Freiburg gewesen.", "Ich habe noch nie in Freiburg gewesen.", "Ich war noch nie in Freiburg gewesen.", "Ich bin noch nie in Freiburg geweisen."],
+        question: "Emma wrote: \"*Ich habe noch nie in Freiburg gewesen.*\" Which version is correct?",
+        options: ["Ich bin noch nie in Freiburg gewesen.", "Ich habe noch nie in Freiburg gewesen.", "Ich habe noch nie in Freiburg gewest.", "Ich bin noch nie in Freiburg geweisen."],
         correctIndex: 0,
-        explanation: "\"Sein\" takes \"sein\": \"bin ... gewesen\". \"Ich war noch nie in Freiburg\" would also be fine, but not war + gewesen.",
+        explanation: "\"Sein\" takes \"sein\": \"bin ... gewesen\" (irregular participle, not \"*gewest*\" or \"*geweisen*\"). \"Ich war noch nie in Freiburg\" would also be fine.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Ich interessiere für Musik*: I'm interested in music.",
+        prompt: "Fix \"*Ich interessiere für Musik*\": I'm interested in music.",
         source: "I'm interested in music.",
         answer: "Ich interessiere mich für Musik.",
         explanation: "\"Sich interessieren für\" is reflexive: the \"mich\" can't be dropped, and \"für\" takes the accusative.",
@@ -779,7 +778,7 @@ export const DE_A2_U21: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Ich lege meine Sachen in dem Schrank*: I put my things in the wardrobe.",
+        prompt: "Fix \"*Ich lege meine Sachen in dem Schrank*\": I put my things in the wardrobe.",
         source: "I put my things in the wardrobe.",
         answer: "Ich lege meine Sachen in den Schrank.",
         altAnswers: ["Ich tue meine Sachen in den Schrank.", "Ich packe meine Sachen in den Schrank."],
@@ -886,6 +885,7 @@ export const DE_A2_U21: Lesson[] = [
             prompt: "Put the words in order to say: If all goes well, I'll take the exam in May.",
             words: ["Wenn alles gut geht,", "mache", "ich", "im Mai", "die Prüfung."],
             translation: "If all goes well, I'll take the exam in May.",
+            altOrders: [["Wenn alles gut geht,", "mache", "ich", "die Prüfung", "im Mai."]],
             explanation: "The \"wenn\" clause is position 1, so \"mache\" comes straight after the comma.",
           },
           {
@@ -964,6 +964,7 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Put the words in order to say: Last summer I couldn't go on holiday.",
         words: ["Letzten Sommer", "konnte", "ich", "nicht", "in Urlaub", "fahren."],
         translation: "Last summer I couldn't go on holiday.",
+        altOrders: [["Ich", "konnte", "letzten Sommer", "nicht", "in Urlaub", "fahren."]],
         explanation: "Präteritum of the modal in position 2, \"fahren\" at the end.",
       },
       {
@@ -972,8 +973,8 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "I hope that I'll pass the exam.",
         answer: "Ich hoffe, dass ich die Prüfung bestehe.",
-        altAnswers: ["Ich hoffe, dass ich die Prüfung bestehen werde."],
-        explanation: "\"Dass\" sends the verb to the end. German often uses the present here; \"bestehen\" is to pass an exam (not *passieren*).",
+        altAnswers: ["Ich hoffe, dass ich die Prüfung bestehen werde.", "Ich hoffe, ich bestehe die Prüfung."],
+        explanation: "\"Dass\" sends the verb to the end. German often uses the present here; \"bestehen\" is to pass an exam (not \"*passieren*\").",
       },
       {
         type: "listen-choose",
@@ -996,7 +997,7 @@ export const DE_A2_U21: Lesson[] = [
       {
         heading: "Traps 1-4: will, gegangen, helfen, weil",
         body: [
-          "Trap 1: \"ich will\" is I want, \"ich werde\" is I will. Trap 2: movement verbs take \"sein\": \"ich bin gegangen\", never *ich habe gegangen*. Trap 3: \"helfen\" (like \"danken\", \"gefallen\", \"gehören\") takes the dative: \"ich helfe dir\", not *dich*.",
+          "Trap 1: \"ich will\" is I want, \"ich werde\" is I will. Trap 2: movement verbs take \"sein\": \"ich bin gegangen\", never \"*ich habe gegangen*\". Trap 3: \"helfen\" (like \"danken\", \"gefallen\", \"gehören\") takes the dative: \"ich helfe dir\", not \"*dich*\".",
           "Trap 4: \"weil\" sends the verb to the end: \"weil ich müde bin\". In casual speech you'll hear Germans use verb-second after weil, but in writing and in exams, verb last. \"Denn\" (because) is the connector that keeps normal order: \"denn ich bin müde\".",
         ],
         examples: [
@@ -1028,7 +1029,7 @@ export const DE_A2_U21: Lesson[] = [
       {
         heading: "Traps 5-7: als/wie, seit, das/dass",
         body: [
-          "Trap 5: than is \"als\" (\"größer als\"), as ... as is \"so ... wie\". Trap 6: \"seit\" + present for anything still going on: \"Ich wohne seit 2019 hier\" (I have lived here since 2019). *Ich habe hier seit 2019 gewohnt* sounds like you've moved out.",
+          "Trap 5: than is \"als\" (\"größer als\"), as ... as is \"so ... wie\". Trap 6: \"seit\" + present for anything still going on: \"Ich wohne seit 2019 hier\" (I have lived here since 2019). \"*Ich habe hier seit 2019 gewohnt*\" is the typical slip: for something still true, German keeps the present.",
           "Trap 7: \"das\" (the, that, which) vs \"dass\" (the conjunction that). Test: if you can replace it with \"dieses\" or \"welches\", it's \"das\"; if it introduces a clause after a verb like say, know, think, it's \"dass\": \"Ich weiß, dass das Buch gut ist.\"",
         ],
         examples: [
@@ -1061,7 +1062,7 @@ export const DE_A2_U21: Lesson[] = [
       {
         heading: "Traps 8-10: endings, wenn/ob, erst/nur",
         body: [
-          "Trap 8: after \"ein\" the adjective must show the gender: \"ein neues Auto\", \"ein neuer Laptop\", never *ein neue Auto*. Trap 9: if meaning whether is \"ob\" (\"Ich weiß nicht, ob er kommt\"); if meaning when/whenever or on condition is \"wenn\" (\"Wenn er kommt, essen wir\").",
+          "Trap 8: after \"ein\" the adjective must show the gender: \"ein neues Auto\", \"ein neuer Laptop\", never \"*ein neue Auto*\". Trap 9: if in the sense of whether is \"ob\" (\"Ich weiß nicht, ob er kommt\"); if in the sense of when/whenever or on condition is \"wenn\" (\"Wenn er kommt, essen wir\").",
           "Trap 10: \"nur\" is only (that's all); \"erst\" is only in the sense of not until / no more than so far: \"Ich bin erst um zehn angekommen\" (I didn't arrive until ten), \"Sie ist erst drei\" (she's only three, she'll be older).",
         ],
         examples: [
@@ -1098,7 +1099,7 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'll call you later. (to a friend)",
         answer: "Ich werde dich später anrufen.",
-        altAnswers: ["Ich rufe dich später an.", "Ich werde euch später anrufen.", "Ich rufe euch später an.", "Ich werde Sie später anrufen.", "Ich rufe Sie später an."],
+        altAnswers: ["Ich rufe dich später an."],
         explanation: "I'll = \"werde\" (or the present). \"Anrufen\" takes the accusative: \"dich\".",
       },
       {
@@ -1116,7 +1117,7 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "Do you like the dress? (to a friend)",
         answer: "Gefällt dir das Kleid?",
-        altAnswers: ["Gefällt euch das Kleid?", "Gefällt Ihnen das Kleid?"],
+        altAnswers: ["Magst du das Kleid?"],
         explanation: "\"Gefallen\" flips the English: the dress pleases you (dative \"dir\").",
       },
       {
@@ -1133,6 +1134,7 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "She's been ill since Monday.",
         answer: "Sie ist seit Montag krank.",
+        altAnswers: ["Seit Montag ist sie krank."],
         explanation: "\"Seit\" + present tense: she is ill since Monday.",
       },
       {
@@ -1148,6 +1150,7 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "When I have time, I cook.",
         answer: "Wenn ich Zeit habe, koche ich.",
+        altAnswers: ["Ich koche, wenn ich Zeit habe."],
         explanation: "Whenever = \"wenn\"; its verb last, then verb, comma, verb.",
       },
       {
@@ -1198,11 +1201,11 @@ export const DE_A2_U21: Lesson[] = [
           "In the Perfekt, reflexive verbs take \"haben\": \"Ich habe mich beeilt\". Watch the difference between \"sich freuen auf\" (look forward to) and \"sich freuen über\" (be pleased about).",
         ],
         examples: [
-          { es: "Ich habe mich heute Morgen sehr beeilt.", en: "I rushed a lot this morning." },
+          { es: "Ich habe mich heute Morgen sehr beeilt.", en: "I was in a real hurry this morning." },
           { es: "Wasch dir bitte die Hände!", en: "Please wash your hands!" },
           { es: "Wir freuen uns auf die Ferien.", en: "We're looking forward to the holidays." },
           { es: "Sie hat sich über das Geschenk gefreut.", en: "She was pleased with the present." },
-          { es: "Hast du dich schon umgezogen?", en: "Have you changed yet?" },
+          { es: "Hast du dich schon umgezogen?", en: "Have you got changed yet?" },
         ],
         checkpoint: [
           {
@@ -1369,7 +1372,7 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Put the words in order to say: When I arrived, everyone was already asleep.",
         words: ["Als", "ich ankam,", "haben", "schon alle", "geschlafen."],
         translation: "When I arrived, everyone was already asleep.",
-                explanation: "\"Als\" for one past event; then verb, comma, verb.",
+        explanation: "\"Als\" for one past event; then verb, comma, verb.",
       },
       {
         type: "dictation",
@@ -1503,7 +1506,7 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'd like two kilos of apples, please.",
         answer: "Ich hätte gern zwei Kilo Äpfel, bitte.",
-        altAnswers: ["Ich möchte zwei Kilo Äpfel, bitte.", "Zwei Kilo Äpfel, bitte."],
+        altAnswers: ["Ich möchte zwei Kilo Äpfel, bitte.", "Ich hätte gerne zwei Kilo Äpfel, bitte.", "Ich möchte bitte zwei Kilo Äpfel.", "Zwei Kilo Äpfel, bitte."],
         explanation: "Quantities need no of: \"zwei Kilo Äpfel\". \"Kilo\" stays singular after a number.",
       },
       {
@@ -1552,6 +1555,7 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Put the words in order to say: Then she bought fresh bread at the bakery stall.",
         words: ["Dann", "hat", "sie", "beim Bäckerstand", "frisches Brot", "gekauft."],
         translation: "Then she bought fresh bread at the bakery stall.",
+        altOrders: [["Dann", "hat", "sie", "frisches Brot", "beim Bäckerstand", "gekauft."]],
         explanation: "\"Beim\" = bei dem; \"frisches Brot\" with no article takes -es (neuter).",
       },
       {
@@ -1597,6 +1601,7 @@ export const DE_A2_U21: Lesson[] = [
             prompt: "Make \"Ich lade die App herunter\" past: I downloaded the app.",
             source: "I downloaded the app.",
             answer: "Ich habe die App heruntergeladen.",
+            altAnswers: ["Ich lud die App herunter."],
             explanation: "\"Herunterladen\" is separable: ge- goes inside, \"heruntergeladen\", with \"haben\".",
           },
           {
@@ -1667,7 +1672,7 @@ export const DE_A2_U21: Lesson[] = [
             prompt: "Translate into German.",
             source: "She will call you tomorrow. (to a friend)",
             answer: "Sie wird dich morgen anrufen.",
-            altAnswers: ["Morgen wird sie dich anrufen.", "Sie ruft dich morgen an.", "Morgen ruft sie dich an.", "Sie wird euch morgen anrufen.", "Sie wird Sie morgen anrufen."],
+            altAnswers: ["Morgen wird sie dich anrufen.", "Sie ruft dich morgen an.", "Morgen ruft sie dich an.", "Sie wird Sie morgen anrufen."],
             explanation: "\"Wird\" + infinitive; the separable verb stays in one piece at the end: \"anrufen\".",
           },
         ],
@@ -1707,7 +1712,6 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Make \"Du darfst nicht rauchen\" past: You weren't allowed to smoke.",
         source: "You weren't allowed to smoke. (to a friend)",
         answer: "Du durftest nicht rauchen.",
-        altAnswers: ["Ihr durftet nicht rauchen.", "Sie durften nicht rauchen."],
         explanation: "\"Dürfen\" loses its umlaut: \"durfte\"; du form \"durftest\".",
       },
       {
@@ -1724,6 +1728,7 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm tired because I worked a lot.",
         answer: "Ich bin müde, weil ich viel gearbeitet habe.",
+        altAnswers: ["Ich bin müde, denn ich habe viel gearbeitet."],
         explanation: "Perfekt in a weil-clause: participle, then \"habe\" last.",
       },
       {
@@ -1737,7 +1742,7 @@ export const DE_A2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the Perfekt of \"Er steigt in Bonn aus\"?",
+        question: "You want to say: He got off in Bonn. Which is right?",
         options: ["Er ist in Bonn ausgestiegen.", "Er hat in Bonn ausgestiegen.", "Er ist in Bonn ausgesteigt.", "Er ist in Bonn gestiegen aus."],
         correctIndex: 0,
         explanation: "Getting off is movement: \"ist\"; strong separable: \"ausgestiegen\".",
@@ -1826,7 +1831,7 @@ export const DE_A2_U21: Lesson[] = [
             prompt: "Translate into German.",
             source: "Who did you go hiking with? (to a friend)",
             answer: "Mit wem bist du wandern gegangen?",
-            altAnswers: ["Mit wem warst du wandern?", "Mit wem seid ihr wandern gegangen?", "Mit wem waren Sie wandern?", "Mit wem sind Sie wandern gegangen?", "Mit wem wart ihr wandern?"],
+            altAnswers: ["Mit wem warst du wandern?"],
             explanation: "\"Mit wem\" (dative); going hiking is \"wandern gehen\": \"bist ... wandern gegangen\".",
           },
           {
@@ -1867,7 +1872,7 @@ export const DE_A2_U21: Lesson[] = [
             type: "speak",
             text: "Hast du Lust mitzukommen?",
             prompt: "Say it in German: Do you fancy coming along?",
-            tip: "In \"Lust\" the u is short and the st is s + t, not scht: the sch sound only comes at the start of a word.",
+            tip: "In \"Lust\" the u is short and the st is s + t, not scht: st sounds like scht only at the start of a word or stem (\"Stadt\", \"verstehen\").",
             explanation: "\"Lust haben\" + zu-infinitive: \"mitzukommen\", with zu between prefix and verb.",
           },
         ],
@@ -1880,7 +1885,6 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "How was your weekend? (to a friend)",
         answer: "Wie war dein Wochenende?",
-        altAnswers: ["Wie war euer Wochenende?", "Wie war Ihr Wochenende?"],
         explanation: "\"War\" is the past of sein; \"das Wochenende\" is neuter: \"dein\".",
       },
       {
@@ -1948,7 +1952,7 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "What are you doing next weekend? (to a friend)",
         answer: "Was machst du nächstes Wochenende?",
-        altAnswers: ["Was hast du nächstes Wochenende vor?", "Was macht ihr nächstes Wochenende?", "Was habt ihr nächstes Wochenende vor?", "Was machen Sie nächstes Wochenende?", "Was haben Sie nächstes Wochenende vor?"],
+        altAnswers: ["Was hast du nächstes Wochenende vor?"],
         explanation: "The present + a time word for future plans; \"nächstes Wochenende\" (neuter).",
       },
       {
@@ -1992,7 +1996,7 @@ export const DE_A2_U21: Lesson[] = [
             question: "What did you hear?",
             options: ["Ich habe ihm geantwortet.", "Ich habe ihn geantwortet.", "Ich habe ihr geantwortet.", "Ich habe Ihnen geantwortet."],
             correctIndex: 0,
-            explanation: "\"Antworten\" takes the dative: \"ihm\". *ihn geantwortet* is wrong.",
+            explanation: "\"Antworten\" takes the dative: \"ihm\". \"*ihn geantwortet*\" is wrong.",
           },
           {
             type: "translate",
@@ -2177,7 +2181,7 @@ export const DE_A2_U21: Lesson[] = [
         heading: "Step 1: the frame",
         body: [
           "A German postcard has a fixed frame. The greeting: \"Liebe Oma\" (to a woman), \"Lieber Jonas\" (to a man), \"Liebe Lena, lieber Leon\" (to both), \"Hallo zusammen\" (to a group). The ending: \"Viele Grüße\", \"Liebe Grüße\", \"Bis bald\", \"Dein Leon\" / \"Deine Mia\".",
-          "The minimal card is three words: \"Liebe Grüße aus Dresden!\" \"Aus\" + dative for where you're writing from. Note there is no comma after the closing words and no full stop after the signature.",
+          "The minimal card is three words: \"Liebe Grüße aus Dresden!\" \"Aus\" + dative for where you're writing from. When the name goes on its own line there is no comma after the closing words; written on one line, as in this lesson, a comma separates them. No full stop after the signature.",
         ],
         examples: [
           { es: "Liebe Grüße aus Dresden!", en: "Love from Dresden!" },
@@ -2534,6 +2538,7 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'd like to register.",
         answer: "Ich möchte mich anmelden.",
+        altAnswers: ["Ich würde mich gern anmelden.", "Ich würde mich gerne anmelden."],
         explanation: "\"Sich anmelden\" is reflexive: the \"mich\" stays.",
       },
       {
@@ -2548,6 +2553,7 @@ export const DE_A2_U21: Lesson[] = [
         prompt: "Put the words in order to say: Because of the rain we stayed at home.",
         words: ["Wegen", "des Regens", "sind", "wir", "zu Hause", "geblieben."],
         translation: "Because of the rain we stayed at home.",
+        altOrders: [["Wir", "sind", "wegen", "des Regens", "zu Hause", "geblieben."]],
         explanation: "\"Wegen des Regens\" is position 1, verb second.",
       },
       {

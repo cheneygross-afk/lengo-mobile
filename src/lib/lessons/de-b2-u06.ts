@@ -110,13 +110,13 @@ export const DE_B2_U06: Lesson[] = [
             prompt: "Translate into German.",
             source: "I must insist that the heating is repaired tomorrow.",
             answer: "Ich muss darauf bestehen, dass die Heizung morgen repariert wird.",
-            altAnswers: ["Ich muss darauf bestehen, dass die Heizung morgen repariert wird", "Ich bestehe darauf, dass die Heizung morgen repariert wird."],
+            altAnswers: ["Ich muss darauf bestehen, dass man die Heizung morgen repariert.", "Ich bestehe darauf, dass die Heizung morgen repariert wird."],
             explanation: "\"Darauf bestehen, dass ...\" with the werden-passive \"repariert wird\" at the end: Lena wants the action, not a description of a state.",
           },
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "I'll see what [can be done].",
+            en: "I'll see what [can] be done.",
             sentence: "Ich schaue, was sich machen ___.",
             answer: "lässt",
             explanation: "\"Was sich machen lässt\": sich lassen for possibility, with \"lässt\" at the end of the subordinate clause.",
@@ -162,7 +162,7 @@ export const DE_B2_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I [insist on] written confirmation.",
+        en: "I insist [on] written confirmation.",
         sentence: "Ich bestehe ___ einer schriftlichen Bestätigung.",
         answer: "auf",
         explanation: "\"Bestehen auf\" = to insist on. Here it takes the dative (\"auf einer Bestätigung\"); the da-compound \"darauf\" introduces a dass-clause.",
@@ -178,7 +178,7 @@ export const DE_B2_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Lena wants the heating fixed (the action). Which sentence fits after Ich erwarte, dass ...?",
+        question: "Lena wants the heating fixed (the action). Which sentence fits after \"Ich erwarte, dass ...\"?",
         options: ["... die Heizung morgen repariert wird.", "... die Heizung morgen wird repariert.", "... die Heizung morgen repariert hat.", "... die Heizung morgen repariert werden."],
         correctIndex: 0,
         explanation: "She is asking for the action: werden-passive with the conjugated \"wird\" at the very end of the dass-clause. \"Hat\" is the wrong auxiliary, and \"werden\" doesn't agree with \"die Heizung\".",
@@ -226,7 +226,7 @@ export const DE_B2_U06: Lesson[] = [
     slug: "b2-choose-explain-man-lassen-zu",
     level: "DE-B2",
     number: 2,
-    title: "Choose and Explain: Man, Sich Lassen or Sein Zu?",
+    title: "Choose and Explain: Man, Sich lassen or Sein zu?",
     summary: "Pick the passive alternative that matches what you mean: possibility, obligation, a general statement or a finished state.",
     duration: "15 min",
     sections: [
@@ -300,7 +300,7 @@ export const DE_B2_U06: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The noise is [almost unbearable].",
+            en: "The noise is [hardly] bearable.",
             sentence: "Der Lärm ist ___ zu ertragen.",
             answer: "kaum",
             explanation: "\"Kaum zu ertragen\": with \"kaum\" (hardly), \"sein + zu\" means can hardly be borne.",
@@ -382,7 +382,7 @@ export const DE_B2_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "That's [hard to believe].",
+        en: "That can hardly be [believed].",
         sentence: "Das ist kaum zu ___.",
         answer: "glauben",
         explanation: "\"Kaum zu glauben\": sein + zu with kaum expresses near-impossibility.",
@@ -458,7 +458,7 @@ export const DE_B2_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the correct version of *Das Gerät muss sein gereinigt?",
+            question: "Which is the correct version of \"*Das Gerät muss sein gereinigt\"?",
             options: ["Das Gerät muss gereinigt werden.", "Das Gerät muss gereinigt sein werden.", "Das Gerät muss werden gereinigt.", "Das Gerät wird gereinigt müssen."],
             correctIndex: 0,
             explanation: "Modal in position 2, then participle + \"werden\" at the end: \"muss gereinigt werden\".",
@@ -565,14 +565,14 @@ export const DE_B2_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The milk froth [can be adjusted] with the dial.",
+        en: "The milk froth [can] be adjusted with the dial.",
         sentence: "Der Milchschaum ___ sich mit dem Regler einstellen.",
         answer: "lässt",
         explanation: "\"Lässt sich einstellen\" = can be adjusted; sich lassen takes a bare infinitive.",
       },
       {
         type: "multiple-choice",
-        question: "Which sentence from a manual is correct?",
+        question: "The brewing unit can easily be removed. Which sentence from a manual is correct?",
         options: ["Die Brüheinheit lässt sich einfach herausnehmen.", "Die Brüheinheit lässt sich einfach herauszunehmen.", "Die Brüheinheit lässt sich einfach heraus zu nehmen.", "Die Brüheinheit ist einfach herausnehmen."],
         correctIndex: 0,
         explanation: "\"Sich lassen\" needs a bare infinitive; \"zu\" belongs only with \"sein\": \"ist einfach herauszunehmen\".",
@@ -736,7 +736,7 @@ export const DE_B2_U06: Lesson[] = [
             source: "Hardly anyone sticks to that.",
             answer: "Daran hält sich kaum jemand.",
             altAnswers: ["Kaum jemand hält sich daran.", "Fast niemand hält sich daran."],
-            explanation: "\"Sich halten an\" + Akkusativ; with a pronoun thing, the da-compound \"daran\".",
+            explanation: "\"Sich halten an\" + Akkusativ; when \"an\" refers to a thing (here: the rule), use the da-compound \"daran\".",
           },
           {
             type: "translate",
@@ -979,7 +979,7 @@ export const DE_B2_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The lift [is currently being serviced].",
+        en: "The lift [is] currently being serviced.",
         sentence: "Der Aufzug ___ zurzeit gewartet.",
         answer: "wird",
         explanation: "An ongoing process: werden-passive \"wird gewartet\". \"Ist gewartet\" would mean the servicing is done.",
@@ -1101,7 +1101,7 @@ export const DE_B2_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which version of *Frau Yilmaz fragte, wenn die Heizung repariert wird is correct in a written report?",
+            question: "Which version of \"*Frau Yilmaz fragte, wenn die Heizung repariert wird\" is correct in a written report?",
             options: ["Frau Yilmaz fragte, ob die Heizung repariert werde.", "Frau Yilmaz fragte, wenn die Heizung repariert werde.", "Frau Yilmaz fragte, ob wird die Heizung repariert.", "Frau Yilmaz fragte, dass die Heizung repariert werde."],
             correctIndex: 0,
             explanation: "Reported yes/no questions use \"ob\" (whether), with the verb at the end and Konjunktiv I \"werde\".",
@@ -1129,7 +1129,7 @@ export const DE_B2_U06: Lesson[] = [
             prompt: "Translate into German.",
             source: "He asked the tenants to report all damage.",
             answer: "Er bat die Mieter, alle Schäden zu melden.",
-            altAnswers: ["Er hat die Mieter gebeten, alle Schäden zu melden.", "Er bat die Mieter, alle Schäden zu melden"],
+            altAnswers: ["Er hat die Mieter gebeten, alle Schäden zu melden.", "Er bat die Mieter darum, alle Schäden zu melden."],
             explanation: "\"Bitten\" + Akkusativ + zu-infinitive clause. Not \"*fragte die Mieter zu\": asked to = bitten.",
           },
           {
@@ -1182,7 +1182,7 @@ export const DE_B2_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Jonas wrote: Die Mieter sagten, sie haben keine Zeit. What's the best correction for a written report?",
+        question: "Jonas wrote: \"Die Mieter sagten, sie haben keine Zeit.\" What's the best correction for a written report?",
         options: ["Die Mieter sagten, sie hätten keine Zeit.", "Die Mieter sagten, sie habe keine Zeit.", "Die Mieter sagten, sie hatten keine Zeit.", "Die Mieter sagten, sie würden keine Zeit."],
         correctIndex: 0,
         explanation: "Plural \"sie haben\" is identical to the indicative, so Konjunktiv II \"hätten\" replaces it. \"Habe\" is singular; \"hatten\" is a real past.",
@@ -1232,7 +1232,7 @@ export const DE_B2_U06: Lesson[] = [
     slug: "b2-qa-was-ist-zu-tun",
     level: "DE-B2",
     number: 7,
-    title: "Questions and Answers: Was Ist zu Tun?",
+    title: "Questions and Answers: Was ist zu tun?",
     summary: "Ask and answer about procedures like registering a flat, returning a parcel and getting a library card: what to bring, what can be changed, what must be done.",
     duration: "15 min",
     sections: [
@@ -1381,7 +1381,7 @@ export const DE_B2_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "How [can] the goods [be sent back]?",
+        en: "How can the goods be [sent back]?",
         sentence: "Wie lässt sich die Ware ___?",
         answer: "zurückschicken",
         altAnswers: ["zurücksenden"],
@@ -1472,7 +1472,7 @@ export const DE_B2_U06: Lesson[] = [
             prompt: "Translate the sign into German.",
             source: "Keep the exit clear!",
             answer: "Ausfahrt freihalten!",
-            altAnswers: ["Ausfahrt bitte freihalten!", "Einfahrt freihalten!", "Ausfahrt frei halten!"],
+            altAnswers: ["Ausfahrt bitte freihalten!", "Ausfahrt frei halten!"],
             explanation: "A sign uses the bare infinitive at the end, no subject: \"Ausfahrt freihalten\".",
           },
           {
@@ -1723,13 +1723,13 @@ export const DE_B2_U06: Lesson[] = [
             prompt: "Translate into German.",
             source: "The kitchen drain is blocked.",
             answer: "Der Abfluss in der Küche ist verstopft.",
-            altAnswers: ["Der Küchenabfluss ist verstopft.", "Der Abfluss in der Küche ist verstopft"],
+            altAnswers: ["Der Küchenabfluss ist verstopft.", "In der Küche ist der Abfluss verstopft."],
             explanation: "\"Verstopft\" (blocked) is a participle used as a state: \"ist verstopft\".",
           },
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The new kitchen [is being installed] next week.",
+            en: "The new kitchen is being [installed] next week.",
             sentence: "Die neue Küche wird nächste Woche ___.",
             answer: "eingebaut",
             explanation: "\"Einbauen\" (to install, fit) → participle \"eingebaut\" with the werden-passive.",
@@ -1828,8 +1828,8 @@ export const DE_B2_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend says the renovation plan sounds feasible. Which adjective does she use?",
-        options: ["machbar", "unvermeidlich", "unbezahlbar", "verbesserungsfähig"],
+        question: "Your friend thinks the renovation plan is feasible. What does she say?",
+        options: ["Der Plan ist machbar.", "Der Plan ist unvermeidlich.", "Der Plan ist unbezahlbar.", "Der Plan ist verbesserungsfähig."],
         correctIndex: 0,
         explanation: "\"Machbar\" = can be done, feasible. The others: unavoidable, unaffordable, could be improved.",
       },
@@ -1880,7 +1880,7 @@ export const DE_B2_U06: Lesson[] = [
         type: "speak",
         text: "Der Abfluss ist verstopft und das Fenster ist undicht.",
         prompt: "Say it in German: The drain is blocked and the window leaks.",
-        tip: "In \"verstopft\" the st is pronounced \"st\", not \"scht\", because it isn't at the start of a word stem.",
+        tip: "In \"verstopft\" the st is pronounced \"scht\", because it starts the stem \"stopf\" after the prefix ver-.",
         explanation: "Two states: \"ist verstopft\", \"ist undicht\".",
       },
     ],
@@ -1914,7 +1914,7 @@ export const DE_B2_U06: Lesson[] = [
             prompt: "Translate into German.",
             source: "Without the water damage we would have stayed in the flat.",
             answer: "Ohne den Wasserschaden wären wir in der Wohnung geblieben.",
-            altAnswers: ["Ohne den Wasserschaden wären wir in der Wohnung geblieben"],
+            altAnswers: ["Wir wären ohne den Wasserschaden in der Wohnung geblieben."],
             explanation: "\"Bleiben\" takes sein in the Perfekt, so \"wären ... geblieben\".",
           },
           {
@@ -2000,7 +2000,7 @@ export const DE_B2_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "You [could have told] me! (to a friend)",
+        en: "You [could] have told me! (to a friend)",
         sentence: "Du hättest mir Bescheid sagen ___!",
         answer: "können",
         explanation: "Double infinitive \"sagen können\": the modal stays in the infinitive, not \"*gekonnt\".",

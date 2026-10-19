@@ -8,7 +8,7 @@ export const DE_C2_U31: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Wirtschaft und Unternehmen, Part 1 of 3",
-    summary: "Talk about the economy like a German news analyst: Inflation and Teuerung, Kaufkraft, Leitzins, Konjunktur, Arbeitslosenquote, Exportweltmeister and Fachkräftemangel, linked with precise verbs of cause and consequence.",
+    summary: "Talk about the economy like a German news analyst: discuss prices (\"Inflation\", \"Teuerung\", \"Kaufkraft\", \"Leitzins\"), the economic cycle and labour market (\"Konjunktur\", \"Arbeitslosenquote\", \"Fachkräftemangel\") and link causes and consequences with precise verbs.",
     duration: "18 min",
     sections: [
       {
@@ -16,10 +16,10 @@ export const DE_C2_U31: Lesson[] = [
         body: [
           "\"Die Inflation\" and \"die Teuerung\" both mean rising prices; \"Teuerung\" is the more everyday, slightly old-fashioned word, common in Austria and Switzerland and in headlines (\"Teuerung bremst Konsum\"). The rate is \"die Inflationsrate\" or \"die Teuerungsrate\", and it \"steigt\", \"sinkt\", \"zieht an\" (picks up) or \"schwächt sich ab\" (eases). The opposite, falling prices, is \"die Deflation\".",
           "\"Die Kaufkraft\" (purchasing power) is what inflation eats: \"Die Inflation zehrt an der Kaufkraft\" (gnaws at). \"Die Reallöhne\" (real wages) fall when wages rise more slowly than prices. Germans, with the memory of 1923 in the background, are famously sensitive to inflation.",
-          "\"Der Leitzins\" is the key interest rate, set for the euro area by \"die Europäische Zentralbank (EZB)\" in Frankfurt. The EZB \"erhöht\" or \"senkt\" den Leitzins, \"strafft die Geldpolitik\" (tightens) or \"lockert\" sie (eases). Note the false friend: \"die Bank\" is also a bench, but \"die Zentralbank\" is unambiguous; and \"der Zins\" (interest) is singular in the rate, plural \"die Zinsen\" for the money you pay.",
+          "\"Der Leitzins\" is the key interest rate, set for the euro area by \"die Europäische Zentralbank (EZB)\" in Frankfurt. The EZB \"erhöht\" or \"senkt\" den Leitzins, \"strafft die Geldpolitik\" (tightens) or \"lockert\" sie (eases). Note that \"die Bank\" is also a bench (plural \"Bänke\", while banks are \"Banken\"), but \"die Zentralbank\" is unambiguous; and \"der Zins\" (interest) is singular in the rate, plural \"die Zinsen\" for the money you pay.",
         ],
         examples: [
-          { es: "Die Inflationsrate ist im Oktober auf 2,4 Prozent gesunken.", en: "The inflation rate fell to 2.4 percent in October." },
+          { es: "Die Inflationsrate ist im Oktober auf 2,4 Prozent gesunken.", en: "The inflation rate fell to 2.4 per cent in October." },
           { es: "Die hohe Teuerung zehrt an der Kaufkraft der Haushalte.", en: "High inflation is eating into households' purchasing power." },
           { es: "Die Reallöhne sind das dritte Jahr in Folge gesunken.", en: "Real wages have fallen for the third year in a row." },
           { es: "Die EZB hat den Leitzins um einen Viertelprozentpunkt gesenkt.", en: "The ECB has cut the key interest rate by a quarter of a percentage point." },
@@ -56,7 +56,7 @@ export const DE_C2_U31: Lesson[] = [
         examples: [
           { es: "Die Konjunktur lahmt, vor allem in der Industrie.", en: "The economy is sluggish, especially in industry." },
           { es: "Im zweiten Quartal ist das BIP leicht geschrumpft.", en: "GDP shrank slightly in the second quarter." },
-          { es: "Die Arbeitslosenquote liegt bei 6,1 Prozent.", en: "The unemployment rate is 6.1 percent." },
+          { es: "Die Arbeitslosenquote liegt bei 6,1 Prozent.", en: "The unemployment rate is 6.1 per cent." },
           { es: "Viele Betriebe haben ihre Mitarbeiter in Kurzarbeit geschickt.", en: "Many firms have put their staff on short-time work." },
           { es: "Der Fachkräftemangel bremst das Wachstum.", en: "The shortage of skilled workers is holding back growth." },
           { es: "Die Nachfrage aus China schwächelt seit Monaten.", en: "Demand from China has been weakening for months." },
@@ -66,7 +66,7 @@ export const DE_C2_U31: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "The unemployment rate is five percent.",
+            source: "The unemployment rate is five per cent.",
             answer: "Die Arbeitslosenquote liegt bei fünf Prozent.",
             altAnswers: ["Die Arbeitslosenquote beträgt fünf Prozent.", "Die Arbeitslosenquote liegt bei 5 Prozent.", "Die Arbeitslosenquote beträgt 5 Prozent."],
             explanation: "A rate \"liegt bei\" or \"beträgt\" a figure; \"ist fünf Prozent\" sounds clumsy in German economic language.",
@@ -81,7 +81,7 @@ export const DE_C2_U31: Lesson[] = [
           {
             type: "speak",
             text: "Der Fachkräftemangel bremst das Wachstum.",
-            tip: "Fach- has the hard ch of Bach; keep -kräfte- with a clear ä.",
+            tip: "\"Fach\" has the ch of \"Bach\"; keep the ä in \"Kräfte\" clear and open.",
             explanation: "\"Bremsen\" (to brake) is the standard verb for something that holds back growth.",
           },
         ],
@@ -136,9 +136,9 @@ export const DE_C2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Inflation fell to 2.1 percent in September.",
+        source: "Inflation fell to 2.1 per cent in September.",
         answer: "Die Inflation ist im September auf 2,1 Prozent gesunken.",
-        altAnswers: ["Die Inflationsrate ist im September auf 2,1 Prozent gesunken.", "Die Inflation sank im September auf 2,1 Prozent.", "Die Inflationsrate sank im September auf 2,1 Prozent.", "Im September ist die Inflation auf 2,1 Prozent gesunken.", "Im September sank die Inflationsrate auf 2,1 Prozent."],
+        altAnswers: ["Die Inflationsrate ist im September auf 2,1 Prozent gesunken.", "Die Inflation sank im September auf 2,1 Prozent.", "Die Inflationsrate sank im September auf 2,1 Prozent.", "Im September ist die Inflation auf 2,1 Prozent gesunken.", "Im September sank die Inflationsrate auf 2,1 Prozent.", "Im September ist die Inflationsrate auf 2,1 Prozent gesunken.", "Im September sank die Inflation auf 2,1 Prozent."],
         explanation: "\"Auf\" gives the new level; German writes the decimal with a comma: \"2,1 Prozent\". \"Sinken\" takes \"sein\" in the Perfekt.",
       },
       {
@@ -204,7 +204,7 @@ export const DE_C2_U31: Lesson[] = [
       {
         type: "dictation",
         audio: "Die EZB hat den Leitzins gesenkt.",
-        explanation: "Say EZB as e-zet-be. \"Der Leitzins\" is masculine; \"senken\" is transitive (lower something), unlike \"sinken\".",
+        explanation: "Say \"EZB\" letter by letter: \"E, Zett, B\". \"Der Leitzins\" is masculine; \"senken\" is transitive (lower something), unlike \"sinken\".",
       },
       {
         type: "speak",
@@ -219,7 +219,7 @@ export const DE_C2_U31: Lesson[] = [
         prompt: "Translate into German.",
         source: "The insolvency entailed the loss of 500 jobs.",
         answer: "Die Insolvenz zog den Verlust von 500 Arbeitsplätzen nach sich.",
-        altAnswers: ["Die Insolvenz hatte den Verlust von 500 Arbeitsplätzen zur Folge.", "Die Insolvenz führte zum Verlust von 500 Arbeitsplätzen.", "Die Insolvenz hat den Verlust von 500 Arbeitsplätzen nach sich gezogen."],
+        altAnswers: ["Die Insolvenz hatte den Verlust von 500 Arbeitsplätzen zur Folge.", "Die Insolvenz führte zum Verlust von 500 Arbeitsplätzen.", "Die Insolvenz hat den Verlust von 500 Arbeitsplätzen nach sich gezogen.", "Die Insolvenz hat zum Verlust von 500 Arbeitsplätzen geführt.", "Die Insolvenz zog den Verlust von 500 Stellen nach sich."],
         explanation: "\"Etwas nach sich ziehen\" (bring in its wake) or \"zur Folge haben\": formal cause-and-effect verbs.",
       },
     ],
@@ -229,15 +229,15 @@ export const DE_C2_U31: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Transformations: Ursache und Wirkung in der Wirtschaft",
-    summary: "Rewrite one cause-and-effect statement three ways: as a weil-clause, as a nominal phrase with infolge or aufgrund, and with a causal verb like führen zu, and follow the ripple effects on word order and case.",
+    summary: "Rewrite one cause-and-effect statement three ways (as a \"weil\" clause, as a noun phrase with \"infolge\" or \"aufgrund\", and with a causal verb like \"führen zu\") and handle the ripple effects on word order and case.",
     duration: "18 min",
     sections: [
       {
         heading: "From verb to noun: weil → infolge / aufgrund",
         body: [
           "Spoken German explains with clauses: \"Weil die Zinsen stiegen, kauften weniger Menschen Wohnungen.\" Written economic German prefers nouns: \"Infolge des Zinsanstiegs kauften weniger Menschen Wohnungen.\" The transformation has three steps: turn the verb into a noun (\"steigen\" → \"der Anstieg\"), turn the subject into a genitive or a compound (\"der Anstieg der Zinsen\" or \"der Zinsanstieg\"), and choose a preposition with the genitive (\"infolge\", \"aufgrund\", \"wegen\").",
-          "The nouns you need most: \"steigen\" → \"der Anstieg\", \"sinken\" → \"der Rückgang\" (not \"das Sinken\" in reports), \"wachsen\" → \"das Wachstum\", \"einbrechen\" → \"der Einbruch\", \"erhöhen\" → \"die Erhöhung\", \"senken\" → \"die Senkung\", \"sich abschwächen\" → \"die Abschwächung\".",
-          "Adverbs become adjectives: \"weil die Preise stark stiegen\" → \"infolge des starken Preisanstiegs\". And the clause's verb moves from the end of the weil-clause to second position in the main clause, because the nominal phrase is now just the Vorfeld.",
+          "The nouns you need most: \"steigen\" → \"der Anstieg\", \"sinken\" → \"der Rückgang\" (in reports usually rather than \"das Sinken\"), \"wachsen\" → \"das Wachstum\", \"einbrechen\" → \"der Einbruch\", \"erhöhen\" → \"die Erhöhung\", \"senken\" → \"die Senkung\", \"sich abschwächen\" → \"die Abschwächung\".",
+          "Adverbs become adjectives: \"weil die Preise stark stiegen\" → \"infolge des starken Preisanstiegs\". The verb of the \"weil\" clause disappears into the noun; the nominal phrase takes the clause's place in the Vorfeld, so the main-clause verb still follows it directly in second position.",
         ],
         examples: [
           { es: "Weil die Zinsen stiegen, wurden weniger Wohnungen gebaut.", en: "Because interest rates rose, fewer flats were built." },
@@ -254,7 +254,7 @@ export const DE_C2_U31: Lesson[] = [
             prompt: "Translate into German, using a noun phrase instead of a weil-clause.",
             source: "As a result of the rise in energy prices, inflation increased.",
             answer: "Infolge des Anstiegs der Energiepreise stieg die Inflation.",
-            altAnswers: ["Infolge des Energiepreisanstiegs stieg die Inflation.", "Aufgrund des Anstiegs der Energiepreise stieg die Inflation.", "Infolge des Anstiegs der Energiepreise ist die Inflation gestiegen.", "Infolge gestiegener Energiepreise stieg die Inflation.", "Infolge des Anstiegs der Energiepreise nahm die Inflation zu."],
+            altAnswers: ["Infolge des Energiepreisanstiegs stieg die Inflation.", "Aufgrund des Anstiegs der Energiepreise stieg die Inflation.", "Aufgrund des Energiepreisanstiegs stieg die Inflation.", "Wegen des Anstiegs der Energiepreise stieg die Inflation.", "Infolge des Anstiegs der Energiepreise ist die Inflation gestiegen.", "Infolge gestiegener Energiepreise stieg die Inflation.", "Infolge des Anstiegs der Energiepreise nahm die Inflation zu."],
             explanation: "\"Infolge\" + genitive: \"des Anstiegs\" (masculine genitive -s), then the genitive attribute \"der Energiepreise\". The verb follows directly.",
           },
           {
@@ -299,7 +299,7 @@ export const DE_C2_U31: Lesson[] = [
             prompt: "Translate into German.",
             source: "The closure means that 300 people will lose their jobs.",
             answer: "Die Schließung hat zur Folge, dass 300 Menschen ihre Arbeit verlieren.",
-            altAnswers: ["Die Schließung hat zur Folge, dass 300 Menschen ihre Stelle verlieren.", "Die Schließung führt dazu, dass 300 Menschen ihre Arbeit verlieren.", "Die Schließung führt dazu, dass 300 Menschen ihre Stelle verlieren.", "Die Schließung hat zur Folge, dass 300 Menschen ihren Arbeitsplatz verlieren.", "Die Schließung führt dazu, dass 300 Menschen ihren Arbeitsplatz verlieren."],
+            altAnswers: ["Die Schließung hat zur Folge, dass 300 Menschen ihre Stelle verlieren.", "Die Schließung führt dazu, dass 300 Menschen ihre Arbeit verlieren.", "Die Schließung führt dazu, dass 300 Menschen ihre Stelle verlieren.", "Die Schließung hat zur Folge, dass 300 Menschen ihren Arbeitsplatz verlieren.", "Die Schließung führt dazu, dass 300 Menschen ihren Arbeitsplatz verlieren.", "Die Schließung hat zur Folge, dass 300 Menschen ihre Arbeit verlieren werden.", "Die Schließung führt dazu, dass 300 Menschen ihre Arbeit verlieren werden.", "Die Schließung bedeutet, dass 300 Menschen ihre Arbeit verlieren."],
             explanation: "\"Zur Folge haben, dass...\" or \"dazu führen, dass...\": the cause is the subject. The present tense covers the near future.",
           },
           {
@@ -307,6 +307,7 @@ export const DE_C2_U31: Lesson[] = [
             prompt: "Put the words in order to say: The losses result from weak demand.",
             words: ["Die", "Verluste", "resultieren", "aus", "der", "schwachen", "Nachfrage."],
             translation: "The losses result from weak demand.",
+            altOrders: [["Aus", "der", "schwachen", "Nachfrage", "resultieren", "die", "Verluste."]],
             explanation: "\"Resultieren aus\" + dative: \"aus der schwachen Nachfrage\".",
           },
         ],
@@ -329,7 +330,7 @@ export const DE_C2_U31: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, starting the second part with folglich.",
+            prompt: "Translate into German, starting the second part with \"folglich\".",
             source: "Costs rose; consequently the company raised its prices.",
             answer: "Die Kosten stiegen; folglich erhöhte das Unternehmen seine Preise.",
             altAnswers: ["Die Kosten stiegen, folglich erhöhte das Unternehmen seine Preise.", "Die Kosten stiegen. Folglich erhöhte das Unternehmen seine Preise.", "Die Kosten sind gestiegen; folglich hat das Unternehmen seine Preise erhöht.", "Die Kosten stiegen; folglich erhöhte die Firma ihre Preise.", "Die Kosten stiegen. Folglich erhöhte die Firma ihre Preise."],
@@ -355,7 +356,7 @@ export const DE_C2_U31: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using a noun phrase with infolge.",
+        prompt: "Translate into German, using a noun phrase with \"infolge\".",
         source: "As a result of the collapse in exports, the economy shrank.",
         answer: "Infolge des Einbruchs der Exporte schrumpfte die Wirtschaft.",
         altAnswers: ["Infolge des Exporteinbruchs schrumpfte die Wirtschaft.", "Infolge des Einbruchs der Exporte ist die Wirtschaft geschrumpft.", "Infolge des Exporteinbruchs ist die Wirtschaft geschrumpft."],
@@ -364,7 +365,7 @@ export const DE_C2_U31: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, with führen zu and a dass-clause.",
+        prompt: "Translate into German, with \"führen zu\" and a dass-clause.",
         source: "The price increase meant that fewer customers came.",
         answer: "Die Preiserhöhung führte dazu, dass weniger Kunden kamen.",
         altAnswers: ["Die Preiserhöhung hat dazu geführt, dass weniger Kunden kamen.", "Die Preiserhöhung hat dazu geführt, dass weniger Kunden gekommen sind.", "Die Preiserhöhung führte dazu, dass weniger Kundinnen und Kunden kamen."],
@@ -373,7 +374,7 @@ export const DE_C2_U31: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The decline is [attributable to the] weak euro.",
+        en: "The decline is attributable [to the] weak euro.",
         sentence: "Der Rückgang ist ___ schwachen Euro zurückzuführen.",
         answer: "auf den",
         explanation: "\"Zurückzuführen sein auf\" + accusative: \"auf den schwachen Euro\".",
@@ -432,7 +433,7 @@ export const DE_C2_U31: Lesson[] = [
         type: "speak",
         text: "Der Zinsanstieg führte zu einem Rückgang des Wohnungsbaus.",
         prompt: "Say it in German: The rise in interest rates led to a decline in house building.",
-        tip: "Zins-an-stieg: z is ts, and \"stieg\" ends in a k sound.",
+        tip: "\"Zinsanstieg\": the z is ts, and \"stieg\" ends in a k sound.",
         explanation: "Fully nominal style: cause as subject, effect as \"zu\" + dative, genitive attribute \"des Wohnungsbaus\".",
       },
       {
@@ -442,7 +443,7 @@ export const DE_C2_U31: Lesson[] = [
         source: "The cut in VAT caused prices to fall.",
         answer: "Die Senkung der Mehrwertsteuer bewirkte, dass die Preise fielen.",
         altAnswers: ["Die Mehrwertsteuersenkung bewirkte, dass die Preise fielen.", "Die Senkung der Mehrwertsteuer führte dazu, dass die Preise sanken.", "Die Senkung der Mehrwertsteuer führte zu sinkenden Preisen.", "Die Senkung der Mehrwertsteuer bewirkte, dass die Preise sanken.", "Die Mehrwertsteuersenkung führte zu sinkenden Preisen."],
-        explanation: "English cause X to do Y becomes \"bewirken, dass\" or \"dazu führen, dass\" in German; there is no infinitive construction.",
+        explanation: "English cause X to do Y becomes \"bewirken, dass\" or \"dazu führen, dass\" in German; German does not use an infinitive construction here.",
       },
     ],
   },
@@ -451,7 +452,7 @@ export const DE_C2_U31: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Wirtschaft und Unternehmen, Part 2 of 3",
-    summary: "Company accounts and the stock market: Umsatz vs Gewinn, Bilanz and Gewinn- und Verlustrechnung, Rendite and Dividende, Aktie, Börsengang and DAX; the Mittelstand and its Hidden Champions; and the trap that a German Billion is a trillion.",
+    summary: "Read and report company results (\"Umsatz\" vs \"Gewinn\", \"Bilanz\"), talk about shares and the stock market (\"Aktie\", \"Dividende\", \"Börsengang\", \"DAX\"), describe the \"Mittelstand\", and avoid the trap that a German \"Billion\" is a trillion.",
     duration: "18 min",
     sections: [
       {
@@ -462,7 +463,7 @@ export const DE_C2_U31: Lesson[] = [
           "Numbers trap: \"eine Milliarde\" is a billion (10^9), \"eine Billion\" is a trillion (10^12). \"Mio.\" and \"Mrd.\" are the abbreviations: \"5,3 Mrd. Euro\" (5.3 billion euros). German uses a comma for decimals and a point or a space for thousands: \"1.250.000\" or \"1 250 000\".",
         ],
         examples: [
-          { es: "Der Umsatz stieg um acht Prozent, der Gewinn jedoch brach ein.", en: "Revenue rose by eight percent, but profit collapsed." },
+          { es: "Der Umsatz stieg um acht Prozent, der Gewinn jedoch brach ein.", en: "Revenue rose by eight per cent, but profit collapsed." },
           { es: "Trotz Rekordumsatz schreibt die Firma rote Zahlen.", en: "Despite record revenue, the company is in the red." },
           { es: "Nach drei Verlustjahren ist der Konzern wieder in der Gewinnzone.", en: "After three years of losses, the group is back in profit." },
           { es: "Der Jahresüberschuss belief sich auf 1,2 Milliarden Euro.", en: "Net income for the year came to 1.2 billion euros." },
@@ -499,16 +500,16 @@ export const DE_C2_U31: Lesson[] = [
       {
         heading: "The stock market: Aktie, Börse, DAX, Dividende",
         body: [
-          "\"Die Börse\" is the stock exchange (Frankfurt is the main German one), \"die Aktie\" a share, \"der Aktionär / die Aktionärin\" a shareholder, \"der Kurs\" the share price. A share \"legt zu\" (gains), \"gibt nach\" (eases), \"bricht ein\" or \"stürzt ab\" (plunges). \"Der DAX\" is the index of the 40 largest listed German companies; \"der MDax\" the next 50.",
+          "\"Die Börse\" is the stock exchange (Frankfurt is the main German one), \"die Aktie\" a share, \"der Aktionär / die Aktionärin\" a shareholder, \"der Kurs\" the share price. A share \"legt zu\" (gains), \"gibt nach\" (eases), \"bricht ein\" or \"stürzt ab\" (plunges). \"Der DAX\" is the index of the 40 largest listed German companies; \"der MDAX\" the next 50.",
           "\"Die Dividende\" is the dividend paid to shareholders, \"die Rendite\" the return or yield on an investment (\"eine Rendite von 5 Prozent\"). \"Der Börsengang\" is the IPO (\"an die Börse gehen\"), and a company with shares traded is \"börsennotiert\".",
           "Germans are traditionally cautious investors: the \"Aktienkultur\" is weaker than in Britain or the US, and many keep their savings on the \"Sparbuch\" or in a \"Tagesgeldkonto\". The rise of ETFs and the \"Aktienrente\" debate are changing that.",
         ],
         examples: [
-          { es: "Der DAX legte am Montag um 1,3 Prozent zu.", en: "The DAX gained 1.3 percent on Monday." },
+          { es: "Der DAX legte am Montag um 1,3 Prozent zu.", en: "The DAX gained 1.3 per cent on Monday." },
           { es: "Nach der Gewinnwarnung brach der Kurs um ein Viertel ein.", en: "After the profit warning, the share price plunged by a quarter." },
           { es: "Die Aktionäre sollen eine höhere Dividende erhalten.", en: "Shareholders are to receive a higher dividend." },
           { es: "Das Unternehmen plant für das Frühjahr den Börsengang.", en: "The company is planning its IPO for the spring." },
-          { es: "Staatsanleihen bringen derzeit eine Rendite von knapp drei Prozent.", en: "Government bonds currently yield just under three percent." },
+          { es: "Staatsanleihen bringen derzeit eine Rendite von knapp drei Prozent.", en: "Government bonds currently yield just under three per cent." },
           { es: "Viele Deutsche misstrauen der Börse und sparen lieber auf dem Tagesgeldkonto.", en: "Many Germans distrust the stock market and prefer to save in an instant-access account." },
         ],
         checkpoint: [
@@ -525,7 +526,7 @@ export const DE_C2_U31: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "The share price plunged by twenty percent.",
+            source: "The share price plunged by twenty per cent.",
             answer: "Der Kurs brach um zwanzig Prozent ein.",
             altAnswers: ["Der Aktienkurs brach um zwanzig Prozent ein.", "Der Kurs ist um zwanzig Prozent eingebrochen.", "Der Aktienkurs ist um zwanzig Prozent eingebrochen.", "Der Kurs stürzte um zwanzig Prozent ab.", "Der Aktienkurs stürzte um 20 Prozent ab.", "Der Kurs brach um 20 Prozent ein."],
             explanation: "\"Um\" gives the size of the change. \"Einbrechen\" and \"abstürzen\" are separable and take \"sein\" in the Perfekt.",
@@ -581,7 +582,7 @@ export const DE_C2_U31: Lesson[] = [
         source: "Despite record revenue, the company made a loss.",
         answer: "Trotz Rekordumsatz machte das Unternehmen Verlust.",
         altAnswers: ["Trotz Rekordumsatzes machte das Unternehmen Verlust.", "Trotz eines Rekordumsatzes machte das Unternehmen Verlust.", "Trotz Rekordumsatz schrieb das Unternehmen rote Zahlen.", "Trotz Rekordumsatz hat das Unternehmen Verlust gemacht.", "Trotz Rekordumsatz machte die Firma Verluste.", "Trotz Rekordumsatz machte das Unternehmen Verluste."],
-        explanation: "\"Trotz\" without an article often takes a bare noun (\"trotz Rekordumsatz\"); Umsatz is revenue, so a loss is still possible.",
+        explanation: "\"Trotz\" without an article often takes a bare noun (\"trotz Rekordumsatz\"); \"Umsatz\" is revenue, so a loss is still possible.",
       },
       {
         type: "translate",
@@ -595,7 +596,7 @@ export const DE_C2_U31: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The DAX [gained] two percent.",
+        en: "The DAX [gained] two per cent.",
         sentence: "Der DAX hat zwei Prozent ___.",
         answer: "zugelegt",
         altAnswers: ["gewonnen"],
@@ -662,28 +663,28 @@ export const DE_C2_U31: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Text Detective: Eine Meldung zur Inflation",
-    summary: "Decode a dpa-style news report on inflation: the lead, figures with um and auf, Vorjahresmonat and Kerninflation, reported statements in Konjunktiv I from the Bundesbank, and the hedges that separate fact from forecast.",
+    summary: "Decode a dpa-style news report on inflation: the lead, figures with \"um\" and \"auf\", \"Vorjahresmonat\" and \"Kerninflation\", the Bundesbank's statements in Konjunktiv I, and the hedges that separate fact from forecast.",
     duration: "18 min",
     sections: [
       {
         heading: "The lead: the news in one sentence",
         body: [
           "A German agency report (\"die Meldung\", from dpa, Reuters or AFP) starts with a dateline and puts the core news in the first sentence. Here is the opening of a typical inflation report:",
-          "„Wiesbaden (dpa) – Die Inflation in Deutschland hat sich im September weiter abgeschwächt. Die Verbraucherpreise lagen um 2,1 Prozent über dem Niveau des Vorjahresmonats, wie das Statistische Bundesamt am Montag nach einer ersten Schätzung mitteilte. Im August hatte die Teuerungsrate noch bei 2,4 Prozent gelegen.“",
-          "Decode it: Wiesbaden is the seat of the Statistisches Bundesamt (Destatis), the federal statistics office. \"Um 2,1 Prozent über dem Niveau des Vorjahresmonats\" means 2.1 percent higher than in the same month last year: inflation is always measured against \"der Vorjahresmonat\". \"Wie ... mitteilte\" (as ... announced) gives the source in a clause, the agency's standard way of attributing facts. And the Plusquamperfekt \"hatte ... gelegen\" places the August figure before the September news.",
+          "\"Wiesbaden (dpa) – Die Inflation in Deutschland hat sich im September weiter abgeschwächt. Die Verbraucherpreise lagen um 2,1 Prozent über dem Niveau des Vorjahresmonats, wie das Statistische Bundesamt am Montag nach einer ersten Schätzung mitteilte. Im August hatte die Teuerungsrate noch bei 2,4 Prozent gelegen.\"",
+          "Decode it: Wiesbaden is the seat of the \"Statistisches Bundesamt\" (\"Destatis\"), the federal statistics office. \"Um 2,1 Prozent über dem Niveau des Vorjahresmonats\" means 2.1 per cent higher than in the same month last year: inflation is always measured against \"der Vorjahresmonat\". \"Wie ... mitteilte\" (as ... announced) gives the source in a clause, the agency's standard way of attributing facts. And the Plusquamperfekt \"hatte ... gelegen\" places the August figure before the September news.",
         ],
         examples: [
           { es: "Die Inflation hat sich im September weiter abgeschwächt.", en: "Inflation eased further in September." },
-          { es: "Die Verbraucherpreise lagen um 2,1 Prozent über dem Niveau des Vorjahresmonats.", en: "Consumer prices were 2.1 percent higher than a year earlier." },
+          { es: "Die Verbraucherpreise lagen um 2,1 Prozent über dem Niveau des Vorjahresmonats.", en: "Consumer prices were 2.1 per cent higher than a year earlier." },
           { es: "Das teilte das Statistische Bundesamt am Montag mit.", en: "The Federal Statistical Office announced this on Monday." },
-          { es: "Im August hatte die Teuerungsrate noch bei 2,4 Prozent gelegen.", en: "In August the inflation rate had still been 2.4 percent." },
+          { es: "Im August hatte die Teuerungsrate noch bei 2,4 Prozent gelegen.", en: "In August the inflation rate had still been 2.4 per cent." },
           { es: "Die Zahlen beruhen auf einer ersten Schätzung.", en: "The figures are based on a first estimate." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
             question: "What does \"um 2,1 Prozent über dem Niveau des Vorjahresmonats\" tell you?",
-            options: ["Prices were 2.1 percent higher than in September of the previous year.", "Prices rose by 2.1 percent from August to September.", "Prices reached a level of 2.1 percent.", "Prices were 2.1 percent above the government's target."],
+            options: ["Prices were 2.1 per cent higher than in September of the previous year.", "Prices rose by 2.1 per cent from August to September.", "Prices reached a level of 2.1 per cent.", "Prices were 2.1 per cent above the government's target."],
             correctIndex: 0,
             explanation: "\"Um\" gives the size of the difference, \"der Vorjahresmonat\" is the same month a year earlier: the standard basis for inflation.",
           },
@@ -702,41 +703,41 @@ export const DE_C2_U31: Lesson[] = [
         heading: "The detail: um vs auf, verteuern and verbilligen",
         body: [
           "The second paragraph breaks the figure down:",
-          "„Energie verbilligte sich im Jahresvergleich um 3,8 Prozent, Nahrungsmittel kosteten dagegen 1,9 Prozent mehr. Dienstleistungen verteuerten sich überdurchschnittlich um 3,6 Prozent. Die sogenannte Kerninflation, bei der die schwankungsanfälligen Preise für Energie und Lebensmittel herausgerechnet werden, sank leicht von 3,0 auf 2,8 Prozent.“",
+          "\"Energie verbilligte sich im Jahresvergleich um 3,8 Prozent, Nahrungsmittel kosteten dagegen 1,9 Prozent mehr. Dienstleistungen verteuerten sich überdurchschnittlich um 3,6 Prozent. Die sogenannte Kerninflation, bei der die schwankungsanfälligen Preise für Energie und Lebensmittel herausgerechnet werden, sank leicht von 3,0 auf 2,8 Prozent.\"",
           "\"Sich verteuern\" (become more expensive) and \"sich verbilligen\" (become cheaper) are the report verbs for prices. The prepositions are the key to the figures: \"um\" + the size of the change (\"um 3,8 Prozent\"), \"auf\" + the new level (\"auf 2,8 Prozent\"), \"von ... auf\" for old and new (\"von 3,0 auf 2,8 Prozent\"). Confusing \"um\" and \"auf\" changes the facts.",
           "\"Die Kerninflation\" (core inflation) leaves out volatile energy and food prices: \"schwankungsanfällig\" (prone to fluctuation) is a typical compound adjective, and \"herausrechnen\" (to calculate out, exclude) a typical statistical verb.",
         ],
         examples: [
-          { es: "Energie verbilligte sich im Jahresvergleich um 3,8 Prozent.", en: "Energy was 3.8 percent cheaper year on year." },
+          { es: "Energie verbilligte sich im Jahresvergleich um 3,8 Prozent.", en: "Energy was 3.8 per cent cheaper year on year." },
           { es: "Dienstleistungen verteuerten sich überdurchschnittlich.", en: "Services became more expensive than average." },
-          { es: "Die Kerninflation sank von 3,0 auf 2,8 Prozent.", en: "Core inflation fell from 3.0 to 2.8 percent." },
-          { es: "Die Mieten stiegen um 2,2 Prozent.", en: "Rents rose by 2.2 percent." },
+          { es: "Die Kerninflation sank von 3,0 auf 2,8 Prozent.", en: "Core inflation fell from 3.0 to 2.8 per cent." },
+          { es: "Die Mieten stiegen um 2,2 Prozent.", en: "Rents rose by 2.2 per cent." },
           { es: "Bei der Kerninflation werden Energie und Lebensmittel herausgerechnet.", en: "Core inflation excludes energy and food." },
-          { es: "Nahrungsmittel kosteten 1,9 Prozent mehr als vor einem Jahr.", en: "Food cost 1.9 percent more than a year ago." },
+          { es: "Nahrungsmittel kosteten 1,9 Prozent mehr als vor einem Jahr.", en: "Food cost 1.9 per cent more than a year ago." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Core inflation fell [to] 2.5 percent.",
+            en: "Core inflation fell [to] 2.5 per cent.",
             sentence: "Die Kerninflation sank ___ 2,5 Prozent.",
             answer: "auf",
-            explanation: "\"Auf\" gives the new level; \"um 2,5 Prozent\" would mean it fell by 2.5 percent.",
+            explanation: "\"Auf\" gives the new level; \"um 2,5 Prozent\" would mean it fell by 2.5 per cent.",
           },
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Services became 3.6 percent more expensive.",
+            source: "Services became 3.6 per cent more expensive.",
             answer: "Dienstleistungen verteuerten sich um 3,6 Prozent.",
             altAnswers: ["Dienstleistungen haben sich um 3,6 Prozent verteuert.", "Die Dienstleistungen verteuerten sich um 3,6 Prozent.", "Dienstleistungen wurden um 3,6 Prozent teurer.", "Dienstleistungen kosteten 3,6 Prozent mehr."],
             explanation: "\"Sich verteuern um\" + the size of the change; decimal comma in German.",
           },
           {
             type: "listen-choose",
-            audio: "Die Preise stiegen von zwei auf drei Prozent.",
+            audio: "Die Teuerungsrate stieg von zwei auf drei Prozent.",
             question: "What does it mean?",
-            options: ["The rate of price increases went from two to three percent.", "Prices rose by two to three percent.", "Prices rose by three percent, two times.", "Prices fell from three to two percent."],
+            options: ["The inflation rate rose from two to three per cent.", "The inflation rate rose by two to three per cent.", "The inflation rate rose by three per cent, twice.", "The inflation rate fell from three to two per cent."],
             correctIndex: 0,
             explanation: "\"Von ... auf\" gives the old and the new level.",
           },
@@ -746,7 +747,7 @@ export const DE_C2_U31: Lesson[] = [
         heading: "Quotes and hedges: Konjunktiv I, dürfte, zufolge",
         body: [
           "The third paragraph reports opinions, and every verb distances the agency from them:",
-          "„Die Bundesbank erklärte in ihrem Monatsbericht, der Preisauftrieb lasse zwar nach, die Inflation sei aber ‚noch nicht besiegt‘. Vor allem die kräftigen Lohnabschlüsse könnten die Preise für Dienstleistungen weiter antreiben. Ökonomen zufolge dürfte die Rate bis zum Jahresende wieder leicht steigen. Die EZB strebt mittelfristig eine Inflationsrate von zwei Prozent an.“",
+          "\"Die Bundesbank erklärte in ihrem Monatsbericht, der Preisauftrieb lasse zwar nach, die Inflation sei aber ‚noch nicht besiegt‘. Vor allem die kräftigen Lohnabschlüsse könnten die Preise für Dienstleistungen weiter antreiben. Ökonomen zufolge dürfte die Rate bis zum Jahresende wieder leicht steigen. Die EZB strebt mittelfristig eine Inflationsrate von zwei Prozent an.\"",
           "Konjunktiv I (\"lasse nach\", \"sei\") marks reported speech: the agency reports, it does not claim. Where Konjunktiv I looks like the indicative (\"sie können\"), Konjunktiv II replaces it (\"könnten\"). \"Ökonomen zufolge\" (according to economists; \"zufolge\" follows its dative noun) and \"laut\" + dative attribute the forecast, and \"dürfte\" (Konjunktiv II of \"dürfen\") expresses a probable forecast: is likely to. Only the last sentence, a known fact, is in the indicative.",
         ],
         examples: [
@@ -755,7 +756,7 @@ export const DE_C2_U31: Lesson[] = [
           { es: "Die Lohnabschlüsse könnten die Preise weiter antreiben.", en: "The wage settlements could push prices up further." },
           { es: "Ökonomen zufolge dürfte die Rate bis Jahresende leicht steigen.", en: "According to economists, the rate is likely to rise slightly by the end of the year." },
           { es: "Laut Statistischem Bundesamt handelt es sich um eine erste Schätzung.", en: "According to the Federal Statistical Office, it is a first estimate." },
-          { es: "Die EZB strebt mittelfristig eine Inflationsrate von zwei Prozent an.", en: "The ECB is aiming for an inflation rate of two percent in the medium term." },
+          { es: "Die EZB strebt mittelfristig eine Inflationsrate von zwei Prozent an.", en: "The ECB is aiming for an inflation rate of two per cent in the medium term." },
         ],
         checkpoint: [
           {
@@ -790,7 +791,7 @@ export const DE_C2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Consumer prices were 2.3 percent higher than a year earlier.",
+        source: "Consumer prices were 2.3 per cent higher than a year earlier.",
         answer: "Die Verbraucherpreise lagen um 2,3 Prozent über dem Niveau des Vorjahresmonats.",
         altAnswers: ["Die Verbraucherpreise lagen 2,3 Prozent über dem Vorjahresniveau.", "Die Verbraucherpreise lagen um 2,3 Prozent über dem Vorjahresniveau.", "Die Verbraucherpreise waren 2,3 Prozent höher als ein Jahr zuvor.", "Die Verbraucherpreise lagen um 2,3 Prozent über dem Niveau des Vorjahres.", "Die Verbraucherpreise stiegen im Vergleich zum Vorjahresmonat um 2,3 Prozent."],
         explanation: "\"Um ... über dem Niveau des Vorjahresmonats\": the size of the difference from the same month last year.",
@@ -799,7 +800,7 @@ export const DE_C2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Energy became 4 percent cheaper.",
+        source: "Energy became 4 per cent cheaper.",
         answer: "Energie verbilligte sich um 4 Prozent.",
         altAnswers: ["Energie hat sich um 4 Prozent verbilligt.", "Energie wurde um 4 Prozent billiger.", "Energie verbilligte sich um vier Prozent.", "Energie wurde 4 Prozent billiger.", "Energie wurde um vier Prozent günstiger."],
         explanation: "\"Sich verbilligen\" is the report verb; \"um\" + the size of the change.",
@@ -807,7 +808,7 @@ export const DE_C2_U31: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Rents rose [by] 2 percent.",
+        en: "Rents rose [by] 2 per cent.",
         sentence: "Die Mieten stiegen ___ 2 Prozent.",
         answer: "um",
         explanation: "\"Um\" + the amount of change; \"auf\" would give the new level.",
@@ -816,7 +817,7 @@ export const DE_C2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "In July the rate had still been 2.6 percent.",
+        source: "In July the rate had still been 2.6 per cent.",
         answer: "Im Juli hatte die Rate noch bei 2,6 Prozent gelegen.",
         altAnswers: ["Im Juli hatte die Rate noch 2,6 Prozent betragen.", "Im Juli hatte die Teuerungsrate noch bei 2,6 Prozent gelegen.", "Im Juli hatte die Inflationsrate noch bei 2,6 Prozent gelegen.", "Im Juli hatte die Inflationsrate noch 2,6 Prozent betragen."],
         explanation: "Plusquamperfekt for an earlier figure in a past-tense report; \"liegen bei\" takes \"haben\".",
@@ -841,16 +842,16 @@ export const DE_C2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Core inflation fell from 3.1 to 2.9 percent.",
+        source: "Core inflation fell from 3.1 to 2.9 per cent.",
         answer: "Die Kerninflation sank von 3,1 auf 2,9 Prozent.",
         altAnswers: ["Die Kerninflation ist von 3,1 auf 2,9 Prozent gesunken.", "Die Kerninflation ging von 3,1 auf 2,9 Prozent zurück.", "Die Kerninflation fiel von 3,1 auf 2,9 Prozent."],
         explanation: "\"Von ... auf\" for the old and new level; decimal commas.",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The ECB is aiming for two percent.",
+        prompt: "Put the words in order to say: The ECB is aiming for two per cent.",
         words: ["Die", "EZB", "strebt", "zwei", "Prozent", "an."],
-        translation: "The ECB is aiming for two percent.",
+        translation: "The ECB is aiming for two per cent.",
         explanation: "\"Anstreben\" (aim for) is separable: \"strebt ... an\".",
       },
       {
@@ -881,7 +882,7 @@ export const DE_C2_U31: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Wirtschaft und Unternehmen, Part 3 of 3",
-    summary: "Mergers, competition and trade: Fusion and Übernahme, Kartell and Bundeskartellamt, Zölle and Lieferketten, the Lieferkettengesetz and Freihandelsabkommen, and the German model of Sozialpartnerschaft, Tarifverhandlungen and Streik.",
+    summary: "Discuss mergers and competition (\"Fusion\", \"Übernahme\", \"Bundeskartellamt\"), trade and supply chains (\"Zölle\", \"Lieferketten\", \"Freihandelsabkommen\"), and explain the German model of \"Sozialpartnerschaft\", pay talks and strikes.",
     duration: "18 min",
     sections: [
       {
@@ -971,7 +972,7 @@ export const DE_C2_U31: Lesson[] = [
           "Watch: \"der Tarif\" in this sense means pay scale, not tariff (which is \"der Zoll\"). \"Nach Tarif bezahlt werden\" means being paid according to the collective agreement.",
         ],
         examples: [
-          { es: "Die IG Metall fordert acht Prozent mehr Lohn.", en: "IG Metall is demanding an eight percent pay rise." },
+          { es: "Die IG Metall fordert acht Prozent mehr Lohn.", en: "IG Metall is demanding an eight per cent pay rise." },
           { es: "Vor der dritten Verhandlungsrunde rief Verdi zu Warnstreiks auf.", en: "Before the third round of talks, Verdi called warning strikes." },
           { es: "Die Tarifparteien einigten sich in der Nacht auf einen Kompromiss.", en: "The two sides in the pay talks agreed on a compromise during the night." },
           { es: "Der Betriebsrat muss der Versetzung zustimmen.", en: "The works council has to approve the transfer." },
@@ -1012,7 +1013,7 @@ export const DE_C2_U31: Lesson[] = [
         source: "The group wants to take over its competitor.",
         answer: "Der Konzern will seinen Konkurrenten übernehmen.",
         altAnswers: ["Der Konzern will den Konkurrenten übernehmen.", "Der Konzern möchte seinen Konkurrenten übernehmen.", "Der Konzern will seinen Wettbewerber übernehmen.", "Der Konzern will den Wettbewerber übernehmen."],
-        explanation: "\"Übernehmen\" (take over) is inseparable here. \"Der Konkurrent\" is a weak noun, but its accusative form looks the same with -en: \"seinen Konkurrenten\".",
+        explanation: "\"Übernehmen\" (take over) is inseparable here. \"Der Konkurrent\" is a weak noun, so the accusative adds -en: \"seinen Konkurrenten\".",
       },
       {
         type: "translate",
@@ -1071,6 +1072,7 @@ export const DE_C2_U31: Lesson[] = [
         prompt: "Put the words in order to say: The two sides agreed on a compromise.",
         words: ["Die", "Tarifparteien", "einigten", "sich", "auf", "einen", "Kompromiss."],
         translation: "The two sides agreed on a compromise.",
+        altOrders: [["Auf", "einen", "Kompromiss", "einigten", "sich", "die", "Tarifparteien."]],
         explanation: "\"Sich einigen auf\" + accusative (agree on). The reflexive pronoun follows the verb.",
       },
       {
@@ -1091,7 +1093,7 @@ export const DE_C2_U31: Lesson[] = [
     slug: "c2-merger-analysis-dialogue-lab",
     level: "DE-C2",
     number: 6,
-    title: "Dialogue Lab: Eine Fusion Analysieren",
+    title: "Dialogue Lab: Eine Fusion analysieren",
     summary: "Join a business radio show where two analysts discuss a planned merger: weigh synergies against risks, argue with figures, interrupt politely, concede and push back.",
     duration: "18 min",
     sections: [
@@ -1099,7 +1101,7 @@ export const DE_C2_U31: Lesson[] = [
         heading: "The opening: what is planned, and the case for it",
         body: [
           "A business programme on the radio. The presenter, Herr Becker, talks to two analysts: Dr. Ayşe Demir, from a bank, and Jonas Richter, from a consumer protection think tank. The topic: the planned merger of two regional energy suppliers, Nordstrom AG and Weserenergie.",
-          "Becker: „Frau Demir, die Nordstrom AG will die Weserenergie für rund 2,8 Milliarden Euro übernehmen. Was spricht aus Ihrer Sicht für den Deal?“ Demir: „Vor allem die Synergien. Beide Unternehmen versorgen benachbarte Regionen, sie könnten Netze, Einkauf und IT zusammenlegen. Das Management beziffert die Einsparungen auf 150 Millionen Euro jährlich, und das halte ich nicht für übertrieben. Hinzu kommen Skaleneffekte beim Ausbau der Windkraft.“",
+          "Becker: \"Frau Demir, die Nordstrom AG will die Weserenergie für rund 2,8 Milliarden Euro übernehmen. Was spricht aus Ihrer Sicht für den Deal?\" Demir: \"Vor allem die Synergien. Beide Unternehmen versorgen benachbarte Regionen, sie könnten Netze, Einkauf und IT zusammenlegen. Das Management beziffert die Einsparungen auf 150 Millionen Euro jährlich, und das halte ich nicht für übertrieben. Hinzu kommen Skaleneffekte beim Ausbau der Windkraft.\"",
           "Useful phrases: \"Was spricht für / gegen...?\" (what speaks for / against), \"aus Ihrer Sicht\" (from your point of view), \"beziffern auf\" + accusative (to put a figure on), \"etwas für übertrieben halten\" (to consider something exaggerated), \"hinzu kommt\" / \"hinzu kommen\" (on top of that). \"Die Synergien\" and \"die Skaleneffekte\" (economies of scale) are the standard arguments for any merger.",
         ],
         examples: [
@@ -1131,14 +1133,14 @@ export const DE_C2_U31: Lesson[] = [
       {
         heading: "The objection: risks, figures, a polite interruption",
         body: [
-          "Becker: „Herr Richter, Sie sehen das kritischer.“ Richter: „Deutlich kritischer. Synergien heißt in der Praxis meistens Stellenabbau, und die Rechnung zahlen am Ende die Kunden. Nach der Fusion hätte das neue Unternehmen in Bremen und Umgebung einen Marktanteil von über 60 Prozent. Ich kann mir kaum vorstellen, dass das Bundeskartellamt das ohne Auflagen durchwinkt.“ Demir: „Wenn ich da kurz einhaken darf...“ Richter: „Gleich, Frau Demir, lassen Sie mich den Gedanken zu Ende führen. Studien zeigen, dass rund die Hälfte aller Fusionen den erhofften Mehrwert nie erreicht. Die Integrationskosten werden fast immer unterschätzt.“",
+          "Becker: \"Herr Richter, Sie sehen das kritischer.\" Richter: \"Deutlich kritischer. Synergien heißt in der Praxis meistens Stellenabbau, und die Rechnung zahlen am Ende die Kunden. Nach der Fusion hätte das neue Unternehmen in Bremen und Umgebung einen Marktanteil von über 60 Prozent. Ich kann mir kaum vorstellen, dass das Bundeskartellamt das ohne Auflagen durchwinkt.\" Demir: \"Wenn ich da kurz einhaken darf...\" Richter: \"Gleich, Frau Demir, lassen Sie mich den Gedanken zu Ende führen. Studien zeigen, dass rund die Hälfte aller Fusionen den erhofften Mehrwert nie erreicht. Die Integrationskosten werden fast immer unterschätzt.\"",
           "Look at the techniques. \"Deutlich kritischer\" picks up the presenter's word and intensifies it. \"Hätte\" (Konjunktiv II) describes the hypothetical situation after the merger. \"Durchwinken\" (to wave through) is a colloquial but common verb for approving without scrutiny. \"Wenn ich da kurz einhaken darf\" is the polite way to interrupt (\"einhaken\": to hook in), and \"Lassen Sie mich den Gedanken zu Ende führen\" the polite way to refuse an interruption.",
-          "Figures as arguments: \"ein Marktanteil von über 60 Prozent\", \"rund die Hälfte aller Fusionen\". Note the singular verb in German with \"die Hälfte\": \"die Hälfte ... erreicht\".",
+          "Figures as arguments: \"ein Marktanteil von über 60 Prozent\", \"rund die Hälfte aller Fusionen\". After \"die Hälfte\" the verb is normally singular: \"die Hälfte ... erreicht\" (the plural is also heard).",
         ],
         examples: [
           { es: "Sie sehen das kritischer.", en: "You take a more critical view." },
           { es: "Synergien heißt in der Praxis meistens Stellenabbau.", en: "In practice, synergies usually mean job cuts." },
-          { es: "Nach der Fusion hätte das Unternehmen einen Marktanteil von über 60 Prozent.", en: "After the merger, the company would have a market share of over 60 percent." },
+          { es: "Nach der Fusion hätte das Unternehmen einen Marktanteil von über 60 Prozent.", en: "After the merger, the company would have a market share of over 60 per cent." },
           { es: "Ich kann mir kaum vorstellen, dass die Behörde das durchwinkt.", en: "I can hardly imagine the authority waving that through." },
           { es: "Wenn ich da kurz einhaken darf...", en: "If I could just come in there..." },
           { es: "Lassen Sie mich den Gedanken zu Ende führen.", en: "Let me finish my point." },
@@ -1175,7 +1177,7 @@ export const DE_C2_U31: Lesson[] = [
       {
         heading: "The reply: concede, then push back",
         body: [
-          "Demir: „Herr Richter hat insofern recht, als viele Fusionen scheitern. Aber hier liegt der Fall anders: Beide Häuser arbeiten seit Jahren zusammen, die Kulturen sind ähnlich. Und was die Kunden angeht: Ohne Investitionen in die Netze steigen die Preise ohnehin. Ein größeres Unternehmen kommt günstiger an Kapital.“ Becker: „Und Ihr Fazit?“ Demir: „Unter Auflagen, etwa dem Verkauf einiger Stadtwerke-Beteiligungen, halte ich die Fusion für sinnvoll.“ Richter: „Da sind wir gar nicht so weit auseinander. Mit strengen Auflagen könnte ich damit leben.“",
+          "Demir: \"Herr Richter hat insofern recht, als viele Fusionen scheitern. Aber hier liegt der Fall anders: Beide Häuser arbeiten seit Jahren zusammen, die Kulturen sind ähnlich. Und was die Kunden angeht: Ohne Investitionen in die Netze steigen die Preise ohnehin. Ein größeres Unternehmen kommt günstiger an Kapital.\" Becker: \"Und Ihr Fazit?\" Demir: \"Unter Auflagen, etwa dem Verkauf einiger Stadtwerke-Beteiligungen, halte ich die Fusion für sinnvoll.\" Richter: \"Da sind wir gar nicht so weit auseinander. Mit strengen Auflagen könnte ich damit leben.\"",
           "\"Insofern recht haben, als...\" (be right insofar as) is the elegant Mastery-level concession: it grants a limited point. \"Hier liegt der Fall anders\" (this case is different) turns it. \"Was ... angeht\" (as far as ... is concerned) introduces a new aspect. \"Ohnehin\" (anyway) neutralises the opponent's argument.",
           "The ending shows the German debating ideal of a reasonable consensus: \"Da sind wir gar nicht so weit auseinander\" (we're not so far apart there), \"damit könnte ich leben\" (I could live with that).",
         ],
@@ -1294,7 +1296,7 @@ export const DE_C2_U31: Lesson[] = [
         type: "speak",
         text: "Das Management beziffert die Einsparungen auf 150 Millionen Euro jährlich.",
         prompt: "Say it in German: Management puts the savings at 150 million euros a year.",
-        tip: "Read 150 as hundertfünfzig, and stress be-ZIF-fert.",
+        tip: "Read 150 as \"hundertfünfzig\", and stress the second syllable of \"beziffert\".",
         explanation: "\"Beziffern auf\" + accusative: the figure is the new level, so \"auf\".",
       },
     ],
@@ -1304,7 +1306,7 @@ export const DE_C2_U31: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Spiral Review: Der Wirtschaftsbericht",
-    summary: "Write the building blocks of a short economic report: nominal style and genitive chains, the passive, Konjunktiv I for statements by others, cause-and-effect structures, and figures with um, auf and im Vorjahresvergleich.",
+    summary: "Write the building blocks of a short economic report: nominal style and genitive chains, the passive, Konjunktiv I for statements by others, cause-and-effect structures, and figures with \"um\", \"auf\" and \"im Vorjahresvergleich\".",
     duration: "18 min",
     sections: [
       {
@@ -1312,14 +1314,14 @@ export const DE_C2_U31: Lesson[] = [
         body: [
           "An economic report packs facts into noun phrases. \"Der Umsatz stieg im Vergleich zum Vorjahr um 4 Prozent\" becomes \"Im Vorjahresvergleich ergab sich ein Umsatzplus von 4 Prozent\" or \"Der Anstieg des Umsatzes um 4 Prozent im Vorjahresvergleich...\". Note how the preposition stays with the noun: \"steigen um\" → \"der Anstieg um\", \"sinken auf\" → \"der Rückgang auf\".",
           "Useful report nouns: \"das Plus\" / \"das Minus\" (\"ein Plus von 3 Prozent\"), \"der Zuwachs\", \"der Rückgang\", \"die Steigerung\", \"die Halbierung\", \"die Verdoppelung\". Useful approximators: \"rund\", \"knapp\" (just under), \"gut\" (just over: \"gut 5 Prozent\"), \"über\" / \"mehr als\".",
-          "Remember percent vs percentage point: if the rate rises from 2 to 3 percent, it rose \"um einen Prozentpunkt\" (and by 50 percent!). German reports are strict about this.",
+          "Remember per cent vs percentage point: if the rate rises from 2 to 3 per cent, it rose \"um einen Prozentpunkt\" (and by 50 per cent!). German reports are strict about this.",
         ],
         examples: [
-          { es: "Im Vorjahresvergleich ergab sich ein Umsatzplus von vier Prozent.", en: "Compared with the previous year, revenue was up four percent." },
+          { es: "Im Vorjahresvergleich ergab sich ein Umsatzplus von vier Prozent.", en: "Compared with the previous year, revenue was up four per cent." },
           { es: "Der Anstieg der Arbeitslosenquote um 0,3 Prozentpunkte überraschte die Experten.", en: "The 0.3 percentage point rise in the unemployment rate surprised the experts." },
           { es: "Der Gewinn hat sich nahezu halbiert.", en: "Profit has almost halved." },
           { es: "Knapp ein Drittel der Betriebe meldet Personalmangel.", en: "Just under a third of firms report staff shortages." },
-          { es: "Der Export legte um gut fünf Prozent zu.", en: "Exports rose by just over five percent." },
+          { es: "Der Export legte um gut fünf Prozent zu.", en: "Exports rose by just over five per cent." },
         ],
         checkpoint: [
           {
@@ -1389,11 +1391,11 @@ export const DE_C2_U31: Lesson[] = [
         heading: "Putting it together: a report paragraph",
         body: [
           "Here is a short report paragraph that combines all of it. Notice each structure:",
-          "„Der Maschinenbauer Hoffmann & Söhne hat im ersten Halbjahr einen Umsatzrückgang von knapp 9 Prozent auf 1,4 Milliarden Euro verbucht. Der operative Gewinn halbierte sich nahezu. Infolge der Auftragsschwäche wurden an zwei Standorten rund 300 Stellen abgebaut. Der Vorstand erklärte, die Talsohle sei inzwischen durchschritten; im zweiten Halbjahr rechne man mit einer leichten Erholung. Analysten zufolge dürfte die Jahresprognose dennoch nicht zu halten sein.“",
+          "\"Der Maschinenbauer Hoffmann & Söhne hat im ersten Halbjahr einen Umsatzrückgang von knapp 9 Prozent auf 1,4 Milliarden Euro verbucht. Der operative Gewinn halbierte sich nahezu. Infolge der Auftragsschwäche wurden an zwei Standorten rund 300 Stellen abgebaut. Der Vorstand erklärte, die Talsohle sei inzwischen durchschritten; im zweiten Halbjahr rechne man mit einer leichten Erholung. Analysten zufolge dürfte die Jahresprognose dennoch nicht zu halten sein.\"",
           "\"Verbuchen\" (to record, book) is the report verb for results. \"Die Talsohle ist durchschritten\" (the bottom of the valley has been passed) means the worst is over. \"Nicht zu halten sein\" (cannot be maintained) is \"sein\" + zu-infinitive again, and \"dürfte\" hedges the forecast.",
         ],
         examples: [
-          { es: "Das Unternehmen hat einen Umsatzrückgang von knapp neun Prozent verbucht.", en: "The company recorded a fall in revenue of just under nine percent." },
+          { es: "Das Unternehmen hat einen Umsatzrückgang von knapp neun Prozent verbucht.", en: "The company recorded a fall in revenue of just under nine per cent." },
           { es: "Der operative Gewinn halbierte sich nahezu.", en: "Operating profit almost halved." },
           { es: "Der Vorstand erklärte, die Talsohle sei durchschritten.", en: "The board said the worst was over." },
           { es: "Im zweiten Halbjahr rechne man mit einer leichten Erholung.", en: "A slight recovery was expected in the second half, it said." },
@@ -1423,7 +1425,7 @@ export const DE_C2_U31: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Compared with the previous year, revenue rose by six percent.",
+        source: "Compared with the previous year, revenue rose by six per cent.",
         answer: "Im Vorjahresvergleich stieg der Umsatz um sechs Prozent.",
         altAnswers: ["Im Vergleich zum Vorjahr stieg der Umsatz um sechs Prozent.", "Im Vorjahresvergleich ist der Umsatz um sechs Prozent gestiegen.", "Der Umsatz stieg im Vergleich zum Vorjahr um sechs Prozent.", "Im Vergleich zum Vorjahr ist der Umsatz um sechs Prozent gestiegen.", "Gegenüber dem Vorjahr stieg der Umsatz um sechs Prozent."],
         explanation: "\"Im Vorjahresvergleich\" is the compact report phrase; \"um\" for the size of the change.",
@@ -1465,16 +1467,16 @@ export const DE_C2_U31: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The rate rose from 4 to 5 percent. Which sentence is accurate?",
+        question: "The rate rose from 4 to 5 per cent. Which sentence is accurate?",
         options: ["Die Quote stieg um einen Prozentpunkt.", "Die Quote stieg um ein Prozent.", "Die Quote stieg auf einen Prozentpunkt.", "Die Quote stieg um fünf Prozent."],
         correctIndex: 0,
-        explanation: "From 4 to 5 percent is one percentage point (and a 25 percent increase). \"Um ein Prozent\" would be wrong.",
+        explanation: "From 4 to 5 per cent is one percentage point (and a 25 per cent increase). \"Um ein Prozent\" would be wrong.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Exports rose by just over three percent.",
+        source: "Exports rose by just over three per cent.",
         answer: "Die Exporte stiegen um gut drei Prozent.",
         altAnswers: ["Die Exporte legten um gut drei Prozent zu.", "Die Ausfuhren stiegen um gut drei Prozent.", "Die Exporte sind um gut drei Prozent gestiegen.", "Die Exporte stiegen um etwas mehr als drei Prozent."],
         explanation: "\"Gut\" before a figure means just over; \"knapp\" would be just under.",
@@ -1495,7 +1497,7 @@ export const DE_C2_U31: Lesson[] = [
         type: "speak",
         text: "Infolge der Auftragsschwäche wurden rund 300 Stellen abgebaut.",
         prompt: "Say it in German: As a result of weak orders, around 300 jobs were cut.",
-        tip: "AUF-trags-schwä-che: stress the first syllable; -schwä- has a long open ä.",
+        tip: "\"Auftragsschwäche\": stress the first syllable; the ä in \"Schwäche\" is short and open.",
         explanation: "Nominal cause (\"infolge\" + genitive) plus passive: the two staples of a report.",
       },
       {
@@ -1514,14 +1516,14 @@ export const DE_C2_U31: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Mastery Vocabulary: Literary and Art Criticism",
-    summary: "Revisit the language of criticism in new contexts: Werk, Gattung, Epoche, Stilrichtung, Rezeption, Wirkung, Deutung, Interpretation and Ambivalenz, with their collocations and the traps around them.",
+    summary: "Talk about literature and art like a critic: place a work in its genre and period, describe its reception and effect, and discuss interpretations and ambivalence, with the key collocations (\"Werk\", \"Gattung\", \"Epoche\", \"Rezeption\", \"Deutung\") and their traps.",
     duration: "16 min",
     sections: [
       {
         heading: "Werk, Gattung, Epoche, Stilrichtung",
         body: [
-          "\"Das Werk\" is a single work and also an author's whole output: \"das Gesamtwerk\", \"das Frühwerk\" (early work), \"das Spätwerk\". \"Das Hauptwerk\" is someone's major work. With \"Werk\" you need neutral articles: \"ihr neues Werk\", not \"ihre\".",
-          "\"Die Gattung\" is the genre in the broad sense: the three classical \"Gattungen\" are \"Epik\" (narrative), \"Lyrik\" (poetry) and \"Dramatik\" (drama). Within them, \"die Textsorte\" or \"das Genre\" (Krimi, Novelle, Ballade). Note: \"die Lyrik\" means poetry in general, not song lyrics (\"der Songtext\").",
+          "\"Das Werk\" is a single work and also an author's whole output: \"das Gesamtwerk\", \"das Frühwerk\" (early work), \"das Spätwerk\". \"Das Hauptwerk\" is someone's major work. \"Das Werk\" is neuter: \"ihr neues Werk\", not \"*ihre neues Werk*\".",
+          "\"Die Gattung\" is the genre in the broad sense: the three classical \"Gattungen\" are \"Epik\" (narrative), \"Lyrik\" (poetry) and \"Dramatik\" (drama). Within them, \"die Textsorte\" or \"das Genre\" (\"Krimi\", \"Novelle\", \"Ballade\"). Note: \"die Lyrik\" means poetry in general, not song lyrics (\"der Songtext\").",
           "\"Die Epoche\" is a literary or art-historical period: \"Sturm und Drang\", \"Klassik\", \"Romantik\", \"Realismus\", \"Expressionismus\". \"Die Stilrichtung\" or \"die Strömung\" is a style or movement: \"Die Neue Sachlichkeit ist eine Stilrichtung der Zwanzigerjahre\". You \"ordnen ein Werk einer Epoche zu\" (assign it to a period).",
         ],
         examples: [
@@ -1555,7 +1557,7 @@ export const DE_C2_U31: Lesson[] = [
       {
         heading: "Rezeption and Wirkung",
         body: [
-          "\"Die Rezeption\" is how a work was received by readers, critics and later generations: \"Die Rezeption des Romans war zunächst verhalten\" (initially muted). It is not the reception desk of a hotel (that is also \"die Rezeption\", but context makes it clear). \"Die Wirkung\" is the effect a work has (\"die Wirkung auf den Leser\"), and \"die Wirkungsgeschichte\" its influence over time.",
+          "\"Die Rezeption\" is how a work was received by readers, critics and later generations: \"Die Rezeption des Romans war zunächst verhalten\" (initially muted). A hotel's reception desk is also \"die Rezeption\", but context makes it clear. \"Die Wirkung\" is the effect a work has (\"die Wirkung auf den Leser\"), and \"die Wirkungsgeschichte\" its influence over time.",
           "Collocations: a work \"stößt auf Ablehnung\" (meets with rejection), \"findet großen Anklang\" (meets with great approval), \"löst eine Debatte aus\", \"erregt Aufsehen\" (causes a stir), \"gerät in Vergessenheit\" (falls into oblivion) and \"wird wiederentdeckt\" (is rediscovered).",
           "\"Wirken\" as a verb has two uses at the Mastery level: to come across as (\"Das Bild wirkt bedrohlich\") and to have an effect or influence (\"Brechts Theater wirkt bis heute nach\": still has an effect today).",
         ],
@@ -1684,7 +1686,7 @@ export const DE_C2_U31: Lesson[] = [
         source: "Her late work is darker than her early work.",
         answer: "Ihr Spätwerk ist düsterer als ihr Frühwerk.",
         altAnswers: ["Ihr Spätwerk ist dunkler als ihr Frühwerk.", "Ihr Spätwerk ist düsterer als ihr frühes Werk.", "Ihr spätes Werk ist düsterer als ihr frühes Werk."],
-        explanation: "\"Das Werk\" is neuter, so \"ihr Spätwerk\" (no ending on ihr). \"Düster\" drops an e in the comparative: \"düsterer\".",
+        explanation: "\"Das Werk\" is neuter, so \"ihr Spätwerk\" (no ending on ihr). \"Düster\" simply adds -er: \"düsterer\" (unlike \"dunkel\", which drops an e: \"dunkler\").",
       },
       {
         type: "multiple-choice",

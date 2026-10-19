@@ -15,7 +15,7 @@ export const DE_A1_U04: Lesson[] = [
         heading: "Ich werde, du wirst, er wird",
         body: [
           "\"Werden\" means to become or to get (in the sense of become: get cold, get tired). It's irregular in the du and er/sie/es forms: \"ich werde\", \"du wirst\", \"er/sie/es wird\", then regular again: \"wir werden\", \"ihr werdet\", \"sie/Sie werden\".",
-          "The two odd forms both drop the d of the stem: \"du wirst\" (not *du werdst) and \"er wird\" (not *er werdet). The e also becomes i, like \"sprechen\" and \"spricht\".",
+          "In the two odd forms the e becomes i, like \"sprechen\" and \"spricht\": \"du wirst\" also drops the d of the stem (not \"*du werdst\"), and \"er wird\" keeps the d but adds no -t (not \"*er werdet\").",
           "\"Ihr werdet\" is regular: the stem \"werd-\" ends in d, so it adds -et, like \"ihr arbeitet\".",
         ],
         examples: [
@@ -32,7 +32,7 @@ export const DE_A1_U04: Lesson[] = [
             en: "It's [getting] cold.",
             sentence: "Es ___ kalt.",
             answer: "wird",
-            explanation: "The es form of \"werden\" is \"wird\": no d-ending, and e becomes i.",
+            explanation: "The es form of \"werden\" is \"wird\": e becomes i, and no -t is added (not \"*es werdet\").",
           },
           {
             type: "translate",
@@ -47,7 +47,7 @@ export const DE_A1_U04: Lesson[] = [
       {
         heading: "Becoming something: jobs, age, weather",
         body: [
-          "For a future job, use \"werden\" with no article, just like with \"sein\": \"Sie wird Ärztin\" (she's going to be a doctor, she's training as a doctor). \"Was willst du werden?\" is what children are asked.",
+          "For a future job, use \"werden\" with no article, just like with \"sein\": \"Sie wird Ärztin\" (she's going to be a doctor, she's training as a doctor). \"Was willst du werden?\" (What do you want to be?) is what children are asked; you'll meet \"wollen\" in Lesson 5.",
           "Birthdays: \"Er wird 30\" (he's turning 30). Weather and light: \"Es wird kalt\", \"Es wird dunkel\" (it's getting dark), \"Es wird warm\".",
           "English often uses get or turn or be going to be here; German has one verb for all of them.",
         ],
@@ -122,7 +122,7 @@ export const DE_A1_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "You're getting nervous. (to a friend)",
         answer: "Du wirst nervös.",
-        explanation: "\"Du wirst\": no d, e becomes i. *Du werdst is a common slip.",
+        explanation: "\"Du wirst\": no d, e becomes i. \"*Du werdst\" is a common slip.",
       },
       {
         type: "translate",
@@ -207,7 +207,7 @@ export const DE_A1_U04: Lesson[] = [
         heading: "Wissen: knowing facts",
         body: [
           "\"Wissen\" is knowing a fact or a piece of information: an answer, a time, an address. It's irregular in the singular: \"ich weiß\", \"du weißt\", \"er/sie/es weiß\", then \"wir wissen\", \"ihr wisst\", \"sie/Sie wissen\".",
-          "Notice \"ich weiß\" and \"er weiß\" are identical, with no -t for er: *er weißt is wrong. This is the same pattern as the modal verbs you'll meet next.",
+          "Notice \"ich weiß\" and \"er weiß\" are identical, with no -t for er: \"*er weißt\" is wrong. This is the same pattern as the modal verbs you'll meet next.",
           "Very common chunks: \"Ich weiß es nicht\" or just \"Ich weiß nicht\" (I don't know), \"Weißt du das?\" (Do you know that?), \"Das weiß ich\" (I know that), \"Keine Ahnung!\" (No idea!).",
         ],
         examples: [
@@ -241,8 +241,8 @@ export const DE_A1_U04: Lesson[] = [
         heading: "Kennen: knowing people and places",
         body: [
           "\"Kennen\" is being familiar with someone or something: a person, a city, a restaurant, a film, a song. It's completely regular: \"ich kenne\", \"du kennst\", \"er kennt\".",
-          "\"Kennst du Anna?\" (Do you know Anna?), \"Ich kenne Berlin gut\" (I know Berlin well), \"Kennen Sie das Café?\". You can't \"wissen\" a person: *Ich weiß Anna is impossible.",
-          "English know covers both meanings, so every time you want to say know, ask yourself: a fact (wissen) or an acquaintance (kennen)?",
+          "\"Kennst du Anna?\" (Do you know Anna?), \"Ich kenne Berlin gut\" (I know Berlin well), \"Kennen Sie das Café?\". You can't \"wissen\" a person: \"*Ich weiß Anna\" is impossible.",
+          "English know covers both meanings, so every time you want to say know, ask yourself: a fact (\"wissen\") or an acquaintance (\"kennen\")?",
         ],
         examples: [
           { es: "Kennst du Anna?", en: "Do you know Anna?" },
@@ -296,7 +296,7 @@ export const DE_A1_U04: Lesson[] = [
             prompt: "Translate into German.",
             source: "I know the answer.",
             answer: "Ich weiß die Antwort.",
-            explanation: "An answer is a fact: \"wissen\". *Ich kenne die Antwort is the typical slip.",
+            explanation: "An answer is a fact: \"wissen\". \"*Ich kenne die Antwort\" is the typical slip.",
           },
           {
             type: "translate",
@@ -474,7 +474,7 @@ export const DE_A1_U04: Lesson[] = [
       {
         heading: "Mag or möchte?",
         body: [
-          "\"Ich mag Kaffee\" is a general taste: I like coffee. \"Ich möchte einen Kaffee\" is a wish right now: I'd like a coffee. Ordering with *Ich mag einen Kaffee, bitte sounds like you're telling the waiter about your taste in drinks.",
+          "\"Ich mag Kaffee\" is a general taste: I like coffee. \"Ich möchte einen Kaffee\" is a wish right now: I'd like a coffee. Ordering with \"*Ich mag einen Kaffee, bitte\" sounds like you're telling the waiter about your taste in drinks.",
           "In shops and cafés, \"möchte\" is the safe, polite choice. \"Ich will\" (I want) exists too, but in a café it sounds pushy, like a child.",
         ],
         examples: [
@@ -594,7 +594,7 @@ export const DE_A1_U04: Lesson[] = [
         heading: "Ich kann, du kannst, er kann",
         body: [
           "\"Können\" (can, to be able to) is a modal verb. Modals have their own pattern in the singular: a different vowel, and no ending at all for ich and er/sie/es: \"ich kann\", \"du kannst\", \"er/sie/es kann\". The plural is regular with the umlaut: \"wir können\", \"ihr könnt\", \"sie/Sie können\".",
-          "*Er kannt is the typical slip: modals never add -t in the er form. You've already seen this no-ending pattern with \"ich weiß / er weiß\" and \"ich mag / er mag\".",
+          "\"*Er kannt\" is the typical slip: modals never add -t in the er form. You've already seen this no-ending pattern with \"ich weiß / er weiß\" and \"ich mag / er mag\".",
           "\"Können\" can also stand alone for languages and skills: \"Ich kann Deutsch\" (I can speak German), \"Kannst du das?\" (Can you do that?).",
         ],
         examples: [
@@ -611,7 +611,7 @@ export const DE_A1_U04: Lesson[] = [
             en: "Mia [can] cook really well.",
             sentence: "Mia ___ sehr gut kochen.",
             answer: "kann",
-            explanation: "The er/sie form of a modal has no ending: \"sie kann\", never *sie kannt.",
+            explanation: "The er/sie form of a modal has no ending: \"sie kann\", never \"*sie kannt\".",
           },
           {
             type: "translate",
@@ -628,8 +628,8 @@ export const DE_A1_U04: Lesson[] = [
         heading: "The bracket: modal second, infinitive last",
         body: [
           "When a modal is used with another verb, the modal takes the normal verb slot (second place, with the ending) and the other verb goes to the very end of the sentence in its infinitive form: \"Ich kann heute nicht kommen\". Everything else sits between them, like inside a pair of brackets.",
-          "English keeps the two verbs together: I can't come today. German splits them: \"kann ... kommen\". The longer the middle, the more English speakers are tempted to put the infinitive too early: *Ich kann schwimmen gut is wrong; it's \"Ich kann gut schwimmen\".",
-          "No \"zu\" with modals: *Ich kann zu schwimmen is wrong, just as English says I can swim, not I can to swim.",
+          "English keeps the two verbs together: I can't come today. German splits them: \"kann ... kommen\". The longer the middle, the more English speakers are tempted to put the infinitive too early: \"*Ich kann schwimmen gut\" is wrong; it's \"Ich kann gut schwimmen\".",
+          "No \"zu\" with modals: \"*Ich kann zu schwimmen\" is wrong, just as English says I can swim, not I can to swim.",
         ],
         examples: [
           { es: "Ich kann heute nicht kommen.", en: "I can't come today." },
@@ -653,7 +653,7 @@ export const DE_A1_U04: Lesson[] = [
             prompt: "Put the words in order to say: Can you swim well?",
             words: ["Kannst", "du", "gut", "schwimmen?"],
             translation: "Can you swim well?",
-            explanation: "In a yes/no question the modal comes first, but the infinitive still goes to the end. *Kannst du schwimmen gut is wrong.",
+            explanation: "In a yes/no question the modal comes first, but the infinitive still goes to the end. \"*Kannst du schwimmen gut\" is wrong.",
           },
           {
             type: "multiple-choice",
@@ -693,7 +693,7 @@ export const DE_A1_U04: Lesson[] = [
             question: "What does it mean?",
             options: ["Could you speak slowly?", "Could you speak louder?", "Can you speak German?", "Can they speak slowly?"],
             correctIndex: 0,
-            explanation: "\"Langsam\" means slowly. A capital \"Sie\" at the start of a question is usually polite you.",
+            explanation: "\"Langsam\" means slowly. \"Sie\" with a capital S after the verb is polite you; lowercase \"sie\" would be they.",
           },
         ],
       },
@@ -935,7 +935,7 @@ export const DE_A1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend says: Du musst nicht kommen. What does she mean?",
+        question: "Your friend says: \"Du musst nicht kommen.\" What does she mean?",
         options: ["You don't have to come.", "You mustn't come.", "You can't come.", "You won't come."],
         correctIndex: 0,
         explanation: "\"Nicht müssen\" removes the obligation; it doesn't forbid.",
@@ -1165,7 +1165,7 @@ export const DE_A1_U04: Lesson[] = [
     slug: "a1-contrast-modals",
     level: "DE-A1",
     number: 7,
-    title: "Contrast Clinic: Muss Nicht or Darf Nicht? Will or Werde?",
+    title: "Contrast Clinic: Muss nicht or Darf nicht? Will or Werde?",
     summary: "Minimal pairs that separate the modals English speakers mix up: muss nicht and darf nicht, will and werde, mag and möchte, kann and darf.",
     duration: "14 min",
     sections: [
@@ -1198,7 +1198,7 @@ export const DE_A1_U04: Lesson[] = [
             source: "You mustn't swim here. (to a child)",
             answer: "Du darfst hier nicht schwimmen.",
             altAnswers: ["Hier darfst du nicht schwimmen."],
-            explanation: "A ban: \"nicht dürfen\". *Du musst hier nicht schwimmen means you don't have to swim.",
+            explanation: "A ban: \"nicht dürfen\". \"*Du musst hier nicht schwimmen\" means you don't have to swim.",
           },
         ],
       },
@@ -1229,7 +1229,7 @@ export const DE_A1_U04: Lesson[] = [
             source: "I want to become a teacher.",
             answer: "Ich will Lehrer werden.",
             altAnswers: ["Ich will Lehrerin werden.", "Ich möchte Lehrer werden.", "Ich möchte Lehrerin werden."],
-            explanation: "\"Wollen\" + \"werden\" at the end. Not *Ich werde Lehrer, which says it's going to happen.",
+            explanation: "\"Wollen\" + \"werden\" at the end. Not \"*Ich werde Lehrer\", which says it's going to happen.",
           },
         ],
       },
@@ -1366,8 +1366,8 @@ export const DE_A1_U04: Lesson[] = [
       {
         heading: "Morning: finding the office",
         body: [
-          "Mehmet moves from Köln to Berlin and starts a new job at a start-up today. He has to be there at 9: „Ich muss um 9 Uhr da sein.“ But he doesn't know the way: „Ich weiß nicht, wo das Büro ist.“",
-          "He asks a woman at the U-Bahn station, politely with \"Sie\": „Entschuldigung, können Sie mir helfen? Kennen Sie die Torstraße?“ She answers: „Ja, die kenne ich. Sie müssen nur geradeaus gehen.“",
+          "Mehmet moves from Köln to Berlin and starts a new job at a start-up today. He has to be there at 9: \"Ich muss um 9 Uhr da sein.\" But he doesn't know the way: \"Ich weiß nicht, wo das Büro ist.\"",
+          "He asks a woman at the U-Bahn station, politely with \"Sie\": \"Entschuldigung, können Sie mir helfen? Kennen Sie die Torstraße?\" She answers: \"Ja, die kenne ich. Sie müssen nur geradeaus gehen.\"",
           "Notice \"kennen\" for a street (a place), \"wissen\" for where something is, \"können Sie\" for a request, and \"müssen\" for what he has to do.",
         ],
         examples: [
@@ -1398,8 +1398,8 @@ export const DE_A1_U04: Lesson[] = [
       {
         heading: "At the office",
         body: [
-          "His new colleague Lena says du straight away, as many young companies do: „Hallo Mehmet! Möchtest du einen Kaffee?“ Mehmet: „Ja, gern. Darf ich hier parken? Ich habe ein Fahrrad.“ Lena: „Fahrräder darf man hier nicht parken, aber im Hof.“",
-          "Later: „Soll ich das heute machen?“ Lena: „Nein, das musst du heute nicht machen. Aber du kannst schon die E-Mails lesen.“",
+          "His new colleague Lena says du straight away, as many young companies do: \"Hallo Mehmet! Möchtest du einen Kaffee?\" Mehmet: \"Ja, gern. Darf ich hier parken? Ich habe ein Fahrrad.\" Lena: \"Fahrräder darf man hier nicht parken, aber im Hof.\"",
+          "Later: \"Soll ich das heute machen?\" Lena: \"Nein, das musst du heute nicht machen. Aber du kannst schon die E-Mails lesen.\"",
           "Every modal has its job: \"möchtest\" for an offer, \"darf\" for permission, \"darf man nicht\" for a rule, \"soll ich\" for asking what's expected, \"musst nicht\" for no obligation, \"kannst\" for possibility.",
         ],
         examples: [
@@ -1439,7 +1439,7 @@ export const DE_A1_U04: Lesson[] = [
       {
         heading: "Evening: a message home",
         body: [
-          "Mehmet writes to his sister Ayşe in Köln: „Hallo Ayşe! Der erste Tag ist super. Die Kollegen sind sehr nett. Ich muss viel lernen, aber ich kann das. Heute Abend will ich Berlin sehen. Kennst du ein Restaurant in Kreuzberg? Es wird schon dunkel!“",
+          "Mehmet writes to his sister Ayşe in Köln: \"Hallo Ayşe! Der erste Tag ist super. Die Kollegen sind sehr nett. Ich muss viel lernen, aber ich kann das. Heute Abend will ich Berlin sehen. Kennst du ein Restaurant in Kreuzberg? Es wird schon dunkel!\"",
           "A short message like this is exactly what the Goethe A1 writing test asks for. Count the verbs: \"sein\", \"müssen\", \"können\", \"wollen\", \"kennen\" and \"werden\".",
         ],
         examples: [
@@ -1474,7 +1474,7 @@ export const DE_A1_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "I have to be there at 9.",
         answer: "Ich muss um 9 Uhr da sein.",
-        altAnswers: ["Ich muss um neun Uhr da sein.", "Ich muss um 9 da sein.", "Ich muss um neun da sein.", "Um 9 Uhr muss ich da sein."],
+        altAnswers: ["Ich muss um neun Uhr da sein.", "Ich muss um 9 da sein.", "Ich muss um neun da sein.", "Um 9 Uhr muss ich da sein.", "Um neun Uhr muss ich da sein.", "Ich muss um 9 Uhr dort sein."],
         explanation: "\"Muss\" second, \"sein\" at the very end.",
       },
       {
@@ -1619,7 +1619,7 @@ export const DE_A1_U04: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm waiting for Anna.",
             answer: "Ich warte auf Anna.",
-            explanation: "\"Warten auf\" = wait for. *Ich warte für Anna is a direct translation of English.",
+            explanation: "\"Warten auf\" = wait for. \"*Ich warte für Anna\" is a direct translation of English.",
           },
           {
             type: "fill-blank",
@@ -1719,7 +1719,7 @@ export const DE_A1_U04: Lesson[] = [
         question: "Your colleague says she's going to be a mother. Which sentence fits?",
         options: ["Ich bekomme ein Kind.", "Ich werde ein Kind.", "Ich bekomme Mutter.", "Ich hole ein Kind."],
         correctIndex: 0,
-        explanation: "To have a baby is \"ein Kind bekommen\". \"Ich werde Mutter\" would also work, but not *ich werde ein Kind.",
+        explanation: "To have a baby is \"ein Kind bekommen\". \"Ich werde Mutter\" would also work, but not \"*ich werde ein Kind\".",
       },
       {
         type: "translate",

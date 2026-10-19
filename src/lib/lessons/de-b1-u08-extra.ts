@@ -98,7 +98,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         source: "If you're cold, close the window. (to a friend)",
         answer: "Wenn dir kalt ist, mach das Fenster zu.",
         altAnswers: ["Wenn dir kalt ist, schließ das Fenster.", "Falls dir kalt ist, mach das Fenster zu.", "Wenn es dir kalt ist, mach das Fenster zu."],
-        explanation: "German says \"mir/dir ist kalt\" (dative), not *ich bin kalt.",
+        explanation: "German says \"mir/dir ist kalt\" (dative), not \"*ich bin kalt\".",
       },
       {
         type: "translate",
@@ -106,7 +106,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "If the train is on time, I'll be home at six.",
         answer: "Wenn der Zug pünktlich ist, bin ich um sechs zu Hause.",
-        altAnswers: ["Falls der Zug pünktlich ist, bin ich um sechs zu Hause.", "Wenn der Zug pünktlich ist, bin ich um sechs Uhr zu Hause.", "Ich bin um sechs zu Hause, wenn der Zug pünktlich ist."],
+        altAnswers: ["Falls der Zug pünktlich ist, bin ich um sechs zu Hause.", "Wenn der Zug pünktlich ist, bin ich um sechs Uhr zu Hause.", "Ich bin um sechs zu Hause, wenn der Zug pünktlich ist.", "Wenn der Zug pünktlich ist, bin ich um sechs zuhause."],
         explanation: "Present tense for the future in both clauses.",
       },
       {
@@ -242,7 +242,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "If you were here, we could go to the cinema. (to a friend)",
         answer: "Wenn du hier wärst, könnten wir ins Kino gehen.",
-        altAnswers: ["Wenn du hier wärest, könnten wir ins Kino gehen.", "Wir könnten ins Kino gehen, wenn du hier wärst.", "Wenn ihr hier wärt, könnten wir ins Kino gehen."],
+        altAnswers: ["Wenn du hier wärest, könnten wir ins Kino gehen.", "Wir könnten ins Kino gehen, wenn du hier wärst."],
         explanation: "\"Wärst\" + \"könnten\".",
       },
       {
@@ -251,7 +251,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "If I knew the answer, I'd tell you.",
         answer: "Wenn ich die Antwort wüsste, würde ich sie dir sagen.",
-        altAnswers: ["Wenn ich die Antwort wüsste, würde ich es dir sagen.", "Ich würde sie dir sagen, wenn ich die Antwort wüsste.", "Wenn ich die Antwort wüsste, würde ich sie Ihnen sagen."],
+        altAnswers: ["Wenn ich die Antwort wüsste, würde ich es dir sagen.", "Ich würde sie dir sagen, wenn ich die Antwort wüsste.", "Wenn ich die Antwort wüsste, würde ich sie Ihnen sagen.", "Wenn ich die Antwort wüsste, würde ich sie euch sagen.", "Wenn ich die Antwort wüsste, würde ich es Ihnen sagen.", "Wenn ich die Antwort wüsste, würde ich es euch sagen."],
         explanation: "\"Wüsste\" is the common one-word form of \"wissen\".",
       },
       {
@@ -759,7 +759,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
       {
         heading: "Recap: falls for emergencies",
         body: [
-          "Safety notices use \"falls\" or \"im Fall\" + indicative and polite Sie imperatives: \"Falls es brennt, verlassen Sie sofort das Gebäude\". In a dialogue, a new colleague might ask \"Was mache ich, falls...?\"",
+          "Safety notices use \"falls\" + indicative (or a noun phrase like \"im Brandfall\", \"im Notfall\") and polite Sie imperatives: \"Falls es brennt, verlassen Sie sofort das Gebäude\". In a dialogue, a new colleague might ask \"Was mache ich, falls...?\"",
           "Words: \"der Notausgang\" (emergency exit), \"der Feuerlöscher\" (fire extinguisher), \"der Feueralarm\", \"der Sammelplatz\" (assembly point), \"der Aufzug\" (lift), \"die Notrufnummer 112\".",
         ],
         examples: [
@@ -1007,11 +1007,11 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "If you see Lena, [tell] her hello. (to a friend)",
+        en: "If you see Lena, [say hello] to her from me. (to a friend)",
         sentence: "Wenn du Lena siehst, ___ sie von mir.",
         answer: "grüß",
         altAnswers: ["grüße"],
-        explanation: "\"Grüßen\" → \"grüß\": say hello to.",
+        explanation: "Du imperative of \"grüßen\" (to greet, say hello to): \"grüß\" (or \"grüße\"). It takes a direct object, so \"sie\" (accusative), not \"ihr\".",
       },
       {
         type: "multiple-choice",
@@ -1266,7 +1266,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "If you want, you can sleep here. (to a friend)",
         answer: "Wenn du willst, kannst du hier schlafen.",
-        altAnswers: ["Wenn du möchtest, kannst du hier schlafen.", "Du kannst hier schlafen, wenn du willst.", "Wenn ihr wollt, könnt ihr hier schlafen."],
+        altAnswers: ["Wenn du möchtest, kannst du hier schlafen.", "Du kannst hier schlafen, wenn du willst."],
         explanation: "Real offer: indicative.",
       },
       {
@@ -1293,7 +1293,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "If I lived in Berlin, I'd go to concerts more often.",
         answer: "Wenn ich in Berlin wohnen würde, würde ich öfter auf Konzerte gehen.",
-        altAnswers: ["Wenn ich in Berlin wohnte, würde ich öfter auf Konzerte gehen.", "Wenn ich in Berlin wohnen würde, würde ich öfter in Konzerte gehen.", "Wenn ich in Berlin leben würde, würde ich öfter auf Konzerte gehen."],
+        altAnswers: ["Wenn ich in Berlin wohnte, würde ich öfter auf Konzerte gehen.", "Wenn ich in Berlin wohnen würde, würde ich öfter in Konzerte gehen.", "Wenn ich in Berlin leben würde, würde ich öfter auf Konzerte gehen.", "Wenn ich in Berlin wohnen würde, würde ich öfter ins Konzert gehen."],
         explanation: "Unreal (I don't live there).",
       },
       {
@@ -1558,7 +1558,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "If you come, I'll cook. (to a friend)",
         answer: "Wenn du kommst, koche ich.",
-        altAnswers: ["Falls du kommst, koche ich.", "Ich koche, wenn du kommst.", "Wenn ihr kommt, koche ich."],
+        altAnswers: ["Falls du kommst, koche ich.", "Ich koche, wenn du kommst."],
         explanation: "A condition: \"wenn\".",
       },
       {
@@ -1669,7 +1669,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Wenn ich in Spanien leben würde, würde ich später zu Abend essen.", en: "If I lived in Spain, I'd have dinner later." },
-          { es: "Wenn ich in der Schweiz wohnen würde, müsste ich Französisch lernen.", en: "If I lived in Switzerland, I'd have to learn French." },
+          { es: "Wenn ich in der Schweiz wohnen würde, müsste ich Schweizerdeutsch lernen.", en: "If I lived in Switzerland, I'd have to learn Swiss German." },
           { es: "In Kanada hätte ich viel mehr Platz.", en: "In Canada I'd have much more space." },
           { es: "Ich würde meine Familie vermissen.", en: "I'd miss my family." },
           { es: "In Wirklichkeit wohne ich in einer kleinen Wohnung in Köln.", en: "In reality I live in a small flat in Cologne." },
@@ -1698,10 +1698,10 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "If I lived in Switzerland, I'd have to learn French.",
-        answer: "Wenn ich in der Schweiz wohnen würde, müsste ich Französisch lernen.",
-        altAnswers: ["Wenn ich in der Schweiz leben würde, müsste ich Französisch lernen.", "Wenn ich in der Schweiz wohnte, müsste ich Französisch lernen."],
-        explanation: "\"In der Schweiz\": the country takes an article.",
+        source: "If I lived in Switzerland, I'd have to learn Swiss German.",
+        answer: "Wenn ich in der Schweiz wohnen würde, müsste ich Schweizerdeutsch lernen.",
+        altAnswers: ["Wenn ich in der Schweiz leben würde, müsste ich Schweizerdeutsch lernen.", "Wenn ich in der Schweiz wohnte, müsste ich Schweizerdeutsch lernen.", "Ich müsste Schweizerdeutsch lernen, wenn ich in der Schweiz wohnen würde."],
+        explanation: "\"In der Schweiz\": this country name takes an article (\"die Schweiz\"), so \"in\" + dative \"der\". \"Müsste\" opens the main clause.",
       },
       {
         type: "translate",
@@ -1919,7 +1919,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "If it's cold, I wear a hat.",
         answer: "Wenn es kalt ist, trage ich eine Mütze.",
-        altAnswers: ["Wenn es kalt ist, ziehe ich eine Mütze auf.", "Wenn es kalt ist, trage ich einen Hut."],
+        altAnswers: ["Wenn es kalt ist, setze ich eine Mütze auf.", "Wenn es kalt ist, trage ich einen Hut."],
         explanation: "A general real condition.",
       },
       {
@@ -1994,7 +1994,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'd love to visit you if I didn't have to work so much. (to a friend)",
             answer: "Ich würde dich gern besuchen, wenn ich nicht so viel arbeiten müsste.",
-            altAnswers: ["Ich würde dich gerne besuchen, wenn ich nicht so viel arbeiten müsste.", "Wenn ich nicht so viel arbeiten müsste, würde ich dich gern besuchen.", "Ich würde euch gern besuchen, wenn ich nicht so viel arbeiten müsste."],
+            altAnswers: ["Ich würde dich gerne besuchen, wenn ich nicht so viel arbeiten müsste.", "Wenn ich nicht so viel arbeiten müsste, würde ich dich gern besuchen."],
             explanation: "Main clause first; \"müsste\" at the end.",
           },
         ],
@@ -2017,7 +2017,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "If I could, I'd help you. (to a friend)",
         answer: "Wenn ich könnte, würde ich dir helfen.",
-        altAnswers: ["Ich würde dir helfen, wenn ich könnte.", "Wenn ich könnte, würde ich euch helfen.", "Wenn ich könnte, würde ich Ihnen helfen."],
+        altAnswers: ["Ich würde dir helfen, wenn ich könnte."],
         explanation: "Unreal: \"könnte\" + \"würde\".",
       },
       {
@@ -2026,7 +2026,7 @@ export const DE_B1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "If it rains, we'll stay at home, and if it doesn't rain, we'll go to the park.",
         answer: "Wenn es regnet, bleiben wir zu Hause, und wenn es nicht regnet, gehen wir in den Park.",
-        altAnswers: ["Falls es regnet, bleiben wir zu Hause, und falls es nicht regnet, gehen wir in den Park.", "Wenn es regnet, bleiben wir zu Hause und wenn es nicht regnet, gehen wir in den Park."],
+        altAnswers: ["Falls es regnet, bleiben wir zu Hause, und falls es nicht regnet, gehen wir in den Park.", "Wenn es regnet, bleiben wir zu Hause und wenn es nicht regnet, gehen wir in den Park.", "Wenn es regnet, bleiben wir zuhause, und wenn es nicht regnet, gehen wir in den Park."],
         explanation: "Two real conditions, each followed by verb-first main clauses.",
       },
       {

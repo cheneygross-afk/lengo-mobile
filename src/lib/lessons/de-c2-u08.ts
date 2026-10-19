@@ -7,12 +7,12 @@ export const DE_C2_U08: Lesson[] = [
     slug: "c2-euphemisms-1",
     level: "DE-C2",
     number: 1,
-    title: "Euphemismen und Indirekte Sprache, Part 1 of 3",
-    summary: "Talk about death, illness, age and disability with tact: verstorben, entschlafen, von uns gegangen, eine schwere Krankheit, in die Jahre gekommen, Menschen mit Behinderung.",
+    title: "Euphemismen und indirekte Sprache, Part 1 of 3",
+    summary: "Talk tactfully about death, illness, age and disability, choosing the right register (\"verstorben\", \"entschlafen\", \"eine schwere Krankheit\", \"in die Jahre gekommen\", \"Menschen mit Behinderung\").",
     duration: "18 min",
     sections: [
       {
-        heading: "Death: from verstorben to das Zeitliche segnen",
+        heading: "Death: from \"verstorben\" to \"das Zeitliche segnen\"",
         body: [
           "German has a graded set of words for dying. Neutral: \"sterben\", \"tot\", \"der Tod\". Respectful and formal: \"versterben\" (mostly in the participle: \"der verstorbene Vater\", \"Sie ist am Montag verstorben\"), \"der/die Verstorbene\" (the deceased). Gentle and emotional, typical of death notices (\"Traueranzeigen\"): \"entschlafen\" (to fall asleep), \"von uns gegangen\", \"für immer eingeschlafen\", \"heimgegangen\" (religious: gone home), \"Wir nehmen Abschied von ...\".",
           "Jocular, never for a recent death or to the bereaved: \"das Zeitliche segnen\" (to bless the temporal, also used of broken machines: \"Mein Laptop hat das Zeitliche gesegnet\"), \"den Löffel abgeben\" (to hand in the spoon), \"ins Gras beißen\" (to bite the grass, bite the dust). Using these for a person in a condolence context would be a serious faux pas.",
@@ -54,7 +54,7 @@ export const DE_C2_U08: Lesson[] = [
         ],
       },
       {
-        heading: "Illness: eine schwere Krankheit",
+        heading: "Illness: \"eine schwere Krankheit\"",
         body: [
           "Death notices and news reports often avoid naming the disease: \"nach langer, schwerer Krankheit\" usually means cancer, \"nach kurzer, schwerer Krankheit\" a sudden fatal illness. \"Er ist an Krebs erkrankt\" is the neutral way to name it; \"erkranken an\" + dative is the standard verb.",
           "Tactful ways of speaking about someone's health: \"Es geht ihm gesundheitlich nicht so gut\", \"Sie ist zurzeit krankgeschrieben\" (on sick leave), \"Er hat gesundheitliche Probleme\", \"Sie fällt länger aus\" (will be off for a while). At work, you are not obliged to say what you have, and asking directly (\"Was hast du denn?\") can be intrusive between colleagues.",
@@ -91,8 +91,8 @@ export const DE_C2_U08: Lesson[] = [
       {
         heading: "Age and disability",
         body: [
-          "Age: \"alt\" is not rude in German, but public language prefers \"ältere Menschen\" (literally older people, which is softer than alte), \"Senioren\" or \"Seniorinnen und Senioren\", \"im Ruhestand\" (retired). Jocular and self-ironic: \"in die Jahre gekommen\" (getting on a bit, also for buildings and cars), \"nicht mehr der Jüngste\", \"im besten Alter\" (in one's prime, often ironic for 50+).",
-          "Disability: the respectful standard is \"Menschen mit Behinderung\" (people with disabilities), \"eine Behinderung haben\", \"Rollstuhlnutzer\" (wheelchair user), \"blind\", \"gehörlos\" (preferred to taubstumm, which is now considered offensive). Avoid \"behindert\" as an adjective for people in casual speech: among young people it is used as an insult (\"Das ist voll behindert\"), which makes it hurtful.",
+          "Age: \"alt\" is not rude in German, but public language prefers \"ältere Menschen\" (literally older people, which is softer than \"alte\"), \"Senioren\" or \"Seniorinnen und Senioren\", \"im Ruhestand\" (retired). Jocular and self-ironic: \"in die Jahre gekommen\" (getting on a bit, also for buildings and cars), \"nicht mehr der Jüngste\", \"im besten Alter\" (in one's prime, often ironic for 50+).",
+          "Disability: the respectful standard is \"Menschen mit Behinderung\" (people with disabilities), \"eine Behinderung haben\", \"Rollstuhlnutzer\" (wheelchair user), \"blind\", \"gehörlos\" (preferred to \"taubstumm\", which is now considered offensive). Avoid \"behindert\" as an adjective for people in casual speech: among young people it is used as an insult (\"Das ist voll behindert\"), which makes it hurtful.",
           "\"Barrierefrei\" (barrier-free, accessible) is the standard word for buildings, websites and transport: \"Ist der Eingang barrierefrei?\"",
         ],
         examples: [
@@ -139,7 +139,7 @@ export const DE_C2_U08: Lesson[] = [
         source: "Twelve people lost their lives in the disaster.",
         answer: "Bei dem Unglück kamen zwölf Menschen ums Leben.",
         altAnswers: ["Bei dem Unglück sind zwölf Menschen ums Leben gekommen.", "Beim Unglück kamen zwölf Menschen ums Leben.", "Bei der Katastrophe kamen zwölf Menschen ums Leben.", "Zwölf Menschen kamen bei dem Unglück ums Leben."],
-        explanation: "\"Ums Leben kommen\" with \"sein\" in the Perfekt; \"bei\" + dative for the event.",
+        explanation: "\"Ums Leben kommen\": Präteritum \"kamen\" is the news-report tense, Perfekt with \"sein\" (\"sind ... ums Leben gekommen\") is also correct; \"bei\" + dative for the event.",
       },
       {
         type: "translate",
@@ -220,7 +220,7 @@ export const DE_C2_U08: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Text Detective: Den Euphemismus Entschlüsseln",
-    summary: "Decode corporate and political euphemisms (Freisetzung, Personalanpassung, Nullwachstum, Preisanpassung, Entsorgungspark, Kollateralschaden) and say what they really mean.",
+    summary: "Decode corporate and political euphemisms such as \"Personalanpassung\", \"Preisanpassung\" and \"Kollateralschaden\", and say in plain German what they really mean.",
     duration: "18 min",
     sections: [
       {
@@ -228,7 +228,7 @@ export const DE_C2_U08: Lesson[] = [
         body: [
           "German companies rarely say \"entlassen\" (dismiss) in public. Instead: \"Freisetzung von Mitarbeitern\" (setting free), \"Personalanpassung\" (staff adjustment), \"Personalabbau\" or \"Stellenabbau\" (job reduction, the most honest of these), \"sozialverträglicher Stellenabbau\" (socially acceptable job cuts, usually early retirement and severance), \"Restrukturierung\", \"Optimierung der Strukturen\".",
           "Prices never rise, they are \"angepasst\": \"Preisanpassung\" (price adjustment) almost always means a price increase. Economic decline becomes \"Nullwachstum\" (zero growth) or, absurdly, \"negatives Wachstum\" (negative growth); a loss becomes \"ein negatives Ergebnis\".",
-          "The grammar of hiding: nominal style with \"-ung\" nouns (no actor, no verb), the passive (\"Es wurden Stellen abgebaut\"), and \"man\" (\"Man hat sich entschieden\"). When decoding, ask: Wer tut hier was mit wem? (Who does what to whom?)",
+          "The grammar of hiding: nominal style with \"-ung\" nouns (no actor, no verb), the passive (\"Es wurden Stellen abgebaut\"), and \"man\" (\"Man hat sich entschieden\"). When decoding, ask: \"Wer tut hier was mit wem?\" (Who does what to whom?)",
         ],
         examples: [
           { es: "Im Zuge der Restrukturierung kommt es zu Personalanpassungen.", en: "In the course of the restructuring there will be staff adjustments (dismissals)." },
@@ -287,7 +287,7 @@ export const DE_C2_U08: Lesson[] = [
             question: "What does it mean, in plain language?",
             options: ["Civilians were killed in the attack.", "Buildings were slightly damaged.", "The attack was a success.", "Soldiers were injured."],
             correctIndex: 0,
-            explanation: "\"Kollateralschäden\" hides civilian casualties; that's why it became the Unwort des Jahres 1999.",
+            explanation: "\"Kollateralschäden\" hides civilian casualties; that's why it became the \"Unwort des Jahres\" 1999.",
           },
         ],
       },
@@ -329,8 +329,8 @@ export const DE_C2_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "From January there will be a price increase.",
         answer: "Ab Januar gibt es eine Preiserhöhung.",
-        altAnswers: ["Ab Januar steigen die Preise.", "Ab Januar werden die Preise erhöht.", "Ab Januar gibt es eine Preisanpassung."],
-        explanation: "The honest word is \"die Preiserhöhung\"; companies prefer \"die Preisanpassung\".",
+        altAnswers: ["Ab Januar steigen die Preise.", "Ab Januar werden die Preise erhöht.", "Ab Januar werden die Preise angehoben.", "Ab Januar gibt es eine Preissteigerung."],
+        explanation: "The honest word is \"die Preiserhöhung\"; companies prefer \"die Preisanpassung\" (adjustment), which is the euphemism, not a translation of increase.",
       },
       {
         type: "translate",
@@ -419,15 +419,15 @@ export const DE_C2_U08: Lesson[] = [
     slug: "c2-euphemisms-2",
     level: "DE-C2",
     number: 3,
-    title: "Euphemismen und Indirekte Sprache, Part 2 of 3",
-    summary: "The secret code of the German Arbeitszeugnis: stets zu unserer vollsten Zufriedenheit versus war stets bemüht, what is missing, and the legal rule wohlwollend und wahr.",
+    title: "Euphemismen und indirekte Sprache, Part 2 of 3",
+    summary: "Read the hidden grade code of a German \"Arbeitszeugnis\" (\"stets zu unserer vollsten Zufriedenheit\" versus \"stets bemüht\"), spot what is missing, and understand the rule \"wohlwollend und wahr\".",
     duration: "20 min",
     sections: [
       {
-        heading: "Why the code exists: wohlwollend und wahr",
+        heading: "Why the code exists: \"wohlwollend und wahr\"",
         body: [
           "In Germany every employee has a legal right to a written reference (\"das Arbeitszeugnis\", § 109 Gewerbeordnung). An \"einfaches Zeugnis\" only confirms the job and dates; a \"qualifiziertes Zeugnis\" also assesses performance and conduct. Courts have ruled that a reference must be \"wohlwollend\" (benevolent, so as not to harm the employee's career) and \"wahr\" (true).",
-          "These two rules contradict each other when an employee was weak. The solution was a code: every formula sounds positive, but its exact wording corresponds to a school grade from 1 (sehr gut) to 6 (ungenügend). Officially, hidden codes are forbidden (the law says the reference must be \"klar und verständlich\"), but the graded formulas are universally used and understood by HR departments.",
+          "These two rules contradict each other when an employee was weak. The solution was a code: every formula sounds positive, but its exact wording corresponds to a school grade from 1 (\"sehr gut\") to 6 (\"ungenügend\"). Officially, hidden codes are forbidden (the law says the reference must be \"klar und verständlich\"), but the graded formulas are universally used and understood by HR departments.",
           "So German job applicants and HR staff read references word by word, and many people have their reference checked by a lawyer. Applying for a job in Germany, you will attach these documents to your application, so you should be able to read them.",
         ],
         examples: [
@@ -459,8 +459,8 @@ export const DE_C2_U08: Lesson[] = [
       {
         heading: "The grade scale",
         body: [
-          "The central summary sentence grades performance: \"stets zu unserer vollsten Zufriedenheit\" = sehr gut (1); \"stets zu unserer vollen Zufriedenheit\" (or \"zu unserer vollsten Zufriedenheit\") = gut (2); \"zu unserer vollen Zufriedenheit\" = befriedigend (3); \"zu unserer Zufriedenheit\" = ausreichend (4); \"im Großen und Ganzen zu unserer Zufriedenheit\" = mangelhaft (5); \"Er war stets bemüht, die Aufgaben zu unserer Zufriedenheit zu erledigen\" = ungenügend (6).",
-          "Yes, \"vollsten\" is grammatically odd (voll is already absolute), but it is the fixed formula. Each little word matters: \"stets\" (always) lifts the grade, its absence lowers it. \"Bemüht\" (tried hard) is deadly: it implies no success.",
+          "The central summary sentence grades performance: \"stets zu unserer vollsten Zufriedenheit\" = \"sehr gut\" (1); \"stets zu unserer vollen Zufriedenheit\" (or \"zu unserer vollsten Zufriedenheit\") = \"gut\" (2); \"zu unserer vollen Zufriedenheit\" = \"befriedigend\" (3); \"zu unserer Zufriedenheit\" = \"ausreichend\" (4); \"im Großen und Ganzen zu unserer Zufriedenheit\" = \"mangelhaft\" (5); \"Er war stets bemüht, die Aufgaben zu unserer Zufriedenheit zu erledigen\" = \"ungenügend\" (6).",
+          "Yes, \"vollsten\" is grammatically odd (\"voll\" is already absolute), but it is the fixed formula. Each little word matters: \"stets\" (always) lifts the grade, its absence lowers it. \"Bemüht\" (tried hard) is deadly: it implies no success.",
           "Other coded phrases: \"Er erledigte alle Aufgaben ordnungsgemäß\" = no initiative; \"Sie war tüchtig und wusste sich gut zu verkaufen\" = a show-off; \"Er trug durch seine Geselligkeit zur Verbesserung des Betriebsklimas bei\" = drank at work (a classic, probably more legend than practice).",
         ],
         examples: [
@@ -500,7 +500,7 @@ export const DE_C2_U08: Lesson[] = [
       {
         heading: "What is missing matters",
         body: [
-          "A German reference speaks through silence. A good reference ends with a \"Schlussformel\" that expresses thanks, regret and good wishes: \"Wir bedauern ihr Ausscheiden sehr, danken ihr für die stets hervorragende Zusammenarbeit und wünschen ihr für ihre berufliche und private Zukunft alles Gute und weiterhin viel Erfolg.\" Each missing element lowers the reading; no Schlussformel at all is a warning sign.",
+          "A German reference speaks through silence. A good reference ends with a \"Schlussformel\" that expresses thanks, regret and good wishes: \"Wir bedauern ihr Ausscheiden sehr, danken ihr für die stets hervorragende Zusammenarbeit und wünschen ihr für ihre berufliche und private Zukunft alles Gute und weiterhin viel Erfolg.\" Each missing element lowers the reading; no \"Schlussformel\" at all is a warning sign.",
           "The reason for leaving: \"Sie verlässt uns auf eigenen Wunsch\" (at her own request) is good; \"Das Arbeitsverhältnis endete am 30. Juni\" with no reason suggests dismissal. Conduct: \"Ihr Verhalten gegenüber Vorgesetzten und Kollegen war stets einwandfrei\" is good; if the superiors are mentioned after the colleagues or not at all, readers notice.",
           "If your reference contains a weak formula, you can ask for a correction (\"eine Berichtigung des Zeugnisses verlangen\") and, if necessary, go to the labour court (\"das Arbeitsgericht\").",
         ],
@@ -562,7 +562,7 @@ export const DE_C2_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "He always endeavoured to carry out his duties.",
         answer: "Er war stets bemüht, seine Aufgaben zu erledigen.",
-        altAnswers: ["Er war stets bemüht, seine Aufgaben zu erfüllen.", "Er war immer bemüht, seine Aufgaben zu erledigen.", "Er bemühte sich stets, seine Aufgaben zu erledigen."],
+        altAnswers: ["Er war stets bemüht, seine Aufgaben zu erfüllen.", "Er war immer bemüht, seine Aufgaben zu erledigen.", "Er bemühte sich stets, seine Aufgaben zu erledigen.", "Er hat sich stets bemüht, seine Aufgaben zu erledigen."],
         explanation: "In a reference, \"stets bemüht\" is the kiss of death: effort without results.",
       },
       {
@@ -571,7 +571,8 @@ export const DE_C2_U08: Lesson[] = [
         en: "He carried out his duties [always to our full satisfaction].",
         sentence: "Er erledigte seine Aufgaben ___.",
         answer: "stets zu unserer vollen Zufriedenheit",
-        explanation: "\"Stets\" + \"vollen\" = grade 2 (gut). Without \"stets\" it drops to 3.",
+        altAnswers: ["immer zu unserer vollen Zufriedenheit"],
+        explanation: "\"Stets\" + \"vollen\" = grade 2 (\"gut\"). Without \"stets\" it drops to 3; references use \"stets\" rather than \"immer\".",
       },
       {
         type: "matching",
@@ -581,7 +582,7 @@ export const DE_C2_U08: Lesson[] = [
           { left: "stets zu unserer vollen Zufriedenheit", right: "good" },
           { left: "zu unserer vollen Zufriedenheit", right: "satisfactory" },
           { left: "zu unserer Zufriedenheit", right: "adequate" },
-          { left: "stets bemüht", right: "unsatisfactory" },
+          { left: "stets bemüht", right: "fail (grade 6)" },
         ],
         explanation: "Every word counts: \"stets\", \"voll\", \"vollst\".",
       },
@@ -692,7 +693,7 @@ export const DE_C2_U08: Lesson[] = [
           {
             type: "listen-choose",
             audio: "Dreihundertfünfzig Menschen verlieren ihren Arbeitsplatz.",
-            question: "What did you hear?",
+            question: "What does it mean?",
             options: ["350 people are losing their jobs.", "315 people are losing their jobs.", "350 people are changing jobs.", "305 people are losing their jobs."],
             correctIndex: 0,
             explanation: "\"Dreihundertfünfzig\" = 350; the honest version names the number of people.",
@@ -819,12 +820,12 @@ export const DE_C2_U08: Lesson[] = [
     slug: "c2-implicature-contrast",
     level: "DE-C2",
     number: 5,
-    title: "Contrast Clinic: Was Man Sagt und Was Man Meint",
-    summary: "Indirect requests and refusals in German (Es zieht ein bisschen, Das ist eine interessante Idee, Wir melden uns), and where German is more direct, or less, than English.",
+    title: "Contrast Clinic: Was man sagt und was man meint",
+    summary: "Recognise and use indirect requests and refusals (\"Es zieht ein bisschen\", \"Das ist eine interessante Idee\", \"Wir melden uns\"), and know where German is more direct, or less, than English.",
     duration: "18 min",
     sections: [
       {
-        heading: "Indirect requests: Es zieht ein bisschen",
+        heading: "Indirect requests: \"Es zieht ein bisschen\"",
         body: [
           "A statement can work as a request. \"Es zieht ein bisschen\" (there's a bit of a draught) usually means please close the window; \"Hier ist es ganz schön warm\" means could we open one; \"Ist hier noch frei?\" (is this seat free?) means may I sit here; \"Haben Sie zufällig einen Stift?\" means please lend me a pen. Linguists call the unspoken meaning \"die Implikatur\".",
           "The Konjunktiv II softens direct requests: \"Könnten Sie ...?\", \"Würden Sie ...?\", \"Hätten Sie einen Moment Zeit?\", \"Ich hätte da eine Frage.\" Adding \"mal\", \"vielleicht\" and \"eventuell\" softens further: \"Könntest du vielleicht mal das Fenster zumachen?\"",
@@ -858,7 +859,7 @@ export const DE_C2_U08: Lesson[] = [
         ],
       },
       {
-        heading: "Indirect refusals: Das ist eine interessante Idee",
+        heading: "Indirect refusals: \"Das ist eine interessante Idee\"",
         body: [
           "German, too, has polite ways to say no. In a meeting, \"Das ist eine interessante Idee\" or \"Darüber müssten wir noch mal nachdenken\" often means no. \"Wir melden uns\" (we'll be in touch) after a job interview may mean you're out. \"Mal sehen\" (we'll see) from a parent means probably not. \"Schauen wir mal\" is similarly noncommittal.",
           "But German refusals are typically clearer than British ones. \"Das passt mir leider nicht\" (that doesn't suit me, I'm afraid) or \"Da muss ich leider absagen\" is a plain, polite no; it doesn't need three apologies. An English speaker's 'I'm not sure that's the best idea' may be taken literally in Germany: as genuine uncertainty that invites discussion, not as a polite no.",
@@ -1019,12 +1020,12 @@ export const DE_C2_U08: Lesson[] = [
     slug: "c2-euphemisms-3",
     level: "DE-C2",
     number: 6,
-    title: "Euphemismen und Indirekte Sprache, Part 3 of 3",
-    summary: "Feedback with tact (ausbaufähig, Luft nach oben, Entwicklungspotenzial, nicht ganz optimal), softening with Konjunktiv II and particles, and the Unwort des Jahres as a mirror of political euphemism.",
+    title: "Euphemismen und indirekte Sprache, Part 3 of 3",
+    summary: "Give tactful feedback (\"ausbaufähig\", \"Luft nach oben\", \"nicht ganz optimal\"), soften with Konjunktiv II and particles, and analyse the \"Unwort des Jahres\" as a mirror of political euphemism.",
     duration: "20 min",
     sections: [
       {
-        heading: "Feedback vocabulary: Luft nach oben",
+        heading: "Feedback vocabulary: \"Luft nach oben\"",
         body: [
           "German performance feedback has its own soft vocabulary. \"Ausbaufähig\" (capable of expansion) means not good enough yet; \"Da ist noch Luft nach oben\" (there's still air above) means could be better; \"Entwicklungspotenzial\" (development potential) means weaknesses; \"nicht ganz optimal\" or \"suboptimal\" means bad; \"verbesserungswürdig\" (worthy of improvement) means needs work.",
           "On the positive side: \"Das hast du gut gemacht\", \"Da hast du ganze Arbeit geleistet\" (you've done a thorough job), \"Das kann sich sehen lassen\" (that's impressive). Germans often give praise sparingly; \"Nicht schlecht\" or \"Passt\" (fine) can be real compliments, especially in the south.",
@@ -1103,14 +1104,14 @@ export const DE_C2_U08: Lesson[] = [
         ],
       },
       {
-        heading: "Das Unwort des Jahres",
+        heading: "The \"Unwort des Jahres\"",
         body: [
           "Since 1991, an independent jury of linguists has chosen the \"Unwort des Jahres\" (non-word of the year): a term from public language that is misleading, euphemistic, discriminatory or violates human dignity. It is a mirror of political euphemism.",
           "Some choices: \"Kollateralschaden\" (1999, civilian deaths as collateral damage), \"Humankapital\" (2004, people as capital), \"alternativlos\" (2010, a political decision presented as without alternative, shutting down debate), \"Lügenpresse\" (2014, a defamation of the press used at far-right rallies), \"Remigration\" (2023, a harmless-sounding word for mass deportations).",
           "Analyse them with the unit's vocabulary: \"Das Wort verschleiert ...\", \"Es reduziert Menschen auf ...\", \"Es suggeriert, dass es keine Alternative gibt\", \"Es dient dazu, ... zu verharmlosen\".",
         ],
         examples: [
-          { es: "„Alternativlos“ wurde 2010 zum Unwort des Jahres gewählt.", en: "Without alternative was chosen as the non-word of the year in 2010." },
+          { es: "„Alternativlos“ wurde 2010 zum Unwort des Jahres gewählt.", en: "'Without alternative' was chosen as the non-word of the year in 2010." },
           { es: "Das Wort reduziert Menschen auf ihren wirtschaftlichen Nutzen.", en: "The word reduces people to their economic usefulness." },
           { es: "Der Begriff suggeriert, dass es keine Alternative gibt.", en: "The term suggests that there is no alternative." },
           { es: "Das Wort dient dazu, Abschiebungen zu verharmlosen.", en: "The word serves to make deportations sound harmless." },
@@ -1129,7 +1130,7 @@ export const DE_C2_U08: Lesson[] = [
           {
             type: "speak",
             text: "Der Begriff suggeriert, dass es keine Alternative gibt.",
-            tip: "\"Suggeriert\": the g is soft and the stress is on -RIERT.",
+            tip: "\"Suggeriert\": a hard g (not the j-sound of English suggest); stress on -RIERT.",
             explanation: "\"Suggerieren\" (to imply, insinuate) is the key analysis verb.",
           },
         ],
@@ -1160,7 +1161,7 @@ export const DE_C2_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "It would be good if you could manage it by Friday.",
         answer: "Es wäre gut, wenn du das bis Freitag schaffst.",
-        altAnswers: ["Es wäre gut, wenn du das bis Freitag schaffen könntest.", "Es wäre gut, wenn Sie das bis Freitag schaffen.", "Es wäre gut, wenn Sie das bis Freitag schaffen könnten.", "Es wäre gut, wenn ihr das bis Freitag schafft.", "Es wäre gut, wenn du es bis Freitag schaffst."],
+        altAnswers: ["Es wäre gut, wenn du das bis Freitag schaffen könntest.", "Es wäre gut, wenn Sie das bis Freitag schaffen.", "Es wäre gut, wenn Sie das bis Freitag schaffen könnten.", "Es wäre gut, wenn ihr das bis Freitag schafft.", "Es wäre gut, wenn ihr das bis Freitag schaffen könntet.", "Es wäre gut, wenn du es bis Freitag schaffst.", "Es wäre gut, wenn du das bis Freitag schaffen würdest."],
         explanation: "\"Es wäre gut, wenn ...\": a soft instruction; \"schaffen\" = to manage.",
       },
       {
@@ -1173,7 +1174,7 @@ export const DE_C2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Why was \"alternativlos\" chosen as Unwort des Jahres 2010?",
+        question: "Why was \"alternativlos\" chosen as \"Unwort des Jahres\" 2010?",
         options: ["It presents a political decision as having no alternative and stifles debate.", "It is grammatically incorrect.", "It is an anglicism.", "It insults a minority group."],
         correctIndex: 0,
         explanation: "The jury criticised it for suggesting that discussion was pointless.",
@@ -1223,8 +1224,8 @@ export const DE_C2_U08: Lesson[] = [
     slug: "c2-mission-condolences-feedback",
     level: "DE-C2",
     number: 7,
-    title: "Real-World Mission: Beileid und Heikle Nachrichten",
-    summary: "Write a condolence card (Mein aufrichtiges Beileid, In stiller Trauer) and a tactful performance-feedback email.",
+    title: "Real-World Mission: Beileid und heikle Nachrichten",
+    summary: "Write a condolence card with the right formulas (\"Mein aufrichtiges Beileid\", \"In stillem Gedenken\") and a tactful performance-feedback email.",
     duration: "18 min",
     sections: [
       {
@@ -1391,6 +1392,7 @@ export const DE_C2_U08: Lesson[] = [
         prompt: "Put the words in order to say: I think the analysis is very well done.",
         words: ["Die", "Analyse", "finde", "ich", "sehr", "gelungen."],
         translation: "I think the analysis is very well done.",
+        altOrders: [["Ich", "finde", "die", "Analyse", "sehr", "gelungen."]],
         explanation: "\"Gelungen\" (successful, well done) is the standard word for praising work; object first for emphasis.",
       },
       {
@@ -1420,11 +1422,11 @@ export const DE_C2_U08: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Mastery Vocabulary: Advanced False Friends, Part 1 of 2",
-    summary: "eventuell, aktuell, sensibel, konsequent, Chef, also, bekommen, Gift, Rente, Provision, sympathisch, seriös: what they really mean and how to say the English word.",
+    summary: "Use twelve treacherous false friends correctly (\"eventuell\", \"aktuell\", \"sensibel\", \"also\", \"bekommen\", \"Gift\", \"Rente\" and more) and say the English look-alikes in German.",
     duration: "18 min",
     sections: [
       {
-        heading: "eventuell, aktuell, konsequent, also",
+        heading: "\"eventuell\", \"aktuell\", \"konsequent\", \"also\"",
         body: [
           "\"Eventuell\" means possibly, perhaps, not eventually: \"Ich komme eventuell später\" = I might come later. Eventually is \"schließlich\", \"letztendlich\" or \"irgendwann\". \"Aktuell\" means current, up to date (\"die aktuelle Lage\", \"aktuell arbeite ich in Köln\"); actual(ly) is \"tatsächlich\" or \"eigentlich\".",
           "\"Konsequent\" means consistent, rigorous, sticking to a principle (\"konsequent handeln\", \"eine konsequente Haltung\"); consequent is \"daraus folgend\". The noun \"die Konsequenz\" means both consequence and consistency. \"Also\" means so, therefore: \"Es regnet, also bleiben wir zu Hause\"; also is \"auch\".",
@@ -1458,11 +1460,11 @@ export const DE_C2_U08: Lesson[] = [
         ],
       },
       {
-        heading: "sensibel, sympathisch, seriös, Chef",
+        heading: "\"sensibel\", \"sympathisch\", \"seriös\", \"Chef\"",
         body: [
           "\"Sensibel\" means sensitive (\"ein sensibles Kind\", \"sensible Daten\"); sensible is \"vernünftig\". \"Sympathisch\" means likeable, pleasant (\"Er ist mir sympathisch\" = I like him); sympathetic is \"mitfühlend\" or \"verständnisvoll\".",
           "\"Seriös\" means reputable, trustworthy, respectable (\"ein seriöses Unternehmen\", \"seriöser Journalismus\"); serious is \"ernst\" or \"ernsthaft\" (\"ein ernstes Problem\"). \"Der Chef\" / \"die Chefin\" is the boss; a chef is \"der Koch\" / \"die Köchin\" (\"Chefkoch\" = head chef).",
-          "Mixing them up produces comic or awkward results: \"Er ist sehr sympathisch für meine Probleme\" means nothing; \"Das ist ein seriöses Problem\" sounds as if the problem were a respectable company.",
+          "Mixing them up produces comic or awkward results: \"*Er ist sehr sympathisch für meine Probleme*\" means nothing; \"*Das ist ein seriöses Problem*\" sounds as if the problem were a respectable company.",
         ],
         examples: [
           { es: "Das ist eine vernünftige Entscheidung.", en: "That's a sensible decision." },
@@ -1502,7 +1504,7 @@ export const DE_C2_U08: Lesson[] = [
         ],
       },
       {
-        heading: "bekommen, Gift, Rente, Provision",
+        heading: "\"bekommen\", \"Gift\", \"Rente\", \"Provision\"",
         body: [
           "\"Bekommen\" means to get, receive: \"Ich bekomme ein Steak\" (in a restaurant: I'll have a steak), never I become a steak. To become is \"werden\". \"Das Gift\" is poison (\"giftig\" = poisonous); a gift is \"das Geschenk\".",
           "\"Die Rente\" is a pension (\"in Rente gehen\" = to retire; \"der Rentner\" = pensioner); rent is \"die Miete\". \"Die Provision\" is a commission (the estate agent's or salesperson's fee: \"Die Maklerprovision beträgt zwei Monatsmieten\"); provision is \"die Bereitstellung\", \"die Versorgung\" or, in a contract, \"die Bestimmung\".",
@@ -1622,7 +1624,7 @@ export const DE_C2_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "I really like the new boss.",
         answer: "Die neue Chefin ist mir sehr sympathisch.",
-        altAnswers: ["Der neue Chef ist mir sehr sympathisch.", "Ich finde die neue Chefin sehr sympathisch.", "Ich finde den neuen Chef sehr sympathisch."],
+        altAnswers: ["Der neue Chef ist mir sehr sympathisch.", "Ich finde die neue Chefin sehr sympathisch.", "Ich finde den neuen Chef sehr sympathisch.", "Ich mag die neue Chefin sehr.", "Ich mag den neuen Chef sehr."],
         explanation: "\"Jemand ist mir sympathisch\" (dative) = I like someone; \"der Chef\" is the boss, not a cook.",
       },
       {
@@ -1652,5 +1654,5 @@ export const DE_C2_U08_WRITING: WriteExercise = {
     "Name and explain a reference formula correctly (\"stets zu unserer vollsten Zufriedenheit\" vs \"stets bemüht\")",
   ],
   modelAnswer: "Liebe Frau Schneider,\n\nnach zwölf Jahren in unserem Team verlassen Sie uns zum Monatsende, und ich möchte die Gelegenheit nutzen, Ihnen persönlich zu danken. Sie haben unsere Abteilung in dieser Zeit entscheidend geprägt: Ihre Erfahrung, Ihre Ruhe in schwierigen Situationen und Ihre Bereitschaft, neuen Kolleginnen und Kollegen zu helfen, werden uns sehr fehlen.\n\nErlauben Sie mir trotzdem eine offene Anmerkung zum Projekt Rheinblick, weil ich weiß, dass Ihnen ehrliches Feedback wichtig ist. Die inhaltliche Arbeit war wie immer hervorragend. Mir ist allerdings aufgefallen, dass die Kosten im letzten Quartal deutlich über dem Plan lagen und wir das erst sehr spät bemerkt haben. Im Nachhinein wäre es vielleicht gut gewesen, wenn wir die Zahlen häufiger gemeinsam geprüft hätten; da lag die Verantwortung sicher auch bei mir. Bei der Budgetkontrolle war also noch etwas Luft nach oben, aber das schmälert Ihre Leistung insgesamt nicht.\n\nWir bedauern Ihr Ausscheiden sehr, danken Ihnen für die stets hervorragende Zusammenarbeit und wünschen Ihnen für Ihre berufliche und private Zukunft alles Gute und weiterhin viel Erfolg. Ich würde mich freuen, wenn wir in Kontakt bleiben.\n\nMit herzlichen Grüßen\nJonas Becker\n\nHinweis für unseren Azubi zum Arbeitszeugnis: Für Frau Schneider verwenden wir die Formel „Sie erledigte ihre Aufgaben stets zu unserer vollsten Zufriedenheit“, also die Note „sehr gut“. Das letzte Projekt ändert daran nichts, denn das Zeugnis muss wohlwollend und wahr sein und die gesamte Beschäftigungszeit bewerten. Eine Formulierung wie „Sie war stets bemüht“ wäre hier völlig falsch, weil sie im Zeugniscode ungenügende Leistungen bedeutet. Wichtig ist auch die vollständige Schlussformel mit Bedauern, Dank und guten Wünschen; fehlt sie, liest jede Personalabteilung das als Warnsignal.",
-  explanation: "The email softens criticism with an I-message (\"Mir ist allerdings aufgefallen\"), Konjunktiv II past (\"wäre es vielleicht gut gewesen, wenn ... hätten\") and feedback euphemism (\"Luft nach oben\"), then uses the complete Schlussformel of a top reference. The HR note decodes the grade formulas: \"stets zu unserer vollsten Zufriedenheit\" (1) versus \"stets bemüht\" (failure).",
+  explanation: "The email softens criticism with an I-message (\"Mir ist allerdings aufgefallen\"), Konjunktiv II past (\"wäre es vielleicht gut gewesen, wenn ... hätten\") and feedback euphemism (\"Luft nach oben\"), then uses the complete \"Schlussformel\" of a top reference. The HR note decodes the grade formulas: \"stets zu unserer vollsten Zufriedenheit\" (1) versus \"stets bemüht\" (failure).",
 };

@@ -162,7 +162,7 @@ export const DE_B1_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "I've handed in my notice.",
         answer: "Ich habe gekündigt.",
-        altAnswers: ["Ich habe meine Stelle gekündigt.", "Ich habe meinen Job gekündigt."],
+        altAnswers: ["Ich habe meine Stelle gekündigt.", "Ich habe meinen Job gekündigt.", "Ich habe meine Kündigung eingereicht."],
         explanation: "\"Kündigen\" with yourself as the subject means you quit.",
       },
       {
@@ -211,8 +211,8 @@ export const DE_B1_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "Mr Becker is off sick.",
         answer: "Herr Becker ist krankgeschrieben.",
-        altAnswers: ["Herr Becker ist krank geschrieben.", "Herr Becker ist krank."],
-        explanation: "\"Krankgeschrieben sein\": signed off sick by a doctor, which German employers require after a few days.",
+        altAnswers: ["Herr Becker ist krank."],
+        explanation: "\"Krankgeschrieben sein\" (one word): signed off sick by a doctor, which German employers require after a few days.",
       },
       {
         type: "dictation",
@@ -294,6 +294,7 @@ export const DE_B1_U22: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm afraid of the presentation.",
             answer: "Ich habe Angst vor der Präsentation.",
+            altAnswers: ["Ich fürchte mich vor der Präsentation."],
             explanation: "\"Angst haben vor\" + dative: \"vor der Präsentation\".",
           },
           {
@@ -395,7 +396,7 @@ export const DE_B1_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'd sleep on it first.",
         answer: "Ich würde erst mal eine Nacht darüber schlafen.",
-        altAnswers: ["Ich würde erst einmal eine Nacht darüber schlafen.", "Ich würde zuerst eine Nacht darüber schlafen.", "Ich würde erst eine Nacht darüber schlafen."],
+        altAnswers: ["Ich würde erst einmal eine Nacht darüber schlafen.", "Ich würde zuerst eine Nacht darüber schlafen.", "Ich würde erst eine Nacht darüber schlafen.", "Ich würde erst mal darüber schlafen."],
         explanation: "The German idiom is \"eine Nacht darüber schlafen\" (to sleep a night over it).",
       },
       {
@@ -482,8 +483,8 @@ export const DE_B1_U22: Lesson[] = [
       {
         heading: "What the choir is like",
         body: [
-          "Jonas continues: \"Unser Chor hat dreißig Mitglieder, die jüngste ist neunzehn und der älteste ist über achtzig. Gesungen wird alles: alte Volkslieder, moderne Popsongs und manchmal sogar Opern. Jedes Jahr im Dezember wird ein großes Konzert in einer alten Kirche organisiert.\"",
-          "Notice the nominalised superlatives \"die jüngste\" and \"der älteste\" (the youngest member, female; the oldest, male), and the passive without a subject: \"Gesungen wird alles\" (literally sung is everything) puts the activity first for emphasis. \"Wird ... organisiert\" is a normal present passive.",
+          "Jonas continues: \"Unser Chor hat dreißig Mitglieder, die Jüngste ist neunzehn und der Älteste ist über achtzig. Gesungen wird alles: alte Volkslieder, moderne Popsongs und manchmal sogar Opern. Jedes Jahr im Dezember wird ein großes Konzert in einer alten Kirche organisiert.\"",
+          "Notice the nominalised superlatives \"die Jüngste\" and \"der Älteste\" (the youngest member, female; the oldest, male), and the passive without a subject: \"Gesungen wird alles\" (literally sung is everything) puts the activity first for emphasis. \"Wird ... organisiert\" is a normal present passive.",
           "Adjective endings: \"alte Volkslieder\", \"moderne Popsongs\" (strong plural, no article), \"ein großes Konzert\" (neuter after \"ein\"), \"in einer alten Kirche\" (dative feminine).",
         ],
         examples: [
@@ -671,7 +672,7 @@ export const DE_B1_U22: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "She [was chosen] by the management.",
+            en: "She [was] chosen by the management.",
             sentence: "Sie ___ von der Geschäftsführung ausgewählt.",
             answer: "wurde",
             explanation: "Präteritum passive: \"wurde\" + participle. The agent follows \"von\" + dative.",
@@ -706,9 +707,9 @@ export const DE_B1_U22: Lesson[] = [
           {
             type: "multiple-choice",
             question: "You want to say: I'm so happy for you! Which is right?",
-            options: ["Ich freue mich so für dich!", "Ich freue mich so über dich!", "Ich freue mich so auf dich!", "Ich bin so glücklich für dich!"],
+            options: ["Ich freue mich so für dich!", "Ich freue mich so über dich!", "Ich freue mich so auf dich!", "Ich freue mich so für dir!"],
             correctIndex: 0,
-            explanation: "Happy for someone is \"sich freuen für\". \"Über\" is happy about a thing, \"auf\" is looking forward to.",
+            explanation: "Happy for someone is \"sich freuen für\" + accusative (\"dich\", not \"dir\"). \"Über\" is happy about a thing, \"auf\" is looking forward to.",
           },
           {
             type: "speak",
@@ -776,7 +777,7 @@ export const DE_B1_U22: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[Congratulations on] the new job!",
+        en: "Congratulations [on the] new job!",
         sentence: "Herzlichen Glückwunsch ___ neuen Job!",
         answer: "zum",
         explanation: "\"Zu\" + dative masculine: \"zu dem\" → \"zum\".",
@@ -793,9 +794,9 @@ export const DE_B1_U22: Lesson[] = [
       {
         type: "multiple-choice",
         question: "How do you say: Mia is the right person for the job (she)?",
-        options: ["Mia ist die Richtige für den Job.", "Mia ist die richtige für den Job.", "Mia ist der Richtige für den Job.", "Mia ist die Richtigen für den Job."],
+        options: ["Mia ist die Richtige für den Job.", "Mia ist das Richtige für den Job.", "Mia ist der Richtige für den Job.", "Mia ist die Richtigen für den Job."],
         correctIndex: 0,
-        explanation: "A nominalised adjective: capital R, feminine \"die\" and the weak -e after it.",
+        explanation: "A nominalised adjective for a woman: feminine \"die\", capital R and the weak -e after it. \"Das Richtige\" would mean the right thing, not the right person.",
       },
       {
         type: "translate",
@@ -1163,7 +1164,7 @@ export const DE_B1_U22: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The boy [is picked up] by his father.",
+            en: "The boy [is] picked up by his father.",
             sentence: "Der Junge ___ von seinem Vater abgeholt.",
             answer: "wird",
             explanation: "Present passive: \"wird\" + participle, with \"von\" + dative for the agent.",
@@ -1274,6 +1275,6 @@ export const DE_B1_U22_WRITING: WriteExercise = {
     "Uses at least two prepositional verbs or da-compounds (\"sich freuen für\", \"sich anmelden für\", \"darüber\").",
   ],
   modelAnswer: "Liebe Ayşe,\n\nherzlichen Glückwunsch zur Beförderung! Ich habe gerade gehört, dass du zur Teamleiterin befördert wurdest. Ich freue mich so für dich, das hast du dir wirklich verdient. Du kennst die Wünsche der Kunden besser als alle anderen. Das muss natürlich gefeiert werden!\n\nDu hast mir erzählt, dass du nach der Arbeit mehr Bewegung brauchst. An deiner Stelle würde ich mich bei einem Sportverein anmelden. Bei uns in der Nähe gibt es einen Laufclub, der sich jeden Donnerstag im Park trifft. Der Mitgliedsbeitrag ist nicht hoch, und man lernt viele nette Leute kennen. Du solltest dir auf jeden Fall ein Probetraining ansehen. Ich bin sicher, dass du dich schnell daran gewöhnst.\n\nBis bald und viele Grüße\nLena",
-  explanation: "\"Herzlichen Glückwunsch zur Beförderung\" and \"sich freuen für\" are the set congratulations. The passive appears in \"befördert wurdest\" (verb last in the dass-clause) and \"muss gefeiert werden\". Advice uses \"An deiner Stelle würde ich...\" and \"Du solltest...\". Prepositional verbs: \"sich anmelden bei\", \"sich treffen\", \"sich gewöhnen an\" → \"daran\".",
+  explanation: "\"Herzlichen Glückwunsch zur Beförderung\" and \"sich freuen für\" are the set congratulations. The passive appears in \"befördert wurdest\" (verb last in the dass-clause) and \"muss gefeiert werden\". Advice uses \"An deiner Stelle würde ich...\" and \"Du solltest...\". Prepositional verbs: \"sich anmelden bei\", \"sich gewöhnen an\" → \"daran\".",
 };
 

@@ -37,10 +37,10 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct?",
+            question: "You want to tell a friend that they're right. What do you say?",
             options: ["Du hast recht.", "Du bist recht.", "Du bist richtig.", "Du hast richtig."],
             correctIndex: 0,
-            explanation: "People \"haben recht\".",
+            explanation: "People \"haben recht\" (\"recht\" here is part of the verb phrase); \"richtig\" describes facts or answers, and \"*du bist recht*\" doesn't exist.",
           },
         ],
       },
@@ -68,10 +68,10 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "You've convinced me. (formal)",
+        source: "You've convinced me.",
         answer: "Sie haben mich überzeugt.",
         altAnswers: ["Du hast mich überzeugt.", "Ihr habt mich überzeugt."],
-        explanation: "\"Überzeugen\" + accusative \"mich\".",
+        explanation: "\"Überzeugen\" + accusative \"mich\"; inseparable, so the participle is \"überzeugt\" (no ge-). Du, ihr and Sie are all accepted.",
       },
       {
         type: "fill-blank",
@@ -97,8 +97,8 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I was wrong.",
         answer: "Ich habe mich geirrt.",
-        altAnswers: ["Ich hatte unrecht.", "Ich habe mich getäuscht.", "Ich irrte mich."],
-        explanation: "A person is wrong: \"sich irren\" or \"unrecht haben\", not \"*ich war falsch\".",
+        altAnswers: ["Ich hatte unrecht.", "Ich habe mich getäuscht.", "Ich irrte mich.", "Ich lag falsch."],
+        explanation: "A person is wrong: \"sich irren\", \"unrecht haben\" or colloquial \"falschliegen\", not \"*ich war falsch*\".",
       },
       {
         type: "multiple-choice",
@@ -128,7 +128,7 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "She [holds the view] that school should start later.",
+        en: "She [holds] the view that school should start later.",
         sentence: "Sie ___ den Standpunkt, dass die Schule später beginnen sollte.",
         answer: "vertritt",
         explanation: "\"Einen Standpunkt vertreten\" (strong verb: \"vertritt\").",
@@ -155,7 +155,7 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "May I come in on that for a moment?",
         answer: "Darf ich da kurz einhaken?",
-        altAnswers: ["Darf ich kurz einhaken?", "Darf ich da kurz etwas sagen?"],
+        altAnswers: ["Darf ich kurz einhaken?", "Darf ich da kurz etwas sagen?", "Kann ich da kurz einhaken?"],
         explanation: "\"Einhaken\" = to jump in, follow up on a point.",
       },
       {
@@ -180,7 +180,7 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Performing Arts False Friends",
-    summary: "Vorstellung, Probe, Publikum and Kritik in context.",
+    summary: "Use \"Vorstellung\", \"Probe\", \"Publikum\" and \"Kritik\" correctly in their different meanings, on stage and off.",
     duration: "12 min",
     sections: [
       {
@@ -274,7 +274,7 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The critic didn't like the production.",
         answer: "Dem Kritiker hat die Inszenierung nicht gefallen.",
-        altAnswers: ["Der Kritiker mochte die Inszenierung nicht.", "Der Kritikerin hat die Inszenierung nicht gefallen.", "Die Kritikerin mochte die Inszenierung nicht.", "Dem Kritiker gefiel die Inszenierung nicht."],
+        altAnswers: ["Die Inszenierung hat dem Kritiker nicht gefallen.", "Der Kritiker mochte die Inszenierung nicht.", "Der Kritikerin hat die Inszenierung nicht gefallen.", "Die Kritikerin mochte die Inszenierung nicht.", "Dem Kritiker gefiel die Inszenierung nicht."],
         explanation: "\"Gefallen\" + dative: the critic is \"dem Kritiker\"; the production is the subject.",
       },
       {
@@ -283,6 +283,7 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The probation period lasts six months.",
         answer: "Die Probezeit dauert sechs Monate.",
+        altAnswers: ["Die Probezeit beträgt sechs Monate."],
         explanation: "\"Die Probezeit\" in a new job.",
       },
       {
@@ -306,7 +307,7 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The production [was criticised] in the newspaper.",
+        en: "The production [was] criticised in the newspaper.",
         sentence: "Die Inszenierung ___ in der Zeitung kritisiert.",
         answer: "wurde",
         explanation: "Präteritum passive: \"wurde kritisiert\".",
@@ -386,6 +387,7 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I've set myself a new goal.",
         answer: "Ich habe mir ein neues Ziel gesetzt.",
+        altAnswers: ["Ich habe mir ein neues Ziel gesteckt."],
         explanation: "\"Sich (Dativ) ein Ziel setzen\".",
       },
       {
@@ -395,7 +397,7 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
         source: "By the end of the course we'll have learned a lot.",
         answer: "Bis zum Ende des Kurses werden wir viel gelernt haben.",
         altAnswers: ["Bis Ende des Kurses werden wir viel gelernt haben.", "Bis zum Ende des Kurses haben wir viel gelernt.", "Bis zum Kursende werden wir viel gelernt haben."],
-        explanation: "Futur II with \"bis\" + genitive phrase.",
+        explanation: "Futur II for something complete by a deadline: \"bis zum Ende\" (bis + zu + dative), with the genitive \"des Kurses\". Plain Perfekt with the time phrase is also natural.",
       },
       {
         type: "translate",
@@ -403,13 +405,13 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "After the setback she almost gave up.",
         answer: "Nach dem Rückschlag hätte sie fast aufgegeben.",
-        altAnswers: ["Nach dem Rückschlag hat sie fast aufgegeben.", "Nach dem Rückschlag gab sie fast auf."],
+        altAnswers: ["Nach dem Rückschlag hätte sie beinahe aufgegeben.", "Nach dem Rückschlag hat sie fast aufgegeben.", "Nach dem Rückschlag gab sie fast auf."],
         explanation: "Almost did something (but didn't): German often uses Konjunktiv II past with \"fast\": \"hätte fast aufgegeben\".",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "He [failed because of] the money.",
+        en: "He failed [because of the] money.",
         sentence: "Er ist ___ Geld gescheitert.",
         answer: "am",
         explanation: "\"Scheitern an\" + dative: \"am Geld\" (an dem).",
@@ -437,7 +439,7 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
         question: "Which sentence means 'I narrowly missed my goal'?",
         options: ["Ich habe mein Ziel knapp verfehlt.", "Ich habe mein Ziel knapp vermisst.", "Ich habe mein Ziel knapp verloren.", "Ich bin mein Ziel knapp verpasst."],
         correctIndex: 0,
-        explanation: "Goals are \"verfehlt\".",
+        explanation: "A goal or target is \"verfehlt\"; \"vermissen\" means to miss someone you long for, and \"verpassen\" (with haben) is for trains and chances.",
       },
       {
         type: "translate",
@@ -454,7 +456,7 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "My German has improved a lot.",
         answer: "Mein Deutsch hat sich sehr verbessert.",
-        altAnswers: ["Mein Deutsch hat sich stark verbessert.", "Mein Deutsch ist viel besser geworden."],
+        altAnswers: ["Mein Deutsch hat sich stark verbessert.", "Mein Deutsch hat sich viel verbessert.", "Mein Deutsch ist viel besser geworden."],
         explanation: "\"Sich verbessern\" is reflexive.",
       },
       {
@@ -468,7 +470,7 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "I've admittedly not reached my goal, but I'm proud.",
+        source: "Admittedly I haven't reached my goal, but I'm proud.",
         answer: "Ich habe mein Ziel zwar nicht erreicht, aber ich bin stolz.",
         altAnswers: ["Zwar habe ich mein Ziel nicht erreicht, aber ich bin stolz.", "Ich habe mein Ziel zwar nicht erreicht, bin aber stolz."],
         explanation: "\"Zwar ... aber\": concede and counter.",
@@ -487,7 +489,7 @@ export const DE_B2_U26_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Don't give up! (to a friend)",
         answer: "Gib nicht auf!",
-        altAnswers: ["Gib bloß nicht auf!", "Gebt nicht auf!", "Geben Sie nicht auf!"],
+        altAnswers: ["Gib bloß nicht auf!"],
         explanation: "Du imperative of \"aufgeben\": \"gib ... auf\" (e → i).",
       },
       {

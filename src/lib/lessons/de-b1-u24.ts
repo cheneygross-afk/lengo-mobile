@@ -212,7 +212,7 @@ export const DE_B1_U24: Lesson[] = [
         heading: "Deshalb: position 1, verb second",
         body: [
           "\"Deshalb\" means that's why, so, therefore. It links a result to a reason in the sentence before. Unlike English so, it is not a conjunction but an adverb, and it counts as position 1: the verb must come right after it, then the subject. \"Ich war krank, deshalb bin ich zu Hause geblieben\".",
-          "The English-speaker mistake is *deshalb ich bin*, copying so I am. Think of \"deshalb\" like \"heute\" or \"dann\": when it starts a clause, inversion follows.",
+          "The English-speaker mistake is \"*deshalb ich bin*\", copying so I am. Think of \"deshalb\" like \"heute\" or \"dann\": when it starts a clause, inversion follows.",
           "\"Deshalb\" can also stand later in the clause, in the middle field: \"Ich war krank und bin deshalb zu Hause geblieben\". It can even start a new sentence after a full stop: \"Es regnete stark. Deshalb blieben wir drinnen\".",
         ],
         examples: [
@@ -227,10 +227,10 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with deshalb.",
+            prompt: "Translate into German with \"deshalb\".",
             source: "I was ill, so I stayed at home.",
             answer: "Ich war krank, deshalb bin ich zu Hause geblieben.",
-            altAnswers: ["Ich war krank, deshalb blieb ich zu Hause.", "Ich war krank und bin deshalb zu Hause geblieben.", "Ich war krank. Deshalb bin ich zu Hause geblieben."],
+            altAnswers: ["Ich war krank, deshalb blieb ich zu Hause.", "Ich war krank und bin deshalb zu Hause geblieben.", "Ich war krank. Deshalb bin ich zu Hause geblieben.", "Ich war krank, deshalb bin ich zuhause geblieben."],
             explanation: "\"Deshalb\" is position 1, so the verb \"bin\" comes next and the subject after it.",
           },
           {
@@ -253,14 +253,14 @@ export const DE_B1_U24: Lesson[] = [
           { es: "Ich hatte keine Zeit, deswegen konnte ich nicht kommen.", en: "I didn't have time, so I couldn't come." },
           { es: "Ich muss morgen früh raus, darum gehe ich jetzt ins Bett.", en: "I've got to get up early tomorrow, so I'm going to bed now." },
           { es: "Warum? — Darum!", en: "Why? — Because!" },
-          { es: "Es war so heiß, deswegen sind wir an den See gefahren.", en: "It was so hot, so we went to the lake." },
+          { es: "Es war so heiß, deswegen sind wir an den See gefahren.", en: "It was really hot, so we went to the lake." },
           { es: "Er hat sein Handy verloren, deswegen hat er nicht angerufen.", en: "He lost his phone, that's why he didn't call." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with deswegen.",
+            prompt: "Translate into German with \"deswegen\".",
             source: "I didn't have time, so I couldn't come.",
             answer: "Ich hatte keine Zeit, deswegen konnte ich nicht kommen.",
             altAnswers: ["Ich hatte keine Zeit, deshalb konnte ich nicht kommen.", "Ich hatte keine Zeit, darum konnte ich nicht kommen."],
@@ -268,9 +268,9 @@ export const DE_B1_U24: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: It was so hot, so we went to the lake.",
+            prompt: "Put the words in order to say: It was really hot, so we went to the lake.",
             words: ["Es", "war", "so", "heiß,", "deswegen", "sind", "wir", "an den See", "gefahren."],
-            translation: "It was so hot, so we went to the lake.",
+            translation: "It was really hot, so we went to the lake.",
             explanation: "\"Deswegen\" + auxiliary \"sind\" + subject; participle at the end.",
           },
         ],
@@ -294,7 +294,7 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with also.",
+            prompt: "Translate into German with \"also\".",
             source: "It's raining, so we'll take the bus.",
             answer: "Es regnet, also nehmen wir den Bus.",
             altAnswers: ["Es regnet, deshalb nehmen wir den Bus.", "Es regnet, also fahren wir mit dem Bus."],
@@ -389,7 +389,7 @@ export const DE_B1_U24: Lesson[] = [
         type: "listen-choose",
         audio: "Es war so heiß, deswegen sind wir an den See gefahren.",
         question: "What does it mean?",
-        options: ["It was so hot, so we went to the lake.", "It was hot, but we went to the lake anyway.", "We went to the lake because it was cool there.", "It was so hot that we stayed by the sea."],
+        options: ["It was really hot, so we went to the lake.", "It was hot, but we went to the lake anyway.", "We went to the lake because it was cool there.", "It was so hot that we stayed by the sea."],
         correctIndex: 0,
         explanation: "\"Deswegen\" = so, that's why. \"Der See\" = lake.",
       },
@@ -432,7 +432,7 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with trotzdem.",
+            prompt: "Translate into German with \"trotzdem\".",
             source: "He had no time, but he helped nevertheless.",
             answer: "Er hatte keine Zeit, trotzdem hat er geholfen.",
             altAnswers: ["Er hatte keine Zeit, trotzdem half er.", "Er hatte keine Zeit, aber er hat trotzdem geholfen.", "Er hatte keine Zeit, hat aber trotzdem geholfen."],
@@ -465,7 +465,7 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with obwohl.",
+            prompt: "Translate into German with \"obwohl\".",
             source: "Although it's raining, we're going for a walk.",
             answer: "Obwohl es regnet, gehen wir spazieren.",
             altAnswers: ["Wir gehen spazieren, obwohl es regnet."],
@@ -500,16 +500,16 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with sonst.",
+            prompt: "Translate into German with \"sonst\".",
             source: "Hurry up, or we'll miss the train. (to a friend)",
             answer: "Beeil dich, sonst verpassen wir den Zug.",
-            altAnswers: ["Beeil dich, sonst verpassen wir noch den Zug.", "Beeilt euch, sonst verpassen wir den Zug.", "Beeilen Sie sich, sonst verpassen wir den Zug."],
+            altAnswers: ["Beeil dich, sonst verpassen wir noch den Zug."],
             explanation: "\"Sonst\" + verb + subject. \"Sich beeilen\" is reflexive: \"Beeil dich!\"",
           },
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with sonst.",
+            prompt: "Translate into German with \"sonst\".",
             source: "I need to write that down, or I'll forget it.",
             answer: "Ich muss mir das aufschreiben, sonst vergesse ich es.",
             altAnswers: ["Ich muss das aufschreiben, sonst vergesse ich es.", "Ich muss mir das notieren, sonst vergesse ich es."],
@@ -542,7 +542,7 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with außerdem.",
+            prompt: "Translate into German with \"außerdem\".",
             source: "The flat is too small. Besides, it's too expensive.",
             answer: "Die Wohnung ist zu klein. Außerdem ist sie zu teuer.",
             altAnswers: ["Die Wohnung ist zu klein, außerdem ist sie zu teuer.", "Die Wohnung ist zu klein und außerdem zu teuer."],
@@ -551,7 +551,7 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with stattdessen.",
+            prompt: "Translate into German with \"stattdessen\".",
             source: "It rained. Instead we ordered pizza.",
             answer: "Es hat geregnet. Stattdessen haben wir Pizza bestellt.",
             altAnswers: ["Es regnete. Stattdessen bestellten wir Pizza.", "Es hat geregnet, stattdessen haben wir Pizza bestellt."],
@@ -598,7 +598,7 @@ export const DE_B1_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Nimm einen Schirm mit, ___ wirst du nass. Which word fits?",
+        question: "\"Nimm einen Schirm mit, ___ wirst du nass.\" Which word fits?",
         options: ["sonst", "trotzdem", "außerdem", "deshalb"],
         correctIndex: 0,
         explanation: "What will happen if you don't: \"sonst\" (otherwise).",
@@ -606,7 +606,7 @@ export const DE_B1_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with obwohl.",
+        prompt: "Translate into German with \"obwohl\".",
         source: "Although I was tired, I came along.",
         answer: "Obwohl ich müde war, bin ich mitgekommen.",
         altAnswers: ["Obwohl ich müde war, kam ich mit.", "Ich bin mitgekommen, obwohl ich müde war."],
@@ -676,7 +676,7 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with weil.",
+            prompt: "Translate into German with \"weil\".",
             source: "I'm going home because I'm tired.",
             answer: "Ich gehe nach Hause, weil ich müde bin.",
             altAnswers: ["Weil ich müde bin, gehe ich nach Hause."],
@@ -685,7 +685,7 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with deshalb.",
+            prompt: "Translate into German with \"deshalb\".",
             source: "I'm tired, so I'm going home.",
             answer: "Ich bin müde, deshalb gehe ich nach Hause.",
             altAnswers: ["Ich bin müde, deswegen gehe ich nach Hause.", "Ich bin müde, darum gehe ich nach Hause.", "Ich bin müde, also gehe ich nach Hause."],
@@ -698,7 +698,7 @@ export const DE_B1_U24: Lesson[] = [
         body: [
           "In speech, listen for where the verb lands. After \"weil\" you wait for the verb until the end: \"weil ich heute keine Zeit habe\". After \"denn\" the verb comes second, as in any main clause: \"denn ich habe heute keine Zeit\". After \"deshalb\" the verb comes right away: \"deshalb habe ich...\".",
           "A note on spoken German: many Germans use \"weil\" with main-clause order in casual speech (\"weil ich hab keine Zeit\"). You'll hear it all the time, but in writing and exams it counts as a mistake, so stick to verb-last.",
-          "\"Denn\" is more common in writing than in speech, and it can't start a sentence answering a question: to \"Warum?\" you answer \"Weil...\", never *Denn...*.",
+          "\"Denn\" is more common in writing than in speech, and it can't start a sentence answering a question: to \"Warum?\" you answer \"Weil...\", never \"*Denn...*\".",
         ],
         examples: [
           { es: "Ich komme nicht mit, weil ich heute keine Zeit habe.", en: "I'm not coming because I don't have time today." },
@@ -717,7 +717,7 @@ export const DE_B1_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Someone asks: Warum lernst du Deutsch? Which answer is correct?",
+            question: "Someone asks: \"Warum lernst du Deutsch?\" Which answer is correct?",
             options: ["Weil meine Freundin aus Köln kommt.", "Denn meine Freundin kommt aus Köln.", "Deshalb meine Freundin kommt aus Köln.", "Weil meine Freundin kommt aus Köln."],
             correctIndex: 0,
             explanation: "A short answer to \"Warum?\" starts with \"Weil\", verb last.",
@@ -733,7 +733,7 @@ export const DE_B1_U24: Lesson[] = [
       {
         heading: "Switching between the three",
         body: [
-          "Practise turning one version into the others. Start: \"Wir bleiben zu Hause, weil es regnet\". With denn: \"Wir bleiben zu Hause, denn es regnet\". With deshalb (swap the halves): \"Es regnet, deshalb bleiben wir zu Hause\".",
+          "Practise turning one version into the others. Start: \"Wir bleiben zu Hause, weil es regnet\". With \"denn\": \"Wir bleiben zu Hause, denn es regnet\". With \"deshalb\" (swap the halves): \"Es regnet, deshalb bleiben wir zu Hause\".",
           "With a Perfekt: \"Ich bin spät gekommen, weil der Bus Verspätung hatte\" → \"..., denn der Bus hatte Verspätung\" → \"Der Bus hatte Verspätung, deshalb bin ich spät gekommen\".",
           "With a modal: \"Ich kann nicht kommen, weil ich arbeiten muss\" → \"..., denn ich muss arbeiten\" → \"Ich muss arbeiten, deshalb kann ich nicht kommen\". In the weil-clause, the modal goes after the infinitive at the very end.",
         ],
@@ -749,7 +749,7 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with weil.",
+            prompt: "Translate into German with \"weil\".",
             source: "I can't come because I have to work.",
             answer: "Ich kann nicht kommen, weil ich arbeiten muss.",
             altAnswers: ["Weil ich arbeiten muss, kann ich nicht kommen."],
@@ -758,7 +758,7 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with deshalb.",
+            prompt: "Translate into German with \"deshalb\".",
             source: "The bus was delayed, so I was late.",
             answer: "Der Bus hatte Verspätung, deshalb bin ich spät gekommen.",
             altAnswers: ["Der Bus hatte Verspätung, deshalb kam ich zu spät.", "Der Bus hatte Verspätung, deshalb bin ich zu spät gekommen.", "Der Bus hatte Verspätung, deswegen bin ich zu spät gekommen.", "Der Bus hatte Verspätung, deswegen kam ich zu spät."],
@@ -771,7 +771,7 @@ export const DE_B1_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with denn.",
+        prompt: "Translate into German with \"denn\".",
         source: "I'm going home, because I'm tired.",
         answer: "Ich gehe nach Hause, denn ich bin müde.",
         explanation: "\"Denn\" doesn't change the word order: \"denn ich bin\".",
@@ -779,16 +779,16 @@ export const DE_B1_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with weil.",
+        prompt: "Translate into German with \"weil\".",
         source: "We're staying at home because it's raining.",
         answer: "Wir bleiben zu Hause, weil es regnet.",
-        altAnswers: ["Weil es regnet, bleiben wir zu Hause."],
+        altAnswers: ["Weil es regnet, bleiben wir zu Hause.", "Wir bleiben zuhause, weil es regnet."],
         explanation: "Verb last after \"weil\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with deshalb.",
+        prompt: "Translate into German with \"deshalb\".",
         source: "She'd like to work in Vienna, so she's learning German.",
         answer: "Sie möchte in Wien arbeiten, deshalb lernt sie Deutsch.",
         altAnswers: ["Sie möchte in Wien arbeiten, deswegen lernt sie Deutsch.", "Sie möchte in Wien arbeiten, darum lernt sie Deutsch."],
@@ -812,7 +812,7 @@ export const DE_B1_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with weil.",
+        prompt: "Translate into German with \"weil\".",
         source: "I was late because the bus was delayed.",
         answer: "Ich bin spät gekommen, weil der Bus Verspätung hatte.",
         altAnswers: ["Ich kam zu spät, weil der Bus Verspätung hatte.", "Ich bin zu spät gekommen, weil der Bus Verspätung hatte.", "Weil der Bus Verspätung hatte, bin ich zu spät gekommen."],
@@ -821,7 +821,7 @@ export const DE_B1_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with deshalb.",
+        prompt: "Translate into German with \"deshalb\".",
         source: "I have to work, so I can't come.",
         answer: "Ich muss arbeiten, deshalb kann ich nicht kommen.",
         altAnswers: ["Ich muss arbeiten, deswegen kann ich nicht kommen.", "Ich muss arbeiten, darum kann ich nicht kommen.", "Ich muss arbeiten, also kann ich nicht kommen."],
@@ -842,7 +842,7 @@ export const DE_B1_U24: Lesson[] = [
       {
         type: "speak",
         text: "Ich gehe nach Hause, weil ich müde bin.",
-        prompt: "Say it in German, with weil: I'm going home because I'm tired.",
+        prompt: "Say it in German, with \"weil\": I'm going home because I'm tired.",
         explanation: "Verb last after \"weil\".",
       },
     ],
@@ -966,7 +966,7 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "speak",
             text: "Ich bin also für eine autofreie Innenstadt.",
-            tip: "Autofrei: two diphthongs, OW-to-fry.",
+            tip: "Autofrei: two diphthongs, au as in how and ei as in fry: AU-to-frei.",
             explanation: "\"Also\" in the middle field = so, therefore.",
           },
         ],
@@ -1074,7 +1074,7 @@ export const DE_B1_U24: Lesson[] = [
         body: [
           "Ask one question about the relationship between the two parts. Is the second part the expected result? → \"deshalb\". Does it happen against expectation? → \"trotzdem\". Is it what will happen if the first part doesn't? → \"sonst\".",
           "\"Er war krank, deshalb ist er zu Hause geblieben\" (expected). \"Er war krank, trotzdem ist er zur Arbeit gegangen\" (unexpected). \"Du musst dich ausruhen, sonst wirst du krank\" (warning).",
-          "\"Sonst\" usually follows an instruction or a necessity (imperative, müssen, sollen); \"deshalb\" and \"trotzdem\" follow a fact.",
+          "\"Sonst\" usually follows an instruction or a necessity (an imperative, \"müssen\", \"sollen\"); \"deshalb\" and \"trotzdem\" follow a fact.",
         ],
         examples: [
           { es: "Er war krank, deshalb ist er zu Hause geblieben.", en: "He was ill, so he stayed at home." },
@@ -1086,7 +1086,7 @@ export const DE_B1_U24: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Er war krank, ___ ist er zur Arbeit gegangen.",
+            question: "\"Er war krank, ___ ist er zur Arbeit gegangen.\" Which word fits?",
             options: ["trotzdem", "deshalb", "sonst", "denn"],
             correctIndex: 0,
             explanation: "Going to work while ill is against expectation: \"trotzdem\".",
@@ -1173,14 +1173,14 @@ export const DE_B1_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Es war sehr spät, ___ haben wir ein Taxi genommen.",
+        question: "\"Es war sehr spät, ___ haben wir ein Taxi genommen.\" Which word fits?",
         options: ["deshalb", "trotzdem", "sonst", "sondern"],
         correctIndex: 0,
         explanation: "Taking a taxi is the expected result of it being late: \"deshalb\".",
       },
       {
         type: "multiple-choice",
-        question: "Ruf sie an, ___ macht sie sich Sorgen.",
+        question: "\"Ruf sie an, ___ macht sie sich Sorgen.\" Which word fits?",
         options: ["sonst", "deshalb", "trotzdem", "außerdem"],
         correctIndex: 0,
         explanation: "What will happen if you don't call: \"sonst\".",
@@ -1269,7 +1269,7 @@ export const DE_B1_U24: Lesson[] = [
             prompt: "Translate into German.",
             source: "What's more, I can concentrate better at home.",
             answer: "Außerdem kann ich mich zu Hause besser konzentrieren.",
-            altAnswers: ["Außerdem kann ich mich daheim besser konzentrieren."],
+            altAnswers: ["Außerdem kann ich mich daheim besser konzentrieren.", "Außerdem kann ich mich zuhause besser konzentrieren."],
             explanation: "\"Außerdem\" + modal + subject; reflexive \"mich\" early, infinitive last.",
           },
         ],
@@ -1355,7 +1355,7 @@ export const DE_B1_U24: Lesson[] = [
         prompt: "Translate into German.",
         source: "I've been working from home for three years.",
         answer: "Ich arbeite seit drei Jahren von zu Hause aus.",
-        altAnswers: ["Ich arbeite seit drei Jahren im Homeoffice.", "Ich arbeite seit drei Jahren von zu Hause.", "Seit drei Jahren arbeite ich von zu Hause aus."],
+        altAnswers: ["Ich arbeite seit drei Jahren im Homeoffice.", "Ich arbeite seit drei Jahren von zu Hause.", "Seit drei Jahren arbeite ich von zu Hause aus.", "Ich arbeite seit drei Jahren von zuhause aus."],
         explanation: "Present + \"seit\" for something still going on.",
       },
       {
@@ -1378,17 +1378,17 @@ export const DE_B1_U24: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Working from home has [its] advantages, [but] it's hard to separate work and free time.",
+        en: "Working from home [admittedly] has advantages, but it's hard to separate work and free time.",
         sentence: "Das Homeoffice hat ___ Vorteile, aber es ist schwer, Arbeit und Freizeit zu trennen.",
         answer: "zwar",
         explanation: "\"Zwar...aber\" for a concession.",
       },
       {
         type: "multiple-choice",
-        question: "Which connector adds another argument?",
-        options: ["außerdem", "trotzdem", "sonst", "stattdessen"],
+        question: "You want to add a second argument: \"Die Wohnung ist zu klein. ___ ist sie zu teuer.\" Which word fits?",
+        options: ["Außerdem", "Trotzdem", "Sonst", "Stattdessen"],
         correctIndex: 0,
-        explanation: "\"Außerdem\" = besides, what's more.",
+        explanation: "\"Außerdem\" (besides, what's more) adds another argument. \"Trotzdem\" would contradict, \"sonst\" warns, \"stattdessen\" replaces.",
       },
       {
         type: "translate",
@@ -1441,7 +1441,7 @@ export const DE_B1_U24: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Fix the Paragraph: Connector Word Order",
-    summary: "Correct a forum post full of *deshalb ich habe, *trotzdem er kommt, *weil ich habe keine Zeit and denn with the verb at the end.",
+    summary: "Correct a forum post full of \"*deshalb ich habe\", \"*trotzdem er kommt\", \"*weil ich habe keine Zeit\" and denn with the verb at the end.",
     duration: "12 min",
     sections: [
       {
@@ -1461,7 +1461,7 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. (Ayşe wrote: deshalb ich habe keine Zeit.)",
+            prompt: "Translate into German. (Ayşe wrote: \"*deshalb ich habe keine Zeit\".)",
             source: "I work until six, so I don't have time.",
             answer: "Ich arbeite bis sechs, deshalb habe ich keine Zeit.",
             altAnswers: ["Ich arbeite bis 18 Uhr, deshalb habe ich keine Zeit.", "Ich arbeite bis sechs Uhr, deshalb habe ich keine Zeit.", "Ich arbeite bis sechs, deswegen habe ich keine Zeit.", "Ich arbeite bis 18 Uhr, deswegen habe ich keine Zeit."],
@@ -1469,7 +1469,7 @@ export const DE_B1_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Ayşe wrote: ..., denn er in einem Restaurant arbeitet. What's correct?",
+            question: "Ayşe wrote: \"*..., denn er in einem Restaurant arbeitet.\" What's correct?",
             options: ["..., denn er arbeitet in einem Restaurant.", "..., denn arbeitet er in einem Restaurant.", "..., denn er in einem Restaurant arbeitet.", "..., denn in einem Restaurant er arbeitet."],
             correctIndex: 0,
             explanation: "\"Denn\" is in position 0: normal order, verb second.",
@@ -1480,7 +1480,7 @@ export const DE_B1_U24: Lesson[] = [
         heading: "The second part",
         body: [
           "Ayşe continues: \"Ich habe einen Nachbarn gefragt, aber er hat gesagt, dass er hat keine Zeit. Trotzdem er kommt manchmal mit. Ich suche also jemanden, der meinen Sohn mitnehmen kann, weil ich habe am Dienstag und Donnerstag keine Zeit.\"",
-          "Three fixes: \"dass er hat keine Zeit\" → \"dass er keine Zeit hat\" (dass sends the verb to the end). \"Trotzdem er kommt\" → \"Trotzdem kommt er\". \"weil ich habe ... keine Zeit\" → \"weil ich am Dienstag und Donnerstag keine Zeit habe\".",
+          "Three fixes: \"dass er hat keine Zeit\" → \"dass er keine Zeit hat\" (\"dass\" sends the verb to the end). \"Trotzdem er kommt\" → \"Trotzdem kommt er\". \"weil ich habe ... keine Zeit\" → \"weil ich am Dienstag und Donnerstag keine Zeit habe\".",
           "Remember: \"weil ich hab keine Zeit\" is common in casual speech, but in writing it's a mistake. Ayşe's \"Ich suche also jemanden\" is correct: \"also\" sits in the middle field here.",
         ],
         examples: [
@@ -1493,14 +1493,14 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. (Ayşe wrote: Trotzdem er kommt manchmal mit.)",
+            prompt: "Translate into German. (Ayşe wrote: \"*Trotzdem er kommt manchmal mit.\")",
             source: "Still, he sometimes comes along.",
             answer: "Trotzdem kommt er manchmal mit.",
             explanation: "\"Trotzdem\" + verb + subject; separable \"mitkommen\" splits.",
           },
           {
             type: "fill-blank",
-            prompt: "Write the German for the bold words. (Ayşe wrote: weil ich habe keine Zeit.)",
+            prompt: "Write the German for the bold words. (Ayşe wrote: \"*weil ich habe keine Zeit\".)",
             en: "...because [I don't have time] on Tuesday.",
             sentence: "..., weil ich am Dienstag ___.",
             answer: "keine Zeit habe",
@@ -1509,7 +1509,7 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "speak",
             text: "Er hat gesagt, dass er keine Zeit hat.",
-            tip: "Two hat: the first is position 2, the second at the end of the dass-clause.",
+            tip: "Two \"hat\": the first is position 2, the second at the end of the dass-clause.",
             explanation: "\"Dass\" → verb last.",
           },
         ],
@@ -1551,16 +1551,16 @@ export const DE_B1_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. (A learner wrote: deshalb wir bleiben zu Hause.)",
+        prompt: "Translate into German. (A learner wrote: \"*deshalb wir bleiben zu Hause.\")",
         source: "It's raining, so we're staying at home.",
         answer: "Es regnet, deshalb bleiben wir zu Hause.",
-        altAnswers: ["Es regnet, deswegen bleiben wir zu Hause.", "Es regnet, also bleiben wir zu Hause.", "Es regnet, darum bleiben wir zu Hause."],
+        altAnswers: ["Es regnet, deswegen bleiben wir zu Hause.", "Es regnet, also bleiben wir zu Hause.", "Es regnet, darum bleiben wir zu Hause.", "Es regnet, deshalb bleiben wir zuhause."],
         explanation: "Connector adverb, then verb, then subject.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. (A learner wrote: weil ich bin krank.)",
+        prompt: "Translate into German. (A learner wrote: \"*weil ich bin krank.\")",
         source: "I'm not coming because I'm ill.",
         answer: "Ich komme nicht, weil ich krank bin.",
         altAnswers: ["Ich komme nicht mit, weil ich krank bin.", "Weil ich krank bin, komme ich nicht."],
@@ -1569,7 +1569,7 @@ export const DE_B1_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. (A learner wrote: denn ich keine Zeit habe.)",
+        prompt: "Translate into German. (A learner wrote: \"*denn ich keine Zeit habe.\")",
         source: "I can't help, because I don't have time.",
         answer: "Ich kann nicht helfen, denn ich habe keine Zeit.",
         altAnswers: ["Ich kann nicht helfen, weil ich keine Zeit habe."],
@@ -1577,7 +1577,7 @@ export const DE_B1_U24: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Write the German for the bold words. (A learner wrote: trotzdem sie ist gekommen.)",
+        prompt: "Write the German for the bold words. (A learner wrote: \"*trotzdem sie ist gekommen.\")",
         en: "She was ill, [but she came anyway].",
         sentence: "Sie war krank, ___ gekommen.",
         answer: "trotzdem ist sie",
@@ -1593,7 +1593,7 @@ export const DE_B1_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. (A learner wrote: Außerdem es ist zu teuer.)",
+        prompt: "Translate into German. (A learner wrote: \"*Außerdem es ist zu teuer.\")",
         source: "Besides, it's too expensive.",
         answer: "Außerdem ist es zu teuer.",
         explanation: "\"Außerdem\" + verb + subject.",
@@ -1601,7 +1601,7 @@ export const DE_B1_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. (A learner wrote: sonst wir kommen zu spät.)",
+        prompt: "Translate into German. (A learner wrote: \"*sonst wir kommen zu spät.\")",
         source: "Hurry up, otherwise we'll be late. (to friends)",
         answer: "Beeilt euch, sonst kommen wir zu spät.",
         altAnswers: ["Beeil dich, sonst kommen wir zu spät.", "Beeilen Sie sich, sonst kommen wir zu spät.", "Beeilt euch, sonst sind wir zu spät."],
@@ -1835,7 +1835,7 @@ export const DE_B1_U24: Lesson[] = [
       {
         heading: "The request",
         body: [
-          "Leon is moving from Köln-Ehrenfeld to a bigger flat in Nippes and asks his old friend Jonas for help. Read the start of the story; the connectors are in bold in your head, so notice their word order.",
+          "Leon is moving from Köln-Ehrenfeld to a bigger flat in Nippes and asks his old friend Jonas for help. Read the start of the story and notice the word order after each connector.",
           "\"Am Donnerstag rief Leon an. Er wollte am Samstag umziehen, aber zwei Freunde hatten abgesagt. Deshalb fragte er Jonas. Jonas hatte eigentlich andere Pläne, denn er wollte mit seiner Freundin an den See fahren. Trotzdem sagte er sofort zu, weil Leon ihm im letzten Jahr auch geholfen hatte.\"",
           "Count the patterns: \"aber\" and \"denn\" (normal order), \"deshalb\" and \"trotzdem\" (verb next), \"weil\" (verb last, here a Plusquamperfekt: \"geholfen hatte\"). \"Absagen\" (to cancel) and \"zusagen\" (to say yes) are opposites.",
         ],
@@ -1853,7 +1853,7 @@ export const DE_B1_U24: Lesson[] = [
             en: "Two friends had cancelled. [So he asked] Jonas.",
             sentence: "Zwei Freunde hatten abgesagt. ___ Jonas.",
             answer: "Deshalb fragte er",
-            altAnswers: ["Deswegen fragte er", "Darum fragte er", "Also fragte er", "Deshalb hat er"],
+            altAnswers: ["Deswegen fragte er", "Darum fragte er", "Also fragte er"],
             explanation: "\"Deshalb\" + verb + subject.",
           },
           {
@@ -1902,7 +1902,7 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "speak",
             text: "Außerdem passte das Sofa nicht durch die Tür.",
-            tip: "Außerdem: OW-ser-dem, stress on the first syllable.",
+            tip: "Außerdem: AU-ser-dem (au as in how), stress on the first syllable.",
             explanation: "\"Außerdem\" + verb + subject.",
           },
         ],
@@ -1911,7 +1911,7 @@ export const DE_B1_U24: Lesson[] = [
         heading: "The thank-you",
         body: [
           "\"Am Abend waren alle total erschöpft. Leon bestellte Pizza für alle, denn er wollte sich bedanken. Jonas war zwar müde, aber glücklich. Als er nach Hause fuhr, dachte er: Wenn ich umziehe, rufe ich Leon an!\"",
-          "\"Sich bedanken\" (to say thank you), \"zwar...aber\", an als-clause for a single past event, and a wenn-clause for the future. Every connector you've learned at the Intermediate level appears in this short story.",
+          "\"Sich bedanken\" (to say thank you), \"zwar...aber\", an als-clause for a single past event, and a wenn-clause for the future. Most of this unit's connectors appear in this short story.",
         ],
         examples: [
           { es: "Am Abend waren alle total erschöpft.", en: "In the evening everyone was completely exhausted." },
@@ -1955,7 +1955,7 @@ export const DE_B1_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "They had to hurry, otherwise the books would get wet.",
+        source: "They had to hurry, otherwise the books would have got wet.",
         answer: "Sie mussten sich beeilen, sonst wären die Bücher nass geworden.",
         altAnswers: ["Sie mussten sich beeilen, sonst würden die Bücher nass werden."],
         explanation: "\"Sonst\" + verb + subject; Konjunktiv II for what would have happened.",
@@ -1970,7 +1970,7 @@ export const DE_B1_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Der Aufzug war kaputt, ___ trugen sie alles in den vierten Stock.",
+        question: "\"Der Aufzug war kaputt, ___ trugen sie alles in den vierten Stock.\" Which word fits?",
         options: ["also", "trotzdem", "sonst", "denn"],
         correctIndex: 0,
         explanation: "The expected consequence: \"also\" (so). \"Denn\" would need normal order.",
@@ -2058,7 +2058,7 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with man.",
+            prompt: "Translate into German with \"man\".",
             source: "You have to be quiet after 10 p.m.",
             answer: "Ab 22 Uhr muss man leise sein.",
             altAnswers: ["Man muss ab 22 Uhr leise sein.", "Ab zehn Uhr abends muss man leise sein."],
@@ -2091,7 +2091,7 @@ export const DE_B1_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Passive version of: Man darf keine Fahrräder im Flur abstellen.",
+            question: "Which is the passive version of \"Man darf keine Fahrräder im Flur abstellen\"?",
             options: ["Fahrräder dürfen nicht im Flur abgestellt werden.", "Fahrräder darf nicht im Flur abgestellt werden.", "Fahrräder dürfen nicht im Flur abstellen werden.", "Man darf Fahrräder nicht im Flur abgestellt werden."],
             correctIndex: 0,
             explanation: "Plural subject \"Fahrräder\" → \"dürfen\"; participle + \"werden\" at the end.",
@@ -2176,7 +2176,7 @@ export const DE_B1_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the man version of: Der Müll muss getrennt werden?",
+        question: "Which is the \"man\" version of \"Der Müll muss getrennt werden\"?",
         options: ["Man muss den Müll trennen.", "Man muss der Müll trennen.", "Man muss den Müll getrennt werden.", "Man wird den Müll trennen müssen."],
         correctIndex: 0,
         explanation: "With \"man\" the rubbish becomes the accusative object: \"den Müll\".",
@@ -2252,7 +2252,7 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with deshalb.",
+            prompt: "Translate into German with \"deshalb\".",
             source: "The weather's nice, so Mia's taking her bike.",
             answer: "Das Wetter ist schön, deshalb nimmt Mia das Fahrrad.",
             altAnswers: ["Das Wetter ist schön, deswegen nimmt Mia das Fahrrad.", "Das Wetter ist schön, also nimmt Mia das Fahrrad.", "Das Wetter ist schön, deshalb fährt Mia mit dem Fahrrad.", "Das Wetter ist schön, deshalb nimmt Mia das Rad."],
@@ -2284,7 +2284,7 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with trotzdem.",
+            prompt: "Translate into German with \"trotzdem\".",
             source: "The weather's bad, but Mia's taking her bike anyway.",
             answer: "Das Wetter ist schlecht, trotzdem nimmt Mia das Fahrrad.",
             altAnswers: ["Das Wetter ist schlecht, aber Mia nimmt trotzdem das Fahrrad.", "Das Wetter ist schlecht, trotzdem fährt Mia mit dem Fahrrad.", "Das Wetter ist schlecht, trotzdem nimmt Mia das Rad."],
@@ -2293,7 +2293,7 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with obwohl.",
+            prompt: "Translate into German with \"obwohl\".",
             source: "Although the weather's bad, Mia's taking her bike.",
             answer: "Obwohl das Wetter schlecht ist, nimmt Mia das Fahrrad.",
             altAnswers: ["Mia nimmt das Fahrrad, obwohl das Wetter schlecht ist.", "Obwohl das Wetter schlecht ist, fährt Mia mit dem Fahrrad."],
@@ -2325,7 +2325,7 @@ export const DE_B1_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with weil.",
+            prompt: "Translate into German with \"weil\".",
             source: "I was late because I missed the bus.",
             answer: "Ich bin zu spät gekommen, weil ich den Bus verpasst habe.",
             altAnswers: ["Ich kam zu spät, weil ich den Bus verpasst hatte.", "Ich bin zu spät gekommen, weil ich den Bus verpasst hatte.", "Weil ich den Bus verpasst habe, bin ich zu spät gekommen."],
@@ -2346,7 +2346,7 @@ export const DE_B1_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with weil.",
+        prompt: "Translate into German with \"weil\".",
         source: "Mia's taking her bike because the weather's nice.",
         answer: "Mia nimmt das Fahrrad, weil das Wetter schön ist.",
         altAnswers: ["Mia nimmt das Rad, weil das Wetter schön ist.", "Mia fährt mit dem Fahrrad, weil das Wetter schön ist.", "Weil das Wetter schön ist, nimmt Mia das Fahrrad."],
@@ -2355,7 +2355,7 @@ export const DE_B1_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with denn.",
+        prompt: "Translate into German with \"denn\".",
         source: "Mia's taking her bike, as the weather's nice.",
         answer: "Mia nimmt das Fahrrad, denn das Wetter ist schön.",
         altAnswers: ["Mia nimmt das Rad, denn das Wetter ist schön.", "Mia fährt mit dem Fahrrad, denn das Wetter ist schön."],
@@ -2364,7 +2364,7 @@ export const DE_B1_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with deshalb.",
+        prompt: "Translate into German with \"deshalb\".",
         source: "I missed the bus, so I was late.",
         answer: "Ich habe den Bus verpasst, deshalb bin ich zu spät gekommen.",
         altAnswers: ["Ich habe den Bus verpasst, deswegen bin ich zu spät gekommen.", "Ich verpasste den Bus, deshalb kam ich zu spät.", "Ich habe den Bus verpasst, also bin ich zu spät gekommen."],
@@ -2380,7 +2380,7 @@ export const DE_B1_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Das Wetter ist schlecht, ___ nimmt Mia den Bus.",
+        question: "\"Das Wetter ist schlecht, ___ nimmt Mia den Bus.\" Which word fits?",
         options: ["deshalb", "trotzdem", "obwohl", "denn"],
         correctIndex: 0,
         explanation: "Taking the bus is the expected result of bad weather: \"deshalb\". (\"Obwohl\" and \"denn\" can't be followed by the verb.)",
@@ -2388,7 +2388,7 @@ export const DE_B1_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with trotzdem.",
+        prompt: "Translate into German with \"trotzdem\".",
         source: "I missed the bus, but I still arrived on time.",
         answer: "Ich habe den Bus verpasst, trotzdem bin ich pünktlich gekommen.",
         altAnswers: ["Ich habe den Bus verpasst, aber ich bin trotzdem pünktlich gekommen.", "Ich verpasste den Bus, trotzdem kam ich pünktlich."],
@@ -2397,7 +2397,7 @@ export const DE_B1_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with zwar...aber.",
+        prompt: "Translate into German with \"zwar...aber\".",
         source: "The weather may be bad, but Mia's taking her bike.",
         answer: "Das Wetter ist zwar schlecht, aber Mia nimmt das Fahrrad.",
         altAnswers: ["Zwar ist das Wetter schlecht, aber Mia nimmt das Fahrrad.", "Das Wetter ist zwar schlecht, aber Mia nimmt das Rad."],

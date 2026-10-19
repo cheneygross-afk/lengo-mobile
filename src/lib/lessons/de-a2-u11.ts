@@ -271,7 +271,7 @@ export const DE_A2_U11: Lesson[] = [
         examples: [
           { es: "Ich gehe ins Kino.", en: "I'm going to the cinema." },
           { es: "Wir fahren ans Meer.", en: "We're going to the seaside." },
-          { es: "Stell die Milch ins Fach!", en: "Put the milk in the compartment!" },
+          { es: "Geh jetzt ins Bett!", en: "Go to bed now!" },
           { es: "Sie geht in den Park.", en: "She's going to the park." },
           { es: "Wir fahren in die Stadt.", en: "We're going into town." },
         ],
@@ -682,7 +682,7 @@ export const DE_A2_U11: Lesson[] = [
       {
         heading: "Stehen, liegen, sitzen, hängen: the result",
         body: [
-          "Each action verb has a partner that describes the resulting position, with the dative: \"stellen\" → \"stehen\" (Die Flasche steht auf dem Tisch), \"legen\" → \"liegen\" (Das Handy liegt auf dem Sofa), \"setzen\" → \"sitzen\" (Das Baby sitzt auf dem Stuhl), \"hängen\" → \"hängen\" (Die Jacke hängt am Haken).",
+          "Each action verb has a partner that describes the resulting position, with the dative: \"stellen\" → \"stehen\" (\"Die Flasche steht auf dem Tisch\"), \"legen\" → \"liegen\" (\"Das Handy liegt auf dem Sofa\"), \"setzen\" → \"sitzen\" (\"Das Baby sitzt auf dem Stuhl\"), \"hängen\" → \"hängen\" (\"Die Jacke hängt am Haken\").",
           "Notice: the position verbs have no object. A bottle stands; nobody stands it. That's the clue for the dative.",
           "\"Hängen\" uses the same form for both: \"Ich hänge die Jacke an den Haken\" (action, accusative) vs \"Die Jacke hängt am Haken\" (position, dative). Only the case and the Perfekt tell them apart.",
         ],
@@ -1030,7 +1030,7 @@ export const DE_A2_U11: Lesson[] = [
     slug: "a2-qa-wo-ist-mein-schluessel",
     level: "DE-A2",
     number: 6,
-    title: "Q&A Drill: Wo Ist Mein Schlüssel?",
+    title: "Q&A Drill: Wo ist mein Schlüssel?",
     summary: "Answer where-questions about a messy flat with the dative, and tell someone where to put things with the accusative.",
     duration: "13 min",
     sections: [

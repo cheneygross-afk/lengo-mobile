@@ -41,15 +41,15 @@ export const DE_A2_U09: Lesson[] = [
             en: "[I'm hurrying.]",
             sentence: "Ich beeile ___.",
             answer: "mich",
-            explanation: "\"Sich beeilen\" always needs the pronoun: \"ich beeile mich\". *Ich beeile* on its own is not German.",
+            explanation: "\"Sich beeilen\" always needs the pronoun: \"ich beeile mich\". \"*Ich beeile*\" on its own is not German.",
           },
         ],
       },
       {
         heading: "Mich, dich, sich, uns, euch, sich",
         body: [
-          "The reflexive pronouns are the accusative pronouns you already know, with one new word: \"mich\" (myself), \"dich\" (yourself), \"uns\" (ourselves), \"euch\" (yourselves). Only the third person is new: \"sich\" for himself, herself, itself and themselves.",
-          "Polite \"Sie\" also takes \"sich\", and here \"sich\" keeps a small s: \"Setzen Sie sich!\" (Sit down!). Learners often write *Setzen Sie Sie*, but \"Sie\" as an object would mean another person.",
+          "The reflexive pronouns are the accusative pronouns you already know: \"mich\" (myself), \"dich\" (yourself), \"uns\" (ourselves), \"euch\" (yourselves). Only the third person has a new word: \"sich\" for himself, herself, itself and themselves.",
+          "Polite \"Sie\" also takes \"sich\", and here \"sich\" keeps a small s: \"Setzen Sie sich!\" (Sit down!). Learners often write \"*Setzen Sie Sie*\", but \"Sie\" as an object would mean another person.",
           "So the full present of \"sich waschen\" is: \"ich wasche mich, du wäschst dich, er/sie/es wäscht sich, wir waschen uns, ihr wascht euch, sie waschen sich, Sie waschen sich\".",
         ],
         examples: [
@@ -89,7 +89,7 @@ export const DE_A2_U09: Lesson[] = [
       {
         heading: "Where the pronoun goes",
         body: [
-          "The reflexive pronoun sits right after the conjugated verb: \"Ich ziehe mich an.\" With a separable verb the prefix still goes to the very end: \"ich ziehe mich an\", \"er ruht sich aus\", never *ich anziehe mich*.",
+          "The reflexive pronoun sits right after the conjugated verb: \"Ich ziehe mich an.\" With a separable verb the prefix still goes to the very end: \"ich ziehe mich an\", \"er ruht sich aus\", never \"*ich anziehe mich*\".",
           "When something else comes first and the subject moves behind the verb, a pronoun subject comes first and the reflexive follows it: \"Dann ziehe ich mich an.\" \"Morgens beeilt sie sich.\"",
           "With a noun subject after the verb, the reflexive usually slips in front of the noun: \"Morgens beeilt sich Jonas.\" \"Morgens beeilt Jonas sich\" is also correct; both are common.",
         ],
@@ -166,7 +166,7 @@ export const DE_A2_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "Please sit down, Mr Becker.",
         answer: "Setzen Sie sich bitte, Herr Becker.",
-        altAnswers: ["Bitte setzen Sie sich, Herr Becker.", "Setzen Sie sich, Herr Becker, bitte."],
+        altAnswers: ["Bitte setzen Sie sich, Herr Becker.", "Setzen Sie sich, Herr Becker, bitte.", "Herr Becker, setzen Sie sich bitte.", "Herr Becker, bitte setzen Sie sich."],
         explanation: "Formal imperative: verb first, then \"Sie\", then the reflexive \"sich\" with a small s.",
       },
       {
@@ -174,7 +174,7 @@ export const DE_A2_U09: Lesson[] = [
         prompt: "Put the words in order to say: In the morning Jonas always hurries.",
         words: ["Morgens", "beeilt", "sich", "Jonas", "immer."],
         translation: "In the morning Jonas always hurries.",
-        altOrders: [["Morgens", "beeilt", "Jonas", "sich", "immer."], ["Jonas", "beeilt", "sich", "morgens", "immer."]],
+        altOrders: [["Morgens", "beeilt", "Jonas", "sich", "immer."], ["Jonas", "beeilt", "sich", "morgens", "immer."], ["Jonas", "beeilt", "sich", "immer", "morgens."]],
         explanation: "After \"morgens\" the verb comes second; with a noun subject the reflexive \"sich\" often comes before the noun.",
       },
       {
@@ -217,7 +217,7 @@ export const DE_A2_U09: Lesson[] = [
     slug: "a2-reflexive-pattern-present",
     level: "DE-A2",
     number: 2,
-    title: "Pattern Practice: Ich Wasche Mich, Du Wäschst Dich",
+    title: "Pattern Practice: Ich wasche mich, du wäschst dich",
     summary: "Drill reflexive verbs through all six persons, with the stem change in waschen and separable reflexives like sich anziehen.",
     duration: "12 min",
     sections: [
@@ -302,7 +302,7 @@ export const DE_A2_U09: Lesson[] = [
         heading: "More routine verbs in the same frame",
         body: [
           "Run the same frame with \"sich duschen\", \"sich kämmen\" (to comb your hair), \"sich rasieren\" (to shave), \"sich schminken\" (to put on make-up) and \"sich beeilen\". They are all regular: only the pronoun and the ending change.",
-          "Remember that \"du\" + a stem in -s or -z only adds -t: \"du rasierst dich\", but \"du duschst dich\" keeps -st after sch.",
+          "Remember that \"du\" + a stem in -s, -ß or -z only adds -t: \"du setzt dich\", but \"du duschst dich\" keeps the full -st after sch, and \"du rasierst dich\", \"du kämmst dich\" are regular.",
         ],
         examples: [
           { es: "Kämmst du dich nie?", en: "Do you never comb your hair?" },
@@ -429,7 +429,7 @@ export const DE_A2_U09: Lesson[] = [
     slug: "a2-reflexive-minimal-pairs",
     level: "DE-A2",
     number: 3,
-    title: "Minimal Pairs: Ich Wasche / Ich Wasche Mich",
+    title: "Minimal Pairs: Ich wasche / Ich wasche mich",
     summary: "Hear and use the difference between doing something to someone else and doing it to yourself: ich wasche das Auto vs ich wasche mich.",
     duration: "12 min",
     sections: [
@@ -687,7 +687,7 @@ export const DE_A2_U09: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm interested in history.",
             answer: "Ich interessiere mich für Geschichte.",
-            explanation: "\"Sich interessieren für\": interested in is \"für\" in German. *Ich interessiere mich in* is a common mistake.",
+            explanation: "\"Sich interessieren für\": interested in is \"für\" in German. \"*Ich interessiere mich in*\" is a common mistake.",
           },
           {
             type: "fill-blank",
@@ -790,6 +790,7 @@ export const DE_A2_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "I don't remember the name.",
         answer: "Ich erinnere mich nicht an den Namen.",
+        altAnswers: ["An den Namen erinnere ich mich nicht."],
         explanation: "\"Sich erinnern an\" + accusative; \"Name\" is a weak noun: \"den Namen\". \"Nicht\" goes before the preposition phrase.",
       },
       {
@@ -906,7 +907,7 @@ export const DE_A2_U09: Lesson[] = [
             prompt: "Translate into German.",
             source: "I brush my teeth.",
             answer: "Ich putze mir die Zähne.",
-            explanation: "Dative reflexive \"mir\" + the article \"die\": \"Ich putze mir die Zähne\". *Ich putze meine Zähne* is the English-sounding version.",
+            explanation: "Dative reflexive \"mir\" + the article \"die\": \"Ich putze mir die Zähne\". \"*Ich putze meine Zähne*\" is the English-sounding version.",
           },
           {
             type: "fill-blank",
@@ -1057,7 +1058,7 @@ export const DE_A2_U09: Lesson[] = [
     slug: "a2-reflexive-reciprocal",
     level: "DE-A2",
     number: 6,
-    title: "Wir Treffen Uns: Each Other",
+    title: "Wir treffen uns: Each Other",
     summary: "Use uns, euch and sich to mean each other: wir treffen uns, sie kennen sich, sie haben sich verliebt.",
     duration: "13 min",
     sections: [
@@ -1065,7 +1066,7 @@ export const DE_A2_U09: Lesson[] = [
         heading: "Uns, euch, sich = each other",
         body: [
           "In the plural the reflexive pronoun often means each other: \"Wir treffen uns morgen\" (we're meeting tomorrow, literally we meet each other), \"Sie kennen sich seit Jahren\" (they've known each other for years).",
-          "English often leaves each other out (we're meeting, they met), but German needs the pronoun: *Wir treffen morgen* is incomplete. The phrase \"Wir sehen uns!\" (see you!) is a goodbye you'll hear every day.",
+          "English often leaves each other out (we're meeting, they met), but German needs the pronoun: \"*Wir treffen morgen*\" is incomplete. The phrase \"Wir sehen uns!\" (see you!) is a goodbye you'll hear every day.",
           "Remember seit + present from Unit 6: \"Wir kennen uns seit zehn Jahren\" (we've known each other for ten years).",
         ],
         examples: [
@@ -1283,7 +1284,7 @@ export const DE_A2_U09: Lesson[] = [
         heading: "Sitzen or sich setzen?",
         body: [
           "English sit does two jobs: being in a seat (I'm sitting by the window) and the movement into it (sit down!). German splits them. \"Sitzen\" is the state, no pronoun: \"Ich sitze am Fenster.\" \"Sich setzen\" is the movement: \"Ich setze mich.\"",
-          "So the invitation is \"Setz dich!\" or \"Setzen Sie sich!\", never *Sitz!* (which is what you say to a dog). And the question where are you sitting? is \"Wo sitzt du?\"",
+          "So the invitation is \"Setz dich!\" or \"Setzen Sie sich!\", never \"*Sitz!*\" (which is what you say to a dog). And the question where are you sitting? is \"Wo sitzt du?\"",
           "In the Perfekt: \"Ich habe mich gesetzt\" (I sat down) but \"Ich habe am Fenster gesessen\" (I sat / was sitting by the window). In southern Germany, Austria and Switzerland you'll also hear \"Ich bin gesessen\".",
         ],
         examples: [
@@ -1315,7 +1316,7 @@ export const DE_A2_U09: Lesson[] = [
         heading: "Reflexive in German, not in English",
         body: [
           "A group of everyday verbs is reflexive in German although English never says myself: \"sich fühlen\" (to feel: \"Ich fühle mich gut\"), \"sich erinnern\" (to remember), \"sich entscheiden\" (to decide), \"sich verabreden\" (to arrange to meet), \"sich verletzen\" (to get hurt), \"sich beeilen\" (to hurry), \"sich bedanken\" (to say thank you).",
-          "The trap is \"Ich fühle gut\": without \"mich\" it means I have a good sense of touch. How are you feeling? is \"Wie fühlst du dich?\", and I don't feel well is \"Ich fühle mich nicht wohl\".",
+          "The trap is \"*Ich fühle gut*\": without \"mich\" it isn't German, because plain \"fühlen\" means to feel something by touch (\"Ich fühle den Puls\"). How are you feeling? is \"Wie fühlst du dich?\", and I don't feel well is \"Ich fühle mich nicht wohl\".",
           "\"Sich entscheiden\" has the participle \"entschieden\": \"Ich habe mich entschieden\" (I've decided). \"Sich verabreden mit\": \"Ich habe mich mit Mia verabredet\" (I've arranged to meet Mia).",
         ],
         examples: [
@@ -1334,7 +1335,7 @@ export const DE_A2_U09: Lesson[] = [
             source: "I don't feel well today.",
             answer: "Ich fühle mich heute nicht wohl.",
             altAnswers: ["Heute fühle ich mich nicht wohl.", "Ich fühle mich heute nicht gut.", "Heute fühle ich mich nicht gut."],
-            explanation: "Feel is reflexive in German: \"sich fühlen\". *Ich fühle nicht gut* is the English-speaker mistake.",
+            explanation: "Feel is reflexive in German: \"sich fühlen\". \"*Ich fühle nicht gut*\" is the English-speaker mistake.",
           },
           {
             type: "translate",
@@ -1504,7 +1505,7 @@ export const DE_A2_U09: Lesson[] = [
             prompt: "Translate into German.",
             source: "At seven I had a shower.",
             answer: "Um sieben habe ich mich geduscht.",
-            altAnswers: ["Ich habe mich um sieben geduscht.", "Um sieben Uhr habe ich mich geduscht.", "Ich habe mich um sieben Uhr geduscht.", "Um sieben habe ich geduscht."],
+            altAnswers: ["Ich habe mich um sieben geduscht.", "Um sieben Uhr habe ich mich geduscht.", "Ich habe mich um sieben Uhr geduscht.", "Um sieben habe ich geduscht.", "Ich habe um sieben geduscht."],
             explanation: "Time first, \"habe\" second, then \"ich\", then \"mich\", participle last.",
           },
           {
@@ -1610,7 +1611,7 @@ export const DE_A2_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "I had to hurry.",
         answer: "Ich musste mich beeilen.",
-        explanation: "Modals use the Präteritum in speech: \"Ich musste mich beeilen\", not \"Ich habe mich beeilen müssen\".",
+        explanation: "Modals use the Präteritum in speech: \"Ich musste mich beeilen\". The Perfekt \"Ich habe mich beeilen müssen\" is possible but much heavier and rarer.",
       },
       {
         type: "fill-blank",

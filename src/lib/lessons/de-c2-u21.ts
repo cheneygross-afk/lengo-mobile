@@ -8,7 +8,7 @@ export const DE_C2_U21: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Das Vorstellungsgespräch, Part 1 of 7",
-    summary: "How German recruitment works (Anschreiben, tabellarischer Lebenslauf, Arbeitszeugnisse), how to address your interviewers, and how to tell your career story with Perfekt, Präteritum and seit.",
+    summary: "Understand how German recruitment works (\"Anschreiben\", \"tabellarischer Lebenslauf\", \"Arbeitszeugnisse\"), address your interviewers correctly, and tell your career story with Perfekt, Präteritum and \"seit\".",
     duration: "18 min",
     sections: [
       {
@@ -34,7 +34,7 @@ export const DE_C2_U21: Lesson[] = [
             source: "Please send us your complete application documents.",
             answer: "Bitte senden Sie uns Ihre vollständigen Bewerbungsunterlagen.",
             altAnswers: ["Bitte schicken Sie uns Ihre vollständigen Bewerbungsunterlagen.", "Senden Sie uns bitte Ihre vollständigen Bewerbungsunterlagen.", "Schicken Sie uns bitte Ihre vollständigen Bewerbungsunterlagen."],
-            explanation: "\"Die Bewerbungsunterlagen\" (always plural) covers the whole package: Anschreiben, Lebenslauf and Zeugnisse. Formal \"Sie\" and \"Ihre\" are capitalised.",
+            explanation: "\"Die Bewerbungsunterlagen\" (always plural) covers the whole package: \"Anschreiben\", \"Lebenslauf\" and \"Zeugnisse\". Formal \"Sie\" and \"Ihre\" are capitalised.",
           },
           {
             type: "multiple-choice",
@@ -56,7 +56,7 @@ export const DE_C2_U21: Lesson[] = [
           { es: "Guten Tag, Frau Dr. Weber, vielen Dank für die Einladung.", en: "Good afternoon, Dr Weber, thank you very much for the invitation." },
           { es: "Haben Sie gut zu uns gefunden?", en: "Did you find us all right?" },
           { es: "Ja, danke, ich bin mit der S-Bahn gekommen, das ging problemlos.", en: "Yes, thanks, I came by S-Bahn, it was no problem at all." },
-          { es: "Bei uns duzen sich eigentlich alle. Ist das für Sie in Ordnung?", en: "Everyone here uses du, actually. Is that all right with you?" },
+          { es: "Bei uns duzen sich eigentlich alle. Ist das für Sie in Ordnung?", en: "Everyone here uses \"du\", actually. Is that all right with you?" },
           { es: "Stellen Sie sich doch bitte kurz vor.", en: "Please introduce yourself briefly." },
           { es: "Herr Professor Schmidt leitet das Institut seit 2019.", en: "Professor Schmidt has been head of the institute since 2019." },
         ],
@@ -72,15 +72,15 @@ export const DE_C2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The job ad used du. In the interview the HR manager says Sie to you. What do you do?",
-            options: ["Use Sie until they offer du.", "Use du, because the ad did.", "Mix both to sound relaxed.", "Ask them to use du."],
+            question: "The job ad used \"du\". In the interview the HR manager says \"Sie\" to you. What do you do?",
+            options: ["Use \"Sie\" until they offer \"du\".", "Use \"du\", because the ad did.", "Mix both to sound relaxed.", "Ask them to use \"du\"."],
             correctIndex: 0,
             explanation: "The person with higher status offers \"du\"; until then \"Sie\" is safe. Switching on your own sounds presumptuous.",
           },
           {
             type: "speak",
             text: "Vielen Dank für die Einladung, Herr Dr. Becker.",
-            tip: "Say Dr. as \"Doktor\", with the stress on the first syllable: DOK-tor.",
+            tip: "Say \"Dr.\" as \"Doktor\", with the stress on the first syllable: DOK-tor.",
             explanation: "Title plus surname, and \"für\" + accusative \"die Einladung\".",
           },
         ],
@@ -90,7 +90,7 @@ export const DE_C2_U21: Lesson[] = [
         body: [
           "Your answer to \"Erzählen Sie etwas über sich\" is spoken, so the default past tense is the Perfekt: \"Ich habe in Leipzig Betriebswirtschaft studiert\", \"Danach habe ich drei Jahre bei Siemens gearbeitet.\" But a few verbs are used in the Präteritum even in speech: \"war\", \"hatte\" and the modals (\"musste\", \"konnte\"). That gives the typical Mastery-level mix: \"Ich war dort als Projektleiterin tätig und habe ein Team von acht Leuten geleitet.\"",
           "\"Tätig sein als\" (to work as) and \"beschäftigt sein bei\" (to be employed at) are the formal verbs of career talk: \"Ich war vier Jahre als Controller bei der Allianz tätig.\" Note: no article after \"als\" before a job title.",
-          "The classic English trap is the present perfect for something that is still going on. I have been working at Bosch since 2021 is the present in German: \"Ich arbeite seit 2021 bei Bosch\", or more formally \"Seit 2021 bin ich bei Bosch beschäftigt.\" \"Ich habe seit 2021 bei Bosch gearbeitet\" sounds as if you no longer work there. For finished stretches use \"von ... bis\" or \"... lang\": \"Von 2018 bis 2021 war ich in München.\"",
+          "The classic English trap is the present perfect for something that is still going on. 'I have been working at Bosch since 2021' is the present in German: \"Ich arbeite seit 2021 bei Bosch\", or more formally \"Seit 2021 bin ich bei Bosch beschäftigt.\" \"Ich habe seit 2021 bei Bosch gearbeitet\" sounds as if you no longer work there. For finished stretches use \"von ... bis\" or \"... lang\": \"Von 2018 bis 2021 war ich in München.\"",
           "Structure the story: start with the present (\"Zurzeit bin ich ... \"), go back briefly (\"Studiert habe ich ...\", \"Danach ...\"), and end with why you are here (\"Jetzt möchte ich ... \"). Two minutes, not ten.",
         ],
         examples: [
@@ -114,7 +114,7 @@ export const DE_C2_U21: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "From 2018 to 2022 I [worked as] a project manager.",
+            en: "From 2018 to 2022 [I worked as] a project manager.",
             sentence: "Von 2018 bis 2022 ___ Projektmanager tätig.",
             answer: "war ich als",
             explanation: "\"Tätig sein als\" + job title without article; \"war\" is the natural spoken past of \"sein\", and the verb comes second after the fronted time phrase.",
@@ -124,6 +124,7 @@ export const DE_C2_U21: Lesson[] = [
             prompt: "Put the words in order to say: There I led a team of eight people.",
             words: ["Dort", "habe", "ich", "ein", "Team", "von", "acht", "Leuten", "geleitet."],
             translation: "There I led a team of eight people.",
+            altOrders: [["Ich", "habe", "dort", "ein", "Team", "von", "acht", "Leuten", "geleitet."]],
             explanation: "Spoken narration in the Perfekt: \"habe\" second, the participle \"geleitet\" last. \"Von\" takes the dative plural: \"Leuten\".",
           },
         ],
@@ -137,7 +138,7 @@ export const DE_C2_U21: Lesson[] = [
         source: "I have enclosed my CV and my references.",
         answer: "Ich habe meinen Lebenslauf und meine Zeugnisse beigefügt.",
         altAnswers: ["Meinen Lebenslauf und meine Zeugnisse habe ich beigefügt.", "Anbei finden Sie meinen Lebenslauf und meine Zeugnisse.", "Ich habe meinen Lebenslauf und meine Arbeitszeugnisse beigefügt."],
-        explanation: "\"Beifügen\" (to enclose) is separable: \"beigefügt\". \"Anbei finden Sie ...\" is the standard formula at the end of an Anschreiben.",
+        explanation: "\"Beifügen\" (to enclose) is separable: \"beigefügt\". \"Anbei finden Sie ...\" is the standard formula at the end of an \"Anschreiben\".",
       },
       {
         type: "translate",
@@ -172,7 +173,6 @@ export const DE_C2_U21: Lesson[] = [
         en: "I [was employed] at an insurance company for three years.",
         sentence: "Ich ___ drei Jahre bei einer Versicherung beschäftigt.",
         answer: "war",
-        altAnswers: ["bin"],
         explanation: "\"Beschäftigt sein bei\": a finished period, so \"war\" (Präteritum of \"sein\" is normal in speech). \"Ich bin ... beschäftigt gewesen\" is possible but heavy.",
       },
       {
@@ -202,7 +202,7 @@ export const DE_C2_U21: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "We all use du here. Is that all right with you?",
+        source: "We all use \"du\" here. Is that all right with you?",
         answer: "Wir duzen uns hier alle. Ist das für Sie in Ordnung?",
         altAnswers: ["Hier duzen sich alle. Ist das für Sie in Ordnung?", "Wir duzen uns hier alle. Ist das in Ordnung für Sie?", "Bei uns duzen sich alle. Ist das für Sie in Ordnung?", "Wir duzen uns hier alle. Ist das okay für Sie?"],
         explanation: "\"Sich duzen\" is reciprocal: \"wir duzen uns\". The question still uses \"Sie\" until the offer is accepted.",
@@ -211,7 +211,7 @@ export const DE_C2_U21: Lesson[] = [
         type: "speak",
         text: "Seit 2022 bin ich als Projektleiterin bei einem Energieversorger tätig.",
         prompt: "Say it in German (as a woman): Since 2022 I have been working as a project manager at an energy provider.",
-        tip: "The -ig in \"tätig\" is pronounced like ich: TÄ-tich.",
+        tip: "The -ig in \"tätig\" is pronounced like the ch in \"ich\": TÄ-tich.",
         explanation: "Present with \"seit\", \"tätig sein als\" + job title without article; a woman says \"Projektleiterin\".",
       },
     ],
@@ -220,8 +220,8 @@ export const DE_C2_U21: Lesson[] = [
     slug: "c2-strengths-tone-contrast",
     level: "DE-C2",
     number: 2,
-    title: "Contrast Clinic: Stärke, Angeberei und Falsche Bescheidenheit",
-    summary: "Find the German tone between boasting and false modesty: factual, evidence-based statements of strength such as Es gelang mir, ... zu ...",
+    title: "Contrast Clinic: Stärke, Angeberei und falsche Bescheidenheit",
+    summary: "Find the German tone between boasting and false modesty: state your strengths factually and with evidence, using phrases such as \"Es gelang mir, ... zu ...\".",
     duration: "16 min",
     sections: [
       {
@@ -295,7 +295,7 @@ export const DE_C2_U21: Lesson[] = [
       {
         heading: "Just right: factual understatement",
         body: [
-          "The German sweet spot is a calm statement of fact with a result: \"Es gelang mir, ... zu ...\" (I succeeded in ...), \"Ich konnte ... \" (I was able to ...), \"Dadurch haben wir ... erreicht\". \"Gelingen\" is impersonal: the achievement is the subject and you are in the dative: \"es gelang mir\", \"es ist mir gelungen\". Never \"ich gelang\".",
+          "The German sweet spot is a calm statement of fact with a result: \"Es gelang mir, ... zu ...\" (I succeeded in ...), \"Ich konnte ... \" (I was able to ...), \"Dadurch haben wir ... erreicht\". \"Gelingen\" is impersonal: the achievement is the subject and you are in the dative: \"es gelang mir\", \"es ist mir gelungen\". Never \"*ich gelang*\".",
           "Let the numbers do the boasting: \"Es gelang mir, die Fehlerquote von acht auf drei Prozent zu senken.\" A modest frame for a strong fact is the most persuasive combination in German: \"Darauf bin ich, ehrlich gesagt, auch ein bisschen stolz.\" Here \"ein bisschen\" is fine, because the fact is already on the table.",
           "Compare the three registers for one achievement: boasting \"Ich habe das Projekt im Alleingang gerettet\"; false modesty \"Ich war halt auch dabei\"; factual \"Ich habe das Projekt in einer kritischen Phase übernommen und es gelang mir, den Termin zu halten.\"",
         ],
@@ -419,15 +419,15 @@ export const DE_C2_U21: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Das Vorstellungsgespräch, Part 2 of 7",
-    summary: "Present strengths with evidence: Ich verfüge über ..., es ist mir gelungen, ..., comparatives for growth, nominal CV style and the key soft-skill nouns Belastbarkeit, Teamfähigkeit, Eigeninitiative, Durchsetzungsvermögen.",
+    summary: "Present your strengths with evidence (\"Ich verfüge über ...\", \"Es ist mir gelungen, ...\"), describe growth with comparatives, write in nominal CV style, and use the key soft-skill nouns (\"Belastbarkeit\", \"Teamfähigkeit\", \"Eigeninitiative\", \"Durchsetzungsvermögen\").",
     duration: "18 min",
     sections: [
       {
         heading: "The soft-skill nouns of German job ads",
         body: [
           "German job ads list soft skills as abstract nouns, and you will hear the same words in the interview: \"Belastbarkeit\" (the ability to work under pressure; literally loadability), \"Teamfähigkeit\" (being a team player), \"Eigeninitiative\" (initiative, doing things without being told), \"Durchsetzungsvermögen\" (assertiveness, the ability to get your way), \"Kommunikationsstärke\", \"Zuverlässigkeit\", \"selbstständige Arbeitsweise\".",
-          "Never just repeat them (\"Ich bin belastbar und teamfähig\"): every applicant says that. Use the noun as a heading and add the proof: \"Belastbarkeit habe ich vor allem im Jahresabschluss bewiesen, als ...\". The verbs that go with them: \"Belastbarkeit beweisen\", \"Eigeninitiative zeigen\", \"Durchsetzungsvermögen haben / brauchen\".",
-          "Some false friends: \"sensibel\" means sensitive (easily hurt), not sensible (\"vernünftig\"); \"ambitioniert\" is fine but \"ehrgeizig\" is more common; \"aggressiv\" is never a compliment, even in sales (\"zielstrebig\" or \"hartnäckig\" is what you mean).",
+          "Don't just repeat them (\"Ich bin belastbar und teamfähig\"): every applicant says that. Use the noun as a heading and add the proof: \"Belastbarkeit habe ich vor allem im Jahresabschluss bewiesen, als ...\". The verbs that go with them: \"Belastbarkeit beweisen\", \"Eigeninitiative zeigen\", \"Durchsetzungsvermögen haben / brauchen\".",
+          "Some false friends: \"sensibel\" means sensitive (easily hurt), not sensible (\"vernünftig\"); \"ambitioniert\" is fine but \"ehrgeizig\" is more common; \"aggressiv\" is hardly ever a compliment, even in sales (\"zielstrebig\" or \"hartnäckig\" is what you mean).",
         ],
         examples: [
           { es: "Belastbarkeit habe ich vor allem beim Jahresabschluss bewiesen.", en: "I proved my ability to work under pressure above all during the year-end closing." },
@@ -459,7 +459,7 @@ export const DE_C2_U21: Lesson[] = [
       {
         heading: "Ich verfüge über ... and es ist mir gelungen, ...",
         body: [
-          "\"Verfügen über\" + accusative (to have at your disposal) is the formal way to state experience and skills: \"Ich verfüge über mehrjährige Erfahrung im Projektmanagement\", \"über fundierte SAP-Kenntnisse\". It belongs in the Anschreiben and in a formal interview; overusing it sounds stiff, so alternate with \"Ich habe ... Erfahrung in ...\" and \"Ich bringe ... mit\".",
+          "\"Verfügen über\" + accusative (to have at your disposal) is the formal way to state experience and skills: \"Ich verfüge über mehrjährige Erfahrung im Projektmanagement\", \"über fundierte SAP-Kenntnisse\". It belongs in the \"Anschreiben\" and in a formal interview; overusing it sounds stiff, so alternate with \"Ich habe ... Erfahrung in ...\" and \"Ich bringe ... mit\".",
           "Experience is \"Erfahrung in\" + dative (a field) or \"Erfahrung mit\" + dative (a tool or a group): \"Erfahrung im Vertrieb\", \"Erfahrung mit internationalen Teams\". Note the adjectives: \"mehrjährige\", \"langjährige\", \"fundierte\", \"umfassende\", \"erste\" (for beginners: \"erste Erfahrungen\" in the plural).",
           "For achievements, \"gelingen\" again: \"Es ist mir gelungen, ...\" in speech, \"Es gelang mir, ...\" in writing. Vary it with \"Ich konnte ...\", \"Dadurch ließ sich ... + infinitive\" (\"Dadurch ließen sich die Kosten deutlich senken\") and the comparative for growth: \"Der Umsatz stieg um 20 Prozent\", \"Die Zahl der Neukunden hat sich verdoppelt\", \"Das Team wuchs von vier auf zwölf Leute.\"",
         ],
@@ -495,7 +495,7 @@ export const DE_C2_U21: Lesson[] = [
         heading: "Nominal CV style",
         body: [
           "On the CV itself German uses nominal style, not sentences: \"Leitung eines Teams von zehn Mitarbeitern\", \"Einführung eines neuen CRM-Systems\", \"Betreuung von Großkunden\", \"Verantwortung für ein Budget von 2 Mio. Euro\". The verb becomes a noun in -ung (\"leiten\" → \"die Leitung\", \"einführen\" → \"die Einführung\") and its object becomes a genitive or a \"von\" phrase.",
-          "Genitive or \"von\"? With an article or adjective, use the genitive: \"Leitung eines Teams\", \"Betreuung internationaler Kunden\". With a bare plural that would show no genitive ending, German switches to \"von\": \"Betreuung von Kunden\", not \"Betreuung Kunden\".",
+          "Genitive or \"von\"? With an article or adjective, use the genitive: \"Leitung eines Teams\", \"Betreuung internationaler Kunden\". With a bare plural that would show no genitive ending, German switches to \"von\": \"Betreuung von Kunden\", not \"*Betreuung Kunden*\".",
           "In the interview you turn the nominal style back into verbs: the CV says \"Einführung eines neuen CRM-Systems\", you say \"Ich habe ein neues CRM-System eingeführt.\" Being able to switch both ways is exactly what the Mastery level means here.",
         ],
         examples: [
@@ -592,6 +592,7 @@ export const DE_C2_U21: Lesson[] = [
         prompt: "Put the words in order to say: This allowed costs to be reduced significantly.",
         words: ["Dadurch", "ließen", "sich", "die", "Kosten", "deutlich", "senken."],
         translation: "This allowed costs to be reduced significantly.",
+        altOrders: [["Dadurch", "ließen", "die", "Kosten", "sich", "deutlich", "senken."]],
         explanation: "\"Sich lassen\" + infinitive is a passive alternative: \"die Kosten ließen sich senken\". The verb agrees with the plural \"Kosten\".",
       },
       {
@@ -616,8 +617,8 @@ export const DE_C2_U21: Lesson[] = [
     slug: "c2-weakness-answer-style-workshop",
     level: "DE-C2",
     number: 4,
-    title: "Style Workshop: Über Schwächen Sprechen",
-    summary: "Answer Was sind Ihre Schwächen? honestly and constructively: name a real weakness, give an example, show what you do about it, and avoid the Perfektionismus cliché.",
+    title: "Style Workshop: Über Schwächen sprechen",
+    summary: "Answer \"Was sind Ihre Schwächen?\" honestly and constructively: name a real weakness, give an example, show what you do about it, and avoid the perfectionism cliché.",
     duration: "16 min",
     sections: [
       {
@@ -819,7 +820,7 @@ export const DE_C2_U21: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Das Vorstellungsgespräch, Part 3 of 7",
-    summary: "Answer competency questions (Beschreiben Sie eine Situation, in der ...) with a clear narrative: Präteritum, als and nachdem, and the Plusquamperfekt for background.",
+    summary: "Answer competency questions (\"Beschreiben Sie eine Situation, in der ...\") with a clear narrative, using the Präteritum, \"als\" and \"nachdem\", and the Plusquamperfekt for background.",
     duration: "18 min",
     sections: [
       {
@@ -863,7 +864,7 @@ export const DE_C2_U21: Lesson[] = [
         body: [
           "Competency answers are stories, and at the Mastery level you can tell them in a mix: Perfekt for most verbs in speech, but the Präteritum for \"sein\", \"haben\", modals and, in a more polished narrative, many other verbs too (\"Ich stellte fest, dass ...\", \"Wir entschieden uns, ...\"). In a structured interview a crisp Präteritum sounds organised.",
           "\"Als\" introduces a single past event or period: \"Als ich das Projekt übernahm, lag es drei Monate hinter dem Zeitplan.\" Never \"wenn\" for a one-off past event (\"wenn\" is for repeated events: \"Immer wenn ...\") and never \"wann\" (a question word).",
-          "\"Nachdem\" needs a tense shift: the nachdem clause is one step further back. Main clause in Präteritum or Perfekt, nachdem clause in Plusquamperfekt: \"Nachdem wir die Ursache gefunden hatten, entwickelten wir einen Plan.\" Nachdem + Präteritum in both clauses is a common error even among native speakers, but it is wrong in careful German.",
+          "\"Nachdem\" needs a tense shift: the \"nachdem\" clause is one step further back. Main clause in Präteritum or Perfekt, \"nachdem\" clause in Plusquamperfekt: \"Nachdem wir die Ursache gefunden hatten, entwickelten wir einen Plan.\" \"Nachdem\" + Präteritum in both clauses is a common error even among native speakers, but it is wrong in careful German.",
         ],
         examples: [
           { es: "Als ich das Projekt übernahm, lag es drei Monate hinter dem Zeitplan.", en: "When I took over the project, it was three months behind schedule." },
@@ -1022,13 +1023,13 @@ export const DE_C2_U21: Lesson[] = [
     level: "DE-C2",
     number: 6,
     title: "Transformations: Die STAR-Methode",
-    summary: "Turn vague answers into a clear Situation, Aufgabe, Vorgehen, Ergebnis structure with time clauses, precise verbs and a measurable result.",
+    summary: "Turn vague answers into a clear STAR structure (\"Situation\", \"Aufgabe\", \"Vorgehen\", \"Ergebnis\") with time clauses, precise verbs and a measurable result.",
     duration: "16 min",
     sections: [
       {
         heading: "From vague to Situation and Aufgabe",
         body: [
-          "STAR is known in German as well (sometimes \"die STAR-Methode\" with German labels: Situation, Aufgabe, Vorgehen, Ergebnis). The first transformation is from a general claim to a placed situation: \"Ich kann gut mit schwierigen Kunden\" becomes \"Im Frühjahr 2024 betreute ich einen Großkunden, der mit unserer Lieferqualität sehr unzufrieden war.\"",
+          "STAR is known in German as well (sometimes \"die STAR-Methode\" with German labels: \"Situation\", \"Aufgabe\", \"Vorgehen\", \"Ergebnis\"). The first transformation is from a general claim to a placed situation: \"Ich kann gut mit schwierigen Kunden\" becomes \"Im Frühjahr 2024 betreute ich einen Großkunden, der mit unserer Lieferqualität sehr unzufrieden war.\"",
           "Time and place go first and the narrative tense switches on: \"Im Frühjahr 2024\", \"Während meiner Zeit bei ...\", \"Kurz nach meinem Einstieg ...\" (shortly after I joined). The situation is background, so a Plusquamperfekt is often natural: \"... der bereits mit Kündigung gedroht hatte.\"",
           "Then the task: what was your specific responsibility? \"Meine Aufgabe war es, ...\", \"Ich sollte ...\", \"Ich wurde beauftragt, ...\" (I was tasked with). The passive \"wurde beauftragt\" is normal and sounds formal and precise.",
         ],
@@ -1221,7 +1222,7 @@ export const DE_C2_U21: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Das Vorstellungsgespräch, Part 4 of 7",
-    summary: "Talk about salary and contract terms the German way: Jahresbrutto, Tarifvertrag, 13. Monatsgehalt, Probezeit, Kündigungsfrist, befristet / unbefristet, and polite questions with Wäre es möglich ...?",
+    summary: "Talk about salary and contract terms the German way (\"Jahresbrutto\", \"Tarifvertrag\", \"13. Monatsgehalt\", \"Probezeit\", \"Kündigungsfrist\", \"befristet\" / \"unbefristet\") and ask polite questions with \"Wäre es möglich ...?\".",
     duration: "18 min",
     sections: [
       {
@@ -1229,7 +1230,7 @@ export const DE_C2_U21: Lesson[] = [
         body: [
           "In Germany salary is discussed as an annual gross figure: \"das Jahresbrutto\" or \"das Bruttojahresgehalt\". Job ads often ask for your \"Gehaltsvorstellung\" (salary expectation) in the application itself, and you state it as a gross annual sum: \"Meine Gehaltsvorstellung liegt bei 65.000 Euro brutto im Jahr.\" Monthly figures and net pay (\"netto\", after tax and social contributions) are for your own calculations, not for the negotiation.",
           "Many sectors pay according to a collective agreement (\"der Tarifvertrag\"), negotiated between employers and unions such as IG Metall or ver.di. Then the salary is fixed by a pay grade (\"die Entgeltgruppe\" or \"Tarifgruppe\") and there is little to negotiate; you might ask instead about the grade: \"In welche Entgeltgruppe wäre die Stelle eingruppiert?\" A job outside the agreement is \"außertariflich\" (AT).",
-          "Extras: \"das 13. Monatsgehalt\" (a thirteenth month's salary, often paid in November), \"das Urlaubsgeld\" and \"das Weihnachtsgeld\", a variable bonus (\"variable Vergütung\", \"Bonus\"), \"die betriebliche Altersvorsorge\" (company pension), \"der Dienstwagen\", \"das Jobticket\" or \"Deutschlandticket\" paid by the employer.",
+          "Extras: \"das 13. Monatsgehalt\" (a thirteenth month's salary, often paid in November or December), \"das Urlaubsgeld\" and \"das Weihnachtsgeld\", a variable bonus (\"variable Vergütung\", \"Bonus\"), \"die betriebliche Altersvorsorge\" (company pension), \"der Dienstwagen\", \"das Jobticket\" or \"Deutschlandticket\" paid by the employer.",
         ],
         examples: [
           { es: "Meine Gehaltsvorstellung liegt bei 65.000 Euro brutto im Jahr.", en: "My salary expectation is 65,000 euros gross per year." },
@@ -1254,7 +1255,7 @@ export const DE_C2_U21: Lesson[] = [
             question: "The ad says the job is paid \"nach TV-L E13\". What does that tell you?",
             options: ["The salary is fixed by a collective agreement pay grade.", "The salary is negotiable without limits.", "The job is unpaid for the first months.", "The job is temporary."],
             correctIndex: 0,
-            explanation: "\"TV\" is \"Tarifvertrag\" (here the one for the federal states) and E13 an \"Entgeltgruppe\": the pay is set by the grade.",
+            explanation: "\"TV\" is \"Tarifvertrag\" (\"TV-L\": the agreement for public-sector staff of the federal states) and E13 an \"Entgeltgruppe\": the pay is set by the grade.",
           },
         ],
       },
@@ -1263,7 +1264,7 @@ export const DE_C2_U21: Lesson[] = [
         body: [
           "Key contract terms: \"die Probezeit\" (probation, usually up to six months, with a short notice period of two weeks), \"die Kündigungsfrist\" (notice period, by law four weeks to the 15th or the end of a month, often longer by contract: \"drei Monate zum Quartalsende\"), and whether the contract is \"befristet\" (fixed-term) or \"unbefristet\" (permanent). \"Ein befristeter Vertrag auf zwei Jahre\" is very common for first jobs and in research.",
           "Working time and leave: \"die Wochenarbeitszeit\" (often 38 to 40 hours), \"Vollzeit\" / \"Teilzeit\", \"Gleitzeit\" (flexitime) with a \"Kernarbeitszeit\" (core hours), \"Urlaubstage\" (the legal minimum is 20 days on a five-day week; 28 to 30 is typical), \"Homeoffice\" or \"mobiles Arbeiten\" (\"zwei Tage pro Woche mobil\").",
-          "Mind the false friend: \"die Kündigung\" is notice of termination (by either side), not cancellation of a product subscription only; and \"kündigen\" with a person as subject means to resign: \"Ich habe gekündigt\" (I quit). \"Jemandem kündigen\" (dative) means to fire someone.",
+          "Mind the range of \"die Kündigung\": notice of termination of any contract, by either side, from a job to a gym membership. \"Kündigen\" with the employee as subject means to resign: \"Ich habe gekündigt\" (I quit). \"Jemandem kündigen\" (dative) means to fire someone.",
         ],
         examples: [
           { es: "Die Probezeit beträgt sechs Monate.", en: "The probation period is six months." },
@@ -1323,6 +1324,7 @@ export const DE_C2_U21: Lesson[] = [
             prompt: "Put the words in order to say: I'd like to know whether the position is permanent.",
             words: ["Ich", "würde", "gern", "wissen,", "ob", "die", "Stelle", "unbefristet", "ist."],
             translation: "I'd like to know whether the position is permanent.",
+            altOrders: [["Gern", "würde", "ich", "wissen,", "ob", "die", "Stelle", "unbefristet", "ist."]],
             explanation: "An indirect yes/no question with \"ob\" sends the verb to the end: \"ob die Stelle unbefristet ist\".",
           },
           {
@@ -1341,7 +1343,7 @@ export const DE_C2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "The probation period is six months.",
         answer: "Die Probezeit beträgt sechs Monate.",
-        altAnswers: ["Die Probezeit dauert sechs Monate.", "Die Probezeit ist sechs Monate.", "Die Probezeit liegt bei sechs Monaten."],
+        altAnswers: ["Die Probezeit dauert sechs Monate.", "Die Probezeit liegt bei sechs Monaten."],
         explanation: "\"Betragen\" (to amount to) takes an accusative: \"sechs Monate\". \"Liegen bei\" takes the dative: \"bei sechs Monaten\".",
       },
       {
@@ -1435,7 +1437,7 @@ export const DE_C2_U21: Lesson[] = [
         ],
         examples: [
           { es: "Von unserer Seite wäre das erst mal alles. Haben Sie noch Fragen an uns?", en: "That's all from our side for now. Do you have any questions for us?" },
-          { es: "Ja, gern, zwei Fragen hätte ich noch.", en: "Yes, I'd have two more questions." },
+          { es: "Ja, gern, zwei Fragen hätte ich noch.", en: "Yes, there are two more questions I'd like to ask." },
           { es: "Wie ist das Team zusammengesetzt?", en: "What is the make-up of the team?" },
           { es: "Mich würde interessieren, wie die Einarbeitung konkret aussieht.", en: "I'd be interested to know what the onboarding looks like in practice." },
           { es: "Woran würden Sie nach einem Jahr messen, dass ich erfolgreich bin?", en: "How would you measure after a year that I've been successful?" },
@@ -1495,7 +1497,7 @@ export const DE_C2_U21: Lesson[] = [
           {
             type: "speak",
             text: "Ich stelle mir ein Jahresgehalt zwischen 68.000 und 72.000 Euro brutto vor.",
-            tip: "Say the numbers: achtundsechzigtausend und zweiundsiebzigtausend. Units before tens, as in four-and-twenty.",
+            tip: "Say the numbers: \"achtundsechzigtausend\" and \"zweiundsiebzigtausend\". Units before tens, as in four-and-twenty.",
             explanation: "A range, gross and annual, with separable \"sich vorstellen\": \"stelle ... vor\".",
           },
         ],
@@ -1552,7 +1554,7 @@ export const DE_C2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "I based my figure on comparable positions.",
         answer: "Ich habe mich an vergleichbaren Positionen orientiert.",
-        altAnswers: ["Ich habe mich dabei an vergleichbaren Positionen orientiert.", "Ich habe mich an vergleichbaren Stellen orientiert.", "Ich orientiere mich an vergleichbaren Positionen."],
+        altAnswers: ["Ich habe mich dabei an vergleichbaren Positionen orientiert.", "Ich habe mich an vergleichbaren Stellen orientiert.", "Ich orientierte mich an vergleichbaren Positionen."],
         explanation: "\"Sich an etwas orientieren\" (+ dative) is the natural German for basing a figure on something.",
       },
       {
@@ -1599,6 +1601,7 @@ export const DE_C2_U21: Lesson[] = [
         prompt: "Put the words in order to say: How would you measure success after a year?",
         words: ["Woran", "würden", "Sie", "nach", "einem", "Jahr", "Erfolg", "messen?"],
         translation: "How would you measure success after a year?",
+        altOrders: [["Woran", "würden", "Sie", "Erfolg", "nach", "einem", "Jahr", "messen?"]],
         explanation: "\"Etwas an etwas messen\" (to measure by something) gives the question word \"woran\"; Konjunktiv II \"würden\" keeps it hypothetical.",
       },
       {
@@ -1613,7 +1616,7 @@ export const DE_C2_U21: Lesson[] = [
       {
         type: "speak",
         text: "Ja, gern, zwei Fragen hätte ich noch. Zum einen: Wie ist das Team zusammengesetzt?",
-        prompt: "Say it in German: Yes, I'd have two more questions. First: what's the make-up of the team?",
+        prompt: "Say it in German: Yes, there are two more questions I'd like to ask. First: what's the make-up of the team?",
         explanation: "\"Hätte ich noch\" (Konjunktiv II) is softer than \"habe ich\"; \"zum einen ... zum anderen\" announces two points.",
       },
     ],
@@ -1622,7 +1625,7 @@ export const DE_C2_U21: Lesson[] = [
 
 export const DE_C2_U21_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You are applying for a position as Teamleiter/in Kundenservice at a mid-sized online retailer in Leipzig. The interview invitation asks you to send, in advance, a written answer to two questions: 'Beschreiben Sie Ihren beruflichen Werdegang und eine Situation, in der Sie unter Druck ein gutes Ergebnis erzielt haben' and 'Was sind Ihre Erwartungen an die Stelle?'. Write your answer as a formal text to Frau Dr. Hoffmann (HR).",
+  prompt: "You are applying for a position as \"Teamleiter/in Kundenservice\" at a mid-sized online retailer in Leipzig. The interview invitation asks you to send, in advance, a written answer to two questions: \"Beschreiben Sie Ihren beruflichen Werdegang und eine Situation, in der Sie unter Druck ein gutes Ergebnis erzielt haben.\" and \"Was sind Ihre Erwartungen an die Stelle?\". Write your answer as a formal text to Frau Dr. Hoffmann (HR).",
   minWords: 250,
   maxWords: 400,
   rubric: [

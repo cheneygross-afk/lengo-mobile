@@ -68,12 +68,12 @@ export const DE_B1_U32: Lesson[] = [
             prompt: "Translate into German.",
             source: "Put the cake in the oven. (to a friend)",
             answer: "Schieb den Kuchen in den Ofen.",
-            altAnswers: ["Stell den Kuchen in den Ofen.", "Schieb den Kuchen in den Backofen.", "Stell den Kuchen in den Backofen.", "Tu den Kuchen in den Ofen.", "Schiebt den Kuchen in den Ofen.", "Schieben Sie den Kuchen in den Ofen."],
+            altAnswers: ["Stell den Kuchen in den Ofen.", "Schieb den Kuchen in den Backofen.", "Stell den Kuchen in den Backofen.", "Tu den Kuchen in den Ofen."],
             explanation: "Movement into the oven: \"in den Ofen\" with the accusative. Germans \"schieben\" (push) or \"stellen\" things into the oven.",
           },
           {
             type: "multiple-choice",
-            question: "Your German friend says: Hast du das Rezept? What does she want?",
+            question: "Your German friend says: \"Hast du das Rezept?\" What does she want?",
             options: ["The recipe.", "The receipt.", "The bill.", "The ingredients."],
             correctIndex: 0,
             explanation: "\"Das Rezept\" is a recipe (or a prescription). Receipt is \"die Quittung\" or \"der Kassenbon\".",
@@ -114,7 +114,7 @@ export const DE_B1_U32: Lesson[] = [
           {
             type: "speak",
             text: "Zwiebeln schälen und klein schneiden.",
-            tip: "Schälen has a long ä; Zwiebeln starts with ts: TSVEE-beln.",
+            tip: "\"Schälen\" has a long ä; \"Zwiebeln\" starts with ts: TSVEE-beln.",
             explanation: "The bare infinitive style of German recipes: object first, infinitive at the end.",
           },
         ],
@@ -171,7 +171,7 @@ export const DE_B1_U32: Lesson[] = [
         prompt: "Translate into German.",
         source: "The soup is seasoned with salt.",
         answer: "Die Suppe wird mit Salz gewürzt.",
-        explanation: "Present passive for a step in a recipe: \"wird gewürzt\". *Ist gewürzt* would mean it's already seasoned.",
+        explanation: "Present passive for a step in a recipe: \"wird gewürzt\". \"*Ist gewürzt\" would mean it's already seasoned.",
       },
       {
         type: "matching",
@@ -272,7 +272,7 @@ export const DE_B1_U32: Lesson[] = [
             prompt: "Translate into German.",
             source: "How much did you spend? (to a friend)",
             answer: "Wie viel hast du ausgegeben?",
-            altAnswers: ["Wie viel habt ihr ausgegeben?", "Wie viel haben Sie ausgegeben?", "Wie viel Geld hast du ausgegeben?"],
+            altAnswers: ["Wie viel Geld hast du ausgegeben?"],
             explanation: "\"Ausgeben\" is separable and strong: \"ausgegeben\", ge- inside.",
           },
           {
@@ -289,7 +289,7 @@ export const DE_B1_U32: Lesson[] = [
         body: [
           "\"Leihen\" means both borrow and lend; the grammar shows which. \"Jemandem etwas leihen\" (dative person) is lend: \"Ich leihe dir mein Auto.\" \"Sich etwas leihen\" (reflexive dative) is borrow: \"Ich leihe mir dein Auto\", literally I lend myself your car. \"Von\" + dative names the lender: \"Ich habe mir Geld von meinem Bruder geliehen.\"",
           "The past forms are strong: \"leihen, lieh, hat geliehen\". \"Verleihen\" means lend out, often professionally (\"Die Bibliothek verleiht auch E-Books\"), and \"ausleihen\" is a common alternative for borrow: \"Ich habe mir ein Buch ausgeliehen.\"",
-          "\"Borgen\" works exactly like \"leihen\", but is more colloquial. The most common English-speaker error is *Kann ich dein Fahrrad leihen?* without \"mir\": a German hears Can I lend your bike? Say \"Kann ich mir dein Fahrrad leihen?\" or turn it round: \"Kannst du mir dein Fahrrad leihen?\"",
+          "\"Borgen\" works exactly like \"leihen\", but is more colloquial. The most common English-speaker error is \"*Kann ich dein Fahrrad leihen?\" without \"mir\": strictly, that says Can I lend your bike? Say \"Kann ich mir dein Fahrrad leihen?\" or turn it round: \"Kannst du mir dein Fahrrad leihen?\"",
         ],
         examples: [
           { es: "Kannst du mir zehn Euro leihen?", en: "Can you lend me ten euros?" },
@@ -319,7 +319,7 @@ export const DE_B1_U32: Lesson[] = [
             type: "speak",
             text: "Kannst du mir zehn Euro leihen?",
             prompt: "Say it in German, to a friend: Can you lend me ten euros?",
-            tip: "Euro in German is OY-ro, with the eu of Deutsch.",
+            tip: "\"Euro\" in German is OY-ro, with the eu of \"Deutsch\".",
             explanation: "Lend with dative \"mir\": the friend gives, you receive.",
           },
         ],
@@ -368,7 +368,6 @@ export const DE_B1_U32: Lesson[] = [
         prompt: "Translate into German.",
         source: "You still owe me 50 euros. (to a friend)",
         answer: "Du schuldest mir noch 50 Euro.",
-        altAnswers: ["Ihr schuldet mir noch 50 Euro.", "Sie schulden mir noch 50 Euro."],
         explanation: "\"Jemandem etwas schulden\": dative person \"mir\". \"Euro\" doesn't change in the plural after a number.",
       },
       {
@@ -382,7 +381,7 @@ export const DE_B1_U32: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your neighbour says: Ich habe mir deinen Rasenmäher geliehen. What happened?",
+        question: "Your neighbour says: \"Ich habe mir deinen Rasenmäher geliehen.\" What happened?",
         options: ["He borrowed your lawnmower.", "He lent you his lawnmower.", "He bought your lawnmower.", "He repaired your lawnmower."],
         correctIndex: 0,
         explanation: "The reflexive \"mir\" makes it borrow: he lent himself your lawnmower.",
@@ -400,7 +399,7 @@ export const DE_B1_U32: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'll transfer the money to you today. (to a friend)",
         answer: "Ich überweise dir das Geld heute.",
-        altAnswers: ["Ich überweise dir heute das Geld.", "Heute überweise ich dir das Geld.", "Ich überweise euch das Geld heute.", "Ich überweise Ihnen das Geld heute.", "Ich überweise dir das Geld noch heute."],
+        altAnswers: ["Ich überweise dir heute das Geld.", "Heute überweise ich dir das Geld.", "Ich überweise dir das Geld noch heute."],
         explanation: "\"Überweisen\" (transfer) is inseparable; dative person + accusative money. The present works for the future.",
       },
       {
@@ -501,7 +500,7 @@ export const DE_B1_U32: Lesson[] = [
         body: [
           "End with a line that looks forward and a closing formula: \"Ich freue mich schon darauf, dich zu sehen!\", \"Schreib mir bald!\", \"Melde dich, wenn du Hilfe brauchst.\" Then \"Viele Grüße\", \"Liebe Grüße\" or \"Bis bald\" and your name on its own line. No comma after \"Viele Grüße\" in German.",
           "Check the Goethe criteria before you finish: all three points covered, about 80 words, a greeting and a closing, and correct word order in every clause. A model answer to Jonas fits in five or six sentences.",
-          "Model: \"Lieber Jonas, herzlichen Glückwunsch zum neuen Job! Ich habe mich riesig darüber gefreut. Natürlich helfe ich dir beim Umzug, aber am Samstag muss ich leider arbeiten. Deshalb kann ich erst am Sonntag kommen. Wie wäre es, wenn ich dich im Sommer in Hamburg besuche? Dann könntest du mir die Stadt zeigen. Ich freue mich schon darauf! Liebe Grüße, Mia\"",
+          "Model: \"Lieber Jonas, herzlichen Glückwunsch zum neuen Job! Ich habe mich riesig darüber gefreut. Natürlich helfe ich dir beim Umzug, aber am Samstag muss ich leider arbeiten. Deshalb kann ich erst am Sonntag kommen. Wie wäre es, wenn ich dich im Sommer in Hamburg besuche? Dann könntest du mir die Stadt zeigen. Ich freue mich schon darauf! Liebe Grüße\" and then \"Mia\" on its own line.",
         ],
         examples: [
           { es: "Ich freue mich schon darauf, dich zu sehen!", en: "I'm already looking forward to seeing you!" },
@@ -537,7 +536,7 @@ export const DE_B1_U32: Lesson[] = [
         source: "Dear Leon, sorry I'm only replying now.",
         answer: "Lieber Leon, entschuldige, dass ich erst jetzt antworte.",
         altAnswers: ["Lieber Leon, sorry, dass ich erst jetzt antworte.", "Lieber Leon, entschuldige, dass ich erst jetzt schreibe.", "Lieber Leon, tut mir leid, dass ich erst jetzt antworte."],
-        explanation: "\"Lieber\" for a man; lowercase after the comma. \"Erst jetzt\" means only now, not until now.",
+        explanation: "\"Lieber\" for a man; lowercase after the comma. \"Erst jetzt\" means only now, in the sense of not until now; \"nur jetzt\" would mean just at this moment.",
       },
       {
         type: "translate",
@@ -734,7 +733,7 @@ export const DE_B1_U32: Lesson[] = [
           {
             type: "speak",
             text: "Wegen des starken Regens fiel das Spiel aus.",
-            tip: "Regens: the final s is a sharp s; don't swallow it, it marks the genitive.",
+            tip: "\"Regens\": the final s is a sharp s; don't swallow it, it marks the genitive.",
             explanation: "Genitive after \"wegen\": \"des starken Regens\"; \"ausfallen\" (be cancelled) splits to \"fiel ... aus\".",
           },
         ],
@@ -908,7 +907,7 @@ export const DE_B1_U32: Lesson[] = [
       {
         heading: "Das Besondere daran: success late in life",
         body: [
-          "\"Heute hängen Klaus Beckers Bilder in einer Galerie in Hannover. Das Besondere daran ist, dass er nie einen Kurs gemacht hat. In einem Interview sagte er: Das Schönste ist, dass ich jeden Tag etwas Neues entdecke. Ich hätte nie gedacht, dass in mir ein Künstler steckt.\"",
+          "\"Heute hängen Klaus Beckers Bilder in einer Galerie in Hannover. Das Besondere daran ist, dass er nie einen Kurs gemacht hat. In einem Interview sagte er: „Das Schönste ist, dass ich jeden Tag etwas Neues entdecke. Ich hätte nie gedacht, dass in mir ein Künstler steckt.“\"",
           "\"Das Besondere\" (the special thing), \"das Schönste\" (the best thing, the most beautiful thing): nominalised adjectives with \"das\" take the weak ending -e in the nominative. \"Das Besondere daran ist, dass...\" (what's special about it is that...) is a great Intermediate phrase for any story.",
           "\"Ich hätte nie gedacht\" (I'd never have thought) is a fixed Konjunktiv II past phrase worth learning as a chunk, even before the full past subjunctive at the Upper-intermediate level.",
         ],
@@ -1013,7 +1012,8 @@ export const DE_B1_U32: Lesson[] = [
         prompt: "Translate into German.",
         source: "After he had retired, he had a lot of time.",
         answer: "Nachdem er in Rente gegangen war, hatte er viel Zeit.",
-        explanation: "Plusquamperfekt with \"sein\" (gehen is movement), Präteritum \"hatte\" in the main clause.",
+        altAnswers: ["Nachdem er in den Ruhestand gegangen war, hatte er viel Zeit."],
+        explanation: "Plusquamperfekt with \"sein\" (\"gehen\" is movement), Präteritum \"hatte\" in the main clause.",
       },
       {
         type: "listen-choose",
@@ -1065,7 +1065,7 @@ export const DE_B1_U32: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A German says: Ich hatte in Englisch eine Eins. What does that mean?",
+            question: "Your friend Mia says: \"Ich hatte in Englisch eine Eins.\" What does that mean?",
             options: ["She got the top grade in English.", "She got the worst grade in English.", "She had one English lesson.", "She was first in her English class."],
             correctIndex: 0,
             explanation: "German grades go from 1 (\"sehr gut\") to 6 (\"ungenügend\"). \"Eine Eins\" is the best.",
@@ -1076,7 +1076,7 @@ export const DE_B1_U32: Lesson[] = [
         heading: "After school: Ausbildung or Studium",
         body: [
           "After school, many young Germans do \"eine Ausbildung\" (vocational training, often two or three years combining a company and a vocational school, \"die Berufsschule\"). Others go to university: \"das Studium\" (degree course), \"studieren\" (be at university, study a subject), \"die Uni\" or \"die Hochschule\".",
-          "\"Studieren\" means to study at university only. For homework or revising for a test, Germans say \"lernen\": \"Ich muss heute Abend für die Prüfung lernen\". *Ich studiere für den Test* sounds odd.",
+          "\"Studieren\" means to study at university only. For homework or revising for a test, Germans say \"lernen\": \"Ich muss heute Abend für die Prüfung lernen\". \"*Ich studiere für den Test\" sounds odd.",
           "Signing up: \"sich anmelden für\" or \"zu\" (\"Ich habe mich für einen Kurs angemeldet\", \"sich zur Prüfung anmelden\"). A course is \"der Kurs\"; a seminar \"das Seminar\".",
         ],
         examples: [
@@ -1099,7 +1099,7 @@ export const DE_B1_U32: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "He's [training to be] a cook.",
+            en: "He's doing an [apprenticeship] as a cook.",
             sentence: "Er macht eine ___ als Koch.",
             answer: "Ausbildung",
             explanation: "\"Eine Ausbildung machen als\" + job: do vocational training as.",
@@ -1141,7 +1141,7 @@ export const DE_B1_U32: Lesson[] = [
             type: "speak",
             text: "Nächste Woche mache ich die Prüfung.",
             prompt: "Say it in German: I'm taking the exam next week.",
-            tip: "Prüfung: a long ü, and the -ung ends with a clear ng, no g sound after it.",
+            tip: "\"Prüfung\": a long ü, and the -ung ends with a clear ng, no g sound after it.",
             explanation: "\"Eine Prüfung machen\" is take an exam; present tense for a planned future event.",
           },
         ],
@@ -1199,12 +1199,12 @@ export const DE_B1_U32: Lesson[] = [
         prompt: "Translate into German.",
         source: "Have you signed up for the course? (to a friend)",
         answer: "Hast du dich für den Kurs angemeldet?",
-        altAnswers: ["Hast du dich zu dem Kurs angemeldet?", "Hast du dich zum Kurs angemeldet?", "Habt ihr euch für den Kurs angemeldet?", "Haben Sie sich für den Kurs angemeldet?"],
+        altAnswers: ["Hast du dich zu dem Kurs angemeldet?", "Hast du dich zum Kurs angemeldet?"],
         explanation: "\"Sich anmelden für\" or \"zu\"; separable participle \"angemeldet\".",
       },
       {
         type: "multiple-choice",
-        question: "Your friend says: Ich mache morgen die Prüfung. What does she mean?",
+        question: "Your friend says: \"Ich mache morgen die Prüfung.\" What does she mean?",
         options: ["She's taking the exam tomorrow.", "She's writing the exam questions tomorrow.", "She'll pass the exam tomorrow.", "She's preparing for the exam tomorrow."],
         correctIndex: 0,
         explanation: "\"Eine Prüfung machen\" is take an exam. Pass would be \"bestehen\".",
@@ -1255,7 +1255,7 @@ export const DE_B1_U32: Lesson[] = [
       {
         heading: "Childhood and youth",
         body: [
-          "Being born is passive in German too: \"Ich bin 1995 in Köln geboren\" (spoken, a state) or \"Ich wurde 1995 in Köln geboren\" (written, the event). For a dead person, only \"wurde ... geboren\". Years stand alone or with \"im Jahr\": never *in 1995*.",
+          "Being born is passive in German too: \"Ich bin 1995 in Köln geboren\" (spoken, a state) or \"Ich wurde 1995 in Köln geboren\" (written, the event). For a dead person, only \"wurde ... geboren\". Years stand alone or with \"im Jahr\": never \"*in 1995\".",
           "\"Aufwachsen\" (grow up) is separable and strong, with \"sein\": \"Ich bin auf dem Land aufgewachsen\", in the Präteritum \"Er wuchs in Leipzig auf\". \"Zur Schule gehen\" (go to school), \"die Schule abschließen\" (finish school, graduate), \"der Schulabschluss\" (school-leaving qualification).",
           "In a life story told aloud, use the Perfekt for most verbs and the Präteritum for \"sein\", \"haben\" and the modals: \"Als Kind war ich sehr schüchtern. Ich bin in Bremen aufgewachsen und musste jeden Tag mit dem Bus zur Schule fahren.\"",
         ],
@@ -1291,7 +1291,7 @@ export const DE_B1_U32: Lesson[] = [
         body: [
           "\"Sich verlieben in\" + accusative (fall in love with), \"heiraten\" (marry, with a direct object: \"Er hat sie geheiratet\", no with), \"sich trennen\" (split up), \"sich scheiden lassen\" (get divorced), \"Kinder bekommen\" (have children). \"Bekommen\" again means get, as in \"ein Baby bekommen\" (have a baby).",
           "Moving: \"umziehen\" (move house, with \"sein\": \"Wir sind nach Köln umgezogen\"), \"der Umzug\" (the move), \"ins Ausland gehen\" (go abroad), \"auswandern\" (emigrate).",
-          "\"Heiraten\" is a direct-object verb: *Er hat mit ihr geheiratet* is a classic error. Married as a state is \"verheiratet\": \"Ich bin seit zehn Jahren verheiratet\".",
+          "\"Heiraten\" is a direct-object verb: \"*Er hat mit ihr geheiratet\" is a classic error. Married as a state is \"verheiratet\": \"Ich bin seit zehn Jahren verheiratet\".",
         ],
         examples: [
           { es: "Sie hat sich im Urlaub in einen Spanier verliebt.", en: "She fell in love with a Spaniard on holiday." },
@@ -1350,7 +1350,7 @@ export const DE_B1_U32: Lesson[] = [
             type: "speak",
             text: "Ich bin in einem kleinen Dorf aufgewachsen.",
             prompt: "Say it in German: I grew up in a small village.",
-            tip: "Aufgewachsen: the ch after a is the throaty ach-sound; stress AUF.",
+            tip: "\"Aufgewachsen\": the ch after a is the throaty ach-sound; stress AUF.",
             explanation: "\"Aufwachsen\" with \"sein\"; \"in\" + dative: \"in einem kleinen Dorf\".",
           },
         ],
@@ -1507,7 +1507,7 @@ export const DE_B1_U32: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, in natural spoken style with man.",
+            prompt: "Translate into German, in natural spoken style with \"man\".",
             source: "You can't park here.",
             answer: "Hier darf man nicht parken.",
             altAnswers: ["Man darf hier nicht parken.", "Hier kann man nicht parken.", "Man kann hier nicht parken."],
@@ -1527,9 +1527,9 @@ export const DE_B1_U32: Lesson[] = [
       {
         heading: "Choosing by text type",
         body: [
-          "Recipes: bare infinitives or the passive to describe the steps (\"Die Zwiebeln werden geschnitten\"); \"man\" when you explain to a friend (\"Dann schneidet man die Zwiebeln\"). News: Präteritum passive (\"Zwei Personen wurden verletzt\"). Rules and signs: passive with modals or \"verboten\" (\"Hier darf nicht gegrillt werden\"). Chat: active and man.",
-          "A test: would a German say it in the kitchen? Then man or active. Would it be printed in the paper or on a sign? Then the passive.",
-          "Explain your choice like a native speaker: Das klingt zu formell (too formal), Das klingt natürlicher (more natural), Hier ist die Handlung wichtiger als die Person (the action matters more than the person).",
+          "Recipes: bare infinitives or the passive to describe the steps (\"Die Zwiebeln werden geschnitten\"); \"man\" when you explain to a friend (\"Dann schneidet man die Zwiebeln\"). News: Präteritum passive (\"Zwei Personen wurden verletzt\"). Rules and signs: passive with modals or \"verboten\" (\"Hier darf nicht gegrillt werden\"). Chat: active and \"man\".",
+          "A test: would a German say it in the kitchen? Then \"man\" or active. Would it be printed in the paper or on a sign? Then the passive.",
+          "Explain your choice like a native speaker: \"Das klingt zu formell\" (too formal), \"Das klingt natürlicher\" (more natural), \"Hier ist die Handlung wichtiger als die Person\" (the action matters more than the person).",
         ],
         examples: [
           { es: "Dann schneidet man die Zwiebeln in kleine Stücke.", en: "Then you cut the onions into small pieces." },
@@ -1587,15 +1587,16 @@ export const DE_B1_U32: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with man.",
+        prompt: "Translate into German with \"man\".",
         source: "In Germany people eat a lot of bread.",
         answer: "In Deutschland isst man viel Brot.",
+        altAnswers: ["Man isst in Deutschland viel Brot."],
         explanation: "General statement: \"man\" + third person singular \"isst\"; \"In Deutschland\" in position 1, verb second.",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The forms [must be signed].",
+        en: "The forms must [be signed].",
         sentence: "Die Formulare müssen ___.",
         answer: "unterschrieben werden",
         explanation: "Official text: modal passive, participle + \"werden\" at the end.",
@@ -1619,7 +1620,7 @@ export const DE_B1_U32: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with man.",
+        prompt: "Translate into German with \"man\".",
         source: "How do you say that in German?",
         answer: "Wie sagt man das auf Deutsch?",
         explanation: "General you is \"man\"; \"auf Deutsch\" for in German.",
@@ -1822,7 +1823,7 @@ export const DE_B1_U32: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence retells the headline Streik bei der Bahn: Tausende Pendler betroffen in full?",
+        question: "Which sentence retells the headline \"Streik bei der Bahn: Tausende Pendler betroffen\" in full?",
         options: ["Wegen eines Streiks bei der Bahn sind Tausende Pendler betroffen.", "Wegen ein Streik bei der Bahn Tausende Pendler betroffen sind.", "Tausende Pendler haben bei der Bahn gestreikt.", "Die Bahn hat Tausende Pendler betroffen."],
         correctIndex: 0,
         explanation: "\"Wegen\" + genitive \"eines Streiks\", verb second, \"betroffen\" (affected) as the adjective after \"sind\".",

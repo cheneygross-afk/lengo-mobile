@@ -35,15 +35,15 @@ export const DE_C1_U01: Lesson[] = [
             prompt: "Translate into German.",
             source: "Thursday would work too.",
             answer: "Das ginge auch am Donnerstag.",
-            altAnswers: ["Am Donnerstag ginge das auch.", "Donnerstag ginge auch.", "Das würde am Donnerstag auch gehen.", "Am Donnerstag würde das auch gehen."],
+            altAnswers: ["Am Donnerstag ginge das auch.", "Das ginge am Donnerstag auch.", "Am Donnerstag ginge es auch.", "Donnerstag ginge auch.", "Das würde am Donnerstag auch gehen.", "Am Donnerstag würde das auch gehen."],
             explanation: "\"Gehen\" in the sense of to work, to be possible has the synthetic form \"ginge\" (from \"ging\"). \"Das würde auch gehen\" is grammatical but heavier.",
           },
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
             en: "Without volunteers [there would be] no festival.",
-            sentence: "Ohne Ehrenamtliche ___ es kein Fest.",
-            answer: "gäbe",
+            sentence: "Ohne Ehrenamtliche ___ kein Fest.",
+            answer: "gäbe es",
             explanation: "\"Es gibt\" → Präteritum \"es gab\" → Konjunktiv II \"es gäbe\" with the umlaut. Far more common than \"es würde ... geben\".",
           },
           {
@@ -88,12 +88,12 @@ export const DE_C1_U01: Lesson[] = [
             source: "I'd need one more day.",
             answer: "Ich bräuchte noch einen Tag.",
             altAnswers: ["Ich würde noch einen Tag brauchen.", "Ich brauchte noch einen Tag."],
-            explanation: "\"Bräuchte\" with umlaut is the normal modern Konjunktiv II of \"brauchen\"; \"brauchte\" would look like the Präteritum (I needed).",
+            explanation: "\"Bräuchte\" with umlaut is the normal modern Konjunktiv II of \"brauchen\". \"Brauchte\" is strictly correct too, but it looks like the Präteritum (I needed).",
           },
           {
             type: "speak",
             text: "Ich wüsste nicht, was ich ohne dich täte.",
-            tip: "Round your lips for ü in \"wüsste\" and keep the ss short; \"täte\" has a long open ä, like the e in English bed but held.",
+            tip: "Round your lips for the short ü in \"wüsste\"; \"täte\" has a long open ä, like the e in English bed but held.",
             explanation: "Two synthetic forms in one sentence: \"wüsste\" (wissen) and \"täte\" (tun). This is natural, idiomatic German.",
           },
         ],
@@ -103,7 +103,7 @@ export const DE_C1_U01: Lesson[] = [
         body: [
           "With weak (regular) verbs the synthetic Konjunktiv II looks exactly like the Präteritum: \"wenn ich ein Auto kaufte\" could mean if I bought (hypothetical) or when I bought (past). To avoid this ambiguity German uses \"würde\" + infinitive: \"Wenn ich ein Auto kaufen würde, ...\". So for \"kaufen, machen, sagen, arbeiten, wohnen\" and most other weak verbs, \"würde\" is the normal choice.",
           "Many strong verbs also sound stiff or old-fashioned in their synthetic form, especially in speech: \"ich flöge\", \"ich schriebe\", \"ich läse\", \"ich tränke\". Here too, \"würde fliegen / schreiben / lesen\" is standard.",
-          "The opposite trap is the English one: would pushes English speakers to use \"würde\" everywhere. With \"sein\", \"haben\", \"wissen\" and the modal verbs, \"würde\" + infinitive sounds clumsy or wrong: say \"ich wäre\", \"ich hätte\", \"ich wüsste\", \"ich könnte\", never \"ich würde sein / haben / wissen / können\".",
+          "The opposite trap is the English one: would pushes English speakers to use \"würde\" everywhere. With \"sein\", \"haben\", \"wissen\" and the modal verbs, \"würde\" + infinitive sounds clumsy or wrong: say \"ich wäre\", \"ich hätte\", \"ich wüsste\", \"ich könnte\", not \"ich würde sein / haben / wissen / können\" (you may hear \"würde sein\" in casual speech, but it sounds clumsy).",
           "A rule of thumb for the Advanced level: sein, haben, the modals and wissen always synthetic; kommen, gehen, geben, finden, bleiben, lassen, tun and brauchen usually synthetic; weak verbs and rarer strong verbs with \"würde\". Both are possible in a wenn-clause, but avoid stacking \"würde\" in both halves in careful writing.",
         ],
         examples: [
@@ -136,7 +136,7 @@ export const DE_C1_U01: Lesson[] = [
       {
         heading: "Recognition only: hülfe, stürbe, stünde",
         body: [
-          "Some strong verbs have Konjunktiv II forms that differ from their Präteritum vowel, inherited from older German: \"helfen\" → \"hülfe\" (not *hälfe), \"sterben\" → \"stürbe\", \"werfen\" → \"würfe\", \"befehlen\" → \"beföhle\", \"stehen\" → \"stünde\" (also \"stände\").",
+          "Some strong verbs have Konjunktiv II forms that differ from their Präteritum vowel, inherited from older German: \"helfen\" → \"hülfe\" (rarely also \"hälfe\"), \"sterben\" → \"stürbe\", \"werfen\" → \"würfe\", \"befehlen\" → \"beföhle\", \"stehen\" → \"stünde\" (also \"stände\").",
           "You don't need to produce these: everyday German says \"würde helfen\", \"würde sterben\". But you will meet them in literature, older texts, legal language and set phrases. \"Stünde\" is the most alive of them: \"Wenn es in meiner Macht stünde, ...\" (If it were in my power, ...).",
           "Reading strategy: an unfamiliar form with ü or ö and the ending -e is very often a Konjunktiv II. Find the infinitive by thinking of the Präteritum (\"half\", \"starb\", \"stand\").",
         ],
@@ -217,7 +217,7 @@ export const DE_C1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A colleague says: Ich bräuchte die Zahlen bis Freitag. What does she mean?",
+        question: "A colleague says: \"Ich bräuchte die Zahlen bis Freitag.\" What does she mean?",
         options: ["She would need the figures by Friday.", "She needed the figures by Friday.", "She doesn't need the figures until Friday.", "She has to bring the figures on Friday."],
         correctIndex: 0,
         explanation: "\"Bräuchte\" with umlaut is the Konjunktiv II of \"brauchen\", used here as a polite request: I'd need. The Präteritum would be \"brauchte\".",
@@ -227,7 +227,8 @@ export const DE_C1_U01: Lesson[] = [
         prompt: "Put the words in order to say: A few days off would do you good.",
         words: ["Ein", "paar", "Tage", "Urlaub", "täten", "dir", "gut."],
         translation: "A few days off would do you good.",
-        explanation: "\"Täten\" (from \"tun\") agrees with the plural subject \"ein paar Tage Urlaub\". \"Jemandem gut tun\" takes the dative.",
+        altOrders: [["Dir", "täten", "ein", "paar", "Tage", "Urlaub", "gut."]],
+        explanation: "\"Täten\" (from \"tun\") agrees with the plural subject \"ein paar Tage Urlaub\". \"Jemandem guttun\" takes the dative.",
       },
       {
         type: "translate",
@@ -251,9 +252,9 @@ export const DE_C1_U01: Lesson[] = [
         type: "listen-choose",
         audio: "Wenn sie das wüsste, wäre sie sauer.",
         question: "What did you hear?",
-        options: ["Wenn sie das wüsste, wäre sie sauer.", "Wenn sie das wusste, war sie sauer.", "Wenn sie das weiß, ist sie sauer.", "Wenn sie das wüsste, wär sie sauer."],
+        options: ["Wenn sie das wüsste, wäre sie sauer.", "Wenn sie das wusste, war sie sauer.", "Wenn sie das weiß, ist sie sauer.", "Wenn sie das wusste, wäre sie sauer."],
         correctIndex: 0,
-        explanation: "Listen for the rounded ü in \"wüsste\" and the long ä in \"wäre\": both mark the Konjunktiv II, a hypothetical present.",
+        explanation: "Listen for the rounded ü in \"wüsste\" (not \"wusste\") and the long ä in \"wäre\": both mark the Konjunktiv II, a hypothetical present.",
       },
       {
         type: "dictation",
@@ -273,13 +274,13 @@ export const DE_C1_U01: Lesson[] = [
     level: "DE-C1",
     number: 2,
     title: "Konjunktiv: Advanced Nuances, Part 2 of 6",
-    summary: "Unreal comparisons with als ob, als wenn and als + verb: Er tut, als wäre er der Chef; present and past, and the verb position each one demands.",
+    summary: "Make unreal comparisons with als ob, als wenn and als + verb: Er tut, als wäre er der Chef; present and past, and the verb position each one demands.",
     duration: "18 min",
     sections: [
       {
         heading: "Als ob and als wenn: verb at the end",
         body: [
-          "An irrealer Vergleichssatz compares reality with something that isn't true: He acts as if he were the boss (he isn't). German introduces it with \"als ob\" or \"als wenn\" and, like every subordinate clause, sends the conjugated verb to the end: \"Er tut, als ob er der Chef wäre.\"",
+          "An \"irrealer Vergleichssatz\" compares reality with something that isn't true: He acts as if he were the boss (he isn't). German introduces it with \"als ob\" or \"als wenn\" and, like every subordinate clause, sends the conjugated verb to the end: \"Er tut, als ob er der Chef wäre.\"",
           "The verb is normally in the Konjunktiv II, because the comparison is unreal: \"wäre\", \"hätte\", \"könnte\", \"wüsste\", \"würde\" + infinitive. \"Als ob\" and \"als wenn\" mean the same; \"als ob\" is more frequent, \"als wenn\" slightly more colloquial.",
           "Typical main-clause verbs: \"tun\" (to act, pretend), \"aussehen\" (to look), \"sich anhören / klingen\" (to sound), \"sich anfühlen\" (to feel), \"es scheint\", \"sich verhalten\", \"reden\". \"Es sieht aus, als ob es gleich regnen würde.\" \"Das klingt, als ob du müde wärst.\"",
           "Trap: English says as if he was (past indicative). Translating word for word gives \"*als ob er war\", which is wrong in standard German. Use \"wäre\".",
@@ -317,7 +318,7 @@ export const DE_C1_U01: Lesson[] = [
         heading: "Als + verb straight after it",
         body: [
           "There is a shorter, more elegant version: drop \"ob\" or \"wenn\" and put the conjugated verb directly after \"als\": \"Er tut, als wäre er der Chef.\" The meaning is the same; this version is very common in writing and educated speech.",
-          "The word order is the one difference that matters. With \"als ob\" the verb goes to the end; with plain \"als\" the verb comes immediately after \"als\" and the subject follows. Mixing them gives the error \"*als er wäre der Chef\" or \"*als er der Chef wäre\". The second one exists, but only as a real past time clause (when he was...), so it means something different.",
+          "The word order is the one difference that matters. With \"als ob\" the verb goes to the end; with plain \"als\" the verb comes immediately after \"als\" and the subject follows. Mixing them gives errors like \"*als er wäre der Chef\". And \"*als er der Chef wäre\" is no comparison at all: with plain \"als\" and the verb at the end, German hears a time clause (\"als er der Chef war\": when he was the boss).",
           "So you have three equivalent options: \"..., als ob er krank wäre\", \"..., als wenn er krank wäre\", \"..., als wäre er krank\". A comma always separates the comparison from the main clause, and \"so\" often stands in the main clause as a pointer: \"Er tut nur so, als wäre er krank\" (He's only pretending to be ill).",
         ],
         examples: [
@@ -514,8 +515,8 @@ export const DE_C1_U01: Lesson[] = [
     slug: "c1-contrast-kaeme-waere-gekommen",
     level: "DE-C1",
     number: 3,
-    title: "Contrast Clinic: Er Käme / Er Wäre Gekommen",
-    summary: "Present versus past inside the Konjunktiv II, hätte kommen können versus könnte gekommen sein, and the word order of the double infinitive in subordinate clauses.",
+    title: "Contrast Clinic: Er käme / Er wäre gekommen",
+    summary: "Choose between present and past inside the Konjunktiv II, hätte kommen können versus könnte gekommen sein, and the word order of the double infinitive in subordinate clauses.",
     duration: "17 min",
     sections: [
       {
@@ -737,7 +738,7 @@ export const DE_C1_U01: Lesson[] = [
       {
         heading: "Mistakes with würde",
         body: [
-          "Mistake 1, from an email to a landlord: \"*Wenn ich würde mehr Zeit haben, würde ich die Wohnung selbst streichen.\" Two problems. First, \"würde\" in a wenn-clause goes to the end like any conjugated verb: \"wenn ich mehr Zeit haben würde\". Second, \"haben\" should never be built with \"würde\": \"wenn ich mehr Zeit hätte\". Correct: \"Wenn ich mehr Zeit hätte, würde ich die Wohnung selbst streichen.\"",
+          "Mistake 1, from an email to a landlord: \"*Wenn ich würde mehr Zeit haben, würde ich die Wohnung selbst streichen.\" Two problems. First, \"würde\" in a wenn-clause goes to the end like any conjugated verb: \"wenn ich mehr Zeit haben würde\". Second, \"haben\" is not normally built with \"würde\": \"wenn ich mehr Zeit hätte\". Correct: \"Wenn ich mehr Zeit hätte, würde ich die Wohnung selbst streichen.\"",
           "Mistake 2, from a chat message: \"*Ich würde gegangen, aber es hat geregnet.\" \"Würde\" + Partizip II is not a form at all; it mixes English would with the German past. The past Konjunktiv II is \"wäre / hätte\" + Partizip II: \"Ich wäre gegangen, aber es hat geregnet.\"",
           "Mistake 3: \"*Wenn ich hätte das gewusst, ...\". A single \"hätte\" in a wenn-clause goes to the end: \"Wenn ich das gewusst hätte, ...\". Only with a double infinitive does it move forward (\"wenn ich das hätte wissen können\").",
         ],
@@ -952,7 +953,7 @@ export const DE_C1_U01: Lesson[] = [
       {
         heading: "Ich hätte da eine Frage: the Konjunktiv der Bescheidenheit",
         body: [
-          "German uses the Konjunktiv II not only for unreal things but to create polite distance. \"Ich habe eine Frage\" is a plain fact; \"Ich hätte da eine Frage\" (I would have a question there) softens the interruption. Grammarians call this the Konjunktiv der Bescheidenheit, the Konjunktiv of modesty.",
+          "German uses the Konjunktiv II not only for unreal things but to create polite distance. \"Ich habe eine Frage\" is a plain fact; \"Ich hätte da eine Frage\" (I would have a question there) softens the interruption. Grammarians call this the \"Konjunktiv der Bescheidenheit\", the Konjunktiv of modesty.",
           "Typical formulas: \"Ich hätte eine Bitte\", \"Hätten Sie kurz Zeit?\", \"Wäre es möglich, dass ...?\", \"Wäre das in Ordnung?\", \"Das wäre alles\" (at a counter: That's all), \"Da wäre noch ein Punkt\" (There's one more point), \"Würden Sie so freundlich sein und ...?\". The little word \"da\" adds even more softness.",
           "English has a different politeness trick: past tense and progressive (I was wondering if..., I was hoping...). This does not work in German. \"*Ich fragte mich, ob ...\" is simply a past narrative. Use the Konjunktiv: \"Ich wollte fragen, ob ...\" (a fixed, accepted past form) or \"Ich würde gern fragen, ob ...\".",
         ],
@@ -1100,7 +1101,7 @@ export const DE_C1_U01: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The repair [will probably cost] about 300 euros.",
+        en: "The repair [will probably] cost about 300 euros.",
         sentence: "Die Reparatur ___ etwa 300 Euro kosten.",
         answer: "dürfte",
         altAnswers: ["wird wohl"],
@@ -1191,7 +1192,7 @@ export const DE_C1_U01: Lesson[] = [
             source: "I almost forgot your birthday.",
             answer: "Fast hätte ich deinen Geburtstag vergessen.",
             altAnswers: ["Ich hätte fast deinen Geburtstag vergessen.", "Beinahe hätte ich deinen Geburtstag vergessen.", "Ich hätte deinen Geburtstag fast vergessen.", "Ich hätte beinahe deinen Geburtstag vergessen.", "Fast hätte ich Ihren Geburtstag vergessen.", "Ich hätte Ihren Geburtstag fast vergessen.", "Fast hätte ich euren Geburtstag vergessen."],
-            explanation: "It didn't happen, so German uses \"hätte ... vergessen\". The indicative \"ich habe fast vergessen\" sounds like an English calque.",
+            explanation: "It didn't happen, so German uses \"hätte ... vergessen\". The indicative \"ich habe fast vergessen\" is heard in casual speech, but the Konjunktiv is the standard choice.",
           },
           {
             type: "fill-blank",
@@ -1208,7 +1209,7 @@ export const DE_C1_U01: Lesson[] = [
         heading: "Zu ..., als dass: too ... for something to happen",
         body: [
           "\"Zu\" + adjective + \"als dass\" expresses a consequence that cannot happen because the degree is too high: \"Es war zu kalt, als dass wir hätten baden können\" (It was too cold for us to swim). The dass-clause takes the Konjunktiv II because its content is unreal.",
-          "The English for ... to construction has no direct German equivalent. When the subjects are the same you can use \"zu ..., um zu\": \"Ich bin zu müde, um weiterzuarbeiten.\" When they differ, or in more formal style, you need \"als dass\": \"Der Text ist zu lang, als dass man ihn in zehn Minuten lesen könnte.\"",
+          "The English for ... to construction has no direct German equivalent. When the subjects are the same (or the doer is just anyone) you can use \"zu ..., um zu\": \"Ich bin zu müde, um weiterzuarbeiten.\" When they differ, or in more formal style, you need \"als dass\": \"Der Text ist zu lang, als dass man ihn in zehn Minuten lesen könnte.\"",
           "Note the word order with a modal in the past: \"als dass wir hätten baden können\" (hätte before the double infinitive, as in Lesson 3). \"Genug ..., um zu\" is the positive counterpart: \"Sie ist alt genug, um das selbst zu entscheiden.\"",
         ],
         examples: [
@@ -1557,7 +1558,7 @@ export const DE_C1_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "Please pay by Monday; otherwise we will have to charge a fee.",
         answer: "Bitte zahlen Sie bis Montag, andernfalls müssen wir eine Gebühr berechnen.",
-        altAnswers: ["Bitte zahlen Sie bis Montag, sonst müssen wir eine Gebühr berechnen.", "Bitte bezahlen Sie bis Montag, andernfalls müssen wir eine Gebühr berechnen.", "Zahlen Sie bitte bis Montag, andernfalls müssen wir eine Gebühr berechnen."],
+        altAnswers: ["Bitte zahlen Sie bis Montag, sonst müssen wir eine Gebühr berechnen.", "Bitte zahlen Sie bis Montag, ansonsten müssen wir eine Gebühr berechnen.", "Bitte bezahlen Sie bis Montag, andernfalls müssen wir eine Gebühr berechnen.", "Zahlen Sie bitte bis Montag, andernfalls müssen wir eine Gebühr berechnen."],
         explanation: "\"Andernfalls\" is the formal sonst, also with the verb straight after.",
       },
       {
@@ -1696,7 +1697,7 @@ export const DE_C1_U01: Lesson[] = [
             prompt: "Translate into German.",
             source: "It would be helpful if we knew the dates earlier.",
             answer: "Es wäre hilfreich, wenn wir die Termine früher wüssten.",
-            altAnswers: ["Es wäre hilfreich, wenn wir die Termine früher kennen würden.", "Es wäre hilfreich, wenn wir die Termine früher erfahren würden.", "Es wäre hilfreich, die Termine früher zu wissen."],
+            altAnswers: ["Es wäre hilfreich, wenn wir die Termine früher kennen würden.", "Es wäre hilfreich, wenn wir die Termine früher erfahren würden.", "Es wäre hilfreich, die Termine früher zu kennen."],
             explanation: "\"Es wäre hilfreich, wenn\" + Konjunktiv II: a complaint turned into a wish. \"Wüssten\" synthetic.",
           },
           {
@@ -1741,14 +1742,14 @@ export const DE_C1_U01: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "What would you think about moving the meeting to Friday? (to colleagues you say du to)",
-        answer: "Was hieltet ihr davon, wenn wir die Besprechung auf Freitag legen?",
-        altAnswers: ["Was würdet ihr davon halten, wenn wir die Besprechung auf Freitag legen?", "Was würdet ihr davon halten, wenn wir die Besprechung auf Freitag verschieben?", "Was hieltet ihr davon, wenn wir die Besprechung auf Freitag verschieben?", "Was würdet ihr davon halten, die Besprechung auf Freitag zu verschieben?", "Was würdet ihr davon halten, die Besprechung auf Freitag zu legen?"],
-        explanation: "\"Hieltet\" is the Konjunktiv II of \"halten\" (ihr form). \"Was würdet ihr davon halten\" is the more common spoken version.",
+        answer: "Was würdet ihr davon halten, wenn wir die Besprechung auf Freitag legen?",
+        altAnswers: ["Was hieltet ihr davon, wenn wir die Besprechung auf Freitag legen?", "Was würdet ihr davon halten, wenn wir die Besprechung auf Freitag verschieben?", "Was hieltet ihr davon, wenn wir die Besprechung auf Freitag verschieben?", "Was würdet ihr davon halten, die Besprechung auf Freitag zu verschieben?", "Was würdet ihr davon halten, die Besprechung auf Freitag zu legen?"],
+        explanation: "\"Was würdet ihr davon halten\" is the usual form; the synthetic \"Was hieltet ihr davon\" (Konjunktiv II of \"halten\", ihr form) is correct but more formal.",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "To be honest, [I'd have a few concerns] there.",
+        en: "To be honest, [I'd have] a few concerns there.",
         sentence: "Ehrlich gesagt ___ da ein paar Bedenken.",
         answer: "hätte ich",
         explanation: "After \"ehrlich gesagt\" the verb comes next: \"hätte ich\". \"Bedenken\" is plural: concerns.",
@@ -1802,7 +1803,7 @@ export const DE_C1_U01: Lesson[] = [
     level: "DE-C1",
     number: 9,
     title: "Konjunktiv: Advanced Nuances, Part 5 of 6",
-    summary: "Konjunktiv I in full: forms of every verb, why only er/sie/es and sein are distinctive, the replacement rule and the three time levels.",
+    summary: "Build the Konjunktiv I of any verb, know why mainly er/sie/es and sein are distinctive, apply the replacement rule and use its three time levels.",
     duration: "18 min",
     sections: [
       {
@@ -1851,7 +1852,7 @@ export const DE_C1_U01: Lesson[] = [
       {
         heading: "Why only some forms are distinctive",
         body: [
-          "Most Konjunktiv I forms look exactly like the present indicative: \"ich komme\", \"wir kommen\", \"sie kommen\". Only the 3rd person singular (\"er komme\" vs \"er kommt\"), the rare \"du\" and \"ihr\" forms, and the whole of \"sein\" are clearly different.",
+          "Most Konjunktiv I forms look exactly like the present indicative: \"ich komme\", \"wir kommen\", \"sie kommen\". Only the 3rd person singular (\"er komme\" vs \"er kommt\"), the ich forms of the modals and \"wissen\" (\"ich könne\", \"ich wisse\"), the rare \"du\" and \"ihr\" forms, and the whole of \"sein\" are clearly different.",
           "Since the point of the Konjunktiv I is to signal reported speech, a form that looks like the indicative is useless. So in practice you only meet: \"er/sie/es/man\" forms of all verbs, and all forms of \"sein\" (\"wir seien\", \"sie seien\").",
           "The \"du\" and \"ihr\" forms (\"du kommest\", \"ihr kommet\") are technically distinctive but sound so stilted that even newspapers avoid them and use the Konjunktiv II instead (\"du kämest\", \"ihr kämet\" or \"würdest kommen\").",
         ],
@@ -1865,10 +1866,10 @@ export const DE_C1_U01: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which of these is a clearly distinctive Konjunktiv I form?",
-            options: ["sie seien", "sie kommen", "wir haben", "ich gehe"],
+            question: "A journalist reports: The residents say they are worried. Which version marks it unmistakably as reported speech?",
+            options: ["Die Anwohner sagen, sie seien besorgt.", "Die Anwohner sagen, sie sind besorgt.", "Die Anwohner sagen, sie haben Sorgen.", "Die Anwohner sagen, sie waren besorgt."],
             correctIndex: 0,
-            explanation: "Only \"sein\" is distinctive in every person. \"Sie kommen\", \"wir haben\" and \"ich gehe\" look like the indicative.",
+            explanation: "Only \"sein\" has a distinctive Konjunktiv I in every person: \"sie seien\". \"Sie sind\" is indicative, \"sie haben\" looks like the indicative (the replacement would be \"hätten\"), and \"waren\" changes the time.",
           },
           {
             type: "translate",
@@ -1995,7 +1996,7 @@ export const DE_C1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A news report: Die Polizei sagte, die Täter ___ geflohen. Which form fits?",
+        question: "A news report: \"Die Polizei sagte, die Täter ___ geflohen.\" Which form marks it as reported speech?",
         options: ["seien", "sind", "wären gewesen", "haben"],
         correctIndex: 0,
         explanation: "\"Fliehen\" takes sein; the Konjunktiv I plural of sein, \"seien\", is distinctive, so no replacement is needed.",
@@ -2104,7 +2105,7 @@ export const DE_C1_U01: Lesson[] = [
         heading: "Man nehme: instructions in recipes and textbooks",
         body: [
           "Traditional recipes, pharmacy leaflets and textbooks use \"man\" + Konjunktiv I for instructions: \"Man nehme 200 g Mehl, zwei Eier und eine Prise Salz\" (Take 200 g flour ...). It sounds old-fashioned or charmingly formal; modern recipes use the infinitive (\"Mehl und Eier verrühren\") or the imperative. You will meet it constantly in older cookbooks and as a joke.",
-          "Mathematics and logic use \"sei\" to set up assumptions: \"Gegeben sei ein Dreieck ABC\" (Let ABC be a triangle), \"Es sei x eine reelle Zahl\" (Let x be a real number). Note the verb in position 1 or 2 with the participle first.",
+          "Mathematics and logic use \"sei\" to set up assumptions: \"Gegeben sei ein Dreieck ABC\" (Let ABC be a triangle), \"Es sei x eine reelle Zahl\" (Let x be a real number). Note the word order: the verb comes first (\"Sei x ...\") or second, after \"es\" or a fronted participle (\"Gegeben sei ...\").",
           "In instructions to the reader: \"Man beachte ...\" (Note that ...), \"Man vergleiche ...\" (Compare ...).",
         ],
         examples: [
@@ -2219,10 +2220,10 @@ export const DE_C1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend: Ich habe deinen Stift verloren, tut mir leid! You don't mind. What do you say?",
+        question: "A friend says: \"Ich habe deinen Stift verloren, tut mir leid!\" You don't mind. What do you say?",
         options: ["Sei’s drum.", "Es lebe der Stift.", "Gott sei Dank.", "Man nehme einen Stift."],
         correctIndex: 0,
-        explanation: "\"Sei’s drum\": never mind, so be it. \"Gott sei Dank\" would mean you're relieved he lost it.",
+        explanation: "\"Sei’s drum\": never mind, so be it. \"Gott sei Dank\" would mean you're relieved it's lost.",
       },
       {
         type: "translate",
@@ -2281,7 +2282,7 @@ export const DE_C1_U01: Lesson[] = [
       {
         heading: "The report, part 1: reported claims",
         body: [
-          "Read the first paragraph of a news report: „Die Gewerkschaft der Lokführer hat für Donnerstag einen bundesweiten Streik angekündigt. Ein Sprecher sagte, die Beschäftigten seien seit Monaten überlastet und die Bahn habe bisher kein ernsthaftes Angebot vorgelegt. Man wolle niemandem schaden, aber man sehe keine andere Möglichkeit.“",
+          "Read the first paragraph of a news report: \"Die Gewerkschaft der Lokführer hat für Donnerstag einen bundesweiten Streik angekündigt. Ein Sprecher sagte, die Beschäftigten seien seit Monaten überlastet und die Bahn habe bisher kein ernsthaftes Angebot vorgelegt. Man wolle niemandem schaden, aber man sehe keine andere Möglichkeit.\"",
           "Every verb after \"sagte\" is Konjunktiv I: \"seien\" (sein, plural, distinctive), \"habe ... vorgelegt\" (past), \"wolle\", \"sehe\" (3rd person singular with \"man\"). The journalist reports the union's position without adopting it.",
           "Notice that the reporting verb appears only once. The Konjunktiv I alone keeps signalling it's still the spokesman talking, sentence after sentence. This is the Konjunktiv's great advantage over English, which has to repeat he said or she added.",
         ],
@@ -2313,7 +2314,7 @@ export const DE_C1_U01: Lesson[] = [
       {
         heading: "The report, part 2: replacement forms and conditions",
         body: [
-          "Second paragraph: „Die Bahn wies die Vorwürfe zurück. Die Forderungen der Gewerkschaft seien nicht finanzierbar. Würde man sie erfüllen, müssten die Ticketpreise deutlich steigen. Die Fahrgäste hätten dafür sicher kein Verständnis.“",
+          "Second paragraph: \"Die Bahn wies die Vorwürfe zurück. Die Forderungen der Gewerkschaft seien nicht finanzierbar. Würde man sie erfüllen, müssten die Ticketpreise deutlich steigen. Die Fahrgäste hätten dafür sicher kein Verständnis.\"",
           "\"Seien\" is again Konjunktiv I. \"Würde man sie erfüllen, müssten die Ticketpreise ... steigen\" is an unreal condition (Konjunktiv II, verb first, no wenn): it's what would happen. \"Hätten\" is a replacement form: \"die Fahrgäste haben\" (Konjunktiv I) looks like the indicative, so the journalist switches to Konjunktiv II.",
           "So inside one paragraph, Konjunktiv II can mean two different things: unreal (\"würde ... erfüllen, müssten\") or simply a replacement for an unclear Konjunktiv I (\"hätten\"). Context decides.",
         ],
@@ -2353,9 +2354,9 @@ export const DE_C1_U01: Lesson[] = [
       {
         heading: "The report, part 3: politeness and als ob",
         body: [
-          "Last paragraph: „Pendlerin Ayşe Demir aus Köln zeigte sich genervt: ‚Es wäre schön, wenn man uns wenigstens rechtzeitig informieren würde.‘ Die Verhandlungen wirken inzwischen, als hätten beide Seiten das eigentliche Ziel aus den Augen verloren. Beinahe wäre schon im Frühjahr eine Einigung zustande gekommen.“",
+          "Last paragraph: \"Pendlerin Ayşe Demir aus Köln zeigte sich genervt: „Es wäre schön, wenn man uns wenigstens rechtzeitig informieren würde.“ Die Verhandlungen wirken inzwischen, als hätten beide Seiten das eigentliche Ziel aus den Augen verloren. Beinahe wäre schon im Frühjahr eine Einigung zustande gekommen.\"",
           "Here the Konjunktiv does other jobs. \"Es wäre schön, wenn ... würde\": politeness and a wish in a direct quote. \"Als hätten beide Seiten ... verloren\": an unreal comparison, the journalist's own commentary. \"Beinahe wäre ... zustande gekommen\": what almost happened.",
-          "Quick checklist for decoding any Konjunktiv in a text: 1. Is there a reporting verb or source (sagte, laut, zufolge)? → reported speech. 2. Is there wenn, verb-first, or a hidden condition? → unreal. 3. Als / als ob? → comparison. 4. Fast / beinahe? → near miss. 5. A request or opinion? → politeness.",
+          "Quick checklist for decoding any Konjunktiv in a text: 1. Is there a reporting verb or source (\"sagte\", \"laut\", \"zufolge\")? → reported speech. 2. Is there \"wenn\", verb-first, or a hidden condition? → unreal. 3. \"Als\" / \"als ob\"? → comparison. 4. \"Fast\" / \"beinahe\"? → near miss. 5. A request or opinion? → politeness.",
         ],
         examples: [
           { es: "Es wäre schön, wenn man uns wenigstens rechtzeitig informieren würde.", en: "It would be nice if they at least informed us in time." },
@@ -2410,7 +2411,7 @@ export const DE_C1_U01: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The passengers [would] certainly [not understand] that.",
+        en: "The passengers [would] certainly not understand that.",
         sentence: "Die Fahrgäste ___ dafür sicher kein Verständnis.",
         answer: "hätten",
         explanation: "\"Verständnis haben für\": to understand, sympathise with. Replacement form \"hätten\".",
@@ -2426,7 +2427,7 @@ export const DE_C1_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A journalist writes: Der Minister habe von dem Problem gewusst. What does this tell the reader?",
+        question: "A journalist writes: \"Der Minister habe von dem Problem gewusst.\" What does this tell the reader?",
         options: ["Someone claims the minister knew; the paper doesn't confirm it.", "The minister definitely knew.", "The minister should have known.", "The minister would have known if he had been told."],
         correctIndex: 0,
         explanation: "Konjunktiv I \"habe gewusst\" reports a claim with distance; the writer doesn't vouch for it.",
@@ -2489,8 +2490,8 @@ export const DE_C1_U01: Lesson[] = [
         heading: "Regrets and reproaches, now with Advanced forms",
         body: [
           "From the Upper-intermediate level: \"Ich hätte früher anfangen sollen\" (I should have started earlier), \"Du hättest mir Bescheid sagen können\" (You could have let me know), \"Wenn ich doch nur ...!\" (If only I had ...!). Now combine them with this unit's tools: verb-first wishes (\"Hätte ich doch nur früher angefangen!\"), \"fast\" for a near miss, and synthetic forms.",
-          "Wish sentences without wenn put the verb first and need \"doch\" and/or \"nur\": \"Wäre ich bloß zu Hause geblieben!\" (If only I'd stayed at home!). Present wishes: \"Wüsste ich nur, was er denkt!\"",
-          "A message from Jonas after a bad day: „Hätte ich bloß den früheren Zug genommen! Ich wäre fast zu spät zum Vorstellungsgespräch gekommen. Ich hätte mich besser vorbereiten sollen.“",
+          "Wish sentences without wenn put the verb first and need \"doch\", \"nur\" or \"bloß\" (often combined): \"Wäre ich bloß zu Hause geblieben!\" (If only I'd stayed at home!). Present wishes: \"Wüsste ich nur, was er denkt!\"",
+          "A message from Jonas after a bad day: \"Hätte ich bloß den früheren Zug genommen! Ich wäre fast zu spät zum Vorstellungsgespräch gekommen. Ich hätte mich besser vorbereiten sollen.\"",
         ],
         examples: [
           { es: "Hätte ich bloß den früheren Zug genommen!", en: "If only I'd taken the earlier train!" },
@@ -2523,7 +2524,7 @@ export const DE_C1_U01: Lesson[] = [
       {
         heading: "Reported speech and comparisons in a message",
         body: [
-          "A message from Lena to her flatmate: „Der Vermieter hat angerufen. Er sagt, die Heizung werde erst nächste Woche repariert, der Techniker sei krank. Er tat so, als wäre das völlig normal. An deiner Stelle würde ich ihm eine Mail schreiben. Sollte er nicht reagieren, könnten wir uns an den Mieterverein wenden.“",
+          "A message from Lena to her flatmate: \"Der Vermieter hat angerufen. Er sagt, die Heizung werde erst nächste Woche repariert, der Techniker sei krank. Er tat so, als wäre das völlig normal. An deiner Stelle würde ich ihm eine Mail schreiben. Sollte er nicht reagieren, könnten wir uns an den Mieterverein wenden.\"",
           "Spot the forms: \"werde ... repariert\", \"sei\" (Konjunktiv I, reported); \"als wäre\" (comparison); \"an deiner Stelle würde ich\" (hidden condition); \"sollte er nicht reagieren\" (verb-first possible condition); \"könnten\" (tentative suggestion).",
           "In speech Lena would probably say \"er hat gesagt, der Techniker ist krank\" or \"wäre krank\". In writing, the Konjunktiv I is more precise and sounds more educated.",
         ],

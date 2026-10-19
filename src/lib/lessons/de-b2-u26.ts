@@ -7,8 +7,8 @@ export const DE_B2_U26: Lesson[] = [
     slug: "b2-thematic-review-hundert-neue-woerter",
     level: "DE-B2",
     number: 1,
-    title: "Thematic Review: Hundert Neue Wörter",
-    summary: "A learner keeps a vocabulary diary for a year: progress, setbacks, Futur II and regrets.",
+    title: "Thematic Review: Hundert neue Wörter",
+    summary: "Follow a learner's vocabulary diary over a year and talk about plans, progress and setbacks with Futur II, concession and regrets.",
     duration: "15 min",
     sections: [
       {
@@ -57,7 +57,7 @@ export const DE_B2_U26: Lesson[] = [
           { es: "Ich hätte trotzdem jeden Tag fünf Minuten wiederholen sollen.", en: "I should still have revised for five minutes every day." },
           { es: "Obwohl ich den Faden verloren hatte, habe ich nicht aufgegeben.", en: "Although I'd lost the thread, I didn't give up." },
           { es: "Immerhin habe ich die meisten Wörter nicht vergessen.", en: "At least I haven't forgotten most of the words." },
-          { es: "Ich ärgere mich, dass ich nicht hätte weitermachen können.", en: "I'm annoyed that I wasn't able to carry on." },
+          { es: "Ich weiß, dass ich hätte weitermachen sollen.", en: "I know I should have carried on." },
           { es: "Der Rückschlag hat mich mehr motiviert, als ich gedacht hätte.", en: "The setback motivated me more than I would have thought." },
         ],
         checkpoint: [
@@ -84,7 +84,7 @@ export const DE_B2_U26: Lesson[] = [
       {
         heading: "Dezember: die Bilanz",
         body: [
-          "In December Emily takes stock (\"Bilanz ziehen\"). She hasn't reached 1200 but she has made real progress (\"Fortschritte machen\", always plural, never \"*Fortschritt haben\"). Her colleagues say she speaks as if she had lived in Germany for years: \"als ob\" + Konjunktiv II past.",
+          "In December Emily takes stock (\"Bilanz ziehen\"). She hasn't reached 1200 but she has made real progress (\"Fortschritte machen\", usually plural; not \"*Fortschritt haben*\"). Her colleagues say she speaks as if she had lived in Germany for years: \"als ob\" + Konjunktiv II past.",
           "Unreal past for the other path: \"Wenn ich im Mai nicht aufgehört hätte, hätte ich mein Ziel erreicht.\" And looking ahead: \"Nächstes Jahr werde ich das Ziel etwas niedriger ansetzen.\"",
           "\"Das Ziel erreichen\" (to reach the goal), \"sich ein Ziel setzen\" (to set yourself a goal), \"Bilanz ziehen\" (to take stock), \"stolz sein auf\" + accusative (to be proud of).",
         ],
@@ -214,8 +214,8 @@ export const DE_B2_U26: Lesson[] = [
     slug: "b2-thematic-review-freundschaft-online",
     level: "DE-B2",
     number: 2,
-    title: "Thematic Review: Freundschaften, Die Online Beginnen",
-    summary: "Two friends who met in an online game meet in person for the first time: als ob, emphasis and subjective modals.",
+    title: "Thematic Review: Freundschaften, die online beginnen",
+    summary: "Follow two friends from an online game who meet in person for the first time, and use subjective modals, \"als ob\" and emphasis to tell the story.",
     duration: "15 min",
     sections: [
       {
@@ -418,7 +418,7 @@ export const DE_B2_U26: Lesson[] = [
     slug: "b2-spiral-talk-jemand-der-sich-veraendert-hat",
     level: "DE-B2",
     number: 3,
-    title: "Spiral Review: Talk About Yourself: Jemand, der Sich Sehr Verändert Hat",
+    title: "Spiral Review: Talk About Yourself: Jemand, der sich sehr verändert hat",
     summary: "Describe a person who has changed a lot, with relative clauses, comparisons and the unreal past.",
     duration: "14 min",
     sections: [
@@ -450,7 +450,7 @@ export const DE_B2_U26: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[The more] he travels, [the more open] he becomes.",
+            en: "The more he travels, [the more open] he becomes.",
             sentence: "Je mehr er reist, ___ wird er.",
             answer: "desto offener",
             altAnswers: ["umso offener"],
@@ -582,7 +582,7 @@ export const DE_B2_U26: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["Das ist das Einzige, was gleich geblieben ist.", "Das ist das Einzige, das gleich geblieben ist.", "Das ist das Einzige, welches gleich geblieben hat.", "Das ist das Einzige, wo gleich geblieben ist."],
+        options: ["Das ist das Einzige, was gleich geblieben ist.", "Das ist das Einzige, der gleich geblieben ist.", "Das ist das Einzige, welches gleich geblieben hat.", "Das ist das Einzige, wo gleich geblieben ist."],
         correctIndex: 0,
         explanation: "After a nominalised adjective like \"das Einzige\" or \"das Beste\", written German uses \"was\".",
       },
@@ -620,14 +620,14 @@ export const DE_B2_U26: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Word Web: Personal Growth",
-    summary: "Sich weiterentwickeln, Fortschritte machen, sich Ziele setzen, durchhalten and the Rückschlag, with Futur II and connectors.",
+    summary: "Talk about personal growth, goals and setbacks (\"sich weiterentwickeln\", \"Fortschritte machen\", \"sich Ziele setzen\", \"durchhalten\") with Futur II and connectors.",
     duration: "15 min",
     sections: [
       {
         heading: "Sich entwickeln und verbessern",
         body: [
           "\"Sich weiterentwickeln\" (to develop further, grow as a person or professional), \"sich verbessern\" (to improve: \"Mein Deutsch hat sich verbessert\"), \"dazulernen\" (to learn something new, add to your knowledge: \"Man lernt nie aus\" = you live and learn), \"an sich arbeiten\" (to work on yourself).",
-          "Progress: \"Fortschritte machen\" (always plural with \"machen\"; never \"*Fortschritt haben\"), \"vorankommen\" (to make headway: \"Ich komme gut voran\"), \"sich steigern\" (to step up your performance).",
+          "Progress: \"Fortschritte machen\" (usually plural, always with \"machen\"; not \"*Fortschritt haben*\"), \"vorankommen\" (to make headway: \"Ich komme gut voran\"), \"sich steigern\" (to step up your performance).",
           "Trap: \"sich verbessern\" also means to correct yourself when speaking (\"Er hat sich sofort verbessert\"). And \"die Entwicklung\" is development; \"die Weiterbildung\" or \"die Fortbildung\" is further training at work.",
         ],
         examples: [
@@ -645,8 +645,8 @@ export const DE_B2_U26: Lesson[] = [
             prompt: "Translate into German.",
             source: "Your German has improved a lot. (to a friend)",
             answer: "Dein Deutsch hat sich sehr verbessert.",
-            altAnswers: ["Dein Deutsch hat sich stark verbessert.", "Dein Deutsch ist viel besser geworden.", "Ihr Deutsch hat sich sehr verbessert.", "Euer Deutsch hat sich sehr verbessert."],
-            explanation: "Things improve with the reflexive \"sich verbessern\". \"Mein Deutsch hat verbessert\" without \"sich\" is wrong.",
+            altAnswers: ["Dein Deutsch hat sich stark verbessert.", "Dein Deutsch ist viel besser geworden."],
+            explanation: "Things improve with the reflexive \"sich verbessern\". \"*Mein Deutsch hat verbessert*\" without \"sich\" is wrong.",
           },
           {
             type: "fill-blank",
@@ -681,7 +681,7 @@ export const DE_B2_U26: Lesson[] = [
             prompt: "Translate into German.",
             source: "I've set myself a goal.",
             answer: "Ich habe mir ein Ziel gesetzt.",
-            altAnswers: ["Ich setze mir ein Ziel."],
+            altAnswers: ["Ich habe mir ein Ziel gesteckt."],
             explanation: "\"Sich (Dativ) ein Ziel setzen\": \"mir\" is dative because \"ein Ziel\" is the accusative object.",
           },
           {
@@ -715,7 +715,7 @@ export const DE_B2_U26: Lesson[] = [
             prompt: "Translate into German.",
             source: "Don't let it get you down! (to a friend)",
             answer: "Lass dich nicht unterkriegen!",
-            altAnswers: ["Lass dich davon nicht unterkriegen!", "Lasst euch nicht unterkriegen!", "Lassen Sie sich nicht unterkriegen!"],
+            altAnswers: ["Lass dich davon nicht unterkriegen!"],
             explanation: "\"Sich nicht unterkriegen lassen\": the du imperative of \"lassen\" is \"lass\".",
           },
           {
@@ -932,6 +932,7 @@ export const DE_B2_U26: Lesson[] = [
             prompt: "Put the words in order to say: In my opinion the state should create incentives.",
             words: ["Meiner", "Meinung", "nach", "sollte", "der", "Staat", "Anreize", "schaffen."],
             translation: "In my opinion the state should create incentives.",
+            altOrders: [["der", "Staat", "sollte", "meiner", "Meinung", "nach", "Anreize", "schaffen."]],
             explanation: "\"Meiner Meinung nach\" is position 1, so \"sollte\" comes next, with no comma.",
           },
           {
@@ -1008,9 +1009,10 @@ export const DE_B2_U26: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Overall, the advantages outweigh.",
+        prompt: "Put the words in order to say: Overall, the advantages outweigh the disadvantages.",
         words: ["Insgesamt", "überwiegen", "die", "Vorteile."],
-        translation: "Overall, the advantages outweigh (the disadvantages).",
+        translation: "Overall, the advantages outweigh the disadvantages.",
+        altOrders: [["die", "Vorteile", "überwiegen", "insgesamt."]],
         explanation: "\"Überwiegen\" is inseparable; \"insgesamt\" in position 1.",
       },
       {
@@ -1041,7 +1043,7 @@ export const DE_B2_U26: Lesson[] = [
     level: "DE-B2",
     number: 6,
     title: "Word Web: Debate and Argument",
-    summary: "Die These, das Gegenargument, einwenden, widersprechen, zustimmen, überzeugen and recht haben, with the right cases.",
+    summary: "Argue, agree and disagree in a debate (\"die These\", \"einwenden\", \"widersprechen\", \"zustimmen\", \"überzeugen\", \"recht haben\") with the right cases.",
     duration: "15 min",
     sections: [
       {
@@ -1072,7 +1074,7 @@ export const DE_B2_U26: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[What speaks in favour of it] is that it's cheaper.",
+            en: "[One argument for it] is that it's cheaper.",
             sentence: "___, dass es billiger ist.",
             answer: "Dafür spricht",
             explanation: "\"Dafür spricht, dass ...\" / \"Dagegen spricht, dass ...\": the dass-clause is the subject of \"sprechen\".",
@@ -1084,7 +1086,7 @@ export const DE_B2_U26: Lesson[] = [
         body: [
           "\"Zustimmen\" (to agree) and \"widersprechen\" (to contradict, disagree) both take the dative: \"Ich stimme dir zu\", \"Da muss ich Ihnen widersprechen.\" English speakers often say \"*Ich stimme dich zu\"; the person is always dative. With a thing: \"Ich stimme dem Vorschlag zu.\"",
           "\"Einverstanden sein mit\" + dative is another way to agree: \"Ich bin mit dir einverstanden\" or simply \"Einverstanden!\" (Agreed!).",
-          "\"Recht haben\" is how a person is right: \"Da hast du recht\", \"Sie haben völlig recht.\" Never \"*Du bist richtig\": \"richtig\" describes answers and facts (\"Das ist richtig\"), not people. And \"Ich bin der Meinung / Ansicht, dass ...\" uses the genitive-looking \"der\" (it's actually a genitive).",
+          "\"Recht haben\" is how a person is right: \"Da hast du recht\", \"Sie haben völlig recht.\" Not \"*Du bist richtig*\": \"richtig\" describes answers and facts (\"Das ist richtig\"), not people. And in \"Ich bin der Meinung / Ansicht, dass ...\" the \"der\" is a genitive.",
         ],
         examples: [
           { es: "Da stimme ich dir völlig zu.", en: "I completely agree with you there." },
@@ -1180,7 +1182,7 @@ export const DE_B2_U26: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I don't want to [contradict] you, but...",
+        en: "I don't want to contradict [you], but...",
         sentence: "Ich will ___ nicht widersprechen, aber ...",
         answer: "dir",
         altAnswers: ["Ihnen", "euch"],
@@ -1233,7 +1235,6 @@ export const DE_B2_U26: Lesson[] = [
         prompt: "Translate into German.",
         source: "You've convinced me. (to a friend)",
         answer: "Du hast mich überzeugt.",
-        altAnswers: ["Ihr habt mich überzeugt.", "Sie haben mich überzeugt."],
         explanation: "\"Überzeugen\" is inseparable: \"überzeugt\"; the person convinced is accusative.",
       },
       {
@@ -1262,7 +1263,7 @@ export const DE_B2_U26: Lesson[] = [
         heading: "Round 1: mood and auxiliary",
         body: [
           "This lesson is a speed round: each item tests one decision. Try to answer in ten seconds, then read the explanation. If you hesitate on a type, go back to the unit it comes from.",
-          "Mood: real condition → indicative (\"Wenn es regnet, bleibe ich zu Hause\"); unreal → Konjunktiv II (\"Wenn es nicht regnen würde, ...\"); reported speech → Konjunktiv I (\"Sie sagt, sie sei krank\"); als ob → Konjunktiv II.",
+          "Mood: real condition → indicative (\"Wenn es regnet, bleibe ich zu Hause\"); unreal → Konjunktiv II (\"Wenn es nicht regnen würde, ...\"); reported speech → Konjunktiv I (\"Sie sagt, sie sei krank\"); \"als ob\" → Konjunktiv II.",
           "Auxiliary: \"wäre\" for movement, change of state, \"sein\", \"bleiben\", \"werden\", \"passieren\"; \"hätte\" for everything else, including transitive \"fahren\" (\"Ich hätte das Auto gefahren\"). With a modal: always \"hätte\" + double infinitive.",
         ],
         examples: [
@@ -1327,7 +1328,7 @@ export const DE_B2_U26: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "She learns words [by writing] them down.",
+            en: "She learns words [by] writing them down.",
             sentence: "Sie lernt Wörter, ___ sie sie aufschreibt.",
             answer: "indem",
             explanation: "By + -ing = \"indem\" + clause with the verb at the end.",
@@ -1385,10 +1386,10 @@ export const DE_B2_U26: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I [should have] asked.",
-        sentence: "Ich ___ fragen sollen.",
-        answer: "hätte",
-        explanation: "Double infinitive with \"hätte\", never \"wäre\".",
+        en: "I [should have asked].",
+        sentence: "Ich ___.",
+        answer: "hätte fragen sollen",
+        explanation: "Double infinitive with \"hätte\" (never \"wäre\"): \"hätte\" + \"fragen\" + \"sollen\" at the end.",
       },
       {
         type: "fill-blank",
@@ -1492,7 +1493,7 @@ export const DE_B2_U26: Lesson[] = [
     slug: "b2-spiral-fix-der-letzte-aufsatz",
     level: "DE-B2",
     number: 8,
-    title: "Spiral Review: Fix the Paragraph: Der Letzte Aufsatz",
+    title: "Spiral Review: Fix the Paragraph: Der letzte Aufsatz",
     summary: "Correct an Upper-intermediate essay with mistakes in connectors, word order, the Konjunktiv and genitive prepositions.",
     duration: "15 min",
     sections: [
@@ -1535,7 +1536,7 @@ export const DE_B2_U26: Lesson[] = [
         heading: "Paragraph 2: the Konjunktiv",
         body: [
           "The second paragraph imagines a school without phones and reports what a study said. Jonas mixed up \"würde\" and \"hätte / wäre\" and forgot Konjunktiv I.",
-          "\"*Wenn das Handy verboten würde gewesen, ...\" → \"Wenn das Handy verboten gewesen wäre, ...\" (no \"würde\" in the unreal past). \"*Die Studie sagt, dass die Noten werden besser\" → \"Laut der Studie würden die Noten besser\" / \"Die Studie zeigt, dass die Noten besser werden.\" (\"werden\" Konjunktiv I = indicative, so \"würden\").",
+          "\"*Wenn das Handy verboten würde gewesen, ...\" → \"Wenn das Handy verboten gewesen wäre, ...\" (the unreal past is built with \"wäre\" / \"hätte\", not \"würde\"). \"*Die Studie sagt, dass die Noten werden besser\" → \"Laut der Studie würden die Noten besser\" / \"Die Studie zeigt, dass die Noten besser werden.\" (\"werden\" Konjunktiv I = indicative, so \"würden\").",
           "And the double infinitive in a subordinate clause: \"*..., dass die Schule das früher regeln hätte sollen\" → \"..., dass die Schule das früher hätte regeln sollen.\"",
         ],
         examples: [
@@ -1553,7 +1554,7 @@ export const DE_B2_U26: Lesson[] = [
             source: "If phones had been banned, we would have talked more.",
             answer: "Wenn das Handy verboten gewesen wäre, hätten wir mehr geredet.",
             altAnswers: ["Wenn das Handy verboten gewesen wäre, hätten wir mehr miteinander geredet.", "Wäre das Handy verboten gewesen, hätten wir mehr geredet.", "Wenn Handys verboten gewesen wären, hätten wir mehr geredet.", "Wenn das Handy verboten worden wäre, hätten wir mehr geredet.", "Wenn das Handy verboten gewesen wäre, hätten wir mehr gesprochen."],
-            explanation: "Unreal past: \"gewesen wäre\" (state) or \"worden wäre\" (passive action). \"Würde\" never appears in the unreal past.",
+            explanation: "Unreal past: \"gewesen wäre\" (state) or \"worden wäre\" (passive action). The unreal past uses \"wäre\" / \"hätte\", not \"würde\".",
           },
           {
             type: "word-order",
@@ -1569,7 +1570,7 @@ export const DE_B2_U26: Lesson[] = [
         body: [
           "The conclusion has the small, formal mistakes that cost points in exams: \"*trotz dem Verbot\" (written German: \"trotz des Verbots\"), \"*innerhalb zwei Wochen\" (\"innerhalb von zwei Wochen\" or \"innerhalb zweier Wochen\"), \"*während dem Unterricht\" (\"während des Unterrichts\").",
           "Relative pronouns: \"*die Schule, dessen Regeln ...\" → \"deren Regeln\" (feminine antecedent); \"*das Beste, das wir tun können\" → \"das Beste, was wir tun können\".",
-          "When there's no article to show the genitive (\"zwei Wochen\"), German uses \"von\" + dative instead: \"innerhalb von zwei Wochen\", \"wegen von\" is wrong, but \"aufgrund von\" is fine.",
+          "When there's no article to show the genitive (\"zwei Wochen\"), German uses \"von\" + dative instead: \"innerhalb von zwei Wochen\"; \"*wegen von*\" is wrong, but \"aufgrund von\" is fine.",
         ],
         examples: [
           { es: "Während des Unterrichts sollten die Handys ausgeschaltet sein.", en: "During lessons phones should be switched off." },
@@ -1647,7 +1648,7 @@ export const DE_B2_U26: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Jonas wrote: \"Ich hätte das Thema besser recherchieren gesollt.\" What is the correct version?",
+        question: "Jonas wrote: \"*Ich hätte das Thema besser recherchieren gesollt.*\" What is the correct version?",
         options: ["Ich hätte das Thema besser recherchieren sollen.", "Ich hätte das Thema besser recherchiert sollen.", "Ich wäre das Thema besser recherchieren sollen.", "Ich hätte das Thema besser recherchieren gesollen."],
         correctIndex: 0,
         explanation: "The double infinitive uses \"sollen\", never a participle.",
@@ -1675,6 +1676,7 @@ export const DE_B2_U26: Lesson[] = [
         prompt: "Put the words in order to say: Nevertheless I think clear rules make sense.",
         words: ["Trotzdem", "halte", "ich", "klare", "Regeln", "für", "sinnvoll."],
         translation: "Nevertheless I think clear rules make sense.",
+        altOrders: [["ich", "halte", "trotzdem", "klare", "Regeln", "für", "sinnvoll."]],
         explanation: "\"Trotzdem\" in position 1, then the verb \"halte\"; \"etwas für sinnvoll halten\".",
       },
       {
@@ -1699,7 +1701,7 @@ export const DE_B2_U26: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Word Web: Music and the Performing Arts",
-    summary: "Die Bühne, die Aufführung, die Vorstellung, die Probe, das Publikum, der Beifall and die Zugabe, with participle attributes and emphasis.",
+    summary: "Talk about concerts and theatre (\"die Bühne\", \"die Aufführung\", \"die Probe\", \"das Publikum\", \"die Zugabe\"), handle words with several meanings and write review-style sentences.",
     duration: "15 min",
     sections: [
       {
@@ -1767,14 +1769,14 @@ export const DE_B2_U26: Lesson[] = [
             question: "What does it mean?",
             options: ["Today's rehearsal goes on until ten.", "The test results come at ten today.", "The sample will be ready at ten.", "The audition is at ten today."],
             correctIndex: 0,
-            explanation: "With \"dauern\" (to last) \"die Probe\" can only be a rehearsal.",
+            explanation: "With \"dauern\" (to last), \"die Probe\" here is a rehearsal: a sample doesn't last until ten.",
           },
         ],
       },
       {
         heading: "Publikum, Beifall, Zugabe",
         body: [
-          "\"Das Publikum\" (the audience) is singular: \"Das Publikum war begeistert\" (The audience were thrilled). English uses a plural verb with audience; German never does. \"Die Zuschauer\" (plural) is the alternative.",
+          "\"Das Publikum\" (the audience) is singular: \"Das Publikum war begeistert\" (The audience were thrilled). British English often uses a plural verb with audience; German doesn't. \"Die Zuschauer\" (plural) is the alternative.",
           "\"Der Beifall\" or \"der Applaus\" (applause: \"Beifall klatschen\", \"tosender Beifall\": thunderous applause), \"die Zugabe\" (encore: the audience shouts \"Zugabe!\"), \"stehende Ovationen\" (standing ovation), \"die Kritik\" (the review, also criticism), \"der Kritiker\" (the critic).",
           "Participle attributes and emphasis shine in reviews: \"die von der Kritik gefeierte Inszenierung\" (the production celebrated by the critics), \"Was mich am meisten beeindruckt hat, war das Bühnenbild\" (the set).",
         ],
@@ -1893,6 +1895,7 @@ export const DE_B2_U26: Lesson[] = [
         prompt: "Put the words in order to say: The choir is going on tour in summer.",
         words: ["Der", "Chor", "geht", "im", "Sommer", "auf", "Tournee."],
         translation: "The choir is going on tour in summer.",
+        altOrders: [["im", "Sommer", "geht", "der", "Chor", "auf", "Tournee."]],
         explanation: "\"Auf Tournee gehen\" = to go on tour; \"Chor\" is pronounced with a k.",
       },
       {
@@ -2005,7 +2008,7 @@ export const DE_B2_U26: Lesson[] = [
           { es: "Er soll das Geld gestohlen haben.", en: "He's said to have stolen the money." },
           { es: "Sie dürfte schon zu Hause sein.", en: "She's probably at home already." },
           { es: "Da es spät war, nahmen wir ein Taxi.", en: "As it was late, we took a taxi." },
-          { es: "Bis Montag werden die Handwerker fertig geworden sein.", en: "By Monday the workmen will have finished." },
+          { es: "Bis Montag werden die Handwerker die Arbeit beendet haben.", en: "By Monday the workmen will have finished the work." },
         ],
         checkpoint: [
           {
@@ -2097,7 +2100,7 @@ export const DE_B2_U26: Lesson[] = [
         question: "Which sentence means 'We should have booked the tickets earlier'?",
         options: ["Wir hätten die Karten früher buchen sollen.", "Wir sollten die Karten früher gebucht haben.", "Wir wären die Karten früher buchen sollen.", "Wir hätten die Karten früher gebucht sollen."],
         correctIndex: 0,
-        explanation: "Regret = \"hätte\" + infinitive + \"sollen\". \"Sollten ... gebucht haben\" would be hearsay.",
+        explanation: "Regret = \"hätte\" + infinitive + \"sollen\". \"Sollten ... gebucht haben\" is not a regret: it expresses an expectation (\"Er sollte inzwischen angekommen sein\": he should have arrived by now).",
       },
       {
         type: "translate",
@@ -2113,6 +2116,7 @@ export const DE_B2_U26: Lesson[] = [
         prompt: "Put the words in order to say: By Monday they'll have finished the work.",
         words: ["Bis", "Montag", "werden", "sie", "die", "Arbeit", "beendet", "haben."],
         translation: "By Monday they'll have finished the work.",
+        altOrders: [["sie", "werden", "die", "Arbeit", "bis", "Montag", "beendet", "haben."]],
         explanation: "Futur II: \"werden\" second, \"beendet haben\" at the end.",
       },
       {
@@ -2143,7 +2147,7 @@ export const DE_B2_U26: Lesson[] = [
     level: "DE-B2",
     number: 11,
     title: "Spiral Review: Der Neuanfang von Jonas",
-    summary: "Jonas leaves his office job in Frankfurt to become a carpenter: regrets, concession, Futur II and reported speech.",
+    summary: "Follow Jonas, who leaves his office job in Frankfurt to become a carpenter, and use reported speech, concession, regrets and Futur II to tell his story.",
     duration: "15 min",
     sections: [
       {

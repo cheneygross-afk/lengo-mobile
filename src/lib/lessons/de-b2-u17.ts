@@ -8,7 +8,7 @@ export const DE_B2_U17: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Advanced Connectors, Part 1 of 2: Jedoch, Allerdings, Dennoch",
-    summary: "Contrast and concession in formal German: jedoch (however), allerdings (admittedly, but) and dennoch (nevertheless), and the word order each one triggers.",
+    summary: "Express contrast and concession in formal German with \"jedoch\" (however), \"allerdings\" (admittedly, but) and \"dennoch\" (nevertheless), with the word order each one triggers.",
     duration: "15 min",
     sections: [
       {
@@ -74,6 +74,7 @@ export const DE_B2_U17: Lesson[] = [
             prompt: "Put the words in order to say: The training lasts three years, but the pay is low.",
             words: ["Die", "Ausbildung", "dauert", "drei", "Jahre,", "die", "Bezahlung", "ist", "jedoch", "gering."],
             translation: "The training lasts three years, but the pay is low.",
+            altOrders: [["Die", "Ausbildung", "dauert", "drei", "Jahre,", "jedoch", "ist", "die", "Bezahlung", "gering."]],
             explanation: "In the second clause \"jedoch\" sits after the verb \"ist\".",
           },
         ],
@@ -180,10 +181,10 @@ export const DE_B2_U17: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Many want to help. [However, only few] have time.",
-        sentence: "Viele wollen helfen. ___ wenige Zeit.",
-        answer: "Jedoch haben nur",
-        altAnswers: ["Allerdings haben nur", "Aber nur wenige haben", "Doch haben nur"],
+        en: "Many want to help. [However, only a few have] time.",
+        sentence: "Viele wollen helfen. ___ Zeit.",
+        answer: "Jedoch haben nur wenige",
+        altAnswers: ["Allerdings haben nur wenige", "Aber nur wenige haben", "Doch haben nur wenige", "Nur wenige haben jedoch"],
         explanation: "\"Jedoch\" in position 1 → verb \"haben\" next, then the subject \"nur wenige\".",
       },
       {
@@ -244,7 +245,7 @@ export const DE_B2_U17: Lesson[] = [
     level: "DE-B2",
     number: 2,
     title: "Minimal Pairs: Aber / Jedoch / Allerdings",
-    summary: "Aber in position 0, jedoch in position 1 or the Mittelfeld, allerdings as a softer restriction, and sondern after a negation.",
+    summary: "Choose between \"aber\" (position 0), \"jedoch\" (position 1 or the Mittelfeld), \"allerdings\" (a softer restriction) and \"sondern\" after a negation.",
     duration: "13 min",
     sections: [
       {
@@ -252,7 +253,7 @@ export const DE_B2_U17: Lesson[] = [
         body: [
           "\"Aber der Plan ist teuer\" and \"Jedoch ist der Plan teuer\" mean the same, but the word order differs: \"aber\" stands outside the clause (position 0), so the subject comes next; \"jedoch\" is inside (position 1), so the verb comes next.",
           "Both can move into the Mittelfeld: \"Der Plan ist aber teuer\" / \"Der Plan ist jedoch teuer\". Here \"aber\" sounds spoken and slightly emphatic, \"jedoch\" written and neutral.",
-          "A useful test: if you can swap the word for and/or without changing the word order, it's position 0 (\"aber\"). If not, it's an adverb (\"jedoch\").",
+          "A useful test: if you can swap the word for \"und\" or \"oder\" without changing the word order, it's position 0 (\"aber\"). If not, it's an adverb (\"jedoch\").",
         ],
         examples: [
           { es: "Aber der Plan ist teuer.", en: "But the plan is expensive." },
@@ -643,7 +644,7 @@ export const DE_B2_U17: Lesson[] = [
         heading: "The dual system",
         body: [
           "In Germany about half of all school-leavers start a \"duale Ausbildung\": they work in a company (\"der Ausbildungsbetrieb\") three or four days a week and go to a \"Berufsschule\" the rest of the time. They earn a salary (\"die Ausbildungsvergütung\") from day one, and at the end they're qualified, e.g. as a \"Mechatroniker\" or \"Kauffrau für Büromanagement\".",
-          "Leon has just passed his Abitur in Nuremberg. He could study engineering (\"Maschinenbau studieren\") or start an apprenticeship at a local company. He lists the pros and cons using the connectors from this unit.",
+          "Leon has just passed his \"Abitur\" in Nuremberg. He could study engineering (\"Maschinenbau studieren\") or start an apprenticeship at a local company. He lists the pros and cons using the connectors from this unit.",
         ],
         examples: [
           { es: "Bei einer Ausbildung verdient man von Anfang an Geld.", en: "With an apprenticeship you earn money from the start." },
@@ -832,8 +833,8 @@ export const DE_B2_U17: Lesson[] = [
       {
         heading: "Why Renate volunteers",
         body: [
-          "\"Das Ehrenamt\" is voluntary work, and \"ehrenamtlich\" means unpaid, voluntary (ehrenamtlich arbeiten, eine ehrenamtliche Helferin). Millions of Germans volunteer: in sports clubs, the volunteer fire brigade (\"die Freiwillige Feuerwehr\") or at \"die Tafel\", a network of food banks that collect surplus food from supermarkets and pass it on to people in need.",
-          "Renate, 67, taught German for forty years in Kassel. Since she retired she has worked at the Tafel twice a week. She explains why, with causal connectors (\"weil, da, denn\") and the new consequence word \"deshalb\" / \"daher\".",
+          "\"Das Ehrenamt\" is voluntary work, and \"ehrenamtlich\" means unpaid, voluntary (\"ehrenamtlich arbeiten\", \"eine ehrenamtliche Helferin\"). Millions of Germans volunteer: in sports clubs, the volunteer fire brigade (\"die Freiwillige Feuerwehr\") or at \"die Tafel\", a network of food banks that collect surplus food from supermarkets and pass it on to people in need.",
+          "Renate, 67, taught German for forty years in Kassel. Since she retired she has worked at the Tafel twice a week. She explains why, with causal connectors (\"weil, da, denn\") and the consequence words \"deshalb\" / \"daher\".",
         ],
         examples: [
           { es: "Da ich jetzt Rentnerin bin, habe ich mehr Zeit.", en: "Since I'm retired now, I have more time." },
@@ -897,7 +898,7 @@ export const DE_B2_U17: Lesson[] = [
       {
         heading: "Consequences",
         body: [
-          "Renate also talks about the bigger picture. More and more people come, consequently the food runs out earlier: \"Immer mehr Menschen kommen, folglich reichen die Lebensmittel nicht mehr.\" \"Folglich\" is a formal deshalb; you'll practise it in the next lesson.",
+          "Renate also talks about the bigger picture. More and more people come, consequently the food runs out earlier: \"Immer mehr Menschen kommen, folglich reichen die Lebensmittel nicht mehr.\" \"Folglich\" is a formal \"deshalb\"; you'll practise it in the next lesson.",
           "\"Infolgedessen\" (as a result of this) and \"daher\" (that's why, hence) belong to the same family. All of them fill position 1 and pull the verb in front of the subject.",
         ],
         examples: [
@@ -944,8 +945,8 @@ export const DE_B2_U17: Lesson[] = [
         prompt: "Translate into German.",
         source: "She works as a volunteer at the food bank.",
         answer: "Sie arbeitet ehrenamtlich bei der Tafel.",
-        altAnswers: ["Sie arbeitet ehrenamtlich bei der Lebensmittelbank.", "Sie hilft ehrenamtlich bei der Tafel."],
-        explanation: "\"Ehrenamtlich\" = as a volunteer; \"bei der Tafel\".",
+        altAnswers: ["Sie hilft ehrenamtlich bei der Tafel.", "Sie arbeitet als Ehrenamtliche bei der Tafel."],
+        explanation: "\"Ehrenamtlich\" = as a volunteer; food banks in Germany are called \"die Tafel\" (\"bei der Tafel\"), not a literal \"Lebensmittelbank\".",
       },
       {
         type: "translate",
@@ -1014,14 +1015,14 @@ export const DE_B2_U17: Lesson[] = [
     level: "DE-B2",
     number: 6,
     title: "Circuit: Daher, Deshalb, Folglich, Somit, Demnach",
-    summary: "Consequence connectors in position 1 with inversion and in the Mittelfeld, and the register of each: deshalb everyday, folglich and somit formal, demnach 'according to that'.",
+    summary: "Use consequence connectors in position 1 with inversion and in the Mittelfeld, and pick the right register: \"deshalb\" everyday, \"folglich\" and \"somit\" formal, \"demnach\" 'according to that'.",
     duration: "14 min",
     sections: [
       {
         heading: "Deshalb, deswegen, daher: that's why",
         body: [
           "All three mean that's why / therefore and work the same way: position 1 + verb, or after the verb. \"Der Zug fiel aus, deshalb kamen wir zu spät.\" / \"Wir kamen deshalb zu spät.\"",
-          "\"Deshalb\" and \"deswegen\" are everyday words; \"deswegen\" is slightly more colloquial. \"Daher\" is a bit more formal and common in writing. Before an \"und\" they can follow it: \"..., und deshalb ...\".",
+          "\"Deshalb\" and \"deswegen\" are everyday words; \"deswegen\" is slightly more colloquial. \"Daher\" is a bit more formal and common in writing. They can also follow \"und\": \"..., und deshalb ...\".",
           "English so at the start of a clause is often \"deshalb\" or \"also\". But careful: \"also\" in German means so / therefore, never also (that's \"auch\").",
         ],
         examples: [
@@ -1255,7 +1256,7 @@ export const DE_B2_U17: Lesson[] = [
         heading: "Arguments for and against",
         body: [
           "At a family meeting everyone argues. Daughter Katrin: \"Zwar hängen wir alle an dem Haus, aber wir können uns die Renovierung nicht leisten.\" Son Jonas: \"Obwohl es viel Arbeit ist, sollten wir es behalten.\" The grandchildren: \"Das Haus ist alt, dennoch ist es der schönste Ort der Welt!\"",
-          "Concession (zwar ... aber, obwohl, trotzdem, dennoch) and the new formal connectors (jedoch, allerdings) all appear. Watch the word order after each.",
+          "Concession (\"zwar ... aber\", \"obwohl\", \"trotzdem\", \"dennoch\") and the new formal connectors (\"jedoch\", \"allerdings\") all appear. Watch the word order after each.",
         ],
         examples: [
           { es: "Zwar hängen wir alle an dem Haus, aber wir können uns die Renovierung nicht leisten.", en: "Admittedly we're all attached to the house, but we can't afford the renovation." },
@@ -1404,7 +1405,7 @@ export const DE_B2_U17: Lesson[] = [
     level: "DE-B2",
     number: 8,
     title: "Story with Gaps: Die Debatte über Homeoffice",
-    summary: "A works council debates working from home: fill in jedoch, allerdings, zudem, folglich and andernfalls.",
+    summary: "Follow a works council debate on working from home and fill in \"jedoch\", \"allerdings\", \"zudem\", \"folglich\" and \"andernfalls\".",
     duration: "14 min",
     sections: [
       {
@@ -1512,8 +1513,8 @@ export const DE_B2_U17: Lesson[] = [
         en: "Working from home saves time; [however] the personal contact is missing.",
         sentence: "Homeoffice spart Zeit, ___ fehlt der persönliche Kontakt.",
         answer: "jedoch",
-        altAnswers: ["allerdings", "dennoch"],
-        explanation: "\"Jedoch\" in position 1 of the second clause; the verb \"fehlt\" follows.",
+        altAnswers: ["allerdings"],
+        explanation: "\"Jedoch\" in position 1 of the second clause; the verb \"fehlt\" follows. \"Dennoch\" (nevertheless) would not fit: the missing contact is not in spite of the time saved.",
       },
       {
         type: "fill-blank",
@@ -1604,7 +1605,7 @@ export const DE_B2_U17: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Advanced Connectors, Part 2 of 2: Insofern, Zudem, Andernfalls, Nämlich",
-    summary: "Addition (zudem, darüber hinaus, ferner), restriction (insofern ... als), alternatives (stattdessen, andernfalls) and nämlich, which gives a reason and never comes first.",
+    summary: "Add points (\"zudem\", \"darüber hinaus\", \"ferner\"), restrict them (\"insofern ... als\"), give alternatives (\"stattdessen\", \"andernfalls\") and explain with \"nämlich\", which never comes first.",
     duration: "15 min",
     sections: [
       {
@@ -1790,9 +1791,10 @@ export const DE_B2_U17: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "He didn't study; [instead he watched] videos.",
+        en: "He didn't study; [instead he] watched videos.",
         sentence: "Er hat nicht gelernt, ___ Videos geschaut.",
         answer: "stattdessen hat er",
+        altAnswers: ["er hat stattdessen"],
         explanation: "\"Stattdessen\" + verb + subject; \"geschaut\" completes the Perfekt.",
       },
       {
@@ -1845,8 +1847,8 @@ export const DE_B2_U17: Lesson[] = [
     slug: "b2-build-argumentativer-absatz",
     level: "DE-B2",
     number: 10,
-    title: "Build: Ein Argumentativer Absatz",
-    summary: "Build a paragraph step by step: thesis, two arguments with zunächst and zudem, a counter-argument with allerdings, and a conclusion with folglich or somit.",
+    title: "Build: Ein argumentativer Absatz",
+    summary: "Build an argumentative paragraph step by step: thesis, two arguments with \"zunächst\" and \"zudem\", a counter-argument with \"allerdings\", and a conclusion with \"folglich\" or \"somit\".",
     duration: "15 min",
     sections: [
       {
@@ -2035,7 +2037,7 @@ export const DE_B2_U17: Lesson[] = [
     slug: "b2-thematic-review-kulturerbe-retten",
     level: "DE-B2",
     number: 11,
-    title: "Thematic Review: Kulturerbe Retten",
+    title: "Thematic Review: Kulturerbe retten",
     summary: "Volunteers restore a half-timbered church in a Thuringian village: connectors, the Zustandspassiv and extended participle phrases.",
     duration: "15 min",
     sections: [
@@ -2043,7 +2045,7 @@ export const DE_B2_U17: Lesson[] = [
         heading: "A church in danger",
         body: [
           "In a village near Erfurt stands a small \"Fachwerkkirche\" (half-timbered church) from 1712. For years nobody used it: the congregation had shrunk, and there was no money for repairs. The beams were rotten, the roof leaked. In 2019 a group of villagers founded a \"Förderverein\" (a support association) to save it.",
-          "Descriptions of the state of the building use the Zustandspassiv: \"Die Balken waren morsch\" is an adjective, but \"Das Dach war beschädigt\", \"Die Fenster waren zugenagelt\", \"Der Eingang war gesperrt\" are sein + participle: the result of something that happened.",
+          "Descriptions of the state of the building use the Zustandspassiv: \"Die Balken waren morsch\" is an adjective, but \"Das Dach war beschädigt\", \"Die Fenster waren zugenagelt\", \"Der Eingang war gesperrt\" are \"sein\" + participle: the result of something that happened.",
         ],
         examples: [
           { es: "Das Dach war an vielen Stellen beschädigt.", en: "The roof was damaged in many places." },
@@ -2074,7 +2076,7 @@ export const DE_B2_U17: Lesson[] = [
         heading: "The restoration",
         body: [
           "The volunteers worked every Saturday for three years. A local newspaper report uses extended participle phrases: \"die von Freiwilligen restaurierte Kirche\" (the church restored by volunteers), \"die seit Jahrzehnten leerstehende Kirche\" (the church that had stood empty for decades), \"die noch zu erledigenden Arbeiten\" (the work still to be done).",
-          "Remember the reading strategy: article → jump to the noun → read the middle. \"Die von Freiwilligen restaurierte Kirche\" = die Kirche, die von Freiwilligen restauriert wurde.",
+          "Remember the reading strategy: article → jump to the noun → read the middle. \"Die von Freiwilligen restaurierte Kirche\" = \"die Kirche, die von Freiwilligen restauriert wurde\".",
         ],
         examples: [
           { es: "Die von Freiwilligen restaurierte Kirche ist jetzt wieder geöffnet.", en: "The church, restored by volunteers, is open again now." },
@@ -2123,7 +2125,7 @@ export const DE_B2_U17: Lesson[] = [
             source: "Without the volunteers the church would have collapsed.",
             answer: "Ohne die Freiwilligen wäre die Kirche eingestürzt.",
             altAnswers: ["Ohne die Ehrenamtlichen wäre die Kirche eingestürzt.", "Die Kirche wäre ohne die Freiwilligen eingestürzt."],
-            explanation: "\"Einstürzen\" takes sein: \"wäre eingestürzt\".",
+            explanation: "Unreal past; \"einstürzen\" takes \"sein\": \"wäre eingestürzt\", not \"hätte\".",
           },
           {
             type: "listen-choose",
@@ -2223,7 +2225,7 @@ export const DE_B2_U17: Lesson[] = [
     level: "DE-B2",
     number: 12,
     title: "Error Hunt: Connectors",
-    summary: "Correct and explain: *Jedoch, das ist teuer; *Nämlich ich bin krank; *deshalb ich bin gekommen; *trotzdem er kam; *Folglich, wir müssen warten; *aber ist es teuer.",
+    summary: "Correct and explain typical connector errors: \"*Jedoch, das ist teuer\", \"*Nämlich ich bin krank\", \"*deshalb ich bin gekommen\", \"*trotzdem er kam\", \"*Folglich, wir müssen warten\", \"*aber ist es teuer\".",
     duration: "14 min",
     sections: [
       {
@@ -2397,6 +2399,7 @@ export const DE_B2_U17: Lesson[] = [
         prompt: "Put the words in order to say: Consequently the meeting has to be postponed.",
         words: ["Folglich", "muss", "die", "Sitzung", "verschoben", "werden."],
         translation: "Consequently the meeting has to be postponed.",
+        altOrders: [["Die", "Sitzung", "muss", "folglich", "verschoben", "werden."]],
         explanation: "\"Folglich\" in position 1, modal \"muss\" second, passive infinitive at the end.",
       },
       {

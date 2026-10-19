@@ -13,8 +13,8 @@ export const DE_A2_S03_STORIES: Story[] = [
       `Im Juli 1954 hatte im Dorf Altenbach in der Pfalz fast niemand einen Fernseher. Fernseher waren damals sehr teuer. Nur Herr Hoffmann, der Elektriker, hatte einen. Der stand in seinem Schaufenster, weil er ihn verkaufen wollte.`,
       `Am 4. Juli hat Deutschland in Bern das Finale der Fußball-Weltmeisterschaft gegen Ungarn gespielt. Alle wussten: Ungarn ist viel besser. Trotzdem wollte das ganze Dorf das Spiel sehen. Um fünf Uhr standen über hundert Leute vor dem Schaufenster, Männer, Frauen, Kinder und sogar der Pfarrer.`,
       `Der zwölfjährige Karl war klein und hat nichts gesehen, nur Rücken und Hüte. Er konnte das Spiel nur hören. Nach acht Minuten hat Ungarn schon 2:0 geführt. Die Leute waren still und traurig. Dann hat es auch noch angefangen zu regnen.`,
-      `Da hat Herr Hoffmann die Ladentür aufgemacht. „Kinder nach vorne!“, hat er gerufen. Karl durfte direkt vor dem Fernseher auf dem Boden sitzen. Das Bild war klein und grau, aber Karl hat jeden Spieler gesehen. Und er hat gesehen, wie Deutschland zwei Tore geschossen hat: 2:2!`,
-      `Sechs Minuten vor dem Ende hat Helmut Rahn das dritte Tor geschossen. Der ganze Laden hat gebebt. Fremde Leute haben sich umarmt, und der Pfarrer hat seinen Hut in die Luft geworfen. Deutschland war Weltmeister.`,
+      `Da ist Herr Hoffmann aus seinem Laden gekommen. „Kinder nach vorne!“, hat er gerufen. Karl durfte direkt vor dem Schaufenster auf dem Boden sitzen. Das Bild war klein und grau, aber Karl hat jeden Spieler gesehen. Und er hat gesehen, wie Deutschland zwei Tore geschossen hat: 2:2!`,
+      `Sechs Minuten vor dem Ende hat Helmut Rahn das dritte Tor geschossen. Die ganze Straße hat gebebt. Fremde Leute haben sich umarmt, und der Pfarrer hat seinen Hut in die Luft geworfen. Deutschland war Weltmeister.`,
       `Am Montag hat Herr Hoffmann drei Fernseher verkauft. Und Karl? Er ist später auch Elektriker geworden. Heute ist er 84, und in seinem Wohnzimmer hängt ein altes Foto: ein Schaufenster, hundert nasse Rücken und ganz vorne ein kleiner Junge auf dem Boden.`,
     ],
     questions: [
@@ -32,9 +32,9 @@ export const DE_A2_S03_STORIES: Story[] = [
       },
       {
         question: `What did Herr Hoffmann do when it started to rain?`,
-        options: [`He closed the shop.`, `He switched off the television.`, `He gave everyone an umbrella.`, `He opened the door and let the children come to the front.`],
+        options: [`He closed the shop.`, `He switched off the television.`, `He gave everyone an umbrella.`, `He came out and called the children to the front.`],
         correctIndex: 3,
-        explanation: `"Da hat Herr Hoffmann die Ladentür aufgemacht."`,
+        explanation: `"Da ist Herr Hoffmann aus seinem Laden gekommen." He called: "Kinder nach vorne!"`,
       },
       {
         question: `What happened on the Monday after the final?`,
@@ -92,8 +92,8 @@ export const DE_A2_S03_STORIES: Story[] = [
       `Beim Sonntagsessen in Bremen haben die Brüder Jan und Nils wieder gestritten. „Du schaust die ganze Zeit auf dein Handy!“, hat Jan gesagt. „Du doch auch!“, hat Nils geantwortet. Dann hatte Jan eine Idee: „Wir machen eine Wette. Eine Woche ohne Handy. Wer verliert, bezahlt ein Essen im besten Restaurant der Stadt.“ Ihre Mutter Inge hat beide Handys in eine Schuhschachtel gelegt und gelächelt.`,
       `Die ersten Tage waren schwer. Jan hat sich auf dem Weg zu einem Kunden verfahren, weil er keine Navigation hatte. Nils konnte keine einzige Telefonnummer auswendig. Er hat zum ersten Mal seit Jahren eine Zeitung gekauft, und er musste einen alten Wecker benutzen.`,
       `Aber eine Sache war neu: Beide Brüder haben jeden Abend ihre Mutter angerufen, vom Festnetz im Büro. Nils ist sogar zweimal zum Kaffee gekommen. Inge hat sich sehr gefreut.`,
-      `Am Freitag um Mitternacht hat Jan leise die Tür von Inges Wohnung geöffnet. Er hatte noch einen Schlüssel. Er wollte nur kurz seine Nachrichten lesen. In der dunklen Küche hat er die Schuhschachtel gesucht und eine Hand gefunden. „Aaah!“, haben zwei Stimmen geschrien. Das Licht ist angegangen. Vor ihm war Nils, im Schlafanzug.`,
-      `In der Tür war Inge, mit der Schuhschachtel unter dem Arm. „Ihr habt beide verloren“, hat sie gesagt. „Also bezahlt ihr beide das Essen. Für mich.“ Die Brüder haben sich angesehen und gelacht. Am Samstag haben sie zu dritt gegessen, und den ganzen Abend hat niemand auf ein Handy geschaut.`,
+      `Am Freitag um Mitternacht hat Jan leise die Tür von Inges Wohnung geöffnet. Er hatte noch einen Schlüssel. Er wollte nur kurz seine Nachrichten lesen. In der dunklen Küche hat er die Schuhschachtel gesucht und eine Hand gefunden. „Aaah!“, haben zwei Stimmen geschrien. Das Licht ist angegangen. Vor ihm stand Nils, im Schlafanzug.`,
+      `In der Tür stand Inge, mit der Schuhschachtel unter dem Arm. „Ihr habt beide verloren“, hat sie gesagt. „Also bezahlt ihr beide das Essen. Für mich.“ Die Brüder haben sich angesehen und gelacht. Am Samstag haben sie zu dritt gegessen, und den ganzen Abend hat niemand auf ein Handy geschaut.`,
     ],
     questions: [
       {
@@ -207,8 +207,8 @@ export const DE_A2_S03_ENGLISH: Record<string, string[]> = {
     `In July 1954 almost nobody in the village of Altenbach in the Palatinate had a television. Televisions were very expensive back then. Only Herr Hoffmann, the electrician, had one. It stood in his shop window because he wanted to sell it.`,
     `On 4 July Germany played Hungary in Bern in the final of the football World Cup. Everyone knew: Hungary is much better. Even so, the whole village wanted to see the match. At five o'clock more than a hundred people were standing in front of the shop window, men, women, children and even the priest.`,
     `Twelve-year-old Karl was small and couldn't see anything, only backs and hats. He could only hear the match. After eight minutes Hungary was already leading 2-0. People were quiet and sad. Then, on top of that, it started to rain.`,
-    `Then Herr Hoffmann opened the shop door. "Children to the front!" he called. Karl was allowed to sit on the floor right in front of the television. The picture was small and grey, but Karl saw every player. And he saw Germany score two goals: 2-2!`,
-    `Six minutes before the end Helmut Rahn scored the third goal. The whole shop shook. Strangers hugged each other, and the priest threw his hat into the air. Germany were world champions.`,
+    `Then Herr Hoffmann came out of his shop. "Children to the front!" he called. Karl was allowed to sit on the ground right in front of the shop window. The picture was small and grey, but Karl saw every player. And he saw Germany score two goals: 2-2!`,
+    `Six minutes before the end Helmut Rahn scored the third goal. The whole street shook. Strangers hugged each other, and the priest threw his hat into the air. Germany were world champions.`,
     `On Monday Herr Hoffmann sold three televisions. And Karl? He later became an electrician too. Today he is 84, and in his living room there is an old photo: a shop window, a hundred wet backs, and right at the front a little boy on the floor.`,
   ],
   "de-der-ehrliche-roboter": [
@@ -230,7 +230,7 @@ export const DE_A2_S03_ENGLISH: Record<string, string[]> = {
     `Katharina apologised. But she didn't hang up. Leon was funny, and they talked for half an hour: about work, about Munich, about cold noodles. In the end she forgot about her pizza.`,
     `The next Friday Katharina dialled that number again, on purpose this time. "Wrong number?" Leon asked. "Yes, again," she answered. It went on like that for two months. Every Friday they talked on the phone, sometimes for two hours. But they never sent photos. They wanted to be surprised.`,
     `Then they arranged to meet: Saturday, eleven o'clock, at the café on Gärtnerplatz. Katharina was very nervous. She put on her nicest dress and left early. On the stairs, like every morning, she met the man from the flat opposite. He had flowers in his hand. "Good morning," he said, as always.`,
-    `In the café Katharina waited. At eleven on the dot the door opened and the man from across the hall came in, with the flowers. He looked around, then he saw her. They both started laughing at the same moment. "Leon?" "Katharina?" For three years they had lived door to door and only said "good morning". Today they order pizza together every Friday, from the right number.`,
+    `In the café Katharina waited. At eleven on the dot the door opened and the man from across the hall came in, with the flowers. He looked around, then he saw her. They both started laughing at the same moment. "Leon?" "Katharina?" For three years they had lived across the hall from each other and only said "good morning". Today they order pizza together every Friday, from the right number.`,
   ],
   "de-der-aelteste-hund-im-tierheim": [
     `After his wife died, Herr Albrecht was very lonely. His daughter lives in Hamburg and only rarely comes to Kassel. One day she said on the phone: "Dad, you need a dog." So Herr Albrecht went to the animal shelter. He wanted a small, young dog.`,
@@ -249,7 +249,7 @@ export const DE_A2_S03_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "der Pfarrer", en: "priest, parish minister", forms: ["pfarrer"] },
     { es: "der Rücken", en: "back", forms: ["rücken"] },
     { es: "führen", en: "to lead (in a game)", forms: ["geführt"] },
-    { es: "die Ladentür", en: "shop door", forms: ["ladentür"] },
+    { es: "der Laden", en: "shop", forms: ["laden"] },
     { es: "das Tor", en: "goal", forms: ["tore","tor"] },
     { es: "beben", en: "to shake, tremble", forms: ["gebebt"] },
     { es: "umarmen", en: "to hug", forms: ["umarmt"] },

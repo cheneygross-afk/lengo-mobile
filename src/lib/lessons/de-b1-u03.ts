@@ -215,7 +215,7 @@ export const DE_B1_U03: Lesson[] = [
         heading: "Nachdem: a conjunction with verb at the end",
         body: [
           "\"Nachdem\" (after) introduces a subordinate clause, like \"weil\" and \"dass\": the conjugated verb goes to the end. \"Nachdem er gegessen hatte\": the auxiliary \"hatte\" is last, after the participle.",
-          "When the nachdem-clause comes first, it fills position 1, so the main clause starts with its verb: \"Nachdem er gegessen hatte, ging er spazieren.\" Verb, comma, verb. Never *Nachdem er gegessen hatte, er ging...*.",
+          "When the nachdem-clause comes first, it fills position 1, so the main clause starts with its verb: \"Nachdem er gegessen hatte, ging er spazieren.\" Verb, comma, verb. Never \"*Nachdem er gegessen hatte, er ging...*\".",
           "It can also come second: \"Er ging spazieren, nachdem er gegessen hatte.\"",
         ],
         examples: [
@@ -248,7 +248,7 @@ export const DE_B1_U03: Lesson[] = [
         body: [
           "\"Nachdem\" demands that its clause is one tense step earlier than the main clause. Main clause in the Präteritum or Perfekt → nachdem-clause in the Plusquamperfekt: \"Nachdem ich gefrühstückt hatte, fuhr ich los\" / \"..., bin ich losgefahren\".",
           "Main clause in the present (habits, plans) → nachdem-clause in the Perfekt: \"Nachdem ich gefrühstückt habe, fahre ich los\" (After I've had breakfast, I set off).",
-          "The classic error is the same tense in both clauses: *Nachdem er isst, geht er*. German grammars insist on the shift, and examiners notice.",
+          "The classic error is the same tense in both clauses: \"*Nachdem er isst, geht er*\". German grammars insist on the shift, and examiners notice.",
         ],
         examples: [
           { es: "Nachdem ich gefrühstückt hatte, fuhr ich los.", en: "After I had had breakfast, I set off." },
@@ -292,7 +292,7 @@ export const DE_B1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using nachdem.",
+            prompt: "Translate into German, using \"nachdem\".",
             source: "After we had eaten, we did the washing up.",
             answer: "Nachdem wir gegessen hatten, haben wir abgewaschen.",
             altAnswers: ["Nachdem wir gegessen hatten, wuschen wir ab.", "Wir haben abgewaschen, nachdem wir gegessen hatten.", "Wir wuschen ab, nachdem wir gegessen hatten.", "Nachdem wir gegessen hatten, spülten wir ab.", "Nachdem wir gegessen hatten, haben wir gespült."],
@@ -527,6 +527,7 @@ export const DE_B1_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "They had stayed at home.",
         answer: "Sie waren zu Hause geblieben.",
+        altAnswers: ["Sie waren zuhause geblieben."],
         explanation: "\"Bleiben\": \"sein\".",
       },
       {
@@ -576,7 +577,7 @@ export const DE_B1_U03: Lesson[] = [
         heading: "Hatte and war in every person",
         body: [
           "The Plusquamperfekt only changes the auxiliary when the person changes: \"ich hatte, du hattest, er hatte, wir hatten, ihr hattet, sie hatten\" and \"ich war, du warst, er war, wir waren, ihr wart, sie waren\". The participle stays the same.",
-          "Watch \"ihr wart\" (no e: not *ihr waret*) and \"du warst\".",
+          "Watch \"ihr wart\" (no e: not \"*ihr waret*\") and \"du warst\".",
         ],
         examples: [
           { es: "Ich hatte den Zug verpasst.", en: "I had missed the train." },
@@ -846,7 +847,6 @@ export const DE_B1_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "Have you got everything done? (to a friend)",
         answer: "Hast du alles erledigt?",
-        altAnswers: ["Habt ihr alles erledigt?", "Haben Sie alles erledigt?"],
         explanation: "\"Erledigen\": weak, no ge-.",
       },
       {
@@ -965,10 +965,10 @@ export const DE_B1_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which tense fits: It was very crowded?",
-            options: ["Es war sehr voll.", "Es ist sehr voll gewesen war.", "Es hatte sehr voll.", "Es war sehr voll gewesen hatte."],
+            question: "You're describing the scene at the airport: It was very crowded. Which is right?",
+            options: ["Es war sehr voll.", "Es war sehr voll gewesen.", "Es hatte sehr voll.", "Es ist sehr voll."],
             correctIndex: 0,
-            explanation: "Description with \"sein\": Präteritum \"war\".",
+            explanation: "Description with \"sein\": Präteritum \"war\". \"War ... gewesen\" would step back to something earlier, and \"voll\" goes with \"sein\", never \"haben\".",
           },
         ],
       },
@@ -1063,7 +1063,7 @@ export const DE_B1_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "I was pleased that you called. (to a friend)",
         answer: "Ich habe mich gefreut, dass du angerufen hast.",
-        altAnswers: ["Ich habe mich gefreut, dass ihr angerufen habt.", "Ich habe mich gefreut, dass Sie angerufen haben.", "Ich freute mich, dass du angerufen hast."],
+        altAnswers: ["Ich freute mich, dass du angerufen hast."],
         explanation: "Same stage: Perfekt in both clauses.",
       },
       {
@@ -1149,7 +1149,7 @@ export const DE_B1_U03: Lesson[] = [
         heading: "Spot the word class",
         body: [
           "Look at what comes next. A noun or a time span (\"dem Essen\", \"zwei Stunden\")? → \"nach\". A subject and a verb (\"wir gegessen hatten\")? → \"nachdem\". Nothing, and the verb follows directly? → \"danach\".",
-          "Common slips: *nachdem dem Essen* (nachdem with a noun), *nach wir gegessen hatten* (nach with a clause), *danach wir gingen* (no inversion).",
+          "Common slips: \"*nachdem dem Essen*\" (nachdem with a noun), \"*nach wir gegessen hatten*\" (nach with a clause), \"*danach wir gingen*\" (no inversion).",
         ],
         examples: [
           { es: "Nach zwei Stunden kam endlich der Techniker.", en: "After two hours the technician finally came." },
@@ -1478,7 +1478,7 @@ export const DE_B1_U03: Lesson[] = [
 
 export const DE_B1_U03_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Write a short statement for the police about something that happened to you on your way home last week (a theft, a lost bag, an accident you saw). Say what you did, what the situation was like, and what had already happened before you noticed it. Use nachdem at least once.",
+  prompt: "Write a short statement for the police about something that happened to you on your way home last week (a theft, a lost bag, an accident you saw). Say what you did, what the situation was like, and what had already happened before you noticed it. Use \"nachdem\" at least once.",
   minWords: 80,
   maxWords: 150,
   rubric: [
@@ -1488,5 +1488,5 @@ export const DE_B1_U03_WRITING: WriteExercise = {
     "Distinguishes \"nach\" + noun, \"nachdem\" + clause and \"danach\" + inversion.",
   ],
   modelAnswer: "Am letzten Freitag fuhr ich gegen 18 Uhr mit der U-Bahn nach Hause. Die Bahn war sehr voll, und ich stand neben der Tür. Nachdem ich am Hauptbahnhof ausgestiegen war, wollte ich mein Ticket für den Bus suchen. Da bemerkte ich, dass meine Tasche offen war. Jemand hatte mein Portemonnaie gestohlen! Ich hatte vorher nichts gemerkt. Ein Mann mit einer grauen Mütze hatte die ganze Zeit sehr nah bei mir gestanden, aber er war schon weg. Nach dem Schreck rief ich meine Bank an und ließ meine Karte sperren. Danach ging ich direkt zur Polizei und erstattete Anzeige. Im Portemonnaie waren etwa 50 Euro, mein Ausweis und ein Foto von meinen Kindern.",
-  explanation: "The narration is in the Präteritum (\"fuhr\", \"stand\", \"bemerkte\", \"rief an\"), and every event that happened before the moment of noticing is in the Plusquamperfekt (\"hatte gestohlen\", \"hatte gemerkt\", \"war weg\"). \"Nachdem ich ausgestiegen war\" shows the tense shift with the verb at the end and the main verb \"wollte\" straight after the comma. \"Nach dem Schreck\" (preposition + noun) and \"Danach\" (adverb + inversion) complete the three afters.",
+  explanation: "The narration is in the Präteritum (\"fuhr\", \"stand\", \"bemerkte\", \"rief an\"), and every event that happened before the moment of noticing is in the Plusquamperfekt (\"hatte gestohlen\", \"hatte gemerkt\", \"hatte gestanden\"). \"Nachdem ich ausgestiegen war\" shows the tense shift with the verb at the end and the main verb \"wollte\" straight after the comma. \"Nach dem Schreck\" (preposition + noun) and \"Danach\" (adverb + inversion) complete the three afters.",
 };

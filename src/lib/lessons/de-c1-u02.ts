@@ -54,7 +54,7 @@ export const DE_C1_U02: Lesson[] = [
           "\"Obwohl\" concedes a fact: Although it's raining (it is raining). \"Auch wenn\" and \"selbst wenn\" concede a possibility or a hypothesis: even if. \"Auch wenn es regnet, gehen wir spazieren\" (even if it rains, which it may or may not).",
           "In practice \"auch wenn\" is also used for facts, overlapping with \"obwohl\": \"Auch wenn ich ihn mag, hier hat er unrecht.\" \"Selbst wenn\" is stronger (even if, even in the extreme case) and mostly hypothetical.",
           "When the condition is unreal, use the Konjunktiv II: \"Selbst wenn er wollte, könnte er nicht kommen\" (Even if he wanted to, he couldn't come). \"Selbst wenn ich das gewusst hätte, hätte ich nichts tun können.\"",
-          "English trap: even though = obwohl (fact), even if = auch wenn / selbst wenn. \"*Sogar wenn\" exists in speech but \"selbst wenn\" or \"auch wenn\" is the standard.",
+          "English trap: even though = obwohl (fact), even if = auch wenn / selbst wenn. \"Sogar wenn\" is also possible, but \"selbst wenn\" and \"auch wenn\" are far more common.",
         ],
         examples: [
           { es: "Auch wenn es regnet, gehen wir spazieren.", en: "Even if it rains, we'll go for a walk." },
@@ -76,10 +76,10 @@ export const DE_C1_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which word fits? ___ es morgen regnet, findet das Fest statt. (It might rain.)",
+            question: "Which word fits? \"___ es morgen regnet, findet das Fest statt.\" (It might rain.)",
             options: ["Auch wenn", "Obwohl", "Trotz", "Trotzdem"],
             correctIndex: 0,
-            explanation: "A possibility, not a fact: \"auch wenn\" (even if). \"Obwohl\" would assert that it is raining tomorrow; \"trotz\" needs a noun; \"trotzdem\" is an adverb.",
+            explanation: "A possibility, not a fact: \"auch wenn\" (even if). \"Obwohl\" would assert that it will rain tomorrow; \"trotz\" needs a noun; \"trotzdem\" is an adverb.",
           },
           {
             type: "listen-choose",
@@ -211,11 +211,11 @@ export const DE_C1_U02: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "Wenngleich etwas teuer, das Essen war ausgezeichnet.",
+        audio: "Das Essen war ausgezeichnet, wenngleich etwas teuer.",
         question: "What did you hear?",
-        options: ["Wenngleich etwas teuer, das Essen war ausgezeichnet.", "Wenn gleich etwas teuer ist, das Essen war ausgezeichnet.", "Weil etwas teuer, das Essen war ausgezeichnet.", "Wenngleich etwas teurer, das Essen war ausgezeichnet."],
+        options: ["Das Essen war ausgezeichnet, wenngleich etwas teuer.", "Das Essen war ausgezeichnet, wenngleich etwas teurer.", "Das Essen wäre ausgezeichnet, wenngleich etwas teuer.", "Das Essen war ausgezeichnet, wenn auch etwas teuer."],
         correctIndex: 0,
-        explanation: "\"Wenngleich etwas teuer\": a verbless concession in front; the main clause keeps its own order.",
+        explanation: "\"Wenngleich etwas teuer\": a verbless concession after the main clause. Listen for \"war\" (not \"wäre\"), \"wenngleich\" (not \"wenn auch\") and \"teuer\" (not \"teurer\").",
       },
       {
         type: "dictation",
@@ -242,7 +242,7 @@ export const DE_C1_U02: Lesson[] = [
         heading: "Wie ... auch (immer): however much",
         body: [
           "To say however much / however hard, German uses a question word + \"auch\" (often + \"immer\") and puts the verb at the end: \"Wie sehr er sich auch bemüht, er schafft es nicht\" (However hard he tries, he doesn't manage it). \"Wie viel du auch verdienst, es reicht nie.\"",
-          "The crucial word order point: the main clause does not invert. It keeps normal verb-second order with its own subject first: \"..., er schafft es nicht\", not \"*..., schafft er es nicht\". The concessive clause stands outside the sentence, like an aside.",
+          "The crucial word order point: the main clause does not invert. It keeps normal verb-second order with its own subject first: \"..., er schafft es nicht\". The inverted \"..., schafft er es nicht\" is heard but much less usual. The concessive clause stands outside the sentence, like an aside.",
           "\"Auch\" is required; \"immer\" is optional and adds emphasis: \"Wie lange es auch (immer) dauert, ich warte.\"",
         ],
         examples: [
@@ -267,7 +267,7 @@ export const DE_C1_U02: Lesson[] = [
             question: "Which is the standard word order?",
             options: ["Wie viel du auch verdienst, es reicht nie.", "Wie viel du auch verdienst, reicht es nie.", "Wie viel verdienst du auch, es reicht nie.", "Wie viel du verdienst auch, es reicht nie."],
             correctIndex: 0,
-            explanation: "Verb at the end of the concessive clause, and the main clause keeps its normal order: \"es reicht nie\".",
+            explanation: "Verb at the end of the concessive clause, and the main clause keeps its normal order: \"es reicht nie\". The inverted \"reicht es nie\" is much less usual; the last two options break the clause itself.",
           },
         ],
       },
@@ -319,7 +319,7 @@ export const DE_C1_U02: Lesson[] = [
         body: [
           "Whatever, whoever, wherever, whenever: \"was auch immer\", \"wer auch immer\", \"wo auch immer\", \"wann auch immer\". The question word starts the clause, the verb goes to the end: \"Was auch immer passiert, ich bin für dich da.\"",
           "\"Auch\" can also move into the clause: \"Was du auch sagst, ...\" or \"Was auch immer du sagst, ...\". Both are standard. The main clause again keeps its own order.",
-          "In casual speech you'll hear \"was immer\" without \"auch\", calqued on English whatever. In careful German keep \"auch\": \"*Was immer du willst\" is acceptable in speech and advertising, but \"was auch immer\" is the safe form. Note also \"Wie auch immer\" (Anyway, whatever) as a standalone discourse marker.",
+          "You will also meet \"was immer\" without \"auch\" (\"Was immer du willst\"); it is correct, but \"was auch immer\" is the most common form and always safe. Note also \"Wie auch immer\" (Anyway, whatever) as a standalone discourse marker.",
         ],
         examples: [
           { es: "Was auch immer passiert, ich bin für dich da.", en: "Whatever happens, I'm there for you." },
@@ -458,7 +458,7 @@ export const DE_C1_U02: Lesson[] = [
     slug: "c1-contrast-egal-ob-auch-wenn",
     level: "DE-C1",
     number: 3,
-    title: "Contrast Clinic: Egal Ob, Auch Wenn, Wie Auch Immer, Trotzdem",
+    title: "Contrast Clinic: Egal ob, Auch wenn, Wie auch immer, Trotzdem",
     summary: "Four look-alike ideas sorted: it doesn't matter (egal ob / ganz gleich, was), even if (auch wenn), however much (wie ... auch) and nevertheless (trotzdem), each with its word order.",
     duration: "16 min",
     sections: [
@@ -508,7 +508,7 @@ export const DE_C1_U02: Lesson[] = [
           { es: "Auch wenn es teuer ist, kaufe ich es.", en: "Even if it's expensive, I'll buy it." },
           { es: "Wie teuer es auch ist, ich kaufe es.", en: "However expensive it is, I'll buy it." },
           { es: "Auch wenn du recht hast, musst du nicht so laut werden.", en: "Even if you're right, you don't have to raise your voice." },
-          { es: "Wie recht du auch hast, du musst nicht so laut werden.", en: "However right you are, you don't have to raise your voice." },
+          { es: "Wie wütend du auch bist, du musst nicht so laut werden.", en: "However angry you are, you don't have to raise your voice." },
           { es: "Auch wenn wir verlieren, haben wir viel gelernt.", en: "Even if we lose, we'll have learned a lot." },
         ],
         checkpoint: [
@@ -609,7 +609,7 @@ export const DE_C1_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Choose the right word: Das Wetter war schlecht. ___ hatten wir viel Spaß.",
+        question: "Choose the right word: \"Das Wetter war schlecht. ___ hatten wir viel Spaß.\"",
         options: ["Trotzdem", "Obwohl", "Auch wenn", "Egal"],
         correctIndex: 0,
         explanation: "A complete sentence before and inversion after: the adverb \"trotzdem\".",
@@ -654,7 +654,7 @@ export const DE_C1_U02: Lesson[] = [
         type: "listen-choose",
         audio: "Trotzdem gehen wir spazieren.",
         question: "What did you hear?",
-        options: ["Trotzdem gehen wir spazieren.", "Trotz dem gehen wir spazieren.", "Trotzdem wir gehen spazieren.", "Trotzdem gingen wir spazieren."],
+        options: ["Trotzdem gehen wir spazieren.", "Trotzdem gehen wir nicht spazieren.", "Trotzdem wir gehen spazieren.", "Trotzdem gingen wir spazieren."],
         correctIndex: 0,
         explanation: "Adverb \"trotzdem\" in position 1 + verb second: \"gehen wir\".",
       },
@@ -817,10 +817,10 @@ export const DE_C1_U02: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The flat is nice. [It's] noisy[, though].",
-        sentence: "Die Wohnung ist schön. ___ laut.",
-        answer: "Sie ist allerdings",
-        altAnswers: ["Sie ist aber", "Allerdings ist sie", "Sie ist jedoch"],
+        en: "The flat is nice. [It's noisy, though].",
+        sentence: "Die Wohnung ist schön. ___.",
+        answer: "Sie ist allerdings laut",
+        altAnswers: ["Sie ist aber laut", "Allerdings ist sie laut", "Sie ist jedoch laut"],
         explanation: "\"Allerdings\" in the middle field for though; \"die Wohnung\" → \"sie\".",
       },
       {
@@ -846,7 +846,7 @@ export const DE_C1_U02: Lesson[] = [
         source: "It was cold, but we swam anyway.",
         answer: "Es war kalt, aber wir sind trotzdem geschwommen.",
         altAnswers: ["Es war kalt, trotzdem sind wir geschwommen.", "Es war kalt, aber wir haben trotzdem gebadet.", "Es war kalt, trotzdem haben wir gebadet.", "Es war kalt, aber wir haben trotzdem geschwommen.", "Es war kalt, aber wir schwammen trotzdem."],
-        explanation: "\"Trotzdem\" as an adverb in the middle field; \"schwimmen\" takes sein in the north (haben is also used).",
+        explanation: "\"Trotzdem\" as an adverb in the middle field. \"Schwimmen\" takes sein in the standard language; \"haben\" is also common in the north when the activity is meant.",
       },
       {
         type: "word-order",
@@ -931,7 +931,7 @@ export const DE_C1_U02: Lesson[] = [
         heading: "Mag sein, dass ...; das mag stimmen, nur ...",
         body: [
           "The modal verb \"mögen\" in its old sense of may (possibility) is used to concede: \"Das mag sein, aber ...\" (That may be, but ...), \"Mag sein, dass er recht hat, aber ...\" (He may be right, but ...), \"Das mag stimmen, nur ...\" (That may be true, only ...).",
-          "\"Nur\" here means but, the problem is: \"Die Wohnung ist schön, nur ist sie zu teuer.\" After \"nur\" the clause can invert (\"nur ist sie\") or keep normal order (\"nur sie ist ...\" is less usual); inversion is standard.",
+          "\"Nur\" here means but, the problem is: \"Die Wohnung ist schön, nur ist sie zu teuer.\" After \"nur\" the clause normally inverts (\"nur ist sie zu teuer\"); in speech you also hear \"nur, sie ist zu teuer\" with a pause after \"nur\".",
           "\"Wohl ... aber\" and \"natürlich / sicher / gewiss ..., doch ...\" work like \"zwar ... aber\": \"Das ist sicher richtig, doch wir müssen auch an die Kosten denken.\"",
         ],
         examples: [
@@ -954,10 +954,11 @@ export const DE_C1_U02: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "That may be true; [it just doesn't help] us now.",
-            sentence: "Das mag stimmen, ___ uns das jetzt nicht.",
-            answer: "nur hilft",
-            explanation: "\"Nur\" = but, the only problem is; it's followed by the verb.",
+            en: "That may be true; [it just doesn't help us now].",
+            sentence: "Das mag stimmen, ___.",
+            answer: "nur hilft uns das jetzt nicht",
+            altAnswers: ["nur hilft das uns jetzt nicht", "nur hilft es uns jetzt nicht", "aber das hilft uns jetzt nicht"],
+            explanation: "\"Nur\" = but, the only problem is; the verb \"hilft\" follows it straight away.",
           },
           {
             type: "listen-choose",
@@ -1042,7 +1043,7 @@ export const DE_C1_U02: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The idea is good, [but] implementing it [is] difficult.",
+        en: "The idea is good, [but] implementing it is difficult.",
         sentence: "Die Idee ist zwar gut, die Umsetzung ___ schwierig.",
         answer: "jedoch",
         altAnswers: ["aber"],
@@ -1123,7 +1124,7 @@ export const DE_C1_U02: Lesson[] = [
         body: [
           "English unless has two main German equivalents. \"Es sei denn\" (a frozen Konjunktiv I, from Unit 1) is followed by a comma and a normal main clause with the verb second: \"Wir fahren morgen, es sei denn, es regnet.\" It can also take \"dass\": \"..., es sei denn, dass es regnet.\"",
           "\"Außer wenn\" (or colloquially just \"außer\") + verb-final clause: \"Wir fahren morgen, außer wenn es regnet.\" \"Außer\" alone takes a main clause: \"..., außer es regnet.\"",
-          "Trap 1: unless is not always \"wenn ... nicht\". \"Wenn es nicht regnet, fahren wir\" (if it doesn't rain) is fine, but \"es sei denn\" adds the idea of an exception to a firm plan. Trap 2: \"es sei denn\" never takes a negation: \"*es sei denn, es regnet nicht\" means the opposite.",
+          "Trap 1: unless is not always \"wenn ... nicht\". \"Wenn es nicht regnet, fahren wir\" (if it doesn't rain) is fine, but \"es sei denn\" adds the idea of an exception to a firm plan. Trap 2: don't add a negation after \"es sei denn\": \"es sei denn, es regnet nicht\" means the opposite (unless it doesn't rain).",
           "\"Es sei denn\" always comes after the main clause; it can't open the sentence.",
         ],
         examples: [
@@ -1290,7 +1291,7 @@ export const DE_C1_U02: Lesson[] = [
         prompt: "Translate into German.",
         source: "As far as I remember, that was in May.",
         answer: "Soweit ich mich erinnere, war das im Mai.",
-        altAnswers: ["Soviel ich mich erinnere, war das im Mai.", "Soweit ich mich erinnern kann, war das im Mai.", "Wenn ich mich richtig erinnere, war das im Mai."],
+        altAnswers: ["Soweit ich mich erinnern kann, war das im Mai.", "Wenn ich mich richtig erinnere, war das im Mai."],
         explanation: "\"Soweit\" limits the claim; the main clause starts with its verb.",
       },
       {
@@ -1457,7 +1458,7 @@ export const DE_C1_U02: Lesson[] = [
         body: [
           "Version five, two main clauses linked by \"zwar ... aber\": \"Das Wetter war zwar schlecht, aber wir sind wandern gegangen.\" This sounds balanced and argumentative: you admit, then counter.",
           "Version six, the adverb \"trotzdem\": \"Das Wetter war schlecht. Trotzdem sind wir wandern gegangen\" or \"..., aber wir sind trotzdem wandern gegangen.\" Here the focus is on the defiance: we did it anyway.",
-          "All six versions share the meaning but differ in focus and register. In an essay, vary them; that's exactly what the Goethe C1 writing paper rewards.",
+          "All six versions share the meaning but differ in focus and register. In an essay, vary them: a varied range of structures is what the Goethe C1 writing paper rewards.",
         ],
         examples: [
           { es: "Das Wetter war zwar schlecht, aber wir sind wandern gegangen.", en: "The weather was bad, admittedly, but we went hiking." },
@@ -1598,15 +1599,15 @@ export const DE_C1_U02: Lesson[] = [
     slug: "c1-dialogue-lab-einraeumen-ueberzeugen",
     level: "DE-C1",
     number: 8,
-    title: "Dialogue Lab: Einräumen, um zu Überzeugen",
+    title: "Dialogue Lab: Einräumen, um zu überzeugen",
     summary: "A residents' meeting about a new cycle lane: concede to persuade with Da haben Sie sicher recht, aber ..., Zugegeben, ..., Das ändert nichts daran, dass ...",
     duration: "18 min",
     sections: [
       {
         heading: "The meeting opens",
         body: [
-          "A residents' meeting (Bürgerversammlung) in Leipzig. The city plans a cycle lane on the Karl-Liebknecht-Straße, which would remove 40 parking spaces. Frau Krüger, a shop owner, is against it. Herr Aydın from the cycling initiative is for it.",
-          "Frau Krüger: „Ich verstehe ja, dass Radfahren gut für die Umwelt ist. Aber wenn die Parkplätze wegfallen, kommen meine Kunden nicht mehr.“ Herr Aydın: „Da haben Sie sicher recht, dass viele Kunden mit dem Auto kommen. Aber Studien zeigen, dass Radfahrer öfter einkaufen.“",
+          "A residents' meeting (\"Bürgerversammlung\") in Leipzig. The city plans a cycle lane on the Karl-Liebknecht-Straße, which would remove 40 parking spaces. Frau Krüger, a shop owner, is against it. Herr Aydın from the cycling initiative is for it.",
+          "Frau Krüger: \"Ich verstehe ja, dass Radfahren gut für die Umwelt ist. Aber wenn die Parkplätze wegfallen, kommen meine Kunden nicht mehr.\" Herr Aydın: \"Da haben Sie sicher recht, dass viele Kunden mit dem Auto kommen. Aber Studien zeigen, dass Radfahrer öfter einkaufen.\"",
           "Persuasion by concession: first grant the other side a point (\"Da haben Sie sicher recht\", \"Ich verstehe ja, dass ...\"), then make yours. It makes you sound fair and makes your counterargument harder to reject. The particle \"ja\" in \"Ich verstehe ja\" signals shared knowledge.",
         ],
         examples: [
@@ -1639,7 +1640,7 @@ export const DE_C1_U02: Lesson[] = [
       {
         heading: "Zugegeben and ich gebe zu",
         body: [
-          "The debate continues. Herr Aydın: „Zugegeben, in der Bauphase wird es Einschränkungen geben. Ich gebe auch zu, dass nicht alle Kunden umsteigen werden. Trotz allem bin ich der Meinung, dass die Straße dadurch attraktiver wird.“",
+          "The debate continues. Herr Aydın: \"Zugegeben, in der Bauphase wird es Einschränkungen geben. Ich gebe auch zu, dass nicht alle Kunden umsteigen werden. Trotz allem bin ich der Meinung, dass die Straße dadurch attraktiver wird.\"",
           "\"Zugegeben, ...\" (Admittedly) stands at the start, followed by a comma and a normal main clause. \"Ich gebe zu, dass ...\" (I admit that ...) is the full-clause version. \"Ich räume ein, dass ...\" (I concede that ...) is more formal; \"einräumen\" gives the lesson its title.",
           "\"Trotz allem bin ich der Meinung, dass ...\" (Despite everything, I believe that ...) brings the argument back to your position after the concessions.",
         ],
@@ -1673,16 +1674,16 @@ export const DE_C1_U02: Lesson[] = [
             type: "speak",
             text: "Trotz allem bin ich der Meinung, dass die Straße attraktiver wird.",
             prompt: "Say it in German: Despite everything, I believe the street will become more attractive.",
-            explanation: "\"Trotz allem\" + inversion; \"der Meinung sein\" with genitive-like fixed form.",
+            explanation: "\"Trotz allem\" + inversion; \"der Meinung sein\" (to be of the opinion) is a fixed phrase with the genitive.",
           },
         ],
       },
       {
         heading: "Das mag sein, nur ... / Das ändert nichts daran, dass ...",
         body: [
-          "Frau Krüger isn't convinced: „Das mag sein, nur kann ich mir drei Monate Umsatzeinbußen nicht leisten. Das ändert nichts daran, dass kleine Läden die Verlierer sind.“",
+          "Frau Krüger isn't convinced: \"Das mag sein, nur kann ich mir drei Monate Umsatzeinbußen nicht leisten. Das ändert nichts daran, dass kleine Läden die Verlierer sind.\"",
           "\"Das mag sein, nur ...\" grants the point but limits its relevance. \"Das ändert nichts daran, dass ...\" (That doesn't change the fact that ...) is the strongest move: it concedes everything and then insists. Note \"daran\" because \"ändern\" takes \"an\": \"etwas an etwas ändern\".",
-          "The moderator closes with a compromise: „Wäre es nicht denkbar, einen Teil der Parkplätze als Lieferzone zu erhalten?“ The Konjunktiv from Unit 1 makes the proposal acceptable to both sides.",
+          "The moderator closes with a compromise: \"Wäre es nicht denkbar, einen Teil der Parkplätze als Lieferzone zu erhalten?\" The Konjunktiv from Unit 1 makes the proposal acceptable to both sides.",
         ],
         examples: [
           { es: "Das mag sein, nur kann ich mir drei Monate Umsatzeinbußen nicht leisten.", en: "That may be, but I can't afford three months of lost sales." },
@@ -1749,8 +1750,8 @@ export const DE_C1_U02: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "That may be, [but I can't afford] three months of lost sales.",
-        sentence: "Das mag sein, ___ mir drei Monate Umsatzeinbußen nicht leisten.",
+        en: "That may be, [but I can] hardly afford three months of lost sales.",
+        sentence: "Das mag sein, ___ mir drei Monate Umsatzeinbußen kaum leisten.",
         answer: "nur kann ich",
         altAnswers: ["aber ich kann"],
         explanation: "\"Nur\" + verb + subject; \"sich etwas leisten können\" with dative \"mir\".",
@@ -1852,7 +1853,7 @@ export const DE_C1_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your friend didn't come and didn't call. You say: He could at least have called! Which word fits best? Er hätte ___ anrufen können!",
+            question: "Your friend didn't come and didn't call. You want to say: He could at least have called! Which word fits best? \"Er hätte ___ anrufen können!\"",
             options: ["wenigstens", "immerhin", "höchstens", "allenfalls"],
             correctIndex: 0,
             explanation: "A minimum you expected: \"wenigstens\" (or \"zumindest\"). \"Immerhin\" would praise something he actually did.",
@@ -1913,14 +1914,14 @@ export const DE_C1_U02: Lesson[] = [
         body: [
           "To weigh two sides against each other (Upper-intermediate recap), German uses adversative conjunctions with the verb at the end: \"während\" (whereas, while), \"wohingegen\" (whereas; formal). \"Mia liebt die Stadt, während ihr Bruder lieber auf dem Land lebt.\"",
           "\"(An)statt dass\" (instead of + a different subject) contrasts what happens with what should happen: \"Anstatt dass die Stadt Radwege baut, werden die Straßen verbreitert.\" With the same subject, use \"(an)statt ... zu\": \"Anstatt zu helfen, hat er nur kritisiert.\"",
-          "A balanced argument often combines a concession, a contrast and a limitation: \"Zwar ist die Wohnung teurer, während die alte günstiger war, aber immerhin sparen wir die Fahrtkosten.\"",
+          "A balanced argument often combines a concession, a contrast and a limitation: \"Zwar ist die neue Wohnung teurer, aber immerhin sparen wir die Fahrtkosten, während wir früher jeden Tag pendeln mussten.\"",
         ],
         examples: [
           { es: "Mia liebt die Stadt, während ihr Bruder lieber auf dem Land lebt.", en: "Mia loves the city, whereas her brother prefers living in the country." },
           { es: "Die Mieten steigen, wohingegen die Löhne stagnieren.", en: "Rents are rising, whereas wages are stagnating." },
           { es: "Anstatt dass die Stadt Radwege baut, werden die Straßen verbreitert.", en: "Instead of the city building cycle lanes, the roads are being widened." },
           { es: "Anstatt zu helfen, hat er nur kritisiert.", en: "Instead of helping, he just criticised." },
-          { es: "Statt dass wir uns streiten, sollten wir eine Lösung suchen.", en: "Instead of arguing, we should look for a solution." },
+          { es: "Statt dass die Stadt hilft, müssen die Vereine alles selbst bezahlen.", en: "Instead of the city helping, the clubs have to pay for everything themselves." },
         ],
         checkpoint: [
           {
@@ -1983,7 +1984,7 @@ export const DE_C1_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence uses immerhin correctly?",
+        question: "Which sentence uses \"immerhin\" correctly?",
         options: ["Der Urlaub war verregnet, aber immerhin war das Essen gut.", "Ruf mich immerhin an!", "Das kostet immerhin zehn Euro, nicht mehr.", "Er hätte immerhin anrufen sollen."],
         correctIndex: 0,
         explanation: "\"Immerhin\" finds a positive side. For a demand or reproach (options 2 and 4) use \"wenigstens\"; for an upper limit (option 3) \"höchstens\".",
@@ -2294,7 +2295,7 @@ export const DE_C1_U02: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which word fits? ___ es regnet, gehen wir trotzdem raus.",
+            question: "Which word fits? \"___ es regnet, gehen wir trotzdem raus.\"",
             options: ["Auch wenn", "Wenn", "Falls", "Sofern"],
             correctIndex: 0,
             explanation: "\"Trotzdem\" shows it's a concession: \"auch wenn\". The others are conditions.",
@@ -2306,7 +2307,7 @@ export const DE_C1_U02: Lesson[] = [
         body: [
           "Mixing restriction with condition: \"Wir grillen am Samstag, es sei denn, es regnet\" = \"Wir grillen am Samstag, sofern es nicht regnet\" = \"Wenn es nicht regnet, grillen wir am Samstag.\" Three ways to the same plan, with different emphasis.",
           "Generalising concessions add strength: \"Wie das Wetter auch wird, wir grillen\" (Whatever the weather, we're having a barbecue). \"Egal, ob es regnet\" is the everyday version.",
-          "In family negotiations: „Du darfst auf die Party, vorausgesetzt, du bist um zwölf zu Hause.“ – „Und wenn der Bus Verspätung hat?“ – „Dann rufst du an. Wie spät es auch wird, ruf an!“",
+          "In family negotiations: \"Du darfst auf die Party, vorausgesetzt, du bist um zwölf zu Hause.\" – \"Und wenn der Bus Verspätung hat?\" – \"Dann rufst du an. Wie spät es auch wird, ruf an!\"",
         ],
         examples: [
           { es: "Wir grillen am Samstag, es sei denn, es regnet.", en: "We'll barbecue on Saturday unless it rains." },
@@ -2322,7 +2323,7 @@ export const DE_C1_U02: Lesson[] = [
             prompt: "Translate into German.",
             source: "You can go to the party, provided you're home by twelve.",
             answer: "Du darfst auf die Party, vorausgesetzt, du bist um zwölf zu Hause.",
-            altAnswers: ["Du darfst auf die Party gehen, vorausgesetzt, du bist um zwölf zu Hause.", "Du darfst auf die Party, vorausgesetzt, dass du um zwölf zu Hause bist.", "Du darfst zur Party, vorausgesetzt, du bist um zwölf zu Hause.", "Du darfst auf die Party, sofern du um zwölf zu Hause bist.", "Du darfst auf die Party, wenn du um zwölf zu Hause bist."],
+            altAnswers: ["Du darfst auf die Party gehen, vorausgesetzt, du bist um zwölf zu Hause.", "Du darfst auf die Party, vorausgesetzt, dass du um zwölf zu Hause bist.", "Du darfst zur Party, vorausgesetzt, du bist um zwölf zu Hause.", "Du darfst auf die Party, sofern du um zwölf zu Hause bist.", "Du darfst auf die Party, wenn du um zwölf zu Hause bist.", "Du darfst auf die Party, vorausgesetzt, du bist um zwölf zuhause."],
             explanation: "\"Vorausgesetzt\" + main clause (or \"dass\" + verb at the end). \"Dürfen\" without a main verb: go is understood.",
           },
           {
@@ -2345,7 +2346,7 @@ export const DE_C1_U02: Lesson[] = [
       {
         heading: "Everyday arguments",
         body: [
-          "A discussion between flatmates Leon and Ayşe about getting a dog: „Ein Hund wäre schön, auch wenn er viel Arbeit macht.“ – „Selbst wenn wir uns die Arbeit teilen, wer geht morgens mit ihm raus?“ – „Ich, es sei denn, ich habe Frühschicht. Immerhin arbeite ich meistens nachmittags.“ – „Na gut, sofern der Vermieter einverstanden ist.“",
+          "A discussion between flatmates Leon and Ayşe about getting a dog: \"Ein Hund wäre schön, auch wenn er viel Arbeit macht.\" – \"Selbst wenn wir uns die Arbeit teilen, wer geht morgens mit ihm raus?\" – \"Ich, es sei denn, ich habe Frühschicht. Immerhin arbeite ich meistens nachmittags.\" – \"Na gut, sofern der Vermieter einverstanden ist.\"",
           "Notice how the conversation moves from wish (\"wäre schön\") through concession (\"auch wenn\", \"selbst wenn\"), restriction (\"es sei denn\") and a positive limitation (\"immerhin\") to a condition (\"sofern\").",
         ],
         examples: [
@@ -2425,7 +2426,7 @@ export const DE_C1_U02: Lesson[] = [
         question: "Which sentence means the opposite of the others?",
         options: ["Wir kommen, es sei denn, es regnet nicht.", "Wir kommen, es sei denn, es regnet.", "Wir kommen, sofern es nicht regnet.", "Wir kommen, wenn es nicht regnet."],
         correctIndex: 0,
-        explanation: "\"Es sei denn\" never takes a negation in this meaning; with \"nicht\" it says we come only if it rains.",
+        explanation: "With \"nicht\" after \"es sei denn\" the meaning flips: we come only if it rains. The other three all mean we come if it stays dry.",
       },
       {
         type: "translate",

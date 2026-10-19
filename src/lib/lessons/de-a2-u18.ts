@@ -43,7 +43,7 @@ export const DE_A2_U18: Lesson[] = [
             source: "Do you have it in size L? (about a jacket)",
             answer: "Haben Sie die in Größe L?",
             altAnswers: ["Haben Sie sie in Größe L?", "Haben Sie die Jacke in Größe L?", "Haben Sie die auch in Größe L?", "Haben Sie die Jacke auch in Größe L?"],
-            explanation: "\"Die Jacke\" is feminine, so the pronoun is \"die\" (or \"sie\"), not *es*. Size is \"die Größe\" with ö and ß.",
+            explanation: "\"Die Jacke\" is feminine, so the pronoun is \"die\" (or \"sie\"), not \"*es*\". Size is \"die Größe\" with ö and ß.",
           },
         ],
       },
@@ -84,7 +84,7 @@ export const DE_A2_U18: Lesson[] = [
             question: "You want to tell the assistant the trousers are too small around your waist. What do you say?",
             options: ["Die Hose ist zu eng.", "Die Hose steht mir zu eng.", "Die Hose passt mich nicht.", "Die Hosen ist zu klein für mich."],
             correctIndex: 0,
-            explanation: "\"Eng\" is tight. \"Die Hose\" is singular in German, and \"passen\" takes the dative \"mir\", never *mich*.",
+            explanation: "\"Eng\" is tight. \"Die Hose\" is singular in German, and \"passen\" takes the dative \"mir\", never \"*mich*\".",
           },
         ],
       },
@@ -219,8 +219,8 @@ export const DE_A2_U18: Lesson[] = [
       {
         heading: "Apotheke or Drogerie?",
         body: [
-          "In Germany, even mild painkillers and cold remedies are sold almost only in \"die Apotheke\" (the pharmacy, with a red A sign), where a trained pharmacist advises you. \"Die Drogerie\" (dm, Rossmann) sells toiletries, cosmetics, cleaning products and vitamins, but not real medicine. Don't let the name fool you: \"die Drogerie\" has nothing to do with drugs.",
-          "Medicine is \"das Medikament\" or \"das Mittel\"; \"die Droge\" means an illegal drug, so never ask a pharmacist for *Drogen*. \"Die Tablette\" is a tablet or pill, \"der Hustensaft\" cough syrup, \"die Salbe\" ointment.",
+          "In Germany, even mild painkillers and cold remedies are sold almost only in \"die Apotheke\" (the pharmacy, with a red A sign), where a trained pharmacist advises you. \"Die Drogerie\" (dm, Rossmann) sells toiletries, cosmetics, cleaning products and vitamins, but not real medicine. Don't let the name fool you: \"die Drogerie\" has nothing to do with illegal drugs.",
+          "Medicine is \"das Medikament\" or \"das Mittel\"; \"die Droge\" means an illegal drug, so never ask a pharmacist for \"*Drogen*\". \"Die Tablette\" is a tablet or pill, \"der Hustensaft\" cough syrup, \"die Salbe\" ointment.",
           "On Sundays and at night, one pharmacy in each area has \"Notdienst\" (emergency service); every pharmacy door shows where it is.",
         ],
         examples: [
@@ -360,7 +360,7 @@ export const DE_A2_U18: Lesson[] = [
         source: "I need some medicine for stomach ache.",
         answer: "Ich brauche ein Medikament gegen Bauchschmerzen.",
         altAnswers: ["Ich brauche etwas gegen Bauchschmerzen.", "Ich brauche ein Mittel gegen Bauchschmerzen.", "Ich brauche was gegen Bauchschmerzen."],
-        explanation: "\"Das Medikament\" (never *Droge*), and \"gegen\" for what it treats.",
+        explanation: "\"Das Medikament\" (never \"*Droge*\"), and \"gegen\" for what it treats.",
       },
       {
         type: "fill-blank",
@@ -381,7 +381,7 @@ export const DE_A2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does Das gibt es nur auf Rezept mean?",
+        question: "What does \"Das gibt es nur auf Rezept\" mean?",
         options: ["That's only available on prescription.", "There's only one recipe for that.", "That's only for adults.", "That's sold out."],
         correctIndex: 0,
         explanation: "\"Auf Rezept\" = on prescription. \"Das Rezept\" also means a recipe, but not in a pharmacy.",
@@ -393,7 +393,7 @@ export const DE_A2_U18: Lesson[] = [
         source: "I feel sick.",
         answer: "Mir ist schlecht.",
         altAnswers: ["Mir ist übel."],
-        explanation: "Dative \"mir\" + \"ist schlecht\": literally to me it is bad. *Ich bin schlecht* would mean I'm bad.",
+        explanation: "Dative \"mir\" + \"ist schlecht\": literally to me it is bad. \"*Ich bin schlecht*\" would mean I'm bad.",
       },
       {
         type: "word-order",
@@ -469,7 +469,7 @@ export const DE_A2_U18: Lesson[] = [
         heading: "What hurts: mir tut ... weh",
         body: [
           "The most natural way to say something hurts is \"wehtun\" with the dative: \"Mir tut der Bauch weh\" (my stomach hurts, literally to me does the stomach hurt). The body part is the subject, so with a plural part the verb is plural: \"Mir tun die Füße weh.\"",
-          "Notice: German uses the article, not my: \"Mir tut der Kopf weh\", not *mein Kopf*, because \"mir\" already tells you whose head it is. The doctor asks \"Was fehlt Ihnen? Erzählen Sie mal.\" (What's the matter? Tell me.) or \"Wo tut es weh?\"",
+          "Notice: German uses the article, not my: \"Mir tut der Kopf weh\", not \"*mein Kopf*\", because \"mir\" already tells you whose head it is. The doctor asks \"Was fehlt Ihnen? Erzählen Sie mal.\" (What's the matter? Tell me.) or \"Wo tut es weh?\"",
           "For how long, use \"seit\" + present: \"Seit drei Tagen habe ich Fieber.\" To feel: \"Mir ist schlecht\" (I feel sick), \"Mir ist schwindlig\" (I feel dizzy).",
         ],
         examples: [
@@ -493,7 +493,7 @@ export const DE_A2_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[My eyes hurt].",
+            en: "My eyes [hurt].",
             sentence: "Mir ___ die Augen weh.",
             answer: "tun",
             explanation: "\"Die Augen\" is plural and it's the subject, so the verb is plural: \"tun\".",
@@ -513,7 +513,7 @@ export const DE_A2_U18: Lesson[] = [
         heading: "The doctor's orders and the sick note",
         body: [
           "The doctor speaks in Sie-imperatives: \"Machen Sie den Mund auf\" (open your mouth), \"Atmen Sie tief ein\" (breathe in deeply), \"Bleiben Sie zwei Tage im Bett\", \"Trinken Sie viel\". Separable prefixes go to the end, reflexive verbs keep \"sich\": \"Ruhen Sie sich aus.\"",
-          "If you're too ill to work, you need \"eine Krankschreibung\" (sick note, officially \"die Arbeitsunfähigkeitsbescheinigung\", often \"der gelbe Schein\" after its old colour). Ask: \"Können Sie mich krankschreiben?\" Your employer usually needs it from the fourth day, sometimes from the first.",
+          "If you're too ill to work, you need \"eine Krankschreibung\" (sick note, officially \"die Arbeitsunfähigkeitsbescheinigung\", often \"der gelbe Schein\" after its old colour). Ask: \"Können Sie mich krankschreiben?\" Your employer usually needs it from the fourth day, sometimes from the first (today the practice normally sends it to your health insurer electronically).",
           "Leaving: \"Gute Besserung!\" (Get well soon!) is what everyone will say to you.",
         ],
         examples: [
@@ -568,7 +568,7 @@ export const DE_A2_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "My knees hurt.",
         answer: "Mir tun die Knie weh.",
-        altAnswers: ["Die Knie tun mir weh."],
+        altAnswers: ["Die Knie tun mir weh.", "Ich habe Knieschmerzen."],
         explanation: "\"Die Knie\" is plural (same form as the singular \"das Knie\"), so \"tun\".",
       },
       {
@@ -581,7 +581,7 @@ export const DE_A2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The doctor asks: Was fehlt Ihnen? What does she want to know?",
+        question: "The doctor asks: \"Was fehlt Ihnen?\" What does she want to know?",
         options: ["What's wrong with you.", "What you're missing from home.", "What you need to buy.", "What medicine you take."],
         correctIndex: 0,
         explanation: "Doctors use \"fehlen\" (to be missing) in this set phrase: literally what is missing to you, meaning what's the matter.",
@@ -886,7 +886,7 @@ export const DE_A2_U18: Lesson[] = [
         body: [
           "Three separable verbs do all the work: \"einsteigen\" (get on), \"aussteigen\" (get off) and \"umsteigen\" (change). The prefix goes to the end in a main clause: \"Ich steige in Hannover um.\" With a modal the verb stays whole at the end: \"Ich muss in Hannover umsteigen.\" In the Perfekt they take \"sein\" and put -ge- in the middle: \"Ich bin in Hannover umgestiegen.\"",
           "The platform is \"das Gleis\": \"Der Zug fährt von Gleis 7 ab.\" \"Abfahren\" (depart) and \"ankommen\" (arrive) are separable too: \"Wann kommt der Zug in München an?\"",
-          "The DB announcement always says \"Bitte einsteigen und Vorsicht bei der Abfahrt\": get on, please, and mind the departing train.",
+          "DB announcements often say \"Bitte einsteigen und Vorsicht bei der Abfahrt\": get on, please, and mind the departing train.",
         ],
         examples: [
           { es: "Ich muss in Hannover umsteigen.", en: "I have to change in Hanover." },
@@ -1012,7 +1012,7 @@ export const DE_A2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You hear: Wegen Bauarbeiten gibt es Ersatzverkehr mit Bussen. What should you do?",
+        question: "You hear: \"Wegen Bauarbeiten gibt es Ersatzverkehr mit Bussen.\" What should you do?",
         options: ["Take a replacement bus.", "Wait for the next train.", "Go to another platform.", "Buy a new ticket."],
         correctIndex: 0,
         explanation: "\"Ersatzverkehr mit Bussen\" = replacement buses because of engineering works (\"Bauarbeiten\").",
@@ -1134,7 +1134,7 @@ export const DE_A2_U18: Lesson[] = [
         heading: "Asking politely: Können Sie mir sagen, ...?",
         body: [
           "A direct question to an official can sound blunt. Wrap it in \"Können Sie mir sagen, ...?\" or \"Wissen Sie, ...?\" and the question becomes an indirect question with the verb at the end, as in Unit 14: \"Welche Unterlagen brauche ich?\" becomes \"Können Sie mir sagen, welche Unterlagen ich brauche?\"",
-          "Yes/no questions use \"ob\": \"Brauche ich einen Termin?\" becomes \"Wissen Sie, ob ich einen Termin brauche?\" The trap is to keep question order: *Können Sie mir sagen, wo ist das Bürgeramt?*",
+          "Yes/no questions use \"ob\": \"Brauche ich einen Termin?\" becomes \"Wissen Sie, ob ich einen Termin brauche?\" The trap is to keep question order: \"*Können Sie mir sagen, wo ist das Bürgeramt?*\"",
           "\"Die Unterlagen\" (plural) are documents or paperwork, a very common word in offices.",
         ],
         examples: [
@@ -1177,7 +1177,7 @@ export const DE_A2_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "I have to register within two weeks.",
         answer: "Ich muss mich innerhalb von zwei Wochen anmelden.",
-        altAnswers: ["Ich muss mich in zwei Wochen anmelden.", "Ich muss mich innerhalb von vierzehn Tagen anmelden."],
+        altAnswers: ["Ich muss mich in den nächsten zwei Wochen anmelden.", "Ich muss mich innerhalb von vierzehn Tagen anmelden."],
         explanation: "\"Sich anmelden\" is reflexive and separable; after the modal it stays together at the end. \"Innerhalb von\" = within.",
       },
       {
@@ -1414,12 +1414,12 @@ export const DE_A2_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "Unfortunately I wasn't at home.",
         answer: "Leider war ich nicht zu Hause.",
-        altAnswers: ["Ich war leider nicht zu Hause.", "Leider war ich nicht daheim.", "Ich war leider nicht daheim."],
+        altAnswers: ["Ich war leider nicht zu Hause.", "Leider war ich nicht daheim.", "Ich war leider nicht daheim.", "Leider war ich nicht zuhause."],
         explanation: "\"War\" for the past of sein; \"zu Hause\" = at home (\"nach Hause\" is for going home).",
       },
       {
         type: "multiple-choice",
-        question: "The card in your letterbox says: Ihr Paket liegt in der Filiale. Where is your parcel?",
+        question: "The card in your letterbox says: \"Ihr Paket liegt in der Filiale.\" Where is your parcel?",
         options: ["At the post office branch.", "With your neighbour.", "At the Packstation.", "On its way back to the sender."],
         correctIndex: 0,
         explanation: "\"Die Filiale\" is a branch, here of the post office.",
@@ -1489,8 +1489,7 @@ export const DE_A2_U18: Lesson[] = [
             prompt: "Translate into German.",
             source: "Are you free tomorrow? (to a friend)",
             answer: "Hast du morgen Zeit?",
-            altAnswers: ["Habt ihr morgen Zeit?", "Haben Sie morgen Zeit?"],
-            explanation: "German asks do you have time: \"Hast du Zeit?\" rather than *Bist du frei?*",
+            explanation: "German asks do you have time: \"Hast du Zeit?\" rather than \"*Bist du frei?*\"",
           },
           {
             type: "fill-blank",
@@ -1583,7 +1582,7 @@ export const DE_A2_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "Do you fancy going to the cinema? (to a friend)",
         answer: "Hast du Lust, ins Kino zu gehen?",
-        altAnswers: ["Hast du Lust, ins Kino zu gehen", "Hast du Lust auf Kino?", "Habt ihr Lust, ins Kino zu gehen?", "Hättest du Lust, ins Kino zu gehen?"],
+        altAnswers: ["Hast du Lust, ins Kino zu gehen", "Hast du Lust auf Kino?", "Hättest du Lust, ins Kino zu gehen?"],
         explanation: "\"Lust haben\" + comma + \"zu\" + infinitive at the end: \"ins Kino zu gehen\".",
       },
       {
@@ -1709,7 +1708,7 @@ export const DE_A2_U18: Lesson[] = [
       {
         heading: "Where from, how long, what job",
         body: [
-          "\"Woher kommst du?\" (Where are you from?) – \"Aus Irland.\" Then the classic: \"Wie lange bist du schon in Deutschland?\" (How long have you been in Germany?). German uses the present tense with \"schon\" or \"seit\" because you're still here: \"Seit zwei Jahren\" or \"Ich bin seit zwei Jahren hier.\" Never *Ich bin hier gewesen seit...*.",
+          "\"Woher kommst du?\" (Where are you from?) – \"Aus Irland.\" Then the classic: \"Wie lange bist du schon in Deutschland?\" (How long have you been in Germany?). German uses the present tense with \"schon\" or \"seit\" because you're still here: \"Seit zwei Jahren\" or \"Ich bin seit zwei Jahren hier.\" Never \"*Ich bin hier gewesen seit...*\".",
           "Work: \"Was machst du beruflich?\" (What do you do for a living?) – \"Ich bin Krankenpflegerin\" or \"Ich arbeite bei Siemens / als Programmierer.\" No article before the job.",
         ],
         examples: [
@@ -1825,7 +1824,7 @@ export const DE_A2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A colleague says: Bei uns duzen sich alle. What does she mean?",
+        question: "A colleague says: \"Bei uns duzen sich alle.\" What does she mean?",
         options: ["Everyone here says du to each other.", "Everyone here is very polite.", "Everyone here speaks English.", "Everyone here takes a break together."],
         correctIndex: 0,
         explanation: "\"Sich duzen\" = to say du to each other.",
@@ -1904,7 +1903,7 @@ export const DE_A2_U18: Lesson[] = [
             en: "[There's been an accident.]",
             sentence: "___",
             answer: "Es gab einen Unfall.",
-            altAnswers: ["Es gab einen Unfall", "Es ist ein Unfall passiert.", "Da ist ein Unfall passiert."],
+            altAnswers: ["Es gab einen Unfall", "Es ist ein Unfall passiert.", "Da ist ein Unfall passiert.", "Es hat einen Unfall gegeben."],
             explanation: "\"Es gab\" + accusative: \"einen Unfall\" (der Unfall).",
           },
         ],
@@ -2135,7 +2134,7 @@ export const DE_A2_U18: Lesson[] = [
         ],
         examples: [
           { es: "Können wir noch zwei Messer haben?", en: "Can we have two more knives?" },
-          { es: "Das Trinkgeld ist nicht in der Rechnung.", en: "The tip isn't included in the bill." },
+          { es: "Das Trinkgeld ist nicht in der Rechnung enthalten.", en: "The tip isn't included in the bill." },
           { es: "Ich brauche ein Rezept für die Tabletten.", en: "I need a prescription for the tablets." },
           { es: "Ich habe zwei Termine beim Arzt.", en: "I have two doctor's appointments." },
           { es: "Die Kellnerin hat uns die Rechnung gebracht.", en: "The waitress brought us the bill." },
@@ -2259,8 +2258,8 @@ export const DE_A2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What is the plural of der Arzt?",
-        options: ["die Ärzte", "die Arzte", "die Ärzten", "die Arzts"],
+        question: "How do you say: Two doctors work in this practice?",
+        options: ["In dieser Praxis arbeiten zwei Ärzte.", "In dieser Praxis arbeiten zwei Arzte.", "In dieser Praxis arbeiten zwei Ärzten.", "In dieser Praxis arbeiten zwei Arzts."],
         correctIndex: 0,
         explanation: "Like \"der Pass, die Pässe\": one-syllable masculine nouns often add an umlaut and -e.",
       },

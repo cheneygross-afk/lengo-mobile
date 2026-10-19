@@ -4,7 +4,7 @@ import type { Lesson, WriteExercise } from "./types";
 
 export const DE_C1_U18_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Goethe C1-style task: write a dialectical argumentative text (Erörterung) on the question: Should smartphones be banned in schools? Give your text a title, open with a Hinführung (a statistic, a current event or a quotation) and a clear question, present arguments for and against with reasons and examples, report one expert's view in indirect speech, hedge where the evidence is uncertain, and end with a conclusion that weighs up and states your own position.",
+  prompt: "Goethe C1-style task: write a dialectical argumentative text (\"Erörterung\") on the question: Should smartphones be banned in schools? Give your text a title, open with a \"Hinführung\" (a statistic, a current event or a quotation) and a clear question, present arguments for and against with reasons and examples, report one expert's view in indirect speech, hedge where the evidence is uncertain, and end with a conclusion that weighs up and states your own position.",
   minWords: 180,
   maxWords: 300,
   rubric: [
@@ -23,7 +23,7 @@ export const DE_C1_U18: Lesson[] = [
     level: "DE-C1",
     number: 1,
     title: "Academic Writing and Essays, Part 1 of 7",
-    summary: "The two Goethe C1 writing tasks, the instruction verbs they use, and the three-part structure of an Erörterung: Einleitung, Hauptteil, Schluss.",
+    summary: "Understand the two Goethe C1 writing tasks and their instruction verbs, and plan an \"Erörterung\" in three parts: \"Einleitung\", \"Hauptteil\", \"Schluss\".",
     duration: "18 min",
     sections: [
       {
@@ -44,7 +44,7 @@ export const DE_C1_U18: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "The task says: Gehen Sie dabei auf folgende Punkte ein. What must you do?",
+            question: "The task says: \"Gehen Sie dabei auf folgende Punkte ein.\" What must you do?",
             options: ["Address each of the following points.", "Choose one of the following points.", "Avoid the following points.", "Summarise the following points in one sentence."],
             correctIndex: 0,
             explanation: "\"Auf etwas eingehen\" is to deal with, address. Every point must appear in your text.",
@@ -101,7 +101,7 @@ export const DE_C1_U18: Lesson[] = [
       {
         heading: "Einleitung, Hauptteil, Schluss",
         body: [
-          "Every Erörterung has three parts. The Einleitung (introduction, roughly 15 percent) leads into the topic and states the question. The Hauptteil (main part, about 70 percent) develops the arguments, one per paragraph. The Schluss (conclusion, about 15 percent) sums up, weighs up and gives your position or an outlook.",
+          "Every Erörterung has three parts. The Einleitung (introduction, roughly 15 per cent) leads into the topic and states the question. The Hauptteil (main part, about 70 per cent) develops the arguments, one per paragraph. The Schluss (conclusion, about 15 per cent) sums up, weighs up and gives your position or an outlook.",
           "In a 230-word exam text that means: a short Einleitung of two or three sentences, two or three paragraphs in the Hauptteil, and a Schluss of two or three sentences. Use paragraphs (Absätze): German examiners read them as a sign of structure, and a single block of text costs points for coherence.",
           "Each part has its typical language. Einleitung: \"In den letzten Jahren ...\", \"Immer häufiger wird die Frage diskutiert, ob ...\". Hauptteil: \"Für ... spricht zunächst, dass ...\", \"Ein weiteres Argument ist ...\". Schluss: \"Zusammenfassend lässt sich sagen, dass ...\", \"Meiner Ansicht nach ...\". You will practise each in the next lessons.",
         ],
@@ -125,7 +125,7 @@ export const DE_C1_U18: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In which part of an Erörterung does the sentence Für das Homeoffice spricht zunächst, dass lange Arbeitswege entfallen belong?",
+            question: "In which part of an \"Erörterung\" does this sentence belong: \"Für das Homeoffice spricht zunächst, dass lange Arbeitswege entfallen.\"?",
             options: ["Hauptteil", "Einleitung", "Schluss", "Betreff"],
             correctIndex: 0,
             explanation: "\"Für ... spricht zunächst\" introduces the first argument, so it opens a paragraph of the Hauptteil.",
@@ -198,6 +198,7 @@ export const DE_C1_U18: Lesson[] = [
         prompt: "Put the words in order to say: In my view, every school should decide this for itself.",
         words: ["Meiner Ansicht nach", "sollte", "jede Schule", "selbst", "darüber", "entscheiden."],
         translation: "In my view, every school should decide this for itself.",
+        altOrders: [["Meiner Ansicht nach", "sollte", "jede Schule", "darüber", "selbst", "entscheiden."], ["jede Schule", "sollte", "Meiner Ansicht nach", "selbst", "darüber", "entscheiden."]],
         explanation: "\"Meiner Ansicht nach\" fills the Vorfeld, so \"sollte\" comes second. \"Darüber entscheiden\" = to decide on it.",
       },
       {
@@ -218,7 +219,7 @@ export const DE_C1_U18: Lesson[] = [
         type: "speak",
         text: "Zusammenfassend lässt sich sagen, dass die Vorteile überwiegen.",
         prompt: "Say it in German: In summary, it can be said that the advantages outweigh the disadvantages.",
-        tip: "überwiegen is stressed on WIE: über-WIE-gen.",
+        tip: "\"überwiegen\" is stressed on WIE: über-WIE-gen.",
         explanation: "The standard opening of a Schluss.",
       },
     ],
@@ -228,7 +229,7 @@ export const DE_C1_U18: Lesson[] = [
     level: "DE-C1",
     number: 2,
     title: "Academic Writing and Essays, Part 2 of 7",
-    summary: "Linear versus dialectical Erörterung, the Sanduhr and Pingpong patterns, ordering arguments from weakest to strongest, and the transitions that turn the argument.",
+    summary: "Choose between a linear and a dialectical \"Erörterung\", build the main part in the \"Sanduhr\" or \"Pingpong\" pattern, order arguments from weakest to strongest and turn the argument with the right transitions.",
     duration: "18 min",
     sections: [
       {
@@ -363,8 +364,8 @@ export const DE_C1_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You support the voting age of 16 and use the Sanduhr-Prinzip. Where does your strongest pro argument go?",
-        options: ["Last in the Hauptteil, just before the Schluss.", "First, right after the Einleitung.", "In the middle, between pro and contra.", "In the Einleitung."],
+        question: "You support the voting age of 16 and use the \"Sanduhr-Prinzip\". Where does your strongest pro argument go?",
+        options: ["Last in the \"Hauptteil\", just before the \"Schluss\".", "First, right after the \"Einleitung\".", "In the middle, between pro and contra.", "In the \"Einleitung\"."],
         correctIndex: 0,
         explanation: "In the hourglass the side you support comes second, ordered from weakest to strongest, so the strongest argument leads straight into your conclusion.",
       },
@@ -424,7 +425,7 @@ export const DE_C1_U18: Lesson[] = [
     level: "DE-C1",
     number: 3,
     title: "Academic Writing and Essays, Part 3 of 7",
-    summary: "The Einleitung: a Hinführung with an event, a statistic or a quotation, a precise Fragestellung, and the Behauptung, Begründung, Beispiel chain that every argument needs.",
+    summary: "Open an \"Einleitung\" with a \"Hinführung\" (an event, a statistic or a quotation) and a precise \"Fragestellung\", and build every argument from \"Behauptung\", \"Begründung\" and \"Beispiel\".",
     duration: "18 min",
     sections: [
       {
@@ -437,7 +438,7 @@ export const DE_C1_U18: Lesson[] = [
         examples: [
           { es: "Erst kürzlich hat der Stadtrat beschlossen, die Innenstadt für Autos zu sperren.", en: "Only recently the city council decided to close the city centre to cars." },
           { es: "Laut einer aktuellen Umfrage arbeitet inzwischen jeder vierte Beschäftigte zumindest teilweise von zu Hause.", en: "According to a recent survey, one in four employees now works from home at least part of the time." },
-          { es: "„Bildung ist die mächtigste Waffe, um die Welt zu verändern“, sagte Nelson Mandela.", en: "Education is the most powerful weapon which you can use to change the world, said Nelson Mandela." },
+          { es: "„Bildung ist die mächtigste Waffe, um die Welt zu verändern“, sagte Nelson Mandela.", en: "'Education is the most powerful weapon to change the world,' said Nelson Mandela." },
           { es: "Kaum ein Thema wird derzeit so kontrovers diskutiert wie die Viertagewoche.", en: "Hardly any topic is currently as hotly debated as the four-day week." },
           { es: "Im Folgenden soll erörtert werden, ob ein Tempolimit sinnvoll ist.", en: "The following will discuss whether a speed limit makes sense." },
         ],
@@ -453,7 +454,7 @@ export const DE_C1_U18: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the best way to begin an Erörterung on a speed limit on German motorways?",
+            question: "Which is the best way to begin an \"Erörterung\" on a speed limit on German motorways?",
             options: ["Deutschland ist eines der wenigen Länder ohne generelles Tempolimit auf Autobahnen.", "In diesem Aufsatz werde ich über das Tempolimit schreiben.", "Ich will jetzt erklären, was ich über das Tempolimit denke.", "Tempolimit: ja oder nein? Ich sage ja."],
             correctIndex: 0,
             explanation: "A factual Hinführung that shows why the question matters. Announcing the essay or giving your answer in the first line is poor style.",
@@ -499,7 +500,7 @@ export const DE_C1_U18: Lesson[] = [
         heading: "Behauptung, Begründung, Beispiel",
         body: [
           "Every argument in the Hauptteil needs three parts. The Behauptung (claim): \"Ein Tempolimit würde die Zahl der Verkehrstoten senken.\" The Begründung (reason): \"..., da bei niedrigeren Geschwindigkeiten der Bremsweg deutlich kürzer ist.\" The Beispiel or Beleg (example, evidence): \"So ist die Zahl der Unfälle auf Strecken mit Tempolimit erfahrungsgemäß niedriger.\"",
-          "Claims without reasons sound like opinions; reasons without examples sound abstract. Learners often stop after the claim. Train yourself to ask: Warum? and Zum Beispiel?",
+          "Claims without reasons sound like opinions; reasons without examples sound abstract. Learners often stop after the claim. Train yourself to ask: \"Warum?\" and \"Zum Beispiel?\"",
           "The language of examples: \"So zeigt etwa ...\", \"Dies zeigt sich beispielsweise daran, dass ...\", \"Ein Beispiel dafür ist ...\", \"etwa\" and \"beispielsweise\" in the middle field. \"So\" at the start of a sentence often means thus, for example, not so: \"So hat Finnland ...\".",
         ],
         examples: [
@@ -521,7 +522,7 @@ export const DE_C1_U18: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is a Begründung for the claim Ein Tempolimit würde die Zahl der Verkehrstoten senken?",
+            question: "Which sentence is a \"Begründung\" for the claim \"Ein Tempolimit würde die Zahl der Verkehrstoten senken.\"?",
             options: ["Bei niedrigeren Geschwindigkeiten ist der Bremsweg nämlich deutlich kürzer.", "Viele Menschen fahren gern schnell.", "Ein Beispiel dafür sind die Niederlande.", "Es stellt sich die Frage, ob ein Tempolimit sinnvoll ist."],
             correctIndex: 0,
             explanation: "A Begründung says why the claim is true; \"nämlich\" signals the reason. The third option is an example, the last a Fragestellung.",
@@ -536,8 +537,8 @@ export const DE_C1_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "According to a recent survey, one in four employees now works from home.",
         answer: "Laut einer aktuellen Umfrage arbeitet inzwischen jeder vierte Beschäftigte von zu Hause.",
-        altAnswers: ["Laut einer aktuellen Umfrage arbeitet mittlerweile jeder vierte Beschäftigte von zu Hause.", "Einer aktuellen Umfrage zufolge arbeitet inzwischen jeder vierte Beschäftigte von zu Hause.", "Laut einer aktuellen Umfrage arbeitet inzwischen jeder vierte Arbeitnehmer von zu Hause.", "Laut einer aktuellen Umfrage arbeitet inzwischen jeder vierte Beschäftigte im Homeoffice."],
-        explanation: "\"Laut\" + genitive (or \"einer Umfrage zufolge\"); \"jeder vierte\" takes a singular verb.",
+        altAnswers: ["Laut einer aktuellen Umfrage arbeitet mittlerweile jeder vierte Beschäftigte von zu Hause.", "Einer aktuellen Umfrage zufolge arbeitet inzwischen jeder vierte Beschäftigte von zu Hause.", "Laut einer aktuellen Umfrage arbeitet inzwischen jeder vierte Arbeitnehmer von zu Hause.", "Laut einer aktuellen Umfrage arbeitet inzwischen jeder vierte Beschäftigte im Homeoffice.", "Laut einer aktuellen Umfrage arbeitet inzwischen jeder vierte Beschäftigte von zuhause."],
+        explanation: "\"Laut\" + genitive or dative (or \"einer Umfrage zufolge\"); \"jeder vierte\" takes a singular verb, so \"arbeitet\", not \"arbeiten\".",
       },
       {
         type: "translate",
@@ -550,10 +551,10 @@ export const DE_C1_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence would be out of place at the start of a German Erörterung?",
+        question: "Which sentence would be out of place at the start of a German \"Erörterung\"?",
         options: ["In diesem Aufsatz werde ich meine Meinung über Studiengebühren diskutieren.", "Seit Jahren wird in Deutschland über Studiengebühren gestritten.", "Laut einer aktuellen Umfrage lehnen zwei Drittel der Studierenden Gebühren ab.", "Kaum ein bildungspolitisches Thema ist so umstritten wie Studiengebühren."],
         correctIndex: 0,
-        explanation: "Announcing the essay with ich is an English habit; German Einleitungen lead in with a fact, an event or a quotation.",
+        explanation: "Announcing the essay with \"ich\" is an English habit; a German \"Einleitung\" leads in with a fact, an event or a quotation.",
       },
       {
         type: "fill-blank",
@@ -613,7 +614,7 @@ export const DE_C1_U18: Lesson[] = [
         type: "speak",
         text: "Inwiefern trägt das Homeoffice zur Gleichberechtigung bei?",
         prompt: "Say it in German: To what extent does working from home contribute to gender equality?",
-        tip: "inwiefern: stress on FERN.",
+        tip: "\"inwiefern\": stress on FERN.",
         explanation: "\"Beitragen zu\" splits: \"trägt ... bei\".",
       },
     ],
@@ -623,7 +624,7 @@ export const DE_C1_U18: Lesson[] = [
     level: "DE-C1",
     number: 4,
     title: "Mastery Check: Academic Writing and Essays, Part 1",
-    summary: "Test yourself without hints on everything so far: task verbs, the parts of an Erörterung, linear and dialectical structure, transitions, Hinführung, Fragestellung and argument building.",
+    summary: "Show without hints that you can read task verbs, structure a linear or dialectical \"Erörterung\", write a \"Hinführung\" and \"Fragestellung\", build arguments and turn them with transitions.",
     duration: "15 min",
     sections: [
       {
@@ -668,7 +669,7 @@ export const DE_C1_U18: Lesson[] = [
         source: "Give your opinion on the four-day week and give reasons for it.",
         answer: "Äußern Sie Ihre Meinung zur Viertagewoche und begründen Sie sie.",
         altAnswers: ["Äußern Sie Ihre Meinung zur Viertagewoche und begründen Sie diese.", "Nehmen Sie Stellung zur Viertagewoche und begründen Sie Ihre Meinung.", "Äußern Sie sich zur Viertagewoche und begründen Sie Ihre Meinung."],
-        explanation: "\"Seine Meinung äußern zu\" + \"begründen\" with a pronoun referring to die Meinung (\"sie\" or \"diese\").",
+        explanation: "\"Seine Meinung äußern zu\" + \"begründen\" with a pronoun referring to \"die Meinung\" (\"sie\" or \"diese\").",
       },
       {
         type: "translate",
@@ -690,8 +691,8 @@ export const DE_C1_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Welche Ursachen hat die Wohnungsnot in Großstädten? Which structure suits this question?",
-        options: ["A linear Erörterung", "A dialectical Erörterung in the Sanduhr pattern", "A dialectical Erörterung in the Pingpong pattern", "A formal complaint letter"],
+        question: "The task asks: \"Welche Ursachen hat die Wohnungsnot in Großstädten?\" Which structure suits this question?",
+        options: ["A linear \"Erörterung\"", "A dialectical \"Erörterung\" in the \"Sanduhr\" pattern", "A dialectical \"Erörterung\" in the \"Pingpong\" pattern", "A formal complaint letter"],
         correctIndex: 0,
         explanation: "A W-question asking for causes calls for a linear text: one reason after another, no pro and contra.",
       },
@@ -711,7 +712,7 @@ export const DE_C1_U18: Lesson[] = [
         sentence: "___, sollen nun die Nachteile betrachtet werden.",
         answer: "Nachdem die Vorteile dargelegt wurden",
         altAnswers: ["Nachdem die Vorteile dargelegt worden sind", "Nachdem die Vorteile dargestellt wurden"],
-        explanation: "A passive nachdem-clause keeps the writer out of the text.",
+        explanation: "A passive \"nachdem\"-clause keeps the writer out of the text; the Präteritum \"wurden\" or the Perfekt \"worden sind\" both work.",
       },
       {
         type: "translate",
@@ -724,7 +725,7 @@ export const DE_C1_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is an example (Beispiel) rather than a claim or a reason?",
+        question: "Which sentence is an example (\"Beispiel\") rather than a claim or a reason?",
         options: ["So hat Wien den Anteil an Sozialwohnungen über Jahrzehnte hoch gehalten.", "Der Staat muss mehr Wohnungen bauen.", "Bezahlbarer Wohnraum ist nämlich eine Voraussetzung für sozialen Frieden.", "Ist eine Mietpreisbremse sinnvoll?"],
         correctIndex: 0,
         explanation: "\"So hat Wien ...\" gives a concrete case. The others are a claim, a reason (\"nämlich\") and a question.",
@@ -754,7 +755,7 @@ export const DE_C1_U18: Lesson[] = [
         type: "speak",
         text: "Für eine Viertagewoche spricht zunächst, dass die Beschäftigten zufriedener sind.",
         prompt: "Say it in German: The first argument for a four-day week is that employees are more satisfied.",
-        tip: "Beschäftigten: the ä is open, like the e in bed.",
+        tip: "\"Beschäftigten\": the ä is open, like the e in bed.",
         explanation: "\"Für etwas spricht, dass ...\" opens an argument.",
       },
       {
@@ -764,7 +765,7 @@ export const DE_C1_U18: Lesson[] = [
         source: "In the following, it will be discussed whether school uniforms make sense.",
         answer: "Im Folgenden soll erörtert werden, ob Schuluniformen sinnvoll sind.",
         altAnswers: ["Im Folgenden wird erörtert, ob Schuluniformen sinnvoll sind.", "Im Folgenden soll diskutiert werden, ob Schuluniformen sinnvoll sind.", "Im Folgenden soll erörtert werden, ob eine Schuluniform sinnvoll ist."],
-        explanation: "The impersonal announcement uses \"im Folgenden\" and a passive, never \"In diesem Aufsatz werde ich ...\".",
+        explanation: "The impersonal announcement uses \"im Folgenden\" and a passive, rather than the clumsy \"In diesem Aufsatz werde ich ...\".",
       },
     ],
   },
@@ -773,11 +774,11 @@ export const DE_C1_U18: Lesson[] = [
     level: "DE-C1",
     number: 5,
     title: "Transformations: Removing the Ich",
-    summary: "Rewrite personal opinions in academic style with man, the passive, sich lassen, sein + zu, es ist festzustellen, dass and nominal style, and learn when ich meine is still the right choice.",
+    summary: "Rewrite personal statements in academic style with \"man\", the passive, \"sich lassen\", \"sein + zu\" and nominal style, and know when \"ich\" is still the right choice.",
     duration: "17 min",
     sections: [
       {
-        heading: "From ich to man and the passive",
+        heading: "From \"ich\" to \"man\" and the passive",
         body: [
           "Academic German keeps the writer in the background. Where an English essay might say I think, I noticed, I will show, a German one says what can be seen, what is assumed, what has been found. The first two tools are \"man\" and the passive.",
           "\"Ich glaube, dass die Mieten weiter steigen\" becomes \"Man kann davon ausgehen, dass die Mieten weiter steigen.\" \"Ich habe in der Studie gesehen, dass ...\" becomes \"In der Studie wird gezeigt, dass ...\" or \"Die Studie zeigt, dass ...\". Making the text, the study or the facts the subject is often the most elegant solution.",
@@ -794,7 +795,7 @@ export const DE_C1_U18: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite without ich: Ich glaube, dass die Mieten weiter steigen. Translate into German: It can be assumed that rents will continue to rise.",
+            prompt: "Rewrite without \"ich\": \"Ich glaube, dass die Mieten weiter steigen.\" Translate into German: It can be assumed that rents will continue to rise.",
             source: "It can be assumed that rents will continue to rise.",
             answer: "Man kann davon ausgehen, dass die Mieten weiter steigen.",
             altAnswers: ["Es ist davon auszugehen, dass die Mieten weiter steigen.", "Man kann davon ausgehen, dass die Mieten weiter steigen werden.", "Es ist davon auszugehen, dass die Mieten weiter steigen werden.", "Es kann davon ausgegangen werden, dass die Mieten weiter steigen."],
@@ -812,7 +813,7 @@ export const DE_C1_U18: Lesson[] = [
         ],
       },
       {
-        heading: "Sich lassen and sein + zu",
+        heading: "\"Sich lassen\" and \"sein + zu\"",
         body: [
           "Two passive substitutes from Unit 5 are the backbone of academic style. \"Sich lassen\" + infinitive expresses possibility: \"Das lässt sich nicht beweisen\" (that cannot be proved). \"Sein + zu\" + infinitive expresses possibility or necessity: \"Das ist nicht zu beweisen\" (cannot be), \"Die Frist ist einzuhalten\" (must be met).",
           "Several fixed phrases with \"sein + zu\" open academic sentences: \"Es ist festzustellen, dass ...\" (it is to be noted), \"Es bleibt festzuhalten, dass ...\" (it remains to be said), \"Es ist zu befürchten, dass ...\" (it is to be feared), \"Es ist zu erwarten, dass ...\", \"Es ist davon auszugehen, dass ...\".",
@@ -830,7 +831,7 @@ export const DE_C1_U18: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using sich lassen.",
+            prompt: "Translate into German, using \"sich lassen\".",
             source: "From this it can be concluded that the programme was successful.",
             answer: "Daraus lässt sich schließen, dass das Programm erfolgreich war.",
             altAnswers: ["Daraus lässt sich ableiten, dass das Programm erfolgreich war.", "Daraus lässt sich folgern, dass das Programm erfolgreich war.", "Daraus lässt sich schließen, dass das Programm erfolgreich gewesen ist."],
@@ -839,7 +840,7 @@ export const DE_C1_U18: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using sein + zu.",
+            prompt: "Translate into German, using \"sein + zu\".",
             source: "The results should be interpreted with caution.",
             answer: "Die Ergebnisse sind mit Vorsicht zu interpretieren.",
             altAnswers: ["Die Ergebnisse sind mit Vorsicht zu deuten.", "Die Ergebnisse sind vorsichtig zu interpretieren."],
@@ -848,11 +849,11 @@ export const DE_C1_U18: Lesson[] = [
         ],
       },
       {
-        heading: "Nominal style and when ich is fine",
+        heading: "Nominal style and when \"ich\" is fine",
         body: [
           "The third tool is nominal style (Unit 3): a whole clause becomes a noun phrase. \"Weil die Mieten steigen, ...\" → \"Aufgrund steigender Mieten ...\"; \"Wenn man das Gesetz einführt, ...\" → \"Mit der Einführung des Gesetzes ...\"; \"Nachdem wir die Daten ausgewertet hatten, ...\" → \"Nach Auswertung der Daten ...\". Use it to vary your sentences, not to turn every clause into a noun.",
-          "Is ich forbidden? No. In the Stellungnahme, the part where you are asked for your opinion (usually the Schluss, and the Goethe forum post as a whole), ich is expected: \"Meiner Meinung nach ...\", \"Meines Erachtens ...\" (formal: in my view), \"Ich bin der Auffassung, dass ...\", \"Ich vertrete die Ansicht, dass ...\".",
-          "What sounds wrong is ich in the factual parts: \"Ich habe gelesen, dass 40 Prozent ...\" in the middle of an argument. And \"Ich denke\" or \"Ich finde\" are too spoken for an essay; \"Ich bin der Auffassung\" or \"Meines Erachtens\" fit the register.",
+          "Is \"ich\" forbidden? No. In the Stellungnahme, the part where you are asked for your opinion (usually the Schluss, and the Goethe forum post as a whole), \"ich\" is expected: \"Meiner Meinung nach ...\", \"Meines Erachtens ...\" (formal: in my view), \"Ich bin der Auffassung, dass ...\", \"Ich vertrete die Ansicht, dass ...\".",
+          "What sounds wrong is \"ich\" in the factual parts: \"Ich habe gelesen, dass 40 Prozent ...\" in the middle of an argument. And \"Ich denke\" or \"Ich finde\" are too spoken for an essay; \"Ich bin der Auffassung\" or \"Meines Erachtens\" fit the register.",
         ],
         examples: [
           { es: "Aufgrund steigender Mieten ziehen viele Familien aufs Land.", en: "Because rents are rising, many families are moving to the countryside." },
@@ -873,8 +874,8 @@ export const DE_C1_U18: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In which part of a Goethe C1 Erörterung is Meines Erachtens überwiegen die Vorteile most appropriate?",
-            options: ["In the Schluss, as your own position", "In the Hinführung, as the first sentence", "In the middle of a factual argument", "Nowhere: ich-perspective is forbidden"],
+            question: "In which part of a Goethe C1 \"Erörterung\" is \"Meines Erachtens überwiegen die Vorteile.\" most appropriate?",
+            options: ["In the \"Schluss\", as your own position", "In the \"Hinführung\", as the first sentence", "In the middle of a factual argument", "Nowhere: the \"ich\" perspective is forbidden"],
             correctIndex: 0,
             explanation: "Your opinion belongs in the Stellungnahme, usually the Schluss. \"Meines Erachtens\" is the formal register.",
           },
@@ -893,7 +894,7 @@ export const DE_C1_U18: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite without ich: Ich habe in der Studie gelesen, dass Pendler gestresster sind. Translate into German: The study shows that commuters are more stressed.",
+        prompt: "Rewrite without \"ich\": \"Ich habe in der Studie gelesen, dass Pendler gestresster sind.\" Translate into German: The study shows that commuters are more stressed.",
         source: "The study shows that commuters are more stressed.",
         answer: "Die Studie zeigt, dass Pendler gestresster sind.",
         altAnswers: ["Die Studie zeigt, dass Pendler stärker gestresst sind.", "In der Studie wird gezeigt, dass Pendler gestresster sind.", "Die Studie belegt, dass Pendler gestresster sind.", "Die Studie zeigt, dass Pendler mehr unter Stress leiden."],
@@ -949,13 +950,14 @@ export const DE_C1_U18: Lesson[] = [
         source: "I take the view that education should be free.",
         answer: "Ich bin der Auffassung, dass Bildung kostenlos sein sollte.",
         altAnswers: ["Ich vertrete die Auffassung, dass Bildung kostenlos sein sollte.", "Ich bin der Ansicht, dass Bildung kostenlos sein sollte.", "Ich vertrete die Ansicht, dass Bildung kostenlos sein sollte.", "Ich bin der Auffassung, dass Bildung kostenfrei sein sollte."],
-        explanation: "In the Stellungnahme ich is fine; \"der Auffassung sein\" (genitive) is the formal register.",
+        explanation: "In the Stellungnahme \"ich\" is fine; \"der Auffassung sein\" (genitive) is the formal register.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: When the law was introduced, the situation changed fundamentally.",
         words: ["Mit der Einführung", "des Gesetzes", "änderte sich", "die Lage", "grundlegend."],
         translation: "When the law was introduced, the situation changed fundamentally.",
+        altOrders: [["die Lage", "änderte sich", "Mit der Einführung", "des Gesetzes", "grundlegend."]],
         explanation: "\"Mit der Einführung\" + genitive replaces a when-clause and fills the Vorfeld.",
       },
       {
@@ -976,8 +978,8 @@ export const DE_C1_U18: Lesson[] = [
         type: "speak",
         text: "Meines Erachtens überwiegen die Vorteile.",
         prompt: "Say it in German (formal): In my view, the advantages outweigh the disadvantages.",
-        tip: "Erachtens: ER-ach-tens, with the ch of Bach.",
-        explanation: "\"Meines Erachtens\" (m. E.) is the formal in my view, ideal for the Schluss.",
+        tip: "\"Erachtens\": ER-ach-tens, with the ch of Bach.",
+        explanation: "\"Meines Erachtens\" (\"m. E.\") is the formal 'in my view', ideal for the Schluss.",
       },
     ],
   },
@@ -986,7 +988,7 @@ export const DE_C1_U18: Lesson[] = [
     level: "DE-C1",
     number: 6,
     title: "Contrast Clinic: These, Argument, Beleg, Beispiel",
-    summary: "Tell apart the building blocks of an argument and the verbs that go with each: behaupten, vertreten, begründen, belegen, veranschaulichen, anführen, widerlegen.",
+    summary: "Tell apart the building blocks of an argument and use the verbs that go with each: \"behaupten\", \"vertreten\", \"begründen\", \"belegen\", \"veranschaulichen\", \"anführen\", \"widerlegen\".",
     duration: "16 min",
     sections: [
       {
@@ -1015,7 +1017,7 @@ export const DE_C1_U18: Lesson[] = [
               { left: "das Beispiel", right: "a concrete illustration" },
               { left: "der Einwand", right: "an objection" },
             ],
-            explanation: "These, Argument, Beleg and Beispiel are distinct steps; \"der Einwand\" comes from the other side.",
+            explanation: "\"These\", \"Argument\", \"Beleg\" and \"Beispiel\" are distinct steps; \"der Einwand\" comes from the other side.",
           },
           {
             type: "translate",
@@ -1029,7 +1031,7 @@ export const DE_C1_U18: Lesson[] = [
         ],
       },
       {
-        heading: "The verbs: behaupten, vertreten, begründen, belegen",
+        heading: "The verbs: \"behaupten\", \"vertreten\", \"begründen\", \"belegen\"",
         body: [
           "Each element has its verb. A thesis or position is \"vertreten\": \"Die Autorin vertritt die These, dass ...\" (holds, maintains). \"Behaupten\" (to claim) is neutral in everyday speech but in academic writing it often signals doubt: \"Der Autor behauptet, ...\" suggests you're not convinced.",
           "An argument is \"angeführt\" (put forward) and a claim is \"begründet\" (justified): \"Sie führt drei Argumente an.\" \"Er begründet seine These mit ...\" (begründen mit + dative = to justify with). Evidence \"belegt\" or \"stützt\" (supports): \"Die Zahlen belegen diese Annahme.\" An example \"veranschaulicht\" (illustrates): \"Ein Beispiel soll dies veranschaulichen.\"",
@@ -1064,7 +1066,7 @@ export const DE_C1_U18: Lesson[] = [
         ],
       },
       {
-        heading: "Behaupten, feststellen, nachweisen: stance in the verb",
+        heading: "\"Behaupten\", \"feststellen\", \"nachweisen\": stance in the verb",
         body: [
           "Choosing the reporting verb is choosing your attitude. Neutral: \"sagt\", \"erklärt\", \"stellt dar\", \"vertritt die Auffassung\". Trusting: \"stellt fest\" (states as a fact), \"zeigt\", \"weist nach\" (proves). Distancing: \"behauptet\" (claims), \"meint\", \"will ... gezeigt haben\" (claim-wollen from Unit 12).",
           "Compare: \"Die Studie weist nach, dass Lärm krank macht\" (you accept it as proven) vs \"Die Studie behauptet, dass Lärm krank macht\" (you doubt it). Examiners notice when you pick \"behaupten\" for a source you then agree with.",
@@ -1136,10 +1138,10 @@ export const DE_C1_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is a Beleg rather than a Beispiel?",
+        question: "Which is a \"Beleg\" rather than a \"Beispiel\"?",
         options: ["Laut einer Studie mit 10.000 Teilnehmern sinkt die Unfallrate um 20 Prozent.", "Mein Nachbar fährt seit Jahren langsam und hatte nie einen Unfall.", "So wie in den Niederlanden könnte es auch hier sein.", "Stellen Sie sich eine leere Autobahn um drei Uhr nachts vor."],
         correctIndex: 0,
-        explanation: "A Beleg is verifiable evidence (a study with figures). The others illustrate or speculate.",
+        explanation: "A \"Beleg\" is verifiable evidence (a study with figures). The others illustrate (an anecdote, a comparison) or speculate, so they are at best a \"Beispiel\".",
       },
       {
         type: "translate",
@@ -1187,7 +1189,7 @@ export const DE_C1_U18: Lesson[] = [
         type: "speak",
         text: "Die Zahlen belegen diese Annahme eindeutig.",
         prompt: "Say it in German: The figures clearly support this assumption.",
-        tip: "eindeutig: EIN-deu-tig, with the eu like oy in boy.",
+        tip: "\"eindeutig\": EIN-deu-tig, with the eu like oy in boy.",
         explanation: "\"Belegen\" is the verb for evidence.",
       },
     ],
@@ -1197,7 +1199,7 @@ export const DE_C1_U18: Lesson[] = [
     level: "DE-C1",
     number: 7,
     title: "Academic Writing and Essays, Part 4 of 7",
-    summary: "The Zusammenfassung: an opening sentence that names the source, reproducing ideas in your own words, Konjunktiv I for the author's views, reporting verbs, and comparing two sources.",
+    summary: "Write a \"Zusammenfassung\": open by naming the source, reproduce the ideas in your own words, report the author's views in Konjunktiv I with varied reporting verbs, and compare two sources.",
     duration: "19 min",
     sections: [
       {
@@ -1237,13 +1239,13 @@ export const DE_C1_U18: Lesson[] = [
         heading: "Konjunktiv I for the author's views",
         body: [
           "When you report what the author thinks or claims, use the Konjunktiv I of indirect speech (Unit 1, and Unit 12 for the press): \"Die Autorin ist der Meinung, die Viertagewoche sei ein Erfolg.\" \"Sie betont, dass die Beschäftigten zufriedener seien.\" The Konjunktiv I marks: this is her view, not my statement.",
-          "The replacement rule: if the Konjunktiv I looks like the indicative (mostly in the plural: \"sie profitieren\"), use the Konjunktiv II: \"Viele Firmen profitierten davon, so die Autorin.\" If that also looks like an indicative (weak verbs: \"sie arbeiteten\"), use \"würde\": \"Die Beschäftigten würden effizienter arbeiten.\"",
+          "The replacement rule: if the Konjunktiv I looks like the indicative (mostly in the plural: \"sie gehen\"), use the Konjunktiv II: \"Viele Firmen gingen diesen Weg bereits, so die Autorin.\" If that also looks like an indicative (weak verbs: \"sie arbeiteten\", \"sie profitierten\"), use \"würde\": \"Die Beschäftigten würden effizienter arbeiten.\"",
           "Once a reporting verb has set the frame, you can continue in the Konjunktiv I without repeating it: \"Hoffmann zufolge sei die Produktivität gestiegen. Zudem gebe es weniger Krankmeldungen. Allerdings eigne sich das Modell nicht für alle Branchen.\" Facts that are undisputed can stay in the indicative.",
         ],
         examples: [
           { es: "Die Autorin ist der Meinung, die Viertagewoche sei ein Erfolg.", en: "The author believes the four-day week is a success." },
           { es: "Sie betont, dass die Beschäftigten zufriedener seien.", en: "She stresses that employees are more satisfied." },
-          { es: "Viele Firmen profitierten davon, so die Autorin.", en: "Many companies benefit from it, according to the author." },
+          { es: "Viele Firmen gingen diesen Weg bereits, so die Autorin.", en: "Many companies are already taking this route, according to the author." },
           { es: "Zudem gebe es weniger Krankmeldungen.", en: "In addition, there are fewer sick notes, she says." },
           { es: "Allerdings eigne sich das Modell nicht für alle Branchen.", en: "However, the model is not suitable for every sector, she says." },
           { es: "Der Autor warnt, man habe die Kosten unterschätzt.", en: "The author warns that the costs have been underestimated." },
@@ -1261,10 +1263,10 @@ export const DE_C1_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Many companies [benefit] from it, according to the author.",
-            sentence: "Viele Firmen ___ davon, so die Autorin.",
-            answer: "profitierten",
-            explanation: "Konjunktiv I \"profitieren\" looks like the indicative, so the Konjunktiv II \"profitierten\" replaces it.",
+            en: "Many companies are already [taking] this route, according to the author.",
+            sentence: "Viele Firmen ___ diesen Weg bereits, so die Autorin.",
+            answer: "gingen",
+            explanation: "Konjunktiv I \"gehen\" looks like the indicative, so the Konjunktiv II \"gingen\" replaces it. With a weak verb (\"profitieren\") the Konjunktiv II looks like the Präteritum too, so you would use \"würden ... profitieren\".",
           },
           {
             type: "listen-choose",
@@ -1272,7 +1274,7 @@ export const DE_C1_U18: Lesson[] = [
             question: "What does it mean?",
             options: ["In addition, there are fewer sick notes, according to the source.", "In addition, there should be fewer sick notes.", "In addition, there were fewer sick notes in the past.", "Give fewer sick notes as well."],
             correctIndex: 0,
-            explanation: "\"Gebe\" is Konjunktiv I of geben: the sentence reports what the source says.",
+            explanation: "\"Gebe\" is Konjunktiv I of \"geben\": the sentence reports what the source says.",
           },
         ],
       },
@@ -1349,10 +1351,10 @@ export const DE_C1_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence correctly uses the replacement rule?",
-        options: ["Die Forscher sagen, die Kinder würden heute weniger draußen spielen.", "Die Forscher sagen, die Kinder spielen heute weniger draußen, sei es so.", "Die Forscher sagen, die Kinder spielten heute weniger draußen hätten.", "Die Forscher sagen, die Kinder spiele heute weniger draußen."],
+        question: "You report: the researchers say children play outside less today. Which sentence applies the replacement rule correctly?",
+        options: ["Die Forscher sagen, die Kinder würden heute weniger draußen spielen.", "Die Forscher sagen, die Kinder spielten heute weniger draußen.", "Die Forscher sagen, die Kinder spielen heute weniger draußen.", "Die Forscher sagen, die Kinder spiele heute weniger draußen."],
         correctIndex: 0,
-        explanation: "Konjunktiv I \"spielen\" and Konjunktiv II \"spielten\" both look like indicative forms, so \"würden spielen\" is used.",
+        explanation: "Konjunktiv I \"spielen\" looks like the present indicative and Konjunktiv II \"spielten\" like the Präteritum, so \"würden ... spielen\" is used. \"Spiele\" is singular and doesn't agree with \"die Kinder\".",
       },
       {
         type: "translate",
@@ -1386,7 +1388,7 @@ export const DE_C1_U18: Lesson[] = [
         source: "However, the model is not suitable for every sector, she says.",
         answer: "Allerdings eigne sich das Modell nicht für alle Branchen.",
         altAnswers: ["Allerdings eigne sich das Modell nicht für jede Branche.", "Das Modell eigne sich allerdings nicht für alle Branchen.", "Allerdings eigne sich das Modell ihr zufolge nicht für alle Branchen."],
-        explanation: "\"Eigne\" (Konjunktiv I of sich eignen) shows it is still the author's view, without repeating she says.",
+        explanation: "\"Eigne\" (Konjunktiv I of \"sich eignen\") shows it is still the author's view, without repeating 'she says'.",
       },
       {
         type: "dictation",
@@ -1397,7 +1399,7 @@ export const DE_C1_U18: Lesson[] = [
         type: "speak",
         text: "In dem Artikel befasst sich die Autorin mit der Viertagewoche.",
         prompt: "Say it in German: In the article the author deals with the four-day week.",
-        tip: "Viertagewoche: VIER-ta-ge-wo-che, main stress on the first syllable.",
+        tip: "\"Viertagewoche\": VIER-ta-ge-wo-che, main stress on the first syllable.",
         explanation: "\"Sich befassen mit\" + dative: the standard verb in a summary's opening.",
       },
     ],
@@ -1407,7 +1409,7 @@ export const DE_C1_U18: Lesson[] = [
     level: "DE-C1",
     number: 8,
     title: "Academic Writing and Essays, Part 5 of 7",
-    summary: "Hedging claims the academic way: es scheint, es ist davon auszugehen, es lässt sich nicht ausschließen, vermutlich, tendenziell, in gewissem Maße, dürfte and man könnte argumentieren.",
+    summary: "Hedge claims the academic way with phrases such as \"es scheint\", \"es ist davon auszugehen\" and \"es lässt sich nicht ausschließen\", adverbs such as \"vermutlich\" and \"tendenziell\", and the modal \"dürfte\".",
     duration: "17 min",
     sections: [
       {
@@ -1421,7 +1423,7 @@ export const DE_C1_U18: Lesson[] = [
           { es: "Die Maßnahme scheint zu wirken.", en: "The measure seems to be working." },
           { es: "Es ist davon auszugehen, dass die Nachfrage weiter steigt.", en: "It can be assumed that demand will continue to rise." },
           { es: "Es lässt sich nicht ausschließen, dass weitere Faktoren eine Rolle spielen.", en: "It cannot be ruled out that other factors play a role." },
-          { es: "Es spricht einiges dafür, dass die Zahlen zu niedrig angesetzt sind.", en: "There is some evidence that the figures are set too low." },
+          { es: "Es spricht einiges dafür, dass die Zahlen zu niedrig angesetzt sind.", en: "There is some evidence that the figures have been set too low." },
           { es: "Man könnte argumentieren, dass die Stichprobe zu klein war.", en: "One could argue that the sample was too small." },
         ],
         checkpoint: [
@@ -1432,7 +1434,7 @@ export const DE_C1_U18: Lesson[] = [
             source: "It cannot be ruled out that other factors play a role.",
             answer: "Es lässt sich nicht ausschließen, dass weitere Faktoren eine Rolle spielen.",
             altAnswers: ["Es ist nicht auszuschließen, dass weitere Faktoren eine Rolle spielen.", "Es lässt sich nicht ausschließen, dass andere Faktoren eine Rolle spielen.", "Es ist nicht auszuschließen, dass andere Faktoren eine Rolle spielen.", "Es kann nicht ausgeschlossen werden, dass weitere Faktoren eine Rolle spielen."],
-            explanation: "\"Sich nicht ausschließen lassen\" or \"nicht auszuschließen sein\": two passive substitutes for cannot be ruled out.",
+            explanation: "\"Sich nicht ausschließen lassen\" or \"nicht auszuschließen sein\": two passive substitutes for 'cannot be ruled out'.",
           },
           {
             type: "fill-blank",
@@ -1450,7 +1452,7 @@ export const DE_C1_U18: Lesson[] = [
         body: [
           "Adverbs make fine adjustments inside the clause: \"vermutlich\" (presumably), \"möglicherweise\" (possibly), \"tendenziell\" (tending to, on the whole), \"weitgehend\" (largely), \"überwiegend\" (predominantly), \"gewissermaßen\" (to a certain extent, so to speak), \"in gewissem Maße\" (to a certain degree), \"in der Regel\" (as a rule).",
           "\"Tendenziell\" is very academic: \"Jüngere Menschen nutzen tendenziell häufiger öffentliche Verkehrsmittel.\" It says: there's a trend, not a rule. \"In gewissem Maße\" limits a claim: \"Die Kritik ist in gewissem Maße berechtigt.\"",
-          "A false-friend trap: \"offensichtlich\" means obviously (no hedge at all), while \"offenbar\" and \"anscheinend\" mean apparently. \"Die Regierung hat offenbar nicht reagiert\" (apparently) vs \"... offensichtlich nicht reagiert\" (obviously).",
+          "A trap: in careful writing \"offensichtlich\" means obviously (no hedge at all; in everyday speech it is also used loosely for apparently), while \"offenbar\" and \"anscheinend\" mean apparently. \"Die Regierung hat offenbar nicht reagiert\" (apparently) vs \"... offensichtlich nicht reagiert\" (obviously).",
         ],
         examples: [
           { es: "Jüngere Menschen nutzen tendenziell häufiger öffentliche Verkehrsmittel.", en: "Younger people tend to use public transport more often." },
@@ -1467,8 +1469,8 @@ export const DE_C1_U18: Lesson[] = [
             prompt: "Translate into German.",
             source: "Younger people tend to use public transport more often.",
             answer: "Jüngere Menschen nutzen tendenziell häufiger öffentliche Verkehrsmittel.",
-            altAnswers: ["Jüngere Menschen nutzen tendenziell öfter öffentliche Verkehrsmittel.", "Jüngere Menschen nutzen tendenziell häufiger den öffentlichen Nahverkehr.", "Jüngere Menschen nutzen öffentliche Verkehrsmittel tendenziell häufiger."],
-            explanation: "\"Tendenziell\" renders tend to: German has no verb tend with an infinitive in this sense.",
+            altAnswers: ["Jüngere Menschen nutzen tendenziell öfter öffentliche Verkehrsmittel.", "Jüngere Menschen nutzen tendenziell häufiger den öffentlichen Nahverkehr.", "Jüngere Menschen nutzen öffentliche Verkehrsmittel tendenziell häufiger.", "Jüngere Menschen neigen dazu, häufiger öffentliche Verkehrsmittel zu nutzen.", "Jüngere Menschen tendieren dazu, häufiger öffentliche Verkehrsmittel zu nutzen."],
+            explanation: "\"Tendenziell\" is the neat academic way to render 'tend to'; \"neigen dazu, ... zu\" also works but is heavier.",
           },
           {
             type: "multiple-choice",
@@ -1480,7 +1482,7 @@ export const DE_C1_U18: Lesson[] = [
         ],
       },
       {
-        heading: "Modal hedges: dürfte, könnte, müsste",
+        heading: "Modal hedges: \"dürfte\", \"könnte\", \"müsste\"",
         body: [
           "The modal verbs of supposition from Unit 12 are standard academic hedges. \"Dürfte\" (very probably) is the favourite: \"Dies dürfte vor allem an den hohen Kosten liegen.\" (This is probably mainly due to the high costs.) \"Könnte\" is weaker (possibly): \"Ein weiterer Grund könnte die schlechte Anbindung sein.\" \"Müsste\" (should, logically): \"Die Zahl müsste eigentlich höher sein.\"",
           "With the perfect infinitive they hedge about the past: \"Die Umfrage dürfte die Lage unterschätzt haben.\" \"Hier könnte ein Messfehler vorgelegen haben.\"",
@@ -1497,7 +1499,7 @@ export const DE_C1_U18: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using dürfte.",
+            prompt: "Translate into German, using \"dürfte\".",
             source: "This is probably mainly due to the high costs.",
             answer: "Dies dürfte vor allem an den hohen Kosten liegen.",
             altAnswers: ["Das dürfte vor allem an den hohen Kosten liegen.", "Dies dürfte hauptsächlich an den hohen Kosten liegen.", "Dies dürfte vor allem auf die hohen Kosten zurückzuführen sein."],
@@ -1506,7 +1508,7 @@ export const DE_C1_U18: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using dürfte.",
+            prompt: "Translate into German, using \"dürfte\".",
             source: "The survey probably underestimated the situation.",
             answer: "Die Umfrage dürfte die Lage unterschätzt haben.",
             altAnswers: ["Die Umfrage dürfte die Situation unterschätzt haben.", "Die Befragung dürfte die Lage unterschätzt haben."],
@@ -1582,7 +1584,7 @@ export const DE_C1_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "There may have been a measurement error here.",
         answer: "Hier könnte ein Messfehler vorgelegen haben.",
-        altAnswers: ["Hier könnte ein Messfehler vorliegen.", "Möglicherweise lag hier ein Messfehler vor.", "Hier könnte es einen Messfehler gegeben haben."],
+        altAnswers: ["Möglicherweise lag hier ein Messfehler vor.", "Hier könnte es einen Messfehler gegeben haben."],
         explanation: "\"Könnte\" + perfect infinitive for a possibility in the past.",
       },
       {
@@ -1604,13 +1606,13 @@ export const DE_C1_U18: Lesson[] = [
       {
         type: "dictation",
         audio: "Die Maßnahme scheint zu wirken.",
-        explanation: "\"Scheinen\" + zu-infinitive; Maßnahme with ß after the long a.",
+        explanation: "\"Scheinen\" + zu-infinitive; \"Maßnahme\" with ß after the long a.",
       },
       {
         type: "speak",
         text: "Es lässt sich nicht ausschließen, dass weitere Faktoren eine Rolle spielen.",
         prompt: "Say it in German: It cannot be ruled out that other factors play a role.",
-        tip: "ausschließen: AUS-schlie-ßen; the two sh sounds run together.",
+        tip: "\"ausschließen\": AUS-schlie-ßen; the s of \"aus\" runs straight into the sch.",
         explanation: "A standard academic hedge for possibilities.",
       },
     ],
@@ -1620,7 +1622,7 @@ export const DE_C1_U18: Lesson[] = [
     level: "DE-C1",
     number: 9,
     title: "Transformations: Softening Categorical Claims",
-    summary: "Turn blunt claims into academically hedged ones with quantifiers, nahelegen, darauf hindeuten, tendenziell and dürfte, and turn over-hedged sentences back into clear statements.",
+    summary: "Turn blunt claims into hedged ones with quantifiers, \"nahelegen\", \"darauf hindeuten\", \"tendenziell\" and \"dürfte\", and turn over-hedged sentences back into clear statements.",
     duration: "16 min",
     sections: [
       {
@@ -1632,7 +1634,7 @@ export const DE_C1_U18: Lesson[] = [
         ],
         examples: [
           { es: "Die meisten Studierenden arbeiten neben dem Studium.", en: "Most students work alongside their studies." },
-          { es: "Homeoffice scheint die Produktivität tendenziell zu steigern.", en: "Working from home seems to tend to increase productivity." },
+          { es: "Homeoffice scheint die Produktivität tendenziell zu steigern.", en: "Working from home seems, on the whole, to increase productivity." },
           { es: "Eine intensive Nutzung sozialer Medien dürfte das Risiko für Depressionen erhöhen.", en: "Heavy use of social media is likely to increase the risk of depression." },
           { es: "Ein Großteil der Befragten lehnt die Reform ab.", en: "A large proportion of respondents reject the reform." },
           { es: "Ältere Menschen nutzen in der Regel seltener Onlinebanking.", en: "Older people generally use online banking less often." },
@@ -1641,7 +1643,7 @@ export const DE_C1_U18: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Blunt: Alle Studierenden arbeiten neben dem Studium. Translate the hedged version into German: Most students work alongside their studies.",
+            prompt: "Blunt: \"Alle Studierenden arbeiten neben dem Studium.\" Translate the hedged version into German: Most students work alongside their studies.",
             source: "Most students work alongside their studies.",
             answer: "Die meisten Studierenden arbeiten neben dem Studium.",
             altAnswers: ["Die meisten Studenten arbeiten neben dem Studium.", "Ein Großteil der Studierenden arbeitet neben dem Studium.", "Viele Studierende arbeiten neben dem Studium."],
@@ -1650,7 +1652,7 @@ export const DE_C1_U18: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Blunt: Homeoffice macht produktiver. Translate the hedged version into German: Working from home seems to increase productivity.",
+            prompt: "Blunt: \"Homeoffice macht produktiver.\" Translate the hedged version into German: Working from home seems to increase productivity.",
             source: "Working from home seems to increase productivity.",
             answer: "Homeoffice scheint die Produktivität zu steigern.",
             altAnswers: ["Homeoffice scheint die Produktivität tendenziell zu steigern.", "Das Homeoffice scheint die Produktivität zu steigern.", "Die Arbeit im Homeoffice scheint die Produktivität zu steigern.", "Homeoffice scheint die Produktivität zu erhöhen."],
@@ -1659,9 +1661,9 @@ export const DE_C1_U18: Lesson[] = [
         ],
       },
       {
-        heading: "Evidence verbs: nahelegen, darauf hindeuten",
+        heading: "Evidence verbs: \"nahelegen\", \"darauf hindeuten\"",
         body: [
-          "English suggest has a precise German partner: \"nahelegen\". \"Die Studie legt nahe, dass Lärm den Schlaf stört.\" (The study suggests that ...) \"Darauf hindeuten, dass\" (to indicate that): \"Die Daten deuten darauf hin, dass ...\". Both are weaker than \"zeigen\" and much weaker than \"beweisen\" (to prove).",
+          "English 'suggest' has a precise German partner: \"nahelegen\". \"Die Studie legt nahe, dass Lärm den Schlaf stört.\" (The study suggests that ...) \"Darauf hindeuten, dass\" (to indicate that): \"Die Daten deuten darauf hin, dass ...\". Both are weaker than \"zeigen\" and much weaker than \"beweisen\" (to prove).",
           "The scale, from strong to weak: \"beweisen\" / \"nachweisen\" > \"zeigen\" / \"belegen\" > \"nahelegen\" / \"darauf hindeuten\" / \"dafür sprechen\" > \"vermuten lassen\". \"Die Ergebnisse lassen vermuten, dass ...\" (the results lead one to suspect that).",
           "A common learner error: using \"beweisen\" for every study. One survey rarely proves anything; replacing \"beweist\" with \"legt nahe\" makes your text more credible, not weaker.",
         ],
@@ -1676,11 +1678,11 @@ export const DE_C1_U18: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Blunt: Die Studie beweist, dass Lärm den Schlaf stört. Translate the hedged version into German: The study suggests that noise disturbs sleep.",
+            prompt: "Blunt: \"Die Studie beweist, dass Lärm den Schlaf stört.\" Translate the hedged version into German: The study suggests that noise disturbs sleep.",
             source: "The study suggests that noise disturbs sleep.",
             answer: "Die Studie legt nahe, dass Lärm den Schlaf stört.",
             altAnswers: ["Die Studie deutet darauf hin, dass Lärm den Schlaf stört.", "Die Studie lässt vermuten, dass Lärm den Schlaf stört.", "Die Studie legt nahe, dass Lärm den Schlaf beeinträchtigt."],
-            explanation: "\"Nahelegen\" is the German suggest for evidence; it splits: \"legt ... nahe\".",
+            explanation: "\"Nahelegen\" is the German 'suggest' for evidence; it splits: \"legt ... nahe\". \"Beweisen\" would claim proof again.",
           },
           {
             type: "fill-blank",
@@ -1710,7 +1712,7 @@ export const DE_C1_U18: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Over-hedged: Es könnte unter Umständen eventuell sein, dass die Mieten möglicherweise steigen. Translate the clear version into German: Rents are likely to rise.",
+            prompt: "Over-hedged: \"Es könnte unter Umständen eventuell sein, dass die Mieten möglicherweise steigen.\" Translate the clear version into German: Rents are likely to rise.",
             source: "Rents are likely to rise.",
             answer: "Die Mieten dürften steigen.",
             altAnswers: ["Die Mieten werden vermutlich steigen.", "Die Mieten werden wahrscheinlich steigen.", "Die Mieten dürften weiter steigen.", "Vermutlich steigen die Mieten."],
@@ -1730,7 +1732,7 @@ export const DE_C1_U18: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Blunt: Alle Jugendlichen sind handysüchtig. Translate the hedged version: A large proportion of young people are likely to use their phones excessively.",
+        prompt: "Blunt: \"Alle Jugendlichen sind handysüchtig.\" Translate the hedged version into German: A large proportion of young people are likely to use their phones excessively.",
         source: "A large proportion of young people are likely to use their phones excessively.",
         answer: "Ein Großteil der Jugendlichen dürfte das Handy übermäßig nutzen.",
         altAnswers: ["Ein Großteil der Jugendlichen dürfte ihr Handy übermäßig nutzen.", "Ein großer Teil der Jugendlichen dürfte das Handy übermäßig nutzen.", "Ein Großteil der Jugendlichen dürfte das Smartphone übermäßig nutzen.", "Viele Jugendliche dürften ihr Handy übermäßig nutzen."],
@@ -1752,7 +1754,7 @@ export const DE_C1_U18: Lesson[] = [
         source: "Older people generally use online banking less often.",
         answer: "Ältere Menschen nutzen in der Regel seltener Onlinebanking.",
         altAnswers: ["Ältere Menschen nutzen Onlinebanking in der Regel seltener.", "Ältere Menschen nutzen tendenziell seltener Onlinebanking.", "Ältere Menschen nutzen Onlinebanking tendenziell seltener."],
-        explanation: "\"In der Regel\" (as a rule) or \"tendenziell\" turns never or always into a trend.",
+        explanation: "\"In der Regel\" (as a rule) or \"tendenziell\" turns 'never' or 'always' into a trend.",
       },
       {
         type: "fill-blank",
@@ -1798,7 +1800,7 @@ export const DE_C1_U18: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Over-hedged: Vielleicht könnten die Vorteile eventuell überwiegen. Translate the clear version: In my view, the advantages clearly outweigh the disadvantages.",
+        prompt: "Over-hedged: \"Vielleicht könnten die Vorteile eventuell überwiegen.\" Translate the clear version into German: In my view, the advantages clearly outweigh the disadvantages.",
         source: "In my view, the advantages clearly outweigh the disadvantages.",
         answer: "Meines Erachtens überwiegen die Vorteile deutlich.",
         altAnswers: ["Meiner Meinung nach überwiegen die Vorteile deutlich.", "Meiner Ansicht nach überwiegen die Vorteile deutlich.", "Meines Erachtens überwiegen die Vorteile klar.", "Meines Erachtens überwiegen die Vorteile die Nachteile deutlich."],
@@ -1816,8 +1818,8 @@ export const DE_C1_U18: Lesson[] = [
         type: "speak",
         text: "Die Studie legt nahe, dass Lärm den Schlaf stört.",
         prompt: "Say it in German: The study suggests that noise disturbs sleep.",
-        tip: "Lärm: a clear open ä, and stört with a rounded ö.",
-        explanation: "\"Nahelegen\" is the German suggest for evidence.",
+        tip: "\"Lärm\": a clear open ä, and \"stört\" with a rounded ö.",
+        explanation: "\"Nahelegen\" is the German 'suggest' for evidence.",
       },
     ],
   },
@@ -1826,7 +1828,7 @@ export const DE_C1_U18: Lesson[] = [
     level: "DE-C1",
     number: 10,
     title: "Text Detective: Rebuild the Erörterung",
-    summary: "Put a scrambled Erörterung on the Deutschlandticket back in order using connectors, Korrelat structures and words that point back such as diese Entwicklung, Letzteres and eine solche Maßnahme.",
+    summary: "Put a scrambled \"Erörterung\" on the Deutschlandticket back in order using connectors, Korrelat structures and words that point back such as \"diese Entwicklung\", \"Letzteres\" and \"eine solche Maßnahme\".",
     duration: "17 min",
     sections: [
       {
@@ -1874,7 +1876,7 @@ export const DE_C1_U18: Lesson[] = [
           { es: "Diese Entwicklung ist vor allem in ländlichen Regionen zu beobachten.", en: "This development can be observed above all in rural regions." },
           { es: "Bund und Länder streiten über die Finanzierung; Letztere fordern mehr Geld vom Bund.", en: "The federal government and the states are arguing about funding; the latter are demanding more money from the federal government." },
           { es: "Damit ist jedoch nicht gesagt, dass das Ticket überflüssig wäre.", en: "This does not mean, however, that the ticket would be superfluous." },
-          { es: "Dieser Einwand lässt sich jedoch entkräften.", en: "This objection can, however, be refuted." },
+          { es: "Dieser Einwand lässt sich jedoch entkräften.", en: "This objection can, however, be rebutted." },
         ],
         checkpoint: [
           {
@@ -1893,7 +1895,7 @@ export const DE_C1_U18: Lesson[] = [
             sentence: "Bund und Länder streiten über die Finanzierung; ___ fordern mehr Geld.",
             answer: "Letztere",
             altAnswers: ["letztere"],
-            explanation: "\"Letztere\" (plural, referring to die Länder) = the latter. Capitalised as a noun-like pronoun in current spelling.",
+            explanation: "\"Letztere\" (plural, referring to \"die Länder\") = the latter. Capitalised as a noun-like pronoun in current spelling.",
           },
         ],
       },
@@ -1960,8 +1962,8 @@ export const DE_C1_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A paragraph begins: Dieser Einwand lässt sich jedoch entkräften. What must the previous paragraph contain?",
-        options: ["An objection (a counter-argument)", "The final conclusion", "The Hinführung with a statistic", "The title of the essay"],
+        question: "A paragraph begins: \"Dieser Einwand lässt sich jedoch entkräften.\" What must the previous paragraph contain?",
+        options: ["An objection (a counter-argument)", "The final conclusion", "The \"Hinführung\" with a statistic", "The title of the essay"],
         correctIndex: 0,
         explanation: "\"Dieser Einwand\" points back to an objection that has just been stated.",
       },
@@ -2018,12 +2020,12 @@ export const DE_C1_U18: Lesson[] = [
         source: "Since 2023 passengers have been able to use local transport across Germany with the Deutschlandticket.",
         answer: "Seit 2023 können Fahrgäste mit dem Deutschlandticket bundesweit den Nahverkehr nutzen.",
         altAnswers: ["Seit 2023 können Fahrgäste mit dem Deutschlandticket deutschlandweit den Nahverkehr nutzen.", "Seit 2023 können Fahrgäste mit dem Deutschlandticket bundesweit den Nahverkehr benutzen.", "Seit 2023 können Fahrgäste den Nahverkehr mit dem Deutschlandticket bundesweit nutzen."],
-        explanation: "\"Seit\" + present tense, where English uses have been able to.",
+        explanation: "\"Seit\" + present tense (\"können\"), where English uses 'have been able to'.",
       },
       {
         type: "dictation",
         audio: "Dieser Einwand lässt sich jedoch entkräften.",
-        explanation: "\"Dieser Einwand\" points back; \"entkräften\" = to refute.",
+        explanation: "\"Dieser Einwand\" points back; \"entkräften\" = to rebut, weaken.",
       },
       {
         type: "speak",
@@ -2039,11 +2041,11 @@ export const DE_C1_U18: Lesson[] = [
     level: "DE-C1",
     number: 11,
     title: "Academic Writing and Essays, Part 6 of 7",
-    summary: "The Schluss (Fazit, weighing up, your position, Ausblick), quoting sources directly and indirectly, and the comma rules that examiners check: dass-clauses, relative clauses and extended infinitives.",
+    summary: "Write a \"Schluss\" that sums up, weighs up, states your position and looks ahead, quote sources directly and indirectly, and place the commas examiners check: \"dass\"-clauses, relative clauses and extended infinitives.",
     duration: "19 min",
     sections: [
       {
-        heading: "The Schluss: Fazit, Abwägung, Ausblick",
+        heading: "The \"Schluss\": \"Fazit\", \"Abwägung\", \"Ausblick\"",
         body: [
           "The Schluss does three things, in this order. It sums up (Fazit): \"Zusammenfassend lässt sich festhalten, dass ...\". It weighs up and takes a position: \"Wägt man die Argumente gegeneinander ab, so zeigt sich, dass ...\", \"Meines Erachtens überwiegen ...\". And it may look ahead (Ausblick): \"Es bleibt abzuwarten, ob ...\" (it remains to be seen whether), \"Künftig wird es darauf ankommen, ...\".",
           "\"Wägt man ... ab, so ...\" is a verb-first conditional (if one weighs up ...), and \"so\" at the start of the main clause is optional but elegant. It's a high-level structure that impresses examiners.",
@@ -2078,23 +2080,23 @@ export const DE_C1_U18: Lesson[] = [
       {
         heading: "Quoting: direct and indirect",
         body: [
-          "Direct quotations go in German quotation marks „...“ and are introduced or followed by a reporting phrase: „Bildung beginnt nicht erst in der Schule“, betont die Pädagogin Maria Krause. Or with \"so\": „Bildung beginnt nicht erst in der Schule“, so Krause. The \"so\" + name construction is very common in journalism and academic texts.",
+          "Direct quotations go in German quotation marks (low opening mark, high closing mark: see the first example) and are introduced or followed by a reporting phrase such as \"betont die Pädagogin Maria Krause\". Or with \"so\": \"so Krause\". The \"so\" + name construction is very common in journalism and academic texts.",
           "\"Wie X betont / feststellt / zu Recht anmerkt, ...\" introduces a source you agree with: \"Wie Krause zu Recht anmerkt, beginnt Bildung nicht erst in der Schule.\" Here the indicative is used, because you adopt the statement.",
           "Indirect quotations use the Konjunktiv I: \"Krause betont, Bildung beginne nicht erst in der Schule.\" In an exam essay, one well-chosen quotation is enough; it can serve as a Hinführung or as a Beleg.",
         ],
         examples: [
-          { es: "„Bildung beginnt nicht erst in der Schule“, betont die Pädagogin Maria Krause.", en: "Education doesn't start at school, stresses the educationalist Maria Krause." },
-          { es: "„Die Stadt der Zukunft ist eine Stadt der kurzen Wege“, so der Verkehrsplaner.", en: "The city of the future is a city of short distances, says the transport planner." },
-          { es: "Wie Krause zu Recht anmerkt, beginnt Bildung nicht erst in der Schule.", en: "As Krause rightly points out, education doesn't start at school." },
-          { es: "Krause betont, Bildung beginne nicht erst in der Schule.", en: "Krause stresses that education doesn't start at school." },
-          { es: "Nach Ansicht vieler Experten sei die Reform längst überfällig.", en: "In the view of many experts, the reform is long overdue." },
+          { es: "„Bildung beginnt nicht erst in der Schule“, betont die Pädagogin Maria Krause.", en: "'Education doesn't only begin at school,' stresses the educationalist Maria Krause." },
+          { es: "„Die Stadt der Zukunft ist eine Stadt der kurzen Wege“, so der Verkehrsplaner.", en: "'The city of the future is a city of short distances,' says the transport planner." },
+          { es: "Wie Krause zu Recht anmerkt, beginnt Bildung nicht erst in der Schule.", en: "As Krause rightly points out, education doesn't only begin at school." },
+          { es: "Krause betont, Bildung beginne nicht erst in der Schule.", en: "Krause stresses that education doesn't only begin at school." },
+          { es: "Nach Ansicht vieler Experten ist die Reform längst überfällig.", en: "In the view of many experts, the reform is long overdue." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German, as indirect speech.",
-            source: "Krause stresses that education doesn't start at school.",
+            source: "Krause stresses that education doesn't only begin at school.",
             answer: "Krause betont, Bildung beginne nicht erst in der Schule.",
             altAnswers: ["Krause betont, dass Bildung nicht erst in der Schule beginne.", "Krause betont, dass Bildung nicht erst in der Schule beginnt.", "Krause hebt hervor, Bildung beginne nicht erst in der Schule."],
             explanation: "Konjunktiv I \"beginne\" marks the indirect quotation; \"nicht erst\" = not only (from then on).",
@@ -2102,7 +2104,7 @@ export const DE_C1_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[As Krause rightly points out], education doesn't start at school.",
+            en: "[As Krause rightly points out], education doesn't only begin at school.",
             sentence: "___, beginnt Bildung nicht erst in der Schule.",
             answer: "Wie Krause zu Recht anmerkt",
             altAnswers: ["Wie Krause zu Recht betont", "Wie Krause richtig anmerkt"],
@@ -2115,7 +2117,7 @@ export const DE_C1_U18: Lesson[] = [
         body: [
           "German commas follow grammar, not breathing. Rule 1: a comma before every subordinate clause and after it if the sentence continues: \"Es ist klar, dass ...\", \"Obwohl es regnete, ...\". Rule 2: relative clauses are enclosed by commas on both sides: \"Die Studie, die 2024 erschien, zeigt ...\". English speakers often forget the second comma.",
           "Rule 3: extended infinitives (zu + infinitive with other words). The comma is obligatory when the infinitive is introduced by \"um\", \"ohne\", \"statt\", \"anstatt\", \"außer\" or \"als\" (\"Man muss sparen, um ...\"), when it depends on a noun (\"die Möglichkeit, ... zu ...\"), and when a Korrelat points to it (\"Es kommt darauf an, ... zu ...\"). In other cases it is optional, but recommended because it makes the sentence clearer.",
-          "No comma before \"und\" or \"oder\" joining two clauses that share a subject, and no comma between subject and verb, however long the subject: \"Die Frage nach der Finanzierung des Tickets ist umstritten.\"",
+          "No comma is needed before \"und\" or \"oder\" joining two main clauses (you may add one for clarity), and never a comma between subject and verb, however long the subject: \"Die Frage nach der Finanzierung des Tickets ist umstritten.\"",
         ],
         examples: [
           { es: "Die Studie, die 2024 erschien, zeigt einen klaren Trend.", en: "The study, which appeared in 2024, shows a clear trend." },
@@ -2146,7 +2148,7 @@ export const DE_C1_U18: Lesson[] = [
             prompt: "Translate into German.",
             source: "Many make use of the opportunity to work from home.",
             answer: "Viele nutzen die Möglichkeit, von zu Hause zu arbeiten.",
-            altAnswers: ["Viele nutzen die Möglichkeit, von zu Hause aus zu arbeiten.", "Viele nutzen die Möglichkeit, im Homeoffice zu arbeiten.", "Viele nutzen die Gelegenheit, von zu Hause zu arbeiten."],
+            altAnswers: ["Viele nutzen die Möglichkeit, von zu Hause aus zu arbeiten.", "Viele nutzen die Möglichkeit, im Homeoffice zu arbeiten.", "Viele nutzen die Gelegenheit, von zu Hause zu arbeiten.", "Viele nutzen die Möglichkeit, von zuhause zu arbeiten."],
             explanation: "An infinitive depending on a noun (\"die Möglichkeit\") takes an obligatory comma.",
           },
         ],
@@ -2203,7 +2205,7 @@ export const DE_C1_U18: Lesson[] = [
         source: "In my view, however, a general ban is short-sighted.",
         answer: "Meines Erachtens ist ein generelles Verbot jedoch zu kurz gedacht.",
         altAnswers: ["Meines Erachtens ist ein generelles Verbot allerdings zu kurz gedacht.", "Meiner Meinung nach ist ein generelles Verbot jedoch zu kurz gedacht.", "Meines Erachtens ist ein allgemeines Verbot jedoch zu kurz gedacht.", "Meines Erachtens ist ein generelles Verbot jedoch kurzsichtig."],
-        explanation: "\"Zu kurz gedacht\" (not thought through) is the idiomatic short-sighted for a policy.",
+        explanation: "\"Zu kurz gedacht\" (not thought through) is the idiomatic 'short-sighted' for a policy.",
       },
       {
         type: "multiple-choice",
@@ -2240,7 +2242,7 @@ export const DE_C1_U18: Lesson[] = [
         type: "speak",
         text: "Es bleibt abzuwarten, ob die Reform Erfolg hat.",
         prompt: "Say it in German: It remains to be seen whether the reform will succeed.",
-        tip: "abzuwarten: AB-zu-war-ten, the zu is unstressed.",
+        tip: "\"abzuwarten\": AB-zu-war-ten, the \"zu\" is unstressed.",
         explanation: "The classic Ausblick at the end of a Schluss.",
       },
     ],
@@ -2250,7 +2252,7 @@ export const DE_C1_U18: Lesson[] = [
     level: "DE-C1",
     number: 12,
     title: "Academic Writing and Essays, Part 7 of 7",
-    summary: "The Goethe C1 speaking tasks: signposting a short presentation, handling questions, and disagreeing politely in a discussion with Da muss ich Ihnen widersprechen and Das sehe ich etwas anders.",
+    summary: "Handle the Goethe C1 speaking tasks: signpost a short presentation, deal with questions, and disagree politely in a discussion with \"Da muss ich Ihnen widersprechen\" and \"Das sehe ich etwas anders\".",
     duration: "17 min",
     sections: [
       {
@@ -2258,7 +2260,7 @@ export const DE_C1_U18: Lesson[] = [
         body: [
           "The Goethe C1 speaking test has two parts: a short presentation (Vortrag) of a few minutes on a topic you choose from two, followed by questions, and a discussion with another candidate in which you exchange arguments and try to reach a conclusion. The examiners listen for structure as much as for grammar.",
           "Spoken texts need more signposting than written ones, because the listener can't look back. Announce the structure: \"Ich möchte heute über ... sprechen.\" \"Mein Vortrag gliedert sich in drei Teile.\" \"Zunächst möchte ich ..., anschließend ..., und zum Schluss ...\".",
-          "Mark each transition: \"Damit komme ich zu meinem zweiten Punkt.\" \"Lassen Sie mich nun auf ... eingehen.\" Close: \"Lassen Sie mich kurz zusammenfassen: ...\", \"Abschließend möchte ich betonen, dass ...\", \"Vielen Dank für Ihre Aufmerksamkeit.\" In a presentation, ich and Sie are completely normal, unlike in the written Erörterung.",
+          "Mark each transition: \"Damit komme ich zu meinem zweiten Punkt.\" \"Lassen Sie mich nun auf ... eingehen.\" Close: \"Lassen Sie mich kurz zusammenfassen: ...\", \"Abschließend möchte ich betonen, dass ...\", \"Vielen Dank für Ihre Aufmerksamkeit.\" In a presentation, \"ich\" and \"Sie\" are completely normal, unlike in the written Erörterung.",
         ],
         examples: [
           { es: "Ich möchte heute über die Zukunft der Arbeit sprechen.", en: "Today I'd like to talk about the future of work." },
@@ -2294,7 +2296,7 @@ export const DE_C1_U18: Lesson[] = [
         body: [
           "After the presentation the examiners or your partner ask questions. Buy time politely: \"Das ist eine interessante Frage.\" \"Da muss ich kurz überlegen.\" Check understanding: \"Wenn ich Sie richtig verstanden habe, möchten Sie wissen, ob ...\" \"Meinen Sie damit, dass ...?\"",
           "If you don't know the answer: \"Darüber habe ich mir ehrlich gesagt noch keine Gedanken gemacht, aber ich könnte mir vorstellen, dass ...\" This turns a gap into a hedged answer, which is exactly the Advanced skill.",
-          "Asking a question yourself: \"Darf ich kurz nachfragen: ...?\", \"Sie haben vorhin erwähnt, dass ... Könnten Sie das noch etwas ausführen?\" (ausführen = to elaborate).",
+          "Asking a question yourself: \"Darf ich kurz nachfragen: ...?\", \"Sie haben vorhin erwähnt, dass ... Könnten Sie das noch etwas ausführen?\" (\"ausführen\" = to elaborate).",
         ],
         examples: [
           { es: "Das ist eine interessante Frage.", en: "That's an interesting question." },
@@ -2346,7 +2348,7 @@ export const DE_C1_U18: Lesson[] = [
             source: "You're right of course, but we mustn't forget the costs.",
             answer: "Da haben Sie natürlich recht, aber man darf die Kosten nicht vergessen.",
             altAnswers: ["Da haben Sie natürlich recht, aber wir dürfen die Kosten nicht vergessen.", "Sie haben natürlich recht, aber man darf die Kosten nicht vergessen.", "Sie haben natürlich recht, aber wir dürfen die Kosten nicht vergessen.", "Da haben Sie natürlich Recht, aber man darf die Kosten nicht vergessen."],
-            explanation: "Partial agreement, then the objection; mustn't is \"nicht dürfen\".",
+            explanation: "Partial agreement, then the objection; 'mustn't' is \"nicht dürfen\" (\"nicht müssen\" would mean 'don't have to').",
           },
           {
             type: "multiple-choice",
@@ -2425,7 +2427,7 @@ export const DE_C1_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "Finally, I would like to stress that education is the key.",
         answer: "Abschließend möchte ich betonen, dass Bildung der Schlüssel ist.",
-        altAnswers: ["Abschließend möchte ich hervorheben, dass Bildung der Schlüssel ist.", "Zum Schluss möchte ich betonen, dass Bildung der Schlüssel ist.", "Abschließend möchte ich betonen, dass Bildung der Schlüssel dazu ist."],
+        altAnswers: ["Abschließend möchte ich hervorheben, dass Bildung der Schlüssel ist.", "Zum Schluss möchte ich betonen, dass Bildung der Schlüssel ist."],
         explanation: "\"Abschließend\" signals the end of the presentation; \"der Schlüssel\" = the key.",
       },
       {
@@ -2444,14 +2446,14 @@ export const DE_C1_U18: Lesson[] = [
         type: "speak",
         text: "Vielen Dank für Ihre Aufmerksamkeit.",
         prompt: "Say it in German: Thank you for your attention.",
-        tip: "Aufmerksamkeit: AUF-merk-sam-keit, stress on the first syllable.",
+        tip: "\"Aufmerksamkeit\": AUF-merk-sam-keit, stress on the first syllable.",
         explanation: "The standard last sentence of a German presentation.",
       },
       {
         type: "speak",
         text: "Ich gebe Ihnen recht, dass das Ticket beliebt ist, allerdings ist es teuer.",
         prompt: "Say it in German (in a discussion): I agree that the ticket is popular, but it's expensive.",
-        tip: "Stress allerdings on DINGS to mark the turn.",
+        tip: "Stress \"allerdings\" on DINGS to mark the turn.",
         explanation: "Partial agreement first, then the objection with \"allerdings\".",
       },
     ],
@@ -2461,7 +2463,7 @@ export const DE_C1_U18: Lesson[] = [
     level: "DE-C1",
     number: 13,
     title: "Real-World Mission: Write an Academic Abstract",
-    summary: "Write an Abstract for a student conference in Leipzig on commuting and well-being, then a short Zusammenfassung of a newspaper article on the same topic.",
+    summary: "Write an academic abstract for a student conference in Leipzig on commuting and well-being, then a short \"Zusammenfassung\" of a newspaper article on the same topic.",
     duration: "18 min",
     sections: [
       {
@@ -2469,7 +2471,7 @@ export const DE_C1_U18: Lesson[] = [
         body: [
           "You are a master's student in Leipzig and want to present your survey on commuting and well-being at a student conference. The call for papers asks for an Abstract of at most 200 words. An Abstract has four moves: the question (Fragestellung), the method (Methode), the results (Ergebnisse) and the conclusion (Schlussfolgerung).",
           "Tenses: the present for what the paper does (\"Der vorliegende Beitrag untersucht ...\"), the Präteritum or passive past for what was done (\"Befragt wurden 312 Studierende\"), the present for results that still hold (\"Die Ergebnisse zeigen, dass ...\").",
-          "Abstracts are depersonalised: the paper, the study or the results are the subjects. In some disciplines \"wir\" is accepted (\"Wir zeigen, dass ...\"), but ich almost never appears.",
+          "Abstracts are depersonalised: the paper, the study or the results are the subjects. In some disciplines \"wir\" is accepted (\"Wir zeigen, dass ...\"), but \"ich\" almost never appears.",
         ],
         examples: [
           { es: "Der vorliegende Beitrag untersucht den Zusammenhang zwischen Pendelzeit und Wohlbefinden.", en: "This paper examines the relationship between commuting time and well-being." },
@@ -2495,16 +2497,16 @@ export const DE_C1_U18: Lesson[] = [
             sentence: "___.",
             answer: "Befragt wurden Studierende dreier Leipziger Hochschulen",
             altAnswers: ["Es wurden Studierende dreier Leipziger Hochschulen befragt", "Studierende dreier Leipziger Hochschulen wurden befragt", "Befragt wurden Studierende von drei Leipziger Hochschulen"],
-            explanation: "Putting the participle first (\"Befragt wurden ...\") is typical of method sections; \"dreier\" is the genitive of drei.",
+            explanation: "Putting the participle first (\"Befragt wurden ...\") is typical of method sections; \"dreier\" is the genitive of \"drei\".",
           },
         ],
       },
       {
         heading: "Results and conclusion",
         body: [
-          "Report results precisely and hedge where needed: \"Die Ergebnisse zeigen, dass ...\", \"Es zeigt sich ein deutlicher Zusammenhang zwischen ...\", \"Studierende mit einem Arbeitsweg von über einer Stunde geben signifikant häufiger an, gestresst zu sein.\" (angeben = to state, in surveys).",
+          "Report results precisely and hedge where needed: \"Die Ergebnisse zeigen, dass ...\", \"Es zeigt sich ein deutlicher Zusammenhang zwischen ...\", \"Studierende mit einem Arbeitsweg von über einer Stunde geben signifikant häufiger an, gestresst zu sein.\" (\"angeben\" = to state, in surveys).",
           "The conclusion links back to the question and often looks ahead: \"Die Befunde legen nahe, dass ...\" (the findings suggest), \"Abschließend werden Konsequenzen für die Wohnungspolitik diskutiert.\" (Finally, implications for housing policy are discussed.) \"Weitere Forschung ist nötig, um ...\".",
-          "Watch the false friend: \"signifikant\" in German academic writing means statistically significant; for important use \"wesentlich\" or \"bedeutend\".",
+          "Watch the false friend: \"signifikant\" in German academic writing means statistically significant; for 'important' use \"wesentlich\" or \"bedeutend\".",
         ],
         examples: [
           { es: "Studierende mit langen Arbeitswegen geben signifikant häufiger an, gestresst zu sein.", en: "Students with long commutes report being stressed significantly more often." },
@@ -2629,7 +2631,7 @@ export const DE_C1_U18: Lesson[] = [
         source: "According to Becker, almost one in three students now commutes for more than 45 minutes.",
         answer: "Becker zufolge pendle inzwischen fast jeder dritte Studierende mehr als 45 Minuten.",
         altAnswers: ["Laut Becker pendle inzwischen fast jeder dritte Studierende mehr als 45 Minuten.", "Becker zufolge pendle mittlerweile fast jeder dritte Studierende mehr als 45 Minuten.", "Becker zufolge pendelt inzwischen fast jeder dritte Studierende mehr als 45 Minuten.", "Laut Becker pendelt inzwischen fast jeder dritte Studierende mehr als 45 Minuten."],
-        explanation: "\"Pendle\" is the Konjunktiv I of pendeln; \"jeder dritte\" takes a singular verb.",
+        explanation: "\"Pendle\" is the Konjunktiv I of \"pendeln\"; \"jeder dritte\" takes a singular verb.",
       },
       {
         type: "word-order",
@@ -2651,13 +2653,13 @@ export const DE_C1_U18: Lesson[] = [
       {
         type: "dictation",
         audio: "Befragt wurden Studierende dreier Leipziger Hochschulen.",
-        explanation: "Participle first, then \"wurden\"; \"dreier\" is the genitive plural of drei.",
+        explanation: "Participle first, then \"wurden\"; \"dreier\" is the genitive plural of \"drei\".",
       },
       {
         type: "speak",
         text: "Der vorliegende Beitrag untersucht den Zusammenhang zwischen Pendelzeit und Wohlbefinden.",
         prompt: "Say it in German: This paper examines the relationship between commuting time and well-being.",
-        tip: "vorliegende: VOR-lie-gen-de; the ie is a long ee.",
+        tip: "\"vorliegende\": VOR-lie-gen-de; the ie is a long ee.",
         explanation: "The classic first sentence of a German Abstract.",
       },
     ],
@@ -2667,7 +2669,7 @@ export const DE_C1_U18: Lesson[] = [
     level: "DE-C1",
     number: 14,
     title: "Spiral Review: Academic Register and Nominalization",
-    summary: "Academic writing recombined with nominal style, the passive and its substitutes, concessive structures and discourse markers, in sentences about education, technology and the environment.",
+    summary: "Combine nominal style, the passive and its substitutes, concessive structures and discourse markers in academic sentences about education, technology and the environment.",
     duration: "18 min",
     sections: [
       {
@@ -2744,7 +2746,7 @@ export const DE_C1_U18: Lesson[] = [
         body: [
           "Discourse markers (Unit 10) hold the paragraph together. Adding: \"zudem\", \"darüber hinaus\", \"ferner\". Contrasting: \"hingegen\", \"demgegenüber\", \"allerdings\". Cause and consequence: \"folglich\", \"somit\", \"infolgedessen\", \"zumal\" (all the more since). Reformulating: \"das heißt\", \"mit anderen Worten\", \"genauer gesagt\".",
           "A sample paragraph: \"Die Digitalisierung verändert den Unterricht grundlegend. Zum einen stehen Lernenden mehr Informationen zur Verfügung, zum anderen wächst die Gefahr der Ablenkung. Folglich kommt es weniger auf die Technik selbst an als auf ihren didaktisch sinnvollen Einsatz, zumal viele Lehrkräfte bislang kaum entsprechend geschult sind.\"",
-          "Remember: \"zum anderen\" is the second of two points (not on the other hand, which is \"andererseits\"), and \"zumal\" is a subordinating conjunction with the verb at the end.",
+          "Remember: \"zum anderen\" is the second of two points (not 'on the other hand', which is \"andererseits\"), and \"zumal\" is a subordinating conjunction with the verb at the end.",
         ],
         examples: [
           { es: "Zum einen stehen mehr Informationen zur Verfügung, zum anderen wächst die Gefahr der Ablenkung.", en: "On the one hand more information is available, and on the other the risk of distraction is growing." },
@@ -2822,10 +2824,10 @@ export const DE_C1_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence uses zum anderen correctly?",
+        question: "Which sentence uses \"zum anderen\" correctly?",
         options: ["Zum einen fehlt Geld, zum anderen fehlt Personal.", "Zum einen ist das Ticket billig, zum anderen ist es aber teuer.", "Zum anderen möchte ich anfangen.", "Ich bin zum anderen der Meinung."],
         correctIndex: 0,
-        explanation: "\"Zum einen ... zum anderen\" lists two points of the same kind; on the other hand (contrast) is \"andererseits\".",
+        explanation: "\"Zum einen ... zum anderen\" lists two points of the same kind; 'on the other hand' (contrast) is \"andererseits\", so the second option contradicts itself.",
       },
       {
         type: "translate",
@@ -2861,7 +2863,7 @@ export const DE_C1_U18: Lesson[] = [
         type: "speak",
         text: "Zwar sind die Kosten hoch, doch die langfristigen Einsparungen überwiegen.",
         prompt: "Say it in German: Admittedly, the costs are high, but the long-term savings outweigh them.",
-        tip: "Stress zwar and doch: they frame the concession.",
+        tip: "Stress \"zwar\" and \"doch\": they frame the concession.",
         explanation: "\"Zwar ... doch\": grant, then limit.",
       },
     ],

@@ -59,7 +59,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
         heading: `Regrets and reproaches: the double infinitive`,
         body: [
           `With a modal verb, the past Konjunktiv II is "hätte" + infinitive + modal infinitive: "ich hätte anrufen sollen" (I should have called), "du hättest mir helfen können" (you could have helped me), "das hättest du nicht sagen dürfen" (you shouldn't have said that), "das hättest du nicht machen müssen" (you didn't have to do that). The modal is always the very last word.`,
-          `In a subordinate clause the rule surprises everyone: "hätte" does not go to the end but stands in front of the two infinitives. "Es tut mir leid, dass ich nicht hätte kommen können." The block of infinitives keeps its place at the very end.`,
+          `In a subordinate clause the rule surprises everyone: "hätte" does not go to the end but stands in front of the two infinitives. "Ich weiß, dass ich früher hätte anrufen sollen." The block of infinitives keeps its place at the very end.`,
           `Present advice versus past reproach is a clean contrast: "Du solltest mehr schlafen" (you should sleep more) / "Du hättest mehr schlafen sollen" (you should have slept more).`,
         ],
         table: {
@@ -95,7 +95,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Ich sollte angerufen haben.",
         right: "Ich hätte anrufen sollen.",
-        why: `"Ich sollte angerufen haben" means I am said to have called (hearsay). The regret I should have called is "ich hätte anrufen sollen".`,
+        why: `"Sollte" + perfect infinitive expresses an expectation ("Er sollte längst angekommen sein", he ought to have arrived by now), not a regret about something you failed to do. The regret I should have called is "ich hätte anrufen sollen".`,
       },
       {
         wrong: "..., weil ich nicht kommen können hätte.",
@@ -226,7 +226,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Er sagte, er war krank.",
         right: "Er sagte, er sei krank.",
-        why: `German does not backshift the tense in reported speech. The original was "Ich bin krank", so the report keeps the present and uses Konjunktiv I. In casual speech "er sagte, er ist krank" is also heard, but "war" changes the meaning.`,
+        why: `German does not backshift the tense in reported speech. The original was "Ich bin krank", so the report keeps the present and uses Konjunktiv I. In casual speech "er sagte, er ist krank" is also heard, but "war" makes it sound as if he had said "Ich war krank".`,
       },
       {
         wrong: "Sie sagen, sie haben keine Zeit.",
@@ -235,8 +235,8 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
       },
       {
         wrong: "Er sagt, er fährt morgen.",
-        right: "Er sagt, er fahre am nächsten Tag.",
-        why: `In written reporting, use Konjunktiv I "fahre" (no vowel change) and shift the time word. The indicative is fine only in casual speech.`,
+        right: "Er sagt, er fahre morgen.",
+        why: `In written reporting, use Konjunktiv I "fahre" (no vowel change); the indicative is fine only in casual speech. Reported on a later day, the time word shifts too: "Er sagte, er fahre am nächsten Tag."`,
       },
       {
         wrong: "Der Chef sagte, ich muss warten.",
@@ -463,7 +463,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
         heading: `Reading strategy: unpack from the outside in`,
         body: [
           `When you meet an article followed by something that is clearly not the noun ("die von ..."), jump ahead to find the noun: it follows the first participle or adjective with an ending. Read article + noun first, then go back and turn the middle into a relative clause.`,
-          `"Der von vielen Experten seit Langem geforderte Ausbau des Netzes" → der Ausbau des Netzes, den viele Experten seit Langem gefordert haben (the expansion of the network which many experts have long called for).`,
+          `"Der von vielen Experten seit Langem geforderte Ausbau des Netzes" → "der Ausbau des Netzes, den viele Experten seit Langem gefordert haben" (the expansion of the network which many experts have long called for).`,
         ],
         examples: [
           { de: "der von vielen Experten seit Langem geforderte Ausbau", en: "the expansion that many experts have long been calling for" },
@@ -484,9 +484,9 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
         why: `Partizip II of "steigen" is "gestiegen". Partizip I is "steigend". Do not blend them: "gestiegene" (has risen) vs "steigende" (is rising).`,
       },
       {
-        wrong: "Ich bin gelangweilt, der Film ist so langweilend.",
-        right: "Mir ist langweilig, der Film ist so langweilig.",
-        why: `Not every English -ing / -ed pair maps onto Partizip I and II. Many feelings use ordinary adjectives; check pairs such as "spannend / gespannt", "langweilig / gelangweilt".`,
+        wrong: "Der Film ist so langweilend.",
+        right: "Der Film ist so langweilig.",
+        why: `Not every English -ing / -ed pair maps onto Partizip I and II: boring is the ordinary adjective "langweilig" (bored is "gelangweilt", or "Mir ist langweilig"). Check pairs such as "spannend / gespannt", "langweilig / gelangweilt".`,
       },
       {
         wrong: "die von ihm schreibende Mail",
@@ -607,9 +607,9 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
     ],
     mistakes: [
       {
-        wrong: "der Lieferung",
-        right: "die Lieferung",
-        why: `Every noun in "-ung" is feminine, without exception.`,
+        wrong: "Der Lieferung kommt morgen.",
+        right: "Die Lieferung kommt morgen.",
+        why: `Nouns formed with the suffix "-ung" are feminine, without exception.`,
       },
       {
         wrong: "wegen dem Regen (in a formal letter)",
@@ -785,7 +785,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
     ],
     sections: [
       {
-        heading: `Form: werden + perfect infinitive`,
+        heading: `Form: "werden" + perfect infinitive`,
         body: [
           `Futur II is the present of "werden" plus the perfect infinitive (Partizip II + "haben" or "sein"). The auxiliary choice is the same as in the Perfekt: "ich werde gegessen haben", "sie wird gegangen sein".`,
           `In a subordinate clause the conjugated "werden" goes to the end: "Ich glaube, dass er den Termin vergessen haben wird."`,
@@ -958,7 +958,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
           { de: "Er verließ den Raum, ohne ein Wort zu sagen.", en: "He left the room without saying a word." },
           { de: "Die Tür ging auf, ohne dass jemand klingelte.", en: "The door opened without anyone ringing." },
           { de: "Anstatt zu lernen, hat er den ganzen Abend gespielt.", en: "Instead of studying, he played all evening." },
-          { de: "Anstatt dass wir streiten, sollten wir eine Lösung suchen.", en: "Instead of us arguing, we should look for a solution." },
+          { de: "Anstatt dass du dich beschwerst, könnten wir gemeinsam eine Lösung suchen.", en: "Instead of you complaining, we could look for a solution together." },
         ],
       },
     ],
@@ -1176,9 +1176,9 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Adverbials: TeKaMoLo`,
+        heading: `Adverbials: "TeKaMoLo"`,
         body: [
-          `The default order of adverbials is temporal (when), kausal (why), modal (how), lokal (where): TeKaMoLo. "Ich fahre morgen wegen der Arbeit mit dem Zug nach Köln." English typically goes the other way: by train to Cologne tomorrow.`,
+          `The default order of adverbials is "temporal" (when), "kausal" (why), "modal" (how), "lokal" (where): "TeKaMoLo". "Ich fahre morgen wegen der Arbeit mit dem Zug nach Köln." English typically goes the other way: by train to Cologne tomorrow.`,
           `This is a default, not a law. Directional phrases ("nach Köln", "in die Stadt") stay close to the end of the clause, and anything you want to stress can move later in the Mittelfeld or to the Vorfeld.`,
         ],
         examples: [
@@ -1303,7 +1303,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
         },
         examples: [
           { de: "Du bist ja ganz nass!", en: "You're soaking wet! (I can see it.)" },
-          { de: "Ruf ihn doch einfach an.", en: "Why don't you just call him." },
+          { de: "Ruf ihn doch einfach an.", en: "Why don't you just call him?" },
           { de: "Ich habe das doch gesagt!", en: "I did say that! (you should remember)" },
           { de: "Der Zug ist weg. Dann nehmen wir eben den nächsten.", en: "The train's gone. Then we'll just take the next one." },
           { de: "Keine Sorge, das schaffst du schon.", en: "Don't worry, you'll manage." },
@@ -1369,7 +1369,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
       },
       {
         q: `Is "doch" as an answer the same word?`,
-        a: `It is the same word with a different job. Stressed "Doch!" contradicts a negative statement or question (Kommst du nicht? – Doch!). The unstressed particle "doch" in the middle of a sentence is a modal particle.`,
+        a: `It is the same word with a different job. Stressed "Doch!" contradicts a negative statement or question ("Kommst du nicht?" – "Doch!"). The unstressed particle "doch" in the middle of a sentence is a modal particle.`,
       },
     ],
     related: ["vorfeld-and-emphasis", "mittelfeld-word-order", "stylistic-registers", "german-questions-doch"],
@@ -1397,7 +1397,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
       {
         heading: `"An" and "auf": accusative or dative?`,
         body: [
-          `After a prepositional verb, "an" and "auf" have no sense of location, so you cannot use the wo/wohin test. With "auf", the accusative is far more common ("warten auf", "sich freuen auf", "achten auf", "sich verlassen auf"); "bestehen auf" takes the dative. With "an", both are common: "denken an", "sich erinnern an", "sich gewöhnen an" + accusative, but "teilnehmen an", "zweifeln an", "leiden an", "arbeiten an" + dative.`,
+          `After a prepositional verb, "an" and "auf" have no sense of location, so you cannot use the "wo"/"wohin" test. With "auf", the accusative is far more common ("warten auf", "sich freuen auf", "achten auf", "sich verlassen auf"); "bestehen auf" takes the dative. With "an", both are common: "denken an", "sich erinnern an", "sich gewöhnen an" + accusative, but "teilnehmen an", "zweifeln an", "leiden an", "arbeiten an" + dative.`,
           `Prepositions that always take one case keep it: "über", "für", "um" + accusative; "mit", "von", "zu", "nach", "bei", "aus" + dative; "vor" in prepositional verbs takes the dative ("Angst haben vor", "warnen vor").`,
         ],
         table: {
@@ -1503,7 +1503,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
       },
       {
         q: `When is the da-compound optional?`,
-        a: `With some verbs it can be left out before a clause: "Ich erinnere mich (daran), dass ...". With others it is required: "Es kommt darauf an, ob ..." Include it when in doubt; it is never wrong.`,
+        a: `With some verbs it can be left out before a clause: "Ich erinnere mich (daran), dass ...". With others it is required: "Es kommt darauf an, ob ..." Including it is rarely wrong, but it can change the meaning: "Ich freue mich, dass du kommst" (I'm glad you're coming) vs "Ich freue mich darauf, dass du kommst" (I'm looking forward to your coming).`,
       },
       {
         q: `Do Germans say "auf was" or "worauf"?`,
@@ -1562,10 +1562,10 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
         body: [
           `Masculine nouns ending in "-e" that refer to people or animals: "der Junge", "der Kunde", "der Kollege", "der Zeuge", "der Experte", "der Löwe", "der Affe", "der Franzose", "der Pole".`,
           `Masculine nouns from Latin or Greek with these endings: "-ant" ("der Praktikant"), "-ent" ("der Student", "der Präsident"), "-ist" ("der Journalist", "der Polizist"), "-oge" ("der Psychologe", "der Biologe"), "-at" ("der Kandidat", "der Soldat"), "-et" ("der Athlet"), "-graf" ("der Fotograf").`,
-          `A few short nouns to memorise: "der Mensch", "der Herr" (den Herrn, plural die Herren), "der Nachbar", "der Bauer", "der Bär", "der Held", "der Prinz", "der Fürst", "der Graf".`,
+          `A few short nouns to memorise: "der Mensch", "der Herr" ("den Herrn", plural "die Herren"), "der Nachbar", "der Bauer", "der Bär", "der Held", "der Prinz", "der Fürst", "der Graf".`,
         ],
         examples: [
-          { de: "Der Journalist hat den Politiker interviewt.", en: "The journalist interviewed the politician. (Politiker is not weak)" },
+          { de: "Der Journalist hat den Politiker interviewt.", en: "The journalist interviewed the politician. (\"Politiker\" is not weak)" },
           { de: "Wir haben dem Kandidaten gratuliert.", en: "We congratulated the candidate." },
           { de: "Sehr geehrter Herr Braun, ...", en: "Dear Mr Braun, ..." },
           { de: "Ich schreibe Herrn Braun eine E-Mail.", en: "I'm writing Mr Braun an e-mail." },
@@ -1581,7 +1581,7 @@ export const DE_B2_GUIDES: DeGrammarGuide[] = [
           { de: "Wie war noch mal der Name des Hotels?", en: "What was the name of the hotel again?" },
           { de: "Ich kann mich an seinen Namen nicht erinnern.", en: "I can't remember his name." },
           { de: "Der Gedanke an die Prüfung macht mich nervös.", en: "The thought of the exam makes me nervous." },
-          { de: "Sie spricht mit ganzem Herzen.", en: "She speaks with her whole heart." },
+          { de: "Sie ist mit ganzem Herzen dabei.", en: "She's putting her whole heart into it." },
           { de: "Trotz des guten Willens hat es nicht geklappt.", en: "Despite the good will, it didn't work out." },
         ],
       },

@@ -282,7 +282,7 @@ export const DE_B2_S05_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "der Schalter", en: "counter (in a bank or post office)", forms: ["schalter"] },
   ],
   "de-ein-dorf-kauft-seine-kneipe": [
-    { es: "selbstverständlich", en: "to be taken for granted, a matter of course", forms: ["selbstverständlich"] },
+    { es: "selbstverständlich", en: "taken for granted, a matter of course", forms: ["selbstverständlich"] },
     { es: "der Nachfolger", en: "successor", forms: ["nachfolger"] },
     { es: "sich vertragen", en: "to get along, to make up", forms: ["verträgt"] },
     { es: "der Mitstreiter", en: "fellow campaigner", forms: ["mitstreitern"] },

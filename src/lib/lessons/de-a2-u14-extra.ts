@@ -90,6 +90,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "He's staying at home because his daughter is ill.",
         answer: "Er bleibt zu Hause, weil seine Tochter krank ist.",
+        altAnswers: ["Er bleibt zuhause, weil seine Tochter krank ist."],
         explanation: "\"Weil seine Tochter krank ist\": subject straight after \"weil\", verb last.",
       },
       {
@@ -309,7 +310,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say: I don't know if I have time.",
+        question: "How do you say: I don't know if I have time?",
         options: ["Ich weiß nicht, ob ich Zeit habe.", "Ich weiß nicht, wenn ich Zeit habe.", "Ich weiß nicht, ob habe ich Zeit.", "Ich weiß nicht, wenn habe ich Zeit."],
         correctIndex: 0,
         explanation: "After \"wissen\", if = whether = \"ob\".",
@@ -546,7 +547,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Jonas: Translate into German, using weil.",
+        prompt: "Jonas: Translate into German, using \"weil\".",
         source: "Because it was raining.",
         answer: "Weil es geregnet hat.",
         altAnswers: ["Weil es regnete."],
@@ -564,7 +565,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Jonas: Translate into German, using denn.",
+        prompt: "Jonas: Translate into German, using \"denn\".",
         source: "I couldn't clean, because I had no time.",
         answer: "Ich konnte nicht putzen, denn ich hatte keine Zeit.",
         altAnswers: ["Ich konnte nicht sauber machen, denn ich hatte keine Zeit."],
@@ -592,10 +593,10 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Jonas: Translate into German.",
-        source: "OK, I went to the cinema because the film only ran yesterday.",
-        answer: "Okay, ich bin ins Kino gegangen, weil der Film nur gestern lief.",
-        altAnswers: ["Okay, ich war im Kino, weil der Film nur gestern lief.", "Ok, ich bin ins Kino gegangen, weil der Film nur gestern lief.", "Okay, ich bin ins Kino gegangen, weil der Film nur gestern gelaufen ist."],
-        explanation: "\"Laufen\" is also used for films showing; \"lief\" goes last in the weil-clause.",
+        source: "OK, I went to the cinema because the film was only on yesterday.",
+        answer: "Okay, ich bin ins Kino gegangen, weil der Film nur gestern gelaufen ist.",
+        altAnswers: ["Okay, ich war im Kino, weil der Film nur gestern gelaufen ist.", "Okay, ich bin ins Kino gegangen, weil der Film nur gestern lief.", "Okay, ich war im Kino, weil der Film nur gestern lief.", "Ok, ich bin ins Kino gegangen, weil der Film nur gestern gelaufen ist."],
+        explanation: "\"Laufen\" is also used for a film that is on; in the weil-clause the auxiliary goes last: \"gelaufen ist\" (or the written past \"lief\").",
       },
       {
         type: "translate",
@@ -625,10 +626,10 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Lena asks: Warum hast du nicht eingekauft? Which reply is correct?",
+        question: "Lena asks: \"Warum hast du nicht eingekauft?\" Which reply is correct?",
         options: ["Weil der Supermarkt schon zu war.", "Denn der Supermarkt war schon zu.", "Weil der Supermarkt war schon zu.", "Dass der Supermarkt schon zu war."],
         correctIndex: 0,
-        explanation: "A stand-alone reply to warum? needs \"weil\" + verb last.",
+        explanation: "A stand-alone reply to \"warum?\" needs \"weil\" + verb last; \"denn\" can't start a reply, and \"dass\" gives no reason.",
       },
       {
         type: "word-order",
@@ -758,7 +759,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I don't know if they moved into the new flat.",
         answer: "Ich weiß nicht, ob sie in die neue Wohnung gezogen sind.",
-        altAnswers: ["Ich weiß nicht, ob sie in die neue Wohnung umgezogen sind."],
+        altAnswers: ["Ich weiß nicht, ob sie in die neue Wohnung umgezogen sind.", "Ich weiß nicht, ob sie in die neue Wohnung eingezogen sind."],
         explanation: "Movement into → accusative \"in die neue Wohnung\"; \"ziehen\" (move) takes \"sein\".",
       },
       {
@@ -776,6 +777,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Because we got up late, we missed the train.",
         answer: "Weil wir spät aufgestanden sind, haben wir den Zug verpasst.",
+        altAnswers: ["Wir haben den Zug verpasst, weil wir spät aufgestanden sind."],
         explanation: "Clause first: \"aufgestanden sind, haben wir\".",
       },
       {
@@ -830,7 +832,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
         heading: "Recap: three pairs",
         body: [
           "\"Denn\" (verb second) vs \"weil\" (verb last): same meaning, different order. \"Das\" (article or pronoun, replaceable by \"dieses\") vs \"dass\" (conjunction, verb last). \"Wenn\" (if = condition, when) vs \"ob\" (if = whether).",
-          "Quick tests: Can it answer warum? alone → \"weil\". Can you say \"dieses\" → \"das\". Can you say whether → \"ob\".",
+          "Quick tests: Can it answer \"warum?\" alone → \"weil\". Can you say \"dieses\" → \"das\". Can you say whether → \"ob\".",
         ],
         examples: [
           { es: "Ich esse nichts, denn ich habe keinen Hunger.", en: "I'm not eating anything, because I'm not hungry." },
@@ -864,7 +866,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using weil.",
+        prompt: "Translate into German, using \"weil\".",
         source: "I'm not eating anything because I'm not hungry.",
         answer: "Ich esse nichts, weil ich keinen Hunger habe.",
         altAnswers: ["Ich esse nichts, weil ich nicht hungrig bin."],
@@ -873,7 +875,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using denn.",
+        prompt: "Translate into German, using \"denn\".",
         source: "We're staying in, because it's too cold.",
         answer: "Wir bleiben drinnen, denn es ist zu kalt.",
         altAnswers: ["Wir bleiben zu Hause, denn es ist zu kalt.", "Wir bleiben im Haus, denn es ist zu kalt."],
@@ -938,7 +940,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
         source: "Why are you laughing? – Because the film is so funny.",
         answer: "Warum lachst du? – Weil der Film so lustig ist.",
         altAnswers: ["Warum lacht ihr? – Weil der Film so lustig ist.", "Warum lachen Sie? – Weil der Film so lustig ist."],
-        explanation: "Only \"weil\" can answer warum? on its own.",
+        explanation: "Only \"weil\" can answer \"warum?\" on its own, and \"ist\" goes last.",
       },
       {
         type: "translate",
@@ -958,7 +960,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say: I don't know if she's at home.",
+        question: "How do you say: I don't know if she's at home?",
         options: ["Ich weiß nicht, ob sie zu Hause ist.", "Ich weiß nicht, wenn sie zu Hause ist.", "Ich weiß nicht, denn sie ist zu Hause.", "Ich weiß nicht, dass sie zu Hause ist."],
         correctIndex: 0,
         explanation: "If = whether → \"ob\".",
@@ -991,7 +993,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
       {
         heading: "Recap: three positions",
         body: [
-          "Position 2: normal statements and after \"denn\", \"und\", \"aber\", \"oder\" (\"Ich bin müde\"). Position 1: yes/no questions, imperatives, and the main clause after a fronted subordinate clause (\"..., bin ich müde\"). Last: after \"weil\", \"dass\", \"wenn\", \"ob\" and W-words in indirect questions.",
+          "Position 2: normal statements, after \"denn\", \"und\", \"aber\", \"oder\" (\"Ich bin müde\"), and the main clause after a fronted subordinate clause, because the whole clause is position 1 (\"Weil es spät ist, bin ich müde\"). Position 1: yes/no questions and imperatives. Last: after \"weil\", \"dass\", \"wenn\", \"ob\" and W-words in indirect questions.",
           "Go fast: say each sentence aloud before you type it.",
         ],
         examples: [
@@ -1045,9 +1047,10 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Today it's late.",
-        answer: "Heute ist es spät.",
-        explanation: "Time word first → verb second: \"Heute ist es\".",
+        source: "Today I'm tired.",
+        answer: "Heute bin ich müde.",
+        altAnswers: ["Ich bin heute müde."],
+        explanation: "Time word first → verb second, subject after it: \"Heute bin ich\", not \"*Heute ich bin\".",
       },
       {
         type: "translate",
@@ -1080,15 +1083,16 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "If it rains, I'll stay at home.",
         answer: "Wenn es regnet, bleibe ich zu Hause.",
-        altAnswers: ["Ich bleibe zu Hause, wenn es regnet."],
+        altAnswers: ["Ich bleibe zu Hause, wenn es regnet.", "Wenn es regnet, bleibe ich zuhause."],
         explanation: "Verb, comma, verb.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "I'm staying at home, because it's raining. (use denn)",
+        source: "I'm staying at home, because it's raining. (use \"denn\")",
         answer: "Ich bleibe zu Hause, denn es regnet.",
+        altAnswers: ["Ich bleibe zuhause, denn es regnet."],
         explanation: "\"Denn\" → verb second.",
       },
       {
@@ -1098,7 +1102,7 @@ export const DE_A2_U14_EXTRA: Lesson[] = [
         source: "I know that he has called.",
         answer: "Ich weiß, dass er angerufen hat.",
         altAnswers: ["Ich weiß, er hat angerufen."],
-        explanation: "Auxiliary last.",
+        explanation: "In the dass-clause the auxiliary \"hat\" goes last, after the participle.",
       },
       {
         type: "translate",

@@ -7,8 +7,8 @@ export const DE_CULTURE_U03: Lesson[] = [
     slug: "culture-ordnung-muss-sein-1",
     level: "DE-Culture",
     number: 1,
-    title: "Ordnung Muss Sein?, Part 1 of 2",
-    summary: "The rules of shared life in Germany: quiet Sundays and closed shops, Ruhezeiten and the Hausordnung, the Swabian Kehrwoche, and the art of sorting your rubbish and returning your bottles.",
+    title: "Ordnung muss sein?, Part 1 of 2",
+    summary: "Follow the rules of shared life in Germany: quiet Sundays and closed shops, \"Ruhezeiten\" and the \"Hausordnung\", the Swabian \"Kehrwoche\", sorting your rubbish and returning your bottles.",
     duration: "18 min",
     sections: [
       {
@@ -124,7 +124,7 @@ export const DE_CULTURE_U03: Lesson[] = [
           {
             type: "speak",
             text: "Ordnung muss sein!",
-            tip: "\"Ordnung\": the final g sounds like k; say it with a wink, as Germans usually do.",
+            tip: "\"Ordnung\": the final -ng is one sound, as in English sing, with no hard g; say it with a wink, as Germans usually do.",
             explanation: "The proverbial German love of order, said both proudly and ironically.",
           },
         ],
@@ -221,7 +221,7 @@ export const DE_CULTURE_U03: Lesson[] = [
     slug: "culture-puenktlichkeit-contrast",
     level: "DE-Culture",
     number: 2,
-    title: "Contrast Clinic: Pünktlichkeit Hier und Anderswo",
+    title: "Contrast Clinic: Pünktlichkeit hier und anderswo",
     summary: "What on time really means in Germany: appointments versus parties, the academic quarter at university, how to announce that you're running late, and the national irony about Deutsche Bahn.",
     duration: "16 min",
     sections: [
@@ -304,7 +304,7 @@ export const DE_CULTURE_U03: Lesson[] = [
       {
         heading: "The Deutsche Bahn paradox",
         body: [
-          "Germans pride themselves on punctuality, yet their railway is famously unpunctual: in recent years only around two-thirds of long-distance trains have arrived on time (and the statistics only count delays of six minutes or more). Complaining about \"die Bahn\" is a national pastime and a safe topic of small talk with anyone.",
+          "Germans pride themselves on punctuality, yet their railway is famously unpunctual: in recent years only around 60 to 65 per cent of long-distance trains have arrived on time (and the statistics only count delays of six minutes or more). Complaining about \"die Bahn\" is a national pastime and a safe topic of small talk with anyone.",
           "The announcements have become catchphrases: \"Wegen einer Verzögerung im Betriebsablauf\" (due to a delay in operations, i.e. nobody's telling you why), \"Der Zug fällt heute aus\" (the train is cancelled today), \"in umgekehrter Wagenreihung\" (with the carriages in reverse order). The ironic reaction: \"Typisch Bahn!\" or \"Das ist ja mal wieder typisch.\"",
           "So the contrast: Germans expect people to be on time but forgive the Bahn with a sigh. If you're late because of the train, say so: \"Mein Zug hatte Verspätung\" is the most accepted excuse in the country.",
         ],
@@ -422,8 +422,8 @@ export const DE_CULTURE_U03: Lesson[] = [
     slug: "culture-ordnung-muss-sein-2",
     level: "DE-Culture",
     number: 3,
-    title: "Ordnung Muss Sein?, Part 2 of 2",
-    summary: "German work culture: the sacred Feierabend, holidays and sick notes, direct but factual criticism, and the right way to wish a colleague luck before an exam or interview.",
+    title: "Ordnung muss sein?, Part 2 of 2",
+    summary: "Navigate German work culture: the sacred \"Feierabend\", holidays and sick notes, direct but factual criticism, and the right way to wish a colleague luck before an exam or interview.",
     duration: "18 min",
     sections: [
       {
@@ -465,7 +465,7 @@ export const DE_CULTURE_U03: Lesson[] = [
         body: [
           "German workplace communication is often more direct than English speakers expect. \"Das funktioniert so nicht\" (That won't work like that) or \"Da sehe ich ein Problem\" is a normal comment in a meeting, not an attack. The underlying principle: criticism is about the matter (\"die Sache\"), not the person. \"Sachlich bleiben\" (stay factual) is the ideal.",
           "English speakers often wrap criticism in praise and hedges (I wonder if we might possibly...). To German ears that can sound unclear or even insincere, and the actual message may be missed. Conversely, German directness can sound rude to English ears. Knowing this prevents a lot of misunderstandings.",
-          "Directness doesn't mean impoliteness, and Konjunktiv II is the polite tool: \"Könnten Sie mir den Bericht bis Freitag schicken?\", \"Wäre es möglich, das Meeting zu verschieben?\", \"Ich würde vorschlagen, dass wir ...\". Clear content, polite form. Separating work and private life is part of the same culture: many colleagues stay on \"Sie\" for years and keep their weekends to themselves.",
+          "Directness doesn't mean impoliteness, and Konjunktiv II is the polite tool: \"Könnten Sie mir den Bericht bis Freitag schicken?\", \"Wäre es möglich, das Meeting zu verschieben?\", \"Ich würde vorschlagen, dass wir ...\". Clear content, polite form. Separating work and private life is part of the same culture: in more traditional workplaces many colleagues stay on \"Sie\" for years and keep their weekends to themselves.",
         ],
         examples: [
           { es: "Das funktioniert so nicht.", en: "That won't work like that." },
@@ -629,7 +629,7 @@ export const DE_CULTURE_U03: Lesson[] = [
     level: "DE-Culture",
     number: 4,
     title: "Real-World Mission: Your First Week in a German Building",
-    summary: "Read and decode a real-style Hausordnung, sort a week of rubbish correctly, and write a friendly Aushang inviting the neighbours to your housewarming.",
+    summary: "Read and decode a realistic \"Hausordnung\", sort a week of rubbish correctly, and write a friendly \"Aushang\" inviting the neighbours to your housewarming.",
     duration: "18 min",
     sections: [
       {
@@ -842,7 +842,7 @@ export const DE_CULTURE_U03: Lesson[] = [
     level: "DE-Culture",
     number: 5,
     title: "Höflichkeitsregeln, Part 1 of 2",
-    summary: "Greeting the German way: the handshake and the hug, Moin, Grüß Gott and Servus by region, greeting strangers in waiting rooms, titles and surnames, and why Wie geht's? is a real question.",
+    summary: "Greet people the German way: the handshake and the hug, \"Moin\", \"Grüß Gott\" and \"Servus\" by region, greeting strangers in waiting rooms, titles and surnames, and answering \"Wie geht's?\" as the real question it is.",
     duration: "17 min",
     sections: [
       {
@@ -881,12 +881,12 @@ export const DE_CULTURE_U03: Lesson[] = [
       {
         heading: "Moin, Grüß Gott, Servus: greetings by region",
         body: [
-          "\"Guten Tag\" and \"Hallo\" work everywhere. But the regions have their own words. In the north, \"Moin\" (or \"Moin moin\", which some locals find too chatty) is used at any time of day, even in the evening. In Bavaria and Austria, \"Grüß Gott\" is the standard polite greeting, and \"Servus\" (from Latin: your servant) is the friendly hi and bye. In Switzerland you hear \"Grüezi\". At lunchtime at work: \"Mahlzeit\".",
+          "\"Guten Tag\" and \"Hallo\" work everywhere. But the regions have their own words. In the north, \"Moin\" (regional for \"Hallo\" / \"Guten Tag\"; \"Moin moin\" is also heard, though some locals find it too chatty) is used at any time of day, even in the evening. In Bavaria and Austria, \"Grüß Gott\" is the standard polite greeting, and \"Servus\" (from Latin: your servant) is the friendly hi and bye. In Switzerland you hear \"Grüezi\" (Swiss German, roughly \"Guten Tag\"). At lunchtime at work: \"Mahlzeit\".",
           "Germans greet people they don't know in shared small spaces: entering a doctor's waiting room you say \"Guten Tag\" to the room; in a lift, a small shop or a sauna you greet and say goodbye (\"Tschüss\", \"Auf Wiedersehen\", \"Schönen Tag noch!\"). Entering silently can come across as rude.",
-          "Leaving: \"Tschüss\" (informal, now used widely, even with shop staff), \"Auf Wiedersehen\" (formal), \"Ciao\" (casual), \"Bis dann / Bis später / Bis morgen\". In the south also \"Pfiat di\" (Bavarian) or \"Ade\" (Swabian).",
+          "Leaving: \"Tschüss\" (informal, now used widely, even with shop staff), \"Auf Wiedersehen\" (formal), \"Ciao\" (casual), \"Bis dann / Bis später / Bis morgen\". In the south also \"Pfiat di\" (Bavarian, from \"Behüt dich Gott\": bye) or \"Ade\" (Swabian and south-western: bye).",
         ],
         examples: [
-          { es: "Moin! Na, alles klar?", en: "Morning! All good? (in the north, at any time)" },
+          { es: "Moin! Na, alles klar?", en: "Hi! All good? (in the north, at any time of day)" },
           { es: "Grüß Gott, Frau Huber!", en: "Hello, Mrs Huber! (in Bavaria)" },
           { es: "Servus, wie geht's dir?", en: "Hi, how are you? (in Bavaria or Austria)" },
           { es: "Guten Tag zusammen!", en: "Hello, everyone!" },
@@ -908,7 +908,7 @@ export const DE_CULTURE_U03: Lesson[] = [
             question: "It's 8 p.m. in Hamburg and you walk into a small bar. Which greeting sounds most local?",
             options: ["Moin!", "Grüß Gott!", "Grüezi!", "Mahlzeit!"],
             correctIndex: 0,
-            explanation: "\"Moin\" in the north works at any time of day, despite its link with Morgen. \"Grüß Gott\" is southern, \"Grüezi\" Swiss, \"Mahlzeit\" for lunchtime.",
+            explanation: "\"Moin\" in the north works at any time of day: it most likely comes from Low German \"moi\" (good, nice), not from \"Morgen\". \"Grüß Gott\" is southern, \"Grüezi\" Swiss, \"Mahlzeit\" for lunchtime.",
           },
           {
             type: "listen-choose",
@@ -1054,7 +1054,7 @@ export const DE_CULTURE_U03: Lesson[] = [
     level: "DE-Culture",
     number: 6,
     title: "Contrast Clinic: Du oder Sie?",
-    summary: "One English you, two German ones: who you duzen and siezen in daily life, who offers the du and how, the risky faux pas, and in-between forms like the Hamburger Sie.",
+    summary: "Decide who to \"duzen\" and \"siezen\" in daily life, offer or accept the \"du\", avoid the risky faux pas, and recognise in-between forms like the \"Hamburger Sie\".",
     duration: "17 min",
     sections: [
       {
@@ -1062,7 +1062,7 @@ export const DE_CULTURE_U03: Lesson[] = [
         body: [
           "\"Du\" (and \"ihr\" in the plural) is for family, friends, children, and among young people, students and most people under about 30 when they meet socially. \"Sie\" is for adults you don't know: shop staff, officials, doctors, the police, and in many buildings your neighbours, especially older ones.",
           "At work it depends on the company. Start-ups, tech firms, creative agencies and many Swedish-style retailers use \"du\" from day one; banks, law firms, public administration and traditional companies often stay on \"Sie\" for years. Listen to how colleagues address each other and follow suit.",
-          "Some contexts have their own du-culture: sports clubs and team sports, choirs, mountain hikes (on the mountain people often say \"du\" to strangers), Karneval, online forums and social media, and brands that address customers with \"du\" in ads. Teachers address pupils with \"du\" up to about 16; pupils always say \"Sie\" to teachers.",
+          "Some contexts have their own du-culture: sports clubs and team sports, choirs, mountain hikes (on the mountain people often say \"du\" to strangers), Karneval, online forums and social media, and brands that address customers with \"du\" in ads. Teachers usually address pupils with \"du\" until the upper school (around 16), when many switch to \"Sie\"; pupils almost always say \"Sie\" to teachers.",
         ],
         examples: [
           { es: "Bei uns in der Firma duzen sich alle.", en: "In our company everyone uses du." },
@@ -1137,7 +1137,7 @@ export const DE_CULTURE_U03: Lesson[] = [
       {
         heading: "Faux pas and in-between forms",
         body: [
-          "The biggest faux pas: saying \"du\" to a police officer or an official in a confrontational way. It can be treated as an insult (\"Beleidigung\") and has led to fines in court. Use \"Sie\" with authority, always.",
+          "The biggest faux pas: saying \"du\" to a police officer or an official in a confrontational way. It can be treated as an insult (\"Beleidigung\") and has sometimes led to fines in court. Use \"Sie\" with authority, always.",
           "Between the two there are mixed forms. The \"Hamburger Sie\" combines first name and \"Sie\": \"Anna, können Sie mir mal helfen?\", common in offices, in the media and between a boss and staff. The rarer \"Münchner Du\" combines surname and \"du\": \"Frau Huber, kannst du mal kommen?\".",
           "Compare English: you is the same for everyone, so English shows closeness through first names, tone and small talk. German encodes it in the grammar, so you must decide every time. The good news: Germans forgive foreigners a lot here, as long as you start with \"Sie\" when in doubt (\"Im Zweifel siezen\").",
         ],
@@ -1160,7 +1160,7 @@ export const DE_CULTURE_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your boss calls you by your first name but says Sie. What's this called?",
+            question: "Your boss calls you by your first name but says \"Sie\". What's this called?",
             options: ["das Hamburger Sie", "das Münchner Du", "das Berliner Du", "das Kölner Sie"],
             correctIndex: 0,
             explanation: "First name + Sie is the \"Hamburger Sie\": friendly but still formal.",
@@ -1263,7 +1263,7 @@ export const DE_CULTURE_U03: Lesson[] = [
     level: "DE-Culture",
     number: 7,
     title: "Höflichkeitsregeln, Part 2 of 2",
-    summary: "Being a good guest and customer: the right flowers, shoes off, no house tours, speed at the Aldi till, cash and tipping, complaining politely, and the trap of answering Danke to an offer.",
+    summary: "Be a good guest and customer: the right flowers, shoes off, no house tours, speed at the Aldi till, cash and tipping, complaining politely, and the trap of answering \"Danke\" to an offer.",
     duration: "18 min",
     sections: [
       {
@@ -1666,14 +1666,14 @@ export const DE_CULTURE_U03: Lesson[] = [
     level: "DE-Culture",
     number: 9,
     title: "Practice: Gute Manieren in Situationen",
-    summary: "Short scenes that recombine the whole module: dinner with a colleague's family, the bakery queue, a match in the Kneipe, a noise complaint and wishing a friend luck. Choose the right formula and register each time.",
+    summary: "Combine the whole module in short scenes: dinner with a colleague's family, the bakery queue, a match in the \"Kneipe\", a noise complaint and wishing a friend luck, choosing the right formula and register each time.",
     duration: "18 min",
     sections: [
       {
         heading: "Scene 1: Dinner with Jonas's family",
         body: [
           "Your colleague Jonas invites you to dinner with his parents in Hamburg on Saturday at 19:00. Recap: arrive on time (a few minutes early is fine); shake hands with his parents, say \"Sie\" until they offer the du, and say \"Moin\" or \"Guten Abend\"; bring flowers (unwrapped, odd number, no white lilies) or wine; ask about shoes.",
-          "At the table: wait for \"Guten Appetit\", look everyone in the eye at the \"Prost\", answer offers with \"Ja, gerne\" (not just \"Danke\"), and praise the cook specifically: \"Der Braten ist wirklich lecker, Frau Becker!\". When you've had enough: \"Danke, ich bin satt\", never \"Ich bin voll\".",
+          "At the table: wait for \"Guten Appetit\", look everyone in the eye at the \"Prost\", answer offers with \"Ja, gerne\" (not just \"Danke\"), and praise the cook specifically: \"Der Braten ist wirklich lecker, Frau Becker!\". When you've had enough: \"Danke, ich bin satt\", not \"Ich bin voll\".",
           "Leaving: \"So, ich mache mich dann mal auf den Weg\", \"Vielen Dank für die Einladung\", a handshake at the door, and a message the next day.",
         ],
         examples: [
@@ -1698,7 +1698,7 @@ export const DE_CULTURE_U03: Lesson[] = [
             question: "Jonas's father offers you another beer. You'd like one. What do you say?",
             options: ["Ja, gerne!", "Danke.", "Ich bin voll.", "Prost, nein."],
             correctIndex: 0,
-            explanation: "\"Danke\" alone would be taken as no. \"Ich bin voll\" means you're drunk.",
+            explanation: "\"Danke\" alone would be taken as no. \"Ich bin voll\" is often understood as I'm drunk.",
           },
         ],
       },

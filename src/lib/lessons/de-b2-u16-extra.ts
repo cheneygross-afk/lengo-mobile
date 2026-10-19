@@ -9,7 +9,7 @@ export const DE_B2_U16_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Making Deductions",
-    summary: "Read clues and deduce with muss, kann nicht and dürfte, in the present and the past.",
+    summary: "Read clues and deduce with \"muss\", \"kann nicht\" and \"dürfte\", in the present and the past.",
     duration: "12 min",
     sections: [
       {
@@ -78,7 +78,7 @@ export const DE_B2_U16_EXTRA: Lesson[] = [
         source: "The thief can't have come through the window.",
         answer: "Der Dieb kann nicht durch das Fenster gekommen sein.",
         altAnswers: ["Der Dieb kann nicht durchs Fenster gekommen sein.", "Die Diebin kann nicht durch das Fenster gekommen sein.", "Der Dieb kann nicht durch das Fenster eingestiegen sein.", "Der Dieb kann nicht durchs Fenster eingestiegen sein."],
-        explanation: "\"Kommen\" takes sein: \"gekommen sein\".",
+        explanation: "\"Kommen\" takes \"sein\": \"gekommen sein\".",
       },
       {
         type: "translate",
@@ -109,7 +109,7 @@ export const DE_B2_U16_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "He [can't have] read the email.",
+        en: "He [can't] have read the email.",
         sentence: "Er ___ die Mail nicht gelesen haben.",
         answer: "kann",
         explanation: "\"Kann nicht\" + perfect infinitive.",
@@ -121,7 +121,7 @@ export const DE_B2_U16_EXTRA: Lesson[] = [
         sentence: "Der Film dürfte ___.",
         answer: "schon angefangen haben",
         altAnswers: ["bereits angefangen haben", "schon begonnen haben", "bereits begonnen haben"],
-        explanation: "\"Anfangen\" takes haben: \"angefangen haben\".",
+        explanation: "\"Anfangen\" takes \"haben\": \"angefangen haben\".",
       },
       {
         type: "word-order",
@@ -156,7 +156,7 @@ export const DE_B2_U16_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Sie dürfte schon zu Hause angekommen sein.",
-        explanation: "\"Dürfte\" with ü; \"angekommen sein\" because \"ankommen\" takes sein.",
+        explanation: "\"Dürfte\" with ü; \"angekommen sein\" because \"ankommen\" takes \"sein\".",
       },
       {
         type: "speak",
@@ -172,13 +172,13 @@ export const DE_B2_U16_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Rumours in the News",
-    summary: "Soll and Konjunktiv I in tabloid and serious press: passing on claims without vouching for them.",
+    summary: "Pass on claims without vouching for them: \"soll\" in the tabloid press and Konjunktiv I in serious reporting.",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: tabloid soll, serious Konjunktiv I",
         body: [
-          "Tabloids love \"soll\": \"Der Sänger soll heimlich geheiratet haben.\" It passes on a rumour without naming a source. Serious papers name the source and use Konjunktiv I: \"Wie ein Sprecher mitteilte, habe der Sänger geheiratet.\"",
+          "Tabloids love \"soll\": \"Der Sänger soll heimlich geheiratet haben.\" It passes on a rumour without naming a source. Serious papers name the source and use Konjunktiv I: \"Ein Sprecher teilte mit, der Sänger habe geheiratet.\"",
           "Other news markers: \"angeblich\" (allegedly), \"laut\" + source, \"Berichten zufolge\" (according to reports), \"nach Angaben\" + genitive.",
         ],
         examples: [
@@ -226,7 +226,7 @@ export const DE_B2_U16_EXTRA: Lesson[] = [
         source: "The coach is said to have resigned.",
         answer: "Der Trainer soll zurückgetreten sein.",
         altAnswers: ["Die Trainerin soll zurückgetreten sein."],
-        explanation: "\"Zurücktreten\" takes sein: \"zurückgetreten sein\".",
+        explanation: "\"Zurücktreten\" takes \"sein\": \"zurückgetreten sein\".",
       },
       {
         type: "translate",
@@ -298,9 +298,9 @@ export const DE_B2_U16_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence sounds like a serious newspaper rather than a tabloid?",
-        options: ["Wie das Ministerium mitteilte, sei der Vertrag unterzeichnet worden.", "Der Minister soll heimlich einen Vertrag unterschrieben haben!", "Angeblich hat der Minister alles unterschrieben!", "Der Minister will den Vertrag unterschrieben haben!"],
+        options: ["Das Ministerium teilte mit, der Vertrag sei unterzeichnet worden.", "Der Minister soll heimlich einen Vertrag unterschrieben haben!", "Angeblich hat der Minister alles unterschrieben!", "Der Minister will den Vertrag unterschrieben haben!"],
         correctIndex: 0,
-        explanation: "A named source with \"wie ... mitteilte\" and Konjunktiv I is the neutral news style.",
+        explanation: "A named source (\"das Ministerium teilte mit\") and Konjunktiv I is the neutral news style; the others are rumour, insinuation or the minister's own doubtful claim.",
       },
       {
         type: "listen-choose",
@@ -329,13 +329,13 @@ export const DE_B2_U16_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Mixed Review of Units 13-16",
-    summary: "Als ob, comparisons, subjective modals and Futur II together in fresh sentences.",
+    summary: "Mix \"als ob\", comparisons, subjective modals and the Futur II in fresh sentences.",
     duration: "13 min",
     sections: [
       {
         heading: "Recap: appearances, comparisons, guesses",
         body: [
-          "Als ob + Konjunktiv II with the verb at the end, or als + verb straight after: \"Er tut, als ob er schliefe / als schliefe er.\" Comparisons: \"größer als\", \"so groß wie\", \"anders als\", \"je ... desto\".",
+          "\"Als ob\" + Konjunktiv II with the verb at the end, or \"als\" + verb straight after: \"Er tut, als ob er schliefe / als schliefe er.\" Comparisons: \"größer als\", \"so groß wie\", \"anders als\", \"je ... desto\".",
           "Guesses: subjective modals (\"muss\", \"dürfte\", \"könnte\", \"kann nicht\", \"soll\", \"will\") and Futur I / II with \"wohl\" (\"Er wird wohl krank sein\", \"Sie wird es vergessen haben\").",
         ],
         examples: [
@@ -419,8 +419,7 @@ export const DE_B2_U16_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "He must have overslept.",
         answer: "Er muss verschlafen haben.",
-        altAnswers: ["Er wird verschlafen haben.", "Er wird wohl verschlafen haben."],
-        explanation: "\"Muss\" + \"verschlafen haben\".",
+        explanation: "\"Muss\" + \"verschlafen haben\": near certainty. \"Er wird wohl verschlafen haben\" would only be 'probably'.",
       },
       {
         type: "fill-blank",
@@ -437,7 +436,7 @@ export const DE_B2_U16_EXTRA: Lesson[] = [
         sentence: "Bis dahin ___.",
         answer: "werden wir umgezogen sein",
         altAnswers: ["sind wir umgezogen"],
-        explanation: "Futur II: \"umziehen\" takes sein, so \"umgezogen sein\".",
+        explanation: "Futur II: \"umziehen\" takes \"sein\", so \"umgezogen sein\"; in speech the Perfekt \"sind wir umgezogen\" also works.",
       },
       {
         type: "fill-blank",

@@ -16,7 +16,7 @@ export const DE_B1_U05: Lesson[] = [
         body: [
           "\"Bevor\" (before) is a subordinating conjunction: verb at the end, and when the clause comes first, the main verb follows the comma. \"Bevor ich ins Bett gehe, putze ich mir die Zähne.\"",
           "Unlike \"nachdem\", \"bevor\" needs no tense shift: both clauses usually have the same tense. \"Bevor wir losfuhren, tankten wir\" (Präteritum + Präteritum); \"Bevor du gehst, mach bitte das Licht aus\" (present + imperative).",
-          "English often uses before + -ing (before leaving). German needs a full clause with a subject: \"bevor ich gehe\", not *bevor gehend*.",
+          "English often uses before + -ing (before leaving). German needs a full clause with a subject: \"bevor ich gehe\", not \"*bevor gehend*\".",
         ],
         examples: [
           { es: "Bevor ich ins Bett gehe, putze ich mir die Zähne.", en: "Before I go to bed, I brush my teeth." },
@@ -42,7 +42,7 @@ export const DE_B1_U05: Lesson[] = [
             prompt: "Translate into German.",
             source: "Read the contract before signing it. (to a friend)",
             answer: "Lies den Vertrag, bevor du unterschreibst.",
-            altAnswers: ["Lies den Vertrag, bevor du ihn unterschreibst.", "Lest den Vertrag, bevor ihr unterschreibt.", "Lesen Sie den Vertrag, bevor Sie unterschreiben."],
+            altAnswers: ["Lies den Vertrag, bevor du ihn unterschreibst."],
             explanation: "Before + -ing becomes a full clause with a subject: \"bevor du unterschreibst\".",
           },
         ],
@@ -52,7 +52,7 @@ export const DE_B1_U05: Lesson[] = [
         body: [
           "With a noun, use the preposition \"vor\" + dative: \"vor dem Essen\" (before the meal), \"vor der Prüfung\", \"vor dem Frühstück\". No verb, no clause.",
           "\"Vorher\" is an adverb (before that, beforehand): it stands alone, often in position 1 with the verb next: \"Wir gehen ins Kino. Vorher muss ich noch einkaufen.\"",
-          "So: \"bevor\" + clause, \"vor\" + noun, \"vorher\" alone. The classic errors are *bevor dem Frühstück* and *vor ich gehe*.",
+          "So: \"bevor\" + clause, \"vor\" + noun, \"vorher\" alone. The classic errors are \"*bevor dem Frühstück*\" and \"*vor ich gehe*\".",
         ],
         examples: [
           { es: "Vor dem Essen wäscht man sich die Hände.", en: "You wash your hands before eating." },
@@ -72,7 +72,7 @@ export const DE_B1_U05: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "We're going out. Before that I've got to shower. Which word?",
+            question: "We're going out. Before that I've got to shower. Which sentence is right?",
             options: ["Vorher muss ich noch duschen.", "Bevor muss ich noch duschen.", "Vor muss ich noch duschen.", "Vorher ich muss noch duschen."],
             correctIndex: 0,
             explanation: "Stand-alone adverb: \"vorher\", then the verb.",
@@ -119,7 +119,7 @@ export const DE_B1_U05: Lesson[] = [
         prompt: "Translate into German.",
         source: "Before you leave, please turn off the light. (to a friend)",
         answer: "Bevor du gehst, mach bitte das Licht aus.",
-        altAnswers: ["Bevor ihr geht, macht bitte das Licht aus.", "Bevor Sie gehen, machen Sie bitte das Licht aus.", "Mach bitte das Licht aus, bevor du gehst."],
+        altAnswers: ["Mach bitte das Licht aus, bevor du gehst."],
         explanation: "\"Bevor\" + present, imperative in the main clause.",
       },
       {
@@ -214,7 +214,7 @@ export const DE_B1_U05: Lesson[] = [
         heading: "Während: while",
         body: [
           "\"Während\" (while) links two actions happening at the same time: \"Während ich koche, deckst du den Tisch\" (While I cook, you lay the table). Verb at the end, verb-comma-verb when it comes first.",
-          "English while + -ing (while cooking) needs a full clause in German: \"während ich koche\". *Während kochend* doesn't exist.",
+          "English while + -ing (while cooking) needs a full clause in German: \"während ich koche\". \"*Während kochend*\" doesn't exist.",
           "Both clauses use the same tense: \"Während sie telefonierte, schrieb er eine E-Mail.\"",
         ],
         examples: [
@@ -231,7 +231,7 @@ export const DE_B1_U05: Lesson[] = [
             prompt: "Translate into German.",
             source: "While I cook, you lay the table. (to a friend)",
             answer: "Während ich koche, deckst du den Tisch.",
-            altAnswers: ["Während ich koche, deckt ihr den Tisch.", "Du deckst den Tisch, während ich koche."],
+            altAnswers: ["Du deckst den Tisch, während ich koche."],
             explanation: "\"Koche, deckst\": verb, comma, verb.",
           },
           {
@@ -269,7 +269,7 @@ export const DE_B1_U05: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence uses während as a contrast (whereas)?",
+            question: "Which sentence uses \"während\" as a contrast (whereas)?",
             options: ["Während Leon gern früh aufsteht, schläft Mia bis zehn.", "Während Leon duscht, macht Mia Kaffee.", "Während des Frühstücks liest Leon.", "Während der Ferien schläft Mia lange."],
             correctIndex: 0,
             explanation: "Two opposite habits: contrast.",
@@ -296,7 +296,7 @@ export const DE_B1_U05: Lesson[] = [
             prompt: "Translate into German.",
             source: "You can stay with us as long as you like. (to a friend)",
             answer: "Du kannst bei uns wohnen, solange du willst.",
-            altAnswers: ["Du kannst bei uns bleiben, solange du willst.", "Ihr könnt bei uns wohnen, solange ihr wollt.", "Sie können bei uns wohnen, solange Sie wollen.", "Du kannst bei uns wohnen, solange du möchtest."],
+            altAnswers: ["Du kannst bei uns bleiben, solange du willst.", "Du kannst bei uns wohnen, solange du möchtest."],
             explanation: "\"Solange\" + verb last.",
           },
           {
@@ -418,7 +418,7 @@ export const DE_B1_U05: Lesson[] = [
         heading: "Bis: until",
         body: [
           "\"Bis\" + clause means until: \"Warte, bis ich zurück bin\" (Wait until I'm back). Verb at the end as usual.",
-          "The trap: English until not / not until can tempt you to add a negation. German doesn't: \"Ich warte, bis du kommst\" (I'll wait until you come), never *bis du nicht kommst*. And not ... until is usually \"erst, wenn\": \"Ich gehe erst, wenn du kommst\" (I won't leave until you come).",
+          "The trap: English until not / not until can tempt you to add a negation. German doesn't: \"Ich warte, bis du kommst\" (I'll wait until you come), never \"*bis du nicht kommst*\". And not ... until is usually \"erst, wenn\": \"Ich gehe erst, wenn du kommst\" (I won't leave until you come).",
           "\"Bis\" also works as a preposition: \"bis Montag\", \"bis zehn Uhr\", \"bis morgen\".",
         ],
         examples: [
@@ -487,7 +487,7 @@ export const DE_B1_U05: Lesson[] = [
         heading: "Sobald: as soon as",
         body: [
           "\"Sobald\" means as soon as: \"Sobald ich mehr weiß, melde ich mich\" (As soon as I know more, I'll get in touch). It's very common in emails and at work.",
-          "For a completed action before the main event, use the Perfekt with a present main clause: \"Sobald ich angekommen bin, rufe ich dich an.\" Watch out for *sobald ich angekommen, rufe ich an*: the auxiliary can't be dropped.",
+          "For a completed action before the main event, use the Perfekt with a present main clause: \"Sobald ich angekommen bin, rufe ich dich an.\" Watch out for \"*sobald ich angekommen, rufe ich an*\": the auxiliary can't be dropped.",
         ],
         examples: [
           { es: "Sobald ich mehr weiß, melde ich mich.", en: "As soon as I know more, I'll get in touch." },
@@ -503,7 +503,7 @@ export const DE_B1_U05: Lesson[] = [
             prompt: "Translate into German.",
             source: "As soon as I've arrived, I'll call you. (to a friend)",
             answer: "Sobald ich angekommen bin, rufe ich dich an.",
-            altAnswers: ["Sobald ich angekommen bin, rufe ich euch an.", "Sobald ich angekommen bin, rufe ich Sie an.", "Ich rufe dich an, sobald ich angekommen bin.", "Sobald ich da bin, rufe ich dich an."],
+            altAnswers: ["Ich rufe dich an, sobald ich angekommen bin.", "Sobald ich da bin, rufe ich dich an."],
             explanation: "Perfekt + present; the auxiliary \"bin\" can't be dropped.",
           },
           {
@@ -533,7 +533,7 @@ export const DE_B1_U05: Lesson[] = [
         prompt: "Translate into German.",
         source: "I won't leave until you come. (to a friend)",
         answer: "Ich gehe erst, wenn du kommst.",
-        altAnswers: ["Ich gehe nicht, bevor du kommst.", "Ich gehe erst, wenn ihr kommt.", "Ich gehe erst, wenn Sie kommen."],
+        altAnswers: ["Ich gehe nicht, bevor du kommst."],
         explanation: "Not ... until: \"erst, wenn\".",
       },
       {
@@ -1020,8 +1020,8 @@ export const DE_B1_U05: Lesson[] = [
       {
         heading: "Conjunction or preposition?",
         body: [
-          "*Bevor dem Essen*: \"bevor\" needs a clause; with a noun use \"vor\": \"vor dem Essen\". The same with \"nachdem\" / \"nach\": *nachdem der Arbeit* → \"nach der Arbeit\".",
-          "The opposite slip: *vor ich gehe* → \"bevor ich gehe\".",
+          "\"*Bevor dem Essen*\": \"bevor\" needs a clause; with a noun use \"vor\": \"vor dem Essen\". The same with \"nachdem\" / \"nach\": \"*nachdem der Arbeit*\" → \"nach der Arbeit\".",
+          "The opposite slip: \"*vor ich gehe*\" → \"bevor ich gehe\".",
         ],
         examples: [
           { es: "Vor dem Essen trinke ich ein Glas Wasser.", en: "Before eating I drink a glass of water. (not: bevor dem Essen)" },
@@ -1033,7 +1033,7 @@ export const DE_B1_U05: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: Bevor dem Essen trinke ich Wasser. Write it correctly.",
+            prompt: "A learner wrote: \"*Bevor dem Essen trinke ich Wasser.\" Write it correctly.",
             source: "Before the meal I drink water.",
             answer: "Vor dem Essen trinke ich Wasser.",
             altAnswers: ["Vor dem Essen trinke ich ein Glas Wasser."],
@@ -1041,7 +1041,7 @@ export const DE_B1_U05: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "A learner wrote: Nachdem der Arbeit gehe ich ins Fitnessstudio. Write the German for the bold word.",
+            prompt: "A learner wrote: \"*Nachdem der Arbeit gehe ich ins Fitnessstudio.\" Write the German for the bold word.",
             en: "[After] work I go to the gym.",
             sentence: "___ der Arbeit gehe ich ins Fitnessstudio.",
             answer: "Nach",
@@ -1052,8 +1052,8 @@ export const DE_B1_U05: Lesson[] = [
       {
         heading: "Verb in the wrong place",
         body: [
-          "*Während ich habe gegessen*: in a subordinate clause the auxiliary goes last: \"während ich gegessen habe\". *Seit ich wohne hier*: \"seit ich hier wohne\".",
-          "*Nachdem er isst, er geht*: two errors. The tense must shift (\"nachdem er gegessen hat\"), and the main verb must follow the comma (\"geht er\").",
+          "\"*Während ich habe gegessen*\": in a subordinate clause the auxiliary goes last: \"während ich gegessen habe\". \"*Seit ich wohne hier*\": \"seit ich hier wohne\".",
+          "\"*Nachdem er isst, er geht*\": two errors. The tense must shift (\"nachdem er gegessen hat\"), and the main verb must follow the comma (\"geht er\").",
         ],
         examples: [
           { es: "Während ich gegessen habe, hat das Telefon geklingelt.", en: "While I was eating, the phone rang." },
@@ -1065,7 +1065,7 @@ export const DE_B1_U05: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: Seit ich wohne hier, kenne ich alle Nachbarn. Write it correctly.",
+            prompt: "A learner wrote: \"*Seit ich wohne hier, kenne ich alle Nachbarn.\" Write it correctly.",
             source: "Since I've lived here, I've known all the neighbours.",
             answer: "Seit ich hier wohne, kenne ich alle Nachbarn.",
             altAnswers: ["Seitdem ich hier wohne, kenne ich alle Nachbarn."],
@@ -1073,7 +1073,7 @@ export const DE_B1_U05: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A learner wrote: Nachdem er isst, er geht. Which correction is right (habit)?",
+            question: "A learner wrote: \"*Nachdem er isst, er geht.\" Which correction is right (habit)?",
             options: ["Nachdem er gegessen hat, geht er.", "Nachdem er isst, geht er.", "Nachdem er gegessen hat, er geht.", "Nachdem er hat gegessen, geht er."],
             correctIndex: 0,
             explanation: "Tense shift (Perfekt) and verb after the comma.",
@@ -1083,8 +1083,8 @@ export const DE_B1_U05: Lesson[] = [
       {
         heading: "Bis with nicht, and missing auxiliaries",
         body: [
-          "*Ich warte, bis du nicht kommst*: no negation with \"bis\": \"Ich warte, bis du kommst\".",
-          "*Sobald ich angekommen, rufe ich an*: the auxiliary is missing. German never drops it: \"Sobald ich angekommen bin, rufe ich an.\"",
+          "\"*Ich warte, bis du nicht kommst*\": no negation with \"bis\": \"Ich warte, bis du kommst\".",
+          "\"*Sobald ich angekommen, rufe ich an*\": the auxiliary is missing. German never drops it: \"Sobald ich angekommen bin, rufe ich an.\"",
         ],
         examples: [
           { es: "Ich warte, bis du kommst.", en: "I'll wait until you come. (not: bis du nicht kommst)" },
@@ -1096,7 +1096,7 @@ export const DE_B1_U05: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: Wir bleiben hier, bis der Regen nicht aufhört. Write it correctly.",
+            prompt: "A learner wrote: \"*Wir bleiben hier, bis der Regen nicht aufhört.\" Write it correctly.",
             source: "We'll stay here until the rain stops.",
             answer: "Wir bleiben hier, bis der Regen aufhört.",
             altAnswers: ["Wir bleiben hier, bis es aufhört zu regnen."],
@@ -1104,7 +1104,7 @@ export const DE_B1_U05: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "A learner wrote: Sobald ich angekommen, rufe ich an. Write the German for the bold words.",
+            prompt: "A learner wrote: \"*Sobald ich angekommen, rufe ich an.\" Write the German for the bold words.",
             en: "As soon as [I've arrived], I'll call.",
             sentence: "Sobald ___, rufe ich an.",
             answer: "ich angekommen bin",
@@ -1117,7 +1117,7 @@ export const DE_B1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Vor ich gehe, sage ich Tschüss. Write it correctly.",
+        prompt: "A learner wrote: \"*Vor ich gehe, sage ich Tschüss.\" Write it correctly.",
         source: "Before I go, I say bye.",
         answer: "Bevor ich gehe, sage ich Tschüss.",
         explanation: "Clause: \"bevor\".",
@@ -1125,7 +1125,7 @@ export const DE_B1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Während ich habe gegessen, hat das Telefon geklingelt. Write it correctly.",
+        prompt: "A learner wrote: \"*Während ich habe gegessen, hat das Telefon geklingelt.\" Write it correctly.",
         source: "While I was eating, the phone rang.",
         answer: "Während ich gegessen habe, hat das Telefon geklingelt.",
         altAnswers: ["Während ich aß, klingelte das Telefon.", "Während ich gegessen habe, klingelte das Telefon."],
@@ -1134,7 +1134,7 @@ export const DE_B1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Nachdem er gegessen hatte, er ging nach Hause. Write it correctly.",
+        prompt: "A learner wrote: \"*Nachdem er gegessen hatte, er ging nach Hause.\" Write it correctly.",
         source: "After he had eaten, he went home.",
         answer: "Nachdem er gegessen hatte, ging er nach Hause.",
         altAnswers: ["Nachdem er gegessen hatte, ist er nach Hause gegangen."],
@@ -1143,7 +1143,7 @@ export const DE_B1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Ich warte hier, bis du nicht fertig bist. Write it correctly.",
+        prompt: "A learner wrote: \"*Ich warte hier, bis du nicht fertig bist.\" Write it correctly.",
         source: "I'll wait here until you're ready.",
         answer: "Ich warte hier, bis du fertig bist.",
         altAnswers: ["Ich warte hier, bis ihr fertig seid.", "Ich warte hier, bis Sie fertig sind."],
@@ -1152,7 +1152,7 @@ export const DE_B1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Seitdem ich habe einen Hund, gehe ich viel spazieren. Write it correctly.",
+        prompt: "A learner wrote: \"*Seitdem ich habe einen Hund, gehe ich viel spazieren.\" Write it correctly.",
         source: "Since I've had a dog, I've been going for lots of walks.",
         answer: "Seitdem ich einen Hund habe, gehe ich viel spazieren.",
         altAnswers: ["Seit ich einen Hund habe, gehe ich viel spazieren."],
@@ -1160,7 +1160,7 @@ export const DE_B1_U05: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote: Nachdem dem Konzert gingen wir essen. Write the German for the bold word.",
+        prompt: "A learner wrote: \"*Nachdem dem Konzert gingen wir essen.\" Write the German for the bold word.",
         en: "[After] the concert we went for a meal.",
         sentence: "___ dem Konzert gingen wir essen.",
         answer: "Nach",
@@ -1176,14 +1176,14 @@ export const DE_B1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Nachdem ich dusche, frühstücke ich. Write it correctly (a habit).",
+        prompt: "A learner wrote: \"*Nachdem ich dusche, frühstücke ich.\" Write it correctly (a habit).",
         source: "After I've showered, I have breakfast.",
         answer: "Nachdem ich geduscht habe, frühstücke ich.",
         explanation: "Tense shift: Perfekt + present.",
       },
       {
         type: "word-order",
-        prompt: "A learner wrote: Während der Film lief, ich bin eingeschlafen. Put the words in the right order.",
+        prompt: "A learner wrote: \"*Während der Film lief, ich bin eingeschlafen.\" Put the words in the right order.",
         words: ["Während", "der", "Film", "lief,", "bin", "ich", "eingeschlafen."],
         translation: "While the film was on, I fell asleep.",
         explanation: "\"Lief, bin\".",
@@ -1270,7 +1270,7 @@ export const DE_B1_U05: Lesson[] = [
             prompt: "Translate into German (to your flatmate).",
             source: "First you rinse the yoghurt pots.",
             answer: "Zuerst spülst du die Joghurtbecher aus.",
-            altAnswers: ["Zuerst spülst du die Joghurtbecher kurz aus.", "Zuerst spül die Joghurtbecher aus."],
+            altAnswers: ["Zuerst spülst du die Joghurtbecher kurz aus.", "Zuerst spül die Joghurtbecher aus.", "Spül zuerst die Joghurtbecher aus.", "Du spülst zuerst die Joghurtbecher aus."],
             explanation: "\"Zuerst\" + verb second; \"ausspülen\" is separable.",
           },
           {
@@ -1394,7 +1394,7 @@ export const DE_B1_U05: Lesson[] = [
         prompt: "Translate into German.",
         source: "We don't take glass to the bottle bank on Sundays.",
         answer: "Am Sonntag bringen wir kein Glas zum Container.",
-        altAnswers: ["Sonntags bringen wir kein Glas zum Container.", "Am Sonntag bringen wir kein Glas zum Glascontainer.", "Sonntags bringen wir kein Glas zum Glascontainer."],
+        altAnswers: ["Sonntags bringen wir kein Glas zum Container.", "Am Sonntag bringen wir kein Glas zum Glascontainer.", "Sonntags bringen wir kein Glas zum Glascontainer.", "Wir bringen am Sonntag kein Glas zum Container.", "Wir bringen sonntags kein Glas zum Container."],
         explanation: "\"Kein Glas\": no glass.",
       },
       {
@@ -1439,15 +1439,15 @@ export const DE_B1_U05: Lesson[] = [
           { es: "Während ich aß, las ich die Zeitung.", en: "While I was eating, I read the paper." },
           { es: "Sobald ich fertig war, rief ich dich an.", en: "As soon as I was done, I called you." },
           { es: "Ich wartete, bis du anriefst.", en: "I waited until you called." },
-          { es: "Seitdem ich hier wohne, gehe ich jeden Tag spazieren.", en: "Since I've lived here, I go for a walk every day." },
+          { es: "Seitdem ich hier wohne, gehe ich jeden Tag spazieren.", en: "Since I've lived here, I've been going for a walk every day." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which connector says the clause event is finished before the main event starts?",
-            options: ["nachdem", "während", "bevor", "bis"],
+            question: "After I had eaten, I went for a walk. Which word fills the gap? ___ ich gegessen hatte, ging ich spazieren.",
+            options: ["Nachdem", "Während", "Bevor", "Bis"],
             correctIndex: 0,
-            explanation: "\"Nachdem\": the clause event comes first and is completed.",
+            explanation: "\"Nachdem\": the clause event (eating) is finished before the main event starts; the Plusquamperfekt \"gegessen hatte\" shows it. \"Bevor\" would reverse the order.",
           },
           {
             type: "translate",
@@ -1634,7 +1634,7 @@ export const DE_B1_U05: Lesson[] = [
         heading: "Comma rules",
         body: [
           "German always separates a subordinate clause from the main clause with a comma. There are no exceptions for short clauses: \"Ich warte, bis du kommst.\" When the time clause comes first, the comma sits right before the main verb: \"Bis du kommst, warte ich.\"",
-          "Two subordinate clauses side by side get a comma each: \"Nachdem wir gegessen hatten, und bevor der Film anfing, gingen wir spazieren\" is too complex for most writers. Keep it simple: \"Nachdem wir gegessen hatten, gingen wir spazieren, bevor der Film anfing.\"",
+          "Two subordinate clauses joined by \"und\" need no comma between them: \"Nachdem wir gegessen hatten und bevor der Film anfing, gingen wir spazieren.\" That is hard to follow, so keep it simple and put one clause at each end: \"Nachdem wir gegessen hatten, gingen wir spazieren, bevor der Film anfing.\"",
         ],
         examples: [
           { es: "Ich warte, bis du kommst.", en: "I'll wait until you come." },
@@ -1831,8 +1831,8 @@ export const DE_B1_U05: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What is the plural of \"der Mietvertrag\"?",
-            options: ["die Mietverträge", "die Mietvertrags", "die Mietvertragen", "die Mietverträger"],
+            question: "You and your flatmate each need your own contract. How do you say: We need two tenancy agreements?",
+            options: ["Wir brauchen zwei Mietverträge.", "Wir brauchen zwei Mietvertrags.", "Wir brauchen zwei Mietvertragen.", "Wir brauchen zwei Mietverträger."],
             correctIndex: 0,
             explanation: "\"Der Vertrag, die Verträge\": umlaut + e.",
           },
@@ -1963,10 +1963,10 @@ export const DE_B1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which word is always plural?",
-        options: ["die Nebenkosten", "die Miete", "die Kaution", "die Lampe"],
+        question: "How do you say: The utility costs are high?",
+        options: ["Die Nebenkosten sind hoch.", "Die Nebenkost ist hoch.", "Der Nebenkosten ist hoch.", "Die Nebenkosten ist hoch."],
         correctIndex: 0,
-        explanation: "\"Nebenkosten\" has no singular.",
+        explanation: "\"Die Nebenkosten\" is plural only (there is no singular), so the verb is plural too: \"sind\".",
       },
       {
         type: "translate",
@@ -2472,8 +2472,8 @@ export const DE_B1_U05: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What is the simple past of \"beweisen\"?",
-            options: ["bewies", "beweiste", "bewiest", "bewiss"],
+            question: "How do you write: The lawyer proved it (simple past)?",
+            options: ["Der Anwalt bewies es.", "Der Anwalt beweiste es.", "Der Anwalt bewiest es.", "Der Anwalt bewiss es."],
             correctIndex: 0,
             explanation: "\"Beweisen, bewies, bewiesen\" like \"schreiben\".",
           },
@@ -2536,8 +2536,8 @@ export const DE_B1_U05: Lesson[] = [
         en: "The lawyer [proved] that his client was at home.",
         sentence: "Der Anwalt ___, dass sein Mandant zu Hause war.",
         answer: "bewies",
-        altAnswers: ["bewiesen hat"],
-        explanation: "\"Beweisen, bewies, bewiesen\".",
+        altAnswers: ["hat bewiesen"],
+        explanation: "\"Beweisen, bewies, bewiesen\" is irregular (like \"schreiben, schrieb\"), so not \"*beweiste*\"; the Perfekt \"hat bewiesen\" also fits.",
       },
       {
         type: "translate",
@@ -2577,10 +2577,10 @@ export const DE_B1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What is the opposite of \"schuldig\"?",
+        question: "The court decided she had done nothing wrong. Das Gericht hat sie für ___ erklärt.",
         options: ["unschuldig", "verdächtig", "bewiesen", "ruhig"],
         correctIndex: 0,
-        explanation: "\"Un-\" makes the opposite.",
+        explanation: "\"Unschuldig\" (innocent) is the opposite of \"schuldig\": \"un-\" makes the opposite. \"Verdächtig\" means suspicious.",
       },
       {
         type: "fill-blank",
@@ -2617,5 +2617,5 @@ export const DE_B1_U05_WRITING: WriteExercise = {
     "Puts a comma before every time clause and the main verb straight after a fronted clause.",
   ],
   modelAnswer: "Liebe Jana,\n\nendlich wohne ich in der neuen Wohnung! Bevor der Umzugswagen kam, hatte ich alle Kartons gepackt und die Küche geputzt. Während mein Bruder und ich den Schrank die Treppe hochtrugen, ist leider der Spiegel heruntergefallen. Zum Glück ist er nicht kaputtgegangen. Sobald alles in der Wohnung war, haben wir Pizza bestellt, weil wir so hungrig waren. Danach habe ich noch ausgepackt, bis es fast Mitternacht war. Der Kühlschrank funktioniert noch nicht, aber der Vermieter will ihn nächste Woche reparieren. Seitdem ich hier wohne, fahre ich mit dem Fahrrad zur Arbeit, denn es sind nur zehn Minuten. Ich schlafe auch viel besser, weil die Straße so ruhig ist. Besuchst du mich bald?\n\nLiebe Grüße\nSam",
-  explanation: "\"Bevor\" + past perfect sets up what was done earlier; \"während\" links the carrying and the accident; \"sobald\" shows what happened immediately; \"bis\" marks how long the unpacking lasted; and \"seitdem\" + present tense describes the new routine that continues. Each fronted clause is followed by the main verb (\"kam, hatte\", \"hochtrugen, ist\", \"war, haben\", \"wohne, fahre\").",
+  explanation: "A \"bevor\" clause with the past perfect in the main clause shows what was already done before the van came; \"während\" links the carrying and the accident; \"sobald\" shows what happened immediately; \"bis\" marks how long the unpacking lasted; and \"seitdem\" + present tense describes the new routine that continues. Each fronted clause is followed by the main verb (\"kam, hatte\", \"hochtrugen, ist\", \"war, haben\", \"wohne, fahre\").",
 };

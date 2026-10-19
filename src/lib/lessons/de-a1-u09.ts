@@ -134,7 +134,7 @@ export const DE_A1_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "The flat has two rooms.",
         answer: "Die Wohnung hat zwei Zimmer.",
-        explanation: "\"Das Zimmer\" has the same form in the plural: \"zwei Zimmer\", never *Zimmers.",
+        explanation: "\"Das Zimmer\" has the same form in the plural: \"zwei Zimmer\", never \"*Zimmers\".",
       },
       {
         type: "translate",
@@ -166,7 +166,7 @@ export const DE_A1_U09: Lesson[] = [
         question: "A friend asks about your new lamp. How do you say: The lamp? It's new.",
         options: ["Die Lampe? Sie ist neu.", "Die Lampe? Es ist neu.", "Die Lampe? Er ist neu.", "Der Lampe? Sie ist neu."],
         correctIndex: 0,
-        explanation: "\"Die Lampe\" is feminine, so it is replaced by \"sie\", not es. English it becomes er, sie or es by gender.",
+        explanation: "\"Die Lampe\" is feminine, so it is replaced by \"sie\", not \"es\". English it becomes \"er\", \"sie\" or \"es\" by gender, and \"der Lampe\" is the wrong article.",
       },
       {
         type: "listen-choose",
@@ -223,7 +223,7 @@ export const DE_A1_U09: Lesson[] = [
           { left: "der Stuhl", right: "the chair" },
           { left: "die Lampe", right: "the lamp" },
         ],
-        explanation: "Learn the article with every word: das Bett, der Schrank, das Regal, der Stuhl, die Lampe.",
+        explanation: "Learn the article with every word: \"das Bett\", \"der Schrank\", \"das Regal\", \"der Stuhl\", \"die Lampe\".",
       },
     ],
   },
@@ -240,7 +240,7 @@ export const DE_A1_U09: Lesson[] = [
         body: [
           "\"Dieser\" means this, and it copies the ending of the definite article: the last letter of der, die, das comes back on the end. \"Der Tisch\" → \"dieser Tisch\"; \"die Lampe\" → \"diese Lampe\"; \"das Buch\" → \"dieses Buch\"; plural \"die Stühle\" → \"diese Stühle\". That's why grammars call these der-words.",
           "German has no separate everyday word for that: \"dieser\" covers this and that, and context (or a pointing finger) does the rest. \"Diese Jacke ist schön\" can be this jacket or that jacket. The old word \"jener\" (that) exists but you'll mostly meet it in writing.",
-          "The classic mistake is to put the neuter ending on a masculine noun, or forget the ending: *dieses Tisch, *dies Lampe. Ask yourself der, die or das first, then build the ending.",
+          "The classic mistake is to put the neuter ending on a masculine noun, or forget the ending: \"*dieses Tisch\", \"*dies Lampe\". Ask yourself der, die or das first, then build the ending.",
         ],
         examples: [
           { es: "Dieser Tisch ist neu.", en: "This table is new." },
@@ -306,7 +306,7 @@ export const DE_A1_U09: Lesson[] = [
         heading: "Jeder, jede, jedes: every, each",
         body: [
           "\"Jeder\" (every, each) takes the same endings: \"jeder Tisch\", \"jede Lampe\", \"jedes Kind\", and in the accusative \"jeden Tisch\". It is followed by a singular noun and a singular verb, just as in English every child is.",
-          "There is no plural *jede Kinder. For all the children, use \"alle\": \"Alle Kinder sind hier.\" English speakers sometimes write *jeder Leute for everyone; the word for everybody is just \"jeder\" on its own: \"Jeder ist willkommen.\"",
+          "There is no plural \"*jede Kinder\". For all the children, use \"alle\": \"Alle Kinder sind hier.\" English speakers sometimes write \"*jeder Leute\" for everyone; the word for everybody is just \"jeder\" on its own: \"Jeder ist willkommen.\"",
         ],
         examples: [
           { es: "Jedes Kind hat ein Zimmer.", en: "Every child has a room." },
@@ -499,7 +499,7 @@ export const DE_A1_U09: Lesson[] = [
         body: [
           "English says this week and every day with no preposition, and so does German: \"diese Woche\", \"dieses Jahr\", \"diesen Montag\", \"diesen Sommer\", \"jeden Tag\", \"jede Woche\", \"jedes Jahr\", \"jeden Morgen\", \"jeden Abend\".",
           "These time phrases are in the accusative, so the masculine ones end in -en: \"diesen Freitag\", \"jeden Tag\" (der Tag), \"jeden Monat\". Days, months and seasons are all masculine, so expect \"diesen Montag\", \"jeden Sommer\".",
-          "A time phrase can start the sentence, and then the verb comes second and the subject follows it: \"Diese Woche arbeite ich viel.\" Never *Diese Woche ich arbeite.",
+          "A time phrase can start the sentence, and then the verb comes second and the subject follows it: \"Diese Woche arbeite ich viel.\" Never \"*Diese Woche ich arbeite\".",
         ],
         examples: [
           { es: "Diese Woche arbeite ich viel.", en: "I'm working a lot this week." },
@@ -576,10 +576,10 @@ export const DE_A1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A shop assistant asks: Welchen Pullover möchten Sie? You point. What do you say?",
+        question: "A shop assistant asks: \"Welchen Pullover möchten Sie?\" You point. What do you say?",
         options: ["Den hier, bitte.", "Der hier, bitte.", "Das hier, bitte.", "Dem hier, bitte."],
         correctIndex: 0,
-        explanation: "\"Der Pullover\" is masculine and it's what you want (the object), so \"den hier\", matching \"welchen\" in the question.",
+        explanation: "\"Der Pullover\" is masculine and it's what you want (the object), so \"den hier\", matching \"welchen\" in the question. \"Der hier\" is the subject form, \"das\" the wrong gender, and \"dem\" is dative.",
       },
       {
         type: "translate",
@@ -710,13 +710,13 @@ export const DE_A1_U09: Lesson[] = [
         heading: "It: ihn, sie or es",
         body: [
           "English uses it for every thing; German uses the pronoun that matches the noun's gender, and as an object that means \"ihn\", \"sie\" or \"es\": \"Der Mantel? Ich nehme ihn.\" \"Die Jacke? Ich kaufe sie.\" \"Das Buch? Ich lese es.\" For plurals: \"Die Schuhe? Ich nehme sie.\"",
-          "So English it is \"es\" only for neuter nouns. Saying *Ich nehme es for a coat is one of the commonest slips; go back to the noun, find der, and say \"ihn\".",
+          "So English it is \"es\" only for neuter nouns. Saying \"*Ich nehme es\" for a coat is one of the commonest slips; go back to the noun, find der, and say \"ihn\".",
         ],
         examples: [
           { es: "Der Mantel? Ich nehme ihn.", en: "The coat? I'll take it." },
           { es: "Wo ist meine Brille? Ich finde sie nicht.", en: "Where are my glasses? I can't find them." },
           { es: "Das Fahrrad? Ich brauche es heute.", en: "The bike? I need it today." },
-          { es: "Der Kuchen ist super. Ich esse ihn gern.", en: "The cake is great. I love eating it." },
+          { es: "Der Kuchen ist super. Ich esse ihn gern.", en: "The cake is great. I like eating it." },
           { es: "Die Schuhe? Ich nehme sie.", en: "The shoes? I'll take them." },
         ],
         checkpoint: [
@@ -779,7 +779,7 @@ export const DE_A1_U09: Lesson[] = [
         en: "Do you know Leon? — Yes, I know [him].",
         sentence: "Kennst du Leon? — Ja, ich kenne ___.",
         answer: "ihn",
-        explanation: "\"Er\" → \"ihn\" as the object of \"kennen\". *Ich kenne er is the mistake to avoid.",
+        explanation: "\"Er\" → \"ihn\" as the object of \"kennen\". \"*Ich kenne er\" is the mistake to avoid.",
       },
       {
         type: "multiple-choice",
@@ -846,9 +846,9 @@ export const DE_A1_U09: Lesson[] = [
       {
         heading: "Uns, euch, sie, Sie",
         body: [
-          "The plural object pronouns: \"wir\" → \"uns\" (us), \"ihr\" → \"euch\" (you, to several friends), \"sie\" → \"sie\" (them), and polite \"Sie\" → \"Sie\". The full set is now: mich, dich, ihn, sie, es, uns, euch, sie, Sie.",
+          "The plural object pronouns: \"wir\" → \"uns\" (us), \"ihr\" → \"euch\" (you, to several friends), \"sie\" → \"sie\" (them), and polite \"Sie\" → \"Sie\". The full set is now: \"mich, dich, ihn, sie, es, uns, euch, sie, Sie\".",
           "\"Euch\" is the one to practise: \"Ich rufe euch morgen an\" (I'll call you tomorrow, to two friends). It has nothing to do with English you, so say it often: the eu rhymes with English boy.",
-          "You already know two other forms from set phrases: \"Wie geht es dir?\" and \"Wie geht es Ihnen?\". \"Dir\" and \"Ihnen\" are dative forms, which you'll learn properly at the Elementary level. For now, keep them in those phrases and use \"dich\" and \"Sie\" after verbs like sehen, besuchen and kennen: \"Ich besuche Sie morgen\", never *Ich besuche Ihnen.",
+          "You already know two other forms from set phrases: \"Wie geht es dir?\" and \"Wie geht es Ihnen?\". \"Dir\" and \"Ihnen\" are dative forms, which you'll learn properly at the Elementary level. For now, keep them in those phrases and use \"dich\" and \"Sie\" after verbs like sehen, besuchen and kennen: \"Ich besuche Sie morgen\", never \"*Ich besuche Ihnen\".",
         ],
         examples: [
           { es: "Besuchst du uns am Wochenende?", en: "Are you visiting us at the weekend?" },
@@ -882,7 +882,7 @@ export const DE_A1_U09: Lesson[] = [
         heading: "Für, ohne, gegen, durch, um",
         body: [
           "Five prepositions always take the accusative: \"für\" (for), \"ohne\" (without), \"gegen\" (against), \"durch\" (through) and \"um\" (around, and at for clock times). Many learners remember them as DOGFU: durch, ohne, gegen, für, um.",
-          "After them a pronoun takes its object form: \"für mich\", \"ohne dich\", \"für ihn\", \"gegen uns\". English does the same (for me, not for I), so *für ich and *ohne du are easy to avoid once you notice them.",
+          "After them a pronoun takes its object form: \"für mich\", \"ohne dich\", \"für ihn\", \"gegen uns\". English does the same (for me, not for I), so \"*für ich\" and \"*ohne du\" are easy to avoid once you notice them.",
           "Nouns change too, but as always only the masculine shows it: \"für den Chef\", \"ohne meinen Bruder\", \"durch den Park\"; \"für die Kinder\", \"ohne Milch\" stay as they are.",
         ],
         examples: [
@@ -902,7 +902,7 @@ export const DE_A1_U09: Lesson[] = [
             source: "This is for you.",
             answer: "Das ist für dich.",
             altAnswers: ["Das ist für euch.", "Das ist für Sie.", "Das hier ist für dich.", "Das hier ist für euch.", "Das hier ist für Sie."],
-            explanation: "\"Für\" always takes the accusative, so you is \"dich\", \"euch\" or \"Sie\", never *für du.",
+            explanation: "\"Für\" always takes the accusative, so you is \"dich\", \"euch\" or \"Sie\", never \"*für du\".",
           },
           {
             type: "translate",
@@ -926,7 +926,7 @@ export const DE_A1_U09: Lesson[] = [
         heading: "Where the pronoun goes",
         body: [
           "An object pronoun comes early: right after the conjugated verb, or right after the subject if the subject follows the verb. \"Ich rufe dich morgen an.\" \"Morgen rufe ich dich an.\" Time phrases, places and the separable prefix come after it.",
-          "\"Nicht\" comes after the pronoun: \"Ich kenne ihn nicht.\" \"Ich finde es nicht.\" Compare English I don't know him: German has no do, and the negation follows the object. *Ich kenne nicht ihn is wrong.",
+          "\"Nicht\" comes after the pronoun: \"Ich kenne ihn nicht.\" \"Ich finde es nicht.\" Compare English I don't know him: German has no do, and the negation follows the object. \"*Ich kenne nicht ihn\" is wrong.",
           "With a modal verb the pronoun still stays near the front, and the infinitive goes to the end: \"Kannst du mich um sieben abholen?\"",
         ],
         examples: [
@@ -1083,7 +1083,7 @@ export const DE_A1_U09: Lesson[] = [
             source: "The book is on the table.",
             answer: "Das Buch ist auf dem Tisch.",
             altAnswers: ["Das Buch liegt auf dem Tisch."],
-            explanation: "On top of a horizontal surface is \"auf\", and \"der Tisch\" becomes \"dem Tisch\" after it: not *auf der Tisch.",
+            explanation: "On top of a horizontal surface is \"auf\", and \"der Tisch\" becomes \"dem Tisch\" after it: not \"*auf der Tisch\".",
           },
           {
             type: "multiple-choice",
@@ -1099,7 +1099,7 @@ export const DE_A1_U09: Lesson[] = [
         body: [
           "Five more, with the same dative after them: \"unter\" (under), \"neben\" (next to), \"hinter\" (behind), \"vor\" (in front of) and \"zwischen\" (between): \"unter dem Bett\", \"neben der Tür\", \"hinter dem Haus\", \"vor dem Supermarkt\", \"zwischen dem Sofa und dem Regal\".",
           "\"Vor\" is in front of, not for: for is \"für\". In plurals add the -n: \"neben den Stühlen\", \"zwischen den Häusern\".",
-          "A frequent slip is to keep the nominative article: *neben der Tisch, *unter das Bett. After these prepositions, der and das both become \"dem\".",
+          "A frequent slip is to keep the nominative article: \"*neben der Tisch\", \"*unter das Bett\". After these prepositions, der and das both become \"dem\".",
         ],
         examples: [
           { es: "Die Schuhe sind unter dem Bett.", en: "The shoes are under the bed." },
@@ -1140,7 +1140,7 @@ export const DE_A1_U09: Lesson[] = [
         heading: "Hier, da, dort; zu Hause, bei mir",
         body: [
           "\"Hier\" is here; \"da\" and \"dort\" both mean there, \"dort\" a little further away or more formal: \"Die Toilette ist dort hinten.\" (The toilet is back there.)",
-          "\"Zu Hause\" means at home: \"Ich bin heute Abend zu Hause.\" Going home is \"nach Hause\" (Unit 7). And \"bei\" + a person means at someone's place, like French chez: \"bei mir\" (at my place), \"bei Anna\" (at Anna's), \"bei meinen Eltern\" (at my parents').",
+          "\"Zu Hause\" means at home: \"Ich bin heute Abend zu Hause.\" Going home is \"nach Hause\" (Unit 7). And \"bei\" + a person means at someone's place, like English at Anna's: \"bei mir\" (at my place), \"bei Anna\" (at Anna's), \"bei meinen Eltern\" (at my parents').",
         ],
         examples: [
           { es: "Dein Schlüssel ist hier.", en: "Your key is here." },
@@ -1156,7 +1156,7 @@ export const DE_A1_U09: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm at home this evening.",
             answer: "Ich bin heute Abend zu Hause.",
-            altAnswers: ["Heute Abend bin ich zu Hause."],
+            altAnswers: ["Heute Abend bin ich zu Hause.", "Ich bin heute Abend zuhause."],
             explanation: "At home is \"zu Hause\"; \"nach Hause\" is only for going home.",
           },
           {
@@ -1234,7 +1234,7 @@ export const DE_A1_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "Mehmet is in the kitchen.",
         answer: "Mehmet ist in der Küche.",
-        explanation: "\"Die Küche\" → \"in der Küche\". *In die Küche would mean into the kitchen, which comes at the Elementary level.",
+        explanation: "\"Die Küche\" → \"in der Küche\". \"*In die Küche\" would mean into the kitchen, which comes at the Elementary level.",
       },
       {
         type: "listen-choose",
@@ -1294,7 +1294,7 @@ export const DE_A1_U09: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Ich brauche diesen Stuhl nicht. Which sentence says the same with a pronoun?",
+            question: "\"Ich brauche diesen Stuhl nicht.\" Which sentence says the same with a pronoun?",
             options: ["Ich brauche ihn nicht.", "Ich brauche es nicht.", "Ich brauche er nicht.", "Ich brauche nicht ihn."],
             correctIndex: 0,
             explanation: "\"Der Stuhl\" → \"ihn\", and the pronoun comes before \"nicht\".",
@@ -1404,7 +1404,7 @@ export const DE_A1_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Ich sehe die Kinder nicht. Which sentence says the same with a pronoun?",
+        question: "\"Ich sehe die Kinder nicht.\" Which sentence says the same with a pronoun?",
         options: ["Ich sehe sie nicht.", "Ich sehe nicht sie.", "Ich sehe es nicht.", "Ich sehe ihn nicht."],
         correctIndex: 0,
         explanation: "Plural people or things → \"sie\", placed before \"nicht\".",
@@ -1550,7 +1550,7 @@ export const DE_A1_U09: Lesson[] = [
         heading: "Ist das weit? Zu Fuß or mit dem Bus",
         body: [
           "Ask \"Ist das weit?\" (Is it far?). Typical answers: \"Nein, nur fünf Minuten zu Fuß\" (No, only five minutes on foot), \"Ja, ziemlich weit. Nehmen Sie den Bus.\"",
-          "On foot is \"zu Fuß\", never *mit Fuß, even though every vehicle takes \"mit\": \"mit dem Bus\", \"mit der U-Bahn\", \"mit dem Fahrrad\". \"Ich gehe zu Fuß\" means I'm walking.",
+          "On foot is \"zu Fuß\", never \"*mit Fuß\", even though every vehicle takes \"mit\": \"mit dem Bus\", \"mit der U-Bahn\", \"mit dem Fahrrad\". \"Ich gehe zu Fuß\" means I'm walking.",
           "Finish with \"Vielen Dank!\" and you'll hear \"Gern geschehen!\" or \"Bitte!\" (You're welcome.)",
         ],
         examples: [
@@ -1576,7 +1576,7 @@ export const DE_A1_U09: Lesson[] = [
             prompt: "Translate into German.",
             source: "Only five minutes on foot.",
             answer: "Nur fünf Minuten zu Fuß.",
-            explanation: "On foot is \"zu Fuß\", not *mit Fuß: mit is for vehicles.",
+            explanation: "On foot is \"zu Fuß\", not \"*mit Fuß\": mit is for vehicles.",
           },
         ],
       },
@@ -1637,7 +1637,7 @@ export const DE_A1_U09: Lesson[] = [
         prompt: "Put the words in order to say: Excuse me, I'm looking for the station.",
         words: ["Entschuldigung,", "ich", "suche", "den", "Bahnhof."],
         translation: "Excuse me, I'm looking for the station.",
-        explanation: "\"Suchen\" takes the accusative: \"den Bahnhof\". Entschuldigung doesn't count as a position.",
+        explanation: "\"Suchen\" takes the accusative: \"den Bahnhof\". \"Entschuldigung\" with its comma doesn't count as a position, so \"ich suche\" keeps the verb second.",
       },
       {
         type: "translate",
@@ -1682,7 +1682,7 @@ export const DE_A1_U09: Lesson[] = [
         heading: "Die Hose, das Hemd, der Rock",
         body: [
           "The basics: \"die Hose\" (trousers), \"die Jeans\" (jeans), \"das Hemd\" (shirt), \"die Bluse\" (blouse), \"das Kleid\" (dress), \"der Rock\" (skirt), \"der Pullover\" (jumper), \"die Jacke\" (jacket), \"der Mantel\" (coat), \"das T-Shirt\" and \"die Schuhe\" (shoes; one shoe is \"der Schuh\").",
-          "Trousers are singular in German: one pair is \"die Hose\", and \"die Hosen\" means several pairs. So it's \"Die Hose ist zu lang\", not *Die Hosen sind zu lang for one pair. \"Die Jeans\" is usually singular too: \"Meine Jeans ist neu.\"",
+          "Trousers are singular in German: one pair is \"die Hose\", and \"die Hosen\" means several pairs. So it's \"Die Hose ist zu lang\", not \"*Die Hosen sind zu lang\" for one pair. \"Die Jeans\" is usually singular too: \"Meine Jeans ist neu.\"",
           "False friends: \"der Rock\" is a skirt (rock music is \"die Rockmusik\"), and \"das Kleid\" is a dress, while clothes in general are \"die Kleidung\".",
         ],
         examples: [
@@ -1715,7 +1715,7 @@ export const DE_A1_U09: Lesson[] = [
         heading: "Rot, blau, schwarz: colours",
         body: [
           "The colours: \"rot\" (red), \"blau\" (blue), \"grün\" (green), \"gelb\" (yellow), \"schwarz\" (black), \"weiß\" (white), \"grau\" (grey), \"braun\" (brown), \"rosa\" (pink), \"lila\" (purple), and \"bunt\" (colourful).",
-          "After \"sein\" a colour is a predicate adjective, so it takes no ending, for any gender or number: \"Der Rock ist rot\", \"Die Schuhe sind schwarz\". Before a noun there are endings (ein roter Rock), which come at the Elementary level.",
+          "After \"sein\" a colour is a predicate adjective, so it takes no ending, for any gender or number: \"Der Rock ist rot\", \"Die Schuhe sind schwarz\". Before a noun there are endings (\"ein roter Rock\"), which come at the Elementary level.",
           "To ask about colour: \"Welche Farbe hat dein Mantel?\" (What colour is your coat?) — \"Er ist grau.\" As a noun, a colour is capitalised: \"in Blau\" (in blue).",
         ],
         examples: [
@@ -1757,7 +1757,7 @@ export const DE_A1_U09: Lesson[] = [
         body: [
           "English wear and put on are two different verbs in German too. \"Tragen\" is wearing, a state: \"Sie trägt heute ein Kleid.\" It changes its stem: \"du trägst\", \"er trägt\".",
           "\"Anziehen\" is putting on, an action, and it is separable: \"Ich ziehe die Jacke an.\" In the imperative: \"Zieh eine Jacke an!\" The opposite is \"ausziehen\" (take off): \"Ich ziehe die Schuhe aus.\"",
-          "A typical slip is *Ich trage die Jacke an. If you can say right now, I'm putting it on, use \"anziehen\"; if it's on you already, \"tragen\".",
+          "A typical slip is \"*Ich trage die Jacke an\". If you can say right now, I'm putting it on, use \"anziehen\"; if it's on you already, \"tragen\".",
         ],
         examples: [
           { es: "Lena trägt heute ein Kleid.", en: "Lena is wearing a dress today." },
@@ -1780,8 +1780,8 @@ export const DE_A1_U09: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "He [is wearing] a white shirt today.",
-            sentence: "Er ___ heute ein weißes Hemd.",
+            en: "He [is wearing] jeans today.",
+            sentence: "Er ___ heute Jeans.",
             answer: "trägt",
             explanation: "Wearing is \"tragen\", and a → ä in the er form: \"er trägt\".",
           },
@@ -1997,7 +1997,7 @@ export const DE_A1_U09: Lesson[] = [
             prompt: "Translate into German.",
             source: "The coat? I'll take it.",
             answer: "Der Mantel? Ich nehme ihn.",
-            explanation: "\"Der Mantel\" → \"ihn\". *Ich nehme es is the classic slip.",
+            explanation: "\"Der Mantel\" → \"ihn\". \"*Ich nehme es\" is the classic slip.",
           },
           {
             type: "speak",
@@ -2025,7 +2025,7 @@ export const DE_A1_U09: Lesson[] = [
         source: "Where's the changing room?",
         answer: "Wo ist die Umkleidekabine?",
         altAnswers: ["Wo sind die Umkleidekabinen?", "Wo ist die Kabine?"],
-        explanation: "\"Die Umkleidekabine\": a compound of umkleiden (change clothes) and die Kabine.",
+        explanation: "\"Die Umkleidekabine\": a compound of \"umkleiden\" (change clothes) and \"die Kabine\", so it's feminine like its last part.",
       },
       {
         type: "fill-blank",
@@ -2050,7 +2050,7 @@ export const DE_A1_U09: Lesson[] = [
         question: "The coat (der Mantel) fits and the price is good. What do you say?",
         options: ["Ich nehme ihn.", "Ich nehme es.", "Ich nehme er.", "Ich nehme ihm."],
         correctIndex: 0,
-        explanation: "Masculine object → \"ihn\". \"Es\" would only fit a neuter thing like das Hemd, and \"ihm\" is a dative form.",
+        explanation: "Masculine object → \"ihn\". \"Es\" would only fit a neuter thing like \"das Hemd\", \"er\" is the subject form, and \"ihm\" is a dative form.",
       },
       {
         type: "translate",
@@ -2058,6 +2058,7 @@ export const DE_A1_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "Can I try on these shoes?",
         answer: "Kann ich diese Schuhe anprobieren?",
+        altAnswers: ["Darf ich diese Schuhe anprobieren?", "Kann ich die Schuhe hier anprobieren?"],
         explanation: "In a yes/no question the modal \"kann\" comes first; \"diese Schuhe\" is the plural object and \"anprobieren\" stays whole at the end.",
       },
       {
@@ -2288,6 +2289,7 @@ export const DE_A1_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "It's five minutes on foot from the station to the post office.",
         answer: "Vom Bahnhof zur Post sind es fünf Minuten zu Fuß.",
+        altAnswers: ["Es sind fünf Minuten zu Fuß vom Bahnhof zur Post.", "Vom Bahnhof zur Post sind es zu Fuß fünf Minuten."],
         explanation: "\"Vom\" = von dem, \"zur\" = zu der, and on foot is \"zu Fuß\".",
       },
       {
@@ -2315,7 +2317,7 @@ export const DE_A1_U09: Lesson[] = [
         heading: "Unit 7: calendar, weather, places",
         body: [
           "Key words: the days (\"Montag\" to \"Sonntag\"), the months, the seasons (\"der Frühling\", \"der Sommer\", \"der Herbst\", \"der Winter\"), all masculine: \"am Montag\", \"im Mai\", \"im Winter\".",
-          "Weather: \"Es regnet\", \"Es schneit\", \"Die Sonne scheint\", \"Es ist windig\", and the chunk \"Mir ist kalt\" (I'm cold), never *Ich bin kalt. Travel: \"mit dem Bus\", \"mit der Bahn\", \"nach Berlin\", \"in die Schweiz\". Linking: \"zuerst\", \"dann\", \"danach\", \"schon\", \"noch\", \"oft\", \"manchmal\".",
+          "Weather: \"Es regnet\", \"Es schneit\", \"Die Sonne scheint\", \"Es ist windig\", and the chunk \"Mir ist kalt\" (I'm cold), never \"*Ich bin kalt\". Travel: \"mit dem Bus\", \"mit der Bahn\", \"nach Berlin\", \"in die Schweiz\". Linking: \"zuerst\", \"dann\", \"danach\", \"schon\", \"noch\", \"oft\", \"manchmal\".",
         ],
         examples: [
           { es: "Am Montag regnet es.", en: "It's raining on Monday." },
@@ -2331,7 +2333,7 @@ export const DE_A1_U09: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm cold.",
             answer: "Mir ist kalt.",
-            explanation: "The feeling of being cold is the chunk \"Mir ist kalt\"; *Ich bin kalt describes a cold personality.",
+            explanation: "The feeling of being cold is the chunk \"Mir ist kalt\"; \"*Ich bin kalt\" describes a cold personality.",
           },
           {
             type: "translate",
@@ -2366,7 +2368,7 @@ export const DE_A1_U09: Lesson[] = [
             source: "I like reading.",
             answer: "Ich lese gern.",
             altAnswers: ["Ich lese gerne."],
-            explanation: "Verb + \"gern\" for activities you like; not *Ich mag lesen.",
+            explanation: "Verb + \"gern\" for activities you like; not \"*Ich mag lesen\".",
           },
           {
             type: "translate",
@@ -2441,7 +2443,7 @@ export const DE_A1_U09: Lesson[] = [
         source: "My birthday is in May.",
         answer: "Mein Geburtstag ist im Mai.",
         altAnswers: ["Ich habe im Mai Geburtstag."],
-        explanation: "Months take \"im\": \"im Mai\", never *am Mai.",
+        explanation: "Months take \"im\": \"im Mai\", never \"*am Mai\".",
       },
       {
         type: "translate",
@@ -2574,7 +2576,7 @@ export const DE_A1_U09: Lesson[] = [
           { es: "Das ist Annas Fahrrad.", en: "That's Anna's bike." },
           { es: "Dieses Auto ist neu, aber sehr teuer.", en: "This car is new but very expensive." },
           { es: "Unsere Wohnung hat einen Balkon.", en: "Our flat has a balcony." },
-          { es: "Ist das dein Schlüssel? — Ja, danke! Ich suche ihn schon lange.", en: "Is this your key? — Yes, thanks! I've been looking for it for ages." },
+          { es: "Ist das dein Schlüssel? — Ja, danke! Ich brauche ihn heute.", en: "Is this your key? — Yes, thanks! I need it today." },
           { es: "Wir haben keinen Fernseher.", en: "We don't have a TV." },
         ],
         checkpoint: [
@@ -2649,7 +2651,7 @@ export const DE_A1_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "We don't have a TV.",
         answer: "Wir haben keinen Fernseher.",
-        explanation: "\"Der Fernseher\" → \"keinen\" as an object; never *nicht einen.",
+        explanation: "\"Der Fernseher\" → \"keinen\" as an object; never \"*nicht einen\".",
       },
       {
         type: "fill-blank",
@@ -2757,7 +2759,7 @@ export const DE_A1_U09: Lesson[] = [
             prompt: "Translate into German.",
             source: "On Mondays I get up at six.",
             answer: "Montags stehe ich um sechs auf.",
-            altAnswers: ["Montags stehe ich um sechs Uhr auf.", "Ich stehe montags um sechs auf.", "Ich stehe montags um sechs Uhr auf.", "Jeden Montag stehe ich um sechs auf.", "Jeden Montag stehe ich um sechs Uhr auf.", "Ich stehe jeden Montag um sechs Uhr auf."],
+            altAnswers: ["Montags stehe ich um sechs Uhr auf.", "Ich stehe montags um sechs auf.", "Ich stehe montags um sechs Uhr auf.", "Jeden Montag stehe ich um sechs auf.", "Jeden Montag stehe ich um sechs Uhr auf.", "Ich stehe jeden Montag um sechs auf.", "Ich stehe jeden Montag um sechs Uhr auf."],
             explanation: "\"Montags\" (every Monday) first, then the verb second, and the prefix \"auf\" at the end.",
           },
         ],
@@ -2862,22 +2864,22 @@ export const DE_A1_U09: Lesson[] = [
         source: "You mustn't smoke here.",
         answer: "Hier darf man nicht rauchen.",
         altAnswers: ["Du darfst hier nicht rauchen.", "Sie dürfen hier nicht rauchen.", "Ihr dürft hier nicht rauchen.", "Man darf hier nicht rauchen."],
-        explanation: "Must not is \"nicht dürfen\", never muss nicht.",
+        explanation: "Must not is \"nicht dürfen\". \"Du musst hier nicht rauchen\" would mean you don't have to smoke here.",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "What time [does] the film [start]?",
-        sentence: "Um wie viel Uhr fängt der Film ___?",
-        answer: "an",
+        en: "What time does the film [start]?",
+        sentence: "Um wie viel Uhr ___ der Film an?",
+        answer: "fängt",
         explanation: "\"Anfangen\" splits: \"fängt... an\", with a → ä in the er/sie/es form.",
       },
       {
         type: "multiple-choice",
-        question: "A friend says: Du hast keine Zeit, oder? You do have time. What do you answer?",
+        question: "A friend says: \"Du hast keine Zeit, oder?\" You do have time. What do you answer?",
         options: ["Doch!", "Ja!", "Nein!", "Nicht!"],
         correctIndex: 0,
-        explanation: "\"Doch\" contradicts a negative statement or question.",
+        explanation: "\"Doch\" contradicts a negative statement or question. \"Ja\" after a negative is unclear, and \"Nein\" would agree that you have no time.",
       },
       {
         type: "translate",

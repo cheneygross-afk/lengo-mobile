@@ -23,7 +23,7 @@ export const DE_C1_U08: Lesson[] = [
     level: "DE-C1",
     number: 1,
     title: "Sein, Haben, Machen and Lassen, Part 1 of 6",
-    summary: "Sein idioms: mir ist kalt / schlecht / langweilig, es ist an dir, dabei sein, am Kochen sein, du bist dran, außer sich sein, auf etwas aus sein, im Bilde sein, hin sein, Was ist los?, Lass es sein!",
+    summary: "Use the key idioms with \"sein\": \"mir ist kalt\" / \"schlecht\" / \"langweilig\", \"es ist an dir\", \"dabei sein\", \"am Kochen sein\", \"du bist dran\", \"außer sich sein\", \"auf etwas aus sein\", \"im Bilde sein\", \"hin sein\", \"Was ist los?\" and \"Lass es sein!\".",
     duration: "18 min",
     sections: [
       {
@@ -48,7 +48,7 @@ export const DE_C1_U08: Lesson[] = [
             source: "I'm hot, can we sit in the shade?",
             answer: "Mir ist heiß, können wir uns in den Schatten setzen?",
             altAnswers: ["Mir ist warm, können wir uns in den Schatten setzen?", "Mir ist heiß, können wir im Schatten sitzen?", "Mir ist heiß. Können wir uns in den Schatten setzen?"],
-            explanation: "Sensation: dative \"mir ist heiß\", never \"ich bin heiß\".",
+            explanation: "Sensation: dative \"mir ist heiß\"; \"ich bin heiß\" means something else entirely (eager, or sexy).",
           },
           {
             type: "listen-choose",
@@ -77,7 +77,7 @@ export const DE_C1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using dabei sein.",
+            prompt: "Translate into German using \"dabei sein\".",
             source: "We're just in the middle of renovating the kitchen.",
             answer: "Wir sind gerade dabei, die Küche zu renovieren.",
             altAnswers: ["Wir sind gerade dabei, die Küche zu sanieren.", "Wir sind dabei, die Küche zu renovieren."],
@@ -85,7 +85,7 @@ export const DE_C1_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence means \"Es ist deine Entscheidung\" in idiomatic German?",
+            question: "How do you say it's up to you to decide in idiomatic German?",
             options: ["Es ist an dir, zu entscheiden.", "Es ist bei dir, zu entscheiden.", "Du bist zu entscheiden.", "Es ist auf dich, zu entscheiden."],
             correctIndex: 0,
             explanation: "\"Es ist an dir\" = it's up to you.",
@@ -142,6 +142,7 @@ export const DE_C1_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "It's up to us to find a solution.",
         answer: "Es ist an uns, eine Lösung zu finden.",
+        altAnswers: ["Es liegt an uns, eine Lösung zu finden."],
         explanation: "\"Es ist an\" + dative + zu-infinitive.",
       },
       {
@@ -159,7 +160,7 @@ export const DE_C1_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm in the middle of writing the report.",
         answer: "Ich bin gerade dabei, den Bericht zu schreiben.",
-        altAnswers: ["Ich bin dabei, den Bericht zu schreiben.", "Ich bin gerade am Schreiben des Berichts."],
+        altAnswers: ["Ich bin dabei, den Bericht zu schreiben.", "Ich schreibe gerade den Bericht.", "Ich bin gerade dabei, den Bericht zu verfassen."],
         explanation: "\"Dabei sein, ... zu\".",
       },
       {
@@ -177,6 +178,7 @@ export const DE_C1_U08: Lesson[] = [
         en: "Are you [in the picture] about the new rules?",
         sentence: "Sind Sie über die neuen Regeln ___?",
         answer: "im Bilde",
+        altAnswers: ["informiert"],
         explanation: "\"Im Bilde sein\" = to be informed.",
       },
       {
@@ -188,10 +190,10 @@ export const DE_C1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Anna says: Ich bin kalt. What does a German listener understand?",
+        question: "Anna says: \"Ich bin kalt.\" What does a German listener understand?",
         options: ["That Anna is a cold, unfeeling person.", "That Anna is freezing.", "That Anna has a cold.", "That Anna wants a blanket."],
         correctIndex: 0,
-        explanation: "Nominative + sein describes character; for the sensation say \"Mir ist kalt\".",
+        explanation: "Nominative + \"sein\" describes the person (here: cold and unfeeling, or at most cold to the touch); for the sensation say \"Mir ist kalt\".",
       },
       {
         type: "dictation",
@@ -202,7 +204,7 @@ export const DE_C1_U08: Lesson[] = [
         type: "speak",
         text: "Mir ist kalt, kannst du das Fenster zumachen?",
         prompt: "Say it in German: I'm cold, can you close the window?",
-        tip: "Start with the dative: mir.",
+        tip: "Start with the dative: \"mir\".",
         explanation: "\"Mir ist kalt\" for the sensation.",
       },
     ],
@@ -212,14 +214,14 @@ export const DE_C1_U08: Lesson[] = [
     level: "DE-C1",
     number: 2,
     title: "Sein, Haben, Machen and Lassen, Part 2 of 6",
-    summary: "Haben idioms: es eilig haben, es satt haben, recht haben, etwas gegen jdn haben, nichts davon haben, es in sich haben, es schwer haben, nichts zu tun haben mit, etwas vorhaben, Was hast du denn?; haben + zu.",
+    summary: "Use the key idioms with \"haben\" where English says be: \"es eilig haben\", \"es satt haben\", \"recht haben\", \"etwas gegen jemanden haben\", \"nichts davon haben\", \"es in sich haben\", \"es schwer haben\", \"nichts zu tun haben mit\", \"etwas vorhaben\", \"Was hast du denn?\", and \"haben + zu\".",
     duration: "17 min",
     sections: [
       {
         heading: "Haben with es",
         body: [
           "A group of idioms uses \"haben\" with an empty \"es\": \"es eilig haben\" (to be in a hurry), \"es satt haben\" (to be fed up with it), \"es schwer haben\" (to have a hard time), \"es gut haben\" (to be well off), \"es in sich haben\" (to be tougher or stronger than it looks).",
-          "English uses to be in most of these: I'm in a hurry = \"Ich habe es eilig\", not \"*Ich bin in Eile\" (possible but stiff). I'm fed up = \"Ich habe es satt\" or \"Ich habe die Nase voll\".",
+          "English uses to be in most of these: I'm in a hurry = \"Ich habe es eilig\", not \"Ich bin in Eile\" (possible but stiff). I'm fed up = \"Ich habe es satt\" or \"Ich habe die Nase voll\".",
         ],
         examples: [
           { es: "Entschuldigung, ich habe es eilig.", en: "Sorry, I'm in a hurry." },
@@ -270,7 +272,7 @@ export const DE_C1_U08: Lesson[] = [
             prompt: "Translate into German.",
             source: "I have nothing against your plan.",
             answer: "Ich habe nichts gegen deinen Plan.",
-            altAnswers: ["Ich habe nichts gegen Ihren Plan.", "Gegen deinen Plan habe ich nichts."],
+            altAnswers: ["Ich habe nichts gegen Ihren Plan.", "Gegen deinen Plan habe ich nichts.", "Ich habe nichts gegen euren Plan."],
             explanation: "\"Etwas / nichts gegen ... haben\".",
           },
           {
@@ -361,7 +363,7 @@ export const DE_C1_U08: Lesson[] = [
         type: "speak",
         text: "Du hast recht, das habe ich vergessen.",
         prompt: "Say it in German: You're right, I forgot that.",
-        tip: "Use haben, not sein.",
+        tip: "Use \"haben\", not \"sein\".",
         explanation: "\"Recht haben\" = to be right.",
       },
     ],
@@ -371,7 +373,7 @@ export const DE_C1_U08: Lesson[] = [
     level: "DE-C1",
     number: 3,
     title: "Sein, Haben, Machen and Lassen, Part 3 of 6",
-    summary: "Machen vs tun: Das macht nichts, Mach's gut, Das macht 20 Euro, sich Sorgen machen, sich auf den Weg machen, Spaß machen; Es tut mir leid, weh tun, so tun, als ob, zu tun haben, Das tut gut, Das tut nichts zur Sache.",
+    summary: "Choose between \"machen\" and \"tun\" in fixed expressions: \"Das macht nichts\", \"Mach's gut\", \"Das macht 20 Euro\", \"sich Sorgen machen\", \"sich auf den Weg machen\", \"Spaß machen\"; \"Es tut mir leid\", \"wehtun\", \"so tun, als ob\", \"zu tun haben\", \"Das tut gut\", \"Das tut nichts zur Sache\".",
     duration: "18 min",
     sections: [
       {
@@ -379,13 +381,13 @@ export const DE_C1_U08: Lesson[] = [
         body: [
           "\"Machen\" is the default verb for doing and making in speech: \"Was machst du?\", \"Hausaufgaben machen\", \"einen Fehler machen\", \"Urlaub machen\".",
           "Fixed expressions: \"Das macht nichts\" (never mind), \"Mach's gut!\" (take care), \"Das macht 20 Euro\" (that comes to), \"sich Sorgen machen\" (to worry), \"sich auf den Weg machen\" (to set off), \"sich nichts daraus machen\" (not to care about it), \"Spaß machen\" (to be fun), \"Was macht die Arbeit?\" (how is work going?).",
-          "English make and do don't map onto machen and tun: to make a decision = \"eine Entscheidung treffen\", to make a photo = \"ein Foto machen\", to do a favour = \"einen Gefallen tun\", to do sport = \"Sport treiben\" or \"Sport machen\".",
+          "English make and do don't map onto \"machen\" and \"tun\": to make a decision = \"eine Entscheidung treffen\", to take a photo = \"ein Foto machen\", to do a favour = \"einen Gefallen tun\", to do sport = \"Sport treiben\" or \"Sport machen\".",
         ],
         examples: [
           { es: "Das macht nichts, das kann jedem passieren.", en: "Never mind, that can happen to anyone." },
           { es: "Zusammen macht das 23,50 Euro.", en: "Altogether that comes to 23.50 euros." },
           { es: "Mach dir keine Sorgen, wir schaffen das.", en: "Don't worry, we'll manage." },
-          { es: "Wir sollten uns langsam auf den Weg machen.", en: "We should slowly set off." },
+          { es: "Wir sollten uns langsam auf den Weg machen.", en: "We should get going soon." },
           { es: "Er macht sich nichts aus Fußball.", en: "He doesn't care for football." },
           { es: "Und, was macht die Arbeit?", en: "So, how's work going?" },
         ],
@@ -435,7 +437,7 @@ export const DE_C1_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which verb completes: Ich habe heute viel zu ___.",
+            question: "You want to say you're very busy today. Which verb completes \"Ich habe heute viel zu ___\"?",
             options: ["tun", "machen", "sein", "lassen"],
             correctIndex: 0,
             explanation: "\"Viel zu tun haben\" = to be busy.",
@@ -478,7 +480,7 @@ export const DE_C1_U08: Lesson[] = [
         source: "Could you do me a favour?",
         answer: "Könntest du mir einen Gefallen tun?",
         altAnswers: ["Könnten Sie mir einen Gefallen tun?", "Kannst du mir einen Gefallen tun?"],
-        explanation: "A favour is \"getan\", not \"gemacht\".",
+        explanation: "In standard German a favour is \"getan\"; \"einen Gefallen machen\" is heard in speech but avoided in careful German.",
       },
       {
         type: "fill-blank",
@@ -486,13 +488,13 @@ export const DE_C1_U08: Lesson[] = [
         en: "A holiday [would do you good].",
         sentence: "Ein Urlaub ___.",
         answer: "würde dir guttun",
-        altAnswers: ["würde dir gut tun", "würde Ihnen guttun", "täte dir gut"],
-        explanation: "\"Guttun\" (also written \"gut tun\").",
+        altAnswers: ["würde Ihnen guttun", "täte dir gut", "täte Ihnen gut", "würde euch guttun", "täte euch gut"],
+        explanation: "\"Guttun\" + dative, written as one word since the 2006 spelling rules (\"gut tun\" is the old spelling).",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "He [doesn't care much for] parties.",
+        en: "He doesn't [care] much for parties.",
         sentence: "Er ___ nicht viel aus Partys.",
         answer: "macht sich",
         explanation: "\"Sich nichts / nicht viel aus etwas machen\".",
@@ -520,7 +522,7 @@ export const DE_C1_U08: Lesson[] = [
         type: "speak",
         text: "Mach dir keine Sorgen, das macht nichts.",
         prompt: "Say it in German: Don't worry, it doesn't matter.",
-        tip: "Two machen idioms in a row.",
+        tip: "Two \"machen\" idioms in a row.",
         explanation: "\"Sich Sorgen machen\" and \"Das macht nichts\".",
       },
     ],
@@ -530,7 +532,7 @@ export const DE_C1_U08: Lesson[] = [
     level: "DE-C1",
     number: 4,
     title: "Mastery Check: Sein, Haben, Machen and Lassen, Part 1",
-    summary: "Idioms with sein, haben, machen and tun in context without hints.",
+    summary: "Check that you can use the idioms with \"sein\", \"haben\", \"machen\" and \"tun\" in context without hints.",
     duration: "16 min",
     sections: [
       {
@@ -584,8 +586,8 @@ export const DE_C1_U08: Lesson[] = [
             prompt: "Translate into German.",
             source: "The fresh air did me good.",
             answer: "Die frische Luft hat mir gutgetan.",
-            altAnswers: ["Die frische Luft hat mir gut getan.", "Die frische Luft tat mir gut."],
-            explanation: "\"Guttun\" + dative.",
+            altAnswers: ["Die frische Luft tat mir gut."],
+            explanation: "\"Guttun\" + dative; the participle is one word too: \"gutgetan\".",
           },
           {
             type: "multiple-choice",
@@ -640,7 +642,7 @@ export const DE_C1_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "What are you doing at the weekend?",
         answer: "Was hast du am Wochenende vor?",
-        altAnswers: ["Was haben Sie am Wochenende vor?", "Was machst du am Wochenende?", "Was habt ihr am Wochenende vor?"],
+        altAnswers: ["Was haben Sie am Wochenende vor?", "Was machst du am Wochenende?", "Was habt ihr am Wochenende vor?", "Was macht ihr am Wochenende?", "Was machen Sie am Wochenende?"],
         explanation: "Plans: \"vorhaben\".",
       },
       {
@@ -663,9 +665,10 @@ export const DE_C1_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Her question [has nothing to do with] the problem.",
-        sentence: "Ihre Frage ___ dem Problem zu tun.",
-        answer: "hat nichts mit",
+        en: "Her question [has nothing to do with the problem].",
+        sentence: "Ihre Frage ___.",
+        answer: "hat nichts mit dem Problem zu tun",
+        altAnswers: ["hat mit dem Problem nichts zu tun"],
         explanation: "\"Nichts mit etwas zu tun haben\": the zu-infinitive closes the clause.",
       },
       {
@@ -692,7 +695,7 @@ export const DE_C1_U08: Lesson[] = [
         type: "speak",
         text: "Ich habe es satt, immer zu warten.",
         prompt: "Say it in German: I'm fed up with always waiting.",
-        tip: "Haben, not sein.",
+        tip: "\"Haben\", not \"sein\".",
         explanation: "\"Es satt haben\".",
       },
     ],
@@ -701,8 +704,8 @@ export const DE_C1_U08: Lesson[] = [
     slug: "c1-contrast-hat-gefahren-ist-gefahren",
     level: "DE-C1",
     number: 5,
-    title: "Contrast Clinic: Ich Habe Gefahren / Ich Bin Gefahren",
-    summary: "Verbs with both auxiliaries: fahren, fliegen, reiten, ziehen, brechen, stoßen, verderben with and without a direct object; southern and Austrian ich bin gesessen / gestanden / gelegen.",
+    title: "Contrast Clinic: Ich habe gefahren / Ich bin gefahren",
+    summary: "Choose \"haben\" or \"sein\" for verbs that take both (\"fahren\", \"fliegen\", \"reiten\", \"ziehen\", \"brechen\", \"stoßen\", \"verderben\"), with and without a direct object, and recognise southern and Austrian \"ich bin gesessen\" / \"gestanden\" / \"gelegen\".",
     duration: "17 min",
     sections: [
       {
@@ -855,7 +858,7 @@ export const DE_C1_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "You [ruined] my whole evening!",
+        en: "You['ve] ruined my whole evening!",
         sentence: "Du ___ mir den ganzen Abend verdorben!",
         answer: "hast",
         explanation: "Transitive \"verderben\" → \"haben\".",
@@ -893,14 +896,14 @@ export const DE_C1_U08: Lesson[] = [
     level: "DE-C1",
     number: 6,
     title: "Error Hunt: When English \"Be\" Is Not Sein",
-    summary: "Mir ist kalt, Du hast recht, Es liegt zehn Minuten entfernt, Ich bin 1,80 groß, the two meanings of ich bin fertig, and es gibt ein Problem.",
+    summary: "Fix sentences where English be is not \"sein\" in German: \"Mir ist kalt\", \"Du hast recht\", \"Es liegt zehn Minuten entfernt\", \"Ich bin 1,80 groß\", the two meanings of \"Ich bin fertig\", and \"Es gibt ein Problem\".",
     duration: "16 min",
     sections: [
       {
         heading: "Feelings, being right and size",
         body: [
           "English uses to be for almost every state. German often doesn't.",
-          "*Ich bin kalt / *Ich bin heiß → \"Mir ist kalt / heiß\" (the nominative versions describe character, and \"Ich bin heiß\" has a sexual meaning). *Du bist richtig → \"Du hast recht\" (\"Du bist richtig\" only means you are the right person). *Ich bin 1,80 → \"Ich bin 1,80 groß\" or \"Ich bin 1,80 Meter groß\"; similarly \"Ich bin 30 Jahre alt\" is fine, but heights and weights need \"groß\" or a verb: \"Ich wiege 70 Kilo\".",
+          "\"*Ich bin kalt\" / \"*Ich bin heiß\" → \"Mir ist kalt / heiß\" (the nominative versions describe character, and \"Ich bin heiß\" has a sexual meaning). \"*Du bist richtig\" → \"Du hast recht\" (\"Du bist richtig\" only means you are the right person). Height: \"Ich bin 1,80\" is fine in speech, but the full form is \"Ich bin 1,80 (Meter) groß\", just as \"Ich bin 30 Jahre alt\". Weight needs a verb: \"Ich wiege 70 Kilo\".",
         ],
         examples: [
           { es: "Mir ist heiß, ich ziehe die Jacke aus.", en: "I'm hot, I'm taking my jacket off." },
@@ -920,7 +923,7 @@ export const DE_C1_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct for agreeing with someone?",
+            question: "You want to agree with a client. Which sentence is correct?",
             options: ["Sie haben recht.", "Sie sind richtig.", "Sie sind recht.", "Sie haben richtig."],
             correctIndex: 0,
             explanation: "\"Recht haben\".",
@@ -930,8 +933,8 @@ export const DE_C1_U08: Lesson[] = [
       {
         heading: "Distance, problems and fertig",
         body: [
-          "Distances: *Es ist zehn Minuten von hier → \"Es liegt zehn Minuten (von hier) entfernt\" or \"Es sind zehn Minuten zu Fuß\". Problems: *Es ist ein Problem mit dem Drucker → \"Es gibt ein Problem mit dem Drucker\" or \"Mit dem Drucker stimmt etwas nicht\".",
-          "\"Ich bin fertig\" is ambiguous: finished (\"Ich bin mit dem Bericht fertig\") or exhausted (\"Ich bin total fertig\"). Context, and \"mit\", make it clear. For ready, say \"Ich bin bereit\" or \"Ich bin so weit\".",
+          "Distances: \"*Es ist zehn Minuten von hier\" → \"Es liegt zehn Minuten (von hier) entfernt\" or \"Es sind zehn Minuten zu Fuß\". Problems: \"*Es ist ein Problem mit dem Drucker\" → \"Es gibt ein Problem mit dem Drucker\" or \"Mit dem Drucker stimmt etwas nicht\".",
+          "\"Ich bin fertig\" is ambiguous: finished (\"Ich bin mit dem Bericht fertig\") or exhausted (\"Ich bin total fertig\"). Context, and \"mit\", make it clear. \"Bist du fertig?\" can also mean are you ready (to go)?, but for ready \"Ich bin so weit\" or \"Ich bin bereit\" is unambiguous.",
         ],
         examples: [
           { es: "Der Bahnhof liegt zehn Minuten von hier entfernt.", en: "The station is ten minutes from here." },
@@ -1025,7 +1028,7 @@ export const DE_C1_U08: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Find the error-free sentence.",
-        options: ["Der Supermarkt liegt nur zwei Minuten entfernt.", "Der Supermarkt ist nur zwei Minuten von hier.", "Es ist ein Problem mit dem Supermarkt.", "Ich bin heiß, mach das Fenster auf."],
+        options: ["Der Supermarkt liegt nur zwei Minuten entfernt.", "Ich bin richtig, der Supermarkt ist nah.", "Es ist ein Problem mit dem Supermarkt.", "Ich bin heiß, mach das Fenster auf."],
         correctIndex: 0,
         explanation: "The other three are calques of English be.",
       },
@@ -1038,7 +1041,7 @@ export const DE_C1_U08: Lesson[] = [
         type: "speak",
         text: "Es gibt ein Problem mit der Heizung.",
         prompt: "Say it in German: There's a problem with the heating.",
-        tip: "Use es gibt, not es ist.",
+        tip: "Use \"es gibt\", not \"es ist\".",
         explanation: "Existence: \"es gibt\".",
       },
     ],
@@ -1048,7 +1051,7 @@ export const DE_C1_U08: Lesson[] = [
     level: "DE-C1",
     number: 7,
     title: "Sein, Haben, Machen and Lassen, Part 4 of 6",
-    summary: "Lassen in all its uses: causative with the double infinitive, permissive, leave, suggestion, sich lassen; mich or mir with lassen.",
+    summary: "Use \"lassen\" in all its senses (causative with the double infinitive, permission, leave, suggestions, \"sich lassen\") and choose \"mich\" or \"mir\" correctly.",
     duration: "19 min",
     sections: [
       {
@@ -1056,7 +1059,7 @@ export const DE_C1_U08: Lesson[] = [
         body: [
           "\"Lassen\" + infinitive means to have something done by someone else: \"Ich lasse das Auto reparieren\". If it is done to yourself or for yourself, add a dative reflexive: \"Ich lasse mir die Haare schneiden\" (I'm having my hair cut).",
           "In the Perfekt, \"lassen\" uses the double infinitive, not \"gelassen\": \"Ich habe das Auto reparieren lassen\". In a subordinate clause the finite verb comes before both infinitives: \"..., weil ich das Auto habe reparieren lassen\".",
-          "Mich or mir? If there is another accusative object, the reflexive is dative: \"Ich lasse mir die Haare schneiden\". If not, it is accusative: \"Ich lasse mich untersuchen\" (I'm having myself examined).",
+          "\"Mich\" or \"mir\"? If there is another accusative object, the reflexive is dative: \"Ich lasse mir die Haare schneiden\". If not, it is accusative: \"Ich lasse mich untersuchen\" (I'm having myself examined).",
         ],
         examples: [
           { es: "Wir lassen die Wohnung streichen.", en: "We're having the flat painted." },
@@ -1134,7 +1137,7 @@ export const DE_C1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using sich lassen.",
+            prompt: "Translate into German using \"sich lassen\".",
             source: "The problem can be solved easily.",
             answer: "Das Problem lässt sich leicht lösen.",
             altAnswers: ["Das Problem lässt sich einfach lösen."],
@@ -1176,7 +1179,7 @@ export const DE_C1_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "Let me help you.",
         answer: "Lass mich dir helfen.",
-        altAnswers: ["Lassen Sie mich Ihnen helfen.", "Lass mich dir doch helfen."],
+        altAnswers: ["Lassen Sie mich Ihnen helfen.", "Lass mich dir doch helfen.", "Lasst mich euch helfen."],
         explanation: "Permissive \"lassen\".",
       },
       {
@@ -1214,7 +1217,7 @@ export const DE_C1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which form is correct? Ich lasse ___ die Nägel machen.",
+        question: "You're having your nails done. Which word completes \"Ich lasse ___ die Nägel machen\"?",
         options: ["mir", "mich", "mein", "meiner"],
         correctIndex: 0,
         explanation: "With another object (\"die Nägel\") the reflexive is dative.",
@@ -1228,7 +1231,7 @@ export const DE_C1_U08: Lesson[] = [
         type: "speak",
         text: "Lass mich bitte ausreden!",
         prompt: "Say it in German: Please let me finish!",
-        tip: "Permissive lassen + ausreden.",
+        tip: "Permissive \"lassen\" + \"ausreden\".",
         explanation: "\"Lass mich ausreden\".",
       },
     ],
@@ -1238,7 +1241,7 @@ export const DE_C1_U08: Lesson[] = [
     level: "DE-C1",
     number: 8,
     title: "Sein, Haben, Machen and Lassen, Part 5 of 6",
-    summary: "Saying there is: es gibt vs da ist / es ist / es sind, es steht, es liegt / es hängt, es herrscht; the calque *da ist ein Grund.",
+    summary: "Say there is the German way: \"es gibt\" vs \"da ist\" / \"es ist\" / \"es sind\", \"es steht\", \"es liegt\" / \"es hängt\", \"es herrscht\", and avoid the calque \"*Da ist ein Grund\".",
     duration: "18 min",
     sections: [
       {
@@ -1246,7 +1249,7 @@ export const DE_C1_U08: Lesson[] = [
         body: [
           "\"Es gibt\" + accusative states that something exists, in general or in a large or abstract space: \"Es gibt viele Gründe dafür\", \"In Berlin gibt es drei Opernhäuser\", \"Gibt es noch Fragen?\".",
           "For presence in a specific, limited place, German prefers \"sein\" with the real subject (and the verb agrees with it): \"Im Kühlschrank ist kein Käse mehr\", \"Es sind 20 Leute da\", \"Da ist jemand an der Tür\". Here \"es\" is only a placeholder, and the verb is plural if the subject is.",
-          "Trap: English there is a reason → \"Es gibt einen Grund\", not *Da ist ein Grund.",
+          "Trap: English there is a reason → \"Es gibt einen Grund\", not \"*Da ist ein Grund\".",
         ],
         examples: [
           { es: "Es gibt viele Gründe, umzuziehen.", en: "There are many reasons to move." },
@@ -1386,7 +1389,7 @@ export const DE_C1_U08: Lesson[] = [
         type: "speak",
         text: "Gibt es hier in der Nähe eine Apotheke?",
         prompt: "Say it in German: Is there a pharmacy near here?",
-        tip: "Es gibt, in question form.",
+        tip: "\"Es gibt\", in question form.",
         explanation: "\"Gibt es ...?\"",
       },
     ],
@@ -1395,8 +1398,8 @@ export const DE_C1_U08: Lesson[] = [
     slug: "c1-contrast-schmeckt-riecht-sieht-aus",
     level: "DE-C1",
     number: 9,
-    title: "Contrast Clinic: Es Schmeckt, Es Riecht, Es Sieht Gut Aus, Es Geht",
-    summary: "Evaluations of food, smells, people and places: schmecken, lecker sein, riechen, aussehen, es geht mir gut, es geht so, passen, klingen; Wie gefällt es dir hier?",
+    title: "Contrast Clinic: Es schmeckt, Es riecht, Es sieht gut aus, Es geht",
+    summary: "Comment on food, smells, people, plans and places with \"schmecken\", \"lecker sein\", \"riechen\", \"aussehen\", \"es geht mir gut\", \"es geht so\", \"passen\", \"klingen\" and \"Wie gefällt es dir hier?\".",
     duration: "16 min",
     sections: [
       {
@@ -1404,7 +1407,7 @@ export const DE_C1_U08: Lesson[] = [
         body: [
           "\"Schmecken\" alone already means to taste good: \"Das schmeckt!\", \"Schmeckt es dir?\". With an adjective: \"Das schmeckt bitter\", \"Es schmeckt nach Zimt\" (tastes of). \"Lecker\" goes with \"sein\": \"Das ist lecker\".",
           "\"Riechen\": \"Es riecht gut\", \"Hier riecht es nach Kaffee\" (smells of). \"Aussehen\" for appearance: \"Du siehst müde aus\", \"Das sieht nach Regen aus\" (looks like rain), \"Er sieht gut aus\" (he's good-looking, or he looks well).",
-          "English it looks good / it tastes good never uses \"ist\": *Es ist gut aussehend is wrong for an object; say \"Es sieht gut aus\".",
+          "English it looks good / it tastes good never uses \"ist\": \"*Es ist gut aussehend\" is wrong for an object; say \"Es sieht gut aus\".",
         ],
         examples: [
           { es: "Die Suppe schmeckt nach Ingwer.", en: "The soup tastes of ginger." },
@@ -1443,7 +1446,7 @@ export const DE_C1_U08: Lesson[] = [
           { es: "Passt dir Donnerstag um zehn?", en: "Does Thursday at ten suit you?" },
           { es: "Das klingt nach einem guten Plan.", en: "That sounds like a good plan." },
           { es: "Wie gefällt es dir in deiner neuen Wohnung?", en: "How do you like your new flat?" },
-          { es: "Geht das auch etwas schneller?", en: "Could it go a bit faster?" },
+          { es: "Geht das auch etwas schneller?", en: "Could you speed it up a bit?" },
         ],
         checkpoint: [
           {
@@ -1543,7 +1546,7 @@ export const DE_C1_U08: Lesson[] = [
         type: "speak",
         text: "Das riecht aber gut! Was kochst du?",
         prompt: "Say it in German: That smells good! What are you cooking?",
-        tip: "Riechen, with aber for surprise.",
+        tip: "\"Riechen\", with \"aber\" for surprise.",
         explanation: "\"Das riecht gut\".",
       },
     ],
@@ -1553,7 +1556,7 @@ export const DE_C1_U08: Lesson[] = [
     level: "DE-C1",
     number: 10,
     title: "Transformations: Sein, Haben, Machen and Lassen",
-    summary: "Paraphrase with the right core verb: beim Kochen sein → dabei sein zu kochen; recht haben → richtigliegen; reparieren lassen → in die Werkstatt bringen.",
+    summary: "Say the same thing with different core verbs: \"beim Kochen sein\" → \"dabei sein zu kochen\"; \"recht haben\" → \"richtigliegen\"; \"reparieren lassen\" → \"in die Werkstatt bringen\"; \"sich lassen\" → \"sein + zu\" or \"-bar\".",
     duration: "17 min",
     sections: [
       {
@@ -1565,7 +1568,7 @@ export const DE_C1_U08: Lesson[] = [
         ],
         examples: [
           { es: "Ich bin gerade dabei zu kochen.", en: "I'm cooking right now." },
-          { es: "Mit deiner Vermutung liegst du richtig.", en: "You're right with your guess." },
+          { es: "Mit deiner Vermutung liegst du richtig.", en: "Your guess is right." },
           { es: "Da liegst du leider falsch.", en: "Unfortunately you're wrong there." },
           { es: "Ich bringe den Anzug morgen in die Reinigung.", en: "I'm taking the suit to the cleaner's tomorrow." },
           { es: "Das ist leider nicht zu ändern.", en: "Unfortunately that can't be changed." },
@@ -1574,7 +1577,7 @@ export const DE_C1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in German without lassen: I'm having the bike repaired (I'm taking it to the shop).",
+            prompt: "Say it in German without \"lassen\": I'm having the bike repaired (I'm taking it to the shop).",
             source: "I'm taking the bike to the repair shop.",
             answer: "Ich bringe das Fahrrad in die Werkstatt.",
             altAnswers: ["Ich bringe das Rad in die Werkstatt.", "Ich bringe das Fahrrad zur Reparatur.", "Ich bringe mein Fahrrad in die Werkstatt."],
@@ -1607,7 +1610,7 @@ export const DE_C1_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using sein + zu.",
+            prompt: "Translate into German using \"sein + zu\".",
             source: "The text is easy to understand.",
             answer: "Der Text ist leicht zu verstehen.",
             altAnswers: ["Der Text ist einfach zu verstehen."],
@@ -1615,7 +1618,7 @@ export const DE_C1_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence means the same as: Die Tür lässt sich nicht schließen?",
+            question: "Which sentence means the same as \"Die Tür lässt sich nicht schließen\"?",
             options: ["Die Tür kann nicht geschlossen werden.", "Die Tür lässt niemanden hinein.", "Die Tür muss geschlossen werden.", "Die Tür ist nicht geschlossen."],
             correctIndex: 0,
             explanation: "\"Sich lassen\" = \"können\" + passive.",
@@ -1627,7 +1630,7 @@ export const DE_C1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using liegen.",
+        prompt: "Translate into German using \"liegen\".",
         source: "I think you're wrong.",
         answer: "Ich glaube, du liegst falsch.",
         altAnswers: ["Ich glaube, Sie liegen falsch.", "Ich denke, du liegst falsch."],
@@ -1637,7 +1640,7 @@ export const DE_C1_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German using an -bar adjective.",
-        source: "The flat can be rented immediately.",
+        source: "The flat can be let immediately.",
         answer: "Die Wohnung ist sofort vermietbar.",
         altAnswers: ["Die Wohnung ist ab sofort vermietbar."],
         explanation: "\"-bar\" = can be done.",
@@ -1645,8 +1648,8 @@ export const DE_C1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using dabei sein.",
-        source: "We're about to leave.",
+        prompt: "Translate into German using \"dabei sein\".",
+        source: "We're just leaving.",
         answer: "Wir sind gerade dabei zu gehen.",
         altAnswers: ["Wir sind gerade dabei, zu gehen.", "Wir sind dabei zu gehen.", "Wir sind gerade dabei loszugehen.", "Wir sind gerade dabei, loszugehen."],
         explanation: "\"Dabei sein\" + zu-infinitive.",
@@ -1654,7 +1657,7 @@ export const DE_C1_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using sich lassen.",
+        prompt: "Translate into German using \"sich lassen\".",
         source: "That can't be proven.",
         answer: "Das lässt sich nicht beweisen.",
         altAnswers: ["Das lässt sich nicht nachweisen."],
@@ -1663,7 +1666,7 @@ export const DE_C1_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words (formal style).",
-        en: "[There is a garage].",
+        en: "[There is] a garage.",
         sentence: "Eine Garage ___.",
         answer: "ist vorhanden",
         explanation: "Administrative \"vorhanden sein\".",
@@ -1686,7 +1689,7 @@ export const DE_C1_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence does NOT mean Ich lasse die Uhr reparieren?",
+        question: "Which sentence does NOT mean \"Ich lasse die Uhr reparieren\"?",
         options: ["Ich repariere die Uhr selbst.", "Ich bringe die Uhr zur Reparatur.", "Ich gebe die Uhr in Reparatur.", "Die Uhr wird für mich repariert."],
         correctIndex: 0,
         explanation: "Causative means someone else does it.",
@@ -1699,8 +1702,8 @@ export const DE_C1_U08: Lesson[] = [
       {
         type: "speak",
         text: "Das Problem lässt sich leicht lösen.",
-        prompt: "Say it in German using sich lassen: The problem can easily be solved.",
-        tip: "Lässt sich + infinitive at the end.",
+        prompt: "Say it in German using \"sich lassen\": The problem can easily be solved.",
+        tip: "\"Lässt sich\" + infinitive at the end.",
         explanation: "\"Sich lassen\" for possibility.",
       },
     ],
@@ -1710,7 +1713,7 @@ export const DE_C1_U08: Lesson[] = [
     level: "DE-C1",
     number: 11,
     title: "Sein, Haben, Machen and Lassen, Part 6 of 6",
-    summary: "Causing feelings and actions: machen + adjective, bringen + zu (zum Lachen bringen, dazu bringen, etwas zu tun), in Verlegenheit bringen, es weit bringen; the trap *Das macht mich lachen.",
+    summary: "Say what causes feelings and actions: \"machen\" + adjective, \"bringen\" + \"zu\" (\"zum Lachen bringen\", \"dazu bringen, etwas zu tun\"), \"in Verlegenheit bringen\", \"es weit bringen\", and avoid the trap \"*Das macht mich lachen\".",
     duration: "17 min",
     sections: [
       {
@@ -1718,7 +1721,7 @@ export const DE_C1_U08: Lesson[] = [
         body: [
           "To cause a state, German uses \"machen\" + adjective: \"Das macht mich glücklich\", \"Die Hitze macht mich müde\", \"Du machst mich wahnsinnig!\", \"Das macht die Sache nicht einfacher\".",
           "Also with nouns via \"zu\": \"Der Erfolg hat ihn zu einem reichen Mann gemacht\" (made him a rich man).",
-          "But German does not use \"machen\" + infinitive: English it makes me laugh is NOT *Das macht mich lachen.",
+          "But modern German does not use \"machen\" + infinitive: English it makes me laugh is NOT \"*Das macht mich lachen\".",
         ],
         examples: [
           { es: "Dieses Lied macht mich immer traurig.", en: "This song always makes me sad." },
@@ -1820,7 +1823,7 @@ export const DE_C1_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "With her ambition she [has gone far].",
+        en: "With her ambition she has [gone far].",
         sentence: "Mit ihrem Ehrgeiz hat sie ___.",
         answer: "es weit gebracht",
         explanation: "\"Es weit bringen\" = to be very successful.",
@@ -1846,7 +1849,7 @@ export const DE_C1_U08: Lesson[] = [
         question: "Find the sentence with an English calque.",
         options: ["Das macht mich lachen.", "Das bringt mich zum Lachen.", "Das macht mich froh.", "Das hat mich auf eine Idee gebracht."],
         correctIndex: 0,
-        explanation: "*\"Das macht mich lachen\" copies English make me laugh.",
+        explanation: "\"*Das macht mich lachen\" copies English make me laugh; German says \"Das bringt mich zum Lachen\".",
       },
       {
         type: "dictation",
@@ -1857,7 +1860,7 @@ export const DE_C1_U08: Lesson[] = [
         type: "speak",
         text: "Seine Witze bringen mich immer zum Lachen.",
         prompt: "Say it in German: His jokes always make me laugh.",
-        tip: "Bringen + zum Lachen.",
+        tip: "\"Bringen\" + \"zum Lachen\".",
         explanation: "Causing an action: \"bringen + zu\".",
       },
     ],
@@ -1867,7 +1870,7 @@ export const DE_C1_U08: Lesson[] = [
     level: "DE-C1",
     number: 12,
     title: "Mastery Check: Sein, Haben, Machen and Lassen, Part 2",
-    summary: "Auxiliaries, lassen, es gibt and machen / bringen without hints.",
+    summary: "Check that you can choose the auxiliary, use \"lassen\", \"es gibt\" and \"machen\" / \"bringen\" correctly without hints.",
     duration: "17 min",
     sections: [
       {
@@ -1926,8 +1929,8 @@ export const DE_C1_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
-            options: ["Die Rede hat das Publikum zum Nachdenken gebracht.", "Die Rede hat das Publikum nachdenken gemacht.", "Es war ein Grund zur Sorge da gibt.", "Da ist ein guter Grund dafür."],
+            question: "You want to say the speech made the audience think. Which sentence is correct?",
+            options: ["Die Rede hat das Publikum zum Nachdenken gebracht.", "Die Rede hat das Publikum nachdenken gemacht.", "Die Rede hat das Publikum zum Nachdenken gemacht.", "Die Rede hat das Publikum nachdenken gebracht."],
             correctIndex: 0,
             explanation: "\"Zum Nachdenken bringen\".",
           },
@@ -1941,6 +1944,7 @@ export const DE_C1_U08: Lesson[] = [
         prompt: "Translate into German, in the Perfekt.",
         source: "The plane flew over the mountains.",
         answer: "Das Flugzeug ist über die Berge geflogen.",
+        altAnswers: ["Das Flugzeug flog über die Berge."],
         explanation: "No object → \"sein\".",
       },
       {
@@ -1958,7 +1962,7 @@ export const DE_C1_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "There are 30 people waiting outside.",
         answer: "Draußen warten 30 Leute.",
-        altAnswers: ["Es warten 30 Leute draußen.", "Draußen warten 30 Personen.", "Es warten draußen 30 Leute."],
+        altAnswers: ["Es warten 30 Leute draußen.", "Draußen warten 30 Personen.", "Es warten draußen 30 Leute.", "Draußen warten 30 Menschen."],
         explanation: "German uses the real verb: \"warten\".",
       },
       {
@@ -1976,7 +1980,7 @@ export const DE_C1_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "Let me think about it.",
         answer: "Lass mich darüber nachdenken.",
-        altAnswers: ["Lassen Sie mich darüber nachdenken.", "Lass mich mal darüber nachdenken."],
+        altAnswers: ["Lassen Sie mich darüber nachdenken.", "Lass mich mal darüber nachdenken.", "Lasst mich darüber nachdenken."],
         explanation: "Permissive \"lassen\".",
       },
       {
@@ -1990,9 +1994,10 @@ export const DE_C1_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Last winter the pipe [broke].",
-        sentence: "Letzten Winter ___ das Rohr gebrochen.",
-        answer: "ist",
+        en: "Last winter [the pipe broke].",
+        sentence: "Letzten Winter ___.",
+        answer: "ist das Rohr gebrochen",
+        altAnswers: ["ist das Rohr geplatzt"],
         explanation: "Intransitive \"brechen\" → \"sein\".",
       },
       {
@@ -2037,13 +2042,13 @@ export const DE_C1_U08: Lesson[] = [
     level: "DE-C1",
     number: 13,
     title: "Real-World Mission: The Upscale Property Listing",
-    summary: "Write an estate agent's listing with Es handelt sich um, es gibt, es befindet sich, lassen-idioms and elegant core-verb phrasing.",
+    summary: "Write an estate agent's listing with \"Es handelt sich um\", \"es gibt\", \"es befindet sich\", lassen idioms and elegant core-verb phrasing.",
     duration: "20 min",
     sections: [
       {
         heading: "The building blocks of a listing",
         body: [
-          "German property listings (Exposés) follow a fixed pattern: a headline with two or three strong adjectives, an introduction with \"Es handelt sich um ...\", a description of the rooms, the extras, the location and a call to action.",
+          "German property listings (\"Exposés\") follow a fixed pattern: a headline with two or three strong adjectives, an introduction with \"Es handelt sich um ...\", a description of the rooms, the extras, the location and a call to action.",
           "Core verbs carry the description: \"Die Wohnung verfügt über ...\" (has), \"Es gibt ...\" (there is), \"Im Keller befindet sich ...\" (is located), \"Die Wohnung ist nach Süden ausgerichtet\" (south-facing), \"Die Küche lässt keine Wünsche offen\" (leaves nothing to be desired).",
           "Typical adjectives: \"lichtdurchflutet\" (flooded with light), \"großzügig\" (spacious), \"hochwertig\" (high-quality), \"ruhig gelegen\", \"bezugsfrei\" (ready to move into), \"saniert\" (renovated).",
         ],
@@ -2173,7 +2178,7 @@ export const DE_C1_U08: Lesson[] = [
         question: "Which phrase is a calque to avoid in a listing?",
         options: ["Der Strand ist zehn Minuten von hier.", "Der Strand liegt zehn Minuten entfernt.", "Den Strand erreichen Sie in zehn Minuten.", "Bis zum Strand sind es zehn Minuten."],
         correctIndex: 0,
-        explanation: "Distance needs \"liegt ... entfernt\" or a paraphrase.",
+        explanation: "In writing, distance needs \"liegt ... entfernt\" or a paraphrase; \"ist zehn Minuten von hier\" is casual speech at best.",
       },
       {
         type: "dictation",
@@ -2184,7 +2189,7 @@ export const DE_C1_U08: Lesson[] = [
         type: "speak",
         text: "Hier lässt es sich wirklich gut leben.",
         prompt: "Say it in German: This is a really nice place to live.",
-        tip: "Impersonal sich lassen.",
+        tip: "Impersonal \"sich lassen\".",
         explanation: "\"Hier lässt es sich gut leben\".",
       },
     ],
@@ -2194,7 +2199,7 @@ export const DE_C1_U08: Lesson[] = [
     level: "DE-C1",
     number: 14,
     title: "Spiral Review: Core Verbs at the Advanced Level",
-    summary: "Recombines sein, haben, machen and lassen idioms with the passive, impersonal es and sich lassen.",
+    summary: "Combine \"sein\", \"haben\", \"machen\" and \"lassen\" idioms with the passive, impersonal \"es\" and \"sich lassen\", and switch idioms between informal and formal register.",
     duration: "18 min",
     sections: [
       {
@@ -2255,7 +2260,7 @@ export const DE_C1_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the formal counterpart of Du hast recht?",
+            question: "Which is the formal counterpart of \"Du hast recht\"?",
             options: ["Da stimme ich Ihnen zu.", "Sie haben es satt.", "Sie sind richtig.", "Das macht nichts."],
             correctIndex: 0,
             explanation: "\"Jemandem zustimmen\".",
@@ -2279,12 +2284,13 @@ export const DE_C1_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "We're having the roof repaired.",
         answer: "Wir lassen das Dach reparieren.",
+        altAnswers: ["Wir lassen gerade das Dach reparieren.", "Wir lassen das Dach gerade reparieren."],
         explanation: "Causative \"lassen\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using sich lassen.",
+        prompt: "Translate into German using \"sich lassen\".",
         source: "That can be arranged.",
         answer: "Das lässt sich einrichten.",
         altAnswers: ["Das lässt sich arrangieren.", "Das lässt sich machen.", "Das lässt sich regeln."],
@@ -2339,7 +2345,7 @@ export const DE_C1_U08: Lesson[] = [
         type: "speak",
         text: "Wir bedauern die Verzögerung sehr.",
         prompt: "Say it in formal German: We very much regret the delay.",
-        tip: "Use bedauern.",
+        tip: "Use \"bedauern\".",
         explanation: "Formal counterpart of \"es tut uns leid\".",
       },
     ],

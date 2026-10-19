@@ -26,13 +26,13 @@ export const GOETHE_A2_SCHREIBEN: ExamPaper = {
           maxWords: 30,
           rubric: [
             "Covers all three points: apology and reason, arrival time, a suggestion for Nele",
-            "Writes informally, with du and a short greeting and sign-off (Hallo Nele … Bis gleich!)",
-            "Gives the reason with weil (verb at the end) or denn (normal word order)",
-            "Uses the right word order after a time phrase: Um halb sieben bin ich da.",
-            "Makes the suggestion with doch or a question (Bestell doch schon mal … / Kannst du …?)",
+            "Writes informally, with \"du\" and a short greeting and sign-off (\"Hallo Nele\" … \"Bis gleich!\")",
+            "Gives the reason with \"weil\" (verb at the end) or \"denn\" (normal word order)",
+            "Uses the right word order after a time phrase: \"Um halb sieben bin ich da.\"",
+            "Makes the suggestion with \"doch\" or a question (\"Bestell doch schon mal …\" / \"Kannst du …?\")",
           ],
           modelAnswer:
-            "Hallo Nele, es tut mir leid, ich komme zu spät, weil mein Bus nicht gekommen ist. Um halb sieben bin ich im Café. Bestell doch schon mal einen Kaffee! Bis gleich, Sam",
+            "Hallo Nele, es tut mir leid, ich komme zu spät, weil mein Bus Verspätung hat. Um halb sieben bin ich im Café. Bestell doch schon mal einen Kaffee! Bis gleich, Sam",
         },
       ],
     },
@@ -50,10 +50,10 @@ export const GOETHE_A2_SCHREIBEN: ExamPaper = {
           maxWords: 40,
           rubric: [
             "Covers all three points: thanks, refusal with a reason, the question about a later visit",
-            "Uses the polite Sie forms and a suitable greeting and sign-off (Lieber Herr Albrecht, … Viele Grüße)",
-            "Thanks with für + accusative (vielen Dank für die Einladung)",
-            "Asks the indirect question with ob and the verb at the end (… ob ich Sie später einmal besuchen kann)",
-            "Links ideas with weil, aber, denn and puts the verb in the right place",
+            "Uses the polite \"Sie\" forms and a suitable greeting and sign-off (\"Lieber Herr Albrecht\" … \"Viele Grüße\")",
+            "Thanks with \"für\" + accusative (\"vielen Dank für die Einladung\")",
+            "Asks the indirect question with \"ob\" and the verb at the end (\"… ob ich Sie später einmal besuchen kann\")",
+            "Links ideas with \"weil\", \"aber\", \"denn\" and puts the verb in the right place",
           ],
           modelAnswer:
             "Lieber Herr Albrecht,\n\nvielen Dank für Ihre Einladung! Leider kann ich nicht kommen, weil ich an dem Tag in London bei meiner Schwester bin. Darf ich fragen, ob ich Sie später einmal besuchen kann?\n\nViele Grüße\nSam",

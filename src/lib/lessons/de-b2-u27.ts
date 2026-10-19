@@ -14,7 +14,7 @@ export const DE_B2_U27: Lesson[] = [
       {
         heading: "Units 1-2: the unreal past and regrets",
         body: [
-          "The Konjunktiv II past is the Perfekt with \"hätte\" or \"wäre\": \"Ich hätte angerufen\", \"Sie wäre gekommen\". The same verbs take \"wäre\" as take \"bin\" in the Perfekt: movement, change of state, \"sein\", \"bleiben\", \"werden\", \"passieren\". Use it in both halves of an unreal past condition, never \"*würde ... haben\".",
+          "The Konjunktiv II past is the Perfekt with \"hätte\" or \"wäre\": \"Ich hätte angerufen\", \"Sie wäre gekommen\". The same verbs take \"wäre\" as take \"bin\" in the Perfekt: movement, change of state, \"sein\", \"bleiben\", \"werden\", \"passieren\". Use it in both halves of an unreal past condition, never \"*würde ... haben*\".",
           "Conditions without \"wenn\" put the verb first: \"Hätte ich das gewusst, wäre ich gekommen.\" Wishes need \"doch\", \"nur\" or \"bloß\": \"Wäre ich bloß zu Hause geblieben!\" Mixed conditionals combine a past condition with a present result: \"Wenn ich Medizin studiert hätte, wäre ich jetzt Ärztin.\"",
           "Regrets and reproaches with a modal use the double infinitive: \"Ich hätte früher kommen sollen\", \"Du hättest mich anrufen können!\", \"Das hättest du nicht sagen dürfen.\" In a subordinate clause \"hätte\" goes before both infinitives: \"..., dass ich hätte fragen sollen.\"",
         ],
@@ -23,7 +23,7 @@ export const DE_B2_U27: Lesson[] = [
           { es: "Hätte ich bloß nichts gesagt!", en: "If only I hadn't said anything!" },
           { es: "Wenn ich damals nicht umgezogen wäre, würde ich ihn noch kennen.", en: "If I hadn't moved back then, I'd still know him." },
           { es: "Du hättest mir wenigstens Bescheid sagen können!", en: "You could at least have let me know!" },
-          { es: "Es tut mir leid, dass ich nicht hätte helfen können.", en: "I'm sorry that I wasn't able to help." },
+          { es: "Ich weiß, dass ich früher hätte fragen sollen.", en: "I know I should have asked earlier." },
           { es: "Das hätten wir nicht kaufen müssen.", en: "We needn't have bought that." },
         ],
         checkpoint: [
@@ -90,7 +90,7 @@ export const DE_B2_U27: Lesson[] = [
         examples: [
           { es: "Das Problem lässt sich leider nicht so schnell lösen.", en: "Unfortunately the problem can't be solved that quickly." },
           { es: "Der Antrag ist bis Ende des Monats einzureichen.", en: "The application must be submitted by the end of the month." },
-          { es: "Ich habe die Unterlagen per Post zugeschickt bekommen.", en: "I had the documents sent to me by post." },
+          { es: "Ich habe die Unterlagen per Post zugeschickt bekommen.", en: "I was sent the documents by post." },
           { es: "Die im letzten Jahr renovierte Schule ist schon wieder zu klein.", en: "The school that was renovated last year is already too small again." },
           { es: "Das weinende Kind wollte nicht ins Bett.", en: "The crying child didn't want to go to bed." },
           { es: "Beim Kochen höre ich gern Podcasts.", en: "I like listening to podcasts while cooking." },
@@ -133,7 +133,7 @@ export const DE_B2_U27: Lesson[] = [
         prompt: "Translate into German.",
         source: "You could have asked me! (to a friend)",
         answer: "Du hättest mich fragen können!",
-        altAnswers: ["Du hättest mich doch fragen können!", "Ihr hättet mich fragen können!", "Sie hätten mich fragen können!"],
+        altAnswers: ["Du hättest mich doch fragen können!"],
         explanation: "Reproach: \"hättest\" + \"fragen können\".",
       },
       {
@@ -152,7 +152,7 @@ export const DE_B2_U27: Lesson[] = [
         sentence: "Er fragte, ob wir Zeit ___.",
         answer: "hätten",
         altAnswers: ["haben"],
-        explanation: "\"Wir haben\" = indicative, so reported speech uses \"hätten\".",
+        explanation: "\"Wir haben\" looks like the indicative, so written reported speech uses Konjunktiv II \"hätten\"; plain \"haben\" is accepted, as it's common in speech.",
       },
       {
         type: "translate",
@@ -234,7 +234,7 @@ export const DE_B2_U27: Lesson[] = [
         body: [
           "Adding: \"zudem\", \"außerdem\", \"darüber hinaus\" (furthermore, formal), \"ferner\" (formal). Contrasting: \"jedoch\", \"allerdings\" (however, admittedly), \"dagegen\" / \"hingegen\" (on the other hand). All are adverbs: in position 1 the verb follows immediately; they can also sit in the Mittelfeld.",
           "\"Allerdings\" has a softer, concessive flavour: \"Die Wohnung ist schön, allerdings etwas laut\" (though a bit noisy). \"Jedoch\" is a neutral formal however. \"Aber\" is the everyday conjunction (position 0).",
-          "Typical mistake: \"*Zudem die Miete ist hoch.\" Correct: \"Zudem ist die Miete hoch.\" or \"Die Miete ist zudem hoch.\"",
+          "Typical mistake: \"*Zudem die Miete ist hoch.*\" Correct: \"Zudem ist die Miete hoch.\" or \"Die Miete ist zudem hoch.\"",
         ],
         examples: [
           { es: "Die Wohnung liegt zentral. Zudem ist sie recht günstig.", en: "The flat is central. What's more, it's quite cheap." },
@@ -267,7 +267,7 @@ export const DE_B2_U27: Lesson[] = [
         body: [
           "Cause: \"weil\" (verb at the end, the most common), \"da\" (verb at the end, a known or obvious reason, often at the start of the sentence: \"Da es regnete, ...\"), \"denn\" (position 0, normal order, always after the main clause). \"Zumal\" adds a further reason: all the more because.",
           "Consequence: \"deshalb\", \"deswegen\", \"daher\", \"darum\" (adverbs, verb next), \"folglich\" and \"somit\" (more formal), \"sodass\" (conjunction, verb at the end), \"also\" (so, adverb in German: \"Also bleiben wir zu Hause\").",
-          "Trap: \"also\" doesn't mean also (that's \"auch\"). And \"da\" as a conjunction (since, as) sends the verb to the end, unlike \"da\" meaning there.",
+          "Trap: \"also\" doesn't mean 'also' (that's \"auch\"). And \"da\" as a conjunction (since, as) sends the verb to the end, unlike \"da\" meaning there.",
         ],
         examples: [
           { es: "Da der Zug ausfiel, kamen wir zu spät.", en: "As the train was cancelled, we were late." },
@@ -280,7 +280,7 @@ export const DE_B2_U27: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, starting with da.",
+            prompt: "Translate into German, starting with \"da\".",
             source: "As the train was cancelled, we were late.",
             answer: "Da der Zug ausfiel, kamen wir zu spät.",
             altAnswers: ["Da der Zug ausgefallen war, kamen wir zu spät.", "Da der Zug ausfiel, sind wir zu spät gekommen.", "Da der Zug ausgefallen ist, sind wir zu spät gekommen.", "Da der Zug ausgefallen war, sind wir zu spät gekommen."],
@@ -301,7 +301,7 @@ export const DE_B2_U27: Lesson[] = [
         heading: "Choosing in a text",
         body: [
           "In a short argumentative text, vary your connectors and make sure each one has the right word order. A good paragraph might go: claim → \"denn\" / \"da\" reason → \"zudem\" second reason → \"zwar ... aber\" concession → \"folglich\" conclusion.",
-          "Avoid starting every sentence with \"und\" or \"aber\". And don't stack two connectors that mean the same (\"*aber jedoch\").",
+          "Avoid starting every sentence with \"und\" or \"aber\". And don't stack two connectors that mean the same (\"*aber jedoch*\").",
         ],
         examples: [
           { es: "Ein Tempolimit wäre sinnvoll, denn es würde Leben retten.", en: "A speed limit would make sense, because it would save lives." },
@@ -316,6 +316,7 @@ export const DE_B2_U27: Lesson[] = [
             prompt: "Put the words in order to say: Consequently the government should act.",
             words: ["Folglich", "sollte", "die", "Regierung", "handeln."],
             translation: "Consequently the government should act.",
+            altOrders: [["Die", "Regierung", "sollte", "folglich", "handeln."]],
             explanation: "\"Folglich\" in position 1, modal second, infinitive last.",
           },
           {
@@ -370,7 +371,7 @@ export const DE_B2_U27: Lesson[] = [
         question: "What does \"Also bleiben wir hier\" mean?",
         options: ["So we're staying here.", "We're also staying here.", "We're staying here as well as there.", "We stayed here too."],
         correctIndex: 0,
-        explanation: "\"Also\" = so, therefore. Also is \"auch\".",
+        explanation: "\"Also\" = so, therefore. English 'also' is \"auch\".",
       },
       {
         type: "translate",
@@ -495,7 +496,7 @@ export const DE_B2_U27: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "She solved the problem [by calling] the boss.",
+            en: "She solved the problem [by] calling the boss.",
             sentence: "Sie löste das Problem, ___ sie den Chef anrief.",
             answer: "indem",
             explanation: "By + -ing = \"indem\" + clause.",
@@ -541,7 +542,7 @@ export const DE_B2_U27: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using trotz.",
+        prompt: "Translate into German, using \"trotz\".",
         source: "Despite his illness he went to work.",
         answer: "Trotz seiner Krankheit ist er zur Arbeit gegangen.",
         altAnswers: ["Trotz seiner Krankheit ging er zur Arbeit.", "Trotz seiner Krankheit ist er arbeiten gegangen.", "Trotz seiner Erkrankung ist er zur Arbeit gegangen."],
@@ -568,10 +569,10 @@ export const DE_B2_U27: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "She's [probably missed] the bus.",
+        en: "She's probably [missed] the bus.",
         sentence: "Sie wird den Bus ___.",
         answer: "verpasst haben",
-        explanation: "Futur II as a guess about the past.",
+        explanation: "Futur II as a guess about the past: \"wird\" carries the 'probably', \"verpasst haben\" the 'has missed'.",
       },
       {
         type: "translate",
@@ -584,10 +585,10 @@ export const DE_B2_U27: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which Funktionsverbgefüge means 'to use, make use of'?",
-        options: ["in Anspruch nehmen", "zum Ausdruck bringen", "in Kraft treten", "Bezug nehmen"],
+        question: "Which sentence means 'Many citizens make use of the offer'?",
+        options: ["Viele Bürger nehmen das Angebot in Anspruch.", "Viele Bürger bringen das Angebot zum Ausdruck.", "Viele Bürger nehmen auf das Angebot Bezug.", "Viele Bürger stellen das Angebot zur Verfügung."],
         correctIndex: 0,
-        explanation: "\"Ein Angebot in Anspruch nehmen\" = to make use of an offer.",
+        explanation: "\"Etwas in Anspruch nehmen\" = to make use of. \"Bezug nehmen auf\" means to refer to, \"zur Verfügung stellen\" to provide, and \"zum Ausdruck bringen\" to express.",
       },
       {
         type: "translate",
@@ -612,12 +613,13 @@ export const DE_B2_U27: Lesson[] = [
         prompt: "Put the words in order to say: However hard it is, we'll carry on.",
         words: ["So", "schwer", "es", "auch", "ist,", "wir", "machen", "weiter."],
         translation: "However hard it is, we'll carry on.",
-        explanation: "After \"so ... auch\" the main clause usually keeps normal word order.",
+        altOrders: [["So", "schwer", "es", "auch", "ist,", "machen", "wir", "weiter."]],
+        explanation: "After \"so ... auch\" the main clause usually keeps normal word order (\"wir machen\"); inverting (\"machen wir\") is also possible.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using wegen.",
+        prompt: "Translate into German, using \"wegen\".",
         source: "Because of the strike, all flights were cancelled.",
         answer: "Wegen des Streiks fielen alle Flüge aus.",
         altAnswers: ["Wegen des Streiks sind alle Flüge ausgefallen.", "Aufgrund des Streiks fielen alle Flüge aus.", "Wegen des Streiks wurden alle Flüge gestrichen.", "Aufgrund des Streiks sind alle Flüge ausgefallen."],
@@ -674,7 +676,7 @@ export const DE_B2_U27: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Her colleagues [helped] her a lot, she says.",
+            en: "Her colleagues [had] helped her a lot, she says.",
             sentence: "Die Kolleginnen ___ ihr viel geholfen.",
             answer: "hätten",
             explanation: "Plural Konjunktiv I \"haben\" = indicative, so Konjunktiv II \"hätten\".",
@@ -781,11 +783,10 @@ export const DE_B2_U27: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "If she hadn't met him, I [wouldn't exist].",
+        en: "If she hadn't met him, I wouldn't exist (literally: [there would be] no me).",
         sentence: "Wenn sie ihn nicht getroffen hätte, ___ es mich nicht.",
         answer: "gäbe",
-        altAnswers: ["würde"],
-        explanation: "\"Es gibt\" → Konjunktiv II \"es gäbe\".",
+        explanation: "\"Es gibt\" → Konjunktiv II \"es gäbe\". \"Würde\" alone doesn't fit: it would need \"geben\" at the end (\"würde es mich nicht geben\").",
       },
       {
         type: "multiple-choice",
@@ -836,7 +837,7 @@ export const DE_B2_U27: Lesson[] = [
       {
         type: "speak",
         text: "Sie spricht Kölsch, als wäre sie hier geboren.",
-        prompt: "Say it in German: She speaks Kölsch as if she'd been born here.",
+        prompt: "Say it in German: She speaks \"Kölsch\" as if she'd been born here.",
         tip: "\"Kölsch\": the ö is short and rounded.",
         explanation: "\"Als\" + Konjunktiv II with the verb first.",
       },
@@ -855,7 +856,7 @@ export const DE_B2_U27: Lesson[] = [
         body: [
           "Upper-intermediate sentences often end in a cluster of verbs: \"..., dass er hätte anrufen sollen\", \"..., weil die Brücke renoviert werden muss\", \"... wird das Projekt abgeschlossen haben.\" When you take dictation, listen for the last three words and work backwards.",
           "Tips: write the main clause first, then the subordinate clause; remember the comma before every subordinate clause; capitalise nouns, including nominalised verbs (\"beim Kochen\") and adjectives (\"das Beste\"); and decide early whether you heard \"hätte\" or \"hatte\", \"wäre\" or \"war\", \"würde\" or \"wurde\".",
-          "The umlaut is often the only clue to the mood: \"Er wurde gefragt\" (he was asked) vs \"Er würde gefragt\" (he would be asked).",
+          "The umlaut is often the only clue to the mood: \"Dann wurde es besser\" (then it got better) vs \"Dann würde es besser\" (then it would get better).",
         ],
         examples: [
           { es: "Ich weiß, dass ich hätte anrufen sollen.", en: "I know I should have called." },
@@ -872,9 +873,9 @@ export const DE_B2_U27: Lesson[] = [
           },
           {
             type: "listen-choose",
-            audio: "Er würde gefragt.",
+            audio: "Dann würde es besser.",
             question: "What did you hear?",
-            options: ["Er würde gefragt.", "Er wurde gefragt.", "Er wird gefragt.", "Er wäre gefragt."],
+            options: ["Dann würde es besser.", "Dann wurde es besser.", "Dann wird es besser.", "Dann wäre es besser."],
             correctIndex: 0,
             explanation: "\"Würde\" with ü: a rounded vowel, lips pushed forward. \"Wurde\" has a plain u.",
           },
@@ -909,7 +910,7 @@ export const DE_B2_U27: Lesson[] = [
           { es: "Das ist das Buch, das ich dir empfohlen habe.", en: "That's the book I recommended to you." },
           { es: "Ich glaube, dass das Buch dir gefallen wird.", en: "I think you'll like the book." },
           { es: "Die im letzten Jahr eröffnete Bibliothek ist immer voll.", en: "The library that opened last year is always full." },
-          { es: "Alles, was er erzählt hat, war gelogen.", en: "Everything he told us was a lie." },
+          { es: "Alles, was er uns erzählt hat, war gelogen.", en: "Everything he told us was a lie." },
         ],
         checkpoint: [
           {
@@ -923,7 +924,7 @@ export const DE_B2_U27: Lesson[] = [
             prompt: "Translate into German.",
             source: "The colleague whose husband works with us has resigned.",
             answer: "Die Kollegin, deren Mann bei uns arbeitet, hat gekündigt.",
-                        explanation: "\"Deren\" for a feminine antecedent; \"kündigen\" = to resign, hand in notice.",
+            explanation: "\"Deren\" for a feminine antecedent; \"kündigen\" = to resign, hand in notice.",
           },
           {
             type: "translate",
@@ -1054,7 +1055,7 @@ export const DE_B2_U27: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Alles, was er erzählt hat, war gelogen.",
+        text: "Alles, was er uns erzählt hat, war gelogen.",
         prompt: "Say it in German: Everything he told us was a lie.",
         explanation: "\"Alles, was\" + verb at the end.",
       },
@@ -1159,7 +1160,7 @@ export const DE_B2_U27: Lesson[] = [
             source: "I dream of a house by the sea.",
             answer: "Ich träume von einem Haus am Meer.",
             altAnswers: ["Ich träume von einem Haus an der See."],
-            explanation: "\"Träumen von\" + dative, never \"*über\".",
+            explanation: "\"Träumen von\" + dative, never \"*über*\".",
           },
           {
             type: "multiple-choice",
@@ -1201,7 +1202,7 @@ export const DE_B2_U27: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "That's something [I'm looking forward to].",
+        en: "That's something [to which] I'm looking forward.",
         sentence: "Das ist etwas, ___ ich mich freue.",
         answer: "worauf",
         explanation: "After \"etwas\", \"sich freuen auf\" becomes \"worauf\".",
@@ -1228,7 +1229,7 @@ export const DE_B2_U27: Lesson[] = [
         prompt: "Translate into German.",
         source: "Not only is the flat big, it's also cheap.",
         answer: "Die Wohnung ist nicht nur groß, sondern auch günstig.",
-        altAnswers: ["Die Wohnung ist nicht nur groß, sondern auch billig.", "Nicht nur ist die Wohnung groß, sie ist auch günstig."],
+        altAnswers: ["Die Wohnung ist nicht nur groß, sondern auch billig.", "Die Wohnung ist nicht nur groß, sie ist auch günstig.", "Nicht nur ist die Wohnung groß, sie ist auch günstig."],
         explanation: "\"Nicht nur ..., sondern auch\".",
       },
       {
@@ -1284,7 +1285,7 @@ export const DE_B2_U27: Lesson[] = [
         heading: "Part 1: the Konjunktiv and auxiliaries",
         body: [
           "Tom, a British engineer working in Stuttgart, writes an email to his landlady, Frau Schneider, about a water leak (\"der Wasserschaden\") while he was on holiday. His German is good, but every sentence below has exactly one mistake. Read the wrong version, decide what's wrong, then write the correct German.",
-          "Typical Upper-intermediate slips in this part: \"würde\" in the unreal past (\"*wenn ich es würde gewusst haben\"), the wrong auxiliary (\"*ich hätte sofort gekommen\"), and a participle instead of the double infinitive (\"*Sie hätten mich informieren gemusst\").",
+          "Typical Upper-intermediate slips in this part: \"würde\" in the unreal past (\"*wenn ich es würde gewusst haben*\"), the wrong auxiliary (\"*ich hätte sofort gekommen*\"), and a participle instead of the double infinitive (\"*Sie hätten mich informieren gemusst*\").",
           "Remember: \"wäre\" for movement and change of state; \"hätte\" + infinitive + modal infinitive for should / could have.",
         ],
         examples: [
@@ -1298,7 +1299,7 @@ export const DE_B2_U27: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Tom wrote \"*Wenn ich das würde gewusst haben, wäre ich sofort zurückgekommen.\" Write the correct German for: If I'd known that, I'd have come back immediately.",
+            prompt: "Tom wrote \"*Wenn ich das würde gewusst haben, wäre ich sofort zurückgekommen.*\" Write the correct German for: If I'd known that, I'd have come back immediately.",
             source: "If I'd known that, I'd have come back immediately.",
             answer: "Wenn ich das gewusst hätte, wäre ich sofort zurückgekommen.",
             altAnswers: ["Hätte ich das gewusst, wäre ich sofort zurückgekommen.", "Wenn ich das gewusst hätte, wäre ich sofort zurückgefahren.", "Hätte ich das gewusst, wäre ich sofort zurückgefahren."],
@@ -1307,11 +1308,11 @@ export const DE_B2_U27: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Tom wrote \"*Sie hätten mich sofort informieren gemusst.\" Write the correct German for: You should have informed me immediately.",
+            prompt: "Tom wrote \"*Sie hätten mich sofort informieren gemusst.*\" Write the correct German for: You should have informed me immediately.",
             source: "You should have informed me immediately.",
             answer: "Sie hätten mich sofort informieren müssen.",
             altAnswers: ["Sie hätten mich sofort informieren sollen.", "Sie hätten mich sofort benachrichtigen müssen.", "Sie hätten mich sofort benachrichtigen sollen."],
-            explanation: "Double infinitive: \"informieren müssen\", never \"*gemusst\".",
+            explanation: "Double infinitive: \"informieren müssen\", never \"*gemusst*\".",
           },
         ],
       },
@@ -1333,7 +1334,7 @@ export const DE_B2_U27: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Tom wrote \"*Der Boden ist durch das Wasser beschädigt geworden.\" Write the correct German for: The floor has been damaged by the water.",
+            prompt: "Tom wrote \"*Der Boden ist durch das Wasser beschädigt geworden.*\" Write the correct German for: The floor has been damaged by the water.",
             source: "The floor has been damaged by the water.",
             answer: "Der Boden ist durch das Wasser beschädigt worden.",
             altAnswers: ["Der Boden wurde durch das Wasser beschädigt.", "Der Boden ist vom Wasser beschädigt worden.", "Der Boden wurde vom Wasser beschädigt."],
@@ -1342,7 +1343,7 @@ export const DE_B2_U27: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Tom wrote \"*Der Teppich, der ich letztes Jahr gekauft habe, ist ruiniert.\" Write the correct German for: The rug I bought last year is ruined.",
+            prompt: "Tom wrote \"*Der Teppich, der ich letztes Jahr gekauft habe, ist ruiniert.*\" Write the correct German for: The rug I bought last year is ruined.",
             source: "The rug I bought last year is ruined.",
             answer: "Der Teppich, den ich letztes Jahr gekauft habe, ist ruiniert.",
             altAnswers: ["Der Teppich, den ich letztes Jahr gekauft habe, ist kaputt.", "Der Teppich, den ich im letzten Jahr gekauft habe, ist ruiniert."],
@@ -1354,7 +1355,7 @@ export const DE_B2_U27: Lesson[] = [
         heading: "Part 3: connectors, prepositions and false friends",
         body: [
           "The last paragraph proposes a solution. Look for word order after connectors, genitive prepositions, case after verbs (\"zustimmen\" + dative), and false friends (\"eventuell\", \"bekommen\", \"also\").",
-          "\"Bekommen\" means to get, receive; to become is \"werden\". \"*Ich bekomme wütend\" is a famous English-speaker error: \"Ich werde wütend.\"",
+          "\"Bekommen\" means to get, receive; to become is \"werden\". \"*Ich bekomme wütend*\" is a famous English-speaker error: \"Ich werde wütend.\"",
           "Formal closing: \"Ich würde mich freuen, wenn ...\", \"Mit freundlichen Grüßen\" (no comma after it, no full stop).",
         ],
         examples: [
@@ -1368,7 +1369,7 @@ export const DE_B2_U27: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Tom wrote \"*Deshalb ich schlage eine Mietminderung vor.\" Write the correct German for: I'm therefore proposing a rent reduction.",
+            prompt: "Tom wrote \"*Deshalb ich schlage eine Mietminderung vor.*\" Write the correct German for: I'm therefore proposing a rent reduction.",
             source: "I'm therefore proposing a rent reduction.",
             answer: "Deshalb schlage ich eine Mietminderung vor.",
             altAnswers: ["Daher schlage ich eine Mietminderung vor.", "Ich schlage deshalb eine Mietminderung vor.", "Deswegen schlage ich eine Mietminderung vor.", "Ich schlage daher eine Mietminderung vor."],
@@ -1376,7 +1377,7 @@ export const DE_B2_U27: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Tom wrote \"*Ich hoffe, Sie stimmen meinen Vorschlag zu.\" Write the German for the bold words.",
+            prompt: "Tom wrote \"*Ich hoffe, Sie stimmen meinen Vorschlag zu.*\" Write the German for the bold words.",
             en: "I hope you'll agree [to my proposal].",
             sentence: "Ich hoffe, Sie stimmen ___ zu.",
             answer: "meinem Vorschlag",
@@ -1389,7 +1390,7 @@ export const DE_B2_U27: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*Ich hätte sofort nach Hause gekommen.\" Write the German for: I would have come home immediately.",
+        prompt: "Correct \"*Ich hätte sofort nach Hause gekommen.*\" Write the German for: I would have come home immediately.",
         source: "I would have come home immediately.",
         answer: "Ich wäre sofort nach Hause gekommen.",
         altAnswers: ["Ich wäre sofort nach Hause gefahren.", "Ich wäre sofort heimgekommen."],
@@ -1398,7 +1399,7 @@ export const DE_B2_U27: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*Ich bekomme wütend, wenn ich daran denke.\" Write the German for: I get angry when I think about it.",
+        prompt: "Correct \"*Ich bekomme wütend, wenn ich daran denke.*\" Write the German for: I get angry when I think about it.",
         source: "I get angry when I think about it.",
         answer: "Ich werde wütend, wenn ich daran denke.",
         altAnswers: ["Ich werde sauer, wenn ich daran denke."],
@@ -1407,7 +1408,7 @@ export const DE_B2_U27: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*Trotz dem Regen war das Fenster offen.\" Write the written German for: Despite the rain the window was open.",
+        prompt: "Correct \"*Trotz dem Regen war das Fenster offen.*\" Write the written German for: Despite the rain the window was open.",
         source: "Despite the rain the window was open.",
         answer: "Trotz des Regens war das Fenster offen.",
         altAnswers: ["Trotz des Regens war das Fenster geöffnet.", "Das Fenster war trotz des Regens offen."],
@@ -1416,7 +1417,7 @@ export const DE_B2_U27: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*Die Wand, dessen Farbe sich ablöst, muss gestrichen werden.\" Write the German for: The wall whose paint is peeling must be painted.",
+        prompt: "Correct \"*Die Wand, dessen Farbe sich ablöst, muss gestrichen werden.*\" Write the German for: The wall whose paint is peeling must be painted.",
         source: "The wall whose paint is peeling must be painted.",
         answer: "Die Wand, deren Farbe sich ablöst, muss gestrichen werden.",
         altAnswers: ["Die Wand, von der die Farbe abblättert, muss gestrichen werden.", "Die Wand, deren Farbe abblättert, muss gestrichen werden."],
@@ -1424,7 +1425,7 @@ export const DE_B2_U27: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Tom wrote: \"Der Hausmeister sagte, er hat keinen Schlüssel gehabt sei.\" Which correction is best for a formal email?",
+        question: "Tom wrote: \"*Der Hausmeister sagte, er hat keinen Schlüssel gehabt sei.*\" Which correction is best for a formal email?",
         options: ["Der Hausmeister sagte, er habe keinen Schlüssel gehabt.", "Der Hausmeister sagte, er hätte keinen Schlüssel gehabt sei.", "Der Hausmeister sagte, er sei keinen Schlüssel gehabt.", "Der Hausmeister sagte, er würde keinen Schlüssel gehabt."],
         correctIndex: 0,
         explanation: "Konjunktiv I past: \"habe ... gehabt\". One auxiliary only.",
@@ -1432,7 +1433,7 @@ export const DE_B2_U27: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*Die beschädigte Möbel stehen im Keller.\" Write the German for: The damaged furniture is in the cellar.",
+        prompt: "Correct \"*Die beschädigte Möbel stehen im Keller.*\" Write the German for: The damaged furniture is in the cellar.",
         source: "The damaged furniture is in the cellar.",
         answer: "Die beschädigten Möbel stehen im Keller.",
         altAnswers: ["Die beschädigten Möbel sind im Keller."],
@@ -1441,7 +1442,7 @@ export const DE_B2_U27: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*Ich frage mich, ob ich das Fenster schließen hätte sollen.\" Write the German for: I wonder whether I should have closed the window.",
+        prompt: "Correct \"*Ich frage mich, ob ich das Fenster schließen hätte sollen.*\" Write the German for: I wonder whether I should have closed the window.",
         source: "I wonder whether I should have closed the window.",
         answer: "Ich frage mich, ob ich das Fenster hätte schließen sollen.",
         altAnswers: ["Ich frage mich, ob ich das Fenster hätte zumachen sollen."],
@@ -1450,7 +1451,7 @@ export const DE_B2_U27: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct \"*Eventuell hat die Versicherung bezahlt, nach drei Monaten.\" Write the German for: Eventually the insurance paid, after three months.",
+        prompt: "Correct \"*Eventuell hat die Versicherung bezahlt, nach drei Monaten.*\" Write the German for: Eventually the insurance paid, after three months.",
         source: "Eventually the insurance paid, after three months.",
         answer: "Schließlich hat die Versicherung nach drei Monaten bezahlt.",
         altAnswers: ["Schließlich zahlte die Versicherung nach drei Monaten.", "Nach drei Monaten hat die Versicherung schließlich bezahlt.", "Am Ende hat die Versicherung nach drei Monaten bezahlt.", "Schließlich hat die Versicherung nach drei Monaten gezahlt."],
@@ -1458,7 +1459,7 @@ export const DE_B2_U27: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Correct \"*Mit freundlichen Grüßen, Tom.\" (the comma and full stop). Write the German for the bold words.",
+        prompt: "Correct \"*Mit freundlichen Grüßen, Tom.*\" (the comma and full stop). Write the German for the bold words.",
         en: "[Kind regards] / Tom Hughes",
         sentence: "___ Tom Hughes",
         answer: "Mit freundlichen Grüßen",
@@ -1538,7 +1539,7 @@ export const DE_B2_U27: Lesson[] = [
           { es: "Meine Gehaltsvorstellung liegt bei 58.000 Euro brutto.", en: "My salary expectation is 58,000 euros gross." },
           { es: "Ich verstehe zwar Ihre Lage, aber das ist unter dem Marktniveau.", en: "I understand your situation, but that's below the market level." },
           { es: "Wenn Sie mir mehr Urlaub geben könnten, wäre ich einverstanden.", en: "If you could give me more holiday, I'd agree." },
-          { es: "Vorausgesetzt, dass ich zwei Tage im Homeoffice arbeiten kann, nehme ich an.", en: "Provided I can work from home two days a week, I'll accept." },
+          { es: "Vorausgesetzt, dass ich zwei Tage pro Woche im Homeoffice arbeiten kann, nehme ich an.", en: "Provided I can work from home two days a week, I'll accept." },
           { es: "Könnten Sie mir beim Gehalt etwas entgegenkommen?", en: "Could you meet me halfway on the salary?" },
         ],
         checkpoint: [
@@ -1842,7 +1843,7 @@ export const DE_B2_U27: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I would be [most obliged] for a prompt reply.",
+        en: "I would be most [obliged] for a prompt reply.",
         sentence: "Für eine baldige Antwort wäre ich Ihnen sehr ___.",
         answer: "verbunden",
         altAnswers: ["dankbar"],

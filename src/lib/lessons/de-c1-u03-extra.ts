@@ -9,14 +9,14 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Nominalization, Part 1 of 3",
-    summary: "Drill verb-to-noun derivation and gender: -ung, the nominalised infinitive and stem nouns.",
+    summary: "Practise turning verbs into nouns with the right gender: \"-ung\" nouns, the nominalised infinitive and stem nouns.",
     duration: "14 min",
     sections: [
       {
         heading: "Recap: three ways from verb to noun",
         body: [
           "-ung → feminine (\"die Lieferung\", \"die Bestellung\"); nominalised infinitive → neuter, capitalised (\"das Warten\", \"beim Einkaufen\"); stem noun → mostly masculine (\"der Kauf\", \"der Schluss\", \"der Flug\"), with feminine exceptions in -t (\"die Ankunft\", \"die Fahrt\").",
-          "Don't invent -ung where a stem noun exists: \"der Kauf\" (not *die Kaufung), \"der Besuch\", \"der Verlust\".",
+          "Don't invent -ung where a stem noun exists: \"der Kauf\" (not \"*die Kaufung\"), \"der Besuch\", \"der Verlust\".",
         ],
         examples: [
           { es: "Die Bestellung ist eingegangen.", en: "The order has been received." },
@@ -37,10 +37,10 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which noun is correct for kaufen?",
-            options: ["der Kauf", "die Kaufung", "das Kauf", "die Kaufe"],
+            question: "You want to say: Buying a flat needs careful thought. Which sentence is correct?",
+            options: ["Der Kauf einer Wohnung will gut überlegt sein.", "Die Kaufung einer Wohnung will gut überlegt sein.", "Das Kauf einer Wohnung will gut überlegt sein.", "Die Kaufe einer Wohnung will gut überlegt sein."],
             correctIndex: 0,
-            explanation: "Stem noun, masculine: \"der Kauf\".",
+            explanation: "\"Kaufen\" has a masculine stem noun: \"der Kauf\". There is no \"*die Kaufung\" or \"*die Kaufe\".",
           },
         ],
       },
@@ -156,7 +156,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which article? ___ Einkaufen am Samstag ist stressig.",
+        question: "Shopping on Saturdays is stressful. Which word fills the gap: \"___ Einkaufen am Samstag ist stressig.\"?",
         options: ["Das", "Der", "Die", "Den"],
         correctIndex: 0,
         explanation: "Nominalised infinitive: \"das Einkaufen\".",
@@ -188,14 +188,14 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Nominalization, Part 2 of 3",
-    summary: "Adjective-to-noun derivation (-heit, -keit, -igkeit, -e, -ität) and irregular pairs in new sentences.",
+    summary: "Practise turning adjectives into nouns with \"-heit\", \"-keit\", \"-igkeit\", \"-e\" and \"-ität\", plus the irregular pairs, in new sentences.",
     duration: "14 min",
     sections: [
       {
         heading: "Recap: adjective nouns",
         body: [
           "\"-heit\" (\"die Sicherheit\"), \"-keit\" after -bar/-ig/-lich/-sam/-er (\"die Sparsamkeit\"), \"-igkeit\" (\"die Schnelligkeit\"), \"-e\" + umlaut (\"die Tiefe\"), \"-ität\" (\"die Qualität\"): all feminine. \"-ismus\" is masculine.",
-          "Irregular pairs to learn: \"hoch → die Höhe\", \"gut → die Güte\", \"klug → die Klugheit\", \"arm → die Armut\", \"gerecht → die Gerechtigkeit\".",
+          "Pairs to learn: \"hoch → die Höhe\" (the ch disappears), \"gut → die Güte\" (kindness, quality), \"arm → die Armut\" and \"heiß → die Hitze\" (irregular), and \"gerecht → die Gerechtigkeit\" (-igkeit, not \"*die Gerechtheit\").",
         ],
         examples: [
           { es: "Sicherheit hat Vorrang.", en: "Safety comes first." },
@@ -259,7 +259,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I admire her calmness.",
         answer: "Ich bewundere ihre Gelassenheit.",
-        altAnswers: ["Ich bewundere ihre Ruhe.", "Ich bewundere seine Gelassenheit."],
+        altAnswers: ["Ich bewundere ihre Ruhe."],
         explanation: "\"Gelassen\" (participle) → \"die Gelassenheit\".",
       },
       {
@@ -295,15 +295,15 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "His curiosity is endless.",
         answer: "Seine Neugier ist grenzenlos.",
-        altAnswers: ["Seine Neugierde ist grenzenlos.", "Ihre Neugier ist grenzenlos."],
-        explanation: "\"Neugierig\" → \"die Neugier\" (irregular, also \"Neugierde\").",
+        altAnswers: ["Seine Neugierde ist grenzenlos."],
+        explanation: "\"Die Neugier\" (also \"die Neugierde\") has no suffix: here the adjective \"neugierig\" comes from the noun, not the other way round.",
       },
       {
         type: "multiple-choice",
-        question: "Which noun is formed correctly from dankbar?",
-        options: ["die Dankbarkeit", "die Dankbarheit", "die Dankbare", "der Dankbarismus"],
+        question: "You want to say: I feel great gratitude. Which sentence is correct?",
+        options: ["Ich empfinde große Dankbarkeit.", "Ich empfinde große Dankbarheit.", "Ich empfinde große Dankbare.", "Ich empfinde großen Dankbarismus."],
         correctIndex: 0,
-        explanation: "-bar adjectives take \"-keit\".",
+        explanation: "Adjectives in -bar take \"-keit\": \"dankbar\" → \"die Dankbarkeit\".",
       },
       {
         type: "translate",
@@ -339,8 +339,8 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Her strength is patience.",
         answer: "Ihre Stärke ist Geduld.",
-        altAnswers: ["Ihre Stärke ist die Geduld.", "Seine Stärke ist Geduld."],
-        explanation: "\"Stark\" → \"die Stärke\"; \"geduldig\" → \"die Geduld\" (irregular).",
+        altAnswers: ["Ihre Stärke ist die Geduld."],
+        explanation: "\"Stark\" → \"die Stärke\"; \"die Geduld\" (patience) is the base noun of \"geduldig\".",
       },
       {
         type: "listen-choose",
@@ -369,7 +369,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Nominalization, Part 3 of 3",
-    summary: "Clause-to-noun-phrase transformations with genitives, adjectives and prepositions in new sentences.",
+    summary: "Practise compressing clauses into noun phrases with genitives, adjectives and prepositions, in new sentences.",
     duration: "15 min",
     sections: [
       {
@@ -479,7 +479,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which noun phrase matches: Man hat die Schule letztes Jahr renoviert?",
+        question: "Which noun phrase matches: \"Man hat die Schule letztes Jahr renoviert.\"?",
         options: ["die Renovierung der Schule im letzten Jahr", "die Renovierung von der Schule letztes", "die letztes Jahr Renovierung der Schule", "die Schule der Renovierung"],
         correctIndex: 0,
         explanation: "Object → genitive; the time phrase stays as a prepositional phrase.",
@@ -498,6 +498,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: When I arrived, the shop was closed.",
         words: ["Bei", "meiner", "Ankunft", "war", "der", "Laden", "geschlossen."],
         translation: "When I arrived, the shop was closed.",
+        altOrders: [["Der", "Laden", "war", "bei", "meiner", "Ankunft", "geschlossen."]],
         explanation: "\"Als ich ankam\" → \"bei meiner Ankunft\".",
       },
       {
@@ -547,7 +548,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Nominal Headlines",
-    summary: "Write and decode German news headlines.",
+    summary: "Practise decoding German news headlines into full sentences and writing your own.",
     duration: "14 min",
     sections: [
       {
@@ -687,7 +688,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
           { left: "Schule geschlossen", right: "Die Schule wurde geschlossen." },
           { left: "Täter gefasst", right: "Der Täter wurde gefasst." },
           { left: "Preise gesunken", right: "Die Preise sind gesunken." },
-          { left: "Kanzlerin abgereist", right: "Die Kanzlerin ist abgereist." },
+          { left: "Kanzler abgereist", right: "Der Kanzler ist abgereist." },
         ],
         explanation: "Transitive verbs → passive with \"wurde\"; intransitive movement/change → Perfekt with \"ist\".",
       },
@@ -820,7 +821,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the plain version of: Die Inanspruchnahme der Leistung setzt eine Anmeldung voraus?",
+        question: "Which is the plain version of: \"Die Inanspruchnahme der Leistung setzt eine Anmeldung voraus.\"?",
         options: ["Wer die Leistung nutzen will, muss sich anmelden.", "Die Leistung wird angemeldet vorausgesetzt.", "Eine Anmeldung der Inanspruchnahme ist voraus.", "Die Anmeldung nimmt die Leistung in Anspruch."],
         correctIndex: 0,
         explanation: "Actor (\"wer\") + real verbs (\"nutzen\", \"sich anmelden\").",
@@ -839,6 +840,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: We'll call you as soon as we know more.",
         words: ["Wir", "rufen", "Sie", "an,", "sobald", "wir", "mehr", "wissen."],
         translation: "We'll call you as soon as we know more.",
+        altOrders: [["Sobald", "wir", "mehr", "wissen,", "rufen", "wir", "Sie", "an."]],
         explanation: "Verbal style with a clear actor and a time clause.",
       },
       {
@@ -909,7 +911,7 @@ export const DE_C1_U03_EXTRA: Lesson[] = [
           { es: "die seit Jahren steigende Zahl der Studierenden", en: "the number of students, which has been rising for years" },
           { es: "die Zahl der Studierenden, die seit Jahren steigt", en: "the number of students, which has been rising for years" },
           { es: "der von der Firma angekündigte Abbau von Stellen", en: "the job cuts announced by the company" },
-          { es: "die Stellen, deren Abbau die Firma angekündigt hat", en: "the jobs whose cutting the company has announced" },
+          { es: "die Stellen, deren Abbau die Firma angekündigt hat", en: "the jobs that the company has announced it will cut" },
           { es: "die im Bericht genannten Ursachen des Problems", en: "the causes of the problem named in the report" },
         ],
         checkpoint: [

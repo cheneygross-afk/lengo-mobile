@@ -8,7 +8,7 @@ export const DE_C2_U04: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Deutsche Redewendungen, Part 1 of 2",
-    summary: "Idioms with body parts and food: Daumen drücken, den Kopf verlieren, sich kein Blatt vor den Mund nehmen, Tomaten auf den Augen haben, nicht mein Bier, um den heißen Brei herumreden, Jacke wie Hose and the many lives of the Wurst.",
+    summary: "Use everyday idioms with body parts and food (\"die Daumen drücken\", \"den Kopf verlieren\", \"sich kein Blatt vor den Mund nehmen\", \"Tomaten auf den Augen haben\", \"nicht mein Bier\", \"um den heißen Brei herumreden\", \"Jacke wie Hose\") and tell apart the many idioms with \"Wurst\".",
     duration: "18 min",
     sections: [
       {
@@ -87,7 +87,7 @@ export const DE_C2_U04: Lesson[] = [
         ],
         examples: [
           { es: "Was die Nachbarn denken, ist mir völlig Wurst.", en: "I couldn't care less what the neighbours think." },
-          { es: "Alles hat ein Ende, nur die Wurst hat zwei.", en: "All good things come to an end." },
+          { es: "Alles hat ein Ende, nur die Wurst hat zwei.", en: "Everything comes to an end sooner or later." },
           { es: "Im letzten Spiel geht es um die Wurst.", en: "Everything is at stake in the last match." },
           { es: "Jetzt spiel nicht die beleidigte Leberwurst!", en: "Stop sulking now!" },
           { es: "Ob es regnet, ist mir wurscht.", en: "I don't care whether it rains." },
@@ -96,7 +96,7 @@ export const DE_C2_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into informal German, with Wurst.",
+            prompt: "Translate into informal German, with \"Wurst\".",
             source: "I couldn't care less what the neighbours think.",
             answer: "Was die Nachbarn denken, ist mir völlig Wurst.",
             altAnswers: ["Was die Nachbarn denken, ist mir Wurst.", "Was die Nachbarn denken, ist mir völlig wurscht.", "Was die Nachbarn denken, ist mir wurscht.", "Es ist mir völlig Wurst, was die Nachbarn denken.", "Mir ist völlig Wurst, was die Nachbarn denken."],
@@ -104,7 +104,7 @@ export const DE_C2_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does Jetzt geht es um die Wurst mean?",
+            question: "What does \"Jetzt geht es um die Wurst\" mean?",
             options: ["Now everything is at stake.", "Now we are going to eat.", "Now it does not matter.", "Now it is over."],
             correctIndex: 0,
             explanation: "\"Es geht um die Wurst\" = the decisive moment.",
@@ -134,7 +134,7 @@ export const DE_C2_U04: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Now, whatever you do, [don't panic].",
+        en: "Now, whatever you do, don't [lose your head].",
         sentence: "Jetzt nur nicht den Kopf ___.",
         answer: "verlieren",
         explanation: "\"Den Kopf verlieren\" = to panic; the infinitive works as an instruction.",
@@ -203,18 +203,18 @@ export const DE_C2_U04: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Word Web: Vom Bild zur Bedeutung",
-    summary: "Group idioms by meaning, not by image: luck, annoyance, lying, failure and madness, from Schwein haben to nicht alle Tassen im Schrank haben.",
+    summary: "Group idioms by meaning, not by image (luck, annoyance, lying, failure and madness), from \"Schwein haben\" to \"nicht alle Tassen im Schrank haben\", and use each one with the right case.",
     duration: "17 min",
     sections: [
       {
         heading: "Luck and annoyance",
         body: [
-          "Luck: \"Schwein haben\" (to have pig) means to be lucky, usually by chance: \"Da hast du aber Schwein gehabt!\" The pig is a German luck symbol (\"Glücksschwein\" at New Year). \"Glück im Unglück\" means a blessing in disguise, luck within bad luck: \"Das Auto ist kaputt, aber niemand ist verletzt. Glück im Unglück.\"",
-          "Annoyance: \"jemandem auf den Keks gehen\", \"auf den Senkel gehen\" and \"auf den Wecker gehen\" all mean to get on someone's nerves (Keks = biscuit, Senkel = shoelace, Wecker = alarm clock). The standard version is \"jemandem auf die Nerven gehen\". The annoyed person is always in the dative: \"Du gehst mir auf den Keks.\" Never *mich.",
+          "Luck: \"Schwein haben\" (to have pig) means to be lucky, usually by chance: \"Da hast du aber Schwein gehabt!\" The pig is a German luck symbol (\"Glücksschwein\" at New Year). \"Glück im Unglück\" (luck within bad luck) means a lucky escape: it could have been much worse. \"Das Auto ist kaputt, aber niemand ist verletzt. Glück im Unglück.\"",
+          "Annoyance: \"jemandem auf den Keks gehen\", \"auf den Senkel gehen\" and \"auf den Wecker gehen\" all mean to get on someone's nerves (\"Keks\" = biscuit, \"Senkel\" = shoelace, \"Wecker\" = alarm clock). The standard version is \"jemandem auf die Nerven gehen\". The annoyed person is always in the dative: \"Du gehst mir auf den Keks.\" Never \"*mich*\".",
         ],
         examples: [
           { es: "Da hast du aber Schwein gehabt!", en: "You were really lucky there!" },
-          { es: "Das Auto ist kaputt, aber niemand ist verletzt. Glück im Unglück.", en: "The car is wrecked, but nobody is hurt. A blessing in disguise." },
+          { es: "Das Auto ist kaputt, aber niemand ist verletzt. Glück im Unglück.", en: "The car is wrecked, but nobody is hurt. It could have been much worse." },
           { es: "Du gehst mir echt auf den Keks.", en: "You're really getting on my nerves." },
           { es: "Der ständige Baulärm geht mir auf den Senkel.", en: "The constant building noise is driving me mad." },
           { es: "Seine Witze gehen allen auf den Wecker.", en: "His jokes get on everyone's nerves." },
@@ -223,10 +223,10 @@ export const DE_C2_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into informal German, using Schwein.",
+            prompt: "Translate into informal German, using \"Schwein\".",
             source: "You were really lucky there!",
             answer: "Da hast du aber Schwein gehabt!",
-            altAnswers: ["Da hast du Schwein gehabt!", "Da hast du echt Schwein gehabt!", "Da haben Sie aber Schwein gehabt!", "Da habt ihr aber Schwein gehabt!", "Da hast du aber Glück gehabt!"],
+            altAnswers: ["Da hast du Schwein gehabt!", "Da hast du echt Schwein gehabt!", "Da haben Sie aber Schwein gehabt!", "Da habt ihr aber Schwein gehabt!"],
             explanation: "\"Schwein haben\" without an article; Perfekt \"Schwein gehabt\".",
           },
           {
@@ -235,7 +235,7 @@ export const DE_C2_U04: Lesson[] = [
             en: "You're really getting on [my] nerves.",
             sentence: "Du gehst ___ echt auf den Keks.",
             answer: "mir",
-            explanation: "Dative of the person affected: \"mir\", never *mich.",
+            explanation: "Dative of the person affected: \"mir\", never \"*mich*\".",
           },
         ],
       },
@@ -264,7 +264,7 @@ export const DE_C2_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Das Konzert ist ins Wasser gefallen. What happened?",
+            question: "\"Das Konzert ist ins Wasser gefallen.\" What happened?",
             options: ["The concert was cancelled.", "The concert was held on a boat.", "The concert was a great success.", "Someone fell into the water at the concert."],
             correctIndex: 0,
             explanation: "\"Ins Wasser fallen\" = to be cancelled.",
@@ -288,7 +288,7 @@ export const DE_C2_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into informal German, with Tassen.",
+            prompt: "Translate into informal German, with \"Tassen\".",
             source: "He's off his rocker!",
             answer: "Der hat doch nicht alle Tassen im Schrank!",
             altAnswers: ["Er hat nicht alle Tassen im Schrank!", "Er hat doch nicht alle Tassen im Schrank!", "Der hat nicht alle Tassen im Schrank!"],
@@ -339,13 +339,13 @@ export const DE_C2_U04: Lesson[] = [
         sentence: "Der Baulärm geht mir auf den ___.",
         answer: "Keks",
         altAnswers: ["Senkel", "Wecker", "Geist"],
-        explanation: "Three images, one meaning: \"Keks\", \"Senkel\" or \"Wecker\".",
+        explanation: "Several images, one meaning: \"Keks\", \"Senkel\", \"Wecker\" or \"Geist\".",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Nobody is hurt. A blessing in disguise.",
+        source: "Nobody is hurt. A lucky escape.",
         answer: "Niemand ist verletzt. Glück im Unglück.",
         altAnswers: ["Keiner ist verletzt. Glück im Unglück.", "Niemand wurde verletzt. Glück im Unglück.", "Niemand ist verletzt. Das ist Glück im Unglück."],
         explanation: "\"Glück im Unglück\" is used as a short comment, often without a verb.",
@@ -396,7 +396,7 @@ export const DE_C2_U04: Lesson[] = [
     slug: "c2-idioms-register-contrast",
     level: "DE-C2",
     number: 3,
-    title: "Contrast Clinic: Redewendung oder Nicht? Register und Anlass",
+    title: "Contrast Clinic: Redewendung oder nicht? Register und Anlass",
     summary: "Decide which idioms fit a meeting, a newspaper or a family dinner, find the neutral or formal equivalent, and recognise vulgar idioms you should understand but avoid.",
     duration: "17 min",
     sections: [
@@ -459,9 +459,9 @@ export const DE_C2_U04: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The government is [putting off] the reform.",
-            sentence: "Die Regierung schiebt die Reform auf die lange ___.",
-            answer: "Bank",
+            en: "The government is putting the reform [on the back burner].",
+            sentence: "Die Regierung schiebt die Reform auf die ___.",
+            answer: "lange Bank",
             explanation: "\"Auf die lange Bank schieben\" = to procrastinate.",
           },
         ],
@@ -469,7 +469,7 @@ export const DE_C2_U04: Lesson[] = [
       {
         heading: "Vulgar idioms: understand, do not use",
         body: [
-          "Some idioms are crude: \"am Arsch der Welt\" (in the middle of nowhere), \"die Schnauze voll haben\" (to be fed up; Schnauze = snout), \"jemandem auf den Sack gehen\" (vulgar version of on someone's nerves). You will hear them in films, on the street and among friends; you should recognise them but not use them with strangers.",
+          "Some idioms are crude: \"am Arsch der Welt\" (in the middle of nowhere), \"die Schnauze voll haben\" (to be fed up; \"Schnauze\" = snout), \"jemandem auf den Sack gehen\" (vulgar version of on someone's nerves). You will hear them in films, on the street and among friends; you should recognise them but not use them with strangers.",
           "Neutral alternatives: \"am Ende der Welt\" or \"sehr abgelegen\" instead of \"am Arsch der Welt\"; \"die Nase voll haben\" (still casual, but polite) or \"genug haben von\" instead of \"die Schnauze voll haben\". In writing: \"Ich bin es leid, ...\" (I am tired of ...).",
         ],
         examples: [
@@ -490,7 +490,7 @@ export const DE_C2_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the neutral equivalent of am Arsch der Welt?",
+            question: "Which is the neutral equivalent of \"am Arsch der Welt\"?",
             options: ["sehr abgelegen", "auf der Hand", "unter den Teppich", "in die Hose"],
             correctIndex: 0,
             explanation: "\"Abgelegen\" = remote; \"am Ende der Welt\" is the casual but clean idiom.",
@@ -589,14 +589,14 @@ export const DE_C2_U04: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Deutsche Redewendungen, Part 2 of 2",
-    summary: "Idioms with animals and objects: die Katze im Sack kaufen, da liegt der Hund begraben, einen Kater haben, den Nagel auf den Kopf treffen, ins Fettnäpfchen treten, auf dem Holzweg sein, Tacheles reden, nur Bahnhof verstehen, and why their grammar cannot move.",
+    summary: "Use idioms with animals and objects (\"die Katze im Sack kaufen\", \"da liegt der Hund begraben\", \"einen Kater haben\", \"den Nagel auf den Kopf treffen\", \"ins Fettnäpfchen treten\", \"auf dem Holzweg sein\", \"Tacheles reden\", \"nur Bahnhof verstehen\") and keep their frozen grammar intact.",
     duration: "18 min",
     sections: [
       {
         heading: "Animals: Katze, Hund, Kater",
         body: [
           "\"Die Katze im Sack kaufen\" is to buy a pig in a poke, to buy without inspecting: \"Ohne Probefahrt kaufe ich doch nicht die Katze im Sack.\" \"Da liegt der Hund begraben\" (that is where the dog is buried) means that is the crux of the matter: \"Niemand fühlt sich zuständig, da liegt der Hund begraben.\"",
-          "\"Einen Kater haben\" is to have a hangover: \"Nach der Hochzeit hatte ich einen fürchterlichen Kater.\" (Kater = tomcat, but here probably from \"Katarrh\".) It is casual but harmless. \"Der Muskelkater\" is the muscle pain after sport: \"Ich habe Muskelkater vom Joggen.\"",
+          "\"Einen Kater haben\" is to have a hangover: \"Nach der Hochzeit hatte ich einen fürchterlichen Kater.\" (\"Kater\" = tomcat, but here probably from \"Katarrh\".) It is casual but harmless. \"Der Muskelkater\" is the muscle pain after sport: \"Ich habe Muskelkater vom Joggen.\"",
         ],
         examples: [
           { es: "Ohne Probefahrt kaufe ich doch nicht die Katze im Sack.", en: "I'm not going to buy it sight unseen without a test drive." },
@@ -612,11 +612,11 @@ export const DE_C2_U04: Lesson[] = [
             source: "Nobody feels responsible, that's the crux of the matter.",
             answer: "Niemand fühlt sich zuständig, da liegt der Hund begraben.",
             altAnswers: ["Keiner fühlt sich zuständig, da liegt der Hund begraben.", "Niemand fühlt sich verantwortlich, da liegt der Hund begraben.", "Niemand fühlt sich zuständig, das ist der Knackpunkt.", "Keiner fühlt sich verantwortlich, da liegt der Hund begraben."],
-            explanation: "\"Da liegt der Hund begraben\": fixed, always with \"da\" and the Zustandspassiv \"begraben\".",
+            explanation: "\"Da liegt der Hund begraben\": fixed, usually with \"da\" (or \"hier\") and the participle \"begraben\".",
           },
           {
             type: "multiple-choice",
-            question: "Ich habe einen Kater. What is the problem?",
+            question: "\"Ich habe einen Kater.\" What is the problem?",
             options: ["a hangover", "a new cat", "sore muscles", "a cold"],
             correctIndex: 0,
             explanation: "\"Einen Kater haben\" = hangover; \"Muskelkater\" = sore muscles.",
@@ -660,8 +660,8 @@ export const DE_C2_U04: Lesson[] = [
       {
         heading: "Frozen grammar: what cannot move",
         body: [
-          "Idioms resist normal grammar. You cannot change the number (*den Nägeln auf die Köpfe treffen), the article (*einen Nagel auf einen Kopf treffen) or the adjective. The passive often sounds absurd: *Der Nagel wurde auf den Kopf getroffen means a real nail was hit.",
-          "Some idioms allow the passive because the object is a real participant: \"Der Skandal wurde unter den Teppich gekehrt\" works. \"Die Katze im Sack wurde gekauft\" does not. Test: if the object is part of the image only, keep the active.",
+          "Idioms resist normal grammar. You cannot change the number (\"*die Nägel auf die Köpfe treffen*\"), the article (\"*einen Nagel auf einen Kopf treffen*\") or the adjective. The passive often sounds absurd: \"*Der Nagel wurde auf den Kopf getroffen*\" suggests a real nail was hit.",
+          "Some idioms allow the passive because the object is a real participant: \"Der Skandal wurde unter den Teppich gekehrt\" works. \"*Die Katze im Sack wurde gekauft*\" does not. Test: if the object is part of the image only, keep the active.",
           "Tense change is usually fine: \"Er trat ins Fettnäpfchen\", \"Er ist ins Fettnäpfchen getreten\". Negation of the whole idiom is fine too: \"Er hat den Nagel nicht auf den Kopf getroffen.\" But an idiom in the negative, like \"nicht alle Tassen im Schrank haben\", cannot be made positive.",
         ],
         examples: [
@@ -696,7 +696,7 @@ export const DE_C2_U04: Lesson[] = [
         source: "I'm not going to buy a pig in a poke.",
         answer: "Ich kaufe doch nicht die Katze im Sack.",
         altAnswers: ["Ich kaufe nicht die Katze im Sack.", "Ich werde nicht die Katze im Sack kaufen.", "Ich kaufe keine Katze im Sack.", "Die Katze im Sack kaufe ich nicht."],
-        explanation: "\"Die Katze im Sack kaufen\": the definite article is standard.",
+        explanation: "\"Die Katze im Sack kaufen\": the definite article is standard, though \"keine Katze im Sack\" is also heard.",
       },
       {
         type: "translate",
@@ -723,7 +723,7 @@ export const DE_C2_U04: Lesson[] = [
         source: "Now we need to talk straight.",
         answer: "Jetzt müssen wir mal Tacheles reden.",
         altAnswers: ["Jetzt müssen wir Tacheles reden.", "Wir müssen jetzt mal Tacheles reden.", "Wir müssen jetzt Tacheles reden.", "Jetzt müssen wir mal offen reden."],
-        explanation: "\"Tacheles reden\" comes from Yiddish tachles (purpose, the point).",
+        explanation: "\"Tacheles reden\" comes from Yiddish \"tachles\" (purpose, the point).",
       },
       {
         type: "fill-blank",
@@ -780,14 +780,14 @@ export const DE_C2_U04: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Error Hunt: Vermischte Redewendungen und Lehnübersetzungen",
-    summary: "Fix blended idioms, English calques and wrong cases: den Nagel auf den Punkt bringen, es regnet Katzen und Hunde, ein Stück Kuchen, das macht Sinn and mich geht es auf den Keks.",
+    summary: "Spot and fix blended idioms, English calques and wrong cases (\"*den Nagel auf den Punkt bringen*\", \"*es regnet Katzen und Hunde*\", \"*ein Stück Kuchen*\", \"*mich geht es auf den Keks*\") and know when to avoid \"das macht Sinn\".",
     duration: "17 min",
     sections: [
       {
         heading: "Blended idioms: two halves that do not belong together",
         body: [
-          "A blend (\"Kontamination\") mixes two idioms: *den Nagel auf den Punkt bringen combines \"den Nagel auf den Kopf treffen\" (hit the nail on the head) and \"etwas auf den Punkt bringen\" (to sum something up precisely). Choose one: \"Sie hat es auf den Punkt gebracht\" or \"Sie hat den Nagel auf den Kopf getroffen.\"",
-          "Other frequent blends and slips: *ins Fettnäpfchen fallen (correct: treten), *Tomaten in den Augen haben (correct: auf den Augen), *das Kind mit dem Bade ausgießen (correct: ausschütten; it means to throw the baby out with the bathwater), *auf dem Holzweg gehen (correct: sein). Native speakers make blends too, but at the Mastery level they are noticed.",
+          "A blend (\"Kontamination\") mixes two idioms: \"*den Nagel auf den Punkt bringen*\" combines \"den Nagel auf den Kopf treffen\" (hit the nail on the head) and \"etwas auf den Punkt bringen\" (to sum something up precisely). Choose one: \"Sie hat es auf den Punkt gebracht\" or \"Sie hat den Nagel auf den Kopf getroffen.\"",
+          "Other frequent blends and slips: \"*ins Fettnäpfchen fallen*\" (correct: \"treten\"), \"*Tomaten in den Augen haben*\" (correct: \"auf den Augen\"), \"*das Kind mit dem Bade ausgießen*\" (correct: \"ausschütten\"; it means to throw the baby out with the bathwater), \"*auf dem Holzweg gehen*\" (correct: \"sein\"). Native speakers make blends too, but at the Mastery level they are noticed.",
         ],
         examples: [
           { es: "Sie hat das Problem auf den Punkt gebracht.", en: "She summed up the problem precisely." },
@@ -799,7 +799,7 @@ export const DE_C2_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. The faulty version was *den Nagel auf den Punkt gebracht.",
+            prompt: "Translate into German. The faulty version was \"*den Nagel auf den Punkt gebracht*\".",
             source: "She summed up the problem precisely.",
             answer: "Sie hat das Problem auf den Punkt gebracht.",
             altAnswers: ["Sie brachte das Problem auf den Punkt.", "Sie hat das Problem genau auf den Punkt gebracht.", "Sie hat das Problem präzise auf den Punkt gebracht."],
@@ -817,9 +817,9 @@ export const DE_C2_U04: Lesson[] = [
       {
         heading: "English calques: translated word for word",
         body: [
-          "*Es regnet Katzen und Hunde is meaningless in German. Say \"Es regnet in Strömen\", \"Es gießt wie aus Eimern\" or \"Es schüttet\". *Das ist ein Stück Kuchen does not mean easy; say \"Das ist ein Kinderspiel\", \"Das ist ein Klacks\" or \"Das ist kinderleicht\".",
-          "*Das ist nicht meine Tasse Tee: say \"Das ist nicht mein Ding\" or \"Das ist nicht mein Fall\". To bite the bullet is \"in den sauren Apfel beißen\"; *die Kugel beißen is a calque. *Einmal in einem blauen Mond: say \"alle Jubeljahre\" (once in a blue moon).",
-          "\"Das macht Sinn\" is a debated anglicism (from it makes sense). It is now very common and listed in Duden, but careful writers prefer \"Das ergibt Sinn\", \"Das hat Sinn\" or \"Das ist sinnvoll\". In formal texts, avoid it.",
+          "\"*Es regnet Katzen und Hunde*\" is meaningless in German. Say \"Es regnet in Strömen\", \"Es gießt wie aus Eimern\" or \"Es schüttet\". \"*Das ist ein Stück Kuchen*\" does not mean easy; say \"Das ist ein Kinderspiel\", \"Das ist ein Klacks\" or \"Das ist kinderleicht\".",
+          "\"*Das ist nicht meine Tasse Tee*\": say \"Das ist nicht mein Ding\" or \"Das ist nicht mein Fall\". To bite the bullet is \"in den sauren Apfel beißen\"; \"*die Kugel beißen*\" is a calque. \"*Einmal in einem blauen Mond*\": say \"alle Jubeljahre\" (once in a blue moon).",
+          "\"Das macht Sinn\" is a debated anglicism (from it makes sense). It is now very common and listed in Duden, but careful writers prefer \"Das ergibt Sinn\", \"Das hat Sinn\" or \"Das ist sinnvoll\". In formal texts many editors still avoid it.",
         ],
         examples: [
           { es: "Es gießt wie aus Eimern.", en: "It's pouring down." },
@@ -846,14 +846,14 @@ export const DE_C2_U04: Lesson[] = [
             sentence: "Für sie ist das ein ___.",
             answer: "Kinderspiel",
             altAnswers: ["Klacks"],
-            explanation: "\"Ein Kinderspiel\" or \"ein Klacks\"; never *ein Stück Kuchen.",
+            explanation: "\"Ein Kinderspiel\" or \"ein Klacks\"; never \"*ein Stück Kuchen*\".",
           },
         ],
       },
       {
         heading: "Wrong cases inside idioms",
         body: [
-          "The person affected by an idiom is very often dative: \"Das geht mir auf den Keks\", \"Mir fällt ein Stein vom Herzen\" (a weight off my mind), \"Mir platzt gleich der Kragen\" (I'm about to lose my temper). *Mich geht es auf den Keks mixes the case and adds a wrong \"es\".",
+          "The person affected by an idiom is very often dative: \"Das geht mir auf den Keks\", \"Mir fällt ein Stein vom Herzen\" (a weight off my mind), \"Mir platzt gleich der Kragen\" (I'm about to lose my temper). \"*Mich geht es auf den Keks*\" mixes the case and adds a wrong \"es\".",
           "Other idioms take the accusative: \"jemanden auf die Palme bringen\" (to drive someone up the wall), \"jemanden an der Nase herumführen\" (to lead someone by the nose). Learn the case as part of the idiom.",
         ],
         examples: [
@@ -904,7 +904,7 @@ export const DE_C2_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into formal German, avoiding das macht Sinn.",
+        prompt: "Translate into formal German, avoiding \"das macht Sinn\".",
         source: "That makes perfect sense.",
         answer: "Das ergibt durchaus Sinn.",
         altAnswers: ["Das ist durchaus sinnvoll.", "Das ergibt vollkommen Sinn.", "Das ist völlig einleuchtend.", "Das ist absolut sinnvoll."],
@@ -933,7 +933,7 @@ export const DE_C2_U04: Lesson[] = [
         prompt: "Translate into German, using an idiom.",
         source: "He led us up the garden path for months.",
         answer: "Er hat uns monatelang an der Nase herumgeführt.",
-        altAnswers: ["Er führte uns monatelang an der Nase herum.", "Monatelang hat er uns an der Nase herumgeführt.", "Sie hat uns monatelang an der Nase herumgeführt."],
+        altAnswers: ["Er führte uns monatelang an der Nase herum.", "Monatelang hat er uns an der Nase herumgeführt."],
         explanation: "Accusative person; separable \"herumführen\".",
       },
       {
@@ -964,10 +964,10 @@ export const DE_C2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence contains a blend of two idioms?",
+        question: "Which sentence gets the frozen verb of the idiom wrong?",
         options: ["Er ist ins Fettnäpfchen gefallen.", "Er ist ins Fettnäpfchen getreten.", "Er hat es auf den Punkt gebracht.", "Er ist auf dem Holzweg."],
         correctIndex: 0,
-        explanation: "The verb is frozen: one \"tritt\" into the Fettnäpfchen.",
+        explanation: "The verb is frozen: you \"treten\" into the \"Fettnäpfchen\", you don't \"fallen\".",
       },
       {
         type: "listen-choose",
@@ -990,7 +990,7 @@ export const DE_C2_U04: Lesson[] = [
     level: "DE-C2",
     number: 6,
     title: "Dialogue Lab: In der WG",
-    summary: "Flatmates in a Wohngemeinschaft argue about cleaning, guests and the Putzplan, and use idioms naturally: Das geht mir gegen den Strich, Jetzt mach mal halblang, Da hast du den Salat.",
+    summary: "Follow flatmates arguing about cleaning, guests and the \"Putzplan\", and use idioms naturally to complain, escalate and make up: \"Das geht mir gegen den Strich\", \"Jetzt mach mal halblang\", \"Da haben wir den Salat\".",
     duration: "18 min",
     sections: [
       {
@@ -1002,7 +1002,7 @@ export const DE_C2_U04: Lesson[] = [
         ],
         examples: [
           { es: "Du bist diese Woche mit dem Bad dran.", en: "It's your turn to do the bathroom this week." },
-          { es: "Jetzt mach mal halblang, ich hatte Prüfungen!", en: "Hold your horses, I had exams!" },
+          { es: "Jetzt mach mal halblang, ich hatte Prüfungen!", en: "Come off it, I had exams!" },
           { es: "Das geht mir echt gegen den Strich.", en: "That really goes against the grain for me." },
           { es: "Jedes Mal gibt es eine neue Ausrede.", en: "Every time there's a new excuse." },
           { es: "Die Küche sieht aus wie ein Schlachtfeld.", en: "The kitchen looks like a battlefield." },
@@ -1048,12 +1048,12 @@ export const DE_C2_U04: Lesson[] = [
             prompt: "Translate into informal German, using an idiom.",
             source: "You're making a mountain out of a molehill.",
             answer: "Ihr macht aus einer Mücke einen Elefanten.",
-            altAnswers: ["Du machst aus einer Mücke einen Elefanten.", "Sie machen aus einer Mücke einen Elefanten.", "Ihr macht aus der Mücke einen Elefanten."],
+            altAnswers: ["Du machst aus einer Mücke einen Elefanten.", "Sie machen aus einer Mücke einen Elefanten."],
             explanation: "\"Aus einer Mücke einen Elefanten machen\": the indefinite articles are fixed.",
           },
           {
             type: "multiple-choice",
-            question: "What does Da haben wir den Salat! express?",
+            question: "What does \"Da haben wir den Salat!\" express?",
             options: ["Here is the unpleasant consequence.", "Dinner is ready.", "We agree completely.", "Everything is mixed up but fine."],
             correctIndex: 0,
             explanation: "A resigned or reproachful comment on a mess that was foreseeable.",
@@ -1098,7 +1098,7 @@ export const DE_C2_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into informal German, using an idiom.",
-        source: "Hold your horses, I had exams!",
+        source: "Come off it, I had exams!",
         answer: "Jetzt mach mal halblang, ich hatte Prüfungen!",
         altAnswers: ["Mach mal halblang, ich hatte Prüfungen!", "Jetzt macht mal halblang, ich hatte Prüfungen!", "Mach mal halblang, ich hatte doch Prüfungen!", "Jetzt mach mal halblang, ich hatte doch Prüfungen!"],
         explanation: "\"Halblang machen\" = to calm down, not exaggerate; used in the imperative.",
@@ -1184,7 +1184,7 @@ export const DE_C2_U04: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Mastery Vocabulary: Verbs That Weaken, Strengthen or Correct",
-    summary: "abschwächen, mildern, verschärfen, steigern, verstärken, berichtigen, korrigieren, revidieren, nachbessern and relativieren, with their typical objects and contexts.",
+    summary: "Say precisely how something changes: weaken (\"abschwächen\", \"mildern\", \"relativieren\"), strengthen (\"verschärfen\", \"steigern\", \"verstärken\") or correct (\"berichtigen\", \"korrigieren\", \"revidieren\", \"nachbessern\"), each with its typical objects.",
     duration: "17 min",
     sections: [
       {
@@ -1212,7 +1212,7 @@ export const DE_C2_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which verb fits? Die Hilfen sollen die Folgen der Krise ___.",
+            question: "Which verb fits? \"Die Hilfen sollen die Folgen der Krise ___.\"",
             options: ["mildern", "verschärfen", "berichtigen", "steigern"],
             correctIndex: 0,
             explanation: "Consequences and suffering are \"gemildert\".",
@@ -1223,12 +1223,12 @@ export const DE_C2_U04: Lesson[] = [
         heading: "Strengthening: verschärfen, steigern, verstärken",
         body: [
           "\"Verschärfen\" is to tighten or aggravate: rules, laws, controls (\"die Regeln verschärfen\") and conflicts or crises (\"Die Lage hat sich verschärft\"). \"Steigern\" is to increase a quantity or performance: \"den Umsatz steigern\", \"die Leistung steigern\". \"Verstärken\" is to reinforce or intensify: \"das Team verstärken\", \"den Eindruck verstärken\".",
-          "Collocations matter: you \"verschärfen\" rules, not *steigern; you \"steigern\" turnover, not *verschärfen. \"Die Polizei verstärkt die Kontrollen\" (more controls) vs \"Die Polizei verschärft die Kontrollen\" (stricter controls).",
+          "Collocations matter: you \"verschärfen\" rules, not \"*steigern*\"; you \"steigern\" turnover, not \"*verschärfen*\". \"Die Polizei verstärkt die Kontrollen\" (more controls) vs \"Die Polizei verschärft die Kontrollen\" (stricter controls).",
         ],
         examples: [
           { es: "Die Regierung will die Regeln für Waffenbesitz verschärfen.", en: "The government wants to tighten the rules on gun ownership." },
           { es: "Die Lage hat sich in den letzten Tagen verschärft.", en: "The situation has worsened in the last few days." },
-          { es: "Wir konnten den Umsatz um zwölf Prozent steigern.", en: "We were able to increase turnover by twelve percent." },
+          { es: "Wir konnten den Umsatz um zwölf Prozent steigern.", en: "We were able to increase turnover by twelve per cent." },
           { es: "Die Polizei verstärkt die Kontrollen am Bahnhof.", en: "The police are stepping up checks at the station." },
           { es: "Das verstärkt meinen Eindruck, dass etwas nicht stimmt.", en: "That reinforces my impression that something is wrong." },
         ],
@@ -1237,7 +1237,7 @@ export const DE_C2_U04: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "We were able to increase turnover by twelve percent.",
+            source: "We were able to increase turnover by twelve per cent.",
             answer: "Wir konnten den Umsatz um zwölf Prozent steigern.",
             altAnswers: ["Wir konnten den Umsatz um 12 Prozent steigern.", "Wir haben den Umsatz um zwölf Prozent steigern können.", "Wir konnten den Umsatz um 12 % steigern.", "Wir konnten unseren Umsatz um zwölf Prozent steigern."],
             explanation: "\"Um\" + amount for the difference: \"um zwölf Prozent\".",
@@ -1375,14 +1375,14 @@ export const DE_C2_U04: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Vocabulary in Context: Collocations That Sound Native",
-    summary: "starker Regen (not schwerer), eine Rolle spielen, Bescheid sagen and geben, Rücksicht nehmen auf, Kritik üben an, in Frage kommen and eine Frage stellen; rewrite a text full of literal translations.",
+    summary: "Choose the collocations a native speaker uses (\"starker Regen\", \"eine Rolle spielen\", \"Bescheid sagen\", \"Rücksicht nehmen auf\", \"Kritik üben an\", \"eine Frage stellen\", \"in Frage kommen\") and rewrite literal translations into natural German.",
     duration: "17 min",
     sections: [
       {
         heading: "Adjective and noun: strong rain, not heavy rain",
         body: [
-          "English heavy becomes German \"stark\": \"starker Regen\", \"starker Verkehr\", \"ein starker Raucher\". *Schwerer Regen is a calque. But \"schwer\" is right for severity: \"ein schwerer Unfall\", \"eine schwere Krankheit\", \"schwere Vorwürfe\".",
-          "Other pairs: high prices = \"hohe Preise\" (not *teure Preise: prices cannot be expensive), a big mistake = \"ein grober Fehler\" or \"ein großer Fehler\", strong coffee = \"starker Kaffee\", heavy losses = \"hohe Verluste\".",
+          "English heavy becomes German \"stark\": \"starker Regen\", \"starker Verkehr\", \"ein starker Raucher\". \"*Schwerer Regen*\" is a calque. But \"schwer\" is right for severity: \"ein schwerer Unfall\", \"eine schwere Krankheit\", \"schwere Vorwürfe\".",
+          "Other pairs: high prices = \"hohe Preise\" (not \"*teure Preise*\": prices cannot be expensive), a big mistake = \"ein grober Fehler\" or \"ein großer Fehler\", strong coffee = \"starker Kaffee\", heavy losses = \"hohe Verluste\".",
         ],
         examples: [
           { es: "Wegen starken Regens fällt das Spiel aus.", en: "The match is cancelled because of heavy rain." },
@@ -1446,9 +1446,9 @@ export const DE_C2_U04: Lesson[] = [
       {
         heading: "Questions and options: eine Frage stellen, in Frage kommen",
         body: [
-          "A question is \"gestellt\", never *gefragt: \"Darf ich Ihnen eine Frage stellen?\" A decision is \"getroffen\": \"eine Entscheidung treffen\". A step is \"unternommen\": \"Schritte unternehmen\".",
-          "\"In Frage kommen\" (also \"infrage kommen\") means to be a possibility, to be eligible: \"Für die Stelle kommen nur zwei Bewerberinnen in Frage.\" Negative: \"Das kommt nicht in Frage!\" (That is out of the question!). Its opposite, \"etwas in Frage stellen\", means to question or challenge something.",
-          "Rewriting practice: *Ich habe eine Entscheidung gemacht und eine Frage gefragt, aber das hat keinen Unterschied gemacht becomes \"Ich habe eine Entscheidung getroffen und eine Frage gestellt, aber das hat nichts geändert.\"",
+          "A question is \"gestellt\", never \"*gefragt*\": \"Darf ich Ihnen eine Frage stellen?\" A decision is \"getroffen\": \"eine Entscheidung treffen\". A step is \"unternommen\": \"Schritte unternehmen\".",
+          "\"In Frage kommen\" (also \"infrage kommen\") means to be a possibility, to be eligible: \"Für die Stelle kommen nur zwei Bewerberinnen in Frage.\" Negative: \"Das kommt nicht in Frage!\" (That is out of the question!). Don't confuse it with \"etwas in Frage stellen\", which means to question or challenge something.",
+          "Rewriting practice: \"*Ich habe eine Entscheidung gemacht und eine Frage gefragt, aber das hat keinen Unterschied gemacht*\" becomes \"Ich habe eine Entscheidung getroffen und eine Frage gestellt, aber das hat nichts geändert.\"",
         ],
         examples: [
           { es: "Darf ich Ihnen eine Frage stellen?", en: "May I ask you a question?" },
@@ -1512,7 +1512,7 @@ export const DE_C2_U04: Lesson[] = [
         source: "We must make a decision soon.",
         answer: "Wir müssen bald eine Entscheidung treffen.",
         altAnswers: ["Wir müssen bald eine Entscheidung fällen.", "Wir müssen uns bald entscheiden.", "Wir müssen demnächst eine Entscheidung treffen."],
-        explanation: "\"Eine Entscheidung treffen\" (or \"fällen\"); never *machen.",
+        explanation: "\"Eine Entscheidung treffen\" (or \"fällen\"); never \"*machen*\".",
       },
       {
         type: "fill-blank",
@@ -1525,7 +1525,7 @@ export const DE_C2_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite the literal translation in natural German: Ich habe eine Entscheidung gemacht und eine Frage gefragt.",
+        prompt: "Rewrite the literal translation \"*Ich habe eine Entscheidung gemacht und eine Frage gefragt*\" in natural German.",
         source: "I made a decision and asked a question.",
         answer: "Ich habe eine Entscheidung getroffen und eine Frage gestellt.",
         altAnswers: ["Ich traf eine Entscheidung und stellte eine Frage.", "Ich habe eine Entscheidung gefällt und eine Frage gestellt."],
@@ -1580,7 +1580,7 @@ export const DE_C2_U04_WRITING: WriteExercise = {
   prompt: "A German city magazine invites readers to send in a short, humorous column (Glosse) about everyday life. Write about your first months in a German shared flat (WG): the cleaning rota, a flatmate's permanent guest and the moment it all came to a head. Use at least six idioms with the correct grammar and keep the register lively but publishable. End with a twist or a lesson learned.",
   minWords: 250,
   maxWords: 400,
-  rubric: ["Uses at least six idioms correctly, with their frozen grammar and the right case (\"mir geht ... auf den Keks\", \"ins Fettnäpfchen getreten\", \"den Nagel auf den Kopf treffen\")", "Keeps a consistent, publishable register: lively and casual, but no vulgar idioms (\"die Nase voll haben\" rather than the crude version)", "Avoids English calques and uses native collocations (\"es regnet in Strömen\", \"eine Rolle spielen\", \"Rücksicht nehmen auf\")", "Has a clear arc with a pointed ending, using verbs of change where natural (\"relativieren\", \"nachbessern\", \"sich verschärfen\")"],
-  modelAnswer: "Der Putzplan und ich\n\nAls ich im Frühjahr in eine Leipziger WG zog, hielt ich mich für einen unkomplizierten Menschen. Drei Mitbewohner, ein Bad, ein Kühlschrank: Das kann doch kein Hexenwerk sein, dachte ich. Da war ich allerdings gründlich auf dem Holzweg.\n\nDas Herzstück unserer Wohnung ist nämlich nicht die Küche, sondern der Putzplan. Er hängt am Kühlschrank, ist laminiert und farbig markiert, und Mira, die ihn erfunden hat, nimmt sich kein Blatt vor den Mund, wenn jemand ihn ignoriert. In der ersten Woche bin ich prompt ins Fettnäpfchen getreten: Ich habe gefragt, ob \"Bad gründlich\" auch den Spiegel einschließt. Seitdem gelte ich als Philosoph der Hygiene.\n\nRichtig ernst wurde es aber erst mit Ben. Ben ist der Freund von Tobias und übernachtet angeblich nur ab und zu bei uns. Ab und zu bedeutet in diesem Fall: an sieben Tagen pro Woche, mit einer täglichen Dusche von einer halben Stunde. Lange haben wir das Thema unter den Teppich gekehrt, denn niemand wollte päpstlicher sein als der Papst. Dann kam die Nebenkostenabrechnung, und da hatten wir den Salat: 300 Euro Nachzahlung.\n\nDie Lage verschärfte sich innerhalb eines Abends. Mira hatte die Nase gestrichen voll, Jonas redete endlich Tacheles, und Tobias fand, wir machten aus einer Mücke einen Elefanten. Ich selbst habe, zugegeben, nur Bahnhof verstanden, als es um Wasserzähler und Umlageschlüssel ging. Schließlich sagte Jonas den Satz, der den Nagel auf den Kopf traf: \"Es geht hier nicht ums Geld, sondern darum, ob wir Rücksicht aufeinander nehmen.\"\n\nDas saß. Tobias relativierte seine Position, Ben zahlt seitdem etwas dazu, und der Putzplan wurde nachgebessert: Er hat jetzt eine eigene Spalte für Gäste. Schwamm drüber, hieß es am Ende.\n\nUnd die Moral von der Geschicht? Geld spielt in einer WG durchaus eine Rolle, aber wichtiger ist, dass man sich irgendwann zusammenrauft. Inzwischen drücke ich jedem neuen Mitbewohner die Daumen und schenke ihm zum Einzug einen Schwamm. Den braucht er sowieso.",
-  explanation: "The column uses more than a dozen idioms, each in its frozen form: \"auf dem Holzweg sein\" (dative, location), \"sich kein Blatt vor den Mund nehmen\", \"ins Fettnäpfchen getreten\" (Perfekt with sein), \"unter den Teppich gekehrt\", \"päpstlicher als der Papst\", \"da hatten wir den Salat\", \"die Nase gestrichen voll haben\" (the clean version, not the vulgar one), \"Tacheles reden\", \"aus einer Mücke einen Elefanten machen\", \"nur Bahnhof verstehen\" and \"den Nagel auf den Kopf treffen\". Native collocations replace calques: \"Rücksicht aufeinander nehmen\", \"eine Rolle spielen\", \"jemandem die Daumen drücken\". Verbs of change mark the turning points: \"verschärfte sich\", \"relativierte\", \"wurde nachgebessert\". The ending plays on \"Schwamm drüber\" by turning the idiom into a literal sponge.",
+  rubric: ["Uses at least six idioms correctly, with their frozen grammar and the right case (\"das geht mir auf den Keks\", \"ins Fettnäpfchen getreten\", \"den Nagel auf den Kopf treffen\")", "Keeps a consistent, publishable register: lively and casual, but no vulgar idioms (\"die Nase voll haben\" rather than the crude version)", "Avoids English calques and uses native collocations (\"es regnet in Strömen\", \"eine Rolle spielen\", \"Rücksicht nehmen auf\")", "Has a clear arc with a pointed ending, using verbs of change where natural (\"relativieren\", \"nachbessern\", \"sich verschärfen\")"],
+  modelAnswer: "Der Putzplan und ich\n\nAls ich im Frühjahr in eine Leipziger WG zog, hielt ich mich für einen unkomplizierten Menschen. Drei Mitbewohner, ein Bad, ein Kühlschrank: Das kann doch kein Hexenwerk sein, dachte ich. Da war ich allerdings gründlich auf dem Holzweg.\n\nDas Herzstück unserer Wohnung ist nämlich nicht die Küche, sondern der Putzplan. Er hängt am Kühlschrank, ist laminiert und farbig markiert, und Mira, die ihn erfunden hat, nimmt sich kein Blatt vor den Mund, wenn jemand ihn ignoriert. In der ersten Woche bin ich prompt ins Fettnäpfchen getreten: Ich habe gefragt, ob „Bad gründlich“ auch den Spiegel einschließt. Seitdem gelte ich als Philosoph der Hygiene.\n\nRichtig ernst wurde es aber erst mit Ben. Ben ist der Freund von Tobias und übernachtet angeblich nur ab und zu bei uns. Ab und zu bedeutet in diesem Fall: an sieben Tagen pro Woche, mit einer täglichen Dusche von einer halben Stunde. Lange haben wir das Thema unter den Teppich gekehrt, denn niemand wollte päpstlicher sein als der Papst. Dann kam die Nebenkostenabrechnung, und da hatten wir den Salat: 300 Euro Nachzahlung.\n\nDie Lage verschärfte sich innerhalb eines Abends. Mira hatte die Nase gestrichen voll, Jonas redete endlich Tacheles, und Tobias fand, wir machten aus einer Mücke einen Elefanten. Ich selbst habe, zugegeben, nur Bahnhof verstanden, als es um Wasserzähler und Umlageschlüssel ging. Schließlich sagte Jonas den Satz, der den Nagel auf den Kopf traf: „Es geht hier nicht ums Geld, sondern darum, ob wir Rücksicht aufeinander nehmen.“\n\nDas saß. Tobias relativierte seine Position, Ben zahlt seitdem etwas dazu, und der Putzplan wurde nachgebessert: Er hat jetzt eine eigene Spalte für Gäste. Schwamm drüber, hieß es am Ende.\n\nUnd die Moral von der Geschicht? Geld spielt in einer WG durchaus eine Rolle, aber wichtiger ist, dass man sich irgendwann zusammenrauft. Inzwischen drücke ich jedem neuen Mitbewohner die Daumen und schenke ihm zum Einzug einen Schwamm. Den braucht er sowieso.",
+  explanation: "The column uses more than a dozen idioms, each in its frozen form: \"auf dem Holzweg sein\" (dative, location), \"sich kein Blatt vor den Mund nehmen\", \"ins Fettnäpfchen getreten\" (Perfekt with \"sein\"), \"unter den Teppich gekehrt\", \"päpstlicher als der Papst\", \"da hatten wir den Salat\", \"die Nase gestrichen voll haben\" (the clean version, not the vulgar one), \"Tacheles reden\", \"aus einer Mücke einen Elefanten machen\", \"nur Bahnhof verstehen\" and \"den Nagel auf den Kopf treffen\". Native collocations replace calques: \"Rücksicht aufeinander nehmen\", \"eine Rolle spielen\", \"jemandem die Daumen drücken\". Verbs of change mark the turning points: \"verschärfte sich\", \"relativierte\", \"wurde nachgebessert\". The ending plays on \"Schwamm drüber\" by turning the idiom into a literal sponge.",
 };

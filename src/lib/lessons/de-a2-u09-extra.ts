@@ -118,7 +118,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: In the morning I always hurry.",
         words: ["Morgens", "beeile", "ich", "mich", "immer."],
         translation: "In the morning I always hurry.",
-        altOrders: [["Ich", "beeile", "mich", "morgens", "immer."]],
+        altOrders: [["Ich", "beeile", "mich", "morgens", "immer."], ["Ich", "beeile", "mich", "immer", "morgens."]],
         explanation: "Inverted order: verb, pronoun subject, then the reflexive.",
       },
       {
@@ -131,7 +131,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which pronoun completes: Ihr müsst ___ beeilen.",
+        question: "Complete the sentence to say: You have to hurry. (to friends) Ihr müsst ___ beeilen.",
         options: ["euch", "sich", "uns", "ihr"],
         correctIndex: 0,
         explanation: "\"Ihr\" takes \"euch\". \"Sich\" is only for third persons and Sie.",
@@ -482,7 +482,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
           { es: "Mia: Ich ziehe mich gerade an!", en: "Mia: I'm just getting dressed!" },
           { es: "Papa: Hast du dich schon rasiert, Leon?", en: "Dad: Have you shaved yet, Leon?" },
           { es: "Leon: Nein, ich dusche mich noch.", en: "Leon: No, I'm still in the shower." },
-          { es: "Mama: Mia, kämm dir bitte die Haare!", en: "Mum: Mia, please brush your hair!" },
+          { es: "Mama: Mia, kämm dir bitte die Haare!", en: "Mum: Mia, please comb your hair!" },
         ],
         checkpoint: [
           {
@@ -518,10 +518,10 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Mia, please brush your hair!",
+        source: "Mia, please comb your hair!",
         answer: "Mia, kämm dir bitte die Haare!",
-        altAnswers: ["Mia, bitte kämm dir die Haare!", "Mia, kämm dir die Haare, bitte!", "Mia, bürste dir bitte die Haare!"],
-        explanation: "Dative \"dir\" + \"die Haare\".",
+        altAnswers: ["Mia, bitte kämm dir die Haare!", "Mia, kämm dir die Haare, bitte!"],
+        explanation: "Dative \"dir\" + \"die Haare\": the hair is the accusative object, so the reflexive is dative. (Brush would be \"bürsten\".)",
       },
       {
         type: "translate",
@@ -628,8 +628,8 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         heading: "Recap: the three classic slips",
         body: [
-          "Slip 1, the missing pronoun: *Ich beeile*, *Ich fühle gut*, *Wir treffen morgen*. German needs \"mich\", \"mich\" and \"uns\".",
-          "Slip 2, the possessive with body parts: *Ich wasche meine Hände* sounds foreign; say \"Ich wasche mir die Hände\". Slip 3, the wrong preposition copied from English: *Ich freue mich für den Urlaub* (look forward = \"auf\"), *Ich interessiere mich in Kunst* (= \"für\").",
+          "Slip 1, the missing pronoun: \"*Ich beeile*\", \"*Ich fühle gut*\", \"*Wir treffen morgen*\". German needs \"mich\", \"mich\" and \"uns\".",
+          "Slip 2, the possessive with body parts: \"*Ich wasche meine Hände*\" sounds foreign; say \"Ich wasche mir die Hände\". Slip 3, the wrong preposition copied from English: \"*Ich freue mich für den Urlaub*\" (look forward = \"auf\"), \"*Ich interessiere mich in Kunst*\" (= \"für\").",
         ],
         examples: [
           { es: "Ich fühle mich gut.", en: "I feel good." },
@@ -642,7 +642,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Ich fühle heute gut*. Write the correct German for: I feel good today.",
+            prompt: "A learner wrote \"*Ich fühle heute gut*\". Write the correct German for: I feel good today.",
             source: "I feel good today.",
             answer: "Ich fühle mich heute gut.",
             altAnswers: ["Heute fühle ich mich gut."],
@@ -651,7 +651,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Ich freue mich für den Urlaub*. Write the correct German for: I'm looking forward to the holiday.",
+            prompt: "A learner wrote \"*Ich freue mich für den Urlaub*\". Write the correct German for: I'm looking forward to the holiday.",
             source: "I'm looking forward to the holiday.",
             answer: "Ich freue mich auf den Urlaub.",
             altAnswers: ["Ich freue mich auf die Ferien."],
@@ -664,7 +664,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Ich beeile, der Zug kommt*. Write the correct German for: I'm hurrying, the train is coming.",
+        prompt: "A learner wrote \"*Ich beeile, der Zug kommt*\". Write the correct German for: I'm hurrying, the train is coming.",
         source: "I'm hurrying, the train is coming.",
         answer: "Ich beeile mich, der Zug kommt.",
         explanation: "\"Sich beeilen\" never appears without its pronoun.",
@@ -672,7 +672,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Ich wasche meine Hände*. Write the natural German for: I'm washing my hands.",
+        prompt: "A learner wrote \"*Ich wasche meine Hände*\". Write the natural German for: I'm washing my hands.",
         source: "I'm washing my hands.",
         answer: "Ich wasche mir die Hände.",
         explanation: "Body parts: dative reflexive + article.",
@@ -680,7 +680,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Er interessiert sich in Kunst*. Write the correct German for: He's interested in art.",
+        prompt: "A learner wrote \"*Er interessiert sich in Kunst*\". Write the correct German for: He's interested in art.",
         source: "He's interested in art.",
         answer: "Er interessiert sich für Kunst.",
         explanation: "Interested in = \"für\".",
@@ -688,7 +688,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Wir treffen morgen im Park*. Write the correct German for: We're meeting in the park tomorrow.",
+        prompt: "A learner wrote \"*Wir treffen morgen im Park*\". Write the correct German for: We're meeting in the park tomorrow.",
         source: "We're meeting in the park tomorrow.",
         answer: "Wir treffen uns morgen im Park.",
         altAnswers: ["Morgen treffen wir uns im Park."],
@@ -697,7 +697,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Sie ist sich hingelegt*. Write the correct German for: She lay down.",
+        prompt: "A learner wrote \"*Sie ist sich hingelegt*\". Write the correct German for: She lay down.",
         source: "She lay down.",
         answer: "Sie hat sich hingelegt.",
         explanation: "Reflexive verbs always take \"haben\".",
@@ -705,7 +705,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Ich wasche mich die Haare*. Write the correct German for: I'm washing my hair.",
+        prompt: "A learner wrote \"*Ich wasche mich die Haare*\". Write the correct German for: I'm washing my hair.",
         source: "I'm washing my hair.",
         answer: "Ich wasche mir die Haare.",
         explanation: "With an accusative object the reflexive is dative: \"mir\".",
@@ -713,7 +713,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Erinnerst du an mich?* Write the correct German for: Do you remember me?",
+        prompt: "A learner wrote \"*Erinnerst du an mich?*\" Write the correct German for: Do you remember me?",
         source: "Do you remember me? (to a friend)",
         answer: "Erinnerst du dich an mich?",
         explanation: "\"Sich erinnern an\": the reflexive \"dich\" can't be dropped.",
@@ -721,7 +721,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Then [I got dressed]. (A learner wrote *Dann ich habe mich angezogen*.)",
+        en: "Then [I got dressed]. (A learner wrote \"*Dann ich habe mich angezogen*\".)",
         sentence: "Dann ___ angezogen.",
         answer: "habe ich mich",
         explanation: "After \"dann\" the auxiliary comes second, then the subject, then the reflexive.",
@@ -729,7 +729,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Please [sit down]! (A learner wrote *Sitzen Sie bitte*.)",
+        en: "Please [sit down]! (A learner wrote \"*Sitzen Sie bitte*\".)",
         sentence: "___ bitte!",
         answer: "Setzen Sie sich",
         explanation: "Sitting down is \"sich setzen\"; \"sitzen\" is being seated.",
@@ -892,7 +892,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: In the morning I'm always in a hurry.",
+        prompt: "Put the words in order to say: In the morning I always have to hurry.",
         words: ["Morgens", "muss", "ich", "mich", "immer", "beeilen."],
         translation: "In the morning I always have to hurry.",
         altOrders: [["Ich", "muss", "mich", "morgens", "immer", "beeilen."]],
@@ -939,7 +939,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         heading: "Recap: Tom's routine, with mistakes",
         body: [
-          "Tom wrote: *Jeden Morgen ich stehe um sieben auf. Ich dusche und ich wasche meine Haare. Dann ich ziehe an mich. Ich muss mich beeilen, weil der Bus. Am Abend ich ruhe aus.* Four kinds of slips are hiding here: verb-second after a time phrase, a missing reflexive, the possessive with a body part, and the pronoun or prefix in the wrong place.",
+          "Tom wrote: \"*Jeden Morgen ich stehe um sieben auf. Ich dusche und ich wasche meine Haare. Dann ich ziehe an mich. Ich muss mich beeilen. Am Abend ich ruhe aus.*\" Four kinds of slips are hiding here: verb-second after a time phrase, a missing reflexive, the possessive with a body part, and the pronoun or prefix in the wrong place.",
           "The corrected version: \"Jeden Morgen stehe ich um sieben auf. Ich dusche mich und wasche mir die Haare. Dann ziehe ich mich an. Ich muss mich beeilen. Am Abend ruhe ich mich aus.\"",
         ],
         examples: [
@@ -952,7 +952,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Tom wrote *Dann ich ziehe an mich*. Write the correct German for: Then I get dressed.",
+            prompt: "Tom wrote \"*Dann ich ziehe an mich*\". Write the correct German for: Then I get dressed.",
             source: "Then I get dressed.",
             answer: "Dann ziehe ich mich an.",
             explanation: "Verb second after \"dann\"; pronoun after the subject; prefix at the end.",
@@ -972,7 +972,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Jeden Morgen ich stehe um sieben auf*. Write the German for: Every morning I get up at seven.",
+        prompt: "Fix \"*Jeden Morgen ich stehe um sieben auf*\". Write the German for: Every morning I get up at seven.",
         source: "Every morning I get up at seven.",
         answer: "Jeden Morgen stehe ich um sieben auf.",
         altAnswers: ["Ich stehe jeden Morgen um sieben auf.", "Jeden Morgen stehe ich um sieben Uhr auf."],
@@ -981,7 +981,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Ich wasche meine Haare*. Write the natural German for: I wash my hair.",
+        prompt: "Fix \"*Ich wasche meine Haare*\". Write the natural German for: I wash my hair.",
         source: "I wash my hair.",
         answer: "Ich wasche mir die Haare.",
         explanation: "Dative reflexive + article for your own body.",
@@ -989,7 +989,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Sie schminkt im Bus*. Write the German for: She does her make-up on the bus.",
+        prompt: "Fix \"*Sie schminkt im Bus*\". Write the German for: She does her make-up on the bus.",
         source: "She does her make-up on the bus.",
         answer: "Sie schminkt sich im Bus.",
         explanation: "\"Sich schminken\" needs \"sich\".",
@@ -997,7 +997,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Mein Bruder anzieht sich langsam*. Write the German for: My brother gets dressed slowly.",
+        prompt: "Fix \"*Mein Bruder anzieht sich langsam*\". Write the German for: My brother gets dressed slowly.",
         source: "My brother gets dressed slowly.",
         answer: "Mein Bruder zieht sich langsam an.",
         explanation: "Separable: \"zieht ... an\", prefix at the end.",
@@ -1005,7 +1005,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Wir duschen uns nach dem Sport und dann wir essen*. Write the German for: We shower after sport and then we eat.",
+        prompt: "Fix \"*Wir duschen uns nach dem Sport und dann wir essen*\". Write the German for: We shower after sport and then we eat.",
         source: "We shower after sport and then we eat.",
         answer: "Wir duschen uns nach dem Sport und dann essen wir.",
         altAnswers: ["Nach dem Sport duschen wir uns und dann essen wir.", "Wir duschen nach dem Sport und dann essen wir."],
@@ -1014,7 +1014,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Gestern ich bin mich beeilt*. Write the German for: Yesterday I hurried.",
+        prompt: "Fix \"*Gestern ich bin mich beeilt*\". Write the German for: Yesterday I hurried.",
         source: "Yesterday I hurried.",
         answer: "Gestern habe ich mich beeilt.",
         altAnswers: ["Ich habe mich gestern beeilt."],
@@ -1238,7 +1238,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
     level: "DE-A2",
     number: 9,
     optional: true,
-    title: "Extra Practice: Pattern Practice: Wir Sehen Uns, Sie Haben Sich Kennengelernt",
+    title: "Extra Practice: Pattern Practice: Wir sehen uns, sie haben sich kennengelernt",
     summary: "Reciprocal verbs (each other) through every plural person and tense.",
     duration: "10 min",
     sections: [
@@ -1402,7 +1402,7 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
         heading: "Recap: is the action going back to the subject?",
         body: [
           "Ask one question: who receives the action? If it's the subject, use the reflexive (\"Ich wasche mich\"). If it's someone or something else, use that object (\"Ich wasche das Auto\"). And some verbs are always reflexive: \"sich beeilen\", \"sich freuen\", \"sich erinnern\", \"sich fühlen\".",
-          "Some verbs are never reflexive in German though English might tempt you: \"frühstücken\", \"aufstehen\", \"duschen\" can stand alone, and enjoy yourself is \"Viel Spaß!\"",
+          "Some verbs are never reflexive in German: \"frühstücken\", \"aufstehen\", \"schlafen\". \"Duschen\" can stand alone or take \"mich\". And enjoy yourself is simply \"Viel Spaß!\"",
         ],
         examples: [
           { es: "Ich setze mich.", en: "I sit down." },
@@ -1515,10 +1515,10 @@ export const DE_A2_U09_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which verb needs a reflexive pronoun?",
-        options: ["sich beeilen: I hurry", "aufstehen: I get up", "frühstücken: I have breakfast", "schlafen: I sleep"],
+        question: "Which sentence is correct German?",
+        options: ["Ich beeile mich.", "Ich stehe mich auf.", "Ich frühstücke mich.", "Ich schlafe mich."],
         correctIndex: 0,
-        explanation: "Only \"sich beeilen\" is reflexive.",
+        explanation: "Only \"sich beeilen\" is reflexive: \"Ich beeile mich\" (I hurry). \"Aufstehen\", \"frühstücken\" and \"schlafen\" never take a reflexive pronoun.",
       },
       {
         type: "listen-choose",

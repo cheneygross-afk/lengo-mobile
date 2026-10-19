@@ -8,15 +8,15 @@ export const DE_B2_U21: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Genitive Prepositions and Formal Relatives, Part 1 of 2",
-    summary: "The prepositions of reports, letters and announcements: aufgrund, infolge, angesichts, innerhalb, außerhalb, anlässlich, bezüglich, ungeachtet and their friends.",
+    summary: "Use the genitive prepositions of reports, letters and announcements (\"aufgrund\", \"infolge\", \"angesichts\", \"innerhalb\", \"außerhalb\", \"anlässlich\", \"bezüglich\", \"ungeachtet\") with the right case.",
     duration: "15 min",
     sections: [
       {
         heading: "Cause and circumstance: aufgrund, infolge, angesichts",
         body: [
           "Formal German has a whole family of prepositions that take the genitive. You already know \"wegen\", \"trotz\" and \"während\", and Unit 12 previewed \"aufgrund\" and \"infolge\". In reports, official letters and the news you'll meet many more, and they are the quickest way to make a sentence sound written rather than spoken: \"aufgrund des Wetters\" (because of the weather), \"infolge des Unfalls\" (as a result of the accident), \"angesichts der Lage\" (in view of the situation).",
-          "They are not interchangeable. \"Aufgrund\" gives the reason or basis (due to, on the basis of). \"Infolge\" names an event that has already produced an effect (as a consequence of: accidents, storms, strikes). \"Angesichts\" names a situation you have to face (in view of, given: angesichts der hohen Kosten). In everyday speech \"wegen\" covers all three.",
-          "Traps: English due to tempts learners into \"*aufgrund zu\" or \"*wegen zu\": there is no zu. \"Aufgrund\" is normally one word (\"auf Grund\" is allowed but rare), and it is a preposition, not a conjunction: before a whole clause you need \"weil\" or \"da\" (Er kam zu spät, weil der Bus ausfiel), never \"*aufgrund der Bus ausfiel\".",
+          "They are not interchangeable. \"Aufgrund\" gives the reason or basis (due to, on the basis of). \"Infolge\" names an event that has already produced an effect (as a consequence of: accidents, storms, strikes). \"Angesichts\" names a situation you have to face (in view of, given: \"angesichts der hohen Kosten\"). In everyday speech \"wegen\" covers all three.",
+          "Traps: English due to tempts learners into \"*aufgrund zu\" or \"*wegen zu\": there is no zu. \"Aufgrund\" is normally one word (\"auf Grund\" is allowed but rare), and it is a preposition, not a conjunction: before a whole clause you need \"weil\" or \"da\" (\"Er kam zu spät, weil der Bus ausfiel\"), never \"*aufgrund der Bus ausfiel\".",
         ],
         examples: [
           { es: "Aufgrund des Wetters fällt das Konzert aus.", en: "The concert is cancelled due to the weather." },
@@ -100,7 +100,7 @@ export const DE_B2_U21: Lesson[] = [
         body: [
           "Business letters love \"bezüglich\" and \"hinsichtlich\" (regarding, with regard to): \"bezüglich Ihrer Anfrage\" (regarding your enquiry), \"hinsichtlich der Kosten\". In a less stiff style you'd write \"zu Ihrer Anfrage\" or \"was die Kosten betrifft\".",
           "\"Ungeachtet\" (regardless of, notwithstanding) is a formal \"trotz\": \"ungeachtet der Kritik\". \"Anstelle\" or \"statt\" (instead of) and \"zugunsten\" (in favour of, in aid of) complete the everyday-formal set: \"statt eines Briefes\", \"zugunsten der Kinderklinik\". \"Mittels\" (by means of) and \"seitens\" (on the part of) live in official texts: \"mittels eines Formulars\", \"seitens der Behörden\".",
-          "You don't need any of these in conversation. Recognising them is essential for reading, and using a few well (aufgrund, innerhalb, bezüglich) makes a formal email sound right. Use them all in speech and you sound like a tax office.",
+          "You don't need any of these in conversation. Recognising them is essential for reading, and using a few well (\"aufgrund\", \"innerhalb\", \"bezüglich\") makes a formal email sound right. Use them all in speech and you sound like a tax office.",
         ],
         examples: [
           { es: "Bezüglich Ihrer Anfrage haben wir noch eine Frage.", en: "Regarding your enquiry, we have one more question." },
@@ -163,6 +163,7 @@ export const DE_B2_U21: Lesson[] = [
         prompt: "Put the words in order to say: In view of the rising prices, many families are saving.",
         words: ["Angesichts", "der steigenden Preise", "sparen", "viele", "Familien."],
         translation: "In view of the rising prices, many families are saving.",
+        altOrders: [["Viele", "Familien", "sparen", "angesichts", "der steigenden Preise."]],
         explanation: "The genitive phrase fills position 1, so the verb \"sparen\" comes second and the subject follows it.",
       },
       {
@@ -387,6 +388,7 @@ export const DE_B2_U21: Lesson[] = [
         prompt: "Put the words in order to say: Following a serious accident the bridge is closed.",
         words: ["Infolge", "eines schweren Unfalls", "ist", "die Brücke", "gesperrt."],
         translation: "Following a serious accident the bridge is closed.",
+        altOrders: [["Die Brücke", "ist", "infolge", "eines schweren Unfalls", "gesperrt."]],
         explanation: "After \"eines\" the adjective takes -en, and the masculine noun takes -s. The phrase fills position 1, so \"ist\" comes next.",
       },
       {
@@ -455,7 +457,7 @@ export const DE_B2_U21: Lesson[] = [
       {
         heading: "A summer on the Alm",
         body: [
-          "Every June the Rieder family from near Oberstdorf in the Allgäu drives its young cattle up to the Alm, the high mountain pasture. A herdsman (\"der Hirte\") or a woman herder (\"die Sennerin\") lives with the animals in a hut all summer. In September comes \"der Almabtrieb\": the cattle are brought down to the valley in a procession, and the village celebrates.",
+          "Every June the Rieder family from near Oberstdorf in the Allgäu drives its young cattle up to the Alm, the high mountain pasture. A herdsman (\"der Hirte\") or a woman herder (\"die Sennerin\") lives with the animals in a hut all summer. In September comes \"der Almabtrieb\": the cattle are brought down to the valley in a procession, and the village celebrates. (In the Allgäu itself people say \"die Alpe\" and \"der Viehscheid\"; \"Alm\" and \"Almabtrieb\" are the words most Germans know.)",
           "The local paper reports it in formal German full of genitive prepositions: \"oberhalb des Dorfes\" (above the village), \"während des Sommers\", \"anlässlich des Almabtriebs\", \"aufgrund des schlechten Wetters\" (when snow comes early), \"innerhalb weniger Stunden\".",
           "Useful words: \"die Alm\" (mountain pasture), \"das Vieh\" / \"das Jungvieh\" (cattle, young cattle), \"die Herde\" (herd), \"die Kuhglocke\" or \"die Schelle\" (cowbell), \"ins Tal treiben\" (to drive down into the valley).",
         ],
@@ -623,7 +625,7 @@ export const DE_B2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "The animals counted by the herdsman are all healthy.",
         answer: "Die vom Hirten gezählten Tiere sind alle gesund.",
-        altAnswers: ["Die von dem Hirten gezählten Tiere sind alle gesund.", "Die vom Hirten gezählten Tiere sind alle gesund geblieben.", "Die Tiere, die der Hirte gezählt hat, sind alle gesund."],
+        altAnswers: ["Die von dem Hirten gezählten Tiere sind alle gesund.", "Die vom Hirten gezählten Tiere sind alle gesund geblieben.", "Die Tiere, die der Hirte gezählt hat, sind alle gesund.", "Die Tiere, die vom Hirten gezählt wurden, sind alle gesund."],
         explanation: "\"Der Hirte\" is a weak masculine noun: dative \"dem Hirten\". The phrase \"vom Hirten gezählt\" sits before the noun.",
       },
       {
@@ -631,6 +633,7 @@ export const DE_B2_U21: Lesson[] = [
         prompt: "Put the words in order to say: By ten all the cows are decorated.",
         words: ["Um zehn", "sind", "alle", "Kühe", "geschmückt."],
         translation: "By ten all the cows are decorated.",
+        altOrders: [["Alle", "Kühe", "sind", "um zehn", "geschmückt."]],
         explanation: "The result, so the Zustandspassiv: \"sind geschmückt\". The participle closes the sentence.",
       },
       {
@@ -661,15 +664,15 @@ export const DE_B2_U21: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Transformation Chain: Join Two Sentences with Dessen / Deren",
-    summary: "Turn a possessive into a genitive relative: Der Nachbar ist Arzt. Sein Sohn ist mein Freund → Der Nachbar, dessen Sohn mein Freund ist, ist Arzt.",
+    summary: "Join two sentences by turning a possessive into \"dessen\" or \"deren\": \"Der Nachbar, dessen Sohn mein Freund ist, ist Arzt.\"",
     duration: "15 min",
     sections: [
       {
         heading: "Sein → dessen, ihr → deren",
         body: [
           "English has one word, whose. German has two, and the choice depends on the person or thing that owns, the antecedent, not on what is owned: \"dessen\" for a masculine or neuter antecedent, \"deren\" for a feminine or plural one. They replace the possessives exactly: where you'd say \"sein\" you get \"dessen\", where you'd say \"ihr\" you get \"deren\".",
-          "Der Nachbar ist Arzt. Sein Sohn ist mein Freund. → \"Der Nachbar, dessen Sohn mein Freund ist, ist Arzt.\" Die Nachbarin ist Ärztin. Ihr Sohn ist mein Freund. → \"Die Nachbarin, deren Sohn mein Freund ist, ist Ärztin.\" Die Nachbarn sind nett. Ihre Kinder ... → \"Die Nachbarn, deren Kinder ...\".",
-          "Trap: English speakers look at the possessed noun. \"Die Frau, dessen Mann ...\" is wrong, even though \"Mann\" is masculine: the antecedent \"die Frau\" is feminine, so \"deren Mann\". Another trap: the question word whose is \"wessen\", never \"dessen\" (\"Wessen Jacke ist das?\").",
+          "\"Der Nachbar ist Arzt. Sein Sohn ist mein Freund.\" → \"Der Nachbar, dessen Sohn mein Freund ist, ist Arzt.\" \"Die Nachbarin ist Ärztin. Ihr Sohn ist mein Freund.\" → \"Die Nachbarin, deren Sohn mein Freund ist, ist Ärztin.\" \"Die Nachbarn sind nett. Ihre Kinder ...\" → \"Die Nachbarn, deren Kinder ...\".",
+          "Trap: English speakers look at the possessed noun. \"*Die Frau, dessen Mann ...\" is wrong, even though \"Mann\" is masculine: the antecedent \"die Frau\" is feminine, so \"deren Mann\". Another trap: the question word whose is \"wessen\", never \"dessen\" (\"Wessen Jacke ist das?\").",
         ],
         examples: [
           { es: "Der Nachbar, dessen Sohn mein Freund ist, ist Arzt.", en: "The neighbour whose son is my friend is a doctor." },
@@ -691,7 +694,7 @@ export const DE_B2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Complete: Die Frau, ___ Mann bei Siemens arbeitet, heißt Ayşe.",
+            question: "Complete: \"Die Frau, ___ Mann bei Siemens arbeitet, heißt Ayşe.\"",
             options: ["deren", "dessen", "derer", "denen"],
             correctIndex: 0,
             explanation: "The antecedent \"die Frau\" is feminine → \"deren\". The gender of \"Mann\" doesn't matter.",
@@ -793,7 +796,7 @@ export const DE_B2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Join: Das Hotel ist wieder geöffnet. Seine Zimmer wurden renoviert.",
+        question: "Join the two sentences: \"Das Hotel ist wieder geöffnet. Seine Zimmer wurden renoviert.\"",
         options: ["Das Hotel, dessen Zimmer renoviert wurden, ist wieder geöffnet.", "Das Hotel, deren Zimmer renoviert wurden, ist wieder geöffnet.", "Das Hotel, dessen Zimmer wurden renoviert, ist wieder geöffnet.", "Das Hotel, dessen die Zimmer renoviert wurden, ist wieder geöffnet."],
         correctIndex: 0,
         explanation: "\"Sein\" → \"dessen\" (neuter antecedent), no article after it, and the verb at the end of the clause.",
@@ -865,8 +868,8 @@ export const DE_B2_U21: Lesson[] = [
     slug: "b2-thematic-review-musik-zwischen-den-generationen",
     level: "DE-B2",
     number: 5,
-    title: "Thematic Review: Musik Zwischen den Generationen",
-    summary: "A grandfather who loves Schlager and a granddaughter who produces techno: relative clauses with dessen / deren, comparisons and emphasis.",
+    title: "Thematic Review: Musik zwischen den Generationen",
+    summary: "Describe a grandfather who loves Schlager and a granddaughter who produces techno, using relative clauses with \"dessen\" / \"deren\", comparisons and emphasis.",
     duration: "15 min",
     sections: [
       {
@@ -943,7 +946,7 @@ export const DE_B2_U21: Lesson[] = [
         heading: "What surprised everyone: emphasis",
         body: [
           "Then Mia does something unexpected: she samples an old Roland Kaiser song in a new track, and her grandad comes to her gig. The story now needs the emphasis structures of Unit 20: \"Was alle überrascht hat, war ...\" (What surprised everyone was ...), \"Es war ihr Opa, der ihr die erste Schallplatte geschenkt hat.\"",
-          "Focus particles put the spotlight on one word: \"sogar\" (even), \"ausgerechnet\" (of all people/things: Ausgerechnet Opa tanzt in der ersten Reihe!), \"erst\" (only, not until), \"nur\".",
+          "Focus particles put the spotlight on one word: \"sogar\" (even), \"ausgerechnet\" (of all people/things: \"Ausgerechnet Opa tanzt in der ersten Reihe!\"), \"erst\" (only, not until), \"nur\".",
           "Remember the verb agreement in cleft-like sentences: \"Was mich stört, ist der Bass\" (singular), \"Was mich stört, sind die Texte\" (plural: the verb agrees with what follows).",
         ],
         examples: [
@@ -1009,7 +1012,7 @@ export const DE_B2_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Complete: Was ihn an Techno stört, ___ die fehlenden Texte.",
+        question: "Complete: \"Was ihn an Techno stört, ___ die fehlenden Texte.\"",
         options: ["sind", "ist", "war", "hat"],
         correctIndex: 0,
         explanation: "In \"Was ..., ist/sind ...\" the verb agrees with what follows: \"die fehlenden Texte\" is plural, so \"sind\".",
@@ -1073,8 +1076,8 @@ export const DE_B2_U21: Lesson[] = [
     slug: "b2-circuit-mit-deren-hilfe",
     level: "DE-B2",
     number: 6,
-    title: "Circuit: Mit Deren Hilfe, In Dessen Verlauf",
-    summary: "Preposition + dessen / deren (die Kollegin, mit deren Hilfe ...) and the formal relative pronoun welcher / welche / welches.",
+    title: "Circuit: Mit deren Hilfe, In dessen Verlauf",
+    summary: "Put a preposition before \"dessen\" / \"deren\" (\"die Kollegin, mit deren Hilfe ...\") and recognise the formal relative pronoun \"welcher\" / \"welche\" / \"welches\".",
     duration: "15 min",
     sections: [
       {
@@ -1112,7 +1115,7 @@ export const DE_B2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Complete: Wir danken der Stiftung, mit ___ Unterstützung das Fest stattfinden konnte.",
+            question: "Complete: \"Wir danken der Stiftung, mit ___ Unterstützung das Fest stattfinden konnte.\"",
             options: ["deren freundlicher", "dessen freundlicher", "deren freundliche", "derer freundlichen"],
             correctIndex: 0,
             explanation: "\"Die Stiftung\" → \"deren\"; \"mit\" + dative feminine with no article ending → strong ending -er: \"freundlicher\".",
@@ -1282,8 +1285,8 @@ export const DE_B2_U21: Lesson[] = [
     slug: "b2-spiral-dictation-was-man-mir-erzaehlt-hat",
     level: "DE-B2",
     number: 7,
-    title: "Spiral Review: Dictation: Was Man Mir Erzählt Hat",
-    summary: "Hear and write reported speech from Units 3-4: Konjunktiv I statements, reported questions with ob and question words, and requests with sollen.",
+    title: "Spiral Review: Dictation: Was man mir erzählt hat",
+    summary: "Hear and write reported speech from Units 3-4: Konjunktiv I statements, reported questions with \"ob\" and question words, and requests with \"sollen\".",
     duration: "14 min",
     sections: [
       {
@@ -1415,7 +1418,7 @@ export const DE_B2_U21: Lesson[] = [
         prompt: "Translate into German.",
         source: "She asked if I was coming to the party.",
         answer: "Sie fragte, ob ich zur Party komme.",
-        altAnswers: ["Sie hat gefragt, ob ich zur Party komme.", "Sie fragte, ob ich zur Feier komme.", "Sie hat gefragt, ob ich zur Feier komme.", "Sie fragte, ob ich auf die Party komme.", "Sie hat gefragt, ob ich auf die Party komme."],
+        altAnswers: ["Sie hat gefragt, ob ich zur Party komme.", "Sie fragte, ob ich zur Party käme.", "Sie fragte, ob ich zur Feier komme.", "Sie hat gefragt, ob ich zur Feier komme.", "Sie fragte, ob ich auf die Party komme.", "Sie hat gefragt, ob ich auf die Party komme."],
         explanation: "If in a reported question = \"ob\". For \"ich\", Konjunktiv I and indicative look the same: \"komme\".",
       },
       {
@@ -1516,8 +1519,8 @@ export const DE_B2_U21: Lesson[] = [
     slug: "b2-thematic-review-doerfer-die-sich-leeren",
     level: "DE-B2",
     number: 8,
-    title: "Thematic Review: Dörfer, Die Sich Leeren",
-    summary: "Young people leave a village in Brandenburg: genitive prepositions (infolge der Abwanderung), causal connectors and Futur II.",
+    title: "Thematic Review: Dörfer, die sich leeren",
+    summary: "Describe a village in Brandenburg that young people are leaving, using genitive prepositions (\"infolge der Abwanderung\"), causal connectors and Futur II.",
     duration: "15 min",
     sections: [
       {
@@ -1525,7 +1528,7 @@ export const DE_B2_U21: Lesson[] = [
         body: [
           "Klein Wendorf, a village in the Uckermark in north-east Brandenburg, had 600 inhabitants in 1990. Today it has 240, and their average age is 58. After reunification many factories and farming cooperatives closed, and the young moved west or to Berlin. Germans call this \"die Abwanderung\" (moving away, outward migration) and the result \"der demografische Wandel\".",
           "Reports about it are full of genitive prepositions: \"infolge der Abwanderung\" (as a result of people leaving), \"aufgrund fehlender Arbeitsplätze\" (due to a lack of jobs), \"angesichts der Überalterung\" (in view of the ageing population), \"innerhalb weniger Jahrzehnte\", \"außerhalb der Städte\".",
-          "Words: \"schrumpfen\" (to shrink), \"leer stehen\" (to stand empty: Viele Häuser stehen leer), \"die Infrastruktur\", \"der Landarzt\" (country doctor), \"pendeln\" (to commute), \"die Rückkehrer\" (people who come back).",
+          "Words: \"schrumpfen\" (to shrink), \"leer stehen\" (to stand empty: \"Viele Häuser stehen leer.\"), \"die Infrastruktur\", \"der Landarzt\" (country doctor), \"pendeln\" (to commute), \"die Rückkehrer\" (people who come back).",
         ],
         examples: [
           { es: "Infolge der Abwanderung ist das Dorf in dreißig Jahren um mehr als die Hälfte geschrumpft.", en: "As a result of people moving away, the village has shrunk by more than half in thirty years." },
@@ -1715,7 +1718,7 @@ export const DE_B2_U21: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Thematic Review: Journalistische Sorgfalt",
-    summary: "A local reporter checks a rumour before publishing: soll for hearsay, Konjunktiv I, laut and zufolge, and the genitive prepositions of the newsroom.",
+    summary: "Follow a local reporter checking a rumour, and report claims with \"sollen\" for hearsay, Konjunktiv I, \"laut\" and \"zufolge\", and the genitive prepositions of the newsroom.",
     duration: "15 min",
     sections: [
       {
@@ -1823,6 +1826,7 @@ export const DE_B2_U21: Lesson[] = [
             prompt: "Put the words in order to say: A decision is to be made within the next six months.",
             words: ["Innerhalb", "der nächsten sechs Monate", "soll", "eine Entscheidung", "fallen."],
             translation: "A decision is to be made within the next six months.",
+            altOrders: [["Eine Entscheidung", "soll", "innerhalb", "der nächsten sechs Monate", "fallen."]],
             explanation: "\"Eine Entscheidung fällt\" = a decision is made; \"soll\" here means is planned to.",
           },
         ],
@@ -1924,7 +1928,7 @@ export const DE_B2_U21: Lesson[] = [
     level: "DE-B2",
     number: 10,
     title: "Genitive Prepositions and Formal Relatives, Part 2 of 2",
-    summary: "Was after alles, nichts and das Beste; worüber, wodurch and womit for a whole clause; and the register of wegen des vs wegen dem.",
+    summary: "Use \"was\" after \"alles\", \"nichts\" and \"das Beste\", \"worüber\", \"wodurch\" and \"womit\" to comment on a whole clause, and choose \"wegen des\" or \"wegen dem\" by register.",
     duration: "15 min",
     sections: [
       {
@@ -1989,7 +1993,7 @@ export const DE_B2_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Complete: Am Ende gewann der Außenseiter, ___ niemand gerechnet hatte.",
+            question: "Complete: \"Am Ende gewann der Außenseiter, ___ niemand gerechnet hatte.\"",
             options: ["womit", "mit was", "mit dem", "was"],
             correctIndex: 0,
             explanation: "\"Rechnen mit\" + a whole clause → \"womit\". \"Mit dem\" would refer to a noun; \"mit was\" is colloquial.",
@@ -2007,7 +2011,7 @@ export const DE_B2_U21: Lesson[] = [
         body: [
           "In everyday speech many Germans use the dative after \"wegen\", \"trotz\", \"statt\" and \"während\": \"wegen dem Wetter\", \"trotz dem Regen\". It's widespread and not shocking in conversation, but in an email, an application or an exam it counts as a mistake. Write \"wegen des Wetters\", \"trotz des Regens\".",
           "With personal pronouns, the written forms are special words: \"meinetwegen\" (for my sake, because of me, also as far as I'm concerned), \"deinetwegen\", \"seinetwegen\", \"unseretwegen\". \"Wegen mir\" is colloquial.",
-          "The formal prepositions of this unit (aufgrund, infolge, angesichts, bezüglich ...) are written words anyway, so use them with the genitive. In formal texts you may also meet \"welcher / welche / welches\" as a relative pronoun: recognise it as \"der / die / das\".",
+          "The formal prepositions of this unit (\"aufgrund\", \"infolge\", \"angesichts\", \"bezüglich\" ...) are written words anyway, so use them with the genitive. In formal texts you may also meet \"welcher / welche / welches\" as a relative pronoun: recognise it as \"der / die / das\".",
         ],
         examples: [
           { es: "Wegen des Wetters bleiben wir zu Hause.", en: "Because of the weather we're staying at home. (written)" },
@@ -2149,6 +2153,6 @@ export const DE_B2_U21_WRITING: WriteExercise = {
     "Includes a relative clause with \"dessen\" or \"deren\", ideally with a preposition (\"mit deren Hilfe\").",
     "Includes \"was\" or a wo-form referring to a whole clause or after \"alles\" / \"das Einzige\" (\"..., was viele bedauern\").",
   ],
-  modelAnswer: "Sehr geehrte Damen und Herren,\n\nbezüglich der geplanten Schließung des Kinos am Marktplatz wende ich mich heute an Sie. Das Kino, dessen Besitzer im Frühjahr in Rente geht, ist seit 1952 ein Treffpunkt für Jung und Alt. Aufgrund fehlender Einnahmen soll es innerhalb der nächsten drei Monate schließen, was viele Bürgerinnen und Bürger sehr bedauern.\n\nAngesichts der Tatsache, dass es außerhalb der Stadt kein anderes Kino gibt, wären vor allem ältere Menschen und Jugendliche betroffen. Für sie ist das Kino oft das Einzige, was abends geboten wird.\n\nIch schlage deshalb vor, dass die Stadt das Gebäude mietet und einem Verein überlässt. Ein Kinoverein, mit dessen Hilfe das Programm weitergeführt werden könnte, hat sich bereits gegründet. Innerhalb von zwei Monaten haben über 300 Menschen unsere Petition unterschrieben, worüber wir uns sehr freuen.\n\nIch bitte Sie, dieses Thema in der nächsten Sitzung des Stadtrats zu besprechen.\n\nMit freundlichen Grüßen\nJonas Weber",
-  explanation: "The genitive prepositions take articles and adjectives in the genitive (\"bezüglich der geplanten Schließung\", \"aufgrund fehlender Einnahmen\" with -er because there's no article), and \"innerhalb von zwei Monaten\" switches to von + dative because the number shows no case. \"Dessen Besitzer\" and \"mit dessen Hilfe\" refer to masculine antecedents (das Kino, der Verein), \"was viele ... bedauern\" comments on a whole clause, \"das Einzige, was\" follows the rule for nominalised adjectives, and \"worüber\" replaces über + was.",
+  modelAnswer: "Sehr geehrte Damen und Herren,\n\nbezüglich der geplanten Schließung des Kinos am Marktplatz wende ich mich heute an Sie. Das Kino, dessen Besitzer im Frühjahr in Rente geht, ist seit 1952 ein Treffpunkt für Jung und Alt. Aufgrund fehlender Einnahmen soll es innerhalb der nächsten drei Monate schließen, was viele Bürgerinnen und Bürger sehr bedauern.\n\nAngesichts der Tatsache, dass es in der näheren Umgebung kein anderes Kino gibt, wären vor allem ältere Menschen und Jugendliche betroffen. Für sie ist das Kino oft das Einzige, was abends geboten wird.\n\nIch schlage deshalb vor, dass die Stadt das Gebäude mietet und einem Verein überlässt. Ein Kinoverein, mit dessen Hilfe das Programm weitergeführt werden könnte, hat sich bereits gegründet. Innerhalb von zwei Monaten haben über 300 Menschen unsere Petition unterschrieben, worüber wir uns sehr freuen.\n\nIch bitte Sie, dieses Thema in der nächsten Sitzung des Stadtrats zu besprechen.\n\nMit freundlichen Grüßen\nJonas Weber",
+  explanation: "The genitive prepositions take articles and adjectives in the genitive (\"bezüglich der geplanten Schließung\", \"aufgrund fehlender Einnahmen\" with -er because there's no article), and \"innerhalb von zwei Monaten\" switches to von + dative because the number shows no case. \"Dessen Besitzer\" and \"mit dessen Hilfe\" refer to a neuter and a masculine antecedent (\"das Kino\", \"der Kinoverein\"), \"was viele ... bedauern\" comments on a whole clause, \"das Einzige, was\" follows the rule for nominalised adjectives, and \"worüber\" replaces über + was.",
 };

@@ -8,7 +8,7 @@ export const DE_C2_U19: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Rhetorische Fragen und Emphase, Part 1 of 7",
-    summary: "Questions that assert rather than ask: Ist es nicht so, dass...?, Wer würde das bestreiten?, Wer kennt das nicht?, the particles schon and denn, and how negation implies the answer.",
+    summary: "Use questions that assert rather than ask (\"Ist es nicht so, dass...?\", \"Wer würde das bestreiten?\", \"Wer kennt das nicht?\"), with the particles \"schon\" and \"denn\" and negation that implies the answer.",
     duration: "18 min",
     sections: [
       {
@@ -92,7 +92,7 @@ export const DE_C2_U19: Lesson[] = [
         body: [
           "The particle \"schon\" in a w-question signals a rhetorical question expecting nobody / nothing: \"Wer liest das schon?\" (who reads that anyway? = nobody). \"Was weiß der schon davon?\" (what does he know about it? = nothing). Without \"schon\", the question could be genuine.",
           "\"Denn\" in a w-question usually adds interest or mild impatience (\"Was ist denn los?\"), but in rhetorical questions it adds challenge: \"Wer soll das denn bezahlen?\" (who's supposed to pay for that, then? = nobody can). Combined: \"Wer will das denn schon?\"",
-          "\"Schon\" here is unstressed. Stressed \"SCHON\" means already, a different word altogether. Intonation helps: rhetorical questions often fall at the end instead of rising.",
+          "\"Schon\" here is an unstressed modal particle, not the time word meaning already. Intonation helps: rhetorical questions often fall at the end instead of rising.",
         ],
         examples: [
           { es: "Wer liest heute schon noch Zeitung?", en: "Who still reads a newspaper these days anyway?" },
@@ -105,7 +105,7 @@ export const DE_C2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using schon.",
+            prompt: "Translate into German, using \"schon\".",
             source: "Who still reads a newspaper these days anyway?",
             answer: "Wer liest heute schon noch Zeitung?",
             altAnswers: ["Wer liest heute noch Zeitung?", "Wer liest heutzutage schon noch Zeitung?", "Wer liest denn heute noch Zeitung?", "Wer liest heute schon noch eine Zeitung?", "Wer liest heutzutage noch Zeitung?"],
@@ -208,8 +208,8 @@ export const DE_C2_U19: Lesson[] = [
     slug: "c2-real-or-rhetorical-word-web",
     level: "DE-C2",
     number: 2,
-    title: "Word Web: Echte oder Rhetorische Frage?",
-    summary: "Sort questions by function, information, rhetorical assertion, reproach, invitation or hypophora, and learn the markers that tip the balance: etwa, schon, denn, doch.",
+    title: "Word Web: Echte oder rhetorische Frage?",
+    summary: "Sort questions by function (information, rhetorical assertion, reproach, invitation or hypophora) and recognise the markers that tip the balance: \"etwa\", \"schon\", \"denn\", \"doch\".",
     duration: "16 min",
     sections: [
       {
@@ -285,7 +285,7 @@ export const DE_C2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Hast du das etwa vergessen?",
-            tip: "Stress VERGESSEN; etwa stays unstressed but the voice rises in disbelief.",
+            tip: "Stress \"vergessen\"; \"etwa\" stays unstressed but the voice rises in disbelief.",
             explanation: "\"Etwa\" in a yes/no question signals that the speaker hopes or expects the answer no.",
           },
         ],
@@ -339,7 +339,7 @@ export const DE_C2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using schon.",
+        prompt: "Translate into German, using \"schon\".",
         source: "Who believes that anyway?",
         answer: "Wer glaubt das schon?",
         altAnswers: ["Wer glaubt das denn schon?", "Wer glaubt so was schon?", "Wer glaubt so etwas schon?"],
@@ -351,7 +351,7 @@ export const DE_C2_U19: Lesson[] = [
         en: "You are coming tomorrow, [aren't you]?",
         sentence: "Du kommst doch morgen, ___?",
         answer: "oder",
-        altAnswers: ["nicht wahr", "ne"],
+        altAnswers: ["nicht wahr", "ne", "nicht"],
         explanation: "\"Oder?\" is the everyday tag question; \"nicht wahr?\" is more formal, \"ne?\" colloquial.",
       },
       {
@@ -418,7 +418,7 @@ export const DE_C2_U19: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Rhetorische Fragen und Emphase, Part 2 of 7",
-    summary: "Modal particles as signals in questions: etwa (expecting no), denn (interest or reproach), überhaupt (Weißt du überhaupt, was du da sagst?), eigentlich (Was denkst du dir eigentlich?), and the intonation that goes with them.",
+    summary: "Signal your stance in questions with modal particles: \"etwa\" (expecting no), \"denn\" (interest or reproach), \"überhaupt\" (\"Weißt du überhaupt, was du da sagst?\"), \"eigentlich\" (\"Was denkst du dir eigentlich?\"), and the intonation that goes with them.",
     duration: "18 min",
     sections: [
       {
@@ -440,7 +440,7 @@ export const DE_C2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using etwa.",
+            prompt: "Translate into German, using \"etwa\".",
             source: "Are we supposed to just stand by and do nothing?",
             answer: "Sollen wir etwa tatenlos zusehen?",
             altAnswers: ["Sollen wir etwa einfach tatenlos zusehen?", "Sollen wir etwa einfach zusehen?", "Sollen wir etwa nur zuschauen?", "Sollen wir etwa tatenlos zuschauen?"],
@@ -449,7 +449,7 @@ export const DE_C2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using etwa.",
+            prompt: "Translate into German, using \"etwa\".",
             source: "You're not leaving already, are you? (to a friend)",
             answer: "Willst du etwa schon gehen?",
             altAnswers: ["Gehst du etwa schon?", "Du willst doch nicht etwa schon gehen?", "Du gehst doch nicht etwa schon?"],
@@ -476,8 +476,8 @@ export const DE_C2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using überhaupt.",
-            source: "Did you even read the contract? (to a colleague you call du)",
+            prompt: "Translate into German, using \"überhaupt\".",
+            source: "Did you even read the contract? (to a colleague you call \"du\")",
             answer: "Hast du den Vertrag überhaupt gelesen?",
             altAnswers: ["Hast du überhaupt den Vertrag gelesen?", "Hast du dir den Vertrag überhaupt durchgelesen?", "Hast du den Vertrag überhaupt durchgelesen?"],
             explanation: "\"Überhaupt\" questions the very basis: did you read it at all?",
@@ -494,7 +494,7 @@ export const DE_C2_U19: Lesson[] = [
           {
             type: "speak",
             text: "Weißt du überhaupt, was du da sagst?",
-            tip: "Give überhaupt a light stress: über-HAUPT.",
+            tip: "Give \"überhaupt\" a light stress on the second syllable: über-HAUPT.",
             explanation: "A challenging question with \"überhaupt\": do you even know...?",
           },
         ],
@@ -503,7 +503,7 @@ export const DE_C2_U19: Lesson[] = [
         heading: "eigentlich, and intonation",
         body: [
           "\"Eigentlich\" in a question can be gentle (\"Wie heißt du eigentlich?\", by the way, what's your name?) or indignant: \"Was denkst du dir eigentlich?\" (who do you think you are? / what do you think you're doing?), \"Was soll das eigentlich?\". In indignant questions it is often combined with \"denn\": \"Was willst du denn eigentlich?\"",
-          "The order of stacked particles is fixed: \"denn\" before \"eigentlich\", \"doch\" before \"nicht etwa\" (\"Was machst du denn eigentlich hier?\", \"Du hast doch nicht etwa...?\"). Wrong order sounds clearly foreign.",
+          "The order of stacked particles is largely fixed: \"denn\" before \"eigentlich\", \"doch\" before \"nicht etwa\" (\"Was machst du denn eigentlich hier?\", \"Du hast doch nicht etwa...?\"). The reverse order sounds odd to native ears.",
           "Intonation: genuine w-questions in German usually fall at the end; yes/no questions rise. Rhetorical yes/no questions often fall like statements (\"Ist das nicht schön.\"), and indignant questions stress the key word sharply (\"Was DENKST du dir eigentlich?\").",
         ],
         examples: [
@@ -519,12 +519,12 @@ export const DE_C2_U19: Lesson[] = [
             question: "Which order of particles is correct?",
             options: ["Was machst du denn eigentlich hier?", "Was machst du eigentlich denn hier?", "Was machst du hier eigentlich denn?", "Was denn machst du eigentlich hier?"],
             correctIndex: 0,
-            explanation: "Stacked particles have a fixed order: \"denn\" before \"eigentlich\", both in the middle field after the pronoun.",
+            explanation: "Stacked particles have a set order: \"denn\" before \"eigentlich\", both in the middle field after the pronoun.",
           },
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using eigentlich.",
+            prompt: "Translate into German, using \"eigentlich\".",
             source: "By the way, what's your name? (to a young person)",
             answer: "Wie heißt du eigentlich?",
             altAnswers: ["Wie heißt du denn eigentlich?"],
@@ -545,7 +545,7 @@ export const DE_C2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using etwa.",
+        prompt: "Translate into German, using \"etwa\".",
         source: "You're not ill, are you? (to a friend)",
         answer: "Bist du etwa krank?",
         altAnswers: ["Du bist doch nicht etwa krank?", "Du bist doch nicht krank, oder?"],
@@ -627,7 +627,7 @@ export const DE_C2_U19: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Transformations: Von der Aussage zur Hypophora",
-    summary: "Turn statements into question-and-answer structures (Was bedeutet das für uns? Es bedeutet...), and judge where a hypophora adds force and where it only adds words.",
+    summary: "Turn statements into question-and-answer structures (\"Was bedeutet das für uns? Es bedeutet...\"), and judge where a hypophora adds force and where it only adds words.",
     duration: "16 min",
     sections: [
       {
@@ -710,7 +710,7 @@ export const DE_C2_U19: Lesson[] = [
         body: [
           "A hypophora works at turning points: introducing the main thesis, the key consequence or the call to action. It focuses attention on the answer and gives the audience a moment to think. It also works in writing, especially in essays and commentaries.",
           "It weakens a text when overused or when the question is trivial: \"Wie spät ist es? Es ist zehn Uhr.\" adds nothing. Three hypophoras in a row sound like a sales pitch. In an academic paper, the hypophora is rare; the formal equivalent is \"Es stellt sich die Frage, ... Die Antwort lautet...\".",
-          "A test: delete the question. If the text loses tension or structure, keep it; if nothing changes, cut it. Judges in debate competitions (\"Jugend debattiert\") call needless questions \"Scheinfragen\".",
+          "A test: delete the question. If the text loses tension or structure, keep it; if nothing changes, cut it. A needless question of this kind is a mere \"Scheinfrage\" (a sham question).",
         ],
         examples: [
           { es: "Es stellt sich die Frage, wer die Kosten trägt. Die Antwort lautet: der Bund.", en: "The question arises who bears the costs. The answer is: the federal government." },
@@ -762,7 +762,7 @@ export const DE_C2_U19: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Why are rents rising? [Because] too little is being built.",
+        en: "Why are rents rising? [It's down to the fact] that too little is being built.",
         sentence: "Woran liegt es, dass die Mieten steigen? ___, dass zu wenig gebaut wird.",
         answer: "Daran",
         explanation: "\"Woran liegt es?\" is answered with the matching correlate \"daran, dass\".",
@@ -832,7 +832,7 @@ export const DE_C2_U19: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Rhetorische Fragen und Emphase, Part 3 of 7",
-    summary: "Infinitive and verb-final questions (Was tun?, Warum also warten?, Wie soll das gehen?, Wo kämen wir denn da hin?) and Konjunktiv II in rhetorical questions (Wer hätte das gedacht?, Was wäre die Alternative?).",
+    summary: "Ask compact and loaded questions with infinitives, \"sollen\" and \"ob\" (\"Was tun?\", \"Warum also warten?\", \"Wie soll das gehen?\", \"Wo kämen wir denn da hin?\") and use Konjunktiv II in rhetorical questions (\"Wer hätte das gedacht?\", \"Was wäre die Alternative?\").",
     duration: "18 min",
     sections: [
       {
@@ -840,7 +840,7 @@ export const DE_C2_U19: Lesson[] = [
         body: [
           "German can ask a question with a bare infinitive and no subject: \"Was tun?\" (what is to be done?), \"Wohin damit?\" (where to put it?), \"Warum also warten?\" (so why wait?), \"Wozu sich aufregen?\" (why get upset?). They are compact, slightly literary and very effective in speeches and headlines.",
           "The infinitive question often implies its own answer: \"Warum also warten?\" means we shouldn't wait. \"Was tun?\" is genuinely open and introduces a solution (it is also the German title of Lenin's pamphlet). Separable and reflexive verbs stay together: \"Wozu sich aufregen?\", \"Wie anfangen?\".",
-          "Verbless questions are close relatives: \"Und jetzt?\", \"Und dann?\", \"Wozu das alles?\", \"Warum ausgerechnet jetzt?\". They work only in speech or informal writing.",
+          "Verbless questions are close relatives: \"Und jetzt?\", \"Und dann?\", \"Wozu das alles?\", \"Warum ausgerechnet jetzt?\". They are most at home in speech, headlines and informal writing.",
         ],
         examples: [
           { es: "Was tun, wenn die Heizung ausfällt?", en: "What should you do if the heating breaks down?" },
@@ -894,7 +894,7 @@ export const DE_C2_U19: Lesson[] = [
             source: "How should I know?",
             answer: "Woher soll ich das wissen?",
             altAnswers: ["Woher soll ich das denn wissen?", "Wie soll ich das wissen?", "Wie soll ich das denn wissen?"],
-            explanation: "\"Sollen\" in a w-question signals helplessness: I can't possibly know. German asks woher (from where), English how.",
+            explanation: "\"Sollen\" in a w-question signals helplessness: I can't possibly know. German asks \"woher\" (from where), English how.",
           },
           {
             type: "fill-blank",
@@ -971,7 +971,7 @@ export const DE_C2_U19: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "What [should] I have done?",
+        en: "What should I [have] done?",
         sentence: "Was ___ ich denn tun sollen?",
         answer: "hätte",
         explanation: "Double infinitive \"tun sollen\" with Konjunktiv II \"hätte\".",
@@ -1015,7 +1015,8 @@ export const DE_C2_U19: Lesson[] = [
         prompt: "Put the words in order to say: The alternative would be to analyse the data first.",
         words: ["Die Alternative", "wäre,", "zunächst", "die Daten", "auszuwerten."],
         translation: "The alternative would be to analyse the data first.",
-        explanation: "Answer the rhetorical question by actually naming an alternative; \"auswerten\" takes zu inside.",
+        altOrders: [["Die Alternative", "wäre,", "die Daten", "zunächst", "auszuwerten."]],
+        explanation: "Answer the rhetorical question by actually naming an alternative; separable \"auswerten\" takes \"zu\" inside: \"auszuwerten\".",
       },
       {
         type: "dictation",
@@ -1026,7 +1027,7 @@ export const DE_C2_U19: Lesson[] = [
         type: "speak",
         text: "Wo kämen wir denn da hin?",
         prompt: "Say it in German: Where would we end up?",
-        tip: "Stress HIN at the end; kämen has a long open ä.",
+        tip: "Stress \"hin\" at the end; \"kämen\" has a long ä.",
         explanation: "Fixed formula with Konjunktiv II \"kämen\".",
       },
     ],
@@ -1191,7 +1192,7 @@ export const DE_C2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How many questions does a German style guide recommend for a chain?",
+        question: "What is the rule of thumb for the length of a question chain?",
         options: ["About three", "At least seven", "Only one", "As many as possible"],
         correctIndex: 0,
         explanation: "Three questions give rhythm and climax; more leads to \"Überfrachtung\".",
@@ -1230,7 +1231,7 @@ export const DE_C2_U19: Lesson[] = [
         type: "speak",
         text: "Wer zahlt den Preis? Wer trägt die Folgen? Und wer übernimmt die Verantwortung?",
         prompt: "Say the three questions in German: Who pays the price? Who bears the consequences? And who takes responsibility?",
-        tip: "Raise the intensity with each question and pause slightly before the final Und.",
+        tip: "Raise the intensity with each question and pause slightly before the final \"Und\".",
         explanation: "A tricolon of questions with a climax on the last one.",
       },
     ],
@@ -1240,7 +1241,7 @@ export const DE_C2_U19: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Rhetorische Fragen und Emphase, Part 4 of 7",
-    summary: "Emphatic question structures (Ist es nicht gerade ..., das ...?, Was anderes ist das als ...?), emphatic doch and ja in answers, and the focus particles gerade, ausgerechnet and sogar.",
+    summary: "Add emphasis with cleft questions (\"Ist es nicht gerade ..., die ...?\", \"Was ist das anderes als ...?\"), answer with emphatic \"doch\" and \"ja\", and place the focus particles \"gerade\", \"ausgerechnet\" and \"sogar\".",
     duration: "18 min",
     sections: [
       {
@@ -1281,7 +1282,7 @@ export const DE_C2_U19: Lesson[] = [
         heading: "Answering with doch and ja",
         body: [
           "In speeches, a rhetorical question is often followed by the speaker's own emphatic answer with \"doch\" or \"ja\". \"Doch\" in a statement appeals to shared knowledge, sometimes with a touch of reproach: \"Das wissen wir doch alle.\" \"Ja\" signals that something is obvious or already known: \"Das ist ja das Problem.\"",
-          "Pattern: question, then answer with a particle. \"Wer will schon verlieren? Niemand will das doch!\" \"Was haben wir von dieser Reform? Wir zahlen ja jetzt schon mehr.\" Stressed \"DOCH\" contradicts: \"Wir können es DOCH schaffen\" (we can do it after all).",
+          "Pattern: question, then answer with a particle. \"Wer will schon verlieren? Niemand will das doch!\" \"Was haben wir von dieser Reform? Wir zahlen ja jetzt schon mehr.\" Stressed \"doch\" contradicts: \"Wir können es doch schaffen!\" (with the stress on \"doch\": we can do it after all).",
           "Unstressed \"doch\" and \"ja\" are among the hardest German particles to translate. Think of them as you know, after all, of course, surely; often English expresses them only through intonation.",
         ],
         examples: [
@@ -1306,12 +1307,12 @@ export const DE_C2_U19: Lesson[] = [
             question: "What does unstressed \"doch\" add in \"Das wissen wir doch alle\"?",
             options: ["An appeal to shared knowledge", "A contradiction of the previous speaker", "A question", "A doubt about the statement"],
             correctIndex: 0,
-            explanation: "Unstressed \"doch\" in a statement means you know this already, surely; stressed DOCH would contradict.",
+            explanation: "Unstressed \"doch\" in a statement means you know this already, surely; stressed \"doch\" would contradict.",
           },
           {
             type: "speak",
             text: "Das wissen wir doch alle.",
-            tip: "Keep doch unstressed and short; the stress falls on WISSEN or ALLE.",
+            tip: "Keep \"doch\" unstressed and short; the stress falls on \"wissen\" or \"alle\".",
             explanation: "Unstressed \"doch\": an appeal to what everyone knows.",
           },
         ],
@@ -1437,8 +1438,8 @@ export const DE_C2_U19: Lesson[] = [
     slug: "c2-interpellation-feigned-doubt-contrast",
     level: "DE-C2",
     number: 8,
-    title: "Contrast Clinic: Anrede, Gespielter Zweifel und Rhetorische Frage",
-    summary: "Tell apart three rhetorical moves and their effects: addressing the audience directly (Meine Damen und Herren, ...), feigned doubt (Soll ich es wirklich sagen?) and the rhetorical question.",
+    title: "Contrast Clinic: Anrede, gespielter Zweifel und rhetorische Frage",
+    summary: "Tell apart three rhetorical moves and their effects: addressing the audience directly (\"Meine Damen und Herren, ...\"), feigned doubt (\"Soll ich es wirklich sagen?\") and the rhetorical question.",
     duration: "16 min",
     sections: [
       {
@@ -1502,7 +1503,7 @@ export const DE_C2_U19: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "How should I put it [without offending] anyone?",
+            en: "How should I put it [without] offending anyone?",
             sentence: "Wie soll ich es sagen, ___ jemanden zu kränken?",
             answer: "ohne",
             explanation: "\"Ohne ... zu\" + infinitive: without doing. \"Kränken\" means to hurt someone's feelings.",
@@ -1511,7 +1512,7 @@ export const DE_C2_U19: Lesson[] = [
             type: "speak",
             text: "Soll ich es wirklich aussprechen? Nun gut: Die Verwaltung hat versagt.",
             prompt: "Say it in German: Should I really say it? Very well: the administration has failed.",
-            tip: "Pause after Nun gut; the hesitation is part of the effect.",
+            tip: "Pause after \"Nun gut\"; the hesitation is part of the effect.",
             explanation: "Feigned doubt builds tension for a bold statement.",
           },
         ],
@@ -1558,7 +1559,7 @@ export const DE_C2_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "You all know the feeling: the bus doesn't come.",
         answer: "Sie alle kennen das: Der Bus kommt nicht.",
-        altAnswers: ["Ihr alle kennt das: Der Bus kommt nicht.", "Sie kennen das alle: Der Bus kommt nicht.", "Ihr kennt das alle: Der Bus kommt nicht.", "Wir alle kennen das: Der Bus kommt nicht."],
+        altAnswers: ["Ihr alle kennt das: Der Bus kommt nicht.", "Sie kennen das alle: Der Bus kommt nicht.", "Ihr kennt das alle: Der Bus kommt nicht."],
         explanation: "Direct address with \"Sie alle\"; after the colon, a full sentence with capital letter.",
       },
       {
@@ -1601,7 +1602,7 @@ export const DE_C2_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "What should one call that? I call it irresponsibility.",
         answer: "Wie soll man das nennen? Ich nenne es Verantwortungslosigkeit.",
-        altAnswers: ["Wie soll man das nennen? Ich nenne das Verantwortungslosigkeit.", "Wie soll man das bezeichnen? Ich nenne es Verantwortungslosigkeit.", "Wie soll man das nennen? Ich nenne es verantwortungslos."],
+        altAnswers: ["Wie soll man das nennen? Ich nenne das Verantwortungslosigkeit.", "Wie soll man das bezeichnen? Ich nenne es Verantwortungslosigkeit."],
         explanation: "\"Nennen\" + two accusatives: to call something something.",
       },
       {
@@ -1618,6 +1619,7 @@ export const DE_C2_U19: Lesson[] = [
         prompt: "Put the words in order to say: The speaker uses these devices sparingly.",
         words: ["Die Rednerin", "setzt", "diese", "Mittel", "sparsam", "ein."],
         translation: "The speaker uses these devices sparingly.",
+        altOrders: [["Diese", "Mittel", "setzt", "die Rednerin", "sparsam", "ein."]],
         explanation: "\"Einsetzen\" (to use, deploy) is separable: \"setzt ... ein\".",
       },
       {

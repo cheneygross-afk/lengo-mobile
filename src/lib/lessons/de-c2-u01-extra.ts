@@ -9,7 +9,7 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Legal German, Latin Phrases and Courtroom Formulas, Part 1 of 3",
-    summary: "Use in dubio pro reo, de facto, de jure and ad hoc in German sentences, and follow the fixed formulas of a German courtroom.",
+    summary: "Use \"in dubio pro reo\", \"de facto\", \"de jure\" and \"ad hoc\" in German sentences, and follow the fixed formulas of a German courtroom.",
     duration: "15 min",
     sections: [
       {
@@ -133,11 +133,12 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: The court retires to deliberate.",
         words: ["Das", "Gericht", "zieht", "sich", "zur", "Beratung", "zurück."],
         translation: "The court retires to deliberate.",
+        altOrders: [["Zur", "Beratung", "zieht", "sich", "das", "Gericht", "zurück."]],
         explanation: "Reflexive \"sich\" right after the verb, separable prefix \"zurück\" at the end.",
       },
       {
         type: "multiple-choice",
-        question: "A newspaper writes: Die Regelung ist de facto ein Fahrverbot. What does it mean?",
+        question: "A newspaper writes: \"Die Regelung ist de facto ein Fahrverbot.\" What does it mean?",
         options: ["In practice the rule amounts to a driving ban.", "Legally the rule is a driving ban.", "The rule was an improvised driving ban.", "The rule might become a driving ban."],
         correctIndex: 0,
         explanation: "\"De facto\" = in practice, as opposed to \"de jure\" = by law.",
@@ -169,7 +170,7 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Legal German, Besagter, Jeweils and the Deontic Passive, Part 2 of 3",
-    summary: "Drill vorgenannt, besagt, Ersterer / Letzterer and jeweils, with sein / haben + zu and ist verpflichtet, ... zu in contract clauses.",
+    summary: "Refer back precisely with \"vorgenannt\", \"besagt\", \"Ersterer\" / \"Letzterer\" and \"jeweils\", and impose duties in contract clauses with \"sein\" / \"haben + zu\" and \"ist verpflichtet, ... zu\".",
     duration: "15 min",
     sections: [
       {
@@ -292,11 +293,12 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: The costs must be borne by the tenant.",
         words: ["Die", "Kosten", "sind", "vom", "Mieter", "zu", "tragen."],
         translation: "The costs must be borne by the tenant.",
+        altOrders: [["Vom", "Mieter", "sind", "die", "Kosten", "zu", "tragen."]],
         explanation: "\"Sein + zu\" can name the agent with \"von\": \"vom Mieter zu tragen\".",
       },
       {
         type: "multiple-choice",
-        question: "Herr Becker und Frau Schneider sind Zeugen. Letztere wohnt in Köln. Who lives in Cologne?",
+        question: "\"Herr Becker und Frau Schneider sind Zeugen. Letztere wohnt in Köln.\" Who lives in Cologne?",
         options: ["Frau Schneider", "Herr Becker", "Both of them", "Neither of them"],
         correctIndex: 0,
         explanation: "\"Letztere\" (feminine) points to the last named person, Frau Schneider.",
@@ -317,8 +319,8 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Der Mieter hat Schäden unverzüglich anzuzeigen.",
-        prompt: "Say it in German, with haben + zu: The tenant must report damage immediately.",
-        explanation: "\"Hat ... anzuzeigen\": the zu sits inside the separable verb.",
+        prompt: "Say it in German, with \"haben + zu\": The tenant must report damage immediately.",
+        explanation: "\"Hat ... anzuzeigen\": the \"zu\" sits inside the separable verb.",
       },
     ],
   },
@@ -328,7 +330,7 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Legal German, Contract Clauses, Part 3 of 3",
-    summary: "Recognise and complete the standard clauses of a German contract: Laufzeit, Kündigung, Haftung, Gerichtsstand and the salvatorische Klausel.",
+    summary: "Recognise and complete the standard clauses of a German contract: \"Laufzeit\", \"Kündigung\", \"Haftung\", \"Gerichtsstand\" and the \"salvatorische Klausel\".",
     duration: "15 min",
     sections: [
       {
@@ -372,7 +374,7 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The place of jurisdiction is Munich.",
         answer: "Gerichtsstand ist München.",
-        altAnswers: ["Der Gerichtsstand ist München.", "Gerichtsstand ist der Sitz in München."],
+        altAnswers: ["Der Gerichtsstand ist München.", "Als Gerichtsstand wird München vereinbart."],
         explanation: "Contracts usually drop the article: \"Gerichtsstand ist ...\".",
       },
       {
@@ -409,7 +411,7 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
         source: "Should a provision be invalid, the rest of the contract remains valid.",
         answer: "Sollte eine Bestimmung unwirksam sein, bleibt der übrige Vertrag wirksam.",
         altAnswers: ["Sollte eine Bestimmung unwirksam sein, so bleibt der übrige Vertrag wirksam.", "Sollte eine Bestimmung unwirksam sein, bleibt der Rest des Vertrages wirksam.", "Sollte eine Bestimmung unwirksam sein, bleibt der Rest des Vertrags wirksam.", "Ist eine Bestimmung unwirksam, bleibt der übrige Vertrag wirksam."],
-        explanation: "A condition without wenn: \"Sollte ... sein\", then the main clause (optionally with \"so\"). \"Unwirksam\" (invalid) is the legal term.",
+        explanation: "A condition without \"wenn\": \"Sollte ... sein\", then the main clause (optionally with \"so\"). \"Unwirksam\" (invalid) is the legal term.",
       },
       {
         type: "fill-blank",
@@ -491,7 +493,7 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Legal Collocations",
-    summary: "Practise the fixed noun-verb pairs of legal German: Klage erheben, Einspruch einlegen, eine Frist wahren or versäumen, einen Antrag stellen or ablehnen, Recht sprechen, eine Strafe verhängen.",
+    summary: "Use the fixed noun-verb pairs of legal German: \"Klage erheben\", \"Einspruch einlegen\", \"eine Frist wahren\" or \"versäumen\", \"einen Antrag stellen\" or \"ablehnen\", \"Recht sprechen\", \"eine Strafe verhängen\".",
     duration: "15 min",
     sections: [
       {
@@ -523,7 +525,6 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
             en: "The court [imposed] a fine.",
             sentence: "Das Gericht ___ eine Geldstrafe.",
             answer: "verhängte",
-            altAnswers: ["hat verhängt"],
             explanation: "\"Eine Strafe verhängen\" (impose a penalty); Präteritum \"verhängte\".",
           },
         ],
@@ -537,7 +538,7 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
         source: "The deadline was met.",
         answer: "Die Frist wurde gewahrt.",
         altAnswers: ["Die Frist wurde eingehalten.", "Die Frist ist gewahrt worden.", "Die Frist ist eingehalten worden.", "Die Frist ist gewahrt."],
-        explanation: "\"Eine Frist wahren\" or \"einhalten\" (meet a deadline). Not *treffen, a calque of English meet.",
+        explanation: "\"Eine Frist wahren\" or \"einhalten\" (meet a deadline). Not \"*treffen*\", a calque of English meet.",
       },
       {
         type: "translate",
@@ -648,7 +649,7 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Die Frist wurde gewahrt.",
-        explanation: "\"Wahren\" (to preserve, keep) with a long a, not \"waren\" (were), though they sound alike.",
+        explanation: "\"Wahren\" (to preserve, keep) is spelled with h, unlike \"waren\" (were), though they sound the same.",
       },
       {
         type: "speak",
@@ -664,14 +665,14 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Explaining an Official Letter to a Relative",
-    summary: "Turn a Bescheid from the Familienkasse into everyday spoken German for a family member: what it says, what to do and by when.",
+    summary: "Explain a \"Bescheid\" from the \"Familienkasse\" to a family member in everyday spoken German: what it says, what to do and by when.",
     duration: "15 min",
     sections: [
       {
         heading: "Recap: from Amtsdeutsch to the kitchen table",
         body: [
-          "The letter: \"Die Festsetzung des Kindergeldes für Ihr Kind Mia wird ab Oktober aufgehoben, da der Nachweis über die Fortsetzung der Ausbildung nicht vorgelegt wurde. Das für die Monate Oktober und November gezahlte Kindergeld in Höhe von 510 Euro ist zu erstatten.\"",
-          "Explained to your uncle in spoken German: \"Die Familienkasse zahlt ab Oktober kein Kindergeld mehr für Mia, weil sie keine Bescheinigung von der Uni bekommen hat. Und das Geld für Oktober und November, also 510 Euro, wollen die zurückhaben. Aber keine Panik: Wenn wir die Bescheinigung schnell schicken, geht das wahrscheinlich wieder in Ordnung.\" Spoken features: \"die\" for the authority, \"also\", \"halt\", \"keine Panik\", and short sentences.",
+          "The letter: \"Die Festsetzung des Kindergeldes für Ihr Kind Mia wird ab Oktober aufgehoben, da der Nachweis über die Fortsetzung der Ausbildung nicht vorgelegt wurde. Das für die Monate Oktober und November gezahlte Kindergeld in Höhe von 518 Euro ist zu erstatten.\"",
+          "Explained to your uncle in spoken German: \"Die Familienkasse zahlt ab Oktober kein Kindergeld mehr für Mia, weil sie keine Bescheinigung von der Uni bekommen hat. Und das Geld für Oktober und November, also 518 Euro, wollen die zurückhaben. Aber keine Panik: Wenn wir die Bescheinigung schnell schicken, geht das wahrscheinlich wieder in Ordnung.\" Spoken features: \"die\" for the authority, \"also\", \"keine Panik\", short sentences, and (in the examples) \"halt\".",
         ],
         examples: [
           { es: "Die zahlen ab Oktober kein Kindergeld mehr.", en: "They won't pay any more child benefit from October." },
@@ -692,10 +693,10 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Das gezahlte Kindergeld ist zu erstatten. What does it mean?",
+            question: "\"Das gezahlte Kindergeld ist zu erstatten.\" What does it mean?",
             options: ["The child benefit already paid must be paid back.", "The child benefit will be paid out soon.", "The child benefit has been raised.", "The child benefit can be claimed back from the tax office."],
             correctIndex: 0,
-            explanation: "\"Ist zu erstatten\": sein + zu = must be refunded.",
+            explanation: "\"Ist zu erstatten\": \"sein + zu\" = must be paid back.",
           },
         ],
       },
@@ -758,8 +759,8 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "So basically [they want] 510 euros back.",
-        sentence: "Also im Grunde ___ 510 Euro zurück.",
+        en: "So basically [they want] 518 euros back.",
+        sentence: "Also im Grunde ___ 518 Euro zurück.",
         answer: "wollen die",
         altAnswers: ["wollen sie"],
         explanation: "After \"Also im Grunde\" the verb comes next, then the subject; \"die\" is the casual way to refer to the office.",
@@ -791,14 +792,14 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
           { left: "der Nachweis", right: "die Bescheinigung" },
           { left: "nachreichen", right: "später schicken" },
         ],
-        explanation: "Explaining a Bescheid means swapping each formal phrase for an everyday one.",
+        explanation: "Explaining a \"Bescheid\" means swapping each formal phrase for an everyday one.",
       },
       {
         type: "multiple-choice",
-        question: "Your grandmother asks what Festsetzung aufgehoben means in her letter. What do you say?",
+        question: "Your grandmother asks what \"Festsetzung aufgehoben\" means in her letter. What do you say?",
         options: ["Die haben die Entscheidung zurückgenommen, die gilt nicht mehr.", "Die haben die Zahlung erhöht.", "Die haben den Termin verschoben.", "Die haben den Antrag noch nicht bearbeitet."],
         correctIndex: 0,
-        explanation: "\"Aufheben\" in a Bescheid means to revoke or cancel a decision.",
+        explanation: "\"Aufheben\" in a \"Bescheid\" means to revoke or cancel a decision.",
       },
       {
         type: "listen-choose",
@@ -827,14 +828,14 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Der Mietvertrag",
-    summary: "Read and translate the key terms of a German rental contract: Kaltmiete, Nebenkosten, Kaution, Schönheitsreparaturen, Hausordnung, Kündigungsfrist.",
+    summary: "Read and translate the key terms of a German rental contract: \"Kaltmiete\", \"Nebenkosten\", \"Kaution\", \"Schönheitsreparaturen\", \"Hausordnung\", \"Kündigungsfrist\".",
     duration: "15 min",
     sections: [
       {
         heading: "Recap: what a German rental contract says",
         body: [
           "The rent: \"die Kaltmiete\" (or \"Nettokaltmiete\": rent without heating and service charges), plus \"die Nebenkosten\" (service charges: water, rubbish, caretaker), usually paid as \"eine Vorauszahlung\" and settled once a year in \"die Nebenkostenabrechnung\". Kaltmiete + Nebenkosten + heating = \"die Warmmiete\".",
-          "\"Die Kaution\" (deposit) may be at most three months' Kaltmiete. \"Schönheitsreparaturen\" are cosmetic repairs (painting walls, doors). \"Die Hausordnung\" is the house rules (quiet hours, stairwell cleaning). \"Die Kündigungsfrist\" for tenants is by law three months.",
+          "\"Die Kaution\" (deposit) may be at most three months' \"Kaltmiete\". \"Schönheitsreparaturen\" are cosmetic repairs (painting walls, doors). \"Die Hausordnung\" is the house rules (quiet hours, stairwell cleaning). \"Die Kündigungsfrist\" for tenants is by law three months.",
         ],
         examples: [
           { es: "Die Kaltmiete beträgt 750 Euro monatlich.", en: "The basic rent is 750 euros a month." },
@@ -900,7 +901,7 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
         source: "The warm rent is 980 euros.",
         answer: "Die Warmmiete beträgt 980 Euro.",
         altAnswers: ["Die Warmmiete liegt bei 980 Euro.", "Die Warmmiete ist 980 Euro."],
-        explanation: "\"Warmmiete\" = Kaltmiete + Nebenkosten + heating: what you actually pay each month.",
+        explanation: "\"Warmmiete\" = \"Kaltmiete\" + \"Nebenkosten\" + heating: what you actually pay each month.",
       },
       {
         type: "translate",
@@ -968,10 +969,10 @@ export const DE_C2_U01_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "An advert says: 650 Euro kalt, 150 Euro Nebenkosten, Heizung inklusive. What is the warm rent?",
+        question: "An advert says: \"650 Euro kalt, 150 Euro Nebenkosten, Heizung inklusive.\" What is the warm rent?",
         options: ["800 Euro", "650 Euro", "150 Euro", "500 Euro"],
         correctIndex: 0,
-        explanation: "Kaltmiete + Nebenkosten (here including heating) = Warmmiete: 650 + 150 = 800 euros.",
+        explanation: "\"Kaltmiete\" + \"Nebenkosten\" (here including heating) = \"Warmmiete\": 650 + 150 = 800 euros.",
       },
       {
         type: "listen-choose",

@@ -8,15 +8,15 @@ export const DE_C2_U13: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Die Kunst der Debatte und Argumentation, Part 1 of 9",
-    summary: "Take a position and build an argument the German way: These, Argument, Beleg, Beispiel, Schlussfolgerung, with the formulas that open each step (Ich vertrete die Auffassung, Meines Erachtens, Es lässt sich nicht bestreiten).",
+    summary: "Take a position and build an argument the German way (\"These\", \"Argument\", \"Beleg\", \"Beispiel\", \"Schlussfolgerung\"), with the formulas that open each step, such as \"Ich vertrete die Auffassung\", \"Meines Erachtens\" and \"Es lässt sich nicht bestreiten\".",
     duration: "18 min",
     sections: [
       {
         heading: "Stating your thesis",
         body: [
-          "German argumentation is explicit about its structure: first the These (claim), then Argumente (reasons), each supported by a Beleg (evidence) or Beispiel (example), and finally a Schlussfolgerung (conclusion). In school, in the Erörterung, and on talk shows, listeners expect you to say where you stand before you justify it.",
+          "German argumentation is explicit about its structure: first the \"These\" (claim), then \"Argumente\" (reasons), each supported by a \"Beleg\" (evidence) or \"Beispiel\" (example), and finally a \"Schlussfolgerung\" (conclusion). In school, in the \"Erörterung\" (argumentative essay), and on talk shows, listeners expect you to say where you stand before you justify it.",
           "Formulas for the thesis, from neutral to formal: \"Ich bin der Meinung, dass ...\", \"Ich vertrete die Auffassung, dass ...\" (I hold the view that), \"Ich stehe auf dem Standpunkt, dass ...\", \"Meines Erachtens ...\" (in my view; abbreviated \"m. E.\"), \"Aus meiner Sicht ...\". \"Meines Erachtens\" is a genitive phrase in position 1, so the verb follows directly: \"Meines Erachtens ist das ein Fehler.\"",
-          "Trap: \"meiner Meinung nach\" has \"nach\" after the noun: \"Meiner Meinung nach ...\", never *\"Nach meiner Meinung\" in modern style (it exists, but sounds old), and never *\"In meiner Meinung\" (a calque of in my opinion).",
+          "Trap: \"meiner Meinung nach\" has \"nach\" after the noun: \"Meiner Meinung nach ...\". \"Nach meiner Meinung\" also exists but is less common; \"*In meiner Meinung\" is wrong (a calque of 'in my opinion').",
         ],
         examples: [
           { es: "Ich vertrete die Auffassung, dass ein Tempolimit überfällig ist.", en: "I hold the view that a speed limit is long overdue." },
@@ -102,7 +102,7 @@ export const DE_C2_U13: Lesson[] = [
       {
         heading: "Drawing the conclusion",
         body: [
-          "The Schlussfolgerung pulls the argument together. Formulas: \"Daraus folgt, dass ...\" (it follows that), \"Daraus lässt sich schließen, dass ...\", \"Folglich ...\", \"Insgesamt zeigt sich, dass ...\", \"Abschließend lässt sich festhalten, dass ...\", \"Alles in allem ...\".",
+          "The \"Schlussfolgerung\" pulls the argument together. Formulas: \"Daraus folgt, dass ...\" (it follows that), \"Daraus lässt sich schließen, dass ...\", \"Folglich ...\", \"Insgesamt zeigt sich, dass ...\", \"Abschließend lässt sich festhalten, dass ...\", \"Alles in allem ...\".",
           "\"Folglich\", \"somit\" and \"demnach\" are adverbs (position 1, verb next). \"Daraus folgt\" is a main clause whose subject is the dass-clause. In speech, a debate conclusion often ends with an appeal: \"Deshalb sollten wir ...\", \"Es ist an der Zeit, ...\".",
           "At the Mastery level avoid announcing a conclusion you then don't draw. \"Zusammenfassend lässt sich sagen\" must be followed by a genuinely condensed claim, not by a new argument.",
         ],
@@ -126,7 +126,7 @@ export const DE_C2_U13: Lesson[] = [
           {
             type: "speak",
             text: "Insgesamt zeigt sich, dass die Vorteile überwiegen.",
-            tip: "Überwiegen is inseparable here: stress on -WIE-.",
+            tip: "\"Überwiegen\" is inseparable here: stress on -WIE-.",
             explanation: "\"Überwiegen\" (to outweigh, predominate) is the standard verb for weighing pros and cons.",
           },
         ],
@@ -186,10 +186,11 @@ export const DE_C2_U13: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: All in all, the advantages outweigh.",
+        prompt: "Put the words in order to say: All in all, the advantages outweigh (the disadvantages).",
         words: ["Alles", "in", "allem", "überwiegen", "die", "Vorteile."],
         translation: "All in all, the advantages outweigh (the disadvantages).",
-        explanation: "\"Alles in allem\" fills position 1; the verb follows.",
+        altOrders: [["Die", "Vorteile", "überwiegen", "alles", "in", "allem."]],
+        explanation: "\"Alles in allem\" fills position 1; the verb follows. \"Überwiegen\" can stand alone: the advantages predominate.",
       },
       {
         type: "translate",
@@ -225,8 +226,8 @@ export const DE_C2_U13: Lesson[] = [
     slug: "c2-concede-then-refute-transformations",
     level: "DE-C2",
     number: 2,
-    title: "Transformations: Erst Einräumen, dann Widerlegen",
-    summary: "Turn blunt disagreement into concede-and-refute: zwar ... aber, Es mag sein, dass ..., doch, Sicherlich ..., allerdings, and Das ist richtig, greift aber zu kurz.",
+    title: "Transformations: Erst einräumen, dann widerlegen",
+    summary: "Turn blunt disagreement into concede-and-refute with \"zwar ... aber\", \"Es mag sein, dass ... doch\", \"Sicherlich ..., allerdings\" and \"Das ist richtig, greift aber zu kurz\".",
     duration: "17 min",
     sections: [
       {
@@ -247,7 +248,7 @@ export const DE_C2_U13: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, with zwar ... aber.",
+            prompt: "Translate into German, with \"zwar ... aber\".",
             source: "A speed limit doesn't solve every problem, but it saves lives.",
             answer: "Ein Tempolimit löst zwar nicht alle Probleme, aber es rettet Leben.",
             altAnswers: ["Zwar löst ein Tempolimit nicht alle Probleme, aber es rettet Leben.", "Ein Tempolimit löst zwar nicht alle Probleme, rettet aber Leben.", "Zwar löst ein Tempolimit nicht alle Probleme, doch es rettet Leben.", "Ein Tempolimit löst zwar nicht alle Probleme, es rettet aber Leben."],
@@ -264,7 +265,7 @@ export const DE_C2_U13: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, with zwar ... aber.",
+            prompt: "Translate into German, with \"zwar ... aber\".",
             source: "Working from home saves time, but it can make you lonely.",
             answer: "Homeoffice spart zwar Zeit, kann aber einsam machen.",
             altAnswers: ["Homeoffice spart zwar Zeit, aber es kann einsam machen.", "Zwar spart Homeoffice Zeit, aber es kann einsam machen.", "Das Homeoffice spart zwar Zeit, kann aber einsam machen.", "Homeoffice spart zwar Zeit, kann aber auch einsam machen."],
@@ -347,7 +348,7 @@ export const DE_C2_U13: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, with zwar ... aber.",
+        prompt: "Translate into German, with \"zwar ... aber\".",
         source: "The car may be comfortable, but it's expensive.",
         answer: "Das Auto ist zwar bequem, aber es ist teuer.",
         altAnswers: ["Das Auto ist zwar bequem, aber teuer.", "Zwar ist das Auto bequem, aber es ist teuer.", "Das Auto ist zwar bequem, doch es ist teuer.", "Zwar ist das Auto bequem, doch es ist teuer."],
@@ -360,7 +361,7 @@ export const DE_C2_U13: Lesson[] = [
         source: "Maybe, but that's not the point.",
         answer: "Mag sein, aber darum geht es nicht.",
         altAnswers: ["Mag sein, aber das ist nicht der Punkt.", "Kann sein, aber darum geht es nicht.", "Mag sein, aber das ist nicht die Frage.", "Mag sein, doch darum geht es nicht."],
-        explanation: "\"Mag sein\" concedes casually; \"darum geht es nicht\" is the idiomatic that's not the point.",
+        explanation: "\"Mag sein\" concedes casually; \"darum geht es nicht\" is the idiomatic 'that's not the point'.",
       },
       {
         type: "fill-blank",
@@ -437,15 +438,15 @@ export const DE_C2_U13: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Die Kunst der Debatte und Argumentation, Part 2 of 9",
-    summary: "Concession in depth: obwohl, wenngleich, obschon, so ... auch (So sehr ich das verstehe, ...), wie dem auch sei, ungeachtet, trotz, mag sein, and Konjunktiv II for hypothetical concessions (Selbst wenn dies zuträfe, ...).",
+    summary: "Concede in every register with \"obwohl\", \"wenngleich\", \"obschon\", \"so ... auch\", \"wie dem auch sei\", \"ungeachtet\" and \"trotz\", and use Konjunktiv II for hypothetical concessions (\"Selbst wenn dies zuträfe, ...\").",
     duration: "18 min",
     sections: [
       {
         heading: "Obwohl, wenngleich, obschon: three registers of although",
         body: [
           "German has a ladder of concessive conjunctions, all with the verb at the end. \"Obwohl\" is neutral and everywhere. \"Wenngleich\" (and \"wenn auch\") is more formal and often concedes something minor: \"Die Reform ist ein Fortschritt, wenngleich ein bescheidener.\" \"Obschon\" and \"obgleich\" are elevated, literary or very formal: you will meet them in essays and court rulings.",
-          "\"Wenn auch\" has a special elliptical use: \"Er hat bestanden, wenn auch knapp\" (he passed, if only just). This is how German expresses English if + adjective concessions: \"ein interessanter, wenn auch langer Vortrag\" (an interesting, if long, lecture).",
-          "Choose by register: obwohl in speech, wenngleich in a formal debate or essay, obschon only if you are writing in elevated style. Overusing \"obschon\" sounds affected.",
+          "\"Wenn auch\" has a special elliptical use: \"Er hat bestanden, wenn auch knapp\" (he passed, if only just). This is how German expresses English 'if' + adjective concessions: \"ein interessanter, wenn auch langer Vortrag\" (an interesting, if long, lecture).",
+          "Choose by register: \"obwohl\" in speech, \"wenngleich\" in a formal debate or essay, \"obschon\" only if you are writing in elevated style. Overusing \"obschon\" sounds affected.",
         ],
         examples: [
           { es: "Obwohl die Kosten hoch sind, halten wir an dem Projekt fest.", en: "Although the costs are high, we are sticking with the project." },
@@ -519,7 +520,7 @@ export const DE_C2_U13: Lesson[] = [
           {
             type: "speak",
             text: "Wie dem auch sei, wir müssen heute entscheiden.",
-            tip: "Pause after sei: the formula stands outside the sentence.",
+            tip: "Pause after \"sei\": the formula stands outside the sentence.",
             explanation: "\"Wie dem auch sei\" (be that as it may) is followed by a normal verb-second clause.",
           },
         ],
@@ -529,7 +530,7 @@ export const DE_C2_U13: Lesson[] = [
         body: [
           "Sometimes you don't even grant the opponent's premise; you say that even if it were true, the conclusion wouldn't follow. German uses Konjunktiv II for this: \"Selbst wenn dies zuträfe, wäre das noch kein Grund für ein Verbot.\" (Even if that were the case, it would be no reason for a ban.) \"Zuträfe\" is the Konjunktiv II of \"zutreffen\" (to be accurate).",
           "Variants: \"Auch wenn das stimmen sollte, ...\" (even if that should be true: open, less hypothetical), \"Angenommen, das wäre so: ...\" (assuming that were so), \"Selbst wenn man Ihnen folgt, ...\" (even if one follows you).",
-          "The strength of this move is that it makes a factual dispute irrelevant. It's a favourite in German talk shows and in the Goethe C2 Sprechen discussion.",
+          "The strength of this move is that it makes a factual dispute irrelevant. It's a favourite in German talk shows and in the Goethe C2 \"Sprechen\" discussion.",
         ],
         examples: [
           { es: "Selbst wenn dies zuträfe, wäre das noch kein Grund für ein Verbot.", en: "Even if that were the case, it would be no reason for a ban." },
@@ -645,7 +646,7 @@ export const DE_C2_U13: Lesson[] = [
         type: "speak",
         text: "Selbst wenn dies zuträfe, wäre das noch kein Grund für ein Verbot.",
         prompt: "Say it in German: Even if that were the case, it would be no reason for a ban.",
-        tip: "Zuträfe: stress on ZU, the ä is a long open e.",
+        tip: "\"Zuträfe\": stress on ZU, the ä is a long open e.",
         explanation: "Two Konjunktiv II forms: \"zuträfe\" (from \"zutreffen\") and \"wäre\".",
       },
     ],
@@ -655,14 +656,14 @@ export const DE_C2_U13: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Dialogue Lab: Die Erwiderung",
-    summary: "A talk show on a speed limit on the Autobahn: listen to each point, paraphrase your opponent (Wenn ich Sie richtig verstehe, ...), then refute with concession and counter-argument.",
+    summary: "In a talk show on a speed limit on the \"Autobahn\", paraphrase your opponent (\"Wenn ich Sie richtig verstehe, ...\"), then refute with concession and counter-argument.",
     duration: "18 min",
     sections: [
       {
         heading: "Round 1: safety",
         body: [
-          "A political talk show, Sunday evening. The topic: \"Tempolimit auf der Autobahn – überfällig oder überflüssig?\" Germany is one of very few countries with no general speed limit on its motorways, only a recommended speed (Richtgeschwindigkeit) of 130 km/h. You play Dr. Mia Kramer, a transport researcher in favour of a limit; your opponent is Herr Becker from a drivers' association.",
-          "A good Erwiderung (rebuttal) has three steps: paraphrase (\"Wenn ich Sie richtig verstehe, sagen Sie ...\"), concede what is true (\"Da haben Sie insofern recht, als ...\"), refute (\"Allerdings ...\"). Paraphrasing shows the audience you listened and stops the opponent from claiming he was misquoted.",
+          "A political talk show, Sunday evening. The topic: \"Tempolimit auf der Autobahn – überfällig oder überflüssig?\" Germany is one of very few countries with no general speed limit on its motorways, only a recommended speed (\"Richtgeschwindigkeit\") of 130 km/h. You play Dr. Mia Kramer, a transport researcher in favour of a limit; your opponent is Herr Becker from a drivers' association.",
+          "A good \"Erwiderung\" (rebuttal) has three steps: paraphrase (\"Wenn ich Sie richtig verstehe, sagen Sie ...\"), concede what is true (\"Da haben Sie insofern recht, als ...\"), refute (\"Allerdings ...\"). Paraphrasing shows the audience you listened and stops the opponent from claiming he was misquoted.",
         ],
         examples: [
           { es: "Becker: Die deutschen Autobahnen gehören zu den sichersten Straßen der Welt.", en: "Becker: German motorways are among the safest roads in the world." },
@@ -684,7 +685,7 @@ export const DE_C2_U13: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, with insofern ... als.",
+            prompt: "Translate into German, with \"insofern ... als\".",
             source: "You're right in so far as the figures are low.",
             answer: "Da haben Sie insofern recht, als die Zahlen niedrig sind.",
             altAnswers: ["Sie haben insofern recht, als die Zahlen niedrig sind.", "Da haben Sie insofern Recht, als die Zahlen niedrig sind.", "Insofern haben Sie recht, als die Zahlen niedrig sind."],
@@ -767,7 +768,7 @@ export const DE_C2_U13: Lesson[] = [
           {
             type: "speak",
             text: "Wo wir uns unterscheiden, ist die Frage, welchen Preis wir dafür zahlen.",
-            tip: "Stress unterscheiden on -SCHEI-.",
+            tip: "Stress \"unterscheiden\" on -SCHEI-.",
             explanation: "A wo-clause as subject (\"Wo wir uns unterscheiden, ist ...\") focuses on the point of disagreement.",
           },
         ],
@@ -867,14 +868,14 @@ export const DE_C2_U13: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Die Kunst der Debatte und Argumentation, Part 3 of 9",
-    summary: "Fallacies by their German names (Strohmann, Totschlagargument, Dammbruchargument, Ad-hominem, falsches Dilemma, Zirkelschluss, Whataboutism, Autoritätsargument) and how to name them politely in a debate.",
+    summary: "Recognise fallacies by their German names (\"Strohmann\", \"Totschlagargument\", \"Dammbruchargument\", \"Ad-hominem\", \"falsches Dilemma\", \"Zirkelschluss\", \"Whataboutism\", \"Autoritätsargument\") and name them politely in a debate.",
     duration: "18 min",
     sections: [
       {
         heading: "Strohmann, Ad-hominem, Whataboutism",
         body: [
-          "German debate culture has names for bad arguments, and calling them by name is part of educated discussion. The Strohmann-Argument (straw man) distorts the opponent's position into something easier to attack: \"Sie wollen also, dass niemand mehr Auto fährt?\" when the opponent only proposed a speed limit.",
-          "Ad-hominem (\"das Argumentum ad hominem\", usually just \"ein Ad-hominem-Argument\") attacks the person instead of the argument: \"Sie haben doch selbst ein Auto!\" Whataboutism (also German \"Whataboutism\", sometimes \"Was-ist-mit-Argument\") deflects criticism by pointing to someone else's fault: \"Und was ist mit China?\"",
+          "German debate culture has names for bad arguments, and calling them by name is part of educated discussion. The \"Strohmann-Argument\" (straw man) distorts the opponent's position into something easier to attack: \"Sie wollen also, dass niemand mehr Auto fährt?\" when the opponent only proposed a speed limit.",
+          "\"Ad-hominem\" (\"das Argumentum ad hominem\", usually just \"ein Ad-hominem-Argument\") attacks the person instead of the argument: \"Sie haben doch selbst ein Auto!\" \"Whataboutism\" (also German \"Whataboutism\", sometimes \"Was-ist-mit-Argument\") deflects criticism by pointing to someone else's fault: \"Und was ist mit China?\"",
           "To name them politely: \"Das ist jetzt aber ein Strohmann: Das habe ich nicht gesagt.\" \"Lassen wir die Person mal beiseite und bleiben wir beim Argument.\" \"Das mag sein, aber das ist Whataboutism: Es geht hier um uns.\"",
         ],
         examples: [
@@ -916,9 +917,9 @@ export const DE_C2_U13: Lesson[] = [
       {
         heading: "Totschlagargument, Dammbruchargument, falsches Dilemma",
         body: [
-          "A Totschlagargument (literally a killing argument) is a phrase meant to end discussion rather than advance it: \"Das war schon immer so\", \"Das ist doch Ideologie\", \"Denken Sie an die Arbeitsplätze!\", \"Das ist unrealistisch.\" It has no content you can test; it just labels.",
-          "The Dammbruchargument (dam-burst argument, slippery slope; also \"Argument der schiefen Ebene\") claims that a small step will inevitably lead to disaster: \"Heute ein Tempolimit, morgen ein Fahrverbot.\" The falsche Dilemma (false dilemma) offers only two options when there are more: \"Entweder wir schützen das Klima, oder wir schützen die Wirtschaft.\"",
-          "Responses: to a Totschlagargument, ask for content (\"Was genau meinen Sie mit unrealistisch?\"); to a Dammbruch, ask for the mechanism (\"Warum sollte das eine zwangsläufig zum anderen führen?\"); to a false dilemma, offer the third option (\"Das ist ein falsches Entweder-oder: Beides lässt sich verbinden.\").",
+          "A \"Totschlagargument\" (literally a killing argument) is a phrase meant to end discussion rather than advance it: \"Das war schon immer so\", \"Das ist doch Ideologie\", \"Denken Sie an die Arbeitsplätze!\", \"Das ist unrealistisch.\" It has no content you can test; it just labels.",
+          "The \"Dammbruchargument\" (dam-burst argument, slippery slope; also \"Argument der schiefen Ebene\") claims that a small step will inevitably lead to disaster: \"Heute ein Tempolimit, morgen ein Fahrverbot.\" The \"falsche Dilemma\" (false dilemma) offers only two options when there are more: \"Entweder wir schützen das Klima, oder wir schützen die Wirtschaft.\"",
+          "Responses: to a \"Totschlagargument\", ask for content (\"Was genau meinen Sie mit unrealistisch?\"); to a \"Dammbruch\", ask for the mechanism (\"Warum sollte das eine zwangsläufig zum anderen führen?\"); to a false dilemma, offer the third option (\"Das ist ein falsches Entweder-oder: Beides lässt sich verbinden.\").",
         ],
         examples: [
           { es: "Das war schon immer so.", en: "It's always been like that. (Totschlagargument)" },
@@ -959,9 +960,9 @@ export const DE_C2_U13: Lesson[] = [
       {
         heading: "Zirkelschluss and Autoritätsargument",
         body: [
-          "A Zirkelschluss (circular reasoning) assumes what it wants to prove: \"Das Gesetz ist gerecht, weil es dem Recht entspricht.\" An Autoritätsargument appeals to an authority instead of reasons, especially one outside its field: \"Ein bekannter Schauspieler hält das Medikament für gefährlich.\"",
+          "A \"Zirkelschluss\" (circular reasoning) assumes what it wants to prove: \"Das Gesetz ist gerecht, weil es dem Recht entspricht.\" An \"Autoritätsargument\" appeals to an authority instead of reasons, especially one outside its field: \"Ein bekannter Schauspieler hält das Medikament für gefährlich.\"",
           "Not every appeal to experts is a fallacy: citing the consensus of climate scientists on climate is evidence. It becomes a fallacy when the authority is irrelevant, isolated, or replaces the argument. A polite challenge: \"Bei allem Respekt vor Herrn X: Ist er auf diesem Gebiet Experte?\"",
-          "For a Zirkelschluss: \"Damit setzen Sie voraus, was Sie beweisen wollen.\" (You're presupposing what you want to prove.)",
+          "For a \"Zirkelschluss\": \"Damit setzen Sie voraus, was Sie beweisen wollen.\" (You're presupposing what you want to prove.)",
         ],
         examples: [
           { es: "Das Gesetz ist gerecht, weil es dem Recht entspricht.", en: "The law is just because it conforms to the law. (circular)" },
@@ -986,7 +987,7 @@ export const DE_C2_U13: Lesson[] = [
             question: "What is the speaker challenging?",
             options: ["Whether the cited authority is competent in this field", "Whether the speaker respects the authority", "Whether the field exists", "Whether the expert is famous"],
             correctIndex: 0,
-            explanation: "A polite response to an Autoritätsargument: question the relevance of the authority.",
+            explanation: "A polite response to an \"Autoritätsargument\": question the relevance of the authority.",
           },
         ],
       },
@@ -999,7 +1000,7 @@ export const DE_C2_U13: Lesson[] = [
         source: "What exactly do you mean by unrealistic?",
         answer: "Was genau meinen Sie mit unrealistisch?",
         altAnswers: ["Was meinen Sie genau mit unrealistisch?", "Was genau meinst du mit unrealistisch?", "Was genau verstehen Sie unter unrealistisch?", "Was genau meinen Sie mit „unrealistisch“?"],
-        explanation: "Asking for content is the best answer to a Totschlagargument.",
+        explanation: "Asking for content is the best answer to a \"Totschlagargument\".",
       },
       {
         type: "translate",
@@ -1096,15 +1097,15 @@ export const DE_C2_U13: Lesson[] = [
     slug: "c2-fallacy-error-hunt",
     level: "DE-C2",
     number: 6,
-    title: "Error Hunt: Den Fehlschluss Benennen",
+    title: "Error Hunt: Den Fehlschluss benennen",
     summary: "Ten short arguments from comment sections and politics, each with a fallacy: name it, explain it, and rewrite the argument so that it is sound.",
     duration: "18 min",
     sections: [
       {
         heading: "From the comment section",
         body: [
-          "Online comment sections (Kommentarspalten) are a goldmine of fallacies. For each comment below, identify the fallacy, then rewrite the argument soundly: keep the speaker's position if it can be defended, but give it a real reason.",
-          "Comment 1: \"Wer für ein Tempolimit ist, hat noch nie einen Porsche gefahren.\" (ad hominem plus irrelevance). Comment 2: \"Alle Experten sind gekauft, deshalb glaube ich ihnen nicht.\" (Totschlagargument: immunises against any evidence). Comment 3: \"Erst verbieten sie Plastiktüten, bald verbieten sie uns das Atmen!\" (Dammbruch).",
+          "Online comment sections (\"Kommentarspalten\") are a goldmine of fallacies. For each comment below, identify the fallacy, then rewrite the argument soundly: keep the speaker's position if it can be defended, but give it a real reason.",
+          "Comment 1: \"Wer für ein Tempolimit ist, hat noch nie einen Porsche gefahren.\" (ad hominem plus irrelevance). Comment 2: \"Alle Experten sind gekauft, deshalb glaube ich ihnen nicht.\" (\"Totschlagargument\": immunises against any evidence). Comment 3: \"Erst verbieten sie Plastiktüten, bald verbieten sie uns das Atmen!\" (\"Dammbruch\").",
           "Sound rewrites: 1: \"Ich bin gegen ein Tempolimit, weil ich glaube, dass die Unfallzahlen auf Autobahnen bereits niedrig sind.\" 2: \"Ich bezweifle die Unabhängigkeit dieser Studie, weil sie von der Industrie finanziert wurde.\" 3: \"Ich halte das Verbot für unverhältnismäßig, weil Plastiktüten nur einen kleinen Teil des Mülls ausmachen.\"",
         ],
         examples: [
@@ -1119,7 +1120,7 @@ export const DE_C2_U13: Lesson[] = [
           {
             type: "multiple-choice",
             question: "\"Alle Experten sind gekauft, deshalb glaube ich ihnen nicht.\" What is the problem?",
-            options: ["It makes the claim immune to any evidence (Totschlagargument).", "It is a correct argument.", "It is a circular argument about experts' salaries.", "It is a false dilemma."],
+            options: ["It makes the claim immune to any evidence (\"Totschlagargument\").", "It is a correct argument.", "It is a circular argument about experts' salaries.", "It is a false dilemma."],
             correctIndex: 0,
             explanation: "A blanket accusation without evidence ends discussion: any expert who disagrees is declared corrupt.",
           },
@@ -1146,8 +1147,8 @@ export const DE_C2_U13: Lesson[] = [
       {
         heading: "From politics",
         body: [
-          "Comment 4: \"Die Opposition kritisiert unsere Steuerpläne. Dabei hat sie selbst jahrelang nichts getan!\" (Whataboutism / tu quoque). Comment 5: \"Wer gegen dieses Gesetz stimmt, ist gegen die Sicherheit unserer Kinder.\" (false dilemma, moral blackmail). Comment 6: \"Wir haben recht, weil unsere Position die richtige ist.\" (Zirkelschluss).",
-          "Comment 7: \"Der Nobelpreisträger für Physik sagt, die Rentenreform sei falsch.\" (Autoritätsargument outside the field). Comment 8: \"Meine Gegnerin will also die Polizei abschaffen?\" after she proposed more training for police officers (Strohmann).",
+          "Comment 4: \"Die Opposition kritisiert unsere Steuerpläne. Dabei hat sie selbst jahrelang nichts getan!\" (\"Whataboutism\" / tu quoque). Comment 5: \"Wer gegen dieses Gesetz stimmt, ist gegen die Sicherheit unserer Kinder.\" (false dilemma, moral blackmail). Comment 6: \"Wir haben recht, weil unsere Position die richtige ist.\" (\"Zirkelschluss\").",
+          "Comment 7: \"Der Nobelpreisträger für Physik sagt, die Rentenreform sei falsch.\" (\"Autoritätsargument\" outside the field). Comment 8: \"Meine Gegnerin will also die Polizei abschaffen?\" after she proposed more training for police officers (\"Strohmann\").",
         ],
         examples: [
           { es: "Dabei hat die Opposition selbst jahrelang nichts getan!", en: "And yet the opposition itself did nothing for years!" },
@@ -1188,7 +1189,7 @@ export const DE_C2_U13: Lesson[] = [
       {
         heading: "Two hidden ones",
         body: [
-          "Comment 9: \"Seit die neue Bürgermeisterin im Amt ist, regnet es ständig. Die Frau bringt Pech.\" This is a post hoc fallacy (\"post hoc, ergo propter hoc\": after it, therefore because of it), in German also \"Fehlschluss aus zeitlicher Abfolge\" or the confusion of Korrelation and Kausalität.",
+          "Comment 9: \"Seit die neue Bürgermeisterin im Amt ist, regnet es ständig. Die Frau bringt Pech.\" This is a post hoc fallacy (\"post hoc, ergo propter hoc\": after it, therefore because of it), in German also \"Fehlschluss aus zeitlicher Abfolge\" or the confusion of \"Korrelation\" and \"Kausalität\".",
           "Comment 10: \"Millionen Menschen nutzen dieses Produkt, also kann es nicht schädlich sein.\" This is the argument from popularity (\"Argumentum ad populum\", \"Mehrheitsargument\"). Respond with: \"Dass viele etwas tun, sagt noch nichts darüber aus, ob es richtig ist.\"",
         ],
         examples: [
@@ -1211,7 +1212,7 @@ export const DE_C2_U13: Lesson[] = [
           {
             type: "speak",
             text: "Dass viele etwas tun, sagt noch nichts darüber aus, ob es richtig ist.",
-            tip: "Stress viele and richtig to mark the contrast.",
+            tip: "Stress \"viele\" and \"richtig\" to mark the contrast.",
             explanation: "A dass-clause as subject; \"aussagen über\" (to say something about) is separable.",
           },
         ],
@@ -1249,7 +1250,7 @@ export const DE_C2_U13: Lesson[] = [
         question: "\"Millionen Menschen nutzen dieses Produkt, also kann es nicht schädlich sein.\" What is wrong?",
         options: ["Popularity is taken as proof of safety.", "It confuses millions with billions.", "It attacks the producer personally.", "It is circular."],
         correctIndex: 0,
-        explanation: "The Mehrheitsargument: what many people do is not automatically right or safe.",
+        explanation: "The \"Mehrheitsargument\": what many people do is not automatically right or safe.",
       },
       {
         type: "translate",
@@ -1267,7 +1268,7 @@ export const DE_C2_U13: Lesson[] = [
         source: "We are right because our position is the correct one.",
         answer: "Wir haben recht, weil unsere Position die richtige ist.",
         altAnswers: ["Wir haben Recht, weil unsere Position die richtige ist.", "Wir haben recht, denn unsere Position ist die richtige."],
-        explanation: "A perfect Zirkelschluss: the reason restates the claim. The German is correct; the logic is not.",
+        explanation: "A perfect \"Zirkelschluss\": the reason restates the claim. The German is correct; the logic is not.",
       },
       {
         type: "word-order",
@@ -1311,7 +1312,7 @@ export const DE_C2_U13: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Die Kunst der Debatte und Argumentation, Part 4 of 9",
-    summary: "Take and hold the floor: Darf ich kurz einhaken?, Lassen Sie mich bitte ausreden, Wenn ich da kurz widersprechen darf, Um auf Ihren Punkt zurückzukommen; and what doch, ja, eben and schon do to an argument.",
+    summary: "Take and hold the floor (\"Darf ich kurz einhaken?\", \"Lassen Sie mich bitte ausreden\", \"Um auf Ihren Punkt zurückzukommen\") and use what \"doch\", \"ja\", \"eben\" and \"schon\" do to an argument.",
     duration: "18 min",
     sections: [
       {
@@ -1400,7 +1401,7 @@ export const DE_C2_U13: Lesson[] = [
           "In a debate, \"doch\" and \"ja\" used against an opponent can sound aggressive; \"schon\" sounds conciliatory. Listen to how politicians use them: \"Das ist doch absurd!\" is an attack; \"Da haben Sie schon recht\" is a concession before a \"nur\" or \"aber\".",
         ],
         examples: [
-          { es: "Das wissen wir ja alle.", en: "As we all know." },
+          { es: "Das wissen wir ja alle.", en: "We all know that, of course." },
           { es: "Das haben Sie doch selbst gesagt!", en: "You said so yourself!" },
           { es: "Eben! Genau das ist das Problem.", en: "Exactly! That's precisely the problem." },
           { es: "Da haben Sie schon recht, nur ist das nicht die ganze Wahrheit.", en: "You're right there, but that isn't the whole truth." },
@@ -1428,7 +1429,7 @@ export const DE_C2_U13: Lesson[] = [
           {
             type: "speak",
             text: "Darf ich kurz einhaken?",
-            tip: "Rising intonation at the end, a light stress on kurz.",
+            tip: "Rising intonation at the end, a light stress on \"kurz\".",
             explanation: "The polite way to take the floor in German discussions.",
           },
         ],
@@ -1456,10 +1457,10 @@ export const DE_C2_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[As we all know], resources are limited.",
+        en: "Resources are, as we all [of course] know, limited.",
         sentence: "Die Mittel sind, wie wir ___ alle wissen, begrenzt.",
         answer: "ja",
-        explanation: "\"Ja\" marks shared knowledge: as we all know.",
+        explanation: "The particle \"ja\" marks shared knowledge ('as you know', 'of course'); it sits in the middle of the clause, never in position 1.",
       },
       {
         type: "translate",
@@ -1527,15 +1528,15 @@ export const DE_C2_U13: Lesson[] = [
     slug: "c2-defuse-fallacy-dialogue-lab",
     level: "DE-C2",
     number: 8,
-    title: "Dialogue Lab: Einen Fehlschluss Live Entschärfen",
-    summary: "At a residents' meeting in Cologne about a new cycle lane, respond on the spot to a Totschlagargument and a Whataboutism without losing your composure.",
+    title: "Dialogue Lab: Einen Fehlschluss live entschärfen",
+    summary: "At a residents' meeting in Cologne about a new cycle lane, respond on the spot to a \"Totschlagargument\" and a \"Whataboutism\" without losing your composure.",
     duration: "18 min",
     sections: [
       {
         heading: "The Totschlagargument",
         body: [
-          "A Bürgerversammlung (residents' meeting) in Köln-Ehrenfeld. The city plans to turn 80 parking spaces into a protected cycle lane. You are Lena Wagner from the local cycling initiative. Herr Schulz, a shop owner, is against it.",
-          "Herr Schulz opens with a Totschlagargument: \"Das ist doch reine Ideologie!\" Don't counter with another label (\"Und Sie sind einfach rückständig!\"). Instead: stay calm, name it gently, and ask for content. \"Ideologie\" is a word, not an argument: \"Was genau ist daran ideologisch? Lassen Sie uns über die Fakten sprechen.\"",
+          "A \"Bürgerversammlung\" (residents' meeting) in Köln-Ehrenfeld. The city plans to turn 80 parking spaces into a protected cycle lane. You are Lena Wagner from the local cycling initiative. Herr Schulz, a shop owner, is against it.",
+          "Herr Schulz opens with a \"Totschlagargument\": \"Das ist doch reine Ideologie!\" Don't counter with another label (\"Und Sie sind einfach rückständig!\"). Instead: stay calm, name it gently, and ask for content. \"Ideologie\" is a word, not an argument: \"Was genau ist daran ideologisch? Lassen Sie uns über die Fakten sprechen.\"",
         ],
         examples: [
           { es: "Schulz: Das ist doch reine Ideologie!", en: "Schulz: That's pure ideology!" },
@@ -1551,7 +1552,7 @@ export const DE_C2_U13: Lesson[] = [
             question: "Herr Schulz says: \"Das ist doch reine Ideologie!\" What is the best reply?",
             options: ["Was genau ist daran ideologisch? Lassen Sie uns über die Fakten sprechen.", "Und Sie sind einfach rückständig!", "Ideologie ist doch gut.", "Dann gehe ich eben."],
             correctIndex: 0,
-            explanation: "Ask for content: a Totschlagargument collapses when it must be made concrete.",
+            explanation: "Ask for content: a \"Totschlagargument\" collapses when it must be made concrete.",
           },
           {
             type: "translate",
@@ -1580,11 +1581,11 @@ export const DE_C2_U13: Lesson[] = [
           "The best response acknowledges the other problem and brings the discussion back: \"Da haben Sie völlig recht, das ist ein Problem. Das sollten wir auch angehen. Heute geht es aber um diese Straße.\" Optionally offer a place for the other issue: \"Lassen Sie uns das gern beim nächsten Treffen auf die Tagesordnung setzen.\"",
         ],
         examples: [
-          { es: "Meier: Und was ist mit den Lkw auf der Venloer Straße?", en: "Meier: And what about the lorries on Venloer Street?" },
+          { es: "Meier: Und was ist mit den Lkw auf der Venloer Straße?", en: "Meier: And what about the lorries on Venloer Straße?" },
           { es: "Wagner: Da haben Sie völlig recht, das ist ein Problem.", en: "Wagner: You're absolutely right, that is a problem." },
           { es: "Wagner: Heute geht es aber um diese Straße.", en: "Wagner: But today we're talking about this street." },
           { es: "Wagner: Lassen Sie uns das gern beim nächsten Treffen auf die Tagesordnung setzen.", en: "Wagner: Let's put that on the agenda for the next meeting." },
-          { es: "Meier: Na gut, aber das nehme ich Sie beim Wort.", en: "Meier: All right, but I'll hold you to that." },
+          { es: "Meier: Na gut, aber da nehme ich Sie beim Wort.", en: "Meier: All right, but I'll hold you to that." },
         ],
         checkpoint: [
           {
@@ -1672,8 +1673,8 @@ export const DE_C2_U13: Lesson[] = [
         en: "All right, but [I'll hold you to that].",
         sentence: "Na gut, aber ___.",
         answer: "ich nehme Sie beim Wort",
-        altAnswers: ["da nehme ich Sie beim Wort", "das nehme ich Sie beim Wort"],
-        explanation: "\"Jemanden beim Wort nehmen\" = to take someone at their word, hold them to a promise.",
+        altAnswers: ["da nehme ich Sie beim Wort", "dann nehme ich Sie beim Wort"],
+        explanation: "\"Jemanden beim Wort nehmen\" = to take someone at their word, hold them to a promise. The person is the only accusative, so \"*das nehme ich Sie beim Wort\" is wrong.",
       },
       {
         type: "translate",
@@ -1742,7 +1743,7 @@ export const DE_C2_U13: Lesson[] = [
     level: "DE-C2",
     number: 9,
     title: "Die Kunst der Debatte und Argumentation, Part 5 of 9",
-    summary: "Degrees of agreement and disagreement, from Da bin ich ganz bei Ihnen to Das ist schlichtweg falsch, and insofern ... als for precise partial agreement.",
+    summary: "Signal exact degrees of agreement and disagreement, from \"Da bin ich ganz bei Ihnen\" to \"Das ist schlichtweg falsch\", and agree precisely in part with \"insofern ... als\".",
     duration: "18 min",
     sections: [
       {
@@ -1828,7 +1829,7 @@ export const DE_C2_U13: Lesson[] = [
         heading: "Insofern ... als: agreeing precisely",
         body: [
           "The most precise tool for partial agreement is the correlative \"insofern ... als\" (in so far as): \"Ich stimme Ihnen insofern zu, als die Kosten tatsächlich gestiegen sind.\" \"Insofern\" stands in the main clause, \"als\" starts a verb-final clause that names exactly the aspect you accept.",
-          "Its negative twin refutes precisely: \"Das trifft insofern nicht zu, als ...\" (that is not accurate in so far as ...). And there is a short form: \"insofern, als\" together: \"Das ist richtig, insofern als ...\". Don't confuse it with plain \"insofern\" (in that respect, so far): \"Insofern haben Sie recht.\"",
+          "Its negative twin refutes precisely: \"Das trifft insofern nicht zu, als ...\" (that is not accurate in so far as ...). The two words can also stand together after the main clause: \"Das ist richtig, insofern als ...\" (also written \"insofern, als\"). Don't confuse it with plain \"insofern\" (in that respect, so far): \"Insofern haben Sie recht.\"",
           "Related: \"Dem ist entgegenzuhalten, dass ...\" (against this it must be said that), a formal refutation formula with \"sein + zu\" infinitive.",
         ],
         examples: [
@@ -1842,7 +1843,7 @@ export const DE_C2_U13: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, with insofern ... als.",
+            prompt: "Translate into German, with \"insofern ... als\".",
             source: "I agree with you in so far as costs have risen.",
             answer: "Ich stimme Ihnen insofern zu, als die Kosten gestiegen sind.",
             altAnswers: ["Ich stimme Ihnen insofern zu, als die Kosten tatsächlich gestiegen sind.", "Insofern stimme ich Ihnen zu, als die Kosten gestiegen sind.", "Ich stimme dir insofern zu, als die Kosten gestiegen sind."],
@@ -2017,7 +2018,7 @@ export const DE_C2_U13: Lesson[] = [
         body: [
           "With a colleague in a team meeting: (2)-(4) are normal. \"Das sehe ich anders, weil ...\" or \"Das stimmt so nicht, die Zahlen sind von letzter Woche.\" With your boss: (1)-(3), plus Konjunktiv II and a question: \"Wäre es nicht sinnvoller, ...?\", \"Ich hätte da einen anderen Vorschlag.\"",
           "In a TV debate: (3)-(5) are expected; too much hedging looks weak. \"Da muss ich entschieden widersprechen\" is the standard strong formula. (6) is reserved for heated moments and costs sympathy.",
-          "Questions are a disguised form of disagreement and often the most effective with superiors: \"Haben wir dabei auch die Kosten bedacht?\" (Have we also considered the costs?) says I think you forgot the costs.",
+          "Questions are a disguised form of disagreement and often the most effective with superiors: \"Haben wir dabei auch die Kosten bedacht?\" (Have we also considered the costs?) says 'I think you forgot the costs'.",
         ],
         examples: [
           { es: "Das sehe ich anders, weil die Zahlen veraltet sind.", en: "I see it differently because the figures are out of date. (colleague)" },
@@ -2048,7 +2049,7 @@ export const DE_C2_U13: Lesson[] = [
       {
         heading: "How German directness is perceived",
         body: [
-          "Many English speakers find Germans blunt; many Germans find English speakers vague. In German professional culture, separating the issue from the person (Sachebene vs Beziehungsebene) is valued: \"Das ist falsch\" about a fact is not an insult, because it is about the Sache.",
+          "Many English speakers find Germans blunt; many Germans find English speakers vague. In German professional culture, separating the issue from the person (\"Sachebene\" vs \"Beziehungsebene\") is valued: \"Das ist falsch\" about a fact is not an insult, because it is about the \"Sache\".",
           "So don't over-soften in German: 'I was just wondering whether perhaps we might possibly ...' translated literally sounds unsure or even manipulative. A clear \"Ich sehe das anders\" with a reason is respected. Conversely, don't take a German colleague's \"Das stimmt nicht\" personally.",
           "Where Germans do soften: in emails, with customers, and with people they don't know. And personal criticism (\"Sie haben keine Ahnung\") is as offensive in German as in English.",
         ],
@@ -2072,7 +2073,7 @@ export const DE_C2_U13: Lesson[] = [
           {
             type: "speak",
             text: "Lassen Sie uns sachlich bleiben.",
-            tip: "Sachlich: the ch after a is the throaty ach sound.",
+            tip: "\"Sachlich\": the ch after a is the throaty ach sound.",
             explanation: "\"Sachlich\" (objective, factual) is a key value in German debate culture.",
           },
         ],
@@ -2111,7 +2112,7 @@ export const DE_C2_U13: Lesson[] = [
         question: "A German colleague says \"Das stimmt so nicht\" in a meeting about your figures. How is it most likely meant?",
         options: ["As a factual correction, not a personal attack", "As an insult", "As a joke", "As a sign that she wants to end the meeting"],
         correctIndex: 0,
-        explanation: "In German workplace culture this is a normal mid-scale correction on the Sachebene.",
+        explanation: "In German workplace culture this is a normal mid-scale correction on the \"Sachebene\" (the level of the issue).",
       },
       {
         type: "translate",
@@ -2182,5 +2183,5 @@ export const DE_C2_U13_WRITING: WriteExercise = {
     "Evidence and examples introduced with \"Wie Studien zeigen\", \"So ...\", \"Hinzu kommt, dass ...\"",
   ],
   modelAnswer: "Ich vertrete die Auffassung, dass das Wahlalter bei Bundestagswahlen auf 16 Jahre gesenkt werden sollte.\n\nZunächst zum Kommentar meines Vorredners. Er behauptet, Sechzehnjährige interessierten sich nur für TikTok. Das ist ein Pauschalurteil, das sich so nicht halten lässt: Wie Jugendstudien seit Jahren zeigen, ist das politische Interesse junger Menschen in den vergangenen zehn Jahren deutlich gestiegen. Und wer den Befürwortern unterstellt, sie wollten nur neue Wähler gewinnen, greift die Person an statt das Argument. Selbst wenn dies im Einzelfall zuträfe, wäre damit über die Sache selbst noch nichts gesagt.\n\nWas spricht nun für eine Senkung? Erstens tragen Sechzehnjährige bereits Verantwortung: Sie dürfen arbeiten, Steuern zahlen und in einigen Bundesländern längst bei Kommunal- und Landtagswahlen abstimmen. So wählen Jugendliche etwa in Brandenburg und Bremen schon seit Jahren mit sechzehn, ohne dass die Wahlergebnisse dadurch auffällig geworden wären. Zweitens betreffen viele politische Entscheidungen, etwa zur Rente oder zum Klimaschutz, gerade die junge Generation am längsten. Hinzu kommt, dass Menschen, die früh wählen, offenbar auch später häufiger zur Wahl gehen.\n\nZwar ist der Einwand berechtigt, dass manche Sechzehnjährige noch wenig politisches Wissen haben. Das gilt allerdings auch für viele Erwachsene, denen niemand das Wahlrecht abspricht. Ich stimme den Kritikern insofern zu, als politische Bildung an Schulen verbessert werden muss. Daraus folgt aber nicht, dass man Jugendliche vom Wählen ausschließen sollte, sondern vielmehr, dass beides zusammengehört.\n\nSo sehr ich die Sorge vor einer übereilten Reform verstehe, die Erfahrungen aus Ländern und Kommunen sprechen eine deutliche Sprache. Abschließend lässt sich festhalten: Eine Demokratie, die ihre Zukunft ernst nimmt, sollte auch diejenigen mitentscheiden lassen, die diese Zukunft am längsten erleben werden.",
-  explanation: "The text follows the German Erörterung pattern: thesis, refutation of the opposing comment, arguments with evidence, concession, conclusion. It names the fallacies politely (\"Pauschalurteil\", attacking \"die Person ... statt das Argument\"), uses Konjunktiv II for the hypothetical concession (\"Selbst wenn dies zuträfe, wäre ...\") and Konjunktiv I to report the opponent (\"interessierten sich\"), and limits agreement precisely with \"insofern ... als\".",
+  explanation: "The text follows the German \"Erörterung\" pattern: thesis, refutation of the opposing comment, arguments with evidence, concession, conclusion. It names the fallacies politely (\"Pauschalurteil\", attacking \"die Person ... statt das Argument\"), uses Konjunktiv II for the hypothetical concession (\"Selbst wenn dies zuträfe, wäre ...\") and Konjunktiv II as the stand-in for Konjunktiv I to report the opponent (\"interessierten sich\", because \"interessieren sich\" would look like the indicative), and limits agreement precisely with \"insofern ... als\".",
 };

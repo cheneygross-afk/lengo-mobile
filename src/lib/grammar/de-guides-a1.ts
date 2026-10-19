@@ -39,8 +39,8 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
       {
         heading: `Endings that predict the gender`,
         body: [
-          `Many endings tell you the gender with almost no exceptions. Learn these and a large share of new nouns sorts itself. Words for male people are usually masculine ("der Vater", "der Lehrer") and female people feminine ("die Mutter", "die Lehrerin"), with "-in" turning a masculine job title into a feminine one.`,
-          `Compound nouns take the gender of their last part: "die Tür" + "der Schlüssel" = "der Türschlüssel" (the door key). "Das Haus" + "die Tür" = "die Haustür" (the front door). This rule has no exceptions, and German makes compounds constantly.`,
+          `Some endings predict the gender almost without exception ("-ung", "-heit", "-keit", "-schaft", "-ion", "-tät", "-chen", "-lein"); others are strong tendencies with exceptions ("-er", "-e", "-ment", "-um": "die Butter", "der Käse", "der Moment"). Learn these and a large share of new nouns sorts itself. Words for male people are usually masculine ("der Vater", "der Lehrer") and female people feminine ("die Mutter", "die Lehrerin"), with "-in" turning a masculine job title into a feminine one.`,
+          `Compound nouns take the gender of their last part: "die Tür" + "der Schlüssel" = "der Türschlüssel" (the door key). "Das Haus" + "die Tür" = "die Haustür" (the front door). This rule has almost no exceptions (a rare one: "der Mut" but "die Demut"), and German makes compounds constantly.`,
         ],
         table: {
           headers: ["Gender", "Typical endings and groups", "Examples"],
@@ -75,7 +75,7 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Der Mädchen ist nett.",
         right: "Das Mädchen ist nett.",
-        why: `Every noun ending in "-chen" is neuter, even when it refers to a girl.`,
+        why: `Diminutives in "-chen" are always neuter, even when they refer to a girl.`,
       },
       {
         wrong: "Der Tisch ist neu. Es ist teuer.",
@@ -95,13 +95,13 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Der Zeitung ist auf dem Tisch.",
         right: "Die Zeitung ist auf dem Tisch.",
-        why: `Nouns ending in "-ung" are always feminine.`,
+        why: `Nouns formed with the suffix "-ung" are always feminine.`,
       },
     ],
     faqs: [
       {
         q: `Is there a trick for guessing the gender?`,
-        a: `The endings in the table above cover a lot. Beyond that, the honest answer is to learn every noun with its article, as one unit: not "Tisch, table" but "der Tisch". Many learners colour-code their notes (blue for der, red for die, green for das), which helps visual memory.`,
+        a: `The endings in the table above cover a lot. Beyond that, the honest answer is to learn every noun with its article, as one unit: not "Tisch, table" but "der Tisch". Many learners colour-code their notes (blue for "der", red for "die", green for "das"), which helps visual memory.`,
       },
       {
         q: `Why is "die" both feminine and plural?`,
@@ -135,7 +135,7 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
           headers: ["Pattern", "Typical nouns", "Examples"],
           rows: [
             ["-e (often with umlaut)", "many masculine nouns, one-syllable nouns", "der Tag, die Tage; der Stuhl, die Stühle"],
-            ["-(e)n", "almost all feminine nouns", "die Frau, die Frauen; die Lampe, die Lampen"],
+            ["-(e)n", "most feminine nouns", "die Frau, die Frauen; die Lampe, die Lampen"],
             ["-er (with umlaut if possible)", "many short neuter nouns", "das Kind, die Kinder; das Haus, die Häuser"],
             ["no ending (sometimes umlaut)", "masculine and neuter in -er, -el, -en; -chen, -lein", "der Lehrer, die Lehrer; der Vater, die Väter"],
             ["-s", "words ending in a vowel other than -e, loanwords", "das Auto, die Autos; das Handy, die Handys"],
@@ -251,7 +251,7 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
         heading: `"Du" or "Sie"?`,
         body: [
           `Use "Sie" with adults you do not know: in shops, offices, with your landlord, the doctor, colleagues in traditional workplaces and anyone older or senior. Use "du" with friends, family, children, and among students and young people. Many modern offices, start-ups and online communities default to "du".`,
-          `When unsure, start with "Sie". The offer to switch usually comes from the older or more senior person: "Wollen wir uns duzen?" (shall we say du?). Saying "du" to a stranger can sound rude; "Sie" to a child just sounds stiff. Your choice changes other words too: "Wie geht es dir?" vs "Wie geht es Ihnen?".`,
+          `When unsure, start with "Sie". The offer to switch usually comes from the older or more senior person: "Wollen wir uns duzen?" (shall we say "du"?). Saying "du" to a stranger can sound rude; "Sie" to a child just sounds stiff. Your choice changes other words too: "Wie geht es dir?" vs "Wie geht es Ihnen?".`,
         ],
         examples: [
           { de: "Entschuldigung, sind Sie Frau Becker?", en: "Excuse me, are you Ms Becker?" },
@@ -264,7 +264,7 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
         heading: `Where German uses "haben" and English uses be`,
         body: [
           `Several everyday feelings are expressed with "haben" in German: "Ich habe Hunger" (I'm hungry), "Ich habe Durst" (I'm thirsty), "Ich habe Angst" (I'm afraid), "Ich habe keine Zeit" (I'm busy, I don't have time). Saying "ich bin hungrig" is grammatical but sounds bookish.`,
-          `Age goes the other way: German uses "sein" like English. "Ich bin dreißig (Jahre alt)." Never "ich habe dreißig Jahre".`,
+          `Age goes the other way: German uses "sein" like English. "Ich bin dreißig (Jahre alt)." Never "*ich habe dreißig Jahre*".`,
         ],
         examples: [
           { de: "Ich habe Hunger. Hast du auch Hunger?", en: "I'm hungry. Are you hungry too?" },
@@ -283,7 +283,7 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Ihr sind sehr nett.",
         right: "Ihr seid sehr nett.",
-        why: `The informal plural "ihr" has its own form of sein: "seid".`,
+        why: `The informal plural "ihr" has its own form of "sein": "seid".`,
       },
       {
         wrong: "Ich habe dreißig Jahre.",
@@ -321,14 +321,14 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
       "German present-tense endings, the verbs whose vowel changes with du and er (fahren, fährt; sprechen, spricht), and why one tense covers I do, I am doing and even I will do.",
     level: "A1",
     intro: [
-      `The German present tense does the work of several English tenses. "Ich arbeite" means I work, I am working and, with a time word, I will work: "Ich arbeite morgen" (I'm working tomorrow). There is no German equivalent of the -ing form, so you never need "ich bin arbeiten".`,
-      `The endings are regular for almost every verb. The challenge is a group of common verbs that change their stem vowel in the du and er/sie/es forms: "ich fahre" but "du fährst", "ich spreche" but "er spricht".`,
+      `The German present tense does the work of several English tenses. "Ich arbeite" means I work, I am working and, with a time word, I will work: "Ich arbeite morgen" (I'm working tomorrow). There is no German equivalent of the -ing form: "ich arbeite" already means I am working.`,
+      `The endings are regular for almost every verb. The challenge is a group of common verbs that change their stem vowel in the "du" and "er/sie/es" forms: "ich fahre" but "du fährst", "ich spreche" but "er spricht".`,
     ],
     sections: [
       {
         heading: `The regular endings`,
         body: [
-          `Take the infinitive, remove "-en" (or "-n"), and add the ending for each person. The wir, sie and Sie forms look like the infinitive. If the stem ends in -t or -d, add an extra -e- before endings that start with a consonant: "du arbeitest", "er findet". If it ends in -s, -ß or -z, the du form only adds -t: "du heißt", "du tanzt".`,
+          `Take the infinitive, remove "-en" (or "-n"), and add the ending for each person. The "wir", "sie" and "Sie" forms look like the infinitive. If the stem ends in -t or -d, add an extra -e- before endings that start with a consonant: "du arbeitest", "er findet". If it ends in -s, -ß, -x or -z, the "du" form only adds -t: "du heißt", "du tanzt".`,
         ],
         table: {
           headers: ["Person", "Ending", "wohnen (to live)", "arbeiten (to work)"],
@@ -352,7 +352,7 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
       {
         heading: `Stem-changing verbs`,
         body: [
-          `Some strong verbs change their vowel only in the du and er/sie/es forms. The other four forms are regular. There are three main patterns: a becomes ä, e becomes i, and e becomes ie. Dictionaries mark these verbs, and you should learn the er form with the infinitive: "fahren, er fährt".`,
+          `Some strong verbs change their vowel only in the "du" and "er/sie/es" forms. The other four forms are regular. There are three main patterns: a becomes ä, e becomes i, and e becomes ie. Dictionaries mark these verbs, and you should learn the "er" form with the infinitive: "fahren, er fährt".`,
           `"Nehmen" also changes its consonants: "du nimmst, er nimmt". "Werden" is irregular in the same two forms: "du wirst, er wird". "Wissen" (to know a fact) is irregular in all the singular: "ich weiß, du weißt, er weiß".`,
         ],
         table: {
@@ -394,22 +394,22 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Ich bin arbeiten.",
         right: "Ich arbeite.",
-        why: `There is no continuous form. The simple present means I'm working.`,
+        why: `There is no continuous tense: the simple present means I'm working. ("Ich bin arbeiten" exists in casual speech, but it means I'm out at work, away from here.)`,
       },
       {
         wrong: "Er fahrt nach Berlin.",
         right: "Er fährt nach Berlin.",
-        why: `"Fahren" is a stem-changing verb: a becomes ä in the du and er forms.`,
+        why: `"Fahren" is a stem-changing verb: a becomes ä in the "du" and "er" forms.`,
       },
       {
         wrong: "Ich spreche Deutsch und er sprecht Englisch.",
         right: "Ich spreche Deutsch und er spricht Englisch.",
-        why: `"Sprechen" changes e to i in the du and er forms only.`,
+        why: `"Sprechen" changes e to i in the "du" and "er" forms only.`,
       },
       {
         wrong: "Wir fährt zusammen.",
         right: "Wir fahren zusammen.",
-        why: `The vowel change only happens in du and er/sie/es. Wir, ihr and sie are regular.`,
+        why: `The vowel change only happens with "du" and "er/sie/es". "Wir", "ihr" and "sie" are regular.`,
       },
       {
         wrong: "Du arbeitst zu viel.",
@@ -425,7 +425,7 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
     faqs: [
       {
         q: `How do I know if a verb changes its stem?`,
-        a: `You cannot tell from the infinitive alone. Learn the er form of every strong verb as you meet it: "lesen, er liest". There are only about thirty common ones, and you will meet them constantly.`,
+        a: `You cannot tell from the infinitive alone. Learn the "er" form of every strong verb as you meet it: "lesen, er liest". There are only about thirty common ones, and you will meet them constantly.`,
       },
       {
         q: `How do I talk about the future?`,
@@ -493,7 +493,7 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
           ],
         },
         examples: [
-          { de: "Ich habe Hunger, und dann esse ich.", en: "I'm hungry, and then I eat." },
+          { de: "Ich koche, und dann essen wir.", en: "I'll cook, and then we'll eat." },
           { de: "Sie kommt nicht, denn sie ist krank.", en: "She isn't coming, because she's ill." },
           { de: "Es regnet, aber wir gehen trotzdem spazieren.", en: "It's raining, but we're going for a walk anyway." },
           { de: "Ja, das stimmt.", en: "Yes, that's right." },
@@ -807,7 +807,7 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
         heading: `"Nicht" and where it goes`,
         body: [
           `Use "nicht" for everything else: verbs, adjectives, adverbs, nouns with "der", "die", "das" or a possessive, and names. "Das ist nicht mein Auto." "Ich kenne den Mann nicht."`,
-          `To negate the whole sentence, "nicht" goes near the end: after the subject, the conjugated verb, the objects and time expressions, but before adjectives after sein, places, and the second verb part. "Ich arbeite heute nicht." "Ich bin nicht müde." "Ich fahre nicht nach Berlin." "Ich kann heute nicht kommen."`,
+          `To negate the whole sentence, "nicht" goes near the end: after the subject, the conjugated verb, the objects and time expressions, but before adjectives after "sein", places, and the second verb part. "Ich arbeite heute nicht." "Ich bin nicht müde." "Ich fahre nicht nach Berlin." "Ich kann heute nicht kommen."`,
           `To negate only one element, put "nicht" right before it, often followed by "sondern" (but rather): "Ich fahre nicht heute, sondern morgen."`,
         ],
         table: {
@@ -952,7 +952,7 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
         body: [
           `"Können" is ability and possibility (can). "Müssen" is necessity (must, have to). "Wollen" is a firm wish or plan (want to). "Dürfen" is permission (may, be allowed to). "Sollen" is an obligation from someone else, an instruction or advice (should, be supposed to). "Mögen" alone means to like: "Ich mag Katzen". "Möchte" is the polite way to say what you want.`,
           `In the negative, "müssen" and "dürfen" separate. "Du musst nicht kommen" means you don't have to come (it's optional). "Du darfst nicht kommen" means you must not come (it's forbidden). English must not is "nicht dürfen".`,
-          `"Ich will" is always want. The future is formed with "werden": "Ich werde kommen" (I will come).`,
+          `"Ich will" means I want, never I will. The future is formed with "werden": "Ich werde kommen" (I will come).`,
         ],
         examples: [
           { de: "Du musst nicht warten.", en: "You don't have to wait." },
@@ -1047,7 +1047,7 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
         heading: `Which prefixes separate`,
         body: [
           `Prefixes that are also words on their own usually separate: "an", "auf", "aus", "ein", "mit", "nach", "vor", "zu", "zurück", "weg", "fern", "los". These are stressed.`,
-          `Some prefixes never separate, and are never stressed: "be-", "ver-", "er-", "ent-", "emp-", "ge-", "miss-" and "zer-". "Ich bezahle", "ich verstehe", "ich bekomme". These verbs stay in one piece in every form.`,
+          `Some prefixes never separate and are normally unstressed: "be-", "ver-", "er-", "ent-", "emp-", "ge-", "miss-" and "zer-". "Ich bezahle", "ich verstehe", "ich bekomme". These verbs stay in one piece in every form.`,
         ],
         table: {
           headers: ["Separable (stressed prefix)", "Inseparable (unstressed prefix)"],
@@ -1125,7 +1125,7 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
       {
         heading: `The possessive stems`,
         body: [
-          `Choose the stem by the owner, then add the ending for the noun's gender and case. "Euer" drops its second e when it takes an ending: "eure Kinder", not "euere".`,
+          `Choose the stem by the owner, then add the ending for the noun's gender and case. "Euer" normally drops its second e when it takes an ending: "eure Kinder" ("euere" exists but is rare).`,
         ],
         table: {
           headers: ["Owner", "Stem", "Masc.", "Fem.", "Neut.", "Plural"],
@@ -1193,12 +1193,12 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Das ist Anna's Auto.",
         right: "Das ist Annas Auto.",
-        why: `German writes the possessive -s without an apostrophe.`,
+        why: `Standard German writes the possessive -s without an apostrophe. "Anna's" is tolerated, especially on shop signs, but "Annas" is the normal spelling.`,
       },
       {
         wrong: "Wo sind euere Taschen?",
         right: "Wo sind eure Taschen?",
-        why: `"Euer" drops its second e when an ending is added.`,
+        why: `"Euer" normally drops its second e when an ending is added; "euere" is rare and looks old-fashioned.`,
       },
     ],
     faqs: [
@@ -1263,10 +1263,10 @@ export const DE_A1_GUIDES: DeGrammarGuide[] = [
             ["3:00", "drei Uhr", "drei Uhr / fünfzehn Uhr"],
             ["3:10", "zehn nach drei", "drei Uhr zehn"],
             ["3:15", "Viertel nach drei", "drei Uhr fünfzehn"],
-            ["3:30", "halb vier", "drei Uhr dreißig"],
-            ["3:45", "Viertel vor vier", "fünfzehn Uhr fünfundvierzig"],
-            ["3:50", "zehn vor vier", "drei Uhr fünfzig"],
             ["3:25", "fünf vor halb vier", "drei Uhr fünfundzwanzig"],
+            ["3:30", "halb vier", "drei Uhr dreißig"],
+            ["3:45", "Viertel vor vier", "drei Uhr fünfundvierzig / fünfzehn Uhr fünfundvierzig"],
+            ["3:50", "zehn vor vier", "drei Uhr fünfzig"],
           ],
         },
         examples: [

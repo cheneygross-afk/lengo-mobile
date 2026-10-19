@@ -4,13 +4,13 @@ import type { Lesson, WriteExercise } from "./types";
 
 export const DE_C1_U19_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Your regional newspaper has published an article arguing that the city should close its public library because everything is online now. Write a letter to the editor (Leserbrief). Refer to the article and report its main claims in indirect speech, concede one point, argue against the closure with evidence and hedged claims, imagine the consequences of a closure in the Konjunktiv II, suggest an alternative and close formally.",
+  prompt: "Your regional newspaper has published an article arguing that the city should close its public library because everything is online now. Write a letter to the editor (\"Leserbrief\"). Refer to the article and report its main claims in indirect speech, concede one point, argue against the closure with evidence and hedged claims, imagine the consequences of a closure in the Konjunktiv II, suggest an alternative and close formally.",
   minWords: 180,
   maxWords: 300,
   rubric: [
     "Reports the article's claims in the Konjunktiv I (\"Der Autor vertritt die Auffassung, Bibliotheken seien ...\").",
     "Concedes and then counters (\"Zwar ist nicht zu bestreiten, dass ...\", \"... greift jedoch zu kurz\") and hedges at least one claim (\"dürfte\", \"vermutlich\").",
-    "Uses an unreal condition in the Konjunktiv II, ideally without wenn (\"Würde die Bibliothek geschlossen, träfe dies ...\") and at least one passive or nominal construction.",
+    "Uses an unreal condition in the Konjunktiv II, ideally without \"wenn\" (\"Würde die Bibliothek geschlossen, träfe dies ...\") and at least one passive or nominal construction.",
     "Has a correct formal frame: subject line, \"Sehr geehrte Damen und Herren,\" with a lowercase continuation, and \"Mit freundlichen Grüßen\".",
   ],
   modelAnswer: "Ihr Artikel „Brauchen wir noch Stadtbibliotheken?“ vom 12. Oktober 2026\n\nSehr geehrte Damen und Herren,\n\nmit großem Interesse, aber auch mit einiger Verwunderung habe ich den oben genannten Artikel gelesen. Der Autor vertritt darin die Auffassung, Bibliotheken seien im digitalen Zeitalter überflüssig, da heute nahezu alle Informationen online verfügbar seien. Die Stadt könne durch eine Schließung jährlich rund zwei Millionen Euro einsparen.\n\nZwar ist nicht zu bestreiten, dass sich das Leseverhalten stark verändert hat. Daraus jedoch zu schließen, Bibliotheken würden nicht mehr gebraucht, greift meines Erachtens zu kurz. Allein im vergangenen Jahr wurde unsere Stadtbibliothek von über 200.000 Menschen besucht, darunter zahlreiche Schülerinnen und Schüler, die zu Hause weder einen ruhigen Arbeitsplatz noch einen eigenen Computer haben. Für viele ältere Menschen dürfte die Bibliothek zudem einer der wenigen Orte sein, an denen sie kostenlos Hilfe im Umgang mit digitalen Medien erhalten.\n\nWürde die Bibliothek tatsächlich geschlossen, träfe dies also gerade diejenigen, die ohnehin benachteiligt sind. Die vermeintliche Einsparung hätte somit einen hohen gesellschaftlichen Preis.\n\nStatt über eine Schließung nachzudenken, sollte die Stadt vielmehr in die Modernisierung der Bibliothek investieren. Ich würde mich freuen, wenn Ihre Zeitung auch diese Perspektive berücksichtigen könnte.\n\nMit freundlichen Grüßen\n\nJonas Weber, Kassel",
@@ -23,7 +23,7 @@ export const DE_C1_U19: Lesson[] = [
     level: "DE-C1",
     number: 1,
     title: "Advanced Challenge: The Big Error Hunt",
-    summary: "A long report by a learner, Emma, full of Advanced slips: cases after prepositions, fixed prepositions, the Konjunktiv, word order, adjective endings and register. Find them and fix them.",
+    summary: "Find and fix the advanced slips in a long report by a learner, Emma: cases after prepositions, fixed prepositions, the Konjunktiv, word order, adjective endings and register.",
     duration: "20 min",
     sections: [
       {
@@ -45,7 +45,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Emma wrote: Ich interessiere mich schon lange an der deutschen Kultur. Write the corrected German for: I've been interested in German culture for a long time.",
+            prompt: "Emma wrote: \"*Ich interessiere mich schon lange an der deutschen Kultur.\" Write the corrected German for: I've been interested in German culture for a long time.",
             source: "I've been interested in German culture for a long time.",
             answer: "Ich interessiere mich schon lange für die deutsche Kultur.",
             altAnswers: ["Ich interessiere mich seit langem für die deutsche Kultur.", "Ich interessiere mich seit Langem für die deutsche Kultur.", "Schon lange interessiere ich mich für die deutsche Kultur."],
@@ -53,16 +53,16 @@ export const DE_C1_U19: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Emma wrote: ich bin sehr stolz für unser erstes Projekt. Write the German for the bold words.",
+            prompt: "Emma wrote: \"*ich bin sehr stolz für unser erstes Projekt.\" Write the German for the bold words.",
             en: "I'm very [proud of] our first project.",
             sentence: "Ich bin sehr ___ unser erstes Projekt.",
             answer: "stolz auf",
-            explanation: "\"Stolz auf\" + accusative. \"Für\" is a calque of English for.",
+            explanation: "\"Stolz auf\" + accusative. \"Für\" is a calque of English 'for'.",
           },
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Emma wrote: Trotz dem schlechten Wetter bin ich nach Leipzig gezogen. Write the correct written German for: Despite the bad weather I moved to Leipzig.",
+            prompt: "Emma wrote: \"*Trotz dem schlechten Wetter bin ich nach Leipzig gezogen.\" Write the correct written German for: Despite the bad weather I moved to Leipzig.",
             source: "Despite the bad weather I moved to Leipzig.",
             answer: "Trotz des schlechten Wetters bin ich nach Leipzig gezogen.",
             altAnswers: ["Trotz des schlechten Wetters zog ich nach Leipzig.", "Ich bin trotz des schlechten Wetters nach Leipzig gezogen."],
@@ -88,7 +88,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Emma wrote: Hätte ich das früher gewusst, ich hätte mich anders vorbereitet. Write the corrected German for: Had I known that earlier, I would have prepared differently.",
+            prompt: "Emma wrote: \"*Hätte ich das früher gewusst, ich hätte mich anders vorbereitet.\" Write the corrected German for: Had I known that earlier, I would have prepared differently.",
             source: "Had I known that earlier, I would have prepared differently.",
             answer: "Hätte ich das früher gewusst, hätte ich mich anders vorbereitet.",
             altAnswers: ["Wenn ich das früher gewusst hätte, hätte ich mich anders vorbereitet.", "Hätte ich das früher gewusst, so hätte ich mich anders vorbereitet.", "Hätte ich das eher gewusst, hätte ich mich anders vorbereitet."],
@@ -97,7 +97,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Emma wrote: Manchmal tut er so, als ob er alles allein machen kann. Write the corrected German for: Sometimes he acts as if he could do everything on his own.",
+            prompt: "Emma wrote: \"*Manchmal tut er so, als ob er alles allein machen kann.\" Write the corrected German for: Sometimes he acts as if he could do everything on his own.",
             source: "Sometimes he acts as if he could do everything on his own.",
             answer: "Manchmal tut er so, als ob er alles allein machen könnte.",
             altAnswers: ["Manchmal tut er so, als könnte er alles allein machen.", "Manchmal tut er so, als ob er alles alleine machen könnte.", "Manchmal tut er so, als könnte er alles alleine machen.", "Manchmal tut er so, als wenn er alles allein machen könnte."],
@@ -123,7 +123,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Emma wrote: Die neue Kollegen haben mir ein interessanter Buch geschenkt. Write the corrected German for: My new colleagues gave me an interesting book.",
+            prompt: "Emma wrote: \"*Die neue Kollegen haben mir ein interessanter Buch geschenkt.\" Write the corrected German for: My new colleagues gave me an interesting book.",
             source: "My new colleagues gave me an interesting book.",
             answer: "Meine neuen Kollegen haben mir ein interessantes Buch geschenkt.",
             altAnswers: ["Die neuen Kollegen haben mir ein interessantes Buch geschenkt.", "Meine neuen Kollegen schenkten mir ein interessantes Buch.", "Meine neuen Kolleginnen und Kollegen haben mir ein interessantes Buch geschenkt.", "Meine neuen Kolleginnen haben mir ein interessantes Buch geschenkt."],
@@ -143,7 +143,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Emma wrote: Mit meinen neuen Kollegin habe ich gut zusammengearbeitet. Write the corrected German for: I worked well with my new colleague.",
+        prompt: "Emma wrote: \"*Mit meinen neuen Kollegin habe ich gut zusammengearbeitet.\" Write the corrected German for: I worked well with my new colleague.",
         source: "I worked well with my new colleague.",
         answer: "Mit meiner neuen Kollegin habe ich gut zusammengearbeitet.",
         altAnswers: ["Ich habe mit meiner neuen Kollegin gut zusammengearbeitet.", "Mit meinem neuen Kollegen habe ich gut zusammengearbeitet.", "Ich habe mit meinem neuen Kollegen gut zusammengearbeitet.", "Mit meiner neuen Kollegin arbeitete ich gut zusammen."],
@@ -152,16 +152,16 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Emma wrote: Mein Chef sagte, er ist sehr zufrieden mit mir. Write the correct written German for: My boss said he was very satisfied with me.",
+        prompt: "Emma wrote: \"*Mein Chef sagte, er ist sehr zufrieden mit mir.\" Write the correct written German for: My boss said he was very satisfied with me.",
         source: "My boss said he was very satisfied with me.",
         answer: "Mein Chef sagte, er sei sehr zufrieden mit mir.",
         altAnswers: ["Mein Chef sagte, dass er sehr zufrieden mit mir sei.", "Mein Chef sagte, er sei mit mir sehr zufrieden.", "Mein Chef hat gesagt, er sei sehr zufrieden mit mir.", "Meine Chefin sagte, sie sei sehr zufrieden mit mir."],
-        explanation: "Written reported speech: Konjunktiv I \"sei\". English backshifts to was; German doesn't.",
+        explanation: "Written reported speech: Konjunktiv I \"sei\". English backshifts to 'was'; German doesn't.",
       },
       {
         type: "fill-blank",
-        prompt: "Emma wrote: Deshalb ich habe mehr Verantwortung bekommen. Write the German for the bold words.",
-        en: "[That's why I was given] more responsibility.",
+        prompt: "Emma wrote: \"*Deshalb ich habe mehr Verantwortung bekommen.\" Write the German for the bold words.",
+        en: "[That's why I was] given more responsibility.",
         sentence: "___ mehr Verantwortung bekommen.",
         answer: "Deshalb habe ich",
         altAnswers: ["Daher habe ich", "Deswegen habe ich"],
@@ -186,7 +186,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Emma wrote: Das hat mich mit großem Freude erfüllt. Write the corrected German for: That filled me with great joy.",
+        prompt: "Emma wrote: \"*Das hat mich mit großem Freude erfüllt.\" Write the corrected German for: That filled me with great joy.",
         source: "That filled me with great joy.",
         answer: "Das hat mich mit großer Freude erfüllt.",
         altAnswers: ["Das erfüllte mich mit großer Freude.", "Dies hat mich mit großer Freude erfüllt."],
@@ -230,7 +230,7 @@ export const DE_C1_U19: Lesson[] = [
         type: "speak",
         text: "Trotz des schlechten Wetters bin ich im Januar nach Leipzig gezogen.",
         prompt: "Say it in German: Despite the bad weather I moved to Leipzig in January.",
-        tip: "Wetters: the genitive -s is short but audible.",
+        tip: "\"Wetters\": the genitive -s is short but audible.",
         explanation: "\"Trotz\" + genitive in standard written German.",
       },
     ],
@@ -240,7 +240,7 @@ export const DE_C1_U19: Lesson[] = [
     level: "DE-C1",
     number: 2,
     title: "Advanced Challenge: Register Marathon",
-    summary: "The same messages in formal, neutral and colloquial German, with du and Sie: cancelling a meeting, asking for a favour, complaining and apologising.",
+    summary: "Say the same thing in formal, neutral and colloquial German, with \"du\" and \"Sie\": cancel a meeting, ask a favour, complain and apologise.",
     duration: "18 min",
     sections: [
       {
@@ -248,7 +248,7 @@ export const DE_C1_U19: Lesson[] = [
         body: [
           "You can't make Thursday's meeting. Formal, to an external partner: \"Leider muss ich den Termin am Donnerstag absagen, da mir kurzfristig eine dringende Verpflichtung dazwischengekommen ist. Wäre es möglich, einen neuen Termin zu vereinbaren?\"",
           "Neutral, to a colleague on Sie: \"Ich schaffe es am Donnerstag leider nicht. Können wir das Treffen verschieben?\" Colloquial, to a friend: \"Du, Donnerstag klappt bei mir doch nicht, mir ist was dazwischengekommen. Können wir's verschieben?\"",
-          "What changes: the verb (\"absagen\" vs \"nicht schaffen\" vs \"nicht klappen\"), the reason (\"eine dringende Verpflichtung\" vs \"was\"), the request (Konjunktiv II \"Wäre es möglich\" vs direct \"Können wir\"), pronouns (Sie vs du) and spoken forms (\"was\" for etwas, \"können wir's\").",
+          "What changes: the verb (\"absagen\" vs \"nicht schaffen\" vs \"nicht klappen\"), the reason (\"eine dringende Verpflichtung\" vs \"was\"), the request (Konjunktiv II \"Wäre es möglich\" vs direct \"Können wir\"), pronouns (\"Sie\" vs \"du\") and spoken forms (\"was\" for \"etwas\", \"können wir's\").",
         ],
         examples: [
           { es: "Leider muss ich den Termin am Donnerstag absagen.", en: "Unfortunately I have to cancel Thursday's appointment. (formal)" },
@@ -275,7 +275,7 @@ export const DE_C1_U19: Lesson[] = [
             source: "Thursday won't work for me after all, something's come up.",
             answer: "Donnerstag klappt bei mir doch nicht, mir ist was dazwischengekommen.",
             altAnswers: ["Donnerstag klappt bei mir doch nicht, mir ist etwas dazwischengekommen.", "Am Donnerstag klappt es bei mir doch nicht, mir ist was dazwischengekommen.", "Donnerstag passt mir doch nicht, mir ist was dazwischengekommen.", "Donnerstag geht bei mir doch nicht, mir ist was dazwischengekommen."],
-            explanation: "\"Klappen\" is the colloquial work out; \"doch\" here means after all; \"was\" = etwas in speech.",
+            explanation: "\"Klappen\" is the colloquial 'work out'; \"doch\" here means 'after all'; \"was\" = \"etwas\" in speech.",
           },
         ],
       },
@@ -283,8 +283,8 @@ export const DE_C1_U19: Lesson[] = [
         heading: "Round 2: asking for a favour",
         body: [
           "You need someone to check a text. Formal, to a professor: \"Ich wäre Ihnen sehr dankbar, wenn Sie einen Blick auf meinen Entwurf werfen könnten.\" Neutral, to a colleague on Sie: \"Könnten Sie sich meinen Entwurf kurz anschauen?\" Colloquial, to a friend: \"Kannst du mal kurz über meinen Text drüberschauen?\"",
-          "The modal particle \"mal\" (Unit 11) softens a request in everyday speech but is too casual in formal writing. \"Drüberschauen\" (= darüber schauen) and \"kurz\" are typical of spoken requests.",
-          "Du ↔ Sie changes more than the pronoun: verb endings (\"kannst du\" / \"können Sie\"), possessives (\"dein\" / \"Ihr\"), imperatives (\"Schau mal\" / \"Schauen Sie bitte\"), and reflexives (\"dich\" / \"sich\").",
+          "The modal particle \"mal\" (Unit 11) softens a request in everyday speech but is too casual in formal writing. \"Drüberschauen\" (= \"darüberschauen\") and \"kurz\" are typical of spoken requests.",
+          "\"Du\" ↔ \"Sie\" changes more than the pronoun: verb endings (\"kannst du\" / \"können Sie\"), possessives (\"dein\" / \"Ihr\"), imperatives (\"Schau mal\" / \"Schauen Sie bitte\"), and reflexives (\"dich\" / \"sich\").",
         ],
         examples: [
           { es: "Ich wäre Ihnen sehr dankbar, wenn Sie einen Blick auf meinen Entwurf werfen könnten.", en: "I would be very grateful if you could take a look at my draft. (formal)" },
@@ -306,11 +306,11 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Change du to Sie: Schau dir das mal an! Translate into German (polite): Please have a look at this.",
+            prompt: "Change \"du\" to \"Sie\": \"Schau dir das mal an!\" Translate into German (polite): Please have a look at this.",
             source: "Please have a look at this.",
             answer: "Schauen Sie sich das bitte an.",
             altAnswers: ["Bitte schauen Sie sich das an.", "Sehen Sie sich das bitte an.", "Bitte sehen Sie sich das an."],
-            explanation: "The Sie imperative keeps the pronoun (\"Schauen Sie\") and the reflexive becomes \"sich\"; \"mal\" is replaced by \"bitte\".",
+            explanation: "The \"Sie\" imperative keeps the pronoun (\"Schauen Sie\") and the reflexive becomes \"sich\"; \"mal\" is replaced by \"bitte\".",
           },
         ],
       },
@@ -319,7 +319,7 @@ export const DE_C1_U19: Lesson[] = [
         body: [
           "A complaint about noise. Formal letter to the landlord: \"Seit mehreren Wochen kommt es in den Nachtstunden zu erheblicher Lärmbelästigung aus der Wohnung über mir.\" Neutral, to the neighbour: \"Entschuldigen Sie, es ist abends in letzter Zeit ziemlich laut bei Ihnen.\" Colloquial, to a friend: \"Die über mir machen jede Nacht voll den Lärm, ich kann echt nicht mehr pennen.\"",
           "Apologising. Formal: \"Bitte entschuldigen Sie die entstandenen Unannehmlichkeiten.\" Neutral: \"Das tut mir leid, das wird nicht wieder vorkommen.\" Colloquial: \"Sorry, war echt keine Absicht!\"",
-          "Formal German prefers nouns (\"Lärmbelästigung\", \"Unannehmlichkeiten\") and impersonal constructions (\"es kommt zu ...\"); colloquial German prefers verbs, pronouns like \"die\" (Die über mir), intensifiers (\"voll\", \"echt\") and dropped subjects (\"war keine Absicht\").",
+          "Formal German prefers nouns (\"Lärmbelästigung\", \"Unannehmlichkeiten\") and impersonal constructions (\"es kommt zu ...\"); colloquial German prefers verbs, pronouns like \"die\" (\"Die über mir\"), intensifiers (\"voll\", \"echt\") and dropped subjects (\"war keine Absicht\").",
         ],
         examples: [
           { es: "Seit mehreren Wochen kommt es nachts zu erheblicher Lärmbelästigung.", en: "For several weeks there has been considerable noise disturbance at night. (formal)" },
@@ -332,7 +332,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into neutral German (to a neighbour, on Sie).",
+            prompt: "Translate into neutral German (to a neighbour, on \"Sie\").",
             source: "I'm sorry, it won't happen again.",
             answer: "Das tut mir leid, das wird nicht wieder vorkommen.",
             altAnswers: ["Das tut mir leid, es wird nicht wieder vorkommen.", "Entschuldigung, das wird nicht wieder vorkommen.", "Tut mir leid, das wird nicht wieder vorkommen.", "Das tut mir leid, das kommt nicht wieder vor."],
@@ -353,7 +353,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into neutral German (to a colleague on Sie).",
+        prompt: "Translate into neutral German (to a colleague on \"Sie\").",
         source: "Unfortunately I can't make it on Thursday. Can we move the meeting?",
         answer: "Ich schaffe es am Donnerstag leider nicht. Können wir das Treffen verschieben?",
         altAnswers: ["Am Donnerstag schaffe ich es leider nicht. Können wir das Treffen verschieben?", "Ich schaffe es am Donnerstag leider nicht. Können wir die Besprechung verschieben?", "Ich schaffe es leider nicht am Donnerstag. Können wir das Treffen verschieben?", "Ich schaffe es am Donnerstag leider nicht. Könnten wir das Treffen verschieben?"],
@@ -375,7 +375,7 @@ export const DE_C1_U19: Lesson[] = [
         source: "For several weeks there has been considerable noise disturbance at night.",
         answer: "Seit mehreren Wochen kommt es nachts zu erheblicher Lärmbelästigung.",
         altAnswers: ["Seit mehreren Wochen kommt es in den Nachtstunden zu erheblicher Lärmbelästigung.", "Seit einigen Wochen kommt es nachts zu erheblicher Lärmbelästigung.", "Seit mehreren Wochen kommt es nachts zu einer erheblichen Lärmbelästigung."],
-        explanation: "\"Es kommt zu\" + dative is the formal there occurs; \"seit\" + present tense.",
+        explanation: "\"Es kommt zu\" + dative is the formal 'there occurs'; \"seit\" + present tense.",
       },
       {
         type: "fill-blank",
@@ -391,12 +391,12 @@ export const DE_C1_U19: Lesson[] = [
         question: "Which apology fits an email from a company to a customer?",
         options: ["Bitte entschuldigen Sie die entstandenen Unannehmlichkeiten.", "Sorry, war echt keine Absicht!", "Ups, mein Fehler!", "Tut mir voll leid, Digga."],
         correctIndex: 0,
-        explanation: "The formal formula with a noun (\"Unannehmlichkeiten\") and the Sie imperative.",
+        explanation: "The formal formula with a noun (\"Unannehmlichkeiten\") and the \"Sie\" imperative. The others are casual or slang.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into neutral German (to a neighbour, on Sie).",
+        prompt: "Translate into neutral German (to a neighbour, on \"Sie\").",
         source: "Excuse me, it's been quite loud at your place in the evenings lately.",
         answer: "Entschuldigen Sie, es ist abends in letzter Zeit ziemlich laut bei Ihnen.",
         altAnswers: ["Entschuldigen Sie, in letzter Zeit ist es abends ziemlich laut bei Ihnen.", "Entschuldigen Sie, es war abends in letzter Zeit ziemlich laut bei Ihnen.", "Entschuldigung, es ist abends in letzter Zeit ziemlich laut bei Ihnen."],
@@ -405,7 +405,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Change du to Sie: Kannst du mir deine Telefonnummer geben? Translate into German (polite): Could you give me your phone number?",
+        prompt: "Change \"du\" to \"Sie\": \"Kannst du mir deine Telefonnummer geben?\" Translate into German (polite): Could you give me your phone number?",
         source: "Could you give me your phone number?",
         answer: "Könnten Sie mir Ihre Telefonnummer geben?",
         altAnswers: ["Können Sie mir Ihre Telefonnummer geben?", "Könnten Sie mir bitte Ihre Telefonnummer geben?", "Können Sie mir bitte Ihre Telefonnummer geben?"],
@@ -420,7 +420,7 @@ export const DE_C1_U19: Lesson[] = [
           { left: "Können wir's verschieben?", right: "colloquial" },
           { left: "Hiermit sage ich den Termin ab.", right: "formal and official" },
         ],
-        explanation: "Konjunktiv II and \"hiermit\" mark formal German; contracting es to an apostrophe-s marks speech.",
+        explanation: "Konjunktiv II and \"hiermit\" mark formal German; contracting \"es\" to an apostrophe-s (\"wir's\") marks speech.",
       },
       {
         type: "word-order",
@@ -438,8 +438,8 @@ export const DE_C1_U19: Lesson[] = [
         type: "speak",
         text: "Leider muss ich den Termin am Donnerstag absagen.",
         prompt: "Say it in formal German: Unfortunately I have to cancel Thursday's appointment.",
-        tip: "absagen: stress AB.",
-        explanation: "\"Absagen\" is the formal cancel for appointments.",
+        tip: "\"absagen\": stress AB.",
+        explanation: "\"Absagen\" is the formal 'cancel' for appointments.",
       },
     ],
   },
@@ -448,14 +448,14 @@ export const DE_C1_U19: Lesson[] = [
     level: "DE-C1",
     number: 3,
     title: "Advanced Challenge: Translation Relay",
-    summary: "English sentences full of traps for German: -ing forms, there is, must have and had to, can't have, however much, whoever, only (nur or erst), I am cold, and the three Germans for for.",
+    summary: "Translate English sentences full of traps: -ing forms, 'there is', 'must have' and 'had to', 'can't have', 'however much', 'whoever', 'only' (\"nur\" or \"erst\"), 'I am cold', and the three German words for 'for'.",
     duration: "20 min",
     sections: [
       {
         heading: "Leg 1: -ing forms and there is",
         body: [
           "English -ing has no single German equivalent. While doing something: \"beim\" + nominalised infinitive (\"Beim Kochen höre ich Radio\") or \"während\" + clause. Without doing: \"ohne ... zu\" (\"Er ging, ohne sich zu verabschieden\"). Instead of doing: \"statt ... zu\". After verbs of perception, a bare infinitive: \"Ich sah ihn kommen\" (I saw him coming). Stop / start doing: \"aufhören / anfangen, ... zu\".",
-          "There is is not always \"es gibt\". \"Es gibt\" states general existence: \"Es gibt in Leipzig viele Parks.\" For something in a specific place, German uses a position verb: \"Auf dem Tisch liegt ein Brief\" (there's a letter on the table), \"Im Kühlschrank steht Milch\", \"An der Wand hängt ein Bild\". For people: \"Da ist jemand an der Tür.\"",
+          "'There is' is not always \"es gibt\". \"Es gibt\" states general existence: \"Es gibt in Leipzig viele Parks.\" For something in a specific place, German uses a position verb: \"Auf dem Tisch liegt ein Brief\" (there's a letter on the table), \"Im Kühlschrank steht Milch\", \"An der Wand hängt ein Bild\". For people: \"Da ist jemand an der Tür.\"",
           "\"*Es gibt einen Brief auf dem Tisch\" is understood but sounds foreign. German prefers the specific verb: \"liegen\" for flat things, \"stehen\" for upright things and bottles, \"hängen\" for hanging things.",
         ],
         examples: [
@@ -534,7 +534,7 @@ export const DE_C1_U19: Lesson[] = [
         heading: "Leg 3: however much, whoever, only, I am cold, for",
         body: [
           "However much: \"So sehr ich mich auch bemühe, ...\" or \"Wie viel er auch verdient, ...\". Whoever: \"Wer zu spät kommt, muss draußen warten\" (the generalising relative \"wer\") or \"Wer auch immer das war, ...\".",
-          "Only has two Germans: \"nur\" (no more than) and \"erst\" (not until, so far, no later than expected). \"Ich habe nur zwei Kapitel gelesen\" (and won't read more) vs \"Ich habe erst zwei Kapitel gelesen\" (so far). \"Er kommt erst morgen\" (not until tomorrow). \"Sie ist erst 16.\"",
+          "Only has two Germans: \"nur\" (no more than) and \"erst\" (not until, so far: later or less than expected). \"Ich habe nur zwei Kapitel gelesen\" (and won't read more) vs \"Ich habe erst zwei Kapitel gelesen\" (so far). \"Er kommt erst morgen\" (not until tomorrow). \"Sie ist erst 16.\"",
           "I am cold is \"Mir ist kalt\" (dative, impersonal); \"Ich bin kalt\" means I am a cold person. The same with \"mir ist warm\", \"mir ist schlecht\" (I feel sick), \"mir ist langweilig\" (I'm bored).",
           "For with time: ongoing until now = \"seit\" + present (\"Ich wohne seit drei Jahren hier\"); completed duration = accusative + optional \"lang\" (\"Ich habe drei Jahre lang dort gewohnt\"); planned period = \"für\" (\"Ich fahre für zwei Wochen nach Italien\").",
         ],
@@ -562,7 +562,7 @@ export const DE_C1_U19: Lesson[] = [
             en: "The train [only] leaves at ten, so we have time.",
             sentence: "Der Zug fährt ___ um zehn, wir haben also Zeit.",
             answer: "erst",
-            explanation: "Not until = \"erst\". \"Nur um zehn\" would mean at ten and no other time.",
+            explanation: "'Not until' = \"erst\". \"Nur um zehn\" would mean at ten and no other time.",
           },
           {
             type: "listen-choose",
@@ -624,9 +624,9 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence means: I've only read two chapters so far?",
-        options: ["Ich habe erst zwei Kapitel gelesen.", "Ich habe nur zwei Kapitel lesen.", "Ich habe einzig zwei Kapitel gelesen.", "Ich bin erst zwei Kapitel gelesen."],
+        options: ["Ich habe erst zwei Kapitel gelesen.", "Ich habe nur zwei Kapitel gelesen.", "Ich habe erst zwei Kapitel lesen.", "Ich bin erst zwei Kapitel gelesen."],
         correctIndex: 0,
-        explanation: "So far, with more to come: \"erst\". \"Nur\" would suggest you stopped there.",
+        explanation: "So far, with more to come: \"erst\". \"Nur\" would suggest you stopped there. \"Lesen\" without ge- and the auxiliary \"bin\" are simply wrong.",
       },
       {
         type: "translate",
@@ -665,13 +665,13 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "dictation",
         audio: "Sie kann das nicht gesehen haben.",
-        explanation: "\"Kann ... nicht gesehen haben\" = can't have seen: a supposition, not an ability.",
+        explanation: "\"Kann ... nicht gesehen haben\" = 'can't have seen': a supposition, not an ability.",
       },
       {
         type: "speak",
         text: "Er muss den Zug verpasst haben.",
         prompt: "Say it in German: He must have missed the train.",
-        tip: "verpasst haben: keep the two words together as one rhythm unit.",
+        tip: "\"verpasst haben\": keep the two words together as one rhythm unit.",
         explanation: "Modal + perfect infinitive for a confident guess about the past.",
       },
     ],
@@ -681,7 +681,7 @@ export const DE_C1_U19: Lesson[] = [
     level: "DE-C1",
     number: 4,
     title: "Advanced Challenge: The Konjunktiv Without a Net",
-    summary: "Indicative, Konjunktiv I or Konjunktiv II across every use: reported speech, unreal conditions with and without wenn, als ob, fast, politeness and the fixed formulas.",
+    summary: "Choose between indicative, Konjunktiv I and Konjunktiv II in every use: reported speech, unreal conditions with and without \"wenn\", \"als ob\", \"fast\", politeness and the fixed formulas.",
     duration: "20 min",
     sections: [
       {
@@ -720,10 +720,10 @@ export const DE_C1_U19: Lesson[] = [
         ],
       },
       {
-        heading: "Unreal conditions and als ob",
+        heading: "Unreal conditions and \"als ob\"",
         body: [
-          "Present unreal: \"Wenn ich mehr Zeit hätte, würde ich mehr lesen\" or \"..., läse ich mehr\" (synthetic forms of strong verbs are elegant but some, like läse, sound bookish). Past unreal: \"Wenn ich das gewusst hätte, wäre ich gekommen.\" Mixed: \"Wenn ich gestern nicht so lange gearbeitet hätte, wäre ich heute nicht so müde.\"",
-          "Without wenn (verb first): \"Hätte ich mehr Zeit, würde ich mehr lesen.\" With \"sollte\" for a possible (not unreal) future condition: \"Sollten Sie Fragen haben, ...\".",
+          "Present unreal: \"Wenn ich mehr Zeit hätte, würde ich mehr lesen\" or \"..., läse ich mehr\" (synthetic forms of strong verbs are elegant but some, like \"läse\", sound bookish). Past unreal: \"Wenn ich das gewusst hätte, wäre ich gekommen.\" Mixed: \"Wenn ich gestern nicht so lange gearbeitet hätte, wäre ich heute nicht so müde.\"",
+          "Without \"wenn\" (verb first): \"Hätte ich mehr Zeit, würde ich mehr lesen.\" With \"sollte\" for a possible (not unreal) future condition: \"Sollten Sie Fragen haben, ...\".",
           "\"Als ob / als wenn\" + Konjunktiv II with the verb at the end, or \"als\" + verb directly after it: \"Er tut so, als ob er nichts wüsste\" = \"Er tut so, als wüsste er nichts.\" Past: \"Sie sah mich an, als hätte sie mich nie gesehen.\"",
         ],
         examples: [
@@ -755,7 +755,7 @@ export const DE_C1_U19: Lesson[] = [
         ],
       },
       {
-        heading: "Fast, politeness and fixed formulas",
+        heading: "\"Fast\", politeness and fixed formulas",
         body: [
           "\"Fast\" or \"beinahe\" + past Konjunktiv II for what almost happened: \"Ich hätte fast den Zug verpasst.\" \"Beinahe wäre ich gestürzt.\" \"Zu ..., als dass\" + Konjunktiv II for what can't happen: \"Das Thema ist zu komplex, als dass man es in fünf Minuten erklären könnte.\"",
           "Politeness: \"Ich hätte gern ...\", \"Würden Sie bitte ...?\", \"Wäre es möglich, ...?\", \"Ich würde vorschlagen, ...\". Tentative judgement: \"Ich würde sagen, das ist zu teuer.\" \"Das wäre alles.\"",
@@ -793,7 +793,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, without wenn.",
+        prompt: "Translate into German, without \"wenn\".",
         source: "Had I known that, I would have come.",
         answer: "Hätte ich das gewusst, wäre ich gekommen.",
         altAnswers: ["Hätte ich das gewusst, dann wäre ich gekommen.", "Hätte ich das gewusst, so wäre ich gekommen."],
@@ -806,7 +806,7 @@ export const DE_C1_U19: Lesson[] = [
         source: "He said he would come tomorrow.",
         answer: "Er sagte, er komme morgen.",
         altAnswers: ["Er sagte, er werde morgen kommen.", "Er sagte, dass er morgen komme.", "Er sagte, er käme morgen.", "Er hat gesagt, er komme morgen."],
-        explanation: "Konjunktiv I \"komme\": no English-style backshift to would.",
+        explanation: "Konjunktiv I \"komme\": no English-style backshift to 'would'.",
       },
       {
         type: "translate",
@@ -819,11 +819,11 @@ export const DE_C1_U19: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Write the German for the bold words.",
+        prompt: "Write the German for the bold words (written reported speech).",
         en: "According to the police, the driver [had been] going too fast.",
         sentence: "Laut Polizei ___ der Fahrer zu schnell gewesen.",
         answer: "sei",
-        explanation: "Konjunktiv I past: \"sei ... gewesen\" distances the reporter from the claim.",
+        explanation: "Konjunktiv I past: \"sei ... gewesen\" distances the reporter from the claim. After \"laut\" the indicative \"ist\" is also common; the Konjunktiv I adds extra distance.",
       },
       {
         type: "multiple-choice",
@@ -878,7 +878,7 @@ export const DE_C1_U19: Lesson[] = [
         type: "speak",
         text: "Hätte ich das gewusst, wäre ich gekommen.",
         prompt: "Say it in German: Had I known that, I would have come.",
-        tip: "Two Konjunktiv II forms: hätte with ä, wäre with ä, both open.",
+        tip: "Two Konjunktiv II forms: \"hätte\" with a short open ä, \"wäre\" with a long ä.",
         explanation: "The verb-first unreal condition.",
       },
     ],
@@ -896,7 +896,7 @@ export const DE_C1_U19: Lesson[] = [
         body: [
           "Every German connector belongs to one of three groups, and the group decides the word order. Position 0 (no effect on order): \"und\", \"aber\", \"oder\", \"denn\", \"sondern\": \"..., denn die Mieten sind gestiegen.\" Vorfeld adverbs (verb straight after): \"deshalb\", \"trotzdem\", \"zudem\", \"allerdings\", \"folglich\": \"Deshalb ziehen viele aufs Land.\" Subordinating conjunctions (verb at the end): \"weil\", \"da\", \"obwohl\", \"zumal\", \"sodass\": \"..., weil die Mieten gestiegen sind.\"",
           "Some adverbs can also sit in the middle field: \"Viele ziehen deshalb aufs Land.\" \"Das ist allerdings nicht alles.\" And \"nämlich\" can only stand there: \"Viele ziehen aufs Land. Die Mieten sind nämlich gestiegen.\"",
-          "The most frequent Advanced error is mixing groups: \"*denn die Mieten sind gestiegen\" is right, \"*weil die Mieten sind gestiegen\" is spoken German only, \"*deshalb viele ziehen\" is always wrong.",
+          "The most frequent Advanced error is mixing groups: \"denn die Mieten sind gestiegen\" is right, \"*weil die Mieten sind gestiegen\" is spoken German only, \"*deshalb viele ziehen\" is always wrong.",
         ],
         examples: [
           { es: "Viele Familien ziehen aufs Land, denn die Mieten sind gestiegen.", en: "Many families are moving to the countryside, because rents have gone up." },
@@ -916,7 +916,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using nämlich.",
+            prompt: "Translate into German, using \"nämlich\".",
             source: "Many are moving to the countryside. Rents, you see, have risen sharply.",
             answer: "Viele ziehen aufs Land. Die Mieten sind nämlich stark gestiegen.",
             altAnswers: ["Viele ziehen aufs Land. Die Mieten sind nämlich deutlich gestiegen.", "Viele ziehen aufs Land. Die Mieten sind nämlich stark angestiegen.", "Viele ziehen auf das Land. Die Mieten sind nämlich stark gestiegen."],
@@ -963,7 +963,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         heading: "The chain: a whole paragraph",
         body: [
-          "Now link a series of bare statements into a paragraph. The bare facts: Die Innenstadt soll autofrei werden. Die Luft wird besser. Händler fürchten Umsatzeinbußen. Studien aus anderen Städten zeigen das Gegenteil. Die Stadt sollte das Projekt testen.",
+          "Now link a series of bare statements into a paragraph. The bare facts: \"Die Innenstadt soll autofrei werden. Die Luft wird besser. Händler fürchten Umsatzeinbußen. Studien aus anderen Städten zeigen das Gegenteil. Die Stadt sollte das Projekt testen.\"",
           "The chain: \"Die Innenstadt soll autofrei werden. Zum einen würde dadurch die Luft deutlich besser, zum anderen gewönne man Platz für Fußgänger. Zwar fürchten manche Händler Umsatzeinbußen, doch Studien aus anderen Städten zeigen eher das Gegenteil. Alles in allem spricht somit vieles dafür, das Projekt zumindest in einer Testphase zu erproben.\"",
           "Notice: each sentence begins with a different link, the connectors express the logical relation (addition, concession, conclusion), and \"dadurch\", \"das Gegenteil\" and \"das Projekt\" refer back.",
         ],
@@ -997,7 +997,7 @@ export const DE_C1_U19: Lesson[] = [
             question: "What does it mean?",
             options: ["That's expensive, if not downright unaffordable.", "That's expensive, but not unaffordable.", "That's not expensive, just unaffordable.", "If it's not expensive, it's unaffordable."],
             correctIndex: 0,
-            explanation: "\"Wenn nicht gar\" escalates: if not even.",
+            explanation: "\"Wenn nicht gar\" escalates: 'if not even'. It doesn't deny the second point, it raises the claim.",
           },
         ],
       },
@@ -1006,7 +1006,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, starting with da.",
+        prompt: "Translate into German, starting with \"da\".",
         source: "As the weather was bad, the concert was cancelled.",
         answer: "Da das Wetter schlecht war, fiel das Konzert aus.",
         altAnswers: ["Da das Wetter schlecht war, wurde das Konzert abgesagt.", "Da das Wetter schlecht war, ist das Konzert ausgefallen."],
@@ -1037,7 +1037,7 @@ export const DE_C1_U19: Lesson[] = [
         sentence: "Man sollte es ___ in einer Testphase erproben.",
         answer: "zumindest",
         altAnswers: ["wenigstens", "mindestens"],
-        explanation: "\"Zumindest\" restricts the claim: at least.",
+        explanation: "\"Zumindest\" (or \"wenigstens\") restricts the claim: 'at least'.",
       },
       {
         type: "multiple-choice",
@@ -1075,7 +1075,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using denn.",
+        prompt: "Translate into German, using \"denn\".",
         source: "Many families are moving to the countryside, because rents have gone up.",
         answer: "Viele Familien ziehen aufs Land, denn die Mieten sind gestiegen.",
         altAnswers: ["Viele Familien ziehen auf das Land, denn die Mieten sind gestiegen.", "Viele Familien ziehen aufs Land, denn die Mieten sind angestiegen."],
@@ -1090,7 +1090,7 @@ export const DE_C1_U19: Lesson[] = [
         type: "speak",
         text: "Wir sollten früh losfahren, zumal am Freitag viel Verkehr ist.",
         prompt: "Say it in German: We should set off early, especially since there's a lot of traffic on Fridays.",
-        tip: "zumal: stress on MAL.",
+        tip: "\"zumal\": stress on MAL.",
         explanation: "\"Zumal\" adds a reason that strengthens the first one.",
       },
     ],
@@ -1100,7 +1100,7 @@ export const DE_C1_U19: Lesson[] = [
     level: "DE-C1",
     number: 6,
     title: "Advanced Challenge: Build the Sentence",
-    summary: "Assemble complex German sentences: extended participial attributes, relative clauses with prepositions and genitives, Korrelat structures, and double infinitives in main and subordinate clauses.",
+    summary: "Assemble complex German sentences with extended participial attributes, relative clauses with prepositions and genitives, Korrelat structures, and double infinitives in main and subordinate clauses.",
     duration: "19 min",
     sections: [
       {
@@ -1123,6 +1123,7 @@ export const DE_C1_U19: Lesson[] = [
             prompt: "Put the words in order to say: The fee introduced by the city last year is to be abolished.",
             words: ["Die", "im letzten Jahr", "von der Stadt", "eingeführte", "Gebühr", "soll", "abgeschafft werden."],
             translation: "The fee introduced by the city last year is to be abolished.",
+            altOrders: [["Die", "von der Stadt", "im letzten Jahr", "eingeführte", "Gebühr", "soll", "abgeschafft werden."]],
             explanation: "Article, then time and agent, then the participle with its ending, then the noun.",
           },
           {
@@ -1175,7 +1176,7 @@ export const DE_C1_U19: Lesson[] = [
         heading: "Korrelat and double infinitives",
         body: [
           "A Korrelat anchors a following clause in the main clause: \"Ich lege großen Wert darauf, dass alle pünktlich sind\" (Wert legen auf). \"Es kommt darauf an, ob ...\". \"Sie hat nicht damit gerechnet, so schnell eine Antwort zu bekommen.\" Leaving out the Korrelat is sometimes possible (\"Ich freue mich, dass ...\"), but with many verbs it is obligatory.",
-          "Double infinitives arise with modals, \"lassen\", \"sehen\" and \"hören\" in the Perfekt: \"Er hat das Auto reparieren lassen\" (not *gelassen). In a subordinate clause the auxiliary moves in front of the double infinitive: \"..., weil er das Auto hat reparieren lassen.\" The same with Konjunktiv II: \"..., dass ich hätte anrufen sollen.\"",
+          "Double infinitives arise with modals, \"lassen\", \"sehen\" and \"hören\" in the Perfekt: \"Er hat das Auto reparieren lassen\" (not \"*reparieren gelassen*\"). In a subordinate clause the auxiliary moves in front of the double infinitive: \"..., weil er das Auto hat reparieren lassen.\" The same with Konjunktiv II: \"..., dass ich hätte anrufen sollen.\"",
           "Together, these structures let you build long but clear sentences: \"Wir haben nicht damit gerechnet, dass die Stadt die seit Jahren geplante Brücke wird bauen lassen können.\" Correct, but at the limit: in your own writing, one complex element per sentence is usually enough.",
         ],
         examples: [
@@ -1311,7 +1312,7 @@ export const DE_C1_U19: Lesson[] = [
     level: "DE-C1",
     number: 7,
     title: "Advanced Challenge: Express Transformations",
-    summary: "Quick-fire rewrites: active to passive, clause to noun phrase, relative clause to participial attribute, direct to indirect speech, and du to Sie, each with its ripple effects.",
+    summary: "Rewrite at speed: active to passive, clause to noun phrase, relative clause to participial attribute, direct to indirect speech, and \"du\" to \"Sie\", following each ripple effect.",
     duration: "18 min",
     sections: [
       {
@@ -1333,7 +1334,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Active: Man hilft den Familien schnell. Translate the passive version into German: The families are being helped quickly.",
+            prompt: "Active: \"Man hilft den Familien schnell.\" Translate the passive version into German: The families are being helped quickly.",
             source: "The families are being helped quickly.",
             answer: "Den Familien wird schnell geholfen.",
             altAnswers: ["Es wird den Familien schnell geholfen."],
@@ -1341,7 +1342,7 @@ export const DE_C1_U19: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Clause: Nachdem das Gesetz verabschiedet worden war, gab es Proteste. Write the German for the bold words as a noun phrase.",
+            prompt: "Clause: \"Nachdem das Gesetz verabschiedet worden war, gab es Proteste.\" Write the German for the bold words as a noun phrase.",
             en: "[After the law had been passed], there were protests.",
             sentence: "___ gab es Proteste.",
             answer: "Nach der Verabschiedung des Gesetzes",
@@ -1353,8 +1354,8 @@ export const DE_C1_U19: Lesson[] = [
         heading: "Relative clause ↔ participle, direct ↔ indirect speech",
         body: [
           "Relative clause to participial attribute: drop the relative pronoun and the auxiliary, put the rest before the noun, and add the adjective ending. \"Die Kinder, die im Garten spielen\" → \"die im Garten spielenden Kinder\". \"Der Brief, der gestern angekommen ist\" → \"der gestern angekommene Brief\". \"Die Regeln, die beachtet werden müssen\" → \"die zu beachtenden Regeln\".",
-          "Direct to indirect speech: change pronouns and the verb mood, keep the tense of the original. \"Ich habe keine Zeit\", sagt sie. → Sie sagt, sie habe keine Zeit. \"Wir kommen morgen\", sagten sie. → Sie sagten, sie kämen am nächsten Tag (\"kommen\" is ambiguous, so \"kämen\"; and \"morgen\" becomes \"am nächsten Tag\" when the report is later).",
-          "Questions become ob- or W-clauses; imperatives become \"sollen\" or \"mögen\": \"Kommen Sie bitte!\" → Er bat, sie möge kommen / Er sagte, sie solle kommen.",
+          "Direct to indirect speech: change pronouns and the verb mood, keep the tense of the original. She says \"Ich habe keine Zeit\" → \"Sie sagt, sie habe keine Zeit.\" They said \"Wir kommen morgen\" → \"Sie sagten, sie kämen am nächsten Tag\" (\"kommen\" is ambiguous, so \"kämen\"; and \"morgen\" becomes \"am nächsten Tag\" when the report is later).",
+          "Questions become ob- or W-clauses; imperatives become \"sollen\" or \"mögen\": \"Kommen Sie bitte!\" → \"Er bat, sie möge kommen.\" / \"Er sagte, sie solle kommen.\"",
         ],
         examples: [
           { es: "Die im Garten spielenden Kinder lachten laut.", en: "The children playing in the garden were laughing loudly." },
@@ -1368,7 +1369,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Relative clause: der Brief, der gestern angekommen ist. Translate into German with a participial attribute: The letter that arrived yesterday was on the table.",
+            prompt: "Relative clause: \"der Brief, der gestern angekommen ist.\" Translate into German with a participial attribute: The letter that arrived yesterday was on the table.",
             source: "The letter that arrived yesterday was on the table.",
             answer: "Der gestern angekommene Brief lag auf dem Tisch.",
             altAnswers: ["Der gestern eingetroffene Brief lag auf dem Tisch."],
@@ -1377,7 +1378,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Direct: Haben Sie am Montag Zeit?, fragte er. Translate into German as indirect speech: He asked whether I had time on Monday.",
+            prompt: "Direct: \"Haben Sie am Montag Zeit?\" (he asked). Translate into German as indirect speech: He asked whether I had time on Monday.",
             source: "He asked whether I had time on Monday.",
             answer: "Er fragte, ob ich am Montag Zeit hätte.",
             altAnswers: ["Er fragte, ob ich am Montag Zeit habe.", "Er hat gefragt, ob ich am Montag Zeit hätte.", "Er fragte mich, ob ich am Montag Zeit hätte."],
@@ -1386,33 +1387,33 @@ export const DE_C1_U19: Lesson[] = [
         ],
       },
       {
-        heading: "Du ↔ Sie",
+        heading: "\"Du\" ↔ \"Sie\"",
         body: [
-          "Switching between du and Sie ripples through the whole sentence: pronoun (\"du\" ↔ \"Sie\"), verb ending (\"kannst\" ↔ \"können\"), object pronouns (\"dich / dir\" ↔ \"Sie / Ihnen\"), possessives (\"dein\" ↔ \"Ihr\"), reflexives (\"dich\" ↔ \"sich\") and imperatives (\"Komm!\" ↔ \"Kommen Sie!\").",
-          "Plural ihr ↔ Sie: \"Habt ihr euch schon angemeldet?\" ↔ \"Haben Sie sich schon angemeldet?\" \"Euer\" ↔ \"Ihr\". The capital letter is the only written sign of the polite form.",
-          "Watch the reflexive: polite Sie takes \"sich\" (lowercase): \"Setzen Sie sich bitte.\" And imperatives of separable verbs keep the prefix at the end: \"Ruf mich an!\" ↔ \"Rufen Sie mich an!\"",
+          "Switching between \"du\" and \"Sie\" ripples through the whole sentence: pronoun (\"du\" ↔ \"Sie\"), verb ending (\"kannst\" ↔ \"können\"), object pronouns (\"dich / dir\" ↔ \"Sie / Ihnen\"), possessives (\"dein\" ↔ \"Ihr\"), reflexives (\"dich\" ↔ \"sich\") and imperatives (\"Komm!\" ↔ \"Kommen Sie!\").",
+          "Plural \"ihr\" ↔ \"Sie\": \"Habt ihr euch schon angemeldet?\" ↔ \"Haben Sie sich schon angemeldet?\" \"Euer\" ↔ \"Ihr\". The capital letter is the only written sign of the polite form.",
+          "Watch the reflexive: polite \"Sie\" takes \"sich\" (lowercase): \"Setzen Sie sich bitte.\" And imperatives of separable verbs keep the prefix at the end: \"Ruf mich an!\" ↔ \"Rufen Sie mich an!\"",
         ],
         examples: [
-          { es: "Kannst du mir deine Adresse schicken?", en: "Can you send me your address? (du)" },
-          { es: "Können Sie mir Ihre Adresse schicken?", en: "Can you send me your address? (Sie)" },
-          { es: "Habt ihr euch schon angemeldet?", en: "Have you registered yet? (ihr)" },
-          { es: "Haben Sie sich schon angemeldet?", en: "Have you registered yet? (Sie)" },
-          { es: "Setz dich doch!", en: "Do sit down! (du)" },
-          { es: "Setzen Sie sich doch bitte!", en: "Please do sit down! (Sie)" },
+          { es: "Kannst du mir deine Adresse schicken?", en: "Can you send me your address? (to a friend)" },
+          { es: "Können Sie mir Ihre Adresse schicken?", en: "Can you send me your address? (formal)" },
+          { es: "Habt ihr euch schon angemeldet?", en: "Have you registered yet? (to several friends)" },
+          { es: "Haben Sie sich schon angemeldet?", en: "Have you registered yet? (formal)" },
+          { es: "Setz dich doch!", en: "Do sit down! (to a friend)" },
+          { es: "Setzen Sie sich doch bitte!", en: "Please do sit down! (formal)" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Du version: Ruf mich morgen an und bring deine Unterlagen mit! Translate the Sie version into German: Call me tomorrow and bring your documents.",
+            prompt: "Informal version: \"Ruf mich morgen an und bring deine Unterlagen mit!\" Translate the formal version into German: Call me tomorrow and bring your documents.",
             source: "Call me tomorrow and bring your documents.",
             answer: "Rufen Sie mich morgen an und bringen Sie Ihre Unterlagen mit!",
             altAnswers: ["Rufen Sie mich morgen an und bringen Sie Ihre Unterlagen mit.", "Rufen Sie mich bitte morgen an und bringen Sie Ihre Unterlagen mit!"],
-            explanation: "Each Sie imperative repeats \"Sie\"; \"dein\" becomes \"Ihre\"; separable prefixes stay at the end.",
+            explanation: "Each \"Sie\" imperative repeats \"Sie\"; \"dein\" becomes \"Ihre\"; separable prefixes stay at the end.",
           },
           {
             type: "multiple-choice",
-            question: "Ihr version: Habt ihr euch schon angemeldet? Which is the correct Sie version?",
+            question: "Version with \"ihr\": \"Habt ihr euch schon angemeldet?\" Which is the correct formal version?",
             options: ["Haben Sie sich schon angemeldet?", "Haben Sie Sich schon angemeldet?", "Habt Sie sich schon angemeldet?", "Haben Sie euch schon angemeldet?"],
             correctIndex: 0,
             explanation: "Verb in the Sie form, reflexive \"sich\" in lowercase.",
@@ -1424,7 +1425,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Active: Die Stadt hat die Schule im Sommer renoviert. Translate the passive version: The school was renovated in the summer.",
+        prompt: "Active: \"Die Stadt hat die Schule im Sommer renoviert.\" Translate the passive version into German: The school was renovated in the summer.",
         source: "The school was renovated in the summer.",
         answer: "Die Schule ist im Sommer renoviert worden.",
         altAnswers: ["Die Schule wurde im Sommer renoviert.", "Im Sommer wurde die Schule renoviert.", "Im Sommer ist die Schule renoviert worden."],
@@ -1433,7 +1434,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Clause: Weil die Preise stark gestiegen sind, sparen viele. Translate with a noun phrase: Because prices have risen sharply, many people are saving.",
+        prompt: "Clause: \"Weil die Preise stark gestiegen sind, sparen viele.\" Translate into German with a noun phrase: Because prices have risen sharply, many people are saving.",
         source: "Because prices have risen sharply, many people are saving.",
         answer: "Wegen des starken Anstiegs der Preise sparen viele.",
         altAnswers: ["Aufgrund des starken Anstiegs der Preise sparen viele.", "Wegen des starken Preisanstiegs sparen viele.", "Aufgrund des starken Preisanstiegs sparen viele.", "Wegen der stark gestiegenen Preise sparen viele."],
@@ -1442,7 +1443,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Noun phrase: Bei Nichtgefallen erhalten Sie Ihr Geld zurück. Translate the clause version: If you don't like the product, you'll get your money back.",
+        prompt: "Noun phrase: \"Bei Nichtgefallen erhalten Sie Ihr Geld zurück.\" Translate the clause version into German: If you don't like the product, you'll get your money back.",
         source: "If you don't like the product, you'll get your money back.",
         answer: "Wenn Ihnen das Produkt nicht gefällt, erhalten Sie Ihr Geld zurück.",
         altAnswers: ["Wenn Ihnen das Produkt nicht gefällt, bekommen Sie Ihr Geld zurück.", "Falls Ihnen das Produkt nicht gefällt, erhalten Sie Ihr Geld zurück.", "Gefällt Ihnen das Produkt nicht, erhalten Sie Ihr Geld zurück."],
@@ -1450,7 +1451,7 @@ export const DE_C1_U19: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Relative clause: die Kinder, die im Garten spielen. Write the German for the bold words as a participial attribute.",
+        prompt: "Relative clause: \"die Kinder, die im Garten spielen.\" Write the German for the bold words as a participial attribute.",
         en: "[The children playing in the garden] were laughing loudly.",
         sentence: "___ lachten laut.",
         answer: "Die im Garten spielenden Kinder",
@@ -1459,7 +1460,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Direct: Wir kommen morgen, sagten sie. Translate the indirect version: They said they would come the next day.",
+        prompt: "Direct: \"Wir kommen morgen\" (they said). Translate the indirect version into German: They said they would come the next day.",
         source: "They said they would come the next day.",
         answer: "Sie sagten, sie kämen am nächsten Tag.",
         altAnswers: ["Sie sagten, sie würden am nächsten Tag kommen.", "Sie sagten, dass sie am nächsten Tag kämen.", "Sie sagten, dass sie am nächsten Tag kommen würden.", "Sie sagten, sie kämen am folgenden Tag."],
@@ -1467,7 +1468,7 @@ export const DE_C1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Direct: Kommen Sie bitte pünktlich!, bat er. Which is the indirect version?",
+        question: "Direct: \"Kommen Sie bitte pünktlich!\" (he asked). Which is the indirect version?",
         options: ["Er bat, sie möge pünktlich kommen.", "Er bat, sie kommt pünktlich.", "Er bat, kommen Sie pünktlich.", "Er bat, ob sie pünktlich kommen."],
         correctIndex: 0,
         explanation: "A polite request becomes \"mögen\" (or \"sollen\") in the Konjunktiv I: \"sie möge kommen\".",
@@ -1475,7 +1476,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Active: Man muss die Regeln beachten. Translate with a modal passive: The rules must be followed.",
+        prompt: "Active: \"Man muss die Regeln beachten.\" Translate into German with a modal passive: The rules must be followed.",
         source: "The rules must be followed.",
         answer: "Die Regeln müssen beachtet werden.",
         altAnswers: ["Die Regeln sind zu beachten.", "Die Regeln müssen eingehalten werden.", "Die Regeln sind einzuhalten."],
@@ -1484,7 +1485,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Du version: Kannst du mir deine Adresse schicken? Translate the Sie version: Can you send me your address?",
+        prompt: "Informal version: \"Kannst du mir deine Adresse schicken?\" Translate the formal version into German: Can you send me your address?",
         source: "Can you send me your address?",
         answer: "Können Sie mir Ihre Adresse schicken?",
         altAnswers: ["Könnten Sie mir Ihre Adresse schicken?", "Können Sie mir bitte Ihre Adresse schicken?", "Könnten Sie mir bitte Ihre Adresse schicken?", "Können Sie mir Ihre Adresse senden?"],
@@ -1505,9 +1506,9 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "speak",
         text: "Setzen Sie sich doch bitte!",
-        prompt: "Say it in German (Sie): Please do sit down!",
-        tip: "doch here is friendly, not insistent: keep it light.",
-        explanation: "The Sie imperative with the reflexive \"sich\" and the friendly particle \"doch\".",
+        prompt: "Say it in German (formal): Please do sit down!",
+        tip: "\"doch\" here is friendly, not insistent: keep it light.",
+        explanation: "The \"Sie\" imperative with the reflexive \"sich\" and the friendly particle \"doch\".",
       },
     ],
   },
@@ -1516,7 +1517,7 @@ export const DE_C1_U19: Lesson[] = [
     level: "DE-C1",
     number: 8,
     title: "Advanced Challenge: Literary Text Detective",
-    summary: "Analyse a short literary extract: rare strong Präteritum forms, inversion for effect, and erlebte Rede (free indirect speech), and translate its key sentences.",
+    summary: "Analyse a short literary extract (rare strong Präteritum forms, inversion for effect, \"erlebte Rede\" or free indirect speech) and translate its key sentences.",
     duration: "19 min",
     sections: [
       {
@@ -1554,7 +1555,7 @@ export const DE_C1_U19: Lesson[] = [
             source: "She hid the letter in the drawer.",
             answer: "Sie verbarg den Brief in der Schublade.",
             altAnswers: ["Sie versteckte den Brief in der Schublade."],
-            explanation: "\"Verbergen\" → \"verbarg\" is the literary hid; \"verstecken\" → \"versteckte\" is everyday.",
+            explanation: "\"Verbergen\" → \"verbarg\" is the literary 'hid'; \"verstecken\" → \"versteckte\" is everyday.",
           },
         ],
       },
@@ -1580,7 +1581,7 @@ export const DE_C1_U19: Lesson[] = [
             source: "Never before had she been so afraid.",
             answer: "Nie zuvor hatte sie solche Angst gehabt.",
             altAnswers: ["Noch nie hatte sie solche Angst gehabt.", "Nie zuvor hatte sie so große Angst gehabt.", "Nie zuvor hatte sie so viel Angst gehabt."],
-            explanation: "\"Nie zuvor\" in the Vorfeld for emphasis; the verb follows straight away, as in English never before had she.",
+            explanation: "\"Nie zuvor\" in the Vorfeld for emphasis; the verb follows straight away, as in English 'never before had she'.",
           },
           {
             type: "word-order",
@@ -1596,7 +1597,7 @@ export const DE_C1_U19: Lesson[] = [
         body: [
           "The story continues: \"Was sollte sie jetzt nur tun? Jonas würde es nie verstehen. Morgen würde sie mit ihm reden, ganz bestimmt. Oder doch nicht? Ach, wäre doch alles schon vorbei!\"",
           "This is erlebte Rede (free indirect speech): the character's thoughts in the third person and the narrative past tense, but with her questions, exclamations, particles (\"nur\", \"doch\") and her sense of time (\"morgen\", \"jetzt\"). No \"sie dachte\", no quotation marks, no Konjunktiv I.",
-          "The future from the character's point of view is \"würde\" + infinitive (future in the past): \"Morgen würde sie mit ihm reden\" (tomorrow she would talk to him). Compare direct thought: „Morgen rede ich mit ihm.“ and reported thought: Sie dachte, sie werde am nächsten Tag mit ihm reden.",
+          "The future from the character's point of view is \"würde\" + infinitive (future in the past): \"Morgen würde sie mit ihm reden\" (tomorrow she would talk to him). Compare direct thought: \"Morgen rede ich mit ihm.\" and reported thought: \"Sie dachte, sie werde am nächsten Tag mit ihm reden.\"",
         ],
         examples: [
           { es: "Was sollte sie jetzt nur tun?", en: "What on earth was she to do now?" },
@@ -1609,7 +1610,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German as erlebte Rede (third person, past).",
+            prompt: "Translate into German as \"erlebte Rede\" (third person, past).",
             source: "Tomorrow she would talk to him, definitely.",
             answer: "Morgen würde sie mit ihm reden, ganz bestimmt.",
             altAnswers: ["Morgen würde sie mit ihm sprechen, ganz bestimmt.", "Morgen würde sie mit ihm reden, ganz sicher."],
@@ -1617,7 +1618,7 @@ export const DE_C1_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is erlebte Rede?",
+            question: "Which sentence is \"erlebte Rede\"?",
             options: ["Was sollte sie jetzt nur tun?", "Sie fragte sich, was sie tun solle.", "„Was soll ich jetzt tun?“, fragte sie sich.", "Sie wusste nicht, was sie tun sollte, sagte sie."],
             correctIndex: 0,
             explanation: "Third person and past tense, but the character's own question with \"jetzt\" and \"nur\", and no verb of thinking.",
@@ -1628,7 +1629,7 @@ export const DE_C1_U19: Lesson[] = [
             question: "What does it mean?",
             options: ["Oh, if only it were all over already!", "Oh, everything was already over!", "Oh, it will all be over soon!", "Oh, was everything already over?"],
             correctIndex: 0,
-            explanation: "Verb-first Konjunktiv II + \"doch\" expresses a wish: if only.",
+            explanation: "Verb-first Konjunktiv II + \"doch\" expresses a wish: 'if only'.",
           },
         ],
       },
@@ -1641,7 +1642,7 @@ export const DE_C1_U19: Lesson[] = [
         source: "The candle on the table was only glowing faintly now.",
         answer: "Die Kerze auf dem Tisch glomm nur noch schwach.",
         altAnswers: ["Die Kerze auf dem Tisch glimmte nur noch schwach.", "Die Kerze auf dem Tisch brannte nur noch schwach."],
-        explanation: "\"Glimmen → glomm\" (literary) or \"glimmte\"; \"nur noch\" = only ... now.",
+        explanation: "\"Glimmen → glomm\" (literary) or \"glimmte\"; \"nur noch\" = 'only ... now'.",
       },
       {
         type: "translate",
@@ -1672,15 +1673,15 @@ export const DE_C1_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Still war es im Haus. Why does the sentence start with still?",
-        options: ["To put the silence in focus for effect", "Because adjectives must come first in literary German", "Because es cannot start a sentence", "To form a question"],
+        question: "The story begins: \"Still war es im Haus.\" Why does the sentence start with \"still\"?",
+        options: ["To put the silence in focus for effect", "Because adjectives must come first in literary German", "Because \"es\" cannot start a sentence", "To form a question"],
         correctIndex: 0,
         explanation: "The Vorfeld is a stylistic choice: the neutral version would be \"Es war still im Haus\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German as erlebte Rede (third person, past).",
+        prompt: "Translate into German as \"erlebte Rede\" (third person, past).",
         source: "Jonas would never understand.",
         answer: "Jonas würde es nie verstehen.",
         altAnswers: ["Jonas würde das nie verstehen.", "Jonas würde es niemals verstehen."],
@@ -1693,7 +1694,7 @@ export const DE_C1_U19: Lesson[] = [
         source: "From that day on she avoided the village.",
         answer: "Seit jenem Tag mied sie das Dorf.",
         altAnswers: ["Von jenem Tag an mied sie das Dorf.", "Seit diesem Tag mied sie das Dorf.", "Von diesem Tag an mied sie das Dorf."],
-        explanation: "\"Meiden → mied\"; \"jener\" is the literary that.",
+        explanation: "\"Meiden → mied\"; \"jener\" is the literary 'that'.",
       },
       {
         type: "word-order",
@@ -1715,13 +1716,13 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "dictation",
         audio: "Kaum hatte sie den Brief gelesen, als sie zu weinen begann.",
-        explanation: "\"Kaum ..., als ...\": no sooner ... than.",
+        explanation: "\"Kaum ..., als ...\": 'no sooner ... than'.",
       },
       {
         type: "speak",
         text: "Still war es im Haus. Die Kerze glomm nur noch schwach.",
         prompt: "Read aloud, slowly: The house was silent. The candle was only glowing faintly now.",
-        tip: "Stress Still and pause after Haus: let the inversion do its work.",
+        tip: "Stress \"Still\" and pause after \"Haus\": let the inversion do its work.",
         explanation: "Literary inversion and a rare strong Präteritum (\"glomm\").",
       },
     ],
@@ -1731,7 +1732,7 @@ export const DE_C1_U19: Lesson[] = [
     level: "DE-C1",
     number: 9,
     title: "Advanced Challenge: Prepositions Without Hints",
-    summary: "Fixed prepositions after verbs, nouns and adjectives, places and destinations, and the prepositions of figures and deadlines (um, auf, von... auf, bis zum, innerhalb), with every case ending.",
+    summary: "Use the right preposition and case after verbs, nouns and adjectives, for places and destinations, and for figures and deadlines (\"um\", \"auf\", \"von ... auf\", \"bis zum\", \"innerhalb\").",
     duration: "18 min",
     sections: [
       {
@@ -1807,12 +1808,12 @@ export const DE_C1_U19: Lesson[] = [
       {
         heading: "Figures and deadlines",
         body: [
-          "Changes in figures: \"um\" for the size of the change (\"Die Preise sind um 5 Prozent gestiegen\" = by 5 percent), \"auf\" for the new value (\"auf 3 Millionen\" = to 3 million), \"von ... auf\" for from ... to (\"von 2 auf 3 Euro\"). Confusing \"um\" and \"auf\" changes the meaning completely.",
+          "Changes in figures: \"um\" for the size of the change (\"Die Preise sind um 5 Prozent gestiegen\" = by 5 per cent), \"auf\" for the new value (\"auf 3 Millionen\" = to 3 million), \"von ... auf\" for 'from ... to' (\"von 2 auf 3 Euro\"). Confusing \"um\" and \"auf\" changes the meaning completely.",
           "Deadlines: \"bis\" + date or time (\"bis Freitag\", \"bis 18 Uhr\"), \"bis zum\" + date (\"bis zum 15. Mai\"), \"bis Ende Mai\", \"spätestens am\" (at the latest on), \"innerhalb\" + genitive (\"innerhalb eines Monats\"), formal \"binnen\" + dative or genitive (\"binnen zwei Wochen\").",
           "Points in time: \"ab dem 1. Juli\" (from), \"seit\" (since, ongoing), \"vor drei Jahren\" (ago), \"gegen acht Uhr\" (around), \"Mitte Juni\", \"Anfang / Ende des Jahres\".",
         ],
         examples: [
-          { es: "Die Preise sind um fünf Prozent gestiegen.", en: "Prices have risen by five percent." },
+          { es: "Die Preise sind um fünf Prozent gestiegen.", en: "Prices have risen by five per cent." },
           { es: "Die Einwohnerzahl ist auf drei Millionen gestiegen.", en: "The population has risen to three million." },
           { es: "Der Preis wurde von zwei auf drei Euro erhöht.", en: "The price was raised from two to three euros." },
           { es: "Bitte reichen Sie den Antrag bis zum 15. Mai ein.", en: "Please submit the application by 15 May." },
@@ -1824,14 +1825,14 @@ export const DE_C1_U19: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Prices have risen by five percent.",
+            source: "Prices have risen by five per cent.",
             answer: "Die Preise sind um fünf Prozent gestiegen.",
             altAnswers: ["Die Preise sind um 5 Prozent gestiegen.", "Die Preise stiegen um fünf Prozent.", "Die Preise stiegen um 5 Prozent."],
-            explanation: "By (the size of the change) = \"um\". \"Auf fünf Prozent\" would mean to five percent.",
+            explanation: "By (the size of the change) = \"um\". \"Auf fünf Prozent\" would mean to five per cent.",
           },
           {
             type: "multiple-choice",
-            question: "Unemployment rose from 5 to 6 percent. Which is correct?",
+            question: "Unemployment rose from 5 to 6 per cent. Which is correct?",
             options: ["Die Arbeitslosigkeit stieg von 5 auf 6 Prozent.", "Die Arbeitslosigkeit stieg von 5 um 6 Prozent.", "Die Arbeitslosigkeit stieg aus 5 zu 6 Prozent.", "Die Arbeitslosigkeit stieg von 5 bis 6 Prozent."],
             correctIndex: 0,
             explanation: "From ... to (values) = \"von ... auf\".",
@@ -1915,6 +1916,7 @@ export const DE_C1_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "My sister works for Siemens in Munich.",
         answer: "Meine Schwester arbeitet bei Siemens in München.",
+        altAnswers: ["Meine Schwester arbeitet in München bei Siemens.", "In München arbeitet meine Schwester bei Siemens."],
         explanation: "Working for a company = \"bei\" + company name.",
       },
       {
@@ -1931,7 +1933,7 @@ export const DE_C1_U19: Lesson[] = [
         prompt: "Put the words in order to say: The price was raised from two to three euros.",
         words: ["Der Preis", "wurde", "von zwei", "auf drei Euro", "erhöht."],
         translation: "The price was raised from two to three euros.",
-        explanation: "\"Von ... auf\" for from ... to with values.",
+        explanation: "\"Von ... auf\" for 'from ... to' with values; \"bis\" would describe a range, not a change.",
       },
       {
         type: "dictation",
@@ -1941,8 +1943,8 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "speak",
         text: "Die Preise sind um fünf Prozent gestiegen.",
-        prompt: "Say it in German: Prices have risen by five percent.",
-        tip: "Prozent is stressed on the second syllable: pro-ZENT.",
+        prompt: "Say it in German: Prices have risen by five per cent.",
+        tip: "\"Prozent\" is stressed on the second syllable: pro-ZENT.",
         explanation: "\"Um\" gives the size of the change.",
       },
     ],
@@ -1952,14 +1954,14 @@ export const DE_C1_U19: Lesson[] = [
     level: "DE-C1",
     number: 10,
     title: "Advanced Challenge: Supposition and Emphasis in Context",
-    summary: "A news story and a dialogue about a stolen painting in Dresden: hearsay sollen, claim wollen, Futur II of supposition, dürfte, focus particles and litotes, all in context.",
+    summary: "Follow a news story and a dialogue about a stolen painting in Dresden, using hearsay \"sollen\", claim \"wollen\", the Futur II of supposition, \"dürfte\", focus particles and litotes in context.",
     duration: "18 min",
     sections: [
       {
-        heading: "The news story: sollen, Konjunktiv I and distance",
+        heading: "The news story: \"sollen\", Konjunktiv I and distance",
         body: [
           "A local news report: \"Aus einer Galerie in der Dresdner Neustadt ist in der Nacht zum Sonntag ein Gemälde gestohlen worden. Die Täter sollen durch ein Kellerfenster eingestiegen sein. Laut Polizei habe die Alarmanlage nicht ausgelöst. Der Wert des Bildes wird auf rund 80.000 Euro geschätzt. Ein mutmaßlicher Komplize wurde am Montag festgenommen.\"",
-          "Hearsay \"sollen\" + perfect infinitive (\"sollen ... eingestiegen sein\") = are said to have climbed in. The Konjunktiv I (\"habe\") attributes the information to the police. \"Mutmaßlich\" (suspected, alleged) is the standard press word for people not yet convicted. Only the confirmed facts are in the plain indicative: the theft, the estimate, the arrest.",
+          "Hearsay \"sollen\" + perfect infinitive (\"sollen ... eingestiegen sein\") = 'are said to have climbed in'. The Konjunktiv I (\"habe\") attributes the information to the police. \"Mutmaßlich\" (suspected, alleged) is the standard press word for people not yet convicted. Only the confirmed facts are in the plain indicative: the theft, the estimate, the arrest.",
           "Remember the two meanings of \"sollen\": obligation (\"Du sollst nicht stehlen\") vs hearsay (\"Er soll reich sein\" = he is said to be rich). With a perfect infinitive it is almost always hearsay.",
         ],
         examples: [
@@ -1973,7 +1975,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using sollen.",
+            prompt: "Translate into German, using \"sollen\".",
             source: "The thieves are said to have climbed in through a cellar window.",
             answer: "Die Täter sollen durch ein Kellerfenster eingestiegen sein.",
             altAnswers: ["Die Diebe sollen durch ein Kellerfenster eingestiegen sein.", "Die Täter sollen durch ein Kellerfenster ins Gebäude eingestiegen sein."],
@@ -1981,7 +1983,7 @@ export const DE_C1_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does Der Galerist soll hoch verschuldet sein mean?",
+            question: "What does \"Der Galerist soll hoch verschuldet sein.\" mean?",
             options: ["The gallery owner is said to be heavily in debt.", "The gallery owner should be heavily in debt.", "The gallery owner is supposed to pay his debts.", "The gallery owner wants to be in debt."],
             correctIndex: 0,
             explanation: "Present hearsay \"sollen\": people say so, but it isn't confirmed.",
@@ -1989,11 +1991,11 @@ export const DE_C1_U19: Lesson[] = [
         ],
       },
       {
-        heading: "The dialogue: wollen, wohl, dürfte",
+        heading: "The dialogue: \"wollen\", \"wohl\", \"dürfte\"",
         body: [
           "Two neighbours discuss the theft. Lena: \"Der Nachtwächter will nichts gehört haben.\" Jonas: \"Das wird er wohl verschlafen haben.\" Lena: \"Na ja, das Bild dürfte längst im Ausland sein.\" Jonas: \"Kann sein. Es könnte aber auch noch in Dresden versteckt sein.\"",
           "Claim \"wollen\" + perfect infinitive (\"will nichts gehört haben\") = he claims he heard nothing (and the speaker doubts it). Futur II with \"wohl\" (\"wird ... verschlafen haben\") = he probably slept through it. \"Dürfte\" = very probably; \"könnte\" = possibly.",
-          "The scale of certainty, strongest first: \"muss\" > \"dürfte\" > \"wird (wohl)\" > \"müsste\" > \"kann / könnte\". \"Mag\" concedes: \"Das mag sein, aber ...\".",
+          "The scale of certainty, strongest first: \"muss\" > \"müsste\" / \"dürfte\" > \"wird (wohl)\" > \"kann\" > \"könnte\" (textbooks rank the middle forms slightly differently). \"Mag\" concedes: \"Das mag sein, aber ...\".",
         ],
         examples: [
           { es: "Der Nachtwächter will nichts gehört haben.", en: "The night watchman claims he didn't hear anything." },
@@ -2006,7 +2008,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using wollen.",
+            prompt: "Translate into German, using \"wollen\".",
             source: "The night watchman claims he didn't hear anything.",
             answer: "Der Nachtwächter will nichts gehört haben.",
             altAnswers: ["Der Nachtwächter behauptet, nichts gehört zu haben.", "Der Nachtwächter behauptet, er habe nichts gehört."],
@@ -2079,7 +2081,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using dürfte.",
+        prompt: "Translate into German, using \"dürfte\".",
         source: "The painting is very probably abroad by now.",
         answer: "Das Bild dürfte längst im Ausland sein.",
         altAnswers: ["Das Bild dürfte inzwischen im Ausland sein.", "Das Gemälde dürfte längst im Ausland sein.", "Das Gemälde dürfte inzwischen im Ausland sein.", "Das Bild dürfte schon im Ausland sein."],
@@ -2132,7 +2134,7 @@ export const DE_C1_U19: Lesson[] = [
         prompt: "Put the words in order to say: The painting's value is estimated at around 80,000 euros.",
         words: ["Der Wert", "des Bildes", "wird", "auf rund", "80.000 Euro", "geschätzt."],
         translation: "The painting's value is estimated at around 80,000 euros.",
-        explanation: "\"Schätzen auf\" + accusative = to estimate at.",
+        explanation: "\"Schätzen auf\" + accusative = 'to estimate at'.",
       },
       {
         type: "translate",
@@ -2152,7 +2154,7 @@ export const DE_C1_U19: Lesson[] = [
         type: "speak",
         text: "Das wird er wohl verschlafen haben.",
         prompt: "Say it in German: He probably slept through it.",
-        tip: "Stress wohl lightly: it carries the guess.",
+        tip: "Stress \"wohl\" lightly: it carries the guess.",
         explanation: "Futur II + \"wohl\" for a supposition about the past.",
       },
     ],
@@ -2186,13 +2188,13 @@ export const DE_C1_U19: Lesson[] = [
             prompt: "Translate this subject line into German.",
             source: "Complaint about my stay from 4 to 7 September 2026",
             answer: "Beschwerde über meinen Aufenthalt vom 4. bis 7. September 2026",
-            altAnswers: ["Beschwerde über meinen Aufenthalt vom 4. bis zum 7. September 2026", "Reklamation meines Aufenthalts vom 4. bis 7. September 2026", "Beschwerde zu meinem Aufenthalt vom 4. bis 7. September 2026"],
+            altAnswers: ["Beschwerde über meinen Aufenthalt vom 4. bis zum 7. September 2026", "Beschwerde zu meinem Aufenthalt vom 4. bis 7. September 2026"],
             explanation: "A noun phrase: \"Beschwerde über\" + accusative, \"vom ... bis ...\" for the dates. No \"Betreff\".",
           },
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, starting with the object.",
+            prompt: "Translate into German, starting with the participle.",
             source: "I had booked a quiet double room facing the courtyard.",
             answer: "Gebucht hatte ich ein ruhiges Doppelzimmer zum Innenhof.",
             altAnswers: ["Ich hatte ein ruhiges Doppelzimmer zum Innenhof gebucht.", "Gebucht hatte ich ein ruhiges Doppelzimmer mit Blick auf den Innenhof.", "Ich hatte ein ruhiges Doppelzimmer zum Hof gebucht."],
@@ -2203,7 +2205,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         heading: "Facts, demand and deadline",
         body: [
-          "The facts: \"Bei meiner Ankunft wurde mir jedoch ein Einzelzimmer zur Straße zugewiesen. Trotz mehrfacher Nachfrage an der Rezeption konnte mir kein anderes Zimmer angeboten werden. Zudem wurde der Rechnungsbetrag von 540 Euro meiner Kreditkarte zweimal belastet.\" (eine Karte mit einem Betrag belasten = to charge a card).",
+          "The facts: \"Bei meiner Ankunft wurde mir jedoch ein Einzelzimmer zur Straße zugewiesen. Trotz mehrfacher Nachfrage an der Rezeption konnte mir kein anderes Zimmer angeboten werden. Zudem wurde meine Kreditkarte zweimal mit dem Rechnungsbetrag von 540 Euro belastet.\" (\"eine Karte mit einem Betrag belasten\" = to charge a card).",
           "The demand, firm and specific: \"Ich fordere Sie daher auf, mir den doppelt abgebuchten Betrag von 540 Euro bis zum 30. September 2026 zu erstatten. Für die Unannehmlichkeiten durch das falsche Zimmer halte ich darüber hinaus eine Minderung des Zimmerpreises um 30 Prozent für angemessen.\"",
           "The close: \"Sollte ich bis zu diesem Datum keine Erstattung erhalten, werde ich mich an meine Kreditkartengesellschaft sowie an die Verbraucherzentrale wenden. Kopien der Buchungsbestätigung und des Kontoauszugs finden Sie in der Anlage. Mit freundlichen Grüßen\".",
         ],
@@ -2212,7 +2214,7 @@ export const DE_C1_U19: Lesson[] = [
           { es: "Trotz mehrfacher Nachfrage konnte mir kein anderes Zimmer angeboten werden.", en: "Despite repeated requests, I could not be offered another room." },
           { es: "Zudem wurde meine Kreditkarte zweimal mit dem Betrag belastet.", en: "In addition, my credit card was charged the amount twice." },
           { es: "Ich fordere Sie auf, mir den doppelt abgebuchten Betrag zu erstatten.", en: "I request that you refund the amount that was debited twice." },
-          { es: "Ich halte eine Minderung des Zimmerpreises um 30 Prozent für angemessen.", en: "I consider a 30 percent reduction in the room price to be appropriate." },
+          { es: "Ich halte eine Minderung des Zimmerpreises um 30 Prozent für angemessen.", en: "I consider a 30 per cent reduction in the room price to be appropriate." },
           { es: "Kopien der Buchungsbestätigung finden Sie in der Anlage.", en: "You will find copies of the booking confirmation enclosed." },
         ],
         checkpoint: [
@@ -2228,7 +2230,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "I consider a 30 percent reduction in the room price [to be appropriate].",
+            en: "I consider a 30 per cent reduction in the room price [to be appropriate].",
             sentence: "Ich halte eine Minderung des Zimmerpreises um 30 Prozent ___.",
             answer: "für angemessen",
             explanation: "\"Etwas für + adjective halten\" = to consider something to be ...",
@@ -2239,7 +2241,7 @@ export const DE_C1_U19: Lesson[] = [
         heading: "Two weeks later: the follow-up email",
         body: [
           "It's 1 October and nothing has happened. The follow-up email is shorter and firmer: \"Betreff: Meine Beschwerde vom 15. September 2026, Buchungsnummer 26-88417\". \"Sehr geehrte Damen und Herren, ich komme auf mein Schreiben vom 15. September zurück, in dem ich Sie um Erstattung des doppelt abgebuchten Betrags bis zum 30. September gebeten hatte.\"",
-          "\"Leider ist bis heute weder eine Erstattung noch eine Antwort bei mir eingegangen.\" (weder ... noch = neither ... nor). \"Ich setze Ihnen hiermit eine letzte Frist bis zum 10. Oktober 2026. Nach Ablauf dieser Frist werde ich ohne weitere Ankündigung meine Kreditkartengesellschaft einschalten.\"",
+          "\"Leider ist bis heute weder eine Erstattung noch eine Antwort bei mir eingegangen.\" (\"weder ... noch\" = neither ... nor). \"Ich setze Ihnen hiermit eine letzte Frist bis zum 10. Oktober 2026. Nach Ablauf dieser Frist werde ich ohne weitere Ankündigung meine Kreditkartengesellschaft einschalten.\"",
           "Note the shift: the first letter requests (\"Ich fordere Sie auf\"), the follow-up sets a final deadline (\"eine letzte Frist\") and announces a consequence \"ohne weitere Ankündigung\" (without further notice). The tone stays polite: no exclamation marks, no emotion.",
         ],
         examples: [
@@ -2278,7 +2280,7 @@ export const DE_C1_U19: Lesson[] = [
         source: "From 4 to 7 September 2026 I was a guest at your hotel.",
         answer: "vom 4. bis 7. September 2026 war ich Gast in Ihrem Hotel.",
         altAnswers: ["vom 4. bis zum 7. September 2026 war ich Gast in Ihrem Hotel.", "vom 4. bis 7. September 2026 habe ich in Ihrem Hotel übernachtet.", "vom 4. bis 7. September 2026 war ich Gast in Ihrem Haus."],
-        explanation: "Lowercase after the salutation; the dates in the Vorfeld avoid starting with ich.",
+        explanation: "Lowercase after the salutation; the dates in the Vorfeld avoid starting with \"ich\".",
       },
       {
         type: "translate",
@@ -2310,7 +2312,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, without wenn.",
+        prompt: "Translate into German, without \"wenn\".",
         source: "Should I not receive a refund by this date, I will contact the consumer advice centre.",
         answer: "Sollte ich bis zu diesem Datum keine Erstattung erhalten, werde ich mich an die Verbraucherzentrale wenden.",
         altAnswers: ["Sollte ich bis zu diesem Datum keine Erstattung erhalten, wende ich mich an die Verbraucherzentrale.", "Sollte ich bis zu diesem Termin keine Erstattung erhalten, werde ich mich an die Verbraucherzentrale wenden.", "Sollte ich bis dahin keine Erstattung erhalten, werde ich mich an die Verbraucherzentrale wenden."],
@@ -2337,7 +2339,7 @@ export const DE_C1_U19: Lesson[] = [
         prompt: "Put the words in order to say: Once this deadline has passed, I will involve my credit card company.",
         words: ["Nach Ablauf", "dieser Frist", "werde", "ich", "meine Kreditkartengesellschaft", "einschalten."],
         translation: "Once this deadline has passed, I will involve my credit card company.",
-        explanation: "Nominal \"Nach Ablauf\" + genitive in the Vorfeld; \"einschalten\" = to involve (an authority).",
+        explanation: "Nominal \"Nach Ablauf\" + genitive in the Vorfeld; \"einschalten\" = 'to involve' (an authority or third party).",
       },
       {
         type: "translate",
@@ -2357,7 +2359,7 @@ export const DE_C1_U19: Lesson[] = [
         type: "speak",
         text: "Ich setze Ihnen hiermit eine letzte Frist bis zum 10. Oktober.",
         prompt: "Say it in German: I hereby give you a final deadline of 10 October.",
-        tip: "Say the date as bis zum zehnten Oktober.",
+        tip: "Say the date as \"bis zum zehnten Oktober\".",
         explanation: "The standard final-deadline formula in a follow-up.",
       },
     ],
@@ -2374,7 +2376,7 @@ export const DE_C1_U19: Lesson[] = [
         heading: "Austria and Switzerland",
         body: [
           "Austrian German (Unit 14) has its own standard words: \"Jänner\" (January), \"heuer\" (this year), \"Paradeiser\" (tomatoes), \"Erdäpfel\" (potatoes), \"Topfen\" (quark), \"Sackerl\" (bag), \"die Matura\" (school-leaving exam); greetings \"Grüß Gott\" and \"Servus\". Titles matter: \"Frau Magistra\", \"Herr Doktor\".",
-          "Swiss Standard German: no ß (\"Strasse\", \"Grüsse\"), French loans (\"Velo\" for bike, \"Trottoir\" for pavement, \"merci\"), \"parkieren\" (to park), \"grillieren\" (to barbecue), \"das Natel\" (mobile, now dated), \"Grüezi\" (polite hello). In Switzerland people often switch to du sooner at work.",
+          "Swiss Standard German: no ß (\"Strasse\", \"Grüsse\"), French loans (\"Velo\" for bike, \"Trottoir\" for pavement, \"merci\"), \"parkieren\" (to park), \"grillieren\" (to barbecue), \"das Natel\" (mobile, now dated), \"Grüezi\" (polite hello). In Switzerland people often switch to \"du\" sooner at work.",
           "These are not mistakes but standard varieties. When writing to Austria or Switzerland, using a local word shows attention; using \"Jänner\" in a German company letter would look odd.",
         ],
         examples: [
@@ -2396,7 +2398,7 @@ export const DE_C1_U19: Lesson[] = [
               { left: "Velo", right: "Fahrrad" },
               { left: "parkieren", right: "parken" },
             ],
-            explanation: "Austrian (Jänner, Paradeiser, heuer) and Swiss (Velo, parkieren) standard words.",
+            explanation: "Austrian (\"Jänner\", \"Paradeiser\", \"heuer\") and Swiss (\"Velo\", \"parkieren\") standard words.",
           },
           {
             type: "translate",
@@ -2427,7 +2429,7 @@ export const DE_C1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Colloquial: Ich hab null Bock auf den Termin. Translate the neutral version for a colleague: I'd like to postpone the appointment.",
+            prompt: "Colloquial: \"Ich hab null Bock auf den Termin.\" Translate the neutral version into German, for a colleague: I'd like to postpone the appointment.",
             source: "I'd like to postpone the appointment.",
             answer: "Den Termin würde ich gern verschieben.",
             altAnswers: ["Ich würde den Termin gern verschieben.", "Ich würde den Termin gerne verschieben.", "Den Termin würde ich gerne verschieben.", "Ich möchte den Termin gern verschieben."],
@@ -2435,7 +2437,7 @@ export const DE_C1_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does Ich stehe gerade total auf dem Schlauch mean?",
+            question: "What does \"Ich stehe gerade total auf dem Schlauch.\" mean?",
             options: ["I'm completely missing something here.", "I'm standing on a hose.", "I'm totally exhausted right now.", "I'm in a hurry at the moment."],
             correctIndex: 0,
             explanation: "\"Auf dem Schlauch stehen\" (colloquial) = to be slow on the uptake, not to get it.",
@@ -2443,16 +2445,16 @@ export const DE_C1_U19: Lesson[] = [
         ],
       },
       {
-        heading: "Choosing du or Sie",
+        heading: "Choosing \"du\" or \"Sie\"",
         body: [
-          "Default rules in Germany: Sie with adults you don't know, in shops, at the doctor's, with officials and, traditionally, at work; du with friends, family, children, students among themselves, and in many sports clubs, start-ups and online communities. Many brands (IKEA, Deutsche Bahn on social media) use du in advertising.",
-          "The offer to switch is made by the older or more senior person, or the woman (traditionally), and it's polite to accept: \"Sollen wir uns nicht duzen?\" A switch back from du to Sie is very unusual and signals a rupture.",
-          "With a mixed group: \"ihr\" if you'd say du to each person, \"Sie\" if you'd say Sie to any of them. In writing to a group of colleagues on du: \"Hallo zusammen, habt ihr ...\". In Austria and Switzerland the rules are similar, with du coming somewhat earlier at work in Switzerland.",
+          "Default rules in Germany: \"Sie\" with adults you don't know, in shops, at the doctor's, with officials and, traditionally, at work; \"du\" with friends, family, children, students among themselves, and in many sports clubs, start-ups and online communities. Many brands (IKEA, Deutsche Bahn on social media) use \"du\" in advertising.",
+          "The offer to switch is made by the older or more senior person, or the woman (traditionally), and it's polite to accept: \"Sollen wir uns nicht duzen?\" A switch back from \"du\" to \"Sie\" is very unusual and signals a rupture.",
+          "With a mixed group: \"ihr\" if you'd say \"du\" to each person, \"Sie\" if you'd say \"Sie\" to any of them. In writing to a group of colleagues on \"du\": \"Hallo zusammen, habt ihr ...\". In Austria and Switzerland the rules are similar, with \"du\" coming somewhat earlier at work in Switzerland.",
         ],
         examples: [
-          { es: "Sollen wir uns nicht duzen?", en: "Shall we use du?" },
+          { es: "Sollen wir uns nicht duzen?", en: "Shall we say \"du\" to each other?" },
           { es: "Entschuldigen Sie, wissen Sie, wo der Bahnhof ist?", en: "Excuse me, do you know where the station is? (stranger)" },
-          { es: "Hallo zusammen, habt ihr kurz Zeit?", en: "Hi everyone, have you got a moment? (team on du)" },
+          { es: "Hallo zusammen, habt ihr kurz Zeit?", en: "Hi everyone, have you got a moment? (team on \"du\")" },
           { es: "Meine Damen und Herren, haben Sie noch Fragen?", en: "Ladies and gentlemen, do you have any more questions?" },
           { es: "Hast du Lust, am Wochenende mitzukommen?", en: "Do you fancy coming along at the weekend? (friend)" },
         ],
@@ -2468,18 +2470,18 @@ export const DE_C1_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You are addressing three people: your friend, her teenage brother and their grandmother, whom you say Sie to. Which pronoun do you use for the group?",
+            question: "You are addressing three people: your friend, her teenage brother and their grandmother, whom you say \"Sie\" to. Which pronoun do you use for the group?",
             options: ["Sie", "ihr", "du", "euch"],
             correctIndex: 0,
-            explanation: "If anyone in the group gets Sie, the group gets Sie.",
+            explanation: "If anyone in the group gets \"Sie\", the group gets \"Sie\". \"Ihr\" is only for a group you would each call \"du\".",
           },
           {
             type: "listen-choose",
             audio: "Sollen wir uns nicht duzen?",
             question: "What does it mean?",
-            options: ["Shall we use du with each other?", "Shouldn't we stop seeing each other?", "Shall we not say anything?", "Should we use Sie with each other?"],
+            options: ["Shall we say \"du\" to each other?", "Shouldn't we stop seeing each other?", "Shall we not say anything?", "Should we say \"Sie\" to each other?"],
             correctIndex: 0,
-            explanation: "\"Sich duzen\" = to say du to each other; the negative question is a friendly offer.",
+            explanation: "\"Sich duzen\" = to say \"du\" to each other; the negative question is a friendly offer.",
           },
         ],
       },
@@ -2492,7 +2494,7 @@ export const DE_C1_U19: Lesson[] = [
         source: "I cycle to work.",
         answer: "Ich fahre mit dem Velo zur Arbeit.",
         altAnswers: ["Ich fahre mit dem Velo ins Büro."],
-        explanation: "\"Das Velo\" is the Swiss word for Fahrrad.",
+        explanation: "\"Das Velo\" is the Swiss word for \"Fahrrad\".",
       },
       {
         type: "translate",
@@ -2506,7 +2508,7 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German (to your team, on du).",
+        prompt: "Translate into German (to your team, on \"du\").",
         source: "Hi everyone, have you got a moment?",
         answer: "Hallo zusammen, habt ihr kurz Zeit?",
         altAnswers: ["Hallo zusammen, habt ihr mal kurz Zeit?", "Hallo zusammen, hättet ihr kurz Zeit?", "Hallo in die Runde, habt ihr kurz Zeit?"],
@@ -2551,7 +2553,7 @@ export const DE_C1_U19: Lesson[] = [
         prompt: "Put the words in order to say: She took her school-leaving exams last year. (Austria)",
         words: ["Sie", "hat", "letztes Jahr", "die Matura", "gemacht."],
         translation: "She took her school-leaving exams last year.",
-        explanation: "\"Die Matura\" is the Austrian and Swiss Abitur.",
+        explanation: "\"Die Matura\" is the Austrian and Swiss \"Abitur\".",
       },
       {
         type: "translate",
@@ -2560,7 +2562,7 @@ export const DE_C1_U19: Lesson[] = [
         source: "You can't park here.",
         answer: "Hier darf man nicht parkieren.",
         altAnswers: ["Hier kann man nicht parkieren.", "Man darf hier nicht parkieren.", "Hier ist Parkieren verboten."],
-        explanation: "Swiss \"parkieren\" for parken; \"nicht dürfen\" for not allowed.",
+        explanation: "Swiss \"parkieren\" for \"parken\"; \"nicht dürfen\" for 'not allowed'.",
       },
       {
         type: "dictation",
@@ -2570,9 +2572,9 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "speak",
         text: "Sollen wir uns nicht duzen?",
-        prompt: "Say it in German: Shall we use du?",
-        tip: "duzen: DU-tsen; the z is ts.",
-        explanation: "The friendly offer to switch to du.",
+        prompt: "Say it in German: Shall we say \"du\" to each other?",
+        tip: "\"duzen\": DU-tsen; the z is ts.",
+        explanation: "The friendly offer to switch to \"du\".",
       },
     ],
   },
@@ -2581,14 +2583,14 @@ export const DE_C1_U19: Lesson[] = [
     level: "DE-C1",
     number: 13,
     title: "Advanced Exit Test: Ready for the Mastery Level?",
-    summary: "A Goethe C1-style exit test: a reading text, a listening-style transcript, pieces of an Erörterung and a formal message, and grammar from across the whole level.",
+    summary: "Show you are ready for C2 in a Goethe C1-style exit test: a reading text, a listening-style transcript, pieces of an \"Erörterung\" and a formal message, and grammar from across the whole level.",
     duration: "20 min",
     sections: [
       {
-        heading: "Lesen: a magazine text",
+        heading: "\"Lesen\": a magazine text",
         body: [
           "Read the extract: \"Die Viertagewoche gilt vielen als Zukunftsmodell. Befürworter verweisen auf Pilotprojekte, in denen die Produktivität trotz kürzerer Arbeitszeit nicht gesunken sei. Kritiker halten dagegen, dass sich die Ergebnisse kaum auf Branchen wie die Pflege oder das Handwerk übertragen ließen. Zwar mögen zufriedene Beschäftigte seltener krank sein, doch gerade kleine Betriebe könnten den Ausfall eines ganzen Arbeitstages kaum verkraften. Ob sich das Modell durchsetzt, dürfte letztlich davon abhängen, wie flexibel es umgesetzt wird.\"",
-          "Notice how the text signals stance: the Konjunktiv I (\"sei\", \"ließen\") reports the two camps, \"zwar mögen ... doch\" concedes, \"dürfte\" hedges the conclusion, and \"letztlich\" marks the final judgement. Answer the questions without looking for single words: Advanced reading tests check that you understand who says what, and how sure they are.",
+          "Notice how the text signals stance: the Konjunktiv I (\"sei\") and the Konjunktiv II that replaces an ambiguous Konjunktiv I (\"ließen\") report the two camps, \"zwar mögen ... doch\" concedes, \"dürfte\" hedges the conclusion, and \"letztlich\" marks the final judgement. Answer the questions without looking for single words: Advanced reading tests check that you understand who says what, and how sure they are.",
         ],
         examples: [
           { es: "Die Viertagewoche gilt vielen als Zukunftsmodell.", en: "Many people regard the four-day week as a model for the future." },
@@ -2624,7 +2626,7 @@ export const DE_C1_U19: Lesson[] = [
         ],
       },
       {
-        heading: "Hören: a radio interview (transcript)",
+        heading: "\"Hören\": a radio interview (transcript)",
         body: [
           "Transcript of a radio interview with an urban planner: \"Moderatorin: Frau Dr. Yilmaz, brauchen wir autofreie Innenstädte? Yilmaz: Nun, pauschal würde ich das nicht sagen. Aber die Erfahrungen aus Kopenhagen oder Wien zeigen schon, dass weniger Autos die Lebensqualität deutlich erhöhen. Moderatorin: Der Handel sieht das anders. Yilmaz: Das ist richtig, allerdings sind die befürchteten Umsatzeinbußen in den meisten Städten ausgeblieben. Entscheidend ist, dass man die Anwohner von Anfang an einbezieht.\"",
           "In listening tasks at the Advanced level you must catch the speaker's attitude: \"pauschal würde ich das nicht sagen\" (I wouldn't say that across the board) is a cautious no to the generalisation, \"zeigen schon\" (do show) is a concession, \"allerdings\" turns the argument, and \"Entscheidend ist\" introduces her key point.",
@@ -2663,7 +2665,7 @@ export const DE_C1_U19: Lesson[] = [
         ],
       },
       {
-        heading: "Schreiben: Erörterung and formal message",
+        heading: "\"Schreiben\": \"Erörterung\" and formal message",
         body: [
           "Teil 1 asks for an argumentative text on a topic such as \"Sollten Innenstädte autofrei werden?\": a Hinführung, a Fragestellung, arguments on both sides with transitions, a hedged and depersonalised style, and a Schluss with your position.",
           "Teil 2 asks for a formal message: for example, an email to the city council asking for information about a planned car-free zone. Correct salutation and lowercase continuation, a polite Konjunktiv II request, a precise question, a closing formula.",
@@ -2697,7 +2699,7 @@ export const DE_C1_U19: Lesson[] = [
         ],
       },
       {
-        heading: "Grammatik: the whole level",
+        heading: "\"Grammatik\": the whole level",
         body: [
           "The last section mixes the grammar of the whole Advanced level: Konjunktiv I and II, concession, nominal style, participial attributes, passive and its substitutes, prepositions, particles, supposition and register. There are no hints: decide for yourself which structure each sentence needs.",
           "If you can do most of the final review without looking back, you are ready for the Mastery level, where the focus moves from mastering structures to choosing between them with stylistic precision.",
@@ -2715,7 +2717,7 @@ export const DE_C1_U19: Lesson[] = [
             prompt: "Translate into German.",
             source: "He claims not to have known anything about the incident.",
             answer: "Er will von dem Vorfall nichts gewusst haben.",
-            altAnswers: ["Er will von dem Vorfall nichts gewusst haben", "Er will vom Vorfall nichts gewusst haben.", "Er behauptet, von dem Vorfall nichts gewusst zu haben.", "Er behauptet, vom Vorfall nichts gewusst zu haben."],
+            altAnswers: ["Er will vom Vorfall nichts gewusst haben.", "Er behauptet, von dem Vorfall nichts gewusst zu haben.", "Er behauptet, vom Vorfall nichts gewusst zu haben."],
             explanation: "Claim \"wollen\" + perfect infinitive, or \"behaupten\" + zu-infinitive.",
           },
           {
@@ -2764,7 +2766,7 @@ export const DE_C1_U19: Lesson[] = [
         en: "The train [didn't leave until] ten.",
         sentence: "Der Zug ___ um zehn ab.",
         answer: "fuhr erst",
-        explanation: "Not until = \"erst\"; \"abfahren\" splits: \"fuhr ... ab\".",
+        explanation: "'Not until' = \"erst\"; \"abfahren\" splits: \"fuhr ... ab\".",
       },
       {
         type: "multiple-choice",
@@ -2785,11 +2787,11 @@ export const DE_C1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, without wenn.",
+        prompt: "Translate into German, without \"wenn\".",
         source: "Should you have any questions, please contact me.",
         answer: "Sollten Sie Fragen haben, wenden Sie sich bitte an mich.",
         altAnswers: ["Sollten Sie Fragen haben, melden Sie sich bitte bei mir.", "Sollten Sie noch Fragen haben, wenden Sie sich bitte an mich.", "Sollten Sie Fragen haben, kontaktieren Sie mich bitte."],
-        explanation: "Verb-first \"sollten\" condition, then a Sie imperative.",
+        explanation: "Verb-first \"sollten\" condition, then a \"Sie\" imperative.",
       },
       {
         type: "translate",
@@ -2798,7 +2800,7 @@ export const DE_C1_U19: Lesson[] = [
         source: "The suspect is said to have fled abroad.",
         answer: "Der Verdächtige soll ins Ausland geflohen sein.",
         altAnswers: ["Der Tatverdächtige soll ins Ausland geflohen sein.", "Die Verdächtige soll ins Ausland geflohen sein.", "Der mutmaßliche Täter soll ins Ausland geflohen sein."],
-        explanation: "Hearsay \"sollen\" + perfect infinitive with \"sein\" (fliehen is a verb of movement).",
+        explanation: "Hearsay \"sollen\" + perfect infinitive with \"sein\" (\"fliehen\" is a verb of movement).",
       },
       {
         type: "multiple-choice",
@@ -2814,7 +2816,7 @@ export const DE_C1_U19: Lesson[] = [
         source: "The study suggests that noise makes people ill.",
         answer: "Die Studie legt nahe, dass Lärm krank macht.",
         altAnswers: ["Die Studie deutet darauf hin, dass Lärm krank macht.", "Die Studie lässt vermuten, dass Lärm krank macht.", "Die Studie legt nahe, dass Lärm Menschen krank macht."],
-        explanation: "\"Nahelegen\" = suggest; \"krank machen\" = to make ill.",
+        explanation: "\"Nahelegen\" = 'suggest'; \"krank machen\" = to make ill.",
       },
       {
         type: "word-order",
@@ -2832,7 +2834,7 @@ export const DE_C1_U19: Lesson[] = [
         type: "speak",
         text: "Da muss ich Ihnen widersprechen, denn die Zahlen zeigen etwas anderes.",
         prompt: "Say it in German (in a discussion): I'm afraid I have to disagree, because the figures show something different.",
-        tip: "widersprechen: wi-der-SPRE-chen; stress on the third syllable.",
+        tip: "\"widersprechen\": wi-der-SPRE-chen; stress on the third syllable.",
         explanation: "Polite disagreement with a reason: \"widersprechen\" + dative, \"denn\" with normal word order.",
       },
     ],

@@ -83,7 +83,7 @@ export const DE_C2_U05_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Don't put off till tomorrow what you can do today: [what you can do today], don't put off till tomorrow.",
+        en: "[What you can do today], don't put off till tomorrow.",
         sentence: "___, das verschiebe nicht auf morgen.",
         answer: "Was du heute kannst besorgen",
         explanation: "The proverb bends the order (\"kannst besorgen\") to rhyme \"besorgen\" with \"morgen\".",
@@ -153,7 +153,7 @@ export const DE_C2_U05_EXTRA: Lesson[] = [
         type: "speak",
         text: "Wer A sagt, muss auch B sagen.",
         prompt: "Say it in German: In for a penny, in for a pound.",
-        tip: "The letters are said the German way: A as ah, B as bay.",
+        tip: "The letters are said the German way: \"A\" as ah, \"B\" as bay.",
         explanation: "No \"der\" needed: both clauses have the same nominative subject.",
       },
       {
@@ -173,7 +173,7 @@ export const DE_C2_U05_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Proverbs, the Old Grammar of Sayings, Part 2 of 3",
-    summary: "Drill the old grammar of proverbs: wer ..., (der) ..., omitted articles, archaic -e and inverted word order.",
+    summary: "Quote and adapt proverbs with their old grammar intact: \"wer ..., (der) ...\", omitted articles, archaic -e and inverted word order.",
     duration: "15 min",
     sections: [
       {
@@ -201,7 +201,7 @@ export const DE_C2_U05_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, starting with Wem.",
+            prompt: "Translate into German, starting with \"Wem\".",
             source: "If someone doesn't like it, I can't help them either.",
             answer: "Wem das nicht passt, dem kann ich auch nicht helfen.",
             altAnswers: ["Wem es nicht passt, dem kann ich auch nicht helfen.", "Wem das nicht gefällt, dem kann ich auch nicht helfen.", "Wem das nicht passt, dem kann ich auch nicht weiterhelfen."],
@@ -214,7 +214,7 @@ export const DE_C2_U05_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, starting with Wer.",
+        prompt: "Translate into German, starting with \"Wer\".",
         source: "Anyone who comes late gets no dessert.",
         answer: "Wer zu spät kommt, bekommt keinen Nachtisch.",
         altAnswers: ["Wer zu spät kommt, der bekommt keinen Nachtisch.", "Wer zu spät kommt, kriegt keinen Nachtisch.", "Wer zu spät kommt, bekommt keine Nachspeise.", "Wer zu spät kommt, bekommt kein Dessert.", "Wer spät kommt, bekommt keinen Nachtisch."],
@@ -223,7 +223,7 @@ export const DE_C2_U05_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, starting with Wer.",
+        prompt: "Translate into German, starting with \"Wer\".",
         source: "Anyone who helps us, we'll invite to dinner.",
         answer: "Wer uns hilft, den laden wir zum Essen ein.",
         altAnswers: ["Wer uns hilft, den laden wir zum Abendessen ein.", "Wer uns hilft, den laden wir auf ein Essen ein.", "Wer uns hilft, den laden wir zum Abendbrot ein."],
@@ -232,7 +232,7 @@ export const DE_C2_U05_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, starting with Wer.",
+        prompt: "Translate into German, starting with \"Wer\".",
         source: "Whoever has the damage doesn't need to worry about mockery.",
         answer: "Wer den Schaden hat, braucht für den Spott nicht zu sorgen.",
         altAnswers: ["Wer den Schaden hat, der braucht für den Spott nicht zu sorgen.", "Wer den Schaden hat, muss für den Spott nicht sorgen."],
@@ -332,7 +332,7 @@ export const DE_C2_U05_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Proverbs, Regional Variants and Ironic Use, Part 3 of 3",
-    summary: "Southern, Austrian and Swiss sayings (Wer zahlt, schafft an; Nur net hudeln; Nix is fix) and twisted proverbs as they appear in jokes and advertising.",
+    summary: "Understand southern, Austrian and Swiss sayings (\"Wer zahlt, schafft an\", \"Nur net hudeln\", \"Nix is fix\") and twisted proverbs as they appear in jokes and advertising.",
     duration: "15 min",
     sections: [
       {
@@ -496,7 +496,7 @@ export const DE_C2_U05_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Proverbs People Get Wrong",
-    summary: "Proverbs whose meaning or use is often misunderstood: Das Glück ist mit den Dummen, Hochmut kommt vor dem Fall, Der Klügere gibt nach, Ausnahmen bestätigen die Regel, Stille Wasser sind tief, Getroffene Hunde bellen.",
+    summary: "Use correctly the proverbs whose meaning is often misunderstood (\"Das Glück ist mit den Dummen\", \"Hochmut kommt vor dem Fall\", \"Der Klügere gibt nach\", \"Ausnahmen bestätigen die Regel\", \"Stille Wasser sind tief\", \"Getroffene Hunde bellen\") and answer them when they are misused.",
     duration: "15 min",
     sections: [
       {
@@ -632,10 +632,10 @@ export const DE_C2_U05_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does \"Hochmut\" mean in \"Hochmut kommt vor dem Fall\"?",
-        options: ["arrogance", "high spirits", "courage", "a high position"],
+        question: "A colleague boasted he would win the contract without preparing, and lost it. Someone mutters \"Hochmut kommt vor dem Fall.\" What are they criticising?",
+        options: ["his arrogance", "his high spirits", "his courage", "his senior position"],
         correctIndex: 0,
-        explanation: "\"Hochmut\" is arrogance; high spirits would be \"Übermut\".",
+        explanation: "\"Hochmut\" is arrogance; high spirits would be \"Übermut\", and the proverb has nothing to do with rank.",
       },
       {
         type: "listen-choose",
@@ -715,12 +715,12 @@ export const DE_C2_U05_EXTRA: Lesson[] = [
         source: "The good ones in the pot, the bad ones in the crop: we're sorting the applications.",
         answer: "Die Guten ins Töpfchen, die Schlechten ins Kröpfchen: Wir sortieren die Bewerbungen.",
         altAnswers: ["Die Guten ins Töpfchen, die Schlechten ins Kröpfchen, wir sortieren die Bewerbungen.", "Die Guten ins Töpfchen, die Schlechten ins Kröpfchen: Wir sichten die Bewerbungen.", "Die Guten ins Töpfchen, die Schlechten ins Kröpfchen: Wir sortieren gerade die Bewerbungen."],
-        explanation: "Aschenputtel's doves sort lentils: the good into the pot, the bad into their crop. No verbs, just two parallel phrases.",
+        explanation: "In \"Aschenputtel\" (Cinderella) the doves sort lentils: the good into the pot, the bad into their crop. No verbs, just two parallel phrases.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using Max und Moritz.",
+        prompt: "Translate into German, using \"Max und Moritz\".",
         source: "That was the first blow, and here comes the second: now the trains are on strike too.",
         answer: "Dieses war der erste Streich, doch der zweite folgt sogleich: Jetzt streikt auch noch die Bahn.",
         altAnswers: ["Dieses war der erste Streich, doch der zweite folgt sogleich: Jetzt streikt auch die Bahn.", "Dieses war der erste Streich, doch der zweite folgt sogleich, jetzt streikt auch noch die Bahn.", "Dieses war der erste Streich, doch der zweite folgt sogleich: Nun streikt auch noch die Bahn."],
@@ -777,7 +777,7 @@ export const DE_C2_U05_EXTRA: Lesson[] = [
           { left: "Die Trauben sind mir zu sauer.", right: "the fox in Aesop's fable" },
           { left: "Ach, wie gut, dass niemand weiß ...", right: "Rumpelstiltskin" },
         ],
-        explanation: "Grimm (Schneewittchen, Aschenputtel, Rumpelstilzchen), Busch and the fable tradition.",
+        explanation: "Grimm (\"Schneewittchen\", \"Aschenputtel\", \"Rumpelstilzchen\"), Busch and the fable tradition.",
       },
       {
         type: "multiple-choice",
@@ -798,7 +798,7 @@ export const DE_C2_U05_EXTRA: Lesson[] = [
         type: "speak",
         text: "Spieglein, Spieglein an der Wand, wer ist die Schönste im ganzen Land?",
         prompt: "Say the Snow White line in German: Mirror, mirror on the wall, who is the fairest in the land?",
-        tip: "Sp at the start of a word is said shp: \"Shpieglein\".",
+        tip: "\"Sp\" at the start of a word is said shp: \"Spieglein\", \"Spiegel\".",
         explanation: "The diminutive \"-lein\" is the older, southern counterpart of \"-chen\".",
       },
       {
@@ -850,7 +850,7 @@ export const DE_C2_U05_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "There's certainly something in that, but the figures tell a different story.",
             answer: "Da ist sicher etwas dran, aber die Zahlen sprechen eine andere Sprache.",
-            altAnswers: ["Da ist sicher was dran, aber die Zahlen sprechen eine andere Sprache.", "Da ist bestimmt etwas dran, aber die Zahlen sprechen eine andere Sprache.", "Da ist sicherlich etwas dran, aber die Zahlen sprechen eine andere Sprache.", "Daran ist sicher etwas, aber die Zahlen sprechen eine andere Sprache."],
+            altAnswers: ["Da ist sicher was dran, aber die Zahlen sprechen eine andere Sprache.", "Da ist bestimmt etwas dran, aber die Zahlen sprechen eine andere Sprache.", "Da ist sicherlich etwas dran, aber die Zahlen sprechen eine andere Sprache.", "Da ist sicher etwas Wahres dran, aber die Zahlen sprechen eine andere Sprache."],
             explanation: "\"An etwas ist etwas dran\" = there's something in it; \"eine andere Sprache sprechen\" = to tell a different story.",
           },
         ],
@@ -872,7 +872,7 @@ export const DE_C2_U05_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "If we sign the contract without checking it, we'll pay for it in the end.",
         answer: "Wenn wir den Vertrag ungeprüft unterschreiben, zahlen wir am Ende drauf.",
-        altAnswers: ["Wenn wir den Vertrag ungeprüft unterschreiben, zahlen wir am Ende darauf.", "Wenn wir den Vertrag unterschreiben, ohne ihn zu prüfen, zahlen wir am Ende drauf.", "Wenn wir den Vertrag ungeprüft unterschreiben, zahlen wir am Ende dafür.", "Wenn wir den Vertrag unterschreiben, ohne ihn zu prüfen, zahlen wir am Ende dafür.", "Wenn wir den Vertrag ungeprüft unterschreiben, werden wir am Ende draufzahlen."],
+        altAnswers: ["Wenn wir den Vertrag unterschreiben, ohne ihn zu prüfen, zahlen wir am Ende drauf.", "Wenn wir den Vertrag ungeprüft unterschreiben, zahlen wir am Ende dafür.", "Wenn wir den Vertrag unterschreiben, ohne ihn zu prüfen, zahlen wir am Ende dafür.", "Wenn wir den Vertrag ungeprüft unterschreiben, werden wir am Ende draufzahlen."],
         explanation: "\"Draufzahlen\" = to lose money on something. The \"wenn\" clause first, so the main clause starts with the verb.",
       },
       {

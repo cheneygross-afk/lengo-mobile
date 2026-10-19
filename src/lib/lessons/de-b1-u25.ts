@@ -130,7 +130,7 @@ export const DE_B1_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "Someone called for you.",
         answer: "Jemand hat für dich angerufen.",
-        altAnswers: ["Jemand hat für Sie angerufen.", "Jemand rief für dich an.", "Es hat jemand für dich angerufen."],
+        altAnswers: ["Jemand hat für Sie angerufen.", "Jemand hat für euch angerufen.", "Jemand rief für dich an.", "Es hat jemand für dich angerufen."],
         explanation: "\"Jemand\" in the nominative, no ending.",
       },
       {
@@ -172,7 +172,8 @@ export const DE_B1_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "When you've got a headache, every noise bothers you.",
         answer: "Wenn man Kopfschmerzen hat, stört einen jedes Geräusch.",
-        explanation: "\"Man\" as subject, \"einen\" as the object of \"stören\".",
+        altAnswers: ["Wenn man Kopfweh hat, stört einen jedes Geräusch.", "Wenn man Kopfschmerzen hat, nervt einen jedes Geräusch.", "Wenn du Kopfschmerzen hast, stört dich jedes Geräusch."],
+        explanation: "\"Man\" as subject, \"einen\" as the accusative object of \"stören\" (not \"einem\"). Casual \"du\" / \"dich\" is also fine.",
       },
       {
         type: "translate",
@@ -228,7 +229,7 @@ export const DE_B1_U25: Lesson[] = [
         ],
         examples: [
           { es: "Das macht man nicht.", en: "That's not done." },
-          { es: "Man hat mir gesagt, dass der Zug ausfällt.", en: "I was told the train had been cancelled." },
+          { es: "Man hat mir gesagt, dass der Zug ausgefallen ist.", en: "I was told the train had been cancelled." },
           { es: "Man gewöhnt sich an alles.", en: "You get used to everything." },
           { es: "Hier fühlt man sich wohl.", en: "You feel at home here." },
           { es: "Im Restaurant gibt man in Deutschland etwa zehn Prozent Trinkgeld.", en: "In Germany you tip about ten per cent in restaurants." },
@@ -248,8 +249,8 @@ export const DE_B1_U25: Lesson[] = [
             direction: "en-es",
             prompt: "Translate into German with man.",
             source: "I was told the train had been cancelled.",
-            answer: "Man hat mir gesagt, dass der Zug ausfällt.",
-            altAnswers: ["Man hat mir gesagt, dass der Zug ausgefallen ist.", "Man sagte mir, dass der Zug ausfällt.", "Man hat mir gesagt, der Zug fällt aus."],
+            answer: "Man hat mir gesagt, dass der Zug ausgefallen ist.",
+            altAnswers: ["Man hat mir gesagt, dass der Zug ausfällt.", "Man sagte mir, dass der Zug ausgefallen ist.", "Man sagte mir, dass der Zug ausfällt.", "Man hat mir gesagt, der Zug ist ausgefallen.", "Man hat mir gesagt, der Zug fällt aus."],
             explanation: "English passive with a person (I was told) → German \"man\" + dative \"mir\".",
           },
         ],
@@ -377,7 +378,7 @@ export const DE_B1_U25: Lesson[] = [
         prompt: "Translate into German with man.",
         source: "You feel at home here.",
         answer: "Hier fühlt man sich wohl.",
-        altAnswers: ["Man fühlt sich hier wohl.", "Hier fühlt man sich zu Hause."],
+        altAnswers: ["Man fühlt sich hier wohl.", "Hier fühlt man sich zu Hause.", "Man fühlt sich hier zu Hause."],
         explanation: "\"Sich wohlfühlen\" with \"man\" → \"sich\".",
       },
       {
@@ -386,7 +387,7 @@ export const DE_B1_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "Nobody helps you if you don't ask.",
         answer: "Keiner hilft einem, wenn man nicht fragt.",
-        altAnswers: ["Niemand hilft einem, wenn man nicht fragt.", "Keiner hilft dir, wenn du nicht fragst."],
+        altAnswers: ["Niemand hilft einem, wenn man nicht fragt.", "Keiner hilft dir, wenn du nicht fragst.", "Niemand hilft dir, wenn du nicht fragst."],
         explanation: "\"Einem\" after \"helfen\"; \"man\" in the wenn-clause.",
       },
       {
@@ -456,7 +457,7 @@ export const DE_B1_U25: Lesson[] = [
         heading: "The first evening",
         body: [
           "The Kayas arrive late in München. Ayşe Kaya writes in her diary: \"Wir kamen um zehn Uhr abends an. Niemand war auf der Straße, und im Haus war alles dunkel. Wir hatten Hunger, aber im Kühlschrank war nichts. Zum Glück hatte jemand einen Zettel auf den Tisch gelegt: Pizza-Service, Tel. ...\"",
-          "\"Niemand\" as the subject (no ending), \"nichts\" (nothing) and \"alles\" (everything), and \"jemand\" as the subject. \"Nichts\" never takes \"nicht\" either: \"Im Kühlschrank war nichts\" (there was nothing), not *nicht nichts*.",
+          "\"Niemand\" as the subject (no ending), \"nichts\" (nothing) and \"alles\" (everything), and \"jemand\" as the subject. \"Nichts\" never takes \"nicht\" either: \"Im Kühlschrank war nichts\" (there was nothing), not \"*nicht nichts\".",
           "With an adjective, \"etwas\" and \"nichts\" take a capital and -es (from Unit 20): \"etwas Leckeres\", \"nichts Besonderes\".",
         ],
         examples: [
@@ -577,7 +578,7 @@ export const DE_B1_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "You can get everywhere by bike there.",
         answer: "Man kann dort alles mit dem Rad erreichen.",
-        altAnswers: ["Dort kann man alles mit dem Rad erreichen.", "Man kann dort alles mit dem Fahrrad erreichen.", "Dort kann man alles mit dem Fahrrad erreichen."],
+        altAnswers: ["Dort kann man alles mit dem Rad erreichen.", "Man kann dort alles mit dem Fahrrad erreichen.", "Dort kann man alles mit dem Fahrrad erreichen.", "Man kommt dort mit dem Rad überallhin."],
         explanation: "\"Man kann\" + infinitive at the end.",
       },
       {
@@ -735,6 +736,7 @@ export const DE_B1_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "I need a bag. Have you got one? (to a friend)",
         answer: "Ich brauche eine Tasche. Hast du eine?",
+        altAnswers: ["Ich brauche eine Tüte. Hast du eine?"],
         explanation: "Feminine accusative pronoun: \"eine\".",
       },
       {
@@ -776,7 +778,7 @@ export const DE_B1_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "The phone is mine, not yours.",
         answer: "Das Handy ist meins, nicht deins.",
-        altAnswers: ["Das Handy ist meins, nicht Ihres.", "Das Handy ist meines, nicht deines."],
+        altAnswers: ["Das Handy ist meins, nicht Ihres.", "Das Handy ist meins, nicht eures.", "Das Handy ist meines, nicht deines.", "Das Handy gehört mir, nicht dir."],
         explanation: "Neuter possessive pronouns: \"meins\", \"deins\".",
       },
       {
@@ -863,7 +865,7 @@ export const DE_B1_U25: Lesson[] = [
         heading: "Hearing the endings",
         body: [
           "In fast speech the endings are short, but they're always there. Listen for the final sound: \"einer\" ends in a soft -a sound (EYE-na), \"einen\" in -n, \"einem\" in -m, \"eins\" in -s, \"eine\" in a short -e.",
-          "In casual speech \"eins\" is often \"eins\" and \"einen\" often sounds like \"ein'n\" or even \"'n\": \"Hast du 'n Stift? — Ja, hab ich\". You'll practise spoken shortcuts in Unit 27; for now, say every ending clearly.",
+          "In casual speech the article \"einen\" often sounds like \"ein'n\" or even \"'n\": \"Hast du 'n Stift? — Ja, hab ich\". You'll practise spoken shortcuts in Unit 27; for now, say every ending clearly.",
           "\"Eins\" is also the number one when counting: \"eins, zwei, drei\". Context tells you which: \"Ich habe eins\" (I've got one, a neuter thing) vs \"Es ist eins\" (it's one o'clock).",
         ],
         examples: [
@@ -1027,7 +1029,7 @@ export const DE_B1_U25: Lesson[] = [
         heading: "Der, die, das after a noun",
         body: [
           "After a noun, the relative pronoun is \"der, die, das\" (plural \"die\"), taking gender and number from the noun and case from its job in the relative clause: \"der Mann, der dort wohnt\" (subject), \"der Mann, den ich kenne\" (accusative), \"der Mann, dem ich helfe\" (dative), \"die Kinder, denen ich Nachhilfe gebe\" (dative plural).",
-          "This is the default. Whenever there's a specific noun, use \"der / die / das\", even for things: \"das Buch, das ich lese\" (never *das Buch, was ich lese* in standard German).",
+          "This is the default. Whenever there's a specific noun, use \"der / die / das\", even for things: \"das Buch, das ich lese\" (never \"*das Buch, was ich lese\" in standard German).",
           "The verb goes to the end of the relative clause, and the clause is separated by commas.",
         ],
         examples: [
@@ -1082,7 +1084,7 @@ export const DE_B1_U25: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Er hat angerufen, ___ mich sehr gefreut hat.",
+            question: "Which word fills the gap? \"Er hat angerufen, ___ mich sehr gefreut hat.\"",
             options: ["was", "der", "das", "wo"],
             correctIndex: 0,
             explanation: "\"Was\" refers to the whole previous clause.",
@@ -1138,6 +1140,7 @@ export const DE_B1_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "That's the man who lives next to us.",
         answer: "Das ist der Mann, der neben uns wohnt.",
+        altAnswers: ["Das ist der Mann, der nebenan wohnt."],
         explanation: "Subject of the relative clause, masculine: \"der\".",
       },
       {
@@ -1168,14 +1171,14 @@ export const DE_B1_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Das Beste, ___ du tun kannst, ist zu schlafen.",
+        question: "Which word fills the gap? \"Das Beste, ___ du tun kannst, ist zu schlafen.\"",
         options: ["was", "das", "der", "wo"],
         correctIndex: 0,
         explanation: "After a nominalised superlative (\"das Beste\"): \"was\".",
       },
       {
         type: "multiple-choice",
-        question: "Das Buch, ___ ich lese, ist spannend.",
+        question: "Which word fills the gap? \"Das Buch, ___ ich lese, ist spannend.\"",
         options: ["das", "was", "wo", "dem"],
         correctIndex: 0,
         explanation: "A specific noun → \"das\" (accusative neuter).",
@@ -1273,7 +1276,7 @@ export const DE_B1_U25: Lesson[] = [
         examples: [
           { es: "Der Fahrer hat uns direkt zum Hotel gebracht.", en: "The driver took us straight to the hotel." },
           { es: "Mein Wecker hat heute nicht geklingelt.", en: "My alarm clock didn't go off today." },
-          { es: "Er macht eine Ausbildung als Lehrling bei einer Bäckerei.", en: "He's doing an apprenticeship at a bakery." },
+          { es: "Er ist Lehrling in einer Bäckerei.", en: "He's an apprentice at a bakery." },
           { es: "Im Frühling blühen die Bäume.", en: "In spring the trees blossom." },
           { es: "Ein Schmetterling sitzt auf der Blume.", en: "A butterfly is sitting on the flower." },
           { es: "Das ist mein Lieblingslied.", en: "That's my favourite song." },
@@ -1375,10 +1378,10 @@ export const DE_B1_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which noun is masculine?",
-        options: ["Lehrling", "Wohnung", "Mädchen", "Freundschaft"],
+        question: "How do you say: The apprentice is new?",
+        options: ["Der Lehrling ist neu.", "Die Lehrling ist neu.", "Das Lehrling ist neu.", "Den Lehrling ist neu."],
         correctIndex: 0,
-        explanation: "-ling is masculine; -ung and -schaft feminine; -chen neuter.",
+        explanation: "-ling nouns are masculine: \"der Lehrling\". Compare -ung and -schaft (feminine) and -chen (neuter). \"Den\" is accusative, but the noun is the subject here.",
       },
       {
         type: "translate",
@@ -1395,7 +1398,7 @@ export const DE_B1_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "The driver took us to the hotel.",
         answer: "Der Fahrer hat uns zum Hotel gebracht.",
-        altAnswers: ["Die Fahrerin hat uns zum Hotel gebracht.", "Der Fahrer brachte uns zum Hotel."],
+        altAnswers: ["Die Fahrerin hat uns zum Hotel gebracht.", "Der Fahrer brachte uns zum Hotel.", "Der Fahrer hat uns ins Hotel gebracht."],
         explanation: "\"Fahren → der Fahrer\" (person doing the action).",
       },
       {
@@ -1473,7 +1476,7 @@ export const DE_B1_U25: Lesson[] = [
         body: [
           "\"-bar\" on a verb stem means can be done, like English -able: \"machen → machbar\" (doable), \"essen → essbar\" (edible), \"trinken → trinkbar\", \"erreichen → erreichbar\" (reachable, contactable), \"bezahlen → bezahlbar\" (affordable). \"Ich bin ab 9 Uhr erreichbar\" = You can reach me from 9.",
           "\"-los\" means without, like English -less: \"die Arbeit → arbeitslos\" (unemployed), \"die Kosten → kostenlos\" (free of charge), \"die Hilfe → hilflos\", \"der Sinn → sinnlos\" (pointless), \"die Sorge → sorglos\" (carefree). Many add a linking -s-: \"arbeitslos\", \"rücksichtslos\" (inconsiderate).",
-          "\"Kostenlos\" and \"umsonst\" both mean free (no charge); \"frei\" alone usually means free as in available or not occupied: \"Ist der Platz frei?\".",
+          "\"Kostenlos\" and \"umsonst\" both mean free (no charge); \"frei\" alone usually means free as in available or not occupied: \"Ist der Platz frei?\" (the fixed sign \"Eintritt frei\" is the exception).",
         ],
         examples: [
           { es: "Das Projekt ist bis Freitag machbar.", en: "The project is doable by Friday." },
@@ -1537,9 +1540,9 @@ export const DE_B1_U25: Lesson[] = [
           {
             type: "multiple-choice",
             question: "You want to say the new colleague is likeable. What do you say?",
-            options: ["Der neue Kollege ist sehr sympathisch.", "Der neue Kollege ist sehr sensibel.", "Der neue Kollege ist sehr konsequent.", "Der neue Kollege ist sehr eventuell."],
+            options: ["Der neue Kollege ist sehr sympathisch.", "Der neue Kollege ist sehr sensibel.", "Der neue Kollege ist sehr konsequent.", "Der neue Kollege ist sehr mitfühlend."],
             correctIndex: 0,
-            explanation: "\"Sympathisch\" = likeable, nice.",
+            explanation: "\"Sympathisch\" = likeable, nice. \"Mitfühlend\" is sympathetic (compassionate), \"sensibel\" sensitive, \"konsequent\" consistent.",
           },
         ],
       },
@@ -1602,6 +1605,7 @@ export const DE_B1_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "You have to be consistent. (to a friend)",
         answer: "Du musst konsequent sein.",
+        altAnswers: ["Du musst konsequent bleiben."],
         explanation: "Consistent = \"konsequent\".",
       },
       {
@@ -1738,11 +1742,12 @@ export const DE_B1_U25: Lesson[] = [
             prompt: "Translate into German.",
             source: "Is this yours? — No, mine is bigger. (the rucksack, formal)",
             answer: "Ist das Ihrer? — Nein, meiner ist größer.",
+            altAnswers: ["Ist der Ihrer? — Nein, meiner ist größer."],
             explanation: "\"Der Rucksack\" is masculine → \"Ihrer\", \"meiner\".",
           },
           {
             type: "multiple-choice",
-            question: "Ist das Ihr Handy? You say: No, mine is black.",
+            question: "The clerk asks: \"Ist das Ihr Handy?\" How do you say: No, mine is black?",
             options: ["Nein, meins ist schwarz.", "Nein, meiner ist schwarz.", "Nein, mein ist schwarz.", "Nein, meine ist schwarz."],
             correctIndex: 0,
             explanation: "\"Das Handy\" is neuter → \"meins\".",
@@ -1775,6 +1780,7 @@ export const DE_B1_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "Is this your jacket? — Yes, that's mine! (formal)",
         answer: "Ist das Ihre Jacke? — Ja, das ist meine!",
+        altAnswers: ["Ist das Ihre Jacke? — Ja, das ist meine Jacke!"],
         explanation: "\"Die Jacke\" → feminine pronoun \"meine\".",
       },
       {
@@ -1787,7 +1793,7 @@ export const DE_B1_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Ist das Ihr Schirm? — No, mine is longer. Which reply is correct?",
+        question: "The clerk asks: \"Ist das Ihr Schirm?\" How do you say: No, mine is longer?",
         options: ["Nein, meiner ist länger.", "Nein, mein ist länger.", "Nein, meins ist länger.", "Nein, meinen ist länger."],
         correctIndex: 0,
         explanation: "\"Der Schirm\" → masculine nominative \"meiner\".",
@@ -1852,7 +1858,7 @@ export const DE_B1_U25: Lesson[] = [
         body: [
           "In German apartment buildings the owners meet once a year at the \"Eigentümerversammlung\" (owners' meeting). Someone writes \"das Protokoll\" (the minutes). Here's the start from a building in Leipzig:",
           "\"Tagesordnung: 1. Begrüßung, 2. Renovierung des Treppenhauses, 3. Reinigung der Fahrradkeller, 4. Verschiedenes. Herr Becker übernahm die Leitung der Versammlung. Es waren zwölf von fünfzehn Eigentümern anwesend.\"",
-          "The agenda is a list of -ung nouns from verbs: \"begrüßen → die Begrüßung\", \"renovieren → die Renovierung\", \"reinigen → die Reinigung\", \"leiten → die Leitung\". Official German loves these nouns (\"Nominalstil\"); they all are feminine with plural -en.",
+          "The agenda is a list of -ung nouns from verbs: \"begrüßen → die Begrüßung\", \"renovieren → die Renovierung\", \"reinigen → die Reinigung\", \"leiten → die Leitung\". Official German loves these nouns (\"Nominalstil\"); they are all feminine with plural -en.",
         ],
         examples: [
           { es: "Herr Becker übernahm die Leitung der Versammlung.", en: "Mr Becker chaired the meeting." },
@@ -1991,17 +1997,17 @@ export const DE_B1_U25: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Ms Kaya suggested that [you should get] three quotes.",
+        en: "Ms Kaya suggested that [they] should get three quotes.",
         sentence: "Frau Kaya schlug vor, dass ___ drei Angebote einholen sollte.",
         answer: "man",
-        explanation: "General you in official German: \"man\".",
+        explanation: "An unspecified they / people in general is \"man\"; \"sie\" would point to specific people.",
       },
       {
         type: "multiple-choice",
-        question: "Which noun is formed from abstimmen (to vote)?",
-        options: ["die Abstimmung", "der Abstimmung", "das Abstimmen", "die Abstimmheit"],
+        question: "The minutes say: The vote was clear. Which is correct?",
+        options: ["Die Abstimmung war eindeutig.", "Der Abstimmung war eindeutig.", "Das Abstimmung war eindeutig.", "Die Abstimmheit war eindeutig."],
         correctIndex: 0,
-        explanation: "Verb + -ung → feminine noun: \"die Abstimmung\". (\"Das Abstimmen\" is the act of voting.)",
+        explanation: "Verb + -ung → feminine noun: \"abstimmen → die Abstimmung\". \"-heit\" goes on adjectives, not verbs.",
       },
       {
         type: "translate",
@@ -2060,7 +2066,7 @@ export const DE_B1_U25: Lesson[] = [
       {
         heading: "-heit: short adjectives",
         body: [
-          "Both suffixes turn adjectives into feminine nouns. The choice depends on the end of the adjective. \"-heit\" goes on most one-syllable adjectives and on adjectives ending in a stressed syllable: \"frei → die Freiheit\", \"krank → die Krankheit\", \"schön → die Schönheit\", \"sicher → die Sicherheit\", \"gesund → die Gesundheit\", \"dumm → die Dummheit\", \"klar → die Klarheit\".",
+          "Both suffixes turn adjectives into feminine nouns. The choice depends on the end of the adjective. \"-heit\" goes on most one-syllable adjectives and on adjectives ending in a stressed syllable: \"frei → die Freiheit\", \"krank → die Krankheit\", \"schön → die Schönheit\", \"gesund → die Gesundheit\", \"dumm → die Dummheit\", \"klar → die Klarheit\", and a few in -er / -el: \"sicher → die Sicherheit\", \"dunkel → die Dunkelheit\".",
           "It also appears on some nouns: \"das Kind → die Kindheit\" (childhood), \"der Mensch → die Menschheit\" (humanity).",
           "\"-heit\" nouns are often abstract qualities, but some become concrete: \"eine Dummheit machen\" (to do something stupid), \"die Gelegenheit\" (opportunity).",
         ],
@@ -2094,9 +2100,9 @@ export const DE_B1_U25: Lesson[] = [
       {
         heading: "-keit: after -ig, -lich, -bar, -sam",
         body: [
-          "\"-keit\" goes on adjectives ending in -ig, -lich, -bar and -sam, and on most adjectives ending in unstressed -el and -er: \"möglich → die Möglichkeit\", \"freundlich → die Freundlichkeit\", \"pünktlich → die Pünktlichkeit\", \"dankbar → die Dankbarkeit\", \"einsam → die Einsamkeit\" (loneliness), \"müde → die Müdigkeit\", \"schwierig → die Schwierigkeit\", \"sauber → die Sauberkeit\".",
+          "\"-keit\" goes on adjectives ending in -ig, -lich, -bar and -sam, and on many adjectives ending in unstressed -el and -er: \"möglich → die Möglichkeit\", \"freundlich → die Freundlichkeit\", \"pünktlich → die Pünktlichkeit\", \"dankbar → die Dankbarkeit\", \"einsam → die Einsamkeit\" (loneliness), \"schwierig → die Schwierigkeit\", \"sauber → die Sauberkeit\".",
           "Some adjectives without these endings take a longer \"-igkeit\": \"neu → die Neuigkeit\" (piece of news), \"schnell → die Schnelligkeit\", \"leicht → die Leichtigkeit\", \"müde → die Müdigkeit\".",
-          "The quick test: does the adjective end in -ig, -lich, -bar or -sam? Then it's -keit. Otherwise, try -heit first.",
+          "The quick test: does the adjective end in -ig, -lich, -bar or -sam? Then it's -keit. Otherwise, try -heit first (and learn exceptions like \"die Sicherheit\" as you meet them).",
         ],
         examples: [
           { es: "Pünktlichkeit ist in Deutschland sehr wichtig.", en: "Punctuality is very important in Germany." },
@@ -2118,8 +2124,8 @@ export const DE_B1_U25: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the noun from einsam (lonely)?",
-            options: ["die Einsamkeit", "die Einsamheit", "die Einsamung", "das Einsamkeit"],
+            question: "How do you say: Loneliness can make you ill?",
+            options: ["Einsamkeit kann krank machen.", "Einsamheit kann krank machen.", "Einsamung kann krank machen.", "Einsamtum kann krank machen."],
             correctIndex: 0,
             explanation: "Adjectives in -sam take -keit, and all -keit nouns are feminine.",
           },
@@ -2203,10 +2209,10 @@ export const DE_B1_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which noun is correctly formed?",
-        options: ["die Dankbarkeit", "die Dankbarheit", "die Freiheitkeit", "die Möglichheit"],
+        question: "How do you say: I'd like to show my gratitude?",
+        options: ["Ich möchte meine Dankbarkeit zeigen.", "Ich möchte meine Dankbarheit zeigen.", "Ich möchte meine Dankbarung zeigen.", "Ich möchte meinen Dankbarkeit zeigen."],
         correctIndex: 0,
-        explanation: "-bar → -keit: \"die Dankbarkeit\".",
+        explanation: "-bar → -keit: \"die Dankbarkeit\", feminine, so \"meine\". \"-ung\" goes on verbs, not adjectives.",
       },
       {
         type: "translate",
@@ -2280,8 +2286,8 @@ export const DE_B1_U25: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which article goes with the noun in: ___ Universität ist sehr alt.",
-            options: ["Die", "Der", "Das", "Den"],
+            question: "How do you say: The university is very old?",
+            options: ["Die Universität ist sehr alt.", "Der Universität ist sehr alt.", "Das Universität ist sehr alt.", "Den Universität ist sehr alt."],
             correctIndex: 0,
             explanation: "-tät nouns are feminine: \"die Universität\".",
           },
@@ -2329,7 +2335,7 @@ export const DE_B1_U25: Lesson[] = [
       {
         heading: "Rapid round 2: tricky ones",
         body: [
-          "A few look like they break the rules but don't. \"Das Mädchen\" and \"das Fräulein\" are neuter because of -chen and -lein, even though they refer to females. \"Der Lehrer\" but \"die Lehrerin\": the -in wins. \"Das Lesen\" (reading) is neuter because it's a verb used as a noun.",
+          "A few look like they break the rules but don't. \"Das Mädchen\" and \"das Fräulein\" (old-fashioned) are neuter because of -chen and -lein, even though they refer to females. \"Der Lehrer\" but \"die Lehrerin\": the -in wins. \"Das Lesen\" (reading) is neuter because it's a verb used as a noun.",
           "And a few real exceptions to learn: \"der Reichtum\" and \"der Irrtum\" (mistake) are masculine despite -um. \"Das Genie\" is neuter despite -ie. These are rare; trust the suffix and you'll be right almost every time.",
         ],
         examples: [
@@ -2388,15 +2394,15 @@ export const DE_B1_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which article? ___ Information war falsch.",
-        options: ["Die", "Der", "Das", "Dem"],
+        question: "How do you say: The information was wrong?",
+        options: ["Die Information war falsch.", "Der Information war falsch.", "Das Information war falsch.", "Dem Information war falsch."],
         correctIndex: 0,
         explanation: "-ion → feminine.",
       },
       {
         type: "multiple-choice",
-        question: "Which article? ___ Tourismus wächst.",
-        options: ["Der", "Die", "Das", "Den"],
+        question: "How do you say: Tourism is growing?",
+        options: ["Der Tourismus wächst.", "Die Tourismus wächst.", "Das Tourismus wächst.", "Den Tourismus wächst."],
         correctIndex: 0,
         explanation: "-ismus → masculine.",
       },
@@ -2458,6 +2464,6 @@ export const DE_B1_U25_WRITING: WriteExercise = {
     "Uses at least two nouns built with -ung, -heit or -keit (\"die Beschreibung\", \"die Möglichkeit\", \"die Abholung\").",
     "Uses the pasts to say what happened and a polite question or request (\"Könnten Sie mir bitte mitteilen, ob...\").",
   ],
-  modelAnswer: "Sehr geehrte Damen und Herren,\n\nam Freitag, dem 12. Mai, bin ich mit dem ICE um 14:30 Uhr von Hamburg nach Berlin gefahren. Leider habe ich meine Tasche im Zug liegen lassen. Ich saß in Wagen 7, Platz 45.\n\nHier ist eine kurze Beschreibung: Es ist eine schwarze Tasche aus Leder mit einem langen Gurt. Drin waren ein grauer Pullover, ein altes Buch, eine blaue Wasserflasche und eine kleine Kosmetiktasche. Wertsachen waren zum Glück nicht drin, aber das Buch ist ein Geschenk von meiner Großmutter und hat für mich einen großen Wert.\n\nIst die Tasche vielleicht abgegeben worden? Wenn jemand sie gefunden hat, wäre ich sehr dankbar für eine kurze Nachricht. Gibt es die Möglichkeit, sie in Berlin abzuholen, oder muss man sie zuschicken lassen?\n\nMit freundlichen Grüßen\nLena Schneider",
-  explanation: "\"Jemand\" (subject) and \"man\" (general you) are the indefinite pronouns; \"liegen lassen\" and the passive \"abgegeben worden\" say what happened. Adjective endings follow the article: \"eine schwarze Tasche\", \"mit einem langen Gurt\", \"ein grauer Pullover\", \"ein altes Buch\". Nouns with suffixes: \"die Beschreibung\", \"die Möglichkeit\", \"die Wertsachen\", and the adjective \"dankbar\" (-bar).",
+  modelAnswer: "Sehr geehrte Damen und Herren,\n\nam Freitag, dem 12. Mai, bin ich mit dem ICE um 14:30 Uhr von Hamburg nach Berlin gefahren. Leider habe ich meine Tasche im Zug liegen lassen. Ich saß in Wagen 7, Platz 45.\n\nHier ist eine kurze Beschreibung: Es ist eine schwarze Tasche aus Leder mit einem langen Gurt. Drin waren ein grauer Pullover, ein altes Buch, eine blaue Wasserflasche und eine kleine Kosmetiktasche. Wertsachen waren zum Glück nicht drin, aber das Buch ist ein Geschenk von meiner Großmutter und hat für mich einen großen Wert.\n\nIst die Tasche vielleicht abgegeben worden? Wenn jemand sie gefunden hat, wäre ich sehr dankbar für eine kurze Nachricht. Gibt es die Möglichkeit, sie in Berlin abzuholen, oder muss man sie sich zuschicken lassen?\n\nMit freundlichen Grüßen\nLena Schneider",
+  explanation: "\"Jemand\" (subject) and \"man\" (general you) are the indefinite pronouns; \"liegen lassen\" and the passive \"abgegeben worden\" say what happened. Adjective endings follow the article: \"eine schwarze Tasche\", \"mit einem langen Gurt\", \"ein grauer Pullover\", \"ein altes Buch\". Nouns with suffixes: \"die Beschreibung\", \"die Möglichkeit\", and the adjective \"dankbar\" (-bar).",
 };

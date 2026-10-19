@@ -321,7 +321,7 @@ export const GOETHE_B2_LESEN: ExamPaper = {
         },
         {
           n: 25,
-          question: "Auf dem Bildschirm sieht man nicht alles",
+          question: "Wie es den Mitarbeitern geht, merkt man aus der Ferne kaum",
           options: KOMMENTARE,
           answer: 3,
           explanation: "Ursula (D) ist Teamleiterin und merkt viel schwerer, wenn es jemandem nicht gut geht: „Am Telefon sagt jeder, dass alles in Ordnung ist.“",

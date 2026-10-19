@@ -23,7 +23,7 @@ export const DE_C1_U14: Lesson[] = [
     level: "DE-C1",
     number: 1,
     title: "German Around the World, Part 1 of 6",
-    summary: "Where German is spoken, from Germany and Austria to South Tyrol, East Belgium and Namibia, and why German has three equally correct standard varieties.",
+    summary: "Say where German is spoken, from Germany and Austria to South Tyrol, East Belgium and Namibia, and explain why German has three equally correct standard varieties.",
     duration: "17 min",
     sections: [
       {
@@ -70,8 +70,8 @@ export const DE_C1_U14: Lesson[] = [
         examples: [
           { es: "Deutsch ist eine plurizentrische Sprache.", en: "German is a pluricentric language." },
           { es: "Das österreichische Deutsch ist kein Dialekt, sondern eine Standardvarietät.", en: "Austrian German is not a dialect but a standard variety." },
-          { es: "In Österreich sagt man Jänner statt Januar.", en: "In Austria they say Jaenner instead of Januar for January." },
-          { es: "In der Schweiz schreibt man kein ß.", en: "In Switzerland they don't write the letter Eszett." },
+          { es: "In Österreich sagt man Jänner statt Januar.", en: "In Austria they say \"Jänner\" instead of \"Januar\" for January." },
+          { es: "In der Schweiz schreibt man kein ß.", en: "In Switzerland they don't write the letter \"ß\" (Eszett)." },
           { es: "Im Österreichischen Wörterbuch stehen viele Wörter, die man in Deutschland kaum kennt.", en: "The Austrian dictionary contains many words that are hardly known in Germany." },
         ],
         checkpoint: [
@@ -124,7 +124,7 @@ export const DE_C1_U14: Lesson[] = [
             question: "What does it mean?",
             options: ["My grandad still speaks Low German.", "My grandad speaks flat, boring German.", "My grandad speaks German with a lisp.", "My grandad doesn't speak German any more."],
             correctIndex: 0,
-            explanation: "\"Plattdeutsch\" (Niederdeutsch) is the Low German of the north; \"platt\" here refers to the flat lowlands.",
+            explanation: "\"Plattdeutsch\" (Niederdeutsch) is the Low German of the north; \"platt\" is usually explained as referring to the flat lowlands of the north.",
           },
         ],
       },
@@ -167,7 +167,7 @@ export const DE_C1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A Viennese colleague says: Ich bin den ganzen Tag gesessen. What do you think?",
+        question: "A Viennese colleague says: \"Ich bin den ganzen Tag gesessen.\" What do you think?",
         options: ["It's correct Austrian Standard German.", "It's a grammar mistake.", "It's a dialect form that should never be written.", "It's old-fashioned German from the 19th century."],
         correctIndex: 0,
         explanation: "The sein-Perfekt with \"sitzen\", \"stehen\", \"liegen\" is standard in Austria and southern Germany.",
@@ -225,21 +225,21 @@ export const DE_C1_U14: Lesson[] = [
     level: "DE-C1",
     number: 2,
     title: "German Around the World, Part 2 of 6",
-    summary: "Austrian Standard German: Kaffee stressed at the end, ich bin gesessen, das Cola and der Polster, Sackerl and Pickerl, Grüß Gott, Servus and Baba.",
+    summary: "Recognise and use Austrian Standard German: \"Kaffee\" stressed at the end, \"ich bin gesessen\", \"das Cola\" and \"der Polster\", \"Sackerl\" and \"Pickerl\", \"Grüß Gott\", \"Servus\" and \"Baba\".",
     duration: "18 min",
     sections: [
       {
         heading: "How Austrians sound",
         body: [
-          "Austrian Standard German has its own pronunciation norms. Some words are stressed differently: \"Kaffee\" is stressed on the second syllable (ka-FEE), as are \"Tabak\" and \"Platin\"; \"Mathematik\" keeps its final stress but many Austrians say \"Mathe-MA-tik\". Words in -ig end in a k sound: \"König\" sounds like Könik, \"zwanzig\" like zwanzik (in Germany: Könich, zwanzich).",
-          "Words of Greek origin starting in ch- are pronounced with k: \"Chemie\" (Kemie), \"China\" (Kina), \"Chirurg\". Consonants are softer: the difference between p / b, t / d, k / g is smaller, and the s at the start of a word is usually voiceless (\"Sonne\" with a sharp s).",
-          "Austrian speech is often described as more melodic, with a weak r after vowels and a final -er that sounds almost like a (\"Wasser\" close to Wassa). You don't need to imitate any of this, but recognising it helps you follow Austrian radio, TV and colleagues.",
+          "Austrian Standard German has its own pronunciation norms. Some words are stressed differently: \"Kaffee\" is stressed on the second syllable (ka-FEE), as are \"Tabak\" and \"Platin\"; \"Mathematik\" keeps its final stress but many Austrians say \"Mathe-MA-tik\". Words in -ig end in a k sound: \"König\" sounds like \"Könik\", \"zwanzig\" like \"zwanzik\" (in Germany: \"Könich\", \"zwanzich\").",
+          "Words of Greek origin starting in ch- are pronounced with k: \"Chemie\" (\"Kemie\"), \"China\" (\"Kina\"), \"Chirurg\". Consonants are softer: the difference between p / b, t / d, k / g is smaller, and the s at the start of a word is usually voiceless (\"Sonne\" with a sharp s).",
+          "Austrian speech is often described as more melodic, with a weak r after vowels and a final -er that sounds almost like a (\"Wasser\" close to \"Wassa\"). You don't need to imitate any of this, but recognising it helps you follow Austrian radio, TV and colleagues.",
         ],
         examples: [
           { es: "Einen Kaffee, bitte.", en: "A coffee, please. (Austrians stress the second syllable)" },
-          { es: "Der König von Spanien kommt nach Wien.", en: "The king of Spain is coming to Vienna. (Koenig ends in a k sound in Austria)" },
-          { es: "Sie studiert Chemie in Graz.", en: "She's studying chemistry in Graz. (Chemie with k)" },
-          { es: "Das kostet zwanzig Euro.", en: "That costs twenty euros. (zwanzig ends in k)" },
+          { es: "Der König von Spanien kommt nach Wien.", en: "The king of Spain is coming to Vienna. (\"König\" ends in a k sound in Austria)" },
+          { es: "Sie studiert Chemie in Graz.", en: "She's studying chemistry in Graz. (\"Chemie\" with k)" },
+          { es: "Das kostet zwanzig Euro.", en: "That costs twenty euros. (\"zwanzig\" ends in k)" },
           { es: "Ich trinke meinen Kaffee mit Milch.", en: "I take my coffee with milk." },
         ],
         checkpoint: [
@@ -253,8 +253,8 @@ export const DE_C1_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which pronunciation of Chemie is standard in Austria?",
-            options: ["With a k sound: Kemie", "With a sh sound: Shemie", "With the soft ch of ich", "With a silent ch: Emie"],
+            question: "Which pronunciation of \"Chemie\" is standard in Austria?",
+            options: ["With a k sound: \"Kemie\"", "With a sh sound: Shemie", "With the soft ch of ich", "With a silent ch: Emie"],
             correctIndex: 0,
             explanation: "Austria and much of southern Germany say \"Chemie\" with k; northern Germany uses the soft ich-sound.",
           },
@@ -263,7 +263,7 @@ export const DE_C1_U14: Lesson[] = [
       {
         heading: "Austrian grammar: ich bin gesessen and the Perfekt",
         body: [
-          "The best-known grammatical difference: \"sitzen\", \"stehen\" and \"liegen\" form the Perfekt with \"sein\" in Austria (and in southern Germany and Switzerland): \"Ich bin im Zug gesessen\", \"Wir sind an der Kassa gestanden\", \"Das Buch ist auf dem Tisch gelegen\". In northern and central Germany: \"habe gesessen / gestanden / gelegen\". Both are correct standard German in their region. The same goes for \"hängen\", \"schwimmen\" (\"bin geschwommen\" everywhere) and \"knien\".",
+          "The best-known grammatical difference: \"sitzen\", \"stehen\" and \"liegen\" form the Perfekt with \"sein\" in Austria (and in southern Germany and Switzerland): \"Ich bin im Zug gesessen\", \"Wir sind an der Kassa gestanden\", \"Das Buch ist auf dem Tisch gelegen\". In northern and central Germany: \"habe gesessen / gestanden / gelegen\". Both are correct standard German in their region. In the south the same goes for \"hängen\" (\"ist gehangen\") and \"knien\" (\"bin gekniet\").",
           "Austrians, like southern Germans, rarely use the Präteritum in speech, except for \"war\", \"hatte\" and the modals. Even \"war\" often becomes \"bin gewesen\" in casual speech: \"Wo bist du gestern gewesen?\" A story told with \"ging\", \"sah\", \"sagte\" sounds like a book.",
           "Some nouns have different genders: \"das Cola\" (Austria, also \"die Cola\"), \"der Polster\" (cushion; in Germany \"das Polster\", and the cushion is \"das Kissen\"), \"das E-Mail\" (also Swiss). And the diminutive -erl replaces -chen: \"das Sackerl\" (bag), \"das Pickerl\" (sticker, also the motorway vignette and the annual car inspection), \"das Stamperl\" (shot glass), \"das Kipferl\" (croissant-shaped pastry).",
         ],
@@ -291,7 +291,7 @@ export const DE_C1_U14: Lesson[] = [
             en: "Do you need a [bag]? (at a Vienna supermarket)",
             sentence: "Brauchen Sie ein ___?",
             answer: "Sackerl",
-            explanation: "\"Das Sackerl\" is the Austrian word for a (plastic or paper) bag, a Tüte in Germany. The -erl ending makes it neuter.",
+            explanation: "\"Das Sackerl\" is the Austrian word for a (plastic or paper) bag, a \"Tüte\" in Germany. The -erl ending makes it neuter.",
           },
         ],
       },
@@ -367,7 +367,7 @@ export const DE_C1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "An Austrian friend says: Wo bist du gestern gewesen? What would a northern German more likely say?",
+        question: "An Austrian friend says: \"Wo bist du gestern gewesen?\" What would a northern German more likely say?",
         options: ["Wo warst du gestern?", "Wo hast du gestern gewesen?", "Wo wurdest du gestern?", "Wo bist du gestern gewest?"],
         correctIndex: 0,
         explanation: "Northern Germans use the Präteritum \"warst\" for \"sein\"; Austrians often use the Perfekt \"bist gewesen\" even for \"sein\".",
@@ -425,7 +425,7 @@ export const DE_C1_U14: Lesson[] = [
     level: "DE-C1",
     number: 3,
     title: "German Around the World, Part 3 of 6",
-    summary: "Swiss Standard German: no ß, a different ch and stress, Helvetisms like parkieren, das Tram and der Match, and the diglossia between Swiss German and Hochdeutsch.",
+    summary: "Recognise Swiss Standard German: no \"ß\", a different ch and stress, Helvetisms like \"parkieren\", \"das Tram\" and \"der Match\", and the diglossia between Swiss German and Hochdeutsch.",
     duration: "18 min",
     sections: [
       {
@@ -433,7 +433,7 @@ export const DE_C1_U14: Lesson[] = [
         body: [
           "German-speaking Switzerland lives in diglossia: two forms of German with separate jobs. Schweizerdeutsch (\"Schwiizertüütsch\"), a family of Alemannic dialects, is spoken by everyone in everyday life: at home, at work, in many cantonal parliaments, on local radio, even by professors in office hours. Standard German (\"Schriftdeutsch\" or \"Hochdeutsch\") is used for writing, for the national TV news, in schools as the language of instruction, and with people who don't understand dialect.",
           "For Swiss people Hochdeutsch is almost a first foreign language: they read and write it daily, but many feel slightly stiff speaking it. When a German or a learner joins a conversation, the Swiss often switch to Hochdeutsch politely; if you understand dialect, saying so is much appreciated.",
-          "Swiss German dialects are not mutually intelligible with standard German without exposure: \"Chuchichäschtli\" (kitchen cupboard, Küchenschränkchen) is the famous pronunciation test. As a learner you need to recognise a few greetings; the rest you will meet in Hochdeutsch.",
+          "Swiss German dialects are not mutually intelligible with standard German without exposure: \"Chuchichäschtli\" (kitchen cupboard, \"Küchenschränkchen\") is the famous pronunciation test. As a learner you need to recognise a few greetings; the rest you will meet in Hochdeutsch.",
         ],
         examples: [
           { es: "In der Schweiz spricht man Dialekt und schreibt Hochdeutsch.", en: "In Switzerland people speak dialect and write standard German." },
@@ -465,7 +465,7 @@ export const DE_C1_U14: Lesson[] = [
         heading: "Spelling and pronunciation",
         body: [
           "Swiss Standard German has no ß: it writes ss everywhere, \"Strasse\", \"gross\", \"Fuss\", \"schliesslich\". That is official Swiss spelling, not an error; Swiss keyboards don't even have the key. In Swiss newspapers like the NZZ or the Tages-Anzeiger you will always see ss.",
-          "In pronunciation, the ch is the back sound of Bach in every position, also after e and i: \"ich\" and \"Milch\" with the throaty ch. Many French loanwords are stressed on the first syllable: \"Billett\" (ticket), \"Büro\", \"Buffet\", \"Garage\" (BI-llett, BÜ-ro). The k at the start of a word is often a ch sound in dialect (\"Chind\" for Kind), but not in Hochdeutsch.",
+          "In pronunciation, the ch is the back sound of Bach in every position, also after e and i: \"ich\" and \"Milch\" with the throaty ch. Many French loanwords are stressed on the first syllable: \"Billett\" (ticket), \"Büro\", \"Buffet\", \"Garage\" (BI-llett, BÜ-ro). The k at the start of a word is often a ch sound in dialect (\"Chind\" for \"Kind\"), but not in Hochdeutsch.",
           "Swiss Hochdeutsch also has a slower rhythm and a clear, unreduced pronunciation of endings: many Germans find it easy to understand once they get used to it.",
         ],
         examples: [
@@ -478,8 +478,8 @@ export const DE_C1_U14: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "A Zurich newspaper writes: Die Strasse bleibt bis Freitag gesperrt. What do you think about the spelling?",
-            options: ["It's correct Swiss spelling, which never uses ß.", "It's a typo; it must be Straße.", "It's old spelling from before 1996.", "It's dialect spelling."],
+            question: "A Zurich newspaper writes: \"Die Strasse bleibt bis Freitag gesperrt.\" What do you think about the spelling?",
+            options: ["It's correct Swiss spelling, which never uses \"ß\".", "It's a typo; it must be \"Straße\".", "It's old spelling from before 1996.", "It's dialect spelling."],
             correctIndex: 0,
             explanation: "Switzerland and Liechtenstein write ss instead of ß in all words.",
           },
@@ -489,7 +489,7 @@ export const DE_C1_U14: Lesson[] = [
             question: "What does it mean?",
             options: ["Do you already have a ticket?", "Do you already have a bill?", "Do you already have a ballet?", "Have you had a snack yet?"],
             correctIndex: 0,
-            explanation: "\"Das Billett\" is the Swiss word for a ticket (Fahrkarte, Eintrittskarte), stressed on the first syllable.",
+            explanation: "\"Das Billett\" is the Swiss word for a ticket (\"Fahrkarte\", \"Eintrittskarte\"), stressed on the first syllable.",
           },
         ],
       },
@@ -497,7 +497,7 @@ export const DE_C1_U14: Lesson[] = [
         heading: "Helvetisms",
         body: [
           "Swiss vocabulary that differs from Germany is called \"Helvetismen\". Many are verbs in -ieren where Germany uses a plain verb: \"parkieren\" (parken), \"grillieren\" (grillen), \"duschen\" is the same, but \"zügeln\" means to move house (umziehen). Some genders differ: \"das Tram\" (die Straßenbahn / die Tram), \"der Match\" (das Match / das Spiel), \"das Mail\" (die E-Mail), \"der Final\" (das Finale).",
-          "French loans are frequent: \"das Velo\" (Fahrrad), \"das Trottoir\" (Bürgersteig), \"das Perron\" (Bahnsteig), \"merci\" (danke, very common in speech, often \"merci vielmal\"), \"Exgüsi\" (Entschuldigung, from excusez). Other everyday words: \"das Spital\" (Krankenhaus, also Austrian), \"der Estrich\" (Dachboden), \"die Matura\" (Abitur), \"allfällig\" (eventuell, in official language), \"die Pendenz\" (an open task).",
+          "French loans are frequent: \"das Velo\" (Fahrrad), \"das Trottoir\" (Bürgersteig), \"der Perron\" (Bahnsteig), \"merci\" (danke, very common in speech, often \"merci vielmal\"), \"Exgüsi\" (Entschuldigung, from excusez). Other everyday words: \"das Spital\" (Krankenhaus, also Austrian), \"der Estrich\" (Dachboden), \"die Matura\" (Abitur), \"allfällig\" (eventuell, in official language), \"die Pendenz\" (an open task).",
           "Greetings: \"Grüezi\" (hello, to one person you say Sie to), \"Grüezi mitenand\" (to several), \"Hoi\" or \"Sali\" (hi, informal), \"Uf Wiederluege\" (goodbye), \"Tschüss\" or \"Ciao\" (bye). With friends: \"Hoi zäme\" (hi all).",
         ],
         examples: [
@@ -551,10 +551,10 @@ export const DE_C1_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the Swiss word for the bold word.",
-        en: "I cycle to work: I go by [bike].",
+        en: "I go to work by [bike].",
         sentence: "Ich fahre mit dem ___ zur Arbeit.",
         answer: "Velo",
-        explanation: "\"Das Velo\" (from French vélo) is the Swiss word for Fahrrad.",
+        explanation: "\"Das Velo\" (from French vélo) is the Swiss word for \"Fahrrad\".",
       },
       {
         type: "translate",
@@ -577,6 +577,7 @@ export const DE_C1_U14: Lesson[] = [
         prompt: "Put the words in order to say: In Switzerland people speak dialect and write standard German.",
         words: ["In der Schweiz", "spricht", "man", "Dialekt", "und", "schreibt", "Hochdeutsch."],
         translation: "In Switzerland people speak dialect and write standard German.",
+        altOrders: [["Man", "spricht", "In der Schweiz", "Dialekt", "und", "schreibt", "Hochdeutsch."]],
         explanation: "Diglossia in one sentence: dialect for speaking, Hochdeutsch for writing.",
       },
       {
@@ -586,7 +587,7 @@ export const DE_C1_U14: Lesson[] = [
         source: "The road is closed until Friday.",
         answer: "Die Strasse ist bis Freitag gesperrt.",
         altAnswers: ["Die Strasse bleibt bis Freitag gesperrt.", "Die Straße ist bis Freitag gesperrt.", "Die Straße bleibt bis Freitag gesperrt."],
-        explanation: "Swiss spelling uses ss: \"Strasse\". Straße with ß is the spelling of Germany and Austria.",
+        explanation: "Swiss spelling uses ss: \"Strasse\". \"Straße\" with \"ß\" is the spelling of Germany and Austria.",
       },
       {
         type: "translate",
@@ -595,7 +596,7 @@ export const DE_C1_U14: Lesson[] = [
         source: "My grandmother is in hospital.",
         answer: "Meine Grossmutter ist im Spital.",
         altAnswers: ["Meine Großmutter ist im Spital.", "Meine Oma ist im Spital.", "Meine Grossmutter liegt im Spital.", "Meine Großmutter liegt im Spital.", "Meine Oma liegt im Spital."],
-        explanation: "\"Das Spital\" is Swiss and Austrian for Krankenhaus; Swiss spelling writes \"Grossmutter\".",
+        explanation: "\"Das Spital\" is Swiss and Austrian for \"Krankenhaus\"; Swiss spelling writes \"Grossmutter\".",
       },
       {
         type: "listen-choose",
@@ -624,7 +625,7 @@ export const DE_C1_U14: Lesson[] = [
     level: "DE-C1",
     number: 4,
     title: "Mastery Check: German Around the World, Part 1",
-    summary: "Austrian and Swiss pronunciation, grammar and greetings in short listening-style texts, without hints.",
+    summary: "Check that you can recognise Austrian and Swiss pronunciation, grammar and greetings in short listening-style texts, without hints.",
     duration: "16 min",
     sections: [
       {
@@ -635,7 +636,7 @@ export const DE_C1_U14: Lesson[] = [
           "Find the Austrian features: \"Servus\", \"in der Früh\" (in the morning), \"die Bim\" (the Vienna tram), \"bin ... gestanden\", \"Sackerl\", \"Kipferl\", \"Baba\".",
         ],
         examples: [
-          { es: "Ich bin heute in der Früh eine Stunde in der Bim gestanden.", en: "This morning I stood in the tram for an hour." },
+          { es: "Ich bin heute in der Früh eine Stunde in der Bim gestanden.", en: "This morning I was stuck in the tram for an hour." },
           { es: "Ich komm so um zehn.", en: "I'll be there around ten." },
           { es: "Kannst du mir ein Sackerl Kipferl mitnehmen?", en: "Can you bring me a bag of croissants?" },
           { es: "Servus, Lena! Baba!", en: "Hi Lena! Bye!" },
@@ -656,7 +657,7 @@ export const DE_C1_U14: Lesson[] = [
             question: "What is the speaker asking for?",
             options: ["A bag of crescent-shaped pastries", "A sack of potatoes", "A small bottle of schnapps", "A sticker for the car"],
             correctIndex: 0,
-            explanation: "\"Ein Sackerl\" is a bag, \"Kipferl\" are crescent-shaped pastries (Hörnchen in Germany).",
+            explanation: "\"Ein Sackerl\" is a bag, \"Kipferl\" are crescent-shaped pastries (\"Hörnchen\" in Germany).",
           },
         ],
       },
@@ -682,7 +683,7 @@ export const DE_C1_U14: Lesson[] = [
             source: "This evening we're having a barbecue on the balcony.",
             answer: "Am Abend grillieren wir auf dem Balkon.",
             altAnswers: ["Heute Abend grillieren wir auf dem Balkon.", "Wir grillieren heute Abend auf dem Balkon.", "Wir grillieren am Abend auf dem Balkon."],
-            explanation: "Swiss \"grillieren\"; the Balkon is the same everywhere.",
+            explanation: "Swiss \"grillieren\"; \"Balkon\" is the same everywhere.",
           },
           {
             type: "fill-blank",
@@ -698,7 +699,7 @@ export const DE_C1_U14: Lesson[] = [
         heading: "Who said it?",
         body: [
           "Text 3 mixes speakers: \"Grüß Gott, ich hätte gern ein Cola.\" (Austria) – \"Grüezi, ein Cola, bitte.\" (Switzerland, which also says \"das Cola\") – \"Moin, 'ne Cola, bitte.\" (northern Germany).",
-          "Clues to listen for: greetings (Grüß Gott / Servus vs Grüezi / Hoi vs Moin / Tach), the sein-Perfekt of \"sitzen / stehen / liegen\" (south and Austria), -erl diminutives (Austria) vs -li (Switzerland, \"Müesli\", \"Säckli\"), ch pronounced at the back of the throat (Switzerland), Kaffee with final stress (Austria).",
+          "Clues to listen for: greetings (\"Grüß Gott\" / \"Servus\" vs \"Grüezi\" / \"Hoi\" vs \"Moin\" / \"Tach\"), the sein-Perfekt of \"sitzen / stehen / liegen\" (south and Austria), -erl diminutives (Austria) vs -li (Switzerland, \"Müesli\", \"Säckli\"), ch pronounced at the back of the throat (Switzerland), \"Kaffee\" with final stress (Austria).",
           "No single clue is decisive, but two or three together usually tell you where you are.",
         ],
         examples: [
@@ -711,7 +712,7 @@ export const DE_C1_U14: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Where are you? Grüezi! Möchten Sie ein Säckli?",
+            question: "Where are you? \"Grüezi! Möchten Sie ein Säckli?\"",
             options: ["Switzerland", "Austria", "Northern Germany", "Berlin"],
             correctIndex: 0,
             explanation: "\"Grüezi\" and the -li diminutive \"Säckli\" are Swiss.",
@@ -754,7 +755,7 @@ export const DE_C1_U14: Lesson[] = [
         sentence: "Ich ruf dich ___ an.",
         answer: "in der Früh",
         altAnswers: ["morgen in der Früh"],
-        explanation: "\"In der Früh\" is the Austrian (and Bavarian) way to say am Morgen.",
+        explanation: "\"In der Früh\" is the Austrian (and Bavarian) way to say \"am Morgen\".",
       },
       {
         type: "translate",
@@ -767,7 +768,7 @@ export const DE_C1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Where are you? Servus! Ich bin gestern den ganzen Tag im Büro gesessen.",
+        question: "Where are you? \"Servus! Ich bin gestern den ganzen Tag im Büro gesessen.\"",
         options: ["Austria or Bavaria", "Switzerland", "Hamburg", "Berlin"],
         correctIndex: 0,
         explanation: "\"Servus\" and the sein-Perfekt \"bin gesessen\" point to Austria or southern Germany.",
@@ -786,7 +787,7 @@ export const DE_C1_U14: Lesson[] = [
         prompt: "Translate into Austrian Standard German.",
         source: "I've sent you an email with the photos.",
         answer: "Ich hab dir ein E-Mail mit den Fotos geschickt.",
-        altAnswers: ["Ich habe dir ein E-Mail mit den Fotos geschickt.", "Ich habe Ihnen ein E-Mail mit den Fotos geschickt.", "Ich hab dir ein E-Mail mit den Fotos gschickt.", "Ich habe euch ein E-Mail mit den Fotos geschickt."],
+        altAnswers: ["Ich habe dir ein E-Mail mit den Fotos geschickt.", "Ich habe Ihnen ein E-Mail mit den Fotos geschickt.", "Ich habe euch ein E-Mail mit den Fotos geschickt."],
         explanation: "\"Das E-Mail\" in Austria and Switzerland, \"die E-Mail\" in Germany.",
       },
       {
@@ -824,7 +825,7 @@ export const DE_C1_U14: Lesson[] = [
     level: "DE-C1",
     number: 5,
     title: "Transformations: From Berlin to Vienna",
-    summary: "Turn a conversation in German Standard German into Austrian Standard German, with Jänner, heuer, Sackerl, Paradeiser and ich bin gestanden, and back.",
+    summary: "Turn a conversation in German Standard German into Austrian Standard German, with \"Jänner\", \"heuer\", \"Sackerl\", \"Paradeiser\" and \"ich bin gestanden\", and back.",
     duration: "17 min",
     sections: [
       {
@@ -866,7 +867,7 @@ export const DE_C1_U14: Lesson[] = [
         body: [
           "The kitchen is where Austria and Germany differ most: \"Tomate\" → \"Paradeiser\", \"Kartoffel\" → \"Erdapfel\", \"Brötchen\" → \"Semmel\", \"Sahne\" → \"Schlagobers\" (whipped) / \"Obers\", \"Quark\" → \"Topfen\", \"Aprikose\" → \"Marille\", \"Blumenkohl\" → \"Karfiol\", \"Hackfleisch\" → \"Faschiertes\", \"Tüte\" → \"Sackerl\".",
           "Shops and money: \"Kasse\" → \"Kassa\" (Austrian -a), \"Supermarkt\" stays, \"Kiosk\" → \"Trafik\" (for tobacco, newspapers and tickets).",
-          "When transforming, adjust genders and plurals: \"die Tomaten\" → \"die Paradeiser\" (der Paradeiser, plural without ending), \"die Brötchen\" → \"die Semmeln\".",
+          "When transforming, adjust genders and plurals: \"die Tomaten\" → \"die Paradeiser\" (\"der Paradeiser\", plural without ending), \"die Brötchen\" → \"die Semmeln\".",
         ],
         examples: [
           { es: "Kannst du Tomaten und Kartoffeln kaufen? → Kannst du Paradeiser und Erdäpfel kaufen?", en: "Can you buy tomatoes and potatoes?" },
@@ -891,7 +892,7 @@ export const DE_C1_U14: Lesson[] = [
             question: "What does it mean?",
             options: ["A piece of apple strudel with whipped cream, please.", "A piece of apple strudel with ice cream, please.", "A piece of apple strudel with custard, please.", "An apple strudel to take away, please."],
             correctIndex: 0,
-            explanation: "\"Schlagobers\" is Austrian for whipped cream (Schlagsahne).",
+            explanation: "\"Schlagobers\" is Austrian for whipped cream (\"Schlagsahne\").",
           },
         ],
       },
@@ -903,7 +904,7 @@ export const DE_C1_U14: Lesson[] = [
           "Going back, from Vienna to Berlin, is the same chain in reverse. Don't overdo it: a German Standard German text with \"Grüß Gott\" and \"Jänner\" is perfectly understandable in Vienna.",
         ],
         examples: [
-          { es: "Ich habe den ganzen Tag gelegen. → Ich bin den ganzen Tag gelegen.", en: "I lay down all day." },
+          { es: "Ich habe den ganzen Tag gelegen. → Ich bin den ganzen Tag gelegen.", en: "I was lying down all day." },
           { es: "Hallo, Jonas! → Servus, Jonas!", en: "Hi Jonas!" },
           { es: "Gestern gingen wir ins Theater. → Gestern sind wir ins Theater gegangen.", en: "Yesterday we went to the theatre." },
           { es: "Das ist schön, oder? → Das ist schön, gell?", en: "That's nice, isn't it?" },
@@ -969,7 +970,7 @@ export const DE_C1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Transform into Austrian Standard German: Wir haben im Garten gesessen.",
+        question: "Transform into Austrian Standard German: \"Wir haben im Garten gesessen.\"",
         options: ["Wir sind im Garten gesessen.", "Wir saßen im Garten gewesen.", "Wir haben im Garten gesitzt.", "Wir sind im Garten gesitzt."],
         correctIndex: 0,
         explanation: "Only the auxiliary changes: \"sind ... gesessen\". The participle stays \"gesessen\".",
@@ -1026,14 +1027,14 @@ export const DE_C1_U14: Lesson[] = [
     level: "DE-C1",
     number: 6,
     title: "Error Hunt: Misreading Austrian and Swiss German",
-    summary: "A learner's comprehension mistakes: Sessel, Kasten, heuer, Estrich, Matura, Spital, Velo, Trottoir and Swiss ss; correct the translations.",
+    summary: "Spot and correct a learner's misreadings of Austrian and Swiss words such as \"Sessel\", \"Kasten\", \"heuer\", \"Estrich\", \"Matura\", \"Spital\", \"Velo\" and \"Trottoir\", and of Swiss ss spelling.",
     duration: "16 min",
     sections: [
       {
         heading: "Austrian false friends",
         body: [
-          "Tom, an English learner in Vienna, keeps a diary of what he thought words meant. Each entry has one misreading. In Austria \"der Sessel\" is an ordinary chair (Stuhl), not an armchair; the armchair is \"der Fauteuil\". \"Der Kasten\" is a wardrobe or cupboard (Schrank), not a box. \"Heuer\" means this year, not hay. \"Die Stiege\" is a staircase (Treppe), and on Viennese addresses \"Stiege 3\" is the stairwell in a large building.",
-          "Tom's entry: \"Die Vermieterin sagte: Nehmen Sie sich einen Sessel. I looked for an armchair.\" Correct reading: take a chair. Another: \"Die Jacke hängt im Kasten. I looked in a box.\" Correct: in the wardrobe.",
+          "Tom, an English learner in Vienna, keeps a diary of what he thought words meant. Each entry has one misreading. In Austria \"der Sessel\" is an ordinary chair (\"Stuhl\"), not an armchair; the armchair is \"der Fauteuil\". \"Der Kasten\" is a wardrobe or cupboard (\"Schrank\"), not a box. \"Heuer\" means this year, not hay. \"Die Stiege\" is a staircase (\"Treppe\"), and on Viennese addresses \"Stiege 3\" is the stairwell in a large building.",
+          "Tom's entry: \"Die Vermieterin sagte: Nehmen Sie sich einen Sessel.\" He looked for an armchair. Correct reading: take a chair. Another: \"Die Jacke hängt im Kasten.\" He looked in a box. Correct: in the wardrobe.",
           "Such words are dangerous because they exist in German Standard German with another meaning, so you don't notice you've misunderstood.",
         ],
         examples: [
@@ -1047,7 +1048,7 @@ export const DE_C1_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Tom misread this Austrian sentence as Put the shoes in the box. Translate the correct meaning back into Austrian German: Put the shoes in the cupboard.",
+            prompt: "Tom misread an Austrian sentence as 'Put the shoes in the box'. It actually meant: Put the shoes in the cupboard. Translate that into Austrian German.",
             source: "Put the shoes in the cupboard.",
             answer: "Stell die Schuhe in den Kasten.",
             altAnswers: ["Stellen Sie die Schuhe in den Kasten.", "Stellt die Schuhe in den Kasten.", "Gib die Schuhe in den Kasten.", "Tu die Schuhe in den Kasten.", "Geben Sie die Schuhe in den Kasten."],
@@ -1055,19 +1056,19 @@ export const DE_C1_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "An Austrian landlady says: Setzen Sie sich doch auf den Sessel. What does she mean?",
+            question: "An Austrian landlady says: \"Setzen Sie sich doch auf den Sessel.\" What does she mean?",
             options: ["Sit down on the chair.", "Sit down in the armchair.", "Sit down on the sofa.", "Sit down on the stairs."],
             correctIndex: 0,
-            explanation: "In Austria \"Sessel\" means any chair. In Germany a Sessel is an armchair.",
+            explanation: "In Austria \"Sessel\" means any chair. In Germany a \"Sessel\" is an armchair.",
           },
         ],
       },
       {
         heading: "Swiss false friends",
         body: [
-          "Tom's sister Emma works in Zurich. Her misreadings: \"Der Estrich ist voll mit alten Möbeln\": she thought of a concrete floor (the German meaning of Estrich is screed), but in Switzerland \"der Estrich\" is the attic (Dachboden). \"Er macht dieses Jahr die Matura\": not a mature-student course but the school-leaving exam (Abitur), also in Austria.",
+          "Tom's sister Emma works in Zurich. Her misreadings: \"Der Estrich ist voll mit alten Möbeln\": she thought of a concrete floor (the German meaning of \"Estrich\" is screed), but in Switzerland \"der Estrich\" is the attic (\"Dachboden\"). \"Er macht dieses Jahr die Matura\": not a mature-student course but the school-leaving exam (\"Abitur\"), also in Austria.",
           "\"Sie liegt im Spital\": hospital, not a hospice or old people's home. \"Lass das Velo nicht auf dem Trottoir stehen\": bicycle and pavement, not velvet and a trot. \"Die Strasse ist gross\": not a misspelling but Swiss ss.",
-          "Notice how many Swiss words come from French (Velo, Trottoir, Perron, Billett, Glace = ice cream). If a Swiss word looks French, try the French meaning first.",
+          "Notice how many Swiss words come from French (\"Velo\", \"Trottoir\", \"Perron\", \"Billett\", \"Glace\" = ice cream). If a Swiss word looks French, try the French meaning first.",
         ],
         examples: [
           { es: "Die alten Möbel stehen auf dem Estrich.", en: "The old furniture is in the attic. (Switzerland)" },
@@ -1100,7 +1101,7 @@ export const DE_C1_U14: Lesson[] = [
         heading: "Fixing the translations",
         body: [
           "The method for every misreading: first ask where the speaker is from; then check if the word has a regional meaning; finally re-read the sentence with that meaning and see if it makes more sense. \"Wir fahren heuer nach Kroatien\" makes no sense with hay; with this year it does.",
-          "In written texts, look for clues of origin: ss instead of ß (Switzerland, Liechtenstein), \"Jänner\" or \"Kassa\" (Austria), a .at or .ch domain, place names. Austrian and Swiss newspapers use their own standard vocabulary, so a word you don't find in a German dictionary may be in the Austrian Wörterbuch.",
+          "In written texts, look for clues of origin: ss instead of ß (Switzerland, Liechtenstein), \"Jänner\" or \"Kassa\" (Austria), a .at or .ch domain, place names. Austrian and Swiss newspapers use their own standard vocabulary, so a word you don't find in a German dictionary may be in the \"Österreichisches Wörterbuch\".",
           "Finally, don't 'correct' Austrian or Swiss forms in other people's writing: they are standard in their country.",
         ],
         examples: [
@@ -1118,7 +1119,7 @@ export const DE_C1_U14: Lesson[] = [
             source: "Please wait on the platform.",
             answer: "Bitte warten Sie auf dem Perron.",
             altAnswers: ["Warten Sie bitte auf dem Perron.", "Bitte wartet auf dem Perron.", "Bitte warte auf dem Perron.", "Warte bitte auf dem Perron."],
-            explanation: "Swiss \"das Perron\" (from French) = \"der Bahnsteig\" in Germany.",
+            explanation: "Swiss \"der Perron\" (from French) = \"der Bahnsteig\" in Germany.",
           },
           {
             type: "fill-blank",
@@ -1169,7 +1170,7 @@ export const DE_C1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A Swiss colleague writes: Wir müssen den Estrich räumen. What do you need to clear?",
+        question: "A Swiss colleague writes: \"Wir müssen den Estrich räumen.\" What do you need to clear?",
         options: ["The attic", "The concrete floor", "The basement", "The garden"],
         correctIndex: 0,
         explanation: "Swiss \"Estrich\" = attic. In Germany \"Estrich\" is screed, the layer under a floor.",
@@ -1225,7 +1226,7 @@ export const DE_C1_U14: Lesson[] = [
     level: "DE-C1",
     number: 7,
     title: "German Around the World, Part 4 of 6",
-    summary: "German in Liechtenstein, South Tyrol, Luxembourg, East Belgium and Namibia: Italian loans like das Patent, trilingual schooling, and Namibian Robot and lekker.",
+    summary: "Describe German in Liechtenstein, South Tyrol, Luxembourg, East Belgium and Namibia: Italian loans like \"das Patent\", trilingual schooling, and Namibian \"Robot\" and \"lekker\".",
     duration: "18 min",
     sections: [
       {
@@ -1233,7 +1234,7 @@ export const DE_C1_U14: Lesson[] = [
         body: [
           "South Tyrol (\"Südtirol\", Italian Alto Adige) has belonged to Italy since 1919. About two thirds of its half a million inhabitants speak German as their first language, a quarter Italian, and a small group Ladin. German and Italian are both official; place names appear in both languages: \"Bozen / Bolzano\", \"Meran / Merano\", \"Brixen / Bressanone\".",
           "Public life is organised by language group. Under the \"Proporz\" system, public-sector jobs and funds are allocated according to the size of each group, and every resident declares a language-group affiliation. Children go to German- or Italian-language schools. Bilingualism is required for many jobs (the \"Zweisprachigkeitsprüfung\").",
-          "South Tyrolean Standard German is close to Austrian, with Italian loans for everyday administration: \"das Patent\" (driving licence, Führerschein), \"die Targa\" (number plate), \"das Kondominium\" (block of flats with shared management), \"die Bar\" (café), \"der Geometer\" (surveyor). In speech, Bavarian-Tyrolean dialect dominates.",
+          "South Tyrolean Standard German is close to Austrian, with Italian loans for everyday administration: \"das Patent\" (driving licence, \"Führerschein\"), \"die Targa\" (number plate), \"das Kondominium\" (block of flats with shared management), \"die Bar\" (café), \"der Geometer\" (surveyor). In speech, Bavarian-Tyrolean dialect dominates.",
         ],
         examples: [
           { es: "In Bozen sind alle Schilder zweisprachig.", en: "In Bolzano all the signs are bilingual." },
@@ -1273,7 +1274,7 @@ export const DE_C1_U14: Lesson[] = [
           { es: "Die meisten Zeitungen in Luxemburg erscheinen auf Deutsch.", en: "Most newspapers in Luxembourg are published in German." },
           { es: "In Liechtenstein zahlt man mit Schweizer Franken.", en: "In Liechtenstein you pay in Swiss francs." },
           { es: "Eupen ist die Hauptstadt der Deutschsprachigen Gemeinschaft Belgiens.", en: "Eupen is the capital of Belgium's German-speaking Community." },
-          { es: "Moien! sagt man in Luxemburg zur Begrüßung.", en: "Moien! is how people say hello in Luxembourg." },
+          { es: "„Moien!“ sagt man in Luxemburg zur Begrüßung.", en: "\"Moien!\" is how people say hello in Luxembourg." },
         ],
         checkpoint: [
           {
@@ -1426,21 +1427,21 @@ export const DE_C1_U14: Lesson[] = [
     level: "DE-C1",
     number: 8,
     title: "German Around the World, Part 5 of 6",
-    summary: "Regional German inside Germany: Platt, Bairisch, Schwäbisch, Sächsisch, Berlinerisch and Kölsch, everyday features like nich, net, ick and gell, and the stereotypes around them.",
+    summary: "Recognise regional German inside Germany (\"Platt\", \"Bairisch\", \"Schwäbisch\", \"Sächsisch\", \"Berlinerisch\", \"Kölsch\"), everyday features like \"nich\", \"net\", \"ick\" and \"gell\", and the stereotypes around them.",
     duration: "18 min",
     sections: [
       {
         heading: "The big dialect regions",
         body: [
-          "Germany's dialects fall into three bands. In the north, Low German (\"Plattdeutsch\" or \"Niederdeutsch\") never went through the consonant shift that created High German: it still says \"dat\", \"wat\", \"Water\", \"maken\" (das, was, Wasser, machen), much like English that, what, water, make. In the middle, Central German dialects such as Hessian, Saxon, Thuringian and Kölsch. In the south, Upper German: Bavarian (\"Bairisch\", also spoken in Austria) and Alemannic (Swabian, Baden, Swiss German).",
+          "Germany's dialects fall into three bands. In the north, Low German (\"Plattdeutsch\" or \"Niederdeutsch\") never went through the consonant shift that created High German: it still says \"dat\", \"wat\", \"Water\", \"maken\" (\"das\", \"was\", \"Wasser\", \"machen\"), much like English that, what, water, make. In the middle, Central German dialects such as Hessian, Saxon, Thuringian and Kölsch. In the south, Upper German: Bavarian (\"Bairisch\", also spoken in Austria) and Alemannic (Swabian, Baden, Swiss German).",
           "Few young people in northern Germany still speak full Platt, but it is officially protected as a regional language, heard on NDR radio and taught in some schools. In Bavaria and Swabia dialect is much more alive, including among young people and in local politics.",
           "What most visitors hear is not full dialect but regional standard (\"Regiolekt\"): standard grammar with regional pronunciation, a few words and characteristic small words like \"ne\", \"gell\" and \"nich\".",
         ],
         examples: [
           { es: "Mein Opa schnackt noch Platt.", en: "My grandad still speaks Low German. (northern)" },
           { es: "In Bayern hört man auch bei jungen Leuten viel Dialekt.", en: "In Bavaria you hear a lot of dialect even among young people." },
-          { es: "Kölsch ist ein Dialekt und ein Bier.", en: "Koelsch is both a dialect and a beer." },
-          { es: "Im Plattdeutschen sagt man Water statt Wasser.", en: "In Low German they say Water instead of Wasser." },
+          { es: "Kölsch ist ein Dialekt und ein Bier.", en: "\"Kölsch\" is both a dialect and a beer." },
+          { es: "Im Plattdeutschen sagt man Water statt Wasser.", en: "In Low German they say \"Water\" instead of \"Wasser\"." },
           { es: "Sie spricht keinen Dialekt, aber man hört, dass sie aus Sachsen kommt.", en: "She doesn't speak dialect, but you can hear that she's from Saxony." },
         ],
         checkpoint: [
@@ -1465,9 +1466,9 @@ export const DE_C1_U14: Lesson[] = [
       {
         heading: "Small words that give you away",
         body: [
-          "North: \"nich\" for nicht, \"ne?\" as a tag (Das ist gut, ne?), \"Moin\" (hello, at any time of day; \"Moin moin\" is chattier), \"Tschüss\", \"Tach\" (Guten Tag). Berlin: \"ick\" (ich), \"det\" (das), \"wat\" (was), \"jut\" (gut, with g as j), \"wa?\" as a tag (Det is jut, wa?).",
-          "South-west: Swabian \"isch\" (ist), the diminutive \"-le\" (\"Häusle\", \"Spätzle\"), \"schaffe\" for arbeiten, \"gell\" as a tag. Bavaria: \"net\" (nicht), \"mia\" (wir), \"gell\" or \"gö\", \"Servus\", \"Grüß Gott\", the diminutive \"-erl\" shared with Austria. Hesse: \"gelle\", \"ei\" as a filler. Saxony: \"nu\" (ja), soft consonants (t and d, p and b sound alike).",
-          "Cologne and the Rhineland: \"Tach\", \"Alaaf\" (carnival cry), \"jeck\" (crazy, carnival-mad), \"dat\" and \"wat\" again, and \"Wie isset?\" (Wie ist es?). You can understand all of this with standard German plus a little practice.",
+          "North: \"nich\" for \"nicht\", \"ne?\" as a tag (\"Das ist gut, ne?\"), \"Moin\" (hello, at any time of day; \"Moin moin\" is chattier), \"Tschüss\", \"Tach\" (\"Guten Tag\"). Berlin: \"ick\" (\"ich\"), \"det\" (\"das\"), \"wat\" (\"was\"), \"jut\" (\"gut\", with g as j), \"wa?\" as a tag (\"Det is jut, wa?\").",
+          "South-west: Swabian \"isch\" (\"ist\"), the diminutive \"-le\" (\"Häusle\", \"Spätzle\"), \"schaffe\" for \"arbeiten\", \"gell\" as a tag. Bavaria: \"net\" (\"nicht\"), \"mia\" (\"wir\"), \"gell\" or \"gö\", \"Servus\", \"Grüß Gott\", the diminutive \"-erl\" shared with Austria. Hesse: \"gelle\", \"ei\" as a filler. Saxony: \"nu\" (\"ja\"), soft consonants (t and d, p and b sound alike).",
+          "Cologne and the Rhineland: \"Tach\", \"Alaaf\" (carnival cry), \"jeck\" (crazy, carnival-mad), \"dat\" and \"wat\" again, and \"Wie isset?\" (\"Wie ist es?\"). You can understand all of this with standard German plus a little practice.",
         ],
         examples: [
           { es: "Das ist gut so, ne?", en: "That's fine like that, isn't it? (north)" },
@@ -1481,11 +1482,11 @@ export const DE_C1_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite the Berlin sentence in standard German: Ick hab keene Ahnung, wat det soll.",
+            prompt: "Rewrite the Berlin sentence in standard German: \"Ick hab keene Ahnung, wat det soll.\"",
             source: "I've no idea what that's supposed to mean.",
             answer: "Ich habe keine Ahnung, was das soll.",
             altAnswers: ["Ich hab keine Ahnung, was das soll.", "Ich habe keine Ahnung, was das bedeuten soll.", "Ich hab keine Ahnung, was das bedeuten soll."],
-            explanation: "Berlin \"ick\" = ich, \"keene\" = keine, \"wat\" = was, \"det\" = das.",
+            explanation: "Berlin \"ick\" = \"ich\", \"keene\" = \"keine\", \"wat\" = \"was\", \"det\" = \"das\".",
           },
           {
             type: "listen-choose",
@@ -1493,7 +1494,7 @@ export const DE_C1_U14: Lesson[] = [
             question: "Where is the speaker probably from?",
             options: ["Swabia (Stuttgart area)", "Hamburg", "Berlin", "Cologne"],
             correctIndex: 0,
-            explanation: "\"Isch\" for ist and \"des\" for das are typical Swabian features.",
+            explanation: "\"Isch\" for \"ist\" and \"des\" for \"das\" are typical Swabian features.",
           },
         ],
       },
@@ -1507,7 +1508,7 @@ export const DE_C1_U14: Lesson[] = [
         examples: [
           { es: "Sächsisch ist in Umfragen oft der unbeliebteste Dialekt.", en: "Saxon is often the least popular dialect in surveys." },
           { es: "Mia san mia, sagen die Bayern.", en: "We are who we are, say the Bavarians." },
-          { es: "Die Berliner Schnauze ist frech, aber witzig.", en: "The Berlin lip is cheeky but witty." },
+          { es: "Die Berliner Schnauze ist frech, aber witzig.", en: "The famous Berlin gob is cheeky but witty." },
           { es: "Den Schwaben sagt man nach, dass sie sparsam sind.", en: "Swabians are said to be thrifty." },
           { es: "Wo kommt das Wort eigentlich her?", en: "Where does that word actually come from?" },
         ],
@@ -1537,28 +1538,28 @@ export const DE_C1_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in standard German: Det is jut, wa?",
+        prompt: "Rewrite in standard German: \"Det is jut, wa?\"",
         source: "That's good, isn't it?",
         answer: "Das ist gut, oder?",
         altAnswers: ["Das ist gut, nicht wahr?", "Das ist gut, ne?", "Das ist gut, nicht?", "Das ist gut, gell?"],
-        explanation: "Berlin \"det\" = das, \"is\" = ist, \"jut\" = gut, \"wa?\" = oder? / nicht wahr?",
+        explanation: "Berlin \"det\" = \"das\", \"is\" = \"ist\", \"jut\" = \"gut\", \"wa?\" = \"oder?\" / \"nicht wahr?\"",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in standard German: Des woaß i net.",
+        prompt: "Rewrite in standard German: \"Des woaß i net.\"",
         source: "I don't know that.",
         answer: "Das weiß ich nicht.",
         altAnswers: ["Ich weiß das nicht."],
-        explanation: "Bavarian \"des\" = das, \"woaß\" = weiß, \"i\" = ich, \"net\" = nicht.",
+        explanation: "Bavarian \"des\" = \"das\", \"woaß\" = \"weiß\", \"i\" = \"ich\", \"net\" = \"nicht\".",
       },
       {
         type: "fill-blank",
         prompt: "Write the standard German for the bold word.",
-        en: "Swabian: Er schafft beim Daimler. → He [works] at Daimler.",
+        en: "Swabian: \"Er schafft beim Daimler.\" → He [works] at Daimler.",
         sentence: "Er ___ bei Daimler.",
         answer: "arbeitet",
-        explanation: "Swabian \"schaffe\" (schaffen) means to work; in standard German \"schaffen\" means to manage or create.",
+        explanation: "Swabian \"schaffe\" (\"schaffen\") means to work; in standard German \"schaffen\" means to manage or create.",
       },
       {
         type: "translate",
@@ -1571,7 +1572,7 @@ export const DE_C1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Someone greets you with Moin! at 6 p.m. Where are you probably?",
+        question: "Someone greets you with \"Moin!\" at 6 p.m. Where are you probably?",
         options: ["Northern Germany", "Bavaria", "Austria", "Switzerland"],
         correctIndex: 0,
         explanation: "\"Moin\" is the northern greeting for any time of day, not just the morning.",
@@ -1628,14 +1629,14 @@ export const DE_C1_U14: Lesson[] = [
     level: "DE-C1",
     number: 9,
     title: "Dialogue Lab: Ein Plausch in Wien",
-    summary: "A chat with a Viennese neighbour about work and the weekend: Servus, na geh!, leiwand, Oida, die Hackn, die Bim, ins Beisl gehen and Schmäh, answered in natural standard German.",
+    summary: "Follow a chat with a Viennese neighbour about work and the weekend (\"Servus\", \"na geh!\", \"leiwand\", \"Oida\", \"die Hackn\", \"die Bim\", \"ins Beisl gehen\", \"Schmäh\") and answer in natural standard German.",
     duration: "17 min",
     sections: [
       {
         heading: "In the stairwell",
         body: [
           "Sophie, from Leipzig, has lived in Vienna's 7th district for three months. Her neighbour Andi, about her age, catches her on the stairs. They have been on du terms since the house party. Andi speaks the relaxed Viennese colloquial register; Sophie answers in her own standard German, which is completely fine.",
-          "Key words: \"Servus\" (hi), \"na?\" (so, how's it going?), \"die Hackn\" (work, from hackeln = to work hard), \"Wie war die Hackn?\" (How was work?), \"na geh!\" (oh come on! / no way!).",
+          "Key words: \"Servus\" (hi), \"na?\" (so, how's it going?), \"die Hackn\" (work, from \"hackeln\" = to work hard), \"Wie war die Hackn?\" (How was work?), \"na geh!\" (oh come on! / no way!).",
           "Notice that Sophie doesn't need to imitate Viennese. Replying \"Ganz gut, danke, und bei dir?\" is natural; a well-placed \"Servus\" is a friendly bonus.",
         ],
         examples: [
@@ -1670,7 +1671,7 @@ export const DE_C1_U14: Lesson[] = [
         body: [
           "Andi invites Sophie out. Viennese words: \"ins Beisl gehen\" (go to a traditional pub-restaurant), \"die Bim\" (tram), \"leiwand\" (great, cool), \"Oida\" (dude / mate, used between friends, also as an exclamation of surprise; not for strangers).",
           "Andi: \"Morgen gehen wir ins Beisl ums Eck, kommst mit? Die haben a leiwandes Schnitzel.\" Sophie: \"Gern! Wie kommt man da hin?\" Andi: \"Mit der Bim, zwei Stationen.\"",
-          "Note \"a\" for ein / eine in Viennese, and \"kommst mit?\" with the dropped pronoun du. Sophie answers in standard German, perhaps using a local word she has picked up: \"Mit der Bim? Super.\"",
+          "Note \"a\" for \"ein\" / \"eine\" in Viennese, and \"kommst mit?\" with the dropped pronoun du. Sophie answers in standard German, perhaps using a local word she has picked up: \"Mit der Bim? Super.\"",
         ],
         examples: [
           { es: "Andi: Morgen gehen wir ins Beisl ums Eck. Kommst mit?", en: "Andi: Tomorrow we're going to the pub round the corner. Coming along?" },
@@ -1691,7 +1692,7 @@ export const DE_C1_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Andi says: Die haben ein leiwandes Schnitzel. What does he mean?",
+            question: "Andi says: \"Die haben ein leiwandes Schnitzel.\" What does he mean?",
             options: ["They have a great schnitzel.", "They have a thin schnitzel.", "They have a cheap schnitzel.", "They have a vegetarian schnitzel."],
             correctIndex: 0,
             explanation: "\"Leiwand\" is Viennese for great, cool; as an adjective it takes endings: \"ein leiwandes Schnitzel\".",
@@ -1747,7 +1748,7 @@ export const DE_C1_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate Andi's Viennese into standard German: Morgen gehen wir ins Beisl ums Eck, kommst mit?",
+        prompt: "Translate Andi's Viennese into standard German: \"Morgen gehen wir ins Beisl ums Eck, kommst mit?\"",
         source: "Tomorrow we're going to the pub round the corner, are you coming?",
         answer: "Morgen gehen wir in die Kneipe um die Ecke, kommst du mit?",
         altAnswers: ["Morgen gehen wir in die Gaststätte um die Ecke, kommst du mit?", "Morgen gehen wir in die Kneipe um die Ecke. Kommst du mit?", "Morgen gehen wir ins Gasthaus um die Ecke, kommst du mit?", "Morgen gehen wir ins Lokal um die Ecke, kommst du mit?"],
@@ -1768,12 +1769,12 @@ export const DE_C1_U14: Lesson[] = [
         prompt: "Translate into standard German.",
         source: "I know that anyway.",
         answer: "Das weiß ich sowieso.",
-        altAnswers: ["Das weiß ich eh.", "Das weiß ich ohnehin.", "Ich weiß das sowieso.", "Ich weiß das eh.", "Das weiß ich doch."],
+        altAnswers: ["Das weiß ich eh.", "Das weiß ich ohnehin.", "Ich weiß das sowieso.", "Ich weiß das eh."],
         explanation: "Austrian \"eh\" = \"sowieso\" / \"ohnehin\" (anyway); \"eh\" is also common in southern Germany.",
       },
       {
         type: "multiple-choice",
-        question: "Andi says: Na geh, das glaub ich nicht! How does he feel?",
+        question: "Andi says: \"Na geh, das glaub ich nicht!\" How does he feel?",
         options: ["Surprised or incredulous", "Bored", "Angry and leaving", "Very polite and formal"],
         correctIndex: 0,
         explanation: "\"Na geh!\" expresses disbelief or mild protest: oh come on! no way!",
@@ -1797,7 +1798,7 @@ export const DE_C1_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate Andi's Viennese into standard German: Die Hackn war heut echt zach.",
+        prompt: "Translate Andi's Viennese into standard German: \"Die Hackn war heut echt zach.\"",
         source: "Work was really tough today.",
         answer: "Die Arbeit war heute echt anstrengend.",
         altAnswers: ["Die Arbeit war heute wirklich anstrengend.", "Die Arbeit war heute echt hart.", "Die Arbeit war heute wirklich hart.", "Die Arbeit war heute echt zäh.", "Die Arbeit war heute sehr anstrengend."],
@@ -1888,11 +1889,11 @@ export const DE_C1_U14: Lesson[] = [
             source: "Hello, two rolls and a pretzel, please.",
             answer: "Grüß Gott, zwei Semmeln und eine Breze, bitte.",
             altAnswers: ["Grüß Gott, zwei Semmeln und eine Brezn, bitte.", "Grüß Gott, zwei Semmeln und eine Brezel, bitte.", "Grüß Gott, zwei Semmeln und eine Breze bitte.", "Grüß Gott! Zwei Semmeln und eine Breze, bitte."],
-            explanation: "Munich: \"Grüß Gott\", \"Semmel\", \"Breze\" (Brezel elsewhere).",
+            explanation: "Munich: \"Grüß Gott\", \"Semmel\", \"Breze\" (\"Brezel\" elsewhere).",
           },
           {
             type: "multiple-choice",
-            question: "In a Vienna bakery the assistant asks: Darf's noch was sein? What do you answer if you're done?",
+            question: "In a Vienna bakery the assistant asks: \"Darf's noch was sein?\" What do you answer if you're done?",
             options: ["Nein, danke, das wär's.", "Nein, danke, das darf.", "Ja, das war's.", "Nein, das darf nicht sein."],
             correctIndex: 0,
             explanation: "\"Das wär's\" (that would be all) is the polite closing of an order everywhere.",
@@ -1902,9 +1903,9 @@ export const DE_C1_U14: Lesson[] = [
       {
         heading: "Zurich",
         body: [
-          "Zurich, in Swiss Standard German (to a foreigner; among themselves they would speak dialect): \"Grüezi!\" – \"Grüezi, zwei Weggli und ein Gipfeli, bitte.\" – \"Gern. Sonst noch etwas?\" – \"Nein, merci, das wäre alles.\" – \"Möchten Sie ein Säckli?\" – \"Nein, merci.\" – \"Merci vielmal und en schöne Tag!\" – \"Uf Wiederluege!\".",
+          "Zurich, in Swiss Standard German (to a foreigner; among themselves they would speak dialect): \"Grüezi!\" – \"Grüezi, zwei Weggli und ein Gipfeli, bitte.\" – \"Gern. Sonst noch etwas?\" – \"Nein, merci, das wäre alles.\" – \"Möchten Sie ein Säckli?\" – \"Nein, merci.\" – \"Merci vielmal und einen schönen Tag!\" – \"Uf Wiederluege!\".",
           "The roll is a \"Weggli\" (soft milk roll), the croissant a \"Gipfeli\"; \"Brötli\" is a general small roll. The Swiss use \"merci\" constantly, and shop staff wish you a good day. Prices are said with \"Franken\" and \"Rappen\": \"Das macht vier Franken achtzig.\"",
-          "Summary of the bakery words: roll = Brötchen (standard) / Rundstück (Hamburg) / Schrippe (Berlin) / Semmel (Bavaria, Austria) / Weggli, Brötli (Switzerland); doughnut = Berliner / Pfannkuchen (Berlin) / Krapfen (south, Austria).",
+          "Summary of the bakery words: roll = \"Brötchen\" (standard) / \"Rundstück\" (Hamburg) / \"Schrippe\" (Berlin) / \"Semmel\" (Bavaria, Austria) / \"Weggli\", \"Brötli\" (Switzerland); doughnut = \"Berliner\" / \"Pfannkuchen\" (Berlin) / \"Krapfen\" (south, Austria).",
         ],
         examples: [
           { es: "Grüezi, zwei Weggli und ein Gipfeli, bitte.", en: "Hello, two soft rolls and a croissant, please. (Zurich)" },
@@ -1929,7 +1930,7 @@ export const DE_C1_U14: Lesson[] = [
             en: "That's [four francs eighty].",
             sentence: "Das macht ___.",
             answer: "vier Franken achtzig",
-            explanation: "Swiss prices: francs then the centimes (Rappen) number, like \"vier Euro achtzig\".",
+            explanation: "Swiss prices: francs then the centimes (\"Rappen\") number, like \"vier Euro achtzig\".",
           },
         ],
       },
@@ -1959,7 +1960,7 @@ export const DE_C1_U14: Lesson[] = [
         en: "In Berlin a jam doughnut is called a [pancake].",
         sentence: "In Berlin heißt der Berliner ___.",
         answer: "Pfannkuchen",
-        explanation: "Berlin's own name for the jam doughnut is \"Pfannkuchen\"; a Berliner would never call it a \"Berliner\".",
+        explanation: "Berlin's own name for the jam doughnut is \"Pfannkuchen\"; Berliners don't normally call it a \"Berliner\".",
       },
       {
         type: "translate",
@@ -2028,7 +2029,7 @@ export const DE_C1_U14: Lesson[] = [
     level: "DE-C1",
     number: 11,
     title: "German Around the World, Part 6 of 6",
-    summary: "Media across the German-speaking world as listening resources: Tagesschau, Deutschlandfunk, DW, ORF and Ö1, SRF, RAI Südtirol, and Austrian and Swiss vocabulary in the press.",
+    summary: "Use media across the German-speaking world as listening resources (\"Tagesschau\", Deutschlandfunk, DW, ORF and Ö1, SRF, RAI Südtirol) and read Austrian and Swiss vocabulary in the press.",
     duration: "17 min",
     sections: [
       {
@@ -2039,7 +2040,7 @@ export const DE_C1_U14: Lesson[] = [
           "Regional broadcasters (NDR, WDR, BR, MDR, SWR) carry regional accents and local topics. BR in Bavaria or MDR in Saxony is a good way to get used to regional standard.",
         ],
         examples: [
-          { es: "Ich schaue jeden Abend die Tagesschau.", en: "I watch the evening news every evening." },
+          { es: "Ich schaue jeden Abend die Tagesschau.", en: "I watch the \"Tagesschau\" news every evening." },
           { es: "Deutschlandfunk sendet lange Interviews mit Politikern.", en: "Deutschlandfunk broadcasts long interviews with politicians." },
           { es: "Für Anfänger gibt es langsam gesprochene Nachrichten.", en: "There's slowly spoken news for beginners." },
           { es: "Die Tagesschau in 100 Sekunden höre ich auf dem Weg zur Arbeit.", en: "I listen to the 100-second news on my way to work." },
@@ -2070,11 +2071,11 @@ export const DE_C1_U14: Lesson[] = [
         body: [
           "Austria: the ORF (Österreichischer Rundfunk) runs TV news \"ZIB\" (\"Zeit im Bild\") and the radio stations Ö1 (culture and news, like Deutschlandfunk) and Ö3 (pop). Newspapers: \"Der Standard\" (liberal), \"Die Presse\" (conservative), the tabloid \"Kronen Zeitung\" (\"die Krone\").",
           "Switzerland: SRF (Schweizer Radio und Fernsehen) presents the national \"Tagesschau\" in Hochdeutsch, but many other programmes, interviews and weather forecasts are in dialect. Newspapers: the \"Neue Zürcher Zeitung\" (NZZ), the \"Tages-Anzeiger\", \"Blick\" (tabloid). South Tyrol has RAI Südtirol, the German-language service of Italian public broadcasting, and the daily \"Dolomiten\". Luxembourg's RTL broadcasts mainly in Luxembourgish; the \"Luxemburger Wort\" writes mostly in German.",
-          "Listening to ORF or SRF trains your ear for Austrian and Swiss Standard German; reading Der Standard or the NZZ shows you Austrian and Swiss vocabulary in context.",
+          "Listening to ORF or SRF trains your ear for Austrian and Swiss Standard German; reading \"Der Standard\" or the NZZ shows you Austrian and Swiss vocabulary in context.",
         ],
         examples: [
           { es: "Die ZIB ist die wichtigste Nachrichtensendung im ORF.", en: "The ZIB is the most important news programme on ORF." },
-          { es: "Auf Ö1 laufen viele Hörspiele und Diskussionen.", en: "Oe1 broadcasts lots of radio plays and discussions." },
+          { es: "Auf Ö1 laufen viele Hörspiele und Diskussionen.", en: "\"Ö1\" broadcasts lots of radio plays and discussions." },
           { es: "Die NZZ gilt als eine der besten Zeitungen im deutschsprachigen Raum.", en: "The NZZ is considered one of the best newspapers in the German-speaking world." },
           { es: "Der Wetterbericht auf SRF ist oft auf Schweizerdeutsch.", en: "The weather forecast on SRF is often in Swiss German." },
           { es: "In Südtirol liest man die Dolomiten.", en: "In South Tyrol people read the Dolomiten newspaper." },
@@ -2101,9 +2102,9 @@ export const DE_C1_U14: Lesson[] = [
       {
         heading: "Austrian and Swiss words in the press",
         body: [
-          "Austrian and Swiss newspapers use their national standard. In Der Standard you'll read \"heuer\", \"Jänner\", \"das Spital\", \"der Bürgermeister\" with Austrian titles, \"die Matura\", \"der Nationalrat\" (parliament), \"die Landeshauptfrau\" (head of a federal state government). In the NZZ: \"Strasse\" with ss, \"das Trottoir\", \"allfällig\", \"die Abstimmung\" (referendum), \"der Bundesrat\" (the Swiss government, not a second chamber as in Germany).",
+          "Austrian and Swiss newspapers use their national standard. In \"Der Standard\" you'll read \"heuer\", \"Jänner\", \"das Spital\", \"der Bürgermeister\" with Austrian titles, \"die Matura\", \"der Nationalrat\" (parliament), \"die Landeshauptfrau\" (head of a federal state government). In the NZZ: \"Strasse\" with ss, \"das Trottoir\", \"allfällig\", \"die Abstimmung\" (referendum), \"der Bundesrat\" (the Swiss government, not a second chamber as in Germany).",
           "Political vocabulary is the trap: Swiss \"der Bundesrat\" is the seven-member federal government; German \"der Bundesrat\" is the chamber of the federal states. Austrian \"der Landeshauptmann\" corresponds to a German \"Ministerpräsident\". Same word, different institution.",
-          "The press also signals varieties through spelling and style: Swiss newspapers write numbers with an apostrophe as thousands separator (\"1'000 Franken\"), Austrian ones often use \"um\" with prices (\"um 20 Euro\" for for 20 euros).",
+          "The press also signals varieties through spelling and style: Swiss newspapers write numbers with an apostrophe as thousands separator (\"1'000 Franken\"), Austrian ones often use \"um\" with prices (\"um 20 Euro\" = for 20 euros).",
         ],
         examples: [
           { es: "Heuer gibt es im Jänner mehr Schnee als im Vorjahr.", en: "This year there's more snow in January than last year. (Austrian press)" },
@@ -2166,13 +2167,13 @@ export const DE_C1_U14: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "Many programmes on Swiss television are in dialect.",
-        answer: "Viele Sendungen im Schweizer Fernsehen sind auf Dialekt.",
-        altAnswers: ["Viele Sendungen im Schweizer Fernsehen sind im Dialekt.", "Viele Sendungen im Schweizer Fernsehen laufen im Dialekt.", "Viele Sendungen im Schweizer Fernsehen sind auf Mundart.", "Viele Sendungen im Schweizer Fernsehen sind in Mundart.", "Viele Sendungen im Schweizer Fernsehen sind auf Schweizerdeutsch."],
+        answer: "Viele Sendungen im Schweizer Fernsehen sind im Dialekt.",
+        altAnswers: ["Viele Sendungen im Schweizer Fernsehen sind auf Dialekt.", "Viele Sendungen im Schweizer Fernsehen laufen im Dialekt.", "Viele Sendungen im Schweizer Fernsehen sind auf Mundart.", "Viele Sendungen im Schweizer Fernsehen sind in Mundart.", "Viele Sendungen im Schweizer Fernsehen sind auf Schweizerdeutsch."],
         explanation: "\"Die Sendung\" = programme; \"Schweizer\" before a noun never changes its ending.",
       },
       {
         type: "multiple-choice",
-        question: "A Swiss article says: Der Bundesrat hat entschieden. Who decided?",
+        question: "A Swiss article says: \"Der Bundesrat hat entschieden.\" Who decided?",
         options: ["The Swiss federal government", "The chamber of the German federal states", "The Austrian president", "A Swiss court"],
         correctIndex: 0,
         explanation: "In Switzerland \"der Bundesrat\" is the seven-member government; in Germany it is the chamber of the Länder.",
@@ -2230,7 +2231,7 @@ export const DE_C1_U14: Lesson[] = [
     level: "DE-C1",
     number: 12,
     title: "Mastery Check: German Around the World, Part 2",
-    summary: "South Tyrolean, Luxembourgish, regional German features and attitudes in short texts, without hints.",
+    summary: "Check that you can identify South Tyrolean, Luxembourgish and regional German features and discuss attitudes to them, in short texts without hints.",
     duration: "16 min",
     sections: [
       {
@@ -2238,7 +2239,7 @@ export const DE_C1_U14: Lesson[] = [
         body: [
           "This check covers Parts 4 to 6. Read each text, identify the variety and its features, then translate.",
           "Text 1, from a colleague in Bolzano: \"Hallo Lukas! Ich komm morgen mit dem Auto nach Innsbruck. Mein Patent ist zum Glück verlängert worden, und die neue Targa ist auch schon dran. Wir treffen uns um halb zehn in der Bar am Bahnhof, passt?\"",
-          "South Tyrolean features: \"das Patent\" (Führerschein), \"die Targa\" (Nummernschild), \"die Bar\" (café, coffee bar in the Italian sense). The grammar is ordinary standard German.",
+          "South Tyrolean features: \"das Patent\" (\"Führerschein\"), \"die Targa\" (\"Nummernschild\"), \"die Bar\" (café, coffee bar in the Italian sense). The grammar is ordinary standard German.",
         ],
         examples: [
           { es: "Mein Patent ist zum Glück verlängert worden.", en: "Luckily my driving licence has been renewed." },
@@ -2254,11 +2255,11 @@ export const DE_C1_U14: Lesson[] = [
             source: "Luckily my driving licence has been renewed.",
             answer: "Mein Patent ist zum Glück verlängert worden.",
             altAnswers: ["Zum Glück ist mein Patent verlängert worden.", "Mein Patent wurde zum Glück verlängert.", "Zum Glück wurde mein Patent verlängert."],
-            explanation: "\"Das Patent\" (South Tyrol) = Führerschein; Perfekt passive \"ist ... verlängert worden\".",
+            explanation: "\"Das Patent\" (South Tyrol) = \"Führerschein\"; Perfekt passive \"ist ... verlängert worden\".",
           },
           {
             type: "multiple-choice",
-            question: "In the message, what is die Bar am Bahnhof?",
+            question: "In the message, what is \"die Bar am Bahnhof\"?",
             options: ["A café by the station", "A nightclub by the station", "A barrier at the station", "A bar code machine"],
             correctIndex: 0,
             explanation: "In South Tyrol, as in Italy, \"die Bar\" is a café serving coffee and snacks.",
@@ -2269,7 +2270,7 @@ export const DE_C1_U14: Lesson[] = [
         heading: "Luxembourg and regional Germany",
         body: [
           "Text 2, a Luxembourger talking about school: \"Bei uns spricht man zu Hause Luxemburgisch. In der Grundschule lernen wir auf Deutsch lesen, ab dem zweiten Schuljahr kommt Französisch dazu. Im Lycée ist Mathe dann auf Französisch.\" Features: three languages with clear roles, \"das Lycée\" (secondary school, a French loan).",
-          "Text 3, three speakers at a train station: A: \"Moin! Kommst du auch mit nach Kiel?\" B: \"Nee, ick bleib in Berlin, wa?\" C: \"Des isch mir z'weit, i schaff morgen.\" Where are they from? A: north (Moin), B: Berlin (ick, wa), C: Swabia (des isch, schaff).",
+          "Text 3, three speakers at a train station: A: \"Moin! Kommst du auch mit nach Kiel?\" B: \"Nee, ick bleib in Berlin, wa?\" C: \"Des isch mir z'weit, i schaff morgen.\" Where are they from? A: north (\"Moin\"), B: Berlin (\"ick\", \"wa\"), C: Swabia (\"des isch\", \"schaff\").",
           "Remember: when you hear these features you don't need to imitate them; recognising them is the Advanced skill.",
         ],
         examples: [
@@ -2283,19 +2284,19 @@ export const DE_C1_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite the Swabian sentence in standard German: Des isch mir zu weit, ich schaff morgen.",
+            prompt: "Rewrite the Swabian sentence in standard German: \"Des isch mir zu weit, ich schaff morgen.\"",
             source: "That's too far for me, I'm working tomorrow.",
             answer: "Das ist mir zu weit, ich arbeite morgen.",
             altAnswers: ["Das ist mir zu weit, ich muss morgen arbeiten.", "Das ist mir zu weit, denn ich arbeite morgen.", "Das ist mir zu weit. Ich arbeite morgen."],
-            explanation: "Swabian \"des isch\" = das ist, \"schaffe\" = arbeiten.",
+            explanation: "Swabian \"des isch\" = \"das ist\", \"schaffe\" = \"arbeiten\".",
           },
           {
             type: "listen-choose",
             audio: "Nee, ick bleib in Berlin, wa?",
             question: "Which features identify the speaker?",
-            options: ["ick and wa (Berlin)", "nee and bleib (Swiss)", "in and Berlin (Bavarian)", "bleib (Austrian)"],
+            options: ["\"ick\" and \"wa\" (Berlin)", "\"nee\" and \"bleib\" (Swiss)", "\"in\" and \"Berlin\" (Bavarian)", "\"bleib\" (Austrian)"],
             correctIndex: 0,
-            explanation: "\"Ick\" for ich and the tag \"wa?\" are Berlin trademarks.",
+            explanation: "\"Ick\" for \"ich\" and the tag \"wa?\" are Berlin trademarks.",
           },
         ],
       },
@@ -2309,7 +2310,7 @@ export const DE_C1_U14: Lesson[] = [
         examples: [
           { es: "Manche Deutsche machen sich über Schweizer Hochdeutsch lustig.", en: "Some Germans make fun of Swiss Standard German." },
           { es: "Es gibt nicht ein richtiges Deutsch, sondern mehrere Standardvarietäten.", en: "There isn't one correct German, but several standard varieties." },
-          { es: "Jänner ist kein Fehler, sondern österreichisches Standarddeutsch.", en: "Jaenner is not a mistake but Austrian Standard German." },
+          { es: "Jänner ist kein Fehler, sondern österreichisches Standarddeutsch.", en: "\"Jänner\" is not a mistake but Austrian Standard German." },
           { es: "Sächsisch wird oft zu Unrecht abgewertet.", en: "Saxon is often unfairly looked down on." },
           { es: "Für viele Schweizer ist Hochdeutsch fast eine Fremdsprache.", en: "For many Swiss people standard German is almost a foreign language." },
         ],
@@ -2356,7 +2357,7 @@ export const DE_C1_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the standard German for the bold word.",
-        en: "South Tyrol: Die neue Targa ist dran. → The new [number plate] is on.",
+        en: "South Tyrol: \"Die neue Targa ist dran.\" → The new [number plate] is on.",
         sentence: "Das neue ___ ist dran.",
         answer: "Nummernschild",
         altAnswers: ["Kennzeichen", "Autokennzeichen"],
@@ -2365,15 +2366,15 @@ export const DE_C1_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite the Berlin sentence in standard German: Nee, ick bleib in Berlin.",
+        prompt: "Rewrite the Berlin sentence in standard German: \"Nee, ick bleib in Berlin.\"",
         source: "No, I'm staying in Berlin.",
         answer: "Nein, ich bleibe in Berlin.",
         altAnswers: ["Nee, ich bleibe in Berlin.", "Nein, ich bleib in Berlin.", "Nee, ich bleib in Berlin."],
-        explanation: "Berlin \"ick\" = ich; \"nee\" is common colloquial German for nein everywhere.",
+        explanation: "Berlin \"ick\" = \"ich\"; \"nee\" is common colloquial German for \"nein\" everywhere.",
       },
       {
         type: "multiple-choice",
-        question: "A colleague writes: Heuer hab ich im Jänner Urlaub. Where is she probably from?",
+        question: "A colleague writes: \"Heuer hab ich im Jänner Urlaub.\" Where is she probably from?",
         options: ["Austria", "Hamburg", "Berlin", "Luxembourg"],
         correctIndex: 0,
         explanation: "\"Heuer\" + \"Jänner\" strongly suggests Austria.",
@@ -2398,7 +2399,7 @@ export const DE_C1_U14: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Jaenner is not a mistake but Austrian Standard German.",
+        source: "\"Jänner\" is not a mistake but Austrian Standard German.",
         answer: "Jänner ist kein Fehler, sondern österreichisches Standarddeutsch.",
         altAnswers: ["Jänner ist kein Fehler, sondern österreichisches Hochdeutsch.", "Jänner ist kein Fehler, sondern österreichisches Deutsch.", "Das Wort Jänner ist kein Fehler, sondern österreichisches Standarddeutsch."],
         explanation: "\"Kein ..., sondern ...\" corrects a noun; the adjective \"österreichisches\" takes the strong neuter ending.",
@@ -2432,14 +2433,14 @@ export const DE_C1_U14: Lesson[] = [
     level: "DE-C1",
     number: 13,
     title: "Real-World Mission: Renting a Flat in Zurich or Vienna",
-    summary: "Read listings and call the landlord: 3,5-Zimmer-Wohnung, Nebenkosten and Betriebskosten, Kaution, Hauswart and Hausbesorger, Ablöse, befristeter Mietvertrag, zügeln.",
+    summary: "Read flat listings in Zurich and Vienna and call the landlord, using words like \"3,5-Zimmer-Wohnung\", \"Nebenkosten\" / \"Betriebskosten\", \"Kaution\", \"Hauswart\" / \"Hausbesorger\", \"Ablöse\", \"befristeter Mietvertrag\" and \"zügeln\".",
     duration: "19 min",
     sections: [
       {
         heading: "A listing in Zurich",
         body: [
           "Swiss listing: \"Helle 3,5-Zimmer-Wohnung in Zürich-Oerlikon, 82 m², 3. OG mit Lift, Balkon, Waschturm in der Wohnung. Mietzins CHF 2'350.– plus Nebenkosten CHF 180.–. Bezug per 1. Oktober. Besichtigung nach Absprache mit dem Hauswart.\"",
-          "Swiss specialities: rooms are counted in halves, the kitchen or a large hall often counting as half a room (\"3,5 Zimmer\" = three bedrooms or living rooms plus a large kitchen-living area). \"Der Mietzins\" is the Swiss word for rent (Miete), \"OG\" = Obergeschoss (floor), \"der Lift\" (Aufzug), \"der Waschturm\" (stacked washer and dryer, a luxury since many Swiss buildings share a laundry room, \"die Waschküche\"), \"per\" + date = from.",
+          "Swiss specialities: rooms are counted in halves, the kitchen or a large hall often counting as half a room (\"3,5 Zimmer\" = three bedrooms or living rooms plus a large kitchen-living area). \"Der Mietzins\" is the Swiss word for rent (\"Miete\"), \"OG\" = \"Obergeschoss\" (floor), \"der Lift\" (\"Aufzug\"), \"der Waschturm\" (stacked washer and dryer, a luxury since many Swiss buildings share a laundry room, \"die Waschküche\"), \"per\" + date = from.",
           "\"Der Hauswart\" (caretaker) shows the flat. The deposit, \"die Mietkaution\", is usually up to three months' rent, paid into a blocked bank account. And when you move in, you \"zügeln\".",
         ],
         examples: [
@@ -2461,7 +2462,7 @@ export const DE_C1_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does 3,5-Zimmer-Wohnung typically mean in a Swiss listing?",
+            question: "What does \"3,5-Zimmer-Wohnung\" typically mean in a Swiss listing?",
             options: ["Three rooms plus a large kitchen or hall counted as half a room", "Three and a half bathrooms", "A flat on the 3.5th floor", "A flat for 3 to 5 people"],
             correctIndex: 0,
             explanation: "Swiss listings count a large kitchen or hall as half a room.",
@@ -2472,7 +2473,7 @@ export const DE_C1_U14: Lesson[] = [
         heading: "A listing in Vienna",
         body: [
           "Austrian listing: \"Altbauwohnung im 7. Bezirk, 3 Zimmer, 75 m², 2. Stock, Lift. Miete € 1.150,– inkl. Betriebskosten, zzgl. Heizung. Kaution: 3 Bruttomonatsmieten. Befristeter Mietvertrag auf 3 Jahre. Ablöse für Küche € 3.000,–. Provisionsfrei.\"",
-          "Austrian specialities: \"die Betriebskosten\" (service charges, Nebenkosten in Germany), \"der befristete Mietvertrag\" (fixed-term lease, very common in Vienna, usually three years minimum), \"die Ablöse\" (a payment to the previous tenant for furniture or a fitted kitchen), \"provisionsfrei\" (no agent's fee). \"Der Bezirk\" is a numbered district of Vienna; \"der Altbau\" an old building, often with high ceilings.",
+          "Austrian specialities: \"die Betriebskosten\" (service charges, \"Nebenkosten\" in Germany), \"der befristete Mietvertrag\" (fixed-term lease, very common in Vienna, usually three years minimum), \"die Ablöse\" (a payment to the previous tenant for furniture or a fitted kitchen), \"provisionsfrei\" (no agent's fee). \"Der Bezirk\" is a numbered district of Vienna; \"der Altbau\" an old building, often with high ceilings.",
           "The person who looks after the building was traditionally \"der Hausbesorger\" (today often a cleaning company). Viewing is \"die Besichtigung\", the handover \"die Wohnungsübergabe\", where you check the condition and record the meter readings in a protocol (\"das Übergabeprotokoll\").",
         ],
         examples: [
@@ -2576,7 +2577,7 @@ export const DE_C1_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In a Vienna listing you read: Ablöse für Küche € 3.000. What does it mean?",
+        question: "In a Vienna listing you read: \"Ablöse für Küche € 3.000\". What does it mean?",
         options: ["You pay the previous tenant 3,000 euros for the kitchen.", "The kitchen will be removed for 3,000 euros.", "The landlord gives you 3,000 euros for a new kitchen.", "The kitchen costs 3,000 euros a year."],
         correctIndex: 0,
         explanation: "\"Die Ablöse\" is a one-off payment to the previous tenant (or landlord) for fittings.",
@@ -2632,7 +2633,7 @@ export const DE_C1_U14: Lesson[] = [
     level: "DE-C1",
     number: 14,
     title: "Spiral Review: Varieties, Register and Address",
-    summary: "Regional and national features meet du / Sie choices and register switching from Unit 13 in fresh situations.",
+    summary: "Combine regional and national features with \"du\" / \"Sie\" choices and the register switching from Unit 13 in fresh situations.",
     duration: "17 min",
     sections: [
       {
@@ -2661,7 +2662,7 @@ export const DE_C1_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A Viennese colleague you've only met once greets you with Servus! What does it signal?",
+            question: "A Viennese colleague you've only met once greets you with \"Servus!\" What does it signal?",
             options: ["That they're happy to be on du terms", "That they want you to use Sie", "That they're leaving", "That they're angry"],
             correctIndex: 0,
             explanation: "\"Servus\" is a du greeting; replying with \"Servus\" accepts the informal tone.",
@@ -2695,7 +2696,7 @@ export const DE_C1_U14: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the neutral standard German for the bold words.",
-            en: "Vienna, casual: Die Hackn war leiwand. → Neutral: [Work was great].",
+            en: "Vienna, casual: \"Die Hackn war leiwand.\" → Neutral: [Work was great].",
             sentence: "___.",
             answer: "Die Arbeit war toll",
             altAnswers: ["Die Arbeit war super", "Die Arbeit war sehr gut", "Die Arbeit war großartig", "Die Arbeit war prima"],
@@ -2813,7 +2814,7 @@ export const DE_C1_U14: Lesson[] = [
         question: "What does it mean?",
         options: ["Hi all! (Swiss, informal)", "Goodbye! (Austrian, formal)", "Cheers! (Bavarian)", "Excuse me! (Swiss, formal)"],
         correctIndex: 0,
-        explanation: "\"Hoi zäme\" (zusammen) greets a group of friends in Switzerland.",
+        explanation: "\"Hoi zäme\" (\"zusammen\") greets a group of friends in Switzerland.",
       },
       {
         type: "dictation",

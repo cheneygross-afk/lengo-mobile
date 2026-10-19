@@ -119,7 +119,7 @@ export const DE_B2_U14_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "He can't have been at home.",
         answer: "Er kann nicht zu Hause gewesen sein.",
-        altAnswers: ["Er kann nicht daheim gewesen sein."],
+        altAnswers: ["Er kann nicht daheim gewesen sein.", "Er kann nicht zuhause gewesen sein."],
         explanation: "\"Gewesen sein\".",
       },
       {
@@ -131,10 +131,10 @@ export const DE_B2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which perfect infinitive is correct for bleiben?",
+        question: "Complete \"Er muss gestern zu Hause ___\" (He must have stayed at home yesterday).",
         options: ["geblieben sein", "geblieben haben", "gebleibt haben", "gebleibt sein"],
         correctIndex: 0,
-        explanation: "\"Er ist geblieben\" → \"geblieben sein\".",
+        explanation: "\"Bleiben\" takes \"sein\" in the Perfekt (\"Er ist geblieben\"), so the perfect infinitive is \"geblieben sein\". \"Gebleibt\" doesn't exist: \"bleiben\" is a strong verb.",
       },
       {
         type: "listen-choose",
@@ -261,21 +261,21 @@ export const DE_B2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "translate",
-        direction: "es-en",
-        prompt: "Translate into English.",
-        source: "Er will nichts davon gewusst haben.",
-        answer: "He claims not to have known anything about it.",
-        altAnswers: ["He claims to have known nothing about it.", "He claims he didn't know anything about it.", "He claims he knew nothing about it."],
-        explanation: "Not wants to have known: \"will\" + perfect infinitive = claims.",
+        direction: "en-es",
+        prompt: "Translate into German, using a modal verb.",
+        source: "He claims not to have known anything about it.",
+        answer: "Er will nichts davon gewusst haben.",
+        altAnswers: ["Er will davon nichts gewusst haben.", "Er will nichts darüber gewusst haben."],
+        explanation: "Claims → subjective \"will\" + perfect infinitive \"gewusst haben\". It doesn't mean wants to have known.",
       },
       {
         type: "translate",
-        direction: "es-en",
-        prompt: "Translate into English.",
-        source: "Die Firma soll bald schließen.",
-        answer: "The company is said to be closing soon.",
-        altAnswers: ["Apparently the company is closing soon.", "The company is supposed to be closing soon.", "Apparently the company will close soon.", "The company is said to be closing down soon."],
-        explanation: "Subjective \"soll\" = is said to.",
+        direction: "en-es",
+        prompt: "Translate into German, using a modal verb.",
+        source: "The company is said to be closing soon.",
+        answer: "Die Firma soll bald schließen.",
+        altAnswers: ["Das Unternehmen soll bald schließen.", "Die Firma soll bald zumachen.", "Die Firma soll demnächst schließen."],
+        explanation: "Is said to → subjective \"soll\" + infinitive: other people say so.",
       },
       {
         type: "word-order",
@@ -324,12 +324,12 @@ export const DE_B2_U14_EXTRA: Lesson[] = [
       {
         heading: "Recap: two ways to pass on gossip",
         body: [
-          "Gossip magazines love \"soll\": \"Die Sängerin soll sich von ihrem Mann getrennt haben.\" Newspapers often prefer the Konjunktiv I with a source: \"Laut einem Freund habe sie sich getrennt.\" \"Ein Insider sagt, das Paar sei schon seit Monaten zerstritten.\"",
+          "Gossip magazines love \"soll\": \"Die Sängerin soll sich von ihrem Mann getrennt haben.\" Newspapers often prefer the Konjunktiv I with a source: \"Ein Freund erzählt, sie habe sich getrennt.\" \"Ein Insider sagt, das Paar sei schon seit Monaten zerstritten.\" After \"laut\" (according to) the indicative is normal, because \"laut\" already names the source: \"Laut einem Freund hat sie sich getrennt.\"",
           "Useful words: \"sich trennen\" (to split up), \"heimlich\" (secretly), \"schwanger\" (pregnant), \"das Comeback\", \"zerstritten sein\" (to have fallen out), \"laut\" + dative (according to), \"ein Insider\", \"dementieren\" (to deny officially).",
         ],
         examples: [
           { es: "Die Sängerin soll sich von ihrem Mann getrennt haben.", en: "The singer is said to have split up with her husband." },
-          { es: "Laut einem Freund habe sie sich schon im Mai getrennt.", en: "According to a friend, she split up back in May." },
+          { es: "Ein Freund erzählt, sie habe sich schon im Mai getrennt.", en: "A friend says she split up back in May." },
           { es: "Das Paar soll heimlich geheiratet haben.", en: "The couple are said to have married secretly." },
           { es: "Ein Insider sagt, die Band sei zerstritten.", en: "An insider says the band has fallen out." },
           { es: "Sein Manager hat das Gerücht dementiert.", en: "His manager denied the rumour." },
@@ -366,10 +366,10 @@ export const DE_B2_U14_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "According to a friend, she [is] pregnant.",
-        sentence: "Laut einer Freundin ___ sie schwanger.",
+        en: "A friend says she [is] pregnant.",
+        sentence: "Eine Freundin sagt, sie ___ schwanger.",
         answer: "sei",
-        explanation: "Konjunktiv I: \"sie sei\".",
+        explanation: "Reported speech in gossip-magazine style: Konjunktiv I \"sie sei\".",
       },
       {
         type: "fill-blank",
@@ -431,7 +431,7 @@ export const DE_B2_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Rewrite with soll: Man sagt, der Sänger sei krank gewesen.",
+        question: "Rewrite with \"soll\": \"Man sagt, der Sänger sei krank gewesen.\"",
         options: ["Der Sänger soll krank gewesen sein.", "Der Sänger soll krank sein gewesen.", "Der Sänger sollte krank gewesen haben.", "Der Sänger will krank gewesen sein."],
         correctIndex: 0,
         explanation: "\"Man sagt, er sei ... gewesen\" = \"Er soll ... gewesen sein\".",

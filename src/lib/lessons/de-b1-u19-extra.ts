@@ -286,8 +286,8 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I give [my little] sister a present.",
-        sentence: "Ich schenke ___ Schwester ein Geschenk.",
+        en: "I'm buying [my little] sister a present.",
+        sentence: "Ich kaufe ___ Schwester ein Geschenk.",
         answer: "meiner kleinen",
         explanation: "Dative person: \"meiner kleinen\".",
       },
@@ -609,6 +609,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: I lost a black rucksack on the train.",
         words: ["Ich", "habe", "im", "Zug", "einen", "schwarzen", "Rucksack", "verloren."],
         translation: "I lost a black rucksack on the train.",
+        altOrders: [["Ich", "habe", "einen", "schwarzen", "Rucksack", "im", "Zug", "verloren."]],
         explanation: "Time/place before the object; participle last.",
       },
       {
@@ -637,7 +638,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       {
         heading: "Recap: the flat ad",
         body: [
-          "Jonas wrote this ad for his flat: *Schöne, helle Wohnung in ein ruhigen Viertel. Die Wohnung hat ein großer Balkon und eine moderne Küche mit neuem Geräten. Im Wohnzimmer gibt es ein offenen Kamin. Die Miete ist für so ein schöne Wohnung günstig.*",
+          "Jonas wrote this ad for his flat: \"*Schöne, helle Wohnung in ein ruhigen Viertel. Die Wohnung hat ein großer Balkon und eine moderne Küche mit neuem Geräten. Im Wohnzimmer gibt es ein offenen Kamin. Die Miete ist für so ein schöne Wohnung günstig.*\"",
           "Corrected: \"in einem ruhigen Viertel\" (dative), \"einen großen Balkon\" (masculine accusative), \"mit neuen Geräten\" (dative plural), \"einen offenen Kamin\" (masculine accusative), \"so eine schöne Wohnung\" (feminine).",
         ],
         examples: [
@@ -650,7 +651,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix: *Die Wohnung hat ein großer Balkon.* Write: The flat has a big balcony.",
+            prompt: "Fix: \"*Die Wohnung hat ein großer Balkon.*\" Write: The flat has a big balcony.",
             source: "The flat has a big balcony.",
             answer: "Die Wohnung hat einen großen Balkon.",
             explanation: "\"Haben\" + accusative masculine: \"einen großen\".",
@@ -669,7 +670,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Wohnung in ein ruhigen Viertel.* Write: Flat in a quiet neighbourhood.",
+        prompt: "Fix: \"*Wohnung in ein ruhigen Viertel.*\" Write: Flat in a quiet neighbourhood.",
         source: "Flat in a quiet neighbourhood.",
         answer: "Wohnung in einem ruhigen Viertel.",
         explanation: "\"In\" (location) + dative neuter: \"einem ruhigen\".",
@@ -677,7 +678,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *eine moderne Küche mit neuem Geräten* Write: a modern kitchen with new appliances",
+        prompt: "Fix: \"*eine moderne Küche mit neuem Geräten*\" Write: a modern kitchen with new appliances",
         source: "a modern kitchen with new appliances",
         answer: "eine moderne Küche mit neuen Geräten",
         explanation: "No article, dative plural: -en.",
@@ -685,7 +686,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Es gibt ein offenen Kamin.* Write: There's an open fireplace.",
+        prompt: "Fix: \"*Es gibt ein offenen Kamin.*\" Write: There's an open fireplace.",
         source: "There's an open fireplace.",
         answer: "Es gibt einen offenen Kamin.",
         explanation: "\"Der Kamin\": masculine accusative \"einen offenen\".",
@@ -693,7 +694,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *für so ein schöne Wohnung* Write: for such a lovely flat",
+        prompt: "Fix: \"*für so ein schöne Wohnung*\" Write: for such a lovely flat",
         source: "for such a lovely flat",
         answer: "für so eine schöne Wohnung",
         explanation: "Feminine: \"eine schöne\".",
@@ -701,7 +702,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Das Bad hat eine große Fenster.* Write: The bathroom has a big window.",
+        prompt: "Fix: \"*Das Bad hat eine große Fenster.*\" Write: The bathroom has a big window.",
         source: "The bathroom has a big window.",
         answer: "Das Bad hat ein großes Fenster.",
         explanation: "\"Das Fenster\" is neuter: \"ein großes\".",
@@ -709,7 +710,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Die Wohnung liegt im dritte Stock.* Write: The flat is on the third floor.",
+        prompt: "Fix: \"*Die Wohnung liegt im dritte Stock.*\" Write: The flat is on the third floor.",
         source: "The flat is on the third floor.",
         answer: "Die Wohnung liegt im dritten Stock.",
         altAnswers: ["Die Wohnung ist im dritten Stock."],
@@ -718,7 +719,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Ideal für jung Paare.* Write: Ideal for young couples.",
+        prompt: "Fix: \"*Ideal für jung Paare.*\" Write: Ideal for young couples.",
         source: "Ideal for young couples.",
         answer: "Ideal für junge Paare.",
         explanation: "No article, plural accusative: -e.",
@@ -726,7 +727,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Die Nachbarn sind nette.* Write: The neighbours are nice.",
+        prompt: "Fix: \"*Die Nachbarn sind nette.*\" Write: The neighbours are nice.",
         source: "The neighbours are nice.",
         answer: "Die Nachbarn sind nett.",
         explanation: "After \"sind\": no ending.",
@@ -777,7 +778,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Dialogue Lab, Shopping for Clothes",
-    summary: "Ask for and compare items: Haben Sie den blauen Pullover auch in Größe M?",
+    summary: "Ask for and compare clothes in a shop with the right endings: \"Haben Sie den blauen Pullover auch in Größe M?\"",
     duration: "12 min",
     sections: [
       {
@@ -901,7 +902,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The blue jumper suits you.",
+        prompt: "Put the words in order to say: The blue jumper suits you. (to a friend)",
         words: ["Der", "blaue", "Pullover", "steht", "dir."],
         translation: "The blue jumper suits you.",
         explanation: "\"Stehen\" + dative: suit someone.",
@@ -932,7 +933,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
       {
         heading: "Recap: two groups",
         body: [
-          "Strong (no-article endings) after \"viele\", \"einige\", \"mehrere\", \"wenige\", \"ein paar\", \"manche\" (often), numbers: \"viele neue Bücher\", \"mit einigen guten Freunden\". Weak after \"alle\", \"beide\", \"keine\", \"meine\", \"diese\": \"alle neuen Bücher\", \"mit beiden kleinen Kindern\".",
+          "Strong (no-article endings) after \"viele\", \"einige\", \"mehrere\", \"wenige\", \"ein paar\" and numbers: \"viele neue Bücher\", \"mit einigen guten Freunden\". Weak after \"alle\", \"beide\", \"keine\", \"meine\", \"diese\": \"alle neuen Bücher\", \"mit beiden kleinen Kindern\". After \"manche\" both occur, weak more often (\"manche jungen Leute\").",
         ],
         examples: [
           { es: "Viele junge Familien ziehen aufs Land.", en: "Many young families are moving to the countryside." },
@@ -1215,7 +1216,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
         text: "Das ist ein teures Restaurant.",
         prompt: "Say it in German: That's an expensive restaurant.",
         tip: "\"Teures\": eu like oy.",
-        explanation: "\"Teures\" not *teueres*.",
+        explanation: "\"Teures\" not \"*teueres*\".",
       },
       {
         type: "dictation",
@@ -1393,7 +1394,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
           { es: "Liebe Grüße aus dem sonnigen Italien!", en: "Love from sunny Italy!" },
           { es: "Wir wohnen in einem kleinen Hotel direkt am Strand.", en: "We're staying in a small hotel right on the beach." },
           { es: "Jeden Abend essen wir frischen Fisch.", en: "Every evening we eat fresh fish." },
-          { es: "Das alte Städtchen ist wunderschön.", en: "The old little town is beautiful." },
+          { es: "Das alte Städtchen ist wunderschön.", en: "The little old town is beautiful." },
           { es: "Gestern haben wir eine lange Wanderung gemacht.", en: "Yesterday we went on a long hike." },
         ],
         checkpoint: [
@@ -1529,7 +1530,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
     number: 11,
     optional: true,
     title: "Extra Practice: Comparatives with Endings",
-    summary: "Ein größeres Zimmer, die beste Lösung, mit dem schnellsten Zug.",
+    summary: "Put the right ending on comparatives and superlatives before a noun: \"ein größeres Zimmer\", \"die beste Lösung\", \"mit dem schnellsten Zug\".",
     duration: "12 min",
     sections: [
       {
@@ -1681,7 +1682,7 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
     number: 12,
     optional: true,
     title: "Extra Practice: The Restaurant Menu",
-    summary: "Frischer Salat, mit gebratenen Kartoffeln: menu language.",
+    summary: "Read and write menu lines with strong endings: \"frischer Salat\", \"mit gebratenen Kartoffeln\".",
     duration: "12 min",
     sections: [
       {
@@ -1997,8 +1998,8 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Ich habe ___ Hunger. Which ending, and why?",
-            options: ["großen: no article, masculine accusative", "großer: no article, masculine nominative", "große: after a der-word", "großem: dative"],
+            question: "\"Ich habe ___ Hunger.\" Which ending, and why?",
+            options: ["\"großen\": no article, masculine accusative", "\"großer\": no article, masculine nominative", "\"große\": after a der-word", "\"großem\": dative"],
             correctIndex: 0,
             explanation: "\"Hunger\" is the object of \"haben\" (accusative) with no article: strong -en, like \"den\".",
           },
@@ -2017,15 +2018,15 @@ export const DE_B1_U19_EXTRA: Lesson[] = [
     exercises: [
       {
         type: "multiple-choice",
-        question: "Das ___ Mädchen lacht. Which ending, and why?",
-        options: ["kleine: after das, nominative neuter (weak -e)", "kleines: neuter needs -es", "kleinen: after an article always -en", "kleiner: nominative needs -er"],
+        question: "\"Das ___ Mädchen lacht.\" Which ending, and why?",
+        options: ["\"kleine\": after \"das\", nominative neuter (weak -e)", "\"kleines\": neuter needs -es", "\"kleinen\": after an article always -en", "\"kleiner\": nominative needs -er"],
         correctIndex: 0,
         explanation: "\"Das\" already shows neuter nominative, so the adjective takes weak -e.",
       },
       {
         type: "multiple-choice",
-        question: "Ein ___ Mädchen lacht. Which ending, and why?",
-        options: ["kleines: ein has no ending, so the adjective shows neuter", "kleine: after an article", "kleinen: neuter nominative", "kleiner: like der"],
+        question: "\"Ein ___ Mädchen lacht.\" Which ending, and why?",
+        options: ["\"kleines\": \"ein\" has no ending, so the adjective shows neuter", "\"kleine\": after an article", "\"kleinen\": neuter nominative", "\"kleiner\": like \"der\""],
         correctIndex: 0,
         explanation: "\"Ein\" doesn't show the gender, so the adjective does: -es like \"das\".",
       },

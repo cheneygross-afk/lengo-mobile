@@ -60,7 +60,7 @@ export const DE_A1_U03_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I think so.",
         answer: "Ich glaube schon.",
-        altAnswers: ["Ich glaube ja.", "Ich glaube, ja."],
+        altAnswers: ["Ich glaube ja.", "Ich glaube, ja.", "Ich denke schon."],
         explanation: "\"Glauben\" is the everyday verb for I think so: \"Ich glaube schon\".",
       },
       {
@@ -221,7 +221,7 @@ export const DE_A1_U03_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Asking a colleague. Translate into German.",
-        source: "Are you free tomorrow, Frau Schneider?",
+        source: "Are you free tomorrow, Mrs Schneider?",
         answer: "Haben Sie morgen Zeit, Frau Schneider?",
         explanation: "Free in the sense of having time: \"Zeit haben\". Polite \"Sie haben\".",
       },
@@ -279,6 +279,7 @@ export const DE_A1_U03_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Do you have a flat in Berlin? (to two friends)",
         answer: "Habt ihr eine Wohnung in Berlin?",
+        altAnswers: ["Habt ihr in Berlin eine Wohnung?"],
         explanation: "Ihr form: \"habt\". \"Die Wohnung\" is feminine: \"eine\".",
       },
       {
@@ -484,7 +485,7 @@ export const DE_A1_U03_EXTRA: Lesson[] = [
         heading: "Recap: verb second, always",
         body: [
           "The conjugated verb is the second element in a statement. When a time or place comes first, the subject moves after the verb: \"Heute arbeite ich\", \"In Köln wohnt Ayşe\". \"Und\", \"aber\" and \"oder\" don't count.",
-          "The English pattern Today I work gives *Heute ich arbeite: the subject sneaks in before the verb. In this practice some sentences are right and some are wrong: check where the verb is.",
+          "The English pattern Today I work gives \"*Heute ich arbeite\": the subject sneaks in before the verb. In this practice some sentences are right and some are wrong: check where the verb is.",
         ],
         examples: [
           { es: "Heute arbeite ich.", en: "Today I'm working." },
@@ -504,7 +505,7 @@ export const DE_A1_U03_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Jetzt ich habe Hunger. Write the correct German.",
+            prompt: "A learner wrote \"*Jetzt ich habe Hunger.\" Write the correct German.",
             source: "Now I'm hungry.",
             answer: "Jetzt habe ich Hunger.",
             explanation: "\"Jetzt\" is first, so \"habe\" comes second and \"ich\" after it.",
@@ -516,7 +517,7 @@ export const DE_A1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Am Montag ich arbeite. Write the correct German.",
+        prompt: "A learner wrote \"*Am Montag ich arbeite.\" Write the correct German.",
         source: "On Monday I work.",
         answer: "Am Montag arbeite ich.",
         explanation: "Time first, verb second, subject third.",
@@ -524,7 +525,7 @@ export const DE_A1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Heute Abend wir kochen. Write the correct German.",
+        prompt: "A learner wrote \"*Heute Abend wir kochen.\" Write the correct German.",
         source: "This evening we're cooking.",
         answer: "Heute Abend kochen wir.",
         explanation: "\"Heute Abend\" is one element; \"kochen\" must come next.",
@@ -532,15 +533,16 @@ export const DE_A1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *In Berlin Mehmet wohnt. Write the correct German, starting with Berlin.",
-        source: "In Berlin Mehmet lives.",
+        prompt: "A learner wrote \"*In Berlin Mehmet wohnt.\" Write the correct German, starting with Berlin.",
+        source: "Mehmet lives in Berlin.",
         answer: "In Berlin wohnt Mehmet.",
+        altAnswers: ["Mehmet wohnt in Berlin."],
         explanation: "A place first works like a time first: verb second, subject after.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Morgen Lena fährt nach München. Write the correct German.",
+        prompt: "A learner wrote \"*Morgen Lena fährt nach München.\" Write the correct German.",
         source: "Tomorrow Lena is going to Munich.",
         answer: "Morgen fährt Lena nach München.",
         explanation: "\"Morgen fährt Lena\": verb second, with the ä stem change.",
@@ -548,7 +550,7 @@ export const DE_A1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Ich bin müde, aber heute ich lerne. Write the correct German.",
+        prompt: "A learner wrote \"*Ich bin müde, aber heute ich lerne.\" Write the correct German.",
         source: "I'm tired, but today I'm studying.",
         answer: "Ich bin müde, aber heute lerne ich.",
         explanation: "\"Aber\" doesn't count; \"heute\" is first, so \"lerne\" is second.",
@@ -563,7 +565,7 @@ export const DE_A1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote Am Sonntag schläft Mia lange. Is anything wrong? Write the correct German.",
+        prompt: "A learner wrote \"Am Sonntag schläft Mia lange.\" Is anything wrong? Write the correct German.",
         source: "On Sunday Mia sleeps late.",
         answer: "Am Sonntag schläft Mia lange.",
         altAnswers: ["Mia schläft am Sonntag lange."],
@@ -572,7 +574,7 @@ export const DE_A1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Jetzt sie wohnt in Leipzig. Write the correct German.",
+        prompt: "A learner wrote \"*Jetzt sie wohnt in Leipzig.\" Write the correct German.",
         source: "Now she lives in Leipzig.",
         answer: "Jetzt wohnt sie in Leipzig.",
         explanation: "\"Jetzt wohnt sie\": the pronoun moves after the verb too.",
@@ -588,7 +590,7 @@ export const DE_A1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Heute nicht ich arbeite. Write the correct German.",
+        prompt: "A learner wrote \"*Heute nicht ich arbeite.\" Write the correct German.",
         source: "Today I'm not working.",
         answer: "Heute arbeite ich nicht.",
         explanation: "Verb second, subject third, \"nicht\" at the end.",
@@ -596,7 +598,7 @@ export const DE_A1_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Hier wir wohnen. Write the correct German.",
+        prompt: "A learner wrote \"*Hier wir wohnen.\" Write the correct German.",
         source: "This is where we live.",
         answer: "Hier wohnen wir.",
         explanation: "\"Hier\" first, verb second: \"Hier wohnen wir\".",
@@ -627,14 +629,14 @@ export const DE_A1_U03_EXTRA: Lesson[] = [
     level: "DE-A1",
     number: 5,
     optional: true,
-    title: "Extra Practice: Dialogue Lab: Ein Ganz Normaler Tag",
+    title: "Extra Practice: Dialogue Lab: Ein ganz normaler Tag",
     summary: "A conversation about an ordinary weekday using regular and stem-changing verbs, haben, verb-second and negation.",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: the whole unit in one conversation",
         body: [
-          "Mia and Ayşe chat over coffee about a normal Wednesday. Mia: „Was machst du am Mittwoch?“ Ayşe: „Am Morgen arbeite ich. Am Nachmittag fahre ich nach Bonn. Und du?“ Mia: „Ich habe Uni, und am Abend lese ich. Ich habe keine Zeit, ich habe immer Stress!“",
+          "Mia and Ayşe chat over coffee about a normal Wednesday. Mia: \"Was machst du am Mittwoch?\" Ayşe: \"Am Morgen arbeite ich. Am Nachmittag fahre ich nach Bonn. Und du?\" Mia: \"Ich habe Uni, und am Abend lese ich. Ich habe keine Zeit, ich habe immer Stress!\"",
           "Everything you need is here: regular endings, stem-changers for du and er/sie, verb second after time words, \"haben\" chunks (\"Zeit\", \"Hunger\", \"Stress haben\") and \"nicht\" or \"kein\".",
         ],
         examples: [
@@ -687,6 +689,7 @@ export const DE_A1_U03_EXTRA: Lesson[] = [
         prompt: "Mia continues. Translate into German.",
         source: "I'm not working, I'm studying.",
         answer: "Ich arbeite nicht, ich lerne.",
+        altAnswers: ["Ich arbeite nicht, ich studiere."],
         explanation: "\"Nicht\" after the verb for the action; \"lernen\" for studying (for a test, at home).",
       },
       {
@@ -695,6 +698,7 @@ export const DE_A1_U03_EXTRA: Lesson[] = [
         prompt: "Ayşe asks. Translate into German.",
         source: "Are you eating at home?",
         answer: "Isst du zu Hause?",
+        altAnswers: ["Isst du zuhause?"],
         explanation: "\"Essen\" becomes \"isst\" for du. At home is \"zu Hause\".",
       },
       {

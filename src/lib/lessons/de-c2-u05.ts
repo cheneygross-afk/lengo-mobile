@@ -8,23 +8,23 @@ export const DE_C2_U05: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Sprichwörter und Redensarten, Part 1 of 3",
-    summary: "The core German proverbs (Übung macht den Meister, Aller Anfang ist schwer, Morgenstund hat Gold im Mund, Wer rastet, der rostet, Ohne Fleiß kein Preis, Lügen haben kurze Beine, Der Apfel fällt nicht weit vom Stamm) and the difference between a Sprichwort and a Redensart.",
+    summary: "Use the core German proverbs (\"Übung macht den Meister\", \"Aller Anfang ist schwer\", \"Morgenstund hat Gold im Mund\", \"Wer rastet, der rostet\", \"Ohne Fleiß kein Preis\", \"Lügen haben kurze Beine\", \"Der Apfel fällt nicht weit vom Stamm\") and tell a \"Sprichwort\" from a \"Redensart\".",
     duration: "18 min",
     sections: [
       {
         heading: "Sprichwort or Redensart?",
         body: [
           "German distinguishes two kinds of fixed wisdom. A \"Sprichwort\" is a complete, self-contained sentence that states a general truth or a lesson: \"Übung macht den Meister.\" You quote it whole, it stays in the timeless present, and it can stand alone as a comment on a situation. A \"Redensart\" (or \"Redewendung\", Unit 4) is a phrase you build into your own sentence and conjugate: \"den Nagel auf den Kopf treffen\" becomes \"Du hast den Nagel auf den Kopf getroffen.\"",
-          "A quick test: can you say it on its own, as a statement about life? Then it is a Sprichwort. \"Aller Anfang ist schwer\" passes; \"ins Fettnäpfchen treten\" needs a subject and a tense, so it is a Redensart. The boundary is not always sharp, but the distinction matters for grammar: you never change the verb of a Sprichwort to fit the situation, whereas a Redensart lives on being adapted.",
-          "Proverbs rarely translate word for word. \"Übung macht den Meister\" literally says practice makes the master (the \"Meister\" of the old guild system, the craftsman who has finished his training), and the English equivalent is practice makes perfect. The calque *\"Praxis macht perfekt\" is a classic English-speaker mistake: \"Praxis\" means practical experience or a doctor's surgery. \"Aller Anfang ist schwer\" uses the old uninflected \"aller\" (every) that survives almost only here: the modern paraphrase is \"Jeder Anfang ist schwer.\"",
+          "A quick test: can you say it on its own, as a statement about life? Then it is a \"Sprichwort\". \"Aller Anfang ist schwer\" passes; \"ins Fettnäpfchen treten\" needs a subject and a tense, so it is a \"Redensart\". The boundary is not always sharp, but the distinction matters for grammar: you never change the verb of a Sprichwort to fit the situation, whereas a Redensart lives on being adapted.",
+          "Proverbs rarely translate word for word. \"Übung macht den Meister\" literally says practice makes the master (the \"Meister\" of the old guild system, the craftsman who has finished his training), and the English equivalent is practice makes perfect. The calque \"*Praxis macht perfekt*\" is a classic English-speaker mistake: \"Praxis\" means practical experience or a doctor's surgery. \"Aller Anfang ist schwer\" uses the old uninflected \"aller\" (every) that survives almost only here: the modern paraphrase is \"Jeder Anfang ist schwer.\"",
         ],
         examples: [
           { es: "Keine Sorge, Übung macht den Meister.", en: "Don't worry, practice makes perfect." },
           { es: "Im ersten Monat war das Studium hart, aber aller Anfang ist schwer.", en: "The first month at university was tough, but the first step is always the hardest." },
-          { es: "Mit dieser Bemerkung hat sie den Nagel auf den Kopf getroffen.", en: "With that remark she hit the nail on the head. (a Redensart, adapted to the sentence)" },
+          { es: "Mit dieser Bemerkung hat sie den Nagel auf den Kopf getroffen.", en: "With that remark she hit the nail on the head. (a \"Redensart\", adapted to the sentence)" },
           { es: "Aller Anfang ist schwer, sagte die Fahrlehrerin, als ich den Motor zum dritten Mal abgewürgt hatte.", en: "Every beginning is hard, said the driving instructor when I'd stalled the engine for the third time." },
           { es: "Übung macht den Meister, auch beim Brotbacken.", en: "Practice makes perfect, even when it comes to baking bread." },
-          { es: "Ich bin gestern schon wieder ins Fettnäpfchen getreten.", en: "I put my foot in it again yesterday. (a Redensart)" },
+          { es: "Ich bin gestern schon wieder ins Fettnäpfchen getreten.", en: "I put my foot in it again yesterday. (a \"Redensart\")" },
         ],
         checkpoint: [
           {
@@ -34,14 +34,14 @@ export const DE_C2_U05: Lesson[] = [
             source: "Don't worry, practice makes perfect.",
             answer: "Keine Sorge, Übung macht den Meister.",
             altAnswers: ["Mach dir keine Sorgen, Übung macht den Meister.", "Machen Sie sich keine Sorgen, Übung macht den Meister.", "Macht euch keine Sorgen, Übung macht den Meister.", "Keine Angst, Übung macht den Meister.", "Mach dir keine Sorgen: Übung macht den Meister."],
-            explanation: "\"Übung macht den Meister\": no article on \"Übung\" (an abstract, generic subject), \"den Meister\" in the accusative. Not the calque *\"Praxis macht perfekt\".",
+            explanation: "\"Übung macht den Meister\": no article on \"Übung\" (an abstract, generic subject), \"den Meister\" in the accusative. Not the calque \"*Praxis macht perfekt*\".",
           },
           {
             type: "multiple-choice",
-            question: "Which of these is a Sprichwort, a complete saying you can quote on its own?",
+            question: "Which of these is a \"Sprichwort\", a complete saying you can quote on its own?",
             options: ["Aller Anfang ist schwer.", "den Nagel auf den Kopf treffen", "ins Fettnäpfchen treten", "um den heißen Brei herumreden"],
             correctIndex: 0,
-            explanation: "\"Aller Anfang ist schwer\" is a whole sentence stating a general truth. The others are Redensarten: they need a subject and a tense before they say anything.",
+            explanation: "\"Aller Anfang ist schwer\" is a whole sentence stating a general truth. The others are \"Redensarten\": they need a subject and a tense before they say anything.",
           },
         ],
       },
@@ -155,7 +155,7 @@ export const DE_C2_U05: Lesson[] = [
         en: "The apple doesn't fall far [from the tree].",
         sentence: "Der Apfel fällt nicht weit vom ___.",
         answer: "Stamm",
-        explanation: "German says trunk: \"vom Stamm\". *\"vom Baum\" is understood but is not the proverb.",
+        explanation: "German says trunk: \"vom Stamm\". \"*vom Baum*\" is understood but is not the proverb.",
       },
       {
         type: "word-order",
@@ -177,7 +177,7 @@ export const DE_C2_U05: Lesson[] = [
         question: "You want to encourage a friend who keeps getting her chords wrong on the guitar. What do you say?",
         options: ["Keine Sorge, Übung macht den Meister.", "Keine Sorge, Praxis macht perfekt.", "Keine Sorge, Übung macht Meister.", "Keine Sorge, die Übung macht perfekt."],
         correctIndex: 0,
-        explanation: "Only \"Übung macht den Meister\" is the proverb. *\"Praxis macht perfekt\" is a calque from English, and the article \"den\" cannot be dropped.",
+        explanation: "Only \"Übung macht den Meister\" is the proverb. \"*Praxis macht perfekt*\" is a calque from English, and the article \"den\" cannot be dropped.",
       },
       {
         type: "matching",
@@ -227,7 +227,7 @@ export const DE_C2_U05: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Transformations: Ergänze das Sprichwort",
-    summary: "Complete half-quoted proverbs (Wer zuletzt lacht ..., Was Hänschen nicht lernt ..., Wer den Pfennig nicht ehrt ...), rephrase each in neutral modern German, and turn proverbs into statements about specific people.",
+    summary: "Complete half-quoted proverbs (\"Wer zuletzt lacht ...\", \"Was Hänschen nicht lernt ...\", \"Wer den Pfennig nicht ehrt ...\"), rephrase each in neutral modern German, and turn proverbs into statements about specific people.",
     duration: "17 min",
     sections: [
       {
@@ -252,7 +252,8 @@ export const DE_C2_U05: Lesson[] = [
             en: "He who laughs last [laughs best].",
             sentence: "Wer zuletzt lacht, ___.",
             answer: "lacht am besten",
-            explanation: "The main clause repeats the verb: \"lacht am besten\" (superlative with \"am\"). No \"der\" is needed because both clauses have the same subject in the nominative.",
+            altAnswers: ["der lacht am besten"],
+            explanation: "The main clause repeats the verb: \"lacht am besten\" (superlative with \"am\"). A resuming \"der\" is optional because both clauses need the nominative: \"Wer zuletzt lacht, der lacht am besten\" is also heard.",
           },
           {
             type: "translate",
@@ -446,14 +447,14 @@ export const DE_C2_U05: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Sprichwörter und Redensarten, Part 2 of 3",
-    summary: "The old grammar of proverbs: wer ..., (der) ..., omitted articles, old forms like Morgenstund and im Hause, word order bent for rhyme, and the Bauernregeln (Lichtmess, Siebenschläfer) that still turn up in weather reports.",
+    summary: "Understand and quote correctly the old grammar of proverbs: \"wer ..., (der) ...\", omitted articles, old forms like \"Morgenstund\" and \"im Hause\", word order bent for rhyme, and the \"Bauernregeln\" (\"Lichtmess\", \"Siebenschläfer\") that still turn up in weather reports.",
     duration: "19 min",
     sections: [
       {
         heading: "Wer ..., (der) ...: whoever, picked up again",
         body: [
           "Proverbs love the relative pronoun \"wer\" without an antecedent: whoever, anyone who. The main clause that follows can pick the subject up again with a form of \"der\", and whether it must do so depends on case. If both clauses need the nominative, \"der\" is optional and adds weight: \"Wer rastet, der rostet\" or \"Wer rastet, rostet.\" \"Wer A sagt, muss auch B sagen\" does without it.",
-          "If the main clause needs a different case, the pronoun is obligatory and takes that case: \"Wer zu spät kommt, den bestraft das Leben\" (accusative: life punishes him), \"Wem nicht zu raten ist, dem ist nicht zu helfen\" (dative both times: anyone who won't take advice can't be helped). *\"Wer zu spät kommt, bestraft das Leben\" is ungrammatical: it would say the latecomer punishes life.",
+          "If the main clause needs a different case, the pronoun is obligatory and takes that case: \"Wer zu spät kommt, den bestraft das Leben\" (accusative: life punishes him), \"Wem nicht zu raten ist, dem ist nicht zu helfen\" (dative both times: anyone who won't take advice can't be helped). \"*Wer zu spät kommt, bestraft das Leben*\" is ungrammatical: it would say the latecomer punishes life.",
           "\"Was\" works the same way for things, with \"das\" to resume: \"Was du heute kannst besorgen, das verschiebe nicht auf morgen.\" These are full relative clauses, so the verb goes to the end of the \"wer\" or \"was\" clause, and the main clause begins with its verb or with the resuming pronoun, never with a subject of its own first.",
         ],
         examples: [
@@ -493,8 +494,8 @@ export const DE_C2_U05: Lesson[] = [
       {
         heading: "Missing articles and old endings",
         body: [
-          "Proverbs strip articles out: \"Ende gut, alles gut\" (all's well that ends well), \"Ohne Fleiß kein Preis\", \"Kommt Zeit, kommt Rat\", \"Übung macht den Meister\". Abstract nouns used generically take no article, and the telegraphic rhythm makes the saying easier to remember. Don't \"repair\" them: *\"Das Ende gut, alles gut\" sounds like a learner.",
-          "They also preserve endings that modern German has lost. Some drop a final -e: \"Morgenstund\" for \"Morgenstunde\". Others keep an old dative -e that normal speech drops: \"im Hause\" (we say \"im Haus\"), \"auf dem Lande\", \"im Grunde\" (basically), \"zu Hause\". You still meet the dative -e in formal letters (\"im Hause Siemens\", at Siemens) and in fixed phrases, where it is the only correct form: \"im Grunde genommen\", never *\"im Grund genommen\" in writing.",
+          "Proverbs strip articles out: \"Ende gut, alles gut\" (all's well that ends well), \"Ohne Fleiß kein Preis\", \"Kommt Zeit, kommt Rat\", \"Übung macht den Meister\". Abstract nouns used generically take no article, and the telegraphic rhythm makes the saying easier to remember. Don't 'repair' them: \"*Das Ende gut, alles gut*\" sounds like a learner.",
+          "They also preserve endings that modern German has lost. Some drop a final -e: \"Morgenstund\" for \"Morgenstunde\". Others keep an old dative -e that normal speech drops: \"im Hause\" (we say \"im Haus\"), \"auf dem Lande\", \"im Grunde\" (basically), \"zu Hause\". You still meet the dative -e in formal letters (\"im Hause Siemens\", at Siemens) and in fixed phrases, where the -e form is the standard one: \"im Grunde genommen\" (\"im Grund genommen\" is heard, especially in the south, but looks careless in formal writing).",
           "\"Gut Ding will Weile haben\" (a good thing takes time) shows an older adjective form: \"gut\" stands before the neuter noun without any ending, where modern German would say \"ein gutes Ding\". \"Ehrlich währt am längsten\" (honesty lasts longest) uses an adjective as the subject. Both are perfectly current as proverbs, but you could not build new sentences that way.",
         ],
         examples: [
@@ -529,8 +530,8 @@ export const DE_C2_U05: Lesson[] = [
         heading: "Word order bent for rhyme, and the Bauernregeln",
         body: [
           "\"Was du heute kannst besorgen, das verschiebe nicht auf morgen\" (don't put off till tomorrow what you can do today) breaks the rule that the finite verb goes last in a subordinate clause: modern German says \"was du heute besorgen kannst\". The proverb moves \"kannst\" forward so that \"besorgen\" rhymes with \"morgen\" at the end of the line. Quote it as it is, but never imitate the order in your own sentences.",
-          "Bauernregeln (farmers' rules) are rhymed weather and calendar sayings tied to saints' days. \"Ist's an Lichtmess hell und rein, wird's ein langer Winter sein\": if Candlemas (2 February) is bright and clear, winter will be long. The opening is verb-first, the old way of saying \"wenn\". \"Wie das Wetter am Siebenschläfertag, so es sieben Wochen bleiben mag\": the weather on Siebenschläfer (27 June) will last seven weeks. Note \"so es ... bleiben mag\", again a bent word order for the rhyme.",
-          "Why do they still appear in weather reports? Partly as folklore, but the Siebenschläfer rule has a grain of truth: in late June and early July the large-scale weather pattern over Central Europe often settles for weeks. Meteorologists point out that, because of the Gregorian calendar reform, the relevant days are rather the first week of July. Other calendar sayings: \"April, April, der macht, was er will\" (April weather, \"Aprilwetter\", is changeable), and the \"Eisheiligen\" (the ice saints, 11-15 May), after which gardeners consider frost unlikely.",
+          "\"Bauernregeln\" (farmers' rules) are rhymed weather and calendar sayings tied to saints' days. \"Ist's an Lichtmess hell und rein, wird's ein langer Winter sein\": if Candlemas (2 February) is bright and clear, winter will be long. The opening is verb-first, the old way of saying \"wenn\". \"Wie das Wetter am Siebenschläfertag, so es sieben Wochen bleiben mag\": the weather on \"Siebenschläfer\" (27 June) will last seven weeks. Note \"so es ... bleiben mag\", again a bent word order for the rhyme.",
+          "Why do they still appear in weather reports? Partly as folklore, but the \"Siebenschläfer\" rule has a grain of truth: in late June and early July the large-scale weather pattern over Central Europe often settles for weeks. Meteorologists point out that, because of the Gregorian calendar reform, the relevant days are rather the first week of July. Other calendar sayings: \"April, April, der macht, was er will\" (April weather, \"Aprilwetter\", is changeable), and the \"Eisheiligen\" (the ice saints, 11-15 May), after which gardeners consider frost unlikely.",
         ],
         examples: [
           { es: "Was du heute kannst besorgen, das verschiebe nicht auf morgen.", en: "Don't put off till tomorrow what you can do today." },
@@ -547,8 +548,8 @@ export const DE_C2_U05: Lesson[] = [
             prompt: "Translate into normal modern German, not as a proverb.",
             source: "Don't put off till tomorrow what you can do today.",
             answer: "Verschieb nicht auf morgen, was du heute erledigen kannst.",
-            altAnswers: ["Verschiebe nicht auf morgen, was du heute erledigen kannst.", "Verschieb nicht auf morgen, was du heute besorgen kannst.", "Verschiebe nicht auf morgen, was du heute besorgen kannst.", "Was du heute erledigen kannst, das verschieb nicht auf morgen.", "Was du heute erledigen kannst, verschieb nicht auf morgen.", "Verschieben Sie nicht auf morgen, was Sie heute erledigen können.", "Was du heute kannst besorgen, das verschiebe nicht auf morgen.", "Man sollte nicht auf morgen verschieben, was man heute erledigen kann."],
-            explanation: "In modern German the modal goes last in the relative clause: \"was du heute erledigen kannst\". The proverb's \"kannst besorgen\" is bent for the rhyme.",
+            altAnswers: ["Verschiebe nicht auf morgen, was du heute erledigen kannst.", "Verschieb nicht auf morgen, was du heute besorgen kannst.", "Verschiebe nicht auf morgen, was du heute besorgen kannst.", "Was du heute erledigen kannst, das verschieb nicht auf morgen.", "Was du heute erledigen kannst, verschieb nicht auf morgen.", "Verschieben Sie nicht auf morgen, was Sie heute erledigen können.", "Verschiebt nicht auf morgen, was ihr heute erledigen könnt.", "Man sollte nicht auf morgen verschieben, was man heute erledigen kann."],
+            explanation: "In modern German the modal goes last in the relative clause: \"was du heute erledigen kannst\". The proverb's \"kannst besorgen\" is bent for the rhyme, so the proverb itself is not what this task asks for.",
           },
           {
             type: "listen-choose",
@@ -556,7 +557,7 @@ export const DE_C2_U05: Lesson[] = [
             question: "What does it mean?",
             options: ["If early February is bright and clear, winter will last a long time.", "If the candles burn brightly, winter will be mild.", "When winter is long, February is clear.", "Clear skies at Christmas mean a long winter."],
             correctIndex: 0,
-            explanation: "\"Ist's an Lichtmess hell und rein\" is verb-first, an old conditional (if it is). Lichtmess (Candlemas) is 2 February.",
+            explanation: "\"Ist's an Lichtmess hell und rein\" is verb-first, an old conditional (if it is). \"Lichtmess\" (Candlemas) is 2 February.",
           },
         ],
       },
@@ -648,7 +649,7 @@ export const DE_C2_U05: Lesson[] = [
         question: "What does it mean?",
         options: ["The weather on 27 June will last for seven weeks.", "If you sleep late, the weather stays bad.", "The weather changes every seven weeks.", "Seven sleepless nights bring good weather."],
         correctIndex: 0,
-        explanation: "Siebenschläfer (27 June) is the best-known Bauernregel, still quoted in summer weather reports.",
+        explanation: "\"Siebenschläfer\" (27 June) is the best-known \"Bauernregel\", still quoted in summer weather reports.",
       },
       {
         type: "speak",
@@ -672,8 +673,8 @@ export const DE_C2_U05: Lesson[] = [
     slug: "c2-proverbs-contradictory-contrast",
     level: "DE-C2",
     number: 4,
-    title: "Contrast Clinic: Sprichwörter, die sich Widersprechen",
-    summary: "Proverbs that contradict each other (Gleich und Gleich gesellt sich gern vs Gegensätze ziehen sich an, Eile mit Weile vs Wer zu spät kommt, den bestraft das Leben, Vorsicht vs Wagemut) and how speakers pick the one that proves their point.",
+    title: "Contrast Clinic: Sprichwörter, die sich widersprechen",
+    summary: "Choose between proverbs that contradict each other (\"Gleich und Gleich gesellt sich gern\" vs \"Gegensätze ziehen sich an\", \"Eile mit Weile\" vs \"Wer zu spät kommt, den bestraft das Leben\", caution vs daring) to back up the point you want to make.",
     duration: "17 min",
     sections: [
       {
@@ -914,8 +915,8 @@ export const DE_C2_U05: Lesson[] = [
     slug: "c2-proverbs-quote-dialogue-lab",
     level: "DE-C2",
     number: 5,
-    title: "Dialogue Lab: Ein Sprichwort Natürlich Einflechten",
-    summary: "Weave proverbs into conversation naturally with Wie heißt es so schön, Wie man so schön sagt, Nicht umsonst heißt es and the half-quote, and avoid sounding like a calendar page.",
+    title: "Dialogue Lab: Ein Sprichwort natürlich einflechten",
+    summary: "Weave proverbs into conversation naturally with \"Wie heißt es so schön\", \"Wie man so schön sagt\", \"Nicht umsonst heißt es\" and the half-quote, and avoid sounding like a calendar page.",
     duration: "17 min",
     sections: [
       {
@@ -930,7 +931,7 @@ export const DE_C2_U05: Lesson[] = [
           { es: "Wie man so schön sagt, ist aller Anfang schwer.", en: "As the saying goes, the first step is always the hardest." },
           { es: "Nicht umsonst heißt es: Lügen haben kurze Beine.", en: "It's not for nothing they say lies don't get you far." },
           { es: "Mein Opa hat immer gesagt: Wer den Pfennig nicht ehrt, ist des Talers nicht wert.", en: "My grandpa always used to say: look after the pennies." },
-          { es: "Er hat nie gespart, frei nach dem Motto: Nach mir die Sintflut.", en: "He never saved anything, along the lines of: après moi, le déluge." },
+          { es: "Er hat nie gespart, frei nach dem Motto: Nach mir die Sintflut.", en: "He never saved anything, along the lines of: after me, the flood." },
           { es: "Tja, wer zuletzt lacht ...", en: "Well, he who laughs last ..." },
         ],
         checkpoint: [
@@ -1046,10 +1047,10 @@ export const DE_C2_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "He never saved anything, along the lines of: après moi, le déluge.",
+        source: "He never saved anything, along the lines of: after me, the flood.",
         answer: "Er hat nie gespart, frei nach dem Motto: Nach mir die Sintflut.",
         altAnswers: ["Er hat nie etwas gespart, frei nach dem Motto: Nach mir die Sintflut.", "Er hat nie gespart, getreu dem Motto: Nach mir die Sintflut.", "Er sparte nie, frei nach dem Motto: Nach mir die Sintflut.", "Er hat nie gespart, nach dem Motto: Nach mir die Sintflut."],
-        explanation: "\"Frei nach dem Motto\" introduces the attitude behind someone's behaviour; \"Nach mir die Sintflut\" (after me the Flood) is the German version of the French saying.",
+        explanation: "\"Frei nach dem Motto\" introduces the attitude behind someone's behaviour; \"Nach mir die Sintflut\" (after me the Flood) is the German version of a French saying attributed to Louis XV or Madame de Pompadour.",
       },
       {
         type: "translate",
@@ -1097,7 +1098,7 @@ export const DE_C2_U05: Lesson[] = [
         question: "Lena failed her test an hour ago and is upset. Which response is the most natural and kind?",
         options: ["Oh nein, das tut mir leid. Was ist denn passiert?", "Aller Anfang ist schwer!", "Wer nicht hören will, muss fühlen.", "Tja, wer zuletzt lacht ..."],
         correctIndex: 0,
-        explanation: "Listen first; a proverb straight after a failure sounds like a Kalenderspruch, and the others are even unkind.",
+        explanation: "Listen first; a proverb straight after a failure sounds like a \"Kalenderspruch\", and the others are even unkind.",
       },
       {
         type: "listen-choose",
@@ -1135,7 +1136,7 @@ export const DE_C2_U05: Lesson[] = [
     level: "DE-C2",
     number: 6,
     title: "Sprichwörter und Redensarten, Part 3 of 3",
-    summary: "Literary and biblical sources: Luther's Bible (Wer andern eine Grube gräbt, sein Licht unter den Scheffel stellen, Perlen vor die Säue werfen), Goethe and Schiller lines that became sayings, the Grimms and Wilhelm Busch, and twisted proverbs.",
+    summary: "Recognise and use sayings from Luther's Bible (\"Wer andern eine Grube gräbt\", \"sein Licht unter den Scheffel stellen\", \"Perlen vor die Säue werfen\"), Goethe and Schiller lines that became sayings, the Grimms and Wilhelm Busch, and spot twisted proverbs.",
     duration: "19 min",
     sections: [
       {
@@ -1347,7 +1348,7 @@ export const DE_C2_U05: Lesson[] = [
     slug: "c2-proverbs-mission-advice",
     level: "DE-C2",
     number: 7,
-    title: "Real-World Mission: Mit Sprichwörtern Raten",
+    title: "Real-World Mission: Mit Sprichwörtern raten",
     summary: "Answer three letters to a magazine advice column, each with one fitting proverb, framed naturally and explained in plain modern German, plus the polite formulas of written advice.",
     duration: "20 min",
     sections: [
@@ -1556,7 +1557,7 @@ export const DE_C2_U05: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Mastery Vocabulary: Character Adjectives",
-    summary: "Precise words for character (gewissenhaft, eigensinnig, kleinlich, großzügig, verschroben, umgänglich, nachtragend, besonnen, leichtfertig, spießig) with their nouns, opposites and traps.",
+    summary: "Describe character precisely with \"gewissenhaft\", \"eigensinnig\", \"kleinlich\", \"großzügig\", \"verschroben\", \"umgänglich\", \"nachtragend\", \"besonnen\", \"leichtfertig\" and \"spießig\", with their nouns, opposites and traps.",
     duration: "18 min",
     sections: [
       {

@@ -81,7 +81,7 @@ export const DE_B1_U09: Lesson[] = [
             prompt: "Translate into German.",
             source: "The restaurant you recommended was great. (to a friend)",
             answer: "Das Restaurant, das du empfohlen hast, war toll.",
-            altAnswers: ["Das Restaurant, das du empfohlen hast, war super.", "Das Restaurant, das ihr empfohlen habt, war toll.", "Das Restaurant, das Sie empfohlen haben, war toll."],
+            altAnswers: ["Das Restaurant, das du empfohlen hast, war super."],
             explanation: "\"Das\" for the neuter noun; \"hast\" at the end of the relative clause.",
           },
         ],
@@ -90,7 +90,7 @@ export const DE_B1_U09: Lesson[] = [
         heading: "The traps: no dropping, no wer",
         body: [
           "English often drops the relative pronoun: the man I met, the book you lent me. German never can: \"der Mann, den ich getroffen habe\", \"das Buch, das du mir geliehen hast\". Leaving it out is the most common English-speaker error.",
-          "Don't use question words for people: *\"der Mann, wer...\" is wrong; it's \"der Mann, der...\".",
+          "Don't use question words for people: \"*der Mann, wer...\" is wrong; it's \"der Mann, der...\".",
           "Watch the word order: the relative pronoun comes first in its clause, the conjugated verb last. In the Perfekt that means participle + auxiliary at the end: \"..., den ich gestern gesehen habe\".",
         ],
         examples: [
@@ -137,6 +137,7 @@ export const DE_B1_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "The jacket I bought is too small.",
         answer: "Die Jacke, die ich gekauft habe, ist zu klein.",
+        altAnswers: ["Die Jacke, die ich mir gekauft habe, ist zu klein."],
         explanation: "No dropping the pronoun: \"die\" (feminine, accusative looks the same).",
       },
       {
@@ -154,7 +155,6 @@ export const DE_B1_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "Where's the book you lent me? (to a friend)",
         answer: "Wo ist das Buch, das du mir geliehen hast?",
-        altAnswers: ["Wo ist das Buch, das ihr mir geliehen habt?", "Wo ist das Buch, das Sie mir geliehen haben?"],
         explanation: "Neuter \"das\"; dative \"mir\" + participle + \"hast\".",
       },
       {
@@ -237,7 +237,7 @@ export const DE_B1_U09: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Join into one sentence: Ich habe eine Schwester. Sie studiert in Hamburg.",
+            prompt: "Join into one sentence: \"Ich habe eine Schwester. Sie studiert in Hamburg.\"",
             source: "I have a sister who studies in Hamburg.",
             answer: "Ich habe eine Schwester, die in Hamburg studiert.",
             explanation: "\"Sie\" (subject) → \"die\"; \"studiert\" goes last.",
@@ -269,7 +269,7 @@ export const DE_B1_U09: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Join into one sentence: Ich habe einen Film gesehen. Du hast ihn empfohlen.",
+            prompt: "Join into one sentence: \"Ich habe einen Film gesehen. Du hast ihn empfohlen.\"",
             source: "I saw a film you recommended.",
             answer: "Ich habe einen Film gesehen, den du empfohlen hast.",
             explanation: "\"Ihn\" (object) → \"den\" at the front of the clause; \"hast\" at the end.",
@@ -322,7 +322,7 @@ export const DE_B1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Join into one sentence: Das ist mein Kollege. Er kommt aus Graz.",
+        prompt: "Join into one sentence: \"Das ist mein Kollege. Er kommt aus Graz.\"",
         source: "That's my colleague who comes from Graz.",
         answer: "Das ist mein Kollege, der aus Graz kommt.",
         explanation: "\"Er\" → \"der\".",
@@ -330,7 +330,7 @@ export const DE_B1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Join into one sentence: Wir wohnen in einem Haus. Es ist hundert Jahre alt.",
+        prompt: "Join into one sentence: \"Wir wohnen in einem Haus. Es ist hundert Jahre alt.\"",
         source: "We live in a house that's a hundred years old.",
         answer: "Wir wohnen in einem Haus, das hundert Jahre alt ist.",
         explanation: "\"Es\" → \"das\"; verb last.",
@@ -338,7 +338,7 @@ export const DE_B1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Join into one sentence: Das ist die Kollegin. Ich habe sie gestern kennengelernt.",
+        prompt: "Join into one sentence: \"Das ist die Kollegin. Ich habe sie gestern kennengelernt.\"",
         source: "That's the colleague I met yesterday.",
         answer: "Das ist die Kollegin, die ich gestern kennengelernt habe.",
         explanation: "\"Sie\" (object) → \"die\".",
@@ -349,7 +349,7 @@ export const DE_B1_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "The photos you sent are beautiful. (to a friend)",
         answer: "Die Fotos, die du geschickt hast, sind wunderschön.",
-        altAnswers: ["Die Fotos, die du geschickt hast, sind sehr schön.", "Die Fotos, die ihr geschickt habt, sind wunderschön.", "Die Fotos, die Sie geschickt haben, sind wunderschön."],
+        altAnswers: ["Die Fotos, die du geschickt hast, sind sehr schön."],
         explanation: "Plural \"die\"; the main verb \"sind\" after the second comma.",
       },
       {
@@ -375,7 +375,7 @@ export const DE_B1_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "Have you read the letter that came today? (to a friend)",
         answer: "Hast du den Brief gelesen, der heute gekommen ist?",
-        altAnswers: ["Hast du den Brief gelesen, der heute angekommen ist?", "Habt ihr den Brief gelesen, der heute gekommen ist?", "Haben Sie den Brief gelesen, der heute gekommen ist?"],
+        altAnswers: ["Hast du den Brief gelesen, der heute angekommen ist?"],
         explanation: "The relative clause can follow the participle at the end of the main clause, to avoid a long gap.",
       },
       {
@@ -429,7 +429,7 @@ export const DE_B1_U09: Lesson[] = [
         body: [
           "If the relative pronoun is a dative object in its clause, it takes the dative form: masculine \"dem\", feminine \"der\", neuter \"dem\", plural \"denen\". \"Die Freundin, der ich helfe\" (the friend I'm helping), \"der Kollege, dem ich danke\".",
           "Dative verbs you know trigger it: \"helfen\", \"danken\", \"gehören\", \"gefallen\", \"schmecken\", \"antworten\", \"vertrauen\". And so does an indirect object with \"geben\", \"schenken\", \"zeigen\", \"erklären\": \"der Mann, dem ich den Weg gezeigt habe\".",
-          "The big trap is the plural: it's \"denen\", not the article \"den\". \"Die Kinder, denen ich Nachhilfe gebe\" (the children I give extra lessons to). *\"Die Kinder, den ich helfe\" is the classic error.",
+          "The big trap is the plural: it's \"denen\", not the article \"den\". \"Die Kinder, denen ich Nachhilfe gebe\" (the children I give extra lessons to). \"*Die Kinder, den ich helfe\" is the classic error.",
         ],
         examples: [
           { es: "Die Freundin, der ich helfe, heißt Ayşe.", en: "The friend I'm helping is called Ayşe." },
@@ -463,7 +463,7 @@ export const DE_B1_U09: Lesson[] = [
         body: [
           "For whose, German uses \"dessen\" (after a masculine or neuter noun) and \"deren\" (after a feminine or plural noun): \"der Nachbar, dessen Hund bellt\" (the neighbour whose dog barks), \"die Kollegin, deren Mann Arzt ist\" (the colleague whose husband is a doctor).",
           "\"Dessen\" / \"deren\" agree with the owner, not with the thing owned. \"Der Nachbar, dessen Tochter...\" (the owner is masculine, so \"dessen\", even though Tochter is feminine). \"Die Kollegin, deren Sohn...\" (owner feminine → \"deren\").",
-          "The noun after \"dessen\" / \"deren\" has no article: \"dessen Hund\", never *\"dessen der Hund\". Its case depends on its role: \"der Nachbar, dessen Hund ich füttere\" (whose dog I feed).",
+          "The noun after \"dessen\" / \"deren\" has no article: \"dessen Hund\", never \"*dessen der Hund\". Its case depends on its role: \"der Nachbar, dessen Hund ich füttere\" (whose dog I feed).",
         ],
         examples: [
           { es: "Der Nachbar, dessen Hund immer bellt, ist nett.", en: "The neighbour whose dog always barks is nice." },
@@ -542,6 +542,7 @@ export const DE_B1_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "The colleague whose husband is a doctor comes from Leipzig.",
         answer: "Die Kollegin, deren Mann Arzt ist, kommt aus Leipzig.",
+        altAnswers: ["Die Kollegin, deren Mann Arzt ist, ist aus Leipzig.", "Der Kollege, dessen Mann Arzt ist, kommt aus Leipzig."],
         explanation: "Feminine owner → \"deren\".",
       },
       {
@@ -625,7 +626,7 @@ export const DE_B1_U09: Lesson[] = [
         heading: "The table",
         body: [
           "Nominative: \"der, die, das, die\". Accusative: \"den, die, das, die\". Dative: \"dem, der, dem, denen\". Genitive: \"dessen, deren, dessen, deren\" (masculine, feminine, neuter, plural).",
-          "Twelve of the sixteen are identical to the definite article. The four that differ are the ones to drill: dative plural \"denen\" (article: den) and all of the genitive: \"dessen\" (article: des) and \"deren\" (article: der).",
+          "Eleven of the sixteen are identical to the definite article. The five that differ are the ones to drill: dative plural \"denen\" (article: den) and all four genitive forms: \"dessen\" (article: des) and \"deren\" (article: der).",
           "A memory trick: the relative pronouns that differ are longer than the article. They add an extra syllable: \"den\" → \"denen\", \"des\" → \"dessen\", \"der\" → \"deren\".",
         ],
         examples: [
@@ -666,9 +667,9 @@ export const DE_B1_U09: Lesson[] = [
           { es: "Die Ärztin, die mich behandelt, ist sehr gut.", en: "The doctor treating me is very good." },
           { es: "Die Ärztin, die ich empfehle, hat montags zu.", en: "The doctor I recommend is closed on Mondays." },
           { es: "Die Ärztin, der ich vertraue, geht in Rente.", en: "The doctor I trust is retiring." },
-          { es: "Die Ärztin, deren Praxis neben uns ist, heißt Frau Schneider.", en: "The doctor whose practice is next to us is called Dr Schneider." },
+          { es: "Die Ärztin, deren Praxis neben uns ist, heißt Frau Dr. Schneider.", en: "The doctor whose practice is next to us is called Dr Schneider." },
           { es: "Das Kind, dem ich helfe, lernt schnell.", en: "The child I'm helping learns quickly." },
-          { es: "Das Kind, dessen Mutter ich kenne, geht in die erste Klasse.", en: "The child whose mother I know is in Year 1." },
+          { es: "Das Kind, dessen Mutter ich kenne, geht in die erste Klasse.", en: "The child whose mother I know is in the first year of primary school." },
         ],
         checkpoint: [
           {
@@ -684,7 +685,7 @@ export const DE_B1_U09: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "The child whose mother I know is in Year 1.",
+            source: "The child whose mother I know is in the first year of primary school.",
             answer: "Das Kind, dessen Mutter ich kenne, geht in die erste Klasse.",
             explanation: "Neuter owner → \"dessen\", even though \"Mutter\" is feminine.",
           },
@@ -694,7 +695,7 @@ export const DE_B1_U09: Lesson[] = [
         heading: "Round 2: plural and mixed",
         body: [
           "Plural: \"die\", \"die\", \"denen\", \"deren\". The plural is the same for all genders.",
-          "Mixed practice: identify the noun (gender/number), then the verb in the relative clause (case). Say the whole phrase aloud: \"die Freunde, denen ich schreibe\", \"die Freunde, deren Hochzeit war\".",
+          "Mixed practice: identify the noun (gender/number), then the verb in the relative clause (case). Say the whole phrase aloud: \"die Freunde, denen ich schreibe\", \"die Freunde, deren Hochzeit wir feiern\".",
           "With practice you'll stop thinking in tables and start hearing which form sounds right.",
         ],
         examples: [
@@ -746,8 +747,8 @@ export const DE_B1_U09: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "The doctor whose practice is next to us is called Dr Schneider.",
-        answer: "Die Ärztin, deren Praxis neben uns ist, heißt Frau Schneider.",
-        altAnswers: ["Die Ärztin, deren Praxis neben uns ist, heißt Frau Dr. Schneider.", "Der Arzt, dessen Praxis neben uns ist, heißt Herr Schneider."],
+        answer: "Die Ärztin, deren Praxis neben uns ist, heißt Frau Dr. Schneider.",
+        altAnswers: ["Die Ärztin, deren Praxis neben uns ist, heißt Frau Schneider.", "Die Ärztin, deren Praxis neben uns ist, heißt Dr. Schneider.", "Der Arzt, dessen Praxis neben uns ist, heißt Herr Dr. Schneider.", "Der Arzt, dessen Praxis neben uns ist, heißt Herr Schneider."],
         explanation: "Feminine owner → \"deren\".",
       },
       {
@@ -786,7 +787,7 @@ export const DE_B1_U09: Lesson[] = [
           { left: "den", right: "masculine, accusative" },
           { left: "der", right: "feminine, dative (or masculine subject)" },
         ],
-        explanation: "The four forms that differ from the article are \"denen\", \"dessen\", \"deren\" (twice).",
+        explanation: "The forms that differ from the article are \"denen\" (dative plural) and the genitives \"dessen\" and \"deren\". \"Den\" and \"der\" look like the article, so the noun and the verb tell you which case they are.",
       },
       {
         type: "fill-blank",
@@ -907,7 +908,7 @@ export const DE_B1_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "The man I called wasn't at home.",
         answer: "Der Mann, den ich angerufen habe, war nicht zu Hause.",
-        altAnswers: ["Der Mann, den ich angerufen habe, war nicht daheim."],
+        altAnswers: ["Der Mann, den ich angerufen habe, war nicht daheim.", "Der Mann, den ich angerufen habe, war nicht zuhause."],
         explanation: "I called him → \"den\".",
       },
       {
@@ -1006,8 +1007,8 @@ export const DE_B1_U09: Lesson[] = [
       {
         heading: "Morning: arriving",
         body: [
-          "Read the first part of Lena's diary: „Heute war mein erster Tag an der Uni Leipzig. Der Bus, den ich um acht genommen habe, war total voll. Neben mir saß eine junge Frau, die auch Geschichte studiert. Sie heißt Mia, und sie kommt aus einem Dorf, das nur zwanzig Kilometer von meinem Heimatort entfernt ist!“",
-          "„Das Gebäude war riesig. Der Hörsaal, den wir gesucht haben, war im dritten Stock. Ein Student, der dort wartete, hat uns den Weg gezeigt.“",
+          "Read the first part of Lena's diary: \"Heute war mein erster Tag an der Uni Leipzig. Der Bus, den ich um acht genommen habe, war total voll. Neben mir saß eine junge Frau, die auch Geschichte studiert. Sie heißt Mia, und sie kommt aus einem Dorf, das nur zwanzig Kilometer von meinem Heimatort entfernt ist!\"",
+          "\"Das Gebäude war riesig. Der Hörsaal, den wir gesucht haben, war im dritten Stock. Ein Student, der dort wartete, hat uns den Weg gezeigt.\"",
           "Notice how each relative pronoun takes its gender from the noun and its case from its job: \"den\" (object of \"genommen\"), \"die\" (subject of \"studiert\"), \"das\" (subject of \"ist\").",
         ],
         examples: [
@@ -1039,13 +1040,13 @@ export const DE_B1_U09: Lesson[] = [
       {
         heading: "Midday: new people",
         body: [
-          "„In der Mensa haben wir Jonas getroffen, dessen Schwester Mia schon kennt. Er hat uns zwei Freunde vorgestellt, denen er beim Umzug geholfen hat. Die Professorin, deren Vorlesung wir am Nachmittag hatten, war sehr witzig.“",
+          "\"In der Mensa haben wir Jonas getroffen, dessen Schwester Mia schon kennt. Er hat uns zwei Freunde vorgestellt, denen er beim Umzug geholfen hat. Die Professorin, deren Vorlesung wir am Nachmittag hatten, war sehr witzig.\"",
           "This part needs the dative and genitive: \"dessen\" (Jonas's sister), \"denen\" (he helped them), \"deren\" (her lecture).",
           "\"Die Mensa\" is the university canteen, \"die Vorlesung\" a lecture, \"der Hörsaal\" a lecture hall, \"vorstellen\" to introduce.",
         ],
         examples: [
           { es: "Wir haben Jonas getroffen, dessen Schwester Mia schon kennt.", en: "We met Jonas, whose sister Mia already knows." },
-          { es: "Er hat uns zwei Freunde vorgestellt, denen er beim Umzug geholfen hat.", en: "He introduced us to two friends he'd helped with their move." },
+          { es: "Er hat uns zwei Freunde vorgestellt, denen er beim Umzug geholfen hat.", en: "He introduced us to two friends he helped with their move." },
           { es: "Die Professorin, deren Vorlesung wir hatten, war sehr witzig.", en: "The professor whose lecture we had was very funny." },
           { es: "Die Mensa ist günstig.", en: "The canteen is cheap." },
           { es: "Der Kaffee, den man dort bekommt, ist gut.", en: "The coffee you get there is good." },
@@ -1054,7 +1055,7 @@ export const DE_B1_U09: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "He introduced us to two friends [he'd helped] with their move.",
+            en: "He introduced us to two friends [he helped] with their move.",
             sentence: "Er hat uns zwei Freunde vorgestellt, ___ er beim Umzug geholfen hat.",
             answer: "denen",
             explanation: "\"Helfen\" + dative, plural: \"denen\".",
@@ -1073,7 +1074,7 @@ export const DE_B1_U09: Lesson[] = [
       {
         heading: "Evening: looking back",
         body: [
-          "„Am Abend habe ich meine Mutter angerufen, der ich alles erzählen musste. Ich hatte vor dem Tag so viel Angst, aber er war super. Die Leute, die ich kennengelernt habe, sind total nett.“",
+          "\"Am Abend habe ich meine Mutter angerufen, der ich alles erzählen musste. Ich hatte vor dem Tag so viel Angst, aber er war super. Die Leute, die ich kennengelernt habe, sind total nett.\"",
           "The last part mixes everything: \"der\" (feminine dative after \"erzählen\"), \"die\" (plural accusative).",
           "Diaries mix Perfekt and Präteritum freely: \"war\", \"hatte\", \"musste\" in the Präteritum, other verbs in the Perfekt.",
         ],
@@ -1081,7 +1082,7 @@ export const DE_B1_U09: Lesson[] = [
           { es: "Ich habe meine Mutter angerufen, der ich alles erzählen musste.", en: "I called my mother, who I had to tell everything to." },
           { es: "Ich hatte vor dem Tag so viel Angst.", en: "I'd been so scared of the day." },
           { es: "Die Leute, die ich kennengelernt habe, sind total nett.", en: "The people I've met are really nice." },
-          { es: "Morgen treffe ich Mia, die neben mir wohnt.", en: "Tomorrow I'm meeting Mia, who lives near me." },
+          { es: "Morgen treffe ich Mia, die in meiner Nähe wohnt.", en: "Tomorrow I'm meeting Mia, who lives near me." },
         ],
         checkpoint: [
           {
@@ -1210,8 +1211,8 @@ export const DE_B1_U09: Lesson[] = [
       {
         heading: "The text: Mehmets Führerschein",
         body: [
-          "„Letztes Jahr habe ich endlich den Führerschein gemacht. Die Fahrschule, die ich ausgesucht hatte, war nicht billig: Der Führerschein kostet in Deutschland oft über 3000 Euro! Mein Fahrlehrer, der schon seit zwanzig Jahren unterrichtet, war sehr geduldig.“",
-          "„Zuerst musste ich die Theorieprüfung machen. Die Fragen, die man lernen muss, sind manchmal ziemlich schwierig. Dann kamen die Fahrstunden. Die erste Fahrt, die ich auf der Autobahn gemacht habe, werde ich nie vergessen.“",
+          "\"Letztes Jahr habe ich endlich den Führerschein gemacht. Die Fahrschule, die ich ausgesucht hatte, war nicht billig: Der Führerschein kostet in Deutschland oft über 3000 Euro! Mein Fahrlehrer, der schon seit zwanzig Jahren unterrichtet, war sehr geduldig.\"",
+          "\"Zuerst musste ich die Theorieprüfung machen. Die Fragen, die man lernen muss, sind manchmal ziemlich schwierig. Dann kamen die Fahrstunden. Die erste Fahrt, die ich auf der Autobahn gemacht habe, werde ich nie vergessen.\"",
           "Vocabulary: \"die Fahrschule\" (driving school), \"der Fahrlehrer\" (driving instructor), \"die Fahrstunde\" (driving lesson), \"die Theorieprüfung\" / \"die praktische Prüfung\" (theory / practical test), \"durchfallen\" (to fail), \"bestehen\" (to pass).",
         ],
         examples: [
@@ -1243,8 +1244,8 @@ export const DE_B1_U09: Lesson[] = [
       {
         heading: "The test",
         body: [
-          "„Bei der praktischen Prüfung war ich sehr nervös. Der Prüfer, dem ich zuerst meine Papiere zeigen musste, war ziemlich streng. Aber ich habe bestanden!“",
-          "„Mein Freund Leon, dessen Prüfung am selben Tag war, ist leider durchgefallen. Er hat beim Spurwechsel nicht in den Spiegel geschaut.“",
+          "\"Bei der praktischen Prüfung war ich sehr nervös. Der Prüfer, dem ich zuerst meine Papiere zeigen musste, war ziemlich streng. Aber ich habe bestanden!\"",
+          "\"Mein Freund Leon, dessen Prüfung am selben Tag war, ist leider durchgefallen. Er hat beim Spurwechsel nicht in den Spiegel geschaut.\"",
           "\"Bestehen\" (pass) takes haben; \"durchfallen\" (fail) takes sein: \"Ich habe bestanden\", \"Er ist durchgefallen\".",
         ],
         examples: [
@@ -1377,7 +1378,7 @@ export const DE_B1_U09: Lesson[] = [
         heading: "Frau Schneider",
         body: [
           "Ayşe is describing her neighbour for a German class. Her first draft repeats nouns: \"Ich habe eine Nachbarin. Die Nachbarin heißt Frau Schneider. Frau Schneider ist 82.\" The teacher asks her to join the sentences with relative clauses.",
-          "Revised: „Ich habe eine Nachbarin, die Frau Schneider heißt und 82 Jahre alt ist. Sie wohnt in der Wohnung, die direkt unter uns liegt. Frau Schneider hat einen Kater, den sie über alles liebt.“",
+          "Revised: \"Ich habe eine Nachbarin, die Frau Schneider heißt und 82 Jahre alt ist. Sie wohnt in der Wohnung, die direkt unter uns liegt. Frau Schneider hat einen Kater, den sie über alles liebt.\"",
           "One relative clause can contain two verbs joined by \"und\", each at the end of its part: \"die Frau Schneider heißt und 82 Jahre alt ist\".",
         ],
         examples: [
@@ -1411,8 +1412,8 @@ export const DE_B1_U09: Lesson[] = [
       {
         heading: "Her family",
         body: [
-          "„Frau Schneider hat zwei Söhne, die beide in München wohnen. Ihr ältester Sohn, dessen Frau Ärztin ist, besucht sie jeden Sonntag. Sie hat auch eine Enkelin, der sie jede Woche einen Brief schreibt.“",
-          "„Die Enkelin, deren Foto im Flur hängt, studiert in Wien. Die Nachbarn, denen Frau Schneider manchmal Kuchen bringt, finden sie wunderbar.“",
+          "\"Frau Schneider hat zwei Söhne, die beide in München wohnen. Ihr ältester Sohn, dessen Frau Ärztin ist, besucht sie jeden Sonntag. Sie hat auch eine Enkelin, der sie jede Woche einen Brief schreibt.\"",
+          "\"Die Enkelin, deren Foto im Flur hängt, studiert in Wien. Die Nachbarn, denen Frau Schneider manchmal Kuchen bringt, finden sie wunderbar.\"",
           "Every case appears: nominative \"die\", genitive \"dessen\" / \"deren\", dative \"der\" / \"denen\".",
         ],
         examples: [
@@ -1655,7 +1656,7 @@ export const DE_B1_U09: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The children whose parents work here go to the daycare centre.",
+        source: "The children whose parents work here go to the nursery.",
         answer: "Die Kinder, deren Eltern hier arbeiten, gehen in die Kita.",
         altAnswers: ["Die Kinder, deren Eltern hier arbeiten, gehen in den Kindergarten.", "Die Kinder, deren Eltern hier arbeiten, gehen in die Kindertagesstätte."],
         explanation: "Plural owner: \"deren\".",
@@ -1708,9 +1709,9 @@ export const DE_B1_U09: Lesson[] = [
       {
         heading: "Case and form errors",
         body: [
-          "*\"der Mann, den mir geholfen hat\" → he helped me, so he's the subject: \"der Mann, der mir geholfen hat\".",
-          "*\"die Kinder, den ich helfe\" → plural dative is \"denen\": \"die Kinder, denen ich helfe\".",
-          "*\"das Buch, was ich lese\" → after a neuter noun, standard German uses \"das\": \"das Buch, das ich lese\". (\"Was\" has its own uses, which come next unit.)",
+          "\"*der Mann, den mir geholfen hat\" → he helped me, so he's the subject: \"der Mann, der mir geholfen hat\".",
+          "\"*die Kinder, den ich helfe\" → plural dative is \"denen\": \"die Kinder, denen ich helfe\".",
+          "\"*das Buch, was ich lese\" → after a neuter noun, standard German uses \"das\": \"das Buch, das ich lese\". (\"Was\" has its own uses, which come next unit.)",
         ],
         examples: [
           { es: "Der Mann, der mir geholfen hat, heißt Jonas.", en: "The man who helped me is called Jonas." },
@@ -1722,7 +1723,7 @@ export const DE_B1_U09: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix \"Der Mann, den mir geholfen hat, heißt Jonas.\" Translate: The man who helped me is called Jonas.",
+            prompt: "Fix \"*Der Mann, den mir geholfen hat, heißt Jonas.\" Translate: The man who helped me is called Jonas.",
             source: "The man who helped me is called Jonas.",
             answer: "Der Mann, der mir geholfen hat, heißt Jonas.",
             explanation: "The man is the subject of \"geholfen hat\": nominative \"der\".",
@@ -1730,7 +1731,7 @@ export const DE_B1_U09: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The book [that] I'm reading is exciting. (a learner wrote \"was\")",
+            en: "The book [that] I'm reading is exciting. (a learner wrote \"*was\")",
             sentence: "Das Buch, ___ ich lese, ist spannend.",
             answer: "das",
             explanation: "After a neuter noun: \"das\".",
@@ -1740,9 +1741,9 @@ export const DE_B1_U09: Lesson[] = [
       {
         heading: "Word-order and punctuation errors",
         body: [
-          "*\"die Frau, die ich gestern sie gesehen habe\" → the relative pronoun replaces the pronoun; don't repeat it: \"die Frau, die ich gestern gesehen habe\".",
-          "*\"der Kollege, der hat angerufen\" → the verb goes to the end: \"der Kollege, der angerufen hat\".",
-          "*\"Der Film den wir gesehen haben war gut\" → commas around the relative clause: \"Der Film, den wir gesehen haben, war gut.\" German commas are not optional here.",
+          "\"*die Frau, die ich gestern sie gesehen habe\" → the relative pronoun replaces the pronoun; don't repeat it: \"die Frau, die ich gestern gesehen habe\".",
+          "\"*der Kollege, der hat angerufen\" → the verb goes to the end: \"der Kollege, der angerufen hat\".",
+          "\"*Der Film den wir gesehen haben war gut\" → commas around the relative clause: \"Der Film, den wir gesehen haben, war gut.\" German commas are not optional here.",
         ],
         examples: [
           { es: "Die Frau, die ich gestern gesehen habe, ist Lehrerin.", en: "The woman I saw yesterday is a teacher." },
@@ -1754,7 +1755,7 @@ export const DE_B1_U09: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix \"Der Kollege, der hat angerufen, möchte dich sprechen.\" Translate: The colleague who called would like to speak to you.",
+            prompt: "Fix \"*Der Kollege, der hat angerufen, möchte dich sprechen.\" Translate: The colleague who called would like to speak to you.",
             source: "The colleague who called would like to speak to you.",
             answer: "Der Kollege, der angerufen hat, möchte dich sprechen.",
             altAnswers: ["Die Kollegin, die angerufen hat, möchte dich sprechen.", "Der Kollege, der angerufen hat, möchte Sie sprechen.", "Der Kollege, der angerufen hat, möchte mit dir sprechen."],
@@ -1774,7 +1775,7 @@ export const DE_B1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"Die Kinder, den ich helfe, sind sieben.\" Translate: The children I help are seven.",
+        prompt: "Fix \"*Die Kinder, den ich helfe, sind sieben.\" Translate: The children I help are seven.",
         source: "The children I help are seven.",
         answer: "Die Kinder, denen ich helfe, sind sieben.",
         altAnswers: ["Die Kinder, denen ich helfe, sind sieben Jahre alt."],
@@ -1783,7 +1784,7 @@ export const DE_B1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"Die Frau, die ich gestern sie gesehen habe, ist Lehrerin.\" Translate: The woman I saw yesterday is a teacher.",
+        prompt: "Fix \"*Die Frau, die ich gestern sie gesehen habe, ist Lehrerin.\" Translate: The woman I saw yesterday is a teacher.",
         source: "The woman I saw yesterday is a teacher.",
         answer: "Die Frau, die ich gestern gesehen habe, ist Lehrerin.",
         explanation: "Don't repeat the pronoun: \"die\" already is the object.",
@@ -1791,7 +1792,7 @@ export const DE_B1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"Das ist der Mann, wer mir geholfen hat.\" Translate: That's the man who helped me.",
+        prompt: "Fix \"*Das ist der Mann, wer mir geholfen hat.\" Translate: That's the man who helped me.",
         source: "That's the man who helped me.",
         answer: "Das ist der Mann, der mir geholfen hat.",
         explanation: "After a noun, use \"der\", not \"wer\".",
@@ -1799,7 +1800,7 @@ export const DE_B1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"Die Kollegin, dessen Mann Koch ist, bringt oft Kuchen mit.\" Translate: The colleague whose husband is a chef often brings cake.",
+        prompt: "Fix \"*Die Kollegin, dessen Mann Koch ist, bringt oft Kuchen mit.\" Translate: The colleague whose husband is a chef often brings cake.",
         source: "The colleague whose husband is a chef often brings cake.",
         answer: "Die Kollegin, deren Mann Koch ist, bringt oft Kuchen mit.",
         explanation: "Feminine owner → \"deren\" (\"dessen\" would agree with \"Mann\", which is wrong).",
@@ -1807,7 +1808,7 @@ export const DE_B1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"Ich habe einen Nachbarn, den Gitarre spielt.\" Translate: I have a neighbour who plays the guitar.",
+        prompt: "Fix \"*Ich habe einen Nachbarn, den Gitarre spielt.\" Translate: I have a neighbour who plays the guitar.",
         source: "I have a neighbour who plays the guitar.",
         answer: "Ich habe einen Nachbarn, der Gitarre spielt.",
         altAnswers: ["Ich habe eine Nachbarin, die Gitarre spielt."],
@@ -1816,7 +1817,7 @@ export const DE_B1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"Das ist das Auto, das ich habe gekauft.\" Translate: That's the car I bought.",
+        prompt: "Fix \"*Das ist das Auto, das ich habe gekauft.\" Translate: That's the car I bought.",
         source: "That's the car I bought.",
         answer: "Das ist das Auto, das ich gekauft habe.",
         explanation: "Auxiliary last: \"gekauft habe\".",
@@ -1824,7 +1825,7 @@ export const DE_B1_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"Der Lehrer, der Schüler mögen ihn, ist streng.\" Translate: The teacher the pupils like is strict.",
+        prompt: "Fix \"*Der Lehrer, der Schüler mögen ihn, ist streng.\" Translate: The teacher the pupils like is strict.",
         source: "The teacher the pupils like is strict.",
         answer: "Der Lehrer, den die Schüler mögen, ist streng.",
         altAnswers: ["Die Lehrerin, die die Schüler mögen, ist streng."],

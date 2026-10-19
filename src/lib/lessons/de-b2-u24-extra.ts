@@ -9,7 +9,7 @@ export const DE_B2_U24_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Art and Literature Vocabulary",
-    summary: "Genders and collocations: das Werk, ein Buch veröffentlichen, Bilder ausstellen, ein Gemälde malen.",
+    summary: "Use art and literature nouns with the right gender and the verbs they go with (\"ein Buch veröffentlichen\", \"Bilder ausstellen\", \"ein Gemälde malen\").",
     duration: "12 min",
     sections: [
       {
@@ -38,7 +38,7 @@ export const DE_B2_U24_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The author [was awarded] a literary prize.",
+            en: "The author [was] awarded a literary prize.",
             sentence: "Der Autorin ___ ein Literaturpreis verliehen.",
             answer: "wurde",
             explanation: "\"Einen Preis verleihen\" in the passive; the recipient stays dative.",
@@ -97,7 +97,7 @@ export const DE_B2_U24_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which article is correct? '___ Erzählung ist sehr kurz.'",
+        question: "The story is very short. Which word completes \"___ Erzählung ist sehr kurz.\"?",
         options: ["Die", "Der", "Das", "Den"],
         correctIndex: 0,
         explanation: "Nouns ending in -ung are feminine.",
@@ -107,9 +107,9 @@ export const DE_B2_U24_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "The critic wrote a harsh review.",
-        answer: "Der Kritiker hat eine harte Rezension geschrieben.",
-        altAnswers: ["Der Kritiker schrieb eine harte Rezension.", "Die Kritikerin hat eine harte Rezension geschrieben.", "Der Kritiker hat eine scharfe Kritik geschrieben.", "Der Kritiker schrieb eine vernichtende Rezension."],
-        explanation: "\"Die Rezension\" or \"die Kritik\".",
+        answer: "Der Kritiker hat eine scharfe Rezension geschrieben.",
+        altAnswers: ["Der Kritiker hat eine harte Rezension geschrieben.", "Der Kritiker schrieb eine scharfe Rezension.", "Der Kritiker schrieb eine harte Rezension.", "Die Kritikerin hat eine scharfe Rezension geschrieben.", "Die Kritikerin hat eine harte Rezension geschrieben.", "Der Kritiker hat eine scharfe Kritik geschrieben.", "Der Kritiker schrieb eine vernichtende Rezension."],
+        explanation: "\"Die Rezension\" or \"die Kritik\"; harsh is usually \"scharf\" or \"hart\", very harsh \"vernichtend\".",
       },
       {
         type: "translate",
@@ -172,7 +172,7 @@ export const DE_B2_U24_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Political News",
-    summary: "Read and summarise short news items about the Bundestag and local politics.",
+    summary: "Understand and translate short news items about the Bundestag and local politics, with the passive, Konjunktiv I and \"laut\".",
     duration: "12 min",
     sections: [
       {
@@ -243,11 +243,12 @@ export const DE_B2_U24_EXTRA: Lesson[] = [
         en: "[According to the poll], the majority is against the project.",
         sentence: "___ ist die Mehrheit gegen das Projekt.",
         answer: "Laut Umfrage",
+        altAnswers: ["Laut der Umfrage", "Der Umfrage zufolge", "Nach der Umfrage"],
         explanation: "\"Laut\" + noun without an article is common in headlines and news.",
       },
       {
         type: "multiple-choice",
-        question: "What is 'die Kommunalwahl'?",
+        question: "What is \"die Kommunalwahl\"?",
         options: ["a local election", "a federal election", "a communist party", "a public poll"],
         correctIndex: 0,
         explanation: "\"Kommunal\" = local (municipal).",
@@ -275,6 +276,7 @@ export const DE_B2_U24_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: The new law comes into force on 1 January.",
         words: ["Das", "neue", "Gesetz", "tritt", "am 1. Januar", "in Kraft."],
         translation: "The new law comes into force on 1 January.",
+        altOrders: [["am 1. Januar", "tritt", "das", "neue", "Gesetz", "in Kraft."]],
         explanation: "\"In Kraft treten\": \"in Kraft\" goes to the end.",
       },
       {
@@ -331,7 +333,7 @@ export const DE_B2_U24_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Dreams and False Friends",
-    summary: "Träumen von, sich vorstellen, sich einbilden and so tun, als ob in context.",
+    summary: "Use \"träumen von\", \"sich vorstellen\", \"sich einbilden\" and \"so tun, als ob\" in context, and avoid false friends such as \"realisieren\".",
     duration: "12 min",
     sections: [
       {
@@ -354,16 +356,17 @@ export const DE_B2_U24_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "Can you imagine that?",
             answer: "Kannst du dir das vorstellen?",
-            altAnswers: ["Können Sie sich das vorstellen?", "Könnt ihr euch das vorstellen?", "Kannst du dir das vorstellen!"],
+            altAnswers: ["Können Sie sich das vorstellen?", "Könnt ihr euch das vorstellen?", "Kannst du dir das denn vorstellen?"],
             explanation: "Dative \"dir\" + object \"das\" = imagine.",
           },
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "I suddenly [realised] that I was too late.",
-            sentence: "Mir ___ plötzlich klar, dass ich zu spät war.",
-            answer: "wurde",
-            explanation: "\"Mir wird klar\" = I realise; \"realisieren\" is less common in this sense.",
+            en: "Suddenly [I realised] that I was too late.",
+            sentence: "Plötzlich ___, dass ich zu spät war.",
+            answer: "wurde mir klar",
+            altAnswers: ["merkte ich", "habe ich gemerkt", "ist mir klar geworden"],
+            explanation: "\"Mir wird klar\" (dative \"mir\") or \"ich merke\" = I realise; \"realisieren\" in this sense is colloquial, and mainly means to carry out.",
           },
         ],
       },
@@ -398,7 +401,7 @@ export const DE_B2_U24_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which verb fits? 'Ich ___ mir das Leben auf dem Land ruhiger vorgestellt.'",
+        question: "I had imagined life in the country to be quieter. Which word completes \"Ich ___ mir das Leben auf dem Land ruhiger vorgestellt.\"?",
         options: ["hatte", "war", "wurde", "bildete"],
         correctIndex: 0,
         explanation: "\"Sich etwas vorstellen\" forms the Perfekt and Plusquamperfekt with \"haben\".",
@@ -406,7 +409,7 @@ export const DE_B2_U24_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Let me [introduce] my colleague Frau Arslan.",
+        en: "May I [introduce] my colleague Frau Arslan to you?",
         sentence: "Darf ich Ihnen meine Kollegin Frau Arslan ___?",
         answer: "vorstellen",
         explanation: "\"Jemandem jemanden vorstellen\" = to introduce someone to someone.",

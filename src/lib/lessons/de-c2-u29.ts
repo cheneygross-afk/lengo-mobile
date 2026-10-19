@@ -7,8 +7,8 @@ export const DE_C2_U29: Lesson[] = [
     slug: "c2-psychology-emotions-1",
     level: "DE-C2",
     number: 1,
-    title: "Psychologie und Komplexe Gefühle, Part 1 of 3",
-    summary: "Naming mixed feelings precisely: hin- und hergerissen, zwiespältig, ein mulmiges Gefühl, Erleichterung mit Beigeschmack, and the impersonal es-constructions German uses for inner states.",
+    title: "Psychologie und komplexe Gefühle, Part 1 of 3",
+    summary: "You'll be able to name mixed feelings precisely (\"hin- und hergerissen\", \"zwiespältig\", \"ein mulmiges Gefühl\", \"Erleichterung mit Beigeschmack\") and describe inner states with impersonal constructions like \"Mir ist mulmig zumute\".",
     duration: "18 min",
     sections: [
       {
@@ -33,7 +33,7 @@ export const DE_C2_U29: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm torn: should I accept the offer or not?",
             answer: "Ich bin hin- und hergerissen: Soll ich das Angebot annehmen oder nicht?",
-            altAnswers: ["Ich bin hin- und hergerissen. Soll ich das Angebot annehmen oder nicht?", "Ich bin hin und her gerissen: Soll ich das Angebot annehmen oder nicht?", "Ich bin hin- und hergerissen: Soll ich das Angebot annehmen?"],
+            altAnswers: ["Ich bin hin- und hergerissen. Soll ich das Angebot annehmen oder nicht?", "Ich bin hin- und hergerissen: Soll ich das Angebot annehmen?"],
             explanation: "\"Hin- und hergerissen sein\" = to be torn. The hyphen saves writing \"-gerissen\" twice.",
           },
           {
@@ -226,8 +226,8 @@ export const DE_C2_U29: Lesson[] = [
     slug: "c2-ambivalence-dissonance-contrast",
     level: "DE-C2",
     number: 2,
-    title: "Contrast Clinic: Ambivalenz und Kognitive Dissonanz",
-    summary: "Two psychological terms that are often confused: Ambivalenz (holding opposite feelings at once) and kognitive Dissonanz (the discomfort when actions and beliefs clash), with examples from everyday life, Kafka and Thomas Mann.",
+    title: "Contrast Clinic: Ambivalenz und kognitive Dissonanz",
+    summary: "You'll be able to tell apart two often-confused terms, \"Ambivalenz\" (holding opposite feelings at once) and \"kognitive Dissonanz\" (the discomfort when actions and beliefs clash), and use them about everyday life, Kafka and Thomas Mann.",
     duration: "17 min",
     sections: [
       {
@@ -277,7 +277,7 @@ export const DE_C2_U29: Lesson[] = [
         heading: "Kognitive Dissonanz: when actions and beliefs clash",
         body: [
           "\"Kognitive Dissonanz\" (Leon Festinger, 1957) is not a mix of feelings but an uncomfortable tension between what you believe and what you do, or between two beliefs. A smoker who knows smoking kills feels dissonance and tries to reduce it.",
-          "Typical strategies are \"Dissonanzreduktion\": changing your behaviour, or more often changing your thoughts: \"etwas schönreden\" (to talk something up), \"etwas verdrängen\" (to repress), \"sich etwas zurechtlegen\" (to construct a convenient explanation), \"Ausreden finden\". \"Mein Großvater hat auch geraucht und wurde neunzig\" is classic dissonance reduction.",
+          "Typical strategies are \"Dissonanzreduktion\": changing your behaviour, or more often changing your thoughts: \"etwas schönreden\" (to gloss over, to make something sound better than it is), \"etwas verdrängen\" (to repress), \"sich etwas zurechtlegen\" (to construct a convenient explanation), \"Ausreden finden\". \"Mein Großvater hat auch geraucht und wurde neunzig\" is classic dissonance reduction.",
           "The key distinction: ambivalence is two feelings coexisting; dissonance is a conflict that the mind tries to resolve, often by self-deception. You can endure ambivalence; dissonance pushes you to justify yourself.",
         ],
         examples: [
@@ -308,7 +308,7 @@ export const DE_C2_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A smoker says: Mein Großvater hat auch geraucht und wurde neunzig. What is this?",
+            question: "A smoker says: \"Mein Großvater hat auch geraucht und wurde neunzig.\" What is this?",
             options: ["Dissonance reduction", "Ambivalence", "Resilience", "Mixed feelings"],
             correctIndex: 0,
             explanation: "The smoker eases the tension between belief and behaviour with a convenient argument: classic dissonance reduction.",
@@ -319,7 +319,7 @@ export const DE_C2_U29: Lesson[] = [
         heading: "Literature: Kafka's ambivalence and Thomas Mann's Aschenbach",
         body: [
           "Kafka's \"Brief an den Vater\" (1919) is a document of ambivalence: the son admires and fears his father, blames him and excuses him in the same breath. \"Ich hatte vor dir das Selbstvertrauen verloren\", he writes, yet he also longs for the father's recognition.",
-          "Thomas Mann's \"Der Tod in Venedig\" shows dissonance: the disciplined writer Gustav von Aschenbach knows his obsession with the boy Tadzio contradicts everything he stands for, and he justifies staying in plague-ridden Venice with ever more elaborate reasons. The narrator lets the reader see the \"Selbstbetrug\" (self-deception) that Aschenbach himself refuses to see.",
+          "Thomas Mann's \"Der Tod in Venedig\" shows dissonance: the disciplined writer Gustav von Aschenbach knows his obsession with the boy Tadzio contradicts everything he stands for, and he justifies staying in cholera-stricken Venice with ever more elaborate reasons. The narrator lets the reader see the \"Selbstbetrug\" (self-deception) that Aschenbach himself refuses to see.",
           "In an analysis you can write: \"Kafkas Haltung gegenüber dem Vater ist von tiefer Ambivalenz geprägt\" and \"Aschenbach versucht, die Dissonanz zwischen Anspruch und Begierde durch Rationalisierung aufzulösen.\" Note \"geprägt sein von\" (to be marked by) and \"auflösen\" (to resolve).",
         ],
         examples: [
@@ -352,7 +352,7 @@ export const DE_C2_U29: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Aschenbach keeps finding reasons to stay in Venice despite knowing better. Which term fits?",
-            options: ["kognitive Dissonanz", "Fernweh", "Ambivalenz only", "Resilienz"],
+            options: ["kognitive Dissonanz", "Fernweh", "Schadenfreude", "Resilienz"],
             correctIndex: 0,
             explanation: "He resolves the clash between his principles and his desire by self-justification: dissonance reduction.",
           },
@@ -381,7 +381,7 @@ export const DE_C2_U29: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "He [talks himself into thinking] the flight is fine.",
+        en: "He [talks] himself into thinking the flight is fine.",
         sentence: "Er ___ sich die Flugreise schön.",
         answer: "redet",
         explanation: "\"Sich etwas schönreden\" is separable: \"Er redet sich die Flugreise schön.\"",
@@ -444,8 +444,8 @@ export const DE_C2_U29: Lesson[] = [
     slug: "c2-psychology-emotions-2",
     level: "DE-C2",
     number: 3,
-    title: "Psychologie und Komplexe Gefühle, Part 2 of 3",
-    summary: "Talking about mental health with precision and respect: Burnout, Depression, Angststörung, Resilienz, Achtsamkeit; person-first language; and verbs of becoming such as in eine Krise geraten and in Panik verfallen.",
+    title: "Psychologie und komplexe Gefühle, Part 2 of 3",
+    summary: "You'll be able to talk about mental health with precision and respect (\"Burnout\", \"Depression\", \"Angststörung\", \"Resilienz\", \"Achtsamkeit\"), use person-first language, and describe slipping into a state with \"in eine Krise geraten\" and \"in Panik verfallen\".",
     duration: "18 min",
     sections: [
       {
@@ -484,10 +484,10 @@ export const DE_C2_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which adjective means mental in mental health?",
-            options: ["psychisch", "geistreich", "geisteskrank", "physisch"],
+            question: "You want to say: Mental health matters. Which sentence is right?",
+            options: ["Psychische Gesundheit ist wichtig.", "Geistreiche Gesundheit ist wichtig.", "Geisteskranke Gesundheit ist wichtig.", "Physische Gesundheit ist wichtig."],
             correctIndex: 0,
-            explanation: "\"Psychisch\" = mental, of the psyche. \"Geisteskrank\" is outdated and stigmatising; \"geistreich\" means witty.",
+            explanation: "\"Psychisch\" = mental, of the psyche. \"Physisch\" is physical, \"geisteskrank\" is outdated and stigmatising, and \"geistreich\" means witty.",
           },
         ],
       },
@@ -569,10 +569,10 @@ export const DE_C2_U29: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which auxiliary does \"geraten\" take in the perfect?",
-            options: ["sein", "haben", "werden", "either, with no difference"],
+            question: "You want to say: He got into difficulties. Which sentence is correct?",
+            options: ["Er ist in Schwierigkeiten geraten.", "Er hat in Schwierigkeiten geraten.", "Er ist in Schwierigkeiten geratet.", "Er hat in Schwierigkeiten geratet."],
             correctIndex: 0,
-            explanation: "Verbs of change of state like \"geraten\" and \"verfallen\" form the perfect with \"sein\".",
+            explanation: "Verbs of change of state like \"geraten\" and \"verfallen\" form the perfect with \"sein\", and \"geraten\" is strong: participle \"geraten\", not \"*geratet*\".",
           },
         ],
       },
@@ -663,7 +663,7 @@ export const DE_C2_U29: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Word Web: Die Schattierungen von Trauer und Sehnsucht",
-    summary: "The shades of sadness and longing in German: Trauer, Kummer, Schwermut, Wehmut, Melancholie, Weltschmerz, Niedergeschlagenheit, Sehnsucht, Heimweh and Fernweh, sorted by intensity and register.",
+    summary: "You'll be able to choose the right shade of sadness or longing (\"Trauer\", \"Kummer\", \"Schwermut\", \"Wehmut\", \"Melancholie\", \"Weltschmerz\", \"Niedergeschlagenheit\", \"Sehnsucht\", \"Heimweh\", \"Fernweh\") by intensity and register.",
     duration: "17 min",
     sections: [
       {
@@ -882,8 +882,8 @@ export const DE_C2_U29: Lesson[] = [
     slug: "c2-psychology-emotions-3",
     level: "DE-C2",
     number: 5,
-    title: "Psychologie und Komplexe Gefühle, Part 3 of 3",
-    summary: "How German literature puts feelings on the page: Schnitzler's inner monologue in Fräulein Else, erlebte Rede revisited, Kafka's estrangement, and the verbs of feeling with prepositions you need to analyse them.",
+    title: "Psychologie und komplexe Gefühle, Part 3 of 3",
+    summary: "You'll be able to analyse how German literature puts feelings on the page: Schnitzler's inner monologue in \"Fräulein Else\", \"erlebte Rede\" revisited, Kafka's estrangement, and the verbs of feeling with prepositions you need to describe them.",
     duration: "19 min",
     sections: [
       {
@@ -933,8 +933,8 @@ export const DE_C2_U29: Lesson[] = [
         heading: "Erlebte Rede revisited: three ways to show one thought",
         body: [
           "You met \"erlebte Rede\" (free indirect discourse) in earlier units. Compare one thought rendered three ways. Interior monologue: \"Ich muss es ihm sagen. Morgen. Nein, heute noch!\" Erlebte Rede: \"Sie musste es ihm sagen. Morgen. Nein, heute noch!\" Indirect speech: \"Sie dachte, sie müsse es ihm noch am selben Tag sagen.\"",
-          "Erlebte Rede keeps the narrator's third person and past tense, but everything else belongs to the character: her questions and exclamations, her words (\"doch\", \"ja\", \"bloß\"), and time words from her point of view: \"morgen\" and \"heute\" with a past-tense verb (\"Morgen war Weihnachten\"), which would be impossible in neutral narration (\"am nächsten Tag\").",
-          "Why it matters for feelings: erlebte Rede lets a narrator stay close to a character's emotion while keeping a slight distance, so irony becomes possible. Thomas Mann and Theodor Fontane use it to show self-deception; Virginia Woolf does the same in English. In analysis: \"Durch die erlebte Rede verschmelzen Erzähler- und Figurenperspektive\" (narrator's and character's perspective merge).",
+          "\"Erlebte Rede\" keeps the narrator's third person and past tense, but everything else belongs to the character: her questions and exclamations, her words (\"doch\", \"ja\", \"bloß\"), and time words from her point of view: \"morgen\" and \"heute\" with a past-tense verb (\"Morgen war Weihnachten\"), which would be impossible in neutral narration (\"am nächsten Tag\").",
+          "Why it matters for feelings: \"erlebte Rede\" lets a narrator stay close to a character's emotion while keeping a slight distance, so irony becomes possible. Thomas Mann and Theodor Fontane use it to show self-deception; Virginia Woolf does the same in English. In analysis: \"Durch die erlebte Rede verschmelzen Erzähler- und Figurenperspektive\" (narrator's and character's perspective merge).",
         ],
         examples: [
           { es: "Sie musste es ihm sagen. Morgen. Nein, heute noch!", en: "She had to tell him. Tomorrow. No, today!" },
@@ -947,10 +947,10 @@ export const DE_C2_U29: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is erlebte Rede?",
+            question: "Which sentence is \"erlebte Rede\"?",
             options: ["War sie denn wirklich so feige?", "Bin ich denn wirklich so feige?", "Sie fragte sich, ob sie wirklich so feige sei.", "„Bin ich wirklich so feige?“, fragte sie."],
             correctIndex: 0,
-            explanation: "Third person and past tense (narrator), but the character's own question and particle \"denn\": that is erlebte Rede. The second is interior monologue, the third indirect speech, the fourth direct speech.",
+            explanation: "Third person and past tense (narrator), but the character's own question and particle \"denn\": that is \"erlebte Rede\". The second is interior monologue, the third indirect speech, the fourth direct speech.",
           },
           {
             type: "translate",
@@ -967,7 +967,7 @@ export const DE_C2_U29: Lesson[] = [
             en: "[Tomorrow] was her last day in the town.",
             sentence: "___ war ihr letzter Tag in der Stadt.",
             answer: "Morgen",
-            explanation: "\"Morgen\" with a past-tense verb is a typical marker of erlebte Rede: time is seen from the character's present.",
+            explanation: "\"Morgen\" with a past-tense verb is a typical marker of \"erlebte Rede\": time is seen from the character's present.",
           },
         ],
       },
@@ -1064,16 +1064,17 @@ export const DE_C2_U29: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Sie wusste es doch. Morgen würde alles vorbei sein. What is this?",
-        options: ["Erlebte Rede: third person and past, but the character's view and words", "Interior monologue", "Direct speech", "Indirect speech in Konjunktiv I"],
+        question: "Read: \"Sie wusste es doch. Morgen würde alles vorbei sein.\" Which technique is this?",
+        options: ["\"Erlebte Rede\": third person and past, but the character's view and words", "Interior monologue", "Direct speech", "Indirect speech in Konjunktiv I"],
         correctIndex: 0,
-        explanation: "\"Sie wusste\" is narrator's third person and past, but \"doch\" and \"morgen\" belong to the character: erlebte Rede.",
+        explanation: "\"Sie wusste\" is narrator's third person and past, but \"doch\" and \"morgen\" belong to the character: \"erlebte Rede\".",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: Shame and defiance alternate from sentence to sentence.",
         words: ["Scham", "und Trotz", "wechseln sich", "von Satz", "zu Satz", "ab."],
         translation: "Shame and defiance alternate from sentence to sentence.",
+        altOrders: [["von Satz", "zu Satz", "wechseln sich", "Scham", "und Trotz", "ab."]],
         explanation: "\"Sich abwechseln\" = to alternate; the prefix \"ab\" goes to the end of the main clause.",
       },
       {
@@ -1110,7 +1111,7 @@ export const DE_C2_U29: Lesson[] = [
     slug: "c2-naming-feelings-dialogue-lab",
     level: "DE-C2",
     number: 6,
-    title: "Dialogue Lab: Gefühle in Worte Fassen",
+    title: "Dialogue Lab: Gefühle in Worte fassen",
     summary: "Your friend Jonas has had to move his father into a care home: help him name a tangle of guilt, relief and anger with open, empathetic questions, without lecturing or rushing to advice.",
     duration: "18 min",
     sections: [
@@ -1302,7 +1303,7 @@ export const DE_C2_U29: Lesson[] = [
         prompt: "Translate into German. (to a friend)",
         source: "What would do you good right now?",
         answer: "Was würde dir jetzt guttun?",
-        altAnswers: ["Was würde dir gerade guttun?", "Was täte dir jetzt gut?", "Was würde dir jetzt gut tun?", "Was täte dir gerade gut?"],
+        altAnswers: ["Was würde dir gerade guttun?", "Was täte dir jetzt gut?", "Was täte dir gerade gut?"],
         explanation: "\"Jemandem guttun\" takes a dative person; Konjunktiv II \"würde\" makes the question gentle.",
       },
       {
@@ -1341,14 +1342,14 @@ export const DE_C2_U29: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Spiral Review: Gefühle in der Literatur",
-    summary: "Put it all together: analyse a short literary passage for figurative language, erlebte Rede and precise emotion vocabulary, and write the sentences of a German Textanalyse.",
+    summary: "You'll be able to analyse a short literary passage for figurative language, \"erlebte Rede\" and precise emotion vocabulary, and write the sentences of a German \"Textanalyse\".",
     duration: "18 min",
     sections: [
       {
         heading: "The passage: Am Bahnsteig",
         body: [
           "A short passage written for this lesson, in the style of a contemporary German novel: \"Der Zug hatte Verspätung. Natürlich. Marie stand am Bahnsteig in Leipzig und starrte auf die Anzeigetafel, als könnte sie die Minuten wegstarren. In einer Stunde würde sie ihrer Mutter gegenüberstehen, nach sieben Jahren. Freute sie sich? Sie wusste es nicht. Die Angst saß ihr wie ein Stein im Magen, und doch zog sie etwas nach Hause, ein dünner Faden, den sie nie ganz hatte durchschneiden können.\"",
-          "Everything from earlier units comes together here. Erlebte Rede: \"Natürlich.\" and \"Freute sie sich?\" are Marie's own voice in the narrator's third person and past tense. Figurative language (Unit 7): a simile (\"wie ein Stein im Magen\") and a metaphor (\"ein dünner Faden\") for a bond that has never been cut. Emotion vocabulary: ambivalence between \"Angst\" and \"Sehnsucht\".",
+          "Everything from earlier units comes together here. \"Erlebte Rede\": \"Natürlich.\" and \"Freute sie sich?\" are Marie's own voice in the narrator's third person and past tense. Figurative language (Unit 7): a simile (\"wie ein Stein im Magen\") and a metaphor (\"ein dünner Faden\") for a bond that has never been cut. Emotion vocabulary: ambivalence between \"Angst\" and \"Sehnsucht\".",
           "Watch the grammar inside the text: \"als könnte sie\" (as if + Konjunktiv II, verb straight after \"als\"), \"würde ... gegenüberstehen\" (future in the past), and the double infinitive \"hatte durchschneiden können\", where the auxiliary moves in front of the two infinitives in a subordinate clause.",
         ],
         examples: [
@@ -1362,7 +1363,7 @@ export const DE_C2_U29: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "In the passage, which sentence is clearly erlebte Rede?",
+            question: "In the passage, which sentence is clearly \"erlebte Rede\"?",
             options: ["Freute sie sich?", "Der Zug hatte Verspätung.", "Marie stand am Bahnsteig in Leipzig.", "Sie starrte auf die Anzeigetafel."],
             correctIndex: 0,
             explanation: "\"Freute sie sich?\" is Marie asking herself, in the narrator's third person and past tense. The others are neutral narration.",
@@ -1389,7 +1390,7 @@ export const DE_C2_U29: Lesson[] = [
       {
         heading: "Writing the analysis",
         body: [
-          "A German Textanalyse names the technique, quotes it, and says what it does: \"Durch die erlebte Rede („Freute sie sich?“) rückt der Leser nah an Maries innere Unsicherheit heran.\" Useful frames: \"Der Vergleich ... veranschaulicht ...\", \"Die Metapher des Fadens steht für ...\", \"Hier wird ... deutlich\", \"Die Ambivalenz der Figur zeigt sich in ...\".",
+          "A German \"Textanalyse\" names the technique, quotes it, and says what it does: \"Durch die erlebte Rede („Freute sie sich?“) rückt der Leser nah an Maries innere Unsicherheit heran.\" Useful frames: \"Der Vergleich ... veranschaulicht ...\", \"Die Metapher des Fadens steht für ...\", \"Hier wird ... deutlich\", \"Die Ambivalenz der Figur zeigt sich in ...\".",
           "Use verbs of feeling with their prepositions precisely: Marie \"fürchtet sich vor dem Wiedersehen\", \"sehnt sich nach ihrer Mutter\", \"ist hin- und hergerissen zwischen Angst und Sehnsucht\", and perhaps \"hat sich nie mit der Trennung abgefunden\" (\"sich abfinden mit\": to come to terms with, resign oneself to).",
           "Keep the present tense for the analysis even though the text is in the past: \"Marie steht am Bahnsteig\". And hedge your interpretation as in the science unit: \"Der Faden könnte für die Bindung an die Mutter stehen\", \"Es liegt nahe, dass ...\".",
         ],
@@ -1465,7 +1466,7 @@ export const DE_C2_U29: Lesson[] = [
         prompt: "Translate into German.",
         source: "In an hour she would be standing face to face with her mother.",
         answer: "In einer Stunde würde sie ihrer Mutter gegenüberstehen.",
-        altAnswers: ["In einer Stunde würde sie vor ihrer Mutter stehen.", "In einer Stunde würde sie ihrer Mutter gegenüber stehen."],
+        altAnswers: ["In einer Stunde würde sie vor ihrer Mutter stehen."],
         explanation: "Future in the past with \"würde\" + infinitive. \"Jemandem gegenüberstehen\" takes the dative.",
       },
       {
@@ -1478,7 +1479,7 @@ export const DE_C2_U29: Lesson[] = [
       {
         type: "multiple-choice",
         question: "\"Ein dünner Faden, den sie nie ganz hatte durchschneiden können\". Which figure of speech is the thread?",
-        options: ["A metaphor for an emotional bond", "A simile", "An example of erlebte Rede", "Irony"],
+        options: ["A metaphor for an emotional bond", "A simile", "An example of \"erlebte Rede\"", "Irony"],
         correctIndex: 0,
         explanation: "No \"wie\": the thread simply is the bond, so it's a metaphor. \"Wie ein Stein im Magen\" is the simile.",
       },
@@ -1530,14 +1531,14 @@ export const DE_C2_U29: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Mastery Vocabulary: Reflexive Verbs and Their Prepositions",
-    summary: "The reflexive verbs of feeling and attitude that come welded to a preposition (sich sehnen nach, sich abfinden mit, sich hüten vor...), the da- and wo-compounds they need, and when the reflexive pronoun is dative rather than accusative.",
+    summary: "You'll be able to use reflexive verbs of feeling with their fixed prepositions (\"sich sehnen nach\", \"sich abfinden mit\", \"sich hüten vor\"), build the da- and wo-compounds they need, and choose a dative or accusative reflexive pronoun.",
     duration: "17 min",
     sections: [
       {
         heading: "Verb + preposition: learn them as one unit",
         body: [
           "Many German verbs of feeling are reflexive and take a fixed preposition, and the preposition rarely matches English: \"sich sehnen nach\" (to long for), \"sich gewöhnen an\" + accusative (to get used to), \"sich abfinden mit\" (to come to terms with, resign oneself to), \"sich auseinandersetzen mit\" (to grapple with, engage with seriously), \"sich beschweren über\" + accusative (to complain about), \"sich hüten vor\" + dative (to beware of, take care not to).",
-          "Two-way prepositions in these fixed pairs have a fixed case that you simply learn: \"an\" and \"über\" almost always take the accusative (\"sich gewöhnen an den Lärm\", \"sich freuen über das Geschenk\"), \"vor\" almost always the dative (\"sich fürchten vor dem Hund\", \"sich hüten vor falschen Freunden\").",
+          "Two-way prepositions in these fixed pairs have a fixed case that you simply learn with each verb: \"über\" almost always takes the accusative (\"sich freuen über das Geschenk\"), \"an\" goes either way (\"sich gewöhnen an den Lärm\", but \"sich beteiligen an dem Projekt\"), and \"vor\" almost always the dative (\"sich fürchten vor dem Hund\", \"sich hüten vor falschen Freunden\").",
           "One preposition can change the meaning: \"sich freuen auf\" + accusative is to look forward to something in the future, \"sich freuen über\" + accusative is to be pleased about something that has happened. \"Sich schämen für\" + accusative and \"sich schämen wegen\" + genitive (or dative, colloquially) both mean to be ashamed of.",
         ],
         examples: [
@@ -1770,7 +1771,7 @@ export const DE_C2_U29: Lesson[] = [
     level: "DE-C2",
     number: 9,
     title: "Mastery Vocabulary: One Concept, Three Registers, Three Countries",
-    summary: "The same feeling or thing said three ways: colloquial, neutral and elevated (stinksauer, verärgert, erzürnt), plus the Austrian and Swiss words that a Mastery-level speaker should recognise (grantig, muff, Jänner, Paradeiser, Velo, parkieren).",
+    summary: "You'll be able to say the same feeling in a colloquial, neutral or elevated register (\"stinksauer\", \"verärgert\", \"erzürnt\") and recognise the Austrian and Swiss words a Mastery-level speaker meets (\"grantig\", \"muff\", \"Jänner\", \"Paradeiser\", \"Velo\", \"parkieren\").",
     duration: "16 min",
     sections: [
       {
@@ -1864,10 +1865,10 @@ export const DE_C2_U29: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "A sign in Zürich says: Velos hier nicht parkieren. What does it mean?",
+            question: "A sign in Zürich says: \"Velos hier nicht parkieren.\" What does it mean?",
             options: ["Don't park bicycles here.", "No cars on the pavement.", "Velvet sold here.", "Parking for bicycles only."],
             correctIndex: 0,
-            explanation: "\"Das Velo\" (from French vélo) = bicycle; \"parkieren\" = to park. Both are Swiss standard.",
+            explanation: "\"Das Velo\" (borrowed from French) = bicycle; \"parkieren\" = to park. Both are Swiss standard.",
           },
           {
             type: "translate",
@@ -1920,7 +1921,7 @@ export const DE_C2_U29: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "An Austrian friend says: Heuer fahren wir im Jänner nach Kärnten. What does she mean?",
+        question: "An Austrian friend says: \"Heuer fahren wir im Jänner nach Kärnten.\" What does she mean?",
         options: ["This year we're going to Carinthia in January.", "Today we're going to Carinthia in June.", "Next year we're going to Carinthia in January.", "We're going to Carinthia by car in January."],
         correctIndex: 0,
         explanation: "\"Heuer\" = this year; \"Jänner\" = January (in Germany \"Januar\"). \"Juni\" is June.",
@@ -1973,7 +1974,7 @@ export const DE_C2_U29: Lesson[] = [
       {
         type: "dictation",
         audio: "Nach der Absage war sie ziemlich geknickt.",
-        explanation: "\"Geknickt\": the k after g is pronounced, ge-knickt.",
+        explanation: "\"Geknickt\": the k in \"kn\" is pronounced, unlike in English knee: ge-KNICKT.",
       },
       {
         type: "speak",
@@ -1989,7 +1990,7 @@ export const DE_C2_U29: Lesson[] = [
     level: "DE-C2",
     number: 10,
     title: "Vocabulary in Context: Verbs of Becoming",
-    summary: "Beyond werden: geraten, verfallen, sich entwickeln zu, sich wandeln, umschlagen in, ausarten in and reifen, each with its own preposition, case, auxiliary and shade of meaning.",
+    summary: "You'll be able to go beyond \"werden\" with \"geraten\", \"verfallen\", \"sich entwickeln zu\", \"sich wandeln\", \"umschlagen in\", \"ausarten in\" and \"reifen\", each with the right preposition, case, auxiliary and shade of meaning.",
     duration: "17 min",
     sections: [
       {
@@ -2023,7 +2024,7 @@ export const DE_C2_U29: Lesson[] = [
             en: "The illness [became] a real test for the family.",
             sentence: "Die Krankheit ___ zur Zerreißprobe für die Familie.",
             answer: "wurde",
-            explanation: "\"Zu etwas werden\" + dative (\"zur Zerreißprobe\" = zu der): to turn into something.",
+            explanation: "\"Zu etwas werden\" + dative (\"zur Zerreißprobe\", \"zur\" = \"zu der\"): to turn into something.",
           },
         ],
       },
@@ -2123,7 +2124,7 @@ export const DE_C2_U29: Lesson[] = [
         source: "After the phone call she fell to brooding.",
         answer: "Nach dem Telefonat verfiel sie ins Grübeln.",
         altAnswers: ["Nach dem Telefonat ist sie ins Grübeln verfallen.", "Nach dem Telefonat geriet sie ins Grübeln.", "Nach dem Telefonat ist sie ins Grübeln geraten.", "Nach dem Anruf verfiel sie ins Grübeln.", "Nach dem Anruf geriet sie ins Grübeln.", "Nach dem Telefonat kam sie ins Grübeln."],
-        explanation: "\"Ins Grübeln verfallen/geraten/kommen\": \"ins\" = in das, accusative, with the nominalised infinitive \"das Grübeln\".",
+        explanation: "\"Ins Grübeln verfallen/geraten/kommen\": \"ins\" = \"in das\", accusative, with the nominalised infinitive \"das Grübeln\".",
       },
       {
         type: "fill-blank",
@@ -2212,7 +2213,7 @@ export const DE_C2_U29: Lesson[] = [
 
 export const DE_C2_U29_WRITING: WriteExercise = {
   type: "write",
-  prompt: "A German magazine runs a column called Gemischte Gefühle, in which readers describe a moment when they felt two opposite things at once. Write your contribution (250-400 words) about such a moment (leaving a job or a city, a reunion, a farewell, a success with a bitter aftertaste). Describe how your feelings developed and changed, name them precisely, and reflect on what you have learned from the experience.",
+  prompt: "A German magazine runs a column called \"Gemischte Gefühle\", in which readers describe a moment when they felt two opposite things at once. Write your contribution (250-400 words) about such a moment (leaving a job or a city, a reunion, a farewell, a success with a bitter aftertaste). Describe how your feelings developed and changed, name them precisely, and reflect on what you have learned from the experience.",
   minWords: 250,
   maxWords: 400,
   rubric: [

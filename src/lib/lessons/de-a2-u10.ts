@@ -15,7 +15,7 @@ export const DE_A2_U10: Lesson[] = [
         heading: "Billiger als: -er + als",
         body: [
           "German forms the comparative like English cheap → cheaper: add -er to the adjective. \"billig\" → \"billiger\", \"schnell\" → \"schneller\", \"schön\" → \"schöner\". Than is \"als\": \"Der Bus ist billiger als das Taxi.\"",
-          "The big difference from English: German uses -er for every adjective, however long. English says more beautiful, more interesting; German says \"schöner\", \"interessanter\", \"langweiliger\". *Mehr schön* is one of the most common learner mistakes.",
+          "The big difference from English: German uses -er for every adjective, however long. English says more beautiful, more interesting; German says \"schöner\", \"interessanter\", \"langweiliger\". \"*Mehr schön*\" is one of the most common learner mistakes.",
           "After \"als\", a person is in the nominative, just like the subject: \"Lena ist schneller als ich\" (Lena is faster than me / than I am).",
         ],
         examples: [
@@ -33,7 +33,7 @@ export const DE_A2_U10: Lesson[] = [
             prompt: "Translate into German.",
             source: "The book is more interesting than the film.",
             answer: "Das Buch ist interessanter als der Film.",
-            explanation: "German adds -er even to long adjectives: \"interessanter\", never *mehr interessant*. Than = \"als\".",
+            explanation: "German adds -er even to long adjectives: \"interessanter\", never \"*mehr interessant*\". Than = \"als\".",
           },
           {
             type: "fill-blank",
@@ -41,7 +41,7 @@ export const DE_A2_U10: Lesson[] = [
             en: "Lena is faster [than me].",
             sentence: "Lena ist schneller ___.",
             answer: "als ich",
-            explanation: "After \"als\" the person is nominative, like a subject: \"als ich\", not *als mich*.",
+            explanation: "After \"als\" the person is nominative, like a subject: \"als ich\", not \"*als mich*\".",
           },
         ],
       },
@@ -50,7 +50,7 @@ export const DE_A2_U10: Lesson[] = [
         body: [
           "Many one-syllable adjectives with a, o or u add an umlaut in the comparative: \"alt\" → \"älter\", \"kalt\" → \"kälter\", \"warm\" → \"wärmer\", \"lang\" → \"länger\", \"groß\" → \"größer\", \"kurz\" → \"kürzer\", \"jung\" → \"jünger\". Think of English old → elder: a vowel change in the comparative isn't new to you.",
           "Not every short adjective does it: \"schnell\" → \"schneller\", \"laut\" → \"lauter\", \"klar\" → \"klarer\", \"toll\" → \"toller\". Learn the umlaut ones as a group: alt, arm, groß, hart, jung, kalt, klug, kurz, lang, oft, scharf, schwach, stark, warm, gesund.",
-          "A missing umlaut changes the word: \"älter\" (older) but \"alter\" is just an ending on \"alt\". Writing *alter als* is a classic slip.",
+          "A missing umlaut changes the word: \"älter\" (older) but \"alter\" is just an ending on \"alt\". Writing \"*alter als*\" is a classic slip.",
         ],
         examples: [
           { es: "Mein Bruder ist älter als ich.", en: "My brother is older than me." },
@@ -92,7 +92,7 @@ export const DE_A2_U10: Lesson[] = [
         body: [
           "To say two things are equal, use \"so\" + the plain adjective + \"wie\": \"Köln ist so schön wie Hamburg\" (as beautiful as). \"Genauso ... wie\" stresses it: just as.",
           "\"Nicht so ... wie\" means not as ... as: \"München ist nicht so groß wie Berlin.\" It's often the polite way to say less: \"Das Hotel ist nicht so teuer wie das andere\" sounds softer than \"billiger\".",
-          "No -er here: *so größer wie* is wrong. The comparative goes with \"als\", the plain form with \"so ... wie\".",
+          "No -er here: \"*so größer wie*\" is wrong. The comparative goes with \"als\", the plain form with \"so ... wie\".",
         ],
         examples: [
           { es: "Köln ist so schön wie Hamburg.", en: "Cologne is as beautiful as Hamburg." },
@@ -152,7 +152,7 @@ export const DE_A2_U10: Lesson[] = [
         source: "German is more difficult than English.",
         answer: "Deutsch ist schwieriger als Englisch.",
         altAnswers: ["Deutsch ist schwerer als Englisch."],
-        explanation: "Always -er, never *mehr schwierig*.",
+        explanation: "Always -er, never \"*mehr schwierig*\".",
       },
       {
         type: "translate",
@@ -226,7 +226,7 @@ export const DE_A2_U10: Lesson[] = [
     slug: "a2-comparisons-pattern",
     level: "DE-A2",
     number: 2,
-    title: "Pattern Practice: Größer Als, So Groß Wie",
+    title: "Pattern Practice: Größer als, So groß wie",
     summary: "Drill comparatives in one frame: with and without umlaut, and the stems in -el and -er that drop an e.",
     duration: "12 min",
     sections: [
@@ -266,7 +266,7 @@ export const DE_A2_U10: Lesson[] = [
         heading: "Teuer → teurer, dunkel → dunkler",
         body: [
           "Adjectives ending in -el drop the e before adding -er: \"dunkel\" → \"dunkler\", \"flexibel\" → \"flexibler\". Those ending in -er after a vowel usually drop it too: \"teuer\" → \"teurer\", \"sauer\" → \"saurer\".",
-          "The reason is sound: *teuerer* and *dunkeler* have too many weak syllables in a row. Say \"teurer\" as two syllables: TEU-rer.",
+          "The reason is sound: \"*teuerer*\" and \"*dunkeler*\" have too many weak syllables in a row. Say \"teurer\" as two syllables: TEU-rer.",
           "\"Hoch\" also changes: \"höher\" (no c), and \"nah\" becomes \"näher\".",
         ],
         examples: [
@@ -363,7 +363,7 @@ export const DE_A2_U10: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The airport is further than the station.",
+        prompt: "Put the words in order to say: The airport is further away than the station.",
         words: ["Der", "Flughafen", "ist", "weiter", "weg", "als", "der", "Bahnhof."],
         translation: "The airport is further away than the station.",
         explanation: "\"Weit\" → \"weiter\" (no umlaut); \"weiter weg\" = further away.",
@@ -483,7 +483,7 @@ export const DE_A2_U10: Lesson[] = [
         heading: "Der, die, das beste: a fixed phrase",
         body: [
           "With a noun, the superlative takes an article and an ending, which you will study properly in Units 12 and 13. For now, learn the common chunks: \"Das ist der beste Kaffee in Köln\", \"Sie ist die beste Freundin\", \"Das ist das Beste!\" (that's the best thing!).",
-          "Don't use the \"der\" form on its own after a verb when you mean the -est: \"Dieser Laptop ist am schnellsten\", not *Dieser Laptop ist der schnellste*. (The second is possible only when a noun is understood: the fastest laptop.)",
+          "After a verb with no noun, the safe, standard choice is \"am -sten\": \"Dieser Laptop ist am schnellsten.\" \"Dieser Laptop ist der schnellste\" is only correct when a noun is understood (the fastest laptop of all those laptops), so use \"am\" unless you're picking one out of a group.",
           "\"Immer\" + comparative means more and more: \"Die Mieten werden immer teurer\" (rents are getting more and more expensive), \"Es wird immer kälter\".",
         ],
         examples: [
@@ -537,7 +537,7 @@ export const DE_A2_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "I like tea, but I prefer coffee.",
         answer: "Ich trinke gern Tee, aber lieber Kaffee.",
-        altAnswers: ["Ich mag Tee, aber ich trinke lieber Kaffee.", "Ich trinke gern Tee, aber ich trinke lieber Kaffee."],
+        altAnswers: ["Ich mag Tee, aber ich trinke lieber Kaffee.", "Ich trinke gern Tee, aber ich trinke lieber Kaffee.", "Ich mag Tee, aber ich mag Kaffee lieber.", "Ich trinke gern Tee, aber noch lieber Kaffee."],
         explanation: "\"Gern\" (like), \"lieber\" (prefer): both go with a verb.",
       },
       {
@@ -574,10 +574,10 @@ export const DE_A2_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which superlative is correct?",
-        options: ["am größten", "am größesten", "am großsten", "am größtesten"],
+        question: "How do you say: Berlin is the biggest?",
+        options: ["Berlin ist am größten.", "Berlin ist am größesten.", "Berlin ist am großsten.", "Berlin ist am größtesten."],
         correctIndex: 0,
-        explanation: "\"Groß\" is the exception: no extra e despite the ß.",
+        explanation: "\"Groß\" is the exception: \"am größten\", with the umlaut but no extra e despite the ß.",
       },
       {
         type: "word-order",
@@ -619,7 +619,7 @@ export const DE_A2_U10: Lesson[] = [
         heading: "Than = als, as = wie",
         body: [
           "The rule maps neatly onto English: after a comparative (-er), than is \"als\"; in \"so ... wie\", as is \"wie\". \"Größer als\" (bigger than), \"so groß wie\" (as big as).",
-          "In everyday speech you will hear *größer wie* all over Germany. It's colloquial and counts as a mistake in writing and in the exam. Learn the standard: comparative + \"als\".",
+          "In everyday speech you will hear \"*größer wie*\" all over Germany. It's colloquial and counts as a mistake in writing and in the exam. Learn the standard: comparative + \"als\".",
           "After \"anders\" (different) and \"lieber\" also use \"als\": \"Es ist anders als in England\", \"Lieber Tee als Kaffee\".",
         ],
         examples: [
@@ -653,6 +653,7 @@ export const DE_A2_U10: Lesson[] = [
             prompt: "Translate into German.",
             source: "I prefer tea to coffee.",
             answer: "Ich trinke lieber Tee als Kaffee.",
+            altAnswers: ["Ich mag Tee lieber als Kaffee."],
             explanation: "\"Lieber\" is a comparative, so \"als\".",
           },
         ],
@@ -662,14 +663,14 @@ export const DE_A2_U10: Lesson[] = [
         body: [
           "\"Als\" has another job you've met: as in the role of. \"Ich arbeite als Lehrerin\" (I work as a teacher), \"Als Kind war ich oft in Bayern\" (as a child I was often in Bavaria).",
           "And \"wie\" also means like, as in comparisons of manner: \"Er singt wie ein Profi\" (he sings like a pro), \"Wie immer\" (as always).",
-          "So: role → \"als\"; similarity → \"wie\"; comparative → \"als\". An English speaker's trap is *Ich arbeite wie Lehrer*, which means I work like a teacher, not as one.",
+          "So: role → \"als\"; similarity → \"wie\"; comparative → \"als\". An English speaker's trap is \"*Ich arbeite wie Lehrer*\", which means I work like a teacher, not as one.",
         ],
         examples: [
           { es: "Ich arbeite als Lehrerin.", en: "I work as a teacher." },
           { es: "Als Kind war ich oft in Bayern.", en: "As a child I was often in Bavaria." },
           { es: "Er singt wie ein Profi.", en: "He sings like a pro." },
           { es: "Wie immer war der Zug zu spät.", en: "As always, the train was late." },
-          { es: "Mehmet hilft als Übersetzer.", en: "Mehmet is helping as an interpreter." },
+          { es: "Mehmet hilft als Übersetzer.", en: "Mehmet is helping as a translator." },
         ],
         checkpoint: [
           {
@@ -684,7 +685,7 @@ export const DE_A2_U10: Lesson[] = [
           {
             type: "multiple-choice",
             question: "What does \"Er singt wie ein Profi\" mean?",
-            options: ["He sings like a pro.", "He sings as a professional job.", "He sings better than a pro.", "He sings as well as a pro."],
+            options: ["He sings like a pro.", "He works as a professional singer.", "He sings better than a pro.", "He doesn't sing like a pro."],
             correctIndex: 0,
             explanation: "\"Wie\" = like (similar to). Working as a singer would be \"als Sänger\".",
           },
@@ -732,6 +733,7 @@ export const DE_A2_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "The food is different from at home.",
         answer: "Das Essen ist anders als zu Hause.",
+        altAnswers: ["Das Essen ist anders als zuhause."],
         explanation: "\"Anders als\" = different from.",
       },
       {
@@ -740,7 +742,7 @@ export const DE_A2_U10: Lesson[] = [
         en: "Today it's warmer [than] yesterday.",
         sentence: "Heute ist es wärmer ___ gestern.",
         answer: "als",
-        explanation: "After a comparative: \"als\". *Wärmer wie* is colloquial.",
+        explanation: "After a comparative: \"als\". \"*Wärmer wie*\" is colloquial.",
       },
       {
         type: "fill-blank",
@@ -759,9 +761,9 @@ export const DE_A2_U10: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Mehmet is helping as an interpreter.",
+        prompt: "Put the words in order to say: Mehmet is helping as a translator.",
         words: ["Mehmet", "hilft", "als", "Übersetzer."],
-        translation: "Mehmet is helping as an interpreter.",
+        translation: "Mehmet is helping as a translator.",
         explanation: "\"Als\" for a role, without an article.",
       },
       {
@@ -796,7 +798,7 @@ export const DE_A2_U10: Lesson[] = [
       {
         heading: "Besser or lieber?",
         body: [
-          "English better does two jobs: quality (this coffee is better) and preference (I'd better / I like it better). German splits them. \"Besser\" is the comparative of \"gut\": quality or skill. \"Lieber\" is the comparative of \"gern\": what you prefer to do.",
+          "English better does two jobs: quality (this coffee is better) and preference (I like tea better). German splits them. \"Besser\" is the comparative of \"gut\": quality or skill. \"Lieber\" is the comparative of \"gern\": what you prefer to do.",
           "\"Der Kaffee hier ist besser\" says something about the coffee. \"Ich trinke lieber Kaffee\" says something about you: you'd rather drink coffee. The test: can you say rather in English? Then it's \"lieber\".",
           "\"Lieber\" sits after the verb like \"gern\": \"Ich bleibe lieber zu Hause\" (I'd rather stay at home). \"Lieber nicht\" is a handy reply: I'd rather not.",
         ],
@@ -815,7 +817,7 @@ export const DE_A2_U10: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'd rather stay at home today.",
             answer: "Ich bleibe heute lieber zu Hause.",
-            altAnswers: ["Heute bleibe ich lieber zu Hause."],
+            altAnswers: ["Heute bleibe ich lieber zu Hause.", "Ich bleibe heute lieber zuhause."],
             explanation: "Preference = \"lieber\" (from \"gern\"), right after the verb and time.",
           },
           {
@@ -832,7 +834,7 @@ export const DE_A2_U10: Lesson[] = [
       {
         heading: "Mehr and weniger: quantity",
         body: [
-          "\"Mehr\" (more) is about quantity: \"Ich brauche mehr Zeit\", \"Er verdient mehr als ich\". It never changes its form, and it never builds a comparative: *mehr schön* is wrong.",
+          "\"Mehr\" (more) is about quantity: \"Ich brauche mehr Zeit\", \"Er verdient mehr als ich\". It never changes its form, and it never builds a comparative: \"*mehr schön*\" is wrong.",
           "The opposite is \"weniger\" (less, fewer): \"Ich arbeite weniger als früher\", \"weniger Autos\". English distinguishes less and fewer; German uses \"weniger\" for both.",
           "\"Mehr\" with \"nicht\" or \"kein\" means no longer: \"Ich rauche nicht mehr\" (I don't smoke any more), \"Wir haben keine Milch mehr\" (we've run out of milk).",
         ],
@@ -1215,9 +1217,9 @@ export const DE_A2_U10: Lesson[] = [
       {
         heading: "Mehr groß, besser wie",
         body: [
-          "Mistake 1: building the comparative with \"mehr\". *Berlin ist mehr groß als Bonn* → \"Berlin ist größer als Bonn\". German has no more + adjective pattern, whatever the length of the word.",
-          "Mistake 2: \"wie\" after a comparative. *Das ist besser wie gestern* → \"besser als gestern\". You'll hear the wrong form in speech, but not from an examiner.",
-          "Mistake 3: an accusative after \"als\". *Sie ist größer als mich* → \"als ich\". The person after \"als\" is in the same case as the thing it's compared with, usually the nominative subject.",
+          "Mistake 1: building the comparative with \"mehr\". \"*Berlin ist mehr groß als Bonn*\" → \"Berlin ist größer als Bonn\". German has no more + adjective pattern, whatever the length of the word.",
+          "Mistake 2: \"wie\" after a comparative. \"*Das ist besser wie gestern*\" → \"besser als gestern\". You'll hear the wrong form in speech, but not from an examiner.",
+          "Mistake 3: an accusative after \"als\". \"*Sie ist größer als mich*\" → \"als ich\". The person after \"als\" is in the same case as the thing it's compared with, usually the nominative subject.",
         ],
         examples: [
           { es: "Berlin ist größer als Bonn.", en: "Berlin is bigger than Bonn." },
@@ -1229,7 +1231,7 @@ export const DE_A2_U10: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Berlin ist mehr groß als Bonn*. Write the correct German for: Berlin is bigger than Bonn.",
+            prompt: "A learner wrote \"*Berlin ist mehr groß als Bonn*\". Write the correct German for: Berlin is bigger than Bonn.",
             source: "Berlin is bigger than Bonn.",
             answer: "Berlin ist größer als Bonn.",
             explanation: "Comparative with -er and umlaut, never with \"mehr\".",
@@ -1237,7 +1239,7 @@ export const DE_A2_U10: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Sie ist größer als mich*. Write the correct German for: She's taller than me.",
+            prompt: "A learner wrote \"*Sie ist größer als mich*\". Write the correct German for: She's taller than me.",
             source: "She's taller than me.",
             answer: "Sie ist größer als ich.",
             explanation: "After \"als\": nominative \"ich\".",
@@ -1247,9 +1249,9 @@ export const DE_A2_U10: Lesson[] = [
       {
         heading: "Gröser, alter, am bestens",
         body: [
-          "Spelling slips: *gröser* → \"größer\" (keep the ß), *alter als* → \"älter als\" (the umlaut is the comparative), *teuerer* → \"teurer\".",
-          "Superlative slips: *am bestens* → \"am besten\" (no s), *am gutesten* → \"am besten\", *am größesten* → \"am größten\", *am kürzsten* → \"am kürzesten\" (extra e after z).",
-          "And the article slip: *Dieses Auto ist der schnellste* when no noun follows → \"Dieses Auto ist am schnellsten\". After a verb with no noun, use \"am -sten\".",
+          "Spelling slips: \"*gröser*\" → \"größer\" (keep the ß), \"*alter als*\" → \"älter als\" (the umlaut is the comparative), \"*teuerer*\" → \"teurer\".",
+          "Superlative slips: \"*am bestens*\" → \"am besten\" (no s), \"*am gutesten*\" → \"am besten\", \"*am größesten*\" → \"am größten\", \"*am kürzsten*\" → \"am kürzesten\" (extra e after z).",
+          "And the article slip: \"*Dieses Auto ist der schnellste*\" when you simply mean the fastest → \"Dieses Auto ist am schnellsten\". After a verb with no noun, the standard choice is \"am -sten\"; \"der schnellste\" only works when you pick one car out of a group.",
         ],
         examples: [
           { es: "Mein Vater ist älter als meine Mutter.", en: "My father is older than my mother." },
@@ -1262,7 +1264,7 @@ export const DE_A2_U10: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Mein Vater ist alter als meine Mutter*. Write the correct German for: My father is older than my mother.",
+            prompt: "A learner wrote \"*Mein Vater ist alter als meine Mutter*\". Write the correct German for: My father is older than my mother.",
             source: "My father is older than my mother.",
             answer: "Mein Vater ist älter als meine Mutter.",
             explanation: "\"Älter\" needs the umlaut.",
@@ -1270,7 +1272,7 @@ export const DE_A2_U10: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The food tastes [best] here. (A learner wrote *am bestens*.)",
+            en: "The food tastes [best] here. (A learner wrote \"*am bestens*\".)",
             sentence: "Hier schmeckt es ___.",
             answer: "am besten",
             explanation: "\"Am besten\": no s at the end.",
@@ -1288,7 +1290,7 @@ export const DE_A2_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Das ist besser wie gestern*. Write the correct German for: That's better than yesterday.",
+        prompt: "A learner wrote \"*Das ist besser wie gestern*\". Write the correct German for: That's better than yesterday.",
         source: "That's better than yesterday.",
         answer: "Das ist besser als gestern.",
         explanation: "Comparative + \"als\".",
@@ -1296,7 +1298,7 @@ export const DE_A2_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Die Wohnung ist mehr teuer*. Write the correct German for: The flat is more expensive.",
+        prompt: "A learner wrote \"*Die Wohnung ist mehr teuer*\". Write the correct German for: The flat is more expensive.",
         source: "The flat is more expensive.",
         answer: "Die Wohnung ist teurer.",
         explanation: "\"Teurer\": -er, and the e of teuer drops out.",
@@ -1304,7 +1306,7 @@ export const DE_A2_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Februar ist am kürzsten*. Write the correct German for: February is the shortest.",
+        prompt: "A learner wrote \"*Februar ist am kürzsten*\". Write the correct German for: February is the shortest.",
         source: "February is the shortest.",
         answer: "Der Februar ist am kürzesten.",
         altAnswers: ["Februar ist am kürzesten."],
@@ -1313,7 +1315,7 @@ export const DE_A2_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Ich trinke besser Tee*. Write the correct German for: I'd rather drink tea.",
+        prompt: "A learner wrote \"*Ich trinke besser Tee*\". Write the correct German for: I'd rather drink tea.",
         source: "I'd rather drink tea.",
         answer: "Ich trinke lieber Tee.",
         explanation: "Preference = \"lieber\". \"Besser\" is quality.",
@@ -1321,7 +1323,7 @@ export const DE_A2_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *München ist nicht so größer wie Berlin*. Write the correct German for: Munich isn't as big as Berlin.",
+        prompt: "A learner wrote \"*München ist nicht so größer wie Berlin*\". Write the correct German for: Munich isn't as big as Berlin.",
         source: "Munich isn't as big as Berlin.",
         answer: "München ist nicht so groß wie Berlin.",
         explanation: "\"So ... wie\" takes the plain form.",
@@ -1329,16 +1331,16 @@ export const DE_A2_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Leon ist der jüngste* about his family. Write the German for: Leon is the youngest.",
+        prompt: "A learner wrote \"*Leon ist der jüngste*\" about his family. That's possible, but write the usual German for: Leon is the youngest.",
         source: "Leon is the youngest.",
         answer: "Leon ist am jüngsten.",
         altAnswers: ["Leon ist der Jüngste."],
-        explanation: "After a verb: \"am jüngsten\". \"Der Jüngste\" (capitalised, the youngest one) is also possible as a noun.",
+        explanation: "After a verb the usual form is \"am jüngsten\". \"Der Jüngste\" (the youngest one, of the children) is also correct.",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "It's [colder] here than in Hamburg. (A learner wrote *kalter*.)",
+        en: "It's [colder] here than in Hamburg. (A learner wrote \"*kalter*\".)",
         sentence: "Hier ist es ___ als in Hamburg.",
         answer: "kälter",
         explanation: "\"Kalt\" → \"kälter\" with umlaut.",
@@ -1346,7 +1348,7 @@ export const DE_A2_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Who earns [the most]? (A learner wrote *am mehrsten*.)",
+        en: "Who earns [the most]? (A learner wrote \"*am mehrsten*\".)",
         sentence: "Wer verdient ___?",
         answer: "am meisten",
         explanation: "\"Viel, mehr, am meisten\".",

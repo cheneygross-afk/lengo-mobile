@@ -16,7 +16,7 @@ export const DE_A2_U20: Lesson[] = [
         body: [
           "Some prepositions don't care about movement or position: they always take one case. \"Durch\" (through), \"für\" (for), \"gegen\" (against), \"ohne\" (without) and \"um\" (around, at) always take the accusative. Only the masculine shows it in the article: \"der\" becomes \"den\", \"ein\" becomes \"einen\", \"mein\" becomes \"meinen\". Feminine, neuter and plural look the same as the nominative.",
           "\"Für\" and \"ohne\" are the most common: \"Das Geschenk ist für meinen Bruder\", \"Ich trinke Kaffee ohne Zucker\" (no article needed for an uncountable). Pronouns change too: \"für mich\", \"für dich\", \"ohne ihn\", \"ohne uns\".",
-          "The big trap for English speakers is *für mir*, by analogy with \"mit mir\". \"Für\" is never dative: \"für mich\".",
+          "The big trap for English speakers is \"*für mir*\", by analogy with \"mit mir\". \"Für\" is never dative: \"für mich\".",
         ],
         examples: [
           { es: "Das Geschenk ist für meinen Bruder.", en: "The present is for my brother." },
@@ -33,6 +33,7 @@ export const DE_A2_U20: Lesson[] = [
             prompt: "Translate into German.",
             source: "The present is for my father.",
             answer: "Das Geschenk ist für meinen Vater.",
+            altAnswers: ["Das Geschenk ist für meinen Papa."],
             explanation: "\"Für\" + accusative: masculine \"mein\" becomes \"meinen\".",
           },
           {
@@ -41,8 +42,7 @@ export const DE_A2_U20: Lesson[] = [
             en: "I can't do it [without you]. (to a friend)",
             sentence: "Ich schaffe das nicht ___.",
             answer: "ohne dich",
-            altAnswers: ["ohne euch"],
-            explanation: "\"Ohne\" takes the accusative: \"dich\", never *dir*.",
+            explanation: "\"Ohne\" takes the accusative: \"dich\", never \"*dir*\".",
           },
         ],
       },
@@ -127,8 +127,7 @@ export const DE_A2_U20: Lesson[] = [
         prompt: "Translate into German.",
         source: "This is for you. (to a friend)",
         answer: "Das ist für dich.",
-        altAnswers: ["Das ist für euch.", "Das ist für Sie."],
-        explanation: "\"Für\" + accusative: \"dich\". *Für dir* is the classic mistake.",
+        explanation: "\"Für\" + accusative: \"dich\". \"*Für dir*\" is the classic mistake.",
       },
       {
         type: "translate",
@@ -221,7 +220,7 @@ export const DE_A2_U20: Lesson[] = [
         body: [
           "These prepositions take the dative every time, whether something moves or not: \"aus\" (out of, from), \"bei\" (at someone's place, near, at a company), \"mit\" (with, by transport), \"nach\" (after, to a city or country), \"seit\" (since, for), \"von\" (from, of, by), \"zu\" (to a person or place). \"Gegenüber\" (opposite) belongs here too.",
           "Dative endings: \"dem\" for masculine and neuter, \"der\" for feminine, \"den\" + -n on the noun in the plural: \"mit dem Bus\", \"mit der Bahn\", \"mit dem Auto\", \"mit den Kindern\". With ein-words: \"einem\", \"einer\", \"meinem\", \"meiner\".",
-          "The trap: *mit den Bus*. \"Den\" is the accusative; after \"mit\" the masculine is always \"dem\". German learners sing the list aus-bei-mit-nach-seit-von-zu to the tune of the Blue Danube waltz to remember it.",
+          "The trap: \"*mit den Bus*\". \"Den\" is the accusative; after \"mit\" the masculine is always \"dem\". German learners sing the list aus-bei-mit-nach-seit-von-zu to the tune of the Blue Danube waltz to remember it.",
         ],
         examples: [
           { es: "Ich fahre mit dem Bus zur Arbeit.", en: "I go to work by bus." },
@@ -254,7 +253,7 @@ export const DE_A2_U20: Lesson[] = [
             question: "Which is correct for: I'm going by bus?",
             options: ["Ich fahre mit dem Bus.", "Ich fahre mit den Bus.", "Ich fahre mit der Bus.", "Ich fahre mit Bus."],
             correctIndex: 0,
-            explanation: "\"Mit\" always takes the dative: masculine \"dem Bus\". *Mit den Bus* is the classic slip.",
+            explanation: "\"Mit\" always takes the dative: masculine \"dem Bus\". \"*Mit den Bus*\" is the classic slip.",
           },
         ],
       },
@@ -329,7 +328,7 @@ export const DE_A2_U20: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm working from home today.",
             answer: "Ich arbeite heute von zu Hause.",
-            altAnswers: ["Heute arbeite ich von zu Hause.", "Ich arbeite heute von zu Hause aus.", "Ich arbeite heute im Homeoffice."],
+            altAnswers: ["Heute arbeite ich von zu Hause.", "Ich arbeite heute von zu Hause aus.", "Ich arbeite heute im Homeoffice.", "Ich arbeite heute von zuhause."],
             explanation: "From home = \"von zu Hause\" (from at home).",
           },
           {
@@ -366,6 +365,7 @@ export const DE_A2_U20: Lesson[] = [
         prompt: "Translate into German.",
         source: "I live with my parents.",
         answer: "Ich wohne bei meinen Eltern.",
+        altAnswers: ["Ich lebe bei meinen Eltern."],
         explanation: "Living at someone's place is \"bei\" + dative, not \"mit\". Dative plural: \"meinen Eltern\".",
       },
       {
@@ -434,7 +434,7 @@ export const DE_A2_U20: Lesson[] = [
     slug: "a2-pattern-fuer-dich-mit-dir",
     level: "DE-A2",
     number: 3,
-    title: "Pattern Practice: Für Dich, Mit Dir",
+    title: "Pattern Practice: Für dich, Mit dir",
     summary: "One frame, every person, both cases: für mich / mit mir, ohne ihn / mit ihm, gegen uns / bei uns, für sie / von ihr.",
     duration: "12 min",
     sections: [
@@ -443,7 +443,7 @@ export const DE_A2_U20: Lesson[] = [
         body: [
           "Accusative pronouns after für, ohne, gegen, durch, um: \"mich, dich, ihn, sie, es, uns, euch, sie, Sie\". Dative pronouns after mit, bei, von, zu, aus, nach, seit: \"mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen\".",
           "The pairs to drill: \"für mich / mit mir\", \"für dich / mit dir\", \"für ihn / mit ihm\", \"für sie / mit ihr\" (her), \"für uns / mit uns\" (the same!), \"für euch / mit euch\" (the same!), \"für sie / mit ihnen\" (them), \"für Sie / mit Ihnen\" (polite).",
-          "Only wir and ihr look identical in both cases. Watch especially \"ihr\": it's the dative of sie (her) and also the subject you-plural.",
+          "Only \"uns\" and \"euch\" (for wir and ihr) look identical in both cases. Watch especially \"ihr\": it's the dative of sie (her) and also the subject you-plural.",
         ],
         examples: [
           { es: "Das ist für mich, und das ist für dich.", en: "This is for me, and this is for you." },
@@ -460,7 +460,7 @@ export const DE_A2_U20: Lesson[] = [
             prompt: "Translate into German.",
             source: "Are you coming with me? (to a friend)",
             answer: "Kommst du mit mir?",
-            altAnswers: ["Kommst du mit?", "Kommt ihr mit mir?", "Kommen Sie mit mir?"],
+            altAnswers: ["Kommst du mit?"],
             explanation: "\"Mit\" + dative: \"mir\".",
           },
           {
@@ -551,7 +551,7 @@ export const DE_A2_U20: Lesson[] = [
         prompt: "Translate into German.",
         source: "This is for you, and that's for me. (to a friend)",
         answer: "Das ist für dich, und das ist für mich.",
-        altAnswers: ["Das ist für dich und das ist für mich.", "Das ist für dich, und das für mich.", "Das ist für euch, und das ist für mich."],
+        altAnswers: ["Das ist für dich und das ist für mich.", "Das ist für dich, und das für mich."],
         explanation: "\"Für\" + accusative: \"dich\", \"mich\".",
       },
       {
@@ -602,7 +602,7 @@ export const DE_A2_U20: Lesson[] = [
         prompt: "Translate into German.",
         source: "Can I come with you? (to a friend)",
         answer: "Kann ich mit dir kommen?",
-        altAnswers: ["Kann ich mitkommen?", "Kann ich mit euch kommen?", "Kann ich mit Ihnen kommen?", "Darf ich mit dir kommen?", "Kann ich mit dir mitkommen?"],
+        altAnswers: ["Kann ich mitkommen?", "Darf ich mit dir kommen?", "Kann ich mit dir mitkommen?"],
         explanation: "\"Mit\" + dative \"dir\".",
       },
       {
@@ -654,7 +654,7 @@ export const DE_A2_U20: Lesson[] = [
           { es: "Die Tasche der Frau ist weg.", en: "The woman's bag is gone." },
           { es: "Das Haus der Eltern ist sehr groß.", en: "The parents' house is very big." },
           { es: "Das Fahrrad meines Bruders ist kaputt.", en: "My brother's bike is broken." },
-          { es: "Am Ende des Tages war ich total müde.", en: "At the end of the day I was completely tired." },
+          { es: "Am Ende des Tages war ich total müde.", en: "At the end of the day I was dead tired." },
         ],
         checkpoint: [
           {
@@ -686,7 +686,7 @@ export const DE_A2_U20: Lesson[] = [
       {
         heading: "Names: Annas Auto, no apostrophe",
         body: [
-          "With names, German does put the owner first, like English, and simply adds -s with no apostrophe: \"Annas Auto\", \"Peters Wohnung\", \"Deutschlands Hauptstadt\". The apostrophe *Anna's* is a common mistake, sometimes seen on shop signs and corrected by teachers everywhere.",
+          "With names, German does put the owner first, like English, and simply adds -s with no apostrophe: \"Annas Auto\", \"Peters Wohnung\", \"Deutschlands Hauptstadt\". The apostrophe \"*Anna's*\" is a common mistake, sometimes seen on shop signs and corrected by teachers everywhere.",
           "Names ending in s, ß, x or z take an apostrophe instead of a second s: \"Jonas' Fahrrad\", \"Max' Schwester\". In speech people usually avoid this with \"von\": \"das Fahrrad von Jonas\".",
         ],
         examples: [
@@ -876,7 +876,7 @@ export const DE_A2_U20: Lesson[] = [
             prompt: "Translate into German.",
             source: "Because of the weather we're staying at home.",
             answer: "Wegen des Wetters bleiben wir zu Hause.",
-            altAnswers: ["Wir bleiben wegen des Wetters zu Hause.", "Wegen dem Wetter bleiben wir zu Hause.", "Wir bleiben wegen dem Wetter zu Hause."],
+            altAnswers: ["Wir bleiben wegen des Wetters zu Hause.", "Wegen dem Wetter bleiben wir zu Hause.", "Wir bleiben wegen dem Wetter zu Hause.", "Wegen des Wetters bleiben wir zuhause."],
             explanation: "\"Wegen\" + genitive: \"des Wetters\". The phrase in position 1 pushes the verb second.",
           },
           {
@@ -926,7 +926,7 @@ export const DE_A2_U20: Lesson[] = [
         heading: "Wegen or weil?",
         body: [
           "Same meaning, different grammar: \"wegen\" + a noun (genitive), \"weil\" + a whole clause with the verb at the end. \"Wegen des Regens bleiben wir zu Hause\" = \"Weil es regnet, bleiben wir zu Hause.\"",
-          "Likewise \"trotz\" + noun vs \"obwohl\" + clause (although; it works exactly like weil, verb at the end): \"Trotz des Regens...\" = \"Obwohl es regnet, ...\". A common mistake is mixing them: *wegen es regnet* or *weil des Regens*.",
+          "Likewise \"trotz\" + noun vs \"obwohl\" + clause (although; it works exactly like weil, verb at the end): \"Trotz des Regens...\" = \"Obwohl es regnet, ...\". A common mistake is mixing them: \"*wegen es regnet*\" or \"*weil des Regens*\".",
         ],
         examples: [
           { es: "Wegen des Regens bleiben wir zu Hause.", en: "Because of the rain we're staying at home." },
@@ -949,7 +949,7 @@ export const DE_A2_U20: Lesson[] = [
             prompt: "Translate into German, using weil.",
             source: "Because it's raining, we're staying at home.",
             answer: "Weil es regnet, bleiben wir zu Hause.",
-            altAnswers: ["Wir bleiben zu Hause, weil es regnet."],
+            altAnswers: ["Wir bleiben zu Hause, weil es regnet.", "Weil es regnet, bleiben wir zuhause."],
             explanation: "Weil-clause first, verb at its end, then verb, comma, verb: \"regnet, bleiben\".",
           },
           {
@@ -1077,10 +1077,10 @@ export const DE_A2_U20: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which group does zu belong to?",
-            options: ["Always dative, even with movement.", "Always accusative.", "Two-way: accusative for movement.", "Genitive."],
+            question: "You're on your way to the doctor's. What do you say?",
+            options: ["Ich gehe zum Arzt.", "Ich gehe zu den Arzt.", "Ich gehe zu der Arzt.", "Ich gehe zu des Arztes."],
             correctIndex: 0,
-            explanation: "\"Zu\" is in the dative-only group: \"zum Arzt\", \"zur Post\", even though you're moving.",
+            explanation: "\"Zu\" is in the dative-only group: \"zum Arzt\" (zu dem), even though you're moving. \"*Zu den Arzt*\" is the movement-means-accusative trap.",
           },
           {
             type: "translate",
@@ -1292,7 +1292,7 @@ export const DE_A2_U20: Lesson[] = [
             prompt: "Translate into German.",
             source: "Can you help me move on Saturday? (to a friend)",
             answer: "Kannst du mir am Samstag beim Umzug helfen?",
-            altAnswers: ["Kannst du mir beim Umzug am Samstag helfen?", "Könnt ihr mir am Samstag beim Umzug helfen?", "Kannst du mir am Samstag beim Umziehen helfen?", "Kannst du am Samstag beim Umzug helfen?"],
+            altAnswers: ["Kannst du mir beim Umzug am Samstag helfen?", "Kannst du mir am Samstag beim Umziehen helfen?", "Kannst du am Samstag beim Umzug helfen?"],
             explanation: "\"Helfen\" + dative \"mir\"; \"beim Umzug\" = bei dem Umzug.",
           },
           {

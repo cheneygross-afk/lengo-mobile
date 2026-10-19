@@ -132,10 +132,10 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which comparative is correct?",
-        options: ["stärker", "starker", "mehr stark", "stärkerer"],
+        question: "How do you say: My grandad is stronger than me?",
+        options: ["Mein Opa ist stärker als ich.", "Mein Opa ist starker als ich.", "Mein Opa ist mehr stark als ich.", "Mein Opa ist stärkerer als ich."],
         correctIndex: 0,
-        explanation: "\"Stark\" → \"stärker\" with an umlaut.",
+        explanation: "\"Stark\" → \"stärker\" with an umlaut; without it, \"starker\" is just an ending on \"stark\". Never \"mehr\" + adjective.",
       },
       {
         type: "listen-choose",
@@ -171,7 +171,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
       {
         heading: "Recap: so + plain adjective + wie",
         body: [
-          "Equal: \"so ... wie\" (\"genauso ... wie\" for just as). Not equal: \"nicht so ... wie\". The adjective stays in its plain form: \"so alt wie\", never *so älter wie*.",
+          "Equal: \"so ... wie\" (\"genauso ... wie\" for just as). Not equal: \"nicht so ... wie\". The adjective stays in its plain form: \"so alt wie\", never \"*so älter wie*\".",
           "\"Nicht so ... wie\" is often a softer way of saying less: \"Der Film war nicht so gut wie das Buch\".",
         ],
         examples: [
@@ -443,10 +443,10 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which superlative is correct?",
-        options: ["am heißesten", "am heißsten", "am heißten", "am heißenste"],
+        question: "How do you say: It's hottest in July?",
+        options: ["Im Juli ist es am heißesten.", "Im Juli ist es am heißsten.", "Im Juli ist es am heißten.", "Im Juli ist es am heißenste."],
         correctIndex: 0,
-        explanation: "After ß, add -esten.",
+        explanation: "After ß, add -esten: \"am heißesten\". \"Groß\" (am größten) is the one exception.",
       },
       {
         type: "listen-choose",
@@ -635,11 +635,11 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
       {
         heading: "Recap: the language of a review",
         body: [
-          "Online reviews love comparisons: \"Das Handy A ist leichter als das Handy B\", \"Der Akku hält länger\", \"Die Kamera ist besser\", \"Am besten gefällt mir das Display\". The verb \"halten\" (to last) is useful for batteries: \"Der Akku hält zwei Tage.\"",
+          "Online reviews love comparisons: \"Handy A ist leichter als Handy B\", \"Der Akku hält länger\", \"Die Kamera ist besser\", \"Am besten gefällt mir das Display\". The verb \"halten\" (to last) is useful for batteries: \"Der Akku hält zwei Tage.\"",
           "End with a recommendation: \"Für mich ist Handy B besser, denn es ist billiger.\" or \"Am wichtigsten ist mir die Kamera.\"",
         ],
         examples: [
-          { es: "Das Handy A ist leichter und dünner als das Handy B.", en: "Phone A is lighter and thinner than phone B." },
+          { es: "Handy A ist leichter und dünner als Handy B.", en: "Phone A is lighter and thinner than phone B." },
           { es: "Der Akku von Handy B hält länger.", en: "Phone B's battery lasts longer." },
           { es: "Die Kamera ist bei Handy A viel besser.", en: "The camera on phone A is much better." },
           { es: "Handy B ist nicht so schnell wie Handy A.", en: "Phone B isn't as fast as phone A." },
@@ -671,8 +671,8 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "Phone A is lighter than phone B.",
-        answer: "Das Handy A ist leichter als das Handy B.",
-        altAnswers: ["Handy A ist leichter als Handy B."],
+        answer: "Handy A ist leichter als Handy B.",
+        altAnswers: ["Das Handy A ist leichter als das Handy B."],
         explanation: "\"Leicht\" → \"leichter\".",
       },
       {
@@ -808,7 +808,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "The Rhine is longer than the Elbe.",
             answer: "Der Rhein ist länger als die Elbe.",
-            explanation: "\"Lang\" → \"länger\". Rivers are mostly feminine, but \"der Rhein\" is masculine.",
+            explanation: "\"Lang\" → \"länger\". Most German rivers are feminine (\"die Elbe\", \"die Donau\"), but \"der Rhein\", \"der Main\" and \"der Neckar\" are masculine.",
           },
           {
             type: "fill-blank",
@@ -1069,10 +1069,10 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is NOT a correct form?",
-        options: ["am gutesten", "am besten", "lieber", "am meisten"],
+        question: "How do you say: Mia sings best?",
+        options: ["Mia singt am besten.", "Mia singt am gutesten.", "Mia singt am bestens.", "Mia singt besten."],
         correctIndex: 0,
-        explanation: "\"Gut\" is irregular: \"am besten\".",
+        explanation: "\"Gut\" is irregular: \"gut, besser, am besten\", with no -s and with \"am\".",
       },
       {
         type: "matching",
@@ -1118,7 +1118,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
       {
         heading: "Recap: Sam's forum post",
         body: [
-          "Sam wrote on a travel forum: *Hamburg ist mehr schön wie Berlin. Das Wetter war kalter als in London, aber die Leute waren freundlicherer. Das Essen war am bestens am Hafen. Die Hotels sind teuerer als in Leipzig, aber nicht so billiger wie in Prag.*",
+          "Sam wrote on a travel forum: \"*Hamburg ist mehr schön wie Berlin. Das Wetter war kalter als in London, aber die Leute waren freundlicherer. Das Essen war am bestens am Hafen. Die Hotels sind teuerer als in Leipzig, aber nicht so billiger wie in Prag.*\"",
           "Corrected: \"Hamburg ist schöner als Berlin. Das Wetter war kälter als in London, aber die Leute waren freundlicher. Das Essen war am Hafen am besten. Die Hotels sind teurer als in Leipzig, aber nicht so billig wie in Prag.\"",
         ],
         examples: [
@@ -1132,7 +1132,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Sam wrote *Hamburg ist mehr schön wie Berlin*. Write the correct German for: Hamburg is more beautiful than Berlin.",
+            prompt: "Sam wrote \"*Hamburg ist mehr schön wie Berlin*\". Write the correct German for: Hamburg is more beautiful than Berlin.",
             source: "Hamburg is more beautiful than Berlin.",
             answer: "Hamburg ist schöner als Berlin.",
             explanation: "Two fixes: -er instead of \"mehr\", and \"als\" instead of \"wie\".",
@@ -1140,7 +1140,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The people were [friendlier]. (Sam wrote *freundlicherer*.)",
+            en: "The people were [friendlier]. (Sam wrote \"*freundlicherer*\".)",
             sentence: "Die Leute waren ___.",
             answer: "freundlicher",
             explanation: "One -er only; a predicate adjective takes no extra ending.",
@@ -1152,7 +1152,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Das Wetter war kalter als in London*. Write the German for: The weather was colder than in London.",
+        prompt: "Fix \"*Das Wetter war kalter als in London*\". Write the German for: The weather was colder than in London.",
         source: "The weather was colder than in London.",
         answer: "Das Wetter war kälter als in London.",
         explanation: "\"Kälter\" with the umlaut.",
@@ -1160,7 +1160,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Das Essen war am bestens*. Write the German for: The food was best.",
+        prompt: "Fix \"*Das Essen war am bestens*\". Write the German for: The food was best.",
         source: "The food was best.",
         answer: "Das Essen war am besten.",
         explanation: "\"Am besten\": no -s.",
@@ -1168,7 +1168,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Die Hotels sind teuerer als in Leipzig*. Write the German for: The hotels are more expensive than in Leipzig.",
+        prompt: "Fix \"*Die Hotels sind teuerer als in Leipzig*\". Write the German for: The hotels are more expensive than in Leipzig.",
         source: "The hotels are more expensive than in Leipzig.",
         answer: "Die Hotels sind teurer als in Leipzig.",
         explanation: "\"Teuer\" → \"teurer\".",
@@ -1176,7 +1176,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *nicht so billiger wie in Prag*. Write the German for: The hotels aren't as cheap as in Prague.",
+        prompt: "Fix \"*nicht so billiger wie in Prag*\". Write the German for: The hotels aren't as cheap as in Prague.",
         source: "The hotels aren't as cheap as in Prague.",
         answer: "Die Hotels sind nicht so billig wie in Prag.",
         altAnswers: ["Die Hotels sind nicht so günstig wie in Prag."],
@@ -1185,7 +1185,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Die Museen waren interessanter wie in Köln*. Write the German for: The museums were more interesting than in Cologne.",
+        prompt: "Fix \"*Die Museen waren interessanter wie in Köln*\". Write the German for: The museums were more interesting than in Cologne.",
         source: "The museums were more interesting than in Cologne.",
         answer: "Die Museen waren interessanter als in Köln.",
         explanation: "Comparative + \"als\".",
@@ -1193,7 +1193,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Der Hafen ist am größesten*. Write the German for: The harbour is the biggest.",
+        prompt: "Fix \"*Der Hafen ist am größesten*\". Write the German for: The harbour is the biggest.",
         source: "The harbour is the biggest.",
         answer: "Der Hafen ist am größten.",
         explanation: "\"Am größten\": the exception without an extra e.",
@@ -1201,7 +1201,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Ich esse besser Fischbrötchen*. Write the German for: I prefer eating fish rolls.",
+        prompt: "Fix \"*Ich esse besser Fischbrötchen*\". Write the German for: I prefer eating fish rolls.",
         source: "I prefer eating fish rolls.",
         answer: "Ich esse lieber Fischbrötchen.",
         explanation: "Preference = \"lieber\".",
@@ -1209,7 +1209,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The trip was [longer than] planned. (Sam wrote *langer wie*.)",
+        en: "The trip was [longer than] planned. (Sam wrote \"*langer wie*\".)",
         sentence: "Die Reise war ___ geplant.",
         answer: "länger als",
         explanation: "Umlaut and \"als\".",
@@ -1217,7 +1217,7 @@ export const DE_A2_U10_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Sam took [more] photos than me. (Sam wrote *mehrere*.)",
+        en: "Sam took [more] photos than me. (Sam wrote \"*mehrere*\".)",
         sentence: "Sam hat ___ Fotos gemacht als ich.",
         answer: "mehr",
         explanation: "More = \"mehr\"; \"mehrere\" means several.",

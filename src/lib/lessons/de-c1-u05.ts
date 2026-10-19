@@ -23,7 +23,7 @@ export const DE_C1_U05: Lesson[] = [
     level: "DE-C1",
     number: 1,
     title: "Passive and Impersonal Constructions, Part 1 of 6",
-    summary: "The werden passive in every tense and mood, from wird gebaut werden to hätte früher informiert werden müssen, and why it is always worden, never geworden.",
+    summary: "Use the \"werden\" passive in every tense and mood, from \"wird gebaut werden\" to \"hätte früher informiert werden müssen\", and know why the passive participle is \"worden\", not \"geworden\".",
     duration: "18 min",
     sections: [
       {
@@ -55,7 +55,7 @@ export const DE_C1_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "When we arrived, the concert [had already been cancelled].",
+            en: "When we arrived, [the concert had already been cancelled].",
             sentence: "Als wir ankamen, ___.",
             answer: "war das Konzert schon abgesagt worden",
             altAnswers: ["war das Konzert bereits abgesagt worden"],
@@ -73,7 +73,7 @@ export const DE_C1_U05: Lesson[] = [
       {
         heading: "Konjunktiv and modals in the passive",
         body: [
-          "The passive combines with the Konjunktiv in the same way as the active. Konjunktiv II present: \"würde gebaut\" (would be built). Konjunktiv II past: \"wäre gebaut worden\" (would have been built). Konjunktiv I in reported speech, mostly in the news: \"Die Entscheidung sei bereits getroffen worden\" (the decision had allegedly already been taken).",
+          "The passive combines with the Konjunktiv in the same way as the active. Konjunktiv II present: \"würde gebaut\" (would be built). Konjunktiv II past: \"wäre gebaut worden\" (would have been built). Konjunktiv I in reported speech, mostly in the news: \"Die Entscheidung sei bereits getroffen worden\" (reportedly, the decision had already been taken).",
           "With a modal verb the passive infinitive is participle + \"werden\": \"Der Antrag muss eingereicht werden\" (must be submitted), \"Das kann nicht geändert werden\". In the past the modal goes into the Präteritum: \"musste eingereicht werden\".",
           "The Advanced form is the modal passive in the past Konjunktiv II, the bread and butter of complaints and post-mortems: \"Die Anwohner hätten früher informiert werden müssen\" (the residents should have been informed earlier). \"Hätte\" is the finite verb, and at the end stands a block of three: participle + \"werden\" + modal infinitive (\"müssen\", \"sollen\", \"können\"), in that order.",
           "English should have been done / could have been avoided / ought to have been checked all land on this pattern: \"hätte gemacht werden sollen\", \"hätte vermieden werden können\", \"hätte geprüft werden müssen\". Note the modal is an infinitive, not a participle: never \"*hätte informiert werden gemusst\".",
@@ -147,7 +147,7 @@ export const DE_C1_U05: Lesson[] = [
         prompt: "Translate into German.",
         source: "The museum was built in 1910.",
         answer: "Das Museum wurde 1910 gebaut.",
-        altAnswers: ["Das Museum ist 1910 gebaut worden.", "1910 wurde das Museum gebaut.", "Das Museum wurde im Jahr 1910 gebaut."],
+        altAnswers: ["Das Museum ist 1910 gebaut worden.", "1910 wurde das Museum gebaut.", "1910 ist das Museum gebaut worden.", "Das Museum wurde im Jahr 1910 gebaut."],
         explanation: "Präteritum passive \"wurde gebaut\", or Perfekt \"ist gebaut worden\". German writes the year without \"in\", or \"im Jahr 1910\".",
       },
       {
@@ -236,7 +236,7 @@ export const DE_C1_U05: Lesson[] = [
     level: "DE-C1",
     number: 2,
     title: "Passive and Impersonal Constructions, Part 2 of 6",
-    summary: "Passives with no subject at all: Hier wird nicht geraucht, Es wurde getanzt, and the dative that survives in Mir wurde geholfen.",
+    summary: "Write rules and describe events with a passive that has no subject (\"Hier wird nicht geraucht\", \"Es wurde getanzt\"), and keep the dative in \"Mir wurde geholfen\".",
     duration: "18 min",
     sections: [
       {
@@ -303,7 +303,7 @@ export const DE_C1_U05: Lesson[] = [
             prompt: "Translate into German.",
             source: "Two cyclists were injured in the accident.",
             answer: "Bei dem Unfall wurden zwei Radfahrer verletzt.",
-            altAnswers: ["Beim Unfall wurden zwei Radfahrer verletzt.", "Zwei Radfahrer wurden bei dem Unfall verletzt.", "Zwei Radfahrer wurden beim Unfall verletzt.", "Bei dem Unfall sind zwei Radfahrer verletzt worden.", "Zwei Radfahrer sind bei dem Unfall verletzt worden.", "Es wurden zwei Radfahrer bei dem Unfall verletzt.", "Bei dem Unfall wurden zwei Radfahrerinnen verletzt."],
+            altAnswers: ["Beim Unfall wurden zwei Radfahrer verletzt.", "Zwei Radfahrer wurden bei dem Unfall verletzt.", "Zwei Radfahrer wurden beim Unfall verletzt.", "Bei dem Unfall sind zwei Radfahrer verletzt worden.", "Zwei Radfahrer sind bei dem Unfall verletzt worden.", "Es wurden zwei Radfahrer bei dem Unfall verletzt.", "Beim Unfall sind zwei Radfahrer verletzt worden.", "Bei dem Unfall wurden zwei Radfahrerinnen verletzt."],
             explanation: "The verb agrees with the real subject: \"wurden\" (plural). No \"es\" when the time or place phrase is in position 1.",
           },
           {
@@ -396,6 +396,7 @@ export const DE_C1_U05: Lesson[] = [
         en: "Last night [there was a long discussion].",
         sentence: "Gestern Abend ___.",
         answer: "wurde lange diskutiert",
+        altAnswers: ["ist lange diskutiert worden"],
         explanation: "Position 1 is taken by \"Gestern Abend\", so no \"es\": \"wurde lange diskutiert\".",
       },
       {
@@ -448,7 +449,7 @@ export const DE_C1_U05: Lesson[] = [
     level: "DE-C1",
     number: 3,
     title: "Transformations: Five Ways to Hide the Agent",
-    summary: "Turn one active sentence into the passive, man, sich lassen, sein + zu and a -bar adjective, and choose the best fit for a notice, a news item and a chat.",
+    summary: "Turn one active sentence into the passive, \"man\", \"sich lassen\", \"sein + zu\" and a \"-bar\" adjective, and choose the best fit for a notice, a news item and a chat.",
     duration: "17 min",
     sections: [
       {
@@ -456,7 +457,7 @@ export const DE_C1_U05: Lesson[] = [
         body: [
           "Start from an active sentence with someone doing something: \"Die Stadt kann den Fehler korrigieren.\" German has five standard ways to drop the agent. (1) Passive: \"Der Fehler kann korrigiert werden.\" (2) Man: \"Man kann den Fehler korrigieren.\" (3) Sich lassen: \"Der Fehler lässt sich korrigieren.\" (4) Sein + zu: \"Der Fehler ist zu korrigieren.\" (5) An adjective in -bar: \"Der Fehler ist korrigierbar.\"",
           "They are not interchangeable. The passive and \"man\" are neutral and cover everything. \"Sich lassen\" and \"-bar\" express only possibility (can be done). \"Sein + zu\" is ambiguous: possibility (\"Das ist nicht zu ändern\": that can't be changed) or necessity (\"Der Antrag ist bis Freitag einzureichen\": must be submitted). Context decides.",
-          "When you transform, the ripples are: the accusative object becomes the subject (\"den Fehler\" → \"der Fehler\") in every version except \"man\"; the modal \"können\" disappears with sich lassen, sein + zu and -bar because they already contain it; and the verb of the -bar version must be transitive (\"lesbar\", \"essbar\", \"machbar\"), not every verb has one.",
+          "When you transform, the ripples are: the accusative object becomes the subject (\"den Fehler\" → \"der Fehler\") in every version except \"man\"; the modal \"können\" disappears with sich lassen, sein + zu and -bar because they already contain it; and the verb of the -bar version must be transitive (\"lesbar\", \"essbar\", \"machbar\"); not every verb has one.",
         ],
         examples: [
           { es: "Der Fehler kann korrigiert werden.", en: "The mistake can be corrected." },
@@ -472,6 +473,7 @@ export const DE_C1_U05: Lesson[] = [
             prompt: "Translate into German, using sich lassen.",
             source: "The window can't be opened.",
             answer: "Das Fenster lässt sich nicht öffnen.",
+            altAnswers: ["Das Fenster lässt sich nicht aufmachen."],
             explanation: "\"Sich lassen\" + infinitive = can be done; \"können\" disappears because \"lassen\" carries the possibility.",
           },
           {
@@ -514,7 +516,7 @@ export const DE_C1_U05: Lesson[] = [
             prompt: "Translate into German, as you'd say it to a friend.",
             source: "You can't do anything about it.",
             answer: "Da kann man nichts machen.",
-            altAnswers: ["Da kann man nichts tun.", "Daran kann man nichts ändern.", "Da kann man nichts dagegen machen."],
+            altAnswers: ["Da kann man nichts tun.", "Daran kann man nichts ändern.", "Dagegen kann man nichts machen.", "Dagegen kann man nichts tun.", "Da kann man nichts dagegen machen."],
             explanation: "In conversation the generic you is \"man\": \"Da kann man nichts machen\". The passive would sound stiff here.",
           },
           {
@@ -666,11 +668,11 @@ export const DE_C1_U05: Lesson[] = [
     level: "DE-C1",
     number: 4,
     title: "Error Hunt: Passive Pitfalls",
-    summary: "Find and fix the passive mistakes English speakers make: *Ich wurde gesagt, a stray es, *gebaut geworden, von vs durch and the agent tacked on at the end.",
+    summary: "Find and fix the passive mistakes English speakers make: \"*Ich wurde gesagt\", a stray \"es\", \"*gebaut geworden\", \"von\" vs \"durch\" and the agent tacked on at the end.",
     duration: "16 min",
     sections: [
       {
-        heading: "Error 1: *Ich wurde gesagt",
+        heading: "Error 1: \"*Ich wurde gesagt\"",
         body: [
           "Ayşe writes to her landlord: \"*Ich wurde gesagt, dass die Heizung repariert wird.\" The English I was told is the culprit. \"Sagen\" takes a dative person (\"jemandem etwas sagen\"), and a dative never becomes the subject of a passive. Correct: \"Mir wurde gesagt, dass die Heizung repariert wird.\"",
           "The same mistake appears with every dative verb: \"*Ich wurde geholfen\" → \"Mir wurde geholfen\"; \"*Wir wurden gekündigt\" → \"Uns wurde gekündigt\"; \"*Er wurde gratuliert\" → \"Ihm wurde gratuliert\"; \"*Sie wurde ein Job angeboten\" → \"Ihr wurde ein Job angeboten\".",
@@ -740,7 +742,7 @@ export const DE_C1_U05: Lesson[] = [
         heading: "Error 3: von, durch and the afterthought agent",
         body: [
           "When the agent is mentioned, \"von\" + dative introduces the doer, usually a person or institution acting deliberately: \"von der Polizei festgenommen\", \"von meinem Opa gebaut\". \"Durch\" + accusative introduces the means, the cause or an intermediary: \"durch einen Boten zugestellt\" (by a courier, on someone's behalf), \"durch Impfungen verhindert\". With natural forces and events both occur, but writing prefers \"durch\": \"durch den Sturm zerstört\", \"durch das Feuer beschädigt\".",
-          "A typical error is the English-style afterthought: \"*Das Haus wurde gebaut von meinem Opa.\" In German the participle closes the sentence bracket, so the agent goes inside it, in the middle field: \"Das Haus wurde von meinem Opa gebaut.\" Placing \"von...\" after the participle sounds like a spoken correction, not a sentence.",
+          "A typical error is the English-style afterthought: \"*Das Haus wurde gebaut von meinem Opa.\" In German the participle closes the sentence bracket, so the agent goes inside it, in the middle field: \"Das Haus wurde von meinem Opa gebaut.\" Placing \"von...\" after the participle sounds like a spoken afterthought, not written German.",
           "Finally, overuse: if the agent is important and known, the active is usually better German. \"Das Haus wurde von meinem Opa gebaut\" is fine for emphasis on the house; \"Mein Opa hat das Haus gebaut\" is the natural answer to Who built it?",
         ],
         examples: [
@@ -771,7 +773,7 @@ export const DE_C1_U05: Lesson[] = [
             type: "listen-choose",
             audio: "Der Brief wurde durch einen Boten überbracht.",
             question: "What does it mean?",
-            options: ["The letter was delivered by a messenger.", "The letter was written by a messenger.", "The letter was sent to a messenger.", "The messenger delivered the letter in person to us."],
+            options: ["The letter was delivered by a messenger.", "The letter was written by a messenger.", "The letter was sent to a messenger.", "The letter was about a messenger."],
             correctIndex: 0,
             explanation: "\"Durch einen Boten\": the messenger is the intermediary, not the author of the action.",
           },
@@ -818,10 +820,10 @@ export const DE_C1_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Die Rede wurde gehalten von der Kanzlerin.\" Translate into German: The speech was given by the chancellor.",
+        prompt: "Fix \"*Die Rede wurde gehalten vom Kanzler.\" Translate into German: The speech was given by the chancellor.",
         source: "The speech was given by the chancellor.",
-        answer: "Die Rede wurde von der Kanzlerin gehalten.",
-        altAnswers: ["Die Rede wurde vom Kanzler gehalten.", "Die Rede ist von der Kanzlerin gehalten worden.", "Die Rede ist vom Kanzler gehalten worden."],
+        answer: "Die Rede wurde vom Kanzler gehalten.",
+        altAnswers: ["Die Rede wurde von der Kanzlerin gehalten.", "Die Rede ist vom Kanzler gehalten worden.", "Die Rede ist von der Kanzlerin gehalten worden.", "Die Rede wurde vom Bundeskanzler gehalten."],
         explanation: "The agent goes inside the bracket; \"gehalten\" closes the sentence. A speech is \"gehalten\" in German.",
       },
       {
@@ -875,7 +877,7 @@ export const DE_C1_U05: Lesson[] = [
     level: "DE-C1",
     number: 5,
     title: "Passive and Impersonal Constructions, Part 3 of 6",
-    summary: "The bekommen / kriegen passive, where the receiver becomes the subject (Ich bekomme das Paket zugeschickt), and gehören + participle for what ought to be done.",
+    summary: "Make the receiver the subject with the \"bekommen\" / \"kriegen\" passive (\"Ich bekomme das Paket zugeschickt\"), and say what ought to be done with \"gehören\" + participle.",
     duration: "17 min",
     sections: [
       {
@@ -906,7 +908,7 @@ export const DE_C1_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "He [had his phone taken away] at school.",
+            en: "He had his phone [taken away] at school.",
             sentence: "Er hat in der Schule sein Handy ___.",
             answer: "abgenommen bekommen",
             altAnswers: ["weggenommen bekommen", "abgenommen gekriegt", "weggenommen gekriegt"],
@@ -1046,9 +1048,9 @@ export const DE_C1_U05: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Every guest got a glass of champagne poured.",
+        prompt: "Put the words in order to say: Every guest was poured a glass of sparkling wine.",
         words: ["Jeder Gast", "bekam", "ein Glas Sekt", "eingeschenkt."],
-        translation: "Every guest got a glass of champagne poured.",
+        translation: "Every guest was poured a glass of sparkling wine.",
         explanation: "Recipient passive in the Präteritum: \"bekam\" second, \"eingeschenkt\" last.",
       },
       {
@@ -1079,7 +1081,7 @@ export const DE_C1_U05: Lesson[] = [
     level: "DE-C1",
     number: 6,
     title: "Passive and Impersonal Constructions, Part 4 of 6",
-    summary: "Impersonal es phrases that carry formal German: es handelt sich um, es geht um, es kommt auf...an, es fehlt an, es bedarf, es gilt, es empfiehlt sich, and es as placeholder vs Korrelat.",
+    summary: "Use the impersonal \"es\" phrases of formal German (\"es handelt sich um\", \"es geht um\", \"es kommt auf ... an\", \"es fehlt an\", \"es bedarf\", \"es gilt\", \"es empfiehlt sich\") and tell the fixed subject \"es\" from the placeholder and the Korrelat.",
     duration: "20 min",
     sections: [
       {
@@ -1119,7 +1121,7 @@ export const DE_C1_U05: Lesson[] = [
       {
         heading: "Es kommt auf...an, es fehlt an, es bedarf",
         body: [
-          "\"Es kommt auf\" + accusative + \"an\" = it depends on / what matters is: \"Es kommt auf das Wetter an\", \"Es kommt darauf an, ob...\" (it depends whether...), and the short answer \"Kommt drauf an\" (depends). With an adjective: \"Es kommt vor allem auf die Qualität an\" (what matters most is quality).",
+          "\"Es kommt auf\" + accusative + \"an\" = it depends on / what matters is: \"Es kommt auf das Wetter an\", \"Es kommt darauf an, ob...\" (it depends whether...), and the short answer \"Kommt drauf an\" (depends). With a focus word: \"Es kommt vor allem auf die Qualität an\" (what matters most is quality).",
           "\"Es fehlt an\" + dative and the formal \"es mangelt an\" + dative = there is a lack of: \"Es fehlt an Lehrern\", \"Es mangelt an Geld\". Learners often write \"*Es fehlen Lehrer an\". Compare the personal verb: \"Uns fehlen Lehrer\" (we lack teachers) is also correct, without \"an\".",
           "\"Es bedarf\" + genitive is very formal: there is a need for / it requires: \"Es bedarf einer gründlichen Prüfung\", \"Dazu bedarf es keiner Erklärung\" (no explanation is needed). You'll meet it in official and academic texts; in conversation say \"Man braucht...\".",
         ],
@@ -1296,8 +1298,8 @@ export const DE_C1_U05: Lesson[] = [
     slug: "c1-contrast-ist-wird-wurde-geschlossen",
     level: "DE-C1",
     number: 7,
-    title: "Contrast Clinic: Ist Geschlossen / Wird Geschlossen / Wurde Geschlossen",
-    summary: "State or process? Read and write notices and news that separate Zustandspassiv (ist geschlossen) from Vorgangspassiv (wird / wurde geschlossen).",
+    title: "Contrast Clinic: Ist geschlossen / Wird geschlossen / Wurde geschlossen",
+    summary: "State or process? Read and write notices and news that separate the Zustandspassiv (\"ist geschlossen\") from the Vorgangspassiv (\"wird / wurde geschlossen\").",
     duration: "16 min",
     sections: [
       {
@@ -1500,13 +1502,13 @@ export const DE_C1_U05: Lesson[] = [
     level: "DE-C1",
     number: 8,
     title: "Real-World Mission: The Press Release",
-    summary: "Write the city council's press release about road works on the Hauptstraße, keeping the agent in the background with the passive, sein + zu and impersonal phrases.",
+    summary: "Write the city council's press release about road works on the \"Hauptstraße\", keeping the agent in the background with the passive, \"sein + zu\" and impersonal phrases.",
     duration: "20 min",
     sections: [
       {
         heading: "Your brief: road works on the Hauptstraße",
         body: [
-          "You work in the press office of the Stadt Freiburg. From Monday 3 March the Hauptstraße will be closed for six weeks; the water pipes have to be replaced; buses will be diverted; residents can still reach their homes on foot; parking is banned on the side streets. Your job: a Pressemitteilung that sounds official, neutral and clear.",
+          "You work in the press office of the city of Freiburg. From Monday 3 March the \"Hauptstraße\" will be closed for six weeks; the water pipes have to be replaced; buses will be diverted; residents can still reach their homes on foot; parking is banned on the side streets. Your job: a \"Pressemitteilung\" (press release) that sounds official, neutral and clear.",
           "German press releases are written in the third person, with the city as an institution rather than a we, and with the agent mostly hidden. The headline is a noun phrase (\"Sperrung der Hauptstraße ab 3. März\"), the lead sentence states the key fact in the passive: \"Ab Montag, dem 3. März, wird die Hauptstraße zwischen Rathausplatz und Bahnhof für voraussichtlich sechs Wochen gesperrt.\"",
           "The reason follows, again without naming who does the work: \"Grund sind dringend notwendige Arbeiten an den Wasserleitungen, die bereits seit Jahren hätten erneuert werden müssen.\" Notice how the modal passive in the past Konjunktiv admits a delay without blaming anyone in particular.",
         ],
@@ -1522,7 +1524,7 @@ export const DE_C1_U05: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German, as the lead of the press release.",
-            source: "From Monday the main road (Hauptstraße) will be closed for six weeks.",
+            source: "From Monday the main road (\"Hauptstraße\") will be closed for six weeks.",
             answer: "Ab Montag wird die Hauptstraße für sechs Wochen gesperrt.",
             altAnswers: ["Die Hauptstraße wird ab Montag für sechs Wochen gesperrt.", "Ab Montag wird die Hauptstraße sechs Wochen lang gesperrt.", "Die Hauptstraße wird ab Montag sechs Wochen lang gesperrt."],
             explanation: "Process passive in the present for a planned event: \"wird ... gesperrt\". \"Ab\" marks the starting point.",
@@ -1530,7 +1532,7 @@ export const DE_C1_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The work [is expected to be completed] in mid-April.",
+            en: "The work [is expected to be] completed in mid-April.",
             sentence: "Die Arbeiten ___ Mitte April abgeschlossen.",
             answer: "werden voraussichtlich",
             explanation: "\"Voraussichtlich\" (expected, probably) is the standard word in official forecasts; the passive \"werden ... abgeschlossen\" keeps the builders out of view.",
@@ -1705,7 +1707,7 @@ export const DE_C1_U05: Lesson[] = [
     level: "DE-C1",
     number: 9,
     title: "Passive and Impersonal Constructions, Part 5 of 6",
-    summary: "Man and its hidden case forms einem and einen, generic du, and impersonal experiences: es klopft, es zieht, mir ist kalt, mir graut vor.",
+    summary: "Use generic \"man\" with its object forms \"einem\" and \"einen\", generic \"du\", and impersonal experiences such as \"es klopft\", \"es zieht\", \"mir ist kalt\" and \"mir graut vor\".",
     duration: "18 min",
     sections: [
       {
@@ -1808,7 +1810,7 @@ export const DE_C1_U05: Lesson[] = [
             question: "You feel cold on a train. What do you say?",
             options: ["Mir ist kalt.", "Ich bin kalt.", "Ich habe kalt.", "Mich ist kalt."],
             correctIndex: 0,
-            explanation: "\"Mir ist kalt\": dative experiencer. \"Ich bin kalt\" describes your character, and \"Ich habe kalt\" is a French calque.",
+            explanation: "\"Mir ist kalt\": dative experiencer. \"Ich bin kalt\" describes your character, and \"Ich habe kalt\" is a French-style calque (heard in Switzerland, not standard in Germany).",
           },
         ],
       },
@@ -1829,7 +1831,7 @@ export const DE_C1_U05: Lesson[] = [
         prompt: "Translate into German.",
         source: "Are you warm enough? (to a friend)",
         answer: "Ist dir warm genug?",
-        altAnswers: ["Ist es dir warm genug?", "Ist euch warm genug?", "Ist Ihnen warm genug?"],
+        altAnswers: ["Ist es dir warm genug?"],
         explanation: "The person who feels warm is dative: \"dir\".",
       },
       {
@@ -1910,13 +1912,13 @@ export const DE_C1_U05: Lesson[] = [
     level: "DE-C1",
     number: 10,
     title: "Passive and Impersonal Constructions, Part 6 of 6",
-    summary: "Social norms without a subject (Das macht man nicht, Das gehört sich nicht) and middle constructions that describe how things behave: Das Buch liest sich leicht, Hier lässt es sich leben.",
+    summary: "State social norms impersonally (\"Das macht man nicht\", \"Das gehört sich nicht\") and describe how things behave with middle constructions (\"Das Buch liest sich leicht\", \"Hier lässt es sich leben\").",
     duration: "18 min",
     sections: [
       {
         heading: "Norms: Das macht man nicht",
         body: [
-          "German states social rules impersonally. \"Das macht man nicht\" (that's not done), \"So etwas sagt man nicht\" (you don't say things like that), \"Man duzt sich hier\" (people say du here). \"Man\" + present tense = the rule of the community.",
+          "German states social rules impersonally. \"Das macht man nicht\" (that's not done), \"So etwas sagt man nicht\" (you don't say things like that), \"Man duzt sich hier\" (people say \"du\" here). \"Man\" + present tense = the rule of the community.",
           "Three fixed reflexive phrases carry strong normative weight: \"Das gehört sich nicht\" (that's not proper, it's bad manners), \"Das versteht sich von selbst\" (that goes without saying), and \"Es gehört sich, ... zu\" (it's proper to...): \"Es gehört sich, dass man sich bedankt\".",
           "English often uses you're supposed to / you're not supposed to. German prefers \"man\" or \"es ist üblich, ... zu\" (it's customary to) and \"es ist nicht üblich\": \"In Deutschland ist es üblich, beim Betreten der Wohnung die Schuhe auszuziehen\" (in many homes, at least).",
         ],
@@ -2054,10 +2056,10 @@ export const DE_C1_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "This road [is much better to drive on] now.",
+        en: "[Driving is] much better on this road now.",
         sentence: "Auf dieser Straße ___ jetzt viel besser.",
         answer: "fährt es sich",
-        altAnswers: ["lässt es sich", "fährt man"],
+        altAnswers: ["fährt man"],
         explanation: "Impersonal middle: \"fährt es sich\" + adverb.",
       },
       {
@@ -2073,14 +2075,14 @@ export const DE_C1_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "In our team everyone says du.",
+        source: "In our team everyone says \"du\".",
         answer: "In unserem Team duzt man sich.",
         altAnswers: ["In unserem Team duzen sich alle.", "Bei uns im Team duzt man sich.", "In unserem Team duzen wir uns."],
         explanation: "\"Man duzt sich\" states the norm; \"sich duzen\" is reciprocal.",
       },
       {
         type: "multiple-choice",
-        question: "A review says: Der Roman liest sich wie ein Krimi. What does it mean?",
+        question: "A review says: \"Der Roman liest sich wie ein Krimi.\" What does it mean?",
         options: ["The novel reads like a thriller.", "The novel is read by crime fans.", "The novel reads a thriller.", "The novel can't be read."],
         correctIndex: 0,
         explanation: "A middle construction describing the book's quality: reads like a thriller.",
@@ -2113,7 +2115,7 @@ export const DE_C1_U05: Lesson[] = [
     slug: "c1-contrast-man-passiv-lassen-zu",
     level: "DE-C1",
     number: 11,
-    title: "Contrast Clinic: Man, Passiv, Sich Lassen, Sein zu",
+    title: "Contrast Clinic: Man, Passiv, Sich lassen, Sein zu",
     summary: "Four ways to hide the agent side by side: which one fits the register, the focus, and whether you mean can or must.",
     duration: "17 min",
     sections: [
@@ -2134,7 +2136,7 @@ export const DE_C1_U05: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Der Ausweis ist am Eingang vorzuzeigen. What does it mean?",
+            question: "A sign says: \"Der Ausweis ist am Eingang vorzuzeigen.\" What does it mean?",
             options: ["ID must be shown at the entrance.", "ID can be shown at the entrance if you like.", "The entrance shows your ID.", "You showed your ID at the entrance."],
             correctIndex: 0,
             explanation: "An instruction with a place: sein + zu means must here.",
@@ -2316,13 +2318,13 @@ export const DE_C1_U05: Lesson[] = [
     level: "DE-C1",
     number: 12,
     title: "Spiral Review: Impersonality and Formal Register",
-    summary: "Read and write an official Bekanntmachung that combines the passive, impersonal es, nominal style and Konjunktiv I.",
+    summary: "Read and write an official \"Bekanntmachung\" (public notice) that combines the passive, impersonal \"es\", nominal style and Konjunktiv I.",
     duration: "20 min",
     sections: [
       {
         heading: "The Bekanntmachung",
         body: [
-          "A Bekanntmachung is an official public notice: from a town hall, a university, a housing association. Here is one from a Hausverwaltung in Köln: \"Bekanntmachung: Austausch der Heizungsanlage. In der Zeit vom 4. bis 8. November wird die Heizungsanlage des Hauses erneuert. Während dieser Zeit ist mit Einschränkungen bei der Warmwasserversorgung zu rechnen. Es handelt sich um eine gesetzlich vorgeschriebene Maßnahme. Die Mieterinnen und Mieter werden gebeten, den Zugang zum Keller freizuhalten.\"",
+          "A \"Bekanntmachung\" is an official public notice: from a town hall, a university, a housing association. Here is one from a \"Hausverwaltung\" (property management company) in Köln: \"Bekanntmachung: Austausch der Heizungsanlage. In der Zeit vom 4. bis 8. November wird die Heizungsanlage des Hauses erneuert. Während dieser Zeit ist mit Einschränkungen bei der Warmwasserversorgung zu rechnen. Es handelt sich um eine gesetzlich vorgeschriebene Maßnahme. Die Mieterinnen und Mieter werden gebeten, den Zugang zum Keller freizuhalten.\"",
           "Count the tools: process passive (\"wird erneuert\", \"werden gebeten\"), sein + zu (\"ist ... zu rechnen\": you should expect), impersonal \"es handelt sich um\", and nominal phrases (\"Austausch der Heizungsanlage\", \"Einschränkungen bei der Warmwasserversorgung\", \"eine gesetzlich vorgeschriebene Maßnahme\"). Nobody does anything in person.",
           "\"Mit etwas ist zu rechnen\" is a frequent official phrase: \"Mit Verspätungen ist zu rechnen\" (delays are to be expected). It's sein + zu of \"rechnen mit\", a subjectless construction, so nothing agrees with anything.",
         ],
@@ -2392,7 +2394,7 @@ export const DE_C1_U05: Lesson[] = [
       {
         heading: "Reporting what the authorities say: Konjunktiv I",
         body: [
-          "When a news text reports an official statement, the passive meets Konjunktiv I: \"Wie die Stadt mitteilte, sei die Brücke wegen Rissen gesperrt worden\" (according to the city, the bridge has been closed because of cracks). Konjunktiv I keeps the journalist's distance; the passive keeps the workers out of view.",
+          "When a news text reports an official statement, the passive meets Konjunktiv I: \"Die Stadt teilte mit, die Brücke sei wegen Rissen gesperrt worden\" (the city announced that the bridge had been closed because of cracks). After \"Wie die Stadt mitteilte, ...\" the indicative is more usual (\"... wurde die Brücke gesperrt\"), since the source is already named. Konjunktiv I keeps the journalist's distance; the passive keeps the workers out of view.",
           "Present: \"werde ... geprüft\" (is being examined). Past: \"sei ... gesperrt worden\". Modal: \"müsse ... erneuert werden\". Where Konjunktiv I looks like the indicative (plural \"werden\"), use Konjunktiv II: \"Die Anwohner würden informiert\" / \"seien informiert worden\" (plural \"seien\" is distinctive).",
           "Impersonal phrases go into Konjunktiv I too: \"Es handle sich um eine reine Vorsichtsmaßnahme\", \"Es komme jetzt darauf an, schnell zu handeln\".",
         ],
@@ -2486,7 +2488,7 @@ export const DE_C1_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is the nominal version of: Der Vertrag wird zum 31. März gekündigt?",
+        question: "Which sentence is the nominal version of \"Der Vertrag wird zum 31. März gekündigt\"?",
         options: ["Die Kündigung des Vertrags erfolgt zum 31. März.", "Die Kündigung den Vertrag erfolgt zum 31. März.", "Der Kündigung des Vertrags wird zum 31. März.", "Die Kündigung vom Vertrag wird zum 31. März erfolgt."],
         correctIndex: 0,
         explanation: "The object becomes a genitive (\"des Vertrags\") and \"erfolgen\" carries the tense.",

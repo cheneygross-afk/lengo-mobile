@@ -86,7 +86,7 @@ export const DE_CULTURE_U02: Lesson[] = [
         heading: "Tor, Elfmeter, Abseits: the core vocabulary",
         body: [
           "In German, \"Fußball\" is always soccer; American football is \"American Football\" or \"Football\" (pronounced the English way). \"Das Tor\" is both the goal (the frame and the score) and a gate: \"ein Tor schießen\" (to score a goal), \"im Tor stehen\" (to play in goal), \"der Torwart\" (goalkeeper; also \"der Keeper\"), \"der Torschützenkönig\" (top scorer).",
-          "The referee is \"der Schiedsrichter\", in speech always \"der Schiri\". He shows \"die gelbe Karte\" or \"die rote Karte\", gives \"einen Elfmeter\" (a penalty, from the eleven metres; colloquially \"Elfer\") or \"einen Freistoß\" (a free kick), and spots \"Abseits\" (offside). If it's a draw after 90 minutes in a knockout game, there's \"die Verlängerung\" (extra time) and then \"das Elfmeterschießen\" (the penalty shootout), which Germany, famously, almost always wins.",
+          "The referee is \"der Schiedsrichter\", in speech always \"der Schiri\". He shows \"die gelbe Karte\" or \"die rote Karte\", gives \"einen Elfmeter\" (a penalty, from the eleven metres; colloquially \"Elfer\") or \"einen Freistoß\" (a free kick), and spots \"Abseits\" (offside). If it's a draw after 90 minutes in a knockout game, there's \"die Verlängerung\" (extra time) and then \"das Elfmeterschießen\" (the penalty shootout), which the German men's team has famously won far more often than it has lost.",
           "Watch the verbs: \"ein Tor schießen\" (to score), \"treffen\" (to hit the target, to score), \"verschießen\" (to miss, of a penalty), \"pfeifen\" (to whistle, of the referee): \"Der Schiri hat Elfmeter gepfiffen.\"",
         ],
         examples: [
@@ -214,7 +214,7 @@ export const DE_CULTURE_U02: Lesson[] = [
     slug: "culture-fussball-metaphors-contrast",
     level: "DE-Culture",
     number: 2,
-    title: "Contrast Clinic: Fußball Außerhalb des Platzes",
+    title: "Contrast Clinic: Fußball außerhalb des Platzes",
     summary: "Football images that run through everyday German at work and in politics, compared with English: where the metaphors match, where they differ, and where a false friend lurks.",
     duration: "16 min",
     sections: [
@@ -415,7 +415,7 @@ export const DE_CULTURE_U02: Lesson[] = [
     level: "DE-Culture",
     number: 3,
     title: "Fußball und Leidenschaft, Part 2 of 2",
-    summary: "Watch a match with German fans: in the Kneipe, at a Public Viewing or on the Fanmeile, with the chants, exclamations and insults to the referee, the office Tippspiel, and the debate about flags and identity since 2006.",
+    summary: "Watch a match with German fans in the \"Kneipe\", at a \"Public Viewing\" or on the \"Fanmeile\": join in the exclamations, know which insults to the referee stay in the stadium, play the office \"Tippspiel\", and discuss flags and identity since 2006.",
     duration: "18 min",
     sections: [
       {
@@ -499,7 +499,7 @@ export const DE_CULTURE_U02: Lesson[] = [
       {
         heading: "Flags, 2006 and the identity debate",
         body: [
-          "Because of the Nazi past, waving the national flag was long viewed with unease in West Germany: a black-red-gold flag on a balcony could look nationalist. The 2006 home World Cup changed that overnight. Suddenly flags were everywhere, on cars, faces and balconies, and commentators spoke of a new, relaxed \"Party-Patriotismus\".",
+          "Because of the Nazi past, waving the national flag was long viewed with unease in West Germany: a black-red-gold flag on a balcony could look nationalist. The 2006 home World Cup changed that almost overnight. Suddenly flags were everywhere, on cars, faces and balconies, and commentators spoke of a new, relaxed \"Party-Patriotismus\".",
           "The debate never fully went away. Some see the flags as harmless fun and a sign of a normal, democratic country; others are uneasy about any national display. Discussions about the diversity of the team and who counts as German come up at every tournament.",
           "To take part in such a conversation at the Advanced level, you need hedging and opinion frames: \"Ich finde es eigentlich unproblematisch, dass ...\", \"Man muss dabei bedenken, dass ...\", \"Das sehe ich etwas anders\" (I see that a bit differently), and the Vorfeld for emphasis: \"Die Fahnen selbst finde ich harmlos; die Diskussion darüber finde ich wichtig.\"",
         ],
@@ -660,7 +660,7 @@ export const DE_CULTURE_U02: Lesson[] = [
         heading: "Exclamations and ellipsis: Müller ... schießt ... Tor!",
         body: [
           "Commentary drops what isn't needed. Articles and verbs vanish: \"Müller ... auf Sané ... Sané ... schießt ... Tor!\" Passes are expressed by \"auf\" + the receiver: \"Kimmich auf Musiala\" (Kimmich to Musiala). Names alone carry the action.",
-          "Exclamations replace description: \"Was für ein Schuss!\", \"Unglaublich!\", \"Ja, ist denn das die Möglichkeit!\", \"Der ist drin!\" (It's in!), \"Tor, Tor, Tor!\" The radio commentator Herbert Zimmermann's \"Aus, aus, aus, das Spiel ist aus! Deutschland ist Weltmeister!\" from 1954 is the most famous commentary in German history.",
+          "Exclamations replace description: \"Was für ein Schuss!\", \"Unglaublich!\", \"Ja, ist denn das die Möglichkeit!\", \"Der ist drin!\" (It's in!), \"Tor, Tor, Tor!\" The radio commentator Herbert Zimmermann's \"Aus, aus, aus, das Spiel ist aus! Deutschland ist Weltmeister!\" from 1954 is probably the most famous commentary in German history.",
           "When transforming, keep the logic of the report but cut it into short bursts. One long report sentence often becomes four or five fragments of commentary.",
         ],
         examples: [
@@ -695,7 +695,7 @@ export const DE_CULTURE_U02: Lesson[] = [
         body: [
           "German football commentary has its own stock phrases. A hard shot is \"ein strammer Schuss\". A shot into the top corner \"trifft ins Kreuzeck\" (or \"in den Winkel\"; \"Kreuzeck\" is the corner where post and crossbar meet). After a goal \"der Ball zappelt im Netz\" (the ball is wriggling in the net).",
           "The game begins with \"Anpfiff\" and ends with \"Abpfiff\": \"Der Schiedsrichter pfeift ab!\" A last-minute goal is \"in letzter Sekunde\" or \"in der Nachspielzeit\" (in stoppage time). A spectacular save is \"eine Glanzparade\", and a player who can't miss is \"eiskalt\" (ice-cold).",
-          "These clichés are so familiar that Germans use them ironically in other contexts: \"Und der Antrag zappelt im Netz!\" for a successful application, \"Abpfiff!\" when a meeting finally ends.",
+          "These clichés are so familiar that Germans often use them ironically in other contexts: \"Und der Antrag zappelt im Netz!\" for a successful application, \"Abpfiff!\" when a meeting finally ends.",
         ],
         examples: [
           { es: "Ein strammer Schuss aus 25 Metern!", en: "A powerful shot from 25 metres!" },
@@ -822,21 +822,21 @@ export const DE_CULTURE_U02: Lesson[] = [
     slug: "culture-deutscher-film",
     level: "DE-Culture",
     number: 5,
-    title: "Der Deutsche Film",
-    summary: "A century of German cinema from Metropolis to Dark, the Sunday Tatort ritual and the Berlinale, plus the practicalities of going to the cinema in a country that dubs almost everything.",
+    title: "Der deutsche Film",
+    summary: "Talk about a century of German cinema from \"Metropolis\" to \"Dark\", the Sunday \"Tatort\" ritual and the \"Berlinale\", and handle the practicalities of going to the cinema in a country that dubs almost everything.",
     duration: "18 min",
     sections: [
       {
         heading: "From Caligari to the Neuer Deutscher Film",
         body: [
           "In the 1920s Germany was one of the great film nations. Expressionist films such as \"Das Cabinet des Dr. Caligari\" (1920) and Murnau's \"Nosferatu\" (1922) used distorted sets and deep shadows, and Fritz Lang's \"Metropolis\" (1927) invented the look of the science-fiction city. After 1933 many directors, actors and composers fled to Hollywood, and German film never fully recovered its pre-war standing.",
-          "In 1962 young filmmakers signed the \"Oberhausener Manifest\", declaring \"Papas Kino ist tot\" (Daddy's cinema is dead). The \"Neuer Deutscher Film\" that followed made directors internationally famous: Rainer Werner Fassbinder (\"Die Ehe der Maria Braun\"), Werner Herzog (\"Aguirre\", \"Fitzcarraldo\") and Wim Wenders (\"Der Himmel über Berlin\").",
-          "Talking about film history uses the Präteritum in writing and the passive: \"Der Film wurde 1927 gedreht\" (was shot), \"Er wurde in Babelsberg produziert\". \"Drehen\" (to shoot a film) and \"der Dreh\" (the shoot) are the key words; \"der Regisseur\" / \"die Regisseurin\" is the director.",
+          "In 1962 young filmmakers signed the \"Oberhausener Manifest\", whose rallying cry became \"Papas Kino ist tot\" (Daddy's cinema is dead). The \"Neuer Deutscher Film\" that followed made directors internationally famous: Rainer Werner Fassbinder (\"Die Ehe der Maria Braun\"), Werner Herzog (\"Aguirre\", \"Fitzcarraldo\") and Wim Wenders (\"Der Himmel über Berlin\").",
+          "Talking about film history uses the Präteritum in writing and the passive: \"Der Film wurde in Babelsberg gedreht\" (was shot), \"Er wurde 1927 uraufgeführt\" (premiered). \"Drehen\" (to shoot a film) and \"der Dreh\" (the shoot) are the key words; \"der Regisseur\" / \"die Regisseurin\" is the director.",
         ],
         examples: [
-          { es: "„Metropolis“ wurde 1927 in Babelsberg gedreht.", en: "Metropolis was shot in Babelsberg in 1927." },
+          { es: "„Metropolis“ wurde in Babelsberg gedreht und kam 1927 ins Kino.", en: "Metropolis was shot in Babelsberg and released in 1927." },
           { es: "Nach 1933 emigrierten viele Regisseure nach Hollywood.", en: "After 1933 many directors emigrated to Hollywood." },
-          { es: "„Papas Kino ist tot“, hieß es im Oberhausener Manifest.", en: "Daddy's cinema is dead, the Oberhausen Manifesto declared." },
+          { es: "„Papas Kino ist tot“ wurde zum Slogan des Oberhausener Manifests.", en: "Daddy's cinema is dead became the slogan of the Oberhausen Manifesto." },
           { es: "Herzog hat in Südamerika unter extremen Bedingungen gedreht.", en: "Herzog filmed in South America under extreme conditions." },
           { es: "Wer hat bei dem Film Regie geführt?", en: "Who directed the film?" },
         ],
@@ -845,9 +845,9 @@ export const DE_CULTURE_U02: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Metropolis was shot in 1927.",
-            answer: "„Metropolis“ wurde 1927 gedreht.",
-            altAnswers: ["Metropolis wurde 1927 gedreht.", "Metropolis ist 1927 gedreht worden.", "„Metropolis“ ist 1927 gedreht worden.", "Der Film Metropolis wurde 1927 gedreht."],
+            source: "Metropolis was shot in Babelsberg.",
+            answer: "„Metropolis“ wurde in Babelsberg gedreht.",
+            altAnswers: ["Metropolis wurde in Babelsberg gedreht.", "Metropolis ist in Babelsberg gedreht worden.", "„Metropolis“ ist in Babelsberg gedreht worden.", "Der Film Metropolis wurde in Babelsberg gedreht.", "Man hat Metropolis in Babelsberg gedreht."],
             explanation: "\"Drehen\" is the verb for shooting a film; passive Präteritum \"wurde gedreht\" for film history.",
           },
           {
@@ -865,7 +865,7 @@ export const DE_CULTURE_U02: Lesson[] = [
         heading: "Das Boot, Lola rennt, Dark and the Sunday Tatort",
         body: [
           "German films that travelled: \"Das Boot\" (1981, a submarine war drama), \"Lola rennt\" (1998, a woman runs through Berlin to save her boyfriend, three times), \"Good Bye, Lenin!\" (2003, a son hides the fall of the Wall from his mother), \"Das Leben der Anderen\" (2006, about the Stasi, Oscar winner) and \"Im Westen nichts Neues\" (2022). On streaming, \"Babylon Berlin\" (1920s Berlin crime) and \"Dark\" (time-travel mystery) found global audiences. The \"Berlinale\" in February, with its \"Goldener Bär\", is one of the world's big film festivals.",
-          "The most German screen ritual, though, is the \"Tatort\": a crime series broadcast every Sunday at 20:15 on ARD since 1970, with rotating detective teams from different cities. Around ten million people watch, many in pubs that show it on a big screen, and Monday's office talk often starts with \"Hast du gestern Tatort geguckt?\".",
+          "The most German screen ritual, though, is the \"Tatort\": a crime series broadcast every Sunday at 20:15 on ARD since 1970, with rotating detective teams from different cities. Often eight to ten million people watch, some in pubs that show it on a big screen, and Monday's office talk often starts with \"Hast du gestern Tatort geguckt?\".",
           "Giving opinions: German likes to put the thing being judged first, often as a demonstrative pronoun, then the verb, then \"ich\": \"Den Film fand ich ziemlich langatmig\" (I found that film rather long-winded), \"Die Serie musst du unbedingt sehen!\", \"Das Ende habe ich nicht verstanden.\"",
         ],
         examples: [
@@ -883,7 +883,7 @@ export const DE_CULTURE_U02: Lesson[] = [
             prompt: "Translate into German, putting the film first.",
             source: "I found that film rather long-winded.",
             answer: "Den Film fand ich ziemlich langatmig.",
-            altAnswers: ["Den Film fand ich ziemlich langweilig.", "Den Film fand ich recht langatmig.", "Den fand ich ziemlich langatmig.", "Den Film habe ich ziemlich langatmig gefunden."],
+            altAnswers: ["Den Film fand ich recht langatmig.", "Den fand ich ziemlich langatmig.", "Den Film habe ich ziemlich langatmig gefunden."],
             explanation: "Object in the Vorfeld (\"Den Film\") for emphasis; \"finden\" + adjective gives an opinion. \"Langatmig\" = long-winded.",
           },
           {
@@ -1031,7 +1031,7 @@ export const DE_CULTURE_U02: Lesson[] = [
     level: "DE-Culture",
     number: 6,
     title: "Musik und Identität, Part 1 of 2",
-    summary: "The great German music traditions, from Schlager and Volksmusik to the Liedermacher, Kraftwerk, the Neue Deutsche Welle and the rock bands everyone knows, with the vocabulary to talk about songs.",
+    summary: "Talk about the great German music traditions, from \"Schlager\" and \"Volksmusik\" to the \"Liedermacher\", Kraftwerk, the \"Neue Deutsche Welle\" and the rock bands everyone knows, with the vocabulary for discussing songs.",
     duration: "18 min",
     sections: [
       {
@@ -1071,7 +1071,7 @@ export const DE_CULTURE_U02: Lesson[] = [
         heading: "Liedermacher, Kraftwerk and the Neue Deutsche Welle",
         body: [
           "The \"Liedermacher\" are singer-songwriters with a guitar and lyrics that matter: Reinhard Mey, whose \"Über den Wolken\" (above the clouds, freedom must be boundless) every German knows, and Wolf Biermann, the critical East German songwriter whom the GDR expelled in 1976 while he was on tour in the West, a scandal that pushed many East German artists to leave.",
-          "\"Kraftwerk\" from Düsseldorf invented electronic pop in the 1970s (\"Autobahn\", \"Die Roboter\") and influenced everything from hip-hop to techno. Around 1980 came the \"Neue Deutsche Welle\" (NDW): German-language new wave, playful and odd. Nena's \"99 Luftballons\", Trio's minimalist \"Da da da\" and the Austrian Falco (\"Der Kommissar\", \"Rock Me Amadeus\") became international hits.",
+          "\"Kraftwerk\" from Düsseldorf pioneered electronic pop in the 1970s (\"Autobahn\", \"Die Roboter\") and influenced everything from hip-hop to techno. Around 1980 came the \"Neue Deutsche Welle\" (NDW): German-language new wave, playful and odd. Nena's \"99 Luftballons\", Trio's minimalist \"Da da da\" and the Austrian Falco (\"Der Kommissar\", \"Rock Me Amadeus\") became international hits.",
           "Biographies are told in the Präteritum and passive: \"Biermann wurde 1976 ausgebürgert\" (was stripped of his citizenship), \"Die Band wurde 1970 gegründet\" (was founded).",
         ],
         examples: [
@@ -1238,13 +1238,13 @@ export const DE_CULTURE_U02: Lesson[] = [
     level: "DE-Culture",
     number: 7,
     title: "Word Web: Die Musikkarte",
-    summary: "A musical map of the German-speaking world: Deutschrap from Hamburg to Frankfurt, Austropop and Viennese indie, Swiss Mundartrock, Berlin techno, Cologne's carnival bands and the Ballermann, with the words each scene uses.",
+    summary: "Find your way round the music map of the German-speaking world, from \"Deutschrap\" to Austropop, Swiss \"Mundartrock\", Berlin techno, Cologne's carnival bands and the \"Ballermann\", and recognise the words each scene uses.",
     duration: "17 min",
     sections: [
       {
         heading: "Deutschrap: Hamburg, Berlin, Frankfurt and beyond",
         body: [
-          "German-language rap is the best-selling genre in Germany today, and each city has its sound. In the 1990s Hamburg made German rap playful and witty: \"Fettes Brot\" (whose song \"Jein\" gave German a word for yes-and-no) and \"Fünf Sterne deluxe\". Hamburg also popularised \"Digga\" (mate, dude; from Dicker), now used everywhere.",
+          "German-language rap is one of the best-selling genres in Germany today, and each city has its sound. In the 1990s Hamburg made German rap playful and witty: \"Fettes Brot\" (whose 1996 song \"Jein\" made the word for yes-and-no famous) and \"Fünf Sterne deluxe\". Hamburg also popularised \"Digga\" (mate, dude; from Dicker), now used everywhere.",
           "In the 2000s Berlin brought a harder, street-based style: Sido and the label Aggro Berlin, and Kool Savas, a technical virtuoso. From Offenbach near Frankfurt, Haftbefehl mixed German with Turkish, Arabic and Kurdish words and made \"Babo\" (the boss) so famous that it was voted Jugendwort des Jahres (youth word of the year) in 2013.",
           "More recent stars show the range: Cro from Stuttgart with his panda mask and sunny \"Raop\" (rap + pop), Apache 207 from Ludwigshafen with his retro sound and enormous streaming numbers. To describe the map: \"Hamburg gilt als Geburtsort des deutschen Raps\" (is regarded as), \"Er stammt aus Offenbach\" (He comes from).",
         ],
@@ -1277,7 +1277,7 @@ export const DE_CULTURE_U02: Lesson[] = [
       {
         heading: "Austria and Switzerland: Austropop, Wiener Indie, Mundartrock",
         body: [
-          "Austria has its own pop tradition, \"Austropop\", often sung in Viennese dialect: Falco, Wolfgang Ambros, Rainhard Fendrich. In the 2010s a Viennese indie wave took over German-speaking charts: \"Wanda\" (\"Amore\", loud, boozy, romantic) and \"Bilderbuch\" (stylish art-pop). Viennese words you'll hear: \"Oida\" (mate, dude, also an all-purpose exclamation), \"leiwand\" (great), \"Habedere\" (hello / bye).",
+          "Austria has its own pop tradition, \"Austropop\", often sung in Viennese dialect: Falco, Wolfgang Ambros, Rainhard Fendrich. In the 2010s a Viennese indie wave took over German-speaking charts: \"Wanda\" (\"Amore\", loud, boozy, romantic) and \"Bilderbuch\" (stylish art-pop). Viennese words you'll hear: \"Oida\" (from standard \"Alter\": mate, dude, also an all-purpose exclamation), \"leiwand\" (standard \"toll\": great), \"Habedere\" (from \"Habe die Ehre\": hello / bye).",
           "In Switzerland many bands sing in \"Mundart\" (Swiss German dialect) rather than standard German. \"Patent Ochsner\" from Bern, Switzerland's best-known \"Mundartrock\" band, sings in Bernese German. For German listeners it can be hard to understand, which is part of the point: Mundart is a strong marker of Swiss identity.",
           "When describing these scenes, distinguish carefully: \"auf Hochdeutsch singen\" (in standard German), \"im Dialekt singen\", \"auf Wienerisch\", \"auf Schweizerdeutsch\" / \"in Mundart\".",
         ],
@@ -1311,8 +1311,8 @@ export const DE_CULTURE_U02: Lesson[] = [
       {
         heading: "Techno, Kölsch bands, Ballermann and Après-Ski",
         body: [
-          "Berlin is the world capital of techno. After the Wall fell, empty buildings in East Berlin became clubs; the \"Love Parade\" brought hundreds of thousands to the streets in the 1990s; clubs like \"Tresor\" and \"Berghain\" (famous for its strict door policy) are legends. Since 2024 Berlin techno culture has been on Germany's list of intangible cultural heritage.",
-          "Cologne has its own music scene built around Karneval: bands such as \"Höhner\", \"Brings\" and \"Bläck Fööss\" sing in \"Kölsch\" (the dialect, which has the same name as the beer), and every Cologner can sing their songs. \"Viva Colonia\" is practically a city anthem.",
+          "Berlin is often called the world capital of techno. After the Wall fell, empty buildings in East Berlin became clubs; the \"Love Parade\" brought hundreds of thousands to the streets in the 1990s; clubs like \"Tresor\" and \"Berghain\" (famous for its strict door policy) are legends. Since 2024 Berlin techno culture has been on Germany's list of intangible cultural heritage.",
+          "Cologne has its own music scene built around Karneval: bands such as \"Höhner\", \"Brings\" and \"Bläck Fööss\" sing in \"Kölsch\" (the dialect, which has the same name as the beer), and almost every Cologner can sing their songs. \"Viva Colonia\" is practically a city anthem.",
           "And then there's the \"Ballermann\": the German party beach on Mallorca, and by extension the genre of simple, loud drinking songs played there, in \"Après-Ski\" bars in the Alps and at German Feste. It is the guilty pleasure of many Germans and the despair of others. Vocabulary: \"ein Ohrwurm\" (an earworm, a catchy tune), \"auf die Tanzfläche\", \"abfeiern\" (to party hard).",
         ],
         examples: [
@@ -1394,7 +1394,7 @@ export const DE_CULTURE_U02: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In Vienna a friend says after a gig: \"Oida, des woar leiwand!\" How do you answer in the same spirit?",
+        question: "In Vienna a friend says after a gig: \"Oida, des woa leiwand!\" (standard German: \"Alter, das war toll!\") How do you answer in the same spirit?",
         options: ["Ja, echt super!", "Ja, wirklich langweilig!", "Nein, ich bin nicht alt.", "Ja, Grüezi!"],
         correctIndex: 0,
         explanation: "\"Leiwand\" = great, so agree with enthusiasm. \"Oida\" is a form of address, not a comment on age; \"Grüezi\" is Swiss.",
@@ -1434,7 +1434,7 @@ export const DE_CULTURE_U02: Lesson[] = [
     level: "DE-Culture",
     number: 8,
     title: "Musik und Identität, Part 2 of 2",
-    summary: "The songs every German can sing, the lines that became everyday expressions, wordplay in Deutschrap, and the party songs of weddings and Feste, including the debate over Ballermann hits.",
+    summary: "Recognise the songs every German can sing and the lines that became everyday expressions, enjoy wordplay in \"Deutschrap\", and argue both sides of the debate over Ballermann hits.",
     duration: "18 min",
     sections: [
       {
@@ -1510,7 +1510,7 @@ export const DE_CULTURE_U02: Lesson[] = [
       {
         heading: "Wordplay, party songs and the Ballermann debate",
         body: [
-          "Deutschrap loves wordplay: double meanings, rhymes across languages, and puns on brand names. Fettes Brot's \"Jein\" turned a pun into a dictionary word. Sido's \"Mein Block\" and many later tracks play with the gap between street slang and standard German, and part of the fun for fans is decoding them.",
+          "Deutschrap loves wordplay: double meanings, rhymes across languages, and puns on brand names. Fettes Brot's \"Jein\" built a whole song on a punning word. Sido's \"Mein Block\" and many later tracks play with the gap between street slang and standard German, and part of the fun for fans is decoding them.",
           "At weddings, Feste and office parties, the same songs come round: Schlager like \"Atemlos\", carnival hits, \"Ein Stern (der deinen Namen trägt)\", and Ballermann songs. People join a \"Polonaise\" (a conga line) and sing along whether or not they like the genre: \"Bei Hochzeiten singt man das halt mit\" (At weddings you just sing along).",
           "In 2022 the Ballermann hit \"Layla\", number one in the charts, was banned at some Feste because of its sexist lyrics. The debate split the country: was it overdue respect, or censorship and paternalism? A good Advanced topic, which needs the language of balanced argument: \"Einerseits ..., andererseits ...\", \"Ich kann beide Seiten verstehen\", \"Es kommt darauf an, ...\".",
         ],
@@ -1629,7 +1629,7 @@ export const DE_CULTURE_U02: Lesson[] = [
     level: "DE-Culture",
     number: 9,
     title: "Text Detective: Slang in den Songtexten",
-    summary: "Decode invented rap and pop lines full of youth slang and Kiezdeutsch, from Digga and Ehre to lost and Alman, understand the grammar behind them, and rewrite them in standard German.",
+    summary: "Decode invented rap and pop lines full of youth slang and \"Kiezdeutsch\", from \"Digga\" and \"Ehre\" to \"lost\" and \"Alman\", understand the grammar behind them, and rewrite them in standard German.",
     duration: "18 min",
     sections: [
       {
@@ -1670,7 +1670,7 @@ export const DE_CULTURE_U02: Lesson[] = [
         heading: "Krass, lost, chillen, Kohle, Para",
         body: [
           "Line 3: \"Das Leben ist voll krass, doch ich bin nicht lost, ich chill.\" \"Krass\" (extreme, crazy, amazing or awful, depending on context) is the most versatile slang adjective. \"Voll\" (totally) intensifies it. \"Lost\" (Jugendwort des Jahres 2020) means clueless, out of it, disoriented. \"Chillen\" is to relax, hang out.",
-          "Line 4: \"Ich mach Para, mach die Kohle, keine Zeit für Drama.\" Money has many slang names: \"die Kohle\" (coal, the oldest and most widespread; your parents use it too), \"die Kohle machen\" (to make money), \"Para\" (from Turkish para, money; mainly rap and youth), \"die Knete\" (older slang).",
+          "Line 4: \"Ich mach Para, mach die Kohle, keine Zeit für Drama.\" Money has many slang names: \"die Kohle\" (coal, the oldest and most widespread; your parents use it too), \"Kohle machen\" (to make money), \"Para\" (from Turkish para, money; mainly rap and youth), \"die Knete\" (older slang).",
           "Register test: \"Das ist voll krass, Digga\" is perfectly normal among friends, in a WhatsApp group or at a party. In an email to a lecturer, a job interview or a conversation with your neighbour's grandmother it would sound absurd. Standard versions: \"Das ist unglaublich\", \"Das ist wirklich erstaunlich\", \"Ich verdiene Geld\".",
         ],
         examples: [
@@ -1712,8 +1712,8 @@ export const DE_CULTURE_U02: Lesson[] = [
       {
         heading: "Hab, is, nich: the grammar of the street",
         body: [
-          "Spoken German drops endings: \"ich hab\" (habe), \"is\" (ist), \"nich\" or \"nicht\" as \"net\" in the south, \"ne\" (eine; also the tag question \"ne?\"), \"was\" (etwas), \"mal\" (einmal). Lyrics write them as they sound: \"Ich hab kein Bock, is mir egal, nich mein Problem.\"",
-          "\"Kiezdeutsch\" (from Kiez, neighbourhood) is the multi-ethnic youth variety of big-city German, studied by linguists as a real dialect with its own grammar. Typical features: prepositions and articles dropped with places (\"Ich geh Kino\" = Ich gehe ins Kino; \"Wir sind Hermannplatz\" = Wir sind am Hermannplatz), \"lass ma\" for let's (\"Lass ma Kino gehen\"), and the verb not always in second position (\"Morgen ich geh Schule\").",
+          "Spoken German drops endings: \"ich hab\" (habe), \"is\" (ist), \"nich\" (nicht; in the south \"net\"), \"ne\" (eine; also the tag question \"ne?\"), \"was\" (etwas), \"mal\" (einmal). Lyrics write them as they sound: \"Ich hab kein Bock, is mir egal, nich mein Problem.\"",
+          "\"Kiezdeutsch\" (from Kiez, neighbourhood) is the multi-ethnic youth variety of big-city German, which some linguists describe as a new dialect with its own grammar. Typical features: prepositions and articles dropped with places (\"Ich geh Kino\" = Ich gehe ins Kino; \"Wir sind Hermannplatz\" = Wir sind am Hermannplatz), \"lass ma\" for let's (\"Lass ma Kino gehen\"), and the verb not always in second position (\"Morgen ich geh Schule\").",
           "Your job as text detective is to recognise these features and translate them back: \"Ich geh Kino\" → \"Ich gehe ins Kino\"; \"Hab kein Bock\" → \"Ich habe keine Lust\". \"Kein Bock haben\" (no desire, can't be bothered) is colloquial but very widespread, far beyond Kiezdeutsch.",
         ],
         examples: [

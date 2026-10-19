@@ -8,14 +8,14 @@ export const DE_C2_U20: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Rhetorische Fragen und Emphase, Part 5 of 7",
-    summary: "Reproach questions in everyday conflict: Musste das sein?, Was soll das denn?, Hättest du nicht vorher Bescheid sagen können?, Wie oft soll ich dir das noch sagen?, with the Konjunktiv II past and the modal double infinitive.",
+    summary: "Voice and recognise reproach questions in everyday conflict (\"Musste das sein?\", \"Was soll das denn?\", \"Hättest du nicht vorher Bescheid sagen können?\", \"Wie oft soll ich dir das noch sagen?\"), using the Konjunktiv II past and the modal double infinitive.",
     duration: "18 min",
     sections: [
       {
         heading: "Short reproach formulas",
         body: [
           "Everyday conflict in German is full of short rhetorical reproaches (\"Vorwurfsfragen\"). They are fixed formulas, and their tone depends heavily on intonation. \"Musste das sein?\" (did that have to happen? / was that really necessary?), \"Was soll das denn?\" (what's that supposed to mean?), \"Geht's noch?\" (are you out of your mind?, colloquial and sharp), \"Spinnst du?\" (are you crazy?, very informal).",
-          "More measured versions for work or with people you call Sie: \"War das wirklich nötig?\", \"Was haben Sie sich dabei gedacht?\", \"Ist Ihnen klar, was das bedeutet?\". The particle \"eigentlich\" adds indignation: \"Wissen Sie eigentlich, wie spät es ist?\"",
+          "More measured versions for work or with people you call \"Sie\": \"War das wirklich nötig?\", \"Was haben Sie sich dabei gedacht?\", \"Ist Ihnen klar, was das bedeutet?\". The particle \"eigentlich\" adds indignation: \"Wissen Sie eigentlich, wie spät es ist?\"",
           "\"Wie oft soll ich dir das noch sagen?\" (how many times do I have to tell you?) uses \"sollen\" to express exasperation. The answer expected is not a number but a change in behaviour.",
         ],
         examples: [
@@ -38,7 +38,7 @@ export const DE_C2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A colleague you call Sie has sent an email to the wrong client. Which reproach is appropriately measured?",
+            question: "A colleague you call \"Sie\" has sent an email to the wrong client. Which reproach is appropriately measured?",
             options: ["Was haben Sie sich dabei gedacht?", "Geht's noch?", "Spinnst du?", "Bist du bescheuert?"],
             correctIndex: 0,
             explanation: "\"Was haben Sie sich dabei gedacht?\" is a firm but acceptable reproach at work; the others are very informal and rude.",
@@ -73,7 +73,7 @@ export const DE_C2_U20: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[Couldn't you have said] that earlier? (formal)",
+            en: "[Couldn't you] have said that earlier? (formal)",
             sentence: "___ das nicht früher sagen können?",
             answer: "Hätten Sie",
             explanation: "Konjunktiv II \"hätten\" first, then \"nicht\", and the double infinitive \"sagen können\" at the end. The modal stays in the infinitive, never \"gekonnt\".",
@@ -81,7 +81,7 @@ export const DE_C2_U20: Lesson[] = [
           {
             type: "speak",
             text: "Hättest du nicht vorher Bescheid sagen können?",
-            tip: "Stress VORHER; the voice falls at the end, it's not a real question.",
+            tip: "Stress \"vorher\"; the voice falls at the end, it's not a real question.",
             explanation: "\"Bescheid sagen\" (to let someone know) inside a Konjunktiv II past reproach.",
           },
         ],
@@ -90,7 +90,7 @@ export const DE_C2_U20: Lesson[] = [
         heading: "The double infinitive in subordinate clauses",
         body: [
           "In a subordinate clause, the double infinitive breaks the verb-final rule: the finite verb \"hätte\" goes BEFORE the two infinitives, not after them: \"Ich verstehe nicht, warum du nicht hättest anrufen können.\" Not \"...anrufen können hättest\".",
-          "The same applies to the Perfekt of modals: \"Ich weiß, dass ich mehr hätte lernen sollen\" (I know I should have studied more). This is one of the rare places where a German subordinate clause doesn't end with its finite verb.",
+          "The same applies to the Perfekt of modals (\"..., dass wir das nicht haben verhindern können\") and to every Konjunktiv II past with a modal: \"Ich weiß, dass ich mehr hätte lernen sollen\" (I know I should have studied more). This is one of the rare places where a German subordinate clause doesn't end with its finite verb.",
           "In reproaches reported indirectly: \"Sie warf ihm vor, er hätte wenigstens anrufen können\" (she reproached him for not at least calling). \"Jemandem etwas vorwerfen\" (to reproach someone for something) is the reporting verb.",
         ],
         examples: [
@@ -143,7 +143,7 @@ export const DE_C2_U20: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I don't understand why you [couldn't have] called.",
+        en: "I don't understand why you couldn't [have] called.",
         sentence: "Ich verstehe nicht, warum du nicht ___ anrufen können.",
         answer: "hättest",
         explanation: "With a double infinitive, the finite verb comes before the infinitives even in a subordinate clause.",
@@ -203,7 +203,7 @@ export const DE_C2_U20: Lesson[] = [
         type: "speak",
         text: "Musste das jetzt sein?",
         prompt: "Say it in German: Was that really necessary right now?",
-        tip: "Stress MUSSTE and let the voice fall at the end.",
+        tip: "Stress \"musste\" and let the voice fall at the end.",
         explanation: "The everyday reproach formula with the Präteritum of \"müssen\".",
       },
     ],
@@ -212,7 +212,7 @@ export const DE_C2_U20: Lesson[] = [
     slug: "c2-reply-rhetorical-question-dialogue-lab",
     level: "DE-C2",
     number: 2,
-    title: "Dialogue Lab: Auf eine Rhetorische Frage Antworten",
+    title: "Dialogue Lab: Auf eine rhetorische Frage antworten",
     summary: "Respond to reproach questions in a flatshare conflict: de-escalate, answer literally on purpose, or turn the question back.",
     duration: "18 min",
     sections: [
@@ -221,7 +221,7 @@ export const DE_C2_U20: Lesson[] = [
         body: [
           "Mia and Jonas share a flat in Hamburg. Mia comes home to a full sink. Mia: \"Wie oft soll ich das eigentlich noch sagen? Kannst du nicht ein einziges Mal abwaschen?\" Jonas has three options. The first is de-escalation (\"Deeskalation\").",
           "Jonas: \"Du hast recht, das war nicht in Ordnung. Ich hatte eine stressige Woche, aber das ist keine Entschuldigung. Ich mach's gleich.\" He acknowledges the feeling (\"Du hast recht\"), takes responsibility without excuses, and offers action. \"Das ist keine Entschuldigung\" (that's no excuse) prevents his explanation from sounding like one.",
-          "Useful de-escalating phrases: \"Ich verstehe, dass dich das nervt\", \"Das kann ich nachvollziehen\", \"Lass uns in Ruhe darüber reden\", \"Was können wir ändern, damit das nicht wieder passiert?\". Note that Jonas says \"Ich mach's gleich\": in speech, \"mache es\" contracts to mach's (with an apostrophe).",
+          "Useful de-escalating phrases: \"Ich verstehe, dass dich das nervt\", \"Das kann ich nachvollziehen\", \"Lass uns in Ruhe darüber reden\", \"Was können wir ändern, damit das nicht wieder passiert?\". Note that Jonas says \"Ich mach's gleich\": in speech, \"mache es\" contracts to \"mach's\" (with an apostrophe).",
         ],
         examples: [
           { es: "Kannst du nicht ein einziges Mal abwaschen?", en: "Can't you do the washing-up just once?" },
@@ -413,7 +413,7 @@ export const DE_C2_U20: Lesson[] = [
         type: "speak",
         text: "Du hast recht, das war nicht in Ordnung. Ich mach's gleich.",
         prompt: "De-escalate in German: You're right, that wasn't OK. I'll do it right away.",
-        tip: "Mach's: the apostrophe swallows the e of es; say it as one syllable.",
+        tip: "In \"mach's\" the apostrophe swallows the e of \"es\"; say it as one syllable.",
         explanation: "Acknowledge, take responsibility, act.",
       },
     ],
@@ -423,7 +423,7 @@ export const DE_C2_U20: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Rhetorische Fragen und Emphase, Part 6 of 7",
-    summary: "Frame the central question of an essay (die Fragestellung): Es stellt sich die Frage, ob...; Inwiefern...?; Zu klären ist, ...; indirect questions with verb-final order, and the guiding question of a Mastery-level essay.",
+    summary: "Frame the central question of an essay (\"die Fragestellung\") with \"Es stellt sich die Frage, ob...\", \"Inwiefern...?\" and \"Zu klären ist, ...\", using indirect questions with verb-final order, and write the guiding question of a Mastery-level essay.",
     duration: "18 min",
     sections: [
       {
@@ -431,7 +431,7 @@ export const DE_C2_U20: Lesson[] = [
         body: [
           "\"Die Fragestellung\" is the central question an essay or thesis answers. German academic and exam essays state it explicitly, usually in the introduction, with an indirect question: \"Es stellt sich die Frage, ob...\" (the question arises whether), \"Daraus ergibt sich die Frage, inwiefern...\" (this raises the question to what extent), \"Im Mittelpunkt steht die Frage, wie...\".",
           "Indirect questions have verb-final order: \"Es stellt sich die Frage, ob die Viertagewoche die Produktivität steigert.\" Yes/no questions use \"ob\" (never \"wenn\" or \"dass\"); open questions keep the w-word: \"..., wie / warum / inwiefern / unter welchen Bedingungen...\".",
-          "Trap: English if in indirect questions is \"ob\", not \"wenn\". \"Ich weiß nicht, wenn er kommt\" is wrong; it must be \"Ich weiß nicht, ob er kommt.\" This is a frequent error even at advanced level.",
+          "Trap: English 'if' in indirect questions is \"ob\", not \"wenn\". \"Ich weiß nicht, wenn er kommt\" is wrong; it must be \"Ich weiß nicht, ob er kommt.\" This is a frequent error even at advanced level.",
         ],
         examples: [
           { es: "Es stellt sich die Frage, ob die Viertagewoche die Produktivität steigert.", en: "The question arises whether the four-day week increases productivity." },
@@ -455,7 +455,7 @@ export const DE_C2_U20: Lesson[] = [
             question: "Which sentence is correct?",
             options: ["Ich weiß nicht, ob er heute kommt.", "Ich weiß nicht, wenn er heute kommt.", "Ich weiß nicht, dass er heute kommt.", "Ich weiß nicht, ob kommt er heute."],
             correctIndex: 0,
-            explanation: "If in an indirect question is \"ob\", with the verb at the end.",
+            explanation: "'If' in an indirect question is \"ob\", with the verb at the end; \"wenn\" is conditional and \"dass\" states a fact.",
           },
         ],
       },
@@ -503,9 +503,9 @@ export const DE_C2_U20: Lesson[] = [
       {
         heading: "The guiding question of a Mastery-level essay",
         body: [
-          "In the Goethe C2 Schreiben, you often write an essay or commentary on a statement. A strong introduction moves from a hook to the Fragestellung: \"Kaum ein Thema wird derzeit so leidenschaftlich diskutiert wie das Tempolimit auf Autobahnen. Befürworter verweisen auf die Sicherheit, Gegner auf die Freiheit. Es stellt sich daher die Frage, ob ein generelles Tempolimit sinnvoll ist und, wenn ja, unter welchen Bedingungen.\"",
+          "In the Goethe C2 Schreiben, you often write an essay or commentary on a statement. A strong introduction moves from a hook to the \"Fragestellung\": \"Kaum ein Thema wird derzeit so leidenschaftlich diskutiert wie das Tempolimit auf Autobahnen. Befürworter verweisen auf die Sicherheit, Gegner auf die Freiheit. Es stellt sich daher die Frage, ob ein generelles Tempolimit sinnvoll ist und, wenn ja, unter welchen Bedingungen.\"",
           "Then announce the structure: \"Im Folgenden werden zunächst die Argumente der Befürworter erläutert, anschließend die Einwände der Gegner geprüft, bevor abschließend eine eigene Position entwickelt wird.\"",
-          "Pitfalls: a direct question as the only Fragestellung can sound journalistic (\"Brauchen wir ein Tempolimit?\"); combine it with an indirect formulation. Make sure the conclusion answers exactly the question you asked: \"Die eingangs gestellte Frage lässt sich daher wie folgt beantworten: ...\"",
+          "Pitfalls: a direct question as the only \"Fragestellung\" can sound journalistic (\"Brauchen wir ein Tempolimit?\"); combine it with an indirect formulation. Make sure the conclusion answers exactly the question you asked: \"Die eingangs gestellte Frage lässt sich daher wie folgt beantworten: ...\"",
         ],
         examples: [
           { es: "Kaum ein Thema wird derzeit so leidenschaftlich diskutiert wie das Tempolimit.", en: "Hardly any topic is currently debated as passionately as the speed limit." },
@@ -574,7 +574,7 @@ export const DE_C2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which Fragestellung best suits a Mastery-level argumentative essay?",
+        question: "Which \"Fragestellung\" best suits a Mastery-level argumentative essay?",
         options: [
           "Es stellt sich die Frage, ob ein generelles Tempolimit sinnvoll ist und unter welchen Bedingungen.",
           "Tempolimit: ja oder nein?",
@@ -607,6 +607,7 @@ export const DE_C2_U20: Lesson[] = [
         prompt: "Put the words in order to say: Finally, a position of my own is developed.",
         words: ["Abschließend", "wird", "eine", "eigene", "Position", "entwickelt."],
         translation: "Finally, a position of my own is developed.",
+        altOrders: [["Eine", "eigene", "Position", "wird", "abschließend", "entwickelt."]],
         explanation: "Passive with \"wird ... entwickelt\" keeps the author impersonal.",
       },
       {
@@ -618,7 +619,7 @@ export const DE_C2_U20: Lesson[] = [
         type: "speak",
         text: "Es stellt sich daher die Frage, ob ein generelles Tempolimit sinnvoll ist.",
         prompt: "Say it in German: The question therefore arises whether a general speed limit makes sense.",
-        explanation: "The standard Fragestellung formula with \"daher\" linking it to the hook.",
+        explanation: "The standard \"Fragestellung\" formula with \"daher\" linking it to the hook.",
       },
     ],
   },
@@ -627,13 +628,13 @@ export const DE_C2_U20: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Real-World Mission: Eine Einminütige Rede",
-    summary: "Write and deliver a one-minute speech for a local Bürgerinitiative: open with a question, build emphasis, and end with an appeal.",
+    summary: "Write and deliver a one-minute speech for a local \"Bürgerinitiative\" (citizens' action group): open with a question, build emphasis, and end with an appeal.",
     duration: "20 min",
     sections: [
       {
-        heading: "Your mission: save the Stadtpark",
+        heading: "Your mission: save the \"Stadtpark\"",
         body: [
-          "A Bürgerinitiative (citizens' action group) in Köln-Ehrenfeld is fighting a plan to turn part of a small park into a car park. You have one minute at a public meeting: about 130 to 150 spoken words. That's enough for an opening, two arguments and an appeal, nothing more.",
+          "A \"Bürgerinitiative\" (citizens' action group) in Köln-Ehrenfeld is fighting a plan to turn part of a small park into a car park. You have one minute at a public meeting: about 130 to 150 spoken words. That's enough for an opening, two arguments and an appeal, nothing more.",
           "Plan in four steps: (1) \"Einstieg\": a question or a vivid image, (2) \"Kernaussage\": your position in one sentence, (3) two concrete arguments, (4) \"Appell\": what the audience should do (sign, come, vote). In one minute, every sentence must do work.",
           "The address: at a citizens' meeting, \"Liebe Nachbarinnen und Nachbarn\" (dear neighbours) or \"Liebe Ehrenfelderinnen und Ehrenfelder\" sounds warmer than \"Meine Damen und Herren\".",
         ],
@@ -823,7 +824,7 @@ export const DE_C2_U20: Lesson[] = [
         type: "speak",
         text: "Nie war es so wichtig wie jetzt, dass wir uns gemeinsam für unser Viertel einsetzen.",
         prompt: "End your speech in German: It has never been as important as now that we stand up together for our neighbourhood.",
-        tip: "Slow down, stress NIE and JETZT, and end on a falling tone.",
+        tip: "Slow down, stress \"nie\" and \"jetzt\", and end on a falling tone.",
         explanation: "Emphatic \"Nie war es...\" with a clear appeal at the end.",
       },
     ],
@@ -833,7 +834,7 @@ export const DE_C2_U20: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Rhetorische Fragen und Emphase, Part 7 of 7",
-    summary: "Emphatic inversion and fronting (Nie zuvor war..., Kaum hatte..., da..., Erst jetzt wird klar, dass..., Nicht nur ..., sondern...), questions in political speeches, and how journalists challenge them.",
+    summary: "Use emphatic fronting (\"Nie zuvor war...\", \"Kaum hatte..., da...\", \"Erst jetzt wird klar, dass...\", \"Nicht nur ..., sondern...\"), spot the questions in political speeches, and challenge them as journalists do.",
     duration: "18 min",
     sections: [
       {
@@ -889,7 +890,7 @@ export const DE_C2_U20: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, starting with Kaum.",
+            prompt: "Translate into German, starting with \"Kaum\".",
             source: "Hardly had the minister stepped on stage when the protests began.",
             answer: "Kaum hatte der Minister die Bühne betreten, da begannen die Proteste.",
             altAnswers: ["Kaum hatte der Minister die Bühne betreten, als die Proteste begannen.", "Kaum hatte die Ministerin die Bühne betreten, da begannen die Proteste.", "Kaum hatte die Ministerin die Bühne betreten, als die Proteste begannen.", "Kaum hatte der Minister die Bühne betreten, da fingen die Proteste an."],
@@ -907,8 +908,8 @@ export const DE_C2_U20: Lesson[] = [
           {
             type: "speak",
             text: "Kaum hatte der Minister die Bühne betreten, da begannen die Proteste.",
-            tip: "Pause slightly after betreten, then speed up: the structure tells a sudden event.",
-            explanation: "The kaum-da structure dramatises how quickly one event followed another.",
+            tip: "Pause slightly after \"betreten\", then speed up: the structure tells of a sudden event.",
+            explanation: "The \"kaum ... da\" structure dramatises how quickly one event followed another.",
           },
         ],
       },
@@ -969,7 +970,7 @@ export const DE_C2_U20: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Not [once] did he apologise.",
+        en: "Not [a single] time did he apologise.",
         sentence: "Kein ___ Mal hat er sich entschuldigt.",
         answer: "einziges",
         explanation: "\"Kein einziges Mal\" (not a single time) fronted for emphasis.",
@@ -1029,7 +1030,7 @@ export const DE_C2_U20: Lesson[] = [
         type: "speak",
         text: "Nie zuvor war die Arbeitslosigkeit so niedrig.",
         prompt: "Say it in German: Never before has unemployment been so low.",
-        tip: "Stress NIE and NIEDRIG; the fronted adverb carries the emphasis.",
+        tip: "Stress \"nie\" and \"niedrig\"; the fronted adverb carries the emphasis.",
         explanation: "Emphatic fronting with verb-second order.",
       },
     ],
@@ -1038,7 +1039,7 @@ export const DE_C2_U20: Lesson[] = [
     slug: "c2-rhetorical-figures-spiral",
     level: "DE-C2",
     number: 6,
-    title: "Spiral Review: Die Rhetorischen Figuren",
+    title: "Spiral Review: Die rhetorischen Figuren",
     summary: "Recombine metaphor, anaphora, tricolon, rhetorical questions and emphasis by analysing a speech passage and then writing one of your own.",
     duration: "18 min",
     sections: [
@@ -1237,7 +1238,7 @@ export const DE_C2_U20: Lesson[] = [
         type: "speak",
         text: "Was brauchen junge Menschen? Einen Ort. Einen Ort zum Lernen, einen Ort zum Streiten, einen Ort zum Träumen.",
         prompt: "Say it in German: What do young people need? A place. A place to learn, a place to argue, a place to dream.",
-        tip: "Pause after Einen Ort, then let each part of the tricolon rise a little.",
+        tip: "Pause after \"Einen Ort\", then let each part of the tricolon rise a little.",
         explanation: "Hypophora, anaphora and tricolon in one breath group.",
       },
     ],
@@ -1247,19 +1248,19 @@ export const DE_C2_U20: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Mastery Vocabulary: Fine Economic Vocabulary",
-    summary: "Talk about the economy with precision: Konjunktur, Aufschwung, Abschwung, Rezession, Kaufkraft, Inflation vs Teuerung, Wertschöpfung, Bruttoinlandsprodukt, Haushaltsdefizit and Schuldenbremse.",
+    summary: "Talk about the economy with precision: the business cycle (\"Konjunktur\", \"Aufschwung\", \"Rezession\"), prices and purchasing power (\"Inflation\" vs \"Teuerung\", \"Kaufkraft\", \"Wertschöpfung\") and public finances (\"Haushaltsdefizit\", \"Schuldenbremse\").",
     duration: "18 min",
     sections: [
       {
         heading: "The business cycle: Konjunktur, Aufschwung, Rezession",
         body: [
           "\"Die Konjunktur\" is the state of the economy over the business cycle, a false friend of conjuncture: \"Die Konjunktur zieht an\" (the economy is picking up), \"Die Konjunktur schwächelt\" (is weakening), \"konjunkturelle Flaute\" (economic lull). \"Das Konjunkturpaket\" is a stimulus package.",
-          "\"Der Aufschwung\" (upswing, recovery), \"der Abschwung\" (downswing), \"die Rezession\" (recession: technically two quarters of shrinking output), \"die Stagnation\". \"Das Bruttoinlandsprodukt\" (BIP, gross domestic product) \"wächst\", \"schrumpft\" (shrinks) or \"stagniert\".",
-          "Economists hedge: \"Die Wirtschaft dürfte im nächsten Jahr leicht wachsen\" (is likely to grow slightly). \"Dürfte\" (Konjunktiv II of dürfen) expresses probability and is everywhere in economic forecasts.",
+          "\"Der Aufschwung\" (upswing, recovery), \"der Abschwung\" (downswing), \"die Rezession\" (recession: by the usual rule of thumb, two consecutive quarters of shrinking output), \"die Stagnation\". \"Das Bruttoinlandsprodukt\" (BIP, gross domestic product) \"wächst\", \"schrumpft\" (shrinks) or \"stagniert\".",
+          "Economists hedge: \"Die Wirtschaft dürfte im nächsten Jahr leicht wachsen\" (is likely to grow slightly). \"Dürfte\" (Konjunktiv II of \"dürfen\") expresses probability and is everywhere in economic forecasts.",
         ],
         examples: [
           { es: "Die Konjunktur zieht langsam wieder an.", en: "The economy is slowly picking up again." },
-          { es: "Im zweiten Quartal schrumpfte das Bruttoinlandsprodukt um 0,3 Prozent.", en: "In the second quarter GDP shrank by 0.3 percent." },
+          { es: "Im zweiten Quartal schrumpfte das Bruttoinlandsprodukt um 0,3 Prozent.", en: "In the second quarter GDP shrank by 0.3 per cent." },
           { es: "Ökonomen rechnen mit einem Abschwung im Winter.", en: "Economists expect a downturn in the winter." },
           { es: "Deutschland ist knapp an einer Rezession vorbeigeschrammt.", en: "Germany narrowly escaped a recession." },
           { es: "Die Wirtschaft dürfte im nächsten Jahr leicht wachsen.", en: "The economy is likely to grow slightly next year." },
@@ -1292,7 +1293,7 @@ export const DE_C2_U20: Lesson[] = [
           "\"Die Wertschöpfung\" (value creation, value added) is what an industry adds to the economy: \"Die Autoindustrie trägt einen großen Teil zur Wertschöpfung bei.\" \"Die Wertschöpfungskette\" is the value chain.",
         ],
         examples: [
-          { es: "Die Inflationsrate lag im März bei 2,4 Prozent.", en: "The inflation rate was 2.4 percent in March." },
+          { es: "Die Inflationsrate lag im März bei 2,4 Prozent.", en: "The inflation rate was 2.4 per cent in March." },
           { es: "Die Teuerung bei Lebensmitteln ist besonders spürbar.", en: "Rising food prices are particularly noticeable." },
           { es: "Die Inflation frisst die Kaufkraft auf.", en: "Inflation eats up purchasing power." },
           { es: "Trotz Lohnerhöhungen sanken die Reallöhne.", en: "Despite pay rises, real wages fell." },
@@ -1320,7 +1321,7 @@ export const DE_C2_U20: Lesson[] = [
           {
             type: "speak",
             text: "Die Inflationsrate lag im März bei zwei Komma vier Prozent.",
-            tip: "German reads decimals with Komma: zwei Komma vier.",
+            tip: "German reads decimals with \"Komma\": \"zwei Komma vier\".",
             explanation: "\"Liegen bei\" for a value; decimal comma read aloud as \"Komma\".",
           },
         ],
@@ -1329,7 +1330,7 @@ export const DE_C2_U20: Lesson[] = [
         heading: "Public finances: Haushaltsdefizit, Schuldenbremse",
         body: [
           "\"Der Haushalt\" is a public budget (\"der Bundeshaushalt\"); \"das Haushaltsdefizit\" is the deficit, \"der Haushaltsüberschuss\" a surplus, \"die Staatsverschuldung\" public debt, \"neue Schulden aufnehmen\" to take on new debt.",
-          "\"Die Schuldenbremse\" (debt brake) is a rule in the German Basic Law (\"im Grundgesetz verankert\") that limits the federal structural deficit to 0.35 % of GDP. Debates about \"die Schuldenbremse lockern / reformieren / aussetzen\" (loosen / reform / suspend) dominate German budget politics.",
+          "\"Die Schuldenbremse\" (debt brake) is a rule in the German Basic Law (\"im Grundgesetz verankert\") that limits the federal structural deficit to 0.35 % of GDP (a 2025 amendment exempts defence spending above 1 % of GDP). Debates about \"die Schuldenbremse lockern / reformieren / aussetzen\" (loosen / reform / suspend) dominate German budget politics.",
           "\"Die schwarze Null\" (the black zero) was the political slogan for a balanced budget with no new debt. \"Sparen\" (to save, cut spending) and \"investieren\" stand on opposite sides of this debate.",
         ],
         examples: [
@@ -1374,7 +1375,7 @@ export const DE_C2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "In the second quarter GDP shrank by 0.3 percent.",
+        source: "In the second quarter GDP shrank by 0.3 per cent.",
         answer: "Im zweiten Quartal schrumpfte das Bruttoinlandsprodukt um 0,3 Prozent.",
         altAnswers: ["Im zweiten Quartal schrumpfte das BIP um 0,3 Prozent.", "Im zweiten Quartal ist das Bruttoinlandsprodukt um 0,3 Prozent geschrumpft.", "Im zweiten Quartal ist das BIP um 0,3 Prozent geschrumpft.", "Das Bruttoinlandsprodukt schrumpfte im zweiten Quartal um 0,3 Prozent."],
         explanation: "\"Um\" for the change; decimal comma \"0,3\". \"Schrumpfen\" takes \"sein\" in the Perfekt.",
@@ -1385,7 +1386,6 @@ export const DE_C2_U20: Lesson[] = [
         en: "The opposition is calling for the debt brake to be [loosened].",
         sentence: "Die Opposition fordert, die Schuldenbremse zu ___.",
         answer: "lockern",
-        altAnswers: ["reformieren", "aussetzen"],
         explanation: "\"Lockern\" (to loosen) is the standard verb in the debt brake debate.",
       },
       {
@@ -1450,14 +1450,14 @@ export const DE_C2_U20: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Mastery Vocabulary: The Scientific Method",
-    summary: "Describe research precisely: eine Hypothese aufstellen, überprüfen, verifizieren, falsifizieren, die Versuchsanordnung, die Stichprobe, die Kontrollgruppe, signifikant, Korrelation vs Kausalität, der Messfehler.",
+    summary: "Describe research precisely: how hypotheses are formulated, tested and falsified (\"eine Hypothese aufstellen\", \"falsifizieren\"), how a study is designed (\"die Stichprobe\", \"die Kontrollgruppe\") and how results are judged (\"signifikant\", \"Korrelation\" vs \"Kausalität\", \"der Messfehler\").",
     duration: "18 min",
     sections: [
       {
         heading: "Hypotheses: aufstellen, überprüfen, falsifizieren",
         body: [
           "The verbs come in fixed pairs: \"eine Hypothese aufstellen\" (to formulate), \"überprüfen\" or \"testen\" (to test), \"bestätigen\" (to confirm), \"verwerfen\" (to reject), \"widerlegen\" (to refute). \"Die Hypothese hat sich bestätigt\" (the hypothesis was confirmed) is reflexive.",
-          "\"Verifizieren\" (to prove true) and \"falsifizieren\" (to prove false) come from Karl Popper's philosophy of science: a scientific hypothesis must be \"falsifizierbar\" (falsifiable). In everyday German \"verifizieren\" also means to check or confirm (\"eine Identität verifizieren\").",
+          "\"Falsifizieren\" (to prove false), as opposed to \"verifizieren\" (to prove true), is the key term of Karl Popper's philosophy of science: a scientific hypothesis must be \"falsifizierbar\" (falsifiable). In everyday German \"verifizieren\" also means to check or confirm (\"eine Identität verifizieren\").",
           "\"Die Nullhypothese\" is the null hypothesis: \"Die Nullhypothese wird verworfen\" (rejected) when the result is significant. \"Verwerfen\" is strong: verwarf, verworfen.",
         ],
         examples: [
@@ -1644,7 +1644,7 @@ export const DE_C2_U20: Lesson[] = [
         type: "speak",
         text: "Der Unterschied zwischen den Gruppen ist statistisch signifikant.",
         prompt: "Say it in German: The difference between the groups is statistically significant.",
-        tip: "Signifikant: si-gni-fi-KANT, with the stress on the last syllable.",
+        tip: "\"Signifikant\": sig-ni-fi-KANT, with the stress on the last syllable.",
         explanation: "\"Signifikant\" in its strict statistical sense.",
       },
     ],
@@ -1653,7 +1653,7 @@ export const DE_C2_U20: Lesson[] = [
 
 export const DE_C2_U20_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Write the introduction and the conclusion of a Mastery-level essay on the question of whether Germany should loosen its debt brake to invest more in schools and infrastructure. The introduction should open with a hook, frame a precise Fragestellung with an indirect question and announce the structure; the conclusion should answer the question, using emphatic word order and at most one or two rhetorical questions.",
+  prompt: "Write the introduction and the conclusion of a Mastery-level essay on the question of whether Germany should loosen its debt brake to invest more in schools and infrastructure. The introduction should open with a hook, frame a precise \"Fragestellung\" with an indirect question and announce the structure; the conclusion should answer the question, using emphatic word order and at most one or two rhetorical questions.",
   minWords: 250,
   maxWords: 400,
   rubric: [

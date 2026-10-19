@@ -100,10 +100,9 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The station is new.",
+        source: "The ward is new. (in a hospital)",
         answer: "Die Station ist neu.",
-        altAnswers: ["Der Bahnhof ist neu.", "Die Haltestelle ist neu."],
-        explanation: "-ion → feminine: \"die Station\". A railway station is usually \"der Bahnhof\".",
+        explanation: "-ion → feminine: \"die Station\", which in German usually means a hospital ward or a stop in a series. A railway station is \"der Bahnhof\".",
       },
       {
         type: "translate",
@@ -348,7 +347,7 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
       {
         heading: "Recap: from noun to pronoun",
         body: [
-          "Name a thing with its article, then refer back with the matching pronoun: der → er, die → sie, das → es, plural → sie (with sind). Adjectives after sein never change; jobs after sein have no article.",
+          "Name a thing with its article, then refer back with the matching pronoun: \"der\" → \"er\", \"die\" → \"sie\", \"das\" → \"es\", plural → \"sie\" (with \"sind\"). Adjectives after sein never change; jobs after sein have no article.",
         ],
         examples: [
           { es: "Der Kühlschrank? Er ist leer.", en: "The fridge? It's empty." },
@@ -429,9 +428,9 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The girl is six. She's very clever.",
-        answer: "Das Mädchen ist sechs. Es ist sehr klug.",
-        altAnswers: ["Das Mädchen ist sechs. Sie ist sehr klug.", "Das Mädchen ist sechs Jahre alt. Es ist sehr klug.", "Das Mädchen ist sechs Jahre alt. Sie ist sehr klug."],
+        source: "The girl is from Bonn. She's very clever.",
+        answer: "Das Mädchen ist aus Bonn. Es ist sehr klug.",
+        altAnswers: ["Das Mädchen ist aus Bonn. Sie ist sehr klug."],
         explanation: "Grammar says \"es\" for \"das Mädchen\"; in everyday speech many Germans say \"sie\". Both are accepted.",
       },
       {
@@ -477,7 +476,7 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend asks about your new flat: 'Und die Wohnung?' You want to say it's bright and quiet. What do you say?",
+        question: "A friend asks about your new flat: \"Und die Wohnung?\" You want to say it's bright and quiet. What do you say?",
         options: ["Sie ist hell und ruhig.", "Es ist hell und ruhig.", "Er ist hell und ruhig.", "Sie ist helle und ruhige."],
         correctIndex: 0,
         explanation: "\"Die Wohnung\" → \"sie\"; no endings on adjectives after sein.",
@@ -530,7 +529,7 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
           { es: "Sie sind Ärzte.", en: "They're doctors." },
           { es: "Sind Sie Ärztin?", en: "Are you a doctor? (polite, to a woman)" },
           { es: "Lena und Jonas? Sie sind in Köln.", en: "Lena and Jonas? They're in Cologne." },
-          { es: "Herr Becker, Sie sind zu spät!", en: "Mr Becker, you're late!" },
+          { es: "Herr Becker, Sie sind sehr nett!", en: "Mr Becker, you're very kind!" },
         ],
         checkpoint: [
           {
@@ -631,8 +630,8 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Mr and Mrs Becker, [you are] late!",
-        sentence: "Herr und Frau Becker, ___ zu spät!",
+        en: "Mr and Mrs Becker, [you are] very funny!",
+        sentence: "Herr und Frau Becker, ___ sehr lustig!",
         answer: "Sie sind",
         explanation: "Polite Sie is the same for one or several people; capital S mid-sentence.",
       },
@@ -646,7 +645,7 @@ export const DE_A1_U01_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In the sentence 'Herr Becker, Sie sind sehr lustig', what does 'Sie sind' mean?",
+        question: "In the sentence \"Herr Becker, Sie sind sehr lustig.\", what does \"Sie sind\" mean?",
         options: ["you are (polite)", "they are", "she is", "we are"],
         correctIndex: 0,
         explanation: "You're speaking to Herr Becker, and the capital S mid-sentence marks polite you.",

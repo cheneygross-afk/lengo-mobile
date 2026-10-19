@@ -15,7 +15,7 @@ export const DE_A2_U14: Lesson[] = [
         heading: "Weil: the verb goes to the end",
         body: [
           "So far every German statement has had its verb in second place. A subordinate clause breaks that rule: after a conjunction like \"weil\" (because), the conjugated verb goes to the very end of the clause. \"Ich bleibe zu Hause, weil ich krank bin\" (I'm staying at home because I'm ill).",
-          "English keeps the normal order after because (because I am ill), so the classic English-speaker mistake is *weil ich bin krank. Train your ear: in a weil-clause you wait for the verb, and it arrives last.",
+          "English keeps the normal order after because (because I am ill), so the classic English-speaker mistake is \"*weil ich bin krank\". Train your ear: in a weil-clause you wait for the verb, and it arrives last.",
           "There is always a comma before the clause. German commas are grammar, not breathing pauses: every subordinate clause is fenced off with one.",
         ],
         examples: [
@@ -33,7 +33,8 @@ export const DE_A2_U14: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm staying at home because I'm ill.",
             answer: "Ich bleibe zu Hause, weil ich krank bin.",
-            explanation: "After \"weil\" the conjugated verb goes to the end: \"weil ich krank bin\", not *weil ich bin krank.",
+            altAnswers: ["Ich bleibe zuhause, weil ich krank bin."],
+            explanation: "After \"weil\" the conjugated verb goes to the end: \"weil ich krank bin\", not \"*weil ich bin krank\".",
           },
           {
             type: "word-order",
@@ -48,7 +49,7 @@ export const DE_A2_U14: Lesson[] = [
         heading: "Dass: that, with the verb at the end",
         body: [
           "\"Dass\" (that) introduces what someone thinks, says, knows or hopes: \"Ich glaube, dass er recht hat\" (I think he's right). Again the verb goes to the end, and again there's a comma.",
-          "English often drops that: I think he's right. German can't drop \"dass\" in this pattern; if you leave it out, you must use normal main-clause order instead: \"Ich glaube, er hat recht\". Both are correct; what you can't do is mix them (*dass er hat recht).",
+          "English often drops that: I think he's right. German can't drop \"dass\" in this pattern; if you leave it out, you must use normal main-clause order instead: \"Ich glaube, er hat recht\". Both are correct; what you can't do is mix them (\"*dass er hat recht\").",
           "Typical verbs before \"dass\": \"glauben\", \"denken\", \"finden\" (think, in opinions), \"wissen\", \"sagen\", \"hoffen\", \"meinen\". And a useful phrase: \"Es ist schön, dass du da bist\" (It's nice that you're here).",
         ],
         examples: [
@@ -205,7 +206,7 @@ export const DE_A2_U14: Lesson[] = [
         heading: "Wenn: if and whenever",
         body: [
           "\"Wenn\" introduces a condition (if) or a repeated event (whenever): \"Wir bleiben zu Hause, wenn es regnet\" (We stay at home if/when it rains). Like \"weil\" and \"dass\", it sends the verb to the end.",
-          "\"Wenn\" covers English if and when for things that may or do happen repeatedly or in the future: \"Wenn ich in Berlin bin, besuche ich dich\" (When I'm in Berlin, I'll visit you). One single past event uses \"als\", which comes in Unit 19; for now, use \"wenn\" for the present, the future and habits.",
+          "\"Wenn\" covers English if and when for things that may or do happen repeatedly or in the future: \"Wenn ich in Berlin bin, besuche ich dich\" (When I'm in Berlin, I'll visit you). One single event in the past uses \"als\" instead (you met it in the chunk \"Als ich klein war\"); for now, use \"wenn\" for the present, the future and repeated events.",
         ],
         examples: [
           { es: "Wir bleiben zu Hause, wenn es regnet.", en: "We stay at home if it rains." },
@@ -221,7 +222,7 @@ export const DE_A2_U14: Lesson[] = [
             prompt: "Translate into German.",
             source: "Call me if you've got time.",
             answer: "Ruf mich an, wenn du Zeit hast.",
-            altAnswers: ["Ruft mich an, wenn ihr Zeit habt.", "Rufen Sie mich an, wenn Sie Zeit haben.", "Wenn du Zeit hast, ruf mich an."],
+            altAnswers: ["Ruft mich an, wenn ihr Zeit habt.", "Rufen Sie mich an, wenn Sie Zeit haben.", "Wenn du Zeit hast, ruf mich an.", "Wenn ihr Zeit habt, ruft mich an.", "Wenn Sie Zeit haben, rufen Sie mich an."],
             explanation: "\"Wenn du Zeit hast\": the verb last. \"Anrufen\" is separable, so the imperative is \"Ruf mich an\".",
           },
           {
@@ -238,7 +239,7 @@ export const DE_A2_U14: Lesson[] = [
         heading: "Clause first: verb, comma, verb",
         body: [
           "A subordinate clause can come first. Then the whole clause counts as position 1 of the sentence, and the main clause starts straight away with its verb: \"Wenn ich Zeit habe, komme ich\". You get two verbs side by side around the comma: \"habe, komme\".",
-          "This is the verb-second rule you already know (\"Morgen komme ich\"); the clause just takes the place of \"morgen\". The English-order mistake is *Wenn ich Zeit habe, ich komme. Remember the picture: verb, comma, verb.",
+          "This is the verb-second rule you already know (\"Morgen komme ich\"); the clause just takes the place of \"morgen\". The English-order mistake is \"*Wenn ich Zeit habe, ich komme\". Remember the picture: verb, comma, verb.",
           "It works with every conjunction: \"Weil es regnet, nehmen wir ein Taxi\", \"Dass du kommst, freut mich sehr\".",
         ],
         examples: [
@@ -263,7 +264,7 @@ export const DE_A2_U14: Lesson[] = [
             source: "When I'm tired, I go to bed early.",
             answer: "Wenn ich müde bin, gehe ich früh ins Bett.",
             altAnswers: ["Ich gehe früh ins Bett, wenn ich müde bin."],
-            explanation: "Clause first: \"bin, gehe ich\". Not *Wenn ich müde bin, ich gehe.",
+            explanation: "Clause first: \"bin, gehe ich\". Not \"*Wenn ich müde bin, ich gehe\".",
           },
         ],
       },
@@ -288,11 +289,11 @@ export const DE_A2_U14: Lesson[] = [
             prompt: "Translate into German.",
             source: "I don't know if he's coming.",
             answer: "Ich weiß nicht, ob er kommt.",
-            explanation: "If = whether here, so \"ob\". *wenn er kommt would mean when/if he comes, a condition.",
+            explanation: "If = whether here, so \"ob\". \"*wenn er kommt\" would mean when/if he comes, a condition.",
           },
           {
             type: "multiple-choice",
-            question: "How do you say: Ask Lena whether she's free today.",
+            question: "How do you say: Ask Lena whether she's free today?",
             options: ["Frag Lena, ob sie heute Zeit hat.", "Frag Lena, wenn sie heute Zeit hat.", "Frag Lena, ob hat sie heute Zeit.", "Frag Lena, dass sie heute Zeit hat."],
             correctIndex: 0,
             explanation: "Whether → \"ob\", verb last. With \"wenn\" it would mean ask Lena when she has time.",
@@ -432,7 +433,7 @@ export const DE_A2_U14: Lesson[] = [
       {
         heading: "Answering warum? and starting with the reason",
         body: [
-          "\"Denn\" can only join two clauses; it can't start a sentence or stand alone. So the answer to \"Warum?\" is always \"Weil...\": \"Warum lernst du Deutsch? – Weil ich in Wien arbeite\". *Denn ich arbeite in Wien is wrong as an answer.",
+          "\"Denn\" can only join two clauses; it can't start a sentence or stand alone. So the answer to \"Warum?\" is always \"Weil...\": \"Warum lernst du Deutsch? – Weil ich in Wien arbeite\". \"*Denn ich arbeite in Wien\" is wrong as an answer.",
           "Likewise only \"weil\" can come first: \"Weil ich müde bin, komme ich nicht\". \"Denn\" always comes after the main clause.",
           "You'll hear Germans say \"weil\" with verb-second in casual speech (\"weil, ich hab keine Zeit\"). It's common, but it's not standard: in writing and in the exam, use the verb at the end after \"weil\".",
         ],
@@ -445,10 +446,10 @@ export const DE_A2_U14: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Your friend asks: Warum bist du so spät? Which answer is correct?",
+            question: "Your friend asks: \"Warum bist du so spät?\" Which answer is correct?",
             options: ["Weil der Bus nicht gekommen ist.", "Denn der Bus ist nicht gekommen.", "Weil der Bus ist nicht gekommen.", "Denn der Bus nicht gekommen ist."],
             correctIndex: 0,
-            explanation: "Only \"weil\" can answer warum? on its own, and it sends the auxiliary \"ist\" to the end.",
+            explanation: "Only \"weil\" can answer \"warum?\" on its own, and it sends the auxiliary \"ist\" to the end. \"Denn\" can't start an answer.",
           },
           {
             type: "translate",
@@ -465,7 +466,7 @@ export const DE_A2_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using denn.",
+        prompt: "Translate into German, using \"denn\".",
         source: "We're walking, because the weather's nice.",
         answer: "Wir gehen zu Fuß, denn das Wetter ist schön.",
         altAnswers: ["Wir laufen, denn das Wetter ist schön."],
@@ -474,10 +475,10 @@ export const DE_A2_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using weil.",
+        prompt: "Translate into German, using \"weil\".",
         source: "I'm taking the umbrella because it's raining.",
         answer: "Ich nehme den Regenschirm mit, weil es regnet.",
-        altAnswers: ["Ich nehme den Schirm mit, weil es regnet.", "Weil es regnet, nehme ich den Regenschirm mit.", "Weil es regnet, nehme ich den Schirm mit."],
+        altAnswers: ["Ich nehme den Schirm mit, weil es regnet.", "Weil es regnet, nehme ich den Regenschirm mit.", "Weil es regnet, nehme ich den Schirm mit.", "Ich nehme den Regenschirm, weil es regnet.", "Ich nehme den Schirm, weil es regnet."],
         explanation: "\"Weil es regnet\": verb last. \"Mitnehmen\" is separable: \"nehme ... mit\".",
       },
       {
@@ -486,15 +487,16 @@ export const DE_A2_U14: Lesson[] = [
         prompt: "Translate into German.",
         source: "Why are you learning German? – Because I work in Vienna.",
         answer: "Warum lernst du Deutsch? – Weil ich in Wien arbeite.",
-        altAnswers: ["Warum lernen Sie Deutsch? – Weil ich in Wien arbeite.", "Warum lernt ihr Deutsch? – Weil wir in Wien arbeiten."],
+        altAnswers: ["Warum lernen Sie Deutsch? – Weil ich in Wien arbeite.", "Warum lernt ihr Deutsch? – Weil ich in Wien arbeite."],
         explanation: "A stand-alone answer needs \"weil\", verb last.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using denn.",
+        prompt: "Translate into German, using \"denn\".",
         source: "She's staying at home, because she's ill.",
         answer: "Sie bleibt zu Hause, denn sie ist krank.",
+        altAnswers: ["Sie bleibt zuhause, denn sie ist krank."],
         explanation: "After \"denn\": subject + verb, just like a normal sentence.",
       },
       {
@@ -515,7 +517,7 @@ export const DE_A2_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using weil.",
+        prompt: "Translate into German, using \"weil\".",
         source: "He's not eating anything because he's not hungry.",
         answer: "Er isst nichts, weil er keinen Hunger hat.",
         altAnswers: ["Er isst nichts, weil er nicht hungrig ist."],
@@ -539,7 +541,7 @@ export const DE_A2_U14: Lesson[] = [
       {
         type: "speak",
         text: "Ich komme nicht, denn ich bin müde.",
-        prompt: "Say it in German, using denn: I'm not coming, because I'm tired.",
+        prompt: "Say it in German, using \"denn\": I'm not coming, because I'm tired.",
         explanation: "\"Denn\" + normal word order.",
       },
     ],
@@ -548,7 +550,7 @@ export const DE_A2_U14: Lesson[] = [
     slug: "a2-pattern-verb-final-complex",
     level: "DE-A2",
     number: 4,
-    title: "Pattern Practice: Weil Ich Früh Aufstehe, Dass Er Angerufen Hat",
+    title: "Pattern Practice: Weil ich früh aufstehe, Dass er angerufen hat",
     summary: "Drill verb-final order with separable verbs, the Perfekt and modal verbs until weil ich früh aufstehe and dass er angerufen hat feel natural.",
     duration: "13 min",
     sections: [
@@ -588,7 +590,7 @@ export const DE_A2_U14: Lesson[] = [
         heading: "Perfekt: the auxiliary goes last",
         body: [
           "In a main clause the Perfekt is a bracket: \"Er hat angerufen\". In a subordinate clause the conjugated verb, which is the auxiliary \"hat\" or \"ist\", jumps to the very end, behind the participle: \"dass er angerufen hat\", \"weil sie nach Hause gegangen ist\".",
-          "Learners often leave the auxiliary in second place (*dass er hat angerufen). Think of it as a rule with no exceptions at the Elementary level: the conjugated verb is the last word of the clause.",
+          "Learners often leave the auxiliary in second place (\"*dass er hat angerufen\"). Think of it as a rule with no exceptions at the Elementary level: the conjugated verb is the last word of the clause.",
         ],
         examples: [
           { es: "Ich weiß, dass er gestern angerufen hat.", en: "I know he called yesterday." },
@@ -761,7 +763,7 @@ export const DE_A2_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Join with weil: Sie ist nervös. Sie hat morgen ein Vorstellungsgespräch. (She's nervous because she has a job interview tomorrow.)",
+            prompt: "Join with \"weil\": \"Sie ist nervös. Sie hat morgen ein Vorstellungsgespräch.\" (She's nervous because she has a job interview tomorrow.)",
             source: "She's nervous because she has a job interview tomorrow.",
             answer: "Sie ist nervös, weil sie morgen ein Vorstellungsgespräch hat.",
             explanation: "\"Hat\" moves from second place to the end of the weil-clause.",
@@ -769,7 +771,7 @@ export const DE_A2_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Join with dass: Er kommt morgen. Das hat er gesagt. (He said he's coming tomorrow.)",
+            prompt: "Join with \"dass\": \"Er kommt morgen. Das hat er gesagt.\" (He said he's coming tomorrow.)",
             source: "He said he's coming tomorrow.",
             answer: "Er hat gesagt, dass er morgen kommt.",
             altAnswers: ["Er sagte, dass er morgen kommt.", "Er hat gesagt, er kommt morgen."],
@@ -794,7 +796,7 @@ export const DE_A2_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Join with ob: Möchte Mia mitkommen? Ich frage sie. (I'll ask Mia if she'd like to come along.)",
+            prompt: "Join with \"ob\": \"Möchte Mia mitkommen? Ich frage sie.\" (I'll ask Mia if she'd like to come along.)",
             source: "I'll ask Mia if she'd like to come along.",
             answer: "Ich frage Mia, ob sie mitkommen möchte.",
             altAnswers: ["Ich frage Mia, ob sie mitkommen will."],
@@ -843,7 +845,7 @@ export const DE_A2_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Join with weil: Ich bin müde. Ich habe schlecht geschlafen. (I'm tired because I slept badly.)",
+        prompt: "Join with \"weil\": \"Ich bin müde. Ich habe schlecht geschlafen.\" (I'm tired because I slept badly.)",
         source: "I'm tired because I slept badly.",
         answer: "Ich bin müde, weil ich schlecht geschlafen habe.",
         explanation: "Perfekt in a weil-clause: \"geschlafen habe\", the auxiliary last.",
@@ -851,7 +853,7 @@ export const DE_A2_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Join with dass: Das Konzert fällt aus. Das steht auf der Website. (It says on the website that the concert is cancelled.)",
+        prompt: "Join with \"dass\": \"Das Konzert fällt aus. Das steht auf der Website.\" (It says on the website that the concert is cancelled.)",
         source: "It says on the website that the concert is cancelled.",
         answer: "Auf der Website steht, dass das Konzert ausfällt.",
         altAnswers: ["Auf der Webseite steht, dass das Konzert ausfällt.", "Es steht auf der Website, dass das Konzert ausfällt."],
@@ -860,7 +862,7 @@ export const DE_A2_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Join with ob: Ist das Restaurant heute offen? Ich weiß es nicht. (I don't know if the restaurant is open today.)",
+        prompt: "Join with \"ob\": \"Ist das Restaurant heute offen? Ich weiß es nicht.\" (I don't know if the restaurant is open today.)",
         source: "I don't know if the restaurant is open today.",
         answer: "Ich weiß nicht, ob das Restaurant heute offen ist.",
         altAnswers: ["Ich weiß nicht, ob das Restaurant heute geöffnet ist.", "Ich weiß nicht, ob das Restaurant heute auf ist."],
@@ -869,7 +871,7 @@ export const DE_A2_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Join with wenn, clause first: Du hast Lust. Dann komm mit! (If you feel like it, come along!)",
+        prompt: "Join with \"wenn\", clause first: \"Du hast Lust. Dann komm mit!\" (If you feel like it, come along!)",
         source: "If you feel like it, come along!",
         answer: "Wenn du Lust hast, komm mit!",
         altAnswers: ["Wenn ihr Lust habt, kommt mit!", "Wenn Sie Lust haben, kommen Sie mit!", "Komm mit, wenn du Lust hast!"],
@@ -878,7 +880,7 @@ export const DE_A2_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, starting with weil.",
+        prompt: "Translate into German, starting with \"weil\".",
         source: "Because the exam is over, we're celebrating today.",
         answer: "Weil die Prüfung vorbei ist, feiern wir heute.",
         explanation: "Weil-clause first, then verb, comma, verb: \"ist, feiern wir\".",
@@ -893,10 +895,10 @@ export const DE_A2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Join the sentences: Er hat angerufen. Ich weiß es. Which is correct?",
+        question: "Join the sentences: \"Er hat angerufen. Ich weiß es.\" Which is correct?",
         options: ["Ich weiß, dass er angerufen hat.", "Ich weiß, dass er hat angerufen.", "Ich weiß, ob er angerufen hat.", "Ich weiß es, dass hat er angerufen."],
         correctIndex: 0,
-        explanation: "A fact you know → \"dass\", and the auxiliary \"hat\" goes after the participle.",
+        explanation: "A fact you know → \"dass\" (not \"ob\", which is for open yes/no questions), and the auxiliary \"hat\" goes after the participle.",
       },
       {
         type: "word-order",
@@ -925,7 +927,7 @@ export const DE_A2_U14: Lesson[] = [
     slug: "a2-indirect-questions",
     level: "DE-A2",
     number: 6,
-    title: "Indirect Questions: Wissen Sie, Wo...?",
+    title: "Indirect Questions: Wissen Sie, wo...?",
     summary: "Ask polite questions like Wissen Sie, wo die Post ist? and Können Sie mir sagen, wann der Zug fährt?, with the verb at the end.",
     duration: "13 min",
     sections: [
@@ -933,7 +935,7 @@ export const DE_A2_U14: Lesson[] = [
         heading: "W-questions inside a sentence",
         body: [
           "A direct question can sound abrupt to a stranger: \"Wo ist die Post?\" Germans often wrap it in a polite frame: \"Wissen Sie, wo die Post ist?\" or \"Können Sie mir sagen, wo die Post ist?\". The W-word now works like a conjunction: it starts a subordinate clause, and the verb goes to the end.",
-          "English does exactly the same thing (Where is the post office? → Do you know where the post office is?), so this should feel familiar. The trap is keeping question order: *Wissen Sie, wo ist die Post? is the most common mistake here.",
+          "English does exactly the same thing (Where is the post office? → Do you know where the post office is?), so this should feel familiar. The trap is keeping question order: \"*Wissen Sie, wo ist die Post?\" is the most common mistake here.",
           "Every W-word works: \"wo, wann, wie, was, wer, warum, wie viel, wie lange, welcher\". And there is always a comma after the frame.",
         ],
         examples: [
@@ -952,7 +954,7 @@ export const DE_A2_U14: Lesson[] = [
             source: "Do you know where the post office is?",
             answer: "Wissen Sie, wo die Post ist?",
             altAnswers: ["Wissen Sie, wo das Postamt ist?", "Können Sie mir sagen, wo die Post ist?"],
-            explanation: "The W-word starts the clause, the verb goes last: \"wo die Post ist\", not *wo ist die Post.",
+            explanation: "The W-word starts the clause, the verb goes last: \"wo die Post ist\", not \"*wo ist die Post\".",
           },
           {
             type: "fill-blank",
@@ -1159,7 +1161,7 @@ export const DE_A2_U14: Lesson[] = [
         heading: "Two s: dass is the conjunction",
         body: [
           "\"Dass\" with double s is only ever the conjunction: it joins a clause to a verb like \"glauben\", \"wissen\", \"sagen\", \"hoffen\", and sends the verb to the end. \"Ich weiß, dass das stimmt\" (I know that that's true): both words in one sentence!",
-          "The difference matters in writing; in speech they sound identical. Before 1996 \"dass\" was spelt \"daß\"; that spelling is now wrong.",
+          "The difference matters in writing; in speech they sound identical. Before the 1996 spelling reform \"dass\" was spelt \"daß\"; that spelling is now wrong.",
           "In English, that does both jobs too: 'I know that' (pronoun, das) vs 'I know that he's here' (conjunction, dass). If a whole clause with a verb at the end follows, it's \"dass\".",
         ],
         examples: [
@@ -1190,7 +1192,7 @@ export const DE_A2_U14: Lesson[] = [
       {
         heading: "The replacement test",
         body: [
-          "If you can replace the word with \"dieses\" (this) or \"welches\" (which), it's \"das\" with one s. If you can't, it's \"dass\". \"Ich finde das gut\" → \"Ich finde dieses gut\" works → \"das\". \"Ich finde, dass er recht hat\" → *dieses er recht hat makes no sense → \"dass\".",
+          "If you can replace the word with \"dieses\" (this) or \"welches\" (which), it's \"das\" with one s. If you can't, it's \"dass\". \"Ich finde das gut\" → \"Ich finde dieses gut\" works → \"das\". \"Ich finde, dass er recht hat\" → \"*dieses er recht hat\" makes no sense → \"dass\".",
           "A second clue: \"dass\" is almost always right after a comma, and the clause it starts ends in a verb. \"Das\" after a comma is usually followed by a noun (\"..., das Auto ist kaputt\") or by its own verb.",
         ],
         examples: [
@@ -1228,7 +1230,6 @@ export const DE_A2_U14: Lesson[] = [
         prompt: "Translate into German.",
         source: "Did you hear that? (to a friend)",
         answer: "Hast du das gehört?",
-        altAnswers: ["Habt ihr das gehört?"],
         explanation: "\"Das\" is the object pronoun: one s.",
       },
       {
@@ -1271,7 +1272,7 @@ export const DE_A2_U14: Lesson[] = [
         en: "I'm glad [that] you're here.",
         sentence: "Ich freue mich, ___ du da bist.",
         answer: "dass",
-        explanation: "A clause with the verb at the end follows → \"dass\". *dieses du da bist makes no sense.",
+        explanation: "A clause with the verb at the end follows → \"dass\". \"*dieses du da bist\" makes no sense.",
       },
       {
         type: "multiple-choice",
@@ -1309,9 +1310,9 @@ export const DE_A2_U14: Lesson[] = [
     duration: "13 min",
     sections: [
       {
-        heading: "*weil ich habe keine Zeit",
+        heading: "\"*weil ich habe keine Zeit\"",
         body: [
-          "The most frequent error of all: keeping English order after a conjunction. *Ich komme nicht, weil ich habe keine Zeit. Fix: \"weil ich keine Zeit habe\". The same with \"dass\" and \"ob\": *dass er ist krank → \"dass er krank ist\", *ob kommt er → \"ob er kommt\".",
+          "The most frequent error of all: keeping English order after a conjunction. \"*Ich komme nicht, weil ich habe keine Zeit\". Fix: \"weil ich keine Zeit habe\". The same with \"dass\" and \"ob\": \"*dass er ist krank\" → \"dass er krank ist\", \"*ob kommt er\" → \"ob er kommt\".",
           "A tip for messages: when you type \"weil\", \"dass\", \"wenn\" or \"ob\", hold the verb in your head until you've written everything else, then add it.",
         ],
         examples: [
@@ -1324,7 +1325,7 @@ export const DE_A2_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Ich komme nicht, weil ich habe keine Zeit. Write it correctly: I'm not coming because I haven't got time.",
+            prompt: "A learner wrote \"*Ich komme nicht, weil ich habe keine Zeit\". Write it correctly: I'm not coming because I haven't got time.",
             source: "I'm not coming because I haven't got time.",
             answer: "Ich komme nicht, weil ich keine Zeit habe.",
             explanation: "After \"weil\" the conjugated verb \"habe\" goes to the end.",
@@ -1332,7 +1333,7 @@ export const DE_A2_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Ich weiß nicht, ob kommt er. Write it correctly: I don't know if he's coming.",
+            prompt: "A learner wrote \"*Ich weiß nicht, ob kommt er\". Write it correctly: I don't know if he's coming.",
             source: "I don't know if he's coming.",
             answer: "Ich weiß nicht, ob er kommt.",
             explanation: "\"Ob\" + subject, verb last. Question order doesn't survive inside the clause.",
@@ -1340,9 +1341,9 @@ export const DE_A2_U14: Lesson[] = [
         ],
       },
       {
-        heading: "*Wenn ich Zeit habe, ich komme",
+        heading: "\"*Wenn ich Zeit habe, ich komme\"",
         body: [
-          "The second classic: after a fronted clause, English speakers put the subject first in the main clause. *Wenn ich Zeit habe, ich komme. In German the clause is position 1, so the verb comes next: \"Wenn ich Zeit habe, komme ich\".",
+          "The second classic: after a fronted clause, English speakers put the subject first in the main clause. \"*Wenn ich Zeit habe, ich komme\". In German the clause is position 1, so the verb comes next: \"Wenn ich Zeit habe, komme ich\".",
           "If you remember one picture from this unit, make it verb, comma, verb: \"habe, komme\"; \"regnet, bleiben\"; \"bin, gehe\".",
         ],
         examples: [
@@ -1355,7 +1356,7 @@ export const DE_A2_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Wenn du fertig bist, wir können gehen. Write it correctly: When you're ready, we can go.",
+            prompt: "A learner wrote \"*Wenn du fertig bist, wir können gehen\". Write it correctly: When you're ready, we can go.",
             source: "When you're ready, we can go.",
             answer: "Wenn du fertig bist, können wir gehen.",
             altAnswers: ["Wenn ihr fertig seid, können wir gehen.", "Wenn Sie fertig sind, können wir gehen."],
@@ -1371,10 +1372,10 @@ export const DE_A2_U14: Lesson[] = [
         ],
       },
       {
-        heading: "*dass er hat angerufen",
+        heading: "\"*dass er hat angerufen\"",
         body: [
-          "The third error hides in the Perfekt and with modals. *Ich glaube, dass er hat angerufen: the conjugated verb is \"hat\", so it must be last: \"dass er angerufen hat\". *weil ich muss arbeiten → \"weil ich arbeiten muss\".",
-          "And separable verbs: *weil ich stehe früh auf → \"weil ich früh aufstehe\" (one word at the end). Three different errors, one rule: the conjugated verb is the last word of the clause.",
+          "The third error hides in the Perfekt and with modals. \"*Ich glaube, dass er hat angerufen\": the conjugated verb is \"hat\", so it must be last: \"dass er angerufen hat\". \"*weil ich muss arbeiten\" → \"weil ich arbeiten muss\".",
+          "And separable verbs: \"*weil ich stehe früh auf\" → \"weil ich früh aufstehe\" (one word at the end). Three different errors, one rule: the conjugated verb is the last word of the clause.",
         ],
         examples: [
           { es: "Ich glaube, dass er angerufen hat.", en: "I think he called." },
@@ -1386,7 +1387,7 @@ export const DE_A2_U14: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Ich glaube, dass er hat angerufen. Write it correctly: I think he called.",
+            prompt: "A learner wrote \"*Ich glaube, dass er hat angerufen\". Write it correctly: I think he called.",
             source: "I think he called.",
             answer: "Ich glaube, dass er angerufen hat.",
             altAnswers: ["Ich glaube, er hat angerufen.", "Ich denke, dass er angerufen hat."],
@@ -1405,7 +1406,7 @@ export const DE_A2_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Sie hat geschrieben, dass sie ist krank. Write it correctly: She wrote that she's ill.",
+        prompt: "A learner wrote \"*Sie hat geschrieben, dass sie ist krank\". Write it correctly: She wrote that she's ill.",
         source: "She wrote that she's ill.",
         answer: "Sie hat geschrieben, dass sie krank ist.",
         altAnswers: ["Sie schrieb, dass sie krank ist.", "Sie hat geschrieben, sie ist krank."],
@@ -1414,7 +1415,7 @@ export const DE_A2_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Wenn es regnet, wir bleiben drinnen. Write it correctly: If it rains, we'll stay inside.",
+        prompt: "A learner wrote \"*Wenn es regnet, wir bleiben drinnen\". Write it correctly: If it rains, we'll stay inside.",
         source: "If it rains, we'll stay inside.",
         answer: "Wenn es regnet, bleiben wir drinnen.",
         altAnswers: ["Wenn es regnet, bleiben wir im Haus.", "Wenn es regnet, bleiben wir zu Hause."],
@@ -1423,7 +1424,7 @@ export const DE_A2_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Ich bin müde, weil ich stehe früh auf. Write it correctly: I'm tired because I get up early.",
+        prompt: "A learner wrote \"*Ich bin müde, weil ich stehe früh auf\". Write it correctly: I'm tired because I get up early.",
         source: "I'm tired because I get up early.",
         answer: "Ich bin müde, weil ich früh aufstehe.",
         explanation: "The separable verb joins up at the end: \"aufstehe\".",
@@ -1439,7 +1440,7 @@ export const DE_A2_U14: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Ich lerne Deutsch, weil meine Frau kommt aus Köln. Write it correctly: I'm learning German because my wife is from Cologne.",
+        prompt: "A learner wrote \"*Ich lerne Deutsch, weil meine Frau kommt aus Köln\". Write it correctly: I'm learning German because my wife is from Cologne.",
         source: "I'm learning German because my wife is from Cologne.",
         answer: "Ich lerne Deutsch, weil meine Frau aus Köln kommt.",
         altAnswers: ["Ich lerne Deutsch, weil meine Frau aus Köln ist."],
@@ -1602,7 +1603,7 @@ export const DE_A2_U14: Lesson[] = [
         source: "The colour really suits you.",
         answer: "Die Farbe steht dir wirklich gut.",
         altAnswers: ["Die Farbe steht Ihnen wirklich gut.", "Die Farbe steht euch wirklich gut.", "Die Farbe steht dir echt gut."],
-        explanation: "\"Stehen\" + dative = to suit.",
+        explanation: "\"Stehen\" + dative = to suit (looks); \"passen\" would be about size.",
       },
       {
         type: "translate",
@@ -1650,7 +1651,7 @@ export const DE_A2_U14: Lesson[] = [
           { left: "der Termin", right: "appointment" },
           { left: "die Größe", right: "size" },
         ],
-        explanation: "Learn each with its article: der Grund, die Ausrede, der Stau, der Termin, die Größe.",
+        explanation: "Learn each with its article: \"der Grund\", \"die Ausrede\", \"der Stau\", \"der Termin\", \"die Größe\".",
       },
       {
         type: "word-order",
@@ -1776,7 +1777,7 @@ export const DE_A2_U14: Lesson[] = [
             source: "That actually happened.",
             answer: "Das ist tatsächlich passiert.",
             altAnswers: ["Das ist wirklich passiert."],
-            explanation: "Actually (in reality) = \"tatsächlich\"; *aktuell means current.",
+            explanation: "Actually (in reality) = \"tatsächlich\"; \"aktuell\" would mean current, a false friend.",
           },
           {
             type: "listen-choose",
@@ -2068,7 +2069,7 @@ export const DE_A2_U14: Lesson[] = [
         prompt: "Put the words in order to say: What does the email say?",
         words: ["Was", "steht", "in", "der", "E-Mail?"],
         translation: "What does the email say?",
-        explanation: "German: what stands in the email?",
+        explanation: "Written text \"steht\" somewhere: literally 'what stands in the email?'. \"Was\" first, the verb \"steht\" second.",
       },
       {
         type: "dictation",

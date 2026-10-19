@@ -40,7 +40,6 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "Do you remember me? (to a friend)",
             answer: "Erinnerst du dich an mich?",
-            altAnswers: ["Erinnert ihr euch an mich?"],
             explanation: "\"Sich erinnern an\" + accusative: \"an mich\".",
           },
         ],
@@ -79,7 +78,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Who's looking after the plants when you're away? (to a friend)",
         answer: "Wer kümmert sich um die Pflanzen, wenn du weg bist?",
-        altAnswers: ["Wer kümmert sich um die Pflanzen, wenn ihr weg seid?", "Wer kümmert sich um die Pflanzen, wenn du nicht da bist?", "Wer kümmert sich um die Pflanzen, wenn du verreist bist?"],
+        altAnswers: ["Wer kümmert sich um die Pflanzen, wenn du nicht da bist?", "Wer kümmert sich um die Pflanzen, wenn du verreist bist?"],
         explanation: "\"Sich kümmern um\" + accusative; in the wenn-clause the verb goes to the end.",
       },
       {
@@ -121,7 +120,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Have you got used to the noise? (to a friend)",
         answer: "Hast du dich an den Lärm gewöhnt?",
-        altAnswers: ["Habt ihr euch an den Lärm gewöhnt?", "Hast du dich schon an den Lärm gewöhnt?"],
+        altAnswers: ["Hast du dich schon an den Lärm gewöhnt?"],
         explanation: "\"Sich gewöhnen an\" + accusative, Perfekt with \"haben\".",
       },
       {
@@ -193,7 +192,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "Thank you for helping me with the move! (to a friend)",
             answer: "Danke, dass du mir beim Umzug geholfen hast!",
-            altAnswers: ["Danke, dass ihr mir beim Umzug geholfen habt!", "Danke für deine Hilfe beim Umzug!", "Danke für eure Hilfe beim Umzug!"],
+            altAnswers: ["Danke für deine Hilfe beim Umzug!"],
             explanation: "\"Helfen bei\" + dative: \"beim Umzug\"; the dass-clause ends with \"geholfen hast\".",
           },
           {
@@ -293,7 +292,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Can you help me with the shopping? (to a friend)",
         answer: "Kannst du mir beim Einkaufen helfen?",
-        altAnswers: ["Könntest du mir beim Einkaufen helfen?", "Könnt ihr mir beim Einkaufen helfen?"],
+        altAnswers: ["Könntest du mir beim Einkaufen helfen?"],
         explanation: "\"Helfen bei\" + dative: \"beim Einkaufen\" (a nominalised verb, neuter).",
       },
       {
@@ -357,7 +356,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
             source: "I've finished the report.",
             answer: "Ich bin mit dem Bericht fertig.",
             altAnswers: ["Ich bin fertig mit dem Bericht."],
-            explanation: "\"Fertig mit\" + dative: \"mit dem Bericht\". Using \"haben\" here (*Ich habe fertig*) is a calque from English.",
+            explanation: "\"Fertig mit\" + dative: \"mit dem Bericht\". Using \"haben\" here (\"*Ich habe fertig\") is a calque from English.",
           },
           {
             type: "speak",
@@ -393,7 +392,6 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Do you fancy a coffee? (to a friend)",
         answer: "Hast du Lust auf einen Kaffee?",
-        altAnswers: ["Habt ihr Lust auf einen Kaffee?"],
         explanation: "\"Lust auf\" + accusative: masculine \"einen Kaffee\".",
       },
       {
@@ -403,7 +401,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
         source: "He's married to a Spanish woman.",
         answer: "Er ist mit einer Spanierin verheiratet.",
         altAnswers: ["Er ist verheiratet mit einer Spanierin."],
-        explanation: "\"Verheiratet mit\" + dative: \"mit einer Spanierin\". Not *verheiratet zu*.",
+        explanation: "\"Verheiratet mit\" + dative: \"mit einer Spanierin\". Not \"*verheiratet zu\".",
       },
       {
         type: "translate",
@@ -666,8 +664,8 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
           "\"An\" splits: accusative with \"denken an\", \"sich erinnern an\", \"sich gewöhnen an\", \"glauben an\", \"schreiben an\" (write to); dative with \"teilnehmen an\", \"leiden an\", \"zweifeln an\", \"interessiert an\", \"arbeiten an\" (work on).",
         ],
         examples: [
-          { es: "Ich denke an den Termin.", en: "I'm remembering the appointment." },
-          { es: "Ich nehme an dem Termin teil.", en: "I'm attending the appointment." },
+          { es: "Ich denke an den Termin.", en: "I haven't forgotten the appointment." },
+          { es: "Ich nehme an dem Treffen teil.", en: "I'm taking part in the meeting." },
           { es: "Sie schreibt einen Brief an ihren Großvater.", en: "She's writing a letter to her grandfather." },
           { es: "Er arbeitet seit Monaten an seinem Buch.", en: "He's been working on his book for months." },
           { es: "Achte bitte auf den Verkehr!", en: "Please watch out for the traffic!" },
@@ -699,7 +697,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm thinking about the meeting.",
         answer: "Ich denke an die Besprechung.",
-        altAnswers: ["Ich denke an das Meeting.", "Ich denke an das Treffen."],
+        altAnswers: ["Ich denke an das Meeting.", "Ich denke an das Treffen.", "Ich denke über die Besprechung nach."],
         explanation: "\"Denken an\" + accusative.",
       },
       {
@@ -1063,7 +1061,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Are you taking part in the trip? (to a friend)",
         answer: "Nimmst du an der Reise teil?",
-        altAnswers: ["Nehmt ihr an der Reise teil?", "Nimmst du am Ausflug teil?", "Nehmt ihr am Ausflug teil?"],
+        altAnswers: ["Nimmst du am Ausflug teil?"],
         explanation: "\"Teilnehmen an\" + dative.",
       },
       {
@@ -1226,7 +1224,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Don't get annoyed! (to a friend)",
         answer: "Ärger dich nicht!",
-        altAnswers: ["Ärgere dich nicht!", "Ärgert euch nicht!", "Ärger dich nicht darüber!", "Ärgere dich nicht darüber!"],
+        altAnswers: ["Ärgere dich nicht!", "Ärger dich nicht darüber!", "Ärgere dich nicht darüber!"],
         explanation: "Imperative of the reflexive verb: \"Ärger(e) dich nicht!\"",
       },
       {
@@ -1251,6 +1249,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm annoyed with myself.",
         answer: "Ich ärgere mich über mich selbst.",
+        altAnswers: ["Ich ärgere mich über mich selber."],
         explanation: "\"Sich ärgern über\" + accusative: \"über mich selbst\".",
       },
       {
@@ -1458,13 +1457,13 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
     number: 10,
     optional: true,
     title: "Extra Practice: Fix the Paragraph, English Prepositions",
-    summary: "Correct a text full of calques from English: *warten für, *abhängen auf, *Angst von.",
+    summary: "Correct a text full of calques from English: warten für, abhängen auf and Angst von become warten auf, abhängen von and Angst vor.",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: the calques to avoid",
         body: [
-          "Jonas wrote this about his job search, translating every preposition from English: *Ich warte für eine Antwort. Es hängt auf der Firma ab. Ich habe Angst von dem Interview. Ich suche für eine neue Stelle. Ich bin stolz von meinem Lebenslauf.*",
+          "Jonas wrote this about his job search, translating every preposition from English: \"*Ich warte für eine Antwort. Es hängt auf der Firma ab. Ich habe Angst von dem Interview. Ich suche für eine neue Stelle. Ich bin stolz von meinem Lebenslauf.\"",
           "Corrected: \"Ich warte auf eine Antwort. Es hängt von der Firma ab. Ich habe Angst vor dem Interview. Ich suche eine neue Stelle. Ich bin stolz auf meinen Lebenslauf.\" Every one of his mistakes came from English for, on, of.",
         ],
         examples: [
@@ -1481,7 +1480,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm waiting for an answer.",
             answer: "Ich warte auf eine Antwort.",
-            explanation: "*warten für* is the calque; German says \"warten auf\" + accusative.",
+            explanation: "\"*Warten für\" is the calque; German says \"warten auf\" + accusative.",
           },
           {
             type: "listen-choose",
@@ -1498,7 +1497,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: *Wir warten für den Bus.* Write the correct German for: We're waiting for the bus.",
+        prompt: "Fix this sentence: \"*Wir warten für den Bus.\" Write the correct German for: We're waiting for the bus.",
         source: "We're waiting for the bus.",
         answer: "Wir warten auf den Bus.",
         explanation: "\"Warten auf\" + accusative, never \"für\".",
@@ -1506,7 +1505,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: *Das hängt auf dem Preis ab.* Write the correct German for: That depends on the price.",
+        prompt: "Fix this sentence: \"*Das hängt auf dem Preis ab.\" Write the correct German for: That depends on the price.",
         source: "That depends on the price.",
         answer: "Das hängt vom Preis ab.",
         altAnswers: ["Das hängt von dem Preis ab.", "Es hängt vom Preis ab."],
@@ -1515,7 +1514,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: *Sie hat Angst von Hunden.* Write the correct German for: She's afraid of dogs.",
+        prompt: "Fix this sentence: \"*Sie hat Angst von Hunden.\" Write the correct German for: She's afraid of dogs.",
         source: "She's afraid of dogs.",
         answer: "Sie hat Angst vor Hunden.",
         explanation: "\"Angst haben vor\" + dative, not \"von\".",
@@ -1523,7 +1522,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: *Ich suche für meine Brille.* Write the correct German for: I'm looking for my glasses.",
+        prompt: "Fix this sentence: \"*Ich suche für meine Brille.\" Write the correct German for: I'm looking for my glasses.",
         source: "I'm looking for my glasses.",
         answer: "Ich suche meine Brille.",
         altAnswers: ["Ich suche nach meiner Brille."],
@@ -1532,7 +1531,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: *Er ist stolz von seiner Tochter.* Write the correct German for: He's proud of his daughter.",
+        prompt: "Fix this sentence: \"*Er ist stolz von seiner Tochter.\" Write the correct German for: He's proud of his daughter.",
         source: "He's proud of his daughter.",
         answer: "Er ist stolz auf seine Tochter.",
         explanation: "\"Stolz auf\" + accusative: \"auf seine Tochter\".",
@@ -1540,7 +1539,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: *Das Team besteht von acht Personen.* Write the correct German for: The team consists of eight people.",
+        prompt: "Fix this sentence: \"*Das Team besteht von acht Personen.\" Write the correct German for: The team consists of eight people.",
         source: "The team consists of eight people.",
         answer: "Das Team besteht aus acht Personen.",
         altAnswers: ["Das Team besteht aus acht Leuten."],
@@ -1549,7 +1548,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: *Ich bin verheiratet zu einem Arzt.* Write the correct German for: I'm married to a doctor.",
+        prompt: "Fix this sentence: \"*Ich bin verheiratet zu einem Arzt.\" Write the correct German for: I'm married to a doctor.",
         source: "I'm married to a doctor.",
         answer: "Ich bin mit einem Arzt verheiratet.",
         altAnswers: ["Ich bin mit einer Ärztin verheiratet.", "Ich bin verheiratet mit einem Arzt.", "Ich bin verheiratet mit einer Ärztin."],
@@ -1558,7 +1557,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: *Ich höre zu der Musik.* Write the correct German for: I'm listening to the music.",
+        prompt: "Fix this sentence: \"*Ich höre zu der Musik.\" Write the correct German for: I'm listening to the music.",
         source: "I'm listening to the music.",
         answer: "Ich höre die Musik.",
         altAnswers: ["Ich höre Musik.", "Ich höre der Musik zu."],
@@ -1567,7 +1566,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: *Er hat für Hilfe gefragt.* Write the correct German for: He asked for help.",
+        prompt: "Fix this sentence: \"*Er hat für Hilfe gefragt.\" Write the correct German for: He asked for help.",
         source: "He asked for help.",
         answer: "Er hat um Hilfe gebeten.",
         altAnswers: ["Er bat um Hilfe."],
@@ -1576,7 +1575,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix this sentence: *Ich denke von dir.* Write the correct German for: I'm thinking of you.",
+        prompt: "Fix this sentence: \"*Ich denke von dir.\" Write the correct German for: I'm thinking of you.",
         source: "I'm thinking of you.",
         answer: "Ich denke an dich.",
         altAnswers: ["Ich denke an euch.", "Ich denke an Sie."],
@@ -1643,7 +1642,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "I agree with your plan. (to a friend)",
             answer: "Ich bin mit deinem Plan einverstanden.",
-            altAnswers: ["Ich bin mit eurem Plan einverstanden.", "Ich bin einverstanden mit deinem Plan."],
+            altAnswers: ["Ich bin einverstanden mit deinem Plan."],
             explanation: "\"Einverstanden mit\" + dative: \"mit deinem Plan\".",
           },
           {
@@ -1699,7 +1698,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Have you finished the book?",
         answer: "Bist du mit dem Buch fertig?",
-        altAnswers: ["Seid ihr mit dem Buch fertig?", "Sind Sie mit dem Buch fertig?", "Bist du fertig mit dem Buch?"],
+        altAnswers: ["Seid ihr mit dem Buch fertig?", "Sind Sie mit dem Buch fertig?", "Bist du fertig mit dem Buch?", "Hast du das Buch zu Ende gelesen?", "Hast du das Buch fertig gelesen?"],
         explanation: "\"Fertig sein mit\" + dative: German uses sein, not haben.",
       },
       {
@@ -1812,7 +1811,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "Thank you for your patience. (to a friend)",
             answer: "Ich danke dir für deine Geduld.",
-            altAnswers: ["Danke für deine Geduld.", "Vielen Dank für deine Geduld.", "Ich danke euch für eure Geduld."],
+            altAnswers: ["Danke für deine Geduld.", "Vielen Dank für deine Geduld."],
             explanation: "\"Danken\" + dative person + \"für\" + accusative.",
           },
         ],
@@ -1952,7 +1951,7 @@ export const DE_B1_U16_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "I waited for you for two hours. (to a friend)",
             answer: "Ich habe zwei Stunden auf dich gewartet.",
-            altAnswers: ["Ich wartete zwei Stunden auf dich.", "Ich habe zwei Stunden auf euch gewartet."],
+            altAnswers: ["Ich wartete zwei Stunden auf dich."],
             explanation: "Perfekt \"habe ... gewartet\"; \"auf dich\" accusative.",
           },
           {

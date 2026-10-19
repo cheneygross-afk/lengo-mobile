@@ -8,7 +8,7 @@ export const DE_C2_U09: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Ausrufe und Interjektionen, Part 1 of 2",
-    summary: "React to surprise and disbelief like a native (Echt?, Ach was!, Nicht dein Ernst!, Das gibt's doch nicht!, Krass!) and choose the right level of mild swearing.",
+    summary: "React to surprise, disbelief and admiration like a native (\"Echt?\", \"Nicht dein Ernst!\", \"Das gibt's doch nicht!\", \"Krass!\", \"Hut ab!\") and choose the right level of mild swearing.",
     duration: "18 min",
     sections: [
       {
@@ -198,7 +198,7 @@ export const DE_C2_U09: Lesson[] = [
         audio: "Das gibt's doch nicht!",
         answer: "Das gibt's doch nicht!",
         altAnswers: ["Das gibt es doch nicht!"],
-        explanation: "Spoken German contracts \"gibt es\" to gibt's, written with an apostrophe; both spellings are accepted.",
+        explanation: "Spoken German contracts \"gibt es\" to \"gibt's\", written with an apostrophe; both spellings are accepted.",
       },
       {
         type: "speak",
@@ -214,7 +214,7 @@ export const DE_C2_U09: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Word Web: Ausrufe nach Funktion",
-    summary: "Exclamations sorted by what they do: refuse (Kommt nicht in Frage!), agree (Genau!, Eben!), resign (Was soll's), complain (Mir reicht's!) and express relief (Na endlich!).",
+    summary: "Pick the right exclamation for what you want to do: refuse (\"Kommt nicht in Frage!\"), agree (\"Genau!\", \"Eben!\"), resign yourself (\"Was soll's\"), complain (\"Mir reicht's!\") and express relief (\"Na endlich!\").",
     duration: "16 min",
     sections: [
       {
@@ -255,7 +255,7 @@ export const DE_C2_U09: Lesson[] = [
         heading: "Resignation and complaint",
         body: [
           "Resigned acceptance: \"Na ja\" (Oh well), \"Na ja, was soll's\" (What the heck / Never mind), \"Pech gehabt\" (Tough luck), \"Da kann man nichts machen\" (Nothing you can do), \"So ist das Leben\", \"Shit happens\" (borrowed, colloquial), \"Tja\" (a shrug in one word).",
-          "Complaint and exasperation: \"Mir reicht es!\" (usually shortened to reicht's: I've had enough!), \"Ich hab die Nase voll!\" (I'm fed up, literally my nose is full), \"Das darf doch nicht wahr sein!\" (This can't be happening!), \"Jetzt reicht's aber!\", \"Das ist doch nicht zu fassen!\" (It's unbelievable!), \"Immer dasselbe!\" (Same old story!).",
+          "Complaint and exasperation: \"Mir reicht es!\" (usually shortened to \"reicht's\": I've had enough!), \"Ich hab die Nase voll!\" (I'm fed up, literally my nose is full), \"Das darf doch nicht wahr sein!\" (This can't be happening!), \"Jetzt reicht's aber!\", \"Das ist doch nicht zu fassen!\" (It's unbelievable!), \"Immer dasselbe!\" (Same old story!).",
           "\"Die Nase voll haben von\" takes a dative object: \"Ich hab die Nase voll von den ständigen Verspätungen.\"",
         ],
         examples: [
@@ -324,7 +324,7 @@ export const DE_C2_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm supposed to work at the weekend? Out of the question!",
         answer: "Ich soll am Wochenende arbeiten? Kommt nicht in Frage!",
-        altAnswers: ["Ich soll am Wochenende arbeiten? Das kommt nicht in Frage!", "Ich soll am Wochenende arbeiten? Kommt nicht infrage!", "Ich soll am Wochenende arbeiten? Auf keinen Fall!"],
+        altAnswers: ["Ich soll am Wochenende arbeiten? Das kommt nicht in Frage!", "Ich soll am Wochenende arbeiten? Kommt nicht infrage!", "Ich soll am Wochenende arbeiten? Das kommt nicht infrage!", "Ich soll am Wochenende arbeiten? Auf keinen Fall!", "Ich soll am Wochenende arbeiten? Kommt gar nicht in Frage!"],
         explanation: "\"Nicht in Frage kommen\" (also spelled \"infrage\") = to be out of the question.",
       },
       {
@@ -424,11 +424,11 @@ export const DE_C2_U09: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Contrast Clinic: Die Skala des Neins",
-    summary: "Grade your refusal from nein and nö to nur über meine Leiche, and use doch to contradict a negative question.",
+    summary: "Grade your refusal from \"lieber nicht\" and \"nö\" to \"nur über meine Leiche\", and answer a negative question with \"doch\" when you mean yes.",
     duration: "16 min",
     sections: [
       {
-        heading: "From nö to nur über meine Leiche",
+        heading: "From \"nö\" to \"nur über meine Leiche\"",
         body: [
           "German refusals form a clear scale. Soft: \"eher nicht\" (rather not), \"lieber nicht\" (better not), \"Ich glaube nicht\". Neutral: \"nein\", \"nö\" (casual, can sound cheeky), \"nee\" (casual, northern and central). Firm: \"auf keinen Fall\", \"keinesfalls\" (formal), \"unter keinen Umständen\" (under no circumstances). Very strong: \"nie im Leben\", \"nie und nimmer\", \"um nichts in der Welt\". Dramatic and humorous: \"nur über meine Leiche\" (over my dead body).",
           "Register matters. \"Nö\" to your boss sounds rude; \"keinesfalls\" to a friend sounds stiff. In writing, \"keinesfalls\" and \"unter keinen Umständen\" are standard; in speech, \"auf keinen Fall\".",
@@ -462,10 +462,10 @@ export const DE_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Doch: contradicting a negative",
+        heading: "\"Doch\": contradicting a negative",
         body: [
           "English answers 'yes' to contradict a negative question ('Aren't you coming?' – 'Yes, I am'), which is ambiguous. German has a special word: \"doch\". \"Kommst du nicht mit?\" – \"Doch!\" (Yes, I am coming). \"Ja\" here would be confusing, and \"nein\" confirms the negative: \"Nein, ich komme nicht mit.\"",
-          "\"Doch\" also contradicts a negative statement: \"Das stimmt nicht.\" – \"Doch, das stimmt!\" Stronger and childish: \"Doch, doch!\", \"Und ob!\" (You bet!). \"Doch\" with stress always contradicts; unstressed \"doch\" in the middle of a sentence is a modal particle (Unit 6 of the Advanced level), a different word in function.",
+          "\"Doch\" also contradicts a negative statement: \"Das stimmt nicht.\" – \"Doch, das stimmt!\" Insistent: \"Doch, doch!\"; emphatic: \"Und ob!\" (You bet!). \"Doch\" with stress always contradicts; unstressed \"doch\" in the middle of a sentence is a modal particle (C1, Unit 11), a different word in function.",
         ],
         examples: [
           { es: "Kommst du nicht mit? – Doch!", en: "Aren't you coming? – Yes, I am!" },
@@ -481,7 +481,7 @@ export const DE_C2_U09: Lesson[] = [
             prompt: "Translate into German.",
             source: "Aren't you hungry? – Yes, I am.",
             answer: "Hast du keinen Hunger? – Doch.",
-            altAnswers: ["Hast du keinen Hunger? – Doch, schon.", "Hast du keinen Hunger? – Doch, habe ich.", "Hast du keinen Hunger? – Doch, hab ich.", "Haben Sie keinen Hunger? – Doch.", "Bist du nicht hungrig? – Doch."],
+            altAnswers: ["Hast du keinen Hunger? – Doch, schon.", "Hast du keinen Hunger? – Doch, habe ich.", "Hast du keinen Hunger? – Doch, hab ich.", "Hast du keinen Hunger? – Doch, ich habe Hunger.", "Haben Sie keinen Hunger? – Doch.", "Habt ihr keinen Hunger? – Doch.", "Bist du nicht hungrig? – Doch."],
             explanation: "\"Doch\" contradicts the negative question; \"ja\" would be wrong here.",
           },
           {
@@ -495,7 +495,7 @@ export const DE_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Ja, nein, doch side by side",
+        heading: "\"Ja\", \"nein\", \"doch\" side by side",
         body: [
           "The rule in one table: positive question \"Kommst du?\" – \"Ja\" (I'm coming) / \"Nein\" (I'm not). Negative question \"Kommst du nicht?\" – \"Doch\" (I am coming) / \"Nein\" (I'm not coming). There is no \"ja\" in the second row.",
           "In conversation, Germans often add the verb to make it crystal clear: \"Doch, ich komme\", \"Nein, ich komme nicht\". When in doubt, do the same.",
@@ -631,14 +631,14 @@ export const DE_C2_U09: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Ausrufe und Interjektionen, Part 2 of 2",
-    summary: "The grammar of exclamations: Was für ein + case, Wie + adjective, verb-first with particles (Ist das aber kalt!), verb-final dass and wenn exclamations, the exclamatory infinitive, and spelling interjections (aua, igitt, tja, ätsch).",
+    summary: "Build exclamations correctly (\"Was für ein\" with the right case, \"Wie schön!\", \"Ist das aber kalt!\", \"Wenn ich das nur gewusst hätte!\", \"Ich und lügen?\") and spell and use interjections like \"aua\", \"igitt\" and \"tja\".",
     duration: "20 min",
     sections: [
       {
-        heading: "Was für ein ...! and Wie ...!",
+        heading: "\"Was für ein ...!\" and \"Wie ...!\"",
         body: [
-          "\"Was für ein\" + noun expresses amazement: \"Was für ein schöner Tag!\", \"Was für eine Überraschung!\", \"Was für ein Chaos!\". The trap: \"ein\" does not stay nominative. It takes the case of the noun's role in the sentence: \"Was für einen Unsinn du redest!\" (accusative: you talk nonsense), \"Mit was für einem Idioten habe ich da gesprochen!\" (dative after mit). \"Für\" here is not the preposition that governs the accusative.",
-          "With plurals and uncountables there is no article: \"Was für Leute!\", \"Was für ein Wetter!\" (Wetter is countable in this phrase), \"Was für Glück wir hatten!\". Colloquially \"Was für'n Tag!\".",
+          "\"Was für ein\" + noun expresses amazement: \"Was für ein schöner Tag!\", \"Was für eine Überraschung!\", \"Was für ein Chaos!\". The trap: \"ein\" does not stay nominative. It takes the case of the noun's role in the sentence: \"Was für einen Unsinn du redest!\" (accusative: you talk nonsense), \"Mit was für einem Idioten habe ich da gesprochen!\" (dative after \"mit\"). \"Für\" here is not the preposition that governs the accusative.",
+          "With plurals and uncountables there is no article: \"Was für Leute!\", \"Was für ein Wetter!\" (\"Wetter\" takes \"ein\" in this phrase), \"Was für Glück wir hatten!\". Colloquially \"Was für'n Tag!\".",
           "\"Wie\" + adjective or adverb: \"Wie schön!\", \"Wie nett von dir!\", \"Wie schnell die Zeit vergeht!\" (verb at the end in a full clause). \"Welch\" is the literary variant: \"Welch ein Glück!\", \"Welch schöner Tag!\".",
         ],
         examples: [
@@ -713,7 +713,7 @@ export const DE_C2_U09: Lesson[] = [
       {
         heading: "The exclamatory infinitive and interjections",
         body: [
-          "The exclamatory infinitive rejects an idea with indignation: \"Ich und lügen?!\" (Me, lie?!), \"Ich und tanzen? Nie im Leben!\", \"Jetzt noch einkaufen gehen? Bei dem Wetter?\" It is the German equivalent of English Me, lie? No verb is conjugated.",
+          "The exclamatory infinitive rejects an idea with indignation: \"Ich und lügen?!\" (Me, lie?!), \"Ich und tanzen? Nie im Leben!\", \"Jetzt noch einkaufen gehen? Bei dem Wetter?\" It is the German equivalent of English 'Me, lie?' No verb is conjugated.",
           "Interjections have fixed spellings: \"aua\" / \"au\" (ouch), \"igitt\" (yuck), \"iiih\" (ew), \"lecker\" (yum, actually an adjective), \"pst\" (shh), \"hm\" (hmm), \"tja\" (well..., a verbal shrug), \"ätsch\" (nyah-nyah, childish gloating), \"hoppla\" (whoops), \"huch\" (oh! startled), \"oje\" (oh dear), \"hurra\" (hooray), \"pfui\" (shame on you, disgust).",
           "Note \"hoppla\" when you stumble or bump into someone, \"huch\" when you're startled, \"oje\" for minor bad news. English oops is \"hoppla\" or \"ups\".",
         ],
@@ -796,7 +796,7 @@ export const DE_C2_U09: Lesson[] = [
         en: "[What a] guy you're going out with!",
         sentence: "Mit ___ Typen bist du da zusammen!",
         answer: "was für einem",
-        explanation: "After \"mit\" the noun is dative: \"mit was für einem Typen\" (der Typ is weak: dative \"Typen\").",
+        explanation: "After \"mit\" the noun is dative: \"mit was für einem Typen\" (\"der Typ\" is weak: dative \"Typen\").",
       },
       {
         type: "multiple-choice",
@@ -860,11 +860,11 @@ export const DE_C2_U09: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Dialogue Lab: Reagieren wie ein Muttersprachler",
-    summary: "Eight pieces of news, from a promotion and a lottery win to a burglary, a breakup and a Deutsche Bahn delay: choose the reaction a native would use and keep the conversation going.",
+    summary: "React to five pieces of news, from a promotion and a lottery win to a burglary, a breakup and a Deutsche Bahn delay, the way a native would, and keep the conversation going.",
     duration: "18 min",
     sections: [
       {
-        heading: "Good news: Beförderung und Lottogewinn",
+        heading: "Good news: \"Beförderung und Lottogewinn\"",
         body: [
           "Leon: \"Stell dir vor, ich bin befördert worden! Ab Juli leite ich das Team.\" Mia: \"Wahnsinn, herzlichen Glückwunsch! Das hast du dir echt verdient. Wie hast du's erfahren?\" The pattern: exclamation (\"Wahnsinn!\", \"Klasse!\"), congratulation (\"Herzlichen Glückwunsch!\", \"Glückwunsch!\"), validation (\"Das hast du dir verdient\"), follow-up question.",
           "Ayşe: \"Ich hab im Lotto gewonnen! Nicht viel, aber 5.000 Euro.\" Jonas: \"Nicht dein Ernst! Das ist ja der Hammer! Und, was machst du damit?\" Germans often add a modest qualification to good news (\"nicht viel, aber ...\"); a good listener ignores the modesty and celebrates anyway.",
@@ -897,7 +897,7 @@ export const DE_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Bad news: Einbruch und Trennung",
+        heading: "Bad news: \"Einbruch und Trennung\"",
         body: [
           "Frau Schneider: \"Bei uns ist eingebrochen worden. Der Laptop und der ganze Schmuck sind weg.\" Herr Becker: \"Ach du meine Güte! Das tut mir schrecklich leid. Ist jemand verletzt? Waren Sie zu Hause?\" With bad news: shocked exclamation, sympathy, then a caring question. \"Das tut mir leid\" is essential; \"Oh je!\" alone sounds flippant.",
           "Lena: \"Jonas und ich haben uns getrennt.\" Mia: \"Oh nein, das tut mir so leid. Wie geht's dir damit? Willst du darüber reden?\" Avoid instant judgement (\"Der hat dich eh nicht verdient\") unless you know your friend wants it; ask first.",
@@ -1040,7 +1040,7 @@ export const DE_C2_U09: Lesson[] = [
         source: "Well, I'll take the next one. Never mind.",
         answer: "Tja, ich nehm den nächsten. Was soll's.",
         altAnswers: ["Tja, ich nehme den nächsten. Was soll's.", "Na ja, ich nehme den nächsten. Was soll's.", "Tja, dann nehme ich eben den nächsten. Was soll's."],
-        explanation: "\"Tja\" plus a resigned \"Was soll es\" (always shortened to soll's in speech): the stoic response to delays.",
+        explanation: "\"Tja\" plus a resigned \"Was soll es\" (usually shortened to \"soll's\" in speech): the stoic response to delays.",
       },
       {
         type: "dictation",
@@ -1060,11 +1060,11 @@ export const DE_C2_U09: Lesson[] = [
     level: "DE-C2",
     number: 6,
     title: "Mastery Vocabulary: Advanced False Friends and Calques, Part 2 of 2",
-    summary: "More false friends (fatal, genial, ordinär, pathetisch, Präservativ, spenden, Billion) and the anglicisms purists debate: Sinn machen, in 2025, einmal mehr.",
+    summary: "Avoid more false friends (\"fatal\", \"genial\", \"ordinär\", \"Präservativ\", \"spenden\", \"Billion\") and know which anglicisms careful writers avoid (\"Sinn machen\", \"in 2025\", \"einmal mehr\").",
     duration: "18 min",
     sections: [
       {
-        heading: "fatal, genial, ordinär, pathetisch",
+        heading: "\"fatal\", \"genial\", \"ordinär\", \"pathetisch\"",
         body: [
           "\"Fatal\" in German usually means disastrous, very unfortunate or embarrassing, not necessarily deadly: \"Das war ein fataler Fehler\" (a disastrous mistake), \"Die Situation ist fatal\". Deadly is \"tödlich\". \"Genial\" means brilliant, ingenious (\"eine geniale Idee\"); genial (friendly) is \"freundlich\", \"herzlich\" or \"jovial\".",
           "\"Ordinär\" means vulgar, crude (\"ein ordinärer Witz\"); ordinary is \"gewöhnlich\" or \"normal\". \"Pathetisch\" means overly solemn, melodramatic (\"eine pathetische Rede\"); pathetic is \"erbärmlich\" or \"jämmerlich\".",
@@ -1098,7 +1098,7 @@ export const DE_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Präservativ, spenden, Billion",
+        heading: "\"Präservativ\", \"spenden\", \"Billion\"",
         body: [
           "\"Das Präservativ\" is a condom; a preservative (in food) is \"der Konservierungsstoff\": \"ohne Konservierungsstoffe\". \"Spenden\" means to donate (\"Blut spenden\", \"Geld spenden\", \"die Spende\"); to spend money is \"ausgeben\", to spend time \"verbringen\".",
           "Numbers: German \"eine Milliarde\" = 10^9 (a billion), \"eine Billion\" = 10^12 (a trillion). Journalists' mistranslations of \"billion\" as \"Billion\" have inflated budgets by a factor of a thousand. Abbreviations: \"Mio.\" (Millionen), \"Mrd.\" (Milliarden), \"Bio.\" (Billionen).",
@@ -1141,7 +1141,7 @@ export const DE_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Calques: Sinn machen, in 2025, einmal mehr",
+        heading: "Calques: \"Sinn machen\", \"in 2025\", \"einmal mehr\"",
         body: [
           "Some English structures have entered German, and purists object. \"Das macht Sinn\" (calque of makes sense) is now everywhere and accepted by Duden, but careful writers prefer \"Das ergibt Sinn\", \"Das hat Sinn\" or \"Das ist sinnvoll\". In formal writing, choose the traditional form.",
           "\"In 2025\" (calque of in 2025) is considered wrong in standard German: say \"2025\" alone or \"im Jahr 2025\". \"Einmal mehr\" (once more, again) is a calque of once more but widely used; \"wieder einmal\" or \"erneut\" are the traditional alternatives. \"Das erste Mal ever\" is jokey Denglisch; standard is \"zum ersten Mal überhaupt\".",
@@ -1171,7 +1171,7 @@ export const DE_C2_U09: Lesson[] = [
             sentence: "___ zog sie nach Leipzig.",
             answer: "Im Jahr 2025",
             altAnswers: ["2025"],
-            explanation: "Standard German: the year alone or \"im Jahr 2025\", never *in 2025.",
+            explanation: "Standard German: the year alone or \"im Jahr 2025\"; \"*in 2025*\" is an anglicism that careful writers avoid.",
           },
           {
             type: "speak",
@@ -1245,7 +1245,7 @@ export const DE_C2_U09: Lesson[] = [
         question: "Which sentence is correct in careful standard German?",
         options: ["Im Jahr 2020 begann die Pandemie.", "In 2020 begann die Pandemie.", "In dem 2020 begann die Pandemie.", "Am 2020 begann die Pandemie."],
         correctIndex: 0,
-        explanation: "\"Im Jahr 2020\" or just \"2020\"; *in 2020 is an anglicism.",
+        explanation: "\"Im Jahr 2020\" or just \"2020\"; \"*In 2020*\" is an anglicism.",
       },
       {
         type: "word-order",
@@ -1282,11 +1282,11 @@ export const DE_C2_U09: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Vocabulary in Context: Treacherous Paronyms",
-    summary: "Pairs that look alike and mean different things: scheinbar / anscheinend, kindisch / kindlich, effektiv / effizient, wunderlich / wunderbar, sozial / gesellig, ehrgeizig / geizig, formell / formal, endlich / endgültig.",
+    summary: "Tell apart look-alike pairs such as \"scheinbar\" / \"anscheinend\", \"kindisch\" / \"kindlich\", \"effektiv\" / \"effizient\", \"ehrgeizig\" / \"geizig\" and \"endlich\" / \"endgültig\", and use each correctly.",
     duration: "18 min",
     sections: [
       {
-        heading: "scheinbar / anscheinend, kindisch / kindlich",
+        heading: "\"scheinbar\" / \"anscheinend\", \"kindisch\" / \"kindlich\"",
         body: [
           "\"Scheinbar\" means seemingly, but not really: \"Er war nur scheinbar ruhig\" (he seemed calm but wasn't). \"Anscheinend\" means apparently, and it probably is so: \"Er ist anscheinend krank\" (it seems he's ill). In everyday speech many Germans use \"scheinbar\" for both, but careful writers and examiners insist on the difference.",
           "\"Kindlich\" is childlike, neutral or positive: \"kindliche Freude\", \"ein kindliches Gesicht\". \"Kindisch\" is childish, negative: \"Sei nicht so kindisch!\" The same pattern: \"weiblich\" (female, feminine) vs \"weibisch\" (effeminate, pejorative); \"herrlich\" (glorious) vs \"herrisch\" (domineering). The suffix \"-isch\" often carries a negative judgement where \"-lich\" is neutral.",
@@ -1318,7 +1318,7 @@ export const DE_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "effektiv / effizient, ehrgeizig / geizig, wunderlich / wunderbar",
+        heading: "\"effektiv\" / \"effizient\", \"ehrgeizig\" / \"geizig\", \"wunderlich\" / \"wunderbar\"",
         body: [
           "\"Effektiv\" means effective (achieves the goal) and, colloquially, actually, in fact (\"Effektiv hat er nichts gemacht\"). \"Effizient\" means efficient (achieves it with little effort or cost). A method can be effective but not efficient.",
           "\"Ehrgeizig\" means ambitious (literally greedy for honour); \"geizig\" means stingy, mean with money. Don't tell your boss \"Sie sind sehr geizig\" when you mean ambitious. \"Wunderbar\" is wonderful; \"wunderlich\" is odd, eccentric, a bit strange (\"ein wunderlicher alter Herr\").",
@@ -1359,7 +1359,7 @@ export const DE_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "sozial / gesellig, formell / formal, endlich / endgültig",
+        heading: "\"sozial\" / \"gesellig\", \"formell\" / \"formal\", \"endlich\" / \"endgültig\"",
         body: [
           "\"Sozial\" refers to society and welfare (\"soziale Gerechtigkeit\") or to caring behaviour (\"Sie ist sehr sozial\" = she cares about others); sociable is \"gesellig\": \"Er ist ein geselliger Mensch\". \"Formell\" is formal in the sense of etiquette or officialness (\"eine formelle Einladung\", \"formelle Kleidung\"); \"formal\" concerns form or technicalities (\"aus formalen Gründen abgelehnt\", rejected on technical grounds).",
           "\"Endlich\" means finally, at last (\"Endlich Wochenende!\") and, in philosophy, finite (\"Das Leben ist endlich\"). \"Endgültig\" means final, definitive: \"eine endgültige Entscheidung\", \"Das ist endgültig vorbei.\"",
@@ -1414,7 +1414,7 @@ export const DE_C2_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "My uncle is so stingy he never tips.",
         answer: "Mein Onkel ist so geizig, dass er nie Trinkgeld gibt.",
-        altAnswers: ["Mein Onkel ist so geizig, dass er niemals Trinkgeld gibt.", "Mein Onkel ist so geizig, dass er nie Trinkgeld gibt."],
+        altAnswers: ["Mein Onkel ist so geizig, dass er niemals Trinkgeld gibt.", "Mein Onkel ist so geizig, dass er nie ein Trinkgeld gibt."],
         explanation: "\"Geizig\" = stingy; \"so ..., dass\" for consequence.",
       },
       {
@@ -1477,7 +1477,7 @@ export const DE_C2_U09: Lesson[] = [
         source: "Her boss has a domineering tone.",
         answer: "Ihr Chef hat einen herrischen Ton.",
         altAnswers: ["Ihre Chefin hat einen herrischen Ton.", "Ihr Chef hat einen herrischen Tonfall.", "Ihre Chefin hat einen herrischen Tonfall."],
-        explanation: "\"Herrisch\" (domineering) vs \"herrlich\" (glorious): -isch is often pejorative.",
+        explanation: "\"Herrisch\" (domineering) vs \"herrlich\" (glorious): \"-isch\" is often pejorative.",
       },
       {
         type: "dictation",
@@ -1497,13 +1497,13 @@ export const DE_C2_U09: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Diminutives and Word-Formation Suffixes, Part 1 of 2",
-    summary: "Diminutives with -chen and -lein: always neuter, umlaut of the stem, final -e dropped; regional -le, -li, -erl, -el; and lexicalised diminutives like Brötchen and Kaninchen.",
+    summary: "Form diminutives with \"-chen\" and \"-lein\" (always neuter, umlaut, final \"-e\" dropped), recognise regional \"-le\", \"-li\" and \"-erl\", and use lexicalised ones like \"Brötchen\" and \"Kaninchen\".",
     duration: "18 min",
     sections: [
       {
         heading: "-chen and -lein: the rules",
         body: [
-          "Every diminutive in \"-chen\" or \"-lein\" is neuter, whatever the gender of the base noun: \"der Hund\" → \"das Hündchen\", \"die Katze\" → \"das Kätzchen\", \"die Frau\" → \"das Fräulein\". This is why \"das Mädchen\" (from Magd, maid) is neuter, a famous oddity that English speakers find strange. In modern usage the pronoun is often \"sie\" when the girl is older: \"Das Mädchen ... sie\".",
+          "Every diminutive in \"-chen\" or \"-lein\" is neuter, whatever the gender of the base noun: \"der Hund\" → \"das Hündchen\", \"die Katze\" → \"das Kätzchen\", \"die Frau\" → \"das Fräulein\". This is why \"das Mädchen\" (from \"Magd\", maid) is neuter, a famous oddity that English speakers find strange. In modern usage the pronoun is often \"sie\" when the girl is older: \"Das Mädchen ... sie\".",
           "The stem vowel usually takes an umlaut: \"Haus\" → \"Häuschen\", \"Buch\" → \"Büchlein\", \"Stadt\" → \"Städtchen\", \"Hund\" → \"Hündchen\". A final \"-e\" drops: \"Tasse\" → \"Tässchen\", \"Katze\" → \"Kätzchen\", \"Blume\" → \"Blümchen\". The plural is the same as the singular: \"ein Häuschen, zwei Häuschen\".",
           "\"-chen\" is the standard form; \"-lein\" is more literary, southern or poetic (\"Büchlein\", \"Vöglein\", \"Männlein\"). After \"-ch\" and \"-g\", \"-lein\" or \"-elchen\" is used to avoid awkward sounds: \"Buch\" → \"Büchlein\", \"Zug\" → \"Züglein\" (rare), \"Ring\" → \"Ringlein\".",
         ],
@@ -1538,7 +1538,7 @@ export const DE_C2_U09: Lesson[] = [
         heading: "Regional diminutives: -le, -li, -erl, -el",
         body: [
           "Southern German-speaking regions have their own diminutive endings, and they are badges of regional identity. Swabian (Stuttgart, Baden-Württemberg): \"-le\" (\"Häusle\", \"Spätzle\", \"Mädle\", \"ein Viertele Wein\"). Swiss German: \"-li\" (\"Müesli\", \"Hüsli\", \"Chäschüechli\", \"es Bitzeli\" for a little bit).",
-          "Bavarian and Austrian: \"-erl\" and \"-l\" (\"Sackerl\" = plastic bag, \"Busserl\" = little kiss, \"Kipferl\" = croissant-like pastry, \"Stamperl\" = shot glass, \"Dirndl\", \"Mäderl\"). Viennese and Bavarian \"-erl\" words are often the standard regional word, not just a diminutive: an Austrian asks for \"ein Sackerl\", never \"eine Tüte\".",
+          "Bavarian and Austrian: \"-erl\" and \"-l\" (\"Sackerl\" = plastic bag, \"Busserl\" = little kiss, \"Kipferl\" = croissant-like pastry, \"Stamperl\" = shot glass, \"Dirndl\", \"Mäderl\"). Viennese and Bavarian \"-erl\" words are often the standard regional word, not just a diminutive: an Austrian asks for \"ein Sackerl\", rarely \"eine Tüte\".",
           "Some regional diminutives have entered standard German: \"Müsli\" (from Swiss Müesli), \"Spätzle\", \"Dirndl\". Using them correctly in their region signals you've lived there.",
         ],
         examples: [
@@ -1572,7 +1572,7 @@ export const DE_C2_U09: Lesson[] = [
         heading: "Lexicalised diminutives",
         body: [
           "Some diminutives have lost their \"small\" meaning and become ordinary words. \"Das Brötchen\" is simply a bread roll (in the north; in the south \"die Semmel\", in Swabia \"das Weckle\", in Berlin \"die Schrippe\"). \"Das Kaninchen\" is a rabbit, \"das Eichhörnchen\" a squirrel, \"das Märchen\" a fairy tale (from \"Mär\", news, tale), \"das Würstchen\" a sausage, \"das Plätzchen\" a biscuit, \"das Veilchen\" a violet.",
-          "These have no non-diminutive base in modern use: there is no *\"Kanin\" or *\"Eichhorn\" in daily speech (Eichhorn exists only in literature and names). They are still neuter: \"das Eichhörnchen\". Their plural, like all diminutives, adds nothing: \"zwei Brötchen\".",
+          "These have no non-diminutive base in modern use: there is no \"*Kanin*\" or \"*Eichhorn*\" in daily speech (\"Eichhorn\" survives only in literature and names). They are still neuter: \"das Eichhörnchen\". Their plural, like all diminutives, adds nothing: \"zwei Brötchen\".",
         ],
         examples: [
           { es: "Ich hole schnell Brötchen beim Bäcker.", en: "I'll just get some rolls from the bakery." },
@@ -1653,7 +1653,7 @@ export const DE_C2_U09: Lesson[] = [
           { left: "Sackerl", right: "Austria" },
           { left: "Busserl", right: "Bavaria and Austria" },
         ],
-        explanation: "-le (Swabian), -li (Swiss), -erl (Bavarian, Austrian).",
+        explanation: "\"-le\" (Swabian), \"-li\" (Swiss), \"-erl\" (Bavarian, Austrian).",
       },
       {
         type: "word-order",
@@ -1688,8 +1688,8 @@ export const DE_C2_U09: Lesson[] = [
     slug: "c2-diminutive-values-contrast",
     level: "DE-C2",
     number: 9,
-    title: "Contrast Clinic: Das Kleine, das Nicht Kleiner Macht",
-    summary: "The diminutive as affection, politeness or irony (ein Gläschen Wein, ein Momentchen, Freundchen!), and terms of endearment (Schatz, Mausi, Spatz) and when they become condescending.",
+    title: "Contrast Clinic: Das Kleine, das nicht kleiner macht",
+    summary: "Use the diminutive for politeness, affection or irony (\"ein Gläschen Wein\", \"ein Momentchen\", \"Freundchen!\"), and know when terms of endearment like \"Schatz\" or \"Spatz\" become condescending.",
     duration: "16 min",
     sections: [
       {
@@ -1725,7 +1725,7 @@ export const DE_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Warning and irony: Freundchen!",
+        heading: "Warning and irony: \"Freundchen!\"",
         body: [
           "Said with a sharp tone, the diminutive becomes a threat or put-down. \"Freundchen!\" (little friend) is a warning: \"Pass auf, Freundchen!\" (Watch it, mate!). \"Bürschchen\" (little lad) is condescending: \"Na warte, Bürschchen!\" \"Ein Früchtchen\" (a little fruit) is a rascal or good-for-nothing.",
           "Irony also works with things: \"Das war ja ein nettes Sümmchen\" (a nice little sum) means a lot of money. \"Ein Problemchen\" can minimise or ironically point to a big problem. \"Das Herrchen\" and \"das Frauchen\" are the owner of a dog, said from the dog's perspective, half affectionate, half comic.",
@@ -1758,7 +1758,7 @@ export const DE_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "Terms of endearment: Schatz, Mausi, Spatz",
+        heading: "Terms of endearment: \"Schatz\", \"Mausi\", \"Spatz\"",
         body: [
           "German couples and parents use a whole zoo: \"Schatz\" / \"Schätzchen\" / \"Schatzi\" (treasure), \"Liebling\", \"Mausi\" / \"Maus\" (mouse), \"Hasi\" / \"Hase\" (bunny), \"Spatz\" (sparrow, especially for children), \"Bärchen\" (little bear). \"-i\" endings (\"Mausi\", \"Hasi\", \"Schatzi\") add an extra cute layer.",
           "From strangers or superiors, these become condescending: a mechanic calling a female customer \"Schätzchen\" is patronising, and \"Na, Schätzchen?\" can be harassment. In Berlin and northern markets, \"Junge\" and \"Mädchen\" or \"meine Gute\" from older vendors are folksy, not insulting, but the line is thin. As a learner, use them only with partners, children and close family.",
@@ -1797,7 +1797,7 @@ export const DE_C2_U09: Lesson[] = [
         source: "Just a moment, please, I'll be right with you.",
         answer: "Ein Momentchen, bitte, ich bin gleich bei Ihnen.",
         altAnswers: ["Einen Moment, bitte, ich bin gleich bei Ihnen.", "Ein Momentchen bitte, ich bin gleich bei Ihnen.", "Einen Augenblick, bitte, ich bin gleich bei Ihnen."],
-        explanation: "\"Ein Momentchen\" (neuter diminutive of der Moment) softens the request to wait.",
+        explanation: "\"Ein Momentchen\" (neuter diminutive of \"der Moment\") softens the request to wait.",
       },
       {
         type: "translate",
@@ -1863,7 +1863,7 @@ export const DE_C2_U09: Lesson[] = [
       {
         type: "dictation",
         audio: "Darf ich Ihnen ein paar Häppchen anbieten?",
-        explanation: "\"Häppchen\" (from Happen, a bite) = canapés; polite \"Ihnen\".",
+        explanation: "\"Häppchen\" (from \"Happen\", a bite) = canapés; polite \"Ihnen\".",
       },
       {
         type: "speak",
@@ -1878,11 +1878,11 @@ export const DE_C2_U09: Lesson[] = [
     level: "DE-C2",
     number: 10,
     title: "Diminutives and Word-Formation Suffixes, Part 2 of 2",
-    summary: "Pejorative and person suffixes (-erei, Ge-...-e, -ling, -ei, -ler) and intensifying prefixes (stinkreich, steinalt, todmüde, blitzsauber, uralt).",
+    summary: "Use pejorative and person suffixes (\"-erei\", \"Ge-...-e\", \"-ling\", \"-ei\", \"-ler\") and colloquial intensifying prefixes (\"stinkreich\", \"steinalt\", \"todmüde\") in the right register.",
     duration: "20 min",
     sections: [
       {
-        heading: "-erei and Ge-...-e: annoying repetition",
+        heading: "\"-erei\" and \"Ge-...-e\": annoying repetition",
         body: [
           "The suffix \"-erei\" turns a verb into a noun for an activity, usually with a note of annoyance at its repetition or excess: \"die Fragerei\" (endless questions), \"die Raserei\" (speeding), \"die Lauferei\" (all that running around), \"die Schreiberei\" (paperwork), \"die Streiterei\" (squabbling). These nouns are always feminine. Compare the neutral \"-ung\": \"die Befragung\" (survey, interrogation) vs \"die Fragerei\".",
           "The circumfix \"Ge-...-e\" does something similar and is even more pejorative: \"das Gerede\" (gossip, talk), \"das Gejammer\" (whining), \"das Gerenne\" (rushing around), \"das Gemecker\" (moaning), \"das Gehupe\" (constant honking), \"das Getue\" (fuss, airs). They are neuter and usually have no plural.",
@@ -1904,7 +1904,7 @@ export const DE_C2_U09: Lesson[] = [
             source: "Stop whining!",
             answer: "Hör auf mit dem Gejammer!",
             altAnswers: ["Hör auf zu jammern!", "Hör mit dem Gejammer auf!", "Schluss mit dem Gejammer!"],
-            explanation: "\"Das Gejammer\" (Ge-...-er from jammern) is neuter and pejorative: \"mit dem Gejammer\".",
+            explanation: "\"Das Gejammer\" (\"Ge-...-e\" from \"jammern\"; a stem in \"-er\" adds no extra \"-e\") is neuter and pejorative: \"mit dem Gejammer\".",
           },
           {
             type: "multiple-choice",
@@ -1916,9 +1916,9 @@ export const DE_C2_U09: Lesson[] = [
         ],
       },
       {
-        heading: "-ling, -ei, -ler: persons and places",
+        heading: "\"-ling\", \"-ei\", \"-ler\": persons and places",
         body: [
-          "\"-ling\" forms masculine person nouns, often pejorative: \"der Feigling\" (coward), \"der Schwächling\" (weakling), \"der Emporkömmling\" (upstart), \"der Schreiberling\" (hack writer), \"der Fiesling\" (meanie). But not always: \"der Liebling\" (darling), \"der Lehrling\" (apprentice), \"der Flüchtling\" (refugee, now often replaced by \"Geflüchtete\" because some feel -ling diminishes), and \"der Frühling\" (spring) is not a person at all.",
+          "\"-ling\" forms masculine person nouns, often pejorative: \"der Feigling\" (coward), \"der Schwächling\" (weakling), \"der Emporkömmling\" (upstart), \"der Schreiberling\" (hack writer), \"der Fiesling\" (meanie). But not always: \"der Liebling\" (darling), \"der Lehrling\" (apprentice), \"der Flüchtling\" (refugee, now often replaced by \"Geflüchtete\" because some feel \"-ling\" diminishes), and \"der Frühling\" (spring) is not a person at all.",
           "\"-ei\" (stressed) names places of work and institutions: \"die Bäckerei\", \"die Metzgerei\", \"die Druckerei\", \"die Polizei\", \"die Kanzlei\" (law office). Don't confuse it with \"-erei\" activity nouns: \"die Bäckerei\" is a bakery, \"die Backerei\" (all that baking) is a complaint.",
           "\"-ler\" forms person nouns from nouns or verbs: \"der Sportler\", \"der Künstler\", \"der Wissenschaftler\", \"der Sammler\"; sometimes pejorative: \"der Gewinnler\" (profiteer), \"der Abweichler\" (dissenter, in politics).",
         ],
@@ -1937,7 +1937,7 @@ export const DE_C2_U09: Lesson[] = [
             source: "Don't be a coward!",
             answer: "Sei kein Feigling!",
             altAnswers: ["Sei doch kein Feigling!", "Seid keine Feiglinge!", "Seien Sie kein Feigling!"],
-            explanation: "\"Der Feigling\" (from feige, cowardly): \"-ling\" with a pejorative value.",
+            explanation: "\"Der Feigling\" (from \"feige\", cowardly): \"-ling\" with a pejorative value.",
           },
           {
             type: "fill-blank",
@@ -1954,15 +1954,15 @@ export const DE_C2_U09: Lesson[] = [
             question: "What does it mean?",
             options: ["He was an upstart with no manners.", "He was a newcomer with good manners.", "He was a climber with no fear.", "He was an apprentice with no skills."],
             correctIndex: 0,
-            explanation: "\"Der Emporkömmling\" (from emporkommen, to rise up) is pejorative: upstart.",
+            explanation: "\"Der Emporkömmling\" (from \"emporkommen\", to rise up) is pejorative: upstart.",
           },
         ],
       },
       {
-        heading: "Intensifying prefixes: stinkreich, steinalt, todmüde",
+        heading: "Intensifying prefixes: \"stinkreich\", \"steinalt\", \"todmüde\"",
         body: [
           "Colloquial German intensifies adjectives with fixed prefixes, each paired with particular adjectives: \"stinkreich\" (filthy rich), \"stinklangweilig\" (deadly boring), \"stinksauer\" (furious); \"steinalt\" (ancient), \"steinreich\" (very rich); \"todmüde\" (dead tired), \"todschick\" (dead smart), \"todernst\" (deadly serious); \"blitzsauber\" (spotless), \"blitzschnell\" (lightning fast); \"uralt\" (age-old), \"urgemütlich\" (really cosy); \"mega-\", \"super-\", \"hyper-\" (colloquial, young: \"megacool\", \"superleicht\").",
-          "The combinations are fixed: you say \"todmüde\" but not *stinkmüde; \"steinalt\" but not *todalt. Also: \"kerngesund\" (fit as a fiddle), \"bildschön\" (gorgeous), \"knallrot\" (bright red), \"brandneu\" (brand new), \"funkelnagelneu\" (brand spanking new).",
+          "The combinations are fixed: you say \"todmüde\" but not \"*stinkmüde*\"; \"steinalt\" but not \"*todalt*\". Also: \"kerngesund\" (fit as a fiddle), \"bildschön\" (gorgeous), \"knallrot\" (bright red), \"brandneu\" (brand new), \"funkelnagelneu\" (brand spanking new).",
           "Register: these belong to everyday speech and informal writing; in a formal report write \"sehr reich\", \"äußerst langweilig\".",
         ],
         examples: [
@@ -2034,7 +2034,7 @@ export const DE_C2_U09: Lesson[] = [
         source: "What's all the fuss about?",
         answer: "Was soll das ganze Getue?",
         altAnswers: ["Was soll das ganze Theater?", "Wozu das ganze Getue?", "Warum das ganze Getue?"],
-        explanation: "\"Das Getue\" (from tun) = fuss, putting on airs; \"Theater\" is a synonym.",
+        explanation: "\"Das Getue\" (from \"tun\") = fuss, putting on airs; \"Theater\" is a synonym.",
       },
       {
         type: "fill-blank",
@@ -2062,7 +2062,7 @@ export const DE_C2_U09: Lesson[] = [
         question: "Which combination is NOT idiomatic?",
         options: ["stinkmüde", "todmüde", "stinkreich", "steinalt"],
         correctIndex: 0,
-        explanation: "Intensifier pairs are fixed: \"todmüde\" or \"hundemüde\", not *stinkmüde.",
+        explanation: "Intensifier pairs are fixed: \"todmüde\" or \"hundemüde\", not \"*stinkmüde*\".",
       },
       {
         type: "word-order",
@@ -2083,7 +2083,7 @@ export const DE_C2_U09: Lesson[] = [
       {
         type: "dictation",
         audio: "Die Raserei auf der Autobahn ist gefährlich.",
-        explanation: "\"Die Raserei\" (from rasen, to speed): feminine, -erei.",
+        explanation: "\"Die Raserei\" (from \"rasen\", to speed): feminine, \"-erei\".",
       },
       {
         type: "speak",
@@ -2122,7 +2122,7 @@ export const DE_C2_U09: Lesson[] = [
             source: "There was a great crush at the station.",
             answer: "Im Bahnhof herrschte großes Gedränge.",
             altAnswers: ["Am Bahnhof herrschte großes Gedränge.", "Im Bahnhof war ein großes Gedränge.", "Am Bahnhof gab es ein großes Gedränge."],
-            explanation: "\"Das Gedränge\" (Ge-...-e from drängen); \"herrschen\" (to prevail) is the usual verb.",
+            explanation: "\"Das Gedränge\" (\"Ge-...-e\" from \"drängen\"); \"herrschen\" (to prevail) is the usual verb.",
           },
           {
             type: "multiple-choice",
@@ -2265,7 +2265,7 @@ export const DE_C2_U09: Lesson[] = [
         words: ["Überall", "hörte", "man", "nur", "Gemecker."],
         translation: "All you heard was moaning.",
         altOrders: [["Man", "hörte", "überall", "nur", "Gemecker."]],
-        explanation: "\"Das Gemecker\" (from meckern, to bleat, moan): pejorative Ge- noun.",
+        explanation: "\"Das Gemecker\" (from \"meckern\", to bleat, moan): pejorative \"Ge-\" noun.",
       },
       {
         type: "translate",
@@ -2274,7 +2274,7 @@ export const DE_C2_U09: Lesson[] = [
         source: "The baby is finally asleep.",
         answer: "Der Säugling schläft endlich.",
         altAnswers: ["Das Baby schläft endlich.", "Endlich schläft das Baby.", "Endlich schläft der Säugling."],
-        explanation: "\"Der Säugling\" (neutral -ling) or \"das Baby\".",
+        explanation: "\"Der Säugling\" (neutral \"-ling\") or \"das Baby\".",
       },
       {
         type: "dictation",
@@ -2293,22 +2293,22 @@ export const DE_C2_U09: Lesson[] = [
     slug: "c2-lexicalised-suffixes-text-detective",
     level: "DE-C2",
     number: 12,
-    title: "Text Detective: Erstarrte und Regionale Suffixe",
-    summary: "In a short story and a Viennese column, separate living diminutives and suffixes from frozen ones (Brötchen, Würstchen, Häkchen) and regional forms (Weckle, Gipfeli, Krügerl), and explain their effect on tone.",
+    title: "Text Detective: Erstarrte und regionale Suffixe",
+    summary: "In a short story and a Viennese column, separate living diminutives from frozen ones (\"Brötchen\", \"Würstchen\", \"Häkchen\") and regional forms (\"Weckle\", \"Gipfeli\", \"Krügerl\"), and explain their effect on tone.",
     duration: "18 min",
     sections: [
       {
         heading: "A short story: living or frozen?",
         body: [
           "Read: \"Am Sonntag holte Opa Brötchen, setzte ein Häkchen auf seine Einkaufsliste und gönnte sich am Kiosk ein Würstchen. Dann kaufte er für seine Enkelin ein Kätzchen aus Plüsch und ein kleines Büchlein mit Märchen. Zu Hause wartete schon sein Hündchen.\"",
-          "Frozen (lexicalised) diminutives, no smallness intended: \"Brötchen\" (roll), \"Häkchen\" (tick, check mark, from Haken, hook), \"Würstchen\" (sausage), \"Märchen\" (fairy tale). Living diminutives that really mean small or cute: \"Kätzchen\" (kitten), \"Büchlein\" (little book, emphasised by \"kleines\"), \"Hündchen\" (little dog, with affection).",
+          "Frozen (lexicalised) diminutives, no smallness intended: \"Brötchen\" (roll), \"Häkchen\" (tick, from \"Haken\", hook), \"Würstchen\" (sausage), \"Märchen\" (fairy tale). Living diminutives that really mean small or cute: \"Kätzchen\" (kitten), \"Büchlein\" (little book, emphasised by \"kleines\"), \"Hündchen\" (little dog, with affection).",
           "The test: can you replace it with the base noun + \"klein\" without changing the meaning? \"Ein kleiner Hund\" ≈ \"ein Hündchen\" (living). \"Ein kleines Brot\" ≠ \"ein Brötchen\" (frozen). The mix of frozen and living forms gives the story its cosy, grandfatherly tone.",
         ],
         examples: [
           { es: "Setz bitte ein Häkchen in das Kästchen.", en: "Please put a tick in the box." },
           { es: "Am Kiosk gönnte er sich ein Würstchen.", en: "At the kiosk he treated himself to a sausage." },
           { es: "Zu Hause wartete schon sein Hündchen.", en: "His little dog was already waiting at home." },
-          { es: "„Brötchen“ ist ein erstarrter Diminutiv.", en: "Bread roll is a frozen diminutive." },
+          { es: "„Brötchen“ ist ein erstarrter Diminutiv.", en: "\"Brötchen\" (bread roll) is a frozen diminutive." },
           { es: "Der Ton der Geschichte ist gemütlich.", en: "The tone of the story is cosy." },
         ],
         checkpoint: [
@@ -2368,13 +2368,13 @@ export const DE_C2_U09: Lesson[] = [
         heading: "Explaining the effect",
         body: [
           "Analysis vocabulary: a suffix \"verniedlicht\" (makes cute), \"verkleinert\" (diminishes), \"wertet ab\" (devalues), \"verleiht Lokalkolorit\"; a diminutive is \"lebendig\" (living) or \"erstarrt\" / \"lexikalisiert\" (frozen); the tone is \"gemütlich\" (cosy), \"liebevoll\", \"ironisch\", \"herablassend\".",
-          "Model sentence: \"Die zahlreichen Diminutive verleihen der Geschichte einen gemütlichen, liebevollen Ton, wobei 'Brötchen' und 'Märchen' erstarrte Formen ohne verkleinernde Bedeutung sind.\" Note \"wobei\" (whereby, while) to add a qualification.",
+          "Model sentence: \"Die zahlreichen Diminutive verleihen der Geschichte einen gemütlichen, liebevollen Ton, wobei ‚Brötchen‘ und ‚Märchen‘ erstarrte Formen ohne verkleinernde Bedeutung sind.\" Note \"wobei\" (whereby, while) to add a qualification.",
         ],
         examples: [
           { es: "Der Diminutiv verniedlicht den Hund.", en: "The diminutive makes the dog sound cute." },
           { es: "Die Endung wertet die Person ab.", en: "The ending devalues the person." },
           { es: "Die Diminutive verleihen der Geschichte einen liebevollen Ton.", en: "The diminutives give the story an affectionate tone." },
-          { es: "„Märchen“ ist eine erstarrte Form, wobei die Endung noch erkennbar ist.", en: "Fairy tale is a frozen form, although the ending is still recognisable." },
+          { es: "„Märchen“ ist eine erstarrte Form, wobei die Endung noch erkennbar ist.", en: "\"Märchen\" (fairy tale) is a frozen form, although the ending is still recognisable." },
         ],
         checkpoint: [
           {
@@ -2420,7 +2420,7 @@ export const DE_C2_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "The ending devalues the person.",
         answer: "Die Endung wertet die Person ab.",
-        altAnswers: ["Die Endung wertet die Person herab.", "Das Suffix wertet die Person ab."],
+        altAnswers: ["Die Endung setzt die Person herab.", "Das Suffix wertet die Person ab."],
         explanation: "\"Abwerten\" (separable): \"wertet ... ab\".",
       },
       {
@@ -2492,7 +2492,7 @@ export const DE_C2_U09_WRITING: WriteExercise = {
     "Use at least four exclamations in direct speech, matched to the emotion (\"Nicht dein Ernst!\", \"Ach du Schande!\", \"Mir reicht es!\", \"Na endlich!\")",
     "Use at least two exclamative structures (\"Was für ein ...!\" with the right case, \"Ist das aber ...!\", \"Wenn ich das gewusst hätte!\", \"Ich und ...?!\")",
     "Use diminutives with different values (\"ein Gläschen\", \"Freundchen\", a lexicalised one like \"Brötchen\")",
-    "Use derived words with -erei, Ge-...-e or an intensifying prefix (\"die Warterei\", \"das Gejammer\", \"todmüde\", \"stinksauer\")",
+    "Use derived words with \"-erei\", \"Ge-...-e\" or an intensifying prefix (\"die Warterei\", \"das Gejammer\", \"todmüde\", \"stinksauer\")",
   ],
   modelAnswer: "Was für ein Wochenende! Ich bin immer noch todmüde, aber der Reihe nach.\n\nAm Freitagabend rief meine Schwester an: „Setz dich hin. Ich bin schwanger!“ Ich habe nur geschrien: „Nicht dein Ernst! Das ist ja Wahnsinn!“ Wir haben sofort ein Gläschen Sekt aufgemacht, also ich, sie natürlich nicht, und bis Mitternacht über Namen diskutiert. Ihr Vorschlag: Kunigunde. Ich und meine Nichte Kunigunde nennen? Nie im Leben!\n\nAm Samstagmorgen wollte ich nur schnell Brötchen holen. Was für einen Fehler ich da gemacht habe! Mein Fahrrad war weg, das Schloss lag geknackt am Boden. „Ach du Schande“, dachte ich, und dann etwas weniger Jugendfreies. Die Polizei war freundlich, aber ehrlich: „Tja, da kann man nicht viel machen.“ Wenn ich das gewusst hätte, hätte ich das Rad im Keller gelassen. Also bin ich zu Fuß zum Bäcker, und der hatte natürlich keine Brötchen mehr. Ist das aber ein Tag!\n\nSonntag dann der Klassiker: Ich wollte mit dem Zug nach Leipzig zu meiner Oma, die steinalt ist, aber kerngesund und schlagfertiger als wir alle. Der ICE hatte erst zwanzig, dann fünfzig, dann neunzig Minuten Verspätung. Um mich herum nur Gejammer und Gemecker, ein Typ neben mir war stinksauer und schimpfte ins Handy. Als er mich fast mit seinem Koffer umgerannt hat, hat der Schaffner nur gesagt: „Na, Freundchen, mal ganz ruhig.“ Ich dachte nur: Mir reicht's! Nach dieser endlosen Warterei bin ich am Nachmittag endlich angekommen. Oma öffnete die Tür und sagte: „Na endlich! Der Kuchen wird ja nicht jünger.“\n\nUnd dann saßen wir in ihrem Wohnzimmerchen mit Kaffee und Pflaumenkuchen, sie erzählte Geschichten von früher, und plötzlich war alles wieder gut. Puh! Mir ist wirklich ein Stein vom Herzen gefallen, dass wenigstens dieser Teil geklappt hat.\n\nFazit: ein Baby, ein geklautes Fahrrad und die Deutsche Bahn. Was soll's. Nächstes Wochenende bleibe ich zu Hause, versprochen.",
   explanation: "The post matches exclamations to emotions (\"Nicht dein Ernst!\", \"Ach du Schande\", \"Mir reicht es!\", \"Na endlich!\", \"Puh!\"), uses exclamative structures (\"Was für einen Fehler\" in the accusative, \"Ist das aber ein Tag!\", \"Wenn ich das gewusst hätte\", the infinitive \"Ich und ... nennen?\"), diminutives of different values (\"Gläschen\", \"Freundchen\", frozen \"Brötchen\") and derived words (\"Gejammer\", \"Gemecker\", \"Warterei\", \"todmüde\", \"steinalt\", \"stinksauer\").",

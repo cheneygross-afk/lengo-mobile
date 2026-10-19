@@ -35,7 +35,7 @@ export const DE_B2_U19_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "You want to say: I showed it to the guest. Which sentence is correct?",
             options: ["Ich habe es dem Gast gezeigt.", "Ich habe dem Gast es gezeigt.", "Ich habe ihm es gezeigt.", "Ich habe gezeigt es ihm."],
             correctIndex: 0,
             explanation: "The pronoun comes before the noun.",
@@ -60,7 +60,7 @@ export const DE_B2_U19_EXTRA: Lesson[] = [
         source: "I lent it to him.",
         answer: "Ich habe es ihm geliehen.",
         altAnswers: ["Ich lieh es ihm."],
-        explanation: "Two pronouns: es before ihm.",
+        explanation: "Two pronouns: accusative \"es\" before dative \"ihm\".",
       },
       {
         type: "translate",
@@ -96,12 +96,12 @@ export const DE_B2_U19_EXTRA: Lesson[] = [
         source: "Can you explain it to me?",
         answer: "Kannst du es mir erklären?",
         altAnswers: ["Können Sie es mir erklären?", "Könnt ihr es mir erklären?", "Kannst du mir das erklären?", "Können Sie mir das erklären?", "Könnt ihr mir das erklären?"],
-        explanation: "Es before mir. With the stressed demonstrative \"das\" the order mir das is also normal.",
+        explanation: "\"Es\" before \"mir\". With the stressed demonstrative \"das\" the order \"mir das\" is also normal.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, starting with Gestern.",
+        prompt: "Translate into German, starting with \"Gestern\".",
         source: "Yesterday my neighbour helped me with the move.",
         answer: "Gestern hat mir mein Nachbar beim Umzug geholfen.",
         altAnswers: ["Gestern hat mir meine Nachbarin beim Umzug geholfen.", "Gestern hat mein Nachbar mir beim Umzug geholfen.", "Gestern hat meine Nachbarin mir beim Umzug geholfen.", "Gestern half mir mein Nachbar beim Umzug.", "Gestern half mir meine Nachbarin beim Umzug."],
@@ -151,7 +151,7 @@ export const DE_B2_U19_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "You want to say: I'll bring them to you tomorrow. Which sentence is correct?",
         options: ["Ich bringe sie dir morgen.", "Ich bringe dir sie morgen.", "Ich bringe morgen dir sie.", "Ich bringe sie morgen dir."],
         correctIndex: 0,
         explanation: "Accusative pronoun before dative pronoun.",
@@ -184,7 +184,7 @@ export const DE_B2_U19_EXTRA: Lesson[] = [
       {
         heading: "Recap: late, or right before the target",
         body: [
-          "Sentence negation: nicht goes late, after pronouns, definite objects and most time words, but before the final verb part, a predicate adjective or noun, a separable prefix and a directional or required place phrase. Constituent negation: nicht directly before the one element you correct, usually followed by sondern. Indefinite nouns take kein.",
+          "Sentence negation: \"nicht\" goes late, after pronouns, definite objects and most time words, but before the final verb part, a predicate adjective or noun, a separable prefix and a directional or required place phrase. Constituent negation: \"nicht\" directly before the one element you correct, usually followed by \"sondern\". Indefinite nouns take \"kein\".",
         ],
         examples: [
           { es: "Ich kenne den Mann nicht.", en: "I don't know the man." },
@@ -201,14 +201,14 @@ export const DE_B2_U19_EXTRA: Lesson[] = [
             source: "She isn't coming along today.",
             answer: "Sie kommt heute nicht mit.",
             altAnswers: ["Heute kommt sie nicht mit."],
-            explanation: "Nicht before the separable prefix.",
+            explanation: "\"Nicht\" before the separable prefix.",
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "You want to say: I don't know the man. Which sentence is correct?",
             options: ["Ich kenne den Mann nicht.", "Ich kenne nicht den Mann.", "Ich nicht kenne den Mann.", "Nicht ich kenne den Mann nicht."],
             correctIndex: 0,
-            explanation: "Definite object before nicht. (\"Ich kenne nicht den Mann, sondern ...\" would be a correction.)",
+            explanation: "Definite object before \"nicht\". (\"Ich kenne nicht den Mann, sondern ...\" would be a correction.)",
           },
         ],
       },
@@ -221,7 +221,7 @@ export const DE_B2_U19_EXTRA: Lesson[] = [
         source: "I'm not going to the office today.",
         answer: "Ich gehe heute nicht ins Büro.",
         altAnswers: ["Heute gehe ich nicht ins Büro.", "Ich fahre heute nicht ins Büro."],
-        explanation: "Nicht before the directional phrase.",
+        explanation: "\"Nicht\" before the directional phrase.",
       },
       {
         type: "translate",
@@ -229,7 +229,7 @@ export const DE_B2_U19_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The water isn't cold.",
         answer: "Das Wasser ist nicht kalt.",
-        explanation: "Nicht before the predicate adjective.",
+        explanation: "\"Nicht\" before the predicate adjective.",
       },
       {
         type: "translate",
@@ -238,7 +238,7 @@ export const DE_B2_U19_EXTRA: Lesson[] = [
         source: "We didn't find the keys.",
         answer: "Wir haben die Schlüssel nicht gefunden.",
         altAnswers: ["Wir fanden die Schlüssel nicht."],
-        explanation: "Definite object before nicht.",
+        explanation: "Definite object before \"nicht\".",
       },
       {
         type: "translate",
@@ -247,12 +247,12 @@ export const DE_B2_U19_EXTRA: Lesson[] = [
         source: "We didn't find any keys.",
         answer: "Wir haben keine Schlüssel gefunden.",
         altAnswers: ["Wir fanden keine Schlüssel."],
-        explanation: "Indefinite noun → kein.",
+        explanation: "Indefinite noun → \"kein\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with nicht ... sondern.",
+        prompt: "Translate into German with \"nicht ... sondern\".",
         source: "It's not your fault, it's mine.",
         answer: "Nicht du bist schuld, sondern ich.",
         altAnswers: ["Nicht Sie sind schuld, sondern ich.", "Nicht ihr seid schuld, sondern ich.", "Du bist nicht schuld, sondern ich."],
@@ -261,11 +261,11 @@ export const DE_B2_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with nicht ... sondern.",
+        prompt: "Translate into German with \"nicht ... sondern\".",
         source: "I called not him but his wife.",
         answer: "Ich habe nicht ihn angerufen, sondern seine Frau.",
         altAnswers: ["Ich habe nicht ihn, sondern seine Frau angerufen.", "Ich rief nicht ihn an, sondern seine Frau."],
-        explanation: "Nicht directly before the pronoun it negates.",
+        explanation: "\"Nicht\" directly before the pronoun it negates.",
       },
       {
         type: "translate",
@@ -286,11 +286,11 @@ export const DE_B2_U19_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with nicht ... sondern.",
+        prompt: "Translate into German with \"nicht ... sondern\".",
         source: "The meeting is not on Monday but on Tuesday.",
         answer: "Das Treffen ist nicht am Montag, sondern am Dienstag.",
         altAnswers: ["Die Besprechung ist nicht am Montag, sondern am Dienstag.", "Das Meeting ist nicht am Montag, sondern am Dienstag.", "Die Sitzung ist nicht am Montag, sondern am Dienstag."],
-        explanation: "Nicht before the corrected time.",
+        explanation: "\"Nicht\" before the corrected time.",
       },
       {
         type: "fill-blank",
@@ -298,7 +298,7 @@ export const DE_B2_U19_EXTRA: Lesson[] = [
         en: "Unfortunately I [didn't understand the question].",
         sentence: "Leider habe ich ___.",
         answer: "die Frage nicht verstanden",
-        explanation: "Definite object, then nicht, then participle.",
+        explanation: "Definite object, then \"nicht\", then participle.",
       },
       {
         type: "fill-blank",
@@ -307,21 +307,21 @@ export const DE_B2_U19_EXTRA: Lesson[] = [
         sentence: "Er ist ___, sondern Krankenpfleger.",
         answer: "kein Arzt",
         altAnswers: ["nicht Arzt"],
-        explanation: "Professions without article: kein is usual, nicht also possible.",
+        explanation: "Professions without an article: \"kein\" is usual, \"nicht\" is also possible; \"sondern\" then gives the correct job.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: I didn't give him the letter.",
         words: ["Ich", "habe", "ihm", "den Brief", "nicht", "gegeben."],
         translation: "I didn't give him the letter.",
-        explanation: "Pronoun and definite object before nicht.",
+        explanation: "Pronoun and definite object before \"nicht\".",
       },
       {
         type: "multiple-choice",
-        question: "'Ich fahre nicht mit dem Zug nach Berlin.' What does it most likely mean?",
+        question: "\"Ich fahre nicht mit dem Zug nach Berlin.\" What does it most likely mean?",
         options: ["I'm going to Berlin, but not by train.", "I'm not going to Berlin at all.", "I'm going by train, but not to Berlin.", "Someone else is going by train."],
         correctIndex: 0,
-        explanation: "Nicht before \"mit dem Zug\" targets the means of transport.",
+        explanation: "\"Nicht\" before \"mit dem Zug\" targets the means of transport.",
       },
       {
         type: "dictation",
@@ -348,7 +348,7 @@ export const DE_B2_U19_EXTRA: Lesson[] = [
       {
         heading: "Recap: what may go after the verb",
         body: [
-          "Always fine in the Nachfeld: subordinate clauses (dass, weil, relative clauses) and comparisons with als / wie. Fine in speech, less so in formal writing: longer prepositional phrases (\"Ich habe lange gewartet auf dich\"). Never: plain objects, short adverbs or predicate adjectives (\"*Ich habe gekauft Brot\", \"*Er ist geworden krank\").",
+          "Always fine in the Nachfeld: subordinate clauses (\"dass\", \"weil\", relative clauses) and comparisons with \"als\" / \"wie\". Fine in speech, less so in formal writing: longer prepositional phrases (\"Ich habe lange gewartet auf dich\"). Never: plain objects, short adverbs or predicate adjectives (\"*Ich habe gekauft Brot\", \"*Er ist geworden krank\").",
         ],
         examples: [
           { es: "Sie hat mehr verdient als ihr Mann.", en: "She earned more than her husband." },
@@ -473,7 +473,7 @@ export const DE_B2_U19_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: The film was better than I thought.",
         words: ["Der Film", "ist", "besser", "gewesen,", "als", "ich", "gedacht", "habe."],
         translation: "The film was better than I thought.",
-        explanation: "A comparative clause with als follows the final verb.",
+        explanation: "A comparative clause with \"als\" follows the final verb, after a comma.",
       },
       {
         type: "multiple-choice",

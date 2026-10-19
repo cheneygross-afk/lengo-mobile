@@ -86,7 +86,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The towels [weren't changed] for three days.",
+        en: "The towels [were] not changed for three days.",
         sentence: "Die Handtücher ___ drei Tage lang nicht gewechselt.",
         answer: "wurden",
         explanation: "Here the missing action is the point, repeated over three days: werden-passive \"wurden ... gewechselt\".",
@@ -272,7 +272,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is a correct instruction in a formal manual?",
+        question: "The filter must be changed every month. Which sentence is a correct instruction in a formal manual?",
         options: ["Der Filter ist monatlich zu wechseln.", "Der Filter ist monatlich wechseln.", "Der Filter lässt sich monatlich zu wechseln.", "Der Filter muss monatlich zu wechseln."],
         correctIndex: 0,
         explanation: "Only \"sein\" takes \"zu\": \"ist ... zu wechseln\". \"Lässt sich\" and \"muss\" take a bare infinitive.",
@@ -316,7 +316,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
         type: "listen-choose",
         audio: "Den Kuchen zehn Minuten abkühlen lassen.",
         question: "What does it mean?",
-        options: ["Let the cake cool for ten minutes.", "Cool the cake for ten minutes, then serve it.", "Bake the cake for ten minutes.", "The cake can be kept for ten minutes."],
+        options: ["Let the cake cool for ten minutes.", "Cut the cake after ten minutes.", "Bake the cake for ten minutes.", "The cake can be kept for ten minutes."],
         correctIndex: 0,
         explanation: "\"Abkühlen lassen\" = let cool. The infinitive form is a recipe instruction.",
       },
@@ -354,7 +354,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "What does Der Bahnhof ist zu Fuß gut zu erreichen mean?",
+            question: "What does \"Der Bahnhof ist zu Fuß gut zu erreichen\" mean?",
             options: ["The station is easy to reach on foot.", "You must walk to the station.", "The station is too far to walk.", "The station has been reached on foot."],
             correctIndex: 0,
             explanation: "With \"gut\", sein + zu expresses possibility: easy to reach.",
@@ -411,7 +411,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The noise is [hardly bearable].",
+        en: "The noise is [hardly] bearable.",
         sentence: "Der Lärm ist ___ zu ertragen.",
         answer: "kaum",
         explanation: "\"Kaum zu ertragen\": kaum signals possibility (can hardly be borne).",
@@ -546,7 +546,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The washing machine [can be operated] with a card.",
+        en: "The washing machine [can] be operated with a card.",
         sentence: "Die Waschmaschine ___ sich mit einer Karte bedienen.",
         answer: "lässt",
         explanation: "Possibility: \"lässt sich bedienen\".",
@@ -554,7 +554,7 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The basement [is locked] at night.",
+        en: "The basement is [locked] at night.",
         sentence: "Der Keller ist nachts ___.",
         answer: "abgeschlossen",
         explanation: "A state: Zustandspassiv \"ist abgeschlossen\".",
@@ -592,8 +592,8 @@ export const DE_B2_U06_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Damage must be reported to the management immediately.",
         answer: "Schäden sind der Hausverwaltung sofort zu melden.",
-        altAnswers: ["Schäden sind sofort der Hausverwaltung zu melden.", "Schäden müssen der Hausverwaltung sofort gemeldet werden.", "Schäden sind der Hausverwaltung unverzüglich zu melden."],
-        explanation: "\"Jemandem etwas melden\": the Hausverwaltung is dative (no zu, no an needed).",
+        altAnswers: ["Schäden sind sofort der Hausverwaltung zu melden.", "Schäden müssen der Hausverwaltung sofort gemeldet werden.", "Schäden sind der Hausverwaltung unverzüglich zu melden.", "Schäden sind sofort an die Hausverwaltung zu melden.", "Schäden sind an die Hausverwaltung sofort zu melden."],
+        explanation: "\"Jemandem etwas melden\": dative \"der Hausverwaltung\" with no preposition, or \"an die Hausverwaltung melden\". Plural \"Schäden\" → \"sind\".",
       },
       {
         type: "translate",

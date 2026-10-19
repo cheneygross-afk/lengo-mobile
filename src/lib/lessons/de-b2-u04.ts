@@ -41,7 +41,7 @@ export const DE_B2_U04: Lesson[] = [
             question: "How do you say: I don't know if the shop is open today.",
             options: ["Ich weiß nicht, ob der Laden heute offen ist.", "Ich weiß nicht, wenn der Laden heute offen ist.", "Ich weiß nicht, ob ist der Laden heute offen.", "Ich weiß nicht, dass der Laden heute offen ist."],
             correctIndex: 0,
-            explanation: "If = whether → \"ob\", with the verb at the end.",
+            explanation: "If = whether → \"ob\", with the verb at the end. \"Wenn\" is only for conditions (and when); \"dass\" states a fact you know.",
           },
         ],
       },
@@ -167,8 +167,8 @@ export const DE_B2_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "The doctor wanted to know if I had any allergies. (formal report)",
         answer: "Der Arzt wollte wissen, ob ich Allergien hätte.",
-        altAnswers: ["Die Ärztin wollte wissen, ob ich Allergien hätte.", "Der Arzt wollte wissen, ob ich Allergien habe.", "Die Ärztin wollte wissen, ob ich Allergien habe."],
-        explanation: "Any = no word in German here: \"ob ich Allergien hätte\".",
+        altAnswers: ["Die Ärztin wollte wissen, ob ich Allergien hätte.", "Der Arzt wollte wissen, ob ich Allergien habe.", "Die Ärztin wollte wissen, ob ich Allergien habe.", "Der Arzt wollte wissen, ob ich irgendwelche Allergien hätte.", "Der Arzt wollte wissen, ob ich irgendwelche Allergien habe."],
+        explanation: "Any usually needs no word in German (\"irgendwelche\" is possible): \"ob ich Allergien hätte\"; \"ich habe\" looks like the indicative, so formally \"hätte\".",
       },
       {
         type: "fill-blank",
@@ -188,10 +188,10 @@ export const DE_B2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "How do you say: He asked me to help him.",
         options: ["Er bat mich, ihm zu helfen.", "Er fragte mich, ihm zu helfen.", "Er fragte mich zu helfen ihm.", "Er bat mich, dass ich ihm helfe solle."],
         correctIndex: 0,
-        explanation: "Asking someone to do something: \"bitten\", not \"fragen\".",
+        explanation: "Asking someone to do something: \"bitten\" + zu-infinitive. \"Fragen\" only asks questions, and \"dass ... solle\" can't follow \"bat mich\" like that.",
       },
       {
         type: "word-order",
@@ -284,7 +284,7 @@ export const DE_B2_U04: Lesson[] = [
             prompt: "Translate into German.",
             source: "He wants to know if somebody's at home in the morning. (formal report)",
             answer: "Er will wissen, ob morgens jemand zu Hause sei.",
-            altAnswers: ["Er will wissen, ob morgens jemand zu Hause ist.", "Er möchte wissen, ob morgens jemand zu Hause sei.", "Er will wissen, ob am Morgen jemand zu Hause sei."],
+            altAnswers: ["Er will wissen, ob morgens jemand zu Hause ist.", "Er möchte wissen, ob morgens jemand zu Hause sei.", "Er will wissen, ob am Morgen jemand zu Hause sei.", "Er will wissen, ob morgens jemand zuhause sei."],
             explanation: "\"Ob\" + \"sei\" at the end.",
           },
           {
@@ -429,7 +429,7 @@ export const DE_B2_U04: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Error Hunt: Indirect Speech",
-    summary: "Fix the classics: *ob er kann kommen, *dass ich solle warten, *fragte mich zu warten, *sie haben keine Zeit, *fragt, wenn ich komme.",
+    summary: "Fix the classics: \"*ob er kann kommen\", \"*dass ich solle warten\", \"*fragte mich zu warten\", \"*sie haben keine Zeit\", \"*fragt, wenn ich komme\".",
     duration: "14 min",
     sections: [
       {
@@ -448,7 +448,7 @@ export const DE_B2_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"Er fragte, ob er kann kommen.\" Write the correct German for: He asked if he could come.",
+            prompt: "A learner wrote \"*Er fragte, ob er kann kommen.\" Write the correct German for: He asked if he could come.",
             source: "He asked if he could come.",
             answer: "Er fragte, ob er kommen könne.",
             altAnswers: ["Er hat gefragt, ob er kommen könne.", "Er fragte, ob er kommen kann.", "Er hat gefragt, ob er kommen kann.", "Er fragte, ob er kommen dürfe.", "Er fragte, ob er kommen könnte."],
@@ -481,7 +481,7 @@ export const DE_B2_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"Er fragte mich zu warten.\" Write the correct German for: He asked me to wait.",
+            prompt: "A learner wrote \"*Er fragte mich zu warten.\" Write the correct German for: He asked me to wait.",
             source: "He asked me to wait.",
             answer: "Er bat mich zu warten.",
             altAnswers: ["Er bat mich, zu warten.", "Er hat mich gebeten zu warten.", "Er hat mich gebeten, zu warten.", "Er sagte, ich solle warten.", "Er hat gesagt, ich solle warten.", "Er hat gesagt, ich soll warten."],
@@ -489,10 +489,10 @@ export const DE_B2_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "He asks if I'm coming. Which sentence is correct?",
             options: ["Er fragt, ob ich komme.", "Er fragt, wenn ich komme.", "Er fragt, dass ich komme.", "Er fragt, ob komme ich."],
             correctIndex: 0,
-            explanation: "If = whether → \"ob\".",
+            explanation: "If = whether → \"ob\", verb at the end. \"Wenn\" would mean whenever; \"dass\" can't report a question.",
           },
         ],
       },
@@ -512,7 +512,7 @@ export const DE_B2_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"Sie sagten, sie haben keine Zeit.\" Write the correct formal German for: They said they had no time.",
+            prompt: "A learner wrote \"*Sie sagten, sie haben keine Zeit.\" Write the correct formal German for: They said they had no time.",
             source: "They said they had no time.",
             answer: "Sie sagten, sie hätten keine Zeit.",
             altAnswers: ["Sie sagten, dass sie keine Zeit hätten.", "Sie haben gesagt, sie hätten keine Zeit."],
@@ -533,16 +533,16 @@ export const DE_B2_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"Er wollte wissen, wo arbeite ich.\" Translate: He wanted to know where I work.",
+        prompt: "Fix \"*Er wollte wissen, wo arbeite ich.\" Translate: He wanted to know where I work.",
         source: "He wanted to know where I work.",
         answer: "Er wollte wissen, wo ich arbeite.",
-        altAnswers: ["Er wollte wissen, wo ich arbeiten würde.", "Er wollte wissen, wo ich arbeitete."],
+        altAnswers: ["Er wollte wissen, wo ich arbeitete.", "Er wollte wissen, wo ich arbeiten würde."],
         explanation: "Verb at the end of the W-clause.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"Ich weiß nicht, ob sie ruft heute an.\" Translate: I don't know if she'll call today.",
+        prompt: "Fix \"*Ich weiß nicht, ob sie ruft heute an.\" Translate: I don't know if she'll call today.",
         source: "I don't know if she'll call today.",
         answer: "Ich weiß nicht, ob sie heute anruft.",
         altAnswers: ["Ich weiß nicht, ob sie heute anrufen wird."],
@@ -551,7 +551,7 @@ export const DE_B2_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"Sie fragte uns zu leiser sein.\" Translate: She asked us to be quieter.",
+        prompt: "Fix \"*Sie fragte uns zu leiser sein.\" Translate: She asked us to be quieter.",
         source: "She asked us to be quieter.",
         answer: "Sie bat uns, leiser zu sein.",
         altAnswers: ["Sie hat uns gebeten, leiser zu sein.", "Sie sagte, wir sollten leiser sein.", "Sie hat gesagt, wir sollen leiser sein."],
@@ -560,7 +560,7 @@ export const DE_B2_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"Er sagte, er war krank.\" (original: \"Ich bin krank.\") Translate formally: He said he was ill.",
+        prompt: "Fix \"*Er sagte, er war krank.\" (original: \"Ich bin krank.\") Translate formally: He said he was ill.",
         source: "He said he was ill.",
         answer: "Er sagte, er sei krank.",
         altAnswers: ["Er sagte, dass er krank sei.", "Er hat gesagt, er sei krank."],
@@ -569,7 +569,7 @@ export const DE_B2_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"Sie fragt, wenn das Museum geöffnet ist.\" Translate: She asks if the museum is open.",
+        prompt: "Fix \"*Sie fragt, wenn das Museum geöffnet ist.\" Translate: She asks if the museum is open.",
         source: "She asks if the museum is open.",
         answer: "Sie fragt, ob das Museum geöffnet ist.",
         altAnswers: ["Sie fragt, ob das Museum geöffnet sei.", "Sie fragt, ob das Museum offen ist.", "Sie fragt, ob das Museum offen sei."],
@@ -594,7 +594,7 @@ export const DE_B2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct in formal German?",
+        question: "The company announced it would hire new staff. Which sentence is correct in formal German?",
         options: ["Die Firma teilte mit, sie werde neue Mitarbeiter einstellen.", "Die Firma teilte mit, sie wird neue Mitarbeiter einstellen werde.", "Die Firma teilte mit, dass sie werde neue Mitarbeiter einstellen.", "Die Firma teilte mit, sie würde neue Mitarbeiter eingestellt."],
         correctIndex: 0,
         explanation: "\"Werde\" + infinitive, main-clause order without \"dass\".",
@@ -632,7 +632,7 @@ export const DE_B2_U04: Lesson[] = [
     slug: "b2-story-gaps-die-nachrichten",
     level: "DE-B2",
     number: 4,
-    title: "Story with Gaps: Die Nachrichten um Acht",
+    title: "Story with Gaps: Die Nachrichten um acht",
     summary: "A Tagesschau-style bulletin about floods and a rail strike: fill in Konjunktiv I, laut, zufolge and wie ... mitteilte.",
     duration: "15 min",
     sections: [
@@ -640,12 +640,12 @@ export const DE_B2_U04: Lesson[] = [
         heading: "Meldung 1: Hochwasser in Bayern",
         body: [
           "German TV news (the \"Tagesschau\" at 8 pm is the classic) packs a lot of reported speech into a few sentences. Three tools appear constantly: the Konjunktiv I, \"laut\" + source (according to), and \"wie ... mitteilte\" (as ... announced).",
-          "\"Wie ein Sprecher der Polizei mitteilte, seien zwei Personen verletzt worden.\" The wie-clause names the source; the main clause starts with its verb (\"seien\"), because the wie-clause fills position 1. You'll often hear the indicative after \"wie\" too, since the source is already named.",
+          "\"Wie ein Sprecher der Polizei mitteilte, wurden zwei Personen verletzt.\" The wie-clause names the source; the main clause starts with its verb (\"wurden\"), because the wie-clause fills position 1. Because the source is already named, the indicative is usual after a wie-clause; you will also meet the Konjunktiv I there (\"..., seien zwei Personen verletzt worden\"). After a reporting verb (\"Der Sprecher teilte mit, ...\") the Konjunktiv I is the standard choice: \"Ein Sprecher teilte mit, zwei Personen seien verletzt worden.\"",
           "Vocabulary: \"das Hochwasser\" (flood), \"über die Ufer treten\" (to burst its banks), \"evakuieren\", \"die Feuerwehr\" (fire brigade), \"die Einsatzkräfte\" (emergency services).",
         ],
         examples: [
           { es: "In Bayern ist die Donau über die Ufer getreten.", en: "In Bavaria the Danube has burst its banks." },
-          { es: "Wie ein Sprecher der Polizei mitteilte, seien zwei Personen verletzt worden.", en: "As a police spokesman announced, two people were injured." },
+          { es: "Wie ein Sprecher der Polizei mitteilte, wurden zwei Personen verletzt.", en: "As a police spokesman announced, two people were injured." },
           { es: "Laut Feuerwehr wurden rund 300 Menschen evakuiert.", en: "According to the fire brigade, around 300 people were evacuated." },
           { es: "Die Einsatzkräfte seien die ganze Nacht im Einsatz gewesen.", en: "(They said) the emergency services had been working all night." },
           { es: "Der Ministerpräsident sagte, das Land werde schnell helfen.", en: "The state premier said the state would help quickly." },
@@ -656,9 +656,9 @@ export const DE_B2_U04: Lesson[] = [
             direction: "en-es",
             prompt: "Translate into German.",
             source: "As a police spokesman announced, two people were injured. (news style)",
-            answer: "Wie ein Sprecher der Polizei mitteilte, seien zwei Personen verletzt worden.",
-            altAnswers: ["Wie ein Polizeisprecher mitteilte, seien zwei Personen verletzt worden.", "Wie ein Sprecher der Polizei mitteilte, wurden zwei Personen verletzt.", "Wie ein Polizeisprecher mitteilte, wurden zwei Personen verletzt."],
-            explanation: "The wie-clause fills position 1; the main clause starts with \"seien\" (or \"wurden\"). Passive past: \"verletzt worden\".",
+            answer: "Wie ein Sprecher der Polizei mitteilte, wurden zwei Personen verletzt.",
+            altAnswers: ["Wie ein Polizeisprecher mitteilte, wurden zwei Personen verletzt.", "Wie ein Sprecher der Polizei mitteilte, seien zwei Personen verletzt worden.", "Wie ein Polizeisprecher mitteilte, seien zwei Personen verletzt worden.", "Wie ein Sprecher der Polizei mitteilte, sind zwei Personen verletzt worden.", "Wie ein Polizeisprecher mitteilte, sind zwei Personen verletzt worden."],
+            explanation: "The wie-clause fills position 1, so the main clause starts with its verb. With the source already named, the indicative \"wurden ... verletzt\" is usual; the Konjunktiv I \"seien ... verletzt worden\" is also accepted.",
           },
           {
             type: "fill-blank",
@@ -679,7 +679,7 @@ export const DE_B2_U04: Lesson[] = [
         ],
         examples: [
           { es: "Die Gewerkschaft kündigte an, der Streik werde bis Freitag dauern.", en: "The union announced that the strike would last until Friday." },
-          { es: "Der Deutschen Bahn zufolge fallen rund 80 Prozent der Fernzüge aus.", en: "According to Deutsche Bahn, around 80 percent of long-distance trains are cancelled." },
+          { es: "Der Deutschen Bahn zufolge fallen rund 80 Prozent der Fernzüge aus.", en: "According to Deutsche Bahn, around 80 per cent of long-distance trains are cancelled." },
           { es: "Ein Bahnsprecher sagte, man habe einen Notfahrplan eingerichtet.", en: "A rail spokesman said an emergency timetable had been set up." },
           { es: "Fahrgäste sollten nach Möglichkeit auf Reisen verzichten.", en: "(They said) passengers should avoid travelling if possible." },
           { es: "Medienberichten zufolge gibt es noch keine Gespräche.", en: "According to media reports, there are no talks yet." },
@@ -751,7 +751,7 @@ export const DE_B2_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "According to Deutsche Bahn, 80 percent of long-distance trains are cancelled.",
+        source: "According to Deutsche Bahn, 80 per cent of long-distance trains are cancelled.",
         answer: "Der Deutschen Bahn zufolge fallen 80 Prozent der Fernzüge aus.",
         altAnswers: ["Laut Deutscher Bahn fallen 80 Prozent der Fernzüge aus.", "Laut der Deutschen Bahn fallen 80 Prozent der Fernzüge aus.", "Der Deutschen Bahn zufolge fielen 80 Prozent der Fernzüge aus."],
         explanation: "\"Zufolge\" after the dative noun; or \"laut\" before it.",
@@ -785,14 +785,14 @@ export const DE_B2_U04: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[According to the report], the dam is safe.",
+        en: "[According to] the report, the dam is safe.",
         sentence: "Dem Bericht ___ ist der Damm sicher.",
         answer: "zufolge",
         explanation: "\"Zufolge\" follows the dative noun.",
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct?",
+        question: "How do you say 'according to the police' with \"zufolge\"?",
         options: ["der Polizei zufolge", "zufolge der Polizei", "zufolge die Polizei", "der Polizei laut"],
         correctIndex: 0,
         explanation: "\"Zufolge\" comes after the noun in the dative; \"laut\" before.",
@@ -826,10 +826,10 @@ export const DE_B2_U04: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Wie ein Sprecher der Polizei mitteilte, seien zwei Personen verletzt worden.",
-        prompt: "Read it like a newsreader: As a police spokesman announced, two people were injured.",
+        text: "Ein Sprecher der Polizei teilte mit, zwei Personen seien verletzt worden.",
+        prompt: "Read it like a newsreader: A police spokesman announced that two people had been injured.",
         tip: "Newsreaders stress the content words: SPRE-cher, PO-li-zei, ver-LETZT.",
-        explanation: "\"Wie ... mitteilte\" names the source; \"seien ... verletzt worden\" reports it.",
+        explanation: "After the reporting verb \"teilte mit\" the Konjunktiv I \"seien ... verletzt worden\" reports the statement. (After \"Wie ... mitteilte,\" the indicative would be usual.)",
       },
     ],
   },
@@ -837,7 +837,7 @@ export const DE_B2_U04: Lesson[] = [
     slug: "b2-qa-er-hat-gefragt-ob",
     level: "DE-B2",
     number: 5,
-    title: "Questions and Answers: Er Hat Gefragt, Ob...",
+    title: "Questions and Answers: Er hat gefragt, ob...",
     summary: "Report the questions you were asked at the Bürgeramt, the doctor's and a job interview.",
     duration: "13 min",
     sections: [
@@ -1061,7 +1061,7 @@ export const DE_B2_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Leon wrote \"Der Kassenwart berichtete, die Finanzen sind stabil.\" Write the correct minutes for: The treasurer reported that the finances were stable.",
+            prompt: "Leon wrote \"*Der Kassenwart berichtete, die Finanzen sind stabil.\" Write the correct minutes for: The treasurer reported that the finances were stable.",
             source: "The treasurer reported that the finances were stable.",
             answer: "Der Kassenwart berichtete, die Finanzen seien stabil.",
             altAnswers: ["Der Kassenwart berichtete, dass die Finanzen stabil seien."],
@@ -1082,7 +1082,7 @@ export const DE_B2_U04: Lesson[] = [
         body: [
           "Leon's draft: \"Frau Schneider fragte, steigt der Mitgliedsbeitrag?\" That's a direct question inside reported speech. Fix: \"Frau Schneider fragte, ob der Mitgliedsbeitrag steigen werde.\"",
           "Draft: \"Herr Yılmaz wollte wissen, wann wird der neue Kunstrasen gebaut.\" Fix: \"..., wann der neue Kunstrasen gebaut werde.\" (\"Der Kunstrasen\": artificial turf.)",
-          "Draft: \"Mehrere Eltern fragten, wenn es mehr Trainer gibt.\" Two errors: \"wenn\" for whether, and an indicative plural. Fix: \"Mehrere Eltern fragten, ob es mehr Trainer geben werde.\" (\"Es gebe\" is singular, so fine here.)",
+          "Draft: \"Mehrere Eltern fragten, wenn es mehr Trainer gibt.\" Two errors: \"wenn\" for whether, and the indicative \"gibt\" in formal minutes. Fix: \"Mehrere Eltern fragten, ob es mehr Trainer geben werde.\" (\"ob es mehr Trainer gebe\" is fine too: \"es\" is singular, so \"gebe\" is distinct.)",
         ],
         examples: [
           { es: "Frau Schneider fragte, ob der Mitgliedsbeitrag steigen werde.", en: "Ms Schneider asked whether the membership fee would go up." },
@@ -1094,7 +1094,7 @@ export const DE_B2_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Leon wrote \"Mehrere Eltern fragten, wenn es mehr Trainer gibt.\" Write the correct minutes for: Several parents asked whether there would be more coaches.",
+            prompt: "Leon wrote \"*Mehrere Eltern fragten, wenn es mehr Trainer gibt.\" Write the correct minutes for: Several parents asked whether there would be more coaches.",
             source: "Several parents asked whether there would be more coaches.",
             answer: "Mehrere Eltern fragten, ob es mehr Trainer geben werde.",
             altAnswers: ["Mehrere Eltern fragten, ob es mehr Trainer gebe.", "Mehrere Eltern fragten, ob es mehr Trainer geben würde."],
@@ -1105,7 +1105,7 @@ export const DE_B2_U04: Lesson[] = [
             prompt: "Put the words in order to say: He wanted to know when the pitch would be built.",
             words: ["Er", "wollte", "wissen,", "wann", "der", "Platz", "gebaut", "werde."],
             translation: "He wanted to know when the pitch would be built.",
-            explanation: "Passive future in Konjunktiv I: \"gebaut werde\" at the end.",
+            explanation: "Konjunktiv I of the passive: \"gebaut werde\" at the end (the present passive is used for the future here).",
           },
         ],
       },
@@ -1126,7 +1126,7 @@ export const DE_B2_U04: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Leon wrote \"Er fragte die Mitglieder, beim Vereinsfest zu helfen.\" Write the correct minutes for: He asked members to help at the club party.",
+            prompt: "Leon wrote \"*Er fragte die Mitglieder, beim Vereinsfest zu helfen.\" Write the correct minutes for: He asked members to help at the club party.",
             source: "He asked members to help at the club party.",
             answer: "Er bat die Mitglieder, beim Vereinsfest zu helfen.",
             altAnswers: ["Er bat die Mitglieder, beim Vereinsfest mitzuhelfen.", "Er hat die Mitglieder gebeten, beim Vereinsfest zu helfen."],
@@ -1147,7 +1147,7 @@ export const DE_B2_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"Der Vorsitzende sagte, der Verein hat 40 neue Mitglieder.\" Translate: The chair said the club had 40 new members.",
+        prompt: "Fix \"*Der Vorsitzende sagte, der Verein hat 40 neue Mitglieder.\" Translate: The chair said the club had 40 new members.",
         source: "The chair said the club had 40 new members.",
         answer: "Der Vorsitzende sagte, der Verein habe 40 neue Mitglieder.",
         altAnswers: ["Der Vorsitzende sagte, dass der Verein 40 neue Mitglieder habe.", "Der Vorsitzende sagte, der Verein habe vierzig neue Mitglieder."],
@@ -1156,7 +1156,7 @@ export const DE_B2_U04: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"Frau Schneider fragte, steigt der Mitgliedsbeitrag?\" Translate: Ms Schneider asked whether the fee would go up.",
+        prompt: "Fix \"*Frau Schneider fragte, steigt der Mitgliedsbeitrag?\" Translate: Ms Schneider asked whether the fee would go up.",
         source: "Ms Schneider asked whether the fee would go up.",
         answer: "Frau Schneider fragte, ob der Beitrag steigen werde.",
         altAnswers: ["Frau Schneider fragte, ob der Mitgliedsbeitrag steigen werde.", "Frau Schneider fragte, ob der Beitrag steige.", "Frau Schneider fragte, ob der Mitgliedsbeitrag steige."],
@@ -1207,10 +1207,10 @@ export const DE_B2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct for formal minutes?",
+        question: "The coaches said they had too few balls. Which sentence is correct for formal minutes?",
         options: ["Die Trainer sagten, sie hätten zu wenig Bälle.", "Die Trainer sagten, sie haben zu wenig Bälle.", "Die Trainer sagten, wir haben zu wenig Bälle.", "Die Trainer sagten, sie habe zu wenig Bälle."],
         correctIndex: 0,
-        explanation: "Plural + substitution: \"hätten\".",
+        explanation: "Plural \"sie haben\" looks like the indicative, so substitute \"hätten\"; \"wir\" keeps the coaches' own words, and \"habe\" is singular.",
       },
       {
         type: "matching",
@@ -1248,7 +1248,7 @@ export const DE_B2_U04: Lesson[] = [
     slug: "b2-talk-about-you-ein-gespraech",
     level: "DE-B2",
     number: 7,
-    title: "Talk About Yourself: Erzähl von Einem Gespräch",
+    title: "Talk About Yourself: Erzähl von einem Gespräch",
     summary: "Retell a recent conversation or call: what was said, asked and requested, in natural spoken style and in written style.",
     duration: "13 min",
     sections: [
@@ -1375,7 +1375,7 @@ export const DE_B2_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "She also wanted to know when I'm coming back from holiday.",
         answer: "Außerdem wollte sie wissen, wann ich aus dem Urlaub zurückkomme.",
-        altAnswers: ["Sie wollte außerdem wissen, wann ich aus dem Urlaub zurückkomme.", "Außerdem wollte sie wissen, wann ich aus dem Urlaub zurückkomme."],
+        altAnswers: ["Sie wollte außerdem wissen, wann ich aus dem Urlaub zurückkomme.", "Sie wollte auch wissen, wann ich aus dem Urlaub zurückkomme.", "Außerdem wollte sie wissen, wann ich aus dem Urlaub zurückkommen würde."],
         explanation: "\"Wann\" + separable verb joined at the end.",
       },
       {
@@ -1449,7 +1449,7 @@ export const DE_B2_U04: Lesson[] = [
     slug: "b2-circuit-laut-zufolge-angeblich",
     level: "DE-B2",
     number: 8,
-    title: "Circuit: Laut, Zufolge, Angeblich, Wie... Berichtet",
+    title: "Circuit: Laut, Zufolge, Angeblich, Wie... berichtet",
     summary: "News attributions: laut Polizei, dem Bericht zufolge, nach Angaben der Feuerwehr, wie der Spiegel berichtet, angeblich.",
     duration: "14 min",
     sections: [
@@ -1463,7 +1463,7 @@ export const DE_B2_U04: Lesson[] = [
         examples: [
           { es: "Laut Polizei gab es keine Verletzten.", en: "According to the police, there were no injuries." },
           { es: "Laut dem Wetterbericht wird es morgen heiß.", en: "According to the weather report, it'll be hot tomorrow." },
-          { es: "Dem Bericht zufolge sind die Mieten um zehn Prozent gestiegen.", en: "According to the report, rents have risen by ten percent." },
+          { es: "Dem Bericht zufolge sind die Mieten um zehn Prozent gestiegen.", en: "According to the report, rents have risen by ten per cent." },
           { es: "Experten zufolge ist das Risiko gering.", en: "According to experts, the risk is low." },
           { es: "Laut des Gutachtens ist die Brücke marode.", en: "According to the expert report, the bridge is dilapidated." },
         ],
@@ -1472,7 +1472,7 @@ export const DE_B2_U04: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "According to the report, rents have risen by ten percent.",
+            source: "According to the report, rents have risen by ten per cent.",
             answer: "Dem Bericht zufolge sind die Mieten um zehn Prozent gestiegen.",
             altAnswers: ["Laut dem Bericht sind die Mieten um zehn Prozent gestiegen.", "Laut Bericht sind die Mieten um zehn Prozent gestiegen.", "Laut des Berichts sind die Mieten um zehn Prozent gestiegen.", "Dem Bericht zufolge seien die Mieten um zehn Prozent gestiegen."],
             explanation: "\"Zufolge\" after the dative noun, or \"laut\" before it. \"Steigen\" takes sein.",
@@ -1630,7 +1630,7 @@ export const DE_B2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "As the police announced, nobody was injured. Which sentence is correct?",
         options: ["Wie die Polizei mitteilte, wurde niemand verletzt.", "Wie die Polizei mitteilte, niemand wurde verletzt.", "Wie mitteilte die Polizei, wurde niemand verletzt.", "Wie die Polizei mitteilte wurde, niemand verletzt."],
         correctIndex: 0,
         explanation: "The wie-clause fills position 1; the main clause starts with its verb.",
@@ -1829,8 +1829,8 @@ export const DE_B2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which verb means to deny?",
-        options: ["bestreiten", "behaupten", "betonen", "bereuen"],
+        question: "The minister denies everything. Complete: \"Der Minister ___ alles.\"",
+        options: ["bestreitet", "behauptet", "betont", "bereut"],
         correctIndex: 0,
         explanation: "\"Bestreiten\": deny. \"Behaupten\": claim; \"betonen\": stress; \"bereuen\": regret.",
       },
@@ -2003,10 +2003,10 @@ export const DE_B2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "How do you say: Had I known that, I would have come.",
         options: ["Hätte ich das gewusst, wäre ich gekommen.", "Hätte ich das gewusst, ich wäre gekommen.", "Würde ich das gewusst haben, wäre ich gekommen.", "Hatte ich das gewusst, war ich gekommen."],
         correctIndex: 0,
-        explanation: "Verb-first condition, then verb-first main clause.",
+        explanation: "Verb-first condition, then the main clause also starts with its verb (\"wäre\"). \"Hatte ... war\" is the indicative, a real past.",
       },
       {
         type: "word-order",
@@ -2062,7 +2062,7 @@ export const DE_B2_U04: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The neighbours say they [didn't notice] anything.",
+            en: "The neighbours say they [have] noticed nothing.",
             sentence: "Die Nachbarn sagen, sie ___ nichts bemerkt.",
             answer: "hätten",
             explanation: "Plural substitution: \"hätten\".",
@@ -2155,7 +2155,7 @@ export const DE_B2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which report is correct in formal style?",
+        question: "They say they have no time. Which report is correct in formal style?",
         options: ["Sie sagen, sie hätten keine Zeit.", "Sie sagen, sie haben keine Zeit.", "Sie sagen, sie habe keine Zeit.", "Sie sagen, sie hatten keine Zeit."],
         correctIndex: 0,
         explanation: "Plural: substitute \"hätten\".",

@@ -93,7 +93,8 @@ export function deAnswersFor(inf: string, tense: TenseId, person: Person): strin
     for (const a of [...out]) {
       const [w, ...rest] = a.split(" ");
       const short = w.replace(/e(st|t)$/, "$1");
-      if (short !== w && !/[td]e(st|t)$/.test(w)) out.push([short, ...rest].join(" "));
+      // Not after -t/-d or a hissing sound: "fändest", "äßest" have no short form.
+      if (short !== w && !/([td]|[sßzx]|sch)e(st|t)$/.test(w)) out.push([short, ...rest].join(" "));
     }
   }
   return [...new Set(out)];
@@ -172,7 +173,7 @@ export function gradeDeDrillAnswer(q: DeDrillQuestion, typed: string): GradeResu
       if (!umlautOnly && foldForSearch(c) === foldForSearch(t)) umlautOnly = a;
     }
   }
-  if (umlautOnly) return { correct: false, note: `Watch the umlaut: "${umlautOnly}". In German it changes the form (hatte / hätte).` };
+  if (umlautOnly) return { correct: false, note: `Watch the umlaut: "${umlautOnly}". In German it changes the form ("hatte" / "hätte").` };
   return { correct: false };
 }
 

@@ -9,7 +9,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: German Around the World, Part 1 of 3",
-    summary: "Austrian pronunciation, grammar and greetings in new sentences.",
+    summary: "Practise Austrian pronunciation, grammar and greetings in new sentences.",
     duration: "14 min",
     sections: [
       {
@@ -88,7 +88,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
         en: "We're going to Greece [this year].",
         sentence: "Wir fahren ___ nach Griechenland.",
         answer: "heuer",
-        explanation: "\"Heuer\" = dieses Jahr.",
+        explanation: "\"Heuer\" = \"dieses Jahr\" (this year), standard in Austria.",
       },
       {
         type: "translate",
@@ -121,7 +121,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
         words: ["Ich", "stehe", "in der Früh", "um sechs", "auf."],
         translation: "I get up at six in the morning.",
         altOrders: [["In der Früh", "stehe", "ich", "um sechs", "auf."], ["Ich", "stehe", "um sechs", "in der Früh", "auf."]],
-        explanation: "\"In der Früh\" = am Morgen; \"aufstehen\" splits.",
+        explanation: "\"In der Früh\" = \"am Morgen\"; \"aufstehen\" splits.",
       },
       {
         type: "translate",
@@ -179,14 +179,14 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: German Around the World, Part 2 of 3",
-    summary: "Swiss Standard German and Helvetisms in new sentences.",
+    summary: "Practise Swiss Standard German and Helvetisms in new sentences.",
     duration: "14 min",
     sections: [
       {
         heading: "Recap: Swiss Standard German",
         body: [
           "Spelling: ss instead of ß everywhere (\"Strasse\", \"gross\"). Pronunciation: back ch in every position, first-syllable stress in French loans (\"Billett\", \"Büro\"). Diglossia: dialect for speaking, Hochdeutsch for writing and the news.",
-          "Helvetisms: \"parkieren\", \"grillieren\", \"zügeln\", \"das Tram\", \"der Match\", \"das Mail\", \"das Velo\", \"das Trottoir\", \"das Perron\", \"das Billett\", \"die Glace\", \"das Poulet\", \"das Spital\", \"der Estrich\", \"der Hauswart\", \"allfällig\", \"die Pendenz\". Greetings: \"Grüezi\", \"Hoi\", \"Sali\", \"Merci\", \"Uf Wiederluege\".",
+          "Helvetisms: \"parkieren\", \"grillieren\", \"zügeln\", \"das Tram\", \"der Match\", \"das Mail\", \"das Velo\", \"das Trottoir\", \"der Perron\", \"das Billett\", \"die Glace\", \"das Poulet\", \"das Spital\", \"der Estrich\", \"der Hauswart\", \"allfällig\", \"die Pendenz\". Greetings: \"Grüezi\", \"Hoi\", \"Sali\", \"Merci\", \"Uf Wiederluege\".",
         ],
         examples: [
           { es: "Das Tram fährt alle sieben Minuten.", en: "The tram runs every seven minutes. (Switzerland)" },
@@ -211,7 +211,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
             en: "Please don't leave bikes on the [pavement].",
             sentence: "Bitte keine Velos auf dem ___ abstellen.",
             answer: "Trottoir",
-            explanation: "Swiss \"das Trottoir\" (from French) = Bürgersteig, Gehweg.",
+            explanation: "Swiss \"das Trottoir\" (from French) = \"Bürgersteig\", \"Gehweg\".",
           },
           {
             type: "listen-choose",
@@ -219,7 +219,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
             question: "What does the customer want?",
             options: ["Two return tickets to Zurich", "To go back to Zurich twice", "Two single tickets from Zurich", "To change trains in Zurich"],
             correctIndex: 0,
-            explanation: "\"Retour\" (Swiss, from French) = return ticket, Hin- und Rückfahrt.",
+            explanation: "\"Retour\" (Swiss, from French) = return ticket, \"Hin- und Rückfahrt\".",
           },
         ],
       },
@@ -232,7 +232,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
         source: "You can't park in front of the garage.",
         answer: "Vor der Garage darf man nicht parkieren.",
         altAnswers: ["Man darf vor der Garage nicht parkieren.", "Vor der Garage kann man nicht parkieren.", "Man kann vor der Garage nicht parkieren.", "Vor der Garage ist Parkieren verboten."],
-        explanation: "Swiss \"parkieren\" = parken.",
+        explanation: "Swiss \"parkieren\" = \"parken\".",
       },
       {
         type: "translate",
@@ -241,7 +241,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
         source: "We're moving to Lucerne in the spring.",
         answer: "Wir zügeln im Frühling nach Luzern.",
         altAnswers: ["Im Frühling zügeln wir nach Luzern.", "Wir zügeln im Frühjahr nach Luzern.", "Im Frühjahr zügeln wir nach Luzern."],
-        explanation: "\"Zügeln\" = umziehen; Lucerne is \"Luzern\".",
+        explanation: "\"Zügeln\" = \"umziehen\"; Lucerne is \"Luzern\".",
       },
       {
         type: "translate",
@@ -259,7 +259,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
         sentence: "Die alten Ski sind im ___.",
         answer: "Estrich",
         altAnswers: ["Dachboden"],
-        explanation: "Swiss \"der Estrich\" = Dachboden.",
+        explanation: "Swiss \"der Estrich\" = \"Dachboden\".",
       },
       {
         type: "translate",
@@ -267,7 +267,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
         prompt: "Translate into Swiss Standard German.",
         source: "Two ice creams, please. Thank you!",
         answer: "Zwei Glace, bitte. Merci!",
-        altAnswers: ["Zweimal Glace, bitte. Merci!", "Zwei Glacen, bitte. Merci!", "Zwei Glace bitte. Merci!", "Zwei Glace, bitte. Merci vielmal!"],
+        altAnswers: ["Zweimal Glace, bitte. Merci!", "Zwei Glaces, bitte. Merci!", "Zwei Glacen, bitte. Merci!", "Zwei Glace bitte. Merci!", "Zwei Glace, bitte. Merci vielmal!"],
         explanation: "Swiss \"die Glace\" (ice cream) and \"Merci\".",
       },
       {
@@ -281,7 +281,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A Swiss colleague writes: Hast du den Match gesehen? Which is the German Standard German equivalent?",
+        question: "A Swiss colleague writes: \"Hast du den Match gesehen?\" Which is the German Standard German equivalent?",
         options: ["Hast du das Spiel gesehen?", "Hast du die Streichhölzer gesehen?", "Hast du den Mann gesehen?", "Hast du die Mitte gesehen?"],
         correctIndex: 0,
         explanation: "Swiss \"der Match\" = \"das Spiel\" or \"das Match\" in Germany.",
@@ -292,7 +292,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
         words: ["Am Samstag", "grillieren", "wir", "am", "See."],
         translation: "On Saturday we're having a barbecue by the lake.",
         altOrders: [["Wir", "grillieren", "am Samstag", "am", "See."]],
-        explanation: "Swiss \"grillieren\" = grillen.",
+        explanation: "Swiss \"grillieren\" = \"grillen\".",
       },
       {
         type: "translate",
@@ -301,7 +301,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
         source: "The train leaves from platform 7.",
         answer: "Der Zug fährt auf Perron 7 ab.",
         altAnswers: ["Der Zug fährt ab Perron 7.", "Der Zug fährt von Perron 7 ab.", "Der Zug fährt auf Gleis 7 ab.", "Der Zug fährt auf Perron sieben ab."],
-        explanation: "Swiss \"das Perron\" = Bahnsteig; \"Gleis\" is also used in Switzerland.",
+        explanation: "Swiss \"der Perron\" = \"Bahnsteig\"; \"Gleis\" is also used in Switzerland.",
       },
       {
         type: "translate",
@@ -310,12 +310,12 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
         source: "Please contact me if you have any questions.",
         answer: "Bei allfälligen Fragen melden Sie sich bitte bei mir.",
         altAnswers: ["Bei allfälligen Fragen kontaktieren Sie mich bitte.", "Bitte melden Sie sich bei allfälligen Fragen bei mir.", "Bei allfälligen Fragen wenden Sie sich bitte an mich.", "Bei Fragen melden Sie sich bitte bei mir."],
-        explanation: "Swiss formal \"allfällig\" (any, possible) = eventuell.",
+        explanation: "Swiss formal \"allfällig\" (any, possible) = \"eventuell\".",
       },
       {
         type: "fill-blank",
         prompt: "Write the Swiss German for the bold word.",
-        en: "Excuse me, is this seat free? ([Excuse me] in Swiss German)",
+        en: "[Excuse me], is this seat free? (Swiss, casual)",
         sentence: "___, ist dieser Platz frei?",
         answer: "Exgüsi",
         altAnswers: ["Entschuldigung"],
@@ -350,7 +350,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: German Around the World, Part 3 of 3",
-    summary: "South Tyrol, Luxembourg and regional German in Germany in new sentences.",
+    summary: "Practise South Tyrolean, Luxembourg and regional German from Germany in new sentences.",
     duration: "14 min",
     sections: [
       {
@@ -374,23 +374,23 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
             source: "I have to renew my driving licence next year.",
             answer: "Mein Patent muss ich nächstes Jahr erneuern.",
             altAnswers: ["Ich muss nächstes Jahr mein Patent erneuern.", "Ich muss mein Patent nächstes Jahr erneuern.", "Nächstes Jahr muss ich mein Patent erneuern.", "Ich muss nächstes Jahr mein Patent verlängern.", "Ich muss mein Patent nächstes Jahr verlängern."],
-            explanation: "South Tyrolean \"das Patent\" = Führerschein.",
+            explanation: "South Tyrolean \"das Patent\" = \"Führerschein\".",
           },
           {
             type: "fill-blank",
             prompt: "Write the standard German for the bold word.",
-            en: "Berlin: Ick hab keene Zeit. → [I] have no time.",
+            en: "Berlin: \"Ick hab keene Zeit.\" → [I] have no time.",
             sentence: "___ habe keine Zeit.",
             answer: "Ich",
-            explanation: "Berlin \"ick\" = ich, \"keene\" = keine.",
+            explanation: "Berlin \"ick\" = \"ich\", \"keene\" = \"keine\".",
           },
           {
             type: "listen-choose",
             audio: "Moin! Wie isset?",
             question: "Where are you probably?",
-            options: ["Northern or western Germany (Moin; Wie isset? is Rhineland)", "Vienna", "Zurich", "Munich"],
+            options: ["Northern or western Germany (\"Moin\"; \"Wie isset?\" is Rhineland)", "Vienna", "Zurich", "Munich"],
             correctIndex: 0,
-            explanation: "\"Moin\" is northern and \"Wie isset?\" (Wie ist es?) Rhineland / Ruhr; neither is southern.",
+            explanation: "\"Moin\" is northern and \"Wie isset?\" (\"Wie ist es?\") Rhineland / Ruhr; neither is southern.",
           },
         ],
       },
@@ -435,33 +435,33 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in standard German: Det is mir ejal.",
+        prompt: "Rewrite in standard German: \"Det is mir ejal.\"",
         source: "I don't care.",
         answer: "Das ist mir egal.",
-        explanation: "Berlin \"det\" = das, \"ejal\" = egal (g softened to j).",
+        explanation: "Berlin \"det\" = \"das\", \"ejal\" = \"egal\" (g softened to j).",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in standard German: I hob koa Zeit, i muass schaffa.",
+        prompt: "Rewrite in standard German: \"I hob koa Zeit, i muass schaffa.\"",
         source: "I don't have time, I have to work.",
         answer: "Ich habe keine Zeit, ich muss arbeiten.",
         altAnswers: ["Ich hab keine Zeit, ich muss arbeiten."],
-        explanation: "A southern dialect mix: \"koa\" = keine (Bavarian), \"schaffa\" = arbeiten (Swabian / Alemannic).",
+        explanation: "A southern dialect mix: \"koa\" = \"keine\" (Bavarian), \"schaffa\" = \"arbeiten\" (Swabian / Alemannic).",
       },
       {
         type: "multiple-choice",
         question: "Which greeting would you expect in Cologne?",
         options: ["Tach!", "Grüezi!", "Servus!", "Grüß Gott!"],
         correctIndex: 0,
-        explanation: "\"Tach\" (Guten Tag) is typical of the Rhineland and northern Germany.",
+        explanation: "\"Tach\" (\"Guten Tag\") is typical of the Rhineland and northern Germany.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: Turn right at the traffic light. (Namibian German)",
         words: ["Bieg", "beim", "Robot", "rechts", "ab."],
         translation: "Turn right at the traffic light.",
-        explanation: "Namibian \"der Robot\" = Ampel.",
+        explanation: "Namibian \"der Robot\" = \"Ampel\".",
       },
       {
         type: "translate",
@@ -475,11 +475,11 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in standard German: Des isch a scheens Häusle.",
+        prompt: "Rewrite in standard German: \"Des isch a scheens Häusle.\"",
         source: "That's a nice little house.",
         answer: "Das ist ein schönes Häuschen.",
         altAnswers: ["Das ist ein schönes kleines Haus.", "Das ist ein schönes Häuslein."],
-        explanation: "Swabian \"des isch\" = das ist, \"a\" = ein, \"-le\" diminutive = -chen.",
+        explanation: "Swabian \"des isch\" = \"das ist\", \"a\" = \"ein\", \"-le\" diminutive = \"-chen\".",
       },
       {
         type: "translate",
@@ -518,7 +518,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Sein-Perfekt and Other Southern Forms",
-    summary: "Ich bin gesessen, ich bin gestanden and Austrian genders in new sentences.",
+    summary: "Practise \"ich bin gesessen\", \"ich bin gestanden\" and Austrian genders in new sentences.",
     duration: "13 min",
     sections: [
       {
@@ -619,7 +619,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the Austrian Standard German version of: Ich habe auf dem Sofa gelegen?",
+        question: "Which is the Austrian Standard German version of \"Ich habe auf dem Sofa gelegen\"?",
         options: ["Ich bin auf dem Sofa gelegen.", "Ich bin auf dem Sofa gelegt.", "Ich habe auf dem Sofa gelegt.", "Ich war auf dem Sofa gelegen worden."],
         correctIndex: 0,
         explanation: "Only the auxiliary changes; \"gelegt\" is the participle of \"legen\" (to lay), a different verb.",
@@ -706,11 +706,11 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in neutral standard German: Die Hackn war heut so zach.",
+            prompt: "Rewrite in neutral standard German: \"Die Hackn war heut so zach.\"",
             source: "Work was so tough today.",
             answer: "Die Arbeit war heute so anstrengend.",
             altAnswers: ["Die Arbeit war heute so hart.", "Die Arbeit war heute so mühsam.", "Die Arbeit war heute sehr anstrengend.", "Die Arbeit war heute so zäh."],
-            explanation: "\"Die Hackn\" = Arbeit, \"zach\" = zäh, anstrengend.",
+            explanation: "\"Die Hackn\" = \"Arbeit\", \"zach\" = \"zäh\", \"anstrengend\".",
           },
           {
             type: "listen-choose",
@@ -726,8 +726,8 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
             en: "The apricot dumplings are really [great].",
             sentence: "Die Marillenknödel sind echt ___.",
             answer: "toll",
-            altAnswers: ["super", "gut", "lecker", "klasse", "spitze", "leiwand"],
-            explanation: "\"Leiwand\" = toll, super.",
+            altAnswers: ["super", "gut", "lecker", "klasse", "spitze"],
+            explanation: "\"Leiwand\" = \"toll\", \"super\"; the question asks for the standard word, so not \"leiwand\" itself.",
           },
         ],
       },
@@ -763,7 +763,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the standard German for the bold words.",
-        en: "Kathi: Ich bin letzte Woche mit dem Hannes dort gesessen. → Last week [I sat there] with Hannes.",
+        en: "Kathi: \"Ich bin letzte Woche mit dem Hannes dort gesessen.\" → Last week [I sat] there with Hannes.",
         sentence: "Letzte Woche ___ mit Hannes dort gesessen.",
         answer: "habe ich",
         altAnswers: ["hab ich", "bin ich"],
@@ -772,11 +772,11 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in neutral standard German: Heuer haben wir eh schon so viel Stress gehabt.",
+        prompt: "Rewrite in neutral standard German: \"Heuer haben wir eh schon so viel Stress gehabt.\"",
         source: "We've already had so much stress this year anyway.",
         answer: "Dieses Jahr hatten wir sowieso schon so viel Stress.",
         altAnswers: ["Dieses Jahr haben wir sowieso schon so viel Stress gehabt.", "Wir hatten dieses Jahr sowieso schon so viel Stress.", "Dieses Jahr hatten wir ohnehin schon so viel Stress.", "Wir haben dieses Jahr sowieso schon so viel Stress gehabt."],
-        explanation: "\"Heuer\" = dieses Jahr, \"eh\" = sowieso, ohnehin.",
+        explanation: "\"Heuer\" = \"dieses Jahr\", \"eh\" = \"sowieso\", \"ohnehin\".",
       },
       {
         type: "translate",
@@ -789,7 +789,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Kathi ends with: Gib mir Bescheid, gell? What does gell do here?",
+        question: "Kathi ends with: \"Gib mir Bescheid, gell?\" What does \"gell\" do here?",
         options: ["It's a tag asking for agreement, like OK? or right?", "It means quickly.", "It means yellow.", "It's a goodbye."],
         correctIndex: 0,
         explanation: "\"Gell?\" is the southern tag question, like \"oder?\" or \"ne?\".",
@@ -822,16 +822,16 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the standard German for the bold word.",
-        en: "Kathi: Baba! → [Bye]!",
+        en: "Kathi: \"Baba!\" → [Bye]!",
         sentence: "___!",
         answer: "Tschüss",
-        altAnswers: ["Tschüs", "Ciao", "Servus", "Bis bald"],
+        altAnswers: ["Tschüs", "Ciao", "Bis bald"],
         explanation: "\"Baba\" is Viennese for bye; \"Tschüss\" is the general informal goodbye.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in neutral standard German: Ich bin grad in der Bim, ruf dich später an.",
+        prompt: "Rewrite in neutral standard German: \"Ich bin grad in der Bim, ruf dich später an.\"",
         source: "I'm on the tram right now, I'll call you later.",
         answer: "Ich bin gerade in der Straßenbahn, ich rufe dich später an.",
         altAnswers: ["Ich bin gerade in der Straßenbahn und rufe dich später an.", "Ich sitze gerade in der Straßenbahn, ich rufe dich später an.", "Ich bin gerade in der Straßenbahn, ich ruf dich später an."],
@@ -875,7 +875,7 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Where are you? Brauchen Sie ein Sackerl für die Paradeiser?",
+            question: "Where are you? \"Brauchen Sie ein Sackerl für die Paradeiser?\"",
             options: ["Vienna", "Munich", "Zurich", "Hamburg"],
             correctIndex: 0,
             explanation: "\"Sackerl\" and especially \"Paradeiser\" (tomatoes) are Austrian.",
@@ -939,14 +939,14 @@ export const DE_C1_U14_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Where are you? Hoi! Kommst du mit dem Velo?",
+        question: "Where are you? \"Hoi! Kommst du mit dem Velo?\"",
         options: ["Zurich", "Vienna", "Munich", "Hamburg"],
         correctIndex: 0,
         explanation: "\"Hoi\" and \"Velo\" are Swiss.",
       },
       {
         type: "multiple-choice",
-        question: "Where are you? Servus! Heuer fahr ma im Jänner Ski.",
+        question: "Where are you? \"Servus! Heuer fahr ma im Jänner Ski.\"",
         options: ["Vienna", "Hamburg", "Zurich", "Berlin"],
         correctIndex: 0,
         explanation: "\"Servus\", \"heuer\" and especially \"Jänner\" point to Austria.",

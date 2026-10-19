@@ -163,10 +163,10 @@ export const DE_A2_U17: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[A cola for me], please.",
+        en: "A cola [for me], please.",
         sentence: "___ bitte eine Cola.",
         answer: "Für mich",
-        explanation: "\"Für\" always takes the accusative, so for me is \"für mich\", never *für mir*.",
+        explanation: "\"Für\" always takes the accusative, so for me is \"für mich\", never \"*für mir*\".",
       },
       {
         type: "multiple-choice",
@@ -181,7 +181,7 @@ export const DE_A2_U17: Lesson[] = [
         prompt: "Translate into German.",
         source: "As a dessert I'll have the apple strudel.",
         answer: "Als Nachspeise nehme ich den Apfelstrudel.",
-        altAnswers: ["Als Nachtisch nehme ich den Apfelstrudel.", "Als Dessert nehme ich den Apfelstrudel.", "Ich nehme als Nachspeise den Apfelstrudel.", "Ich nehme als Nachtisch den Apfelstrudel.", "Ich nehme als Dessert den Apfelstrudel."],
+        altAnswers: ["Als Nachtisch nehme ich den Apfelstrudel.", "Als Dessert nehme ich den Apfelstrudel.", "Ich nehme als Nachspeise den Apfelstrudel.", "Ich nehme als Nachtisch den Apfelstrudel.", "Ich nehme als Dessert den Apfelstrudel.", "Zum Nachtisch nehme ich den Apfelstrudel.", "Zum Dessert nehme ich den Apfelstrudel."],
         explanation: "\"Als Nachspeise\" in position 1, so the verb \"nehme\" comes next. \"Der Strudel\" is masculine: \"den Apfelstrudel\" in the accusative.",
       },
       {
@@ -293,7 +293,7 @@ export const DE_A2_U17: Lesson[] = [
       {
         heading: "Tipping and the waiter's last question",
         body: [
-          "Germans tip around 5 to 10 percent, and they do it out loud, not by leaving coins on the table. When the waiter names the total, you name the amount you want to pay: the bill is 22,50 euros, you say \"Machen Sie 25\" or simply \"25, bitte\". If you hand over a note and want them to keep the rest, say \"Stimmt so\" (that's right like that).",
+          "Germans tip around 5 to 10 per cent, and they do it out loud, not by leaving coins on the table. When the waiter names the total, you name the amount you want to pay: the bill is 22,50 euros, you say \"Machen Sie 25\" or simply \"25, bitte\". If you hand over a note and want them to keep the rest, say \"Stimmt so\" (that's right like that).",
           "Before or while you pay, you'll hear \"Hat es Ihnen geschmeckt?\" (Did you enjoy your meal? Literally did it taste good to you?). \"Ihnen\" is dative: the food tasted good to you. With friends it becomes \"Hat es dir geschmeckt?\" The answer: \"Ja, danke, sehr gut!\" or \"Es war sehr lecker.\" If something was wrong, this is the moment to say it politely.",
           "Prices are read in euros and cents: \"22,50\" is \"zweiundzwanzig Euro fünfzig\" and is written with a comma, not a point.",
         ],
@@ -321,6 +321,7 @@ export const DE_A2_U17: Lesson[] = [
             prompt: "Translate into German.",
             source: "Did you enjoy your meal? (to a guest, polite)",
             answer: "Hat es Ihnen geschmeckt?",
+            altAnswers: ["Hat Ihnen das Essen geschmeckt?"],
             explanation: "\"Schmecken\" takes the dative: the food tastes good to you, \"Ihnen\". Polite \"Ihnen\" has a capital I.",
           },
           {
@@ -356,7 +357,7 @@ export const DE_A2_U17: Lesson[] = [
         prompt: "Translate into German.",
         source: "Today it's my treat. (to a friend)",
         answer: "Heute lade ich dich ein.",
-        altAnswers: ["Ich lade dich heute ein.", "Heute lade ich euch ein.", "Ich lade euch heute ein."],
+        altAnswers: ["Ich lade dich heute ein."],
         explanation: "\"Einladen\" (to treat, to invite) is separable: \"ich lade dich ein\". With \"heute\" first, the verb comes second.",
       },
       {
@@ -378,7 +379,7 @@ export const DE_A2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The bill is 27,80 euros and you want to leave about 2 euros tip. What do you say as you pay?",
+        question: "The bill is 27.80 euros and you want to leave about 2 euros tip. What do you say as you pay?",
         options: ["Machen Sie 30.", "Machen Sie 2.", "Getrennt, bitte.", "Hier ist Trinkgeld 2."],
         correctIndex: 0,
         explanation: "Germans tip by naming the total they want to pay, not the tip: \"Machen Sie 30\".",
@@ -466,7 +467,7 @@ export const DE_A2_U17: Lesson[] = [
       {
         heading: "Two of something: zwei Stück Kuchen, zwei Kaffee",
         body: [
-          "For cake, the unit is \"das Stück\" (piece), and after a number it stays singular: \"zwei Stück Kuchen\", \"drei Stück Pizza\", never *zwei Stücke Kuchen*. The same goes for many measures in orders: \"zwei Glas Wein\", \"zwei Flaschen Wasser\" (Flasche is feminine and does take the plural).",
+          "For cake, the unit is \"das Stück\" (piece), and after a number it stays singular: \"zwei Stück Kuchen\", \"drei Stück Pizza\", never \"*zwei Stücke Kuchen*\". The same goes for many measures in orders: \"zwei Glas Wein\", \"zwei Flaschen Wasser\" (Flasche is feminine and does take the plural).",
           "In cafés, drinks are often counted like portions: \"zwei Kaffee, bitte\", \"drei Bier\" sound perfectly natural (the real plurals \"Kaffees\" and \"Biere\" exist but sound like several kinds). With an adjective and no article in the plural, the ending is -e: \"zwei große Kaffee\", \"zwei kleine Salate\".",
           "\"Noch\" means another or more: \"noch ein Bier\" (another beer), \"noch einen Kaffee\", \"noch etwas Brot\". It's the word you need for a second round.",
         ],
@@ -485,7 +486,7 @@ export const DE_A2_U17: Lesson[] = [
             prompt: "Translate into German.",
             source: "Two pieces of cake, please.",
             answer: "Zwei Stück Kuchen, bitte.",
-            explanation: "After a number \"Stück\" stays singular: \"zwei Stück Kuchen\", not *zwei Stücke*.",
+            explanation: "After a number \"Stück\" stays singular: \"zwei Stück Kuchen\", not \"*zwei Stücke*\".",
           },
           {
             type: "fill-blank",
@@ -592,7 +593,7 @@ export const DE_A2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which order is correct for: I'd like a cold apple juice?",
+        question: "You want to order a cold apple juice. Which sentence is correct?",
         options: ["Ich hätte gern einen kalten Apfelsaft.", "Ich hätte gern ein kalter Apfelsaft.", "Ich hätte gern einen kalte Apfelsaft.", "Ich hätte gern eine kalten Apfelsaft."],
         correctIndex: 0,
         explanation: "\"Der Saft\" is masculine and the object, so both article and adjective show -en: \"einen kalten Apfelsaft\".",
@@ -700,7 +701,7 @@ export const DE_A2_U17: Lesson[] = [
             source: "We've been waiting for thirty minutes.",
             answer: "Wir warten seit dreißig Minuten.",
             altAnswers: ["Wir warten schon seit dreißig Minuten.", "Wir warten schon dreißig Minuten."],
-            explanation: "Still waiting, so \"seit\" + present tense, not the Perfekt. *Wir haben seit dreißig Minuten gewartet* is the English-tense trap.",
+            explanation: "Still waiting, so \"seit\" + present tense, not the Perfekt. \"*Wir haben seit dreißig Minuten gewartet*\" is the English-tense trap.",
           },
           {
             type: "listen-choose",
@@ -738,7 +739,7 @@ export const DE_A2_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The waiter says: Die Getränke gehen aufs Haus. What does that mean?",
+            question: "The waiter says: \"Die Getränke gehen aufs Haus.\" What does that mean?",
             options: ["The drinks are free.", "The drinks are coming.", "The drinks go to another table.", "The drinks are finished."],
             correctIndex: 0,
             explanation: "\"Aufs Haus\" means on the house: the restaurant pays.",
@@ -870,7 +871,7 @@ export const DE_A2_U17: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Last Saturday [was my birthday].",
+            en: "Last Saturday was my birthday (literally: last Saturday [I had] birthday).",
             sentence: "Letzten Samstag ___ ich Geburtstag.",
             answer: "hatte",
             explanation: "German has a birthday: \"Geburtstag haben\". In spoken past, \"haben\" uses the Präteritum \"hatte\".",
@@ -1097,14 +1098,14 @@ export const DE_A2_U17: Lesson[] = [
             prompt: "Translate into German.",
             source: "We didn't have much time.",
             answer: "Wir hatten nicht viel Zeit.",
-            explanation: "Spoken German says \"wir hatten\", not *wir haben gehabt*, for the past of \"haben\".",
+            explanation: "Spoken German says \"wir hatten\", not \"*wir haben gehabt*\", for the past of \"haben\".",
           },
         ],
       },
       {
         heading: "Ordering events and saying when: zuerst, dann, vor, seit",
         body: [
-          "Connectors like \"zuerst\", \"dann\", \"danach\", \"später\" and \"zum Schluss\" take position 1, so the verb comes straight after them: \"Danach sind wir essen gegangen\", never *Danach wir sind*. \"Und\" and \"aber\" don't count as a position.",
+          "Connectors like \"zuerst\", \"dann\", \"danach\", \"später\" and \"zum Schluss\" take position 1, so the verb comes straight after them: \"Danach sind wir essen gegangen\", never \"*Danach wir sind*\". \"Und\" and \"aber\" don't count as a position.",
           "\"Vor\" + dative is ago: \"vor drei Tagen\", \"vor einem Jahr\". \"Seit\" + dative + present tense is for something still true: \"Ich wohne seit einem Jahr in Köln.\" A finished period takes \"lang\": \"Ich habe zwei Jahre lang in Bonn gewohnt.\"",
           "Mini-story: \"Vor einem Jahr bin ich nach Köln gezogen. Zuerst hatte ich keine Freunde. Dann habe ich einen Sprachkurs gemacht. Seit Januar spiele ich in einem Volleyballverein.\"",
         ],
@@ -1193,7 +1194,7 @@ export const DE_A2_U17: Lesson[] = [
         prompt: "Translate into German.",
         source: "On Sunday I stayed at home.",
         answer: "Am Sonntag bin ich zu Hause geblieben.",
-        altAnswers: ["Ich bin am Sonntag zu Hause geblieben."],
+        altAnswers: ["Ich bin am Sonntag zu Hause geblieben.", "Am Sonntag bin ich zuhause geblieben."],
         explanation: "\"Bleiben\" takes \"sein\" in the Perfekt even though nothing moves. \"Zu Hause\" = at home.",
       },
       {
@@ -1340,7 +1341,7 @@ export const DE_A2_U17: Lesson[] = [
             prompt: "Translate into German.",
             source: "The train is faster than the car.",
             answer: "Der Zug ist schneller als das Auto.",
-            explanation: "Comparative -er + \"als\" (never *wie* for than).",
+            explanation: "Comparative -er + \"als\" (never \"*wie*\" for than).",
           },
           {
             type: "fill-blank",
@@ -1411,7 +1412,7 @@ export const DE_A2_U17: Lesson[] = [
         source: "Can you help me?",
         answer: "Kannst du mir helfen?",
         altAnswers: ["Können Sie mir helfen?", "Könnt ihr mir helfen?", "Kannst du mir mal helfen?"],
-        explanation: "\"Helfen\" takes the dative: \"mir\", not *mich*.",
+        explanation: "\"Helfen\" takes the dative: \"mir\", not \"*mich*\".",
       },
       {
         type: "translate",
@@ -1427,7 +1428,7 @@ export const DE_A2_U17: Lesson[] = [
         prompt: "Translate into German.",
         source: "I like the red jacket better.",
         answer: "Die rote Jacke gefällt mir besser.",
-        altAnswers: ["Mir gefällt die rote Jacke besser."],
+        altAnswers: ["Mir gefällt die rote Jacke besser.", "Ich finde die rote Jacke besser.", "Ich mag die rote Jacke lieber."],
         explanation: "\"Gefallen\" + dative: the jacket pleases me. After \"die\" the adjective ends in -e; \"besser\" is the comparative of \"gut\".",
       },
       {

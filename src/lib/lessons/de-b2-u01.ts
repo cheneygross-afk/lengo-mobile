@@ -16,7 +16,7 @@ export const DE_B2_U01: Lesson[] = [
         body: [
           "At the Intermediate level you used the Konjunktiv II to imagine the present: \"Ich hätte gern mehr Zeit\", \"Ich würde gern kommen\". To imagine the past, things that could have happened but didn't, German builds the Konjunktiv II on the Perfekt. Take the Perfekt (\"ich habe angerufen\") and turn the auxiliary into its Konjunktiv II form: \"ich hätte angerufen\" (I would have called).",
           "So the whole recipe is: \"hätte\" in the normal verb position, the Partizip II at the end. The forms of \"hätte\" are the ones you know: \"ich hätte, du hättest, er/sie/es hätte, wir hätten, ihr hättet, sie/Sie hätten\". The participle never changes.",
-          "This one form covers English would have done, and also could have done or might have done in many contexts. Notice what it does not contain: no \"würde\". English speakers translate would have literally and produce \"*ich würde angerufen haben\". That form technically exists, but no German says it; the natural form is always \"ich hätte angerufen\".",
+          "This one form covers English would have done, and also could have done or might have done in many contexts. Notice what it does not contain: no \"würde\". English speakers translate would have literally and produce \"*ich würde angerufen haben\". That form technically exists, but it sounds stilted and almost nobody uses it; the natural form is always \"ich hätte angerufen\".",
           "Watch the umlaut: \"ich hatte angerufen\" (no umlaut) is the Plusquamperfekt, a real event: I had called. \"Ich hätte angerufen\" (with ä) is unreal: I would have called, but I didn't.",
         ],
         examples: [
@@ -195,7 +195,7 @@ export const DE_B2_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "I would have taken the train if I had known about the traffic jam.",
         answer: "Ich hätte den Zug genommen, wenn ich von dem Stau gewusst hätte.",
-        altAnswers: ["Ich hätte den Zug genommen, wenn ich vom Stau gewusst hätte.", "Wenn ich von dem Stau gewusst hätte, hätte ich den Zug genommen.", "Wenn ich vom Stau gewusst hätte, hätte ich den Zug genommen."],
+        altAnswers: ["Ich hätte den Zug genommen, wenn ich vom Stau gewusst hätte.", "Wenn ich von dem Stau gewusst hätte, hätte ich den Zug genommen.", "Wenn ich vom Stau gewusst hätte, hätte ich den Zug genommen.", "Ich wäre mit dem Zug gefahren, wenn ich von dem Stau gewusst hätte.", "Ich wäre mit dem Zug gefahren, wenn ich vom Stau gewusst hätte.", "Wenn ich vom Stau gewusst hätte, wäre ich mit dem Zug gefahren."],
         explanation: "\"Wissen von\" + dative: to know about. Hätte in both halves; in the wenn-clause it stands at the very end.",
       },
       {
@@ -211,7 +211,7 @@ export const DE_B2_U01: Lesson[] = [
     slug: "b2-pattern-wenn-ich-das-gewusst-haette",
     level: "DE-B2",
     number: 2,
-    title: "Pattern Practice: Wenn Ich Das Gewusst Hätte, ...",
+    title: "Pattern Practice: Wenn ich das gewusst hätte, ...",
     summary: "Drill one frame with many verbs: Wenn ich das gewusst hätte, wäre ich zu Hause geblieben, hätte ich dich angerufen...",
     duration: "12 min",
     sections: [
@@ -237,13 +237,13 @@ export const DE_B2_U01: Lesson[] = [
             prompt: "Translate into German.",
             source: "If I had known that, I would have stayed at home.",
             answer: "Wenn ich das gewusst hätte, wäre ich zu Hause geblieben.",
-            altAnswers: ["Ich wäre zu Hause geblieben, wenn ich das gewusst hätte.", "Wenn ich das gewusst hätte, wäre ich daheim geblieben."],
+            altAnswers: ["Ich wäre zu Hause geblieben, wenn ich das gewusst hätte.", "Wenn ich das gewusst hätte, wäre ich daheim geblieben.", "Wenn ich das gewusst hätte, wäre ich zuhause geblieben."],
             explanation: "\"Bleiben\" takes sein, so \"wäre ich ... geblieben\" after the wenn-clause.",
           },
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "If we'd known that, [we would have come] earlier.",
+            en: "If we'd known that, [we would have] come earlier.",
             sentence: "Wenn wir das gewusst hätten, ___ früher gekommen.",
             answer: "wären wir",
             explanation: "After the wenn-clause the verb comes first, then the subject: \"wären wir\". \"Kommen\" takes sein.",
@@ -375,7 +375,7 @@ export const DE_B2_U01: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: If I'd known that, I wouldn't have said anything.",
+        prompt: "Put the words in order to say: If I'd suspected that, I wouldn't have said anything.",
         words: ["Wenn", "ich", "das", "geahnt", "hätte,", "hätte", "ich", "nichts", "gesagt."],
         translation: "If I'd suspected that, I wouldn't have said anything.",
         explanation: "\"Ahnen\" (to suspect) works in the same frame as \"wissen\": \"geahnt hätte\" at the end, then \"hätte ich\".",
@@ -407,7 +407,7 @@ export const DE_B2_U01: Lesson[] = [
     slug: "b2-minimal-pairs-haette-waere",
     level: "DE-B2",
     number: 3,
-    title: "Minimal Pairs: Ich Hätte / Ich Wäre",
+    title: "Minimal Pairs: Ich hätte / Ich wäre",
     summary: "Choose the auxiliary: hätte for most verbs, wäre for movement, change of state, sein, bleiben, werden and passieren.",
     duration: "12 min",
     sections: [
@@ -473,7 +473,7 @@ export const DE_B2_U01: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "He [would] have become a doctor.",
+            en: "He [would have] become a doctor.",
             sentence: "Er ___ Arzt geworden.",
             answer: "wäre",
             explanation: "\"Werden\" takes sein: \"er wäre ... geworden\". No article before the job, as with sein.",
@@ -554,7 +554,7 @@ export const DE_B2_U01: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Without coffee I [would] have fallen asleep in the meeting.",
+        en: "Without coffee I [would have] fallen asleep in the meeting.",
         sentence: "Ohne Kaffee ___ ich im Meeting eingeschlafen.",
         answer: "wäre",
         explanation: "\"Einschlafen\" is a change of state: sein. The participle keeps the prefix: \"eingeschlafen\".",
@@ -603,7 +603,7 @@ export const DE_B2_U01: Lesson[] = [
     slug: "b2-circuit-haette-ich-das-gewusst",
     level: "DE-B2",
     number: 4,
-    title: "Circuit: Hätte Ich Das Gewusst, ...",
+    title: "Circuit: Hätte ich das gewusst, ...",
     summary: "Drop the wenn: put hätte or wäre first, Hätte ich das gewusst, wäre ich gekommen, and add dann or so if you like.",
     duration: "13 min",
     sections: [
@@ -739,7 +739,7 @@ export const DE_B2_U01: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[If we had set off] earlier, we would have made the connection.",
+        en: "[If we had] set off earlier, we would have made the connection.",
         sentence: "___ früher losgefahren, hätten wir den Anschluss erreicht.",
         answer: "Wären wir",
         explanation: "Verb-first condition: \"Wären wir ... losgefahren\". \"Losfahren\" takes sein.",
@@ -870,7 +870,7 @@ export const DE_B2_U01: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "If Leon had learned Spanish, he [could work] in Madrid now.",
+            en: "If Leon had learned Spanish, he [could] work in Madrid now.",
             sentence: "Wenn Leon Spanisch gelernt hätte, ___ er jetzt in Madrid arbeiten.",
             answer: "könnte",
             explanation: "A present result with a modal: \"könnte\" + infinitive at the end. \"Hätte arbeiten können\" would be past (could have worked).",
@@ -881,7 +881,7 @@ export const DE_B2_U01: Lesson[] = [
         heading: "Present cause, past result",
         body: [
           "The reverse also works: a permanent quality (present) explains what did or didn't happen (past). \"Wenn ich nicht so schüchtern wäre, hätte ich sie angesprochen.\" (If I weren't so shy, I would have spoken to her.) Being shy is a lasting fact; the missed chance is past.",
-          "Compare the four combinations of \"Zeit haben\": \"Wenn ich Zeit hätte\" (if I had time now), \"Wenn ich Zeit gehabt hätte\" (if I had had time then). And \"ich würde kommen\" (I would come) vs \"ich wäre gekommen\" (I would have come).",
+          "Compare the two forms of \"Zeit haben\": \"Wenn ich Zeit hätte\" (if I had time now), \"Wenn ich Zeit gehabt hätte\" (if I had had time then). And \"ich würde kommen\" (I would come) vs \"ich wäre gekommen\" (I would have come).",
           "So the question for each half is simply: am I talking about now or about then? Choose the form for that half and don't let the other half drag it along.",
         ],
         examples: [
@@ -936,13 +936,13 @@ export const DE_B2_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "If the train had been on time, we'd already be home now.",
         answer: "Wenn der Zug pünktlich gewesen wäre, wären wir jetzt schon zu Hause.",
-        altAnswers: ["Wäre der Zug pünktlich gewesen, wären wir jetzt schon zu Hause.", "Wenn der Zug pünktlich gewesen wäre, wären wir schon zu Hause.", "Wir wären jetzt schon zu Hause, wenn der Zug pünktlich gewesen wäre.", "Wenn der Zug pünktlich gewesen wäre, wären wir jetzt schon daheim."],
+        altAnswers: ["Wäre der Zug pünktlich gewesen, wären wir jetzt schon zu Hause.", "Wenn der Zug pünktlich gewesen wäre, wären wir schon zu Hause.", "Wir wären jetzt schon zu Hause, wenn der Zug pünktlich gewesen wäre.", "Wenn der Zug pünktlich gewesen wäre, wären wir jetzt schon daheim.", "Wenn der Zug pünktlich gewesen wäre, wären wir jetzt schon zuhause."],
         explanation: "Past condition (\"gewesen wäre\") + present result (\"wären ... jetzt schon zu Hause\", no participle).",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "If we'd taken the flat, we [would be living] in Cologne now.",
+        en: "If we'd taken the flat, we [would] be living in Cologne now.",
         sentence: "Wenn wir die Wohnung genommen hätten, ___ wir jetzt in Köln wohnen.",
         answer: "würden",
         explanation: "Present result with \"würden\" + infinitive \"wohnen\" at the end.",
@@ -1000,7 +1000,7 @@ export const DE_B2_U01: Lesson[] = [
     slug: "b2-qa-was-haettest-du-gemacht",
     level: "DE-B2",
     number: 6,
-    title: "Questions and Answers: Was Hättest Du Gemacht?",
+    title: "Questions and Answers: Was hättest du gemacht?",
     summary: "Ask what others would have done in your place, and answer with An deiner Stelle hätte ich ... / wäre ich ...",
     duration: "12 min",
     sections: [
@@ -1204,7 +1204,7 @@ export const DE_B2_U01: Lesson[] = [
     slug: "b2-choose-explain-real-or-unreal-past",
     level: "DE-B2",
     number: 7,
-    title: "Choose and Explain: Als Ich Ankam / Wenn Ich Angekommen Wäre",
+    title: "Choose and Explain: Als ich ankam / Wenn ich angekommen wäre",
     summary: "Tell what really happened in the indicative and what didn't happen in the Konjunktiv II, and pick als, wenn or falls.",
     duration: "14 min",
     sections: [
@@ -1257,7 +1257,7 @@ export const DE_B2_U01: Lesson[] = [
           { es: "Immer wenn ich zu spät kam, war der Chef sauer.", en: "Whenever I was late, the boss was annoyed." },
           { es: "Falls der Zug Verspätung hat, ruf mich bitte an.", en: "If the train is delayed, please call me." },
           { es: "Wenn ich nicht nach Leipzig gezogen wäre, hätte ich Jonas nie kennengelernt.", en: "If I hadn't moved to Leipzig, I would never have met Jonas." },
-          { es: "Falls du die Wohnung nicht nimmst, frage ich den Vermieter.", en: "In case you don't take the flat, I'll ask the landlord." },
+          { es: "Falls du die Wohnung nicht nimmst, frage ich den Vermieter.", en: "If you don't take the flat, I'll ask the landlord." },
         ],
         checkpoint: [
           {
@@ -1343,7 +1343,7 @@ export const DE_B2_U01: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[In case] the train is delayed, please call me.",
+        en: "[If] the train is delayed, please call me.",
         sentence: "___ der Zug Verspätung hat, ruf mich bitte an.",
         answer: "Falls",
         altAnswers: ["Wenn"],
@@ -1407,7 +1407,7 @@ export const DE_B2_U01: Lesson[] = [
     slug: "b2-mission-die-verpasste-chance",
     level: "DE-B2",
     number: 8,
-    title: "Real-World Mission: Die Verpasste Chance",
+    title: "Real-World Mission: Die verpasste Chance",
     summary: "Write to a friend about a flat you nearly got: what went wrong, what would have happened, and what you wish you'd done.",
     duration: "15 min",
     sections: [
@@ -1457,7 +1457,7 @@ export const DE_B2_U01: Lesson[] = [
           { es: "Wenn ich die Unterlagen dabeigehabt hätte, hätte sie mich vielleicht genommen.", en: "If I'd had my documents with me, she might have picked me." },
           { es: "Hätte ich mich früher beworben, hätte ich bessere Chancen gehabt.", en: "If I'd applied earlier, I'd have had better chances." },
           { es: "Ich wäre am ersten Mai eingezogen.", en: "I would have moved in on the first of May." },
-          { es: "Wenn das geklappt hätte, würde ich jetzt in Eimsbüttel wohnen.", en: "If that had worked out, I'd be living in \"Eimsbüttel\" now." },
+          { es: "Wenn das geklappt hätte, würde ich jetzt in Eimsbüttel wohnen.", en: "If that had worked out, I'd be living in Eimsbüttel now." },
           { es: "Ich hätte endlich einen Balkon gehabt.", en: "I would finally have had a balcony." },
         ],
         checkpoint: [
@@ -1473,7 +1473,7 @@ export const DE_B2_U01: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "I [would have moved in] on the first of May.",
+            en: "I [would have] moved in on the first of May.",
             sentence: "Ich ___ am ersten Mai eingezogen.",
             answer: "wäre",
             explanation: "\"Einziehen\" (move in) is movement into a place: sein, so \"wäre ... eingezogen\".",
@@ -1576,6 +1576,7 @@ export const DE_B2_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "I would finally have had a balcony.",
         answer: "Ich hätte endlich einen Balkon gehabt.",
+        altAnswers: ["Endlich hätte ich einen Balkon gehabt."],
         explanation: "Would have had = \"hätte ... gehabt\". \"Balkon\" is masculine: \"einen Balkon\".",
       },
       {
@@ -1605,7 +1606,7 @@ export const DE_B2_U01: Lesson[] = [
     slug: "b2-talk-about-you-wenn-ich-damals",
     level: "DE-B2",
     number: 9,
-    title: "Talk About Yourself: Wenn Ich Damals...",
+    title: "Talk About Yourself: Wenn ich damals...",
     summary: "Talk about a real decision in your life and how things would look now if you'd chosen differently.",
     duration: "13 min",
     sections: [
@@ -1743,8 +1744,8 @@ export const DE_B2_U01: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
         en: "Actually I'm glad that I [stayed].",
-        sentence: "Eigentlich bin ich froh, dass ich geblieben ___.",
-        answer: "bin",
+        sentence: "Eigentlich bin ich froh, dass ich ___.",
+        answer: "geblieben bin",
         explanation: "A real fact, so the indicative Perfekt: \"geblieben bin\" at the end of the dass-clause.",
       },
       {

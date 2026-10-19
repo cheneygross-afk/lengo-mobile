@@ -15,7 +15,7 @@ export const DE_B1_U10: Lesson[] = [
         heading: "The preposition comes first",
         body: [
           "English loves to end a relative clause with a preposition: the friend I live with, the company I work for. German never does that. The preposition moves to the very front of the relative clause, right before the relative pronoun: \"der Freund, mit dem ich wohne\", \"die Firma, für die ich arbeite\".",
-          "Formal English does the same (the company for which I work), so think of the formal version and translate that. *\"der Freund, den ich mit wohne\" is impossible in German.",
+          "Formal English does the same (the company for which I work), so think of the formal version and translate that. \"*der Freund, den ich mit wohne\" is impossible in German.",
           "Nothing else changes: the relative clause still starts after a comma, and the conjugated verb still goes to the end.",
         ],
         examples: [
@@ -75,8 +75,8 @@ export const DE_B1_U10: Lesson[] = [
             prompt: "Translate into German.",
             source: "The city we're moving to next year is Leipzig.",
             answer: "Die Stadt, in die wir nächstes Jahr ziehen, ist Leipzig.",
-            altAnswers: ["Die Stadt, in die wir nächstes Jahr umziehen, ist Leipzig.", "Die Stadt, nach der wir nächstes Jahr ziehen, ist Leipzig."],
-            explanation: "Moving into = direction: \"in\" + accusative \"die\".",
+            altAnswers: ["Die Stadt, in die wir nächstes Jahr umziehen, ist Leipzig.", "Die Stadt, wohin wir nächstes Jahr ziehen, ist Leipzig."],
+            explanation: "Moving to a city = direction: \"in\" + accusative \"die\". Not \"nach der\": \"nach\" is only used with the bare city name (\"nach Leipzig\").",
           },
         ],
       },
@@ -148,7 +148,6 @@ export const DE_B1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "The chair you're sitting on is broken. (to a friend)",
         answer: "Der Stuhl, auf dem du sitzt, ist kaputt.",
-        altAnswers: ["Der Stuhl, auf dem ihr sitzt, ist kaputt.", "Der Stuhl, auf dem Sie sitzen, ist kaputt."],
         explanation: "Where: \"auf\" + dative \"dem\".",
       },
       {
@@ -259,7 +258,7 @@ export const DE_B1_U10: Lesson[] = [
         body: [
           "After indefinite words with no noun, German uses \"was\" instead of \"das\": \"alles, was ich weiß\" (everything I know), \"etwas, was ich nicht verstehe\" (something I don't understand), \"nichts, was mir gefällt\", \"vieles, was du sagst\", \"das, was du willst\" (what you want).",
           "Also after a neuter superlative used as a noun: \"das Beste, was mir passiert ist\" (the best thing that's happened to me), \"das Einzige, was ich will\" (the only thing I want).",
-          "And after a whole clause, to comment on it: \"Er kam zu spät, was mich geärgert hat\" (He was late, which annoyed me). English uses which; German uses \"was\", never *\"das\" or *\"welches\" here.",
+          "And after a whole clause, to comment on it: \"Er kam zu spät, was mich geärgert hat\" (He was late, which annoyed me). English uses which; German uses \"was\", never \"*das\" or \"*welches\" here.",
         ],
         examples: [
           { es: "Das ist alles, was ich weiß.", en: "That's all I know." },
@@ -332,7 +331,7 @@ export const DE_B1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "Is there anything I can do for you? (to a friend)",
         answer: "Gibt es etwas, was ich für dich tun kann?",
-        altAnswers: ["Gibt es etwas, was ich für dich machen kann?", "Kann ich etwas für dich tun?", "Gibt es etwas, was ich für euch tun kann?", "Gibt es etwas, was ich für Sie tun kann?"],
+        altAnswers: ["Gibt es etwas, was ich für dich machen kann?", "Kann ich etwas für dich tun?"],
         explanation: "After \"etwas\": \"was\".",
       },
       {
@@ -359,7 +358,7 @@ export const DE_B1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "You can eat whatever you want. (to a friend)",
         answer: "Du kannst essen, was du willst.",
-        altAnswers: ["Du kannst essen, was du möchtest.", "Ihr könnt essen, was ihr wollt.", "Sie können essen, was Sie wollen."],
+        altAnswers: ["Du kannst essen, was du möchtest."],
         explanation: "\"Was\" without a noun before it: whatever.",
       },
       {
@@ -572,7 +571,7 @@ export const DE_B1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "I know that you're right. (to a friend)",
         answer: "Ich weiß, dass du recht hast.",
-        altAnswers: ["Ich weiß, dass du Recht hast.", "Ich weiß, dass ihr recht habt.", "Ich weiß, dass Sie recht haben."],
+        altAnswers: ["Ich weiß, dass du Recht hast."],
         explanation: "Conjunction → \"dass\".",
       },
       {
@@ -634,7 +633,7 @@ export const DE_B1_U10: Lesson[] = [
         body: [
           "Read Jonas's message about a group project. Notice how often he uses a preposition + relative pronoun to give extra information about people and things.",
           "\"Die Kommilitonin, mit der ich am meisten arbeite, heißt Aylin. Das Thema, über das wir schreiben, ist Wasser in Städten. Der Professor, bei dem wir das Seminar haben, ist streng, aber fair.\"",
-          "Kommilitone / Kommilitonin is the everyday word for a fellow student at university.",
+          "\"Der Kommilitone\" / \"die Kommilitonin\" is the everyday word for a fellow student at university.",
         ],
         examples: [
           { es: "Die Kommilitonin, mit der ich am meisten arbeite, heißt Aylin.", en: "The fellow student I work with most is called Aylin." },
@@ -666,12 +665,12 @@ export const DE_B1_U10: Lesson[] = [
       {
         heading: "Problems in the team",
         body: [
-          "Group work is not always easy. Jonas goes on: \"Es gibt einen Kollegen, auf den wir immer warten müssen. Die Aufgaben, für die er verantwortlich ist, macht er immer erst am letzten Tag.\"",
+          "Group work is not always easy. Jonas goes on: \"Es gibt einen Kommilitonen, auf den wir immer warten müssen. Die Aufgaben, für die er verantwortlich ist, macht er immer erst am letzten Tag.\"",
           "Verbs with fixed prepositions are very common when you talk about teamwork: \"warten auf\", \"sich kümmern um\" (take care of), \"verantwortlich sein für\" (be responsible for), \"sich streiten über\" (argue about).",
           "The preposition goes to the front of the relative clause, and the verb goes to the end.",
         ],
         examples: [
-          { es: "Es gibt einen Kollegen, auf den wir immer warten müssen.", en: "There's one fellow student we always have to wait for." },
+          { es: "Es gibt einen Kommilitonen, auf den wir immer warten müssen.", en: "There's one fellow student we always have to wait for." },
           { es: "Die Aufgaben, für die er verantwortlich ist, macht er erst am letzten Tag.", en: "He only does the tasks he's responsible for on the last day." },
           { es: "Das ist ein Problem, um das wir uns kümmern müssen.", en: "That's a problem we have to take care of." },
           { es: "Die Präsentation, über die wir uns gestritten haben, ist jetzt fertig.", en: "The presentation we argued about is finished now." },
@@ -796,7 +795,7 @@ export const DE_B1_U10: Lesson[] = [
         body: [
           "For places you can use a preposition + relative pronoun, or simply \"wo\": \"die Stadt, in der ich aufgewachsen bin\" and \"die Stadt, wo ich aufgewachsen bin\" mean the same. \"Wo\" is a little more informal and very common in speech.",
           "For a direction (where to), use \"in die / in den\" or \"wohin\": \"das Land, in das ich gern reisen würde\", \"das Land, wohin ich gern reisen würde\".",
-          "With city and country names you always use \"wo\" or \"wohin\": \"Wien, wo ich studiert habe\".",
+          "With city and country names you normally use \"wo\" or \"wohin\": \"Wien, wo ich studiert habe\".",
         ],
         examples: [
           { es: "Die Stadt, in der ich aufgewachsen bin, liegt an der Küste.", en: "The town I grew up in is on the coast." },
@@ -907,7 +906,7 @@ export const DE_B1_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "My grandma, [at whose place] I spent every summer, had a farm.",
+        en: "My grandma, [who] I stayed [with] every summer, had a farm.",
         sentence: "Meine Oma, ___ ich jeden Sommer war, hatte einen Bauernhof.",
         answer: "bei der",
         explanation: "\"Bei\" + dative feminine: \"bei der\".",
@@ -925,7 +924,6 @@ export const DE_B1_U10: Lesson[] = [
         prompt: "Put the words in order to say: That's the street where I lived as a child.",
         words: ["Das", "ist", "die", "Straße,", "wo", "ich", "als", "Kind", "gewohnt", "habe."],
         translation: "That's the street where I lived as a child.",
-        altOrders: [["Das", "ist", "die", "Straße,", "wo", "ich", "als", "Kind", "habe", "gewohnt."]],
         explanation: "\"Wo\" + verb at the end.",
       },
       {
@@ -1058,10 +1056,10 @@ export const DE_B1_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Choose the right word: Die Firma, ___ ich mich beworben habe, hat geantwortet.",
-        options: ["bei der", "bei die", "der", "wo"],
+        question: "Choose the right word: \"Die Firma, ___ ich mich beworben habe, hat geantwortet.\"",
+        options: ["bei der", "bei die", "der", "bei dem"],
         correctIndex: 0,
-        explanation: "\"Sich bewerben bei\" + dative: \"bei der\".",
+        explanation: "\"Sich bewerben bei\" + dative; \"die Firma\" is feminine, so \"bei der\". \"Bei dem\" has the wrong gender, \"bei die\" the wrong case.",
       },
       {
         type: "word-order",
@@ -1097,12 +1095,12 @@ export const DE_B1_U10: Lesson[] = [
       {
         heading: "Three steps",
         body: [
-          "To join \"Das ist meine Freundin. Ich gehe oft mit ihr ins Kino.\" into one sentence: 1) find the shared person or thing (meine Freundin = ihr); 2) replace the second mention with preposition + relative pronoun (\"mit ihr\" → \"mit der\") and put it at the start of the clause; 3) send the verb to the end.",
+          "To join \"Das ist meine Freundin. Ich gehe oft mit ihr ins Kino.\" into one sentence: 1) find the shared person or thing (\"meine Freundin\" = \"ihr\"); 2) replace the second mention with preposition + relative pronoun (\"mit ihr\" → \"mit der\") and put it at the start of the clause; 3) send the verb to the end.",
           "Result: \"Das ist meine Freundin, mit der ich oft ins Kino gehe.\"",
           "The pronoun in the second sentence already shows you the case: \"ihr\" is dative, so the relative pronoun is dative too (\"der\").",
         ],
         examples: [
-          { es: "Das ist meine Freundin, mit der ich oft ins Kino gehe.", en: "That's my friend I often go to the cinema with." },
+          { es: "Das ist meine Freundin, mit der ich oft ins Kino gehe.", en: "That's my friend who I often go to the cinema with." },
           { es: "Das ist der Kurs, für den ich mich angemeldet habe.", en: "That's the course I signed up for." },
           { es: "Hier ist der Park, in dem wir uns kennengelernt haben.", en: "Here's the park where we met." },
           { es: "Das sind die Nachbarn, von denen ich dir erzählt habe.", en: "Those are the neighbours I told you about." },
@@ -1110,7 +1108,7 @@ export const DE_B1_U10: Lesson[] = [
         checkpoint: [
           {
             type: "word-order",
-            prompt: "Join the sentences: Das ist der Kurs. Ich habe mich für ihn angemeldet.",
+            prompt: "Join the sentences: \"Das ist der Kurs. Ich habe mich für ihn angemeldet.\"",
             words: ["Das", "ist", "der", "Kurs,", "für", "den", "ich", "mich", "angemeldet", "habe."],
             translation: "That's the course I signed up for.",
             explanation: "\"Für ihn\" → \"für den\" at the front; \"habe\" at the end.",
@@ -1161,21 +1159,21 @@ export const DE_B1_U10: Lesson[] = [
     exercises: [
       {
         type: "word-order",
-        prompt: "Join the sentences: Hier ist der Park. Wir haben uns in dem Park kennengelernt.",
+        prompt: "Join the sentences: \"Hier ist der Park. Wir haben uns in dem Park kennengelernt.\"",
         words: ["Hier", "ist", "der", "Park,", "in", "dem", "wir", "uns", "kennengelernt", "haben."],
         translation: "Here's the park where we met.",
         explanation: "\"In dem\" first; \"kennengelernt haben\" at the end.",
       },
       {
         type: "word-order",
-        prompt: "Join the sentences: Das ist meine Freundin. Ich gehe mit ihr ins Kino.",
+        prompt: "Join the sentences: \"Das ist meine Freundin. Ich gehe mit ihr ins Kino.\"",
         words: ["Das", "ist", "meine", "Freundin,", "mit", "der", "ich", "ins", "Kino", "gehe."],
-        translation: "That's my friend I go to the cinema with.",
+        translation: "That's my friend who I go to the cinema with.",
         explanation: "\"Mit ihr\" → \"mit der\".",
       },
       {
         type: "word-order",
-        prompt: "Join the sentences: Die Kollegen sind nett. Ich arbeite mit ihnen.",
+        prompt: "Join the sentences: \"Die Kollegen sind nett. Ich arbeite mit ihnen.\"",
         words: ["Die", "Kollegen,", "mit", "denen", "ich", "arbeite,", "sind", "nett."],
         translation: "The colleagues I work with are nice.",
         explanation: "\"Mit ihnen\" → \"mit denen\"; the clause sits inside the main clause.",
@@ -1216,7 +1214,7 @@ export const DE_B1_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Join: Das ist die Brücke. Wir sind über sie gefahren.",
+        question: "Join: \"Das ist die Brücke. Wir sind über sie gefahren.\"",
         options: ["Das ist die Brücke, über die wir gefahren sind.", "Das ist die Brücke, die wir über gefahren sind.", "Das ist die Brücke, über der wir gefahren sind.", "Das ist die Brücke, über die wir sind gefahren."],
         correctIndex: 0,
         explanation: "\"Über sie\" (accusative) → \"über die\"; verb at the end.",
@@ -1250,7 +1248,7 @@ export const DE_B1_U10: Lesson[] = [
         body: [
           "You'll often forget a word. Instead of stopping, describe it with a relative clause. For objects: \"Das ist ein Ding, mit dem man ...\" (a thing you ... with) or \"Das ist etwas, was man ... braucht\".",
           "For people: \"Das ist jemand, der ...\" (someone who ...) or \"eine Person, die ...\".",
-          "\"Man\" (one, you) is perfect for these general descriptions: \"Das ist ein Gerät, mit dem man Kaffee macht.\" (die Kaffeemaschine), \"Das ist jemand, der Häuser plant.\" (der Architekt).",
+          "\"Man\" (one, you) is perfect for these general descriptions: \"Das ist ein Gerät, mit dem man Kaffee macht.\" (\"die Kaffeemaschine\"), \"Das ist jemand, der Häuser plant.\" (\"der Architekt\").",
         ],
         examples: [
           { es: "Das ist ein Ding, mit dem man Dosen öffnet.", en: "It's a thing you open tins with." },
@@ -1283,7 +1281,7 @@ export const DE_B1_U10: Lesson[] = [
         heading: "Places and situations",
         body: [
           "For places: \"Das ist ein Ort, wo ...\" or \"ein Ort, an dem ...\". For buildings and rooms: \"ein Raum, in dem ...\".",
-          "For a situation or moment: \"Das ist, wenn ...\" (it's when ...): \"Das ist, wenn man nicht schlafen kann.\" (die Schlaflosigkeit). A building where sick people stay is \"das Krankenhaus\"; a room where you watch films is \"das Kino\".",
+          "For a situation or moment: \"Das ist, wenn ...\" (it's when ...): \"Das ist, wenn man nicht schlafen kann.\" (\"die Schlaflosigkeit\"). A building where sick people stay is \"das Krankenhaus\"; a room where you watch films is \"das Kino\".",
           "Add a second clue if needed: \"Das ist ein Ort, wo man Bücher leihen kann. Man muss dort leise sein.\"",
         ],
         examples: [
@@ -1356,7 +1354,7 @@ export const DE_B1_U10: Lesson[] = [
         source: "It's someone who repairs cars.",
         answer: "Das ist jemand, der Autos repariert.",
         altAnswers: ["Das ist eine Person, die Autos repariert.", "Das ist ein Mensch, der Autos repariert."],
-        explanation: "(der Mechaniker) \"Jemand, der\" + verb at the end.",
+        explanation: "(\"der Mechaniker\") \"Jemand, der\" + verb at the end.",
       },
       {
         type: "fill-blank",
@@ -1364,7 +1362,7 @@ export const DE_B1_U10: Lesson[] = [
         en: "It's a thing [you cut bread with].",
         sentence: "Das ist ein Ding, ___ man Brot schneidet.",
         answer: "mit dem",
-        explanation: "(das Brotmesser) \"Mit\" + dative neuter.",
+        explanation: "(\"das Brotmesser\") \"Mit\" + dative neuter: \"das Ding\" → \"mit dem\".",
       },
       {
         type: "fill-blank",
@@ -1373,14 +1371,14 @@ export const DE_B1_U10: Lesson[] = [
         sentence: "Das ist ein Ort, ___ man schwimmen kann.",
         answer: "wo",
         altAnswers: ["an dem"],
-        explanation: "(das Schwimmbad) \"Wo\" for a place.",
+        explanation: "(\"das Schwimmbad\") \"Wo\" or \"an dem\" for a place.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: It's someone who works in a school.",
         words: ["Das", "ist", "jemand,", "der", "in", "einer", "Schule", "arbeitet."],
         translation: "It's someone who works in a school.",
-        explanation: "(der Lehrer) Verb at the end.",
+        explanation: "(\"der Lehrer\") After \"jemand\": \"der\", verb at the end.",
       },
       {
         type: "listen-choose",
@@ -1388,7 +1386,7 @@ export const DE_B1_U10: Lesson[] = [
         question: "What is being described?",
         options: ["a hairdryer", "a towel", "a comb", "a shower"],
         correctIndex: 0,
-        explanation: "A thing you dry your hair with: der Föhn.",
+        explanation: "A thing you dry your hair with: \"der Föhn\".",
       },
       {
         type: "speak",

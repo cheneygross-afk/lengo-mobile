@@ -16,7 +16,7 @@ export const DE_A2_U06: Lesson[] = [
         body: [
           "A story needs signposts: \"zuerst\" (first), \"dann\" (then), \"danach\" (after that), \"später\" (later), \"schließlich\" (finally, in the end) and \"zum Schluss\" (at the end, finally). They tell the listener what came before what.",
           "In German each of these words fills position 1 of the sentence. Since the verb must be in position 2, it comes straight after the connector, and the subject moves behind it: \"Dann sind wir ins Restaurant gegangen\". In the Perfekt that means the auxiliary sits right after the connector and the participle stays at the end.",
-          "English puts the subject first (Then we went...), so the most common mistake is *Dann wir sind gegangen*. Train your ear: connector, verb, subject.",
+          "English puts the subject first (Then we went...), so the most common mistake is \"*Dann wir sind gegangen*\". Train your ear: connector, verb, subject.",
         ],
         examples: [
           { es: "Zuerst haben wir gefrühstückt.", en: "First we had breakfast." },
@@ -40,6 +40,7 @@ export const DE_A2_U06: Lesson[] = [
             prompt: "Translate into German.",
             source: "After that I took a shower.",
             answer: "Danach habe ich geduscht.",
+            altAnswers: ["Danach habe ich mich geduscht.", "Ich habe danach geduscht."],
             explanation: "\"Danach\" + verb + subject: \"Danach habe ich...\". \"Duschen\" is regular: \"geduscht\".",
           },
         ],
@@ -223,7 +224,7 @@ export const DE_A2_U06: Lesson[] = [
         body: [
           "You met this in Unit 5: for something that started in the past and is still true, German uses the present tense plus \"seit\" (since / for). \"Ich lerne seit zwei Jahren Deutsch\" = I've been learning German for two years. English needs have been learning; German just says I learn, since two years.",
           "\"Seit\" works for both English since and for: \"seit Montag\" (since Monday), \"seit 2021\" (since 2021), \"seit drei Wochen\" (for three weeks). One word, one rule.",
-          "The trap is copying the English tense: *Ich habe seit zwei Jahren Deutsch gelernt* sounds as if you've stopped. If it's still happening, keep the verb in the present.",
+          "The trap is copying the English tense: \"*Ich habe seit zwei Jahren Deutsch gelernt*\" sounds as if you've stopped. If it's still happening, keep the verb in the present.",
         ],
         examples: [
           { es: "Ich lerne seit zwei Jahren Deutsch.", en: "I've been learning German for two years." },
@@ -241,7 +242,7 @@ export const DE_A2_U06: Lesson[] = [
             source: "She has been living in Vienna for a month.",
             answer: "Sie wohnt seit einem Monat in Wien.",
             altAnswers: ["Sie lebt seit einem Monat in Wien.", "Seit einem Monat wohnt sie in Wien.", "Seit einem Monat lebt sie in Wien."],
-            explanation: "Still true: present \"wohnt\" + \"seit einem Monat\" (der Monat → einem in the dative).",
+            explanation: "Still true: present \"wohnt\" + \"seit einem Monat\" (\"der Monat\" → einem in the dative).",
           },
           {
             type: "multiple-choice",
@@ -467,7 +468,7 @@ export const DE_A2_U06: Lesson[] = [
         body: [
           "For how long something lasted, when it's over, German uses the length on its own, often with \"lang\" after it: \"Ich habe drei Jahre lang in Bonn gewohnt\" (I lived in Bonn for three years). \"Lang\" is optional but makes the duration clear: \"Ich habe zwei Stunden gewartet\" = \"Ich habe zwei Stunden lang gewartet\".",
           "Here the time phrase is accusative, not dative: \"einen Monat lang\", \"eine Woche lang\", \"ein Jahr lang\", \"drei Tage lang\" (no -n!). Compare \"seit drei Tagen\" (dative, -n) with \"drei Tage lang\" (accusative, no -n).",
-          "Never use \"seit\" for a finished period, and never use English for literally: *für drei Jahre gewohnt* is a common English-speaker mistake. For a past duration, use \"lang\" or nothing.",
+          "Never use \"seit\" for a finished period, and never use English for literally: \"*für drei Jahre gewohnt*\" is a common English-speaker mistake. For a past duration, use \"lang\" or nothing.",
         ],
         examples: [
           { es: "Ich habe drei Jahre lang in Bonn gewohnt.", en: "I lived in Bonn for three years." },
@@ -484,7 +485,7 @@ export const DE_A2_U06: Lesson[] = [
             source: "It rained for a week.",
             answer: "Es hat eine Woche lang geregnet.",
             altAnswers: ["Es hat eine Woche geregnet.", "Eine Woche lang hat es geregnet."],
-            explanation: "Finished: Perfekt + \"eine Woche lang\" (accusative). Not *seit einer Woche* and not *für eine Woche*.",
+            explanation: "Finished: Perfekt + \"eine Woche lang\" (accusative). Not \"*seit einer Woche*\" and not \"*für eine Woche*\".",
           },
           {
             type: "multiple-choice",
@@ -541,8 +542,8 @@ export const DE_A2_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "We met three years ago.",
         answer: "Wir haben uns vor drei Jahren kennengelernt.",
-        altAnswers: ["Vor drei Jahren haben wir uns kennengelernt."],
-        explanation: "\"Vor drei Jahren\" (dative plural -n) for ago. \"Sich kennenlernen\" = to meet for the first time.",
+        altAnswers: ["Vor drei Jahren haben wir uns kennengelernt.", "Wir haben uns vor drei Jahren getroffen.", "Vor drei Jahren haben wir uns getroffen."],
+        explanation: "\"Vor drei Jahren\" (dative plural -n) for ago. \"Sich kennenlernen\" = to meet for the first time; learn \"wir haben uns ... kennengelernt\" (\"uns\" = each other) as a chunk.",
       },
       {
         type: "translate",
@@ -678,7 +679,7 @@ export const DE_A2_U06: Lesson[] = [
         heading: "The endings tell you too",
         body: [
           "\"Seit\" and \"vor\" take the dative: \"seit / vor drei Tagen\", \"seit / vor einem Jahr\", \"seit / vor einer Woche\". \"Lang\" and \"für\" go with the accusative: \"drei Tage lang\", \"ein Jahr lang\", \"für eine Woche\", \"einen Monat lang\".",
-          "So the -n on \"Tagen\", \"Jahren\", \"Monaten\" is a good clue: if you hear it, the speaker said \"seit\" or \"vor\". \"Drei Jahren lang\" or \"für drei Jahren\" are mistakes.",
+          "So the -n on \"Tagen\", \"Jahren\", \"Monaten\" is a good clue: if you hear it, the speaker said \"seit\" or \"vor\". \"*Drei Jahren lang*\" and \"*für drei Jahren*\" are mistakes.",
         ],
         examples: [
           { es: "Seit drei Tagen esse ich kein Fleisch.", en: "I haven't eaten meat for three days." },
@@ -709,7 +710,7 @@ export const DE_A2_U06: Lesson[] = [
       {
         heading: "Common slips",
         body: [
-          "*Ich wohne hier für drei Jahre*: English for copied word for word. If you still live there: \"seit drei Jahren\". *Ich habe seit drei Jahren hier gewohnt*: the Perfekt says it's over, \"seit\" says it isn't. *Vor zwei Tage*: missing dative -n: \"vor zwei Tagen\". *Zwei Tage vor*: English word order: \"vor\" comes first.",
+          "\"*Ich wohne hier für drei Jahre*\": English for copied word for word. If you still live there: \"seit drei Jahren\". \"*Ich habe seit drei Jahren hier gewohnt*\": the Perfekt says it's over, \"seit\" says it isn't. \"*Vor zwei Tage*\": missing dative -n: \"vor zwei Tagen\". \"*Zwei Tage vor*\": English word order: \"vor\" comes first.",
           "And one more: \"bis\" means until: \"Ich bleibe bis Freitag\" (I'm staying until Friday). Don't mix it up with \"seit\" (since).",
         ],
         examples: [
@@ -820,7 +821,7 @@ export const DE_A2_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "My grandma is visiting for a week.",
         answer: "Meine Oma kommt für eine Woche zu Besuch.",
-        altAnswers: ["Meine Oma ist für eine Woche zu Besuch.", "Meine Oma besucht uns für eine Woche.", "Meine Großmutter kommt für eine Woche zu Besuch.", "Meine Großmutter ist für eine Woche zu Besuch.", "Meine Oma ist eine Woche zu Besuch."],
+        altAnswers: ["Meine Oma ist für eine Woche zu Besuch.", "Meine Oma besucht uns für eine Woche.", "Meine Großmutter kommt für eine Woche zu Besuch.", "Meine Großmutter ist für eine Woche zu Besuch.", "Meine Oma ist eine Woche zu Besuch.", "Meine Oma besucht mich für eine Woche."],
         explanation: "A planned visit: \"für eine Woche\".",
       },
       {
@@ -840,7 +841,7 @@ export const DE_A2_U06: Lesson[] = [
     slug: "a2-pattern-als-wenn-preview",
     level: "DE-A2",
     number: 5,
-    title: "Pattern Practice: Als Ich Klein War, Immer Wenn",
+    title: "Pattern Practice: Als ich klein war, Immer wenn",
     summary: "Two story frames with the verb at the end, learned as chunks: als ich klein war (once in the past) and immer wenn (every time), followed by verb-first main clauses.",
     duration: "13 min",
     sections: [
@@ -849,7 +850,7 @@ export const DE_A2_U06: Lesson[] = [
         body: [
           "\"Als\" means when, for a single moment or period in the past: \"Als ich klein war\" (when I was little), \"Als ich zehn war\" (when I was ten), \"Als wir in Hamburg waren\" (when we were in Hamburg). Notice that the verb \"war\" has moved to the end of the clause: that's how German subordinate clauses work. You'll learn the full rule in Unit 14; for now, learn these frames as whole chunks.",
           "The surprise comes next. The whole \"als\" clause counts as position 1 of the sentence, so the main clause must start with its verb: \"Als ich klein war, hatte ich einen Hund\". The verb \"hatte\" is in position 2, right after the comma, and the subject \"ich\" comes after it.",
-          "So the pattern is: clause, comma, verb, subject: \"Als ich zehn war, bin ich nach Bremen gezogen.\" Saying *Als ich klein war, ich hatte einen Hund* is the English-order mistake.",
+          "So the pattern is: clause, comma, verb, subject: \"Als ich zehn war, bin ich nach Bremen gezogen.\" Saying \"*Als ich klein war, ich hatte einen Hund*\" is the English-order mistake.",
         ],
         examples: [
           { es: "Als ich klein war, hatte ich einen Hund.", en: "When I was little, I had a dog." },
@@ -902,10 +903,10 @@ export const DE_A2_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "When I was a child, I lived in Munich (one period). Which word starts the sentence?",
-            options: ["Als", "Wenn", "Immer wenn", "Wann"],
+            question: "How do you say: When I was a child, I lived in Munich. (one period in the past)",
+            options: ["Als ich ein Kind war, habe ich in München gewohnt.", "Wenn ich ein Kind war, habe ich in München gewohnt.", "Immer wenn ich ein Kind war, habe ich in München gewohnt.", "Wann ich ein Kind war, habe ich in München gewohnt."],
             correctIndex: 0,
-            explanation: "One period in the past = \"als\": \"Als ich ein Kind war, habe ich in München gewohnt\". \"Wann\" is only for questions.",
+            explanation: "One period in the past = \"als\". \"Wenn\" / \"immer wenn\" would mean every time (you can only be a child once), and \"wann\" is only for questions.",
           },
         ],
       },
@@ -988,7 +989,7 @@ export const DE_A2_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "Whenever it was cold, we stayed at home.",
         answer: "Immer wenn es kalt war, sind wir zu Hause geblieben.",
-        altAnswers: ["Wenn es kalt war, sind wir zu Hause geblieben.", "Immer wenn es kalt war, blieben wir zu Hause.", "Wenn es kalt war, blieben wir zu Hause.", "Immer wenn es kalt war, waren wir zu Hause."],
+        altAnswers: ["Wenn es kalt war, sind wir zu Hause geblieben.", "Immer wenn es kalt war, blieben wir zu Hause.", "Wenn es kalt war, blieben wir zu Hause.", "Immer wenn es kalt war, waren wir zu Hause.", "Immer wenn es kalt war, sind wir zuhause geblieben."],
         explanation: "Repeated past: \"immer wenn\". \"Bleiben\" takes \"sein\": \"sind ... geblieben\".",
       },
       {
@@ -1088,7 +1089,7 @@ export const DE_A2_U06: Lesson[] = [
       {
         heading: "The order of a report",
         body: [
-          "A report follows a clear sequence, using the connectors from this unit: \"zuerst\", \"dann\", \"danach\", \"später\", \"schließlich\". Each connector is position 1, so the verb follows: \"Dann kam die Feuerwehr\", \"Schließlich ist die Straße wieder frei gewesen\".",
+          "A report follows a clear sequence, using the connectors from this unit: \"zuerst\", \"dann\", \"danach\", \"später\", \"schließlich\". Each connector is position 1, so the verb follows: \"Dann kam die Feuerwehr\", \"Schließlich war die Straße wieder frei\".",
           "Time and place come early. German likes the order time, then manner, then place: \"Ein Auto ist gestern Nachmittag mit hoher Geschwindigkeit gegen einen Baum gefahren\". At the Elementary level, keep it simple: time phrase in position 1, place later.",
           "Our second report: a kitchen fire. Read it as a chain of events.",
         ],
@@ -1147,7 +1148,7 @@ export const DE_A2_U06: Lesson[] = [
             question: "What does it mean?",
             options: ["The police are looking for witnesses.", "The police found witnesses.", "The police are questioning the witnesses.", "The witnesses are looking for the police."],
             correctIndex: 0,
-            explanation: "\"Suchen\" = to look for; \"Zeugen\" = witnesses (der Zeuge, die Zeugen).",
+            explanation: "\"Suchen\" = to look for; \"Zeugen\" = witnesses (\"der Zeuge\", \"die Zeugen\").",
           },
         ],
       },
@@ -1209,7 +1210,6 @@ export const DE_A2_U06: Lesson[] = [
         prompt: "Put the words in order to say: Then the police came.",
         words: ["Dann", "ist", "die", "Polizei", "gekommen."],
         translation: "Then the police came.",
-        altOrders: [["Dann", "ist", "gekommen", "die", "Polizei."]],
         explanation: "\"Dann\" first, auxiliary \"ist\" second (kommen takes sein), participle at the end.",
       },
       {
@@ -1227,7 +1227,7 @@ export const DE_A2_U06: Lesson[] = [
         question: "What does it mean?",
         options: ["Yesterday evening there was an accident on the high street.", "Yesterday evening an accident was avoided on the high street.", "This evening there's been an accident on the high street.", "Yesterday evening someone passed the high street."],
         correctIndex: 0,
-        explanation: "\"Ist ... passiert\" = happened. \"Passieren\" is a false-friend trap: it means happen, not pass.",
+        explanation: "\"Ist ... passiert\" = happened. \"Passieren\" is a false-friend trap: in everyday German it means happen, not pass.",
       },
       {
         type: "translate",
@@ -1332,7 +1332,7 @@ export const DE_A2_U06: Lesson[] = [
         heading: "Saying years: no \"in\"!",
         body: [
           "Years before 2000 are said in hundreds: 1989 = \"neunzehnhundertneunundachtzig\" (nineteen hundred eighty-nine). From 2000: \"zweitausend\", 2015 = \"zweitausendfünfzehn\".",
-          "The big trap: German doesn't use \"in\" before a year. Say \"1989 ist die Mauer gefallen\" or \"im Jahr 1989\", never *in 1989*. This is one of the most common mistakes English speakers make, even at advanced levels.",
+          "The big trap: German doesn't use \"in\" before a year. Say \"1989 ist die Mauer gefallen\" or \"im Jahr 1989\", never \"*in 1989*\". This is one of the most common mistakes English speakers make, even at advanced levels.",
           "For centuries, use \"im\" + ordinal: \"im 20. Jahrhundert\" (\"im zwanzigsten Jahrhundert\"). For decades: \"in den Achtzigerjahren\" / \"in den 80ern\" (in the eighties).",
         ],
         examples: [
@@ -1402,7 +1402,7 @@ export const DE_A2_U06: Lesson[] = [
         question: "Which sentence is correct?",
         options: ["Wir sind 2012 nach Leipzig gezogen.", "Wir sind in 2012 nach Leipzig gezogen.", "Wir sind am 2012 nach Leipzig gezogen.", "Wir sind um 2012 nach Leipzig gezogen gewesen."],
         correctIndex: 0,
-        explanation: "A bare year with no preposition (or \"im Jahr 2012\"). *In 2012* is the classic English-speaker error.",
+        explanation: "A bare year with no preposition (or \"im Jahr 2012\"). \"*In 2012*\" is the classic English-speaker error.",
       },
       {
         type: "translate",
@@ -1500,7 +1500,7 @@ export const DE_A2_U06: Lesson[] = [
             source: "Last summer we went to Italy.",
             answer: "Letzten Sommer sind wir nach Italien gefahren.",
             altAnswers: ["Wir sind letzten Sommer nach Italien gefahren.", "Letzten Sommer sind wir nach Italien geflogen.", "Wir sind letzten Sommer nach Italien geflogen."],
-            explanation: "Time phrase first, auxiliary \"sind\" second. \"Letzten Sommer\" (der Sommer) is accusative of time.",
+            explanation: "Time phrase first, auxiliary \"sind\" second. \"Letzten Sommer\" (\"der Sommer\") is accusative of time.",
           },
           {
             type: "fill-blank",
@@ -1516,7 +1516,7 @@ export const DE_A2_U06: Lesson[] = [
         heading: "What went wrong",
         body: [
           "The middle of the story is a chain of events, so connectors carry it: \"zuerst\", \"dann\", \"danach\", \"später\". Actions go in the Perfekt, states and modals in the Präteritum.",
-          "Durations matter here too: \"Wir haben drei Stunden lang gewartet\" (finished), \"vor dem Hotel\", \"nach zwei Tagen\".",
+          "Durations and times matter here too: \"Wir haben drei Stunden lang gewartet\" (finished), \"nach zwei Tagen\" (after two days), \"vor einer Woche\" (a week ago).",
         ],
         examples: [
           { es: "Zuerst hatte unser Zug acht Stunden Verspätung.", en: "First our train was eight hours late." },
@@ -1640,6 +1640,7 @@ export const DE_A2_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "Lena was ill and had to stay at the hotel.",
         answer: "Lena war krank und musste im Hotel bleiben.",
+        altAnswers: ["Lena war krank und sie musste im Hotel bleiben."],
         explanation: "Two Präteritum forms, \"war\" and \"musste\", with \"bleiben\" at the end.",
       },
       {

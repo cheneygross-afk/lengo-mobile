@@ -23,7 +23,7 @@ export const DE_C1_U07: Lesson[] = [
     level: "DE-C1",
     number: 1,
     title: "Prepositions: Professional Precision, Part 1 of 6",
-    summary: "Time and deadlines: in vs innerhalb / binnen, ab vs seit, bis spätestens, zum + date, mit Wirkung vom, vor Ablauf der Frist, and the three Germans for English for.",
+    summary: "Set precise times and deadlines in German: \"in\" vs \"innerhalb\" / \"binnen\", \"ab\" vs \"seit\", \"bis spätestens\", \"zum\" + date, \"mit Wirkung vom\", \"vor Ablauf der Frist\", and the three German equivalents of English for.",
     duration: "18 min",
     sections: [
       {
@@ -53,7 +53,7 @@ export const DE_C1_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Der Kurs beginnt in zwei Wochen. What does it mean?",
+            question: "\"Der Kurs beginnt in zwei Wochen.\" What does it mean?",
             options: ["The course starts two weeks from now.", "The course starts some time within the next two weeks.", "The course lasts two weeks.", "The course started two weeks ago."],
             correctIndex: 0,
             explanation: "\"In\" + time span = at the end of that period from now.",
@@ -82,7 +82,7 @@ export const DE_C1_U07: Lesson[] = [
             prompt: "Translate into German.",
             source: "From next week the office will be closed on Fridays.",
             answer: "Ab nächster Woche ist das Büro freitags geschlossen.",
-            altAnswers: ["Ab nächster Woche ist das Büro freitags zu.", "Ab der nächsten Woche ist das Büro freitags geschlossen.", "Das Büro ist ab nächster Woche freitags geschlossen."],
+            altAnswers: ["Ab nächster Woche ist das Büro freitags zu.", "Ab der nächsten Woche ist das Büro freitags geschlossen.", "Das Büro ist ab nächster Woche freitags geschlossen.", "Ab nächster Woche wird das Büro freitags geschlossen sein.", "Ab nächster Woche bleibt das Büro freitags geschlossen."],
             explanation: "A future starting point: \"ab\", not \"seit\".",
           },
           {
@@ -175,7 +175,7 @@ export const DE_C1_U07: Lesson[] = [
         prompt: "Translate into German.",
         source: "Please send the form back by Monday at the latest.",
         answer: "Bitte schicken Sie das Formular bis spätestens Montag zurück.",
-        altAnswers: ["Bitte senden Sie das Formular bis spätestens Montag zurück.", "Bitte schicken Sie das Formular spätestens bis Montag zurück.", "Bitte schicken Sie das Formular bis spätestens Montag zurück!"],
+        altAnswers: ["Bitte senden Sie das Formular bis spätestens Montag zurück.", "Bitte schicken Sie das Formular spätestens bis Montag zurück.", "Bitte schicken Sie das Formular spätestens am Montag zurück.", "Schicken Sie das Formular bitte bis spätestens Montag zurück.", "Bitte schick das Formular bis spätestens Montag zurück."],
         explanation: "\"Bis spätestens\" = by ... at the latest.",
       },
       {
@@ -211,7 +211,7 @@ export const DE_C1_U07: Lesson[] = [
         en: "The rent is due [on the 3rd of] each month.",
         sentence: "Die Miete ist ___ jedes Monats fällig.",
         answer: "zum 3.",
-        altAnswers: ["am 3."],
+        altAnswers: ["am 3.", "bis zum 3."],
         explanation: "\"Zum\" + date for something due on that day; \"am\" is also correct.",
       },
       {
@@ -226,6 +226,7 @@ export const DE_C1_U07: Lesson[] = [
         prompt: "Put the words in order to say: The goods will be delivered within a week.",
         words: ["Die Ware", "wird", "binnen", "einer Woche", "geliefert."],
         translation: "The goods will be delivered within a week.",
+        altOrders: [["Binnen", "einer Woche", "wird", "Die Ware", "geliefert."]],
         explanation: "\"Binnen\" + dative is the formal within.",
       },
       {
@@ -248,7 +249,7 @@ export const DE_C1_U07: Lesson[] = [
     level: "DE-C1",
     number: 2,
     title: "Prepositions: Professional Precision, Part 2 of 6",
-    summary: "Genitive prepositions of business and administration (aufgrund, infolge, mangels, zwecks, bezüglich, seitens, zuzüglich, einschließlich, anlässlich), when they switch to the dative, and gemäß, entsprechend, laut.",
+    summary: "Use the genitive prepositions of business and administration (\"aufgrund\", \"infolge\", \"mangels\", \"zwecks\", \"bezüglich\", \"seitens\", \"zuzüglich\", \"einschließlich\", \"anlässlich\"), know when they switch to the dative, and cite sources with \"gemäß\", \"entsprechend\", \"laut\" and \"zufolge\".",
     duration: "19 min",
     sections: [
       {
@@ -273,7 +274,7 @@ export const DE_C1_U07: Lesson[] = [
             prompt: "Translate into German, in formal style.",
             source: "Due to high demand, delivery may take longer.",
             answer: "Aufgrund der hohen Nachfrage kann sich die Lieferung verzögern.",
-            altAnswers: ["Aufgrund der hohen Nachfrage kann die Lieferung länger dauern.", "Wegen der hohen Nachfrage kann die Lieferung länger dauern.", "Wegen der hohen Nachfrage kann sich die Lieferung verzögern.", "Aufgrund hoher Nachfrage kann sich die Lieferung verzögern."],
+            altAnswers: ["Aufgrund der hohen Nachfrage kann die Lieferung länger dauern.", "Wegen der hohen Nachfrage kann die Lieferung länger dauern.", "Wegen der hohen Nachfrage kann sich die Lieferung verzögern.", "Aufgrund hoher Nachfrage kann sich die Lieferung verzögern.", "Aufgrund der hohen Nachfrage kann es zu Lieferverzögerungen kommen."],
             explanation: "\"Aufgrund\" + genitive: \"der hohen Nachfrage\".",
           },
           {
@@ -292,7 +293,7 @@ export const DE_C1_U07: Lesson[] = [
         body: [
           "Topic: \"bezüglich\" and \"hinsichtlich\" (regarding, with respect to: \"bezüglich Ihrer Anfrage\", \"hinsichtlich der Kosten\"). Source: \"seitens\" (on the part of: \"seitens der Geschäftsführung\" = from management). Occasion: \"anlässlich\" (on the occasion of: \"anlässlich seines 60. Geburtstags\").",
           "Prices and amounts: \"zuzüglich\" / \"abzüglich\" (plus / minus: \"zuzüglich Mehrwertsteuer\", abbreviated \"zzgl. MwSt.\"), \"einschließlich\" / \"ausschließlich\" (including / excluding: \"einschließlich Frühstück\", \"inkl.\"). These often take a bare noun, so the genitive is invisible.",
-          "The dative rule: when a genitive preposition is followed by a plural noun without an article or adjective, the genitive can't be seen (\"Getränke\" looks the same in every case except the dative). German then switches to the dative: \"einschließlich Getränken\", \"mangels Beweisen\", \"zuzüglich Versandkosten\" (genitive and dative look identical here, so either is fine). With a singular bare noun the preposition usually takes no ending at all: \"zuzüglich Porto\", \"einschließlich Frühstück\".",
+          "The dative rule: when a genitive preposition is followed by a plural noun without an article or adjective, the genitive can't be seen (\"Getränke\" looks the same in every case except the dative). German then switches to the dative: \"einschließlich Getränken\", \"mangels Beweisen\", \"zuzüglich Versandkosten\" (genitive and dative look identical here, so either is fine). With a singular bare noun, the noun usually takes no ending at all: \"zuzüglich Porto\", \"einschließlich Frühstück\".",
         ],
         examples: [
           { es: "Bezüglich Ihrer Anfrage vom 5. Mai teilen wir Ihnen mit, ...", en: "With regard to your enquiry of 5 May, we would like to inform you that..." },
@@ -319,8 +320,8 @@ export const DE_C1_U07: Lesson[] = [
             en: "The ticket costs 60 euros [including drinks].",
             sentence: "Das Ticket kostet 60 Euro ___.",
             answer: "einschließlich Getränken",
-            altAnswers: ["inklusive Getränken", "inklusive Getränke", "inkl. Getränke", "inkl. Getränken"],
-            explanation: "A bare plural noun after a genitive preposition switches to the dative: \"Getränken\".",
+            altAnswers: ["inklusive Getränken", "inkl. Getränke", "inkl. Getränken"],
+            explanation: "A bare plural noun after a genitive preposition switches to the dative: \"Getränken\". \"Inklusive Getränke\" is common in ads, but careful writing uses the dative.",
           },
         ],
       },
@@ -354,6 +355,7 @@ export const DE_C1_U07: Lesson[] = [
             prompt: "Put the words in order to say: According to the report, prices have risen.",
             words: ["Dem Bericht", "zufolge", "sind", "die Preise", "gestiegen."],
             translation: "According to the report, prices have risen.",
+            altOrders: [["die Preise", "sind", "Dem Bericht", "zufolge", "gestiegen."]],
             explanation: "\"Zufolge\" follows its dative noun: \"dem Bericht zufolge\".",
           },
           {
@@ -440,7 +442,7 @@ export const DE_C1_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct in a menu?",
+        question: "A menu says the price includes drinks. Which phrase is correct?",
         options: ["einschließlich Getränken", "einschließlich den Getränke", "einschließlich der Getränken", "einschließlich Getränkes"],
         correctIndex: 0,
         explanation: "Bare plural noun: the genitive is invisible, so the dative \"Getränken\" is used.",
@@ -479,7 +481,7 @@ export const DE_C1_U07: Lesson[] = [
     level: "DE-C1",
     number: 3,
     title: "Contrast Clinic: Prepositions in Contracts",
-    summary: "Gemäß, im Sinne von, nach Maßgabe, vorbehaltlich, im Falle, unbeschadet, kraft, zulasten / zugunsten and zufolge in the clauses of a rental and an employment contract.",
+    summary: "Understand and write contract clauses with \"gemäß\", \"im Sinne\", \"nach Maßgabe\", \"vorbehaltlich\", \"im Falle\", \"unbeschadet\", \"kraft\", \"zulasten\" / \"zugunsten\" and \"zufolge\", as in a tenancy or employment contract.",
     duration: "18 min",
     sections: [
       {
@@ -601,7 +603,7 @@ export const DE_C1_U07: Lesson[] = [
         prompt: "Translate into German, in contract style.",
         source: "The offer is subject to availability.",
         answer: "Das Angebot gilt vorbehaltlich der Verfügbarkeit.",
-        altAnswers: ["Das Angebot steht unter dem Vorbehalt der Verfügbarkeit.", "Das Angebot gilt nur, solange der Vorrat reicht."],
+        altAnswers: ["Das Angebot steht unter dem Vorbehalt der Verfügbarkeit.", "Das Angebot gilt nur, solange der Vorrat reicht.", "Das Angebot gilt vorbehaltlich Verfügbarkeit.", "Das Angebot gilt nur vorbehaltlich der Verfügbarkeit."],
         explanation: "\"Vorbehaltlich\" + genitive = subject to.",
       },
       {
@@ -650,7 +652,7 @@ export const DE_C1_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Unbeschadet der gesetzlichen Ansprüche... What does it mean?",
+        question: "\"Unbeschadet der gesetzlichen Ansprüche...\" What does it mean?",
         options: ["Without prejudice to statutory claims...", "Without any statutory claims...", "Regardless of damage to the law...", "Because of statutory claims..."],
         correctIndex: 0,
         explanation: "\"Unbeschadet\" + genitive = without prejudice to; the statutory rights remain.",
@@ -672,6 +674,7 @@ export const DE_C1_U07: Lesson[] = [
         prompt: "Put the words in order to say: Under section 7, pets are not permitted.",
         words: ["Gemäß", "§ 7", "ist", "Tierhaltung", "nicht", "gestattet."],
         translation: "Under section 7, pets are not permitted.",
+        altOrders: [["Tierhaltung", "ist", "Gemäß", "§ 7", "nicht", "gestattet."]],
         explanation: "\"Gemäß\" + clause in position 1, verb second.",
       },
       {
@@ -692,7 +695,7 @@ export const DE_C1_U07: Lesson[] = [
     level: "DE-C1",
     number: 4,
     title: "Error Hunt: Prepositions Borrowed from English",
-    summary: "Fix the prepositions English pushes into German: interessiert in, abhängig auf, stolz von, in 2025, für zwei Jahren, warten für, zufrieden über, verantwortlich von.",
+    summary: "Spot and fix the prepositions English pushes into German: \"*interessiert in\", \"*abhängig auf\", \"*stolz von\", \"*in 2025\", \"*für zwei Jahren\", \"*warten für\", \"*zufrieden über\", \"*verantwortlich von\".",
     duration: "17 min",
     sections: [
       {
@@ -716,7 +719,7 @@ export const DE_C1_U07: Lesson[] = [
             prompt: "Fix \"*Ich bin interessiert in dem Kurs.\" Translate into German: I'm interested in the course.",
             source: "I'm interested in the course.",
             answer: "Ich bin an dem Kurs interessiert.",
-            altAnswers: ["Ich bin am Kurs interessiert.", "Ich interessiere mich für den Kurs."],
+            altAnswers: ["Ich bin am Kurs interessiert.", "Ich interessiere mich für den Kurs.", "Ich bin interessiert an dem Kurs.", "Ich bin interessiert am Kurs."],
             explanation: "\"Interessiert an\" + dative, or \"sich interessieren für\" + accusative.",
           },
           {
@@ -732,8 +735,8 @@ export const DE_C1_U07: Lesson[] = [
       {
         heading: "Error 2: verbs and the year",
         body: [
-          "Jonas emails a supplier: \"*Wir warten für Ihre Antwort.\" English wait for → \"warten auf\" + accusative: \"Wir warten auf Ihre Antwort.\" Similar: \"*fragen für\" → \"bitten um\" (ask for something), \"*suchen für\" → \"suchen\" (no preposition: \"Wir suchen eine Lösung\"), \"*sich bewerben für\" → \"sich bewerben um\" (apply for).",
-          "Years: German says \"2025\" or \"im Jahr 2025\", never \"*in 2025\": \"2025 haben wir expandiert\" / \"Im Jahr 2025 haben wir expandiert.\" Months and seasons do take \"im\": \"im Mai\", \"im Sommer\".",
+          "Jonas emails a supplier: \"*Wir warten für Ihre Antwort.\" English wait for → \"warten auf\" + accusative: \"Wir warten auf Ihre Antwort.\" Similar: \"*fragen für\" → \"bitten um\" (ask for something), \"*suchen für\" → \"suchen\" (no preposition: \"Wir suchen eine Lösung\"). Apply for is \"sich bewerben um\" (or \"auf\" + a job ad); \"sich bewerben für\" is heard and in dictionaries, but \"um\" is the safer choice in writing.",
+          "Years: German says \"2025\" or \"im Jahr 2025\", not the anglicism \"*in 2025\": \"2025 haben wir expandiert\" / \"Im Jahr 2025 haben wir expandiert.\" Months and seasons do take \"im\": \"im Mai\", \"im Sommer\".",
           "And \"am Ende\" (at the end), not \"*auf dem Ende\"; \"am Anfang\" (at the beginning); \"zum Schluss\" (finally).",
         ],
         examples: [
@@ -829,11 +832,11 @@ export const DE_C1_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*sich bewerben für\". Translate: I'm applying for the position of team leader.",
+        prompt: "Use the standard written preposition, not \"sich bewerben für\". Translate: I'm applying for the position of team leader.",
         source: "I'm applying for the position of team leader.",
         answer: "Ich bewerbe mich um die Stelle als Teamleiter.",
         altAnswers: ["Ich bewerbe mich um die Stelle als Teamleiterin.", "Ich bewerbe mich auf die Stelle als Teamleiter.", "Ich bewerbe mich auf die Stelle als Teamleiterin.", "Hiermit bewerbe ich mich um die Stelle als Teamleiter.", "Hiermit bewerbe ich mich um die Stelle als Teamleiterin."],
-        explanation: "\"Sich bewerben um\" (or \"auf\" for a specific job ad).",
+        explanation: "\"Sich bewerben um\" (or \"auf\" for a specific job ad) is the standard; \"für\" is widely heard but less formal.",
       },
       {
         type: "translate",
@@ -847,7 +850,7 @@ export const DE_C1_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"*Ich frage für einen Rabatt.\" Translate: I'm asking for a discount.",
+        prompt: "Fix \"*Ich frage für einen Rabatt.\" Translate: I'd like to ask for a discount.",
         source: "I'd like to ask for a discount.",
         answer: "Ich möchte um einen Rabatt bitten.",
         altAnswers: ["Ich würde gern um einen Rabatt bitten.", "Ich möchte Sie um einen Rabatt bitten.", "Ich bitte um einen Rabatt."],
@@ -902,7 +905,7 @@ export const DE_C1_U07: Lesson[] = [
     level: "DE-C1",
     number: 5,
     title: "Prepositions: Professional Precision, Part 3 of 6",
-    summary: "Institutions and workplaces: bei Siemens, in der Firma, an der Uni, auf der Messe, auf dem Amt, beim Arzt, zur Bank, im Homeoffice, auf / bei der Arbeit.",
+    summary: "Say where you work, study and go with the right preposition: \"bei Siemens\", \"in der Firma\", \"an der Uni\", \"auf der Messe\", \"auf dem Amt\", \"beim Arzt\", \"zur Bank\", \"im Homeoffice\", \"auf\" / \"bei der Arbeit\".",
     duration: "17 min",
     sections: [
       {
@@ -910,7 +913,7 @@ export const DE_C1_U07: Lesson[] = [
         body: [
           "For an employer or organisation German uses \"bei\": \"Ich arbeite bei Siemens\", \"bei der Bank\", \"bei der Stadt\", \"bei einer Versicherung\". \"In\" focuses on the place or the building: \"Ich arbeite in einer Bank\" (in a bank building) and \"in der Firma\" (at the office, on site: \"Ich bin heute nicht in der Firma\").",
           "Schools and universities take \"an\": \"an der Universität\", \"an einem Gymnasium\", \"an der TU München\". Students say \"Ich studiere an der Uni Köln\" or \"in Köln\". Teachers \"unterrichten an einer Grundschule\".",
-          "English at for all of these doesn't help: Ich arbeite *an Siemens is wrong. Think: company = \"bei\", school/university = \"an\", the building = \"in\".",
+          "English at for all of these doesn't help: \"*Ich arbeite an Siemens\" is wrong. Think: company = \"bei\", school/university = \"an\", the building = \"in\".",
         ],
         examples: [
           { es: "Meine Schwester arbeitet bei Siemens in München.", en: "My sister works at Siemens in Munich." },
@@ -935,7 +938,7 @@ export const DE_C1_U07: Lesson[] = [
             en: "She teaches [at a secondary school].",
             sentence: "Sie unterrichtet ___.",
             answer: "an einem Gymnasium",
-            altAnswers: ["an einer Realschule", "an einer Gesamtschule", "an einer Schule"],
+            altAnswers: ["an einer Realschule", "an einer Gesamtschule", "an einer Schule", "an einer weiterführenden Schule"],
             explanation: "Schools and universities take \"an\" + dative.",
           },
         ],
@@ -1095,6 +1098,7 @@ export const DE_C1_U07: Lesson[] = [
         prompt: "Put the words in order to say: My mother taught at a grammar school.",
         words: ["Meine Mutter", "hat", "an", "einem Gymnasium", "unterrichtet."],
         translation: "My mother taught at a grammar school.",
+        altOrders: [["an", "einem Gymnasium", "hat", "Meine Mutter", "unterrichtet."]],
         explanation: "School = \"an\" + dative.",
       },
       {
@@ -1115,13 +1119,13 @@ export const DE_C1_U07: Lesson[] = [
     level: "DE-C1",
     number: 6,
     title: "Prepositions: Professional Precision, Part 4 of 6",
-    summary: "Figures and prices: um 3 % gestiegen vs auf 5 % gestiegen, von 4 auf 6 Millionen, bis zu, ab 18 Jahren, per, pro, je, à, zum Preis von, zu 50 %.",
+    summary: "Report figures and prices precisely: \"um 3 % gestiegen\" vs \"auf 5 % gestiegen\", \"von 4 auf 6 Millionen\", \"bis zu\", \"ab 18 Jahren\", \"per\", \"pro\", \"je\", \"à\", \"zum Preis von\", \"zu 50 %\".",
     duration: "18 min",
     sections: [
       {
         heading: "Um or auf: by or to",
         body: [
-          "In reports the difference between \"um\" and \"auf\" is crucial. \"Um\" gives the size of the change (by): \"Die Preise sind um 3 % gestiegen\" (rose by 3 percent). \"Auf\" gives the new level (to): \"Die Inflation ist auf 5 % gestiegen\" (rose to 5 percent). \"Von ... auf ...\" gives start and end: \"Der Umsatz stieg von 4 auf 6 Millionen Euro\".",
+          "In reports the difference between \"um\" and \"auf\" is crucial. \"Um\" gives the size of the change (by): \"Die Preise sind um 3 % gestiegen\" (rose by 3 per cent). \"Auf\" gives the new level (to): \"Die Inflation ist auf 5 % gestiegen\" (rose to 5 per cent). \"Von ... auf ...\" gives start and end: \"Der Umsatz stieg von 4 auf 6 Millionen Euro\".",
           "The same with falling and changing: \"um 10 % gesunken\" (fell by 10%), \"auf 2 % gesunken\" (fell to 2%), \"um 20 Euro erhöht\" (raised by 20 euros), \"auf 950 Euro erhöht\" (raised to 950 euros), \"verdoppelt\", \"halbiert\".",
           "Nouns follow the same pattern: \"ein Anstieg um 3 %\", \"ein Rückgang auf 2 %\", \"eine Erhöhung der Miete um 50 Euro\". Mixing them up changes the numbers completely, which is why exam markers love this point.",
         ],
@@ -1190,14 +1194,14 @@ export const DE_C1_U07: Lesson[] = [
       {
         heading: "Per, pro, je, à, zum Preis von, zu",
         body: [
-          "\"Pro\" and \"je\" = per: \"10 Euro pro Person\", \"je Teilnehmer ein Getränk\" (\"je\" is more formal). \"Per\" = by means of: \"per E-Mail\", \"per Post\", \"per Einschreiben\" (by registered mail); in prices \"per\" is less common than \"pro\".",
+          "\"Pro\" and \"je\" = per: \"10 Euro pro Person\", \"je Teilnehmer ein Getränk\" (\"je\" is more formal). \"Per\" = by means of: \"per E-Mail\", \"per Post\", \"per Einschreiben\" (by registered post); in prices \"per\" is less common than \"pro\".",
           "\"À\" (from French) gives a unit price in lists and invoices: \"zwei Flaschen à 0,75 Liter\", \"5 Stück à 12 Euro\". \"Zum Preis von\" = at a price of: \"zum Preis von 49 Euro\". \"Für\" = for the total: \"Ich habe es für 20 Euro gekauft\".",
           "\"Zu\" with percentages and fractions describes shares: \"zu 50 % finanziert\" (50% funded), \"zu drei Vierteln fertig\" (three-quarters finished), \"zu zweit / zu dritt\" (in twos / threes).",
         ],
         examples: [
           { es: "Der Eintritt kostet 12 Euro pro Person.", en: "Admission is 12 euros per person." },
           { es: "Je Teilnehmer ist ein Getränk inklusive.", en: "One drink per participant is included." },
-          { es: "Bitte schicken Sie die Unterlagen per Einschreiben.", en: "Please send the documents by registered mail." },
+          { es: "Bitte schicken Sie die Unterlagen per Einschreiben.", en: "Please send the documents by registered post." },
           { es: "Wir bestellen 20 Stück à 15 Euro.", en: "We're ordering 20 items at 15 euros each." },
           { es: "Das Projekt wird zu 50 % von der EU finanziert.", en: "The project is 50% funded by the EU." },
           { es: "Das Haus ist erst zu drei Vierteln fertig.", en: "The house is only three-quarters finished." },
@@ -1255,8 +1259,8 @@ export const DE_C1_U07: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "The event is only open to people aged 18 and over.",
-        answer: "Die Veranstaltung ist nur ab 18 Jahren.",
-        altAnswers: ["Die Veranstaltung ist erst ab 18 Jahren.", "Die Veranstaltung ist nur für Personen ab 18 Jahren.", "Zutritt nur ab 18 Jahren.", "Die Veranstaltung ist nur ab 18."],
+        answer: "Die Veranstaltung ist nur für Personen ab 18 Jahren.",
+        altAnswers: ["Die Veranstaltung ist erst ab 18 Jahren.", "Die Veranstaltung ist nur ab 18 Jahren.", "Zutritt nur ab 18 Jahren.", "Die Veranstaltung ist nur ab 18.", "Die Veranstaltung ist erst ab 18.", "Der Zutritt ist erst ab 18 Jahren gestattet."],
         explanation: "Age threshold: \"ab 18 Jahren\".",
       },
       {
@@ -1289,7 +1293,7 @@ export const DE_C1_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Just [under] 3,000 visitors came.",
+        en: "[Just under] 3,000 visitors came.",
         sentence: "Es kamen ___ 3.000 Besucher.",
         answer: "knapp",
         altAnswers: ["fast", "beinahe"],
@@ -1297,7 +1301,7 @@ export const DE_C1_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Der Gewinn stieg um 5 Millionen auf 25 Millionen Euro. What happened?",
+        question: "\"Der Gewinn stieg um 5 Millionen auf 25 Millionen Euro.\" What happened?",
         options: ["Profit rose by 5 million to 25 million euros.", "Profit rose from 5 million to 25 million euros.", "Profit rose by 25 million to 5 million euros.", "Profit rose by 5% to 25 million euros."],
         correctIndex: 0,
         explanation: "\"Um\" = by (the change), \"auf\" = to (the new level).",
@@ -1332,13 +1336,13 @@ export const DE_C1_U07: Lesson[] = [
     level: "DE-C1",
     number: 7,
     title: "Real-World Mission: A Precise Business Email",
-    summary: "Confirm an order (Auftragsbestätigung) with dates, deadlines, quantities, discounts and payment terms, every preposition chosen deliberately.",
+    summary: "Write an order confirmation (\"Auftragsbestätigung\") with dates, deadlines, quantities, discounts and payment terms, choosing every preposition deliberately.",
     duration: "20 min",
     sections: [
       {
         heading: "The order",
         body: [
-          "You work for a print shop in Hamburg. Ms Schneider from a café chain has ordered 5,000 flyers and 200 posters. Your Auftragsbestätigung must state: what was ordered and when, unit prices, discount, what's included, delivery date, payment terms. Every number needs the right preposition.",
+          "You work for a print shop in Hamburg. Ms Schneider from a café chain has ordered 5,000 flyers and 200 posters. Your order confirmation (\"Auftragsbestätigung\") must state: what was ordered and when, unit prices, discount, what's included, delivery date, payment terms. Every number needs the right preposition.",
           "Opening: \"Vielen Dank für Ihren Auftrag vom 3. Mai.\" (\"vom\" + date of a document or order). \"Hiermit bestätigen wir Ihnen folgende Bestellung:\" Then the items: \"5.000 Flyer im Format A5 zum Preis von 0,12 Euro pro Stück\", \"200 Plakate (A2) à 3,50 Euro\".",
           "Discount and total: \"Aufgrund der Auftragsmenge gewähren wir Ihnen einen Rabatt von 5 %\" (a discount of), \"Der Gesamtbetrag beläuft sich auf 1.235 Euro zuzüglich Mehrwertsteuer\" (amounts to). \"Sich belaufen auf\" + accusative is the business verb for totals.",
         ],
@@ -1400,7 +1404,7 @@ export const DE_C1_U07: Lesson[] = [
             prompt: "Translate into German.",
             source: "There may be delays of up to two days.",
             answer: "Es kann zu Verzögerungen von bis zu zwei Tagen kommen.",
-            altAnswers: ["Es kann zu Verzögerungen von bis zu 2 Tagen kommen.", "Es kann Verzögerungen von bis zu zwei Tagen geben."],
+            altAnswers: ["Es kann zu Verzögerungen von bis zu 2 Tagen kommen.", "Es kann Verzögerungen von bis zu zwei Tagen geben.", "Es könnte zu Verzögerungen von bis zu zwei Tagen kommen."],
             explanation: "\"Es kann zu ... kommen\" (there may be) + \"bis zu\" (up to).",
           },
         ],
@@ -1511,7 +1515,7 @@ export const DE_C1_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which date phrase is correct?",
+        question: "You refer to a customer's enquiry dated 4 March. Which phrase is correct?",
         options: ["Ihre Anfrage vom 4. März", "Ihre Anfrage von 4. März", "Ihre Anfrage am 4. März", "Ihre Anfrage zum 4. März"],
         correctIndex: 0,
         explanation: "The date of a document: \"vom\".",
@@ -1544,8 +1548,8 @@ export const DE_C1_U07: Lesson[] = [
     slug: "c1-contrast-bezueglich-hinsichtlich",
     level: "DE-C1",
     number: 8,
-    title: "Contrast Clinic: Bezüglich, Hinsichtlich, In Bezug auf, Was...Betrifft",
-    summary: "Topic-introducing phrases and their register: bezüglich Ihrer Anfrage, hinsichtlich, in Bezug auf, im Hinblick auf, was ... betrifft, betreffs, and the Betreff line.",
+    title: "Contrast Clinic: Bezüglich, Hinsichtlich, In Bezug auf, Was ... betrifft",
+    summary: "Introduce a topic in the right register with \"bezüglich\", \"hinsichtlich\", \"in Bezug auf\", \"im Hinblick auf\", \"was ... betrifft\" and \"betreffs\", and write a \"Betreff\" line.",
     duration: "16 min",
     sections: [
       {
@@ -1569,7 +1573,7 @@ export const DE_C1_U07: Lesson[] = [
             prompt: "Translate into German, in a business email.",
             source: "With regard to your enquiry, the product is available again.",
             answer: "Bezüglich Ihrer Anfrage: Das Produkt ist wieder verfügbar.",
-            altAnswers: ["Bezüglich Ihrer Anfrage teilen wir Ihnen mit, dass das Produkt wieder verfügbar ist.", "Hinsichtlich Ihrer Anfrage: Das Produkt ist wieder verfügbar.", "Zu Ihrer Anfrage: Das Produkt ist wieder verfügbar.", "Was Ihre Anfrage betrifft, das Produkt ist wieder verfügbar."],
+            altAnswers: ["Bezüglich Ihrer Anfrage teilen wir Ihnen mit, dass das Produkt wieder verfügbar ist.", "Hinsichtlich Ihrer Anfrage: Das Produkt ist wieder verfügbar.", "Zu Ihrer Anfrage: Das Produkt ist wieder verfügbar.", "Was Ihre Anfrage betrifft, das Produkt ist wieder verfügbar.", "Was Ihre Anfrage betrifft, ist das Produkt wieder verfügbar."],
             explanation: "\"Bezüglich\" + genitive; German usually needs a full clause or a colon after it.",
           },
           {
@@ -1600,7 +1604,7 @@ export const DE_C1_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, with in Bezug auf.",
+            prompt: "Translate into German, with \"in Bezug auf\".",
             source: "As far as the date is concerned, we're flexible.",
             answer: "In Bezug auf den Termin sind wir flexibel.",
             altAnswers: ["In Bezug auf das Datum sind wir flexibel.", "Was den Termin betrifft, sind wir flexibel.", "Was das Datum betrifft, sind wir flexibel."],
@@ -1619,7 +1623,7 @@ export const DE_C1_U07: Lesson[] = [
       {
         heading: "Spoken and flexible: was ... betrifft, the Betreff line",
         body: [
-          "\"Was ... betrifft\" (as far as ... is concerned, as for) is a clause, so the main clause after it keeps its own verb-second order after the comma: \"Was die Kosten betrifft, (so) sind wir flexibel.\" \"Was mich betrifft, ich komme gern\" (as for me, I'd be glad to come) is common in speech, with the second clause not inverted.",
+          "\"Was ... betrifft\" (as far as ... is concerned, as for) is a clause that fills position 1, so the verb of the main clause comes straight after the comma: \"Was die Kosten betrifft, (so) sind wir flexibel.\" \"Was mich betrifft, ich komme gern\" (as for me, I'd be glad to come) is common in speech, with the second clause not inverted.",
           "\"Was ... angeht\" is a synonym: \"Was das Wetter angeht, haben wir Glück gehabt.\" Both are neutral and work in emails and conversation.",
           "The email or letter subject is called \"Betreff\": \"Betreff: Ihre Bestellung Nr. 4711\". Write it as a noun phrase, without a verb: \"Betreff: Rückfrage zur Rechnung vom 3. März\".",
         ],
@@ -1633,7 +1637,7 @@ export const DE_C1_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, with was ... betrifft.",
+            prompt: "Translate into German, with \"was ... betrifft\".",
             source: "As for the hotel, we were very satisfied.",
             answer: "Was das Hotel betrifft, waren wir sehr zufrieden.",
             altAnswers: ["Was das Hotel angeht, waren wir sehr zufrieden.", "Was das Hotel betrifft, so waren wir sehr zufrieden."],
@@ -1715,7 +1719,7 @@ export const DE_C1_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct?",
+        question: "You want to say with regard to the contract. Which phrase is correct?",
         options: ["in Bezug auf den Vertrag", "in Bezug auf des Vertrags", "bezüglich den Vertrag", "hinsichtlich dem Vertrag"],
         correctIndex: 0,
         explanation: "\"In Bezug auf\" + accusative; \"bezüglich\" / \"hinsichtlich\" + genitive.",
@@ -1745,7 +1749,7 @@ export const DE_C1_U07: Lesson[] = [
     level: "DE-C1",
     number: 9,
     title: "Prepositions: Professional Precision, Part 5 of 6",
-    summary: "Geography and transport refined: in die Schweiz, in den Iran, in die USA, nach Bayern, auf Sylt, auf den Kanaren, am Bodensee, an der Ostsee, im Schwarzwald, auf dem Land; mit dem Zug, im Zug, per Bahn, zu Fuß.",
+    summary: "Talk precisely about places and transport: \"in die Schweiz\", \"in den Iran\", \"in die USA\", \"nach Bayern\", \"auf Sylt\", \"auf den Kanaren\", \"am Bodensee\", \"an der Ostsee\", \"im Schwarzwald\", \"auf dem Land\"; \"mit dem Zug\", \"im Zug\", \"per Bahn\", \"zu Fuß\".",
     duration: "17 min",
     sections: [
       {
@@ -1888,6 +1892,7 @@ export const DE_C1_U07: Lesson[] = [
         prompt: "Translate into German.",
         source: "He comes from Switzerland.",
         answer: "Er kommt aus der Schweiz.",
+        altAnswers: ["Er stammt aus der Schweiz.", "Er ist aus der Schweiz."],
         explanation: "\"Aus\" + dative + article: \"aus der Schweiz\".",
       },
       {
@@ -1928,15 +1933,16 @@ export const DE_C1_U07: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["Er arbeitet zurzeit im Iran.", "Er arbeitet zurzeit in Iran.", "Er arbeitet zurzeit nach Iran.", "Er arbeitet zurzeit auf dem Iran."],
+        options: ["Er arbeitet zurzeit im Iran.", "Er arbeitet zurzeit in den Iran.", "Er arbeitet zurzeit nach Iran.", "Er arbeitet zurzeit auf dem Iran."],
         correctIndex: 0,
-        explanation: "\"Der Iran\" takes an article: \"im Iran\" (\"in Iran\" is also seen in the press, but \"im Iran\" is standard).",
+        explanation: "\"Der Iran\" takes an article: location is \"im Iran\" (dative); \"in den Iran\" is the direction (to Iran). \"In Iran\" without the article is also seen in the press.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: After retiring they moved to the countryside.",
         words: ["Nach der Rente", "sind", "sie", "aufs Land", "gezogen."],
         translation: "After retiring they moved to the countryside.",
+        altOrders: [["sie", "sind", "Nach der Rente", "aufs Land", "gezogen."]],
         explanation: "Direction: \"aufs Land\".",
       },
       {
@@ -1957,7 +1963,7 @@ export const DE_C1_U07: Lesson[] = [
     level: "DE-C1",
     number: 10,
     title: "Prepositions: Professional Precision, Part 6 of 6",
-    summary: "Postpositions and circumpositions (meiner Meinung nach, dem Bericht zufolge, der Einfachheit halber, um des lieben Friedens willen, von heute an, am Bahnhof vorbei), formal hier- and da-compounds, and no preposition stranding.",
+    summary: "Use postpositions and circumpositions (\"meiner Meinung nach\", \"dem Bericht zufolge\", \"der Einfachheit halber\", \"um des lieben Friedens willen\", \"von heute an\", \"am Bahnhof vorbei\"), formal hier- and da-compounds, and avoid English-style preposition stranding.",
     duration: "18 min",
     sections: [
       {
@@ -1971,7 +1977,7 @@ export const DE_C1_U07: Lesson[] = [
         examples: [
           { es: "Meiner Meinung nach ist der Vertrag zu teuer.", en: "In my opinion the contract is too expensive." },
           { es: "Dem Bericht zufolge sind die Kosten um 12 % gestiegen.", en: "According to the report, costs rose by 12%." },
-          { es: "Der Einfachheit halber duzen wir uns alle.", en: "For simplicity's sake we all use du." },
+          { es: "Der Einfachheit halber duzen wir uns alle.", en: "For simplicity's sake we all say \"du\" to each other." },
           { es: "Um des lieben Friedens willen habe ich nichts gesagt.", en: "For the sake of peace and quiet I said nothing." },
           { es: "Von heute an gilt die neue Regelung.", en: "From today onwards the new rule applies." },
           { es: "Fahren Sie am Bahnhof vorbei und dann links.", en: "Drive past the station and then turn left." },
@@ -2022,7 +2028,7 @@ export const DE_C1_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence correctly refers to a person?",
+            question: "You want to say that you spoke to Herr Becker yesterday. Which sentence is correct?",
             options: ["Ich habe gestern mit ihm gesprochen.", "Ich habe gestern damit gesprochen.", "Ich habe gestern hiermit gesprochen.", "Ich habe gestern diesbezüglich gesprochen."],
             correctIndex: 0,
             explanation: "Da- and hier-compounds replace things, not people: \"mit ihm\".",
@@ -2032,7 +2038,7 @@ export const DE_C1_U07: Lesson[] = [
       {
         heading: "No preposition stranding",
         body: [
-          "English often leaves a preposition at the end: the colleague I work with, the project we talked about, Who are you waiting for? German never strands a preposition. It moves to the front together with the relative or question word.",
+          "English often leaves a preposition at the end: the colleague I work with, the project we talked about, Who are you waiting for? Standard German doesn't strand a preposition: it moves to the front together with the relative or question word.",
           "Relative clauses: \"die Kollegin, mit der ich arbeite\", \"das Projekt, über das wir gesprochen haben\" (or \"worüber\" for an idea or a whole clause). Questions: about people \"Auf wen wartest du?\"; about things \"Worauf wartest du?\".",
           "Also note that English can drop the relative pronoun altogether (the colleague I work with); German must always have it.",
         ],
@@ -2050,7 +2056,7 @@ export const DE_C1_U07: Lesson[] = [
             prompt: "Translate into German.",
             source: "That's the company I applied to.",
             answer: "Das ist die Firma, bei der ich mich beworben habe.",
-            altAnswers: ["Das ist das Unternehmen, bei dem ich mich beworben habe.", "Das ist die Firma, bei der ich mich bewerbe."],
+            altAnswers: ["Das ist das Unternehmen, bei dem ich mich beworben habe.", "Das ist die Firma, an die ich meine Bewerbung geschickt habe."],
             explanation: "\"Sich bei einer Firma bewerben\": the preposition moves to the front: \"bei der\".",
           },
           {
@@ -2089,7 +2095,7 @@ export const DE_C1_U07: Lesson[] = [
         prompt: "Translate into German.",
         source: "Who did you talk to?",
         answer: "Mit wem hast du gesprochen?",
-        altAnswers: ["Mit wem haben Sie gesprochen?", "Mit wem hast du geredet?"],
+        altAnswers: ["Mit wem haben Sie gesprochen?", "Mit wem hast du geredet?", "Mit wem habt ihr gesprochen?"],
         explanation: "The preposition comes first: \"mit wem\".",
       },
       {
@@ -2151,7 +2157,7 @@ export const DE_C1_U07: Lesson[] = [
     level: "DE-C1",
     number: 11,
     title: "Text Detective: The Contract Clause",
-    summary: "Read the Kündigungsklausel of a mobile phone contract and work out deadlines, conditions and fees from the prepositions.",
+    summary: "Read the cancellation clause (\"Kündigungsklausel\") of a mobile phone contract and work out deadlines, conditions and fees from the prepositions.",
     duration: "17 min",
     sections: [
       {
@@ -2261,7 +2267,7 @@ export const DE_C1_U07: Lesson[] = [
         en: "The contract can be cancelled [with one month's notice].",
         sentence: "Der Vertrag kann ___ gekündigt werden.",
         answer: "mit einer Frist von einem Monat",
-        altAnswers: ["mit einer Frist von einem Monat zum Monatsende", "mit einmonatiger Frist"],
+        altAnswers: ["mit einer Kündigungsfrist von einem Monat", "mit einmonatiger Frist"],
         explanation: "Notice period: \"mit einer Frist von\".",
       },
       {
@@ -2275,7 +2281,7 @@ export const DE_C1_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "A processing fee is due [plus] the charges already incurred.",
+        en: "A processing fee is due [in addition to] the charges already incurred.",
         sentence: "Es wird eine Bearbeitungsgebühr ___ der bereits angefallenen Entgelte fällig.",
         answer: "zuzüglich",
         explanation: "\"Zuzüglich\" + genitive = plus, on top of.",
@@ -2313,14 +2319,14 @@ export const DE_C1_U07: Lesson[] = [
     level: "DE-C1",
     number: 12,
     title: "Spiral Review: Prepositions and Register",
-    summary: "Recombines prepositions with nominalization, the passive and genitive constructions in formal notices.",
+    summary: "Turn clauses into preposition + noun phrases and combine them with the passive and genitive constructions to write and recognise formal notices.",
     duration: "18 min",
     sections: [
       {
         heading: "From verb clause to preposition + noun",
         body: [
-          "Formal notices compress whole clauses into a preposition plus a nominalized verb. Weil es regnet becomes \"wegen des Regens\" or \"aufgrund des Regens\"; wenn Sie Fragen haben becomes \"bei Fragen\"; nachdem der Vertrag abgelaufen ist becomes \"nach Ablauf des Vertrags\"; damit die Kosten gesenkt werden becomes \"zur Senkung der Kosten\".",
-          "The typical pairings: weil → \"wegen / aufgrund\" + genitive; wenn → \"bei\" + dative; obwohl → \"trotz\" + genitive; damit / um ... zu → \"zur / zum\" or \"zwecks\"; bevor → \"vor\"; während → \"während\" + genitive.",
+          "Formal notices compress whole clauses into a preposition plus a nominalized verb. \"Weil es regnet\" becomes \"wegen des Regens\" or \"aufgrund des Regens\"; \"wenn Sie Fragen haben\" becomes \"bei Fragen\"; \"nachdem der Vertrag abgelaufen ist\" becomes \"nach Ablauf des Vertrags\"; \"damit die Kosten gesenkt werden\" becomes \"zur Senkung der Kosten\".",
+          "The typical pairings: \"weil\" → \"wegen\" / \"aufgrund\" + genitive; \"wenn\" → \"bei\" + dative; \"obwohl\" → \"trotz\" + genitive; \"damit\" / \"um ... zu\" → \"zur\" / \"zum\" or \"zwecks\"; \"bevor\" → \"vor\"; \"während\" (clause) → \"während\" + genitive.",
         ],
         examples: [
           { es: "Aufgrund von Bauarbeiten bleibt die Filiale geschlossen.", en: "The branch is closed because of construction work." },

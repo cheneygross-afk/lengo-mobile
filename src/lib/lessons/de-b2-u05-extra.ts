@@ -165,7 +165,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
     level: "DE-B2",
     number: 2,
     optional: true,
-    title: "Extra Practice: Sein + Zu with Separable Verbs",
+    title: "Extra Practice: Sein + zu with Separable Verbs",
     summary: "Spell and place zu correctly in separable verbs: anzumelden, auszufüllen, zurückzugeben.",
     duration: "12 min",
     sections: [
@@ -194,7 +194,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The contract [must be signed] by the end of the month.",
+            en: "The contract must be [signed] by the end of the month.",
             sentence: "Der Vertrag ist bis Ende des Monats zu ___.",
             answer: "unterschreiben",
             explanation: "\"Unterschreiben\" is inseparable: \"zu unterschreiben\", two words.",
@@ -209,8 +209,8 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         prompt: "Translate into German with \"sein + zu\".",
         source: "Your address must be registered within two weeks.",
         answer: "Der Wohnsitz ist innerhalb von zwei Wochen anzumelden.",
-        altAnswers: ["Der Wohnsitz ist innerhalb zwei Wochen anzumelden.", "Die Adresse ist innerhalb von zwei Wochen anzumelden.", "Der Wohnsitz ist binnen zwei Wochen anzumelden."],
-        explanation: "an + zu + melden.",
+        altAnswers: ["Der Wohnsitz ist innerhalb zweier Wochen anzumelden.", "Die Adresse ist innerhalb von zwei Wochen anzumelden.", "Der Wohnsitz ist binnen zwei Wochen anzumelden."],
+        explanation: "an + zu + melden. \"Innerhalb\" needs \"von\" before a bare number (or the genitive \"zweier\"), so not \"*innerhalb zwei Wochen\".",
       },
       {
         type: "translate",
@@ -259,7 +259,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The deposit [must be paid] when you sign the contract.",
+        en: "The deposit must be [paid] when you sign the contract.",
         sentence: "Die Kaution ist bei Vertragsabschluss zu ___.",
         answer: "bezahlen",
         altAnswers: ["zahlen", "hinterlegen"],
@@ -292,10 +292,10 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which spelling is correct?",
+        question: "The money must be paid in at the counter. Complete: \"Das Geld ist am Schalter ___.\"",
         options: ["einzuzahlen", "zu einzahlen", "einzahlenzu", "ein zu zahlen"],
         correctIndex: 0,
-        explanation: "One word, zu after the prefix.",
+        explanation: "\"Einzahlen\" is separable: zu goes after the prefix, all one word.",
       },
       {
         type: "listen-choose",
@@ -353,10 +353,10 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The washing machine [was collected] yesterday.",
+            en: "The washing machine [was] collected yesterday.",
             sentence: "Die Waschmaschine ist gestern abgeholt ___.",
             answer: "worden",
-            explanation: "A dated event: passive Perfekt with \"worden\".",
+            explanation: "A dated event: passive Perfekt \"ist ... abgeholt worden\" (never \"geworden\").",
           },
         ],
       },
@@ -401,7 +401,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The old flat must [be handed over] clean.",
+        en: "The old flat must be [handed over] clean.",
         sentence: "Die alte Wohnung ist besenrein zu ___.",
         answer: "übergeben",
         explanation: "\"Übergeben\" is inseparable here: zu stays separate.",
@@ -412,16 +412,16 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm having the piano moved by a company.",
         answer: "Ich lasse das Klavier von einer Firma transportieren.",
-        altAnswers: ["Ich lasse das Klavier von einer Firma umziehen.", "Das Klavier lasse ich von einer Firma transportieren."],
+        altAnswers: ["Das Klavier lasse ich von einer Firma transportieren."],
         explanation: "Lassen = have something done.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The helpers are asked, the pizza is ordered.",
-        answer: "Die Helfer sind gefragt, die Pizza ist bestellt.",
-        altAnswers: ["Die Helfer sind gefragt und die Pizza ist bestellt."],
+        source: "The helpers have been told, the pizza is ordered.",
+        answer: "Die Helfer sind informiert, die Pizza ist bestellt.",
+        altAnswers: ["Die Helfer sind informiert und die Pizza ist bestellt."],
         explanation: "Two states for the checklist.",
       },
       {
@@ -450,7 +450,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Miriam asks: Und der Kühlschrank? Lukas says it was taken away by the neighbour yesterday. Which answer fits?",
+        question: "Miriam asks: \"Und der Kühlschrank?\" Lukas says it was taken away by the neighbour yesterday. Which answer fits?",
         options: ["Der ist gestern vom Nachbarn abgeholt worden.", "Der ist gestern vom Nachbarn abgeholt.", "Der wird gestern vom Nachbarn abgeholt.", "Der ist gestern vom Nachbarn abgeholt geworden."],
         correctIndex: 0,
         explanation: "Time + agent → the event, \"abgeholt worden\".",
@@ -754,7 +754,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The lid [won't] come off.",
+        en: "The lid [can] not be opened.",
         sentence: "Der Deckel ___ sich nicht öffnen.",
         answer: "lässt",
         explanation: "Possibility: \"lässt sich\".",
@@ -890,7 +890,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The car park [is closed] on public holidays.",
+        en: "The car park is [closed] on public holidays.",
         sentence: "Das Parkhaus ist an Feiertagen ___.",
         answer: "geschlossen",
         explanation: "State: \"ist geschlossen\".",
@@ -991,7 +991,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
         prompt: "Translate into German. Use the Konjunktiv I.",
         source: "According to the police, the bridge will be repaired by Friday.",
         answer: "Laut Polizei werde die Brücke bis Freitag repariert.",
-        altAnswers: ["Laut der Polizei werde die Brücke bis Freitag repariert.", "Der Polizei zufolge werde die Brücke bis Freitag repariert."],
+        altAnswers: ["Laut der Polizei werde die Brücke bis Freitag repariert.", "Der Polizei zufolge werde die Brücke bis Freitag repariert.", "Laut Polizei werde die Brücke bis Freitag repariert sein."],
         explanation: "\"Werde\" = Konjunktiv I of werden.",
       },
       {
@@ -1057,7 +1057,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The mayor announced that the pool [would be opened] in June.",
+        en: "The mayor announced that the pool would be [opened] in June.",
         sentence: "Die Bürgermeisterin kündigte an, das Bad werde im Juni ___.",
         answer: "eröffnet",
         explanation: "Werden-passive in Konjunktiv I: \"werde eröffnet\".",
@@ -1073,7 +1073,7 @@ export const DE_B2_U05_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Report: \"Die Brücke wurde 1950 gebaut.\" Der Sprecher sagte, ...",
+        question: "The spokesman said: \"Die Brücke wurde 1950 gebaut.\" How does the report \"Der Sprecher sagte, ...\" go on?",
         options: ["die Brücke sei 1950 gebaut worden.", "die Brücke werde 1950 gebaut.", "die Brücke sei 1950 gebaut geworden.", "die Brücke wäre 1950 gebaut."],
         correctIndex: 0,
         explanation: "Past passive → \"sei ... gebaut worden\".",

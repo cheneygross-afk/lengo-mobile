@@ -27,11 +27,11 @@ export const GOETHE_B1_SCHREIBEN: ExamPaper = {
           maxWords: 100,
           rubric: [
             "Covers all three points: describes the course, gives a reason for doing it, suggests meeting up",
-            "Informal register throughout: du, dich, dir, dein; greeting such as Lieber Lukas / Hallo Lukas, and an ending such as Viele Grüße / Bis bald",
-            "Uses the Perfekt for the past (ich habe … gekocht, wir sind … gegangen) with the right auxiliary",
-            "Gives the reason with weil (verb at the end) or denn (normal word order)",
-            "Makes the suggestion with a question or Wollen wir … / Hast du Lust, … zu … / Wie wäre es mit …?",
-            "Joins sentences with connectors (zuerst, danach, außerdem, deshalb) rather than a list of short sentences",
+            "Informal register throughout: \"du\", \"dich\", \"dir\", \"dein\"; a greeting such as \"Lieber Lukas\" / \"Hallo Lukas\", and an ending such as \"Viele Grüße\" / \"Bis bald\"",
+            "Uses the Perfekt for the past (\"ich habe … gekocht\", \"wir sind … gegangen\") with the right auxiliary",
+            "Gives the reason with \"weil\" (verb at the end) or \"denn\" (normal word order)",
+            "Makes the suggestion with a question or \"Wollen wir …\" / \"Hast du Lust, … zu …\" / \"Wie wäre es mit …?\"",
+            "Joins sentences with connectors (\"zuerst\", \"danach\", \"außerdem\", \"deshalb\") rather than a list of short sentences",
           ],
           modelAnswer:
             "Lieber Lukas,\n\nstell dir vor, ich habe letzten Samstag einen Kochkurs für thailändische Küche gemacht! Wir waren zehn Leute und haben zusammen eine Suppe, ein Curry und einen Nachtisch mit Mango gekocht. Der Koch war sehr lustig und hat alles gut erklärt.\n\nIch habe den Kurs gemacht, weil ich immer nur Nudeln koche und endlich etwas Neues lernen wollte.\n\nHast du nächsten Freitag Zeit? Dann komm doch zu mir, und ich koche das Curry für uns beide. Du bringst den Nachtisch mit, okay?\n\nViele Grüße\nSam",
@@ -59,10 +59,10 @@ export const GOETHE_B1_SCHREIBEN: ExamPaper = {
           rubric: [
             "Gives a clear personal opinion on the topic, and may react to Ralf's comment",
             "Supports the opinion with at least two reasons or examples",
-            "Neutral register: no du/Sie greeting needed; a guestbook post can start straight in",
-            "Uses phrases for opinions: Ich finde / Ich bin der Meinung, dass … / Meiner Meinung nach … (verb straight after: Meiner Meinung nach ist …)",
-            "Contrasts with trotzdem, aber, einerseits … andererseits, and puts the verb in the right place after them",
-            "Vocabulary of the topic: bestellen, das Paket, der Laden, die Beratung, die Innenstadt, die Umwelt",
+            "Neutral register: no \"du\"/\"Sie\" greeting needed; a guestbook post can start straight in",
+            "Uses phrases for opinions: \"Ich finde\" / \"Ich bin der Meinung, dass …\" / \"Meiner Meinung nach …\" (verb straight after: \"Meiner Meinung nach ist …\")",
+            "Contrasts with \"trotzdem\", \"aber\", \"einerseits … andererseits\", and puts the verb in the right place after them",
+            "Vocabulary of the topic: \"bestellen\", \"das Paket\", \"der Laden\", \"die Beratung\", \"die Innenstadt\", \"die Umwelt\"",
           ],
           modelAnswer:
             "Ich kann Ralf teilweise verstehen. Auch ich bestelle manchmal Bücher oder Elektronik im Internet, weil es schnell geht. Trotzdem finde ich es falsch, alles online zu kaufen. Wenn die Geschäfte schließen, werden die Innenstädte leer und langweilig, und viele Menschen verlieren ihre Arbeit. Außerdem kann ich im Laden Kleidung anprobieren und mich beraten lassen. Das ist mir viel wert. Und die vielen Pakete sind auch schlecht für die Umwelt. Deshalb kaufe ich lieber in den Geschäften in meiner Stadt ein, auch wenn es manchmal etwas teurer ist.",
@@ -81,11 +81,11 @@ export const GOETHE_B1_SCHREIBEN: ExamPaper = {
           minWords: 35,
           maxWords: 55,
           rubric: [
-            "Formal greeting and sign-off: Sehr geehrter Herr Brückner, … Mit freundlichen Grüßen",
-            "Sie forms throughout (Ihnen, Ihre), never du",
-            "Apologises politely (Leider kann ich … nicht … / Es tut mir leid, dass …) and gives a reason",
-            "Short and to the point; may add a polite request or offer (Könnten Sie mir bitte … schicken?)",
-            "Correct word order in the weil or dass clause (verb at the end)",
+            "Formal greeting and sign-off: \"Sehr geehrter Herr Brückner\" … \"Mit freundlichen Grüßen\"",
+            "\"Sie\" forms throughout (\"Ihnen\", \"Ihre\"), never \"du\"",
+            "Apologises politely (\"Leider kann ich … nicht …\" / \"Es tut mir leid, dass …\") and gives a reason",
+            "Short and to the point; may add a polite request or offer (\"Könnten Sie mir bitte … schicken?\")",
+            "Correct word order in the \"weil\" or \"dass\" clause (verb at the end)",
           ],
           modelAnswer:
             "Sehr geehrter Herr Brückner,\n\nvielen Dank für die Einladung zur Versammlung am Donnerstag. Leider kann ich nicht kommen, weil ich an diesem Abend beruflich in Hamburg bin. Könnten Sie mir bitte das Protokoll schicken?\n\nMit freundlichen Grüßen\nAlex Morgan",

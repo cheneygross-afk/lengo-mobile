@@ -15,7 +15,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
       {
         heading: "Recap: three kinds of es",
         body: [
-          "Placeholder es fills position 1 only; the verb agrees with the real subject, and es disappears when anything else is in position 1 or in a subordinate clause (\"Es kamen viele\" → \"Gestern kamen viele\"; \"..., weil viele kamen\"). Correlate es announces a dass- or zu-clause (\"Ich finde es gut, dass ...\") and usually disappears when the clause comes first (\"Dass ..., finde ich gut\"). Weather and fixed expressions (\"Es regnet\", \"Es gibt\", \"Es geht mir gut\") keep es everywhere: \"Gestern hat es geregnet.\"",
+          "Placeholder \"es\" fills position 1 only; the verb agrees with the real subject, and \"es\" disappears when anything else is in position 1 or in a subordinate clause (\"Es kamen viele\" → \"Gestern kamen viele\"; \"..., weil viele kamen\"). Correlate \"es\" announces a dass- or zu-clause (\"Ich finde es gut, dass ...\") and usually disappears when the clause comes first (\"Dass ..., finde ich gut\"). Weather and fixed expressions (\"Es regnet\", \"Es gibt\", \"Es geht mir gut\") keep \"es\" everywhere: \"Gestern hat es geregnet.\"",
         ],
         examples: [
           { es: "Es warten noch zwei Patienten.", en: "There are still two patients waiting." },
@@ -27,19 +27,19 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "You want to say: Two patients are still waiting in the waiting room. Which sentence is correct?",
             options: ["Im Wartezimmer warten noch zwei Patienten.", "Im Wartezimmer warten es noch zwei Patienten.", "Im Wartezimmer es warten noch zwei Patienten.", "Es wartet noch zwei Patienten."],
             correctIndex: 0,
-            explanation: "Placeholder es disappears when something else is in position 1.",
+            explanation: "Placeholder \"es\" disappears when something else is in position 1.",
           },
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, starting with Gestern.",
+            prompt: "Translate into German, starting with \"Gestern\".",
             source: "Yesterday it rained all day.",
             answer: "Gestern hat es den ganzen Tag geregnet.",
             altAnswers: ["Gestern regnete es den ganzen Tag."],
-            explanation: "Weather es stays even when it isn't in position 1.",
+            explanation: "Weather \"es\" stays even when it isn't in position 1.",
           },
         ],
       },
@@ -48,7 +48,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, starting with Es.",
+        prompt: "Translate into German, starting with \"Es\".",
         source: "There are still two patients waiting.",
         answer: "Es warten noch zwei Patienten.",
         altAnswers: ["Es warten noch zwei Patientinnen und Patienten."],
@@ -57,11 +57,11 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, starting with Heute.",
+        prompt: "Translate into German, starting with \"Heute\".",
         source: "Today lots of people came to the market.",
         answer: "Heute kamen viele Leute auf den Markt.",
         altAnswers: ["Heute sind viele Leute auf den Markt gekommen.", "Heute kamen viele Menschen auf den Markt.", "Heute sind viele Menschen auf den Markt gekommen.", "Heute kamen viele Leute zum Markt."],
-        explanation: "No es: \"heute\" fills position 1.",
+        explanation: "No \"es\": \"heute\" fills position 1.",
       },
       {
         type: "translate",
@@ -70,16 +70,16 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         source: "I think it's good that you're honest.",
         answer: "Ich finde es gut, dass du ehrlich bist.",
         altAnswers: ["Ich finde es gut, dass Sie ehrlich sind.", "Ich finde es gut, dass ihr ehrlich seid."],
-        explanation: "Correlate es after finden.",
+        explanation: "Correlate \"es\" after \"finden\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, starting with Dass.",
+        prompt: "Translate into German, starting with \"Dass\".",
         source: "That he's leaving makes me sad.",
         answer: "Dass er geht, macht mich traurig.",
         altAnswers: ["Dass er weggeht, macht mich traurig.", "Dass er uns verlässt, macht mich traurig."],
-        explanation: "The clause is first, so no es.",
+        explanation: "The clause is first, so no \"es\".",
       },
       {
         type: "translate",
@@ -88,7 +88,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         source: "It makes me sad that he's leaving.",
         answer: "Es macht mich traurig, dass er geht.",
         altAnswers: ["Es macht mich traurig, dass er weggeht.", "Es macht mich traurig, dass er uns verlässt."],
-        explanation: "Es announces the dass-clause.",
+        explanation: "\"Es\" announces the dass-clause.",
       },
       {
         type: "translate",
@@ -97,24 +97,25 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         source: "I know that a lot of mistakes were made.",
         answer: "Ich weiß, dass viele Fehler gemacht wurden.",
         altAnswers: ["Ich weiß, dass viele Fehler gemacht worden sind.", "Ich weiß, dass man viele Fehler gemacht hat."],
-        explanation: "No placeholder es in a subordinate clause.",
+        explanation: "No placeholder \"es\" in a subordinate clause.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, starting with Es.",
+        prompt: "Translate into German, starting with \"Es\".",
         source: "There was a lot of laughing.",
         answer: "Es wurde viel gelacht.",
-        explanation: "Impersonal passive with placeholder es.",
+        altAnswers: ["Es ist viel gelacht worden."],
+        explanation: "Impersonal passive with placeholder \"es\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, starting with Bei.",
+        prompt: "Translate into German, starting with \"Bei\".",
         source: "There was a lot of laughing at the party.",
         answer: "Bei der Party wurde viel gelacht.",
         altAnswers: ["Auf der Party wurde viel gelacht."],
-        explanation: "Position 1 is taken, so es disappears.",
+        explanation: "Position 1 is taken, so \"es\" disappears.",
       },
       {
         type: "fill-blank",
@@ -123,7 +124,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         sentence: "___, immer aufzuräumen.",
         answer: "Ich habe es satt",
         altAnswers: ["Ich hab es satt", "Ich hab's satt"],
-        explanation: "Correlate es + zu-infinitive.",
+        explanation: "Correlate \"es\" + zu-infinitive.",
       },
       {
         type: "fill-blank",
@@ -131,14 +132,14 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         en: "Unfortunately [two pages are missing].",
         sentence: "Leider ___.",
         answer: "fehlen zwei Seiten",
-        explanation: "No es after \"Leider\"; plural verb.",
+        explanation: "No \"es\" after \"Leider\"; plural verb.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: It's important to me that you come.",
         words: ["Es", "ist", "mir", "wichtig,", "dass", "du", "kommst."],
         translation: "It's important to me that you come.",
-        explanation: "Correlate es in position 1.",
+        explanation: "Correlate \"es\" in position 1.",
       },
       {
         type: "multiple-choice",
@@ -149,10 +150,10 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence keeps es correctly?",
+        question: "You want to say: There's fish today. Which sentence is correct?",
         options: ["Heute gibt es Fisch.", "Heute gibt Fisch.", "Es heute gibt Fisch.", "Heute es gibt Fisch."],
         correctIndex: 0,
-        explanation: "\"Es gibt\" is a fixed expression: es never disappears.",
+        explanation: "\"Es gibt\" is a fixed expression: \"es\" never disappears.",
       },
       {
         type: "listen-choose",
@@ -160,13 +161,13 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         question: "What happened?",
         options: ["Three parcels arrived yesterday.", "One parcel arrived three days ago.", "Three parcels were sent yesterday.", "Three parcels will arrive tomorrow."],
         correctIndex: 0,
-        explanation: "Placeholder es; plural \"sind\".",
+        explanation: "Placeholder \"es\"; plural \"sind\".",
       },
       {
         type: "speak",
         text: "Es freut mich, dass ihr gekommen seid.",
         prompt: "Say it in German to a group of friends: I'm glad you came.",
-        explanation: "Correlate es + dass-clause.",
+        explanation: "Correlate \"es\" + dass-clause.",
       },
     ],
   },
@@ -194,10 +195,10 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "'Only' with a time (later than expected): Er kam ___ um Mitternacht.",
+            question: "'Only' with a time (later than expected): \"Er kam ___ um Mitternacht.\" Which word fits?",
             options: ["erst", "nur", "sogar", "gerade"],
             correctIndex: 0,
-            explanation: "Erst = not until.",
+            explanation: "\"Erst\" = not until.",
           },
           {
             type: "translate",
@@ -206,7 +207,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
             source: "Today of all days, my car has broken down.",
             answer: "Ausgerechnet heute ist mein Auto kaputt.",
             altAnswers: ["Ausgerechnet heute ist mein Auto kaputtgegangen.", "Ausgerechnet heute hat mein Auto eine Panne."],
-            explanation: "Ausgerechnet before the annoying time.",
+            explanation: "\"Ausgerechnet\" before the annoying time.",
           },
         ],
       },
@@ -219,7 +220,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         source: "Only Anna called yesterday.",
         answer: "Nur Anna hat gestern angerufen.",
         altAnswers: ["Gestern hat nur Anna angerufen.", "Nur Anna rief gestern an."],
-        explanation: "Nur before \"Anna\".",
+        explanation: "\"Nur\" before \"Anna\".",
       },
       {
         type: "translate",
@@ -228,7 +229,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         source: "He didn't get up until ten.",
         answer: "Er ist erst um zehn aufgestanden.",
         altAnswers: ["Er stand erst um zehn auf.", "Er ist erst um zehn Uhr aufgestanden.", "Er stand erst um zehn Uhr auf."],
-        explanation: "Erst + time.",
+        explanation: "\"Erst\" + time.",
       },
       {
         type: "translate",
@@ -236,16 +237,16 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "That only costs ten euros.",
         answer: "Das kostet nur zehn Euro.",
-        explanation: "Nur + amount. \"Euro\" has no plural -s after numbers.",
+        explanation: "\"Nur\" + amount. \"Euro\" has no plural -s after numbers.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with sogar.",
+        prompt: "Translate into German with \"sogar\".",
         source: "Even my father cried.",
         answer: "Sogar mein Vater hat geweint.",
         altAnswers: ["Selbst mein Vater hat geweint.", "Sogar mein Vater weinte.", "Selbst mein Vater weinte."],
-        explanation: "Sogar / selbst before the surprising subject.",
+        explanation: "\"Sogar / selbst\" before the surprising subject.",
       },
       {
         type: "translate",
@@ -254,25 +255,25 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         source: "She's only been living here for two weeks.",
         answer: "Sie wohnt erst seit zwei Wochen hier.",
         altAnswers: ["Sie lebt erst seit zwei Wochen hier."],
-        explanation: "Erst + period = shorter than one might think.",
+        explanation: "\"Erst\" + period = shorter than one might think.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with ausgerechnet.",
+        prompt: "Translate into German with \"ausgerechnet\".",
         source: "He of all people is giving me advice!",
         answer: "Ausgerechnet er gibt mir Ratschläge!",
         altAnswers: ["Ausgerechnet er gibt mir einen Rat!", "Ausgerechnet der gibt mir Ratschläge!"],
-        explanation: "Ausgerechnet for an ironic surprise.",
+        explanation: "\"Ausgerechnet\" for an ironic surprise.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with gerade.",
+        prompt: "Translate into German with \"gerade\".",
         source: "Especially in winter, the city is beautiful.",
         answer: "Gerade im Winter ist die Stadt schön.",
         altAnswers: ["Gerade im Winter ist die Stadt wunderschön.", "Besonders im Winter ist die Stadt schön."],
-        explanation: "Gerade = especially, precisely.",
+        explanation: "\"Gerade\" = especially, precisely.",
       },
       {
         type: "translate",
@@ -281,7 +282,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         source: "I only have five minutes.",
         answer: "Ich habe nur fünf Minuten.",
         altAnswers: ["Ich habe nur fünf Minuten Zeit."],
-        explanation: "Nur + amount.",
+        explanation: "\"Nur\" + amount.",
       },
       {
         type: "fill-blank",
@@ -295,11 +296,11 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "We only found out [last week].",
+        en: "We found out [only last week].",
         sentence: "Wir haben es ___ erfahren.",
         answer: "erst letzte Woche",
         altAnswers: ["erst vorige Woche", "erst in der letzten Woche"],
-        explanation: "Erst before the time.",
+        explanation: "\"Erst\" before the time.",
       },
       {
         type: "word-order",
@@ -310,17 +311,17 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "'Anna hat nur gestern angerufen.' means:",
+        question: "\"Anna hat nur gestern angerufen.\" What does it mean?",
         options: ["Anna called yesterday, but not on other days.", "Only Anna called yesterday.", "Anna only just called.", "Anna called yesterday at last."],
         correctIndex: 0,
-        explanation: "Nur focuses \"gestern\".",
+        explanation: "\"Nur\" focuses \"gestern\".",
       },
       {
         type: "multiple-choice",
-        question: "Which fits? Der Zug kommt ___ in zwei Stunden. (later than hoped)",
+        question: "Which fits? \"Der Zug kommt ___ in zwei Stunden.\" (later than hoped)",
         options: ["erst", "nur", "sogar", "ausgerechnet"],
         correctIndex: 0,
-        explanation: "Erst = not until.",
+        explanation: "\"Erst\" = not until.",
       },
       {
         type: "listen-choose",
@@ -328,7 +329,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         question: "What does the speaker find surprising?",
         options: ["That even his grandpa has a smartphone.", "That his grandpa lost his smartphone.", "That his grandpa doesn't have a phone.", "That he bought his grandpa a phone."],
         correctIndex: 0,
-        explanation: "Selbst = even.",
+        explanation: "\"Selbst\" = even.",
       },
       {
         type: "speak",
@@ -350,7 +351,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
       {
         heading: "Recap: what to listen for",
         body: [
-          "Exclamations: \"Was für ein ...!\" (article declined), \"Wie ...!\" with the verb at the end, verb-first with falling melody (\"Ist das schön!\"), particles aber / ja / vielleicht. Clefts: comma after the was- or wer-clause (\"Was mich stört, ist ...\"), es-cleft with a relative pronoun (\"Es war Anna, die ...\") and a plural verb when needed. In writing, remember the commas around the relative clause and the capital letter in nominalised adjectives like \"das Einzige\".",
+          "Exclamations: \"Was für ein ...!\" (article declined), \"Wie ...!\" with the verb at the end, verb-first with falling melody (\"Ist das schön!\"), particles \"aber\" / \"ja\" / \"vielleicht\". Clefts: comma after the was- or wer-clause (\"Was mich stört, ist ...\"), es-cleft with a relative pronoun (\"Es war Anna, die ...\") and a plural verb when needed. In writing, remember the commas around the relative clause and the capital letter in nominalised adjectives like \"das Einzige\".",
         ],
         examples: [
           { es: "Was für ein schöner Abend!", en: "What a lovely evening!" },
@@ -363,7 +364,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
           {
             type: "dictation",
             audio: "Was für ein schöner Abend!",
-            explanation: "Masculine nominative: ein schöner.",
+            explanation: "Masculine nominative after \"ein\": \"ein schöner Abend\".",
           },
           {
             type: "translate",
@@ -372,7 +373,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
             source: "That smells so good!",
             answer: "Wie gut das riecht!",
             altAnswers: ["Das riecht aber gut!", "Riecht das gut!", "Das riecht so gut!"],
-            explanation: "Wie + verb at the end.",
+            explanation: "\"Wie\" + verb at the end.",
           },
         ],
       },
@@ -409,7 +410,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         source: "What a lovely evening!",
         answer: "Was für ein schöner Abend!",
         altAnswers: ["Was für ein toller Abend!", "Was für ein netter Abend!", "Was für ein wunderschöner Abend!"],
-        explanation: "Was für ein + adjective with -er.",
+        explanation: "\"Was für ein\" + adjective with -er (masculine nominative: \"der Abend\").",
       },
       {
         type: "translate",
@@ -418,7 +419,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         source: "That's so cute!",
         answer: "Ist das aber süß!",
         altAnswers: ["Ist das süß!", "Das ist aber süß!", "Wie süß!", "Ist das niedlich!"],
-        explanation: "Verb first + aber.",
+        explanation: "Verb first + \"aber\".",
       },
       {
         type: "translate",
@@ -454,7 +455,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         sentence: "___!",
         answer: "Du bist vielleicht lustig",
         altAnswers: ["Sie sind vielleicht lustig", "Ihr seid vielleicht lustig"],
-        explanation: "Exclamative vielleicht.",
+        explanation: "Exclamative \"vielleicht\".",
       },
       {
         type: "word-order",
@@ -469,7 +470,7 @@ export const DE_B2_U20_EXTRA: Lesson[] = [
         question: "What does the speaker mean?",
         options: ["He's so lucky!", "Maybe he's lucky.", "Is he lucky?", "He has no luck."],
         correctIndex: 0,
-        explanation: "Verb-first + vielleicht = strong exclamation.",
+        explanation: "Verb-first + \"vielleicht\" = strong exclamation.",
       },
       {
         type: "listen-choose",

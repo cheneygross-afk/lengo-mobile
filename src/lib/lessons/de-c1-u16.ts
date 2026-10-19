@@ -23,7 +23,7 @@ export const DE_C1_U16: Lesson[] = [
     level: "DE-C1",
     number: 1,
     title: "Neutral and Colloquial German, Part 1 of 6",
-    summary: "How Germans really speak: hab, is, nich and net, ne, 'n, ham, haste, kannste, gibt's; dropped subjects and objects (Kenn ich.), the am-progressive (Ich bin am Kochen) and weil with verb second.",
+    summary: "Understand relaxed spoken German (\"hab\", \"nich\", \"ham\", \"haste\", \"gibt's\"), dropped words (\"Kenn ich.\"), the am-progressive and \"weil\" with verb second, and write the full neutral forms instead.",
     duration: "18 min",
     sections: [
       {
@@ -57,7 +57,7 @@ export const DE_C1_U16: Lesson[] = [
             en: "Have you got [a] moment?",
             sentence: "Haste ___ Moment?",
             answer: "'n",
-            altAnswers: ["n", "nen", "'nen", "ein", "einen"],
+            altAnswers: ["n", "nen", "'nen"],
             explanation: "\"Einen\" shrinks to \"'n\" or \"'nen\" in speech; written: \"Hast du einen Moment?\"",
           },
         ],
@@ -100,7 +100,7 @@ export const DE_C1_U16: Lesson[] = [
       {
         heading: "Spoken syntax: Kenn ich, am Kochen, weil + verb second",
         body: [
-          "Vorfeld ellipsis: in speech the first element is often dropped when it is obvious, usually \"das\" or \"ich\": \"Kenn ich.\" (Das kenne ich), \"Weiß nicht.\" (Ich weiß es nicht), \"Hab ich schon gemacht.\" (Das habe ich schon gemacht), \"Mach ich!\" (Das mache ich).",
+          "Vorfeld ellipsis: in speech the first element is often dropped when it is obvious, usually \"das\" or \"ich\": \"Kenn ich.\" (\"Das kenne ich\"), \"Weiß nicht.\" (\"Ich weiß es nicht\"), \"Hab ich schon gemacht.\" (\"Das habe ich schon gemacht\"), \"Mach ich!\" (\"Das mache ich\").",
           "The am-progressive (\"Rheinische Verlaufsform\") expresses an action in progress: \"Ich bin am Kochen\" (I'm cooking), \"Sie ist am Telefonieren\". It is widespread in speech and increasingly accepted in informal writing; neutral written German prefers \"Ich koche gerade.\"",
           "\"Weil\" with verb second: in speech, many people say \"Ich komm nicht, weil ich bin krank\", with a short pause after \"weil\". Written standard German requires verb-final order: \"weil ich krank bin\". If you want verb second in writing, use \"denn\": \"denn ich bin krank\".",
         ],
@@ -116,7 +116,7 @@ export const DE_C1_U16: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into neutral written German with weil.",
+            prompt: "Translate into neutral written German with \"weil\".",
             source: "I can't come because I'm working.",
             answer: "Ich kann nicht kommen, weil ich arbeite.",
             altAnswers: ["Ich kann nicht kommen, weil ich arbeiten muss.", "Ich kann nicht kommen, weil ich gerade arbeite.", "Ich kann leider nicht kommen, weil ich arbeite."],
@@ -165,14 +165,14 @@ export const DE_C1_U16: Lesson[] = [
         prompt: "Translate into neutral written German.",
         source: "She is on the phone right now.",
         answer: "Sie telefoniert gerade.",
-        altAnswers: ["Sie telefoniert im Moment.", "Sie ist gerade am Telefonieren.", "Sie telefoniert gerade mit jemandem."],
-        explanation: "Neutral \"Sie telefoniert gerade\"; the am-progressive \"Sie ist am Telefonieren\" is common in speech.",
+        altAnswers: ["Sie telefoniert im Moment.", "Sie telefoniert gerade mit jemandem."],
+        explanation: "Neutral \"Sie telefoniert gerade\"; the am-progressive \"Sie ist am Telefonieren\" is common in speech, but not neutral writing.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into neutral written German with denn.",
-        source: "I'm staying at home, because I'm ill.",
+        prompt: "Translate into neutral written German with \"denn\".",
+        source: "I'm staying at home because I'm ill.",
         answer: "Ich bleibe zu Hause, denn ich bin krank.",
         altAnswers: ["Ich bleibe zu Hause, weil ich krank bin.", "Ich bleibe daheim, denn ich bin krank.", "Ich bleibe zuhause, denn ich bin krank."],
         explanation: "\"Denn\" keeps verb-second order in writing; spoken \"weil ich bin krank\" is not neutral.",
@@ -197,8 +197,7 @@ export const DE_C1_U16: Lesson[] = [
         en: "[Are you] home yet?",
         sentence: "___ schon zu Hause?",
         answer: "Biste",
-        altAnswers: ["biste", "Bist du", "bist du"],
-        explanation: "\"Bist du\" fuses to \"biste\" in speech and chats.",
+        explanation: "\"Bist du\" fuses to \"biste\" in speech and chats; the written form is \"Bist du\".",
       },
       {
         type: "listen-choose",
@@ -206,7 +205,7 @@ export const DE_C1_U16: Lesson[] = [
         question: "What does the speaker want?",
         options: ["To ask a question", "To borrow a coin", "To end the conversation", "To give an answer"],
         correctIndex: 0,
-        explanation: "\"Hast du mal einen Moment? Ich habe eine Frage.\"",
+        explanation: "In full: \"Hast du mal einen Moment? Ich habe eine Frage.\" The question is announced, so the speaker wants to ask something.",
       },
       {
         type: "dictation",
@@ -226,13 +225,13 @@ export const DE_C1_U16: Lesson[] = [
     level: "DE-C1",
     number: 2,
     title: "Neutral and Colloquial German, Part 2 of 6",
-    summary: "Core Umgangssprache: kriegen, Kohle and Knete, Typ, Kumpel, Klamotten, Bude, pennen, quatschen, blöd, abhauen, kapieren, schuften, Bock haben, Mist and Quatsch, and what the dictionary labels umgangssprachlich, derb and vulgär mean.",
+    summary: "Understand and use core everyday colloquial words (\"kriegen\", \"Kohle\", \"Kumpel\", \"pennen\", \"Bock haben\"), swap them for neutral ones, and read the dictionary labels \"umgangssprachlich\", \"salopp\", \"derb\" and \"vulgär\".",
     duration: "18 min",
     sections: [
       {
         heading: "People, money and things",
         body: [
-          "Everyday colloquial nouns replace neutral ones in relaxed conversation: \"die Kohle\" or \"die Knete\" (Geld), \"der Typ\" (Mann, Person), \"der Kumpel\" (Freund, from the old word for a miner), \"die Klamotten\" (Kleidung), \"die Bude\" (Zimmer, Wohnung).",
+          "Everyday colloquial nouns replace neutral ones in relaxed conversation: \"die Kohle\" or \"die Knete\" (\"Geld\"), \"der Typ\" (\"Mann\", \"Person\"), \"der Kumpel\" (\"Freund\"; originally a miner), \"die Klamotten\" (\"Kleidung\"), \"die Bude\" (\"Zimmer\", \"Wohnung\").",
           "\"Typ\" is neutral in \"Er ist nicht mein Typ\" but colloquial in \"Da war so ein Typ an der Tür\". \"Die Bude\" can be your student room (\"meine Bude\") or a kiosk (\"die Pommesbude\").",
           "All of these are \"umgangssprachlich\" (ugs.): fine with friends, family and many colleagues, but out of place in a formal letter, an essay or a job application.",
         ],
@@ -270,9 +269,9 @@ export const DE_C1_U16: Lesson[] = [
       {
         heading: "Colloquial verbs: kriegen, pennen, quatschen, abhauen",
         body: [
-          "\"Kriegen\" (bekommen, erhalten) is the most frequent colloquial verb: \"Ich hab 'ne Mail gekriegt\". It is so common that many speakers don't notice it, but in a formal email you write \"Ich habe Ihre E-Mail erhalten\".",
-          "Other everyday verbs: \"pennen\" (schlafen), \"quatschen\" (reden, plaudern), \"abhauen\" (weggehen, fliehen), \"kapieren\" (verstehen), \"schuften\" (hart arbeiten). \"Hau ab!\" is a rude \"Go away!\".",
-          "\"Bock haben (auf)\" means Lust haben: \"Hast du Bock auf Kino?\" and \"Ich hab keinen Bock\". It is very common among younger and middle-aged speakers but clearly informal.",
+          "\"Kriegen\" (\"bekommen\", \"erhalten\") is the most frequent colloquial verb: \"Ich hab 'ne Mail gekriegt\". It is so common that many speakers don't notice it, but in a formal email you write \"Ich habe Ihre E-Mail erhalten\".",
+          "Other everyday verbs: \"pennen\" (\"schlafen\"), \"quatschen\" (\"reden\", \"plaudern\"), \"abhauen\" (\"weggehen\", \"fliehen\"), \"kapieren\" (\"verstehen\"), \"schuften\" (\"hart arbeiten\"). \"Hau ab!\" is a rude \"Go away!\".",
+          "\"Bock haben (auf)\" means \"Lust haben\": \"Hast du Bock auf Kino?\" and \"Ich hab keinen Bock\". It is very common among younger and middle-aged speakers but clearly informal.",
         ],
         examples: [
           { es: "Hast du meine Nachricht gekriegt?", en: "Did you get my message?" },
@@ -295,7 +294,7 @@ export const DE_C1_U16: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate casually, using Bock.",
+            prompt: "Translate casually, using \"Bock\".",
             source: "Do you fancy the cinema?",
             answer: "Hast du Bock auf Kino?",
             altAnswers: ["Haste Bock auf Kino?", "Bock auf Kino?", "Hast du Bock, ins Kino zu gehen?"],
@@ -307,7 +306,7 @@ export const DE_C1_U16: Lesson[] = [
         heading: "Dictionary labels: ugs., salopp, derb, vulgär",
         body: [
           "German dictionaries such as Duden label informal words by degree. \"Umgangssprachlich\" (ugs.) means everyday spoken language: \"kriegen\", \"Kohle\", \"blöd\". \"Salopp\" is more casual and careless: \"abhauen\", \"pennen\". \"Derb\" is coarse and can offend: \"Scheiße\", \"kotzen\". \"Vulgär\" is obscene and offensive in almost any context.",
-          "\"Blöd\" (dumm, ärgerlich) and \"Mist\" (something bad, annoying) are mild: \"So ein Mist!\", \"Das ist echt blöd gelaufen\". \"Quatsch\" means Unsinn: \"Red keinen Quatsch!\", \"So ein Quatsch!\"",
+          "\"Blöd\" (\"dumm\", \"ärgerlich\") and \"Mist\" (something bad, annoying) are mild: \"So ein Mist!\", \"Das ist echt blöd gelaufen\". \"Quatsch\" means \"Unsinn\": \"Red keinen Quatsch!\", \"So ein Quatsch!\"",
           "For learners, the label is your safety rail: \"ugs.\" words are useful with friends; \"derb\" and \"vulgär\" words should be understood but used rarely, if ever.",
         ],
         examples: [
@@ -354,7 +353,7 @@ export const DE_C1_U16: Lesson[] = [
         source: "We chatted for hours.",
         answer: "Wir haben stundenlang gequatscht.",
         altAnswers: ["Wir ham stundenlang gequatscht.", "Wir haben stundenlang gequasselt.", "Wir haben stundenlang geredet."],
-        explanation: "Colloquial \"quatschen\" = reden, plaudern.",
+        explanation: "Colloquial \"quatschen\" = \"reden\", \"plaudern\".",
       },
       {
         type: "fill-blank",
@@ -403,8 +402,8 @@ export const DE_C1_U16: Lesson[] = [
         prompt: "Translate into neutral German.",
         source: "Don't talk nonsense!",
         answer: "Rede keinen Unsinn!",
-        altAnswers: ["Red keinen Unsinn!", "Reden Sie keinen Unsinn!", "Erzähl keinen Unsinn!", "Rede keinen Quatsch!", "Red keinen Quatsch!"],
-        explanation: "\"Unsinn\" is neutral; \"Quatsch\" is colloquial but mild.",
+        altAnswers: ["Red keinen Unsinn!", "Reden Sie keinen Unsinn!", "Erzähl keinen Unsinn!", "Erzähl nicht so einen Unsinn!"],
+        explanation: "\"Unsinn\" is neutral; \"Quatsch\" is colloquial (mild, but not what the task asks for).",
       },
       {
         type: "listen-choose",
@@ -412,7 +411,7 @@ export const DE_C1_U16: Lesson[] = [
         question: "What is the speaker going to do?",
         options: ["Leave", "Go to sleep", "Start working", "Buy something"],
         correctIndex: 0,
-        explanation: "\"Abhauen\" = weggehen; \"keinen Bock\" = keine Lust.",
+        explanation: "\"Abhauen\" = \"weggehen\"; \"keinen Bock\" = \"keine Lust\".",
       },
       {
         type: "dictation",
@@ -432,7 +431,7 @@ export const DE_C1_U16: Lesson[] = [
     level: "DE-C1",
     number: 3,
     title: "Style Workshop: From Colloquial to Neutral",
-    summary: "Rewrite a slangy voice message (Hey, hab null Bock auf den Termin, kannste das verschieben?) as a neutral email: full forms, neutral vocabulary, complete syntax and a polite frame.",
+    summary: "Rewrite a slangy voice message (\"Hey, hab null Bock auf den Termin, kannste das verschieben?\") as a neutral email: full forms, neutral vocabulary, complete syntax and a polite frame.",
     duration: "20 min",
     sections: [
       {
@@ -487,7 +486,7 @@ export const DE_C1_U16: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into neutral written German with weil.",
+            prompt: "Translate into neutral written German with \"weil\".",
             source: "I can't come because I have to work until 6 p.m.",
             answer: "Ich kann nicht kommen, weil ich bis 18 Uhr arbeiten muss.",
             altAnswers: ["Ich kann leider nicht kommen, weil ich bis 18 Uhr arbeiten muss.", "Ich kann nicht kommen, da ich bis 18 Uhr arbeiten muss.", "Ich kann nicht kommen, weil ich bis 18:00 Uhr arbeiten muss."],
@@ -542,7 +541,7 @@ export const DE_C1_U16: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in neutral German: Hab keine Kohle für die Miete gekriegt.",
+        prompt: "Rewrite in neutral German: \"Hab keine Kohle für die Miete gekriegt.\"",
         source: "I haven't received any money for the rent.",
         answer: "Ich habe kein Geld für die Miete bekommen.",
         altAnswers: ["Ich habe kein Geld für die Miete erhalten.", "Ich habe noch kein Geld für die Miete erhalten.", "Ich habe noch kein Geld für die Miete bekommen."],
@@ -601,7 +600,7 @@ export const DE_C1_U16: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in neutral German: Bin heut nich da, weil ich bin krank.",
+        prompt: "Rewrite in neutral German: \"Bin heut nich da, weil ich bin krank.\"",
         source: "I'm not in today because I'm ill.",
         answer: "Ich bin heute nicht da, weil ich krank bin.",
         altAnswers: ["Ich bin heute nicht im Büro, weil ich krank bin.", "Heute bin ich nicht da, da ich krank bin.", "Ich bin heute nicht da, denn ich bin krank.", "Ich bin heute nicht im Büro, da ich krank bin."],
@@ -633,7 +632,7 @@ export const DE_C1_U16: Lesson[] = [
     level: "DE-C1",
     number: 4,
     title: "Dialogue Lab: Äh, Also, Halt, Sozusagen",
-    summary: "Fillers and hesitation markers between flatmates: äh, ähm, also, halt, sozusagen, irgendwie, keine Ahnung, oder so, und so, and what each one signals.",
+    summary: "Understand what fillers such as \"ähm\", \"also\", \"halt\", \"irgendwie\", \"sozusagen\" and \"oder so\" signal in a flatmates' conversation, and use a few yourself to buy thinking time.",
     duration: "18 min",
     sections: [
       {
@@ -641,7 +640,7 @@ export const DE_C1_U16: Lesson[] = [
         body: [
           "Mia and Jonas share a flat. Mia: \"Ähm, also, wegen der Party am Samstag... Ich find's halt irgendwie zu laut, sozusagen.\" Jonas: \"Äh, ja, keine Ahnung, wir können ja früher aufhören oder so.\" Mia: \"Ja, so um elf und so. Wär cool.\"",
           "Without the fillers, the content is short: Mia finds the party too loud; Jonas suggests stopping earlier; Mia proposes eleven o'clock. The fillers carry something else: hesitation, politeness and a wish to keep things friendly.",
-          "\"Äh\" and \"ähm\" are pure hesitation sounds, the German equivalents of \"uh\" and \"um\". \"Also\" opens a turn or a new topic (\"so, well\"), it does not mean \"also\" in English.",
+          "\"Äh\" and \"ähm\" are pure hesitation sounds, the German equivalents of \"uh\" and \"um\". \"Also\" opens a turn or a new topic (so, well); it does not mean English 'also'.",
         ],
         examples: [
           { es: "Ähm, also, wegen Samstag...", en: "Um, so, about Saturday..." },
@@ -663,9 +662,9 @@ export const DE_C1_U16: Lesson[] = [
           {
             type: "multiple-choice",
             question: "In \"Also, wegen der Party...\", what does \"also\" do?",
-            options: ["It opens the turn and introduces a topic", "It means the English word also", "It expresses a consequence in writing", "It contradicts the previous speaker"],
+            options: ["It opens the turn and introduces a topic", "It means the English word 'also'", "It expresses a consequence in writing", "It contradicts the previous speaker"],
             correctIndex: 0,
-            explanation: "As a filler, \"also\" opens a turn (so, well). As a connector it means therefore. The English \"also\" is \"auch\".",
+            explanation: "As a filler, \"also\" opens a turn (so, well). As a connector it means therefore. English 'also' is \"auch\".",
           },
         ],
       },
@@ -688,7 +687,7 @@ export const DE_C1_U16: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate casually, with halt.",
+            prompt: "Translate casually, with \"halt\".",
             source: "That's just the way it is.",
             answer: "Das ist halt so.",
             altAnswers: ["Das is halt so.", "Das ist eben so.", "Ist halt so.", "Is halt so."],
@@ -746,7 +745,7 @@ export const DE_C1_U16: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate casually, with irgendwie.",
+        prompt: "Translate casually, with \"irgendwie\".",
         source: "I find it kind of weird.",
         answer: "Ich find's irgendwie komisch.",
         altAnswers: ["Ich finde es irgendwie komisch.", "Ich finde das irgendwie komisch.", "Ich find das irgendwie komisch.", "Ich finde es irgendwie seltsam."],
@@ -781,7 +780,7 @@ export const DE_C1_U16: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite without fillers in neutral German: Also, ich find's halt irgendwie zu teuer, sozusagen.",
+        prompt: "Rewrite without fillers in neutral German: \"Also, ich find's halt irgendwie zu teuer, sozusagen.\"",
         source: "I think it's too expensive.",
         answer: "Ich finde es zu teuer.",
         altAnswers: ["Ich finde das zu teuer.", "Es ist mir zu teuer.", "Das ist mir zu teuer."],
@@ -836,7 +835,7 @@ export const DE_C1_U16: Lesson[] = [
     level: "DE-C1",
     number: 5,
     title: "Neutral and Colloquial German, Part 3 of 6",
-    summary: "Youth language: krass, cringe, lost, sus, digga, Alter, wallah, Ehrenmann and Ehrenfrau, chillen, sheesh and the Jugendwort des Jahres; Kiezdeutsch (Ich geh Kino, Lassma, yallah) and why learners should recognise these words but rarely use them.",
+    summary: "Recognise youth language (\"cringe\", \"lost\", \"sus\", \"Digga\", \"wallah\", \"Ehrenmann\") and Kiezdeutsch (\"Ich geh Kino\", \"lassma\"), put them into neutral German, and know why learners should rarely use them.",
     duration: "18 min",
     sections: [
       {
@@ -844,7 +843,7 @@ export const DE_C1_U16: Lesson[] = [
         body: [
           "Youth language (\"Jugendsprache\") changes quickly and borrows heavily from English, social media and the languages of immigrant communities. Long-lived words: \"krass\" (extreme, amazing or awful), \"chillen\" (relax), \"Alter!\" (man!, dude!, as an exclamation).",
           "Newer words from English: \"Das ist so cringe\" (embarrassing), \"Ich bin total lost\" (clueless, confused), \"Der ist voll sus\" (suspicious), \"Sheesh!\" (wow). The publisher Langenscheidt runs an annual vote for the \"Jugendwort des Jahres\": winners include \"Ehrenmann / Ehrenfrau\" (2018), \"lost\" (2020), \"cringe\" (2021) and \"Aura\" (2024).",
-          "Many young people use these words ironically, and many adults find them funny when they themselves use them. That's the main point for learners: the social meaning matters more than the dictionary meaning.",
+          "Many young people use these words ironically, and they usually find it embarrassing when adults use them. That's the main point for learners: the social meaning matters more than the dictionary meaning.",
         ],
         examples: [
           { es: "Alter, das ist ja krass!", en: "Man, that's insane!" },
@@ -914,7 +913,7 @@ export const DE_C1_U16: Lesson[] = [
         heading: "Kiezdeutsch: Ich geh Kino, Lassma",
         body: [
           "\"Kiezdeutsch\" (from \"Kiez\", neighbourhood) is a way of speaking that developed in multilingual urban neighbourhoods such as Berlin-Kreuzberg. Linguists such as Heike Wiese describe it as a German variety with its own rules, not as broken German.",
-          "Typical features: no preposition or article with places (\"Ich geh Kino\" for \"Ich gehe ins Kino\", \"Bin gleich Schule\"), \"lassma\" (lass uns mal, let's), \"musstu\" (musst du), and words from Turkish and Arabic such as \"yallah\" (come on, let's go).",
+          "Typical features: no preposition or article with places (\"Ich geh Kino\" for \"Ich gehe ins Kino\", \"Bin gleich Schule\"), \"lassma\" (\"lass uns mal\", let's), \"musstu\" (\"musst du\"), and words from Turkish and Arabic such as \"yallah\" (come on, let's go).",
           "Kiezdeutsch carries strong social connotations: it signals belonging to a group, and outsiders who imitate it are often heard as mocking. Learners should understand it and never use it as a joke.",
         ],
         examples: [
@@ -936,11 +935,11 @@ export const DE_C1_U16: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Write the standard form of Lassma (two words).",
+            prompt: "Write the standard form of \"lassma\" (two words).",
             en: "[Let's] go and eat a kebab!",
             sentence: "___ Döner essen gehen!",
             answer: "Lass uns",
-            altAnswers: ["lass uns", "Lasst uns", "Lass uns mal", "Gehen wir"],
+            altAnswers: ["Lasst uns", "Lass uns mal"],
             explanation: "\"Lassma\" = \"lass uns mal\".",
           },
         ],
@@ -971,8 +970,8 @@ export const DE_C1_U16: Lesson[] = [
         en: "We're just [relaxing] at home today.",
         sentence: "Wir ___ heute einfach zu Hause.",
         answer: "chillen",
-        altAnswers: ["entspannen uns", "relaxen"],
-        explanation: "\"Chillen\" is now widespread across age groups in casual speech.",
+        altAnswers: ["relaxen"],
+        explanation: "\"Chillen\" is now widespread across age groups in casual speech; the neutral verb is \"sich entspannen\".",
       },
       {
         type: "translate",
@@ -1030,8 +1029,8 @@ export const DE_C1_U16: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Was bedeutet eigentlich das Wort cringe?",
-        prompt: "Ask a German teenager politely what the word cringe actually means.",
+        text: "Was bedeutet eigentlich das Wort „cringe“?",
+        prompt: "Ask a German teenager politely what the word 'cringe' actually means.",
         explanation: "Asking about youth words is fine; using them yourself is riskier.",
       },
     ],
@@ -1041,15 +1040,15 @@ export const DE_C1_U16: Lesson[] = [
     level: "DE-C1",
     number: 6,
     title: "Neutral and Colloquial German, Part 4 of 6",
-    summary: "Short words and abbreviations: Uni, Kita, Abi, Azubi, WG, Bafög, Krimi, Demo, Promi, Kuli, Akku; ÖPNV, GmbH, AG, Lkw and Pkw spelled out vs NATO and Bafög read as words; written z. B., u. a., usw., ggf., bzw., zzgl., i. A., d. h.",
+    summary: "Use clipped words (\"Uni\", \"Kita\", \"Abi\", \"Azubi\", \"Akku\"), say abbreviations correctly (\"Lkw\" spelled out, \"NATO\" read as a word), and read and write office abbreviations such as \"z. B.\", \"bzw.\", \"ggf.\" and \"i. A.\".",
     duration: "18 min",
     sections: [
       {
         heading: "Clipped words: Uni, Kita, Abi, Azubi",
         body: [
-          "German clips long words, often adding -i or -o: \"die Uni\" (Universität), \"die Kita\" (Kindertagesstätte), \"das Abi\" (Abitur), \"der / die Azubi\" (Auszubildende, apprentice), \"der Krimi\" (Kriminalroman or -film), \"die Demo\" (Demonstration), \"der Promi\" (Prominente, celebrity), \"der Kuli\" (Kugelschreiber), \"der Akku\" (Akkumulator, rechargeable battery).",
+          "German clips long words, often adding -i or -o: \"die Uni\" (\"Universität\"), \"die Kita\" (\"Kindertagesstätte\"), \"das Abi\" (\"Abitur\"), \"der / die Azubi\" (\"Auszubildende\", apprentice), \"der Krimi\" (\"Kriminalroman\" or \"-film\"), \"die Demo\" (\"Demonstration\"), \"der Promi\" (\"Prominente\", celebrity), \"der Kuli\" (\"Kugelschreiber\"), \"der Akku\" (\"Akkumulator\", rechargeable battery).",
           "Most of these are no longer felt as slang. \"Uni\", \"Kita\", \"Azubi\", \"Akku\" and \"Krimi\" appear in newspapers and official websites; \"Kuli\" and \"Promi\" are a little more informal. In a formal application, write \"Universität\" and \"Abitur\" in full on first mention.",
-          "Gender follows the full word in most cases: \"die Uni\" (die Universität), \"das Abi\" (das Abitur). \"Der Akku\" keeps the gender of \"der Akkumulator\".",
+          "Gender follows the full word in most cases: \"die Uni\" (\"die Universität\"), \"das Abi\" (\"das Abitur\"). \"Der Akku\" keeps the gender of \"der Akkumulator\".",
         ],
         examples: [
           { es: "Ich studiere an der Uni Köln.", en: "I'm studying at Cologne University." },
@@ -1085,7 +1084,7 @@ export const DE_C1_U16: Lesson[] = [
       {
         heading: "Spelled or spoken: Lkw, GmbH, NATO, Bafög",
         body: [
-          "Some abbreviations are spelled letter by letter: \"die WG\" (Wohngemeinschaft, spoken we-ge), \"der Lkw\" (Lastkraftwagen, el-ka-we), \"der Pkw\" (Personenkraftwagen), \"die GmbH\" (Gesellschaft mit beschränkter Haftung), \"die AG\" (Aktiengesellschaft), \"der ADAC\" (the automobile club), \"der ÖPNV\" (öffentlicher Personennahverkehr, public transport).",
+          "Some abbreviations are spelled letter by letter: \"die WG\" (\"Wohngemeinschaft\", spoken we-ge), \"der Lkw\" (\"Lastkraftwagen\", el-ka-we), \"der Pkw\" (\"Personenkraftwagen\"), \"die GmbH\" (\"Gesellschaft mit beschränkter Haftung\"), \"die AG\" (\"Aktiengesellschaft\"), \"der ADAC\" (the automobile club), \"der ÖPNV\" (\"öffentlicher Personennahverkehr\", public transport).",
           "Others are read as words (acronyms): \"die NATO\", \"das Bafög\" (state student grant), \"die UNO\". The article follows the main noun: \"die WG\" because \"die Gemeinschaft\", \"der Lkw\" because \"der Wagen\".",
           "In everyday speech people often prefer short words to abbreviations: \"der Laster\" for \"Lkw\", \"das Auto\" for \"Pkw\", \"Bus und Bahn\" for \"ÖPNV\". The official abbreviations dominate in news, forms and traffic signs.",
         ],
@@ -1104,7 +1103,7 @@ export const DE_C1_U16: Lesson[] = [
             source: "I live in a flatshare with three students.",
             answer: "Ich wohne in einer WG mit drei Studenten.",
             altAnswers: ["Ich wohne mit drei Studenten in einer WG.", "Ich wohne in einer WG mit drei Studierenden.", "Ich wohne mit drei Studierenden in einer WG.", "Ich lebe in einer WG mit drei Studenten."],
-            explanation: "\"Die WG\" (we-ge) = Wohngemeinschaft.",
+            explanation: "\"Die WG\" (we-ge) = \"Wohngemeinschaft\".",
           },
           {
             type: "multiple-choice",
@@ -1118,9 +1117,9 @@ export const DE_C1_U16: Lesson[] = [
       {
         heading: "Written abbreviations: z. B., bzw., ggf., i. A.",
         body: [
-          "Written German uses many abbreviations, with dots and, according to the rules, a small space between parts: \"z. B.\" (zum Beispiel), \"u. a.\" (unter anderem), \"usw.\" (und so weiter), \"d. h.\" (das heißt), \"bzw.\" (beziehungsweise: or rather, respectively), \"ggf.\" (gegebenenfalls: if necessary), \"zzgl.\" (zuzüglich: plus, e.g. VAT), \"i. A. Müller\" (im Auftrag: signing on behalf of someone).",
+          "Written German uses many abbreviations, with dots and, according to the rules, a small space between parts: \"z. B.\" (\"zum Beispiel\"), \"u. a.\" (\"unter anderem\"), \"usw.\" (\"und so weiter\"), \"d. h.\" (\"das heißt\"), \"bzw.\" (\"beziehungsweise\": or rather, respectively), \"ggf.\" (\"gegebenenfalls\": if necessary), \"zzgl.\" (\"zuzüglich\": plus, e.g. VAT), \"i. A. Müller\" (\"im Auftrag\": signing on behalf of someone).",
           "When reading aloud, you say the full form: \"z. B.\" is read \"zum Beispiel\", never letter by letter. At the start of a sentence, write the full form: \"Zum Beispiel...\", not \"Z. B. ...\".",
-          "\"Bzw.\" is overused in German office writing. It means \"or\" or \"respectively\": \"die Kolleginnen bzw. Kollegen\", \"Herr Arnold bzw. Frau Lenz übernehmen die Aufgabe\".",
+          "\"Bzw.\" is overused in German office writing. It means 'or' or 'respectively': \"die Kolleginnen bzw. Kollegen\", \"Herr Arnold bzw. Frau Lenz übernehmen die Aufgabe\".",
         ],
         examples: [
           { es: "Wir brauchen Obst, z. B. Äpfel und Birnen.", en: "We need fruit, for example apples and pears." },
@@ -1137,7 +1136,7 @@ export const DE_C1_U16: Lesson[] = [
             source: "The price is 200 euros plus VAT.",
             answer: "Der Preis beträgt 200 Euro zzgl. MwSt.",
             altAnswers: ["Der Preis beträgt 200 Euro zuzüglich Mehrwertsteuer.", "Der Preis liegt bei 200 Euro zzgl. MwSt.", "Der Preis beträgt 200 € zzgl. MwSt.", "Der Preis beträgt 200 Euro zzgl. Mehrwertsteuer."],
-            explanation: "\"Zzgl.\" = zuzüglich; \"MwSt.\" = Mehrwertsteuer.",
+            explanation: "\"Zzgl.\" = \"zuzüglich\"; \"MwSt.\" = \"Mehrwertsteuer\".",
           },
           {
             type: "fill-blank",
@@ -1146,7 +1145,7 @@ export const DE_C1_U16: Lesson[] = [
             sentence: "Bitte bringen Sie ___ Ihren Reisepass mit.",
             answer: "ggf.",
             altAnswers: ["gegebenenfalls", "ggf"],
-            explanation: "\"Ggf.\" = gegebenenfalls.",
+            explanation: "\"Ggf.\" = \"gegebenenfalls\".",
           },
         ],
       },
@@ -1209,7 +1208,7 @@ export const DE_C1_U16: Lesson[] = [
         prompt: "Put the words in order: Public transport in Vienna is very good.",
         words: ["Der", "ÖPNV", "in", "Wien", "ist", "sehr", "gut."],
         translation: "Public transport in Vienna is very good.",
-        explanation: "\"Der ÖPNV\" (öffentlicher Personennahverkehr), spelled ö-pe-en-fau.",
+        explanation: "\"Der ÖPNV\" (\"öffentlicher Personennahverkehr\"), spelled ö-pe-en-fau.",
       },
       {
         type: "translate",
@@ -1218,7 +1217,7 @@ export const DE_C1_U16: Lesson[] = [
         source: "The deadline is on Friday, that is, in three days.",
         answer: "Die Frist endet am Freitag, d. h. in drei Tagen.",
         altAnswers: ["Die Frist endet am Freitag, das heißt in drei Tagen.", "Die Frist endet am Freitag, d.h. in drei Tagen.", "Die Frist läuft am Freitag ab, d. h. in drei Tagen.", "Die Frist ist am Freitag, d. h. in drei Tagen."],
-        explanation: "\"D. h.\" = das heißt.",
+        explanation: "\"D. h.\" = \"das heißt\".",
       },
       {
         type: "listen-choose",
@@ -1323,7 +1322,7 @@ export const DE_C1_U16: Lesson[] = [
         body: [
           "Neutral German softens with \"leider\", \"etwas\", \"ein wenig\", Konjunktiv II and questions: \"Der Bericht wäre eigentlich schon gestern fällig gewesen.\" This is criticism, but face-saving.",
           "Colloquial German strengthens with intensifiers (\"total\", \"voll\", \"echt\", \"mega\") and exclamations (\"Mensch!\", \"Mann!\"). Vulgar German adds swear words, which mostly add emotion, not meaning.",
-          "A useful Advanced skill: translating emotion into a neutral sentence that still makes your point. \"Das ist doch Scheiße!\" can become \"Das ist wirklich nicht akzeptabel.\"",
+          "A useful C1 skill: translating emotion into a neutral sentence that still makes your point. \"Das ist doch Scheiße!\" can become \"Das ist wirklich nicht akzeptabel.\"",
         ],
         examples: [
           { es: "Der Bericht wäre eigentlich schon gestern fällig gewesen.", en: "The report was actually due yesterday." },
@@ -1453,7 +1452,7 @@ export const DE_C1_U16: Lesson[] = [
       {
         heading: "The job application",
         body: [
-          "Extract: \"Ich hab richtig Bock auf die Stelle, weil ich krieg bei meinem jetzigen Job zu wenig Verantwortung.\" Errors: \"hab\" (habe), \"richtig Bock\" (großes Interesse), \"weil\" with verb second, \"krieg\" (bekomme), \"Job\" (acceptable, but \"Stelle\" or \"Position\" is better).",
+          "Extract: \"Ich hab richtig Bock auf die Stelle, weil ich krieg bei meinem jetzigen Job zu wenig Verantwortung.\" Errors: \"hab\" (\"habe\"), \"richtig Bock\" (\"großes Interesse\"), \"weil\" with verb second, \"krieg\" (\"bekomme\"), \"Job\" (acceptable, but \"Stelle\" or \"Position\" is better).",
           "Corrected: \"Ich interessiere mich sehr für die ausgeschriebene Stelle, da ich in meiner derzeitigen Position zu wenig Verantwortung trage.\" Note \"Verantwortung tragen\" (carry responsibility) and \"da\" as a formal alternative to \"weil\".",
           "Application letters are the most formal text most people write. Every colloquial form reads as lack of seriousness.",
         ],
@@ -1557,7 +1556,7 @@ export const DE_C1_U16: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the slip: Ich hab richtig Bock auf die Stelle. Translate formally.",
+        prompt: "Correct the slip \"Ich hab richtig Bock auf die Stelle\": translate formally.",
         source: "I am very interested in the position.",
         answer: "Ich interessiere mich sehr für die Stelle.",
         altAnswers: ["Die Stelle interessiert mich sehr.", "Ich habe großes Interesse an der Stelle.", "Ich interessiere mich sehr für die Position."],
@@ -1592,7 +1591,7 @@ export const DE_C1_U16: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the essay sentence: Die Leute sind total süchtig und so. Translate neutrally.",
+        prompt: "Correct the essay sentence \"Die Leute sind total süchtig und so\": translate neutrally.",
         source: "Many users show addictive behaviour.",
         answer: "Viele Nutzer zeigen ein suchtähnliches Verhalten.",
         altAnswers: ["Viele Nutzerinnen und Nutzer zeigen ein suchtähnliches Verhalten.", "Viele Nutzer zeigen suchtähnliches Verhalten.", "Viele Nutzer zeigen ein Suchtverhalten.", "Viele Nutzer zeigen Suchtverhalten."],
@@ -1625,7 +1624,7 @@ export const DE_C1_U16: Lesson[] = [
         type: "listen-choose",
         audio: "Die Zahlen sind echt geil, Leute!",
         question: "What's the problem in a board presentation?",
-        options: ["The word geil is too crude for the setting", "The verb is in the wrong place", "Zahlen is the wrong noun", "Nothing, it's perfectly formal"],
+        options: ["The word \"geil\" is too crude for the setting", "The verb is in the wrong place", "\"Zahlen\" is the wrong noun", "Nothing, it's perfectly formal"],
         correctIndex: 0,
         explanation: "\"Geil\" and \"Leute\" are far too casual; say \"Die Zahlen sind ausgezeichnet.\"",
       },
@@ -1647,7 +1646,7 @@ export const DE_C1_U16: Lesson[] = [
     level: "DE-C1",
     number: 9,
     title: "Neutral and Colloquial German, Part 5 of 6",
-    summary: "Swearing and euphemisms: the scale from Mist, Mensch and Mann to verdammt and Scheiße; euphemisms such as Scheibenkleister and Menno; insults from Blödmann to worse to recognise, not use (Beleidigung is a criminal offence in Germany); what a learner can safely say.",
+    summary: "Judge how strong a swear word is (from \"Mist\" to \"Scheiße\"), use playful euphemisms like \"Scheibenkleister\", recognise insults without using them (\"Beleidigung\" is a criminal offence in Germany), and know what you can safely say.",
     duration: "18 min",
     sections: [
       {
@@ -1745,7 +1744,7 @@ export const DE_C1_U16: Lesson[] = [
           {
             type: "multiple-choice",
             question: "What can happen in Germany if you insult a police officer?",
-            options: ["You can be fined for Beleidigung", "Nothing, insults are always legal", "You lose your driving licence automatically", "You must leave the country"],
+            options: ["You can be fined for \"Beleidigung\"", "Nothing, insults are always legal", "You lose your driving licence automatically", "You must leave the country"],
             correctIndex: 0,
             explanation: "\"Beleidigung\" is a criminal offence (§ 185 StGB), usually punished with a fine.",
           },
@@ -1765,7 +1764,7 @@ export const DE_C1_U16: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate with verdammt.",
+        prompt: "Translate with \"verdammt\".",
         source: "Damn, the train's gone!",
         answer: "Verdammt, der Zug ist weg!",
         altAnswers: ["Verdammt, der Zug ist schon weg!", "Verdammt, der Zug ist abgefahren!", "Verdammt, der Zug ist schon abgefahren!"],
@@ -1777,7 +1776,6 @@ export const DE_C1_U16: Lesson[] = [
         en: "[Fiddlesticks], overslept again!",
         sentence: "___, schon wieder verschlafen!",
         answer: "Scheibenkleister",
-        altAnswers: ["Mist", "Verflixt"],
         explanation: "\"Scheibenkleister\" swerves away from \"Scheiße\".",
       },
       {
@@ -1847,7 +1845,7 @@ export const DE_C1_U16: Lesson[] = [
     level: "DE-C1",
     number: 10,
     title: "Neutral and Colloquial German, Part 6 of 6",
-    summary: "Colloquial idioms: null Bock haben, jdm auf den Keks gehen, die Nase voll haben, Schwein haben, jdn versetzen, sich den Kopf zerbrechen, Das ist mir Wurst, Kohldampf haben, alles im grünen Bereich, auf dem Schlauch stehen; voll, mega, total and richtig as intensifiers.",
+    summary: "Use everyday colloquial idioms (\"die Nase voll haben\", \"Schwein haben\", \"auf dem Schlauch stehen\", \"Das ist mir Wurst\") and intensifiers (\"voll\", \"mega\", \"total\"), and replace them with neutral German when needed.",
     duration: "18 min",
     sections: [
       {
@@ -1868,7 +1866,7 @@ export const DE_C1_U16: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate with the idiom die Nase voll haben.",
+            prompt: "Translate with the idiom \"die Nase voll haben\".",
             source: "I'm fed up with the delays.",
             answer: "Ich habe die Nase voll von den Verspätungen.",
             altAnswers: ["Ich hab die Nase voll von den Verspätungen.", "Von den Verspätungen habe ich die Nase voll.", "Ich habe die Nase voll von diesen Verspätungen."],
@@ -1877,7 +1875,7 @@ export const DE_C1_U16: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate with the idiom auf den Keks gehen.",
+            prompt: "Translate with the idiom \"auf den Keks gehen\".",
             source: "The noise is getting on my nerves.",
             answer: "Der Lärm geht mir auf den Keks.",
             altAnswers: ["Der Lärm geht mir echt auf den Keks.", "Der Krach geht mir auf den Keks.", "Der Lärm geht mir total auf den Keks."],
@@ -1904,11 +1902,11 @@ export const DE_C1_U16: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate with the idiom Schwein haben.",
+            prompt: "Translate with the idiom \"Schwein haben\".",
             source: "You were really lucky there!",
             answer: "Da hast du aber Schwein gehabt!",
             altAnswers: ["Da hast du echt Schwein gehabt!", "Da hast du Schwein gehabt!", "Da hast du wirklich Schwein gehabt!", "Du hast aber Schwein gehabt!"],
-            explanation: "\"Schwein haben\" = Glück haben.",
+            explanation: "\"Schwein haben\" = \"Glück haben\".",
           },
           {
             type: "fill-blank",
@@ -1923,7 +1921,7 @@ export const DE_C1_U16: Lesson[] = [
       {
         heading: "Intensifiers: voll, mega, total, richtig",
         body: [
-          "Colloquial German intensifies adjectives with \"voll\" (voll gut), \"mega\" (mega teuer), \"total\" (total müde), \"richtig\" (richtig lecker), \"echt\" (echt schön) and, more crudely, \"saumäßig\" or \"tierisch\" (tierisch heiß).",
+          "Colloquial German intensifies adjectives with \"voll\" (\"voll gut\"), \"mega\" (\"mega teuer\"), \"total\" (\"total müde\"), \"richtig\" (\"richtig lecker\"), \"echt\" (\"echt schön\") and, more crudely, \"saumäßig\" or \"tierisch\" (\"tierisch heiß\").",
           "Neutral alternatives: \"sehr\", \"äußerst\", \"besonders\", \"ausgesprochen\", \"wirklich\". \"Echt\" and \"wirklich\" are close, but \"echt\" is more casual.",
           "In writing, \"voll\" and \"mega\" are out of place outside chats and ads. \"Total\" is borderline: \"total müde\" is colloquial; \"ein totaler Ausfall\" (a complete failure) is neutral.",
         ],
@@ -1947,7 +1945,7 @@ export const DE_C1_U16: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate casually with voll.",
+            prompt: "Translate casually with \"voll\".",
             source: "The concert was really good.",
             answer: "Das Konzert war voll gut.",
             altAnswers: ["Das Konzert war echt gut.", "Das Konzert war mega gut.", "Das Konzert war total gut.", "Das Konzert war richtig gut."],
@@ -1960,16 +1958,16 @@ export const DE_C1_U16: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate with the idiom Kohldampf haben.",
+        prompt: "Translate with the idiom \"Kohldampf haben\".",
         source: "I'm starving, is there anything to eat?",
         answer: "Ich habe Kohldampf, gibt es was zu essen?",
         altAnswers: ["Ich hab Kohldampf, gibt es was zu essen?", "Ich habe Kohldampf, gibt es etwas zu essen?", "Ich hab Kohldampf, gibt es etwas zu essen?", "Ich habe Kohldampf. Gibt es was zu essen?"],
-        explanation: "\"Kohldampf haben\" = großen Hunger haben.",
+        explanation: "\"Kohldampf haben\" = \"großen Hunger haben\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate with the idiom jemanden versetzen.",
+        prompt: "Translate with the idiom \"jemanden versetzen\".",
         source: "She stood me up yesterday.",
         answer: "Sie hat mich gestern versetzt.",
         altAnswers: ["Gestern hat sie mich versetzt.", "Sie hat mich gestern einfach versetzt."],
@@ -1987,7 +1985,7 @@ export const DE_C1_U16: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate with the idiom sich den Kopf zerbrechen.",
+        prompt: "Translate with the idiom \"sich den Kopf zerbrechen\".",
         source: "I'm racking my brains over the tax return.",
         answer: "Ich zerbreche mir den Kopf über die Steuererklärung.",
         altAnswers: ["Ich zerbrech mir den Kopf über die Steuererklärung.", "Über die Steuererklärung zerbreche ich mir den Kopf."],
@@ -1996,7 +1994,7 @@ export const DE_C1_U16: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate with alles im grünen Bereich.",
+        prompt: "Translate with \"alles im grünen Bereich\".",
         source: "Don't worry, everything's fine.",
         answer: "Keine Sorge, alles im grünen Bereich.",
         altAnswers: ["Keine Sorge, alles ist im grünen Bereich.", "Mach dir keine Sorgen, alles im grünen Bereich.", "Keine Sorge, es ist alles im grünen Bereich."],
@@ -2007,7 +2005,7 @@ export const DE_C1_U16: Lesson[] = [
         question: "Your friend says: \"Da hast du aber Schwein gehabt!\" What does she mean?",
         options: ["You were lucky", "You behaved badly", "You ate too much", "You were dirty"],
         correctIndex: 0,
-        explanation: "\"Schwein haben\" = Glück haben.",
+        explanation: "\"Schwein haben\" = \"Glück haben\".",
       },
       {
         type: "word-order",
@@ -2116,7 +2114,7 @@ export const DE_C1_U16: Lesson[] = [
             prompt: "Write the neutral subtitle.",
             source: "Let's just relax.",
             answer: "Lass uns einfach entspannen.",
-            altAnswers: ["Lass uns einfach ausruhen.", "Lass uns einfach entspannen!", "Entspannen wir uns einfach."],
+            altAnswers: ["Ruhen wir uns einfach aus.", "Entspannen wir uns einfach.", "Lass uns einfach chillen."],
             explanation: "Standard \"lass uns\" instead of Kiezdeutsch \"lassma\".",
           },
         ],
@@ -2269,7 +2267,7 @@ export const DE_C1_U16: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate politely (Sie), with doch.",
+            prompt: "Translate politely (Sie), with \"doch\".",
             source: "Do just come by.",
             answer: "Kommen Sie doch einfach vorbei.",
             altAnswers: ["Kommen Sie doch einfach mal vorbei.", "Kommen Sie doch vorbei.", "Kommen Sie doch einfach vorbei!"],
@@ -2303,7 +2301,7 @@ export const DE_C1_U16: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate neutrally, with this man in the Vorfeld.",
+            prompt: "Translate neutrally, with 'this man' in the \"Vorfeld\".",
             source: "This man I don't know.",
             answer: "Diesen Mann kenne ich nicht.",
             altAnswers: ["Den Mann kenne ich nicht.", "Diesen Herrn kenne ich nicht."],
@@ -2336,7 +2334,7 @@ export const DE_C1_U16: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate neutrally with dürfte.",
+            prompt: "Translate neutrally with \"dürfte\".",
             source: "That's probably the problem.",
             answer: "Das dürfte das Problem sein.",
             altAnswers: ["Das ist wahrscheinlich das Problem.", "Das ist vermutlich das Problem.", "Das wird wohl das Problem sein."],
@@ -2345,7 +2343,7 @@ export const DE_C1_U16: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate neutrally with the future tense and wohl.",
+            prompt: "Translate neutrally with the future tense and \"wohl\".",
             source: "He's probably stuck in traffic.",
             answer: "Er wird wohl im Stau stehen.",
             altAnswers: ["Er steht wohl im Stau.", "Er dürfte im Stau stehen.", "Er steht wahrscheinlich im Stau.", "Er steht vermutlich im Stau."],
@@ -2358,7 +2356,7 @@ export const DE_C1_U16: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate neutrally with dürfte.",
+        prompt: "Translate neutrally with \"dürfte\".",
         source: "He has probably overslept.",
         answer: "Er dürfte verschlafen haben.",
         altAnswers: ["Er hat wahrscheinlich verschlafen.", "Er hat vermutlich verschlafen.", "Er wird wohl verschlafen haben.", "Er hat wohl verschlafen."],
@@ -2417,7 +2415,7 @@ export const DE_C1_U16: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate neutrally, with the particle doch.",
+        prompt: "Translate neutrally, with the particle \"doch\".",
         source: "You knew that, didn't you.",
         answer: "Das hast du doch gewusst.",
         altAnswers: ["Das hast du doch gewusst!", "Das haben Sie doch gewusst.", "Du hast das doch gewusst."],
@@ -2449,7 +2447,7 @@ export const DE_C1_U16: Lesson[] = [
     level: "DE-C1",
     number: 13,
     title: "Spoken Grammar: Relatives and Possessives in Speech",
-    summary: "Non-standard forms heard every day: wo as a relative in the south (der Mann, wo da wohnt), der, die and das as pronouns (Die ist nett), the possessive dative (dem Peter sein Auto) and wegen dem; recognise them, don't write them.",
+    summary: "Recognise non-standard spoken forms (southern relative \"wo\", \"Die ist nett\", \"dem Peter sein Auto\", \"wegen dem\") and replace them with standard written German.",
     duration: "18 min",
     sections: [
       {
@@ -2457,7 +2455,7 @@ export const DE_C1_U16: Lesson[] = [
         body: [
           "In much of the south (Bavaria, Baden-Württemberg, Austria, Switzerland), \"wo\" serves as a relative pronoun, alone or after the standard one: \"der Mann, wo da drüben wohnt\" or \"der Mann, der wo da wohnt\". Standard: \"der Mann, der da drüben wohnt\".",
           "In standard German, \"wo\" as a relative is correct only for places and times: \"die Stadt, wo ich geboren bin\" (also \"in der\"), \"in dem Moment, wo er kam\" (neutral, though \"als\" is more formal).",
-          "Recognise the southern form in conversation; in your own writing, always use der, die, das.",
+          "Recognise the southern form in conversation; in your own writing, always use \"der\", \"die\", \"das\".",
         ],
         examples: [
           { es: "Der Mann, wo da drüben wohnt, ist Arzt.", en: "The man who lives over there is a doctor. (southern spoken)" },
@@ -2478,7 +2476,7 @@ export const DE_C1_U16: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Where is wo as a relative correct in standard German?",
+            question: "Where is \"wo\" as a relative correct in standard German?",
             options: ["Das ist die Stadt, wo ich wohne.", "Der Lehrer, wo ich mag, ist krank.", "Das Buch, wo auf dem Tisch liegt, ist neu.", "Die Frau, wo da steht, ist meine Tante."],
             correctIndex: 0,
             explanation: "\"Wo\" is standard for places; for people and things it is southern spoken German.",
@@ -2515,15 +2513,14 @@ export const DE_C1_U16: Lesson[] = [
             en: "Peter? [He] isn't coming today.",
             sentence: "Der Peter? ___ kommt heute nicht.",
             answer: "Der",
-            altAnswers: ["der", "Er"],
-            explanation: "Spoken \"der\" = er.",
+            explanation: "Spoken \"der\" = \"er\"; neutral writing would use \"Er\".",
           },
         ],
       },
       {
         heading: "Dem Peter sein Auto, wegen dem",
         body: [
-          "The possessive dative replaces the genitive in casual speech: \"dem Peter sein Auto\" (Peters Auto), \"der Anna ihre Tasche\" (Annas Tasche). It is widespread but strongly marked as non-standard; never use it in writing.",
+          "The possessive dative replaces the genitive in casual speech: \"dem Peter sein Auto\" (\"Peters Auto\"), \"der Anna ihre Tasche\" (\"Annas Tasche\"). It is widespread but strongly marked as non-standard; never use it in writing.",
           "\"Wegen\" + dative is extremely common in speech: \"wegen dem Wetter\", \"wegen mir\". Standard written German prefers the genitive: \"wegen des Wetters\". \"Wegen mir\" (because of me) is colloquial; neutral: \"meinetwegen\".",
           "The dative after \"wegen\" is now accepted in informal standard German, but in formal writing the genitive is expected.",
         ],
@@ -2589,8 +2586,8 @@ export const DE_C1_U16: Lesson[] = [
         prompt: "Translate into neutral German.",
         source: "Don't stay at home on my account.",
         answer: "Bleib nicht meinetwegen zu Hause.",
-        altAnswers: ["Bleib meinetwegen nicht zu Hause.", "Bleiben Sie nicht meinetwegen zu Hause.", "Bleib nicht wegen mir zu Hause.", "Bleib nicht meinetwegen daheim."],
-        explanation: "\"Meinetwegen\" is neutral; \"wegen mir\" is colloquial.",
+        altAnswers: ["Bleiben Sie nicht meinetwegen zu Hause.", "Bleibt nicht meinetwegen zu Hause.", "Bleib nicht meinetwegen daheim.", "Bleib nicht meinetwegen zuhause."],
+        explanation: "\"Meinetwegen\" is neutral; \"wegen mir\" is colloquial. Keep \"nicht meinetwegen\" together: \"Bleib meinetwegen nicht zu Hause\" would mean as far as I'm concerned, don't stay at home.",
       },
       {
         type: "translate",
@@ -2650,7 +2647,7 @@ export const DE_C1_U16: Lesson[] = [
     level: "DE-C1",
     number: 14,
     title: "Spoken Grammar: Questions and Negation in Fast Speech",
-    summary: "Was machste?, Haste mal 'n Euro?, Kommste mit?, echo questions (Wie, du hast was gemacht?), nich, gar nich, kein Ding, oder was?, Ne, lass mal, and their standard written equivalents.",
+    summary: "Follow fast spoken questions (\"Was machste?\", \"Kommste mit?\"), echo questions (\"Du hast was gemacht?\"), tags and casual negation (\"nich\", \"kein Ding\", \"Ne, lass mal\"), and give their standard written equivalents.",
     duration: "18 min",
     sections: [
       {
@@ -2684,8 +2681,8 @@ export const DE_C1_U16: Lesson[] = [
             en: "That's nice, [isn't it]?",
             sentence: "Das ist schön, ___?",
             answer: "oder",
-            altAnswers: ["nicht wahr", "ne", "gell", "nicht"],
-            explanation: "\"Oder?\" works in every region.",
+            altAnswers: ["nicht wahr", "nicht"],
+            explanation: "\"Oder?\" works in every region; \"ne?\" is northern and \"gell?\" southern.",
           },
         ],
       },
@@ -2754,7 +2751,7 @@ export const DE_C1_U16: Lesson[] = [
             question: "Someone thanks you and you say \"Kein Ding!\" What does it mean?",
             options: ["No problem", "No thing left", "I didn't do anything", "Not at all interested"],
             correctIndex: 0,
-            explanation: "\"Kein Ding\" = kein Problem, gern geschehen.",
+            explanation: "\"Kein Ding\" = \"kein Problem\", \"gern geschehen\".",
           },
         ],
       },
@@ -2784,7 +2781,6 @@ export const DE_C1_U16: Lesson[] = [
         en: "Thanks! [No problem!]",
         sentence: "Danke! Kein ___!",
         answer: "Problem",
-        altAnswers: ["Ding"],
         explanation: "\"Kein Problem\" is neutral; \"Kein Ding\" is colloquial.",
       },
       {
