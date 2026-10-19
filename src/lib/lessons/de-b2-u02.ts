@@ -7,7 +7,7 @@ export const DE_B2_U02: Lesson[] = [
     slug: "b2-regrets-reproaches-double-infinitive",
     level: "DE-B2",
     number: 1,
-    title: "Regrets and Reproaches: Ich Hätte Früher Kommen Sollen",
+    title: "Regrets and Reproaches: Ich hätte früher kommen sollen",
     summary: "Say what should, could or needn't have been done with hätte + two infinitives: ich hätte anrufen sollen.",
     duration: "15 min",
     sections: [
@@ -154,13 +154,13 @@ export const DE_B2_U02: Lesson[] = [
         prompt: "Translate into German.",
         source: "Without a car we would have had to take a taxi.",
         answer: "Ohne Auto hätten wir ein Taxi nehmen müssen.",
-        altAnswers: ["Ohne ein Auto hätten wir ein Taxi nehmen müssen.", "Ohne Auto hätten wir ein Taxi nehmen müssen.", "Wir hätten ohne Auto ein Taxi nehmen müssen."],
+        altAnswers: ["Ohne ein Auto hätten wir ein Taxi nehmen müssen.", "Wir hätten ohne Auto ein Taxi nehmen müssen."],
         explanation: "Would have had to = \"hätten ... müssen\" with the main verb before it.",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I [should have talked] to him yesterday.",
+        en: "I [should] have [talked] to him yesterday.",
         sentence: "Ich hätte gestern mit ihm ___.",
         answer: "reden sollen",
         altAnswers: ["sprechen sollen"],
@@ -216,7 +216,7 @@ export const DE_B2_U02: Lesson[] = [
     slug: "b2-contrast-solltest-haettest-sollen",
     level: "DE-B2",
     number: 2,
-    title: "Contrast Clinic: Du Solltest / Du Hättest... Sollen",
+    title: "Contrast Clinic: Du solltest / Du hättest... sollen",
     summary: "Present advice (du solltest) vs past reproach (du hättest ... sollen), and das hätte ich nicht gekonnt vs ... machen können.",
     duration: "13 min",
     sections: [
@@ -371,7 +371,7 @@ export const DE_B2_U02: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "You [should have gone] to the doctor yesterday.",
+        en: "You [should] have [gone] to the doctor yesterday.",
         sentence: "Du hättest schon gestern zum Arzt ___.",
         answer: "gehen sollen",
         altAnswers: ["gehen müssen"],
@@ -380,7 +380,7 @@ export const DE_B2_U02: Lesson[] = [
       {
         type: "multiple-choice",
         question: "What does \"Ihr solltet um acht hier sein\" most likely mean, said angrily at nine?",
-        options: ["You were supposed to be here at eight.", "You should be here at eight.", "You should have been here at eight, I suggest.", "You will be here at eight."],
+        options: ["You were supposed to be here at eight.", "You should be here at eight.", "You would have been here at eight.", "You will be here at eight."],
         correctIndex: 0,
         explanation: "\"Solltet\" is also the Präteritum: you were supposed to. Context shows it.",
       },
@@ -433,7 +433,7 @@ export const DE_B2_U02: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Error Hunt: The Double Infinitive",
-    summary: "Find and fix the typical mistakes: *hätte kommen gesollt, *dass ich kommen sollen hätte, *würde gekommen sein sollen.",
+    summary: "Find and fix the typical mistakes: \"*hätte kommen gesollt\", \"*dass ich kommen sollen hätte\", \"*würde gekommen sein sollen\".",
     duration: "14 min",
     sections: [
       {
@@ -454,7 +454,7 @@ export const DE_B2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"Ich wäre früher gehen sollen.\" Write the correct German for: I should have left earlier.",
+            prompt: "A learner wrote \"*Ich wäre früher gehen sollen.\" Write the correct German for: I should have left earlier.",
             source: "I should have left earlier.",
             answer: "Ich hätte früher gehen sollen.",
             altAnswers: ["Ich hätte früher losgehen sollen.", "Ich hätte eher gehen sollen."],
@@ -463,7 +463,7 @@ export const DE_B2_U02: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "He [should have warned] us. (fix \"*Er würde uns gewarnt haben müssen\")",
+            en: "He [should] have [warned] us. (fix \"*Er würde uns gewarnt haben müssen\")",
             sentence: "Er hätte uns ___.",
             answer: "warnen müssen",
             altAnswers: ["warnen sollen"],
@@ -489,7 +489,7 @@ export const DE_B2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"Ich weiß, dass ich anrufen sollen hätte.\" Write the correct German for: I know that I should have called.",
+            prompt: "A learner wrote \"*Ich weiß, dass ich anrufen sollen hätte.\" Write the correct German for: I know that I should have called.",
             source: "I know that I should have called.",
             answer: "Ich weiß, dass ich hätte anrufen sollen.",
             explanation: "In the subordinate clause \"hätte\" comes before both infinitives.",
@@ -520,7 +520,7 @@ export const DE_B2_U02: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"Wenn du würdest angerufen haben, hätte ich dich abgeholt.\" Write the correct German for: If you'd called, I would have picked you up.",
+            prompt: "A learner wrote \"*Wenn du würdest angerufen haben, hätte ich dich abgeholt.\" Write the correct German for: If you'd called, I would have picked you up.",
             source: "If you'd called, I would have picked you up.",
             answer: "Wenn du angerufen hättest, hätte ich dich abgeholt.",
             altAnswers: ["Hättest du angerufen, hätte ich dich abgeholt.", "Ich hätte dich abgeholt, wenn du angerufen hättest."],
@@ -540,7 +540,7 @@ export const DE_B2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"Wir hätten das Licht ausschalten gesollt.\" Translate: We should have switched off the light.",
+        prompt: "Fix \"*Wir hätten das Licht ausschalten gesollt.\" Translate: We should have switched off the light.",
         source: "We should have switched off the light.",
         answer: "Wir hätten das Licht ausschalten sollen.",
         altAnswers: ["Wir hätten das Licht ausmachen sollen."],
@@ -549,7 +549,7 @@ export const DE_B2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"Sie hätte das nicht unterschrieben dürfen.\" Translate: She shouldn't have signed that.",
+        prompt: "Fix \"*Sie hätte das nicht unterschrieben dürfen.\" Translate: She shouldn't have signed that.",
         source: "She shouldn't have signed that.",
         answer: "Sie hätte das nicht unterschreiben dürfen.",
         altAnswers: ["Sie hätte das nicht unterschreiben sollen.", "Das hätte sie nicht unterschreiben dürfen.", "Das hätte sie nicht unterschreiben sollen."],
@@ -558,7 +558,7 @@ export const DE_B2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"Obwohl ich bleiben können hätte, bin ich gegangen.\" Translate: Although I could have stayed, I left.",
+        prompt: "Fix \"*Obwohl ich bleiben können hätte, bin ich gegangen.\" Translate: Although I could have stayed, I left.",
         source: "Although I could have stayed, I left.",
         answer: "Obwohl ich hätte bleiben können, bin ich gegangen.",
         explanation: "In the subordinate clause \"hätte\" goes before both infinitives.",
@@ -566,7 +566,7 @@ export const DE_B2_U02: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix \"Sie sagt, dass wir nicht so viel ausgeben dürfen hätten.\" Translate: She says we shouldn't have spent so much.",
+        prompt: "Fix \"*Sie sagt, dass wir nicht so viel ausgeben dürfen hätten.\" Translate: She says we shouldn't have spent so much.",
         source: "She says that we shouldn't have spent so much.",
         answer: "Sie sagt, dass wir nicht so viel hätten ausgeben dürfen.",
         altAnswers: ["Sie sagt, dass wir nicht so viel hätten ausgeben sollen.", "Sie sagt, wir hätten nicht so viel ausgeben dürfen.", "Sie sagt, wir hätten nicht so viel ausgeben sollen."],
@@ -635,7 +635,7 @@ export const DE_B2_U02: Lesson[] = [
     slug: "b2-story-gaps-die-verpasste-hochzeit",
     level: "DE-B2",
     number: 4,
-    title: "Story with Gaps: Die Verpasste Hochzeit",
+    title: "Story with Gaps: Die verpasste Hochzeit",
     summary: "A brother misses his sister's wedding in Leipzig: fill in hätte / wäre, the double infinitive and his regrets.",
     duration: "15 min",
     sections: [
@@ -797,7 +797,7 @@ export const DE_B2_U02: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "If the ground staff [hadn't been] on strike, I would have arrived on time.",
+        en: "If the ground staff [had] not been on strike, I would have arrived on time.",
         sentence: "Wenn das Bodenpersonal nicht gestreikt ___, wäre ich pünktlich angekommen.",
         answer: "hätte",
         explanation: "\"Streiken\" takes haben: \"gestreikt hätte\".",
@@ -1076,7 +1076,7 @@ export const DE_B2_U02: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "You didn't come. → You [should have come]. (to friends)",
+            en: "You didn't come. → You [should] have [come]. (to friends)",
             sentence: "Ihr seid nicht gekommen. → Ihr hättet ___.",
             answer: "kommen sollen",
             explanation: "Participle \"gekommen\" becomes the infinitive \"kommen\", then \"sollen\".",
@@ -1270,7 +1270,7 @@ export const DE_B2_U02: Lesson[] = [
             prompt: "Translate into German.",
             source: "We would rather have stayed at home.",
             answer: "Wir wären lieber zu Hause geblieben.",
-            altAnswers: ["Wir wären lieber daheim geblieben.", "Wir hätten lieber zu Hause bleiben sollen."],
+            altAnswers: ["Wir wären lieber daheim geblieben.", "Wir wären lieber zuhause geblieben."],
             explanation: "\"Lieber\" + \"wären ... geblieben\": a regret without a modal.",
           },
           {
@@ -1351,7 +1351,7 @@ export const DE_B2_U02: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "You fell asleep on the train. I [should have set] an alarm.",
+        en: "I fell asleep on the train. I [should have] set an alarm.",
         sentence: "Ich ___ einen Wecker stellen sollen.",
         answer: "hätte",
         explanation: "Always \"hätte\" with a modal.",

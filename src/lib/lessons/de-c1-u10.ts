@@ -23,14 +23,14 @@ export const DE_C1_U10: Lesson[] = [
     level: "DE-C1",
     number: 1,
     title: "Discourse Markers, Part 1 of 6",
-    summary: "Structure a text or talk: zunächst, erstens, darüber hinaus, zudem, ferner, des Weiteren, nicht zuletzt, and why zum anderen is not on the other hand.",
+    summary: "Structure a text or talk with \"zunächst\", \"erstens\", \"darüber hinaus\", \"zudem\", \"ferner\", \"des Weiteren\" and \"nicht zuletzt\", and know why \"zum anderen\" doesn't mean on the other hand.",
     duration: "18 min",
     sections: [
       {
         heading: "Sequencing: zunächst, erstens, anschließend, schließlich",
         body: [
           "Sequencing markers guide the listener through a series of points or steps: \"zunächst\" (first of all, to begin with), \"erstens, zweitens, drittens\", \"dann\", \"danach\", \"anschließend\" (after that, formal), \"schließlich\" (finally, as the last step), \"zum Schluss\" (at the end).",
-          "All of them are adverbs. When they open a sentence they fill the Vorfeld, so the verb comes next and the subject follows: \"Zunächst möchte ich mich vorstellen.\" \"Anschließend gehen wir auf die Kosten ein.\" English first, I'd like to... keeps the subject first; German doesn't. *\"Zunächst ich möchte...\" is the classic error.",
+          "All of them are adverbs. When they open a sentence they fill the Vorfeld, so the verb comes next and the subject follows: \"Zunächst möchte ich mich vorstellen.\" \"Anschließend gehen wir auf die Kosten ein.\" English first, I'd like to... keeps the subject first; German doesn't. \"*Zunächst ich möchte...*\" is the classic error.",
           "\"Zuerst\" and \"zunächst\" overlap. \"Zuerst\" is more about time order (first do X, then Y); \"zunächst\" also means for the time being and sounds more formal in presentations: \"Zunächst ein paar Zahlen.\"",
         ],
         examples: [
@@ -47,7 +47,7 @@ export const DE_C1_U10: Lesson[] = [
             prompt: "Translate into German.",
             source: "First of all, I'd like to thank you all.",
             answer: "Zunächst möchte ich Ihnen allen danken.",
-            altAnswers: ["Zunächst möchte ich mich bei Ihnen allen bedanken.", "Zuerst möchte ich Ihnen allen danken.", "Zuerst möchte ich mich bei Ihnen allen bedanken.", "Zunächst möchte ich euch allen danken.", "Zunächst möchte ich mich bei euch allen bedanken.", "Zuerst möchte ich euch allen danken."],
+            altAnswers: ["Zunächst möchte ich mich bei Ihnen allen bedanken.", "Zuerst möchte ich Ihnen allen danken.", "Zuerst möchte ich mich bei Ihnen allen bedanken.", "Zunächst möchte ich euch allen danken.", "Zunächst möchte ich mich bei euch allen bedanken.", "Zuerst möchte ich euch allen danken.", "Zuerst möchte ich mich bei euch allen bedanken."],
             explanation: "\"Zunächst\" fills the Vorfeld, so the verb \"möchte\" comes second and \"ich\" follows.",
           },
           {
@@ -90,6 +90,7 @@ export const DE_C1_U10: Lesson[] = [
             en: "[On top of that,] the weather was bad.",
             sentence: "___ das Wetter schlecht war.",
             answer: "Hinzu kam, dass",
+            altAnswers: ["Dazu kam, dass", "Hinzu kommt, dass"],
             explanation: "\"Hinzu kommt / kam, dass...\" introduces an additional factor; the dass-clause has the verb at the end.",
           },
         ],
@@ -98,7 +99,7 @@ export const DE_C1_U10: Lesson[] = [
         heading: "Zum einen... zum anderen vs einerseits... andererseits",
         body: [
           "\"Zum einen... zum anderen\" lists two reasons or aspects that point in the same direction: for one thing... for another. \"Ich ziehe um: zum einen ist die Wohnung zu klein, zum anderen ist mein Arbeitsweg zu lang.\"",
-          "\"Einerseits... andererseits\" (on the one hand... on the other hand) contrasts two sides that point in opposite directions: \"Einerseits verdiene ich gut, andererseits habe ich keine Freizeit.\" Using \"zum anderen\" for on the other hand is a frequent Advanced mistake: it sounds as if you're adding, not contrasting.",
+          "\"Einerseits... andererseits\" (on the one hand... on the other hand) contrasts two sides that point in opposite directions: \"Einerseits verdiene ich gut, andererseits habe ich keine Freizeit.\" Using \"zum anderen\" for on the other hand is a frequent advanced mistake: it sounds as if you're adding, not contrasting.",
           "To contrast with a single adverb: \"dagegen\" / \"hingegen\" (by contrast). Both work in the Vorfeld or Mittelfeld: \"Hamburg ist teuer, Leipzig dagegen ist günstig.\"",
         ],
         examples: [
@@ -151,7 +152,7 @@ export const DE_C1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "On the one hand I'd like to stay, on the other I want to see the world.",
         answer: "Einerseits würde ich gern bleiben, andererseits will ich die Welt sehen.",
-        altAnswers: ["Einerseits möchte ich bleiben, andererseits will ich die Welt sehen.", "Einerseits würde ich gern bleiben, andererseits möchte ich die Welt sehen.", "Einerseits möchte ich gern bleiben, andererseits möchte ich die Welt sehen."],
+        altAnswers: ["Einerseits möchte ich bleiben, andererseits will ich die Welt sehen.", "Einerseits würde ich gern bleiben, andererseits möchte ich die Welt sehen.", "Einerseits möchte ich gern bleiben, andererseits möchte ich die Welt sehen.", "Einerseits würde ich gern bleiben, andererseits würde ich gern die Welt sehen.", "Einerseits möchte ich gern bleiben, andererseits will ich die Welt sehen."],
         explanation: "Opposing wishes: \"einerseits... andererseits\".",
       },
       {
@@ -183,7 +184,7 @@ export const DE_C1_U10: Lesson[] = [
         prompt: "Put the words in order to say: In Leipzig, by contrast, rents are lower.",
         words: ["In Leipzig", "sind", "die Mieten", "dagegen", "niedriger."],
         translation: "In Leipzig, by contrast, rents are lower.",
-        altOrders: [["In Leipzig", "dagegen", "sind", "die Mieten", "niedriger."]],
+        altOrders: [["In Leipzig", "dagegen", "sind", "die Mieten", "niedriger."], ["In Leipzig", "sind", "dagegen", "die Mieten", "niedriger."]],
         explanation: "\"Dagegen\" can follow the contrasted element, even in the Vorfeld (\"In Leipzig dagegen sind...\"), or stand in the Mittelfeld.",
       },
       {
@@ -214,7 +215,7 @@ export const DE_C1_U10: Lesson[] = [
     level: "DE-C1",
     number: 2,
     title: "Discourse Markers, Part 2 of 6",
-    summary: "Nuance and reformulate: allerdings, jedoch, freilich, wohlgemerkt, das heißt, mit anderen Worten, genauer gesagt, und zwar, beziehungsweise, ja sogar, wenn nicht gar.",
+    summary: "Add restrictions, rephrase and escalate a point with \"allerdings\", \"jedoch\", \"wohlgemerkt\", \"das heißt\", \"genauer gesagt\", \"und zwar\", \"beziehungsweise\", \"ja sogar\" and \"wenn nicht gar\".",
     duration: "18 min",
     sections: [
       {
@@ -222,7 +223,7 @@ export const DE_C1_U10: Lesson[] = [
         body: [
           "These markers add a restriction to what you've just said: \"allerdings\" (however, though), \"jedoch\" (however, more formal), \"freilich\" (admittedly, of course, mainly written and southern), \"wohlgemerkt\" (mind you).",
           "\"Allerdings\" is the most frequent and flexible: Vorfeld (\"Allerdings ist das teuer\") or Mittelfeld (\"Das ist allerdings teuer\"). In the Mittelfeld it sounds softer, like English though at the end: The flat is nice. It's expensive, though. As a one-word answer, \"Allerdings!\" means absolutely, you bet.",
-          "\"Jedoch\" can be a conjunction in position 0 (\"Er wollte kommen, jedoch hatte er keine Zeit\" or \"..., jedoch er hatte keine Zeit\" in older style) but in modern German it's normally an adverb with inversion or in the Mittelfeld: \"Er hatte jedoch keine Zeit.\" \"Wohlgemerkt\" usually stands alone between commas: \"Und das, wohlgemerkt, ohne Hilfe.\"",
+          "\"Jedoch\" can be a conjunction in position 0 (\"Er wollte kommen, jedoch er hatte keine Zeit\", now rare and old-fashioned), but in modern German it's normally an adverb, either in the Vorfeld with inversion (\"..., jedoch hatte er keine Zeit\") or in the Mittelfeld: \"Er hatte jedoch keine Zeit.\" \"Wohlgemerkt\" usually stands alone between commas: \"Und das, wohlgemerkt, ohne Hilfe.\"",
         ],
         examples: [
           { es: "Die Wohnung ist schön, allerdings ziemlich laut.", en: "The flat is nice, though pretty noisy." },
@@ -243,7 +244,7 @@ export const DE_C1_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Jonas asks: War das Konzert gut? Mia answers: Allerdings! What does she mean?",
+            question: "Jonas asks: \"War das Konzert gut?\" Mia answers: \"Allerdings!\" What does she mean?",
             options: ["It certainly was!", "It was, however...", "Only partly.", "Not at all."],
             correctIndex: 0,
             explanation: "As a stand-alone answer \"Allerdings!\" is emphatic agreement: absolutely, you bet.",
@@ -271,13 +272,13 @@ export const DE_C1_U10: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm coming tomorrow, at ten o'clock to be precise.",
             answer: "Ich komme morgen, und zwar um zehn Uhr.",
-            altAnswers: ["Ich komme morgen, genauer gesagt um zehn Uhr.", "Ich komme morgen, und zwar um zehn."],
+            altAnswers: ["Ich komme morgen, genauer gesagt um zehn Uhr.", "Ich komme morgen, und zwar um zehn.", "Ich komme morgen, genauer gesagt um zehn."],
             explanation: "\"Und zwar\" adds the specific detail after a general statement.",
           },
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Sales fell by 20 percent, [in other words] we're making a loss.",
+            en: "Sales fell by 20 per cent, [in other words] we're making a loss.",
             sentence: "Der Umsatz ist um 20 Prozent gesunken, ___, wir machen Verlust.",
             answer: "mit anderen Worten",
             altAnswers: ["anders gesagt", "anders ausgedrückt", "das heißt"],
@@ -288,7 +289,7 @@ export const DE_C1_U10: Lesson[] = [
       {
         heading: "Beziehungsweise, ja sogar, wenn nicht gar",
         body: [
-          "\"Beziehungsweise\" (bzw.) has two meanings. First, or rather, correcting yourself: \"Ich wohne in Köln, beziehungsweise in einem Vorort.\" Second, respectively, matching two lists in order: \"Die Kurse kosten 50 bzw. 80 Euro\" (50 and 80 euros respectively). It is NOT a fancy and/or: *\"Bitte bringen Sie Ihren Pass bzw. Ausweis\" is a frequent but criticised misuse; write \"oder\".",
+          "\"Beziehungsweise\" (bzw.) has two meanings. First, or rather, correcting yourself: \"Ich wohne in Köln, beziehungsweise in einem Vorort.\" Second, respectively, matching two lists in order: \"Die Kurse kosten 50 bzw. 80 Euro\" (50 and 80 euros respectively). It is NOT a fancy and/or: \"*Bitte bringen Sie Ihren Pass bzw. Ausweis*\" is a frequent but criticised misuse; write \"oder\".",
           "To escalate: \"ja sogar\" (indeed even, in fact even): \"Das ist teuer, ja sogar unbezahlbar.\" \"Wenn nicht gar\" (if not even) is more cautious: \"Das dauert Wochen, wenn nicht gar Monate.\"",
           "These are typical of written argument. In conversation people say \"oder besser gesagt\", \"eigentlich sogar\", \"vielleicht sogar\".",
         ],
@@ -368,11 +369,12 @@ export const DE_C1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "The plan is risky, in fact even irresponsible.",
         answer: "Der Plan ist riskant, ja sogar unverantwortlich.",
+        altAnswers: ["Der Plan ist riskant, ja sogar verantwortungslos.", "Der Plan ist riskant, sogar unverantwortlich."],
         explanation: "\"Ja sogar\" escalates the claim.",
       },
       {
         type: "multiple-choice",
-        question: "Which sentence uses bzw. correctly?",
+        question: "Which sentence uses \"bzw.\" correctly?",
         options: ["Die Zimmer kosten 80 bzw. 120 Euro pro Nacht.", "Bitte bringen Sie Brot bzw. Käse mit, beides ist gut.", "Ich trinke Kaffee bzw. Tee gleichzeitig.", "Wir brauchen Stühle bzw. Tische, und zwar beide."],
         correctIndex: 0,
         explanation: "\"Bzw.\" means respectively (two rooms, two prices) or or rather; it's not a general and/or.",
@@ -412,7 +414,7 @@ export const DE_C1_U10: Lesson[] = [
     level: "DE-C1",
     number: 3,
     title: "Transformations: Nuance with Allerdings and Zumindest",
-    summary: "Turn blunt statements into nuanced ones with allerdings, jedoch, zumindest, genauer gesagt and wenn nicht gar.",
+    summary: "Turn blunt statements into nuanced ones by adding restrictions and careful escalations with \"allerdings\", \"jedoch\", \"zumindest\", \"genauer gesagt\" and \"wenn nicht gar\".",
     duration: "16 min",
     sections: [
       {
@@ -515,7 +517,7 @@ export const DE_C1_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite the blunt claim Die App ist schlecht in a nuanced way: The app is useful, though not very user-friendly.",
+        prompt: "Rewrite the blunt claim \"Die App ist schlecht\" in a nuanced way. Translate into German.",
         source: "The app is useful, though not very user-friendly.",
         answer: "Die App ist nützlich, allerdings nicht sehr benutzerfreundlich.",
         altAnswers: ["Die App ist nützlich, allerdings nicht besonders benutzerfreundlich.", "Die App ist nützlich, jedoch nicht sehr benutzerfreundlich.", "Die App ist nützlich, aber nicht sehr benutzerfreundlich.", "Die App ist nützlich, allerdings wenig benutzerfreundlich."],
@@ -542,7 +544,7 @@ export const DE_C1_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Everyone came, [or more precisely] almost everyone.",
+        en: "Everyone came, or [more precisely] almost everyone.",
         sentence: "Alle sind gekommen, ___ fast alle.",
         answer: "genauer gesagt",
         explanation: "\"Genauer gesagt\" corrects an overstatement.",
@@ -558,7 +560,7 @@ export const DE_C1_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which version is the most nuanced rewrite of: Niemand nutzt den neuen Radweg.",
+        question: "Which version is the most nuanced rewrite of \"Niemand nutzt den neuen Radweg\"?",
         options: ["Der neue Radweg wird bisher zumindest kaum genutzt.", "Niemand nutzt den neuen Radweg, ja sogar keiner.", "Der neue Radweg wird von allen nicht genutzt.", "Niemand nutzt den neuen Radweg, und zwar niemand."],
         correctIndex: 0,
         explanation: "\"Bisher\", \"zumindest\" and \"kaum\" replace the overstatement \"niemand\" with a cautious claim.",
@@ -576,7 +578,7 @@ export const DE_C1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "The situation is difficult, in fact even critical.",
         answer: "Die Lage ist schwierig, ja sogar kritisch.",
-        altAnswers: ["Die Situation ist schwierig, ja sogar kritisch."],
+        altAnswers: ["Die Situation ist schwierig, ja sogar kritisch.", "Die Lage ist schwierig, sogar kritisch.", "Die Situation ist schwierig, sogar kritisch."],
         explanation: "\"Ja sogar\": confident escalation.",
       },
       {
@@ -600,7 +602,7 @@ export const DE_C1_U10: Lesson[] = [
     level: "DE-C1",
     number: 4,
     title: "Real-World Mission: Highlighting Key Points in a Report",
-    summary: "Summarise a team survey for your manager with Hervorzuheben ist, dass...; Es zeigt sich, dass...; Bemerkenswert ist...; insbesondere; vor allem.",
+    summary: "Summarise a team survey for your manager, highlighting the key findings with \"Hervorzuheben ist, dass...\", \"Es zeigt sich, dass...\", \"Bemerkenswert ist...\", \"insbesondere\" and \"vor allem\".",
     duration: "18 min",
     sections: [
       {
@@ -708,7 +710,7 @@ export const DE_C1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "It's remarkable that nobody wants to go back to the office full-time.",
         answer: "Bemerkenswert ist, dass niemand wieder ganz ins Büro zurück möchte.",
-        altAnswers: ["Bemerkenswert ist, dass niemand wieder in Vollzeit ins Büro zurückkehren möchte.", "Bemerkenswert ist, dass niemand wieder ganz ins Büro zurückkehren will.", "Bemerkenswert ist, dass keiner wieder ganz ins Büro zurück möchte.", "Es ist bemerkenswert, dass niemand wieder ganz ins Büro zurück möchte."],
+        altAnswers: ["Bemerkenswert ist, dass niemand wieder in Vollzeit ins Büro zurückkehren möchte.", "Bemerkenswert ist, dass niemand wieder ganz ins Büro zurückkehren will.", "Bemerkenswert ist, dass keiner wieder ganz ins Büro zurück möchte.", "Es ist bemerkenswert, dass niemand wieder ganz ins Büro zurück möchte.", "Bemerkenswert ist, dass niemand wieder ganz ins Büro zurückmöchte.", "Bemerkenswert ist, dass niemand wieder ganz ins Büro zurückwill."],
         explanation: "\"Bemerkenswert ist, dass...\" with the verb at the end.",
       },
       {
@@ -795,14 +797,14 @@ export const DE_C1_U10: Lesson[] = [
     level: "DE-C1",
     number: 5,
     title: "Discourse Markers, Part 3 of 6",
-    summary: "Formal cause and consequence: da, zumal, angesichts, infolgedessen, demzufolge, folglich, somit, mithin, insofern, sodass and the sentence relatives weshalb and weswegen.",
+    summary: "Express cause and consequence in formal German with \"da\", \"zumal\", \"angesichts\", \"infolgedessen\", \"folglich\", \"somit\", \"insofern\", \"sodass\" and the sentence relatives \"weshalb\" and \"weswegen\".",
     duration: "19 min",
     sections: [
       {
         heading: "Cause: da, zumal, angesichts",
         body: [
           "\"Weil\" is the everyday because. In formal writing \"da\" (since, as) is preferred, especially when the reason is already known or comes first: \"Da die Nachfrage gesunken ist, reduzieren wir die Produktion.\" Both send the verb to the end.",
-          "\"Zumal\" (all the more since, especially as) adds a reason that strengthens a claim already made: \"Ich bleibe heute zu Hause, zumal es regnet.\" It always comes second, after the main clause, and also sends the verb to the end. It's elegant and very Advanced.",
+          "\"Zumal\" (all the more since, especially as) adds a reason that strengthens a claim already made: \"Ich bleibe heute zu Hause, zumal es regnet.\" It always comes second, after the main clause, and also sends the verb to the end. It's elegant and typical of advanced writing.",
           "With a noun instead of a clause, use \"angesichts\" + genitive (in view of, given): \"Angesichts der hohen Kosten verzichten wir auf das Projekt.\" Other formal ones from Unit 7: \"aufgrund\", \"infolge\", \"wegen\".",
         ],
         examples: [
@@ -870,7 +872,7 @@ export const DE_C1_U10: Lesson[] = [
         body: [
           "\"Sodass\" (so that, with the result that) is a conjunction with the verb at the end: \"Es regnete stark, sodass das Spiel abgebrochen wurde.\" Split \"so... dass\" puts \"so\" before an adjective or adverb to stress the degree: \"Es regnete so stark, dass das Spiel abgebrochen wurde\" (so hard that).",
           "\"Weshalb\" and \"weswegen\" (which is why) can refer back to a whole clause, like the relative \"was\". They are perfect for writing a consequence in one flowing sentence: \"Der Zug hatte Verspätung, weshalb ich den Anschluss verpasst habe.\" Verb at the end.",
-          "Compare: \"..., deshalb habe ich den Anschluss verpasst\" (main clause, inversion) and \"..., weshalb ich den Anschluss verpasst habe\" (relative clause, verb last). Mixing them (*\"weshalb habe ich\") is a frequent slip.",
+          "Compare: \"..., deshalb habe ich den Anschluss verpasst\" (main clause, inversion) and \"..., weshalb ich den Anschluss verpasst habe\" (relative clause, verb last). Mixing them (\"*weshalb habe ich*\") is a frequent slip.",
         ],
         examples: [
           { es: "Der Server war überlastet, sodass niemand arbeiten konnte.", en: "The server was overloaded, so nobody could work." },
@@ -986,7 +988,7 @@ export const DE_C1_U10: Lesson[] = [
     level: "DE-C1",
     number: 6,
     title: "Discourse Markers, Part 4 of 6",
-    summary: "Concluding: zusammenfassend lässt sich sagen, abschließend, alles in allem, letztlich, unterm Strich, im Großen und Ganzen, kurzum, and why schlussendlich is criticised.",
+    summary: "Conclude a text or talk with \"zusammenfassend lässt sich sagen\", \"abschließend\", \"alles in allem\", \"letztlich\", \"unterm Strich\", \"im Großen und Ganzen\" and \"kurzum\", and know why \"schlussendlich\" is criticised.",
     duration: "17 min",
     sections: [
       {
@@ -1020,7 +1022,7 @@ export const DE_C1_U10: Lesson[] = [
             en: "[To sum up, it can be said] that the measures are working.",
             sentence: "___, dass die Maßnahmen wirken.",
             answer: "Zusammenfassend lässt sich sagen",
-            altAnswers: ["Zusammenfassend kann man sagen"],
+            altAnswers: ["Zusammenfassend kann man sagen", "Zusammenfassend kann man festhalten", "Zusammenfassend lässt sich festhalten"],
             explanation: "\"Zusammenfassend lässt sich sagen\" (sich lassen = can be done) + dass-clause.",
           },
         ],
@@ -1137,7 +1139,7 @@ export const DE_C1_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which marker is criticised in formal writing as redundant?",
+        question: "You're editing a formal report. Which marker would a style guide flag as redundant?",
         options: ["schlussendlich", "letztlich", "abschließend", "zusammenfassend"],
         correctIndex: 0,
         explanation: "\"Schlussendlich\" blends \"schließlich\" and \"endlich\"; it's common but frowned on in careful style.",
@@ -1147,6 +1149,7 @@ export const DE_C1_U10: Lesson[] = [
         prompt: "Put the words in order to say: Overall, the number of visitors has risen.",
         words: ["Insgesamt", "ist", "die Zahl", "der Besucher", "gestiegen."],
         translation: "Overall, the number of visitors has risen.",
+        altOrders: [["Die Zahl", "der Besucher", "ist", "insgesamt", "gestiegen."]],
         explanation: "\"Insgesamt\" in the Vorfeld, verb \"ist\" second.",
       },
       {
@@ -1155,6 +1158,7 @@ export const DE_C1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "It remains to be noted that the costs are rising.",
         answer: "Es bleibt festzuhalten, dass die Kosten steigen.",
+        altAnswers: ["Festzuhalten bleibt, dass die Kosten steigen."],
         explanation: "\"Es bleibt festzuhalten, dass...\": a formal concluding frame.",
       },
       {
@@ -1183,7 +1187,7 @@ export const DE_C1_U10: Lesson[] = [
     level: "DE-C1",
     number: 7,
     title: "Contrast Clinic: Schließlich, Endlich, Letztlich, Zuletzt",
-    summary: "Four words English renders as finally: schließlich (in the end / after all), endlich (at last), letztlich (ultimately), zuletzt (last, last time).",
+    summary: "Choose the right German for English finally: \"schließlich\" (in the end / after all), \"endlich\" (at last), \"letztlich\" (ultimately) or \"zuletzt\" (last, last time).",
     duration: "16 min",
     sections: [
       {
@@ -1238,7 +1242,7 @@ export const DE_C1_U10: Lesson[] = [
             prompt: "Translate into German.",
             source: "Let's ask her; she's the expert, after all.",
             answer: "Fragen wir sie, sie ist schließlich die Expertin.",
-            altAnswers: ["Lass uns sie fragen, sie ist schließlich die Expertin.", "Lasst uns sie fragen, sie ist schließlich die Expertin.", "Fragen wir sie, schließlich ist sie die Expertin.", "Lass uns sie fragen, schließlich ist sie die Expertin."],
+            altAnswers: ["Lass uns sie fragen, sie ist schließlich die Expertin.", "Lasst uns sie fragen, sie ist schließlich die Expertin.", "Fragen wir sie, schließlich ist sie die Expertin.", "Lass uns sie fragen, schließlich ist sie die Expertin.", "Lass sie uns fragen, sie ist schließlich die Expertin.", "Lasst sie uns fragen, sie ist schließlich die Expertin.", "Lass sie uns fragen, schließlich ist sie die Expertin."],
             explanation: "Justifying with an accepted reason: \"schließlich\" = after all.",
           },
           {
@@ -1256,7 +1260,7 @@ export const DE_C1_U10: Lesson[] = [
         body: [
           "\"Letztlich\" is ultimately, in the final analysis: it concludes an argument (Part 4). \"Zuletzt\" is last or last time: the final item in a list or the most recent occasion: \"Wann hast du ihn zuletzt gesehen?\" (when did you last see him?), \"Zuletzt möchte ich...\" (last of all, I'd like to...). \"Nicht zuletzt\" = not least.",
           "\"Am Ende\" is the neutral in the end, at the end, both for time (\"am Ende des Films\") and outcome (\"Am Ende hat er doch gewonnen\").",
-          "So the five ways to say finally: endlich (at last!), schließlich (eventually / after all), letztlich (ultimately), zuletzt (last / last time), am Ende (in the end).",
+          "So the five ways to say finally: \"endlich\" (at last!), \"schließlich\" (eventually / after all), \"letztlich\" (ultimately), \"zuletzt\" (last / last time), \"am Ende\" (in the end).",
         ],
         examples: [
           { es: "Wann warst du zuletzt beim Zahnarzt?", en: "When were you last at the dentist's?" },
@@ -1342,6 +1346,7 @@ export const DE_C1_U10: Lesson[] = [
         prompt: "Put the words in order to say: In the end he did win.",
         words: ["Am Ende", "hat", "er", "doch", "gewonnen."],
         translation: "In the end he did win.",
+        altOrders: [["Er", "hat", "am Ende", "doch", "gewonnen."]],
         explanation: "\"Am Ende\" in the Vorfeld + inversion; \"doch\" = after all, contrary to expectations.",
       },
       {
@@ -1374,15 +1379,15 @@ export const DE_C1_U10: Lesson[] = [
     level: "DE-C1",
     number: 8,
     title: "Error Hunt: Markers That Fool English Speakers",
-    summary: "Eventuell is not eventually, aktuell is not actually, also is not also, konsequent is not consequently, and bzw. is not and/or.",
+    summary: "Spot and fix the false friends that trip up English speakers: \"eventuell\" is not eventually, \"aktuell\" is not actually, \"also\" is not also, \"konsequent\" is not consequently, and \"bzw.\" is not and/or.",
     duration: "17 min",
     sections: [
       {
         heading: "Eventuell, aktuell, also",
         body: [
-          "These sentences were written by advanced learners and each has one false friend. *\"Wir haben eventuell eine Lösung gefunden\" meant to say eventually. But \"eventuell\" means possibly, perhaps: \"Ich komme eventuell später\" (I might come later). Eventually is \"schließlich\", \"am Ende\" or \"irgendwann\".",
-          "*\"Aktuell bin ich Engländer\" meant actually. \"Aktuell\" means current, currently (\"die aktuelle Lage\", \"aktuell arbeite ich in Köln\"). Actually is \"eigentlich\" (in fact, really: \"Eigentlich bin ich Engländer\") or \"tatsächlich\" (indeed, as a matter of fact).",
-          "*\"Ich mag Kaffee und also Tee\" meant also. \"Also\" means so, therefore, or well (to start or resume). Also, too is \"auch\": \"Ich mag auch Tee.\"",
+          "These sentences were written by advanced learners and each has one false friend. \"*Wir haben eventuell eine Lösung gefunden*\" meant to say eventually. But \"eventuell\" means possibly, perhaps: \"Ich komme eventuell später\" (I might come later). Eventually is \"schließlich\", \"am Ende\" or \"irgendwann\".",
+          "\"*Aktuell bin ich Engländer*\" meant actually. \"Aktuell\" means current, currently (\"die aktuelle Lage\", \"aktuell arbeite ich in Köln\"). Actually is \"eigentlich\" (in fact, really: \"Eigentlich bin ich Engländer\") or \"tatsächlich\" (indeed, as a matter of fact).",
+          "\"*Ich mag Kaffee und also Tee*\" meant also. \"Also\" means so, therefore, or well (to start or resume). Also, too is \"auch\": \"Ich mag auch Tee.\"",
         ],
         examples: [
           { es: "Eventuell muss ich am Samstag arbeiten.", en: "I might have to work on Saturday." },
@@ -1396,7 +1401,7 @@ export const DE_C1_U10: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the false friend and translate into German: *Eventuell hat er die Prüfung bestanden. (He eventually passed the exam.)",
+            prompt: "Fix the false friend and translate into German: \"*Eventuell hat er die Prüfung bestanden.*\" (He eventually passed the exam.)",
             source: "He eventually passed the exam.",
             answer: "Schließlich hat er die Prüfung bestanden.",
             altAnswers: ["Er hat die Prüfung schließlich bestanden.", "Am Ende hat er die Prüfung bestanden.", "Er hat schließlich die Prüfung bestanden.", "Letztendlich hat er die Prüfung bestanden."],
@@ -1405,7 +1410,7 @@ export const DE_C1_U10: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the false friend and translate into German: *Aktuell habe ich keine Lust. (Actually, I don't feel like it.)",
+            prompt: "Fix the false friend and translate into German: \"*Aktuell habe ich keine Lust.*\" (Actually, I don't feel like it.)",
             source: "Actually, I don't feel like it.",
             answer: "Eigentlich habe ich keine Lust.",
             altAnswers: ["Ich habe eigentlich keine Lust.", "Ehrlich gesagt habe ich keine Lust."],
@@ -1416,9 +1421,9 @@ export const DE_C1_U10: Lesson[] = [
       {
         heading: "Konsequent, sensibel, bekommen",
         body: [
-          "*\"Der Zug fiel aus, konsequent kamen wir zu spät\" meant consequently. \"Konsequent\" means consistent, rigorous, following through (\"Sie ist sehr konsequent bei der Erziehung\": she's consistent in bringing up her children). Consequently is \"folglich\", \"infolgedessen\", \"deshalb\".",
-          "*\"Das ist eine sensible Entscheidung\" meant sensible. \"Sensibel\" means sensitive (\"ein sensibles Kind\", \"sensible Daten\"). Sensible is \"vernünftig\" or \"sinnvoll\".",
-          "*\"Ich will Lehrer bekommen\" meant become. \"Bekommen\" means get, receive. Become is \"werden\": \"Ich will Lehrer werden.\" Not a marker, but the most famous false friend of all.",
+          "\"*Der Zug fiel aus, konsequent kamen wir zu spät*\" meant consequently. \"Konsequent\" means consistent, rigorous, following through (\"Sie ist sehr konsequent bei der Erziehung\": she's consistent in bringing up her children). Consequently is \"folglich\", \"infolgedessen\", \"deshalb\".",
+          "\"*Das ist eine sensible Entscheidung*\" meant sensible. \"Sensibel\" means sensitive (\"ein sensibles Kind\", \"sensible Daten\"). Sensible is \"vernünftig\" or \"sinnvoll\".",
+          "\"*Ich will Lehrer bekommen*\" meant become. \"Bekommen\" means get, receive. Become is \"werden\": \"Ich will Lehrer werden.\" Not a marker, but the most famous false friend of all.",
         ],
         examples: [
           { es: "Der Zug fiel aus, folglich kamen wir zu spät.", en: "The train was cancelled; consequently, we were late." },
@@ -1432,7 +1437,7 @@ export const DE_C1_U10: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the false friend and translate into German: *Das ist eine sensible Idee. (That's a sensible idea.)",
+            prompt: "Fix the false friend and translate into German: \"*Das ist eine sensible Idee.*\" (That's a sensible idea.)",
             source: "That's a sensible idea.",
             answer: "Das ist eine vernünftige Idee.",
             altAnswers: ["Das ist eine sinnvolle Idee.", "Das ist eine kluge Idee."],
@@ -1450,20 +1455,20 @@ export const DE_C1_U10: Lesson[] = [
       {
         heading: "Schließlich and bzw.",
         body: [
-          "*\"Schließlich, ich möchte mich bedanken\" for finally in a speech: two problems. Word order (the verb must follow: \"Schließlich möchte ich mich bedanken\"), and \"schließlich\" here could be misread as after all. In speeches, \"zum Schluss\" or \"abschließend\" is clearer.",
-          "*\"Bitte schicken Sie uns Ihren Lebenslauf bzw. Zeugnisse\" for and/or. \"Beziehungsweise\" means or rather or respectively (Part 2). For and/or, write \"und / oder\" or just \"und\" or \"oder\": \"Lebenslauf und Zeugnisse\".",
+          "\"*Schließlich, ich möchte mich bedanken*\" for finally in a speech: two problems. Word order (the verb must follow: \"Schließlich möchte ich mich bedanken\"), and \"schließlich\" here could be misread as after all. In speeches, \"zum Schluss\" or \"abschließend\" is clearer.",
+          "\"*Bitte schicken Sie uns Ihren Lebenslauf bzw. Zeugnisse*\" for and/or. \"Beziehungsweise\" means or rather or respectively (Part 2). For and/or, write \"und / oder\" or just \"und\" or \"oder\": \"Lebenslauf und Zeugnisse\".",
         ],
         examples: [
           { es: "Zum Schluss möchte ich mich bei allen bedanken.", en: "Finally, I'd like to thank everyone." },
           { es: "Bitte schicken Sie uns Ihren Lebenslauf und Ihre Zeugnisse.", en: "Please send us your CV and references." },
-          { es: "Die Kurse finden montags bzw. donnerstags statt.", en: "The courses take place on Mondays and Thursdays respectively." },
+          { es: "Der Anfänger- und der Fortgeschrittenenkurs finden montags bzw. donnerstags statt.", en: "The beginners' and advanced courses take place on Mondays and Thursdays respectively." },
           { es: "Sie können per Karte oder bar bezahlen.", en: "You can pay by card or cash." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the error and translate into German: *Schließlich, ich möchte Ihnen danken. (Finally, I'd like to thank you.)",
+            prompt: "Fix the error and translate into German: \"*Schließlich, ich möchte Ihnen danken.*\" (Finally, I'd like to thank you.)",
             source: "Finally, I'd like to thank you.",
             answer: "Zum Schluss möchte ich Ihnen danken.",
             altAnswers: ["Abschließend möchte ich Ihnen danken.", "Zum Schluss möchte ich mich bei Ihnen bedanken.", "Abschließend möchte ich mich bei Ihnen bedanken.", "Schließlich möchte ich Ihnen danken.", "Zum Schluss möchte ich euch danken.", "Abschließend möchte ich euch danken."],
@@ -1484,7 +1489,7 @@ export const DE_C1_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the false friend and translate into German: *Ich mag also Jazz. (I like jazz too.)",
+        prompt: "Fix the false friend and translate into German: \"*Ich mag also Jazz.*\" (I like jazz too.)",
         source: "I like jazz too.",
         answer: "Ich mag auch Jazz.",
         altAnswers: ["Jazz mag ich auch.", "Ich mag Jazz auch."],
@@ -1493,7 +1498,7 @@ export const DE_C1_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the false friend and translate into German: *Er will Pilot bekommen. (He wants to become a pilot.)",
+        prompt: "Fix the false friend and translate into German: \"*Er will Pilot bekommen.*\" (He wants to become a pilot.)",
         source: "He wants to become a pilot.",
         answer: "Er will Pilot werden.",
         altAnswers: ["Er möchte Pilot werden."],
@@ -1511,7 +1516,7 @@ export const DE_C1_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the false friend and translate into German: *Aktuell ist das gar nicht so schwer. (Actually, it's not that hard at all.)",
+        prompt: "Fix the false friend and translate into German: \"*Aktuell ist das gar nicht so schwer.*\" (Actually, it's not that hard at all.)",
         source: "Actually, it's not that hard at all.",
         answer: "Eigentlich ist das gar nicht so schwer.",
         altAnswers: ["Das ist eigentlich gar nicht so schwer.", "Eigentlich ist es gar nicht so schwer.", "Es ist eigentlich gar nicht so schwer.", "Tatsächlich ist das gar nicht so schwer."],
@@ -1528,10 +1533,10 @@ export const DE_C1_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the false friend and translate into German: *Das Wetter war schlecht, konsequent blieben wir zu Hause. (The weather was bad; consequently, we stayed at home.)",
+        prompt: "Fix the false friend and translate into German: \"*Das Wetter war schlecht, konsequent blieben wir zu Hause.*\" (The weather was bad; consequently, we stayed at home.)",
         source: "The weather was bad; consequently, we stayed at home.",
         answer: "Das Wetter war schlecht, folglich blieben wir zu Hause.",
-        altAnswers: ["Das Wetter war schlecht, folglich sind wir zu Hause geblieben.", "Das Wetter war schlecht, deshalb blieben wir zu Hause.", "Das Wetter war schlecht, deshalb sind wir zu Hause geblieben.", "Das Wetter war schlecht, daher blieben wir zu Hause.", "Das Wetter war schlecht, daher sind wir zu Hause geblieben."],
+        altAnswers: ["Das Wetter war schlecht, folglich sind wir zu Hause geblieben.", "Das Wetter war schlecht, deshalb blieben wir zu Hause.", "Das Wetter war schlecht, deshalb sind wir zu Hause geblieben.", "Das Wetter war schlecht, daher blieben wir zu Hause.", "Das Wetter war schlecht, daher sind wir zu Hause geblieben.", "Das Wetter war schlecht, folglich blieben wir zuhause."],
         explanation: "Consequently = \"folglich\" / \"deshalb\" + inversion.",
       },
       {
@@ -1575,7 +1580,7 @@ export const DE_C1_U10: Lesson[] = [
     level: "DE-C1",
     number: 9,
     title: "Discourse Markers, Part 5 of 6",
-    summary: "Spoken markers and what they do: also, na ja, halt, sozusagen, quasi, irgendwie, genau, ach so, ne / oder / gell, and weil with the verb second.",
+    summary: "Understand and use the markers of spoken German, \"also\", \"na ja\", \"halt\", \"sozusagen\", \"quasi\", \"irgendwie\", \"genau\", \"ach so\" and the tags \"ne\", \"oder\" and \"gell\", and know when \"weil\" takes the verb second.",
     duration: "17 min",
     sections: [
       {
@@ -1604,7 +1609,7 @@ export const DE_C1_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Leon asks: Wie war die Party? You want to show you weren't impressed. What do you say?",
+            question: "Leon asks: \"Wie war die Party?\" You want to show you weren't impressed. What do you say?",
             options: ["Na ja, ging so.", "Genau, super!", "Also gut!", "Ach so!"],
             correctIndex: 0,
             explanation: "\"Na ja\" + \"ging so\" signals a lukewarm judgement.",
@@ -1615,7 +1620,7 @@ export const DE_C1_U10: Lesson[] = [
         heading: "Reacting: genau, ach so, halt",
         body: [
           "\"Genau\" is the all-purpose German backchannel: exactly, right, that's it. Germans say it constantly to show they're following: \"Du meinst den Laden am Markt? Genau.\" \"Ach so\" means oh I see (when you finally understand): \"Ach so, du meinst morgen!\" \"Ach so?\" with rising intonation is oh really?",
-          "\"Halt\" (mainly north and centre; \"eben\" in standard and the south) expresses resignation: that's just how it is. \"Das ist halt so.\" \"Dann nehmen wir halt den Bus\" (then we'll just have to take the bus). It's a modal particle, so it sits in the Mittelfeld, never first.",
+          "\"Halt\" (colloquial, originally southern but now heard all over Germany; \"eben\" is the more standard equivalent, especially in the north) expresses resignation: that's just how it is. \"Das ist halt so.\" \"Dann nehmen wir halt den Bus\" (then we'll just have to take the bus). It's a modal particle, so it sits in the Mittelfeld, never first.",
         ],
         examples: [
           { es: "Treffen wir uns um acht am Bahnhof? Genau.", en: "Are we meeting at eight at the station? That's right." },
@@ -1721,12 +1726,12 @@ export const DE_C1_U10: Lesson[] = [
         prompt: "Rewrite in written style and translate into German: We stayed at home because it was raining.",
         source: "We stayed at home because it was raining.",
         answer: "Wir sind zu Hause geblieben, weil es geregnet hat.",
-        altAnswers: ["Wir blieben zu Hause, weil es regnete.", "Wir sind zu Hause geblieben, denn es hat geregnet.", "Wir blieben zu Hause, denn es regnete.", "Wir sind zu Hause geblieben, da es geregnet hat."],
+        altAnswers: ["Wir blieben zu Hause, weil es regnete.", "Wir sind zu Hause geblieben, denn es hat geregnet.", "Wir blieben zu Hause, denn es regnete.", "Wir sind zu Hause geblieben, da es geregnet hat.", "Wir sind zuhause geblieben, weil es geregnet hat."],
         explanation: "In writing: \"weil\" + verb at the end; spoken \"weil es hat geregnet\" is not for written texts.",
       },
       {
         type: "multiple-choice",
-        question: "Your colleague says: Das Meeting ist also um drei? It is. What do you reply?",
+        question: "Your colleague says: \"Das Meeting ist also um drei?\" It is. What do you reply?",
         options: ["Genau.", "Ach so.", "Na ja.", "Halt."],
         correctIndex: 0,
         explanation: "\"Genau\" confirms: exactly, that's right.",
@@ -1773,14 +1778,14 @@ export const DE_C1_U10: Lesson[] = [
     level: "DE-C1",
     number: 10,
     title: "Discourse Markers, Part 6 of 6",
-    summary: "Where connectors go: position 0 (und, aber, denn), the Vorfeld with inversion (deshalb, trotzdem, allerdings) and the Mittelfeld (jedoch, nämlich, aber).",
+    summary: "Put every connector in the right place: position 0 (\"und\", \"aber\", \"denn\"), the Vorfeld with inversion (\"deshalb\", \"trotzdem\", \"allerdings\") or the Mittelfeld (\"jedoch\", \"nämlich\", \"aber\").",
     duration: "18 min",
     sections: [
       {
         heading: "Position 0: und, aber, oder, denn, sondern",
         body: [
           "German connectors fall into three groups by position. Group one, the coordinating conjunctions \"und\", \"aber\", \"oder\", \"denn\", \"sondern\" (and \"doch\" as but), stand in position 0: outside the clause, so the clause after them keeps its normal order (subject, then verb): \"..., denn ich habe keine Zeit\", \"..., aber er kommt nicht\".",
-          "\"Denn\" (because, for) is position 0; \"weil\" sends the verb to the end. \"Denn\" can't start a sentence answering a why-question (\"Warum? Weil...\"), and it never comes first before the main clause: *\"Denn ich müde bin, ...\".",
+          "\"Denn\" (because, for) is position 0; \"weil\" sends the verb to the end. \"Denn\" can't start a sentence answering a why-question (\"Warum? Weil...\"), and it never comes first before the main clause: \"*Denn ich müde bin, ...*\".",
           "\"Sondern\" (but rather) only follows a negative: \"Nicht ich, sondern Julia hat angerufen.\"",
         ],
         examples: [
@@ -1813,7 +1818,7 @@ export const DE_C1_U10: Lesson[] = [
         body: [
           "Group two are adverbs: \"deshalb\", \"deswegen\", \"daher\", \"trotzdem\", \"dennoch\", \"allerdings\", \"außerdem\", \"folglich\", \"sonst\", \"dann\". They are part of the clause. In first position they fill the Vorfeld, and the verb comes immediately after: \"..., deshalb bleibe ich zu Hause.\"",
           "Because they're full sentence parts, they can also go into the Mittelfeld: \"..., ich bleibe deshalb zu Hause.\" This is often more elegant in a sequence of sentences and avoids monotonous inversion.",
-          "Classic error: treating these like English therefore, however: *\"Deshalb ich bleibe\", *\"Trotzdem er hat gewonnen\". Remember: after a Vorfeld adverb, verb first.",
+          "Classic error: treating these like English therefore, however: \"*Deshalb ich bleibe*\", \"*Trotzdem er hat gewonnen*\". Remember: after a Vorfeld adverb, verb first.",
         ],
         examples: [
           { es: "Es regnet, deshalb bleiben wir drinnen.", en: "It's raining, so we're staying inside." },
@@ -1844,9 +1849,9 @@ export const DE_C1_U10: Lesson[] = [
       {
         heading: "The Mittelfeld: jedoch, nämlich, aber",
         body: [
-          "Group three prefers or requires the Mittelfeld. \"Nämlich\" (you see, because, namely) explains the reason for what was just said, and it is NEVER in first position: \"Ich komme heute nicht. Ich bin nämlich krank\" (I'm ill, you see). *\"Nämlich bin ich krank\" is wrong.",
+          "Group three prefers or requires the Mittelfeld. \"Nämlich\" (you see, because, namely) explains the reason for what was just said, and it is NEVER in first position: \"Ich komme heute nicht. Ich bin nämlich krank\" (I'm ill, you see). \"*Nämlich bin ich krank*\" is wrong.",
           "\"Jedoch\" (however) is most natural in the Mittelfeld: \"Das ist jedoch nicht alles.\" It can also take the Vorfeld (\"Jedoch ist das nicht alles\"), which sounds more formal.",
-          "\"Aber\" can also leave position 0 and go into the Mittelfeld, which adds contrast to the element before it: \"Ich aber bleibe\" (I, however, am staying), \"Das Wetter war schlecht, die Stimmung aber war super.\" Very common in writing and careful speech.",
+          "\"Aber\" can also leave position 0 and stand right after the element it contrasts, together with it in the Vorfeld (\"Ich aber bleibe\": I, however, am staying; \"Das Wetter war schlecht, die Stimmung aber war super\"), or further back in the Mittelfeld (\"Die Stimmung war aber super\"). Very common in writing and careful speech.",
         ],
         examples: [
           { es: "Ich kann morgen nicht. Ich habe nämlich einen Arzttermin.", en: "I can't make it tomorrow. I've got a doctor's appointment, you see." },
@@ -1871,7 +1876,7 @@ export const DE_C1_U10: Lesson[] = [
             question: "What does it mean?",
             options: ["The others were tired, but she wanted to keep dancing.", "The others were tired, and so was she, but she danced.", "She was tired, but the others wanted to dance.", "The others were tired because she kept dancing."],
             correctIndex: 0,
-            explanation: "\"Sie aber\": \"aber\" in the Mittelfeld contrasts her with the others.",
+            explanation: "\"Sie aber\": \"aber\" right after the subject contrasts her with the others.",
           },
         ],
       },
@@ -1909,8 +1914,8 @@ export const DE_C1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "The others laughed; he, however, remained serious.",
         answer: "Die anderen lachten, er aber blieb ernst.",
-        altAnswers: ["Die anderen haben gelacht, er aber ist ernst geblieben.", "Die anderen lachten, er jedoch blieb ernst.", "Die anderen lachten, er blieb jedoch ernst."],
-        explanation: "\"Aber\" after the subject in the Mittelfeld highlights the contrast.",
+        altAnswers: ["Die anderen haben gelacht, er aber ist ernst geblieben.", "Die anderen lachten, er jedoch blieb ernst.", "Die anderen lachten, er blieb jedoch ernst.", "Die anderen lachten, er blieb aber ernst."],
+        explanation: "\"Aber\" placed right after the subject \"er\" highlights the contrast; in position 0 (\"aber er blieb ernst\") it would just mean but.",
       },
       {
         type: "translate",
@@ -1962,7 +1967,7 @@ export const DE_C1_U10: Lesson[] = [
     level: "DE-C1",
     number: 11,
     title: "Build It: A Cohesive Text",
-    summary: "Link sentences with reference words: dieser / jener, Ersterer / Letzterer, derselbe, besagter, Letzteres, hierbei, dabei, eine solche Maßnahme.",
+    summary: "Write a cohesive text by linking sentences with reference words such as \"dieser\", \"Ersterer\" / \"Letzterer\", \"derselbe\", \"besagter\", \"Letzteres\", \"hierbei\", \"dabei\" and \"eine solche Maßnahme\".",
     duration: "19 min",
     sections: [
       {
@@ -2059,8 +2064,8 @@ export const DE_C1_U10: Lesson[] = [
           {
             type: "speak",
             text: "Eine solche Maßnahme wäre längst überfällig.",
-            prompt: "Say it in German: A measure like this is long overdue.",
-            explanation: "\"Eine solche Maßnahme\" refers back to a measure just described; Konjunktiv II softens the claim.",
+            prompt: "Say it in German: A measure like this would be long overdue.",
+            explanation: "\"Eine solche Maßnahme\" refers back to a measure just described; Konjunktiv II \"wäre\" presents it as a proposal that hasn't happened yet.",
           },
         ],
       },
@@ -2105,14 +2110,14 @@ export const DE_C1_U10: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The company is cutting jobs. In doing so, it wants to save money.",
+        source: "The company is cutting jobs. By doing so, it wants to save money.",
         answer: "Die Firma baut Stellen ab. Damit will sie Geld sparen.",
         altAnswers: ["Das Unternehmen baut Stellen ab. Damit will es Geld sparen.", "Die Firma baut Stellen ab. Dadurch will sie Geld sparen.", "Das Unternehmen baut Stellen ab. Dadurch will es Geld sparen.", "Die Firma streicht Stellen. Damit will sie Geld sparen."],
         explanation: "\"Damit\" / \"dadurch\" refer back to the action as a means.",
       },
       {
         type: "multiple-choice",
-        question: "Which word best links: Er behauptet, er sei pünktlich. ___ kommt er jeden Tag zu spät.",
+        question: "Which word best fills the gap: \"Er behauptet, er sei pünktlich. ___ kommt er jeden Tag zu spät.\"",
         options: ["Dabei", "Damit", "Letzteres", "Derselbe"],
         correctIndex: 0,
         explanation: "\"Dabei\" = and yet, contradicting the claim.",
@@ -2154,7 +2159,7 @@ export const DE_C1_U10: Lesson[] = [
     level: "DE-C1",
     number: 12,
     title: "Spiral Review: Markers, Concession and Nominalization",
-    summary: "Recombine discourse markers with concessive structures (zwar... aber, obwohl, trotz) and nominal style in an opinion column.",
+    summary: "Write fair, well-structured opinion paragraphs by combining discourse markers with concession (\"zwar... aber\", \"obwohl\", \"trotz\") and nominal style.",
     duration: "18 min",
     sections: [
       {
@@ -2280,6 +2285,7 @@ export const DE_C1_U10: Lesson[] = [
         prompt: "Put the words in order to say: Nevertheless, I think the decision is right.",
         words: ["Dennoch", "halte", "ich", "die Entscheidung", "für", "richtig."],
         translation: "Nevertheless, I think the decision is right.",
+        altOrders: [["Ich", "halte", "die Entscheidung", "dennoch", "für", "richtig."], ["Ich", "halte", "dennoch", "die Entscheidung", "für", "richtig."]],
         explanation: "\"Dennoch\" + inversion; \"halten für\" + adjective.",
       },
       {

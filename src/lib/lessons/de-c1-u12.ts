@@ -23,7 +23,7 @@ export const DE_C1_U12: Lesson[] = [
     level: "DE-C1",
     number: 1,
     title: "Supposition and Hearsay, Part 1 of 6",
-    summary: "Futur I and II for guesses, graded with wohl, sicher, schon and bestimmt, and why English will is often not the best translation.",
+    summary: "Make guesses about the present and the past with Futur I and II, grade them with \"wohl\", \"sicher\", \"schon\" and \"bestimmt\", and know when the present tense is more natural than \"werden\".",
     duration: "18 min",
     sections: [
       {
@@ -38,7 +38,7 @@ export const DE_C1_U12: Lesson[] = [
           { es: "Er wird wohl noch im Büro sein.", en: "He'll probably still be at the office." },
           { es: "Sie ist bestimmt schon zu Hause.", en: "She's bound to be home by now." },
           { es: "Keine Sorge, er wird schon kommen.", en: "Don't worry, he'll come." },
-          { es: "Das Restaurant ist wohl geschlossen.", en: "The restaurant must be closed, I suppose." },
+          { es: "Das Restaurant ist wohl geschlossen.", en: "I suppose the restaurant is closed." },
         ],
         checkpoint: [
           {
@@ -215,7 +215,7 @@ export const DE_C1_U12: Lesson[] = [
     level: "DE-C1",
     number: 2,
     title: "Supposition and Hearsay, Part 2 of 6",
-    summary: "The scale of modal supposition: muss, dürfte, wird, müsste, kann, könnte, mag, with the perfect infinitive for the past.",
+    summary: "Say how sure you are with the modal scale \"muss\", \"dürfte\", \"wird\", \"müsste\", \"kann\", \"könnte\", \"mag\", and use the perfect infinitive for guesses about the past.",
     duration: "19 min",
     sections: [
       {
@@ -240,7 +240,7 @@ export const DE_C1_U12: Lesson[] = [
             prompt: "Translate into German.",
             source: "That's very probably the reason.",
             answer: "Das dürfte der Grund sein.",
-            altAnswers: ["Das ist wahrscheinlich der Grund.", "Das wird der Grund sein."],
+            altAnswers: ["Das ist wahrscheinlich der Grund.", "Das wird der Grund sein.", "Das ist vermutlich der Grund.", "Das dürfte wohl der Grund sein."],
             explanation: "\"Dürfte\" = very probably, not be allowed.",
           },
           {
@@ -367,7 +367,7 @@ export const DE_C1_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does Die Firma dürfte bald neue Stellen schaffen mean?",
+        question: "What does \"Die Firma dürfte bald neue Stellen schaffen\" mean?",
         options: ["The company is likely to create new jobs soon.", "The company is allowed to create new jobs soon.", "The company should be forced to create jobs.", "The company may not create new jobs."],
         correctIndex: 0,
         explanation: "\"Dürfte\" in supposition = very probably.",
@@ -413,8 +413,8 @@ export const DE_C1_U12: Lesson[] = [
     slug: "c1-transform-wahrscheinlich-zu-duerfte",
     level: "DE-C1",
     number: 3,
-    title: "Transformations: From Wahrscheinlich to Er Dürfte",
-    summary: "Turn sentences with wahrscheinlich, vielleicht and sicher into modal and Futur II suppositions, and back again.",
+    title: "Transformations: From Wahrscheinlich to Er dürfte",
+    summary: "Turn sentences with \"wahrscheinlich\", \"vielleicht\" and \"sicher\" into suppositions with modal verbs and Futur II, and back again.",
     duration: "17 min",
     sections: [
       {
@@ -433,7 +433,7 @@ export const DE_C1_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite Sie ist wahrscheinlich im Urlaub with dürfte, and translate: She's very probably on holiday.",
+            prompt: "Rewrite \"Sie ist wahrscheinlich im Urlaub\" with \"dürfte\". Translate into German.",
             source: "She's very probably on holiday.",
             answer: "Sie dürfte im Urlaub sein.",
             altAnswers: ["Sie dürfte in Urlaub sein."],
@@ -441,7 +441,7 @@ export const DE_C1_U12: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Rewrite Er weiß es vielleicht with a modal: He might know it.",
+            prompt: "Rewrite \"Er weiß es vielleicht\" with a modal. Put the words in order to say: He might know it.",
             words: ["Er", "könnte", "es", "wissen."],
             translation: "He might know it.",
             explanation: "\"Vielleicht\" → \"könnte\" + infinitive.",
@@ -464,15 +464,15 @@ export const DE_C1_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite Er hat den Schlüssel sicher verloren with müssen: He must have lost the key.",
+            prompt: "Rewrite \"Er hat den Schlüssel sicher verloren\" with \"müssen\". Translate into German.",
             source: "He must have lost the key.",
             answer: "Er muss den Schlüssel verloren haben.",
             explanation: "\"Sicher\" → \"muss\" + perfect infinitive.",
           },
           {
             type: "fill-blank",
-            prompt: "Write the German for the bold words.",
-            en: "Rewrite Sie ist vielleicht krank geworden: She [might have fallen] ill.",
+            prompt: "Rewrite \"Sie ist vielleicht krank geworden\" with \"können\". Write the German for the bold words.",
+            en: "She [might] have fallen ill.",
             sentence: "Sie ___ krank geworden sein.",
             answer: "könnte",
             explanation: "\"Vielleicht\" → \"könnte\"; \"geworden sein\" is the perfect infinitive with \"sein\".",
@@ -494,7 +494,7 @@ export const DE_C1_U12: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence means the same as: Er dürfte die Nachricht gelesen haben?",
+            question: "Which sentence means the same as \"Er dürfte die Nachricht gelesen haben\"?",
             options: ["Er hat die Nachricht sehr wahrscheinlich gelesen.", "Er darf die Nachricht lesen.", "Er hat die Nachricht lesen dürfen.", "Er soll die Nachricht gelesen haben."],
             correctIndex: 0,
             explanation: "\"Dürfte\" + perfect infinitive = very probably did.",
@@ -520,7 +520,7 @@ export const DE_C1_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite Er ist sicher sehr reich with müssen: He must be very rich.",
+        prompt: "Rewrite \"Er ist sicher sehr reich\" with \"müssen\". Translate into German.",
         source: "He must be very rich.",
         answer: "Er muss sehr reich sein.",
         explanation: "\"Sicher\" → \"muss\" + infinitive.",
@@ -528,24 +528,24 @@ export const DE_C1_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite Sie hat es vielleicht nicht gehört with können: She might not have heard it.",
+        prompt: "Rewrite \"Sie hat es vielleicht nicht gehört\" with \"können\". Translate into German.",
         source: "She might not have heard it.",
         answer: "Sie könnte es nicht gehört haben.",
-        altAnswers: ["Sie hat es vielleicht nicht gehört.", "Vielleicht hat sie es nicht gehört."],
-        explanation: "\"Könnte\" + perfect infinitive.",
+        altAnswers: ["Sie könnte es überhört haben."],
+        explanation: "\"Könnte\" + perfect infinitive \"gehört haben\". Careful: \"Sie kann es nicht gehört haben\" would mean she can't have heard it (impossible).",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite Das ist wahrscheinlich ein Missverständnis with dürfen: That's very probably a misunderstanding.",
+        prompt: "Rewrite \"Das ist wahrscheinlich ein Missverständnis\" with \"dürfen\". Translate into German.",
         source: "That's very probably a misunderstanding.",
         answer: "Das dürfte ein Missverständnis sein.",
         explanation: "\"Wahrscheinlich\" → \"dürfte\".",
       },
       {
         type: "fill-blank",
-        prompt: "Write the German for the bold words.",
-        en: "Rewrite Er hat es wohl vergessen with Futur II: He [will have forgotten it].",
+        prompt: "Rewrite \"Er hat es wohl vergessen\" with Futur II. Write the German for the bold words.",
+        en: "He [will have forgotten it].",
         sentence: "Er ___.",
         answer: "wird es vergessen haben",
         altAnswers: ["wird es wohl vergessen haben"],
@@ -562,7 +562,7 @@ export const DE_C1_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which adverb sentence means the same as: Er könnte schon gegangen sein?",
+        question: "Which adverb sentence means the same as \"Er könnte schon gegangen sein\"?",
         options: ["Er ist vielleicht schon gegangen.", "Er ist sicher schon gegangen.", "Er ist schon gegangen.", "Er wollte schon gehen."],
         correctIndex: 0,
         explanation: "\"Könnte\" = \"vielleicht\".",
@@ -600,8 +600,8 @@ export const DE_C1_U12: Lesson[] = [
     slug: "c1-dialogue-lab-was-mag-passiert-sein",
     level: "DE-C1",
     number: 4,
-    title: "Dialogue Lab: Was Mag Da Wohl Passiert Sein?",
-    summary: "Friends speculate about a guest who hasn't turned up: Wo bleibt er bloß? Er wird verschlafen haben. Das dürfte der Stau sein. Ich wette, dass...",
+    title: "Dialogue Lab: Was mag da wohl passiert sein?",
+    summary: "Follow friends speculating about a guest who hasn't turned up, and learn to wonder, guess and bet with \"Wo bleibt er bloß?\", \"Er wird verschlafen haben\", \"Das dürfte der Stau sein\" and \"Ich wette, dass...\".",
     duration: "17 min",
     sections: [
       {
@@ -640,7 +640,7 @@ export const DE_C1_U12: Lesson[] = [
         heading: "Scene 2: Grading the guesses",
         body: [
           "Mia: \"Das dürfte der Stau sein. Ich hab's im Radio gehört: Unfall vor dem Elbtunnel.\" Lena: \"Aber er hätte doch anrufen können!\" Leon: \"Vielleicht ist sein Akku leer. Er kann doch nicht schon wieder sein Handy vergessen haben!\"",
-          "Mia's \"Das dürfte... sein\" is a confident guess with evidence. Lena reproaches with \"hätte... anrufen können\" (could have called: the Upper-intermediate Konjunktiv II past). Leon's \"Er kann doch nicht schon wieder... vergessen haben!\" uses \"kann nicht\" + perfect infinitive with \"doch\" for disbelief: he can't have forgotten again, surely!",
+          "Mia's \"Das dürfte... sein\" is a confident guess with evidence. Lena reproaches with \"hätte... anrufen können\" (could have called: the Konjunktiv II past from B2). Leon's \"Er kann doch nicht schon wieder... vergessen haben!\" uses \"kann nicht\" + perfect infinitive with \"doch\" for disbelief: he can't have forgotten again, surely!",
         ],
         examples: [
           { es: "Das dürfte der Stau sein.", en: "That's very probably the traffic." },
@@ -721,7 +721,7 @@ export const DE_C1_U12: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[That's very probably] the reason.",
+        en: "That [is very probably] the reason.",
         sentence: "Das ___ der Grund sein.",
         answer: "dürfte",
         explanation: "\"Dürfte\" = very probably.",
@@ -785,7 +785,7 @@ export const DE_C1_U12: Lesson[] = [
     level: "DE-C1",
     number: 5,
     title: "Supposition and Hearsay, Part 3 of 6",
-    summary: "Hearsay sollen: Er soll sehr reich sein; Der Täter soll ins Ausland geflohen sein. Reportedly and allegedly vs sollen of obligation.",
+    summary: "Report what others say without vouching for it with hearsay \"sollen\" (\"Er soll sehr reich sein\", \"Der Täter soll ins Ausland geflohen sein\"), and tell it apart from \"sollen\" of obligation.",
     duration: "18 min",
     sections: [
       {
@@ -814,7 +814,7 @@ export const DE_C1_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does Er soll im Lotto gewonnen haben mean?",
+            question: "What does \"Er soll im Lotto gewonnen haben\" mean?",
             options: ["He's said to have won the lottery.", "He should have won the lottery.", "He's supposed to win the lottery.", "He must win the lottery."],
             correctIndex: 0,
             explanation: "\"Soll\" + perfect infinitive = reportedly did.",
@@ -825,7 +825,7 @@ export const DE_C1_U12: Lesson[] = [
         heading: "Hearsay about the past",
         body: [
           "For reported past events: \"sollen\" (present) + perfect infinitive. \"Der Täter soll ins Ausland geflohen sein\" (the culprit is said to have fled abroad). \"Sie soll das Geld unterschlagen haben\" (she allegedly embezzled the money).",
-          "The modal stays in the present because the reporting (people say) is now; the event is past, so the infinitive is perfect. Don't put \"sollen\" into the Präteritum or Perfekt for this: *\"Er sollte reich gewesen sein\" and *\"Er hat reich sein sollen\" don't express hearsay.",
+          "The modal stays in the present because the reporting (people say) is now; the event is past, so the infinitive is perfect. Don't put \"sollen\" into the Präteritum or Perfekt for this: \"*Er sollte reich gewesen sein*\" and \"*Er hat reich sein sollen*\" don't express hearsay.",
           "Passive works too: \"Das Bild soll gestohlen worden sein\" (the painting is said to have been stolen).",
         ],
         examples: [
@@ -950,6 +950,7 @@ export const DE_C1_U12: Lesson[] = [
         prompt: "Put the words in order to say: Mozart is said to have played here.",
         words: ["Hier", "soll", "Mozart", "gespielt", "haben."],
         translation: "Mozart is said to have played here.",
+        altOrders: [["Mozart", "soll", "hier", "gespielt", "haben."]],
         explanation: "\"Soll\" + perfect infinitive.",
       },
       {
@@ -979,7 +980,7 @@ export const DE_C1_U12: Lesson[] = [
     level: "DE-C1",
     number: 6,
     title: "Supposition and Hearsay, Part 4 of 6",
-    summary: "Claim wollen (Er will nichts gesehen haben) and distancing words: angeblich, vermeintlich, mutmaßlich, Berichten zufolge, laut Polizei, wie es heißt, dem Vernehmen nach.",
+    summary: "Report doubtful claims with \"wollen\" (\"Er will nichts gesehen haben\") and keep your distance with \"angeblich\", \"vermeintlich\", \"mutmaßlich\", \"Berichten zufolge\", \"laut Polizei\", \"wie es heißt\" and \"dem Vernehmen nach\".",
     duration: "18 min",
     sections: [
       {
@@ -1008,7 +1009,7 @@ export const DE_C1_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does Keiner will den Kuchen gegessen haben mean?",
+            question: "What does \"Keiner will den Kuchen gegessen haben\" mean?",
             options: ["Nobody admits to having eaten the cake.", "Nobody wants to have eaten the cake.", "Nobody is said to have eaten the cake.", "Nobody wanted to eat the cake."],
             correctIndex: 0,
             explanation: "Claim \"wollen\": everyone claims it wasn't them.",
@@ -1060,7 +1061,7 @@ export const DE_C1_U12: Lesson[] = [
           { es: "Berichten zufolge ist der Vertrag schon unterschrieben.", en: "According to reports, the contract has already been signed." },
           { es: "Wie es heißt, will der Trainer zurücktreten.", en: "It's said that the coach wants to resign." },
           { es: "Dem Vernehmen nach verhandeln die Parteien noch.", en: "Reportedly the parties are still negotiating." },
-          { es: "Gerüchten zufolge soll die Band sich trennen.", en: "Rumour has it the band is splitting up." },
+          { es: "Gerüchten zufolge soll sich die Band trennen.", en: "Rumour has it the band is splitting up." },
         ],
         checkpoint: [
           {
@@ -1105,7 +1106,7 @@ export const DE_C1_U12: Lesson[] = [
         prompt: "Translate into German.",
         source: "Apparently nobody was at home.",
         answer: "Offenbar war niemand zu Hause.",
-        altAnswers: ["Anscheinend war niemand zu Hause.", "Offensichtlich war niemand zu Hause.", "Offenbar war keiner zu Hause.", "Anscheinend war keiner zu Hause."],
+        altAnswers: ["Anscheinend war niemand zu Hause.", "Offensichtlich war niemand zu Hause.", "Offenbar war keiner zu Hause.", "Anscheinend war keiner zu Hause.", "Offenbar war niemand zuhause."],
         explanation: "\"Offenbar\" / \"anscheinend\" for a conclusion or impression.",
       },
       {
@@ -1147,6 +1148,7 @@ export const DE_C1_U12: Lesson[] = [
         prompt: "Put the words in order to say: According to the police, the suspected perpetrator is 30.",
         words: ["Laut Polizei", "ist", "der mutmaßliche", "Täter", "30."],
         translation: "According to the police, the suspected perpetrator is 30.",
+        altOrders: [["Der mutmaßliche", "Täter", "ist", "laut Polizei", "30."]],
         explanation: "\"Laut Polizei\" in the Vorfeld, verb second.",
       },
       {
@@ -1175,8 +1177,8 @@ export const DE_C1_U12: Lesson[] = [
     slug: "c1-contrast-soll-will-duerfte-wird",
     level: "DE-C1",
     number: 7,
-    title: "Contrast Clinic: Er Soll, Er Will, Er Dürfte, Er Wird",
-    summary: "Four ways to be unsure: what others say (soll), what he claims (will), your probable guess (dürfte) and your expectation (wird).",
+    title: "Contrast Clinic: Er soll, Er will, Er dürfte, Er wird",
+    summary: "Choose between four ways to be unsure: what others say (\"soll\"), what he claims (\"will\"), your probable guess (\"dürfte\") and your expectation (\"wird\").",
     duration: "16 min",
     sections: [
       {
@@ -1209,7 +1211,7 @@ export const DE_C1_U12: Lesson[] = [
             prompt: "Translate into German.",
             source: "He claims to have been at home.",
             answer: "Er will zu Hause gewesen sein.",
-            altAnswers: ["Er behauptet, zu Hause gewesen zu sein.", "Er behauptet, er sei zu Hause gewesen."],
+            altAnswers: ["Er behauptet, zu Hause gewesen zu sein.", "Er behauptet, er sei zu Hause gewesen.", "Er will zuhause gewesen sein."],
             explanation: "His own claim: \"will\" + perfect infinitive.",
           },
         ],
@@ -1218,7 +1220,7 @@ export const DE_C1_U12: Lesson[] = [
         heading: "Choosing in context",
         body: [
           "Police report: \"Der Mann soll mehrere Autos aufgebrochen haben\" (witnesses say). Defendant's statement: \"Er will zur Tatzeit im Kino gewesen sein\" (he claims). Analyst: \"Der Schaden dürfte bei 50.000 Euro liegen\" (probable estimate). Friend at the door: \"Das wird der Nachbar sein\" (everyday guess).",
-          "A frequent learner mistake is \"soll\" for one's own guess: *\"Ich glaube, er soll krank sein\". If it's your guess, use \"dürfte\", \"wird\", \"muss\" or \"wohl\".",
+          "A frequent learner mistake is \"soll\" for one's own guess: \"*Ich glaube, er soll krank sein*\". If it's your guess, use \"dürfte\", \"wird\", \"muss\" or \"wohl\".",
         ],
         examples: [
           { es: "Der Mann soll mehrere Autos aufgebrochen haben.", en: "The man allegedly broke into several cars." },
@@ -1260,7 +1262,7 @@ export const DE_C1_U12: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "It's strange that she [claims not to have heard] anything.",
+            en: "It's strange that she [claims to have heard] nothing.",
             sentence: "Es ist seltsam, dass sie nichts ___.",
             answer: "gehört haben will",
             explanation: "In the dass-clause, \"will\" goes to the very end after the perfect infinitive.",
@@ -1375,7 +1377,7 @@ export const DE_C1_U12: Lesson[] = [
           { es: "Die Täter erbeuteten Zigaretten und Bargeld im Wert von rund 3.000 Euro.", en: "The perpetrators stole cigarettes and cash worth around 3,000 euros. (fact)" },
           { es: "Nach Angaben einer Zeugin seien zwei Männer gegen 23 Uhr in einem dunklen Kombi geflüchtet.", en: "According to a witness, two men fled in a dark estate car at around 11 p.m. (reported)" },
           { es: "Der Schaden an der Tür dürfte bei weiteren 1.500 Euro liegen.", en: "The damage to the door is likely to be a further 1,500 euros. (estimate)" },
-          { es: "Ein mutmaßlicher Tatverdächtiger wurde am Mittwochmorgen vorläufig festgenommen.", en: "A suspect was provisionally arrested on Wednesday morning. (fact, but guilt not established)" },
+          { es: "Ein Tatverdächtiger wurde am Mittwochmorgen vorläufig festgenommen.", en: "A suspect was provisionally arrested on Wednesday morning. (fact, but guilt not established)" },
           { es: "Hinweise nimmt die Polizei unter der Nummer 0221 229-0 entgegen.", en: "The police are taking information on 0221 229-0. (fact)" },
         ],
         checkpoint: [
@@ -1391,9 +1393,9 @@ export const DE_C1_U12: Lesson[] = [
             direction: "en-es",
             prompt: "Translate into German (police style).",
             source: "A shop was broken into on Monday night.",
-            answer: "In der Nacht zum Montag wurde in ein Geschäft eingebrochen.",
-            altAnswers: ["Am Montagabend wurde in ein Geschäft eingebrochen.", "In der Nacht auf Montag wurde in ein Geschäft eingebrochen.", "Am Montag wurde nachts in ein Geschäft eingebrochen.", "In der Nacht zum Montag ist in ein Geschäft eingebrochen worden."],
-            explanation: "Subjectless passive: \"wurde in ein Geschäft eingebrochen\". \"Einbrechen in\" + accusative.",
+            answer: "In der Nacht zum Dienstag wurde in ein Geschäft eingebrochen.",
+            altAnswers: ["In der Nacht auf Dienstag wurde in ein Geschäft eingebrochen.", "Montagnacht wurde in ein Geschäft eingebrochen.", "In der Montagnacht wurde in ein Geschäft eingebrochen.", "Am Montag wurde nachts in ein Geschäft eingebrochen.", "In der Nacht zum Dienstag ist in ein Geschäft eingebrochen worden."],
+            explanation: "Subjectless passive: \"wurde in ein Geschäft eingebrochen\"; \"einbrechen in\" + accusative. Police reports name the night by the following day: Monday night = \"in der Nacht zum Dienstag\" (\"in der Nacht zum Montag\" would be Sunday night).",
           },
         ],
       },
@@ -1413,7 +1415,7 @@ export const DE_C1_U12: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Der Kioskbesitzer will nun aufgeben. Here, will means:",
+            question: "\"Der Kioskbesitzer will nun aufgeben.\" Here, \"will\" means:",
             options: ["he wants to (a wish)", "he claims", "he is said to", "he will (future)"],
             correctIndex: 0,
             explanation: "With a present infinitive and a plausible intention, \"will\" is a plain wish; claim \"wollen\" usually takes a perfect infinitive.",
@@ -1433,7 +1435,7 @@ export const DE_C1_U12: Lesson[] = [
         heading: "Separating fact, hearsay and guess",
         body: [
           "Your task as a reader: facts = indicative statements from the police (\"wurde eingebrochen\", \"erbeuteten\", \"wurde festgenommen\"). Hearsay = Konjunktiv I, \"sollen\", \"angeblich\", \"wie es heißt\", \"nach Angaben\". Guesses = \"dürfte\", \"vermutlich\", \"wohl\", Futur II.",
-          "The tabloid adds two unconfirmed claims (weeks in the area, criminal record, sold online) that the police report does not mention. A careful writer would either leave them out or mark them as clearly as the tabloid does.",
+          "The tabloid adds three unconfirmed claims (weeks in the area, criminal record, sold online) that the police report does not mention. A careful writer would either leave them out or mark them as clearly as the tabloid does.",
         ],
         examples: [
           { es: "Die Polizei bestätigte den Einbruch.", en: "The police confirmed the break-in." },
@@ -1502,7 +1504,7 @@ export const DE_C1_U12: Lesson[] = [
         en: "A [suspect] was arrested.",
         sentence: "Ein ___ wurde festgenommen.",
         answer: "mutmaßlicher Täter",
-        altAnswers: ["Tatverdächtiger", "Verdächtiger", "mutmaßlicher Tatverdächtiger"],
+        altAnswers: ["Tatverdächtiger", "Verdächtiger"],
         explanation: "\"Mutmaßlicher Täter\" / \"Tatverdächtiger\": guilt not yet established.",
       },
       {
@@ -1555,7 +1557,7 @@ export const DE_C1_U12: Lesson[] = [
     level: "DE-C1",
     number: 9,
     title: "Supposition and Hearsay, Part 5 of 6",
-    summary: "Konjunktiv I in the press: long indirect speech without repeating the reporting verb, stance verbs (betonte, räumte ein, wies zurück, bestritt, behauptete) and the indicative / Konjunktiv choice as a signal of distance.",
+    summary: "Read and write press-style indirect speech: long Konjunktiv I passages without repeating the reporting verb, stance verbs (\"betonte\", \"räumte ein\", \"wies zurück\", \"bestritt\", \"behauptete\") and the choice of mood as a signal of distance.",
     duration: "19 min",
     sections: [
       {
@@ -1584,7 +1586,7 @@ export const DE_C1_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In Der Sprecher sagte, die Firma habe alles richtig gemacht. Der Bericht zeigt jedoch Mängel. who says the report shows defects?",
+            question: "Read: \"Der Sprecher sagte, die Firma habe alles richtig gemacht. Der Bericht zeigt jedoch Mängel.\" Who says the report shows defects?",
             options: ["The journalist.", "The spokesman.", "The company.", "Nobody; it's hearsay."],
             correctIndex: 0,
             explanation: "The switch back to the indicative (\"zeigt\") signals the journalist's own statement.",
@@ -1751,7 +1753,7 @@ export const DE_C1_U12: Lesson[] = [
     level: "DE-C1",
     number: 10,
     title: "Supposition and Hearsay, Part 6 of 6",
-    summary: "Objective vs subjective modals in the past: Er hat kommen müssen (he had to come) vs Er muss gekommen sein (he must have come), and their word order in subordinate clauses.",
+    summary: "Tell objective from subjective modals in the past, \"Er hat kommen müssen\" (he had to come) vs \"Er muss gekommen sein\" (he must have come), and put both in the right order in subordinate clauses.",
     duration: "19 min",
     sections: [
       {
@@ -1829,7 +1831,7 @@ export const DE_C1_U12: Lesson[] = [
         ],
         examples: [
           { es: "Ich glaube, dass er gekommen sein muss.", en: "I think he must have come." },
-          { es: "Es ist möglich, dass sie es vergessen haben könnte.", en: "It's possible that she might have forgotten it." },
+          { es: "Ich fürchte, dass sie es vergessen haben könnte.", en: "I'm afraid she might have forgotten it." },
           { es: "Er war sauer, weil er hat warten müssen.", en: "He was cross because he'd had to wait." },
           { es: "Er war sauer, weil er warten musste.", en: "He was cross because he had to wait." },
           { es: "Man sagt, dass er reich gewesen sein soll.", en: "People say he's supposed to have been rich." },
@@ -1859,7 +1861,7 @@ export const DE_C1_U12: Lesson[] = [
         prompt: "Translate into German.",
         source: "We had to stay at home.",
         answer: "Wir mussten zu Hause bleiben.",
-        altAnswers: ["Wir haben zu Hause bleiben müssen."],
+        altAnswers: ["Wir haben zu Hause bleiben müssen.", "Wir mussten zuhause bleiben."],
         explanation: "Objective obligation in the past.",
       },
       {
@@ -1868,7 +1870,7 @@ export const DE_C1_U12: Lesson[] = [
         prompt: "Translate into German.",
         source: "They must have stayed at home.",
         answer: "Sie müssen zu Hause geblieben sein.",
-        altAnswers: ["Sie werden zu Hause geblieben sein.", "Sie sind bestimmt zu Hause geblieben."],
+        altAnswers: ["Sie werden zu Hause geblieben sein.", "Sie sind bestimmt zu Hause geblieben.", "Sie müssen zuhause geblieben sein."],
         explanation: "Subjective: modal present + perfect infinitive with \"sein\".",
       },
       {
@@ -1891,7 +1893,7 @@ export const DE_C1_U12: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "She was annoyed because she [had had to] pay twice.",
+        en: "She was annoyed because she [had had to pay] twice.",
         sentence: "Sie war sauer, weil sie zweimal ___.",
         answer: "hat zahlen müssen",
         altAnswers: ["zahlen musste", "hat bezahlen müssen", "bezahlen musste", "hatte zahlen müssen", "hatte bezahlen müssen"],
@@ -1938,8 +1940,8 @@ export const DE_C1_U12: Lesson[] = [
     slug: "c1-contrast-muss-gewesen-hat-muessen",
     level: "DE-C1",
     number: 11,
-    title: "Contrast Clinic: Er Muss Gekommen Sein / Er Hat Kommen Müssen",
-    summary: "The same modal in two constructions with opposite viewpoints: translating must have, had to, can't have and could have correctly.",
+    title: "Contrast Clinic: Er muss gekommen sein / Er hat kommen müssen",
+    summary: "Translate must have, had to, can't have and could have correctly by choosing between the subjective and objective construction of the same modal.",
     duration: "16 min",
     sections: [
       {
@@ -1992,6 +1994,7 @@ export const DE_C1_U12: Lesson[] = [
             prompt: "Translate into German.",
             source: "He can't have been at home.",
             answer: "Er kann nicht zu Hause gewesen sein.",
+            altAnswers: ["Er kann nicht zuhause gewesen sein."],
             explanation: "Subjective impossibility: \"kann nicht\" + perfect infinitive.",
           },
           {
@@ -2008,7 +2011,7 @@ export const DE_C1_U12: Lesson[] = [
         heading: "Sollen and dürfen in the past",
         body: [
           "The same split works with other modals. \"Er soll gelogen haben\" (he's said to have lied: hearsay) vs \"Er hat lügen sollen\" / \"Er sollte lügen\" (he was supposed to lie: instruction). \"Sie dürfte es gewusst haben\" (she very probably knew) vs \"Sie durfte es nicht wissen\" (she wasn't allowed to know).",
-          "Rule of thumb: perfect infinitive (gemacht haben / gegangen sein) at the end → speaker's assessment. Modal in the past or double infinitive → what really applied to the subject.",
+          "Rule of thumb: perfect infinitive (\"gemacht haben\" / \"gegangen sein\") at the end → speaker's assessment. Modal in the past or double infinitive → what really applied to the subject.",
         ],
         examples: [
           { es: "Er soll gelogen haben.", en: "He's said to have lied." },
@@ -2121,14 +2124,14 @@ export const DE_C1_U12: Lesson[] = [
     level: "DE-C1",
     number: 12,
     title: "Spiral Review: Supposition, Konjunktiv and Regrets",
-    summary: "Recombine supposition and hearsay with Upper-intermediate regrets (hätte... sollen) and Konjunktiv II conditions in everyday mysteries.",
+    summary: "Untangle everyday mysteries by combining supposition and hearsay with regrets (\"hätte... sollen\") and past Konjunktiv II conditions.",
     duration: "18 min",
     sections: [
       {
         heading: "Guessing and regretting",
         body: [
           "Everyday mysteries mix guesses about what happened with regrets about what we should have done. Guess: \"Ich muss den Schlüssel im Büro liegen gelassen haben.\" Regret: \"Ich hätte besser aufpassen sollen\" (I should have been more careful). Unreal condition: \"Wenn ich ihn eingesteckt hätte, stünde ich jetzt nicht vor der Tür.\"",
-          "Watch the two 'should have' ideas: \"Er müsste angekommen sein\" (he should have arrived by now: expectation) vs \"Er hätte früher losfahren sollen\" (he should have left earlier: criticism, Upper-intermediate level).",
+          "Watch the two 'should have' ideas: \"Er müsste angekommen sein\" (he should have arrived by now: expectation) vs \"Er hätte früher losfahren sollen\" (he should have left earlier: criticism, from B2).",
         ],
         examples: [
           { es: "Ich muss den Schlüssel im Büro liegen gelassen haben.", en: "I must have left the key at the office." },

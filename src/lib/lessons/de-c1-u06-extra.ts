@@ -9,7 +9,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Literary Narration, Part 1 of 3",
-    summary: "Präteritum of strong and mixed verbs in all persons, in new sentences.",
+    summary: "Use the Präteritum of strong and mixed verbs in all persons, in new sentences.",
     duration: "15 min",
     sections: [
       {
@@ -19,7 +19,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
           "Mixed verbs: vowel change + -te: \"brachte, dachte, kannte, nannte, brannte, rannte, wusste\", and \"wandte / wendete\", \"sandte / sendete\".",
         ],
         examples: [
-          { es: "Du liefst so schnell, dass ich dich nicht einholte.", en: "You ran so fast that I couldn't catch up with you." },
+          { es: "Du liefst so schnell, dass ich dich nicht einholen konnte.", en: "You ran so fast that I couldn't catch up with you." },
           { es: "Ihr batet uns um Geduld.", en: "You asked us to be patient." },
           { es: "Er dachte an nichts anderes mehr.", en: "He thought of nothing else any more." },
           { es: "Wir saßen bis Mitternacht am Lagerfeuer.", en: "We sat by the campfire until midnight." },
@@ -71,7 +71,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into German, in the Präteritum (in a letter to a friend).",
         source: "You stayed at home that day.",
         answer: "Du bliebst an diesem Tag zu Hause.",
-        altAnswers: ["An diesem Tag bliebst du zu Hause.", "Du bliebst an dem Tag zu Hause."],
+        altAnswers: ["An diesem Tag bliebst du zu Hause.", "Du bliebst an dem Tag zu Hause.", "Du bliebst an diesem Tag zuhause."],
         explanation: "\"Bleiben → blieb\", du-form \"bliebst\".",
       },
       {
@@ -163,7 +163,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Du liefst so schnell, dass ich dich nicht einholte.",
+        text: "Du liefst so schnell, dass ich dich nicht einholen konnte.",
         prompt: "Read this line from a novel aloud: You ran so fast that I couldn't catch up with you.",
         explanation: "Literary du-form \"liefst\".",
       },
@@ -175,7 +175,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Literary Narration, Part 2 of 3",
-    summary: "Präteritum vs Plusquamperfekt in fairy tales and biographies.",
+    summary: "Choose between Präteritum and Plusquamperfekt in fairy tales and biographies.",
     duration: "15 min",
     sections: [
       {
@@ -338,7 +338,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Literary Narration, Part 3 of 3",
-    summary: "Strong/weak doublets and rare literary forms in new sentences.",
+    summary: "Choose correctly between strong/weak doublets and recognise rare literary forms in new sentences.",
     duration: "14 min",
     sections: [
       {
@@ -442,7 +442,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into German, in the Präteritum.",
         source: "What persuaded you to stay? (to a friend)",
         answer: "Was bewog dich zu bleiben?",
-        altAnswers: ["Was bewog dich, zu bleiben?", "Was bewog dich dazu zu bleiben?", "Was bewog dich dazu, zu bleiben?", "Was bewog euch zu bleiben?", "Was bewog Sie zu bleiben?"],
+        altAnswers: ["Was bewog dich, zu bleiben?", "Was bewog dich dazu zu bleiben?", "Was bewog dich dazu, zu bleiben?"],
         explanation: "Persuade: strong \"bewog\".",
       },
       {
@@ -464,7 +464,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Im Ofen glomm noch etwas Glut. What does it mean?",
+        question: "Read: \"Im Ofen glomm noch etwas Glut.\" What does it mean?",
         options: ["A few embers were still glowing in the stove.", "The stove was blazing.", "Someone lit the stove.", "The stove had gone out completely."],
         correctIndex: 0,
         explanation: "\"Glomm\": literary Präteritum of \"glimmen\" (to glow faintly).",
@@ -557,7 +557,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into German, as indirect speech.",
         source: "He claimed he had been at home all evening.",
         answer: "Er behauptete, er sei den ganzen Abend zu Hause gewesen.",
-        altAnswers: ["Er behauptete, dass er den ganzen Abend zu Hause gewesen sei."],
+        altAnswers: ["Er behauptete, dass er den ganzen Abend zu Hause gewesen sei.", "Er behauptete, er sei den ganzen Abend zuhause gewesen."],
         explanation: "Past: \"sei ... gewesen\".",
       },
       {
@@ -624,7 +624,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Direct speech: Wir kommen später. Which indirect version is best in writing?",
+        question: "Direct speech: \"Wir kommen später.\" Which indirect version is best in writing?",
         options: ["Sie sagten, sie kämen später.", "Sie sagten, sie kommen später gekommen.", "Sie sagten, wir kämen später.", "Sie sagten, sie seien später."],
         correctIndex: 0,
         explanation: "Plural Konjunktiv I \"kommen\" looks like the indicative, so Konjunktiv II \"kämen\"; person changes to \"sie\".",
@@ -700,7 +700,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Mehmet fragte sich, wo sein Schlüssel sei. What is this?",
+            question: "Read: \"Mehmet fragte sich, wo sein Schlüssel sei.\" What is this?",
             options: ["Indirect speech", "Erlebte Rede", "Direct speech", "Interior monologue"],
             correctIndex: 0,
             explanation: "Reporting verb + Konjunktiv I \"sei\".",
@@ -790,7 +790,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Endlich Ferien! Nie wieder würde sie dieses Büro betreten! What is this?",
+        question: "Read: \"Endlich Ferien! Nie wieder würde sie dieses Büro betreten!\" What is this?",
         options: ["Erlebte Rede", "Indirect speech", "Direct speech", "Narrator's neutral report"],
         correctIndex: 0,
         explanation: "Exclamations, \"würde\" as future in the past, third person: erlebte Rede.",
@@ -840,7 +840,7 @@ export const DE_C1_U06_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Precise Reporting Verbs",
-    summary: "Replace sagen with the exact verb and punctuate the quote correctly.",
+    summary: "Replace \"sagen\" with the exact reporting verb and punctuate the quote correctly.",
     duration: "14 min",
     sections: [
       {

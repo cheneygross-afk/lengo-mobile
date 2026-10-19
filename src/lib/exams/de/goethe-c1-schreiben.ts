@@ -33,10 +33,10 @@ export const GOETHE_C1_SCHREIBEN: ExamPaper = {
           maxWords: 300,
           rubric: [
             "Covers at least three of the four points in depth, not just in a sentence each, and stays on the topic of the news item.",
-            "Takes a clear position, supports it with reasons and examples, and weighs the other side (concession: zwar … aber, trotzdem, einerseits … andererseits).",
+            "Takes a clear position, supports it with reasons and examples, and weighs the other side (concession: \"zwar … aber\", \"trotzdem\", \"einerseits … andererseits\").",
             "Has a clear structure: a heading or opening that states the issue, one paragraph per idea, a conclusion that sums up.",
-            "Links ideas with a range of connectors (außerdem, nicht zuletzt, statt … zu, daher, gerade deshalb, kurz gesagt) instead of a string of main clauses.",
-            "C1 accuracy and range: varied subordinate clauses, Konjunktiv II for hypotheses (wäre, hätte, könnten), nominal style where it fits, few errors in endings and word order.",
+            "Links ideas with a range of connectors (\"außerdem\", \"nicht zuletzt\", \"statt … zu\", \"daher\", \"gerade deshalb\", \"kurz gesagt\") instead of a string of main clauses.",
+            "C1 accuracy and range: varied subordinate clauses, Konjunktiv II for hypotheses (\"wäre\", \"hätte\", \"könnten\"), nominal style where it fits, few errors in endings and word order.",
           ],
           modelAnswer:
             "Ein Pflichtjahr? Lieber ein attraktives Freiwilligenjahr!\n\n" +
@@ -69,10 +69,10 @@ export const GOETHE_C1_SCHREIBEN: ExamPaper = {
           maxWords: 160,
           rubric: [
             "Covers all four points: apology, what is enclosed, the insurance problem with a reason, a clear request for more time (ideally with a new date).",
-            "Formal register throughout: Sehr geehrte Frau Dr. Engel, Sie and Ihnen with capitals, Mit freundlichen Grüßen, no colloquial words.",
-            "Refers precisely to the letter received (Ihre Nachricht vom …, bezüglich unseres Antrags …).",
-            "Uses polite, set phrases for requests and offers (Ich möchte Sie daher bitten, … ; Für Rückfragen stehe ich Ihnen gern zur Verfügung).",
-            "Accurate grammar: dass- and da-clauses with the verb at the end, correct cases after prepositions (wegen, bis zum, bezüglich + genitive).",
+            "Formal register throughout: \"Sehr geehrte Frau Dr. Engel\", \"Sie\" and \"Ihnen\" with capitals, \"Mit freundlichen Grüßen\", no colloquial words.",
+            "Refers precisely to the letter received (\"Ihre Nachricht vom …\", \"bezüglich unseres Antrags …\").",
+            "Uses polite, set phrases for requests and offers (\"Ich möchte Sie daher bitten, …\"; \"Für Rückfragen stehe ich Ihnen gern zur Verfügung\").",
+            "Accurate grammar: \"dass\" and \"da\" clauses with the verb at the end, correct cases after prepositions (\"bis zum\" + dative; \"wegen\", \"bezüglich\" + genitive).",
           ],
           modelAnswer:
             "Sehr geehrte Frau Dr. Engel,\n\n" +

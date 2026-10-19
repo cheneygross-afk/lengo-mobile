@@ -15,7 +15,7 @@ export const DE_B1_U35: Lesson[] = [
         heading: "Position 2: whatever comes first",
         body: [
           "In a German main clause the conjugated verb is the second element, whatever comes first: the subject, an object, a time phrase, an adverb like \"deshalb\" or \"trotzdem\", an opinion phrase like \"meiner Meinung nach\", or a whole subordinate clause. Everything else, including the subject, has to wait behind it.",
-          "Only five words stand outside the count (position 0): \"und, aber, oder, denn, sondern\". After them, the clause starts fresh: \"..., aber gestern war ich krank.\"",
+          "Five common conjunctions stand outside the count (position 0): \"und, aber, oder, denn, sondern\". After them, the clause starts fresh: \"..., aber gestern war ich krank.\"",
           "No hints from now on: in the exercises below, decide the order yourself. A good check is to underline the conjugated verb and count what comes before it: it must be exactly one element.",
         ],
         examples: [
@@ -30,7 +30,7 @@ export const DE_B1_U35: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, starting with: Am Wochenende",
+            prompt: "Translate into German, starting with \"Am Wochenende\".",
             source: "At the weekend we're visiting my parents.",
             answer: "Am Wochenende besuchen wir meine Eltern.",
             explanation: "\"Am Wochenende\" fills position 1; \"besuchen\" second; the subject \"wir\" third.",
@@ -188,8 +188,7 @@ export const DE_B1_U35: Lesson[] = [
         prompt: "Put the words in order to say: Do you know if the museum is open on Mondays?",
         words: ["Weißt", "du,", "ob", "das", "Museum", "montags", "geöffnet", "ist?"],
         translation: "Do you know if the museum is open on Mondays?",
-        altOrders: [["Weißt", "du,", "ob", "das", "Museum", "montags", "ist", "geöffnet?"]],
-        explanation: "Yes/no question with the verb first; \"ob\" + verb last.",
+        explanation: "Yes/no question with the verb first; \"ob\" + verb last: \"geöffnet ist\", never \"ist geöffnet\" inside the ob-clause.",
       },
       {
         type: "multiple-choice",
@@ -227,7 +226,7 @@ export const DE_B1_U35: Lesson[] = [
           "Without hints you must choose: who is telling the story, in speech or writing, and which event came first?",
         ],
         examples: [
-          { es: "Letzten Sommer fuhren Mia und Leon nach Rügen.", en: "Last summer Mia and Leon went to an island in the Baltic." },
+          { es: "Letzten Sommer fuhren Mia und Leon nach Rügen.", en: "Last summer Mia and Leon went to Rügen, an island in the Baltic." },
           { es: "Sie hatten ein kleines Ferienhaus am Strand gemietet.", en: "They had rented a small holiday house on the beach." },
           { es: "Am ersten Abend gab es ein Gewitter.", en: "On the first evening there was a thunderstorm." },
           { es: "Der Strom fiel für drei Stunden aus.", en: "The power was out for three hours." },
@@ -374,7 +373,7 @@ export const DE_B1_U35: Lesson[] = [
         prompt: "Translate into German, as written narration.",
         source: "She opened the letter and began to cry.",
         answer: "Sie öffnete den Brief und fing an zu weinen.",
-        altAnswers: ["Sie öffnete den Brief und begann zu weinen."],
+        altAnswers: ["Sie öffnete den Brief und begann zu weinen.", "Sie öffnete den Brief und fing zu weinen an."],
         explanation: "Written story: Präteritum. \"Anfangen\" splits: \"fing ... an\".",
       },
       {
@@ -435,7 +434,7 @@ export const DE_B1_U35: Lesson[] = [
           { es: "Seit einem Monat wohne ich bei meiner Tante.", en: "I've been living at my aunt's for a month." },
           { es: "Leg das Buch auf den Tisch.", en: "Put the book on the table." },
           { es: "Das Buch liegt auf dem Tisch.", en: "The book is on the table." },
-          { es: "Ich erinnere mich gern an den Urlaub.", en: "I like to remember the holiday." },
+          { es: "Ich erinnere mich gern an den Urlaub.", en: "I have fond memories of the holiday." },
           { es: "Während der Fahrt hat er geschlafen.", en: "He slept during the journey." },
         ],
         checkpoint: [
@@ -596,9 +595,9 @@ export const DE_B1_U35: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The children are playing in the garden of their grandparents.",
+        prompt: "Put the words in order to say: The children are playing in their grandparents' garden.",
         words: ["Die", "Kinder", "spielen", "im", "Garten", "ihrer", "Großeltern."],
-        translation: "The children are playing in the garden of their grandparents.",
+        translation: "The children are playing in their grandparents' garden.",
         explanation: "Location: \"im Garten\"; genitive plural after the noun: \"ihrer Großeltern\".",
       },
       {
@@ -679,7 +678,7 @@ export const DE_B1_U35: Lesson[] = [
         examples: [
           { es: "Die Kaltmiete beträgt 980 Euro.", en: "The basic rent is 980 euros." },
           { es: "Die Wohnung liegt im vierten Stock ohne Aufzug.", en: "The flat is on the fourth floor without a lift." },
-          { es: "Ab wann ist die Wohnung frei?", en: "From when is the flat available?" },
+          { es: "Ab wann ist die Wohnung frei?", en: "When is the flat available from?" },
           { es: "Sind Haustiere erlaubt?", en: "Are pets allowed?" },
           { es: "Ich möchte ein Girokonto eröffnen.", en: "I'd like to open a current account." },
           { es: "Welche Unterlagen brauche ich dafür?", en: "Which documents do I need for that?" },
@@ -695,7 +694,7 @@ export const DE_B1_U35: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The ad says: Kaltmiete 980 €, Nebenkosten 220 €. How much does Sam pay a month in total?",
+            question: "The ad says: \"Kaltmiete 980 €, Nebenkosten 220 €.\" How much does Sam pay a month in total?",
             options: ["1200 euros", "980 euros", "220 euros", "760 euros"],
             correctIndex: 0,
             explanation: "\"Kaltmiete\" + \"Nebenkosten\" = \"Warmmiete\": 980 + 220 = 1200 euros.",
@@ -714,7 +713,7 @@ export const DE_B1_U35: Lesson[] = [
       {
         heading: "Thursday: at the Bürgeramt",
         body: [
-          "Everyone who moves to a new address in Germany must register within two weeks: \"sich anmelden\" at \"das Bürgeramt\" (citizens' office). You need \"einen Termin\" (an appointment, booked online), your passport and \"die Wohnungsgeberbestätigung\" (a form from your landlord). You get \"die Meldebescheinigung\" (registration certificate).",
+          "Everyone who moves to a new address in Germany must register within two weeks: \"sich anmelden\" at \"das Bürgeramt\" (citizens' office; in Hamburg it's called \"das Kundenzentrum\"). You need \"einen Termin\" (an appointment, booked online), your passport and \"die Wohnungsgeberbestätigung\" (a form from your landlord). You get \"die Meldebescheinigung\" (registration certificate).",
           "Official language uses the passive and long nouns: \"Die Anmeldung muss innerhalb von zwei Wochen erfolgen.\" (\"erfolgen\": take place). \"Bitte bringen Sie folgende Unterlagen mit.\" \"Ohne Termin kann leider niemand bedient werden.\"",
           "At the counter: \"Ich möchte mich anmelden\", \"Ich habe um 9.15 Uhr einen Termin\", \"Muss ich noch etwas unterschreiben?\"",
         ],
@@ -739,7 +738,7 @@ export const DE_B1_U35: Lesson[] = [
           {
             type: "speak",
             text: "Guten Tag, ich möchte mich anmelden. Ich habe um halb zehn einen Termin.",
-            prompt: "At the Bürgeramt counter: say you'd like to register and that you have an appointment at half past nine.",
+            prompt: "At the \"Bürgeramt\" counter: say you'd like to register and that you have an appointment at half past nine.",
             explanation: "\"Sich anmelden\" is the official word for registering your address.",
           },
         ],
@@ -759,7 +758,7 @@ export const DE_B1_U35: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "From when is the flat available?",
+        source: "When is the flat available from?",
         answer: "Ab wann ist die Wohnung frei?",
         altAnswers: ["Ab wann ist die Wohnung verfügbar?"],
         explanation: "\"Ab wann\" asks from what point in time.",
@@ -802,7 +801,7 @@ export const DE_B1_U35: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A notice at the Bürgeramt says: Ohne Termin kann leider niemand bedient werden. What does it mean?",
+        question: "A notice at the \"Bürgeramt\" says: \"Ohne Termin kann leider niemand bedient werden.\" What does it mean?",
         options: ["Nobody can be served without an appointment.", "You can come without an appointment.", "Appointments are not needed today.", "Nobody is working today."],
         correctIndex: 0,
         explanation: "Modal passive: \"kann ... bedient werden\" (can be served), negated by \"niemand\".",
@@ -886,7 +885,7 @@ export const DE_B1_U35: Lesson[] = [
         body: [
           "Sam bought a kettle that doesn't work. Back in the shop: \"Ich habe diesen Wasserkocher gestern hier gekauft, aber er funktioniert nicht. Ich würde ihn gern umtauschen.\" The assistant: \"Haben Sie den Kassenbon dabei?\" \"Ja, hier.\" \"Möchten Sie einen neuen oder lieber das Geld zurück?\"",
           "Key words: \"umtauschen\" (exchange), \"zurückgeben\" (return), \"das Geld zurückbekommen\" (get a refund), \"der Kassenbon\" (receipt), \"die Garantie\" (guarantee), \"die Reklamation\" (complaint about a product), \"defekt / kaputt\" (faulty).",
-          "Pronouns as indefinite pronouns: \"Möchten Sie einen neuen?\" (a new one: \"einen\" for masculine \"der Wasserkocher\"). The adjective after it takes the ending it would have after \"ein\".",
+          "\"Einer\" as a pronoun: \"Möchten Sie einen neuen?\" (a new one: \"einen\" for masculine \"der Wasserkocher\"). The adjective after it takes the ending it would have after \"ein\".",
         ],
         examples: [
           { es: "Ich habe diesen Wasserkocher gestern hier gekauft.", en: "I bought this kettle here yesterday." },
@@ -919,12 +918,12 @@ export const DE_B1_U35: Lesson[] = [
       {
         heading: "Saturday and Sunday: neighbours and a voice message",
         body: [
-          "On Saturday Sam meets his new neighbour on the stairs: \"Hallo, ich bin Sam, ich wohne seit Mittwoch im dritten Stock.\" \"Ach, herzlich willkommen! Ich bin Frau Petersen. Wenn Sie etwas brauchen, klingeln Sie einfach.\" Neighbours of different ages usually start with \"Sie\".",
+          "On Saturday Sam meets his new neighbour on the stairs: \"Hallo, ich bin Sam, ich wohne seit Mittwoch im vierten Stock.\" \"Ach, herzlich willkommen! Ich bin Frau Petersen. Wenn Sie etwas brauchen, klingeln Sie einfach.\" Neighbours of different ages usually start with \"Sie\".",
           "On Sunday Sam sends a voice message to his friend Mehmet in spoken German: \"Na, wie geht's? Also, die Woche war echt anstrengend, aber super. Ich hab 'ne Wohnung in Altona gefunden, total schön, nur halt im vierten Stock ohne Aufzug. Am Freitag war ich krank, aber jetzt geht's mir wieder gut. Und die Nachbarin ist mega nett. Komm doch mal vorbei!\"",
           "Spoken features: \"hab\" for \"habe\", \"'ne\" for \"eine\", \"wie geht's\" for \"wie geht es\", the particles \"halt\", \"doch\", \"mal\", fillers like \"also\" and \"na\". Use them in messages to friends, never in the Schreiben exam.",
         ],
         examples: [
-          { es: "Ich wohne seit Mittwoch im dritten Stock.", en: "I've been living on the third floor since Wednesday." },
+          { es: "Ich wohne seit Mittwoch im vierten Stock.", en: "I've been living on the fourth floor since Wednesday." },
           { es: "Wenn Sie etwas brauchen, klingeln Sie einfach.", en: "If you need anything, just ring the bell." },
           { es: "Die Woche war echt anstrengend, aber super.", en: "The week was really tiring, but great." },
           { es: "Ich hab 'ne Wohnung in Altona gefunden.", en: "I've found a flat in Altona." },
@@ -1081,7 +1080,7 @@ export const DE_B1_U35: Lesson[] = [
             prompt: "Translate into German.",
             source: "Do you fancy coming along next time? (to a friend)",
             answer: "Hast du Lust, beim nächsten Mal mitzukommen?",
-            altAnswers: ["Hast du Lust, nächstes Mal mitzukommen?", "Hast du Lust, das nächste Mal mitzukommen?", "Habt ihr Lust, beim nächsten Mal mitzukommen?"],
+            altAnswers: ["Hast du Lust, nächstes Mal mitzukommen?", "Hast du Lust, das nächste Mal mitzukommen?"],
             explanation: "\"Lust haben\" + zu-infinitive, with \"zu\" inside \"mitkommen\".",
           },
         ],
@@ -1176,6 +1175,7 @@ export const DE_B1_U35: Lesson[] = [
         prompt: "Translate into German.",
         source: "Would it be possible to postpone the appointment?",
         answer: "Wäre es möglich, den Termin zu verschieben?",
+        altAnswers: ["Wäre es möglich, den Termin zu verlegen?", "Könnten wir den Termin verschieben?"],
         explanation: "\"Wäre es möglich\" + zu-infinitive; \"verschieben\" (postpone).",
       },
       {
@@ -1269,7 +1269,7 @@ export const DE_B1_U35: Lesson[] = [
         examples: [
           { es: "Wie wäre es, wenn wir im Park grillen?", en: "How about having a barbecue in the park?" },
           { es: "Wir könnten auch in ein Restaurant gehen.", en: "We could also go to a restaurant." },
-          { es: "Ich hätte einen anderen Vorschlag.", en: "I'd have another suggestion." },
+          { es: "Ich hätte einen anderen Vorschlag.", en: "I've got a different suggestion." },
           { es: "Einverstanden. Und wer kümmert sich um das Geschenk?", en: "Agreed. And who'll take care of the present?" },
           { es: "Das übernehme ich.", en: "I'll take care of that." },
           { es: "Lass uns lieber am Donnerstag feiern.", en: "Let's celebrate on Thursday instead." },
@@ -1296,12 +1296,12 @@ export const DE_B1_U35: Lesson[] = [
       {
         heading: "Teil 2: the presentation in five steps",
         body: [
-          "In Teil 2 you present a topic, here Leben in der Stadt oder auf dem Land? (City or countryside?), in about three minutes, following five steps on your slides: (1) introduce the topic, (2) your personal experience, (3) the situation in your country, (4) pros and cons with your opinion, (5) conclusion and thanks.",
+          "In Teil 2 you present a topic, here \"Leben in der Stadt oder auf dem Land?\" (City or countryside?), in about three minutes, following five steps on your slides: (1) introduce the topic, (2) your personal experience, (3) the situation in your country, (4) pros and cons with your opinion, (5) conclusion and thanks.",
           "Signposting phrases: \"Ich möchte heute über das Thema ... sprechen.\" \"Ich selbst habe ... gewohnt.\" \"In meinem Heimatland ist es so, dass ...\" \"Einerseits ..., andererseits ...\" \"Zum Schluss möchte ich sagen, dass ...\" \"Vielen Dank für Ihre Aufmerksamkeit!\"",
           "Model step 2-4: \"Ich bin in einem kleinen Dorf in Wales aufgewachsen, aber seit fünf Jahren wohne ich in Manchester. In Großbritannien ziehen viele junge Leute in die Städte, weil es dort mehr Arbeit gibt. Der Vorteil der Stadt ist, dass alles in der Nähe ist. Ein Nachteil ist aber, dass die Mieten sehr hoch sind. Meiner Meinung nach ist das Land besser für Familien.\"",
         ],
         examples: [
-          { es: "Ich möchte heute über das Thema Stadt oder Land sprechen.", en: "Today I'd like to talk about the topic city or country." },
+          { es: "Ich möchte heute über das Thema Stadt oder Land sprechen.", en: "Today I'd like to talk about the topic of city or country life." },
           { es: "Ich bin in einem kleinen Dorf aufgewachsen.", en: "I grew up in a small village." },
           { es: "In meinem Heimatland ist es so, dass viele junge Leute in die Städte ziehen.", en: "In my home country, lots of young people move to the cities." },
           { es: "Der Vorteil der Stadt ist, dass alles in der Nähe ist.", en: "The advantage of the city is that everything is close by." },
@@ -1328,8 +1328,8 @@ export const DE_B1_U35: Lesson[] = [
           {
             type: "speak",
             text: "Ich möchte heute über das Thema Stadt oder Land sprechen.",
-            prompt: "Open your presentation: Today I'd like to talk about the topic city or country.",
-            tip: "Thema: the th is just a t.",
+            prompt: "Open your presentation: Today I'd like to talk about the topic of city or country life.",
+            tip: "\"Thema\": the th is just a t.",
             explanation: "\"Sprechen über\" + accusative; the infinitive at the end after \"möchte\".",
           },
         ],
@@ -1355,7 +1355,7 @@ export const DE_B1_U35: Lesson[] = [
             prompt: "Translate into German.",
             source: "Would you rather live in the countryside? (to a friend)",
             answer: "Würdest du lieber auf dem Land leben?",
-            altAnswers: ["Würdest du lieber auf dem Land wohnen?", "Würden Sie lieber auf dem Land leben?", "Würden Sie lieber auf dem Land wohnen?", "Würdest du selbst lieber auf dem Land leben?"],
+            altAnswers: ["Würdest du lieber auf dem Land wohnen?", "Würdest du selbst lieber auf dem Land leben?"],
             explanation: "\"Auf dem Land\" (in the countryside); Konjunktiv II \"würdest ... lieber\" for preference.",
           },
           {
@@ -1471,7 +1471,7 @@ export const DE_B1_U35: Lesson[] = [
         heading: "Lesen: a blog post",
         body: [
           "Read this blog post, then answer the questions: \"Vor zwei Jahren habe ich meinen Job in einer Bank gekündigt, um als Gärtnerin zu arbeiten. Viele Freunde haben mich damals für verrückt gehalten. Ich verdiene jetzt zwar weniger, aber ich bin viel zufriedener. Was mir am meisten gefällt, ist, dass ich den ganzen Tag draußen bin. Natürlich gibt es auch Nachteile: Im Winter ist es kalt, und die Arbeit ist körperlich anstrengend. Trotzdem würde ich nie wieder in ein Büro zurückgehen.\"",
-          "Goethe B1 Lesen asks you to decide whether statements are richtig or falsch, or to choose a, b or c. Read the questions first, then scan the text for the key words. Watch for traps: \"zwar ... aber\" (she earns less, but...), \"trotzdem\" (even so).",
+          "Goethe B1 Lesen asks you to decide whether statements are \"richtig\" or \"falsch\", or to choose a, b or c. Read the questions first, then scan the text for the key words. Watch for traps: \"zwar ... aber\" (she earns less, but...), \"trotzdem\" (even so).",
           "Grammar in the text: \"um ... zu\" (purpose), \"für verrückt halten\" (consider crazy), \"zwar ... aber\", a was-clause as subject (\"Was mir am meisten gefällt, ist, dass...\"), Konjunktiv II \"würde\".",
         ],
         examples: [
@@ -1557,7 +1557,7 @@ export const DE_B1_U35: Lesson[] = [
         ],
         examples: [
           { es: "Vielen Dank für Ihre schnelle Antwort.", en: "Thank you for your quick reply." },
-          { es: "Ich hätte noch eine Frage zu den Kosten.", en: "I'd have another question about the costs." },
+          { es: "Ich hätte noch eine Frage zu den Kosten.", en: "I have one more question about the costs." },
           { es: "Äh, ich meine natürlich nächste Woche.", en: "Er, I mean next week, of course." },
           { es: "Also, ich finde, dass beide Seiten recht haben.", en: "Well, I think both sides are right." },
           { es: "Darf ich kurz etwas dazu sagen?", en: "May I say something about that briefly?" },
@@ -1588,7 +1588,7 @@ export const DE_B1_U35: Lesson[] = [
         prompt: "Translate into German.",
         source: "When I arrived in Germany, I couldn't speak any German.",
         answer: "Als ich in Deutschland ankam, konnte ich kein Deutsch.",
-        altAnswers: ["Als ich in Deutschland ankam, konnte ich kein Deutsch sprechen.", "Als ich nach Deutschland kam, konnte ich kein Deutsch.", "Als ich nach Deutschland kam, konnte ich kein Deutsch sprechen.", "Als ich in Deutschland angekommen bin, konnte ich kein Deutsch."],
+        altAnswers: ["Als ich in Deutschland ankam, konnte ich kein Deutsch sprechen.", "Als ich nach Deutschland kam, konnte ich kein Deutsch.", "Als ich nach Deutschland kam, konnte ich kein Deutsch sprechen.", "Als ich in Deutschland angekommen bin, konnte ich kein Deutsch.", "Als ich in Deutschland ankam, sprach ich kein Deutsch."],
         explanation: "\"Als\" for one past event; modal in the Präteritum; \"kein Deutsch\".",
       },
       {
@@ -1615,6 +1615,7 @@ export const DE_B1_U35: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm looking forward to the summer.",
         answer: "Ich freue mich auf den Sommer.",
+        altAnswers: ["Ich freue mich schon auf den Sommer."],
         explanation: "\"Sich freuen auf\" + accusative for something to come.",
       },
       {
@@ -1685,7 +1686,7 @@ export const DE_B1_U35: Lesson[] = [
 
 export const DE_B1_U35_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Exam-style task (Goethe B1, Schreiben Teil 2): an online forum asks: City or countryside: where is it better to live? Write your opinion (100-140 words). Give your opinion, describe your own experience, compare the situation in your country, name advantages and disadvantages, and end with a conclusion.",
+  prompt: "Exam-style task (based on Goethe B1, Schreiben Teil 2, but longer): an online forum asks: City or countryside: where is it better to live? Write your opinion (100-140 words). Give your opinion, describe your own experience, compare the situation in your country, name advantages and disadvantages, and end with a conclusion.",
   minWords: 90,
   maxWords: 150,
   rubric: [

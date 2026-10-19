@@ -15,7 +15,7 @@ export const DE_B1_U21: Lesson[] = [
         heading: "The pattern: -(e)n everywhere but the nominative",
         body: [
           "Most German nouns barely change their shape: you see the case on the article and the adjective, and the noun itself only adds -s in the genitive or -n in the dative plural. A group of masculine nouns behaves differently. They add -n or -en in every case except the nominative singular: \"der Kollege\", \"den Kollegen\", \"dem Kollegen\", \"des Kollegen\", and in the plural \"die Kollegen\" throughout. Grammars call this the n-declension, or weak masculine nouns.",
-          "The ending is the same in accusative, dative and genitive, which makes the group easy once you know which nouns belong to it. Note what does not happen: these nouns do not add an extra -s in the genitive. It is \"des Kollegen\", never *des Kollegens*.",
+          "The ending is the same in accusative, dative and genitive, which makes the group easy once you know which nouns belong to it. Note what does not happen: these nouns do not add an extra -s in the genitive. It is \"des Kollegen\", never \"*des Kollegens*\".",
           "English has nothing like this, so learners simply forget the ending. A German hears \"Ich habe meinen Nachbar gesehen\" the way you hear I seen him: understandable, but clearly wrong. The correct sentence is \"Ich habe meinen Nachbarn gesehen\".",
         ],
         examples: [
@@ -219,10 +219,10 @@ export const DE_B1_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which noun is NOT an n-noun (weak masculine)?",
-        options: ["der Lehrer", "der Kollege", "der Polizist", "der Bauer"],
+        question: "Which sentence is correct?",
+        options: ["Ich habe den Lehrer gefragt.", "Ich habe den Kollege gefragt.", "Ich habe den Polizist gefragt.", "Ich habe den Student gefragt."],
         correctIndex: 0,
-        explanation: "\"Lehrer\" is a normal masculine noun (\"den Lehrer\", \"des Lehrers\"). \"Kollege\" (-e person), \"Polizist\" (-ist) and \"Bauer\" (a learned exception) are weak.",
+        explanation: "\"Lehrer\" is a normal masculine noun, so \"den Lehrer\" has no extra ending. \"Kollege\" (-e person), \"Polizist\" (-ist) and \"Student\" (-ent) are weak and need \"den Kollegen\", \"den Polizisten\", \"den Studenten\".",
       },
       {
         type: "speak",
@@ -267,7 +267,7 @@ export const DE_B1_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Lena wrote: \"Ich habe dem Kollege gleich alles gezeigt.\" What's the correct version?",
+            question: "Lena wrote: \"*Ich habe dem Kollege gleich alles gezeigt.\" What's the correct version?",
             options: ["Ich habe dem Kollegen gleich alles gezeigt.", "Ich habe den Kollegen gleich alles gezeigt.", "Ich habe dem Kolleges gleich alles gezeigt.", "Ich habe der Kollege gleich alles gezeigt."],
             correctIndex: 0,
             explanation: "\"Zeigen\": you show something (accusative, \"alles\") to someone (dative, \"dem\"). The weak noun adds -n: \"dem Kollegen\".",
@@ -305,7 +305,7 @@ export const DE_B1_U21: Lesson[] = [
             en: "By the way, [the customer's] name was Felix too.",
             sentence: "Der Name ___ war übrigens auch Felix.",
             answer: "des Kunden",
-            explanation: "Genitive of a weak noun: \"des Kunden\", -n and no -s. *Des Kundes* is a typical overcorrection.",
+            explanation: "Genitive of a weak noun: \"des Kunden\", -n and no -s. \"*Des Kundes*\" is a typical overcorrection.",
           },
           {
             type: "speak",
@@ -319,7 +319,7 @@ export const DE_B1_U21: Lesson[] = [
         heading: "Rewrite it: the full corrected email",
         body: [
           "Lena's final paragraph has the same problem with \"Mensch\", \"Student\" and \"Nachbar\": \"Abends habe ich noch meinen Nachbar getroffen. Er hat einen Student aus Spanien bei sich wohnen. Ich finde, man lernt jeden Tag einen neuen Mensch kennen!\"",
-          "Corrected: \"meinen Nachbarn\", \"einen Studenten\", \"einen neuen Menschen\". \"Nachbar\" takes just -n, \"Student\" and \"Mensch\" take -en because they end in a consonant.",
+          "Corrected: \"meinen Nachbarn\", \"einen Studenten\", \"einen neuen Menschen\". \"Nachbar\" (like \"Bauer\") takes just -n; \"Student\" and \"Mensch\" take -en, as most weak nouns ending in a consonant do.",
           "When you've fixed everything, read the email aloud. The -n endings make the rhythm of the sentence smoother, and after a while a missing -n will start to sound as odd to you as it does to a German.",
         ],
         examples: [
@@ -345,7 +345,7 @@ export const DE_B1_U21: Lesson[] = [
             prompt: "Translate into German.",
             source: "He has a student from Spain living with him.",
             answer: "Er hat einen Studenten aus Spanien bei sich wohnen.",
-            altAnswers: ["Bei ihm wohnt ein Student aus Spanien."],
+            altAnswers: ["Bei ihm wohnt ein Student aus Spanien.", "Ein Student aus Spanien wohnt bei ihm."],
             explanation: "\"Einen Studenten\": accusative, weak noun ending in -ent, so -en. In the second version the student is the subject: \"ein Student\", no ending.",
           },
         ],
@@ -384,7 +384,7 @@ export const DE_B1_U21: Lesson[] = [
         question: "Which sentence from a learner's email is correct?",
         options: ["Felix ist ein netter Kollege.", "Felix ist ein netter Kollegen.", "Ich mag den Kollege.", "Ich habe mit dem Kollege gesprochen."],
         correctIndex: 0,
-        explanation: "After \"sein\" the noun is nominative, so \"ein netter Kollege\" has no -n. The other two need \"den Kollegen\" and \"dem Kollegen\".",
+        explanation: "After \"sein\" the noun is nominative, so \"ein netter Kollege\" has no -n (\"ein netter Kollegen\" adds one wrongly). The last two need \"den Kollegen\" and \"dem Kollegen\".",
       },
       {
         type: "translate",
@@ -523,8 +523,8 @@ export const DE_B1_U21: Lesson[] = [
       {
         heading: "Names: Annas Auto, no apostrophe",
         body: [
-          "With a name, German puts the owner first, as English does, and adds -s with no apostrophe: \"Annas Auto\", \"Jonas' Wohnung\" (names ending in an s-sound take only an apostrophe), \"Deutschlands Hauptstadt\", \"Goethes Gedichte\". *Anna's Auto* is a common error, influenced by English and seen on many shop signs, but it's not standard.",
-          "The noun that follows has no article: \"Annas Auto\", not *das Annas Auto*. The name already makes it definite, like my or your.",
+          "With a name, German puts the owner first, as English does, and adds -s with no apostrophe: \"Annas Auto\", \"Jonas' Wohnung\" (names ending in an s-sound take only an apostrophe), \"Deutschlands Hauptstadt\", \"Goethes Gedichte\". \"*Anna's Auto*\" is a common error, influenced by English; it's tolerated on shop signs, but in normal writing it's not standard.",
+          "The noun that follows has no article: \"Annas Auto\", not \"*das Annas Auto*\". The name already makes it definite, like my or your.",
           "With a title or an article, the genitive goes after the noun again: \"das Büro von Frau Schneider\" or, in writing, \"das Büro Frau Schneiders\". In everyday speech most people avoid this and use \"von\".",
         ],
         examples: [
@@ -557,8 +557,8 @@ export const DE_B1_U21: Lesson[] = [
         heading: "In speech: von + dative",
         body: [
           "Spoken German uses the genitive much less than written German. In conversation the usual way to say whose is \"von\" + dative: \"das Auto von meinem Bruder\", \"die Wohnung von Anna\", \"ein Freund von mir\". This is perfectly correct, not sloppy; it's just less formal.",
-          "In some cases \"von\" is the only option: when there's no article to show the genitive (\"der Preis von Äpfeln\" sounds better than *der Preis Äpfel*), and with pronouns (\"ein Freund von mir\", a friend of mine). In emails, reports and essays, though, use the genitive: it's what Intermediate exams expect in writing.",
-          "So you have three ways to talk about Anna's brother's car: written \"das Auto des Bruders von Anna\" or \"das Auto von Annas Bruder\", and spoken \"das Auto von Annas Bruder\" or \"das Auto vom Bruder von Anna\". Mixing a name genitive with \"von\" like this is very common.",
+          "In some cases \"von\" is the only option: when there's no article to show the genitive (\"der Preis von Äpfeln\" sounds better than \"*der Preis Äpfel*\"), and with pronouns (\"ein Freund von mir\", a friend of mine). In emails, reports and essays, though, use the genitive: it's what Intermediate exams expect in writing.",
+          "So you have several ways to talk about Anna's brother's car: written \"das Auto des Bruders von Anna\", and spoken \"das Auto von Annas Bruder\" or \"das Auto vom Bruder von Anna\". Mixing a name genitive with \"von\" like this is very common.",
         ],
         examples: [
           { es: "Das ist das Auto von meinem Bruder.", en: "That's my brother's car. (spoken)" },
@@ -932,8 +932,8 @@ export const DE_B1_U21: Lesson[] = [
         heading: "Innerhalb, außerhalb and a few more",
         body: [
           "\"Innerhalb\" (within, inside) and \"außerhalb\" (outside) take the genitive for both time and place: \"innerhalb einer Woche\" (within a week), \"innerhalb der Stadt\", \"außerhalb der Öffnungszeiten\" (outside opening hours), \"Wir wohnen außerhalb der Stadt\".",
-          "Official German has many more genitive prepositions (\"aufgrund\", \"bezüglich\", \"laut\", \"infolge\"), and you'll see them in letters from your bank or landlord. At the Intermediate level, recognise \"aufgrund\" (owing to: \"aufgrund des Streiks\") and \"laut\" (according to: \"laut des Berichts\", though \"laut dem Bericht\" is also common).",
-          "When there's no article and nothing to show the genitive, these prepositions switch to \"von\" + dative: \"innerhalb von zwei Wochen\", \"außerhalb von Berlin\". That's why you'll hear \"innerhalb von drei Tagen\" much more than *innerhalb drei Tage*.",
+          "Official German has many more genitive prepositions (\"aufgrund\", \"bezüglich\", \"laut\", \"infolge\"), and you'll see them in letters from your bank or landlord. At the Intermediate level, recognise \"aufgrund\" (owing to: \"aufgrund des Streiks\") and \"laut\" (according to: usually \"laut dem Bericht\", in formal writing also \"laut des Berichts\").",
+          "When there's no article and nothing to show the genitive, these prepositions switch to \"von\" + dative: \"innerhalb von zwei Wochen\", \"außerhalb von Berlin\". That's why you'll hear \"innerhalb von drei Tagen\" much more than \"*innerhalb drei Tage*\".",
         ],
         examples: [
           { es: "Bitte bezahlen Sie die Rechnung innerhalb einer Woche.", en: "Please pay the invoice within a week." },
@@ -1217,7 +1217,7 @@ export const DE_B1_U21: Lesson[] = [
         body: [
           "\"Meiner Meinung nach\" (in my opinion) is one of the most useful phrases at the Intermediate level, and a trap. \"Nach\" here follows its noun and takes the dative, as \"nach\" always does. \"Meiner Meinung\" is dative feminine, which happens to look identical to the genitive.",
           "You can see it with other people: \"seiner Meinung nach\" (in his opinion), \"ihrer Meinung nach\" (in her or their opinion), \"nach Ansicht der Experten\" (according to the experts).",
-          "The phrase fills position 1, so the verb comes next: \"Meiner Meinung nach ist das zu teuer\". *Meiner Meinung nach das ist zu teuer* is the classic English-speaker slip.",
+          "The phrase fills position 1, so the verb comes next: \"Meiner Meinung nach ist das zu teuer\". \"*Meiner Meinung nach das ist zu teuer*\" is the classic English-speaker slip.",
         ],
         examples: [
           { es: "Meiner Meinung nach ist das zu teuer.", en: "In my opinion that's too expensive." },
@@ -1378,7 +1378,7 @@ export const DE_B1_U21: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Error Hunt: N-Declension and Genitive",
-    summary: "Find and fix the typical mistakes: *des Mann, *der Auto meines Vater, *Anna's Auto, *trotz das Wetter, *mit dem Nachbar, *Ich kenne den Student.",
+    summary: "Find and fix the typical mistakes: \"*des Mann\", \"*der Auto meines Vater\", \"*Anna's Auto\", \"*trotz das Wetter\", \"*mit dem Nachbar\", \"*Ich kenne den Student\".",
     duration: "12 min",
     sections: [
       {
@@ -1399,7 +1399,7 @@ export const DE_B1_U21: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. (A learner wrote: Das ist der Auto meines Vater.)",
+            prompt: "Translate into German. (A learner wrote: \"*Das ist der Auto meines Vater.\")",
             source: "That's my father's car.",
             answer: "Das ist das Auto meines Vaters.",
             altAnswers: ["Das ist der Wagen meines Vaters."],
@@ -1407,7 +1407,7 @@ export const DE_B1_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A learner wrote: Die Tasche der Fraus wurde gestohlen. Which is the correct version?",
+            question: "A learner wrote: \"*Die Tasche der Fraus wurde gestohlen.\" Which is the correct version?",
             options: ["Die Tasche der Frau wurde gestohlen.", "Die Tasche des Frau wurde gestohlen.", "Die Tasche der Frauen wurde gestohlen.", "Die Tasche die Frau wurde gestohlen."],
             correctIndex: 0,
             explanation: "Feminine genitive: article \"der\" and no ending on the noun. \"Der Frauen\" would be the women's.",
@@ -1417,7 +1417,7 @@ export const DE_B1_U21: Lesson[] = [
       {
         heading: "Anna's Auto and trotz das Wetter",
         body: [
-          "Names take -s without an apostrophe in standard German: \"Annas Auto\", not *Anna's Auto*. The apostrophe is only used when the name already ends in an s-sound: \"Jonas' Auto\", \"Max' Bruder\".",
+          "Names take -s without an apostrophe in standard German: \"Annas Auto\", not \"*Anna's Auto*\". The apostrophe is only used when the name already ends in an s-sound: \"Jonas' Auto\", \"Max' Bruder\".",
           "Genitive prepositions need the full genitive, article and noun ending both. Learners often write the nominative or accusative: \"*trotz das Wetter\" should be \"trotz des Wetters\", \"*während die Pause\" should be \"während der Pause\", \"*wegen den Stau\" should be \"wegen des Staus\".",
           "Check your genitive phrase in three steps: Is the article right (des / der)? Does a masculine or neuter noun have its -s? Does any adjective end in -en?",
         ],
@@ -1432,7 +1432,7 @@ export const DE_B1_U21: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. (A learner wrote: Trotz das Wetter haben wir draußen gegessen.)",
+            prompt: "Translate into German. (A learner wrote: \"*Trotz das Wetter haben wir draußen gegessen.\")",
             source: "Despite the weather we ate outside.",
             answer: "Trotz des Wetters haben wir draußen gegessen.",
             altAnswers: ["Wir haben trotz des Wetters draußen gegessen.", "Trotz des Wetters aßen wir draußen."],
@@ -1440,7 +1440,7 @@ export const DE_B1_U21: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Write the German for the bold words. (A learner wrote: wegen den Stau.)",
+            prompt: "Write the German for the bold words. (A learner wrote: \"*wegen den Stau\".)",
             en: "I was late [because of the traffic jam].",
             sentence: "Ich bin ___ zu spät gekommen.",
             answer: "wegen des Staus",
@@ -1466,7 +1466,7 @@ export const DE_B1_U21: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. (A learner wrote: Ich kenne den Student.)",
+            prompt: "Translate into German. (A learner wrote: \"*Ich kenne den Student.\")",
             source: "I know the student.",
             answer: "Ich kenne den Studenten.",
             altAnswers: ["Ich kenne die Studentin."],
@@ -1492,7 +1492,7 @@ export const DE_B1_U21: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. (A learner wrote: die Jacke des Mann.)",
+        prompt: "Translate into German. (A learner wrote: \"*die Jacke des Mann\".)",
         source: "The man's jacket is still on the chair.",
         answer: "Die Jacke des Mannes liegt noch auf dem Stuhl.",
         altAnswers: ["Die Jacke des Mannes hängt noch über dem Stuhl.", "Die Jacke des Mannes hängt noch am Stuhl."],
@@ -1501,7 +1501,7 @@ export const DE_B1_U21: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. (A learner wrote: Mia's Bruder.)",
+        prompt: "Translate into German. (A learner wrote: \"*Mia's Bruder\".)",
         source: "Mia's brother works in Munich.",
         answer: "Mias Bruder arbeitet in München.",
         altAnswers: ["Der Bruder von Mia arbeitet in München."],
@@ -1510,7 +1510,7 @@ export const DE_B1_U21: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. (A learner wrote: während die Pause.)",
+        prompt: "Translate into German. (A learner wrote: \"*während die Pause\".)",
         source: "I made a call during the break.",
         answer: "Während der Pause habe ich telefoniert.",
         altAnswers: ["Ich habe während der Pause telefoniert.", "Während der Pause telefonierte ich.", "Ich habe während der Pause angerufen.", "Während der Pause habe ich angerufen."],
@@ -1518,7 +1518,7 @@ export const DE_B1_U21: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Write the German for the bold words. (A learner wrote: einen Kollege.)",
+        prompt: "Write the German for the bold words. (A learner wrote: \"*einen Kollege\".)",
         en: "I asked [a colleague] for help.",
         sentence: "Ich habe ___ um Hilfe gebeten.",
         answer: "einen Kollegen",
@@ -1528,7 +1528,7 @@ export const DE_B1_U21: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. (A learner wrote: Ich habe Herr Becker gefragt.)",
+        prompt: "Translate into German. (A learner wrote: \"*Ich habe Herr Becker gefragt.\")",
         source: "I asked Mr Becker.",
         answer: "Ich habe Herrn Becker gefragt.",
         altAnswers: ["Ich fragte Herrn Becker."],
@@ -1544,7 +1544,7 @@ export const DE_B1_U21: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. (A learner wrote: Der Geburtstag meinem Sohn ist im Juni.)",
+        prompt: "Translate into German. (A learner wrote: \"*Der Geburtstag meinem Sohn ist im Juni.\")",
         source: "My son's birthday is in June.",
         answer: "Der Geburtstag meines Sohnes ist im Juni.",
         altAnswers: ["Mein Sohn hat im Juni Geburtstag."],
@@ -1605,7 +1605,7 @@ export const DE_B1_U21: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "Write the German for the bold words. (Spoken: das Spielzeug von meinen Kindern.)",
+            prompt: "Write the German for the bold words. (Spoken: \"das Spielzeug von meinen Kindern\".)",
             en: "[My children's] toys are everywhere.",
             sentence: "Das Spielzeug ___ liegt überall.",
             answer: "meiner Kinder",
@@ -1648,7 +1648,7 @@ export const DE_B1_U21: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Spoken: das Auto von meinem alten Nachbarn. What's the written genitive?",
+            question: "Spoken: \"das Auto von meinem alten Nachbarn\". What's the written genitive?",
             options: ["das Auto meines alten Nachbarn", "das Auto meines alten Nachbars", "das Auto meinem alten Nachbarn", "das Auto meines alte Nachbar"],
             correctIndex: 0,
             explanation: "\"Meines\" (masculine genitive), adjective -en, and \"Nachbar\" is weak: -n, not -s.",
@@ -1727,7 +1727,7 @@ export const DE_B1_U21: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Written: Die Zimmer der Studenten sind klein. Which is the spoken version?",
+        question: "Written: \"Die Zimmer der Studenten sind klein.\" Which is the spoken version?",
         options: ["Die Zimmer von den Studenten sind klein.", "Die Zimmer von der Studenten sind klein.", "Die Zimmer vom Studenten sind klein.", "Die Zimmer von die Studenten sind klein."],
         correctIndex: 0,
         explanation: "Plural \"der\" → \"von den\" + dative plural. \"Vom Studenten\" would be one student.",
@@ -1816,8 +1816,8 @@ export const DE_B1_U21: Lesson[] = [
       {
         heading: "Bruno and his owner",
         body: [
-          "The second paragraph: \"Mein Liebling ist Bruno, ein alter Schäferhund. Der Besitzer des Hundes musste wegen eines Umzugs ins Ausland ziehen und konnte ihn nicht mitnehmen. Bruno war am Anfang sehr traurig. Er hat niemanden an sich herangelassen, außer einem jungen Praktikanten, der jeden Tag mit ihm spazieren gegangen ist.\"",
-          "Two weak nouns appear: \"einem jungen Praktikanten\" (dative after \"außer\") and \"der Schäferhund\" is normal. \"Des Hundes\" shows the -es of a one-syllable masculine noun. \"Wegen eines Umzugs\": indefinite genitive with \"wegen\".",
+          "The second paragraph: \"Mein Liebling ist Bruno, ein alter Schäferhund. Der Besitzer des Hundes musste wegen eines neuen Jobs ins Ausland ziehen und konnte ihn nicht mitnehmen. Bruno war am Anfang sehr traurig. Er hat niemanden an sich herangelassen, außer einem jungen Praktikanten, der jeden Tag mit ihm spazieren gegangen ist.\"",
+          "One weak noun appears: \"einem jungen Praktikanten\" (dative after \"außer\"); \"der Schäferhund\" is a normal noun. \"Des Hundes\" shows the -es of a one-syllable masculine noun. \"Wegen eines neuen Jobs\": indefinite genitive with \"wegen\", adjective -en.",
           "The relative clause \"der jeden Tag mit ihm spazieren gegangen ist\" sends its verb to the end, with the auxiliary last.",
         ],
         examples: [
@@ -1834,7 +1834,7 @@ export const DE_B1_U21: Lesson[] = [
             prompt: "Translate into German.",
             source: "The dog's owner had to move abroad.",
             answer: "Der Besitzer des Hundes musste ins Ausland ziehen.",
-            altAnswers: ["Die Besitzerin des Hundes musste ins Ausland ziehen.", "Der Besitzer des Hundes ist ins Ausland gezogen."],
+            altAnswers: ["Die Besitzerin des Hundes musste ins Ausland ziehen.", "Der Besitzer des Hundes hat ins Ausland ziehen müssen."],
             explanation: "\"Des Hundes\": masculine one-syllable noun with -es. Modal verbs prefer the Präteritum: \"musste\".",
           },
           {
@@ -2021,7 +2021,7 @@ export const DE_B1_U21: Lesson[] = [
         body: [
           "In a relative clause, whose is \"dessen\" (after a masculine or neuter noun) or \"deren\" (after a feminine or plural noun): \"der Nachbar, dessen Hund immer bellt\", \"die Kollegin, deren Mann Arzt ist\", \"die Kinder, deren Eltern arbeiten\".",
           "The choice depends on the owner, not on the thing owned. \"Die Frau, dessen Auto...\" is wrong: the owner \"die Frau\" is feminine, so \"deren\", whatever the gender of \"Auto\". This is the same logic as \"ihr Auto\" (her car).",
-          "\"Dessen\" and \"deren\" never change, and they take no article after them: \"der Mann, dessen Tochter...\", never *dessen die Tochter*. An adjective after them takes strong endings: \"die Nachbarin, deren neues Auto vor der Tür steht\".",
+          "\"Dessen\" and \"deren\" never change, and they take no article after them: \"der Mann, dessen Tochter...\", never \"*dessen die Tochter*\". An adjective after them takes strong endings: \"die Nachbarin, deren neues Auto vor der Tür steht\".",
         ],
         examples: [
           { es: "Das ist der Nachbar, dessen Hund immer bellt.", en: "That's the neighbour whose dog always barks." },

@@ -8,7 +8,7 @@ export const DE_C2_U27: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Umwelt und Politik, Part 1 of 3",
-    summary: "Climate and energy policy in German: Energiewende, Atom- and Kohleausstieg, Klimaneutralität and Wärmepumpe, the noun-heavy style of policy texts, and the passive and impersonal constructions of political news.",
+    summary: "Discuss German climate and energy policy (\"Energiewende\", \"Atomausstieg\", \"Kohleausstieg\", \"Klimaneutralität\"), read the noun-heavy style of policy texts, and use the passive and impersonal constructions of political news.",
     duration: "18 min",
     sections: [
       {
@@ -157,7 +157,7 @@ export const DE_C2_U27: Lesson[] = [
         source: "The last nuclear power stations were shut down in 2023.",
         answer: "Die letzten Atomkraftwerke gingen 2023 vom Netz.",
         altAnswers: ["2023 gingen die letzten Atomkraftwerke vom Netz.", "Die letzten Atomkraftwerke wurden 2023 abgeschaltet.", "2023 wurden die letzten Atomkraftwerke abgeschaltet.", "Die letzten Kernkraftwerke gingen 2023 vom Netz.", "Die letzten Atomkraftwerke sind 2023 vom Netz gegangen.", "Die letzten Kernkraftwerke wurden 2023 abgeschaltet."],
-        explanation: "\"Vom Netz gehen\" or \"abgeschaltet werden\". A bare year needs no preposition in German: \"2023\" (or \"im Jahr 2023\"), never in 2023.",
+        explanation: "\"Vom Netz gehen\" or \"abgeschaltet werden\". A bare year needs no preposition in German: \"2023\" (or \"im Jahr 2023\"), not the anglicism \"in 2023\".",
       },
       {
         type: "fill-blank",
@@ -173,6 +173,7 @@ export const DE_C2_U27: Lesson[] = [
         prompt: "Put the words in order to say: The coalition has been arguing about the budget for weeks.",
         words: ["In der Koalition", "wird", "seit Wochen", "über den Haushalt", "gestritten."],
         translation: "The coalition has been arguing about the budget for weeks.",
+        altOrders: [["Seit Wochen", "wird", "in der Koalition", "über den Haushalt", "gestritten."]],
         explanation: "Subjectless passive: \"wird ... gestritten\". \"Seit\" + present tense for something still going on.",
       },
       {
@@ -191,7 +192,7 @@ export const DE_C2_U27: Lesson[] = [
         source: "Electricity prices are expected to rise further.",
         answer: "Es wird erwartet, dass die Strompreise weiter steigen.",
         altAnswers: ["Es wird damit gerechnet, dass die Strompreise weiter steigen.", "Es ist damit zu rechnen, dass die Strompreise weiter steigen.", "Man erwartet, dass die Strompreise weiter steigen.", "Die Strompreise dürften weiter steigen.", "Man rechnet damit, dass die Strompreise weiter steigen."],
-        explanation: "English are expected to + infinitive becomes \"Es wird erwartet, dass...\": German can't say \"Die Strompreise werden erwartet zu steigen\".",
+        explanation: "English are expected to + infinitive becomes \"Es wird erwartet, dass...\": German can't say \"*Die Strompreise werden erwartet zu steigen*\".",
       },
       {
         type: "multiple-choice",
@@ -227,7 +228,7 @@ export const DE_C2_U27: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Word Web: Klima und Verantwortung",
-    summary: "The vocabulary of responsibility in climate debates: Verursacher and Verursacherprinzip, Ausgleich and Ressourcen, Nachhaltigkeit, Generationen- and Klimagerechtigkeit, and the language of climate activism.",
+    summary: "Argue about responsibility in climate debates with \"Verursacher\" and \"Verursacherprinzip\", \"Ausgleich\", \"Nachhaltigkeit\", \"Generationengerechtigkeit\" and \"Klimagerechtigkeit\", and choose neutral words for climate activism.",
     duration: "16 min",
     sections: [
       {
@@ -328,7 +329,7 @@ export const DE_C2_U27: Lesson[] = [
           { es: "Seit 2019 gehen Schülerinnen und Schüler freitags für mehr Klimaschutz auf die Straße.", en: "Since 2019 school students have taken to the streets on Fridays for more climate protection." },
           { es: "Mit Straßenblockaden sorgte die Letzte Generation 2022 und 2023 für Schlagzeilen.", en: "With road blockades, Letzte Generation made headlines in 2022 and 2023." },
           { es: "Einige Aktivisten klebten sich auf der Fahrbahn fest.", en: "Some activists glued themselves to the road." },
-          { es: "„Klimaterroristen“ wurde zum Unwort des Jahres 2022 gewählt.", en: "Climate terrorists was chosen as the non-word of the year 2022." },
+          { es: "„Klimaterroristen“ wurde zum Unwort des Jahres 2022 gewählt.", en: "'Climate terrorists' was chosen as the non-word of the year 2022." },
           { es: "Ziviler Ungehorsam ist eine umstrittene Protestform.", en: "Civil disobedience is a controversial form of protest." },
           { es: "Ob solche Aktionen dem Anliegen nützen oder schaden, wird heftig diskutiert.", en: "Whether such actions help or harm the cause is hotly debated." },
         ],
@@ -347,7 +348,7 @@ export const DE_C2_U27: Lesson[] = [
             question: "You're writing a neutral news report about a road blockade. Which word do you use for the protesters?",
             options: ["Klimaaktivisten", "Klimakleber", "Klimaterroristen", "Ökospinner"],
             correctIndex: 0,
-            explanation: "\"Klimaaktivisten\" describes; the others judge. \"Klimaterroristen\" was even named the Unwort des Jahres 2022.",
+            explanation: "\"Klimaaktivisten\" describes; the others judge. \"Klimaterroristen\" was even named \"Unwort des Jahres\" 2022.",
           },
           {
             type: "translate",
@@ -454,7 +455,7 @@ export const DE_C2_U27: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Umwelt und Politik, Part 2 of 3",
-    summary: "How German, Austrian and Swiss politics work in German: Bundestag and Bundesrat, Länder and Föderalismus, Kanzler vs Präsident, coalitions and the five per cent hurdle, and Swiss direct democracy.",
+    summary: "Explain how German, Austrian and Swiss politics work: \"Bundestag\" and \"Bundesrat\", \"Länder\" and \"Föderalismus\", \"Kanzler\" vs \"Präsident\", coalitions and the five per cent hurdle, and Swiss direct democracy.",
     duration: "18 min",
     sections: [
       {
@@ -672,8 +673,8 @@ export const DE_C2_U27: Lesson[] = [
     slug: "c2-polarised-vs-deliberative-contrast",
     level: "DE-C2",
     number: 4,
-    title: "Contrast Clinic: Polarisierte und Abwägende Sprache",
-    summary: "The same climate policy in a tweet, a tabloid headline and a quality commentary: spot loaded words like Heizungshammer and Verbotspartei, and rewrite polarised claims in neutral, balanced German.",
+    title: "Contrast Clinic: Polarisierte und abwägende Sprache",
+    summary: "Compare the same climate policy in a tweet, a tabloid headline and a quality commentary: spot loaded words like \"Heizungshammer\" and \"Verbotspartei\", and rewrite polarised claims in neutral, balanced German.",
     duration: "17 min",
     sections: [
       {
@@ -893,7 +894,7 @@ export const DE_C2_U27: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Umwelt und Politik, Part 3 of 3",
-    summary: "Opinion genres and evaluation: Kommentar, Leitartikel, Gastbeitrag and Glosse; judging with es ist + adjective + dass; presenting opponents fairly in Konjunktiv I; and building a concessive argument.",
+    summary: "Tell the opinion genres apart (\"Kommentar\", \"Leitartikel\", \"Gastbeitrag\", \"Glosse\"), evaluate with \"es ist\" + adjective + \"dass\", present opponents fairly in Konjunktiv I, and build a concessive argument.",
     duration: "18 min",
     sections: [
       {
@@ -1114,7 +1115,7 @@ export const DE_C2_U27: Lesson[] = [
     slug: "c2-opinion-column-mission",
     level: "DE-C2",
     number: 6,
-    title: "Real-World Mission: Ein Ausgewogener Gastbeitrag",
+    title: "Real-World Mission: Ein ausgewogener Gastbeitrag",
     summary: "Write a balanced guest column for the local paper about a planned wind farm: state the occasion and your position, weigh the residents' concerns fairly, and end with a clear conclusion and appeal.",
     duration: "18 min",
     sections: [
@@ -1333,8 +1334,8 @@ export const DE_C2_U27: Lesson[] = [
     slug: "c2-political-grammar-spiral",
     level: "DE-C2",
     number: 7,
-    title: "Spiral Review: Die Grammatik des Politischen Diskurses",
-    summary: "Mix the grammar of political texts: passive alternatives (lassen sich, sein + zu, -bar), Konjunktiv I in reporting, nominal style with genitive prepositions, and argument connectors like zumal and wohingegen.",
+    title: "Spiral Review: Die Grammatik des politischen Diskurses",
+    summary: "Combine the grammar of political texts: passive alternatives (\"lassen sich\", \"sein + zu\", \"-bar\"), Konjunktiv I in reporting, nominal style with genitive prepositions, and argument connectors like \"zumal\" and \"wohingegen\".",
     duration: "17 min",
     sections: [
       {
@@ -1555,7 +1556,7 @@ export const DE_C2_U27: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Mastery Vocabulary: Verbs of Sound and Light",
-    summary: "Precise verbs for sounds and light: rauschen, knistern, knarren, plätschern, summen, dröhnen, flüstern; glänzen, schimmern, funkeln, flackern, glühen, blenden and dämmern, with their figurative uses.",
+    summary: "Describe sounds and light precisely with verbs like \"rauschen\", \"knistern\", \"knarren\", \"summen\", \"dröhnen\", \"glänzen\", \"funkeln\", \"flackern\" and \"dämmern\", and understand their figurative uses.",
     duration: "16 min",
     sections: [
       {
@@ -1614,7 +1615,7 @@ export const DE_C2_U27: Lesson[] = [
           { es: "Aus der Wohnung nebenan dröhnt laute Musik.", en: "Loud music is booming from the flat next door." },
           { es: "Nach der Feier brummte mir der Schädel.", en: "After the party my head was pounding." },
           { es: "Die Bremsen quietschten, als der Zug einfuhr.", en: "The brakes squealed as the train pulled in." },
-          { es: "„Nicht so laut“, flüsterte er.", en: "Not so loud, he whispered." },
+          { es: "„Nicht so laut“, flüsterte er.", en: "'Not so loud,' he whispered." },
         ],
         checkpoint: [
           {

@@ -36,7 +36,7 @@ export const DE_B2_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "You want to say: He helped his father yesterday. Which sentence is correct?",
             options: ["Er hat seinem Vater gestern geholfen.", "Er hat geholfen seinem Vater gestern.", "Er hat seinem Vater geholfen gestern.", "Er geholfen hat seinem Vater gestern."],
             correctIndex: 0,
             explanation: "The participle closes the bracket at the end; objects and adverbs stay inside.",
@@ -117,6 +117,7 @@ export const DE_B2_U19: Lesson[] = [
             prompt: "Put the words in order to say: Tomorrow I'm taking the train to Cologne for work.",
             words: ["Ich", "fahre", "morgen", "wegen", "der", "Arbeit", "mit", "dem", "Zug", "nach Köln."],
             translation: "Tomorrow I'm taking the train to Cologne for work.",
+            altOrders: [["Morgen", "fahre", "ich", "wegen", "der", "Arbeit", "mit", "dem", "Zug", "nach Köln."]],
             explanation: "TeKaMoLo: \"morgen\" – \"wegen der Arbeit\" – \"mit dem Zug\" – \"nach Köln\".",
           },
         ],
@@ -169,7 +170,7 @@ export const DE_B2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence sounds most natural?",
+        question: "You want to say: I told him yesterday. Which sentence sounds most natural?",
         options: ["Ich habe es ihm gestern gesagt.", "Ich habe ihm es gestern gesagt.", "Ich habe gestern ihm es gesagt.", "Ich habe gesagt es ihm gestern."],
         correctIndex: 0,
         explanation: "Pronouns first, accusative before dative: \"es ihm\".",
@@ -220,7 +221,7 @@ export const DE_B2_U19: Lesson[] = [
     slug: "b2-pattern-tekamolo",
     level: "DE-B2",
     number: 2,
-    title: "Pattern Practice: Morgen Wegen der Arbeit mit dem Zug Nach Köln",
+    title: "Pattern Practice: Morgen wegen der Arbeit mit dem Zug nach Köln",
     summary: "One frame drilled with many adverbials: add a time, a cause, a manner and a place in the right order.",
     duration: "13 min",
     sections: [
@@ -278,6 +279,7 @@ export const DE_B2_U19: Lesson[] = [
             prompt: "Put the words in order to say: We're going to the theatre with friends this evening.",
             words: ["Wir", "gehen", "heute", "Abend", "mit", "Freunden", "ins", "Theater."],
             translation: "We're going to the theatre with friends this evening.",
+            altOrders: [["Heute", "Abend", "gehen", "wir", "mit", "Freunden", "ins", "Theater."]],
             explanation: "Time (\"heute Abend\") – manner (\"mit Freunden\") – place (\"ins Theater\").",
           },
           {
@@ -351,7 +353,7 @@ export const DE_B2_U19: Lesson[] = [
         source: "Yesterday she took a taxi to the airport.",
         answer: "Sie ist gestern mit dem Taxi zum Flughafen gefahren.",
         altAnswers: ["Gestern ist sie mit dem Taxi zum Flughafen gefahren.", "Sie fuhr gestern mit dem Taxi zum Flughafen.", "Gestern fuhr sie mit dem Taxi zum Flughafen."],
-        explanation: "Time – manner – place; \"fahren\" takes sein.",
+        explanation: "Time – manner – place; \"fahren\" takes \"sein\".",
       },
       {
         type: "translate",
@@ -382,7 +384,7 @@ export const DE_B2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence sounds most natural?",
+        question: "You want to say: I'm driving to Leipzig tomorrow. Which sentence sounds most natural?",
         options: ["Ich fahre morgen mit dem Auto nach Leipzig.", "Ich fahre nach Leipzig mit dem Auto morgen.", "Ich fahre mit dem Auto nach Leipzig morgen.", "Ich fahre nach Leipzig morgen mit dem Auto."],
         correctIndex: 0,
         explanation: "TeKaMoLo: time – manner – place.",
@@ -392,6 +394,7 @@ export const DE_B2_U19: Lesson[] = [
         prompt: "Put the words in order to say: Last week I took the bus to Bonn for an appointment.",
         words: ["Ich", "bin", "letzte Woche", "wegen", "eines Termins", "mit dem Bus", "nach Bonn", "gefahren."],
         translation: "Last week I took the bus to Bonn for an appointment.",
+        altOrders: [["Letzte Woche", "bin", "ich", "wegen", "eines Termins", "mit dem Bus", "nach Bonn", "gefahren."]],
         explanation: "Time – cause – manner – place, participle at the end.",
       },
       {
@@ -443,7 +446,7 @@ export const DE_B2_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "You want to say: It was cold. We went swimming anyway. Which sentence is correct?",
             options: ["Es war kalt. Trotzdem sind wir schwimmen gegangen.", "Es war kalt. Trotzdem wir sind schwimmen gegangen.", "Es war kalt. Obwohl sind wir schwimmen gegangen.", "Trotz es war kalt, sind wir schwimmen gegangen."],
             correctIndex: 0,
             explanation: "\"Trotzdem\" fills position 1, so the verb comes next.",
@@ -453,9 +456,9 @@ export const DE_B2_U19: Lesson[] = [
       {
         heading: "Turning a clause into a noun phrase",
         body: [
-          "Going from obwohl to trotz means nominalising the clause: the verb or adjective becomes a noun. \"Obwohl es regnete\" → \"trotz des Regens\"; \"obwohl er müde war\" → \"trotz seiner Müdigkeit\"; \"obwohl die Preise hoch sind\" → \"trotz der hohen Preise\".",
-          "The subject often becomes a possessive or a genitive: \"obwohl der Zug Verspätung hatte\" → \"trotz der Verspätung des Zuges\". Trotz is typical of written German; in conversation, obwohl and trotzdem are far more frequent.",
-          "Common nouns for this: der Regen, die Kälte, die Müdigkeit, die Krankheit, die Verspätung, die Warnung, die Kritik, die hohen Kosten, das schlechte Wetter.",
+          "Going from \"obwohl\" to \"trotz\" means nominalising the clause: the verb or adjective becomes a noun. \"Obwohl es regnete\" → \"trotz des Regens\"; \"obwohl er müde war\" → \"trotz seiner Müdigkeit\"; \"obwohl die Preise hoch sind\" → \"trotz der hohen Preise\".",
+          "The subject often becomes a possessive or a genitive: \"obwohl der Zug Verspätung hatte\" → \"trotz der Verspätung des Zuges\". \"Trotz\" is typical of written German; in conversation, \"obwohl\" and \"trotzdem\" are far more frequent.",
+          "Common nouns for this: \"der Regen\", \"die Kälte\", \"die Müdigkeit\", \"die Krankheit\", \"die Verspätung\", \"die Warnung\", \"die Kritik\", \"die hohen Kosten\", \"das schlechte Wetter\".",
         ],
         examples: [
           { es: "Obwohl die Preise hoch sind, kaufen viele Leute dort ein.", en: "Although prices are high, many people shop there." },
@@ -468,7 +471,7 @@ export const DE_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using trotz.",
+            prompt: "Translate into German using \"trotz\".",
             source: "Despite his tiredness he finished the report.",
             answer: "Trotz seiner Müdigkeit hat er den Bericht fertig geschrieben.",
             altAnswers: ["Trotz seiner Müdigkeit schrieb er den Bericht fertig.", "Trotz seiner Müdigkeit hat er den Bericht beendet.", "Trotz seiner Müdigkeit beendete er den Bericht.", "Trotz seiner Müdigkeit hat er den Bericht abgeschlossen."],
@@ -479,6 +482,7 @@ export const DE_B2_U19: Lesson[] = [
             prompt: "Put the words in order to say: Despite the high prices, many people shop there.",
             words: ["Trotz", "der hohen Preise", "kaufen", "viele Leute", "dort", "ein."],
             translation: "Despite the high prices, many people shop there.",
+            altOrders: [["Viele Leute", "kaufen", "trotz", "der hohen Preise", "dort", "ein."]],
             explanation: "The whole trotz-phrase is one element in position 1.",
           },
         ],
@@ -486,8 +490,8 @@ export const DE_B2_U19: Lesson[] = [
       {
         heading: "Trotzdem: position and pitfalls",
         body: [
-          "Trotzdem refers back to the previous sentence, so it sits in a second main clause: \"Ich war müde, trotzdem bin ich mitgekommen.\" It can also go in the Mittelfeld, after pronouns: \"Ich bin trotzdem mitgekommen.\"",
-          "Typical mistakes: \"*Trotzdem ich müde war\" (trotzdem is not a conjunction in standard German; use obwohl) and \"*Trotz ich müde war\" (trotz needs a noun). And English 'although' at the start of a sentence never becomes trotzdem.",
+          "\"Trotzdem\" refers back to the previous sentence, so it sits in a second main clause: \"Ich war müde, trotzdem bin ich mitgekommen.\" It can also go in the Mittelfeld, after pronouns: \"Ich bin trotzdem mitgekommen.\"",
+          "Typical mistakes: \"*Trotzdem ich müde war\" (\"trotzdem\" is not a conjunction in standard German; use \"obwohl\") and \"*Trotz ich müde war\" (\"trotz\" needs a noun). And English 'although' at the start of a sentence never becomes \"trotzdem\".",
           "In speech, \"trotzdem\" alone is a whole reply: \"Es ist teuer.\" – \"Ich kauf's trotzdem.\" ('I'm buying it anyway.')",
         ],
         examples: [
@@ -501,18 +505,18 @@ export const DE_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using trotzdem.",
+            prompt: "Translate into German using \"trotzdem\".",
             source: "The hotel was expensive. We stayed there anyway.",
             answer: "Das Hotel war teuer. Trotzdem haben wir dort übernachtet.",
             altAnswers: ["Das Hotel war teuer. Wir haben trotzdem dort übernachtet.", "Das Hotel war teuer. Trotzdem übernachteten wir dort.", "Das Hotel war teuer. Wir haben dort trotzdem übernachtet.", "Das Hotel war teuer. Trotzdem sind wir dort geblieben.", "Das Hotel war teuer. Wir sind trotzdem dort geblieben."],
-            explanation: "Trotzdem in position 1 → verb next; or in the Mittelfeld.",
+            explanation: "\"Trotzdem\" in position 1 → verb next; or in the Mittelfeld.",
           },
           {
             type: "multiple-choice",
             question: "Which sentence is wrong?",
             options: ["Trotzdem ich müde war, bin ich mitgekommen.", "Obwohl ich müde war, bin ich mitgekommen.", "Trotz meiner Müdigkeit bin ich mitgekommen.", "Ich war müde. Trotzdem bin ich mitgekommen."],
             correctIndex: 0,
-            explanation: "Trotzdem is an adverb, not a conjunction: use obwohl for a subordinate clause.",
+            explanation: "\"Trotzdem\" is an adverb, not a conjunction: use \"obwohl\" for a subordinate clause.",
           },
         ],
       },
@@ -521,7 +525,7 @@ export const DE_B2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using obwohl.",
+        prompt: "Translate into German using \"obwohl\".",
         source: "Although the train was late, we arrived on time.",
         answer: "Obwohl der Zug Verspätung hatte, sind wir pünktlich angekommen.",
         altAnswers: ["Obwohl der Zug Verspätung hatte, kamen wir pünktlich an.", "Obwohl der Zug verspätet war, sind wir pünktlich angekommen.", "Obwohl der Zug verspätet war, kamen wir pünktlich an.", "Obwohl der Zug zu spät war, sind wir pünktlich angekommen."],
@@ -530,7 +534,7 @@ export const DE_B2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using trotz.",
+        prompt: "Translate into German using \"trotz\".",
         source: "Despite the train's delay, we arrived on time.",
         answer: "Trotz der Verspätung des Zuges sind wir pünktlich angekommen.",
         altAnswers: ["Trotz der Verspätung des Zuges kamen wir pünktlich an.", "Trotz der Zugverspätung sind wir pünktlich angekommen.", "Trotz der Zugverspätung kamen wir pünktlich an."],
@@ -539,11 +543,11 @@ export const DE_B2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using trotzdem.",
+        prompt: "Translate into German using \"trotzdem\".",
         source: "The train was late. We still arrived on time.",
         answer: "Der Zug hatte Verspätung. Trotzdem sind wir pünktlich angekommen.",
         altAnswers: ["Der Zug hatte Verspätung. Wir sind trotzdem pünktlich angekommen.", "Der Zug hatte Verspätung. Trotzdem kamen wir pünktlich an.", "Der Zug war verspätet. Trotzdem sind wir pünktlich angekommen.", "Der Zug war verspätet. Wir sind trotzdem pünktlich angekommen."],
-        explanation: "Two main clauses: trotzdem refers back to the first.",
+        explanation: "Two main clauses: \"trotzdem\" refers back to the first.",
       },
       {
         type: "fill-blank",
@@ -551,7 +555,7 @@ export const DE_B2_U19: Lesson[] = [
         en: "[Despite all the criticism] the minister is sticking to the plan.",
         sentence: "___ hält der Minister an dem Plan fest.",
         answer: "Trotz aller Kritik",
-        altAnswers: ["Trotz der ganzen Kritik", "Trotz der Kritik"],
+        altAnswers: ["Trotz der ganzen Kritik"],
         explanation: "\"Aller\": genitive feminine of \"alle\".",
       },
       {
@@ -567,14 +571,15 @@ export const DE_B2_U19: Lesson[] = [
         prompt: "Put the words in order to say: She had little time, but she helped me anyway.",
         words: ["Sie", "hatte", "wenig Zeit,", "trotzdem", "hat", "sie", "mir", "geholfen."],
         translation: "She had little time, but she helped me anyway.",
-        explanation: "After trotzdem the verb comes straight away.",
+        altOrders: [["Sie", "hatte", "wenig Zeit,", "sie", "hat", "mir", "trotzdem", "geholfen."]],
+        explanation: "After \"trotzdem\" the verb comes straight away.",
       },
       {
         type: "multiple-choice",
-        question: "Which word fits? ___ der Kälte sind die Kinder draußen geblieben.",
+        question: "Which word fits? \"___ der Kälte sind die Kinder draußen geblieben.\" (Despite the cold, the children stayed outside.)",
         options: ["Trotz", "Obwohl", "Trotzdem", "Aber"],
         correctIndex: 0,
-        explanation: "A noun phrase follows, so it must be the preposition trotz.",
+        explanation: "A noun phrase follows, so it must be the preposition \"trotz\".",
       },
       {
         type: "listen-choose",
@@ -614,7 +619,7 @@ export const DE_B2_U19: Lesson[] = [
         body: [
           "\"Sagen\" just reports. The verbs from Unit 3 also tell us the speaker's attitude, which is why journalists love them.",
           "\"behaupten\" = to claim (and the reporter is not sure it's true). \"zugeben\" = to admit (something embarrassing). \"bestreiten\" = to deny a claim. \"betonen\" = to stress, emphasise. \"versichern\" = to assure (someone, dative): \"Er versicherte mir, dass ...\"",
-          "All of them can take a dass-clause, or Konjunktiv I in written reports: \"Er behauptet, er sei unschuldig.\" Zugeben is separable: \"Sie gab zu, dass sie gelogen hatte.\"",
+          "All of them can take a dass-clause, or Konjunktiv I in written reports: \"Er behauptet, er sei unschuldig.\" \"Zugeben\" is separable: \"Sie gab zu, dass sie gelogen hatte.\"",
         ],
         examples: [
           { es: "Er behauptet, er sei unschuldig.", en: "He claims he is innocent." },
@@ -626,10 +631,10 @@ export const DE_B2_U19: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "'I did break the vase,' he said quietly. → Er ___, die Vase zerbrochen zu haben.",
+            question: "'I did break the vase,' he said quietly. Complete the report: \"Er ___, die Vase zerbrochen zu haben.\"",
             options: ["gab zu", "bestritt", "versicherte", "betonte"],
             correctIndex: 0,
-            explanation: "He confesses something embarrassing: zugeben.",
+            explanation: "He confesses something embarrassing: \"zugeben\".",
           },
           {
             type: "translate",
@@ -645,9 +650,9 @@ export const DE_B2_U19: Lesson[] = [
       {
         heading: "Bestreiten, zugeben and the zu-infinitive",
         body: [
-          "When the subject of both parts is the same, bestreiten, zugeben and behaupten often take a zu-infinitive, usually in the perfect: \"Er bestreitet, das Geld genommen zu haben.\" 'He denies having taken the money.'",
+          "When the subject of both parts is the same, \"bestreiten\", \"zugeben\" and \"behaupten\" often take a zu-infinitive, usually in the perfect: \"Er bestreitet, das Geld genommen zu haben.\" 'He denies having taken the money.'",
           "Careful with English 'deny': \"bestreiten\" denies a claim; \"leugnen\" is similar but stronger (often of guilt); \"verweigern\" means 'refuse' (to give something), not 'deny a claim'.",
-          "Versichern needs a person in the dative: \"Sie versicherte uns, dass alles in Ordnung sei.\" Without a person, it often means 'to insure': \"Das Auto ist versichert.\"",
+          "\"Versichern\" needs a person in the dative: \"Sie versicherte uns, dass alles in Ordnung sei.\" Without a person, it often means 'to insure': \"Das Auto ist versichert.\"",
         ],
         examples: [
           { es: "Er bestreitet, das Geld genommen zu haben.", en: "He denies having taken the money." },
@@ -680,7 +685,7 @@ export const DE_B2_U19: Lesson[] = [
       {
         heading: "Choosing in context",
         body: [
-          "Ask: is the speaker confessing (zugeben), contradicting (bestreiten), making a doubtful claim (behaupten), insisting on an important point (betonen) or calming someone down (versichern)?",
+          "Ask: is the speaker confessing (\"zugeben\"), contradicting (\"bestreiten\"), making a doubtful claim (\"behaupten\"), insisting on an important point (\"betonen\") or calming someone down (\"versichern\")?",
           "The verb choice signals the reporter's attitude. \"Er sagt, er war zu Hause\" is neutral; \"Er behauptet, er sei zu Hause gewesen\" suggests doubt.",
         ],
         examples: [
@@ -693,10 +698,10 @@ export const DE_B2_U19: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "'Don't worry, the flight will leave on time,' the agent said. → Die Mitarbeiterin ___ uns, der Flug werde pünktlich starten.",
+            question: "'Don't worry, the flight will leave on time,' the agent said. Complete the report: \"Die Mitarbeiterin ___ uns, der Flug werde pünktlich starten.\"",
             options: ["versicherte", "bestritt", "gab zu", "behauptete"],
             correctIndex: 0,
-            explanation: "She reassures them: versichern + dative.",
+            explanation: "She reassures them: \"versichern\" + dative.",
           },
           {
             type: "translate",
@@ -718,7 +723,7 @@ export const DE_B2_U19: Lesson[] = [
         source: "She admitted that she had forgotten the appointment.",
         answer: "Sie gab zu, dass sie den Termin vergessen hatte.",
         altAnswers: ["Sie hat zugegeben, dass sie den Termin vergessen hatte.", "Sie gab zu, den Termin vergessen zu haben.", "Sie hat zugegeben, den Termin vergessen zu haben.", "Sie gab zu, dass sie den Termin vergessen habe."],
-        explanation: "Zugeben is separable: \"gab ... zu\".",
+        explanation: "\"Zugeben\" is separable: \"gab ... zu\".",
       },
       {
         type: "translate",
@@ -727,7 +732,7 @@ export const DE_B2_U19: Lesson[] = [
         source: "The boss stressed that nobody would be laid off.",
         answer: "Die Chefin betonte, dass niemand entlassen werde.",
         altAnswers: ["Der Chef betonte, dass niemand entlassen werde.", "Die Chefin betonte, niemand werde entlassen.", "Der Chef betonte, niemand werde entlassen.", "Die Chefin hat betont, dass niemand entlassen wird.", "Der Chef hat betont, dass niemand entlassen wird.", "Die Chefin betonte, dass niemand entlassen würde.", "Der Chef betonte, dass niemand entlassen würde."],
-        explanation: "Betonen + Konjunktiv I \"werde\" for a reported future.",
+        explanation: "\"Betonen\" + Konjunktiv I \"werde\" for a reported future.",
       },
       {
         type: "translate",
@@ -778,7 +783,7 @@ export const DE_B2_U19: Lesson[] = [
         question: "What does the minister say?",
         options: ["That he didn't know about the scandal.", "That he knew about the scandal.", "That he will investigate the scandal.", "That the scandal is exaggerated."],
         correctIndex: 0,
-        explanation: "Bestreiten = deny.",
+        explanation: "\"Bestreiten\" = deny.",
       },
       {
         type: "speak",
@@ -823,18 +828,18 @@ export const DE_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, starting with Folglich.",
+            prompt: "Translate into German, starting with \"Folglich\".",
             source: "Costs have risen. Consequently, we have to save.",
             answer: "Die Kosten sind gestiegen. Folglich müssen wir sparen.",
             altAnswers: ["Die Kosten sind gestiegen. Folglich müssen wir Geld sparen."],
-            explanation: "Folglich fills position 1 → verb next.",
+            explanation: "\"Folglich\" fills position 1 → verb next.",
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
-            options: ["Allerdings ist das Zimmer klein.", "Allerdings das Zimmer ist klein.", "Allerdings, das Zimmer ist klein.", "Das Zimmer allerdings ist klein ist."],
+            question: "You want to say: The room is small, though. Which sentence is correct?",
+            options: ["Allerdings ist das Zimmer klein.", "Allerdings das Zimmer ist klein.", "Allerdings, das Zimmer ist klein.", "Allerdings ist klein das Zimmer."],
             correctIndex: 0,
-            explanation: "Allerdings in position 1 → verb in position 2.",
+            explanation: "\"Allerdings\" in position 1 → verb in position 2.",
           },
         ],
       },
@@ -842,8 +847,8 @@ export const DE_B2_U19: Lesson[] = [
         heading: "Nämlich: the explanation after the fact",
         body: [
           "\"Nämlich\" gives a reason, like 'you see' or 'because'. It never stands in position 1; it sits in the Mittelfeld, usually after the verb and pronouns: \"Ich kann nicht kommen. Ich bin nämlich krank.\"",
-          "The trap: English speakers translate 'because' as nämlich and put it first: \"*Nämlich bin ich krank.\" Wrong. Also, nämlich doesn't start a sentence that gives the reason before the result; it always follows the statement it explains.",
-          "Nämlich also means 'namely': \"Zwei Länder, nämlich Spanien und Portugal, ...\"",
+          "The trap: English speakers translate 'because' as \"nämlich\" and put it first: \"*Nämlich bin ich krank.\" Wrong. Also, \"nämlich\" doesn't start a sentence that gives the reason before the result; it always follows the statement it explains.",
+          "\"Nämlich\" also means 'namely': \"Zwei Länder, nämlich Spanien und Portugal, ...\"",
         ],
         examples: [
           { es: "Ich kann nicht kommen. Ich bin nämlich krank.", en: "I can't come. I'm ill, you see." },
@@ -856,26 +861,26 @@ export const DE_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using nämlich.",
+            prompt: "Translate into German using \"nämlich\".",
             source: "She isn't in today; she's on holiday, you see.",
             answer: "Sie ist heute nicht da, sie hat nämlich Urlaub.",
             altAnswers: ["Sie ist heute nicht da. Sie hat nämlich Urlaub.", "Sie ist heute nicht im Büro, sie hat nämlich Urlaub.", "Sie ist heute nicht da, sie ist nämlich im Urlaub."],
-            explanation: "Nämlich in the Mittelfeld, never in position 1.",
+            explanation: "\"Nämlich\" in the Mittelfeld, never in position 1.",
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "You want to say: I'm tired; I slept badly, you see. Which sentence is correct?",
             options: ["Ich bin müde, ich habe nämlich schlecht geschlafen.", "Ich bin müde, nämlich ich habe schlecht geschlafen.", "Ich bin müde. Nämlich habe ich schlecht geschlafen.", "Nämlich ich bin müde, ich habe schlecht geschlafen."],
             correctIndex: 0,
-            explanation: "Nämlich goes after the verb (and pronoun).",
+            explanation: "\"Nämlich\" goes after the verb (and pronoun).",
           },
         ],
       },
       {
         heading: "Mixed: which connector?",
         body: [
-          "Result → folglich / deshalb / daher. Contrast → jedoch / aber. Limitation, 'admittedly' → allerdings. Reason given afterwards → nämlich (or denn at the start of the clause, with normal word order).",
-          "Compare: \"Ich bleibe zu Hause, denn ich bin krank\" (denn: position 0) and \"Ich bleibe zu Hause, ich bin nämlich krank\" (nämlich: Mittelfeld).",
+          "Result → \"folglich\" / \"deshalb\" / \"daher\". Contrast → \"jedoch\" / \"aber\". Limitation, 'admittedly' → \"allerdings\". Reason given afterwards → \"nämlich\" (or \"denn\" at the start of the clause, with normal word order).",
+          "Compare: \"Ich bleibe zu Hause, denn ich bin krank\" (\"denn\": position 0) and \"Ich bleibe zu Hause, ich bin nämlich krank\" (\"nämlich\": Mittelfeld).",
         ],
         examples: [
           { es: "Ich bleibe zu Hause, denn ich bin krank.", en: "I'm staying at home because I'm ill." },
@@ -892,16 +897,16 @@ export const DE_B2_U19: Lesson[] = [
             sentence: "Die Idee ist interessant; ___ schwer umzusetzen.",
             answer: "sie ist jedoch",
             altAnswers: ["jedoch ist sie"],
-            explanation: "Jedoch in the Mittelfeld, or in position 1 with inversion.",
+            explanation: "\"Jedoch\" in the Mittelfeld, or in position 1 with inversion.",
           },
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using folglich.",
+            prompt: "Translate into German using \"folglich\".",
             source: "He didn't train, so he lost.",
             answer: "Er hat nicht trainiert, folglich hat er verloren.",
             altAnswers: ["Er hat nicht trainiert. Folglich hat er verloren.", "Er trainierte nicht, folglich verlor er.", "Er hat nicht trainiert, er hat folglich verloren."],
-            explanation: "Folglich → inversion.",
+            explanation: "\"Folglich\" → inversion.",
           },
         ],
       },
@@ -910,29 +915,29 @@ export const DE_B2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using allerdings.",
+        prompt: "Translate into German using \"allerdings\".",
         source: "I'm happy to come, but not until eight.",
         answer: "Ich komme gern, allerdings erst um acht.",
         altAnswers: ["Ich komme gerne, allerdings erst um acht.", "Ich komme gern, allerdings erst um acht Uhr.", "Ich komme gerne, allerdings erst um acht Uhr."],
-        explanation: "Allerdings adds a limitation; 'not until' = erst.",
+        explanation: "\"Allerdings\" adds a limitation; 'not until' = \"erst\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using nämlich.",
+        prompt: "Translate into German using \"nämlich\".",
         source: "Hurry up! The train is about to leave, you know.",
         answer: "Beeil dich! Der Zug fährt nämlich gleich ab.",
         altAnswers: ["Beeilt euch! Der Zug fährt nämlich gleich ab.", "Beeilen Sie sich! Der Zug fährt nämlich gleich ab.", "Beeil dich! Der Zug fährt nämlich gleich los.", "Beeilt euch! Der Zug fährt nämlich gleich los.", "Beeilen Sie sich! Der Zug fährt nämlich gleich los."],
-        explanation: "Nämlich after the verb; separable \"abfahren\".",
+        explanation: "\"Nämlich\" after the verb; separable \"abfahren\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using jedoch.",
+        prompt: "Translate into German using \"jedoch\".",
         source: "The plan is good; however, the money is lacking.",
         answer: "Der Plan ist gut, jedoch fehlt das Geld.",
         altAnswers: ["Der Plan ist gut; jedoch fehlt das Geld.", "Der Plan ist gut, das Geld fehlt jedoch.", "Der Plan ist gut. Jedoch fehlt das Geld.", "Der Plan ist gut, es fehlt jedoch das Geld."],
-        explanation: "Jedoch in position 1 (inversion) or in the Mittelfeld.",
+        explanation: "\"Jedoch\" in position 1 (inversion) or in the Mittelfeld.",
       },
       {
         type: "fill-blank",
@@ -941,7 +946,7 @@ export const DE_B2_U19: Lesson[] = [
         sentence: "Wir bleiben zu Hause, ___.",
         answer: "es regnet nämlich",
         altAnswers: ["denn es regnet", "weil es regnet"],
-        explanation: "With nämlich, the verb comes before it.",
+        explanation: "With \"nämlich\", the verb comes before it.",
       },
       {
         type: "word-order",
@@ -949,21 +954,21 @@ export const DE_B2_U19: Lesson[] = [
         words: ["Die Wohnung", "ist", "groß,", "allerdings", "ist", "sie", "sehr", "teuer."],
         translation: "The flat is big; however, it is very expensive.",
         altOrders: [["Die Wohnung", "ist", "groß,", "sie", "ist", "allerdings", "sehr", "teuer."]],
-        explanation: "Allerdings first → verb, then subject.",
+        explanation: "\"Allerdings\" first → verb, then subject.",
       },
       {
         type: "multiple-choice",
-        question: "Which word fits? Ich kann heute nicht kommen. Ich muss ___ arbeiten.",
+        question: "Which word fits? \"Ich kann heute nicht kommen. Ich muss ___ arbeiten.\" (I can't come today; I have to work, you see.)",
         options: ["nämlich", "folglich", "jedoch", "trotzdem"],
         correctIndex: 0,
-        explanation: "The second sentence gives the reason → nämlich.",
+        explanation: "The second sentence gives the reason → \"nämlich\".",
       },
       {
         type: "multiple-choice",
         question: "Which sentence is wrong?",
         options: ["Nämlich habe ich keine Zeit.", "Ich habe nämlich keine Zeit.", "Folglich habe ich keine Zeit.", "Ich habe allerdings keine Zeit."],
         correctIndex: 0,
-        explanation: "Nämlich never stands in position 1.",
+        explanation: "\"Nämlich\" never stands in position 1.",
       },
       {
         type: "dictation",
@@ -974,16 +979,16 @@ export const DE_B2_U19: Lesson[] = [
         type: "speak",
         text: "Ich kann nicht kommen, ich bin nämlich krank.",
         prompt: "Say it in German: I can't come; I'm ill, you see.",
-        explanation: "Nämlich in the Mittelfeld.",
+        explanation: "\"Nämlich\" in the Mittelfeld.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using folglich.",
+        prompt: "Translate into German using \"folglich\".",
         source: "The bridge is closed. Consequently, we have to take a detour.",
         answer: "Die Brücke ist gesperrt. Folglich müssen wir einen Umweg machen.",
         altAnswers: ["Die Brücke ist gesperrt. Wir müssen folglich einen Umweg machen.", "Die Brücke ist geschlossen. Folglich müssen wir einen Umweg machen.", "Die Brücke ist gesperrt. Folglich müssen wir einen Umweg fahren."],
-        explanation: "Folglich in position 1 → modal verb next.",
+        explanation: "\"Folglich\" in position 1 → modal verb next.",
       },
     ],
   },
@@ -998,8 +1003,8 @@ export const DE_B2_U19: Lesson[] = [
       {
         heading: "Sentence negation: as late as possible",
         body: [
-          "When nicht negates the whole statement, it goes late in the Mittelfeld: after the subject, pronouns, definite objects and most time expressions, but before the final verb part. \"Ich habe ihn gestern nicht gesehen.\"",
-          "Think of it like this: nicht moves towards the end, but it stops in front of anything that belongs tightly to the verb: the participle or infinitive, a separable prefix, a predicate adjective or noun (\"Das ist nicht teuer\", \"Er ist nicht Arzt\"), and directional or required place phrases (\"Ich fahre nicht nach Köln\", \"Er wohnt nicht in Berlin\").",
+          "When \"nicht\" negates the whole statement, it goes late in the Mittelfeld: after the subject, pronouns, definite objects and most time expressions, but before the final verb part. \"Ich habe ihn gestern nicht gesehen.\"",
+          "Think of it like this: \"nicht\" moves towards the end, but it stops in front of anything that belongs tightly to the verb: the participle or infinitive, a separable prefix, a predicate adjective or noun (\"Das ist nicht teuer\", \"Er ist nicht Arzt\"), and directional or required place phrases (\"Ich fahre nicht nach Köln\", \"Er wohnt nicht in Berlin\").",
           "English puts 'not' right after the auxiliary (I have not seen him), which tempts learners to say \"*Ich habe nicht ihn gesehen\". That sentence exists, but it means something else (see the next section).",
         ],
         examples: [
@@ -1017,7 +1022,7 @@ export const DE_B2_U19: Lesson[] = [
             words: ["Ich", "habe", "ihn", "gestern", "nicht", "gesehen."],
             translation: "I didn't see him yesterday.",
             altOrders: [["Ich", "habe", "gestern", "ihn", "nicht", "gesehen."]],
-            explanation: "Pronoun and time first, nicht right before the participle.",
+            explanation: "Pronoun and time first, \"nicht\" right before the participle.",
           },
           {
             type: "translate",
@@ -1026,40 +1031,40 @@ export const DE_B2_U19: Lesson[] = [
             source: "I'm not going to Cologne tomorrow.",
             answer: "Ich fahre morgen nicht nach Köln.",
             altAnswers: ["Morgen fahre ich nicht nach Köln.", "Ich gehe morgen nicht nach Köln."],
-            explanation: "Nicht before the directional phrase \"nach Köln\".",
+            explanation: "\"Nicht\" before the directional phrase \"nach Köln\".",
           },
         ],
       },
       {
         heading: "Constituent negation: nicht X, sondern Y",
         body: [
-          "If you negate only one element (to contrast it with another), nicht stands directly before that element, and usually a \"sondern\" follows: \"Ich habe nicht ihn gesehen, sondern seine Schwester.\" 'It wasn't him I saw, but his sister.'",
-          "Even the subject can be negated this way, with nicht in position 1: \"Nicht ich habe ihn gesehen, sondern Anna.\" 'It wasn't me who saw him, it was Anna.' This sounds emphatic and is common in arguments.",
-          "So the position of nicht changes the meaning: \"Ich fahre nicht morgen nach Köln (sondern übermorgen)\" denies the time, while \"Ich fahre morgen nicht nach Köln\" denies the trip.",
+          "If you negate only one element (to contrast it with another), \"nicht\" stands directly before that element, and usually a \"sondern\" follows: \"Ich habe nicht ihn gesehen, sondern seine Schwester.\" 'It wasn't him I saw, but his sister.'",
+          "Even the subject can be negated this way, with \"nicht\" in position 1: \"Nicht ich habe ihn gesehen, sondern Anna.\" 'It wasn't me who saw him, it was Anna.' This sounds emphatic and is common in arguments.",
+          "So the position of \"nicht\" changes the meaning: \"Ich fahre nicht morgen nach Köln (sondern übermorgen)\" denies the time, while \"Ich fahre morgen nicht nach Köln\" denies the trip.",
         ],
         examples: [
           { es: "Ich habe nicht ihn gesehen, sondern seine Schwester.", en: "It wasn't him I saw, it was his sister." },
           { es: "Nicht ich habe ihn gesehen, sondern Anna.", en: "It wasn't me who saw him, it was Anna." },
           { es: "Ich fahre nicht morgen nach Köln, sondern übermorgen.", en: "I'm going to Cologne not tomorrow but the day after." },
           { es: "Sie hat nicht mit dem Chef gesprochen, sondern mit seiner Assistentin.", en: "She didn't talk to the boss but to his assistant." },
-          { es: "Wir treffen uns nicht im Café, sondern im Park.", en: "We're meeting not at the cafe but in the park." },
+          { es: "Wir treffen uns nicht im Café, sondern im Park.", en: "We're meeting not at the café but in the park." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with nicht ... sondern.",
+            prompt: "Translate into German with \"nicht ... sondern\".",
             source: "I'm going to Cologne not tomorrow but the day after.",
             answer: "Ich fahre nicht morgen nach Köln, sondern übermorgen.",
             altAnswers: ["Ich fahre nicht morgen, sondern übermorgen nach Köln."],
-            explanation: "Nicht directly before the negated time.",
+            explanation: "\"Nicht\" directly before the negated time.",
           },
           {
             type: "multiple-choice",
-            question: "What does 'Nicht ich habe das Fenster kaputt gemacht.' imply?",
+            question: "What does \"Nicht ich habe das Fenster kaputt gemacht.\" imply?",
             options: ["Someone else broke the window.", "Nobody broke the window.", "I didn't break it, I just opened it.", "I broke something else."],
             correctIndex: 0,
-            explanation: "Nicht before the subject negates the person.",
+            explanation: "\"Nicht\" before the subject negates the person.",
           },
         ],
       },
@@ -1068,7 +1073,7 @@ export const DE_B2_U19: Lesson[] = [
         body: [
           "Start with \"Anna hat dem Kunden gestern das Paket geschickt.\" Sentence negation: \"Anna hat dem Kunden gestern das Paket nicht geschickt.\"",
           "Constituent negation: \"Nicht Anna hat ... (sondern Tom)\"; \"Anna hat nicht dem Kunden ... (sondern der Chefin)\"; \"Anna hat dem Kunden nicht gestern ... (sondern heute)\".",
-          "With indefinite nouns, use \"kein\" rather than \"nicht ein\": \"Sie hat kein Paket geschickt.\" Nicht ein only for emphasis ('not a single one').",
+          "With indefinite nouns, use \"kein\" rather than \"nicht ein\": \"Sie hat kein Paket geschickt.\" \"Nicht ein\" only for emphasis ('not a single one').",
         ],
         examples: [
           { es: "Anna hat dem Kunden das Paket nicht geschickt.", en: "Anna didn't send the customer the parcel." },
@@ -1085,15 +1090,15 @@ export const DE_B2_U19: Lesson[] = [
             source: "Anna didn't send the customer the parcel.",
             answer: "Anna hat dem Kunden das Paket nicht geschickt.",
             altAnswers: ["Anna schickte dem Kunden das Paket nicht."],
-            explanation: "Definite objects come before nicht.",
+            explanation: "Definite objects come before \"nicht\".",
           },
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "We're meeting [not at the cafe but in the park].",
+            en: "We're meeting [not at the café but in the park].",
             sentence: "Wir treffen uns ___.",
             answer: "nicht im Café, sondern im Park",
-            explanation: "Nicht before the negated place, sondern for the correction.",
+            explanation: "\"Nicht\" before the negated place, \"sondern\" for the correction.",
           },
         ],
       },
@@ -1106,7 +1111,7 @@ export const DE_B2_U19: Lesson[] = [
         source: "She isn't calling me today.",
         answer: "Sie ruft mich heute nicht an.",
         altAnswers: ["Heute ruft sie mich nicht an."],
-        explanation: "Nicht before the separable prefix \"an\".",
+        explanation: "\"Nicht\" before the separable prefix \"an\".",
       },
       {
         type: "translate",
@@ -1120,11 +1125,11 @@ export const DE_B2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with nicht ... sondern.",
+        prompt: "Translate into German with \"nicht ... sondern\".",
         source: "It wasn't me who saw him, it was Anna.",
         answer: "Nicht ich habe ihn gesehen, sondern Anna.",
         altAnswers: ["Nicht ich, sondern Anna hat ihn gesehen."],
-        explanation: "Nicht directly before the negated subject.",
+        explanation: "\"Nicht\" directly before the negated subject.",
       },
       {
         type: "translate",
@@ -1141,39 +1146,39 @@ export const DE_B2_U19: Lesson[] = [
         en: "She didn't talk [to the boss but to his assistant].",
         sentence: "Sie hat ___ gesprochen.",
         answer: "nicht mit dem Chef, sondern mit seiner Assistentin",
-        explanation: "Constituent negation: nicht before the prepositional phrase.",
+        explanation: "Constituent negation: \"nicht\" before the prepositional phrase.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: The food isn't expensive.",
         words: ["Das", "Essen", "ist", "nicht", "teuer."],
         translation: "The food isn't expensive.",
-        explanation: "Nicht before the predicate adjective.",
+        explanation: "\"Nicht\" before the predicate adjective.",
       },
       {
         type: "multiple-choice",
         question: "Which sentence means 'I didn't give him the key' (plain sentence negation)?",
         options: ["Ich habe ihm den Schlüssel nicht gegeben.", "Ich habe nicht ihm den Schlüssel gegeben.", "Nicht ich habe ihm den Schlüssel gegeben.", "Ich habe ihm nicht den Schlüssel gegeben."],
         correctIndex: 0,
-        explanation: "The other three negate a single element and would need sondern.",
+        explanation: "The other three negate a single element and would need \"sondern\".",
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "You want to say: I have no time. Which sentence is correct?",
         options: ["Ich habe keine Zeit.", "Ich habe nicht Zeit.", "Ich habe nicht eine Zeit.", "Ich nicht habe Zeit."],
         correctIndex: 0,
-        explanation: "Indefinite or article-less nouns are negated with kein.",
+        explanation: "Indefinite or article-less nouns are negated with \"kein\".",
       },
       {
         type: "dictation",
         audio: "Wir treffen uns nicht im Café, sondern im Park.",
-        explanation: "Constituent negation with sondern; Café keeps its accent.",
+        explanation: "Constituent negation with \"sondern\"; \"Café\" keeps its accent.",
       },
       {
         type: "speak",
         text: "Ich habe ihn gestern nicht gesehen.",
         prompt: "Say it in German: I didn't see him yesterday.",
-        explanation: "Nicht late, before the participle.",
+        explanation: "\"Nicht\" late, before the participle.",
       },
     ],
   },
@@ -1204,7 +1209,7 @@ export const DE_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, starting with Diesen Film.",
+            prompt: "Translate into German, starting with \"Diesen Film\".",
             source: "I've seen this film three times.",
             answer: "Diesen Film habe ich dreimal gesehen.",
             altAnswers: ["Diesen Film habe ich schon dreimal gesehen."],
@@ -1215,7 +1220,7 @@ export const DE_B2_U19: Lesson[] = [
             question: "Which sentence is wrong?",
             options: ["Gestern ich bin ins Kino gegangen.", "Gestern bin ich ins Kino gegangen.", "Ich bin gestern ins Kino gegangen.", "Ins Kino bin ich gestern gegangen."],
             correctIndex: 0,
-            explanation: "Only one element before the verb: *Gestern ich bin is impossible.",
+            explanation: "Only one element before the verb: \"*Gestern ich bin\" is impossible.",
           },
         ],
       },
@@ -1237,7 +1242,7 @@ export const DE_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, starting with Im Sommer.",
+            prompt: "Translate into German, starting with \"Im Sommer\".",
             source: "In summer we often go to the Baltic Sea.",
             answer: "Im Sommer fahren wir oft an die Ostsee.",
             altAnswers: ["Im Sommer fahren wir oft zur Ostsee."],
@@ -1317,7 +1322,7 @@ export const DE_B2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, starting with Dass.",
+        prompt: "Translate into German, starting with \"Dass\".",
         source: "It doesn't surprise me that he quit.",
         answer: "Dass er gekündigt hat, wundert mich nicht.",
         altAnswers: ["Dass er gekündigt hat, überrascht mich nicht."],
@@ -1395,10 +1400,10 @@ export const DE_B2_U19: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Ich bin sehr ___, was sie zu meinem Vorschlag sagt.",
-            options: ["gespannt", "spannend", "spannt", "gespannend"],
+            question: "Complete: \"Ich bin sehr ___, was sie zu meinem Vorschlag sagt.\" (I can't wait to hear what she says about my suggestion.)",
+            options: ["gespannt", "spannend", "aufregend", "spannende"],
             correctIndex: 0,
-            explanation: "The person who is eager to know → gespannt.",
+            explanation: "The person who is eager to know → \"gespannt\".",
           },
           {
             type: "translate",
@@ -1407,14 +1412,14 @@ export const DE_B2_U19: Lesson[] = [
             source: "The film is really exciting.",
             answer: "Der Film ist wirklich spannend.",
             altAnswers: ["Der Film ist echt spannend.", "Der Film ist sehr spannend."],
-            explanation: "The film causes the feeling → spannend.",
+            explanation: "The film causes the feeling → \"spannend\".",
           },
         ],
       },
       {
         heading: "More pairs",
         body: [
-          "aufregend (exciting, thrilling) / aufgeregt (nervous, worked up). überraschend (surprising) / überrascht (surprised). enttäuschend (disappointing) / enttäuscht (disappointed). beunruhigend (worrying) / beunruhigt (worried).",
+          "\"aufregend\" (exciting, thrilling) / \"aufgeregt\" (nervous, worked up). \"überraschend\" (surprising) / \"überrascht\" (surprised). \"enttäuschend\" (disappointing) / \"enttäuscht\" (disappointed). \"beunruhigend\" (worrying) / \"beunruhigt\" (worried).",
           "Note \"aufgeregt\": 'excited' in the sense of nervous, jittery. \"Vor der Prüfung war ich sehr aufgeregt.\"",
           "Both forms also work as attributive adjectives with endings: \"ein enttäuschendes Ergebnis\", \"die enttäuschten Fans\".",
         ],
@@ -1470,7 +1475,7 @@ export const DE_B2_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Wir sind ___ auf das Ergebnis.",
+            question: "Complete: \"Wir sind ___ auf das Ergebnis.\" (We're eager to hear the result.)",
             options: ["gespannt", "spannend", "aufregend", "enttäuschend"],
             correctIndex: 0,
             explanation: "\"Gespannt auf\" + accusative = eager to know.",
@@ -1486,7 +1491,7 @@ export const DE_B2_U19: Lesson[] = [
         source: "The talk was boring and the pupils were bored.",
         answer: "Der Vortrag war langweilig und die Schüler waren gelangweilt.",
         altAnswers: ["Der Vortrag war langweilig, und die Schüler waren gelangweilt.", "Der Vortrag war langweilig und die Schülerinnen und Schüler waren gelangweilt."],
-        explanation: "Langweilig for the cause, gelangweilt for the people.",
+        explanation: "\"Langweilig\" for the cause, \"gelangweilt\" for the people.",
       },
       {
         type: "translate",
@@ -1503,7 +1508,7 @@ export const DE_B2_U19: Lesson[] = [
         source: "I was surprised how well he speaks German.",
         answer: "Ich war überrascht, wie gut er Deutsch spricht.",
         altAnswers: ["Ich war überrascht, wie gut er Deutsch sprach."],
-        explanation: "The person is surprised → überrascht.",
+        explanation: "The person is surprised → \"überrascht\".",
       },
       {
         type: "fill-blank",
@@ -1535,7 +1540,7 @@ export const DE_B2_U19: Lesson[] = [
         question: "Which sentence is wrong?",
         options: ["Ich bin so spannend auf das Spiel.", "Das Spiel war spannend.", "Ich bin gespannt auf das Spiel.", "Ich freue mich auf das Spiel."],
         correctIndex: 0,
-        explanation: "A person waiting eagerly is gespannt, not spannend.",
+        explanation: "A person waiting eagerly is \"gespannt\", not \"spannend\".",
       },
       {
         type: "listen-choose",
@@ -1543,7 +1548,7 @@ export const DE_B2_U19: Lesson[] = [
         question: "How does the speaker feel?",
         options: ["Curious to hear what she'll say.", "Bored by what she says.", "Exciting to listen to.", "Angry about what she said."],
         correctIndex: 0,
-        explanation: "Gespannt = eager to know.",
+        explanation: "\"Gespannt\" = eager to know.",
       },
       {
         type: "speak",
@@ -1574,7 +1579,7 @@ export const DE_B2_U19: Lesson[] = [
         heading: "The question decides the Vorfeld",
         body: [
           "In a conversation, the element that links to the question or to what was just said often moves to the front, and the new information stays later, where the stress falls.",
-          "Neutral: \"Ich habe meiner Mutter am Sonntag Blumen geschenkt.\" Was hast du am Sonntag gemacht? → \"Am Sonntag habe ich meiner Mutter Blumen geschenkt.\" Was hast du deiner Mutter geschenkt? → \"Meiner Mutter habe ich Blumen geschenkt.\"",
+          "Neutral: \"Ich habe meiner Mutter am Sonntag Blumen geschenkt.\" Asked \"Was hast du am Sonntag gemacht?\" → \"Am Sonntag habe ich meiner Mutter Blumen geschenkt.\" Asked \"Was hast du deiner Mutter geschenkt?\" → \"Meiner Mutter habe ich Blumen geschenkt.\"",
           "When an element moves to the front, everything else keeps its Mittelfeld order, and the subject goes right after the verb.",
         ],
         examples: [
@@ -1588,7 +1593,7 @@ export const DE_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Answer the question 'Wann hast du ihr Blumen geschenkt?' in German, starting with the time.",
+            prompt: "Answer the question \"Wann hast du ihr Blumen geschenkt?\" in German, starting with the time.",
             source: "On Sunday I gave her flowers.",
             answer: "Am Sonntag habe ich ihr Blumen geschenkt.",
             altAnswers: ["Am Sonntag habe ich ihr die Blumen geschenkt."],
@@ -1641,7 +1646,7 @@ export const DE_B2_U19: Lesson[] = [
         heading: "Womit? Wo? Warum? Practice the swap",
         body: [
           "The same move works with any adverbial: \"Womit fährst du zur Arbeit?\" – \"Mit dem Fahrrad fahre ich zur Arbeit\" is possible, but the most natural short answer keeps the new information later: \"Ich fahre mit dem Rad.\" Fronting is best for the known element or a contrast.",
-          "Wegen der Arbeit, in Berlin, seit drei Jahren: all can open the sentence when they link to the context. \"Seit drei Jahren wohne ich in Berlin.\" \"Wegen der Hitze bleiben wir drinnen.\"",
+          "\"Wegen der Arbeit\", \"in Berlin\", \"seit drei Jahren\": all can open the sentence when they link to the context. \"Seit drei Jahren wohne ich in Berlin.\" \"Wegen der Hitze bleiben wir drinnen.\"",
         ],
         examples: [
           { es: "Seit drei Jahren wohne ich in Berlin.", en: "I've been living in Berlin for three years." },
@@ -1654,7 +1659,7 @@ export const DE_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, starting with Wegen.",
+            prompt: "Translate into German, starting with \"Wegen\".",
             source: "Because of the heat we're staying inside today.",
             answer: "Wegen der Hitze bleiben wir heute drinnen.",
             altAnswers: ["Wegen der Hitze bleiben wir heute im Haus.", "Wegen der Hitze bleiben wir heute zu Hause."],
@@ -1662,7 +1667,7 @@ export const DE_B2_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Wem hast du davon erzählt? – Which answer is correct?",
+            question: "Someone asks: \"Wem hast du davon erzählt?\" Which answer is correct?",
             options: ["Meinem Bruder habe ich davon erzählt.", "Meinem Bruder ich habe davon erzählt.", "Meinen Bruder habe ich davon erzählt.", "Meinem Bruder davon habe ich erzählt."],
             correctIndex: 0,
             explanation: "Dative in front, then verb, then subject.",
@@ -1678,7 +1683,7 @@ export const DE_B2_U19: Lesson[] = [
         source: "I've been living in Berlin for three years.",
         answer: "Seit drei Jahren wohne ich in Berlin.",
         altAnswers: ["Seit drei Jahren lebe ich in Berlin."],
-        explanation: "German uses the present with seit.",
+        explanation: "German uses the present tense with \"seit\" for something still going on; English uses the present perfect continuous.",
       },
       {
         type: "translate",
@@ -1726,7 +1731,7 @@ export const DE_B2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Was hast du am Wochenende gemacht? – The most natural answer:",
+        question: "Someone asks: \"Was hast du am Wochenende gemacht?\" What is the most natural answer?",
         options: ["Am Wochenende war ich wandern.", "Wandern am Wochenende war ich.", "Ich war wandern am Wochenende.", "Am Wochenende ich war wandern."],
         correctIndex: 0,
         explanation: "The known element (the weekend) can open; the new information (hiking) comes later.",
@@ -1760,7 +1765,7 @@ export const DE_B2_U19: Lesson[] = [
     slug: "b2-spiral-chain-politeness",
     level: "DE-B2",
     number: 10,
-    title: "Spiral Review: Ich Will → Ich Hätte Gern → Könnten Sie...?",
+    title: "Spiral Review: Ich will → Ich hätte gern → Könnten Sie...?",
     summary: "From blunt to very polite: will, möchte, hätte gern, Könnten Sie ...?, Würden Sie ...? and Dürfte ich ...?",
     duration: "12 min",
     sections: [
@@ -1768,7 +1773,7 @@ export const DE_B2_U19: Lesson[] = [
         heading: "The politeness ladder",
         body: [
           "\"Ich will einen Kaffee\" is grammatically fine but sounds like a demand from a child. Adults ordering say \"Ich möchte einen Kaffee\" or, more polite still, \"Ich hätte gern einen Kaffee\".",
-          "\"Hätte gern\" is Konjunktiv II of haben + gern: literally 'I would have gladly'. It's the standard phrase in shops and cafes. \"Ich nehme ...\" is also normal and neutral when ordering food.",
+          "\"Hätte gern\" is Konjunktiv II of \"haben\" + \"gern\": literally 'I would have gladly'. It's the standard phrase in shops and cafés. \"Ich nehme ...\" is also normal and neutral when ordering food.",
           "In English, 'I want' is also blunt, but less so than in German; English speakers often sound rude by translating it directly.",
         ],
         examples: [
@@ -1782,15 +1787,15 @@ export const DE_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using hätte gern.",
+            prompt: "Translate into German using \"hätte gern\".",
             source: "I'd like a coffee, please.",
             answer: "Ich hätte gern einen Kaffee.",
             altAnswers: ["Ich hätte gerne einen Kaffee.", "Ich hätte gern einen Kaffee, bitte.", "Ich hätte gerne einen Kaffee, bitte."],
-            explanation: "Konjunktiv II \"hätte\" + gern.",
+            explanation: "Konjunktiv II \"hätte\" + \"gern\".",
           },
           {
             type: "multiple-choice",
-            question: "Which order sounds most polite in a cafe?",
+            question: "Which order sounds most polite in a café?",
             options: ["Ich hätte gern ein Stück Kuchen.", "Ich will ein Stück Kuchen.", "Gib mir ein Stück Kuchen.", "Ein Stück Kuchen!"],
             correctIndex: 0,
             explanation: "\"Hätte gern\" is the polite standard.",
@@ -1819,7 +1824,7 @@ export const DE_B2_U19: Lesson[] = [
             source: "Would you please close the window?",
             answer: "Würden Sie bitte das Fenster schließen?",
             altAnswers: ["Würden Sie bitte das Fenster zumachen?", "Könnten Sie bitte das Fenster schließen?", "Würden Sie das Fenster bitte schließen?"],
-            explanation: "Würden + infinitive at the end.",
+            explanation: "\"Würden\" + infinitive at the end.",
           },
           {
             type: "fill-blank",
@@ -1835,7 +1840,7 @@ export const DE_B2_U19: Lesson[] = [
       {
         heading: "The chain: one request, five levels",
         body: [
-          "Gib mir das Salz! (command, family only) → Kannst du mir das Salz geben? → Könntest du mir das Salz geben? → Würdest du mir bitte das Salz geben? → Wärst du so nett und gibst mir das Salz?",
+          "\"Gib mir das Salz!\" (command, family only) → \"Kannst du mir das Salz geben?\" → \"Könntest du mir das Salz geben?\" → \"Würdest du mir bitte das Salz geben?\" → \"Wärst du so nett und gibst mir das Salz?\"",
           "\"Wären Sie so freundlich, ... zu ...?\" is the formal top: \"Wären Sie so freundlich, mir die Tür aufzuhalten?\"",
         ],
         examples: [
@@ -1853,14 +1858,14 @@ export const DE_B2_U19: Lesson[] = [
             source: "Could you please pass me the salt?",
             answer: "Könntest du mir bitte das Salz geben?",
             altAnswers: ["Könntest du mir das Salz bitte geben?", "Könntest du mir bitte das Salz reichen?", "Könntet ihr mir bitte das Salz geben?", "Würdest du mir bitte das Salz geben?"],
-            explanation: "Könntest + infinitive at the end.",
+            explanation: "\"Könntest\" + infinitive at the end.",
           },
           {
             type: "word-order",
             prompt: "Put the words in order to say: Would you be so kind as to hold the door for me?",
             words: ["Wären", "Sie", "so freundlich,", "mir", "die Tür", "aufzuhalten?"],
             translation: "Would you be so kind as to hold the door for me?",
-            explanation: "\"Aufzuhalten\": zu between prefix and verb.",
+            explanation: "\"Aufzuhalten\": \"zu\" goes between the separable prefix \"auf\" and the verb \"halten\".",
           },
         ],
       },
@@ -1869,7 +1874,7 @@ export const DE_B2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using hätten gern.",
+        prompt: "Translate into German using \"hätten gern\".",
         source: "We'd like the bill, please.",
         answer: "Wir hätten gern die Rechnung.",
         altAnswers: ["Wir hätten gerne die Rechnung.", "Wir hätten gern die Rechnung, bitte.", "Wir hätten gerne die Rechnung, bitte."],
@@ -1921,10 +1926,10 @@ export const DE_B2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Put these in order from blunt to polite: (a) Ich will ... (b) Ich hätte gern ... (c) Ich möchte ...",
+        question: "Put these in order from blunt to polite: (a) \"Ich will ...\" (b) \"Ich hätte gern ...\" (c) \"Ich möchte ...\"",
         options: ["a – c – b", "b – c – a", "c – a – b", "a – b – c"],
         correctIndex: 0,
-        explanation: "Will < möchte < hätte gern.",
+        explanation: "\"Will\" < \"möchte\" < \"hätte gern\".",
       },
       {
         type: "listen-choose",
@@ -1967,17 +1972,17 @@ export const DE_B2_U19: Lesson[] = [
           "Notice that the meaning (who did what to whom) never changes, thanks to the case endings. English can't do this without passives or 'as for' constructions.",
         ],
         examples: [
-          { es: "Lena hat ihrem Bruder gestern im Café das Geld zurückgegeben.", en: "Lena gave her brother the money back in the cafe yesterday." },
+          { es: "Lena hat ihrem Bruder gestern im Café das Geld zurückgegeben.", en: "Lena gave her brother the money back in the café yesterday." },
           { es: "Das Geld hat Lena ihrem Bruder gestern zurückgegeben.", en: "The money, Lena gave back to her brother yesterday." },
           { es: "Ihrem Bruder hat Lena das Geld gestern zurückgegeben.", en: "Her brother got the money back from Lena yesterday." },
           { es: "Gestern hat Lena ihrem Bruder das Geld zurückgegeben.", en: "Yesterday Lena gave her brother the money back." },
-          { es: "Im Café hat sie es ihm zurückgegeben.", en: "She gave it back to him in the cafe." },
+          { es: "Im Café hat sie es ihm zurückgegeben.", en: "She gave it back to him in the café." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, starting with Gestern.",
+            prompt: "Translate into German, starting with \"Gestern\".",
             source: "Yesterday Lena gave her brother the money back.",
             answer: "Gestern hat Lena ihrem Bruder das Geld zurückgegeben.",
             altAnswers: ["Gestern gab Lena ihrem Bruder das Geld zurück."],
@@ -1985,9 +1990,9 @@ export const DE_B2_U19: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: She gave it back to him in the cafe.",
+            prompt: "Put the words in order to say: She gave it back to him in the café.",
             words: ["Im Café", "hat", "sie", "es", "ihm", "zurückgegeben."],
-            translation: "She gave it back to him in the cafe.",
+            translation: "She gave it back to him in the café.",
             altOrders: [["Sie", "hat", "es", "ihm", "im Café", "zurückgegeben."]],
             explanation: "Pronouns: subject, accusative, dative.",
           },
@@ -2011,15 +2016,15 @@ export const DE_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with nicht ... sondern.",
+            prompt: "Translate into German with \"nicht ... sondern\".",
             source: "It wasn't Lena who gave him the money back, it was her mother.",
             answer: "Nicht Lena hat ihm das Geld zurückgegeben, sondern ihre Mutter.",
             altAnswers: ["Nicht Lena, sondern ihre Mutter hat ihm das Geld zurückgegeben."],
-            explanation: "Nicht before the negated subject.",
+            explanation: "\"Nicht\" before the negated subject.",
           },
           {
             type: "multiple-choice",
-            question: "'Erst gestern hat sie es ihm zurückgegeben.' What is emphasised?",
+            question: "\"Erst gestern hat sie es ihm zurückgegeben.\" What is emphasised?",
             options: ["That it happened late (only yesterday).", "That it happened early.", "That she gave it back to him, not someone else.", "That she gave it back, not kept it."],
             correctIndex: 0,
             explanation: "\"Erst\" + time = not until, later than expected.",
@@ -2033,7 +2038,7 @@ export const DE_B2_U19: Lesson[] = [
           "\"Und zwar\" ('in fact', 'namely') is a handy way to add a precise detail at the end.",
         ],
         examples: [
-          { es: "Sie hat das Geld zurückgegeben, und zwar gestern im Café.", en: "She gave the money back, and in fact it was yesterday in the cafe." },
+          { es: "Sie hat das Geld zurückgegeben, und zwar gestern im Café.", en: "She gave the money back, and in fact it was yesterday in the café." },
           { es: "Sie hat das Geld zurückgegeben, das sie sich im Mai geliehen hatte.", en: "She gave back the money she had borrowed in May." },
           { es: "Ich muss etwas kaufen, und zwar einen neuen Laptop.", en: "I need to buy something, namely a new laptop." },
           { es: "Er hat lange gezögert mit seiner Antwort.", en: "He hesitated a long time with his answer." },
@@ -2043,7 +2048,7 @@ export const DE_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using und zwar.",
+            prompt: "Translate into German using \"und zwar\".",
             source: "I need to buy something, namely a new laptop.",
             answer: "Ich muss etwas kaufen, und zwar einen neuen Laptop.",
             altAnswers: ["Ich muss mir etwas kaufen, und zwar einen neuen Laptop."],
@@ -2083,7 +2088,7 @@ export const DE_B2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with erst.",
+        prompt: "Translate into German with \"erst\".",
         source: "She only gave it back to him yesterday.",
         answer: "Erst gestern hat sie es ihm zurückgegeben.",
         altAnswers: ["Sie hat es ihm erst gestern zurückgegeben."],
@@ -2092,7 +2097,7 @@ export const DE_B2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with nicht ... sondern.",
+        prompt: "Translate into German with \"nicht ... sondern\".",
         source: "She gave the money back not to her brother but to her sister.",
         answer: "Sie hat das Geld nicht ihrem Bruder zurückgegeben, sondern ihrer Schwester.",
         altAnswers: ["Sie hat das Geld nicht ihrem Bruder, sondern ihrer Schwester zurückgegeben."],
@@ -2117,7 +2122,7 @@ export const DE_B2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Wer hat dem Bruder das Geld zurückgegeben? – The most natural answer stresses the new information. Which?",
+        question: "Someone asks: \"Wer hat dem Bruder das Geld zurückgegeben?\" The most natural answer puts the new information later. Which?",
         options: ["Das hat Lena gemacht.", "Lena hat es gemacht, das Geld.", "Das Geld Lena hat zurückgegeben.", "Zurückgegeben Lena hat."],
         correctIndex: 0,
         explanation: "\"Das\" (known) in front, the new information \"Lena\" later.",
@@ -2146,7 +2151,7 @@ export const DE_B2_U19: Lesson[] = [
     slug: "b2-mission-leidenschaftliche-rezension",
     level: "DE-B2",
     number: 12,
-    title: "Real-World Mission: Eine Leidenschaftliche Rezension",
+    title: "Real-World Mission: Eine leidenschaftliche Rezension",
     summary: "Write a passionate review of a restaurant or a book, using the Vorfeld for emphasis and natural Mittelfeld order.",
     duration: "18 min",
     sections: [
@@ -2154,7 +2159,7 @@ export const DE_B2_U19: Lesson[] = [
         heading: "Mission brief: reviews that sound alive",
         body: [
           "Online reviews in German (Google, TripAdvisor, Amazon, book blogs) are full of fronted elements: \"So eine Pasta habe ich seit Jahren nicht gegessen!\" \"Dieses Buch muss man einfach lesen.\" Starting with the object or a judgement makes the text lively.",
-          "Useful review words: empfehlen (to recommend), die Empfehlung, sich lohnen ('to be worth it': \"Der Besuch lohnt sich\"), enttäuschen, überzeugen ('to win over, convince': \"Der Service hat mich überzeugt\"), die Bedienung (waiting staff), das Preis-Leistungs-Verhältnis (value for money).",
+          "Useful review words: \"empfehlen\" (to recommend), \"die Empfehlung\", \"sich lohnen\" ('to be worth it': \"Der Besuch lohnt sich\"), \"enttäuschen\", \"überzeugen\" ('to win over, convince': \"Der Service hat mich überzeugt\"), \"die Bedienung\" (waiting staff), \"das Preis-Leistungs-Verhältnis\" (value for money).",
           "Phrases of praise: \"ein absolutes Muss\", \"jeden Cent wert\", \"Ich kann es nur empfehlen\". Phrases of criticism: \"leider\", \"etwas zu salzig\", \"nicht der Rede wert\" ('not worth mentioning').",
         ],
         examples: [
@@ -2169,11 +2174,11 @@ export const DE_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, starting with So eine Pasta.",
+            prompt: "Translate into German, starting with \"So eine Pasta\".",
             source: "I haven't eaten pasta like that in years!",
             answer: "So eine Pasta habe ich seit Jahren nicht gegessen!",
             altAnswers: ["So eine Pasta habe ich seit Jahren nicht mehr gegessen!", "So gute Pasta habe ich seit Jahren nicht gegessen!"],
-            explanation: "Fronted object for emphasis; seit + present perfect negated.",
+            explanation: "Fronted object for emphasis; \"seit\" + present perfect negated.",
           },
           {
             type: "translate",
@@ -2204,7 +2209,7 @@ export const DE_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, starting with Selten.",
+            prompt: "Translate into German, starting with \"Selten\".",
             source: "I've rarely eaten so well.",
             answer: "Selten habe ich so gut gegessen.",
             altAnswers: ["Selten habe ich so gut gegessen wie hier."],
@@ -2217,7 +2222,7 @@ export const DE_B2_U19: Lesson[] = [
             sentence: "Besonders gut ___.",
             answer: "hat mir der Nachtisch geschmeckt",
             altAnswers: ["hat mir das Dessert geschmeckt", "schmeckte mir der Nachtisch"],
-            explanation: "\"Besonders gut\" in front; the subject (Nachtisch) comes after the dative pronoun.",
+            explanation: "\"Besonders gut\" in front; the subject (\"Nachtisch\") comes after the dative pronoun.",
           },
         ],
       },
@@ -2231,14 +2236,14 @@ export const DE_B2_U19: Lesson[] = [
           { es: "Das kleine Restaurant habe ich durch Zufall entdeckt.", en: "I discovered the little restaurant by chance." },
           { es: "Besonders die Maultaschen kann ich nur empfehlen.", en: "I can especially recommend the Maultaschen." },
           { es: "Die Bedienung war zwar etwas langsam, dafür aber sehr herzlich.", en: "The service was a bit slow, but very warm to make up for it." },
-          { es: "Wer in Tübingen ist, sollte unbedingt hingehen.", en: "Anyone who's in Tuebingen should definitely go there." },
+          { es: "Wer in Tübingen ist, sollte unbedingt hingehen.", en: "Anyone who's in Tübingen should definitely go there." },
           { es: "Dieses Buch hat mich zum Lachen und zum Weinen gebracht.", en: "This book made me laugh and cry." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, starting with Wer.",
+            prompt: "Translate into German, starting with \"Wer\".",
             source: "Anyone who's in Hamburg should definitely go there.",
             answer: "Wer in Hamburg ist, sollte unbedingt hingehen.",
             altAnswers: ["Wer in Hamburg ist, sollte auf jeden Fall hingehen.", "Wer in Hamburg ist, sollte unbedingt dorthin gehen."],
@@ -2334,8 +2339,8 @@ export const DE_B2_U19: Lesson[] = [
       {
         type: "speak",
         text: "Wer in Tübingen ist, sollte unbedingt hingehen!",
-        prompt: "Say it in German: Anyone who's in Tuebingen should definitely go there!",
-        explanation: "Wer-clause as the Vorfeld.",
+        prompt: "Say it in German: Anyone who's in Tübingen should definitely go there!",
+        explanation: "A wer-clause as the Vorfeld, then the verb \"sollte\".",
       },
     ],
   },
@@ -2365,7 +2370,7 @@ export const DE_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, starting with Nach Angaben.",
+            prompt: "Translate into German, starting with \"Nach Angaben\".",
             source: "According to the police, nobody was injured.",
             answer: "Nach Angaben der Polizei wurde niemand verletzt.",
             altAnswers: ["Nach Angaben der Polizei ist niemand verletzt worden.", "Laut Polizei wurde niemand verletzt.", "Laut Polizei ist niemand verletzt worden."],
@@ -2377,7 +2382,7 @@ export const DE_B2_U19: Lesson[] = [
             en: "A spokesman said the cause [was] still unclear.",
             sentence: "Ein Sprecher sagte, die Ursache ___ noch unklar.",
             answer: "sei",
-            explanation: "Konjunktiv I of sein for reported speech.",
+            explanation: "Konjunktiv I of \"sein\" for reported speech.",
           },
         ],
       },
@@ -2385,7 +2390,7 @@ export const DE_B2_U19: Lesson[] = [
         heading: "Nominal style: from clause to noun",
         body: [
           "News headlines and first sentences prefer nouns: \"Nach dem Rücktritt des Ministers ...\" (after the minister resigned), \"Wegen starker Regenfälle ...\" (because it rained heavily), \"Bei der Eröffnung ...\" (when it opened).",
-          "Each verb has its noun: zurücktreten → der Rücktritt, ausfallen → der Ausfall, eröffnen → die Eröffnung, verhandeln → die Verhandlung. The doer often becomes a genitive.",
+          "Each verb has its noun: \"zurücktreten\" → \"der Rücktritt\", \"ausfallen\" → \"der Ausfall\", \"eröffnen\" → \"die Eröffnung\", \"verhandeln\" → \"die Verhandlung\". The doer often becomes a genitive.",
         ],
         examples: [
           { es: "Nach dem Rücktritt des Ministers gab es Neuwahlen.", en: "After the minister's resignation there were new elections." },
@@ -2398,7 +2403,7 @@ export const DE_B2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German in nominal style, starting with Wegen.",
+            prompt: "Translate into German in nominal style, starting with \"Wegen\".",
             source: "The concert was cancelled because of heavy rain.",
             answer: "Wegen starker Regenfälle wurde das Konzert abgesagt.",
             altAnswers: ["Wegen starker Regenfälle ist das Konzert abgesagt worden.", "Wegen starken Regens wurde das Konzert abgesagt.", "Wegen starken Regens ist das Konzert abgesagt worden."],
@@ -2406,7 +2411,7 @@ export const DE_B2_U19: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Nominal style for 'nachdem der Minister zurückgetreten war':",
+            question: "A news report turns \"nachdem der Minister zurückgetreten war\" (after the minister had resigned) into a noun phrase. Which is correct?",
             options: ["nach dem Rücktritt des Ministers", "nach dem Zurücktreten den Minister", "nach dem Minister zurückgetreten", "nach Rücktritt dem Minister"],
             correctIndex: 0,
             explanation: "Noun + genitive of the doer.",
@@ -2416,7 +2421,7 @@ export const DE_B2_U19: Lesson[] = [
       {
         heading: "Putting it together",
         body: [
-          "A typical structure: 1) what happened, with the cause or time in front; 2) the source (nach Angaben, laut, wie ... mitteilte); 3) quotes in Konjunktiv I; 4) what comes next.",
+          "A typical structure: 1) what happened, with the cause or time in front; 2) the source (\"nach Angaben\", \"laut\", \"wie ... mitteilte\"); 3) quotes in Konjunktiv I; 4) what comes next.",
           "\"Wie die Stadt mitteilte, soll die Straße ab Montag wieder befahrbar sein.\" 'As the city announced, the road should be open again from Monday.' (\"Soll\" here = reportedly, from Unit 16.)",
         ],
         examples: [
@@ -2442,7 +2447,7 @@ export const DE_B2_U19: Lesson[] = [
             en: "The mayor explained that lessons [had been learned] from the incident.",
             sentence: "Der Bürgermeister erklärte, man ___ aus dem Vorfall gelernt.",
             answer: "habe",
-            explanation: "Konjunktiv I past: habe + participle.",
+            explanation: "Konjunktiv I past: \"habe\" + participle (\"gelernt\").",
           },
         ],
       },
@@ -2451,7 +2456,7 @@ export const DE_B2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, starting with Wegen.",
+        prompt: "Translate into German, starting with \"Wegen\".",
         source: "The station was closed because of a power cut.",
         answer: "Wegen eines Stromausfalls wurde der Bahnhof geschlossen.",
         altAnswers: ["Wegen eines Stromausfalls ist der Bahnhof geschlossen worden.", "Wegen eines Stromausfalls musste der Bahnhof geschlossen werden."],
@@ -2464,7 +2469,7 @@ export const DE_B2_U19: Lesson[] = [
         source: "A spokesman said the cause was still unclear.",
         answer: "Ein Sprecher sagte, die Ursache sei noch unklar.",
         altAnswers: ["Ein Sprecher sagte, die Ursache sei noch nicht klar.", "Ein Sprecher hat gesagt, die Ursache sei noch unklar.", "Eine Sprecherin sagte, die Ursache sei noch unklar."],
-        explanation: "\"Sei\": Konjunktiv I of sein.",
+        explanation: "\"Sei\": Konjunktiv I of \"sein\".",
       },
       {
         type: "translate",

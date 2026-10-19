@@ -48,7 +48,7 @@ export const DE_A2_U19: Lesson[] = [
         heading: "Where to stay and what to take",
         body: [
           "Accommodation is \"die Unterkunft\": \"das Hotel\", \"die Pension\" (small guesthouse), \"die Ferienwohnung\" (holiday flat), \"die Jugendherberge\" (youth hostel), \"der Campingplatz\". You book it: \"Wir haben eine Ferienwohnung am See gebucht.\"",
-          "\"Das Gepäck\" (luggage) is uncountable, like in English: \"viel Gepäck\", never *Gepäcke*. One piece is \"der Koffer\" (suitcase, plural also \"die Koffer\") or \"der Rucksack\". \"Packen\" means to pack: \"Hast du schon gepackt?\"",
+          "\"Das Gepäck\" (luggage) is uncountable, like in English: \"viel Gepäck\", never \"*Gepäcke*\". One piece is \"der Koffer\" (suitcase, plural also \"die Koffer\") or \"der Rucksack\". \"Packen\" means to pack: \"Hast du schon gepackt?\"",
         ],
         examples: [
           { es: "Wir haben eine Ferienwohnung am See gebucht.", en: "We've booked a holiday flat by the lake." },
@@ -133,7 +133,7 @@ export const DE_A2_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "How was your holiday? (to a friend)",
         answer: "Wie war dein Urlaub?",
-        altAnswers: ["Wie war euer Urlaub?", "Wie war Ihr Urlaub?", "Wie war der Urlaub?"],
+        altAnswers: ["Wie war der Urlaub?"],
         explanation: "\"Der Urlaub\" is masculine: \"dein Urlaub\". \"War\" for the past of sein.",
       },
       {
@@ -267,7 +267,7 @@ export const DE_A2_U19: Lesson[] = [
             prompt: "Translate into German.",
             source: "She broke her arm.",
             answer: "Sie hat sich den Arm gebrochen.",
-            explanation: "German uses the dative reflexive \"sich\" and the article: \"sich den Arm brechen\", not *ihren Arm*.",
+            explanation: "German uses the dative reflexive \"sich\" and the article: \"sich den Arm brechen\", not \"*ihren Arm*\".",
           },
           {
             type: "fill-blank",
@@ -420,7 +420,7 @@ export const DE_A2_U19: Lesson[] = [
         heading: "Phones and messages",
         body: [
           "\"Das Handy\" is the everyday word for a mobile phone (\"das Smartphone\" is also used). \"Die Nachricht\" is a message (and a news item): \"Ich schicke dir eine Nachricht.\" For texting, people say \"schreiben\" (\"Schreib mir einfach!\") or the informal \"simsen\"; for WhatsApp, \"whatsappen\" is heard too.",
-          "\"Anrufen\" (to call) takes the accusative: \"Ich rufe dich an\", \"Ruf mich an!\" Never *dir*: that slip comes from \"schreiben\", which does take the dative (\"Ich schreibe dir\"). It's separable: \"Ich habe dich gestern angerufen.\" The phone's battery: \"Mein Akku ist leer\" (my battery is dead).",
+          "\"Anrufen\" (to call) takes the accusative: \"Ich rufe dich an\", \"Ruf mich an!\" Never \"*dir*\": that slip comes from \"schreiben\", which does take the dative (\"Ich schreibe dir\"). It's separable: \"Ich habe dich gestern angerufen.\" The phone's battery: \"Mein Akku ist leer\" (my battery is dead).",
         ],
         examples: [
           { es: "Ich schicke dir gleich eine Nachricht.", en: "I'll send you a message in a minute." },
@@ -437,7 +437,7 @@ export const DE_A2_U19: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'll call you tomorrow. (to a friend)",
             answer: "Ich rufe dich morgen an.",
-            altAnswers: ["Morgen rufe ich dich an.", "Ich werde dich morgen anrufen.", "Ich rufe euch morgen an.", "Ich rufe Sie morgen an."],
+            altAnswers: ["Morgen rufe ich dich an.", "Ich werde dich morgen anrufen."],
             explanation: "\"Anrufen\" + accusative \"dich\"; the prefix \"an\" goes to the end.",
           },
           {
@@ -447,7 +447,7 @@ export const DE_A2_U19: Lesson[] = [
             source: "My battery is dead.",
             answer: "Mein Akku ist leer.",
             altAnswers: ["Mein Handy ist leer.", "Der Akku ist leer."],
-            explanation: "\"Der Akku\" (battery) is \"leer\" (empty), not *tot*.",
+            explanation: "\"Der Akku\" (battery) is \"leer\" (empty), not \"*tot*\".",
           },
         ],
       },
@@ -531,7 +531,7 @@ export const DE_A2_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "Did you get my message? (to a friend)",
         answer: "Hast du meine Nachricht bekommen?",
-        altAnswers: ["Hast du meine Nachricht gekriegt?", "Habt ihr meine Nachricht bekommen?", "Haben Sie meine Nachricht bekommen?", "Hast du meine Nachricht erhalten?"],
+        altAnswers: ["Hast du meine Nachricht gekriegt?", "Hast du meine Nachricht erhalten?"],
         explanation: "\"Die Nachricht\" is feminine: \"meine\". \"Bekommen\" = get.",
       },
       {
@@ -717,7 +717,7 @@ export const DE_A2_U19: Lesson[] = [
             prompt: "Translate into German.",
             source: "Put a jacket on! (to a friend)",
             answer: "Zieh dir eine Jacke an!",
-            altAnswers: ["Zieh eine Jacke an!", "Zieh dir doch eine Jacke an!", "Ziehe dir eine Jacke an!", "Zieht euch eine Jacke an!", "Ziehen Sie sich eine Jacke an!"],
+            altAnswers: ["Zieh eine Jacke an!", "Zieh dir doch eine Jacke an!", "Ziehe dir eine Jacke an!"],
             explanation: "With an object (\"eine Jacke\") the reflexive is dative: \"dir\". \"An\" goes to the end.",
           },
           {
@@ -744,6 +744,7 @@ export const DE_A2_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm brushing my teeth.",
         answer: "Ich putze mir die Zähne.",
+        altAnswers: ["Ich putze meine Zähne."],
         explanation: "\"Sich die Zähne putzen\": dative \"mir\" and the article; \"der Zahn\" → \"die Zähne\".",
       },
       {
@@ -848,7 +849,7 @@ export const DE_A2_U19: Lesson[] = [
             source: "I work as a teacher.",
             answer: "Ich arbeite als Lehrer.",
             altAnswers: ["Ich arbeite als Lehrerin.", "Ich bin Lehrer.", "Ich bin Lehrerin."],
-            explanation: "\"Als\" + job with no article: never *als ein Lehrer*.",
+            explanation: "\"Als\" + job with no article: never \"*als ein Lehrer*\".",
           },
           {
             type: "translate",
@@ -1145,7 +1146,7 @@ export const DE_A2_U19: Lesson[] = [
         source: "What's the weather like today?",
         answer: "Wie ist das Wetter heute?",
         altAnswers: ["Wie ist heute das Wetter?"],
-        explanation: "German asks how is the weather: \"Wie ist das Wetter?\", not *Was ist das Wetter wie?*",
+        explanation: "German asks how is the weather: \"Wie ist das Wetter?\", not \"*Was ist das Wetter wie?*\"",
       },
       {
         type: "translate",
@@ -1373,6 +1374,7 @@ export const DE_A2_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "We looked everywhere.",
         answer: "Wir haben überall gesucht.",
+        altAnswers: ["Wir haben überall geschaut.", "Wir haben überall nachgesehen."],
         explanation: "\"Suchen\" is regular: \"gesucht\". \"Überall\" = everywhere.",
       },
       {
@@ -1381,7 +1383,7 @@ export const DE_A2_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "Then we drove to the church.",
         answer: "Dann sind wir zur Kirche gefahren.",
-        altAnswers: ["Dann sind wir in die Kirche gefahren.", "Danach sind wir zur Kirche gefahren."],
+        altAnswers: ["Wir sind dann zur Kirche gefahren.", "Danach sind wir zur Kirche gefahren."],
         explanation: "\"Dann\" first, verb second; \"fahren\" takes \"sein\"; \"zur\" = zu der.",
       },
       {
@@ -1456,8 +1458,8 @@ export const DE_A2_U19: Lesson[] = [
       {
         heading: "Day 1: auxiliary and participle slips",
         body: [
-          "Ayşe is learning German and wrote a diary of her trip to the Bodensee (Lake Constance), where Germany, Austria and Switzerland meet. Here's day 1 with three mistakes: *Am Freitag habe ich mit dem Zug nach Konstanz gefahren. Die Fahrt hat vier Stunden gedauert. Am Abend bin ich am See spazieren gegeht.*",
-          "Mistake 1: \"fahren\" (movement from A to B) takes \"sein\": \"bin ... gefahren\". Mistake 2: none in the second sentence, \"dauern\" takes haben. Mistake 3: \"gehen\" is strong: the participle is \"gegangen\", not *gegeht*.",
+          "Ayşe is learning German and wrote a diary of her trip to the Bodensee (Lake Constance), where Germany, Austria and Switzerland meet. Here's day 1 with three mistakes: \"*Am Freitag habe ich mit dem Zug nach Konstanz gefahren. Die Fahrt hat vier Stunden gedauert. Am Abend bin ich am See spazieren gegeht.*\"",
+          "Mistake 1: \"fahren\" (movement from A to B) takes \"sein\": \"bin ... gefahren\". Mistake 2: none in the second sentence, \"dauern\" takes haben. Mistake 3: \"gehen\" is strong: the participle is \"gegangen\", not \"*gegeht*\".",
           "Correct version: \"Am Freitag bin ich mit dem Zug nach Konstanz gefahren. Die Fahrt hat vier Stunden gedauert. Am Abend bin ich am See spazieren gegangen.\"",
         ],
         examples: [
@@ -1471,7 +1473,7 @@ export const DE_A2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the slip and translate into German: Ayşe wrote *Ich habe nach Konstanz gefahren* for I went to Konstanz.",
+            prompt: "Fix the slip and translate into German: Ayşe wrote \"*Ich habe nach Konstanz gefahren*\" for I went to Konstanz.",
             source: "I went to Konstanz.",
             answer: "Ich bin nach Konstanz gefahren.",
             explanation: "\"Fahren\" to a place is movement, so the auxiliary is \"bin\", not \"habe\".",
@@ -1479,17 +1481,17 @@ export const DE_A2_U19: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "In the evening I went for a [walk] by the lake.",
+            en: "In the evening I [went] for a walk by the lake.",
             sentence: "Am Abend bin ich am See spazieren ___.",
             answer: "gegangen",
-            explanation: "\"Gehen\" is strong: \"gegangen\". *Gegeht* is the classic over-regularised slip.",
+            explanation: "\"Gehen\" is strong: \"gegangen\". \"*Gegeht*\" is the classic over-regularised slip.",
           },
         ],
       },
       {
         heading: "Day 2: cases and endings",
         body: [
-          "Day 2: *Am Samstag habe ich mit eine Freundin eine Schifffahrt gemacht. Wir sind auf die Insel Mainau gefahren. Dort gibt es einen schöner Garten mit viele Blumen.*",
+          "Day 2: \"*Am Samstag habe ich mit eine Freundin eine Schifffahrt gemacht. Wir sind auf die Insel Mainau gefahren. Dort gibt es einen schöner Garten mit viele Blumen.*\"",
           "Mistake 1: \"mit\" always takes the dative: \"mit einer Freundin\". Mistake 2: none, \"auf die Insel\" is movement to a place (accusative). Mistake 3: after \"einen\" the adjective ends in -en: \"einen schönen Garten\". Mistake 4: \"mit\" + dative plural: \"mit vielen Blumen\".",
           "Correct: \"Am Samstag habe ich mit einer Freundin eine Schifffahrt gemacht. Wir sind auf die Insel Mainau gefahren. Dort gibt es einen schönen Garten mit vielen Blumen.\" (Note the three f's in \"Schifffahrt\": Schiff + Fahrt.)",
         ],
@@ -1504,7 +1506,7 @@ export const DE_A2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the slip and translate into German: Ayşe wrote *mit eine Freundin*.",
+            prompt: "Fix the slip and translate into German: Ayşe wrote \"*mit eine Freundin*\".",
             source: "I went on a boat trip with a friend.",
             answer: "Ich habe mit einer Freundin eine Schifffahrt gemacht.",
             altAnswers: ["Ich habe mit einem Freund eine Schifffahrt gemacht.", "Ich habe eine Schifffahrt mit einer Freundin gemacht.", "Ich habe eine Schifffahrt mit einem Freund gemacht.", "Ich habe mit einer Freundin eine Bootsfahrt gemacht.", "Ich habe mit einem Freund eine Bootsfahrt gemacht."],
@@ -1531,7 +1533,7 @@ export const DE_A2_U19: Lesson[] = [
       {
         heading: "Day 3: verb position",
         body: [
-          "Day 3: *Am Sonntag es hat geregnet. Ich bin im Hotel geblieben, weil ich war müde. Ich habe gehört, dass das Wetter wird morgen besser.*",
+          "Day 3: \"*Am Sonntag es hat geregnet. Ich bin im Hotel geblieben, weil ich war müde. Ich habe gehört, dass das Wetter wird morgen besser.*\"",
           "Mistake 1: after a fronted time phrase, the verb comes second: \"Am Sonntag hat es geregnet.\" Mistake 2: \"weil\" sends the verb to the end: \"weil ich müde war\". Mistake 3: \"dass\" does too, and \"werden\" is the conjugated verb, so it goes last: \"dass das Wetter morgen besser wird\".",
           "Correct: \"Am Sonntag hat es geregnet. Ich bin im Hotel geblieben, weil ich müde war. Ich habe gehört, dass das Wetter morgen besser wird.\"",
         ],
@@ -1546,7 +1548,7 @@ export const DE_A2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the slip and translate into German: Ayşe wrote *Am Sonntag es hat geregnet*.",
+            prompt: "Fix the slip and translate into German: Ayşe wrote \"*Am Sonntag es hat geregnet*\".",
             source: "On Sunday it rained.",
             answer: "Am Sonntag hat es geregnet.",
             altAnswers: ["Es hat am Sonntag geregnet."],
@@ -1555,7 +1557,7 @@ export const DE_A2_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix the slip and translate into German: Ayşe wrote *weil ich war müde*.",
+            prompt: "Fix the slip and translate into German: Ayşe wrote \"*weil ich war müde*\".",
             source: "I stayed in the hotel because I was tired.",
             answer: "Ich bin im Hotel geblieben, weil ich müde war.",
             altAnswers: ["Weil ich müde war, bin ich im Hotel geblieben."],
@@ -1574,7 +1576,7 @@ export const DE_A2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the slip and translate into German: a learner wrote *Wir haben nach Lindau gefahren*.",
+        prompt: "Fix the slip and translate into German: a learner wrote \"*Wir haben nach Lindau gefahren*\".",
         source: "We went to Lindau.",
         answer: "Wir sind nach Lindau gefahren.",
         explanation: "Movement to a place: \"sind ... gefahren\".",
@@ -1582,7 +1584,7 @@ export const DE_A2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the slip and translate into German: a learner wrote *Ich habe ein Fisch gegessen*.",
+        prompt: "Fix the slip and translate into German: a learner wrote \"*Ich habe ein Fisch gegessen*\".",
         source: "I ate a fish.",
         answer: "Ich habe einen Fisch gegessen.",
         explanation: "\"Der Fisch\" is masculine: accusative \"einen Fisch\".",
@@ -1590,7 +1592,7 @@ export const DE_A2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the slip and translate into German: a learner wrote *Dann wir sind ins Museum gegangen*.",
+        prompt: "Fix the slip and translate into German: a learner wrote \"*Dann wir sind ins Museum gegangen*\".",
         source: "Then we went to the museum.",
         answer: "Dann sind wir ins Museum gegangen.",
         explanation: "\"Dann\" takes position 1, so the verb \"sind\" comes second.",
@@ -1606,7 +1608,7 @@ export const DE_A2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the slip and translate into German: a learner wrote *Ich konnte nicht schlafen, weil es war zu laut*.",
+        prompt: "Fix the slip and translate into German: a learner wrote \"*Ich konnte nicht schlafen, weil es war zu laut*\".",
         source: "I couldn't sleep because it was too loud.",
         answer: "Ich konnte nicht schlafen, weil es zu laut war.",
         explanation: "\"Weil\" sends \"war\" to the end of the clause.",
@@ -1621,7 +1623,7 @@ export const DE_A2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the slip and translate into German: a learner wrote *Ich habe mein Freund ein Postkarte geschickt*.",
+        prompt: "Fix the slip and translate into German: a learner wrote \"*Ich habe mein Freund ein Postkarte geschickt*\".",
         source: "I sent my friend a postcard.",
         answer: "Ich habe meinem Freund eine Postkarte geschickt.",
         altAnswers: ["Ich habe meiner Freundin eine Postkarte geschickt.", "Ich habe meinem Freund eine Karte geschickt.", "Ich habe meiner Freundin eine Karte geschickt."],
@@ -1630,7 +1632,7 @@ export const DE_A2_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix the slip and translate into German: a learner wrote *Am Abend habe ich in Bett gelegen*.",
+        prompt: "Fix the slip and translate into German: a learner wrote \"*Am Abend habe ich in Bett gelegen*\".",
         source: "In the evening I lay in bed.",
         answer: "Am Abend habe ich im Bett gelegen.",
         altAnswers: ["Am Abend bin ich im Bett gelegen.", "Am Abend lag ich im Bett."],
@@ -1677,7 +1679,7 @@ export const DE_A2_U19: Lesson[] = [
         heading: "Born on, born in: dates and years",
         body: [
           "A biography starts with birth: \"Lena Schneider ist am 3. Mai 1990 in Rostock geboren\" (or \"wurde ... geboren\", the written form). \"Am\" + ordinal for the day: \"am dritten Mai\". Years are said in hundreds: 1990 = \"neunzehnhundertneunzig\"; from 2000 on: \"zweitausendzehn\".",
-          "Big trap: German never puts \"in\" before a bare year. Say \"1990 ist sie geboren\" or \"im Jahr 1990\", never *in 1990*.",
+          "Big trap: German never puts \"in\" before a bare year. Say \"1990 ist sie geboren\" or \"im Jahr 1990\", never \"*in 1990*\".",
         ],
         examples: [
           { es: "Sie ist am 3. Mai 1990 in Rostock geboren.", en: "She was born on 3 May 1990 in Rostock." },
@@ -1732,7 +1734,7 @@ export const DE_A2_U19: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[From] 2010 [to] 2014 he lived in Hamburg.",
+            en: "[From 2010 to] 2014 he lived in Hamburg.",
             sentence: "___ 2014 hat er in Hamburg gewohnt.",
             answer: "Von 2010 bis",
             explanation: "\"Von ... bis\" = from ... to, with bare years.",
@@ -1815,7 +1817,7 @@ export const DE_A2_U19: Lesson[] = [
         sentence: "___ seit 2019 in München.",
         answer: "Sie wohnt",
         altAnswers: ["Sie lebt"],
-        explanation: "\"Seit\" + present: \"Sie wohnt\", not *Sie hat gewohnt*.",
+        explanation: "\"Seit\" + present: \"Sie wohnt\", not \"*Sie hat gewohnt*\".",
       },
       {
         type: "multiple-choice",
@@ -1924,7 +1926,7 @@ export const DE_A2_U19: Lesson[] = [
       {
         heading: "Modals and seit",
         body: [
-          "Modals in the past: almost always Präteritum, and without umlaut: \"ich konnte\", \"ich musste\", \"ich durfte\", \"ich wollte\", \"ich sollte\", \"ich mochte\". So I couldn't come is \"Ich konnte nicht kommen\", not *Ich habe nicht kommen gekonnt*.",
+          "Modals in the past: almost always Präteritum, and without umlaut: \"ich konnte\", \"ich musste\", \"ich durfte\", \"ich wollte\", \"ich sollte\", \"ich mochte\". So I couldn't come is \"Ich konnte nicht kommen\", not \"*Ich habe nicht kommen gekonnt*\".",
           "\"Seit\" + present for anything still going on, however long: \"Ich warte seit einer Stunde\" (I've been waiting for an hour). Use the Perfekt with \"lang\" only for a finished period.",
         ],
         examples: [
@@ -2172,13 +2174,13 @@ export const DE_A2_U19: Lesson[] = [
       {
         heading: "Step 3: reasons and reflections",
         body: [
-          "Finish with at least two subordinate clauses: \"Ich bin umgezogen, weil die alte Wohnung zu klein war.\" \"Ich habe gemerkt, dass ich mehr Sport brauche.\" \"Als meine Nichte geboren ist, war ich total glücklich.\"",
+          "Finish with at least two subordinate clauses: \"Ich bin umgezogen, weil die alte Wohnung zu klein war.\" \"Ich habe gemerkt, dass ich mehr Sport brauche.\" \"Als meine Nichte auf die Welt gekommen ist, war ich total glücklich.\" (\"auf die Welt kommen\": to be born)",
           "And one look ahead with \"werden\": \"Nächstes Jahr werde ich mehr reisen.\" That's your ten sentences: three events, three descriptions, three clauses, one plan.",
         ],
         examples: [
           { es: "Ich bin umgezogen, weil die alte Wohnung zu klein war.", en: "I moved because the old flat was too small." },
           { es: "Ich habe gemerkt, dass ich mehr Sport brauche.", en: "I realised I need more exercise." },
-          { es: "Als meine Nichte geboren ist, war ich total glücklich.", en: "When my niece was born, I was really happy." },
+          { es: "Als meine Nichte auf die Welt gekommen ist, war ich total glücklich.", en: "When my niece was born, I was really happy." },
           { es: "Nächstes Jahr werde ich mehr reisen.", en: "Next year I'll travel more." },
           { es: "Insgesamt war es ein tolles Jahr.", en: "All in all it was a great year." },
         ],
@@ -2233,7 +2235,7 @@ export const DE_A2_U19: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
         en: "[When] my niece was born, I was really happy.",
-        sentence: "___ meine Nichte geboren ist, war ich total glücklich.",
+        sentence: "___ meine Nichte auf die Welt gekommen ist, war ich total glücklich.",
         answer: "Als",
         explanation: "\"Als\" for one event in the past; \"wenn\" would be for repeated or future events.",
       },
@@ -2325,7 +2327,7 @@ export const DE_A2_U19: Lesson[] = [
             en: "Last week I [had to] go to work early.",
             sentence: "Letzte Woche ___ ich früh zur Arbeit.",
             answer: "musste",
-            explanation: "Short u, so ss: \"musste\" (never *mußte* since the 2006 reform).",
+            explanation: "Short u, so ss: \"musste\" (never \"*mußte*\" since the 2006 reform).",
           },
         ],
       },
@@ -2358,7 +2360,7 @@ export const DE_A2_U19: Lesson[] = [
             prompt: "Translate into German.",
             source: "She stayed at home.",
             answer: "Sie ist zu Hause geblieben.",
-            altAnswers: ["Sie blieb zu Hause.", "Sie ist daheim geblieben."],
+            altAnswers: ["Sie blieb zu Hause.", "Sie ist daheim geblieben.", "Sie ist zuhause geblieben."],
             explanation: "\"Geblieben\" with ie: the participle of \"bleiben\" switches ei to ie, and \"bleiben\" takes \"sein\".",
           },
           {
@@ -2457,6 +2459,7 @@ export const DE_A2_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "A colleague gave me her phone.",
         answer: "Eine Kollegin hat mir ihr Handy gegeben.",
+        altAnswers: ["Eine Kollegin gab mir ihr Handy."],
         explanation: "\"Geben\" → \"gegeben\"; dative \"mir\", accusative \"ihr Handy\".",
       },
       {
@@ -2592,10 +2595,10 @@ export const DE_A2_U19: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "What is the gender of Haustürschlüssel (Haus + Tür + Schlüssel)?",
-            options: ["der", "das", "die", "It depends on the context."],
+            question: "You can't find the front-door key (Haus + Tür + Schlüssel). What do you ask?",
+            options: ["Wo ist der Haustürschlüssel?", "Wo ist das Haustürschlüssel?", "Wo ist die Haustürschlüssel?", "Wo ist den Haustürschlüssel?"],
             correctIndex: 0,
-            explanation: "The last noun decides: \"der Schlüssel\", so \"der Haustürschlüssel\".",
+            explanation: "The last noun decides: \"der Schlüssel\", so \"der Haustürschlüssel\" (nominative, the subject). \"Das Haus\" and \"die Tür\" don't count.",
           },
           {
             type: "translate",
@@ -2630,7 +2633,7 @@ export const DE_A2_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "Your suitcase is heavy. (to a friend)",
         answer: "Dein Koffer ist schwer.",
-        altAnswers: ["Dein Koffer ist aber schwer.", "Euer Koffer ist schwer.", "Ihr Koffer ist schwer."],
+        altAnswers: ["Dein Koffer ist aber schwer."],
         explanation: "\"Schwer\" = heavy here. \"Der Koffer\" is masculine: \"dein\".",
       },
       {
@@ -2652,7 +2655,7 @@ export const DE_A2_U19: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does Die Übung war leicht mean?",
+        question: "What does \"Die Übung war leicht\" mean?",
         options: ["The exercise was easy.", "The exercise was light.", "The exercise was short.", "The exercise was hard."],
         correctIndex: 0,
         explanation: "For a task, \"leicht\" = easy.",

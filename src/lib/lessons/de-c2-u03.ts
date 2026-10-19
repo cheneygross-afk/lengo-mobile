@@ -8,7 +8,7 @@ export const DE_C2_U03: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Medizinisches Deutsch, Part 1 of 6",
-    summary: "How the German health system works in words: Hausarzt and Facharzt, Überweisung, gesetzlich or privat versichert, the Krankschreibung, 116 117 versus 112, and why a Drogerie is not a drugstore.",
+    summary: "Find your way around the German health system: \"Hausarzt\" and \"Facharzt\", the \"Überweisung\", \"gesetzlich\" or \"privat versichert\", getting signed off sick, when to call 116 117 or 112, and why a \"Drogerie\" is not a pharmacy.",
     duration: "18 min",
     sections: [
       {
@@ -38,7 +38,7 @@ export const DE_C2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "At reception you are asked: Sind Sie gesetzlich oder privat versichert? What are they asking?",
+            question: "At reception you are asked: \"Sind Sie gesetzlich oder privat versichert?\" What are they asking?",
             options: ["Whether you have statutory or private health insurance.", "Whether you are insured by law or by contract.", "Whether you want a private room.", "Whether your insurance is valid in Germany."],
             correctIndex: 0,
             explanation: "\"Gesetzlich versichert\" = in the statutory system (Krankenkasse); \"privat versichert\" = private insurance.",
@@ -50,7 +50,7 @@ export const DE_C2_U03: Lesson[] = [
         body: [
           "If you are ill and cannot work, the doctor issues \"eine Arbeitsunfähigkeitsbescheinigung\" (AU, certificate of incapacity for work): you are \"krankgeschrieben\" (signed off sick). For decades this was a yellow form, \"der gelbe Schein\", and people still say \"Ich hole mir einen gelben Schein\". Since 2023 it is mostly electronic (\"eAU\"): the practice sends it to the Krankenkasse, and the employer retrieves it.",
           "Your duties stay the same: \"sich krankmelden\" (call in sick) with your employer on the first day, and, unless the contract says otherwise, have an AU from the fourth calendar day. Useful phrases: \"Ich bin bis Freitag krankgeschrieben\", \"Der Arzt hat mich für eine Woche krankgeschrieben.\"",
-          "Trap: \"krankschreiben\" is what the doctor does (\"jemanden krankschreiben\"), \"sich krankmelden\" is what you do with your employer. And \"krank feiern\" (literally to celebrate sick) means skiving off while pretending to be ill.",
+          "Trap: \"krankschreiben\" is what the doctor does (\"jemanden krankschreiben\"), \"sich krankmelden\" is what you do with your employer. And \"krankfeiern\" (literally to celebrate sick) means skiving off while pretending to be ill.",
         ],
         examples: [
           { es: "Die Ärztin hat mich für eine Woche krankgeschrieben.", en: "The doctor signed me off sick for a week." },
@@ -191,7 +191,8 @@ export const DE_C2_U03: Lesson[] = [
         prompt: "Put the words in order to say: At the weekend, call the out-of-hours service.",
         words: ["Am", "Wochenende", "rufen", "Sie", "den", "Bereitschaftsdienst", "an."],
         translation: "At the weekend, call the out-of-hours service.",
-        explanation: "\"Anrufen\" separates: \"rufen ... an\". Here \"Sie\" after the verb is a statement of instruction.",
+        altOrders: [["Rufen", "Sie", "am", "Wochenende", "den", "Bereitschaftsdienst", "an."]],
+        explanation: "\"Anrufen\" separates: \"rufen ... an\". \"Am Wochenende\" in position 1 pushes \"Sie\" after the verb: a statement used as an instruction. The imperative \"Rufen Sie am Wochenende ... an\" is also correct.",
       },
       {
         type: "matching",
@@ -207,7 +208,7 @@ export const DE_C2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your colleague says: Jonas feiert schon wieder krank. What does she mean?",
+        question: "Your colleague says: \"Jonas feiert schon wieder krank.\" What does she mean?",
         options: ["Jonas is pretending to be ill again.", "Jonas is celebrating his recovery.", "Jonas is seriously ill again.", "Jonas is having a party at the hospital."],
         correctIndex: 0,
         explanation: "\"Krankfeiern\" is colloquial for skiving off while claiming to be sick.",
@@ -221,7 +222,7 @@ export const DE_C2_U03: Lesson[] = [
         type: "speak",
         text: "Ich hätte gern einen Termin bei Frau Doktor Schneider.",
         prompt: "Ask for an appointment with Dr Schneider in German.",
-        tip: "Dr. is read Doktor in full.",
+        tip: "\"Dr.\" is read \"Doktor\" in full.",
         explanation: "\"Ich hätte gern\" is the polite request; \"einen Termin bei\" + the doctor.",
       },
     ],
@@ -261,7 +262,7 @@ export const DE_C2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The doctor asks: Haben Sie sonst noch Beschwerden? What does she want to know?",
+            question: "The doctor asks: \"Haben Sie sonst noch Beschwerden?\" What does she want to know?",
             options: ["Whether you have any other symptoms.", "Whether you want to make a complaint.", "Whether you have other appointments.", "Whether you have any other questions about the bill."],
             correctIndex: 0,
             explanation: "In a medical context \"Beschwerden\" = symptoms. \"Sonst noch\" = anything else.",
@@ -271,7 +272,7 @@ export const DE_C2_U03: Lesson[] = [
       {
         heading: "Seit drei Tagen: present tense for ongoing symptoms",
         body: [
-          "German uses the present tense with \"seit\" for something that started in the past and is still going on: \"Ich habe seit drei Tagen Fieber\" (I've had a fever for three days). English uses the present perfect, and English speakers produce *\"Ich habe seit drei Tagen Fieber gehabt\", which suggests the fever is over. Only if it has stopped do you use the Perfekt, usually with \"vor\" or \"bis\": \"Ich hatte bis gestern Fieber.\"",
+          "German uses the present tense with \"seit\" for something that started in the past and is still going on: \"Ich habe seit drei Tagen Fieber\" (I've had a fever for three days). English uses the present perfect, and English speakers produce \"*Ich habe seit drei Tagen Fieber gehabt*\", which suggests the fever is over. Only if it has stopped do you use a past tense (Präteritum or Perfekt), often with \"vor\" or \"bis\": \"Ich hatte bis gestern Fieber.\"",
           "\"Seit\" takes the dative: \"seit einer Woche\", \"seit dem Wochenende\", \"seit zwei Monaten\". \"Schon\" adds emphasis: \"Das geht schon seit Wochen so.\" For a point in the past use \"vor\" + dative: \"Vor zwei Tagen hat es angefangen\" (It started two days ago).",
           "Questions follow the same rule: \"Seit wann haben Sie das?\" (How long have you had it?), \"Wie lange geht das schon so?\".",
         ],
@@ -291,7 +292,7 @@ export const DE_C2_U03: Lesson[] = [
             source: "I've had a cough for two weeks.",
             answer: "Ich habe seit zwei Wochen Husten.",
             altAnswers: ["Seit zwei Wochen habe ich Husten.", "Ich huste seit zwei Wochen.", "Seit zwei Wochen huste ich.", "Ich habe schon seit zwei Wochen Husten."],
-            explanation: "Ongoing symptom: \"seit\" + present tense. *\"Ich habe seit zwei Wochen Husten gehabt\" would sound as if it had stopped.",
+            explanation: "Ongoing symptom: \"seit\" + present tense. \"*Ich habe seit zwei Wochen Husten gehabt*\" would sound as if it had stopped.",
           },
           {
             type: "translate",
@@ -333,7 +334,7 @@ export const DE_C2_U03: Lesson[] = [
             source: "I'm allergic to penicillin.",
             answer: "Ich bin allergisch gegen Penizillin.",
             altAnswers: ["Ich habe eine Penizillinallergie.", "Ich bin gegen Penizillin allergisch.", "Ich habe eine Allergie gegen Penizillin.", "Ich bin allergisch gegen Penicillin."],
-            explanation: "\"Allergisch gegen\" + accusative, not *auf in standard German (though \"auf\" is common in speech).",
+            explanation: "\"Allergisch gegen\" + accusative is the standard choice; \"allergisch auf\" is common in speech, especially in the south.",
           },
           {
             type: "fill-blank",
@@ -342,7 +343,7 @@ export const DE_C2_U03: Lesson[] = [
             sentence: "___?",
             answer: "Sind Sie schon einmal operiert worden",
             altAnswers: ["Wurden Sie schon einmal operiert", "Sind Sie schon mal operiert worden", "Wurden Sie schon mal operiert"],
-            explanation: "German says to be operated on: passive \"operiert werden\". *\"Hatten Sie eine Operation\" is possible but less idiomatic.",
+            explanation: "German says to be operated on: passive \"operiert werden\". \"Hatten Sie schon einmal eine Operation?\" is possible but less idiomatic.",
           },
         ],
       },
@@ -387,10 +388,10 @@ export const DE_C2_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I [can't tolerate] gluten.",
+        en: "I can't [tolerate] gluten.",
         sentence: "Ich ___ kein Gluten.",
         answer: "vertrage",
-        explanation: "\"Etwas (nicht) vertragen\" = to (not) tolerate food or medicine.",
+        explanation: "\"Etwas (nicht) vertragen\" = to (not) tolerate food or medicine. German needs no modal: \"Ich vertrage kein Gluten\", with the negation in \"kein\".",
       },
       {
         type: "translate",
@@ -449,8 +450,8 @@ export const DE_C2_U03: Lesson[] = [
     slug: "c2-pain-descriptors-word-web",
     level: "DE-C2",
     number: 3,
-    title: "Word Web: Schmerzen Beschreiben wie ein Arzt",
-    summary: "Describe pain like a clinician: stechend, brennend, drückend, pochend, ziehend, krampfartig, dumpf, ausstrahlend; the 0-10 pain scale; and mir tut ... weh versus ich habe ...schmerzen.",
+    title: "Word Web: Schmerzen beschreiben wie ein Arzt",
+    summary: "Describe pain like a clinician (\"stechend\", \"brennend\", \"drückend\", \"pochend\", \"ziehend\", \"krampfartig\", \"dumpf\", \"ausstrahlend\"), rate it on the 0-10 scale, and choose between \"mir tut ... weh\" and \"ich habe ...schmerzen\".",
     duration: "16 min",
     sections: [
       {
@@ -475,7 +476,7 @@ export const DE_C2_U03: Lesson[] = [
             prompt: "Translate into German.",
             source: "I have a stabbing pain in my side.",
             answer: "Ich habe einen stechenden Schmerz in der Seite.",
-            altAnswers: ["Ich habe stechende Schmerzen in der Seite.", "Ich habe einen stechenden Schmerz in der rechten Seite.", "Ich habe Seitenstechen.", "In der Seite habe ich einen stechenden Schmerz."],
+            altAnswers: ["Ich habe stechende Schmerzen in der Seite.", "Ich habe Seitenstechen.", "In der Seite habe ich einen stechenden Schmerz."],
             explanation: "\"Einen stechenden Schmerz\": accusative masculine, -en ending. Body part with the article, not my.",
           },
           {
@@ -526,7 +527,7 @@ export const DE_C2_U03: Lesson[] = [
         heading: "Mir tut ... weh, ich habe ...schmerzen, the 0-10 scale",
         body: [
           "Two ways to say what hurts. \"Mir tut der Rücken weh\" (dative of the person, body part as subject): plural body parts take a plural verb, \"Mir tun die Füße weh\". Or a compound noun: \"Ich habe Rückenschmerzen / Kopfschmerzen / Bauchschmerzen / Halsschmerzen / Ohrenschmerzen\". Not every body part makes a natural compound: say \"Mir tut das Knie weh\" or \"Ich habe Schmerzen im Knie\" (\"Knieschmerzen\" exists but is less common).",
-          "English speakers often write *\"Ich habe weh\" or *\"Mein Rücken tut mir weh\" (the second is possible but redundant). The cleanest pattern is \"Mir tut ... weh\".",
+          "English speakers often write \"*Ich habe weh*\" or \"*Ich habe Schmerz im Rücken*\". \"Mein Rücken tut (mir) weh\" is correct, but the most idiomatic pattern is \"Mir tut ... weh\".",
           "The pain scale: \"Auf einer Skala von 0 bis 10, wobei 10 der stärkste vorstellbare Schmerz ist, wie stark sind die Schmerzen?\" Answers: \"Etwa eine 6\", \"Zwischen 7 und 8\". Note: numbers as nouns are feminine: \"eine 6\", \"die 10\".",
         ],
         examples: [
@@ -540,7 +541,7 @@ export const DE_C2_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, with weh.",
+            prompt: "Translate into German, with \"weh\".",
             source: "My feet hurt.",
             answer: "Mir tun die Füße weh.",
             altAnswers: ["Die Füße tun mir weh.", "Meine Füße tun weh.", "Meine Füße tun mir weh."],
@@ -665,7 +666,7 @@ export const DE_C2_U03: Lesson[] = [
         type: "speak",
         text: "Es ist ein stechender Schmerz, der in den Rücken ausstrahlt.",
         prompt: "Describe it in German: It's a stabbing pain that radiates into my back.",
-        tip: "In stechender, the ch after e is the soft ich sound.",
+        tip: "In \"stechender\", the \"ch\" after \"e\" is the soft sound of \"ich\".",
         explanation: "Adjective + relative clause with the separable verb together at the end: \"ausstrahlt\".",
       },
     ],
@@ -675,7 +676,7 @@ export const DE_C2_U03: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Dialogue Lab: Das Anamnesegespräch",
-    summary: "Dr. Schneider takes Herr Yılmaz's history in a Hausarzt practice: open and closed questions, follow-ups, checking understanding, and switching between precise Sie-register and reassurance.",
+    summary: "Follow Dr Schneider as she takes Herr Yılmaz's history and learn to ask open and closed questions, follow up, check understanding, and move between precise \"Sie\" questions and reassurance.",
     duration: "18 min",
     sections: [
       {
@@ -903,7 +904,7 @@ export const DE_C2_U03: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Medizinisches Deutsch, Part 3 of 6",
-    summary: "Clinical terminology: Latin-Greek terms and their German everyday twins (Hypertonie / Bluthochdruck, Apoplex / Schlaganfall), the suffixes -itis, -ose, -om, -ektomie, -ologie, and transparent German compounds.",
+    summary: "Decode clinical terms and give their everyday German twins (\"Hypertonie\" / \"Bluthochdruck\", \"Apoplex\" / \"Schlaganfall\"), read the suffixes \"-itis\", \"-ose\", \"-om\", \"-ektomie\" and \"-ologie\", and split long German compounds.",
     duration: "18 min",
     sections: [
       {
@@ -911,7 +912,7 @@ export const DE_C2_U03: Lesson[] = [
         body: [
           "German medicine runs on two parallel vocabularies. Doctors among themselves, and in reports, use Latin-Greek terms: \"die Hypertonie\" (high blood pressure), \"der Myokardinfarkt\" (heart attack), \"die Gastritis\", \"der Apoplex\" (stroke), \"der Diabetes mellitus\". Patients and doctors talking to patients use German words: \"der Bluthochdruck\", \"der Herzinfarkt\", \"die Magenschleimhautentzündung\", \"der Schlaganfall\", \"die Zuckerkrankheit\" (colloquially \"Zucker haben\").",
           "This is different from English, where the everyday word is often the Latin-Greek one (hypertension, gastritis). German built transparent native compounds, so German patients often don't understand the international terms that English-speaking patients would. As a non-native speaker you may know \"Hypertonie\" from English and not \"Bluthochdruck\": learn both.",
-          "Gender follows the ending: \"-ie\" and \"-itis\" are feminine (\"die Hypertonie\", \"die Bronchitis\"), most \"-us\" terms masculine (\"der Diabetes\", \"der Infarkt\").",
+          "Gender often follows the ending: \"-ie\", \"-itis\" and \"-ose\" are feminine (\"die Hypertonie\", \"die Bronchitis\", \"die Arthrose\"), \"-om\" is neuter (\"das Karzinom\"). Many other terms are masculine (\"der Infarkt\", \"der Apoplex\", \"der Diabetes\"), but learn each article with the word.",
         ],
         examples: [
           { es: "Sie haben einen erhöhten Blutdruck, also eine Hypertonie.", en: "You have raised blood pressure, that is, hypertension." },
@@ -1016,7 +1017,7 @@ export const DE_C2_U03: Lesson[] = [
           {
             type: "speak",
             text: "Nach dem Sturz hatte sie eine Gehirnerschütterung.",
-            tip: "Gehirnerschütterung: the stress falls on -hirn and on schüt-.",
+            tip: "\"Gehirnerschütterung\": the main stress falls on \"-hirn\", a secondary stress on \"-schüt-\".",
             explanation: "A transparent compound: \"Gehirn\" + \"Erschütterung\".",
           },
         ],
@@ -1091,7 +1092,8 @@ export const DE_C2_U03: Lesson[] = [
         prompt: "Put the words in order to say: After the fall she had concussion.",
         words: ["Nach", "dem", "Sturz", "hatte", "sie", "eine", "Gehirnerschütterung."],
         translation: "After the fall she had concussion.",
-        explanation: "Time phrase first, then the verb, then the subject.",
+        altOrders: [["Sie", "hatte", "nach", "dem", "Sturz", "eine", "Gehirnerschütterung."]],
+        explanation: "Time phrase first, then the verb, then the subject; or the subject first with the verb still second.",
       },
       {
         type: "matching",
@@ -1107,7 +1109,7 @@ export const DE_C2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A report says: Oberschenkelhalsbruch rechts. What happened?",
+        question: "A report says: \"Oberschenkelhalsbruch rechts.\" What happened?",
         options: ["A fracture of the neck of the right femur.", "A sprain of the right thigh.", "A broken neck on the right side.", "A torn muscle in the right upper arm."],
         correctIndex: 0,
         explanation: "Split from the right: \"Bruch\" of the \"Hals\" of the \"Oberschenkel\".",
@@ -1130,7 +1132,7 @@ export const DE_C2_U03: Lesson[] = [
     level: "DE-C2",
     number: 6,
     title: "Medizinisches Deutsch, Part 4 of 6",
-    summary: "Medicines and dosage: verschreiben, rezeptfrei or verschreibungspflichtig, Wirkstoff, Nebenwirkungen, Wechselwirkungen, Gegenanzeigen; the colours of German prescriptions; and dosage in infinitive style (1-0-1, nüchtern einnehmen).",
+    summary: "Talk about medicines (\"verschreiben\", \"rezeptfrei\" or \"verschreibungspflichtig\", \"Wirkstoff\", \"Nebenwirkungen\", \"Wechselwirkungen\", \"Gegenanzeigen\"), tell the prescription colours apart, and read and explain dosage instructions such as \"1-0-1\" and \"nüchtern einnehmen\".",
     duration: "18 min",
     sections: [
       {
@@ -1144,8 +1146,8 @@ export const DE_C2_U03: Lesson[] = [
           { es: "Ich verschreibe Ihnen ein Antibiotikum.", en: "I'm prescribing you an antibiotic." },
           { es: "Das Medikament ist verschreibungspflichtig.", en: "The medicine is prescription-only." },
           { es: "Ibuprofen 400 bekommen Sie rezeptfrei in der Apotheke.", en: "You can get ibuprofen 400 without a prescription at the pharmacy." },
-          { es: "Das E-Rezept ist auf Ihrer Karte gespeichert.", en: "The e-prescription is stored on your card." },
-          { es: "Für das grüne Rezept müssen Sie selbst bezahlen.", en: "You have to pay yourself for the green prescription." },
+          { es: "Das E-Rezept lösen Sie mit Ihrer Karte in der Apotheke ein.", en: "You redeem the e-prescription at the pharmacy with your card." },
+          { es: "Für das grüne Rezept müssen Sie selbst bezahlen.", en: "You have to pay for a green prescription yourself." },
           { es: "Die Zuzahlung beträgt fünf Euro.", en: "The co-payment is five euros." },
         ],
         checkpoint: [
@@ -1172,9 +1174,9 @@ export const DE_C2_U03: Lesson[] = [
       {
         heading: "Wirkstoff, Nebenwirkungen, Wechselwirkungen, Gegenanzeigen",
         body: [
-          "\"Der Wirkstoff\" is the active ingredient (\"Ibuprofen\", \"Amoxicillin\"); the brand is \"das Präparat\". Generic medicines with the same Wirkstoff are \"Generika\". \"Die Wirkung\" is the effect; \"wirken\" = to work: \"Das Mittel wirkt nach etwa einer halben Stunde.\"",
-          "\"Nebenwirkungen\" (side effects), \"Wechselwirkungen\" (interactions with other medicines: \"mit anderen Arzneimitteln\") and \"Gegenanzeigen\" (contraindications: when you must not take it) are the three headings every patient should check. The famous TV formula: \"Zu Risiken und Nebenwirkungen lesen Sie die Packungsbeilage und fragen Sie Ihren Arzt oder Apotheker.\"",
-          "Trap: \"die Tablette\" is a tablet; \"die Pille\" in German almost always means the contraceptive pill (\"Sie nimmt die Pille\"). Other forms: \"die Kapsel\", \"die Tropfen\" (drops), \"der Saft\" (syrup), \"die Salbe\" (ointment), \"das Zäpfchen\" (suppository), \"die Spritze\" (injection).",
+          "\"Der Wirkstoff\" is the active ingredient (\"Ibuprofen\", \"Amoxicillin\"); the product is \"das Präparat\" (a brand-name one: \"das Markenpräparat\"). Generic medicines with the same Wirkstoff are \"Generika\". \"Die Wirkung\" is the effect; \"wirken\" = to work: \"Das Mittel wirkt nach etwa einer halben Stunde.\"",
+          "\"Nebenwirkungen\" (side effects), \"Wechselwirkungen\" (interactions with other medicines: \"mit anderen Arzneimitteln\") and \"Gegenanzeigen\" (contraindications: when you must not take it) are the three headings every patient should check. The famous TV formula: \"Zu Risiken und Nebenwirkungen lesen Sie die Packungsbeilage und fragen Sie Ihren Arzt oder Apotheker.\" (Since 2024 the official wording is \"... fragen Sie Ihre Ärztin, Ihren Arzt oder in Ihrer Apotheke.\")",
+          "Trap: \"die Tablette\" is a tablet; \"die Pille\" in German usually means the contraceptive pill (\"Sie nimmt die Pille\"). Other forms: \"die Kapsel\", \"die Tropfen\" (drops), \"der Saft\" (syrup), \"die Salbe\" (ointment), \"das Zäpfchen\" (suppository), \"die Spritze\" (injection).",
         ],
         examples: [
           { es: "Das Mittel wirkt nach etwa einer halben Stunde.", en: "The medicine takes effect after about half an hour." },
@@ -1196,8 +1198,8 @@ export const DE_C2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A British patient says: Ich nehme jeden Abend eine Pille gegen Bluthochdruck. What might a German hear?",
-            options: ["A slightly odd sentence: Pille usually means the contraceptive pill.", "A perfectly normal sentence.", "That he takes a sleeping pill.", "That he takes ointment."],
+            question: "A British patient says: \"Ich nehme jeden Abend eine Pille gegen Bluthochdruck.\" What might a German hear?",
+            options: ["A slightly odd sentence: \"Pille\" usually means the contraceptive pill.", "A perfectly normal sentence.", "That he takes a sleeping pill.", "That he takes ointment."],
             correctIndex: 0,
             explanation: "In German say \"eine Tablette\"; \"die Pille\" is primarily contraception.",
           },
@@ -1239,7 +1241,7 @@ export const DE_C2_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Explain to the patient in German, with Sie.",
+            prompt: "Explain to the patient in German, with \"Sie\".",
             source: "Take one tablet in the morning and one in the evening.",
             answer: "Nehmen Sie morgens und abends je eine Tablette.",
             altAnswers: ["Nehmen Sie morgens eine Tablette und abends eine.", "Nehmen Sie morgens und abends jeweils eine Tablette.", "Nehmen Sie morgens eine und abends eine Tablette.", "Nehmen Sie morgens und abends eine Tablette ein."],
@@ -1249,7 +1251,7 @@ export const DE_C2_U03: Lesson[] = [
             type: "speak",
             text: "Bitte nehmen Sie die Tabletten unzerkaut mit einem Glas Wasser.",
             prompt: "Tell the patient in German: Please swallow the tablets whole with a glass of water.",
-            tip: "Unzerkaut: stress the first syllable, UN-; the z is pronounced ts.",
+            tip: "\"Unzerkaut\": stress the first syllable, \"un-\"; the \"z\" is pronounced ts.",
             explanation: "\"Unzerkaut\" = without chewing: un- + zerkaut (participle of \"zerkauen\").",
           },
         ],
@@ -1323,11 +1325,12 @@ export const DE_C2_U03: Lesson[] = [
         prompt: "Put the words in order to say: Take one tablet three times a day.",
         words: ["Dreimal", "täglich", "eine", "Tablette", "einnehmen."],
         translation: "Take one tablet three times a day.",
-        explanation: "Infinitive instruction: frequency first, the verb last.",
+        altOrders: [["Eine", "Tablette", "dreimal", "täglich", "einnehmen."]],
+        explanation: "Infinitive instruction: no subject, the verb last; the frequency usually comes first.",
       },
       {
         type: "multiple-choice",
-        question: "The prescription says Ibuprofen 400, 1-1-1. What does the patient do?",
+        question: "The prescription says \"Ibuprofen 400, 1-1-1\". What does the patient do?",
         options: ["Take one tablet morning, midday and evening.", "Take one tablet on the first, second and third day.", "Take three tablets at once.", "Take one tablet every hour."],
         correctIndex: 0,
         explanation: "The numbers are morning-midday-evening(-night).",
@@ -1347,7 +1350,7 @@ export const DE_C2_U03: Lesson[] = [
       {
         type: "dictation",
         audio: "Unzerkaut mit ausreichend Flüssigkeit schlucken.",
-        explanation: "\"Ausreichend\" without an ending: used as an indeclinable quantity word here.",
+        explanation: "\"Ausreichend\" without an ending works like \"genug\" here; \"mit ausreichender Flüssigkeit\" is also correct.",
       },
       {
         type: "speak",
@@ -1362,7 +1365,7 @@ export const DE_C2_U03: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Contrast Clinic: Fachbegriff und Alltagswort",
-    summary: "Fraktur or Bruch, Exanthem or Ausschlag, Zephalgie or Kopfschmerzen, Adipositas or Übergewicht: choose the word for a colleague, a patient or a child, and avoid wording that alarms or talks down.",
+    summary: "Choose the right word for a colleague, a patient or a child (\"Fraktur\" or \"Bruch\", \"Exanthem\" or \"Ausschlag\", \"Adipositas\" or \"Übergewicht\"), and avoid wording that alarms or talks down.",
     duration: "16 min",
     sections: [
       {
@@ -1556,15 +1559,15 @@ export const DE_C2_U03: Lesson[] = [
     slug: "c2-mission-dosierung-erklaeren",
     level: "DE-C2",
     number: 8,
-    title: "Real-World Mission: Eine Dosierung Erklären",
-    summary: "Explain an antibiotic course and a cortisone tapering schedule to an elderly patient, with conditions (Falls Sie ... bemerken, ...), polite imperatives and a check that she has understood.",
+    title: "Real-World Mission: Eine Dosierung erklären",
+    summary: "Explain an antibiotic course and a cortisone tapering schedule to an elderly patient, with conditions (\"Falls Sie ... bemerken, ...\"), polite imperatives and a check that she has understood.",
     duration: "18 min",
     sections: [
       {
         heading: "The antibiotic: clear, concrete, complete",
         body: [
           "Your patient, Frau Becker, 81, has a chest infection. The prescription says: \"Amoxicillin 1000 mg, 1-1-1, 7 Tage\". You explain: \"Frau Becker, Sie bekommen ein Antibiotikum. Bitte nehmen Sie dreimal am Tag eine Tablette, also morgens, mittags und abends, und zwar sieben Tage lang.\"",
-          "The key warning: \"Bitte nehmen Sie die Tabletten bis zum Ende, auch wenn es Ihnen nach drei Tagen schon besser geht. Sonst kann die Entzündung wiederkommen.\" Learners sometimes say *die Packung aufnehmen*, which is wrong; the idiom is \"die Packung aufbrauchen\" or \"bis zum Ende nehmen\". Avoid \"1-1-1\" and \"p. o.\" with patients; use times of day and concrete links (\"zum Frühstück\").",
+          "The key warning: \"Bitte nehmen Sie die Tabletten bis zum Ende, auch wenn es Ihnen nach drei Tagen schon besser geht. Sonst kann die Entzündung wiederkommen.\" Learners sometimes say \"*die Packung aufnehmen*\", which is wrong; the idiom is \"die Packung aufbrauchen\" or \"bis zum Ende nehmen\". Avoid \"1-1-1\" and \"p. o.\" with patients; use times of day and concrete links (\"zum Frühstück\").",
           "Short sentences, one instruction per sentence, the important point last and repeated. With older patients, polite \"Sie\" + \"bitte\" + imperative is respectful; don't switch to the infantilising \"wir\" (\"Jetzt nehmen wir mal unsere Tablette\").",
         ],
         examples: [
@@ -1596,9 +1599,9 @@ export const DE_C2_U03: Lesson[] = [
       {
         heading: "Cortisone: ausschleichen, not absetzen",
         body: [
-          "A cortisone (\"Kortison\") course must not be stopped suddenly; it is reduced step by step: \"ausschleichen\" (taper off, lit. creep out). The opposite, stopping at once, is \"absetzen\". \"Das Kortison dürfen Sie auf keinen Fall plötzlich absetzen. Wir schleichen es langsam aus.\"",
+          "A cortisone (\"Kortison\") course must not be stopped suddenly; it is reduced step by step: \"ausschleichen\" (taper off, lit. creep out). \"Absetzen\" just means to stop taking; the danger is stopping at once (\"plötzlich\" or \"abrupt absetzen\"). \"Das Kortison dürfen Sie auf keinen Fall plötzlich absetzen. Wir schleichen es langsam aus.\"",
           "Explain the plan with time phrases: \"In der ersten Woche nehmen Sie zwei Tabletten morgens. Ab der zweiten Woche nur noch eine. In der dritten Woche eine halbe, und dann hören Sie auf.\" \"Nur noch\" (only ... now, no more than) marks the reduction; \"ab\" + dative marks the starting point.",
-          "Write it down too: \"Ich schreibe Ihnen das auf einen Zettel\" or \"Hier ist Ihr Einnahmeplan\". For older patients, a written plan (\"der Medikationsplan\") is standard in Germany when three or more medicines are taken.",
+          "Write it down too: \"Ich schreibe Ihnen das auf einen Zettel\" or \"Hier ist Ihr Einnahmeplan\". Patients who take three or more prescribed medicines long-term are entitled to a written plan (\"der Medikationsplan\").",
         ],
         examples: [
           { es: "Das Kortison dürfen Sie auf keinen Fall plötzlich absetzen.", en: "You must on no account stop the cortisone suddenly." },
@@ -1630,7 +1633,7 @@ export const DE_C2_U03: Lesson[] = [
       {
         heading: "Falls Sie ... bemerken: warnings and the check",
         body: [
-          "Warnings use conditions: \"Falls Sie einen Ausschlag bemerken, setzen Sie die Tabletten ab und rufen Sie uns an.\" (If you notice a rash, stop the tablets and call us.) \"Falls\" (in case) sounds a little more hypothetical than \"wenn\". \"Sollten Sie Fieber über 39 Grad bekommen, kommen Sie bitte sofort wieder.\"",
+          "Warnings use conditions: \"Falls Sie einen Ausschlag bemerken, setzen Sie die Tabletten ab und rufen Sie uns an.\" (If you notice a rash, stop the tablets and call us.) \"Falls\" (if, in the event that) sounds a little more hypothetical than \"wenn\". \"Sollten Sie Fieber über 39 Grad bekommen, kommen Sie bitte sofort wieder.\"",
           "Finally, check understanding, but not with \"Haben Sie das verstanden?\", which patients answer with yes out of politeness. Ask them to repeat it: \"Damit ich sicher bin, dass ich es gut erklärt habe: Können Sie mir kurz sagen, wie Sie die Tabletten nehmen?\" This puts the responsibility on the explainer, not the patient.",
           "Close with an offer: \"Wenn Ihnen zu Hause noch etwas unklar ist, rufen Sie einfach in der Praxis an.\"",
         ],
@@ -1694,7 +1697,7 @@ export const DE_C2_U03: Lesson[] = [
         source: "We'll reduce the cortisone slowly.",
         answer: "Wir reduzieren das Kortison langsam.",
         altAnswers: ["Wir schleichen das Kortison langsam aus.", "Wir werden das Kortison langsam reduzieren.", "Wir verringern das Kortison langsam.", "Wir setzen das Kortison langsam ab."],
-        explanation: "\"Reduzieren\" or \"ausschleichen\"; never stop cortisone suddenly.",
+        explanation: "\"Reduzieren\" or \"ausschleichen\" (\"langsam absetzen\" is also common); never stop cortisone suddenly.",
       },
       {
         type: "translate",
@@ -1749,7 +1752,7 @@ export const DE_C2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Sie müssen das Kortison nicht plötzlich absetzen. What does this sentence actually say?",
+        question: "\"Sie müssen das Kortison nicht plötzlich absetzen.\" What does this sentence actually say?",
         options: ["You don't have to stop the cortisone suddenly.", "You must not stop the cortisone suddenly.", "You must stop the cortisone suddenly.", "You can't stop taking cortisone."],
         correctIndex: 0,
         explanation: "\"Nicht müssen\" = don't have to. For a prohibition say \"nicht dürfen\": a classic English-speaker trap.",
@@ -1772,13 +1775,13 @@ export const DE_C2_U03: Lesson[] = [
     level: "DE-C2",
     number: 9,
     title: "Medizinisches Deutsch, Part 5 of 6",
-    summary: "The hospital and the Arztbrief: Aufnahme, Station, Visite, Entlassung, Befund, Diagnose, Procedere; abbreviations o. B., Z. n., V. a.; and the nominal, passive style of reports.",
+    summary: "Follow a hospital stay from \"Aufnahme\" to \"Entlassung\", read the key terms and abbreviations of an \"Arztbrief\" (\"Befund\", \"Procedere\", \"o. B.\", \"Z. n.\", \"V. a.\"), and write in its nominal, passive style.",
     duration: "20 min",
     sections: [
       {
         heading: "Aufnahme, Station, Visite, Entlassung",
         body: [
-          "A hospital stay has fixed stages. \"Die Aufnahme\" (admission): a patient is \"stationär aufgenommen\" (admitted as an inpatient) or treated \"ambulant\" (as an outpatient, without staying overnight). They lie on \"der Station\" (ward), e.g. \"die Innere\" (internal medicine), \"die Chirurgie\", \"die Intensivstation\".",
+          "A hospital stay has fixed stages. \"Die Aufnahme\" (admission): a patient is \"stationär aufgenommen\" (admitted as an inpatient) or treated \"ambulant\" (as an outpatient, without staying overnight). They stay on a ward (\"auf der Station liegen\"), e.g. \"die Innere\" (internal medicine), \"die Chirurgie\", \"die Intensivstation\".",
           "\"Die Visite\" is the daily ward round (\"Die Oberärztin kommt um zehn zur Visite\"). \"Die Entlassung\" (discharge) is \"nach Hause\", \"in die Reha\" (rehabilitation clinic) or \"in eine Pflegeeinrichtung\". On discharge the patient receives \"den Entlassbrief\" or \"Arztbrief\" for the GP.",
           "False friends: \"ambulant\" = outpatient (not ambulance: \"der Krankenwagen\" / \"Rettungswagen\"); \"die Station\" = ward (not a station); \"die Klinik\" usually means a hospital or hospital department, not a small clinic.",
         ],
@@ -1802,7 +1805,7 @@ export const DE_C2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A relative is told: Ihre Mutter wird ambulant behandelt. What does it mean?",
+            question: "A relative is told: \"Ihre Mutter wird ambulant behandelt.\" What does it mean?",
             options: ["She is treated as an outpatient and goes home the same day.", "She is being taken by ambulance.", "She is in intensive care.", "She has been admitted to a ward."],
             correctIndex: 0,
             explanation: "\"Ambulant\" is a false friend: outpatient, not ambulance.",
@@ -1828,10 +1831,10 @@ export const DE_C2_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Write the abbreviation in full German.",
+            prompt: "Translate into report German, written out in full (no abbreviation).",
             source: "Suspected pneumonia.",
             answer: "Verdacht auf Pneumonie.",
-            altAnswers: ["Verdacht auf Lungenentzündung.", "V. a. Pneumonie.", "Verdacht auf eine Pneumonie."],
+            altAnswers: ["Verdacht auf Lungenentzündung.", "Verdacht auf eine Pneumonie."],
             explanation: "\"V. a.\" = \"Verdacht auf\" + accusative.",
           },
           {
@@ -1884,7 +1887,7 @@ export const DE_C2_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, in report style with erfolgen.",
+            prompt: "Translate into German, in report style with \"erfolgen\".",
             source: "An ultrasound of the abdomen was performed.",
             answer: "Es erfolgte eine Sonographie des Abdomens.",
             altAnswers: ["Es erfolgte eine Sonografie des Abdomens.", "Es wurde eine Sonographie des Abdomens durchgeführt.", "Es erfolgte ein Ultraschall des Abdomens.", "Es wurde eine Sonografie des Abdomens durchgeführt."],
@@ -1920,10 +1923,10 @@ export const DE_C2_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Write in full German.",
+        prompt: "Translate into report German, written out in full (no abbreviation).",
         source: "History of appendectomy.",
         answer: "Zustand nach Appendektomie.",
-        altAnswers: ["Z. n. Appendektomie.", "Zustand nach Blinddarmoperation.", "Zustand nach Entfernung des Blinddarms."],
+        altAnswers: ["Zustand nach Blinddarmoperation.", "Zustand nach Entfernung des Blinddarms."],
         explanation: "\"Z. n.\" = \"Zustand nach\": something in the patient's history.",
       },
       {
@@ -1971,7 +1974,7 @@ export const DE_C2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A report reads: Abdomen o. B. What does it mean?",
+        question: "A report reads: \"Abdomen o. B.\" What does it mean?",
         options: ["The abdomen was examined and nothing abnormal was found.", "The abdomen could not be examined.", "The abdominal findings are missing.", "The abdomen needs surgery."],
         correctIndex: 0,
         explanation: "\"Ohne Befund\" = no pathological findings: good news.",
@@ -2004,7 +2007,7 @@ export const DE_C2_U03: Lesson[] = [
     level: "DE-C2",
     number: 10,
     title: "Medizinisches Deutsch, Part 6 of 6",
-    summary: "Consent, bad news and the end of life: Aufklärungsgespräch, Einwilligung, Patientenverfügung, Vorsorgevollmacht, Palliativstation and Hospiz; softening with Konjunktiv II and particles; and eventuell, which never means eventually.",
+    summary: "Handle consent talks, bad news and end-of-life care (\"Aufklärungsgespräch\", \"Einwilligung\", \"Patientenverfügung\", \"Vorsorgevollmacht\", \"Hospiz\"), soften with Konjunktiv II and particles, and avoid the false friend \"eventuell\", which means possibly.",
     duration: "20 min",
     sections: [
       {
@@ -2012,7 +2015,7 @@ export const DE_C2_U03: Lesson[] = [
         body: [
           "Before an operation, German law requires \"ein Aufklärungsgespräch\": the doctor informs the patient about the procedure, \"die Risiken\", \"die Alternativen\" and \"die Erfolgsaussichten\" (chances of success), in good time (usually at least 24 hours before elective surgery). The patient then gives \"die Einwilligung\" (consent) by signing \"die Einverständniserklärung\".",
           "Typical phrases: \"Ich möchte Sie über den Eingriff aufklären\" (\"jemanden über etwas aufklären\" = to inform someone fully about something), \"Zu den seltenen Risiken gehören ...\", \"Sie können Ihre Einwilligung jederzeit widerrufen\", \"Haben Sie dazu noch Fragen?\".",
-          "Trap: \"eventuell\" means possibly, perhaps: \"Eventuell müssen wir noch eine Drainage legen\" (We may need to place a drain). English eventually is \"schließlich\" or \"irgendwann\". A patient who hears eventually will think it is certain.",
+          "Trap: \"eventuell\" means possibly, perhaps: \"Eventuell müssen wir noch eine Drainage legen\" (We may need to place a drain). English eventually is \"schließlich\" or \"irgendwann\". A doctor who uses \"eventuell\" to mean eventually turns a certainty into a mere possibility for the patient.",
         ],
         examples: [
           { es: "Ich möchte Sie heute über die Operation aufklären.", en: "Today I'd like to explain the operation and its risks to you." },
@@ -2034,7 +2037,7 @@ export const DE_C2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The surgeon says: Eventuell verlängert sich der Eingriff. What does she mean?",
+            question: "The surgeon says: \"Eventuell verlängert sich der Eingriff.\" What does she mean?",
             options: ["The operation may take longer.", "The operation will eventually take longer.", "The operation will definitely be longer.", "The operation has been postponed."],
             correctIndex: 0,
             explanation: "\"Eventuell\" = possibly. A false friend with real consequences in consent talks.",
@@ -2197,6 +2200,7 @@ export const DE_C2_U03: Lesson[] = [
         prompt: "Put the words in order to say: Please sign the consent form here.",
         words: ["Bitte", "unterschreiben", "Sie", "hier", "die", "Einverständniserklärung."],
         translation: "Please sign the consent form here.",
+        altOrders: [["Bitte", "unterschreiben", "Sie", "die", "Einverständniserklärung", "hier."]],
         explanation: "Polite imperative; \"die Einverständniserklärung\" = consent form.",
       },
       {
@@ -2260,12 +2264,12 @@ export const DE_C2_U03: Lesson[] = [
             prompt: "Translate into plain German, for the family.",
             source: "She has pneumonia in the right lung.",
             answer: "Sie hat eine Lungenentzündung in der rechten Lunge.",
-            altAnswers: ["Sie hat eine Lungenentzündung rechts.", "Sie hat eine Lungenentzündung im rechten Lungenflügel.", "Sie hat eine Lungenentzündung auf der rechten Seite.", "Sie hatte eine Lungenentzündung in der rechten Lunge."],
+            altAnswers: ["Sie hat eine Lungenentzündung rechts.", "Sie hat eine Lungenentzündung im rechten Lungenflügel.", "Sie hat eine Lungenentzündung auf der rechten Seite."],
             explanation: "\"Pneumonie re.\" in plain German: \"Lungenentzündung\" and \"rechts\".",
           },
           {
             type: "multiple-choice",
-            question: "What does ambulant erworbene Pneumonie mean?",
+            question: "What does \"ambulant erworbene Pneumonie\" mean?",
             options: ["Pneumonia caught outside hospital.", "Pneumonia treated as an outpatient.", "Pneumonia caught in the ambulance.", "Pneumonia caught in hospital."],
             correctIndex: 0,
             explanation: "\"Ambulant erworben\" = community-acquired; hospital-acquired would be \"nosokomial\".",
@@ -2370,10 +2374,10 @@ export const DE_C2_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Write in full German.",
+        prompt: "Translate into report German, written out in full (no abbreviations).",
         source: "History of total hip replacement on the left.",
         answer: "Zustand nach Hüft-Totalendoprothese links.",
-        altAnswers: ["Z. n. Hüft-TEP links.", "Zustand nach künstlichem Hüftgelenk links.", "Zustand nach Hüft-TEP links."],
+        altAnswers: ["Zustand nach Totalendoprothese der linken Hüfte.", "Zustand nach Hüft-Totalendoprothese linksseitig."],
         explanation: "\"Z. n.\" = \"Zustand nach\"; \"TEP\" = \"Totalendoprothese\".",
       },
       {
@@ -2432,7 +2436,7 @@ export const DE_C2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Wir bitten um Fortführung der übrigen Medikation. What should the family understand?",
+        question: "The letter says: \"Wir bitten um Fortführung der übrigen Medikation.\" What should the family understand?",
         options: ["She should keep taking her other medicines.", "She should stop all other medicines.", "She needs a new prescription for everything.", "The hospital will send her other medicines."],
         correctIndex: 0,
         explanation: "\"Fortführung\" = continuation; \"übrige Medikation\" = the rest of her medicines.",
@@ -2496,14 +2500,14 @@ export const DE_C2_U03: Lesson[] = [
         body: [
           "The passive helps to report findings without making the doctor the subject of something painful: \"Bei der Untersuchung wurde ein Tumor in der Leber festgestellt.\" The Zustandspassiv describes what is now the case: \"Die Lymphknoten sind leider schon befallen.\"",
           "But nominal style can turn into a hiding place. \"Es erfolgte die Diagnosestellung eines malignen Geschehens\" is correct in an Arztbrief and cruel in a conversation, because the patient does not understand it. Say the word: \"Es handelt sich um eine bösartige Geschwulst, also um Krebs.\" Clear words are a form of respect.",
-          "Avoid false comfort with Konjunktiv II: \"Es könnte vielleicht eventuell etwas Ernsteres sein\" leaves the patient alone with fear. Use Konjunktiv II where things really are uncertain: \"Ob die Chemotherapie anschlägt, können wir heute noch nicht sicher sagen. Es wäre möglich, dass der Tumor kleiner wird.\"",
+          "Avoid piling up hedges: \"Es könnte vielleicht eventuell etwas Ernsteres sein\" leaves the patient alone with fear. Use Konjunktiv II where things really are uncertain: \"Ob die Chemotherapie anschlägt, können wir heute noch nicht sicher sagen. Es wäre möglich, dass der Tumor kleiner wird.\"",
         ],
         examples: [
           { es: "Bei der Untersuchung wurde ein Tumor in der Leber festgestellt.", en: "During the examination a tumour was found in the liver." },
           { es: "Die Lymphknoten sind leider schon befallen.", en: "Unfortunately the lymph nodes are already affected." },
           { es: "Es handelt sich um eine bösartige Geschwulst, also um Krebs.", en: "It is a malignant growth, in other words cancer." },
           { es: "Ob die Therapie anschlägt, können wir heute noch nicht sicher sagen.", en: "We cannot say for certain today whether the therapy will work." },
-          { es: "Es wäre möglich, dass der Tumor kleiner wird.", en: "It would be possible for the tumour to shrink." },
+          { es: "Es wäre möglich, dass der Tumor kleiner wird.", en: "It is possible that the tumour will shrink." },
         ],
         checkpoint: [
           {
@@ -2611,7 +2615,7 @@ export const DE_C2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Why is Es erfolgte die Diagnosestellung eines malignen Geschehens wrong in a conversation with the patient?",
+        question: "Why is \"Es erfolgte die Diagnosestellung eines malignen Geschehens\" wrong in a conversation with the patient?",
         options: ["It hides the message in jargon and nominal style.", "It is grammatically incorrect.", "It is too informal.", "It uses the wrong tense."],
         correctIndex: 0,
         explanation: "Correct for an Arztbrief, but the patient needs the clear words \"bösartig\" and \"Krebs\".",
@@ -2648,20 +2652,20 @@ export const DE_C2_U03: Lesson[] = [
     level: "DE-C2",
     number: 13,
     title: "Mastery Vocabulary: Precise Verbs Instead of Geben, Haben and Setzen",
-    summary: "Replace geben, haben and setzen with the verb a native writer would choose: erteilen, gewähren, verabreichen, verfügen über, aufweisen, besitzen, einsetzen, anbringen and platzieren, with their fixed objects.",
+    summary: "Replace \"geben\", \"haben\" and \"setzen\" with the verb a native writer would choose (\"erteilen\", \"gewähren\", \"verabreichen\", \"verfügen über\", \"aufweisen\", \"besitzen\", \"einsetzen\", \"anbringen\", \"platzieren\") and use each with its fixed objects.",
     duration: "17 min",
     sections: [
       {
         heading: "Instead of geben: erteilen, gewähren, verabreichen",
         body: [
           "\"Erteilen\" is for things an authority or expert gives in words or by decision: \"Auskunft erteilen\" (provide information), \"eine Erlaubnis / Genehmigung erteilen\", \"einen Auftrag erteilen\" (place an order, commission), \"Unterricht erteilen\". The receiver is in the dative: \"Die Behörde hat uns die Genehmigung erteilt.\"",
-          "\"Gewähren\" is for granting something favourable that the giver could refuse: \"einen Rabatt gewähren\", \"Zugang gewähren\", \"einen Kredit gewähren\", \"Aufschub gewähren\" (grant a deferral), \"Einblick gewähren\". Collocation trap: you \"erteilen\" a permission but \"gewähren\" a discount; *einen Rabatt erteilen sounds wrong.",
+          "\"Gewähren\" is for granting something favourable that the giver could refuse: \"einen Rabatt gewähren\", \"Zugang gewähren\", \"einen Kredit gewähren\", \"Aufschub gewähren\" (grant a deferral), \"Einblick gewähren\". Collocation trap: you \"erteilen\" a permission but \"gewähren\" a discount; \"*einen Rabatt erteilen*\" sounds wrong.",
           "\"Verabreichen\" is the medical verb for giving a drug, injection or infusion: \"Dem Patienten wurde ein Schmerzmittel verabreicht.\" In conversation, \"geben\" is fine; in a report or protocol, \"verabreichen\" is expected.",
         ],
         examples: [
           { es: "Die Behörde hat uns die Genehmigung erteilt.", en: "The authority granted us the permit." },
           { es: "Leider dürfen wir telefonisch keine Auskunft erteilen.", en: "Unfortunately we may not give information by phone." },
-          { es: "Für Studierende gewähren wir zehn Prozent Rabatt.", en: "We give students a ten percent discount." },
+          { es: "Für Studierende gewähren wir zehn Prozent Rabatt.", en: "We give students a ten per cent discount." },
           { es: "Die Bank hat ihm einen Aufschub von drei Monaten gewährt.", en: "The bank granted him a three-month deferral." },
           { es: "Dem Patienten wurde ein Schmerzmittel verabreicht.", en: "The patient was given a painkiller." },
         ],
@@ -2669,7 +2673,7 @@ export const DE_C2_U03: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "We [give] students a ten percent discount.",
+            en: "We [give] students a ten per cent discount.",
             sentence: "Für Studierende ___ wir zehn Prozent Rabatt.",
             answer: "gewähren",
             altAnswers: ["geben"],
@@ -2688,7 +2692,7 @@ export const DE_C2_U03: Lesson[] = [
         heading: "Instead of haben: verfügen über, aufweisen, besitzen",
         body: [
           "\"Verfügen über\" + accusative means to have at one's disposal: equipment, resources, skills, rooms. \"Das Hotel verfügt über 80 Zimmer und einen Wellnessbereich.\" \"Sie verfügt über langjährige Erfahrung im Vertrieb.\" Trap: the preposition is \"über\" with the accusative, never the dative.",
-          "\"Aufweisen\" means to show or exhibit a feature, often measurable or a defect: \"Das Gerät weist mehrere Mängel auf.\", \"Die Studie weist methodische Schwächen auf.\", \"Der Patient weist keine Auffälligkeiten auf.\" It is separable. It is not used for ordinary possessions: *er weist ein Auto auf is absurd.",
+          "\"Aufweisen\" means to show or exhibit a feature, often measurable or a defect: \"Das Gerät weist mehrere Mängel auf.\", \"Die Studie weist methodische Schwächen auf.\", \"Der Patient weist keine Auffälligkeiten auf.\" It is separable. It is not used for ordinary possessions: \"*Er weist ein Auto auf*\" is absurd.",
           "\"Besitzen\" is to own (property) or to possess (a quality): \"Sie besitzt zwei Wohnungen in Leipzig.\", \"Er besitzt die Gabe, komplizierte Dinge einfach zu erklären.\" In everyday talk, \"haben\" remains natural; in writing, one precise verb per sentence raises the register at once.",
         ],
         examples: [
@@ -2702,7 +2706,7 @@ export const DE_C2_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into formal German, without haben.",
+            prompt: "Translate into formal German, without \"haben\".",
             source: "She has many years of experience in sales.",
             answer: "Sie verfügt über langjährige Erfahrung im Vertrieb.",
             altAnswers: ["Sie verfügt über langjährige Erfahrungen im Vertrieb.", "Sie verfügt über viele Jahre Erfahrung im Vertrieb.", "Sie verfügt über langjährige Berufserfahrung im Vertrieb.", "Sie besitzt langjährige Erfahrung im Vertrieb."],
@@ -2742,12 +2746,13 @@ export const DE_C2_U03: Lesson[] = [
             explanation: "\"Anbringen\" = fix, mount. Smoke detectors are mandatory in German bedrooms.",
           },
           {
-            type: "fill-blank",
-            prompt: "Write the German for the bold words.",
-            en: "She [campaigns] for better wages in nursing.",
-            sentence: "Sie setzt sich für bessere Pflegelöhne ___.",
-            answer: "ein",
-            explanation: "\"Sich für etwas einsetzen\": the prefix \"ein\" goes to the end.",
+            type: "translate",
+            direction: "en-es",
+            prompt: "Translate into German.",
+            source: "She campaigns for better wages in nursing.",
+            answer: "Sie setzt sich für bessere Pflegelöhne ein.",
+            altAnswers: ["Sie setzt sich für bessere Löhne in der Pflege ein.", "Sie engagiert sich für bessere Pflegelöhne.", "Sie setzt sich für höhere Pflegelöhne ein."],
+            explanation: "\"Sich für etwas einsetzen\": reflexive, with the prefix \"ein\" at the end of the clause.",
           },
         ],
       },
@@ -2756,7 +2761,7 @@ export const DE_C2_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into formal German, using erteilen.",
+        prompt: "Translate into formal German, using \"erteilen\".",
         source: "Unfortunately we may not give information by phone.",
         answer: "Leider dürfen wir telefonisch keine Auskunft erteilen.",
         altAnswers: ["Leider dürfen wir telefonisch keine Auskünfte erteilen.", "Wir dürfen leider telefonisch keine Auskunft erteilen.", "Telefonisch dürfen wir leider keine Auskunft erteilen.", "Leider dürfen wir am Telefon keine Auskunft erteilen.", "Wir dürfen leider telefonisch keine Auskünfte erteilen."],
@@ -2783,7 +2788,7 @@ export const DE_C2_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into formal German, without haben.",
+        prompt: "Translate into formal German, without \"haben\".",
         source: "The hotel has 80 rooms and a spa area.",
         answer: "Das Hotel verfügt über 80 Zimmer und einen Wellnessbereich.",
         altAnswers: ["Das Hotel verfügt über achtzig Zimmer und einen Wellnessbereich.", "Das Hotel verfügt über 80 Zimmer sowie einen Wellnessbereich.", "Das Hotel verfügt über 80 Zimmer und einen Spa-Bereich.", "Das Hotel verfügt über achtzig Zimmer sowie einen Wellnessbereich."],
@@ -2792,7 +2797,7 @@ export const DE_C2_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into formal German, using aufweisen.",
+        prompt: "Translate into formal German, using \"aufweisen\".",
         source: "The study has methodological weaknesses.",
         answer: "Die Studie weist methodische Schwächen auf.",
         altAnswers: ["Die Studie weist methodologische Schwächen auf.", "Die Untersuchung weist methodische Schwächen auf.", "Die Studie weist methodische Mängel auf."],
@@ -2833,7 +2838,7 @@ export const DE_C2_U03: Lesson[] = [
         type: "speak",
         text: "Sie verfügt über langjährige Erfahrung und setzt sich für bessere Arbeitsbedingungen ein.",
         prompt: "Say it in German: She has many years of experience and campaigns for better working conditions.",
-        explanation: "Two precise verbs replace \"hat\" and a vague \"macht sich stark\".",
+        explanation: "Two precise verbs replace a plain \"hat\" and \"ist für\".",
       },
     ],
   },
@@ -2842,7 +2847,7 @@ export const DE_C2_U03: Lesson[] = [
     level: "DE-C2",
     number: 14,
     title: "Mastery Vocabulary: Verbs of Argument and Decision",
-    summary: "Weigh, support, reject and decide in precise German: abwägen, erwägen, befürworten, ablehnen, beharren auf, untermauern, einlenken, beschließen, sich entschließen and festlegen, with their prepositions and cases.",
+    summary: "Weigh, support, reject and decide in precise German (\"abwägen\", \"erwägen\", \"befürworten\", \"ablehnen\", \"beharren auf\", \"untermauern\", \"einlenken\", \"beschließen\", \"sich entschließen\", \"festlegen\") with the right prepositions and cases.",
     duration: "18 min",
     sections: [
       {
@@ -2871,7 +2876,7 @@ export const DE_C2_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which verb fits? Wir müssen die Risiken gegen den Nutzen ___.",
+            question: "Which verb fits? \"Wir müssen die Risiken gegen den Nutzen ___.\"",
             options: ["abwägen", "erwägen", "befürworten", "beharren"],
             correctIndex: 0,
             explanation: "Two things weighed against each other (\"gegen\"): \"abwägen\".",
@@ -2881,7 +2886,7 @@ export const DE_C2_U03: Lesson[] = [
       {
         heading: "Taking a position: befürworten, ablehnen, beharren auf, untermauern, einlenken",
         body: [
-          "\"Befürworten\" (support, advocate) and \"ablehnen\" (reject) both take a direct accusative object: \"Die Mehrheit befürwortet den Vorschlag.\", \"Der Stadtrat lehnt den Antrag ab.\" Do not add \"für\": *für den Vorschlag befürworten is a blend of \"für etwas sein\" and \"befürworten\".",
+          "\"Befürworten\" (support, advocate) and \"ablehnen\" (reject) both take a direct accusative object: \"Die Mehrheit befürwortet den Vorschlag.\", \"Der Stadtrat lehnt den Antrag ab.\" Do not add \"für\": \"*für den Vorschlag befürworten*\" is a blend of \"für etwas sein\" and \"befürworten\".",
           "\"Beharren auf\" + dative is to insist stubbornly: \"Er beharrt auf seinem Standpunkt.\", \"Die Gewerkschaft beharrt auf ihrer Forderung.\" \"Untermauern\" (inseparable) is to back up with evidence: \"Sie untermauert ihre These mit aktuellen Zahlen.\"",
           "\"Einlenken\" (separable, intransitive) is to give way, to back down in a dispute: \"Nach langen Verhandlungen lenkte die Geschäftsführung ein.\" It has no object; you do not \"einlenken\" something.",
         ],
@@ -2931,7 +2936,7 @@ export const DE_C2_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using sich entschließen.",
+            prompt: "Translate into German, using \"sich entschließen\".",
             source: "After long hesitation he decided to have an operation.",
             answer: "Nach langem Zögern hat er sich zu einer Operation entschlossen.",
             altAnswers: ["Nach langem Zögern entschloss er sich zu einer Operation.", "Nach langem Zögern hat er sich entschlossen, sich operieren zu lassen.", "Nach langem Zögern entschloss er sich, sich operieren zu lassen.", "Er hat sich nach langem Zögern zu einer Operation entschlossen."],
@@ -3043,6 +3048,6 @@ export const DE_C2_U03_WRITING: WriteExercise = {
   minWords: 250,
   maxWords: 400,
   rubric: ["Translates technical terms and abbreviations into everyday German (\"Pneumonie\", that is \"Lungenentzündung\"; \"V. a.\" = \"Verdacht auf\")", "Reports what was done in the passive or nominal style (\"es wurde ... durchgeführt\", \"er wurde ... entlassen\")", "Explains dosage clearly with times of day and the tapering plan (\"ausschleichen\", \"ab der zweiten Woche nur noch\")", "Uses Konjunktiv II or cautious modal phrases for what is still uncertain (\"es könnte sein, dass\", \"das müsste eigentlich\")"],
-  modelAnswer: "Betreff: Papa ist wieder zu Hause, hier die wichtigsten Infos\n\nLiebe Anna, lieber Jonas,\n\ngute Nachrichten vorweg: Papa ist seit gestern wieder zu Hause, und es geht ihm deutlich besser. Ich habe mir den Arztbrief genau durchgelesen und versuche, euch alles ohne Fachchinesisch zu erklären.\n\nPapa wurde vor zehn Tagen mit hohem Fieber und Atemnot in die Notaufnahme gebracht. Dort wurde eine Pneumonie festgestellt, also eine Lungenentzündung, und zwar im rechten Unterlappen. Er wurde stationär aufgenommen und hat zunächst ein Antibiotikum i. v. bekommen, das heißt als Infusion über die Vene. Hierunter ist das Fieber schnell gesunken. Im Brief steht außerdem \"V. a. COPD\", das bedeutet \"Verdacht auf\" eine chronische Lungenerkrankung. Das ist also noch keine sichere Diagnose. Herz und Nieren waren \"o. B.\", also ohne Befund, und das ist eine gute Nachricht.\n\nJetzt zu den Medikamenten. Das Antibiotikum nimmt er noch fünf Tage als Tablette weiter, morgens und abends je eine, auch wenn es ihm schon gut geht. Außerdem bekommt er Kortison, das man nicht einfach absetzen darf; es wird ausgeschlichen. Diese Woche nimmt er zwei Tabletten morgens zum Frühstück, ab der zweiten Woche nur noch eine, in der dritten Woche eine halbe, danach ist Schluss. Ich habe ihm einen Plan an den Kühlschrank geklebt und kontrolliere jeden Abend die Tablettenbox.\n\nWas noch unklar ist: Ob es wirklich eine COPD ist, soll ein Lungenfacharzt klären. Es könnte auch sein, dass die Atemprobleme nur von der Entzündung kommen. Das müsste sich in den nächsten Wochen zeigen.\n\nWie geht es weiter? Am Montag ist ein Termin beim Hausarzt zur Kontrolle, da gehe ich mit. Für den Lungenfacharzt brauchen wir eine Überweisung, die ich dann gleich mitnehme. Jonas, könntest du dich um einen Termin in der Lungenpraxis in Bonn kümmern? Du kennst dich mit den Online-Portalen besser aus. Anna, Papa würde sich riesig über einen Anruf von dir freuen, am liebsten am Wochenende.\n\nIch halte euch auf dem Laufenden.\n\nLiebe Grüße\nLena",
-  explanation: "The email moves between registers on purpose: it quotes the Arztbrief (V. a., o. B., i. v., \"Pneumonie\") and immediately translates each term into everyday German (\"Verdacht auf\", \"ohne Befund\", \"über die Vene\", \"Lungenentzündung\"). What happened in hospital is told in the passive (\"wurde ... gebracht\", \"wurde ... festgestellt\", \"wurde stationär aufgenommen\"), while the family plans use active verbs and named people. The medication section gives times of day and the tapering steps with \"ab der zweiten Woche nur noch\" and the key verbs \"absetzen\" and \"ausschleichen\". Uncertainty is marked with \"Verdacht auf\", \"Es könnte auch sein, dass\" and \"Das müsste sich ... zeigen\", and requests to the siblings are softened with \"könntest du\".",
+  modelAnswer: "Betreff: Papa ist wieder zu Hause, hier die wichtigsten Infos\n\nLiebe Anna, lieber Jonas,\n\ngute Nachrichten vorweg: Papa ist seit gestern wieder zu Hause, und es geht ihm deutlich besser. Ich habe mir den Arztbrief genau durchgelesen und versuche, euch alles ohne Fachchinesisch zu erklären.\n\nPapa wurde vor zehn Tagen mit hohem Fieber und Atemnot in die Notaufnahme gebracht. Dort wurde eine Pneumonie festgestellt, also eine Lungenentzündung, und zwar im rechten Unterlappen. Er wurde stationär aufgenommen und hat zunächst ein Antibiotikum i. v. bekommen, das heißt als Infusion über die Vene. Hierunter ist das Fieber schnell gesunken. Im Brief steht außerdem „V. a. COPD“, das bedeutet „Verdacht auf“ eine chronische Lungenerkrankung. Das ist also noch keine sichere Diagnose. Herz und Nieren waren „o. B.“, also ohne Befund, und das ist eine gute Nachricht.\n\nJetzt zu den Medikamenten. Das Antibiotikum nimmt er noch fünf Tage als Tablette weiter, morgens und abends je eine, auch wenn es ihm schon gut geht. Außerdem bekommt er Kortison, das man nicht einfach absetzen darf; es wird ausgeschlichen. Diese Woche nimmt er zwei Tabletten morgens zum Frühstück, ab der zweiten Woche nur noch eine, in der dritten Woche eine halbe, danach ist Schluss. Ich habe ihm einen Plan an den Kühlschrank geklebt und kontrolliere jeden Abend die Tablettenbox.\n\nWas noch unklar ist: Ob es wirklich eine COPD ist, soll ein Lungenfacharzt klären. Es könnte auch sein, dass die Atemprobleme nur von der Entzündung kommen. Das müsste sich in den nächsten Wochen zeigen.\n\nWie geht es weiter? Am Montag ist ein Termin beim Hausarzt zur Kontrolle, da gehe ich mit. Für den Lungenfacharzt brauchen wir eine Überweisung, die ich dann gleich mitnehme. Jonas, könntest du dich um einen Termin in der Lungenpraxis in Bonn kümmern? Du kennst dich mit den Online-Portalen besser aus. Anna, Papa würde sich riesig über einen Anruf von dir freuen, am liebsten am Wochenende.\n\nIch halte euch auf dem Laufenden.\n\nLiebe Grüße\nLena",
+  explanation: "The email moves between registers on purpose: it quotes the Arztbrief (\"V. a.\", \"o. B.\", \"i. v.\", \"Pneumonie\") and immediately translates each term into everyday German (\"Verdacht auf\", \"ohne Befund\", \"über die Vene\", \"Lungenentzündung\"). What happened in hospital is told in the passive (\"wurde ... gebracht\", \"wurde ... festgestellt\", \"wurde stationär aufgenommen\"), while the family plans use active verbs and named people. The medication section gives times of day and the tapering steps with \"ab der zweiten Woche nur noch\" and the key verbs \"absetzen\" and \"ausschleichen\". Uncertainty is marked with \"Verdacht auf\", \"Es könnte auch sein, dass\" and \"Das müsste sich ... zeigen\", and requests to the siblings are softened with \"könntest du\".",
 };

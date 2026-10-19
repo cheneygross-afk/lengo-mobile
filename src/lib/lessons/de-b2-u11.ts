@@ -8,7 +8,7 @@ export const DE_B2_U11: Lesson[] = [
     level: "DE-B2",
     number: 1,
     title: "Concessive and Adversative Clauses, Part 1 of 2",
-    summary: "One idea, three structures: obwohl with the verb at the end, trotzdem with the verb second, and trotz with the genitive.",
+    summary: "One idea, three structures: \"obwohl\" with the verb at the end, \"trotzdem\" with the verb second, and \"trotz\" with the genitive.",
     duration: "15 min",
     sections: [
       {
@@ -50,7 +50,7 @@ export const DE_B2_U11: Lesson[] = [
         heading: "Trotzdem and dennoch: still, nevertheless",
         body: [
           "The second tool is the adverb \"trotzdem\" (still, anyway, nevertheless). It isn't a conjunction: it doesn't join clauses, it sits inside the second sentence like any adverb. So it takes position 1 and the verb comes straight after it: \"Es regnete, trotzdem sind wir gewandert.\" Or it moves into the middle: \"Es regnete, aber wir sind trotzdem gewandert.\"",
-          "Note the difference with English: in It was raining; still, we went, English leaves the subject in front of the verb. In German, \"trotzdem\" counts as the first element, so the verb has to follow it: \"trotzdem sind wir\", never \"*trotzdem wir sind\".",
+          "Note the difference with English: in 'It was raining; still, we went', English leaves the subject in front of the verb. In German, \"trotzdem\" counts as the first element, so the verb has to follow it: \"trotzdem sind wir\", never \"*trotzdem wir sind\".",
           "\"Dennoch\" means the same, sounds a little more formal and is common in writing: \"Die Kritik war hart, dennoch blieb der Trainer ruhig.\" Spoken German also loves \"trotzdem\" at the end of a short reply: \"Ich weiß, es ist teuer. Ich kaufe es trotzdem.\"",
           "A widespread colloquial habit uses \"trotzdem\" as if it were \"obwohl\" (\"*trotzdem es regnete\"). Standard German does not accept this, and it's marked wrong in exams.",
         ],
@@ -205,7 +205,7 @@ export const DE_B2_U11: Lesson[] = [
     level: "DE-B2",
     number: 2,
     title: "Minimal Pairs: Obwohl / Trotzdem / Trotz",
-    summary: "Same meaning, three word orders: hear and produce obwohl, trotzdem and trotz side by side until the choice is automatic.",
+    summary: "Same meaning, three word orders: hear and produce \"obwohl\", \"trotzdem\" and \"trotz\" side by side until the choice is automatic.",
     duration: "13 min",
     sections: [
       {
@@ -213,7 +213,7 @@ export const DE_B2_U11: Lesson[] = [
         body: [
           "The three words mean almost the same thing, so the only reliable way to tell them apart is the word order that follows. After \"obwohl\" you hear a subject and wait for the verb at the end: \"obwohl sie müde war\". After \"trotzdem\" the verb comes immediately: \"trotzdem ging sie aus\". After \"trotz\" you hear a noun phrase and no verb at all: \"trotz ihrer Müdigkeit\".",
           "Train your ear on one set: \"Obwohl sie müde war, ging sie aus\" / \"Sie war müde, trotzdem ging sie aus\" / \"Trotz ihrer Müdigkeit ging sie aus.\" Three sentences, one story: she was tired and still went out.",
-          "Also listen for the difference between \"trotz\" and \"trotzdem\" in fast speech: the -dem ending is short and unstressed, but it changes everything. \"Trotzdem\" is stressed on the first syllable, TROTZ-dem.",
+          "Also listen for the difference between \"trotz\" and \"trotzdem\" in fast speech: the -dem ending is short and unstressed, but it changes everything. \"Trotzdem\" is usually stressed on the first syllable, TROTZ-dem (you will also hear trotz-DEM).",
         ],
         examples: [
           { es: "Obwohl sie müde war, ging sie aus.", en: "Although she was tired, she went out." },
@@ -303,7 +303,7 @@ export const DE_B2_U11: Lesson[] = [
             type: "speak",
             text: "Trotz des steilen Weges sind wir weitergegangen.",
             prompt: "Say it in German: Despite the steep path we kept going.",
-            tip: "Weges has a voiced g in standard German: VAY-gəs.",
+            tip: "\"Weges\" has a voiced g in standard German: VAY-gəs.",
             explanation: "\"Trotz des steilen Weges\": genitive of \"der steile Weg\", with the adjective ending -en.",
           },
         ],
@@ -395,14 +395,14 @@ export const DE_B2_U11: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Spiral Review: Fix the Email: Funktionsverbgefüge",
-    summary: "Back to Unit 10: repair the noun-verb combinations in a formal email, where English-style verbs like machen slip in.",
+    summary: "Back to Unit 10: repair the noun-verb combinations in a formal email, where English-style verbs like \"machen\" slip in.",
     duration: "13 min",
     sections: [
       {
         heading: "Opening the email: Frage, Antrag, Entscheidung",
         body: [
           "Lukas works in the HR department of a Leipzig printing company and has drafted an email to Frau Wagner in accounting. The German is good, but he keeps reaching for the verb English would use. Funktionsverbgefüge are fixed: the noun picks its verb, and \"machen\" is almost never the one.",
-          "His first paragraph says \"*Ich möchte Ihnen eine Frage machen\" and \"*Ich habe einen Antrag gemacht\". The correct pairs are \"eine Frage stellen\" and \"einen Antrag stellen\". Likewise \"*eine Entscheidung machen\" must be \"eine Entscheidung treffen\" (English make a decision is the trap).",
+          "His first paragraph says \"*Ich möchte Ihnen eine Frage machen\" and \"*Ich habe einen Antrag gemacht\". The correct pairs are \"eine Frage stellen\" and \"einen Antrag stellen\". Likewise \"*eine Entscheidung machen\" must be \"eine Entscheidung treffen\" (English 'make a decision' is the trap).",
           "Remember that the noun carries the meaning and the verb the grammar, so the verb conjugates and moves while the noun stays at the end of the Mittelfeld: \"Wir werden die Entscheidung morgen treffen\", \"..., weil ich einen Antrag gestellt habe\".",
         ],
         examples: [
@@ -424,10 +424,10 @@ export const DE_B2_U11: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Lukas wrote: Wann wird die Geschäftsleitung eine Entscheidung machen? What should it be?",
+            question: "Lukas wrote: \"*Wann wird die Geschäftsleitung eine Entscheidung machen?\" What should it be?",
             options: ["Wann wird die Geschäftsleitung eine Entscheidung treffen?", "Wann wird die Geschäftsleitung eine Entscheidung nehmen?", "Wann wird die Geschäftsleitung eine Entscheidung stellen?", "Wann wird die Geschäftsleitung eine Entscheidung geben?"],
             correctIndex: 0,
-            explanation: "\"Eine Entscheidung treffen\" is the fixed pair. English make a decision tempts machen; Spanish and French speakers try nehmen.",
+            explanation: "\"Eine Entscheidung treffen\" is the fixed pair. English 'make a decision' tempts learners to use \"machen\"; \"nehmen\" (from 'take a decision') is also wrong.",
           },
         ],
       },
@@ -509,7 +509,7 @@ export const DE_B2_U11: Lesson[] = [
         source: "I'd like to ask you a question. (formal)",
         answer: "Ich möchte Ihnen eine Frage stellen.",
         altAnswers: ["Ich würde Ihnen gern eine Frage stellen.", "Ich würde Ihnen gerne eine Frage stellen.", "Ich möchte Ihnen gern eine Frage stellen."],
-        explanation: "\"Eine Frage stellen\": English ask a question, but never \"*eine Frage fragen\" or \"*machen\".",
+        explanation: "\"Eine Frage stellen\": English 'ask a question', but never \"*eine Frage fragen\" or \"*machen\".",
       },
       {
         type: "translate",
@@ -531,7 +531,7 @@ export const DE_B2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Lukas wrote: Wir müssen Rücksicht auf die Kollegen haben. What should it be?",
+        question: "Lukas wrote: \"*Wir müssen Rücksicht auf die Kollegen haben.\" What should it be?",
         options: ["Wir müssen Rücksicht auf die Kollegen nehmen.", "Wir müssen Rücksicht auf die Kollegen machen.", "Wir müssen Rücksicht für die Kollegen nehmen.", "Wir müssen Rücksicht an die Kollegen geben."],
         correctIndex: 0,
         explanation: "\"Rücksicht nehmen auf\" + accusative. Both the verb and the preposition are fixed.",
@@ -653,6 +653,7 @@ export const DE_B2_U11: Lesson[] = [
             prompt: "Put the words in order to say: He says he should have talked to his daughter more.",
             words: ["Er", "sagt,", "dass", "er", "mehr", "mit seiner Tochter", "hätte", "reden", "sollen."],
             translation: "He says he should have talked to his daughter more.",
+            altOrders: [["Er", "sagt,", "dass", "er", "mit seiner Tochter", "mehr", "hätte", "reden", "sollen."]],
             explanation: "With a double infinitive, \"hätte\" goes before the two infinitives even in a dass-clause.",
           },
         ],
@@ -723,10 +724,10 @@ export const DE_B2_U11: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Anna could have [done] an apprenticeship after school.",
+        en: "Anna [could have done] an apprenticeship after school.",
         sentence: "Anna hätte nach der Schule eine Ausbildung ___.",
         answer: "machen können",
-        explanation: "Could have done = \"hätte ... machen können\": the double infinitive, with the modal last.",
+        explanation: "Could have done = \"hätte ... machen können\": \"hätte\" is already in the sentence; the double infinitive goes at the end, with the modal last.",
       },
       {
         type: "multiple-choice",
@@ -768,7 +769,7 @@ export const DE_B2_U11: Lesson[] = [
         type: "speak",
         text: "Trotz des frühen Aufstehens gefällt mir die Arbeit.",
         prompt: "Say it in German: Despite the early starts I like the work.",
-        tip: "Aufstehens: stress AUF, and the st is pronounced scht at the start of the stem: AUF-schtay-əns.",
+        tip: "\"Aufstehens\": stress AUF, and the st is pronounced scht at the start of the stem: AUF-schtay-əns.",
         explanation: "\"Trotz\" + genitive of the nominalised infinitive \"das Aufstehen\" → \"des frühen Aufstehens\".",
       },
     ],
@@ -777,8 +778,8 @@ export const DE_B2_U11: Lesson[] = [
     slug: "b2-thematic-review-nach-der-verletzung",
     level: "DE-B2",
     number: 5,
-    title: "Thematic Review: Zurück Nach der Verletzung",
-    summary: "A handball player returns after a cruciate ligament tear: obwohl and trotzdem, the unreal past, and what her coach told the press.",
+    title: "Thematic Review: Zurück nach der Verletzung",
+    summary: "A handball player returns after a cruciate ligament tear: \"obwohl\" and \"trotzdem\", the unreal past, and what her coach told the press.",
     duration: "15 min",
     sections: [
       {
@@ -860,7 +861,7 @@ export const DE_B2_U11: Lesson[] = [
         examples: [
           { es: "Der Trainer sagte, Lea sei bereit.", en: "The coach said Lea was ready." },
           { es: "Sie habe in der Reha sehr hart gearbeitet.", en: "She had worked very hard in rehab, he said." },
-          { es: "Obwohl sie noch nicht bei hundert Prozent sei, werde sie spielen.", en: "Although she wasn't at a hundred percent yet, she would play, he said." },
+          { es: "Obwohl sie noch nicht bei hundert Prozent sei, werde sie spielen.", en: "Although she wasn't at a hundred per cent yet, she would play, he said." },
           { es: "Die Mannschaft könne auf ihre Erfahrung nicht verzichten.", en: "The team couldn't do without her experience, he said." },
           { es: "Lea selbst sagte, sie habe nie ans Aufgeben gedacht.", en: "Lea herself said she had never thought of giving up." },
         ],
@@ -877,7 +878,7 @@ export const DE_B2_U11: Lesson[] = [
           {
             type: "speak",
             text: "Obwohl sie noch nicht bei hundert Prozent sei, werde sie spielen.",
-            prompt: "Report it in German: Although she isn't at a hundred percent yet, she will play.",
+            prompt: "Report it in German: Although she isn't at a hundred per cent yet, she will play.",
             explanation: "Konjunktiv I in both clauses: \"sei\" at the end of the obwohl-clause, \"werde\" first in the main clause.",
           },
         ],
@@ -968,14 +969,14 @@ export const DE_B2_U11: Lesson[] = [
     slug: "b2-circuit-zwar-aber-selbst-wenn",
     level: "DE-B2",
     number: 6,
-    title: "Circuit: Zwar... Aber, Auch Wenn, Selbst Wenn",
-    summary: "Concede a point before you push back: zwar ... aber, auch wenn, selbst wenn with the Konjunktiv II, and formal wenn ... auch.",
+    title: "Circuit: Zwar... aber, Auch wenn, Selbst wenn",
+    summary: "Concede a point before you push back: \"zwar ... aber\", \"auch wenn\", \"selbst wenn\" with the Konjunktiv II, and formal \"wenn ... auch\".",
     duration: "14 min",
     sections: [
       {
         heading: "Round 1: zwar ... aber",
         body: [
-          "\"Zwar ... aber\" is the classic way to grant a point and then turn it round: \"Das Auto ist zwar alt, aber es fährt noch\" (True, the car is old, but it still runs). \"Zwar\" itself has no good English equivalent; it's the admitting signal, like admittedly, true or it's true that.",
+          "\"Zwar ... aber\" is the classic way to grant a point and then turn it round: \"Das Auto ist zwar alt, aber es fährt noch\" (True, the car is old, but it still runs). \"Zwar\" itself has no good English equivalent; it's the admitting signal, like 'admittedly', 'true' or 'it's true that'.",
           "\"Zwar\" is an adverb, so it usually sits in the Mittelfeld after the verb (\"ist zwar alt\"). It can also take position 1, and then the verb follows: \"Zwar ist das Auto alt, aber ...\". The second half starts with \"aber\", which doesn't count for word order: \"aber es fährt noch\", subject then verb.",
           "The partner of \"zwar\" is always \"aber\" (or \"doch\", \"jedoch\"), never \"sondern\". \"Sondern\" corrects a negation (\"nicht alt, sondern neu\"); \"zwar\" doesn't negate anything.",
         ],
@@ -990,7 +991,7 @@ export const DE_B2_U11: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using zwar.",
+            prompt: "Translate into German, using \"zwar\".",
             source: "The flat is small, but it's very central.",
             answer: "Die Wohnung ist zwar klein, aber sie liegt sehr zentral.",
             altAnswers: ["Zwar ist die Wohnung klein, aber sie liegt sehr zentral.", "Die Wohnung ist zwar klein, aber sie ist sehr zentral.", "Zwar ist die Wohnung klein, aber sie ist sehr zentral.", "Die Wohnung ist zwar klein, liegt aber sehr zentral.", "Die Wohnung ist zwar klein, aber sehr zentral."],
@@ -1078,7 +1079,7 @@ export const DE_B2_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using zwar.",
+        prompt: "Translate into German, using \"zwar\".",
         source: "I don't have much time, but I'm happy to help you.",
         answer: "Ich habe zwar wenig Zeit, aber ich helfe dir gern.",
         altAnswers: ["Ich habe zwar wenig Zeit, aber ich helfe dir gerne.", "Zwar habe ich wenig Zeit, aber ich helfe dir gern.", "Ich habe zwar wenig Zeit, aber ich helfe Ihnen gern.", "Ich habe zwar wenig Zeit, aber ich helfe euch gern.", "Ich habe zwar wenig Zeit, helfe dir aber gern.", "Zwar habe ich wenig Zeit, aber ich helfe Ihnen gern."],
@@ -1090,7 +1091,7 @@ export const DE_B2_U11: Lesson[] = [
         prompt: "Translate into German.",
         source: "I go jogging even when it rains.",
         answer: "Ich gehe joggen, auch wenn es regnet.",
-        altAnswers: ["Ich gehe auch joggen, wenn es regnet.", "Auch wenn es regnet, gehe ich joggen.", "Ich gehe joggen, selbst wenn es regnet.", "Selbst wenn es regnet, gehe ich joggen.", "Ich jogge, auch wenn es regnet."],
+        altAnswers: ["Ich gehe auch dann joggen, wenn es regnet.", "Auch wenn es regnet, gehe ich joggen.", "Ich gehe joggen, selbst wenn es regnet.", "Selbst wenn es regnet, gehe ich joggen.", "Ich jogge, auch wenn es regnet."],
         explanation: "\"Auch wenn\" + verb at the end (\"regnet\"). Fronted, it's followed by the main verb: \"gehe ich\".",
       },
       {
@@ -1150,8 +1151,8 @@ export const DE_B2_U11: Lesson[] = [
       {
         type: "speak",
         text: "Das Auto ist zwar alt, aber es fährt noch.",
-        prompt: "Say it in German, using zwar: The car is old, but it still runs.",
-        tip: "Zwar starts with ts-v: TSVAR. Don't say an English z.",
+        prompt: "Say it in German, using \"zwar\": The car is old, but it still runs.",
+        tip: "\"Zwar\" starts with ts-v: TSVAR. Don't say an English z.",
         explanation: "\"Zwar\" after the verb, \"aber\" + subject + verb in the second half.",
       },
     ],
@@ -1160,7 +1161,7 @@ export const DE_B2_U11: Lesson[] = [
     slug: "b2-spiral-story-was-die-nachbarin-erzaehlte",
     level: "DE-B2",
     number: 7,
-    title: "Spiral Review: Was die Nachbarin Erzählte",
+    title: "Spiral Review: Was die Nachbarin erzählte",
     summary: "Back to Units 3 and 4: retell a neighbour's account of a burglary in indirect speech, with statements, questions and requests.",
     duration: "14 min",
     sections: [
@@ -1185,12 +1186,12 @@ export const DE_B2_U11: Lesson[] = [
             prompt: "Translate into German, in news style.",
             source: "She said she had been at home alone.",
             answer: "Sie sagte, sie sei allein zu Hause gewesen.",
-            altAnswers: ["Sie sagte, dass sie allein zu Hause gewesen sei.", "Sie sagte, sie sei alleine zu Hause gewesen.", "Sie hat gesagt, sie sei allein zu Hause gewesen.", "Sie sagte, dass sie alleine zu Hause gewesen sei."],
+            altAnswers: ["Sie sagte, dass sie allein zu Hause gewesen sei.", "Sie sagte, sie sei alleine zu Hause gewesen.", "Sie hat gesagt, sie sei allein zu Hause gewesen.", "Sie sagte, dass sie alleine zu Hause gewesen sei.", "Sie sagte, sie sei allein zuhause gewesen."],
             explanation: "Past in reported speech: Konjunktiv I \"sei\" + \"gewesen\".",
           },
           {
             type: "multiple-choice",
-            question: "How does a news report retell: Zwei Männer haben das Haus verlassen?",
+            question: "How does a news report retell: \"Zwei Männer haben das Haus verlassen.\"?",
             options: ["Zwei Männer hätten das Haus verlassen.", "Zwei Männer haben das Haus verlassen hätten.", "Zwei Männer habe das Haus verlassen.", "Zwei Männer seien das Haus verlassen."],
             correctIndex: 0,
             explanation: "Konjunktiv I \"haben\" is identical to the indicative, so German switches to Konjunktiv II \"hätten\". \"Verlassen\" takes haben.",
@@ -1202,7 +1203,7 @@ export const DE_B2_U11: Lesson[] = [
         body: [
           "The officer asked: \"Haben Sie jemanden gesehen? Wann haben Sie das Geräusch gehört? Warum haben Sie nicht sofort angerufen?\" Reported questions become indirect questions (Unit 4): yes/no questions with \"ob\", W-questions with the question word, and the verb at the end.",
           "\"Der Polizist fragte, ob sie jemanden gesehen habe.\" \"Er wollte wissen, wann sie das Geräusch gehört habe.\" \"Er fragte, warum sie nicht sofort angerufen habe.\"",
-          "Careful with \"ob\" versus \"wenn\": English if in he asked if ... is always \"ob\" in German.",
+          "Careful with \"ob\" versus \"wenn\": English 'if' in 'he asked if ...' is always \"ob\" in German.",
         ],
         examples: [
           { es: "Der Polizist fragte, ob sie jemanden gesehen habe.", en: "The officer asked whether she had seen anyone." },
@@ -1301,7 +1302,7 @@ export const DE_B2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the correct reported version of: Rufen Sie uns an!",
+        question: "Which is the correct reported version of: \"Rufen Sie uns an!\"",
         options: ["Er sagte, sie solle die Polizei anrufen.", "Er sagte, sie rufe die Polizei an.", "Er sagte, ob sie die Polizei anrufe.", "Er sagte, sie habe die Polizei angerufen."],
         correctIndex: 0,
         explanation: "Commands are reported with \"sollen\": \"sie solle ... anrufen\".",
@@ -1369,7 +1370,7 @@ export const DE_B2_U11: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[Admittedly] a speed limit would only cut emissions a little, [but] every tonne counts.",
+            en: "[Admittedly] a speed limit would only cut emissions a little, but every tonne counts.",
             sentence: "___ würde ein Tempolimit die Emissionen nur wenig senken, aber jede Tonne zählt.",
             answer: "Zwar",
             explanation: "\"Zwar\" in position 1 is followed by the verb (\"würde\"); its partner in the second half is \"aber\".",
@@ -1484,7 +1485,7 @@ export const DE_B2_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using zwar.",
+        prompt: "Translate into German, using \"zwar\".",
         source: "It's frustrating, but typical.",
         answer: "Das ist zwar frustrierend, aber typisch.",
         altAnswers: ["Es ist zwar frustrierend, aber typisch.", "Das ist zwar frustrierend, aber es ist typisch.", "Zwar ist das frustrierend, aber typisch."],
@@ -1492,7 +1493,7 @@ export const DE_B2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which connector fits? ___ die Unfallzahlen niedrig sind, fordern viele ein Tempolimit.",
+        question: "Which connector fits? \"___ die Unfallzahlen niedrig sind, fordern viele ein Tempolimit.\"",
         options: ["Obwohl", "Trotzdem", "Trotz", "Zwar"],
         correctIndex: 0,
         explanation: "The verb \"sind\" is at the end of the clause, so you need a subordinating conjunction: \"obwohl\".",
@@ -1540,15 +1541,15 @@ export const DE_B2_U11: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Concessive and Adversative Clauses, Part 2 of 2",
-    summary: "Contrast rather than concession: während and wohingegen with the verb at the end, dagegen and hingegen as adverbs, im Gegensatz zu with the dative.",
+    summary: "Contrast rather than concession: \"während\" and \"wohingegen\" with the verb at the end, \"dagegen\" and \"hingegen\" as adverbs, \"im Gegensatz zu\" with the dative.",
     duration: "15 min",
     sections: [
       {
         heading: "Während and wohingegen: whereas",
         body: [
-          "Concession says despite X, Y. Contrast (\"adversativ\") simply puts two different things side by side: my brother loves mountains, whereas I prefer the sea. Nothing is being conceded; the two facts just differ.",
-          "\"Während\" is the everyday conjunction for this: \"Mein Bruder liebt die Berge, während ich das Meer bevorzuge.\" Like every subordinating conjunction, it sends the verb to the end. The trap: \"während\" also means while in the sense of time (\"Während ich koche, hört sie Musik\"). Decide from context: two simultaneous actions → time; two different people or things being compared → contrast.",
-          "\"Wohingegen\" means only whereas, never while, so it's unambiguous. It's formal and mostly written: \"Die Mieten in München sind gestiegen, wohingegen sie in Chemnitz stabil geblieben sind.\"",
+          "Concession says 'despite X, Y'. Contrast (\"adversativ\") simply puts two different things side by side: 'my brother loves mountains, whereas I prefer the sea'. Nothing is being conceded; the two facts just differ.",
+          "\"Während\" is the everyday conjunction for this: \"Mein Bruder liebt die Berge, während ich das Meer bevorzuge.\" Like every subordinating conjunction, it sends the verb to the end. The trap: \"während\" also means 'while' in the sense of time (\"Während ich koche, hört sie Musik\"). Decide from context: two simultaneous actions → time; two different people or things being compared → contrast.",
+          "\"Wohingegen\" means only 'whereas', never 'while', so it's unambiguous. It's formal and mostly written: \"Die Mieten in München sind gestiegen, wohingegen sie in Chemnitz stabil geblieben sind.\"",
           "Typical English-speaker mistake: \"*Ich mag Kaffee, während mein Mann mag Tee.\" After \"während\" the verb must go to the end: \"während mein Mann Tee mag\".",
         ],
         examples: [
@@ -1556,7 +1557,7 @@ export const DE_B2_U11: Lesson[] = [
           { es: "Ich trinke morgens Kaffee, während mein Mann Tee mag.", en: "I drink coffee in the morning, whereas my husband likes tea." },
           { es: "Während ich koche, deckt Jonas den Tisch.", en: "While I cook, Jonas lays the table." },
           { es: "Die Mieten in München sind gestiegen, wohingegen sie in Chemnitz stabil geblieben sind.", en: "Rents in Munich have risen, whereas in Chemnitz they have remained stable." },
-          { es: "Während die Stadt modernisiert, kämpft das Dorf um seine Bäckerei.", en: "While the city modernises, the village is fighting for its bakery." },
+          { es: "Während sich die Stadt modernisiert, kämpft das Dorf um seine Bäckerei.", en: "While the city modernises, the village is fighting for its bakery." },
           { es: "Mia ist sehr ordentlich, während ihre Schwester ständig etwas sucht.", en: "Mia is very tidy, whereas her sister is always looking for something." },
         ],
         checkpoint: [
@@ -1571,7 +1572,7 @@ export const DE_B2_U11: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In which sentence does während mean whereas (contrast), not while (time)?",
+            question: "In which sentence does \"während\" mean 'whereas' (contrast), not 'while' (time)?",
             options: ["Mia ist sehr ordentlich, während ihre Schwester ständig etwas sucht.", "Während ich koche, deckt Jonas den Tisch.", "Während des Films hat er geschlafen.", "Während wir warteten, fing es an zu regnen."],
             correctIndex: 0,
             explanation: "Two different people with opposite habits: contrast. The others describe things happening at the same time; \"während des Films\" is the preposition with the genitive.",
@@ -1582,7 +1583,7 @@ export const DE_B2_U11: Lesson[] = [
         heading: "Dagegen, hingegen, im Gegensatz dazu: adverbs",
         body: [
           "If you want two main clauses instead, use an adverb of contrast: \"dagegen\", \"hingegen\" (more formal) or \"im Gegensatz dazu\" (in contrast). In position 1 they're followed by the verb, as \"trotzdem\" is: \"Mein Bruder liebt die Berge. Dagegen bevorzuge ich das Meer.\"",
-          "There is also a special position: \"hingegen\" and \"dagegen\" can stand directly after the subject they contrast, without moving the verb: \"Mein Bruder liebt die Berge, ich hingegen bevorzuge das Meer.\" Here \"ich hingegen\" together fills position 1, so \"bevorzuge\" is still second. This is very common and sounds elegant, like English I, on the other hand, prefer ...",
+          "There is also a special position: \"hingegen\" and \"dagegen\" can stand directly after the subject they contrast, without moving the verb: \"Mein Bruder liebt die Berge, ich hingegen bevorzuge das Meer.\" Here \"ich hingegen\" together fills position 1, so \"bevorzuge\" is still second. This is very common and sounds elegant, like English 'I, on the other hand, prefer ...'",
           "Other positions: position 1 with the verb straight after, as above, or \"Ich bevorzuge dagegen das Meer\" (Mittelfeld). Don't confuse contrastive \"dagegen\" with \"dagegen sein\" (to be against it): \"Ich bin dagegen.\"",
         ],
         examples: [
@@ -1616,7 +1617,7 @@ export const DE_B2_U11: Lesson[] = [
         heading: "Im Gegensatz zu + Dativ",
         body: [
           "The noun version is \"im Gegensatz zu\" + dative (unlike, in contrast to): \"Im Gegensatz zu meinem Bruder mag ich das Meer.\" \"Im Gegensatz zur Stadt sind die Mieten auf dem Land niedrig.\" Watch the contractions \"zum\" (zu dem) and \"zur\" (zu der).",
-          "English unlike + person is the usual trigger: Unlike her sister, Mia is tidy → \"Im Gegensatz zu ihrer Schwester ist Mia ordentlich.\" The phrase fills position 1, so the verb follows. Don't translate unlike as \"*unähnlich\".",
+          "English 'unlike' + person is the usual trigger: 'Unlike her sister, Mia is tidy' → \"Im Gegensatz zu ihrer Schwester ist Mia ordentlich.\" The phrase fills position 1, so the verb follows. Don't translate 'unlike' as \"*unähnlich\"; \"anders als\" is a good alternative.",
           "Now you have the full set for one contrast: \"Ich mag Kaffee, während mein Mann Tee mag\" / \"..., mein Mann hingegen mag Tee\" / \"Im Gegensatz zu mir mag mein Mann Tee.\"",
         ],
         examples: [
@@ -1640,7 +1641,7 @@ export const DE_B2_U11: Lesson[] = [
             type: "speak",
             text: "Im Gegensatz zu meinem Bruder mag ich das Meer.",
             prompt: "Say it in German: Unlike my brother, I like the sea.",
-            tip: "Gegensatz: stress the first syllable, GAY-gen-zats.",
+            tip: "\"Gegensatz\": stress the first syllable, GAY-gen-zats.",
             explanation: "\"Im Gegensatz zu\" + dative \"meinem Bruder\", then the verb \"mag\".",
           },
         ],
@@ -1685,7 +1686,7 @@ export const DE_B2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "You want to say: I like coffee, whereas my husband likes tea. Which sentence is correct?",
         options: ["Ich mag Kaffee, während mein Mann Tee mag.", "Ich mag Kaffee, während mein Mann mag Tee.", "Ich mag Kaffee, hingegen mein Mann Tee mag.", "Ich mag Kaffee, dagegen mein Mann mag Tee."],
         correctIndex: 0,
         explanation: "\"Während\" sends the verb to the end. \"Hingegen\" and \"dagegen\" are adverbs and need verb-second order (\"mein Mann hingegen mag Tee\").",
@@ -1833,7 +1834,7 @@ export const DE_B2_U11: Lesson[] = [
             type: "speak",
             text: "Insgesamt überwiegen meiner Meinung nach die Vorteile.",
             prompt: "Conclude in German: On the whole, in my opinion, the advantages outweigh the disadvantages.",
-            tip: "Überwiegen is stressed on the third syllable: über-WIE-gen.",
+            tip: "\"Überwiegen\" is stressed on the third syllable: über-WIE-gen.",
             explanation: "\"Überwiegen\" (inseparable) = to outweigh, to predominate.",
           },
         ],
@@ -1852,7 +1853,7 @@ export const DE_B2_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using zwar.",
+        prompt: "Translate into German, using \"zwar\".",
         source: "Many shopkeepers fear a loss of sales, but pedestrians shop more often.",
         answer: "Zwar befürchten viele Händler Umsatzeinbußen, aber Fußgänger kaufen häufiger ein.",
         altAnswers: ["Viele Händler befürchten zwar Umsatzeinbußen, aber Fußgänger kaufen häufiger ein.", "Zwar befürchten viele Händler Umsatzverluste, aber Fußgänger kaufen häufiger ein.", "Viele Händler befürchten zwar Umsatzverluste, aber Fußgänger kaufen häufiger ein.", "Zwar fürchten viele Händler Umsatzeinbußen, aber Fußgänger kaufen öfter ein.", "Viele Händler befürchten zwar Umsatzeinbußen, aber Fußgänger kaufen öfter ein."],
@@ -1968,7 +1969,7 @@ export const DE_B2_U11: Lesson[] = [
         heading: "Arguments on both sides",
         body: [
           "The investor: \"Zwar ist das Gebäude historisch wertvoll, aber eine Sanierung wäre nicht bezahlbar.\" \"Während das Kino niemandem nützt, könnten hier 150 Menschen wohnen.\" The initiative: \"Trotz des schlechten Zustands lässt sich das Gebäude retten.\" \"Im Gegensatz zu einem Neubau erzählt das Kino Stadtgeschichte.\"",
-          "Note the passive alternative from Units 5 and 6: \"lässt sich retten\" (can be saved), \"ist nicht zu finanzieren\" (can't be financed), \"die Fassade ist erhaltbar\" (-bar). They make arguments sound objective.",
+          "Note the passive alternative from Units 5 and 6: \"lässt sich retten\" (can be saved), \"ist nicht zu finanzieren\" (can't be financed), \"die Fassade ist reparierbar\" (-bar). They make arguments sound objective.",
           "\"Während\" here is clearly contrast: the cinema is useless (now), whereas flats could house 150 people.",
         ],
         examples: [
@@ -1990,7 +1991,7 @@ export const DE_B2_U11: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does während mean in: Während das Kino niemandem nützt, könnten hier 150 Menschen wohnen.",
+            question: "What does \"während\" mean in: \"Während das Kino niemandem nützt, könnten hier 150 Menschen wohnen.\"",
             options: ["whereas (contrast)", "while (at the same time)", "during", "although"],
             correctIndex: 0,
             explanation: "Two situations are compared, not two simultaneous actions: \"während\" = whereas.",
@@ -2060,7 +2061,7 @@ export const DE_B2_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using zwar.",
+        prompt: "Translate into German, using \"zwar\".",
         source: "The building is historically valuable, but renovation would be unaffordable.",
         answer: "Das Gebäude ist zwar historisch wertvoll, aber eine Sanierung wäre nicht bezahlbar.",
         altAnswers: ["Zwar ist das Gebäude historisch wertvoll, aber eine Sanierung wäre nicht bezahlbar.", "Das Gebäude ist zwar historisch wertvoll, aber eine Sanierung wäre unbezahlbar.", "Zwar ist das Gebäude historisch wertvoll, aber eine Sanierung wäre unbezahlbar.", "Das Gebäude ist zwar historisch wertvoll, eine Sanierung wäre aber nicht bezahlbar."],
@@ -2068,7 +2069,7 @@ export const DE_B2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "You want to say that the renovation can't be financed without subsidies. Which sentence is correct?",
         options: ["Die Sanierung ist ohne Fördermittel nicht zu finanzieren.", "Die Sanierung ist ohne Fördermittel nicht finanzieren.", "Die Sanierung lässt ohne Fördermittel nicht finanzieren.", "Die Sanierung ist ohne Fördermittel nicht zu finanziert."],
         correctIndex: 0,
         explanation: "\"Sein + zu + infinitive\" = can (or must) be done: \"ist nicht zu finanzieren\". \"Sich lassen\" would need \"sich\".",
@@ -2078,6 +2079,7 @@ export const DE_B2_U11: Lesson[] = [
         prompt: "Put the words in order to say: The initiative isn't entirely happy, but it agrees.",
         words: ["Die Initiative", "ist", "zwar", "nicht", "ganz", "zufrieden,", "aber", "sie", "stimmt", "zu."],
         translation: "The initiative isn't entirely happy, but it agrees.",
+        altOrders: [["Zwar", "ist", "die Initiative", "nicht", "ganz", "zufrieden,", "aber", "sie", "stimmt", "zu."]],
         explanation: "\"Zwar\" before the negation; \"zustimmen\" splits: \"sie stimmt zu\".",
       },
       {
@@ -2117,7 +2119,7 @@ export const DE_B2_U11: Lesson[] = [
     level: "DE-B2",
     number: 12,
     title: "Error Hunt: Concessive and Adversative Clauses",
-    summary: "Find and fix the classic mistakes: trotzdem as a conjunction, subject-first after obwohl, trotz with the dative, während with verb second, zwar with sondern.",
+    summary: "Find and fix the classic mistakes: \"trotzdem\" as a conjunction, subject-first after \"obwohl\", \"trotz\" with the dative, \"während\" with verb second, \"zwar\" with \"sondern\".",
     duration: "14 min",
     sections: [
       {
@@ -2138,7 +2140,7 @@ export const DE_B2_U11: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: Obwohl der Bus Verspätung hatte, ich kam pünktlich an. Write the correct German for: Although the bus was late, I arrived on time.",
+            prompt: "A learner wrote: \"*Obwohl der Bus Verspätung hatte, ich kam pünktlich an.\" Write the correct German for: Although the bus was late, I arrived on time.",
             source: "Although the bus was late, I arrived on time.",
             answer: "Obwohl der Bus Verspätung hatte, kam ich pünktlich an.",
             altAnswers: ["Obwohl der Bus Verspätung hatte, bin ich pünktlich angekommen.", "Obwohl der Bus verspätet war, kam ich pünktlich an.", "Obwohl der Bus verspätet war, bin ich pünktlich angekommen.", "Ich kam pünktlich an, obwohl der Bus Verspätung hatte.", "Ich bin pünktlich angekommen, obwohl der Bus Verspätung hatte."],
@@ -2146,7 +2148,7 @@ export const DE_B2_U11: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A learner wrote: Trotzdem ich erkältet war, bin ich zur Probe gegangen. Which correction is right?",
+            question: "A learner wrote: \"*Trotzdem ich erkältet war, bin ich zur Probe gegangen.\" Which correction is right?",
             options: ["Obwohl ich erkältet war, bin ich zur Probe gegangen.", "Trotzdem ich erkältet war, ich bin zur Probe gegangen.", "Trotz ich erkältet war, bin ich zur Probe gegangen.", "Trotzdem war ich erkältet, bin ich zur Probe gegangen."],
             correctIndex: 0,
             explanation: "A clause with the verb at the end needs the conjunction \"obwohl\". \"Trotzdem\" only works as an adverb in a main clause.",
@@ -2157,7 +2159,7 @@ export const DE_B2_U11: Lesson[] = [
         heading: "Errors 3 and 4: trotz + dative, während + verb second",
         body: [
           "Error 3: \"*Trotz dem Regen fand das Konzert statt\" in a formal text. In conversation \"trotz dem\" is very common, and with a plural noun without an article (\"trotz Problemen\") the dative is even standard. But in written formal German the genitive is expected: \"Trotz des Regens fand das Konzert statt.\"",
-          "Error 4: \"*Ich mag Kaffee, während mein Mann mag Tee.\" \"Während\" is a subordinating conjunction in both meanings (whereas and while), so the verb goes to the end: \"während mein Mann Tee mag\". If you want verb-second, choose an adverb: \"mein Mann hingegen mag Tee\".",
+          "Error 4: \"*Ich mag Kaffee, während mein Mann mag Tee.\" \"Während\" is a subordinating conjunction in both meanings ('whereas' and 'while'), so the verb goes to the end: \"während mein Mann Tee mag\". If you want verb-second, choose an adverb: \"mein Mann hingegen mag Tee\".",
           "These errors come from English, where although, whereas, despite and however all take the same word order. In German each word belongs to one word-order class: conjunction (verb last), adverb (verb second) or preposition (noun, no verb).",
         ],
         examples: [
@@ -2170,7 +2172,7 @@ export const DE_B2_U11: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "A learner wrote: Trotz dem Regen fand das Konzert statt. Write the formal written German for the bold words.",
+            prompt: "A learner wrote: \"*Trotz dem Regen fand das Konzert statt.\" Write the formal written German for the bold words.",
             en: "[Despite the rain] the concert took place.",
             sentence: "___ fand das Konzert statt.",
             answer: "Trotz des Regens",
@@ -2179,7 +2181,7 @@ export const DE_B2_U11: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: Leon liebt Fußball, während sein Bruder interessiert sich nur für Musik. Write the correct German.",
+            prompt: "A learner wrote: \"*Leon liebt Fußball, während sein Bruder interessiert sich nur für Musik.\" Write the correct German.",
             source: "Leon loves football, whereas his brother is only interested in music.",
             answer: "Leon liebt Fußball, während sich sein Bruder nur für Musik interessiert.",
             altAnswers: ["Leon liebt Fußball, während sein Bruder sich nur für Musik interessiert.", "Leon liebt Fußball, wohingegen sich sein Bruder nur für Musik interessiert.", "Leon liebt Fußball, wohingegen sein Bruder sich nur für Musik interessiert.", "Leon liebt Fußball, sein Bruder hingegen interessiert sich nur für Musik.", "Leon liebt Fußball, sein Bruder dagegen interessiert sich nur für Musik."],
@@ -2190,7 +2192,7 @@ export const DE_B2_U11: Lesson[] = [
       {
         heading: "Error 5: zwar ... sondern, and a mixed hunt",
         body: [
-          "Error 5: \"*Das Hotel war zwar teuer, sondern sehr schön.\" \"Sondern\" means but rather and only follows a negation that it corrects: \"Das Hotel war nicht billig, sondern teuer.\" \"Zwar\" concedes, it doesn't negate, so its partner is \"aber\" (or \"doch\", \"jedoch\").",
+          "Error 5: \"*Das Hotel war zwar teuer, sondern sehr schön.\" \"Sondern\" means 'but rather' and only follows a negation that it corrects: \"Das Hotel war nicht billig, sondern teuer.\" \"Zwar\" concedes, it doesn't negate, so its partner is \"aber\" (or \"doch\", \"jedoch\").",
           "A bonus error: \"*Obwohl sie war müde, ging sie aus.\" The verb belongs at the end of the obwohl-clause: \"Obwohl sie müde war, ...\".",
           "And one that's easy to miss: \"*Trotz seinem Alter\" in formal writing → \"trotz seines Alters\". With masculine and neuter nouns the genitive needs both the -es article and the -s or -es on the noun.",
         ],
@@ -2205,7 +2207,7 @@ export const DE_B2_U11: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote: Das Hotel war zwar teuer, sondern sehr schön. Write the correct German.",
+            prompt: "A learner wrote: \"*Das Hotel war zwar teuer, sondern sehr schön.\" Write the correct German.",
             source: "The hotel was expensive, but very nice.",
             answer: "Das Hotel war zwar teuer, aber sehr schön.",
             altAnswers: ["Das Hotel war zwar teuer, doch sehr schön.", "Das Hotel war zwar teuer, aber es war sehr schön.", "Zwar war das Hotel teuer, aber sehr schön.", "Das Hotel war zwar teuer, jedoch sehr schön."],
@@ -2226,7 +2228,7 @@ export const DE_B2_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Trotzdem es kalt war, saßen wir draußen. Write the correct German.",
+        prompt: "A learner wrote: \"*Trotzdem es kalt war, saßen wir draußen.\" Write the correct German.",
         source: "Although it was cold, we sat outside.",
         answer: "Obwohl es kalt war, saßen wir draußen.",
         altAnswers: ["Obwohl es kalt war, haben wir draußen gesessen.", "Wir saßen draußen, obwohl es kalt war.", "Es war kalt, trotzdem saßen wir draußen.", "Es war kalt, trotzdem haben wir draußen gesessen.", "Obwohl es kalt war, sind wir draußen gesessen."],
@@ -2235,7 +2237,7 @@ export const DE_B2_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Obwohl Jonas kaum trainiert hatte, er lief den Marathon. Write the correct German.",
+        prompt: "A learner wrote: \"*Obwohl Jonas kaum trainiert hatte, er lief den Marathon.\" Write the correct German.",
         source: "Although Jonas had hardly trained, he ran the marathon.",
         answer: "Obwohl Jonas kaum trainiert hatte, lief er den Marathon.",
         altAnswers: ["Obwohl Jonas kaum trainiert hatte, ist er den Marathon gelaufen.", "Jonas lief den Marathon, obwohl er kaum trainiert hatte.", "Jonas ist den Marathon gelaufen, obwohl er kaum trainiert hatte."],
@@ -2243,7 +2245,7 @@ export const DE_B2_U11: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote: Trotz seinem Alter spielt er noch Tennis (in an essay). Write the correct German for the bold words.",
+        prompt: "A learner wrote: \"*Trotz seinem Alter spielt er noch Tennis\" (in an essay). Write the correct German for the bold words.",
         en: "[Despite his age] he still plays tennis.",
         sentence: "___ spielt er noch Tennis.",
         answer: "Trotz seines Alters",
@@ -2252,7 +2254,7 @@ export const DE_B2_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Ich mag Kaffee, während mein Mann mag Tee. Write the correct German.",
+        prompt: "A learner wrote: \"*Ich mag Kaffee, während mein Mann mag Tee.\" Write the correct German.",
         source: "I like coffee, whereas my husband likes tea.",
         answer: "Ich mag Kaffee, während mein Mann Tee mag.",
         altAnswers: ["Ich mag Kaffee, wohingegen mein Mann Tee mag.", "Ich mag Kaffee, mein Mann hingegen mag Tee.", "Ich mag Kaffee, mein Mann dagegen mag Tee.", "Ich mag Kaffee, während mein Mann lieber Tee mag."],
@@ -2275,7 +2277,7 @@ export const DE_B2_U11: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote: Obwohl sie war müde, ging sie aus. Write the correct German.",
+        prompt: "A learner wrote: \"*Obwohl sie war müde, ging sie aus.\" Write the correct German.",
         source: "Although she was tired, she went out.",
         answer: "Obwohl sie müde war, ging sie aus.",
         altAnswers: ["Obwohl sie müde war, ist sie ausgegangen.", "Sie ging aus, obwohl sie müde war.", "Sie ist ausgegangen, obwohl sie müde war."],
@@ -2307,14 +2309,14 @@ export const DE_B2_U11: Lesson[] = [
     level: "DE-B2",
     number: 13,
     title: "Quick Round: Obwohl, Trotz or Trotzdem?",
-    summary: "Twelve sentence starts, one decision each: obwohl, trotz or trotzdem, and the word order that goes with it.",
+    summary: "Twelve sentence starts, one decision each: \"obwohl\", \"trotz\" or \"trotzdem\", and the word order that goes with it.",
     duration: "12 min",
     sections: [
       {
         heading: "The decision rule",
         body: [
           "Look at what follows the gap. A subject and a verb at the end → \"obwohl\". A verb immediately after the gap → \"trotzdem\". A noun phrase with no verb → \"trotz\" (+ genitive). That's all; no meaning difference to worry about.",
-          "Round 1: \"___ der Kälte\" → trotz. \"___ es kalt war\" → obwohl. \"Es war kalt, ___ gingen wir spazieren\" → trotzdem. \"___ seiner Erfahrung machte er Fehler\" → trotz.",
+          "Round 1: \"___ der Kälte\" → \"trotz\". \"___ es kalt war\" → \"obwohl\". \"Es war kalt, ___ gingen wir spazieren\" → \"trotzdem\". \"___ seiner Erfahrung machte er Fehler\" → \"trotz\".",
           "Speed matters in the exam and in conversation. Read the four starts below aloud and decide before you look at the translation.",
         ],
         examples: [
@@ -2346,8 +2348,8 @@ export const DE_B2_U11: Lesson[] = [
       {
         heading: "Round 2: work and money",
         body: [
-          "Four more, now with work vocabulary. \"___ die Firma Gewinne macht, werden Stellen abgebaut\" → obwohl (verb \"macht\" at the end). \"___ der guten Zahlen werden Stellen abgebaut\" → trotz.",
-          "\"Das Gehalt ist niedrig, ___ arbeite ich gern hier\" → trotzdem. \"___ ich Überstunden mache, bekomme ich keinen Bonus\" → obwohl.",
+          "Four more, now with work vocabulary. \"___ die Firma Gewinne macht, werden Stellen abgebaut\" → \"obwohl\" (verb \"macht\" at the end). \"___ der guten Zahlen werden Stellen abgebaut\" → \"trotz\".",
+          "\"Das Gehalt ist niedrig, ___ arbeite ich gern hier\" → \"trotzdem\". \"___ ich Überstunden mache, bekomme ich keinen Bonus\" → \"obwohl\".",
           "Notice that \"obwohl\" and \"trotz\" can start the sentence or follow the main clause, while \"trotzdem\" always belongs to the second fact.",
         ],
         examples: [
@@ -2379,7 +2381,7 @@ export const DE_B2_U11: Lesson[] = [
       {
         heading: "Round 3: everyday life",
         body: [
-          "The last four: \"___ ich den Wecker gestellt hatte, habe ich verschlafen\" → obwohl. \"___ des Weckers habe ich verschlafen\" → trotz. \"Ich hatte den Wecker gestellt. ___ habe ich verschlafen\" → trotzdem. \"___ wir uns beeilt haben, haben wir den Zug verpasst\" → obwohl.",
+          "The last four: \"___ ich den Wecker gestellt hatte, habe ich verschlafen\" → \"obwohl\". \"___ des Weckers habe ich verschlafen\" → \"trotz\". \"Ich hatte den Wecker gestellt. ___ habe ich verschlafen\" → \"trotzdem\". \"___ wir uns beeilt haben, haben wir den Zug verpasst\" → \"obwohl\".",
           "If you hesitate, cover the word and look only at where the next verb is. The verb tells you the answer.",
         ],
         examples: [
@@ -2446,14 +2448,14 @@ export const DE_B2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which word fits? ___ des schlechten Wetters fand das Fest statt.",
+        question: "Which word fits? \"___ des schlechten Wetters fand das Fest statt.\"",
         options: ["Trotz", "Obwohl", "Trotzdem", "Zwar"],
         correctIndex: 0,
         explanation: "A genitive noun phrase follows, so the preposition \"trotz\".",
       },
       {
         type: "multiple-choice",
-        question: "Which word fits? Das Wetter war schlecht, ___ fand das Fest statt.",
+        question: "Which word fits? \"Das Wetter war schlecht, ___ fand das Fest statt.\"",
         options: ["trotzdem", "obwohl", "trotz", "während"],
         correctIndex: 0,
         explanation: "The verb \"fand\" comes right after the gap: the adverb \"trotzdem\".",
@@ -2492,7 +2494,7 @@ export const DE_B2_U11: Lesson[] = [
         type: "speak",
         text: "Obwohl ich Überstunden mache, bekomme ich keinen Bonus.",
         prompt: "Say it in German: Although I do overtime, I don't get a bonus.",
-        tip: "Überstunden: the long ü of über, with rounded lips.",
+        tip: "\"Überstunden\": the long ü of \"über\", with rounded lips.",
         explanation: "Verb last in the obwohl-clause, verb first after the comma.",
       },
     ],

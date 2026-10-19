@@ -8,15 +8,15 @@ export const DE_C2_U15: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Präsentation und Verhandlung, Part 1 of 8",
-    summary: "Open a German presentation the way a German audience expects: the formal greeting, a factual hook, and an explicit announcement of structure (zunächst, anschließend, abschließend), with Sachlichkeit and data before story.",
+    summary: "Open a German presentation the way a German audience expects: the formal greeting, a factual hook, and an explicit announcement of structure (\"zunächst\", \"anschließend\", \"abschließend\"), with \"Sachlichkeit\" and data before story.",
     duration: "18 min",
     sections: [
       {
         heading: "The greeting: Sehr geehrte Damen und Herren",
         body: [
-          "A formal German presentation starts with an address (die Anrede). The safe all-purpose formula is \"Sehr geehrte Damen und Herren\". In a company, add or replace it with \"liebe Kolleginnen und Kollegen\"; at a conference, name the hierarchy first: \"Sehr geehrte Frau Präsidentin, sehr geehrte Damen und Herren\".",
+          "A formal German presentation starts with an address (\"die Anrede\"). The safe all-purpose formula is \"Sehr geehrte Damen und Herren\". In a company, add or replace it with \"liebe Kolleginnen und Kollegen\"; at a conference, name the hierarchy first: \"Sehr geehrte Frau Präsidentin, sehr geehrte Damen und Herren\".",
           "After the address comes a brief thank-you and self-introduction: \"Vielen Dank für die Einladung\", \"Ich freue mich, heute vor Ihnen sprechen zu dürfen\", \"Mein Name ist Lena Hoffmann, ich leite die Abteilung Controlling\". Titles matter: a professor or doctor is addressed as \"Frau Professorin Weber\" or \"Herr Dr. Schmidt\".",
-          "Keep the Sie-form throughout, even if you know some listeners well. Switching to du in front of an audience sounds unprofessional, and an informal \"Hallo zusammen\" fits an internal team meeting at most.",
+          "Keep the Sie-form throughout, even if you know some listeners well. Switching to \"du\" in front of an audience sounds unprofessional, and an informal \"Hallo zusammen\" fits an internal team meeting at most.",
         ],
         examples: [
           { es: "Sehr geehrte Damen und Herren, liebe Kolleginnen und Kollegen,", en: "Ladies and gentlemen, dear colleagues," },
@@ -50,14 +50,14 @@ export const DE_C2_U15: Lesson[] = [
             question: "You present to the board of a German company. Which opening fits best?",
             options: ["Sehr geehrte Damen und Herren,", "Hallo zusammen!", "Hi Leute,", "Liebe Freunde,"],
             correctIndex: 0,
-            explanation: "A formal audience expects the formal Anrede; the others are casual or private.",
+            explanation: "A board expects the formal \"Anrede\"; \"Hallo zusammen\" and \"Hi Leute\" are casual, \"Liebe Freunde\" is private.",
           },
         ],
       },
       {
         heading: "The hook: sachlich, not showy",
         body: [
-          "German audiences value Sachlichkeit (objectivity, matter-of-factness). A hook is welcome, but it should be factual: a striking figure, a current development or a concrete problem. Long personal anecdotes or jokes at the start can come across as unprofessional or as a way of avoiding content.",
+          "German audiences value \"Sachlichkeit\" (objectivity, matter-of-factness). A hook is welcome, but it should be factual: a striking figure, a current development or a concrete problem. Long personal anecdotes or jokes at the start can come across as unprofessional or as a way of avoiding content.",
           "Good factual hooks: \"Jedes Jahr gehen in Deutschland rund elf Millionen Tonnen Lebensmittel verloren\", \"Seit Januar sind unsere Lieferzeiten um 20 Prozent gestiegen\", \"Stellen Sie sich vor, Ihre Server fallen morgen für drei Tage aus\". A rhetorical question also works if it leads straight into the topic.",
           "The rule of thumb is data before story: first the facts that establish the problem, then, if at all, the human example that illustrates it. This is the reverse of many English-language presentation styles.",
         ],
@@ -89,7 +89,7 @@ export const DE_C2_U15: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does Sachlichkeit mean for your opening?",
+            question: "What does \"Sachlichkeit\" mean for your opening?",
             options: ["Start with facts that establish the problem", "Start with a long joke to relax the audience", "Start with your life story", "Skip the introduction and show slides"],
             correctIndex: 0,
             explanation: "Data before story: facts first, illustration afterwards.",
@@ -99,9 +99,9 @@ export const DE_C2_U15: Lesson[] = [
       {
         heading: "Announcing the structure",
         body: [
-          "German listeners expect a roadmap (die Gliederung). Announce it explicitly: \"Mein Vortrag gliedert sich in drei Teile\", \"Ich möchte zunächst auf ... eingehen, anschließend ... vorstellen und abschließend ... zur Diskussion stellen\". The trio zunächst / anschließend / abschließend is the backbone.",
+          "German listeners expect a roadmap (\"die Gliederung\"). Announce it explicitly: \"Mein Vortrag gliedert sich in drei Teile\", \"Ich möchte zunächst auf ... eingehen, anschließend ... vorstellen und abschließend ... zur Diskussion stellen\". The trio \"zunächst\" / \"anschließend\" / \"abschließend\" is the backbone.",
           "Also say how long you will speak and when questions are welcome: \"Ich werde etwa zwanzig Minuten sprechen\", \"Fragen beantworte ich gern im Anschluss\" or \"Unterbrechen Sie mich gern, wenn etwas unklar ist\". Punctuality is part of German business culture, so keep to the time you announce.",
-          "Verb-second order matters: after \"zunächst\" in position 1, the verb follows: \"Zunächst gebe ich Ihnen einen Überblick\", not *\"Zunächst ich gebe\".",
+          "Verb-second order matters: after \"zunächst\" in position 1, the verb follows: \"Zunächst gebe ich Ihnen einen Überblick\", not \"*Zunächst ich gebe*\".",
         ],
         examples: [
           { es: "Mein Vortrag gliedert sich in drei Teile.", en: "My talk is divided into three parts." },
@@ -136,7 +136,7 @@ export const DE_C2_U15: Lesson[] = [
             sentence: "___ möchte ich einen Vorschlag zur Diskussion stellen.",
             answer: "Abschließend",
             altAnswers: ["Zum Schluss"],
-            explanation: "\"Abschließend\" closes the zunächst / anschließend / abschließend sequence.",
+            explanation: "\"Abschließend\" closes the \"zunächst\" / \"anschließend\" / \"abschließend\" sequence.",
           },
         ],
       },
@@ -149,7 +149,7 @@ export const DE_C2_U15: Lesson[] = [
         source: "Ladies and gentlemen, dear colleagues, thank you for the invitation.",
         answer: "Sehr geehrte Damen und Herren, liebe Kolleginnen und Kollegen, vielen Dank für die Einladung.",
         altAnswers: ["Sehr geehrte Damen und Herren, liebe Kolleginnen und Kollegen, danke für die Einladung.", "Sehr geehrte Damen und Herren, liebe Kollegen, vielen Dank für die Einladung.", "Sehr geehrte Damen und Herren, liebe Kolleginnen und Kollegen, herzlichen Dank für die Einladung."],
-        explanation: "The formal Anrede, then the thank-you.",
+        explanation: "The formal \"Anrede\" (\"Sehr geehrte Damen und Herren\"), then the thank-you with \"vielen Dank für\" + accusative.",
       },
       {
         type: "translate",
@@ -228,7 +228,7 @@ export const DE_C2_U15: Lesson[] = [
         type: "speak",
         text: "Sehr geehrte Damen und Herren, ich freue mich, heute vor Ihnen sprechen zu dürfen.",
         prompt: "Say it in German: Ladies and gentlemen, I am pleased to be able to speak to you today.",
-        tip: "Pause briefly after the Anrede before you continue.",
+        tip: "Pause briefly after the \"Anrede\" before you continue.",
         explanation: "A classic, formal opening.",
       },
     ],
@@ -237,7 +237,7 @@ export const DE_C2_U15: Lesson[] = [
     slug: "c2-presentation-openings-contrast",
     level: "DE-C2",
     number: 2,
-    title: "Contrast Clinic: Einstiege, die Packen, und Einstiege, die Einschläfern",
+    title: "Contrast Clinic: Einstiege, die packen, und Einstiege, die einschläfern",
     summary: "Compare five ways to open a talk (anecdote, provocative question, statistic, quote, and the flat \"Ich möchte Ihnen heute etwas über ... erzählen\") and rate them for a German audience.",
     duration: "17 min",
     sections: [
@@ -286,15 +286,15 @@ export const DE_C2_U15: Lesson[] = [
       {
         heading: "Statistic and quote: the safe bets",
         body: [
-          "A statistic is the most reliable hook in a German business or academic setting: it is sachlich and immediately shows relevance. Give the source (\"Laut Statistischem Bundesamt ...\", \"Einer Studie der Universität Mannheim zufolge ...\") and round sensibly: \"knapp ein Drittel\", \"fast jeder zweite\", \"rund 40 Prozent\".",
+          "A statistic is the most reliable hook in a German business or academic setting: it is \"sachlich\" and immediately shows relevance. Give the source (\"Laut Statistischem Bundesamt ...\", \"Einer Studie der Universität Mannheim zufolge ...\") and round sensibly: \"knapp ein Drittel\", \"fast jeder zweite\", \"rund 40 Prozent\".",
           "A quote works if it is short, relevant and properly attributed: \"Schon Goethe wusste: 'Es ist nicht genug zu wissen, man muss auch anwenden.'\" Overused quotes (Einstein, Steve Jobs) make listeners roll their eyes. A quote from a customer or an employee can be fresher.",
           "Link the hook to your topic in the very next sentence: \"Genau darum geht es heute.\" or \"Was bedeutet das für uns?\" Without this bridge, even the best statistic floats in the air.",
         ],
         examples: [
-          { es: "Laut Statistischem Bundesamt arbeitet fast jeder zweite Beschäftigte zumindest teilweise im Homeoffice.", en: "According to the Federal Statistical Office, almost every second employee works from home at least part of the time." },
+          { es: "Laut Statistischem Bundesamt arbeitet fast jeder vierte Beschäftigte zumindest teilweise im Homeoffice.", en: "According to the Federal Statistical Office, almost one in four employees works from home at least part of the time." },
           { es: "Einer Studie der Universität Mannheim zufolge lesen nur zehn Prozent der Nutzer die Datenschutzerklärung.", en: "According to a study by the University of Mannheim, only ten per cent of users read the privacy policy." },
           { es: "Knapp ein Drittel unserer Aufträge wird zu spät geliefert.", en: "Just under a third of our orders are delivered late." },
-          { es: "Ein Kunde schrieb uns letzte Woche: \"Ihr Produkt ist gut, Ihr Service ist eine Katastrophe.\"", en: "A customer wrote to us last week: 'Your product is good, your service is a disaster.'" },
+          { es: "Ein Kunde schrieb uns letzte Woche: „Ihr Produkt ist gut, Ihr Service ist eine Katastrophe.“", en: "A customer wrote to us last week: 'Your product is good, your service is a disaster.'" },
           { es: "Genau darum geht es heute.", en: "That is exactly what today is about." },
           { es: "Was bedeutet das für uns?", en: "What does that mean for us?" },
         ],
@@ -314,7 +314,7 @@ export const DE_C2_U15: Lesson[] = [
             en: "[That is exactly what] today is about.",
             sentence: "___ geht es heute.",
             answer: "Genau darum",
-            explanation: "\"Es geht um\" + \"genau\": the bridge from hook to topic.",
+            explanation: "\"Darum\" (= um das) picks up \"es geht um\"; \"genau\" adds emphasis. This is the bridge from hook to topic.",
           },
           {
             type: "listen-choose",
@@ -331,7 +331,7 @@ export const DE_C2_U15: Lesson[] = [
         body: [
           "An anecdote can be powerful, but in a German setting keep it short (three or four sentences), relevant and preferably professional rather than private. \"Letzte Woche stand ich in unserem Lager in Kassel ...\" works; a story about your holiday usually does not.",
           "A provocative question (\"Brauchen wir überhaupt noch Büros?\") wakes people up, but German audiences may take it literally and expect a clear answer. Answer it yourself, soon and factually: \"Die Antwort ist: ja, aber andere.\" Avoid questions that sound manipulative or that someone in the room might answer with an awkward \"Nein\".",
-          "Rating checklist for a German audience: Is it relevant? Is it short? Is it sachlich? Does it lead to the Fragestellung? A strong opening passes all four.",
+          "Rating checklist for a German audience: Is it relevant? Is it short? Is it \"sachlich\"? Does it lead to the \"Fragestellung\" (the central question)? A strong opening passes all four.",
         ],
         examples: [
           { es: "Letzte Woche stand ich in unserem Lager in Kassel und sah zwanzig Paletten, die niemand bestellt hatte.", en: "Last week I was standing in our warehouse in Kassel and saw twenty pallets that nobody had ordered." },
@@ -368,7 +368,7 @@ export const DE_C2_U15: Lesson[] = [
         question: "Rate for a German board meeting: which opening is strongest?",
         options: ["Knapp ein Drittel unserer Aufträge wird zu spät geliefert. Genau darum geht es heute.", "Ich möchte Ihnen heute etwas über Lieferungen erzählen.", "Ich bin leider kein guter Redner.", "Als ich im Urlaub auf Mallorca war, ist mir etwas Lustiges passiert."],
         correctIndex: 0,
-        explanation: "A sourced or internal figure plus a bridge to the topic: relevant, short and sachlich.",
+        explanation: "An internal figure plus a bridge to the topic: relevant, short and \"sachlich\". The flat \"erzählen\" opening, the apology and the holiday story all waste time.",
       },
       {
         type: "translate",
@@ -395,7 +395,7 @@ export const DE_C2_U15: Lesson[] = [
         source: "Why do we lose ten per cent of our customers every year?",
         answer: "Warum verlieren wir jedes Jahr zehn Prozent unserer Kunden?",
         altAnswers: ["Warum verlieren wir jährlich zehn Prozent unserer Kunden?", "Weshalb verlieren wir jedes Jahr zehn Prozent unserer Kunden?", "Warum verlieren wir jedes Jahr 10 Prozent unserer Kunden?"],
-        explanation: "A problem question that leads straight into the Fragestellung.",
+        explanation: "A problem question that leads straight into the \"Fragestellung\".",
       },
       {
         type: "fill-blank",
@@ -419,7 +419,7 @@ export const DE_C2_U15: Lesson[] = [
         source: "Almost every second employee works from home.",
         answer: "Fast jeder zweite Beschäftigte arbeitet im Homeoffice.",
         altAnswers: ["Fast jeder zweite Mitarbeiter arbeitet im Homeoffice.", "Fast jeder zweite Beschäftigte arbeitet von zu Hause.", "Beinahe jeder zweite Beschäftigte arbeitet im Homeoffice."],
-        explanation: "\"Jeder zweite\" (every second) is the idiomatic way to say half.",
+        explanation: "\"Jeder zweite\" (literally every second, i.e. one in two) is the idiomatic way to say half; \"Beschäftigte\" is an adjectival noun (\"ein Beschäftigter\", \"jeder Beschäftigte\").",
       },
       {
         type: "matching",
@@ -428,7 +428,7 @@ export const DE_C2_U15: Lesson[] = [
           { left: "Statistik", right: "Knapp ein Drittel unserer Aufträge wird zu spät geliefert." },
           { left: "provokante Frage", right: "Brauchen wir überhaupt noch Büros?" },
           { left: "Anekdote", right: "Letzte Woche stand ich in unserem Lager in Kassel ..." },
-          { left: "Zitat", right: "Ein Kunde schrieb uns: \"Ihr Service ist eine Katastrophe.\"" },
+          { left: "Zitat", right: "Ein Kunde schrieb uns: „Ihr Service ist eine Katastrophe.“" },
         ],
         explanation: "Figure, question, short story, quotation.",
       },
@@ -451,7 +451,7 @@ export const DE_C2_U15: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Präsentation und Verhandlung, Part 2 of 8",
-    summary: "Describe charts and figures precisely: steigen, zunehmen, sinken, zurückgehen, stagnieren, sich verdoppeln; um versus auf; Prozent versus Prozentpunkt; Balkendiagramm, Kreisdiagramm, Kurve; decimal comma and Mio./Mrd.",
+    summary: "Describe charts and figures precisely: say how values change (\"steigen\", \"zunehmen\", \"sinken\", \"stagnieren\", \"sich verdoppeln\"), choose \"um\" or \"auf\" and \"Prozent\" or \"Prozentpunkt\", name chart types, and read decimal commas, \"Mio.\" and \"Mrd.\" correctly.",
     duration: "19 min",
     sections: [
       {
@@ -483,7 +483,7 @@ export const DE_C2_U15: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Demand [has increased] sharply.",
+            en: "Demand [has] increased sharply.",
             sentence: "Die Nachfrage ___ stark zugenommen.",
             answer: "hat",
             explanation: "\"Zunehmen\" forms the perfect with \"haben\", unlike \"steigen\".",
@@ -503,7 +503,7 @@ export const DE_C2_U15: Lesson[] = [
         heading: "um or auf, Prozent or Prozentpunkt",
         body: [
           "\"Um\" gives the size of the change; \"auf\" gives the new value. \"Der Umsatz ist um 3 Prozent gestiegen\" (by 3 per cent) versus \"Der Umsatz ist auf 5 Millionen gestiegen\" (to 5 million). \"Von ... auf\" gives start and end: \"von 4,2 auf 4,8 Millionen Euro\". Confusing \"um\" and \"auf\" is one of the most frequent errors in presentations.",
-          "\"Prozent\" and \"Prozentpunkt\" are not the same: if the unemployment rate goes from 5 to 6 percent, it rises \"um einen Prozentpunkt\", but \"um 20 Prozent\". Journalists and analysts in Germany are strict about this distinction.",
+          "\"Prozent\" and \"Prozentpunkt\" are not the same: if the unemployment rate goes from 5 to 6 per cent, it rises \"um einen Prozentpunkt\", but \"um 20 Prozent\". Journalists and analysts in Germany are strict about this distinction.",
           "Comparison with the previous period: \"im Vergleich zum Vorjahr\", \"gegenüber dem Vorjahr\", \"verglichen mit dem Vorquartal\". The abbreviation for the previous year in tables is \"Vj.\"; in speech always say the full form.",
         ],
         examples: [
@@ -545,7 +545,7 @@ export const DE_C2_U15: Lesson[] = [
         heading: "Chart types and German number conventions",
         body: [
           "Chart vocabulary: \"das Balkendiagramm\" (bar chart; horizontal bars) and \"das Säulendiagramm\" (vertical columns), \"das Kreisdiagramm\" or \"Tortendiagramm\" (pie chart), \"das Liniendiagramm\" with \"die Kurve\" (line, curve), \"die x-Achse / y-Achse\", \"die Legende\". Point to them: \"Wie Sie auf dieser Folie sehen, ...\", \"Die blaue Kurve zeigt ...\", \"Auffällig ist ...\".",
-          "German uses the decimal comma and the point (or a thin space) for thousands: 3,5 % is read \"drei Komma fünf Prozent\"; 1.200 is \"eintausendzweihundert\". There is a space before the percent sign in careful writing: \"3,5 %\".",
+          "German uses the decimal comma and the point (or a thin space) for thousands: \"3,5 %\" is read \"drei Komma fünf Prozent\"; \"1.200\" is \"(ein)tausendzweihundert\". There is a space before the per cent sign in careful writing: \"3,5 %\".",
           "Abbreviations: \"Mio.\" (Millionen), \"Mrd.\" (Milliarden; billion in English!), \"Tsd.\" (Tausend). A German \"Billion\" is a million million, so translating billion as \"Billion\" is a classic false friend.",
         ],
         examples: [
@@ -651,10 +651,10 @@ export const DE_C2_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which verb forms its perfect tense with \"haben\"?",
-        options: ["zunehmen", "steigen", "sinken", "zurückgehen"],
+        question: "You want to say: Demand has increased and prices have risen. Which sentence is correct?",
+        options: ["Die Nachfrage hat zugenommen, und die Preise sind gestiegen.", "Die Nachfrage ist zugenommen, und die Preise sind gestiegen.", "Die Nachfrage hat zugenommen, und die Preise haben gestiegen.", "Die Nachfrage ist zugenommen, und die Preise haben gestiegen."],
         correctIndex: 0,
-        explanation: "\"Die Nachfrage hat zugenommen\"; the others take \"sein\".",
+        explanation: "\"Zunehmen\" takes \"haben\" (\"hat zugenommen\"), while \"steigen\" is a change of state with \"sein\" (\"sind gestiegen\"). \"*ist zugenommen*\" and \"*haben gestiegen*\" are the classic mix-ups.",
       },
       {
         type: "listen-choose",
@@ -682,13 +682,13 @@ export const DE_C2_U15: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Transformations: Überleitungen zwischen den Teilen",
-    summary: "Link the parts of a presentation smoothly: Damit komme ich zu ..., Nachdem wir ... gesehen haben, wenden wir uns ... zu, Das führt mich zu ...; rewrite abrupt jumps into elegant transitions.",
+    summary: "Link the parts of a presentation smoothly with \"Damit komme ich zu ...\", \"Nachdem wir ... gesehen haben, wenden wir uns ... zu\" and \"Das führt mich zu ...\", and rewrite abrupt jumps into elegant transitions.",
     duration: "17 min",
     sections: [
       {
         heading: "Closing one part, opening the next",
         body: [
-          "A good transition (die Überleitung) does two things: it closes the previous part with a mini-summary and announces the next. The simplest formula: \"Damit komme ich zu meinem zweiten Punkt, den Kosten.\" \"Damit\" refers back to everything just said.",
+          "A good transition (\"die Überleitung\") does two things: it closes the previous part with a mini-summary and announces the next. The simplest formula: \"Damit komme ich zu meinem zweiten Punkt, den Kosten.\" \"Damit\" refers back to everything just said.",
           "More elaborate, with a temporal clause: \"Nachdem wir die Ursachen gesehen haben, wenden wir uns nun den Lösungen zu.\" \"Sich einer Sache zuwenden\" takes the dative and is separable; the prefix \"zu\" goes to the end of the main clause.",
           "Other formulas: \"Soweit zu den Zahlen. Kommen wir nun zu ...\", \"Das führt mich direkt zu ...\", \"Nachdem ich die Ausgangslage erläutert habe, möchte ich Ihnen nun ... vorstellen\", \"Im nächsten Schritt geht es um ...\".",
         ],
@@ -775,7 +775,7 @@ export const DE_C2_U15: Lesson[] = [
         body: [
           "The last transition leads into the conclusion: \"Damit komme ich zum Schluss\", \"Lassen Sie mich zusammenfassen\", \"Ich fasse die wichtigsten Punkte noch einmal zusammen\". Then deliver exactly what you promised in the roadmap.",
           "Then hand over to discussion: \"Ich danke Ihnen für Ihre Aufmerksamkeit und freue mich auf Ihre Fragen.\" Do not end with \"Das war's\", which sounds abrupt and too casual for a formal setting.",
-          "A strong final transition can also echo the hook: \"Ich habe mit einer Zahl begonnen, und ich möchte mit einer Zahl schließen.\" This frame (die Klammer) makes the talk feel complete.",
+          "A strong final transition can also echo the hook: \"Ich habe mit einer Zahl begonnen, und ich möchte mit einer Zahl schließen.\" This frame (\"die Klammer\") makes the talk feel complete.",
         ],
         examples: [
           { es: "Damit komme ich zum Schluss.", en: "That brings me to the end." },
@@ -849,7 +849,7 @@ export const DE_C2_U15: Lesson[] = [
         source: "Having explained the initial situation, I would now like to present our plan.",
         answer: "Nachdem ich die Ausgangslage erläutert habe, möchte ich Ihnen nun unseren Plan vorstellen.",
         altAnswers: ["Nachdem ich die Ausgangslage erläutert habe, möchte ich nun unseren Plan vorstellen.", "Nachdem ich die Ausgangssituation erläutert habe, möchte ich Ihnen nun unseren Plan vorstellen.", "Nachdem ich die Ausgangslage erklärt habe, möchte ich Ihnen nun unseren Plan vorstellen."],
-        explanation: "English having done becomes \"nachdem\" + perfect in German.",
+        explanation: "English 'having done' becomes \"nachdem\" + perfect in German; \"Ihnen\" is optional.",
       },
       {
         type: "word-order",
@@ -903,7 +903,7 @@ export const DE_C2_U15: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Präsentation und Verhandlung, Part 3 of 8",
-    summary: "The language of negotiation: Angebot, Gegenangebot, Spielraum, Schmerzgrenze, Zugeständnis, Kompromiss; proposals in Konjunktiv II (Wir könnten Ihnen ... anbieten, Wäre das für Sie denkbar?) and conditional concessions (Wenn Sie ..., wären wir bereit, ...).",
+    summary: "Use the key words of negotiation (\"Angebot\", \"Gegenangebot\", \"Spielraum\", \"Schmerzgrenze\", \"Zugeständnis\", \"Kompromiss\"), make proposals in Konjunktiv II (\"Wir könnten Ihnen ... anbieten\", \"Wäre das für Sie denkbar?\") and tie concessions to conditions (\"Wenn Sie ..., wären wir bereit, ...\").",
     duration: "19 min",
     sections: [
       {
@@ -964,7 +964,7 @@ export const DE_C2_U15: Lesson[] = [
           { es: "Wir könnten Ihnen einen Rabatt von 5 Prozent anbieten.", en: "We could offer you a discount of 5 per cent." },
           { es: "Wäre das für Sie denkbar?", en: "Would that be conceivable for you?" },
           { es: "Würde Ihnen eine Lieferung Ende Mai entgegenkommen?", en: "Would a delivery at the end of May suit you?" },
-          { es: "Wir hätten da einen Vorschlag.", en: "We would have a suggestion there." },
+          { es: "Wir hätten da einen Vorschlag.", en: "We have a suggestion to make." },
           { es: "Was würden Sie davon halten, wenn wir die Zahlungsfrist verlängern?", en: "What would you think if we extended the payment period?" },
           { es: "Könnten Sie sich vorstellen, die Menge zu erhöhen?", en: "Could you imagine increasing the quantity?" },
         ],
@@ -990,7 +990,7 @@ export const DE_C2_U15: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[What would you think] if we extended the payment period?",
+            en: "[What would you] think if we extended the payment period?",
             sentence: "___ davon halten, wenn wir die Zahlungsfrist verlängern?",
             answer: "Was würden Sie",
             explanation: "\"Was würden Sie davon halten, wenn ...?\" is a polite trial balloon.",
@@ -1056,7 +1056,7 @@ export const DE_C2_U15: Lesson[] = [
         prompt: "Translate into German.",
         source: "Provided you sign by Friday, the discount applies.",
         answer: "Vorausgesetzt, Sie unterschreiben bis Freitag, gilt der Rabatt.",
-        altAnswers: ["Vorausgesetzt, dass Sie bis Freitag unterschreiben, gilt der Rabatt.", "Vorausgesetzt, Sie unterschreiben bis Freitag, dann gilt der Rabatt.", "Sofern Sie bis Freitag unterschreiben, gilt der Rabatt."],
+        altAnswers: ["Vorausgesetzt, dass Sie bis Freitag unterschreiben, gilt der Rabatt.", "Vorausgesetzt, Sie unterschreiben bis Freitag, dann gilt der Rabatt.", "Sofern Sie bis Freitag unterschreiben, gilt der Rabatt.", "Der Rabatt gilt, vorausgesetzt, Sie unterschreiben bis Freitag."],
         explanation: "\"Vorausgesetzt\" + main-clause order, then verb first in the main clause.",
       },
       {
@@ -1133,7 +1133,7 @@ export const DE_C2_U15: Lesson[] = [
         heading: "Scene 1: The offer and a polite rejection",
         body: [
           "Frau Becker, buyer for a furniture chain, meets Herr Lorenz, sales manager at a timber supplier. Herr Lorenz opens: \"Wir können Ihnen die 5.000 Regale zu einem Stückpreis von 42 Euro liefern, Liefertermin Ende Juni.\"",
-          "Frau Becker rejects politely but clearly: \"Vielen Dank für Ihr Angebot. Ehrlich gesagt liegt es deutlich über unseren Erwartungen. Und Ende Juni ist für uns zu spät.\" Note the structure: thanks, then the problem, stated sachlich, without apologies or emotional words.",
+          "Frau Becker rejects politely but clearly: \"Vielen Dank für Ihr Angebot. Ehrlich gesagt liegt es deutlich über unseren Erwartungen. Und Ende Juni ist für uns zu spät.\" Note the structure: thanks, then the problem, stated \"sachlich\", without apologies or emotional words.",
           "Other polite rejections: \"Das ist für uns so leider nicht darstellbar\" (business jargon: not feasible), \"Da müssen wir passen\" (we must pass), \"Zu diesen Konditionen können wir nicht abschließen\". German directness here is not rudeness, but clarity.",
         ],
         examples: [
@@ -1151,8 +1151,8 @@ export const DE_C2_U15: Lesson[] = [
             prompt: "Translate into German.",
             source: "To be honest, it is well above our expectations.",
             answer: "Ehrlich gesagt liegt es deutlich über unseren Erwartungen.",
-            altAnswers: ["Ehrlich gesagt liegt das deutlich über unseren Erwartungen.", "Offen gesagt liegt es deutlich über unseren Erwartungen.", "Ehrlich gesagt liegt es weit über unseren Erwartungen."],
-            explanation: "\"Ehrlich gesagt\" does not count as position 1, so \"liegt\" can follow directly.",
+            altAnswers: ["Ehrlich gesagt liegt das deutlich über unseren Erwartungen.", "Offen gesagt liegt es deutlich über unseren Erwartungen.", "Ehrlich gesagt liegt es weit über unseren Erwartungen.", "Ehrlich gesagt, es liegt deutlich über unseren Erwartungen."],
+            explanation: "\"Ehrlich gesagt\" fills position 1 here, so the verb \"liegt\" comes straight after it (verb second). Set off by a comma, it can also stand outside the sentence: \"Ehrlich gesagt, es liegt ...\".",
           },
           {
             type: "translate",
@@ -1178,11 +1178,11 @@ export const DE_C2_U15: Lesson[] = [
         body: [
           "Frau Becker makes a counteroffer: \"Wir hätten uns einen Preis von 36 Euro vorgestellt, bei Lieferung bis Mitte Mai.\" The Konjunktiv II plus perfect (\"hätten uns vorgestellt\") makes the figure sound like an expectation, not a demand.",
           "Herr Lorenz pushes back: \"36 Euro, da kommen wir nicht hin. Unsere Rohstoffkosten sind im letzten Jahr um 15 Prozent gestiegen.\" He justifies his position with a figure, which is the classic German move: argue with data, not with emotion.",
-          "He then signals movement: \"Beim Preis hätten wir vielleicht noch etwas Spielraum, beim Termin wird es schwierig.\" Separating the issues (Preis, Termin, Menge, Zahlungsziel) creates options to trade.",
+          "He then signals movement: \"Beim Preis hätten wir vielleicht noch etwas Spielraum, beim Termin wird es schwierig.\" Separating the issues (\"Preis\", \"Termin\", \"Menge\", \"Zahlungsziel\") creates options to trade.",
         ],
         examples: [
           { es: "Wir hätten uns einen Preis von 36 Euro vorgestellt.", en: "We had envisaged a price of 36 euros." },
-          { es: "36 Euro, da kommen wir nicht hin.", en: "36 euros, we cannot get there." },
+          { es: "36 Euro, da kommen wir nicht hin.", en: "36 euros? We cannot go that low." },
           { es: "Unsere Rohstoffkosten sind im letzten Jahr um 15 Prozent gestiegen.", en: "Our raw material costs rose by 15 per cent last year." },
           { es: "Beim Preis hätten wir vielleicht noch etwas Spielraum.", en: "On price we might still have some room for manoeuvre." },
           { es: "Beim Termin wird es schwierig.", en: "The date is going to be difficult." },
@@ -1222,7 +1222,7 @@ export const DE_C2_U15: Lesson[] = [
         body: [
           "Frau Becker ties her concession to a condition: \"Wenn Sie uns bis Mitte Mai liefern können, wären wir bereit, auf 39 Euro zu gehen.\" Herr Lorenz counters with his own condition: \"Mitte Mai schaffen wir nur, wenn Sie die Hälfte bei Auftragserteilung anzahlen.\"",
           "They close in on a deal: \"Gut, dann schlage ich Folgendes vor: 39 Euro, Lieferung in zwei Tranchen, die erste Mitte Mai, die zweite Anfang Juni, 30 Prozent Anzahlung.\" \"Folgendes\" (the following) announces a concrete package.",
-          "Finally they confirm: \"Damit könnten wir leben.\" \"Dann halten wir das so fest. Ich schicke Ihnen bis morgen eine schriftliche Bestätigung.\" In German business, the written confirmation (die schriftliche Bestätigung) is what really counts.",
+          "Finally they confirm: \"Damit könnten wir leben.\" \"Dann halten wir das so fest. Ich schicke Ihnen bis morgen eine schriftliche Bestätigung.\" In German business, the written confirmation (\"die schriftliche Bestätigung\") is what really counts.",
         ],
         examples: [
           { es: "Wenn Sie bis Mitte Mai liefern können, wären wir bereit, auf 39 Euro zu gehen.", en: "If you can deliver by mid-May, we would be prepared to go to 39 euros." },
@@ -1342,7 +1342,7 @@ export const DE_C2_U15: Lesson[] = [
         type: "speak",
         text: "Vielen Dank für Ihr Angebot. Ehrlich gesagt liegt es deutlich über unseren Erwartungen.",
         prompt: "Reject an offer politely: thank them, then say it is well above your expectations.",
-        explanation: "Polite, clear and sachlich.",
+        explanation: "Polite, clear and \"sachlich\": thanks first, then the problem, with no apology.",
       },
     ],
   },
@@ -1351,7 +1351,7 @@ export const DE_C2_U15: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Präsentation und Verhandlung, Part 4 of 8",
-    summary: "When negotiations stall: name the deadlock (Da kommen wir nicht zusammen), step back (Lassen Sie uns einen Schritt zurücktreten), test options (Was wäre, wenn ...?), adjourn (Ich schlage vor, wir vertagen das), and read German directness without taking offence.",
+    summary: "Get a stalled negotiation moving again: name the deadlock (\"Da kommen wir nicht zusammen\"), step back (\"Lassen Sie uns einen Schritt zurücktreten\"), test options (\"Was wäre, wenn ...?\"), adjourn (\"Ich schlage vor, wir vertagen das\"), and read German directness without taking offence.",
     duration: "18 min",
     sections: [
       {
@@ -1391,10 +1391,10 @@ export const DE_C2_U15: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "No agreement could yet [be reached].",
+            en: "No agreement could yet be [reached].",
             sentence: "Es konnte noch keine Einigung ___ werden.",
             answer: "erzielt",
-            explanation: "\"Eine Einigung erzielen\" = to reach an agreement.",
+            explanation: "\"Eine Einigung erzielen\" = to reach an agreement; in the passive the participle \"erzielt\" goes before \"werden\" at the end.",
           },
         ],
       },
@@ -1445,7 +1445,7 @@ export const DE_C2_U15: Lesson[] = [
         heading: "Adjourning and reading German directness",
         body: [
           "If nothing moves, propose a break or an adjournment: \"Ich schlage vor, wir vertagen das\", \"Lassen Sie uns eine kurze Pause machen\", \"Wir sollten das intern noch einmal besprechen und uns bis Donnerstag melden\". Adjourning is not a failure; it saves the relationship.",
-          "Reading German directness: sentences like \"Das geht so nicht\", \"Das sehe ich anders\" or \"Da muss ich Ihnen widersprechen\" are about the issue, not about you. German business culture separates Sache (issue) and Person (relationship) quite strictly, so hard words on the issue can coexist with a friendly lunch afterwards.",
+          "Reading German directness: sentences like \"Das geht so nicht\", \"Das sehe ich anders\" or \"Da muss ich Ihnen widersprechen\" are about the issue, not about you. German business culture separates \"Sache\" (issue) and \"Person\" (relationship) quite strictly, so hard words on the issue can coexist with a friendly lunch afterwards.",
           "If you want to soften without losing clarity, add the person explicitly: \"Ich schätze Ihre Offenheit, aber in diesem Punkt sehe ich das anders.\" And if you are unsure whether something was meant as offence, ask: \"Wie darf ich das verstehen?\"",
         ],
         examples: [
@@ -1471,7 +1471,7 @@ export const DE_C2_U15: Lesson[] = [
             question: "Your German partner says \"Das geht so nicht.\" How should you read it?",
             options: ["As a clear statement about the issue, not a personal attack", "As an insult", "As the end of the relationship", "As a joke"],
             correctIndex: 0,
-            explanation: "Sache and Person are kept apart: directness concerns the issue.",
+            explanation: "\"Sache\" and \"Person\" are kept apart: directness concerns the issue, not you.",
           },
           {
             type: "listen-choose",
@@ -1515,7 +1515,7 @@ export const DE_C2_U15: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Only the price [is still open].",
+        en: "Only the price is [still] open.",
         sentence: "Nur der Preis ist ___ offen.",
         answer: "noch",
         explanation: "\"Noch offen\" = still open, still to be decided.",
@@ -1589,7 +1589,7 @@ export const DE_C2_U15: Lesson[] = [
       {
         heading: "Step 1: Summarise the interests",
         body: [
-          "The situation: the Klinikum Nord wants its new patient software running by 1 January; the provider, DataMed, says that is only possible with extra staff, which costs 80.000 Euro more. Both sides have said \"Da kommen wir nicht zusammen.\" You are the moderator.",
+          "The situation: the Klinikum Nord wants its new patient software running by 1 January; the provider, DataMed, says that is only possible with extra staff, which costs €80,000 more. Both sides have said \"Da kommen wir nicht zusammen.\" You are the moderator.",
           "Start by summarising neutrally, without taking sides: \"Wenn ich Sie richtig verstanden habe, ist für das Klinikum vor allem der Termin entscheidend, während für DataMed die zusätzlichen Kosten das Problem sind.\" \"Während\" contrasts the two interests in one sentence.",
           "Then check: \"Habe ich das so richtig zusammengefasst?\" or \"Ist das so korrekt wiedergegeben?\". A confirmed summary creates a shared basis and lowers the temperature.",
         ],
@@ -1676,9 +1676,9 @@ export const DE_C2_U15: Lesson[] = [
       {
         heading: "Step 3: Secure agreement in principle",
         body: [
-          "Once an option finds support, fix it as an agreement in principle (eine Grundsatzeinigung): \"Können wir uns grundsätzlich darauf verständigen, dass ...?\", \"Halten wir also fest: ...\". \"Grundsätzlich\" (in principle) leaves details open but commits to the direction.",
+          "Once an option finds support, fix it as an agreement in principle (\"eine Grundsatzeinigung\"): \"Können wir uns grundsätzlich darauf verständigen, dass ...?\", \"Halten wir also fest: ...\". \"Grundsätzlich\" (in principle) leaves details open but commits to the direction.",
           "Name what remains open and who does what by when: \"Die Details klären Frau Arnold und Herr Wolff bis zum 15. Oktober.\" \"Ich fasse das Ergebnis schriftlich zusammen und schicke es beiden Seiten bis morgen zu.\"",
-          "Close positively, acknowledging both sides: \"Vielen Dank an beide Seiten für die konstruktive Diskussion. Ich glaube, wir haben eine gute Grundlage gefunden.\" Notice: the tone is warm but still sachlich, without exaggerated praise.",
+          "Close positively, acknowledging both sides: \"Vielen Dank an beide Seiten für die konstruktive Diskussion. Ich glaube, wir haben eine gute Grundlage gefunden.\" Notice: the tone is warm but still \"sachlich\", without exaggerated praise.",
         ],
         examples: [
           { es: "Können wir uns grundsätzlich darauf verständigen, dass die Einführung in zwei Phasen erfolgt?", en: "Can we agree in principle that the introduction takes place in two phases?" },
@@ -1813,8 +1813,8 @@ export const DE_C2_U15_WRITING: WriteExercise = {
     "A clear structure with signposting: \"Zunächst ...\", \"Im Anschluss ...\", \"Damit komme ich zu ...\", \"Abschließend ...\"",
     "Precise figures with the right prepositions: \"um 12 Prozent\" versus \"auf 4,20 Euro\", \"im Vergleich zum Vorjahr\", decimal commas",
     "Negotiation vocabulary and conditional structures: \"Zugeständnis\", \"Spielraum\", \"im Gegenzug\", \"unter der Bedingung, dass ...\", \"wenn ..., wären wir bereit ...\"",
-    "A formal, sachlich register with Sie-form, a proper Anrede and closing (\"Sehr geehrter Herr ...\", \"Mit freundlichen Grüßen\")",
+    "A formal, \"sachlich\" register with the Sie-form, a proper \"Anrede\" and closing (\"Sehr geehrter Herr ...\", \"Mit freundlichen Grüßen\")",
   ],
   modelAnswer: "Sehr geehrter Herr Dr. Neumann,\n\nwie vereinbart möchte ich Sie über das Ergebnis der gestrigen Verhandlung mit der Firma Holzwerk Brandt informieren.\n\nZunächst zur Ausgangslage: Holzwerk Brandt hatte angekündigt, die Preise für Spanplatten ab Januar um 12 Prozent zu erhöhen, also von 3,80 auf rund 4,26 Euro pro Quadratmeter. Begründet wurde dies mit den gestiegenen Energie- und Transportkosten. Wir hatten unsererseits signalisiert, dass eine Erhöhung von mehr als 5 Prozent für uns nicht darstellbar ist.\n\nIm ersten Teil der Verhandlung drehten wir uns erwartungsgemäß im Kreis. Nachdem beide Seiten ihre Positionen mehrfach wiederholt hatten, schlug ich vor, einen Schritt zurückzutreten und über die eigentlichen Interessen zu sprechen. Dabei wurde deutlich, dass es Holzwerk Brandt weniger um den Preis an sich geht als um Planungssicherheit: Das Unternehmen muss im Frühjahr in eine neue Anlage investieren und braucht dafür feste Abnahmemengen.\n\nDamit komme ich zum erzielten Kompromiss. Wir haben uns grundsätzlich auf folgende Punkte verständigt:\n– Der Preis steigt um 6 Prozent auf 4,03 Euro pro Quadratmeter.\n– Im Gegenzug sichern wir eine Mindestabnahme von 120.000 Quadratmetern pro Jahr zu, was etwa 10 Prozent mehr ist als im Vorjahr.\n– Der Vertrag läuft zwei Jahre; eine weitere Preiserhöhung ist in dieser Zeit ausgeschlossen, sofern die Energiepreise nicht um mehr als 20 Prozent steigen.\n\nIm Vergleich zur ursprünglichen Forderung sparen wir damit jährlich rund 27.000 Euro. Unter der Bedingung, dass wir die Mindestmenge tatsächlich abnehmen, halte ich das Ergebnis für tragfähig.\n\nOffen sind noch die Zahlungsfristen sowie die genaue Formulierung der Energiepreisklausel. Frau Schäfer aus dem Einkauf klärt diese Details bis zum 20. November mit der Gegenseite. Den Vertragsentwurf lege ich Ihnen anschließend zur Freigabe vor.\n\nAbschließend möchte ich betonen, dass die Gespräche trotz der harten Ausgangslage sachlich und konstruktiv verliefen. Für Rückfragen stehe ich Ihnen selbstverständlich jederzeit zur Verfügung.\n\nMit freundlichen Grüßen\nJulia Hartmann",
-  explanation: "The e-mail is structured with clear signposts (\"Zunächst zur Ausgangslage\", \"Damit komme ich zum erzielten Kompromiss\", \"Abschließend\"). Figures are precise: \"um 12 Prozent\" gives the size of the change and \"auf 4,03 Euro\" the new value, with decimal commas. The negotiation is described with the key vocabulary (\"darstellbar\", \"im Kreis drehen\", \"einen Schritt zurücktreten\", \"im Gegenzug\", \"sich grundsätzlich verständigen\") and conditions (\"sofern\", \"unter der Bedingung, dass\"). The register stays formal and sachlich throughout, with open points and responsibilities named at the end.",
+  explanation: "The e-mail is structured with clear signposts (\"Zunächst zur Ausgangslage\", \"Damit komme ich zum erzielten Kompromiss\", \"Abschließend\"). Figures are precise: \"um 12 Prozent\" gives the size of the change and \"auf 4,03 Euro\" the new value, with decimal commas. The negotiation is described with the key vocabulary (\"darstellbar\", \"im Kreis drehen\", \"einen Schritt zurücktreten\", \"im Gegenzug\", \"sich grundsätzlich verständigen\") and conditions (\"sofern\", \"unter der Bedingung, dass\"). The register stays formal and \"sachlich\" throughout, with open points and responsibilities named at the end.",
 };

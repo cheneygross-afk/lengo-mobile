@@ -82,7 +82,7 @@ export const GOETHE_A1_HOEREN: ExamPaper = {
           options: ["2,50 €", "5,00 €", "4,50 €"],
           answer: 1,
           source: 0,
-          explanation: "One kilo costs €2.50 and she takes two kilos: „Das macht dann fünf Euro.“",
+          explanation: "One kilo costs €2.50 and she takes two kilos: \"Das macht dann fünf Euro.\"",
         },
         {
           n: 2,
@@ -91,7 +91,7 @@ export const GOETHE_A1_HOEREN: ExamPaper = {
           answer: 1,
           source: 1,
           explanation:
-            "„Um Viertel nach acht“ is 8:15 pm, 20:15. They meet at eight, which is the trap. Viertel nach = quarter past, Viertel vor = quarter to.",
+            "\"Um Viertel nach acht\" is 8:15 pm, 20:15. They meet at eight, which is the trap. \"Viertel nach\" = quarter past, \"Viertel vor\" = quarter to.",
         },
         {
           n: 3,
@@ -100,7 +100,7 @@ export const GOETHE_A1_HOEREN: ExamPaper = {
           answer: 1,
           source: 2,
           explanation:
-            "„Im ersten Stock gleich rechts.“ Careful: German counts floors like British English, so der erste Stock is the floor above the ground floor (das Erdgeschoss).",
+            "\"Im ersten Stock gleich rechts.\" Careful: German counts floors like British English, so \"der erste Stock\" is the floor above the ground floor (\"das Erdgeschoss\").",
         },
         {
           n: 4,
@@ -108,7 +108,7 @@ export const GOETHE_A1_HOEREN: ExamPaper = {
           options: ["Heute.", "Morgen früh.", "Am Sonntag."],
           answer: 1,
           source: 3,
-          explanation: "„Nein, für morgen früh.“ Sunday is the day he comes back (die Rückfahrt).",
+          explanation: "\"Nein, für morgen früh.\" Sunday is the day he comes back (\"die Rückfahrt\").",
         },
         {
           n: 5,
@@ -116,7 +116,7 @@ export const GOETHE_A1_HOEREN: ExamPaper = {
           options: ["Kaffee.", "Wasser.", "Tee."],
           answer: 2,
           source: 4,
-          explanation: "He doesn't drink coffee in the evening and asks „Hast du einen Tee?“, then refuses the water: „Nur den Tee, bitte.“",
+          explanation: "He doesn't drink coffee in the evening and asks \"Hast du einen Tee?\", then refuses the water: \"Nur den Tee, bitte.\"",
         },
         {
           n: 6,
@@ -124,7 +124,7 @@ export const GOETHE_A1_HOEREN: ExamPaper = {
           options: ["Am Mittwoch um 10 Uhr.", "Am Donnerstag um 10 Uhr.", "Am Donnerstag um 12 Uhr."],
           answer: 1,
           source: 5,
-          explanation: "„Donnerstag um zehn Uhr, geht das?“ – „Ja, das geht.“ The dentist isn't there on Wednesday.",
+          explanation: "\"Donnerstag um zehn Uhr, geht das?\" – \"Ja, das geht.\" The dentist isn't there on Wednesday.",
         },
       ],
     },
@@ -183,7 +183,7 @@ export const GOETHE_A1_HOEREN: ExamPaper = {
           options: RF,
           answer: 0,
           source: 0,
-          explanation: "„Alle Schuhe … kosten nur die Hälfte“ – half price, so cheaper (billiger) today.",
+          explanation: "\"Alle Schuhe … kosten nur die Hälfte\" – half price, so cheaper (\"billiger\") today.",
         },
         {
           n: 8,
@@ -191,7 +191,7 @@ export const GOETHE_A1_HOEREN: ExamPaper = {
           options: RF,
           answer: 1,
           source: 1,
-          explanation: "The announcement is made at platform 4, but the train leaves „heute von Gleis sieben“.",
+          explanation: "The announcement is made at platform 4, but the train leaves \"heute von Gleis sieben\".",
         },
         {
           n: 9,
@@ -199,7 +199,7 @@ export const GOETHE_A1_HOEREN: ExamPaper = {
           options: RF,
           answer: 1,
           source: 2,
-          explanation: "„… hat dreißig Minuten Verspätung“: it's 30 minutes late. pünktlich = on time.",
+          explanation: "\"… hat dreißig Minuten Verspätung\": it's 30 minutes late. \"pünktlich\" = on time.",
         },
         {
           n: 10,
@@ -207,7 +207,7 @@ export const GOETHE_A1_HOEREN: ExamPaper = {
           options: RF,
           answer: 0,
           source: 3,
-          explanation: "„Das Schwimmbad schließt heute schon um neunzehn Uhr.“ Here schon means 'as early as': the pool closes earlier than it usually does.",
+          explanation: "\"Das Schwimmbad schließt heute schon um neunzehn Uhr.\" Here \"schon\" means 'as early as': the pool closes earlier than it usually does.",
         },
       ],
     },
@@ -271,7 +271,7 @@ export const GOETHE_A1_HOEREN: ExamPaper = {
           options: ["Lisa die Hausaufgaben schicken.", "Lisa zum Kurs bringen.", "Den Lehrer anrufen."],
           answer: 0,
           source: 0,
-          explanation: "„Kannst du mir bitte die Hausaufgaben schicken?“ Lisa is ill and can't come to class.",
+          explanation: "\"Kannst du mir bitte die Hausaufgaben schicken?\" Lisa is ill and can't come to class.",
         },
         {
           n: 12,
@@ -279,7 +279,7 @@ export const GOETHE_A1_HOEREN: ExamPaper = {
           options: ["Heute um 9 Uhr.", "Morgen ab 9 Uhr.", "Morgen ab 3 Uhr."],
           answer: 1,
           source: 1,
-          explanation: "„Sie können es morgen ab neun Uhr abholen.“ ab = from (a time) onwards.",
+          explanation: "\"Sie können es morgen ab neun Uhr abholen.\" \"ab\" = from (a time) onwards.",
         },
         {
           n: 13,
@@ -287,7 +287,7 @@ export const GOETHE_A1_HOEREN: ExamPaper = {
           options: ["Nach Hause.", "Zu Mia nach Hause.", "In die Bibliothek."],
           answer: 2,
           source: 2,
-          explanation: "„Ich gehe nach der Schule noch mit Mia in die Bibliothek.“ She goes home later, at about seven.",
+          explanation: "\"Ich gehe nach der Schule noch mit Mia in die Bibliothek.\" She goes home later, at about seven.",
         },
         {
           n: 14,
@@ -295,7 +295,7 @@ export const GOETHE_A1_HOEREN: ExamPaper = {
           options: ["Getränke.", "Einen Salat.", "Einen Kuchen."],
           answer: 1,
           source: 3,
-          explanation: "„Kannst du einen Salat mitbringen? Getränke und Kuchen habe ich schon.“",
+          explanation: "\"Kannst du einen Salat mitbringen? Getränke und Kuchen habe ich schon.\"",
         },
         {
           n: 15,
@@ -303,7 +303,7 @@ export const GOETHE_A1_HOEREN: ExamPaper = {
           options: ["Die Versichertenkarte.", "Das Rezept.", "Den Ausweis."],
           answer: 0,
           source: 4,
-          explanation: "„Bitte bringen Sie Ihre Versichertenkarte mit“: the health insurance card every patient in Germany shows at the doctor's.",
+          explanation: "\"Bitte bringen Sie Ihre Versichertenkarte mit\": the health insurance card every patient in Germany shows at the doctor's.",
         },
       ],
     },

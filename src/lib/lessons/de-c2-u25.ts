@@ -7,8 +7,8 @@ export const DE_C2_U25: Lesson[] = [
     slug: "c2-historical-narrative-6",
     level: "DE-C2",
     number: 1,
-    title: "Die Historische Erzählung, Part 6 of 10",
-    summary: "Causal connectors in history: infolge, aufgrund, angesichts, im Zuge, was zur Folge hatte, dass, sodass, wodurch, dies führte dazu, dass; and the difference between Ursache, Auslöser and Anlass.",
+    title: "Die historische Erzählung, Part 6 of 10",
+    summary: "Explain causes and consequences in a history text with \"infolge\", \"aufgrund\", \"angesichts\", \"im Zuge\", \"sodass\", \"wodurch\" and \"was zur Folge hatte, dass\", and tell \"Ursache\", \"Auslöser\" and \"Anlass\" apart.",
     duration: "20 min",
     sections: [
       {
@@ -54,7 +54,7 @@ export const DE_C2_U25: Lesson[] = [
         examples: [
           { es: "Infolge der Inflation verlor der Mittelstand seine Ersparnisse.", en: "As a result of inflation, the middle class lost its savings." },
           { es: "Aufgrund der hohen Reparationen geriet die Republik unter Druck.", en: "Because of the high reparations, the republic came under pressure." },
-          { es: "Angesichts der wachsenden Arbeitslosigkeit regierte Brüning mit Notverordnungen.", en: "Given the growing unemployment, the chancellor governed by emergency decrees." },
+          { es: "Angesichts der wachsenden Arbeitslosigkeit regierte Brüning mit Notverordnungen.", en: "Given the growing unemployment, Brüning governed by emergency decrees." },
           { es: "Im Zuge der Industrialisierung zogen Millionen in die Städte.", en: "In the course of industrialisation millions moved to the cities." },
           { es: "Wegen des Krieges fiel die Ernte aus.", en: "Because of the war the harvest failed." },
         ],
@@ -89,7 +89,7 @@ export const DE_C2_U25: Lesson[] = [
         body: [
           "For consequences in clauses: \"sodass\" (so that, with the result that): \"Die Preise stiegen täglich, sodass Löhne zweimal am Tag ausgezahlt wurden.\" \"Wodurch\" (whereby, as a result of which) refers back to the whole previous clause: \"Die Regierung druckte Geld, wodurch die Inflation weiter angeheizt wurde.\"",
           "\"Was zur Folge hatte, dass ...\" (which had the consequence that) and \"was dazu führte, dass ...\" (which led to) are relative constructions with \"was\" referring to the whole clause before: \"Die Reichsbank erhöhte die Geldmenge, was dazu führte, dass das Geld wertlos wurde.\" As main clauses: \"Dies führte dazu, dass ...\", \"Dies hatte zur Folge, dass ...\".",
-          "Trap: \"was\" (not \"das\") refers back to a whole clause. \"Die Preise stiegen, das zur Folge hatte ...\" is wrong.",
+          "Trap: \"was\" (not \"das\") refers back to a whole clause. \"*Die Preise stiegen, das zur Folge hatte ...*\" is wrong.",
         ],
         examples: [
           { es: "Die Preise stiegen täglich, sodass Löhne zweimal am Tag ausgezahlt wurden.", en: "Prices rose daily, so that wages were paid out twice a day." },
@@ -169,7 +169,7 @@ export const DE_C2_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "This led to many people losing their savings.",
         answer: "Dies führte dazu, dass viele Menschen ihre Ersparnisse verloren.",
-        altAnswers: ["Das führte dazu, dass viele Menschen ihre Ersparnisse verloren.", "Dies hatte zur Folge, dass viele Menschen ihre Ersparnisse verloren.", "Dies führte dazu, dass viele ihre Ersparnisse verloren."],
+        altAnswers: ["Das führte dazu, dass viele Menschen ihre Ersparnisse verloren.", "Dies hatte zur Folge, dass viele Menschen ihre Ersparnisse verloren.", "Dies führte dazu, dass viele ihre Ersparnisse verloren.", "Dies führte dazu, dass viele Leute ihre Ersparnisse verloren."],
         explanation: "\"Dazu führen, dass\": \"dazu\" anticipates the dass clause.",
       },
       {
@@ -410,8 +410,8 @@ export const DE_C2_U25: Lesson[] = [
     slug: "c2-historical-narrative-7",
     level: "DE-C2",
     number: 3,
-    title: "Die Historische Erzählung, Part 7 of 10",
-    summary: "The historian's caution: vermutlich, mutmaßlich, offenbar, es ist davon auszugehen, dass, die Quellenlage, umstritten, in der Forschung strittig; and counterfactual history with Konjunktiv II past.",
+    title: "Die historische Erzählung, Part 7 of 10",
+    summary: "Show how certain a historical claim is (\"vermutlich\", \"offenbar\", \"es ist davon auszugehen, dass\"), describe the sources and scholarly debate (\"die Quellenlage\", \"umstritten\"), and speculate about history with Konjunktiv II past.",
     duration: "20 min",
     sections: [
       {
@@ -475,7 +475,7 @@ export const DE_C2_U25: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[The sources] for this period are patchy.",
+            en: "The [state of the sources] for this period is patchy.",
             sentence: "Die ___ für diese Zeit ist lückenhaft.",
             answer: "Quellenlage",
             explanation: "\"Die Quellenlage\" (singular) describes the overall state of the evidence.",
@@ -553,7 +553,7 @@ export const DE_C2_U25: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which adverb expresses the highest certainty?",
+        question: "You are completely certain the treaty was a turning point. Which word completes \"Der Vertrag war ___ ein Wendepunkt.\"?",
         options: ["zweifellos", "vermutlich", "möglicherweise", "angeblich"],
         correctIndex: 0,
         explanation: "\"Zweifellos\" (undoubtedly); \"vermutlich\" (presumably), \"möglicherweise\" (possibly), \"angeblich\" (allegedly).",
@@ -613,7 +613,7 @@ export const DE_C2_U25: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Contrast Clinic: Die Perspektive des Historikers",
-    summary: "Separate what contemporaries could know from what we know in hindsight (aus damaliger Sicht vs aus heutiger Sicht), and avoid teleology and anachronism.",
+    summary: "Separate what contemporaries could know from what we know in hindsight (\"aus damaliger Sicht\" vs \"aus heutiger Sicht\"), and avoid teleology and anachronism.",
     duration: "20 min",
     sections: [
       {
@@ -706,7 +706,7 @@ export const DE_C2_U25: Lesson[] = [
           "An anachronism (\"der Anachronismus\", adjective \"anachronistisch\") projects today onto the past. Two kinds matter in essays. Conceptual anachronism: calling the peasants of 1525 democrats, or speaking of Germany as a state before 1871. Moral anachronism: judging people by standards they could not have known. Useful guards: \"im damaligen Verständnis\" (as understood at the time), \"im heutigen Sinne\" (in today's sense), \"nach damaligen Maßstäben\" (by the standards of the time), \"mit heutigen Maßstäben messen\" (to measure by today's standards).",
           "Before 1871 write \"die deutschen Staaten\", \"das Heilige Römische Reich\" (until 1806) or \"der Deutsche Bund\" (1815-1866) rather than \"Deutschland\" when you mean a state. Words also change meaning: \"Freiheit\" for the peasants of 1525 meant above all release from serfdom (\"die Leibeigenschaft\"), not civil liberties in the sense of 1848 or today.",
           "Avoiding moral anachronism does not mean having no judgement. The usual move is two steps: explain by the standards of the time, then judge explicitly from today. \"Nach damaligen Maßstäben war das üblich; aus heutiger Sicht ist es dennoch zu verurteilen.\" You will meet this as \"Sachurteil\" vs \"Werturteil\" in Part 10.",
-          "Grammar note: \"Man darf ... nicht\" means one must not; \"man muss ... nicht\" only means one doesn't have to. \"Man darf die Vergangenheit nicht mit heutigen Maßstäben messen\" is a warning; with \"muss\" it would be a mere permission to skip it.",
+          "Grammar note: \"Man darf ... nicht\" means one must not; \"man muss ... nicht\" only means one doesn't have to. \"Man darf die Vergangenheit nicht mit heutigen Maßstäben messen\" is a warning; with \"muss\" it would only say that one is not obliged to.",
         ],
         examples: [
           { es: "Die Bauern von 1525 kämpften nicht für Demokratie im heutigen Sinne.", en: "The peasants of 1525 did not fight for democracy in today's sense." },
@@ -787,7 +787,7 @@ export const DE_C2_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "Many soldiers expected to be home again by Christmas.",
         answer: "Viele Soldaten rechneten damit, bis Weihnachten wieder zu Hause zu sein.",
-        altAnswers: ["Viele Soldaten rechneten damit, bis Weihnachten wieder daheim zu sein.", "Viele Soldaten erwarteten, bis Weihnachten wieder zu Hause zu sein.", "Viele Soldaten glaubten, bis Weihnachten wieder zu Hause zu sein.", "Viele Soldaten rechneten damit, dass sie bis Weihnachten wieder zu Hause sein würden.", "Viele Soldaten gingen davon aus, bis Weihnachten wieder zu Hause zu sein."],
+        altAnswers: ["Viele Soldaten rechneten damit, bis Weihnachten wieder daheim zu sein.", "Viele Soldaten erwarteten, bis Weihnachten wieder zu Hause zu sein.", "Viele Soldaten glaubten, bis Weihnachten wieder zu Hause zu sein.", "Viele Soldaten rechneten damit, dass sie bis Weihnachten wieder zu Hause sein würden.", "Viele Soldaten gingen davon aus, bis Weihnachten wieder zu Hause zu sein.", "Viele Soldaten rechneten damit, bis Weihnachten wieder zuhause zu sein."],
         explanation: "\"Damit rechnen, ... zu\" (to expect): the contemporaries' view, which hindsight corrects.",
       },
       {
@@ -821,8 +821,8 @@ export const DE_C2_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "One must not measure the past by today's standards.",
         answer: "Man darf die Vergangenheit nicht mit heutigen Maßstäben messen.",
-        altAnswers: ["Man darf die Vergangenheit nicht an heutigen Maßstäben messen.", "Man darf die Vergangenheit nicht nach heutigen Maßstäben beurteilen.", "Man sollte die Vergangenheit nicht mit heutigen Maßstäben messen.", "Man sollte die Vergangenheit nicht an heutigen Maßstäben messen."],
-        explanation: "Must not is \"darf nicht\"; \"muss nicht\" would mean doesn't have to, a classic English-speaker trap.",
+        altAnswers: ["Man darf die Vergangenheit nicht an heutigen Maßstäben messen.", "Man darf die Vergangenheit nicht nach heutigen Maßstäben beurteilen.", "Man darf die Vergangenheit nicht nach heutigen Maßstäben messen."],
+        explanation: "Must not is \"darf nicht\"; \"muss nicht\" would mean doesn't have to, a classic English-speaker trap. \"Sollte nicht\" (should not) is weaker than must not.",
       },
       {
         type: "speak",
@@ -836,8 +836,8 @@ export const DE_C2_U25: Lesson[] = [
     slug: "c2-historical-narrative-8",
     level: "DE-C2",
     number: 5,
-    title: "Die Historische Erzählung, Part 8 of 10",
-    summary: "The periods and processes of German-speaking history, from the Reformation to reunification, with Habsburg Austria, the Swiss Confederation and the debate over Machtergreifung vs Machtübertragung.",
+    title: "Die historische Erzählung, Part 8 of 10",
+    summary: "Name and date the periods and processes of German-speaking history, from the Reformation to reunification, including Habsburg Austria, the Swiss Confederation and the debate over \"Machtergreifung\" vs \"Machtübertragung\".",
     duration: "20 min",
     sections: [
       {
@@ -851,7 +851,7 @@ export const DE_C2_U25: Lesson[] = [
           { es: "Mit Luthers Thesen begann 1517 die Reformation.", en: "With Luther's theses, the Reformation began in 1517." },
           { es: "Der Augsburger Religionsfrieden von 1555 überließ die Konfession dem Landesherrn.", en: "The Peace of Augsburg of 1555 left the choice of denomination to the territorial ruler." },
           { es: "Während des Dreißigjährigen Krieges verloren manche Regionen mehr als die Hälfte ihrer Bevölkerung.", en: "During the Thirty Years' War some regions lost more than half their population." },
-          { es: "Der Westfälische Frieden wurde 1648 in Münster und Osnabrück geschlossen.", en: "The Peace of Westphalia was concluded in 1648 in two Westphalian towns." },
+          { es: "Der Westfälische Frieden wurde 1648 in Münster und Osnabrück geschlossen.", en: "The Peace of Westphalia was concluded in 1648 in Münster and Osnabrück." },
           { es: "Bis 1806 bestand das Heilige Römische Reich aus Hunderten von Territorien.", en: "Until 1806 the Holy Roman Empire consisted of hundreds of territories." },
           { es: "Im Zeitalter der Aufklärung forderte Kant den Mut, sich seines eigenen Verstandes zu bedienen.", en: "In the Age of Enlightenment Kant called for the courage to use one's own understanding." },
         ],
@@ -921,7 +921,7 @@ export const DE_C2_U25: Lesson[] = [
         body: [
           "After 1945: \"die Besatzungszonen\" (occupation zones), then in 1949 two states, \"die Bundesrepublik Deutschland\" (Basic Law of 23 May) and \"die Deutsche Demokratische Republik\" (7 October). \"Die Teilung\" (division) is cemented by \"der Mauerbau\" (the building of the Wall) on 13 August 1961.",
           "1989/90: \"die friedliche Revolution\" in the GDR, \"der Mauerfall\" on 9 November 1989 and \"die Wiedervereinigung\" on 3 October 1990, legally \"der Beitritt der DDR zur Bundesrepublik\" (accession under Article 23 of the Basic Law). Some prefer \"die Deutsche Einheit\" (also the name of the national holiday, \"Tag der Deutschen Einheit\"), because \"Wiedervereinigung\" suggests restoring a state that never existed in these borders.",
-          "Dates and periods: \"in der Nachkriegszeit\", \"zur Zeit der Teilung\", \"seit der Wiedervereinigung\", \"nach dem Mauerfall\". Years stand alone or with \"im Jahr\": \"1961 wurde die Mauer gebaut\" or \"im Jahr 1961\", never \"in 1961\", an anglicism that is spreading but still marked as wrong in careful writing.",
+          "Dates and periods: \"in der Nachkriegszeit\", \"zur Zeit der Teilung\", \"seit der Wiedervereinigung\", \"nach dem Mauerfall\". Years stand alone or with \"im Jahr\": \"1961 wurde die Mauer gebaut\" or \"im Jahr 1961\"; avoid \"in 1961\", an anglicism that is spreading but still marked as wrong in careful writing.",
         ],
         examples: [
           { es: "1949 wurden zwei deutsche Staaten gegründet.", en: "In 1949 two German states were founded." },
@@ -938,7 +938,7 @@ export const DE_C2_U25: Lesson[] = [
             source: "In 1961 the Wall was built.",
             answer: "1961 wurde die Mauer gebaut.",
             altAnswers: ["Im Jahr 1961 wurde die Mauer gebaut.", "Im Jahre 1961 wurde die Mauer gebaut.", "Die Mauer wurde 1961 gebaut.", "1961 wurde die Mauer errichtet.", "Die Mauer wurde 1961 errichtet.", "Im Jahr 1961 wurde die Mauer errichtet."],
-            explanation: "A year on its own needs no preposition: \"1961 wurde ...\" or \"im Jahr 1961\", never \"in 1961\".",
+            explanation: "A year on its own needs no preposition: \"1961 wurde ...\" or \"im Jahr 1961\", not the anglicism \"in 1961\".",
           },
           {
             type: "multiple-choice",
@@ -1086,8 +1086,8 @@ export const DE_C2_U25: Lesson[] = [
     slug: "c2-historiography-text-detective",
     level: "DE-C2",
     number: 6,
-    title: "Text Detective: Einen Historikertext Analysieren",
-    summary: "Analyse a passage of academic German history writing on the end of the Weimar Republic: find its thesis, its evidence, its hedges and its stance, with the Historikerstreit of 1986/87 as context.",
+    title: "Text Detective: Einen Historikertext analysieren",
+    summary: "Analyse a passage of academic German history writing on the end of the Weimar Republic: find its thesis, its evidence, its hedges and its stance, with the \"Historikerstreit\" of 1986/87 as context.",
     duration: "20 min",
     sections: [
       {
@@ -1141,7 +1141,7 @@ export const DE_C2_U25: Lesson[] = [
         ],
         examples: [
           { es: "Dafür spricht zunächst, dass sich die Republik rasch stabilisierte.", en: "What speaks for this, first, is that the republic stabilised quickly." },
-          { es: "1928 erhielt die NSDAP lediglich 2,6 Prozent der Stimmen.", en: "In 1928 the Nazi party received a mere 2.6 percent of the votes." },
+          { es: "1928 erhielt die NSDAP lediglich 2,6 Prozent der Stimmen.", en: "In 1928 the Nazi party received a mere 2.6 per cent of the votes." },
           { es: "Die Wahlergebnisse deuten darauf hin, dass die Parteien über Rückhalt verfügten.", en: "The election results suggest that the parties had support." },
           { es: "Erst infolge der Weltwirtschaftskrise gewannen die Radikalen an Zulauf.", en: "Only as a result of the Depression did the radicals gain support." },
           { es: "Freilich ist die Quellenlage naturgemäß lückenhaft.", en: "Admittedly, the sources are by their nature patchy." },
@@ -1236,7 +1236,7 @@ export const DE_C2_U25: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "In 1928 the NSDAP received only 2.6 percent of the votes.",
+        source: "In 1928 the NSDAP received only 2.6 per cent of the votes.",
         answer: "1928 erhielt die NSDAP lediglich 2,6 Prozent der Stimmen.",
         altAnswers: ["1928 erhielt die NSDAP nur 2,6 Prozent der Stimmen.", "Im Jahr 1928 erhielt die NSDAP lediglich 2,6 Prozent der Stimmen.", "Im Jahr 1928 erhielt die NSDAP nur 2,6 Prozent der Stimmen.", "Die NSDAP erhielt 1928 lediglich 2,6 Prozent der Stimmen.", "Die NSDAP erhielt 1928 nur 2,6 Prozent der Stimmen.", "1928 bekam die NSDAP nur 2,6 Prozent der Stimmen."],
         explanation: "German uses a decimal comma: \"2,6 Prozent\". \"Lediglich\" is the written synonym of \"nur\".",
@@ -1306,8 +1306,8 @@ export const DE_C2_U25: Lesson[] = [
     slug: "c2-historical-narrative-9",
     level: "DE-C2",
     number: 7,
-    title: "Die Historische Erzählung, Part 9 of 10",
-    summary: "Memory culture: Vergangenheitsbewältigung vs Aufarbeitung, Erinnerungskultur, Gedenkstätte, Mahnmal vs Denkmal, Stolpersteine, Zeitzeugen, and sensitive terminology (Holocaust / Shoah, Reichspogromnacht vs Kristallnacht).",
+    title: "Die historische Erzählung, Part 9 of 10",
+    summary: "Write about German memory culture (\"Aufarbeitung\", \"Erinnerungskultur\", \"Gedenkstätte\", \"Mahnmal\" vs \"Denkmal\", \"Stolpersteine\") and choose sensitive terms with care (\"Shoah\", \"Reichspogromnacht\" rather than \"Kristallnacht\").",
     duration: "20 min",
     sections: [
       {
@@ -1408,7 +1408,7 @@ export const DE_C2_U25: Lesson[] = [
           { es: "Statt von Kristallnacht spricht man heute von den Novemberpogromen.", en: "Instead of Kristallnacht, people today speak of the November pogroms." },
           { es: "Die sogenannte Endlösung bezeichnete den Völkermord an den europäischen Juden.", en: "The so-called Final Solution denoted the genocide of the European Jews." },
           { es: "Viele bevorzugen den Begriff Shoah.", en: "Many prefer the term Shoah." },
-          { es: "Weizsäcker nannte den 8. Mai einen Tag der Befreiung.", en: "The Federal President called 8 May a day of liberation." },
+          { es: "Weizsäcker nannte den 8. Mai einen Tag der Befreiung.", en: "Weizsäcker called 8 May a day of liberation." },
         ],
         checkpoint: [
           {
@@ -1504,6 +1504,7 @@ export const DE_C2_U25: Lesson[] = [
         prompt: "Put the words in order to say: In the 1950s many people kept silent about the Nazi era.",
         words: ["In den 1950er-Jahren", "schwiegen", "viele", "über", "die NS-Zeit."],
         translation: "In the 1950s many people kept silent about the Nazi era.",
+        altOrders: [["Viele", "schwiegen", "in den 1950er-Jahren", "über", "die NS-Zeit."]],
         explanation: "Time phrase first, verb second; \"schweigen über\" (to keep silent about), Präteritum \"schwiegen\".",
       },
       {
@@ -1528,7 +1529,7 @@ export const DE_C2_U25: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Word Web: Der Wortschatz der Geschichte",
-    summary: "The key nouns of historical change and rule: Umbruch, Wende, Zäsur, Zeitenwende, Aufstand, Revolte, Putsch, Restauration, Epoche, Zeitalter, Herrschaft and Untertan.",
+    summary: "Describe turning points, revolts and forms of rule precisely, choosing between \"Umbruch\", \"Zäsur\", \"Wende\" and \"Zeitenwende\", \"Aufstand\", \"Revolte\" and \"Putsch\", and \"Herrschaft\", \"Obrigkeit\" and \"Untertan\".",
     duration: "15 min",
     sections: [
       {
@@ -1536,7 +1537,7 @@ export const DE_C2_U25: Lesson[] = [
         body: [
           "\"Der Umbruch\" is a radical upheaval or transformation, often lasting years: \"eine Zeit des Umbruchs\", \"die Umbruchszeit nach 1989\". \"Die Zäsur\" (caesura) is a sharp break that divides history into before and after: \"1945 war eine tiefe Zäsur\". \"Der Wendepunkt\" is the turning point within a process: \"Stalingrad gilt als Wendepunkt des Krieges\".",
           "\"Die Wende\" with the definite article means the events of 1989/90 in the GDR. The term is debated: Egon Krenz used it in his first speech as SED leader in October 1989 for a change of course within the party, so many former dissidents prefer \"die friedliche Revolution\". Use \"die Wende\" for the period (\"nach der Wende\") and \"die friedliche Revolution\" for what the citizens did. In West German politics \"die Wende\" of 1982 also refers to Kohl's change of government.",
-          "\"Die Zeitenwende\" (turn of an era) was used by Chancellor Olaf Scholz in his speech of 27 February 2022 after Russia's invasion of Ukraine, and was chosen \"Wort des Jahres\" 2022. Historically it also means the beginning of the Christian era: \"um die Zeitenwende\" (around the year 0).",
+          "\"Die Zeitenwende\" (turn of an era) was used by Chancellor Olaf Scholz in his speech of 27 February 2022 after Russia's invasion of Ukraine, and was chosen \"Wort des Jahres\" 2022. Historically it also means the beginning of the Christian era: \"um die Zeitenwende\" (around the beginning of the Common Era).",
         ],
         examples: [
           { es: "Nach der Wende verloren viele Ostdeutsche ihren Arbeitsplatz.", en: "After the Wende many East Germans lost their jobs." },
@@ -1711,7 +1712,7 @@ export const DE_C2_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "After 1815 the forces of restoration tried to re-establish the old order.",
         answer: "Nach 1815 versuchten die restaurativen Kräfte, die alte Ordnung wiederherzustellen.",
-        altAnswers: ["Nach 1815 versuchten die restaurativen Kräfte, die alte Ordnung wieder herzustellen.", "Nach 1815 versuchten die Kräfte der Restauration, die alte Ordnung wiederherzustellen.", "Nach 1815 versuchten die konservativen Kräfte, die alte Ordnung wiederherzustellen."],
+        altAnswers: ["Nach 1815 versuchten die Kräfte der Restauration, die alte Ordnung wiederherzustellen.", "Nach 1815 versuchten die konservativen Kräfte, die alte Ordnung wiederherzustellen."],
         explanation: "\"Wiederherstellen\" is written as one word; \"zu\" goes inside: \"wiederherzustellen\".",
       },
       {
@@ -1751,8 +1752,8 @@ export const DE_C2_U25: Lesson[] = [
     slug: "c2-historical-narrative-10",
     level: "DE-C2",
     number: 9,
-    title: "Die Historische Erzählung, Part 10 of 10",
-    summary: "Writing a historical essay: the Fragestellung, Quelle vs Darstellung and source criticism, Sachurteil vs Werturteil, and nominal style and genitive chains in moderation.",
+    title: "Die historische Erzählung, Part 10 of 10",
+    summary: "Plan and write a German history essay: frame a \"Fragestellung\", tell \"Quelle\" from \"Darstellung\" and criticise sources, separate \"Sachurteil\" from \"Werturteil\", and use nominal style in moderation.",
     duration: "20 min",
     sections: [
       {
@@ -1928,7 +1929,7 @@ export const DE_C2_U25: Lesson[] = [
         prompt: "Translate into German.",
         source: "The letter is a primary source, the textbook a secondary account.",
         answer: "Der Brief ist eine Quelle, das Schulbuch eine Darstellung.",
-        altAnswers: ["Der Brief ist eine Quelle, das Schulbuch ist eine Darstellung.", "Der Brief ist eine Quelle und das Schulbuch eine Darstellung.", "Der Brief ist eine Primärquelle, das Schulbuch eine Darstellung.", "Der Brief ist eine Primärquelle, das Schulbuch eine Sekundärquelle."],
+        altAnswers: ["Der Brief ist eine Quelle, das Schulbuch ist eine Darstellung.", "Der Brief ist eine Quelle und das Schulbuch eine Darstellung.", "Der Brief ist eine Primärquelle, das Schulbuch eine Darstellung."],
         explanation: "\"Quelle\" vs \"Darstellung\": the verb \"ist\" can be left out in the second half (gapping).",
       },
       {
@@ -1995,7 +1996,7 @@ export const DE_C2_U25: Lesson[] = [
     slug: "c2-history-spiral-review",
     level: "DE-C2",
     number: 10,
-    title: "Spiral Review: Geschichte Erzählen mit der Ganzen Grammatik",
+    title: "Spiral Review: Geschichte erzählen mit der ganzen Grammatik",
     summary: "Recombine narrative tenses, causal connectors, hedging, citation and Konjunktiv II in a 300-word historical text on the building of the Berlin Wall in 1961.",
     duration: "20 min",
     sections: [
@@ -2010,7 +2011,7 @@ export const DE_C2_U25: Lesson[] = [
           { es: "Seit 1949 hatten rund 2,7 Millionen Menschen die DDR verlassen.", en: "Since 1949 around 2.7 million people had left the GDR." },
           { es: "Da vor allem junge und gut ausgebildete Menschen gingen, geriet die Wirtschaft unter Druck.", en: "Since it was mainly young and well-trained people who left, the economy came under pressure." },
           { es: "Angesichts der Massenflucht beschloss die SED-Führung, die Grenze abzuriegeln.", en: "Given the mass exodus, the SED leadership decided to seal off the border." },
-          { es: "In der Nacht zum 13. August 1961 riegelten Polizei und Kampfgruppen die Sektorengrenze ab.", en: "In the night of 12 to 13 August 1961, police and paramilitary units sealed off the sector border." },
+          { es: "In der Nacht zum 13. August 1961 riegelten Polizei und Kampfgruppen die Sektorengrenze ab.", en: "On the night of 12 to 13 August 1961, police and paramilitary units sealed off the sector border." },
           { es: "Familien und Freunde wurden über Nacht getrennt, was zu dramatischen Fluchtversuchen führte.", en: "Families and friends were separated overnight, which led to dramatic escape attempts." },
           { es: "Die Mauer sollte 28 Jahre lang stehen.", en: "The Wall was to stand for 28 years." },
         ],
@@ -2021,7 +2022,7 @@ export const DE_C2_U25: Lesson[] = [
             prompt: "Translate into German.",
             source: "Since 1949 around 2.7 million people had left the GDR.",
             answer: "Seit 1949 hatten rund 2,7 Millionen Menschen die DDR verlassen.",
-            altAnswers: ["Seit 1949 hatten etwa 2,7 Millionen Menschen die DDR verlassen.", "Seit 1949 hatten ungefähr 2,7 Millionen Menschen die DDR verlassen.", "Seit 1949 hatten circa 2,7 Millionen Menschen die DDR verlassen.", "Seit 1949 hatten rund 2,7 Millionen Menschen die DDR verlassen gehabt."],
+            altAnswers: ["Seit 1949 hatten etwa 2,7 Millionen Menschen die DDR verlassen.", "Seit 1949 hatten ungefähr 2,7 Millionen Menschen die DDR verlassen.", "Seit 1949 hatten circa 2,7 Millionen Menschen die DDR verlassen."],
             explanation: "Plusquamperfekt for the background before 1961; decimal comma in \"2,7 Millionen\".",
           },
           {
@@ -2130,7 +2131,7 @@ export const DE_C2_U25: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "In the night of 12 to 13 August the border was sealed off.",
+        source: "On the night of 12 to 13 August the border was sealed off.",
         answer: "In der Nacht zum 13. August wurde die Grenze abgeriegelt.",
         altAnswers: ["In der Nacht vom 12. auf den 13. August wurde die Grenze abgeriegelt.", "In der Nacht vom 12. zum 13. August wurde die Grenze abgeriegelt.", "In der Nacht zum 13. August wurde die Grenze geschlossen.", "In der Nacht vom 12. auf den 13. August wurde die Grenze geschlossen."],
         explanation: "\"In der Nacht zum 13. August\" is the German way to name a night; passive \"wurde abgeriegelt\".",
@@ -2231,7 +2232,7 @@ export const DE_C2_U25: Lesson[] = [
     level: "DE-C2",
     number: 11,
     title: "Mastery Vocabulary: Nuanced Emotions",
-    summary: "The emotions German names in one word: Wehmut, Sehnsucht, Fernweh, Weltschmerz, Torschlusspanik, Fremdscham, Schadenfreude, Genugtuung, Beklommenheit and Verbitterung.",
+    summary: "Name subtle feelings that German packs into one word, such as \"Wehmut\", \"Sehnsucht\", \"Fernweh\", \"Fremdscham\", \"Genugtuung\", \"Torschlusspanik\" and \"Beklommenheit\", and use them in context.",
     duration: "15 min",
     sections: [
       {
@@ -2463,7 +2464,7 @@ export const DE_C2_U25: Lesson[] = [
     level: "DE-C2",
     number: 12,
     title: "Vocabulary in Context: Prefixes That Multiply Your Vocabulary",
-    summary: "Read and use prefixed verbs: the meanings of ver-, zer-, ent-, er- and miss-, the separable vs inseparable pairs with über-, unter-, um- and durch- (übersetzen / übersetzen, umfahren / umfahren), and one root with ten verbs.",
+    summary: "Work out and use prefixed verbs: the meanings of \"ver-\", \"zer-\", \"ent-\", \"er-\" and \"miss-\", the separable vs inseparable pairs with \"über-\", \"unter-\", \"um-\" and \"durch-\" (\"übersetzen\", \"umfahren\"), and one root with ten verbs.",
     duration: "20 min",
     sections: [
       {

@@ -191,7 +191,7 @@ export const GOETHE_B1_HOEREN: ExamPaper = {
           question: "Frau Ostermann ist …",
           options: ["Tierärztin.", "Tierpflegerin.", "Leiterin des Zoos."],
           answer: 1,
-          explanation: "„Ich bin seit fünfzehn Jahren Tierpflegerin hier im Zoo.“ Die Tierärztin ist eine andere Person, die die Gruppe am Ende trifft.",
+          explanation: "„Ich bin seit fünfzehn Jahren Tierpflegerin hier im Zoo.“ Die Tierärztin ist eine andere Person, die die Gruppe am Ende vielleicht bei der Arbeit sieht.",
         },
         {
           n: 12,
@@ -324,7 +324,7 @@ export const GOETHE_B1_HOEREN: ExamPaper = {
       instructions:
         "Sie hören eine Diskussion. Sie hören die Diskussion zweimal. Dazu lösen Sie acht Aufgaben. Ordnen Sie die Aussagen zu: Wer sagt was? Lesen Sie jetzt die Aussagen 23 bis 30.",
       instructionsEn:
-        "The radio programme „Thema am Abend“ discusses the four-day week. The presenter talks with Dr Lorenz, a work psychologist, and Mr Wagner, who runs a joinery. You hear it twice. Who says what? Choose A, B or C for statements 23-30. The presenter and Dr Lorenz are read by the same female voice here, so listen for who is being addressed and who answers.",
+        "The radio programme \"Thema am Abend\" discusses the four-day week. The presenter talks with Dr Lorenz, a work psychologist, and Mr Wagner, who runs a joinery. You hear it twice. Who says what? Choose A, B or C for statements 23-30. The presenter and Dr Lorenz are read by the same female voice here, so listen for who is being addressed and who answers.",
       audio: [
         {
           label: "Radiodiskussion: Die Vier-Tage-Woche",
@@ -337,14 +337,14 @@ export const GOETHE_B1_HOEREN: ExamPaper = {
               voice: "f",
               text: "Weil viele Menschen erschöpft sind. In unseren Studien sehen wir, dass sich immer mehr Beschäftigte gestresst fühlen. Ein zusätzlicher freier Tag gibt ihnen Zeit für die Familie, für Sport oder einfach zum Ausruhen. Und wer ausgeruht ist, macht weniger Fehler.",
             },
-            { voice: "f", text: "Herr Wagner, Sie schütteln den Kopf." },
+            { voice: "f", text: "Danke, Frau Lorenz. Herr Wagner, Sie schütteln den Kopf." },
             {
               voice: "m",
               text: "Na ja, für ein Büro mag das funktionieren. Aber in einem Handwerksbetrieb sieht es anders aus. Meine Kunden wollen, dass ihre Küche pünktlich fertig wird. Wenn meine Leute einen Tag weniger arbeiten, brauche ich mehr Personal. Und gute Schreiner zu finden, ist heute schon fast unmöglich.",
             },
             {
               voice: "f",
-              text: "Aber genau da kann die Vier-Tage-Woche helfen, Herr Wagner. Junge Leute entscheiden sich heute oft für den Arbeitgeber, der ihnen mehr Freizeit bietet. Das ist ein echter Vorteil, wenn man Fachkräfte sucht.",
+              text: "Herr Wagner, als Psychologin sehe ich das anders: Genau da kann die Vier-Tage-Woche helfen. Junge Leute entscheiden sich heute oft für den Arbeitgeber, der ihnen mehr Freizeit bietet. Das ist ein echter Vorteil, wenn man Fachkräfte sucht.",
             },
             {
               voice: "f",
@@ -358,14 +358,14 @@ export const GOETHE_B1_HOEREN: ExamPaper = {
               voice: "m",
               text: "Also, ich habe ehrlich gesagt keine Lust, meine ganze Werkstatt umzuorganisieren. Was ich mir aber vorstellen kann: dass jeder Mitarbeiter selbst wählt, ob er vier oder fünf Tage arbeitet – dann natürlich mit entsprechend weniger Lohn.",
             },
-            { voice: "f", text: "Das wäre also ein Kompromiss. Zum Schluss: Wo sehen Sie die Arbeitswelt in zehn Jahren? Herr Wagner?" },
+            { voice: "f", text: "Danke, Herr Wagner, das wäre also ein Kompromiss. Zum Schluss: Wo sehen Sie die Arbeitswelt in zehn Jahren? Herr Wagner?" },
             { voice: "m", text: "Ich glaube, die Fünf-Tage-Woche wird es im Handwerk weiterhin geben. Aber flexibler wird es sicher werden." },
             { voice: "f", text: "Und Sie, Frau Lorenz?" },
             {
               voice: "f",
               text: "Ich bin überzeugt, dass in zehn Jahren viele Firmen die Vier-Tage-Woche haben werden. Wer das nicht anbietet, wird es schwer haben, gute Leute zu finden.",
             },
-            { voice: "f", text: "Vielen Dank Ihnen beiden für das Gespräch." },
+            { voice: "f", text: "Frau Lorenz, Herr Wagner, vielen Dank Ihnen beiden für das Gespräch." },
           ],
         },
       ],
@@ -397,7 +397,7 @@ export const GOETHE_B1_HOEREN: ExamPaper = {
           question: "Ich habe selbst Erfahrung mit einer kürzeren Arbeitszeit.",
           options: WER,
           answer: 0,
-          explanation: "Die Moderatorin (A): „Ich habe selbst lange in Teilzeit gearbeitet.“ Auch Moderatoren sagen manchmal ihre eigene Meinung.",
+          explanation: "Die Moderatorin (A): „Ich habe selbst lange in Teilzeit gearbeitet.“ Auch Moderatoren äußern manchmal ihre eigene Meinung.",
         },
         {
           n: 27,
@@ -418,7 +418,7 @@ export const GOETHE_B1_HOEREN: ExamPaper = {
           question: "Vielleicht muss man dann in weniger Zeit genauso viel arbeiten.",
           options: WER,
           answer: 0,
-          explanation: "Die Moderatorin (A) fragt, ob der Stress dann nur in vier Tage gepackt wird: „in weniger Zeit genauso viel schaffen“.",
+          explanation: "Die Moderatorin (A) fragt, ob der Stress dann nicht einfach auf vier Tage verteilt würde: „in weniger Zeit genauso viel schaffen“.",
         },
         {
           n: 30,

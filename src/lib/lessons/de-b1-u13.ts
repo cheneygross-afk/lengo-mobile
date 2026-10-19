@@ -8,13 +8,13 @@ export const DE_B1_U13: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Spiral Review: Konjunktiv II, Conditions and Purpose",
-    summary: "Mixed everyday situations that bring back würde, wäre, hätte, könnte, wenn and falls, um...zu and damit.",
+    summary: "Handle everyday situations that bring back \"würde\", \"wäre\", \"hätte\", \"könnte\", \"wenn\" and \"falls\", \"um ... zu\" and \"damit\".",
     duration: "15 min",
     sections: [
       {
         heading: "Konjunktiv II: würde, wäre, hätte, könnte",
         body: [
-          "The Konjunktiv II imagines, wishes and softens. Most verbs use \"würde\" + infinitive (\"Ich würde gern reisen\"), but \"sein\", \"haben\" and the modals have their own one-word forms that sound far more natural: \"wäre\", \"hätte\", \"könnte\", \"müsste\", \"dürfte\", \"sollte\". *Ich würde reich sein* is understood, but \"Ich wäre reich\" is what Germans say.",
+          "The Konjunktiv II imagines, wishes and softens. Most verbs use \"würde\" + infinitive (\"Ich würde gern reisen\"), but \"sein\", \"haben\" and the modals have their own one-word forms that sound far more natural: \"wäre\", \"hätte\", \"könnte\", \"müsste\", \"dürfte\", \"sollte\". \"*Ich würde reich sein*\" is understood, but \"Ich wäre reich\" is what Germans say.",
           "It's everywhere in polite requests (\"Könnten Sie mir helfen?\", \"Ich hätte gern einen Tee\") and in advice (\"Du solltest...\", \"An deiner Stelle würde ich...\").",
         ],
         examples: [
@@ -235,7 +235,7 @@ export const DE_B1_U13: Lesson[] = [
             type: "speak",
             text: "Wenn ich mehr Zeit hätte, würde ich mehr lesen.",
             prompt: "Say it in German: If I had more time, I'd read more.",
-            tip: "Hätte: the ä sounds like the e in bed, quite different from the a in hatte.",
+            tip: "\"Hätte\": the ä sounds like the e in bed, quite different from the a in \"hatte\".",
             explanation: "Unreal present: \"hätte\" + \"würde\".",
           },
         ],
@@ -303,7 +303,7 @@ export const DE_B1_U13: Lesson[] = [
             sentence: "Ich koche sonntags vor, ___ ich abends mehr Zeit habe.",
             answer: "damit",
             altAnswers: ["sodass"],
-            explanation: "A goal with a full clause: \"damit ich ... habe\".",
+            explanation: "A goal with a full clause: \"damit ich ... habe\". (\"Sodass\" also works if you present it as a result rather than a goal.)",
           },
         ],
       },
@@ -364,7 +364,7 @@ export const DE_B1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend asks: Was würdest du machen, wenn du ein Jahr frei hättest? Which reply fits?",
+        question: "Your friend asks: \"Was würdest du machen, wenn du ein Jahr frei hättest?\" Which reply fits?",
         options: ["Ich würde um die Welt reisen.", "Ich reiste um die Welt.", "Ich bin um die Welt gereist.", "Ich würde um die Welt gereist."],
         correctIndex: 0,
         explanation: "An imagined answer needs \"würde\" + infinitive.",
@@ -402,7 +402,7 @@ export const DE_B1_U13: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Talk About You: Your Wishes for This Year",
-    summary: "Put wishes, hopes and resolutions side by side: Ich wünschte, ...; Ich hoffe, ...; Ich habe vor, ... zu ...",
+    summary: "Talk about your wishes, hopes and resolutions side by side: \"Ich wünschte, ...\", \"Ich hoffe, ...\", \"Ich habe vor, ... zu ...\".",
     duration: "12 min",
     sections: [
       {
@@ -441,7 +441,7 @@ export const DE_B1_U13: Lesson[] = [
       {
         heading: "Real hopes: Ich hoffe...",
         body: [
-          "\"Hoffen\" is for things that might really happen, so it takes the indicative: \"Ich hoffe, dass ich die Prüfung bestehe\" or, with the same subject, \"Ich hoffe, die Prüfung zu bestehen\". Never *Ich hoffe, dass ich die Prüfung bestehen würde*.",
+          "\"Hoffen\" is for things that might really happen, so it takes the indicative: \"Ich hoffe, dass ich die Prüfung bestehe\" or, with the same subject, \"Ich hoffe, die Prüfung zu bestehen\". Never \"*Ich hoffe, dass ich die Prüfung bestehen würde*\".",
           "This is the crucial contrast: \"Ich hoffe, ich habe Glück\" (realistic) vs \"Ich wünschte, ich hätte Glück\" (I don't). Also useful: \"Ich wünsche mir ...\" + noun (I'd like, I want) for concrete wishes: \"Ich wünsche mir ein ruhiges Jahr\".",
         ],
         examples: [
@@ -635,7 +635,7 @@ export const DE_B1_U13: Lesson[] = [
         heading: "Step 2: the same chain, unreal",
         body: [
           "Now imagine the opposite: what if Mia got up early? The facts are contrary to reality, so everything moves into the Konjunktiv II: \"Wenn Mia früher aufstehen würde, würde sie den Bus nicht verpassen. Wenn sie den Bus nicht verpassen würde, käme sie pünktlich. Wenn sie pünktlich wäre, wäre ihr Chef nicht sauer.\"",
-          "Use one-word forms where they exist (\"wäre\", \"hätte\", \"käme\", modals) to avoid a pile-up of \"würde\". \"Wenn sie pünktlich käme\" sounds better than *wenn sie pünktlich kommen würde, würde ...* repeated over and over.",
+          "Use one-word forms where they exist (\"wäre\", \"hätte\", \"käme\", modals) to avoid a pile-up of \"würde\". \"Wenn sie pünktlich käme\" sounds better than \"*wenn sie pünktlich kommen würde, würde ...*\" repeated over and over.",
         ],
         examples: [
           { es: "Wenn Mia früher aufstehen würde, würde sie den Bus nicht verpassen.", en: "If Mia got up earlier, she wouldn't miss the bus." },
@@ -758,7 +758,7 @@ export const DE_B1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is the unreal version of: Wenn ich Zeit habe, helfe ich dir?",
+        question: "Which sentence is the unreal version of \"Wenn ich Zeit habe, helfe ich dir\"?",
         options: ["Wenn ich Zeit hätte, würde ich dir helfen.", "Wenn ich Zeit hatte, half ich dir.", "Wenn ich Zeit habe, würde ich dir helfen.", "Wenn ich Zeit hätte, helfe ich dir."],
         correctIndex: 0,
         explanation: "Both halves move into the Konjunktiv II.",
@@ -788,7 +788,7 @@ export const DE_B1_U13: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Minimal Pairs: Hatte / Hätte, War / Wäre in Context",
-    summary: "Listen to longer sentences and decide whether they are about the past or the imagined present: hatte or hätte, war or wäre, konnte or könnte.",
+    summary: "Hear and say whether a sentence is about the past or the imagined present: \"hatte\" or \"hätte\", \"war\" or \"wäre\", \"konnte\" or \"könnte\".",
     duration: "12 min",
     sections: [
       {
@@ -886,7 +886,7 @@ export const DE_B1_U13: Lesson[] = [
             prompt: "Translate into German.",
             source: "I could help you tomorrow. (to a friend)",
             answer: "Ich könnte dir morgen helfen.",
-            altAnswers: ["Morgen könnte ich dir helfen.", "Ich könnte euch morgen helfen.", "Ich könnte Ihnen morgen helfen."],
+            altAnswers: ["Morgen könnte ich dir helfen."],
             explanation: "A possibility: \"könnte\" with ö.",
           },
         ],
@@ -942,7 +942,7 @@ export const DE_B1_U13: Lesson[] = [
         prompt: "Translate into German.",
         source: "You ought to call your mother. (to a friend)",
         answer: "Du müsstest deine Mutter anrufen.",
-        altAnswers: ["Du solltest deine Mutter anrufen.", "Ihr solltet eure Mutter anrufen.", "Sie sollten Ihre Mutter anrufen.", "Du müsstest mal deine Mutter anrufen."],
+        altAnswers: ["Du solltest deine Mutter anrufen.", "Du müsstest mal deine Mutter anrufen."],
         explanation: "\"Müsstest\" or \"solltest\": Konjunktiv II advice.",
       },
       {
@@ -985,7 +985,7 @@ export const DE_B1_U13: Lesson[] = [
         type: "speak",
         text: "Das war toll, aber das wäre noch besser.",
         prompt: "Say it in German: That was great, but that would be even better.",
-        tip: "war is one short syllable; wäre has two: WÄ-re.",
+        tip: "\"War\" is one short syllable; \"wäre\" has two: WÄ-re.",
         explanation: "\"War\" for the past, \"wäre\" for the imagined.",
       },
     ],
@@ -1048,7 +1048,7 @@ export const DE_B1_U13: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "When we arrived, the film [had] already [started].",
+            en: "When we arrived, the film [had] already started.",
             sentence: "Als wir ankamen, ___ der Film schon angefangen.",
             answer: "hatte",
             explanation: "\"Anfangen\" takes \"haben\": \"hatte ... angefangen\".",
@@ -1067,7 +1067,7 @@ export const DE_B1_U13: Lesson[] = [
         heading: "Mixed round",
         body: [
           "Now all together: Perfekt, Plusquamperfekt, relative clauses, time clauses. For each blank decide the participle form, and look at the auxiliary to check you've chosen the right verb type.",
-          "Common traps: *gedenkt* (correct: \"gedacht\"), *gebringt* (\"gebracht\"), *gegeht* (\"gegangen\"), *getelefoniert* (\"telefoniert\"), *geverstanden* (\"verstanden\").",
+          "Common traps: \"*gedenkt*\" (correct: \"gedacht\"), \"*gebringt*\" (\"gebracht\"), \"*gegeht*\" (\"gegangen\"), \"*getelefoniert*\" (\"telefoniert\"), \"*geverstanden*\" (\"verstanden\").",
         ],
         examples: [
           { es: "Ich habe an dich gedacht.", en: "I thought of you." },
@@ -1109,9 +1109,9 @@ export const DE_B1_U13: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "After she had finished, she went home.",
-        answer: "Nachdem sie fertig gewesen war, ging sie nach Hause.",
-        altAnswers: ["Nachdem sie fertig war, ging sie nach Hause.", "Als sie fertig war, ging sie nach Hause.", "Nachdem sie fertig geworden war, ging sie nach Hause."],
-        explanation: "\"Nachdem\" + Plusquamperfekt is the textbook form; with \"fertig sein\" many speakers simplify.",
+        answer: "Nachdem sie fertig geworden war, ging sie nach Hause.",
+        altAnswers: ["Nachdem sie fertig war, ging sie nach Hause.", "Als sie fertig war, ging sie nach Hause.", "Nachdem sie fertig gewesen war, ging sie nach Hause.", "Nachdem sie fertig geworden war, ist sie nach Hause gegangen."],
+        explanation: "\"Nachdem\" + Plusquamperfekt is the textbook form: \"fertig geworden war\" (had finished). In everyday German many speakers simplify to \"Nachdem sie fertig war\".",
       },
       {
         type: "translate",
@@ -1167,10 +1167,10 @@ export const DE_B1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which participle is correct? Ich habe die ganze Zeit an dich ___.",
-        options: ["gedacht", "gedenkt", "gedachten", "gedenken"],
+        question: "Which sentence means: I was thinking of you the whole time?",
+        options: ["Ich habe die ganze Zeit an dich gedacht.", "Ich habe die ganze Zeit an dich gedenkt.", "Ich habe die ganze Zeit an dich gedachten.", "Ich habe die ganze Zeit an dich gedenken."],
         correctIndex: 0,
-        explanation: "\"Denken\" is a mixed verb: \"gedacht\".",
+        explanation: "\"Denken\" is a mixed verb: vowel change and -t, \"gedacht\". \"*gedenkt*\" treats it as a weak verb.",
       },
       {
         type: "word-order",
@@ -1197,14 +1197,14 @@ export const DE_B1_U13: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Quick Round: Wenn + Present + Imperative",
-    summary: "Wenn du Zeit hast, komm vorbei! Falls Sie Fragen haben, rufen Sie uns an! Fire off instructions after a fronted wenn- or falls-clause.",
+    summary: "Give instructions with an imperative after a wenn- or falls-clause: \"Wenn du Zeit hast, komm vorbei!\", \"Falls Sie Fragen haben, rufen Sie uns an!\"",
     duration: "12 min",
     sections: [
       {
         heading: "Du and ihr: Wenn..., komm!",
         body: [
           "A wenn- or falls-clause can be followed by an imperative: \"Wenn du Zeit hast, komm vorbei!\". The imperative verb comes first after the comma, exactly where the verb would be in a normal main clause, and there's no subject for du and ihr.",
-          "Reminder of the forms: du \"komm!\", \"ruf an!\", \"nimm!\", \"lies!\", \"sei!\"; ihr \"kommt!\", \"ruft an!\", \"nehmt!\", \"seid!\". Verbs with e → i change it in the du imperative (\"nehmen\" → \"nimm\", \"geben\" → \"gib\") but never take the umlaut (\"fahren\" → \"fahr\", not *fähr*).",
+          "Reminder of the forms: du \"komm!\", \"ruf an!\", \"nimm!\", \"lies!\", \"sei!\"; ihr \"kommt!\", \"ruft an!\", \"nehmt!\", \"seid!\". Verbs with e → i change it in the du imperative (\"nehmen\" → \"nimm\", \"geben\" → \"gib\") but never take the umlaut (\"fahren\" → \"fahr\", not \"*fähr*\").",
         ],
         examples: [
           { es: "Wenn du Zeit hast, komm vorbei!", en: "If you have time, drop by!" },
@@ -1358,7 +1358,7 @@ export const DE_B1_U13: Lesson[] = [
         sentence: "Wenn es schneit, ___ vorsichtig.",
         answer: "fahr",
         altAnswers: ["fahre"],
-        explanation: "No umlaut in the imperative: \"fahr\", not *fähr*.",
+        explanation: "No umlaut in the imperative: \"fahr\", not \"*fähr*\".",
       },
       {
         type: "multiple-choice",
@@ -1461,7 +1461,7 @@ export const DE_B1_U13: Lesson[] = [
       {
         heading: "Rapid round",
         body: [
-          "Now decide quickly. Ask yourself: does the speaker think it's possible (indicative) or is it imagined (Konjunktiv II)? Then make sure both halves match: real + real, or unreal + unreal. *Wenn ich Zeit hätte, komme ich* mixes the two and sounds wrong.",
+          "Now decide quickly. Ask yourself: does the speaker think it's possible (indicative) or is it imagined (Konjunktiv II)? Then make sure both halves match: real + real, or unreal + unreal. \"*Wenn ich Zeit hätte, komme ich*\" mixes the two and sounds wrong.",
         ],
         examples: [
           { es: "Wenn du willst, kannst du hier schlafen.", en: "If you want, you can sleep here." },
@@ -1589,7 +1589,7 @@ export const DE_B1_U13: Lesson[] = [
     level: "DE-B1",
     number: 9,
     title: "Intermediate Vocabulary Practice, Part 5 of 10",
-    summary: "High-frequency Intermediate words for society, rules, the state and public services: das Amt, der Antrag, das Formular, die Gebühr, erlaubt and verboten.",
+    summary: "Deal with offices, rules and public services using high-frequency words like \"das Amt\", \"der Antrag\", \"das Formular\", \"die Gebühr\", \"erlaubt\" and \"verboten\".",
     duration: "12 min",
     sections: [
       {
@@ -1633,7 +1633,7 @@ export const DE_B1_U13: Lesson[] = [
         examples: [
           { es: "In Deutschland gibt es eine Schulpflicht.", en: "In Germany school is compulsory." },
           { es: "Hier ist das Rauchen verboten.", en: "Smoking is forbidden here." },
-          { es: "Ist es erlaubt, hier zu parken?", en: "Is it allowed to park here?" },
+          { es: "Ist es erlaubt, hier zu parken?", en: "Are you allowed to park here?" },
           { es: "Für den neuen Pass zahlt man eine Gebühr.", en: "You pay a fee for the new passport." },
           { es: "Wer zu schnell fährt, muss ein Bußgeld zahlen.", en: "Anyone who drives too fast has to pay a fine." },
           { es: "Das ist gegen das Gesetz.", en: "That's against the law." },
@@ -1643,7 +1643,7 @@ export const DE_B1_U13: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Is it allowed to take photos here?",
+            source: "Are you allowed to take photos here?",
             answer: "Ist es erlaubt, hier zu fotografieren?",
             altAnswers: ["Darf man hier fotografieren?", "Ist es erlaubt, hier Fotos zu machen?", "Darf man hier Fotos machen?"],
             explanation: "\"Ist es erlaubt\" + zu-infinitive, or simply \"Darf man ...?\"",
@@ -1789,7 +1789,7 @@ export const DE_B1_U13: Lesson[] = [
     level: "DE-B1",
     number: 10,
     title: "Transformation Chain: From Rule to Advice",
-    summary: "Soften a rule step by step: Man muss... → Du musst... → Du solltest... → An deiner Stelle würde ich... → Es wäre besser, wenn du...",
+    summary: "Soften a rule into advice step by step: \"Man muss...\" → \"Du musst...\" → \"Du solltest...\" → \"An deiner Stelle würde ich...\" → \"Es wäre besser, wenn du...\"",
     duration: "12 min",
     sections: [
       {
@@ -1845,7 +1845,6 @@ export const DE_B1_U13: Lesson[] = [
             prompt: "Translate into German.",
             source: "You should drink more water. (to a friend)",
             answer: "Du solltest mehr Wasser trinken.",
-            altAnswers: ["Ihr solltet mehr Wasser trinken.", "Sie sollten mehr Wasser trinken."],
             explanation: "Advice: \"solltest\" + infinitive at the end.",
           },
           {
@@ -1877,7 +1876,7 @@ export const DE_B1_U13: Lesson[] = [
             prompt: "Translate into German.",
             source: "It would be better if you called her. (to a friend)",
             answer: "Es wäre besser, wenn du sie anrufen würdest.",
-            altAnswers: ["Es wäre besser, wenn du sie anrufst.", "Es wäre besser, wenn ihr sie anrufen würdet.", "Es wäre besser, wenn Sie sie anrufen würden."],
+            altAnswers: ["Es wäre besser, wenn du sie anrufst."],
             explanation: "\"Es wäre besser, wenn\" + Konjunktiv II at the end.",
           },
           {
@@ -1896,8 +1895,8 @@ export const DE_B1_U13: Lesson[] = [
         prompt: "Translate into German.",
         source: "You have to register within two weeks. (general rule)",
         answer: "Man muss sich innerhalb von zwei Wochen anmelden.",
-        altAnswers: ["Man muss sich in zwei Wochen anmelden.", "Innerhalb von zwei Wochen muss man sich anmelden."],
-        explanation: "\"Man muss sich ... anmelden\": a rule.",
+        altAnswers: ["Man muss sich innerhalb von 14 Tagen anmelden.", "Man muss sich binnen zwei Wochen anmelden.", "Innerhalb von zwei Wochen muss man sich anmelden."],
+        explanation: "\"Man muss sich ... anmelden\": a rule. Within is \"innerhalb von\"; \"in zwei Wochen\" would mean in two weeks' time.",
       },
       {
         type: "translate",
@@ -1930,7 +1929,7 @@ export const DE_B1_U13: Lesson[] = [
         prompt: "Translate into German.",
         source: "It would be good if you registered soon. (to a friend)",
         answer: "Es wäre gut, wenn du dich bald anmelden würdest.",
-        altAnswers: ["Es wäre gut, wenn du dich bald anmeldest.", "Es wäre gut, wenn ihr euch bald anmelden würdet.", "Es wäre gut, wenn Sie sich bald anmelden würden."],
+        altAnswers: ["Es wäre gut, wenn du dich bald anmeldest."],
         explanation: "\"Es wäre gut, wenn\" + \"anmelden würdest\" at the end.",
       },
       {
@@ -1990,7 +1989,7 @@ export const DE_B1_U13: Lesson[] = [
     level: "DE-B1",
     number: 11,
     title: "Frequent Words: Politics and Society",
-    summary: "Die Regierung, der Bundestag, die Wahl, wählen, die Partei, die Gesellschaft, die Steuer, die Demokratie, abstimmen, die Meinungsfreiheit.",
+    summary: "Talk about government, elections and society with \"die Regierung\", \"der Bundestag\", \"die Wahl\", \"wählen\", \"die Partei\", \"die Gesellschaft\", \"die Steuer\", \"die Demokratie\", \"abstimmen\" and \"die Meinungsfreiheit\".",
     duration: "12 min",
     sections: [
       {
@@ -2097,7 +2096,7 @@ export const DE_B1_U13: Lesson[] = [
         prompt: "Translate into German.",
         source: "Which party will you vote for? (to a friend)",
         answer: "Welche Partei wählst du?",
-        altAnswers: ["Welche Partei wirst du wählen?", "Welche Partei wählt ihr?", "Welche Partei wählen Sie?"],
+        altAnswers: ["Welche Partei wirst du wählen?"],
         explanation: "\"Wählen\" + accusative: no for in German.",
       },
       {
@@ -2189,7 +2188,7 @@ export const DE_B1_U13: Lesson[] = [
     level: "DE-B1",
     number: 12,
     title: "Pattern Practice: The Complete Verb Table",
-    summary: "Twelve core verbs (sein, haben, werden, können, müssen, gehen, kommen, nehmen, geben, wissen, bringen, fahren) in the present, Präteritum, Perfekt and Konjunktiv II.",
+    summary: "Use twelve core verbs (\"sein\", \"haben\", \"werden\", \"können\", \"müssen\", \"gehen\", \"kommen\", \"nehmen\", \"geben\", \"wissen\", \"bringen\", \"fahren\") in the present, Präteritum, Perfekt and Konjunktiv II.",
     duration: "15 min",
     sections: [
       {
@@ -2362,7 +2361,7 @@ export const DE_B1_U13: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match each Konjunktiv II form with its infinitive meaning.",
+        instructions: "Match each Konjunktiv II form with its English meaning.",
         pairs: [
           { left: "wäre", right: "would be" },
           { left: "hätte", right: "would have" },
@@ -2375,7 +2374,7 @@ export const DE_B1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the correct Perfekt of: Er kommt um acht?",
+        question: "Which sentence means: He came at eight? (spoken German, Perfekt)",
         options: ["Er ist um acht gekommen.", "Er hat um acht gekommen.", "Er ist um acht gekommt.", "Er hat um acht gekamen."],
         correctIndex: 0,
         explanation: "\"Kommen\": \"sein\" + \"gekommen\".",

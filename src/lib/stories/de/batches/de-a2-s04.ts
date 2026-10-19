@@ -10,7 +10,7 @@ export const DE_A2_S04_STORIES: Story[] = [
     title: `Das Gespenst auf der Burg`,
     subtitle: `During a night tour of a castle on the Rhine, a light comes on in the empty tower and strange music begins to play.`,
     paragraphs: [
-      `Svenja arbeitet als Führerin auf Burg Falkenstein am Rhein. Jeden Freitagabend macht sie eine Nachtführung mit Taschenlampen. Dann erzählt sie die alte Geschichte von der „Weißen Frau“: Vor fünfhundert Jahren hat hier eine Gräfin gelebt. Sie hat ihren Mann verloren und ist jede Nacht durch die Burg gelaufen. Die Touristen finden das spannend, aber niemand glaubt wirklich daran. Auch Svenja nicht.`,
+      `Svenja arbeitet als Führerin auf Burg Falkeneck am Rhein. Jeden Freitagabend macht sie eine Nachtführung mit Taschenlampen. Dann erzählt sie die alte Geschichte von der „Weißen Frau“: Vor fünfhundert Jahren hat hier eine Gräfin gelebt. Sie hat ihren Mann verloren und ist jede Nacht durch die Burg gelaufen. Die Touristen finden das spannend, aber niemand glaubt wirklich daran. Auch Svenja nicht.`,
       `Aber letzten Freitag ist etwas Komisches passiert. Die Gruppe war gerade im Hof, als plötzlich oben im Turm ein Licht angegangen ist. Dann haben alle eine Melodie gehört, traurig und ein bisschen schief. Eine Frau hat Svenjas Arm genommen. „Ist das die Weiße Frau?“, hat sie geflüstert.`,
       `Svenja hatte Angst, aber sie durfte das nicht zeigen. „Bitte warten Sie hier“, hat sie gesagt. Dann ist sie langsam die alte Treppe hochgegangen, Stufe für Stufe. Die Musik ist immer lauter geworden. Oben war eine kleine Tür. Svenja hat sie geöffnet.`,
       `Im Turmzimmer hat kein Gespenst gesessen, sondern Herr Wendt, der alte Hausmeister, mit einer Trompete. Er ist sehr erschrocken. „Entschuldigung!“, hat er gesagt. „Meine Frau mag meine Musik nicht. Zu Hause darf ich nicht üben. Darum spiele ich hier, wenn alle weg sind.“ Svenja musste lachen.`,
@@ -168,7 +168,7 @@ export const DE_A2_S04_STORIES: Story[] = [
     subtitle: `A woman in Erfurt receives a postcard that was sent to her in November 1989.`,
     paragraphs: [
       `Im Februar hat Brigitte Kaufmann in Erfurt einen seltsamen Brief von der Post bekommen. Darin waren eine alte Postkarte und ein Zettel: „Entschuldigung! Wir haben diese Karte bei Bauarbeiten in einem alten Postamt gefunden. Sie kommt leider 37 Jahre zu spät.“ Auf der Postkarte war das Brandenburger Tor. Der Stempel: Berlin, 10. November 1989.`,
-      `Brigitte hat die Karte umgedreht und die Handschrift sofort erkannt. Die Karte war von Matthias, ihrem ersten Freund. Er hat geschrieben: „Liebe Gitti, die Mauer ist offen! Ich bin in West-Berlin, und alle tanzen auf der Straße. Komm bitte am Samstag nach Berlin. Ich warte um zwölf Uhr am Brandenburger Tor. Ich muss dich etwas fragen. Dein Matthias“`,
+      `Brigitte hat die Karte umgedreht und die Handschrift sofort erkannt. Die Karte war von Matthias, ihrem ersten Freund. Er hat geschrieben: „Liebe Gitti, die Mauer ist offen! Ich bin in West-Berlin, und alle tanzen auf der Straße. Komm bitte nächsten Samstag nach Berlin. Ich warte um zwölf Uhr am Brandenburger Tor. Ich muss dich etwas fragen. Dein Matthias“`,
       `Brigitte musste sich setzen. Damals hat sie in Weimar gewohnt und lange auf eine Nachricht von Matthias gewartet. Aber es ist keine gekommen, und sie hat gedacht: Er hat mich vergessen. Später ist sie nach Erfurt gezogen, hat geheiratet und zwei Kinder bekommen. Ihr Mann ist vor fünf Jahren gestorben.`,
       `Ihre Tochter Anne hat die Karte gelesen und sofort ihren Laptop geholt. „Mama, wir suchen ihn!“ Nach zwei Stunden haben sie ihn gefunden: Matthias Lorenz, Fotograf in Potsdam. Brigitte hat ihm eine E-Mail geschrieben, nur einen Satz: „Ich habe deine Postkarte bekommen. Samstag, zwölf Uhr?“`,
       `Am Samstag ist Brigitte mit dem Zug nach Berlin gefahren. Um Punkt zwölf hat am Brandenburger Tor ein grauhaariger Mann mit einer Kamera gewartet. „Damals habe ich vier Stunden auf dich gewartet“, hat er gesagt und gelacht. „Jetzt bin ich da“, hat Brigitte geantwortet. „Was wolltest du mich fragen?“ Matthias ist ein bisschen rot geworden. „Ich wollte fragen, ob du mit mir einen Kaffee trinkst.“ Brigitte hat gelächelt. „Siebenunddreißig Jahre später: ja, gern.“`,
@@ -182,9 +182,9 @@ export const DE_A2_S04_STORIES: Story[] = [
       },
       {
         question: `What did Matthias ask Brigitte to do in the card?`,
-        options: [`Write back quickly`, `Move to West Berlin`, `Call him`, `Come to the Brandenburg Gate on Saturday at twelve`],
+        options: [`Write back quickly`, `Move to West Berlin`, `Call him`, `Come to the Brandenburg Gate next Saturday at twelve`],
         correctIndex: 3,
-        explanation: `"Komm bitte am Samstag nach Berlin. Ich warte um zwölf Uhr am Brandenburger Tor."`,
+        explanation: `"Komm bitte nächsten Samstag nach Berlin. Ich warte um zwölf Uhr am Brandenburger Tor."`,
       },
       {
         question: `What did Brigitte think back in 1989?`,
@@ -204,7 +204,7 @@ export const DE_A2_S04_STORIES: Story[] = [
 
 export const DE_A2_S04_ENGLISH: Record<string, string[]> = {
   "de-das-gespenst-auf-der-burg": [
-    `Svenja works as a guide at Falkenstein Castle on the Rhine. Every Friday evening she runs a night tour with torches. She tells the old story of the "White Lady": five hundred years ago a countess lived here. She lost her husband and walked through the castle every night. The tourists find it exciting, but nobody really believes it. Not even Svenja.`,
+    `Svenja works as a guide at Falkeneck Castle on the Rhine. Every Friday evening she runs a night tour with torches. She tells the old story of the "White Lady": five hundred years ago a countess lived here. She lost her husband and walked through the castle every night. The tourists find it exciting, but nobody really believes it. Not even Svenja.`,
     `But last Friday something odd happened. The group was in the courtyard when suddenly a light came on up in the tower. Then everyone heard a melody, sad and a little out of tune. A woman grabbed Svenja's arm. "Is that the White Lady?" she whispered.`,
     `Svenja was scared, but she couldn't show it. "Please wait here," she said. Then she slowly climbed the old staircase, step by step. The music got louder and louder. At the top there was a little door. Svenja opened it.`,
     `In the tower room there was no ghost but Herr Wendt, the old caretaker, with a trumpet. He got a terrible fright. "Sorry!" he said. "My wife doesn't like my music. I'm not allowed to practise at home. So I play here when everyone has gone." Svenja couldn't help laughing.`,
@@ -234,7 +234,7 @@ export const DE_A2_S04_ENGLISH: Record<string, string[]> = {
   ],
   "de-eine-postkarte-von-1989": [
     `In February Brigitte Kaufmann in Erfurt got a strange letter from the post office. Inside were an old postcard and a note: "Our apologies! We found this card during building work in an old post office. Unfortunately it is arriving 37 years late." On the postcard was the Brandenburg Gate. The postmark: Berlin, 10 November 1989.`,
-    `Brigitte turned the card over and recognised the handwriting at once. The card was from Matthias, her first boyfriend. He had written: "Dear Gitti, the Wall is open! I'm in West Berlin, and everyone is dancing in the street. Please come to Berlin on Saturday. I'll wait at twelve o'clock at the Brandenburg Gate. I have to ask you something. Your Matthias"`,
+    `Brigitte turned the card over and recognised the handwriting at once. The card was from Matthias, her first boyfriend. He had written: "Dear Gitti, the Wall is open! I'm in West Berlin, and everyone is dancing in the street. Please come to Berlin next Saturday. I'll wait at twelve o'clock at the Brandenburg Gate. I have to ask you something. Your Matthias"`,
     `Brigitte had to sit down. Back then she lived in Weimar and waited a long time for a message from Matthias. But none came, and she thought: he's forgotten me. Later she moved to Erfurt, got married and had two children. Her husband died five years ago.`,
     `Her daughter Anne read the card and immediately fetched her laptop. "Mum, let's find him!" After two hours they found him: Matthias Lorenz, a photographer in Potsdam. Brigitte wrote him an email, just one sentence: "I've got your postcard. Saturday, twelve o'clock?"`,
     `On Saturday Brigitte took the train to Berlin. At twelve on the dot a grey-haired man with a camera was waiting at the Brandenburg Gate. "Back then I waited four hours for you," he said and laughed. "I'm here now," Brigitte answered. "What did you want to ask me?" Matthias went a little red. "I wanted to ask whether you'd have a coffee with me." Brigitte smiled. "Thirty-seven years later: yes, I'd love to."`,

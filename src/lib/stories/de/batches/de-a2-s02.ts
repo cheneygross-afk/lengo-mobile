@@ -33,7 +33,7 @@ export const DE_A2_S02_STORIES: Story[] = [
         question: `What did the hotel owner do when the power went off?`,
         options: [`He sent everyone to bed.`, `He called the police.`, `He played the piano.`, `He brought candles and made cheese fondue.`],
         correctIndex: 3,
-        explanation: `"Herr Imboden, hat Kerzen gebracht und ein großes Käsefondue gemacht."`,
+        explanation: `"Der Hotelbesitzer, Herr Imboden, hat Kerzen gebracht und ein großes Käsefondue gemacht."`,
       },
       {
         question: `How did Ben react to Anna's question?`,
@@ -129,9 +129,9 @@ export const DE_A2_S02_STORIES: Story[] = [
     paragraphs: [
       `Paul ist 45 Jahre alt und arbeitet in einem Büro in Köln. Im Januar hat er seinen Kollegen gesagt: „Im Oktober laufe ich den Köln-Marathon.“ Alle haben gelacht. Paul war nie sportlich. Er ist immer lieber mit dem Aufzug gefahren, als die Treppe hochzugehen.`,
       `Aber Paul hat jeden Morgen trainiert. Zuerst konnte er nur zwei Kilometer laufen, dann fünf, dann fünfzehn. Er war nicht schnell, aber er hat nie aufgehört. Im Sommer war er schon zehn Kilo leichter.`,
-      `Dann war der große Tag da. Es war heiß, und mehr als zehntausend Läufer waren am Start. Fast alle waren schneller als Paul. Nach dreißig Kilometern hatten seine Beine keine Kraft mehr. Er wollte aufhören und hat sich an den Straßenrand gesetzt.`,
+      `Dann war der große Tag da. Es war warm, und mehr als zehntausend Läufer waren am Start. Fast alle waren schneller als Paul. Nach dreißig Kilometern hatten seine Beine keine Kraft mehr. Er wollte aufhören und hat sich an den Straßenrand gesetzt.`,
       `Da ist eine alte Frau an ihm vorbeigelaufen, sehr langsam. Sie hatte weiße Haare und eine Startnummer. „Na, junger Mann?“, hat sie gerufen. „Kommen Sie! Ich bin Erika, ich bin neunundsiebzig, und das ist mein zwanzigster Marathon.“ Paul ist aufgestanden. Wenn sie das kann, kann ich das auch, hat er gedacht.`,
-      `Die letzten zwölf Kilometer sind sie zusammen gelaufen. Erika hat Geschichten von ihren Marathons erzählt, und Paul hat seine Schmerzen vergessen. Nach sechs Stunden und vierzig Minuten sind sie Hand in Hand ins Ziel gekommen, als Letzte. Am Montag hat Paul seinen Kollegen die Medaille gezeigt. Diesmal hat niemand gelacht.`,
+      `Die letzten zwölf Kilometer sind sie zusammen gelaufen. Erika hat Geschichten von ihren Marathons erzählt, und Paul hat seine Schmerzen vergessen. Nach fünf Stunden und fünfzig Minuten sind sie Hand in Hand ins Ziel gekommen, als Letzte. Am Montag hat Paul seinen Kollegen die Medaille gezeigt. Diesmal hat niemand gelacht.`,
     ],
     questions: [
       {
@@ -226,9 +226,9 @@ export const DE_A2_S02_ENGLISH: Record<string, string[]> = {
   "de-der-langsamste-laeufer": [
     `Paul is 45 and works in an office in Cologne. In January he told his colleagues: "In October I'm running the Cologne Marathon." Everyone laughed. Paul had never been sporty. He had always preferred taking the lift to walking up the stairs.`,
     `But Paul trained every morning. At first he could only run two kilometres, then five, then fifteen. He wasn't fast, but he never gave up. By the summer he was already ten kilos lighter.`,
-    `Then the big day arrived. It was hot, and more than ten thousand runners were at the start. Almost all of them were faster than Paul. After thirty kilometres his legs had no strength left. He wanted to give up and sat down at the side of the road.`,
+    `Then the big day arrived. It was warm, and more than ten thousand runners were at the start. Almost all of them were faster than Paul. After thirty kilometres his legs had no strength left. He wanted to give up and sat down at the side of the road.`,
     `Just then an old woman ran past him, very slowly. She had white hair and a race number. "Well, young man?" she called. "Come on! I'm Erika, I'm seventy-nine, and this is my twentieth marathon." Paul stood up. If she can do it, I can do it too, he thought.`,
-    `They ran the last twelve kilometres together. Erika told stories about her marathons, and Paul forgot his pain. After six hours and forty minutes they crossed the finish line hand in hand, the last ones in. On Monday Paul showed his colleagues the medal. This time nobody laughed.`,
+    `They ran the last twelve kilometres together. Erika told stories about her marathons, and Paul forgot his pain. After five hours and fifty minutes they crossed the finish line hand in hand, the last ones in. On Monday Paul showed his colleagues the medal. This time nobody laughed.`,
   ],
   "de-ein-tag-als-weihnachtsmann": [
     `Felix is a student in Nuremberg, and in December he had run out of money. So he took a job in a big department store: as Father Christmas. He had to wear a red coat and a long white beard and sit on a big chair for six hours every day. The beard itched terribly.`,

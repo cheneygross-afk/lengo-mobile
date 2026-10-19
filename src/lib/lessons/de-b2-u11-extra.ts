@@ -9,7 +9,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Word Order After Obwohl and Trotzdem",
-    summary: "Verb-final after obwohl, verb-second after trotzdem: mixed sentences until the word order is automatic.",
+    summary: "Verb-final after \"obwohl\", verb-second after \"trotzdem\": mixed sentences until the word order is automatic.",
     duration: "12 min",
     sections: [
       {
@@ -40,6 +40,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
             prompt: "Put the words in order to say: The road was closed; nevertheless all the guests arrived on time.",
             words: ["Die Straße", "war", "gesperrt,", "dennoch", "kamen", "alle Gäste", "pünktlich."],
             translation: "The road was closed; nevertheless all the guests arrived on time.",
+            altOrders: [["Die Straße", "war", "gesperrt,", "alle Gäste", "kamen", "dennoch", "pünktlich."]],
             explanation: "\"Dennoch\" in position 1 → verb \"kamen\" next.",
           },
         ],
@@ -52,7 +53,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Although she has lived in Cologne for years, she's never been inside the cathedral.",
         answer: "Obwohl sie seit Jahren in Köln wohnt, war sie noch nie im Dom.",
-        altAnswers: ["Obwohl sie seit Jahren in Köln lebt, war sie noch nie im Dom.", "Obwohl sie seit Jahren in Köln wohnt, ist sie noch nie im Dom gewesen.", "Obwohl sie seit Jahren in Köln lebt, ist sie noch nie im Dom gewesen.", "Sie war noch nie im Dom, obwohl sie seit Jahren in Köln wohnt.", "Obwohl sie schon seit Jahren in Köln wohnt, war sie noch nie im Dom."],
+        altAnswers: ["Obwohl sie seit Jahren in Köln lebt, war sie noch nie im Dom.", "Obwohl sie seit Jahren in Köln wohnt, ist sie noch nie im Dom gewesen.", "Obwohl sie seit Jahren in Köln lebt, ist sie noch nie im Dom gewesen.", "Sie war noch nie im Dom, obwohl sie seit Jahren in Köln wohnt.", "Obwohl sie schon seit Jahren in Köln wohnt, war sie noch nie im Dom.", "Obwohl sie seit Jahren in Köln wohnt, kennt sie den Dom nicht von innen."],
         explanation: "\"Seit\" + present tense (\"wohnt\") for something still going on; the verb goes to the end after \"obwohl\".",
       },
       {
@@ -104,7 +105,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: Although Lena studied a lot, she failed the exam.",
         words: ["Obwohl", "Lena", "viel", "gelernt", "hatte,", "fiel", "sie", "durch die Prüfung."],
         translation: "Although Lena studied a lot, she failed the exam.",
-        explanation: "\"Gelernt hatte\" at the end, then \"fiel sie ... durch\" (durchfallen = to fail).",
+        explanation: "\"Gelernt hatte\" at the end, then \"fiel sie ... durch\" (\"durchfallen\" = to fail).",
       },
       {
         type: "multiple-choice",
@@ -250,7 +251,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with trotz: Obwohl es sehr heiß war, haben wir Fußball gespielt.",
+        prompt: "Rewrite with \"trotz\": \"Obwohl es sehr heiß war, haben wir Fußball gespielt.\"",
         source: "Despite the great heat we played football.",
         answer: "Trotz der großen Hitze haben wir Fußball gespielt.",
         altAnswers: ["Trotz der großen Hitze spielten wir Fußball.", "Wir haben trotz der großen Hitze Fußball gespielt.", "Trotz der starken Hitze haben wir Fußball gespielt."],
@@ -259,7 +260,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with trotz: Obwohl der Zug Verspätung hatte, kamen wir rechtzeitig an.",
+        prompt: "Rewrite with \"trotz\": \"Obwohl der Zug Verspätung hatte, kamen wir rechtzeitig an.\"",
         source: "Despite the train's delay we arrived in time.",
         answer: "Trotz der Verspätung des Zuges kamen wir rechtzeitig an.",
         altAnswers: ["Trotz der Verspätung des Zuges sind wir rechtzeitig angekommen.", "Trotz der Zugverspätung kamen wir rechtzeitig an.", "Trotz der Zugverspätung sind wir rechtzeitig angekommen.", "Trotz der Verspätung des Zugs kamen wir rechtzeitig an.", "Trotz der Verspätung des Zugs sind wir rechtzeitig angekommen."],
@@ -267,7 +268,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the formal written form?",
+        question: "You are writing a formal complaint and want to say 'despite the noise'. Which is the correct written form?",
         options: ["trotz des Lärms", "trotz dem Lärm", "trotz der Lärm", "trotz den Lärm"],
         correctIndex: 0,
         explanation: "\"Der Lärm\" (masculine) → genitive \"des Lärms\". \"Trotz dem Lärm\" is colloquial.",
@@ -345,7 +346,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using zwar.",
+            prompt: "Translate into German, using \"zwar\".",
             source: "We urgently need renewable energy, but this location is unsuitable.",
             answer: "Zwar brauchen wir dringend erneuerbare Energie, aber dieser Standort ist ungeeignet.",
             altAnswers: ["Wir brauchen zwar dringend erneuerbare Energie, aber dieser Standort ist ungeeignet.", "Zwar brauchen wir dringend erneuerbare Energien, aber dieser Standort ist ungeeignet.", "Wir brauchen zwar dringend erneuerbare Energien, aber dieser Standort ist ungeeignet.", "Zwar brauchen wir dringend erneuerbare Energie, aber dieser Standort ist nicht geeignet.", "Wir brauchen zwar dringend erneuerbare Energie, dieser Standort ist aber ungeeignet."],
@@ -497,7 +498,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite with trotz: Obwohl der Aufzug kaputt war, haben wir das Sofa hochgetragen.",
+            prompt: "Rewrite with \"trotz\": \"Obwohl der Aufzug kaputt war, haben wir das Sofa hochgetragen.\"",
             source: "Despite the broken lift we carried the sofa up.",
             answer: "Trotz des kaputten Aufzugs haben wir das Sofa hochgetragen.",
             altAnswers: ["Trotz des kaputten Aufzuges haben wir das Sofa hochgetragen.", "Trotz des kaputten Aufzugs trugen wir das Sofa hoch.", "Wir haben das Sofa trotz des kaputten Aufzugs hochgetragen.", "Trotz des defekten Aufzugs haben wir das Sofa hochgetragen."],
@@ -515,7 +516,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with trotzdem: Obwohl die Preise gestiegen sind, kaufen die Leute weiter ein.",
+        prompt: "Rewrite with \"trotzdem\": \"Obwohl die Preise gestiegen sind, kaufen die Leute weiter ein.\"",
         source: "Prices have risen; people still keep shopping.",
         answer: "Die Preise sind gestiegen, trotzdem kaufen die Leute weiter ein.",
         altAnswers: ["Die Preise sind gestiegen. Trotzdem kaufen die Leute weiter ein.", "Die Preise sind gestiegen, aber die Leute kaufen trotzdem weiter ein.", "Die Preise sind gestiegen, dennoch kaufen die Leute weiter ein."],
@@ -524,7 +525,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with obwohl: Trotz ihrer Angst ist sie gesprungen.",
+        prompt: "Rewrite with \"obwohl\": \"Trotz ihrer Angst ist sie gesprungen.\"",
         source: "Although she was afraid, she jumped.",
         answer: "Obwohl sie Angst hatte, ist sie gesprungen.",
         altAnswers: ["Obwohl sie Angst hatte, sprang sie.", "Sie ist gesprungen, obwohl sie Angst hatte.", "Sie sprang, obwohl sie Angst hatte."],
@@ -533,7 +534,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with trotzdem: Trotz ihrer Angst ist sie gesprungen.",
+        prompt: "Rewrite with \"trotzdem\": \"Trotz ihrer Angst ist sie gesprungen.\"",
         source: "She was afraid; she jumped anyway.",
         answer: "Sie hatte Angst, trotzdem ist sie gesprungen.",
         altAnswers: ["Sie hatte Angst, trotzdem sprang sie.", "Sie hatte Angst. Trotzdem ist sie gesprungen.", "Sie hatte Angst, aber sie ist trotzdem gesprungen.", "Sie hatte Angst, ist aber trotzdem gesprungen."],
@@ -542,7 +543,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with trotz: Obwohl es Kritik gab, wurde das Gesetz beschlossen.",
+        prompt: "Rewrite with \"trotz\": \"Obwohl es Kritik gab, wurde das Gesetz beschlossen.\"",
         source: "Despite the criticism the law was passed.",
         answer: "Trotz der Kritik wurde das Gesetz beschlossen.",
         altAnswers: ["Trotz aller Kritik wurde das Gesetz beschlossen.", "Das Gesetz wurde trotz der Kritik beschlossen.", "Trotz der Kritik ist das Gesetz beschlossen worden."],
@@ -551,7 +552,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with obwohl: Die Straße war glatt, trotzdem fuhr er schnell.",
+        prompt: "Rewrite with \"obwohl\": \"Die Straße war glatt, trotzdem fuhr er schnell.\"",
         source: "Although the road was icy, he drove fast.",
         answer: "Obwohl die Straße glatt war, fuhr er schnell.",
         altAnswers: ["Obwohl die Straße glatt war, ist er schnell gefahren.", "Er fuhr schnell, obwohl die Straße glatt war.", "Er ist schnell gefahren, obwohl die Straße glatt war."],
@@ -560,7 +561,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with trotz: Die Straße war glatt, trotzdem fuhr er schnell.",
+        prompt: "Rewrite with \"trotz\": \"Die Straße war glatt, trotzdem fuhr er schnell.\"",
         source: "Despite the icy road he drove fast.",
         answer: "Trotz der glatten Straße fuhr er schnell.",
         altAnswers: ["Trotz der glatten Straße ist er schnell gefahren.", "Er fuhr trotz der glatten Straße schnell.", "Trotz der Glätte fuhr er schnell.", "Er ist trotz der glatten Straße schnell gefahren."],
@@ -577,7 +578,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the correct trotz-version of: Obwohl er wenig Geld hat, lädt er alle ein.",
+        question: "Which is the correct trotz-version of: \"Obwohl er wenig Geld hat, lädt er alle ein.\"",
         options: ["Trotz seines geringen Einkommens lädt er alle ein.", "Trotz er wenig Geld hat, lädt er alle ein.", "Trotz seines geringen Einkommens er lädt alle ein.", "Trotz seinem wenig Geld lädt er alle ein."],
         correctIndex: 0,
         explanation: "A noun is needed (\"das geringe Einkommen\") in the genitive, then verb second.",
@@ -593,7 +594,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with obwohl: Trotz der späten Stunde war der Laden noch voll.",
+        prompt: "Rewrite with \"obwohl\": \"Trotz der späten Stunde war der Laden noch voll.\"",
         source: "Although it was late, the shop was still full.",
         answer: "Obwohl es spät war, war der Laden noch voll.",
         altAnswers: ["Der Laden war noch voll, obwohl es spät war.", "Obwohl es schon spät war, war der Laden noch voll."],
@@ -616,7 +617,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with trotzdem: Obwohl er Vegetarier ist, hat er die Wurst probiert.",
+        prompt: "Rewrite with \"trotzdem\": \"Obwohl er Vegetarier ist, hat er die Wurst probiert.\"",
         source: "He's a vegetarian; he still tried the sausage.",
         answer: "Er ist Vegetarier, trotzdem hat er die Wurst probiert.",
         altAnswers: ["Er ist Vegetarier. Trotzdem hat er die Wurst probiert.", "Er ist Vegetarier, aber er hat die Wurst trotzdem probiert.", "Er ist Vegetarier, trotzdem probierte er die Wurst.", "Er ist Vegetarier, hat aber trotzdem die Wurst probiert."],
@@ -630,13 +631,13 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Während: Time or Contrast?",
-    summary: "Decide whether während means while (time) or whereas (contrast), and use it with the verb at the end either way.",
+    summary: "Decide whether \"während\" means 'while' (time) or 'whereas' (contrast), and use it with the verb at the end either way.",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: one word, two meanings",
         body: [
-          "\"Während\" + clause is always verb-last. It means while when two actions happen at the same time (\"Während ich dusche, kocht er Kaffee\"), and whereas when two people or things are compared (\"Er ist früh wach, während ich lange schlafe\"). \"Während\" + genitive noun is the preposition during (\"während des Urlaubs\").",
+          "\"Während\" + clause is always verb-last. It means 'while' when two actions happen at the same time (\"Während ich dusche, kocht er Kaffee\"), and 'whereas' when two people or things are compared (\"Er ist früh wach, während ich lange schlafe\"). \"Während\" + genitive noun is the preposition 'during' (\"während des Urlaubs\").",
           "Test: can you replace it with \"wohingegen\"? Then it's contrast. Can you replace it with \"in der Zeit, als\"? Then it's time.",
         ],
         examples: [
@@ -649,7 +650,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "What does während mean in: In Hamburg regnet es oft, während es in Freiburg mehr Sonne gibt.",
+            question: "What does \"während\" mean in: \"In Hamburg regnet es oft, während es in Freiburg mehr Sonne gibt.\"",
             options: ["whereas", "while (at the same time)", "during", "although"],
             correctIndex: 0,
             explanation: "Two cities are compared: contrast, so whereas.",
@@ -722,7 +723,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In which sentence does während mean while (time)?",
+        question: "In which sentence does \"während\" mean 'while' (time)?",
         options: ["Während ich telefonierte, klingelte es an der Tür.", "Ich liebe Hunde, während mein Mann Katzen bevorzugt.", "Der Norden ist flach, während der Süden bergig ist.", "Lena spart, während ihr Bruder alles ausgibt."],
         correctIndex: 0,
         explanation: "Only the first describes two things at the same time; the others compare.",
@@ -779,13 +780,13 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Dictation of Concession",
-    summary: "Hear and write sentences with zwar, obgleich, hingegen and wohingegen, then produce your own.",
+    summary: "Hear and write sentences with \"zwar\", \"obgleich\", \"hingegen\" and \"wohingegen\", then produce your own.",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: the formal connectors",
         body: [
-          "In news and reports you'll hear the formal relatives of the everyday words: \"obgleich\" (= obwohl, verb last), \"wohingegen\" (= während as whereas, verb last), \"hingegen\" (= dagegen, adverb) and \"zwar ... jedoch\" (= zwar ... aber).",
+          "In news and reports you'll hear the formal relatives of the everyday words: \"obgleich\" (= \"obwohl\", verb last), \"wohingegen\" (= \"während\" meaning 'whereas', verb last), \"hingegen\" (= \"dagegen\", adverb) and \"zwar ... jedoch\" (= \"zwar ... aber\").",
           "\"Jedoch\" can stand in position 1 (verb next) or in the Mittelfeld: \"Die Firma wächst, jedoch fehlen Fachkräfte\" or \"Die Firma wächst, es fehlen jedoch Fachkräfte.\"",
         ],
         examples: [
@@ -803,7 +804,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using hingegen.",
+            prompt: "Translate into German, using \"hingegen\".",
             source: "It rained in the west; in the east, on the other hand, it stayed dry.",
             answer: "Im Westen regnete es, im Osten hingegen blieb es trocken.",
             altAnswers: ["Im Westen hat es geregnet, im Osten hingegen ist es trocken geblieben.", "Im Westen regnete es, im Osten blieb es hingegen trocken.", "Im Westen hat es geregnet, im Osten ist es hingegen trocken geblieben."],
@@ -816,7 +817,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Obgleich die Firma wächst, fehlen Fachkräfte.",
-        explanation: "\"Obgleich\" = obwohl; \"fehlen\" first in the main clause.",
+        explanation: "\"Obgleich\" = \"obwohl\"; \"fehlen\" first in the main clause.",
       },
       {
         type: "dictation",
@@ -884,7 +885,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
         source: "Although the forecast was good, it rained all day.",
         answer: "Obwohl die Vorhersage gut war, regnete es den ganzen Tag.",
         altAnswers: ["Obgleich die Vorhersage gut war, regnete es den ganzen Tag.", "Obwohl die Wettervorhersage gut war, regnete es den ganzen Tag.", "Obwohl die Vorhersage gut war, hat es den ganzen Tag geregnet.", "Obwohl der Wetterbericht gut war, hat es den ganzen Tag geregnet.", "Obwohl der Wetterbericht gut war, regnete es den ganzen Tag."],
-        explanation: "Time phrase \"den ganzen Tag\" in the accusative.",
+        explanation: "\"Obwohl\" sends \"war\" to the end, then the main clause starts with its verb; the time phrase \"den ganzen Tag\" is in the accusative.",
       },
       {
         type: "word-order",
@@ -905,7 +906,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
         type: "speak",
         text: "Die Mieten steigen, wohingegen die Löhne stagnieren.",
         prompt: "Say it in German: Rents are rising, whereas wages are stagnating.",
-        tip: "Wohingegen: stress the third syllable, wo-hin-GAY-gen.",
+        tip: "\"Wohingegen\": stress the third syllable, wo-hin-GAY-gen.",
         explanation: "\"Wohingegen\" + verb last.",
       },
       {
@@ -945,7 +946,7 @@ export const DE_B2_U11_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using zwar.",
+            prompt: "Translate into German, using \"zwar\".",
             source: "The sound was poor, but the singer was brilliant.",
             answer: "Der Sound war zwar schlecht, aber die Sängerin war großartig.",
             altAnswers: ["Zwar war der Sound schlecht, aber die Sängerin war großartig.", "Der Klang war zwar schlecht, aber die Sängerin war großartig.", "Der Sound war zwar schlecht, aber die Sängerin war hervorragend.", "Der Sound war zwar schlecht, die Sängerin aber war großartig.", "Der Sound war zwar schlecht, die Sängerin war aber großartig."],

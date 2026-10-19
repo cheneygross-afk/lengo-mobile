@@ -181,7 +181,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Das ist der Nachbar, dem ich geholfen habe.", en: "That's the neighbour I helped." },
-          { es: "Die Frau, der das Café gehört, heißt Ana.", en: "The woman who owns the café is called Ana." },
+          { es: "Die Frau, der das Café gehört, heißt Anna.", en: "The woman who owns the café is called Anna." },
           { es: "Die Kinder, denen ich Nachhilfe gebe, sind fleißig.", en: "The children I tutor are hard-working." },
           { es: "Der Junge, dessen Fahrrad kaputt ist, weint.", en: "The boy whose bike is broken is crying." },
           { es: "Die Leute, deren Hund so laut bellt, sind neu hier.", en: "The people whose dog barks so loudly are new here." },
@@ -197,10 +197,10 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Choose the right word: Die Frau, ___ Sohn in meiner Klasse ist, ist Ärztin.",
+            question: "Choose the right word: \"Die Frau, ___ Sohn in meiner Klasse ist, ist Ärztin.\"",
             options: ["deren", "dessen", "der", "die"],
             correctIndex: 0,
-            explanation: "Feminine noun → \"deren\".",
+            explanation: "The owner, \"die Frau\", is feminine → \"deren\". \"Dessen\" would wrongly agree with \"Sohn\".",
           },
         ],
       },
@@ -219,17 +219,18 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The woman who owns the café is called Ana.",
-        answer: "Die Frau, der das Café gehört, heißt Ana.",
-        explanation: "\"Gehören\" + dative: feminine \"der\".",
+        source: "The woman who owns the café is called Anna.",
+        answer: "Die Frau, der das Café gehört, heißt Anna.",
+        explanation: "English 'own' becomes \"gehören\" (belong to) + dative: the café belongs to her, so feminine dative \"der\".",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The guests I served were satisfied.",
-        answer: "Die Gäste, denen ich serviert habe, waren zufrieden.",
-        explanation: "Dative plural: \"denen\".",
+        source: "The guests I served the food to were satisfied.",
+        answer: "Die Gäste, denen ich das Essen serviert habe, waren zufrieden.",
+        altAnswers: ["Die Gäste, denen ich das Essen gebracht habe, waren zufrieden."],
+        explanation: "\"Jemandem etwas servieren\": the guests are the dative (indirect) object, plural \"denen\".",
       },
       {
         type: "translate",
@@ -335,7 +336,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
       {
         heading: "Recap: prepositions, wo and was",
         body: [
-          "With a preposition, put it first and let it decide the case: \"mit dem\", \"für den\", \"in der\". For places you can also use \"wo\"; after city and country names, \"wo\" is the only option. After \"alles\", \"etwas\", \"nichts\", \"das\", \"das Beste\" or a whole clause, use \"was\".",
+          "With a preposition, put it first and let it decide the case: \"mit dem\", \"für den\", \"in der\". For places you can also use \"wo\"; after city and country names, \"wo\" is the normal choice. After \"alles\", \"etwas\", \"nichts\", \"das\", \"das Beste\" or a whole clause, use \"was\".",
         ],
         examples: [
           { es: "Die Stadt, in der ich wohne, ist sehr grün.", en: "The city I live in is very green." },
@@ -451,7 +452,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The chair you're sitting on is broken.",
         answer: "Der Stuhl, auf dem du sitzt, ist kaputt.",
-        altAnswers: ["Der Stuhl, auf dem Sie sitzen, ist kaputt."],
+        altAnswers: ["Der Stuhl, auf dem Sie sitzen, ist kaputt.", "Der Stuhl, auf dem ihr sitzt, ist kaputt."],
         explanation: "Where: \"auf\" + dative.",
       },
       {
@@ -595,9 +596,9 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "The rent, which includes internet, is 450 euros.",
-        answer: "Die Miete, die Internet enthält, beträgt 450 Euro.",
-        altAnswers: ["Die Miete, die Internet enthält, ist 450 Euro.", "Die Miete, in der Internet enthalten ist, beträgt 450 Euro."],
-        explanation: "Feminine subject: \"die\".",
+        answer: "Die Miete, in der Internet enthalten ist, beträgt 450 Euro.",
+        altAnswers: ["Die Miete, in der das Internet enthalten ist, beträgt 450 Euro.", "Die Miete, in der Internet enthalten ist, ist 450 Euro.", "Die Miete, die Internet enthält, beträgt 450 Euro."],
+        explanation: "Ads say \"in etwas enthalten sein\" (be included in): \"in\" + dative feminine \"der\" for \"die Miete\". \"Beträgt\" (amounts to) is the usual verb for sums.",
       },
       {
         type: "translate",
@@ -612,8 +613,8 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "The previous flatmate, whose room is now free, has moved to Paris.",
-        answer: "Die alte Mitbewohnerin, deren Zimmer jetzt frei ist, ist nach Paris gezogen.",
-        altAnswers: ["Der alte Mitbewohner, dessen Zimmer jetzt frei ist, ist nach Paris gezogen."],
+        answer: "Die frühere Mitbewohnerin, deren Zimmer jetzt frei ist, ist nach Paris gezogen.",
+        altAnswers: ["Der frühere Mitbewohner, dessen Zimmer jetzt frei ist, ist nach Paris gezogen.", "Die ehemalige Mitbewohnerin, deren Zimmer jetzt frei ist, ist nach Paris gezogen.", "Der ehemalige Mitbewohner, dessen Zimmer jetzt frei ist, ist nach Paris gezogen.", "Die alte Mitbewohnerin, deren Zimmer jetzt frei ist, ist nach Paris gezogen.", "Der alte Mitbewohner, dessen Zimmer jetzt frei ist, ist nach Paris gezogen."],
         explanation: "Whose: \"deren\" (feminine) or \"dessen\" (masculine).",
       },
       {
@@ -671,7 +672,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Choose: Das ist das Café, ___ wir uns kennengelernt haben.",
+            question: "Choose: \"Das ist das Café, ___ wir uns kennengelernt haben.\"",
             options: ["wo", "was", "das", "der"],
             correctIndex: 0,
             explanation: "A place where something happened: \"wo\" (or \"in dem\").",
@@ -827,7 +828,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
       {
         heading: "Recap: pointing people out",
         body: [
-          "Looking at a photo, you point people out with \"Das ist ...\" + a relative clause. Mix every case: \"der Mann, der neben der Braut steht\", \"die Frau, die du kennst\", \"der Junge, dem die Torte gefällt\", \"die Frau, deren Bruder ...\", \"der Typ, mit dem ...\". Braut = bride, Bräutigam = groom, Trauzeuge = best man.",
+          "Looking at a photo, you point people out with \"Das ist ...\" + a relative clause. Mix every case: \"der Mann, der neben der Braut steht\", \"die Frau, die du kennst\", \"der Junge, dem die Torte gefällt\", \"die Frau, deren Bruder ...\", \"der Typ, mit dem ...\". \"Die Braut\" = bride, \"der Bräutigam\" = groom, \"der Trauzeuge\" = best man.",
         ],
         examples: [
           { es: "Das ist der Mann, der neben der Braut steht.", en: "That's the man standing next to the bride." },
@@ -988,15 +989,15 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
           "1) Find the shared noun. 2) Replace the second mention (often a pronoun like \"ihm\", \"ihr\", \"ihnen\") with the matching relative pronoun and keep the preposition in front of it: \"mit ihm\" → \"mit dem\", \"für sie\" → \"für die\", \"bei ihnen\" → \"bei denen\". 3) Put the conjugated verb at the end.",
         ],
         examples: [
-          { es: "Das ist mein Freund. Ich wohne mit ihm. → Das ist mein Freund, mit dem ich wohne.", en: "That's my friend. I live with him. → That's my friend I live with." },
+          { es: "Das ist mein Freund. Ich wohne mit ihm. → Das ist mein Freund, mit dem ich wohne.", en: "That's my friend. I live with him. → That's my friend who I live with." },
           { es: "Das ist die Firma. Ich arbeite für sie. → Das ist die Firma, für die ich arbeite.", en: "That's the company. I work for it. → That's the company I work for." },
-          { es: "Das sind meine Gastgeber. Ich wohne bei ihnen. → Das sind meine Gastgeber, bei denen ich wohne.", en: "Those are my hosts. I'm staying with them. → Those are my hosts I'm staying with." },
+          { es: "Das sind meine Gastgeber. Ich wohne bei ihnen. → Das sind meine Gastgeber, bei denen ich wohne.", en: "Those are my hosts. I'm staying with them. → Those are my hosts, who I'm staying with." },
           { es: "Das ist der See. Wir schwimmen darin. → Das ist der See, in dem wir schwimmen.", en: "That's the lake. We swim in it. → That's the lake we swim in." },
         ],
         checkpoint: [
           {
             type: "word-order",
-            prompt: "Join: Das ist die Firma. Ich arbeite für sie.",
+            prompt: "Join: \"Das ist die Firma. Ich arbeite für sie.\"",
             words: ["Das", "ist", "die", "Firma,", "für", "die", "ich", "arbeite."],
             translation: "That's the company I work for.",
             explanation: "\"Für sie\" → \"für die\".",
@@ -1004,7 +1005,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Those are my hosts [I'm staying with].",
+            en: "Those are my hosts, [who I'm staying with].",
             sentence: "Das sind meine Gastgeber, ___ ich wohne.",
             answer: "bei denen",
             explanation: "\"Bei ihnen\" → \"bei denen\".",
@@ -1045,7 +1046,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Join into one sentence: The bike is new. I ride to work on it.",
         answer: "Das Fahrrad, mit dem ich zur Arbeit fahre, ist neu.",
-        explanation: "\"Mit ihm\" → \"mit dem\".",
+        explanation: "German rides a bike \"mit dem Fahrrad\", not on it: \"mit ihm\" → \"mit dem\" (neuter dative).",
       },
       {
         type: "translate",
@@ -1110,7 +1111,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Join: Das ist der Freund. Ich habe von ihm erzählt.",
+        prompt: "Join: \"Das ist der Freund. Ich habe von ihm erzählt.\"",
         words: ["Das", "ist", "der", "Freund,", "von", "dem", "ich", "erzählt", "habe."],
         translation: "That's the friend I told you about.",
         explanation: "\"Von ihm\" → \"von dem\".",
@@ -1213,7 +1214,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The people I think of often live in Brazil.",
+        source: "The people I often think of live in Brazil.",
         answer: "Die Menschen, an die ich oft denke, leben in Brasilien.",
         altAnswers: ["Die Leute, an die ich oft denke, wohnen in Brasilien.", "Die Leute, an die ich oft denke, leben in Brasilien."],
         explanation: "\"Denken an\" + accusative plural.",
@@ -1257,8 +1258,8 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "The friend I'm waiting for is always late.",
-        answer: "Der Freund, auf den ich warte, ist immer zu spät.",
-        altAnswers: ["Der Freund, auf den ich warte, kommt immer zu spät.", "Die Freundin, auf die ich warte, kommt immer zu spät.", "Die Freundin, auf die ich warte, ist immer zu spät."],
+        answer: "Der Freund, auf den ich warte, kommt immer zu spät.",
+        altAnswers: ["Der Freund, auf den ich warte, ist immer zu spät.", "Der Freund, auf den ich warte, ist immer unpünktlich.", "Die Freundin, auf die ich warte, kommt immer zu spät.", "Die Freundin, auf die ich warte, ist immer zu spät."],
         explanation: "\"Warten auf\" + accusative.",
       },
       {
@@ -1271,7 +1272,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Choose: Das ist die Reise, ___ ich lange geträumt habe.",
+        question: "Choose: \"Das ist die Reise, ___ ich lange geträumt habe.\"",
         options: ["von der", "von die", "auf die", "die"],
         correctIndex: 0,
         explanation: "\"Träumen von\" + dative feminine.",
@@ -1411,7 +1412,7 @@ export const DE_B1_U10_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The cinema we went to is closing.",
         answer: "Das Kino, in das wir gegangen sind, schließt.",
-        altAnswers: ["Das Kino, in das wir gegangen sind, macht zu.", "Das Kino, wo wir waren, schließt."],
+        altAnswers: ["Das Kino, in das wir gegangen sind, macht zu.", "Das Kino, wo wir waren, schließt.", "Das Kino, in dem wir waren, schließt.", "Das Kino, in das wir gegangen sind, wird geschlossen."],
         explanation: "Direction: \"in das\".",
       },
       {

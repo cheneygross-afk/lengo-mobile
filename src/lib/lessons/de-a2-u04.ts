@@ -76,7 +76,6 @@ export const DE_A2_U04: Lesson[] = [
             prompt: "Translate into German.",
             source: "Were you scared? (to a friend)",
             answer: "Hattest du Angst?",
-            altAnswers: ["Hattet ihr Angst?", "Hatten Sie Angst?"],
             explanation: "Scared = \"Angst haben\"; du form \"hattest\".",
           },
           {
@@ -174,10 +173,10 @@ export const DE_A2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the most natural way to say: I was ill last week.",
-        options: ["Letzte Woche war ich krank.", "Letzte Woche bin ich krank gewesen.", "Letzte Woche habe ich krank gewesen.", "Letzte Woche ich war krank."],
+        question: "Which is correct for: I was ill last week.",
+        options: ["Letzte Woche war ich krank.", "Letzte Woche hatte ich krank.", "Letzte Woche habe ich krank gewesen.", "Letzte Woche ich war krank."],
         correctIndex: 0,
-        explanation: "\"War\" is the everyday choice; \"bin ... gewesen\" is correct but heavier; the others are wrong.",
+        explanation: "\"War\" is the everyday choice (\"bin ... gewesen\" would also be correct, just heavier). Being ill is \"sein\", not \"haben\"; \"*habe ... gewesen*\" uses the wrong helper; and after \"Letzte Woche\" the verb must come second.",
       },
       {
         type: "translate",
@@ -213,7 +212,7 @@ export const DE_A2_U04: Lesson[] = [
     slug: "a2-praeteritum-pattern-war-hatte",
     level: "DE-A2",
     number: 2,
-    title: "Pattern Practice: Ich War, Du Warst",
+    title: "Pattern Practice: Ich war, du warst",
     summary: "Drill war and hatte through every person, and avoid the traps ich wart and er warte.",
     duration: "10 min",
     sections: [
@@ -221,7 +220,7 @@ export const DE_A2_U04: Lesson[] = [
         heading: "War through every person",
         body: [
           "ich war, du warst, er/sie/es war, wir waren, ihr wart, sie/Sie waren. Two pairs share a form: \"ich war\" = \"er war\", and \"wir waren\" = \"sie waren\" = \"Sie waren\".",
-          "Trap 1: *ich wart* or *ich warte*. \"Ich warte\" is a completely different verb: I wait (from \"warten\"). \"Ich war\" has no ending.",
+          "Trap 1: \"*ich wart*\" or \"*ich warte*\". \"Ich warte\" is a completely different verb: I wait (from \"warten\"). \"Ich war\" has no ending.",
           "Trap 2: \"ihr wart\" ends in -t without an e; \"ihr hattet\" has one. Just learn the two shapes.",
         ],
         examples: [
@@ -255,7 +254,7 @@ export const DE_A2_U04: Lesson[] = [
         heading: "Hatte through every person",
         body: [
           "ich hatte, du hattest, er/sie/es hatte, wir hatten, ihr hattet, sie/Sie hatten. Stem \"hatt-\" + the endings -e, -est, -e, -en, -et, -en.",
-          "Don't drop a t: *hate*, *hatest* are spelling slips. And don't confuse \"hatte\" (had) with \"hätte\" (would have), which you'll meet at the Intermediate level.",
+          "Don't drop a t: \"*hate*\", \"*hatest*\" are spelling slips. And don't confuse \"hatte\" (had) with \"hätte\" (would have), which you'll meet at the Intermediate level.",
         ],
         examples: [
           { es: "Ich hatte einen Hund.", en: "I had a dog." },
@@ -272,7 +271,7 @@ export const DE_A2_U04: Lesson[] = [
             prompt: "Translate into German.",
             source: "You were right. (to a friend)",
             answer: "Du hattest recht.",
-            altAnswers: ["Du hattest Recht.", "Ihr hattet recht.", "Sie hatten recht."],
+            altAnswers: ["Du hattest Recht."],
             explanation: "German says to have right: \"recht haben\" → \"du hattest recht\".",
           },
           {
@@ -329,7 +328,6 @@ export const DE_A2_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "You were so funny! (to a friend)",
         answer: "Du warst so lustig!",
-        altAnswers: ["Ihr wart so lustig!", "Sie waren so lustig!"],
         explanation: "\"Du warst\".",
       },
       {
@@ -396,7 +394,7 @@ export const DE_A2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which completes: Mia und Leon ___ gestern im Theater.",
+        question: "Mia and Leon were at the theatre yesterday. Which completes: Mia und Leon ___ gestern im Theater.",
         options: ["waren", "war", "wart", "warst"],
         correctIndex: 0,
         explanation: "Two people = they: \"waren\".",
@@ -418,7 +416,7 @@ export const DE_A2_U04: Lesson[] = [
     slug: "a2-es-gab-hunger-hatte",
     level: "DE-A2",
     number: 3,
-    title: "Drill Circuit: Es Gab, Ich Hatte Hunger, Es War Kalt",
+    title: "Drill Circuit: Es gab, ich hatte Hunger, es war kalt",
     summary: "High-frequency past chunks: es gab (there was/were), ich hatte Hunger, es war kalt, wie war...?",
     duration: "11 min",
     sections: [
@@ -427,7 +425,7 @@ export const DE_A2_U04: Lesson[] = [
         body: [
           "\"Es gibt\" (there is/are) from the Beginner level becomes \"es gab\" in the past. It never changes for singular or plural: \"Es gab ein Problem\" (there was a problem), \"Es gab viele Leute\" (there were lots of people).",
           "Like \"es gibt\", it's followed by the accusative: \"Es gab keinen Kuchen\" (there was no cake), \"Es gab einen Unfall\" (there was an accident).",
-          "Don't translate there was with *da war* in these sentences: \"es gab\" is the standard. (\"Da war...\" does exist for pointing to something specific in a story, but it's not the general there was.)",
+          "Don't translate there was with \"*da war*\" in these sentences: \"es gab\" is the standard. (\"Da war...\" does exist for pointing to something specific in a story, but it's not the general there was.)",
         ],
         examples: [
           { es: "Es gab ein Problem.", en: "There was a problem." },
@@ -460,7 +458,7 @@ export const DE_A2_U04: Lesson[] = [
         heading: "Ich hatte Hunger, Durst, Angst, Glück",
         body: [
           "English uses be for feelings and states where German uses \"haben\" + a noun: \"Ich hatte Hunger\" (I was hungry), \"Durst\" (thirsty), \"Angst\" (scared), \"Glück\" (lucky), \"Pech\" (unlucky), \"recht\" (right), \"Lust\" (I felt like it).",
-          "So English was often becomes \"hatte\" in German. The trap: *ich war Hunger*.",
+          "So English was often becomes \"hatte\" in German. The trap: \"*ich war Hunger*\".",
         ],
         examples: [
           { es: "Ich hatte großen Hunger.", en: "I was really hungry." },
@@ -491,7 +489,7 @@ export const DE_A2_U04: Lesson[] = [
         heading: "Es war kalt, wie war...?",
         body: [
           "Weather and impressions use \"es war\": \"Es war kalt\", \"Es war schön\", \"Es war langweilig\" (boring), \"Es war super!\" And the classic question: \"Wie war der Urlaub?\", \"Wie war die Party?\", \"Wie war's?\"",
-          "Careful with feeling cold: \"Es war kalt\" (the weather/room was cold) vs \"Mir war kalt\" (I felt cold, chunk from the Beginner level). *Ich war kalt* would mean your personality was cold.",
+          "Careful with feeling cold: \"Es war kalt\" (the weather/room was cold) vs \"Mir war kalt\" (I felt cold, chunk from the Beginner level). \"*Ich war kalt*\" would mean your personality was cold.",
         ],
         examples: [
           { es: "Es war sehr kalt.", en: "It was very cold." },
@@ -516,8 +514,7 @@ export const DE_A2_U04: Lesson[] = [
             prompt: "Translate into German.",
             source: "I was cold.",
             answer: "Mir war kalt.",
-            altAnswers: ["Mir war es kalt."],
-            explanation: "Feeling cold = \"mir war kalt\", not *ich war kalt*.",
+            explanation: "Feeling cold = \"mir war kalt\", not \"*ich war kalt*\".",
           },
           {
             type: "listen-choose",
@@ -603,7 +600,6 @@ export const DE_A2_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "Didn't you feel like it? (to a friend)",
         answer: "Hattest du keine Lust?",
-        altAnswers: ["Hattet ihr keine Lust?", "Hatten Sie keine Lust?"],
         explanation: "\"Lust haben\" = feel like it.",
       },
       {
@@ -764,7 +760,7 @@ export const DE_A2_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "You were supposed to call! (to a friend)",
         answer: "Du solltest doch anrufen!",
-        altAnswers: ["Du solltest anrufen!", "Ihr solltet doch anrufen!"],
+        altAnswers: ["Du solltest anrufen!"],
         explanation: "\"Sollen\" → \"solltest\"; \"doch\" adds reproach.",
       },
       {
@@ -803,15 +799,15 @@ export const DE_A2_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "She wasn't allowed to come, so she stayed at home.",
         answer: "Sie durfte nicht mitkommen, also ist sie zu Hause geblieben.",
-        altAnswers: ["Sie durfte nicht kommen, also ist sie zu Hause geblieben.", "Sie durfte nicht mitkommen, deshalb ist sie zu Hause geblieben."],
+        altAnswers: ["Sie durfte nicht kommen, also ist sie zu Hause geblieben.", "Sie durfte nicht mitkommen, deshalb ist sie zu Hause geblieben.", "Sie durfte nicht mitkommen, also ist sie zuhause geblieben."],
         explanation: "\"Durfte\" + \"ist geblieben\".",
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is natural spoken German?",
+        question: "Which is natural spoken German for: I had to work yesterday.",
         options: ["Ich musste gestern arbeiten.", "Ich habe gestern arbeiten gemusst.", "Ich habe gestern gemusst arbeiten.", "Ich müsste gestern arbeiten."],
         correctIndex: 0,
-        explanation: "Modals use the Präteritum: \"musste\" + infinitive.",
+        explanation: "Modals use the Präteritum: \"musste\" + infinitive. \"*Gemusst*\" is wrong with a second verb, and \"müsste\" (with umlaut) means would have to.",
       },
       {
         type: "dictation",
@@ -902,7 +898,6 @@ export const DE_A2_U04: Lesson[] = [
             prompt: "Translate into German.",
             source: "You weren't allowed to smoke. (to a friend)",
             answer: "Du durftest nicht rauchen.",
-            altAnswers: ["Ihr durftet nicht rauchen.", "Sie durften nicht rauchen."],
             explanation: "\"Durftest\": u, no umlaut, -test.",
           },
         ],
@@ -926,7 +921,6 @@ export const DE_A2_U04: Lesson[] = [
             prompt: "Translate into German.",
             source: "Could you understand him? (to a friend)",
             answer: "Konntest du ihn verstehen?",
-            altAnswers: ["Konntet ihr ihn verstehen?", "Konnten Sie ihn verstehen?"],
             explanation: "Past ability: \"konntest\".",
           },
           {
@@ -996,7 +990,6 @@ export const DE_A2_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "Can you understand him? (to a friend)",
         answer: "Kannst du ihn verstehen?",
-        altAnswers: ["Könnt ihr ihn verstehen?", "Können Sie ihn verstehen?"],
         explanation: "Present: \"kannst\". The past would be \"konntest\".",
       },
       {
@@ -1020,7 +1013,7 @@ export const DE_A2_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "Were you allowed to go to the party? (to a friend)",
         answer: "Durftest du auf die Party gehen?",
-        altAnswers: ["Durftest du zur Party gehen?", "Durftet ihr auf die Party gehen?"],
+        altAnswers: ["Durftest du zur Party gehen?"],
         explanation: "\"Durftest du\": past, question with the modal first.",
       },
       {
@@ -1174,7 +1167,7 @@ export const DE_A2_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "You don't have to come. (to a friend)",
         answer: "Du musst nicht kommen.",
-        altAnswers: ["Ihr müsst nicht kommen.", "Sie müssen nicht kommen.", "Du brauchst nicht zu kommen."],
+        altAnswers: ["Du brauchst nicht zu kommen."],
         explanation: "No obligation: \"nicht müssen\".",
       },
       {
@@ -1183,7 +1176,6 @@ export const DE_A2_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "You mustn't park here. (to a friend)",
         answer: "Du darfst hier nicht parken.",
-        altAnswers: ["Ihr dürft hier nicht parken.", "Sie dürfen hier nicht parken."],
         explanation: "Must not = \"nicht dürfen\".",
       },
       {
@@ -1225,7 +1217,7 @@ export const DE_A2_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "You were supposed to buy bread! (to a friend)",
         answer: "Du solltest doch Brot kaufen!",
-        altAnswers: ["Du solltest Brot kaufen!", "Ihr solltet doch Brot kaufen!"],
+        altAnswers: ["Du solltest Brot kaufen!"],
         explanation: "\"Solltest\" = were supposed to.",
       },
       {
@@ -1254,7 +1246,7 @@ export const DE_A2_U04: Lesson[] = [
     slug: "a2-mission-frueher-war-alles-anders",
     level: "DE-A2",
     number: 7,
-    title: "Real-World Mission: Früher War Alles Anders",
+    title: "Real-World Mission: Früher war alles anders",
     summary: "Interview an older relative about their childhood and compare then and now.",
     duration: "13 min",
     sections: [
@@ -1285,6 +1277,7 @@ export const DE_A2_U04: Lesson[] = [
             prompt: "Translate into German.",
             source: "What did you have to do at home? (to your grandma)",
             answer: "Was musstest du zu Hause machen?",
+            altAnswers: ["Was musstest du zuhause machen?"],
             explanation: "\"Musstest\" + infinitive at the end.",
           },
         ],
@@ -1394,6 +1387,7 @@ export const DE_A2_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "There was no internet.",
         answer: "Es gab kein Internet.",
+        altAnswers: ["Es gab noch kein Internet.", "Damals gab es kein Internet."],
         explanation: "\"Es gab\" + \"kein Internet\".",
       },
       {
@@ -1408,10 +1402,10 @@ export const DE_A2_U04: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Did you [like] school? (to your grandma)",
+        en: "[Did] you [like] school? (to your grandma)",
         sentence: "___ du die Schule?",
         answer: "Mochtest",
-        explanation: "\"Mögen\" → \"mochtest\".",
+        explanation: "English did ... like is one word in German: \"mögen\" → \"mochtest\" (no umlaut, g becomes ch), first in the question.",
       },
       {
         type: "multiple-choice",
@@ -1435,7 +1429,8 @@ export const DE_A2_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "There were five of us children.",
         answer: "Wir waren fünf Kinder.",
-        explanation: "German says we were five children.",
+        altAnswers: ["Wir waren zu fünft."],
+        explanation: "German says we were five children (or \"wir waren zu fünft\": there were five of us).",
       },
       {
         type: "dictation",
@@ -1567,7 +1562,7 @@ export const DE_A2_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "There was snow everywhere.",
         answer: "Überall gab es Schnee.",
-        altAnswers: ["Es gab überall Schnee.", "Überall war Schnee."],
+        altAnswers: ["Es gab überall Schnee.", "Überall war Schnee.", "Überall lag Schnee."],
         explanation: "\"Es gab\"; after \"Überall\" the order is \"gab es\".",
       },
       {
@@ -1613,10 +1608,10 @@ export const DE_A2_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence fits a scene description?",
-        options: ["Es gab viele Leute auf dem Platz.", "Es gab viele Leute auf dem Platz gegeben.", "Es gaben viele Leute auf dem Platz.", "Es hat viele Leute auf dem Platz."],
+        question: "Which is correct for: There were lots of people in the square.",
+        options: ["Es gab viele Leute auf dem Platz.", "Es gab viele Leute auf dem Platz gegeben.", "Es gaben viele Leute auf dem Platz.", "Es war viele Leute auf dem Platz."],
         correctIndex: 0,
-        explanation: "\"Es gab\" + accusative, never plural.",
+        explanation: "\"Es gab\" + accusative, and it never becomes \"*gaben*\", even before a plural; no participle is needed in the Präteritum.",
       },
       {
         type: "translate",

@@ -42,7 +42,8 @@ export const DE_B2_U23_EXTRA: Lesson[] = [
             en: "The mistake [can easily be fixed].",
             sentence: "Der Fehler ___.",
             answer: "lässt sich leicht beheben",
-            explanation: "\"Sich lassen\" + infinitive is a passive alternative meaning can be done.",
+            altAnswers: ["lässt sich einfach beheben", "kann leicht behoben werden", "ist leicht zu beheben"],
+            explanation: "\"Sich lassen\" + infinitive is a passive alternative meaning 'can be done'; \"kann behoben werden\" and \"ist zu beheben\" say the same.",
           },
           {
             type: "translate",
@@ -72,7 +73,7 @@ export const DE_B2_U23_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The minister said the plan was too expensive.",
         answer: "Der Minister sagte, der Plan sei zu teuer.",
-        altAnswers: ["Der Minister sagte, dass der Plan zu teuer sei.", "Der Minister hat gesagt, der Plan sei zu teuer.", "Die Ministerin sagte, der Plan sei zu teuer.", "Der Minister sagte, der Plan wäre zu teuer."],
+        altAnswers: ["Der Minister sagte, dass der Plan zu teuer sei.", "Der Minister hat gesagt, der Plan sei zu teuer.", "Der Minister hat gesagt, dass der Plan zu teuer sei.", "Die Ministerin sagte, der Plan sei zu teuer.", "Der Minister sagte, der Plan wäre zu teuer."],
         explanation: "Konjunktiv I \"sei\" keeps the speaker's tense: no backshift as in English.",
       },
       {
@@ -112,7 +113,7 @@ export const DE_B2_U23_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which structure fits best? English: 'The bridge is being repaired at the moment.'",
+        question: "The bridge is being repaired at the moment. Which German sentence says this?",
         options: ["Die Brücke wird zurzeit repariert.", "Die Brücke ist zurzeit repariert.", "Die Brücke repariert zurzeit.", "Die Brücke hätte zurzeit repariert."],
         correctIndex: 0,
         explanation: "A process in progress → Vorgangspassiv with \"werden\". \"Ist repariert\" would mean the work is finished.",
@@ -131,6 +132,7 @@ export const DE_B2_U23_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: During the meeting no decision was made.",
         words: ["Während", "der Sitzung", "wurde", "keine", "Entscheidung", "getroffen."],
         translation: "During the meeting no decision was made.",
+        altOrders: [["Keine", "Entscheidung", "wurde", "während", "der Sitzung", "getroffen."]],
         explanation: "\"Während\" + genitive; \"eine Entscheidung treffen\" in the passive.",
       },
       {
@@ -178,7 +180,7 @@ export const DE_B2_U23_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Mood and Tense Marathon",
-    summary: "Konjunktiv I, Konjunktiv II and the indicative in long mixed sentences.",
+    summary: "Choose between the indicative, Konjunktiv I and Konjunktiv II in long sentences that mix reported speech with unreal conditions.",
     duration: "14 min",
     sections: [
       {
@@ -210,6 +212,7 @@ export const DE_B2_U23_EXTRA: Lesson[] = [
             en: "I know she's right, but I wish [she were wrong].",
             sentence: "Ich weiß, dass sie recht hat, aber ich wünschte, ___.",
             answer: "sie hätte unrecht",
+            altAnswers: ["sie hätte nicht recht", "sie hätte Unrecht"],
             explanation: "A wish → Konjunktiv II; the fact before it stays indicative.",
           },
         ],
@@ -231,7 +234,7 @@ export const DE_B2_U23_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "He claims he'd have come if he'd been invited.",
         answer: "Er behauptet, er wäre gekommen, wenn man ihn eingeladen hätte.",
-        altAnswers: ["Er behauptet, er wäre gekommen, wenn er eingeladen worden wäre.", "Er behauptet, dass er gekommen wäre, wenn man ihn eingeladen hätte."],
+        altAnswers: ["Er behauptet, er wäre gekommen, wenn er eingeladen worden wäre.", "Er behauptet, dass er gekommen wäre, wenn man ihn eingeladen hätte.", "Er behauptet, dass er gekommen wäre, wenn er eingeladen worden wäre."],
         explanation: "Unreal past inside reported speech stays Konjunktiv II.",
       },
       {
@@ -240,7 +243,8 @@ export const DE_B2_U23_EXTRA: Lesson[] = [
         en: "The spokesman explained that the project [would be finished] in autumn.",
         sentence: "Der Sprecher erklärte, das Projekt ___ im Herbst fertig.",
         answer: "werde",
-        explanation: "Reported future: Konjunktiv I \"werde\" (indicative \"wird\").",
+        altAnswers: ["würde"],
+        explanation: "Reported future: Konjunktiv I \"werde\" (indicative \"wird\"); Konjunktiv II \"würde\" is also common.",
       },
       {
         type: "translate",
@@ -253,10 +257,10 @@ export const DE_B2_U23_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which verb form completes the report? 'Die Kinder sagten, sie ___ schon gegessen.'",
+        question: "Written report: the children said they had already eaten. Which form completes \"Die Kinder sagten, sie ___ schon gegessen.\"?",
         options: ["hätten", "haben", "hatten", "habe"],
         correctIndex: 0,
-        explanation: "Konjunktiv I \"sie haben\" equals the indicative, so Konjunktiv II \"hätten\" is used.",
+        explanation: "Konjunktiv I \"sie haben\" equals the indicative, so written German uses Konjunktiv II \"hätten\". (In speech the indicative \"haben\" is common; \"habe\" is singular.)",
       },
       {
         type: "translate",
@@ -264,7 +268,7 @@ export const DE_B2_U23_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The doctor said I should rest more, otherwise I would get ill again.",
         answer: "Die Ärztin sagte, ich solle mich mehr ausruhen, sonst würde ich wieder krank.",
-        altAnswers: ["Der Arzt sagte, ich solle mich mehr ausruhen, sonst würde ich wieder krank.", "Die Ärztin sagte, ich solle mich mehr ausruhen, sonst werde ich wieder krank.", "Der Arzt sagte, ich solle mich mehr ausruhen, sonst würde ich wieder krank werden.", "Die Ärztin sagte, ich sollte mich mehr ausruhen, sonst würde ich wieder krank werden.", "Der Arzt sagte, ich solle mich mehr ausruhen, sonst werde ich wieder krank."],
+        altAnswers: ["Der Arzt sagte, ich solle mich mehr ausruhen, sonst würde ich wieder krank.", "Die Ärztin sagte, ich solle mich mehr ausruhen, sonst werde ich wieder krank.", "Der Arzt sagte, ich solle mich mehr ausruhen, sonst würde ich wieder krank werden.", "Die Ärztin sagte, ich sollte mich mehr ausruhen, sonst würde ich wieder krank werden.", "Der Arzt sagte, ich solle mich mehr ausruhen, sonst werde ich wieder krank.", "Die Ärztin sagte, ich solle mich mehr ausruhen, sonst würde ich wieder krank werden.", "Der Arzt sagte, ich sollte mich mehr ausruhen, sonst würde ich wieder krank werden."],
         explanation: "A reported request → \"solle\"; the consequence can be Konjunktiv I or II.",
       },
       {
@@ -366,7 +370,7 @@ export const DE_B2_U23_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Please [inform me of] your decision.",
+            en: "Please [inform] me of your decision.",
             sentence: "Bitte ___ mir Ihre Entscheidung mit.",
             answer: "teilen Sie",
             explanation: "\"Mitteilen\" is the formal equivalent of \"Bescheid sagen\".",
@@ -404,7 +408,7 @@ export const DE_B2_U23_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the formal version of 'Wegen dem Stau komme ich später.'?",
+        question: "Which is the formal version of \"Wegen dem Stau komme ich später.\"?",
         options: ["Aufgrund eines Staus verspäte ich mich.", "Wegen Stau bin ich halt später da.", "Weil Stau ist, komme ich später.", "Durch dem Stau komme ich später."],
         correctIndex: 0,
         explanation: "Genitive preposition \"aufgrund\" + the verb \"sich verspäten\".",
@@ -412,7 +416,7 @@ export const DE_B2_U23_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "We will gladly [make] the room [available] to you.",
+        en: "We will gladly make the room [available] to you.",
         sentence: "Wir stellen Ihnen den Raum gern ___.",
         answer: "zur Verfügung",
         explanation: "Funktionsverbgefüge: \"zur Verfügung stellen\" = to make available.",

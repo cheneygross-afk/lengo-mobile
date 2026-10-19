@@ -9,14 +9,14 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Participle and Infinitive Constructions, Part 1 of 3",
-    summary: "Drill extended participial attributes and the Gerundiv in new sentences.",
+    summary: "Practise extended participial attributes and the Gerundiv in new sentences.",
     duration: "15 min",
     sections: [
       {
         heading: "Recap: participial attributes and the Gerundiv",
         body: [
           "An extended participial attribute sits between the article and the noun and replaces a relative clause: \"der Zug, der vor zehn Minuten angekommen ist\" → \"der vor zehn Minuten angekommene Zug\". Partizip I is active and ongoing (\"die steigenden Preise\"); Partizip II is passive or completed (\"die gestiegenen Preise\", \"das reparierte Auto\").",
-          "The Gerundiv is zu + Partizip I used as an attribute. It expresses what must or can be done: \"die zu erledigenden Aufgaben\" means the tasks that have to be done. Both take normal adjective endings.",
+          "The Gerundiv is \"zu\" + Partizip I used as an attribute. It expresses what must or can be done: \"die zu erledigenden Aufgaben\" means the tasks that have to be done. Both take normal adjective endings.",
         ],
         examples: [
           { es: "Der vor zehn Minuten angekommene Zug fährt gleich weiter.", en: "The train that arrived ten minutes ago is leaving again shortly." },
@@ -40,7 +40,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
             question: "Which phrase means the documents that must be signed?",
             options: ["die zu unterschreibenden Dokumente", "die unterschriebenen Dokumente", "die unterschreibenden Dokumente", "die zu unterschrieben Dokumente"],
             correctIndex: 0,
-            explanation: "Gerundiv: zu + Partizip I + ending = what must be done.",
+            explanation: "Gerundiv: \"zu\" + Partizip I + ending = what must be done. \"Unterschriebenen\" means already signed; \"unterschreibenden\" would make the documents do the signing.",
           },
         ],
       },
@@ -85,7 +85,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[The car repaired last week] is broken again.",
+        en: "The car [repaired] last week is broken again.",
         sentence: "Das letzte Woche ___ Auto ist schon wieder kaputt.",
         answer: "reparierte",
         explanation: "Partizip II \"repariert\" + neuter nominative ending after \"das\": \"reparierte\".",
@@ -132,7 +132,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
           { left: "die lesenden Kinder", right: "children who are reading" },
           { left: "die gelesenen Bücher", right: "books that have been read" },
           { left: "die zu lesenden Texte", right: "texts that must be read" },
-          { left: "die vorlesende Lehrerin", right: "a teacher reading aloud" },
+          { left: "die vorlesende Lehrerin", right: "the teacher reading aloud" },
         ],
         explanation: "Partizip I = active and ongoing, Partizip II = passive or completed, Gerundiv = obligation.",
       },
@@ -170,14 +170,14 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Participle and Infinitive Constructions, Part 2 of 3",
-    summary: "Practise zu-infinitives in the past (gemacht zu haben) and the passive (gemacht zu werden).",
+    summary: "Practise zu-infinitives in the past (\"gemacht zu haben\") and the passive (\"gemacht zu werden\").",
     duration: "15 min",
     sections: [
       {
         heading: "Recap: past and passive zu-infinitives",
         body: [
-          "A zu-infinitive can express an earlier action: Partizip II + zu haben / zu sein (\"Ich bin froh, die Prüfung bestanden zu haben\", \"Er bedauert, zu spät gekommen zu sein\"). Choose haben or sein exactly as in the Perfekt.",
-          "The passive infinitive is Partizip II + zu werden (\"Sie hofft, eingeladen zu werden\"); the past passive is Partizip II + worden zu sein (\"Er behauptet, nie informiert worden zu sein\"). These only work when the subject of the main clause is also the subject of the infinitive.",
+          "A zu-infinitive can express an earlier action: Partizip II + \"zu haben\" / \"zu sein\" (\"Ich bin froh, die Prüfung bestanden zu haben\", \"Er bedauert, zu spät gekommen zu sein\"). Choose \"haben\" or \"sein\" exactly as in the Perfekt.",
+          "The passive infinitive is Partizip II + \"zu werden\" (\"Sie hofft, eingeladen zu werden\"); the past passive is Partizip II + \"worden zu sein\" (\"Er behauptet, nie informiert worden zu sein\"). These only work when the subject of the main clause is also the subject of the infinitive.",
         ],
         examples: [
           { es: "Ich bin froh, die Prüfung bestanden zu haben.", en: "I'm glad to have passed the exam." },
@@ -194,7 +194,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
             source: "I'm glad to have passed the exam.",
             answer: "Ich bin froh, die Prüfung bestanden zu haben.",
             altAnswers: ["Ich bin froh, dass ich die Prüfung bestanden habe."],
-            explanation: "Past infinitive: Partizip II + zu haben.",
+            explanation: "Past infinitive: Partizip II + \"zu haben\".",
           },
           {
             type: "multiple-choice",
@@ -214,7 +214,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         source: "She hopes to be invited to the interview.",
         answer: "Sie hofft, zum Vorstellungsgespräch eingeladen zu werden.",
         altAnswers: ["Sie hofft, dass sie zum Vorstellungsgespräch eingeladen wird."],
-        explanation: "Passive infinitive: Partizip II + zu werden.",
+        explanation: "Passive infinitive: Partizip II + \"zu werden\".",
       },
       {
         type: "translate",
@@ -223,7 +223,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         source: "He claims never to have been informed.",
         answer: "Er behauptet, nie informiert worden zu sein.",
         altAnswers: ["Er behauptet, niemals informiert worden zu sein.", "Er behauptet, dass er nie informiert worden ist."],
-        explanation: "Past passive infinitive: Partizip II + worden zu sein.",
+        explanation: "Past passive infinitive: Partizip II + \"worden zu sein\".",
       },
       {
         type: "translate",
@@ -246,7 +246,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[I'm sorry to have disturbed you.]",
+        en: "I'm sorry to [have] disturbed you.",
         sentence: "Es tut mir leid, Sie gestört zu ___.",
         answer: "haben",
         explanation: "\"Stören\" takes haben in the Perfekt: \"gestört zu haben\".",
@@ -263,7 +263,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "He left without [having said] goodbye.",
+        en: "He left without [having] said goodbye.",
         sentence: "Er ging, ohne sich verabschiedet zu ___.",
         answer: "haben",
         explanation: "Past infinitive after \"ohne\": \"sich verabschiedet zu haben\".",
@@ -288,7 +288,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which infinitive fits? Sie behauptet, das Geld nie ___.",
+        question: "She claims never to have received the money. Which fills the gap: \"Sie behauptet, das Geld nie ___.\"?",
         options: ["bekommen zu haben", "bekommen zu sein", "bekommen worden zu sein", "zu bekommen haben"],
         correctIndex: 0,
         explanation: "\"Bekommen\" takes haben: \"bekommen zu haben\".",
@@ -333,8 +333,8 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
       {
         heading: "Recap: zu or no zu, and the double infinitive",
         body: [
-          "No zu after modal verbs, werden, lassen, the verbs of perception sehen, hören, fühlen, and after bleiben, gehen, lernen in fixed patterns (\"Ich lasse das Auto reparieren\", \"Ich höre ihn singen\", \"Wir gehen schwimmen\"). Almost everything else takes zu (\"Ich versuche, pünktlich zu sein\").",
-          "In the Perfekt, modals and lassen (and often sehen, hören) use the infinitive instead of the Partizip II: \"Ich habe gestern arbeiten müssen\", \"Sie hat sich die Haare schneiden lassen\". In a subordinate clause, haben comes before the double infinitive: \"..., weil ich gestern habe arbeiten müssen\".",
+          "No \"zu\" after modal verbs, \"werden\", \"lassen\", the verbs of perception \"sehen\", \"hören\", \"fühlen\", and after \"bleiben\", \"gehen\", \"lernen\" in fixed patterns (\"Ich lasse das Auto reparieren\", \"Ich höre ihn singen\", \"Wir gehen schwimmen\"). Almost everything else takes \"zu\" (\"Ich versuche, pünktlich zu sein\").",
+          "In the Perfekt, modals and \"lassen\" (and often \"sehen\", \"hören\") use the infinitive instead of the Partizip II: \"Ich habe gestern arbeiten müssen\", \"Sie hat sich die Haare schneiden lassen\". In a subordinate clause, \"haben\" comes before the double infinitive: \"..., weil ich gestern habe arbeiten müssen\".",
         ],
         examples: [
           { es: "Ich lasse mein Fahrrad reparieren.", en: "I'm having my bike repaired." },
@@ -403,10 +403,10 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I'm trying [to be] on time.",
+        en: "I'm trying [to] be on time.",
         sentence: "Ich versuche, pünktlich ___ sein.",
         answer: "zu",
-        explanation: "\"Versuchen\" is not a modal: it needs zu.",
+        explanation: "\"Versuchen\" is not a modal: it needs \"zu\".",
       },
       {
         type: "translate",
@@ -420,7 +420,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[She didn't want to] come along.",
+        en: "She didn't [want to] come along.",
         sentence: "Sie hat nicht mitkommen ___.",
         answer: "wollen",
         explanation: "Double infinitive: \"mitkommen wollen\", not \"gewollt\".",
@@ -432,7 +432,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         source: "He forgot to call his mother.",
         answer: "Er hat vergessen, seine Mutter anzurufen.",
         altAnswers: ["Er vergaß, seine Mutter anzurufen."],
-        explanation: "\"Vergessen\" takes zu; with separable verbs zu goes in the middle: \"anzurufen\".",
+        explanation: "\"Vergessen\" takes \"zu\"; with separable verbs \"zu\" goes in the middle: \"anzurufen\".",
       },
       {
         type: "translate",
@@ -452,7 +452,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
           { left: "lassen", right: "bare infinitive, double infinitive in Perfekt" },
           { left: "anfangen", right: "zu-infinitive (anzufangen)" },
         ],
-        explanation: "Modals and lassen take no zu; most other verbs need zu.",
+        explanation: "Modals and \"lassen\" take no \"zu\"; most other verbs need \"zu\".",
       },
       {
         type: "word-order",
@@ -478,7 +478,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         type: "speak",
         text: "Sie hat sich die Haare schneiden lassen.",
         prompt: "Say it in German: She had her hair cut.",
-        explanation: "\"Schneiden lassen\": double infinitive with lassen.",
+        explanation: "\"Schneiden lassen\": double infinitive with \"lassen\".",
       },
     ],
   },
@@ -494,7 +494,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
       {
         heading: "Recap: whose participle is it?",
         body: [
-          "A participial phrase at the start of a sentence (\"Am Bahnhof angekommen, ...\") silently takes the subject of the main clause. If that subject can't be doing the action, the phrase dangles: *\"Am Bahnhof angekommen, war der Zug schon weg\" says the train arrived at the station.",
+          "A participial phrase at the start of a sentence (\"Am Bahnhof angekommen, ...\") silently takes the subject of the main clause. If that subject can't be doing the action, the phrase dangles: \"*Am Bahnhof angekommen, war der Zug schon weg\" says the train arrived at the station.",
           "Repair it by making the right person the subject (\"Am Bahnhof angekommen, sah ich, dass der Zug schon weg war\") or by using a full clause (\"Als ich am Bahnhof ankam, war der Zug schon weg\").",
         ],
         examples: [
@@ -564,7 +564,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[When we were in Rome,] it rained every day.",
+        en: "[When] we were in Rome, it rained every day.",
         sentence: "___ wir in Rom waren, regnete es jeden Tag.",
         answer: "Als",
         altAnswers: ["Während"],
@@ -577,12 +577,12 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         source: "While I was cooking, the phone rang.",
         answer: "Während ich kochte, klingelte das Telefon.",
         altAnswers: ["Als ich kochte, klingelte das Telefon.", "Während ich gekocht habe, hat das Telefon geklingelt."],
-        explanation: "*\"Kochend klingelte das Telefon\" would make the phone the cook.",
+        explanation: "\"*Kochend klingelte das Telefon\" would make the phone the cook.",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[Well prepared,] she passed the exam easily.",
+        en: "Well [prepared], she passed the exam easily.",
         sentence: "Gut ___, bestand sie die Prüfung mühelos.",
         answer: "vorbereitet",
         explanation: "\"Sie\" was prepared: the participial phrase is attached correctly.",
@@ -594,7 +594,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         source: "Since the soup was too hot, the child didn't want to eat it.",
         answer: "Weil die Suppe zu heiß war, wollte das Kind sie nicht essen.",
         altAnswers: ["Da die Suppe zu heiß war, wollte das Kind sie nicht essen."],
-        explanation: "*\"Zu heiß, wollte das Kind ...\" would describe the child, so use a weil clause.",
+        explanation: "\"*Zu heiß, wollte das Kind ...\" would describe the child, so use a weil clause.",
       },
       {
         type: "translate",
@@ -646,7 +646,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Sein zu, Haben zu and Scheinen zu",
-    summary: "Practise modal infinitives: sein + zu (can or must be done), haben + zu (have to) and scheinen + zu (seem to).",
+    summary: "Practise modal infinitives: \"sein + zu\" (can or must be done), \"haben + zu\" (have to) and \"scheinen + zu\" (seem to).",
     duration: "14 min",
     sections: [
       {
@@ -674,8 +674,8 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Das Formular ist bis Freitag abzugeben. What does this mean?",
-            options: ["The form must be handed in by Friday.", "The form was handed in on Friday.", "I have to hand in the form by Friday.", "The form seems to be due on Friday."],
+            question: "What does this mean: \"Das Formular ist bis Freitag abzugeben.\"?",
+            options: ["The form must be handed in by Friday.", "The form was handed in on Friday.", "The form can be handed in after Friday.", "The form seems to be due on Friday."],
             correctIndex: 0,
             explanation: "Sein + zu with a deadline: passive obligation.",
           },
@@ -707,7 +707,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "He seems to be ill.",
         answer: "Er scheint krank zu sein.",
-        altAnswers: ["Er scheint krank zu sein.", "Anscheinend ist er krank."],
+        altAnswers: ["Er ist anscheinend krank.", "Anscheinend ist er krank."],
         explanation: "Scheinen + zu-infinitive.",
       },
       {
@@ -716,13 +716,13 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "She seems to have forgotten the appointment.",
         answer: "Sie scheint den Termin vergessen zu haben.",
-        altAnswers: ["Anscheinend hat sie den Termin vergessen."],
+        altAnswers: ["Anscheinend hat sie den Termin vergessen.", "Sie hat den Termin anscheinend vergessen."],
         explanation: "Scheinen + past infinitive.",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[This noise is] no longer bearable.",
+        en: "This noise [is] no longer bearable.",
         sentence: "Dieser Lärm ___ nicht mehr zu ertragen.",
         answer: "ist",
         explanation: "Sein + zu: \"ist nicht zu ertragen\" = cannot be borne.",
@@ -786,12 +786,12 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         question: "What did you hear?",
         options: ["Sie scheint den Termin vergessen zu haben.", "Sie scheint den Termin zu vergessen.", "Sie hat den Termin zu vergessen.", "Sie scheint den Termin vergessen zu sein."],
         correctIndex: 0,
-        explanation: "\"Vergessen zu haben\": past infinitive after scheinen.",
+        explanation: "\"Vergessen zu haben\": past infinitive after \"scheinen\".",
       },
       {
         type: "dictation",
         audio: "Das Formular ist bis Freitag abzugeben.",
-        explanation: "\"Abzugeben\": zu inside the separable verb.",
+        explanation: "\"Abzugeben\": \"zu\" inside the separable verb.",
       },
       {
         type: "speak",
@@ -813,8 +813,8 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
       {
         heading: "Recap: there is no single German -ing",
         body: [
-          "English -ing has several German equivalents. After verbs like stop, avoid, enjoy, German usually uses a zu-infinitive (\"Er hat aufgehört zu rauchen\") or gern (\"Ich koche gern\"). As a subject, it becomes a nominalised infinitive or a zu-infinitive (\"Das Rauchen ist hier verboten\", \"Früh aufzustehen fällt mir schwer\").",
-          "After prepositions, use ohne/statt ... zu, a noun (\"beim Kochen\") or a clause (\"nachdem ..., indem ...\"). Describing a noun, it becomes Partizip I (\"die schlafende Katze\").",
+          "English -ing has several German equivalents. After verbs like stop, avoid, enjoy, German usually uses a zu-infinitive (\"Er hat aufgehört zu rauchen\") or \"gern\" (\"Ich koche gern\"). As a subject, it becomes a nominalised infinitive or a zu-infinitive (\"Das Rauchen ist hier verboten\", \"Früh aufzustehen fällt mir schwer\").",
+          "After prepositions, use \"ohne\" / \"statt ... zu\", a noun (\"beim Kochen\") or a clause (\"nachdem ..., indem ...\"). Describing a noun, it becomes Partizip I (\"die schlafende Katze\").",
         ],
         examples: [
           { es: "Er hat aufgehört zu rauchen.", en: "He has stopped smoking." },
@@ -900,10 +900,11 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I'm thinking [of moving] to Berlin.",
-        sentence: "Ich denke darüber nach, nach Berlin ___ ziehen.",
-        answer: "zu",
-        explanation: "Preposition + -ing → da-compound + zu-infinitive.",
+        en: "I'm thinking of [moving] to Berlin.",
+        sentence: "Ich denke darüber nach, nach Berlin ___.",
+        answer: "zu ziehen",
+        altAnswers: ["umzuziehen"],
+        explanation: "Preposition + -ing → da-compound (\"darüber\") + zu-infinitive: \"zu ziehen\".",
       },
       {
         type: "translate",
@@ -952,7 +953,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Sie verließ das Haus, ohne die Tür abzuschließen.",
-        explanation: "\"Ohne ... abzuschließen\": zu inside the separable verb.",
+        explanation: "\"Ohne ... abzuschließen\": \"zu\" inside the separable verb.",
       },
       {
         type: "speak",

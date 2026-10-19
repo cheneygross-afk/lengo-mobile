@@ -8,7 +8,7 @@ export const DE_B1_U12: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Damit vs Um...zu, Part 1 of 2",
-    summary: "Say why you do something: um...zu when the same person acts in both halves, damit when the subject changes.",
+    summary: "Say why you do something: \"um ... zu\" when the same person acts in both halves, \"damit\" when the subject changes.",
     duration: "15 min",
     sections: [
       {
@@ -65,7 +65,7 @@ export const DE_B1_U12: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm writing it down so that you don't forget it. (to a friend)",
             answer: "Ich schreibe es auf, damit du es nicht vergisst.",
-            altAnswers: ["Ich schreibe es dir auf, damit du es nicht vergisst.", "Ich schreibe es auf, damit ihr es nicht vergesst.", "Ich schreibe es auf, damit Sie es nicht vergessen."],
+            altAnswers: ["Ich schreibe es dir auf, damit du es nicht vergisst."],
             explanation: "Different subjects (I write, you forget), so \"damit\" + subject + verb at the end: \"vergisst\".",
           },
           {
@@ -80,14 +80,14 @@ export const DE_B1_U12: Lesson[] = [
       {
         heading: "Never um dass, never damit zu",
         body: [
-          "The two patterns never mix. *um dass* doesn't exist, and \"damit\" is never followed by \"zu\" (*damit zu lernen*). Either an infinitive clause (\"um ... zu\") or a full clause with a subject (\"damit\" + subject + verb).",
+          "The two patterns never mix. \"*um dass*\" doesn't exist, and \"damit\" is never followed by \"zu\" (\"*damit zu lernen*\"). Either an infinitive clause (\"um ... zu\") or a full clause with a subject (\"damit\" + subject + verb).",
           "With the same subject, \"damit\" is possible too (\"Ich schreibe es auf, damit ich es nicht vergesse\"), and it's common in speech. But \"um ... zu\" is shorter and preferred in writing. With different subjects, only \"damit\" works.",
-          "Inside a damit-clause, leave out \"sollen\", \"wollen\" and \"müssen\": the purpose is already in \"damit\". \"Können\" is fine and very common: \"damit du schlafen kannst\".",
+          "Inside a damit-clause, leave out \"sollen\" and \"wollen\": the purpose is already in \"damit\". \"Können\" is fine and very common (\"damit du schlafen kannst\"), and so is \"nicht müssen\" for not having to (\"damit du nicht warten musst\").",
         ],
         examples: [
           { es: "Ich schreibe es auf, um es nicht zu vergessen.", en: "I'm writing it down so I don't forget it." },
           { es: "Ich schreibe es auf, damit ich es nicht vergesse.", en: "I'm writing it down so that I don't forget it." },
-          { es: "Ich mache leise, damit das Baby schlafen kann.", en: "I'm being quiet so that the baby can sleep." },
+          { es: "Ich bin leise, damit das Baby schlafen kann.", en: "I'm being quiet so that the baby can sleep." },
           { es: "Er erklärt es langsam, damit wir es verstehen.", en: "He explains it slowly so that we understand it." },
           { es: "Wir fahren früher los, um nicht im Stau zu stehen.", en: "We're leaving earlier so as not to get stuck in traffic." },
         ],
@@ -97,11 +97,11 @@ export const DE_B1_U12: Lesson[] = [
             question: "Which sentence means: I'm saving so that my daughter can study?",
             options: ["Ich spare, damit meine Tochter studieren kann.", "Ich spare, um meine Tochter studieren kann.", "Ich spare, um dass meine Tochter studiert.", "Ich spare, damit meine Tochter zu studieren."],
             correctIndex: 0,
-            explanation: "Different subjects, so \"damit\" + subject + verb at the end. *um dass* and *damit zu* don't exist.",
+            explanation: "Different subjects, so \"damit\" + subject + verb at the end. \"*um dass*\" and \"*damit zu*\" don't exist.",
           },
           {
             type: "speak",
-            text: "Ich mache leise, damit das Baby schlafen kann.",
+            text: "Ich bin leise, damit das Baby schlafen kann.",
             prompt: "Say it in German: I'm being quiet so that the baby can sleep.",
             explanation: "\"Damit\" + new subject \"das Baby\" + \"schlafen kann\" at the end.",
           },
@@ -193,7 +193,7 @@ export const DE_B1_U12: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Pattern Practice: ..., damit du...",
-    summary: "Build damit-clauses for advice, requests and everyday explanations, with the verb at the end and modals usually dropped.",
+    summary: "Build \"damit\" clauses for advice, requests and everyday explanations, with the verb at the end and modals usually dropped.",
     duration: "12 min",
     sections: [
       {
@@ -216,7 +216,7 @@ export const DE_B1_U12: Lesson[] = [
             prompt: "Translate into German.",
             source: "Take a jacket so that you don't get cold. (to a friend)",
             answer: "Nimm eine Jacke mit, damit du nicht frierst.",
-            altAnswers: ["Nimm eine Jacke mit, damit dir nicht kalt wird.", "Nehmt eine Jacke mit, damit ihr nicht friert.", "Nehmen Sie eine Jacke mit, damit Sie nicht frieren.", "Nimm eine Jacke mit, damit du nicht frierst!"],
+            altAnswers: ["Nimm eine Jacke mit, damit dir nicht kalt wird.", "Nimm eine Jacke mit, damit du nicht frierst!"],
             explanation: "Imperative + \"damit\" + new subject. Getting cold is \"frieren\" or \"dir wird kalt\".",
           },
           {
@@ -264,8 +264,8 @@ export const DE_B1_U12: Lesson[] = [
       {
         heading: "Dropping the modal",
         body: [
-          "English so that often comes with can or will: so that you can sleep, so that he'll know. German usually drops these modals, because \"damit\" already carries the purpose: \"damit du nicht zu spät kommst\" rather than *damit du nicht zu spät kommen sollst*.",
-          "\"Können\" is the exception that's often kept, when ability matters: \"damit das Baby schlafen kann\". \"Sollen\", \"wollen\" and \"müssen\" are wrong or very clumsy in a damit-clause.",
+          "English so that often comes with can or will: so that you can sleep, so that he'll know. German usually drops these modals, because \"damit\" already carries the purpose: \"damit du nicht zu spät kommst\" rather than \"*damit du nicht zu spät kommen sollst*\".",
+          "\"Können\" is the exception that's often kept, when ability matters: \"damit das Baby schlafen kann\". \"Sollen\" and \"wollen\" are wrong or very clumsy in a damit-clause; \"nicht müssen\" (not have to) is fine: \"damit du nicht warten musst\".",
         ],
         examples: [
           { es: "Ich wecke dich um sieben, damit du nicht zu spät kommst.", en: "I'll wake you at seven so you won't be late." },
@@ -280,7 +280,7 @@ export const DE_B1_U12: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'll send you the link so that you can register. (to a friend)",
             answer: "Ich schicke dir den Link, damit du dich anmelden kannst.",
-            altAnswers: ["Ich schicke dir den Link, damit du dich anmeldest.", "Ich schicke euch den Link, damit ihr euch anmelden könnt.", "Ich schicke Ihnen den Link, damit Sie sich anmelden können."],
+            altAnswers: ["Ich schicke dir den Link, damit du dich anmeldest."],
             explanation: "\"Damit\" + subject + reflexive pronoun + verb at the end; \"kannst\" can stay or go.",
           },
           {
@@ -308,7 +308,7 @@ export const DE_B1_U12: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm explaining it to you so that you understand it. (to a friend)",
         answer: "Ich erkläre es dir, damit du es verstehst.",
-        altAnswers: ["Ich erkläre dir das, damit du es verstehst.", "Ich erkläre es euch, damit ihr es versteht.", "Ich erkläre es Ihnen, damit Sie es verstehen."],
+        altAnswers: ["Ich erkläre dir das, damit du es verstehst."],
         explanation: "Two subjects (I explain, you understand): \"damit\".",
       },
       {
@@ -317,7 +317,7 @@ export const DE_B1_U12: Lesson[] = [
         prompt: "Translate into German.",
         source: "Call me so I know you've arrived. (to a friend)",
         answer: "Ruf mich an, damit ich weiß, dass du angekommen bist.",
-        altAnswers: ["Ruf mich an, damit ich weiß, dass du gut angekommen bist.", "Ruft mich an, damit ich weiß, dass ihr angekommen seid.", "Rufen Sie mich an, damit ich weiß, dass Sie angekommen sind."],
+        altAnswers: ["Ruf mich an, damit ich weiß, dass du gut angekommen bist."],
         explanation: "Two subordinate clauses in a row, each with its verb at the end: \"weiß\", then \"angekommen bist\".",
       },
       {
@@ -377,7 +377,7 @@ export const DE_B1_U12: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Talk About You: Warum lernst du Deutsch?",
-    summary: "Explain your reasons and goals for learning German with um...zu, damit, weil and für.",
+    summary: "Explain your reasons and goals for learning German with \"um ... zu\", \"damit\", \"weil\" and \"für\".",
     duration: "12 min",
     sections: [
       {
@@ -405,7 +405,7 @@ export const DE_B1_U12: Lesson[] = [
           {
             type: "speak",
             text: "Ich lerne Deutsch, um in Deutschland zu studieren.",
-            prompt: "Answer in German: Warum lernst du Deutsch? (to study in Germany)",
+            prompt: "Answer in German: \"Warum lernst du Deutsch?\" (to study in Germany)",
             explanation: "\"Um ... zu\" for your own goal.",
           },
         ],
@@ -429,7 +429,7 @@ export const DE_B1_U12: Lesson[] = [
             prompt: "Translate into German.",
             source: "I speak German at home so that my daughter learns it.",
             answer: "Ich spreche zu Hause Deutsch, damit meine Tochter es lernt.",
-            altAnswers: ["Zu Hause spreche ich Deutsch, damit meine Tochter es lernt."],
+            altAnswers: ["Zu Hause spreche ich Deutsch, damit meine Tochter es lernt.", "Ich spreche zuhause Deutsch, damit meine Tochter es lernt."],
             explanation: "New subject (\"meine Tochter\"), so \"damit\" + verb at the end.",
           },
           {
@@ -471,7 +471,8 @@ export const DE_B1_U12: Lesson[] = [
             en: "I'm learning German [because] my grandmother was German.",
             sentence: "Ich lerne Deutsch, ___ meine Großmutter Deutsche war.",
             answer: "weil",
-            explanation: "A reason (because), not a goal: \"weil\".",
+            altAnswers: ["da"],
+            explanation: "A reason (because), not a goal: \"weil\" (or the slightly more formal \"da\").",
           },
         ],
       },
@@ -509,7 +510,7 @@ export const DE_B1_U12: Lesson[] = [
         prompt: "Translate into German.",
         source: "What do you need German for? (to a friend)",
         answer: "Wozu brauchst du Deutsch?",
-        altAnswers: ["Wofür brauchst du Deutsch?", "Wozu braucht ihr Deutsch?", "Wozu brauchen Sie Deutsch?"],
+        altAnswers: ["Wofür brauchst du Deutsch?"],
         explanation: "\"Wozu?\" asks about purpose: what for?",
       },
       {
@@ -531,7 +532,7 @@ export const DE_B1_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A colleague asks: Wozu lernst du Deutsch? Which answer is correct?",
+        question: "A colleague asks: \"Wozu lernst du Deutsch?\" Which answer is correct?",
         options: ["Um mit meinen Kunden Deutsch zu sprechen.", "Für mit meinen Kunden Deutsch zu sprechen.", "Damit mit meinen Kunden Deutsch sprechen.", "Um dass ich mit meinen Kunden Deutsch spreche."],
         correctIndex: 0,
         explanation: "A short answer to \"Wozu?\" can be just the um-clause.",
@@ -561,7 +562,7 @@ export const DE_B1_U12: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Themed Review: Learning from Rejection",
-    summary: "A story about a failed job application and what the applicant changed, recycling um...zu, damit, Konjunktiv II advice and the past tenses.",
+    summary: "Follow a story about a failed job application and what the applicant changed, using \"um ... zu\", \"damit\", Konjunktiv II advice and the past tenses.",
     duration: "15 min",
     sections: [
       {
@@ -585,7 +586,7 @@ export const DE_B1_U12: Lesson[] = [
             prompt: "Translate into German.",
             source: "I called them to ask why.",
             answer: "Ich habe sie angerufen, um zu fragen, warum.",
-            altAnswers: ["Ich rief sie an, um zu fragen, warum.", "Ich habe dort angerufen, um zu fragen, warum.", "Ich rief dort an, um zu fragen, warum."],
+            altAnswers: ["Ich rief sie an, um zu fragen, warum.", "Ich habe dort angerufen, um zu fragen, warum.", "Ich rief dort an, um zu fragen, warum.", "Ich habe sie angerufen, um nach dem Grund zu fragen.", "Ich rief sie an, um nach dem Grund zu fragen."],
             explanation: "Same subject (I called, I asked): \"um ... zu fragen\".",
           },
           {
@@ -635,7 +636,7 @@ export const DE_B1_U12: Lesson[] = [
         heading: "What Leon changed",
         body: [
           "The end of the story: \"Ich habe mein Anschreiben komplett neu geschrieben, um es persönlicher zu machen. Ich habe eine Website gebaut, damit Firmen meine Projekte sehen können. Und ich habe einen Kurs gemacht, um mich auf Vorstellungsgespräche vorzubereiten. Im Juni bekam ich eine Einladung, und im August eine Zusage!\"",
-          "In speech Leon tells it in the Perfekt; in his written blog the key moments are Präteritum (\"bekam\"). Both are correct: the register decides.",
+          "This part mixes the Perfekt (\"habe ... geschrieben\", \"habe ... gebaut\") with the Präteritum (\"bekam\"). In an informal blog both are normal, and writers often switch like this; the Präteritum makes the key moments sound more like a story.",
         ],
         examples: [
           { es: "Ich habe das Anschreiben neu geschrieben, um es persönlicher zu machen.", en: "I rewrote the cover letter to make it more personal." },
@@ -688,7 +689,7 @@ export const DE_B1_U12: Lesson[] = [
         prompt: "Translate into German.",
         source: "You should make your CV shorter. (to a friend)",
         answer: "Du solltest deinen Lebenslauf kürzer machen.",
-        altAnswers: ["Du solltest deinen Lebenslauf kürzen.", "Ihr solltet euren Lebenslauf kürzer machen.", "Sie sollten Ihren Lebenslauf kürzer machen."],
+        altAnswers: ["Du solltest deinen Lebenslauf kürzen."],
         explanation: "Advice with \"solltest\" (Konjunktiv II of sollen); \"der Lebenslauf\" → accusative \"deinen\".",
       },
       {
@@ -763,7 +764,7 @@ export const DE_B1_U12: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Fix the Paragraph: Um...zu or Damit?",
-    summary: "A study-tips leaflet mixes up um...zu and damit and puts subjects in the wrong place: rewrite each tip correctly.",
+    summary: "Correct a study-tips leaflet that mixes up \"um ... zu\" and \"damit\" and puts subjects in the wrong place.",
     duration: "12 min",
     sections: [
       {
@@ -827,6 +828,7 @@ export const DE_B1_U12: Lesson[] = [
             en: "Take breaks [to relax].",
             sentence: "Machen Sie Pausen, ___.",
             answer: "um sich zu entspannen",
+            altAnswers: ["um sich zu erholen", "um sich auszuruhen"],
             explanation: "The reflexive \"sich\" comes before \"zu\": \"um sich zu entspannen\".",
           },
         ],
@@ -876,6 +878,7 @@ export const DE_B1_U12: Lesson[] = [
         prompt: "The leaflet says \"Teilen Sie Ihre Notizen, um die anderen auch lernen können.\" Translate the corrected tip into German: Share your notes so that the others can study too.",
         source: "Share your notes so that the others can study too.",
         answer: "Teilen Sie Ihre Notizen, damit die anderen auch lernen können.",
+        altAnswers: ["Teilen Sie Ihre Notizen, damit auch die anderen lernen können."],
         explanation: "New subject (\"die anderen\"): \"damit\" + verb at the end.",
       },
       {
@@ -945,7 +948,7 @@ export const DE_B1_U12: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Minimal Pairs: Um...zu / Damit",
-    summary: "Pairs of sentences that differ only in who does the second action: Ich gehe früh ins Bett, um fit zu sein / damit mein Mann fit ist.",
+    summary: "Choose between \"um ... zu\" and \"damit\" by asking who does the second action: \"Ich gehe früh ins Bett, um fit zu sein\" / \"damit mein Mann fit ist\".",
     duration: "12 min",
     sections: [
       {
@@ -1094,7 +1097,7 @@ export const DE_B1_U12: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I'm putting on a jumper [so as not] to be cold.",
+        en: "I'm putting on a jumper [so as] not to be cold.",
         sentence: "Ich ziehe einen Pullover an, ___ nicht zu frieren.",
         answer: "um",
         explanation: "Same subject: \"um nicht zu frieren\". The \"nicht\" goes before \"zu\".",
@@ -1102,9 +1105,9 @@ export const DE_B1_U12: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence means: I'm calling so that you don't worry?",
-        options: ["Ich rufe an, damit du dir keine Sorgen machst.", "Ich rufe an, um dir keine Sorgen zu machen.", "Ich rufe an, um du dir keine Sorgen machst.", "Ich rufe an, damit dir keine Sorgen zu machen."],
+        options: ["Ich rufe an, damit du dir keine Sorgen machst.", "Ich rufe an, damit du machst dir keine Sorgen.", "Ich rufe an, um du dir keine Sorgen machst.", "Ich rufe an, damit dir keine Sorgen zu machen."],
         correctIndex: 0,
-        explanation: "You don't worry: new subject. \"Um dir keine Sorgen zu machen\" would mean I'm calling so as not to cause you worry, with me as the subject.",
+        explanation: "You don't worry: a new subject, so \"damit du ...\" with the verb \"machst\" at the end. \"Um\" can't take a subject, \"damit\" never takes \"zu\", and the verb can't stay second after \"damit\".",
       },
       {
         type: "word-order",
@@ -1131,7 +1134,7 @@ export const DE_B1_U12: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Damit vs Um...zu, Part 2 of 2: Purpose Nouns and Results",
-    summary: "Purpose with a noun (für die Prüfung, zum Kochen, eine Maschine zum Kaffeekochen) and result with sodass and so..., dass.",
+    summary: "Express purpose with a noun (\"für die Prüfung\", \"zum Kochen\", \"eine Maschine zum Kaffeekochen\") and result with \"sodass\" and \"so ..., dass\".",
     duration: "15 min",
     sections: [
       {
@@ -1171,7 +1174,7 @@ export const DE_B1_U12: Lesson[] = [
         body: [
           "Any infinitive can become a neuter noun: \"kochen\" → \"das Kochen\". With \"zu\" + \"dem\" = \"zum\" it describes what something is for: \"ein Messer zum Brotschneiden\" (a knife for cutting bread), \"Zeit zum Lesen\" (time for reading), \"Das Wasser ist nicht zum Trinken\" (not for drinking).",
           "The nominalised verb is capitalised, and an object usually fuses into one word: \"zum Kaffeekochen\", \"zum Fensterputzen\". This is extremely common for describing tools and gadgets: \"Was ist das? — Das ist eine Maschine zum Kaffeekochen\".",
-          "Don't confuse \"zum Kochen\" (for cooking, noun) with \"um zu kochen\" (in order to cook, clause). And remember the capital: *zum kochen* is a spelling mistake.",
+          "Don't confuse \"zum Kochen\" (for cooking, noun) with \"um zu kochen\" (in order to cook, clause). And remember the capital: \"*zum kochen*\" is a spelling mistake.",
         ],
         examples: [
           { es: "Das ist eine Maschine zum Kaffeekochen.", en: "That's a machine for making coffee." },
@@ -1258,7 +1261,7 @@ export const DE_B1_U12: Lesson[] = [
         prompt: "Translate into German.",
         source: "Is this knife for cutting bread?",
         answer: "Ist das Messer zum Brotschneiden?",
-        altAnswers: ["Ist dieses Messer zum Brotschneiden?", "Ist das ein Messer zum Brotschneiden?", "Ist das Messer zum Brot schneiden?"],
+        altAnswers: ["Ist dieses Messer zum Brotschneiden?", "Ist das ein Messer zum Brotschneiden?", "Ist das Messer zum Schneiden von Brot?"],
         explanation: "\"Zum Brotschneiden\": nominalised infinitive with its object fused into one capitalised word.",
       },
       {
@@ -1290,7 +1293,7 @@ export const DE_B1_U12: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "She worked [so] much [that] she got ill.",
+        en: "She worked so much [that] she got ill.",
         sentence: "Sie hat so viel gearbeitet, ___ sie krank wurde.",
         answer: "dass",
         explanation: "\"So viel ..., dass\": the result of working so much.",
@@ -1349,7 +1352,7 @@ export const DE_B1_U12: Lesson[] = [
           "Useful words: \"die Wohnungssuche\" (flat hunting), \"die Besichtigung\" (viewing), \"der Vermieter, die Vermieterin\" (landlord), \"die Kaution\" (deposit), \"die WG\" (Wohngemeinschaft, shared flat), \"die Schufa-Auskunft\" (credit report, often asked for by landlords).",
         ],
         examples: [
-          { es: "Schau jeden Tag auf den Portalen, um schnell zu sein.", en: "Check the websites every day so you're quick." },
+          { es: "Schau jeden Tag auf den Wohnungsportalen nach, um schnell zu sein.", en: "Check the flat websites every day so you're quick off the mark." },
           { es: "Schreib eine kurze, freundliche Nachricht, damit der Vermieter dich einlädt.", en: "Write a short, friendly message so that the landlord invites you." },
           { es: "Nimm alle Unterlagen zur Besichtigung mit, um einen guten Eindruck zu machen.", en: "Take all your documents to the viewing to make a good impression." },
           { es: "Am Anfang kannst du in einer WG wohnen, um Geld zu sparen.", en: "At first you can live in a shared flat to save money." },
@@ -1378,7 +1381,7 @@ export const DE_B1_U12: Lesson[] = [
       {
         heading: "Meeting people",
         body: [
-          "Next tip: how to meet people. In Germany, \"der Verein\" (club) is the classic way in: \"Tritt einem Verein bei, um Leute kennenzulernen\". Language exchanges (\"das Sprachcafé\", \"das Tandem\") and evening classes at \"der Volkshochschule\" (VHS) are others.",
+          "Next tip: how to meet people. In Germany, \"der Verein\" (club) is the classic way in: \"Tritt einem Verein bei, um Leute kennenzulernen\". Language exchanges (\"das Sprachcafé\", \"das Tandem\") and evening classes at \"die Volkshochschule\" (VHS, the adult education centre) are others.",
           "Sometimes the purpose involves the other people: \"Sag deinen Kollegen, dass du neu bist, damit sie dich mitnehmen\". Mix both connectors naturally.",
         ],
         examples: [
@@ -1463,7 +1466,7 @@ export const DE_B1_U12: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Learn a few words of Saxon to understand the locals.",
+        source: "Learn a few words of Saxon to understand the locals. (to a friend)",
         answer: "Lern ein paar Wörter Sächsisch, um die Einheimischen zu verstehen.",
         altAnswers: ["Lerne ein paar Wörter Sächsisch, um die Einheimischen zu verstehen.", "Lern ein paar Wörter Sächsisch, um die Leute hier zu verstehen.", "Lerne ein paar Wörter Sächsisch, um die Leute hier zu verstehen."],
         explanation: "\"Um ... zu verstehen\"; the Saxon dialect is \"Sächsisch\".",
@@ -1533,7 +1536,7 @@ export const DE_B1_U12: Lesson[] = [
     level: "DE-B1",
     number: 9,
     title: "Sentence by Sentence: Purpose",
-    summary: "Translate a short health article one sentence at a time, choosing between um...zu, damit, für and zum for every to, so that and for.",
+    summary: "Translate a short health article one sentence at a time, choosing \"um ... zu\", \"damit\", \"für\" or \"zum\" for every to, so that and for.",
     duration: "15 min",
     sections: [
       {
@@ -1660,7 +1663,7 @@ export const DE_B1_U12: Lesson[] = [
         prompt: "Translate into German.",
         source: "Open the window so that fresh air comes in.",
         answer: "Öffnen Sie das Fenster, damit frische Luft hereinkommt.",
-        altAnswers: ["Öffne das Fenster, damit frische Luft hereinkommt.", "Machen Sie das Fenster auf, damit frische Luft hereinkommt.", "Mach das Fenster auf, damit frische Luft reinkommt.", "Öffnen Sie das Fenster, damit frische Luft reinkommt."],
+        altAnswers: ["Öffne das Fenster, damit frische Luft hereinkommt.", "Machen Sie das Fenster auf, damit frische Luft hereinkommt.", "Mach das Fenster auf, damit frische Luft reinkommt.", "Öffnen Sie das Fenster, damit frische Luft reinkommt.", "Öffne das Fenster, damit frische Luft reinkommt.", "Machen Sie das Fenster auf, damit frische Luft reinkommt.", "Mach das Fenster auf, damit frische Luft hereinkommt."],
         explanation: "Fresh air is the new subject: \"damit\".",
       },
       {
@@ -1713,7 +1716,7 @@ export const DE_B1_U12: Lesson[] = [
         type: "speak",
         text: "Man braucht kein Fitnessstudio, um fit zu bleiben.",
         prompt: "Say it in German: You don't need a gym to stay fit.",
-        tip: "Fitnessstudio has three s in a row in writing (Fitness + Studio), but you hear just one long s.",
+        tip: "\"Fitnessstudio\" has three s in a row in writing (\"Fitness\" + \"Studio\"), but you hear just one long s.",
         explanation: "\"Man\" for people in general; \"um ... zu bleiben\".",
       },
     ],
@@ -1723,28 +1726,28 @@ export const DE_B1_U12: Lesson[] = [
     level: "DE-B1",
     number: 10,
     title: "Error Hunt: Purpose and Result",
-    summary: "Find and fix the typical slips with purpose and result: um dass, damit zu, für zu, um with a new subject, zum kochen and a misplaced sodass.",
+    summary: "Find and fix the typical slips with purpose and result: \"um dass\", \"damit zu\", \"für zu\", \"um\" with a new subject, lower-case \"zum kochen\" and a misplaced \"sodass\".",
     duration: "12 min",
     sections: [
       {
         heading: "Mixed-up connectors",
         body: [
-          "Error 1: *Ich spare, um dass ich ein Auto kaufe*. \"Um\" never combines with \"dass\". Same subject: \"um ein Auto zu kaufen\".",
-          "Error 2: *Ich lese viel, damit zu lernen*. \"Damit\" is never followed by \"zu\". Either \"um zu lernen\" or \"damit ich lerne\".",
-          "Error 3: *Ich gehe in die Bibliothek, für zu lernen*. \"Für\" goes only with nouns: \"für die Prüfung\". With a verb: \"um zu lernen\".",
+          "Error 1: \"*Ich spare, um dass ich ein Auto kaufe*\". \"Um\" never combines with \"dass\". Same subject: \"um ein Auto zu kaufen\".",
+          "Error 2: \"*Ich lese viel, damit zu lernen*\". \"Damit\" is never followed by \"zu\". Either \"um zu lernen\" or \"damit ich lerne\".",
+          "Error 3: \"*Ich gehe in die Bibliothek, für zu lernen*\". \"Für\" goes only with nouns: \"für die Prüfung\". With a verb: \"um zu lernen\".",
         ],
         examples: [
           { es: "Ich spare, um ein Auto zu kaufen.", en: "I'm saving to buy a car." },
           { es: "Ich lese viel, um Wörter zu lernen.", en: "I read a lot to learn words." },
           { es: "Ich lese viel, damit ich neue Wörter lerne.", en: "I read a lot so that I learn new words." },
           { es: "Ich gehe in die Bibliothek, um zu lernen.", en: "I'm going to the library to study." },
-          { es: "Ich gehe in die Bibliothek für die Prüfung.", en: "I'm going to the library for the exam." },
+          { es: "Ich gehe für die Prüfung in die Bibliothek.", en: "I'm going to the library for the exam." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"Er trainiert, damit zu gewinnen.\" Translate the corrected sentence into German: He trains to win.",
+            prompt: "A learner wrote \"*Er trainiert, damit zu gewinnen.\" Translate the corrected sentence into German: He trains to win.",
             source: "He trains to win.",
             answer: "Er trainiert, um zu gewinnen.",
             altAnswers: ["Er trainiert, damit er gewinnt."],
@@ -1763,8 +1766,8 @@ export const DE_B1_U12: Lesson[] = [
       {
         heading: "Um with a new subject",
         body: [
-          "Error 4: *Ich spare, um meine Kinder studieren*. The learner wants so that my children can study. A new subject can't go into an um-clause. Fix: \"damit meine Kinder studieren können\".",
-          "Error 5: *Ich erkläre es, um du es verstehst*. Same problem: \"damit du es verstehst\".",
+          "Error 4: \"*Ich spare, um meine Kinder studieren*\". The learner wants so that my children can study. A new subject can't go into an um-clause. Fix: \"damit meine Kinder studieren können\".",
+          "Error 5: \"*Ich erkläre es, um du es verstehst*\". Same problem: \"damit du es verstehst\".",
         ],
         examples: [
           { es: "Ich spare, damit meine Kinder studieren können.", en: "I'm saving so that my children can go to university." },
@@ -1776,7 +1779,7 @@ export const DE_B1_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"Wir reden leise, um das Baby nicht aufwacht.\" Translate the corrected sentence into German: We're talking quietly so the baby doesn't wake up.",
+            prompt: "A learner wrote \"*Wir reden leise, um das Baby nicht aufwacht.\" Translate the corrected sentence into German: We're talking quietly so the baby doesn't wake up.",
             source: "We're talking quietly so the baby doesn't wake up.",
             answer: "Wir reden leise, damit das Baby nicht aufwacht.",
             altAnswers: ["Wir sprechen leise, damit das Baby nicht aufwacht."],
@@ -1793,9 +1796,9 @@ export const DE_B1_U12: Lesson[] = [
       {
         heading: "Zum and sodass",
         body: [
-          "Error 6: *Das ist ein Topf zum kochen*. After \"zum\" the infinitive is a noun, so it's capitalised: \"zum Kochen\".",
-          "Error 7: *Sodass er müde war, ging er ins Bett*. \"Sodass\" introduces a result and always comes second, after the cause: \"Er war müde, sodass er ins Bett ging\". If you want the cause first as a clause, use \"weil\": \"Weil er müde war, ging er ins Bett\".",
-          "Error 8: *Es regnete, damit das Spiel ausfiel*. Nobody wanted the cancellation, so it's a result: \"sodass das Spiel ausfiel\".",
+          "Error 6: \"*Das ist ein Topf zum kochen*\". After \"zum\" the infinitive is a noun, so it's capitalised: \"zum Kochen\".",
+          "Error 7: \"*Sodass er müde war, ging er ins Bett*\". \"Sodass\" introduces a result and always comes second, after the cause: \"Er war müde, sodass er ins Bett ging\". If you want the cause first as a clause, use \"weil\": \"Weil er müde war, ging er ins Bett\".",
+          "Error 8: \"*Es regnete, damit das Spiel ausfiel*\". Nobody wanted the cancellation, so it's a result: \"sodass das Spiel ausfiel\".",
         ],
         examples: [
           { es: "Das ist ein Topf zum Kochen.", en: "That's a pot for cooking." },
@@ -1808,7 +1811,7 @@ export const DE_B1_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"Es schneite, damit die Schule geschlossen war.\" Translate the corrected sentence into German: It snowed, so the school was closed.",
+            prompt: "A learner wrote \"*Es schneite, damit die Schule geschlossen war.\" Translate the corrected sentence into German: It snowed, so the school was closed.",
             source: "It snowed, so the school was closed.",
             answer: "Es schneite, sodass die Schule geschlossen war.",
             altAnswers: ["Es hat geschneit, sodass die Schule geschlossen war.", "Es schneite, so dass die Schule geschlossen war.", "Es schneite so stark, dass die Schule geschlossen war."],
@@ -1816,7 +1819,7 @@ export const DE_B1_U12: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "A learner wrote \"Ich brauche eine Brille zum lesen.\" Write the German for the bold words.",
+            prompt: "A learner wrote \"*Ich brauche eine Brille zum lesen.\" Write the German for the bold words.",
             en: "I need glasses [for reading].",
             sentence: "Ich brauche eine Brille ___.",
             answer: "zum Lesen",
@@ -1829,7 +1832,7 @@ export const DE_B1_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Ich lerne Deutsch, für in Berlin zu leben.\" Translate the corrected sentence into German: I'm learning German to live in Berlin.",
+        prompt: "A learner wrote \"*Ich lerne Deutsch, für in Berlin zu leben.\" Translate the corrected sentence into German: I'm learning German to live in Berlin.",
         source: "I'm learning German to live in Berlin.",
         answer: "Ich lerne Deutsch, um in Berlin zu leben.",
         altAnswers: ["Ich lerne Deutsch, um in Berlin zu wohnen."],
@@ -1838,7 +1841,7 @@ export const DE_B1_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Mach das Licht an, um ich etwas sehe.\" Translate the corrected sentence into German: Turn on the light so that I can see something.",
+        prompt: "A learner wrote \"*Mach das Licht an, um ich etwas sehe.\" Translate the corrected sentence into German: Turn on the light so that I can see something.",
         source: "Turn on the light so that I can see something.",
         answer: "Mach das Licht an, damit ich etwas sehe.",
         altAnswers: ["Mach das Licht an, damit ich etwas sehen kann.", "Macht das Licht an, damit ich etwas sehe.", "Machen Sie das Licht an, damit ich etwas sehe.", "Machen Sie das Licht an, damit ich etwas sehen kann."],
@@ -1847,16 +1850,16 @@ export const DE_B1_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Sie spart, um dass sie nach Japan fliegt.\" Translate the corrected sentence into German: She's saving to fly to Japan.",
+        prompt: "A learner wrote \"*Sie spart, um dass sie nach Japan fliegt.\" Translate the corrected sentence into German: She's saving to fly to Japan.",
         source: "She's saving to fly to Japan.",
         answer: "Sie spart, um nach Japan zu fliegen.",
         altAnswers: ["Sie spart, damit sie nach Japan fliegen kann."],
-        explanation: "No *um dass*: \"um ... zu fliegen\".",
+        explanation: "No \"*um dass*\": \"um ... zu fliegen\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Der Bus kam nicht, damit ich zu Fuß ging.\" Translate the corrected sentence into German: The bus didn't come, so I walked.",
+        prompt: "A learner wrote \"*Der Bus kam nicht, damit ich zu Fuß ging.\" Translate the corrected sentence into German: The bus didn't come, so I walked.",
         source: "The bus didn't come, so I walked.",
         answer: "Der Bus kam nicht, sodass ich zu Fuß ging.",
         altAnswers: ["Der Bus kam nicht, sodass ich zu Fuß gegangen bin.", "Der Bus ist nicht gekommen, sodass ich zu Fuß gegangen bin.", "Der Bus kam nicht, so dass ich zu Fuß ging."],
@@ -1864,11 +1867,11 @@ export const DE_B1_U12: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote \"Wir brauchen eine Schüssel zum salat machen.\" Write the German for the bold words.",
+        prompt: "A learner wrote \"*Wir brauchen eine Schüssel zum salat machen.\" Write the German for the bold words.",
         en: "We need a bowl [for making salad].",
         sentence: "Wir brauchen eine Schüssel ___.",
         answer: "zum Salatmachen",
-        altAnswers: ["für den Salat", "zum Salat machen"],
+        altAnswers: ["für den Salat"],
         explanation: "\"Zum\" + capitalised noun, with the object usually fused: \"zum Salatmachen\".",
       },
       {

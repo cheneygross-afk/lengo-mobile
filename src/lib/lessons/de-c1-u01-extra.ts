@@ -16,7 +16,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
         heading: "Recap: synthetic or würde?",
         body: [
           "Always synthetic: \"wäre\", \"hätte\", the modals (\"könnte, müsste, dürfte, sollte, wollte\") and \"wüsste\". Usually synthetic: \"käme, ginge, gäbe, fände, bliebe, ließe, täte, bräuchte\".",
-          "Usually \"würde\" + infinitive: weak verbs (their synthetic form looks like the Präteritum) and rarer strong verbs (\"würde lesen\", not \"läse\"). Never \"würde sein / haben / wissen\".",
+          "Usually \"würde\" + infinitive: weak verbs (their synthetic form looks like the Präteritum) and rarer strong verbs (\"würde lesen\", not \"läse\"). Avoid \"würde sein / haben / wissen\".",
         ],
         examples: [
           { es: "Wenn du Lust hättest, kämen wir am Samstag vorbei.", en: "If you felt like it, we'd come by on Saturday." },
@@ -70,7 +70,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "That would be a good idea.",
         answer: "Das wäre eine gute Idee.",
-        explanation: "Never \"würde ... sein\": \"wäre\".",
+        explanation: "\"Sein\" is always synthetic: \"wäre\", not \"würde ... sein\".",
       },
       {
         type: "translate",
@@ -87,7 +87,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "If I were you, I'd stay at home.",
         answer: "Wenn ich du wäre, bliebe ich zu Hause.",
-        altAnswers: ["Wenn ich du wäre, würde ich zu Hause bleiben.", "An deiner Stelle bliebe ich zu Hause.", "An deiner Stelle würde ich zu Hause bleiben.", "Wenn ich Sie wäre, würde ich zu Hause bleiben.", "An Ihrer Stelle würde ich zu Hause bleiben.", "Wenn ich du wäre, würde ich daheim bleiben."],
+        altAnswers: ["Wenn ich du wäre, würde ich zu Hause bleiben.", "An deiner Stelle bliebe ich zu Hause.", "An deiner Stelle würde ich zu Hause bleiben.", "Wenn ich Sie wäre, würde ich zu Hause bleiben.", "An Ihrer Stelle würde ich zu Hause bleiben.", "Wenn ich du wäre, würde ich daheim bleiben.", "Wenn ich du wäre, bliebe ich zuhause."],
         explanation: "\"Bliebe\" or \"würde ... bleiben\"; both natural.",
       },
       {
@@ -122,8 +122,8 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "That would do us all good.",
         answer: "Das täte uns allen gut.",
-        altAnswers: ["Das würde uns allen guttun.", "Das würde uns allen gut tun."],
-        explanation: "\"Täte\" from \"tun\" in the fixed phrase \"jemandem gut tun\".",
+        altAnswers: ["Das würde uns allen guttun.", "Das täte uns allen sehr gut."],
+        explanation: "\"Täte\" from \"tun\" in the fixed phrase \"jemandem guttun\" (written as one word since 2006).",
       },
       {
         type: "word-order",
@@ -144,7 +144,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence contains a mistake?",
+        question: "Which sentence would a careful speaker avoid?",
         options: ["Wenn ich das wissen würde, würde ich es dir sagen.", "Wenn ich das wüsste, würde ich es dir sagen.", "Wüsste ich das, würde ich es dir sagen.", "Ich würde es dir sagen, wenn ich das wüsste."],
         correctIndex: 0,
         explanation: "\"Wissen würde\" is the clumsy one: \"wissen\" is always synthetic (\"wüsste\").",
@@ -269,7 +269,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["Es kommt mir vor, als hätte ich ihn schon mal gesehen.", "Es kommt mir vor, als ich hätte ihn schon mal gesehen.", "Es kommt mir vor, als ob hätte ich ihn schon mal gesehen.", "Es kommt mir vor, als ob ich ihn schon mal gesehen habe hätte."],
+        options: ["Es kommt mir vor, als hätte ich ihn schon mal gesehen.", "Es kommt mir vor, als ich hätte ihn schon mal gesehen.", "Es kommt mir vor, als ob hätte ich ihn schon mal gesehen.", "Es kommt mir vor, als ob ich hätte ihn schon mal gesehen."],
         correctIndex: 0,
         explanation: "Plain \"als\" + verb; the other options break the word order of either pattern.",
       },
@@ -425,7 +425,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "He claims he was at home all evening.",
         answer: "Er behauptet, er sei den ganzen Abend zu Hause gewesen.",
-        altAnswers: ["Er behauptet, dass er den ganzen Abend zu Hause gewesen sei.", "Er behauptet, er sei den ganzen Abend daheim gewesen."],
+        altAnswers: ["Er behauptet, dass er den ganzen Abend zu Hause gewesen sei.", "Er behauptet, er sei den ganzen Abend daheim gewesen.", "Er behauptet, er sei den ganzen Abend zuhause gewesen."],
         explanation: "Past of \"sein\": \"sei ... gewesen\".",
       },
       {
@@ -439,7 +439,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Die Studierenden sagen, sie ___ zu viel Stress. Which form is correct in a news text?",
+        question: "In a news text: \"Die Studierenden sagen, sie ___ zu viel Stress.\" Which form fits best?",
         options: ["hätten", "haben", "habe", "hatten"],
         correctIndex: 0,
         explanation: "\"Sie haben\" would be identical to the indicative: replace with \"hätten\". \"Habe\" is singular.",
@@ -506,7 +506,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
     level: "DE-C1",
     number: 4,
     optional: true,
-    title: "Extra Practice: Fast, Zu...Als Dass and Ohne Dass",
+    title: "Extra Practice: Fast, Zu ... als dass and Ohne dass",
     summary: "Practise what nearly happened (fast / beinahe + Konjunktiv II) and what could not happen (zu ..., als dass; ohne dass; nicht dass).",
     duration: "14 min",
     sections: [
@@ -578,7 +578,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The flat is too expensive for us to afford.",
         answer: "Die Wohnung ist zu teuer, als dass wir sie uns leisten könnten.",
-        altAnswers: ["Die Wohnung ist zu teuer, als dass wir sie uns leisten können.", "Die Wohnung ist zu teuer, um sie uns leisten zu können."],
+        altAnswers: ["Die Wohnung ist zu teuer, als dass wir sie uns leisten können.", "Die Wohnung ist so teuer, dass wir sie uns nicht leisten können."],
         explanation: "\"Sich etwas leisten können\": to afford. Konjunktiv II in the als-dass clause.",
       },
       {
@@ -746,7 +746,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Had we left earlier, we wouldn't have got stuck in traffic.",
         answer: "Wären wir früher losgefahren, wären wir nicht in den Stau gekommen.",
-        altAnswers: ["Wenn wir früher losgefahren wären, wären wir nicht in den Stau gekommen.", "Wären wir früher losgefahren, hätten wir nicht im Stau gestanden.", "Wären wir früher losgefahren, dann wären wir nicht in den Stau gekommen.", "Wären wir früher aufgebrochen, wären wir nicht in den Stau gekommen."],
+        altAnswers: ["Wenn wir früher losgefahren wären, wären wir nicht in den Stau gekommen.", "Wären wir früher losgefahren, hätten wir nicht im Stau gestanden.", "Wären wir früher losgefahren, dann wären wir nicht in den Stau gekommen.", "Wären wir früher losgefahren, wären wir nicht in den Stau geraten.", "Wären wir früher aufgebrochen, wären wir nicht in den Stau gekommen."],
         explanation: "Verb-first past condition; both verbs take sein.",
       },
       {
@@ -849,7 +849,7 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
       {
         heading: "Recap: which mood, which form?",
         body: [
-          "Real facts → indicative. Unreal (wishes, conditions, comparisons, near misses) and polite distance → Konjunktiv II. Reported speech in writing → Konjunktiv I, with Konjunktiv II as replacement. Fixed formulas → Konjunktiv I (Gott sei Dank, es sei denn).",
+          "Real facts → indicative. Unreal (wishes, conditions, comparisons, near misses) and polite distance → Konjunktiv II. Reported speech in writing → Konjunktiv I, with Konjunktiv II as replacement. Fixed formulas → Konjunktiv I (\"Gott sei Dank\", \"es sei denn\").",
           "Check the time: present (\"käme\", \"wäre\") or past (\"wäre gekommen\", \"hätte gemacht\").",
         ],
         examples: [
@@ -969,10 +969,10 @@ export const DE_C1_U01_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which form fits? Laut Zeugen ___ der Fahrer bei Rot gefahren.",
+        question: "In a news report: \"Laut Zeugen ___ der Fahrer bei Rot gefahren.\" Which form fits best?",
         options: ["sei", "wäre", "ist", "habe"],
         correctIndex: 0,
-        explanation: "Reported past with \"fahren\" (sein): Konjunktiv I \"sei\". \"Habe\" has the wrong auxiliary.",
+        explanation: "Reported past with \"fahren\" (sein): Konjunktiv I \"sei\", which is distinctive, so no replacement \"wäre\" is needed. \"Ist\" doesn't mark the report, and \"habe\" has the wrong auxiliary.",
       },
       {
         type: "translate",

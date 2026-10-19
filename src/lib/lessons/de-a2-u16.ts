@@ -51,7 +51,7 @@ export const DE_A2_U16: Lesson[] = [
         heading: "Stem changes: nimm, lies, gib, but fahr!",
         body: [
           "Verbs that change e → i or e → ie in the du-present keep that change in the imperative: \"du nimmst\" → \"Nimm!\", \"du liest\" → \"Lies!\", \"du gibst\" → \"Gib!\", \"du sprichst\" → \"Sprich!\", \"du isst\" → \"Iss!\", \"du hilfst\" → \"Hilf!\". No -e is added.",
-          "Verbs that change a → ä do NOT keep it: \"du fährst\" → \"Fahr!\", \"du schläfst\" → \"Schlaf!\", \"du läufst\" → \"Lauf!\". So *Fähr! and *Nehme! are both wrong.",
+          "Verbs that change a → ä do NOT keep it: \"du fährst\" → \"Fahr!\", \"du schläfst\" → \"Schlaf!\", \"du läufst\" → \"Lauf!\". So \"*Fähr!\" and \"*Nehme!\" are both wrong.",
           "\"Sein\" is irregular in all forms: \"Sei leise!\" (du), \"Seid leise!\" (ihr), \"Seien Sie leise!\" (Sie).",
         ],
         examples: [
@@ -139,7 +139,7 @@ export const DE_A2_U16: Lesson[] = [
         source: "Take your jacket!",
         answer: "Nimm deine Jacke mit!",
         altAnswers: ["Nimm deine Jacke!"],
-        explanation: "\"Nimm\" (not *Nehme); \"mitnehmen\" puts \"mit\" at the end.",
+        explanation: "\"Nimm\" (not \"*Nehme\"); \"mitnehmen\" puts \"mit\" at the end.",
       },
       {
         type: "translate",
@@ -179,10 +179,10 @@ export const DE_A2_U16: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. (to a friend)",
+        prompt: "Translate into German. (to a child)",
         source: "Eat your vegetables!",
         answer: "Iss dein Gemüse!",
-        explanation: "\"Du isst\" → \"Iss!\".",
+        explanation: "\"Du isst\" → \"Iss!\": the e → i change stays, and there's no -e (not \"*Esse!\").",
       },
       {
         type: "fill-blank",
@@ -461,7 +461,7 @@ export const DE_A2_U16: Lesson[] = [
         heading: "Wissen: facts and clauses",
         body: [
           "\"Wissen\" means to know a fact. It usually comes with a clause (\"dass\", \"ob\", a W-word) or with \"es\", \"das\", \"etwas\", \"nichts\", \"viel\": \"Ich weiß, wo er wohnt\", \"Weißt du, ob sie kommt?\", \"Das weiß ich nicht\".",
-          "Its present is irregular, like a modal: \"ich weiß, du weißt, er weiß, wir wissen, ihr wisst, sie wissen\". The trap: *Ich weiß ihn (I know him) is wrong; people are always \"kennen\": \"Ich kenne ihn\". But \"Ich weiß, wer er ist\" (I know who he is) is \"wissen\", because a clause follows.",
+          "Its present is irregular, like a modal: \"ich weiß, du weißt, er weiß, wir wissen, ihr wisst, sie wissen\". The trap: \"*Ich weiß ihn\" (I know him) is wrong; people are always \"kennen\": \"Ich kenne ihn\". But \"Ich weiß, wer er ist\" (I know who he is) is \"wissen\", because a clause follows.",
         ],
         examples: [
           { es: "Ich weiß, wo er wohnt.", en: "I know where he lives." },
@@ -482,7 +482,7 @@ export const DE_A2_U16: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say: I know where he lives.",
+            question: "How do you say: I know where he lives?",
             options: ["Ich weiß, wo er wohnt.", "Ich kenne, wo er wohnt.", "Ich weiß, wo wohnt er.", "Ich kann, wo er wohnt."],
             correctIndex: 0,
             explanation: "A clause follows → \"wissen\", with the verb at the end.",
@@ -493,7 +493,7 @@ export const DE_A2_U16: Lesson[] = [
         heading: "Können: languages and skills",
         body: [
           "For languages and skills, German uses \"können\" without an infinitive: \"Sie kann gut Deutsch\" (She speaks good German, literally she can German well), \"Kannst du Spanisch?\", \"Er kann das auswendig\" (He knows it by heart).",
-          "English says know how to; German just says \"können\": \"Ich kann schwimmen\", \"Kannst du Auto fahren?\". Never *Ich weiß, wie man schwimmt for a skill you have (that would sound like theoretical knowledge).",
+          "English says know how to; German just says \"können\": \"Ich kann schwimmen\", \"Kannst du Auto fahren?\". Never \"*Ich weiß, wie man schwimmt\" for a skill you have (that would sound like theoretical knowledge).",
         ],
         examples: [
           { es: "Sie kann sehr gut Deutsch.", en: "She speaks German very well." },
@@ -579,7 +579,7 @@ export const DE_A2_U16: Lesson[] = [
         en: "Do you [know] my brother? (to a friend)",
         sentence: "___ du meinen Bruder?",
         answer: "Kennst",
-        explanation: "A person → \"kennen\": *Weißt du meinen Bruder is wrong.",
+        explanation: "A person → \"kennen\": \"*Weißt du meinen Bruder\" is wrong.",
       },
       {
         type: "fill-blank",
@@ -591,10 +591,10 @@ export const DE_A2_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A learner wrote *Ich weiß ihn gut. What should it be?",
+        question: "A learner wrote \"*Ich weiß ihn gut\". What should it be?",
         options: ["Ich kenne ihn gut.", "Ich weiß ihn gut kennen.", "Ich kann ihn gut.", "Ich wisse ihn gut."],
         correctIndex: 0,
-        explanation: "People are always \"kennen\".",
+        explanation: "People are always \"kennen\"; \"wissen\" needs a fact or a clause (\"Ich weiß, wer er ist\").",
       },
       {
         type: "matching",
@@ -627,7 +627,7 @@ export const DE_A2_U16: Lesson[] = [
         heading: "Lernen and studieren",
         body: [
           "\"Lernen\" is to learn, and also to study or revise for something: \"Ich lerne Deutsch\", \"Ich lerne für die Prüfung\" (I'm studying for the exam), \"Sie lernt Vokabeln\".",
-          "\"Studieren\" means only to study at a university, as a student: \"Ich studiere Medizin in Heidelberg\", \"Wo hast du studiert?\". So *Ich studiere für den Test is wrong: in German, studying for a test is always \"lernen\". A school pupil never \"studiert\".",
+          "\"Studieren\" means only to study at a university, as a student: \"Ich studiere Medizin in Heidelberg\", \"Wo hast du studiert?\". So \"*Ich studiere für den Test\" is wrong: in German, studying for a test is always \"lernen\". A school pupil never \"studiert\".",
           "A trainee learns a trade: \"Er lernt Koch\" or \"Er macht eine Ausbildung als Koch\".",
         ],
         examples: [
@@ -645,7 +645,7 @@ export const DE_A2_U16: Lesson[] = [
             source: "I'm studying for the exam tonight.",
             answer: "Ich lerne heute Abend für die Prüfung.",
             altAnswers: ["Heute Abend lerne ich für die Prüfung."],
-            explanation: "Studying for a test = \"lernen\". *studieren is only for university.",
+            explanation: "Studying for a test = \"lernen\". \"*studieren\" is only for university.",
           },
           {
             type: "translate",
@@ -704,7 +704,6 @@ export const DE_A2_U16: Lesson[] = [
         prompt: "Translate into German.",
         source: "Where did you go to university? (to a friend)",
         answer: "Wo hast du studiert?",
-        altAnswers: ["Wo haben Sie studiert?", "Wo habt ihr studiert?"],
         explanation: "\"Studieren\" = be at university.",
       },
       {
@@ -782,7 +781,7 @@ export const DE_A2_U16: Lesson[] = [
         type: "speak",
         text: "Meine Schwester studiert Medizin.",
         prompt: "Say it in German: My sister is studying medicine.",
-        tip: "\"Studiert\": st at the start of a German word sounds like sht: SHTOO-deert.",
+        tip: "\"Studiert\": st at the start of a German word sounds like sht, and the stress is on the second syllable: shtoo-DEERT.",
         explanation: "University subject → \"studieren\".",
       },
     ],
@@ -848,7 +847,7 @@ export const DE_A2_U16: Lesson[] = [
             source: "My grandma is still alive.",
             answer: "Meine Oma lebt noch.",
             altAnswers: ["Meine Großmutter lebt noch."],
-            explanation: "Being alive → \"leben\"; *wohnt noch would mean she still lives there.",
+            explanation: "Being alive → \"leben\"; \"*wohnt noch\" would mean she still lives there.",
           },
           {
             type: "listen-choose",
@@ -925,10 +924,10 @@ export const DE_A2_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say: Mozart lived in Vienna.",
+        question: "How do you say: Mozart lived in Vienna?",
         options: ["Mozart lebte in Wien.", "Mozart wohnte noch in Wien.", "Mozart lebt in Wien.", "Mozart hat in Wien gewohnt noch."],
         correctIndex: 0,
-        explanation: "A life story → \"leben\" (Präteritum \"lebte\" is usual in writing).",
+        explanation: "A life story → \"leben\" (Präteritum \"lebte\" is usual in writing; \"hat ... gelebt\" in speech). \"Lebt\" is present, and \"noch\" would mean still.",
       },
       {
         type: "word-order",
@@ -1008,7 +1007,7 @@ export const DE_A2_U16: Lesson[] = [
             source: "I'm not coming until ten.",
             answer: "Ich komme erst um zehn.",
             altAnswers: ["Ich komme erst um zehn Uhr."],
-            explanation: "Later than expected → \"erst\". *nur um zehn is the classic mistake.",
+            explanation: "Later than expected → \"erst\". \"*nur um zehn\" is the classic mistake.",
           },
           {
             type: "translate",
@@ -1117,7 +1116,7 @@ export const DE_A2_U16: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A learner wrote *Ich komme nur um zehn (meaning: I'm not coming until ten). What's correct?",
+        question: "A learner wrote \"*Ich komme nur um zehn\" (meaning: I'm not coming until ten). What's correct?",
         options: ["Ich komme erst um zehn.", "Ich komme später um zehn.", "Ich komme spät um zehn.", "Ich komme nur zehn."],
         correctIndex: 0,
         explanation: "A later time than expected → \"erst\".",
@@ -1237,7 +1236,7 @@ export const DE_A2_U16: Lesson[] = [
             prompt: "Translate into German. (to a friend)",
             source: "I'll pick you up from the station.",
             answer: "Ich hole dich vom Bahnhof ab.",
-            altAnswers: ["Ich hole dich am Bahnhof ab.", "Ich hole euch vom Bahnhof ab.", "Ich hole Sie vom Bahnhof ab."],
+            altAnswers: ["Ich hole dich am Bahnhof ab."],
             explanation: "\"Abholen\" splits: \"hole ... ab\".",
           },
           {
@@ -1352,7 +1351,7 @@ export const DE_A2_U16: Lesson[] = [
       {
         heading: "Bekommen and also",
         body: [
-          "\"Bekommen\" means to get or receive, never to become: \"Ich habe ein Paket bekommen\" (I got a parcel), \"Was bekommen Sie?\" (What can I get you? in a café). To become is \"werden\": \"Sie wird Ärztin\". *Ich bekomme ein Arzt would mean I'm receiving a doctor!",
+          "\"Bekommen\" means to get or receive, never to become: \"Ich habe ein Paket bekommen\" (I got a parcel), \"Was bekommen Sie?\" (What can I get you? in a café). To become is \"werden\": \"Sie wird Ärztin\". \"*Ich bekomme ein Arzt\" would mean I'm receiving a doctor!",
           "\"Also\" means so, therefore, well: \"Es regnet, also bleiben wir zu Hause\", \"Also, was machen wir jetzt?\". The English also is \"auch\": \"Ich komme auch\".",
         ],
         examples: [
@@ -1378,7 +1377,7 @@ export const DE_A2_U16: Lesson[] = [
             prompt: "Translate into German.",
             source: "It's raining, so we're staying at home.",
             answer: "Es regnet, also bleiben wir zu Hause.",
-            altAnswers: ["Es regnet, deshalb bleiben wir zu Hause.", "Es regnet, also bleiben wir daheim."],
+            altAnswers: ["Es regnet, deshalb bleiben wir zu Hause.", "Es regnet, also bleiben wir daheim.", "Es regnet, also bleiben wir zuhause."],
             explanation: "\"Also\" = so; it takes position 1, so the verb follows.",
           },
         ],
@@ -1386,7 +1385,7 @@ export const DE_A2_U16: Lesson[] = [
       {
         heading: "Handy, Chef, Gift",
         body: [
-          "\"Das Handy\" is a mobile phone (not handy = \"praktisch\"). \"Der Chef / die Chefin\" is the boss, not a cook (a chef is \"der Koch / die Köchin\"). \"Das Gift\" is poison: a present is \"das Geschenk\". Imagine wrapping a gift with the label Gift!",
+          "\"Das Handy\" is a mobile phone (not handy = \"praktisch\"). \"Der Chef / die Chefin\" is the boss, not a cook (a chef is \"der Koch / die Köchin\"). \"Das Gift\" is poison: a present is \"das Geschenk\". Imagine wrapping a present with the label \"Gift\"!",
         ],
         examples: [
           { es: "Mein Handy ist kaputt.", en: "My mobile is broken." },
@@ -1408,9 +1407,9 @@ export const DE_A2_U16: Lesson[] = [
           {
             type: "multiple-choice",
             question: "How do you say: Thanks for the present!",
-            options: ["Danke für das Geschenk!", "Danke für das Gift!", "Danke für den Präsent!", "Danke für die Gabe!"],
+            options: ["Danke für das Geschenk!", "Danke für das Gift!", "Danke für den Präsent!", "Danke für den Geschenk!"],
             correctIndex: 0,
-            explanation: "\"Das Gift\" = poison; a present is \"das Geschenk\".",
+            explanation: "\"Das Gift\" = poison; a present is \"das Geschenk\" (neuter, so not \"den\").",
           },
         ],
       },
@@ -1460,7 +1459,7 @@ export const DE_A2_U16: Lesson[] = [
         prompt: "Translate into German.",
         source: "She's becoming a doctor.",
         answer: "Sie wird Ärztin.",
-        explanation: "Become = \"werden\"; *Sie bekommt Ärztin would mean she receives a doctor.",
+        explanation: "Become = \"werden\"; \"*Sie bekommt Ärztin\" would mean she receives a doctor.",
       },
       {
         type: "translate",

@@ -16,7 +16,7 @@ export const DE_B1_U33: Lesson[] = [
         body: [
           "Looking back in conversation, use the Perfekt for most verbs and the Präteritum for \"sein\", \"haben\" and the modals: \"Ich habe viel gelernt. Am Anfang war es schwer, aber ich konnte schnell kleine Gespräche führen.\" In a written text, such as a blog post, the Präteritum works throughout.",
           "Useful phrases: \"am Anfang\" (at the beginning), \"inzwischen\" (by now, meanwhile), \"mittlerweile\" (by now), \"seit\" + dative for something still going on: \"Ich lerne seit einem Jahr Deutsch\" (present tense in German, Present Perfect Continuous in English).",
-          "The English I have been learning for a year is the single most frequent tense error English speakers make in German. *Ich habe seit einem Jahr Deutsch gelernt* suggests you've stopped. Keep the present: \"Ich lerne seit einem Jahr Deutsch.\"",
+          "The English I have been learning for a year is the single most frequent tense error English speakers make in German. \"Ich habe seit einem Jahr Deutsch gelernt\" suggests you've stopped. Keep the present: \"Ich lerne seit einem Jahr Deutsch.\"",
         ],
         examples: [
           { es: "Ich lerne seit einem Jahr Deutsch.", en: "I've been learning German for a year." },
@@ -69,8 +69,8 @@ export const DE_B1_U33: Lesson[] = [
             prompt: "Translate into German.",
             source: "I was proud that I passed the exam.",
             answer: "Ich war stolz darauf, dass ich die Prüfung bestanden habe.",
-            altAnswers: ["Ich war stolz, dass ich die Prüfung bestanden habe.", "Ich war stolz darauf, dass ich die Prüfung bestanden hatte."],
-            explanation: "\"Stolz auf\": \"darauf\" points to the dass-clause; pass is \"bestehen\".",
+            altAnswers: ["Ich war stolz, dass ich die Prüfung bestanden habe.", "Ich war stolz darauf, dass ich die Prüfung bestanden hatte.", "Ich war stolz darauf, die Prüfung bestanden zu haben.", "Ich war stolz, die Prüfung bestanden zu haben."],
+            explanation: "\"Stolz auf\": \"darauf\" points to the dass-clause (or a zu-infinitive with the same subject). Pass an exam is \"bestehen\", not \"passieren\" (happen).",
           },
           {
             type: "word-order",
@@ -103,14 +103,14 @@ export const DE_B1_U33: Lesson[] = [
             prompt: "Translate into German.",
             source: "If I were you, I'd watch German films.",
             answer: "An deiner Stelle würde ich deutsche Filme sehen.",
-            altAnswers: ["An deiner Stelle würde ich deutsche Filme schauen.", "An deiner Stelle würde ich deutsche Filme gucken.", "Wenn ich du wäre, würde ich deutsche Filme sehen.", "Wenn ich du wäre, würde ich deutsche Filme schauen.", "An Ihrer Stelle würde ich deutsche Filme sehen.", "An eurer Stelle würde ich deutsche Filme sehen."],
+            altAnswers: ["An deiner Stelle würde ich deutsche Filme schauen.", "An deiner Stelle würde ich deutsche Filme gucken.", "An deiner Stelle würde ich mir deutsche Filme ansehen.", "Wenn ich du wäre, würde ich deutsche Filme sehen.", "Wenn ich du wäre, würde ich deutsche Filme schauen.", "An Ihrer Stelle würde ich deutsche Filme sehen.", "An eurer Stelle würde ich deutsche Filme sehen."],
             explanation: "\"An deiner Stelle\" + \"würde\" + infinitive. Plural adjective without article: \"deutsche Filme\".",
           },
           {
             type: "speak",
             text: "Wenn ich noch einmal anfangen würde, würde ich mehr sprechen.",
             prompt: "Say it in German: If I started again, I'd speak more.",
-            tip: "Würde: ü with rounded lips, and a light r; it's not wurde.",
+            tip: "\"Würde\": ü with rounded lips, and a light r; it's not \"wurde\" (was, became).",
             explanation: "Konjunktiv II with \"würde\" in both clauses; the main clause begins with its verb.",
           },
         ],
@@ -159,7 +159,6 @@ export const DE_B1_U33: Lesson[] = [
         prompt: "Translate into German.",
         source: "You shouldn't be afraid of mistakes. (to a friend)",
         answer: "Du solltest keine Angst vor Fehlern haben.",
-        altAnswers: ["Ihr solltet keine Angst vor Fehlern haben.", "Sie sollten keine Angst vor Fehlern haben."],
         explanation: "\"Angst haben vor\" + dative plural: \"vor Fehlern\". \"Solltest\" for advice.",
       },
       {
@@ -183,6 +182,7 @@ export const DE_B1_U33: Lesson[] = [
         prompt: "Put the words in order to say: Ideally I'd like to work in Vienna.",
         words: ["Am", "liebsten", "würde", "ich", "in", "Wien", "arbeiten."],
         translation: "Ideally I'd like to work in Vienna.",
+        altOrders: [["Ich", "würde", "am", "liebsten", "in", "Wien", "arbeiten."]],
         explanation: "\"Am liebsten\" (most of all) in position 1, then \"würde\", the subject and the infinitive.",
       },
       {
@@ -244,7 +244,7 @@ export const DE_B1_U33: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A German tells you: Das Rathaus ist am Marktplatz. What is das Rathaus?",
+            question: "A German tells you: \"Das Rathaus ist am Marktplatz.\" What is \"das Rathaus\"?",
             options: ["The town hall.", "A pet shop.", "The station.", "A council flat."],
             correctIndex: 0,
             explanation: "\"Das Rathaus\" comes from \"der Rat\" (council), so it's the town hall.",
@@ -273,6 +273,7 @@ export const DE_B1_U33: Lesson[] = [
             prompt: "Translate into German.",
             source: "I missed the bus.",
             answer: "Ich habe den Bus verpasst.",
+            altAnswers: ["Ich verpasste den Bus."],
             explanation: "Miss a bus is \"verpassen\" (no ge-). \"Vermissen\" is for missing a person.",
           },
           {
@@ -463,10 +464,10 @@ export const DE_B1_U33: Lesson[] = [
         body: [
           "City life brings its own verbs: \"sich beschweren über\" (complain about), \"sich gewöhnen an\" (get used to), \"träumen von\" (dream of), \"sich ärgern über\", \"aufpassen auf\" (watch out for), \"Angst haben vor\".",
           "Pattern: \"Ich habe mich an den Lärm gewöhnt\" → \"Ich habe mich daran gewöhnt\". \"Er träumt von einer Wohnung mit Balkon\" → \"Er träumt davon\".",
-          "With people, keep preposition + pronoun: \"Pass auf die Kinder auf!\" → \"Pass auf sie auf!\" not *darauf*.",
+          "With people, keep preposition + pronoun: \"Pass auf die Kinder auf!\" → \"Pass auf sie auf!\" not \"darauf\".",
         ],
         examples: [
-          { es: "Hast du dich schon an die Großstadt gewöhnt? Ja, langsam gewöhne ich mich daran.", en: "Have you got used to the big city yet? Yes, slowly." },
+          { es: "Hast du dich schon an die Großstadt gewöhnt? Ja, langsam gewöhne ich mich daran.", en: "Have you got used to the big city yet? Yes, I'm slowly getting used to it." },
           { es: "Viele Anwohner beschweren sich darüber.", en: "Many residents complain about it." },
           { es: "Sie träumt davon, in Hamburg zu wohnen.", en: "She dreams of living in Hamburg." },
           { es: "Pass auf die Radfahrer auf!", en: "Watch out for the cyclists!" },
@@ -479,6 +480,7 @@ export const DE_B1_U33: Lesson[] = [
             prompt: "Translate into German.",
             source: "I've got used to it.",
             answer: "Ich habe mich daran gewöhnt.",
+            altAnswers: ["Ich bin daran gewöhnt."],
             explanation: "\"Sich gewöhnen an\" → \"daran\"; reflexive with \"haben\".",
           },
           {
@@ -503,7 +505,7 @@ export const DE_B1_U33: Lesson[] = [
           { es: "Es geht darum, dass alle mitmachen.", en: "The point is that everybody joins in." },
           { es: "Ich bin dafür, dass die Innenstadt autofrei wird.", en: "I'm in favour of the city centre going car-free." },
           { es: "Viele sind dagegen, dass die Mieten steigen.", en: "Many people are against the rents going up." },
-          { es: "Es kommt darauf an, ob es regnet.", en: "It depends whether it rains." },
+          { es: "Es kommt darauf an, ob es regnet.", en: "It depends on whether it rains." },
         ],
         checkpoint: [
           {
@@ -516,7 +518,7 @@ export const DE_B1_U33: Lesson[] = [
           {
             type: "speak",
             text: "Es kommt darauf an, ob es regnet.",
-            prompt: "Say it in German: It depends whether it rains.",
+            prompt: "Say it in German: It depends on whether it rains.",
             explanation: "\"Es kommt darauf an\" + \"ob\": the verb \"regnet\" goes to the end.",
           },
         ],
@@ -577,7 +579,7 @@ export const DE_B1_U33: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your colleague asks: Wartest du auf Frau Schneider? Which answer is right?",
+        question: "Your colleague asks: \"Wartest du auf Frau Schneider?\" Which answer is right?",
         options: ["Ja, ich warte auf sie.", "Ja, ich warte darauf.", "Ja, ich warte auf ihr.", "Ja, ich warte worauf."],
         correctIndex: 0,
         explanation: "For a person, keep preposition + pronoun: \"auf sie\" (accusative). \"Darauf\" is for things.",
@@ -683,7 +685,7 @@ export const DE_B1_U33: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In your contract you read: Die Probezeit beträgt sechs Monate. What does it say?",
+            question: "In your contract you read: \"Die Probezeit beträgt sechs Monate.\" What does it say?",
             options: ["The probation period is six months.", "The trial costs six months' salary.", "You must give six months' notice.", "Your holiday is six weeks."],
             correctIndex: 0,
             explanation: "\"Die Probezeit\" is probation; \"betragen\" (amount to) is formal for \"sein\" with numbers.",
@@ -693,7 +695,7 @@ export const DE_B1_U33: Lesson[] = [
       {
         heading: "Sick, quitting, fired: krankschreiben, kündigen",
         body: [
-          "If you're ill, you go to the doctor and \"lassen sich krankschreiben\" (get a sick note): \"Ich habe mich für drei Tage krankschreiben lassen.\" The note is \"die Krankschreibung\" or \"die Arbeitsunfähigkeitsbescheinigung\" (the famous long word, \"die AU\" for short).",
+          "If you're ill, you go to the doctor to get a sick note, \"sich krankschreiben lassen\": \"Ich habe mich für drei Tage krankschreiben lassen.\" The note is \"die Krankschreibung\" or \"die Arbeitsunfähigkeitsbescheinigung\" (the famous long word, \"die AU\" for short).",
           "\"Kündigen\" means to give notice, in both directions: \"Ich habe gekündigt\" (I quit), \"Mir wurde gekündigt\" or \"Die Firma hat mir gekündigt\" (I was fired, laid off; dative!). \"Die Kündigung\" is the notice; \"die Kündigungsfrist\" the notice period. You also \"kündigen\" a flat, a phone contract or a gym membership.",
           "\"Die Gewerkschaft\" is the trade union, \"der Betriebsrat\" the works council that represents employees within a company.",
         ],
@@ -747,6 +749,7 @@ export const DE_B1_U33: Lesson[] = [
         prompt: "Translate into German.",
         source: "I have to work overtime again.",
         answer: "Ich muss wieder Überstunden machen.",
+        altAnswers: ["Ich muss schon wieder Überstunden machen."],
         explanation: "\"Überstunden machen\" is the idiom.",
       },
       {
@@ -789,7 +792,7 @@ export const DE_B1_U33: Lesson[] = [
         question: "Which sentence means: I was fired?",
         options: ["Mir wurde gekündigt.", "Ich habe gekündigt.", "Ich wurde gekündigt.", "Ich habe mir gekündigt."],
         correctIndex: 0,
-        explanation: "\"Kündigen\" takes a dative person: \"jemandem kündigen\", so the passive is \"Mir wurde gekündigt\". \"Ich habe gekündigt\" means I quit.",
+        explanation: "\"Kündigen\" takes a dative person: \"jemandem kündigen\", so the passive is \"Mir wurde gekündigt\". \"Ich habe gekündigt\" means I quit; \"Ich wurde gekündigt\" is heard in speech but isn't standard.",
       },
       {
         type: "word-order",
@@ -1004,7 +1007,7 @@ export const DE_B1_U33: Lesson[] = [
         prompt: "Translate into German.",
         source: "The heating has to be repaired.",
         answer: "Die Heizung muss repariert werden.",
-        explanation: "Modal passive: participle + \"werden\" at the end; *muss repariert sein* is wrong for a process.",
+        explanation: "Modal passive: participle + \"werden\" at the end; \"muss repariert sein\" describes a finished state, not the process.",
       },
       {
         type: "translate",
@@ -1012,7 +1015,6 @@ export const DE_B1_U33: Lesson[] = [
         prompt: "Translate into German.",
         source: "What are you looking forward to? (to a friend)",
         answer: "Worauf freust du dich?",
-        altAnswers: ["Worauf freut ihr euch?", "Worauf freuen Sie sich?"],
         explanation: "\"Sich freuen auf\" → \"worauf\" in a question.",
       },
       {
@@ -1045,7 +1047,7 @@ export const DE_B1_U33: Lesson[] = [
         source: "Nobody has seen anything.",
         answer: "Niemand hat etwas gesehen.",
         altAnswers: ["Keiner hat etwas gesehen.", "Niemand hat was gesehen.", "Keiner hat was gesehen."],
-        explanation: "One negative is enough: \"niemand\" + \"etwas\". *Niemand hat nichts gesehen* is a double negative.",
+        explanation: "One negative is enough: \"niemand\" + \"etwas\". \"Niemand hat nichts gesehen\" is a double negative.",
       },
       {
         type: "listen-choose",
@@ -1093,7 +1095,6 @@ export const DE_B1_U33: Lesson[] = [
             en: "The shop [closed] at six.",
             sentence: "Der Laden ___ um sechs.",
             answer: "schloss",
-            altAnswers: ["schloß"],
             explanation: "\"Schließen, schloss, geschlossen\": the long ie becomes a short o, so ß becomes ss.",
           },
           {
@@ -1111,7 +1112,7 @@ export const DE_B1_U33: Lesson[] = [
         heading: "Patterns with e and a",
         body: [
           "The e-family has two variants. With o in the participle: \"sprechen, sprach, gesprochen\"; \"helfen, half, geholfen\"; \"nehmen, nahm, genommen\"; \"treffen, traf, getroffen\"; \"werfen, warf, geworfen\". With e: \"geben, gab, gegeben\"; \"lesen, las, gelesen\"; \"sehen, sah, gesehen\"; \"essen, aß, gegessen\"; \"vergessen, vergaß, vergessen\". All of these change e to i or ie in the du and er forms of the present: \"du sprichst, er liest\".",
-          "The a-family keeps a in the participle: \"fahren, fuhr, ist gefahren\"; \"tragen, trug, getragen\"; \"waschen, wusch, gewaschen\"; \"fallen, fiel, ist gefallen\"; \"halten, hielt, gehalten\"; \"schlafen, schlief, geschlafen\"; \"lassen, ließ, gelassen\"; \"laufen, lief, ist gelaufen\". In the present: \"du fährst, er schläft, sie läuft\".",
+          "The a-family keeps the infinitive vowel (a, or au in \"laufen\") in the participle: \"fahren, fuhr, ist gefahren\"; \"tragen, trug, getragen\"; \"waschen, wusch, gewaschen\"; \"fallen, fiel, ist gefallen\"; \"halten, hielt, gehalten\"; \"schlafen, schlief, geschlafen\"; \"lassen, ließ, gelassen\"; \"laufen, lief, ist gelaufen\". In the present: \"du fährst, er schläft, sie läuft\".",
           "\"Sein\" or \"haben\"? Movement from A to B and change of state take \"sein\": \"ist gefahren, ist gefallen, ist gelaufen\". \"Fahren\" with an object (\"Ich habe das Auto gefahren\") takes \"haben\".",
         ],
         examples: [
@@ -1147,7 +1148,7 @@ export const DE_B1_U33: Lesson[] = [
         body: [
           "The most frequent verbs don't fit a family: \"gehen, ging, ist gegangen\"; \"stehen, stand, gestanden\"; \"sitzen, saß, gesessen\"; \"liegen, lag, gelegen\"; \"kommen, kam, ist gekommen\"; \"tun, tat, getan\"; \"sein, war, ist gewesen\"; \"werden, wurde, ist geworden\".",
           "Mixed verbs change their vowel like strong verbs but take weak endings (-te, -t): \"bringen, brachte, gebracht\"; \"denken, dachte, gedacht\"; \"kennen, kannte, gekannt\"; \"nennen, nannte, genannt\"; \"rennen, rannte, ist gerannt\"; \"wissen, wusste, gewusst\".",
-          "The typical errors: *gedenkt*, *gebringt*, *gewisst*, *geht* as a participle. If a verb is very common, assume it's irregular and check.",
+          "The typical errors: \"gedenkt\", \"gebringt\", \"gewisst\", \"geht\" as a participle (correct: \"gedacht, gebracht, gewusst, gegangen\"). If a verb is very common, assume it's irregular and check.",
         ],
         examples: [
           { es: "Wir gingen früh nach Hause.", en: "We went home early." },
@@ -1170,7 +1171,7 @@ export const DE_B1_U33: Lesson[] = [
           {
             type: "speak",
             text: "Gehen, ging, gegangen. Bringen, brachte, gebracht.",
-            tip: "Brachte has the throaty ach-sound after a.",
+            tip: "\"Brachte\" has the throaty ach-sound after a.",
             explanation: "A strong verb (new vowel, -en) next to a mixed one (new vowel, -te and -t).",
           },
         ],
@@ -1183,7 +1184,7 @@ export const DE_B1_U33: Lesson[] = [
         prompt: "Translate into German.",
         source: "We stayed at home.",
         answer: "Wir sind zu Hause geblieben.",
-        altAnswers: ["Wir blieben zu Hause.", "Wir sind daheim geblieben."],
+        altAnswers: ["Wir blieben zu Hause.", "Wir sind daheim geblieben.", "Wir sind zuhause geblieben."],
         explanation: "\"Bleiben\" takes \"sein\" although nobody moves.",
       },
       {
@@ -1198,10 +1199,10 @@ export const DE_B1_U33: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The plane [took off] late.",
+        en: "The plane [took] off late.",
         sentence: "Das Flugzeug ___ mit Verspätung ab.",
         answer: "flog",
-        explanation: "\"Abfliegen, flog ab, ist abgeflogen\": ie-o-o family.",
+        explanation: "\"Abfliegen, flog ab, ist abgeflogen\": ie-o-o family. The separable prefix \"ab\" (off) is already at the end.",
       },
       {
         type: "translate",
@@ -1262,6 +1263,7 @@ export const DE_B1_U33: Lesson[] = [
         prompt: "Translate into German.",
         source: "Prices have risen.",
         answer: "Die Preise sind gestiegen.",
+        altAnswers: ["Die Preise stiegen."],
         explanation: "\"Steigen, stieg, ist gestiegen\": a change of level, so \"sein\".",
       },
       {
@@ -1309,7 +1311,6 @@ export const DE_B1_U33: Lesson[] = [
             prompt: "Translate into German.",
             source: "What did you decide on? (to a friend)",
             answer: "Wofür hast du dich entschieden?",
-            altAnswers: ["Wofür habt ihr euch entschieden?", "Wofür haben Sie sich entschieden?"],
             explanation: "\"Sich entscheiden für\" → \"wofür\" in a question; reflexive \"dich\".",
           },
           {
@@ -1326,7 +1327,7 @@ export const DE_B1_U33: Lesson[] = [
         heading: "Giving reasons: weil, denn, deshalb",
         body: [
           "Every choice needs a reason. \"Weil\" sends the verb to the end: \"Ich habe mich für die Stelle entschieden, weil das Team so nett war.\" \"Denn\" keeps normal order: \"..., denn das Team war so nett.\" \"Deshalb\" starts the result with inversion: \"Das Team war so nett, deshalb habe ich die Stelle genommen.\"",
-          "In spoken German you'll often hear \"weil\" with main-clause order (*weil das Team war so nett*). Understand it, but don't write it.",
+          "In spoken German you'll often hear \"weil\" with main-clause order (\"weil das Team war so nett\"). Understand it, but don't write it.",
           "Other reason phrases: \"Der Hauptgrund war, dass...\" (the main reason was that...), \"Für mich war wichtig, dass...\", \"Was mich überzeugt hat, war...\"",
         ],
         examples: [
@@ -1367,7 +1368,7 @@ export const DE_B1_U33: Lesson[] = [
           { es: "Heute würde ich mich genauso entscheiden.", en: "Today I'd make the same decision." },
           { es: "Vielleicht würde ich heute etwas anderes studieren.", en: "Maybe today I'd study something else." },
           { es: "Und du? Wofür würdest du dich entscheiden?", en: "And you? What would you choose?" },
-          { es: "Die Entscheidung ist mir nicht leicht gefallen.", en: "The decision wasn't easy for me." },
+          { es: "Die Entscheidung ist mir nicht leichtgefallen.", en: "The decision wasn't easy for me." },
         ],
         checkpoint: [
           {
@@ -1381,16 +1382,16 @@ export const DE_B1_U33: Lesson[] = [
           },
           {
             type: "listen-choose",
-            audio: "Die Entscheidung ist mir nicht leicht gefallen.",
+            audio: "Die Entscheidung ist mir nicht leichtgefallen.",
             question: "What does it mean?",
             options: ["The decision wasn't easy for me.", "I didn't fall for the decision.", "The decision didn't please me.", "I made the decision lightly."],
             correctIndex: 0,
-            explanation: "\"Etwas fällt mir leicht / schwer\" means I find something easy or hard.",
+            explanation: "\"Etwas fällt mir leicht / schwer\" means I find something easy or hard; the participle is written as one word: \"leichtgefallen\".",
           },
           {
             type: "speak",
             text: "Ich habe mich für eine Ausbildung entschieden, weil ich praktisch arbeiten wollte.",
-            prompt: "Say it in German: I chose an apprenticeship because I wanted to work practically.",
+            prompt: "Say it in German: I chose an apprenticeship because I wanted to do practical work.",
             explanation: "\"Sich entscheiden für\" + \"weil\" with the modal \"wollte\" at the end.",
           },
         ],
@@ -1420,7 +1421,7 @@ export const DE_B1_U33: Lesson[] = [
         prompt: "Translate into German.",
         source: "Who did you choose? (to a friend)",
         answer: "Für wen hast du dich entschieden?",
-        altAnswers: ["Für wen habt ihr euch entschieden?", "Für wen haben Sie sich entschieden?"],
+        altAnswers: ["Wen hast du gewählt?"],
         explanation: "A person: preposition + \"wen\", not \"wofür\".",
       },
       {
@@ -1470,7 +1471,7 @@ export const DE_B1_U33: Lesson[] = [
         prompt: "Translate into German.",
         source: "What would you choose? (to a friend)",
         answer: "Wofür würdest du dich entscheiden?",
-        altAnswers: ["Wofür würdet ihr euch entscheiden?", "Wofür würden Sie sich entscheiden?", "Was würdest du wählen?"],
+        altAnswers: ["Was würdest du wählen?"],
         explanation: "Konjunktiv II \"würdest\" + \"wofür\" + reflexive \"dich\".",
       },
       {
@@ -1493,6 +1494,6 @@ export const DE_B1_U33_WRITING: WriteExercise = {
     "Use work vocabulary: \"die Stelle\", \"sich bewerben um\", \"kündigen\", \"die Probezeit\"...",
     "Reflect with Konjunktiv II: \"Heute würde ich...\"",
   ],
-  modelAnswer: "Vor drei Jahren habe ich mich für eine neue Stelle in Leipzig entschieden. Ich hatte damals einen sicheren Job in Köln, aber ich musste sehr viele Überstunden machen. Deshalb habe ich mich bei einer kleinen Firma beworben, die nachhaltige Möbel herstellt. Die Entscheidung ist mir nicht leicht gefallen, weil ich meine Freunde in Köln sehr vermisst habe. Außerdem war ich während der Probezeit oft nervös. Trotzdem habe ich es nie bereut. Das Team ist super, und ich habe endlich Zeit für meine Hobbys. Im Nachhinein bin ich sehr froh darüber, dass ich gekündigt habe. Heute würde ich mich genauso entscheiden, aber ich würde vielleicht früher wechseln.",
+  modelAnswer: "Vor drei Jahren habe ich mich für eine neue Stelle in Leipzig entschieden. Ich hatte damals einen sicheren Job in Köln, aber ich musste sehr viele Überstunden machen. Deshalb habe ich mich bei einer kleinen Firma beworben, die nachhaltige Möbel herstellt. Die Entscheidung ist mir nicht leichtgefallen, weil ich meine Freunde in Köln sehr vermisst habe. Außerdem war ich während der Probezeit oft nervös. Trotzdem habe ich es nie bereut. Das Team ist super, und ich habe endlich Zeit für meine Hobbys. Im Nachhinein bin ich sehr froh darüber, dass ich gekündigt habe. Heute würde ich mich genauso entscheiden, aber ich würde vielleicht früher wechseln.",
   explanation: "The model uses \"sich entscheiden für\", \"sich bewerben bei\", a relative clause (\"die nachhaltige Möbel herstellt\"), reasons with \"weil\" and \"deshalb\", the connectors \"außerdem\" and \"trotzdem\" with inversion, \"froh darüber, dass...\", and Konjunktiv II \"würde\" to reflect.",
 };

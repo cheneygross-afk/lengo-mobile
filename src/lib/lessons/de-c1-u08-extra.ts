@@ -9,7 +9,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Sein, Haben, Machen and Lassen, Part 1 of 3",
-    summary: "Sein and haben idioms in new situations.",
+    summary: "Practise the idioms with \"sein\" and \"haben\" in new everyday and work situations.",
     duration: "15 min",
     sections: [
       {
@@ -41,6 +41,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
             en: "[The guests were bored] at the reception.",
             sentence: "___ auf dem Empfang.",
             answer: "Den Gästen war langweilig",
+            altAnswers: ["Den Gästen war es langweilig"],
             explanation: "Dative of the person: \"den Gästen war langweilig\".",
           },
         ],
@@ -62,7 +63,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "It's up to the committee to decide.",
         answer: "Es ist an der Kommission, zu entscheiden.",
-        altAnswers: ["Es ist an der Kommission zu entscheiden.", "Es ist am Ausschuss, zu entscheiden.", "Es ist am Ausschuss zu entscheiden."],
+        altAnswers: ["Es ist an der Kommission zu entscheiden.", "Es ist am Ausschuss, zu entscheiden.", "Es ist am Ausschuss zu entscheiden.", "Es liegt am Ausschuss, zu entscheiden.", "Es liegt an der Kommission, zu entscheiden."],
         explanation: "\"Es ist an\" + dative.",
       },
       {
@@ -107,7 +108,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm just in the middle of writing an email.",
         answer: "Ich bin gerade dabei, eine E-Mail zu schreiben.",
-        altAnswers: ["Ich bin gerade dabei, eine Mail zu schreiben.", "Ich bin gerade am Schreiben einer E-Mail.", "Ich schreibe gerade eine E-Mail."],
+        altAnswers: ["Ich bin gerade dabei, eine Mail zu schreiben.", "Ich bin dabei, eine E-Mail zu schreiben.", "Ich schreibe gerade eine E-Mail."],
         explanation: "\"Dabei sein, ... zu\".",
       },
       {
@@ -161,7 +162,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "Mir ist heute nicht nach Feiern.",
         prompt: "Say it in German: I don't feel like partying today.",
-        tip: "Mir ist nicht nach + noun.",
+        tip: "\"Mir ist nicht nach\" + noun.",
         explanation: "\"Mir ist (nicht) nach ...\".",
       },
     ],
@@ -172,14 +173,14 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Sein, Haben, Machen and Lassen, Part 2 of 3",
-    summary: "Machen and tun in new situations.",
+    summary: "Practise choosing \"machen\" or \"tun\" in fixed expressions in new situations.",
     duration: "15 min",
     sections: [
       {
         heading: "Recap: machen and tun",
         body: [
           "Machen: \"Das macht nichts\", \"Das macht 15 Euro\", \"sich Sorgen machen\", \"sich auf den Weg machen\", \"sich nichts aus etwas machen\", \"Spaß machen\", \"Was macht die Arbeit?\", \"Mach's gut\".",
-          "Tun: \"leidtun\", \"wehtun\", \"guttun\", \"so tun, als ob\", \"zu tun haben\", \"einen Gefallen tun\", \"nichts zur Sache tun\". Not machen: \"eine Entscheidung treffen\", \"Sport treiben\".",
+          "Tun: \"leidtun\", \"wehtun\", \"guttun\", \"so tun, als ob\", \"zu tun haben\", \"einen Gefallen tun\", \"nichts zur Sache tun\". Not \"machen\": \"eine Entscheidung treffen\", \"Sport treiben\".",
         ],
         examples: [
           { es: "Das macht zusammen 34,90 Euro.", en: "That comes to 34.90 euros altogether." },
@@ -302,7 +303,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["Kannst du mir einen Gefallen tun?", "Kannst du mir einen Gefallen machen?", "Kannst du mir einen Gefallen haben?", "Kannst du mir einen Gefallen sein?"],
+        options: ["Kannst du mir einen Gefallen tun?", "Kannst du mir einen Gefallen bringen?", "Kannst du mir einen Gefallen haben?", "Kannst du mir einen Gefallen sein?"],
         correctIndex: 0,
         explanation: "\"Einen Gefallen tun\".",
       },
@@ -317,13 +318,13 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Mach dir keine Sorgen, das tut nichts zur Sache.",
-        explanation: "One machen idiom, one tun idiom.",
+        explanation: "One \"machen\" idiom, one \"tun\" idiom.",
       },
       {
         type: "speak",
         text: "Es tut mir leid, dass ich mich nicht gemeldet habe.",
         prompt: "Say it in German: I'm sorry I didn't get in touch.",
-        tip: "Es tut mir leid, dass ...",
+        tip: "\"Es tut mir leid, dass ...\"",
         explanation: "\"Leidtun\" with a dass-clause.",
       },
     ],
@@ -334,7 +335,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Sein, Haben, Machen and Lassen, Part 3 of 3",
-    summary: "Mixed idioms and paraphrases.",
+    summary: "Paraphrase the same idea with different core verbs (\"dabei sein\", \"richtigliegen\", \"frieren\", \"sich lassen\", \"sein + zu\", \"-bar\") and choose by register.",
     duration: "16 min",
     sections: [
       {
@@ -345,7 +346,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Ich bin gerade am Aufräumen.", en: "I'm tidying up right now." },
-          { es: "Mit dieser Annahme liegen Sie falsch.", en: "You're wrong with that assumption." },
+          { es: "Mit dieser Annahme liegen Sie falsch.", en: "You're wrong to assume that." },
           { es: "Die Aufgabe ist in einer Stunde zu schaffen.", en: "The task can be done in an hour." },
           { es: "Der Schaden ist leider nicht reparierbar.", en: "Unfortunately the damage can't be repaired." },
         ],
@@ -353,7 +354,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using liegen.",
+            prompt: "Translate into German using \"liegen\".",
             source: "You were absolutely right.",
             answer: "Du lagst völlig richtig.",
             altAnswers: ["Sie lagen völlig richtig.", "Du hast völlig richtig gelegen.", "Du lagst genau richtig.", "Sie haben völlig richtig gelegen."],
@@ -362,8 +363,8 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using sein + zu.",
-            source: "The noise can't be tolerated.",
+            prompt: "Translate into German using \"sein + zu\".",
+            source: "The noise is unbearable.",
             answer: "Der Lärm ist nicht zu ertragen.",
             altAnswers: ["Der Lärm ist nicht auszuhalten.", "Der Lärm ist nicht zu ertragen!"],
             explanation: "\"Sein + zu\" = can be done.",
@@ -439,7 +440,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The flat can be rented from May.",
+        source: "The flat can be let from May.",
         answer: "Die Wohnung ist ab Mai vermietbar.",
         altAnswers: ["Die Wohnung kann ab Mai gemietet werden.", "Die Wohnung ist ab Mai zu vermieten.", "Die Wohnung kann ab Mai vermietet werden."],
         explanation: "\"-bar\" adjective or passive.",
@@ -488,7 +489,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "Ich bin gerade dabei, die Koffer zu packen.",
         prompt: "Say it in German: I'm just packing the suitcases.",
-        tip: "Dabei sein, ... zu.",
+        tip: "\"Dabei sein, ... zu\".",
         explanation: "\"Dabei sein\" for an action in progress.",
       },
     ],
@@ -499,7 +500,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Verbs with Both Auxiliaries",
-    summary: "Fahren, fliegen, ziehen, brechen with haben or sein.",
+    summary: "Choose \"haben\" or \"sein\" in the Perfekt of \"fahren\", \"fliegen\", \"reiten\", \"ziehen\", \"brechen\", \"stoßen\" and \"verderben\".",
     duration: "15 min",
     sections: [
       {
@@ -553,6 +554,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German, in the Perfekt.",
         source: "Who drove the minibus?",
         answer: "Wer hat den Kleinbus gefahren?",
+        altAnswers: ["Wer hat den Minibus gefahren?"],
         explanation: "Object → \"haben\".",
       },
       {
@@ -578,6 +580,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German, in the Perfekt.",
         source: "I've never flown before.",
         answer: "Ich bin noch nie geflogen.",
+        altAnswers: ["Ich bin vorher noch nie geflogen.", "Ich bin noch nie zuvor geflogen."],
         explanation: "No object → \"sein\".",
       },
       {
@@ -603,12 +606,13 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
         prompt: "Translate into German, in the Perfekt.",
         source: "We came across a mistake in the bill.",
         answer: "Wir sind auf einen Fehler in der Rechnung gestoßen.",
+        altAnswers: ["Wir sind in der Rechnung auf einen Fehler gestoßen."],
         explanation: "\"Stoßen auf\" → \"sein\".",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Who [has ridden] this horse before?",
+        en: "Who [has] ridden this horse before?",
         sentence: "Wer ___ dieses Pferd schon einmal geritten?",
         answer: "hat",
         explanation: "Object → \"haben\".",
@@ -616,9 +620,10 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "We [rode] along the beach.",
-        sentence: "Wir ___ am Strand entlang geritten.",
-        answer: "sind",
+        en: "We [rode along the beach].",
+        sentence: "Wir ___.",
+        answer: "sind am Strand entlanggeritten",
+        altAnswers: ["sind am Strand entlang geritten", "sind den Strand entlanggeritten"],
         explanation: "No object → \"sein\".",
       },
       {
@@ -647,7 +652,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "Wir sind letzten Sommer nach Kanada geflogen.",
         prompt: "Say it in German, in the Perfekt: We flew to Canada last summer.",
-        tip: "No direct object, so sein.",
+        tip: "No direct object, so \"sein\".",
         explanation: "\"Sind geflogen\".",
       },
     ],
@@ -657,8 +662,8 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
     level: "DE-C1",
     number: 5,
     optional: true,
-    title: "Extra Practice: Es Gibt, Es Ist, Da Ist, Es Steht",
-    summary: "Choosing the right way to say there is.",
+    title: "Extra Practice: Es gibt, Es ist, Da ist, Es steht",
+    summary: "Choose the right way to say there is: \"es gibt\", \"sein\", \"stehen\", position verbs or \"herrschen\".",
     duration: "15 min",
     sections: [
       {
@@ -749,7 +754,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
         source: "There's no reason to panic.",
         answer: "Es gibt keinen Grund zur Panik.",
         altAnswers: ["Es gibt keinen Grund, in Panik zu geraten.", "Es gibt keinen Grund, panisch zu werden."],
-        explanation: "\"Es gibt keinen Grund\", not *da ist kein Grund.",
+        explanation: "\"Es gibt keinen Grund\", not \"*Da ist kein Grund\".",
       },
       {
         type: "translate",
@@ -789,7 +794,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence avoids an English calque?",
-        options: ["Es gibt ein Problem mit dem Server.", "Da ist ein Problem mit dem Server.", "Es ist ein Problem mit dem Server.", "Da gibt ein Problem mit dem Server."],
+        options: ["Es gibt ein Problem mit dem Server.", "Ein Problem ist mit dem Server.", "Es ist ein Problem mit dem Server.", "Da gibt ein Problem mit dem Server."],
         correctIndex: 0,
         explanation: "Existence of a problem: \"es gibt\".",
       },
@@ -809,7 +814,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "Es gibt keinen Grund zur Sorge.",
         prompt: "Say it in German: There's no reason to worry.",
-        tip: "Es gibt + accusative.",
+        tip: "\"Es gibt\" + accusative.",
         explanation: "\"Keinen Grund\" is accusative.",
       },
     ],
@@ -820,7 +825,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Lassen and Bringen",
-    summary: "Causatives, permissions and making people feel or do things.",
+    summary: "Use \"lassen\" for causatives, permission, leaving and suggestions, and \"machen\" / \"bringen\" to say what makes people feel or do things.",
     duration: "16 min",
     sections: [
       {
@@ -973,7 +978,7 @@ export const DE_C1_U08_EXTRA: Lesson[] = [
         type: "speak",
         text: "Das macht mich glücklich.",
         prompt: "Say it in German: That makes me happy.",
-        tip: "Machen + adjective.",
+        tip: "\"Machen\" + adjective.",
         explanation: "\"Machen\" + adjective for feelings.",
       },
     ],

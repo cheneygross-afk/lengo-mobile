@@ -16,7 +16,7 @@ export const DE_A1_U07: Lesson[] = [
         body: [
           "The days of the week are all masculine: \"der Montag, der Dienstag, der Mittwoch, der Donnerstag, der Freitag, der Samstag, der Sonntag\". They're capitalised only because every German noun is. \"Mittwoch\" is simply mid-week, and \"Donnerstag\" is thunder's day (Thor's day, like English Thursday). In the north and east you'll also hear \"Sonnabend\" for Saturday.",
           "On Monday is \"am Montag\". \"Am\" is a fused form of \"an dem\", but for now just learn \"am\" + day as one chunk. The weekend works the same way: \"am Wochenende\". Today, tomorrow and yesterday need no preposition: \"heute\", \"morgen\", \"gestern\".",
-          "A time phrase can start the sentence, but the verb stays in second place and the subject moves behind it: \"Am Montag arbeite ich\", never \"Am Montag ich arbeite\". To ask the day: \"Welcher Tag ist heute?\" The answer has no article: \"Heute ist Freitag.\"",
+          "A time phrase can start the sentence, but the verb stays in second place and the subject moves behind it: \"Am Montag arbeite ich\", never \"*Am Montag ich arbeite\". To ask the day: \"Welcher Tag ist heute?\" The answer has no article: \"Heute ist Freitag.\"",
         ],
         examples: [
           { es: "Heute ist Mittwoch.", en: "Today is Wednesday." },
@@ -41,7 +41,7 @@ export const DE_A1_U07: Lesson[] = [
             question: "What does it mean?",
             options: ["Today is Thursday.", "Today is Tuesday.", "Tomorrow is Thursday.", "Today is Saturday."],
             correctIndex: 0,
-            explanation: "\"Donnerstag\" is Thursday (Donner means thunder); Tuesday is \"Dienstag\", and tomorrow would be \"morgen\".",
+            explanation: "\"Donnerstag\" is Thursday (\"Donner\" means thunder); Tuesday is \"Dienstag\", and tomorrow would be \"morgen\".",
           },
           {
             type: "word-order",
@@ -57,7 +57,7 @@ export const DE_A1_U07: Lesson[] = [
         heading: "Months and seasons: im Mai, im Sommer",
         body: [
           "The months look almost English and are also all masculine: \"Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember\". Watch the umlaut in \"März\". Because \"Juni\" and \"Juli\" sound so alike, people on the phone often say \"Juno\" and \"Julei\".",
-          "In May is \"im Mai\" (\"im\" is a fused form of \"in dem\"). The rule of thumb: days take \"am\", months and seasons take \"im\". The two classic slips are \"am Mai\" and \"in Montag\".",
+          "In May is \"im Mai\" (\"im\" is a fused form of \"in dem\"). The rule of thumb: days take \"am\", months and seasons take \"im\". The two classic slips are \"*am Mai\" and \"*in Montag\".",
           "The seasons: \"der Frühling\" (spring), \"der Sommer\", \"der Herbst\" (autumn, related to English harvest), \"der Winter\": \"im Frühling, im Sommer, im Herbst, im Winter\". When a season is the subject, German keeps the article where English drops it: \"Der Herbst ist schön\" (autumn is lovely).",
         ],
         examples: [
@@ -225,7 +225,7 @@ export const DE_A1_U07: Lesson[] = [
         heading: "Der erste, der zweite, der dritte",
         body: [
           "Ordinal numbers (first, second, third) add -te to the number up to 19: \"zweite, vierte, fünfte, sechste, neunte, zehnte, zwölfte, neunzehnte\". From 20 on they add -ste: \"zwanzigste, einundzwanzigste, dreißigste, einunddreißigste\".",
-          "Four are irregular, just as English first and third are: \"erste\" (1st), \"dritte\" (3rd, not \"dreite\"), \"siebte\" (7th: the -en of sieben drops) and \"achte\" (8th: only one t). In writing, a full stop after the number makes it an ordinal: \"3.\" is read \"dritte\".",
+          "Four are irregular, just as English first and third are: \"erste\" (1st), \"dritte\" (3rd, not \"*dreite\"), \"siebte\" (7th: the -en of sieben drops) and \"achte\" (8th: only one t). In writing, a full stop after the number makes it an ordinal: \"3.\" is read \"dritte\".",
           "For a date, say the day before the month: \"der dritte Oktober\". Written that's \"3. Oktober\" or \"3.10.\" So a German who writes 3/10 or 3.10. means the 3rd of October, never the 10th of March.",
         ],
         examples: [
@@ -251,7 +251,7 @@ export const DE_A1_U07: Lesson[] = [
             question: "What did you hear?",
             options: ["der siebte Juli", "der siebzehnte Juli", "der siebte Juni", "der sechste Juli"],
             correctIndex: 0,
-            explanation: "\"Siebte\" (7th) drops the -en of \"sieben\"; \"siebzehnte\" is 17th. Juli ends in an ee sound, Juni in -ni.",
+            explanation: "\"Siebte\" (7th) drops the -en of \"sieben\"; \"siebzehnte\" is 17th. \"Juli\" has an l in the middle, \"Juni\" an n: that's the only difference you hear.",
           },
         ],
       },
@@ -314,10 +314,10 @@ export const DE_A1_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your new colleague asks: Wann hast du Geburtstag? It's on 3 October. What do you say?",
+            question: "Your new colleague asks: \"Wann hast du Geburtstag?\" It's on 3 October. What do you say?",
             options: ["Am dritten Oktober.", "Am drei Oktober.", "Im dritten Oktober.", "Der dritte Oktober."],
             correctIndex: 0,
-            explanation: "On a date is \"am\" + the ordinal ending in -en. \"Der dritte Oktober\" names the date but doesn't answer when.",
+            explanation: "On a date is \"am\" + the ordinal ending in -en. \"Am drei\" uses the plain number, \"im\" is for months, and \"Der dritte Oktober\" names the date but doesn't answer when.",
           },
           {
             type: "speak",
@@ -354,7 +354,7 @@ export const DE_A1_U07: Lesson[] = [
         source: "The party is on the seventh of July.",
         answer: "Die Party ist am siebten Juli.",
         altAnswers: ["Die Party ist am 7. Juli.", "Die Feier ist am siebten Juli.", "Die Feier ist am 7. Juli."],
-        explanation: "On a date: \"am\" + \"siebten\" (7th drops the -en of sieben, then adds -ten).",
+        explanation: "On a date: \"am\" + \"siebten\" (7th drops the -en of \"sieben\", then adds -ten).",
       },
       {
         type: "fill-blank",
@@ -376,7 +376,7 @@ export const DE_A1_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A German form says: Geburtsdatum: 4.11.1995. When was the person born?",
+        question: "A German form says \"Geburtsdatum: 4.11.1995\". When was the person born?",
         options: ["4 November 1995", "11 April 1995", "4 January 1995", "14 November 1995"],
         correctIndex: 0,
         explanation: "German dates go day, month, year: \"4.11.\" is the 4th of November (\"der vierte November\").",
@@ -434,7 +434,7 @@ export const DE_A1_U07: Lesson[] = [
         heading: "Es regnet, es schneit, die Sonne scheint",
         body: [
           "The weather question is \"Wie ist das Wetter?\" (what's the weather like?). Weather verbs need \"es\" as a dummy subject, exactly like English it: \"Es regnet\" (it's raining), \"Es schneit\" (it's snowing). German has one present tense, so \"es regnet\" covers it rains and it's raining.",
-          "The sun is a real subject: \"Die Sonne scheint\" (the sun is shining). And \"es\" can never be dropped: \"Ist kalt\" or \"Regnet\" on their own aren't sentences.",
+          "The sun is a real subject: \"Die Sonne scheint\" (the sun is shining). And \"es\" can never be dropped: \"*Ist kalt\" or \"*Regnet\" on their own aren't sentences.",
           "When a time or place comes first, \"es\" moves behind the verb: \"Heute regnet es\", \"In Hamburg schneit es\". That's the usual verb-second rule.",
         ],
         examples: [
@@ -460,7 +460,7 @@ export const DE_A1_U07: Lesson[] = [
             question: "What does it mean?",
             options: ["It's raining.", "It's snowing.", "It's windy.", "It's cold."],
             correctIndex: 0,
-            explanation: "\"Regnen\" is to rain (der Regen, rain); snowing is \"es schneit\".",
+            explanation: "\"Regnen\" is to rain (\"der Regen\", rain); snowing is \"es schneit\".",
           },
         ],
       },
@@ -596,7 +596,7 @@ export const DE_A1_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend calls from Leipzig and says: Es ist bewölkt. What's the weather like?",
+        question: "A friend calls from Leipzig and says: \"Es ist bewölkt.\" What's the weather like?",
         options: ["Cloudy", "Sunny", "Snowing", "Stormy"],
         correctIndex: 0,
         explanation: "\"Bewölkt\" comes from \"die Wolke\" (cloud): cloudy.",
@@ -672,7 +672,7 @@ export const DE_A1_U07: Lesson[] = [
         heading: "Weather through the year",
         body: [
           "German weather talk pairs a season or month with \"im\" and then the weather: \"Im April regnet es oft\" (April is famous for changeable weather: \"Aprilwetter\"). \"Im Juli ist es heiß\", \"Im Herbst ist es windig\".",
-          "Some months need no verb at all in a list or a forecast, but in a full sentence keep the verb second: \"Im Januar schneit es\", not \"Im Januar es schneit\".",
+          "Forecasts and lists often drop the verb (\"Januar: Schnee\"), but in a full sentence keep the verb second: \"Im Januar schneit es\", not \"*Im Januar es schneit\".",
         ],
         examples: [
           { es: "Im April regnet es oft.", en: "It often rains in April." },
@@ -786,7 +786,7 @@ export const DE_A1_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The forecast says: Morgen ist es sonnig. What should you bring?",
+        question: "The forecast says: \"Morgen ist es sonnig.\" What should you bring?",
         options: ["Eine Sonnenbrille.", "Einen Regenschirm.", "Handschuhe und eine Mütze.", "Einen Mantel und einen Schal."],
         correctIndex: 0,
         explanation: "\"Sonnig\" means sunny, so sunglasses: \"eine Sonnenbrille\".",
@@ -899,7 +899,7 @@ export const DE_A1_U07: Lesson[] = [
         body: [
           "A few countries always have an article: \"die Schweiz\" (Switzerland), \"die Türkei\", \"die Niederlande\" and \"die USA\" (both plural). The article travels with them, and the prepositions change: to them is \"in\" instead of \"nach\".",
           "Learn them as chunks: \"in der Schweiz\" (in Switzerland), \"in die Schweiz\" (to Switzerland), \"aus der Schweiz\" (from Switzerland). The same with \"der Türkei\". For the plural USA: \"in den USA, in die USA, aus den USA\". Why the articles change is the case system; you'll meet it properly at the Elementary level.",
-          "\"Aus Schweiz\" and \"nach Schweiz\" are typical slips: if a country has an article, it never goes missing.",
+          "\"*Aus Schweiz\" and \"*nach Schweiz\" are typical slips: if a country has an article, it never goes missing.",
         ],
         examples: [
           { es: "Mehmet kommt aus der Türkei.", en: "Mehmet is from Turkey." },
@@ -931,7 +931,7 @@ export const DE_A1_U07: Lesson[] = [
         heading: "Zu Hause and nach Hause",
         body: [
           "Home has its own pair. At home (where you are) is \"zu Hause\": \"Ich bin zu Hause.\" Home (where you're going) is \"nach Hause\": \"Ich gehe nach Hause.\" It's the same logic as \"in Berlin\" vs \"nach Berlin\": location vs direction.",
-          "Mixing them up is very common: \"Ich gehe zu Hause\" sounds like I walk about at home. And \"Ich bin nach Hause\" is not a sentence.",
+          "Mixing them up is very common: \"*Ich gehe zu Hause\" sounds like I walk about at home. And \"*Ich bin nach Hause\" is not a sentence.",
         ],
         examples: [
           { es: "Ich bin heute zu Hause.", en: "I'm at home today." },
@@ -982,7 +982,7 @@ export const DE_A1_U07: Lesson[] = [
         prompt: "Translate into German.",
         source: "We're staying at home on Sunday.",
         answer: "Wir bleiben am Sonntag zu Hause.",
-        altAnswers: ["Am Sonntag bleiben wir zu Hause."],
+        altAnswers: ["Am Sonntag bleiben wir zu Hause.", "Wir bleiben am Sonntag zuhause."],
         explanation: "At home is \"zu Hause\". Time before place: \"am Sonntag zu Hause\".",
       },
       {
@@ -1056,7 +1056,7 @@ export const DE_A1_U07: Lesson[] = [
       {
         heading: "Six prepositions, one case: dem, der, dem, den",
         body: [
-          "After \"aus, bei, mit, nach, von, zu\" German always uses a third case, the dative. A handy memory line: \"aus, bei, mit, nach, von, zu\" — sing it, it has a rhythm. You've already seen the dative in \"am\" (an dem) and \"im\" (in dem).",
+          "After \"aus, bei, mit, nach, von, zu\" German always uses a third case, the dative. A handy memory line: \"aus, bei, mit, nach, von, zu\" — sing it, it has a rhythm. You've already seen the dative in \"am\" (\"an dem\") and \"im\" (\"in dem\").",
           "The articles change like this: masculine \"der\" becomes \"dem\", feminine \"die\" becomes \"der\", neuter \"das\" becomes \"dem\", and plural \"die\" becomes \"den\", with an extra -n on the noun if it doesn't already end in -n or -s: \"mit den Kindern\".",
           "The indefinite article follows the same pattern: \"einem\" (masculine and neuter), \"einer\" (feminine). So does \"kein\" and every possessive: \"mit meinem Bruder\", \"mit meiner Mutter\". Feminine \"der\" is the surprise: it looks like the masculine nominative, but here it means the dative of \"die\".",
         ],
@@ -1065,7 +1065,7 @@ export const DE_A1_U07: Lesson[] = [
           { es: "Sie fährt mit der Bahn.", en: "She's going by train." },
           { es: "Wir fahren mit dem Auto.", en: "We're going by car." },
           { es: "Ich spiele mit den Kindern.", en: "I'm playing with the children." },
-          { es: "Er wohnt bei einer Freundin.", en: "He's staying with a friend." },
+          { es: "Er wohnt bei einer Freundin.", en: "He's living at a friend's." },
           { es: "Ich wohne mit meinem Bruder in Köln.", en: "I live with my brother in Cologne." },
         ],
         checkpoint: [
@@ -1091,7 +1091,7 @@ export const DE_A1_U07: Lesson[] = [
       {
         heading: "Getting there: mit dem Bus, zu Fuß",
         body: [
-          "English says by bus, by car; German says with the bus: \"mit dem Bus\", \"mit dem Auto\", \"mit dem Fahrrad\" (bike), \"mit der U-Bahn\" (underground), \"mit der Straßenbahn\" (tram). The article is part of it: \"mit Bus\" and \"bei Bus\" are typical mistakes.",
+          "English says by bus, by car; German says with the bus: \"mit dem Bus\", \"mit dem Auto\", \"mit dem Fahrrad\" (bike), \"mit der U-Bahn\" (underground), \"mit der Straßenbahn\" (tram). The article is part of it: \"*mit Bus\" and \"*bei Bus\" are typical mistakes.",
           "On foot is a fixed chunk: \"zu Fuß\" (\"Ich gehe zu Fuß\"). And to ask how someone travels: \"Wie fährst du zur Arbeit?\" or \"Wie kommst du nach Hause?\"",
         ],
         examples: [
@@ -1116,7 +1116,7 @@ export const DE_A1_U07: Lesson[] = [
             question: "A colleague asks how you get to work. You take the bus. What do you say?",
             options: ["Ich fahre mit dem Bus.", "Ich fahre bei Bus.", "Ich fahre mit Bus.", "Ich fahre mit der Bus."],
             correctIndex: 0,
-            explanation: "\"Der Bus\" is masculine, so \"mit dem Bus\". English by is not \"bei\".",
+            explanation: "\"Der Bus\" is masculine, so \"mit dem Bus\" (not \"der\", which is feminine). English by is not \"bei\", and the article can't be left out.",
           },
         ],
       },
@@ -1124,7 +1124,7 @@ export const DE_A1_U07: Lesson[] = [
         heading: "Zum, zur, beim, vom",
         body: [
           "Four short forms are almost always used in speech and writing: \"zu dem\" becomes \"zum\", \"zu der\" becomes \"zur\", \"bei dem\" becomes \"beim\", \"von dem\" becomes \"vom\". So: \"zum Arzt\" (to the doctor's), \"zur Arbeit\" (to work), \"zur Schule\", \"zum Bahnhof\", \"beim Arzt\" (at the doctor's), \"vom Bahnhof\" (from the station).",
-          "\"Zur\" signals a feminine noun and \"zum\" a masculine or neuter one, so the gender still matters: \"zur Post\" (die Post) but \"zum Supermarkt\" (der Supermarkt). And \"nach\" isn't only for places: \"nach dem Essen\" means after the meal.",
+          "\"Zur\" signals a feminine noun and \"zum\" a masculine or neuter one, so the gender still matters: \"zur Post\" (\"die Post\") but \"zum Supermarkt\" (\"der Supermarkt\"). And \"nach\" isn't only for places: \"nach dem Essen\" means after the meal.",
         ],
         examples: [
           { es: "Ich muss zum Arzt.", en: "I have to go to the doctor's." },
@@ -1156,7 +1156,7 @@ export const DE_A1_U07: Lesson[] = [
             type: "speak",
             text: "Ich fahre mit dem Bus zur Arbeit.",
             tip: "In \"Bus\" the u is short and the s is sharp: not like English bus.",
-            explanation: "Two dative prepositions: \"mit dem Bus\" (der Bus) and \"zur Arbeit\" (die Arbeit).",
+            explanation: "Two dative prepositions: \"mit dem Bus\" (\"der Bus\") and \"zur Arbeit\" (\"die Arbeit\").",
           },
         ],
       },
@@ -1400,7 +1400,7 @@ export const DE_A1_U07: Lesson[] = [
         en: "I'm [at home] tomorrow.",
         sentence: "Ich bin morgen ___.",
         answer: "zu Hause",
-        altAnswers: ["daheim"],
+        altAnswers: ["daheim", "zuhause"],
         explanation: "At home (location) is \"zu Hause\"; \"nach Hause\" is for going home.",
       },
       {
@@ -1503,7 +1503,7 @@ export const DE_A1_U07: Lesson[] = [
       {
         heading: "Ich spreche Deutsch: no article, capital or small letter?",
         body: [
-          "Languages take no article: \"Ich spreche Deutsch\", \"Sprichst du Spanisch?\" (sprechen is e→i: du sprichst, er spricht). Nationalities after \"sein\" take no article either: \"Ich bin Amerikanerin\", never \"eine Amerikanerin\".",
+          "Languages take no article: \"Ich spreche Deutsch\", \"Sprichst du Spanisch?\" (\"sprechen\" is e→i: \"du sprichst\", \"er spricht\"). Nationalities after \"sein\" take no article either: \"Ich bin Amerikanerin\", never \"*Ich bin eine Amerikanerin\".",
           "Capital or small letter? The language and the person are nouns, so capitalised: \"Deutsch\", \"der Engländer\". The adjective is lowercase: \"Das Auto ist deutsch\", \"Der Käse ist französisch\". In German is \"auf Deutsch\": \"Wie heißt das auf Deutsch?\"",
         ],
         examples: [
@@ -1851,7 +1851,7 @@ export const DE_A1_U07: Lesson[] = [
       {
         type: "speak",
         text: "Ich hätte gern ein Kilo Äpfel.",
-        prompt: "Say it in German: I'd like a kilo of apples, please.",
+        prompt: "Say it in German: I'd like a kilo of apples.",
         explanation: "\"Ich hätte gern\" is the polite way to order; no word for of: \"ein Kilo Äpfel\".",
       },
     ],
@@ -1899,7 +1899,7 @@ export const DE_A1_U07: Lesson[] = [
       {
         heading: "How often: immer, oft, manchmal, selten",
         body: [
-          "Frequency words: \"immer\" (always), \"oft\" (often), \"manchmal\" (sometimes), \"selten\" (rarely), \"nie\" (never). Plus three useful extras: \"auch\" (also, too), \"vielleicht\" (maybe), \"fast\" (almost), and \"wieder\" (again).",
+          "Frequency words: \"immer\" (always), \"oft\" (often), \"manchmal\" (sometimes), \"selten\" (rarely), \"nie\" (never). Plus four useful extras: \"auch\" (also, too), \"vielleicht\" (maybe), \"fast\" (almost) and \"wieder\" (again).",
           "In the middle of a sentence they usually go right after the verb (and after a pronoun): \"Ich trinke oft Tee\", \"Wir sind manchmal müde\". English puts often before the verb (I often drink); German can't, because the verb has to stay second.",
         ],
         examples: [
@@ -1917,7 +1917,7 @@ export const DE_A1_U07: Lesson[] = [
             prompt: "Translate into German.",
             source: "I often drink tea.",
             answer: "Ich trinke oft Tee.",
-            explanation: "The verb stays second, so \"oft\" comes after it: \"Ich trinke oft\", never \"Ich oft trinke\".",
+            explanation: "The verb stays second, so \"oft\" comes after it: \"Ich trinke oft\", never \"*Ich oft trinke\".",
           },
           {
             type: "listen-choose",
@@ -1966,7 +1966,7 @@ export const DE_A1_U07: Lesson[] = [
         heading: "Und, aber, oder, denn — and dann",
         body: [
           "\"Und\" (and), \"aber\" (but), \"oder\" (or) and \"denn\" (because) join two sentences without taking a position: the next part keeps its normal order. \"Ich bleibe zu Hause, denn es regnet.\" Think of them as position 0.",
-          "\"Denn\" and \"dann\" look alike but are very different: \"denn\" means because and changes nothing; \"dann\" means then and takes position 1, so the verb jumps in front of the subject: \"Es regnet, dann bleibe ich zu Hause\" (it's raining, so then I'll stay at home).",
+          "\"Denn\" and \"dann\" look alike but are very different: \"denn\" means because and changes nothing; \"dann\" means then and takes position 1, so the verb jumps in front of the subject: \"Ich esse, dann gehe ich\" (I'll eat, then I'll go).",
         ],
         examples: [
           { es: "Ich bleibe zu Hause, denn es regnet.", en: "I'm staying at home, because it's raining." },
@@ -1981,6 +1981,7 @@ export const DE_A1_U07: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm staying at home, because I'm tired.",
             answer: "Ich bleibe zu Hause, denn ich bin müde.",
+            altAnswers: ["Ich bleibe zuhause, denn ich bin müde."],
             explanation: "\"Denn\" (because) doesn't take a position: \"denn ich bin müde\", subject then verb.",
           },
           {

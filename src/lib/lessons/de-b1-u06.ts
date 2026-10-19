@@ -96,7 +96,7 @@ export const DE_B1_U06: Lesson[] = [
           "A quick test: if you could replace would with used to, it's a past habit, so use the Perfekt or the Präteritum. If it means in an imagined situation, it's \"würde\".",
         ],
         examples: [
-          { es: "Als Kind habe ich jeden Sommer bei meiner Oma gewohnt.", en: "As a child I would stay with my gran every summer." },
+          { es: "Als Kind war ich jeden Sommer bei meiner Oma.", en: "As a child I would stay with my gran every summer." },
           { es: "Mein Vater las uns abends immer vor.", en: "My father would always read to us in the evening." },
           { es: "Immer wenn es schneite, bauten wir einen Schneemann.", en: "Whenever it snowed, we'd build a snowman." },
           { es: "Heute würde ich das anders machen.", en: "Today I would do it differently." },
@@ -215,7 +215,7 @@ export const DE_B1_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "They would rather stay at home.",
         answer: "Sie würden lieber zu Hause bleiben.",
-        altAnswers: ["Sie würden lieber daheim bleiben."],
+        altAnswers: ["Sie würden lieber daheim bleiben.", "Sie würden lieber zuhause bleiben."],
         explanation: "\"Lieber\" (rather) is the comparative of \"gern\" and sits in the same slot: \"würden lieber ... bleiben\".",
       },
     ],
@@ -672,8 +672,8 @@ export const DE_B1_U06: Lesson[] = [
             prompt: "Translate into German.",
             source: "We'd be there at eight.",
             answer: "Wir wären um acht da.",
-            altAnswers: ["Wir wären um acht Uhr da.", "Um acht wären wir da.", "Um acht Uhr wären wir da.", "Wir wären um acht dort."],
-            explanation: "\"Wären\" is the wir form of the Konjunktiv of sein. Not *\"wir würden um acht da sein\", which is possible but heavy.",
+            altAnswers: ["Wir wären um acht Uhr da.", "Um acht wären wir da.", "Um acht Uhr wären wir da.", "Wir wären um acht dort.", "Wir würden um acht da sein."],
+            explanation: "\"Wären\" is the wir form of the Konjunktiv of sein. \"Wir würden um acht da sein\" is grammatical, but it sounds heavy: natives say \"wären\".",
           },
           {
             type: "fill-blank",
@@ -707,7 +707,7 @@ export const DE_B1_U06: Lesson[] = [
             prompt: "Translate into German.",
             source: "Would you fancy a coffee? (to a friend)",
             answer: "Hättest du Lust auf einen Kaffee?",
-            altAnswers: ["Hast du Lust auf einen Kaffee?", "Hättet ihr Lust auf einen Kaffee?", "Hätten Sie Lust auf einen Kaffee?"],
+            altAnswers: ["Hast du Lust auf einen Kaffee?"],
             explanation: "\"Lust haben auf\" + accusative is to fancy something; \"hättest\" makes the offer softer.",
           },
           {
@@ -766,7 +766,7 @@ export const DE_B1_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "That would be really kind of you. (to a friend)",
         answer: "Das wäre wirklich nett von dir.",
-        altAnswers: ["Das wäre echt nett von dir.", "Das wäre wirklich lieb von dir.", "Das wäre sehr nett von dir.", "Das wäre wirklich nett von Ihnen.", "Das wäre wirklich nett von euch."],
+        altAnswers: ["Das wäre echt nett von dir.", "Das wäre wirklich lieb von dir.", "Das wäre sehr nett von dir."],
         explanation: "\"Wäre\" for would be; kind of you is \"nett von dir\".",
       },
       {
@@ -905,7 +905,7 @@ export const DE_B1_U06: Lesson[] = [
             prompt: "Translate into German.",
             source: "You should go to the doctor. (to a friend)",
             answer: "Du solltest zum Arzt gehen.",
-            altAnswers: ["Du solltest zum Arzt.", "Ihr solltet zum Arzt gehen.", "Sie sollten zum Arzt gehen."],
+            altAnswers: ["Du solltest zum Arzt."],
             explanation: "Should (advice) is \"solltest\", which looks like the Präteritum: \"sollen\" has no umlaut to add.",
           },
           {
@@ -921,8 +921,8 @@ export const DE_B1_U06: Lesson[] = [
         heading: "The one-word forms: käme, ginge, wüsste, gäbe",
         body: [
           "In theory every verb has a one-word Konjunktiv II built from the Präteritum: \"kam\" → \"käme\", \"ging\" → \"ginge\", \"gab\" → \"gäbe\". In practice almost all of them sound old-fashioned, and speakers use \"würde\" + infinitive instead.",
-          "A handful are still very much alive, especially in speech and in polite phrases: \"wüsste\" (from wusste: Ich wüsste gern, wie das funktioniert), \"gäbe\" (es gäbe: there would be), \"käme\" (Das käme darauf an: that would depend), \"ginge\" (Das ginge: that would work), \"bliebe\", \"täte\" (Das täte mir leid). Learn these as vocabulary.",
-          "For every other verb, use \"würde\": \"Ich würde das kaufen\", not *\"ich kaufte das\". With weak verbs the old one-word form is identical to the Präteritum anyway, which is exactly why \"würde\" took over.",
+          "A handful are still very much alive, especially in speech and in polite phrases: \"wüsste\" (from \"wusste\": \"Ich wüsste gern, wie das funktioniert\"), \"gäbe\" (\"es gäbe\": there would be), \"käme\" (\"Das käme darauf an\": that would depend), \"ginge\" (\"Das ginge\": that would work), \"bliebe\", \"täte\" (\"Das täte mir leid\"). Learn these as vocabulary.",
+          "For every other verb, use \"würde\": \"Ich würde das kaufen\", not \"*ich kaufte das\". With weak verbs the old one-word form is identical to the Präteritum anyway, which is exactly why \"würde\" took over.",
         ],
         examples: [
           { es: "Ich wüsste gern, wie das funktioniert.", en: "I'd like to know how that works." },
@@ -969,7 +969,7 @@ export const DE_B1_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "Could you help me? (to a friend)",
         answer: "Könntest du mir helfen?",
-        altAnswers: ["Könntest du mir bitte helfen?", "Könntet ihr mir helfen?", "Könnten Sie mir helfen?", "Könntest du mir kurz helfen?"],
+        altAnswers: ["Könntest du mir bitte helfen?", "Könntest du mir kurz helfen?"],
         explanation: "\"Könntest\": Präteritum \"konntest\" + umlaut. \"Helfen\" takes the dative \"mir\".",
       },
       {
@@ -987,7 +987,6 @@ export const DE_B1_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "You'd have to get up earlier. (to a friend)",
         answer: "Du müsstest früher aufstehen.",
-        altAnswers: ["Ihr müsstet früher aufstehen.", "Sie müssten früher aufstehen."],
         explanation: "Would have to = \"müsstest\" (\"musstest\" + umlaut). The separable verb stays whole at the end.",
       },
       {
@@ -1018,7 +1017,7 @@ export const DE_B1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which verb normally uses würde + infinitive in the Konjunktiv II?",
+        question: "Which of these is a normal, natural Konjunktiv II form?",
         options: ["Ich würde arbeiten.", "Ich würde können.", "Ich würde haben.", "Ich würde sein."],
         correctIndex: 0,
         explanation: "Ordinary verbs like \"arbeiten\" use \"würde\". Modals, \"haben\" and \"sein\" have their own forms: \"könnte\", \"hätte\", \"wäre\".",
@@ -1175,7 +1174,7 @@ export const DE_B1_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "It would be great if you could come to my birthday. (to a friend)",
         answer: "Es wäre toll, wenn du zu meinem Geburtstag kommen könntest.",
-        altAnswers: ["Es wäre schön, wenn du zu meinem Geburtstag kommen könntest.", "Es wäre super, wenn du zu meinem Geburtstag kommen könntest.", "Es wäre toll, wenn ihr zu meinem Geburtstag kommen könntet.", "Es wäre toll, wenn Sie zu meinem Geburtstag kommen könnten."],
+        altAnswers: ["Es wäre schön, wenn du zu meinem Geburtstag kommen könntest.", "Es wäre super, wenn du zu meinem Geburtstag kommen könntest."],
         explanation: "\"Könntest\" goes to the end of the \"wenn\" clause, after the infinitive \"kommen\".",
       },
       {
@@ -1207,7 +1206,7 @@ export const DE_B1_U06: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "It would be nice if [we could finish] the project in the spring.",
+        en: "It would be nice if [we] could finish the project in the spring.",
         sentence: "Es wäre schön, wenn ___ das Projekt im Frühling abschließen könnten.",
         answer: "wir",
         explanation: "Only the subject \"wir\" is missing: the verbs \"abschließen könnten\" are already at the end.",
@@ -1308,7 +1307,7 @@ export const DE_B1_U06: Lesson[] = [
         heading: "Musste or müsste?",
         body: [
           "\"Ich musste\" = I had to (a past obligation): \"Er musste am Samstag arbeiten\". \"Ich müsste\" = I would have to, I ought to: \"Er müsste mehr schlafen\" (he ought to sleep more).",
-          "\"Müsste\" often expresses what should logically be true: \"Der Bus müsste gleich kommen\" (the bus should be coming any minute). English uses should here, but German \"sollte\" would sound like an instruction.",
+          "\"Müsste\" often expresses what should logically be true: \"Der Bus müsste gleich kommen\" (the bus should be coming any minute). English uses should here; German can say \"sollte\" too, but \"müsste\" is the typical way to express this logical expectation.",
           "Again the umlaut: u in \"musste\" as in put; ü in \"müsste\" with rounded lips and ee inside.",
         ],
         examples: [
@@ -1388,7 +1387,7 @@ export const DE_B1_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "Were you able to sleep well? (to a friend)",
         answer: "Konntest du gut schlafen?",
-        altAnswers: ["Hast du gut schlafen können?", "Konntet ihr gut schlafen?", "Konnten Sie gut schlafen?"],
+        altAnswers: ["Hast du gut schlafen können?"],
         explanation: "A question about the past: \"konntest\", no umlaut.",
       },
       {
@@ -1415,7 +1414,7 @@ export const DE_B1_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "She's probably at home now.",
         answer: "Sie dürfte jetzt zu Hause sein.",
-        altAnswers: ["Sie ist jetzt wahrscheinlich zu Hause.", "Sie ist wahrscheinlich jetzt zu Hause.", "Jetzt dürfte sie zu Hause sein."],
+        altAnswers: ["Sie ist jetzt wahrscheinlich zu Hause.", "Sie ist wahrscheinlich jetzt zu Hause.", "Jetzt dürfte sie zu Hause sein.", "Sie dürfte jetzt zuhause sein."],
         explanation: "\"Dürfte\" for a probability about the present; \"wahrscheinlich\" says the same thing with the indicative.",
       },
       {
@@ -1501,7 +1500,6 @@ export const DE_B1_U06: Lesson[] = [
             en: "[There'd be] a bakery right round the corner.",
             sentence: "___ einen Bäcker direkt um die Ecke.",
             answer: "Es gäbe",
-            altAnswers: ["Es würde"],
             explanation: "There would be = \"es gäbe\" + accusative, the Konjunktiv of \"es gibt\".",
           },
         ],
@@ -1561,7 +1559,7 @@ export const DE_B1_U06: Lesson[] = [
             prompt: "Translate into German.",
             source: "Where would you most like to live? (to a friend)",
             answer: "Wo würdest du am liebsten wohnen?",
-            altAnswers: ["Wo würdest du am liebsten leben?", "Wo würdet ihr am liebsten wohnen?", "Wo würden Sie am liebsten wohnen?"],
+            altAnswers: ["Wo würdest du am liebsten leben?"],
             explanation: "Question word, then \"würdest du\", then \"am liebsten\" and the infinitive.",
           },
           {
@@ -1608,7 +1606,7 @@ export const DE_B1_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "Would you like to be famous? (to a friend)",
         answer: "Wärst du gern berühmt?",
-        altAnswers: ["Wärst du gerne berühmt?", "Wärest du gern berühmt?", "Würdest du gern berühmt sein?", "Wärt ihr gern berühmt?", "Wären Sie gern berühmt?"],
+        altAnswers: ["Wärst du gerne berühmt?", "Wärest du gern berühmt?", "Würdest du gern berühmt sein?"],
         explanation: "To be → \"wärst\" + gern. \"Würdest du gern berühmt sein\" is understood but heavier.",
       },
       {
@@ -1755,7 +1753,7 @@ export const DE_B1_U06: Lesson[] = [
         ],
         examples: [
           { es: "Ich habe eine Frage.", en: "I have a question." },
-          { es: "Ich hätte eine Frage.", en: "I'd have a question. (softer)" },
+          { es: "Ich hätte eine Frage.", en: "I have a question. (softer)" },
           { es: "Kannst du mir das Salz geben?", en: "Can you pass me the salt?" },
           { es: "Könntest du mir das Salz geben?", en: "Could you pass me the salt?" },
           { es: "Das wäre alles, danke.", en: "That's all, thanks." },
@@ -1813,7 +1811,7 @@ export const DE_B1_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "You ought to study more. (to a friend)",
         answer: "Du müsstest mehr lernen.",
-        altAnswers: ["Du solltest mehr lernen.", "Ihr müsstet mehr lernen.", "Sie müssten mehr lernen."],
+        altAnswers: ["Du solltest mehr lernen."],
         explanation: "\"Müsstest\" or \"solltest\" soften what would otherwise be \"du musst\".",
       },
       {
@@ -1822,7 +1820,7 @@ export const DE_B1_U06: Lesson[] = [
         en: "Lena [can] speak Turkish.",
         sentence: "Lena ___ Türkisch.",
         answer: "kann",
-        explanation: "A fact about her ability: indicative \"kann\". \"Lena könnte Türkisch lernen\" would be a possibility.",
+        explanation: "A fact about her ability: indicative \"kann\" (with a language, \"kann Türkisch\" needs no \"sprechen\"). \"Lena könnte Türkisch lernen\" would be a possibility.",
       },
       {
         type: "translate",
@@ -1914,7 +1912,7 @@ export const DE_B1_U06: Lesson[] = [
         body: [
           "\"Als\" for one event or period in the past (\"Als ich zehn war, ...\"), \"(immer) wenn\" for repeated events in the past and for the present and future (\"Wenn ich Zeit habe, ...\"), \"wann\" only for questions (\"Weißt du, wann der Kurs anfängt?\").",
           "All three send the verb to the end, and when the clause comes first the main verb follows the comma directly: \"Als ich ankam, regnete es\".",
-          "Watch out now for \"würde\" with time clauses: past habits never use \"würde\". \"Immer wenn es regnete, spielten wir Karten\", not *\"würden wir Karten spielen\".",
+          "Watch out now for \"würde\" with time clauses: past habits never use \"würde\". \"Immer wenn es regnete, spielten wir Karten\", not \"*würden wir Karten spielen\".",
         ],
         examples: [
           { es: "Als ich zehn war, sind wir nach Hamburg gezogen.", en: "When I was ten, we moved to Hamburg." },
@@ -1954,7 +1952,7 @@ export const DE_B1_U06: Lesson[] = [
           { es: "Während du kochst, decke ich den Tisch.", en: "While you cook, I'll lay the table." },
           { es: "Warte hier, bis ich zurück bin.", en: "Wait here until I'm back." },
           { es: "Seitdem ich in Leipzig wohne, fahre ich Rad.", en: "Since I've lived in Leipzig, I've been cycling." },
-          { es: "Ich würde die Bewertungen lesen, bevor ich das kaufe.", en: "I'd read the reviews before I buy it." },
+          { es: "Ich würde die Bewertungen lesen, bevor ich das kaufe.", en: "I'd read the reviews before buying it." },
         ],
         checkpoint: [
           {
@@ -2027,7 +2025,7 @@ export const DE_B1_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "Do you know when the film starts? (to a friend)",
         answer: "Weißt du, wann der Film anfängt?",
-        altAnswers: ["Weißt du, wann der Film beginnt?", "Wisst ihr, wann der Film anfängt?", "Wissen Sie, wann der Film anfängt?"],
+        altAnswers: ["Weißt du, wann der Film beginnt?"],
         explanation: "Indirect question: \"wann\", with the verb \"anfängt\" (rejoined) at the end.",
       },
       {

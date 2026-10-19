@@ -8,11 +8,11 @@ export const DE_C2_U10: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Mastery Vocabulary: Latin Phrases in Educated German",
-    summary: "ad hoc, a priori, de facto, per se, pro forma, sine qua non, status quo, quid pro quo, in medias res, nota bene, cum grano salis, ceteris paribus: meaning, German pronunciation and use in sentences.",
+    summary: "Understand, pronounce the German way and use the Latin phrases of educated German, from \"ad hoc\", \"de facto\" and \"per se\" to \"Status quo\", \"Conditio sine qua non\" and \"cum grano salis\".",
     duration: "18 min",
     sections: [
       {
-        heading: "ad hoc, de facto, per se, pro forma",
+        heading: "\"ad hoc\", \"de facto\", \"per se\", \"pro forma\"",
         body: [
           "Educated German uses Latin phrases more than English does, especially in business, law, academia and journalism. German speakers pronounce Latin the German way: c before e and i as ts (\"ceteris\" = TSE-te-ris), qu as kv (\"quo\" = kvo), s before t at the start often as sch (\"Status\" = SCHTA-tus, though \"STA-tus\" is also heard).",
           "\"Ad hoc\" (for this purpose, improvised): \"eine Ad-hoc-Entscheidung\", \"ad hoc reagieren\". In compounds German hyphenates: \"Ad-hoc-Meldung\" (an obligatory stock-market announcement). \"De facto\" (in fact, as opposed to legally): \"Er ist de facto der Chef.\" \"Per se\" (in itself): \"Das ist per se nichts Schlechtes.\" \"Pro forma\" (as a formality, for appearance's sake): \"Die Sitzung fand nur pro forma statt\", \"eine Pro-forma-Rechnung\".",
@@ -46,11 +46,11 @@ export const DE_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Status quo, sine qua non, quid pro quo, a priori",
+        heading: "\"Status quo\", \"sine qua non\", \"Quid pro quo\", \"a priori\"",
         body: [
-          "\"Der Status quo\" (the existing state): \"den Status quo erhalten / infrage stellen\". \"Die Conditio sine qua non\" (indispensable condition) is how German usually says it, often shortened in speech: \"Vertrauen ist die Conditio sine qua non jeder Zusammenarbeit.\" \"Das Quidproquo\" or \"Quid pro quo\" (something for something, a trade-off): \"Das ist ein klassisches Quid pro quo.\"",
+          "\"Der Status quo\" (the existing state): \"den Status quo erhalten / infrage stellen\". \"Die Conditio sine qua non\" (indispensable condition) is how German usually says it (sometimes just \"Sine qua non\"): \"Vertrauen ist die Conditio sine qua non jeder Zusammenarbeit.\" \"Das Quidproquo\" or \"Quid pro quo\" (something for something, a trade-off): \"Das ist ein klassisches Quid pro quo.\"",
           "\"A priori\" (from the outset, in principle, before experience): \"Man sollte das nicht a priori ausschließen.\" In philosophy (Kant) it is a technical term; in everyday educated German it means from the start, without looking.",
-          "Trap: the gender of borrowed phrases. \"Der Status quo\" (masculine, from Status), \"die Conditio sine qua non\" (feminine), \"das Quidproquo\" (neuter).",
+          "Trap: the gender of borrowed phrases. \"Der Status quo\" (masculine, from \"Status\"), \"die Conditio sine qua non\" (feminine), \"das Quidproquo\" (neuter).",
         ],
         examples: [
           { es: "Die Partei will den Status quo erhalten.", en: "The party wants to preserve the status quo." },
@@ -88,10 +88,10 @@ export const DE_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "In medias res, nota bene, cum grano salis, ceteris paribus",
+        heading: "\"In medias res\", \"nota bene\", \"cum grano salis\", \"ceteris paribus\"",
         body: [
           "\"In medias res gehen\" (into the middle of things) = to get straight to the point: \"Ich gehe gleich in medias res.\" \"Nota bene\" (note well), abbreviated \"NB\", introduces a remark: \"Nota bene: Die Frist endet am Freitag.\"",
-          "\"Cum grano salis\" (with a grain of salt) = not to be taken literally: \"Diese Aussage ist cum grano salis zu verstehen.\" Note: English take with a pinch of salt means be sceptical; German \"cum grano salis\" means don't take it too literally, allow for exaggeration. \"Ceteris paribus\" (other things being equal) is economics jargon: \"Ceteris paribus steigt die Nachfrage, wenn der Preis sinkt.\"",
+          "\"Cum grano salis\" (with a grain of salt) = not to be taken literally: \"Diese Aussage ist cum grano salis zu verstehen.\" Note: English 'take with a pinch of salt' means be sceptical; German \"cum grano salis\" means don't take it too literally, allow for exaggeration. \"Ceteris paribus\" (other things being equal) is economics jargon: \"Ceteris paribus steigt die Nachfrage, wenn der Preis sinkt.\"",
         ],
         examples: [
           { es: "Ich gehe gleich in medias res.", en: "I'll get straight to the point." },
@@ -169,7 +169,7 @@ export const DE_C2_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How is \"die Ad-hoc-Entscheidung\" written correctly?",
+        question: "You want to write 'an ad hoc decision' as one noun. Which spelling is correct?",
         options: ["die Ad-hoc-Entscheidung", "die ad hoc Entscheidung", "die Adhoc Entscheidung", "die ad-hoc Entscheidung"],
         correctIndex: 0,
         explanation: "Multi-word compounds are hyphenated throughout, and the first word is capitalised as part of a noun.",
@@ -179,7 +179,7 @@ export const DE_C2_U10: Lesson[] = [
         prompt: "Put the words in order to say: She questions the status quo.",
         words: ["Sie", "stellt", "den", "Status", "quo", "infrage."],
         translation: "She questions the status quo.",
-        explanation: "\"Infrage stellen\" (also \"in Frage stellen\") is a Funktionsverbgefüge: \"stellt ... infrage\".",
+        explanation: "\"Infrage stellen\" (also \"in Frage stellen\") is a \"Funktionsverbgefüge\": \"stellt ... infrage\".",
       },
       {
         type: "translate",
@@ -209,13 +209,13 @@ export const DE_C2_U10: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Mastery Vocabulary: Greek-Origin and Learned Words",
-    summary: "Paradigma, Diskrepanz, Ambivalenz, Prämisse, Synergie, Analogie, Hypothese, Dichotomie, Phänomen, Kriterium, Thema: gender, plural traps and collocations.",
+    summary: "Use learned words like \"Paradigma\", \"Diskrepanz\", \"Prämisse\", \"Hypothese\", \"Phänomen\" and \"Kriterium\" with the right gender, plural and collocations.",
     duration: "18 min",
     sections: [
       {
-        heading: "Plural traps: Kriterien, Themen, Paradigmen",
+        heading: "Plural traps: \"Kriterien\", \"Themen\", \"Paradigmen\"",
         body: [
-          "Many learned words keep Greek or Latin plurals, and these are classic Mastery-level errors. \"Das Kriterium\" → \"die Kriterien\" (never *Kriteriums); \"das Thema\" → \"die Themen\" (also \"Themata\" in old texts); \"das Paradigma\" → \"die Paradigmen\" (also \"Paradigmata\"); \"das Dogma\" → \"die Dogmen\"; \"das Schema\" → \"die Schemata\" or \"Schemas\"; \"das Phänomen\" → \"die Phänomene\"; \"das Museum\" → \"die Museen\"; \"das Studium\" → \"die Studien\".",
+          "Many learned words keep Greek or Latin plurals, and these are classic Mastery-level errors. \"Das Kriterium\" → \"die Kriterien\" (never \"*Kriteriums*\"); \"das Thema\" → \"die Themen\" (also \"Themata\" in old texts); \"das Paradigma\" → \"die Paradigmen\" (also \"Paradigmata\"); \"das Dogma\" → \"die Dogmen\"; \"das Schema\" → \"die Schemata\" or \"Schemas\"; \"das Phänomen\" → \"die Phänomene\"; \"das Museum\" → \"die Museen\"; \"das Studium\" → \"die Studien\".",
           "Gender: words in \"-ma\" from Greek are neuter (\"das Thema\", \"das Dogma\", \"das Klima\", \"das Drama\", \"das Charisma\"); words in \"-ie\", \"-enz\", \"-anz\", \"-ese\" are feminine (\"die Synergie\", \"die Analogie\", \"die Ambivalenz\", \"die Diskrepanz\", \"die Hypothese\", \"die Prämisse\").",
         ],
         examples: [
@@ -237,15 +237,15 @@ export const DE_C2_U10: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What is the plural of \"das Thema\"?",
-            options: ["die Themen", "die Themas", "die Themae", "die Themata only"],
+            question: "You want to say 'We have three topics today.' Which is correct?",
+            options: ["Wir haben heute drei Themen.", "Wir haben heute drei Themas.", "Wir haben heute drei Themae.", "Wir haben heute drei Thematas."],
             correctIndex: 0,
-            explanation: "\"Die Themen\" is standard; \"Themata\" is old-fashioned.",
+            explanation: "\"Das Thema\" → \"die Themen\" is standard; \"Themata\" is old-fashioned and \"*Themas*\" is wrong.",
           },
         ],
       },
       {
-        heading: "Diskrepanz, Ambivalenz, Dichotomie, Prämisse",
+        heading: "\"Diskrepanz\", \"Ambivalenz\", \"Dichotomie\", \"Prämisse\"",
         body: [
           "\"Die Diskrepanz\" (discrepancy): \"eine Diskrepanz zwischen Anspruch und Wirklichkeit\" (between aspiration and reality), a very common collocation. \"Die Ambivalenz\" (ambivalence) and \"ambivalent\": \"Ich stehe dem Projekt ambivalent gegenüber\" (I have mixed feelings about the project).",
           "\"Die Dichotomie\" (dichotomy): \"die Dichotomie von Natur und Kultur\". \"Die Prämisse\" (premise, assumption): \"unter der Prämisse, dass ...\" (on the assumption that), \"von falschen Prämissen ausgehen\" (to start from false premises).",
@@ -287,7 +287,7 @@ export const DE_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Synergie, Analogie, Hypothese, Phänomen",
+        heading: "\"Synergie\", \"Analogie\", \"Hypothese\", \"Phänomen\"",
         body: [
           "\"Die Synergie\" (usually plural \"Synergien\") is business jargon: \"Synergien nutzen\" (to exploit synergies), often a euphemism for job cuts after a merger (Unit 8). \"Die Analogie\" (analogy): \"in Analogie zu\" (by analogy with), \"eine Analogie ziehen\" (to draw an analogy).",
           "\"Die Hypothese\" (hypothesis): \"eine Hypothese aufstellen / überprüfen / widerlegen\" (formulate / test / refute). \"Das Phänomen\" (phenomenon): \"ein weit verbreitetes Phänomen\".",
@@ -356,8 +356,8 @@ export const DE_C2_U10: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which plural is correct?",
-        options: ["die Kriterien", "die Kriteriums", "die Kriteria", "die Kriteriumen"],
+        question: "You ask which criteria apply. Which is correct?",
+        options: ["Welche Kriterien gelten?", "Welche Kriteriums gelten?", "Welche Kriteria gelten?", "Welche Kriteriumen gelten?"],
         correctIndex: 0,
         explanation: "\"Das Kriterium\" → \"die Kriterien\", like \"Museum\" → \"Museen\".",
       },
@@ -378,7 +378,7 @@ export const DE_C2_U10: Lesson[] = [
         prompt: "Put the words in order to say: One can draw an analogy here.",
         words: ["Man", "kann", "hier", "eine", "Analogie", "ziehen."],
         translation: "One can draw an analogy here.",
-        explanation: "\"Eine Analogie ziehen\" mirrors English draw an analogy.",
+        explanation: "\"Eine Analogie ziehen\" mirrors English 'draw an analogy'.",
       },
       {
         type: "translate",
@@ -407,7 +407,7 @@ export const DE_C2_U10: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Vocabulary in Context: Verbs of Saying with Nuance",
-    summary: "Write meeting minutes and reports with precise verbs (anmerken, einwenden, zu bedenken geben, beipflichten, monieren, bemängeln, beanstanden, hervorheben) and Konjunktiv I for reported content.",
+    summary: "Write meeting minutes and reports with precise verbs of saying (\"anmerken\", \"einwenden\", \"zu bedenken geben\", \"beipflichten\", \"monieren\", \"hervorheben\") and Konjunktiv I for reported content.",
     duration: "18 min",
     sections: [
       {
@@ -469,10 +469,11 @@ export const DE_C2_U10: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Mr Weber [agreed with] her.",
-            sentence: "Herr Weber pflichtete ihr ___.",
-            answer: "bei",
-            explanation: "\"Beipflichten\" is separable and takes the dative: the prefix \"bei\" goes to the end of the main clause.",
+            en: "Everyone noticed that Mr Weber [agreed with] her.",
+            sentence: "Alle merkten, dass Herr Weber ihr ___.",
+            answer: "beipflichtete",
+            altAnswers: ["zustimmte"],
+            explanation: "\"Beipflichten\" + dative (\"ihr\"); it is separable, but in a dass-clause it stays whole at the end: \"beipflichtete\". In a main clause: \"Er pflichtete ihr bei.\"",
           },
         ],
       },
@@ -501,7 +502,7 @@ export const DE_C2_U10: Lesson[] = [
           {
             type: "speak",
             text: "Es wurde beschlossen, neue Angebote einzuholen.",
-            tip: "\"Einzuholen\": the zu goes between the prefix and the verb.",
+            tip: "\"Einzuholen\": the \"zu\" goes between the prefix and the verb.",
             explanation: "Impersonal passive for decisions; \"Angebote einholen\" = to obtain quotes.",
           },
         ],
@@ -538,10 +539,11 @@ export const DE_C2_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "She [highlighted] that the team had done excellent work.",
-        sentence: "Sie ___ hervor, dass das Team hervorragende Arbeit geleistet habe.",
-        answer: "hob",
-        explanation: "\"Hervorheben\" (strong: hob, gehoben) is separable: \"hob ... hervor\".",
+        en: "She [emphasised] that the team had done excellent work.",
+        sentence: "Sie ___, dass das Team hervorragende Arbeit geleistet habe.",
+        answer: "hob hervor",
+        altAnswers: ["betonte", "unterstrich"],
+        explanation: "\"Hervorheben\" (strong: \"hob\", \"gehoben\") is separable: \"hob ... hervor\", here both parts before the dass-clause; \"betonte\" and \"unterstrich\" also work.",
       },
       {
         type: "matching",
@@ -605,14 +607,14 @@ export const DE_C2_U10: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Redewendungen der Geschäftswelt, Part 1 of 2",
-    summary: "Deals and projects: unter Dach und Fach bringen, in trockenen Tüchern sein, an einem Strang ziehen, ins Rollen bringen, auf die lange Bank schieben, über den Tisch ziehen, den Kürzeren ziehen, mit offenen Karten spielen, Nägel mit Köpfen machen.",
+    summary: "Talk about deals and projects with business idioms (\"unter Dach und Fach\", \"in trockenen Tüchern\", \"an einem Strang ziehen\", \"auf die lange Bank schieben\", \"über den Tisch ziehen\", \"Nägel mit Köpfen machen\") and their fixed verbs.",
     duration: "20 min",
     sections: [
       {
-        heading: "Closing the deal: unter Dach und Fach, in trockenen Tüchern",
+        heading: "Closing the deal: \"unter Dach und Fach\", \"in trockenen Tüchern\"",
         body: [
           "Two idioms say a deal is done. \"Etwas unter Dach und Fach bringen\" (to bring under roof and compartment, from storing the harvest) means to finalise: \"Wir haben den Vertrag endlich unter Dach und Fach gebracht.\" Its state version: \"Der Vertrag ist unter Dach und Fach.\" \"In trockenen Tüchern sein\" (to be in dry cloths, like a baby) means safely settled: \"Die Finanzierung ist in trockenen Tüchern.\"",
-          "Notice the fixed verbs and prepositions: \"unter Dach und Fach bringen / sein\", \"in trockenen Tüchern sein\" (not *bringen; for the action say \"in trockene Tücher bringen\", accusative, less common). Getting the preposition or article wrong instantly sounds foreign.",
+          "Notice the fixed verbs and prepositions: \"unter Dach und Fach bringen / sein\", \"in trockenen Tüchern sein\" (not \"*bringen*\"; for the action say \"in trockene Tücher bringen\", accusative, less common). Getting the preposition or article wrong instantly sounds foreign.",
           "Starting things: \"etwas ins Rollen bringen\" (to get something rolling), \"den Stein ins Rollen bringen\" (to set the ball rolling, start a chain of events). Delaying: \"etwas auf die lange Bank schieben\" (to put something on the long bench, i.e. postpone indefinitely).",
         ],
         examples: [
@@ -635,9 +637,9 @@ export const DE_C2_U10: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The decision was [put off] again.",
-            sentence: "Die Entscheidung wurde wieder auf die lange Bank ___.",
-            answer: "geschoben",
+            en: "The decision was [put on the back burner] again.",
+            sentence: "Die Entscheidung wurde wieder ___.",
+            answer: "auf die lange Bank geschoben",
             explanation: "\"Auf die lange Bank schieben\" (accusative: movement); participle \"geschoben\".",
           },
         ],
@@ -646,7 +648,7 @@ export const DE_C2_U10: Lesson[] = [
         heading: "Cooperation and honesty",
         body: [
           "\"An einem Strang ziehen\" (to pull on one rope) means to work together towards the same goal: \"Wenn wir alle an einem Strang ziehen, schaffen wir das.\" \"Mit offenen Karten spielen\" (to play with open cards) means to be transparent, put your cards on the table. \"Nägel mit Köpfen machen\" (to make nails with heads) means to do the job properly, take concrete decisive action: \"Lassen Sie uns Nägel mit Köpfen machen.\"",
-          "\"Wir sitzen alle im selben Boot\" (we're all in the same boat) is shared with English, as is \"am längeren Hebel sitzen\" (to sit at the longer lever = to have the upper hand).",
+          "\"Wir sitzen alle im selben Boot\" (we're all in the same boat) is shared with English; \"am längeren Hebel sitzen\" (to sit at the longer lever) means to have the upper hand.",
         ],
         examples: [
           { es: "Wenn wir alle an einem Strang ziehen, schaffen wir das.", en: "If we all pull together, we'll manage it." },
@@ -676,7 +678,7 @@ export const DE_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Losing out: über den Tisch ziehen, den Kürzeren ziehen",
+        heading: "Losing out: \"über den Tisch ziehen\", \"den Kürzeren ziehen\"",
         body: [
           "\"Jemanden über den Tisch ziehen\" (to pull someone across the table) means to cheat someone in a deal, rip them off. It does not mean to negotiate or bring someone round: \"Bei dem Gebrauchtwagenkauf bin ich ordentlich über den Tisch gezogen worden.\" This is the classic trap for English speakers, who hear an image of negotiation.",
           "\"Den Kürzeren ziehen\" (to draw the shorter straw) means to lose out: \"Bei der Fusion haben die kleinen Standorte den Kürzeren gezogen.\" \"Leer ausgehen\" means to go away empty-handed.",
@@ -694,7 +696,7 @@ export const DE_C2_U10: Lesson[] = [
             prompt: "Translate into German. (to a friend)",
             source: "Don't let them cheat you!",
             answer: "Lass dich nicht über den Tisch ziehen!",
-            altAnswers: ["Lass dich nicht übers Ohr hauen!", "Lass dich nicht abzocken!", "Lassen Sie sich nicht über den Tisch ziehen!"],
+            altAnswers: ["Lass dich nicht übers Ohr hauen!", "Lass dich nicht abzocken!"],
             explanation: "\"Sich über den Tisch ziehen lassen\" = to let yourself be cheated; \"übers Ohr hauen\" is a synonym.",
           },
           {
@@ -729,7 +731,7 @@ export const DE_C2_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'd rather put my cards on the table.",
         answer: "Ich spiele lieber mit offenen Karten.",
-        altAnswers: ["Ich lege lieber die Karten auf den Tisch.", "Ich lege lieber meine Karten auf den Tisch.", "Ich spiele lieber mit offenen Karten."],
+        altAnswers: ["Ich lege lieber die Karten auf den Tisch.", "Ich lege lieber meine Karten auf den Tisch.", "Ich lege meine Karten lieber auf den Tisch."],
         explanation: "\"Mit offenen Karten spielen\" or \"die Karten auf den Tisch legen\": both idiomatic.",
       },
       {
@@ -739,12 +741,12 @@ export const DE_C2_U10: Lesson[] = [
         source: "The small sites lost out in the merger.",
         answer: "Bei der Fusion haben die kleinen Standorte den Kürzeren gezogen.",
         altAnswers: ["Die kleinen Standorte haben bei der Fusion den Kürzeren gezogen.", "Bei der Fusion zogen die kleinen Standorte den Kürzeren."],
-        explanation: "\"Den Kürzeren ziehen\": capitalised adjectival noun, masculine (der kürzere Halm).",
+        explanation: "\"Den Kürzeren ziehen\": capitalised adjectival noun, masculine (\"der kürzere Halm\").",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Her call [set the ball rolling].",
+        en: "Her call [set] the ball rolling.",
         sentence: "Ihr Anruf hat den Stein ins Rollen ___.",
         answer: "gebracht",
         explanation: "\"Den Stein ins Rollen bringen\": \"ins Rollen\" with a nominalised infinitive.",
@@ -774,7 +776,7 @@ export const DE_C2_U10: Lesson[] = [
         prompt: "Put the words in order to say: We're all in the same boat.",
         words: ["Wir", "sitzen", "alle", "im", "selben", "Boot."],
         translation: "We're all in the same boat.",
-        explanation: "German sits (\"sitzen\") in the boat; \"im selben\" = in dem selben.",
+        explanation: "German sits (\"sitzen\") in the boat; \"im selben\" = \"in demselben\".",
       },
       {
         type: "translate",
@@ -803,7 +805,7 @@ export const DE_C2_U10: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Dialogue Lab: Redewendungen im Meeting",
-    summary: "A project meeting under pressure: push, stall and agree with idioms, recognise Denglisch (Deadline, committen, Feedback geben, gecancelt) and know when German sounds better.",
+    summary: "In a project meeting under pressure, push, stall and agree with idioms, recognise Denglisch (\"Deadline\", \"committen\", \"gecancelt\") and know when the German word sounds better.",
     duration: "18 min",
     sections: [
       {
@@ -873,14 +875,14 @@ export const DE_C2_U10: Lesson[] = [
       {
         heading: "Denglisch in the meeting",
         body: [
-          "Many German offices are full of English: \"die Deadline\" (die Frist), \"committen\" (sich verpflichten, zusagen), \"Feedback geben\" (Rückmeldung geben), \"gecancelt\" (abgesagt; Duden spelling \"gecancelt\", not *gecancelled), \"das Meeting\" (die Besprechung), 'to-dos' (Aufgaben), \"asap\" (so schnell wie möglich).",
-          "Some are fully accepted (\"das Meeting\", \"das Feedback\", \"die Deadline\"); others sound like jargon (\"Lass uns das offline nehmen\", \"Ich committe mich\"). Rule of thumb: in a start-up, Denglisch is normal; with a Mittelstand client in Swabia, with authorities, and in formal writing, use German.",
+          "Many German offices are full of English: \"die Deadline\" (\"die Frist\"), \"committen\" (\"sich verpflichten\", \"zusagen\"), \"Feedback geben\" (\"Rückmeldung geben\"), \"gecancelt\" (\"abgesagt\"; Duden spelling \"gecancelt\", not \"*gecancelled*\"), \"das Meeting\" (\"die Besprechung\"), 'to-dos' (\"Aufgaben\"), \"asap\" (\"so schnell wie möglich\").",
+          "Some are fully accepted (\"das Meeting\", \"das Feedback\", \"die Deadline\"); others sound like jargon (\"Lass uns das offline nehmen\", \"Ich committe mich\"). Rule of thumb: in a start-up, Denglisch is normal; with a \"Mittelstand\" client in Swabia, with authorities, and in formal writing, use German.",
         ],
         examples: [
           { es: "Die Frist ist am Freitag.", en: "The deadline is Friday." },
           { es: "Das Meeting wurde abgesagt.", en: "The meeting was cancelled." },
           { es: "Kannst du mir bis morgen eine Rückmeldung geben?", en: "Can you give me feedback by tomorrow?" },
-          { es: "Können Sie uns verbindlich zusagen?", en: "Can you commit to that bindingly?" },
+          { es: "Können Sie uns verbindlich zusagen?", en: "Can you give us a firm commitment?" },
           { es: "Bitte erledigen Sie das so schnell wie möglich.", en: "Please do it as soon as possible." },
         ],
         checkpoint: [
@@ -933,7 +935,7 @@ export const DE_C2_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Can you [commit to] that bindingly?",
+        en: "Can you firmly [commit to] that?",
         sentence: "Können Sie uns das verbindlich ___?",
         answer: "zusagen",
         altAnswers: ["zusichern"],
@@ -945,7 +947,7 @@ export const DE_C2_U10: Lesson[] = [
         prompt: "Translate into German (use the German word, not Denglisch).",
         source: "The meeting has been cancelled.",
         answer: "Die Besprechung wurde abgesagt.",
-        altAnswers: ["Die Besprechung ist abgesagt worden.", "Das Meeting wurde abgesagt.", "Die Sitzung wurde abgesagt.", "Die Besprechung ist abgesagt."],
+        altAnswers: ["Die Besprechung ist abgesagt worden.", "Die Sitzung wurde abgesagt.", "Die Sitzung ist abgesagt worden.", "Die Besprechung ist abgesagt."],
         explanation: "\"Abgesagt\" is the German form; if you must use Denglisch, Duden spells it \"gecancelt\".",
       },
       {
@@ -982,7 +984,7 @@ export const DE_C2_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm glad you raised that.",
         answer: "Gut, dass Sie das ansprechen.",
-        altAnswers: ["Gut, dass Sie das ansprechen!", "Schön, dass Sie das ansprechen.", "Gut, dass Sie das angesprochen haben."],
+        altAnswers: ["Gut, dass du das ansprichst.", "Schön, dass Sie das ansprechen.", "Gut, dass Sie das angesprochen haben."],
         explanation: "\"Etwas ansprechen\" = to raise a point.",
       },
       {
@@ -1003,11 +1005,11 @@ export const DE_C2_U10: Lesson[] = [
     level: "DE-C2",
     number: 6,
     title: "Redewendungen der Geschäftswelt, Part 2 of 2",
-    summary: "Money and crisis: rote und schwarze Zahlen schreiben, pleitegehen, den Gürtel enger schnallen, die Reißleine ziehen, auf Sand gebaut, das Handtuch werfen, Geld wie Heu haben, sich eine goldene Nase verdienen, ein Fass ohne Boden.",
+    summary: "Talk about money and crisis with idioms (\"rote Zahlen schreiben\", \"pleitegehen\", \"den Gürtel enger schnallen\", \"die Reißleine ziehen\", \"das Handtuch werfen\", \"ein Fass ohne Boden\") in the right form.",
     duration: "20 min",
     sections: [
       {
-        heading: "Profit and loss: rote und schwarze Zahlen",
+        heading: "Profit and loss: \"rote und schwarze Zahlen\"",
         body: [
           "Accountants once wrote losses in red ink and profits in black. So \"rote Zahlen schreiben\" means to make a loss and \"schwarze Zahlen schreiben\" means to be in profit: \"Nach drei Jahren schreibt das Start-up endlich schwarze Zahlen.\" You can also say \"in die roten Zahlen rutschen\" (to slip into the red) and \"aus den roten Zahlen kommen\" (to get out of the red).",
           "When the money runs out completely, a company \"geht pleite\" (goes bust). Since the spelling reform \"pleitegehen\" is written as one word in the infinitive and participle: \"Die Firma ist pleitegegangen.\" The adjective is \"pleite sein\" (to be broke), and the noun \"die Pleite\" means bankruptcy or, colloquially, a flop: \"Der Abend war eine Pleite.\"",
@@ -1040,7 +1042,7 @@ export const DE_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Crisis measures: den Gürtel enger schnallen, die Reißleine ziehen",
+        heading: "Crisis measures: \"den Gürtel enger schnallen\", \"die Reißleine ziehen\"",
         body: [
           "\"Den Gürtel enger schnallen\" (to buckle the belt tighter) means to tighten one's belt, to economise: \"Auch die Ministerien müssen den Gürtel enger schnallen.\" \"Die Reißleine ziehen\" (to pull the ripcord, as on a parachute) means to stop something in time before it gets worse, to pull the plug: \"Nach zwei Jahren Verlust hat der Vorstand die Reißleine gezogen.\"",
           "\"Das Handtuch werfen\" (to throw the towel, from boxing) means to give up, throw in the towel. In German the towel is thrown, not thrown in: \"Nach drei Insolvenzanträgen hat der Gründer das Handtuch geworfen.\" A plan that is \"auf Sand gebaut\" (built on sand) has no solid foundation: \"Das Geschäftsmodell war von Anfang an auf Sand gebaut.\"",
@@ -1072,7 +1074,7 @@ export const DE_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Rich and wasteful: Geld wie Heu, eine goldene Nase, ein Fass ohne Boden",
+        heading: "Rich and wasteful: \"Geld wie Heu\", \"eine goldene Nase\", \"ein Fass ohne Boden\"",
         body: [
           "\"Geld wie Heu haben\" (to have money like hay) means to be extremely rich, to have money to burn. \"Sich eine goldene Nase verdienen\" (to earn oneself a golden nose) means to make a fortune, often with a hint of disapproval: \"Mit den Masken hat er sich eine goldene Nase verdient.\" Note the reflexive dative \"sich\".",
           "\"Ein Fass ohne Boden\" (a barrel without a bottom) is a money pit, a project that swallows endless money without result: \"Der Flughafen wurde zum Fass ohne Boden.\" It is common in press language about public projects.",
@@ -1125,7 +1127,7 @@ export const DE_C2_U10: Lesson[] = [
         prompt: "Translate into German, with an idiom.",
         source: "After three years the founder threw in the towel.",
         answer: "Nach drei Jahren hat der Gründer das Handtuch geworfen.",
-        altAnswers: ["Nach drei Jahren warf der Gründer das Handtuch.", "Der Gründer hat nach drei Jahren das Handtuch geworfen."],
+        altAnswers: ["Nach drei Jahren warf der Gründer das Handtuch.", "Der Gründer hat nach drei Jahren das Handtuch geworfen.", "Nach drei Jahren hat der Gründer das Handtuch geschmissen."],
         explanation: "German: \"das Handtuch werfen\", no particle \"in\".",
       },
       {
@@ -1141,16 +1143,16 @@ export const DE_C2_U10: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
         en: "The business model was [built on sand] from the start.",
-        sentence: "Das Geschäftsmodell war von Anfang an auf Sand ___.",
-        answer: "gebaut",
+        sentence: "Das Geschäftsmodell war von Anfang an ___.",
+        answer: "auf Sand gebaut",
         explanation: "\"Auf Sand gebaut\" = without a solid foundation.",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
         en: "The ministries also have to [tighten their belts].",
-        sentence: "Auch die Ministerien müssen den Gürtel enger ___.",
-        answer: "schnallen",
+        sentence: "Auch die Ministerien müssen ___.",
+        answer: "den Gürtel enger schnallen",
         explanation: "\"Den Gürtel enger schnallen\": singular \"Gürtel\" even for many people.",
       },
       {
@@ -1200,14 +1202,14 @@ export const DE_C2_U10: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Style Workshop: Von der Redewendung zum Bericht",
-    summary: "Turn spoken business idioms into report style: \"Wir schreiben rote Zahlen\" becomes \"Das Unternehmen verzeichnet Verluste\". Nominalisation, passive and Funktionsverbgefüge.",
+    summary: "Turn spoken business idioms into report style (\"Wir schreiben rote Zahlen\" becomes \"Das Unternehmen verzeichnet Verluste\") with neutral verbs, the passive, nominalisation and \"Funktionsverbgefüge\".",
     duration: "20 min",
     sections: [
       {
         heading: "From idiom to neutral verb",
         body: [
           "Idioms are vivid in a meeting but out of place in an annual report, minutes or a press release. Formal written German replaces them with neutral, precise verbs and usually with the company, not \"wir\", as subject.",
-          "Typical pairs: \"Wir schreiben rote Zahlen\" becomes \"Das Unternehmen verzeichnet Verluste\" (verzeichnen = to record). \"Wir schreiben schwarze Zahlen\" becomes \"Das Unternehmen arbeitet profitabel\" or \"erzielt einen Gewinn\". \"Wir müssen den Gürtel enger schnallen\" becomes \"Es sind Einsparungen erforderlich\". \"Der Deal ist in trockenen Tüchern\" becomes \"Der Vertrag wurde unterzeichnet\".",
+          "Typical pairs: \"Wir schreiben rote Zahlen\" becomes \"Das Unternehmen verzeichnet Verluste\" (\"verzeichnen\" = to record). \"Wir schreiben schwarze Zahlen\" becomes \"Das Unternehmen arbeitet profitabel\" or \"erzielt einen Gewinn\". \"Wir müssen den Gürtel enger schnallen\" becomes \"Es sind Einsparungen erforderlich\". \"Der Deal ist in trockenen Tüchern\" becomes \"Der Vertrag wurde unterzeichnet\".",
         ],
         examples: [
           { es: "Das Unternehmen verzeichnet Verluste.", en: "The company is recording losses." },
@@ -1238,7 +1240,7 @@ export const DE_C2_U10: Lesson[] = [
       {
         heading: "Passive and nominalisation",
         body: [
-          "Reports focus on the result, not the person, so they prefer the passive. \"Wir haben die Reißleine gezogen\" becomes \"Das Projekt wurde eingestellt\" (einstellen = to discontinue). \"Wir haben das auf die lange Bank geschoben\" becomes \"Die Entscheidung wurde vertagt\".",
+          "Reports focus on the result, not the person, so they prefer the passive. \"Wir haben die Reißleine gezogen\" becomes \"Das Projekt wurde eingestellt\" (\"einstellen\" = to discontinue). \"Wir haben das auf die lange Bank geschoben\" becomes \"Die Entscheidung wurde vertagt\".",
           "Nominalisation packs a whole clause into a noun phrase: \"weil wir das Projekt eingestellt haben\" becomes \"aufgrund der Einstellung des Projekts\"; \"nachdem der Vertrag unterzeichnet worden war\" becomes \"nach Unterzeichnung des Vertrags\". The result is dense and impersonal, which is exactly what report readers expect. Use it in moderation: three genitives in a row become unreadable.",
         ],
         examples: [
@@ -1268,9 +1270,9 @@ export const DE_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Funktionsverbgefüge",
+        heading: "\"Funktionsverbgefüge\": noun + weak verb",
         body: [
-          "A Funktionsverbgefüge combines a noun with a weak verb: \"zur Verfügung stellen\" (to make available), \"in Kraft treten\" (to come into force), \"zum Abschluss bringen\" (to conclude), \"eine Entscheidung treffen\" (to make a decision), \"in Betracht ziehen\" (to consider), \"Maßnahmen ergreifen\" (to take measures). They are typical of administrative and business writing.",
+          "A \"Funktionsverbgefüge\" combines a noun with a weak verb: \"zur Verfügung stellen\" (to make available), \"in Kraft treten\" (to come into force), \"zum Abschluss bringen\" (to conclude), \"eine Entscheidung treffen\" (to make a decision), \"in Betracht ziehen\" (to consider), \"Maßnahmen ergreifen\" (to take measures). They are typical of administrative and business writing.",
           "So \"Wir haben den Deal unter Dach und Fach gebracht\" becomes \"Die Verhandlungen wurden erfolgreich zum Abschluss gebracht\". \"Wir müssen Nägel mit Köpfen machen\" becomes \"Es müssen konkrete Maßnahmen ergriffen werden\". Do not overdo it: one or two per sentence at most, or the text turns into bureaucratic jargon.",
         ],
         examples: [
@@ -1337,14 +1339,15 @@ export const DE_C2_U10: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
         en: "A sale of the site is [being considered].",
-        sentence: "Ein Verkauf des Standorts wird in Betracht ___.",
-        answer: "gezogen",
+        sentence: "Ein Verkauf des Standorts wird ___.",
+        answer: "in Betracht gezogen",
+        altAnswers: ["erwogen"],
         explanation: "\"In Betracht ziehen\" = to consider; passive participle \"gezogen\".",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[Because the project has been discontinued], the costs no longer arise.",
+        en: "Due to the [discontinuation] of the project, the costs no longer arise.",
         sentence: "Aufgrund der ___ des Projekts entfallen die Kosten.",
         answer: "Einstellung",
         explanation: "Nominalisation: \"einstellen\" becomes \"die Einstellung\", with the object in the genitive.",
@@ -1359,7 +1362,7 @@ export const DE_C2_U10: Lesson[] = [
           { left: "den Gürtel enger schnallen", right: "Einsparungen vornehmen" },
           { left: "unter Dach und Fach bringen", right: "zum Abschluss bringen" },
         ],
-        explanation: "Neutral verbs and Funktionsverbgefüge replace the images.",
+        explanation: "Neutral verbs and \"Funktionsverbgefüge\" replace the images.",
       },
       {
         type: "multiple-choice",
@@ -1395,14 +1398,14 @@ export const DE_C2_U10: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Error Hunt: Falsch Eingesetzte Geschäftsredewendungen",
-    summary: "Find and fix misused idioms and English calques in business emails: den Ball ins Rollen bringen, gecancelt, auf die lange Bank schieben, Nägel mit Köpfen machen, über den Tisch ziehen, letztendlich.",
+    summary: "Find and fix misused business idioms and English calques in emails (\"*den Ball rollen*\", \"*am Ende des Tages*\", \"*gecancelled*\", \"über den Tisch ziehen\" used for persuading) and write the native version.",
     duration: "20 min",
     sections: [
       {
         heading: "Calques from English",
         body: [
-          "Many errors in German office emails are literal translations of English phrases. 'Let's get the ball rolling' is not *\"Wir müssen den Ball rollen\": German says \"Wir müssen die Sache ins Rollen bringen\" or \"den Stein ins Rollen bringen\". 'Let's take this offline' is not *\"Lass uns das offline nehmen\": say \"Lass uns das bilateral / unter vier Augen besprechen\" or \"Das klären wir separat\".",
-          "'At the end of the day' becomes *\"am Ende des Tages\" in a lot of corporate German, and style guides reject it. Use \"letztendlich\", \"letzten Endes\" or \"unterm Strich\" (on the bottom line). Likewise 'that makes sense' as *\"das macht Sinn\" is widespread but criticised; \"das ergibt Sinn\" or \"das ist sinnvoll\" is the safe choice in formal writing.",
+          "Many errors in German office emails are literal translations of English phrases. 'Let's get the ball rolling' is not \"*Wir müssen den Ball rollen*\": German says \"Wir müssen die Sache ins Rollen bringen\" or \"den Stein ins Rollen bringen\". 'Let's take this offline' is not \"*Lass uns das offline nehmen*\": say \"Lass uns das bilateral / unter vier Augen besprechen\" or \"Das klären wir separat\".",
+          "'At the end of the day' becomes \"*am Ende des Tages*\" in a lot of corporate German, and style guides reject it. Use \"letztendlich\", \"letzten Endes\" or \"unterm Strich\" (on the bottom line). Likewise 'that makes sense' as \"*das macht Sinn*\" is widespread but criticised; \"das ergibt Sinn\" or \"das ist sinnvoll\" is the safe choice in formal writing.",
         ],
         examples: [
           { es: "Wir müssen die Sache endlich ins Rollen bringen.", en: "We finally need to get things moving." },
@@ -1419,7 +1422,7 @@ export const DE_C2_U10: Lesson[] = [
             source: "At the end of the day, the customer decides.",
             answer: "Letztendlich entscheidet der Kunde.",
             altAnswers: ["Letzten Endes entscheidet der Kunde.", "Unterm Strich entscheidet der Kunde.", "Letztlich entscheidet der Kunde.", "Am Ende entscheidet der Kunde."],
-            explanation: "Avoid *\"am Ende des Tages\"; use \"letztendlich\", \"letzten Endes\" or \"unterm Strich\".",
+            explanation: "Avoid \"*am Ende des Tages*\"; use \"letztendlich\", \"letzten Endes\" or \"unterm Strich\".",
           },
           {
             type: "fill-blank",
@@ -1427,15 +1430,15 @@ export const DE_C2_U10: Lesson[] = [
             en: "We finally need to [get things moving].",
             sentence: "Wir müssen die Sache endlich ins Rollen ___.",
             answer: "bringen",
-            explanation: "\"Ins Rollen bringen\", not *\"den Ball rollen\".",
+            explanation: "\"Ins Rollen bringen\", not \"*den Ball rollen*\".",
           },
         ],
       },
       {
         heading: "Wrong verb, wrong meaning",
         body: [
-          "Idioms have fixed verbs. Mixing them up is a typical near-native error. It is \"etwas auf die lange Bank schieben\" (not *legen), \"Nägel mit Köpfen machen\" (not *tun), \"unter Dach und Fach bringen\" (not *kriegen in formal writing), \"den Kürzeren ziehen\" (not *bekommen).",
-          "Some idioms are used with the wrong meaning. \"Jemanden über den Tisch ziehen\" means to cheat someone, so *\"Wir konnten den Kunden über den Tisch ziehen\" in an email to your boss admits fraud. If you mean you persuaded the customer, write \"Wir konnten den Kunden überzeugen\" or \"Wir haben den Kunden ins Boot geholt\" (to get on board).",
+          "Idioms have fixed verbs. Mixing them up is a typical near-native error. It is \"etwas auf die lange Bank schieben\" (not \"*legen*\"), \"Nägel mit Köpfen machen\" (not \"*tun*\"), \"unter Dach und Fach bringen\" (not \"*kriegen*\" in formal writing), \"den Kürzeren ziehen\" (not \"*bekommen*\").",
+          "Some idioms are used with the wrong meaning. \"Jemanden über den Tisch ziehen\" means to cheat someone, so \"*Wir konnten den Kunden über den Tisch ziehen*\" in an email to your boss admits fraud. If you mean you persuaded the customer, write \"Wir konnten den Kunden überzeugen\" or \"Wir haben den Kunden ins Boot geholt\" (to get on board).",
         ],
         examples: [
           { es: "Wir dürfen das Thema nicht auf die lange Bank schieben.", en: "We mustn't put this issue off." },
@@ -1451,7 +1454,7 @@ export const DE_C2_U10: Lesson[] = [
             source: "We mustn't put this issue off.",
             answer: "Wir dürfen das Thema nicht auf die lange Bank schieben.",
             altAnswers: ["Wir dürfen dieses Thema nicht auf die lange Bank schieben.", "Wir dürfen das Thema nicht aufschieben.", "Wir dürfen die Sache nicht auf die lange Bank schieben."],
-            explanation: "\"Schieben\", never *legen; \"nicht dürfen\" = mustn't.",
+            explanation: "\"Schieben\", never \"*legen*\"; \"nicht dürfen\" = mustn't.",
           },
           {
             type: "multiple-choice",
@@ -1473,8 +1476,8 @@ export const DE_C2_U10: Lesson[] = [
       {
         heading: "Denglisch spelling and the corrected email",
         body: [
-          "If you use English verbs in German, they follow German grammar and Duden spelling: \"gecancelt\" (not *gecancelled), \"downgeloadet\" or better \"heruntergeladen\", \"geupdatet\" or better \"aktualisiert\", \"gemanagt\". In formal emails the German verb is almost always better: \"abgesagt\", \"aktualisiert\", \"geleitet\".",
-          "A faulty email: *\"Am Ende des Tages müssen wir den Ball rollen. Das Meeting wurde gecancelled, deshalb haben wir die Entscheidung auf die lange Bank gelegt.\" Corrected: \"Letztendlich müssen wir die Sache ins Rollen bringen. Die Besprechung wurde abgesagt, deshalb haben wir die Entscheidung auf die lange Bank geschoben.\"",
+          "If you use English verbs in German, they follow German grammar and Duden spelling: \"gecancelt\" (not \"*gecancelled*\"), \"downgeloadet\" or better \"heruntergeladen\", \"geupdatet\" or better \"aktualisiert\", \"gemanagt\". In formal emails the German verb is almost always better: \"abgesagt\", \"aktualisiert\", \"geleitet\".",
+          "A faulty email: \"*Am Ende des Tages müssen wir den Ball rollen. Das Meeting wurde gecancelled, deshalb haben wir die Entscheidung auf die lange Bank gelegt.*\" Corrected: \"Letztendlich müssen wir die Sache ins Rollen bringen. Die Besprechung wurde abgesagt, deshalb haben wir die Entscheidung auf die lange Bank geschoben.\"",
         ],
         examples: [
           { es: "Die Besprechung wurde abgesagt.", en: "The meeting was cancelled." },
@@ -1489,14 +1492,14 @@ export const DE_C2_U10: Lesson[] = [
             prompt: "Translate into German, without Denglisch.",
             source: "The file has been updated.",
             answer: "Die Datei wurde aktualisiert.",
-            altAnswers: ["Die Datei ist aktualisiert worden.", "Die Datei ist aktualisiert.", "Die Datei wurde geupdatet."],
-            explanation: "\"Aktualisieren\" is the German verb; Duden also accepts \"geupdatet\".",
+            altAnswers: ["Die Datei ist aktualisiert worden.", "Die Datei ist aktualisiert."],
+            explanation: "\"Aktualisieren\" is the German verb; Duden also accepts \"geupdatet\", but not in a Denglisch-free text.",
           },
           {
             type: "speak",
             text: "Letztendlich müssen wir die Sache ins Rollen bringen.",
             tip: "\"Letztendlich\": stress on \"letzt\"; keep the final ch soft.",
-            explanation: "The corrected version of *\"Am Ende des Tages müssen wir den Ball rollen\".",
+            explanation: "The corrected version of \"*Am Ende des Tages müssen wir den Ball rollen*\".",
           },
         ],
       },
@@ -1505,7 +1508,7 @@ export const DE_C2_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the calque: *\"Lass uns das offline nehmen.\" Translate idiomatically.",
+        prompt: "Correct the calque: \"*Lass uns das offline nehmen.*\" Translate idiomatically.",
         source: "Let's discuss that in private.",
         answer: "Lass uns das unter vier Augen besprechen.",
         altAnswers: ["Lassen Sie uns das unter vier Augen besprechen.", "Das klären wir unter vier Augen.", "Lass uns das separat besprechen.", "Lass uns das bilateral besprechen."],
@@ -1514,7 +1517,7 @@ export const DE_C2_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the error: *\"Wir konnten den Kunden über den Tisch ziehen.\" (You mean you persuaded him.)",
+        prompt: "Correct the error: \"*Wir konnten den Kunden über den Tisch ziehen.*\" (You mean you persuaded him.)",
         source: "We managed to persuade the customer.",
         answer: "Wir konnten den Kunden überzeugen.",
         altAnswers: ["Wir haben den Kunden überzeugt.", "Es ist uns gelungen, den Kunden zu überzeugen.", "Wir konnten den Kunden ins Boot holen."],
@@ -1523,7 +1526,7 @@ export const DE_C2_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the calque: *\"Am Ende des Tages hat sich die Investition gelohnt.\"",
+        prompt: "Correct the calque: \"*Am Ende des Tages hat sich die Investition gelohnt.*\"",
         source: "On balance, the investment paid off.",
         answer: "Unterm Strich hat sich die Investition gelohnt.",
         altAnswers: ["Letztendlich hat sich die Investition gelohnt.", "Letzten Endes hat sich die Investition gelohnt.", "Unter dem Strich hat sich die Investition gelohnt."],
@@ -1532,10 +1535,11 @@ export const DE_C2_U10: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Correct the verb. Write the German for the bold words.",
-        en: "We [put] the decision [off].",
-        sentence: "Wir haben die Entscheidung auf die lange Bank ___.",
-        answer: "geschoben",
-        explanation: "\"Schieben\", not *gelegt.",
+        en: "We [put off] the decision.",
+        sentence: "Wir haben die Entscheidung ___.",
+        answer: "auf die lange Bank geschoben",
+        altAnswers: ["aufgeschoben", "vertagt"],
+        explanation: "The idiom is \"auf die lange Bank schieben\": \"geschoben\", not \"*gelegt*\".",
       },
       {
         type: "fill-blank",
@@ -1543,11 +1547,11 @@ export const DE_C2_U10: Lesson[] = [
         en: "The meeting was [cancelled].",
         sentence: "Die Besprechung wurde ___.",
         answer: "abgesagt",
-        explanation: "\"Absagen\" is the German verb; avoid *gecancelled.",
+        explanation: "\"Absagen\" is the German verb; avoid \"*gecancelled*\".",
       },
       {
         type: "multiple-choice",
-        question: "Which spelling follows Duden?",
+        question: "You use the English verb in an informal email: 'The meeting was cancelled.' Which participle follows Duden?",
         options: ["gecancelt", "gecancelled", "gecanceled", "gecanceld"],
         correctIndex: 0,
         explanation: "English verbs take German participle endings: \"gecancelt\".",
@@ -1580,7 +1584,7 @@ export const DE_C2_U10: Lesson[] = [
         type: "speak",
         text: "Jetzt müssen wir Nägel mit Köpfen machen.",
         prompt: "Say it in German: Now we have to take decisive action.",
-        explanation: "\"Machen\", never *tun.",
+        explanation: "\"Machen\", never \"*tun*\".",
       },
     ],
   },
@@ -1589,11 +1593,11 @@ export const DE_C2_U10: Lesson[] = [
     level: "DE-C2",
     number: 9,
     title: "Mastery Vocabulary: Learned Phrases",
-    summary: "Formal connectors and prepositions for written German: in Anbetracht, im Hinblick auf, mithin, gleichwohl, nichtsdestotrotz, zumal, insofern als, ungeachtet, nicht zuletzt, des Weiteren. Register and position in the sentence.",
+    summary: "Use formal connectors and prepositions in written German (\"in Anbetracht\", \"ungeachtet\", \"gleichwohl\", \"mithin\", \"zumal\", \"insofern als\", \"des Weiteren\") with the right case and word order.",
     duration: "20 min",
     sections: [
       {
-        heading: "Prepositions: in Anbetracht, im Hinblick auf, ungeachtet",
+        heading: "Prepositions: \"in Anbetracht\", \"im Hinblick auf\", \"ungeachtet\"",
         body: [
           "\"In Anbetracht\" + genitive means in view of, considering: \"In Anbetracht der Lage verschieben wir die Messe.\" \"Im Hinblick auf\" + accusative means with regard to, also with a view to: \"Im Hinblick auf die Fusion wurden neue Stellen geschaffen.\" \"Ungeachtet\" + genitive means notwithstanding, regardless of: \"Ungeachtet der Kritik hielt der Vorstand an dem Plan fest.\"",
           "All three belong to written and formal spoken German. In everyday speech you would say \"wegen\", \"wenn es um ... geht\" or \"trotz\". Learn the case with each: \"in Anbetracht der Tatsache, dass ...\" (genitive) is a common way to introduce a clause.",
@@ -1618,14 +1622,15 @@ export const DE_C2_U10: Lesson[] = [
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
             en: "[In view of] the situation, we are postponing the trade fair.",
-            sentence: "In ___ der Lage verschieben wir die Messe.",
-            answer: "Anbetracht",
+            sentence: "___ der Lage verschieben wir die Messe.",
+            answer: "In Anbetracht",
+            altAnswers: ["Angesichts"],
             explanation: "\"In Anbetracht\" + genitive (\"der Lage\").",
           },
         ],
       },
       {
-        heading: "Concession and consequence: gleichwohl, nichtsdestotrotz, mithin",
+        heading: "Concession and consequence: \"gleichwohl\", \"nichtsdestotrotz\", \"mithin\"",
         body: [
           "\"Gleichwohl\" (nevertheless, all the same) and \"nichtsdestotrotz\" (nonetheless) are elevated versions of \"trotzdem\". They are adverbs, so they can stand in position 1 with the verb second, or in the middle field: \"Die Zahlen sind gut. Gleichwohl bleiben Risiken.\" / \"Es bleiben gleichwohl Risiken.\" \"Nichtsdestotrotz\" began as a joke blend and is now accepted, slightly less elevated than \"gleichwohl\".",
           "\"Mithin\" (consequently, thus) is a very formal \"also\" or \"folglich\", found in academic and legal writing: \"Die Frist ist verstrichen; der Anspruch ist mithin erloschen.\" It usually sits in the middle field, not at the start.",
@@ -1657,7 +1662,7 @@ export const DE_C2_U10: Lesson[] = [
         ],
       },
       {
-        heading: "Adding reasons: zumal, insofern als, nicht zuletzt, des Weiteren",
+        heading: "Adding reasons: \"zumal\", \"insofern als\", \"nicht zuletzt\", \"des Weiteren\"",
         body: [
           "\"Zumal\" (especially since) is a subordinating conjunction, verb at the end, that adds an extra, often decisive reason: \"Wir sollten absagen, zumal das Wetter schlecht ist.\" \"Insofern als\" (insofar as, in that) restricts a statement: \"Das Projekt war erfolgreich, insofern als es die Kosten gesenkt hat.\" Both send the verb to the end.",
           "\"Nicht zuletzt\" (not least) highlights one factor among several: \"Der Erfolg ist nicht zuletzt dem Team zu verdanken.\" \"Des Weiteren\" (furthermore) adds a point and is an adverb, so the verb follows directly: \"Des Weiteren wurde beschlossen, ...\". Note the capital W: \"des Weiteren\".",
@@ -1735,8 +1740,8 @@ export const DE_C2_U10: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
         en: "The success is [not least] thanks to the team.",
-        sentence: "Der Erfolg ist nicht ___ dem Team zu verdanken.",
-        answer: "zuletzt",
+        sentence: "Der Erfolg ist ___ dem Team zu verdanken.",
+        answer: "nicht zuletzt",
         explanation: "\"Nicht zuletzt\" highlights one factor among several.",
       },
       {
@@ -1746,7 +1751,7 @@ export const DE_C2_U10: Lesson[] = [
           { left: "in Anbetracht", right: "wegen" },
           { left: "ungeachtet", right: "trotz" },
           { left: "gleichwohl", right: "trotzdem" },
-          { left: "mithin", right: "also" },
+          { left: "mithin", right: "folglich" },
           { left: "des Weiteren", right: "außerdem" },
         ],
         explanation: "The left column belongs to formal writing.",
@@ -1789,10 +1794,10 @@ export const DE_C2_U10_WRITING: WriteExercise = {
   maxWords: 400,
   rubric: [
     "Replace at least four business idioms with neutral report language (\"Verluste verzeichnen\", \"das Projekt einstellen\", \"den Vertrag unterzeichnen\", \"Einsparungen vornehmen\")",
-    "Use passive, nominalisation and at least two Funktionsverbgefüge (\"zum Abschluss bringen\", \"in Betracht ziehen\", \"Maßnahmen ergreifen\")",
+    "Use passive, nominalisation and at least two \"Funktionsverbgefüge\" (\"zum Abschluss bringen\", \"in Betracht ziehen\", \"Maßnahmen ergreifen\")",
     "Report statements with varied verbs of saying and Konjunktiv I (\"betonte, die Lage sei ...\", \"gab zu bedenken\")",
     "Use at least four learned connectors or prepositions (\"in Anbetracht\", \"gleichwohl\", \"zumal\", \"des Weiteren\", \"mithin\") and at least one Latin phrase (\"de facto\", \"per se\")",
   ],
   modelAnswer: "Quartalsbericht Q3 – Geschäftsbereich Osteuropa\n\n1. Ergebnisentwicklung\nDer Geschäftsbereich verzeichnete im dritten Quartal erneut Verluste. Das operative Ergebnis lag bei minus 1,2 Millionen Euro und damit unter dem Vorjahresniveau. Ursächlich hierfür waren nicht zuletzt die gestiegenen Material- und Energiekosten sowie die anhaltenden Mehrausgaben im Projekt Breslau.\n\n2. Projekt Breslau\nIn Anbetracht der seit Projektbeginn um 40 Prozent überschrittenen Kosten wurde das Projekt Breslau Ende August eingestellt. Die Projektleiterin, Frau Wagner, betonte in der Teamsitzung, eine Fortführung sei wirtschaftlich nicht vertretbar gewesen, zumal keine verlässliche Prognose für den Abschluss habe abgegeben werden können. Herr Lindner gab zu bedenken, dass mit der Einstellung de facto auch die Investitionen der letzten zwei Jahre abgeschrieben werden müssten. Gleichwohl sprach sich das Team mehrheitlich für diesen Schritt aus. Eine Wiederaufnahme zu einem späteren Zeitpunkt wird nicht per se ausgeschlossen, jedoch derzeit nicht in Betracht gezogen.\n\n3. Vertragsabschluss Krüger GmbH\nErfreulich ist, dass die Verhandlungen mit der Krüger GmbH erfolgreich zum Abschluss gebracht werden konnten. Der Rahmenvertrag mit einer Laufzeit von drei Jahren wurde am 12. September unterzeichnet. Frau Wagner hob hervor, der Vertrag sichere ein jährliches Auftragsvolumen von rund zwei Millionen Euro und leiste mithin einen wesentlichen Beitrag zur Stabilisierung des Geschäftsbereichs.\n\n4. Maßnahmen und Ausblick\nUngeachtet des positiven Vertragsabschlusses sind weitere Einsparungen erforderlich. Es wird empfohlen, folgende Maßnahmen zu ergreifen: Erstens sollen die Reisekosten um 15 Prozent gesenkt werden. Zweitens wird die Zusammenarbeit mit externen Dienstleistern im Hinblick auf mögliche Synergien überprüft. Des Weiteren ist geplant, frei werdende Stellen vorerst nicht nachzubesetzen.\n\nIm Hinblick auf das vierte Quartal wird mit einer Verringerung der Verluste gerechnet, da die Kosten des Projekts Breslau entfallen und die ersten Umsätze aus dem Krüger-Vertrag erwartet werden. Ein ausgeglichenes Ergebnis ist nach derzeitiger Einschätzung frühestens im zweiten Quartal des kommenden Jahres zu erwarten. Nichtsdestotrotz bewertet die Bereichsleitung die mittelfristigen Perspektiven als positiv.\n\nFür Rückfragen steht die Bereichsleitung jederzeit zur Verfügung.",
-  explanation: "The report replaces each idiom with neutral language: \"rote Zahlen schreiben\" becomes \"Verluste verzeichnen\", \"die Reißleine ziehen\" becomes \"das Projekt wurde eingestellt\", \"in trockenen Tüchern\" becomes \"wurde unterzeichnet\", and the money pit becomes \"überschrittene Kosten\". It uses passive, nominalisation (\"mit der Einstellung\", \"Wiederaufnahme\") and Funktionsverbgefüge (\"zum Abschluss bringen\", \"in Betracht ziehen\", \"Maßnahmen ergreifen\", \"zur Verfügung stehen\"). Statements are reported with \"betonte\", \"gab zu bedenken\" and \"hob hervor\" plus Konjunktiv I (\"sei\", \"sichere\", \"leiste\"). Formal connectors (\"in Anbetracht\", \"zumal\", \"gleichwohl\", \"mithin\", \"ungeachtet\", \"des Weiteren\", \"nichtsdestotrotz\") and the Latin phrases \"de facto\" and \"per se\" complete the register.",
+  explanation: "The report replaces each idiom with neutral language: \"rote Zahlen schreiben\" becomes \"Verluste verzeichnen\", \"die Reißleine ziehen\" becomes \"das Projekt wurde eingestellt\", \"in trockenen Tüchern\" becomes \"wurde unterzeichnet\", and the money pit becomes \"überschrittene Kosten\". It uses passive, nominalisation (\"mit der Einstellung\", \"Wiederaufnahme\") and \"Funktionsverbgefüge\" (\"zum Abschluss bringen\", \"in Betracht ziehen\", \"Maßnahmen ergreifen\", \"zur Verfügung stehen\"). Statements are reported with \"betonte\", \"gab zu bedenken\" and \"hob hervor\" plus Konjunktiv I (\"sei\", \"sichere\", \"leiste\"). Formal connectors (\"in Anbetracht\", \"zumal\", \"gleichwohl\", \"mithin\", \"ungeachtet\", \"des Weiteren\", \"nichtsdestotrotz\") and the Latin phrases \"de facto\" and \"per se\" complete the register.",
 };

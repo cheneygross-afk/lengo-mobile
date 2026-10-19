@@ -60,7 +60,6 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "You set the table. (to a friend)",
         answer: "Du hast den Tisch gedeckt.",
-        altAnswers: ["Ihr habt den Tisch gedeckt.", "Sie haben den Tisch gedeckt."],
         explanation: "\"Den Tisch decken\" = to set the table → \"gedeckt\".",
       },
       {
@@ -195,7 +194,6 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "What did you have for breakfast? (to a friend)",
             answer: "Was hast du zum Frühstück gegessen?",
-            altAnswers: ["Was habt ihr zum Frühstück gegessen?", "Was haben Sie zum Frühstück gegessen?"],
             explanation: "For breakfast = \"zum Frühstück\"; have a meal = \"essen\" → \"gegessen\".",
           },
           {
@@ -217,7 +215,6 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Did you sleep well? (to a friend)",
         answer: "Hast du gut geschlafen?",
-        altAnswers: ["Habt ihr gut geschlafen?", "Haben Sie gut geschlafen?"],
         explanation: "\"Geschlafen\": strong.",
       },
       {
@@ -234,7 +231,6 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Who did you meet at the party? (to a friend)",
         answer: "Wen hast du auf der Party getroffen?",
-        altAnswers: ["Wen habt ihr auf der Party getroffen?", "Wen haben Sie auf der Party getroffen?"],
         explanation: "\"Wen\" (accusative who) + \"getroffen\".",
       },
       {
@@ -252,7 +248,6 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "How much water did you drink? (to a friend)",
         answer: "Wie viel Wasser hast du getrunken?",
-        altAnswers: ["Wie viel Wasser habt ihr getrunken?", "Wie viel Wasser haben Sie getrunken?"],
         explanation: "\"Wie viel\" + noun first, then \"hast du\", \"getrunken\" last.",
       },
       {
@@ -406,7 +401,6 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "We thought of you. (to a friend)",
         answer: "Wir haben an dich gedacht.",
-        altAnswers: ["Wir haben an euch gedacht.", "Wir haben an Sie gedacht."],
         explanation: "\"Denken an\" + accusative → \"gedacht\".",
       },
       {
@@ -415,7 +409,6 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Did you get my postcard? (to a friend)",
         answer: "Hast du meine Postkarte bekommen?",
-        altAnswers: ["Habt ihr meine Postkarte bekommen?", "Haben Sie meine Postkarte bekommen?"],
         explanation: "\"Bekommen\" = to receive.",
       },
       {
@@ -450,12 +443,12 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "She forgot her passport at home.",
         answer: "Sie hat ihren Pass zu Hause vergessen.",
-        altAnswers: ["Sie hat ihren Reisepass zu Hause vergessen."],
+        altAnswers: ["Sie hat ihren Reisepass zu Hause vergessen.", "Sie hat ihren Pass zuhause vergessen."],
         explanation: "\"Vergessen\"; at home = \"zu Hause\".",
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "Which is correct for: Did you know that?",
         options: ["Hast du das gewusst?", "Hast du das gewisst?", "Hast du das gewissen?", "Hast du das gekennt?"],
         correctIndex: 0,
         explanation: "\"Wissen\" → \"gewusst\".",
@@ -505,7 +498,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
         heading: "Recap: zuerst, dann, danach",
         body: [
           "\"Zuerst\" (first), \"dann\" (then) and \"danach\" (after that) each take position 1, so the auxiliary follows straight away: \"Zuerst habe ich gefrühstückt. Dann habe ich die Zeitung gelesen. Danach habe ich meine Mutter besucht.\"",
-          "Never *Dann ich habe...*: these words count as a full position, unlike \"und\" and \"aber\".",
+          "Never \"*Dann ich habe...*\": these words count as a full position, unlike \"und\" and \"aber\".",
         ],
         examples: [
           { es: "Zuerst habe ich gefrühstückt.", en: "First I had breakfast." },
@@ -579,7 +572,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "Which is correct for: Then we watched a film.",
         options: ["Dann haben wir einen Film gesehen.", "Dann wir haben einen Film gesehen.", "Dann haben wir gesehen einen Film.", "Dann wir einen Film gesehen haben."],
         correctIndex: 0,
         explanation: "\"Dann\" takes position 1; the auxiliary comes next.",
@@ -685,7 +678,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
             source: "I took lots of photos.",
             answer: "Ich habe viele Fotos gemacht.",
             altAnswers: ["Ich habe viel fotografiert."],
-            explanation: "Take photos = \"Fotos machen\" (not *nehmen*).",
+            explanation: "Take photos = \"Fotos machen\" (not \"*nehmen*\").",
           },
         ],
       },
@@ -748,7 +741,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "We [took a guided tour] of the old town.",
+        en: "We [took] a guided tour of the old town.",
         sentence: "Wir haben eine Führung durch die Altstadt ___.",
         answer: "gemacht",
         explanation: "\"Eine Führung machen\" → \"gemacht\".",
@@ -773,7 +766,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which blog sentence is correct?",
+        question: "Which blog sentence is correct for: I visited the zoo.",
         options: ["Ich habe den Zoo besucht.", "Ich habe den Zoo gebesucht.", "Ich habe besucht den Zoo.", "Ich habe den Zoo besuchen."],
         correctIndex: 0,
         explanation: "\"Besucht\": no ge-, at the end.",
@@ -952,9 +945,9 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Around midnight I slept.",
-        answer: "Gegen Mitternacht habe ich geschlafen.",
-        altAnswers: ["Gegen Mitternacht habe ich schon geschlafen."],
+        source: "Around midnight I was already asleep.",
+        answer: "Gegen Mitternacht habe ich schon geschlafen.",
+        altAnswers: ["Gegen Mitternacht habe ich geschlafen.", "Ich habe gegen Mitternacht schon geschlafen."],
         explanation: "\"Geschlafen\": strong. (Falling asleep is a different verb: Unit 3.)",
       },
       {
@@ -1016,7 +1009,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
         type: "speak",
         text: "Ich habe Brötchen gegessen und Kaffee getrunken.",
         prompt: "Say it in German: I had bread rolls and coffee.",
-        tip: "The ö in \"Brötchen\" is long: round your lips for o and say e.",
+        tip: "The ö in \"Brötchen\" is long: say a long e (as in \"Tee\") with your lips rounded as for o.",
         explanation: "Two strong participles with one \"habe\".",
       },
       {
@@ -1251,7 +1244,7 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which completes: Meine Eltern ___ uns ein Auto geliehen.",
+        question: "My parents lent us a car. Which completes: Meine Eltern ___ uns ein Auto geliehen.",
         options: ["haben", "hat", "habt", "hast"],
         correctIndex: 0,
         explanation: "\"Meine Eltern\" = they: \"haben\".",
@@ -1374,7 +1367,8 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "She said: We found it!",
-        answer: "Sie hat gesagt: Wir haben es gefunden!",
+        answer: "Sie hat gesagt: „Wir haben es gefunden!“",
+        altAnswers: ["Sie hat gesagt, sie haben es gefunden."],
         explanation: "\"Gesagt\" (regular), \"gefunden\" (strong). No space before the colon.",
       },
       {
@@ -1406,10 +1400,10 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which verb form fits: Ich habe die Bahn ___ (phoned).",
+        question: "I phoned the railway. Which fits: Ich habe die Bahn ___.",
         options: ["angerufen", "geanruft", "anrufen", "angeruft"],
         correctIndex: 0,
-        explanation: "\"Anrufen\" → \"angerufen\": strong, with ge- after the prefix an-.",
+        explanation: "\"Anrufen\" → \"angerufen\": strong (-en), with ge- between the separable prefix an- and the stem, so not \"*geanruft*\" or \"*angeruft*\".",
       },
       {
         type: "translate",
@@ -1513,8 +1507,8 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "They told everything.",
-        answer: "Sie haben alles erzählt.",
+        source: "They told us everything.",
+        answer: "Sie haben uns alles erzählt.",
         explanation: "No ge-: \"erzählt\".",
       },
       {
@@ -1549,7 +1543,6 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Did you see that? (to a friend)",
         answer: "Hast du das gesehen?",
-        altAnswers: ["Habt ihr das gesehen?", "Haben Sie das gesehen?"],
         explanation: "Strong: \"gesehen\".",
       },
       {
@@ -1578,10 +1571,10 @@ export const DE_A2_U02_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which participle is wrong?",
-        options: ["gebesucht", "gebracht", "gefunden", "telefoniert"],
+        question: "Which sentence has a mistake?",
+        options: ["Ich habe meine Oma gebesucht.", "Ich habe Blumen gebracht.", "Ich habe den Schlüssel gefunden.", "Ich habe mit Lena telefoniert."],
         correctIndex: 0,
-        explanation: "\"Besuchen\" takes no ge-: \"besucht\".",
+        explanation: "\"Besuchen\" takes no ge- after be-: \"besucht\". The others are right: mixed \"gebracht\", strong \"gefunden\", and \"telefoniert\" with no ge-.",
       },
       {
         type: "dictation",

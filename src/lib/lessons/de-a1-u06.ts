@@ -15,8 +15,8 @@ export const DE_A1_U06: Lesson[] = [
         heading: "Mein and dein work like ein",
         body: [
           "\"Mein\" (my) and \"dein\" (your, to someone you say du to) sit in the same slot as \"ein\" and take exactly the same endings. Masculine and neuter: no ending (\"mein Vater\", \"mein Kind\"); feminine and plural: -e (\"meine Mutter\", \"meine Eltern\").",
-          "The ending is decided by the noun that is owned, not by the owner. A man says \"meine Schwester\" and a woman says \"mein Bruder\": the -e belongs to \"Schwester\" because \"die Schwester\" is feminine. *\"Meine Vater\" is a very common slip.",
-          "That's why possessives are another reason to learn every noun with der, die or das: \"mein Auto\" (das Auto), \"meine Wohnung\" (die Wohnung), \"mein Computer\" (der Computer).",
+          "The ending is decided by the noun that is owned, not by the owner. A man says \"meine Schwester\" and a woman says \"mein Bruder\": the -e belongs to \"Schwester\" because \"die Schwester\" is feminine. \"*Meine Vater\" is a very common slip.",
+          "That's why possessives are another reason to learn every noun with \"der\", \"die\" or \"das\": \"mein Auto\" (\"das Auto\"), \"meine Wohnung\" (\"die Wohnung\"), \"mein Computer\" (\"der Computer\").",
         ],
         examples: [
           { es: "Das ist mein Vater.", en: "This is my father." },
@@ -111,7 +111,7 @@ export const DE_A1_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does 'Anna und Tom suchen ihr Auto' mean?",
+            question: "What does \"Anna und Tom suchen ihr Auto\" mean?",
             options: ["Anna and Tom are looking for their car.", "Anna and Tom are looking for her car.", "Anna and Tom, you're looking for the car.", "Anna and Tom are looking for your car."],
             correctIndex: 0,
             explanation: "Two owners and a lowercase \"ihr\" before a noun: their.",
@@ -142,7 +142,7 @@ export const DE_A1_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "My father is a doctor.",
         answer: "Mein Vater ist Arzt.",
-        explanation: "\"Der Vater\" is masculine: \"mein\", never *\"meine Vater\". No article before the job.",
+        explanation: "\"Der Vater\" is masculine: \"mein\", never \"*meine Vater\". No article before the job.",
       },
       {
         type: "translate",
@@ -200,7 +200,7 @@ export const DE_A1_U06: Lesson[] = [
         type: "speak",
         text: "Das ist meine Schwester, und das ist ihr Mann.",
         prompt: "Show a photo: This is my sister, and this is her husband.",
-        tip: "Ihr sounds like English ear.",
+        tip: "\"Ihr\" sounds like English ear.",
         explanation: "\"Meine Schwester\" (die Schwester); her husband is \"ihr Mann\" (der Mann, no ending).",
       },
     ],
@@ -217,7 +217,7 @@ export const DE_A1_U06: Lesson[] = [
         heading: "Unser, euer, Ihr",
         body: [
           "The rest of the set: \"unser\" (our), \"euer\" (your, to several people you say du to) and \"Ihr\" (your, polite, to one or more people). They take the same endings as \"ein\": \"unser Sohn\", \"unsere Tochter\", \"unser Haus\", \"unsere Kinder\".",
-          "\"Euer\" loses its second e as soon as it gets an ending: \"euer Garten\" but \"eure Wohnung\", \"eure Kinder\". *\"Euere\" is a classic slip.",
+          "\"Euer\" loses its second e as soon as it gets an ending: \"euer Garten\" but \"eure Wohnung\", \"eure Kinder\". \"*Euere\" is a classic slip.",
           "\"Unser\" and \"euer\" end in -er, but that -er is part of the word, not an ending. Don't let it trick you into thinking \"unser\" is masculine: it's \"unser Haus\" too.",
         ],
         examples: [
@@ -281,7 +281,7 @@ export const DE_A1_U06: Lesson[] = [
       {
         heading: "Annas Auto, das Auto von Anna",
         body: [
-          "With names, German adds -s, like English, but with no apostrophe: \"Annas Auto\", \"Peters Wohnung\", \"Frau Beckers Büro\". *Anna's Auto is wrong in standard German, even though you'll see it on shop signs.",
+          "With names, German adds -s, like English, but with no apostrophe: \"Annas Auto\", \"Peters Wohnung\", \"Frau Beckers Büro\". \"Anna's Auto\" is not the standard spelling, even though you'll see the apostrophe on shop signs (the rules only tolerate it there).",
           "In everyday speech, Germans often prefer \"von\" + the name: \"das Auto von Anna\", \"die Wohnung von Peter\". Both are fine; \"von\" is the safe choice with names ending in -s (\"das Haus von Hans\").",
         ],
         examples: [
@@ -461,7 +461,7 @@ export const DE_A1_U06: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Jonas says 'Das ist meine Freundin.' What does he most likely mean?",
+            question: "Jonas says \"Das ist meine Freundin.\" What does he most likely mean?",
             options: ["This is my girlfriend.", "This is a friend of mine.", "This is my wife.", "This is my sister."],
             correctIndex: 0,
             explanation: "\"Meine Freundin\" usually means girlfriend; a plain friend is \"eine Freundin von mir\".",
@@ -536,10 +536,10 @@ export const DE_A1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your aunt's son is your...",
-        options: ["Cousin", "Neffe", "Onkel", "Enkel"],
+        question: "Your father's parents are your...",
+        options: ["Großeltern", "Eltern", "Geschwister", "Kinder"],
         correctIndex: 0,
-        explanation: "\"Der Cousin\" (and \"die Cousine\"). \"Der Neffe\" = nephew, \"der Onkel\" = uncle, \"der Enkel\" = grandson.",
+        explanation: "\"Die Großeltern\" (grandparents: \"Oma\" and \"Opa\"). \"Eltern\" are your parents, \"Geschwister\" your brothers and sisters.",
       },
       {
         type: "word-order",
@@ -589,7 +589,7 @@ export const DE_A1_U06: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Change the owner: 'Ich suche meinen Schlüssel' becomes 'she'. Translate.",
+            prompt: "Change the owner of \"Ich suche meinen Schlüssel\" to she. Translate into German.",
             source: "She's looking for her key.",
             answer: "Sie sucht ihren Schlüssel.",
             explanation: "Owner she → \"ihr\"; the masculine object keeps -en: \"ihren\".",
@@ -622,14 +622,14 @@ export const DE_A1_U06: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Make it plural: 'Mein Bruder ist hier.' Translate.",
+            prompt: "Make \"Mein Bruder ist hier.\" plural. Translate into German.",
             source: "My brothers are here.",
             answer: "Meine Brüder sind hier.",
             explanation: "Plural → \"meine\", \"Brüder\" with an umlaut, and the verb \"sind\".",
           },
           {
             type: "multiple-choice",
-            question: "'Dein Freund ist nett.' Now say 'I know your friend.' Which is correct?",
+            question: "\"Dein Freund ist nett.\" Now say 'I know your friend.' Which is correct?",
             options: ["Ich kenne deinen Freund.", "Ich kenne dein Freund.", "Ich kenne deine Freund.", "Ich kenne deinem Freund."],
             correctIndex: 0,
             explanation: "\"Der Freund\" becomes the object: \"deinen\".",
@@ -696,10 +696,10 @@ export const DE_A1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "'Unser Lehrer ist neu.' Change it to 'We like our teacher.'",
+        question: "\"Unser Lehrer ist neu.\" Change it to 'We like our teacher.'",
         options: ["Wir mögen unseren Lehrer.", "Wir mögen unser Lehrer.", "Wir mögen unsere Lehrer.", "Wir mag unseren Lehrer."],
         correctIndex: 0,
-        explanation: "Masculine object → \"unseren\"; \"wir mögen\".",
+        explanation: "Masculine object → \"unseren\"; \"wir mögen\". \"Unsere Lehrer\" would be our teachers (plural), and \"wir mag\" has the wrong verb ending.",
       },
       {
         type: "word-order",
@@ -777,12 +777,12 @@ export const DE_A1_U06: Lesson[] = [
           { es: "Kannst du das Fenster öffnen?", en: "Can you open the window?" },
           { es: "Wir müssen hier warten.", en: "We have to wait here." },
           { es: "Ich weiß es nicht.", en: "I don't know." },
-          { es: "Vergiss den Schlüssel nicht!", en: "Don't forget the key!" },
+          { es: "Du vergisst deinen Schlüssel!", en: "You're forgetting your key!" },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "What does 'Ich bekomme ein Paket' mean?",
+            question: "What does \"Ich bekomme ein Paket\" mean?",
             options: ["I'm getting a parcel.", "I'm becoming a parcel.", "I'm sending a parcel.", "I'm looking for a parcel."],
             correctIndex: 0,
             explanation: "\"Bekommen\" = get, receive. Become is \"werden\".",
@@ -834,9 +834,9 @@ export const DE_A1_U06: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "He likes reading.",
-        answer: "Er liest gern.",
-        explanation: "\"Lesen\" → \"er liest\"; \"gern\" after the verb means like doing.",
+        source: "He's reading a book.",
+        answer: "Er liest ein Buch.",
+        explanation: "\"Lesen\" changes e → ie in the du and er forms: \"er liest\", never \"*er lest\".",
       },
       {
         type: "translate",
@@ -869,7 +869,7 @@ export const DE_A1_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "We're staying at home today.",
         answer: "Wir bleiben heute zu Hause.",
-        altAnswers: ["Heute bleiben wir zu Hause."],
+        altAnswers: ["Heute bleiben wir zu Hause.", "Wir bleiben heute zuhause."],
         explanation: "\"Bleiben\" = stay; \"zu Hause\" = at home.",
       },
       {
@@ -911,10 +911,9 @@ export const DE_A1_U06: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "I'm getting a new job.",
-        answer: "Ich bekomme einen neuen Job.",
-        altAnswers: ["Ich bekomme eine neue Stelle.", "Ich bekomme eine neue Arbeit."],
-        explanation: "Get = \"bekommen\", never become. \"Der Job\" is a masculine object: \"einen\".",
+        source: "We're getting a dog.",
+        answer: "Wir bekommen einen Hund.",
+        explanation: "Get = \"bekommen\", never become (that's \"werden\"). \"Der Hund\" is a masculine object: \"einen\".",
       },
       {
         type: "dictation",
@@ -925,7 +924,7 @@ export const DE_A1_U06: Lesson[] = [
         type: "speak",
         text: "Ich habe Hunger und Durst.",
         prompt: "Say it in German: I'm hungry and thirsty.",
-        tip: "The u in Hunger and Durst is short, like English put.",
+        tip: "The u in \"Hunger\" and \"Durst\" is short, like English put.",
         explanation: "Both feelings take \"haben\" with no article.",
       },
     ],
@@ -941,8 +940,8 @@ export const DE_A1_U06: Lesson[] = [
       {
         heading: "Null to neunzehn",
         body: [
-          "0-12 have their own names: \"null\", \"eins\", \"zwei\", \"drei\", \"vier\", \"fünf\", \"sechs\", \"sieben\", \"acht\", \"neun\", \"zehn\", \"elf\", \"zwölf\". Many look like their English sisters: drei/three, acht/eight, elf/eleven.",
-          "13-19 are the unit + \"zehn\", like English -teen: \"dreizehn\", \"vierzehn\", \"fünfzehn\", \"achtzehn\", \"neunzehn\". Two shorten: \"sechzehn\" (not sechszehn) and \"siebzehn\" (not siebenzehn).",
+          "0-12 have their own names: \"null\", \"eins\", \"zwei\", \"drei\", \"vier\", \"fünf\", \"sechs\", \"sieben\", \"acht\", \"neun\", \"zehn\", \"elf\", \"zwölf\". Many look like their English sisters: \"drei\" (three), \"acht\" (eight), \"elf\" (eleven).",
+          "13-19 are the unit + \"zehn\", like English -teen: \"dreizehn\", \"vierzehn\", \"fünfzehn\", \"achtzehn\", \"neunzehn\". Two shorten: \"sechzehn\" (not \"*sechszehn\") and \"siebzehn\" (not \"*siebenzehn\").",
           "\"Eins\" is for counting and on its own (\"Nummer eins\"); before a noun it becomes \"ein\" / \"eine\": \"ein Kind\", \"eine Stunde\".",
         ],
         examples: [
@@ -1007,7 +1006,7 @@ export const DE_A1_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which number is 'dreißig'?",
+            question: "Which number is \"dreißig\"?",
             options: ["30", "13", "33", "3"],
             correctIndex: 0,
             explanation: "\"Dreißig\" (30) is the only ten with ß instead of -zig. 13 is \"dreizehn\".",
@@ -1087,15 +1086,15 @@ export const DE_A1_U06: Lesson[] = [
         prompt: "Put the words in order to say: My father is ninety.",
         words: ["Mein", "Vater", "ist", "neunzig."],
         translation: "My father is ninety.",
-        explanation: "Age with \"sein\" and no Jahre needed.",
+        explanation: "Age with \"sein\", and \"Jahre alt\" is optional.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German (write the number as a word).",
-        source: "Take the number twelve bus.",
-        answer: "Nimm den Bus Nummer zwölf.",
-        altAnswers: ["Nehmen Sie den Bus Nummer zwölf.", "Nehmt den Bus Nummer zwölf.", "Nimm die Zwölf.", "Nehmen Sie die Zwölf."],
+        source: "I'm taking the number twelve bus.",
+        answer: "Ich nehme den Bus Nummer zwölf.",
+        altAnswers: ["Ich nehme die Zwölf.", "Ich fahre mit dem Bus Nummer zwölf."],
         explanation: "\"Der Bus Nummer zwölf\"; in speech Germans also say \"die Zwölf\" for the number 12 bus or tram.",
       },
       {
@@ -1153,8 +1152,8 @@ export const DE_A1_U06: Lesson[] = [
         heading: "Years and ages",
         body: [
           "Years up to 1999 are said in hundreds, like English: 1990 = \"neunzehnhundertneunzig\" (nineteen hundred ninety), with no and. From 2000 Germans say the whole number: 2025 = \"zweitausendfünfundzwanzig\".",
-          "There's no in before a year on its own: \"Ich bin 1998 geboren\" or \"Ich bin im Jahr 1998 geboren\", never *\"in 1998\".",
-          "Age: \"Wie alt bist du?\" — \"Ich bin 34.\" or \"Ich bin 34 Jahre alt.\" Always \"sein\", never *\"Ich habe 34 Jahre\".",
+          "There's no in before a year on its own: \"Ich bin 1998 geboren\" or \"Ich bin im Jahr 1998 geboren\", never \"*in 1998\".",
+          "Age: \"Wie alt bist du?\" — \"Ich bin 34.\" or \"Ich bin 34 Jahre alt.\" Always \"sein\", never \"*Ich habe 34 Jahre\".",
         ],
         examples: [
           { es: "neunzehnhundertneunzig", en: "1990" },
@@ -1237,7 +1236,7 @@ export const DE_A1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A German report says 'Die Stadt hat 1.500 Einwohner.' How many people live there?",
+        question: "A German report says \"Die Stadt hat 1.500 Einwohner.\" How many people (Einwohner) live there?",
         options: ["One thousand five hundred", "One point five", "Fifteen", "One and a half million"],
         correctIndex: 0,
         explanation: "The dot separates the thousands: 1.500 = 1,500.",
@@ -1287,8 +1286,8 @@ export const DE_A1_U06: Lesson[] = [
       {
         heading: "The form: Vorname, Nachname, Alter...",
         body: [
-          "You're signing up for a gym in Köln. The form asks for \"Vorname\" (first name), \"Nachname\" (surname), \"Alter\" (age), \"Adresse\" (address: Straße, Hausnummer, Postleitzahl, Ort), \"Telefonnummer\" and \"E-Mail\".",
-          "In German addresses the house number comes after the street: \"Bergstraße 12\", and the postcode before the town: \"50667 Köln\". The receptionist might ask: \"Wie ist Ihre Adresse?\", \"Wie ist Ihre Telefonnummer?\" (Germans ask wie ist..., not *was ist...).",
+          "You're signing up for a gym in Köln. The form asks for \"Vorname\" (first name), \"Nachname\" (surname), \"Alter\" (age), \"Adresse\" (address: \"Straße\", \"Hausnummer\", \"Postleitzahl\", \"Ort\"), \"Telefonnummer\" and \"E-Mail\".",
+          "In German addresses the house number comes after the street: \"Bergstraße 12\", and the postcode before the town: \"50667 Köln\". The receptionist might ask: \"Wie ist Ihre Adresse?\", \"Wie ist Ihre Telefonnummer?\" (Germans usually ask \"Wie ist...?\"; \"Was ist...?\" is heard but sounds less natural).",
           "Phone numbers are said digit by digit or in pairs: 0176 34 58 21 = \"null eins sieben sechs, vierunddreißig, achtundfünfzig, einundzwanzig\". On the phone, Germans say \"zwo\" for 2 so it can't be confused with \"drei\".",
         ],
         examples: [
@@ -1322,7 +1321,7 @@ export const DE_A1_U06: Lesson[] = [
         heading: "At the market: Was kostet das?",
         body: [
           "Prices: 3,50 € is said \"drei Euro fünfzig\" (the cents come after Euro with no and). 0,99 € is \"neunundneunzig Cent\". \"Euro\" doesn't take a plural after a number: \"zwanzig Euro\".",
-          "Asking: \"Was kostet das?\" / \"Wie viel kostet das?\" for one thing; \"Was kosten die Äpfel?\" for plurals (the verb follows the noun). The seller adds up: \"Das macht zwölf Euro.\" (That comes to twelve euros.) \"Zusammen\" = altogether.",
+          "Asking: \"Was kostet das?\" / \"Wie viel kostet das?\" for one thing; \"Was kosten die Äpfel?\" for plurals (the verb agrees with the plural noun). The seller adds up: \"Das macht zwölf Euro.\" (That comes to twelve euros.) \"Zusammen\" = altogether.",
         ],
         examples: [
           { es: "Was kostet der Käse?", en: "How much is the cheese?" },
@@ -1369,7 +1368,8 @@ export const DE_A1_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "What's your address? (polite)",
         answer: "Wie ist Ihre Adresse?",
-        explanation: "\"Wie ist...?\", not *\"Was ist...?\". \"Die Adresse\" → \"Ihre\".",
+        altAnswers: ["Was ist Ihre Adresse?"],
+        explanation: "\"Wie ist...?\" is the standard way to ask (\"Was ist...?\" is heard but less natural). \"Die Adresse\" is feminine → \"Ihre\".",
       },
       {
         type: "translate",
@@ -1400,7 +1400,7 @@ export const DE_A1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "On the phone, someone reads out 'null eins sieben zwo'. What's the number?",
+        question: "On the phone, someone reads out \"null eins sieben zwo\". What's the number?",
         options: ["0172", "0173", "0127", "1072"],
         correctIndex: 0,
         explanation: "\"Zwo\" is a clear way of saying 2 on the phone.",
@@ -1456,7 +1456,7 @@ export const DE_A1_U06: Lesson[] = [
     slug: "a1-telling-time-1",
     level: "DE-A1",
     number: 9,
-    title: "Telling Time: Wie Spät Ist Es?, Part 1 of 2",
+    title: "Telling Time: Wie spät ist es?, Part 1 of 2",
     summary: "Ask and tell the time in everyday German, including halb, Viertel and the times around half past.",
     duration: "14 min",
     sections: [
@@ -1465,7 +1465,7 @@ export const DE_A1_U06: Lesson[] = [
         body: [
           "To ask the time: \"Wie spät ist es?\" (literally how late is it?) or \"Wie viel Uhr ist es?\". The answer starts with \"Es ist\": \"Es ist drei (Uhr).\" \"Uhr\" is optional for the full hour, just like o'clock.",
           "Minutes after the hour use \"nach\" (past), before the hour \"vor\" (to): \"zehn nach drei\" (3:10), \"zwanzig vor vier\" (3:40). Quarter is \"Viertel\": \"Viertel nach drei\" (3:15), \"Viertel vor vier\" (3:45).",
-          "One o'clock: \"Es ist eins\" or \"Es ist ein Uhr\" (not *eins Uhr).",
+          "One o'clock: \"Es ist eins\" or \"Es ist ein Uhr\" (not \"*eins Uhr\").",
         ],
         examples: [
           { es: "Wie spät ist es?", en: "What time is it?" },
@@ -1512,7 +1512,7 @@ export const DE_A1_U06: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "A German friend says: 'Die Party beginnt um halb sieben.' When does the party start?",
+            question: "A German friend says: \"Die Party beginnt um halb sieben.\" When does the party start?",
             options: ["6:30", "7:30", "7:00", "6:00"],
             correctIndex: 0,
             explanation: "\"Halb sieben\" = half way to seven: 6:30.",
@@ -1520,10 +1520,10 @@ export const DE_A1_U06: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using halb.",
+            prompt: "Translate into German, using \"halb\".",
             source: "It's half past seven.",
             answer: "Es ist halb acht.",
-            explanation: "7:30 is half way to eight: \"halb acht\". *\"Halb sieben\" would be 6:30.",
+            explanation: "7:30 is half way to eight: \"halb acht\". \"*Halb sieben\" would be 6:30.",
           },
         ],
       },
@@ -1568,7 +1568,7 @@ export const DE_A1_U06: Lesson[] = [
         source: "What time is it?",
         answer: "Wie spät ist es?",
         altAnswers: ["Wie viel Uhr ist es?"],
-        explanation: "\"Wie spät ist es?\" or \"Wie viel Uhr ist es?\": never *\"Was ist die Zeit?\".",
+        explanation: "\"Wie spät ist es?\" or \"Wie viel Uhr ist es?\": never \"*Was ist die Zeit?\".",
       },
       {
         type: "translate",
@@ -1582,7 +1582,7 @@ export const DE_A1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using halb.",
+        prompt: "Translate into German, using \"halb\".",
         source: "It's half past ten.",
         answer: "Es ist halb elf.",
         explanation: "10:30 is half way to eleven: \"halb elf\".",
@@ -1615,7 +1615,7 @@ export const DE_A1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What time is 'halb zwölf'?",
+        question: "What time is \"halb zwölf\"?",
         options: ["11:30", "12:30", "12:00", "11:00"],
         correctIndex: 0,
         explanation: "Half way to twelve: 11:30.",
@@ -1639,7 +1639,7 @@ export const DE_A1_U06: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: At half past one we eat.",
+        prompt: "Put the words in order to say: We eat at half past one.",
         words: ["Um", "halb", "zwei", "essen", "wir."],
         translation: "We eat at half past one.",
         altOrders: [["Wir", "essen", "um", "halb", "zwei."]],
@@ -1648,8 +1648,8 @@ export const DE_A1_U06: Lesson[] = [
       {
         type: "speak",
         text: "Es ist Viertel vor acht.",
-        prompt: "Someone asks 'Wie spät ist es?' It's 7:45. Answer.",
-        tip: "Viertel starts with an f sound: FIR-tel.",
+        prompt: "Someone asks \"Wie spät ist es?\" It's 7:45. Answer.",
+        tip: "\"Viertel\" starts with an f sound: FIR-tel.",
         explanation: "7:45 = quarter to eight: \"Viertel vor acht\".",
       },
     ],
@@ -1658,7 +1658,7 @@ export const DE_A1_U06: Lesson[] = [
     slug: "a1-telling-time-2",
     level: "DE-A1",
     number: 10,
-    title: "Telling Time: Wie Spät Ist Es?, Part 2 of 2",
+    title: "Telling Time: Wie spät ist es?, Part 2 of 2",
     summary: "Read the 24-hour clock, say the parts of the day, give opening hours and tell Uhr from Stunde.",
     duration: "13 min",
     sections: [
@@ -1666,7 +1666,7 @@ export const DE_A1_U06: Lesson[] = [
         heading: "The 24-hour clock",
         body: [
           "Timetables, appointments, TV listings and announcements use the 24-hour clock, and Germans use it in speech too. Say the hour, then \"Uhr\", then the minutes: 18:30 = \"achtzehn Uhr dreißig\", 7:05 = \"sieben Uhr fünf\", 20:15 = \"zwanzig Uhr fünfzehn\".",
-          "No halb, Viertel, nach or vor here: the official form is always hour + Uhr + minutes. That makes it easier than the everyday clock, and it's never ambiguous.",
+          "No \"halb\", \"Viertel\", \"nach\" or \"vor\" here: the official form is always hour + Uhr + minutes. That makes it easier than the everyday clock, and it's never ambiguous.",
           "Opening hours use \"von ... bis\": \"Die Bank ist von 9 bis 17 Uhr geöffnet.\" (open from 9 to 5).",
         ],
         examples: [
@@ -1721,7 +1721,7 @@ export const DE_A1_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does 'um sieben Uhr morgens' mean?",
+            question: "What does \"um sieben Uhr morgens\" mean?",
             options: ["At 7 am", "At 7 pm", "Tomorrow at seven", "For seven hours"],
             correctIndex: 0,
             explanation: "\"Morgens\" = in the morning. Tomorrow would be \"morgen\" without the s.",
@@ -1731,7 +1731,7 @@ export const DE_A1_U06: Lesson[] = [
       {
         heading: "Uhr or Stunde?",
         body: [
-          "\"Die Uhr\" is the clock (or watch) and o'clock; \"die Stunde\" is an hour, a length of time. \"Es ist drei Uhr\" (it's three o'clock) but \"Der Film dauert zwei Stunden\" (the film lasts two hours). *\"Zwei Uhren\" means two clocks!",
+          "\"Die Uhr\" is the clock (or watch) and o'clock; \"die Stunde\" is an hour, a length of time. \"Es ist drei Uhr\" (it's three o'clock) but \"Der Film dauert zwei Stunden\" (the film lasts two hours). \"*Zwei Uhren\" means two clocks!",
           "Duration questions use \"Wie lange?\" or \"Wie viele Stunden?\": \"Wie lange dauert die Fahrt? — Drei Stunden.\" Half an hour is \"eine halbe Stunde\", an hour and a half \"anderthalb Stunden\".",
         ],
         examples: [
@@ -1815,7 +1815,7 @@ export const DE_A1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The announcement says 'zweiundzwanzig Uhr fünfzehn'. In everyday German that's...",
+        question: "The announcement says \"zweiundzwanzig Uhr fünfzehn\". In everyday German that's...",
         options: ["Viertel nach zehn (abends)", "Viertel vor zehn", "halb elf", "zwei Uhr fünfzehn"],
         correctIndex: 0,
         explanation: "22:15 = 10:15 pm = \"Viertel nach zehn\" in the evening.",
@@ -1849,7 +1849,7 @@ export const DE_A1_U06: Lesson[] = [
         type: "speak",
         text: "Mein Termin ist um vierzehn Uhr dreißig.",
         prompt: "Tell the receptionist your appointment is at 14:30.",
-        tip: "Vierzehn: the v is an f, and the z is ts.",
+        tip: "\"Vierzehn\": the v is an f, and the z is ts.",
         explanation: "24-hour time: \"vierzehn Uhr dreißig\".",
       },
     ],
@@ -1866,7 +1866,7 @@ export const DE_A1_U06: Lesson[] = [
         heading: "Halb drei, drei Uhr dreißig, Viertel nach drei",
         body: [
           "Three times that look similar and aren't: \"halb drei\" = 2:30 (half way to three); \"drei Uhr dreißig\" = 3:30 (official, the hour you hear is the hour it is); \"Viertel nach drei\" = 3:15.",
-          "So the same moment can be said two ways: 2:30 is \"halb drei\" in everyday speech and \"zwei Uhr dreißig\" (or \"vierzehn Uhr dreißig\") in the official style. If you mix the systems, you're an hour out: *\"halb zwei\" for 2:30 means 1:30!",
+          "So the same moment can be said two ways: 2:30 is \"halb drei\" in everyday speech and \"zwei Uhr dreißig\" (or \"vierzehn Uhr dreißig\") in the official style. If you mix the systems, you're an hour out: \"*halb zwei\" for 2:30 means 1:30!",
         ],
         examples: [
           { es: "halb drei", en: "2:30" },
@@ -1886,10 +1886,10 @@ export const DE_A1_U06: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, the everyday way with halb.",
+            prompt: "Translate into German, the everyday way with \"halb\".",
             source: "It's half past two.",
             answer: "Es ist halb drei.",
-            explanation: "2:30 = \"halb drei\". *\"Halb zwei\" would be 1:30.",
+            explanation: "2:30 = \"halb drei\". \"*Halb zwei\" would be 1:30.",
           },
         ],
       },
@@ -1933,7 +1933,7 @@ export const DE_A1_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "The film lasts two hours.",
         answer: "Der Film dauert zwei Stunden.",
-        explanation: "Duration → \"Stunden\", never *\"Uhren\".",
+        explanation: "Duration → \"Stunden\", never \"*Uhren\".",
       },
       {
         type: "translate",
@@ -1947,7 +1947,7 @@ export const DE_A1_U06: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using halb.",
+        prompt: "Translate into German, using \"halb\".",
         source: "The train leaves at half past eleven.",
         answer: "Der Zug fährt um halb zwölf.",
         altAnswers: ["Um halb zwölf fährt der Zug.", "Der Zug fährt um halb zwölf ab."],
@@ -1981,14 +1981,14 @@ export const DE_A1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The class is from 'halb neun' to 'halb elf'. How long is it?",
+        question: "The class is from \"halb neun\" to \"halb elf\". How long is it?",
         options: ["Two hours", "Two and a half hours", "One and a half hours", "Three hours"],
         correctIndex: 0,
         explanation: "8:30 to 10:30 = \"zwei Stunden\".",
       },
       {
         type: "multiple-choice",
-        question: "A colleague says 'Das Meeting ist um vierzehn Uhr dreißig.' Which everyday time is that?",
+        question: "A colleague says \"Das Meeting ist um vierzehn Uhr dreißig.\" Which everyday time is that?",
         options: ["halb drei", "halb vierzehn", "halb zwei", "drei Uhr dreißig"],
         correctIndex: 0,
         explanation: "14:30 = 2:30 pm = \"halb drei\".",
@@ -2009,7 +2009,7 @@ export const DE_A1_U06: Lesson[] = [
         type: "speak",
         text: "Wie lange dauert das?",
         prompt: "Ask how long it takes.",
-        tip: "Lange has two syllables: LAN-ge, with the ng as in singer.",
+        tip: "\"Lange\" has two syllables: LAN-ge, with the ng as in singer.",
         explanation: "\"Wie lange\" + \"dauern\" asks for a duration.",
       },
     ],
@@ -2058,7 +2058,7 @@ export const DE_A1_U06: Lesson[] = [
       {
         heading: "Ein Kilo Äpfel: no 'of'",
         body: [
-          "Quantities and containers go straight before the food, with no of: \"ein Kilo Äpfel\", \"eine Flasche Wasser\", \"200 Gramm Käse\", \"ein Stück Kuchen\", \"eine Tasse Tee\", \"ein Glas Wein\", \"eine Packung Reis\". *\"Ein Kilo von Äpfeln\" is a typical English-speaker mistake.",
+          "Quantities and containers go straight before the food, with no of: \"ein Kilo Äpfel\", \"eine Flasche Wasser\", \"200 Gramm Käse\", \"ein Stück Kuchen\", \"eine Tasse Tee\", \"ein Glas Wein\", \"eine Packung Reis\". \"*Ein Kilo von Äpfeln\" is a typical English-speaker mistake.",
           "Measurements stay singular after a number: \"zwei Kilo\", \"500 Gramm\", \"zwei Stück Kuchen\" (but feminine containers go plural: \"zwei Flaschen\", \"zwei Tassen\").",
         ],
         examples: [
@@ -2127,7 +2127,7 @@ export const DE_A1_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm buying a kilo of apples.",
         answer: "Ich kaufe ein Kilo Äpfel.",
-        explanation: "No of: *\"ein Kilo von Äpfeln\" is wrong.",
+        explanation: "No of: \"*ein Kilo von Äpfeln\" is wrong.",
       },
       {
         type: "translate",
@@ -2152,7 +2152,7 @@ export const DE_A1_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "We haven't got any bread.",
         answer: "Wir haben kein Brot.",
-                explanation: "Not any = \"kein\"; \"das Brot\" → \"kein\".",
+        explanation: "Not any = \"kein\"; \"das Brot\" is neuter → \"kein\", no ending.",
       },
       {
         type: "translate",
@@ -2189,7 +2189,7 @@ export const DE_A1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In a café you say 'Ein Kaffee, bitte.' What are you asking for?",
+        question: "In a café you say \"Ein Kaffee, bitte.\" What are you asking for?",
         options: ["One cup of coffee", "Some coffee beans", "Coffee in general", "A coffee shop"],
         correctIndex: 0,
         explanation: "\"Ein\" + a drink means one portion: a cup or glass.",
@@ -2330,8 +2330,7 @@ export const DE_A1_U06: Lesson[] = [
         prompt: "Translate into German.",
         source: "We need two kilos of potatoes and a litre of milk.",
         answer: "Wir brauchen zwei Kilo Kartoffeln und einen Liter Milch.",
-        altAnswers: ["Wir brauchen zwei Kilo Kartoffeln und ein Liter Milch."],
-        explanation: "No of; \"der Liter\" is a masculine object → \"einen Liter\".",
+        explanation: "No of; \"der Liter\" is a masculine object → \"einen Liter\" (\"*ein Liter\" is only right as a subject or in a list).",
       },
       {
         type: "fill-blank",
@@ -2352,14 +2351,14 @@ export const DE_A1_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The family leaves for Grandma's at 'Viertel vor drei'. What time is that?",
+        question: "The family leaves for Grandma's at \"Viertel vor drei\". What time is that?",
         options: ["2:45", "3:15", "3:45", "2:15"],
         correctIndex: 0,
         explanation: "\"Viertel vor drei\" = quarter to three.",
       },
       {
         type: "multiple-choice",
-        question: "Mia asks: 'Hast du keine Milch?' Petra did buy milk. What does she say?",
+        question: "Mia asks: \"Hast du keine Milch?\" Petra did buy milk. What does she say?",
         options: ["Doch, einen Liter.", "Ja, einen Liter.", "Nein, einen Liter.", "Doch, ein Liter von Milch."],
         correctIndex: 0,
         explanation: "\"Doch\" contradicts the negative question; no of in quantities.",

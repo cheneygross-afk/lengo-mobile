@@ -23,7 +23,7 @@ export const DE_C1_U15: Lesson[] = [
     level: "DE-C1",
     number: 1,
     title: "Regional Vocabulary, Part 1 of 7",
-    summary: "Bread and the bakery across the German-speaking world: Brötchen, Semmel, Schrippe, Rundstück, Weckle and Weggli; Berliner, Pfannkuchen and Krapfen; Sahne, Rahm and Obers.",
+    summary: "Order bread, pastries and dairy anywhere in the German-speaking world: the regional words for a roll (\"Semmel\", \"Schrippe\", \"Rundstück\", \"Weggli\"), the \"Pfannkuchen\" trap, and \"Sahne\" vs \"Rahm\" vs \"Obers\".",
     duration: "17 min",
     sections: [
       {
@@ -70,10 +70,10 @@ export const DE_C1_U15: Lesson[] = [
         body: [
           "A jam-filled doughnut is \"der Berliner\" in most of Germany, but in Berlin itself and much of eastern Germany it is \"der Pfannkuchen\". In Bavaria and Austria it is \"der Krapfen\", in Hesse \"der Kreppel\".",
           "That creates the most famous regional false friend: in most of Germany \"Pfannkuchen\" means pancake. In Berlin, the pancake is \"der Eierkuchen\", which is also the word in Saxony. In Austria the thin pancake is \"die Palatschinke\" (usually plural, \"Palatschinken\"), and in Switzerland \"die Omelette\".",
-          "If you order a Pfannkuchen in Berlin, you get a doughnut. If you ask for a Berliner in Berlin, people will understand, but might joke that you're not from there.",
+          "If you order a \"Pfannkuchen\" in Berlin, you get a doughnut. If you ask for a \"Berliner\" in Berlin, people will understand, but might joke that you're not from there.",
         ],
         examples: [
-          { es: "In Berlin heißt der Berliner Pfannkuchen.", en: "In Berlin, the jam doughnut is called a Pfannkuchen." },
+          { es: "In Berlin heißt der Berliner Pfannkuchen.", en: "In Berlin, the jam doughnut is called a \"Pfannkuchen\"." },
           { es: "Zu Fasching essen wir Krapfen.", en: "At carnival we eat doughnuts. (south, Austria)" },
           { es: "Zum Mittag gibt es Pfannkuchen mit Apfelmus.", en: "There are pancakes with apple sauce for lunch. (most of Germany)" },
           { es: "In Wien bestellt man Palatschinken mit Marillenmarmelade.", en: "In Vienna you order pancakes with apricot jam." },
@@ -91,7 +91,7 @@ export const DE_C1_U15: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "You're in a Berlin bakery and ask for einen Pfannkuchen. What do you get?",
+            question: "You're in a Berlin bakery and ask for \"einen Pfannkuchen\". What do you get?",
             options: ["A jam-filled doughnut", "A pancake", "A bread roll", "A pretzel"],
             correctIndex: 0,
             explanation: "In Berlin \"Pfannkuchen\" is the jam doughnut; the pancake is \"Eierkuchen\".",
@@ -101,7 +101,7 @@ export const DE_C1_U15: Lesson[] = [
       {
         heading: "Cream, potatoes, tomatoes, quark",
         body: [
-          "Dairy and vegetables split north and south. Cream: \"die Sahne\" (Germany), \"der Rahm\" (south Germany, Switzerland), \"das Obers\" or \"der Schlagobers\" (Austria; whipped cream is \"Schlag\" in Vienna). Sour cream: \"saure Sahne\" or \"Schmand\" (north), \"Sauerrahm\" (south, Austria).",
+          "Dairy and vegetables split north and south. Cream: \"die Sahne\" (Germany), \"der Rahm\" (south Germany, Switzerland), \"das Obers\" (Austria; whipped cream is \"das Schlagobers\", in Vienna often just \"der Schlag\"). Sour cream: \"saure Sahne\" or \"Schmand\" (north), \"Sauerrahm\" (south, Austria).",
           "Potatoes: \"die Kartoffel\" everywhere, but \"der Erdapfel\" (plural \"Erdäpfel\") in Austria. Tomatoes: \"die Tomate\", but \"der Paradeiser\" in eastern Austria and Vienna. Quark: \"der Quark\" in Germany, \"der Topfen\" in Austria and Bavaria (\"Topfenstrudel\").",
           "Austrian Standard German uses these words in supermarkets, recipes and on menus; they are not dialect. A Viennese supermarket label says \"Paradeiser\", not \"Tomaten\".",
         ],
@@ -121,7 +121,7 @@ export const DE_C1_U15: Lesson[] = [
             source: "A coffee with whipped cream, please.",
             answer: "Einen Kaffee mit Schlagobers, bitte.",
             altAnswers: ["Einen Kaffee mit Schlag, bitte.", "Einen Kaffee mit Obers, bitte.", "Einen Kaffee mit Schlagobers bitte.", "Ich hätte gern einen Kaffee mit Schlagobers."],
-            explanation: "Austrian \"Schlagobers\" (in Vienna often just \"Schlag\") = Schlagsahne.",
+            explanation: "Austrian \"Schlagobers\" (in Vienna often just \"Schlag\") = \"Schlagsahne\".",
           },
           {
             type: "listen-choose",
@@ -129,7 +129,7 @@ export const DE_C1_U15: Lesson[] = [
             question: "What's for lunch?",
             options: ["Potato salad with sausages", "Apple salad with sausages", "Green salad with ham", "Earth apples with cheese"],
             correctIndex: 0,
-            explanation: "\"Erdäpfel\" = Kartoffeln; \"Würstel\" is the Austrian word for small sausages.",
+            explanation: "\"Erdäpfel\" = \"Kartoffeln\"; \"Würstel\" is the Austrian word for small sausages.",
           },
         ],
       },
@@ -164,7 +164,7 @@ export const DE_C1_U15: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German Standard German (Cologne).",
+        prompt: "Translate as said in Cologne.",
         source: "We're having pancakes with apple sauce.",
         answer: "Es gibt Pfannkuchen mit Apfelmus.",
         altAnswers: ["Wir essen Pfannkuchen mit Apfelmus.", "Bei uns gibt es Pfannkuchen mit Apfelmus.", "Heute gibt es Pfannkuchen mit Apfelmus."],
@@ -181,17 +181,17 @@ export const DE_C1_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A Swiss recipe says: 2 dl Rahm. What do you need?",
+        question: "A Swiss recipe says: \"2 dl Rahm\". What do you need?",
         options: ["Cream", "Rum", "Butter", "Frame"],
         correctIndex: 0,
-        explanation: "\"Der Rahm\" = Sahne (south Germany and Switzerland). \"dl\" = Deziliter, common in Swiss recipes.",
+        explanation: "\"Der Rahm\" = \"Sahne\" (south Germany and Switzerland). \"dl\" = \"Deziliter\", common in Swiss recipes.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: I'm baking a quark strudel. (Austria)",
         words: ["Ich", "backe", "einen", "Topfenstrudel."],
         translation: "I'm baking a quark strudel.",
-        explanation: "Austrian \"Topfen\" = Quark.",
+        explanation: "Austrian \"Topfen\" = \"Quark\".",
       },
       {
         type: "translate",
@@ -209,7 +209,7 @@ export const DE_C1_U15: Lesson[] = [
         source: "A croissant and a coffee, please.",
         answer: "Ein Gipfeli und einen Kaffee, bitte.",
         altAnswers: ["Ein Gipfeli und ein Kaffee, bitte.", "Ein Gipfeli und einen Kaffee bitte.", "Ein Gipfeli und ein Kafi, bitte."],
-        explanation: "Swiss \"das Gipfeli\" = Croissant.",
+        explanation: "Swiss \"das Gipfeli\" = \"Croissant\".",
       },
       {
         type: "listen-choose",
@@ -237,7 +237,7 @@ export const DE_C1_U15: Lesson[] = [
     level: "DE-C1",
     number: 2,
     title: "Regional Vocabulary, Part 2 of 7",
-    summary: "Time and the calendar: Jänner and Feber, heuer, Samstag and Sonnabend, viertel acht and dreiviertel acht, Karneval, Fasching and Fasnacht, an Ostern vs zu Ostern, Swiss Ferien.",
+    summary: "Understand regional dates and times: \"Jänner\" and \"heuer\", \"Sonnabend\", \"viertel acht\" and \"dreiviertel acht\", the names for carnival, \"an Ostern\" vs \"zu Ostern\", and Swiss \"Ferien\".",
     duration: "17 min",
     sections: [
       {
@@ -245,7 +245,7 @@ export const DE_C1_U15: Lesson[] = [
         body: [
           "Austria uses \"Jänner\" for January in all registers, from the weather forecast to tax documents; \"Feber\" for February is also official but less common than \"Februar\". \"Heuer\" (this year) is standard in Austria, Bavaria and Switzerland; the adjective is \"heurig\" (\"die heurige Ernte\", this year's harvest), and \"der Heurige\" is the new wine and the wine tavern serving it around Vienna.",
           "Saturday is \"Samstag\" in the south and west and \"Sonnabend\" in the north and east, though \"Samstag\" is spreading everywhere. Some calendars and northern shops still say \"Sonnabend\".",
-          "\"Am Morgen\" / \"morgens\" in the north becomes \"in der Früh\" in the south: \"Ich steh in der Früh um sechs auf\".",
+          "Where standard German says \"am Morgen\" or \"morgens\" (used everywhere), the south and Austria also say \"in der Früh\": \"Ich steh in der Früh um sechs auf\".",
         ],
         examples: [
           { es: "Im Jänner ist es in Wien oft neblig.", en: "In January it's often foggy in Vienna." },
@@ -266,7 +266,7 @@ export const DE_C1_U15: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A shop in Rostock has a sign: Sonnabend 9–14 Uhr. When is it open?",
+            question: "A shop in Rostock has a sign: \"Sonnabend 9–14 Uhr\". When is it open?",
             options: ["Saturday 9 to 2", "Sunday 9 to 2", "Every evening 9 to 2", "Friday 9 to 2"],
             correctIndex: 0,
             explanation: "\"Sonnabend\" is the northern and eastern word for Saturday.",
@@ -294,6 +294,7 @@ export const DE_C1_U15: Lesson[] = [
             en: "We're meeting at [a quarter to nine].",
             sentence: "Wir treffen uns um ___.",
             answer: "dreiviertel neun",
+            altAnswers: ["drei viertel neun"],
             explanation: "\"Dreiviertel neun\" = three quarters of the way to nine: 8.45.",
           },
           {
@@ -309,7 +310,7 @@ export const DE_C1_U15: Lesson[] = [
       {
         heading: "Carnival, Easter and holidays",
         body: [
-          "Carnival has three main names: \"Karneval\" (Rhineland: Köln, Düsseldorf, Mainz), \"Fasching\" (Bavaria, Austria, eastern Germany), \"Fastnacht\" / \"Fasnacht\" / \"Fasnet\" (Swabia, Baden, Switzerland, with the famous Basler Fasnacht). The customs differ too: Cologne shouts \"Alaaf\", Mainz and Düsseldorf \"Helau\".",
+          "Carnival has three main names: \"Karneval\" (Rhineland: Köln, Düsseldorf), \"Fasching\" (Bavaria, Austria, eastern Germany), \"Fastnacht\" (Mainz, Hesse) / \"Fasnacht\" / \"Fasnet\" (Swabia, Baden, Switzerland, with the famous \"Basler Fasnacht\"). The customs differ too: Cologne shouts \"Alaaf\", Mainz and Düsseldorf \"Helau\".",
           "Easter, Christmas and Pentecost take different prepositions: \"zu Ostern\" / \"zu Weihnachten\" in the north and in standard writing, \"an Ostern\" / \"an Weihnachten\" in the south, Austria and Switzerland. Both are correct.",
           "In Switzerland \"die Ferien\" covers both school holidays and an employee's annual leave: \"Ich bin nächste Woche in den Ferien\". In Germany an employee is \"im Urlaub\"; \"Ferien\" are school or university holidays. Austrians use \"Urlaub\" like Germans.",
         ],
@@ -382,7 +383,7 @@ export const DE_C1_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A colleague in Dresden says: Wir treffen uns um dreiviertel drei. When should you be there?",
+        question: "A colleague in Dresden says: \"Wir treffen uns um dreiviertel drei.\" When should you be there?",
         options: ["2.45", "3.45", "3.15", "2.15"],
         correctIndex: 0,
         explanation: "\"Dreiviertel drei\" = three quarters of the way to three: 2.45.",
@@ -420,12 +421,12 @@ export const DE_C1_U15: Lesson[] = [
         source: "I get up at six in the morning.",
         answer: "Ich stehe in der Früh um sechs auf.",
         altAnswers: ["In der Früh stehe ich um sechs auf.", "Ich steh in der Früh um sechs auf.", "Ich stehe um sechs in der Früh auf."],
-        explanation: "Southern \"in der Früh\" = morgens.",
+        explanation: "Southern \"in der Früh\" = \"morgens\".",
       },
       {
         type: "listen-choose",
         audio: "Was macht ihr an Weihnachten?",
-        question: "What does the preposition an tell you?",
+        question: "What does the preposition \"an\" tell you?",
         options: ["The speaker is probably from the south, Austria or Switzerland.", "The speaker is talking about Christmas Eve only.", "The speaker made a grammar mistake.", "The speaker is from Hamburg."],
         correctIndex: 0,
         explanation: "\"An Weihnachten\" is southern; \"zu Weihnachten\" is northern and standard written. Both are correct.",
@@ -438,7 +439,7 @@ export const DE_C1_U15: Lesson[] = [
       {
         type: "speak",
         text: "Meinst du sieben Uhr fünfzehn oder sieben Uhr fünfundvierzig?",
-        prompt: "Someone said viertel acht and you're not sure. Ask if they mean 7.15 or 7.45.",
+        prompt: "Someone said \"viertel acht\" and you're not sure. Ask if they mean 7.15 or 7.45.",
         explanation: "The digital form avoids the viertel / dreiviertel confusion.",
       },
     ],
@@ -448,7 +449,7 @@ export const DE_C1_U15: Lesson[] = [
     level: "DE-C1",
     number: 3,
     title: "Word Web: Everyday Objects in Three Countries",
-    summary: "Fahrrad / Velo, Handy / Natel, Tüte / Sackerl / Säckli, Mülleimer / Mistkübel, Schrank / Kasten, Treppe / Stiege, Dachboden / Estrich, Bürgersteig / Gehsteig / Trottoir, Schreiner / Tischler.",
+    summary: "Name everyday objects the German, Austrian and Swiss way (\"Velo\", \"Sackerl\", \"Mistkübel\", \"Kasten\", \"Stiege\", \"Estrich\", \"Trottoir\") and avoid the pairs that cause real misunderstandings.",
     duration: "16 min",
     sections: [
       {
@@ -474,7 +475,7 @@ export const DE_C1_U15: Lesson[] = [
             source: "Please take the rubbish bin down.",
             answer: "Bring bitte den Mistkübel hinunter.",
             altAnswers: ["Bitte bring den Mistkübel hinunter.", "Bring bitte den Mistkübel runter.", "Bringen Sie bitte den Mistkübel hinunter.", "Bitte bringt den Mistkübel hinunter.", "Trag bitte den Mistkübel hinunter."],
-            explanation: "Austrian \"der Mistkübel\" = Mülleimer.",
+            explanation: "Austrian \"der Mistkübel\" = \"Mülleimer\".",
           },
           {
             type: "matching",
@@ -546,7 +547,7 @@ export const DE_C1_U15: Lesson[] = [
             source: "The new wardrobe doesn't fit in the bedroom.",
             answer: "Der neue Kasten passt nicht ins Schlafzimmer.",
             altAnswers: ["Der neue Kleiderkasten passt nicht ins Schlafzimmer.", "Der neue Kasten passt nicht in das Schlafzimmer."],
-            explanation: "Austrian \"der Kasten\" = Schrank.",
+            explanation: "Austrian \"der Kasten\" = \"Schrank\".",
           },
           {
             type: "listen-choose",
@@ -567,7 +568,7 @@ export const DE_C1_U15: Lesson[] = [
         source: "The Christmas decorations are in the attic.",
         answer: "Die Weihnachtsdekoration ist auf dem Estrich.",
         altAnswers: ["Die Weihnachtsdeko ist auf dem Estrich.", "Die Weihnachtsdekoration ist im Estrich.", "Die Weihnachtsdeko ist im Estrich.", "Der Weihnachtsschmuck ist auf dem Estrich."],
-        explanation: "Swiss \"der Estrich\" = Dachboden.",
+        explanation: "Swiss \"der Estrich\" = \"Dachboden\".",
       },
       {
         type: "translate",
@@ -584,7 +585,7 @@ export const DE_C1_U15: Lesson[] = [
         en: "Careful, the [stairs] are slippery!",
         sentence: "Vorsicht, die ___ ist rutschig!",
         answer: "Stiege",
-        explanation: "Austrian \"die Stiege\" = Treppe.",
+        explanation: "Austrian \"die Stiege\" = \"Treppe\".",
       },
       {
         type: "translate",
@@ -597,10 +598,10 @@ export const DE_C1_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "An Austrian flatmate says: Der Mist muss raus. What should you do?",
+        question: "An Austrian flatmate says: \"Der Mist muss raus.\" What should you do?",
         options: ["Take the rubbish out", "Clean up the mess", "Fix a mistake", "Open the window"],
         correctIndex: 0,
-        explanation: "Austrian \"der Mist\" = Müll, rubbish.",
+        explanation: "Austrian \"der Mist\" = \"Müll\", rubbish.",
       },
       {
         type: "word-order",
@@ -661,7 +662,7 @@ export const DE_C1_U15: Lesson[] = [
         heading: "Berlin: Späti and supermarket",
         body: [
           "A \"Späti\" (from Spätkauf, late-night shop) is a Berlin institution: a small corner shop open until late, selling drinks, snacks, cigarettes and newspapers, often with a bench outside. The language is quick and casual: \"N'Abend! Zwei Club-Mate und 'ne Packung Chips.\" – \"Sonst noch was?\" – \"Nee, das war's.\" – \"Macht sieben achtzig.\"",
-          "In the supermarket you'll need: \"die Kasse\" (till), \"der Pfand\" or \"das Pfand\" (bottle deposit; return bottles at the \"Pfandautomat\"), \"der Einkaufswagen\" (trolley), \"Haben Sie eine Payback-Karte?\", \"Bar oder mit Karte?\".",
+          "In the supermarket you'll need: \"die Kasse\" (till), \"das Pfand\" (colloquially often \"der Pfand\"; bottle deposit; return bottles at the \"Pfandautomat\"), \"der Einkaufswagen\" (trolley), \"Haben Sie eine Payback-Karte?\", \"Bar oder mit Karte?\".",
           "Berlin bakery words from Part 1: \"Schrippe\" (roll), \"Pfannkuchen\" (doughnut), \"Stulle\" (sandwich).",
         ],
         examples: [
@@ -721,7 +722,7 @@ export const DE_C1_U15: Lesson[] = [
             en: "Do you have [apricots] too?",
             sentence: "Haben Sie auch ___?",
             answer: "Marillen",
-            explanation: "Austrian \"die Marille\" = Aprikose.",
+            explanation: "Austrian \"die Marille\" = \"Aprikose\".",
           },
         ],
       },
@@ -754,7 +755,7 @@ export const DE_C1_U15: Lesson[] = [
             question: "A Swiss recipe asks for zwei rote Peperoni. What do you buy?",
             options: ["Two red peppers", "Two red chillies", "Two pepperoni sausages", "Two red onions"],
             correctIndex: 0,
-            explanation: "Swiss \"Peperoni\" = Paprika (bell peppers); in Germany \"Peperoni\" are hot chillies.",
+            explanation: "Swiss \"Peperoni\" = \"Paprika\" (bell peppers); in Germany \"Peperoni\" are hot chillies.",
           },
         ],
       },
@@ -767,7 +768,7 @@ export const DE_C1_U15: Lesson[] = [
         source: "Evening! Two bottles of water, please.",
         answer: "Abend! Zwei Flaschen Wasser, bitte.",
         altAnswers: ["N'Abend! Zwei Flaschen Wasser, bitte.", "'n Abend! Zwei Flaschen Wasser, bitte.", "Guten Abend! Zwei Flaschen Wasser, bitte.", "Nabend! Zwei Flaschen Wasser, bitte."],
-        explanation: "\"(Guten) Abend\", often shortened to N'Abend in Berlin.",
+        explanation: "\"(Guten) Abend\", often shortened to \"'n Abend\" in Berlin.",
       },
       {
         type: "translate",
@@ -784,7 +785,7 @@ export const DE_C1_U15: Lesson[] = [
         en: "Half a [cauliflower], please.",
         sentence: "Einen halben ___, bitte.",
         answer: "Karfiol",
-        explanation: "Austrian \"der Karfiol\" = Blumenkohl.",
+        explanation: "Austrian \"der Karfiol\" = \"Blumenkohl\".",
       },
       {
         type: "translate",
@@ -797,7 +798,7 @@ export const DE_C1_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "At the Naschmarkt the stallholder asks: Darf's ein bisserl mehr sein? What is she asking?",
+        question: "At the Naschmarkt the stallholder asks: \"Darf's ein bisserl mehr sein?\" What is she asking?",
         options: ["If it's OK if the amount is slightly more", "If you want to pay more", "If you'd like to try a bit", "If you need a bigger bag"],
         correctIndex: 0,
         explanation: "\"Darf's ein bisserl mehr sein?\": the weight is slightly over, is that OK?",
@@ -854,7 +855,7 @@ export const DE_C1_U15: Lesson[] = [
     level: "DE-C1",
     number: 5,
     title: "Regional Vocabulary, Part 3 of 7",
-    summary: "Austrian everyday words: Marille, Karfiol, Fisolen, Kren, Faschiertes, Schlagobers, Jause, Spital, Matura, Trafik, Bim, Beisl, Krügerl, Pickerl, leiwand, Gspusi, Schmäh, and their German equivalents.",
+    summary: "Shop, eat and get by in Austria with the standard Austrian words for food, school, health and town (\"Marille\", \"Kren\", \"Jause\", \"Spital\", \"Matura\", \"Trafik\"), and recognise colloquial Viennese (\"leiwand\", \"Schmäh\").",
     duration: "18 min",
     sections: [
       {
@@ -880,7 +881,7 @@ export const DE_C1_U15: Lesson[] = [
             source: "Half a kilo of mince, please.",
             answer: "Ein halbes Kilo Faschiertes, bitte.",
             altAnswers: ["Ein halbes Kilo Faschiertes bitte.", "Bitte ein halbes Kilo Faschiertes.", "Ich hätte gern ein halbes Kilo Faschiertes."],
-            explanation: "Austrian \"das Faschierte\" = Hackfleisch; as a neuter adjectival noun after \"Kilo\": \"Faschiertes\".",
+            explanation: "Austrian \"das Faschierte\" = \"Hackfleisch\"; as a neuter adjectival noun after \"Kilo\": \"Faschiertes\".",
           },
           {
             type: "matching",
@@ -900,7 +901,7 @@ export const DE_C1_U15: Lesson[] = [
         heading: "Town, school and health",
         body: [
           "Everyday institutions: \"das Spital\" (Krankenhaus, also \"das Krankenhaus\" in Austria), \"die Matura\" (Abitur; \"maturieren\" = to pass it), \"die Trafik\" (tobacconist's selling cigarettes, newspapers, tickets and vignettes), \"der Trafikant\" (who runs it), \"die Bim\" (Viennese tram), \"das Beisl\" (traditional pub-restaurant), \"der Heurige\" (wine tavern).",
-          "Drinks: \"das Krügerl\" (half-litre beer), \"das Seidl\" (0.3 litre), \"der G'spritzte\" (wine spritzer), \"der Almdudler\" (herbal lemonade). Officialdom: \"das Pickerl\" (also the annual car inspection sticker: \"Mein Auto braucht ein neues Pickerl\"), \"der Akt\" (file), \"der Erlagschein\" (payment slip).",
+          "Drinks: \"das Krügerl\" (half-litre beer), \"das Seidl\" (0.3 litre), \"der G'spritzte\" (wine spritzer), \"der Almdudler\" (herbal lemonade). Officialdom: \"das Pickerl\" (a sticker; also the motorway vignette and the annual car inspection sticker: \"Mein Auto braucht ein neues Pickerl\"), \"der Akt\" (file), \"der Erlagschein\" (payment slip).",
           "Many of these words are also used in Bavaria (\"Spital\" less so), and \"Matura\" exists in Switzerland too.",
         ],
         examples: [
@@ -918,7 +919,7 @@ export const DE_C1_U15: Lesson[] = [
             source: "After his school-leaving exams he wants to travel.",
             answer: "Nach der Matura will er reisen.",
             altAnswers: ["Nach der Matura möchte er reisen.", "Er will nach der Matura reisen.", "Er möchte nach der Matura reisen.", "Nach der Matura will er verreisen."],
-            explanation: "Austrian \"die Matura\" = Abitur.",
+            explanation: "Austrian \"die Matura\" = \"Abitur\".",
           },
           {
             type: "listen-choose",
@@ -926,7 +927,7 @@ export const DE_C1_U15: Lesson[] = [
             question: "What does it mean? (Austria)",
             options: ["My car needs its annual inspection sticker.", "My car needs a new paint job.", "My car needs new tyres.", "My car needs a new key."],
             correctIndex: 0,
-            explanation: "\"Das Pickerl\" is also the sticker showing the annual roadworthiness test (TÜV in Germany).",
+            explanation: "\"Das Pickerl\" is also the sticker showing the annual roadworthiness test (\"TÜV\" in Germany).",
           },
         ],
       },
@@ -948,7 +949,7 @@ export const DE_C1_U15: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in neutral standard German: Das Konzert war echt leiwand.",
+            prompt: "Rewrite in neutral standard German: \"Das Konzert war echt leiwand.\"",
             source: "The concert was really great.",
             answer: "Das Konzert war wirklich toll.",
             altAnswers: ["Das Konzert war echt toll.", "Das Konzert war wirklich super.", "Das Konzert war echt super.", "Das Konzert war wirklich großartig.", "Das Konzert war wirklich klasse."],
@@ -991,7 +992,7 @@ export const DE_C1_U15: Lesson[] = [
         sentence: "Tafelspitz mit Apfel___.",
         answer: "kren",
         altAnswers: ["Kren"],
-        explanation: "Austrian \"der Kren\" = Meerrettich; \"Apfelkren\" is the classic side for Tafelspitz.",
+        explanation: "Austrian \"der Kren\" = \"Meerrettich\"; \"Apfelkren\" is the classic side for Tafelspitz.",
       },
       {
         type: "translate",
@@ -1004,7 +1005,7 @@ export const DE_C1_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A colleague in Vienna says: Machen wir eine Jause? What is she suggesting?",
+        question: "A colleague in Vienna says: \"Machen wir eine Jause?\" What is she suggesting?",
         options: ["A snack break", "A long lunch at a restaurant", "A walk", "A meeting"],
         correctIndex: 0,
         explanation: "\"Die Jause\" is a snack or light meal; \"jausnen\" is the verb.",
@@ -1032,7 +1033,7 @@ export const DE_C1_U15: Lesson[] = [
         source: "A piece of cake with whipped cream, please.",
         answer: "Ein Stück Torte mit Schlagobers, bitte.",
         altAnswers: ["Ein Stück Kuchen mit Schlagobers, bitte.", "Ein Stück Torte mit Schlag, bitte.", "Ein Stück Kuchen mit Schlag, bitte.", "Ein Stück Torte mit Schlagobers bitte."],
-        explanation: "\"Schlagobers\" (or just \"Schlag\" in Vienna) = Schlagsahne.",
+        explanation: "\"Schlagobers\" (or just \"Schlag\" in Vienna) = \"Schlagsahne\".",
       },
       {
         type: "listen-choose",
@@ -1045,7 +1046,7 @@ export const DE_C1_U15: Lesson[] = [
       {
         type: "dictation",
         audio: "Ein halbes Kilo Faschiertes, bitte.",
-        explanation: "Austrian \"Faschiertes\" = Hackfleisch.",
+        explanation: "Austrian \"Faschiertes\" = \"Hackfleisch\".",
       },
       {
         type: "speak",
@@ -1060,13 +1061,13 @@ export const DE_C1_U15: Lesson[] = [
     level: "DE-C1",
     number: 6,
     title: "Regional Vocabulary, Part 4 of 7",
-    summary: "Swiss everyday words: Velo, Trottoir, Billett, Glace, Poulet, Perron, Natel, Rüebli, Znüni, Zvieri, Abwart, Pendenz, allfällig, zügeln, grillieren, parkieren, Grüezi, Exgüsi, and the -li diminutive.",
+    summary: "Get by in Switzerland with the Swiss standard words for transport, food and the office (\"Velo\", \"Billett\", \"Glace\", \"Znüni\", \"Pendenz\", \"zügeln\"), the \"-li\" diminutive and Swiss greetings like \"Grüezi\".",
     duration: "18 min",
     sections: [
       {
         heading: "French loans and Swiss food",
         body: [
-          "Switzerland's multilingualism shows in its German: many everyday words come from French. Transport: \"das Velo\" (bike), \"das Billett\" (ticket), \"das Perron\" (platform), \"das Trottoir\" (pavement), \"der Kondukteur\" (conductor). Food: \"die Glace\" (ice cream), \"das Poulet\" (chicken), \"das Dessert\", \"die Confiture\" (jam). Politeness: \"Merci\", \"Exgüsi\" (excuse me), \"Adieu\" (bye, in some regions), \"Salü\" (hi / bye).",
+          "Switzerland's multilingualism shows in its German: many everyday words come from French. Transport: \"das Velo\" (bike), \"das Billett\" (ticket), \"der Perron\" (platform), \"das Trottoir\" (pavement), \"der Kondukteur\" (conductor). Food: \"die Glace\" (ice cream), \"das Poulet\" (chicken), \"das Dessert\", \"die Konfitüre\", colloquially \"die Konfi\" (jam). Politeness: \"Merci\", \"Exgüsi\" (excuse me), \"Adieu\" (bye, in some regions), \"Salü\" (hi / bye).",
           "Native Swiss food words: \"das Rüebli\" (carrot; \"Rüeblitorte\" is the famous carrot cake), \"der Zopf\" (plaited Sunday bread), \"das Birchermüesli\", \"der Cervelat\" (the national sausage), \"das Znüni\" (the mid-morning snack at nine, \"z'Nüni\" = at nine) and \"das Zvieri\" (the afternoon snack at four).",
           "In Swiss Standard German these words are perfectly correct in writing, on menus and in the news.",
         ],
@@ -1093,7 +1094,7 @@ export const DE_C1_U15: Lesson[] = [
             question: "What does it mean?",
             options: ["The conductor checks the tickets.", "The conductor counts the passengers.", "The driver checks the bills.", "The conductor plays the music."],
             correctIndex: 0,
-            explanation: "Swiss \"der Kondukteur\" = Schaffner, \"das Billett\" = Fahrkarte.",
+            explanation: "Swiss \"der Kondukteur\" = \"Schaffner\", \"das Billett\" = \"Fahrkarte\".",
           },
         ],
       },
@@ -1128,7 +1129,7 @@ export const DE_C1_U15: Lesson[] = [
             sentence: "Der ___ hat die Heizung repariert.",
             answer: "Abwart",
             altAnswers: ["Hauswart"],
-            explanation: "Swiss \"der Abwart\" or \"Hauswart\" = Hausmeister.",
+            explanation: "Swiss \"der Abwart\" or \"Hauswart\" = \"Hausmeister\".",
           },
         ],
       },
@@ -1158,10 +1159,10 @@ export const DE_C1_U15: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Why is Chuchichäschtli famous?",
+            question: "Why is \"Chuchichäschtli\" famous?",
             options: ["It's a Swiss German pronunciation test with three back ch sounds.", "It's the name of a Swiss chocolate.", "It's the Swiss word for a train station.", "It's a type of cheese."],
             correctIndex: 0,
-            explanation: "\"Chuchichäschtli\" (Küchenschränkchen, little kitchen cupboard) is the classic shibboleth for non-Swiss speakers.",
+            explanation: "\"Chuchichäschtli\" (\"Küchenschränkchen\", little kitchen cupboard) is the classic shibboleth for non-Swiss speakers.",
           },
         ],
       },
@@ -1183,7 +1184,7 @@ export const DE_C1_U15: Lesson[] = [
         source: "I'm baking a carrot cake for the party.",
         answer: "Ich backe eine Rüeblitorte für die Party.",
         altAnswers: ["Für die Party backe ich eine Rüeblitorte.", "Ich backe für die Party eine Rüeblitorte.", "Ich backe eine Rüeblitorte fürs Fest."],
-        explanation: "Swiss \"das Rüebli\" = Karotte, Möhre.",
+        explanation: "Swiss \"das Rüebli\" = \"Karotte\", Möhre.",
       },
       {
         type: "fill-blank",
@@ -1191,7 +1192,7 @@ export const DE_C1_U15: Lesson[] = [
         en: "That's [item] three on the agenda.",
         sentence: "Das ist ___ drei der Sitzung.",
         answer: "Traktandum",
-        explanation: "Swiss \"das Traktandum\" (plural \"Traktanden\") = Tagesordnungspunkt.",
+        explanation: "Swiss \"das Traktandum\" (plural \"Traktanden\") = \"Tagesordnungspunkt\".",
       },
       {
         type: "translate",
@@ -1200,21 +1201,21 @@ export const DE_C1_U15: Lesson[] = [
         source: "I'm happy to help with any questions.",
         answer: "Bei allfälligen Fragen stehe ich gern zur Verfügung.",
         altAnswers: ["Bei allfälligen Fragen stehe ich Ihnen gern zur Verfügung.", "Für allfällige Fragen stehe ich gern zur Verfügung.", "Für allfällige Fragen stehe ich Ihnen gern zur Verfügung.", "Bei allfälligen Fragen stehe ich gerne zur Verfügung."],
-        explanation: "Swiss \"allfällig\" = eventuell, any possible.",
+        explanation: "Swiss \"allfällig\" = \"eventuell\", any possible.",
       },
       {
         type: "multiple-choice",
-        question: "Your Swiss colleague says: Ich zügle Ende Monat. What's happening?",
+        question: "Your Swiss colleague says: \"Ich zügle Ende Monat.\" What's happening?",
         options: ["She's moving house at the end of the month.", "She's taking the train at the end of the month.", "She's quitting at the end of the month.", "She's on holiday at the end of the month."],
         correctIndex: 0,
-        explanation: "Swiss \"zügeln\" = umziehen; \"Ende Monat\" without an article.",
+        explanation: "Swiss \"zügeln\" = \"umziehen\"; \"Ende Monat\" without an article.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: Excuse me, is this seat still free? (Swiss)",
         words: ["Exgüsi,", "ist", "dieser Platz", "noch", "frei?"],
         translation: "Excuse me, is this seat still free?",
-        explanation: "\"Exgüsi\" (from French excusez) is the casual Swiss excuse me.",
+        explanation: "\"Exgüsi\" (from French 'excusez') is the casual Swiss excuse me.",
       },
       {
         type: "translate",
@@ -1251,7 +1252,7 @@ export const DE_C1_U15: Lesson[] = [
         type: "speak",
         text: "Grüezi mitenand! Merci vielmal, dass Sie gekommen sind.",
         prompt: "Greet a group of Swiss guests and thank them for coming.",
-        tip: "\"Grüezi\": the ü is long and rounded, and the ie is a separate sound: GRÜ-e-tsi.",
+        tip: "\"Grüezi\": \"üe\" is a gliding diphthong, a rounded ü sliding into a short e: GRÜE-tsi.",
         explanation: "\"Grüezi mitenand\" and \"Merci vielmal\": Swiss politeness.",
       },
     ],
@@ -1261,14 +1262,14 @@ export const DE_C1_U15: Lesson[] = [
     level: "DE-C1",
     number: 7,
     title: "Error Hunt: False Friends Between Countries",
-    summary: "Sessel, Kasten, Estrich, heuer, Pfannkuchen, Stiege, Kassa, Kren, Jause, Ferien, Semmel and Knödel / Kloß: repair misunderstandings in short stories set in Vienna, Zurich and Hamburg.",
+    summary: "Spot and repair misunderstandings caused by regional false friends (\"Sessel\", \"Kasten\", \"Estrich\", \"heuer\", \"Pfannkuchen\", \"Ferien\") in short stories set in Vienna, Zurich and Hamburg.",
     duration: "17 min",
     sections: [
       {
         heading: "Story 1: a Hamburger in Vienna",
         body: [
-          "Jan from Hamburg visits his girlfriend's parents in Vienna. The mother says: \"Setz dich auf den Sessel, ich hol dir eine Jause.\" Jan looks for an armchair and expects a full meal. Corrections: \"Sessel\" = chair (Stuhl); \"Jause\" = snack.",
-          "Later the father asks: \"Hast du schon einen Kren probiert?\" Jan thinks of some kind of cake. Correction: \"Kren\" = horseradish (Meerrettich). And: \"Die Jacke kannst du in den Kasten hängen.\" Kasten = wardrobe, not box.",
+          "Jan from Hamburg visits his girlfriend's parents in Vienna. The mother says: \"Setz dich auf den Sessel, ich hol dir eine Jause.\" Jan looks for an armchair and expects a full meal. Corrections: \"Sessel\" = chair (\"Stuhl\"); \"Jause\" = snack.",
+          "Later the father asks: \"Hast du schon Kren probiert?\" Jan thinks of some kind of cake. Correction: \"Kren\" = horseradish (\"Meerrettich\"). And: \"Die Jacke kannst du in den Kasten hängen.\" \"Kasten\" = wardrobe, not box.",
           "The pattern: a word Jan knows from northern German means something else in Austria, or a word he doesn't know looks like a cake. Asking politely (\"Was ist denn Kren?\") is always better than guessing.",
         ],
         examples: [
@@ -1282,7 +1283,7 @@ export const DE_C1_U15: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Jan misunderstood Setz dich auf den Sessel. Translate what the mother meant into German Standard German.",
+            prompt: "Jan misunderstood \"Setz dich auf den Sessel.\" Translate what the mother meant into German Standard German.",
             source: "Sit on the chair.",
             answer: "Setz dich auf den Stuhl.",
             altAnswers: ["Setz dich auf den Stuhl!", "Setzen Sie sich auf den Stuhl.", "Setz dich hin auf den Stuhl."],
@@ -1290,7 +1291,7 @@ export const DE_C1_U15: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Jan hears: Ich hol dir eine Jause. What will he get?",
+            question: "Jan hears: \"Ich hol dir eine Jause.\" What will he get?",
             options: ["A snack", "A jacket", "A three-course dinner", "A drink"],
             correctIndex: 0,
             explanation: "\"Die Jause\" = a snack, a light meal.",
@@ -1334,7 +1335,7 @@ export const DE_C1_U15: Lesson[] = [
       {
         heading: "Story 3: a learner's diary",
         body: [
-          "Maya, an American in Graz, writes in her diary: \"Heuer habe ich viel Heu gesehen\" (she thought heuer meant hay). \"Ich bin die Stiege hinaufgestiegen\" (correct!). \"An der Kassa habe ich bezahlt\" (correct!). \"Ich habe eine Jause gemacht, also ein großes Abendessen gekocht\" (wrong: a Jause is a snack).",
+          "Maya, an American in Graz, writes in her diary: \"Heuer habe ich viel Heu gesehen\" (she thought \"heuer\" meant hay). \"Ich bin die Stiege hinaufgestiegen\" (correct!). \"An der Kassa habe ich bezahlt\" (correct!). \"Ich habe eine Jause gemacht, also ein großes Abendessen gekocht\" (wrong: a Jause is a snack).",
           "Correcting a diary means checking each regional word: \"heuer\" = this year; \"Stiege\" = stairs; \"Kassa\" = till; \"Jause\" = snack.",
           "The lesson for learners: when a regional word seems to make a sentence strange, the regional meaning is probably the answer.",
         ],
@@ -1353,7 +1354,7 @@ export const DE_C1_U15: Lesson[] = [
             source: "This year I've already been to Vienna three times.",
             answer: "Heuer war ich schon dreimal in Wien.",
             altAnswers: ["Ich war heuer schon dreimal in Wien.", "Heuer bin ich schon dreimal in Wien gewesen.", "Ich bin heuer schon dreimal in Wien gewesen."],
-            explanation: "\"Heuer\" = dieses Jahr; it has nothing to do with \"Heu\" (hay).",
+            explanation: "\"Heuer\" = \"dieses Jahr\"; it has nothing to do with \"Heu\" (hay).",
           },
           {
             type: "fill-blank",
@@ -1362,7 +1363,7 @@ export const DE_C1_U15: Lesson[] = [
             sentence: "An der ___ habe ich mit Karte bezahlt.",
             answer: "Kassa",
             altAnswers: ["Kasse"],
-            explanation: "Austrian \"die Kassa\" = Kasse.",
+            explanation: "Austrian \"die Kassa\" = \"Kasse\".",
           },
         ],
       },
@@ -1375,7 +1376,7 @@ export const DE_C1_U15: Lesson[] = [
         source: "You can hang your coat in the wardrobe.",
         answer: "Den Mantel kannst du in den Kasten hängen.",
         altAnswers: ["Du kannst den Mantel in den Kasten hängen.", "Du kannst deinen Mantel in den Kasten hängen.", "Sie können Ihren Mantel in den Kasten hängen.", "Den Mantel können Sie in den Kasten hängen.", "Deinen Mantel kannst du in den Kasten hängen."],
-        explanation: "Austrian \"Kasten\" = Schrank; \"in den\" (accusative) for direction.",
+        explanation: "Austrian \"Kasten\" = \"Schrank\"; \"in den\" (accusative) for direction.",
       },
       {
         type: "translate",
@@ -1405,7 +1406,7 @@ export const DE_C1_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A Zurich colleague writes: Ich bin ab Montag zwei Wochen in den Ferien. What does it mean?",
+        question: "A Zurich colleague writes: \"Ich bin ab Montag zwei Wochen in den Ferien.\" What does it mean?",
         options: ["She's on annual leave for two weeks from Monday.", "Her children's school holidays start on Monday.", "She's teaching a holiday course.", "She's travelling for work."],
         correctIndex: 0,
         explanation: "In Switzerland \"Ferien\" is also an employee's holiday (German \"Urlaub\").",
@@ -1415,7 +1416,7 @@ export const DE_C1_U15: Lesson[] = [
         prompt: "Put the words in order to say: I went up the stairs. (Austria)",
         words: ["Ich", "bin", "die Stiege", "hinaufgegangen."],
         translation: "I went up the stairs.",
-        explanation: "Austrian \"die Stiege\" = Treppe.",
+        explanation: "Austrian \"die Stiege\" = \"Treppe\".",
       },
       {
         type: "translate",
@@ -1446,12 +1447,12 @@ export const DE_C1_U15: Lesson[] = [
       {
         type: "dictation",
         audio: "Die Kassa ist gleich beim Eingang.",
-        explanation: "Austrian \"die Kassa\" = Kasse.",
+        explanation: "Austrian \"die Kassa\" = \"Kasse\".",
       },
       {
         type: "speak",
         text: "Entschuldigung, was ist denn Kren?",
-        prompt: "In Vienna, politely ask what Kren is.",
+        prompt: "In Vienna, politely ask what \"Kren\" is.",
         explanation: "\"Denn\" in questions signals genuine interest.",
       },
     ],
@@ -1461,7 +1462,7 @@ export const DE_C1_U15: Lesson[] = [
     level: "DE-C1",
     number: 8,
     title: "Contrast Clinic: Super, Geil, Mega, Leiwand, Läss",
-    summary: "Ways to say cool and great across Germany, Austria and Switzerland and across generations, from toll and klasse to geil, krass, leiwand and läss, with their register.",
+    summary: "Choose the right word for great or cool for your listener's age, region and the situation, from safe \"toll\" and \"klasse\" to slangy \"geil\", \"krass\", Austrian \"leiwand\" and Swiss \"läss\".",
     duration: "16 min",
     sections: [
       {
@@ -1534,7 +1535,7 @@ export const DE_C1_U15: Lesson[] = [
       {
         heading: "Austria and Switzerland: leiwand, lässig, läss",
         body: [
-          "Austria: \"leiwand\" (great; Viennese, now Austria-wide among younger speakers: \"Das war ur leiwand\", where \"ur\" is an Austrian intensifier = very), \"lässig\" (cool, also used in southern Germany: \"Lässig, dass du kommst!\"), \"klass\" (= klasse).",
+          "Austria: \"leiwand\" (great; Viennese, now Austria-wide among younger speakers: \"Das war ur leiwand\", where \"ur\" is an Austrian intensifier = very), \"lässig\" (cool, also used in southern Germany: \"Lässig, dass du kommst!\"), \"klass\" (= \"klasse\").",
           "Switzerland: \"lässig\" and its short form \"läss\" (\"Das isch läss!\" in dialect), \"cool\", \"geil\" (also common), and \"huere guet\" (very good: \"huere\" is a crude intensifier from Hure, extremely common among young Swiss but vulgar in origin). Swiss standard \"super\" and \"toll\" are of course fine too.",
           "Note \"lässig\" also exists in standard German in its original sense, casual or nonchalant (\"lässige Kleidung\"). In Austria and Switzerland it more often means cool.",
         ],
@@ -1549,11 +1550,11 @@ export const DE_C1_U15: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in neutral German: Das Fest war ur leiwand!",
+            prompt: "Rewrite in neutral German: \"Das Fest war ur leiwand!\"",
             source: "The party was really great!",
             answer: "Das Fest war wirklich toll!",
             altAnswers: ["Das Fest war echt toll!", "Das Fest war wirklich super!", "Die Party war wirklich toll!", "Das Fest war sehr schön!", "Das Fest war wirklich großartig!", "Die Feier war wirklich toll!"],
-            explanation: "Austrian \"ur\" = sehr, wirklich; \"leiwand\" = toll.",
+            explanation: "Austrian \"ur\" = \"sehr\", wirklich; \"leiwand\" = \"toll\".",
           },
           {
             type: "fill-blank",
@@ -1592,7 +1593,7 @@ export const DE_C1_U15: Lesson[] = [
         en: "That was [really] great! (Vienna, colloquial)",
         sentence: "Das war ___ leiwand!",
         answer: "ur",
-        explanation: "Austrian \"ur\" = sehr, total.",
+        explanation: "Austrian \"ur\" = \"sehr\", \"total\".",
       },
       {
         type: "translate",
@@ -1661,13 +1662,13 @@ export const DE_C1_U15: Lesson[] = [
     level: "DE-C1",
     number: 9,
     title: "Regional Vocabulary, Part 5 of 7",
-    summary: "Germany from north to south: Metzger, Fleischer and Schlachter; Stulle, Bemme, Brotzeit and Vesper; Frikadelle, Bulette and Fleischpflanzerl; Möhre, Karotte and Gelbe Rübe; fegen and kehren; Moin, Servus, Tschüss and Ade.",
+    summary: "Recognise where in Germany someone is from by their words for the butcher, a sandwich or snack, meatballs, carrots and sweeping, and greet and say goodbye the local way (\"Moin\", \"Servus\", \"Ade\").",
     duration: "17 min",
     sections: [
       {
         heading: "The butcher and the sandwich",
         body: [
-          "The butcher has three names inside Germany: \"der Metzger\" (south and west, also Switzerland), \"der Fleischer\" (east and centre, the official trade name), \"der Schlachter\" or \"Schlachter\" (north, Hamburg). In Austria it is \"der Fleischhauer\" or \"Fleischhacker\".",
+          "The butcher has three names inside Germany: \"der Metzger\" (south and west, also Switzerland), \"der Fleischer\" (east and centre, the official trade name), \"der Schlachter\" or \"Schlächter\" (north, Hamburg). In Austria it is \"der Fleischhauer\" or \"Fleischhacker\".",
           "A slice of bread with something on it (an open sandwich or packed lunch): \"die Stulle\" (Berlin, north), \"die Bemme\" (Saxony), \"das Butterbrot\" (neutral everywhere), \"die Brotzeit\" (Bavaria: also the snack meal itself, often with sausage, cheese and beer), \"das Vesper\" or \"die Vesper\" (Swabia, Baden: snack or light evening meal).",
           "The Bavarian \"Brotzeit\" and Swabian \"Vesper\" are like the Austrian \"Jause\": a meal category, not just a sandwich. \"Wir machen Brotzeit\" = we're having a snack break.",
         ],
@@ -1706,7 +1707,7 @@ export const DE_C1_U15: Lesson[] = [
       {
         heading: "Meatballs, carrots and sweeping",
         body: [
-          "The fried meatball: \"die Frikadelle\" (north and west), \"die Bulette\" (Berlin), \"das Fleischpflanzerl\" (Bavaria), \"das Fleischküchle\" (Swabia), \"das Fleischlaibchen\" or \"faschierte Laibchen\" (Austria), \"der Hacktätschli\" (Switzerland). Same dish, six names.",
+          "The fried meatball: \"die Frikadelle\" (north and west), \"die Bulette\" (Berlin), \"das Fleischpflanzerl\" (Bavaria), \"das Fleischküchle\" (Swabia), \"das Fleischlaibchen\" or \"faschierte Laibchen\" (Austria), \"das Hacktätschli\" (Switzerland). Same dish, six names.",
           "Carrots: \"die Möhre\" (north), \"die Karotte\" (everywhere, especially south and Austria), \"die Gelbe Rübe\" (Bavaria, Swabia), \"das Rüebli\" (Switzerland), \"die Mohrrübe\" (east). Cleaning: \"fegen\" (north) vs \"kehren\" (south) for sweeping with a broom (\"der Besen\").",
           "None of these pairs causes real misunderstandings, but they instantly show where a speaker is from.",
         ],
@@ -1726,7 +1727,7 @@ export const DE_C1_U15: Lesson[] = [
             source: "A meatball with mustard, please.",
             answer: "Eine Bulette mit Senf, bitte.",
             altAnswers: ["Eine Bulette mit Senf bitte.", "Ich hätte gern eine Bulette mit Senf.", "Einmal Bulette mit Senf, bitte."],
-            explanation: "Berlin \"die Bulette\" = Frikadelle.",
+            explanation: "Berlin \"die Bulette\" = \"Frikadelle\".",
           },
           {
             type: "fill-blank",
@@ -1734,8 +1735,8 @@ export const DE_C1_U15: Lesson[] = [
             en: "I still have to [sweep] the kitchen.",
             sentence: "Ich muss noch die Küche ___.",
             answer: "kehren",
-            altAnswers: ["fegen", "auskehren"],
-            explanation: "Southern \"kehren\"; northern \"fegen\". Both mean to sweep.",
+            altAnswers: ["auskehren"],
+            explanation: "Southern \"kehren\"; northern \"fegen\" is also correct German, but not the southern word asked for.",
           },
         ],
       },
@@ -1769,7 +1770,7 @@ export const DE_C1_U15: Lesson[] = [
             question: "What is this?",
             options: ["A polite Bavarian goodbye", "An informal Swiss hello", "A northern German greeting", "A Viennese insult"],
             correctIndex: 0,
-            explanation: "\"Pfiat Eana\" (Behüt Sie Gott) is the polite Sie form; \"Pfiat di\" is for du.",
+            explanation: "\"Pfiat Eana\" (\"Behüt Sie Gott\") is the polite Sie form; \"Pfiat di\" is for du.",
           },
         ],
       },
@@ -1799,7 +1800,7 @@ export const DE_C1_U15: Lesson[] = [
         en: "Have you brought a [sandwich]?",
         sentence: "Hast du dir eine ___ mitgenommen?",
         answer: "Stulle",
-        explanation: "Berlin and northern \"die Stulle\" = Butterbrot.",
+        explanation: "Berlin and northern \"die Stulle\" = \"Butterbrot\".",
       },
       {
         type: "translate",
@@ -1812,7 +1813,7 @@ export const DE_C1_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A Swabian colleague says: Heut Abend gibt's Vesper. What will you eat?",
+        question: "A Swabian colleague says: \"Heut Abend gibt's Vesper.\" What will you eat?",
         options: ["A cold evening meal of bread, sausage and cheese", "A hot three-course dinner", "Only dessert", "Nothing, it's a church service"],
         correctIndex: 0,
         explanation: "Swabian \"Vesper\" = a light (usually cold) meal or snack.",
@@ -1874,8 +1875,8 @@ export const DE_C1_U15: Lesson[] = [
       {
         heading: "Bavarian and Swabian",
         body: [
-          "Bavarian (\"Bairisch\", spoken in Bavaria and Austria): the pronoun I for ich, \"mia\" for wir, \"ned\" or \"net\" for nicht, \"koa\" for kein, \"hob\" for habe, \"des\" for das, \"oa\" for ei (\"Oa\" = Ei, \"zwoa\" = zwei), the -erl diminutive, and \"san\" for sind. Famous lines: \"Mia san mia\", \"Des is ned schlecht\", \"A Mass, bittschön\" (a litre of beer, please).",
-          "Swabian (\"Schwäbisch\"): \"isch\" for ist, \"-le\" diminutives (\"Häusle\", \"Mädle\", \"Spätzle\"), \"schaffe\" for arbeiten, \"net\" for nicht, \"mir\" for wir, and a characteristic sh before t and p inside words (\"Ischt des so?\", \"Fenschter\"). The famous motto: \"Schaffe, schaffe, Häusle baue\".",
+          "Bavarian (\"Bairisch\", spoken in Bavaria and Austria): the pronoun \"i\" for \"ich\", \"mia\" for \"wir\", \"ned\" or \"net\" for \"nicht\", \"koa\" for \"kein\", \"hob\" for \"habe\", \"des\" for \"das\", \"oa\" for \"ei\" (\"Oa\" = \"Ei\", \"zwoa\" = \"zwei\"), the -erl diminutive, and \"san\" for \"sind\". Famous lines: \"Mia san mia\", \"Des is ned schlecht\", \"A Mass, bittschön\" (a litre of beer, please).",
+          "Swabian (\"Schwäbisch\"): \"isch\" for \"ist\", \"-le\" diminutives (\"Häusle\", \"Mädle\", \"Spätzle\"), \"schaffe\" for \"arbeiten\", \"net\" for \"nicht\", \"mir\" for \"wir\", and a characteristic sh before t and p inside words (\"Ischt des so?\", \"Fenschter\"). The famous motto: \"Schaffe, schaffe, Häusle baue\".",
           "You don't need to speak these, but you should recognise the main features and be able to translate them back into standard German.",
         ],
         examples: [
@@ -1890,11 +1891,11 @@ export const DE_C1_U15: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in standard German: Mir schaffet morge den ganze Tag.",
+            prompt: "Rewrite in standard German: \"Mir schaffet morge den ganze Tag.\"",
             source: "We're working all day tomorrow.",
             answer: "Wir arbeiten morgen den ganzen Tag.",
             altAnswers: ["Morgen arbeiten wir den ganzen Tag."],
-            explanation: "Swabian \"mir\" = wir, \"schaffet\" = arbeiten, \"morge\" = morgen, \"ganze\" = ganzen.",
+            explanation: "Swabian \"mir\" = \"wir\", \"schaffet\" = \"arbeiten\", \"morge\" = \"morgen\", \"ganze\" = \"ganzen\".",
           },
           {
             type: "listen-choose",
@@ -1902,16 +1903,16 @@ export const DE_C1_U15: Lesson[] = [
             question: "What does it mean?",
             options: ["That's not bad.", "That's really bad.", "That's not right.", "That's not mine."],
             correctIndex: 0,
-            explanation: "Bavarian \"des\" = das, \"ned\" = nicht: Das ist nicht schlecht, often meaning it's pretty good.",
+            explanation: "Bavarian \"des\" = \"das\", \"ned\" = \"nicht\": \"Das ist nicht schlecht\", often meaning it's pretty good.",
           },
         ],
       },
       {
         heading: "Saxon, Berlin and Low German",
         body: [
-          "Saxon (\"Sächsisch\"): soft consonants (p sounds like b, t like d, k like g: \"Gänguruh\" for Känguru), rounded vowels, \"nu\" for ja (\"Nu klar!\"), \"ei verbibbsch\" (an exclamation of surprise, from \"verflixt\"), \"Bemme\" for sandwich.",
-          "Berlin (\"Berlinisch\"): \"ick\" (ich), \"det\" and \"dit\" (das), \"wat\" (was), g as j (\"jut\" = gut, \"jesacht\" = gesagt), \"icke\" (me), the tag \"wa?\", and \"Schrippe\", \"Stulle\", \"Bulette\". Typical: \"Ick hab dir det doch jesacht!\" (Ich habe dir das doch gesagt!).",
-          "Low German (\"Plattdeutsch\"): \"dat\", \"wat\", \"Water\", \"maken\" (no consonant shift), \"lütt\" (small: \"de lütte Deern\" = das kleine Mädchen), \"Moin\", \"Wo geiht di dat?\" (Wie geht es dir?), \"Schnack\" (chat). Cologne (\"Kölsch\"): \"Alaaf\" (carnival cry), \"jeck\" (crazy, carnival-mad), \"et\" for es, and the \"Kölsches Grundgesetz\" with lines like \"Et hätt noch immer jot jejange\" (Es ist noch immer gut gegangen).",
+          "Saxon (\"Sächsisch\"): soft consonants (p sounds like b, t like d, k like g: \"Gänguruh\" for \"Känguru\"), rounded vowels, \"nu\" for \"ja\" (\"Nu klar!\"), \"ei verbibbsch\" (an exclamation of surprise, roughly \"verflixt\"), \"Bemme\" for sandwich.",
+          "Berlin (\"Berlinisch\"): \"ick\" (\"ich\"), \"det\" and \"dit\" (\"das\"), \"wat\" (\"was\"), g as j (\"jut\" = \"gut\", \"jesacht\" = \"gesagt\"), \"icke\" (me), the tag \"wa?\", and \"Schrippe\", \"Stulle\", \"Bulette\". Typical: \"Ick hab dir det doch jesacht!\" (\"Ich habe dir das doch gesagt!\").",
+          "Low German (\"Plattdeutsch\"): \"dat\", \"wat\", \"Water\", \"maken\" (no consonant shift), \"lütt\" (small: \"de lütte Deern\" = \"das kleine Mädchen\"), \"Moin\", \"Wo geiht di dat?\" (\"Wie geht es dir?\"), \"Schnack\" (chat). Cologne (\"Kölsch\"): \"Alaaf\" (carnival cry), \"jeck\" (crazy, carnival-mad), \"et\" for es, and the \"Kölsches Grundgesetz\" with lines like \"Et hätt noch immer jot jejange\" (\"Es ist noch immer gut gegangen\").",
         ],
         examples: [
           { es: "Nu klar, das machen wir!", en: "Yes of course, we'll do that! (Saxon)" },
@@ -1925,20 +1926,20 @@ export const DE_C1_U15: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in standard German: Ick hab dir det doch jesacht!",
+            prompt: "Rewrite in standard German: \"Ick hab dir det doch jesacht!\"",
             source: "I told you so!",
             answer: "Ich habe dir das doch gesagt!",
             altAnswers: ["Ich hab dir das doch gesagt!", "Das habe ich dir doch gesagt!", "Das hab ich dir doch gesagt!"],
-            explanation: "Berlin \"ick\" = ich, \"det\" = das, \"jesacht\" = gesagt.",
+            explanation: "Berlin \"ick\" = \"ich\", \"det\" = \"das\", \"jesacht\" = \"gesagt\".",
           },
           {
             type: "fill-blank",
             prompt: "Write the standard German for the bold words.",
-            en: "Low German: Wo geiht di dat? → [How are you]?",
+            en: "Low German: \"Wo geiht di dat?\" → [How are you]?",
             sentence: "___?",
             answer: "Wie geht es dir",
-            altAnswers: ["Wie geht's dir", "Wie geht es Ihnen"],
-            explanation: "Low German \"geiht\" = geht, \"di\" = dir, \"dat\" = das / es.",
+            altAnswers: ["Wie geht's dir"],
+            explanation: "Low German \"geiht\" = \"geht\", \"di\" = \"dir\", \"dat\" = \"das\" / \"es\". \"Di\" is the du form, so not \"Ihnen\".",
           },
         ],
       },
@@ -1946,7 +1947,7 @@ export const DE_C1_U15: Lesson[] = [
         heading: "Reading a dialect text",
         body: [
           "Here is a short Bavarian postcard: \"Servus Anna! Mia san jetzt in Garmisch. Des Weda is ned so guad, aber mia ham trotzdem a Gaudi. Heid gemma auf d'Zugspitz. Pfiat di, dei Sepp.\"",
-          "Rewrite it word by word: \"Servus\" (Hallo), \"mia san\" (wir sind), \"des Weda\" (das Wetter), \"ned so guad\" (nicht so gut), \"mia ham\" (wir haben), \"a Gaudi\" (Spaß, a laugh), \"heid\" (heute), \"gemma\" (gehen wir), \"auf d'Zugspitz\" (auf die Zugspitze), \"Pfiat di\" (Tschüss), \"dei\" (dein).",
+          "Rewrite it word by word: \"Servus\" (\"Hallo\"), \"mia san\" (\"wir sind\"), \"des Weda\" (\"das Wetter\"), \"ned so guad\" (\"nicht so gut\"), \"mia ham\" (\"wir haben\"), \"a Gaudi\" (\"Spaß\", a laugh), \"heid\" (\"heute\"), \"gemma\" (\"gehen wir\"), \"auf d'Zugspitz\" (\"auf die Zugspitze\"), \"Pfiat di\" (\"Tschüss\"), \"dei\" (\"dein\").",
           "Standard version: \"Hallo Anna! Wir sind jetzt in Garmisch. Das Wetter ist nicht so gut, aber wir haben trotzdem viel Spaß. Heute gehen wir auf die Zugspitze. Tschüss, dein Sepp.\"",
         ],
         examples: [
@@ -1960,18 +1961,18 @@ export const DE_C1_U15: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite in standard German: Des Weda is ned so guad, aber mia ham trotzdem a Gaudi.",
+            prompt: "Rewrite in standard German: \"Des Weda is ned so guad, aber mia ham trotzdem a Gaudi.\"",
             source: "The weather isn't so good, but we're having fun anyway.",
             answer: "Das Wetter ist nicht so gut, aber wir haben trotzdem Spaß.",
             altAnswers: ["Das Wetter ist nicht so gut, aber wir haben trotzdem viel Spaß.", "Das Wetter ist nicht so gut, aber wir haben trotzdem eine Gaudi.", "Das Wetter ist nicht so gut, aber wir haben trotzdem unseren Spaß.", "Das Wetter ist nicht so gut, aber wir haben trotzdem viel Spaß dabei."],
-            explanation: "Bavarian \"des\" = das, \"is\" = ist, \"ned\" = nicht, \"guad\" = gut, \"mia ham\" = wir haben, \"a Gaudi\" = Spaß.",
+            explanation: "Bavarian \"des\" = \"das\", \"is\" = \"ist\", \"ned\" = \"nicht\", \"guad\" = \"gut\", \"mia ham\" = \"wir haben\", \"a Gaudi\" = \"Spaß\".",
           },
           {
             type: "multiple-choice",
-            question: "What does gemma mean in Heid gemma auf d'Zugspitz?",
+            question: "What does \"gemma\" mean in \"Heid gemma auf d'Zugspitz\"?",
             options: ["gehen wir", "geben wir", "gemacht", "gemeinsam"],
             correctIndex: 0,
-            explanation: "Bavarian \"gemma\" = gehen wir (verb + fused pronoun).",
+            explanation: "Bavarian \"gemma\" = \"gehen wir\" (verb + fused pronoun).",
           },
         ],
       },
@@ -1980,67 +1981,67 @@ export const DE_C1_U15: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in standard German: Des isch net so schlimm.",
+        prompt: "Rewrite in standard German: \"Des isch net so schlimm.\"",
         source: "That's not so bad.",
         answer: "Das ist nicht so schlimm.",
-        explanation: "Swabian \"des isch net\" = das ist nicht.",
+        explanation: "Swabian \"des isch net\" = \"das ist nicht\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in standard German: Nu klar, das machen wir!",
+        prompt: "Rewrite in standard German: \"Nu klar, das machen wir!\"",
         source: "Yes of course, we'll do that!",
         answer: "Ja klar, das machen wir!",
         altAnswers: ["Ja, klar, das machen wir!", "Na klar, das machen wir!", "Klar, das machen wir!"],
-        explanation: "Saxon \"nu\" = ja.",
+        explanation: "Saxon \"nu\" = \"ja\".",
       },
       {
         type: "fill-blank",
         prompt: "Write the standard German for the bold word.",
-        en: "Low German for the [little] girl",
+        en: "Low German \"de lütte Deern\": the [little] girl",
         sentence: "das ___ Mädchen",
         answer: "kleine",
-        explanation: "Low German \"lütt\" = klein; \"Deern\" = Mädchen.",
+        explanation: "Low German \"lütt\" = \"klein\"; \"Deern\" = \"Mädchen\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in standard German: Heid gemma auf d'Zugspitz.",
+        prompt: "Rewrite in standard German: \"Heid gemma auf d'Zugspitz.\"",
         source: "Today we're going up the Zugspitze.",
         answer: "Heute gehen wir auf die Zugspitze.",
         altAnswers: ["Wir gehen heute auf die Zugspitze.", "Heute steigen wir auf die Zugspitze.", "Heute fahren wir auf die Zugspitze."],
-        explanation: "Bavarian \"heid\" = heute, \"gemma\" = gehen wir, \"d'\" = die.",
+        explanation: "Bavarian \"heid\" = \"heute\", \"gemma\" = \"gehen wir\", \"d'\" = \"die\".",
       },
       {
         type: "multiple-choice",
         question: "Which feature is typical of Saxon?",
-        options: ["Soft consonants: p sounds like b, t like d", "ick for ich", "-le diminutives", "Moin as a greeting"],
+        options: ["Soft consonants: p sounds like b, t like d", "\"ick\" for \"ich\"", "\"-le\" diminutives", "\"Moin\" as a greeting"],
         correctIndex: 0,
         explanation: "Saxon is known for soft consonants; \"ick\" is Berlin, \"-le\" Swabian, \"Moin\" northern.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say (standard German): We are who we are.",
-        words: ["Wir", "sind", "wer", "wir", "sind."],
+        words: ["Wir", "sind,", "wer", "wir", "sind."],
         translation: "We are who we are.",
-        explanation: "The standard version of the Bavarian \"Mia san mia\".",
+        explanation: "The standard version of the Bavarian \"Mia san mia\". The \"wer\" clause is a subordinate clause: comma, verb at the end.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in standard German: Et hätt noch immer jot jejange.",
+        prompt: "Rewrite in standard German: \"Et hätt noch immer jot jejange.\"",
         source: "It's always turned out all right.",
         answer: "Es ist noch immer gut gegangen.",
         altAnswers: ["Es ist bisher immer gut gegangen.", "Es ist noch immer gut gegangen!", "Es ist immer gut gegangen."],
-        explanation: "Kölsch \"et\" = es, \"jot\" = gut, \"jejange\" = gegangen. Note Kölsch uses haben (hätt) where standard uses sein.",
+        explanation: "Kölsch \"et\" = \"es\", \"jot\" = \"gut\", \"jejange\" = \"gegangen\". Note Kölsch uses haben (\"hätt\" = \"hat\") where standard uses \"sein\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in standard German: Wat is dat denn?",
+        prompt: "Rewrite in standard German: \"Wat is dat denn?\"",
         source: "What's that, then?",
         answer: "Was ist das denn?",
-        explanation: "\"Wat\" and \"dat\" are northern and Rhineland (and Berlin \"wat\"): Was ist das denn?",
+        explanation: "\"Wat\" and \"dat\" are northern and Rhineland (and Berlin \"wat\"): \"Was ist das denn?\"",
       },
       {
         type: "listen-choose",
@@ -2068,7 +2069,7 @@ export const DE_C1_U15: Lesson[] = [
     level: "DE-C1",
     number: 11,
     title: "Regional Vocabulary, Part 7 of 7",
-    summary: "Anglicisms and pseudo-anglicisms: Handy, Beamer, Oldtimer, Public Viewing, Homeoffice, Shitstorm; Denglisch at work and how to conjugate it; the Swiss and Austrian preference for French loans; the debate about Anglizismen.",
+    summary: "Use anglicisms and pseudo-anglicisms (\"Handy\", \"Beamer\", \"Homeoffice\") correctly, conjugate office Denglisch or replace it with German words in formal writing, and follow the debate about \"Anglizismen\".",
     duration: "17 min",
     sections: [
       {
@@ -2098,7 +2099,7 @@ export const DE_C1_U15: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A German colleague asks: Kannst du den Beamer mitbringen? What should you bring?",
+            question: "A German colleague asks: \"Kannst du den Beamer mitbringen?\" What should you bring?",
             options: ["A projector", "A BMW", "A torch", "A laser pointer"],
             correctIndex: 0,
             explanation: "\"Der Beamer\" is the German pseudo-anglicism for a projector.",
@@ -2110,7 +2111,7 @@ export const DE_C1_U15: Lesson[] = [
         body: [
           "Office German is full of English: \"das Meeting\", \"die Deadline\", \"das Feedback\", \"der Call\", \"das Team\", \"der Workshop\", \"das Briefing\", \"die To-do-Liste\". They are normal in many companies, especially in tech, marketing and consulting, though some people find the mix (\"Denglisch\") silly.",
           "English verbs are conjugated as German verbs: \"Ich habe die Datei downgeloadet\" or \"gedownloadet\" (both heard; the German alternative \"heruntergeladen\" is safer in writing), \"Wir haben das gecancelt\" (\"abgesagt\"), \"Kannst du mich updaten?\" (\"auf den neuesten Stand bringen\"), \"Ich forwarde dir die Mail\" (\"leite weiter\"), \"Das wurde gemanagt\".",
-          "Nouns get a gender, usually by analogy with a German word: \"die Mail\" (die Post), \"das Meeting\" (das Treffen), \"die Deadline\" (die Frist), \"der Call\" (der Anruf).",
+          "Nouns get a gender, usually by analogy with a German word: \"die Mail\" (\"die Post\"), \"das Meeting\" (\"das Treffen\"), \"die Deadline\" (\"die Frist\"), \"der Call\" (\"der Anruf\").",
         ],
         examples: [
           { es: "Das Meeting wurde auf morgen verschoben.", en: "The meeting has been moved to tomorrow." },
@@ -2199,8 +2200,8 @@ export const DE_C1_U15: Lesson[] = [
         en: "We [cancelled] the meeting.",
         sentence: "Wir haben das Meeting ___.",
         answer: "abgesagt",
-        altAnswers: ["gecancelt", "storniert"],
-        explanation: "\"Absagen\" is the German verb; \"gecancelt\" is common Denglisch.",
+        altAnswers: ["gestrichen"],
+        explanation: "\"Absagen\" is the German verb; \"gecancelt\" is common Denglisch, which the task asks you to avoid. (\"Stornieren\" is for bookings and orders, not meetings.)",
       },
       {
         type: "translate",
@@ -2213,7 +2214,7 @@ export const DE_C1_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A German friend says: Ich trage auf der Hochzeit einen Smoking. What will he wear?",
+        question: "A German friend says: \"Ich trage auf der Hochzeit einen Smoking.\" What will he wear?",
         options: ["A dinner jacket (tuxedo)", "A smoking jacket", "A cigarette", "A raincoat"],
         correctIndex: 0,
         explanation: "\"Der Smoking\" = tuxedo, dinner jacket: a pseudo-anglicism.",
@@ -2277,11 +2278,11 @@ export const DE_C1_U15: Lesson[] = [
         heading: "Monologue 1 and 2",
         body: [
           "Monologue 1: \"Grüß Gott! Ich bin die Vroni. Heuer im Jänner bin ich in Kitzbühel Ski gefahren. Am Abend sind wir im Gasthaus gesessen, und es hat Kaiserschmarrn mit Schlagobers gegeben. Leiwand war's!\" Clues: \"heuer\", \"Jänner\" (Austria), \"sind ... gesessen\", \"Schlagobers\", \"leiwand\". Verdict: Austria.",
-          "Monologue 2: \"Moin! Ick bin Kalle aus Berlin. Sonnabend war ick uffm Markt, hab mir 'ne Bulette und zwei Schrippen jeholt. Det war lecker, wa?\" Clues: \"Moin\" (north), \"ick\", \"uffm\" (auf dem), \"jeholt\" (geholt), \"Sonnabend\", \"Bulette\", \"Schrippen\", \"det\", \"wa?\". Verdict: Berlin.",
+          "Monologue 2: \"Moin! Ick bin Kalle aus Berlin. Sonnabend war ick uffm Markt, hab mir 'ne Bulette und zwei Schrippen jeholt. Det war lecker, wa?\" Clues: \"Moin\" (north), \"ick\", \"uffm\" (\"auf dem\"), \"jeholt\" (\"geholt\"), \"Sonnabend\", \"Bulette\", \"Schrippen\", \"det\", \"wa?\". Verdict: Berlin.",
           "Method: collect three or four clues, check which region they share, and then say the content in neutral German.",
         ],
         examples: [
-          { es: "Heuer im Jänner bin ich in Kitzbühel Ski gefahren.", en: "This January I went skiing in Kitzbuehel. (Austria)" },
+          { es: "Heuer im Jänner bin ich in Kitzbühel Ski gefahren.", en: "This January I went skiing in Kitzbühel. (Austria)" },
           { es: "Am Abend sind wir im Gasthaus gesessen.", en: "In the evening we sat in the inn. (Austria)" },
           { es: "Es hat Kaiserschmarrn mit Schlagobers gegeben.", en: "There was shredded pancake with whipped cream. (Austria)" },
           { es: "Sonnabend war ick uffm Markt.", en: "On Saturday I was at the market. (Berlin)" },
@@ -2291,16 +2292,16 @@ export const DE_C1_U15: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Say Kalle's sentence in neutral German: Sonnabend war ick uffm Markt.",
+            prompt: "Say Kalle's sentence in neutral German: \"Sonnabend war ick uffm Markt.\"",
             source: "On Saturday I was at the market.",
             answer: "Am Samstag war ich auf dem Markt.",
             altAnswers: ["Samstag war ich auf dem Markt.", "Am Sonnabend war ich auf dem Markt.", "Ich war am Samstag auf dem Markt.", "Ich war am Sonnabend auf dem Markt."],
-            explanation: "Berlin \"ick\" = ich, \"uffm\" = auf dem.",
+            explanation: "Berlin \"ick\" = \"ich\", \"uffm\" = \"auf dem\".",
           },
           {
             type: "multiple-choice",
             question: "Which clues in Vroni's monologue point to Austria rather than Bavaria?",
-            options: ["Jänner and Schlagobers", "Grüß Gott and gesessen", "Ski and Gasthaus", "Abend and gegeben"],
+            options: ["\"Jänner\" and \"Schlagobers\"", "\"Grüß Gott\" and \"gesessen\"", "\"Ski\" and \"Gasthaus\"", "\"Abend\" and \"gegeben\""],
             correctIndex: 0,
             explanation: "\"Grüß Gott\" and \"bin gesessen\" are shared with Bavaria; \"Jänner\" and \"Schlagobers\" are specifically Austrian.",
           },
@@ -2324,11 +2325,11 @@ export const DE_C1_U15: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Say it in neutral German: Die Kisten müssen vom Estrich runter.",
+            prompt: "Say it in neutral German: \"Die Kisten müssen vom Estrich runter.\"",
             source: "The boxes have to come down from the attic.",
             answer: "Die Kisten müssen vom Dachboden runter.",
             altAnswers: ["Die Kisten müssen vom Dachboden herunter.", "Die Kisten müssen vom Dachboden heruntergeholt werden.", "Die Kartons müssen vom Dachboden runter.", "Die Kisten müssen vom Dachboden heruntergebracht werden."],
-            explanation: "Swiss \"Estrich\" = Dachboden.",
+            explanation: "Swiss \"Estrich\" = \"Dachboden\".",
           },
           {
             type: "listen-choose",
@@ -2380,7 +2381,7 @@ export const DE_C1_U15: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into neutral German: Am Abend sind wir im Gasthaus gesessen. (northern standard)",
+        prompt: "Say it in neutral (northern) standard German: \"Am Abend sind wir im Gasthaus gesessen.\"",
         source: "In the evening we sat in the inn.",
         answer: "Am Abend haben wir im Gasthaus gesessen.",
         altAnswers: ["Abends haben wir im Gasthaus gesessen.", "Am Abend saßen wir im Gasthaus.", "Abends saßen wir im Gasthaus.", "Am Abend haben wir in der Gaststätte gesessen."],
@@ -2389,20 +2390,20 @@ export const DE_C1_U15: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Say it in neutral German: Det war lecker, wa?",
+        prompt: "Say it in neutral German: \"Det war lecker, wa?\"",
         source: "That was tasty, wasn't it?",
         answer: "Das war lecker, oder?",
         altAnswers: ["Das war lecker, nicht wahr?", "Das war lecker, ne?", "Das war lecker, nicht?", "Das war lecker, gell?"],
-        explanation: "Berlin \"det\" = das, \"wa?\" = oder?",
+        explanation: "Berlin \"det\" = \"das\", \"wa?\" = oder?",
       },
       {
         type: "fill-blank",
         prompt: "Write the neutral German word for the bold word.",
-        en: "Switzerland: Wer hilft mir beim Zügeln? → Who'll help me [move house]?",
+        en: "Switzerland: \"Wer hilft mir beim Zügeln?\" → Who'll help me [move house]?",
         sentence: "Wer hilft mir beim ___?",
         answer: "Umzug",
         altAnswers: ["Umziehen"],
-        explanation: "Swiss \"zügeln\" = umziehen; \"beim Umzug\" or \"beim Umziehen\".",
+        explanation: "Swiss \"zügeln\" = \"umziehen\"; \"beim Umzug\" or \"beim Umziehen\".",
       },
       {
         type: "translate",
@@ -2415,7 +2416,7 @@ export const DE_C1_U15: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Where is the speaker from? Kommt ihr an Ostern? Ich mach Spätzle. Ade!",
+        question: "Where is the speaker from? \"Kommt ihr an Ostern? Ich mach Spätzle. Ade!\"",
         options: ["Swabia", "Hamburg", "Berlin", "Vienna"],
         correctIndex: 0,
         explanation: "\"An Ostern\" (south), \"Spätzle\" and \"Ade\" point to Swabia.",
@@ -2461,7 +2462,7 @@ export const DE_C1_U15: Lesson[] = [
       {
         type: "speak",
         text: "Ich glaube, der Sprecher kommt aus Österreich, weil er Jänner und heuer sagt.",
-        prompt: "Explain in German: I think the speaker is from Austria because he says Jänner and heuer.",
+        prompt: "Explain in German: I think the speaker is from Austria because he says \"Jänner\" and \"heuer\".",
         explanation: "\"Weil\" sends the verb to the end: \"weil er ... sagt\".",
       },
     ],
@@ -2545,7 +2546,7 @@ export const DE_C1_U15: Lesson[] = [
       {
         heading: "Grammar of the south in context",
         body: [
-          "Southern grammar from Unit 14 in new contexts: the sein-Perfekt (\"Ich bin am Bahnhof gestanden\"), the Perfekt for past narration, Austrian genders (\"das E-Mail\", \"das Cola\"), \"am\" for auf dem (\"am Tisch\", \"am Land\" = in the country), and the Austrian \"auf\" for \"zu\" in some phrases (\"auf Urlaub fahren\").",
+          "Southern grammar from Unit 14 in new contexts: the sein-Perfekt (\"Ich bin am Bahnhof gestanden\"), the Perfekt for past narration, Austrian genders (\"das E-Mail\", \"das Cola\"), \"am\" for \"auf dem\" (\"am Tisch\", \"am Land\" = in the country), and the Austrian \"auf\" where Germany says \"in\" in some phrases (\"auf Urlaub fahren\").",
           "In formal writing in Austria, the sein-Perfekt is fully standard (\"Der Angeklagte ist im Saal gesessen\"). In Germany, write \"hat gesessen\".",
           "As a learner, choose one system and stick to it; mixing \"Ich bin gesessen\" with \"Januar\" and \"Tüte\" is understandable but sounds patchy.",
         ],
@@ -2608,7 +2609,7 @@ export const DE_C1_U15: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite in neutral German: Ick hab keene Kohle.",
+        prompt: "Rewrite in neutral German: \"Ick hab keene Kohle.\"",
         source: "Unfortunately I don't have any money at the moment.",
         answer: "Ich habe zurzeit leider kein Geld.",
         altAnswers: ["Ich habe leider zurzeit kein Geld.", "Leider habe ich zurzeit kein Geld.", "Ich habe im Moment leider kein Geld.", "Ich habe gerade leider kein Geld.", "Leider habe ich im Moment kein Geld."],
@@ -2626,6 +2627,7 @@ export const DE_C1_U15: Lesson[] = [
         prompt: "Put the words in order to say: You're coming at Easter, right? (south)",
         words: ["Du", "kommst", "an Ostern,", "gell?"],
         translation: "You're coming at Easter, right?",
+        altOrders: [["Kommst", "du", "an Ostern,", "gell?"]],
         explanation: "Southern \"an Ostern\" and the tag \"gell?\".",
       },
       {

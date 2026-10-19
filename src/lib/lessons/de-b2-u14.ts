@@ -117,7 +117,7 @@ export const DE_B2_U14: Lesson[] = [
             prompt: "Put the words in order to say: That must have been hard.",
             words: ["Das", "muss", "schwer", "gewesen", "sein."],
             translation: "That must have been hard.",
-            explanation: "\"Gewesen sein\": perfect infinitive of sein.",
+            explanation: "\"Gewesen sein\": perfect infinitive of \"sein\".",
           },
         ],
       },
@@ -215,7 +215,7 @@ export const DE_B2_U14: Lesson[] = [
     slug: "b2-pattern-sie-muss-krank-sein",
     level: "DE-B2",
     number: 2,
-    title: "Pattern Practice: Sie Muss Krank Sein",
+    title: "Pattern Practice: Sie muss krank sein",
     summary: "One frame, many situations: draw conclusions from evidence with muss, dürfte, könnte and kann nicht, now and in the past.",
     duration: "13 min",
     sections: [
@@ -475,7 +475,7 @@ export const DE_B2_U14: Lesson[] = [
             prompt: "Translate into German.",
             source: "He claims to have been at home all night.",
             answer: "Er will die ganze Nacht zu Hause gewesen sein.",
-            altAnswers: ["Er will die ganze Nacht daheim gewesen sein."],
+            altAnswers: ["Er will die ganze Nacht daheim gewesen sein.", "Er will die ganze Nacht zuhause gewesen sein."],
             explanation: "\"Will\" + \"gewesen sein\".",
           },
         ],
@@ -525,12 +525,12 @@ export const DE_B2_U14: Lesson[] = [
       },
       {
         type: "translate",
-        direction: "es-en",
-        prompt: "Translate into English.",
-        source: "Der Täter soll etwa 30 Jahre alt sein.",
-        answer: "The perpetrator is said to be about 30 years old.",
-        altAnswers: ["The perpetrator is supposed to be about 30 years old.", "Apparently the perpetrator is about 30 years old.", "The perpetrator is said to be around 30 years old."],
-        explanation: "\"Soll\" = is said to / apparently.",
+        direction: "en-es",
+        prompt: "Translate into German, in news style.",
+        source: "The perpetrator is said to be about 30 years old.",
+        answer: "Der Täter soll etwa 30 Jahre alt sein.",
+        altAnswers: ["Der Täter soll ungefähr 30 Jahre alt sein.", "Der Täter soll circa 30 Jahre alt sein.", "Der Täter soll um die 30 Jahre alt sein.", "Der Täter soll etwa 30 sein.", "Die Täterin soll etwa 30 Jahre alt sein."],
+        explanation: "Is said to → subjective \"soll\" + infinitive: the speaker passes on a report without vouching for it.",
       },
       {
         type: "multiple-choice",
@@ -542,7 +542,7 @@ export const DE_B2_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Rewrite the Konjunktiv I report with a modal verb.",
-        en: "People say the minister [is said to have known] about it.",
+        en: "The minister [is said to] have known about it.",
         sentence: "Man sagt, der Minister habe davon gewusst. → Der Minister ___ davon gewusst haben.",
         answer: "soll",
         explanation: "\"Man sagt, er habe ...\" = \"Er soll ... haben\".",
@@ -572,7 +572,7 @@ export const DE_B2_U14: Lesson[] = [
     slug: "b2-minimal-pairs-hat-kommen-muessen",
     level: "DE-B2",
     number: 4,
-    title: "Minimal Pairs: Er Hat Kommen Müssen / Er Muss Gekommen Sein",
+    title: "Minimal Pairs: Er hat kommen müssen / Er muss gekommen sein",
     summary: "Tell apart the objective past of a modal (he had to come) and a present judgement about the past (he must have come).",
     duration: "14 min",
     sections: [
@@ -672,7 +672,7 @@ export const DE_B2_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The train [can't have left] yet; it's only five past.",
+        en: "The train [can't have left yet]; it's only five past.",
         sentence: "Der Zug ___ sein; es ist erst fünf nach.",
         answer: "kann noch nicht abgefahren",
         explanation: "Impossible in the past: \"kann nicht\" + perfect infinitive \"abgefahren sein\".",
@@ -950,7 +950,7 @@ export const DE_B2_U14: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "Correct the sentence: Er musste krank gewesen sein. Write the German for the bold words.",
+            prompt: "Correct the sentence: \"*Er musste krank gewesen sein.\" Write the German for the bold words.",
             en: "He [must] have been ill.",
             sentence: "Er ___ krank gewesen sein.",
             answer: "muss",
@@ -978,7 +978,7 @@ export const DE_B2_U14: Lesson[] = [
           { es: "Sie soll im Lotto gewonnen haben.", en: "She is said to have won the lottery." },
           { es: "Er will es mit eigenen Augen gesehen haben.", en: "He claims to have seen it with his own eyes." },
           { es: "Ich glaube, dass er es gesehen haben muss.", en: "I think he must have seen it." },
-          { es: "Man sagt, dass sie gewonnen haben soll.", en: "People say she won." },
+          { es: "Ich verstehe nicht, warum er gelogen haben soll.", en: "I don't understand why he's supposed to have lied." },
         ],
         checkpoint: [
           {
@@ -990,7 +990,7 @@ export const DE_B2_U14: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Correct the sentence: Er will es gesehen hat. Write the German for the bold words.",
+            prompt: "Correct the sentence: \"*Er will es gesehen hat.\" Write the German for the bold words.",
             en: "He claims to [have seen] it.",
             sentence: "Er will es ___.",
             answer: "gesehen haben",
@@ -1002,7 +1002,7 @@ export const DE_B2_U14: Lesson[] = [
         heading: "Error 3: haben or sein?",
         body: [
           "The perfect infinitive uses the same auxiliary as the Perfekt: \"Er ist gegangen\" → \"Er muss gegangen sein\" (not \"gegangen haben\"). \"Es ist wahr gewesen\" → \"Das kann nicht wahr gewesen sein\" (not \"gewesen haben\").",
-          "Verbs of motion and change of state take \"sein\": gegangen, gefahren, gekommen, eingeschlafen, gestorben. Most others take \"haben\": gemacht, gesehen, gewonnen, vergessen.",
+          "Verbs of motion and change of state take \"sein\": \"gegangen\", \"gefahren\", \"gekommen\", \"eingeschlafen\", \"gestorben\". Most others take \"haben\": \"gemacht\", \"gesehen\", \"gewonnen\", \"vergessen\".",
           "Test: say the Perfekt first. \"Sie ist eingeschlafen\" → \"Sie muss eingeschlafen sein.\"",
         ],
         examples: [
@@ -1014,7 +1014,7 @@ export const DE_B2_U14: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "Correct the sentence: Er muss nach Hause gegangen haben. Write the German for the bold words.",
+            prompt: "Correct the sentence: \"*Er muss nach Hause gegangen haben.\" Write the German for the bold words.",
             en: "He must [have gone] home.",
             sentence: "Er muss nach Hause ___.",
             answer: "gegangen sein",
@@ -1033,7 +1033,7 @@ export const DE_B2_U14: Lesson[] = [
     exercises: [
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: Sie soll haben gewonnen. Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Sie soll haben gewonnen.\" Write the German for the bold words.",
         en: "She [is said to have won].",
         sentence: "Sie ___.",
         answer: "soll gewonnen haben",
@@ -1041,7 +1041,7 @@ export const DE_B2_U14: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: Das kann nicht wahr gewesen haben. Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Das kann nicht wahr gewesen haben.\" Write the German for the bold words.",
         en: "That can't [have been] true.",
         sentence: "Das kann nicht wahr ___.",
         answer: "gewesen sein",
@@ -1049,7 +1049,7 @@ export const DE_B2_U14: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: Die Gäste mussten schon gegangen sein. Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Die Gäste mussten schon gegangen sein.\" Write the German for the bold words.",
         en: "The guests [must] have left already.",
         sentence: "Die Gäste ___ schon gegangen sein.",
         answer: "müssen",
@@ -1105,7 +1105,7 @@ export const DE_B2_U14: Lesson[] = [
       {
         type: "dictation",
         audio: "Das kann nicht wahr gewesen sein.",
-        explanation: "\"Gewesen sein\": perfect infinitive of sein.",
+        explanation: "\"Gewesen sein\": perfect infinitive of \"sein\".",
       },
       {
         type: "speak",
@@ -1119,7 +1119,7 @@ export const DE_B2_U14: Lesson[] = [
     slug: "b2-spiral-fix-als-ob",
     level: "DE-B2",
     number: 7,
-    title: "Spiral Review: Fix the Paragraph: Als Ob",
+    title: "Spiral Review: Fix the Paragraph: Als ob",
     summary: "Review Unit 13: correct the mood and the word order after als ob and als in a short paragraph about a strange evening.",
     duration: "13 min",
     sections: [
@@ -1139,8 +1139,8 @@ export const DE_B2_U14: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "Correct the sentence: Er tut so, als er wäre krank. Write the German for the bold words.",
-            en: "He pretends [he were] ill.",
+            prompt: "Correct the sentence: \"*Er tut so, als er wäre krank.\" Write the German for the bold words.",
+            en: "He acts as if [he were] ill.",
             sentence: "Er tut so, als ___ krank.",
             answer: "wäre er",
             explanation: "Without \"ob\", the verb follows \"als\" directly.",
@@ -1167,12 +1167,12 @@ export const DE_B2_U14: Lesson[] = [
           { es: "Tom kam, als ob nichts passiert wäre.", en: "Tom came as if nothing had happened." },
           { es: "Er lachte, als wäre er der glücklichste Mensch der Welt.", en: "He laughed as if he were the happiest person in the world." },
           { es: "Seine Augen sahen aus, als ob er geweint hätte.", en: "His eyes looked as if he had been crying." },
-          { es: "Er tat so, als ob er mich nicht hören würde.", en: "He acted as if he couldn't hear me." },
+          { es: "Er tat so, als ob er mich nicht hören würde.", en: "He acted as if he didn't hear me." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "Correct the sentence: Tom kam, als ob nichts passiert ist. Write the German for the bold words.",
+            prompt: "Correct the sentence: \"*Tom kam, als ob nichts passiert ist.\" Write the German for the bold words.",
             en: "Tom came as if nothing [had happened].",
             sentence: "Tom kam, als ob nichts ___.",
             answer: "passiert wäre",
@@ -1191,7 +1191,7 @@ export const DE_B2_U14: Lesson[] = [
     exercises: [
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: Er lachte, als er wäre der glücklichste Mensch. Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Er lachte, als er wäre der glücklichste Mensch.\" Write the German for the bold words.",
         en: "He laughed as if [he were] the happiest person.",
         sentence: "Er lachte, als ___ der glücklichste Mensch.",
         answer: "wäre er",
@@ -1199,7 +1199,7 @@ export const DE_B2_U14: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: Sie redet, als ob sie alles weiß. Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Sie redet, als ob sie alles weiß.\" Write the German for the bold words.",
         en: "She talks as if she [knew] everything.",
         sentence: "Sie redet, als ob sie alles ___.",
         answer: "wüsste",
@@ -1207,7 +1207,7 @@ export const DE_B2_U14: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Correct the sentence: Er tat so, als ob hätte er mich nie gesehen. Write the German for the bold words.",
+        prompt: "Correct the sentence: \"*Er tat so, als ob hätte er mich nie gesehen.\" Write the German for the bold words.",
         en: "He acted as if he [had never seen] me.",
         sentence: "Er tat so, als ob er mich ___.",
         answer: "nie gesehen hätte",
@@ -1415,10 +1415,10 @@ export const DE_B2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which word means predictable?",
+        question: "You guessed the ending after ten minutes. Which word completes \"Die Handlung war total ___\"?",
         options: ["vorhersehbar", "überzeugend", "spannend", "verdächtig"],
         correctIndex: 0,
-        explanation: "\"Vorhersehbar\" (from \"vorhersehen\", to foresee).",
+        explanation: "\"Vorhersehbar\" = predictable (from \"vorhersehen\", to foresee). A predictable plot is the opposite of \"spannend\" (gripping).",
       },
       {
         type: "listen-choose",
@@ -1445,7 +1445,7 @@ export const DE_B2_U14: Lesson[] = [
     slug: "b2-spiral-qa-wuerdest-haettest",
     level: "DE-B2",
     number: 9,
-    title: "Spiral Review: Was Würdest Du Tun? Was Hättest Du Getan?",
+    title: "Spiral Review: Was würdest du tun? Was hättest du getan?",
     summary: "Review Units 1 and 2: ask and answer hypothetical questions about the present (würdest du) and the past (hättest du, wärst du).",
     duration: "13 min",
     sections: [
@@ -1507,7 +1507,7 @@ export const DE_B2_U14: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the correct answer to: Was hättest du gemacht, wenn der Flug ausgefallen wäre?",
+            question: "Someone asks: \"Was hättest du gemacht, wenn der Flug ausgefallen wäre?\" Which answer is correct?",
             options: ["Ich wäre mit dem Zug gefahren.", "Ich hätte mit dem Zug gefahren.", "Ich würde mit dem Zug gefahren.", "Ich wäre mit dem Zug fahren."],
             correctIndex: 0,
             explanation: "\"Fahren\" (motion) takes \"sein\" → \"wäre ... gefahren\".",
@@ -1675,7 +1675,7 @@ export const DE_B2_U14: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
         en: "My neighbour [claims to] have met the chancellor.",
-        sentence: "Mein Nachbar ___ die Kanzlerin getroffen haben.",
+        sentence: "Mein Nachbar ___ den Bundeskanzler getroffen haben.",
         answer: "will",
         explanation: "The subject's own claim → \"will\".",
       },
@@ -1715,7 +1715,7 @@ export const DE_B2_U14: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Put these in order from most to least certain: dürfte, kann nicht, muss, könnte.",
+        question: "Put these in order from most to least certain: \"dürfte\", \"kann nicht\", \"muss\", \"könnte\".",
         options: ["muss, dürfte, könnte, kann nicht", "dürfte, muss, könnte, kann nicht", "muss, könnte, dürfte, kann nicht", "kann nicht, könnte, dürfte, muss"],
         correctIndex: 0,
         explanation: "\"Muss\" (sure) → \"dürfte\" (probable) → \"könnte\" (possible) → \"kann nicht\" (impossible).",

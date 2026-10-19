@@ -8,14 +8,14 @@ export const DE_C2_U32: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Kreatives Schreiben, Part 1 of 3",
-    summary: "Learn from the German Kurzgeschichte of Borchert and Böll: start in medias res, end open, write in plain everyday language; use the Präteritum as the narrative tense and the Präsens for immediacy; and punctuate dialogue the German way.",
+    summary: "Write like the masters of the German \"Kurzgeschichte\" (Borchert, Böll): start in medias res, end open, use plain everyday language; narrate in the Präteritum, use the Präsens for immediacy, and punctuate dialogue the German way.",
     duration: "18 min",
     sections: [
       {
         heading: "The German Kurzgeschichte: in medias res, open ending",
         body: [
           "After 1945, young German writers wanted a language with no pathos left in it, after twelve years of Nazi propaganda. The result was the \"Kurzgeschichte\" (modelled on the American short story) and the \"Trümmerliteratur\" (literature of the ruins): Wolfgang Borchert, Heinrich Böll, Ilse Aichinger. Its features are still the standard advice in German creative writing classes.",
-          "It starts \"unvermittelt\" or \"in medias res\", without introduction: Borchert's \"Das Brot\" opens with \"Plötzlich wachte sie auf. Es war halb drei.\" It covers a short moment from everyday life, has few figures, uses \"Alltagssprache\" (everyday language), short sentences, repetitions, and ends with \"ein offenes Ende\": the reader has to finish the thought.",
+          "It starts \"unvermittelt\" or \"in medias res\", without introduction: Borchert's \"Das Brot\" opens with \"Plötzlich wachte sie auf. Es war halb drei.\" It covers a short moment from everyday life, has few characters, uses \"Alltagssprache\" (everyday language), short sentences, repetitions, and ends with \"ein offenes Ende\": the reader has to finish the thought.",
           "In \"Das Brot\", an old woman finds her husband in the kitchen at night; there are crumbs on the table, he has secretly eaten bread. Both lie (\"Ich dachte, hier wär was\"), and she plays along. The next evening she gives him one of her own slices. Nothing is explained; the gesture says everything. That is the Kurzgeschichte's art: \"zeigen, nicht erzählen\" (show, don't tell).",
         ],
         examples: [
@@ -41,7 +41,7 @@ export const DE_C2_U32: Lesson[] = [
             question: "Which feature is NOT typical of the German Kurzgeschichte?",
             options: ["A long introduction to the characters' background", "An abrupt beginning", "An open ending", "Everyday language"],
             correctIndex: 0,
-            explanation: "The Kurzgeschichte starts in medias res; background is given indirectly, if at all.",
+            explanation: "The \"Kurzgeschichte\" starts in medias res; background is given indirectly, if at all.",
           },
         ],
       },
@@ -49,7 +49,7 @@ export const DE_C2_U32: Lesson[] = [
         heading: "Präteritum for narration, Präsens for immediacy",
         body: [
           "German fiction is written in the Präteritum: \"Sie stand auf und ging in die Küche.\" In speech Germans use the Perfekt, but on the page the Perfekt sounds like someone chatting, not narrating. Events before the story's present go into the Plusquamperfekt: \"Er hatte sich ein Brot abgeschnitten.\"",
-          "The Präsens is a deliberate choice: it creates immediacy, as if the reader were there (\"Sie steht auf. Die Küche ist kalt.\"). Some contemporary novels are written entirely in it. Switching from Präteritum to Präsens at a climax (\"historisches Präsens\") is a classic suspense device, but only if it is clearly intended; drifting between tenses reads as a mistake.",
+          "The Präsens is a deliberate choice: it creates immediacy, as if the reader were there (\"Sie steht auf. Die Küche ist kalt.\"). Some contemporary novels are written entirely in it. Switching from Präteritum to Präsens at a climax (the \"historisches Präsens\") is a classic suspense device, but only if it is clearly intended; drifting between tenses reads as a mistake.",
           "Learner trap: using the Perfekt in narration because it is the spoken past. \"Er ist aufgestanden und hat das Licht angemacht\" is a report; \"Er stand auf und machte Licht\" is a story.",
         ],
         examples: [
@@ -90,7 +90,7 @@ export const DE_C2_U32: Lesson[] = [
       {
         heading: "Dialogue punctuation and the speech tag",
         body: [
-          "German dialogue uses low-high quotation marks: the opening mark sits low on the line and looks like a 99, the closing mark sits high and looks like a 66 (some books use French-style guillemets pointing inwards instead). Look at the examples below for each rule. If the speech tag (\"der Begleitsatz\") comes first, use a colon and keep the full stop inside the quote: Sie sagte: + quote. If the tag comes after, the quote loses its full stop and a comma follows the closing mark; a question mark or exclamation mark stays, and the comma still follows.",
+          "German dialogue uses low-high quotation marks: the opening mark sits low on the line and looks like a 99, the closing mark sits high and looks like a 66 (some books use French-style guillemets pointing inwards instead). Look at the examples below for each rule. If the speech tag (\"der Begleitsatz\") comes first, use a colon and keep the full stop inside the quote: \"Sie sagte:\" + quote. If the tag comes after, the quote loses its full stop and a comma follows the closing mark; a question mark or exclamation mark stays, and the comma still follows.",
           "If the tag interrupts the quote, it gets commas on both sides. The tag verb comes first in the tag because the quote occupies the first position: \"sagte sie\", never \"sie sagte\" after the quote.",
           "Vary the tag verbs sparingly: \"sagte\" is invisible and usually best; \"flüsterte\", \"murmelte\", \"rief\", \"fragte\", \"erwiderte\" (replied) when they add information. Overdoing it (\"hauchte\", \"zischte\", \"knurrte\") is the mark of amateur prose in German too.",
         ],
@@ -223,8 +223,8 @@ export const DE_C2_U32: Lesson[] = [
     slug: "c2-foreshadowing-style-workshop",
     level: "DE-C2",
     number: 2,
-    title: "Style Workshop: Andeutungen Säen",
-    summary: "Plant clues in a scene: the future-in-the-past with sollte, the narrator's knowing hint, a recurring object or Leitmotiv, and the art of revealing just enough.",
+    title: "Style Workshop: Andeutungen säen",
+    summary: "Plant clues in a scene: the future-in-the-past with \"sollte\", the narrator's knowing hint, a recurring object or \"Leitmotiv\", and the art of revealing just enough.",
     duration: "16 min",
     sections: [
       {
@@ -306,13 +306,13 @@ export const DE_C2_U32: Lesson[] = [
         heading: "How much to reveal",
         body: [
           "Foreshadowing is a balance. Too little and the ending feels arbitrary (\"unmotiviert\", \"aus dem Nichts\"); too much and the reader is ahead of the story (\"vorhersehbar\", predictable). The German workshop question is: \"Ist die Wendung vorbereitet, aber nicht vorhersehbar?\" (Is the twist prepared but not predictable?)",
-          "Techniques to hide a clue: bury it in the middle of a sentence or a list; give it a different apparent purpose (the knife is for the bread); let a figure misinterpret it; follow it immediately with something more striking.",
+          "Techniques to hide a clue: bury it in the middle of a sentence or a list; give it a different apparent purpose (the knife is for the bread); let a character misinterpret it; follow it immediately with something more striking.",
           "And the reverse: \"die falsche Fährte\" (red herring, literally false track) leads readers astray on purpose; \"jemanden auf eine falsche Fährte locken\" is to mislead someone.",
         ],
         examples: [
           { es: "Die Wendung ist gut vorbereitet, aber nicht vorhersehbar.", en: "The twist is well prepared but not predictable." },
           { es: "Ohne Vorbereitung wirkt das Ende wie aus dem Nichts.", en: "Without preparation, the ending seems to come out of nowhere." },
-          { es: "Das Messer liegt scheinbar nur zum Brotschneiden auf dem Tisch.", en: "The knife is apparently just on the table for cutting bread." },
+          { es: "Das Messer liegt scheinbar nur zum Brotschneiden auf dem Tisch.", en: "The knife is seemingly just on the table for cutting bread." },
           { es: "Die Autorin lockt die Leser bewusst auf eine falsche Fährte.", en: "The author deliberately sends readers down a false trail." },
           { es: "Der Hinweis geht in einer langen Aufzählung unter.", en: "The clue gets lost in a long list." },
         ],
@@ -329,7 +329,7 @@ export const DE_C2_U32: Lesson[] = [
           {
             type: "speak",
             text: "Die Autorin lockt die Leser bewusst auf eine falsche Fährte.",
-            tip: "FÄHR-te: a long open ä, and the h is silent.",
+            tip: "\"Fährte\": a long open ä, and the h is silent.",
             explanation: "\"Jemanden auf eine falsche Fährte locken\" = to set someone on a false trail.",
           },
         ],
@@ -342,7 +342,7 @@ export const DE_C2_U32: Lesson[] = [
         prompt: "Translate into German.",
         source: "It was to be the last time she saw her brother.",
         answer: "Es sollte das letzte Mal sein, dass sie ihren Bruder sah.",
-        altAnswers: ["Es sollte das letzte Mal sein, dass sie ihren Bruder sehen würde.", "Es sollte das letzte Mal sein, dass sie ihren Bruder gesehen hat."],
+        altAnswers: ["Es sollte das letzte Mal sein, dass sie ihren Bruder sehen würde."],
         explanation: "\"Es sollte ... sein\" looks ahead from the narrative past; the dass-clause stays in the Präteritum.",
       },
       {
@@ -395,7 +395,7 @@ export const DE_C2_U32: Lesson[] = [
         source: "Only years later would he understand her silence.",
         answer: "Erst Jahre später sollte er ihr Schweigen verstehen.",
         altAnswers: ["Erst Jahre später sollte er ihr Schweigen begreifen.", "Erst Jahre später würde er ihr Schweigen verstehen.", "Erst Jahre später verstand er ihr Schweigen."],
-        explanation: "\"Erst\" (only, not until) + narrative \"sollte\". English would for the future in the past is \"sollte\" or \"würde\".",
+        explanation: "\"Erst\" (only, not until) + narrative \"sollte\". English 'would' for the future in the past is \"sollte\" or \"würde\" in German.",
       },
       {
         type: "word-order",
@@ -421,7 +421,7 @@ export const DE_C2_U32: Lesson[] = [
         type: "speak",
         text: "Noch ahnte sie nicht, was der Brief bedeutete.",
         prompt: "Say it in German: She had no idea yet what the letter meant.",
-        tip: "AHN-te: the h lengthens the a.",
+        tip: "\"ahnte\": the h lengthens the a.",
         explanation: "The knowing narrator's hint: \"noch\" first for suspense.",
       },
     ],
@@ -431,15 +431,15 @@ export const DE_C2_U32: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Kreatives Schreiben, Part 2 of 3",
-    summary: "Choose and hold a perspective: Ich-Erzähler, personaler and auktorialer Erzähler; write a figure's thoughts as erlebte Rede and as innerer Monolog, with Schnitzler's Leutnant Gustl as the model; and switch only on purpose.",
+    summary: "Choose and hold a perspective (\"Ich-Erzähler\", \"personaler\" or \"auktorialer Erzähler\"), write a character's thoughts as \"erlebte Rede\" and as \"innerer Monolog\" with Schnitzler's \"Leutnant Gustl\" as the model, and switch only on purpose.",
     duration: "18 min",
     sections: [
       {
         heading: "Three narrators, three distances",
         body: [
-          "You met the three narrators as a critic; now use them as a writer. \"Der Ich-Erzähler\" gives intimacy and limited knowledge: the reader knows only what \"ich\" knows and may doubt it. \"Der personale Erzähler\" (third person, limited) sits on one figure's shoulder: \"Sie hörte Schritte. Wer kam um diese Zeit?\" The reader feels close, but the grammar keeps a little distance. \"Der auktoriale Erzähler\" knows everything and may comment: \"Sie konnte nicht wissen, dass...\".",
-          "The choice decides what you can and cannot write. A personal narrator cannot say \"Hinter ihr lächelte der Mann\" if she can't see him; they can only say \"Sie spürte einen Blick im Nacken.\" Breaking this rule is \"ein Perspektivbruch\", the most common flaw editors find in manuscripts.",
-          "German has a useful word for the narrator's attitude: \"die Erzählhaltung\" (ironisch, distanziert, einfühlsam). And for the angle of vision: \"der Blickwinkel\" or \"die Sicht\": \"aus der Sicht des Kindes erzählt\".",
+          "You met the three narrators as a critic; now use them as a writer. \"Der Ich-Erzähler\" gives intimacy and limited knowledge: the reader knows only what \"ich\" knows and may doubt it. \"Der personale Erzähler\" (third person, limited) sits on one character's shoulder: \"Sie hörte Schritte. Wer kam um diese Zeit?\" The reader feels close, but the grammar keeps a little distance. \"Der auktoriale Erzähler\" knows everything and may comment: \"Sie konnte nicht wissen, dass...\".",
+          "The choice decides what you can and cannot write. A \"personaler Erzähler\" cannot say \"Hinter ihr lächelte der Mann\" if she can't see him; they can only say \"Sie spürte einen Blick im Nacken.\" Breaking this rule is \"ein Perspektivbruch\", the most common flaw editors find in manuscripts.",
+          "German has a useful word for the narrator's attitude: \"die Erzählhaltung\" (\"ironisch\", \"distanziert\", \"einfühlsam\"). And for the angle of vision: \"der Blickwinkel\" or \"die Sicht\": \"aus der Sicht des Kindes erzählt\".",
         ],
         examples: [
           { es: "Ich wusste damals nicht, warum meine Mutter weinte.", en: "At the time I didn't know why my mother was crying." },
@@ -452,7 +452,7 @@ export const DE_C2_U32: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "A story is told by a personaler Erzähler from Lena's point of view. Which sentence breaks the perspective?",
+            question: "A story is told by a \"personaler Erzähler\" from Lena's point of view. Which sentence breaks the perspective?",
             options: ["Hinter ihr verzog Jonas spöttisch den Mund.", "Lena spürte, dass Jonas sie beobachtete.", "Warum sagte er nichts?", "Sie hörte ihn hinter sich atmen."],
             correctIndex: 0,
             explanation: "Lena cannot see what happens behind her, so the narrator cannot show it without leaving her perspective.",
@@ -471,9 +471,9 @@ export const DE_C2_U32: Lesson[] = [
       {
         heading: "Erlebte Rede: thoughts in the narrator's voice",
         body: [
-          "\"Die erlebte Rede\" (free indirect speech) gives a figure's thoughts without \"dachte sie\" and without quotation marks, in the third person and in the narrative tense (Präteritum), but with the figure's own words, questions, exclamations and particles: \"Morgen würde sie es ihm sagen. Ja, morgen. Was blieb ihr denn anderes übrig?\"",
-          "The grammar: third person (\"sie\", not \"ich\"), Präteritum for the present of the thought (\"Sie war so müde\"), Plusquamperfekt for its past, \"würde\" + infinitive for its future (\"Morgen würde sie...\"). Time words stay those of the figure: \"morgen\", \"jetzt\", \"heute\", not \"am nächsten Tag\".",
-          "Compare the three ways to write one thought: direct (Sie dachte: „Ich bin so müde.“), indirect (Sie dachte, sie sei so müde.) and erlebte Rede (Sie war so müde. Warum hörte das nie auf?). The third is the most intimate and the most typical of modern German fiction since Thomas Mann and Kafka.",
+          "\"Die erlebte Rede\" (free indirect speech) gives a character's thoughts without \"dachte sie\" and without quotation marks, in the third person and in the narrative tense (Präteritum), but with the character's own words, questions, exclamations and particles: \"Morgen würde sie es ihm sagen. Ja, morgen. Was blieb ihr denn anderes übrig?\"",
+          "The grammar: third person (\"sie\", not \"ich\"), Präteritum for the present of the thought (\"Sie war so müde\"), Plusquamperfekt for its past, \"würde\" + infinitive for its future (\"Morgen würde sie...\"). Time words stay those of the character: \"morgen\", \"jetzt\", \"heute\", not \"am nächsten Tag\".",
+          "Compare the three ways to write one thought: direct (\"Sie dachte: Ich bin so müde.\", with the thought in quotation marks), indirect (\"Sie dachte, sie sei so müde.\") and erlebte Rede (\"Sie war so müde. Warum hörte das nie auf?\"). The third is the most intimate and the most typical of modern German fiction since Thomas Mann and Kafka.",
         ],
         examples: [
           { es: "Morgen würde sie es ihm sagen. Ja, morgen.", en: "Tomorrow she would tell him. Yes, tomorrow." },
@@ -490,7 +490,7 @@ export const DE_C2_U32: Lesson[] = [
             source: "Tomorrow he would call her. Definitely.",
             answer: "Morgen würde er sie anrufen. Ganz bestimmt.",
             altAnswers: ["Morgen würde er sie anrufen. Bestimmt.", "Morgen würde er sie anrufen. Ganz sicher.", "Morgen würde er sie anrufen. Auf jeden Fall."],
-            explanation: "Erlebte Rede: third person, \"würde\" + infinitive for the figure's future, and the figure's own time word \"morgen\".",
+            explanation: "Erlebte Rede: third person, \"würde\" + infinitive for the character's future, and the character's own time word \"morgen\".",
           },
           {
             type: "fill-blank",
@@ -499,7 +499,7 @@ export const DE_C2_U32: Lesson[] = [
             sentence: "___ Sie wusste es nicht mehr.",
             answer: "Hatte sie die Tür abgeschlossen?",
             altAnswers: ["Hatte sie die Tür zugeschlossen?"],
-            explanation: "The figure's question, shifted to third person and Plusquamperfekt, without \"fragte sie sich\": that is erlebte Rede.",
+            explanation: "The character's question, shifted to third person and Plusquamperfekt, without \"fragte sie sich\": that is erlebte Rede.",
           },
           {
             type: "listen-choose",
@@ -568,7 +568,7 @@ export const DE_C2_U32: Lesson[] = [
         source: "She couldn't know that he had left long ago.",
         answer: "Sie konnte nicht wissen, dass er längst abgereist war.",
         altAnswers: ["Sie konnte nicht wissen, dass er schon längst abgereist war.", "Sie konnte nicht wissen, dass er längst weggefahren war.", "Sie konnte nicht wissen, dass er schon lange abgereist war.", "Sie konnte nicht wissen, dass er schon längst weg war."],
-        explanation: "Only an auktorialer Erzähler can say this: he knows more than the figure. Plusquamperfekt for the earlier event.",
+        explanation: "Only an \"auktorialer Erzähler\" can say this: the narrator knows more than the character. Plusquamperfekt for the earlier event.",
       },
       {
         type: "fill-blank",
@@ -586,7 +586,7 @@ export const DE_C2_U32: Lesson[] = [
         source: "Why did nobody ever listen to her?",
         answer: "Warum hörte ihr nie jemand zu?",
         altAnswers: ["Warum hörte ihr denn nie jemand zu?", "Warum hörte ihr niemand je zu?", "Warum hörte ihr eigentlich nie jemand zu?"],
-        explanation: "Third person (\"ihr\") and Präteritum, but the figure's own question: erlebte Rede. \"Zuhören\" takes the dative.",
+        explanation: "Third person (\"ihr\") and Präteritum, but the character's own question: erlebte Rede. \"Zuhören\" takes the dative.",
       },
       {
         type: "translate",
@@ -619,7 +619,7 @@ export const DE_C2_U32: Lesson[] = [
         words: ["Morgen", "würde", "sie", "ihm", "alles", "sagen."],
         translation: "Tomorrow she would tell him everything.",
         altOrders: [["Sie", "würde", "ihm", "morgen", "alles", "sagen."]],
-        explanation: "The figure's \"morgen\" with \"würde\" + infinitive: the future inside erlebte Rede.",
+        explanation: "The character's \"morgen\" with \"würde\" + infinitive: the future inside erlebte Rede.",
       },
       {
         type: "translate",
@@ -633,7 +633,7 @@ export const DE_C2_U32: Lesson[] = [
       {
         type: "dictation",
         audio: "Hatte sie die Tür abgeschlossen? Sie wusste es nicht mehr.",
-        explanation: "Erlebte Rede: the figure's question in the Plusquamperfekt, third person, no tag.",
+        explanation: "Erlebte Rede: the character's question in the Plusquamperfekt, third person, no tag.",
       },
       {
         type: "speak",
@@ -648,12 +648,12 @@ export const DE_C2_U32: Lesson[] = [
     slug: "c2-imagery-transformations",
     level: "DE-C2",
     number: 4,
-    title: "Transformations: Vom Flachen Satz zum Literarischen Bild",
-    summary: "Turn flat sentences into images: replace general verbs with precise ones, turn statements into metaphors, use synaesthesia (ein kalter Ton, warme Farben), and shape the rhythm of the sentence.",
+    title: "Transformations: Vom flachen Satz zum literarischen Bild",
+    summary: "Turn flat sentences into images: replace general verbs with precise ones, turn statements into metaphors, use synaesthesia (\"ein kalter Ton\", \"warme Farben\"), and shape the rhythm of the sentence.",
     duration: "18 min",
     sections: [
       {
-        heading: "Precise verbs instead of gehen, machen, sagen",
+        heading: "Precise verbs instead of \"gehen\", \"machen\", \"sagen\"",
         body: [
           "The first transformation: replace a general verb with a precise one that carries the image. \"Er ging durch den Schnee\" says little; \"Er stapfte durch den Schnee\" (tramped) shows the heavy boots, \"Er schlurfte\" (shuffled) an old or tired man, \"Er schlich\" (crept) secrecy, \"Er hastete\" (hurried) panic. German is rich in such verbs, often with sound in them.",
           "The same for speaking and looking: \"sagen\" → \"murmeln\", \"flüstern\", \"zischen\", \"stammeln\"; \"sehen\" → \"starren\" (stare), \"spähen\" (peer), \"mustern\" (look someone up and down), \"blinzeln\" (squint, blink). And for light and sound: \"flackern\" (flicker), \"glimmen\" (glow faintly), \"knarren\" (creak), \"rascheln\" (rustle), \"plätschern\" (splash, ripple).",
@@ -692,7 +692,7 @@ export const DE_C2_U32: Lesson[] = [
         body: [
           "The second transformation: turn an abstract statement into a concrete image. \"Es war sehr kalt\" → \"Die Kälte kroch durch jede Ritze\" (crept through every crack). \"Sie war traurig\" → \"Die Trauer saß ihr wie ein Stein in der Brust.\" \"Die Stadt war still\" → \"Die Stadt hielt den Atem an.\"",
           "Personification (\"die Personifikation\") gives things human actions: \"Der Wind rüttelte an den Fensterläden\", \"Die Häuser duckten sich unter dem Regen.\" A simile (\"der Vergleich\") uses \"wie\": \"Die Stille lag wie eine Decke über dem Dorf.\" A metaphor drops the \"wie\": \"Eine Decke aus Stille lag über dem Dorf.\"",
-          "Check every image: is it fresh (not a cliché like \"Schnee wie Watte\") and does it fit the figure's world? A child sees different things than a soldier.",
+          "Check every image: is it fresh (not a cliché like \"Schnee wie Watte\") and does it fit the character's world? A child sees different things than a soldier.",
         ],
         examples: [
           { es: "Die Kälte kroch durch jede Ritze.", en: "The cold crept through every crack." },
@@ -867,14 +867,14 @@ export const DE_C2_U32: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Kreatives Schreiben, Part 3 of 3",
-    summary: "Play with constraints: the konkrete Poesie of Ernst Jandl and Eugen Gomringer, the Elfchen, the Lipogramm and other Schreiben nach Vorgaben; then control rhythm, sentence length and the Vorfeld to build suspense.",
+    summary: "Play with constraints (the \"konkrete Poesie\" of Ernst Jandl and Eugen Gomringer, the \"Elfchen\", the \"Lipogramm\"), then control rhythm, sentence length and the Vorfeld to build suspense.",
     duration: "18 min",
     sections: [
       {
         heading: "Konkrete Poesie: Jandl and Gomringer",
         body: [
           "\"Konkrete Poesie\" (from the 1950s) treats words as material: their shape on the page, their sound, their letters. Eugen Gomringer's \"schweigen\" repeats the word \"schweigen\" (be silent) in a block, with one gap in the middle: the gap is the silence. His \"avenidas\" (in Spanish) became famous again in 2017-18, when a Berlin university painted it over after a sexism debate.",
-          "Ernst Jandl, from Vienna, played with sound and spelling. His poem \"lichtung\" swaps l and r: \"lechts und rinks\" instead of \"rechts und links\", to show how easily political right and left are confused. Jandl wrote in lower case, which is itself a statement in German, where nouns are capitalised.",
+          "Ernst Jandl, from Vienna, played with sound and spelling. His poem \"lichtung\" swaps l and r: \"lechts und rinks\" instead of \"rechts und links\", to show how easily political right and left are confused. Jandl mostly wrote in lower case, which is itself a statement in German, where nouns are capitalised.",
           "What a writer learns from it: German spelling, capitalisation and compounds are expressive tools. Breaking a rule once, on purpose, makes the reader see the word.",
         ],
         examples: [
@@ -1088,7 +1088,7 @@ export const DE_C2_U32: Lesson[] = [
         heading: "Opening: praise first, then the problem",
         body: [
           "Mia Krüger is \"Lektorin\" (editor) at a Hamburg publishing house (\"der Verlag\"). She meets Leon Brandt, whose first novel, \"Die Fähre\", is due next spring. Note: \"der Lektor / die Lektorin\" is an editor at a publisher, not a university lecturer (that is \"der Dozent\"; a \"Lektor\" at a university is a language teacher).",
-          "Krüger: „Herr Brandt, ich sage es gleich vorweg: Ich habe das Manuskript in einem Zug gelesen. Die Atmosphäre auf der Insel ist großartig eingefangen, und Ihre Dialoge sitzen.“ Brandt: „Das freut mich zu hören. Aber ich höre da ein Aber.“ Krüger: „Sie haben ein feines Ohr. Ein Aber gibt es, und zwar im Mittelteil. Ab Kapitel neun verliert die Handlung an Tempo. Ich hatte beim Lesen das Gefühl, dass die Geschichte auf der Stelle tritt.“",
+          "Krüger: \"Herr Brandt, ich sage es gleich vorweg: Ich habe das Manuskript in einem Zug gelesen. Die Atmosphäre auf der Insel ist großartig eingefangen, und Ihre Dialoge sitzen.\" Brandt: \"Das freut mich zu hören. Aber ich höre da ein Aber.\" Krüger: \"Sie haben ein feines Ohr. Ein Aber gibt es, und zwar im Mittelteil. Ab Kapitel neun verliert die Handlung an Tempo. Ich hatte beim Lesen das Gefühl, dass die Geschichte auf der Stelle tritt.\"",
           "Feedback technique in German: start with specific praise (\"Die Atmosphäre ist großartig eingefangen\", \"Ihre Dialoge sitzen\": your dialogue works), then name the problem as your reading experience (\"Ich hatte beim Lesen das Gefühl, dass...\") rather than as a verdict. \"Auf der Stelle treten\" (to mark time, go nowhere) and \"an Tempo verlieren\" are the standard phrases for a slow middle.",
         ],
         examples: [
@@ -1122,7 +1122,7 @@ export const DE_C2_U32: Lesson[] = [
       {
         heading: "Defending a choice",
         body: [
-          "Brandt: „Das ist Absicht. Die Figuren sind ja auf der Insel gefangen, die Fähre fährt nicht. Der Leser soll diese Lähmung spüren.“ Krüger: „Das verstehe ich, und die Idee ist gut. Aber zwischen dem Leser die Lähmung spüren lassen und ihn langweilen ist ein schmaler Grat. Muss das wirklich über achtzig Seiten gehen?“ Brandt: „Da haben Sie vielleicht einen Punkt. Ich hänge aber an der Szene mit dem Leuchtturmwärter. Die würde ich ungern streichen.“",
+          "Brandt: \"Das ist Absicht. Die Figuren sind ja auf der Insel gefangen, die Fähre fährt nicht. Der Leser soll diese Lähmung spüren.\" Krüger: \"Das verstehe ich, und die Idee ist gut. Aber zwischen spürbarer Lähmung und Langeweile ist es ein schmaler Grat. Muss das wirklich über achtzig Seiten gehen?\" Brandt: \"Da haben Sie vielleicht einen Punkt. Ich hänge aber an der Szene mit dem Leuchtturmwärter. Die würde ich ungern streichen.\"",
           "The author defends his choice with \"Das ist Absicht\" (that's intentional) and its purpose (\"Der Leser soll...\"). The editor concedes the idea (\"Das verstehe ich\") and redirects to proportion with a rhetorical question. \"Ein schmaler Grat\" (a fine line, literally a narrow ridge) is the idiom. \"Da haben Sie einen Punkt\" (you have a point) is a modern, slightly anglicised but common concession; \"Da ist was dran\" is the more native alternative.",
           "\"An etwas hängen\" (to be attached to something) and \"ungern\" (reluctantly) let the author signal what he wants to keep without refusing outright. Konjunktiv II (\"würde ich ungern streichen\") keeps it soft.",
         ],
@@ -1166,7 +1166,7 @@ export const DE_C2_U32: Lesson[] = [
       {
         heading: "Negotiating the cuts",
         body: [
-          "Krüger: „Wie wäre es, wenn wir die Szene behalten, aber die Kapitel zehn und elf zusammenlegen? Dann gewinnen Sie Tempo, ohne dass die Lähmung verloren geht.“ Brandt: „Damit könnte ich leben. Und die Rückblenden in die Kindheit?“ Krüger: „Die würde ich kürzen, nicht streichen. Zwei davon sind sehr stark, die dritte erklärt, was der Leser längst weiß.“ Brandt: „Gut, ich setze mich dran und schicke Ihnen bis Ende des Monats eine überarbeitete Fassung.“",
+          "Krüger: \"Wie wäre es, wenn wir die Szene behalten, aber die Kapitel zehn und elf zusammenlegen? Dann gewinnen Sie Tempo, ohne dass die Lähmung verloren geht.\" Brandt: \"Damit könnte ich leben. Und die Rückblenden in die Kindheit?\" Krüger: \"Die würde ich kürzen, nicht streichen. Zwei davon sind sehr stark, die dritte erklärt, was der Leser längst weiß.\" Brandt: \"Gut, ich setze mich dran und schicke Ihnen bis Ende des Monats eine überarbeitete Fassung.\"",
           "The editor proposes with \"Wie wäre es, wenn...\" (how would it be if), and \"ohne dass\" + clause keeps the author's goal in view. \"Kürzen\" (shorten) and \"streichen\" (cut entirely) are distinct; \"zusammenlegen\" (merge) and \"umstellen\" (rearrange) are the other editing verbs. \"Die Rückblende\" is a flashback.",
           "The author closes with commitment: \"sich (an etwas) dransetzen\" (colloquial: to get down to it), \"die überarbeitete Fassung\" (revised version).",
         ],
@@ -1306,7 +1306,7 @@ export const DE_C2_U32: Lesson[] = [
       {
         heading: "The shape of a microfiction",
         body: [
-          "Your mission: a story of exactly 100 words for a city library's \"Mikrofiktion\" competition. At that length there is room for one scene, one or two figures, one turn. The structure: drop the reader into a situation (no introduction), build one expectation, and break it in the last line (\"die Pointe\", the punchline or twist).",
+          "Your mission: a story of exactly 100 words for a city library's \"Mikrofiktion\" competition. At that length there is room for one scene, one or two characters, one turn. The structure: drop the reader into a situation (no introduction), build one expectation, and break it in the last line (\"die Pointe\", the punchline or twist).",
           "The twist must be prepared (one small clue earlier) and must change the meaning of everything before it. Classic sources of a twist: who the narrator really is, when the story is set, what an object really is, or a word that means something different from what we assumed.",
           "Title counts: in a microfiction the title is free space to add information (\"Das letzte Brot\", \"Nachtschicht\").",
         ],
@@ -1342,8 +1342,8 @@ export const DE_C2_U32: Lesson[] = [
         heading: "A model microfiction",
         body: [
           "Here is a model of exactly 100 words, titled \"Nachtschicht\":",
-          "„Um drei Uhr nachts ist die Station still. Ich gehe die Gänge ab, wie jede Nacht, prüfe die Türen, zähle die Atemzüge hinter dem Glas. Zimmer 12 schläft unruhig. Ich bleibe stehen, lege die Hand an die Scheibe. Er hat heute nicht gegessen, das weiß ich. Ich weiß fast alles über ihn: wann er hustet, wann er weint, welches Lied er summt, wenn er Angst hat. Draußen wird es langsam hell. Die Schwestern kommen, lachen, ziehen die Vorhänge auf. Niemand grüßt mich. Seit vierzig Jahren grüßt mich niemand. Morgen, denke ich, morgen erkennt er mich vielleicht. Er hat meine Augen.“",
-          "The clues: \"niemand grüßt mich\", \"seit vierzig Jahren\" prepare the twist that the narrator is a ghost, and the last sentence (\"Er hat meine Augen\") adds a second turn: the patient is her son or grandson. The Präsens creates immediacy; short sentences dominate; the reveal is the last word.",
+          "\"Um drei Uhr nachts ist die Station still. Ich gehe die Gänge ab, wie jede Nacht, prüfe die Türen, zähle die Atemzüge hinter dem Glas. Zimmer 12 schläft unruhig. Ich bleibe stehen, lege die Hand an die Scheibe. Er hat heute nicht gegessen, das weiß ich. Ich weiß fast alles über ihn: wann er hustet, wann er weint, welches Lied er summt, wenn er Angst hat. Draußen wird es langsam hell. Die Schwestern kommen, lachen, ziehen die Vorhänge auf. Niemand grüßt mich. Seit vierzig Jahren grüßt mich niemand. Morgen, denke ich, morgen erkennt er mich vielleicht. Er hat meine Augen.\"",
+          "The clues: \"niemand grüßt mich\", \"seit vierzig Jahren\" prepare the twist that the narrator is a ghost, and the last sentence (\"Er hat meine Augen\") adds a second turn: the patient is the narrator's son or grandson. The Präsens creates immediacy; short sentences dominate; the reveal is the last word.",
         ],
         examples: [
           { es: "Um drei Uhr nachts ist die Station still.", en: "At three in the morning the ward is quiet." },
@@ -1517,7 +1517,7 @@ export const DE_C2_U32: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Mastery Vocabulary: Philosophy and Thought",
-    summary: "The verbs and nouns of thinking, used precisely: erwägen, sinnieren, grübeln, reflektieren, nachdenken über vs denken an, and Gedankengang, Einsicht, Erkenntnis and Überlegung.",
+    summary: "Use the verbs and nouns of thinking precisely: \"denken an\" vs \"nachdenken über\", \"erwägen\", \"grübeln\", \"sinnieren\", \"reflektieren\", and \"Gedankengang\", \"Einsicht\", \"Erkenntnis\" and \"Überlegung\".",
     duration: "16 min",
     sections: [
       {
@@ -1525,7 +1525,7 @@ export const DE_C2_U32: Lesson[] = [
         body: [
           "The basic distinction trips up even advanced learners. \"Denken an\" + accusative means to think of, to have someone or something in mind: \"Ich denke oft an dich\", \"Denk an den Termin!\" (remember the appointment). \"Nachdenken über\" + accusative means to think about, to reflect on: \"Ich habe lange über deinen Vorschlag nachgedacht.\"",
           "\"Überlegen\" (to consider, think something over) is often reflexive with a dative: \"Ich überlege mir das\" (I'll think it over), \"Ich habe mir überlegt, dass...\" (I've been thinking that...). \"Sich etwas überlegen\" also means to come up with something: \"Wir müssen uns etwas überlegen.\"",
-          "Common mistake: \"Ich denke über dich\" (wrong, from I think about you). If you miss someone, it is \"Ich denke an dich\"; if you analyse them, \"Ich denke über dich nach\".",
+          "Common mistake: \"*Ich denke über dich*\" (wrong, from English 'I think about you'). If you miss someone, it is \"Ich denke an dich\"; if you analyse them, \"Ich denke über dich nach\".",
         ],
         examples: [
           { es: "Ich denke oft an meine Großmutter.", en: "I often think of my grandmother." },
@@ -1620,7 +1620,7 @@ export const DE_C2_U32: Lesson[] = [
             source: "After careful consideration, I said no.",
             answer: "Nach reiflicher Überlegung habe ich abgelehnt.",
             altAnswers: ["Nach reiflicher Überlegung habe ich Nein gesagt.", "Nach reiflicher Überlegung habe ich nein gesagt.", "Nach reiflicher Überlegung sagte ich Nein.", "Nach reiflicher Überlegung lehnte ich ab.", "Nach gründlicher Überlegung habe ich abgelehnt."],
-            explanation: "\"Nach reiflicher Überlegung\" is the fixed formal phrase; \"reiflich\" is only used with \"Überlegung\".",
+            explanation: "\"Nach reiflicher Überlegung\" is the fixed formal phrase; \"reiflich\" (thorough) appears almost only with \"Überlegung\" and \"überlegen\".",
           },
           {
             type: "fill-blank",
@@ -1634,7 +1634,7 @@ export const DE_C2_U32: Lesson[] = [
           {
             type: "speak",
             text: "Ich kann Ihrem Gedankengang nicht ganz folgen.",
-            tip: "ge-DAN-ken-gang: stress -dan-, and the final g sounds like k.",
+            tip: "\"Gedankengang\": stress the second syllable, and the final g sounds like k.",
             explanation: "\"Folgen\" takes the dative: \"Ihrem Gedankengang\".",
           },
         ],
@@ -1737,13 +1737,13 @@ export const DE_C2_U32: Lesson[] = [
     level: "DE-C2",
     number: 9,
     title: "Vocabulary in Context: Verbal Expressions with Machen, Nehmen, Halten and Bringen",
-    summary: "Use the fixed expressions built on four everyday verbs: sich Sorgen machen, Rücksicht nehmen, in Kauf nehmen, für möglich halten, Wort halten, zum Ausdruck bringen, zur Sprache bringen, in Erfahrung bringen.",
+    summary: "Use the fixed expressions built on four everyday verbs: \"sich Sorgen machen\", \"Rücksicht nehmen\", \"in Kauf nehmen\", \"für möglich halten\", \"Wort halten\", \"zum Ausdruck bringen\", \"zur Sprache bringen\" and \"in Erfahrung bringen\".",
     duration: "16 min",
     sections: [
       {
         heading: "Machen and nehmen",
         body: [
-          "\"Sich Sorgen machen um\" + accusative (to worry about): \"Ich mache mir Sorgen um dich.\" The reflexive is dative (\"mir\", \"dir\"), because \"Sorgen\" is the accusative object. Other fixed pairs: \"sich Mühe geben\" (make an effort; not \"machen\"!), \"einen Fehler machen\", \"Ernst machen\" (get serious), \"jemandem Mut machen\" (encourage).",
+          "\"Sich Sorgen machen um\" + accusative (to worry about): \"Ich mache mir Sorgen um dich.\" The reflexive is dative (\"mir\", \"dir\"), because \"Sorgen\" is the accusative object. Other fixed pairs: \"sich Mühe geben\" (make an effort; \"sich die Mühe machen\" means to go to the trouble), \"einen Fehler machen\", \"Ernst machen\" (get serious), \"jemandem Mut machen\" (encourage).",
           "\"Rücksicht nehmen auf\" + accusative (show consideration for): \"Bitte nehmt Rücksicht auf die Nachbarn.\" \"In Kauf nehmen\" (accept a disadvantage as the price of something): \"Für die Wohnung nehmen wir den langen Arbeitsweg in Kauf.\" \"Etwas in Angriff nehmen\" (tackle), \"Abschied nehmen von\" (say goodbye to), \"etwas zur Kenntnis nehmen\" (take note of).",
           "Trap: English take a decision is \"eine Entscheidung treffen\", not \"nehmen\"; take a photo is \"ein Foto machen\".",
         ],
@@ -1824,7 +1824,7 @@ export const DE_C2_U32: Lesson[] = [
         heading: "Bringen",
         body: [
           "\"Bringen\" forms many Funktionsverbgefüge, where the noun carries the meaning: \"zum Ausdruck bringen\" (express), \"zur Sprache bringen\" (bring up, raise a topic), \"in Erfahrung bringen\" (find out), \"in Verbindung bringen mit\" (associate with), \"zum Abschluss bringen\" (complete), \"in Ordnung bringen\" (sort out), \"auf den Punkt bringen\" (sum up precisely).",
-          "They are more formal than the simple verbs: \"zum Ausdruck bringen\" = \"ausdrücken\", \"in Erfahrung bringen\" = \"herausfinden\". In written German and at the Mastery level they show command of register; in speech, overusing them sounds like Amtsdeutsch.",
+          "They are more formal than the simple verbs: \"zum Ausdruck bringen\" = \"ausdrücken\", \"in Erfahrung bringen\" = \"herausfinden\". In written German and at the Mastery level they show command of register; in speech, overusing them sounds like \"Amtsdeutsch\" (officialese).",
           "Colloquially \"bringen\" alone means to be useful (\"Das bringt nichts\": that's pointless) or to manage (\"Sie hat es weit gebracht\": she has come a long way).",
         ],
         examples: [
@@ -1910,7 +1910,7 @@ export const DE_C2_U32: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct German for We have to take a decision?",
+        question: "Which sentence is correct German for 'We have to take a decision'?",
         options: ["Wir müssen eine Entscheidung treffen.", "Wir müssen eine Entscheidung nehmen.", "Wir müssen eine Entscheidung machen.", "Wir müssen eine Entscheidung halten."],
         correctIndex: 0,
         explanation: "\"Eine Entscheidung treffen\" is the fixed collocation; \"nehmen\" is a calque from English.",
@@ -1938,6 +1938,7 @@ export const DE_C2_U32: Lesson[] = [
         prompt: "Put the words in order to say: For the garden we accept the long journey.",
         words: ["Für", "den", "Garten", "nehmen", "wir", "die", "lange", "Fahrt", "in", "Kauf."],
         translation: "For the garden we accept the long journey.",
+        altOrders: [["Wir", "nehmen", "für", "den", "Garten", "die", "lange", "Fahrt", "in", "Kauf."]],
         explanation: "\"In Kauf nehmen\": \"in Kauf\" closes the clause like a separable prefix.",
       },
       {
@@ -1967,7 +1968,7 @@ export const DE_C2_U32: Lesson[] = [
 
 export const DE_C2_U32_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Write a short story (250-400 words) in the tradition of the German Kurzgeschichte for a literary magazine's competition on the theme \"Ein Abend im November\". Start in the middle of a scene, use one consistent perspective, include a short dialogue and at least one passage of a character's thoughts, plant one clue early, and end openly or with a twist.",
+  prompt: "Write a short story (250-400 words) in the tradition of the German \"Kurzgeschichte\" for a literary magazine's competition on the theme \"Ein Abend im November\". Start in the middle of a scene, use one consistent perspective, include a short dialogue and at least one passage of a character's thoughts, plant one clue early, and end openly or with a twist.",
   minWords: 250,
   maxWords: 400,
   rubric: [

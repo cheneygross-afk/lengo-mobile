@@ -7,8 +7,8 @@ export const DE_C2_U24: Lesson[] = [
     slug: "c2-historical-narrative-1",
     level: "DE-C2",
     number: 1,
-    title: "Die Historische Erzählung, Part 1 of 10",
-    summary: "The tenses of history: Präteritum for written narration, Perfekt for present relevance in speech, Plusquamperfekt for background, and the full Präteritum of strong verbs (verlor, beschloss, wich, erlag).",
+    title: "Die historische Erzählung, Part 1 of 10",
+    summary: "Choose the right tense for history: Präteritum for written narration, Perfekt for speech and present relevance, Plusquamperfekt for background, and the Präteritum of strong verbs (\"verlor\", \"beschloss\", \"wich\", \"erlag\").",
     duration: "20 min",
     sections: [
       {
@@ -91,13 +91,13 @@ export const DE_C2_U24: Lesson[] = [
         body: [
           "The Plusquamperfekt (\"hatte / war\" + participle) places an event before the main narrative line: \"Als Napoleon 1812 Moskau erreichte, hatten die Russen die Stadt bereits geräumt.\" The main line is in the Präteritum (\"erreichte\"); what had happened earlier is in the Plusquamperfekt.",
           "Use it for backstory, causes that lie further back and completed preconditions: \"Die Inflation hatte die Ersparnisse des Mittelstands vernichtet\", \"Die Regierung war bereits zurückgetreten.\" Don't overuse it: once you have established the earlier time frame, you can return to the Präteritum.",
-          "English often uses the simple past where German needs the Plusquamperfekt (When Napoleon reached Moscow, the Russians left the city is ambiguous in English). German is stricter in writing, and an examiner will notice.",
+          "English often uses the simple past where German needs the Plusquamperfekt ('When Napoleon reached Moscow, the Russians left the city' is ambiguous in English). German is stricter in writing, and an examiner will notice.",
         ],
         examples: [
           { es: "Als Napoleon Moskau erreichte, hatten die Russen die Stadt bereits geräumt.", en: "When Napoleon reached Moscow, the Russians had already evacuated the city." },
           { es: "Die Inflation hatte die Ersparnisse des Mittelstands vernichtet.", en: "Inflation had wiped out the savings of the middle class." },
           { es: "Die Regierung war wenige Tage zuvor zurückgetreten.", en: "The government had resigned a few days earlier." },
-          { es: "Bis 1961 hatten etwa drei Millionen Menschen die DDR verlassen.", en: "By 1961 around three million people had left the GDR." },
+          { es: "Bis 1961 hatten rund 2,7 Millionen Menschen die DDR verlassen.", en: "By 1961 about 2.7 million people had left the GDR." },
           { es: "Der Kaiser war bereits ins Exil gegangen.", en: "The Emperor had already gone into exile." },
         ],
         checkpoint: [
@@ -112,9 +112,9 @@ export const DE_C2_U24: Lesson[] = [
           },
           {
             type: "listen-choose",
-            audio: "Bis 1961 hatten etwa drei Millionen Menschen die DDR verlassen.",
+            audio: "Bis 1961 hatten rund 2,7 Millionen Menschen die DDR verlassen.",
             question: "What does it mean?",
-            options: ["By 1961 around three million people had left the GDR.", "In 1961 three million people left the GDR.", "Until 1961 three million people lived in the GDR.", "After 1961 three million people left the GDR."],
+            options: ["By 1961 about 2.7 million people had left the GDR.", "In 1961 about 2.7 million people left the GDR.", "Until 1961 about 2.7 million people lived in the GDR.", "After 1961 about 2.7 million people left the GDR."],
             correctIndex: 0,
             explanation: "\"Bis\" + Plusquamperfekt: everything completed up to that point.",
           },
@@ -143,7 +143,7 @@ export const DE_C2_U24: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "When Napoleon reached Moscow, the Russians [had] already [evacuated] the city.",
+        en: "When Napoleon reached Moscow, the Russians had already [evacuated] the city.",
         sentence: "Als Napoleon Moskau erreichte, hatten die Russen die Stadt bereits ___.",
         answer: "geräumt",
         explanation: "Plusquamperfekt \"hatten ... geräumt\" for the earlier event. \"Räumen\" means to clear or evacuate.",
@@ -201,7 +201,7 @@ export const DE_C2_U24: Lesson[] = [
         type: "speak",
         text: "Am 3. Oktober 1990 trat die DDR der Bundesrepublik bei.",
         prompt: "Say it in German, as in a history book: On 3 October 1990 the GDR acceded to the Federal Republic.",
-        tip: "Read the date: am dritten Oktober neunzehnhundertneunzig.",
+        tip: "Read the date: \"am dritten Oktober neunzehnhundertneunzig\".",
         explanation: "\"Beitreten\" + dative (to join): \"trat ... bei\", strong Präteritum.",
       },
     ],
@@ -210,7 +210,7 @@ export const DE_C2_U24: Lesson[] = [
     slug: "c2-same-event-four-genres-contrast",
     level: "DE-C2",
     number: 2,
-    title: "Contrast Clinic: Ein Ereignis in Vier Genres",
+    title: "Contrast Clinic: Ein Ereignis in vier Genres",
     summary: "The night of 9 November 1989 in a textbook, a news report, a memoir and a novel: compare tenses, register and point of view.",
     duration: "18 min",
     sections: [
@@ -251,7 +251,7 @@ export const DE_C2_U24: Lesson[] = [
       {
         heading: "The memoir: ich and the spoken past",
         body: [
-          "The memoir (\"die Erinnerung\", \"die Memoiren\") is first person and personal, and often closer to spoken German: Perfekt for some verbs, Präteritum for others, with feelings and sensory detail. \"Ich weiß noch genau, wie ich an diesem Abend vor dem Fernseher saß. Erst habe ich gar nicht verstanden, was Schabowski da sagte. Dann rief meine Schwester an: ‚Die Mauer ist auf!'\"",
+          "The memoir (\"die Erinnerung\", \"die Memoiren\") is first person and personal, and often closer to spoken German: Perfekt for some verbs, Präteritum for others, with feelings and sensory detail. \"Ich weiß noch genau, wie ich an diesem Abend vor dem Fernseher saß. Erst habe ich gar nicht verstanden, was Schabowski da sagte. Dann rief meine Schwester an: ‚Die Mauer ist auf!‘\"",
           "Note the mix: \"ich weiß noch\" (present: remembering now), \"saß\" (Präteritum, scene), \"habe ... verstanden\" (Perfekt, conversational), quoted speech in its own tense. Memoirs often comment from the present: \"Heute kann ich kaum glauben, dass ...\"",
           "The point of view is limited: the narrator knows only what he or she experienced then, plus what they know now. The tension between \"damals\" and \"heute\" is the memoir's typical structure.",
         ],
@@ -311,7 +311,7 @@ export const DE_C2_U24: Lesson[] = [
             question: "In the novel, \"Würden sie schießen?\" is an example of what?",
             options: ["Free indirect speech: the character's thought", "A question the narrator asks the reader", "Direct speech by a soldier", "A news headline"],
             correctIndex: 0,
-            explanation: "Erlebte Rede: the thought is rendered in the third person and past tense without a verb of thinking.",
+            explanation: "\"Erlebte Rede\": the thought is rendered in the third person and past tense without a verb of thinking.",
           },
           {
             type: "speak",
@@ -352,7 +352,7 @@ export const DE_C2_U24: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which tense pattern is typical of a memoir?",
-        options: ["A mix of present (remembering now), Präteritum and Perfekt", "Only Präteritum, never ich", "Only present tense", "Only Plusquamperfekt"],
+        options: ["A mix of present (remembering now), Präteritum and Perfekt", "Only Präteritum, never \"ich\"", "Only present tense", "Only Plusquamperfekt"],
         correctIndex: 0,
         explanation: "Memoirs move between \"heute\" and \"damals\" and stay close to spoken German.",
       },
@@ -410,8 +410,8 @@ export const DE_C2_U24: Lesson[] = [
     slug: "c2-historical-narrative-2",
     level: "DE-C2",
     number: 3,
-    title: "Die Historische Erzählung, Part 2 of 10",
-    summary: "Temporal depth: nachdem + Plusquamperfekt, kaum dass, sobald, bis, seitdem, and the sequence words of history writing (zunächst, daraufhin, in der Folge, wenig später).",
+    title: "Die historische Erzählung, Part 2 of 10",
+    summary: "Give a narrative temporal depth with \"nachdem\" + Plusquamperfekt, \"kaum dass\", \"sobald\", \"bis\" and \"seitdem\", and chain events with the sequence words of history writing (\"zunächst\", \"daraufhin\", \"in der Folge\", \"wenig später\").",
     duration: "20 min",
     sections: [
       {
@@ -452,7 +452,7 @@ export const DE_C2_U24: Lesson[] = [
         heading: "sobald, bis, seitdem, bevor",
         body: [
           "\"Sobald\" (as soon as) links two events closely; in historical narration often with Plusquamperfekt in the sobald clause: \"Sobald die Truppen abgezogen waren, kehrten die Flüchtlinge zurück.\" \"Bis\" (until) marks an end point: \"Die Stadt blieb geteilt, bis die Mauer 1989 fiel.\"",
-          "\"Seitdem\" / \"seit\" (since) can be a conjunction or an adverb: \"Seitdem die Grenze offen war, ...\" or \"..., und seitdem ...\". \"Bevor\" (before) takes the same tense as the main clause: \"Bevor die DDR die Mauer baute, flohen jährlich Hunderttausende.\"",
+          "\"Seitdem\" (or \"seit\") as a conjunction means since: \"Seitdem die Grenze offen war, ...\"; \"seitdem\" is also an adverb (since then): \"..., und seitdem ...\". \"Bevor\" (before) takes the same tense as the main clause: \"Bevor die DDR die Mauer baute, flohen jährlich Hunderttausende.\"",
           "\"Ehe\" is a literary synonym of \"bevor\": \"Ehe die Regierung reagieren konnte, ...\". And watch the preposition / conjunction pairs: \"vor dem Mauerbau\" (preposition + noun) vs \"bevor die Mauer gebaut wurde\" (conjunction + clause); \"nach dem Krieg\" vs \"nachdem der Krieg geendet hatte\".",
         ],
         examples: [
@@ -614,7 +614,7 @@ export const DE_C2_U24: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Error Hunt: Tempus und Register in einem Geschichtstext",
-    summary: "Fix tense and register errors in a history essay: Perfekt in written narration, nachdem with the wrong tense, and the als / wenn / wann confusion.",
+    summary: "Fix tense and register errors in a history essay: Perfekt in written narration, \"nachdem\" with the wrong tense, and the \"als\" / \"wenn\" / \"wann\" confusion.",
     duration: "16 min",
     sections: [
       {
@@ -695,7 +695,7 @@ export const DE_C2_U24: Lesson[] = [
         body: [
           "Three words for when, three uses. \"Als\" for a single event or period in the past: \"Als die Mauer fiel, war ich zehn.\" \"Wenn\" for repeated events in the past (\"immer wenn\", whenever) and for present or future conditions: \"Wenn Reisende die Grenze passierten, wurden sie kontrolliert.\" \"Wann\" only as a question word, also in indirect questions: \"Es ist unklar, wann der Befehl gegeben wurde.\"",
           "The essay error \"Wenn der Krieg 1945 endete, ...\" must be \"Als der Krieg 1945 endete, ...\": one event. And \"Als ich jedes Jahr meine Großeltern in der DDR besuchte, ...\" must be \"Wenn\" or \"Immer wenn\": repeated.",
-          "\"Wann\" vs \"als\" in indirect questions: \"Niemand weiß, wann genau Luther seine Thesen veröffentlichte\" (question: at what time?), not \"als\".",
+          "\"Wann\" vs \"als\" in indirect questions: \"Niemand weiß, wann genau Luther seine Thesen anschlug\" (question: at what time?), not \"als\".",
         ],
         examples: [
           { es: "Als der Krieg 1945 endete, lagen viele Städte in Trümmern.", en: "When the war ended in 1945, many cities lay in ruins." },
@@ -773,9 +773,9 @@ export const DE_C2_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Nobody knows exactly when Luther published his theses.",
-        answer: "Niemand weiß genau, wann Luther seine Thesen veröffentlichte.",
-        altAnswers: ["Niemand weiß genau, wann Luther seine Thesen veröffentlicht hat.", "Keiner weiß genau, wann Luther seine Thesen veröffentlichte.", "Man weiß nicht genau, wann Luther seine Thesen veröffentlichte."],
+        source: "Nobody knows exactly when Luther posted his theses.",
+        answer: "Niemand weiß genau, wann Luther seine Thesen anschlug.",
+        altAnswers: ["Niemand weiß genau, wann Luther seine Thesen angeschlagen hat.", "Keiner weiß genau, wann Luther seine Thesen anschlug.", "Man weiß nicht genau, wann Luther seine Thesen anschlug.", "Niemand weiß genau, wann Luther seine Thesen veröffentlichte."],
         explanation: "Indirect question: \"wann\" (never \"als\"), verb at the end.",
       },
       {
@@ -814,8 +814,8 @@ export const DE_C2_U24: Lesson[] = [
     slug: "c2-historical-narrative-3",
     level: "DE-C2",
     number: 5,
-    title: "Die Historische Erzählung, Part 3 of 10",
-    summary: "The future in the past: sollte (Er sollte seine Heimat nie wiedersehen), würde, im Begriff sein, zu ..., and how historians use foreshadowing.",
+    title: "Die historische Erzählung, Part 3 of 10",
+    summary: "Look forward from a point in the past with fateful \"sollte\" (\"Er sollte seine Heimat nie wiedersehen\"), \"würde\" and \"im Begriff sein, ... zu\", and use foreshadowing as historians do.",
     duration: "18 min",
     sections: [
       {
@@ -856,7 +856,7 @@ export const DE_C2_U24: Lesson[] = [
         heading: "würde: the future of the past",
         body: [
           "\"Würde\" + infinitive also expresses the future in the past, but more neutrally, without the sense of fate: \"1949 ahnte niemand, dass Bonn vierzig Jahre lang Hauptstadt bleiben würde.\" It is common after verbs of thinking and knowing: \"ahnen\", \"wissen\", \"glauben\", \"erwarten\".",
-          "In free indirect speech (erlebte Rede, see the novel in the contrast lesson) \"würde\" carries a character's expectation: \"Morgen würde alles anders sein.\" The difference: \"sollte\" is the narrator's hindsight; \"würde\" is the expectation from inside the past.",
+          "In free indirect speech (\"erlebte Rede\", see the novel in the contrast lesson) \"würde\" carries a character's expectation: \"Morgen würde alles anders sein.\" The difference: \"sollte\" is the narrator's hindsight; \"würde\" is the expectation from inside the past.",
           "Contrast: \"Er glaubte, der Krieg würde bis Weihnachten vorbei sein\" (his expectation, which might be wrong) vs \"Der Krieg sollte noch vier Jahre dauern\" (the narrator's knowledge). Put together, they make the classic ironic pair of 1914.",
         ],
         examples: [
@@ -1016,7 +1016,7 @@ export const DE_C2_U24: Lesson[] = [
     level: "DE-C2",
     number: 6,
     title: "Transformations: Zeitliche Tiefe",
-    summary: "Combine short sentences into layered narrative with nachdem, als, bevor and the Plusquamperfekt, and expand compressed timelines into readable prose.",
+    summary: "Combine short sentences into layered narrative with \"nachdem\", \"als\", \"bevor\" and the Plusquamperfekt, and expand compressed timelines into readable prose.",
     duration: "16 min",
     sections: [
       {
@@ -1056,12 +1056,12 @@ export const DE_C2_U24: Lesson[] = [
       {
         heading: "Three layers: before, during, after",
         body: [
-          "A richer narrative uses three time layers at once. \"Als die SED im August 1961 die Grenze abriegelte, hatten bereits über 2,5 Millionen Menschen die DDR verlassen; in den folgenden Jahren sollten Tausende bei Fluchtversuchen ihr Leben riskieren.\" Präteritum (main event), Plusquamperfekt (before), sollte (after).",
+          "A richer narrative uses three time layers at once. \"Als die SED im August 1961 die Grenze abriegelte, hatten bereits rund 2,7 Millionen Menschen die DDR verlassen; in den folgenden Jahren sollten Tausende bei Fluchtversuchen ihr Leben riskieren.\" Präteritum (main event), Plusquamperfekt (before), sollte (after).",
           "Order the layers so the reader never gets lost: main event first, then back, then forward. Signal each jump with a time marker: \"bereits\", \"zuvor\", \"bis dahin\" (back); \"in den folgenden Jahren\", \"später\", \"bald\" (forward).",
           "The semicolon is useful in such sentences; German uses it more than English to link closely related main clauses.",
         ],
         examples: [
-          { es: "Als die SED im August 1961 die Grenze abriegelte, hatten bereits über 2,5 Millionen Menschen die DDR verlassen.", en: "When the SED sealed the border in August 1961, more than 2.5 million people had already left the GDR." },
+          { es: "Als die SED im August 1961 die Grenze abriegelte, hatten bereits rund 2,7 Millionen Menschen die DDR verlassen.", en: "When the SED sealed the border in August 1961, about 2.7 million people had already left the GDR." },
           { es: "In den folgenden Jahren sollten Tausende bei Fluchtversuchen ihr Leben riskieren.", en: "In the years that followed, thousands were to risk their lives trying to escape." },
           { es: "Bis dahin hatte man die Sektorengrenze relativ frei überqueren können.", en: "Until then, it had been possible to cross the sector border relatively freely." },
           { es: "Zuvor hatte Ulbricht noch erklärt, niemand habe die Absicht, eine Mauer zu errichten.", en: "Previously Ulbricht had declared that nobody intended to build a wall." },
@@ -1215,8 +1215,8 @@ export const DE_C2_U24: Lesson[] = [
     slug: "c2-historical-narrative-4",
     level: "DE-C2",
     number: 7,
-    title: "Die Historische Erzählung, Part 4 of 10",
-    summary: "The historical present and its effect (Im Jahr 1517 schlägt Luther seine Thesen an), switching from the Präteritum, and date expressions (im Jahre, Anfang der 1920er-Jahre, um die Jahrhundertwende).",
+    title: "Die historische Erzählung, Part 4 of 10",
+    summary: "Use the historical present for effect (\"Im Jahr 1517 schlägt Luther seine Thesen an\"), switch into it from the Präteritum, and give dates and periods correctly (\"Anfang der 1920er-Jahre\", \"um die Jahrhundertwende\").",
     duration: "18 min",
     sections: [
       {
@@ -1297,8 +1297,8 @@ export const DE_C2_U24: Lesson[] = [
         heading: "Dates and periods",
         body: [
           "Years: just the number (\"1517\") or \"im Jahr(e) 1517\"; never \"in 1517\". \"Im Jahre\" with -e is old-fashioned and solemn. Decades: \"in den 1920er-Jahren\" or \"in den Zwanzigerjahren\" (also \"zwanziger Jahren\"); \"Anfang / Mitte / Ende der 1920er-Jahre\" (genitive, no preposition: at the beginning of the twenties).",
-          "Centuries: \"im 19. Jahrhundert\" (neunzehnten), \"um die Jahrhundertwende\" (around the turn of the century, usually 1900), \"in der ersten Hälfte des 20. Jahrhunderts\". Exact dates: \"am 9. November 1989\" (am neunten November), \"vom 17. bis zum 19. Juni\".",
-          "Reign and periods: \"unter Wilhelm II.\" (read: Wilhelm dem Zweiten), \"zur Zeit der Reformation\", \"während der NS-Zeit\", \"in der Nachkriegszeit\", \"zu Beginn der Weimarer Republik\".",
+          "Centuries: \"im 19. Jahrhundert\" (\"neunzehnten\"), \"um die Jahrhundertwende\" (around the turn of the century, usually 1900), \"in der ersten Hälfte des 20. Jahrhunderts\". Exact dates: \"am 9. November 1989\" (\"am neunten November\"), \"vom 17. bis zum 19. Juni\".",
+          "Reign and periods: \"unter Wilhelm II.\" (read: \"Wilhelm dem Zweiten\"), \"zur Zeit der Reformation\", \"während der NS-Zeit\", \"in der Nachkriegszeit\", \"zu Beginn der Weimarer Republik\".",
         ],
         examples: [
           { es: "Anfang der 1920er-Jahre litt Deutschland unter einer Hyperinflation.", en: "At the beginning of the 1920s Germany suffered from hyperinflation." },
@@ -1410,7 +1410,7 @@ export const DE_C2_U24: Lesson[] = [
         type: "speak",
         text: "Im Jahr 1517 schlägt Luther seine Thesen an die Tür der Schlosskirche.",
         prompt: "Say it in German, in the historical present: In 1517 Luther nails his theses to the door of the castle church.",
-        tip: "Read the year as fünfzehnhundertsiebzehn.",
+        tip: "Read the year as \"fünfzehnhundertsiebzehn\".",
         explanation: "\"Anschlagen\" is separable; \"an\" + accusative for the target of the action.",
       },
     ],
@@ -1420,7 +1420,7 @@ export const DE_C2_U24: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Contrast Clinic: Historisches Präsens und Futur aus der Rückschau",
-    summary: "Compare the historical present with the future in the past (sollte, würde) in documentaries and textbooks, and the futures that go with the historical present (wird, sollen).",
+    summary: "Compare the historical present with the future in the past (\"sollte\", \"würde\") in documentaries and textbooks, and use the futures that go with the historical present (\"wird\", \"soll\").",
     duration: "16 min",
     sections: [
       {
@@ -1461,7 +1461,7 @@ export const DE_C2_U24: Lesson[] = [
         body: [
           "A TV documentary (\"die Dokumentation\", \"die Doku\") on ZDF or arte typically speaks in the historical present: \"Juli 1944. Im Führerhauptquartier Wolfsschanze stellt Oberst von Stauffenberg eine Aktentasche unter den Tisch. Wenige Minuten später explodiert die Bombe. Hitler wird überleben.\" Short sentences, present tense, and \"wird\" for the dramatic outcome.",
           "A school textbook tells the same in the Präteritum, with nominal style and more context: \"Am 20. Juli 1944 verübte Claus Schenk Graf von Stauffenberg ein Attentat auf Hitler. Die Bombe explodierte, doch Hitler überlebte leicht verletzt. Stauffenberg wurde noch in derselben Nacht in Berlin erschossen.\"",
-          "Note \"ein Attentat verüben\" (to carry out an assassination attempt): \"Attentat\" is an attempt, whether successful or not, unlike English attentat. \"Hitler wird überleben\" in the documentary is gripping precisely because the viewer knows it is coming.",
+          "Note \"ein Attentat verüben\" (to carry out an assassination attempt): \"Attentat\" covers any assassination attempt, successful or not, whereas English 'attempt' implies failure. \"Hitler wird überleben\" in the documentary is gripping precisely because the viewer knows it is coming.",
         ],
         examples: [
           { es: "Juli 1944. Im Führerhauptquartier stellt Stauffenberg eine Aktentasche unter den Tisch.", en: "July 1944. At Hitler's headquarters Stauffenberg places a briefcase under the table. (documentary)" },
@@ -1618,8 +1618,8 @@ export const DE_C2_U24: Lesson[] = [
     slug: "c2-historical-narrative-5",
     level: "DE-C2",
     number: 9,
-    title: "Die Historische Erzählung, Part 5 of 10",
-    summary: "Simultaneity: während as conjunction and as preposition with the genitive, indessen, unterdessen, zur gleichen Zeit, derweil, and temporal prepositions (innerhalb, binnen, im Laufe); East and West Germany in parallel.",
+    title: "Die historische Erzählung, Part 5 of 10",
+    summary: "Narrate East and West Germany in parallel: \"während\" as conjunction and as preposition with the genitive, meanwhile words (\"unterdessen\", \"indessen\", \"derweil\") and temporal prepositions (\"innerhalb\", \"binnen\", \"im Laufe\").",
     duration: "20 min",
     sections: [
       {
@@ -1692,7 +1692,7 @@ export const DE_C2_U24: Lesson[] = [
           {
             type: "speak",
             text: "Unterdessen bereitete man in Ost-Berlin die Gründung der DDR vor.",
-            tip: "DDR is spelled out: de-de-ER.",
+            tip: "\"DDR\" is spelled out: de-de-ER.",
             explanation: "\"Unterdessen\" switches the camera to the parallel scene.",
           },
         ],
@@ -1763,7 +1763,7 @@ export const DE_C2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Die Regierung versprach Reformen; indessen änderte sich wenig.\" What can indessen mean here?",
+        question: "\"Die Regierung versprach Reformen; indessen änderte sich wenig.\" What can \"indessen\" mean here?",
         options: ["Meanwhile or however", "Therefore", "Afterwards", "Because of this"],
         correctIndex: 0,
         explanation: "\"Indessen\" is both temporal and adversative; here both readings fit.",
@@ -1822,7 +1822,7 @@ export const DE_C2_U24: Lesson[] = [
     slug: "c2-simultaneous-timelines-style-workshop",
     level: "DE-C2",
     number: 10,
-    title: "Style Workshop: Gleichzeitige Zeitlinien Erzählen",
+    title: "Style Workshop: Gleichzeitige Zeitlinien erzählen",
     summary: "Narrate the years 1949 to 1961 in Bonn and East Berlin in parallel without confusing the reader: anchors, switches, contrasts and convergence.",
     duration: "18 min",
     sections: [
@@ -2032,6 +2032,6 @@ export const DE_C2_U24_WRITING: WriteExercise = {
     "Switches once to the historical present at the climax and returns cleanly to the Präteritum",
     "Looks forward with fateful \"sollte\" or with \"würde\" for contemporaries' expectations",
   ],
-  modelAnswer: "Der Tag, an dem die Angst verschwand\n\nIm Herbst 1989 lag über Leipzig eine bleierne Spannung. Seit Anfang September hatten sich nach den Friedensgebeten in der Nikolaikirche jeden Montag mehr Menschen versammelt, und mit jeder Woche war auch die Staatsmacht nervöser geworden. Nachdem die Polizei am 7. Oktober, dem 40. Jahrestag der DDR, Demonstranten brutal auseinandergetrieben hatte, rechneten viele mit dem Schlimmsten. In den Krankenhäusern wurden Blutkonserven bereitgestellt, so erzählte man sich, und Betriebskampfgruppen standen in Bereitschaft.\n\nTrotzdem kamen am Abend des 9. Oktober rund 70.000 Menschen in die Innenstadt. Viele hatten sich zuvor von ihren Familien verabschiedet, als würden sie nicht zurückkehren. Während die Kirchen überfüllt waren, warteten draußen Tausende mit Kerzen in den Händen.\n\nDann setzt sich der Zug in Bewegung. „Wir sind das Volk!“, rufen die Menschen, und dazwischen immer wieder: „Keine Gewalt!“ Die Demonstranten ziehen über den Ring, vorbei an der Stasi-Zentrale, der „Runden Ecke“. Die Sicherheitskräfte stehen bereit, doch sie greifen nicht ein.\n\nKaum war die Nachricht vom friedlichen Verlauf bekannt geworden, da fasste das ganze Land Mut. Innerhalb weniger Wochen gingen in Dresden, Berlin und Dutzenden anderen Städten Hunderttausende auf die Straße. Unterdessen zerfiel die Macht der SED: Am 18. Oktober trat Erich Honecker zurück. Am Abend des 9. November verlas Günter Schabowski schließlich eine neue Reiseregelung, und noch in derselben Nacht öffneten sich die Grenzübergänge.\n\nAn jenem 9. Oktober ahnte niemand, dass die Mauer genau einen Monat später fallen würde. Und kaum jemand konnte sich vorstellen, dass es die DDR ein Jahr später nicht mehr geben sollte. Für viele Leipziger aber blieb der 9. Oktober der eigentliche Tag der Befreiung: der Tag, an dem die Angst verschwand.",
+  modelAnswer: "Der Tag, an dem die Angst verschwand\n\nIm Herbst 1989 lag über Leipzig eine bleierne Spannung. Seit Anfang September hatten sich nach den Friedensgebeten in der Nikolaikirche jeden Montag mehr Menschen versammelt, und mit jeder Woche war auch die Staatsmacht nervöser geworden. Nachdem die Polizei am 7. Oktober, dem 40. Jahrestag der DDR, Demonstranten brutal auseinandergetrieben hatte, rechneten viele mit dem Schlimmsten. In den Krankenhäusern wurden Blutkonserven bereitgestellt, so erzählte man sich, und Betriebskampfgruppen standen in Bereitschaft.\n\nTrotzdem kamen am Abend des 9. Oktober rund 70.000 Menschen in die Innenstadt. Viele hatten sich zuvor von ihren Familien verabschiedet, als würden sie nicht zurückkehren. Während die Kirchen überfüllt waren, warteten draußen Tausende mit Kerzen in den Händen.\n\nDann setzt sich der Zug in Bewegung. „Wir sind das Volk!“, rufen die Menschen, und dazwischen immer wieder: „Keine Gewalt!“ Die Demonstranten ziehen über den Ring, vorbei an der Stasi-Zentrale, der „Runden Ecke“. Die Sicherheitskräfte stehen bereit, doch sie greifen nicht ein.\n\nKaum war die Nachricht vom friedlichen Verlauf bekannt geworden, da fasste das ganze Land Mut. Innerhalb weniger Wochen gingen in Dresden, Berlin und Dutzenden anderen Städten Hunderttausende auf die Straße. Unterdessen zerfiel die Macht der SED: Am 18. Oktober trat Erich Honecker zurück. Am Abend des 9. November verlas Günter Schabowski schließlich eine neue Reiseregelung, und noch in derselben Nacht öffneten sich die Grenzübergänge.\n\nAn jenem 9. Oktober ahnte niemand, dass die Mauer genau einen Monat später fallen würde. Und kaum jemand konnte sich vorstellen, dass es die DDR knapp ein Jahr später nicht mehr geben sollte. Für viele Leipziger aber blieb der 9. Oktober der eigentliche Tag der Befreiung: der Tag, an dem die Angst verschwand.",
   explanation: "The article narrates in the Präteritum, sets the background with the Plusquamperfekt (\"hatten sich versammelt\", \"war nervöser geworden\") and uses \"nachdem\" with the anterior tense. At the climax it switches to the historical present (\"setzt sich ... in Bewegung\", \"greifen nicht ein\") and returns with \"Kaum war ..., da ...\". Simultaneity and sequence come from \"während\", \"unterdessen\", \"innerhalb weniger Wochen\" and \"noch in derselben Nacht\", and the close looks forward with \"würde\" (contemporaries' expectations) and fateful \"sollte\".",
 };

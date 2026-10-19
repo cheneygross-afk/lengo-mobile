@@ -8,18 +8,18 @@ export const DE_C2_U30: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Literatur-, Film- und Kunstkritik, Part 1 of 3",
-    summary: "Talk about literature like a German critic: the present tense of commentary, Handlung and Figur, the three kinds of Erzähler, Erzählzeit and erzählte Zeit, Motiv and Leitmotiv, Novelle and Bildungsroman.",
+    summary: "You'll be able to talk about literature like a German critic: the present tense of commentary, \"Handlung\" and \"Figur\", the three kinds of \"Erzähler\", \"Erzählzeit\" and \"erzählte Zeit\", \"Motiv\" and \"Leitmotiv\", \"Novelle\" and \"Bildungsroman\".",
     duration: "18 min",
     sections: [
       {
         heading: "The present tense of commentary",
         body: [
-          "When Germans write or talk about a book, a film or a painting, they use the present tense, even when the story is set in the past and the author died a century ago: \"Kafka beschreibt\", \"Thomas Mann zeigt\", \"Der Roman erzählt von einem jungen Mann, der...\". The work exists now, every time someone reads it, so you comment on it in the present. English does the same in literary essays (Kafka describes), but German school training makes it almost a law: an Inhaltsangabe (plot summary) is written in the Präsens from start to finish.",
-          "Events that happen before the main action are in the Perfekt, not the Präteritum: \"Gregor ist in einen Käfer verwandelt worden und kann nicht zur Arbeit gehen.\" The Präteritum is the tense of the story itself; once you slip into it, you sound like you are retelling the story instead of analysing it.",
-          "A summary also avoids direct speech. What a character says goes into indirect speech with Konjunktiv I or into a noun: not the quoted words themselves but \"Er kündigt an, er gehe\" or \"Er kündigt seine Abreise an\". Useful openers: \"In der Erzählung geht es um...\", \"Im Mittelpunkt steht...\", \"Der Text handelt von...\" (handeln von, not über).",
+          "When Germans write or talk about a book, a film or a painting, they use the present tense, even when the story is set in the past and the author died a century ago: \"Kafka beschreibt\", \"Thomas Mann zeigt\", \"Der Roman erzählt von einem jungen Mann, der...\". The work exists now, every time someone reads it, so you comment on it in the present. English does the same in literary essays (Kafka describes), but German school training makes it almost a law: an \"Inhaltsangabe\" (plot summary) is written in the Präsens from start to finish.",
+          "Events that happen before the main action are in the Perfekt, not the Präteritum: \"Gregor ist in ein Ungeziefer verwandelt worden und kann nicht zur Arbeit gehen.\" The Präteritum is the tense of the story itself; once you slip into it, you sound like you are retelling the story instead of analysing it.",
+          "A summary also avoids direct speech. What a character says goes into indirect speech with Konjunktiv I or into a noun: not the quoted words themselves but \"Er kündigt an, er gehe\" or \"Er kündigt seine Abreise an\". Useful openers: \"In der Erzählung geht es um...\", \"Im Mittelpunkt steht...\", \"Der Text handelt von...\" (\"handeln von\", not \"über\").",
         ],
         examples: [
-          { es: "In Kafkas „Die Verwandlung“ geht es um einen Handlungsreisenden, der eines Morgens als Ungeziefer erwacht.", en: "Kafka's The Metamorphosis is about a travelling salesman who wakes up one morning as a monstrous insect." },
+          { es: "In Kafkas „Die Verwandlung“ geht es um einen Handlungsreisenden, der eines Morgens als Ungeziefer erwacht.", en: "Kafka's The Metamorphosis is about a travelling salesman who wakes up one morning transformed into vermin." },
           { es: "Der Roman handelt von einer Familie, die nach dem Krieg in Köln neu anfangen muss.", en: "The novel is about a family who have to start again in Cologne after the war." },
           { es: "Im Mittelpunkt steht die Beziehung zwischen Vater und Sohn.", en: "At the centre is the relationship between father and son." },
           { es: "In den „Buddenbrooks“ zeigt Thomas Mann den Verfall einer Kaufmannsfamilie über vier Generationen.", en: "In Buddenbrooks, Thomas Mann shows the decline of a merchant family over four generations." },
@@ -97,7 +97,7 @@ export const DE_C2_U30: Lesson[] = [
       {
         heading: "Time, motifs and genres",
         body: [
-          "German critics distinguish \"die Erzählzeit\" (how long it takes to read the text) and \"die erzählte Zeit\" (how much time passes in the story). When a novel covers years in a page, that is \"Zeitraffung\" (compression); when it spends twenty pages on one evening, \"Zeitdehnung\" (expansion). Joyce's Ulysses covers one day in 700 pages; in German critics' terms, an extreme case of a long Erzählzeit and a short erzählte Zeit.",
+          "German critics distinguish \"die Erzählzeit\" (how long it takes to read the text) and \"die erzählte Zeit\" (how much time passes in the story). When a novel covers years in a page, that is \"Zeitraffung\" (compression); when it spends twenty pages on one evening, \"Zeitdehnung\" (expansion). Joyce's Ulysses covers one day in 700 pages; in German critics' terms, an extreme case of a long \"Erzählzeit\" and a short \"erzählte Zeit\".",
           "\"Das Motiv\" is a recurring element (an object, situation or image) that carries meaning; \"das Leitmotiv\", a word German gave to English via Wagner, is one that runs through the whole work and binds it together. Note the false friend: \"das Motiv\" also means motive in a crime, and the subject of a photo or painting, so context decides.",
           "Two genre labels are worth knowing exactly. \"Die Novelle\" is not a novel (that is \"der Roman\") but a novella: a shorter text built around one \"unerhörte Begebenheit\", an unheard-of event, in Goethe's definition. \"Der Bildungsroman\" follows a young person's development and education into maturity: Goethe's \"Wilhelm Meisters Lehrjahre\" is the model. Note the gender: \"die Novelle\", \"der Roman\", \"das Drama\", \"das Gedicht\".",
         ],
@@ -189,7 +189,7 @@ export const DE_C2_U30: Lesson[] = [
         words: ["Die", "Handlung", "spielt", "1890", "in", "Hamburg."],
         translation: "The plot is set in Hamburg in 1890.",
         altOrders: [["Die", "Handlung", "spielt", "in", "Hamburg", "1890."]],
-        explanation: "To be set in is \"spielen\": \"Die Handlung spielt in...\". A year stands alone in German, without in.",
+        explanation: "To be set in is \"spielen\": \"Die Handlung spielt in...\". A year stands alone in German, without \"in\" (or say \"im Jahr 1890\").",
       },
       {
         type: "translate",
@@ -206,14 +206,14 @@ export const DE_C2_U30: Lesson[] = [
         question: "What does it mean?",
         options: ["Reading the text takes far less time than the time that passes in the story.", "The narrator speaks much faster than the characters.", "The story is told much later than it happened.", "The novel is shorter than the film."],
         correctIndex: 0,
-        explanation: "\"Erzählzeit\" is the reading time, \"erzählte Zeit\" the time covered by the story: a case of Zeitraffung.",
+        explanation: "\"Erzählzeit\" is the reading time, \"erzählte Zeit\" the time covered by the story: a case of \"Zeitraffung\".",
       },
       {
         type: "speak",
         text: "Im Mittelpunkt steht die Beziehung zwischen zwei Schwestern.",
         prompt: "Say it in German: At the centre is the relationship between two sisters.",
         tip: "In \"Beziehung\" the z is ts and the stress is on -zie-: be-ZIE-hung.",
-        explanation: "\"Im Mittelpunkt steht...\" is a standard opener in analysis; the subject comes after the verb because \"im Mittelpunkt\" fills the Vorfeld.",
+        explanation: "\"Im Mittelpunkt steht...\" is a standard opener in analysis; the subject comes after the verb because \"im Mittelpunkt\" fills the first position (the \"Vorfeld\").",
       },
       {
         type: "dictation",
@@ -227,13 +227,13 @@ export const DE_C2_U30: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Word Web: Handlung, Figur, Glaubwürdigkeit",
-    summary: "The vocabulary of plot structure and characters: Spannungsbogen, Wendepunkt, Höhepunkt, Figurenkonstellation, Protagonist and Gegenspieler, and the adjectives critics use to judge a character.",
+    summary: "You'll be able to describe plot structure and characters (\"Spannungsbogen\", \"Wendepunkt\", \"Höhepunkt\", \"Figurenkonstellation\", \"Protagonist\" and \"Gegenspieler\") and judge a character with the adjectives critics use.",
     duration: "16 min",
     sections: [
       {
         heading: "The arc of a story: Spannungsbogen, Wendepunkt, Höhepunkt",
         body: [
-          "\"Der Spannungsbogen\" is the arc of suspense: how tension builds, peaks and falls. Critics say a Spannungsbogen \"wird aufgebaut\", \"hält bis zur letzten Seite\" or \"bricht in der Mitte ein\" (collapses in the middle). \"Spannend\" (gripping, exciting) is the adjective; do not confuse it with \"gespannt\" (eager, curious): \"Ich bin gespannt, wie es ausgeht\".",
+          "\"Der Spannungsbogen\" is the arc of suspense: how tension builds, peaks and falls. Critics say a \"Spannungsbogen\" \"wird aufgebaut\", \"hält bis zur letzten Seite\" or \"bricht in der Mitte ein\" (collapses in the middle). \"Spannend\" (gripping, exciting) is the adjective; do not confuse it with \"gespannt\" (eager, curious): \"Ich bin gespannt, wie es ausgeht\".",
           "\"Der Wendepunkt\" is the turning point, \"der Höhepunkt\" the climax, and the falling action ends in \"die Auflösung\" (resolution) or \"ein offenes Ende\". The plot \"nimmt eine überraschende Wendung\" (takes a surprising turn), and a sudden twist is \"eine Wendung\" or, in film, \"ein Plot-Twist\". \"Die Exposition\" is the opening that introduces the situation and the figures.",
           "Watch the gender: \"der Bogen\", so \"der Spannungsbogen\"; \"der Punkt\", so \"der Wendepunkt\" and \"der Höhepunkt\"; \"die Wendung\" (every -ung is feminine).",
         ],
@@ -243,7 +243,7 @@ export const DE_C2_U30: Lesson[] = [
           { es: "Der Tod des Bruders markiert den Wendepunkt der Handlung.", en: "The brother's death marks the turning point of the plot." },
           { es: "Den Höhepunkt bildet eine Gerichtsszene.", en: "The climax is a courtroom scene." },
           { es: "Im dritten Akt nimmt die Geschichte eine überraschende Wendung.", en: "In the third act, the story takes a surprising turn." },
-          { es: "Der Film endet mit einem offenen Ende, das viele Zuschauer ratlos zurücklässt.", en: "The film ends open, leaving many viewers puzzled." },
+          { es: "Der Film hat ein offenes Ende, das viele Zuschauer ratlos zurücklässt.", en: "The film has an open ending that leaves many viewers puzzled." },
         ],
         checkpoint: [
           {
@@ -260,7 +260,7 @@ export const DE_C2_U30: Lesson[] = [
             question: "A reviewer writes \"Der Spannungsbogen bricht nach der Hälfte ein.\" What does she mean?",
             options: ["The tension collapses halfway through.", "The suspense reaches its peak halfway through.", "The book breaks off in the middle.", "The arc of the story is too complicated."],
             correctIndex: 0,
-            explanation: "\"Einbrechen\" here means to collapse or drop sharply, like sales or a roof. A Spannungsbogen that \"bricht ein\" no longer holds the reader.",
+            explanation: "\"Einbrechen\" here means to collapse or drop sharply, like sales or a roof. A \"Spannungsbogen\" that \"bricht ein\" no longer holds the reader.",
           },
         ],
       },
@@ -446,7 +446,7 @@ export const DE_C2_U30: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Literatur-, Film- und Kunstkritik, Part 2 of 3",
-    summary: "The language of film and theatre criticism: Einstellung, Totale, Nahaufnahme, Schnitt, Kameraführung, Drehbuch and Regie; the Neuer Deutscher Film and Das Leben der Anderen; Brecht's epic theatre and the Verfremdungseffekt, with participial attributes.",
+    summary: "You'll be able to write about film and theatre (\"Einstellung\", \"Totale\", \"Nahaufnahme\", \"Schnitt\", \"Kameraführung\", \"Drehbuch\", \"Regie\"), discuss New German Cinema, \"Das Leben der Anderen\" and Brecht's \"Verfremdungseffekt\", and pack information into participial attributes.",
     duration: "18 min",
     sections: [
       {
@@ -496,7 +496,7 @@ export const DE_C2_U30: Lesson[] = [
       {
         heading: "German film and the participial attribute",
         body: [
-          "Two moments of German film history come up in every review. In 1962 young filmmakers signed the \"Oberhausener Manifest\" (\"Papas Kino ist tot\"), which led to \"der Neue Deutsche Film\": Fassbinder, Herzog, Wenders, Schlöndorff, Margarethe von Trotta. And \"Das Leben der Anderen\" (2006) by Florian Henckel von Donnersmarck, about a Stasi officer spying on a writer in East Berlin, won the Oscar for best foreign-language film in 2007.",
+          "Two moments of German film history come up in every review. In 1962 young filmmakers signed the \"Oberhausener Manifest\" (remembered by the slogan \"Papas Kino ist tot\"), which led to \"der Neue Deutsche Film\": Fassbinder, Herzog, Wenders, Schlöndorff, Margarethe von Trotta. And \"Das Leben der Anderen\" (2006) by Florian Henckel von Donnersmarck, about a Stasi officer spying on a writer in East Berlin, won the Oscar for best foreign-language film in 2007.",
           "Criticism packs information into participial attributes before the noun, where English uses a relative clause after it: \"der 2006 erschienene Film\" (the film, which was released in 2006), \"der mit einem Oscar ausgezeichnete Film\" (the film that won an Oscar), \"die von Ulrich Mühe gespielte Figur\" (the character played by Ulrich Mühe). Everything that depends on the participle stands between the article and the participle, and the participle takes the normal adjective ending.",
           "Use the Partizip II for passive or completed meaning (\"der gedrehte Film\", the film that was shot) and the Partizip I for active, ongoing meaning (\"der überwachende Stasi-Offizier\", the officer doing the surveillance). A relative clause is always a correct alternative, and in speech it is usually the better one.",
         ],
@@ -533,7 +533,7 @@ export const DE_C2_U30: Lesson[] = [
         heading: "Brecht: episches Theater and Verfremdung",
         body: [
           "Bertolt Brecht's \"episches Theater\" rejects the theatre of illusion in which the audience identifies with the hero and forgets itself. The spectators should stay at a distance, watch critically and ask whether things have to be the way they are. Brecht calls the techniques for this \"Verfremdungseffekte\" (V-Effekte): actors step out of their roles and speak to the audience, songs interrupt the action, placards announce what will happen, the lighting and the stage machinery stay visible.",
-          "\"Verfremdung\" is not alienation in the Marxist sense (that is \"Entfremdung\"); it means making the familiar look strange so that you notice it. English uses estrangement or distancing effect. This pair, \"Verfremdung\" vs \"Entfremdung\", is a favourite exam trap.",
+          "\"Verfremdung\" is not alienation in the Marxist sense (that is \"Entfremdung\"); it means making the familiar look strange so that you notice it. English often says alienation effect, which invites exactly this confusion; estrangement or distancing effect is closer. This pair, \"Verfremdung\" vs \"Entfremdung\", is a favourite exam trap.",
           "In theatre reviews: \"das Stück\" (the play), \"die Inszenierung\" (production), \"inszenieren\" (to stage), \"das Bühnenbild\" (set), \"die Uraufführung\" (world premiere), \"die Premiere\" (opening night of a production), \"das Ensemble\", and the director is \"der Regisseur\" here too.",
         ],
         examples: [
@@ -670,14 +670,14 @@ export const DE_C2_U30: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Text Detective: Die Filmkritik",
-    summary: "Take apart a feuilleton film review in the style of Die Zeit or the FAZ: how it is built, which words carry the judgement, where irony and litotes hide, and what the critic's final verdict really is.",
+    summary: "You'll be able to take apart a feuilleton film review in the style of \"Die Zeit\" or the \"FAZ\": how it is built, which words carry the judgement, where irony and litotes hide, and what the critic's final verdict really is.",
     duration: "20 min",
     sections: [
       {
         heading: "The opening: hook, context, plot",
         body: [
           "A German feuilleton review rarely starts with the verdict. It opens with a scene, a paradox or a provocation, places the film in context (the director's earlier work, the novel it adapts, the festival where it premiered), and only then sketches the plot in the present tense. Here is the opening of a review of a fictional film, \"Das Haus am See\" by Carla Wendt:",
-          "„Es gibt Filme, die man nach zehn Minuten durchschaut hat, und solche, die einen noch Tage später verfolgen. Carla Wendts drittes Werk, das in diesem Jahr im Wettbewerb der Berlinale lief, gehört zu keiner der beiden Kategorien, und das ist nicht unbedingt ein Kompliment. Erzählt wird die Geschichte dreier Geschwister, die nach dem Tod der Mutter in deren Haus an einem brandenburgischen See zusammenkommen, um den Nachlass zu ordnen.“",
+          "\"Es gibt Filme, die man nach zehn Minuten durchschaut hat, und solche, die einen noch Tage später verfolgen. Carla Wendts drittes Werk, das in diesem Jahr im Wettbewerb der Berlinale lief, gehört zu keiner der beiden Kategorien, und das ist nicht unbedingt ein Kompliment. Erzählt wird die Geschichte dreier Geschwister, die nach dem Tod der Mutter in deren Haus an einem brandenburgischen See zusammenkommen, um den Nachlass zu ordnen.\"",
           "Notice three devices. The opening sets up a contrast and then refuses both sides: the reader expects praise or condemnation and gets neither, which already signals reservation. \"Nicht unbedingt ein Kompliment\" is a litotes (understatement): not necessarily a compliment means a criticism. And \"Erzählt wird die Geschichte...\" fronts the participle to put the plot in the spotlight, a favourite feuilleton move.",
         ],
         examples: [
@@ -719,8 +719,8 @@ export const DE_C2_U30: Lesson[] = [
         heading: "The middle: praise, but",
         body: [
           "The second part weighs strengths and weaknesses. Read the next paragraph and mark every word that judges:",
-          "„Man kann Wendt nicht vorwerfen, sie verstehe ihr Handwerk nicht. Die Bilder, die Kameramann Jonas Pohl vom nebligen Seeufer einfängt, sind von bestechender Schönheit, und Nina Hoss spielt die älteste Schwester mit jener kontrollierten Kälte, die man an ihr schätzt. Doch was nützt die schönste Totale, wenn das Drehbuch den Figuren nichts zu sagen gibt? Die Dialoge kreisen um Erbschaftsfragen und alte Kränkungen, ohne je zuzuspitzen; der angekündigte Familienkonflikt bleibt eine Behauptung.“",
-          "The pattern is concession then attack: first \"man kann ihr nicht vorwerfen\" (you can't accuse her of...) and real praise (\"von bestechender Schönheit\", of captivating beauty), then \"Doch\" and a rhetorical question that turns the praise against the film. \"Bleibt eine Behauptung\" (remains a mere assertion) is a typical feuilleton put-down: the film claims a conflict but never shows it. \"Ohne je zuzuspitzen\" (without ever coming to a head) criticises the missing Spannungsbogen.",
+          "\"Man kann Wendt nicht vorwerfen, sie verstehe ihr Handwerk nicht. Die Bilder, die Kameramann Jonas Pohl vom nebligen Seeufer einfängt, sind von bestechender Schönheit, und Lea Brandt spielt die älteste Schwester mit jener kontrollierten Kälte, die man an ihr schätzt. Doch was nützt die schönste Totale, wenn das Drehbuch den Figuren nichts zu sagen gibt? Die Dialoge kreisen um Erbschaftsfragen und alte Kränkungen, ohne je zuzuspitzen; der angekündigte Familienkonflikt bleibt eine Behauptung.\"",
+          "The pattern is concession then attack: first \"man kann ihr nicht vorwerfen\" (you can't accuse her of...) and real praise (\"von bestechender Schönheit\", of captivating beauty), then \"Doch\" and a rhetorical question that turns the praise against the film. \"Bleibt eine Behauptung\" (remains a mere assertion) is a typical feuilleton put-down: the film claims a conflict but never shows it. \"Ohne je zuzuspitzen\" (without ever coming to a head) criticises the missing \"Spannungsbogen\".",
         ],
         examples: [
           { es: "Man kann ihr nicht vorwerfen, sie verstehe ihr Handwerk nicht.", en: "You can't accuse her of not knowing her craft." },
@@ -753,7 +753,7 @@ export const DE_C2_U30: Lesson[] = [
         heading: "The verdict: reading between the lines",
         body: [
           "The last paragraph gives the verdict, often with Konjunktiv II to soften it and irony to sharpen it:",
-          "„Am Ende, wenn die Geschwister im Morgengrauen schweigend am Steg sitzen, ahnt man, welcher Film das hätte werden können: eine Studie über die Sprachlosigkeit einer Familie, in der niemand je gesagt hat, was er meint. So aber bleibt ein handwerklich makelloser, seltsam blutleerer Film, dem man mehr Mut zum Risiko gewünscht hätte. Immerhin: Der See ist wunderschön.“",
+          "\"Am Ende, wenn die Geschwister im Morgengrauen schweigend am Steg sitzen, ahnt man, welcher Film das hätte werden können: eine Studie über die Sprachlosigkeit einer Familie, in der niemand je gesagt hat, was er meint. So aber bleibt ein handwerklich makelloser, seltsam blutleerer Film, dem man mehr Mut zum Risiko gewünscht hätte. Immerhin: Der See ist wunderschön.\"",
           "\"Welcher Film das hätte werden können\" (what film this could have been) is Konjunktiv II of the past with a double infinitive: the critic describes the better film that does not exist. \"Dem man mehr Mut gewünscht hätte\" is a soft but clear criticism. \"Handwerklich makellos, seltsam blutleer\" pairs praise of craft with a damning judgement of life. And the final \"Immerhin: Der See ist wunderschön\" is ironic: praising only the lake means there is nothing else to praise. Verdict: technically accomplished, emotionally empty, not recommended.",
         ],
         examples: [
@@ -889,13 +889,13 @@ export const DE_C2_U30: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Literatur-, Film- und Kunstkritik, Part 3 of 3",
-    summary: "Describe and discuss paintings and exhibitions: Gemälde, Leinwand, Pinselstrich, Komposition, positions in the picture, and the movements a German critic takes for granted: Expressionismus, Die Brücke, Bauhaus and the documenta.",
+    summary: "You'll be able to describe and discuss paintings and exhibitions (\"Gemälde\", \"Leinwand\", \"Pinselstrich\", \"Komposition\", positions in the picture) and the movements a German critic takes for granted: \"Expressionismus\", \"Die Brücke\", \"Bauhaus\" and the \"documenta\".",
     duration: "18 min",
     sections: [
       {
         heading: "Describing a painting: where things are",
         body: [
-          "A German Bildbeschreibung moves systematically through the picture: \"im Vordergrund\" (in the foreground), \"im Mittelgrund\", \"im Hintergrund\"; \"links oben\" / \"oben links\" (top left), \"rechts unten\" (bottom right), \"in der Bildmitte\" (in the centre), \"am linken Bildrand\" (on the left edge). Left and right are always seen from the viewer, as in English.",
+          "A German \"Bildbeschreibung\" moves systematically through the picture: \"im Vordergrund\" (in the foreground), \"im Mittelgrund\", \"im Hintergrund\"; \"links oben\" / \"oben links\" (top left), \"rechts unten\" (bottom right), \"in der Bildmitte\" (in the centre), \"am linken Bildrand\" (on the left edge). Left and right are always seen from the viewer, as in English.",
           "The verbs are static and in the present: \"zu sehen sein\" (\"Im Vordergrund ist eine Frau zu sehen\"), \"sich befinden\", \"stehen\", \"liegen\", \"erkennen\" (\"Im Hintergrund erkennt man eine Stadt\"), \"dargestellt sein\" (\"Dargestellt ist ein Mann am Meer\"). Avoid \"es gibt\" in a careful description; it sounds childish here.",
           "Two words for picture: \"das Bild\" is general, \"das Gemälde\" is a painting (in oil, acrylic), \"die Zeichnung\" a drawing, \"das Aquarell\" a watercolour. \"Die Leinwand\" is the canvas (and also the cinema screen).",
         ],
@@ -933,7 +933,7 @@ export const DE_C2_U30: Lesson[] = [
         body: [
           "To analyse rather than describe, talk about \"die Komposition\" (how the picture is built: diagonals, symmetry, the golden section), \"die Farbgebung\" or \"die Farbpalette\" (use of colour), \"der Pinselstrich\" (brushstroke: \"pastos\" thick, \"fein\", \"flüchtig\" quick and loose), \"die Perspektive\" and \"das Licht\" (\"Das Licht fällt von links ein\").",
           "Colours can be \"gedeckt\" (muted), \"leuchtend\" (luminous), \"grell\" (garish), \"kalt\" or \"warm\". A painting \"wirkt\" (has an effect): \"bedrohlich\", \"melancholisch\", \"heiter\". Use participial attributes for precision: \"die in kräftigen Farben gemalte Landschaft\", \"der mit wenigen Strichen angedeutete Kopf\" (the head suggested with a few strokes).",
-          "German has no single word for the English \"art piece\": say \"das Kunstwerk\", \"das Werk\" or name the medium. And \"modern\" in German art history usually means \"die Moderne\" (roughly 1880 to 1960); art since then is \"die Gegenwartskunst\" or \"zeitgenössische Kunst\".",
+          "German has no single word for the English 'art piece': say \"das Kunstwerk\", \"das Werk\" or name the medium. And \"modern\" in German art history usually means \"die Moderne\" (roughly 1880 to 1960); art since then is \"die Gegenwartskunst\" or \"zeitgenössische Kunst\".",
         ],
         examples: [
           { es: "Die Komposition ist streng symmetrisch aufgebaut.", en: "The composition is strictly symmetrical." },
@@ -1002,12 +1002,12 @@ export const DE_C2_U30: Lesson[] = [
             question: "Which statement about the Bauhaus is right?",
             options: ["It was a school of design founded by Walter Gropius in Weimar in 1919.", "It was a group of Expressionist painters in Dresden.", "It is an exhibition held every five years in Kassel.", "It was a Nazi exhibition of degenerate art."],
             correctIndex: 0,
-            explanation: "The Bauhaus was a school (Weimar, Dessau, Berlin, 1919-1933). Die Brücke was in Dresden, the documenta is in Kassel.",
+            explanation: "The Bauhaus was a school (Weimar, Dessau, Berlin, 1919-1933). \"Die Brücke\" was in Dresden, the \"documenta\" is in Kassel.",
           },
           {
             type: "speak",
             text: "Die Künstlergruppe Die Brücke wurde 1905 in Dresden gegründet.",
-            tip: "Read the year as neunzehnhundertfünf, and keep the ü in Brücke rounded: lips forward, tongue as for i.",
+            tip: "Read the year as \"neunzehnhundertfünf\", and keep the ü in \"Brücke\" rounded: lips forward, tongue as for i.",
             explanation: "Passive past for historical facts: \"wurde ... gegründet\".",
           },
         ],
@@ -1086,13 +1086,13 @@ export const DE_C2_U30: Lesson[] = [
       {
         type: "dictation",
         audio: "Die Farbgebung ist gedeckt, fast monochrom.",
-        explanation: "\"Die Farbgebung\" (use of colour) is one word; \"monochrom\" is spelled with ch, as in Chrom.",
+        explanation: "\"Die Farbgebung\" (use of colour) is one word; \"monochrom\" is spelt with ch, as in \"Chrom\".",
       },
       {
         type: "speak",
         text: "Im Hintergrund erkennt man die Silhouette einer Stadt.",
         prompt: "Say it in German: In the background you can make out the outline of a city.",
-        tip: "Silhouette is pronounced the French way: si-lu-ET-te.",
+        tip: "\"Silhouette\" is pronounced the French way: si-lu-ET-te.",
         explanation: "\"Erkennen\" (make out) is more precise than \"sehen\" for something distant or vague.",
       },
     ],
@@ -1101,8 +1101,8 @@ export const DE_C2_U30: Lesson[] = [
     slug: "c2-critical-evaluation-scale-contrast",
     level: "DE-C2",
     number: 6,
-    title: "Contrast Clinic: Die Skala des Kritischen Urteils",
-    summary: "Grade a critic's judgement precisely, from Meisterwerk to Machwerk, through gelungen, solide, durchwachsen, misslungen and ärgerlich, and spot the hedges, litotes and irony that change the meaning.",
+    title: "Contrast Clinic: Die Skala des kritischen Urteils",
+    summary: "You'll be able to grade a critic's judgement precisely, from \"Meisterwerk\" to \"Machwerk\" through \"gelungen\", \"solide\", \"durchwachsen\", \"misslungen\" and \"ärgerlich\", and spot the hedges, litotes and irony that change the meaning.",
     duration: "18 min",
     sections: [
       {
@@ -1214,8 +1214,8 @@ export const DE_C2_U30: Lesson[] = [
             prompt: "Translate into German.",
             source: "A little less pathos would have done the book good.",
             answer: "Etwas weniger Pathos hätte dem Buch gutgetan.",
-            altAnswers: ["Ein bisschen weniger Pathos hätte dem Buch gutgetan.", "Etwas weniger Pathos hätte dem Buch gut getan.", "Weniger Pathos hätte dem Buch gutgetan."],
-            explanation: "Konjunktiv II past (\"hätte ... gutgetan\") turns a criticism into a polite wish. \"Gut tun\" takes the dative: \"dem Buch\".",
+            altAnswers: ["Ein bisschen weniger Pathos hätte dem Buch gutgetan.", "Weniger Pathos hätte dem Buch gutgetan."],
+            explanation: "Konjunktiv II past (\"hätte ... gutgetan\") turns a criticism into a polite wish. \"Guttun\" (one word since the spelling reform) takes the dative: \"dem Buch\".",
           },
           {
             type: "speak",
@@ -1320,8 +1320,8 @@ export const DE_C2_U30: Lesson[] = [
         type: "speak",
         text: "Etwas weniger Pathos hätte dem Film gutgetan.",
         prompt: "Say it in German: A little less pathos would have done the film good.",
-        tip: "Pathos is stressed on the first syllable: PA-tos, with a clear t.",
-        explanation: "Konjunktiv II past as a polite criticism; \"gut tun\" with the dative.",
+        tip: "\"Pathos\" is stressed on the first syllable: PA-tos, with a clear t.",
+        explanation: "Konjunktiv II past as a polite criticism; \"guttun\" with the dative.",
       },
       {
         type: "translate",
@@ -1368,7 +1368,7 @@ export const DE_C2_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence belongs in the Einordnung (context) of a short review?",
+            question: "Which sentence belongs in the \"Einordnung\" (context) of a short review?",
             options: ["Nach „Corpus Delicti“ legt Juli Zeh einen großen Gesellschaftsroman vor.", "Fazit: unbedingt lesen.", "Im Dorf streiten alle über den Windpark.", "Ich finde das Buch eigentlich ziemlich gut."],
             correctIndex: 0,
             explanation: "Context places the work in the author's career. \"Vorlegen\" (to present, bring out) is the critic's verb for publishing a book.",
@@ -1421,7 +1421,7 @@ export const DE_C2_U30: Lesson[] = [
         heading: "A model review, 150 words",
         body: [
           "Here is a model review of Daniel Kehlmann's novel \"Die Vermessung der Welt\" (2005). Count the moves:",
-          "„Zwei Genies, die einander nicht ausstehen können, vermessen die Welt: der eine im Urwald, der andere am Schreibtisch. Daniel Kehlmanns 2005 erschienener Roman, einer der größten deutschen Bucherfolge der Nachkriegszeit, erzählt die Lebenswege Alexander von Humboldts und Carl Friedrich Gauß’ als Doppelbiografie, die 1828 in einer Begegnung in Berlin gipfelt. Das Besondere ist die Form: Fast der gesamte Text steht in indirekter Rede, was den Figuren eine komische Distanz verleiht. Kehlmann besticht durch Witz und Tempo; Humboldts Pedanterie und Gauß’ Grobheit sind herrlich überzeichnet, ohne je zur Karikatur zu verkommen. Wer historische Genauigkeit erwartet, wird allerdings enttäuscht: Kehlmann erfindet frei. Einzig im Mittelteil hat der Roman seine Längen. Fazit: ein kluges, ungemein unterhaltsames Buch über Wissenschaft, Ruhm und das Altern, das man auch beim zweiten Lesen nicht aus der Hand legt.“",
+          "\"Zwei Genies, die einander nicht ausstehen können, vermessen die Welt: der eine im Urwald, der andere am Schreibtisch. Daniel Kehlmanns 2005 erschienener Roman, einer der größten deutschen Bucherfolge der Nachkriegszeit, erzählt die Lebenswege Alexander von Humboldts und Carl Friedrich Gauß’ als Doppelbiografie, die 1828 in einer Begegnung in Berlin gipfelt. Das Besondere ist die Form: Fast der gesamte Text steht in indirekter Rede, was den Figuren eine komische Distanz verleiht. Kehlmann besticht durch Witz und Tempo; Humboldts Pedanterie und Gauß’ Grobheit sind herrlich überzeichnet, ohne je zur Karikatur zu verkommen. Wer historische Genauigkeit erwartet, wird allerdings enttäuscht: Kehlmann erfindet frei. Einzig im Mittelteil hat der Roman seine Längen. Fazit: ein kluges, ungemein unterhaltsames Buch über Wissenschaft, Ruhm und das Altern, das man auch beim zweiten Lesen nicht aus der Hand legt.\"",
         ],
         examples: [
           { es: "Zwei Genies, die einander nicht ausstehen können, vermessen die Welt.", en: "Two geniuses who can't stand each other measure the world." },
@@ -1445,7 +1445,7 @@ export const DE_C2_U30: Lesson[] = [
             question: "What is the function of \"Wer historische Genauigkeit erwartet, wird allerdings enttäuscht\" in the model?",
             options: ["It names a weakness and tells a certain kind of reader what to expect.", "It is the hook.", "It summarises the plot.", "It is the final verdict."],
             correctIndex: 0,
-            explanation: "\"Wer ..., wird ...\" targets a group of readers; \"allerdings\" marks the shift to criticism within the Bewertung.",
+            explanation: "\"Wer ..., wird ...\" targets a group of readers; \"allerdings\" marks the shift to criticism within the \"Bewertung\".",
           },
         ],
       },
@@ -1549,13 +1549,13 @@ export const DE_C2_U30: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Mastery Vocabulary: The Language of Headlines",
-    summary: "Read and write German headlines: dropped articles and verbs, the present tense for past events, bare participles, and the punchy nouns of the press: Eklat, Debakel, Wende, Machtwort, Paukenschlag, Rückzieher, Zoff.",
+    summary: "You'll be able to read and write German headlines (dropped articles and verbs, the present tense for past events, bare participles) and use the punchy nouns of the press: \"Eklat\", \"Debakel\", \"Wende\", \"Machtwort\", \"Paukenschlag\", \"Rückzieher\", \"Zoff\".",
     duration: "16 min",
     sections: [
       {
         heading: "Headline grammar",
         body: [
-          "German headlines (\"Schlagzeilen\") follow their own grammar. Articles disappear (\"Kanzler reist nach Paris\"), and so do auxiliaries: the bare participle replaces a passive or Perfekt (\"Täter gefasst\" = der Täter ist gefasst worden; \"Brücke gesperrt\"). Things that happened yesterday are in the Präsens: \"Bahn erhöht Preise\".",
+          "German headlines (\"Schlagzeilen\") follow their own grammar. Articles disappear (\"Kanzler reist nach Paris\"), and so do auxiliaries: the bare participle replaces a passive or Perfekt (\"Täter gefasst\" = \"Der Täter ist gefasst worden\"; \"Brücke gesperrt\"). Things that happened yesterday are in the Präsens: \"Bahn erhöht Preise\".",
           "Many headlines have no verb at all, just a noun phrase or a colon structure: \"Mehr Geld für Pflegekräfte\", \"Streik bei der Lufthansa: Hunderte Flüge fallen aus\". The colon separates topic and news. A quotation comes after the speaker's name and a colon, in quotation marks, as in the last example below.",
           "Two modal tricks: \"soll\" reports an allegation (\"Minister soll Gelder veruntreut haben\": is alleged to have embezzled), and the Konjunktiv I or a question mark distances the paper from a claim (\"Steht die Koalition vor dem Aus?\").",
         ],
@@ -1590,7 +1590,7 @@ export const DE_C2_U30: Lesson[] = [
       {
         heading: "Scandal and drama: Eklat, Debakel, Paukenschlag",
         body: [
-          "\"Der Eklat\" (from French éclat) is a public scandal or row, usually a dramatic moment: someone storms out, insults the host, breaks protocol. \"Es kam zum Eklat\" (it ended in a scandal). \"Das Debakel\" is a humiliating defeat or fiasco (\"Wahldebakel\", \"WM-Debakel\").",
+          "\"Der Eklat\" (borrowed from French) is a public scandal or row, usually a dramatic moment: someone storms out, insults the host, breaks protocol. \"Es kam zum Eklat\" (it ended in a scandal). \"Das Debakel\" is a humiliating defeat or fiasco (\"Wahldebakel\", \"WM-Debakel\").",
           "\"Der Paukenschlag\" (literally a kettledrum stroke) is a bombshell, sudden spectacular news: \"Paukenschlag bei Bayern: Trainer entlassen\". \"Die Wende\" is a turning point, and with the article \"die Wende\" alone almost always means 1989-90 in Germany, the fall of the Wall and the end of the GDR.",
           "Be careful with register: these are press words. In a neutral report you would say \"ein Skandal\", \"eine schwere Niederlage\", \"eine überraschende Nachricht\".",
         ],
@@ -1610,7 +1610,7 @@ export const DE_C2_U30: Lesson[] = [
             source: "There was a scandal at the gala.",
             answer: "Bei der Gala kam es zum Eklat.",
             altAnswers: ["Auf der Gala kam es zum Eklat.", "Bei der Gala kam es zu einem Eklat.", "Auf der Gala kam es zu einem Eklat.", "Es kam bei der Gala zum Eklat."],
-            explanation: "\"Es kommt zum Eklat\" (it comes to a scandal) is the standard collocation; \"zum\" because the scandal is the climax of the evening.",
+            explanation: "\"Es kommt zum Eklat\" (literally it comes to a scandal) is the standard collocation; \"zu einem Eklat\" is also correct.",
           },
           {
             type: "fill-blank",
@@ -1634,7 +1634,7 @@ export const DE_C2_U30: Lesson[] = [
       {
         heading: "Power and conflict: Machtwort, Rückzieher, Zoff",
         body: [
-          "\"Ein Machtwort sprechen\" is to put one's foot down, to settle a dispute by authority: \"Kanzlerin spricht Machtwort im Rentenstreit\". \"Einen Rückzieher machen\" is to back down, to withdraw an announcement: \"Ministerium macht Rückzieher bei Heizungsgesetz\".",
+          "\"Ein Machtwort sprechen\" is to put one's foot down, to settle a dispute by authority: \"Kanzler spricht Machtwort im Rentenstreit\". \"Einen Rückzieher machen\" is to back down, to withdraw an announcement: \"Ministerium macht Rückzieher bei Heizungsgesetz\".",
           "\"Der Zoff\" is colloquial for a row, a quarrel (\"Zoff in der Koalition\", \"Zoff um das Erbe\"); tabloids love it. Similar: \"der Knatsch\" (squabble), \"der Krach\", \"der Streit\" (neutral). \"Der Krisengipfel\" is a crisis summit, \"das Aus\" the end (\"das Aus für den Verbrennungsmotor\"), \"der Showdown\" the final confrontation.",
           "Many headline words are noun + verb collocations: \"ein Machtwort sprechen\", \"einen Rückzieher machen\", \"die Reißleine ziehen\" (pull the ripcord, stop something before disaster), \"Rückenwind bekommen\" (get a boost).",
         ],
@@ -1719,7 +1719,7 @@ export const DE_C2_U30: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Konzern zieht die Reißleine\" What does the company do?",
+        question: "A headline reads: \"Konzern zieht die Reißleine\". What does the company do?",
         options: ["It stops a failing project before things get worse.", "It launches a new parachute brand.", "It pulls ahead of its competitors.", "It sues a rival firm."],
         correctIndex: 0,
         explanation: "\"Die Reißleine ziehen\" (pull the ripcord): stop something in time to avoid disaster.",
@@ -1736,9 +1736,9 @@ export const DE_C2_U30: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order to say (headline): Chancellor puts foot down in pension dispute",
-        words: ["Kanzlerin", "spricht", "Machtwort", "im", "Rentenstreit"],
+        words: ["Kanzler", "spricht", "Machtwort", "im", "Rentenstreit"],
         translation: "Chancellor puts foot down in pension dispute",
-        explanation: "Headline: no articles before \"Kanzlerin\" and \"Machtwort\", verb in the Präsens and in second place.",
+        explanation: "Headline: no articles before \"Kanzler\" and \"Machtwort\", verb in the Präsens and in second place.",
       },
       {
         type: "translate",
@@ -1777,5 +1777,5 @@ export const DE_C2_U30_WRITING: WriteExercise = {
     "Grades the judgement with litotes or Konjunktiv II (\"nicht ohne Reiz\", \"alles andere als gelungen\", \"man hätte sich ... gewünscht\") and ends with a clear \"Fazit\"",
   ],
   modelAnswer: "Es gibt Filme, die man vergisst, sobald das Licht im Kino angeht, und es gibt „Das Leben der Anderen“. Florian Henckel von Donnersmarcks 2006 erschienenes Regiedebüt, ein Jahr später mit dem Oscar für den besten fremdsprachigen Film ausgezeichnet, gehört eindeutig zur zweiten Sorte.\n\nOst-Berlin, 1984: Stasi-Hauptmann Gerd Wiesler, ein pedantischer, linientreuer Verhörspezialist, soll den erfolgreichen Dramatiker Georg Dreyman und dessen Lebensgefährtin, die Schauspielerin Christa-Maria Sieland, überwachen. Doch je länger Wiesler auf dem Dachboden mithört, desto mehr gerät seine Weltanschauung ins Wanken. Aus dem Überwacher wird allmählich ein heimlicher Beschützer.\n\nDie größte Stärke des Films ist Ulrich Mühe. Mit minimaler Mimik macht er die Wandlung Wieslers glaubwürdig: Ein Zucken im Gesicht, ein zu langes Zögern genügen. Die Kameraführung ist ruhig und unaufdringlich, die gedeckte Farbgebung in Grau-, Braun- und Grüntönen lässt die DDR beklemmend eng wirken. Besonders gelungen ist die Szene, in der Wiesler, allein in seiner kahlen Wohnung, Brecht-Gedichte liest: Hier zeigt der Film, was Kunst bewirken kann, ohne es auszusprechen.\n\nGanz ohne Schwächen ist das Werk allerdings nicht. Der Minister Hempf ist als Bösewicht stark überzeichnet, und gerade die einzige zentrale Frauenfigur bleibt seltsam blass; man hätte Christa-Maria Sieland mehr Tiefe gewünscht. Historiker haben zudem kritisiert, dass ein solcher Gesinnungswandel eines Stasi-Offiziers kaum belegt sei. Das ist berechtigt, trifft aber nicht den Kern: Der Film will kein Dokument sein, sondern eine Parabel über die Frage, ob ein Mensch sich ändern kann.\n\nFazit: ein bewegender, klug gebauter Film, der seine Längen hat, aber bis zur letzten, wunderbar lakonischen Szene trägt. Ein Muss für alle, die sich für die deutsche Geschichte interessieren, und für alle anderen auch.",
-  explanation: "The model keeps the film in the present tense (\"soll ... überwachen\", \"zeigt\") and its history in the past (\"erschienenes\", \"ausgezeichnet\"). It compresses facts with participial attributes and appositions (\"Florian Henckel von Donnersmarcks 2006 erschienenes Regiedebüt\", \"ein pedantischer, linientreuer Verhörspezialist\"), grades its judgement (\"ganz ohne Schwächen ... nicht\", \"man hätte ... gewünscht\") and reports the historians' objection in Konjunktiv I (\"kaum belegt sei\") before ending with a clear Fazit.",
+  explanation: "The model keeps the film in the present tense (\"soll ... überwachen\", \"zeigt\") and its history in the past (\"erschienenes\", \"ausgezeichnet\"). It compresses facts with participial attributes and appositions (\"Florian Henckel von Donnersmarcks 2006 erschienenes Regiedebüt\", \"ein pedantischer, linientreuer Verhörspezialist\"), grades its judgement (\"ganz ohne Schwächen ... nicht\", \"man hätte ... gewünscht\") and reports the historians' objection in Konjunktiv I (\"kaum belegt sei\") before ending with a clear \"Fazit\".",
 };

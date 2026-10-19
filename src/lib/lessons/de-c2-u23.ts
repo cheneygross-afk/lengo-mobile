@@ -8,7 +8,7 @@ export const DE_C2_U23: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Konfliktlösung und Mediation, Part 1 of 7",
-    summary: "De-escalate with Ich-Botschaften instead of Du-Botschaften, avoid absolutes like immer and nie, and use the four steps of gewaltfreie Kommunikation: Beobachtung, Gefühl, Bedürfnis, Bitte.",
+    summary: "De-escalate a conflict with \"Ich-Botschaften\" instead of \"Du-Botschaften\", replace absolutes like \"immer\" and \"nie\" with facts, and make a request in the four steps of \"gewaltfreie Kommunikation\": \"Beobachtung\", \"Gefühl\", \"Bedürfnis\", \"Bitte\".",
     duration: "18 min",
     sections: [
       {
@@ -107,7 +107,7 @@ export const DE_C2_U23: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[Tidiness matters to me].",
+            en: "Tidiness matters [to me].",
             sentence: "___ ist Ordnung wichtig.",
             answer: "Mir",
             explanation: "\"Mir ist ... wichtig\": the thing that matters is the subject, the person is in the dative. The Bedürfnis step of GFK.",
@@ -143,10 +143,10 @@ export const DE_C2_U23: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "When I'm interrupted, I [feel] not respected.",
+        en: "When I'm interrupted, I don't [feel] respected.",
         sentence: "Wenn ich unterbrochen werde, ___ ich mich nicht respektiert.",
         answer: "fühle",
-        explanation: "\"Sich fühlen\" + participle; after the wenn clause the main verb comes first.",
+        explanation: "\"Sich fühlen\" + participle. The wenn clause fills position one, so the finite verb \"fühle\" comes straight after it, before \"ich\".",
       },
       {
         type: "multiple-choice",
@@ -195,7 +195,7 @@ export const DE_C2_U23: Lesson[] = [
         prompt: "Translate into German.",
         source: "In the last three meetings my item was postponed.",
         answer: "In den letzten drei Meetings wurde mein Punkt vertagt.",
-        altAnswers: ["In den letzten drei Besprechungen wurde mein Punkt vertagt.", "In den letzten drei Meetings wurde mein Thema vertagt.", "In den letzten drei Meetings ist mein Punkt vertagt worden.", "In den letzten drei Meetings wurde mein Tagesordnungspunkt verschoben."],
+        altAnswers: ["In den letzten drei Besprechungen wurde mein Punkt vertagt.", "In den letzten drei Meetings wurde mein Thema vertagt.", "In den letzten drei Meetings ist mein Punkt vertagt worden.", "In den letzten drei Meetings wurde mein Tagesordnungspunkt verschoben.", "In den letzten drei Meetings wurde mein Punkt verschoben."],
         explanation: "Specific instead of \"ständig\". \"Vertagen\" is to postpone to a later meeting.",
       },
       {
@@ -210,8 +210,8 @@ export const DE_C2_U23: Lesson[] = [
     slug: "c2-deescalate-transformations",
     level: "DE-C2",
     number: 2,
-    title: "Transformations: Vom Satz, der Anheizt, zum Satz, der Beruhigt",
-    summary: "Rewrite inflammatory sentences (Das ist doch Quatsch!, Du machst das immer so!) into de-escalating ones, and see how particles like doch, immer and halt shift the tone.",
+    title: "Transformations: Vom Satz, der anheizt, zum Satz, der beruhigt",
+    summary: "Rewrite inflammatory sentences (\"Das ist doch Quatsch!\", \"Du machst das immer so!\") into de-escalating ones, and see how words like \"doch\", \"immer\" and \"halt\" shift the tone.",
     duration: "16 min",
     sections: [
       {
@@ -416,7 +416,7 @@ export const DE_C2_U23: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Konfliktlösung und Mediation, Part 2 of 7",
-    summary: "Active listening: paraphrase (Wenn ich Sie richtig verstehe, ...), mirror feelings (Das klingt, als wären Sie ziemlich frustriert), ask open questions, and report the other side neutrally with Konjunktiv I and II.",
+    summary: "Listen actively: paraphrase (\"Wenn ich Sie richtig verstehe, ...\"), mirror feelings (\"Das klingt, als wären Sie ziemlich frustriert\"), ask open questions, and report the other side neutrally with Konjunktiv I and II.",
     duration: "18 min",
     sections: [
       {
@@ -553,10 +553,10 @@ export const DE_C2_U23: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The neighbours say they [rang the bell] several times.",
+        en: "The neighbours say they [rang] the bell several times.",
         sentence: "Die Nachbarn sagen, sie ___ mehrmals geklingelt.",
         answer: "hätten",
-        explanation: "Konjunktiv I \"haben\" would look like the indicative, so reported speech switches to Konjunktiv II \"hätten\".",
+        explanation: "The blank is the auxiliary of the past (\"geklingelt\" is given). Konjunktiv I \"haben\" would look like the indicative, so reported speech switches to Konjunktiv II \"hätten\".",
       },
       {
         type: "multiple-choice",
@@ -619,8 +619,8 @@ export const DE_C2_U23: Lesson[] = [
     slug: "c2-acknowledge-without-conceding-dialogue-lab",
     level: "DE-C2",
     number: 4,
-    title: "Dialogue Lab: Anerkennen ohne Nachzugeben",
-    summary: "A neighbour complains about noise: acknowledge the feeling, stay polite and keep your position with Ich verstehe, dass ..., gleichzeitig ...",
+    title: "Dialogue Lab: Anerkennen, ohne nachzugeben",
+    summary: "A neighbour complains about noise: acknowledge the feeling, stay polite and keep your position with \"Ich verstehe, dass ..., gleichzeitig ...\".",
     duration: "16 min",
     sections: [
       {
@@ -692,7 +692,7 @@ export const DE_C2_U23: Lesson[] = [
           {
             type: "speak",
             text: "Laut Hausordnung ist die Mittagsruhe von 13 bis 15 Uhr, daran halte ich mich.",
-            tip: "Read the times as dreizehn bis fünfzehn Uhr.",
+            tip: "Read the times as \"dreizehn bis fünfzehn Uhr\".",
             explanation: "\"Sich halten an\" + accusative, here \"daran\": to keep to a rule.",
           },
         ],
@@ -740,7 +740,7 @@ export const DE_C2_U23: Lesson[] = [
         source: "I'm sorry you feel disturbed. (formal)",
         answer: "Es tut mir leid, dass Sie sich gestört fühlen.",
         altAnswers: ["Das tut mir leid, dass Sie sich gestört fühlen.", "Tut mir leid, dass Sie sich gestört fühlen.", "Es tut mir leid, dass Sie sich belästigt fühlen."],
-        explanation: "Regret for the other's experience, not an admission of fault. \"Leid\" is lowercase in \"leidtun\".",
+        explanation: "Regret for the other's experience, not an admission of fault. Write \"leid\" in lowercase: \"es tut mir leid\" (from \"leidtun\").",
       },
       {
         type: "translate",
@@ -757,8 +757,8 @@ export const DE_C2_U23: Lesson[] = [
         en: "You're right that it was loud, [however] it'll soon be over.",
         sentence: "Sie haben recht, dass es laut war, ___ ist das bald vorbei.",
         answer: "allerdings",
-        altAnswers: ["aber", "jedoch"],
-        explanation: "\"Allerdings\" (however, admittedly) is softer than \"aber\"; as an adverb in position one it inverts subject and verb.",
+        altAnswers: ["jedoch"],
+        explanation: "\"Allerdings\" (however, admittedly) is softer than \"aber\"; as an adverb in position one it inverts subject and verb. \"Aber\" doesn't fit this gap: as a conjunction it would need \"aber das ist bald vorbei\".",
       },
       {
         type: "multiple-choice",
@@ -822,7 +822,7 @@ export const DE_C2_U23: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Konfliktlösung und Mediation, Part 3 of 7",
-    summary: "Make proposals and reach compromises: Wie wäre es, wenn ...?, Könnten wir uns darauf verständigen, dass ...?, Ich könnte mir vorstellen, dass ...; einen Kompromiss schließen, aufeinander zugehen, entgegenkommen.",
+    summary: "Make proposals in Konjunktiv II (\"Wie wäre es, wenn ...?\", \"Ich könnte mir vorstellen, dass ...\"), check for agreement (\"Könnten wir uns darauf verständigen, dass ...?\") and talk about compromise (\"aufeinander zugehen\", \"entgegenkommen\").",
     duration: "18 min",
     sections: [
       {
@@ -1055,9 +1055,9 @@ export const DE_C2_U23: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which word describes the mediator's stance towards both sides?",
-            options: ["allparteilich", "parteiisch", "gleichgültig", "unparteilich gegen"],
+            options: ["allparteilich", "parteiisch", "gleichgültig", "voreingenommen"],
             correctIndex: 0,
-            explanation: "\"Allparteilich\" (for all parties) is the mediation term; \"parteiisch\" means biased, \"gleichgültig\" indifferent.",
+            explanation: "\"Allparteilich\" (for all parties) is the mediation term; \"parteiisch\" means biased, \"gleichgültig\" indifferent, \"voreingenommen\" prejudiced.",
           },
         ],
       },
@@ -1074,7 +1074,7 @@ export const DE_C2_U23: Lesson[] = [
           { es: "Kinder in dem Alter kann man nicht abschalten.", en: "You can't switch off children of that age." },
           { es: "Die Hecke ist so hoch, dass unser Garten kaum noch Sonne bekommt.", en: "The hedge is so high that our garden hardly gets any sun." },
           { es: "Frau Okafor sagt, Kinder in dem Alter könne man nicht ganz leise halten.", en: "Mrs Okafor says you can't keep children that age completely quiet." },
-          { es: "Ihnen fehle wegen der Hecke Licht im Garten.", en: "(She says) she lacks light in her garden because of the hedge." },
+          { es: "Ihnen fehle wegen der Hecke Licht im Garten.", en: "(You say) you're missing light in your garden because of the hedge." },
         ],
         checkpoint: [
           {
@@ -1227,7 +1227,7 @@ export const DE_C2_U23: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Konfliktlösung und Mediation, Part 4 of 7",
-    summary: "Apologise properly: Entschuldigung vs Es tut mir leid vs Ich bitte um Entschuldigung vs Ich möchte mich aufrichtig entschuldigen; the past infinitive (dich gekränkt zu haben); taking responsibility and offering repair.",
+    summary: "Choose the right weight of apology, from \"Entschuldigung!\" to \"Ich möchte mich aufrichtig entschuldigen\", apologise with the past infinitive (\"dich gekränkt zu haben\"), take responsibility and offer repair.",
     duration: "18 min",
     sections: [
       {
@@ -1268,7 +1268,7 @@ export const DE_C2_U23: Lesson[] = [
         heading: "The past infinitive: ..., dich gekränkt zu haben",
         body: [
           "For apologising for something you did, German offers two constructions. With a dass clause: \"Es tut mir leid, dass ich dich gekränkt habe.\" Or, more compact and more formal, the past infinitive (\"Infinitiv Perfekt\"): \"Es tut mir leid, dich gekränkt zu haben.\" The past infinitive is participle + \"zu\" + \"haben\" or \"sein\".",
-          "The auxiliary follows the usual rule: \"Es tut mir leid, so spät gekommen zu sein\" (kommen takes \"sein\"), \"..., Sie warten gelassen zu haben\" (double infinitive is avoided here; say \"dass ich Sie habe warten lassen\" in a dass clause).",
+          "The auxiliary follows the usual rule: \"Es tut mir leid, so spät gekommen zu sein\" (\"kommen\" takes \"sein\"). With \"lassen\" + infinitive the infinitive clause uses the participle (\"..., Sie warten gelassen zu haben\"), while a dass clause uses the double infinitive: \"dass ich Sie habe warten lassen\".",
           "The past infinitive only works if the subject of both clauses is the same person (I'm sorry + I hurt you). If someone else did it, you need \"dass\": \"Es tut mir leid, dass mein Kollege Sie falsch informiert hat.\"",
         ],
         examples: [
@@ -1425,8 +1425,8 @@ export const DE_C2_U23: Lesson[] = [
     slug: "c2-sincere-vs-false-apology-contrast",
     level: "DE-C2",
     number: 8,
-    title: "Contrast Clinic: Die Echte und die Falsche Entschuldigung",
-    summary: "Compare sincere apologies with non-apologies (Es tut mir leid, falls sich jemand verletzt gefühlt hat; Fehler wurden gemacht) and see exactly what makes each one work or fail.",
+    title: "Contrast Clinic: Die echte und die falsche Entschuldigung",
+    summary: "Compare sincere apologies with non-apologies (\"Es tut mir leid, falls sich jemand verletzt gefühlt hat\", \"Fehler wurden gemacht\") and see exactly what makes each one work or fail.",
     duration: "16 min",
     sections: [
       {
@@ -1626,13 +1626,13 @@ export const DE_C2_U23: Lesson[] = [
     level: "DE-C2",
     number: 9,
     title: "Konfliktlösung und Mediation, Part 5 of 7",
-    summary: "Workplace conflict and its institutions: Betriebsrat, Personalabteilung, Mitarbeitergespräch, Abmahnung, Mobbing, Mediation, Schlichtung; neutral meeting language and nominal style.",
+    summary: "Talk about workplace conflict and the German institutions that handle it (\"Betriebsrat\", \"Personalabteilung\", \"Abmahnung\", \"Mobbing\"), and run a formal conflict meeting in neutral, nominal language.",
     duration: "18 min",
     sections: [
       {
         heading: "Who handles workplace conflict in Germany",
         body: [
-          "German workplaces have institutions English speakers may not know. \"Der Betriebsrat\" (works council) is elected by employees in companies with five or more staff and has legal co-determination rights (\"Mitbestimmung\") on working hours, dismissals and conduct rules. In the public sector it is called \"der Personalrat\". It is the first port of call for employees in conflict with management.",
+          "German workplaces have institutions English speakers may not know. \"Der Betriebsrat\" (works council) is elected by employees in companies with five or more staff and has legal co-determination rights (\"Mitbestimmung\") on working hours and conduct rules; it must also be consulted before every dismissal. In the public sector it is called \"der Personalrat\". It is the first port of call for employees in conflict with management.",
           "\"Die Personalabteilung\" (HR, also \"HR\" in modern firms) handles contracts and formal measures. \"Das Mitarbeitergespräch\" is the regular appraisal or a formal one-to-one; \"ein Konfliktgespräch\" is a meeting to address a specific problem. Larger firms have \"Konfliktlotsen\" or \"Vertrauenspersonen\" (trusted contacts) and external mediators.",
           "Formal sanctions: \"die Abmahnung\" (a formal written warning that names a breach of duty and threatens dismissal if repeated) usually comes before a \"verhaltensbedingte Kündigung\". Disputes that cannot be settled can go to \"die Einigungsstelle\" (a conciliation committee between works council and employer) or to the \"Arbeitsgericht\" (labour court).",
         ],
@@ -1667,7 +1667,7 @@ export const DE_C2_U23: Lesson[] = [
         heading: "Mobbing and other sensitive terms",
         body: [
           "\"Mobbing\" in German means workplace bullying: systematic harassment by colleagues (\"Bossing\" when it comes from a superior). It is a false friend: English mobbing (a crowd attacking) is not the main meaning. \"Gemobbt werden\" is to be bullied; the formal terms are \"Schikane\" and \"systematische Anfeindung\".",
-          "Other sensitive terms: \"sexuelle Belästigung am Arbeitsplatz\" (sexual harassment), \"Diskriminierung\" (covered by the AGG), \"der Burn-out\", \"die Überlastung\" (overload), \"die Überlastungsanzeige\" (a formal written notice to the employer that you cannot do your work properly with the current workload, which protects you legally).",
+          "Other sensitive terms: \"sexuelle Belästigung am Arbeitsplatz\" (sexual harassment), \"Diskriminierung\" (covered by the \"Allgemeines Gleichbehandlungsgesetz\", AGG), \"der Burn-out\", \"die Überlastung\" (overload), \"die Überlastungsanzeige\" (a formal written notice to the employer that you cannot do your work properly with the current workload, which can protect you if mistakes happen).",
           "When reporting such issues, the language is factual and documented: dates, witnesses, exact quotes. \"Am 3. März äußerte Herr X in Anwesenheit von Frau Y, dass ...\" This is the nominal, neutral style of the \"Gesprächsprotokoll\" and the \"Beschwerde\".",
         ],
         examples: [
@@ -1924,8 +1924,8 @@ export const DE_C2_U23: Lesson[] = [
             direction: "en-es",
             prompt: "Translate into German.",
             source: "If you could send them to me earlier, the problem would be solved. (formal)",
-            answer: "Wenn Sie mir die früher schicken könnten, wäre das Problem gelöst.",
-            altAnswers: ["Wenn Sie sie mir früher schicken könnten, wäre das Problem gelöst.", "Wenn Sie mir die früher schicken würden, wäre das Problem gelöst.", "Wenn Sie sie mir früher schicken würden, wäre das Problem gelöst.", "Könnten Sie sie mir früher schicken, wäre das Problem gelöst."],
+            answer: "Wenn Sie sie mir früher schicken könnten, wäre das Problem gelöst.",
+            altAnswers: ["Wenn Sie mir die früher schicken könnten, wäre das Problem gelöst.", "Wenn Sie mir die früher schicken würden, wäre das Problem gelöst.", "Wenn Sie sie mir früher schicken würden, wäre das Problem gelöst.", "Könnten Sie sie mir früher schicken, wäre das Problem gelöst."],
             explanation: "Konjunktiv II in both clauses for a hypothetical solution. Pronoun order: accusative \"sie\" before dative \"mir\" (\"sie mir\"); spoken \"mir die\" is common too.",
           },
           {
@@ -1956,7 +1956,7 @@ export const DE_C2_U23: Lesson[] = [
         source: "I didn't know that.",
         answer: "Das wusste ich nicht.",
         altAnswers: ["Ich wusste das nicht.", "Das habe ich nicht gewusst.", "Ich habe das nicht gewusst."],
-        explanation: "\"Wissen\" is usually Präteritum in speech: \"wusste\". Fronting \"das\" stresses the information.",
+        explanation: "\"Wissen\" is often used in the Präteritum even in speech: \"wusste\" (the Perfekt \"habe ... gewusst\" is fine too). Fronting \"das\" stresses the information.",
       },
       {
         type: "fill-blank",
@@ -1988,7 +1988,7 @@ export const DE_C2_U23: Lesson[] = [
         prompt: "Translate into German.",
         source: "Trust matters to you. (formal)",
         answer: "Vertrauen ist Ihnen wichtig.",
-        altAnswers: ["Ihnen ist Vertrauen wichtig.", "Ihnen ist es wichtig, dass man Ihnen vertraut.", "Vertrauen ist für Sie wichtig.", "Dir ist Vertrauen wichtig."],
+        altAnswers: ["Ihnen ist Vertrauen wichtig.", "Ihnen ist es wichtig, dass man Ihnen vertraut.", "Vertrauen ist für Sie wichtig."],
         explanation: "Reflecting the hidden need: dative \"Ihnen\" with \"wichtig sein\".",
       },
       {
@@ -2028,7 +2028,7 @@ export const DE_C2_U23: Lesson[] = [
     level: "DE-C2",
     number: 11,
     title: "Konfliktlösung und Mediation, Part 6 of 7",
-    summary: "Write a formal complaint: Beschwerde vs Reklamation, the structure Sachverhalt, Forderung, Frist, firm but polite formulas (Ich muss Sie daher bitten, ...; Andernfalls sehe ich mich gezwungen, ...), and where to turn next.",
+    summary: "Write a formal complaint: tell a \"Beschwerde\" from a \"Reklamation\", set out facts, demand and deadline, use firm but polite formulas (\"Ich muss Sie daher bitten, ...\", \"Andernfalls sehe ich mich gezwungen, ...\") and know where to turn next.",
     duration: "18 min",
     sections: [
       {
@@ -2230,7 +2230,7 @@ export const DE_C2_U23: Lesson[] = [
     level: "DE-C2",
     number: 12,
     title: "Word Web: Der Wortschatz von Konflikt und Versöhnung",
-    summary: "From Streit and Auseinandersetzung to Zerwürfnis and Spannungen, and from schlichten and vermitteln to sich versöhnen, das Kriegsbeil begraben and die Wogen glätten.",
+    summary: "Describe conflicts at every intensity (\"Streit\", \"Spannungen\", \"Zerwürfnis\") and how they end, from \"vermitteln\" and \"schlichten\" to idioms like \"das Kriegsbeil begraben\" and \"die Wogen glätten\".",
     duration: "15 min",
     sections: [
       {
@@ -2276,7 +2276,7 @@ export const DE_C2_U23: Lesson[] = [
         ],
         examples: [
           { es: "Ein Kollege aus der Personalabteilung hat zwischen uns vermittelt.", en: "A colleague from HR mediated between us." },
-          { es: "Der Tarifstreit wurde durch einen Schlichter beigelegt.", en: "The pay dispute was settled by an arbitrator." },
+          { es: "Der Tarifstreit wurde durch einen Schlichter beigelegt.", en: "The pay dispute was settled through a conciliator." },
           { es: "Wir haben das Missverständnis aus der Welt geschafft.", en: "We cleared up the misunderstanding." },
           { es: "Nach Wochen haben wir uns endlich ausgesprochen.", en: "After weeks we finally talked things out." },
           { es: "Die Ministerin sprach sich für eine Schlichtung aus.", en: "The minister spoke in favour of conciliation." },
@@ -2403,9 +2403,9 @@ export const DE_C2_U23: Lesson[] = [
         type: "listen-choose",
         audio: "Der Tarifstreit wurde durch einen Schlichter beigelegt.",
         question: "What does it mean?",
-        options: ["The pay dispute was settled by an arbitrator.", "The pay dispute was started by a mediator.", "The pay dispute ended in a strike.", "The arbitrator refused to settle the dispute."],
+        options: ["The pay dispute was settled through a conciliator.", "The pay dispute was started by a mediator.", "The pay dispute ended in a strike.", "The conciliator refused to settle the dispute."],
         correctIndex: 0,
-        explanation: "\"Der Tarifstreit\" (pay dispute) and \"beilegen\" (to settle); \"durch\" for the agent who brings it about.",
+        explanation: "\"Der Tarifstreit\" (pay dispute) and \"beilegen\" (to settle); \"durch\" for the agent who brings it about. A \"Schlichter\" proposes a compromise; an arbitrator who imposes a decision is a \"Schiedsrichter\".",
       },
       {
         type: "word-order",
@@ -2436,7 +2436,7 @@ export const DE_C2_U23: Lesson[] = [
     level: "DE-C2",
     number: 13,
     title: "Konfliktlösung und Mediation, Part 7 of 7",
-    summary: "Reconciliation and closure: sich aussprechen, einen Schlussstrich ziehen, nachtragend sein, verzeihen vs vergeben, Vertrauen wiederherstellen, and summarising agreements in writing.",
+    summary: "Forgive and close a conflict (\"verzeihen\" vs \"vergeben\", \"nachtragend sein\", \"einen Schlussstrich ziehen\"), talk about rebuilding trust, and summarise agreements in writing.",
     duration: "18 min",
     sections: [
       {
@@ -2679,13 +2679,13 @@ export const DE_C2_U23: Lesson[] = [
         body: [
           "Lena collects proposals: \"Wie wäre es, wenn ihr einen Putzplan macht?\" Jonas: \"Ich könnte mir vorstellen, dass wir die Küche wöchentlich wechseln.\" Mia: \"Und wenn Besuch übernachtet, sagen wir vorher Bescheid. Wäre das für dich okay?\"",
           "Konjunktiv II does three jobs here: proposes (\"Wie wäre es, wenn ...\"), imagines (\"Ich könnte mir vorstellen\"), checks consent (\"Wäre das für dich okay?\"). In the agreement itself, the indicative returns: \"Wir machen einen Putzplan. Besuch wird vorher angekündigt.\" The switch from Konjunktiv to indicative marks the moment a proposal becomes a decision.",
-          "Particles help: \"Lass uns doch mal einen Plan machen\" (doch + mal soften an imperative into an invitation); \"Das wäre ja eigentlich ganz einfach\" (ja: obviously; eigentlich: actually), which signals relief rather than reproach.",
+          "Particles help: \"Lass uns doch mal einen Plan machen\" (\"doch\" + \"mal\" soften an imperative into an invitation); \"Das wäre ja eigentlich ganz einfach\" (\"ja\": obviously; \"eigentlich\": actually), which signals relief rather than reproach.",
         ],
         examples: [
           { es: "Wie wäre es, wenn ihr einen Putzplan macht?", en: "How about you two making a cleaning rota?" },
           { es: "Ich könnte mir vorstellen, dass wir die Küche wöchentlich wechseln.", en: "I could imagine us taking turns with the kitchen every week." },
           { es: "Wäre das für dich okay?", en: "Would that be OK for you?" },
-          { es: "Lass uns doch mal einen Plan machen.", en: "Why don't we make a plan." },
+          { es: "Lass uns doch mal einen Plan machen.", en: "Why don't we make a plan?" },
           { es: "Das wäre ja eigentlich ganz einfach.", en: "That would actually be quite simple." },
           { es: "Besuch wird vorher angekündigt.", en: "Visitors will be announced in advance." },
         ],
@@ -2838,7 +2838,7 @@ export const DE_C2_U23: Lesson[] = [
     level: "DE-C2",
     number: 15,
     title: "Mastery Vocabulary: Medicine in the Press",
-    summary: "Read German health news: Gesundheitswesen, Pflegenotstand, Fallpauschale, Impfquote, Wartezeit, Bürgerversicherung, Zusatzbeitrag, and the hedging of Studie zeigt / legt nahe.",
+    summary: "Read German health news about insurance, hospitals and care (\"Zusatzbeitrag\", \"Bürgerversicherung\", \"Fallpauschale\", \"Pflegenotstand\") and tell a strong finding (\"Die Studie zeigt\") from a cautious one (\"legt nahe\").",
     duration: "16 min",
     sections: [
       {
@@ -3038,7 +3038,7 @@ export const DE_C2_U23: Lesson[] = [
 
 export const DE_C2_U23_WRITING: WriteExercise = {
   type: "write",
-  prompt: "For three months your upstairs neighbours in a rented flat in Frankfurt have held loud parties on weeknights until 2 a.m. You spoke to them once, but nothing changed. Write a letter to them (formal, Sie) that tries to de-escalate: describe the situation factually, use Ich-Botschaften, acknowledge their side, propose a concrete compromise, and say politely but clearly what you will do if nothing changes.",
+  prompt: "For three months your upstairs neighbours in a rented flat in Frankfurt have held loud parties on weeknights until 2 a.m. You spoke to them once, but nothing changed. Write a letter to them (formal, \"Sie\") that tries to de-escalate: describe the situation factually, use \"Ich-Botschaften\", acknowledge their side, propose a concrete compromise, and say politely but clearly what you will do if nothing changes.",
   minWords: 250,
   maxWords: 400,
   rubric: [

@@ -58,7 +58,7 @@ export const DE_B1_U18: Lesson[] = [
           { es: "Könnten Sie bitte jemanden schicken, der sich das ansieht?", en: "Could you please send someone to look at it?" },
           { es: "Ich hätte gern ein ruhigeres Zimmer.", en: "I'd like a quieter room." },
           { es: "Wir erwarten eine teilweise Erstattung des Preises.", en: "We expect a partial refund of the price." },
-          { es: "Es tut uns leid für den Ärger.", en: "We're sorry for the trouble." },
+          { es: "Es tut uns leid, dass Sie so viel Ärger hatten.", en: "We're sorry you had so much trouble." },
         ],
         checkpoint: [
           {
@@ -92,7 +92,7 @@ export const DE_B1_U18: Lesson[] = [
         heading: "Travel words around the hotel",
         body: [
           "Getting there and away: \"die Anreise\" / \"die Abreise\" (arrival / departure, mostly in hotel language), \"die Verbindung\" (connection), \"umsteigen\" (change trains), \"der Anschluss\" (connecting train), \"verpassen\" (miss), \"die Verspätung\", \"der Ausfall\" (cancellation of a train), \"das Gepäck\", \"der Koffer\", \"die Sehenswürdigkeit\" (sight).",
-          "\"Verpassen\" is miss a train or an opportunity; \"vermissen\" is miss a person or thing you long for. *Ich habe den Zug vermisst* would mean you were sad without it.",
+          "\"Verpassen\" is miss a train or an opportunity; \"vermissen\" is miss a person or thing you long for. \"*Ich habe den Zug vermisst*\" would mean you were sad without it.",
         ],
         examples: [
           { es: "Wegen der Verspätung habe ich meinen Anschluss verpasst.", en: "Because of the delay I missed my connection." },
@@ -199,6 +199,7 @@ export const DE_B1_U18: Lesson[] = [
         prompt: "Put the words in order to say: Unfortunately we have to cancel our booking.",
         words: ["Leider", "müssen", "wir", "unsere", "Buchung", "stornieren."],
         translation: "Unfortunately we have to cancel our booking.",
+        altOrders: [["Wir", "müssen", "leider", "unsere", "Buchung", "stornieren."]],
         explanation: "\"Leider\" first, verb second, infinitive last.",
       },
       {
@@ -319,7 +320,7 @@ export const DE_B1_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "We're staying at home because it's raining.",
         answer: "Wir bleiben zu Hause, weil es regnet.",
-        altAnswers: ["Wir bleiben daheim, weil es regnet.", "Weil es regnet, bleiben wir zu Hause.", "Wir bleiben zu Hause, denn es regnet."],
+        altAnswers: ["Wir bleiben daheim, weil es regnet.", "Weil es regnet, bleiben wir zu Hause.", "Wir bleiben zu Hause, denn es regnet.", "Wir bleiben zuhause, weil es regnet."],
         explanation: "\"Weil\" → verb last; \"denn\" → normal order.",
       },
       {
@@ -354,6 +355,7 @@ export const DE_B1_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm learning German to work in Vienna.",
         answer: "Ich lerne Deutsch, um in Wien zu arbeiten.",
+        altAnswers: ["Ich lerne Deutsch, um in Wien arbeiten zu können.", "Ich lerne Deutsch, damit ich in Wien arbeiten kann."],
         explanation: "\"Um ... zu\" + infinitive at the end.",
       },
       {
@@ -392,6 +394,7 @@ export const DE_B1_U18: Lesson[] = [
         prompt: "Put the words in order to say: I'm going by train because I don't have a car.",
         words: ["Ich", "fahre", "mit", "dem", "Zug,", "weil", "ich", "kein", "Auto", "habe."],
         translation: "I'm going by train because I don't have a car.",
+        altOrders: [["Weil", "ich", "kein", "Auto", "habe,", "fahre", "ich", "mit", "dem", "Zug."]],
         explanation: "Weil-clause: \"habe\" last.",
       },
       {
@@ -406,7 +409,7 @@ export const DE_B1_U18: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Cumulative Circuit: Sie at the Hotel",
-    summary: "Polite Konjunktiv II requests, complaints with sich beschweren über, relative clauses and wenn-clauses at a hotel reception.",
+    summary: "Make polite Konjunktiv II requests and clear complaints (\"sich beschweren über\") at a hotel reception, using relative clauses and wenn-clauses.",
     duration: "14 min",
     sections: [
       {
@@ -591,7 +594,7 @@ export const DE_B1_U18: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Cumulative Circuit: At the Doctor's",
-    summary: "Describe symptoms since when (seit), what happened (Perfekt), and understand advice (Sie sollten...) and instructions (Nehmen Sie..., bevor Sie...).",
+    summary: "Tell a doctor what hurts and since when (\"seit\"), what happened (Perfekt), and understand advice (\"Sie sollten...\") and instructions (\"Nehmen Sie..., bevor Sie...\").",
     duration: "14 min",
     sections: [
       {
@@ -622,8 +625,9 @@ export const DE_B1_U18: Lesson[] = [
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
             en: "[My knee hurts].",
-            sentence: "___ das Knie weh.",
-            answer: "Mir tut",
+            sentence: "___ weh.",
+            answer: "Mir tut das Knie",
+            altAnswers: ["Mir tut mein Knie"],
             explanation: "\"Wehtun\" + dative person: \"Mir tut das Knie weh\".",
           },
         ],
@@ -719,7 +723,7 @@ export const DE_B1_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I [feel dizzy].",
+        en: "[I feel] dizzy.",
         sentence: "___ schwindelig.",
         answer: "Mir ist",
         explanation: "\"Mir ist schwindelig\": a dative construction, no \"ich\".",
@@ -727,7 +731,7 @@ export const DE_B1_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Can you [sign me off sick]?",
+        en: "Can you [sign] me [off sick]?",
         sentence: "Können Sie mich ___?",
         answer: "krankschreiben",
         explanation: "\"Jemanden krankschreiben\": give someone a sick note.",
@@ -737,7 +741,7 @@ export const DE_B1_U18: Lesson[] = [
         question: "You want to say: I've had a cough for a week. Which is correct?",
         options: ["Ich habe seit einer Woche Husten.", "Ich habe Husten für eine Woche.", "Ich hatte seit einer Woche Husten.", "Ich habe seit eine Woche Husten."],
         correctIndex: 0,
-        explanation: "\"Seit\" + dative + present. *für eine Woche* is a calque.",
+        explanation: "\"Seit\" + dative + present. \"*für eine Woche*\" is a calque.",
       },
       {
         type: "word-order",
@@ -802,7 +806,7 @@ export const DE_B1_U18: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Whenever we met, we played cards. Which conjunction fits: ... wir uns trafen, spielten wir Karten.",
+            question: "Whenever we met, we played cards. Which word fills the gap: \"... wir uns trafen, spielten wir Karten.\"",
             options: ["Wenn", "Als", "Wann", "Ob"],
             correctIndex: 0,
             explanation: "Repeated events in the past: \"wenn\" (whenever). \"Als\" is for one occasion.",
@@ -912,7 +916,7 @@ export const DE_B1_U18: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: We're looking forward to seeing you again.",
+        prompt: "Put the words in order to say: We're looking forward to seeing you again. (to the family)",
         words: ["Wir", "freuen", "uns", "darauf,", "euch", "wiederzusehen."],
         translation: "We're looking forward to seeing you again.",
         explanation: "\"Darauf\" + zu-infinitive; zu inside \"wieder-zu-sehen\".",
@@ -945,7 +949,7 @@ export const DE_B1_U18: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Frequent Words: The Body, Health and a Night Out",
-    summary: "Der Rücken, der Magen, die Erkältung, sich erholen, die Kneipe, ausgehen, feiern, der Kater, anstoßen, Prost.",
+    summary: "Talk about aches, colds and recovering, and about a night out: \"der Rücken\", \"der Magen\", \"die Erkältung\", \"sich erholen\", \"die Kneipe\", \"ausgehen\", \"anstoßen\", \"der Kater\", \"Prost!\".",
     duration: "13 min",
     sections: [
       {
@@ -976,6 +980,7 @@ export const DE_B1_U18: Lesson[] = [
             prompt: "Translate into German.",
             source: "I've recovered from the cold.",
             answer: "Ich habe mich von der Erkältung erholt.",
+            altAnswers: ["Ich habe mich von meiner Erkältung erholt."],
             explanation: "\"Sich erholen von\" + dative.",
           },
         ],
@@ -1081,7 +1086,7 @@ export const DE_B1_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I need a few days [to recover].",
+        en: "I need a few days to [recover].",
         sentence: "Ich brauche ein paar Tage, um mich zu ___.",
         answer: "erholen",
         explanation: "\"Um ... zu\" + reflexive \"sich erholen\".",
@@ -1118,7 +1123,7 @@ export const DE_B1_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "I stayed sober because I was driving.",
         answer: "Ich bin nüchtern geblieben, weil ich gefahren bin.",
-        altAnswers: ["Ich blieb nüchtern, weil ich gefahren bin.", "Ich bin nüchtern geblieben, weil ich Auto gefahren bin.", "Ich blieb nüchtern, weil ich fuhr."],
+        altAnswers: ["Ich bin nüchtern geblieben, weil ich fahren musste.", "Ich blieb nüchtern, weil ich fahren musste.", "Ich blieb nüchtern, weil ich gefahren bin.", "Ich bin nüchtern geblieben, weil ich Auto gefahren bin.", "Ich blieb nüchtern, weil ich fuhr."],
         explanation: "\"Bleiben\" takes \"sein\"; weil-clause with the verb last.",
       },
     ],

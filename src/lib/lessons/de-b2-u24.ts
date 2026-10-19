@@ -15,13 +15,13 @@ export const DE_B2_U24: Lesson[] = [
         heading: "Traditions and journalism (Units 21-22)",
         body: [
           "Traditions: \"der Brauch\" (custom, plural \"Bräuche\"), \"die Tradition\", \"pflegen\" (to keep up: \"einen Brauch pflegen\"), \"der Almabtrieb\" (bringing the cattle down from the mountain pastures), \"überliefert\" (handed down), \"das Erbe\" (heritage, inheritance).",
-          "Journalism: \"die Quelle\" (source), \"überprüfen\" (to check), \"die Sorgfalt\" (care, diligence) and \"sorgfältig\" (careful), \"die Falschmeldung\" (false report), \"berichten über\" + accusative, \"die Gegendarstellung\" (published correction from the person concerned).",
+          "Journalism: \"die Quelle\" (source), \"überprüfen\" (to check), \"die Sorgfalt\" (care, diligence) and \"sorgfältig\" (careful), \"die Falschmeldung\" (false report), \"berichten über\" + accusative, \"die Gegendarstellung\" (counterstatement: a reply from the person concerned that the paper must print).",
           "Watch the two meanings of \"das Erbe\": a cultural heritage (\"das kulturelle Erbe\") and an inheritance (\"Er hat das Erbe ausgeschlagen\" = he turned down the inheritance). \"Der Erbe\" is the heir.",
         ],
         examples: [
           { es: "Im Dorf wird der Brauch seit Jahrhunderten gepflegt.", en: "The custom has been kept up in the village for centuries." },
           { es: "Die Journalistin hat ihre Quellen sorgfältig überprüft.", en: "The journalist checked her sources carefully." },
-          { es: "Die Zeitung musste eine Gegendarstellung drucken.", en: "The newspaper had to print a correction." },
+          { es: "Die Zeitung musste eine Gegendarstellung drucken.", en: "The newspaper had to print a counterstatement." },
           { es: "Das kulturelle Erbe der Region soll geschützt werden.", en: "The cultural heritage of the region is to be protected." },
           { es: "Er ist der einzige Erbe des Hofes.", en: "He's the only heir to the farm." },
         ],
@@ -62,7 +62,7 @@ export const DE_B2_U24: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which verb fits? 'Meine Großmutter hat mir ihren Ring ___.'",
+            question: "Your grandmother left you her ring. Which verb completes \"Meine Großmutter hat mir ihren Ring ___.\"?",
             options: ["vererbt", "geerbt", "verdient", "geerbt worden"],
             correctIndex: 0,
             explanation: "The person who dies \"vererbt\" something; the one who receives it \"erbt\" it.",
@@ -82,7 +82,7 @@ export const DE_B2_U24: Lesson[] = [
         heading: "Museums and a final sweep",
         body: [
           "Museums: \"die Restaurierung\" (restoration), \"restaurieren\", \"das Exponat\" (exhibit), \"die Dauerausstellung\" (permanent exhibition) vs \"die Sonderausstellung\" (special exhibition), \"die Leihgabe\" (loan), \"die Erinnerungskultur\" (culture of remembrance), \"das Denkmal\" (monument).",
-          "Final sweep of the level, some words that Upper-intermediate learners still mix up: \"sich erinnern an\" (remember) vs \"erinnern an\" (remind of); \"bekommen\" (receive, not become); \"eventuell\" (possibly, not eventually); \"die Chance\" vs \"die Gelegenheit\" (opportunity); \"aktuell\" (current, not actual).",
+          "Final sweep of the level, some words that Upper-intermediate learners still mix up: \"sich erinnern an\" (remember) vs \"erinnern an\" (remind of); \"bekommen\" (receive, not become); \"eventuell\" (possibly, not eventually); \"die Chance\" (chance, prospect) vs \"die Gelegenheit\" (occasion, opportunity to do something); \"aktuell\" (current, not actual).",
         ],
         examples: [
           { es: "Die Sonderausstellung ist nur noch bis Sonntag zu sehen.", en: "The special exhibition can only be seen until Sunday." },
@@ -147,10 +147,10 @@ export const DE_B2_U24: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The newspaper had to print [a correction].",
+        en: "The newspaper had to print [a counterstatement].",
         sentence: "Die Zeitung musste ___ drucken.",
         answer: "eine Gegendarstellung",
-        explanation: "\"Die Gegendarstellung\" is a legally required reply by the person concerned.",
+        explanation: "\"Die Gegendarstellung\" is the reply of the person concerned, which the paper is legally required to print; a correction by the paper itself is \"eine Richtigstellung\".",
       },
       {
         type: "translate",
@@ -163,7 +163,7 @@ export const DE_B2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does 'die aktuelle Lage' mean?",
+        question: "What does \"die aktuelle Lage\" mean?",
         options: ["the current situation", "the actual situation", "the real location", "the latest location"],
         correctIndex: 0,
         explanation: "\"Aktuell\" = current. Actual is \"tatsächlich\" or \"eigentlich\".",
@@ -228,7 +228,7 @@ export const DE_B2_U24: Lesson[] = [
     level: "DE-B2",
     number: 2,
     title: "Word Web: Art and Literature",
-    summary: "Works, genres and criticism: das Werk, der Roman, die Novelle, das Gemälde, die Ausstellung, die Rezension, with participle attributes.",
+    summary: "Talk about books, paintings, exhibitions and reviews (\"das Werk\", \"der Roman\", \"die Novelle\", \"die Rezension\"), packing details into participle attributes.",
     duration: "15 min",
     sections: [
       {
@@ -248,8 +248,8 @@ export const DE_B2_U24: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "What is 'eine Novelle'?",
-            options: ["a novella, a shorter prose text", "a novel", "a new law", "a news item"],
+            question: "What is \"eine Novelle\" in literature?",
+            options: ["a novella, a shorter prose text", "a novel", "a love letter", "a news item"],
             correctIndex: 0,
             explanation: "False friend: a novel is \"ein Roman\".",
           },
@@ -282,7 +282,7 @@ export const DE_B2_U24: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Over a hundred guests came to [the opening of the exhibition].",
+            en: "Over a hundred guests came to the [exhibition opening].",
             sentence: "Zur ___ kamen über hundert Gäste.",
             answer: "Vernissage",
             explanation: "\"Die Vernissage\" = the opening of an art exhibition.",
@@ -328,6 +328,7 @@ export const DE_B2_U24: Lesson[] = [
             en: "The reviews [were mixed].",
             sentence: "Die Rezensionen ___.",
             answer: "fielen gemischt aus",
+            altAnswers: ["waren gemischt"],
             explanation: "\"Ausfallen\" = to turn out; used for reviews and results.",
           },
         ],
@@ -368,7 +369,7 @@ export const DE_B2_U24: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The book was [translated into] twenty languages.",
+        en: "The book was [translated] into twenty languages.",
         sentence: "Das Buch wurde in zwanzig Sprachen ___.",
         answer: "übersetzt",
         explanation: "\"Übersetzen in\" + accusative; inseparable, so no -ge-.",
@@ -385,7 +386,7 @@ export const DE_B2_U24: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence means 'The critic praised the book'?",
-        options: ["Die Kritikerin hat das Buch gelobt.", "Die Kritik hat das Buch kritisiert.", "Die Kritikerin hat das Buch geschrieben.", "Das Buch hat die Kritikerin gelobt."],
+        options: ["Die Kritikerin hat das Buch gelobt.", "Die Kritik hat das Buch kritisiert.", "Die Kritikerin hat das Buch geschrieben.", "Die Kritikerin wurde für das Buch gelobt."],
         correctIndex: 0,
         explanation: "\"Loben\" = to praise; \"kritisieren\" = to criticise.",
       },
@@ -403,6 +404,7 @@ export const DE_B2_U24: Lesson[] = [
         prompt: "Put the words in order to say: The painting was painted in 1890.",
         words: ["Das", "Gemälde", "wurde", "1890", "gemalt."],
         translation: "The painting was painted in 1890.",
+        altOrders: [["1890", "wurde", "das", "Gemälde", "gemalt."]],
         explanation: "Passive Präteritum; \"malen\" → \"gemalt\".",
       },
       {
@@ -449,7 +451,7 @@ export const DE_B2_U24: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Spiral Review: Das Wiedersehen",
-    summary: "Two former classmates meet after twenty years: the unreal past, Futur II guesses and reported speech.",
+    summary: "Follow two former classmates who meet after twenty years: guess about the past with Futur II, talk about what might have been and report what was said.",
     duration: "15 min",
     sections: [
       {
@@ -510,7 +512,7 @@ export const DE_B2_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which completes the sentence? 'Wir ___ uns viel früher treffen sollen.'",
+            question: "We should have met much earlier. Which word completes \"Wir ___ uns viel früher treffen sollen.\"?",
             options: ["hätten", "wären", "würden", "haben"],
             correctIndex: 0,
             explanation: "Modal in the Konjunktiv II past: \"hätten ... treffen sollen\" (double infinitive).",
@@ -537,6 +539,7 @@ export const DE_B2_U24: Lesson[] = [
             en: "He said [he had] two daughters.",
             sentence: "Er sagte, ___ zwei Töchter.",
             answer: "er habe",
+            altAnswers: ["er hätte"],
             explanation: "Konjunktiv I of \"haben\" for the 3rd person: \"er habe\".",
           },
           {
@@ -625,7 +628,7 @@ export const DE_B2_U24: Lesson[] = [
         prompt: "Translate into German.",
         source: "Anna said she had always wanted to be an actress.",
         answer: "Anna sagte, sie habe immer Schauspielerin werden wollen.",
-        altAnswers: ["Anna erzählte, sie habe immer Schauspielerin werden wollen.", "Anna sagte, sie hätte immer Schauspielerin werden wollen.", "Anna sagte, dass sie immer Schauspielerin werden wollte.", "Anna sagte, sie habe schon immer Schauspielerin werden wollen."],
+        altAnswers: ["Anna erzählte, sie habe immer Schauspielerin werden wollen.", "Anna sagte, sie hätte immer Schauspielerin werden wollen.", "Anna sagte, dass sie immer Schauspielerin werden wollte.", "Anna sagte, sie habe schon immer Schauspielerin werden wollen.", "Anna sagte, dass sie immer Schauspielerin habe werden wollen."],
         explanation: "Konjunktiv I past with a modal: \"habe ... werden wollen\".",
       },
       {
@@ -670,7 +673,7 @@ export const DE_B2_U24: Lesson[] = [
         heading: "Contrast and addition: jedoch, zudem",
         body: [
           "\"Jedoch\" (however) is more formal than \"aber\". It can stand in position 1 with inversion (\"Jedoch fehlte das Geld\") or inside the clause (\"Das Geld fehlte jedoch\"). Unlike \"aber\", it is not followed by a comma.",
-          "\"Zudem\" and \"außerdem\" (moreover, in addition) add an argument and always invert: \"Zudem ist das Projekt zu teuer.\" In the strongest written style you also hear \"darüber hinaus\".",
+          "\"Zudem\" and \"außerdem\" (moreover, in addition) add an argument. In position 1 the verb follows straight away (\"Zudem ist das Projekt zu teuer\"); they can also sit inside the clause (\"Das Projekt ist zudem zu teuer\"). Formal writing also uses \"darüber hinaus\".",
           "In dictation, listen for the verb right after the connector: \"Zudem ist ...\", \"Jedoch hat ...\". That tells you it counts as position 1.",
         ],
         examples: [
@@ -752,6 +755,7 @@ export const DE_B2_U24: Lesson[] = [
             prompt: "Put the words in order to say: In that respect, you're right.",
             words: ["Insofern", "hast", "du", "recht."],
             translation: "In that respect, you're right.",
+            altOrders: [["Du", "hast", "insofern", "recht."]],
             explanation: "\"Insofern\" in position 1, verb second.",
           },
         ],
@@ -810,7 +814,7 @@ export const DE_B2_U24: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[In addition, no alternatives were examined].",
+        en: "In addition, [no alternatives were examined].",
         sentence: "Darüber hinaus ___.",
         answer: "wurden keine Alternativen geprüft",
         explanation: "\"Darüber hinaus\" in position 1, then the verb \"wurden\".",
@@ -854,7 +858,7 @@ export const DE_B2_U24: Lesson[] = [
     level: "DE-B2",
     number: 5,
     title: "Word Web: Politics and Government",
-    summary: "Elections, laws and parties: der Bundestag, die Abgeordnete, der Gesetzentwurf, die Koalition, with Politik vs policy and the passive.",
+    summary: "Talk about elections, laws, parties and protest (\"der Bundestag\", \"der Gesetzentwurf\", \"die Koalition\"), tell \"Politik\" from a company policy, and report politics in the passive.",
     duration: "16 min",
     sections: [
       {
@@ -917,7 +921,7 @@ export const DE_B2_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does 'Das Gesetz wurde verabschiedet' mean?",
+            question: "What does \"Das Gesetz wurde verabschiedet\" mean?",
             options: ["The law was passed.", "The law was said goodbye to.", "The law was abolished.", "The law was rejected."],
             correctIndex: 0,
             explanation: "\"Verabschieden\" means both to say goodbye and to pass a law.",
@@ -1037,6 +1041,7 @@ export const DE_B2_U24: Lesson[] = [
         prompt: "Put the words in order to say: The Bundestag is elected every four years.",
         words: ["Der", "Bundestag", "wird", "alle", "vier", "Jahre", "gewählt."],
         translation: "The Bundestag is elected every four years.",
+        altOrders: [["Alle", "vier", "Jahre", "wird", "der", "Bundestag", "gewählt."]],
         explanation: "\"Alle vier Jahre\" = every four years (accusative).",
       },
       {
@@ -1083,7 +1088,7 @@ export const DE_B2_U24: Lesson[] = [
     level: "DE-B2",
     number: 6,
     title: "Spiral Review: Der Anruf in der Arztpraxis",
-    summary: "Statements, questions and requests reported from a call to a doctor's practice.",
+    summary: "Report the statements, questions and requests from a phone call to a doctor's practice.",
     duration: "15 min",
     sections: [
       {
@@ -1222,7 +1227,7 @@ export const DE_B2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you report: 'Rufen Sie bitte um elf zurück!'?",
+        question: "The receptionist said: \"Rufen Sie bitte um elf zurück!\" How do you report it in formal style?",
         options: ["Sie bat, ich möge um elf zurückrufen.", "Sie bat, ich rufe um elf zurück.", "Sie bat, ob ich um elf zurückrufe.", "Sie bat, ich würde um elf zurückgerufen."],
         correctIndex: 0,
         explanation: "A polite request in formal reported speech uses \"mögen\" (\"möge\"); \"solle\" also works.",
@@ -1265,7 +1270,7 @@ export const DE_B2_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "He had himself signed off sick for a week.",
+        source: "He got himself signed off sick for a week.",
         answer: "Er hat sich für eine Woche krankschreiben lassen.",
         altAnswers: ["Er ließ sich für eine Woche krankschreiben.", "Er hat sich eine Woche krankschreiben lassen.", "Er ließ sich eine Woche krankschreiben."],
         explanation: "\"Sich krankschreiben lassen\" = to get a sick note; double infinitive in the Perfekt.",
@@ -1317,11 +1322,11 @@ export const DE_B2_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Lena wrote: \"Vor drei Jahren habe ich eine wichtige Entscheidung gemacht.\" Write the correct German for: Three years ago I made an important decision.",
+            prompt: "Lena wrote: \"*Vor drei Jahren habe ich eine wichtige Entscheidung gemacht.*\" Write the correct German for: Three years ago I made an important decision.",
             source: "Three years ago I made an important decision.",
             answer: "Vor drei Jahren habe ich eine wichtige Entscheidung getroffen.",
-            altAnswers: ["Vor drei Jahren traf ich eine wichtige Entscheidung.", "Ich habe vor drei Jahren eine wichtige Entscheidung getroffen."],
-            explanation: "\"Eine Entscheidung treffen\", never \"machen\".",
+            altAnswers: ["Vor drei Jahren traf ich eine wichtige Entscheidung.", "Ich habe vor drei Jahren eine wichtige Entscheidung getroffen.", "Ich traf vor drei Jahren eine wichtige Entscheidung."],
+            explanation: "\"Eine Entscheidung treffen\"; \"*eine Entscheidung machen*\" is a calque of English and wrong in formal German.",
           },
           {
             type: "fill-blank",
@@ -1329,6 +1334,7 @@ export const DE_B2_U24: Lesson[] = [
             en: "I [submitted an application] at the job centre.",
             sentence: "Ich habe bei der Arbeitsagentur ___.",
             answer: "einen Antrag gestellt",
+            altAnswers: ["einen Antrag eingereicht"],
             explanation: "\"Einen Antrag stellen\" = to apply formally.",
           },
         ],
@@ -1350,7 +1356,7 @@ export const DE_B2_U24: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Lena wrote: \"Bei der Suche von einer Stelle hat mir eine Freundin geholfen.\" Write the correct German for: A friend helped me in my search for a job.",
+            prompt: "Lena wrote: \"*Bei der Suche von einer Stelle hat mir eine Freundin geholfen.*\" Write the correct German for: A friend helped me in my search for a job.",
             source: "A friend helped me in my search for a job.",
             answer: "Bei der Suche nach einer Stelle hat mir eine Freundin geholfen.",
             altAnswers: ["Bei der Stellensuche hat mir eine Freundin geholfen.", "Eine Freundin hat mir bei der Suche nach einer Stelle geholfen.", "Bei der Suche nach einer Arbeitsstelle hat mir eine Freundin geholfen.", "Eine Freundin hat mir bei der Stellensuche geholfen."],
@@ -1358,7 +1364,7 @@ export const DE_B2_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the correct nominal version of 'Nachdem ich meine Ausbildung abgeschlossen hatte'?",
+            question: "Which is the correct nominal version of \"Nachdem ich meine Ausbildung abgeschlossen hatte\"?",
             options: ["Nach Abschluss meiner Ausbildung", "Nach Abschluss von meiner Ausbildung", "Nach dem Abschließen meine Ausbildung", "Nach Abschluss meine Ausbildung"],
             correctIndex: 0,
             explanation: "The object of the verb becomes a genitive: \"meiner Ausbildung\".",
@@ -1402,7 +1408,7 @@ export const DE_B2_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Lena wrote: \"Nach Beendigung von meiner Ausbildung habe ich eine Werkstatt gefunden.\" Write the correct German for: After completing my training, I found a workshop.",
+        prompt: "Lena wrote: \"*Nach Beendigung von meiner Ausbildung habe ich eine Werkstatt gefunden.*\" Write the correct German for: After completing my training, I found a workshop.",
         source: "After completing my training, I found a workshop.",
         answer: "Nach Beendigung meiner Ausbildung habe ich eine Werkstatt gefunden.",
         altAnswers: ["Nach Abschluss meiner Ausbildung habe ich eine Werkstatt gefunden.", "Nachdem ich meine Ausbildung beendet hatte, habe ich eine Werkstatt gefunden.", "Nach Beendigung meiner Ausbildung fand ich eine Werkstatt.", "Nach Abschluss meiner Ausbildung fand ich eine Werkstatt."],
@@ -1420,7 +1426,7 @@ export const DE_B2_U24: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Lena wrote: \"Eine Rückkehr in die Bank steht für mich nicht in Frage.\" Write the correct German for: Going back to the bank is out of the question for me.",
+        prompt: "Lena wrote: \"*Eine Rückkehr in die Bank steht für mich nicht in Frage.*\" Write the correct German for: Going back to the bank is out of the question for me.",
         source: "Going back to the bank is out of the question for me.",
         answer: "Eine Rückkehr in die Bank kommt für mich nicht in Frage.",
         altAnswers: ["Eine Rückkehr in die Bank kommt für mich nicht infrage.", "Eine Rückkehr zur Bank kommt für mich nicht in Frage.", "Eine Rückkehr in die Bank kommt für mich nicht in Betracht.", "Eine Rückkehr zur Bank kommt für mich nicht infrage."],
@@ -1428,7 +1434,7 @@ export const DE_B2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which verb completes the phrase? 'Ich habe die Beratung in Anspruch ___.'",
+        question: "I made use of the advice service. Which verb completes \"Ich habe die Beratung in Anspruch ___.\"?",
         options: ["genommen", "gemacht", "gegeben", "gestellt"],
         correctIndex: 0,
         explanation: "\"In Anspruch nehmen\" = to make use of.",
@@ -1464,6 +1470,7 @@ export const DE_B2_U24: Lesson[] = [
         prompt: "Put the words in order to say: Since my switch to a trade, I've been more content.",
         words: ["Seit", "meinem", "Wechsel", "ins", "Handwerk", "bin", "ich", "zufriedener."],
         translation: "Since my switch to a trade, I've been more content.",
+        altOrders: [["Ich", "bin", "seit", "meinem", "Wechsel", "ins", "Handwerk", "zufriedener."]],
         explanation: "\"Seit\" + dative \"meinem Wechsel\"; the verb comes second.",
       },
       {
@@ -1587,7 +1594,7 @@ export const DE_B2_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does 'das zu lösende Problem' mean?",
+            question: "What does \"das zu lösende Problem\" mean?",
             options: ["the problem that must be solved", "the problem that was solved", "the problem that solves itself", "the problem about solutions"],
             correctIndex: 0,
             explanation: "\"Zu\" + Partizip I = something that must or can be done.",
@@ -1692,7 +1699,7 @@ export const DE_B2_U24: Lesson[] = [
     level: "DE-B2",
     number: 9,
     title: "Word Web: Dreams and Imagination",
-    summary: "Träumen von, der Albtraum, sich etwas vorstellen vs sich vorstellen, sich einbilden and so tun, als ob, with Konjunktiv II.",
+    summary: "Talk about dreams and imagination (\"träumen von\", \"der Albtraum\"), tell \"sich etwas vorstellen\" from \"sich vorstellen\" and \"sich einbilden\", and pretend with \"so tun, als ob\".",
     duration: "15 min",
     sections: [
       {
@@ -1707,7 +1714,7 @@ export const DE_B2_U24: Lesson[] = [
           { es: "Sie träumt von einem Haus am Meer.", en: "She dreams of a house by the sea." },
           { es: "Nach dem Film hatte ich einen Albtraum.", en: "After the film I had a nightmare." },
           { es: "Ich träume davon, ein eigenes Café zu haben.", en: "I dream of having my own cafe." },
-          { es: "Nicht im Traum würde ich daran denken.", en: "I wouldn't dream of it." },
+          { es: "Ich würde nicht im Traum daran denken.", en: "I wouldn't dream of it." },
         ],
         checkpoint: [
           {
@@ -1850,7 +1857,7 @@ export const DE_B2_U24: Lesson[] = [
         question: "Which sentence is correct?",
         options: ["Ich habe von dir geträumt.", "Ich habe über dich geträumt.", "Ich habe dich geträumt.", "Ich habe an dich geträumt."],
         correctIndex: 0,
-        explanation: "Always \"träumen von\".",
+        explanation: "Standard German says \"träumen von\" + dative; \"*über*\" is a calque of English \"about\".",
       },
       {
         type: "translate",
@@ -1912,7 +1919,7 @@ export const DE_B2_U24: Lesson[] = [
     level: "DE-B2",
     number: 10,
     title: "Thematic Review: Ein Unerwarteter Mentor",
-    summary: "An old bookbinder and a troubled teenager in Göttingen: expectations, second chances, emphasis and regrets.",
+    summary: "Follow an old bookbinder and a troubled teenager in Göttingen, and talk about expectations, second chances and regrets with emphasis and Konjunktiv II.",
     duration: "16 min",
     sections: [
       {
@@ -1923,7 +1930,7 @@ export const DE_B2_U24: Lesson[] = [
           "Expectations with modal verbs and Konjunktiv II: \"Niemand hatte erwartet, dass das gut gehen würde.\" \"Jonas dachte, er müsste nur Kartons tragen.\"",
         ],
         examples: [
-          { es: "Herr Lindner führt die Buchbinderei seit fünfzig Jahren.", en: "Mr Lindner has run the bookbindery for fifty years." },
+          { es: "Herr Lindner führt die Buchbinderei seit fünfzig Jahren.", en: "Mr Lindner has run the bookbinding workshop for fifty years." },
           { es: "Jonas wurde für ein Halbjahr von der Schule verwiesen.", en: "Jonas was expelled from school for a term." },
           { es: "Niemand hatte erwartet, dass das gut gehen würde.", en: "Nobody had expected that to go well." },
           { es: "Jonas dachte, er müsste nur Kartons tragen.", en: "Jonas thought he'd only have to carry boxes." },
@@ -1975,7 +1982,7 @@ export const DE_B2_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does 'ausgerechnet ihm' add?",
+            question: "What does \"ausgerechnet ihm\" add?",
             options: ["Surprise: him, of all people.", "Precision: exactly at that time.", "Calculation: after counting.", "Doubt: maybe him."],
             correctIndex: 0,
             explanation: "\"Ausgerechnet\" marks an unexpected choice.",
@@ -2021,7 +2028,7 @@ export const DE_B2_U24: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Mr Lindner has run the bookbindery for fifty years.",
+        source: "Mr Lindner has run the bookbinding workshop for fifty years.",
         answer: "Herr Lindner führt die Buchbinderei seit fünfzig Jahren.",
         altAnswers: ["Herr Lindner leitet die Buchbinderei seit fünfzig Jahren.", "Herr Lindner betreibt die Buchbinderei seit fünfzig Jahren.", "Seit fünfzig Jahren führt Herr Lindner die Buchbinderei.", "Herr Lindner führt die Buchbinderei schon seit fünfzig Jahren."],
         explanation: "\"Seit\" + present tense.",
@@ -2128,7 +2135,7 @@ export const DE_B2_U24: Lesson[] = [
     level: "DE-B2",
     number: 11,
     title: "Spiral Review: All the Conditionals",
-    summary: "Real, unreal present, unreal past and mixed, with and without wenn: one decision per sentence.",
+    summary: "Decide which conditional each sentence needs (real, unreal present, unreal past or mixed) and build it with or without \"wenn\".",
     duration: "14 min",
     sections: [
       {
@@ -2151,7 +2158,7 @@ export const DE_B2_U24: Lesson[] = [
             prompt: "Translate into German.",
             source: "If it rains tomorrow, we'll stay at home.",
             answer: "Wenn es morgen regnet, bleiben wir zu Hause.",
-            altAnswers: ["Falls es morgen regnet, bleiben wir zu Hause.", "Wenn es morgen regnet, bleiben wir daheim.", "Wenn es morgen regnet, werden wir zu Hause bleiben.", "Sollte es morgen regnen, bleiben wir zu Hause."],
+            altAnswers: ["Falls es morgen regnet, bleiben wir zu Hause.", "Wenn es morgen regnet, bleiben wir daheim.", "Wenn es morgen regnet, werden wir zu Hause bleiben.", "Sollte es morgen regnen, bleiben wir zu Hause.", "Wenn es morgen regnet, bleiben wir zuhause."],
             explanation: "A real possibility → indicative, often present tense for the future.",
           },
           {
@@ -2188,7 +2195,7 @@ export const DE_B2_U24: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which type is 'Wenn ich früher losgefahren wäre, hätte ich den Zug erwischt'?",
+            question: "Which type is \"Wenn ich früher losgefahren wäre, hätte ich den Zug erwischt\"?",
             options: ["unreal past", "real", "unreal present", "mixed: past condition, present result"],
             correctIndex: 0,
             explanation: "Both halves are about the past and in Konjunktiv II past.",
@@ -2349,6 +2356,6 @@ export const DE_B2_U24_WRITING: WriteExercise = {
     "Reports other opinions with Konjunktiv I (\"Die Kritikerin schrieb, das Buch sei ...\").",
     "Uses Konjunktiv II or \"als ob\" for imagination and alternatives (\"Ich hätte mir ... gewünscht\", \"Man fühlt sich, als ob man ... wäre\", \"sich vorstellen\").",
   ],
-  modelAnswer: "\"Die Uhr des Buchbinders\" – ein stilles Meisterwerk\n\nDer 2022 erschienene Roman von Katrin Albers handelt von einem alten Buchbinder in Lüneburg, der einem schwierigen Jugendlichen sein Handwerk beibringt. Die Handlung spielt in einem einzigen Winter, fast nur in der kleinen Werkstatt.\n\nAlbers erzählt langsam und sehr genau. Beim Lesen fühlt man sich, als ob man selbst zwischen Leder, Leim und alten Büchern säße. Besonders gelungen sind die Dialoge, in denen mehr verschwiegen als gesagt wird.\n\nDie von Kritikern gelobte Autorin wurde für den Roman mehrfach ausgezeichnet. In einer Rezension hieß es, das Buch sei \"leise, aber unvergesslich\". Ein anderer Kritiker schrieb jedoch, die Geschichte habe zu wenig Spannung.\n\nIch kann mir gut vorstellen, dass manche Leser das Ende zu vorhersehbar finden. Ich hätte mir gewünscht, mehr über die Vergangenheit des Buchbinders zu erfahren. Trotzdem habe ich noch Tage später von der Werkstatt geträumt.\n\nFazit: Wer ruhige Romane mag, sollte dieses Buch unbedingt lesen.",
+  modelAnswer: "„Die Uhr des Buchbinders“ – ein stilles Meisterwerk\n\nDer 2022 erschienene Roman von Katrin Albers handelt von einem alten Buchbinder in Lüneburg, der einem schwierigen Jugendlichen sein Handwerk beibringt. Die Handlung spielt in einem einzigen Winter, fast nur in der kleinen Werkstatt.\n\nAlbers erzählt langsam und sehr genau. Beim Lesen fühlt man sich, als ob man selbst zwischen Leder, Leim und alten Büchern säße. Besonders gelungen sind die Dialoge, in denen mehr verschwiegen als gesagt wird.\n\nDie von Kritikern gelobte Autorin wurde für den Roman mehrfach ausgezeichnet. In einer Rezension hieß es, das Buch sei „leise, aber unvergesslich“. Ein anderer Kritiker schrieb jedoch, die Geschichte habe zu wenig Spannung.\n\nIch kann mir gut vorstellen, dass manche Leser das Ende zu vorhersehbar finden. Ich hätte mir gewünscht, mehr über die Vergangenheit des Buchbinders zu erfahren. Trotzdem habe ich noch Tage später von der Werkstatt geträumt.\n\nFazit: Wer ruhige Romane mag, sollte dieses Buch unbedingt lesen.",
   explanation: "The review uses the vocabulary of literature (\"Roman\", \"Handlung\", \"Rezension\", \"Kritiker\") with \"handeln von\" + dative and \"spielen in\". Participle attributes compress information (\"der 2022 erschienene Roman\", \"die von Kritikern gelobte Autorin\"). Critics' opinions are reported with Konjunktiv I (\"sei\", \"habe\"), and \"jedoch\" marks the contrast. Imagination and wishes use \"als ob\" + Konjunktiv II (\"säße\"), \"sich etwas vorstellen\", \"hätte mir gewünscht\" and \"träumen von\".",
 };

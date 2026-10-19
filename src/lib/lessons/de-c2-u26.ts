@@ -8,7 +8,7 @@ export const DE_C2_U26: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Deutsch in Wissenschaft und Technik, Part 1 of 3",
-    summary: "The language of research: Studie, Versuch, Befund, nachweisen and belegen, impersonal methods sections with the passive and lässt sich, and how to unpack long participial attributes.",
+    summary: "Read and write research German: tell \"Studie\", \"Versuch\" and \"Befund\" and \"nachweisen\", \"belegen\" and \"beweisen\" apart, write impersonal methods sections with the passive and \"lässt sich\", and unpack long participial attributes.",
     duration: "18 min",
     sections: [
       {
@@ -149,7 +149,7 @@ export const DE_C2_U26: Lesson[] = [
         source: "The study was carried out on 200 participants.",
         answer: "Die Studie wurde an 200 Probanden durchgeführt.",
         altAnswers: ["Die Studie wurde mit 200 Probanden durchgeführt.", "Die Studie wurde an 200 Teilnehmenden durchgeführt.", "Die Studie wurde mit 200 Teilnehmenden durchgeführt.", "Die Studie wurde an 200 Probandinnen und Probanden durchgeführt.", "Die Studie wurde mit 200 Teilnehmern durchgeführt.", "Die Studie wurde an 200 Teilnehmern durchgeführt."],
-        explanation: "\"Eine Studie an\" + dative \"Probanden durchführen\" is the fixed phrase; the dative plural of the weak noun \"der Proband\" is \"Probanden\".",
+        explanation: "\"Eine Studie an\" + dative \"durchführen\" is the fixed phrase; the dative plural of the weak noun \"der Proband\" is \"Probanden\".",
       },
       {
         type: "translate",
@@ -228,7 +228,7 @@ export const DE_C2_U26: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Transformations: Die Sprache der Hypothese",
-    summary: "Turn certain statements into cautious ones and back: dürfte, könnte and müsste, darauf hindeuten, nahelegen, scheinen ... zu, and when firm language is justified.",
+    summary: "Turn certain statements into cautious ones and back with \"dürfte\", \"könnte\" and \"müsste\", \"darauf hindeuten\", \"nahelegen\" and \"scheinen ... zu\", and know when firm language is justified.",
     duration: "17 min",
     sections: [
       {
@@ -262,8 +262,7 @@ export const DE_C2_U26: Lesson[] = [
             en: "The increase [could] be connected with the weather.",
             sentence: "Der Anstieg ___ mit dem Wetter zusammenhängen.",
             answer: "könnte",
-            altAnswers: ["dürfte"],
-            explanation: "\"Könnte\" + infinitive marks a possibility; the separable verb \"zusammenhängen\" stays together at the end.",
+            explanation: "\"Könnte\" + infinitive marks a possibility (\"dürfte\" would mean probably, a stronger claim); the separable verb \"zusammenhängen\" stays together at the end.",
           },
           {
             type: "multiple-choice",
@@ -322,7 +321,7 @@ export const DE_C2_U26: Lesson[] = [
         body: [
           "The reverse transformation matters too. Learners who have just discovered hedging stack it: \"Es könnte möglicherweise eventuell sein, dass...\" One hedge per claim is enough; three sound evasive.",
           "Where the evidence is overwhelming, say so: \"Die Studie belegt eindeutig, dass...\", \"Es steht fest, dass...\" (it is established that), \"nachweislich\" (demonstrably: \"Der Stoff ist nachweislich schädlich\").",
-          "Three adverbs English speakers confuse. \"Anscheinend\" and \"offenbar\" mean apparently, judging by the evidence. \"Scheinbar\" means only seemingly, but not really: \"Der Zusammenhang ist nur scheinbar\" (the connection is only apparent, it doesn't really exist). In casual speech the two are mixed up, but in a scientific text the difference is crucial. And \"erscheinen\" is to appear in the sense of be published or come into view, not to seem.",
+          "Three adverbs English speakers confuse. \"Anscheinend\" and \"offenbar\" mean apparently, judging by the evidence. \"Scheinbar\" means only seemingly, but not really: \"Der Zusammenhang ist nur scheinbar\" (the connection is only apparent, it doesn't really exist). In casual speech the two are mixed up, but in a scientific text the difference is crucial. And \"erscheinen\" usually means to appear in the sense of be published or come into view; as to seem it is formal and takes a dative or \"als\": \"Das erscheint mir plausibel\".",
         ],
         examples: [
           { es: "Die Studie belegt eindeutig, dass Rauchen das Krebsrisiko erhöht.", en: "The study clearly shows that smoking increases the risk of cancer." },
@@ -447,7 +446,7 @@ export const DE_C2_U26: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Deutsch in Wissenschaft und Technik, Part 2 of 3",
-    summary: "Talk about AI and the digital world: KI, Sprachmodell, Algorithmus, Datenschutz and DSGVO, Funkloch and Digitalisierung, and how to conjugate Denglisch verbs like downloaden, updaten and liken.",
+    summary: "Talk about AI and digital life in Germany (\"KI\", \"Sprachmodell\", \"Datenschutz\", \"DSGVO\", \"Funkloch\"), give English loanwords the right gender, and conjugate Denglisch verbs like \"downloaden\", \"updaten\" and \"liken\".",
     duration: "18 min",
     sections: [
       {
@@ -496,7 +495,7 @@ export const DE_C2_U26: Lesson[] = [
       {
         heading: "Datenschutz, DSGVO, Funkloch: digital Germany",
         body: [
-          "Data protection is a big topic in Germany. \"Der Datenschutz\" is data protection, \"die DSGVO\" (Datenschutz-Grundverordnung) is the GDPR, \"personenbezogene Daten\" are personal data, and you \"willigst in die Verarbeitung ein\" (consent to the processing; the noun is \"die Einwilligung\"). Every company has a \"Datenschutzbeauftragte\" or \"Datenschutzbeauftragter\" (an adjectival noun, so its ending changes).",
+          "Data protection is a big topic in Germany. \"Der Datenschutz\" is data protection, \"die DSGVO\" (Datenschutz-Grundverordnung) is the GDPR, \"personenbezogene Daten\" are personal data, and to consent to the processing is \"in die Verarbeitung einwilligen\" (the noun is \"die Einwilligung\"). Most companies must appoint a \"Datenschutzbeauftragte\" or \"Datenschutzbeauftragter\" (an adjectival noun, so its ending changes).",
           "Part of the background is history: the Stasi's surveillance and the protests against the 1983 census, after which the Constitutional Court defined a \"Recht auf informationelle Selbstbestimmung\" (a right to control one's own data).",
           "The other side is the slow \"Digitalisierung\": offices that still use fax machines, and the famous \"Funkloch\" (literally radio hole), a dead zone without mobile signal, especially on trains. \"Ich habe kein Netz\" is I have no signal; \"der Breitbandausbau\" is the expansion of broadband.",
         ],
@@ -541,7 +540,7 @@ export const DE_C2_U26: Lesson[] = [
         heading: "Denglisch: downloaden, upgedatet, geliked",
         body: [
           "English verbs enter German as regular weak verbs with \"-en\": \"chatten\", \"posten\", \"streamen\", \"liken\", \"googeln\" (note the spelling). They conjugate like \"machen\": \"ich poste\", \"sie hat gepostet\", \"wir haben gestreamt\", \"ich habe das gegoogelt\".",
-          "The past participle causes the headaches. Verbs that feel like particle verbs split: \"downloaden\" gives \"downgeloadet\" (also \"gedownloadet\"), \"updaten\" gives \"upgedatet\" (also \"geupdatet\"). For \"liken\" both \"geliked\" and \"gelikt\" are in use. Duden accepts these variants; when in doubt, use the German verb.",
+          "The past participle causes the headaches. Verbs that feel like particle verbs split: \"downloaden\" gives \"downgeloadet\" (also \"gedownloadet\"), \"updaten\" gives \"upgedatet\" (also \"geupdatet\"). For \"liken\" both \"gelikt\" (the Duden spelling) and \"geliked\" are in use. Usage is still unsettled; when in doubt, use the German verb.",
           "Register is the real question. In tech talk, at work and among friends Denglisch is normal; in official texts, instructions for customers and careful writing, German words are preferred: \"herunterladen\" (download), \"hochladen\" (upload), \"aktualisieren\" (update), \"der Rechner\" (computer, slightly technical), \"die Datei\" (file), \"teilen\" (share). Using too much Denglisch in formal writing sounds sloppy or trendy.",
         ],
         examples: [
@@ -668,7 +667,7 @@ export const DE_C2_U26: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Word Web: Innovation und Umbruch",
-    summary: "The vocabulary of new things and big change: Erfindung vs Entdeckung, Fortschritt, Durchbruch, Umbruch and Wandel, and praise words like bahnbrechend, wegweisend, Vorreiter and Pionierarbeit.",
+    summary: "Talk about new things and big change: tell \"Erfindung\" from \"Entdeckung\", choose between \"Fortschritt\", \"Durchbruch\", \"Umbruch\" and \"Wandel\", and praise innovation with \"bahnbrechend\", \"wegweisend\" and \"Vorreiter\".",
     duration: "16 min",
     sections: [
       {
@@ -680,7 +679,7 @@ export const DE_C2_U26: Lesson[] = [
         ],
         examples: [
           { es: "Johannes Gutenberg erfand um 1450 den Buchdruck mit beweglichen Lettern.", en: "Johannes Gutenberg invented printing with movable type around 1450." },
-          { es: "Wilhelm Conrad Röntgen entdeckte 1895 die nach ihm benannten Strahlen.", en: "In 1895 Wilhelm Conrad Roentgen discovered the rays named after him." },
+          { es: "Wilhelm Conrad Röntgen entdeckte 1895 die nach ihm benannten Strahlen.", en: "In 1895 Wilhelm Conrad Röntgen discovered the rays named after him." },
           { es: "Die Firma hat ihre Erfindung zum Patent angemeldet.", en: "The company has applied for a patent for its invention." },
           { es: "Die wichtigste Neuerung betrifft den Kündigungsschutz.", en: "The most important change concerns protection against dismissal." },
           { es: "Diese Ausrede hast du doch erfunden!", en: "You made that excuse up!" },
@@ -828,7 +827,7 @@ export const DE_C2_U26: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "With this project the clinic [is breaking new ground].",
+        en: "With this project [the clinic is breaking new ground].",
         sentence: "Mit diesem Projekt ___.",
         answer: "betritt die Klinik Neuland",
         altAnswers: ["betritt die Klinik medizinisches Neuland"],
@@ -893,7 +892,7 @@ export const DE_C2_U26: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Deutsch in Wissenschaft und Technik, Part 3 of 3",
-    summary: "Misinformation and science communication: Falschmeldung, Desinformation, Faktencheck and Verschwörungsmythos, sollen and wollen for claims you can't verify, and correlation vs causation.",
+    summary: "Talk about misinformation (\"Falschmeldung\", \"Desinformation\", \"Faktencheck\"), pass on claims you can't verify with \"sollen\" and \"wollen\", and keep correlation and causation apart.",
     duration: "18 min",
     sections: [
       {
@@ -1021,6 +1020,7 @@ export const DE_C2_U26: Lesson[] = [
             prompt: "Put the words in order to say: The difference is not statistically significant.",
             words: ["Der Unterschied", "ist", "statistisch", "nicht", "signifikant."],
             translation: "The difference is not statistically significant.",
+            altOrders: [["Der Unterschied", "ist", "nicht", "statistisch", "signifikant."]],
             explanation: "\"Nicht\" comes right before the adjective it negates; \"statistisch\" qualifies the whole phrase and goes first.",
           },
         ],
@@ -1112,7 +1112,7 @@ export const DE_C2_U26: Lesson[] = [
     slug: "c2-popularise-style-workshop",
     level: "DE-C2",
     number: 6,
-    title: "Style Workshop: Popularisieren ohne zu Verfälschen",
+    title: "Style Workshop: Popularisieren, ohne zu verfälschen",
     summary: "Rewrite scientific German for a general audience: break up the nominal style, keep the study's limits, and make it vivid with comparisons, questions and reader address.",
     duration: "18 min",
     sections: [
@@ -1555,7 +1555,7 @@ export const DE_C2_U26: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Mastery Vocabulary: Describing People and Landscapes",
-    summary: "Precise descriptive vocabulary: Gesichtszüge, Statur and Gang for people; Mittelgebirge, Heide, Moor, Watt and Alm for German landscapes; and adjectives like karg, lieblich, schroff and sanft.",
+    summary: "Describe people precisely (\"Gesichtszüge\", \"Statur\", \"Gang\") and German landscapes (\"Mittelgebirge\", \"Heide\", \"Watt\", \"Alm\") with adjectives like \"karg\", \"lieblich\", \"schroff\" and \"sanft\".",
     duration: "16 min",
     sections: [
       {
@@ -1580,7 +1580,7 @@ export const DE_C2_U26: Lesson[] = [
             prompt: "Translate into German.",
             source: "He was a gaunt, middle-aged man.",
             answer: "Er war ein hagerer Mann mittleren Alters.",
-            altAnswers: ["Er war ein hagerer Mann im mittleren Alter.", "Er war ein hagerer Mann mittleren Alters gewesen."],
+            altAnswers: ["Er war ein hagerer Mann im mittleren Alter."],
             explanation: "\"Hager\" with the mixed ending \"-er\" after \"ein\"; age as a genitive of quality: \"mittleren Alters\".",
           },
           {
@@ -1609,7 +1609,7 @@ export const DE_C2_U26: Lesson[] = [
           "\"Die Talsohle\" is the valley floor, and figuratively the lowest point of a recession: \"Die Talsohle ist durchschritten\" (the worst is over) is a favourite phrase of economics reporters.",
         ],
         examples: [
-          { es: "Im Spätsommer blüht die Lüneburger Heide lila.", en: "In late summer the heathland south of Hamburg blooms purple." },
+          { es: "Im Spätsommer blüht die Lüneburger Heide lila.", en: "In late summer the Lüneburg Heath blooms purple." },
           { es: "Bei Ebbe kann man mit einem Führer durchs Watt wandern.", en: "At low tide you can walk across the mudflats with a guide." },
           { es: "Der Harz ist das höchste Mittelgebirge Norddeutschlands.", en: "The Harz is the highest low mountain range in northern Germany." },
           { es: "Im Sommer treiben die Bauern ihre Kühe auf die Alm.", en: "In summer the farmers drive their cows up to the mountain pasture." },
@@ -1659,7 +1659,7 @@ export const DE_C2_U26: Lesson[] = [
           { es: "Die Landschaft der Eifel ist karg und windig.", en: "The landscape of the Eifel is barren and windy." },
           { es: "Das Moseltal gilt als besonders lieblich.", en: "The Mosel valley is considered particularly charming." },
           { es: "Schroffe Felswände ragen über dem See auf.", en: "Sheer rock faces tower above the lake." },
-          { es: "Sanfte Hügel prägen das Allgäuer Voralpenland.", en: "Gentle hills characterise the Alpine foothills of the Allgau region." },
+          { es: "Sanfte Hügel prägen das Allgäuer Voralpenland.", en: "Gentle hills characterise the Alpine foothills of the Allgäu region." },
           { es: "Die Küste ist zerklüftet und schwer zugänglich.", en: "The coast is rugged and hard to reach." },
           { es: "Auf meine Frage antwortete sie ziemlich schroff.", en: "She answered my question rather brusquely." },
         ],
@@ -1769,7 +1769,7 @@ export const DE_C2_U26: Lesson[] = [
         type: "speak",
         text: "Sanfte Hügel prägen das Voralpenland.",
         prompt: "Say it in German: Gentle hills characterise the foothills of the Alps.",
-        tip: "\"Hügel\": round your lips for ü as if saying oo, then say ee.",
+        tip: "\"Hügel\": say ee while rounding your lips as for oo; that gives the ü.",
         explanation: "\"Prägen\" = to characterise; \"das Voralpenland\" is the land in front of the Alps.",
       },
     ],
@@ -1788,5 +1788,5 @@ export const DE_C2_U26_WRITING: WriteExercise = {
     "Make it vivid for lay readers: a question as a hook, a comparison or \"jeder Fünfte\"-style number, and jargon explained",
   ],
   modelAnswer: "Macht Gartenarbeit glücklich?\n\nWer regelmäßig im Garten arbeitet, ist zufriedener: Das legt zumindest eine neue Studie der Universität Leipzig nahe. Die Forschenden haben ein Jahr lang knapp 1.200 Erwachsene begleitet. Die Teilnehmenden füllten jeden Monat einen Fragebogen zu ihrer Stimmung aus; zusätzlich wurde bei einem Teil von ihnen das Stresshormon Cortisol im Speichel gemessen.\n\nDas Ergebnis: Wer mindestens zwei Stunden pro Woche gärtnerte, berichtete im Schnitt von deutlich weniger Stress. Auch bei den Cortisolwerten lässt sich ein Unterschied nachweisen, allerdings ist er klein. Die in der Studie befragten Gärtnerinnen und Gärtner waren zudem seltener einsam, was vermutlich mit Gemeinschaftsgärten zusammenhängt, in denen man Nachbarn trifft.\n\nWie sicher ist das? Dabei ist zu beachten, dass es sich um eine Beobachtungsstudie handelt. Sie zeigt also eine Korrelation, keine Kausalität. Es könnte genauso gut sein, dass ohnehin entspanntere Menschen eher zur Gartenschere greifen. Außerdem stammen fast alle Teilnehmenden aus Sachsen. Ob das auch für Großstädter ohne Balkon gilt, ist noch offen. Die Autorinnen formulieren entsprechend vorsichtig: Die Daten deuteten darauf hin, dass Gartenarbeit eine Rolle spiele, mehr nicht.\n\nIn den sozialen Medien liest sich das anders. Gärtnern soll dort plötzlich „so gut wirken wie ein Antidepressivum“, angeblich belegt durch die Leipziger Studie. Das steht nirgends in der Untersuchung. Depressionen wurden gar nicht erfasst, und ein Vergleich mit Medikamenten fand nicht statt. Wer an einer Depression erkrankt ist, sollte sich deshalb nicht auf Tomatenpflanzen verlassen, sondern ärztlichen Rat suchen.\n\nTrotzdem dürfte die Studie viele Hobbygärtner freuen. Rund jeder Fünfte in Deutschland hat keinen Zugang zu einem Garten; für sie könnten Gemeinschaftsgärten eine Chance sein. Eine Folgestudie, in der die Teilnehmenden per Zufall einem Gartenprojekt zugeteilt werden, ist bereits geplant. Erst sie könnte klären, ob die Erde unter den Fingernägeln tatsächlich glücklich macht.",
-  explanation: "The article reports method and findings with passive alternatives (\"lässt sich nachweisen\", \"ist zu beachten\") and an extended attribute (\"die in der Studie befragten Gärtnerinnen und Gärtner\"), grades certainty with \"legt nahe\", \"vermutlich\", \"könnte\" and \"dürfte\", separates \"Korrelation\" from \"Kausalität\", and distances itself from the viral claim with subjective \"soll\" and \"angeblich\". The authors' cautious wording is reported in Konjunktiv I (\"deuteten ... hin\", \"spiele\").",
+  explanation: "The article reports method and findings with passive alternatives (\"lässt sich nachweisen\", \"ist zu beachten\") and an extended attribute (\"die in der Studie befragten Gärtnerinnen und Gärtner\"), grades certainty with \"legt nahe\", \"vermutlich\", \"könnte\" and \"dürfte\", separates \"Korrelation\" from \"Kausalität\", and distances itself from the viral claim with subjective \"soll\" and \"angeblich\". The authors' cautious wording is reported in Konjunktiv I (\"spiele\"), with Konjunktiv II \"deuteten ... hin\" where the Konjunktiv I form would look like the indicative.",
 };

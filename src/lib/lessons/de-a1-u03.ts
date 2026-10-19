@@ -16,7 +16,7 @@ export const DE_A1_U03: Lesson[] = [
         body: [
           "A German verb in the dictionary ends in -en: \"wohnen\" (to live), \"kommen\" (to come), \"lernen\" (to learn). Cut off the -en and you have the stem: \"wohn-\", \"komm-\", \"lern-\". The present tense is the stem plus an ending that matches the subject.",
           "The six endings are -e, -st, -t, -en, -t, -en: \"ich wohne\", \"du wohnst\", \"er/sie/es wohnt\", \"wir wohnen\", \"ihr wohnt\", \"sie wohnen\", \"Sie wohnen\". English only marks he/she/it with -s; German marks almost every person, so the ending alone tells you who is doing it.",
-          "Two pairs look alike: \"er wohnt\" and \"ihr wohnt\" share -t, and \"wir\", \"sie\" (they) and \"Sie\" (polite you) all take -en, which is the same as the infinitive. That's why the pronoun is never dropped in German, unlike in Spanish or Italian.",
+          "Two pairs look alike: \"er wohnt\" and \"ihr wohnt\" share -t, and \"wir\", \"sie\" (they) and \"Sie\" (polite you) all take -en, which is the same as the infinitive. That's one reason German keeps the subject pronoun (apart from an optional repeat after \"und\"), where Spanish or Italian can drop it.",
         ],
         examples: [
           { es: "Ich wohne in Hamburg.", en: "I live in Hamburg." },
@@ -41,7 +41,7 @@ export const DE_A1_U03: Lesson[] = [
             en: "[You live] in Cologne. (to a friend)",
             sentence: "___ in Köln.",
             answer: "Du wohnst",
-            explanation: "The du form ends in -st: \"du wohnst\". English you live has no ending, so learners often write *du wohne.",
+            explanation: "The du form ends in -st: \"du wohnst\". English you live has no ending, so learners often write \"*du wohne\".",
           },
           {
             type: "listen-choose",
@@ -90,7 +90,7 @@ export const DE_A1_U03: Lesson[] = [
         heading: "One present, three English presents",
         body: [
           "English has three present tenses: I live, I'm living, I do live. German has one: \"ich wohne\". The same form translates all three, so \"Ich lerne Deutsch\" is I learn German, I'm learning German and, with stress, I do learn German.",
-          "Never build the English -ing form with \"sein\": *Ich bin lernen is not German. And there is no helper do in questions: Do you play tennis? is simply \"Spielst du Tennis?\", with the verb first.",
+          "Never build the English -ing form with \"sein\": \"*Ich bin lernen\" is not German. And there is no helper do in questions: Do you play tennis? is simply \"Spielst du Tennis?\", with the verb first.",
           "The same goes for \"Was machst du?\": it means both What are you doing? and What do you do?, and the context decides.",
         ],
         examples: [
@@ -134,7 +134,7 @@ export const DE_A1_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "We're drinking coffee.",
         answer: "Wir trinken Kaffee.",
-        explanation: "One present for I drink and I'm drinking: \"wir trinken\", never *wir sind trinken.",
+        explanation: "One present for I drink and I'm drinking: \"wir trinken\", never \"*wir sind trinken\".",
       },
       {
         type: "translate",
@@ -150,7 +150,7 @@ export const DE_A1_U03: Lesson[] = [
         en: "[They're buying] bread.",
         sentence: "___ Brot.",
         answer: "Sie kaufen",
-        explanation: "They is \"sie\" with the -en form: \"sie kaufen\". Brot needs no article here, just like bread.",
+        explanation: "They is \"sie\" with the -en form: \"sie kaufen\". \"Brot\" needs no article here, just like bread.",
       },
       {
         type: "translate",
@@ -207,7 +207,7 @@ export const DE_A1_U03: Lesson[] = [
       {
         heading: "Stems in -t and -d: du arbeitest",
         body: [
-          "\"Arbeiten\" (to work) has the stem \"arbeit-\". Adding -st or -t straight on would give *du arbeitst, *er arbeitt: impossible to say. So German slips in an e: \"du arbeitest\", \"er arbeitet\", \"ihr arbeitet\".",
+          "\"Arbeiten\" (to work) has the stem \"arbeit-\". Adding -st or -t straight on would give \"*du arbeitst\", \"*er arbeitt\": impossible to say. So German slips in an e: \"du arbeitest\", \"er arbeitet\", \"ihr arbeitet\".",
           "The same happens with every stem ending in -t or -d: \"finden\" (to find) gives \"du findest\", \"er findet\"; \"kosten\" (to cost) gives \"es kostet\"; \"antworten\" (to answer) gives \"sie antwortet\".",
           "Ich, wir and sie/Sie are unaffected: \"ich arbeite\", \"wir arbeiten\". The extra e only appears where the ending starts with s or t.",
         ],
@@ -225,7 +225,7 @@ export const DE_A1_U03: Lesson[] = [
             en: "[You work] a lot. (to a friend)",
             sentence: "___ viel.",
             answer: "Du arbeitest",
-            explanation: "Stem \"arbeit-\" ends in t, so an e comes before -st: \"du arbeitest\", not *du arbeitst.",
+            explanation: "Stem \"arbeit-\" ends in t, so an e comes before -st: \"du arbeitest\", not \"*du arbeitst\".",
           },
           {
             type: "translate",
@@ -258,7 +258,7 @@ export const DE_A1_U03: Lesson[] = [
             question: "How do you ask a child: What's your name?",
             options: ["Wie heißt du?", "Wie heißst du?", "Wie heißen du?", "Wie heiße du?"],
             correctIndex: 0,
-            explanation: "The stem \"heiß-\" ends in ß, so the du ending is just -t: \"du heißt\". *heißst is a classic slip.",
+            explanation: "The stem \"heiß-\" ends in ß, so the du ending is just -t: \"du heißt\". \"*heißst\" is a classic slip.",
           },
           {
             type: "translate",
@@ -337,7 +337,7 @@ export const DE_A1_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "Are you travelling soon? (to a friend)",
         answer: "Reist du bald?",
-        explanation: "\"Reis-\" ends in s, so the du form is \"du reist\", not *du reisst.",
+        explanation: "\"Reis-\" ends in s, so the du form is \"du reist\", not \"*du reisst\".",
       },
       {
         type: "translate",
@@ -377,9 +377,9 @@ export const DE_A1_U03: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Frau Schneider is working in Hamburg tomorrow.",
+        prompt: "Put the words in order to say: Mrs Schneider is working in Hamburg tomorrow.",
         words: ["Frau", "Schneider", "arbeitet", "morgen", "in", "Hamburg."],
-        translation: "Frau Schneider is working in Hamburg tomorrow.",
+        translation: "Mrs Schneider is working in Hamburg tomorrow.",
         explanation: "\"Arbeitet\" comes right after the subject. Time before place: \"morgen in Hamburg\" is the usual German order.",
       },
     ],
@@ -397,7 +397,7 @@ export const DE_A1_U03: Lesson[] = [
         body: [
           "The days are all masculine and capitalised: \"Montag\", \"Dienstag\", \"Mittwoch\" (literally mid-week), \"Donnerstag\", \"Freitag\", \"Samstag\", \"Sonntag\". On a day is \"am\" + the day: \"am Montag\" (on Monday), \"am Wochenende\" (at the weekend).",
           "For now, treat \"am Montag\" as a set phrase and put it after the verb: \"Mia arbeitet am Montag\". Starting the sentence with it is also possible, but it changes the word order, which you'll meet in a later lesson of this unit.",
-          "Your mission: Mia studies in Cologne and shares a flat with Jonas. Here is her week. Montag: arbeiten (Café Rosa). Dienstag: Deutsch lernen mit Jonas. Mittwoch: Fußball spielen. Donnerstag: kochen für die WG. Freitag: Salsa tanzen. Samstag: arbeiten. Sonntag: mit Oma telefonieren.",
+          "Your mission: Mia studies in Cologne and shares a flat with Jonas. Here is her week: \"Montag: arbeiten (Café Rosa)\", \"Dienstag: Deutsch lernen mit Jonas\", \"Mittwoch: Fußball spielen\", \"Donnerstag: kochen für die WG\" (her shared flat), \"Freitag: Salsa tanzen\", \"Samstag: arbeiten\", \"Sonntag: mit Oma telefonieren\" (\"Oma\" is Grandma).",
         ],
         examples: [
           { es: "Mia arbeitet am Montag.", en: "Mia works on Monday." },
@@ -495,7 +495,7 @@ export const DE_A1_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Was macht Mia am Mittwoch? Which answer fits her planner?",
+            question: "Someone asks: \"Was macht Mia am Mittwoch?\" Which answer fits her planner?",
             options: ["Sie spielt Fußball.", "Sie spielen Fußball.", "Sie tanzt Salsa.", "Er spielt Fußball."],
             correctIndex: 0,
             explanation: "Wednesday is football. Mia is \"sie\" (she) with the -t ending: \"sie spielt\". \"Sie spielen\" would mean they play.",
@@ -587,7 +587,7 @@ export const DE_A1_U03: Lesson[] = [
     slug: "a1-dialogue-was-machst-du",
     level: "DE-A1",
     number: 4,
-    title: "Dialogue Lab: Was Machst Du Beruflich?",
+    title: "Dialogue Lab: Was machst du beruflich?",
     summary: "Follow two conversations about work and study, one with du and one with Sie, and answer each question in the matching form.",
     duration: "12 min",
     sections: [
@@ -595,7 +595,7 @@ export const DE_A1_U03: Lesson[] = [
         heading: "At a party: Wo wohnst du?",
         body: [
           "Jonas meets Ayşe at a friend's birthday party in Cologne. They're about the same age, so it's \"du\" from the first word.",
-          "Jonas: „Hallo, ich bin Jonas. Und du?“ Ayşe: „Ich heiße Ayşe. Freut mich!“ Jonas: „Wo wohnst du?“ Ayşe: „Ich wohne in Ehrenfeld. Und du?“ Jonas: „Ich wohne auch in Köln.“",
+          "Jonas: \"Hallo, ich bin Jonas. Und du?\" Ayşe: \"Ich heiße Ayşe. Freut mich!\" Jonas: \"Wo wohnst du?\" Ayşe: \"Ich wohne in Ehrenfeld. Und du?\" Jonas: \"Ich wohne auch in Köln.\"",
           "Listen to the ending in each question: \"wohnst\" tells you it's about you, so you answer with the ich form: \"Ich wohne...\". The question gives you the verb; you just change the ending. \"Und du?\" bounces the same question back.",
         ],
         examples: [
@@ -627,7 +627,7 @@ export const DE_A1_U03: Lesson[] = [
       {
         heading: "Was machst du beruflich?",
         body: [
-          "Jonas: „Was machst du beruflich?“ Ayşe: „Ich arbeite als Ingenieurin. Und du?“ Jonas: „Ich bin Student. Ich studiere Informatik.“ Ayşe: „Cool! Lernst du auch Sprachen?“ Jonas: „Ja, ich lerne Spanisch.“",
+          "Jonas: \"Was machst du beruflich?\" Ayşe: \"Ich arbeite als Ingenieurin. Und du?\" Jonas: \"Ich bin Student. Ich studiere Informatik.\" Ayşe: \"Cool! Lernst du auch Sprachen?\" Jonas: \"Ja, ich lerne Spanisch.\"",
           "\"Was machst du beruflich?\" is the set question for What do you do for a living? Two common answers: \"Ich bin\" + job (no article: \"Ich bin Student\") or \"Ich arbeite als\" + job (\"Ich arbeite als Ingenieurin\"), again with no article.",
           "\"Studieren\" is to study at university (a subject: \"Informatik\", computer science); \"lernen\" is to learn or to study for something (a language, for a test). English study covers both.",
         ],
@@ -642,7 +642,7 @@ export const DE_A1_U03: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Jonas asks: Was machst du beruflich? Ayşe is an engineer. What does she say?",
+            question: "Jonas asks: \"Was machst du beruflich?\" Ayşe is an engineer. What does she say?",
             options: ["Ich arbeite als Ingenieurin.", "Ich arbeite als eine Ingenieurin.", "Ich arbeitest als Ingenieurin.", "Du arbeitest als Ingenieurin."],
             correctIndex: 0,
             explanation: "\"Als\" + job takes no article, and Ayşe answers about herself with \"ich arbeite\".",
@@ -669,7 +669,7 @@ export const DE_A1_U03: Lesson[] = [
         heading: "The same questions with Sie",
         body: [
           "On her way home, Ayşe meets her new neighbour, Herr Becker, an older man. Strangers and neighbours you don't know well get \"Sie\".",
-          "Herr Becker: „Guten Abend! Wohnen Sie hier?“ Ayşe: „Ja, ich wohne jetzt hier. Ich heiße Ayşe Yılmaz.“ Herr Becker: „Freut mich. Was machen Sie beruflich?“ Ayşe: „Ich bin Ingenieurin. Und Sie?“ Herr Becker: „Ich bin Lehrer.“",
+          "Herr Becker: \"Guten Abend! Wohnen Sie hier?\" Ayşe: \"Ja, ich wohne jetzt hier. Ich heiße Ayşe Yılmaz.\" Herr Becker: \"Freut mich. Was machen Sie beruflich?\" Ayşe: \"Ich bin Ingenieurin. Und Sie?\" Herr Becker: \"Ich bin Lehrer.\"",
           "The Sie questions use the -en form: \"Wohnen Sie...?\", \"Was machen Sie...?\". Your answer is still the ich form. And the polite bounce-back is \"Und Sie?\", never \"Und du?\" to Herr Becker.",
         ],
         examples: [
@@ -743,7 +743,7 @@ export const DE_A1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A new colleague asks: Wo wohnen Sie? What's the best answer?",
+        question: "A new colleague asks: \"Wo wohnen Sie?\" What's the best answer?",
         options: ["Ich wohne in Bonn.", "Sie wohnen in Bonn.", "Ich wohnen in Bonn.", "Ich wohnst in Bonn."],
         correctIndex: 0,
         explanation: "\"Wohnen Sie\" is about you, so you answer with the ich form: \"Ich wohne\".",
@@ -754,6 +754,7 @@ export const DE_A1_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "She studies medicine in Leipzig.",
         answer: "Sie studiert Medizin in Leipzig.",
+        altAnswers: ["Sie studiert in Leipzig Medizin."],
         explanation: "A university subject: \"studieren\". Er/sie form: \"studiert\".",
       },
       {
@@ -983,7 +984,7 @@ export const DE_A1_U03: Lesson[] = [
         heading: "Ich habe, du hast, er hat",
         body: [
           "\"Haben\" (to have) is the second most important verb after \"sein\". It's almost regular: \"ich habe\", \"wir haben\", \"ihr habt\", \"sie/Sie haben\" follow the normal pattern.",
-          "Only the du and er/sie/es forms are irregular: they lose the b. \"Du hast\" (not *du habst) and \"er hat\" (not *er habt). These two match English hast and hath from old texts: German and English are relatives.",
+          "Only the du and er/sie/es forms are irregular: they lose the b. \"Du hast\" (not \"*du habst\") and \"er hat\" (not \"*er habt\"). These two match English hast and hath from old texts: German and English are relatives.",
           "Unlike English, German doesn't need got: I've got a sister and I have a sister are both \"Ich habe eine Schwester\".",
         ],
         examples: [
@@ -991,7 +992,7 @@ export const DE_A1_U03: Lesson[] = [
           { es: "Du hast eine Katze?", en: "You have a cat?" },
           { es: "Lena hat ein Auto.", en: "Lena has a car." },
           { es: "Wir haben zwei Kinder.", en: "We have two children." },
-          { es: "Habt ihr ein Zimmer frei?", en: "Do you have a room free? (to friends)" },
+          { es: "Habt ihr ein Auto?", en: "Do you have a car? (to friends)" },
         ],
         checkpoint: [
           {
@@ -1000,7 +1001,7 @@ export const DE_A1_U03: Lesson[] = [
             en: "Lena [has] a car.",
             sentence: "Lena ___ ein Auto.",
             answer: "hat",
-            explanation: "The er/sie/es form loses the b: \"hat\", not *habt.",
+            explanation: "The er/sie/es form loses the b: \"hat\", not \"*habt\".",
           },
           {
             type: "translate",
@@ -1058,7 +1059,7 @@ export const DE_A1_U03: Lesson[] = [
         body: [
           "With masculine nouns, something changes after \"haben\": a brother is \"ein Bruder\", but I have a brother is \"Ich habe einen Bruder\". The same with a dog: \"Ich habe einen Hund\".",
           "The reason is the accusative case, which you'll learn properly in Unit 5. For now, learn \"einen Bruder\" and \"einen Hund\" as fixed chunks after \"haben\". Feminine \"eine\", neuter \"ein\" and plurals don't change.",
-          "*Ich habe ein Bruder is one of the most common beginner slips. If you say the chunk often enough, \"einen Bruder\" will start to sound right.",
+          "\"*Ich habe ein Bruder\" is one of the most common beginner slips. If you say the chunk often enough, \"einen Bruder\" will start to sound right.",
         ],
         examples: [
           { es: "Ich habe einen Bruder.", en: "I have a brother." },
@@ -1116,6 +1117,7 @@ export const DE_A1_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "We have a flat in Leipzig.",
         answer: "Wir haben eine Wohnung in Leipzig.",
+        altAnswers: ["Wir haben in Leipzig eine Wohnung.", "In Leipzig haben wir eine Wohnung."],
         explanation: "\"Die Wohnung\" (flat, apartment) is feminine: -ung nouns always are.",
       },
       {
@@ -1176,7 +1178,7 @@ export const DE_A1_U03: Lesson[] = [
         heading: "Hunger haben, Durst haben",
         body: [
           "Where English says I'm hungry, German says I have hunger: \"Ich habe Hunger\". Thirsty is \"Durst haben\": \"Hast du Durst?\". This is the normal everyday way; \"Ich bin hungrig\" exists but sounds stiff or bookish.",
-          "These are fixed chunks with no article: \"Ich habe Hunger\", never *Ich habe einen Hunger. The noun is capitalised like every German noun.",
+          "These are fixed chunks with no article: \"Ich habe Hunger\", never \"*Ich habe einen Hunger\". The noun is capitalised like every German noun.",
           "Two more body chunks: \"Fieber haben\" (to have a temperature) and \"Kopfschmerzen haben\" (to have a headache, always plural).",
         ],
         examples: [
@@ -1227,7 +1229,7 @@ export const DE_A1_U03: Lesson[] = [
             source: "You're right. (to a friend)",
             answer: "Du hast Recht.",
             altAnswers: ["Du hast recht."],
-            explanation: "Right is \"Recht haben\", not *Du bist richtig (that would mean you are correct as a person, which isn't idiomatic).",
+            explanation: "Right is \"Recht haben\", not \"*Du bist richtig\" (that would mean you are correct as a person, which isn't idiomatic).",
           },
           {
             type: "multiple-choice",
@@ -1249,7 +1251,7 @@ export const DE_A1_U03: Lesson[] = [
       {
         heading: "But age stays with sein",
         body: [
-          "One trap goes the other way. Spanish and French say I have 25 years; German, like English, uses to be: \"Ich bin 25\" or \"Ich bin 25 Jahre alt\". Never *Ich habe 25 Jahre.",
+          "One trap goes the other way. Spanish and French say I have 25 years; German, like English, uses to be: \"Ich bin 25\" or \"Ich bin 25 Jahre alt\". Never \"*Ich habe 25 Jahre\".",
           "Cold and warm also don't use \"haben\". Keep them for later; for now, remember that hunger, thirst, time, desire, fear, luck and being right go with \"haben\", and age goes with \"sein\".",
         ],
         examples: [
@@ -1266,7 +1268,7 @@ export const DE_A1_U03: Lesson[] = [
             source: "She's 30 years old.",
             answer: "Sie ist 30 Jahre alt.",
             altAnswers: ["Sie ist 30.", "Sie ist dreißig Jahre alt.", "Sie ist dreißig."],
-            explanation: "Age uses \"sein\": \"Sie ist 30 (Jahre alt)\". *Sie hat 30 Jahre is a Spanish or French pattern.",
+            explanation: "Age uses \"sein\": \"Sie ist 30 (Jahre alt)\". \"*Sie hat 30 Jahre\" is a Spanish or French pattern.",
           },
           {
             type: "speak",
@@ -1400,7 +1402,7 @@ export const DE_A1_U03: Lesson[] = [
         heading: "Something else first: the subject swaps",
         body: [
           "When a time or place comes first, the verb holds second place and the subject moves to just after it: \"Ich arbeite heute\" becomes \"Heute arbeite ich\". Think of the verb as a pivot that never moves; things swap around it.",
-          "English does the opposite: Today I work keeps subject + verb together. Translating word by word gives *Heute ich arbeite, the most typical English-speaker mistake in German.",
+          "English does the opposite: Today I work keeps subject + verb together. Translating word by word gives \"*Heute ich arbeite\", the most typical English-speaker mistake in German.",
           "The meaning barely changes; starting with the time just puts the focus on it, like English On Monday, I'm free.",
         ],
         examples: [
@@ -1417,7 +1419,7 @@ export const DE_A1_U03: Lesson[] = [
             prompt: "Translate into German, starting with the time word.",
             source: "Today I'm working.",
             answer: "Heute arbeite ich.",
-            explanation: "Time first, then the verb, then the subject: \"Heute arbeite ich\". *Heute ich arbeite puts the verb third.",
+            explanation: "Time first, then the verb, then the subject: \"Heute arbeite ich\". \"*Heute ich arbeite\" puts the verb third.",
           },
           {
             type: "word-order",
@@ -1501,7 +1503,7 @@ export const DE_A1_U03: Lesson[] = [
         question: "Which sentence is correct German?",
         options: ["Heute lerne ich Deutsch.", "Heute ich lerne Deutsch.", "Heute lerne Deutsch ich.", "Ich heute lerne Deutsch."],
         correctIndex: 0,
-        explanation: "The verb is always second: \"Heute lerne ich\". *Heute ich lerne copies English.",
+        explanation: "The verb is always second: \"Heute lerne ich\". \"*Heute ich lerne\" copies English.",
       },
       {
         type: "fill-blank",
@@ -1571,7 +1573,7 @@ export const DE_A1_U03: Lesson[] = [
           { es: "Mehmet spricht Türkisch und Deutsch.", en: "Mehmet speaks Turkish and German." },
           { es: "Isst du Fleisch?", en: "Do you eat meat?" },
           { es: "Sie nimmt die U-Bahn.", en: "She takes the underground." },
-          { es: "Frau Schneider gibt Yoga-Kurse.", en: "Frau Schneider teaches yoga classes." },
+          { es: "Frau Schneider gibt Yoga-Kurse.", en: "Mrs Schneider teaches yoga classes." },
         ],
         checkpoint: [
           {
@@ -1580,7 +1582,7 @@ export const DE_A1_U03: Lesson[] = [
             prompt: "Translate into German.",
             source: "Do you speak German? (to a friend)",
             answer: "Sprichst du Deutsch?",
-            explanation: "\"Sprechen\" changes e to i in the du form: \"sprichst\". *Sprechst du is the classic slip.",
+            explanation: "\"Sprechen\" changes e to i in the du form: \"sprichst\". \"*Sprechst du\" is the classic slip.",
           },
           {
             type: "fill-blank",
@@ -1628,7 +1630,7 @@ export const DE_A1_U03: Lesson[] = [
       {
         heading: "Never in ich, wir or ihr",
         body: [
-          "The most common mistake after learning this rule is to overdo it: *ich spriche, *wir sprichen, *ihr nimmt. The change is only for du and er/sie/es. Picture a table with the vowel change in rows two and three only.",
+          "The most common mistake after learning this rule is to overdo it: \"*ich spriche\", \"*wir sprichen\", \"*ihr nimmt\". The change is only for du and er/sie/es. Picture a table with the vowel change in rows two and three only.",
           "Also watch \"ihr\": \"ihr esst\", \"ihr nehmt\", \"ihr seht\" use the normal stem with -t.",
         ],
         examples: [
@@ -1728,9 +1730,9 @@ export const DE_A1_U03: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Frau Schneider teaches yoga classes on Monday.",
+        prompt: "Put the words in order to say: Mrs Schneider teaches yoga classes on Monday.",
         words: ["Am", "Montag", "gibt", "Frau", "Schneider", "Yoga-Kurse."],
-        translation: "Frau Schneider teaches yoga classes on Monday.",
+        translation: "Mrs Schneider teaches yoga classes on Monday.",
         altOrders: [["Frau", "Schneider", "gibt", "am", "Montag", "Yoga-Kurse."]],
         explanation: "\"Geben\" becomes \"gibt\" for er/sie; the verb stays second.",
       },
@@ -1748,7 +1750,7 @@ export const DE_A1_U03: Lesson[] = [
         heading: "A becomes ä: du fährst, er fährt",
         body: [
           "The second family takes an umlaut, again only in the du and er/sie/es forms: \"fahren\" (to drive, to go by vehicle) gives \"du fährst\", \"er fährt\"; \"schlafen\" (to sleep): \"du schläfst\", \"er schläft\"; \"tragen\" (to wear, to carry): \"du trägst\", \"er trägt\"; \"waschen\" (to wash): \"du wäschst\", \"er wäscht\".",
-          "The umlaut changes the sound, not just the look: \"fährt\" rhymes with \"Pferd\", and \"schläft\" has the e sound of English left. *Er fahrt is wrong in writing and in speech.",
+          "The umlaut changes the sound, not just the look: \"fährt\" rhymes with \"Pferd\", and \"schläft\" has the e sound of English left. \"*Er fahrt\" is wrong in writing and in speech.",
           "\"Fahren\" is used for any trip by car, train, bike or bus: \"Wir fahren nach Hamburg\" (we're going to Hamburg). Walking is \"gehen\" or \"laufen\".",
         ],
         examples: [
@@ -1934,7 +1936,7 @@ export const DE_A1_U03: Lesson[] = [
         body: [
           "German has two words for not. \"Kein\" negates a noun that would otherwise have \"ein\" or no article at all. It means not a, not any or no, and it takes the same endings as \"ein\": \"kein Auto\", \"keine Zeit\", \"keine Kinder\".",
           "So \"Ich habe ein Auto\" becomes \"Ich habe kein Auto\" (I don't have a car), and \"Ich habe Zeit\" becomes \"Ich habe keine Zeit\" (I don't have time). Plurals take \"keine\": \"Wir haben keine Kinder\".",
-          "Masculine nouns after \"haben\" take \"keinen\", just like \"einen\": \"Ich habe keinen Bruder\", \"Ich habe keinen Hunger\". Learn them as chunks for now. *Ich habe nicht ein Auto is a direct copy of English and sounds wrong.",
+          "Masculine nouns after \"haben\" take \"keinen\", just like \"einen\": \"Ich habe keinen Bruder\", \"Ich habe keinen Hunger\". Learn them as chunks for now. \"*Ich habe nicht ein Auto\" is a direct copy of English and sounds wrong.",
         ],
         examples: [
           { es: "Ich habe kein Auto.", en: "I don't have a car." },
@@ -1951,7 +1953,7 @@ export const DE_A1_U03: Lesson[] = [
             prompt: "Translate into German.",
             source: "I don't have a car.",
             answer: "Ich habe kein Auto.",
-            explanation: "\"Ein Auto\" becomes \"kein Auto\". *Ich habe nicht ein Auto copies English.",
+            explanation: "\"Ein Auto\" becomes \"kein Auto\". \"*Ich habe nicht ein Auto\" copies English.",
           },
           {
             type: "fill-blank",
@@ -1986,7 +1988,7 @@ export const DE_A1_U03: Lesson[] = [
             source: "I'm not working today.",
             answer: "Ich arbeite heute nicht.",
             altAnswers: ["Heute arbeite ich nicht."],
-            explanation: "No noun to negate, so \"nicht\", at the end of the sentence. *Ich nicht arbeite breaks the verb-second rule.",
+            explanation: "No noun to negate, so \"nicht\", at the end of the sentence. \"*Ich nicht arbeite\" breaks the verb-second rule.",
           },
           {
             type: "multiple-choice",
@@ -2008,8 +2010,8 @@ export const DE_A1_U03: Lesson[] = [
       {
         heading: "No do: the verb stays where it is",
         body: [
-          "English needs do to negate: I don't smoke. German never does: the verb stays in its place and \"nicht\" is added: \"Ich rauche nicht\". *Ich mache nicht rauchen means nothing.",
-          "\"Nicht\" never pushes the verb out of second place: \"Heute arbeite ich nicht\", not *Heute ich nicht arbeite.",
+          "English needs do to negate: I don't smoke. German never does: the verb stays in its place and \"nicht\" is added: \"Ich rauche nicht\". \"*Ich mache nicht rauchen\" means nothing.",
+          "\"Nicht\" never pushes the verb out of second place: \"Heute arbeite ich nicht\", not \"*Heute ich nicht arbeite\".",
           "Mind the common phrases: \"Ich weiß nicht\" (I don't know), \"Nicht schlecht!\" (Not bad!), \"Kein Problem!\" (No problem!).",
         ],
         examples: [
@@ -2069,7 +2071,7 @@ export const DE_A1_U03: Lesson[] = [
         en: "Sorry, I [don't have a] bike.",
         sentence: "Tut mir leid, ich habe ___ Fahrrad.",
         answer: "kein",
-        explanation: "\"Ein Fahrrad\" becomes \"kein Fahrrad\": don't have a is \"kein\", never *nicht ein.",
+        explanation: "\"Ein Fahrrad\" becomes \"kein Fahrrad\": don't have a is \"kein\", never \"*nicht ein\".",
       },
       {
         type: "translate",
@@ -2126,9 +2128,9 @@ export const DE_A1_U03: Lesson[] = [
       {
         heading: "Endings and stem changes",
         body: [
-          "These sentences come from learners' messages. Each has one mistake. First: *Du sprechst gut Deutsch. \"Sprechen\" changes e to i for du: \"Du sprichst gut Deutsch\".",
-          "*Er fahrt morgen nach Bonn. The a becomes ä for er: \"Er fährt\". *Wir nimmen die U-Bahn: the change never reaches wir: \"wir nehmen\".",
-          "*Du arbeitst viel. A t-stem needs the extra e: \"du arbeitest\". And *Du heißst Leon? An ß-stem drops the s of -st: \"du heißt\".",
+          "These sentences come from learners' messages. Each has one mistake. First: \"*Du sprechst gut Deutsch\". \"Sprechen\" changes e to i for du: \"Du sprichst gut Deutsch\".",
+          "\"*Er fahrt morgen nach Bonn\". The a becomes ä for er: \"Er fährt\". \"*Wir nimmen die U-Bahn\": the change never reaches wir: \"wir nehmen\".",
+          "\"*Du arbeitst viel\". A t-stem needs the extra e: \"du arbeitest\". And \"*Du heißst Leon?\" An ß-stem drops the s of -st: \"du heißt\".",
         ],
         examples: [
           { es: "Du sprichst gut Deutsch.", en: "You speak German well." },
@@ -2141,7 +2143,7 @@ export const DE_A1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Du sprechst gut Deutsch. Write the correct German for: You speak German well.",
+            prompt: "A learner wrote \"*Du sprechst gut Deutsch.\" Write the correct German for: You speak German well.",
             source: "You speak German well. (to a friend)",
             answer: "Du sprichst gut Deutsch.",
             altAnswers: ["Du sprichst Deutsch gut."],
@@ -2153,7 +2155,7 @@ export const DE_A1_U03: Lesson[] = [
             en: "He [is going] to Bonn tomorrow.",
             sentence: "Er ___ morgen nach Bonn.",
             answer: "fährt",
-            explanation: "*Er fahrt misses the umlaut: \"fahren\" takes ä in the er form.",
+            explanation: "\"*Er fahrt\" misses the umlaut: \"fahren\" takes ä in the er form.",
           },
           {
             type: "multiple-choice",
@@ -2167,9 +2169,9 @@ export const DE_A1_U03: Lesson[] = [
       {
         heading: "Word order and haben",
         body: [
-          "*Heute ich lerne Deutsch. Copying English Today I learn puts the verb third. The verb must be second: \"Heute lerne ich Deutsch\".",
-          "*Ich habe 30 Jahre. That's the Spanish or French way. Age uses \"sein\": \"Ich bin 30\" or \"Ich bin 30 Jahre alt\".",
-          "*Ich bin hungrig. Grammatically fine, but nobody says it in everyday German. Use the chunk: \"Ich habe Hunger\". The same for thirsty: \"Ich habe Durst\".",
+          "\"*Heute ich lerne Deutsch\". Copying English Today I learn puts the verb third. The verb must be second: \"Heute lerne ich Deutsch\".",
+          "\"*Ich habe 30 Jahre\". That's the Spanish or French way. Age uses \"sein\": \"Ich bin 30\" or \"Ich bin 30 Jahre alt\".",
+          "\"*Ich bin hungrig\". Grammatically fine, but nobody says it in everyday German. Use the chunk: \"Ich habe Hunger\". The same for thirsty: \"Ich habe Durst\".",
         ],
         examples: [
           { es: "Heute lerne ich Deutsch.", en: "Today I'm learning German." },
@@ -2181,7 +2183,7 @@ export const DE_A1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Heute ich lerne Deutsch. Write the correct German, starting with today.",
+            prompt: "A learner wrote \"*Heute ich lerne Deutsch.\" Write the correct German, starting with today.",
             source: "Today I'm learning German.",
             answer: "Heute lerne ich Deutsch.",
             explanation: "Time first, then the verb, then the subject. The verb is always second.",
@@ -2189,7 +2191,7 @@ export const DE_A1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Ich habe 30 Jahre. Write the correct German.",
+            prompt: "A learner wrote \"*Ich habe 30 Jahre.\" Write the correct German.",
             source: "I'm 30.",
             answer: "Ich bin 30.",
             altAnswers: ["Ich bin 30 Jahre alt.", "Ich bin dreißig.", "Ich bin dreißig Jahre alt."],
@@ -2200,9 +2202,9 @@ export const DE_A1_U03: Lesson[] = [
       {
         heading: "Negation",
         body: [
-          "*Ich habe nicht ein Fahrrad. Before a noun with \"ein\", German uses \"kein\": \"Ich habe kein Fahrrad\".",
-          "*Ich habe nicht Zeit. A noun without an article is also negated with \"kein\": \"Ich habe keine Zeit\".",
-          "*Ich nicht arbeite heute. \"Nicht\" never takes the verb's place: \"Ich arbeite heute nicht\".",
+          "\"*Ich habe nicht ein Fahrrad\". Before a noun with \"ein\", German uses \"kein\": \"Ich habe kein Fahrrad\".",
+          "\"*Ich habe nicht Zeit\". A noun without an article is also negated with \"kein\": \"Ich habe keine Zeit\".",
+          "\"*Ich nicht arbeite heute\". \"Nicht\" never takes the verb's place: \"Ich arbeite heute nicht\".",
         ],
         examples: [
           { es: "Ich habe kein Fahrrad.", en: "I haven't got a bike." },
@@ -2214,7 +2216,7 @@ export const DE_A1_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Ich habe nicht ein Fahrrad. Write the correct German.",
+            prompt: "A learner wrote \"*Ich habe nicht ein Fahrrad.\" Write the correct German.",
             source: "I haven't got a bike.",
             answer: "Ich habe kein Fahrrad.",
             explanation: "\"Nicht ein\" becomes \"kein\": \"kein Fahrrad\".",
@@ -2234,7 +2236,7 @@ export const DE_A1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Er essen Pizza. Write the correct German.",
+        prompt: "A learner wrote \"*Er essen Pizza.\" Write the correct German.",
         source: "He's eating pizza.",
         answer: "Er isst Pizza.",
         explanation: "\"Essen\" changes e to i for er, and the stem ends in s: \"er isst\".",
@@ -2242,7 +2244,7 @@ export const DE_A1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Am Montag ich spiele Tennis. Write the correct German, starting with Monday.",
+        prompt: "A learner wrote \"*Am Montag ich spiele Tennis.\" Write the correct German, starting with Monday.",
         source: "On Monday I play tennis.",
         answer: "Am Montag spiele ich Tennis.",
         explanation: "\"Am Montag\" is first, so the verb comes next: \"spiele ich\".",
@@ -2250,7 +2252,7 @@ export const DE_A1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Lena lest ein Buch. Write the correct German.",
+        prompt: "A learner wrote \"*Lena lest ein Buch.\" Write the correct German.",
         source: "Lena is reading a book.",
         answer: "Lena liest ein Buch.",
         explanation: "\"Lesen\" changes e to ie for er/sie: \"liest\".",
@@ -2266,7 +2268,7 @@ export const DE_A1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Ihr habt 20 Jahre? Write the correct German.",
+        prompt: "A learner wrote \"*Ihr habt 20 Jahre?\" Write the correct German.",
         source: "You're 20? (to two friends)",
         answer: "Ihr seid 20?",
         altAnswers: ["Seid ihr 20?", "Ihr seid zwanzig?", "Seid ihr zwanzig?"],
@@ -2282,7 +2284,7 @@ export const DE_A1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Du schlafst viel. Write the correct German.",
+        prompt: "A learner wrote \"*Du schlafst viel.\" Write the correct German.",
         source: "You sleep a lot. (to a friend)",
         answer: "Du schläfst viel.",
         explanation: "\"Schlafen\" takes an umlaut for du: \"schläfst\".",
@@ -2290,7 +2292,7 @@ export const DE_A1_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Ich habe nicht Lust. Write the correct German.",
+        prompt: "A learner wrote \"*Ich habe nicht Lust.\" Write the correct German.",
         source: "I don't feel like it.",
         answer: "Ich habe keine Lust.",
         explanation: "\"Lust\" has no article in \"Lust haben\", so it's negated with \"keine\".",
@@ -2319,8 +2321,8 @@ export const DE_A1_U03: Lesson[] = [
       {
         heading: "The new flatmate",
         body: [
-          "Lena's shared flat in Leipzig has a new flatmate. Here's the start of her message to a friend: „Hallo Mia! Leon ist neu hier in der WG. Er ist 24 und kommt aus Bremen. Er ist Student und studiert Musik. Er ist sehr nett und ziemlich lustig.“",
-          "Everything here is from Units 1-3: \"heißen\" and \"kommen aus\", age with \"sein\", no article before \"Student\", \"studieren\" for a university subject, and adjectives after \"sein\" with no ending: \"neu\", \"nett\", \"lustig\".",
+          "Lena's shared flat in Leipzig has a new flatmate. Here's the start of her message to a friend: \"Hallo Mia! Leon ist neu hier in der WG. Er ist 24 und kommt aus Bremen. Er ist Student und studiert Musik. Er ist sehr nett und ziemlich lustig.\"",
+          "Everything here is from Units 1-3: \"kommen aus\", age with \"sein\", no article before \"Student\", \"studieren\" for a university subject, and adjectives after \"sein\" with no ending: \"neu\", \"nett\", \"lustig\".",
           "A flatmate is \"der Mitbewohner\" or \"die Mitbewohnerin\": the -in pair you know from jobs.",
         ],
         examples: [
@@ -2354,7 +2356,7 @@ export const DE_A1_U03: Lesson[] = [
       {
         heading: "Leon's week",
         body: [
-          "The message goes on: „Am Montag und am Mittwoch arbeitet er als Kellner. Er spielt Gitarre und liest viel. Am Wochenende fährt er oft nach Bremen. Er isst kein Fleisch, aber er kocht sehr gut!“",
+          "The message goes on: \"Am Montag und am Mittwoch arbeitet er als Kellner. Er spielt Gitarre und liest viel. Am Wochenende fährt er oft nach Bremen. Er isst kein Fleisch, aber er kocht sehr gut!\"",
           "Look for the patterns: verb second after a time phrase (\"Am Wochenende fährt er\"), stem-changing verbs (\"liest\", \"fährt\", \"isst\"), a t-stem (\"arbeitet\") and \"kein\" before a noun without an article (\"kein Fleisch\").",
         ],
         examples: [
@@ -2394,7 +2396,7 @@ export const DE_A1_U03: Lesson[] = [
       {
         heading: "What he has and doesn't have",
         body: [
-          "And finally: „Leon hat ein Fahrrad, aber kein Auto. Er hat eine Schwester und zwei Katzen. Die Katzen sind nicht hier, sie wohnen in Bremen. Leon hat immer Hunger!“",
+          "And finally: \"Leon hat ein Fahrrad, aber kein Auto. Er hat eine Schwester und zwei Katzen. Die Katzen sind nicht hier, sie wohnen in Bremen. Leon hat immer Hunger!\"",
           "\"Haben\" with \"ein\", \"eine\" and plurals, \"kein\" for not a, \"nicht\" before a place, \"sie\" for the plural cats, and a haben chunk for being hungry.",
         ],
         examples: [

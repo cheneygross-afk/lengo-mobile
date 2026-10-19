@@ -8,7 +8,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
     level: "DE-B2",
     number: 1,
     optional: true,
-    title: "Extra Practice: Als Ob with Konjunktiv II Forms",
+    title: "Extra Practice: Als ob with Konjunktiv II Forms",
     summary: "Wäre, hätte, würde, könnte, wüsste and the past forms after als ob, in fresh sentences.",
     duration: "12 min",
     sections: [
@@ -41,7 +41,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
             question: "What does it mean?",
             options: ["He's grinning as if he knew something.", "He's grinning because he knows something.", "He grinned when he found out.", "He knows why we're grinning."],
             correctIndex: 0,
-            explanation: "\"Wüsste\" = Konjunktiv II of wissen.",
+            explanation: "\"Wüsste\" = Konjunktiv II of \"wissen\": an impression, not a fact.",
           },
         ],
       },
@@ -128,7 +128,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
         source: "You talk as if you were my mother. (to a friend)",
         answer: "Du redest, als wärst du meine Mutter.",
         altAnswers: ["Du redest, als ob du meine Mutter wärst.", "Du sprichst, als wärst du meine Mutter.", "Du redest, als wärest du meine Mutter.", "Du sprichst, als ob du meine Mutter wärst."],
-        explanation: "\"Wärst\" (du-form of wäre).",
+        explanation: "\"Wärst\" (du-form of \"wäre\") straight after \"als\".",
       },
       {
         type: "translate",
@@ -165,7 +165,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
     level: "DE-B2",
     number: 2,
     optional: true,
-    title: "Extra Practice: Als or Als Ob?",
+    title: "Extra Practice: Als or Als ob?",
     summary: "Time clause (als er kam), comparison (größer als) or unreal comparison (als käme er): decide from word order and mood.",
     duration: "12 min",
     sections: [
@@ -185,7 +185,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "What does als mean in: Sie wartet, als käme er gleich.",
+            question: "What does \"als\" mean in \"Sie wartet, als käme er gleich\"?",
             options: ["as if", "when", "than", "because"],
             correctIndex: 0,
             explanation: "A Konjunktiv II verb (\"käme\") right after \"als\" → as if.",
@@ -296,7 +296,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Sie wartet, als käme er gleich.",
-        explanation: "\"Käme\": Konjunktiv II of kommen.",
+        explanation: "\"Käme\": Konjunktiv II of \"kommen\".",
       },
       {
         type: "speak",
@@ -430,7 +430,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German.",
+        prompt: "Translate into German. (to one student)",
         source: "That looked as if you were really sad. Great!",
         answer: "Das sah aus, als wärst du wirklich traurig. Super!",
         altAnswers: ["Das sah aus, als ob du wirklich traurig wärst. Super!", "Das sah aus, als wärst du wirklich traurig. Toll!", "Das sah aus, als ob du wirklich traurig wärst. Toll!", "Das hat ausgesehen, als wärst du wirklich traurig. Super!"],
@@ -462,7 +462,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
     level: "DE-B2",
     number: 4,
     optional: true,
-    title: "Extra Practice: Je... Desto",
+    title: "Extra Practice: Je... desto",
     summary: "Proportional comparisons with the right word order in both halves: je mehr ich übe, desto besser spreche ich.",
     duration: "12 min",
     sections: [
@@ -476,7 +476,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
           { es: "Je älter er wird, desto ruhiger wird er.", en: "The older he gets, the calmer he becomes." },
           { es: "Je mehr Zeit ich habe, desto mehr Bücher lese ich.", en: "The more time I have, the more books I read." },
           { es: "Je früher, desto besser.", en: "The sooner the better." },
-          { es: "Je später der Abend, umso schöner die Gäste.", en: "The later the evening, the nicer the guests. (a saying)" },
+          { es: "Je später der Abend, desto schöner die Gäste.", en: "The later the evening, the nicer the guests. (a saying)" },
           { es: "Je weniger du isst, umso hungriger wirst du.", en: "The less you eat, the hungrier you get." },
         ],
         checkpoint: [
@@ -605,7 +605,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
     level: "DE-B2",
     number: 5,
     optional: true,
-    title: "Extra Practice: Zu..., Als Dass",
+    title: "Extra Practice: Zu ..., als dass",
     summary: "Too much to allow something: Es ist zu spät, als dass wir noch etwas ändern könnten.",
     duration: "12 min",
     sections: [
@@ -699,7 +699,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the everyday spoken equivalent of: Der Koffer ist zu schwer, als dass ich ihn tragen könnte?",
+        question: "Which is the everyday spoken equivalent of \"Der Koffer ist zu schwer, als dass ich ihn tragen könnte\"?",
         options: ["Der Koffer ist so schwer, dass ich ihn nicht tragen kann.", "Der Koffer ist schwer, damit ich ihn trage.", "Der Koffer ist zu schwer, dass ich ihn trage.", "Der Koffer ist so schwer, als ich ihn tragen kann."],
         correctIndex: 0,
         explanation: "\"So ..., dass ... nicht\" with the indicative.",
@@ -892,7 +892,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
     level: "DE-B2",
     number: 7,
     optional: true,
-    title: "Extra Practice: Questions and Answers: Wie War Es?",
+    title: "Extra Practice: Questions and Answers: Wie war es?",
     summary: "Describe experiences with comparisons: Es war besser, als ich erwartet hatte; es war, als wäre ich zu Hause.",
     duration: "12 min",
     sections: [
@@ -946,7 +946,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "At my host family's it was like being at home.",
         answer: "Bei meiner Gastfamilie war es wie zu Hause.",
-        altAnswers: ["Bei meiner Gastfamilie war es wie daheim.", "Bei meiner Gastfamilie fühlte es sich an wie zu Hause.", "Bei meiner Gastfamilie war es, als wäre ich zu Hause."],
+        altAnswers: ["Bei meiner Gastfamilie war es wie daheim.", "Bei meiner Gastfamilie fühlte es sich an wie zu Hause.", "Bei meiner Gastfamilie war es, als wäre ich zu Hause.", "Bei meiner Gastfamilie war es wie zuhause."],
         explanation: "\"Wie zu Hause\": like at home.",
       },
       {
@@ -996,7 +996,7 @@ export const DE_B2_U13_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Wie war das Wetter in Schottland? Which answer is correct?",
+        question: "Someone asks: \"Wie war das Wetter in Schottland?\" Which answer is correct?",
         options: ["Besser, als wir befürchtet hatten.", "Besser, wie wir befürchtet hatten.", "Besser, als ob wir befürchtet hatten.", "Besser, als hatten wir befürchtet."],
         correctIndex: 0,
         explanation: "Comparative + \"als\" + clause with the verb last.",

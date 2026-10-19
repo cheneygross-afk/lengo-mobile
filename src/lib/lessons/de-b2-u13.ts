@@ -7,7 +7,7 @@ export const DE_B2_U13: Lesson[] = [
     slug: "b2-als-ob-1",
     level: "DE-B2",
     number: 1,
-    title: "Als Ob and Als Wenn, Part 1 of 2",
+    title: "Als ob and Als wenn, Part 1 of 2",
     summary: "Describe how things seem or how people pretend: als ob and als wenn with the Konjunktiv II and the verb at the end.",
     duration: "15 min",
     sections: [
@@ -16,7 +16,7 @@ export const DE_B2_U13: Lesson[] = [
         body: [
           "\"Als ob\" means as if or as though. It compares reality with something unreal: \"Er tut so, als ob er nichts wüsste\" (He acts as if he didn't know anything; but he does). Because the comparison is unreal, German puts the verb in the Konjunktiv II: \"wäre\", \"hätte\", \"wüsste\", \"könnte\", or \"würde\" + infinitive for most other verbs.",
           "\"Als ob\" starts a subordinate clause, so the verb goes to the end: \"als ob er krank wäre\", \"als ob sie keine Zeit hätte\", \"als ob er mich nicht sehen würde\". A comma always comes before it.",
-          "This is a major trap for English speakers. English often uses the indicative: he acts as if he is the boss. German needs the Konjunktiv II: \"Er tut so, als ob er der Chef wäre\", not \"*als ob er der Chef ist\".",
+          "This is a major trap for English speakers. English often uses the indicative: he acts as if he is the boss. Standard German uses the Konjunktiv II: \"Er tut so, als ob er der Chef wäre\". You'll hear \"als ob er der Chef ist\" in casual speech, but in writing and in exams it counts as a mistake.",
           "Which forms? Use the one-word Konjunktiv II for \"sein, haben, wissen\" and the modals (\"wäre, hätte, wüsste, könnte, müsste\"); for most other verbs \"würde\" + infinitive is normal in speech: \"als ob sie mich nicht kennen würde\". The written form \"kennte\" exists but sounds old-fashioned.",
         ],
         examples: [
@@ -49,7 +49,7 @@ export const DE_B2_U13: Lesson[] = [
       {
         heading: "So tun, als ob, and als wenn",
         body: [
-          "The most common frame is \"so tun, als ob\" (to pretend, to act as if). \"So\" in the main clause points to the als-ob-clause: \"Tu nicht so, als ob du das nicht wüsstest!\" (Don't pretend you don't know!). You can leave \"so\" out after verbs like \"aussehen\", \"klingen\", \"reden\", but with \"tun\" it's needed.",
+          "The most common frame is \"so tun, als ob\" (to pretend, to act as if). \"So\" in the main clause points to the als-ob-clause: \"Tu nicht so, als ob du das nicht wüsstest!\" (Don't pretend you don't know!). After verbs like \"aussehen\", \"klingen\", \"reden\" you usually leave \"so\" out; with \"tun\" it's the normal frame, though \"Er tut, als ob ...\" without \"so\" is also correct.",
           "\"Als wenn\" means exactly the same as \"als ob\" and works the same way; it's slightly more colloquial. \"Er benimmt sich, als wenn ihm die Firma gehören würde.\"",
           "Common main verbs: \"so tun\", \"sich verhalten\" / \"sich benehmen\" (to behave), \"aussehen\" (to look), \"klingen\" (to sound), \"sich anfühlen\" (to feel), \"wirken\" (to seem), \"reden\" (to talk).",
         ],
@@ -154,9 +154,9 @@ export const DE_B2_U13: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is standard written German for: He acts as if he is ill?",
-        options: ["Er tut so, als ob er krank wäre.", "Er tut so, als ob er krank ist wäre.", "Er tut so, als ob er wäre krank.", "Er tut so, wenn er krank wäre."],
+        options: ["Er tut so, als ob er krank wäre.", "Er tut so, als ob er krank ist.", "Er tut so, als ob er wäre krank.", "Er tut so, wenn er krank wäre."],
         correctIndex: 0,
-        explanation: "English as if he is → German Konjunktiv II \"wäre\", verb last.",
+        explanation: "English as if he is → German Konjunktiv II \"wäre\", verb last. The indicative \"ist\" is casual speech, not standard written German.",
       },
       {
         type: "word-order",
@@ -191,7 +191,7 @@ export const DE_B2_U13: Lesson[] = [
         type: "speak",
         text: "Tu nicht so, als ob du das nicht wüsstest!",
         prompt: "Tell a friend in German: Don't pretend you don't know that!",
-        tip: "Wüsstest: round your lips for ü and keep the vowel short.",
+        tip: "\"Wüsstest\": round your lips for ü and keep the vowel short.",
         explanation: "\"So tun, als ob\" + Konjunktiv II.",
       },
     ],
@@ -200,7 +200,7 @@ export const DE_B2_U13: Lesson[] = [
     slug: "b2-pattern-er-tut-so-als-ob",
     level: "DE-B2",
     number: 2,
-    title: "Pattern Practice: Er Tut So, Als Ob...",
+    title: "Pattern Practice: Er tut so, als ob...",
     summary: "One frame, many verbs: er tut so, als ob er schliefe, krank wäre, keine Zeit hätte, alles wüsste, mich nicht sehen würde.",
     duration: "13 min",
     sections: [
@@ -246,7 +246,7 @@ export const DE_B2_U13: Lesson[] = [
           "With a separable verb and \"würde\": \"als ob er gleich einschlafen würde\". The infinitive is written as one word.",
         ],
         examples: [
-          { es: "Er tut so, als ob er mich nicht sehen würde.", en: "He's acting as if he couldn't see me." },
+          { es: "Er tut so, als ob er mich nicht sehen würde.", en: "He's acting as if he didn't see me." },
           { es: "Er tut so, als ob er schliefe.", en: "He's pretending to be asleep." },
           { es: "Sie tut so, als ob sie nicht schwimmen könnte.", en: "She acts as if she couldn't swim." },
           { es: "Er lebt, als ob er nie arbeiten müsste.", en: "He lives as if he never had to work." },
@@ -359,9 +359,9 @@ export const DE_B2_U13: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: He's acting as if he couldn't see me.",
+        prompt: "Put the words in order to say: He's acting as if he didn't see me.",
         words: ["Er", "tut", "so,", "als", "ob", "er", "mich", "nicht", "sehen", "würde."],
-        translation: "He's acting as if he couldn't see me.",
+        translation: "He's acting as if he didn't see me.",
         explanation: "\"Sehen würde\" at the end.",
       },
       {
@@ -389,7 +389,7 @@ export const DE_B2_U13: Lesson[] = [
     slug: "b2-minimal-pairs-als-ob-als",
     level: "DE-B2",
     number: 3,
-    title: "Minimal Pairs: Als Ob Er Müde Wäre / Als Wäre Er Müde",
+    title: "Minimal Pairs: Als ob er müde wäre / Als wäre er müde",
     summary: "Two word orders, one meaning: als ob with the verb at the end, or als with the verb straight after it.",
     duration: "13 min",
     sections: [
@@ -445,7 +445,7 @@ export const DE_B2_U13: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "What does it mean? Als sie mich sah, lächelte sie.",
+            question: "What does \"Als sie mich sah, lächelte sie\" mean?",
             options: ["When she saw me, she smiled.", "She smiled as if she saw me.", "She smiled as if she had seen me.", "As she saw me smiling, she left."],
             correctIndex: 0,
             explanation: "\"Als\" + verb at the end + indicative: a time clause (when).",
@@ -465,7 +465,7 @@ export const DE_B2_U13: Lesson[] = [
         heading: "Hear and produce both",
         body: [
           "Practise converting in both directions. \"Als ob er alles wüsste\" ↔ \"als wüsste er alles\". \"Als ob es nichts Wichtigeres gäbe\" ↔ \"als gäbe es nichts Wichtigeres\". \"Als ob wir Zeit hätten\" ↔ \"als hätten wir Zeit\".",
-          "In fast speech, listen for what follows \"als\": a verb (wäre, hätte, würde, könnte) → as if; a subject → wait for the end: Konjunktiv II + \"ob\" earlier → as if; indicative → when or than.",
+          "In fast speech, listen for what follows \"als\": a Konjunktiv II verb (\"wäre\", \"hätte\", \"würde\", \"könnte\") → as if; \"ob\" → as if, with the verb at the end; a subject, then an indicative verb at the end → when (or than, after a comparative).",
         ],
         examples: [
           { es: "Er redet, als gäbe es nichts Wichtigeres.", en: "He talks as if there were nothing more important." },
@@ -591,7 +591,7 @@ export const DE_B2_U13: Lesson[] = [
           { es: "Sie tut so, als ob nichts passiert wäre.", en: "She acts as if nothing had happened." },
           { es: "Sie begrüßt Peter, als hätte es nie Streit gegeben.", en: "She greets Peter as if there had never been a quarrel." },
           { es: "Vor zwanzig Jahren haben sich die beiden wegen des Hauses zerstritten.", en: "Twenty years ago the two of them fell out over the house." },
-          { es: "Peter sitzt da, als ob er sie nicht sehen würde.", en: "Peter sits there as if he couldn't see her." },
+          { es: "Peter sitzt da, als ob er sie nicht sehen würde.", en: "Peter sits there as if he didn't see her." },
           { es: "Alle tun so, als wäre alles in Ordnung.", en: "Everyone acts as if everything were fine." },
         ],
         checkpoint: [
@@ -712,7 +712,7 @@ export const DE_B2_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Peter sits there [as if he couldn't see] her.",
+        en: "Peter sits there [as if he didn't see] her.",
         sentence: "Peter sitzt da, ___ sie nicht sehen würde.",
         answer: "als ob er",
         altAnswers: ["als wenn er"],
@@ -720,7 +720,7 @@ export const DE_B2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How does Mia report: Ich will nicht darüber reden. (Gisela)",
+        question: "Gisela said: \"Ich will nicht darüber reden.\" How does Mia report it?",
         options: ["Gisela sagte, sie wolle nicht darüber reden.", "Gisela sagte, sie will nicht darüber reden wolle.", "Gisela sagte, ob sie nicht darüber reden wolle.", "Gisela sagte, sie habe nicht darüber reden."],
         correctIndex: 0,
         explanation: "Konjunktiv I of \"wollen\": \"sie wolle\".",
@@ -843,14 +843,14 @@ export const DE_B2_U13: Lesson[] = [
         body: [
           "Three English words, three German ones. Like → \"wie\" (\"Er lacht wie sein Vater\"). Than → \"als\" (\"Er ist größer als sein Vater\"). As if → \"als ob\" + Konjunktiv II (\"Er lacht, als ob er sein Vater wäre\").",
           "And \"als\" has a fourth job: when, for a single past event (\"Als ich ihn kennenlernte, ...\"). Context and word order tell them apart: after a comparative it's than; at the start of a clause with the verb at the end and indicative, it's when.",
-          "In exams you may be asked to explain your choice: \"Hier steht als, weil davor ein Komparativ steht.\" \"Hier steht wie, weil es um Gleichheit geht.\"",
+          "In exams you may be asked to explain your choice: \"Hier steht „als“, weil davor ein Komparativ steht.\" \"Hier steht „wie“, weil es um Gleichheit geht.\"",
         ],
         examples: [
           { es: "Er lacht wie sein Vater.", en: "He laughs like his father." },
           { es: "Er ist größer als sein Vater.", en: "He's taller than his father." },
           { es: "Er lacht, als ob er sein Vater wäre.", en: "He laughs as if he were his father." },
           { es: "Als ich ihn kennenlernte, war er noch Student.", en: "When I met him, he was still a student." },
-          { es: "Hier steht als, weil davor ein Komparativ steht.", en: "Als is used here because there's a comparative before it." },
+          { es: "Hier steht „als“, weil davor ein Komparativ steht.", en: "\"Als\" is used here because there's a comparative before it." },
         ],
         checkpoint: [
           {
@@ -863,8 +863,8 @@ export const DE_B2_U13: Lesson[] = [
           },
           {
             type: "speak",
-            text: "Hier steht als, weil davor ein Komparativ steht.",
-            prompt: "Explain in German: Als is used here because there's a comparative before it.",
+            text: "Hier steht „als“, weil davor ein Komparativ steht.",
+            prompt: "Explain in German: \"Als\" is used here because there's a comparative before it.",
             explanation: "A useful sentence for explaining grammar choices in German.",
           },
         ],
@@ -908,7 +908,7 @@ export const DE_B2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which connector? Die Prüfung war leichter ___ gedacht.",
+        question: "Which word completes \"Die Prüfung war leichter ___ gedacht\" (The exam was easier than I'd thought)?",
         options: ["als", "wie", "als ob", "so"],
         correctIndex: 0,
         explanation: "After a comparative (\"leichter\") → \"als\".",
@@ -971,7 +971,7 @@ export const DE_B2_U13: Lesson[] = [
         heading: "Round 1: causes",
         body: [
           "Quick reminder: \"weil\" (the main, new reason), \"da\" (known reason, usually first), \"denn\" (verb second, never first), \"zumal\" (extra reason that adds weight). All but \"denn\" send the verb to the end.",
-          "Decide fast: \"___ du ja schon da bist, kannst du mir helfen\" → da (known, first). \"Ich nehme den Bus, ___ es regnet\" → weil or denn (\"denn es regnet\"). \"Wir sollten gehen, ___ es schon spät ist\" → zumal works if there are other reasons too.",
+          "Decide fast: \"___ du ja schon da bist, kannst du mir helfen\" → \"da\" (known, first). \"Ich nehme den Bus, ___ es regnet\" → \"weil\" or \"denn\" (\"denn es regnet\"). \"Wir sollten gehen, ___ es schon spät ist\" → \"zumal\" works if there are other reasons too.",
         ],
         examples: [
           { es: "Da du ja schon da bist, kannst du mir helfen.", en: "Since you're here anyway, you can help me." },
@@ -992,9 +992,9 @@ export const DE_B2_U13: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which is correct?",
-            options: ["Ich nehme den Bus, denn es regnet.", "Ich nehme den Bus, denn es regnet hat.", "Denn es regnet, nehme ich den Bus.", "Ich nehme den Bus, zumal es regnet ist."],
+            options: ["Ich nehme den Bus, denn es regnet.", "Ich nehme den Bus, denn es heute regnet.", "Denn es regnet, nehme ich den Bus.", "Ich nehme den Bus, zumal regnet es."],
             correctIndex: 0,
-            explanation: "\"Denn\" + normal word order, and never at the start.",
+            explanation: "\"Denn\" + normal word order (verb second), and never at the start; \"zumal\" would need the verb last.",
           },
         ],
       },
@@ -1002,7 +1002,7 @@ export const DE_B2_U13: Lesson[] = [
         heading: "Round 2: results and means",
         body: [
           "Results: \"sodass\" (verb last) or \"so ... dass\". Purpose: \"damit\" or \"um ... zu\". Means: \"indem\" (by doing). Missing action: \"ohne ... zu\" (same subject) / \"ohne dass\" (different subject).",
-          "Fast decisions: \"Er lernte jeden Tag, ___ er die Prüfung bestand\" → sodass. \"Er lernt jeden Tag, ___ er die Prüfung besteht\" → damit. \"Er bestand die Prüfung, ___ er jeden Tag lernte\" → indem.",
+          "Fast decisions: \"Er lernte jeden Tag, ___ er die Prüfung bestand\" → \"sodass\". \"Er lernt jeden Tag, ___ er die Prüfung besteht\" → \"damit\". \"Er bestand die Prüfung, ___ er jeden Tag lernte\" → \"indem\".",
         ],
         examples: [
           { es: "Er lernte jeden Tag, sodass er die Prüfung bestand.", en: "He studied every day, so he passed the exam." },
@@ -1087,16 +1087,16 @@ export const DE_B2_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which connector? Ich nehme einen Regenschirm mit, ___ ich nicht nass werde.",
+        question: "Which connector completes \"Ich nehme einen Regenschirm mit, ___ ich nicht nass werde\"?",
         options: ["damit", "sodass", "indem", "zumal"],
         correctIndex: 0,
         explanation: "Purpose → \"damit\".",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: You save money by cooking yourself.",
+        prompt: "Put the words in order to say: You save money by cooking for yourself.",
         words: ["Man", "spart", "Geld,", "indem", "man", "selbst", "kocht."],
-        translation: "You save money by cooking yourself.",
+        translation: "You save money by cooking for yourself.",
         explanation: "\"Indem\" + verb last.",
       },
       {
@@ -1133,7 +1133,7 @@ export const DE_B2_U13: Lesson[] = [
     slug: "b2-als-ob-2",
     level: "DE-B2",
     number: 7,
-    title: "Als Ob, Part 2 of 2: The Past and Comparison Clauses",
+    title: "Als ob, Part 2 of 2: The Past and Comparison Clauses",
     summary: "Unreal comparisons about the past, Konjunktiv I in written narration, and comparison clauses: schöner, als ich gedacht hatte; je ... desto; zu ..., als dass.",
     duration: "16 min",
     sections: [
@@ -1163,10 +1163,10 @@ export const DE_B2_U13: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "He tells it as if he had been there himself. Which is right?",
+            question: "He tells it as if he had been there himself. Which is correct standard German?",
             options: ["Er erzählt, als ob er selbst dabei gewesen wäre.", "Er erzählt, als ob er selbst dabei gewesen hätte.", "Er erzählt, als ob er selbst dabei war.", "Er erzählt, als er selbst dabei gewesen wäre."],
             correctIndex: 0,
-            explanation: "\"Sein\" takes sein: \"gewesen wäre\". Without \"ob\" the verb must follow \"als\" directly.",
+            explanation: "\"Sein\" takes sein: \"gewesen wäre\" (\"war\" is casual at best here). Without \"ob\" the verb must follow \"als\" directly.",
           },
         ],
       },
@@ -1323,7 +1323,7 @@ export const DE_B2_U13: Lesson[] = [
     slug: "b2-contrast-aussehen-als-ob-wie",
     level: "DE-B2",
     number: 8,
-    title: "Contrast Clinic: Es Sieht Aus, Als Ob... / Es Sieht Aus Wie...",
+    title: "Contrast Clinic: Es sieht aus, als ob... / Es sieht aus wie...",
     summary: "Clause or noun: es sieht aus wie ein Schloss, es sieht aus, als ob es ein Schloss wäre; es klingt wie / als ob; es scheint, dass and scheinen + zu.",
     duration: "14 min",
     sections: [
@@ -1532,7 +1532,7 @@ export const DE_B2_U13: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "A newspaper reports what the minister said: Die Lage ist stabil. Which form?",
+            question: "The minister said: \"Die Lage ist stabil.\" How does a newspaper report it?",
             options: ["Der Minister sagte, die Lage sei stabil.", "Der Minister sagte, die Lage wäre stabil gewesen.", "Der Minister sagte, die Lage würde stabil.", "Der Minister sagte, als ob die Lage stabil wäre."],
             correctIndex: 0,
             explanation: "Written reported speech: Konjunktiv I \"sei\".",
@@ -1543,7 +1543,7 @@ export const DE_B2_U13: Lesson[] = [
             prompt: "Translate into German.",
             source: "If only I had stayed at home!",
             answer: "Wäre ich doch nur zu Hause geblieben!",
-            altAnswers: ["Wenn ich doch nur zu Hause geblieben wäre!", "Wäre ich bloß zu Hause geblieben!", "Wenn ich bloß zu Hause geblieben wäre!", "Wäre ich nur zu Hause geblieben!", "Wenn ich nur zu Hause geblieben wäre!", "Wäre ich doch zu Hause geblieben!"],
+            altAnswers: ["Wenn ich doch nur zu Hause geblieben wäre!", "Wäre ich bloß zu Hause geblieben!", "Wenn ich bloß zu Hause geblieben wäre!", "Wäre ich nur zu Hause geblieben!", "Wenn ich nur zu Hause geblieben wäre!", "Wäre ich doch zu Hause geblieben!", "Wäre ich doch nur zuhause geblieben!"],
             explanation: "A past wish: Konjunktiv II past with \"doch / nur / bloß\".",
           },
         ],
@@ -1662,7 +1662,7 @@ export const DE_B2_U13: Lesson[] = [
       {
         type: "dictation",
         audio: "Wenn ich Zeit hätte, käme ich.",
-        explanation: "\"Käme\" is the one-word Konjunktiv II of kommen.",
+        explanation: "\"Käme\" is the one-word Konjunktiv II of \"kommen\".",
       },
       {
         type: "speak",
@@ -1684,15 +1684,15 @@ export const DE_B2_U13: Lesson[] = [
         heading: "The film and the actors",
         body: [
           "Your mission: write a review for a film blog about \"Der Leuchtturm\", a new German film based on a bestselling novel, set on the island of Rügen. You liked the story, but not everything.",
-          "Describing acting is where \"als ob\" shines: \"Die Hauptdarstellerin spielt, als ob sie die Rolle ihr Leben lang vorbereitet hätte.\" \"Ihr Partner wirkt dagegen, als würde er sich langweilen.\" \"Manche Szenen sehen aus, als wären sie für das Fernsehen gedreht.\"",
+          "Describing acting is where \"als ob\" shines: \"Die Hauptdarstellerin spielt, als ob sie sich ihr Leben lang auf die Rolle vorbereitet hätte.\" \"Ihr Partner wirkt dagegen, als würde er sich langweilen.\" \"Manche Szenen sehen aus, als wären sie für das Fernsehen gedreht.\"",
           "Useful words: \"der Hauptdarsteller / die Hauptdarstellerin\" (lead actor/actress), \"die Rolle\", \"die Handlung\" (plot), \"die Verfilmung\" (film adaptation), \"die Romanvorlage\" (the novel it's based on), \"der Regisseur / die Regisseurin\" (director), \"drehen\" (to shoot a film).",
         ],
         examples: [
-          { es: "Die Hauptdarstellerin spielt, als hätte sie die Rolle ihr Leben lang vorbereitet.", en: "The lead actress plays as if she had prepared for the role all her life." },
+          { es: "Die Hauptdarstellerin spielt, als hätte sie sich ihr Leben lang auf die Rolle vorbereitet.", en: "The lead actress plays as if she had prepared for the role all her life." },
           { es: "Ihr Partner wirkt dagegen, als würde er sich langweilen.", en: "Her partner, by contrast, seems as if he were bored." },
           { es: "Manche Szenen sehen aus, als wären sie fürs Fernsehen gedreht.", en: "Some scenes look as if they had been shot for television." },
           { es: "Der Regisseur hat den Roman frei verfilmt.", en: "The director has adapted the novel freely." },
-          { es: "Die Handlung spielt auf Rügen.", en: "The plot is set on the Baltic island." },
+          { es: "Die Handlung spielt auf Rügen.", en: "The plot is set on Rügen." },
         ],
         checkpoint: [
           {
@@ -1813,9 +1813,9 @@ export const DE_B2_U13: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
         en: "The lead actress plays [as if she had prepared] for the role all her life.",
-        sentence: "Die Hauptdarstellerin spielt, ___ die Rolle ihr Leben lang vorbereitet.",
-        answer: "als hätte sie",
-        explanation: "Short form: \"als hätte sie ... vorbereitet\".",
+        sentence: "Die Hauptdarstellerin spielt, ___ ihr Leben lang auf die Rolle vorbereitet.",
+        answer: "als hätte sie sich",
+        explanation: "Short form: \"als hätte sie sich ... vorbereitet\"; to prepare for = \"sich auf etwas vorbereiten\", so the reflexive \"sich\" belongs in the blank.",
       },
       {
         type: "multiple-choice",

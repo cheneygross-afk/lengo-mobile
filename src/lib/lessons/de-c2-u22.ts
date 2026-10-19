@@ -8,7 +8,7 @@ export const DE_C2_U22: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Das Vorstellungsgespräch, Part 5 of 7",
-    summary: "Explain gaps and departures tactfully: Elternzeit, Pflege von Angehörigen, berufliche Neuorientierung, betriebsbedingte Kündigung, with passive and nominal phrasing and without badmouthing anyone.",
+    summary: "Explain gaps and departures tactfully (\"Elternzeit\", \"Pflege von Angehörigen\", \"berufliche Neuorientierung\", \"betriebsbedingte Kündigung\") with passive and nominal phrasing and without badmouthing anyone.",
     duration: "18 min",
     sections: [
       {
@@ -138,7 +138,7 @@ export const DE_C2_U22: Lesson[] = [
         source: "In 2020 I cared for my father for six months.",
         answer: "2020 habe ich mich ein halbes Jahr um meinen Vater gekümmert.",
         altAnswers: ["2020 habe ich sechs Monate lang meinen Vater gepflegt.", "2020 habe ich ein halbes Jahr meinen Vater gepflegt.", "2020 habe ich mich sechs Monate um meinen Vater gekümmert.", "Im Jahr 2020 habe ich mich ein halbes Jahr um meinen Vater gekümmert.", "2020 habe ich meinen Vater sechs Monate lang gepflegt."],
-        explanation: "\"Sich kümmern um\" + accusative, or \"pflegen\" for nursing care. A bare year needs no preposition (never \"in 2020\").",
+        explanation: "\"Sich kümmern um\" + accusative, or \"pflegen\" for nursing care. A bare year needs no preposition (\"*in 2020*\" is an anglicism).",
       },
       {
         type: "fill-blank",
@@ -163,7 +163,7 @@ export const DE_C2_U22: Lesson[] = [
         question: "On a German CV, how would you list a career break for retraining?",
         options: ["09/2021 bis 08/2022: Umschulung zur Fachinformatikerin", "Ich habe 2021 eine Umschulung gemacht, weil ...", "Lücke wegen Umschulung", "2021: nichts"],
         correctIndex: 0,
-        explanation: "Nominal style with exact months: the CV is read month by month. Sentences belong in the Anschreiben, and \"Lücke\" draws attention to the gap.",
+        explanation: "Nominal style with exact months: the CV is read month by month. Sentences belong in the \"Anschreiben\", and \"Lücke\" draws attention to the gap.",
       },
       {
         type: "translate",
@@ -211,8 +211,8 @@ export const DE_C2_U22: Lesson[] = [
     slug: "c2-interview-error-hunt",
     level: "DE-C2",
     number: 2,
-    title: "Error Hunt: Sätze, die ein Gespräch Ruinieren",
-    summary: "Find and fix the sentences that sink an interview: unasked-for du, negativity, English calques like ich bin passioniert über, and demands like Ich will mehr Geld.",
+    title: "Error Hunt: Sätze, die ein Gespräch ruinieren",
+    summary: "Find and fix the sentences that sink an interview: unasked-for \"du\", negativity, English calques like \"*Ich bin passioniert über*\", and demands like \"Ich will mehr Geld\".",
     duration: "16 min",
     sections: [
       {
@@ -242,17 +242,17 @@ export const DE_C2_U22: Lesson[] = [
           {
             type: "multiple-choice",
             question: "\"Du musst wissen, ich bin voll der Teamplayer.\" What is the main problem?",
-            options: ["Unasked-for du and slang in a formal interview", "Teamplayer is not a German word", "The verb should come last", "Wissen needs a dative"],
+            options: ["Unasked-for \"du\" and slang in a formal interview", "\"Teamplayer\" is not a German word", "The verb should come last", "\"Wissen\" needs a dative"],
             correctIndex: 0,
-            explanation: "The grammar is fine; the register is wrong. \"Sie\" until du is offered, and \"voll der\" is youth slang.",
+            explanation: "The grammar is fine; the register is wrong. \"Sie\" until \"du\" is offered, and \"voll der\" is youth slang.",
           },
         ],
       },
       {
         heading: "Calques from English",
         body: [
-          "\"Ich bin passioniert über Marketing\" is a calque of I'm passionate about: German has no such construction. Use \"Marketing begeistert mich\", \"Ich brenne für Marketing\" (a bit enthusiastic, but common), or \"Marketing ist meine Leidenschaft\" (sparingly). \"Passioniert\" exists only before a noun for hobbies: \"ein passionierter Angler\" (a keen angler).",
-          "Other classic calques: \"Ich habe eine gute Zeit gehabt\" (better: \"Es hat mir dort sehr gefallen\"); \"Das macht Sinn\" (widely used now, but \"Das ergibt Sinn\" or \"Das ist sinnvoll\" is safer in formal speech); \"in 2019\" (German: \"2019\" or \"im Jahr 2019\"); \"Ich bin verantwortlich für\" is correct, but \"Ich war in Ladung von\" (in charge of) is not German at all: \"Ich war zuständig für\" or \"Ich habe ... geleitet\".",
+          "\"*Ich bin passioniert über Marketing*\" is a calque of 'I'm passionate about': German has no such construction. Use \"Marketing begeistert mich\", \"Ich brenne für Marketing\" (a bit enthusiastic, but common), or \"Marketing ist meine Leidenschaft\" (sparingly). \"Passioniert\" exists only before a noun for hobbies: \"ein passionierter Angler\" (a keen angler).",
+          "Other classic calques: \"*Ich habe eine gute Zeit gehabt*\" (better: \"Es hat mir dort sehr gefallen\"); \"Das macht Sinn\" (widely used now, but \"Das ergibt Sinn\" or \"Das ist sinnvoll\" is safer in formal speech); \"*in 2019*\" (German: \"2019\" or \"im Jahr 2019\"); \"Ich bin verantwortlich für\" is correct, but \"*Ich war in Ladung von*\" (in charge of) is not German at all: \"Ich war zuständig für\" or \"Ich habe ... geleitet\".",
           "\"Eventuell\" means possibly, not eventually (\"schließlich\", \"letztendlich\"). \"Aktuell\" means current, not actual (\"tatsächlich\"). \"Konsequent\" means consistent, not consequent. In an interview, these false friends can say the opposite of what you mean: \"Ich werde eventuell Teamleiter\" sounds unsure, not ambitious.",
         ],
         examples: [
@@ -267,11 +267,11 @@ export const DE_C2_U22: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "The candidate said \"Ich bin passioniert über Datenanalyse.\" Fix it: Translate into German.",
+            prompt: "The candidate said \"*Ich bin passioniert über Datenanalyse.*\" Fix it: Translate into German.",
             source: "I'm passionate about data analysis.",
             answer: "Datenanalyse begeistert mich.",
             altAnswers: ["Ich brenne für Datenanalyse.", "Datenanalyse ist meine Leidenschaft.", "Ich begeistere mich für Datenanalyse.", "Ich interessiere mich leidenschaftlich für Datenanalyse."],
-            explanation: "German makes the topic the subject (\"... begeistert mich\") or uses \"sich begeistern für\". \"Passioniert über\" does not exist.",
+            explanation: "German makes the topic the subject (\"... begeistert mich\") or uses \"sich begeistern für\". \"*Passioniert über*\" does not exist.",
           },
           {
             type: "fill-blank",
@@ -313,7 +313,7 @@ export const DE_C2_U22: Lesson[] = [
             source: "What appeals to me about this position is the international focus.",
             answer: "Mich reizt an dieser Stelle die internationale Ausrichtung.",
             altAnswers: ["Mich reizt an dieser Stelle vor allem die internationale Ausrichtung.", "An dieser Stelle reizt mich die internationale Ausrichtung.", "Was mich an dieser Stelle reizt, ist die internationale Ausrichtung.", "An dieser Stelle reizt mich vor allem die internationale Ausrichtung."],
-            explanation: "\"Etwas reizt mich an\" + dative: the attraction is the subject, you are the object.",
+            explanation: "\"Reizen\" (to appeal to) with \"an\" + dative for what it is about: the attraction is the subject, you are the object (\"mich\").",
           },
           {
             type: "translate",
@@ -331,7 +331,7 @@ export const DE_C2_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "The candidate said \"Ich hatte eine gute Zeit bei Siemens.\" Fix it: Translate into German.",
+        prompt: "The candidate said \"*Ich hatte eine gute Zeit bei Siemens.*\" Fix it: Translate into German.",
         source: "I really enjoyed my time at Siemens.",
         answer: "Es hat mir bei Siemens sehr gut gefallen.",
         altAnswers: ["Bei Siemens hat es mir sehr gut gefallen.", "Die Zeit bei Siemens hat mir sehr gut gefallen.", "Mir hat es bei Siemens sehr gut gefallen.", "Ich habe mich bei Siemens sehr wohlgefühlt."],
@@ -340,7 +340,7 @@ export const DE_C2_U22: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "The candidate said \"In 2018 ich bin nach Köln umgezogen.\" Fix it: Translate into German.",
+        prompt: "The candidate said \"*In 2018 ich bin nach Köln umgezogen.*\" Fix it: Translate into German.",
         source: "In 2018 I moved to Cologne.",
         answer: "2018 bin ich nach Köln gezogen.",
         altAnswers: ["Im Jahr 2018 bin ich nach Köln gezogen.", "2018 bin ich nach Köln umgezogen.", "Im Jahr 2018 bin ich nach Köln umgezogen.", "Ich bin 2018 nach Köln gezogen.", "Ich bin 2018 nach Köln umgezogen."],
@@ -393,16 +393,17 @@ export const DE_C2_U22: Lesson[] = [
         prompt: "Put the words in order to say: My former manager supported me a great deal.",
         words: ["Mein", "damaliger", "Vorgesetzter", "hat", "mich", "sehr", "gefördert."],
         translation: "My former manager supported me a great deal.",
+        altOrders: [["Mich", "hat", "mein", "damaliger", "Vorgesetzter", "sehr", "gefördert."]],
         explanation: "\"Der Vorgesetzte\" is an adjectival noun: \"mein damaliger Vorgesetzter\" with strong ending -er. \"Fördern\" is to support someone's development.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "The candidate said \"Ich war in Ladung vom Budget.\" Fix it: Translate into German.",
+        prompt: "The candidate said \"*Ich war in Ladung vom Budget.*\" Fix it: Translate into German.",
         source: "I was responsible for the budget.",
         answer: "Ich war für das Budget verantwortlich.",
         altAnswers: ["Ich war für das Budget zuständig.", "Ich hatte die Verantwortung für das Budget.", "Ich trug die Verantwortung für das Budget.", "Ich war fürs Budget verantwortlich."],
-        explanation: "In charge of is \"verantwortlich für\" or \"zuständig für\" + accusative; a literal \"in Ladung\" is meaningless in German.",
+        explanation: "In charge of is \"verantwortlich für\" or \"zuständig für\" + accusative; a literal \"*in Ladung*\" is meaningless in German.",
       },
       {
         type: "speak",
@@ -417,15 +418,15 @@ export const DE_C2_U22: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Das Vorstellungsgespräch, Part 6 of 7",
-    summary: "Navigate German qualifications: Ausbildung and the duale System, Berufsschule, Meisterbrief, Abitur, Fachhochschule vs Universität, recognition of foreign degrees, and how to explain your own.",
+    summary: "Navigate German qualifications (\"Ausbildung\" and the dual system, \"Meisterbrief\", \"Abitur\", \"Fachhochschule\" vs \"Universität\"), understand how foreign degrees are recognised, and explain your own.",
     duration: "18 min",
     sections: [
       {
         heading: "Ausbildung and the duale System",
         body: [
           "Around half of young Germans do not go to university but complete \"eine Ausbildung\": a vocational training of two to three and a half years in one of about 320 recognised trades (\"anerkannte Ausbildungsberufe\"), from \"Industriemechaniker\" to \"Kauffrau für Büromanagement\". It is \"dual\": three or four days a week in the company (\"im Betrieb\"), one or two at the vocational school (\"die Berufsschule\").",
-          "An Ausbildung ends with an exam before the chamber (\"die IHK\", Industrie- und Handelskammer, or \"die Handwerkskammer\") and is highly respected. Never translate it as apprenticeship in a dismissive sense: \"Ich habe eine Ausbildung zur Bankkauffrau gemacht\" is a solid qualification. Note the preposition: \"eine Ausbildung zum / zur\" + job title in the dative.",
-          "In crafts, the next step is \"der Meister\" (master craftsman): \"Er hat seinen Meisterbrief als Elektrotechniker\", which allows you to run your own business and train apprentices. A trainee is \"der / die Auszubildende\" (\"der Azubi\" informally), an adjectival noun: \"ein Auszubildender\", \"die Auszubildenden\".",
+          "An \"Ausbildung\" ends with an exam before the chamber (\"die IHK\", Industrie- und Handelskammer, or \"die Handwerkskammer\") and is highly respected. Never translate it as apprenticeship in a dismissive sense: \"Ich habe eine Ausbildung zur Bankkauffrau gemacht\" is a solid qualification. Note the preposition: \"eine Ausbildung zum / zur\" + job title in the dative.",
+          "In crafts, the next step is \"der Meister\" (master craftsman): \"Er hat seinen Meister im Elektrotechniker-Handwerk gemacht\"; the \"Meisterbrief\" allows you to run your own business and train apprentices. A trainee is \"der / die Auszubildende\" (\"der Azubi\" informally), an adjectival noun: \"ein Auszubildender\", \"die Auszubildenden\".",
         ],
         examples: [
           { es: "Ich habe eine Ausbildung zur Bankkauffrau gemacht.", en: "I trained as a bank clerk. (a woman)" },
@@ -459,8 +460,8 @@ export const DE_C2_U22: Lesson[] = [
       {
         heading: "Abitur, Fachhochschule and Universität",
         body: [
-          "\"Das Abitur\" is the school-leaving exam that qualifies you for university (the general \"allgemeine Hochschulreife\"); \"das Fachabitur\" or \"die Fachhochschulreife\" qualifies for universities of applied sciences. The Abitur grade (\"die Abiturnote\", from 1.0 to 4.0, lower is better) still matters for some subjects and first jobs.",
-          "German higher education has two main types: \"die Universität\" (research-oriented, the only one that awards doctorates) and \"die Fachhochschule\", now usually called \"Hochschule für angewandte Wissenschaften\" (University of Applied Sciences: practice-oriented, with mandatory internships). A \"duales Studium\" combines a degree with paid work at a company.",
+          "\"Das Abitur\" is the school-leaving exam that qualifies you for university (the general \"allgemeine Hochschulreife\"); \"das Fachabitur\" or \"die Fachhochschulreife\" qualifies for universities of applied sciences. The \"Abitur\" grade (\"die Abiturnote\", from 1.0 to 4.0, lower is better) still matters for some subjects and first jobs.",
+          "German higher education has two main types: \"die Universität\" (research-oriented, traditionally the only type that awards doctorates; a few states now let universities of applied sciences do so in some fields) and \"die Fachhochschule\", now usually called \"Hochschule für angewandte Wissenschaften\" (University of Applied Sciences: practice-oriented, with mandatory internships). A \"duales Studium\" combines a degree with paid work at a company.",
           "Degrees: \"der Bachelor\", \"der Master\", \"die Promotion\" (doctorate; \"promovieren\" is to do a doctorate, not to be promoted!), and the older \"Diplom\" and \"Magister\", which many people in their forties and fifties still hold. Grades: \"mit der Note 1,7\", \"mit Auszeichnung\" (with distinction).",
         ],
         examples: [
@@ -491,7 +492,7 @@ export const DE_C2_U22: Lesson[] = [
           {
             type: "speak",
             text: "Meinen Master habe ich mit der Note eins Komma drei abgeschlossen.",
-            tip: "German grades are read with Komma: eins Komma drei for 1,3.",
+            tip: "German grades are read with \"Komma\": \"eins Komma drei\" for 1,3.",
             explanation: "\"Mit der Note\" + grade; \"abschließen\" (to complete a degree) is separable.",
           },
         ],
@@ -500,7 +501,7 @@ export const DE_C2_U22: Lesson[] = [
         heading: "Foreign degrees: Anerkennung and explaining your own",
         body: [
           "If you studied abroad, your degree may need \"Anerkennung\" (recognition). For regulated professions (doctors, nurses, teachers, engineers in some states) it is mandatory; for others, a \"Zeugnisbewertung\" (statement of comparability) from the ZAB, the central office for foreign education, helps employers understand it. The portal \"Anerkennung in Deutschland\" explains the procedure.",
-          "Explain your degree in German terms: compare, don't assume. \"Mein Bachelor aus Großbritannien dauert drei Jahre und entspricht einem deutschen Bachelor\", \"Eine 2:1 entspricht etwa der deutschen Note 2,0.\" The verbs: \"entsprechen\" + dative, \"vergleichbar sein mit\", \"gleichgestellt sein\" (to be officially recognised as equivalent), \"anerkannt werden\".",
+          "Explain your degree in German terms: compare, don't assume. \"Mein Bachelor aus Großbritannien hat drei Jahre gedauert und entspricht einem deutschen Bachelor\", \"Eine 2:1 entspricht etwa der deutschen Note 2,0.\" The verbs: \"entsprechen\" + dative, \"vergleichbar sein mit\", \"gleichgestellt sein\" (to be officially recognised as equivalent), \"anerkannt werden\".",
           "The passive with \"werden\" describes the process: \"Mein Abschluss wurde 2024 als gleichwertig anerkannt\", \"Die Anerkennung wurde bei der Ärztekammer beantragt.\"",
         ],
         examples: [
@@ -560,10 +561,10 @@ export const DE_C2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What is the main difference between a Fachhochschule and a Universität?",
-        options: ["A Fachhochschule is more practice-oriented and cannot award doctorates on its own.", "A Fachhochschule is a secondary school.", "A Fachhochschule only offers evening classes.", "A Fachhochschule is private and expensive."],
+        question: "What is the main difference between a \"Fachhochschule\" and a \"Universität\"?",
+        options: ["A \"Fachhochschule\" is more practice-oriented and traditionally cannot award doctorates on its own.", "A \"Fachhochschule\" is a secondary school.", "A \"Fachhochschule\" only offers evening classes.", "A \"Fachhochschule\" is private and expensive."],
         correctIndex: 0,
-        explanation: "Fachhochschulen (Hochschulen für angewandte Wissenschaften) focus on applied study with internships; doctorates are traditionally a university privilege.",
+        explanation: "\"Fachhochschulen\" (\"Hochschulen für angewandte Wissenschaften\") focus on applied study with internships; doctorates are traditionally a university privilege.",
       },
       {
         type: "translate",
@@ -617,7 +618,7 @@ export const DE_C2_U22: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Word Web: Der Wortschatz von Lebenslauf und Gespräch",
-    summary: "The core vocabulary of CVs, job ads and interviews: Werdegang, Berufserfahrung, Kenntnisse (verhandlungssicher, fließend), Weiterbildung, Referenzen, Arbeitgeber / Arbeitnehmer, Stellenausschreibung, Initiativbewerbung.",
+    summary: "Use the core vocabulary of CVs, job ads and interviews: your career and training (\"Werdegang\", \"Berufserfahrung\", \"Weiterbildung\"), your skills (\"Kenntnisse\", \"verhandlungssicher\", \"fließend\") and the application process (\"Stellenausschreibung\", \"Initiativbewerbung\").",
     duration: "15 min",
     sections: [
       {
@@ -625,7 +626,7 @@ export const DE_C2_U22: Lesson[] = [
         body: [
           "\"Der Werdegang\" (career path, literally the path of becoming) is the word for the story your CV tells; \"der berufliche Werdegang\" is the heading of the interview's first question. \"Die Berufserfahrung\" is professional experience, usually singular (\"fünf Jahre Berufserfahrung\"), while \"Erfahrungen\" in the plural are individual experiences (\"erste Erfahrungen sammeln\").",
           "\"Die Weiterbildung\" or \"Fortbildung\" is further training while in work (a course, a certificate); \"die Umschulung\" is retraining for a new occupation; \"die Ausbildung\" is the initial training. On a CV, the section headings are typically \"Berufserfahrung\", \"Ausbildung\" (which there covers school and university too), \"Weiterbildung\", \"Kenntnisse\" and \"Interessen\".",
-          "The two sides of the labour market: \"der Arbeitgeber\" (employer, literally work-giver) and \"der Arbeitnehmer\" (employee, work-taker). In job ads you will now often see gender-inclusive forms: \"Mitarbeitende\", \"Beschäftigte\", and the tag \"(m/w/d)\" after the job title: männlich, weiblich, divers.",
+          "The two sides of the labour market: \"der Arbeitgeber\" (employer, literally work-giver) and \"der Arbeitnehmer\" (employee, work-taker). In job ads you will now often see gender-inclusive forms: \"Mitarbeitende\", \"Beschäftigte\", and the tag \"(m/w/d)\" after the job title: \"männlich, weiblich, divers\".",
         ],
         examples: [
           { es: "Erzählen Sie uns etwas über Ihren beruflichen Werdegang.", en: "Tell us about your career to date." },
@@ -677,7 +678,7 @@ export const DE_C2_U22: Lesson[] = [
             source: "I speak fluent English.",
             answer: "Ich spreche fließend Englisch.",
             altAnswers: ["Ich spreche Englisch fließend.", "Mein Englisch ist fließend."],
-            explanation: "\"Fließend\" as an adverb before the language. With \"ß\" after the long vowel ie.",
+            explanation: "\"Fließend\" as an adverb before the language. With \"ß\" after the long vowel \"ie\".",
           },
           {
             type: "matching",
@@ -698,7 +699,7 @@ export const DE_C2_U22: Lesson[] = [
         body: [
           "German builds families from one root. \"Bewerben\": \"sich bewerben um\" (+ accusative, for a job) or \"bei\" (+ dative, at a company), \"der Bewerber / die Bewerberin\", \"die Bewerbung\", \"die Bewerbungsfrist\" (deadline), \"das Bewerbungsverfahren\" (process).",
           "\"Stelle\": \"die Stelle\" (post), \"die Stellenanzeige\", \"die Stellenbeschreibung\" (job description), \"der Stellvertreter\" (deputy), \"einstellen\" (to hire), \"die Einstellung\" (hiring; also attitude!). \"Arbeit\": \"der Arbeitsplatz\" (workplace, job), \"arbeitslos\", \"die Arbeitsagentur\", \"der Arbeitsvertrag\", \"die Arbeitszeit\".",
-          "Watch the prepositions: \"sich bewerben um eine Stelle als ... bei einer Firma\". In the Anschreiben: \"Hiermit bewerbe ich mich um die Stelle als Controllerin\". The verb \"bewerben\" without \"sich\" means to advertise a product.",
+          "Watch the prepositions: \"sich bewerben um eine Stelle als ... bei einer Firma\". In the \"Anschreiben\": \"Hiermit bewerbe ich mich um die Stelle als Controllerin\". The verb \"bewerben\" without \"sich\" means to advertise a product.",
         ],
         examples: [
           { es: "Ich bewerbe mich um die Stelle als Controllerin bei Ihrer Firma.", en: "I'm applying for the position of controller at your company." },
@@ -729,7 +730,7 @@ export const DE_C2_U22: Lesson[] = [
             type: "speak",
             text: "Hiermit bewerbe ich mich um die Stelle als Projektleiterin.",
             tip: "In \"bewerbe\" the w is a v sound: be-VER-be.",
-            explanation: "The classic first sentence of an Anschreiben: \"sich bewerben um\" + accusative.",
+            explanation: "The classic first sentence of an \"Anschreiben\": \"sich bewerben um\" + accusative.",
           },
         ],
       },
@@ -820,7 +821,7 @@ export const DE_C2_U22: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Das Vorstellungsgespräch, Part 7 of 7",
-    summary: "After the interview: the thank-you email, asking about the timeline, accepting or declining an offer, and writing the Kündigung (Hiermit kündige ich mein Arbeitsverhältnis fristgerecht zum ...).",
+    summary: "Handle what comes after the interview: write the thank-you email, ask about the timeline, accept or decline an offer, and write your resignation (\"Hiermit kündige ich mein Arbeitsverhältnis fristgerecht zum ...\").",
     duration: "18 min",
     sections: [
       {
@@ -898,11 +899,11 @@ export const DE_C2_U22: Lesson[] = [
         ],
       },
       {
-        heading: "The Kündigung letter",
+        heading: "The \"Kündigung\" letter",
         body: [
           "To resign in Germany you must give written notice on paper with a handwritten signature (\"Schriftform\", § 623 BGB): an email or WhatsApp is legally invalid. The letter is short and follows a fixed formula: \"Hiermit kündige ich mein Arbeitsverhältnis fristgerecht zum 31. März 2027.\" \"Fristgerecht\" (with due notice) and \"zum\" + date (effective on) are the key words; \"zum nächstmöglichen Zeitpunkt\" covers you if you miscalculated the notice period.",
           "Optional but usual additions: a request for written confirmation (\"Bitte bestätigen Sie mir den Erhalt dieser Kündigung schriftlich\"), a request for your reference (\"Ich bitte um die Ausstellung eines qualifizierten Arbeitszeugnisses\"), and remaining holiday (\"meinen Resturlaub\"). Reasons are not required and usually not given.",
-          "A closing sentence of thanks is good style: \"Ich bedanke mich für die gute Zusammenarbeit.\" Again, no criticism: the Kündigung goes into your personnel file.",
+          "A closing sentence of thanks is good style: \"Ich bedanke mich für die gute Zusammenarbeit.\" Again, no criticism: the \"Kündigung\" goes into your personnel file.",
         ],
         examples: [
           { es: "Hiermit kündige ich mein Arbeitsverhältnis fristgerecht zum 31. März 2027.", en: "I hereby give notice to terminate my employment with effect from 31 March 2027." },
@@ -962,7 +963,7 @@ export const DE_C2_U22: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your Kündigung must reach your employer. Which form is legally valid in Germany?",
+        question: "Your \"Kündigung\" must reach your employer. Which form is legally valid in Germany?",
         options: ["A signed letter on paper", "An email with a PDF", "A WhatsApp message", "A phone call to HR"],
         correctIndex: 0,
         explanation: "§ 623 BGB requires the written form with a handwritten signature; electronic notice is invalid.",
@@ -1009,9 +1010,9 @@ export const DE_C2_U22: Lesson[] = [
       {
         type: "speak",
         text: "Hiermit kündige ich mein Arbeitsverhältnis fristgerecht zum 31. März.",
-        prompt: "Say it in German: I hereby give notice of my employment, with due notice, as of 31 March.",
-        tip: "Read the date as zum einunddreißigsten März.",
-        explanation: "The Kündigung formula: \"hiermit\", \"fristgerecht\", \"zum\" + date.",
+        prompt: "Say it in German: I hereby give notice to terminate my employment, observing the notice period, as of 31 March.",
+        tip: "Read the date as \"zum einunddreißigsten März\".",
+        explanation: "The \"Kündigung\" formula: \"hiermit\", \"fristgerecht\", \"zum\" + date.",
       },
     ],
   },
@@ -1019,14 +1020,14 @@ export const DE_C2_U22: Lesson[] = [
     slug: "c2-full-mock-interview-mission",
     level: "DE-C2",
     number: 6,
-    title: "Real-World Mission: Ein Komplettes Probe-Vorstellungsgespräch",
+    title: "Real-World Mission: Ein komplettes Probe-Vorstellungsgespräch",
     summary: "A full mock interview for a product manager role in Munich: self-presentation, a competency question, a stress question, salary, your own questions and the closing.",
     duration: "20 min",
     sections: [
       {
         heading: "Phase 1: welcome and self-presentation",
         body: [
-          "Your mission: Ayşe Kaya applies for \"Produktmanagerin (m/w/d)\" at a Munich medical-technology company. On the panel: Herr Dr. Brandt (head of product) and Frau Lehmann (HR). The interview will last about an hour and follow the classic German sequence: Begrüßung, Selbstpräsentation, Fachfragen, Stressfrage, Rahmenbedingungen, Ihre Fragen, Abschluss.",
+          "Your mission: Ayşe Kaya applies for \"Produktmanagerin (m/w/d)\" at a Munich medical-technology company. On the panel: Herr Dr. Brandt (head of product) and Frau Lehmann (HR). The interview will last about an hour and follow the classic German sequence: \"Begrüßung\", \"Selbstpräsentation\", \"Fachfragen\", \"Stressfrage\", \"Rahmenbedingungen\", \"Ihre Fragen\", \"Abschluss\".",
           "Frau Lehmann opens: \"Schön, dass es geklappt hat. Wir haben etwa eine Stunde. Herr Dr. Brandt und ich stellen Ihnen zuerst einige Fragen, und am Ende haben Sie natürlich Gelegenheit, Ihre Fragen zu stellen. Möchten Sie zum Einstieg etwas über sich erzählen?\"",
           "Ayşe's two-minute answer moves from present to past to future: \"Gern. Zurzeit bin ich als Produktmanagerin bei einem Hersteller von Diagnosegeräten in Nürnberg tätig. Studiert habe ich Medizintechnik an der TH Nürnberg, danach war ich drei Jahre im Vertrieb, wo ich die Bedürfnisse von Kliniken sehr genau kennengelernt habe. Seit 2022 verantworte ich zwei Produktlinien. Jetzt suche ich eine Rolle mit mehr strategischer Verantwortung, und genau das bietet Ihre Stelle.\"",
         ],
@@ -1034,7 +1035,7 @@ export const DE_C2_U22: Lesson[] = [
           { es: "Schön, dass es geklappt hat.", en: "Good that it worked out (that you could come)." },
           { es: "Am Ende haben Sie natürlich Gelegenheit, Ihre Fragen zu stellen.", en: "At the end you'll of course have the opportunity to ask your questions." },
           { es: "Zurzeit bin ich als Produktmanagerin bei einem Hersteller von Diagnosegeräten tätig.", en: "I currently work as a product manager at a manufacturer of diagnostic devices." },
-          { es: "Studiert habe ich Medizintechnik an der TH Nürnberg.", en: "I studied medical engineering at Nuremberg Tech." },
+          { es: "Studiert habe ich Medizintechnik an der TH Nürnberg.", en: "I studied medical engineering at the Nuremberg Institute of Technology." },
           { es: "Seit 2022 verantworte ich zwei Produktlinien.", en: "Since 2022 I have been responsible for two product lines." },
           { es: "Jetzt suche ich eine Rolle mit mehr strategischer Verantwortung.", en: "Now I'm looking for a role with more strategic responsibility." },
         ],
@@ -1151,7 +1152,7 @@ export const DE_C2_U22: Lesson[] = [
         source: "Why should we take the risk?",
         answer: "Warum sollten wir das Risiko eingehen?",
         altAnswers: ["Wieso sollten wir das Risiko eingehen?", "Warum sollten wir dieses Risiko eingehen?", "Weshalb sollten wir das Risiko eingehen?"],
-        explanation: "\"Ein Risiko eingehen\" (to take a risk) is the fixed collocation; \"sollten\" (Konjunktiv II of sollen) for should.",
+        explanation: "\"Ein Risiko eingehen\" (to take a risk) is the fixed collocation; \"sollten\" (Konjunktiv II of \"sollen\") for should.",
       },
       {
         type: "fill-blank",
@@ -1167,7 +1168,7 @@ export const DE_C2_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "My notice period is three months.",
         answer: "Meine Kündigungsfrist beträgt drei Monate.",
-        altAnswers: ["Meine Kündigungsfrist liegt bei drei Monaten.", "Ich habe eine Kündigungsfrist von drei Monaten.", "Meine Kündigungsfrist ist drei Monate."],
+        altAnswers: ["Meine Kündigungsfrist liegt bei drei Monaten.", "Ich habe eine Kündigungsfrist von drei Monaten."],
         explanation: "\"Betragen\" + accusative; or \"eine Kündigungsfrist von\" + dative.",
       },
       {
@@ -1196,6 +1197,7 @@ export const DE_C2_U22: Lesson[] = [
         prompt: "Put the words in order to say: I've got a very good impression of your team.",
         words: ["Ich", "habe", "einen", "sehr", "guten", "Eindruck", "von", "Ihrem", "Team", "bekommen."],
         translation: "I've got a very good impression of your team.",
+        altOrders: [["Von", "Ihrem", "Team", "habe", "ich", "einen", "sehr", "guten", "Eindruck", "bekommen."], ["Ich", "habe", "von", "Ihrem", "Team", "einen", "sehr", "guten", "Eindruck", "bekommen."]],
         explanation: "\"Einen Eindruck bekommen von\" + dative; the participle closes the clause.",
       },
       {
@@ -1220,14 +1222,14 @@ export const DE_C2_U22: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Mastery Vocabulary: Everyday Civil Law",
-    summary: "The civil-law words of daily life: Kaufvertrag, Gewährleistung vs Garantie, Widerrufsrecht, Mängelrüge, Schadensersatz, Haftpflichtversicherung, Mahnverfahren, Schlichtung.",
+    summary: "Handle the civil law of daily life: buying (\"Kaufvertrag\", \"Gewährleistung\" vs \"Garantie\"), online purchases and complaints (\"Widerrufsrecht\", \"Mängelrüge\", \"Mahnverfahren\") and damage and disputes (\"Schadensersatz\", \"Haftpflichtversicherung\", \"Schlichtung\").",
     duration: "16 min",
     sections: [
       {
         heading: "Buying: Kaufvertrag, Gewährleistung, Garantie",
         body: [
           "Every purchase is \"ein Kaufvertrag\" (contract of sale) under the BGB (\"Bürgerliches Gesetzbuch\", the Civil Code), even buying bread. The key distinction for consumers: \"die Gewährleistung\" is the seller's statutory liability for defects (two years for new goods, cannot be excluded for consumers), while \"die Garantie\" is a voluntary promise, usually by the manufacturer, with its own conditions. English warranty and guarantee do not map neatly; in German the difference is legal.",
-          "A defect is \"ein Mangel\" (plural \"Mängel\"); \"mangelhaft\" means defective. Your rights under Gewährleistung come in a fixed order: first \"die Nacherfüllung\" (repair, \"die Nachbesserung\", or replacement, \"die Ersatzlieferung\"), and only if that fails \"der Rücktritt vom Vertrag\" (withdrawal) or \"die Minderung\" (price reduction).",
+          "A defect is \"ein Mangel\" (plural \"Mängel\"); \"mangelhaft\" means defective. Your rights under \"Gewährleistung\" come in a fixed order: first \"die Nacherfüllung\" (repair, \"die Nachbesserung\", or replacement, \"die Ersatzlieferung\"), and only if that fails \"der Rücktritt vom Vertrag\" (withdrawal) or \"die Minderung\" (price reduction).",
           "Shops say \"Umtausch\" for an exchange; there is no legal right to exchange non-defective goods bought in a shop: that is goodwill (\"Kulanz\"). \"Aus Kulanz\" means as a gesture of goodwill.",
         ],
         examples: [
@@ -1395,7 +1397,7 @@ export const DE_C2_U22: Lesson[] = [
         question: "What does it mean?",
         options: ["I hereby give notice of the following defects in the goods delivered.", "I hereby order the following goods.", "I hereby return the goods without giving reasons.", "I hereby confirm receipt of the goods."],
         correctIndex: 0,
-        explanation: "\"Mängel rügen\" (to give notice of defects) is the formula of a Mängelrüge.",
+        explanation: "\"Mängel rügen\" (to give notice of defects) is the formula of a \"Mängelrüge\".",
       },
       {
         type: "word-order",
@@ -1412,7 +1414,7 @@ export const DE_C2_U22: Lesson[] = [
         source: "The company applied for a payment order.",
         answer: "Die Firma hat einen Mahnbescheid beantragt.",
         altAnswers: ["Die Firma beantragte einen Mahnbescheid.", "Das Unternehmen hat einen Mahnbescheid beantragt.", "Das Unternehmen beantragte einen Mahnbescheid."],
-        explanation: "\"Einen Mahnbescheid beantragen\": the start of the court's Mahnverfahren after unpaid reminders.",
+        explanation: "\"Einen Mahnbescheid beantragen\": the start of the court's \"Mahnverfahren\" after unpaid reminders.",
       },
       {
         type: "speak",
@@ -1427,7 +1429,7 @@ export const DE_C2_U22: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Vocabulary in Context: Latin Phrases in Use",
-    summary: "Use the Latin phrases of educated German (ad hoc, de facto, per se, pro forma, status quo, sine qua non, cum grano salis...) in an interview, a report and an op-ed, and judge when they sound pretentious.",
+    summary: "Use the Latin phrases of educated German (\"ad hoc\", \"de facto\", \"per se\", \"pro forma\", \"Status quo\", \"conditio sine qua non\", \"cum grano salis\"...) in an interview, a report and an op-ed, and judge when they sound pretentious.",
     duration: "15 min",
     sections: [
       {
@@ -1494,7 +1496,7 @@ export const DE_C2_U22: Lesson[] = [
             sentence: "___ dürfte der Umsatz steigen.",
             answer: "Ceteris paribus",
             altAnswers: ["Unter sonst gleichen Bedingungen"],
-            explanation: "\"Ceteris paribus\" in position one, verb second. \"Dürfte\" (Konjunktiv II of dürfen) expresses a cautious forecast.",
+            explanation: "\"Ceteris paribus\" in position one, verb second. \"Dürfte\" (Konjunktiv II of \"dürfen\") expresses a cautious forecast.",
           },
         ],
       },
@@ -1533,7 +1535,7 @@ export const DE_C2_U22: Lesson[] = [
           {
             type: "speak",
             text: "Das war eine Ad-hoc-Entscheidung, die sich bewährt hat.",
-            tip: "Latin in German follows German sounds: ad hoc with a clear h, and \"bewährt\" with a long ä.",
+            tip: "Latin in German follows German sounds: \"ad hoc\" with a clear h, and \"bewährt\" with a long ä.",
             explanation: "\"Ad hoc\" becomes part of a hyphenated compound; \"sich bewähren\" is to prove its worth.",
           },
         ],
@@ -1546,7 +1548,7 @@ export const DE_C2_U22: Lesson[] = [
         prompt: "Translate into German.",
         source: "I had to step in at short notice.",
         answer: "Ich musste ad hoc einspringen.",
-        altAnswers: ["Ich musste kurzfristig einspringen.", "Ich musste spontan einspringen.", "Ich musste ad hoc übernehmen."],
+        altAnswers: ["Ich musste kurzfristig einspringen.", "Ich musste spontan einspringen."],
         explanation: "\"Einspringen\" (step in for someone) is separable; \"ad hoc\" or \"kurzfristig\" for at short notice.",
       },
       {
@@ -1605,6 +1607,7 @@ export const DE_C2_U22: Lesson[] = [
         prompt: "Put the words in order to say: The management is sticking to the status quo.",
         words: ["Die", "Geschäftsleitung", "hält", "am", "Status", "quo", "fest."],
         translation: "The management is sticking to the status quo.",
+        altOrders: [["Am", "Status", "quo", "hält", "die", "Geschäftsleitung", "fest."]],
         explanation: "Separable \"festhalten\": \"hält ... fest\"; \"am Status quo\" (an + dative).",
       },
       {

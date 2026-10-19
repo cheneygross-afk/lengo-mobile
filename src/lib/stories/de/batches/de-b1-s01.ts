@@ -52,7 +52,7 @@ export const DE_B1_S01_STORIES: Story[] = [
     title: `Die verschwundene Hochzeitstorte`,
     subtitle: `On the morning of an important wedding, the cake disappears from a Viennese pastry shop, and the apprentice Lena decides to find the thief.`,
     paragraphs: [
-      `Lena Hofer war seit einem halben Jahr Lehrling in der Konditorei Haberl in Wien. Herr Haberl, der Chef, war ein strenger Mann mit einem grauen Schnurrbart, der seit vierzig Jahren Torten backte und nie einen Fehler machte. Zumindest glaubten das alle.`,
+      `Lena Hofer war seit einem halben Jahr Lehrling in der Konditorei Haberl in Wien. Herr Haberl, der Chef, war ein strenger Mann mit einem grauen Schnurrbart. Er backte seit vierzig Jahren Torten und machte nie einen Fehler. Zumindest glaubten das alle.`,
       `An einem Freitag im Juni stand die wichtigste Torte des Jahres im Kühlraum: drei Etagen, weiße Schokolade, Rosen aus Marzipan. Sie war für die Hochzeit der Tochter des Bürgermeisters bestimmt, die am nächsten Tag um zwölf Uhr gefeiert werden sollte. Lena hatte zwei Tage lang an den Rosen gearbeitet.`,
       `Am Samstag um sieben Uhr früh öffnete Lena die Tür zum Kühlraum – und erstarrte. Die Torte war weg. Nur ein paar Krümel lagen noch auf dem Boden. Sie lief zu Herrn Haberl, der in der Backstube stand und Teig knetete. „Die Torte ist gestohlen worden!“, rief sie. Herr Haberl sah nicht einmal auf. „Dann backen wir eben eine neue“, sagte er ruhig.`,
       `Lena verstand die Welt nicht mehr. Warum war er so ruhig? Sie dachte sofort an Marco, den neuen Kellner, der erst seit einer Woche da war. Er hatte am Abend vorher als Letzter das Café verlassen, und er hatte einen Schlüssel. Außerdem hatte er die Torte so lange angeschaut, als wollte er sie am liebsten sofort essen.`,
@@ -147,7 +147,7 @@ export const DE_B1_S01_STORIES: Story[] = [
     questions: [
       {
         question: `What was Tobias's job at the wedding?`,
-        options: [`He was the photographer.`, `He had to drive the bride to the church.`, `He had to give a speech.`, `He was the witness and had to bring the rings.`],
+        options: [`He was the photographer.`, `He had to drive the bride to the church.`, `He had to give a speech.`, `He was the best man and had to bring the rings.`],
         correctIndex: 3,
         explanation: `"Er sollte um 14 Uhr pünktlich mit den Ringen in der Kirche in Freiburg sein" and "er war ihr Trauzeuge".`,
       },
@@ -181,7 +181,7 @@ export const DE_B1_S01_STORIES: Story[] = [
       `Aber Pieks wollte nicht schlafen. Er hatte von der Amsel gehört, dass im Winter etwas Wunderbares vom Himmel fiel: weiß, kalt und weich wie Federn. Die Amsel nannte es Schnee. „Kein Igel hat jemals Schnee gesehen“, hatte sie gesagt. „Ihr verschlaft das Beste des ganzen Jahres.“`,
       `„Dann werde ich der erste Igel sein, der Schnee sieht“, beschloss Pieks. Während sich die anderen Igel in ihre Nester aus Blättern zurückzogen, blieb er wach. Er lief durch den Garten, zählte die Sterne und sang Lieder, damit ihm die Augen nicht zufielen. Seine Großmutter schüttelte nur den Kopf. „Jedes Tier hat seine Zeit“, murmelte sie, bevor sie einschlief.`,
       `Im November wurde es kälter. Die Käfer verschwanden, die Würmer gruben sich tief in die Erde ein, und Pieks fand kaum noch etwas zu fressen. Seine Pfoten waren steif vor Kälte. Jeden Morgen fragte er die Amsel: „Kommt heute der Schnee?“ Und jeden Morgen antwortete sie: „Vielleicht morgen.“`,
-      `Anfang Dezember konnte Pieks kaum noch laufen. Er war so müde, dass er im Gehen einschlief und gegen einen Blumentopf stieß. Da hörte er eine Stimme über sich. Es war Frau Albrecht, die alte Dame, der der Garten gehörte. „Du armer Kerl“, sagte sie. „Du solltest doch längst schlafen.“ Sie legte ihn vorsichtig in eine Kiste mit Stroh und stellte sie in ihren warmen Schuppen. Daneben stellte sie eine Schale mit Katzenfutter.`,
+      `Anfang Dezember konnte Pieks kaum noch laufen. Er war so müde, dass er im Gehen einschlief und gegen einen Blumentopf stieß. Da hörte er eine Stimme über sich. Es war Frau Albrecht, die alte Dame, der der Garten gehörte. „Du armer Kerl“, sagte sie. „Du solltest doch längst schlafen.“ Sie legte ihn vorsichtig in eine Kiste mit Stroh und stellte sie in ihren Gartenschuppen. Daneben stellte sie eine Schale mit Katzenfutter.`,
       `Pieks fraß, bis er satt war, und schlief sofort ein. Er träumte von weißen Federn, die vom Himmel fielen. Als er Wochen später kurz aufwachte, war es im Schuppen sehr hell. Er kroch zum Fenster und blinzelte. Draußen war alles weiß: der Garten, der Zaun, die Bäume. Ganz langsam fielen dicke Flocken.`,
       `Pieks sah lange hinaus. Dann gähnte er, kroch zurück in sein Stroh und schlief weiter bis zum März. Im Frühling erzählte er allen Igeln vom Schnee. Natürlich glaubte ihm keiner. Nur seine Großmutter lächelte. „Siehst du“, sagte sie, „manchmal bekommt man, was man sich wünscht. Aber nur, wenn jemand da ist, der auf einen aufpasst.“`,
     ],
@@ -200,9 +200,9 @@ export const DE_B1_S01_STORIES: Story[] = [
       },
       {
         question: `What did Frau Albrecht do when she found Pieks?`,
-        options: [`She put him in a box of straw in her warm shed, with food.`, `She took him to a vet.`, `She put him back under the leaves.`, `She called his grandmother.`],
+        options: [`She put him in a box of straw in her garden shed, with food.`, `She took him to a vet.`, `She put him back under the leaves.`, `She called his grandmother.`],
         correctIndex: 0,
-        explanation: `"Sie legte ihn vorsichtig in eine Kiste mit Stroh und stellte sie in ihren warmen Schuppen."`,
+        explanation: `"Sie legte ihn vorsichtig in eine Kiste mit Stroh und stellte sie in ihren Gartenschuppen." Next to it she put "eine Schale mit Katzenfutter".`,
       },
       {
         question: `What is the grandmother's lesson at the end?`,
@@ -226,7 +226,7 @@ export const DE_B1_S01_ENGLISH: Record<string, string[]> = {
     `These days the course is full every week. Petra has been to it too, by the way. Her colleagues say her shirts have looked much better ever since.`,
   ],
   "de-die-verschwundene-hochzeitstorte": [
-    `Lena Hofer had been an apprentice at the Haberl pastry shop in Vienna for six months. Herr Haberl, the boss, was a strict man with a grey moustache who had been baking cakes for forty years and never made a mistake. At least, that's what everyone believed.`,
+    `Lena Hofer had been an apprentice at the Haberl pastry shop in Vienna for six months. Herr Haberl, the boss, was a strict man with a grey moustache. He had been baking cakes for forty years and never made a mistake. At least, that's what everyone believed.`,
     `One Friday in June, the most important cake of the year was standing in the cold room: three tiers, white chocolate, marzipan roses. It was meant for the wedding of the mayor's daughter, which was to be celebrated the next day at twelve o'clock. Lena had worked on the roses for two whole days.`,
     `On Saturday at seven in the morning Lena opened the door to the cold room, and froze. The cake was gone. Only a few crumbs were still lying on the floor. She ran to Herr Haberl, who was standing in the bakery kneading dough. "The cake has been stolen!" she cried. Herr Haberl didn't even look up. "Then we'll just bake a new one," he said calmly.`,
     `Lena couldn't understand it. Why was he so calm? She immediately thought of Marco, the new waiter, who had only been there for a week. He had been the last to leave the café the evening before, and he had a key. Besides, he had looked at the cake for so long, as if he would have liked to eat it on the spot.`,
@@ -245,7 +245,7 @@ export const DE_B1_S01_ENGLISH: Record<string, string[]> = {
     `Frau Casutt looked at me for a long time and then asked: "Will you come back next summer?" Two months ago I would have laughed out loud. Today I said yes without thinking. Tomorrow I'm going back to Zurich, to my flat with a shower and Wi-Fi. But I already know that I'll miss the mountains.`,
   ],
   "de-zu-spaet-zur-hochzeit": [
-    `Tobias had only one single task: he was to be at the church in Freiburg with the rings, on time, at 2 p.m. His sister Jana was getting married, and he was her witness. "If you forget the rings, I'll never speak to you again," she had said. She had laughed as she said it, but Tobias knew that she half meant it.`,
+    `Tobias had only one single task: he was to be at the church in Freiburg with the rings, on time, at 2 p.m. His sister Jana was getting married, and he was her best man. "If you forget the rings, I'll never speak to you again," she had said. She had laughed as she said it, but Tobias knew that she half meant it.`,
     `He had planned everything carefully. The ICE was due to leave Frankfurt at 9:52 and arrive in Freiburg at 12:01. Two hours to spare, more than enough. But when the train stopped in the middle of nowhere just after Karlsruhe, he slowly began to sweat. "Due to a fault, the onward journey will be delayed for an indefinite period," said a voice over the loudspeaker.`,
     `After an hour the train was still standing there. Tobias walked nervously through the carriages. If only he had taken the car! If only he had travelled the evening before! In the dining car sat a woman in an elegant blue dress who looked just as nervous as he did. Next to her lay a large camera bag.`,
     `"Are you on your way to an important appointment too?" asked Tobias. "To a wedding," she answered. "I'm the photographer. If I'm late, there won't be any photos of the ceremony." Tobias stared at her. "Not in the Herz-Jesu church, by any chance?" She nodded. "At two o'clock. Jana and Philipp."`,
@@ -259,7 +259,7 @@ export const DE_B1_S01_ENGLISH: Record<string, string[]> = {
     `But Pieks didn't want to sleep. He had heard from the blackbird that in winter something wonderful fell from the sky: white, cold and as soft as feathers. The blackbird called it snow. "No hedgehog has ever seen snow," she had said. "You sleep through the best part of the whole year."`,
     `"Then I'll be the first hedgehog to see snow," Pieks decided. While the other hedgehogs withdrew into their nests of leaves, he stayed awake. He ran around the garden, counted the stars and sang songs so that his eyes wouldn't close. His grandmother just shook her head. "Every animal has its time," she murmured before she fell asleep.`,
     `In November it got colder. The beetles disappeared, the worms dug themselves deep into the earth, and Pieks could hardly find anything to eat. His paws were stiff with cold. Every morning he asked the blackbird: "Is the snow coming today?" And every morning she answered: "Maybe tomorrow."`,
-    `At the beginning of December Pieks could hardly walk any more. He was so tired that he fell asleep while walking and bumped into a flowerpot. Then he heard a voice above him. It was Frau Albrecht, the old lady who owned the garden. "You poor thing," she said. "You should have been asleep long ago." She carefully put him in a box of straw and placed it in her warm shed. Next to it she put a bowl of cat food.`,
+    `At the beginning of December Pieks could hardly walk any more. He was so tired that he fell asleep while walking and bumped into a flowerpot. Then he heard a voice above him. It was Frau Albrecht, the old lady who owned the garden. "You poor thing," she said. "You should have been asleep long ago." She carefully put him in a box of straw and placed it in her garden shed. Next to it she put a bowl of cat food.`,
     `Pieks ate until he was full and fell asleep at once. He dreamed of white feathers falling from the sky. When he woke up briefly weeks later, it was very bright in the shed. He crawled to the window and blinked. Outside everything was white: the garden, the fence, the trees. Thick flakes were falling very slowly.`,
     `Pieks looked out for a long time. Then he yawned, crawled back into his straw and slept on until March. In spring he told all the hedgehogs about the snow. Of course nobody believed him. Only his grandmother smiled. "You see," she said, "sometimes you get what you wish for. But only if there's someone there to look after you."`,
   ],
@@ -332,7 +332,7 @@ export const DE_B1_S01_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "beschließen", en: "to decide", forms: ["beschloss"] },
     { es: "sich zurückziehen", en: "to withdraw, to retreat", forms: ["zurückzogen"] },
     { es: "zufallen", en: "to close (by themselves)", forms: ["zufielen"] },
-    { es: "der Schuppen", en: "shed", forms: ["schuppen"] },
+    { es: "der (Garten)schuppen", en: "(garden) shed", forms: ["gartenschuppen", "schuppen"] },
     { es: "kriechen", en: "to crawl", forms: ["kroch"] },
     { es: "blinzeln", en: "to blink", forms: ["blinzelte"] },
   ],

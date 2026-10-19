@@ -8,15 +8,15 @@ export const DE_C2_U11: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Verstehensstrategien, Part 1 of 8",
-    summary: "Work out words you have never seen: split compounds from the right, read prefixes like ver-, zer-, ent- and miss-, use suffixes and context, and know when to skip.",
+    summary: "Work out words you have never seen: split compounds from the right, read prefixes like \"ver-\", \"zer-\", \"ent-\" and \"miss-\", use suffixes and context, and know when to skip.",
     duration: "18 min",
     sections: [
       {
         heading: "Compounds: read them from the right",
         body: [
-          "At the Mastery level the words that stop you are rarely short. They are compounds like \"Haftpflichtversicherungsvertrag\", and the trick is to read them from the right. The last element (the Grundwort) tells you what the thing is and gives the gender: \"der Vertrag\", a contract. Everything to its left narrows it down: a contract for \"Versicherung\" (insurance), more precisely \"Haftpflichtversicherung\" (liability insurance). So: a liability insurance contract.",
-          "Look for the joints. A linking \"-s-\" (the Fugen-s) or \"-n-\" / \"-en-\" often marks where one word ends: \"Versicherung-s-vertrag\", \"Arbeit-s-markt\", \"Sonne-n-energie\", \"Fachkräfte-mangel\". The Fugen-s is especially common after \"-ung\", \"-heit\", \"-keit\", \"-ion\" and \"-tät\", so \"-ungs-\" inside a word is almost always a joint.",
-          "English builds the same meaning with of-phrases read left to right (the shortage of skilled workers); German puts the core noun last. When you translate a compound into English, you usually start at the end: \"Kinderbetreuungskosten\" is costs (Kosten) of childcare (Kinderbetreuung). And remember that a compound is not always literal: \"Mietpreisbremse\" is not a brake but a legal cap on rent increases.",
+          "At the Mastery level the words that stop you are rarely short. They are compounds like \"Haftpflichtversicherungsvertrag\", and the trick is to read them from the right. The last element (the \"Grundwort\") tells you what the thing is and gives the gender: \"der Vertrag\", a contract. Everything to its left narrows it down: a contract for \"Versicherung\" (insurance), more precisely \"Haftpflichtversicherung\" (liability insurance). So: a liability insurance contract.",
+          "Look for the joints. A linking \"-s-\" (the \"Fugen-s\") or \"-n-\" / \"-en-\" often marks where one word ends: \"Versicherung-s-vertrag\", \"Arbeit-s-markt\", \"Sonne-n-energie\", \"Fachkräfte-mangel\". The \"Fugen-s\" is especially common after \"-ung\", \"-heit\", \"-keit\", \"-ion\" and \"-tät\", so \"-ungs-\" inside a word is almost always a joint.",
+          "English builds the same meaning with of-phrases read left to right (the shortage of skilled workers); German puts the core noun last. When you translate a compound into English, you usually start at the end: \"Kinderbetreuungskosten\" is costs (\"Kosten\") of childcare (\"Kinderbetreuung\"). And remember that a compound is not always literal: \"Mietpreisbremse\" is not a brake but a legal cap on rent increases.",
         ],
         examples: [
           { es: "Der Fachkräftemangel trifft vor allem kleine Betriebe.", en: "The shortage of skilled workers hits small firms above all." },
@@ -54,7 +54,7 @@ export const DE_C2_U11: Lesson[] = [
         ],
       },
       {
-        heading: "Prefixes that change the meaning: ver-, zer-, ent-, miss-",
+        heading: "Prefixes that change the meaning: \"ver-\", \"zer-\", \"ent-\", \"miss-\"",
         body: [
           "Inseparable prefixes are some of the most reliable clues in German, because each has a few typical meanings. \"Zer-\" means into pieces or to destruction: \"zerreißen\" (tear up), \"zerbrechen\" (shatter), and figuratively \"zerreden\" (to talk something to death until nothing is left of it).",
           "\"Ent-\" usually means away, out of, or the reverse of a state: \"entkalken\" (descale), \"entschärfen\" (defuse, literally take the sharpness out), \"entmündigen\" (to take away someone's legal capacity; \"mündig\" means of age, legally competent). \"Miss-\" means badly or wrongly: \"missverstehen\", \"misstrauen\", \"missglücken\" (to fail).",
@@ -102,7 +102,7 @@ export const DE_C2_U11: Lesson[] = [
         body: [
           "Suffixes tell you the word class and a lot of the meaning. \"-bar\" means can be done (\"machbar\", feasible; \"unbezahlbar\", unaffordable or priceless). \"-los\" means without (\"ratlos\", at a loss; \"fassungslos\", stunned, literally without composure). \"-haft\" means having the quality of, often slightly negative (\"zweifelhaft\", dubious; \"fehlerhaft\", faulty; \"schemenhaft\", shadowy).",
           "Context does the rest. Ask three questions: what word class is it (article, ending, position)? Is the tone positive or negative (a \"zwar ... aber\" or a \"leider\" nearby)? Is it explained or repeated a few lines later with a synonym? German journalism loves synonym chains: a \"Gesetzentwurf\" becomes \"die Vorlage\" and then \"das Vorhaben\" in the next sentences.",
-          "And know when to skip. In the Goethe C2 Lesen and Hören modules, you lose more time on one rare word than you gain. If the word is in a list, is a proper name, or the sentence makes sense without it, move on. Stop only when the question you must answer depends on it.",
+          "And know when to skip. In the Goethe C2 \"Lesen\" and \"Hören\" modules, you lose more time on one rare word than you gain. If the word is in a list, is a proper name, or the sentence makes sense without it, move on. Stop only when the question you must answer depends on it.",
         ],
         examples: [
           { es: "Ein Umzug bis Ende des Monats ist kaum machbar.", en: "Moving by the end of the month is hardly feasible." },
@@ -120,7 +120,7 @@ export const DE_C2_U11: Lesson[] = [
             source: "The plan is hardly feasible.",
             answer: "Der Plan ist kaum machbar.",
             altAnswers: ["Der Plan ist kaum umsetzbar.", "Der Plan ist kaum realisierbar.", "Der Plan lässt sich kaum umsetzen."],
-            explanation: "\"-bar\" makes an adjective meaning can be done: \"machbar\", \"umsetzbar\", \"realisierbar\". \"Kaum\" (hardly) is a negation at the Mastery level.",
+            explanation: "\"-bar\" makes an adjective meaning can be done: \"machbar\", \"umsetzbar\", \"realisierbar\". \"Kaum\" (hardly) works like a negation.",
           },
           {
             type: "listen-choose",
@@ -218,7 +218,7 @@ export const DE_C2_U11: Lesson[] = [
         type: "speak",
         text: "Ich habe mich verzählt.",
         prompt: "Say it in German: I miscounted.",
-        tip: "Verzählt: the v is an f sound, and the z is ts: fer-TSÄHLT.",
+        tip: "\"Verzählt\": the v is an f sound, and the z is ts: fer-TSÄHLT.",
         explanation: "Reflexive \"sich verzählen\": the \"ver-\" of doing something wrongly.",
       },
     ],
@@ -227,16 +227,16 @@ export const DE_C2_U11: Lesson[] = [
     slug: "c2-infer-unknown-word-text-detective",
     level: "DE-C2",
     number: 2,
-    title: "Text Detective: Das Unbekannte Wort Erraten",
+    title: "Text Detective: Das unbekannte Wort erraten",
     summary: "A feuilleton column full of rare words: guess each one from its form and context, then check your guess.",
     duration: "18 min",
     sections: [
       {
-        heading: "Paragraph 1: the new digital Bürgeramt",
+        heading: "Paragraph 1: the new digital \"Bürgeramt\"",
         body: [
-          "Below is the first paragraph of a satirical column (a Glosse in the Feuilleton) about a town's new appointment app for its Bürgeramt. Read it once for the gist, then look at the rare words: \"Prestigeprojekt\", \"Bedenkenträger\", \"Kleinstaaterei\" and \"ausufernd\".",
+          "Below is the first paragraph of a satirical column (a \"Glosse\" in the \"Feuilleton\") about a town's new appointment app for its \"Bürgeramt\". Read it once for the gist, then look at the rare words: \"Prestigeprojekt\", \"Bedenkenträger\", \"Kleinstaaterei\" and \"ausufernd\".",
           "Work like a detective. \"Prestigeprojekt\" is a transparent compound: a project for prestige, a showcase project. \"Bedenkenträger\" is built from \"Bedenken\" (reservations) and \"Träger\" (bearer): someone who carries reservations around, a habitual objector. \"Kleinstaaterei\" uses the pejorative \"-erei\" you know from Unit 9: the habit of splitting into small states, i.e. fragmentation, here between authorities. \"Ausufernd\" is a river leaving its banks (\"Ufer\"): sprawling, out of control.",
-          "Notice how the context confirms each guess: the Bedenkenträger \"warnten\", the Kleinstaaterei is linked to \"jedes Amt ... eigenes System\", and the ausufernde discussion lasted \"drei Jahre\".",
+          "Notice how the context confirms each guess: the \"Bedenkenträger\" \"warnten\", the \"Kleinstaaterei\" is linked to \"jedes Amt ... eigenes System\", and the \"ausufernde\" discussion lasted \"drei Jahre\".",
         ],
         examples: [
           { es: "Die neue Termin-App sollte das Prestigeprojekt des Bürgermeisters werden.", en: "The new appointment app was supposed to become the mayor's showcase project." },
@@ -269,7 +269,7 @@ export const DE_C2_U11: Lesson[] = [
             source: "After years of sprawling discussions, the app went online.",
             answer: "Nach Jahren ausufernder Diskussionen ging die App online.",
             altAnswers: ["Nach jahrelangen ausufernden Diskussionen ging die App online.", "Nach Jahren ausufernder Diskussionen ist die App online gegangen.", "Nach jahrelangen ausufernden Diskussionen ist die App online gegangen."],
-            explanation: "\"Ausufernd\" is a present participle used as an adjective. In the genitive plural without an article it takes the strong ending -er: \"Jahren ausufernder Diskussionen\".",
+            explanation: "\"Ausufernd\" is a present participle used as an adjective. In the genitive plural without an article it takes the strong ending \"-er\": \"Jahren ausufernder Diskussionen\".",
           },
         ],
       },
@@ -277,7 +277,7 @@ export const DE_C2_U11: Lesson[] = [
         heading: "Paragraph 2: the reality",
         body: [
           "The second paragraph describes what happened next. New words: \"Schildbürgerstreich\", \"Gemengelage\", \"kleinteilig\".",
-          "\"Schildbürgerstreich\" needs cultural knowledge: the Schildbürger are the citizens of the fictional town of Schilda in a 16th-century chapbook, who did absurd things such as building a town hall without windows and carrying daylight inside in sacks. A \"Schildbürgerstreich\" is a piece of absurd, self-defeating official folly. If you don't know Schilda, the context (\"Fenster vergessen\" style absurdity) still points to something foolish.",
+          "\"Schildbürgerstreich\" needs cultural knowledge: the \"Schildbürger\" are the citizens of the fictional town of \"Schilda\" in a 16th-century chapbook, who did absurd things such as building a town hall without windows and carrying daylight inside in sacks. A \"Schildbürgerstreich\" is a piece of absurd, self-defeating official folly. If you don't know \"Schilda\", the context (an app that hands out appointments that don't exist) still points to something foolish.",
           "\"Gemengelage\" comes from \"mengen\" (to mix): a tangled mix of interests or factors, a messy situation. \"Kleinteilig\" is small-parted: fragmented, overly detailed. Both are favourites of German journalists and both are neutral to negative.",
         ],
         examples: [
@@ -310,7 +310,7 @@ export const DE_C2_U11: Lesson[] = [
         heading: "Paragraph 3: the punchline",
         body: [
           "The column ends: \"Die App, ein Ladenhüter unter den Behörden-Apps, wird nun überarbeitet. Die Verantwortlichen geben sich unbeirrbar: Man sei auf einem guten Weg.\"",
-          "\"Ladenhüter\" is literally a shop-keeper in the sense of something that guards the shop because nobody takes it away: an item that won't sell, a flop. \"Unbeirrbar\" is \"un-\" + \"beirren\" (to put off course) + \"-bar\": impossible to put off course, unshakeable. Here it is ironic: the officials are unshakeable in the face of obvious failure.",
+          "\"Ladenhüter\" is literally a shop guard: an item that stays in the shop, as if guarding it, because nobody buys it; a flop. \"Unbeirrbar\" is \"un-\" + \"beirren\" (to put off course) + \"-bar\": impossible to put off course, unshakeable. Here it is ironic: the officials are unshakeable in the face of obvious failure.",
           "Finally, the Konjunktiv I \"Man sei auf einem guten Weg\" marks reported speech: the columnist quotes the officials without endorsing them. Recognising this distance is part of reading at the Mastery level: the grammar carries the irony.",
         ],
         examples: [
@@ -333,7 +333,7 @@ export const DE_C2_U11: Lesson[] = [
           {
             type: "speak",
             text: "Die Verantwortlichen geben sich unbeirrbar.",
-            tip: "Stress unbeirrbar on the first syllable: UN-be-irr-bar, with a glottal stop before -irr.",
+            tip: "Stress \"unbeirrbar\" on the first syllable: UN-be-irr-bar, with a glottal stop before -irr.",
             explanation: "\"Sich ... geben\" means to appear or present oneself as: \"sich unbeirrbar geben\", \"sich gelassen geben\".",
           },
           {
@@ -492,8 +492,8 @@ export const DE_C2_U11: Lesson[] = [
         heading: "Particles, contractions and address",
         body: [
           "Modal particles show stance, and their density shows register. \"Das ist ja interessant\" (I notice this, maybe ironically), \"Das musst du halt akzeptieren\" (resignation: that's just how it is), \"Komm doch mal vorbei\" (friendly push). Formal writing uses almost none; relaxed speech uses several per sentence.",
-          "Contractions and dropped endings mark spoken style: \"hab\", \"is\", \"nich\", \"'n\" (ein), \"das gibt's nicht\", \"haste\" (hast du). They are not mistakes; they are the normal surface of fast speech, and you will meet them in every Goethe Hören text with a casual speaker.",
-          "Address is the clearest marker of all. A switch from \"Sie\" to \"du\" in the middle of a conversation signals a change of relationship, and a switch back from \"du\" to \"Sie\" signals anger or distance. Listen for it: in German it is never accidental.",
+          "Contractions and dropped endings mark spoken style: \"hab\", \"is\", \"nich\", \"'n\" (\"ein\"), \"das gibt's nicht\", \"haste\" (\"hast du\"). They are not mistakes; they are the normal surface of fast speech, and you will meet them in every Goethe \"Hören\" text with a casual speaker.",
+          "Address is the clearest marker of all. A switch from \"Sie\" to \"du\" in the middle of a conversation signals a change of relationship, and a switch back from \"du\" to \"Sie\" signals anger or distance. Listen for it: in German it is rarely accidental.",
         ],
         examples: [
           { es: "Das ist ja interessant.", en: "Well, that's interesting. (surprise, possibly irony)" },
@@ -527,13 +527,13 @@ export const DE_C2_U11: Lesson[] = [
         heading: "Syntax as a register marker",
         body: [
           "Sentence structure shows register too. In speech many Germans use \"weil\" with verb-second word order: \"weil ich hab keine Zeit\" instead of standard \"weil ich keine Zeit habe\". It is spoken, informal and widely heard; in writing it is still a mistake. A pause after \"weil\" usually tells you it's coming.",
-          "Ausklammerung, putting something after the final verb, is typical of speech: \"Ich hab ihn getroffen gestern im Supermarkt\". Formal writing instead piles information into the bracket and nominalises: \"Nach Abschluss der Prüfung durch die zuständige Stelle wird Ihnen der Bescheid zugestellt.\"",
-          "So nominal style, passive and Funktionsverbgefüge point to institutions and writing; short clauses, verb-second \"weil\", Ausklammerung and \"und dann\" chains point to speech. In the exam, this helps you answer questions like Who is the target audience? or Where could this text appear?",
+          "\"Ausklammerung\", putting something after the final verb, is typical of speech: \"Ich hab ihn getroffen gestern im Supermarkt\". Formal writing instead piles information into the bracket and nominalises: \"Nach Abschluss der Prüfung durch die zuständige Stelle wird Ihnen der Bescheid zugestellt.\"",
+          "So nominal style, passive and \"Funktionsverbgefüge\" point to institutions and writing; short clauses, verb-second \"weil\", \"Ausklammerung\" and \"und dann\" chains point to speech. In the exam, this helps you answer questions like 'Who is the target audience?' or 'Where could this text appear?'",
         ],
         examples: [
           { es: "Ich komm nicht mit, weil – ich hab echt keine Zeit.", en: "I'm not coming, because, well, I really haven't got time. (spoken)" },
           { es: "Ich komme nicht mit, weil ich keine Zeit habe.", en: "I'm not coming because I don't have time. (standard)" },
-          { es: "Ich hab sie getroffen gestern beim Bäcker.", en: "I met her yesterday at the baker's. (spoken, Ausklammerung)" },
+          { es: "Ich hab sie getroffen gestern beim Bäcker.", en: "I met her yesterday at the baker's. (spoken, \"Ausklammerung\")" },
           { es: "Nach Abschluss der Prüfung wird Ihnen der Bescheid zugestellt.", en: "Once the review is complete, the decision will be sent to you. (official)" },
           { es: "Die Umsetzung der Maßnahmen erfolgt im kommenden Quartal.", en: "The measures will be implemented next quarter. (formal nominal style)" },
         ],
@@ -564,7 +564,7 @@ export const DE_C2_U11: Lesson[] = [
         prompt: "Translate into German, colloquially, to a friend.",
         source: "Did you get my message?",
         answer: "Hast du meine Nachricht gekriegt?",
-        altAnswers: ["Haste meine Nachricht gekriegt?", "Hast du meine Nachricht bekommen?", "Hast du meine Nachricht gekriegt oder nicht?"],
+        altAnswers: ["Haste meine Nachricht gekriegt?", "Hast du meine Nachricht bekommen?", "Haste meine Nachricht bekommen?"],
         explanation: "\"Kriegen\" is the colloquial everyday verb for get; between friends it sounds natural. \"Bekommen\" is neutral and also fine.",
       },
       {
@@ -596,18 +596,18 @@ export const DE_C2_U11: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In a meeting, a colleague who has always said du to you suddenly says: \"Wie Sie meinen, Frau Weber.\" What is happening?",
+        question: "In a meeting, a colleague who has always said \"du\" to you suddenly says: \"Wie Sie meinen, Frau Weber.\" What is happening?",
         options: ["She is signalling anger or deliberate distance.", "She has forgotten your name.", "She is being especially friendly.", "She is quoting someone else."],
         correctIndex: 0,
-        explanation: "Going back from \"du\" to \"Sie\" is a strong signal of distance. In German the form of address is never a slip.",
+        explanation: "Going back from \"du\" to \"Sie\" is a strong signal of distance. In German the form of address is rarely a slip.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German, colloquially.",
         source: "I'm totally broke.",
-        answer: "Ich hab total keine Kohle.",
-        altAnswers: ["Ich bin total pleite.", "Ich bin völlig pleite.", "Ich habe überhaupt keine Kohle.", "Ich hab überhaupt keine Kohle.", "Ich bin komplett pleite.", "Ich bin total blank."],
+        answer: "Ich bin total pleite.",
+        altAnswers: ["Ich hab total keine Kohle.", "Ich bin völlig pleite.", "Ich habe überhaupt keine Kohle.", "Ich hab überhaupt keine Kohle.", "Ich bin komplett pleite.", "Ich bin total blank."],
         explanation: "\"Kohle\" (literally coal) is slang for money; \"pleite sein\" and \"blank sein\" are the colloquial broke.",
       },
       {
@@ -643,7 +643,7 @@ export const DE_C2_U11: Lesson[] = [
       {
         type: "speak",
         text: "Das ist ja interessant.",
-        tip: "Stress interessant on the third syllable: in-te-res-SANT. Let your voice fall for irony.",
+        tip: "Stress \"interessant\" on the third syllable: in-te-res-SANT. Let your voice fall for irony.",
         explanation: "\"Ja\" marks something as noticed and possibly surprising; with a flat tone it becomes ironic.",
       },
     ],
@@ -652,7 +652,7 @@ export const DE_C2_U11: Lesson[] = [
     slug: "c2-register-shift-dialogue-lab",
     level: "DE-C2",
     number: 4,
-    title: "Dialogue Lab: Den Registerwechsel Erkennen",
+    title: "Dialogue Lab: Den Registerwechsel erkennen",
     summary: "One afternoon in a Hamburg office: small talk at the coffee machine, a formal complaint on the phone, then gossip. Spot where and how the register shifts, and answer in the right one.",
     duration: "18 min",
     sections: [
@@ -790,14 +790,14 @@ export const DE_C2_U11: Lesson[] = [
         source: "I expect the sofa to be replaced immediately.",
         answer: "Ich erwarte, dass das Sofa umgehend ausgetauscht wird.",
         altAnswers: ["Ich erwarte, dass das Sofa sofort ausgetauscht wird.", "Ich erwarte, dass das Sofa unverzüglich ausgetauscht wird.", "Ich erwarte, dass Sie das Sofa umgehend austauschen.", "Ich erwarte, dass Sie das Sofa sofort austauschen."],
-        explanation: "English expect someone to do becomes a dass-clause; \"umgehend\" and \"unverzüglich\" are the formal immediately.",
+        explanation: "English 'expect someone to do' becomes a dass-clause; \"umgehend\" and \"unverzüglich\" are the formal immediately.",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Otherwise [I reserve the right to take] legal action.",
-        sentence: "Andernfalls ___ rechtliche Schritte vor.",
-        answer: "behalte ich mir",
+        en: "Otherwise I [reserve] the right to take legal action.",
+        sentence: "Andernfalls ___ ich mir rechtliche Schritte vor.",
+        answer: "behalte",
         explanation: "\"Sich etwas vorbehalten\" (to reserve something for oneself) is separable; after \"andernfalls\" in first position the verb comes next: \"behalte ich mir ... vor\".",
       },
       {
@@ -876,7 +876,7 @@ export const DE_C2_U11: Lesson[] = [
         body: [
           "Good German prose often leaves the logical link unsaid. Two main clauses side by side (asyndeton) can mean cause, contrast, consequence or concession, and the reader is expected to infer which. \"Die Straße war gesperrt. Wir kamen zu spät.\" means because the road was closed, we were late, without any \"weil\" or \"deshalb\".",
           "The clue is usually world knowledge plus a small signal word. \"Doch\" or \"aber\" in the second clause marks contrast. A second clause with \"also\", \"so\" or \"da\" in first position hints at consequence. And when the second sentence sounds surprising after the first (\"Er hatte keine Zeit. Er kam trotzdem.\") the relation is concession.",
-          "In listening tasks this matters because the exam asks Why did X happen? and the speaker never says \"weil\". Train yourself to ask after every pair of sentences: and? but? so? because?",
+          "In listening tasks this matters because the exam asks 'Why did X happen?' and the speaker never says \"weil\". Train yourself to ask after every pair of sentences: and? but? so? because?",
         ],
         examples: [
           { es: "Die Straße war gesperrt. Wir kamen eine Stunde zu spät.", en: "The road was closed, so we were an hour late." },
@@ -908,8 +908,8 @@ export const DE_C2_U11: Lesson[] = [
             direction: "en-es",
             prompt: "Translate into German.",
             source: "He had hardly slept. He passed anyway.",
-            answer: "Er hatte kaum geschlafen. Er bestand trotzdem.",
-            altAnswers: ["Er hatte kaum geschlafen. Trotzdem bestand er.", "Er hatte kaum geschlafen. Er hat trotzdem bestanden.", "Er hatte kaum geschlafen. Trotzdem hat er bestanden.", "Er hatte kaum geschlafen, trotzdem bestand er die Prüfung.", "Er hatte kaum geschlafen. Er bestand die Prüfung trotzdem."],
+            answer: "Er hatte kaum geschlafen. Trotzdem hat er bestanden.",
+            altAnswers: ["Er hatte kaum geschlafen. Er bestand trotzdem.", "Er hatte kaum geschlafen. Trotzdem bestand er.", "Er hatte kaum geschlafen. Er hat trotzdem bestanden.", "Er hatte kaum geschlafen. Trotzdem hat er bestanden.", "Er hatte kaum geschlafen, trotzdem bestand er die Prüfung.", "Er hatte kaum geschlafen. Er bestand die Prüfung trotzdem."],
             explanation: "\"Trotzdem\" marks the unexpected result (concession). \"Hatte geschlafen\" (Plusquamperfekt) sets the sleeping before the passing.",
           },
         ],
@@ -917,7 +917,7 @@ export const DE_C2_U11: Lesson[] = [
       {
         heading: "Colon, dash and tense as signals",
         body: [
-          "Punctuation carries logic in German writing. A colon usually announces an explanation, a cause or a consequence: \"Der Grund ist einfach: Es fehlt das Geld.\" After a colon a complete sentence starts with a capital letter. A dash (Gedankenstrich) often adds a surprising twist or comment: \"Die Reform sollte alles vereinfachen – das Gegenteil ist eingetreten.\"",
+          "Punctuation carries logic in German writing. A colon usually announces an explanation, a cause or a consequence: \"Der Grund ist einfach: Es fehlt das Geld.\" After a colon a complete sentence starts with a capital letter. A dash (\"Gedankenstrich\") often adds a surprising twist or comment: \"Die Reform sollte alles vereinfachen – das Gegenteil ist eingetreten.\"",
           "Tense is a signal of order. In a narrative in Präteritum, a Plusquamperfekt jumps back in time: \"Als die Polizei eintraf, waren die Täter schon geflohen.\" English learners sometimes read the two events as simultaneous; the \"waren ... geflohen\" tells you the escape happened first.",
           "Combine both clues in long texts: the colon tells you the next sentence explains, the Plusquamperfekt tells you the explanation lies earlier.",
         ],
@@ -1084,16 +1084,16 @@ export const DE_C2_U11: Lesson[] = [
     slug: "c2-implicit-connectors-transformations",
     level: "DE-C2",
     number: 6,
-    title: "Transformations: Implizite Zusammenhänge Explizit Machen",
-    summary: "Add the missing connector (denn, deshalb, trotzdem, während...) to texts that leave the logic implicit, and follow the word-order ripple each connector causes.",
+    title: "Transformations: Implizite Zusammenhänge explizit machen",
+    summary: "Add the missing connector (\"denn\", \"deshalb\", \"trotzdem\", \"während\" ...) to texts that leave the logic implicit, and follow the word-order ripple each connector causes.",
     duration: "17 min",
     sections: [
       {
-        heading: "Cause and consequence: denn, weil, deshalb",
+        heading: "Cause and consequence: \"denn\", \"weil\", \"deshalb\"",
         body: [
           "Making an implicit link explicit forces you to choose a connector, and each German connector brings its own word order. \"Denn\" (because) is a coordinating conjunction in position 0: the clause after it keeps normal verb-second order. \"Weil\" and \"da\" are subordinating: the verb goes to the end. \"Deshalb\", \"deswegen\", \"daher\" and \"darum\" are adverbs: they take position 1, so the verb follows immediately and the subject moves behind it.",
           "Same logic, three structures: \"Er blieb zu Hause, denn er war krank.\" / \"Er blieb zu Hause, weil er krank war.\" / \"Er war krank, deshalb blieb er zu Hause.\" Notice that with \"deshalb\" the order of the facts flips: cause first, consequence second.",
-          "\"Da\" usually introduces a cause the reader already knows and often stands at the start: \"Da der Zug ausfiel, nahmen wir den Bus.\" \"Denn\" cannot start a sentence-initial clause and never answers a question; \"weil\" can.",
+          "\"Da\" usually introduces a cause the reader already knows and often stands at the start: \"Da der Zug ausfiel, nahmen wir den Bus.\" A \"denn\" clause cannot come first in the sentence and cannot answer a question on its own; \"weil\" can do both.",
         ],
         examples: [
           { es: "Er blieb zu Hause, denn er war krank.", en: "He stayed at home, because he was ill." },
@@ -1127,12 +1127,12 @@ export const DE_C2_U11: Lesson[] = [
             question: "Which version is correct?",
             options: ["Er war krank, deshalb blieb er zu Hause.", "Er war krank, deshalb er blieb zu Hause.", "Er war krank, deshalb er zu Hause blieb.", "Er war krank, denn blieb er zu Hause."],
             correctIndex: 0,
-            explanation: "\"Deshalb\" is an adverb in position 1: verb next. English so-order (\"deshalb er blieb\") is the classic mistake.",
+            explanation: "\"Deshalb\" is an adverb in position 1: verb next. English so-order (\"*deshalb er blieb*\") is the classic mistake.",
           },
         ],
       },
       {
-        heading: "Concession: trotzdem, obwohl, dennoch",
+        heading: "Concession: \"trotzdem\", \"obwohl\", \"dennoch\"",
         body: [
           "When the second fact is surprising given the first, the link is concession. \"Trotzdem\" and \"dennoch\" (more formal) are adverbs: position 1, verb next, or in the middle field. \"Obwohl\" is subordinating: verb to the end, and it goes with the surprising-condition clause, not the result.",
           "Again the facts can flip: \"Es regnete. Wir gingen spazieren.\" → \"Es regnete, trotzdem gingen wir spazieren.\" or \"Obwohl es regnete, gingen wir spazieren.\" When the obwohl-clause comes first, the main clause starts with its verb, because the whole subordinate clause counts as position 1.",
@@ -1167,7 +1167,7 @@ export const DE_C2_U11: Lesson[] = [
         ],
       },
       {
-        heading: "Contrast and time: während, wohingegen, dagegen",
+        heading: "Contrast and time: \"während\", \"wohingegen\", \"dagegen\"",
         body: [
           "\"Während\" has two meanings: while in time (\"Während ich koche, kannst du den Tisch decken\") and while/whereas in contrast (\"Mia liebt Berge, während Jonas lieber ans Meer fährt\"). In both it is subordinating, verb to the end. \"Wohingegen\" (whereas) is purely contrastive and more formal.",
           "\"Dagegen\", \"hingegen\" and \"jedoch\" are adverbs that mark contrast inside a main clause, and they can sit in position 1 or in the middle field: \"Mia liebt Berge. Jonas dagegen fährt lieber ans Meer.\" (Note: here \"Jonas dagegen\" together fills position 1.)",
@@ -1193,7 +1193,7 @@ export const DE_C2_U11: Lesson[] = [
           {
             type: "speak",
             text: "Die Umsätze sind gestiegen, der Gewinn ist jedoch gesunken.",
-            tip: "Stress jedoch lightly on the second syllable: je-DOCH.",
+            tip: "Stress \"jedoch\" lightly on the second syllable: je-DOCH.",
             explanation: "\"Jedoch\" in the middle field after the verb marks the contrast without changing word order.",
           },
         ],
@@ -1303,15 +1303,15 @@ export const DE_C2_U11: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Verstehensstrategien, Part 4 of 8",
-    summary: "Fast spoken German: reductions like hab's and haste, swallowed endings, fillers and hedges such as halt, quasi and sag ich mal, and the colour of regional accents.",
+    summary: "Understand fast spoken German: reductions like \"hab's\" and \"haste\", swallowed endings, fillers and hedges such as \"halt\", \"quasi\" and \"sag ich mal\", and the colour of regional accents.",
     duration: "18 min",
     sections: [
       {
         heading: "Reductions and swallowed endings",
         body: [
           "Native speakers do not say what textbooks print. In normal-speed speech \"habe\" becomes \"hab\", \"ist\" becomes \"is\", \"nicht\" becomes \"nich\" (or \"nit\", \"net\" in the south), \"ein / eine / einen\" become \"'n / 'ne / 'n\", and \"es\" fuses with the word before it: \"Ich hab's nich gewusst\", \"Wie geht's dir?\", \"Gibt's noch Kaffee?\".",
-          "Verb and pronoun merge in questions: \"hast du\" → \"haste\", \"kannst du\" → \"kannste\", \"willst du\" → \"willste\", \"ist es\" → \"isses\". The unstressed -en ending shrinks to a syllabic n or disappears: \"gehen\" → \"gehn\", \"haben\" → \"ham\" (\"Wir ham keine Zeit\"), \"können\" → \"könn'\". \"Wir haben\" in fast speech can sound like \"wiam\".",
-          "None of this is slang; even news presenters reduce in interviews. Don't imitate every reduction in formal speech, but expect them, especially in the Goethe Hören parts with private speakers. A useful habit: when you can't parse a fast stretch, try mentally restoring the full forms.",
+          "Verb and pronoun merge in questions: \"hast du\" → \"haste\", \"kannst du\" → \"kannste\", \"willst du\" → \"willste\", \"ist es\" → \"isses\". The unstressed \"-en\" ending shrinks to a syllabic n or disappears: \"gehen\" → \"gehn\", \"haben\" → \"ham\" (\"Wir ham keine Zeit\"), \"können\" → \"könn'\". \"Wir haben\" in fast speech can sound like \"wiam\".",
+          "None of this is slang; even news presenters reduce in interviews. Don't imitate every reduction in formal speech, but expect them, especially in the Goethe \"Hören\" parts with private speakers. A useful habit: when you can't parse a fast stretch, try mentally restoring the full forms.",
         ],
         examples: [
           { es: "Ich hab's nich gewusst.", en: "I didn't know." },
@@ -1328,7 +1328,7 @@ export const DE_C2_U11: Lesson[] = [
             question: "What does it mean?",
             options: ["Have you got a euro?", "Did you have a euro?", "Do you hate the euro?", "Has he got a euro?"],
             correctIndex: 0,
-            explanation: "\"Haste\" is \"hast du\" and \"'n\" is \"einen\": Hast du mal einen Euro?",
+            explanation: "\"Haste\" is \"hast du\" and \"'n\" is \"einen\": \"Hast du mal einen Euro?\"",
           },
           {
             type: "translate",
@@ -1351,7 +1351,7 @@ export const DE_C2_U11: Lesson[] = [
         body: [
           "Fillers buy time and hedges soften claims. \"Also\" at the start of an answer (well, so) and \"äh\" / \"ähm\" are hesitation. \"Halt\" and \"eben\" make something sound inevitable. \"Quasi\" and \"sozusagen\" (so to speak, more or less) signal that a word is not quite exact: \"Das ist quasi ein Verbot.\"",
           "\"Irgendwie\" (somehow, kind of), \"oder so\" (or something), \"sag ich mal\" / \"würde ich mal sagen\" (let's say) all make a statement vaguer and less confrontational. They are extremely common among younger speakers and in interviews: \"Das war irgendwie schon krass, sag ich mal.\"",
-          "For comprehension, learn to filter them out: \"Also, ich find halt irgendwie, dass das quasi zu teuer is oder so\" carries exactly one claim: Ich finde, dass das zu teuer ist. But don't ignore them completely: a speaker who hedges a lot is signalling uncertainty, which can be exactly what the exam question asks about.",
+          "For comprehension, learn to filter them out: \"Also, ich find halt irgendwie, dass das quasi zu teuer is oder so\" carries exactly one claim: \"Ich finde, dass das zu teuer ist.\" But don't ignore them completely: a speaker who hedges a lot is signalling uncertainty, which can be exactly what the exam question asks about.",
         ],
         examples: [
           { es: "Also, ich find das halt irgendwie zu teuer.", en: "Well, I just kind of think it's too expensive." },
@@ -1383,18 +1383,18 @@ export const DE_C2_U11: Lesson[] = [
             direction: "en-es",
             prompt: "Translate into German, colloquially.",
             source: "Let's meet at eight or something.",
-            answer: "Lass uns um acht treffen oder so.",
-            altAnswers: ["Lass uns uns um acht treffen oder so.", "Treffen wir uns um acht oder so.", "Wollen wir uns um acht treffen oder so?", "Lass uns um acht oder so treffen.", "Lasst uns um acht treffen oder so."],
-            explanation: "\"Oder so\" tacked on at the end makes any detail vague. In casual speech \"lass uns treffen\" often drops the second \"uns\".",
+            answer: "Treffen wir uns um acht oder so.",
+            altAnswers: ["Lass uns um acht treffen oder so.", "Lass uns uns um acht treffen oder so.", "Wollen wir uns um acht treffen oder so?", "Lass uns um acht oder so treffen.", "Lasst uns um acht treffen oder so."],
+            explanation: "\"Oder so\" tacked on at the end makes any detail vague. In casual speech \"lass uns ... treffen\" usually drops the reflexive second \"uns\"; \"Treffen wir uns\" avoids the problem.",
           },
         ],
       },
       {
         heading: "Regional colour: north, south, Switzerland and Austria",
         body: [
-          "Most Germans speak standard German with a regional colour, and Mastery-level listening includes it. In the north, final -g is often pronounced like ch (\"Tach\" for Tag, \"König\" ending like \"-ich\") and Low German shines through in Hamburg and on the coast: \"Moin\", \"nee\", \"ne?\" at the end of sentences. Berlin says \"icke\" or \"ick\" for ich, \"det\" for das and \"wat\" for was.",
+          "Most Germans speak standard German with a regional colour, and Mastery-level listening includes it. In the north, final -g is often pronounced like ch (\"Tach\" for \"Tag\", \"König\" ending like \"-ich\") and Low German shines through in Hamburg and on the coast: \"Moin\", \"nee\", \"ne?\" at the end of sentences. Berlin says \"icke\" or \"ick\" for \"ich\", \"det\" for \"das\" and \"wat\" for \"was\".",
           "In the south, \"ich\" can shrink to \"i\" in Bavarian and Austrian speech, \"nicht\" becomes \"net\" or \"ned\", and the -e endings drop (\"Ich hab\", \"heut\"). Swabians add \"-le\" diminutives and say \"gell?\" for isn't it. The r is often rolled at the tip of the tongue in the south and in Switzerland.",
-          "Swiss Standard German (Schweizer Hochdeutsch) is slower, with a strong ch even after e and i, stress on the first syllable of loanwords (\"BÜro\", \"MErci\"), and words like \"parkieren\" and \"das Velo\". Austrian German has \"Jänner\" (January), \"heuer\" (this year), and the perfect with \"sein\" for sitzen and liegen. You don't need to produce these; you need to not be thrown by them.",
+          "Swiss Standard German (\"Schweizer Hochdeutsch\") is slower, with a strong ch even after e and i, stress on the first syllable of loanwords (\"BÜro\", \"MErci\"), and words like \"parkieren\" and \"das Velo\". Austrian German has \"Jänner\" (January), \"heuer\" (this year), and the perfect with \"sein\" for \"sitzen\" and \"liegen\" (as in southern Germany). You don't need to produce these; you need to not be thrown by them.",
         ],
         examples: [
           { es: "Moin! Na, allet jut?", en: "Hi! Everything OK? (Berlin/north)" },
@@ -1441,6 +1441,7 @@ export const DE_C2_U11: Lesson[] = [
         prompt: "Translate into standard German.",
         source: "Is it still far?",
         answer: "Ist es noch weit?",
+        altAnswers: ["Ist es noch weit weg?"],
         explanation: "In fast speech \"ist es\" fuses into \"isses\".",
       },
       {
@@ -1462,7 +1463,7 @@ export const DE_C2_U11: Lesson[] = [
           { left: "nich", right: "nicht" },
           { left: "'ne", right: "eine" },
         ],
-        explanation: "Pronoun fusion (haste, isses), swallowed -en (ham), dropped final t (nich) and shortened articles ('ne) are the core reductions.",
+        explanation: "Pronoun fusion (\"haste\", \"isses\"), swallowed \"-en\" (\"ham\"), dropped final t (\"nich\") and shortened articles (\"'ne\") are the core reductions.",
       },
       {
         type: "translate",
@@ -1516,7 +1517,7 @@ export const DE_C2_U11: Lesson[] = [
       {
         type: "speak",
         text: "Wie geht's dir?",
-        tip: "Fuse geht and es into one syllable: geht's, with a clear ts sound.",
+        tip: "Fuse \"geht\" and \"es\" into one syllable: \"geht's\", with a clear ts sound.",
         explanation: "\"Wie geht's\" for \"wie geht es\" is standard even in careful speech and in writing.",
       },
     ],
@@ -1525,7 +1526,7 @@ export const DE_C2_U11: Lesson[] = [
     slug: "c2-fast-speech-word-web",
     level: "DE-C2",
     number: 8,
-    title: "Word Web: Schnell Gesprochenes Deutsch",
+    title: "Word Web: Schnell gesprochenes Deutsch",
     summary: "Map the spoken forms of German to their standard equivalents, and sort fillers by function: hesitating, softening, and seeking agreement.",
     duration: "16 min",
     sections: [
@@ -1554,7 +1555,7 @@ export const DE_C2_U11: Lesson[] = [
               { left: "'nen", right: "einen" },
               { left: "wie war's", right: "wie war es" },
             ],
-            explanation: "Verb + du fuse into one word ending in -ste; the article \"einen\" shrinks to \"'nen\".",
+            explanation: "Verb + \"du\" fuse into one word ending in \"-ste\"; the article \"einen\" shrinks to \"'nen\".",
           },
           {
             type: "translate",
@@ -1581,7 +1582,7 @@ export const DE_C2_U11: Lesson[] = [
         body: [
           "Even yes and no have registers. \"Ja\" and \"nein\" are neutral. \"Jo\" and \"joa\" (north and casual) are relaxed yes, \"joa\" with a hesitant, so-so tone. \"Jep\" and \"jupp\" are playful. \"Nö\" and \"nee\" are casual no; \"nö\" can sound cheeky or dismissive, so don't use it with your boss.",
           "\"Doch\" is the yes that contradicts a negative question (\"Kommst du nicht? – Doch!\"), and \"genau\" is the everyday confirmation (exactly, right) that many Germans use as a filler while listening. \"Klar\" and \"na klar\" are of course.",
-          "\"Ne?\" (or \"nä?\", \"nich?\" in the north) at the end of a sentence is not no: it is a tag question seeking agreement, like isn't it or right?",
+          "\"Ne?\" (or \"nä?\", \"nich?\" in the north) at the end of a sentence is not no: it is a tag question seeking agreement, like 'isn't it?' or 'right?'",
         ],
         examples: [
           { es: "Kommst du mit? – Joa, mal sehen.", en: "Are you coming? Yeah, maybe, we'll see." },
@@ -1613,7 +1614,7 @@ export const DE_C2_U11: Lesson[] = [
         body: [
           "Sort fillers by what they do. Hesitation, to gain time: \"äh\", \"ähm\", \"also\", \"tja\", \"na ja\", \"wie soll ich sagen\". Softening, to make a claim less absolute: \"irgendwie\", \"quasi\", \"sozusagen\", \"eigentlich\", \"sag ich mal\", \"oder so\", \"ein bisschen\".",
           "Seeking agreement: \"ne?\", \"oder?\", \"gell?\" (south), \"weißte?\", \"nich?\" (north), \"verstehst du?\". Signalling that you are listening (back-channelling): \"genau\", \"ja ja\", \"mhm\", \"stimmt\", \"echt?\", \"ach so\".",
-          "Using a few of these at the right moment makes your German sound natural in conversation, while sprinkling them everywhere sounds nervous. In the Goethe Sprechen exam, one \"also\" to start a turn and a \"genau\" while listening are perfect; three \"irgendwie\" per sentence are not.",
+          "Using a few of these at the right moment makes your German sound natural in conversation, while sprinkling them everywhere sounds nervous. In the Goethe \"Sprechen\" exam, one \"also\" to start a turn and a \"genau\" while listening are perfect; three \"irgendwie\" per sentence are not.",
         ],
         examples: [
           { es: "Tja, da kann man nichts machen.", en: "Well, there's nothing you can do about it." },
@@ -1635,7 +1636,7 @@ export const DE_C2_U11: Lesson[] = [
           {
             type: "speak",
             text: "Ach so, jetzt verstehe ich.",
-            tip: "Ach so is said with falling intonation, two light syllables: ach SO.",
+            tip: "\"Ach so\" is said with falling intonation, two light syllables: ach SO.",
             explanation: "\"Ach so\" marks sudden understanding: oh, I see.",
           },
         ],
@@ -1649,7 +1650,7 @@ export const DE_C2_U11: Lesson[] = [
         source: "You know Leon, don't you?",
         answer: "Du kennst doch Leon, oder?",
         altAnswers: ["Du kennst Leon, oder?", "Du kennst doch Leon, ne?", "Du kennst Leon, ne?", "Sie kennen doch Leon, oder?", "Ihr kennt doch Leon, oder?", "Du kennst Leon doch, oder?"],
-        explanation: "\"Oder?\" or \"ne?\" at the end is the German tag question; \"doch\" adds you surely do.",
+        explanation: "\"Oder?\" or \"ne?\" at the end is the German tag question; \"doch\" adds 'you surely do'.",
       },
       {
         type: "translate",

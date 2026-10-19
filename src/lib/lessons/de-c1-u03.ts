@@ -8,7 +8,7 @@ export const DE_C1_U03: Lesson[] = [
     level: "DE-C1",
     number: 1,
     title: "Nominalization, Part 1 of 6",
-    summary: "Turn verbs into nouns: -ung nouns (always feminine), the nominalised infinitive (always neuter), and stem nouns like der Anfang, der Verlust, die Ankunft.",
+    summary: "You'll be able to turn verbs into nouns: \"-ung\" nouns (always feminine), the nominalised infinitive (always neuter) and stem nouns like \"der Anfang\", \"der Verlust\" and \"die Ankunft\".",
     duration: "18 min",
     sections: [
       {
@@ -39,10 +39,10 @@ export const DE_C1_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What is the noun for ankommen (to arrive)?",
-            options: ["die Ankunft", "die Ankommung", "das Ankommen", "der Ankunft"],
+            question: "You want to write: The train's arrival was delayed. Which sentence is correct?",
+            options: ["Die Ankunft des Zuges verzögerte sich.", "Die Ankommung des Zuges verzögerte sich.", "Der Ankunft des Zuges verzögerte sich.", "Das Ankunft des Zuges verzögerte sich."],
             correctIndex: 0,
-            explanation: "\"Ankommen\" has a stem noun: \"die Ankunft\" (feminine, an exception among stem nouns). \"*Die Ankommung\" doesn't exist; \"das Ankommen\" exists but means the process of arriving.",
+            explanation: "\"Ankommen\" has a stem noun: \"die Ankunft\" (feminine, an exception among stem nouns). \"*Die Ankommung\" doesn't exist, and \"der\"/\"das\" are the wrong gender for a subject.",
           },
           {
             type: "listen-choose",
@@ -76,7 +76,7 @@ export const DE_C1_U03: Lesson[] = [
             prompt: "Translate into German.",
             source: "I like listening to the radio while cooking.",
             answer: "Beim Kochen höre ich gern Radio.",
-            altAnswers: ["Ich höre gern Radio beim Kochen.", "Beim Kochen höre ich gerne Radio.", "Ich höre beim Kochen gern Radio."],
+            altAnswers: ["Ich höre gern Radio beim Kochen.", "Beim Kochen höre ich gerne Radio.", "Ich höre beim Kochen gern Radio.", "Ich höre beim Kochen gerne Radio.", "Ich höre gerne Radio beim Kochen."],
             explanation: "\"Beim\" + capitalised infinitive = while doing. Then verb second.",
           },
           {
@@ -99,7 +99,7 @@ export const DE_C1_U03: Lesson[] = [
         heading: "Stem nouns: der Anfang, der Beschluss, der Anstieg",
         body: [
           "Many verbs, especially strong ones, form nouns from their stem (sometimes with a vowel change), without a suffix: \"anfangen\" → \"der Anfang\", \"beschließen\" → \"der Beschluss\", \"steigen\" → \"der Anstieg\", \"verlieren\" → \"der Verlust\", \"besuchen\" → \"der Besuch\", \"schlafen\" → \"der Schlaf\", \"fallen\" → \"der Fall\", \"verkaufen\" → \"der Verkauf\".",
-          "Most stem nouns are masculine. Important exceptions are feminine nouns in \"-t\" from strong verbs: \"ankommen\" → \"die Ankunft\", \"fahren\" → \"die Fahrt\", \"sehen\" → \"die Sicht\", \"geben\" → \"die Gabe\", and \"die Abfahrt\", \"die Zukunft\".",
+          "Most stem nouns are masculine. Important exceptions are feminine nouns in \"-t\" from strong verbs: \"ankommen\" → \"die Ankunft\", \"fahren\" → \"die Fahrt\", \"sehen\" → \"die Sicht\", and \"die Abfahrt\", \"die Zukunft\"; a few feminine ones end in \"-e\" instead: \"geben\" → \"die Gabe\".",
           "Vowel changes often follow the Präteritum or Partizip: \"beschließen – beschloss – der Beschluss\", \"ziehen – zog – der Zug / der Umzug\", \"sprechen – sprach – die Sprache / der Spruch\", \"schneiden – schnitt – der Schnitt\". Learn these as vocabulary.",
         ],
         examples: [
@@ -142,7 +142,7 @@ export const DE_C1_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "The development of prices worries many people.",
         answer: "Die Entwicklung der Preise macht vielen Sorgen.",
-        altAnswers: ["Die Preisentwicklung macht vielen Sorgen.", "Die Entwicklung der Preise macht vielen Menschen Sorgen.", "Die Entwicklung der Preise beunruhigt viele."],
+        altAnswers: ["Die Preisentwicklung macht vielen Sorgen.", "Die Entwicklung der Preise macht vielen Menschen Sorgen.", "Die Entwicklung der Preise beunruhigt viele.", "Die Entwicklung der Preise bereitet vielen Sorgen.", "Die Preisentwicklung macht vielen Menschen Sorgen."],
         explanation: "\"Die Entwicklung\" (-ung, feminine) + genitive \"der Preise\". \"Jemandem Sorgen machen\" + dative.",
       },
       {
@@ -173,10 +173,10 @@ export const DE_C1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which noun is correct with its article?",
-        options: ["die Untersuchung", "der Untersuchung (nominative)", "das Untersuchung", "die Untersuchen"],
+        question: "You want to write: The investigation took two weeks. Which sentence is correct?",
+        options: ["Die Untersuchung dauerte zwei Wochen.", "Der Untersuchung dauerte zwei Wochen.", "Das Untersuchung dauerte zwei Wochen.", "Die Untersuchen dauerte zwei Wochen."],
         correctIndex: 0,
-        explanation: "Every -ung noun is feminine: \"die Untersuchung\".",
+        explanation: "Every -ung noun is feminine: \"die Untersuchung\". \"Der\" would only be genitive or dative here, and \"*die Untersuchen\" mixes the article with an infinitive.",
       },
       {
         type: "translate",
@@ -192,6 +192,7 @@ export const DE_C1_U03: Lesson[] = [
         prompt: "Put the words in order to say: My back hurts from all the sitting.",
         words: ["Vom", "vielen", "Sitzen", "tut", "mir", "der", "Rücken", "weh."],
         translation: "My back hurts from all the sitting.",
+        altOrders: [["Mir", "tut", "vom", "vielen", "Sitzen", "der", "Rücken", "weh."], ["Der", "Rücken", "tut", "mir", "vom", "vielen", "Sitzen", "weh."]],
         explanation: "\"Vom vielen Sitzen\": nominalised infinitive with an adjective (\"vielen\", dative neuter).",
       },
       {
@@ -238,7 +239,7 @@ export const DE_C1_U03: Lesson[] = [
     level: "DE-C1",
     number: 2,
     title: "Nominalization, Part 2 of 6",
-    summary: "Turn adjectives into nouns: -heit, -keit, -igkeit, -e with umlaut (die Länge, die Wärme), -ität, -schaft, -ismus, and nominalised adjectives like das Gute.",
+    summary: "You'll be able to turn adjectives into nouns with \"-heit\", \"-keit\", \"-igkeit\", \"-e\" plus umlaut (\"die Länge\", \"die Wärme\"), \"-ität\", \"-schaft\" and \"-ismus\", and use nominalised adjectives like \"das Gute\".",
     duration: "17 min",
     sections: [
       {
@@ -290,7 +291,7 @@ export const DE_C1_U03: Lesson[] = [
         body: [
           "A smaller but very frequent group adds \"-e\" and an umlaut to the adjective: \"lang\" → \"die Länge\", \"warm\" → \"die Wärme\", \"kalt\" → \"die Kälte\", \"stark\" → \"die Stärke\", \"groß\" → \"die Größe\", \"hoch\" → \"die Höhe\", \"breit\" → \"die Breite\", \"nah\" → \"die Nähe\", \"schwach\" → \"die Schwäche\".",
           "These are often measurements and physical qualities. All are feminine. Note \"hoch\" → \"die Höhe\" (the ch disappears).",
-          "Some adjectives have two nouns with different meanings: \"die Schwäche\" (weakness) vs \"die Schwachheit\" (rare, frailty); \"die Größe\" (size, greatness) vs \"die Großheit\" (doesn't exist).",
+          "Don't add \"-heit\" to these adjectives: \"die Schwachheit\" is rare and old-fashioned (frailty), and \"*die Großheit\" doesn't exist; the normal nouns are \"die Schwäche\" (weakness) and \"die Größe\" (size, greatness).",
         ],
         examples: [
           { es: "Die Länge des Textes ist auf 300 Wörter begrenzt.", en: "The length of the text is limited to 300 words." },
@@ -364,7 +365,6 @@ export const DE_C1_U03: Lesson[] = [
             en: "[The willingness] to help was great.",
             sentence: "___ zu helfen war groß.",
             answer: "Die Bereitschaft",
-            altAnswers: ["Die Hilfsbereitschaft"],
             explanation: "\"Bereit\" → \"die Bereitschaft\" (-schaft, feminine).",
           },
           {
@@ -392,7 +392,7 @@ export const DE_C1_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "In this cold I'd rather stay at home.",
         answer: "Bei dieser Kälte bleibe ich lieber zu Hause.",
-        altAnswers: ["Bei der Kälte bleibe ich lieber zu Hause.", "Bei dieser Kälte bleibe ich lieber daheim.", "Bei dieser Kälte würde ich lieber zu Hause bleiben."],
+        altAnswers: ["Bei der Kälte bleibe ich lieber zu Hause.", "Bei dieser Kälte bleibe ich lieber daheim.", "Bei dieser Kälte würde ich lieber zu Hause bleiben.", "Bei dieser Kälte bleibe ich lieber zuhause."],
         explanation: "\"Kalt\" → \"die Kälte\"; \"bei\" + dative for circumstances.",
       },
       {
@@ -414,10 +414,10 @@ export const DE_C1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which noun is formed correctly?",
-        options: ["die Wichtigkeit", "die Wichtigheit", "die Wichtigkeitheit", "das Wichtigkeit"],
+        question: "You want to say: Nobody doubts the importance of this question. Which sentence is correct?",
+        options: ["Niemand bezweifelt die Wichtigkeit dieser Frage.", "Niemand bezweifelt die Wichtigheit dieser Frage.", "Niemand bezweifelt die Wichtigung dieser Frage.", "Niemand bezweifelt das Wichtigkeit dieser Frage."],
         correctIndex: 0,
-        explanation: "Adjectives in -ig take \"-keit\": \"die Wichtigkeit\". Feminine.",
+        explanation: "Adjectives in -ig take \"-keit\": \"die Wichtigkeit\", feminine like every \"-keit\" noun. \"-heit\" and \"-ung\" don't attach to \"wichtig\".",
       },
       {
         type: "translate",
@@ -590,7 +590,8 @@ export const DE_C1_U03: Lesson[] = [
             en: "Her application [for] a job in Munich was successful.",
             sentence: "Ihre Bewerbung ___ eine Stelle in München war erfolgreich.",
             answer: "um",
-            explanation: "\"Sich bewerben um\" → \"die Bewerbung um\": the preposition stays. Not \"für\".",
+            altAnswers: ["für"],
+            explanation: "\"Sich bewerben um\" → \"die Bewerbung um\": the preposition stays with the noun. \"Für\" is also heard and accepted, but \"um\" is the standard written choice.",
           },
           {
             type: "speak",
@@ -640,7 +641,7 @@ export const DE_C1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which noun phrase corresponds to: Die Zahl der Unfälle ist deutlich gesunken?",
+        question: "Which noun phrase corresponds to: \"Die Zahl der Unfälle ist deutlich gesunken.\"?",
         options: ["der deutliche Rückgang der Zahl der Unfälle", "der deutlich Rückgang der Unfälle", "die deutliche Sinkung der Unfälle", "der Rückgang deutlich der Unfälle"],
         correctIndex: 0,
         explanation: "\"Sinken\" → \"der Rückgang\" (no \"*Sinkung\"); adverb → adjective with ending \"deutliche\".",
@@ -705,7 +706,7 @@ export const DE_C1_U03: Lesson[] = [
     level: "DE-C1",
     number: 4,
     title: "Mastery Check: Nominalization, Part 1",
-    summary: "Derivation, gender and clause-to-noun transformations from Parts 1 to 3, without hints.",
+    summary: "Show that you can form verb and adjective nouns with the right gender and turn clauses into noun phrases (Parts 1 to 3), without hints.",
     duration: "18 min",
     sections: [
       {
@@ -741,7 +742,7 @@ export const DE_C1_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which article is correct? ___ Lösen der Aufgabe dauerte lange.",
+            question: "Solving the task took a long time. Which word fills the gap: \"___ Lösen der Aufgabe dauerte lange.\"?",
             options: ["Das", "Die", "Der", "Den"],
             correctIndex: 0,
             explanation: "Nominalised infinitive \"das Lösen\" (neuter), different from \"die Lösung\".",
@@ -833,7 +834,7 @@ export const DE_C1_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "The delivery is coming tomorrow.",
         answer: "Die Lieferung kommt morgen.",
-        altAnswers: ["Die Lieferung kommt erst morgen.", "Die Lieferung trifft morgen ein."],
+        altAnswers: ["Die Lieferung trifft morgen ein.", "Morgen kommt die Lieferung."],
         explanation: "\"Liefern\" → \"die Lieferung\".",
       },
       {
@@ -873,10 +874,10 @@ export const DE_C1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which form does NOT exist?",
-        options: ["die Verlierung", "der Verlust", "das Verlieren", "der Verlierer"],
+        question: "You want to write: The loss was enormous. Which sentence is correct?",
+        options: ["Der Verlust war enorm.", "Die Verlierung war enorm.", "Das Verlust war enorm.", "Die Verlust war enorm."],
         correctIndex: 0,
-        explanation: "\"Verlieren\" has the stem noun \"der Verlust\"; \"*die Verlierung\" is invented.",
+        explanation: "\"Verlieren\" has the masculine stem noun \"der Verlust\"; \"*die Verlierung\" is invented.",
       },
       {
         type: "fill-blank",
@@ -959,7 +960,7 @@ export const DE_C1_U03: Lesson[] = [
     level: "DE-C1",
     number: 5,
     title: "Transformations: From Clause to Noun Phrase",
-    summary: "Turn conjunctions into prepositions: weil → wegen / aufgrund, nachdem → nach, bevor → vor, obwohl → trotz, wenn → bei, indem → durch, um ... zu → zur / zum.",
+    summary: "You'll be able to replace a clause with a preposition plus a noun: \"weil\" → \"wegen\" / \"aufgrund\", \"nachdem\" → \"nach\", \"bevor\" → \"vor\", \"obwohl\" → \"trotz\", \"wenn\" → \"bei\", \"indem\" → \"durch\", \"um ... zu\" → \"zur\" / \"zum\".",
     duration: "18 min",
     sections: [
       {
@@ -1036,7 +1037,7 @@ export const DE_C1_U03: Lesson[] = [
             prompt: "Translate into German.",
             source: "When I arrived nobody was at home.",
             answer: "Bei meiner Ankunft war niemand zu Hause.",
-            altAnswers: ["Als ich ankam, war niemand zu Hause.", "Bei meiner Ankunft war keiner zu Hause.", "Bei meiner Ankunft war niemand da."],
+            altAnswers: ["Als ich ankam, war niemand zu Hause.", "Bei meiner Ankunft war keiner zu Hause.", "Bei meiner Ankunft war niemand da.", "Bei meiner Ankunft war niemand zuhause."],
             explanation: "\"Als ich ankam\" → \"bei meiner Ankunft\".",
           },
         ],
@@ -1051,7 +1052,7 @@ export const DE_C1_U03: Lesson[] = [
         examples: [
           { es: "Zur Senkung der Kosten wurden Stellen abgebaut.", en: "To reduce costs, jobs were cut." },
           { es: "Zum Energiesparen schalten wir nachts die Heizung ab.", en: "To save energy we turn the heating off at night." },
-          { es: "Durch die Reduzierung des Verbrauchs sparen wir 20 Prozent.", en: "By reducing consumption we save 20 percent." },
+          { es: "Durch die Reduzierung des Verbrauchs sparen wir 20 Prozent.", en: "By reducing consumption we save 20 per cent." },
           { es: "Durch regelmäßiges Training hat sie sich stark verbessert.", en: "By training regularly she has improved a lot." },
           { es: "Zur Vorbereitung auf die Prüfung lese ich jeden Tag Zeitung.", en: "To prepare for the exam I read the newspaper every day." },
         ],
@@ -1070,6 +1071,7 @@ export const DE_C1_U03: Lesson[] = [
             prompt: "Put the words in order to say: To reduce costs, jobs were cut.",
             words: ["Zur", "Senkung", "der", "Kosten", "wurden", "Stellen", "abgebaut."],
             translation: "To reduce costs, jobs were cut.",
+            altOrders: [["Stellen", "wurden", "zur", "Senkung", "der", "Kosten", "abgebaut."]],
             explanation: "\"Um die Kosten zu senken\" → \"zur Senkung der Kosten\"; then the verb \"wurden\".",
           },
           {
@@ -1120,10 +1122,10 @@ export const DE_C1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase replaces: Sobald der Vertrag unterschrieben ist, ...?",
+        question: "Which phrase replaces: \"Sobald der Vertrag unterschrieben ist, ...\"?",
         options: ["Unmittelbar nach der Unterzeichnung des Vertrags ...", "Vor der Unterzeichnung des Vertrags ...", "Trotz der Unterzeichnung des Vertrags ...", "Durch den Vertrag unterschrieben ..."],
         correctIndex: 0,
-        explanation: "\"Sobald\" → \"(gleich / unmittelbar) nach\" + dative. \"Unterschreiben\" → \"die Unterzeichnung\" in formal style.",
+        explanation: "\"Sobald\" → \"(gleich / unmittelbar) nach\" + dative. \"Unterschreiben\" (formal: \"unterzeichnen\") → \"die Unterzeichnung\".",
       },
       {
         type: "translate",
@@ -1147,14 +1149,14 @@ export const DE_C1_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "To save energy we turn the heating off at night.",
         answer: "Zum Energiesparen schalten wir nachts die Heizung ab.",
-        altAnswers: ["Um Energie zu sparen, schalten wir nachts die Heizung ab.", "Zum Energiesparen drehen wir nachts die Heizung ab.", "Um Energie zu sparen, drehen wir nachts die Heizung ab."],
+        altAnswers: ["Um Energie zu sparen, schalten wir nachts die Heizung ab.", "Zum Energiesparen drehen wir nachts die Heizung ab.", "Um Energie zu sparen, drehen wir nachts die Heizung ab.", "Zum Energiesparen schalten wir die Heizung nachts ab.", "Um Energie zu sparen, schalten wir die Heizung nachts ab.", "Wir schalten nachts die Heizung ab, um Energie zu sparen."],
         explanation: "\"Um Energie zu sparen\" → \"zum Energiesparen\" (nominalised infinitive).",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "By reducing consumption we save 20 percent.",
+        source: "By reducing consumption we save 20 per cent.",
         answer: "Durch die Reduzierung des Verbrauchs sparen wir 20 Prozent.",
         altAnswers: ["Durch die Senkung des Verbrauchs sparen wir 20 Prozent.", "Indem wir den Verbrauch reduzieren, sparen wir 20 Prozent.", "Durch die Verringerung des Verbrauchs sparen wir 20 Prozent."],
         explanation: "\"Indem wir den Verbrauch reduzieren\" → \"durch die Reduzierung des Verbrauchs\".",
@@ -1197,7 +1199,7 @@ export const DE_C1_U03: Lesson[] = [
     level: "DE-C1",
     number: 6,
     title: "Contrast Clinic: Genitive or Von in the Noun Phrase",
-    summary: "When the noun phrase takes a genitive and when von: articles, plurals without articles, names, chains of genitives and register.",
+    summary: "You'll be able to choose between a genitive and \"von\" after a noun: with articles, bare plurals, names, chains of genitives and in different registers.",
     duration: "16 min",
     sections: [
       {
@@ -1236,7 +1238,7 @@ export const DE_C1_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct in formal writing?",
+            question: "You want to write: the delivery of goods. Which is correct in formal writing?",
             options: ["die Lieferung von Waren", "die Lieferung Waren", "die Lieferung der Waren von", "die Lieferung Waren's"],
             correctIndex: 0,
             explanation: "Bare plural: no genitive ending is visible, so \"von\" + dative. With an article: \"die Lieferung der Waren\".",
@@ -1505,6 +1507,7 @@ export const DE_C1_U03: Lesson[] = [
             prompt: "Put the words in order to say: the development of rents in big cities since 2010",
             words: ["die", "Entwicklung", "der", "Mieten", "in", "Großstädten", "seit", "2010"],
             translation: "the development of rents in big cities since 2010",
+            altOrders: [["die", "Entwicklung", "der", "Mieten", "seit", "2010", "in", "Großstädten"]],
             explanation: "Genitive first, then prepositional phrases of place and time.",
           },
         ],
@@ -1654,15 +1657,15 @@ export const DE_C1_U03: Lesson[] = [
     level: "DE-C1",
     number: 8,
     title: "Nominalization, Part 5 of 6",
-    summary: "Prepositions after nouns: die Forderung nach, die Kritik an, der Einfluss auf, die Angst vor, der Bedarf an, der Zusammenhang zwischen, der Rückgang um 3 %, der Anstieg auf 5 %.",
+    summary: "You'll be able to use the right preposition after a noun (\"die Forderung nach\", \"die Kritik an\", \"der Einfluss auf\", \"die Angst vor\", \"der Bedarf an\", \"der Zusammenhang zwischen\") and with figures (\"der Rückgang um 3 %\", \"der Anstieg auf 5 %\").",
     duration: "18 min",
     sections: [
       {
         heading: "Nouns that keep their verb's preposition",
         body: [
           "Many nouns inherit the preposition of the verb or adjective they come from: \"sich interessieren für\" but \"das Interesse an\"! Not always the same, so learn noun + preposition as a unit.",
-          "Same preposition as the verb: \"teilnehmen an\" → \"die Teilnahme an\"; \"sich bewerben um\" → \"die Bewerbung um\"; \"warten auf\" → \"das Warten auf\"; \"Angst haben vor\" → \"die Angst vor\"; \"fordern\" → \"die Forderung nach\" (verb has no preposition, the noun takes \"nach\").",
-          "Different from the verb: \"kritisieren\" (no preposition) → \"die Kritik an\"; \"sich interessieren für\" → \"das Interesse an\"; \"beeinflussen\" → \"der Einfluss auf\"; \"brauchen\" → \"der Bedarf an\".",
+          "Same preposition as the verb: \"teilnehmen an\" → \"die Teilnahme an\"; \"sich bewerben um\" → \"die Bewerbung um\"; \"warten auf\" → \"das Warten auf\"; \"Angst haben vor\" → \"die Angst vor\".",
+          "Different from the verb: \"kritisieren\" (no preposition) → \"die Kritik an\"; \"sich interessieren für\" → \"das Interesse an\"; \"beeinflussen\" → \"der Einfluss auf\"; \"fordern\" → \"die Forderung nach\"; \"brauchen\" → \"der Bedarf an\".",
         ],
         examples: [
           { es: "Die Forderung nach höheren Löhnen ist berechtigt.", en: "The demand for higher wages is justified." },
@@ -1692,10 +1695,10 @@ export const DE_C1_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Criticism of the plan: which preposition? die Kritik ___ dem Plan",
-            options: ["an", "von", "über", "für"],
+            question: "You want to say: Criticism of the plan is growing. Which sentence is correct?",
+            options: ["Die Kritik an dem Plan wächst.", "Die Kritik von dem Plan wächst.", "Die Kritik über den Plan wächst.", "Die Kritik für den Plan wächst."],
             correctIndex: 0,
-            explanation: "\"Die Kritik an\" + dative. \"Die Kritik von\" would mean criticism by someone.",
+            explanation: "\"Die Kritik an\" + dative. \"Die Kritik von\" would name who is criticising, not what is criticised.",
           },
         ],
       },
@@ -1703,22 +1706,22 @@ export const DE_C1_U03: Lesson[] = [
         heading: "Numbers: um, auf, von ... auf",
         body: [
           "Statistics and news use precise prepositions with numbers: \"um\" for the size of the change, \"auf\" for the new value, \"von ... auf\" for the start and end values.",
-          "\"Der Rückgang um 3 Prozent\" (a decline of 3 percent), \"der Anstieg auf 5 Prozent\" (a rise to 5 percent), \"die Erhöhung von 10 auf 12 Euro\" (an increase from 10 to 12 euros). The verbs work the same way: \"um 3 % sinken\", \"auf 5 % steigen\".",
+          "\"Der Rückgang um 3 Prozent\" (a decline of 3 per cent), \"der Anstieg auf 5 Prozent\" (a rise to 5 per cent), \"die Erhöhung von 10 auf 12 Euro\" (an increase from 10 to 12 euros). The verbs work the same way: \"um 3 % sinken\", \"auf 5 % steigen\".",
           "English of and to don't map neatly: a rise of 2 % = \"ein Anstieg um 2 %\", not \"*von 2 %\". \"Ein Anstieg von 2 %\" exists, but in careful writing \"um\" is clearer.",
         ],
         examples: [
-          { es: "Der Umsatz ist um 3 Prozent zurückgegangen.", en: "Sales fell by 3 percent." },
-          { es: "Die Inflation ist auf 5 Prozent gestiegen.", en: "Inflation has risen to 5 percent." },
+          { es: "Der Umsatz ist um 3 Prozent zurückgegangen.", en: "Sales fell by 3 per cent." },
+          { es: "Die Inflation ist auf 5 Prozent gestiegen.", en: "Inflation has risen to 5 per cent." },
           { es: "Der Preis wurde von 10 auf 12 Euro erhöht.", en: "The price was raised from 10 to 12 euros." },
           { es: "Der Rückgang der Arbeitslosigkeit um 0,5 Prozentpunkte überraschte.", en: "The 0.5 percentage point fall in unemployment was a surprise." },
-          { es: "Ein Anstieg der Mieten um 20 Prozent ist nicht zu akzeptieren.", en: "A 20 percent rise in rents is unacceptable." },
+          { es: "Ein Anstieg der Mieten um 20 Prozent ist nicht zu akzeptieren.", en: "A 20 per cent rise in rents is unacceptable." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Inflation has risen to 5 percent.",
+            source: "Inflation has risen to 5 per cent.",
             answer: "Die Inflation ist auf 5 Prozent gestiegen.",
             altAnswers: ["Die Inflation ist auf fünf Prozent gestiegen.", "Die Inflation stieg auf 5 Prozent.", "Die Inflationsrate ist auf 5 Prozent gestiegen."],
             explanation: "\"Auf\" = to (new value). \"Um\" would be by.",
@@ -1727,7 +1730,7 @@ export const DE_C1_U03: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "Sales fell by 3 percent.",
+            source: "Sales fell by 3 per cent.",
             answer: "Der Umsatz ist um 3 Prozent zurückgegangen.",
             altAnswers: ["Der Umsatz ging um 3 Prozent zurück.", "Der Umsatz ist um drei Prozent zurückgegangen.", "Der Umsatz ist um 3 Prozent gesunken.", "Der Umsatz sank um 3 Prozent."],
             explanation: "\"Um\" = by (size of the change).",
@@ -1822,10 +1825,10 @@ export const DE_C1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence means: Unemployment fell by 2 percent?",
+        question: "Which sentence means: Unemployment fell by 2 per cent?",
         options: ["Die Arbeitslosigkeit sank um 2 Prozent.", "Die Arbeitslosigkeit sank auf 2 Prozent.", "Die Arbeitslosigkeit sank für 2 Prozent.", "Die Arbeitslosigkeit sank bei 2 Prozent."],
         correctIndex: 0,
-        explanation: "\"Um\" = by. \"Auf\" would mean it's now at 2 percent.",
+        explanation: "\"Um\" = by. \"Auf\" would mean it's now at 2 per cent.",
       },
       {
         type: "translate",
@@ -1860,7 +1863,7 @@ export const DE_C1_U03: Lesson[] = [
           { left: "die Kritik", right: "an" },
           { left: "die Angst", right: "vor" },
           { left: "der Einfluss", right: "auf" },
-          { left: "die Teilnahme", right: "an (+ dative)" },
+          { left: "die Sorge", right: "um" },
         ],
         explanation: "Learn noun + preposition together; they often differ from English.",
       },
@@ -1870,7 +1873,7 @@ export const DE_C1_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "Her participation in the project is important.",
         answer: "Ihre Teilnahme an dem Projekt ist wichtig.",
-        altAnswers: ["Ihre Teilnahme am Projekt ist wichtig.", "Seine Teilnahme am Projekt ist wichtig.", "Seine Teilnahme an dem Projekt ist wichtig."],
+        altAnswers: ["Ihre Teilnahme am Projekt ist wichtig."],
         explanation: "\"Teilnahme an\" + dative, often \"am\".",
       },
       {
@@ -1899,13 +1902,13 @@ export const DE_C1_U03: Lesson[] = [
     level: "DE-C1",
     number: 9,
     title: "Style Workshop: Nominalize for a Formal Register",
-    summary: "Turn a chatty email to the Bürgeramt into a formal paragraph built on nouns: Bitte um Ummeldung aufgrund meines Umzugs.",
+    summary: "You'll be able to turn a chatty email to the \"Bürgeramt\" into a formal paragraph built on nouns, such as \"Ich bitte um Ummeldung aufgrund meines Umzugs\".",
     duration: "18 min",
     sections: [
       {
         heading: "The chatty original",
         body: [
-          "Mehmet has moved within Cologne and writes to the Bürgeramt (citizens' office): „Hallo, ich will meine Wohnung ummelden, weil ich umgezogen bin. Ich kann aber nicht in Ihr Büro kommen, weil ich bis Ende Mai im Ausland arbeite. Kann ich das auch online machen? Und muss ich etwas bezahlen, wenn ich mich zu spät ummelde?“",
+          "Mehmet has moved within Cologne and writes to the \"Bürgeramt\" (citizens' office): \"Hallo, ich will meine Wohnung ummelden, weil ich umgezogen bin. Ich kann aber nicht in Ihr Büro kommen, weil ich bis Ende Mai im Ausland arbeite. Kann ich das auch online machen? Und muss ich etwas bezahlen, wenn ich mich zu spät ummelde?\"",
           "Nothing is grammatically wrong, but for an authority it sounds too informal: \"Hallo\", \"ich will\", the chain of \"weil\" clauses, direct questions. German official correspondence prefers a nominal style: actions as nouns, fewer subordinate clauses, more prepositional phrases.",
           "Goal: keep the content, change the register. Typical moves: \"weil ich umgezogen bin\" → \"aufgrund meines Umzugs\"; \"ich will ... ummelden\" → \"Ich bitte um Ummeldung ...\"; \"wenn ich mich zu spät ummelde\" → \"bei verspäteter Ummeldung\".",
         ],
@@ -1941,7 +1944,7 @@ export const DE_C1_U03: Lesson[] = [
         heading: "Nouns, empty verbs and Funktionsverbgefüge",
         body: [
           "Nominal style moves the meaning into a noun and uses a general verb to carry tense: \"Ich kann nicht persönlich vorsprechen\" → \"Eine persönliche Vorsprache ist mir nicht möglich.\" \"Kann ich das online machen?\" → \"Besteht die Möglichkeit einer Online-Ummeldung?\"",
-          "Typical carrier verbs: \"bestehen\" (Es besteht die Möglichkeit ...), \"erfolgen\" (Die Zahlung erfolgt per Überweisung), \"vornehmen\" (eine Änderung vornehmen), plus the Upper-intermediate Funktionsverbgefüge: \"in Anspruch nehmen\", \"zur Verfügung stellen\", \"in Kenntnis setzen\".",
+          "Typical carrier verbs: \"bestehen\" (\"Es besteht die Möglichkeit ...\"), \"erfolgen\" (\"Die Zahlung erfolgt per Überweisung\"), \"vornehmen\" (\"eine Änderung vornehmen\"), plus the Upper-intermediate Funktionsverbgefüge: \"in Anspruch nehmen\", \"zur Verfügung stellen\", \"in Kenntnis setzen\".",
           "The result is impersonal and objective, exactly what administrative German wants. But don't overdo it: one or two nominal constructions per sentence are enough.",
         ],
         examples: [
@@ -1983,8 +1986,8 @@ export const DE_C1_U03: Lesson[] = [
       {
         heading: "The formal version",
         body: [
-          "Mehmet's rewritten email: „Sehr geehrte Damen und Herren, aufgrund meines Umzugs innerhalb Kölns bitte ich um Ummeldung meines Wohnsitzes. Wegen eines beruflichen Auslandsaufenthalts bis Ende Mai ist mir eine persönliche Vorsprache leider nicht möglich. Besteht die Möglichkeit einer Online-Ummeldung? Für eine kurze Information über eventuelle Gebühren bei verspäteter Ummeldung wäre ich Ihnen dankbar. Mit freundlichen Grüßen, Mehmet Yılmaz“",
-          "Compare: four \"weil / wenn\" clauses became four prepositional phrases (\"aufgrund\", \"wegen\", \"für\", \"bei\"). The polite Konjunktiv \"wäre ich Ihnen dankbar\" from Unit 1 replaces a direct question.",
+          "Mehmet's rewritten email: \"Sehr geehrte Damen und Herren, aufgrund meines Umzugs innerhalb Kölns bitte ich um Ummeldung meines Wohnsitzes. Wegen eines beruflichen Auslandsaufenthalts bis Ende Mai ist mir eine persönliche Vorsprache leider nicht möglich. Besteht die Möglichkeit einer Online-Ummeldung? Für eine kurze Information über eventuelle Gebühren bei verspäteter Ummeldung wäre ich Ihnen dankbar. Mit freundlichen Grüßen, Mehmet Yılmaz\"",
+          "Compare: three \"weil / wenn\" clauses and a direct question became four prepositional phrases (\"aufgrund\", \"wegen\", \"für\", \"bei\"). The polite Konjunktiv \"wäre ich Ihnen dankbar\" from Unit 1 replaces a direct question.",
         ],
         examples: [
           { es: "Sehr geehrte Damen und Herren,", en: "Dear Sir or Madam," },
@@ -2068,6 +2071,7 @@ export const DE_C1_U03: Lesson[] = [
         prompt: "Put the words in order to say: Due to my move, I request re-registration.",
         words: ["Aufgrund", "meines", "Umzugs", "bitte", "ich", "um", "Ummeldung."],
         translation: "Due to my move, I request re-registration.",
+        altOrders: [["Ich", "bitte", "aufgrund", "meines", "Umzugs", "um", "Ummeldung."]],
         explanation: "Nominal cause phrase in position 1, then \"bitte ich um\" + noun.",
       },
       {
@@ -2105,7 +2109,7 @@ export const DE_C1_U03: Lesson[] = [
     level: "DE-C1",
     number: 10,
     title: "Error Hunt: Noun Derivation and Gender",
-    summary: "Correct invented or wrong nouns (*die Ankommung, *die Verlierung, *die Erhöhe), wrong genders (*der Teilnahme, *das Entwicklung) and capitalisation errors (*beim lesen).",
+    summary: "You'll be able to spot and correct invented nouns (\"*die Ankommung\", \"*die Verlierung\", \"*die Erhöhe\"), wrong genders (\"*der Teilnahme\", \"*das Entwicklung\") and missing capitals (\"*beim lesen\").",
     duration: "16 min",
     sections: [
       {
@@ -2144,7 +2148,7 @@ export const DE_C1_U03: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which word fits? Die ___ der Gebühren wurde verschoben.",
+            question: "The increase in fees was postponed. Which word fits: \"Die ___ der Gebühren wurde verschoben.\"?",
             options: ["Erhöhung", "Erhöhe", "Erhöhen", "Erhöhheit"],
             correctIndex: 0,
             explanation: "\"Erhöhen\" → \"die Erhöhung\". \"Die Höhe\" exists but comes from \"hoch\" and means height or amount.",
@@ -2154,7 +2158,7 @@ export const DE_C1_U03: Lesson[] = [
       {
         heading: "Wrong gender",
         body: [
-          "Error 5: \"*Wegen der Teilnahme\" is right, but \"*Der Teilnahme war freiwillig\" is wrong: \"die Teilnahme\" is feminine (-nahme from \"nehmen\" is always feminine: \"die Abnahme, die Zunahme, die Ausnahme\").",
+          "Error 5: \"Wegen der Teilnahme\" (genitive) is right, but \"*Der Teilnahme war freiwillig\" is wrong: \"die Teilnahme\" is feminine (-nahme from \"nehmen\" is always feminine: \"die Abnahme, die Zunahme, die Ausnahme\").",
           "Error 6: \"*das Entwicklung\" → \"die Entwicklung\": -ung is always feminine. Error 7: \"*die Rauchen\" → \"das Rauchen\": infinitives are always neuter.",
           "Error 8: \"*die Optimismus\" → \"der Optimismus\" (-ismus masculine). Error 9: \"*der Freiheit\" (nominative) → \"die Freiheit\".",
         ],
@@ -2307,11 +2311,11 @@ export const DE_C1_U03: Lesson[] = [
         type: "matching",
         instructions: "Match the wrong form to the correct one.",
         pairs: [
-          { left: "die Ankommung", right: "die Ankunft" },
-          { left: "die Beschließung", right: "der Beschluss" },
-          { left: "der Teilnahme", right: "die Teilnahme" },
-          { left: "beim lesen", right: "beim Lesen" },
-          { left: "das gute", right: "das Gute" },
+          { left: "*die Ankommung", right: "die Ankunft" },
+          { left: "*die Beschließung", right: "der Beschluss" },
+          { left: "*der Teilnahme (nominative)", right: "die Teilnahme" },
+          { left: "*beim lesen", right: "beim Lesen" },
+          { left: "*das gute (daran)", right: "das Gute" },
         ],
         explanation: "Invented -ung nouns, wrong genders and missing capitals: the three main error types.",
       },
@@ -2341,7 +2345,7 @@ export const DE_C1_U03: Lesson[] = [
     level: "DE-C1",
     number: 11,
     title: "Nominalization, Part 6 of 6",
-    summary: "Recognise over-nominalisation (Behördendeutsch) and verbalise for plain language: when to choose verbs, and the empty verbs erfolgen, stattfinden, vornehmen.",
+    summary: "You'll be able to recognise over-nominalisation (\"Behördendeutsch\"), rewrite it in plain language with real verbs, and handle the empty verbs \"erfolgen\", \"stattfinden\" and \"vornehmen\".",
     duration: "18 min",
     sections: [
       {
@@ -2404,7 +2408,7 @@ export const DE_C1_U03: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "We'll pay out the amount [once we have checked] everything.",
+            en: "We'll pay out the amount [once we] have checked everything.",
             sentence: "Wir zahlen den Betrag aus, ___ alles geprüft haben.",
             answer: "wenn wir",
             altAnswers: ["sobald wir", "nachdem wir"],
@@ -2469,7 +2473,7 @@ export const DE_C1_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "The plant goes into operation in March.",
         answer: "Die Anlage geht im März in Betrieb.",
-        altAnswers: ["Die Anlage wird im März in Betrieb genommen.", "Im März geht die Anlage in Betrieb."],
+        altAnswers: ["Die Anlage wird im März in Betrieb genommen.", "Im März geht die Anlage in Betrieb.", "Im März wird die Anlage in Betrieb genommen."],
         explanation: "Plainer than \"Die Inbetriebnahme der Anlage erfolgt im März\".",
       },
       {
@@ -2478,7 +2482,7 @@ export const DE_C1_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "We'll discuss the problem tomorrow.",
         answer: "Wir besprechen das Problem morgen.",
-        altAnswers: ["Wir werden das Problem morgen besprechen.", "Morgen besprechen wir das Problem."],
+        altAnswers: ["Wir werden das Problem morgen besprechen.", "Morgen besprechen wir das Problem.", "Morgen werden wir das Problem besprechen."],
         explanation: "Verbal version of \"Eine Besprechung des Problems findet morgen statt\".",
       },
       {
@@ -2500,7 +2504,7 @@ export const DE_C1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the best plain-language version of: Die Beantragung erfolgt ausschließlich online?",
+        question: "Which is the best plain-language version of: \"Die Beantragung erfolgt ausschließlich online.\"?",
         options: ["Sie können den Antrag nur online stellen.", "Die Antragstellung erfolgt nur online.", "Eine Beantragung ist online durchzuführen.", "Online erfolgt die Beantragung ausschließlich."],
         correctIndex: 0,
         explanation: "Actor + real verb: \"Sie können ... stellen\". The others remain nominal.",
@@ -2565,7 +2569,7 @@ export const DE_C1_U03: Lesson[] = [
     level: "DE-C1",
     number: 12,
     title: "Text Detective: Nominal Headlines",
-    summary: "Decode a front page of nominal headlines (Streik bei der Bahn: Verschiebung der Abstimmung; Anstieg der Mieten in München) and rebuild the full sentences behind them.",
+    summary: "You'll be able to decode nominal headlines (\"Streik bei der Bahn: Verschiebung der Abstimmung\", \"Anstieg der Mieten in München\"), rebuild the full sentences behind them and write your own.",
     duration: "17 min",
     sections: [
       {
@@ -2590,7 +2594,7 @@ export const DE_C1_U03: Lesson[] = [
             prompt: "Translate into German.",
             source: "Rents in Munich have risen.",
             answer: "Die Mieten in München sind gestiegen.",
-            altAnswers: ["Die Mieten in München steigen.", "In München sind die Mieten gestiegen.", "Die Münchner Mieten sind gestiegen."],
+            altAnswers: ["In München sind die Mieten gestiegen.", "Die Münchner Mieten sind gestiegen."],
             explanation: "Rebuilt from \"Anstieg der Mieten in München\": noun → verb, genitive → subject.",
           },
           {
@@ -2759,7 +2763,7 @@ export const DE_C1_U03: Lesson[] = [
           { left: "Abstimmung verschoben", right: "The vote was postponed." },
           { left: "Preise gesenkt", right: "Prices were cut." },
         ],
-        explanation: "Bare participles: Perfekt with sein for intransitive verbs (zurückgetreten), passive for transitive ones.",
+        explanation: "Bare participles: Perfekt with \"sein\" for intransitive verbs (\"zurückgetreten\"), passive for transitive ones.",
       },
       {
         type: "listen-choose",
@@ -2787,13 +2791,13 @@ export const DE_C1_U03: Lesson[] = [
     level: "DE-C1",
     number: 13,
     title: "Spiral Review: Nominal Style and Funktionsverbgefüge",
-    summary: "Recombine the Upper-intermediate Funktionsverbgefüge (zur Verfügung stellen, in Kraft treten, zur Sprache bringen) and the passive with this unit's nominalisations in an official notice.",
+    summary: "You'll be able to combine the Upper-intermediate Funktionsverbgefüge (\"zur Verfügung stellen\", \"in Kraft treten\", \"zur Sprache bringen\") and the passive with this unit's nominalisations to read and write an official notice.",
     duration: "17 min",
     sections: [
       {
         heading: "Funktionsverbgefüge recap",
         body: [
-          "A Funktionsverbgefüge is a fixed combination of a noun and a weak verb that together mean one verb: \"zur Verfügung stellen\" (bereitstellen), \"in Kraft treten\" (gültig werden), \"zur Sprache bringen\" (ansprechen), \"in Anspruch nehmen\" (nutzen), \"zum Abschluss bringen\" (abschließen), \"Kritik üben an\" (kritisieren), \"eine Entscheidung treffen\" (entscheiden).",
+          "A Funktionsverbgefüge is a fixed combination of a noun and a weak verb that together mean one verb: \"zur Verfügung stellen\" (= \"bereitstellen\"), \"in Kraft treten\" (= \"gültig werden\"), \"zur Sprache bringen\" (= \"ansprechen\"), \"in Anspruch nehmen\" (= \"nutzen\"), \"zum Abschluss bringen\" (= \"abschließen\"), \"Kritik üben an\" (= \"kritisieren\"), \"eine Entscheidung treffen\" (= \"entscheiden\").",
           "They are part of nominal style: the meaning is in the noun. Many have a passive-like counterpart: \"zur Verfügung stellen\" (active) vs \"zur Verfügung stehen\" (be available); \"in Gang bringen\" vs \"in Gang kommen\".",
           "In official notices they combine with action nouns and the passive: \"Mit Inkrafttreten der neuen Satzung werden die Gebühren erhöht.\"",
         ],
@@ -2876,7 +2880,7 @@ export const DE_C1_U03: Lesson[] = [
       {
         heading: "An official notice",
         body: [
-          "Read the notice from the Leipzig city council: „Bekanntmachung: Aufgrund umfangreicher Sanierungsarbeiten an der Wasserleitung wird die Goethestraße vom 3. bis 14. März voll gesperrt. Eine Umleitung wird eingerichtet. Für Anwohner stehen Ersatzparkplätze am Marktplatz zur Verfügung. Bei Rückfragen wenden Sie sich bitte an das Bürgertelefon. Wir bitten um Ihr Verständnis.“",
+          "Read the notice from the Leipzig city council: \"Bekanntmachung: Aufgrund umfangreicher Sanierungsarbeiten an der Wasserleitung wird die Goethestraße vom 3. bis 14. März voll gesperrt. Eine Umleitung wird eingerichtet. Für Anwohner stehen Ersatzparkplätze am Marktplatz zur Verfügung. Bei Rückfragen wenden Sie sich bitte an das Bürgertelefon. Wir bitten um Ihr Verständnis.\"",
           "Spot: \"aufgrund\" + genitive (cause), passive \"wird gesperrt / eingerichtet\", Funktionsverbgefüge \"zur Verfügung stehen\", \"bei\" + noun (condition), \"bitten um\" + noun.",
           "A friendly verbal version for a neighbourhood chat: \"Die Goethestraße ist vom 3. bis 14. März komplett zu, weil sie die Wasserleitung reparieren. Parken könnt ihr am Marktplatz.\"",
         ],
@@ -2948,10 +2952,10 @@ export const DE_C1_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which Funktionsverbgefüge means abschließen (to complete)?",
-        options: ["zum Abschluss bringen", "in Kraft treten", "zur Sprache bringen", "in Anspruch nehmen"],
+        question: "Formal report: We want to complete the project by May. Which sentence is correct?",
+        options: ["Wir wollen das Projekt bis Mai zum Abschluss bringen.", "Wir wollen das Projekt bis Mai in Kraft treten.", "Wir wollen das Projekt bis Mai zur Sprache bringen.", "Wir wollen das Projekt bis Mai in Anspruch nehmen."],
         correctIndex: 0,
-        explanation: "\"Etwas zum Abschluss bringen\" = to bring something to a close.",
+        explanation: "\"Etwas zum Abschluss bringen\" = \"abschließen\" (to complete). \"In Kraft treten\" is for laws and rules, \"zur Sprache bringen\" means to raise a topic, \"in Anspruch nehmen\" to make use of.",
       },
       {
         type: "translate",

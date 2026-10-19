@@ -7,7 +7,7 @@ export const DE_B2_U05: Lesson[] = [
     slug: "b2-zustandspassiv",
     level: "DE-B2",
     number: 1,
-    title: "The Zustandspassiv: Die Tür Ist Geschlossen",
+    title: "The Zustandspassiv: Die Tür ist geschlossen",
     summary: "Use sein + Partizip II to describe the result of an action, and tell it apart from the werden-passive.",
     duration: "15 min",
     sections: [
@@ -148,7 +148,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "All the forms [are filled in].",
+        en: "All the forms are [filled in].",
         sentence: "Alle Formulare sind ___.",
         answer: "ausgefüllt",
         explanation: "Sein + Partizip II: \"sind ausgefüllt\" (the result).",
@@ -190,10 +190,10 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The heating [is being repaired] right now.",
+        en: "The heating [is being] repaired right now.",
         sentence: "Die Heizung ___ gerade repariert.",
         answer: "wird",
-        explanation: "\"Gerade\" (right now) points to an ongoing action: Vorgangspassiv.",
+        explanation: "\"Gerade\" (right now) points to an ongoing action: Vorgangspassiv \"wird\". \"Ist repariert\" would say it's already fixed.",
       },
       {
         type: "translate",
@@ -256,7 +256,7 @@ export const DE_B2_U05: Lesson[] = [
     slug: "b2-minimal-pairs-wird-ist-geoeffnet",
     level: "DE-B2",
     number: 2,
-    title: "Minimal Pairs: Wird Geöffnet / Ist Geöffnet",
+    title: "Minimal Pairs: Wird geöffnet / Ist geöffnet",
     summary: "Same participle, two auxiliaries: use time phrases to decide between process and state.",
     duration: "15 min",
     sections: [
@@ -490,7 +490,7 @@ export const DE_B2_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The neighbours claim they [didn't hear] anything.",
+            en: "The neighbours claim they [have] heard nothing.",
             sentence: "Die Nachbarn behaupten, sie ___ nichts gehört.",
             answer: "hätten",
             explanation: "\"Sie haben\" looks indicative, so switch to Konjunktiv II: \"hätten\".",
@@ -570,10 +570,10 @@ export const DE_B2_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which reporting verb shows that the reporter doubts the statement?",
-        options: ["behaupten", "zugeben", "erklären", "mitteilen"],
+        question: "A journalist doubts what the mayor said. Which report shows that?",
+        options: ["Der Bürgermeister behauptet, alles sei in Ordnung.", "Der Bürgermeister erklärt, alles sei in Ordnung.", "Der Bürgermeister teilt mit, alles sei in Ordnung.", "Der Bürgermeister betont, alles sei in Ordnung."],
         correctIndex: 0,
-        explanation: "\"Behaupten\" (to claim) signals distance; \"zugeben\" means admitting something unfavourable.",
+        explanation: "\"Behaupten\" (to claim) signals distance; \"erklären\", \"mitteilen\" and \"betonen\" just report neutrally.",
       },
       {
         type: "matching",
@@ -611,7 +611,7 @@ export const DE_B2_U05: Lesson[] = [
     slug: "b2-circuit-schon-erledigt",
     level: "DE-B2",
     number: 4,
-    title: "Circuit: Ist Schon Erledigt!",
+    title: "Circuit: Ist schon erledigt!",
     summary: "Run through a checklist with the Zustandspassiv, and tell ist repariert from ist repariert worden.",
     duration: "15 min",
     sections: [
@@ -626,7 +626,7 @@ export const DE_B2_U05: Lesson[] = [
           { es: "Ist der Wein gekauft? – Ja, der ist schon gekauft.", en: "Has the wine been bought? – Yes, it's already bought." },
           { es: "Sind die Kartons gepackt?", en: "Are the boxes packed?" },
           { es: "Die Einladungen? Die sind schon verschickt.", en: "The invitations? They've already been sent." },
-          { es: "Der Transporter ist reserviert, aber die Helfer sind noch nicht gefragt.", en: "The van is reserved, but the helpers haven't been asked yet." },
+          { es: "Der Transporter ist reserviert, aber die Helfer sind noch nicht informiert.", en: "The van is reserved, but the helpers haven't been told yet." },
           { es: "Die Steuererklärung ist erledigt!", en: "The tax return is done!" },
           { es: "Der Strom ist abgemeldet und der Schlüssel ist abgegeben.", en: "The electricity is cancelled and the key has been handed in." },
         ],
@@ -643,7 +643,7 @@ export const DE_B2_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The invitations? They [have] already [been sent].",
+            en: "The invitations? They're already [sent].",
             sentence: "Die Einladungen? Die sind schon ___.",
             answer: "verschickt",
             altAnswers: ["versendet", "verschickt worden"],
@@ -668,7 +668,7 @@ export const DE_B2_U05: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "The car was repaired yesterday. Which sentence is correct?",
             options: ["Das Auto ist gestern repariert worden.", "Das Auto ist gestern repariert geworden.", "Das Auto hat gestern repariert worden.", "Das Auto wird gestern repariert worden."],
             correctIndex: 0,
             explanation: "Passive Perfekt: \"ist ... repariert worden\"; never \"geworden\".",
@@ -699,15 +699,15 @@ export const DE_B2_U05: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The van is reserved, but the helpers haven't been asked yet.",
-        answer: "Der Transporter ist reserviert, aber die Helfer sind noch nicht gefragt.",
-        altAnswers: ["Der Transporter ist reserviert, aber die Helfer sind noch nicht gefragt worden.", "Der Transporter ist reserviert, aber die Helfer wurden noch nicht gefragt.", "Der Transporter ist gebucht, aber die Helfer sind noch nicht gefragt."],
+        source: "The van is reserved, but the helpers haven't been told yet.",
+        answer: "Der Transporter ist reserviert, aber die Helfer sind noch nicht informiert.",
+        altAnswers: ["Der Transporter ist reserviert, aber die Helfer sind noch nicht informiert worden.", "Der Transporter ist reserviert, aber die Helfer wurden noch nicht informiert.", "Der Transporter ist gebucht, aber die Helfer sind noch nicht informiert."],
         explanation: "Both halves describe the state of the checklist.",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The tax return [is done]!",
+        en: "The tax return is [done]!",
         sentence: "Die Steuererklärung ist ___!",
         answer: "erledigt",
         altAnswers: ["fertig", "gemacht"],
@@ -734,7 +734,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The heating [has been repaired] by a specialist.",
+        en: "The heating has [been] repaired by a specialist.",
         sentence: "Die Heizung ist von einem Fachmann repariert ___.",
         answer: "worden",
         explanation: "With an agent (von einem Fachmann) you need the event: \"repariert worden\".",
@@ -767,7 +767,7 @@ export const DE_B2_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Your friend asks: Ist das Bad schon gestrichen? You want to say it was done on Monday by the landlord. Which answer fits?",
+        question: "Your friend asks: \"Ist das Bad schon gestrichen?\" You want to say it was done on Monday by the landlord. Which answer fits?",
         options: ["Ja, das ist am Montag vom Vermieter gestrichen worden.", "Ja, das ist am Montag vom Vermieter gestrichen.", "Ja, das ist am Montag vom Vermieter gestrichen geworden.", "Ja, das wird am Montag vom Vermieter gestrichen."],
         correctIndex: 0,
         explanation: "Time and agent → the event: \"ist ... gestrichen worden\".",
@@ -872,10 +872,10 @@ export const DE_B2_U05: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "How do you say: That can't be changed.",
             options: ["Das lässt sich nicht ändern.", "Das lässt sich nicht zu ändern.", "Das lässt nicht sich ändern.", "Das lässt sich nicht geändert."],
             correctIndex: 0,
-            explanation: "Sich lassen + bare infinitive at the end.",
+            explanation: "Sich lassen + bare infinitive at the end, with no \"zu\" and no participle.",
           },
         ],
       },
@@ -962,7 +962,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The appointment [can be moved].",
+        en: "The appointment can be [moved].",
         sentence: "Der Termin lässt sich ___.",
         answer: "verschieben",
         explanation: "Bare infinitive at the end.",
@@ -1051,7 +1051,7 @@ export const DE_B2_U05: Lesson[] = [
     slug: "b2-pattern-das-laesst-sich-machen",
     level: "DE-B2",
     number: 6,
-    title: "Pattern Practice: Das Lässt Sich Machen",
+    title: "Pattern Practice: Das lässt sich machen",
     summary: "Drill das lässt sich + infinitive with many verbs, and contrast it with lassen meaning have something done.",
     duration: "15 min",
     sections: [
@@ -1083,7 +1083,7 @@ export const DE_B2_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The shoes [go] with lots of things.",
+            en: "The shoes [can] be combined with lots of things.",
             sentence: "Die Schuhe ___ sich gut kombinieren.",
             answer: "lassen",
             explanation: "Plural subject → \"lassen\".",
@@ -1165,8 +1165,8 @@ export const DE_B2_U05: Lesson[] = [
         prompt: "Translate into German with \"sich lassen\".",
         source: "These jeans can be washed at 60 degrees.",
         answer: "Diese Jeans lässt sich bei 60 Grad waschen.",
-        altAnswers: ["Die Jeans lässt sich bei 60 Grad waschen.", "Diese Jeans kann man bei 60 Grad waschen."],
-        explanation: "In German, \"die Jeans\" is usually singular: \"lässt sich\".",
+        altAnswers: ["Die Jeans lässt sich bei 60 Grad waschen.", "Diese Jeans lassen sich bei 60 Grad waschen.", "Die Jeans lassen sich bei 60 Grad waschen.", "Diese Jeans kann man bei 60 Grad waschen."],
+        explanation: "One pair of jeans is usually singular in German, \"die Jeans\": \"lässt sich\" (the plural \"lassen sich\" is also used).",
       },
       {
         type: "translate",
@@ -1244,7 +1244,7 @@ export const DE_B2_U05: Lesson[] = [
     slug: "b2-story-gaps-die-altbauwohnung",
     level: "DE-B2",
     number: 7,
-    title: "Story with Gaps: Die Altbauwohnung Wird Renoviert",
+    title: "Story with Gaps: Die Altbauwohnung wird renoviert",
     summary: "Follow a couple renovating an old flat in Dresden and fill in the passive and its alternatives.",
     duration: "18 min",
     sections: [
@@ -1266,7 +1266,7 @@ export const DE_B2_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The purchase contract [is signed].",
+            en: "The purchase contract is [signed].",
             sentence: "Der Kaufvertrag ist ___.",
             answer: "unterschrieben",
             explanation: "\"Unterschreiben\" is inseparable: no ge-, Partizip II \"unterschrieben\".",
@@ -1352,7 +1352,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The key [has been handed over].",
+        en: "The key has been [handed over].",
         sentence: "Der Schlüssel ist ___.",
         answer: "übergeben",
         explanation: "\"Übergeben\" is inseparable here: Partizip II without ge-.",
@@ -1378,7 +1378,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "One window in the bedroom [won't] close any more.",
+        en: "One window in the bedroom [can] no longer be closed.",
         sentence: "Ein Fenster im Schlafzimmer ___ sich nicht mehr schließen.",
         answer: "lässt",
         explanation: "\"Lässt sich nicht schließen\" = can't be closed.",
@@ -1468,7 +1468,7 @@ export const DE_B2_U05: Lesson[] = [
     slug: "b2-quick-round-ist-zu-muss",
     level: "DE-B2",
     number: 8,
-    title: "Quick Round: Ist Zu Bezahlen = Muss Bezahlt Werden",
+    title: "Quick Round: Ist zu bezahlen = Muss bezahlt werden",
     summary: "Convert quickly between sein + zu, sich lassen and modal verbs + passive.",
     duration: "12 min",
     sections: [
@@ -1490,7 +1490,7 @@ export const DE_B2_U05: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The forms [must be signed].",
+            en: "The forms [must be] signed.",
             sentence: "Die Formulare ___ zu unterschreiben.",
             answer: "sind",
             explanation: "Plural subject → \"sind\" + zu-infinitive.",
@@ -1498,7 +1498,7 @@ export const DE_B2_U05: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite with \"können\" + passive: Das Problem lässt sich lösen.",
+            prompt: "Rewrite with \"können\" + passive: \"Das Problem lässt sich lösen.\"",
             source: "The problem can be solved.",
             answer: "Das Problem kann gelöst werden.",
             explanation: "Sich lassen = können + passive infinitive.",
@@ -1510,7 +1510,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with \"müssen\" + passive: Die Miete ist am Monatsanfang zu überweisen.",
+        prompt: "Rewrite with \"müssen\" + passive: \"Die Miete ist am Monatsanfang zu überweisen.\"",
         source: "The rent must be transferred at the start of the month.",
         answer: "Die Miete muss am Monatsanfang überwiesen werden.",
         altAnswers: ["Am Monatsanfang muss die Miete überwiesen werden."],
@@ -1519,7 +1519,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with \"sein + zu\": Die Tickets müssen am Eingang vorgezeigt werden.",
+        prompt: "Rewrite with \"sein + zu\": \"Die Tickets müssen am Eingang vorgezeigt werden.\"",
         source: "Tickets must be shown at the entrance.",
         answer: "Die Tickets sind am Eingang vorzuzeigen.",
         altAnswers: ["Die Karten sind am Eingang vorzuzeigen."],
@@ -1528,7 +1528,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with \"sich lassen\": Die Tür kann nicht geöffnet werden.",
+        prompt: "Rewrite with \"sich lassen\": \"Die Tür kann nicht geöffnet werden.\"",
         source: "The door can't be opened.",
         answer: "Die Tür lässt sich nicht öffnen.",
         altAnswers: ["Die Tür lässt sich nicht aufmachen."],
@@ -1537,7 +1537,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with \"können\" + passive: Der Fehler ist leicht zu finden.",
+        prompt: "Rewrite with \"können\" + passive: \"Der Fehler ist leicht zu finden.\"",
         source: "The mistake can easily be found.",
         answer: "Der Fehler kann leicht gefunden werden.",
         explanation: "With \"leicht\", sein + zu means possibility.",
@@ -1545,7 +1545,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The parcel [couldn't] be delivered.",
+        en: "The parcel [could] not be delivered.",
         sentence: "Das Paket ___ sich nicht zustellen.",
         answer: "ließ",
         explanation: "Präteritum of lassen: \"ließ\".",
@@ -1553,7 +1553,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with \"sein + zu\": Die Unterlagen müssen bis zum 30. Juni eingereicht werden.",
+        prompt: "Rewrite with \"sein + zu\": \"Die Unterlagen müssen bis zum 30. Juni eingereicht werden.\"",
         source: "The documents must be submitted by 30 June.",
         answer: "Die Unterlagen sind bis zum 30. Juni einzureichen.",
         explanation: "Plural \"sind\" + \"einzureichen\".",
@@ -1561,7 +1561,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with \"müssen\" + passive: Der Müll ist zu trennen.",
+        prompt: "Rewrite with \"müssen\" + passive: \"Der Müll ist zu trennen.\"",
         source: "Rubbish must be separated.",
         answer: "Der Müll muss getrennt werden.",
         explanation: "Ist zu trennen → muss getrennt werden.",
@@ -1569,7 +1569,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with \"sich lassen\": Der Termin kann nicht verschoben werden.",
+        prompt: "Rewrite with \"sich lassen\": \"Der Termin kann nicht verschoben werden.\"",
         source: "The appointment can't be postponed.",
         answer: "Der Termin lässt sich nicht verschieben.",
         explanation: "Kann nicht verschoben werden → lässt sich nicht verschieben.",
@@ -1673,7 +1673,7 @@ export const DE_B2_U05: Lesson[] = [
           { es: "Der Roman liest sich wie ein Krimi.", en: "The novel reads like a thriller." },
           { es: "Der Stoff wäscht sich gut.", en: "The fabric washes well." },
           { es: "Das Buch verkauft sich gut.", en: "The book is selling well." },
-          { es: "Die neue Software bedient sich ganz leicht.", en: "The new software is very easy to use." },
+          { es: "Das neue Fahrrad fährt sich ganz leicht.", en: "The new bike is very easy to ride." },
         ],
         checkpoint: [
           {
@@ -1765,8 +1765,8 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The mistake was understandable, but [unforgivable] is too strong.",
-        sentence: "Der Fehler war verständlich, aber ___ ist zu stark.",
+        en: "What he said to her was [unforgivable].",
+        sentence: "Was er zu ihr gesagt hat, war ___.",
         answer: "unverzeihlich",
         explanation: "un- + verzeihlich: can't be forgiven.",
       },
@@ -1790,9 +1790,9 @@ export const DE_B2_U05: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The new software is very easy to use.",
-        words: ["Die", "neue", "Software", "bedient", "sich", "ganz", "leicht."],
-        translation: "The new software is very easy to use.",
+        prompt: "Put the words in order to say: The new bike is very easy to ride.",
+        words: ["Das", "neue", "Fahrrad", "fährt", "sich", "ganz", "leicht."],
+        translation: "The new bike is very easy to ride.",
         explanation: "Reflexive middle with an adverb.",
       },
       {
@@ -1815,7 +1815,7 @@ export const DE_B2_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is wrong?",
+        question: "She was given a bike. Which sentence is wrong?",
         options: ["Sie wurde ein Fahrrad geschenkt.", "Sie bekam ein Fahrrad geschenkt.", "Ihr wurde ein Fahrrad geschenkt.", "Sie hat ein Fahrrad geschenkt bekommen."],
         correctIndex: 0,
         explanation: "\"Sie\" is the receiver (dative); only \"ihr wurde\" or the bekommen-passive work.",
@@ -1880,7 +1880,7 @@ export const DE_B2_U05: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite with a -bar adjective: Das Problem kann nicht gelöst werden.",
+            prompt: "Rewrite with a -bar adjective: \"Das Problem kann nicht gelöst werden.\"",
             source: "The problem is unsolvable.",
             answer: "Das Problem ist unlösbar.",
             altAnswers: ["Das Problem ist nicht lösbar."],
@@ -1911,7 +1911,7 @@ export const DE_B2_U05: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite with \"man\": Der Antrag muss unterschrieben werden.",
+            prompt: "Rewrite with \"man\": \"Der Antrag muss unterschrieben werden.\"",
             source: "You have to sign the application.",
             answer: "Man muss den Antrag unterschreiben.",
             altAnswers: ["Den Antrag muss man unterschreiben."],
@@ -1933,7 +1933,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with \"sich lassen\": Die Kosten können nicht genau berechnet werden.",
+        prompt: "Rewrite with \"sich lassen\": \"Die Kosten können nicht genau berechnet werden.\"",
         source: "The costs can't be calculated exactly.",
         answer: "Die Kosten lassen sich nicht genau berechnen.",
         explanation: "Plural subject: \"lassen sich\".",
@@ -1941,7 +1941,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with \"sein + zu\": Die Kosten können nicht genau berechnet werden.",
+        prompt: "Rewrite with \"sein + zu\": \"Die Kosten können nicht genau berechnet werden.\"",
         source: "The costs can't be calculated exactly.",
         answer: "Die Kosten sind nicht genau zu berechnen.",
         explanation: "\"Sind nicht ... zu berechnen\": possibility.",
@@ -1949,7 +1949,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with \"man\": Die Kosten können nicht genau berechnet werden.",
+        prompt: "Rewrite with \"man\": \"Die Kosten können nicht genau berechnet werden.\"",
         source: "You can't calculate the costs exactly.",
         answer: "Man kann die Kosten nicht genau berechnen.",
         altAnswers: ["Die Kosten kann man nicht genau berechnen."],
@@ -1958,7 +1958,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with a -bar adjective: Die Kosten können nicht genau berechnet werden.",
+        prompt: "Rewrite with a -bar adjective: \"Die Kosten können nicht genau berechnet werden.\"",
         source: "The costs can't be calculated exactly.",
         answer: "Die Kosten sind nicht genau berechenbar.",
         explanation: "berechnen → berechenbar (an extra -e- for pronunciation).",
@@ -1966,7 +1966,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with \"sein + zu\": Die Mülltonnen müssen am Vorabend rausgestellt werden.",
+        prompt: "Rewrite with \"sein + zu\": \"Die Mülltonnen müssen am Vorabend rausgestellt werden.\"",
         source: "The bins must be put out the evening before.",
         answer: "Die Mülltonnen sind am Vorabend rauszustellen.",
         altAnswers: ["Die Mülltonnen sind am Vorabend herauszustellen.", "Die Mülltonnen sind am Vorabend bereitzustellen."],
@@ -1975,7 +1975,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The text [can be read] easily.",
+        en: "The text [can] be read easily.",
         sentence: "Der Text ___ sich leicht lesen.",
         answer: "lässt",
         explanation: "Sich lassen for possibility.",
@@ -2049,7 +2049,7 @@ export const DE_B2_U05: Lesson[] = [
     slug: "b2-talk-about-you-was-laesst-sich-aendern",
     level: "DE-B2",
     number: 11,
-    title: "Talk About Yourself: Was Lässt Sich Ändern?",
+    title: "Talk About Yourself: Was lässt sich ändern?",
     summary: "Talk about your home, town or job: what is done, what can be changed and what can't.",
     duration: "15 min",
     sections: [
@@ -2106,7 +2106,7 @@ export const DE_B2_U05: Lesson[] = [
             prompt: "Translate into German.",
             source: "A lot can be done from home.",
             answer: "Vieles lässt sich von zu Hause erledigen.",
-            altAnswers: ["Vieles lässt sich von zu Hause aus erledigen.", "Vieles kann von zu Hause erledigt werden.", "Vieles kann man von zu Hause erledigen."],
+            altAnswers: ["Vieles lässt sich von zu Hause aus erledigen.", "Vieles kann von zu Hause erledigt werden.", "Vieles kann man von zu Hause erledigen.", "Vieles lässt sich von zuhause erledigen."],
             explanation: "\"Vieles lässt sich ... erledigen\".",
           },
           {
@@ -2158,7 +2158,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "My workload is [hardly manageable].",
+        en: "My workload can hardly be [managed].",
         sentence: "Mein Pensum ist kaum zu ___.",
         answer: "schaffen",
         altAnswers: ["bewältigen"],
@@ -2192,7 +2192,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "My commute is long, but that [can't be changed].",
+        en: "My commute is long, but that can't be [changed].",
         sentence: "Mein Arbeitsweg ist lang, aber das lässt sich nicht ___.",
         answer: "ändern",
         explanation: "Sich lassen + infinitive.",
@@ -2252,7 +2252,7 @@ export const DE_B2_U05: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct the sentence: *Das Auto ist repariert geworden.",
+            prompt: "Correct the sentence: \"*Das Auto ist repariert geworden.\"",
             source: "The car has been repaired.",
             answer: "Das Auto ist repariert worden.",
             altAnswers: ["Das Auto wurde repariert."],
@@ -2261,7 +2261,7 @@ export const DE_B2_U05: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct the sentence: *Das lässt sich nicht zu ändern.",
+            prompt: "Correct the sentence: \"*Das lässt sich nicht zu ändern.\"",
             source: "That can't be changed.",
             answer: "Das lässt sich nicht ändern.",
             altAnswers: ["Das ist nicht zu ändern."],
@@ -2274,7 +2274,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the sentence: *Die Tür wird geschlossen seit gestern.",
+        prompt: "Correct the sentence: \"*Die Tür wird geschlossen seit gestern.\"",
         source: "The door has been closed since yesterday.",
         answer: "Die Tür ist seit gestern geschlossen.",
         altAnswers: ["Seit gestern ist die Tür geschlossen."],
@@ -2286,12 +2286,12 @@ export const DE_B2_U05: Lesson[] = [
         en: "The application must [be submitted] by Monday.",
         sentence: "Der Antrag ist bis Montag ___.",
         answer: "einzureichen",
-        explanation: "Correct of \"*zu einreichen\": zu sits between prefix and stem.",
+        explanation: "Not \"*zu einreichen\": with a separable verb, zu sits between prefix and stem, all one word.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the sentence: *Das ist nicht machbar zu sein.",
+        prompt: "Correct the sentence: \"*Das ist nicht machbar zu sein.\"",
         source: "That isn't doable.",
         answer: "Das ist nicht machbar.",
         altAnswers: ["Das ist nicht zu machen.", "Das lässt sich nicht machen."],
@@ -2300,7 +2300,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the sentence: *Sie wurde ein Buch geschenkt.",
+        prompt: "Correct the sentence: \"*Sie wurde ein Buch geschenkt.\"",
         source: "She was given a book.",
         answer: "Sie bekam ein Buch geschenkt.",
         altAnswers: ["Ihr wurde ein Buch geschenkt.", "Sie hat ein Buch geschenkt bekommen."],
@@ -2309,7 +2309,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the sentence: *Das Buch ist sehr lesbar, du musst es lesen!",
+        prompt: "Correct the sentence: \"*Das Buch ist sehr lesbar, du musst es lesen!\"",
         source: "The book is really worth reading, you have to read it!",
         answer: "Das Buch ist sehr lesenswert, du musst es lesen!",
         altAnswers: ["Das Buch ist wirklich lesenswert, du musst es lesen!", "Das Buch ist sehr lesenswert, Sie müssen es lesen!", "Das Buch ist sehr lesenswert, ihr müsst es lesen!"],
@@ -2318,7 +2318,7 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the sentence: *Die Formulare sind auszufüllen worden.",
+        prompt: "Correct the sentence: \"*Die Formulare sind auszufüllen worden.\"",
         source: "The forms must be filled in.",
         answer: "Die Formulare sind auszufüllen.",
         altAnswers: ["Die Formulare müssen ausgefüllt werden."],
@@ -2327,15 +2327,15 @@ export const DE_B2_U05: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The window [won't] open.",
+        en: "The window [can] not be opened.",
         sentence: "Das Fenster ___ sich nicht öffnen.",
         answer: "lässt",
-        explanation: "Correct of \"*Das Fenster öffnet sich nicht zu lassen\": sich lassen + infinitive.",
+        explanation: "Sich lassen + bare infinitive: \"lässt sich nicht öffnen\" (not \"*lässt sich nicht zu öffnen\").",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the sentence: *Wir haben das Dach reparieren gelassen.",
+        prompt: "Correct the sentence: \"*Wir haben das Dach reparieren gelassen.\"",
         source: "We had the roof repaired.",
         answer: "Wir haben das Dach reparieren lassen.",
         altAnswers: ["Wir ließen das Dach reparieren."],
@@ -2350,7 +2350,7 @@ export const DE_B2_U05: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "The novel reads well. Which sentence is correct?",
         options: ["Der Roman liest sich gut.", "Der Roman liest gut.", "Der Roman lässt sich gut zu lesen.", "Der Roman ist gut gelesen geworden."],
         correctIndex: 0,
         explanation: "Reflexive middle needs \"sich\".",

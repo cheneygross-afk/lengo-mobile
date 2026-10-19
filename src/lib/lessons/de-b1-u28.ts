@@ -49,7 +49,7 @@ export const DE_B1_U28: Lesson[] = [
       {
         heading: "The passive in three tenses",
         body: [
-          "The passive puts the action in the spotlight, not the person who does it. Present: \"wird gebaut\" (is being built). Präteritum: \"wurde gebaut\" (was built). Perfekt: \"ist gebaut worden\" (has been / was built). In the Perfekt passive the participle of werden is \"worden\", never *geworden.",
+          "The passive puts the action in the spotlight, not the person who does it. Present: \"wird gebaut\" (is being built). Präteritum: \"wurde gebaut\" (was built). Perfekt: \"ist gebaut worden\" (has been / was built). In the Perfekt passive the participle of werden is \"worden\", never \"*geworden\".",
           "The agent, if you mention it, takes \"von\" + dative: \"Das Haus wurde von meinem Großvater gebaut.\" With a modal: \"muss gebaut werden\" (has to be built), \"konnte nicht repariert werden\" (couldn't be repaired).",
           "\"Werden\" has three jobs, and only the second word tells you which: \"Er wird Arzt\" (becomes), \"Er wird kommen\" (future), \"Er wird operiert\" (passive).",
         ],
@@ -69,7 +69,7 @@ export const DE_B1_U28: Lesson[] = [
             source: "My bike was stolen yesterday.",
             answer: "Mein Fahrrad ist gestern gestohlen worden.",
             altAnswers: ["Mein Fahrrad wurde gestern gestohlen.", "Gestern ist mein Fahrrad gestohlen worden.", "Gestern wurde mein Fahrrad gestohlen."],
-            explanation: "Perfekt passive \"ist ... gestohlen worden\" or Präteritum \"wurde ... gestohlen\". Never *geworden in the passive.",
+            explanation: "Perfekt passive \"ist ... gestohlen worden\" or Präteritum \"wurde ... gestohlen\". Never \"*geworden\" in the passive.",
           },
           {
             type: "multiple-choice",
@@ -162,7 +162,7 @@ export const DE_B1_U28: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence uses \"werden\" as a passive?",
+        question: "Which sentence means: The children are being picked up?",
         options: ["Die Kinder werden abgeholt.", "Die Kinder werden groß.", "Die Kinder werden morgen kommen.", "Die Kinder werden Ärzte."],
         correctIndex: 0,
         explanation: "Werden + participle (\"abgeholt\") = passive. With an adjective or noun it means become; with an infinitive it's the future.",
@@ -198,7 +198,6 @@ export const DE_B1_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "Do you know the woman Jonas is waiting for? (to a friend)",
         answer: "Kennst du die Frau, auf die Jonas wartet?",
-        altAnswers: ["Kennt ihr die Frau, auf die Jonas wartet?", "Kennen Sie die Frau, auf die Jonas wartet?"],
         explanation: "\"Warten auf\" + accusative → \"auf die\" (feminine).",
       },
       {
@@ -383,7 +382,7 @@ export const DE_B1_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'll stay at home on Monday to let the technician in.",
         answer: "Ich bleibe am Montag zu Hause, um den Techniker hereinzulassen.",
-        altAnswers: ["Ich bleibe am Montag zu Hause, um den Techniker reinzulassen.", "Am Montag bleibe ich zu Hause, um den Techniker hereinzulassen."],
+        altAnswers: ["Ich bleibe am Montag zu Hause, um den Techniker reinzulassen.", "Am Montag bleibe ich zu Hause, um den Techniker hereinzulassen.", "Ich bleibe am Montag zuhause, um den Techniker hereinzulassen."],
         explanation: "Same subject → \"um...zu\"; in a separable verb, \"zu\" goes inside: \"hereinzulassen\". \"Techniker\" is not n-declension.",
       },
       {
@@ -392,7 +391,7 @@ export const DE_B1_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "Please give me a time so that I can be at home.",
         answer: "Bitte nennen Sie mir einen Termin, damit ich zu Hause sein kann.",
-        altAnswers: ["Bitte geben Sie mir einen Termin, damit ich zu Hause sein kann.", "Nennen Sie mir bitte einen Termin, damit ich zu Hause sein kann.", "Geben Sie mir bitte einen Termin, damit ich zu Hause sein kann."],
+        altAnswers: ["Bitte geben Sie mir einen Termin, damit ich zu Hause sein kann.", "Nennen Sie mir bitte einen Termin, damit ich zu Hause sein kann.", "Geben Sie mir bitte einen Termin, damit ich zu Hause sein kann.", "Bitte nennen Sie mir einen Termin, damit ich zuhause sein kann."],
         explanation: "Different subjects (you / I) → \"damit\" with the verb at the end.",
       },
       {
@@ -456,7 +455,7 @@ export const DE_B1_U28: Lesson[] = [
             prompt: "Translate into German.",
             source: "We're looking for someone who plays the drums.",
             answer: "Wir suchen jemanden, der Schlagzeug spielt.",
-            altAnswers: ["Wir suchen jemanden, der Schlagzeug spielen kann.", "Wir suchen einen Schlagzeuger."],
+            altAnswers: ["Wir suchen jemanden, der Schlagzeug spielen kann.", "Wir suchen einen Schlagzeuger.", "Wir suchen eine Schlagzeugerin."],
             explanation: "\"Jemanden\" (accusative after \"suchen\"), then the relative pronoun \"der\"; no article before the instrument.",
           },
           {
@@ -496,7 +495,7 @@ export const DE_B1_U28: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which is right for: Mia looks after the website?",
-            options: ["Mia kümmert sich um die Website.", "Mia kümmert die Website.", "Mia kümmert sich für die Website.", "Mia sieht nach der Website."],
+            options: ["Mia kümmert sich um die Website.", "Mia kümmert die Website.", "Mia kümmert sich für die Website.", "Mia kümmert sich an die Website."],
             correctIndex: 0,
             explanation: "\"Sich kümmern um\" + accusative = to take care of.",
           },
@@ -709,7 +708,7 @@ export const DE_B1_U28: Lesson[] = [
         heading: "The result: je...desto",
         body: [
           "Lena's conclusion is full of comparisons: \"Je weniger ich am Handy war, desto ruhiger wurde ich.\" \"Je\" + comparative sends its verb to the end; \"desto\" (or \"umso\") + comparative is followed directly by the verb.",
-          "The pattern never changes: je [comparative] [subject ... verb], desto [comparative] [verb] [subject ...]. The classic mistake is *desto ich wurde ruhiger.",
+          "The pattern never changes: je [comparative] [subject ... verb], desto [comparative] [verb] [subject ...]. The classic mistake is \"*desto ich wurde ruhiger\".",
         ],
         examples: [
           { es: "Je weniger ich am Handy war, desto ruhiger wurde ich.", en: "The less I was on my phone, the calmer I became." },
@@ -773,7 +772,7 @@ export const DE_B1_U28: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "How do you say: The longer I wait, the more nervous I get?",
         options: ["Je länger ich warte, desto nervöser werde ich.", "Je länger ich warte, desto ich werde nervöser.", "Je länger warte ich, desto nervöser werde ich.", "Je länger ich warte, desto nervöser ich werde."],
         correctIndex: 0,
         explanation: "\"Je\" sends the verb to the end; \"desto\" + comparative is followed by the verb.",
@@ -859,7 +858,7 @@ export const DE_B1_U28: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which conjunction fits: ___ ich ein Kind war, wohnten wir in Köln.",
+            question: "When I was a child, we lived in Cologne. Which word fills the gap? \"___ ich ein Kind war, wohnten wir in Köln.\"",
             options: ["Als", "Wenn", "Wann", "Nachdem"],
             correctIndex: 0,
             explanation: "A single past period (my childhood) = \"als\". \"Wenn\" would mean whenever, \"wann\" is for questions.",
@@ -888,7 +887,7 @@ export const DE_B1_U28: Lesson[] = [
             prompt: "Translate into German.",
             source: "Do you remember our holiday? (to a friend)",
             answer: "Erinnerst du dich an unseren Urlaub?",
-            altAnswers: ["Erinnert ihr euch an unseren Urlaub?", "Weißt du noch, unser Urlaub?"],
+            altAnswers: ["Kannst du dich an unseren Urlaub erinnern?"],
             explanation: "\"Sich erinnern an\" + accusative: \"an unseren Urlaub\".",
           },
           {
@@ -975,6 +974,7 @@ export const DE_B1_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "My little sister is scared of dogs.",
         answer: "Meine kleine Schwester hat Angst vor Hunden.",
+        altAnswers: ["Meine kleine Schwester fürchtet sich vor Hunden."],
         explanation: "\"Angst haben vor\" + dative: \"vor Hunden\" (dative plural -n).",
       },
       {
@@ -988,7 +988,7 @@ export const DE_B1_U28: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "How do you say: We rented a small house?",
         options: ["Wir haben ein kleines Haus gemietet.", "Wir haben ein kleine Haus gemietet.", "Wir haben ein kleinen Haus gemietet.", "Wir haben einen kleinen Haus gemietet."],
         correctIndex: 0,
         explanation: "\"Das Haus\" is neuter; \"ein\" shows no gender, so the adjective takes -es.",
@@ -1062,6 +1062,7 @@ export const DE_B1_U28: Lesson[] = [
             prompt: "Translate into German.",
             source: "All products are sold loose.",
             answer: "Alle Produkte werden lose verkauft.",
+            altAnswers: ["Alle Produkte werden unverpackt verkauft."],
             explanation: "Present passive, plural: \"werden\" + participle \"verkauft\".",
           },
           {
@@ -1197,6 +1198,7 @@ export const DE_B1_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "We separate the rubbish so that it can be recycled.",
         answer: "Wir trennen den Müll, damit er recycelt werden kann.",
+        altAnswers: ["Wir trennen den Müll, damit man ihn recyceln kann."],
         explanation: "\"Damit\" (different subject); passive with a modal, \"kann\" last. \"Der Müll\" → \"er\".",
       },
       {
@@ -1276,7 +1278,7 @@ export const DE_B1_U28: Lesson[] = [
             prompt: "Translate into German.",
             source: "Are you coming along tonight? (to a friend)",
             answer: "Kommst du heute Abend mit?",
-            altAnswers: ["Kommste heute Abend mit?", "Kommt ihr heute Abend mit?"],
+            altAnswers: ["Kommste heute Abend mit?"],
             explanation: "Standard \"Kommst du ... mit?\"; in fast speech \"Kommste\".",
           },
         ],
@@ -1370,7 +1372,7 @@ export const DE_B1_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "Know what I mean? (to a friend)",
         answer: "Weißt du, was ich meine?",
-        altAnswers: ["Weißte, was ich meine?", "Wisst ihr, was ich meine?"],
+        altAnswers: ["Weißte, was ich meine?"],
         explanation: "Indirect question with \"was\", verb \"meine\" at the end; spoken \"weißte\".",
       },
       {
@@ -1379,7 +1381,7 @@ export const DE_B1_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "Do you want a coffee? (to a friend)",
         answer: "Willst du einen Kaffee?",
-        altAnswers: ["Willste 'n Kaffee?", "Willste einen Kaffee?", "Möchtest du einen Kaffee?", "Willst du 'nen Kaffee?", "Willst du 'n Kaffee?", "Wollt ihr einen Kaffee?"],
+        altAnswers: ["Willste 'n Kaffee?", "Willste einen Kaffee?", "Möchtest du einen Kaffee?", "Willst du 'nen Kaffee?", "Willst du 'n Kaffee?"],
         explanation: "\"Der Kaffee\" → accusative \"einen Kaffee\", spoken \"'n\" or \"'nen\".",
       },
       {
@@ -1397,7 +1399,7 @@ export const DE_B1_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "That's not so important.",
         answer: "Das ist nicht so wichtig.",
-        altAnswers: ["Das is nich so wichtig.", "Das ist nicht so schlimm."],
+        altAnswers: ["Das is nich so wichtig."],
         explanation: "Standard \"Das ist nicht so wichtig\"; in fast speech \"Das is nich so wichtig\", with both final t's dropped.",
       },
       {
@@ -1406,8 +1408,8 @@ export const DE_B1_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "He's got a new car.",
         answer: "Er hat ein neues Auto.",
-        altAnswers: ["Er hat 'n neues Auto.", "Er hat ne neues Auto."],
-        explanation: "\"Das Auto\" is neuter, \"ein neues\"; spoken \"'n neues\".",
+        altAnswers: ["Er hat 'n neues Auto.", "Er hat n neues Auto."],
+        explanation: "\"Das Auto\" is neuter, \"ein neues\"; spoken \"'n neues\" (never feminine \"'ne\").",
       },
       {
         type: "word-order",
@@ -1501,7 +1503,7 @@ export const DE_B1_U28: Lesson[] = [
             prompt: "Translate into German.",
             source: "I wish you were here. (to a friend)",
             answer: "Ich wünschte, du wärst hier.",
-            altAnswers: ["Ich wünschte, du wärest hier.", "Ich wünschte, ihr wärt hier.", "Ich wünschte, Sie wären hier.", "Ich wünsche mir, du wärst hier."],
+            altAnswers: ["Ich wünschte, du wärest hier.", "Ich wünsche mir, du wärst hier."],
             explanation: "\"Sein\" → \"wärst\" for \"du\": the wish is unreal, so Konjunktiv II.",
           },
           {
@@ -1534,7 +1536,7 @@ export const DE_B1_U28: Lesson[] = [
             prompt: "Translate into German.",
             source: "If I knew, I'd tell you. (to a friend)",
             answer: "Wenn ich das wüsste, würde ich es dir sagen.",
-            altAnswers: ["Wenn ich es wüsste, würde ich es dir sagen.", "Wenn ich das wüsste, würde ich's dir sagen.", "Wüsste ich das, würde ich es dir sagen.", "Wenn ich es wüsste, würde ich es euch sagen."],
+            altAnswers: ["Wenn ich es wüsste, würde ich es dir sagen.", "Wenn ich das wüsste, würde ich's dir sagen.", "Wüsste ich das, würde ich es dir sagen."],
             explanation: "\"Wissen\" → \"wüsste\"; \"sagen\" → \"würde ... sagen\".",
           },
           {
@@ -1581,7 +1583,7 @@ export const DE_B1_U28: Lesson[] = [
         source: "I wish I could cook better.",
         answer: "Ich wünschte, ich könnte besser kochen.",
         altAnswers: ["Ich wünsche mir, ich könnte besser kochen.", "Wenn ich doch nur besser kochen könnte!"],
-        explanation: "\"Können\" → \"könnte\"; never *würde kochen können.",
+        explanation: "\"Können\" → \"könnte\"; avoid \"würde kochen können\".",
       },
       {
         type: "multiple-choice",
@@ -1671,7 +1673,7 @@ export const DE_B1_U28: Lesson[] = [
             prompt: "Translate into German.",
             source: "Do you know if the supermarket is open today? (to a friend)",
             answer: "Weißt du, ob der Supermarkt heute geöffnet ist?",
-            altAnswers: ["Weißt du, ob der Supermarkt heute offen ist?", "Weißt du, ob der Supermarkt heute auf ist?", "Wissen Sie, ob der Supermarkt heute geöffnet ist?", "Wissen Sie, ob der Supermarkt heute offen ist?"],
+            altAnswers: ["Weißt du, ob der Supermarkt heute offen ist?", "Weißt du, ob der Supermarkt heute auf ist?"],
             explanation: "If (whether) = \"ob\"; comma before it and the verb \"ist\" at the end.",
           },
           {
@@ -1709,7 +1711,7 @@ export const DE_B1_U28: Lesson[] = [
             prompt: "Translate into German.",
             source: "I forgot to call you. (to a friend)",
             answer: "Ich habe vergessen, dich anzurufen.",
-            altAnswers: ["Ich habe vergessen dich anzurufen.", "Ich hab vergessen, dich anzurufen.", "Ich habe vergessen, euch anzurufen.", "Ich habe vergessen, Sie anzurufen."],
+            altAnswers: ["Ich habe vergessen dich anzurufen.", "Ich hab vergessen, dich anzurufen."],
             explanation: "\"Vergessen\" + zu-infinitive; with a separable verb \"zu\" goes inside: \"anzurufen\".",
           },
           {
@@ -1761,6 +1763,7 @@ export const DE_B1_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "She's learning German to study in Vienna.",
         answer: "Sie lernt Deutsch, um in Wien zu studieren.",
+        altAnswers: ["Sie lernt Deutsch, damit sie in Wien studieren kann."],
         explanation: "Same subject → \"um...zu\"; comma before \"um\".",
       },
       {
@@ -1775,7 +1778,7 @@ export const DE_B1_U28: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I'm looking forward [to your visit].",
+        en: "I'm looking forward [to] you visiting us.",
         sentence: "Ich freue mich ___, dass du uns besuchst.",
         answer: "darauf",
         explanation: "\"Sich freuen auf\": \"darauf\" points forward to the dass-clause.",
@@ -1851,7 +1854,7 @@ export const DE_B1_U28: Lesson[] = [
         ],
         examples: [
           { es: "Paul, steh auf! Es ist schon Viertel vor sieben.", en: "Paul, get up! It's already quarter to seven." },
-          { es: "Jetzt steh doch endlich auf!", en: "Come on, get up at last!" },
+          { es: "Jetzt steh doch endlich auf!", en: "Come on, get up now!" },
           { es: "Sobald du aufgestanden bist, gehst du ins Bad.", en: "As soon as you've got up, go to the bathroom." },
           { es: "Emma, zieh dich bitte schnell an!", en: "Emma, get dressed quickly, please!" },
           { es: "Während die Kinder sich anziehen, macht Katrin Frühstück.", en: "While the children get dressed, Katrin makes breakfast." },
@@ -1945,7 +1948,7 @@ export const DE_B1_U28: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Come on, get up at last! (to a child)",
+        source: "Come on, get up now! (to a child, impatient)",
         answer: "Jetzt steh doch endlich auf!",
         altAnswers: ["Steh doch endlich auf!", "Steh endlich auf!", "Jetzt steh endlich auf!"],
         explanation: "\"Doch endlich\" shows impatience; \"auf\" at the end.",
@@ -2024,7 +2027,7 @@ export const DE_B1_U28: Lesson[] = [
       {
         type: "speak",
         text: "Jetzt steh doch endlich auf!",
-        prompt: "Tell a child, impatiently: Come on, get up at last!",
+        prompt: "Tell a child, impatiently: Come on, get up now!",
         explanation: "\"Doch endlich\" expresses impatience.",
       },
     ],
@@ -2088,7 +2091,7 @@ export const DE_B1_U28: Lesson[] = [
             prompt: "Translate into German.",
             source: "Are you done? (to a friend)",
             answer: "Bist du fertig?",
-            altAnswers: ["Biste fertig?", "Seid ihr fertig?", "Bist du schon fertig?"],
+            altAnswers: ["Biste fertig?", "Bist du schon fertig?"],
             explanation: "Standard \"Bist du fertig?\"; spoken \"Biste fertig?\".",
           },
           {
@@ -2207,7 +2210,7 @@ export const DE_B1_U28: Lesson[] = [
       {
         heading: "The chat message",
         body: [
-          "Leon wrote to his friend Ayşe in German, but the particles are in the wrong places. Here is his message: *Doch komm mit am Samstag! Mach das mal Fenster auf, wenn du kommst, es ist so heiß bei mir. Denn wann hast du Zeit? Halt ich habe nur am Abend Zeit.*",
+          "Leon wrote to his friend Ayşe in German, but the particles are in the wrong places. Here is his message: \"Doch komm mit am Samstag! Mach das mal Fenster auf, wenn du kommst, es ist so heiß bei mir. Denn wann hast du Zeit? Halt ich habe nur am Abend Zeit.\"",
           "The rule: particles never stand in position 1, and they go after the verb and pronouns, before the rest of the middle field. Corrected: \"Komm doch am Samstag mit!\", \"Mach mal das Fenster auf!\", \"Wann hast du denn Zeit?\", \"Ich habe halt nur am Abend Zeit.\"",
           "Note too that the separable prefix (\"mit\", \"auf\") always goes to the very end.",
         ],
@@ -2222,7 +2225,7 @@ export const DE_B1_U28: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Leon wrote *Doch komm mit am Samstag!* Translate it correctly: Come along on Saturday, why don't you!",
+            prompt: "Leon wrote \"*Doch komm mit am Samstag!\" Translate it correctly: Come along on Saturday, why don't you!",
             source: "Come along on Saturday, why don't you!",
             answer: "Komm doch am Samstag mit!",
             altAnswers: ["Komm am Samstag doch mit!", "Komm doch Samstag mit!", "Komm doch mal am Samstag mit!"],
@@ -2230,8 +2233,8 @@ export const DE_B1_U28: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Leon wrote *Denn wann hast du Zeit?* Write the German for the bold words.",
-            en: "So when [are you] free?",
+            prompt: "Leon wrote \"*Denn wann hast du Zeit?\" Write the German for the bold words.",
+            en: "[So] when [are you] free?",
             sentence: "Wann ___ Zeit?",
             answer: "hast du denn",
             explanation: "\"Denn\" follows the verb and the pronoun; it can't start a question.",
@@ -2241,9 +2244,9 @@ export const DE_B1_U28: Lesson[] = [
       {
         heading: "The formal email",
         body: [
-          "Leon also wrote to his landlord, Herr Becker, but in chat style: *Hallo Herr Becker, die Heizung geht halt nicht, ne? Haste mal Zeit, die zu reparieren? Wär super. LG Leon*",
+          "Leon also wrote to his landlord, Herr Becker, but in chat style: \"Hallo Herr Becker, die Heizung geht halt nicht, ne? Haste mal Zeit, die zu reparieren? Wär super. LG Leon\"",
           "Everything casual has to go: \"halt\" and \"ne?\" (too chatty), \"haste\" (du-form and reduction), \"wär\" (reduction), \"LG\" (too familiar). And the greeting should be \"Sehr geehrter Herr Becker,\".",
-          "Corrected: \"Sehr geehrter Herr Becker, leider funktioniert die Heizung in meiner Wohnung nicht. Könnten Sie bitte einen Techniker schicken? Das wäre sehr freundlich. Mit freundlichen Grüßen, Leon Wagner\".",
+          "Corrected: \"Sehr geehrter Herr Becker, leider funktioniert die Heizung in meiner Wohnung nicht. Könnten Sie bitte einen Techniker schicken? Das wäre sehr freundlich.\" Then \"Mit freundlichen Grüßen\" (no comma) and \"Leon Wagner\" on the next line.",
         ],
         examples: [
           { es: "Sehr geehrter Herr Becker,", en: "Dear Mr Becker," },
@@ -2256,7 +2259,7 @@ export const DE_B1_U28: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Leon wrote *Haste mal Zeit, die zu reparieren?* Translate the formal version: Could you please send a technician?",
+            prompt: "Leon wrote \"*Haste mal Zeit, die zu reparieren?\" Translate the formal version: Could you please send a technician?",
             source: "Could you please send a technician?",
             answer: "Könnten Sie bitte einen Techniker schicken?",
             altAnswers: ["Würden Sie bitte einen Techniker schicken?", "Könnten Sie einen Techniker schicken?"],
@@ -2282,7 +2285,7 @@ export const DE_B1_U28: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Leon wrote *Mach das mal Fenster auf!* Translate correctly: Open the window, would you!",
+        prompt: "Leon wrote \"*Mach das mal Fenster auf!\" Translate correctly: Open the window, would you!",
         source: "Open the window, would you!",
         answer: "Mach mal das Fenster auf!",
         altAnswers: ["Mach doch mal das Fenster auf!", "Machst du mal das Fenster auf?"],
@@ -2291,7 +2294,7 @@ export const DE_B1_U28: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Leon wrote *Halt ich habe nur am Abend Zeit.* Translate correctly: I'm only free in the evening, I'm afraid.",
+        prompt: "Leon wrote \"*Halt ich habe nur am Abend Zeit.\" Translate correctly: I'm only free in the evening, I'm afraid.",
         source: "I'm only free in the evening, I'm afraid.",
         answer: "Ich habe halt nur am Abend Zeit.",
         altAnswers: ["Ich habe eben nur am Abend Zeit.", "Ich hab halt nur am Abend Zeit.", "Ich habe halt nur abends Zeit.", "Ich hab halt nur abends Zeit.", "Ich habe leider nur am Abend Zeit.", "Ich habe leider nur abends Zeit."],
@@ -2308,14 +2311,14 @@ export const DE_B1_U28: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence has the particle in the right place?",
+        question: "How do you say: It's so hot at my place!",
         options: ["Es ist ja so heiß bei mir.", "Ja es ist so heiß bei mir.", "Es ist so heiß ja bei mir.", "Es ist so heiß bei mir ja."],
         correctIndex: 0,
         explanation: "\"Ja\" goes straight after the verb (and pronoun subject), before the rest.",
       },
       {
         type: "fill-blank",
-        prompt: "Leon wrote *Hallo Herr Becker*. Write the German for the bold words.",
+        prompt: "Leon wrote \"Hallo Herr Becker\". Write the German for the bold words.",
         en: "[Dear] Mr Becker,",
         sentence: "___ Herr Becker,",
         answer: "Sehr geehrter",

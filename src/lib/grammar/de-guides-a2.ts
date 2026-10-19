@@ -19,7 +19,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         body: [
           `Regular (weak) verbs take "ge-" + stem + "-t": "machen" becomes "gemacht", "kaufen" becomes "gekauft". If the stem ends in -t or -d, or in a hard-to-say cluster, add "-et": "gearbeitet", "gewartet", "geöffnet".`,
           `Irregular (strong) verbs take "ge-" + stem + "-en", often with a vowel change you have to learn: "gegessen", "getrunken", "geschrieben", "gesprochen". A small group of mixed verbs combines a vowel change with "-t": "gebracht", "gedacht", "gewusst", "gekannt".`,
-          `Two groups take no "ge-" at all: verbs with an inseparable prefix (be-, ver-, er-, ent-, emp-, ge-, zer-) such as "besucht", "verstanden", "bekommen", and verbs ending in "-ieren" such as "studiert" and "telefoniert". Separable verbs put "ge" between the prefix and the stem: "eingekauft", "aufgestanden", "angerufen".`,
+          `Two groups take no "ge-" at all: verbs with an inseparable prefix ("be-", "ver-", "er-", "ent-", "emp-", "ge-", "zer-") such as "besucht", "verstanden", "bekommen", and verbs ending in "-ieren" such as "studiert" and "telefoniert". Separable verbs put "ge" between the prefix and the stem: "eingekauft", "aufgestanden", "angerufen".`,
         ],
         table: {
           headers: ["Type", "Pattern", "Examples"],
@@ -41,7 +41,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Haben or sein?`,
+        heading: `"Haben" or "sein"?`,
         body: [
           `Most verbs use "haben". A smaller but very common group uses "sein": verbs of movement from A to B ("gehen", "fahren", "fliegen", "kommen", "laufen") and verbs of change of state ("aufstehen", "einschlafen", "aufwachen", "werden", "sterben"). Add "sein" and "bleiben" themselves, and "passieren".`,
           `A quick test: if the verb cannot take a direct object and describes moving somewhere or becoming something different, it takes "sein". "Ich bin nach Berlin gefahren" (I travelled to Berlin) but "Ich habe das Auto gefahren" (I drove the car): with a direct object, "fahren" switches to "haben".`,
@@ -130,7 +130,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         a: `Learn the common ones in vowel families: ei to ie ("geschrieben", "geblieben"), i to u ("getrunken", "gefunden"), e to o ("gesprochen", "geholfen"). About fifty verbs cover almost everything you will say at this level.`,
       },
       {
-        q: `Do Germans in the south use sein with sitzen and stehen?`,
+        q: `Do Germans in the south use "sein" with "sitzen" and "stehen"?`,
         a: `Yes. In southern Germany, Austria and Switzerland you will hear "ich bin gesessen" and "ich bin gestanden". In the north and in the exam, "ich habe gesessen" and "ich habe gestanden" are standard. Both are correct German.`,
       },
     ],
@@ -159,9 +159,9 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
     ],
     sections: [
       {
-        heading: `Sein and haben`,
+        heading: `"Sein" and "haben"`,
         body: [
-          `"Sein" becomes "war", "haben" becomes "hatte". The "ich" and "er/sie/es" forms are identical and have no ending, which is true of every verb in the Präteritum.`,
+          `"Sein" becomes "war", "haben" becomes "hatte". The "ich" and "er/sie/es" forms are identical, with no personal ending, which is true of every verb in the Präteritum.`,
         ],
         table: {
           headers: ["", "sein", "haben"],
@@ -206,7 +206,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Es gab and other useful chunks`,
+        heading: `"Es gab" and other useful chunks`,
         body: [
           `"Es gibt" (there is, there are) becomes "es gab" in the past. A few other Präteritum forms are so common in speech that they are worth learning as chunks now: "ich wusste" (I knew), "es ging" (it went, it was okay), "ich dachte" (I thought).`,
         ],
@@ -354,7 +354,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
       {
         heading: `Prepositions that always take the dative`,
         body: [
-          `Seven prepositions always take the dative, whatever the verb: "aus", "bei", "mit", "nach", "seit", "von", "zu". Some contract with the article: "bei dem" becomes "beim", "von dem" becomes "vom", "zu dem" becomes "zum", "zu der" becomes "zur".`,
+          `Seven very common prepositions always take the dative, whatever the verb: "aus", "bei", "mit", "nach", "seit", "von", "zu". Some contract with the article: "bei dem" becomes "beim", "von dem" becomes "vom", "zu dem" becomes "zum", "zu der" becomes "zur".`,
         ],
         table: {
           headers: ["Preposition", "Meaning", "Example"],
@@ -436,12 +436,12 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
       "The nine German prepositions that take the accusative for movement and the dative for location, plus the verb pairs stellen/stehen, legen/liegen, setzen/sitzen, hängen.",
     level: "A2",
     intro: [
-      `Nine prepositions can take either the accusative or the dative: "an", "auf", "hinter", "in", "neben", "über", "unter", "vor", "zwischen". The case is not random: it answers a question. Movement towards a place (wohin? where to?) takes the accusative. Being at a place (wo? where?) takes the dative.`,
+      `Nine prepositions can take either the accusative or the dative: "an", "auf", "hinter", "in", "neben", "über", "unter", "vor", "zwischen". The case is not random: it answers a question. Movement towards a place ("wohin?", where to?) takes the accusative. Being at a place ("wo?", where?) takes the dative.`,
       `"Ich gehe in den Park" (I'm going into the park: accusative) versus "Ich bin im Park" (I'm in the park: dative). English uses into/in or onto/on for some of this, but mostly says "in" for both, so the article is doing work English leaves to context.`,
     ],
     sections: [
       {
-        heading: `Wohin takes the accusative, wo takes the dative`,
+        heading: `"Wohin" takes the accusative, "wo" takes the dative`,
         body: [
           `Ask yourself whether something is moving to a new place or is already there. Movement within a place does not count: "Ich laufe im Park" (I'm running in the park, going round inside it) is dative, because you are not changing location.`,
           `Common contractions: "in dem" becomes "im", "in das" becomes "ins", "an dem" becomes "am", "an das" becomes "ans". So "im" and "am" are always dative, "ins" and "ans" always accusative.`,
@@ -469,7 +469,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         heading: `Putting and being: the verb pairs`,
         body: [
           `German does not have one verb for put. It distinguishes standing things, lying things and sitting, and has a pair of verbs for each: an action verb (with an object, accusative after the preposition) and a position verb (no object, dative after the preposition).`,
-          `"Stellen" is for upright things (a bottle, a lamp, a chair), "legen" for flat things (a book, a phone, a towel), "setzen" for people sitting down, "hängen" for both hanging and being hung. The action verbs are regular ("gestellt", "gelegt"); the position verbs are irregular ("gestanden", "gelegen", "gesessen").`,
+          `"Stellen" is for upright things (a bottle, a lamp, a chair), "legen" for flat things (a book, a phone, a towel), "setzen" for people sitting down, "hängen" for both hanging and being hung. The action verbs are regular ("gestellt", "gelegt"); the position verbs are irregular ("gestanden", "gelegen", "gesessen"); "hängen" has both participles: "gehängt" (hung something up) and "gehangen" (was hanging).`,
         ],
         table: {
           headers: ["Action (wohin? + accusative)", "Position (wo? + dative)"],
@@ -490,7 +490,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
       {
         heading: `Time and fixed uses`,
         body: [
-          `With time expressions these prepositions take the dative: "am Montag", "im Sommer", "vor einer Woche" (a week ago), "in zwei Tagen". There is no movement in time.`,
+          `With time expressions these prepositions usually take the dative: "am Montag", "im Sommer", "vor einer Woche" (a week ago), "in zwei Tagen". The main exception is "über" with the accusative: "übers Wochenende" (over the weekend).`,
           `Several prepositions also combine with verbs in fixed phrases where the case has to be learned, for example "warten auf" + accusative or "Angst haben vor" + dative. Those belong with verbs with prepositions, which you meet later.`,
         ],
         examples: [
@@ -505,12 +505,12 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Ich gehe im Kino.",
         right: "Ich gehe ins Kino.",
-        why: `Going somewhere is movement (wohin?): "in das", contracted to "ins".`,
+        why: `Going somewhere is movement ("wohin?"): "in das", contracted to "ins".`,
       },
       {
         wrong: "Das Buch liegt auf den Tisch.",
         right: "Das Buch liegt auf dem Tisch.",
-        why: `"Liegen" describes position (wo?), so the dative: "dem Tisch".`,
+        why: `"Liegen" describes position ("wo?"), so the dative: "dem Tisch".`,
       },
       {
         wrong: "Ich lege die Flasche in den Kühlschrank.",
@@ -694,7 +694,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
       {
         heading: `The conjugated verb goes last`,
         body: [
-          `After the conjunction comes the subject, then everything else, then the conjugated verb. If there are other verb parts (an infinitive with a modal, a participle in the Perfekt), they come just before it, so the conjugated verb is always the very last word.`,
+          `After the conjunction comes the subject, then everything else, then the conjugated verb. If there are other verb parts (an infinitive with a modal, a participle in the Perfekt), they come just before it, so the conjugated verb is normally the very last word.`,
           `Separable verbs join back together at the end: "Ich weiß, dass du früh aufstehst." A comma always separates the subordinate clause from the main clause.`,
         ],
         table: {
@@ -726,7 +726,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Weil or denn?`,
+        heading: `"Weil" or "denn"?`,
         body: [
           `"Denn" also means because, but it is a coordinating conjunction: it does not count as a position and does not move the verb. "Ich bleibe zu Hause, denn ich bin krank." Same meaning as "weil", normal word order. "Denn" cannot start an answer to "warum?"; "weil" can: "Warum bist du nicht gekommen? Weil ich krank war."`,
           `The other words that leave word order untouched are "und", "aber", "oder" and "sondern". Everything else that links clauses either sends the verb to the end ("weil", "dass", "wenn", "ob", "als", "obwohl") or takes position 1 and pulls the verb in after it ("deshalb", "trotzdem", "dann").`,
@@ -739,7 +739,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Dass or das? Indirect questions`,
+        heading: `"Dass" or "das"? Indirect questions`,
         body: [
           `"Dass" (with ss) is the conjunction that: "Ich hoffe, dass es klappt". "Das" (one s) is the article or the pronoun: "das Buch", "Das stimmt". If you can replace the word with "dieses" or "welches", it is "das".`,
           `Indirect questions work like subordinate clauses: a question word or "ob" (for yes/no questions), then the verb at the end. They are the polite way to ask for information: "Können Sie mir sagen, wo der Bahnhof ist?"`,
@@ -782,7 +782,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
     faqs: [
       {
         q: `What is the difference between "wenn" and "ob"? Both can mean if.`,
-        a: `"Wenn" is if in the sense of a condition or whenever: "Wenn es regnet, ...". "Ob" is if in the sense of whether, after verbs like wissen, fragen, nicht sicher sein: "Ich weiß nicht, ob es regnet."`,
+        a: `"Wenn" is if in the sense of a condition or whenever: "Wenn es regnet, ...". "Ob" is if in the sense of whether, after verbs like "wissen", "fragen", "nicht sicher sein": "Ich weiß nicht, ob es regnet."`,
       },
       {
         q: `Can I leave out "dass" like English leaves out that?`,
@@ -835,10 +835,10 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Mich or mir?`,
+        heading: `"Mich" or "mir"?`,
         body: [
           `If the sentence has no other direct object, the reflexive pronoun is accusative: "Ich wasche mich". If there is another direct object (often a body part or a piece of clothing), that takes the accusative and the reflexive pronoun becomes dative: "Ich wasche mir die Hände" (I wash my hands).`,
-          `Note that German uses the reflexive dative plus "die", not a possessive, for body parts: literally I wash to myself the hands. The difference only shows with "ich" and "du": "mich/mir", "dich/dir".`,
+          `Note that German uses the reflexive dative plus the definite article ("die", "das"), not a possessive, for body parts: literally I wash to myself the hands. The difference only shows with "ich" and "du": "mich/mir", "dich/dir".`,
         ],
         examples: [
           { de: "Ich ziehe mich an.", en: "I get dressed." },
@@ -863,7 +863,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Where does sich go?`,
+        heading: `Where does "sich" go?`,
         body: [
           `The reflexive pronoun sits as early as possible after the conjugated verb, usually right after it, or right after a pronoun subject that follows the verb: "Heute freue ich mich", "Morgen trifft sich die Gruppe". In the Perfekt, reflexive verbs take "haben": "Ich habe mich gefreut".`,
         ],
@@ -928,14 +928,14 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
       "How to compare in German: -er + als, so ... wie, the superlative with am -sten, the umlaut in short adjectives, and the irregular gut, viel and gern.",
     level: "A2",
     intro: [
-      `German compares the way English does with short adjectives, and never the way English does with long ones. Every adjective, however long, adds "-er" for the comparative and "-sten" for the superlative: "schneller" (faster), "interessanter" (more interesting). There is no German equivalent of more interesting built with "mehr".`,
+      `German compares the way English does with short adjectives, and almost never the way English does with long ones. Every adjective, however long, adds "-er" for the comparative and "-sten" for the superlative: "schneller" (faster), "interessanter" (more interesting). There is no German equivalent of more interesting built with "mehr".`,
       `The two pitfalls are the umlaut that many short adjectives add ("alt", "älter") and the word for than, which is "als", not "wie".`,
     ],
     sections: [
       {
-        heading: `The comparative: -er + als`,
+        heading: `The comparative: -er + "als"`,
         body: [
-          `Add "-er" to the adjective and use "als" for than. Many one-syllable adjectives with a, o or u take an umlaut: "alt, älter", "groß, größer", "jung, jünger", "kurz, kürzer", "warm, wärmer". Adjectives ending in -el or -er drop the e: "dunkel, dunkler", "teuer, teurer".`,
+          `Add "-er" to the adjective and use "als" for than. Many one-syllable adjectives with a, o or u take an umlaut: "alt, älter", "groß, größer", "jung, jünger", "kurz, kürzer", "warm, wärmer". Adjectives ending in -el drop the e ("dunkel, dunkler"), and so do those in -er after "au" or "eu" ("teuer, teurer", "sauer, saurer").`,
           `To say as ... as, use "so ... wie" with the plain adjective: "Er ist so groß wie sein Vater". "Nicht so ... wie" is not as ... as.`,
         ],
         examples: [
@@ -947,9 +947,9 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `The superlative: am -sten`,
+        heading: `The superlative: "am" -sten`,
         body: [
-          `After a verb, the superlative is "am" + adjective + "-sten": "am schnellsten", "am ältesten". Adjectives ending in -d, -t, -s, -ß, -sch, -z add "-esten" so you can pronounce them: "am ältesten", "am kürzesten", "am heißesten". "Groß" is the exception: "am größten".`,
+          `After a verb, the superlative is "am" + adjective + "-sten": "am schnellsten", "am ältesten". Short adjectives ending in -d, -t, -s, -ß, -sch, -z add "-esten" so you can pronounce them: "am ältesten", "am kürzesten", "am heißesten". "Groß" is the exception: "am größten".`,
           `Before a noun, the superlative takes an article and an adjective ending, like any adjective: "der schnellste Zug", "die älteste Stadt", "das größte Zimmer".`,
         ],
         table: {
@@ -974,7 +974,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Gut, viel and gern`,
+        heading: `"Gut", "viel" and "gern"`,
         body: [
           `The three irregulars you need daily: "gut, besser, am besten", "viel, mehr, am meisten", "gern, lieber, am liebsten". "Gern" turns any verb into liking: "Ich trinke gern Tee" (I like tea), "Ich trinke lieber Kaffee" (I prefer coffee), "Am liebsten trinke ich Wasser" (most of all I like water).`,
           `"Mehr" never changes its form: "mehr Zeit", "mehr Geld", "mehr Leute".`,
@@ -1004,9 +1004,9 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         why: `Short adjectives with a, o, u usually take an umlaut: "älter".`,
       },
       {
-        wrong: "Er ist der schnellste.",
-        right: "Er ist am schnellsten.",
-        why: `After "sein" with no noun, the standard form is "am" + "-sten". (With a noun understood, "der Schnellste" is also possible.)`,
+        wrong: "Er läuft der schnellste.",
+        right: "Er läuft am schnellsten.",
+        why: `With a verb such as "laufen" (how someone does something), only "am" + "-sten" works. After "sein", "Er ist am schnellsten" and "Er ist der Schnellste" are both correct.`,
       },
       {
         wrong: "Ich mag besser Kaffee.",
@@ -1020,8 +1020,8 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         a: `Mostly common one-syllable words with a, o or u: "alt", "arm", "groß", "hoch", "jung", "kalt", "klug", "kurz", "lang", "oft", "stark", "warm". Several do not, such as "klar", "voll", "toll", "froh". Learn the frequent ones; when unsure, no umlaut is the safer guess for less common words.`,
       },
       {
-        q: `Can I say "so wie" for "the same as"?`,
-        a: `For identity German uses "genauso ... wie" or "der/die/das gleiche wie": "Ich bin genauso müde wie du" (I'm just as tired as you).`,
+        q: `How do I say just as ... as, or the same as?`,
+        a: `Add "genauso" for an equal degree: "Ich bin genauso müde wie du" (I'm just as tired as you). For the same thing, use "das Gleiche wie" or "dasselbe wie": "Ich nehme das Gleiche wie du" (I'll have the same as you).`,
       },
     ],
     related: ["adjective-endings-intro", "adjective-endings-complete", "weil-dass-verb-final"],
@@ -1040,14 +1040,14 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
       "Why German adjectives take endings before a noun, the pattern after der, die, das, the pattern after ein, and the simple rule that tells you which ending to use.",
     level: "A2",
     intro: [
-      `After a verb, a German adjective has no ending: "Der Pullover ist rot". Before a noun it always has one: "der rote Pullover", "ein roter Pullover". The ending depends on the gender, the case and the word in front of it. That sounds like a huge table, but at this level two patterns and one principle cover most of what you say.`,
+      `After a verb, a German adjective has no ending: "Der Pullover ist rot". Before a noun it almost always has one: "der rote Pullover", "ein roter Pullover". The ending depends on the gender, the case and the word in front of it. That sounds like a huge table, but at this level two patterns and one principle cover most of what you say.`,
       `The principle: the gender and case have to be shown once, by the article or by the adjective. If the article already shows it clearly, the adjective takes a plain "-e" or "-en". If the article does not, the adjective has to show it.`,
     ],
     sections: [
       {
-        heading: `After der, die, das: -e or -en`,
+        heading: `After "der", "die", "das": -e or -en`,
         body: [
-          `After the definite article (and after "dieser", "jeder", "welcher", which work the same way), the adjective takes only two endings. It is "-e" in the five places marked below as -e (all three nominative singulars, and the feminine and neuter accusative), and "-en" everywhere else: every dative, every plural, and the masculine accusative.`,
+          `After the definite article (and after "dieser", "jeder", "welcher", which work the same way), the adjective takes only two endings. It is "-e" in five places (all three nominative singulars, and the feminine and neuter accusative), and "-en" everywhere else: every dative, every plural, and the masculine accusative.`,
         ],
         table: {
           headers: ["", "Masculine", "Feminine", "Neuter", "Plural"],
@@ -1060,13 +1060,13 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         examples: [
           { de: "Der neue Kollege ist sehr nett.", en: "The new colleague is very nice." },
           { de: "Ich nehme die blaue Tasche.", en: "I'll take the blue bag." },
-          { de: "Wir wohnen in dem alten Haus.", en: "We live in the old house." },
+          { de: "Wir helfen dem alten Mann.", en: "We're helping the old man." },
           { de: "Welchen Mantel möchten Sie? Den schwarzen.", en: "Which coat would you like? The black one." },
           { de: "Die deutschen Städte sind sehr grün.", en: "German cities are very green." },
         ],
       },
       {
-        heading: `After ein, kein, mein: the adjective steps in`,
+        heading: `After "ein", "kein", "mein": the adjective steps in`,
         body: [
           `"Ein" has no ending in three places: masculine nominative, and neuter nominative and accusative. There the article does not show the gender, so the adjective does: "ein roter Pullover" (the -er of "der"), "ein rotes Hemd" (the -es of "das"). Everywhere else, the pattern is the same as after "der".`,
           `"Kein" and the possessives ("mein", "dein", "unser") follow exactly the same pattern as "ein", and they have a plural, which takes "-en": "meine alten Freunde".`,
@@ -1160,8 +1160,8 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
       {
         heading: `The three forms`,
         body: [
-          `The du-form is the du present tense without "du" and without the "-st": "du kommst" becomes "Komm!", "du machst" becomes "Mach!". Verbs that change e to i or ie keep that change: "du nimmst" becomes "Nimm!", "du liest" becomes "Lies!". Verbs that add an umlaut in the du present drop it: "du fährst" becomes "Fahr!".`,
-          `The ihr-form is just the ihr present without "ihr": "Kommt!", "Macht!", "Nehmt!". The Sie-form is the Sie present with the verb first: "Kommen Sie!", "Nehmen Sie Platz!".`,
+          `The "du" form is the "du" present tense without "du" and without the "-st": "du kommst" becomes "Komm!", "du machst" becomes "Mach!". Verbs that change e to i or ie keep that change: "du nimmst" becomes "Nimm!", "du liest" becomes "Lies!". Verbs that add an umlaut in the "du" present drop it: "du fährst" becomes "Fahr!".`,
+          `The "ihr" form is just the "ihr" present without "ihr": "Kommt!", "Macht!", "Nehmt!". The "Sie" form is the "Sie" present with the verb first: "Kommen Sie!", "Nehmen Sie Platz!".`,
         ],
         table: {
           headers: ["Infinitive", "du", "ihr", "Sie"],
@@ -1197,7 +1197,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Softening: bitte, mal, doch`,
+        heading: `Softening: "bitte", "mal", "doch"`,
         body: [
           `"Bitte" (please) can go almost anywhere: "Bitte setzen Sie sich", "Setzen Sie sich bitte". "Mal" makes a request casual and quick: "Komm mal her!" (come here a sec). "Doch" adds encouragement, often like go on or why don't you: "Komm doch mit!" (why don't you come along?).`,
           `Combined, they are very natural: "Sag doch mal!" (go on, tell me). In very polite situations, Germans often avoid the imperative entirely and use a question: "Könnten Sie mir bitte helfen?"`,
@@ -1215,12 +1215,12 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Kommst her!",
         right: "Komm her!",
-        why: `The du-imperative drops the "-st" ending as well as the pronoun.`,
+        why: `The "du" imperative drops the "-st" ending as well as the pronoun.`,
       },
       {
         wrong: "Nehm das!",
         right: "Nimm das!",
-        why: `Verbs with an e to i change keep it in the du-imperative.`,
+        why: `Verbs with an e to i change keep it in the "du" imperative.`,
       },
       {
         wrong: "Fähr langsam!",
@@ -1244,8 +1244,8 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         a: `Both exist; the "-e" is old-fashioned or formal for most verbs. Use the short form. The "-e" is needed only when the stem ends in -t or -d ("Warte!", "Finde!") or in some clusters ("Öffne!", "Atme!").`,
       },
       {
-        q: `Is there a wir-form?`,
-        a: `Yes, for let's: the wir present with the verb first, "Gehen wir!" (let's go), "Fangen wir an!" (let's start). "Lass uns gehen" is a common alternative.`,
+        q: `Is there a "wir" form?`,
+        a: `Yes, for let's: the "wir" present with the verb first, "Gehen wir!" (let's go), "Fangen wir an!" (let's start). "Lass uns gehen" is a common alternative.`,
       },
     ],
     related: ["sein-haben-du-sie", "separable-verbs", "german-present-tense", "reflexive-verbs"],
@@ -1263,7 +1263,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
     ],
     sections: [
       {
-        heading: `Always accusative: durch, für, gegen, ohne, um`,
+        heading: `Always accusative: "durch", "für", "gegen", "ohne", "um"`,
         body: [
           `These five always take the accusative. Only the masculine shows a change ("den", "einen", "meinen"); feminine, neuter and plural look the same as the nominative. Common contractions: "durchs", "fürs", "ums".`,
         ],
@@ -1285,7 +1285,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Always dative: aus, bei, mit, nach, seit, von, zu`,
+        heading: `Always dative: "aus", "bei", "mit", "nach", "seit", "von", "zu"`,
         body: [
           `These seven always take the dative, even when movement is involved: "Ich gehe zum Arzt" is movement, but "zu" is dative-only, so it stays dative. Common contractions: "beim", "vom", "zum", "zur". "Gegenüber" (opposite) also takes the dative.`,
         ],
@@ -1293,13 +1293,13 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
           { de: "Ich komme gerade vom Bahnhof.", en: "I've just come from the station." },
           { de: "Wir fahren zu meinen Eltern.", en: "We're going to my parents'." },
           { de: "Sie wohnt noch bei ihrer Mutter.", en: "She still lives at her mother's." },
-          { de: "Nach der Arbeit gehe ich zum Sport.", en: "After work I go to the gym." },
+          { de: "Nach der Arbeit gehe ich zum Sport.", en: "After work I go and do some sport." },
         ],
       },
       {
-        heading: `Two-way: an, auf, hinter, in, neben, über, unter, vor, zwischen`,
+        heading: `Two-way: "an", "auf", "hinter", "in", "neben", "über", "unter", "vor", "zwischen"`,
         body: [
-          `These nine take the accusative for movement to a place (wohin?) and the dative for location (wo?). They have their own guide; the key contrast is "Ich gehe in den Garten" (accusative, movement) versus "Ich bin im Garten" (dative, location).`,
+          `These nine take the accusative for movement to a place ("wohin?") and the dative for location ("wo?"). They have their own guide; the key contrast is "Ich gehe in den Garten" (accusative, movement) versus "Ich bin im Garten" (dative, location).`,
         ],
         examples: [
           { de: "Ich lege das Buch auf den Tisch.", en: "I put the book on the table." },
@@ -1307,7 +1307,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Genitive: wegen, trotz, während, statt`,
+        heading: `Genitive: "wegen", "trotz", "während", "statt"`,
         body: [
           `A few prepositions take the genitive, especially in writing: "wegen" (because of), "trotz" (despite), "während" (during), "statt" (instead of). Masculine and neuter nouns take "des" and add "-s" or "-es" to the noun: "wegen des Wetters". Feminine and plural take "der": "trotz der Kälte".`,
           `In everyday speech many Germans use the dative after "wegen" and "trotz" ("wegen dem Wetter"). You will hear it all the time, but write the genitive.`,
@@ -1373,14 +1373,14 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
       "Where everything goes between the verb and the end of a German sentence: time before manner before place, the order of objects, and where nicht goes.",
     level: "A2",
     intro: [
-      `Verb second and verb last fix the two ends of a German sentence. Between them is the middle field, and it has its own order. The best-known rule is time, manner, place (often learned as TeKaMoLo: temporal, kausal, modal, lokal): when, why, how, where.`,
+      `Verb second and verb last fix the two ends of a German sentence. Between them is the middle field, and it has its own order. The best-known rule is time, manner, place (often learned as "TeKaMoLo": "temporal, kausal, modal, lokal"): when, why, how, where.`,
       `English tends to do the reverse, putting place before time (I'm going to the cinema tonight). German says "Ich gehe heute Abend ins Kino": time first.`,
     ],
     sections: [
       {
         heading: `Time, (reason), manner, place`,
         body: [
-          `When several adverbial phrases appear, the usual order is: time (wann?), reason (warum?), manner (wie?), place (wo? wohin?). You rarely need all four, but the time-before-place habit is the one to build.`,
+          `When several adverbial phrases appear, the usual order is: time ("wann?"), reason ("warum?"), manner ("wie?"), place ("wo?", "wohin?"). You rarely need all four, but the time-before-place habit is the one to build.`,
           `Any one of them can move to position 1 for emphasis, and then the verb comes next: "Heute Abend gehe ich mit Freunden ins Kino". The rest keep their order.`,
         ],
         table: {
@@ -1411,7 +1411,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Where does nicht go?`,
+        heading: `Where does "nicht" go?`,
         body: [
           `To negate the whole sentence, "nicht" goes after the objects and time phrases, but before manner and place phrases and before the parts at the end (participle, infinitive, separable prefix, predicate adjective). "Ich habe den Film gestern nicht gesehen."`,
           `To negate one specific part, put "nicht" directly in front of it, often with "sondern" to give the correction: "Ich fahre nicht morgen, sondern übermorgen."`,
@@ -1443,7 +1443,7 @@ export const DE_A2_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Ich nicht verstehe das.",
         right: "Ich verstehe das nicht.",
-        why: `"Nicht" never goes before the conjugated verb in a main clause; for the whole sentence it goes after the object.`,
+        why: `"Nicht" never goes between the subject and the conjugated verb in a main clause; for the whole sentence it goes after the object.`,
       },
       {
         wrong: "Ich habe nicht den Film gesehen.",

@@ -34,9 +34,9 @@ export const GOETHE_A1_SCHREIBEN: ExamPaper = {
           maxWords: 20,
           rubric: [
             "Fills in all five missing details from the text, and nothing invented",
-            "Writes the date of birth correctly (14.05.1996 or 14. Mai 1996)",
-            "Puts the postcode before the town, as on German forms (50667 Köln)",
-            "Picks the right Familienstand (verheiratet) and the course and day that fit Ahmet's week",
+            "Writes the date of birth correctly (14.05.1996 or \"14. Mai 1996\")",
+            "Puts the postcode before the town, as on German forms (\"50667 Köln\")",
+            "Picks the right \"Familienstand\" (\"verheiratet\") and the course and day that fit Ahmet's week",
           ],
           modelAnswer:
             "Geburtsdatum: 14.05.1996\nPostleitzahl, Wohnort: 50667 Köln\nFamilienstand: verheiratet\nKurs: Volleyball\nTag: Donnerstag",
@@ -57,10 +57,10 @@ export const GOETHE_A1_SCHREIBEN: ExamPaper = {
           maxWords: 45,
           rubric: [
             "Covers all three points: why you're learning German, when you have time, the question about the price",
-            "Uses a formal greeting and sign-off (Sehr geehrte Damen und Herren, … Mit freundlichen Grüßen)",
-            "Uses Sie forms throughout, not du",
-            "Puts the verb in second place in statements and first in yes/no questions (Am Abend habe ich Zeit. Haben Sie …?)",
-            "Asks the price correctly (Was kostet der Kurs? / Wie viel kostet der Kurs?)",
+            "Uses a formal greeting and sign-off (\"Sehr geehrte Damen und Herren\" … \"Mit freundlichen Grüßen\")",
+            "Uses \"Sie\" forms throughout, not \"du\"",
+            "Puts the verb in second place in statements and first in yes/no questions (\"Am Abend habe ich Zeit.\" \"Haben Sie …?\")",
+            "Asks the price correctly (\"Was kostet der Kurs?\" / \"Wie viel kostet der Kurs?\")",
           ],
           modelAnswer:
             "Sehr geehrte Damen und Herren,\n\nich wohne seit März in Hamburg und arbeite hier in einem Hotel. Darum möchte ich Deutsch lernen. Ich habe am Dienstag und am Donnerstag ab 18 Uhr Zeit. Was kostet der Kurs?\n\nMit freundlichen Grüßen\nLaura Smith",

@@ -466,7 +466,7 @@ export const DE_C1_WRITING: UnitWriting = {
         "Ends with what you learned from the misunderstanding"
       ],
       "modelAnswer": "Pfannkuchen ist nicht gleich Pfannkuchen\n\nAls ich nach dem Abitur von Hamburg nach Berlin zog, glaubte ich, dieselbe Sprache zu sprechen wie die Berliner. Am ersten Morgen ging ich in die Bäckerei um die Ecke und bestellte wie zu Hause „zwei Rundstücke, bitte“. Die Verkäuferin sah mich an, als käme ich vom Mond. „Sie meinen Schrippen?“, fragte sie schließlich. Ich nickte, obwohl ich keine Ahnung hatte.\n\nDann zeigte ich auf die runden, mit Marmelade gefüllten Teilchen in der Vitrine. „Und einen Berliner, bitte.“ „Det is 'n Pfannkuchen“, korrigierte sie mich, diesmal mit einem Lächeln. In Berlin heißt das Gebäck, das im übrigen Deutschland Berliner genannt wird, nämlich Pfannkuchen.\n\nEin Jahr später besuchte ich eine Freundin in München und wollte mit meinem neuen Wissen glänzen. In der Bäckerei verlangte ich selbstbewusst einen Pfannkuchen und erntete nur einen ratlosen Blick. In Bayern heißt das Ding nämlich Krapfen, und die Brötchen heißen Semmeln. Ein Pfannkuchen ist dort etwas Flaches aus der Pfanne.\n\nSeitdem frage ich in jeder neuen Stadt zuerst, wie man dort Brötchen sagt. In Stuttgart sind es Weckle, in Wien Semmeln, und zum Kaffee bestellt man in Wien keine Sahne, sondern Schlagobers.",
-      "explanation": "The anecdote maps the bakery words onto their regions: \"Rundstück\" (Hamburg), \"Schrippe\" (Berlin), \"Semmel\" (Bavaria and Austria) and \"Weckle\" (Swabia) all mean Brötchen; the jam doughnut is a \"Berliner\" in most of Germany, a \"Pfannkuchen\" in Berlin and a \"Krapfen\" in Bavaria and Austria; and cream is \"Sahne\" in Germany but \"Schlagobers\" in Vienna. The story is told in the Präteritum with direct speech, and the baker's „Det is 'n Pfannkuchen“ adds a touch of Berlin dialect."
+      "explanation": "The anecdote maps the bakery words onto their regions: \"Rundstück\" (Hamburg), \"Schrippe\" (Berlin), \"Semmel\" (Bavaria and Austria) and \"Weckle\" (Swabia) all mean Brötchen; the jam doughnut is a \"Berliner\" in most of Germany, a \"Pfannkuchen\" in Berlin and a \"Krapfen\" in Bavaria and Austria; and cream is \"Sahne\" in Germany but \"Schlagobers\" in Vienna. The story is told in the Präteritum with direct speech, and the baker's \"Det is 'n Pfannkuchen\" adds a touch of Berlin dialect."
     }
   ],
   "c1-regional-vocabulary-4": [
@@ -492,13 +492,13 @@ export const DE_C1_WRITING: UnitWriting = {
       "minWords": 120,
       "maxWords": 220,
       "rubric": [
-        "Uses reduced spoken forms („hab“, „is“, „nich“, „'n“, „ham“, „haste“, „kannste“, „geht's“, „gibt's“)",
-        "Drops subjects or objects as in speech („Kenn ich.“, „Weiß nich.“, „Mach ich.“, „Passt.“)",
-        "Uses the am-progressive („Ich bin grad am Kochen“)",
+        "Uses reduced spoken forms (\"hab\", \"is\", \"nich\", \"'n\", \"ham\", \"haste\", \"kannste\", \"geht's\", \"gibt's\")",
+        "Drops subjects or objects as in speech (\"Kenn ich.\", \"Weiß nich.\", \"Mach ich.\", \"Passt.\")",
+        "Uses the am-progressive (\"Ich bin grad am Kochen\")",
         "Keeps the chat natural, with short turns and a clear outcome"
       ],
       "modelAnswer": "Jana: Hey, haste heut Abend Zeit? Die Band aus Leipzig spielt im Lido.\nTom: Kenn ich! Die sind echt gut. Aber ich hab kein Ticket mehr gekriegt.\nJana: Kein Ding, ich hab zwei. Meine Schwester kann nich, die is krank.\nTom: Oh, gute Besserung an sie! Wann geht's los?\nJana: Einlass is um acht. Kannste mich abholen? Mein Fahrrad hat 'n Platten.\nTom: Hm, mein Auto is grad in der Werkstatt. Die ham's noch nich fertig.\nJana: Mist. Dann nehmen wir halt die U-Bahn, ne?\nTom: Klar. Ich bin aber grad noch am Kochen. Treffen wir uns um halb acht am Kotti?\nJana: Passt. Ich bring die Tickets mit.\nTom: Super. Gibt's da eigentlich was zu essen?\nJana: Weiß nich genau. Iss lieber vorher was.\nTom: Mach ich. Und danach noch 'n Bier?\nJana: Mal sehen, ich muss morgen früh raus. Bis gleich!\nTom: Bis gleich!",
-      "explanation": "The chat is written as people speak: „haste“, „kannste“, „hab“, „is“, „nich“, „'n“, „ham's“, „geht's“ and „gibt's“ are the reduced forms of habe, ist, nicht, ein, haben es and gibt es. Subjects and objects are dropped where the context makes them clear („Kenn ich“, „Weiß nich genau“, „Mach ich“, „Passt“), and „Ich bin grad noch am Kochen“ is the colloquial am-progressive. None of this belongs in neutral written German."
+      "explanation": "The chat is written as people speak: \"haste\", \"kannste\", \"hab\", \"is\", \"nich\", \"'n\", \"ham's\", \"geht's\" and \"gibt's\" are the reduced forms of habe, ist, nicht, ein, haben es and gibt es. Subjects and objects are dropped where the context makes them clear (\"Kenn ich\", \"Weiß nich genau\", \"Mach ich\", \"Passt\"), and \"Ich bin grad noch am Kochen\" is the colloquial am-progressive. None of this belongs in neutral written German."
     }
   ],
   "c1-colloquial-german-6": [
@@ -508,13 +508,13 @@ export const DE_C1_WRITING: UnitWriting = {
       "minWords": 120,
       "maxWords": 220,
       "rubric": [
-        "Uses at least five colloquial idioms („die Nase voll haben“, „jdn versetzen“, „jdm auf den Keks gehen“, „sich den Kopf zerbrechen“, „null Bock haben“, „Kohldampf haben“, „Schwein haben“, „Das ist mir Wurst“)",
-        "Uses the idioms with the right grammar („geht mir auf den Keks“, „hat mich versetzt“, „hab mir den Kopf zerbrochen“)",
+        "Uses at least five colloquial idioms (\"die Nase voll haben\", \"jdn versetzen\", \"jdm auf den Keks gehen\", \"sich den Kopf zerbrechen\", \"null Bock haben\", \"Kohldampf haben\", \"Schwein haben\", \"Das ist mir Wurst\")",
+        "Uses the idioms with the right grammar (\"geht mir auf den Keks\", \"hat mich versetzt\", \"hab mir den Kopf zerbrochen\")",
         "Keeps a consistent colloquial register without vulgar words",
         "Gives the week a structure (day by day) and ends with a turning point"
       ],
       "modelAnswer": "Freitag, spät abends\n\nWas für eine Woche! Ich hab echt die Nase voll.\n\nAm Montag hat mich Lukas versetzt. Wir waren um sieben vorm Kino verabredet, und ich stand eine halbe Stunde allein da. Seine Ausrede am nächsten Tag: Er hätte es total verpeilt. Na super.\n\nAm Dienstag ging dann der Stress im Büro los. Mein neuer Teamleiter geht mir so was von auf den Keks: Ständig will er wissen, woran ich gerade sitze, und jede Mail liest er dreimal. Ich hab mir die halbe Nacht den Kopf darüber zerbrochen, ob ich mit ihm reden soll.\n\nMittwoch und Donnerstag hatte ich null Bock auf irgendwas. Nicht mal auf Sport. Abends hatte ich zwar Kohldampf, aber keine Lust zu kochen, also gab's zweimal Pizza vom Lieferdienst.\n\nUnd heute? Heute hatte ich zur Abwechslung mal Schwein: Die Präsentation, vor der ich solche Panik hatte, ist ausgefallen, weil der Beamer nicht ging. Und mein Teamleiter hat sich sogar für sein Gemecker entschuldigt.\n\nOb Lukas sich noch meldet, ist mir inzwischen ehrlich gesagt Wurst. Morgen schlaf ich erst mal aus. Danach sieht die Welt bestimmt wieder anders aus.",
-      "explanation": "Colloquial idioms carry the entry: „die Nase voll haben“ (be fed up), „jemanden versetzen“ (stand someone up), „jemandem auf den Keks gehen“ (with the dative), „sich den Kopf zerbrechen“, „null Bock haben auf“, „Kohldampf haben“ (be starving), „Schwein haben“ (be lucky) and „Das ist mir Wurst“ (I couldn't care less). Reduced forms like „hab“, „vorm“, „gab's“ and „schlaf“ fit the private register, and nothing slides into vulgar language."
+      "explanation": "Colloquial idioms carry the entry: \"die Nase voll haben\" (be fed up), \"jemanden versetzen\" (stand someone up), \"jemandem auf den Keks gehen\" (with the dative), \"sich den Kopf zerbrechen\", \"null Bock haben auf\", \"Kohldampf haben\" (be starving), \"Schwein haben\" (be lucky) and \"Das ist mir Wurst\" (I couldn't care less). Reduced forms like \"hab\", \"vorm\", \"gab's\" and \"schlaf\" fit the private register, and nothing slides into vulgar language."
     }
   ],
   "c1-transform-einleitungssatz": [

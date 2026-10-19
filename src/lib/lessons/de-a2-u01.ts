@@ -91,7 +91,7 @@ export const DE_A2_U01: Lesson[] = [
         body: [
           "Only \"haben\" changes for the person: \"ich habe\", \"du hast\", \"er/sie/es hat\", \"wir haben\", \"ihr habt\", \"sie/Sie haben\". The participle is frozen: \"gekauft\" is the same for I, you, she and they.",
           "So one participle plus the six forms of \"haben\" you already know gives you the past for everyone: \"ich habe gekauft\", \"du hast gekauft\", \"sie hat gekauft\", \"wir haben gekauft\", \"ihr habt gekauft\", \"sie haben gekauft\".",
-          "A classic slip is to put the ending on the participle: *wir haben gekaufen*. The person is already shown by \"haben\"; the participle never takes a personal ending.",
+          "A classic slip is to put the ending on the participle: \"*wir haben gekaufen*\". The person is already shown by \"haben\"; the participle never takes a personal ending.",
         ],
         examples: [
           { es: "Du hast Kaffee gekauft.", en: "You bought coffee. (to a friend)" },
@@ -126,16 +126,16 @@ export const DE_A2_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "I bought a jacket.",
         answer: "Ich habe eine Jacke gekauft.",
-        explanation: "\"Ich habe\" + \"gekauft\" at the end; \"die Jacke\" becomes \"eine Jacke\" in the accusative (feminine doesn't change).",
+        explanation: "\"Ich habe\" + \"gekauft\" at the end; \"eine Jacke\" looks the same in the accusative, because feminine articles don't change.",
       },
       {
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Did you listen to music? (to a friend)",
+        source: "Did you listen to music?",
         answer: "Hast du Musik gehört?",
         altAnswers: ["Habt ihr Musik gehört?", "Haben Sie Musik gehört?"],
-        explanation: "No did in German: the question starts with \"hast\", and \"hören\" gives \"gehört\". Listen to is just \"hören\" with a direct object.",
+        explanation: "No did in German: the question starts with the auxiliary (\"hast du\", \"habt ihr\" or \"Haben Sie\"), and \"hören\" gives \"gehört\". Listen to is just \"hören\" with a direct object.",
       },
       {
         type: "translate",
@@ -210,7 +210,7 @@ export const DE_A2_U01: Lesson[] = [
     slug: "a2-perfekt-pattern-gemacht",
     level: "DE-A2",
     number: 2,
-    title: "Pattern Practice: Ich Habe Gemacht, Du Hast Gemacht",
+    title: "Pattern Practice: Ich habe gemacht, du hast gemacht",
     summary: "Drill one frame through all six persons until habe, hast, hat, haben, habt, haben + ge-...-t comes automatically.",
     duration: "10 min",
     sections: [
@@ -218,7 +218,7 @@ export const DE_A2_U01: Lesson[] = [
         heading: "The singular: habe, hast, hat",
         body: [
           "One frame, three people: \"Ich habe Kaffee gekauft\", \"Du hast Kaffee gekauft\", \"Er hat Kaffee gekauft\". Only the auxiliary moves; the participle sits at the end and never changes.",
-          "Watch \"du hast\" and \"er hat\": the b of \"haben\" disappears in both. *Du habst* and *er habt* are common slips.",
+          "Watch \"du hast\" and \"er hat\": the b of \"haben\" disappears in both. \"*Du habst*\" and \"*er habt*\" are common slips.",
           "Polite \"Sie\" uses the plural form \"haben\" even for one person: \"Haben Sie gekocht?\"",
         ],
         examples: [
@@ -255,7 +255,7 @@ export const DE_A2_U01: Lesson[] = [
         ],
         examples: [
           { es: "Wir haben Gemüse gekauft.", en: "We bought vegetables." },
-          { es: "Ihr habt zu laut Musik gehört.", en: "You listened to music too loud. (to friends)" },
+          { es: "Ihr habt zu laut Musik gehört.", en: "You listened to music too loudly. (to friends)" },
           { es: "Sie haben Fußball gespielt.", en: "They played football." },
           { es: "Haben Sie das gesagt?", en: "Did you say that? (polite)" },
           { es: "Meine Eltern haben Fisch gekocht.", en: "My parents cooked fish." },
@@ -267,7 +267,7 @@ export const DE_A2_U01: Lesson[] = [
             prompt: "Translate into German.",
             source: "We bought vegetables.",
             answer: "Wir haben Gemüse gekauft.",
-            explanation: "\"Wir haben\" + \"gekauft\". \"Das Gemüse\" is uncountable in German, like English vegetables used as a mass.",
+            explanation: "\"Wir haben\" + \"gekauft\". \"Das Gemüse\" is a singular mass noun in German, although English says vegetables in the plural.",
           },
           {
             type: "multiple-choice",
@@ -297,7 +297,7 @@ export const DE_A2_U01: Lesson[] = [
             prompt: "Translate into German.",
             source: "I cooked and you did the dishes. (to a friend)",
             answer: "Ich habe gekocht und du hast gespült.",
-            altAnswers: ["Ich habe gekocht, und du hast gespült."],
+            altAnswers: ["Ich habe gekocht, und du hast gespült.", "Ich habe gekocht und du hast das Geschirr gespült."],
             explanation: "Two Perfekt clauses: \"ich habe gekocht\" and \"du hast gespült\". \"Spülen\" means to wash up.",
           },
           {
@@ -398,7 +398,7 @@ export const DE_A2_U01: Lesson[] = [
     slug: "a2-perfekt-satzklammer",
     level: "DE-A2",
     number: 3,
-    title: "The Sentence Bracket: Hat ... Gemacht",
+    title: "The Sentence Bracket: Hat ... gemacht",
     summary: "Put the auxiliary in second place and the participle at the very end, with everything else in between.",
     duration: "12 min",
     sections: [
@@ -438,7 +438,7 @@ export const DE_A2_U01: Lesson[] = [
       {
         heading: "The English-order trap",
         body: [
-          "English puts the object after the verb: I bought a book. Copying that gives *Ich habe gekauft ein Buch*, the most common Perfekt mistake. In German the object comes first and the participle closes the sentence: \"Ich habe ein Buch gekauft.\"",
+          "English puts the object after the verb: I bought a book. Copying that gives \"*Ich habe gekauft ein Buch*\", the most common Perfekt mistake. In German the object comes first and the participle closes the sentence: \"Ich habe ein Buch gekauft.\"",
           "A good habit: once you've said the auxiliary, park the participle in your head and say it only when you've run out of everything else.",
         ],
         examples: [
@@ -453,7 +453,7 @@ export const DE_A2_U01: Lesson[] = [
             question: "Which sentence is correct for: He asked his grandma.",
             options: ["Er hat seine Oma gefragt.", "Er hat gefragt seine Oma.", "Er gefragt hat seine Oma.", "Er seine Oma hat gefragt."],
             correctIndex: 0,
-            explanation: "Auxiliary second, participle last: \"hat ... gefragt\". *Er hat gefragt seine Oma* copies English word order.",
+            explanation: "Auxiliary second, participle last: \"hat ... gefragt\". \"*Er hat gefragt seine Oma*\" copies English word order.",
           },
           {
             type: "translate",
@@ -469,7 +469,7 @@ export const DE_A2_U01: Lesson[] = [
         heading: "Time first: verb still second",
         body: [
           "German often starts with a time word: \"Gestern\", \"Am Samstag\", \"Letzte Woche\". The rule from the Beginner level still applies: the conjugated verb, here the auxiliary, stays in position 2, so the subject moves after it: \"Gestern habe ich Pizza gemacht.\"",
-          "*Gestern ich habe Pizza gemacht* is the English-order slip. Count the time phrase as one block, however long it is: \"Am Samstagabend\" is position 1, \"habe\" is position 2.",
+          "\"*Gestern ich habe Pizza gemacht*\" is the English-order slip. Count the time phrase as one block, however long it is: \"Am Samstagabend\" is position 1, \"habe\" is position 2.",
           "The participle doesn't care what's at the front: it's always last.",
         ],
         examples: [
@@ -495,7 +495,7 @@ export const DE_A2_U01: Lesson[] = [
             en: "This morning [we bought] bread rolls.",
             sentence: "Heute Morgen ___ Brötchen gekauft.",
             answer: "haben wir",
-            explanation: "A time phrase in position 1 pushes the subject behind the verb: \"haben wir\", not *wir haben*.",
+            explanation: "A time phrase in position 1 pushes the subject behind the verb: \"haben wir\", not \"*wir haben*\".",
           },
           {
             type: "listen-choose",
@@ -515,7 +515,7 @@ export const DE_A2_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "I bought a book.",
         answer: "Ich habe ein Buch gekauft.",
-        explanation: "Object inside the bracket, participle at the end: never *Ich habe gekauft ein Buch*.",
+        explanation: "Object inside the bracket, participle at the end: never \"*Ich habe gekauft ein Buch*\".",
       },
       {
         type: "translate",
@@ -600,7 +600,7 @@ export const DE_A2_U01: Lesson[] = [
       {
         heading: "-et after -t and -d: gearbeitet, gewartet, geredet",
         body: [
-          "Try saying *gearbeitt* or *gewartt*: you can't hear the ending. So when the stem already ends in -t or -d, German slips in an e: \"arbeiten\" → \"gearbeitet\", \"warten\" → \"gewartet\", \"reden\" → \"geredet\", \"kosten\" → \"gekostet\", \"baden\" → \"gebadet\".",
+          "Try saying \"*gearbeitt*\" or \"*gewartt*\": you can't hear the ending. So when the stem already ends in -t or -d, German slips in an e: \"arbeiten\" → \"gearbeitet\", \"warten\" → \"gewartet\", \"reden\" → \"geredet\", \"kosten\" → \"gekostet\", \"baden\" → \"gebadet\".",
           "It's the same thing you met in the present tense (\"er arbeitet\", \"du wartest\"), and the same thing English does with wanted and needed: an extra vowel so the ending stays audible.",
           "A useful check: if the er form in the present ends in -et (\"er arbeitet\", \"er wartet\"), the participle does too.",
         ],
@@ -626,14 +626,14 @@ export const DE_A2_U01: Lesson[] = [
             en: "I [worked] until eight o'clock.",
             sentence: "Ich habe bis acht Uhr ___.",
             answer: "gearbeitet",
-            explanation: "Stem \"arbeit-\" ends in -t, so -et: \"gearbeitet\", not *gearbeit*.",
+            explanation: "Stem \"arbeit-\" ends in -t, so -et: \"gearbeitet\", not \"*gearbeit*\".",
           },
         ],
       },
       {
         heading: "-et after a consonant + m or n: geöffnet, geregnet",
         body: [
-          "The same e appears when the stem ends in a consonant followed by m or n, because *geöffnt* is unpronounceable: \"öffnen\" → \"geöffnet\", \"regnen\" → \"geregnet\", \"zeichnen\" → \"gezeichnet\", \"atmen\" → \"geatmet\".",
+          "The same e appears when the stem ends in a consonant followed by m or n, because \"*geöffnt*\" is unpronounceable: \"öffnen\" → \"geöffnet\", \"regnen\" → \"geregnet\", \"zeichnen\" → \"gezeichnet\", \"atmen\" → \"geatmet\".",
           "A plain -n after a vowel or l or r doesn't need it: \"lernen\" → \"gelernt\", \"wohnen\" → \"gewohnt\".",
           "More everyday regular verbs to add to your stock: \"putzen\" (to clean) → \"geputzt\", \"tanzen\" → \"getanzt\", \"zeigen\" (to show) → \"gezeigt\", \"brauchen\" (to need) → \"gebraucht\", \"suchen\" (to look for) → \"gesucht\".",
         ],
@@ -667,7 +667,7 @@ export const DE_A2_U01: Lesson[] = [
         heading: "When? Past time markers",
         body: [
           "Pin your events down in time: \"gestern\" (yesterday), \"gestern Abend\" (last night, yesterday evening), \"vorgestern\" (the day before yesterday), \"letzte Woche\" (last week), \"letzten Monat\" (last month), \"letztes Jahr\" (last year), \"am Wochenende\" (at the weekend).",
-          "\"Letzt-\" takes the ending of the noun's gender in the accusative: \"letzten Montag\" (der), \"letzte Woche\" (die), \"letztes Jahr\" (das). No preposition: English says last week, German says \"letzte Woche\", never *in letzte Woche*.",
+          "\"Letzt-\" takes the ending of the noun's gender in the accusative: \"letzten Montag\" (der), \"letzte Woche\" (die), \"letztes Jahr\" (das). No preposition: English says last week, German says \"letzte Woche\", never \"*in letzte Woche*\".",
           "Careful: last night is usually \"gestern Abend\". \"Heute Nacht\" can mean last night in the sense of during the night just gone, mostly when you talk about sleep.",
         ],
         examples: [
@@ -714,7 +714,6 @@ export const DE_A2_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "Did you wait long? (to a friend)",
         answer: "Hast du lange gewartet?",
-        altAnswers: ["Habt ihr lange gewartet?", "Haben Sie lange gewartet?"],
         explanation: "\"Warten\" → \"gewartet\". Long for time is \"lange\".",
       },
       {
@@ -752,8 +751,8 @@ export const DE_A2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which participle is spelt correctly?",
-        options: ["geredet", "geredt", "geredeten", "geret"],
+        question: "Which is correct for: We talked for a long time.",
+        options: ["Wir haben lange geredet.", "Wir haben lange geredt.", "Wir haben lange geredeten.", "Wir haben lange geret."],
         correctIndex: 0,
         explanation: "\"Reden\" has a stem in -d, so it takes -et: \"geredet\".",
       },
@@ -800,8 +799,8 @@ export const DE_A2_U01: Lesson[] = [
         heading: "Nicht before the participle, kein for ein",
         body: [
           "To negate a Perfekt sentence, put \"nicht\" right before the participle (or before a place or manner phrase that goes with it): \"Ich habe nicht gearbeitet\", \"Er hat nicht lange gewartet\", \"Wir haben nicht im Garten gearbeitet.\"",
-          "Specific things like \"den Film\" or \"das Buch\" stay where they are and \"nicht\" follows them: \"Ich habe den Film nicht gehört.\"",
-          "If the object would have \"ein\" or no article, use \"kein\" instead, exactly as in the present: \"Ich habe ein Brot gekauft\" → \"Ich habe kein Brot gekauft\", \"Ich habe Milch gekauft\" → \"Ich habe keine Milch gekauft\". Masculine accusative takes \"keinen\": \"Ich habe keinen Kuchen gekauft.\" A common slip is *nicht ein*: German almost never says that.",
+          "Specific things like \"den Film\" or \"das Buch\" stay where they are and \"nicht\" follows them: \"Ich habe das Lied nicht gehört.\"",
+          "If the object would have \"ein\" or no article, use \"kein\" instead, exactly as in the present: \"Ich habe ein Brot gekauft\" → \"Ich habe kein Brot gekauft\", \"Ich habe Milch gekauft\" → \"Ich habe keine Milch gekauft\". Masculine accusative takes \"keinen\": \"Ich habe keinen Kuchen gekauft.\" A common slip is \"*nicht ein*\": German almost never says that.",
         ],
         examples: [
           { es: "Ich habe gestern nicht gearbeitet.", en: "I didn't work yesterday." },
@@ -858,7 +857,6 @@ export const DE_A2_U01: Lesson[] = [
             prompt: "Translate into German.",
             source: "What did you do at the weekend? (to a friend)",
             answer: "Was hast du am Wochenende gemacht?",
-            altAnswers: ["Was habt ihr am Wochenende gemacht?", "Was haben Sie am Wochenende gemacht?"],
             explanation: "Question word, auxiliary, subject, the rest, participle: \"Was hast du ... gemacht?\"",
           },
           {
@@ -914,9 +912,9 @@ export const DE_A2_U01: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "I didn't hear the film.",
-        answer: "Ich habe den Film nicht gehört.",
-        explanation: "A specific object (\"den Film\") comes before \"nicht\"; \"nicht\" is then right before the participle.",
+        source: "I didn't hear the song.",
+        answer: "Ich habe das Lied nicht gehört.",
+        explanation: "A specific object (\"das Lied\") comes before \"nicht\"; \"nicht\" is then right before the participle.",
       },
       {
         type: "translate",
@@ -991,7 +989,7 @@ export const DE_A2_U01: Lesson[] = [
     slug: "a2-perfekt-short-adverbs",
     level: "DE-A2",
     number: 6,
-    title: "Schon, Noch Nicht, Gestern: Adverbs in the Perfekt",
+    title: "Schon, Noch nicht, Gestern: Adverbs in the Perfekt",
     summary: "Fit schon, noch nicht, noch nie, lange and time words inside the sentence bracket.",
     duration: "11 min",
     sections: [
@@ -999,7 +997,7 @@ export const DE_A2_U01: Lesson[] = [
         heading: "Inside the bracket",
         body: [
           "Short adverbs like \"schon\" (already), \"noch nicht\" (not yet), \"gestern\" (yesterday), \"lange\" (for a long time), \"oft\" (often) and \"heute\" (today) sit inside the bracket, usually right after the auxiliary and subject: \"Ich habe schon gekocht.\"",
-          "English often puts them at the end: I've cooked already. Copying that gives *Ich habe gekocht schon*. Nothing goes after the participle in a simple sentence.",
+          "English often puts them at the end: I've cooked already. Copying that gives \"*Ich habe gekocht schon*\". Nothing goes after the participle in a simple sentence.",
           "If there's a pronoun object, it usually comes before the adverb: \"Ich habe ihn schon gefragt\" (I've already asked him).",
         ],
         examples: [
@@ -1017,7 +1015,7 @@ export const DE_A2_U01: Lesson[] = [
             source: "I've already cooked.",
             answer: "Ich habe schon gekocht.",
             altAnswers: ["Ich habe bereits gekocht."],
-            explanation: "\"Schon\" goes inside the bracket, before the participle: never *Ich habe gekocht schon*.",
+            explanation: "\"Schon\" goes inside the bracket, before the participle: never \"*Ich habe gekocht schon*\".",
           },
           {
             type: "word-order",
@@ -1190,7 +1188,7 @@ export const DE_A2_U01: Lesson[] = [
     slug: "a2-dialogue-wochenende",
     level: "DE-A2",
     number: 7,
-    title: "Dialogue Lab: Wie War Dein Wochenende?",
+    title: "Dialogue Lab: Wie war dein Wochenende?",
     summary: "Monday-morning small talk at work: ask about the weekend, tell what you did and react.",
     duration: "12 min",
     sections: [
@@ -1229,7 +1227,7 @@ export const DE_A2_U01: Lesson[] = [
       {
         heading: "Telling: what you did",
         body: [
-          "Tim tells his weekend: \"Am Samstag habe ich Fußball gespielt, und am Abend haben wir einen Film geguckt.\" \"Gucken\" (to watch, to look) is the everyday spoken word in much of Germany: \"einen Film gucken\", \"Fernsehen gucken\".",
+          "Tim tells his weekend: \"Am Samstag habe ich Fußball gespielt, und am Abend haben wir einen Film geguckt.\" \"Gucken\" (to watch, to look) is the everyday spoken word in much of Germany: \"einen Film gucken\", \"eine Serie gucken\".",
           "Notice how a story moves: time word, auxiliary, subject, the rest, participle. Each new time word restarts the pattern: \"Am Sonntag habe ich nichts gemacht. Ich habe nur gechillt.\"",
           "\"Chillen\" is borrowed from English and behaves like any regular verb: \"gechillt\". Young Germans use it all the time.",
         ],
@@ -1324,7 +1322,7 @@ export const DE_A2_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "We cleaned the flat and did the shopping.",
         answer: "Wir haben die Wohnung geputzt und eingekauft.",
-        altAnswers: ["Wir haben die Wohnung geputzt und Einkäufe gemacht."],
+        altAnswers: ["Wir haben die Wohnung geputzt und Einkäufe gemacht.", "Wir haben die Wohnung geputzt und sind einkaufen gegangen."],
         explanation: "\"Eingekauft\" (did the shopping) is a chunk for now; separable participles come in Unit 3. One \"haben\" can serve both participles.",
       },
       {
@@ -1384,23 +1382,23 @@ export const DE_A2_U01: Lesson[] = [
     duration: "12 min",
     sections: [
       {
-        heading: "Ending slips: *gearbeit*, *gewart*, *geputzet*",
+        heading: "Ending slips: \"*gearbeit*\", \"*gewart*\", \"*geputzet*\"",
         body: [
-          "These sentences come from learners' messages. The first group gets the ending wrong. *Ich habe bis sechs gearbeit* misses the e: the stem \"arbeit-\" ends in t, so the participle is \"gearbeitet\". Same with *er hat gewart* → \"er hat gewartet\".",
-          "The opposite slip adds an e where none is needed: *Wir haben geputzet* → \"Wir haben geputzt\". Only stems in -t, -d or consonant + m/n take -et.",
+          "These sentences come from learners' messages. The first group gets the ending wrong. \"*Ich habe bis sechs gearbeit*\" misses the e: the stem \"arbeit-\" ends in t, so the participle is \"gearbeitet\". Same with \"*er hat gewart*\" → \"er hat gewartet\".",
+          "The opposite slip adds an e where none is needed: \"*Wir haben geputzet*\" → \"Wir haben geputzt\". Only stems in -t, -d or consonant + m/n take -et.",
           "Quick test: say the er form in the present. \"Er arbeitet\", \"er wartet\" have -et; \"er putzt\", \"er macht\" don't. The participle follows the same pattern.",
         ],
         examples: [
-          { es: "Ich habe bis sechs gearbeitet.", en: "I worked until six. (not *gearbeit*)" },
-          { es: "Er hat am Bahnhof gewartet.", en: "He waited at the station. (not *gewart*)" },
-          { es: "Wir haben das Auto geputzt.", en: "We cleaned the car. (not *geputzet*)" },
-          { es: "Sie hat mit ihrer Mutter geredet.", en: "She talked to her mother. (not *geredt*)" },
+          { es: "Ich habe bis sechs gearbeitet.", en: "I worked until six. (not \"*gearbeit*\")" },
+          { es: "Er hat am Bahnhof gewartet.", en: "He waited at the station. (not \"*gewart*\")" },
+          { es: "Wir haben das Auto geputzt.", en: "We cleaned the car. (not \"*geputzet*\")" },
+          { es: "Sie hat mit ihrer Mutter geredet.", en: "She talked to her mother. (not \"*geredt*\")" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Er hat am Bahnhof gewart.* Write the correct German for: He waited at the station.",
+            prompt: "A learner wrote \"*Er hat am Bahnhof gewart.*\" Write the correct German for: He waited at the station.",
             source: "He waited at the station.",
             answer: "Er hat am Bahnhof gewartet.",
             explanation: "\"Warten\" has a stem in -t, so the participle needs -et: \"gewartet\".",
@@ -1416,30 +1414,30 @@ export const DE_A2_U01: Lesson[] = [
         ],
       },
       {
-        heading: "Infinitive instead of participle: *wir haben machen*",
+        heading: "Infinitive instead of participle: \"*wir haben machen*\"",
         body: [
-          "After \"haben\" in the Perfekt you need the participle, not the infinitive: *Wir haben Pizza machen* → \"Wir haben Pizza gemacht\". The infinitive at the end belongs to modal verbs (\"Wir wollen Pizza machen\"), and mixing the two patterns is a classic slip.",
-          "The reverse also happens: *Ich muss gearbeitet* → \"Ich muss arbeiten\". Modal + infinitive; haben + participle.",
-          "And don't give the participle an ending: *Sie haben gekaufen* → \"Sie haben gekauft\".",
+          "After \"haben\" in the Perfekt you need the participle, not the infinitive: \"*Wir haben Pizza machen*\" → \"Wir haben Pizza gemacht\". The infinitive at the end belongs to modal verbs (\"Wir wollen Pizza machen\"), and mixing the two patterns is a classic slip.",
+          "The reverse also happens: \"*Ich muss gearbeitet*\" → \"Ich muss arbeiten\". Modal + infinitive; haben + participle.",
+          "And don't give the participle an ending: \"*Sie haben gekaufen*\" → \"Sie haben gekauft\".",
         ],
         examples: [
-          { es: "Wir haben Pizza gemacht.", en: "We made pizza. (not *machen*)" },
+          { es: "Wir haben Pizza gemacht.", en: "We made pizza. (not \"*machen*\")" },
           { es: "Wir wollen Pizza machen.", en: "We want to make pizza." },
-          { es: "Sie haben ein Sofa gekauft.", en: "They bought a sofa. (not *gekaufen*)" },
-          { es: "Ich muss heute arbeiten.", en: "I have to work today. (not *gearbeitet*)" },
+          { es: "Sie haben ein Sofa gekauft.", en: "They bought a sofa. (not \"*gekaufen*\")" },
+          { es: "Ich muss heute arbeiten.", en: "I have to work today. (not \"*gearbeitet*\")" },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Wir haben Pizza machen.* Write the correct German for: We made pizza.",
+            prompt: "A learner wrote \"*Wir haben Pizza machen.*\" Write the correct German for: We made pizza.",
             source: "We made pizza.",
             answer: "Wir haben Pizza gemacht.",
             explanation: "\"Haben\" + participle \"gemacht\"; the infinitive \"machen\" only goes with modals.",
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "Which is correct for: They bought a sofa.",
             options: ["Sie haben ein Sofa gekauft.", "Sie haben ein Sofa gekaufen.", "Sie haben ein Sofa kaufen.", "Sie haben ein Sofa gekauf."],
             correctIndex: 0,
             explanation: "The participle is always \"gekauft\": ge- + stem + -t, no personal ending.",
@@ -1449,9 +1447,9 @@ export const DE_A2_U01: Lesson[] = [
       {
         heading: "Word order and the missing auxiliary",
         body: [
-          "*Ich habe gekauft ein Buch* puts the participle in the middle, English-style. Fix: \"Ich habe ein Buch gekauft.\"",
-          "*Ich gekauft ein Buch* drops the auxiliary altogether, copying English I bought. German always needs both parts: \"Ich habe ein Buch gekauft.\"",
-          "*Gestern ich habe gekocht* breaks verb-second. Fix: \"Gestern habe ich gekocht.\"",
+          "\"*Ich habe gekauft ein Buch*\" puts the participle in the middle, English-style. Fix: \"Ich habe ein Buch gekauft.\"",
+          "\"*Ich gekauft ein Buch*\" drops the auxiliary altogether, copying English I bought. German always needs both parts: \"Ich habe ein Buch gekauft.\"",
+          "\"*Gestern ich habe gekocht*\" breaks verb-second. Fix: \"Gestern habe ich gekocht.\"",
         ],
         examples: [
           { es: "Ich habe ein Buch gekauft.", en: "I bought a book." },
@@ -1463,7 +1461,7 @@ export const DE_A2_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Gestern ich gekocht.* Write the correct German for: Yesterday I cooked.",
+            prompt: "A learner wrote \"*Gestern ich gekocht.*\" Write the correct German for: Yesterday I cooked.",
             source: "Yesterday I cooked.",
             answer: "Gestern habe ich gekocht.",
             altAnswers: ["Ich habe gestern gekocht."],
@@ -1483,7 +1481,7 @@ export const DE_A2_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Ich habe bis sechs gearbeit.* Write it correctly: I worked until six.",
+        prompt: "A learner wrote \"*Ich habe bis sechs gearbeit.*\" Write it correctly: I worked until six.",
         source: "I worked until six.",
         answer: "Ich habe bis sechs gearbeitet.",
         altAnswers: ["Ich habe bis sechs Uhr gearbeitet."],
@@ -1492,7 +1490,7 @@ export const DE_A2_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Sie hat geöffnt das Fenster.* Write it correctly: She opened the window.",
+        prompt: "A learner wrote \"*Sie hat geöffnt das Fenster.*\" Write it correctly: She opened the window.",
         source: "She opened the window.",
         answer: "Sie hat das Fenster geöffnet.",
         explanation: "Two fixes: \"geöffnet\" with -et after f + n, and the participle at the end.",
@@ -1500,7 +1498,7 @@ export const DE_A2_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Mein Vater gekocht Suppe.* Write it correctly: My father cooked soup.",
+        prompt: "A learner wrote \"*Mein Vater gekocht Suppe.*\" Write it correctly: My father cooked soup.",
         source: "My father cooked soup.",
         answer: "Mein Vater hat Suppe gekocht.",
         altAnswers: ["Mein Vater hat eine Suppe gekocht."],
@@ -1509,7 +1507,7 @@ export const DE_A2_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Habt ihr Fußball spielen?* Write it correctly: Did you play football? (to friends)",
+        prompt: "A learner wrote \"*Habt ihr Fußball spielen?*\" Write it correctly: Did you play football? (to friends)",
         source: "Did you play football? (to friends)",
         answer: "Habt ihr Fußball gespielt?",
         explanation: "After \"haben\" in the Perfekt: the participle \"gespielt\", not the infinitive.",
@@ -1527,12 +1525,12 @@ export const DE_A2_U01: Lesson[] = [
         en: "It [rained] at the weekend.",
         sentence: "Am Wochenende hat es ___.",
         answer: "geregnet",
-        explanation: "\"Regnen\" → \"geregnet\": not *geregnt*.",
+        explanation: "\"Regnen\" → \"geregnet\": not \"*geregnt*\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Wir haben gekaufen neue Stühle.* Write it correctly: We bought new chairs.",
+        prompt: "A learner wrote \"*Wir haben gekaufen neue Stühle.*\" Write it correctly: We bought new chairs.",
         source: "We bought new chairs.",
         answer: "Wir haben neue Stühle gekauft.",
         explanation: "\"Gekauft\" has no personal ending, and it goes after the object.",
@@ -1780,7 +1778,7 @@ export const DE_A2_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is spelt correctly?",
+            question: "Which is spelt correctly for: At the weekend I cleaned the kitchen.",
             options: ["Am Wochenende habe ich die Küche geputzt.", "Am wochenende habe ich die küche geputzt.", "Am Wochenende habe ich die Küche Geputzt.", "am Wochenende Habe ich die Küche geputzt."],
             correctIndex: 0,
             explanation: "Nouns (\"Wochenende\", \"Küche\") capital; verbs and participles small.",
@@ -1823,7 +1821,7 @@ export const DE_A2_U01: Lesson[] = [
         body: [
           "\"Ihr\" with a capital means your (polite): \"Ihr Paket\", \"Ihre Rechnung\". Small \"ihr\" has three jobs: you (plural, informal) as a subject (\"ihr habt\"), her (\"ihr Bruder\") and their (\"ihr Haus\").",
           "Emails and letters show it best. To a friend: \"Liebe Anna, ... dein Jonas\" (small du-words). To a stranger: \"Sehr geehrte Frau Becker, ... Ihr Jonas Weber\" or more commonly \"Mit freundlichen Grüßen\". The polite pronouns \"Sie\", \"Ihnen\", \"Ihr\" always take a capital.",
-          "You may still see \"Du\" and \"Dein\" capitalised in letters: that's an allowed, old-fashioned courtesy, but small letters are standard.",
+          "You will also see \"Du\" and \"Dein\" capitalised in letters and emails: that's an allowed courtesy, but small letters are the standard.",
         ],
         examples: [
           { es: "Habt ihr gestern gefeiert?", en: "Did you celebrate yesterday? (to friends)" },
@@ -1995,7 +1993,6 @@ export const DE_A2_U01: Lesson[] = [
             prompt: "Translate into German.",
             source: "Have you studied for Monday yet? (to a friend)",
             answer: "Hast du schon für Montag gelernt?",
-            altAnswers: ["Habt ihr schon für Montag gelernt?"],
             explanation: "Yet in a question = \"schon\"; \"lernen\" → \"gelernt\".",
           },
           {
@@ -2014,7 +2011,6 @@ export const DE_A2_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "What did you do on Saturday? (to a friend)",
         answer: "Was hast du am Samstag gemacht?",
-        altAnswers: ["Was habt ihr am Samstag gemacht?", "Was haben Sie am Samstag gemacht?"],
         explanation: "W-word, \"hast du\", time, \"gemacht\".",
       },
       {
@@ -2074,6 +2070,7 @@ export const DE_A2_U01: Lesson[] = [
         prompt: "Translate into German.",
         source: "My parents worked in the garden all weekend.",
         answer: "Meine Eltern haben das ganze Wochenende im Garten gearbeitet.",
+        altAnswers: ["Das ganze Wochenende haben meine Eltern im Garten gearbeitet."],
         explanation: "\"Das ganze Wochenende\" (all weekend) before the place \"im Garten\".",
       },
       {

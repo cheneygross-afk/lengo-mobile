@@ -84,7 +84,7 @@ export const GOETHE_A2_HOEREN: ExamPaper = {
           question: "Wie ist das Wetter morgen Nachmittag?",
           options: ["Sonnig und warm.", "Es regnet.", "Es schneit."],
           answer: 1,
-          explanation: "„Am Nachmittag kommen von Westen Wolken und es beginnt zu regnen.“ The sunshine is only in the morning (am Vormittag).",
+          explanation: "\"Am Nachmittag kommen von Westen Wolken und es beginnt zu regnen.\" The sunshine is only in the morning (\"am Vormittag\").",
         },
         {
           n: 2,
@@ -92,7 +92,7 @@ export const GOETHE_A2_HOEREN: ExamPaper = {
           question: "Was soll Herr Neumann machen?",
           options: ["Am Donnerstag kommen.", "Im Fitnessstudio anrufen.", "Die Trainerin besuchen."],
           answer: 1,
-          explanation: "„Bitte rufen Sie uns kurz zurück“: zurückrufen = to call back. Thursday's class is cancelled (fällt aus).",
+          explanation: "\"Bitte rufen Sie uns kurz zurück\": \"zurückrufen\" = to call back. Thursday's class is cancelled (\"fällt aus\").",
         },
         {
           n: 3,
@@ -100,7 +100,7 @@ export const GOETHE_A2_HOEREN: ExamPaper = {
           question: "Wie kommt man heute vom Rathaus zum Zoo?",
           options: ["Mit der Straßenbahn.", "Mit dem Bus.", "Zu Fuß."],
           answer: 1,
-          explanation: "„Vom Rathaus bis zum Zoo fahren Busse.“ The tram only goes as far as the town hall today.",
+          explanation: "\"Vom Rathaus bis zum Zoo fahren Busse.\" The tram only goes as far as the town hall today.",
         },
         {
           n: 4,
@@ -108,7 +108,7 @@ export const GOETHE_A2_HOEREN: ExamPaper = {
           question: "Was ist neu?",
           options: ["Das Restaurant.", "Die Uhrzeit.", "Der Tag."],
           answer: 0,
-          explanation: "Sandra booked a table at a different restaurant, Restaurant Sonne. „Die Zeit bleibt gleich“: the time stays the same, half past seven.",
+          explanation: "Sandra booked a table at a different restaurant, \"Restaurant Sonne\". \"Die Zeit bleibt gleich\": the time stays the same, half past seven.",
         },
         {
           n: 5,
@@ -116,7 +116,7 @@ export const GOETHE_A2_HOEREN: ExamPaper = {
           question: "Was muss man machen, wenn man auf dem Flohmarkt etwas verkaufen will?",
           options: ["Eintritt bezahlen.", "Um acht Uhr da sein.", "Sich vorher online anmelden."],
           answer: 2,
-          explanation: "„Wer selbst etwas verkaufen möchte, muss sich bis Donnerstag im Internet anmelden.“ Entry is free for visitors, so a is wrong, and the market opens at eight but that isn't a rule for sellers.",
+          explanation: "\"Wer selbst etwas verkaufen möchte, muss sich bis Donnerstag im Internet anmelden.\" Entry is free for visitors, so a is wrong, and the market opens at eight but that isn't a rule for sellers.",
         },
       ],
     },
@@ -146,11 +146,11 @@ export const GOETHE_A2_HOEREN: ExamPaper = {
       ],
       layout: "select",
       items: [
-        { n: 6, source: 0, question: "Montag", options: TAETIGKEITEN, answer: 1, explanation: "„Am Montag muss ich zum Zahnarzt“: der Zahnarzt is a dentist, so a doctor's appointment (B)." },
-        { n: 7, source: 0, question: "Dienstag", options: TAETIGKEITEN, answer: 4, explanation: "„Am Dienstag spiele ich immer Fußball mit meinen Kollegen“ (E)." },
-        { n: 8, source: 0, question: "Mittwoch", options: TAETIGKEITEN, answer: 2, explanation: "„Mittwoch fahre ich zu Oma und Opa“: his grandparents (C). Oma and Opa are the everyday words for Großmutter and Großvater." },
-        { n: 9, source: 0, question: "Donnerstag", options: TAETIGKEITEN, answer: 3, explanation: "„Am Donnerstag habe ich Karten für ein Konzert“ (D)." },
-        { n: 10, source: 0, question: "Freitag", options: TAETIGKEITEN, answer: 6, explanation: "„Am Freitag muss ich lernen, ich habe am Samstag eine Prüfung“ (G). A, F and H aren't mentioned." },
+        { n: 6, source: 0, question: "Montag", options: TAETIGKEITEN, answer: 1, explanation: "\"Am Montag muss ich zum Zahnarzt\": \"der Zahnarzt\" is a dentist, so a doctor's appointment (B)." },
+        { n: 7, source: 0, question: "Dienstag", options: TAETIGKEITEN, answer: 4, explanation: "\"Am Dienstag spiele ich immer Fußball mit meinen Kollegen\" (E)." },
+        { n: 8, source: 0, question: "Mittwoch", options: TAETIGKEITEN, answer: 2, explanation: "\"Mittwoch fahre ich zu Oma und Opa\": his grandparents (C). \"Oma\" and \"Opa\" are the everyday words for \"Großmutter\" and \"Großvater\"." },
+        { n: 9, source: 0, question: "Donnerstag", options: TAETIGKEITEN, answer: 3, explanation: "\"Am Donnerstag habe ich Karten für ein Konzert\" (D)." },
+        { n: 10, source: 0, question: "Freitag", options: TAETIGKEITEN, answer: 6, explanation: "\"Am Freitag muss ich lernen, ich habe am Samstag eine Prüfung\" (G). A, F and H aren't mentioned." },
       ],
     },
     {
@@ -213,7 +213,7 @@ export const GOETHE_A2_HOEREN: ExamPaper = {
           question: "Welchen Pullover kauft die Frau?",
           options: ["Den grünen.", "Den grauen.", "Den blauen."],
           answer: 2,
-          explanation: "She likes green best, but it's only left in M: „Dann nehme ich den blauen.“",
+          explanation: "She likes green best, but it's only left in M: \"Dann nehme ich den blauen.\"",
         },
         {
           n: 12,
@@ -221,7 +221,7 @@ export const GOETHE_A2_HOEREN: ExamPaper = {
           question: "Wo ist die Post?",
           options: ["Neben der Apotheke.", "An der Ampel.", "Gegenüber der Apotheke."],
           answer: 0,
-          explanation: "„Auf der rechten Seite, neben der Apotheke.“ At the traffic lights (die Ampel) you turn left.",
+          explanation: "\"Auf der rechten Seite, neben der Apotheke.\" At the traffic lights (\"die Ampel\") you turn left.",
         },
         {
           n: 13,
@@ -229,7 +229,7 @@ export const GOETHE_A2_HOEREN: ExamPaper = {
           question: "Was war in Felix' Urlaub nicht gut?",
           options: ["Das Essen.", "Das Wetter.", "Das Hotel."],
           answer: 1,
-          explanation: "„Aber das Wetter! Es hat fast jeden Tag geregnet.“ The food and the hotel were great.",
+          explanation: "\"Aber das Wetter! Es hat fast jeden Tag geregnet.\" The food and the hotel were great.",
         },
         {
           n: 14,
@@ -237,7 +237,7 @@ export const GOETHE_A2_HOEREN: ExamPaper = {
           question: "Wann ist das Meeting?",
           options: ["Heute.", "Morgen Vormittag.", "Morgen Nachmittag."],
           answer: 2,
-          explanation: "Not tomorrow morning: „Geht es um vierzehn Uhr?“ – „Ja, vierzehn Uhr passt gut.“ 14 Uhr is 2 pm.",
+          explanation: "Not tomorrow morning: \"Geht es um vierzehn Uhr?\" – \"Ja, vierzehn Uhr passt gut.\" \"14 Uhr\" is 2 pm.",
         },
         {
           n: 15,
@@ -245,7 +245,7 @@ export const GOETHE_A2_HOEREN: ExamPaper = {
           question: "Wie viel bezahlt die Frau?",
           options: ["19,50 €.", "39 €.", "Nichts."],
           answer: 1,
-          explanation: "She has no BahnCard and there's no student discount (kein Rabatt), so she pays the full 39 euros.",
+          explanation: "She has no BahnCard and there's no student discount (\"kein Rabatt\"), so she pays the full 39 euros.",
         },
       ],
     },
@@ -278,7 +278,7 @@ export const GOETHE_A2_HOEREN: ExamPaper = {
           question: "Herr Wendt beginnt um drei Uhr mit der Arbeit.",
           options: JN,
           answer: 0,
-          explanation: "He gets up at two and „um drei bin ich in der Backstube“: at three he's in the bakehouse.",
+          explanation: "He gets up at two and \"um drei bin ich in der Backstube\": at three he's in the bakehouse.",
         },
         {
           n: 17,
@@ -286,7 +286,7 @@ export const GOETHE_A2_HOEREN: ExamPaper = {
           question: "Herr Wendt findet das frühe Aufstehen heute noch sehr schwer.",
           options: JN,
           answer: 1,
-          explanation: "„Am Anfang war es schwer“: it was hard at the beginning; after fifteen years „dann geht das“, it's fine.",
+          explanation: "\"Am Anfang war es schwer\": it was hard at the beginning; after fifteen years \"dann geht das\", it's fine.",
         },
         {
           n: 18,
@@ -294,7 +294,7 @@ export const GOETHE_A2_HOEREN: ExamPaper = {
           question: "Die Bäckerei kauft einen Teil der Brötchen in einer Fabrik.",
           options: JN,
           answer: 1,
-          explanation: "„Wir backen alles selbst, nichts kommt aus der Fabrik.“",
+          explanation: "\"Wir backen alles selbst, nichts kommt aus der Fabrik.\"",
         },
         {
           n: 19,
@@ -302,7 +302,7 @@ export const GOETHE_A2_HOEREN: ExamPaper = {
           question: "Die Bäckerei hat dieses Jahr keinen neuen Auszubildenden.",
           options: JN,
           answer: 0,
-          explanation: "„Dieses Jahr haben wir niemanden gefunden.“ An Auszubildender (Azubi for short) is an apprentice or trainee.",
+          explanation: "\"Dieses Jahr haben wir niemanden gefunden.\" An \"Auszubildender\" (\"Azubi\" for short) is an apprentice or trainee.",
         },
         {
           n: 20,
@@ -310,7 +310,7 @@ export const GOETHE_A2_HOEREN: ExamPaper = {
           question: "Herr Wendt arbeitet auch am Sonntag.",
           options: JN,
           answer: 1,
-          explanation: "„Am Sonntag ist die Bäckerei zu, dann habe ich den ganzen Tag frei.“ zu = closed (geschlossen).",
+          explanation: "\"Am Sonntag ist die Bäckerei zu, dann habe ich den ganzen Tag frei.\" \"zu\" = closed (\"geschlossen\").",
         },
       ],
     },

@@ -14,7 +14,7 @@ export const DE_C1_U17_WRITING: WriteExercise = {
     "Makes at least one request in the Konjunktiv II (\"Ich wäre Ihnen dankbar, wenn Sie ... könnten\") and capitalises \"Sie\" and \"Ihr\" throughout.",
   ],
   modelAnswer: "Maria Lehmann\nGartenstraße 14\n04107 Leipzig\n\nElektroWelt GmbH\nKundenservice\nHafenweg 3\n20457 Hamburg\n\nLeipzig, 14. Oktober 2026\n\nReklamation: Waschmaschine AquaPro 7, Bestellnummer 58-30917\n\nSehr geehrte Damen und Herren,\n\nam 18. September 2026 habe ich bei Ihnen die oben genannte Waschmaschine bestellt, die am 22. September geliefert wurde. Bereits nach drei Wochen ist das Gerät ausgefallen: Die Trommel dreht sich nicht mehr, und im Display erscheint die Fehlermeldung E4. Ich habe Sie deswegen am 6. und am 10. Oktober per E-Mail kontaktiert, jedoch bis heute keine Antwort erhalten.\n\nDa das Gerät noch unter die gesetzliche Gewährleistung fällt, fordere ich Sie hiermit auf, den Mangel bis zum 28. Oktober 2026 kostenlos zu beheben. Ich wäre Ihnen dankbar, wenn Sie mir möglichst bald einen Termin für die Reparatur nennen könnten. Sollte eine Nachbesserung nicht möglich sein, bitte ich um die Lieferung eines neuen Geräts oder um die Rückerstattung des Kaufpreises von 649 Euro.\n\nAndernfalls sehe ich mich gezwungen, rechtliche Schritte einzuleiten.\n\nEine Kopie der Rechnung sowie Fotos der Fehlermeldung finden Sie in der Anlage.\n\nMit freundlichen Grüßen\n\nMaria Lehmann\n\nAnlagen\nKopie der Rechnung\nFotos der Fehlermeldung",
-  explanation: "The letter follows DIN 5008: place and date, a subject line in nominal style without the word Betreff, \"Sehr geehrte Damen und Herren,\" with the text continuing in lowercase (\"am 18. September ...\"), \"Mit freundlichen Grüßen\" with no punctuation, and \"Anlagen\" listed at the end. The complaint moves from facts (Sachverhalt) to demand (\"fordere ich Sie hiermit auf, den Mangel ... zu beheben\") with a deadline (\"bis zum 28. Oktober\"), softens one request with the Konjunktiv II (\"Ich wäre Ihnen dankbar, wenn Sie ... nennen könnten\"), uses a verb-first condition (\"Sollte eine Nachbesserung nicht möglich sein\") and ends with the standard warning \"Andernfalls sehe ich mich gezwungen, rechtliche Schritte einzuleiten\".",
+  explanation: "The letter follows DIN 5008: place and date, a subject line in nominal style without the word \"Betreff\", \"Sehr geehrte Damen und Herren,\" with the text continuing in lowercase (\"am 18. September ...\"), \"Mit freundlichen Grüßen\" with no punctuation, and \"Anlagen\" listed at the end. The complaint moves from facts (\"Sachverhalt\") to demand (\"fordere ich Sie hiermit auf, den Mangel ... zu beheben\") with a deadline (\"bis zum 28. Oktober\"), softens one request with the Konjunktiv II (\"Ich wäre Ihnen dankbar, wenn Sie ... nennen könnten\"), uses a verb-first condition (\"Sollte eine Nachbesserung nicht möglich sein\") and ends with the standard warning \"Andernfalls sehe ich mich gezwungen, rechtliche Schritte einzuleiten\".",
 };
 
 export const DE_C1_U17: Lesson[] = [
@@ -23,15 +23,15 @@ export const DE_C1_U17: Lesson[] = [
     level: "DE-C1",
     number: 1,
     title: "Formal Letters and Emails, Part 1 of 6",
-    summary: "The German business letter according to DIN 5008: sender, address block, place and date, a subject line without the word Betreff, the salutation with a lowercase continuation, and enclosures.",
+    summary: "Lay out a German business letter according to DIN 5008: sender, address block, place and date, a subject line without the word \"Betreff\", the salutation with a lowercase continuation, and enclosures.",
     duration: "18 min",
     sections: [
       {
         heading: "The skeleton of a German letter",
         body: [
-          "German formal letters follow a standard, DIN 5008, and offices, landlords and companies notice when a letter ignores it. From top to bottom: the sender (Absender: your name and address), the recipient's address (Empfängeranschrift), place and date (Ort und Datum) on the right, the subject line (Betreff), the salutation (Anrede), the text, the closing (Grußformel), your signature and typed name, and finally the list of enclosures (Anlagen).",
-          "In the address block a man is \"Herrn\", not \"Herr\": \"Herrn Jonas Becker\". It is an old accusative (the letter goes an Herrn Becker), and it survives only in addresses. A woman is simply \"Frau\". Company addresses start with the company name, then the department or person: \"ElektroWelt GmbH, Kundenservice\". The old word \"Firma\" in front of the name is no longer used.",
-          "The date: \"Berlin, 3. März 2026\", with a full stop after the day because it is an ordinal number (der dritte März). Numeric forms are also correct: \"03.03.2026\" or the international \"2026-03-03\". Older letters write \"Berlin, den 3. März 2026\"; DIN 5008 dropped the \"den\", but you will still see it.",
+          "German formal letters follow a standard, DIN 5008, and offices, landlords and companies notice when a letter ignores it. From top to bottom: the sender (\"Absender\": your name and address), the recipient's address (\"Empfängeranschrift\"), place and date (\"Ort und Datum\") on the right, the subject line (\"Betreff\"), the salutation (\"Anrede\"), the text, the closing (\"Grußformel\"), your signature and typed name, and finally the list of enclosures (\"Anlagen\").",
+          "In the address block a man is \"Herrn\", not \"Herr\": \"Herrn Jonas Becker\". It is an old accusative (the letter goes \"an Herrn Becker\"), and it survives only in addresses. A woman is simply \"Frau\". Company addresses start with the company name, then the department or person: \"ElektroWelt GmbH, Kundenservice\". The old word \"Firma\" in front of the name is no longer used.",
+          "The date: \"Berlin, 3. März 2026\", with a full stop after the day because it is an ordinal number (\"der dritte März\"). Numeric forms are also correct: \"03.03.2026\" or the international \"2026-03-03\". Older letters write \"Berlin, den 3. März 2026\"; DIN 5008 dropped the \"den\", but you will still see it.",
           "Where English letters put Yours sincerely, signature and Enc., German puts \"Mit freundlichen Grüßen\", the handwritten signature, the typed name, and below it \"Anlage\" (one enclosure) or \"Anlagen\" (several), each item on its own line.",
         ],
         examples: [
@@ -73,8 +73,8 @@ export const DE_C1_U17: Lesson[] = [
       {
         heading: "The subject line: no Betreff, all nouns",
         body: [
-          "The subject line comes after the date and before the salutation, in bold, and since DIN 5008 (1996) it no longer starts with the word \"Betreff\" or the abbreviation \"Betr.\". Writing \"Betreff: Kündigung\" in a letter looks dated; in an email the subject field already says Betreff, so you only type the content.",
-          "A good German subject line is a noun phrase, not a sentence: \"Kündigung meines Mitgliedsvertrags\", not \"Ich möchte kündigen\". This is the nominal style you practised in Unit 3: a verb (kündigen, beantragen, reklamieren) becomes a noun (Kündigung, Antrag, Reklamation) with a genitive or a preposition after it.",
+          "The subject line comes after the date and before the salutation, in bold, and since DIN 5008 (1996) it no longer starts with the word \"Betreff\" or the abbreviation \"Betr.\". Writing \"Betreff: Kündigung\" in a letter looks dated; in an email the subject field already says \"Betreff\", so you only type the content.",
+          "A good German subject line is a noun phrase, not a sentence: \"Kündigung meines Mitgliedsvertrags\", not \"Ich möchte kündigen\". This is the nominal style you practised in Unit 3: a verb (\"kündigen\", \"beantragen\", \"reklamieren\") becomes a noun (\"Kündigung\", \"Antrag\", \"Reklamation\") with a genitive or a preposition after it.",
           "Add the reference the reader needs to find your file: a customer number, an invoice number, a date. \"Ihre Rechnung Nr. 2026-118 vom 12. Februar 2026\", \"Kundennummer 448 120\", \"Ihr Zeichen\" (your reference). The preposition for dates of letters is \"vom\": \"Ihr Schreiben vom 5. Mai\".",
         ],
         examples: [
@@ -100,17 +100,17 @@ export const DE_C1_U17: Lesson[] = [
             en: "Your letter [of] 5 May 2026",
             sentence: "Ihr Schreiben ___ 5. Mai 2026",
             answer: "vom",
-            explanation: "The date of a letter, invoice or email takes \"vom\" (von dem): \"Ihr Schreiben vom 5. Mai\".",
+            explanation: "The date of a letter, invoice or email takes \"vom\" (\"von dem\"): \"Ihr Schreiben vom 5. Mai\".",
           },
         ],
       },
       {
         heading: "The salutation: comma, then lowercase",
         body: [
-          "The standard formal salutation is \"Sehr geehrte Frau Weber,\" or \"Sehr geehrter Herr Krause,\". Watch the adjective ending: \"geehrte\" with Frau, \"geehrter\" with Herr, because \"sehr geehrter Herr\" is a masculine nominative without an article. If you don't know who will read it: \"Sehr geehrte Damen und Herren,\".",
+          "The standard formal salutation is \"Sehr geehrte Frau Weber,\" or \"Sehr geehrter Herr Krause,\". Watch the adjective ending: \"geehrte\" with \"Frau\", \"geehrter\" with \"Herr\", because \"sehr geehrter Herr\" is a masculine nominative without an article. If you don't know who will read it: \"Sehr geehrte Damen und Herren,\".",
           "After the comma the text continues with a lowercase letter, because the salutation and the first sentence are treated as one sentence: \"Sehr geehrte Frau Weber, vielen Dank für Ihr Schreiben.\" The first word is capitalised only if it is a noun or the polite \"Sie\": \"..., Ihre E-Mail habe ich erhalten.\" English speakers almost always write a capital here: it is the most visible mistake in learners' letters.",
           "Academic titles stay in the salutation: \"Sehr geehrter Herr Dr. Krause,\", \"Sehr geehrte Frau Professorin Lang,\" (or \"Frau Prof. Lang\"). Only the doctor title appears once, even for someone with two doctorates. \"Dear\" is not \"Liebe\": \"Liebe Frau Weber\" is warm and only for people you already know well.",
-          "For a reader whose gender you don't know, or who prefers neutral address, modern style uses the full name without Herr or Frau: \"Guten Tag Alex Schmidt,\". Many authorities now accept it.",
+          "For a reader whose gender you don't know, or who prefers neutral address, modern style uses the full name without \"Herr\" or \"Frau\": \"Guten Tag Alex Schmidt,\". Many authorities now accept it.",
         ],
         examples: [
           { es: "Sehr geehrte Frau Weber, vielen Dank für Ihr Schreiben vom 5. Mai.", en: "Dear Mrs Weber, Thank you for your letter of 5 May." },
@@ -136,14 +136,14 @@ export const DE_C1_U17: Lesson[] = [
             en: "[Dear Mr] Krause,",
             sentence: "___ Krause,",
             answer: "Sehr geehrter Herr",
-            explanation: "Masculine nominative without an article: \"geehrter\". With Frau it is \"geehrte\". \"Lieber Herr\" would be far too familiar for a stranger.",
+            explanation: "Masculine nominative without an article: \"geehrter\". With \"Frau\" it is \"geehrte\". \"Lieber Herr\" would be far too familiar for a stranger.",
           },
           {
             type: "multiple-choice",
             question: "Which opening is correct in a formal German letter?",
             options: ["Sehr geehrte Frau Lang, vielen Dank für Ihre Antwort.", "Sehr geehrte Frau Lang, Vielen Dank für Ihre Antwort.", "Sehr geehrter Frau Lang, vielen Dank für Ihre Antwort.", "Liebe Frau Lang! Vielen Dank für ihre Antwort."],
             correctIndex: 0,
-            explanation: "\"Geehrte\" agrees with Frau, a comma follows the salutation, and the text continues in lowercase. \"Ihre\" (your, polite) keeps its capital.",
+            explanation: "\"Geehrte\" agrees with \"Frau\", a comma follows the salutation, and the text continues in lowercase. \"Ihre\" (your, polite) keeps its capital.",
           },
         ],
       },
@@ -155,7 +155,7 @@ export const DE_C1_U17: Lesson[] = [
         prompt: "Translate into German.",
         source: "Dear Mrs Weber,",
         answer: "Sehr geehrte Frau Weber,",
-        explanation: "The standard formal salutation, with \"geehrte\" agreeing with Frau, and a comma at the end.",
+        explanation: "The standard formal salutation, with \"geehrte\" agreeing with \"Frau\", and a comma at the end.",
       },
       {
         type: "translate",
@@ -164,7 +164,7 @@ export const DE_C1_U17: Lesson[] = [
         source: "Dear Dr Schulz, Thank you for your quick reply.",
         answer: "Sehr geehrte Frau Dr. Schulz, vielen Dank für Ihre schnelle Antwort.",
         altAnswers: ["Sehr geehrter Herr Dr. Schulz, vielen Dank für Ihre schnelle Antwort.", "Sehr geehrte Frau Dr. Schulz, vielen Dank für Ihre rasche Antwort.", "Sehr geehrter Herr Dr. Schulz, vielen Dank für Ihre rasche Antwort.", "Sehr geehrte Frau Dr. Schulz, herzlichen Dank für Ihre schnelle Antwort.", "Sehr geehrter Herr Dr. Schulz, herzlichen Dank für Ihre schnelle Antwort."],
-        explanation: "German keeps both Frau / Herr and the title: \"Frau Dr. Schulz\". After the comma \"vielen\" is lowercase, but \"Ihre\" keeps its polite capital.",
+        explanation: "German keeps both \"Frau\" / \"Herr\" and the title: \"Frau Dr. Schulz\". After the comma \"vielen\" is lowercase, but \"Ihre\" keeps its polite capital.",
       },
       {
         type: "translate",
@@ -178,7 +178,7 @@ export const DE_C1_U17: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[Mr] Lukas Schmidt, Bahnhofstrasse 12, 04109 Leipzig (address block)",
+        en: "[Mr] Lukas Schmidt, Bahnhofstraße 12, 04109 Leipzig (the address block)",
         sentence: "___ Lukas Schmidt, Bahnhofstraße 12, 04109 Leipzig",
         answer: "Herrn",
         explanation: "In the address block a man is \"Herrn\", the old accusative. It never appears in the salutation.",
@@ -205,7 +205,7 @@ export const DE_C1_U17: Lesson[] = [
         words: ["Sehr geehrte", "Damen und Herren,", "Ihr Schreiben", "habe", "ich", "erhalten."],
         translation: "Dear Sir or Madam, I have received your letter.",
         altOrders: [["Sehr geehrte", "Damen und Herren,", "ich", "habe", "Ihr Schreiben", "erhalten."]],
-        explanation: "Putting the object first (\"Ihr Schreiben habe ich erhalten\") avoids starting with ich; the verb stays in second position.",
+        explanation: "Putting the object first (\"Ihr Schreiben habe ich erhalten\") avoids starting with \"ich\"; the verb stays in second position.",
       },
       {
         type: "listen-choose",
@@ -228,7 +228,7 @@ export const DE_C1_U17: Lesson[] = [
         type: "speak",
         text: "Sehr geehrte Damen und Herren,",
         prompt: "Say it in German: Dear Sir or Madam,",
-        tip: "Stress geEHRte on the long ee, and keep Damen und Herren as one flowing phrase.",
+        tip: "Stress \"geehrte\" on the long \"ehr\" (ge-EHR-te), and say \"Damen und Herren\" as one flowing phrase.",
         explanation: "The safe salutation when you don't know who will read the letter.",
       },
     ],
@@ -238,7 +238,7 @@ export const DE_C1_U17: Lesson[] = [
     level: "DE-C1",
     number: 2,
     title: "Formal Letters and Emails, Part 2 of 6",
-    summary: "Closing formulas from Mit freundlichen Grüßen to Liebe Grüße, email openings from Guten Tag to Liebe Frau Klein, and the Swiss and Austrian variants.",
+    summary: "Choose the right closing (from \"Mit freundlichen Grüßen\" to \"Liebe Grüße\") and email opening (from \"Guten Tag\" to \"Liebe Frau Klein\"), including the Swiss and Austrian variants.",
     duration: "17 min",
     sections: [
       {
@@ -272,7 +272,7 @@ export const DE_C1_U17: Lesson[] = [
             source: "Best wishes from Munich and have a nice weekend!",
             answer: "Viele Grüße aus München und ein schönes Wochenende!",
             altAnswers: ["Schöne Grüße aus München und ein schönes Wochenende!", "Beste Grüße aus München und ein schönes Wochenende!", "Viele Grüße aus München und schönes Wochenende!"],
-            explanation: "Grüße + \"aus\" + place, and \"ein schönes Wochenende\" in the accusative (from ich wünsche Ihnen ein schönes Wochenende).",
+            explanation: "\"Grüße\" + \"aus\" + place, and \"ein schönes Wochenende\" in the accusative (from \"ich wünsche Ihnen ein schönes Wochenende\").",
           },
         ],
       },
@@ -308,7 +308,7 @@ export const DE_C1_U17: Lesson[] = [
             en: "Dear Mrs Klein, [dear Mr] Wagner, many thanks for the invitation. (warm)",
             sentence: "Liebe Frau Klein, ___ Wagner, herzlichen Dank für die Einladung.",
             answer: "lieber Herr",
-            explanation: "Masculine \"lieber\" with Herr, and lowercase because it continues the salutation after the comma.",
+            explanation: "Masculine \"lieber\" with \"Herr\", and lowercase because it continues the salutation after the comma.",
           },
           {
             type: "listen-choose",
@@ -387,12 +387,11 @@ export const DE_C1_U17: Lesson[] = [
         en: "[Kind regards] from Zurich (Swiss spelling)",
         sentence: "___ aus Zürich",
         answer: "Freundliche Grüsse",
-        altAnswers: ["Freundliche Grüße"],
         explanation: "In Switzerland ß is always written ss: \"Grüsse\". In Germany and Austria it would be \"Grüße\".",
       },
       {
         type: "multiple-choice",
-        question: "An email begins Sehr geehrte Frau Dr. Lang. Which closing matches it?",
+        question: "An email begins \"Sehr geehrte Frau Dr. Lang\". Which closing matches it?",
         options: ["Mit freundlichen Grüßen", "Liebe Grüße", "LG", "Bis dann!"],
         correctIndex: 0,
         explanation: "A formal opening calls for a formal closing. \"Liebe Grüße\" and \"LG\" belong with friends.",
@@ -415,7 +414,7 @@ export const DE_C1_U17: Lesson[] = [
         prompt: "Translate into German (to a contact you know and like).",
         source: "Dear Mrs Klein, I was delighted to receive your message.",
         answer: "Liebe Frau Klein, ich habe mich sehr über Ihre Nachricht gefreut.",
-        altAnswers: ["Liebe Frau Klein, über Ihre Nachricht habe ich mich sehr gefreut.", "Liebe Frau Klein, ich habe mich sehr über Ihre Nachricht gefreut", "Liebe Frau Klein, ich habe mich sehr gefreut, von Ihnen zu hören."],
+        altAnswers: ["Liebe Frau Klein, über Ihre Nachricht habe ich mich sehr gefreut.", "Liebe Frau Klein, ich habe mich sehr gefreut, von Ihnen zu hören."],
         explanation: "\"Liebe Frau Klein\" is the warm form for someone you know. \"Sich freuen über\" + accusative for something that has happened.",
       },
       {
@@ -423,7 +422,7 @@ export const DE_C1_U17: Lesson[] = [
         prompt: "Put the words in order to say: Warm regards to your family",
         words: ["Herzliche", "Grüße", "an", "Ihre", "Familie"],
         translation: "Warm regards to your family",
-        explanation: "Grüße \"an\" + accusative for the people you send them to.",
+        explanation: "\"Grüße an\" + accusative for the people you send them to.",
       },
       {
         type: "dictation",
@@ -434,7 +433,7 @@ export const DE_C1_U17: Lesson[] = [
         type: "speak",
         text: "Guten Tag Frau Becker, vielen Dank für Ihre schnelle Antwort.",
         prompt: "Say it in German (neutral business email, read aloud): Hello Mrs Becker, Thank you for your quick reply.",
-        tip: "The v in vielen is an f sound: FEE-len.",
+        tip: "The v in \"vielen\" is an f sound: FEE-len.",
         explanation: "\"Guten Tag\" + name is the neutral modern opening; the thanks follows in lowercase.",
       },
       {
@@ -459,9 +458,9 @@ export const DE_C1_U17: Lesson[] = [
       {
         heading: "The far end: authorities, ministries, landlords",
         body: [
-          "With an authority (Behörde), a ministry or a company you have never dealt with, use the full formal pair: \"Sehr geehrte Damen und Herren,\" ... \"Mit freundlichen Grüßen\". If you know the name of the person handling your case (the Sachbearbeiterin), use it: \"Sehr geehrte Frau Hoffmann,\". A named person is always better than Damen und Herren.",
+          "With an authority (\"Behörde\"), a ministry or a company you have never dealt with, use the full formal pair: \"Sehr geehrte Damen und Herren,\" ... \"Mit freundlichen Grüßen\". If you know the name of the person handling your case (the \"Sachbearbeiterin\"), use it: \"Sehr geehrte Frau Hoffmann,\". A named person is always better than \"Damen und Herren\".",
           "Office holders can be addressed by their function: \"Sehr geehrte Frau Ministerin,\", \"Sehr geehrter Herr Bürgermeister,\", \"Sehr geehrte Frau Bürgermeisterin Schmitt,\". The feminine form of the office is now standard. This is the register of a citizen's letter to the town hall or a petition.",
-          "A landlord (Vermieter, Vermieterin) is usually Sie and \"Sehr geehrter Herr Wagner,\" with \"Mit freundlichen Grüßen\", even after years. If your landlord writes \"Freundliche Grüße\" or \"Viele Grüße\", you may follow suit; in a dispute, go back to the full formal pair.",
+          "A landlord (\"Vermieter\", \"Vermieterin\") is usually Sie and \"Sehr geehrter Herr Wagner,\" with \"Mit freundlichen Grüßen\", even after years. If your landlord writes \"Freundliche Grüße\" or \"Viele Grüße\", you may follow suit; in a dispute, go back to the full formal pair.",
         ],
         examples: [
           { es: "Sehr geehrte Damen und Herren, ich beantrage hiermit einen neuen Reisepass.", en: "Dear Sir or Madam, I hereby apply for a new passport." },
@@ -515,10 +514,10 @@ export const DE_C1_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A client always writes to you: Hallo Herr Brandt ... Viele Grüße. What is the best way to start your reply?",
+            question: "A client, Ms Schulz, always writes to you: \"Hallo Herr Brandt ... Viele Grüße\". What is the best way to start your reply?",
             options: ["Hallo Frau Schulz,", "Hallo Sabine,", "Hi Schulz,", "Liebe Sabine,"],
             correctIndex: 0,
-            explanation: "Mirror the client's register: \"Hallo\" + Frau + surname. First names or du only once the client offers them.",
+            explanation: "Mirror the client's register: \"Hallo\" + \"Frau\" + surname. First names or du only once the client offers them.",
           },
         ],
       },
@@ -553,7 +552,7 @@ export const DE_C1_U17: Lesson[] = [
             sentence: "Hallo Lena, kannst du mir die Präsentation bis drei schicken? ___, Jonas",
             answer: "Viele Grüße",
             altAnswers: ["Schöne Grüße", "Liebe Grüße", "VG"],
-            explanation: "Between colleagues on du \"Viele Grüße\" (or VG) is the usual closing.",
+            explanation: "Between colleagues on du \"Viele Grüße\" (or \"VG\") is the usual closing; \"Schöne Grüße\" and, between friendly colleagues, \"Liebe Grüße\" also work.",
           },
         ],
       },
@@ -569,7 +568,7 @@ export const DE_C1_U17: Lesson[] = [
           { left: "Hallo Lena,", right: "a colleague on du" },
           { left: "Liebe Frau Özdemir,", right: "a friend's mother" },
         ],
-        explanation: "From the far end (no name) to the warm end (\"Liebe\" + Frau + surname): each opening signals a distance.",
+        explanation: "From the far end (no name) to the warm end (\"Liebe\" + \"Frau\" + surname): each opening signals a distance.",
       },
       {
         type: "translate",
@@ -603,7 +602,7 @@ export const DE_C1_U17: Lesson[] = [
         source: "Hi Ms Neumann, The documents are on your desk.",
         answer: "Hallo Frau Neumann, die Unterlagen liegen auf Ihrem Schreibtisch.",
         altAnswers: ["Guten Tag Frau Neumann, die Unterlagen liegen auf Ihrem Schreibtisch.", "Hallo Frau Neumann, die Dokumente liegen auf Ihrem Schreibtisch."],
-        explanation: "\"Hallo\" with Frau + surname is the colleague-on-Sie register. Flat objects \"liegen\" (they lie) on a desk.",
+        explanation: "\"Hallo\" with \"Frau\" + surname is the colleague-on-Sie register. Flat objects \"liegen\" (they lie) on a desk.",
       },
       {
         type: "fill-blank",
@@ -641,8 +640,8 @@ export const DE_C1_U17: Lesson[] = [
         type: "speak",
         text: "Liebe Frau Özdemir, vielen Dank für den schönen Abend bei Ihnen!",
         prompt: "Say it in German (to a friend's mother, on Sie): Dear Mrs Özdemir, Thank you so much for the lovely evening at your home!",
-        tip: "Round your lips for the ö in Özdemir and schönen while saying e.",
-        explanation: "Warm but polite: \"Liebe\" with Frau + surname, and \"bei Ihnen\" with the polite capital.",
+        tip: "Round your lips for the ö in \"Özdemir\" and \"schönen\" while saying e.",
+        explanation: "Warm but polite: \"Liebe\" with \"Frau\" + surname, and \"bei Ihnen\" with the polite capital.",
       },
       {
         type: "translate",
@@ -651,7 +650,7 @@ export const DE_C1_U17: Lesson[] = [
         source: "Dear Mayor, I am writing to you as a resident of Lindenstraße.",
         answer: "Sehr geehrter Herr Bürgermeister, als Anwohner der Lindenstraße wende ich mich an Sie.",
         altAnswers: ["Sehr geehrter Herr Bürgermeister, als Anwohnerin der Lindenstraße wende ich mich an Sie.", "Sehr geehrte Frau Bürgermeisterin, als Anwohner der Lindenstraße wende ich mich an Sie.", "Sehr geehrte Frau Bürgermeisterin, als Anwohnerin der Lindenstraße wende ich mich an Sie.", "Sehr geehrter Herr Bürgermeister, ich wende mich als Anwohner der Lindenstraße an Sie.", "Sehr geehrter Herr Bürgermeister, ich wende mich als Anwohnerin der Lindenstraße an Sie."],
-        explanation: "Office holders by function: \"Herr Bürgermeister\" or \"Frau Bürgermeisterin\". Starting with \"als Anwohner ...\" avoids opening with ich, and the verb \"wende\" follows in second position.",
+        explanation: "Office holders by function: \"Herr Bürgermeister\" or \"Frau Bürgermeisterin\". Starting with \"als Anwohner ...\" avoids opening with \"ich\", and the verb \"wende\" follows in second position.",
       },
     ],
   },
@@ -660,7 +659,7 @@ export const DE_C1_U17: Lesson[] = [
     level: "DE-C1",
     number: 4,
     title: "Transformations: The Opening Paragraph",
-    summary: "Open a formal letter the German way with Bezug nehmend auf, vielen Dank für, wie telefonisch besprochen and hiermit, and stop starting every sentence with ich.",
+    summary: "Open a formal letter the German way with \"Bezug nehmend auf\", \"vielen Dank für\", \"wie telefonisch besprochen\" and \"hiermit\", and stop starting every sentence with \"ich\".",
     duration: "17 min",
     sections: [
       {
@@ -701,7 +700,7 @@ export const DE_C1_U17: Lesson[] = [
             question: "Which sentence is correct?",
             options: ["Bezug nehmend auf Ihr Schreiben teile ich Ihnen mit, dass der Betrag überwiesen wurde.", "Bezug nehmend auf Ihr Schreiben, der Betrag wurde überwiesen.", "Bezug nehmend auf Ihr Schreiben ich teile Ihnen mit, dass der Betrag überwiesen wurde.", "Bezug nehmend an Ihr Schreiben teile ich Ihnen mit, dass der Betrag überwiesen wurde."],
             correctIndex: 0,
-            explanation: "\"Bezug nehmend auf\" (with auf) fills the Vorfeld, the verb comes second, and the writer is the subject who does the referring.",
+            explanation: "\"Bezug nehmend auf\" (with \"auf\") fills the Vorfeld, the verb comes second, and the writer is the subject who does the referring.",
           },
         ],
       },
@@ -771,7 +770,7 @@ export const DE_C1_U17: Lesson[] = [
             source: "However, I still haven't received the goods.",
             answer: "Die Ware habe ich jedoch bis heute nicht erhalten.",
             altAnswers: ["Die Ware habe ich allerdings bis heute nicht erhalten.", "Die Ware habe ich jedoch noch immer nicht erhalten.", "Die Ware habe ich jedoch bis heute nicht bekommen."],
-            explanation: "Object first, \"jedoch\" in the middle of the clause: the sentence links back to the order without starting with ich. Still haven't is \"bis heute nicht\" or \"noch immer nicht\".",
+            explanation: "Object first, \"jedoch\" in the middle of the clause: the sentence links back to the order without starting with \"ich\". Still haven't is \"bis heute nicht\" or \"noch immer nicht\".",
           },
         ],
       },
@@ -793,7 +792,7 @@ export const DE_C1_U17: Lesson[] = [
         source: "As discussed on the phone, I enclose the signed contract.",
         answer: "Wie telefonisch besprochen, sende ich Ihnen anbei den unterschriebenen Vertrag.",
         altAnswers: ["Wie telefonisch besprochen sende ich Ihnen anbei den unterschriebenen Vertrag.", "Wie telefonisch besprochen, erhalten Sie anbei den unterschriebenen Vertrag.", "Wie telefonisch besprochen, finden Sie anbei den unterschriebenen Vertrag.", "Wie telefonisch vereinbart, sende ich Ihnen anbei den unterschriebenen Vertrag."],
-        explanation: "\"Wie telefonisch besprochen\" counts as the first element, so the verb follows straight away. Anbei = enclosed / attached.",
+        explanation: "\"Wie telefonisch besprochen\" counts as the first element, so the verb follows straight away. \"Anbei\" = enclosed / attached.",
       },
       {
         type: "translate",
@@ -802,7 +801,7 @@ export const DE_C1_U17: Lesson[] = [
         source: "I hereby lodge an objection to your decision of 4 March.",
         answer: "Hiermit lege ich Widerspruch gegen Ihren Bescheid vom 4. März ein.",
         altAnswers: ["Hiermit erhebe ich Widerspruch gegen Ihren Bescheid vom 4. März."],
-        explanation: "\"Widerspruch einlegen gegen\" is the fixed phrase for objecting to an official decision (Bescheid); \"einlegen\" splits, with \"ein\" at the end.",
+        explanation: "\"Widerspruch einlegen gegen\" is the fixed phrase for objecting to an official decision (\"Bescheid\"); \"einlegen\" splits, with \"ein\" at the end.",
       },
       {
         type: "multiple-choice",
@@ -817,13 +816,13 @@ export const DE_C1_U17: Lesson[] = [
         en: "[As agreed], you will receive the draft today.",
         sentence: "___ erhalten Sie heute den Entwurf.",
         answer: "Wie vereinbart",
-        altAnswers: ["Wie vereinbart,", "Wie besprochen"],
+        altAnswers: ["Wie besprochen"],
         explanation: "\"Wie vereinbart\" fills the Vorfeld, so \"erhalten\" comes next and the subject \"Sie\" follows.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, without starting with ich.",
+        prompt: "Translate into German, without starting with \"ich\".",
         source: "I have been a customer of your bank for five years.",
         answer: "Seit fünf Jahren bin ich Kundin Ihrer Bank.",
         altAnswers: ["Seit fünf Jahren bin ich Kunde Ihrer Bank.", "Seit fünf Jahren bin ich Kunde bei Ihrer Bank.", "Seit fünf Jahren bin ich Kundin bei Ihrer Bank."],
@@ -857,7 +856,7 @@ export const DE_C1_U17: Lesson[] = [
         type: "speak",
         text: "Ich wende mich mit folgendem Anliegen an Sie.",
         prompt: "Say it in German: I am writing to you with the following request.",
-        tip: "Anliegen is stressed on AN; the -gen at the end is soft.",
+        tip: "\"Anliegen\" is stressed on AN; the final -en is a weak, unstressed syllable.",
         explanation: "\"Sich an jemanden wenden\" with \"mit folgendem Anliegen\": the neutral way to start when you are not answering a letter.",
       },
       {
@@ -876,13 +875,13 @@ export const DE_C1_U17: Lesson[] = [
     level: "DE-C1",
     number: 5,
     title: "Formal Letters and Emails, Part 3 of 6",
-    summary: "The complaint letter (Reklamation): facts, defects, your legal claim, a deadline and the escalation formula, with the difference between Gewährleistung and Garantie.",
+    summary: "Write a complaint letter (\"Reklamation\"): facts, defects, your legal claim, a deadline and the escalation formula, and know the difference between \"Gewährleistung\" and \"Garantie\".",
     duration: "19 min",
     sections: [
       {
         heading: "Sachverhalt: stating the facts",
         body: [
-          "A German complaint letter has a clear order: the facts (Sachverhalt), the defect (Mangel), your demand (Forderung), the deadline (Frist) and, if needed, the consequence. Emotion stays out: the reader is a clerk who has to check your claim against a file, and a calm letter with dates and numbers is more threatening than an angry one.",
+          "A German complaint letter has a clear order: the facts (\"Sachverhalt\"), the defect (\"Mangel\"), your demand (\"Forderung\"), the deadline (\"Frist\") and, if needed, the consequence. Emotion stays out: the reader is a clerk who has to check your claim against a file, and a calm letter with dates and numbers is more threatening than an angry one.",
           "The facts: what you bought or booked, when, with which number. \"Am 2. April 2026 habe ich bei Ihnen einen Kühlschrank (Bestellnummer 77-4410) gekauft, der am 8. April geliefert wurde.\" Use the Perfekt or Präteritum for the story and the present for the current state: \"Seit dem 20. April kühlt das Gerät nicht mehr.\"",
           "The defect: \"der Mangel\" (plural \"die Mängel\") is the legal word for a defect. \"Die Ware weist folgende Mängel auf: ...\" (the goods have the following defects) is the formal phrase; \"aufweisen\" is separable. Everyday alternatives: \"Das Gerät ist defekt\", \"Die Lieferung war unvollständig\", \"Der Bildschirm ist beschädigt\", \"Die Ware entspricht nicht der Beschreibung\".",
         ],
@@ -917,7 +916,7 @@ export const DE_C1_U17: Lesson[] = [
       {
         heading: "Your claim: Gewährleistung, Garantie, Nachbesserung",
         body: [
-          "German law gives buyers a two-year Gewährleistung (statutory warranty) against the seller: if the goods were defective, the seller must put it right. The Garantie is something different, a voluntary promise usually made by the manufacturer. In a letter to a shop, cite the Gewährleistung: \"Da sich das Gerät noch innerhalb der gesetzlichen Gewährleistungsfrist befindet, ...\". Calling it Garantie is a common learner (and native) slip.",
+          "German law gives buyers a two-year \"Gewährleistung\" (statutory warranty) against the seller: if the goods were defective, the seller must put it right. The \"Garantie\" is something different, a voluntary promise usually made by the manufacturer. In a letter to a shop, cite the \"Gewährleistung\": \"Da sich das Gerät noch innerhalb der gesetzlichen Gewährleistungsfrist befindet, ...\". Calling it \"Garantie\" is a common learner (and native) slip.",
           "What you can demand: first \"Nachbesserung\" (repair) or \"Ersatzlieferung\" (a replacement), together called \"Nacherfüllung\". If that fails: \"Rücktritt vom Kaufvertrag\" (withdrawal from the contract) with \"Rückerstattung des Kaufpreises\" (refund), or \"Minderung\" (a price reduction).",
           "The demand itself is direct, without the softening Konjunktiv: \"Ich fordere Sie auf, das Gerät bis zum 15. Mai kostenlos zu reparieren.\" \"Ich bitte Sie, mir den Kaufpreis zu erstatten.\" \"Ich verlange die Rückerstattung des vollen Kaufpreises.\" \"Auffordern\" is stronger than \"bitten\"; both take \"zu\" + infinitive.",
         ],
@@ -944,17 +943,17 @@ export const DE_C1_U17: Lesson[] = [
             question: "Your new laptop from an online shop broke after eight months. What do you cite in your letter to the shop?",
             options: ["die gesetzliche Gewährleistung", "die Garantie des Händlers", "die Kulanz", "die Mahnung"],
             correctIndex: 0,
-            explanation: "Against the seller you have the statutory two-year \"Gewährleistung\". A Garantie is an extra, voluntary promise, usually from the manufacturer.",
+            explanation: "Against the seller you have the statutory two-year \"Gewährleistung\". A \"Garantie\" is an extra, voluntary promise, usually from the manufacturer.",
           },
         ],
       },
       {
         heading: "Frist, Einschreiben and andernfalls",
         body: [
-          "A demand without a deadline is easy to ignore. Give a concrete date: \"bis zum 15. Mai 2026\", \"bis spätestens 15. Mai\", or a period: \"innerhalb von 14 Tagen\", \"binnen zwei Wochen\" (formal). Setting a reasonable deadline (eine angemessene Frist setzen) is also what the law expects before you can withdraw from the contract.",
+          "A demand without a deadline is easy to ignore. Give a concrete date: \"bis zum 15. Mai 2026\", \"bis spätestens 15. Mai\", or a period: \"innerhalb von 14 Tagen\", \"binnen zwei Wochen\" (formal). Setting a reasonable deadline (\"eine angemessene Frist setzen\") is also what the law expects before you can withdraw from the contract.",
           "Important letters go \"per Einschreiben\" (by registered post), often \"per Einschreiben mit Rückschein\" (with proof of delivery). You can say so in the letter: \"Dieses Schreiben geht Ihnen per Einschreiben zu.\"",
           "The escalation formula: \"Andernfalls sehe ich mich gezwungen, rechtliche Schritte einzuleiten.\" (Otherwise I will be forced to take legal action.) Milder: \"Andernfalls werde ich mich an die Verbraucherzentrale wenden.\" Or as a verb-first condition: \"Sollte ich bis zum 15. Mai nichts von Ihnen hören, werde ich ...\".",
-          "A \"Mahnung\" is the reverse situation: a reminder that money is owed, sent by the creditor. \"Die erste Mahnung\" is polite (\"Sicherlich haben Sie übersehen, dass ...\"), the third threatens a debt collection agency (Inkasso).",
+          "A \"Mahnung\" is the reverse situation: a reminder that money is owed, sent by the creditor. \"Die erste Mahnung\" is polite (\"Sicherlich haben Sie übersehen, dass ...\"), the third threatens a debt collection agency (\"Inkasso\").",
         ],
         examples: [
           { es: "Bitte beheben Sie den Mangel bis spätestens 15. Mai 2026.", en: "Please remedy the defect by 15 May 2026 at the latest." },
@@ -979,7 +978,7 @@ export const DE_C1_U17: Lesson[] = [
             prompt: "Put the words in order to say: Should I not hear from you by then, I will contact a lawyer.",
             words: ["Sollte", "ich bis dahin", "nichts von Ihnen hören,", "werde", "ich mich", "an einen Anwalt wenden."],
             translation: "Should I not hear from you by then, I will contact a lawyer.",
-            explanation: "A condition without wenn: \"sollte\" first. The whole condition is the Vorfeld, so the main clause starts with its verb \"werde\".",
+            explanation: "A condition without \"wenn\": \"sollte\" first. The whole condition is the Vorfeld, so the main clause starts with its verb \"werde\".",
           },
           {
             type: "listen-choose",
@@ -1065,7 +1064,7 @@ export const DE_C1_U17: Lesson[] = [
         type: "dictation",
         audio: "Bitte beheben Sie den Mangel bis spätestens 15. Mai.",
         answer: "Bitte beheben Sie den Mangel bis spätestens 15. Mai.",
-        altAnswers: ["Bitte beheben Sie den Mangel bis spätestens fünfzehnten Mai.", "Bitte beheben Sie den Mangel bis spätestens 15 Mai."],
+        altAnswers: ["Bitte beheben Sie den Mangel bis spätestens fünfzehnten Mai."],
         explanation: "\"Einen Mangel beheben\" is to remedy a defect; \"bis spätestens\" = by ... at the latest.",
       },
       {
@@ -1091,13 +1090,13 @@ export const DE_C1_U17: Lesson[] = [
     level: "DE-C1",
     number: 6,
     title: "Formal Letters and Emails, Part 4 of 6",
-    summary: "Enquiries, applications and cancellations: polite requests with Ich wäre Ihnen dankbar, wenn..., the Antrag, the Initiativbewerbung and the watertight Kündigung.",
+    summary: "Write enquiries, applications and cancellations: polite requests with \"Ich wäre Ihnen dankbar, wenn ...\", the \"Antrag\", the \"Initiativbewerbung\" and a watertight \"Kündigung\".",
     duration: "19 min",
     sections: [
       {
         heading: "The Anfrage: asking politely in the Konjunktiv II",
         body: [
-          "An Anfrage is an enquiry: you want information, a quote or an appointment. The tone is polite and slightly distant, and German achieves that with the Konjunktiv II, exactly as in Unit 1: \"Ich wäre Ihnen dankbar, wenn Sie mir ... zusenden könnten.\" \"Könnten Sie mir bitte mitteilen, ob ...?\" \"Ich würde gern wissen, ob ...\".",
+          "An \"Anfrage\" is an enquiry: you want information, a quote or an appointment. The tone is polite and slightly distant, and German achieves that with the Konjunktiv II, exactly as in Unit 1: \"Ich wäre Ihnen dankbar, wenn Sie mir ... zusenden könnten.\" \"Könnten Sie mir bitte mitteilen, ob ...?\" \"Ich würde gern wissen, ob ...\".",
           "\"Ich wäre Ihnen dankbar, wenn ...\" is the workhorse. Note the dative \"Ihnen\" (grateful to you) and the Konjunktiv II in both halves: \"wäre\" in the main clause and \"könnten\" or \"würden\" in the wenn-clause. A nominal variant fits the end of an email: \"Für eine kurze Rückmeldung wäre ich Ihnen dankbar.\"",
           "Indirect questions keep the verb at the end: \"Könnten Sie mir mitteilen, ob der Kurs noch freie Plätze hat?\", \"..., wann die Unterlagen vorliegen müssen?\", \"..., welche Kosten entstehen?\". The question mark stays because the whole sentence is a question.",
           "Direct, polite and perfectly normal in German: \"Ich bitte Sie, ...\", \"Bitte teilen Sie mir mit, ...\". The Konjunktiv II softens; the indicative imperative with \"bitte\" is clearer. Both are good style; overdoing the Konjunktiv (\"Ich würde Sie gerne bitten wollen, ...\") is not.",
@@ -1134,9 +1133,9 @@ export const DE_C1_U17: Lesson[] = [
       {
         heading: "The Antrag and the Initiativbewerbung",
         body: [
-          "An Antrag is a formal application to an authority or an employer: \"Antrag auf Elternzeit\", \"Antrag auf Urlaub\", \"Antrag auf Kostenübernahme\". Note the preposition: \"ein Antrag auf\" + accusative, and the verb \"etwas beantragen\" (no preposition): \"Hiermit beantrage ich Elternzeit für den Zeitraum vom 1. März bis zum 31. August 2027.\"",
+          "An \"Antrag\" is a formal application to an authority or an employer: \"Antrag auf Elternzeit\", \"Antrag auf Urlaub\", \"Antrag auf Kostenübernahme\". Note the preposition: \"ein Antrag auf\" + accusative, and the verb \"etwas beantragen\" (no preposition): \"Hiermit beantrage ich Elternzeit für den Zeitraum vom 1. März bis zum 31. August 2027.\"",
           "Periods of time in applications: \"vom 1. März bis zum 31. August\", \"für die Dauer von sechs Monaten\", \"ab dem 1. Oktober\". Bureaucratic German loves the noun \"der Zeitraum\" (period).",
-          "An Initiativbewerbung is an unsolicited application: you write to a company that has not advertised a job. The opening has to explain why: \"Da Sie derzeit keine passende Stelle ausgeschrieben haben, sende ich Ihnen meine Initiativbewerbung.\" or \"Ich bewerbe mich initiativ als ..., weil ...\". A job is \"ausgeschrieben\" (advertised); you apply \"um eine Stelle\" or \"als\" + job title.",
+          "An \"Initiativbewerbung\" is an unsolicited application: you write to a company that has not advertised a job. The opening has to explain why: \"Da Sie derzeit keine passende Stelle ausgeschrieben haben, sende ich Ihnen meine Initiativbewerbung.\" or \"Ich bewerbe mich initiativ als ..., weil ...\". A job is \"ausgeschrieben\" (advertised); you apply \"um eine Stelle\" or \"als\" + job title.",
         ],
         examples: [
           { es: "Hiermit beantrage ich Elternzeit für den Zeitraum vom 1. März bis zum 31. August 2027.", en: "I hereby apply for parental leave for the period from 1 March to 31 August 2027." },
@@ -1154,7 +1153,7 @@ export const DE_C1_U17: Lesson[] = [
             source: "I hereby apply for parental leave from 1 March to 31 August.",
             answer: "Hiermit beantrage ich Elternzeit vom 1. März bis zum 31. August.",
             altAnswers: ["Hiermit beantrage ich Elternzeit vom 1. März bis 31. August.", "Hiermit beantrage ich Elternzeit für den Zeitraum vom 1. März bis zum 31. August.", "Hiermit stelle ich einen Antrag auf Elternzeit vom 1. März bis zum 31. August."],
-            explanation: "\"Beantragen\" takes a direct object (no auf); the noun is \"Antrag auf\". Periods: \"vom ... bis zum ...\".",
+            explanation: "\"Beantragen\" takes a direct object (no \"auf\"); the noun is \"Antrag auf\". Periods: \"vom ... bis zum ...\".",
           },
           {
             type: "multiple-choice",
@@ -1168,10 +1167,10 @@ export const DE_C1_U17: Lesson[] = [
       {
         heading: "The watertight Kündigung",
         body: [
-          "A Kündigung ends a contract (job, flat, phone, gym, insurance). Write it so that nothing can be misunderstood: name the contract and number, use \"hiermit kündige ich\", and give the date. The standard phrase is \"fristgerecht zum nächstmöglichen Zeitpunkt\" (with due notice at the earliest possible date): it is valid even if you have miscalculated the notice period.",
+          "A \"Kündigung\" ends a contract (job, flat, phone, gym, insurance). Write it so that nothing can be misunderstood: name the contract and number, use \"hiermit kündige ich\", and give the date. The standard phrase is \"fristgerecht zum nächstmöglichen Zeitpunkt\" (with due notice at the earliest possible date): it is valid even if you have miscalculated the notice period.",
           "Or name the date: \"zum 31. Dezember 2026\" (with effect from: \"zum\", not \"am\" or \"bis\"). An extraordinary cancellation without notice, for good reason, is \"außerordentlich\" or \"fristlos\".",
           "Always ask for written confirmation: \"Bitte bestätigen Sie mir den Erhalt dieser Kündigung sowie den Beendigungszeitpunkt schriftlich.\" If you pay by direct debit, you can withdraw the mandate in the same letter: \"Gleichzeitig widerrufe ich die erteilte Einzugsermächtigung.\"",
-          "A Kündigung needs no reason and no apology; adding \"Leider\" or a long explanation weakens it. Send it per Einschreiben, or in a form the contract allows (many contracts can now be cancelled online via a \"Kündigungsbutton\").",
+          "A \"Kündigung\" needs no reason and no apology; adding \"Leider\" or a long explanation weakens it. Send it \"per Einschreiben\", or in a form the contract allows (many contracts can now be cancelled online via a \"Kündigungsbutton\").",
         ],
         examples: [
           { es: "Hiermit kündige ich meinen Vertrag (Kundennummer 55120) fristgerecht zum nächstmöglichen Zeitpunkt.", en: "I hereby cancel my contract (customer number 55120) with due notice at the earliest possible date." },
@@ -1202,7 +1201,7 @@ export const DE_C1_U17: Lesson[] = [
             type: "speak",
             text: "Bitte bestätigen Sie mir den Erhalt dieser Kündigung schriftlich.",
             prompt: "Say it in German: Please confirm receipt of this notice in writing.",
-            tip: "Kündigung: the ü is long and the stress falls on KÜN.",
+            tip: "\"Kündigung\": the ü is short (before \"nd\") and the stress falls on KÜN.",
             explanation: "\"Jemandem den Erhalt von etwas bestätigen\" asks for proof that your notice arrived.",
           },
         ],
@@ -1225,7 +1224,7 @@ export const DE_C1_U17: Lesson[] = [
         source: "I would be very grateful for a brief reply by Friday.",
         answer: "Für eine kurze Rückmeldung bis Freitag wäre ich Ihnen sehr dankbar.",
         altAnswers: ["Ich wäre Ihnen für eine kurze Rückmeldung bis Freitag sehr dankbar.", "Für eine kurze Antwort bis Freitag wäre ich Ihnen sehr dankbar.", "Ich wäre Ihnen sehr dankbar für eine kurze Rückmeldung bis Freitag."],
-        explanation: "\"Dankbar für\" + accusative; putting the request first gives it the emphasis and avoids opening with ich.",
+        explanation: "\"Dankbar für\" + accusative; putting the request first gives it the emphasis and avoids opening with \"ich\".",
       },
       {
         type: "translate",
@@ -1297,7 +1296,7 @@ export const DE_C1_U17: Lesson[] = [
         type: "speak",
         text: "Ich wäre Ihnen dankbar, wenn Sie mich zurückrufen könnten.",
         prompt: "Say it in German: I would be grateful if you could call me back.",
-        tip: "The ä in wäre is an open eh sound, not ay.",
+        tip: "The ä in \"wäre\" is a long, open eh sound, not ay.",
         explanation: "The standard polite request: \"wäre ... dankbar\" + \"wenn Sie ... könnten\".",
       },
     ],
@@ -1307,18 +1306,18 @@ export const DE_C1_U17: Lesson[] = [
     level: "DE-C1",
     number: 7,
     title: "Error Hunt: The Complaint Letter",
-    summary: "Fix a learner's complaint letter: wrong salutations and closings, Sie and sie mixed up, du creeping into a Sie letter, colloquial words and anglicisms.",
+    summary: "Find and fix the typical mistakes in a learner's complaint letter: wrong salutations and closings, \"Sie\" and \"sie\" mixed up, du creeping into a Sie letter, colloquial words and anglicisms.",
     duration: "16 min",
     sections: [
       {
         heading: "Salutation and closing slips",
         body: [
           "A learner, Daniel, has written a complaint to an online shop. His German is good, but the frame of the letter gives him away. He starts \"Liebe Damen und Herren,\": a calque of Dear Sir or Madam. \"Liebe\" is warm and personal; strangers are \"Sehr geehrte Damen und Herren,\".",
-          "When he knows the name, he writes \"Sehr geehrte Herr Wagner,\". The adjective has to agree: \"Sehr geehrter Herr Wagner,\" (masculine), \"Sehr geehrte Frau Wagner,\" (feminine). Then: \"Sehr geehrter Herr Wagner, Ich schreibe ...\" with a capital I. After the comma the text continues in lowercase: \"ich ...\".",
+          "When he knows the name, he writes \"*Sehr geehrte Herr Wagner,\". The adjective has to agree: \"Sehr geehrter Herr Wagner,\" (masculine), \"Sehr geehrte Frau Wagner,\" (feminine). Then: \"Sehr geehrter Herr Wagner, Ich schreibe ...\" with a capital I. After the comma the text continues in lowercase: \"ich ...\".",
           "At the end: \"Mit freundlichen Grüßen,\" with a comma (English habit), or \"Hochachtungsvoll\" because he wanted to be extra polite. The correct closing has no punctuation; \"Hochachtungsvoll\" sounds cold. And \"Mit freundlichem Gruß\" in the singular is possible but old-fashioned: use the plural.",
         ],
         examples: [
-          { es: "Sehr geehrte Damen und Herren,", en: "Dear Sir or Madam, (not Liebe Damen und Herren)" },
+          { es: "Sehr geehrte Damen und Herren,", en: "Dear Sir or Madam, (not \"Liebe Damen und Herren\")" },
           { es: "Sehr geehrter Herr Wagner, ich habe am 3. Mai bei Ihnen bestellt.", en: "Dear Mr Wagner, I placed an order with you on 3 May." },
           { es: "Sehr geehrte Frau Wagner, vielen Dank für Ihre Antwort.", en: "Dear Mrs Wagner, Thank you for your reply." },
           { es: "Mit freundlichen Grüßen", en: "Yours sincerely (no comma)" },
@@ -1328,7 +1327,7 @@ export const DE_C1_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Daniel wrote: Liebe Damen und Herren, Ich schreibe wegen meiner Bestellung. Write the corrected German for: Dear Sir or Madam, I am writing about my order.",
+            prompt: "Daniel wrote: \"*Liebe Damen und Herren, Ich schreibe wegen meiner Bestellung.\" Write the corrected German for: Dear Sir or Madam, I am writing about my order.",
             source: "Dear Sir or Madam, I am writing about my order.",
             answer: "Sehr geehrte Damen und Herren, ich schreibe wegen meiner Bestellung.",
             altAnswers: ["Sehr geehrte Damen und Herren, ich wende mich wegen meiner Bestellung an Sie.", "Sehr geehrte Damen und Herren, ich wende mich an Sie wegen meiner Bestellung.", "Sehr geehrte Damen und Herren, ich schreibe Ihnen wegen meiner Bestellung."],
@@ -1336,7 +1335,7 @@ export const DE_C1_U17: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Daniel wrote Sehr geehrte Herr Wagner. Write the German for the bold words.",
+            prompt: "Daniel wrote \"*Sehr geehrte Herr Wagner\". Write the German for the bold words.",
             en: "[Dear Mr] Wagner,",
             sentence: "___ Wagner,",
             answer: "Sehr geehrter Herr",
@@ -1363,7 +1362,7 @@ export const DE_C1_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Daniel wrote: Ich habe dir bereits am Montag geschrieben, aber sie haben nicht geantwortet. Write the corrected German for this sentence (to a company).",
+            prompt: "Daniel wrote: \"*Ich habe dir bereits am Montag geschrieben, aber sie haben nicht geantwortet.\" Write the corrected German for this sentence (to a company).",
             source: "I already wrote to you on Monday, but you didn't reply.",
             answer: "Ich habe Ihnen bereits am Montag geschrieben, aber Sie haben nicht geantwortet.",
             altAnswers: ["Ich habe Ihnen schon am Montag geschrieben, aber Sie haben nicht geantwortet.", "Ich habe Ihnen bereits am Montag geschrieben, Sie haben jedoch nicht geantwortet.", "Ich habe Ihnen bereits am Montag geschrieben, aber Sie haben nicht reagiert.", "Ich habe Ihnen bereits am Montag geschrieben, aber Sie haben mir nicht geantwortet."],
@@ -1390,8 +1389,8 @@ export const DE_C1_U17: Lesson[] = [
         heading: "Register slips and anglicisms",
         body: [
           "Daniel's text also mixes in spoken German: \"Ich habe das Paket nicht gekriegt\" (\"kriegen\" is colloquial: \"erhalten\" or \"bekommen\"), \"Der Toaster ist kaputt\" (in a complaint: \"defekt\"), \"Ich bin total sauer\" (anger doesn't belong in the letter; at most \"Ich bin sehr verärgert\").",
-          "Then there are anglicisms, some of them common in speech but out of place in a formal letter: \"Das macht keinen Sinn\" (better: \"Das ergibt keinen Sinn\" or \"Das ist nicht nachvollziehbar\"), \"Ich habe realisiert, dass ...\" (in standard German \"realisieren\" means to carry out a project; to notice is \"feststellen\" or \"bemerken\"), \"so schnell wie möglich\" for ASAP (fine, but \"umgehend\" or \"möglichst bald\" sounds more professional), and \"einen Refund\" (\"eine Rückerstattung\").",
-          "Finally, \"Danke in Voraus\" should be \"Vielen Dank im Voraus\" (im, from in dem). Many Germans find thanking in advance a little pushy in a complaint; \"Für Ihre Bemühungen danke ich Ihnen\" is a smoother close.",
+          "Then there are anglicisms, some of them common in speech but out of place in a formal letter: \"Das macht keinen Sinn\" (better: \"Das ergibt keinen Sinn\" or \"Das ist nicht nachvollziehbar\"), \"Ich habe realisiert, dass ...\" (\"realisieren\" traditionally means to carry out a project; the sense 'to notice' is common in speech but reads as an anglicism in a formal letter: use \"feststellen\" or \"bemerken\"), \"so schnell wie möglich\" for ASAP (fine, but \"umgehend\" or \"möglichst bald\" sounds more professional), and \"einen Refund\" (\"eine Rückerstattung\").",
+          "Finally, \"Danke in Voraus\" should be \"Vielen Dank im Voraus\" (\"im\", from \"in dem\"). Many Germans find thanking in advance a little pushy in a complaint; \"Für Ihre Bemühungen danke ich Ihnen\" is a smoother close.",
         ],
         examples: [
           { es: "Ich habe das Paket bis heute nicht erhalten.", en: "I still haven't received the parcel." },
@@ -1405,16 +1404,16 @@ export const DE_C1_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Daniel wrote: Ich habe realisiert, dass ein Teil fehlt. Write the corrected German for: I realised that a part was missing.",
+            prompt: "Daniel wrote: \"Ich habe realisiert, dass ein Teil fehlt.\" Write the corrected German for: I realised that a part was missing.",
             source: "I realised that a part was missing.",
             answer: "Ich habe festgestellt, dass ein Teil fehlt.",
             altAnswers: ["Ich habe bemerkt, dass ein Teil fehlt.", "Ich habe festgestellt, dass ein Teil fehlte.", "Ich habe bemerkt, dass ein Teil fehlte.", "Ich stellte fest, dass ein Teil fehlte."],
-            explanation: "\"Realisieren\" in standard German means to carry out; to realise or notice is \"feststellen\" or \"bemerken\".",
+            explanation: "\"Realisieren\" in careful German means to carry out; for to realise or notice, a formal letter uses \"feststellen\" or \"bemerken\".",
           },
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Daniel wrote: Ich habe das Paket nicht gekriegt. Write the corrected, formal German for: I still haven't received the parcel.",
+            prompt: "Daniel wrote: \"Ich habe das Paket nicht gekriegt.\" Write the corrected, formal German for: I still haven't received the parcel.",
             source: "I still haven't received the parcel.",
             answer: "Ich habe das Paket bis heute nicht erhalten.",
             altAnswers: ["Ich habe das Paket noch immer nicht erhalten.", "Das Paket habe ich bis heute nicht erhalten.", "Ich habe das Paket bis heute nicht bekommen.", "Das Paket habe ich noch immer nicht erhalten."],
@@ -1427,7 +1426,7 @@ export const DE_C1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Daniel wrote: Liebe Damen und Herren, Der Toaster ist kaputt. Write the corrected German for: Dear Sir or Madam, The toaster is defective.",
+        prompt: "Daniel wrote: \"*Liebe Damen und Herren, Der Toaster ist kaputt.\" Write the corrected German for: Dear Sir or Madam, The toaster is defective.",
         source: "Dear Sir or Madam, The toaster is defective.",
         answer: "Sehr geehrte Damen und Herren, der Toaster ist defekt.",
         altAnswers: ["Sehr geehrte Damen und Herren, der Toaster funktioniert nicht.", "Sehr geehrte Damen und Herren, der Toaster ist leider defekt."],
@@ -1436,7 +1435,7 @@ export const DE_C1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Daniel wrote: Können sie mir ihre Telefonnummer schicken? Write the corrected German for: Can you send me your phone number?",
+        prompt: "Daniel wrote: \"*Können sie mir ihre Telefonnummer schicken?\" Write the corrected German for: Can you send me your phone number?",
         source: "Can you send me your phone number?",
         answer: "Können Sie mir Ihre Telefonnummer schicken?",
         altAnswers: ["Könnten Sie mir Ihre Telefonnummer schicken?", "Können Sie mir bitte Ihre Telefonnummer schicken?", "Könnten Sie mir bitte Ihre Telefonnummer schicken?", "Könnten Sie mir Ihre Telefonnummer zusenden?"],
@@ -1452,28 +1451,28 @@ export const DE_C1_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Daniel wrote: Das macht keinen Sinn. Write a more formal German version of: Your reasoning doesn't make sense to me.",
+        prompt: "Daniel wrote: \"Das macht keinen Sinn.\" Write a more formal German version of: Your reasoning doesn't make sense to me.",
         source: "Your reasoning doesn't make sense to me.",
         answer: "Ihre Begründung ist für mich nicht nachvollziehbar.",
         altAnswers: ["Ihre Begründung ergibt für mich keinen Sinn.", "Ihre Begründung kann ich nicht nachvollziehen.", "Ich kann Ihre Begründung nicht nachvollziehen."],
-        explanation: "\"Nachvollziehbar\" (understandable, traceable) is the formal way to say something doesn't add up; \"Sinn ergeben\" is the standard verb, \"Sinn machen\" an anglicism.",
+        explanation: "\"Nachvollziehbar\" (understandable, traceable) is the formal way to say something doesn't add up; \"Sinn ergeben\" is the traditional verb; \"Sinn machen\" is now very common but still criticised as an anglicism.",
       },
       {
         type: "fill-blank",
-        prompt: "Daniel wrote Danke in Voraus. Write the German for the bold words.",
+        prompt: "Daniel wrote \"*Danke in Voraus\". Write the German for the bold words.",
         en: "Thank you [in advance] for your efforts.",
         sentence: "Vielen Dank ___ für Ihre Bemühungen.",
         answer: "im Voraus",
-        explanation: "The fixed phrase is \"im Voraus\" (in dem Voraus).",
+        explanation: "The fixed phrase is \"im Voraus\" (\"in dem Voraus\").",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Daniel wrote: Ich will einen Refund so schnell wie möglich. Write a correct, polite German version of: Please refund the amount to me immediately.",
+        prompt: "Daniel wrote: \"*Ich will einen Refund so schnell wie möglich.\" Write a correct, polite German version of: Please refund the amount to me immediately.",
         source: "Please refund the amount to me immediately.",
         answer: "Bitte erstatten Sie mir den Betrag umgehend.",
         altAnswers: ["Bitte erstatten Sie mir den Betrag umgehend zurück.", "Ich bitte Sie, mir den Betrag umgehend zu erstatten.", "Bitte erstatten Sie mir den Betrag unverzüglich.", "Ich bitte um umgehende Rückerstattung des Betrags."],
-        explanation: "\"Erstatten\" or \"Rückerstattung\" instead of the anglicism Refund, and \"umgehend\" instead of the blunt so schnell wie möglich.",
+        explanation: "\"Erstatten\" or \"Rückerstattung\" instead of the anglicism \"Refund\", and \"umgehend\" instead of the blunt \"so schnell wie möglich\".",
       },
       {
         type: "translate",
@@ -1494,7 +1493,7 @@ export const DE_C1_U17: Lesson[] = [
       {
         type: "listen-choose",
         audio: "Ich habe ihre E-Mail an meine Kollegin weitergeleitet.",
-        question: "This sentence is written with lowercase ihre. What does it mean?",
+        question: "This sentence is written with lowercase \"ihre\". What does it mean?",
         options: ["I forwarded her email to my colleague.", "I forwarded your email to my colleague.", "My colleague forwarded your email to me.", "I forwarded my colleague's email to her."],
         correctIndex: 0,
         explanation: "With lowercase \"ihre\" it is her (or their) email. In speech you can't hear the difference, which is why the capital matters in writing.",
@@ -1503,13 +1502,13 @@ export const DE_C1_U17: Lesson[] = [
         type: "speak",
         text: "Sehr geehrter Herr Wagner, ich habe Ihnen bereits am Montag geschrieben.",
         prompt: "Say it in German: Dear Mr Wagner, I already wrote to you on Monday.",
-        tip: "Make the -er of geehrter audible: it is the agreement with Herr.",
-        explanation: "\"Geehrter\" agrees with Herr, and \"Ihnen\" keeps you on Sie.",
+        tip: "Make the -er of \"geehrter\" audible: it is the agreement with \"Herr\".",
+        explanation: "\"Geehrter\" agrees with \"Herr\", and \"Ihnen\" keeps you on Sie.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Daniel wrote: Ich bin total sauer. Write a formal German version of: I am very annoyed about the delay.",
+        prompt: "Daniel wrote: \"Ich bin total sauer.\" Write a formal German version of: I am very annoyed about the delay.",
         source: "I am very annoyed about the delay.",
         answer: "Ich bin über die Verzögerung sehr verärgert.",
         altAnswers: ["Ich bin sehr verärgert über die Verzögerung.", "Über die Verzögerung bin ich sehr verärgert.", "Die Verzögerung verärgert mich sehr."],
@@ -1522,7 +1521,7 @@ export const DE_C1_U17: Lesson[] = [
     level: "DE-C1",
     number: 8,
     title: "Contrast Clinic: Anbei, Im Anhang, Beigefügt, Weiterleiten",
-    summary: "Attachments, forwarding and copies: anbei vs im Anhang vs beigefügt, Anlage vs Anhang, weiterleiten, in Kopie and zur Kenntnisnahme, with the word order after each.",
+    summary: "Refer to attachments, forward emails and copy people in correctly: \"anbei\" vs \"im Anhang\" vs \"beigefügt\", \"Anlage\" vs \"Anhang\", \"weiterleiten\", \"in Kopie\" and \"zur Kenntnisnahme\", with the word order after each.",
     duration: "15 min",
     sections: [
       {
@@ -1599,7 +1598,7 @@ export const DE_C1_U17: Lesson[] = [
         body: [
           "To forward is \"weiterleiten\" (separable): \"Ich leite Ihnen die E-Mail von Frau Weber weiter.\" \"Ich habe Ihre Anfrage an die zuständige Kollegin weitergeleitet.\" (I have forwarded your enquiry to the colleague responsible.) \"Zuständig\" (responsible, in charge) is one of the most useful words in German administration.",
           "Copies: \"Ich setze Herrn Becker in Kopie.\" or \"Ich setze Herrn Becker in CC.\" (I'm copying Mr Becker in), \"Frau Lang ist in Kopie.\" Blind copy is \"in BCC\". In a letter: \"Kopie an: Herrn Becker\".",
-          "Why you are sending something: \"zur Kenntnisnahme\" (z. K., for your information, no action needed), \"zur Info\" (informal email), \"mit der Bitte um Prüfung\" (please check), \"mit der Bitte um Rückmeldung\" (please reply), \"zur Unterschrift\" (for signature). These nominal phrases often stand alone in a short forwarding email: \"Zur Kenntnisnahme. Viele Grüße\".",
+          "Why you are sending something: \"zur Kenntnisnahme\" (\"z. K.\", for your information, no action needed), \"zur Info\" (informal email), \"mit der Bitte um Prüfung\" (please check), \"mit der Bitte um Rückmeldung\" (please reply), \"zur Unterschrift\" (for signature). These nominal phrases often stand alone in a short forwarding email: \"Zur Kenntnisnahme. Viele Grüße\".",
         ],
         examples: [
           { es: "Ich leite Ihnen die E-Mail von Frau Weber weiter.", en: "I'm forwarding Mrs Weber's email to you." },
@@ -1719,7 +1718,7 @@ export const DE_C1_U17: Lesson[] = [
         type: "speak",
         text: "Ich habe Ihre Anfrage an den zuständigen Kollegen weitergeleitet.",
         prompt: "Say it in German: I've forwarded your enquiry to the colleague responsible (a man).",
-        tip: "zuständigen: the ts sound at the start, and stress on ZU.",
+        tip: "\"zuständigen\": z is a ts sound, and the stress is on ZU.",
         explanation: "\"Weiterleiten an\" + accusative; \"den zuständigen Kollegen\" with weak -en endings.",
       },
     ],
@@ -1735,9 +1734,9 @@ export const DE_C1_U17: Lesson[] = [
       {
         heading: "Following up: nach dem Stand erkundigen",
         body: [
-          "German has a whole set of phrases for chasing an answer politely (nachfassen). The most useful: \"Ich möchte mich nach dem Stand meines Antrags erkundigen.\" (I'd like to ask about the status of my application.) \"Sich erkundigen nach\" + dative is the formal to enquire about; \"der Stand\" is the current state of things.",
+          "German has a whole set of phrases for chasing an answer politely (\"nachfassen\"). The most useful: \"Ich möchte mich nach dem Stand meines Antrags erkundigen.\" (I'd like to ask about the status of my application.) \"Sich erkundigen nach\" + dative is the formal to enquire about; \"der Stand\" is the current state of things.",
           "Refer back to your own message: \"Ich komme auf meine E-Mail vom 3. Juni zurück.\" (zurückkommen auf + accusative). Then state the gap without blame: \"Leider habe ich bisher noch keine Antwort erhalten.\" or \"Bislang liegt mir noch keine Rückmeldung vor.\" (\"vorliegen\" + dative: to be available to someone).",
-          "A gentle reminder: \"Darf ich Sie freundlich an meine Anfrage erinnern?\" (erinnern an + accusative). With colleagues: \"Gibt es hierzu schon etwas Neues?\" or \"Kurze Nachfrage: ...\". Avoid the English-style \"Just following up\" (*Nur nachfassen): German follow-ups name the subject and the date.",
+          "A gentle reminder: \"Darf ich Sie freundlich an meine Anfrage erinnern?\" (erinnern an + accusative). With colleagues: \"Gibt es hierzu schon etwas Neues?\" or \"Kurze Nachfrage: ...\". Avoid the English-style 'Just following up' (\"*Nur nachfassen\"): German follow-ups name the subject and the date.",
         ],
         examples: [
           { es: "Ich möchte mich nach dem Stand meines Antrags erkundigen.", en: "I would like to enquire about the status of my application." },
@@ -1770,7 +1769,7 @@ export const DE_C1_U17: Lesson[] = [
       {
         heading: "Acknowledging and confirming",
         body: [
-          "Acknowledging receipt: \"Ihre Unterlagen sind bei uns eingegangen.\" (eingehen = to arrive, of mail; Perfekt with sein). \"Vielen Dank für Ihre Nachricht, die ich gern bestätige.\" \"Wir werden uns in den nächsten Tagen bei Ihnen melden.\" (sich melden bei = get back to).",
+          "Acknowledging receipt: \"Ihre Unterlagen sind bei uns eingegangen.\" (\"eingehen\" = to arrive, of mail; Perfekt with \"sein\"). \"Vielen Dank für Ihre Nachricht, die ich gern bestätige.\" \"Wir werden uns in den nächsten Tagen bei Ihnen melden.\" (\"sich melden bei\" = get back to).",
           "Confirming an appointment the German way repeats day, date and time so that nothing can go wrong: \"Hiermit bestätige ich den Termin am Dienstag, dem 14. Mai, um 10 Uhr.\" Note the dative apposition: \"am Dienstag, dem 14. Mai\" (the accusative \"den 14. Mai\" is also accepted today).",
           "Promising action: \"Ich kümmere mich darum.\" (I'll take care of it), \"Ich gebe Ihnen Bescheid, sobald ...\" (I'll let you know as soon as ...), \"Wir prüfen Ihr Anliegen und melden uns umgehend.\"",
         ],
@@ -1806,7 +1805,7 @@ export const DE_C1_U17: Lesson[] = [
         heading: "Declining politely and the Abwesenheitsnotiz",
         body: [
           "Bad news in German business writing is introduced with \"leider\" or \"zu meinem / unserem Bedauern\" and kept factual: \"Leider müssen wir Ihnen mitteilen, dass wir uns für eine andere Bewerberin entschieden haben.\" \"Zu meinem Bedauern kann ich an der Sitzung nicht teilnehmen.\" Add a positive close: \"Wir wünschen Ihnen für Ihre berufliche Zukunft alles Gute.\"",
-          "The Abwesenheitsnotiz (out-of-office reply) has a fixed shape: thanks, absence with an end date, no access to email, a substitute for urgent matters, and whether mail is forwarded. \"Ich bin bis einschließlich 22. August nicht im Büro.\" \"Einschließlich\" (inclusive) avoids doubt about the last day. \"In dringenden Fällen wenden Sie sich bitte an ...\".",
+          "The \"Abwesenheitsnotiz\" (out-of-office reply) has a fixed shape: thanks, absence with an end date, no access to email, a substitute for urgent matters, and whether mail is forwarded. \"Ich bin bis einschließlich 22. August nicht im Büro.\" \"Einschließlich\" (inclusive) avoids doubt about the last day. \"In dringenden Fällen wenden Sie sich bitte an ...\".",
           "\"Erreichbar\" (reachable) is the key adjective: \"Ab dem 25. August bin ich wieder erreichbar.\" \"Ich bin nur eingeschränkt erreichbar.\" (I have only limited access.) \"Ihre E-Mail wird nicht weitergeleitet.\"",
         ],
         examples: [
@@ -1888,7 +1887,7 @@ export const DE_C1_U17: Lesson[] = [
         question: "Which line belongs in an out-of-office reply?",
         options: ["In dringenden Fällen wenden Sie sich bitte an meine Kollegin Frau Lang.", "Ich komme auf meine E-Mail vom 3. Juni zurück.", "Hiermit kündige ich fristgerecht.", "Andernfalls sehe ich mich gezwungen, rechtliche Schritte einzuleiten."],
         correctIndex: 0,
-        explanation: "An Abwesenheitsnotiz names a contact for urgent matters. The others belong in follow-ups, cancellations and complaints.",
+        explanation: "An \"Abwesenheitsnotiz\" names a contact for urgent matters. The others belong in follow-ups, cancellations and complaints.",
       },
       {
         type: "translate",
@@ -1916,7 +1915,7 @@ export const DE_C1_U17: Lesson[] = [
         type: "speak",
         text: "Ich möchte mich nach dem Stand meiner Bewerbung erkundigen.",
         prompt: "Say it in German: I would like to enquire about the status of my application (for a job).",
-        tip: "erkundigen: stress on KUN, and the -ig- is soft, almost like ich.",
+        tip: "\"erkundigen\": stress on KUN; the g is a real g here (er-KUN-di-gen), because a vowel follows it.",
         explanation: "The polite follow-up formula: \"sich erkundigen nach\" + dative.",
       },
       {
@@ -1935,13 +1934,13 @@ export const DE_C1_U17: Lesson[] = [
     level: "DE-C1",
     number: 10,
     title: "Formal Letters and Emails, Part 6 of 6",
-    summary: "The other side of the complaint: apologising formally, offering a goodwill gesture (aus Kulanz) and refusing tactfully with Leider können wir Ihrem Anliegen nicht entsprechen.",
+    summary: "Answer a complaint from the company's side: apologise formally, offer a goodwill gesture (\"aus Kulanz\") and refuse tactfully with \"Leider können wir Ihrem Anliegen nicht entsprechen\".",
     duration: "18 min",
     sections: [
       {
         heading: "Acknowledging and apologising",
         body: [
-          "When a company answers a complaint, it first shows it has taken it seriously: \"Vielen Dank für Ihr Schreiben vom 4. Mai, in dem Sie uns auf ... aufmerksam machen.\" \"Wir haben Ihre Beschwerde sorgfältig geprüft.\" (jemanden auf etwas aufmerksam machen = to draw someone's attention to something).",
+          "When a company answers a complaint, it first shows it has taken it seriously: \"Vielen Dank für Ihr Schreiben vom 4. Mai, in dem Sie uns auf ... aufmerksam machen.\" \"Wir haben Ihre Beschwerde sorgfältig geprüft.\" (\"jemanden auf etwas aufmerksam machen\" = to draw someone's attention to something).",
           "Then the apology. The written formula is \"Wir bedauern die entstandenen Unannehmlichkeiten.\" (We regret the inconvenience caused.) \"Entstanden\" is a participle used as an adjective: the inconvenience that has arisen. Other options: \"Bitte entschuldigen Sie die Verzögerung.\" \"Wir möchten uns für den Fehler entschuldigen.\" \"Es tut uns leid, dass ...\" is fine in a personal email but sounds less formal.",
           "A trap: \"Wir entschuldigen uns\" is very common, but some style guides say you can't excuse yourself and prefer \"Wir bitten um Entschuldigung\" or \"Bitte entschuldigen Sie ...\". Both are used; \"Wir bitten vielmals um Entschuldigung\" is the most humble.",
         ],
@@ -1977,7 +1976,7 @@ export const DE_C1_U17: Lesson[] = [
         heading: "Kulanz and goodwill gestures",
         body: [
           "\"Kulanz\" is a key word in German customer service: something a company does voluntarily, without a legal obligation, to keep the customer happy. \"Aus Kulanz\" or \"auf dem Kulanzweg\" means as a goodwill gesture: \"Aus Kulanz übernehmen wir die Reparaturkosten.\" The adjective is \"kulant\": \"Die Firma war sehr kulant.\"",
-          "Companies like to stress that the gesture is voluntary: \"Obwohl die Gewährleistungsfrist abgelaufen ist, kommen wir Ihnen gern entgegen.\" (entgegenkommen + dative = to meet someone halfway). \"Als Zeichen unseres Entgegenkommens erhalten Sie einen Gutschein über 30 Euro.\" (\"ein Gutschein über\" + amount = a voucher for).",
+          "Companies like to stress that the gesture is voluntary: \"Obwohl die Gewährleistungsfrist abgelaufen ist, kommen wir Ihnen gern entgegen.\" (\"entgegenkommen\" + dative = to meet someone halfway). \"Als Zeichen unseres Entgegenkommens erhalten Sie einen Gutschein über 30 Euro.\" (\"ein Gutschein über\" + amount = a voucher for).",
           "\"Ohne Anerkennung einer Rechtspflicht\" (without acknowledging any legal obligation) is the legal small print that often accompanies Kulanz: the company pays but admits nothing.",
         ],
         examples: [
@@ -1999,7 +1998,7 @@ export const DE_C1_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does Die Firma war sehr kulant mean?",
+            question: "What does \"Die Firma war sehr kulant\" mean?",
             options: ["The company was very accommodating.", "The company was very strict.", "The company was very quick.", "The company was very expensive."],
             correctIndex: 0,
             explanation: "\"Kulant\" describes a company that goes beyond its obligations to help a customer.",
@@ -2149,9 +2148,9 @@ export const DE_C1_U17: Lesson[] = [
       {
         heading: "Mission brief: the thank-you email",
         body: [
-          "You had an interview yesterday for a job as Projektkoordinatorin at a logistics company in Hamburg with Frau Dr. Neumann (head of department) and Herr Kaya (HR). In Germany a short thank-you email after an interview is not obligatory, but it is appreciated and keeps you in mind. It should be sent within a day and be short: five or six sentences.",
-          "The subject line names the occasion and the job: \"Unser Gespräch am 12. März, Stelle als Projektkoordinatorin\". The salutation addresses the person who led the interview: \"Sehr geehrte Frau Dr. Neumann,\". If both interviewers should read it, address both or put Herrn Kaya in Kopie.",
-          "The thanks: \"vielen Dank für das freundliche und aufschlussreiche Gespräch am gestrigen Tag.\" (aufschlussreich = informative, illuminating). Then a personal touch: \"Ich habe mich sehr gefreut, Sie und Ihr Team kennenzulernen.\" \"Das Gespräch hat mein Interesse an der Stelle noch verstärkt.\"",
+          "You had an interview yesterday for a job as \"Projektkoordinatorin\" at a logistics company in Hamburg with \"Frau Dr. Neumann\" (head of department) and \"Herr Kaya\" (HR). In Germany a short thank-you email after an interview is not obligatory, but it is appreciated and keeps you in mind. It should be sent within a day and be short: five or six sentences.",
+          "The subject line names the occasion and the job: \"Unser Gespräch am 12. März, Stelle als Projektkoordinatorin\". The salutation addresses the person who led the interview: \"Sehr geehrte Frau Dr. Neumann,\". If both interviewers should read it, address both or put \"Herrn Kaya\" \"in Kopie\".",
+          "The thanks: \"vielen Dank für das freundliche und aufschlussreiche Gespräch am gestrigen Tag.\" (\"aufschlussreich\" = informative, illuminating). Then a personal touch: \"Ich habe mich sehr gefreut, Sie und Ihr Team kennenzulernen.\" \"Das Gespräch hat mein Interesse an der Stelle noch verstärkt.\"",
         ],
         examples: [
           { es: "Unser Gespräch am 12. März, Stelle als Projektkoordinatorin", en: "Our interview on 12 March, position of project coordinator (subject line)" },
@@ -2168,7 +2167,7 @@ export const DE_C1_U17: Lesson[] = [
             source: "Thank you for the friendly and informative interview.",
             answer: "Vielen Dank für das freundliche und aufschlussreiche Gespräch.",
             altAnswers: ["Herzlichen Dank für das freundliche und aufschlussreiche Gespräch.", "Vielen Dank für das freundliche und informative Gespräch.", "Herzlichen Dank für das freundliche und informative Gespräch."],
-            explanation: "A job interview is \"das Gespräch\" (or Vorstellungsgespräch); \"aufschlussreich\" is the elegant word for informative.",
+            explanation: "A job interview is \"das Gespräch\" (or \"Vorstellungsgespräch\"); \"aufschlussreich\" is the elegant word for informative.",
           },
           {
             type: "translate",
@@ -2184,9 +2183,9 @@ export const DE_C1_U17: Lesson[] = [
       {
         heading: "Adding value and closing",
         body: [
-          "A good thank-you email adds one concrete point from the conversation: \"Besonders interessant fand ich ...\" or delivers something you promised: \"Wie im Gespräch angesprochen, sende ich Ihnen anbei die Referenzliste meiner bisherigen Projekte.\" (ansprechen = to mention, bring up).",
-          "Restate your motivation in one sentence, without exaggeration: \"Ich bin überzeugt, dass ich mit meiner Erfahrung im Einkauf einen wertvollen Beitrag zu Ihrem Team leisten kann.\" (einen Beitrag leisten = to make a contribution). German readers dislike hype: a literal translation of I am super passionate sounds odd. \"Ich würde mich sehr freuen, Teil Ihres Teams zu werden.\" is enough.",
-          "Close: \"Für Rückfragen stehe ich Ihnen jederzeit gern zur Verfügung.\" \"Ich freue mich darauf, von Ihnen zu hören.\" (freuen auf = look forward to: future; freuen über = be pleased about: past or present). \"Mit freundlichen Grüßen\" or, if the interview was relaxed, \"Freundliche Grüße\".",
+          "A good thank-you email adds one concrete point from the conversation: \"Besonders interessant fand ich ...\" or delivers something you promised: \"Wie im Gespräch angesprochen, sende ich Ihnen anbei die Referenzliste meiner bisherigen Projekte.\" (\"ansprechen\" = to mention, bring up).",
+          "Restate your motivation in one sentence, without exaggeration: \"Ich bin überzeugt, dass ich mit meiner Erfahrung im Einkauf einen wertvollen Beitrag zu Ihrem Team leisten kann.\" (\"einen Beitrag leisten\" = to make a contribution). German readers dislike hype: a literal translation of I am super passionate sounds odd. \"Ich würde mich sehr freuen, Teil Ihres Teams zu werden.\" is enough.",
+          "Close: \"Für Rückfragen stehe ich Ihnen jederzeit gern zur Verfügung.\" \"Ich freue mich darauf, von Ihnen zu hören.\" (\"sich freuen auf\" = look forward to: future; \"sich freuen über\" = be pleased about: past or present). \"Mit freundlichen Grüßen\" or, if the interview was relaxed, \"Freundliche Grüße\".",
         ],
         examples: [
           { es: "Wie im Gespräch angesprochen, sende ich Ihnen anbei die Liste meiner bisherigen Projekte.", en: "As mentioned in the interview, I am attaching the list of my previous projects." },
@@ -2219,8 +2218,8 @@ export const DE_C1_U17: Lesson[] = [
         heading: "One week later: the follow-up",
         body: [
           "A week has passed and you have heard nothing. If they named a date for the decision, wait until it has passed; otherwise a week to ten days is fine. The follow-up is even shorter: refer back, ask, restate interest.",
-          "\"Ich komme auf unser Gespräch vom 12. März zurück und möchte mich nach dem Stand des Auswahlverfahrens erkundigen.\" (das Auswahlverfahren = the selection process). \"Ich bin nach wie vor sehr an der Stelle interessiert.\" (nach wie vor = still, as before).",
-          "Ask about timing without pressure: \"Könnten Sie mir mitteilen, bis wann ich mit einer Entscheidung rechnen kann?\" (rechnen mit + dative = to expect). Avoid \"Ich warte auf Ihre Antwort\" (sounds impatient) and \"Haben Sie meine E-Mail bekommen?\" (sounds like an accusation).",
+          "\"Ich komme auf unser Gespräch vom 12. März zurück und möchte mich nach dem Stand des Auswahlverfahrens erkundigen.\" (\"das Auswahlverfahren\" = the selection process). \"Ich bin nach wie vor sehr an der Stelle interessiert.\" (\"nach wie vor\" = still, as before).",
+          "Ask about timing without pressure: \"Könnten Sie mir mitteilen, bis wann ich mit einer Entscheidung rechnen kann?\" (\"rechnen mit\" + dative = to expect). Avoid \"Ich warte auf Ihre Antwort\" (sounds impatient) and \"Haben Sie meine E-Mail bekommen?\" (sounds like an accusation).",
         ],
         examples: [
           { es: "Ich komme auf unser Gespräch vom 12. März zurück.", en: "I am following up on our interview of 12 March." },
@@ -2265,7 +2264,7 @@ export const DE_C1_U17: Lesson[] = [
         source: "Our interview on 12 March, position of project coordinator",
         answer: "Unser Gespräch am 12. März, Stelle als Projektkoordinatorin",
         altAnswers: ["Unser Gespräch am 12. März, Stelle als Projektkoordinator", "Unser Gespräch vom 12. März, Stelle als Projektkoordinatorin", "Unser Gespräch vom 12. März, Stelle als Projektkoordinator", "Unser Vorstellungsgespräch am 12. März, Stelle als Projektkoordinatorin"],
-        explanation: "A noun phrase without Betreff; \"Stelle als\" + job title without an article.",
+        explanation: "A noun phrase without \"Betreff\"; \"Stelle als\" + job title without an article.",
       },
       {
         type: "translate",
@@ -2325,7 +2324,7 @@ export const DE_C1_U17: Lesson[] = [
         words: ["Besonders spannend", "fand", "ich", "Ihre Pläne", "für den", "neuen Standort."],
         translation: "I found your plans for the new site particularly exciting.",
         altOrders: [["Ihre Pläne", "für den", "neuen Standort", "fand", "ich", "besonders spannend."]],
-        explanation: "Putting \"Besonders spannend\" first puts the focus on your reaction and keeps ich out of first position.",
+        explanation: "Putting \"Besonders spannend\" first puts the focus on your reaction and keeps \"ich\" out of first position.",
       },
       {
         type: "dictation",
@@ -2336,7 +2335,7 @@ export const DE_C1_U17: Lesson[] = [
         type: "speak",
         text: "Ich komme auf unser Gespräch vom 12. März zurück.",
         prompt: "Say it in German: I am following up on our interview of 12 March.",
-        tip: "Say the date as vom zwölften März.",
+        tip: "Say the date as \"vom zwölften März\".",
         explanation: "\"Zurückkommen auf\" + accusative: the polite opening of a follow-up.",
       },
     ],
@@ -2346,7 +2345,7 @@ export const DE_C1_U17: Lesson[] = [
     level: "DE-C1",
     number: 12,
     title: "Spiral Review: Correspondence, Konjunktiv and Markers",
-    summary: "Formal letters meet earlier Advanced grammar: Konjunktiv II requests and conditions without wenn, the nominal style of offices, and discourse markers that link a letter's paragraphs.",
+    summary: "Combine formal letters with earlier C1 grammar: Konjunktiv II requests and conditions without wenn, the nominal style of offices, and discourse markers that link a letter's paragraphs.",
     duration: "18 min",
     sections: [
       {
@@ -2425,7 +2424,7 @@ export const DE_C1_U17: Lesson[] = [
         heading: "Markers that link the paragraphs",
         body: [
           "Unit 10's discourse markers give a letter its logic. Adding a point: \"Zudem\", \"Darüber hinaus\", \"Des Weiteren\" (all with the verb straight after: \"Darüber hinaus bitte ich Sie, ...\"). Restricting: \"Allerdings\", \"Jedoch\" (can also sit in the middle: \"Die Ware ist jedoch nicht angekommen\"). Consequence: \"Daher\", \"Infolgedessen\", \"Somit\". Closing: \"Abschließend möchte ich ...\".",
-          "A complaint read aloud through its markers: \"Am 3. Mai habe ich ... bestellt. Die Lieferung ist allerdings bis heute nicht erfolgt. Zudem wurde der Betrag bereits abgebucht. Daher fordere ich Sie auf, ... Abschließend weise ich darauf hin, dass ...\". Each sentence links to the previous one, and none starts with ich.",
+          "A complaint read aloud through its markers: \"Am 3. Mai habe ich ... bestellt. Die Lieferung ist allerdings bis heute nicht erfolgt. Zudem wurde der Betrag bereits abgebucht. Daher fordere ich Sie auf, ... Abschließend weise ich darauf hin, dass ...\". Each sentence links to the previous one, and none starts with \"ich\".",
           "Remember the false friends from Unit 10: \"eventuell\" is possibly, not eventually; \"aktuell\" is current, not actually.",
         ],
         examples: [
@@ -2448,7 +2447,7 @@ export const DE_C1_U17: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does Eventuell müssen wir den Termin verschieben mean?",
+            question: "What does \"Eventuell müssen wir den Termin verschieben\" mean?",
             options: ["We may have to postpone the appointment.", "We will eventually have to postpone the appointment.", "We have finally postponed the appointment.", "We must postpone the appointment at once."],
             correctIndex: 0,
             explanation: "\"Eventuell\" means possibly, perhaps. Eventually is \"schließlich\" or \"irgendwann\".",

@@ -9,14 +9,14 @@ export const DE_B2_U25_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Technology Vocabulary",
-    summary: "The verbs and nouns of digital life with their prepositions, genders and separable prefixes.",
+    summary: "Use the verbs and nouns of digital life with the right genders, prepositions and separable prefixes.",
     duration: "12 min",
     sections: [
       {
         heading: "Recap: digital verbs and nouns",
         body: [
           "Genders to know: \"die KI\", \"die App\", \"die Anwendung\", \"die Datei\", \"der Algorithmus\" (plural \"Algorithmen\"), \"der Bildschirm\", \"der Akku\", \"der Ordner\", \"das Update\", \"das Passwort\", \"das Gerät\", \"das Handy\". \"Die Daten\" is plural.",
-          "Separable: \"herunterladen\" / \"hochladen\" (\"lädt ... herunter\", \"heruntergeladen\"), \"sich anmelden\" / \"sich abmelden\" (bei + dative), \"eingeben\", \"zurücksetzen\". Regular and inseparable: \"speichern\", \"löschen\", \"verschlüsseln\". Save money = \"sparen\", save a file = \"speichern\".",
+          "Separable: \"herunterladen\" / \"hochladen\" (\"lädt ... herunter\", \"heruntergeladen\"), \"sich anmelden\" / \"sich abmelden\" (bei + dative), \"eingeben\", \"zurücksetzen\". Regular, with no separable prefix: \"speichern\", \"löschen\", \"verschlüsseln\". Save money = \"sparen\", save a file = \"speichern\".",
         ],
         examples: [
           { es: "Ich melde mich mit meiner E-Mail-Adresse an.", en: "I log in with my email address." },
@@ -95,10 +95,10 @@ export const DE_B2_U25_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which article is correct?",
-        options: ["das Update", "der Update", "die Update", "den Update"],
+        question: "You want to know if the update is finished. What do you ask?",
+        options: ["Ist das Update fertig?", "Ist der Update fertig?", "Ist die Update fertig?", "Ist den Update fertig?"],
         correctIndex: 0,
-        explanation: "\"Das Update\": English loanwords are often neuter, like \"das Handy\", \"das Passwort\".",
+        explanation: "\"Das Update\" is neuter: English loanwords are often neuter, like \"das Handy\", \"das Smartphone\". \"Den\" is accusative and can't be the subject.",
       },
       {
         type: "translate",
@@ -106,7 +106,7 @@ export const DE_B2_U25_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Don't forget to log out! (to a friend)",
         answer: "Vergiss nicht, dich abzumelden!",
-        altAnswers: ["Vergiss nicht, dich auszuloggen!", "Vergesst nicht, euch abzumelden!", "Vergessen Sie nicht, sich abzumelden!"],
+        altAnswers: ["Vergiss nicht, dich auszuloggen!"],
         explanation: "\"Zu\" goes between prefix and stem: \"abzumelden\"; the reflexive matches du: \"dich\".",
       },
       {
@@ -174,7 +174,7 @@ export const DE_B2_U25_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Psychology False Friends",
-    summary: "Sensibel, sympathisch, selbstbewusst, eventuell, konsequent and others in context.",
+    summary: "Use false friends such as \"sensibel\", \"sympathisch\", \"selbstbewusst\", \"eventuell\" and \"konsequent\" correctly in context.",
     duration: "12 min",
     sections: [
       {
@@ -293,7 +293,7 @@ export const DE_B2_U25_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I [embarrassed myself] in front of everyone.",
+        en: "I embarrassed [myself] in front of everyone.",
         sentence: "Ich habe ___ vor allen blamiert.",
         answer: "mich",
         explanation: "\"Sich blamieren\" = to embarrass yourself. To blame someone is \"jemandem die Schuld geben\".",
@@ -416,6 +416,7 @@ export const DE_B2_U25_EXTRA: Lesson[] = [
         en: "The union and the employers [have reached an agreement].",
         sentence: "Die Gewerkschaft und die Arbeitgeber haben ___.",
         answer: "sich geeinigt",
+        altAnswers: ["eine Einigung erzielt"],
         explanation: "Headline \"Einigung im Tarifstreit\" → \"sich einigen\" (to agree, reach an agreement).",
       },
       {
@@ -466,6 +467,7 @@ export const DE_B2_U25_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: The festival was cancelled because of the storm.",
         words: ["Das", "Festival", "wurde", "wegen", "des", "Sturms", "abgesagt."],
         translation: "The festival was cancelled because of the storm.",
+        altOrders: [["wegen", "des", "Sturms", "wurde", "das", "Festival", "abgesagt."]],
         explanation: "Headline: \"Absage des Festivals wegen Sturm\". The Präteritum passive \"wurde abgesagt\".",
       },
       {

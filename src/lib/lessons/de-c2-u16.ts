@@ -31,7 +31,7 @@ export const DE_C2_U16: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "You spoke too fast at two points. (to a colleague you call du)",
+            source: "You spoke too fast at two points. (to a colleague you call \"du\")",
             answer: "An zwei Stellen hast du zu schnell gesprochen.",
             altAnswers: ["Du hast an zwei Stellen zu schnell gesprochen.", "An zwei Stellen hast du zu schnell geredet.", "Du hast an zwei Stellen zu schnell geredet."],
             explanation: "\"An einer Stelle\" is the standard way to say at one point in a text or talk; in feedback the Perfekt is normal: \"hast ... gesprochen\".",
@@ -43,7 +43,7 @@ export const DE_C2_U16: Lesson[] = [
             sentence: "Sie hat vor der Kernaussage eine ___.",
             answer: "Kunstpause gemacht",
             altAnswers: ["Kunstpause eingelegt", "Pause gemacht", "Pause eingelegt"],
-            explanation: "\"Eine Kunstpause machen\" or \"einlegen\": a deliberate pause for effect. English pause is not \"eine Pause halten\".",
+            explanation: "\"Eine Kunstpause machen\" or \"einlegen\": a deliberate pause for effect. You \"machen\" or \"einlegen\" a pause; \"*eine Pause halten*\" is not idiomatic.",
           },
         ],
       },
@@ -82,7 +82,7 @@ export const DE_C2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Halten Sie Blickkontakt mit dem ganzen Publikum.",
-            tip: "The ck in Blickkontakt is a short, clipped k; stress BLICK, not -kontakt.",
+            tip: "The \"ck\" in \"Blickkontakt\" is a short, clipped k; stress \"Blick\", not \"-kontakt\".",
             explanation: "\"Blickkontakt halten\": you hold eye contact in German, as in English.",
           },
         ],
@@ -128,7 +128,7 @@ export const DE_C2_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "You should slow down a bit. (to a colleague you call du)",
+        source: "You should slow down a bit. (to a colleague you call \"du\")",
         answer: "Du solltest dein Sprechtempo etwas drosseln.",
         altAnswers: ["Du solltest etwas langsamer sprechen.", "Du solltest ein bisschen langsamer sprechen.", "Du solltest dein Tempo etwas drosseln.", "Du solltest etwas langsamer reden."],
         explanation: "Feedback in Konjunktiv II: \"du solltest\". \"Das Tempo drosseln\" (to throttle) is the idiomatic phrase, but \"langsamer sprechen\" is just as correct.",
@@ -140,7 +140,7 @@ export const DE_C2_U16: Lesson[] = [
         source: "Her facial expression betrayed her uncertainty.",
         answer: "Ihre Mimik verriet ihre Unsicherheit.",
         altAnswers: ["Ihre Mimik hat ihre Unsicherheit verraten.", "Ihr Gesichtsausdruck verriet ihre Unsicherheit.", "Ihr Gesichtsausdruck hat ihre Unsicherheit verraten."],
-        explanation: "\"Die Mimik\" (facial expression), not mimicry. \"Verraten\" is strong: verriet, verraten.",
+        explanation: "\"Die Mimik\" (facial expression), not mimicry. \"Verraten\" is strong: \"verriet\", \"verraten\".",
       },
       {
         type: "fill-blank",
@@ -180,7 +180,7 @@ export const DE_C2_U16: Lesson[] = [
         prompt: "Put the words in order to say: An open posture creates trust.",
         words: ["Eine", "offene", "Körperhaltung", "schafft", "Vertrauen."],
         translation: "An open posture creates trust.",
-        explanation: "\"Vertrauen schaffen\": schaffen (weak) here means to create; the verb stays second.",
+        explanation: "\"Vertrauen schaffen\": in the sense 'to create', \"schaffen\" is strong (\"schuf\", \"geschaffen\"); weak \"schaffte\" means 'managed'. The verb stays second.",
       },
       {
         type: "translate",
@@ -209,7 +209,7 @@ export const DE_C2_U16: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Text Detective: Nonverbale Kommunikation",
-    summary: "Read a negotiation transcript with stage directions, interpret the signals, and learn the verbs for describing them: die Stirn runzeln, mit den Achseln zucken, nicken, den Kopf schütteln.",
+    summary: "Read a negotiation transcript with stage directions, interpret the signals cautiously, and describe them with the right verbs: \"die Stirn runzeln\", \"mit den Achseln zucken\", \"nicken\", \"den Kopf schütteln\".",
     duration: "18 min",
     sections: [
       {
@@ -234,7 +234,7 @@ export const DE_C2_U16: Lesson[] = [
             prompt: "Translate into German.",
             source: "He shook his head.",
             answer: "Er schüttelte den Kopf.",
-            altAnswers: ["Er hat den Kopf geschüttelt."],
+            altAnswers: ["Er hat den Kopf geschüttelt.", "Er schüttelte mit dem Kopf.", "Er hat mit dem Kopf geschüttelt."],
             explanation: "German uses the article, not the possessive, with body parts: \"den Kopf\", not \"seinen Kopf\".",
           },
           {
@@ -255,14 +255,14 @@ export const DE_C2_U16: Lesson[] = [
             en: "The buyer [raised his eyebrows].",
             sentence: "Der Einkäufer ___.",
             answer: "zog die Augenbrauen hoch",
-            explanation: "\"Hochziehen\" is separable (zog ... hoch), and again \"die Augenbrauen\", not \"seine\".",
+            explanation: "\"Hochziehen\" is separable (\"zog ... hoch\"), and again \"die Augenbrauen\", not \"seine\".",
           },
         ],
       },
       {
         heading: "The transcript",
         body: [
-          "Read this excerpt from a negotiation between a supplier (Frau Arslan) and a buyer (Herr Berger). Stage directions in brackets: Berger: \"Ihr Angebot liegt deutlich über unserem Budget.\" (lehnt sich zurück, verschränkt die Arme) Arslan: (nickt langsam) \"Das verstehe ich. Darf ich fragen, wo Ihre Schmerzgrenze liegt?\" Berger: (zögert, blickt kurz zu seiner Kollegin) \"Darüber möchte ich jetzt noch nicht sprechen.\" Arslan: (lächelt, beugt sich vor) \"Dann schlage ich vor, wir schauen uns zuerst die Lieferzeiten an.\"",
+          "Read this excerpt from a negotiation between a supplier (Frau Arslan) and a buyer (Herr Berger). Stage directions in brackets: Berger: \"Ihr Angebot liegt deutlich über unserem Budget.\" (\"lehnt sich zurück, verschränkt die Arme\") Arslan: (\"nickt langsam\") \"Das verstehe ich. Darf ich fragen, wo Ihre Schmerzgrenze liegt?\" Berger: (\"zögert, blickt kurz zu seiner Kollegin\") \"Darüber möchte ich jetzt noch nicht sprechen.\" Arslan: (\"lächelt, beugt sich vor\") \"Dann schlage ich vor, wir schauen uns zuerst die Lieferzeiten an.\"",
           "What does the body say? Berger leans back and crosses his arms: distance and defence (\"Abwehr\"). His hesitation and the glance at his colleague suggest the budget is not fixed: he is checking (\"sich rückversichern\", to seek reassurance). Arslan's slow nod signals understanding without agreement, and leaning forward (\"sich vorbeugen\") shows engagement.",
           "The words for interpreting: a gesture \"signalisiert\" or \"deutet auf ... hin\" (points to), it \"lässt darauf schließen, dass...\" (suggests that), it \"wirkt\" defensive. Keep interpretations hedged, since body language is ambiguous: \"Das könnte darauf hindeuten, dass...\", \"vermutlich\", \"möglicherweise\".",
         ],
@@ -374,9 +374,9 @@ export const DE_C2_U16: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence correctly reports a gesture as a noun?",
-        options: ["Er reagierte mit einem Kopfschütteln.", "Er reagierte mit einem Kopf schütteln.", "Er reagierte mit einer Kopfschüttelung.", "Er reagierte mit Kopfschütteln seinem."],
+        options: ["Er reagierte mit einem Kopfschütteln.", "Er reagierte mit einem Kopf schütteln.", "Er reagierte mit einer Kopfschüttelung.", "Er reagierte mit einer Kopfschütteln."],
         correctIndex: 0,
-        explanation: "The nominalised infinitive is one word and neuter: \"das Kopfschütteln\", \"mit einem Kopfschütteln\".",
+        explanation: "The nominalised infinitive is one word, capitalised and neuter: \"das Kopfschütteln\", so \"mit einem Kopfschütteln\" (not \"*einer*\"). \"*Kopfschüttelung*\" does not exist.",
       },
       {
         type: "translate",
@@ -414,7 +414,7 @@ export const DE_C2_U16: Lesson[] = [
       {
         type: "speak",
         text: "Die verschränkten Arme signalisieren Abwehr.",
-        tip: "Signalisieren: stress the ie, si-gna-li-SIE-ren, and the g and n are pronounced separately.",
+        tip: "In \"signalisieren\" stress the \"ie\" (si-gna-li-SIE-ren), and pronounce the g and n separately.",
         explanation: "A typical interpretive sentence: the gesture as subject, \"signalisieren\" + accusative.",
       },
     ],
@@ -431,7 +431,7 @@ export const DE_C2_U16: Lesson[] = [
         heading: "Receiving and clarifying a question",
         body: [
           "The opening of an answer buys you two seconds and shows respect: \"Vielen Dank für die Frage\", \"Danke, das ist ein wichtiger Punkt\", \"Gute Frage\" (more informal). Overusing \"Gute Frage\" sounds formulaic in German too; vary it.",
-          "To check what was asked, use Konjunktiv II and a verb-second clause or a dass-clause: \"Wenn ich Sie richtig verstehe, geht es Ihnen um die Kosten\", \"Habe ich Sie richtig verstanden, dass Sie...?\", \"Sie meinen also, ob...?\". \"Wenn ich die Frage richtig verstehe\" is actually indicative, but the softer \"Wenn ich Sie richtig verstanden habe\" or \"Verstehe ich Sie richtig, dass...?\" are both standard.",
+          "To check what was asked, use a wenn-clause or a yes/no question with a dass-clause: \"Wenn ich Sie richtig verstehe, geht es Ihnen um die Kosten\", \"Habe ich Sie richtig verstanden, dass Sie...?\", \"Verstehe ich Sie richtig, dass...?\". These are ordinary indicative forms: the politeness comes from checking, not from the mood. For a softer request, Konjunktiv II comes in: \"Könnten Sie die Frage noch etwas präzisieren?\"",
           "\"Es geht Ihnen um...\" (what you are concerned about is) is the key German phrase for paraphrasing someone's question; English speakers often try \"Sie fragen über...\", which is wrong: you ask \"nach\" something (\"Sie fragen nach den Kosten\") or ask a question \"zu\" or \"über\" a topic (\"eine Frage zu den Kosten\").",
         ],
         examples: [
@@ -465,7 +465,7 @@ export const DE_C2_U16: Lesson[] = [
         heading: "Buying time and admitting you don't know",
         body: [
           "Buying time: \"Lassen Sie mich kurz überlegen\", \"Das ist eine komplexe Frage, ich versuche es kurz zu machen\", \"Darauf komme ich gleich noch zu sprechen\" (I'll come to that in a moment), \"Wenn Sie erlauben, beantworte ich das im Anschluss\".",
-          "Admitting you don't know is respected in German professional culture, as long as you follow up. The standard formulas: \"Das kann ich Ihnen spontan nicht beantworten\", \"Die genauen Zahlen habe ich gerade nicht im Kopf\", \"Das müsste ich nachprüfen\", \"Ich reiche Ihnen die Zahlen nach\" (nachreichen: to submit later), \"Ich melde mich dazu bei Ihnen\".",
+          "Admitting you don't know is respected in German professional culture, as long as you follow up. The standard formulas: \"Das kann ich Ihnen spontan nicht beantworten\", \"Die genauen Zahlen habe ich gerade nicht im Kopf\", \"Das müsste ich nachprüfen\", \"Ich reiche Ihnen die Zahlen nach\" (\"nachreichen\": to submit later), \"Ich melde mich dazu bei Ihnen\".",
           "Note the Konjunktiv II in \"Das müsste ich nachprüfen\": it softens the admission and sounds more professional than \"Das muss ich nachprüfen\". And note \"spontan\": in German it means off the cuff, here and now, not necessarily impulsive.",
         ],
         examples: [
@@ -489,7 +489,7 @@ export const DE_C2_U16: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[I'd have to] check that again.",
+            en: "I [would have to] check that again.",
             sentence: "Das ___ ich noch einmal nachprüfen.",
             answer: "müsste",
             explanation: "Konjunktiv II of \"müssen\": \"müsste\", with the umlaut. It softens the admission.",
@@ -506,7 +506,7 @@ export const DE_C2_U16: Lesson[] = [
         heading: "Hostile questions",
         body: [
           "A hostile question (\"eine kritische / unsachliche / provokante Frage\") needs three moves: acknowledge without accepting (\"Ich verstehe Ihre Skepsis\", \"Ich kann nachvollziehen, dass Sie das so sehen\"), reframe (\"Lassen Sie mich das einordnen\", \"Man muss hier zwischen ... und ... unterscheiden\") and return to facts (\"Die Zahlen zeigen allerdings...\").",
-          "If a question becomes personal, Germans name it calmly: \"Ich würde gern bei der Sache bleiben\" (I'd like to stay on topic), \"Das gehört nicht zum Thema, aber ich spreche gern in der Pause mit Ihnen darüber\". \"Bei der Sache bleiben\" and \"sachlich bleiben\" are the key phrases: Sachlichkeit is the cultural value at stake.",
+          "If a question becomes personal, Germans name it calmly: \"Ich würde gern bei der Sache bleiben\" (I'd like to stay on topic), \"Das gehört nicht zum Thema, aber ich spreche gern in der Pause mit Ihnen darüber\". \"Bei der Sache bleiben\" and \"sachlich bleiben\" are the key phrases: \"Sachlichkeit\" is the cultural value at stake.",
           "Avoid \"Das ist eine dumme Frage\" or \"Sie haben das nicht verstanden\". Instead put the misunderstanding on yourself: \"Vielleicht habe ich mich unklar ausgedrückt\" (perhaps I expressed myself unclearly). \"Sich ausdrücken\" is reflexive.",
         ],
         examples: [
@@ -532,7 +532,7 @@ export const DE_C2_U16: Lesson[] = [
             question: "A questioner attacks you personally. What is the most professional reply?",
             options: ["Ich würde gern bei der Sache bleiben.", "Das ist eine dumme Frage.", "Sie haben das nicht verstanden.", "Darauf antworte ich nicht."],
             correctIndex: 0,
-            explanation: "\"Bei der Sache bleiben\" appeals to Sachlichkeit, the shared norm, without escalating.",
+            explanation: "\"Bei der Sache bleiben\" appeals to \"Sachlichkeit\", the shared norm, without escalating.",
           },
         ],
       },
@@ -664,7 +664,7 @@ export const DE_C2_U16: Lesson[] = [
             source: "The forecast is based on data from Hanover.",
             answer: "Die Prognose stützt sich auf Daten aus Hannover.",
             altAnswers: ["Die Prognose beruht auf Daten aus Hannover.", "Die Prognose basiert auf Daten aus Hannover.", "Die Prognose stützt sich auf die Daten aus Hannover.", "Die Prognose beruht auf den Daten aus Hannover.", "Die Prognose basiert auf den Daten aus Hannover."],
-            explanation: "\"Sich auf etwas stützen\", \"auf etwas beruhen\" or \"auf etwas basieren\" (all + dative or accusative as shown: stützen + accusative, beruhen/basieren + dative). Hanover is \"Hannover\" with two n.",
+            explanation: "\"Sich auf etwas stützen\" takes the accusative; \"auf etwas beruhen\" and \"auf etwas basieren\" take the dative. Hanover is \"Hannover\" with two n.",
           },
         ],
       },
@@ -696,7 +696,7 @@ export const DE_C2_U16: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The city only [bears the costs] for the charging stations.",
+            en: "The city only [bears] the costs for the charging stations.",
             sentence: "Die Stadt ___ nur die Kosten für die Ladestationen.",
             answer: "trägt",
             explanation: "\"Die Kosten tragen\" is the fixed collocation; \"tragen\" has an umlaut in the er/sie form: \"trägt\".",
@@ -719,7 +719,7 @@ export const DE_C2_U16: Lesson[] = [
         examples: [
           { es: "Haben Sie den Rebound-Effekt berücksichtigt?", en: "Did you take the rebound effect into account?" },
           { es: "Das ist ein sehr wichtiger Einwand.", en: "That's a very important objection." },
-          { es: "Wir haben einen Effekt von zehn Prozent angenommen.", en: "We assumed an effect of ten percent." },
+          { es: "Wir haben einen Effekt von zehn Prozent angenommen.", en: "We assumed an effect of ten per cent." },
           { es: "Ob das realistisch ist, müsste man in der Pilotphase überprüfen.", en: "Whether that's realistic would have to be checked in the pilot phase." },
           { es: "Für Hinweise aus Ihrer Forschung wäre ich sehr dankbar.", en: "I'd be very grateful for any input from your research." },
           { es: "Damit sind wir leider am Ende unserer Zeit.", en: "Unfortunately that brings us to the end of our time." },
@@ -837,20 +837,20 @@ export const DE_C2_U16: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Präsentation und Verhandlung, Part 7 of 8",
-    summary: "Close a negotiation and confirm it: Dann halten wir fest, dass..., Wir sind uns also einig, dass..., per Handschlag, and the confirmation email with wie besprochen, anbei and a deadline for confirmation.",
+    summary: "Close a negotiation in the room (\"Dann halten wir fest, dass...\", \"Wir sind uns also einig, dass...\", \"per Handschlag\") and confirm it in an email with \"wie besprochen\", \"anbei\" and a deadline for confirmation.",
     duration: "18 min",
     sections: [
       {
         heading: "Closing in the room",
         body: [
-          "At the end of a negotiation, someone summarises. The key verb is \"festhalten\" (to record, to note): \"Dann halten wir fest, dass...\", \"Ich fasse zusammen: ...\", \"Wir sind uns also einig, dass...\". \"Sich einig sein\" (to be in agreement) is reflexive with \"uns\": \"Wir sind uns einig\", not \"Wir sind einig\".",
+          "At the end of a negotiation, someone summarises. The key verb is \"festhalten\" (to record, to note): \"Dann halten wir fest, dass...\", \"Ich fasse zusammen: ...\", \"Wir sind uns also einig, dass...\". \"Sich einig sein\" (to be in agreement) is usually reflexive with \"uns\": \"Wir sind uns einig\"; plain \"Wir sind einig\" exists but is much less common.",
           "Agreement in principle is \"eine Grundsatzeinigung\" or \"Wir sind uns im Grundsatz einig\"; open points are \"offene Punkte\" or \"Punkte, die noch zu klären sind\" (sein + zu-infinitive: things that must still be clarified). \"Per Handschlag\" means sealed with a handshake: \"Wir haben das per Handschlag vereinbart\", which in Germany carries moral weight, though a written confirmation always follows.",
           "Trap: \"einverstanden\" is personal agreement with a proposal (\"Ich bin damit einverstanden\"), while \"sich einigen\" is reaching agreement together (\"Wir haben uns auf 3 % geeinigt\"). You \"einigen sich auf\" + accusative.",
         ],
         examples: [
           { es: "Dann halten wir fest, dass die Lieferung bis zum 15. März erfolgt.", en: "So let's note that delivery takes place by 15 March." },
           { es: "Wir sind uns also einig, dass der Preis bis Jahresende gilt.", en: "So we agree that the price applies until the end of the year." },
-          { es: "Wir haben uns auf einen Rabatt von drei Prozent geeinigt.", en: "We agreed on a three percent discount." },
+          { es: "Wir haben uns auf einen Rabatt von drei Prozent geeinigt.", en: "We agreed on a three per cent discount." },
           { es: "Offen ist noch die Frage der Zahlungsbedingungen.", en: "The question of payment terms is still open." },
           { es: "Die Details sind noch zu klären.", en: "The details still have to be clarified." },
           { es: "Darauf können wir uns per Handschlag einigen.", en: "We can shake hands on that." },
@@ -863,12 +863,12 @@ export const DE_C2_U16: Lesson[] = [
             source: "So we agree that the price applies until the end of the year.",
             answer: "Wir sind uns also einig, dass der Preis bis Jahresende gilt.",
             altAnswers: ["Wir sind uns also einig, dass der Preis bis zum Jahresende gilt.", "Wir sind uns also einig, dass der Preis bis Ende des Jahres gilt.", "Also sind wir uns einig, dass der Preis bis Jahresende gilt.", "Wir sind uns also einig, dass der Preis bis zum Ende des Jahres gilt."],
-            explanation: "\"Sich einig sein\" needs \"uns\". \"Gelten\" (to apply, be valid) is strong: \"gilt\".",
+            explanation: "\"Sich einig sein\" normally takes \"uns\". \"Gelten\" (to apply, be valid) is strong: \"gilt\".",
           },
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "We agreed [on] a three percent discount.",
+            en: "We agreed [on] a three per cent discount.",
             sentence: "Wir haben uns ___ einen Rabatt von drei Prozent geeinigt.",
             answer: "auf",
             explanation: "You \"einigt sich auf\" + accusative: \"auf einen Rabatt\". Not \"über\" or \"für\".",
@@ -879,8 +879,8 @@ export const DE_C2_U16: Lesson[] = [
         heading: "The confirmation email: opening and body",
         body: [
           "After a meeting, a written confirmation follows within a day. The traditional opening is \"Bezug nehmend auf unser Gespräch vom 12. Mai...\" (also spelled \"bezugnehmend\"). It is correct but stiff; modern business style prefers \"wie besprochen\", \"wie heute telefonisch vereinbart\" or simply \"vielen Dank für das konstruktive Gespräch am Dienstag\".",
-          "Attachments: \"Anbei erhalten Sie...\", \"Anbei finden Sie...\", \"Im Anhang sende ich Ihnen...\". \"Beigefügt finden Sie...\" is also correct but formal. Avoid stacking these formulas: \"Bezug nehmend auf ... erlauben wir uns, Ihnen anbei beigefügt...\" reads like a parody of Amtsdeutsch.",
-          "List agreed points clearly, often numbered, with Präsens or Perfekt passive and the agreed date: \"1. Der Stückpreis beträgt 4,20 Euro. 2. Die Lieferung erfolgt bis zum 15.03.\" \"Erfolgen\" (to take place) is the formal verb that turns a noun into the subject: \"Die Zahlung erfolgt innerhalb von 30 Tagen.\"",
+          "Attachments: \"Anbei erhalten Sie...\", \"Anbei finden Sie...\", \"Im Anhang sende ich Ihnen...\". \"Beigefügt finden Sie...\" is also correct but formal. Avoid stacking these formulas: \"Bezug nehmend auf ... erlauben wir uns, Ihnen anbei beigefügt...\" reads like a parody of \"Amtsdeutsch\" (officialese).",
+          "List agreed points clearly, often numbered, in the present tense (often with \"erfolgen\" or a passive) and with the agreed date: \"1. Der Stückpreis beträgt 4,20 Euro. 2. Die Lieferung erfolgt bis zum 15.03.\" \"Erfolgen\" (to take place) is the formal verb that turns a noun into the subject: \"Die Zahlung erfolgt innerhalb von 30 Tagen.\"",
         ],
         examples: [
           { es: "Vielen Dank für das konstruktive Gespräch am Dienstag.", en: "Thank you for the constructive meeting on Tuesday." },
@@ -898,7 +898,7 @@ export const DE_C2_U16: Lesson[] = [
             source: "Please find attached the revised offer.",
             answer: "Anbei erhalten Sie das überarbeitete Angebot.",
             altAnswers: ["Anbei finden Sie das überarbeitete Angebot.", "Im Anhang finden Sie das überarbeitete Angebot.", "Im Anhang erhalten Sie das überarbeitete Angebot.", "Anbei sende ich Ihnen das überarbeitete Angebot.", "Beigefügt finden Sie das überarbeitete Angebot."],
-            explanation: "\"Anbei\" (enclosed) fills position 1, so the verb comes next. Never translate please find literally.",
+            explanation: "\"Anbei\" (enclosed) fills position 1, so the verb comes next. Never translate 'please find' literally as \"*Bitte finden Sie*\".",
           },
           {
             type: "multiple-choice",
@@ -915,7 +915,7 @@ export const DE_C2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Die Zahlung erfolgt innerhalb von dreißig Tagen.",
-            tip: "Dreißig: the ß is a sharp s, drei-SSIG, with a soft ch-like g at the end in standard speech (dreißich).",
+            tip: "In \"dreißig\" the \"ß\" is a voiceless s; stress the first syllable (DREI-ßig), and the final \"-ig\" sounds like \"-ich\" in standard German.",
             explanation: "\"Erfolgen\" is the formal verb for an action that takes place; \"innerhalb von\" + dative.",
           },
         ],
@@ -924,8 +924,8 @@ export const DE_C2_U16: Lesson[] = [
         heading: "Deadlines, open points and closing",
         body: [
           "Ask for confirmation with a deadline: \"Wir bitten um Bestätigung bis zum 20. Mai\" or, more personal, \"Ich wäre Ihnen dankbar, wenn Sie mir die Punkte bis Freitag bestätigen könnten.\" \"Um etwas bitten\" (to ask for something) takes \"um\" + accusative.",
-          "Name open points honestly: \"Noch offen ist die Frage der Gewährleistung\", \"Folgende Punkte sind noch zu klären: ...\", \"Sollten Sie Ergänzungen oder Korrekturen haben, ...\" (inverted conditional with sollte: should you have any). This sollte-inversion is the elegant written form of \"Falls Sie ... haben\".",
-          "Close: \"Wir freuen uns auf die weitere Zusammenarbeit\" and \"Mit freundlichen Grüßen\" (no comma after it, and no full stop). \"Mit freundlichen Grüßen\" can be shortened to \"Viele Grüße\" between people who know each other well, but never to MfG in a real email.",
+          "Name open points honestly: \"Noch offen ist die Frage der Gewährleistung\", \"Folgende Punkte sind noch zu klären: ...\", \"Sollten Sie Ergänzungen oder Korrekturen haben, ...\" (inverted conditional with \"sollte\": should you have any). This \"sollte\" inversion is the elegant written form of \"Falls Sie ... haben\".",
+          "Close: \"Wir freuen uns auf die weitere Zusammenarbeit\" and \"Mit freundlichen Grüßen\" (no comma after it, and no full stop). \"Mit freundlichen Grüßen\" can be shortened to \"Viele Grüße\" between people who know each other well, but never to \"MfG\" in a real email.",
         ],
         examples: [
           { es: "Wir bitten um Bestätigung bis zum 20. Mai.", en: "Please confirm by 20 May." },
@@ -1045,16 +1045,16 @@ export const DE_C2_U16: Lesson[] = [
     slug: "c2-confirm-agreement-email-mission",
     level: "DE-C2",
     number: 6,
-    title: "Real-World Mission: Die Vereinbarung Schriftlich Bestätigen",
+    title: "Real-World Mission: Die Vereinbarung schriftlich bestätigen",
     summary: "Write the confirmation email after a supplier negotiation: thank, list the agreed points, set deadlines, name open questions and close professionally.",
     duration: "20 min",
     sections: [
       {
         heading: "Your mission and your notes",
         body: [
-          "You are Jana Roth, purchasing manager at a furniture maker in Bielefeld. Yesterday you negotiated with Herr Demir of a wood supplier. Your notes: unit price 18,50 € instead of 20 €; minimum order 500 units; delivery within 14 days of the order; payment within 30 days, 2 % discount if paid within 10 days; contract term one year. Open: who pays transport for orders under 500 units.",
+          "You are Jana Roth, purchasing manager at a furniture maker in Bielefeld. Yesterday you negotiated with Herr Demir of a wood supplier. Your notes: unit price €18.50 instead of €20; minimum order 500 units; delivery within 14 days of the order; payment within 30 days, 2 % discount if paid within 10 days; contract term one year. Open: who pays transport for orders under 500 units.",
           "Your task is to write the email that turns these notes into a clear written record. Plan it in four parts: \"Dank und Bezug\" (thanks and reference), \"vereinbarte Punkte\" (agreed points), \"offene Punkte\" (open points), \"Bitte um Bestätigung und Gruß\" (request for confirmation and sign-off).",
-          "The subject line (\"der Betreff\") is short and nominal: \"Betreff: Bestätigung unserer Vereinbarungen vom 14.10.\" or \"Ergebnisse unseres Gesprächs vom 14. Oktober\". Note: no colon after Betreff in the actual subject field, and no full stop at the end.",
+          "The subject line (\"der Betreff\") is short and nominal: \"Betreff: Bestätigung unserer Vereinbarungen vom 14.10.\" or \"Ergebnisse unseres Gesprächs vom 14. Oktober\". Note: in the actual subject field you leave out the word \"Betreff\" itself, and no full stop at the end.",
         ],
         examples: [
           { es: "Betreff: Bestätigung unserer Vereinbarungen vom 14. Oktober", en: "Subject: Confirmation of our agreements of 14 October" },
@@ -1080,7 +1080,7 @@ export const DE_C2_U16: Lesson[] = [
             sentence: "Der Stückpreis ___ 18,50 Euro.",
             answer: "beträgt",
             altAnswers: ["liegt bei"],
-            explanation: "\"Betragen\" (to amount to) is the standard verb for prices and sums; note the decimal comma: 18,50.",
+            explanation: "\"Betragen\" (to amount to) is the standard verb for prices and sums; note the decimal comma: \"18,50\".",
           },
         ],
       },
@@ -1119,7 +1119,7 @@ export const DE_C2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Alle Preise verstehen sich zuzüglich Mehrwertsteuer.",
-            tip: "Zuzüglich: stress ZU-züg-lich; the ü is rounded lips with an ee sound.",
+            tip: "In \"zuzüglich\" stress the first syllable (ZU-züg-lich); for the \"ü\", round your lips and say ee.",
             explanation: "\"Sich verstehen\" here means to be understood as, a fixed formula for prices.",
           },
         ],
@@ -1190,10 +1190,10 @@ export const DE_C2_U16: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "For payment within ten days you [grant] a two percent discount.",
+        en: "For payment within ten days you [grant] a two per cent discount.",
         sentence: "Bei Zahlung innerhalb von zehn Tagen ___ Sie zwei Prozent Skonto.",
         answer: "gewähren",
-        explanation: "\"Gewähren\" (to grant) collocates with Rabatt, Skonto, Zahlungsaufschub.",
+        explanation: "\"Gewähren\" (to grant) collocates with \"Rabatt\", \"Skonto\", \"Zahlungsaufschub\"; with \"Sie\" the verb ends in -en.",
       },
       {
         type: "translate",
@@ -1201,7 +1201,7 @@ export const DE_C2_U16: Lesson[] = [
         prompt: "Translate into German.",
         source: "The agreement initially applies for one year.",
         answer: "Die Vereinbarung gilt zunächst für ein Jahr.",
-        altAnswers: ["Die Vereinbarung gilt vorerst für ein Jahr.", "Die Vereinbarung gilt zunächst ein Jahr.", "Die Vereinbarung gilt zunächst für ein Jahr lang."],
+        altAnswers: ["Die Vereinbarung gilt vorerst für ein Jahr.", "Die Vereinbarung gilt zunächst ein Jahr.", "Die Vereinbarung gilt vorerst ein Jahr."],
         explanation: "\"Gelten\" (to apply) is strong: \"gilt\"; \"zunächst\" (initially) hints that it may be extended.",
       },
       {
@@ -1214,7 +1214,7 @@ export const DE_C2_U16: Lesson[] = [
           "Wichtig!!!",
         ],
         correctIndex: 0,
-        explanation: "A German Betreff is short and nominal and names the date. A whole sentence or exclamation marks look unprofessional.",
+        explanation: "A German \"Betreff\" is short and nominal and names the date. A whole sentence or exclamation marks look unprofessional.",
       },
       {
         type: "translate",
@@ -1237,7 +1237,7 @@ export const DE_C2_U16: Lesson[] = [
         audio: "Der Stückpreis beträgt achtzehn Euro fünfzig.",
         answer: "Der Stückpreis beträgt 18,50 Euro.",
         altAnswers: ["Der Stückpreis beträgt achtzehn Euro fünfzig.", "Der Stückpreis beträgt 18,50 €.", "Der Stückpreis beträgt 18 Euro 50."],
-        explanation: "Prices are read as \"achtzehn Euro fünfzig\" and written 18,50 Euro with a decimal comma.",
+        explanation: "Prices are read as \"achtzehn Euro fünfzig\" and written \"18,50 Euro\" with a decimal comma.",
       },
       {
         type: "speak",
@@ -1252,7 +1252,7 @@ export const DE_C2_U16: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Präsentation und Verhandlung, Part 8 of 8",
-    summary: "Write a German Protokoll: Ergebnisprotokoll vs Verlaufsprotokoll, TOPs and Beschlüsse, Konjunktiv I for reported statements and the passive for decisions.",
+    summary: "Write German minutes (\"das Protokoll\"): choose between \"Ergebnisprotokoll\" and \"Verlaufsprotokoll\", structure them by \"TOP\" and \"Beschluss\", and use Konjunktiv I for reported statements and the passive for decisions.",
     duration: "20 min",
     sections: [
       {
@@ -1285,14 +1285,14 @@ export const DE_C2_U16: Lesson[] = [
             question: "Your boss wants minutes with only the decisions and who does what by when. Which type is that?",
             options: ["ein Ergebnisprotokoll", "ein Verlaufsprotokoll", "ein Wortprotokoll", "eine Tagesordnung"],
             correctIndex: 0,
-            explanation: "\"Ergebnisprotokoll\": results only. A Verlaufsprotokoll adds the discussion, a Wortprotokoll is verbatim, and the Tagesordnung is the agenda.",
+            explanation: "\"Ergebnisprotokoll\": results only. A \"Verlaufsprotokoll\" adds the discussion, a \"Wortprotokoll\" is verbatim, and the \"Tagesordnung\" is the agenda.",
           },
         ],
       },
       {
         heading: "Reporting statements: Konjunktiv I",
         body: [
-          "In a Verlaufsprotokoll, statements are reported in Konjunktiv I, which marks them as someone else's words without the minute-taker endorsing them: \"Frau Aydın wies darauf hin, dass die Kosten gestiegen seien.\" \"Herr Wolf erklärte, er habe die Zahlen noch nicht erhalten.\" The dass can be dropped, giving main-clause order: \"..., die Kosten seien gestiegen.\"",
+          "In a Verlaufsprotokoll, statements are reported in Konjunktiv I, which marks them as someone else's words without the minute-taker endorsing them: \"Frau Aydın wies darauf hin, dass die Kosten gestiegen seien.\" \"Herr Wolf erklärte, er habe die Zahlen noch nicht erhalten.\" The \"dass\" can be dropped, giving main-clause order: \"..., die Kosten seien gestiegen.\"",
           "Konjunktiv I forms: \"er sei, er habe, er werde, er könne, er müsse\", and for most verbs the -e ending in the third person singular: \"er komme, sie gehe\". When Konjunktiv I looks the same as the indicative (mostly in the plural: \"sie haben\"), use Konjunktiv II: \"Die Teilnehmer erklärten, sie hätten keine Einwände.\"",
           "The reporting verbs give the protocol its precision: \"berichten\", \"erläutern\" (explain in detail), \"darauf hinweisen\" (point out), \"betonen\", \"einwenden\" (object), \"vorschlagen\", \"zu bedenken geben\" (to raise as a concern). Reporting verbs are in Präteritum in the protocol, the reported content in Konjunktiv I.",
         ],
@@ -1325,7 +1325,7 @@ export const DE_C2_U16: Lesson[] = [
           {
             type: "speak",
             text: "Frau Aydın wies darauf hin, dass die Kosten gestiegen seien.",
-            tip: "Wies sounds like English veese, with a long ie; Aydın is a Turkish name, stressed on the second syllable.",
+            tip: "\"Wies\" sounds like English veese, with a long \"ie\"; \"Aydın\" is a Turkish name, stressed on the second syllable.",
             explanation: "\"Darauf hinweisen, dass...\" with Konjunktiv I \"seien\" for reported content.",
           },
         ],
@@ -1465,8 +1465,8 @@ export const DE_C2_U16: Lesson[] = [
     slug: "c2-negotiation-register-spiral",
     level: "DE-C2",
     number: 8,
-    title: "Spiral Review: Verhandeln mit Fortgeschrittener Grammatik",
-    summary: "Recombine Konjunktiv II proposals, conditions, Konjunktiv I and nominal style across one negotiation: the talk, the email and the Protokoll.",
+    title: "Spiral Review: Verhandeln mit fortgeschrittener Grammatik",
+    summary: "Combine Konjunktiv II proposals, conditions, Konjunktiv I and nominal style across one negotiation: the talk, the confirmation email and the minutes (\"das Protokoll\").",
     duration: "18 min",
     sections: [
       {
@@ -1478,10 +1478,10 @@ export const DE_C2_U16: Lesson[] = [
         ],
         examples: [
           { es: "Wir könnten uns vorstellen, die Laufzeit auf drei Jahre zu verlängern.", en: "We could imagine extending the term to three years." },
-          { es: "Wäre es für Sie denkbar, den Preis um fünf Prozent zu senken?", en: "Would it be conceivable for you to lower the price by five percent?" },
+          { es: "Wäre es für Sie denkbar, den Preis um fünf Prozent zu senken?", en: "Would it be conceivable for you to lower the price by five per cent?" },
           { es: "Wenn Sie die Laufzeit verlängern, wären wir bereit, den Preis zu senken.", en: "If you extend the term, we'd be prepared to lower the price." },
           { es: "Unter der Bedingung, dass die Schulung inklusive ist, können wir zustimmen.", en: "On condition that the training is included, we can agree." },
-          { es: "Vorausgesetzt, Sie zahlen im Voraus, gewähren wir drei Prozent Rabatt.", en: "Provided you pay in advance, we'll give a three percent discount." },
+          { es: "Vorausgesetzt, Sie zahlen im Voraus, gewähren wir drei Prozent Rabatt.", en: "Provided you pay in advance, we'll give a three per cent discount." },
         ],
         checkpoint: [
           {
@@ -1507,12 +1507,12 @@ export const DE_C2_U16: Lesson[] = [
         heading: "In the email: nominal style and polite requests",
         body: [
           "The confirmation email turns the conversation into nouns: \"die Verlängerung der Laufzeit auf drei Jahre\", \"eine Senkung des Preises um 5 %\", \"die Einbeziehung der Schulung\". The genitive links action and object: \"Senkung des Preises\" (the lowering of the price).",
-          "Polite requests stay in Konjunktiv II: \"Wir wären Ihnen dankbar, wenn Sie uns den angepassten Vertragsentwurf bis Montag zusenden könnten.\" Mix with the sollte-condition: \"Sollte sich an unserer Vereinbarung etwas ändern, informieren Sie uns bitte umgehend.\"",
-          "Nominal style is a tool, not a goal. One noun chain per sentence is elegant; three is Amtsdeutsch. \"Wie vereinbart verlängern wir die Laufzeit auf drei Jahre\" is often clearer than \"Die Verlängerung der Laufzeit wurde vereinbart.\"",
+          "Polite requests stay in Konjunktiv II: \"Wir wären Ihnen dankbar, wenn Sie uns den angepassten Vertragsentwurf bis Montag zusenden könnten.\" Mix with the \"sollte\" condition: \"Sollte sich an unserer Vereinbarung etwas ändern, informieren Sie uns bitte umgehend.\"",
+          "Nominal style is a tool, not a goal. One noun chain per sentence is elegant; three is \"Amtsdeutsch\". \"Wie vereinbart verlängern wir die Laufzeit auf drei Jahre\" is often clearer than \"Die Verlängerung der Laufzeit wurde vereinbart.\"",
         ],
         examples: [
           { es: "Wie vereinbart bestätigen wir die Verlängerung der Laufzeit auf drei Jahre.", en: "As agreed, we confirm the extension of the term to three years." },
-          { es: "Im Gegenzug erfolgt eine Senkung des Preises um fünf Prozent.", en: "In return, the price will be reduced by five percent." },
+          { es: "Im Gegenzug erfolgt eine Senkung des Preises um fünf Prozent.", en: "In return, the price will be reduced by five per cent." },
           { es: "Die Schulung ist im Preis inbegriffen.", en: "The training is included in the price." },
           { es: "Wir wären Ihnen dankbar, wenn Sie uns den Vertragsentwurf bis Montag zusenden könnten.", en: "We'd be grateful if you could send us the draft contract by Monday." },
           { es: "Sollte sich etwas ändern, informieren Sie uns bitte umgehend.", en: "Should anything change, please inform us immediately." },
@@ -1522,7 +1522,7 @@ export const DE_C2_U16: Lesson[] = [
             type: "translate",
             direction: "en-es",
             prompt: "Translate into German.",
-            source: "In return, the price will be reduced by five percent.",
+            source: "In return, the price will be reduced by five per cent.",
             answer: "Im Gegenzug wird der Preis um fünf Prozent gesenkt.",
             altAnswers: ["Im Gegenzug erfolgt eine Senkung des Preises um fünf Prozent.", "Im Gegenzug wird der Preis um 5 % gesenkt.", "Im Gegenzug wird der Preis um fünf Prozent reduziert.", "Im Gegenzug senken wir den Preis um fünf Prozent."],
             explanation: "Passive \"wird ... gesenkt\" or the nominal \"erfolgt eine Senkung\" + genitive; \"um\" for the difference.",
@@ -1542,7 +1542,7 @@ export const DE_C2_U16: Lesson[] = [
         heading: "In the Protokoll: Konjunktiv I and the passive",
         body: [
           "The Verlaufsprotokoll reports both sides in Konjunktiv I: \"Herr Schmid erklärte, eine Preissenkung sei für sein Unternehmen Voraussetzung. Frau Kaya entgegnete, dies sei nur bei einer längeren Laufzeit möglich.\" \"Entgegnen\" (to reply, counter) is a precise reporting verb for a counter-position.",
-          "Reported proposals with Konjunktiv II inside stay Konjunktiv II: \"Frau Kaya erklärte, man könnte sich eine Laufzeit von drei Jahren vorstellen.\" Reported questions use ob or a w-word: \"Herr Schmid fragte, ob die Schulung inklusive sei.\"",
+          "Reported proposals with Konjunktiv II inside stay Konjunktiv II: \"Frau Kaya erklärte, man könnte sich eine Laufzeit von drei Jahren vorstellen.\" Reported questions use \"ob\" or a w-word: \"Herr Schmid fragte, ob die Schulung inklusive sei.\"",
           "The result section switches to the passive: \"Es wurde vereinbart, dass...\", \"Die Einigung wurde per Handschlag bestätigt.\"",
         ],
         examples: [
@@ -1587,7 +1587,7 @@ export const DE_C2_U16: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Provided you pay in advance, we'll give a three percent discount.",
+        source: "Provided you pay in advance, we'll give a three per cent discount.",
         answer: "Vorausgesetzt, Sie zahlen im Voraus, gewähren wir drei Prozent Rabatt.",
         altAnswers: ["Vorausgesetzt, dass Sie im Voraus zahlen, gewähren wir drei Prozent Rabatt.", "Vorausgesetzt, Sie zahlen im Voraus, gewähren wir 3 % Rabatt.", "Vorausgesetzt, Sie zahlen im Voraus, geben wir drei Prozent Rabatt.", "Unter der Bedingung, dass Sie im Voraus zahlen, gewähren wir drei Prozent Rabatt."],
         explanation: "\"Vorausgesetzt\" + main clause (or dass-clause); the whole condition is position 1, so \"gewähren\" comes next.",
@@ -1660,7 +1660,7 @@ export const DE_C2_U16: Lesson[] = [
     level: "DE-C2",
     number: 9,
     title: "Mastery Vocabulary: Paronyms That Fool Even Natives",
-    summary: "Separate the look-alike pairs that trip up native speakers too: scheinbar / anscheinend, lösen / löschen, wieder / wider, seid / seit, das / dass, Leere / Lehre, voraussichtlich / vorsichtig, Kongruenz / Konkurrenz.",
+    summary: "Tell apart the look-alike pairs that trip up native speakers too: \"scheinbar\" / \"anscheinend\", \"lösen\" / \"löschen\", \"wieder\" / \"wider\", \"seid\" / \"seit\", \"das\" / \"dass\", \"Leere\" / \"Lehre\", \"voraussichtlich\" / \"vorsichtig\", \"Kongruenz\" / \"Konkurrenz\".",
     duration: "18 min",
     sections: [
       {
@@ -1668,7 +1668,7 @@ export const DE_C2_U16: Lesson[] = [
         body: [
           "The most famous pair: \"anscheinend\" means apparently, as it seems (and it is probably true): \"Er ist anscheinend krank\" (it looks like he's ill). \"Scheinbar\" means seemingly but not really: \"Er ist scheinbar ruhig\" (he only looks calm, he isn't). Many Germans use \"scheinbar\" for both in speech, but in careful writing the difference matters, and Mastery-level exams test it.",
           "\"Voraussichtlich\" (expected, probably, as forecast) comes from \"voraussehen\" (foresee): \"Die Lieferung kommt voraussichtlich am Montag.\" \"Vorsichtig\" means careful, cautious: \"Fahr vorsichtig!\" Learners confuse them because both start with vor- and contain -sicht-.",
-          "A test for scheinbar: if you can add \"aber in Wirklichkeit nicht\" (but not really), it's \"scheinbar\". If you can add \"wie es aussieht\" (by the look of it), it's \"anscheinend\".",
+          "A test for \"scheinbar\": if you can add \"aber in Wirklichkeit nicht\" (but not really), it's \"scheinbar\". If you can add \"wie es aussieht\" (by the look of it), it's \"anscheinend\".",
         ],
         examples: [
           { es: "Der Zug hat anscheinend Verspätung.", en: "The train is apparently delayed." },
@@ -1686,7 +1686,7 @@ export const DE_C2_U16: Lesson[] = [
             source: "The meeting is expected to last two hours.",
             answer: "Das Meeting dauert voraussichtlich zwei Stunden.",
             altAnswers: ["Die Besprechung dauert voraussichtlich zwei Stunden.", "Die Sitzung dauert voraussichtlich zwei Stunden.", "Das Treffen dauert voraussichtlich zwei Stunden.", "Die Besprechung wird voraussichtlich zwei Stunden dauern.", "Das Meeting wird voraussichtlich zwei Stunden dauern.", "Die Sitzung wird voraussichtlich zwei Stunden dauern."],
-            explanation: "\"Voraussichtlich\" (as expected) covers is expected to. \"Vorsichtig\" means careful.",
+            explanation: "\"Voraussichtlich\" (as expected, as forecast) covers 'is expected to'. \"Vorsichtig\" means careful.",
           },
           {
             type: "multiple-choice",
@@ -1763,7 +1763,7 @@ export const DE_C2_U16: Lesson[] = [
             source: "How long have you been here? (to two friends)",
             answer: "Seit wann seid ihr hier?",
             altAnswers: ["Seit wann seid ihr schon hier?", "Wie lange seid ihr schon hier?", "Seit wann seid ihr denn schon hier?", "Wie lange seid ihr denn schon hier?"],
-            explanation: "\"Seit\" (since) for time, \"seid\" (are) for the ihr form of sein. German uses the present with \"seit\" where English uses the present perfect.",
+            explanation: "\"Seit\" (since) for time, \"seid\" (are) for the \"ihr\" form of \"sein\". German uses the present with \"seit\" where English uses the present perfect.",
           },
           {
             type: "fill-blank",
@@ -1835,7 +1835,7 @@ export const DE_C2_U16: Lesson[] = [
         source: "He did an apprenticeship as a carpenter.",
         answer: "Er hat eine Lehre als Tischler gemacht.",
         altAnswers: ["Er hat eine Lehre als Schreiner gemacht.", "Er machte eine Lehre als Tischler.", "Er machte eine Lehre als Schreiner.", "Er hat eine Ausbildung als Tischler gemacht.", "Er hat eine Ausbildung als Schreiner gemacht.", "Er hat eine Ausbildung zum Tischler gemacht."],
-        explanation: "\"Die Lehre\" (from lehren): apprenticeship. \"Die Leere\" is emptiness. Carpenter is \"Tischler\" in the north, \"Schreiner\" in the south.",
+        explanation: "\"Die Lehre\" (from \"lehren\"): apprenticeship. \"Die Leere\" is emptiness. Carpenter is \"Tischler\" in the north, \"Schreiner\" in the south.",
       },
       {
         type: "matching",
@@ -1866,7 +1866,7 @@ export const DE_C2_U16: Lesson[] = [
         type: "speak",
         text: "Die Lieferung kommt voraussichtlich am Montag.",
         prompt: "Say it in German: The delivery is expected on Monday.",
-        tip: "Voraussichtlich: vor-AUS-sicht-lich, with the stress on aus.",
+        tip: "\"Voraussichtlich\": vor-AUS-sicht-lich, with the stress on \"aus\".",
         explanation: "\"Voraussichtlich\" is the standard word for expected arrival times and forecasts.",
       },
     ],
@@ -1875,7 +1875,7 @@ export const DE_C2_U16: Lesson[] = [
 
 export const DE_C2_U16_WRITING: WriteExercise = {
   type: "write",
-  prompt: "You chaired a negotiation meeting between your company and a logistics partner yesterday. Write (1) a short Ergebnisprotokoll entry for one agenda item that reports two statements in reported speech and the decision, and (2) the confirmation email to the partner listing the agreed points, one open question and a deadline for confirmation.",
+  prompt: "You chaired a negotiation meeting between your company and a logistics partner yesterday. Write (1) a short \"Verlaufsprotokoll\" entry for one agenda item that reports two statements in reported speech and the decision, and (2) the confirmation email to the partner listing the agreed points, one open question and a deadline for confirmation.",
   minWords: 250,
   maxWords: 400,
   rubric: [
@@ -1885,5 +1885,5 @@ export const DE_C2_U16_WRITING: WriteExercise = {
     "Lists agreed points clearly with formal verbs (\"erfolgt\", \"beträgt\", \"gilt\") and names one open point",
   ],
   modelAnswer: "Protokoll der Verhandlung mit der Nordlog GmbH am 14. Oktober\nTOP 2: Lieferzeiten und Transportkosten\nHerr Demir erklärte, sein Unternehmen könne die Lieferzeit auf fünf Werktage verkürzen, wenn die Bestellungen gebündelt würden. Frau Roth wies darauf hin, dass kleinere Eilbestellungen weiterhin möglich sein müssten. Herr Demir entgegnete, Eilbestellungen seien grundsätzlich möglich, verursachten aber zusätzliche Kosten. Es wurde beschlossen, Bestellungen künftig einmal pro Woche zu bündeln. Die Frage der Kosten für Eilbestellungen wird auf die nächste Sitzung vertagt.\nAufgabe: Erstellung einer Kostenübersicht für Eilbestellungen (verantwortlich: Herr Demir, bis 25.10.)\n\nBetreff: Bestätigung unserer Vereinbarungen vom 14. Oktober\n\nSehr geehrter Herr Demir,\n\nvielen Dank für das konstruktive Gespräch gestern. Wie besprochen fasse ich die Ergebnisse noch einmal zusammen:\n1. Die Bestellungen werden ab November einmal wöchentlich gebündelt.\n2. Die Lieferung erfolgt innerhalb von fünf Werktagen nach Bestelleingang.\n3. Der Transportpreis beträgt 2,10 Euro pro Palettenkilometer zzgl. MwSt.\n4. Die Vereinbarung gilt zunächst für ein Jahr.\n\nNoch nicht abschließend geklärt ist die Frage, zu welchen Konditionen Eilbestellungen abgewickelt werden. Anbei erhalten Sie unsere Bedarfsplanung für das erste Quartal, die Ihnen bei der Kalkulation helfen sollte.\n\nWir bitten um Bestätigung der oben genannten Punkte bis zum 21. Oktober. Sollten Sie Ergänzungen oder Korrekturen haben, melden Sie sich gern jederzeit.\n\nWir freuen uns auf die weitere Zusammenarbeit.\n\nMit freundlichen Grüßen\nJana Roth",
-  explanation: "The Protokoll reports each side in Konjunktiv I (\"könne\", \"seien\") and switches to Konjunktiv II where Konjunktiv I would look like the indicative (\"würden\", \"müssten\", \"verursachten\"); decisions are impersonal (\"Es wurde beschlossen\", \"wird vertagt\"). The email uses \"wie besprochen\" instead of stiff \"Bezug nehmend\", formal verbs for the agreed points (\"erfolgt\", \"beträgt\", \"gilt\"), an indirect question for the open point and the verb-first condition \"Sollten Sie...\".",
+  explanation: "The \"Protokoll\" reports each side in Konjunktiv I (\"könne\", \"seien\") and switches to Konjunktiv II where Konjunktiv I would look like the indicative (\"würden\", \"müssten\", \"verursachten\"); decisions are impersonal (\"Es wurde beschlossen\", \"wird vertagt\"). The email uses \"wie besprochen\" instead of stiff \"Bezug nehmend\", formal verbs for the agreed points (\"erfolgt\", \"beträgt\", \"gilt\"), an indirect question for the open point and the verb-first condition \"Sollten Sie...\".",
 };

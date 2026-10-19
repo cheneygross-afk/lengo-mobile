@@ -8,15 +8,15 @@ export const DE_C2_U12: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Verstehensstrategien, Part 5 of 8",
-    summary: "Skim a German press text in a minute: headline, Vorspann, subheadings and topic sentences, what each press genre signals, and how Konjunktiv I and sollen mark claims the paper does not vouch for.",
+    summary: "Skim a German press text in a minute (headline, \"Vorspann\", subheadings, topic sentences), recognise what each press genre signals, and spot how Konjunktiv I and \"sollen\" mark claims the paper does not vouch for.",
     duration: "18 min",
     sections: [
       {
         heading: "The anatomy of a German article",
         body: [
-          "German newspapers build articles in a predictable way, and skimming means reading only the load-bearing parts. The Schlagzeile (headline) is often nominal and verbless: \"Streit um Mietpreisbremse\", \"Rückgang der Arbeitslosigkeit im Osten\". Above it there may be a Dachzeile (kicker), a short label like \"Wohnungsmarkt\". Below it comes the Vorspann or Lead (in bold): two or three sentences that answer who, what, when, where.",
-          "Longer articles are divided by Zwischenüberschriften (subheadings), and each paragraph usually opens with a topic sentence. Skimming a 900-word article means: Dachzeile, Schlagzeile, Vorspann, every subheading, the first sentence of each paragraph, and the last paragraph. That takes about a minute and gives you 70 percent of the content.",
-          "Learn to decode nominal headlines by turning them into sentences: \"Rückgang der Arbeitslosigkeit im Osten\" = Die Arbeitslosigkeit im Osten geht zurück. \"Einigung im Tarifstreit\" = Im Tarifstreit hat man sich geeinigt. The noun almost always hides a verb.",
+          "German newspapers build articles in a predictable way, and skimming means reading only the load-bearing parts. The \"Schlagzeile\" (headline) is often nominal and verbless: \"Streit um Mietpreisbremse\", \"Rückgang der Arbeitslosigkeit im Osten\". Above it there may be a \"Dachzeile\" (kicker), a short label like \"Wohnungsmarkt\". Below it comes the \"Vorspann\" or \"Lead\" (in bold): two or three sentences that answer who, what, when, where.",
+          "Longer articles are divided by \"Zwischenüberschriften\" (subheadings), and each paragraph usually opens with a topic sentence. Skimming a 900-word article means: \"Dachzeile\", \"Schlagzeile\", \"Vorspann\", every subheading, the first sentence of each paragraph, and the last paragraph. That takes about a minute and gives you 70 per cent of the content.",
+          "Learn to decode nominal headlines by turning them into sentences: \"Rückgang der Arbeitslosigkeit im Osten\" = \"Die Arbeitslosigkeit im Osten geht zurück.\" \"Einigung im Tarifstreit\" = \"Im Tarifstreit hat man sich geeinigt.\" The noun almost always hides a verb.",
         ],
         examples: [
           { es: "Streit um Mietpreisbremse: Koalition uneins", en: "Row over rent cap: coalition divided" },
@@ -56,8 +56,8 @@ export const DE_C2_U12: Lesson[] = [
       {
         heading: "Press genres and what they signal",
         body: [
-          "The genre tells you how to read. A Meldung (news item) is a few lines of pure facts. A Bericht (report) is longer, still factual, with quotes. A Reportage tells a story from the scene, with atmosphere and people. A Kommentar or Leitartikel (editorial) gives the opinion of one journalist or of the paper, marked by evaluative words and modal particles. A Glosse is a short, ironic, often funny comment. The Feuilleton is the culture section with reviews and essays.",
-          "In Goethe C2 tasks you are often asked about the author's attitude. In a Meldung there isn't one; in a Kommentar it's the whole point. Look for signals: \"zweifellos\", \"bedauerlicherweise\", \"es ist höchste Zeit\", \"ausgerechnet\", rhetorical questions, irony.",
+          "The genre tells you how to read. A \"Meldung\" (news item) is a few lines of pure facts. A \"Bericht\" (report) is longer, still factual, with quotes. A \"Reportage\" tells a story from the scene, with atmosphere and people. A \"Kommentar\" or \"Leitartikel\" (editorial) gives the opinion of one journalist or of the paper, marked by evaluative words and modal particles. A \"Glosse\" is a short, ironic, often funny comment. The \"Feuilleton\" is the culture section with reviews and essays.",
+          "In Goethe C2 tasks you are often asked about the author's attitude. In a \"Meldung\" there isn't one; in a \"Kommentar\" it's the whole point. Look for signals: \"zweifellos\", \"bedauerlicherweise\", \"es ist höchste Zeit\", \"ausgerechnet\", rhetorical questions, irony.",
           "German papers mark opinion pieces clearly with labels such as \"Kommentar\", \"Meinung\" or \"Leitartikel\" and with the author's name and photo. Always check the label before you decide what the text wants.",
         ],
         examples: [
@@ -73,7 +73,7 @@ export const DE_C2_U12: Lesson[] = [
             question: "An article begins: \"Frau Yılmaz steht seit fünf Uhr morgens hinter der Theke ihrer Bäckerei. Es duftet nach frischen Brötchen.\" Which genre is it most likely?",
             options: ["Reportage", "Meldung", "Leitartikel", "Glosse"],
             correctIndex: 0,
-            explanation: "Scene, person and atmosphere (smells, times of day) are the hallmarks of a Reportage.",
+            explanation: "Scene, person and atmosphere (smells, times of day) are the hallmarks of a \"Reportage\".",
           },
           {
             type: "translate",
@@ -109,7 +109,7 @@ export const DE_C2_U12: Lesson[] = [
             source: "The culprit is said to have fled to Poland.",
             answer: "Der Täter soll nach Polen geflohen sein.",
             altAnswers: ["Der Täter soll nach Polen geflüchtet sein.", "Die Täterin soll nach Polen geflohen sein.", "Die Täterin soll nach Polen geflüchtet sein."],
-            explanation: "\"Sollen\" + perfect infinitive (\"geflohen sein\") is the journalistic is said to have. \"Fliehen\" takes \"sein\".",
+            explanation: "\"Sollen\" + perfect infinitive (\"geflohen sein\") is the journalistic 'is said to have'. \"Fliehen\" takes \"sein\" in the Perfekt.",
           },
           {
             type: "translate",
@@ -181,7 +181,7 @@ export const DE_C2_U12: Lesson[] = [
         source: "Regrettably, the city has missed this opportunity.",
         answer: "Bedauerlicherweise hat die Stadt diese Chance verpasst.",
         altAnswers: ["Leider hat die Stadt diese Chance verpasst.", "Bedauerlicherweise hat die Stadt diese Gelegenheit verpasst.", "Bedauerlicherweise hat die Stadt diese Chance vertan.", "Die Stadt hat diese Chance bedauerlicherweise verpasst."],
-        explanation: "Evaluative adverbs like \"bedauerlicherweise\" are typical signals of a Kommentar.",
+        explanation: "Evaluative adverbs like \"bedauerlicherweise\" are typical signals of a \"Kommentar\".",
       },
       {
         type: "word-order",
@@ -216,7 +216,7 @@ export const DE_C2_U12: Lesson[] = [
       {
         type: "speak",
         text: "Der Minister sagte, man werde die Vorschläge prüfen.",
-        tip: "Prüfen: round your lips for ü while saying i.",
+        tip: "\"Prüfen\": round your lips for ü while saying i.",
         explanation: "\"Werde\" (Konjunktiv I) marks the statement as reported.",
       },
     ],
@@ -226,7 +226,7 @@ export const DE_C2_U12: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Text Detective: Das Radiointerview",
-    summary: "A morning radio interview about a four-day week: separate facts from opinions and evasions, and note who claims what with laut, zufolge and Konjunktiv I.",
+    summary: "Follow a morning radio interview about a four-day week, separate facts from opinions and evasions, and note who claims what with \"laut\", \"zufolge\" and Konjunktiv I.",
     duration: "18 min",
     sections: [
       {
@@ -274,7 +274,7 @@ export const DE_C2_U12: Lesson[] = [
         heading: "The interview, part 2: the follow-up and the evasion",
         body: [
           "The presenter now asks about costs. Watch how Becker answers a different question than the one asked: a classic evasion. Typical evasive moves in German interviews: \"Das ist eine berechtigte Frage, aber ...\", \"Entscheidend ist doch etwas anderes\", \"Da muss man differenzieren\", \"Ich glaube, die eigentliche Frage ist ...\".",
-          "In the Goethe Hören module, questions like Which question does the expert not answer? test exactly this. Note what was asked, then check whether the answer contains that information.",
+          "In the Goethe \"Hören\" module, questions like 'Which question does the expert not answer?' test exactly this. Note what was asked, then check whether the answer contains that information.",
         ],
         examples: [
           { es: "Moderator: Lassen Sie mich nachhaken: Wer bezahlt das am Ende?", en: "Presenter: Let me follow up: who pays for this in the end?" },
@@ -316,7 +316,7 @@ export const DE_C2_U12: Lesson[] = [
         heading: "Writing the notes: who claims what",
         body: [
           "Now turn the interview into notes that keep attribution, the key skill for the next lessons. Each line names the source: \"laut Becker\", \"Becker zufolge\", \"nach Angaben der Studie\", \"Arbeitgeber: nicht umsetzbar\". Opinions are marked as such (\"B. hält ... für ermutigend\").",
-          "When you write the notes back up as a text, Konjunktiv I keeps the distance: \"Becker zufolge sei die Produktivität stabil geblieben.\" In reports this double marking (zufolge plus Konjunktiv I) is common and correct, though \"zufolge\" with the indicative is also fine.",
+          "When you write the notes back up as a text, Konjunktiv I keeps the distance: \"Becker zufolge sei die Produktivität stabil geblieben.\" In reports this double marking (\"zufolge\" plus Konjunktiv I) is common and correct, though \"zufolge\" with the indicative is also fine.",
         ],
         examples: [
           { es: "Studie: Produktivität stabil, Krankmeldungen ↓ (38 von 45 Firmen)", en: "Study: productivity stable, sick notes down (38 of 45 firms)" },
@@ -338,7 +338,7 @@ export const DE_C2_U12: Lesson[] = [
           {
             type: "speak",
             text: "Becker zufolge sei die Produktivität stabil geblieben.",
-            tip: "Produktivität: stress the last syllable, -TÄT.",
+            tip: "\"Produktivität\": stress the last syllable, -TÄT.",
             explanation: "Double attribution: \"zufolge\" plus Konjunktiv I \"sei\".",
           },
         ],
@@ -424,7 +424,7 @@ export const DE_C2_U12: Lesson[] = [
       {
         type: "dictation",
         audio: "Da muss man differenzieren.",
-        explanation: "\"Differenzieren\": double r, z (ts) and the stress on -REN.",
+        explanation: "\"Differenzieren\": double f, z pronounced ts, and the stress on -ZIE- as in all verbs in -ieren.",
       },
       {
         type: "speak",
@@ -439,15 +439,15 @@ export const DE_C2_U12: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Verstehensstrategien, Part 6 of 8",
-    summary: "Scan for exactly what a task asks: numbers, names and dates, negations hidden in words like kaum, keineswegs and nicht einmal, and statements that look like answers but are not.",
+    summary: "Scan for exactly what a task asks: numbers, names and dates, negations hidden in words like \"kaum\", \"keineswegs\" and \"nicht einmal\", and statements that look like answers but are not.",
     duration: "18 min",
     sections: [
       {
         heading: "Numbers, dates and names",
         body: [
           "Scanning is the opposite of skimming: you know what you're looking for and ignore everything else. Your eye looks for shapes: digits, capital letters of names, month names, percentage signs. In German watch the number format: a decimal comma (\"3,5 Prozent\") and a point or space for thousands (\"12.000\" or \"12 000\"). \"Mio.\" is million, \"Mrd.\" is billion (Milliarde), and a German \"Billion\" is an English trillion.",
-          "Dates appear as \"am 3. Oktober\", \"vom 1. bis 15. März\", \"zum 30.06.\" and times of decades as \"in den Neunzigerjahren\" (or \"90er-Jahren\"). Listening is harder: \"zweiundzwanzig\" puts the units first, so 22 is heard as two-and-twenty. Write the units digit first while listening, then the tens.",
-          "Distractors in scanning tasks often use the right number in the wrong context: the article mentions both 12 percent and 21 percent, or a date that refers to another event. Always check what the number belongs to.",
+          "Dates appear as \"am 3. Oktober\", \"vom 1. bis 15. März\", \"zum 30.06.\" and decades as \"in den Neunzigerjahren\" (or \"90er-Jahren\"). Listening is harder: \"zweiundzwanzig\" puts the units first, so 22 is heard as two-and-twenty. Write the units digit first while listening, then the tens.",
+          "Distractors in scanning tasks often use the right number in the wrong context: the article mentions both 12 per cent and 21 per cent, or a date that refers to another event. Always check what the number belongs to.",
         ],
         examples: [
           { es: "Die Inflation lag im Mai bei 2,4 Prozent.", en: "Inflation was 2.4 per cent in May." },
@@ -530,8 +530,8 @@ export const DE_C2_U12: Lesson[] = [
       {
         heading: "Answers that are not answers",
         body: [
-          "Goethe Lesen distractors are sentences that contain the words of the question but say something else. Common types: the statement is about the past, the question about the present (\"früher war das so\"); the statement is a plan, not a fact (\"soll eingeführt werden\"); the statement is someone else's claim (\"Kritiker behaupten, ...\"); the statement is conditional (\"wenn ... würde\").",
-          "Example. Question: Ist die Maßnahme erfolgreich? Text: \"Die Maßnahme hätte erfolgreich sein können, wenn man sie früher eingeführt hätte.\" The words are there, but the Konjunktiv II says it was not successful.",
+          "Goethe \"Lesen\" distractors are sentences that contain the words of the question but say something else. Common types: the statement is about the past, the question about the present (\"früher war das so\"); the statement is a plan, not a fact (\"soll eingeführt werden\"); the statement is someone else's claim (\"Kritiker behaupten, ...\"); the statement is conditional (\"wenn ... würde\").",
+          "Example. Question: \"Ist die Maßnahme erfolgreich?\" Text: \"Die Maßnahme hätte erfolgreich sein können, wenn man sie früher eingeführt hätte.\" The words are there, but the Konjunktiv II says it was not successful.",
           "Train the reflex: when you find the matching words, read the whole clause, check the tense, the mood (indicative or Konjunktiv), the modal verbs and who is speaking.",
         ],
         examples: [
@@ -586,7 +586,7 @@ export const DE_C2_U12: Lesson[] = [
         en: "[Neither] the government [nor] the opposition has a plan.",
         sentence: "___ die Regierung noch die Opposition hat einen Plan.",
         answer: "Weder",
-        explanation: "\"Weder ... noch\" = neither ... nor; the verb agrees with the nearer subject (\"hat\").",
+        explanation: "\"Weder ... noch\" = neither ... nor; with two singular subjects the verb is normally singular (\"hat\"), though plural \"haben\" also occurs.",
       },
       {
         type: "translate",
@@ -654,15 +654,15 @@ export const DE_C2_U12: Lesson[] = [
     slug: "c2-reading-modes-contrast",
     level: "DE-C2",
     number: 4,
-    title: "Contrast Clinic: Globales, Selektives und Detailliertes Lesen",
-    summary: "Global, selective and detailed reading: which mode each Goethe C2 task needs, and how to switch between them on one article about trees and heat in German cities.",
+    title: "Contrast Clinic: Globales, selektives und detailliertes Lesen",
+    summary: "Choose between global, selective and detailed reading for each Goethe C2 task, and switch between them on one article about trees and heat in German cities.",
     duration: "17 min",
     sections: [
       {
         heading: "Three modes, three questions",
         body: [
-          "German exam instructions name the reading mode. Globales Lesen (global reading) answers Worum geht es? What is the main message? Which headline fits? Selektives Lesen (selective reading) answers a specific question: Wann? Wie viel? Wer sagt was? Detailliertes Lesen (detailed reading) is needed for the author's attitude, fine distinctions and implications: Was meint die Autorin mit ...? Welche Aussage ist richtig?",
-          "The mistake most advanced learners make is reading everything in detailed mode. It feels thorough, but it costs the time you need for the tasks that really require it. In Goethe C2 Lesen, a task that asks you to match headlines to paragraphs needs global reading; a task with true/false statements about specific claims needs selective reading, then detailed reading of the relevant sentence only.",
+          "German exam instructions name the reading mode. \"Globales Lesen\" (global reading) answers \"Worum geht es?\" What is the main message? Which headline fits? \"Selektives Lesen\" (selective reading) answers a specific question: \"Wann? Wie viel? Wer sagt was?\" \"Detailliertes Lesen\" (detailed reading) is needed for the author's attitude, fine distinctions and implications: \"Was meint die Autorin mit ...? Welche Aussage ist richtig?\"",
+          "The mistake most advanced learners make is reading everything in detailed mode. It feels thorough, but it costs the time you need for the tasks that really require it. In Goethe C2 \"Lesen\", a task that asks you to match headlines to paragraphs needs global reading; a task with true/false statements about specific claims needs selective reading, then detailed reading of the relevant sentence only.",
           "Contrast the instructions: \"Lesen Sie den Text und entscheiden Sie, welche Überschrift passt\" (global); \"Suchen Sie im Text die Angaben zu ...\" (selective); \"Was sagt der Text über ...? Wählen Sie die richtige Antwort\" (detailed).",
         ],
         examples: [
@@ -761,12 +761,12 @@ export const DE_C2_U12: Lesson[] = [
             source: "Forty trees had to make way for the new building.",
             answer: "Für den Neubau mussten 40 Bäume weichen.",
             altAnswers: ["Für den Neubau mussten vierzig Bäume weichen.", "40 Bäume mussten dem Neubau weichen.", "Vierzig Bäume mussten dem Neubau weichen.", "Für den Neubau mussten 40 Bäume gefällt werden."],
-            explanation: "\"Weichen\" (to give way) is a typical euphemism for removal; \"etwas weichen\" takes the dative.",
+            explanation: "\"Weichen\" (to give way) is a typical euphemism for removal; \"einer Sache weichen\" takes the dative.",
           },
           {
             type: "speak",
             text: "Lesen Sie zuerst die Aufgaben, dann den Text.",
-            tip: "Aufgaben: au as in English how, stress on AUF.",
+            tip: "\"Aufgaben\": au as in English how, stress on AUF.",
             explanation: "The exam routine: questions first, then the text.",
           },
         ],
@@ -867,13 +867,13 @@ export const DE_C2_U12: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Verstehensstrategien, Part 7 of 8",
-    summary: "Take notes the German way: standard abbreviations (z. B., d. h., bzw., ggf., u. a., vgl., i. d. R.), symbols, telegraphic nominal style with attribution, and rebuilding full sentences from your notes.",
+    summary: "Take notes the German way: standard abbreviations (\"z. B.\", \"d. h.\", \"bzw.\", \"ggf.\", \"u. a.\", \"vgl.\", \"i. d. R.\"), symbols, telegraphic nominal style with attribution, and rebuilding full sentences from your notes.",
     duration: "18 min",
     sections: [
       {
         heading: "Abbreviations every German student uses",
         body: [
-          "German academic and office writing has a fixed set of abbreviations, and they are worth using in notes because everyone recognises them: \"z. B.\" (zum Beispiel), \"d. h.\" (das heißt, i.e.), \"bzw.\" (beziehungsweise: or, respectively), \"ggf.\" (gegebenenfalls: if necessary, possibly), \"u. a.\" (unter anderem: among other things), \"vgl.\" (vergleiche: cf.), i. d. R. (\"in der Regel\": as a rule), \"usw.\" (und so weiter), \"ca.\" (circa), \"evtl.\" (eventuell: possibly), \"inkl.\" (inklusive), \"mind.\" (mindestens), \"max.\" (maximal).",
+          "German academic and office writing has a fixed set of abbreviations, and they are worth using in notes because everyone recognises them: \"z. B.\" (\"zum Beispiel\"), \"d. h.\" (\"das heißt\": i.e.), \"bzw.\" (\"beziehungsweise\": or, respectively), \"ggf.\" (\"gegebenenfalls\": if necessary, possibly), \"u. a.\" (\"unter anderem\": among other things), \"vgl.\" (\"vergleiche\": cf.), \"i. d. R.\" (\"in der Regel\": as a rule), \"usw.\" (\"und so weiter\"), \"ca.\" (\"circa\"), \"evtl.\" (\"eventuell\": possibly), \"inkl.\" (\"inklusive\"), \"mind.\" (\"mindestens\"), \"max.\" (\"maximal\").",
           "Mind the trap words: \"eventuell\" means possibly, not eventually (that is \"schließlich\" or \"irgendwann\"). \"Bzw.\" is notoriously hard to translate: it means respectively in lists (\"Die Kurse kosten 50 bzw. 80 Euro\") and more often simply or rather / or (\"Ich melde mich morgen bzw. übermorgen\").",
           "In printed texts these abbreviations have a (narrow) space after each point: \"z. B.\", \"d. h.\". In your own notes nobody cares, but in a formal text you should write them correctly or not at all: many style guides prefer \"zum Beispiel\" in full at the start of a sentence.",
         ],
@@ -905,7 +905,7 @@ export const DE_C2_U12: Lesson[] = [
             source: "Delivery usually takes three working days.",
             answer: "Die Lieferzeit beträgt i. d. R. drei Werktage.",
             altAnswers: ["Die Lieferzeit beträgt in der Regel drei Werktage.", "Die Lieferung dauert i. d. R. drei Werktage.", "Die Lieferung dauert in der Regel drei Werktage.", "Die Lieferzeit beträgt i.d.R. drei Werktage."],
-            explanation: "\"In der Regel\" (abbreviated i. d. R.) = as a rule, usually. \"Betragen\" is the formal verb for amounts and durations.",
+            explanation: "\"In der Regel\" (abbreviated \"i. d. R.\") = as a rule, usually. \"Betragen\" is the formal verb for amounts and durations.",
           },
           {
             type: "translate",
@@ -921,9 +921,9 @@ export const DE_C2_U12: Lesson[] = [
       {
         heading: "Symbols and telegraphic style",
         body: [
-          "Notes in German use the same symbols as in English, with German readings: → (führt zu, folglich), ↑ (steigt, Anstieg), ↓ (sinkt, Rückgang), ≠ (ungleich, im Gegensatz zu), ≈ (ungefähr), + / – (Vorteil / Nachteil), Ø (Durchschnitt). An arrow saves a whole \"was dazu führt, dass\".",
+          "Notes in German use the same symbols as in English, with German readings: → (\"führt zu\", \"folglich\"), ↑ (\"steigt\", \"Anstieg\"), ↓ (\"sinkt\", \"Rückgang\"), ≠ (\"ungleich\", \"im Gegensatz zu\"), ≈ (\"ungefähr\"), + / – (\"Vorteil\" / \"Nachteil\"), Ø (\"Durchschnitt\"). An arrow saves a whole \"was dazu führt, dass\".",
           "Telegraphic style drops articles, auxiliaries and verbs and keeps nouns: \"Anstieg Arbeitslosigkeit um 2 % (Osten)\", \"Ursache: Fachkräftemangel → Lohndruck ↑\". German is ideal for this because it nominalises easily: \"steigen\" → \"Anstieg\", \"zurückgehen\" → \"Rückgang\", \"einführen\" → \"Einführung\", \"kritisieren\" → \"Kritik\".",
-          "Keep attribution in every note line, even in telegraphic style: \"lt. Studie\" (laut), \"Min.: ...\" (the minister said), \"Kritiker: ...\", a question mark for doubt. Without attribution your notes will turn opinions into facts when you write them up.",
+          "Keep attribution in every note line, even in telegraphic style: \"lt. Studie\" (\"laut\"), \"Min.: ...\" (the minister said), \"Kritiker: ...\", a question mark for doubt. Without attribution your notes will turn opinions into facts when you write them up.",
         ],
         examples: [
           { es: "Anstieg Arbeitslosigkeit um 2 % (v. a. Osten)", en: "Rise in unemployment of 2% (mainly in the east)" },
@@ -1013,7 +1013,7 @@ export const DE_C2_U12: Lesson[] = [
         sentence: "Die Tickets kosten 12 ___ 8 Euro für Studierende.",
         answer: "bzw.",
         altAnswers: ["beziehungsweise"],
-        explanation: "\"Bzw.\" (beziehungsweise) links two values that belong to two different cases: respectively.",
+        explanation: "\"Bzw.\" (\"beziehungsweise\") links two values that belong to two different cases: respectively.",
       },
       {
         type: "translate",
@@ -1073,7 +1073,7 @@ export const DE_C2_U12: Lesson[] = [
       {
         type: "speak",
         text: "Die Prüfung ist mündlich, das heißt, es gibt keinen schriftlichen Teil.",
-        tip: "Read abbreviations in full when speaking: d. h. is das heißt.",
+        tip: "Read abbreviations in full when speaking: \"d. h.\" is \"das heißt\".",
         explanation: "In speech, abbreviations are always pronounced as full words.",
       },
     ],
@@ -1089,7 +1089,7 @@ export const DE_C2_U12: Lesson[] = [
       {
         heading: "Part 1 of the lecture: from the dump to the Yellow Bag",
         body: [
-          "You are attending a Vorlesung at the University of Leipzig: \"Vom Müllberg zur Kreislaufwirtschaft\" (from mountains of rubbish to a circular economy). Below is the first part of the lecture, the way the professor speaks it, with signposting phrases you should listen for: \"Lassen Sie mich mit ... beginnen\", \"Entscheidend war ...\", \"Das heißt ...\".",
+          "You are attending a \"Vorlesung\" (lecture) at the University of Leipzig: \"Vom Müllberg zur Kreislaufwirtschaft\" (from mountains of rubbish to a circular economy). Below is the first part of the lecture, the way the professor speaks it, with signposting phrases you should listen for: \"Lassen Sie mich mit ... beginnen\", \"Entscheidend war ...\", \"Das heißt ...\".",
           "Lecturers repeat and reformulate; your notes should not. Write each idea once, in telegraphic style, and note the figures and dates precisely.",
         ],
         examples: [
@@ -1193,7 +1193,7 @@ export const DE_C2_U12: Lesson[] = [
           {
             type: "speak",
             text: "Er hebt hervor, dass die Verordnung einen Wendepunkt darstellte.",
-            tip: "Hervor: stress the second syllable, her-VOR.",
+            tip: "\"Hervor\": stress the second syllable, her-VOR.",
             explanation: "\"Hervorheben\" (to emphasise) and \"darstellen\" (to constitute) are both separable.",
           },
         ],
@@ -1215,7 +1215,7 @@ export const DE_C2_U12: Lesson[] = [
         prompt: "Translate into German.",
         source: "This gave rise to the Dual System.",
         answer: "Daraus entstand das Duale System.",
-        altAnswers: ["Daraus ist das Duale System entstanden.", "So entstand das Duale System."],
+        altAnswers: ["Daraus ist das Duale System entstanden.", "So entstand das Duale System.", "Daraus ging das Duale System hervor."],
         explanation: "\"Entstehen aus\" = to arise from; \"daraus\" refers back to the ordinance.",
       },
       {
@@ -1294,7 +1294,7 @@ export const DE_C2_U12: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Verstehensstrategien, Part 8 of 8",
-    summary: "From notes to text: reformulate content in another register as in Goethe C2 Schreiben Teil 2, with das heißt, anders gesagt and mit anderen Worten, and condense long passages without losing meaning.",
+    summary: "Turn notes into text: reformulate content in another register as in Goethe C2 \"Schreiben\" Teil 2, use \"das heißt\", \"anders gesagt\" and \"mit anderen Worten\", and condense long passages without losing meaning.",
     duration: "18 min",
     sections: [
       {
@@ -1343,7 +1343,7 @@ export const DE_C2_U12: Lesson[] = [
       {
         heading: "Changing register: Goethe C2 Schreiben Teil 2",
         body: [
-          "In Schreiben Teil 2 you rewrite a text for a different reader and register, typically turning an informal text into a formal one (a chatty email into a letter to an institution) or a dense official text into plain language. The content stays; everything else changes.",
+          "In \"Schreiben\" Teil 2 you rewrite a text for a different reader and register, typically turning an informal text into a formal one (a chatty email into a letter to an institution) or a dense official text into plain language. The content stays; everything else changes.",
           "Informal → formal: \"du\" → \"Sie\", particles out, colloquial words replaced (\"kriegen\" → \"erhalten\", \"total\" → \"äußerst\"), loose clauses tied together with connectors, some nominal style (\"weil wir umziehen\" → \"aufgrund unseres Umzugs\"). Formal → plain: break up noun chains into verbs, replace passive with active, explain terms.",
           "Example. Informal: \"Wir ziehen im Mai um, deshalb können wir den Kurs leider nicht weitermachen.\" Formal: \"Aufgrund unseres Umzugs im Mai ist es uns leider nicht möglich, den Kurs fortzusetzen.\"",
         ],
@@ -1363,7 +1363,7 @@ export const DE_C2_U12: Lesson[] = [
             source: "Owing to our move, we are unable to continue the course.",
             answer: "Aufgrund unseres Umzugs ist es uns nicht möglich, den Kurs fortzusetzen.",
             altAnswers: ["Aufgrund unseres Umzugs ist es uns leider nicht möglich, den Kurs fortzusetzen.", "Aufgrund unseres Umzuges ist es uns nicht möglich, den Kurs fortzusetzen.", "Aufgrund unseres Umzugs können wir den Kurs nicht fortsetzen.", "Aufgrund unseres Umzugs können wir den Kurs leider nicht fortsetzen."],
-            explanation: "\"Aufgrund\" + genitive replaces a weil-clause; \"es ist uns nicht möglich\" is the formal we can't; \"fortsetzen\" is formal for carry on.",
+            explanation: "\"Aufgrund\" + genitive replaces a weil-clause; \"es ist uns nicht möglich\" is the formal 'we can't'; \"fortsetzen\" is formal for 'carry on'.",
           },
           {
             type: "translate",
@@ -1379,7 +1379,7 @@ export const DE_C2_U12: Lesson[] = [
       {
         heading: "Condensing without losing meaning",
         body: [
-          "Summaries and the Goethe Hören note tasks reward condensing. Three techniques: nominalise a clause (\"nachdem die Regierung das Gesetz verabschiedet hatte\" → \"nach der Verabschiedung des Gesetzes\"), turn a relative clause into an extended participial attribute (\"die Maßnahmen, die im Mai beschlossen wurden\" → \"die im Mai beschlossenen Maßnahmen\"), and merge sentences with connectors.",
+          "Summaries and the Goethe \"Hören\" note tasks reward condensing. Three techniques: nominalise a clause (\"nachdem die Regierung das Gesetz verabschiedet hatte\" → \"nach der Verabschiedung des Gesetzes\"), turn a relative clause into an extended participial attribute (\"die Maßnahmen, die im Mai beschlossen wurden\" → \"die im Mai beschlossenen Maßnahmen\"), and merge sentences with connectors.",
           "What to cut: examples (keep one at most), repetitions, the speaker's reformulations, anecdotes. What to keep: the claim, the main reason, figures that support it, the conclusion, and who says it.",
           "Be careful: condensing tempts you to drop attribution and hedges. \"Die Studie deutet darauf hin, dass ...\" must not become \"Die Studie beweist ...\". A hedge is part of the content.",
         ],
@@ -1512,15 +1512,15 @@ export const DE_C2_U12: Lesson[] = [
     slug: "c2-strategies-spiral-review",
     level: "DE-C2",
     number: 8,
-    title: "Spiral Review: Alle Strategien in Einem Text",
+    title: "Spiral Review: Alle Strategien in einem Text",
     summary: "One feature article about the comeback of night trains: skim it, scan for figures, infer new words, track register and attribution, take notes and summarise.",
     duration: "20 min",
     sections: [
       {
         heading: "Skim: headline, Vorspann, structure",
         body: [
-          "The article comes from the weekend supplement of a national newspaper. Start by skimming: Dachzeile, Schlagzeile, Vorspann and the subheadings. Before reading on, say in one sentence what the article is about and what genre it is.",
-          "The headline is a play on words: \"Schlafen statt Fliegen\" (sleeping instead of flying), and the Vorspann sets up the tension between enthusiasm and economic doubts. Subheadings: \"Die Renaissance\", \"Die Rechnung\", \"Die Zukunft\". It is a Reportage mixed with analysis: there will be scenes, figures and quoted opinions.",
+          "The article comes from the weekend supplement of a national newspaper. Start by skimming: \"Dachzeile\", \"Schlagzeile\", \"Vorspann\" and the subheadings. Before reading on, say in one sentence what the article is about and what genre it is.",
+          "The headline is a play on words: \"Schlafen statt Fliegen\" (sleeping instead of flying), and the \"Vorspann\" sets up the tension between enthusiasm and economic doubts. Subheadings: \"Die Renaissance\", \"Die Rechnung\", \"Die Zukunft\". It is a \"Reportage\" mixed with analysis: there will be scenes, figures and quoted opinions.",
         ],
         examples: [
           { es: "Bahnreisen – Schlafen statt Fliegen", en: "Rail travel: sleeping instead of flying" },
@@ -1535,7 +1535,7 @@ export const DE_C2_U12: Lesson[] = [
             question: "After skimming, which summary of the topic is best?",
             options: ["Night trains are popular again, but it is unclear whether they are profitable.", "Night trains have been abolished for good.", "Flying is cheaper than sleeping.", "Hamburg station is being renovated."],
             correctIndex: 0,
-            explanation: "The Vorspann gives both the trend (\"Comeback\") and the question (\"rechnet sich das Geschäft?\").",
+            explanation: "The \"Vorspann\" gives both the trend (\"Comeback\") and the question (\"rechnet sich das Geschäft?\").",
           },
           {
             type: "translate",
@@ -1615,7 +1615,7 @@ export const DE_C2_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, with zwar ... jedoch.",
+            prompt: "Translate into German, with \"zwar ... jedoch\".",
             source: "Night trains may be popular, but so far they are not profitable.",
             answer: "Zwar sind Nachtzüge beliebt, wirtschaftlich rentabel sind sie bisher jedoch nicht.",
             altAnswers: ["Nachtzüge sind zwar beliebt, bisher aber nicht rentabel.", "Zwar sind Nachtzüge beliebt, bisher rechnen sie sich jedoch nicht.", "Nachtzüge sind zwar beliebt, rechnen sich bisher aber nicht.", "Zwar sind Nachtzüge beliebt, bisher sind sie jedoch nicht rentabel."],
@@ -1624,7 +1624,7 @@ export const DE_C2_U12: Lesson[] = [
           {
             type: "speak",
             text: "Wir sehen hier ein erhebliches Wachstumspotenzial.",
-            tip: "Wachstumspotenzial: the z is ts, stress po-ten-TSIAL at the end.",
+            tip: "\"Wachstumspotenzial\": the z is ts, stress po-ten-TSIAL at the end.",
             explanation: "Corporate register: \"erheblich\" (considerable) and a long compound noun.",
           },
         ],
@@ -1725,14 +1725,14 @@ export const DE_C2_U12: Lesson[] = [
     level: "DE-C2",
     number: 9,
     title: "Mastery Vocabulary: Verb and Noun Collocations",
-    summary: "The fixed verb-noun pairs of educated German: Maßnahmen ergreifen, Bedenken äußern, Kritik üben, Einfluss nehmen, Stellung beziehen, Bilanz ziehen, Anspruch erheben, Verantwortung tragen.",
+    summary: "Use the fixed verb-noun pairs of educated German, such as \"Maßnahmen ergreifen\", \"Bedenken äußern\", \"Kritik üben\", \"Stellung beziehen\" and \"Anspruch erheben\", instead of English-style calques.",
     duration: "17 min",
     sections: [
       {
         heading: "Acting and deciding",
         body: [
           "At the Mastery level your German is judged as much by collocations as by grammar. Many nouns choose a specific verb, and the English one is usually wrong: you don't \"machen\" measures, you \"ergreifen\" them (literally seize). Learn the pair as one unit.",
-          "Acting and deciding: \"Maßnahmen ergreifen\" (take measures), \"eine Entscheidung treffen\" (make a decision; never *\"machen\"), \"Verantwortung tragen\" (bear responsibility; \"für\" + accusative) or \"übernehmen\" (take on), \"Bilanz ziehen\" (take stock, literally draw the balance), \"einen Beschluss fassen\" (pass a resolution), \"Schritte einleiten\" (initiate steps).",
+          "Acting and deciding: \"Maßnahmen ergreifen\" (take measures), \"eine Entscheidung treffen\" (make a decision; not \"*machen\"), \"Verantwortung tragen\" (bear responsibility; \"für\" + accusative) or \"übernehmen\" (take on), \"Bilanz ziehen\" (take stock, literally draw the balance), \"einen Beschluss fassen\" (pass a resolution), \"Schritte einleiten\" (initiate steps).",
           "\"Eine Entscheidung machen\" is a common anglicism that sounds wrong to most Germans. \"Bilanz ziehen\" is used for any review of results: \"Nach einem Jahr zieht die Stadt eine positive Bilanz.\"",
         ],
         examples: [
@@ -1751,7 +1751,7 @@ export const DE_C2_U12: Lesson[] = [
             source: "We haven't made a decision yet.",
             answer: "Wir haben noch keine Entscheidung getroffen.",
             altAnswers: ["Wir haben uns noch nicht entschieden.", "Eine Entscheidung haben wir noch nicht getroffen."],
-            explanation: "\"Eine Entscheidung treffen\" (literally hit a decision), never *\"machen\".",
+            explanation: "\"Eine Entscheidung treffen\" (literally 'hit a decision'), not \"*machen\".",
           },
           {
             type: "translate",
@@ -1775,8 +1775,8 @@ export const DE_C2_U12: Lesson[] = [
         heading: "Expressing views: Bedenken äußern, Kritik üben, Stellung beziehen",
         body: [
           "Opinions have their own verbs. \"Bedenken äußern\" (express reservations), \"Kritik üben an\" + dative (criticise, formal), \"Stellung beziehen\" or \"Stellung nehmen zu\" + dative (take a position on), \"Einwände erheben gegen\" (raise objections to), \"Zweifel anmelden\" (voice doubts), \"eine Meinung vertreten\" (hold a view).",
-          "Mind the prepositions: \"Kritik an\" (not *\"über\") + dative: \"Sie übte scharfe Kritik an dem Entwurf.\" \"Stellung nehmen zu\": \"Der Minister wollte dazu nicht Stellung nehmen.\" \"Stellung beziehen\" has a slightly stronger sense of committing to a side.",
-          "Using these instead of \"sagen\" or \"kritisieren\" is not just ornament: in a report, \"Bedenken äußern\" is milder than \"Kritik üben\", which is milder than \"Einwände erheben\". The collocation carries the degree.",
+          "Mind the prepositions: \"Kritik an\" (not \"*über\") + dative: \"Sie übte scharfe Kritik an dem Entwurf.\" \"Stellung nehmen zu\": \"Der Minister wollte dazu nicht Stellung nehmen.\" \"Stellung beziehen\" has a slightly stronger sense of committing to a side.",
+          "Using these instead of \"sagen\" or \"kritisieren\" is not just ornament: in a report, \"Bedenken äußern\" is milder than \"Kritik üben\", and \"Einwände erheben\" is a formal objection, often in a procedure. The collocation carries the degree.",
         ],
         examples: [
           { es: "Mehrere Abgeordnete äußerten Bedenken.", en: "Several MPs expressed reservations." },
@@ -1820,7 +1820,7 @@ export const DE_C2_U12: Lesson[] = [
         body: [
           "Power and rights: \"Einfluss nehmen auf\" + accusative or \"Einfluss ausüben auf\" (exert influence on), \"Druck ausüben auf\" (put pressure on), \"Anspruch erheben auf\" + accusative (lay claim to), \"etwas in Anspruch nehmen\" (to make use of, take up: time, a service), \"Rücksicht nehmen auf\" (show consideration for).",
           "Careful with \"Anspruch\": \"Anspruch auf etwas haben\" means to be entitled to it (\"Sie haben Anspruch auf Urlaub\"), \"Anspruch erheben auf\" means to claim it, and \"in Anspruch nehmen\" means to use: \"Das nimmt viel Zeit in Anspruch\" (that takes a lot of time).",
-          "These collocations are typical of Goethe C2 Lesen gap-fill tasks, where the noun is given and you must choose the verb, or vice versa.",
+          "These collocations are typical of Goethe C2 \"Lesen\" gap-fill tasks, where the noun is given and you must choose the verb, or vice versa.",
         ],
         examples: [
           { es: "Lobbyisten versuchen, Einfluss auf das Gesetz zu nehmen.", en: "Lobbyists are trying to influence the law." },
@@ -1885,7 +1885,7 @@ export const DE_C2_U12: Lesson[] = [
         prompt: "Translate into German.",
         source: "The party is putting pressure on the government.",
         answer: "Die Partei übt Druck auf die Regierung aus.",
-        altAnswers: ["Die Partei setzt die Regierung unter Druck.", "Die Partei macht Druck auf die Regierung."],
+        altAnswers: ["Die Partei setzt die Regierung unter Druck.", "Die Partei macht Druck auf die Regierung.", "Die Partei übt auf die Regierung Druck aus."],
         explanation: "\"Druck ausüben auf\" + accusative; \"jemanden unter Druck setzen\" is the alternative.",
       },
       {

@@ -44,7 +44,7 @@ export const DE_C2_U17: Lesson[] = [
             prompt: "Translate into German.",
             source: "She said, 'I'm coming tomorrow.'",
             answer: "Sie sagte: „Ich komme morgen.“",
-            altAnswers: ["Sie sagte: „Ich komme morgen“.", "„Ich komme morgen“, sagte sie."],
+            altAnswers: ["Sie hat gesagt: „Ich komme morgen.“", "„Ich komme morgen“, sagte sie."],
             explanation: "German introduces direct speech with a colon, not a comma: \"Sie sagte:\" followed by the quote.",
           },
         ],
@@ -90,7 +90,7 @@ export const DE_C2_U17: Lesson[] = [
             type: "speak",
             text: "Der Autor spricht von einer stillen Revolution.",
             prompt: "Say it in German: The author speaks of a quiet revolution.",
-            explanation: "An integrated quote: \"von einer stillen Revolution\" is part of your sentence, so it takes your sentence's grammar (dative after von).",
+            explanation: "An integrated quote: \"von einer stillen Revolution\" is part of your sentence, so it takes your sentence's grammar (dative after \"von\").",
           },
         ],
       },
@@ -105,7 +105,7 @@ export const DE_C2_U17: Lesson[] = [
           { es: "„Die Reform ist [...] gescheitert“, schreibt Hartmann.", en: "'The reform has [...] failed,' writes Hartmann." },
           { es: "„Sie [die Regierung] hat die Warnungen ignoriert.“", en: "'It [the government] ignored the warnings.'" },
           { es: "„Die Ergebnise [sic] sind eindeutig.“", en: "'The resluts [sic] are clear.'" },
-          { es: "Die Autorin spricht von „unvermeidbare[n] Konflikten“.", en: "The author speaks of 'unavoidable conflicts'." },
+          { es: "Die Autorin spricht von „unvermeidbare[n] Konflikte[n]“.", en: "The author speaks of 'unavoidable conflicts'." },
           { es: "Bei längeren Zitaten verwendet man ein eingerücktes Blockzitat.", en: "For longer quotations you use an indented block quote." },
           { es: "Die Kursivierung stammt von mir.", en: "The italics are mine." },
         ],
@@ -155,10 +155,11 @@ export const DE_C2_U17: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The minister stressed[:] 'We will not give in.'",
-        sentence: "Die Ministerin betonte___ „Wir werden nicht nachgeben.“",
-        answer: ":",
-        explanation: "German introduces direct speech with a colon, where English uses a comma.",
+        en: "The minister [stressed]: 'We will not give in.'",
+        sentence: "Die Ministerin ___: „Wir werden nicht nachgeben.“",
+        answer: "betonte",
+        altAnswers: ["unterstrich", "hob hervor"],
+        explanation: "\"Betonen\" (to stress) is a typical reporting verb. Note the colon after it: German introduces direct speech with a colon, where English uses a comma.",
       },
       {
         type: "translate",
@@ -221,7 +222,7 @@ export const DE_C2_U17: Lesson[] = [
     slug: "c2-direct-to-indirect-quote-transformations",
     level: "DE-C2",
     number: 2,
-    title: "Transformations: Vom Direkten zum Indirekten Zitat",
+    title: "Transformations: Vom direkten zum indirekten Zitat",
     summary: "Convert direct quotes into indirect speech with Konjunktiv I, switch to Konjunktiv II where the forms coincide, shift pronouns and time words, and convert back.",
     duration: "18 min",
     sections: [
@@ -326,7 +327,7 @@ export const DE_C2_U17: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "She told me [to wait] there.",
+            en: "She said I [should] wait there.",
             sentence: "Sie sagte, ich ___ dort warten.",
             answer: "solle",
             explanation: "A reported command uses \"sollen\" in Konjunktiv I: \"ich solle\". The polite request uses \"möge\".",
@@ -378,7 +379,7 @@ export const DE_C2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Turn into direct speech: Der Minister erklärte, er werde am folgenden Tag nach Brüssel reisen.",
+        question: "Turn into direct speech: \"Der Minister erklärte, er werde am folgenden Tag nach Brüssel reisen.\"",
         options: [
           "„Ich werde morgen nach Brüssel reisen“, erklärte der Minister.",
           "„Er wird am folgenden Tag nach Brüssel reisen“, erklärte der Minister.",
@@ -431,7 +432,7 @@ export const DE_C2_U17: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Zitieren und Belegen, Part 2 of 8",
-    summary: "Attribute information to sources: laut, zufolge after the noun, nach Angaben von, gemäß, wie X betont; and choose Konjunktiv I to keep your distance or the indicative to endorse.",
+    summary: "Attribute information to sources with \"laut\", \"zufolge\" (after the noun), \"nach Angaben von\", \"gemäß\" and \"wie X betont\", and choose Konjunktiv I to keep your distance or the indicative to endorse.",
     duration: "18 min",
     sections: [
       {
@@ -443,7 +444,7 @@ export const DE_C2_U17: Lesson[] = [
         ],
         examples: [
           { es: "Laut Polizei wurde niemand verletzt.", en: "According to the police, nobody was injured." },
-          { es: "Dem Bericht zufolge sind die Kosten um 20 Prozent gestiegen.", en: "According to the report, costs have risen by 20 percent." },
+          { es: "Dem Bericht zufolge sind die Kosten um 20 Prozent gestiegen.", en: "According to the report, costs have risen by 20 per cent." },
           { es: "Einer aktuellen Studie zufolge schlafen Jugendliche zu wenig.", en: "According to a recent study, teenagers sleep too little." },
           { es: "Nach Angaben des Statistischen Bundesamts stieg die Inflation leicht.", en: "According to the Federal Statistical Office, inflation rose slightly." },
           { es: "Den Umfragen nach liegt die Opposition vorn.", en: "According to the polls, the opposition is ahead." },
@@ -453,7 +454,7 @@ export const DE_C2_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using zufolge.",
+            prompt: "Translate into German, using \"zufolge\".",
             source: "According to the report, costs have risen.",
             answer: "Dem Bericht zufolge sind die Kosten gestiegen.",
             altAnswers: ["Dem Bericht zufolge seien die Kosten gestiegen.", "Die Kosten sind dem Bericht zufolge gestiegen.", "Die Kosten seien dem Bericht zufolge gestiegen."],
@@ -500,7 +501,7 @@ export const DE_C2_U17: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "As Schmidt shows, the situation [has improved].",
+            en: "As Schmidt shows, the situation [has] improved.",
             sentence: "Wie Schmidt zeigt, ___ sich die Lage verbessert.",
             answer: "hat",
             explanation: "\"Wie X zeigt\" endorses the content, so the indicative \"hat\" follows, not Konjunktiv I \"habe\".",
@@ -564,7 +565,7 @@ export const DE_C2_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using zufolge.",
+        prompt: "Translate into German, using \"zufolge\".",
         source: "According to a recent study, teenagers sleep too little.",
         answer: "Einer aktuellen Studie zufolge schlafen Jugendliche zu wenig.",
         altAnswers: ["Einer neuen Studie zufolge schlafen Jugendliche zu wenig.", "Jugendliche schlafen einer aktuellen Studie zufolge zu wenig.", "Einer neueren Studie zufolge schlafen Jugendliche zu wenig."],
@@ -586,7 +587,7 @@ export const DE_C2_U17: Lesson[] = [
         source: "In accordance with the rules, the application must be submitted in writing.",
         answer: "Gemäß den Vorschriften muss der Antrag schriftlich gestellt werden.",
         altAnswers: ["Gemäß den Vorschriften muss der Antrag schriftlich eingereicht werden.", "Den Vorschriften gemäß muss der Antrag schriftlich gestellt werden.", "Gemäß den Regeln muss der Antrag schriftlich gestellt werden.", "Gemäß den Regeln muss der Antrag schriftlich eingereicht werden.", "Laut Vorschriften muss der Antrag schriftlich gestellt werden."],
-        explanation: "\"Gemäß\" + dative for rules and regulations; \"einen Antrag stellen\" is the Funktionsverbgefüge.",
+        explanation: "\"Gemäß\" + dative for rules and regulations; \"einen Antrag stellen\" is the fixed verb-noun phrase (\"Funktionsverbgefüge\").",
       },
       {
         type: "multiple-choice",
@@ -642,15 +643,15 @@ export const DE_C2_U17: Lesson[] = [
     slug: "c2-attribution-verbs-contrast",
     level: "DE-C2",
     number: 4,
-    title: "Contrast Clinic: Behauptet, Vertritt, Legt Nahe, Räumt Ein, Bestreitet",
-    summary: "Choose reporting verbs by the stance they reveal: behaupten (distance), feststellen (neutral to endorsing), betonen, einräumen, bestreiten, nahelegen and die Auffassung vertreten.",
+    title: "Contrast Clinic: Behauptet, Vertritt, Legt nahe, Räumt ein, Bestreitet",
+    summary: "Choose reporting verbs by the stance they reveal: \"behaupten\" (distance), \"feststellen\" (neutral to endorsing), \"betonen\", \"einräumen\", \"bestreiten\", \"nahelegen\" and \"die Auffassung vertreten\".",
     duration: "16 min",
     sections: [
       {
         heading: "behaupten vs feststellen vs die Auffassung vertreten",
         body: [
-          "The same claim, three verbs, three attitudes. \"Hartmann behauptet, die Reform sei gescheitert\": behaupten (to claim, assert) suggests that you doubt it or that it is unproven. \"Hartmann stellt fest, dass die Reform gescheitert ist\": feststellen (to state, establish) treats it as a finding, often with the indicative. \"Hartmann vertritt die Auffassung, dass die Reform gescheitert sei\": a position held in a debate, neutral.",
-          "English claim is weaker than \"behaupten\" in academic English, so translating claim with \"behaupten\" every time can make you sound hostile to the author. Neutral alternatives: \"die These aufstellen\", \"argumentieren\", \"die Auffassung / Ansicht / Position vertreten\", \"geht davon aus, dass\" (assumes that).",
+          "The same claim, three verbs, three attitudes. \"Hartmann behauptet, die Reform sei gescheitert\": \"behaupten\" (to claim, assert) suggests that you doubt it or that it is unproven. \"Hartmann stellt fest, dass die Reform gescheitert ist\": \"feststellen\" (to state, establish) treats it as a finding, often with the indicative. \"Hartmann vertritt die Auffassung, dass die Reform gescheitert sei\": a position held in a debate, neutral.",
+          "English 'claim' is weaker than \"behaupten\" in academic English, so translating 'claim' with \"behaupten\" every time can make you sound hostile to the author. Neutral alternatives: \"die These aufstellen\", \"argumentieren\", \"die Auffassung / Ansicht / Position vertreten\", \"geht davon aus, dass\" (assumes that).",
           "\"Vertreten\" (to represent, hold) collocates with \"eine These / Auffassung / Position / Meinung vertreten\". The noun phrase takes a dass-clause or a Konjunktiv I main clause after it.",
         ],
         examples: [
@@ -689,7 +690,7 @@ export const DE_C2_U17: Lesson[] = [
         body: [
           "\"Betonen\" (to stress, emphasise) shows the author finds something important: \"Sie betont, dass weitere Forschung nötig sei.\" Similar: \"hervorheben\", \"unterstreichen\".",
           "\"Einräumen\" (to concede, admit) marks a point against the author's own position: \"Er räumt ein, dass die Stichprobe klein ist.\" It often introduces a limitation and is followed by \"jedoch\" or \"allerdings\". Close synonyms: \"zugeben\" (more everyday, sometimes implying guilt), \"zugestehen\".",
-          "\"Bestreiten\" (to deny, dispute) is the opposite: \"Der Konzern bestreitet, von den Mängeln gewusst zu haben.\" Note the zu-infinitive with the same subject, and the perfect infinitive \"gewusst zu haben\" for an earlier action. Don't add \"nicht\": \"bestreiten\" is already negative, unlike English deny that... where speakers sometimes double up.",
+          "\"Bestreiten\" (to deny, dispute) is the opposite: \"Der Konzern bestreitet, von den Mängeln gewusst zu haben.\" Note the zu-infinitive with the same subject, and the perfect infinitive \"gewusst zu haben\" for an earlier action. Don't add \"nicht\": \"bestreiten\" is already negative, unlike English 'deny that ...', where learners sometimes add a negative.",
         ],
         examples: [
           { es: "Sie betont, dass weitere Forschung nötig sei.", en: "She stresses that further research is necessary." },
@@ -729,7 +730,7 @@ export const DE_C2_U17: Lesson[] = [
         body: [
           "\"Nahelegen\" (to suggest, indicate) is ideal for cautious findings: \"Die Ergebnisse legen nahe, dass...\" (the results suggest that). The subject is usually data, not a person. \"Darauf hindeuten\" works the same way: \"Vieles deutet darauf hin, dass...\".",
           "\"Andeuten\" is to hint, to imply indirectly: \"Die Ministerin deutete an, dass sie zurücktreten könnte.\" \"Unterstellen\" is to insinuate or impute, always negative: \"Sie unterstellt den Kritikern böse Absichten\" (she imputes bad intentions to the critics). It is the verb you use when you think someone has twisted the facts.",
-          "Trap: English suggest has two meanings. Suggest = propose is \"vorschlagen\"; suggest = indicate is \"nahelegen\" or \"darauf hindeuten\". \"Die Daten schlagen vor\" is a clear translation error.",
+          "Trap: English 'suggest' has two meanings. 'Suggest' = propose is \"vorschlagen\"; suggest = indicate is \"nahelegen\" or \"darauf hindeuten\". \"Die Daten schlagen vor\" is a clear translation error.",
         ],
         examples: [
           { es: "Die Ergebnisse legen nahe, dass der Effekt gering ist.", en: "The results suggest that the effect is small." },
@@ -796,10 +797,10 @@ export const DE_C2_U17: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which verb would you use to introduce a limitation the authors themselves admit?",
-        options: ["einräumen", "bestreiten", "unterstellen", "behaupten"],
+        question: "You want to say: The authors concede that the sample is small. Which sentence fits?",
+        options: ["Die Autoren räumen ein, dass die Stichprobe klein ist.", "Die Autoren bestreiten, dass die Stichprobe klein ist.", "Die Autoren unterstellen, dass die Stichprobe klein ist.", "Die Autoren behaupten, die Stichprobe sei klein."],
         correctIndex: 0,
-        explanation: "\"Einräumen\" (to concede): the authors admit a weakness of their own work.",
+        explanation: "\"Einräumen\" (to concede): the authors admit a weakness of their own work. \"Bestreiten\" denies it, \"unterstellen\" imputes bad faith, and \"behaupten\" only reports a claim.",
       },
       {
         type: "translate",
@@ -817,7 +818,7 @@ export const DE_C2_U17: Lesson[] = [
         source: "She emphasised how important education was.",
         answer: "Sie hob hervor, wie wichtig Bildung sei.",
         altAnswers: ["Sie hob hervor, wie wichtig die Bildung sei.", "Sie betonte, wie wichtig Bildung sei.", "Sie betonte, wie wichtig die Bildung sei.", "Sie hob hervor, wie wichtig Bildung ist.", "Sie betonte, wie wichtig Bildung ist.", "Sie unterstrich, wie wichtig Bildung sei."],
-        explanation: "\"Hervorheben\" (strong: hob hervor) and an indirect w-question with verb-final \"sei\".",
+        explanation: "\"Hervorheben\" (strong: \"hob hervor\") and an indirect w-question with verb-final \"sei\".",
       },
       {
         type: "word-order",
@@ -847,7 +848,7 @@ export const DE_C2_U17: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Zitieren und Belegen, Part 3 of 8",
-    summary: "Use the German citation system: footnotes with Vgl., S. and f. / ff., ebd. and a. a. O., Hrsg. and Aufl., the order of the Literaturverzeichnis, and Harvard vs footnotes across disciplines.",
+    summary: "Use the German citation system: footnotes with \"Vgl.\", \"S.\" and \"f.\" / \"ff.\", \"ebd.\" and \"a. a. O.\", \"Hrsg.\" and \"Aufl.\", the order of the bibliography (\"Literaturverzeichnis\"), and when disciplines use Harvard style or footnotes.",
     duration: "18 min",
     sections: [
       {
@@ -887,7 +888,7 @@ export const DE_C2_U17: Lesson[] = [
       {
         heading: "The Literaturverzeichnis",
         body: [
-          "The bibliography (\"das Literaturverzeichnis\") is alphabetical by surname. A monograph: \"Hartmann, Anna (2019): Sprache und Macht. 3. Aufl. Berlin: Suhrkamp.\" An edited volume: \"Schmidt, Peter (Hrsg.) (2018): ...\". \"Hrsg.\" is der Herausgeber (editor), plural also \"Hrsg.\" (or \"Hgg.\"). \"Aufl.\" is die Auflage (edition): \"2., überarbeitete Auflage\".",
+          "The bibliography (\"das Literaturverzeichnis\") is alphabetical by surname. A monograph: \"Hartmann, Anna (2019): Sprache und Macht. 3. Aufl. Berlin: Suhrkamp.\" An edited volume: \"Schmidt, Peter (Hrsg.) (2018): ...\". \"Hrsg.\" is \"der Herausgeber\" (editor), plural also \"Hrsg.\" (or \"Hgg.\"). \"Aufl.\" is \"die Auflage\" (edition): \"2., überarbeitete Auflage\".",
           "A chapter in an edited volume: \"Weber, Lisa (2020): Titel des Aufsatzes. In: Schmidt, Peter (Hrsg.): Titel des Sammelbands. Hamburg: Meiner, S. 33-58.\" A journal article: \"In: Zeitschrift für Soziologie 49 (2), S. 101-120.\" \"In:\" with a colon is the German convention.",
           "Trap: \"die Auflage\" is the edition or print run, not edition in the sense of version of a newspaper (\"die Ausgabe\"). \"Ausgabe\" is used for an edition of collected works too: \"die Weimarer Ausgabe\" of Luther.",
         ],
@@ -929,8 +930,8 @@ export const DE_C2_U17: Lesson[] = [
         heading: "Harvard or footnotes? Disciplines differ",
         body: [
           "The Harvard system (\"die Harvard-Zitierweise\", also \"amerikanische Zitierweise\") puts the short reference in brackets in the text: \"(Hartmann 2019: 45)\" or \"(Hartmann 2019, S. 45)\". It dominates in the social sciences, psychology, economics and linguistics. History, law and much of the humanities stick to footnotes (\"die deutsche Zitierweise\").",
-          "Law has its own conventions: citing statutes (\"§ 823 Abs. 1 BGB\"), court decisions (\"BGH NJW 2015, 1234\") and commentaries (\"Palandt/Sprau, § 823 Rn. 5\": Rn. = Randnummer, margin number). You won't write these at the Mastery level, but you should be able to read them.",
-          "The golden rule of every German Leitfaden (style guide): consistency (\"Einheitlichkeit\"). Whatever system your department prescribes, apply it throughout. \"Sich an eine Vorgabe halten\" (to stick to a requirement) is the phrase supervisors use.",
+          "Law has its own conventions: citing statutes (\"§ 823 Abs. 1 BGB\"), court decisions (\"BGH NJW 2015, 1234\") and commentaries (\"Grüneberg/Sprau, § 823 Rn. 5\": \"Rn.\" = \"Randnummer\", margin number). You won't write these at the Mastery level, but you should be able to read them.",
+          "The golden rule of every German \"Leitfaden\" (style guide): consistency (\"Einheitlichkeit\"). Whatever system your department prescribes, apply it throughout. \"Sich an eine Vorgabe halten\" (to stick to a requirement) is the phrase supervisors use.",
         ],
         examples: [
           { es: "In der Psychologie wird überwiegend nach der Harvard-Methode zitiert.", en: "In psychology people mostly cite using the Harvard method." },
@@ -1048,14 +1049,14 @@ export const DE_C2_U17: Lesson[] = [
     slug: "c2-critical-apparatus-word-web",
     level: "DE-C2",
     number: 6,
-    title: "Word Web: Der Wissenschaftliche Apparat",
-    summary: "The vocabulary of the scholarly apparatus in context: Fußnote, Anmerkung, Quelle, Primär- and Sekundärliteratur, Literaturverzeichnis, Anhang, Herausgeber, Auflage, Sammelband, Aufsatz, Monografie.",
+    title: "Word Web: Der wissenschaftliche Apparat",
+    summary: "Talk about sources and the parts of a scholarly text: \"Quelle\", \"Primär-\" and \"Sekundärliteratur\", \"Monografie\", \"Sammelband\", \"Aufsatz\", \"Auflage\", \"Anmerkung\", \"Anhang\" and the various \"Verzeichnisse\".",
     duration: "15 min",
     sections: [
       {
         heading: "Sources: Quelle, Primärquelle, Sekundärliteratur",
         body: [
-          "\"Die Quelle\" (source, literally a spring) is anything you cite. \"Die Primärquelle\" or \"Primärliteratur\" is the original material you analyse (a novel, a letter, a law, raw data); \"die Sekundärliteratur\" is research about it. In literary studies, Goethe's \"Faust\" is Primärliteratur; a book about \"Faust\" is Sekundärliteratur.",
+          "\"Die Quelle\" (source, literally a spring) is anything you cite. \"Die Primärquelle\" or \"Primärliteratur\" is the original material you analyse (a novel, a letter, a law, raw data); \"die Sekundärliteratur\" is research about it. In literary studies, Goethe's \"Faust\" is \"Primärliteratur\"; a book about \"Faust\" is \"Sekundärliteratur\".",
           "\"Die Forschungsliteratur\" is all the research on a topic, and \"der Forschungsstand\" the state of research. \"Eine Quelle angeben\" (to cite a source), \"Quellen belegen\" (to document), \"eine zuverlässige / seriöse / fragwürdige Quelle\". The verb \"belegen\" (to prove with evidence, to document) gives \"der Beleg\" (reference, evidence) and \"der Kurzbeleg\" (short in-text citation).",
           "Note \"die Quellenangabe\" (source reference) and \"ohne Quellenangabe\", the phrase that appears in every plagiarism case.",
         ],
@@ -1090,8 +1091,8 @@ export const DE_C2_U17: Lesson[] = [
       {
         heading: "Publications: Monografie, Sammelband, Aufsatz",
         body: [
-          "\"Die Monografie\" (also spelled \"Monographie\") is a book by one author (or a team) on one subject. \"Der Sammelband\" is an edited volume with chapters by different authors, edited by \"der Herausgeber / die Herausgeberin\". \"Der Aufsatz\" (or \"der Beitrag\", \"der Artikel\") is an article in a journal (\"die Fachzeitschrift\") or a chapter in a Sammelband.",
-          "False friend: \"der Aufsatz\" at school is an essay, but in research it's an article. \"Das Essay\" (also \"der Essay\") is a literary, opinion-driven text. And \"die Dissertation\" is a doctoral thesis; a master's thesis is \"die Masterarbeit\", a bachelor's \"die Bachelorarbeit\", a term paper \"die Hausarbeit\".",
+          "\"Die Monografie\" (also spelled \"Monographie\") is a book by one author (or a team) on one subject. \"Der Sammelband\" is an edited volume with chapters by different authors, edited by \"der Herausgeber / die Herausgeberin\". \"Der Aufsatz\" (or \"der Beitrag\", \"der Artikel\") is an article in a journal (\"die Fachzeitschrift\") or a chapter in a \"Sammelband\".",
+          "False friend: \"der Aufsatz\" at school is an essay, but in research it's an article. \"Der Essay\" (also \"das Essay\") is a literary, opinion-driven text. And \"die Dissertation\" is a doctoral thesis; a master's thesis is \"die Masterarbeit\", a bachelor's \"die Bachelorarbeit\", a term paper \"die Hausarbeit\".",
           "\"Die Auflage\" (edition) and \"überarbeitet\" / \"erweitert\" (revised / expanded) describe versions; \"vergriffen\" means out of print.",
         ],
         examples: [
@@ -1117,7 +1118,7 @@ export const DE_C2_U17: Lesson[] = [
             question: "A bookseller says: \"Das Buch ist leider vergriffen.\" What does that mean?",
             options: ["It's out of print.", "It's been stolen.", "It's been reserved.", "It's been damaged."],
             correctIndex: 0,
-            explanation: "\"Vergriffen\" (from greifen: all copies have been grabbed): out of print, no longer available.",
+            explanation: "\"Vergriffen\" (from \"greifen\": all copies have been grabbed): out of print, no longer available.",
           },
           {
             type: "speak",
@@ -1216,7 +1217,7 @@ export const DE_C2_U17: Lesson[] = [
         question: "In your literature thesis you analyse letters written by Kleist. What are the letters?",
         options: ["Primärliteratur", "Sekundärliteratur", "Forschungsliteratur", "Anmerkungen"],
         correctIndex: 0,
-        explanation: "The texts you analyse are the primary sources; research about them is Sekundärliteratur.",
+        explanation: "The texts you analyse are the primary sources; research about them is \"Sekundärliteratur\".",
       },
       {
         type: "translate",
@@ -1252,13 +1253,13 @@ export const DE_C2_U17: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Zitieren und Belegen, Part 4 of 8",
-    summary: "Plagiarism and paraphrase in German academia: Plagiat, Eigenleistung, eidesstattliche Erklärung, the Guttenberg and Schavan affairs and VroniPlag, and what makes a paraphrase legitimate.",
+    summary: "Discuss plagiarism and paraphrase in German academia (\"Plagiat\", \"Eigenleistung\", \"eidesstattliche Erklärung\"), the Guttenberg and Schavan affairs and VroniPlag, and explain what makes a paraphrase legitimate.",
     duration: "18 min",
     sections: [
       {
         heading: "Plagiat and the affairs that shaped the debate",
         body: [
-          "\"Das Plagiat\" (plagiarism, or a plagiarised work) and \"plagiieren\" (to plagiarise; note the double i) became household words in Germany in 2011, when Defence Minister Karl-Theodor zu Guttenberg lost his doctorate and resigned after large parts of his Dissertation turned out to be copied without attribution. The online platform GuttenPlag documented the passages; its successor VroniPlag Wiki has examined hundreds of theses since.",
+          "\"Das Plagiat\" (plagiarism, or a plagiarised work) and \"plagiieren\" (to plagiarise; note the double i) became household words in Germany in 2011, when Defence Minister Karl-Theodor zu Guttenberg lost his doctorate and resigned after large parts of his doctoral thesis (\"Dissertation\") turned out to be copied without attribution. The online platform GuttenPlag documented the passages; its successor VroniPlag Wiki has examined hundreds of theses since.",
           "In 2013 Education Minister Annette Schavan also lost her doctorate after a plagiarism investigation and resigned. Both cases led to stricter rules and widespread use of plagiarism software (\"die Plagiatssoftware\"). Germans use the phrase \"den Doktortitel aberkennen\" (to revoke the doctorate) and \"jemandem den Titel entziehen\".",
           "Key collocations: \"ein Plagiat begehen\" (to commit), \"des Plagiats überführt werden\" (to be convicted of plagiarism, with genitive), \"Plagiatsvorwürfe erheben / zurückweisen\" (to raise / reject plagiarism allegations), \"die Plagiatsaffäre\".",
         ],
@@ -1278,7 +1279,7 @@ export const DE_C2_U17: Lesson[] = [
             source: "She firmly rejected the plagiarism allegations.",
             answer: "Sie wies die Plagiatsvorwürfe entschieden zurück.",
             altAnswers: ["Sie hat die Plagiatsvorwürfe entschieden zurückgewiesen.", "Sie wies die Plagiatsvorwürfe energisch zurück.", "Sie hat die Plagiatsvorwürfe energisch zurückgewiesen.", "Sie wies die Plagiatsvorwürfe vehement zurück."],
-            explanation: "\"Vorwürfe zurückweisen\" (strong: wies ... zurück) is the fixed collocation for rejecting allegations.",
+            explanation: "\"Vorwürfe zurückweisen\" is the fixed collocation for rejecting allegations; \"zurückweisen\" is strong: \"wies ... zurück\".",
           },
           {
             type: "fill-blank",
@@ -1446,7 +1447,7 @@ export const DE_C2_U17: Lesson[] = [
         type: "speak",
         text: "Ein bloßer Wortaustausch ist noch keine Paraphrase.",
         prompt: "Say it in German: Merely swapping words isn't yet a paraphrase.",
-        explanation: "\"Noch kein\" for not yet a; \"bloß\" with ß after the long o.",
+        explanation: "\"Noch kein\" for 'not yet a'; \"bloß\" with ß after the long o.",
       },
     ],
   },
@@ -1496,7 +1497,7 @@ export const DE_C2_U17: Lesson[] = [
         body: [
           "To repair a too-close paraphrase, change the structure, not just words: turn verbs into nouns (\"investieren\" → \"Investitionen\"), the relative clause into a conditional (\"Städte, die... \" → \"Wenn Städte...\"), or swap subject and object perspective (\"Die Zahl der Unfälle sinkt\").",
           "To repair an unattributed passage, add a reporting phrase or a footnote with \"Vgl.\": \"Wie Schulz (2022, S. 14) zeigt, ...\" or \"Schulz zufolge...\". A single reference at the end of a long paragraph is often not enough: if several sentences are paraphrased, the reader must see where the borrowing starts.",
-          "Typical citation-grammar errors in student texts: \"Zufolge Schulz\" (wrong position), \"Laut Schulz habe gezeigt\" (Konjunktiv with the wrong subject), \"Wie Schulz behauptet, ist...\" (\"wie\" + \"behaupten\" clash: endorsement and distance at once).",
+          "Typical citation-grammar errors in student texts: \"*Zufolge Schulz*\" (wrong position), \"*Laut Schulz habe gezeigt*\" (no subject: after \"laut\", \"Schulz\" cannot be the subject of \"habe\"), \"*Wie Schulz behauptet, ist...*\" (\"wie\" + \"behaupten\" clash: endorsement and distance at once).",
         ],
         examples: [
           { es: "Wie Schulz zeigt, sinkt die Zahl der Unfälle, wenn Städte gezielt in Radwege investieren.", en: "As Schulz shows, the number of accidents falls when cities invest specifically in cycle paths." },
@@ -1509,7 +1510,7 @@ export const DE_C2_U17: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct the error and translate into German. (Student wrote: Zufolge Schulz hängt der Effekt von der Infrastruktur ab.)",
+            prompt: "Correct the error and translate into German. (Student wrote: \"*Zufolge Schulz hängt der Effekt von der Infrastruktur ab.*\")",
             source: "According to Schulz, the effect depends on the infrastructure.",
             answer: "Schulz zufolge hängt der Effekt von der Infrastruktur ab.",
             altAnswers: ["Laut Schulz hängt der Effekt von der Infrastruktur ab.", "Schulz zufolge hänge der Effekt von der Infrastruktur ab.", "Laut Schulz hänge der Effekt von der Infrastruktur ab.", "Nach Schulz hängt der Effekt von der Infrastruktur ab."],
@@ -1569,7 +1570,7 @@ export const DE_C2_U17: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct the error and translate into German. (Student wrote: Wie Schulz behauptet, ist die Infrastruktur entscheidend.)",
+        prompt: "Correct the error and translate into German. (Student wrote: \"*Wie Schulz behauptet, ist die Infrastruktur entscheidend.*\")",
         source: "As Schulz shows, the infrastructure is crucial.",
         answer: "Wie Schulz zeigt, ist die Infrastruktur entscheidend.",
         altAnswers: ["Wie Schulz feststellt, ist die Infrastruktur entscheidend.", "Wie Schulz zeigt, ist die Infrastruktur ausschlaggebend.", "Wie Schulz feststellt, ist die Infrastruktur ausschlaggebend.", "Wie Schulz darlegt, ist die Infrastruktur entscheidend."],
@@ -1654,7 +1655,7 @@ export const DE_C2_U17: Lesson[] = [
 
 export const DE_C2_U17_WRITING: WriteExercise = {
   type: "write",
-  prompt: "For a seminar on urban policy, write a short section of a Hausarbeit that reports what two sources say about car-free city centres. Quote one source directly, report the other in indirect speech, use at least three different attribution formulas, mark one claim you doubt and one you accept, and add two footnotes in German style.",
+  prompt: "For a seminar on urban policy, write a short section of a term paper (\"Hausarbeit\") that reports what two sources say about car-free city centres. Quote one source directly, report the other in indirect speech, use at least three different attribution formulas, mark one claim you doubt and one you accept, and add two footnotes in German style.",
   minWords: 250,
   maxWords: 400,
   rubric: [

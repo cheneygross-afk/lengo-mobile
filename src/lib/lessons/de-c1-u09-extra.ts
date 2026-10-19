@@ -9,7 +9,7 @@ export const DE_C1_U09_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Fixed Prepositions, Part 1 of 3",
-    summary: "More practice with verbs with an and auf and the case each one takes.",
+    summary: "Practise verbs with \"an\" and \"auf\" and the case each one takes in new sentences.",
     duration: "14 min",
     sections: [
       {
@@ -71,6 +71,7 @@ export const DE_C1_U09_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "She's working on a new novel.",
         answer: "Sie arbeitet an einem neuen Roman.",
+        altAnswers: ["Sie schreibt an einem neuen Roman."],
         explanation: "\"Arbeiten an\" + dative: \"an einem neuen Roman\".",
       },
       {
@@ -85,7 +86,7 @@ export const DE_C1_U09_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Please [look after] my bag for a moment.",
+        en: "Please look [after] my bag for a moment.",
         sentence: "Pass bitte kurz ___ meine Tasche auf.",
         answer: "auf",
         explanation: "\"Aufpassen auf\" + accusative: the preposition \"auf\" plus the separable prefix \"auf\" at the end.",
@@ -172,7 +173,7 @@ export const DE_C1_U09_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Fixed Prepositions, Part 2 of 3",
-    summary: "More practice with verbs with über, um, von, vor, zu, nach, mit and für.",
+    summary: "Practise verbs with \"über\", \"um\", \"von\", \"vor\", \"zu\", \"nach\", \"mit\" and \"für\" in new sentences.",
     duration: "14 min",
     sections: [
       {
@@ -335,7 +336,7 @@ export const DE_C1_U09_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Fixed Prepositions, Part 3 of 3",
-    summary: "More practice with verbs whose meaning changes with the preposition.",
+    summary: "Practise verbs whose meaning changes with the preposition (\"bestehen\", \"sich freuen\", \"halten\", \"sorgen\", \"leiden\", \"kommen\").",
     duration: "14 min",
     sections: [
       {
@@ -496,7 +497,7 @@ export const DE_C1_U09_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Da-, Wo- and Preposition + Pronoun",
-    summary: "Choose daran, woran or an ihn for things and people.",
+    summary: "Choose \"daran\", \"woran\" or \"an ihn\" correctly for things and people in statements, questions and relative clauses.",
     duration: "14 min",
     sections: [
       {
@@ -524,7 +525,7 @@ export const DE_C1_U09_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Mia says: Ich warte auf Leon. You ask: Who are you waiting for?",
+            question: "Mia says: \"Ich warte auf Leon.\" You ask: Who are you waiting for?",
             options: ["Auf wen wartest du?", "Worauf wartest du?", "Auf wem wartest du?", "Wen wartest du?"],
             correctIndex: 0,
             explanation: "A person: preposition + \"wen\" (accusative after \"warten auf\").",
@@ -658,7 +659,7 @@ export const DE_C1_U09_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Nouns and Adjectives with Prepositions",
-    summary: "Angst vor, stolz auf, interessiert an and friends in new sentences.",
+    summary: "Practise nouns and adjectives with fixed prepositions (\"Angst vor\", \"stolz auf\", \"interessiert an\" and more) in new sentences.",
     duration: "14 min",
     sections: [
       {
@@ -820,7 +821,7 @@ export const DE_C1_U09_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Gap-Fill Text of Prepositions",
-    summary: "A full text about a flat hunt in Munich, with every preposition and case ending missing.",
+    summary: "Fill in the prepositions and case endings in Ayşe's email about her flat hunt in Munich.",
     duration: "15 min",
     sections: [
       {
@@ -832,14 +833,14 @@ export const DE_C1_U09_EXTRA: Lesson[] = [
         examples: [
           { es: "Seit Wochen suche ich nach einer Wohnung in München.", en: "I've been looking for a flat in Munich for weeks." },
           { es: "Die meisten Vermieter bestehen auf einer Schufa-Auskunft.", en: "Most landlords insist on a credit report." },
-          { es: "Ich habe mich auf über dreißig Anzeigen beworben.", en: "I've applied for over thirty adverts." },
+          { es: "Ich habe mich auf über dreißig Anzeigen beworben.", en: "I've answered over thirty adverts." },
           { es: "Langsam gewöhne ich mich daran, keine Antwort zu bekommen.", en: "I'm slowly getting used to not getting a reply." },
         ],
         checkpoint: [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "I'm [dreaming of a] balcony.",
+            en: "I'm dreaming [of a] balcony.",
             sentence: "Ich träume ___ Balkon.",
             answer: "von einem",
             explanation: "\"Träumen von\" + dative: \"von einem Balkon\".",
@@ -868,7 +869,7 @@ export const DE_C1_U09_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The flat hunt [depends on a lot of] luck here.",
+        en: "The flat hunt here depends [on a lot of] luck.",
         sentence: "Die Wohnungssuche hängt hier ___ Glück ab.",
         answer: "von viel",
         explanation: "\"Abhängen von\" + dative: \"von viel Glück\".",
@@ -910,7 +911,7 @@ export const DE_C1_U09_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "My parents are [worried about] me.",
+        en: "My parents are worried [about me].",
         sentence: "Meine Eltern machen sich Sorgen ___.",
         answer: "um mich",
         explanation: "\"Sich Sorgen machen um\" + accusative person: \"um mich\".",
@@ -944,7 +945,7 @@ export const DE_C1_U09_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I'm already [looking forward to the] viewing.",
+        en: "I'm already looking forward [to the] viewing.",
         sentence: "Ich freue mich schon ___ Besichtigung.",
         answer: "auf die",
         explanation: "Future: \"sich freuen auf\" + accusative.",
@@ -955,7 +956,7 @@ export const DE_C1_U09_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Can I count on your help with the move?",
         answer: "Kann ich beim Umzug mit deiner Hilfe rechnen?",
-        altAnswers: ["Kann ich beim Umzug auf deine Hilfe zählen?", "Kann ich mich beim Umzug auf deine Hilfe verlassen?", "Kann ich beim Umzug mit eurer Hilfe rechnen?", "Kann ich beim Umzug auf eure Hilfe zählen?"],
+        altAnswers: ["Kann ich beim Umzug auf deine Hilfe zählen?", "Kann ich mich beim Umzug auf deine Hilfe verlassen?", "Kann ich beim Umzug mit eurer Hilfe rechnen?", "Kann ich beim Umzug auf eure Hilfe zählen?", "Kann ich beim Umzug mit Ihrer Hilfe rechnen?", "Kann ich mit deiner Hilfe beim Umzug rechnen?"],
         explanation: "\"Rechnen mit\" + dative, \"zählen auf\" or \"sich verlassen auf\" + accusative.",
       },
       {

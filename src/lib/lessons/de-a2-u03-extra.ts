@@ -102,7 +102,6 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Did you arrive on time? (to a friend)",
         answer: "Bist du pünktlich angekommen?",
-        altAnswers: ["Seid ihr pünktlich angekommen?", "Sind Sie pünktlich angekommen?"],
         explanation: "\"Ankommen\" → \"bist ... angekommen\".",
       },
       {
@@ -140,7 +139,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "Which is correct for: He fell asleep at eleven.",
         options: ["Er ist um elf eingeschlafen.", "Er hat um elf eingeschlafen.", "Er ist acht Stunden geschlafen.", "Er hat um elf geeinschlafen."],
         correctIndex: 0,
         explanation: "Falling asleep: \"ist eingeschlafen\". Sleeping: \"hat geschlafen\".",
@@ -206,7 +205,6 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "Why didn't you take a taxi? (to a friend)",
             answer: "Warum hast du kein Taxi genommen?",
-            altAnswers: ["Warum habt ihr kein Taxi genommen?", "Warum haben Sie kein Taxi genommen?"],
             explanation: "\"Nehmen\" + object → \"haben\"; \"kein Taxi\".",
           },
         ],
@@ -276,22 +274,22 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[Did] the train [leave] on time?",
+        en: "[Did] the train leave on time?",
         sentence: "___ der Zug pünktlich abgefahren?",
         answer: "Ist",
-        explanation: "\"Abfahren\" = movement → \"ist\".",
+        explanation: "English did here is German \"ist\": \"abfahren\" is movement, so \"Ist der Zug ... abgefahren?\", not \"*Hat*\".",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[Did] you [buy] the tickets? (to a friend)",
+        en: "[Did] you buy the tickets? (to a friend)",
         sentence: "___ du die Fahrkarten gekauft?",
         answer: "Hast",
-        explanation: "\"Kaufen\" + object → \"hast\".",
+        explanation: "English did here is German \"hast\": \"kaufen\" has an object and no movement, so \"Hast du ... gekauft?\".",
       },
       {
         type: "multiple-choice",
-        question: "Which question is correct?",
+        question: "Which is correct for: When did you come home? (to a friend)",
         options: ["Wann bist du nach Hause gekommen?", "Wann hast du nach Hause gekommen?", "Wann du bist nach Hause gekommen?", "Wann bist du gekommen nach Hause?"],
         correctIndex: 0,
         explanation: "W-word, \"bist du\", participle last.",
@@ -403,6 +401,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I got on in Leipzig and got off in Berlin.",
         answer: "Ich bin in Leipzig eingestiegen und in Berlin ausgestiegen.",
+        altAnswers: ["Ich bin in Leipzig eingestiegen und bin in Berlin ausgestiegen."],
         explanation: "\"Einsteigen\", \"aussteigen\": movement → \"sein\", ge- in the middle.",
       },
       {
@@ -449,7 +448,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "Which is correct for: We changed trains in Hanover.",
         options: ["Wir sind in Hannover umgestiegen.", "Wir haben in Hannover umgestiegen.", "Wir sind in Hannover geumgestiegen.", "Wir sind in Hannover umgesteigt."],
         correctIndex: 0,
         explanation: "\"Sind\" + \"umgestiegen\" (strong, ge- after um).",
@@ -489,7 +488,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
     level: "DE-A2",
     optional: true,
     number: 4,
-    title: "Extra Practice: Dialogue Lab: Du Bist Zu Spät!",
+    title: "Extra Practice: Dialogue Lab: Du bist zu spät!",
     summary: "Explain why you're late: Ich habe den Bus verpasst, ich bin zu spät aufgestanden.",
     duration: "10 min",
     sections: [
@@ -521,7 +520,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "Why didn't you call? (to a friend)",
             answer: "Warum hast du nicht angerufen?",
-            altAnswers: ["Wieso hast du nicht angerufen?", "Warum habt ihr nicht angerufen?"],
+            altAnswers: ["Wieso hast du nicht angerufen?"],
             explanation: "\"Anrufen\" → \"hast ... angerufen\".",
           },
         ],
@@ -534,7 +533,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "You're late! What happened? (to a friend)",
         answer: "Du bist zu spät! Was ist passiert?",
-        altAnswers: ["Ihr seid zu spät! Was ist passiert?", "Du bist spät dran! Was ist passiert?"],
+        altAnswers: ["Du bist spät dran! Was ist passiert?", "Du kommst zu spät! Was ist passiert?"],
         explanation: "Present \"du bist\", then \"ist passiert\".",
       },
       {
@@ -543,7 +542,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I left my phone at home.",
         answer: "Ich habe mein Handy zu Hause vergessen.",
-        altAnswers: ["Ich habe mein Handy zu Hause liegen lassen."],
+        altAnswers: ["Ich habe mein Handy zu Hause liegen lassen.", "Ich habe mein Handy zuhause vergessen."],
         explanation: "Leave something behind = \"vergessen\" (forget).",
       },
       {
@@ -599,7 +598,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Mia asks: Warum bist du so spät? Which answer is correct?",
+        question: "Mia asks: Warum kommst du so spät? Which answer is correct?",
         options: ["Ich habe den Bus verpasst.", "Ich bin den Bus verpasst.", "Ich habe den Bus geverpasst.", "Ich bin den Bus verpassen."],
         correctIndex: 0,
         explanation: "\"Verpassen\" + object → \"haben\", no ge-.",
@@ -656,7 +655,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       {
         heading: "The postcard",
         body: [
-          "Emma's postcard from the Black Forest: \"Liebe Oma, wir *haben* am Montag nach Freiburg *gefahren*. Wir *sind* viel *gewandert* ✓ und ich *habe* ein Kuckucksuhr-Museum *besucht* ✓. Am Mittwoch *ich bin* auf einen Berg *gestiegen*. Leider *hat* es kalt *geworden*. Wir *haben gekocht* Spätzle.\"",
+          "Emma's postcard from the Black Forest: \"Liebe Oma, wir \"*haben*\" am Montag nach Freiburg \"*gefahren*\". Wir \"*sind*\" viel \"*gewandert*\" ✓ und ich \"*habe*\" ein Kuckucksuhr-Museum \"*besucht*\" ✓. Am Mittwoch \"*ich bin*\" auf einen Berg \"*gestiegen*\". Leider \"*hat*\" es kalt \"*geworden*\". Wir \"*haben gekocht*\" Spätzle.\"",
           "Some forms are right (✓): \"wandern\" from place to place takes \"sein\", \"besuchen\" takes \"haben\". The others need fixing: \"sind gefahren\", \"bin ich ... gestiegen\", \"ist ... geworden\", \"haben Spätzle gekocht\".",
         ],
         examples: [
@@ -670,7 +669,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Emma wrote *Wir haben am Montag nach Freiburg gefahren.* Write it correctly: We went to Freiburg on Monday.",
+            prompt: "Emma wrote \"*Wir haben am Montag nach Freiburg gefahren.*\" Write it correctly: We went to Freiburg on Monday.",
             source: "We went to Freiburg on Monday.",
             answer: "Wir sind am Montag nach Freiburg gefahren.",
             altAnswers: ["Am Montag sind wir nach Freiburg gefahren."],
@@ -679,7 +678,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Emma wrote *Leider hat es kalt geworden.* Write it correctly: Unfortunately it got cold.",
+            prompt: "Emma wrote \"*Leider hat es kalt geworden.*\" Write it correctly: Unfortunately it got cold.",
             source: "Unfortunately it got cold.",
             answer: "Leider ist es kalt geworden.",
             explanation: "\"Werden\" (change) → \"ist geworden\".",
@@ -691,7 +690,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Emma wrote *Am Mittwoch ich bin auf einen Berg gestiegen.* Write it correctly: On Wednesday I climbed a mountain.",
+        prompt: "Emma wrote \"*Am Mittwoch ich bin auf einen Berg gestiegen.*\" Write it correctly: On Wednesday I climbed a mountain.",
         source: "On Wednesday I climbed a mountain.",
         answer: "Am Mittwoch bin ich auf einen Berg gestiegen.",
         altAnswers: ["Ich bin am Mittwoch auf einen Berg gestiegen."],
@@ -700,7 +699,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Emma wrote *Wir haben gekocht Spätzle.* Write it correctly: We cooked Spätzle.",
+        prompt: "Emma wrote \"*Wir haben gekocht Spätzle.*\" Write it correctly: We cooked Spätzle.",
         source: "We cooked Spätzle.",
         answer: "Wir haben Spätzle gekocht.",
         explanation: "The participle goes last.",
@@ -716,7 +715,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Ich habe im Hotel geblieben.* Write it correctly: I stayed in the hotel.",
+        prompt: "A learner wrote \"*Ich habe im Hotel geblieben.*\" Write it correctly: I stayed in the hotel.",
         source: "I stayed in the hotel.",
         answer: "Ich bin im Hotel geblieben.",
         explanation: "\"Bleiben\" → \"sein\".",
@@ -724,7 +723,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Mein Mann ist ein Auto gemietet.* Write it correctly: My husband rented a car.",
+        prompt: "A learner wrote \"*Mein Mann ist ein Auto gemietet.*\" Write it correctly: My husband rented a car.",
         source: "My husband rented a car.",
         answer: "Mein Mann hat ein Auto gemietet.",
         explanation: "\"Mieten\" + object → \"haben\".",
@@ -732,7 +731,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Wir sind geankommen um sieben.* Write it correctly: We arrived at seven.",
+        prompt: "A learner wrote \"*Wir sind geankommen um sieben.*\" Write it correctly: We arrived at seven.",
         source: "We arrived at seven.",
         answer: "Wir sind um sieben angekommen.",
         altAnswers: ["Um sieben sind wir angekommen.", "Wir sind um sieben Uhr angekommen."],
@@ -741,10 +740,10 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Die Kinder haben im See geschwommen und sind Eis gegessen.* Write it correctly: The children swam in the lake and ate ice cream.",
+        prompt: "A learner wrote \"*Die Kinder sind im See geschwommen und Eis gegessen.*\" Write it correctly: The children swam in the lake and ate ice cream.",
         source: "The children swam in the lake and ate ice cream.",
         answer: "Die Kinder sind im See geschwommen und haben Eis gegessen.",
-        explanation: "Swimming → \"sind\"; eating → \"haben\".",
+        explanation: "Swimming → \"sind\", but eating takes \"haben\", so the second verb needs its own helper: \"und haben Eis gegessen\". One helper can only be shared when both verbs take the same one.",
       },
       {
         type: "fill-blank",
@@ -764,7 +763,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which postcard line is correct?",
+        question: "Which postcard line is correct for: We came back on Friday.",
         options: ["Wir sind am Freitag zurückgefahren.", "Wir haben am Freitag zurückgefahren.", "Wir sind am Freitag gezurückfahren.", "Wir sind zurückgefahren am Freitag."],
         correctIndex: 0,
         explanation: "\"Sind\" + \"zurückgefahren\" at the end.",
@@ -850,12 +849,12 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "They phoned.", answer: "Sie haben telefoniert.", altAnswers: ["Sie haben angerufen."], explanation: "No movement → \"haben\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I stayed.", answer: "Ich bin geblieben.", explanation: "\"Bleiben\" → \"sein\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I've been there.", answer: "Ich bin dort gewesen.", altAnswers: ["Ich bin da gewesen.", "Ich war dort.", "Ich war da."], explanation: "\"Sein\" → \"bin gewesen\" (or \"war\")." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "You danced. (to a friend)", answer: "Du hast getanzt.", altAnswers: ["Ihr habt getanzt.", "Sie haben getanzt."], explanation: "On the spot → \"haben\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "You got up. (to a friend)", answer: "Du bist aufgestanden.", altAnswers: ["Ihr seid aufgestanden.", "Sie sind aufgestanden."], explanation: "Change → \"sein\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "You danced. (to a friend)", answer: "Du hast getanzt.", explanation: "On the spot → \"haben\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "You got up. (to a friend)", answer: "Du bist aufgestanden.", explanation: "Change → \"sein\"." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "What [happened]?", sentence: "Was ___ passiert?", answer: "ist", explanation: "\"Passieren\" → \"sein\"." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "It [got] late.", sentence: "Es ___ spät geworden.", answer: "ist", explanation: "\"Werden\" → \"sein\"." },
       { type: "listen-choose", audio: "Er ist eingeschlafen.", question: "What does it mean?", options: ["He fell asleep.", "He slept.", "He's sleeping.", "He woke up."], correctIndex: 0, explanation: "\"Eingeschlafen\" with \"ist\": fell asleep." },
-      { type: "speak", text: "Ich bin gekommen, ich habe gesehen, ich habe gewonnen.", prompt: "Say it in German: I came, I saw, I won.", explanation: "Caesar in the Perfekt: \"kommen\" takes \"sein\", \"sehen\" and \"gewinnen\" take \"haben\"." },
+      { type: "speak", text: "Ich bin gekommen, ich habe gesehen, ich habe gewonnen.", prompt: "Say it in German: I came, I saw, I won.", explanation: "Caesar in the Perfekt: \"kommen\" takes \"sein\", \"sehen\" and \"gewinnen\" take \"haben\". (The famous German version is in the Präteritum: \"Ich kam, ich sah, ich siegte\".)" },
     ],
   },
   {
@@ -986,7 +985,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which completes: Leider ___ Leon seine Sonnenbrille verloren.",
+        question: "Unfortunately Leon lost his sunglasses. Which completes: Leider ___ Leon seine Sonnenbrille verloren.",
         options: ["hat", "ist", "haben", "sind"],
         correctIndex: 0,
         explanation: "\"Verlieren\" with an object → \"hat\".",
@@ -1091,7 +1090,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Once our car broke down.",
         answer: "Einmal ist unser Auto kaputtgegangen.",
-        altAnswers: ["Einmal ist unser Auto kaputt gegangen."],
+        altAnswers: ["Unser Auto ist einmal kaputtgegangen."],
         explanation: "\"Kaputtgehen\" (break down) → \"ist kaputtgegangen\": a change of state.",
       },
       {
@@ -1176,7 +1175,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
     level: "DE-A2",
     optional: true,
     number: 9,
-    title: "Extra Practice: Pattern Practice: Wir Sind Angekommen, Ihr Seid Abgefahren",
+    title: "Extra Practice: Pattern Practice: Wir sind angekommen, ihr seid abgefahren",
     summary: "Separable verbs with sein through every person.",
     duration: "9 min",
     sections: [
@@ -1207,7 +1206,7 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "You left too early. (to a friend)",
             answer: "Du bist zu früh abgefahren.",
-            altAnswers: ["Du bist zu früh gegangen.", "Ihr seid zu früh abgefahren.", "Sie sind zu früh abgefahren."],
+            altAnswers: ["Du bist zu früh gegangen."],
             explanation: "\"Abfahren\" → \"bist abgefahren\".",
           },
         ],
@@ -1219,12 +1218,12 @@ export const DE_A2_U03_EXTRA: Lesson[] = [
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "He got up.", answer: "Er ist aufgestanden.", explanation: "\"Ist aufgestanden\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "They moved to Berlin.", answer: "Sie sind nach Berlin umgezogen.", altAnswers: ["Sie sind nach Berlin gezogen."], explanation: "\"Sind umgezogen\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "I got off.", answer: "Ich bin ausgestiegen.", explanation: "\"Bin ausgestiegen\"." },
-      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Did you come back yesterday? (to a friend)", answer: "Bist du gestern zurückgekommen?", altAnswers: ["Seid ihr gestern zurückgekommen?", "Sind Sie gestern zurückgekommen?"], explanation: "\"Bist ... zurückgekommen\"." },
+      { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "Did you come back yesterday? (to a friend)", answer: "Bist du gestern zurückgekommen?", explanation: "\"Bist ... zurückgekommen\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "We got on in Hamburg.", answer: "Wir sind in Hamburg eingestiegen.", explanation: "\"Sind eingestiegen\"." },
       { type: "translate", direction: "en-es", prompt: "Translate into German.", source: "The guests arrived late.", answer: "Die Gäste sind spät angekommen.", altAnswers: ["Die Gäste sind spät gekommen."], explanation: "Plural subject → \"sind\"." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "[You got up] early. (to friends)", sentence: "___ früh aufgestanden.", answer: "Ihr seid", explanation: "\"Ihr seid\"." },
       { type: "fill-blank", prompt: "Write the German for the bold words.", en: "My parents [moved] last year.", sentence: "Meine Eltern sind letztes Jahr ___.", answer: "umgezogen", explanation: "\"Umziehen\" → \"umgezogen\"." },
-      { type: "multiple-choice", question: "Which completes: Du ___ in Frankfurt umgestiegen.", options: ["bist", "hast", "ist", "seid"], correctIndex: 0, explanation: "\"Du bist\"; changing trains is movement." },
+      { type: "multiple-choice", question: "You changed trains in Frankfurt. Which completes: Du ___ in Frankfurt umgestiegen.", options: ["bist", "hast", "ist", "seid"], correctIndex: 0, explanation: "\"Du bist\"; changing trains is movement." },
       { type: "word-order", prompt: "Put the words in order to say: When did you arrive? (polite)", words: ["Wann", "sind", "Sie", "angekommen?"], translation: "When did you arrive?", explanation: "W-word, \"sind Sie\", participle." },
       { type: "listen-choose", audio: "Ihr seid am Hauptbahnhof eingestiegen.", question: "Who got on at the main station?", options: ["You (several friends)", "They", "We", "She"], correctIndex: 0, explanation: "\"Ihr seid\" = you all." },
       { type: "speak", text: "Ich bin angekommen, du bist angekommen, wir sind angekommen.", prompt: "Say the chain: I arrived, you arrived, we arrived.", explanation: "Only \"sein\" changes." },

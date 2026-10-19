@@ -8,7 +8,7 @@ export const DE_B1_U20: Lesson[] = [
     level: "DE-B1",
     number: 1,
     title: "Adjectives as Nouns: Der Deutsche, Ein Deutscher",
-    summary: "People-words that are really adjectives with a capital letter and adjective endings: der Deutsche, ein Deutscher, die Angestellten, meine Bekannte, ein Verwandter.",
+    summary: "Use people-words that are really adjectives with a capital letter and adjective endings: \"der Deutsche\", \"ein Deutscher\", \"die Angestellten\", \"meine Bekannte\", \"ein Verwandter\".",
     duration: "15 min",
     sections: [
       {
@@ -49,7 +49,7 @@ export const DE_B1_U20: Lesson[] = [
         body: [
           "The endings follow the three patterns you know. After \"der\": \"der Deutsche\", \"den Deutschen\", \"dem Deutschen\", \"die Deutschen\". After \"ein\": \"ein Deutscher\" (masc. nom., -er!), \"einen Deutschen\", \"einem Deutschen\". No article: \"Deutsche\" (plural), \"mit Deutschen\".",
           "Feminine: \"die Deutsche\" / \"eine Deutsche\" (one German woman), dative \"der / einer Deutschen\". So \"die Deutsche\" is one woman, \"die Deutschen\" are the Germans (plural). \"Ich bin Deutscher\" is said by a man, \"Ich bin Deutsche\" by a woman (no article before nationality after \"sein\").",
-          "Traps: *ein Deutsche* (a man) must be \"ein Deutscher\"; *die Bekannte* for plural acquaintances must be \"die Bekannten\"; *viele Deutschen* must be \"viele Deutsche\".",
+          "Traps: \"*ein Deutsche*\" (a man) must be \"ein Deutscher\"; \"*die Bekannte*\" for plural acquaintances must be \"die Bekannten\"; \"*viele Deutschen*\" must be \"viele Deutsche\".",
         ],
         examples: [
           { es: "Er ist Deutscher, sie ist Österreicherin.", en: "He's German, she's Austrian." },
@@ -89,7 +89,7 @@ export const DE_B1_U20: Lesson[] = [
       {
         heading: "Bekannte, Verwandte, Angestellte in all cases",
         body: [
-          "The same system for other people-words: \"mein Bekannter\" (a male acquaintance, after \"mein\" = -er), \"meine Bekannte\" (female), \"meine Bekannten\" (plural); \"mit meinem Bekannten\"; \"ein Verwandter von mir\"; \"unsere Angestellten\"; \"Angestellte bekommen ein Weihnachtsgeld\".",
+          "The same system for other people-words: \"mein Bekannter\" (a male acquaintance, after \"mein\" = -er), \"meine Bekannte\" (female), \"meine Bekannten\" (plural); \"mit meinem Bekannten\"; \"ein Verwandter von mir\"; \"unsere Angestellten\"; \"Angestellte bekommen Weihnachtsgeld\".",
           "\"Ein Bekannter von mir\" is a very common way to introduce someone you know but who isn't a close friend: German distinguishes \"ein Freund\" (a close friend) from \"ein Bekannter\" more than English does.",
           "Some nouns made from participles also belong here: \"der / die Vorsitzende\" (chair), \"der / die Auszubildende\" (trainee, short \"Azubi\"), \"der / die Vorgesetzte\" (superior, boss), \"der / die Studierende\" (student).",
         ],
@@ -222,14 +222,14 @@ export const DE_B1_U20: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Das Gute, Etwas Neues, Nichts Besonderes",
-    summary: "Neuter nominalisations for ideas: das Gute, das Wichtigste ist..., etwas Neues, nichts Besonderes, viel Gutes, alles Gute.",
+    summary: "Talk about ideas with neuter adjective-nouns: \"das Gute\", \"das Wichtigste ist...\", \"etwas Neues\", \"nichts Besonderes\", \"viel Gutes\", \"alles Gute\".",
     duration: "14 min",
     sections: [
       {
         heading: "Das Gute, das Wichtigste: neuter for ideas",
         body: [
           "A neuter adjective-noun stands for a thing or an idea: \"das Gute\" (the good thing, what's good), \"das Schöne daran\" (the nice thing about it), \"das Neue\" (what's new), \"das Wichtigste\" (the most important thing). English often needs thing or what's: \"Das Wichtigste ist, dass du gesund bist\" = The most important thing is that you're healthy.",
-          "They take normal neuter endings: \"das Gute\", \"im Allgemeinen\" (in general), \"nach dem Essen\" isn't one (that's a verb), but \"vom Besten\" and \"zum Schluss das Beste\" are.",
+          "They take normal neuter endings in every case: \"das Gute\", \"vom Besten\", \"im Allgemeinen\" (in general). Don't confuse them with nouns made from verbs, like \"das Essen\" (from \"essen\"), which have no adjective endings.",
           "Superlatives are especially common: \"das Beste\", \"das Schlimmste\" (the worst thing), \"das Einzige\" (the only thing), \"das Letzte\" (the last thing). After them a relative clause uses \"was\": \"Das Beste, was mir passiert ist\".",
         ],
         examples: [
@@ -264,7 +264,7 @@ export const DE_B1_U20: Lesson[] = [
         body: [
           "After \"etwas\" (something), \"nichts\" (nothing), \"viel\" (much), \"wenig\" (little) and \"genug\", the adjective becomes a capitalised neuter noun with the strong ending -es: \"etwas Neues\" (something new), \"nichts Besonderes\" (nothing special), \"viel Gutes\" (a lot of good), \"wenig Neues\".",
           "In the dative it's -em: \"mit etwas Neuem\", \"von nichts Gutem\". After \"alles\" (everything) the ending is weak -e: \"alles Gute\" (all the best), \"alles Neue\", \"Alles Liebe\" (love, at the end of a letter).",
-          "The classic error is lowercase: *etwas neues*. Write \"etwas Neues\". Exception: \"andere\" can stay lowercase: \"etwas anderes\" (something else), although \"etwas Anderes\" is also allowed.",
+          "The classic error is lowercase: \"*etwas neues*\". Write \"etwas Neues\". Exception: \"andere\" can stay lowercase: \"etwas anderes\" (something else), although \"etwas Anderes\" is also allowed.",
         ],
         examples: [
           { es: "Gibt es etwas Neues?", en: "Is there any news? / Anything new?" },
@@ -308,7 +308,7 @@ export const DE_B1_U20: Lesson[] = [
         prompt: "Translate into German.",
         source: "Is there any news?",
         answer: "Gibt es etwas Neues?",
-        altAnswers: ["Gibt's was Neues?", "Gibt es was Neues?"],
+        altAnswers: ["Gibt's was Neues?", "Gibt es was Neues?", "Gibt es Neuigkeiten?"],
         explanation: "\"Etwas Neues\": something new; colloquially \"was Neues\".",
       },
       {
@@ -405,7 +405,7 @@ export const DE_B1_U20: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Contrast Clinic: Der Deutsche / Ein Deutscher",
-    summary: "The same people-word after der, ein and no article in all cases: mein Bekannter / meine Bekannte / meine Bekannten; mit einem Bekannten.",
+    summary: "Get the same people-word right after \"der\", \"ein\" and no article in every case: \"mein Bekannter\" / \"meine Bekannte\" / \"meine Bekannten\", \"mit einem Bekannten\".",
     duration: "13 min",
     sections: [
       {
@@ -429,7 +429,7 @@ export const DE_B1_U20: Lesson[] = [
             sentence: "___ hat mir den Arzt empfohlen.",
             answer: "Ein Bekannter",
             altAnswers: ["Eine Bekannte"],
-            explanation: "Masculine nominative after \"ein\": -er.",
+            explanation: "Masculine nominative after \"ein\": -er (for a woman: \"Eine Bekannte\").",
           },
           {
             type: "translate",
@@ -545,14 +545,14 @@ export const DE_B1_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which means: my (female) acquaintance?",
-        options: ["meine Bekannte", "meine Bekannten", "mein Bekannter", "meinen Bekannten"],
+        question: "You're talking about one woman you know: \"___ kommt morgen zu Besuch.\" Which fits?",
+        options: ["Meine Bekannte", "Meine Bekannten", "Mein Bekannter", "Meinen Bekannten"],
         correctIndex: 0,
-        explanation: "\"Meine Bekannte\": feminine singular.",
+        explanation: "\"Meine Bekannte\": feminine singular. \"Meine Bekannten\" would be several people (and need \"kommen\"), \"mein Bekannter\" a man.",
       },
       {
         type: "multiple-choice",
-        question: "Which means: a German (man, nominative)?",
+        question: "You're introducing a man: \"Das ist ___ aus Hamburg.\" Which fits?",
         options: ["ein Deutscher", "ein Deutsche", "ein Deutschen", "einer Deutsche"],
         correctIndex: 0,
         explanation: "After \"ein\" in the masculine nominative: -er.",
@@ -585,18 +585,18 @@ export const DE_B1_U20: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Participles as Adjectives",
-    summary: "Partizip II for a finished action (das gekochte Ei) and Partizip I for an ongoing one (der wartende Kunde), both with normal adjective endings.",
+    summary: "Use the Partizip II for a finished action (\"das gekochte Ei\") and the Partizip I for an ongoing one (\"der wartende Kunde\"), both with normal adjective endings.",
     duration: "14 min",
     sections: [
       {
         heading: "Partizip II: something already done",
         body: [
           "You already know the Partizip II from the Perfekt: \"gekocht\", \"geschlossen\", \"gebraucht\". Put it before a noun and it works like any adjective, with the same endings: \"das gekochte Ei\" (the boiled egg), \"die geschlossene Tür\" (the closed door), \"gebrauchte Möbel\" (used furniture).",
-          "The meaning is passive and finished: the egg has been boiled, the door has been closed. Think of it as a short relative clause: \"das Ei, das gekocht wurde\" becomes \"das gekochte Ei\".",
+          "The meaning is passive and finished: the egg has been boiled, the door has been closed. Think of it as a short relative clause: \"das Ei, das gekocht wurde\" becomes \"das gekochte Ei\". With verbs that take \"sein\" it is simply finished, not passive: \"die gestiegenen Preise\" (prices that have gone up).",
         ],
         examples: [
           { es: "Ich esse morgens ein gekochtes Ei.", en: "I eat a boiled egg in the morning." },
-          { es: "Die Tür war geschlossen. Vor der geschlossenen Tür stand ein Paket.", en: "The door was closed. A parcel was standing in front of the closed door." },
+          { es: "Die Tür war geschlossen. Vor der geschlossenen Tür stand ein Paket.", en: "The door was closed. There was a parcel in front of the closed door." },
           { es: "Wir haben gebrauchte Möbel gekauft.", en: "We bought used furniture." },
           { es: "Das reparierte Fahrrad steht im Keller.", en: "The repaired bike is in the cellar." },
           { es: "Bitte schicken Sie uns das ausgefüllte Formular.", en: "Please send us the completed form." },
@@ -700,7 +700,7 @@ export const DE_B1_U20: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "A parcel was standing in front of [the closed door].",
+        en: "There was a parcel in front of [the closed door].",
         sentence: "Vor ___ stand ein Paket.",
         answer: "der geschlossenen Tür",
         explanation: "Dative after \"vor\" (where?), feminine after \"der\": -en.",
@@ -761,7 +761,7 @@ export const DE_B1_U20: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Themed Review: Die offene Rechnung",
-    summary: "A small business chases an unpaid invoice: die gesendete Mahnung, der zuständige Angestellte, polite Konjunktiv II and the passive.",
+    summary: "Chase an unpaid invoice politely, with participles and adjective-nouns (\"die gesendete Mahnung\", \"der zuständige Angestellte\"), Konjunktiv II and the passive.",
     duration: "15 min",
     sections: [
       {
@@ -933,13 +933,13 @@ export const DE_B1_U20: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Circuit: Job Ads",
-    summary: "Rotate the language of German job ads: engagierte/n Mitarbeiter/in, Auszubildende, Angestellte, abgeschlossene Ausbildung, (m/w/d).",
+    summary: "Read and write the language of German job ads: \"eine/n engagierte/n Mitarbeiter/in\", \"Auszubildende\", \"Angestellte\", \"abgeschlossene Ausbildung\", (m/w/d).",
     duration: "13 min",
     sections: [
       {
         heading: "Wir suchen...",
         body: [
-          "German job ads (\"Stellenanzeigen\") have a fixed style. They often start with \"Wir suchen\" + accusative: \"Wir suchen eine engagierte Mitarbeiterin / einen engagierten Mitarbeiter\". To include everyone they write \"eine/n engagierte/n Mitarbeiter/in (m/w/d)\": männlich, weiblich, divers.",
+          "German job ads (\"Stellenanzeigen\") have a fixed style. They often start with \"Wir suchen\" + accusative: \"Wir suchen eine engagierte Mitarbeiterin / einen engagierten Mitarbeiter\". To include everyone they write \"eine/n engagierte/n Mitarbeiter/in (m/w/d)\": \"männlich, weiblich, divers\" (male, female, diverse).",
           "Adjective-nouns are everywhere here: \"Auszubildende\" (trainees, short \"Azubis\"), \"Angestellte\" (employees), \"Interessierte\" (interested people). They avoid choosing between a male and a female form in the plural.",
         ],
         examples: [
@@ -1067,7 +1067,7 @@ export const DE_B1_U20: Lesson[] = [
         question: "What does (m/w/d) in a job ad mean?",
         options: ["The job is open to men, women and non-binary people.", "The job is part-time.", "The job is only for women.", "The job starts Monday, Wednesday or Thursday."],
         correctIndex: 0,
-        explanation: "männlich / weiblich / divers.",
+        explanation: "\"Männlich / weiblich / divers\": male, female, diverse (non-binary).",
       },
       {
         type: "word-order",
@@ -1103,7 +1103,7 @@ export const DE_B1_U20: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Talk About You: Friends and Relatives",
-    summary: "Talk about the people around you: ein Bekannter von mir, meine Verwandten in..., die Kleinen, ein guter Freund.",
+    summary: "Talk about the people around you: \"ein Bekannter von mir\", \"meine Verwandten in...\", \"die Kleinen\", \"ein guter Freund\".",
     duration: "12 min",
     sections: [
       {
@@ -1273,7 +1273,7 @@ export const DE_B1_U20: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Fill the Story: The Annual Report",
-    summary: "A company report in gaps: die Angestellten, die gestiegenen Kosten, das Erreichte, etwas Neues and the Präteritum passive.",
+    summary: "Complete a company report with adjective-nouns and participles (\"die Angestellten\", \"die gestiegenen Kosten\", \"das Erreichte\", \"etwas Neues\") and the Präteritum passive.",
     duration: "14 min",
     sections: [
       {
@@ -1320,7 +1320,7 @@ export const DE_B1_U20: Lesson[] = [
           { es: "Allen Angestellten danken wir für ihre Arbeit.", en: "We thank all employees for their work." },
           { es: "Im nächsten Jahr planen wir etwas Neues.", en: "Next year we're planning something new." },
           { es: "Das Wichtigste ist die Qualität.", en: "The most important thing is quality." },
-          { es: "Der Umsatz wurde um fünf Prozent gesteigert.", en: "Turnover was increased by five percent." },
+          { es: "Der Umsatz wurde um fünf Prozent gesteigert.", en: "Turnover was increased by five per cent." },
         ],
         checkpoint: [
           {
@@ -1411,16 +1411,16 @@ export const DE_B1_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which completes it? Die ___ Kosten waren ein Problem. (costs that have gone up)",
+        question: "Which completes it? \"Die ___ Kosten waren ein Problem.\" (costs that have gone up)",
         options: ["gestiegenen", "steigenden", "gestiegene", "steigende"],
         correctIndex: 0,
         explanation: "Finished: Partizip II; plural after \"die\": -en.",
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: Turnover was increased by five percent.",
+        prompt: "Put the words in order to say: Turnover was increased by five per cent.",
         words: ["Der", "Umsatz", "wurde", "um", "fünf", "Prozent", "gesteigert."],
-        translation: "Turnover was increased by five percent.",
+        translation: "Turnover was increased by five per cent.",
         explanation: "\"Wurde\" second, participle last.",
       },
       {
@@ -1450,7 +1450,7 @@ export const DE_B1_U20: Lesson[] = [
     level: "DE-B1",
     number: 9,
     title: "Themed Review: Culture Shock",
-    summary: "What surprised a newcomer to Germany: das Merkwürdigste war..., die Deutschen, nichts Besonderes, plus adjective endings.",
+    summary: "Say what surprised you as a newcomer to Germany: \"das Merkwürdigste war...\", \"die Deutschen\", \"nichts Besonderes\", plus adjective endings.",
     duration: "15 min",
     sections: [
       {

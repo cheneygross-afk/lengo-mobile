@@ -9,14 +9,14 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Medical German, the Technical Term and the Everyday Word, Part 1 of 3",
-    summary: "Move between Latin-Greek terms and German everyday words in both directions: Hypertonie and Bluthochdruck, Apoplex and Schlaganfall, Fraktur and Bruch.",
+    summary: "Move between Latin-Greek terms and German everyday words in both directions: \"Hypertonie\" and \"Bluthochdruck\", \"Apoplex\" and \"Schlaganfall\", \"Fraktur\" and \"Bruch\".",
     duration: "15 min",
     sections: [
       {
         heading: "Recap: two vocabularies for one body",
         body: [
           "German medicine runs on two parallel vocabularies. Doctors write \"Hypertonie\", \"Myokardinfarkt\", \"Apoplex\", \"Fraktur\", \"Zephalgie\"; patients say \"Bluthochdruck\", \"Herzinfarkt\", \"Schlaganfall\", \"Bruch\", \"Kopfschmerzen\". A Mastery-level speaker switches without hesitation, depending on the listener.",
-          "German everyday terms are often transparent compounds: \"Magenschleimhautentzündung\" (stomach + lining + inflammation) for Gastritis, \"Gehirnerschütterung\" (brain + shaking) for Commotio cerebri, \"Zuckerkrankheit\" for Diabetes. The last element gives the gender: \"die Entzündung\", \"die Erschütterung\", \"die Krankheit\".",
+          "German everyday terms are often transparent compounds: \"Magenschleimhautentzündung\" (stomach + lining + inflammation) for \"Gastritis\", \"Gehirnerschütterung\" (brain + shaking) for \"Commotio cerebri\", \"Zuckerkrankheit\" for \"Diabetes\". The last element gives the gender: \"die Entzündung\", \"die Erschütterung\", \"die Krankheit\".",
         ],
         examples: [
           { es: "Hypertonie ist der Fachbegriff für Bluthochdruck.", en: "Hypertension is the technical term for high blood pressure." },
@@ -57,7 +57,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
         source: "My father had a stroke last year.",
         answer: "Mein Vater hatte letztes Jahr einen Schlaganfall.",
         altAnswers: ["Mein Vater hat letztes Jahr einen Schlaganfall gehabt.", "Mein Vater hatte im letzten Jahr einen Schlaganfall.", "Mein Vater hatte voriges Jahr einen Schlaganfall.", "Letztes Jahr hatte mein Vater einen Schlaganfall."],
-        explanation: "\"Der Schlaganfall\" is the everyday word for Apoplex or Insult.",
+        explanation: "\"Der Schlaganfall\" is the everyday word for \"Apoplex\" or \"Insult\".",
       },
       {
         type: "translate",
@@ -101,15 +101,15 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
         source: "The child has a rash on its back.",
         answer: "Das Kind hat einen Ausschlag am Rücken.",
         altAnswers: ["Das Kind hat Ausschlag am Rücken.", "Das Kind hat einen Ausschlag auf dem Rücken.", "Das Kind hat am Rücken einen Ausschlag."],
-        explanation: "\"Der Ausschlag\" is the everyday word for Exanthem.",
+        explanation: "\"Der Ausschlag\" is the everyday word for \"Exanthem\".",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[Diabetes] is called sugar disease in everyday language.",
-        sentence: "___ heißt umgangssprachlich Zuckerkrankheit.",
-        answer: "Diabetes",
-        altAnswers: ["Diabetes mellitus"],
+        en: "Diabetes is called [sugar disease] in everyday language.",
+        sentence: "Diabetes heißt umgangssprachlich ___.",
+        answer: "Zuckerkrankheit",
+        altAnswers: ["Zucker"],
         explanation: "\"Der Diabetes\" (masculine); colloquially \"Zucker haben\" = to have diabetes.",
       },
       {
@@ -133,6 +133,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: I have had a headache since this morning.",
         words: ["Ich", "habe", "seit", "heute", "Morgen", "Kopfschmerzen."],
         translation: "I have had a headache since this morning.",
+        altOrders: [["Seit", "heute", "Morgen", "habe", "ich", "Kopfschmerzen."]],
         explanation: "\"Seit\" + present tense; \"Kopfschmerzen\" is usually plural.",
       },
       {
@@ -175,7 +176,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Medical German, the Arztbrief, Part 2 of 3",
-    summary: "Expand abbreviations and nominal phrases from discharge letters into full German sentences: Z. n., V. a., o. B., Es erfolgte ..., Entlassung in stabilem Zustand.",
+    summary: "Expand abbreviations and nominal phrases from discharge letters (\"Z. n.\", \"V. a.\", \"o. B.\", \"Es erfolgte ...\", \"Entlassung in stabilem Zustand\") into full German sentences.",
     duration: "16 min",
     sections: [
       {
@@ -195,7 +196,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Expand into a full German sentence: V. a. Pneumonie. Meaning: there is a suspicion of pneumonia.",
+            prompt: "Expand \"V. a. Pneumonie\" into a full German sentence.",
             source: "There is a suspicion of pneumonia.",
             answer: "Es besteht der Verdacht auf eine Pneumonie.",
             altAnswers: ["Es besteht der Verdacht auf eine Lungenentzündung.", "Es besteht Verdacht auf eine Pneumonie.", "Es besteht Verdacht auf eine Lungenentzündung.", "Es wird eine Lungenentzündung vermutet."],
@@ -203,10 +204,10 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does Abdomen o. B. mean?",
+            question: "What does \"Abdomen o. B.\" mean?",
             options: ["The abdomen shows no abnormal findings.", "The abdomen was not examined.", "The abdomen is swollen.", "The abdomen needs an operation."],
             correctIndex: 0,
-            explanation: "\"O. B.\" = ohne Befund: nothing abnormal found.",
+            explanation: "\"o. B.\" = \"ohne Befund\": nothing abnormal found.",
           },
         ],
       },
@@ -215,7 +216,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into report-style German with Es erfolgte.",
+        prompt: "Translate into report-style German with \"Es erfolgte\".",
         source: "An ultrasound examination was carried out.",
         answer: "Es erfolgte eine Sonographie.",
         altAnswers: ["Es erfolgte eine Ultraschalluntersuchung.", "Es wurde eine Sonographie durchgeführt.", "Es wurde eine Ultraschalluntersuchung durchgeführt.", "Es erfolgte eine Sonografie.", "Es wurde eine Sonografie durchgeführt."],
@@ -228,7 +229,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
         source: "An ultrasound of the abdomen was done.",
         answer: "Der Bauch wurde mit Ultraschall untersucht.",
         altAnswers: ["Man hat den Bauch mit Ultraschall untersucht.", "Der Bauch wurde per Ultraschall untersucht.", "Es wurde ein Ultraschall vom Bauch gemacht.", "Man hat einen Ultraschall vom Bauch gemacht."],
-        explanation: "Plain German: \"Bauch\" instead of Abdomen, a verb instead of a nominal phrase.",
+        explanation: "Plain German: \"Bauch\" instead of \"Abdomen\", a verb instead of a nominal phrase.",
       },
       {
         type: "translate",
@@ -246,12 +247,12 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
         sentence: "___ Appendektomie 2015.",
         answer: "Zustand nach",
         altAnswers: ["Z. n.", "Z.n."],
-        explanation: "\"Z. n.\" = Zustand nach: something in the past history.",
+        explanation: "\"Z. n.\" = \"Zustand nach\": something in the past history.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Expand into a plain German sentence: Z. n. Appendektomie 2015.",
+        prompt: "Expand \"Z. n. Appendektomie 2015\" into a plain German sentence.",
         source: "He had his appendix removed in 2015.",
         answer: "Ihm wurde 2015 der Blinddarm entfernt.",
         altAnswers: ["Er hatte 2015 eine Blinddarmoperation.", "Er wurde 2015 am Blinddarm operiert.", "2015 wurde ihm der Blinddarm entfernt.", "Er hat sich 2015 den Blinddarm entfernen lassen."],
@@ -311,7 +312,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is the plain-German version of Es erfolgte eine Gabe von Paracetamol?",
+        question: "Which sentence is the plain-German version of \"Es erfolgte eine Gabe von Paracetamol\"?",
         options: ["Er hat Paracetamol bekommen.", "Paracetamol wurde abgesetzt.", "Paracetamol ist nicht erlaubt.", "Er soll Paracetamol kaufen."],
         correctIndex: 0,
         explanation: "\"Gabe\" (giving) unpacks to \"bekommen\" or \"verabreicht\".",
@@ -327,7 +328,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Im Brief steht V. a. Pneumonie, das heißt, man vermutet eine Lungenentzündung.",
-        prompt: "Say it in German: The letter says V. a. Pneumonie, which means they suspect pneumonia.",
+        prompt: "Say it in German: The letter says \"V. a. Pneumonie\", which means they suspect pneumonia.",
         explanation: "Quote the abbreviation, then explain it with \"das heißt\".",
       },
     ],
@@ -391,7 +392,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
         source: "Infections are rare but possible.",
         answer: "Infektionen sind selten, aber möglich.",
         altAnswers: ["Infektionen sind selten, aber sie sind möglich.", "Infektionen kommen selten vor, sind aber möglich.", "Infektionen treten selten auf, sind aber möglich."],
-        explanation: "Frequency words in leaflets and consent talks: häufig, gelegentlich, selten.",
+        explanation: "Frequency words in leaflets and consent talks: \"häufig\", \"gelegentlich\", \"selten\".",
       },
       {
         type: "translate",
@@ -418,12 +419,12 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
         source: "Are there any alternatives to the operation?",
         answer: "Gibt es Alternativen zur Operation?",
         altAnswers: ["Gibt es Alternativen zu der Operation?", "Gibt es eine Alternative zur Operation?", "Gibt es Alternativen zum Eingriff?", "Gibt es andere Möglichkeiten als die Operation?"],
-        explanation: "\"Alternative zu\" + dative; \"zur\" = zu der.",
+        explanation: "\"Alternative zu\" + dative; \"zur\" = \"zu der\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. Careful with possibly.",
+        prompt: "Translate into German, with the false friend that means possibly.",
         source: "We may possibly have to operate again.",
         answer: "Eventuell müssen wir noch einmal operieren.",
         altAnswers: ["Möglicherweise müssen wir noch einmal operieren.", "Eventuell müssen wir erneut operieren.", "Unter Umständen müssen wir noch einmal operieren.", "Möglicherweise müssen wir erneut operieren."],
@@ -489,17 +490,17 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Decoding Medical Terms by Their Form",
-    summary: "Work out unknown medical terms from their parts: -itis, -ose, -om, -ektomie, -ologie, hyper- and hypo-, and transparent German compounds.",
+    summary: "Work out unknown medical terms from their parts (\"-itis\", \"-ose\", \"-om\", \"-ektomie\", \"-ologie\", \"hyper-\", \"hypo-\") and from transparent German compounds.",
     duration: "15 min",
     sections: [
       {
         heading: "Recap: the building blocks",
         body: [
-          "Suffixes carry the meaning: \"-itis\" = inflammation (Bronchitis, Arthritis), \"-ose\" = non-inflammatory or degenerative condition (Arthrose, Osteoporose), \"-om\" = tumour or swelling (Lipom, Melanom), \"-ektomie\" = surgical removal (Appendektomie, Tonsillektomie), \"-ologie\" = the science of (Kardiologie). All nouns in -itis, -ose and -ektomie are feminine; -om nouns are neuter: \"das Lipom\".",
-          "Prefixes give direction or degree: \"hyper-\" = too much (Hypertonie, Hyperthyreose), \"hypo-\" = too little (Hypotonie, Hypoglykämie). Combine them with organ roots: \"kardio-\" (heart), \"gastro-\" (stomach), \"hepat-\" (liver), \"nephr-\" (kidney), \"derm-\" (skin). German compounds do the same job in plain words: \"Nierenentzündung\" = Nephritis.",
+          "Suffixes carry the meaning: \"-itis\" = inflammation (\"Bronchitis\", \"Arthritis\"), \"-ose\" = non-inflammatory or degenerative condition (\"Arthrose\", \"Osteoporose\"), \"-om\" = tumour or swelling (\"Lipom\", \"Melanom\"), \"-ektomie\" = surgical removal (\"Appendektomie\", \"Tonsillektomie\"), \"-ologie\" = the science of (\"Kardiologie\"). All nouns in \"-itis\", \"-ose\" and \"-ektomie\" are feminine; \"-om\" nouns are neuter: \"das Lipom\".",
+          "Prefixes give direction or degree: \"hyper-\" = too much (\"Hypertonie\", \"Hyperthyreose\"), \"hypo-\" = too little (\"Hypotonie\", \"Hypoglykämie\"). Combine them with organ roots: \"kardio-\" (heart), \"gastro-\" (stomach), \"hepat-\" (liver), \"nephr-\" (kidney), \"derm-\" (skin). German compounds do the same job in plain words: \"Nierenentzündung\" = \"Nephritis\".",
         ],
         examples: [
-          { es: "Arthritis ist eine Gelenkentzündung, Arthrose ist Gelenkverschleiß.", en: "Arthritis is inflammation of a joint, arthrosis is wear and tear of a joint." },
+          { es: "Arthritis ist eine Gelenkentzündung, Arthrose ist Gelenkverschleiß.", en: "Arthritis is inflammation of a joint, osteoarthritis is wear and tear of a joint." },
           { es: "Ein Lipom ist eine gutartige Fettgeschwulst.", en: "A lipoma is a benign fatty lump." },
           { es: "Bei einer Tonsillektomie werden die Mandeln entfernt.", en: "In a tonsillectomy the tonsils are removed." },
           { es: "Hypoglykämie bedeutet Unterzuckerung.", en: "Hypoglycaemia means low blood sugar." },
@@ -517,7 +518,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What is a Nephrektomie?",
+            question: "What is a \"Nephrektomie\"?",
             options: ["the surgical removal of a kidney", "an inflammation of the kidney", "a kidney tumour", "a kidney specialist"],
             correctIndex: 0,
             explanation: "\"Nephr-\" = kidney, \"-ektomie\" = removal.",
@@ -539,7 +540,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into plain German.",
-        source: "Arthrosis is wear and tear of the joints.",
+        source: "Osteoarthritis is wear and tear of the joints.",
         answer: "Arthrose ist Gelenkverschleiß.",
         altAnswers: ["Eine Arthrose ist ein Gelenkverschleiß.", "Arthrose ist ein Verschleiß der Gelenke.", "Eine Arthrose ist ein Verschleiß der Gelenke.", "Arthrose ist eine Abnutzung der Gelenke."],
         explanation: "\"-ose\" = degenerative, not inflammatory: \"der Verschleiß\".",
@@ -569,7 +570,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
         source: "Hypotension means low blood pressure.",
         answer: "Hypotonie bedeutet niedriger Blutdruck.",
         altAnswers: ["Hypotonie bedeutet zu niedriger Blutdruck.", "Hypotonie heißt niedriger Blutdruck.", "Eine Hypotonie ist ein zu niedriger Blutdruck."],
-        explanation: "Hypotonie is the opposite of Hypertonie.",
+        explanation: "\"Hypotonie\" is the opposite of \"Hypertonie\".",
       },
       {
         type: "fill-blank",
@@ -586,7 +587,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
         source: "She has an inflammation of the kidney.",
         answer: "Sie hat eine Nierenentzündung.",
         altAnswers: ["Sie hat eine Entzündung der Niere.", "Sie hat eine Nephritis.", "Sie leidet an einer Nierenentzündung."],
-        explanation: "Nephritis = \"Nierenentzündung\": organ + Entzündung.",
+        explanation: "\"Nephritis\" = \"Nierenentzündung\": organ + \"Entzündung\".",
       },
       {
         type: "translate",
@@ -625,7 +626,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What is a Hyperthyreose?",
+        question: "What is a \"Hyperthyreose\"?",
         options: ["an overactive thyroid", "an underactive thyroid", "an inflamed thyroid", "the removal of the thyroid"],
         correctIndex: 0,
         explanation: "\"Hyper-\" = too much; \"Thyreo-\" = thyroid; \"-ose\" = condition. Plain German: \"Schilddrüsenüberfunktion\".",
@@ -652,14 +653,14 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Der Beipackzettel",
-    summary: "Read a German package leaflet: Anwendungsgebiete, Gegenanzeigen, Dosierung, Wechselwirkungen and Nebenwirkungen with their frequency categories.",
+    summary: "Read a German package leaflet: find the \"Anwendungsgebiete\", \"Gegenanzeigen\", \"Dosierung\", \"Wechselwirkungen\" and \"Nebenwirkungen\", and understand its frequency categories and impersonal instructions.",
     duration: "16 min",
     sections: [
       {
         heading: "Recap: the fixed structure of a Beipackzettel",
         body: [
           "Every German package leaflet (\"Beipackzettel\", officially \"Packungsbeilage\") follows the same order: \"Was ist ... und wofür wird es angewendet?\" (Anwendungsgebiete), \"Was sollten Sie vor der Einnahme beachten?\" (Gegenanzeigen, Warnhinweise, Wechselwirkungen), \"Wie ist ... einzunehmen?\" (Dosierung), \"Welche Nebenwirkungen sind möglich?\" and \"Wie ist ... aufzubewahren?\".",
-          "The style is impersonal: \"sein\" + zu-infinitive for instructions (\"Die Tabletten sind unzerkaut einzunehmen\" = must be swallowed whole), the passive (\"darf nicht angewendet werden\") and conditional clauses without wenn (\"Sollten Sie eine größere Menge eingenommen haben, ...\"). The famous TV warning: \"Zu Risiken und Nebenwirkungen lesen Sie die Packungsbeilage und fragen Sie Ihre Ärztin, Ihren Arzt oder in Ihrer Apotheke.\"",
+          "The style is impersonal: \"sein\" + zu-infinitive for instructions (\"Die Tabletten sind unzerkaut einzunehmen\" = must be swallowed whole), the passive (\"darf nicht angewendet werden\") and conditional clauses without \"wenn\" (\"Sollten Sie eine größere Menge eingenommen haben, ...\"). The famous TV warning: \"Zu Risiken und Nebenwirkungen lesen Sie die Packungsbeilage und fragen Sie Ihre Ärztin, Ihren Arzt oder in Ihrer Apotheke.\"",
         ],
         examples: [
           { es: "Die Tabletten sind unzerkaut mit ausreichend Flüssigkeit einzunehmen.", en: "The tablets are to be swallowed whole with plenty of liquid." },
@@ -692,7 +693,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into leaflet German, with sein + zu.",
+        prompt: "Translate into leaflet German, with \"sein\" + zu-infinitive.",
         source: "The tablets are to be swallowed whole.",
         answer: "Die Tabletten sind unzerkaut einzunehmen.",
         altAnswers: ["Die Tabletten sind unzerkaut zu schlucken.", "Die Tabletten sind im Ganzen zu schlucken.", "Die Tabletten müssen unzerkaut eingenommen werden."],
@@ -705,7 +706,7 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
         source: "If you have forgotten a dose, do not take a double dose.",
         answer: "Sollten Sie eine Einnahme vergessen haben, nehmen Sie keine doppelte Dosis ein.",
         altAnswers: ["Wenn Sie eine Einnahme vergessen haben, nehmen Sie keine doppelte Dosis ein.", "Falls Sie eine Einnahme vergessen haben, nehmen Sie keine doppelte Dosis ein.", "Haben Sie eine Einnahme vergessen, nehmen Sie keine doppelte Dosis ein.", "Sollten Sie die Einnahme vergessen haben, nehmen Sie nicht die doppelte Dosis ein."],
-        explanation: "\"Sollten Sie ...\" opens a condition without wenn; the main clause follows directly.",
+        explanation: "\"Sollten Sie ...\" opens a condition without \"wenn\"; the main clause follows directly.",
       },
       {
         type: "translate",
@@ -778,10 +779,10 @@ export const DE_C2_U03_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In a leaflet, selten means a side effect affects about...",
+        question: "In a leaflet, \"selten\" means a side effect affects about...",
         options: ["1 to 10 in 10,000 people", "more than 1 in 10 people", "1 to 10 in 100 people", "nobody"],
         correctIndex: 0,
-        explanation: "\"Selten\" = rare: up to 1 in 1,000.",
+        explanation: "\"Selten\" = rare: fewer than 1 in 1,000 but at least 1 in 10,000. \"Häufig\" is 1 to 10 in 100.",
       },
       {
         type: "listen-choose",

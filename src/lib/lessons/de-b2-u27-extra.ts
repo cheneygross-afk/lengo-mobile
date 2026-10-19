@@ -82,7 +82,7 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
         sentence: "Sie sagten, sie ___ kein Geld.",
         answer: "hätten",
         altAnswers: ["haben"],
-        explanation: "Plural \"haben\" = indicative, so Konjunktiv II \"hätten\".",
+        explanation: "Plural \"haben\" looks like the indicative, so written reported speech uses Konjunktiv II \"hätten\"; \"haben\" is accepted as everyday spoken style.",
       },
       {
         type: "translate",
@@ -125,7 +125,7 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
         source: "If I had studied medicine, I'd be a doctor today.",
         answer: "Wenn ich Medizin studiert hätte, wäre ich heute Arzt.",
         altAnswers: ["Wenn ich Medizin studiert hätte, wäre ich heute Ärztin.", "Hätte ich Medizin studiert, wäre ich heute Arzt.", "Hätte ich Medizin studiert, wäre ich heute Ärztin."],
-        explanation: "Mixed conditional.",
+        explanation: "Mixed conditional: past condition (\"studiert hätte\"), present result (\"wäre ... heute\"); no article before the job.",
       },
       {
         type: "fill-blank",
@@ -134,7 +134,7 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
         sentence: "Er fragte, ob ich ihm helfen ___.",
         answer: "könne",
         altAnswers: ["könnte", "kann"],
-        explanation: "Reported question: Konjunktiv I \"könne\".",
+        explanation: "Reported question: Konjunktiv I \"könne\" (written style); \"könnte\" is also common, and indicative \"kann\" is accepted as spoken style.",
       },
       {
         type: "translate",
@@ -184,7 +184,7 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Clauses and Connectors Review",
-    summary: "Concession, cause, means, comparison and formal connectors with the right word order.",
+    summary: "Link ideas with connectors of concession, cause, means and comparison, putting the verb in the right place each time.",
     duration: "14 min",
     sections: [
       {
@@ -204,7 +204,7 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using trotzdem.",
+            prompt: "Translate into German, using \"trotzdem\".",
             source: "He was ill; nevertheless he came to work.",
             answer: "Er war krank; trotzdem kam er zur Arbeit.",
             altAnswers: ["Er war krank, trotzdem kam er zur Arbeit.", "Er war krank, trotzdem ist er zur Arbeit gekommen.", "Er war krank; trotzdem ist er zur Arbeit gekommen."],
@@ -213,7 +213,7 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using indem.",
+            prompt: "Translate into German, using \"indem\".",
             source: "She learns by listening to podcasts.",
             answer: "Sie lernt, indem sie Podcasts hört.",
             explanation: "By + -ing = \"indem\" + clause.",
@@ -225,7 +225,7 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using trotz.",
+        prompt: "Translate into German, using \"trotz\".",
         source: "Despite the rain we went for a walk.",
         answer: "Trotz des Regens sind wir spazieren gegangen.",
         altAnswers: ["Trotz des Regens gingen wir spazieren.", "Wir sind trotz des Regens spazieren gegangen."],
@@ -289,7 +289,7 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The more you practise, the better you get.",
         answer: "Je mehr man übt, desto besser wird man.",
-        altAnswers: ["Je mehr man übt, umso besser wird man.", "Je mehr du übst, desto besser wirst du.", "Je mehr du übst, umso besser wirst du."],
+        altAnswers: ["Je mehr man übt, umso besser wird man.", "Je mehr du übst, desto besser wirst du.", "Je mehr du übst, umso besser wirst du.", "Je mehr Sie üben, desto besser werden Sie."],
         explanation: "\"Je ... desto / umso\".",
       },
       {
@@ -356,7 +356,7 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Vocabulary Review",
-    summary: "The word webs and Funktionsverbgefüge of the level in fresh sentences.",
+    summary: "Use the level's key collocations (\"Funktionsverbgefüge\") and false friends correctly in fresh sentences.",
     duration: "14 min",
     sections: [
       {
@@ -370,7 +370,7 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
           { es: "Die Stadt stellt den Vereinen Räume zur Verfügung.", en: "The city provides clubs with rooms." },
           { es: "In ihrer Rede brachte sie ihre Sorge zum Ausdruck.", en: "In her speech she expressed her concern." },
           { es: "Das ist ein vernünftiger Vorschlag.", en: "That's a sensible suggestion." },
-          { es: "Die aktuelle Sendung läuft um 20 Uhr.", en: "The current programme is on at 8 p.m." },
+          { es: "Die aktuelle Folge der Sendung läuft um 20 Uhr.", en: "The latest episode of the programme is on at 8 p.m." },
         ],
         checkpoint: [
           {
@@ -384,10 +384,10 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which word means 'sensible'?",
-            options: ["vernünftig", "sensibel", "empfindlich", "sympathisch"],
+            question: "A colleague makes a sensible suggestion. What do you say?",
+            options: ["Das ist ein vernünftiger Vorschlag.", "Das ist ein sensibler Vorschlag.", "Das ist ein empfindlicher Vorschlag.", "Das ist ein sympathischer Vorschlag."],
             correctIndex: 0,
-            explanation: "Sensible = \"vernünftig\".",
+            explanation: "Sensible = \"vernünftig\". \"Sensibel\" is a false friend (sensitive), \"empfindlich\" means touchy or delicate, \"sympathisch\" likeable.",
           },
         ],
       },
@@ -417,7 +417,8 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I've missed the last train.",
         answer: "Ich habe den letzten Zug verpasst.",
-        explanation: "Trains are \"verpasst\"; people are \"vermisst\".",
+        altAnswers: ["Ich habe die letzte Bahn verpasst."],
+        explanation: "Trains and chances are \"verpasst\"; people you long for are \"vermisst\".",
       },
       {
         type: "fill-blank",
@@ -425,7 +426,7 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
         en: "Have you [saved] the document?",
         sentence: "Hast du das Dokument ___?",
         answer: "gespeichert",
-        explanation: "Files: \"speichern\".",
+        explanation: "Files and data are \"gespeichert\"; \"sparen\" is for saving money or time.",
       },
       {
         type: "translate",
@@ -447,10 +448,10 @@ export const DE_B2_U27_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What is \"eine Novelle\"?",
-        options: ["a novella (a long short story)", "a novel", "a piece of news", "a new law"],
+        question: "\"Sie hat eine Novelle geschrieben.\" What has she written?",
+        options: ["a novella (a long short story)", "a novel", "a piece of news", "a TV series"],
         correctIndex: 0,
-        explanation: "A novel is \"der Roman\".",
+        explanation: "\"Die Novelle\" is a novella; a novel is \"der Roman\". (In politics, \"Novelle\" can also mean an amendment to a law.)",
       },
       {
         type: "translate",

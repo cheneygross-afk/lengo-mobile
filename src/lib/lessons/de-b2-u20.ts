@@ -14,10 +14,10 @@ export const DE_B2_U20: Lesson[] = [
       {
         heading: "Platzhalter-es: filling position 1",
         body: [
-          "Sometimes you want the subject late in the sentence, because it's new or long: 'Many guests came.' German can start with \"es\" just to fill position 1: \"Es kamen viele Gäste.\" This es is not the subject; the real subject is \"viele Gäste\", so the verb is plural.",
+          "Sometimes you want the subject late in the sentence, because it's new or long: 'Many guests came.' German can start with \"es\" just to fill position 1: \"Es kamen viele Gäste.\" This \"es\" is not the subject; the real subject is \"viele Gäste\", so the verb is plural.",
           "That's the key trap: the verb agrees with the real subject. \"Es fehlen noch drei Stühle\" (not \"*Es fehlt drei Stühle\"). \"Es ist ein Unfall passiert\" (singular).",
-          "As soon as something else takes position 1, the placeholder es disappears: \"Gestern kamen viele Gäste.\" \"Noch fehlen drei Stühle.\" It also disappears in subordinate clauses: \"..., weil viele Gäste kamen.\"",
-          "The same es is used with impersonal passives: \"Es wurde viel getanzt\" ('There was a lot of dancing') → \"Auf der Party wurde viel getanzt\" (no es).",
+          "As soon as something else takes position 1, the placeholder \"es\" disappears: \"Gestern kamen viele Gäste.\" \"Noch fehlen drei Stühle.\" It also disappears in subordinate clauses: \"..., weil viele Gäste kamen.\"",
+          "The same \"es\" is used with impersonal passives: \"Es wurde viel getanzt\" ('There was a lot of dancing') → \"Auf der Party wurde viel getanzt\" (no \"es\").",
         ],
         examples: [
           { es: "Es kamen viele Gäste.", en: "Lots of guests came." },
@@ -30,7 +30,7 @@ export const DE_B2_U20: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Es ___ noch drei Stühle.",
+            question: "Complete: \"Es ___ noch drei Stühle.\" (We're still three chairs short.)",
             options: ["fehlen", "fehlt", "fehle", "gefehlt"],
             correctIndex: 0,
             explanation: "The real subject is \"drei Stühle\" (plural).",
@@ -38,20 +38,20 @@ export const DE_B2_U20: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, starting with Gestern.",
+            prompt: "Translate into German, starting with \"Gestern\".",
             source: "Yesterday lots of guests came.",
             answer: "Gestern kamen viele Gäste.",
             altAnswers: ["Gestern sind viele Gäste gekommen."],
-            explanation: "Something else is in position 1, so no es.",
+            explanation: "Something else is in position 1, so no \"es\".",
           },
         ],
       },
       {
         heading: "The correlate es: announcing a dass- or zu-clause",
         body: [
-          "Many verbs and adjectives point forward to a clause with \"es\": \"Es ist schade, dass du nicht kommst.\" \"Ich finde es gut, dass ...\" \"Es freut mich, dass ...\" \"Ich habe es satt, immer zu warten.\" Here es stands for the following clause.",
-          "If the clause comes first, es usually disappears: \"Dass du nicht kommst, ist schade.\" With \"es freut mich\" you can also say \"Mich freut, dass ...\" (rarer).",
-          "With \"finden\" the es is obligatory in the middle: \"Ich finde es wichtig, dass ...\" (not \"*Ich finde wichtig, dass ...\" in careful German).",
+          "Many verbs and adjectives point forward to a clause with \"es\": \"Es ist schade, dass du nicht kommst.\" \"Ich finde es gut, dass ...\" \"Es freut mich, dass ...\" \"Ich habe es satt, immer zu warten.\" Here \"es\" stands for the following clause.",
+          "If the clause comes first, \"es\" usually disappears: \"Dass du nicht kommst, ist schade.\" With \"es freut mich\" you can also say \"Mich freut, dass ...\" (rarer).",
+          "With \"finden\" the \"es\" is obligatory in the middle: \"Ich finde es wichtig, dass ...\" (not \"*Ich finde wichtig, dass ...\" in careful German).",
         ],
         examples: [
           { es: "Es ist schade, dass du nicht kommst.", en: "It's a pity you're not coming." },
@@ -68,7 +68,7 @@ export const DE_B2_U20: Lesson[] = [
             source: "I think it's important that everyone can have a say.",
             answer: "Ich finde es wichtig, dass alle mitreden können.",
             altAnswers: ["Ich finde es wichtig, dass jeder mitreden kann.", "Ich halte es für wichtig, dass alle mitreden können.", "Ich halte es für wichtig, dass jeder mitreden kann."],
-            explanation: "\"Finden\" + es + adjective + dass-clause.",
+            explanation: "\"Finden\" + \"es\" + adjective + dass-clause.",
           },
           {
             type: "fill-blank",
@@ -84,9 +84,9 @@ export const DE_B2_U20: Lesson[] = [
         heading: "Cleft-like structures: focusing one element",
         body: [
           "English loves cleft sentences: 'It was Anna who called', 'What annoys me is the noise'. German has them too, but uses them less, because it can simply move or stress elements.",
-          "Pseudo-cleft with was / wer: \"Was mich stört, ist der Lärm.\" \"Wer angerufen hat, war Anna.\" \"Das, was ich brauche, ist Ruhe.\" Identifying: \"Der Einzige, der helfen konnte, war mein Bruder.\" \"Das ist genau das, was ich meine.\"",
+          "Pseudo-cleft with was / \"wer\": \"Was mich stört, ist der Lärm.\" \"Wer angerufen hat, war Anna.\" \"Das, was ich brauche, ist Ruhe.\" Identifying: \"Der Einzige, der helfen konnte, war mein Bruder.\" \"Das ist genau das, was ich meine.\"",
           "Es-cleft: \"Es war Anna, die angerufen hat.\" It's correct but heavier than English; in speech Germans often just stress: \"ANNA hat angerufen.\" Note that the verb agrees: \"Es waren meine Eltern, die ...\" (plural).",
-          "Traps: don't translate 'It was Anna who called' word by word with \"wer\" (\"*Es war Anna, wer angerufen hat\"): use a relative pronoun (die / der / das). And \"*Es fehlt drei Stühle\": the verb follows the real subject.",
+          "Traps: don't translate 'It was Anna who called' word by word with \"wer\" (\"*Es war Anna, wer angerufen hat\"): use a relative pronoun (\"die\" / \"der\" / \"das\"). And \"*Es fehlt drei Stühle\": the verb follows the real subject.",
         ],
         examples: [
           { es: "Was mich stört, ist der Lärm.", en: "What bothers me is the noise." },
@@ -108,7 +108,7 @@ export const DE_B2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence is correct?",
+            question: "You want to say: It was Anna who called. Which sentence is correct?",
             options: ["Es war Anna, die angerufen hat.", "Es war Anna, wer angerufen hat.", "Es war Anna, was angerufen hat.", "Es hat Anna war, die angerufen."],
             correctIndex: 0,
             explanation: "Relative pronoun \"die\" refers back to Anna.",
@@ -120,7 +120,7 @@ export const DE_B2_U20: Lesson[] = [
             source: "That's exactly what I mean.",
             answer: "Das ist genau das, was ich meine.",
             altAnswers: ["Genau das meine ich.", "Das ist genau, was ich meine."],
-            explanation: "\"Das, was\": was after a neuter demonstrative.",
+            explanation: "\"Das, was\": \"was\" after a neuter demonstrative.",
           },
         ],
       },
@@ -129,16 +129,16 @@ export const DE_B2_U20: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, starting with Es.",
+        prompt: "Translate into German, starting with \"Es\".",
         source: "There's been an accident.",
         answer: "Es ist ein Unfall passiert.",
         altAnswers: ["Es ist ein Unfall geschehen.", "Es hat einen Unfall gegeben."],
-        explanation: "Placeholder es; the subject \"ein Unfall\" comes later.",
+        explanation: "Placeholder \"es\"; the subject \"ein Unfall\" comes later.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, starting with Es.",
+        prompt: "Translate into German, starting with \"Es\".",
         source: "We're still three chairs short.",
         answer: "Es fehlen noch drei Stühle.",
         altAnswers: ["Uns fehlen noch drei Stühle.", "Noch fehlen drei Stühle."],
@@ -151,7 +151,7 @@ export const DE_B2_U20: Lesson[] = [
         source: "I'm glad you're feeling better.",
         answer: "Es freut mich, dass es dir besser geht.",
         altAnswers: ["Es freut mich, dass es Ihnen besser geht.", "Es freut mich, dass es euch besser geht.", "Ich freue mich, dass es dir besser geht.", "Ich freue mich, dass es Ihnen besser geht.", "Ich freue mich, dass es euch besser geht."],
-        explanation: "Correlate es announcing the dass-clause.",
+        explanation: "Correlate \"es\" announcing the dass-clause.",
       },
       {
         type: "translate",
@@ -169,7 +169,7 @@ export const DE_B2_U20: Lesson[] = [
         source: "It's a pity you're not coming.",
         answer: "Es ist schade, dass du nicht kommst.",
         altAnswers: ["Schade, dass du nicht kommst.", "Es ist schade, dass ihr nicht kommt.", "Es ist schade, dass Sie nicht kommen.", "Schade, dass ihr nicht kommt.", "Schade, dass Sie nicht kommen."],
-        explanation: "Correlate es; in speech often just \"Schade, dass ...\".",
+        explanation: "Correlate \"es\"; in speech often just \"Schade, dass ...\".",
       },
       {
         type: "fill-blank",
@@ -187,7 +187,7 @@ export const DE_B2_U20: Lesson[] = [
         sentence: "Am Samstag ___.",
         answer: "wurde bis zwei getanzt",
         altAnswers: ["wurde bis zwei Uhr getanzt", "wurde bis um zwei getanzt"],
-        explanation: "Something else is in position 1, so no es.",
+        explanation: "Something else is in position 1, so no \"es\".",
       },
       {
         type: "word-order",
@@ -208,7 +208,7 @@ export const DE_B2_U20: Lesson[] = [
         type: "speak",
         text: "Was mich stört, ist der Lärm.",
         prompt: "Say it in German: What bothers me is the noise.",
-        explanation: "Pseudo-cleft with was.",
+        explanation: "Pseudo-cleft with \"was\".",
       },
     ],
   },
@@ -243,11 +243,11 @@ export const DE_B2_U20: Lesson[] = [
             source: "It was Anna who called.",
             answer: "Es war Anna, die angerufen hat.",
             altAnswers: ["Anna war es, die angerufen hat.", "Es war Anna, die anrief."],
-            explanation: "Es war + noun + relative clause.",
+            explanation: "\"Es war\" + noun + relative clause.",
           },
           {
             type: "multiple-choice",
-            question: "Someone asks 'Wer hat angerufen?' in a relaxed chat. The most natural answer:",
+            question: "Someone asks \"Wer hat angerufen?\" in a relaxed chat. What is the most natural answer?",
             options: ["Anna.", "Es war Anna, die angerufen hat.", "Wer angerufen hat, war Anna.", "Es hat Anna angerufen, die."],
             correctIndex: 0,
             explanation: "In conversation, a short answer is most natural.",
@@ -330,7 +330,7 @@ export const DE_B2_U20: Lesson[] = [
         source: "It was me who left the window open.",
         answer: "Ich war es, der das Fenster offen gelassen hat.",
         altAnswers: ["Ich war es, die das Fenster offen gelassen hat.", "Ich war es, der das Fenster offengelassen hat.", "Ich war es, die das Fenster offengelassen hat.", "Ich habe das Fenster offen gelassen.", "Ich habe das Fenster offengelassen."],
-        explanation: "Pronoun first; der or die depending on the speaker.",
+        explanation: "Pronoun first; \"der\" or \"die\" depending on the speaker.",
       },
       {
         type: "translate",
@@ -338,7 +338,8 @@ export const DE_B2_U20: Lesson[] = [
         prompt: "Translate into German.",
         source: "The problem isn't the money, it's the time.",
         answer: "Das Problem ist nicht das Geld, sondern die Zeit.",
-        explanation: "Nicht ... sondern for the contrast.",
+        altAnswers: ["Nicht das Geld ist das Problem, sondern die Zeit."],
+        explanation: "\"Nicht ... sondern\" for the contrast.",
       },
       {
         type: "translate",
@@ -365,7 +366,7 @@ export const DE_B2_U20: Lesson[] = [
         sentence: "___ das vorgeschlagen hat!",
         answer: "Du warst es, die",
         altAnswers: ["Du warst es, der"],
-        explanation: "Pronoun + war es + relative pronoun.",
+        explanation: "Pronoun + \"war es\" + relative pronoun.",
       },
       {
         type: "word-order",
@@ -405,7 +406,7 @@ export const DE_B2_U20: Lesson[] = [
     slug: "b2-circuit-exclamatives",
     level: "DE-B2",
     number: 3,
-    title: "Circuit: Was für ein Tag!, Ist Das Schön!, Wie Gut Sie Singt!",
+    title: "Circuit: Was für ein Tag!, Ist das schön!, Wie gut sie singt!",
     summary: "Exclamations with was für ein, wie with the verb at the end, verb-first exclamations and the modal particles aber, ja and vielleicht.",
     duration: "15 min",
     sections: [
@@ -414,7 +415,7 @@ export const DE_B2_U20: Lesson[] = [
         body: [
           "\"Was für ein + noun!\" = 'What a ...!': \"Was für ein Tag!\" \"Was für eine Überraschung!\" The article declines normally; \"was für\" doesn't affect the case. In the plural there is no article: \"Was für Preise!\" With uncountable nouns, both are heard: \"Was für ein Wetter!\" / \"Was für Wetter!\"",
           "\"Wie + adjective/adverb ...!\": short: \"Wie schön!\" Full sentence: verb at the end, like a subordinate clause: \"Wie gut sie singt!\" \"Wie schnell die Zeit vergeht!\"",
-          "English 'How well she sings!' keeps main-clause order; German sends the verb to the end. A common mistake is \"*Wie gut singt sie!\", which sounds like a question.",
+          "English 'How well she sings!' keeps main-clause order; German usually sends the verb to the end. \"Wie gut singt sie!\" with the verb second also exists as an exclamation, but in writing it is easily read as a question, so the verb-final version is the safe choice.",
         ],
         examples: [
           { es: "Was für ein Tag!", en: "What a day!" },
@@ -431,7 +432,7 @@ export const DE_B2_U20: Lesson[] = [
             prompt: "Translate into German.",
             source: "How well she sings!",
             answer: "Wie gut sie singt!",
-            explanation: "Exclamative wie: verb at the end.",
+            explanation: "Exclamative \"wie\": verb at the end.",
           },
           {
             type: "fill-blank",
@@ -439,7 +440,7 @@ export const DE_B2_U20: Lesson[] = [
             en: "[What a surprise]!",
             sentence: "___!",
             answer: "Was für eine Überraschung",
-            explanation: "Feminine noun → eine.",
+            explanation: "Feminine noun → \"eine\".",
           },
         ],
       },
@@ -469,7 +470,7 @@ export const DE_B2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "'Hast du ein Glück!' with falling intonation means:",
+            question: "\"Hast du ein Glück!\" said with falling intonation. What does it mean?",
             options: ["You're so lucky!", "Are you lucky?", "Do you have a lucky charm?", "Good luck!"],
             correctIndex: 0,
             explanation: "Verb-first + falling melody = exclamation.",
@@ -493,15 +494,15 @@ export const DE_B2_U20: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "'Du bist vielleicht lustig!' usually means:",
+            question: "\"Du bist vielleicht lustig!\" What does it usually mean?",
             options: ["(ironic) You're not funny at all!", "Perhaps you're funny.", "You might be funny tomorrow.", "Are you funny?"],
             correctIndex: 0,
-            explanation: "Exclamative vielleicht intensifies, often ironically.",
+            explanation: "Exclamative \"vielleicht\" intensifies, often ironically.",
           },
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using ja.",
+            prompt: "Translate into German using \"ja\".",
             source: "You're soaking wet!",
             answer: "Du bist ja ganz nass!",
             altAnswers: ["Du bist ja völlig nass!", "Ihr seid ja ganz nass!", "Sie sind ja ganz nass!", "Du bist ja klatschnass!"],
@@ -526,12 +527,12 @@ export const DE_B2_U20: Lesson[] = [
         prompt: "Translate into German.",
         source: "What a day!",
         answer: "Was für ein Tag!",
-        explanation: "Masculine → ein.",
+        explanation: "Masculine → \"ein\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using aber.",
+        prompt: "Translate into German using \"aber\".",
         source: "Oh, that's lovely!",
         answer: "Das ist aber schön!",
         altAnswers: ["Ach, das ist aber schön!", "Oh, das ist aber schön!"],
@@ -540,11 +541,11 @@ export const DE_B2_U20: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using vielleicht.",
+        prompt: "Translate into German using \"vielleicht\".",
         source: "What chaos that was!",
         answer: "Das war vielleicht ein Chaos!",
         altAnswers: ["Was war das für ein Chaos!", "Was für ein Chaos das war!"],
-        explanation: "Intensifying vielleicht.",
+        explanation: "Intensifying \"vielleicht\".",
       },
       {
         type: "translate",
@@ -561,7 +562,7 @@ export const DE_B2_U20: Lesson[] = [
         en: "[How beautifully] the children sang!",
         sentence: "___ die Kinder gesungen haben!",
         answer: "Wie schön",
-        explanation: "Wie + adverb, finite verb at the very end.",
+        explanation: "\"Wie\" + adverb, finite verb at the very end.",
       },
       {
         type: "word-order",
@@ -575,7 +576,7 @@ export const DE_B2_U20: Lesson[] = [
         question: "Which is an exclamation, not a question?",
         options: ["Wie gut er kocht!", "Wie gut kocht er?", "Kocht er gut?", "Wer kocht gut?"],
         correctIndex: 0,
-        explanation: "Exclamative wie → verb at the end.",
+        explanation: "Exclamative \"wie\" → verb at the end.",
       },
       {
         type: "listen-choose",
@@ -583,13 +584,13 @@ export const DE_B2_U20: Lesson[] = [
         question: "What is the speaker doing?",
         options: ["Exclaiming that something is very expensive.", "Asking whether something is expensive.", "Saying it's cheap.", "Asking for the price."],
         correctIndex: 0,
-        explanation: "Verb-first + aber + falling melody = exclamation.",
+        explanation: "Verb-first + \"aber\" + falling melody = exclamation.",
       },
       {
         type: "speak",
         text: "Was für eine Überraschung!",
         prompt: "Say it in German: What a surprise!",
-        explanation: "Was für + eine (feminine).",
+        explanation: "\"Was für\" + \"eine\" (feminine).",
       },
     ],
   },
@@ -606,7 +607,7 @@ export const DE_B2_U20: Lesson[] = [
         body: [
           "A local candidate, Sabine Kraus, wants to become mayor of a small town. Speeches love emphasis: \"Was unsere Stadt braucht, ist Mut.\" \"Es sind die kleinen Dinge, die zählen.\" Exclamations: \"Was für eine Gemeinschaft wir sind!\"",
           "Direct address: \"Liebe Bürgerinnen und Bürger, liebe Nachbarn\" (formal plural), and the inclusive \"wir\".",
-          "Vocabulary: der Wahlkampf (election campaign), die Kommunalwahl (local election), der Bürgermeister / die Bürgermeisterin, wählen, die Stimme (vote), versprechen, sich einsetzen für (to campaign for).",
+          "Vocabulary: \"der Wahlkampf\" (election campaign), \"die Kommunalwahl\" (local election), \"der Bürgermeister\" / \"die Bürgermeisterin\", \"wählen\", \"die Stimme\" (vote), \"versprechen\", \"sich einsetzen für\" (to campaign for).",
         ],
         examples: [
           { es: "Liebe Bürgerinnen und Bürger!", en: "Dear fellow citizens!" },
@@ -640,7 +641,7 @@ export const DE_B2_U20: Lesson[] = [
         body: [
           "Contrast the present with what could be, using Konjunktiv II: \"Wenn wir einen Radweg hätten, würden mehr Menschen das Auto stehen lassen.\" \"Hätte die Stadt früher investiert, wäre das Schwimmbad nicht geschlossen worden.\"",
           "Connect the arguments: \"zum einen ... zum anderen\", \"außerdem\", \"deshalb\", \"zwar ... aber\", \"nicht nur ..., sondern auch\".",
-          "\"Hätte die Stadt ... investiert\" is a wenn-clause without wenn: the verb comes first (from Unit 2 and 14).",
+          "\"Hätte die Stadt ... investiert\" is a wenn-clause without \"wenn\": the verb comes first (from Units 1-2).",
         ],
         examples: [
           { es: "Wenn wir einen Radweg hätten, würden mehr Menschen das Auto stehen lassen.", en: "If we had a cycle path, more people would leave their cars at home." },
@@ -666,7 +667,7 @@ export const DE_B2_U20: Lesson[] = [
             sentence: "Hätte die Stadt früher investiert, ___.",
             answer: "wäre das Schwimmbad nicht geschlossen worden",
             altAnswers: ["wäre das Bad nicht geschlossen worden"],
-            explanation: "Past unreal: wäre + participle + worden (passive); the main clause starts with the verb after the conditional clause.",
+            explanation: "Past unreal: \"wäre\" + participle + \"worden\" (passive); the main clause starts with the verb after the conditional clause.",
           },
         ],
       },
@@ -691,7 +692,7 @@ export const DE_B2_U20: Lesson[] = [
             source: "In four years we will have built the cycle path.",
             answer: "In vier Jahren werden wir den Radweg gebaut haben.",
             altAnswers: ["In vier Jahren werden wir den Fahrradweg gebaut haben."],
-            explanation: "werden + participle + haben.",
+            explanation: "Futur II: \"werden\" + participle + \"haben\" at the end.",
           },
           {
             type: "multiple-choice",
@@ -756,7 +757,7 @@ export const DE_B2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence uses a wenn-clause without wenn correctly?",
+        question: "You want to say: If we had more money, we could build more. Which sentence leaves out \"wenn\" correctly?",
         options: ["Hätten wir mehr Geld, könnten wir mehr bauen.", "Wir hätten mehr Geld, könnten wir mehr bauen.", "Hätten wir mehr Geld, wir könnten mehr bauen.", "Wenn hätten wir mehr Geld, könnten wir mehr bauen."],
         correctIndex: 0,
         explanation: "Verb first in the condition, then verb first in the main clause.",
@@ -782,7 +783,7 @@ export const DE_B2_U20: Lesson[] = [
         source: "If the town had invested earlier, the swimming pool wouldn't have been closed.",
         answer: "Wenn die Stadt früher investiert hätte, wäre das Schwimmbad nicht geschlossen worden.",
         altAnswers: ["Hätte die Stadt früher investiert, wäre das Schwimmbad nicht geschlossen worden.", "Wenn die Stadt früher investiert hätte, hätte man das Schwimmbad nicht geschlossen.", "Wenn die Stadt früher investiert hätte, wäre das Hallenbad nicht geschlossen worden."],
-        explanation: "Past unreal condition: hätte ... investiert, wäre ... geschlossen worden.",
+        explanation: "Past unreal condition: \"hätte ... investiert\", \"wäre ... geschlossen worden\".",
       },
     ],
   },
@@ -797,15 +798,15 @@ export const DE_B2_U20: Lesson[] = [
       {
         heading: "Jonas and the workshop",
         body: [
-          "Jonas, 34, worked in IT in Frankfurt. When his father died last year, he went back to Münster, the city of bicycles, and reopened his father's small Fahrradwerkstatt. \"Was ich am meisten vermisse, ist seine Stimme in der Werkstatt\", he says.",
+          "Jonas, 34, worked in IT in Frankfurt. When his father died last year, he went back to Münster, the city of bicycles, and reopened his father's small \"Fahrradwerkstatt\" (bicycle workshop). \"Was ich am meisten vermisse, ist seine Stimme in der Werkstatt\", he says.",
           "Emphasis helps him say what matters: \"Das Einzige, was er mir hinterlassen hat, war diese Werkstatt.\" \"Es war mein Vater, der mir das Radfahren beigebracht hat.\"",
-          "Workshop words: die Werkstatt, das Werkzeug (tools), reparieren, der Schlauch (inner tube), der Reifen, die Kette (chain), die Bremse, schrauben (to screw, tinker), der Handwerker / das Handwerk (craft, trade).",
+          "Workshop words: \"die Werkstatt\", \"das Werkzeug\" (tools), \"reparieren\", \"der Schlauch\" (inner tube), \"der Reifen\", \"die Kette\" (chain), \"die Bremse\", \"schrauben\" (to screw, tinker), \"der Handwerker\" / \"das Handwerk\" (craft, trade).",
         ],
         examples: [
           { es: "Was ich am meisten vermisse, ist seine Stimme in der Werkstatt.", en: "What I miss most is his voice in the workshop." },
           { es: "Das Einzige, was er mir hinterlassen hat, war diese Werkstatt.", en: "The only thing he left me was this workshop." },
           { es: "Es war mein Vater, der mir das Radfahren beigebracht hat.", en: "It was my father who taught me to ride a bike." },
-          { es: "In Münster gibt es mehr Fahrräder als Einwohner.", en: "In Muenster there are more bikes than inhabitants." },
+          { es: "In Münster gibt es mehr Fahrräder als Einwohner.", en: "In Münster there are more bikes than inhabitants." },
           { es: "Er hat jeden Tag stundenlang an alten Rädern geschraubt.", en: "He spent hours every day tinkering with old bikes." },
         ],
         checkpoint: [
@@ -831,7 +832,7 @@ export const DE_B2_U20: Lesson[] = [
       {
         heading: "Regrets",
         body: [
-          "Jonas has regrets, expressed with Konjunktiv II past (Unit 2 and 14): \"Ich hätte öfter nach Hause kommen sollen.\" \"Wenn ich nur mehr Zeit mit ihm verbracht hätte!\" \"Hätte ich doch früher gefragt, wie man ein Hinterrad zentriert!\"",
+          "Jonas has regrets, expressed with Konjunktiv II past (Units 1-2): \"Ich hätte öfter nach Hause kommen sollen.\" \"Wenn ich nur mehr Zeit mit ihm verbracht hätte!\" \"Hätte ich doch früher gefragt, wie man ein Hinterrad zentriert!\"",
           "\"Hätte ... sollen\" (double infinitive): 'should have'. \"Wenn ... nur / doch\" or verb-first with \"doch\" for wishes about the past.",
         ],
         examples: [
@@ -849,7 +850,7 @@ export const DE_B2_U20: Lesson[] = [
             source: "I should have come home more often.",
             answer: "Ich hätte öfter nach Hause kommen sollen.",
             altAnswers: ["Ich hätte häufiger nach Hause kommen sollen.", "Ich hätte öfter heimkommen sollen."],
-            explanation: "Hätte + infinitive + sollen at the end.",
+            explanation: "\"Hätte\" + infinitive + \"sollen\" at the end (double infinitive).",
           },
           {
             type: "fill-blank",
@@ -864,7 +865,7 @@ export const DE_B2_U20: Lesson[] = [
       {
         heading: "Participle attributes in the workshop",
         body: [
-          "Jonas writes a short text for the shop's website, using participle attributes (Unit 6): \"die von meinem Vater gegründete Werkstatt\" (the workshop founded by my father), \"liebevoll reparierte Räder\" (lovingly repaired bikes), \"ein seit 40 Jahren bestehender Familienbetrieb\" (a family business that has existed for 40 years).",
+          "Jonas writes a short text for the shop's website, using participle attributes (Unit 7): \"die von meinem Vater gegründete Werkstatt\" (the workshop founded by my father), \"liebevoll reparierte Räder\" (lovingly repaired bikes), \"ein seit 40 Jahren bestehender Familienbetrieb\" (a family business that has existed for 40 years).",
           "Present participle (-end) for something ongoing, past participle for something completed or passive. The adjective ending goes on the participle.",
         ],
         examples: [
@@ -904,7 +905,7 @@ export const DE_B2_U20: Lesson[] = [
         source: "The only thing he left me was this workshop.",
         answer: "Das Einzige, was er mir hinterlassen hat, war diese Werkstatt.",
         altAnswers: ["Das Einzige, was er mir hinterließ, war diese Werkstatt."],
-        explanation: "\"Das Einzige, was\": was after a nominalised adjective.",
+        explanation: "\"Das Einzige, was\": \"was\" after a nominalised adjective.",
       },
       {
         type: "translate",
@@ -913,7 +914,7 @@ export const DE_B2_U20: Lesson[] = [
         source: "If only I had asked him earlier!",
         answer: "Hätte ich ihn doch früher gefragt!",
         altAnswers: ["Wenn ich ihn nur früher gefragt hätte!", "Wenn ich ihn doch früher gefragt hätte!", "Hätte ich ihn nur früher gefragt!"],
-        explanation: "Wish about the past: verb-first with doch, or wenn ... nur.",
+        explanation: "Wish about the past: verb-first with \"doch\", or \"wenn ... nur\" with the verb at the end.",
       },
       {
         type: "translate",
@@ -937,10 +938,10 @@ export const DE_B2_U20: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "In Muenster there are more bikes than inhabitants.",
+        source: "In Münster there are more bikes than inhabitants.",
         answer: "In Münster gibt es mehr Fahrräder als Einwohner.",
         altAnswers: ["In Münster gibt es mehr Räder als Einwohner."],
-        explanation: "\"Es gibt\" + accusative; comparison with als.",
+        explanation: "\"Es gibt\" + accusative; comparison with \"als\".",
       },
       {
         type: "fill-blank",
@@ -981,7 +982,7 @@ export const DE_B2_U20: Lesson[] = [
         type: "speak",
         text: "Ich hätte öfter nach Hause kommen sollen.",
         prompt: "Say it in German: I should have come home more often.",
-        explanation: "Hätte ... sollen for regret.",
+        explanation: "\"Hätte ... sollen\" for regret.",
       },
     ],
   },
@@ -989,16 +990,16 @@ export const DE_B2_U20: Lesson[] = [
     slug: "b2-thematic-review-automatisierung",
     level: "DE-B2",
     number: 6,
-    title: "Thematic Review: Wenn eine Maschine Deinen Job Macht",
+    title: "Thematic Review: Wenn eine Maschine deinen Job macht",
     summary: "A warehouse worker is replaced by robots: es-structures, causal connectors and subjective modals.",
     duration: "18 min",
     sections: [
       {
         heading: "Mehmet's story",
         body: [
-          "Mehmet worked for 15 years in a warehouse (das Lager) near Kassel, picking and packing parcels. Last spring the company introduced robots. \"Es wurde lange über die Umstellung geredet\", he says, \"aber dass es so schnell gehen würde, hat keiner erwartet.\"",
+          "Mehmet worked for 15 years in a warehouse (\"das Lager\") near Kassel, picking and packing parcels. Last spring the company introduced robots. \"Es wurde lange über die Umstellung geredet\", he says, \"aber dass es so schnell gehen würde, hat keiner erwartet.\"",
           "Es-structures help him: \"Es wurden zwanzig Stellen gestrichen\" (twenty jobs were cut: plural verb). \"Es ist schwer zu akzeptieren, dass eine Maschine meine Arbeit macht.\" \"Ich finde es unfair, dass niemand gefragt wurde.\"",
-          "Vocabulary: die Automatisierung, der Roboter, die Stelle (job, position), streichen (to cut), ersetzen (to replace), die Umschulung (retraining), der Arbeitsplatz, die Kündigung (dismissal).",
+          "Vocabulary: \"die Automatisierung\", \"der Roboter\", \"die Stelle\" (job, position), \"streichen\" (to cut), \"ersetzen\" (to replace), \"die Umschulung\" (retraining), \"der Arbeitsplatz\", \"die Kündigung\" (dismissal).",
         ],
         examples: [
           { es: "Es wurde lange über die Umstellung geredet.", en: "There had been talk about the changeover for a long time." },
@@ -1010,7 +1011,7 @@ export const DE_B2_U20: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Es ___ zwanzig Stellen gestrichen.",
+            question: "Complete: \"Es ___ zwanzig Stellen gestrichen.\" (Twenty jobs were cut.)",
             options: ["wurden", "wurde", "wird", "worden"],
             correctIndex: 0,
             explanation: "The real subject \"zwanzig Stellen\" is plural.",
@@ -1022,14 +1023,14 @@ export const DE_B2_U20: Lesson[] = [
             source: "I think it's unfair that nobody was asked.",
             answer: "Ich finde es unfair, dass niemand gefragt wurde.",
             altAnswers: ["Ich finde es ungerecht, dass niemand gefragt wurde.", "Ich finde es unfair, dass keiner gefragt wurde.", "Ich finde es ungerecht, dass keiner gefragt wurde.", "Ich finde es unfair, dass niemand gefragt worden ist."],
-            explanation: "Correlate es with \"finden\".",
+            explanation: "Correlate \"es\" with \"finden\".",
           },
         ],
       },
       {
         heading: "Why? Causal connectors",
         body: [
-          "The company explains its decision with causal connectors (Units 11 and 17): \"Aufgrund steigender Kosten\" / \"wegen des Fachkräftemangels\" (because of the shortage of skilled workers), \"da die Konkurrenz billiger ist\", \"Die Nachfrage ist gestiegen, deshalb / folglich ...\".",
+          "The company explains its decision with causal connectors (Units 12 and 17): \"Aufgrund steigender Kosten\" / \"wegen des Fachkräftemangels\" (because of the shortage of skilled workers), \"da die Konkurrenz billiger ist\", \"Die Nachfrage ist gestiegen, deshalb / folglich ...\".",
           "\"Da\" introduces a known reason (verb at the end); \"denn\" adds a reason in main-clause order; \"nämlich\" sits in the Mittelfeld.",
         ],
         examples: [
@@ -1043,7 +1044,7 @@ export const DE_B2_U20: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using da.",
+            prompt: "Translate into German using \"da\".",
             source: "Since the competition is cheaper, they had to react.",
             answer: "Da die Konkurrenz billiger ist, musste man reagieren.",
             altAnswers: ["Da die Konkurrenz billiger ist, musste die Firma reagieren.", "Weil die Konkurrenz billiger ist, musste man reagieren.", "Da die Konkurrenz günstiger ist, musste man reagieren."],
@@ -1063,7 +1064,7 @@ export const DE_B2_U20: Lesson[] = [
       {
         heading: "Guesses about the future: subjective modals",
         body: [
-          "Mehmet and his colleagues speculate (Units 15-16): \"Das dürfte erst der Anfang sein.\" (probably). \"In zehn Jahren wird es hier kaum noch Menschen geben.\" \"Der Chef soll schon die nächste Halle planen.\" (reportedly). \"Die Firma muss viel Geld investiert haben.\" (must have).",
+          "Mehmet and his colleagues speculate (Units 14-16): \"Das dürfte erst der Anfang sein.\" (probably). \"In zehn Jahren wird es hier kaum noch Menschen geben.\" \"Der Chef soll schon die nächste Halle planen.\" (reportedly). \"Die Firma muss viel Geld investiert haben.\" (must have).",
           "Remember: \"muss ... haben\" = I'm sure; \"dürfte\" = probably; \"könnte\" = possibly; \"soll\" = people say.",
         ],
         examples: [
@@ -1077,18 +1078,18 @@ export const DE_B2_U20: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using müssen.",
+            prompt: "Translate into German using \"müssen\".",
             source: "The company must have invested a lot of money.",
             answer: "Die Firma muss viel Geld investiert haben.",
             altAnswers: ["Das Unternehmen muss viel Geld investiert haben."],
-            explanation: "Subjective muss + perfect infinitive.",
+            explanation: "Subjective \"muss\" + perfect infinitive.",
           },
           {
             type: "multiple-choice",
-            question: "'Der Chef soll schon die nächste Halle planen.' means:",
+            question: "\"Der Chef soll schon die nächste Halle planen.\" What does it mean?",
             options: ["People say the boss is already planning the next warehouse.", "The boss should plan the next warehouse.", "The boss must plan the next warehouse.", "The boss wants to plan the next warehouse."],
             correctIndex: 0,
-            explanation: "Subjective soll = reportedly.",
+            explanation: "Subjective \"soll\" = reportedly.",
           },
         ],
       },
@@ -1097,11 +1098,11 @@ export const DE_B2_U20: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, starting with Es.",
+        prompt: "Translate into German, starting with \"Es\".",
         source: "Twenty jobs were cut.",
         answer: "Es wurden zwanzig Stellen gestrichen.",
         altAnswers: ["Es wurden zwanzig Arbeitsplätze gestrichen.", "Es sind zwanzig Stellen gestrichen worden.", "Es wurden zwanzig Stellen abgebaut."],
-        explanation: "Placeholder es; plural verb.",
+        explanation: "Placeholder \"es\"; plural verb.",
       },
       {
         type: "translate",
@@ -1110,12 +1111,12 @@ export const DE_B2_U20: Lesson[] = [
         source: "It's hard to accept that a machine is doing my job.",
         answer: "Es ist schwer zu akzeptieren, dass eine Maschine meine Arbeit macht.",
         altAnswers: ["Es ist schwer zu akzeptieren, dass eine Maschine meinen Job macht.", "Es fällt mir schwer zu akzeptieren, dass eine Maschine meine Arbeit macht."],
-        explanation: "Es + adjective + zu-infinitive + dass-clause.",
+        explanation: "\"Es\" + adjective + zu-infinitive + dass-clause.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using dürfte.",
+        prompt: "Translate into German using \"dürfte\".",
         source: "That's probably only the beginning.",
         answer: "Das dürfte erst der Anfang sein.",
         altAnswers: ["Das dürfte nur der Anfang sein."],
@@ -1124,11 +1125,11 @@ export const DE_B2_U20: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using denn.",
+        prompt: "Translate into German using \"denn\".",
         source: "Mehmet is now retraining, because he wants to stay in the industry.",
         answer: "Mehmet macht jetzt eine Umschulung, denn er will in der Branche bleiben.",
         altAnswers: ["Mehmet macht jetzt eine Umschulung, denn er möchte in der Branche bleiben.", "Mehmet lässt sich jetzt umschulen, denn er will in der Branche bleiben."],
-        explanation: "Denn: position 0, main-clause order.",
+        explanation: "\"Denn\": position 0, main-clause order.",
       },
       {
         type: "fill-blank",
@@ -1137,21 +1138,21 @@ export const DE_B2_U20: Lesson[] = [
         sentence: "___ auch die Fahrer ersetzt werden.",
         answer: "Es könnte sein, dass",
         altAnswers: ["Es kann sein, dass"],
-        explanation: "Correlate es + könnte for a possibility.",
+        explanation: "Correlate \"es\" + \"könnte\" for a possibility.",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: He was lucky; he wasn't laid off, you see.",
         words: ["Er", "hat", "Glück", "gehabt,", "er", "wurde", "nämlich", "nicht", "entlassen."],
         translation: "He was lucky; he wasn't laid off, you see.",
-        explanation: "Nämlich in the Mittelfeld.",
+        explanation: "\"Nämlich\" in the Mittelfeld.",
       },
       {
         type: "multiple-choice",
         question: "Which sentence expresses the strongest certainty?",
         options: ["Die Firma muss viel investiert haben.", "Die Firma dürfte viel investiert haben.", "Die Firma könnte viel investiert haben.", "Die Firma soll viel investiert haben."],
         correctIndex: 0,
-        explanation: "muss > dürfte > könnte; soll = hearsay.",
+        explanation: "\"Muss\" > \"dürfte\" > \"könnte\"; \"soll\" reports hearsay rather than the speaker's certainty.",
       },
       {
         type: "listen-choose",
@@ -1159,22 +1160,22 @@ export const DE_B2_U20: Lesson[] = [
         question: "What does it mean?",
         options: ["There had been a lot of talk about the changeover.", "Nobody talked about the changeover.", "The changeover took a long time.", "He talked to his boss for a long time."],
         correctIndex: 0,
-        explanation: "Impersonal passive with es.",
+        explanation: "Impersonal passive with \"es\".",
       },
       {
         type: "speak",
         text: "Ich finde es unfair, dass niemand gefragt wurde.",
         prompt: "Say it in German: I think it's unfair that nobody was asked.",
-        explanation: "Correlate es with finden.",
+        explanation: "Correlate \"es\" with \"finden\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using sollen.",
+        prompt: "Translate into German using \"sollen\".",
         source: "The boss is said to be planning the next warehouse already.",
         answer: "Der Chef soll schon die nächste Halle planen.",
         altAnswers: ["Der Chef soll bereits die nächste Halle planen.", "Die Chefin soll schon die nächste Halle planen.", "Der Chef soll schon das nächste Lager planen."],
-        explanation: "Subjective soll for hearsay.",
+        explanation: "Subjective \"soll\" for hearsay.",
       },
     ],
   },
@@ -1202,7 +1203,7 @@ export const DE_B2_U20: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "'Wer hat das Fenster kaputt gemacht?' – Which answer is most natural?",
+            question: "Someone asks: \"Wer hat das Fenster kaputt gemacht?\" Which answer is most natural?",
             options: ["Das hat Max gemacht.", "Es war Max, der das Fenster kaputt gemacht hat, welches kaputt ist.", "Max war es, das Fenster.", "Gemacht hat das Fenster Max kaputt."],
             correctIndex: 0,
             explanation: "Known \"das\" in front, the new information \"Max\" late.",
@@ -1210,7 +1211,7 @@ export const DE_B2_U20: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Answer in German, starting with Das.",
+            prompt: "Answer in German, starting with \"Das\".",
             source: "Who did that? – Lisa did.",
             answer: "Das hat Lisa gemacht.",
             altAnswers: ["Lisa.", "Lisa hat das gemacht.", "Das war Lisa."],
@@ -1236,7 +1237,7 @@ export const DE_B2_U20: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with ausgerechnet.",
+            prompt: "Translate into German with \"ausgerechnet\".",
             source: "Max, of all people, did that!",
             answer: "Ausgerechnet Max hat das gemacht!",
             altAnswers: ["Ausgerechnet Max hat das getan!"],
@@ -1244,7 +1245,7 @@ export const DE_B2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "'Max hat den Kuchen gebacken, oder?' – You correct: it was Lisa.",
+            question: "Someone says: \"Max hat den Kuchen gebacken, oder?\" You correct them: it was Lisa. What do you say?",
             options: ["Nein, Lisa war es.", "Ja, Max hat ihn gebacken.", "Den Kuchen hat gebacken.", "Es war Kuchen."],
             correctIndex: 0,
             explanation: "A correction calls for an emphatic structure.",
@@ -1254,21 +1255,21 @@ export const DE_B2_U20: Lesson[] = [
       {
         heading: "Explain your choice",
         body: [
-          "Ask four questions: Is this an answer (→ new info late, short)? A correction (→ nicht ... sondern, es-cleft, X war es)? A surprise (→ ausgerechnet, sogar, exclamation)? A contrast (→ two fronted elements)?",
+          "Ask four questions: Is this an answer (→ new info late, short)? A correction (→ \"nicht ... sondern\", es-cleft, \"X war es\")? A surprise (→ \"ausgerechnet\", \"sogar\", exclamation)? A contrast (→ two fronted elements)?",
           "Written texts can't use stress, so they rely more on clefts and fronting than speech does.",
         ],
         examples: [
           { es: "Was mich wirklich überrascht hat, war seine Reaktion.", en: "What really surprised me was his reaction." },
           { es: "Erst gestern habe ich davon erfahren.", en: "I only found out about it yesterday." },
           { es: "Nicht das Wetter war das Problem, sondern die Organisation.", en: "The problem wasn't the weather, it was the organisation." },
-          { es: "Dich habe ich gar nicht gesehen!", en: "I didn't even see you!" },
+          { es: "Dich habe ich gar nicht gesehen!", en: "I didn't see you there at all!" },
           { es: "Selbst meine Oma hat ein Smartphone.", en: "Even my grandma has a smartphone." },
         ],
         checkpoint: [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with nicht ... sondern.",
+            prompt: "Translate into German with \"nicht ... sondern\".",
             source: "The problem wasn't the weather, it was the organisation.",
             answer: "Nicht das Wetter war das Problem, sondern die Organisation.",
             altAnswers: ["Das Problem war nicht das Wetter, sondern die Organisation."],
@@ -1277,7 +1278,7 @@ export const DE_B2_U20: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with selbst.",
+            prompt: "Translate into German with \"selbst\".",
             source: "Even my grandma has a smartphone.",
             answer: "Selbst meine Oma hat ein Smartphone.",
             altAnswers: ["Sogar meine Oma hat ein Smartphone.", "Selbst meine Großmutter hat ein Smartphone.", "Sogar meine Großmutter hat ein Smartphone.", "Sogar meine Oma hat ein Handy.", "Selbst meine Oma hat ein Handy."],
@@ -1299,7 +1300,7 @@ export const DE_B2_U20: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, starting with Erst.",
+        prompt: "Translate into German, starting with \"Erst\".",
         source: "I only found out about it yesterday.",
         answer: "Erst gestern habe ich davon erfahren.",
         altAnswers: ["Ich habe erst gestern davon erfahren.", "Erst gestern erfuhr ich davon."],
@@ -1317,7 +1318,7 @@ export const DE_B2_U20: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with sogar.",
+        prompt: "Translate into German with \"sogar\".",
         source: "Even the boss joined in the party!",
         answer: "Sogar der Chef hat mitgefeiert!",
         altAnswers: ["Selbst der Chef hat mitgefeiert!", "Sogar die Chefin hat mitgefeiert!", "Selbst die Chefin hat mitgefeiert!"],
@@ -1334,9 +1335,10 @@ export const DE_B2_U20: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: I didn't even see you!",
+        prompt: "Put the words in order to say: I didn't see you there at all!",
         words: ["Dich", "habe", "ich", "gar", "nicht", "gesehen!"],
-        translation: "I didn't even see you!",
+        translation: "I didn't see you there at all!",
+        altOrders: [["Ich", "habe", "dich", "gar", "nicht", "gesehen!"]],
         explanation: "Fronted pronoun for emphasis in speech.",
       },
       {
@@ -1348,10 +1350,10 @@ export const DE_B2_U20: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "'Wann hast du davon gehört?' – Which answer stresses that it was late?",
+        question: "Someone asks: \"Wann hast du davon gehört?\" Which answer stresses that it was late?",
         options: ["Erst gestern.", "Schon gestern.", "Gestern, sogar.", "Nur gestern."],
         correctIndex: 0,
-        explanation: "Erst = not until; schon = already, early.",
+        explanation: "\"Erst\" = not until (late); \"schon\" = already (early).",
       },
       {
         type: "listen-choose",
@@ -1365,7 +1367,7 @@ export const DE_B2_U20: Lesson[] = [
         type: "speak",
         text: "Nicht Max, sondern Lisa hat das gemacht.",
         prompt: "Say it in German, correcting someone: It wasn't Max but Lisa who did it.",
-        explanation: "Nicht ... sondern for a correction.",
+        explanation: "\"Nicht ... sondern\" for a correction.",
       },
     ],
   },
@@ -1381,8 +1383,8 @@ export const DE_B2_U20: Lesson[] = [
         heading: "The faulty email",
         body: [
           "Carla writes to a landlord. Her draft has mistakes in passive alternatives (Unit 5) and participle attributes (Unit 7): \"Die Wohnung lässt sich gut erreichbar. Laut Ihrer Anzeige ist die Miete bis Monatsende zu bezahlt. Ist die Küche benutzen bar? Ich interessiere mich für die in der Zeitung veröffentlichten Wohnung. Die bereits renovierte Bad gefällt mir.\"",
-          "The corrections: \"Die Wohnung ist gut erreichbar.\" (-bar adjective with sein, or \"lässt sich gut erreichen\"). \"... ist die Miete bis Monatsende zu bezahlen.\" (sein + zu + infinitive). \"Ist die Küche benutzbar?\" (one word).",
-          "\"... für die in der Zeitung veröffentlichte Wohnung\" (accusative feminine after die: -e). \"Das bereits renovierte Bad ...\" (das Bad, neuter).",
+          "The corrections: \"Die Wohnung ist gut erreichbar.\" (\"-bar\" adjective with \"sein\", or \"lässt sich gut erreichen\"). \"... ist die Miete bis Monatsende zu bezahlen.\" (\"sein\" + \"zu\" + infinitive). \"Ist die Küche benutzbar?\" (one word).",
+          "\"... für die in der Zeitung veröffentlichte Wohnung\" (accusative feminine after \"die\": -e). \"Das bereits renovierte Bad ...\" (\"das Bad\", neuter).",
         ],
         examples: [
           { es: "Die Wohnung ist gut erreichbar.", en: "The flat is easy to reach." },
@@ -1399,14 +1401,14 @@ export const DE_B2_U20: Lesson[] = [
             sentence: "Die Miete ist bis Monatsende ___.",
             answer: "zu bezahlen",
             altAnswers: ["zu zahlen"],
-            explanation: "sein + zu + infinitive = must be done.",
+            explanation: "\"sein + zu\" + infinitive = must be done.",
           },
           {
             type: "multiple-choice",
-            question: "Which is correct?",
+            question: "Carla wants to write: I like the already renovated bathroom. Which is correct?",
             options: ["Das bereits renovierte Bad gefällt mir.", "Die bereits renovierte Bad gefällt mir.", "Das bereits renovierten Bad gefällt mir.", "Das bereits renoviert Bad gefällt mir."],
             correctIndex: 0,
-            explanation: "Das Bad (neuter), nominative after \"das\": -e.",
+            explanation: "\"Das Bad\" is neuter; nominative after \"das\": weak ending -e.",
           },
         ],
       },
@@ -1414,7 +1416,7 @@ export const DE_B2_U20: Lesson[] = [
         heading: "Passive alternatives: the toolkit",
         body: [
           "Four ways to avoid werden-passive: \"man\" (\"Man kann die Wohnung ab Mai beziehen\"), \"sich lassen\" + infinitive (\"Die Fenster lassen sich leicht öffnen\"), \"-bar\" adjectives (\"Die Wohnung ist ab Mai beziehbar\", rare; better \"bezugsfertig\"), and \"sein + zu + infinitive\" (necessity or possibility: \"Die Kaution ist vorher zu überweisen\").",
-          "Common mistakes: \"*lässt sich erreichbar\" (mixing two structures), \"*zu bezahlt\" (zu + infinitive, not participle), \"*benutzen bar\" (-bar attaches to the verb stem: benutzbar).",
+          "Common mistakes: \"*lässt sich erreichbar\" (mixing two structures), \"*zu bezahlt\" (\"zu\" + infinitive, not participle), \"*benutzen bar\" (-bar attaches to the verb stem: \"benutzbar\").",
         ],
         examples: [
           { es: "Man kann die Wohnung ab Mai beziehen.", en: "You can move into the flat from May." },
@@ -1427,20 +1429,20 @@ export const DE_B2_U20: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using sich lassen.",
+            prompt: "Translate into German using \"sich lassen\".",
             source: "The windows open easily.",
             answer: "Die Fenster lassen sich leicht öffnen.",
             altAnswers: ["Die Fenster lassen sich einfach öffnen.", "Die Fenster lassen sich gut öffnen."],
-            explanation: "sich lassen + infinitive for 'can be done'.",
+            explanation: "\"sich lassen\" + infinitive for 'can be done'.",
           },
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using sein + zu.",
+            prompt: "Translate into German using \"sein + zu\".",
             source: "The deposit must be transferred in advance.",
             answer: "Die Kaution ist vorher zu überweisen.",
             altAnswers: ["Die Kaution ist im Voraus zu überweisen.", "Die Kaution ist vorab zu überweisen."],
-            explanation: "sein + zu + infinitive = must be done.",
+            explanation: "\"sein + zu\" + infinitive = must be done.",
           },
         ],
       },
@@ -1551,7 +1553,7 @@ export const DE_B2_U20: Lesson[] = [
       {
         type: "dictation",
         audio: "Die Kaution ist vor dem Einzug zu überweisen.",
-        explanation: "sein + zu + infinitive; \"der Einzug\" = moving in.",
+        explanation: "\"sein + zu\" + infinitive; \"der Einzug\" = moving in.",
       },
       {
         type: "speak",
@@ -1574,7 +1576,7 @@ export const DE_B2_U20: Lesson[] = [
         body: [
           "The East Side Gallery is the longest surviving stretch of the Berlin Wall, about 1.3 km along the Spree, painted by artists from many countries in 1990. \"Was viele Touristen nicht wissen, ist, dass die Bilder mehrmals restauriert wurden.\"",
           "Focus particles: \"Sogar Künstler aus Japan und Chile haben hier gemalt.\" \"Nur wenige Originalbilder sind unverändert geblieben.\" \"Erst 1990 wurde die Mauer bemalt\" (on the east side, which had been untouchable before).",
-          "Vocabulary: das Wandbild (mural), das Graffiti, sprühen (to spray), die Sprühdose, der Künstler / die Künstlerin, bemalen, die Mauer, das Denkmal (monument), unter Denkmalschutz stehen (to be a listed monument).",
+          "Vocabulary: \"das Wandbild\" (mural), \"das Graffiti\", \"sprühen\" (to spray), \"die Sprühdose\", \"der Künstler\" / \"die Künstlerin\", \"bemalen\", \"die Mauer\", \"das Denkmal\" (monument), \"unter Denkmalschutz stehen\" (to be a listed monument).",
         ],
         examples: [
           { es: "Was viele Touristen nicht wissen, ist, dass die Bilder restauriert wurden.", en: "What many tourists don't know is that the paintings were restored." },
@@ -1587,7 +1589,7 @@ export const DE_B2_U20: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with sogar.",
+            prompt: "Translate into German with \"sogar\".",
             source: "Even artists from Japan painted here.",
             answer: "Sogar Künstler aus Japan haben hier gemalt.",
             altAnswers: ["Selbst Künstler aus Japan haben hier gemalt.", "Sogar Künstler aus Japan malten hier.", "Sogar Künstlerinnen und Künstler aus Japan haben hier gemalt."],
@@ -1595,10 +1597,10 @@ export const DE_B2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "'Erst 1990 wurde die Ostseite bemalt.' What does erst add?",
+            question: "\"Erst 1990 wurde die Ostseite bemalt.\" What does \"erst\" add?",
             options: ["That it happened late (not before 1990).", "That it happened first in 1990.", "That it was painted only once.", "That 1990 was early."],
             correctIndex: 0,
-            explanation: "Erst + time = not until.",
+            explanation: "\"Erst\" + time = not until.",
           },
         ],
       },
@@ -1632,7 +1634,7 @@ export const DE_B2_U20: Lesson[] = [
             en: "[However beautiful the paintings are], many residents had to move away.",
             sentence: "___, viele Anwohner mussten wegziehen.",
             answer: "So schön die Bilder auch sind",
-            explanation: "So ... auch + verb at the end.",
+            explanation: "\"So\" + adjective + \"auch\", verb at the end; the main clause then keeps normal order (\"viele Anwohner mussten\").",
           },
         ],
       },
@@ -1657,12 +1659,12 @@ export const DE_B2_U20: Lesson[] = [
             source: "It's not the artists I'm criticising, it's the investors.",
             answer: "Es sind nicht die Künstler, die ich kritisiere, sondern die Investoren.",
             altAnswers: ["Nicht die Künstler kritisiere ich, sondern die Investoren.", "Ich kritisiere nicht die Künstler, sondern die Investoren."],
-            explanation: "Es-cleft with nicht ... sondern; plural \"sind\".",
+            explanation: "Es-cleft with \"nicht ... sondern\"; plural \"sind\".",
           },
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with gerade.",
+            prompt: "Translate into German with \"gerade\".",
             source: "It's the small paintings in particular that I find exciting.",
             answer: "Gerade die kleinen Bilder finde ich spannend.",
             altAnswers: ["Gerade die kleinen Bilder finde ich interessant.", "Besonders die kleinen Bilder finde ich spannend."],
@@ -1702,7 +1704,7 @@ export const DE_B2_U20: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with selbst.",
+        prompt: "Translate into German with \"selbst\".",
         source: "Even the city makes money from the tourists.",
         answer: "Selbst die Stadt verdient an den Touristen.",
         altAnswers: ["Sogar die Stadt verdient an den Touristen.", "Selbst die Stadt verdient Geld mit den Touristen.", "Sogar die Stadt verdient Geld mit den Touristen."],
@@ -1767,7 +1769,7 @@ export const DE_B2_U20: Lesson[] = [
         heading: "Regret and reproach: Konjunktiv II past with modals",
         body: [
           "Regret about yourself: \"Ich hätte früher losfahren sollen.\" 'I should have set off earlier.' Reproach to someone else: \"Du hättest mich anrufen können!\" 'You could have called me!' (implying: why didn't you?) or \"Du hättest das nicht sagen sollen.\"",
-          "Form: hätte + infinitive + modal infinitive (double infinitive) at the end. In a subordinate clause, \"hätte\" goes before the double infinitive: \"..., dass ich früher hätte losfahren sollen.\"",
+          "Form: \"hätte\" + infinitive + modal infinitive (double infinitive) at the end. In a subordinate clause, \"hätte\" goes before the double infinitive: \"..., dass ich früher hätte losfahren sollen.\"",
           "English 'should have done' and 'could have done' both map onto this pattern, with the modal in the infinitive (\"sollen\", \"können\"), never the participle.",
         ],
         examples: [
@@ -1785,14 +1787,14 @@ export const DE_B2_U20: Lesson[] = [
             source: "You could have called me!",
             answer: "Du hättest mich anrufen können!",
             altAnswers: ["Ihr hättet mich anrufen können!", "Sie hätten mich anrufen können!"],
-            explanation: "Reproach: hättest + infinitive + können.",
+            explanation: "Reproach: \"hättest\" + infinitive + \"können\".",
           },
           {
             type: "multiple-choice",
-            question: "Which is correct?",
+            question: "You want to say: I should have set off earlier. Which is correct?",
             options: ["Ich hätte früher losfahren sollen.", "Ich hätte früher losfahren gesollt.", "Ich sollte früher losgefahren haben.", "Ich hätte früher losgefahren sollen."],
             correctIndex: 0,
-            explanation: "Double infinitive: losfahren sollen.",
+            explanation: "Double infinitive: \"losfahren sollen\".",
           },
         ],
       },
@@ -1800,7 +1802,7 @@ export const DE_B2_U20: Lesson[] = [
         heading: "Supposition: muss ... haben, wird ... haben",
         body: [
           "Guessing about the past (Units 14-15): \"Er muss den Zug verpasst haben.\" 'He must have missed the train.' (I'm fairly sure.) \"Er wird den Zug verpasst haben.\" 'He'll have missed the train.' (I assume so.) \"Er könnte den Zug verpasst haben.\" (possibly).",
-          "Form: modal in the indicative + participle + haben/sein. Compare: \"Er hätte den Zug nehmen sollen\" (reproach, Konjunktiv II) vs \"Er muss den Zug genommen haben\" (supposition, indicative).",
+          "Form: modal (\"muss\", \"wird\", or subjective \"dürfte\" / \"könnte\") + participle + \"haben\" / \"sein\". Compare: \"Er hätte den Zug nehmen sollen\" (reproach, Konjunktiv II) vs \"Er muss den Zug genommen haben\" (supposition, indicative).",
         ],
         examples: [
           { es: "Er muss den Zug verpasst haben.", en: "He must have missed the train." },
@@ -1813,10 +1815,10 @@ export const DE_B2_U20: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using müssen.",
+            prompt: "Translate into German using \"müssen\".",
             source: "He must have missed the train.",
             answer: "Er muss den Zug verpasst haben.",
-            explanation: "Supposition: muss + perfect infinitive.",
+            explanation: "Supposition: \"muss\" + perfect infinitive.",
           },
           {
             type: "fill-blank",
@@ -1825,14 +1827,14 @@ export const DE_B2_U20: Lesson[] = [
             sentence: "Sie wird schon ___.",
             answer: "nach Hause gegangen sein",
             altAnswers: ["heimgegangen sein"],
-            explanation: "Futur II for supposition; gehen takes sein.",
+            explanation: "Futur II for supposition; \"gehen\" takes \"sein\".",
           },
         ],
       },
       {
         heading: "Which one is it?",
         body: [
-          "Ask: is the speaker sorry about their own past (regret: ich hätte ... sollen), criticising someone (reproach: du hättest ... können/sollen), or guessing what happened (supposition: muss/wird/dürfte/könnte ... haben)?",
+          "Ask: is the speaker sorry about their own past (regret: \"ich hätte ... sollen\"), criticising someone (reproach: \"du hättest ... können / sollen\"), or guessing what happened (supposition: \"muss / wird / dürfte / könnte ... haben\")?",
           "Context clues: \"Schade!\", \"Leider\" → regret; \"Warum hast du nicht ...?\" → reproach; \"wahrscheinlich\", \"bestimmt\", evidence (\"die Straße ist nass\") → supposition.",
         ],
         examples: [
@@ -1845,10 +1847,10 @@ export const DE_B2_U20: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "'Die Tür ist offen, jemand muss hier gewesen sein.' This is:",
-            options: ["a supposition", "a regret", "a reproach", "a wish"],
+            question: "\"Die Tür ist offen, jemand muss hier gewesen sein.\" What is the speaker doing?",
+            options: ["Making a supposition", "Expressing regret", "Reproaching someone", "Making a wish"],
             correctIndex: 0,
-            explanation: "Evidence + muss ... gewesen sein = logical guess.",
+            explanation: "Evidence + \"muss ... gewesen sein\" = logical guess.",
           },
           {
             type: "translate",
@@ -1857,7 +1859,7 @@ export const DE_B2_U20: Lesson[] = [
             source: "We should have booked the hotel earlier.",
             answer: "Wir hätten das Hotel früher buchen sollen.",
             altAnswers: ["Wir hätten das Hotel früher buchen müssen."],
-            explanation: "Regret: hätten + buchen sollen.",
+            explanation: "Regret: \"hätten\" + \"buchen sollen\".",
           },
         ],
       },
@@ -1870,7 +1872,7 @@ export const DE_B2_U20: Lesson[] = [
         source: "You shouldn't have said that.",
         answer: "Du hättest das nicht sagen sollen.",
         altAnswers: ["Das hättest du nicht sagen sollen.", "Ihr hättet das nicht sagen sollen.", "Sie hätten das nicht sagen sollen."],
-        explanation: "Reproach with nicht before the double infinitive.",
+        explanation: "Reproach with \"nicht\" before the double infinitive.",
       },
       {
         type: "translate",
@@ -1879,16 +1881,16 @@ export const DE_B2_U20: Lesson[] = [
         source: "That can't be right; you must have miscalculated.",
         answer: "Das kann nicht stimmen, du musst dich verrechnet haben.",
         altAnswers: ["Das kann nicht stimmen, Sie müssen sich verrechnet haben.", "Das kann nicht stimmen, ihr müsst euch verrechnet haben.", "Das kann nicht sein, du musst dich verrechnet haben."],
-        explanation: "Supposition: musst + perfect infinitive.",
+        explanation: "Supposition: \"musst\" + perfect infinitive.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German using könnte.",
+        prompt: "Translate into German using \"könnte\".",
         source: "He might have forgotten the appointment.",
         answer: "Er könnte den Termin vergessen haben.",
         altAnswers: ["Er kann den Termin vergessen haben.", "Er hat den Termin vielleicht vergessen."],
-        explanation: "Könnte = possibly.",
+        explanation: "\"Könnte\" = possibly.",
       },
       {
         type: "translate",
@@ -1897,7 +1899,7 @@ export const DE_B2_U20: Lesson[] = [
         source: "We should have taken more water with us.",
         answer: "Wir hätten mehr Wasser mitnehmen sollen.",
         altAnswers: ["Wir hätten mehr Wasser mitnehmen müssen."],
-        explanation: "Regret with a separable verb: mitnehmen sollen.",
+        explanation: "Regret with a separable verb: \"mitnehmen sollen\".",
       },
       {
         type: "fill-blank",
@@ -1905,7 +1907,7 @@ export const DE_B2_U20: Lesson[] = [
         en: "Why didn't you say anything? You [could have warned] me!",
         sentence: "Warum hast du nichts gesagt? Du ___!",
         answer: "hättest mich warnen können",
-        explanation: "Reproach: hättest + object + warnen können.",
+        explanation: "Reproach: \"hättest\" + object + \"warnen können\".",
       },
       {
         type: "fill-blank",
@@ -1913,14 +1915,14 @@ export const DE_B2_U20: Lesson[] = [
         en: "The door is open; someone [must have been] here.",
         sentence: "Die Tür ist offen, jemand ___.",
         answer: "muss hier gewesen sein",
-        explanation: "Supposition with sein.",
+        explanation: "Supposition with \"sein\".",
       },
       {
         type: "word-order",
         prompt: "Put the words in order to say: I realise that I should have set off earlier.",
         words: ["Mir", "ist", "klar,", "dass", "ich", "früher", "hätte", "losfahren", "sollen."],
         translation: "I realise that I should have set off earlier.",
-        explanation: "In the subordinate clause, hätte comes before the double infinitive.",
+        explanation: "In the subordinate clause, \"hätte\" comes before the double infinitive.",
       },
       {
         type: "matching",
@@ -1939,7 +1941,7 @@ export const DE_B2_U20: Lesson[] = [
         question: "What is the speaker doing?",
         options: ["Reproaching someone for not calling.", "Thanking someone for calling.", "Asking someone to call.", "Guessing that someone called."],
         correctIndex: 0,
-        explanation: "Hättest ... können = reproach.",
+        explanation: "\"Hättest ... können\" = reproach.",
       },
       {
         type: "speak",
@@ -1982,7 +1984,7 @@ export const DE_B2_U20: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "'Die Brücke ist gesperrt.' means:",
+            question: "\"Die Brücke ist gesperrt.\" What does it mean?",
             options: ["The bridge is closed.", "The bridge is broken.", "The bridge is new.", "The bridge is crowded."],
             correctIndex: 0,
             explanation: "\"Gesperrt\" = closed off.",
@@ -2019,7 +2021,7 @@ export const DE_B2_U20: Lesson[] = [
             sentence: "___, dass er nicht angerufen hat.",
             answer: "Es wundert mich",
             altAnswers: ["Es überrascht mich", "Mich wundert"],
-            explanation: "Correlate es + wundern.",
+            explanation: "Correlate \"es\" + \"wundern\".",
           },
         ],
       },
@@ -2044,7 +2046,7 @@ export const DE_B2_U20: Lesson[] = [
             source: "Many jobs were replaced by robots.",
             answer: "Viele Stellen wurden durch Roboter ersetzt.",
             altAnswers: ["Viele Arbeitsplätze wurden durch Roboter ersetzt.", "Viele Stellen sind durch Roboter ersetzt worden.", "Viele Jobs wurden durch Roboter ersetzt."],
-            explanation: "Passive with durch for the means.",
+            explanation: "Passive with \"durch\" for the means.",
           },
           {
             type: "translate",
@@ -2157,8 +2159,8 @@ export const DE_B2_U20: Lesson[] = [
       {
         heading: "Passive alternatives in one minute",
         body: [
-          "man + active: \"Man hat die Straße gesperrt.\" sich lassen + infinitive (can be done): \"Das lässt sich leicht erklären.\" -bar (can be done): \"Das Problem ist lösbar.\" sein + zu + infinitive (must or can be done): \"Die Formulare sind bis Freitag abzugeben.\" Also: \"Das ist nicht zu glauben!\" ('That's unbelievable!').",
-          "The Zustandspassiv with sein shows a result: \"Die Tür ist geschlossen\" (it's closed, a state), vs \"Die Tür wird geschlossen\" (someone is closing it).",
+          "\"Man\" + active: \"Man hat die Straße gesperrt.\" \"Sich lassen\" + infinitive (can be done): \"Das lässt sich leicht erklären.\" -bar (can be done): \"Das Problem ist lösbar.\" \"Sein\" + \"zu\" + infinitive (must or can be done): \"Die Formulare sind bis Freitag abzugeben.\" Also: \"Das ist nicht zu glauben!\" ('That's unbelievable!').",
+          "The Zustandspassiv with \"sein\" shows a result: \"Die Tür ist geschlossen\" (it's closed, a state), vs \"Die Tür wird geschlossen\" (someone is closing it).",
         ],
         examples: [
           { es: "Das lässt sich leicht erklären.", en: "That's easy to explain." },
@@ -2171,20 +2173,20 @@ export const DE_B2_U20: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using sein + zu.",
+            prompt: "Translate into German using \"sein + zu\".",
             source: "The forms must be handed in by Friday.",
             answer: "Die Formulare sind bis Freitag abzugeben.",
             altAnswers: ["Die Formulare sind bis Freitag einzureichen."],
-            explanation: "zu between prefix and stem: abzugeben.",
+            explanation: "\"Zu\" goes between prefix and stem: \"abzugeben\".",
           },
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German using sich lassen.",
+            prompt: "Translate into German using \"sich lassen\".",
             source: "That's easy to explain.",
             answer: "Das lässt sich leicht erklären.",
             altAnswers: ["Das lässt sich einfach erklären.", "Das ist leicht zu erklären.", "Das ist einfach zu erklären."],
-            explanation: "sich lassen + infinitive.",
+            explanation: "\"sich lassen\" + infinitive.",
           },
         ],
       },
@@ -2208,7 +2210,7 @@ export const DE_B2_U20: Lesson[] = [
             en: "It smells of [freshly baked bread].",
             sentence: "Es riecht nach ___.",
             answer: "frisch gebackenem Brot",
-            explanation: "Dative after nach, strong ending -em without article.",
+            explanation: "Dative after \"nach\", strong ending -em without article.",
           },
           {
             type: "translate",
@@ -2224,7 +2226,7 @@ export const DE_B2_U20: Lesson[] = [
       {
         heading: "Mixed round",
         body: [
-          "Combine both: \"Die gestern gelieferten Möbel lassen sich leicht aufbauen.\" \"Die zu reparierenden Geräte stehen im Keller.\" (zu + present participle = 'that need to be repaired', a formal structure.)",
+          "Combine both: \"Die gestern gelieferten Möbel lassen sich leicht aufbauen.\" \"Die zu reparierenden Geräte stehen im Keller.\" (\"zu\" + present participle = 'that need to be repaired', a formal structure.)",
           "Speed tip: identify the noun first, then read the attribute between the article and the noun.",
         ],
         examples: [
@@ -2242,14 +2244,14 @@ export const DE_B2_U20: Lesson[] = [
             source: "The furniture delivered yesterday is easy to assemble.",
             answer: "Die gestern gelieferten Möbel lassen sich leicht aufbauen.",
             altAnswers: ["Die gestern gelieferten Möbel sind leicht aufzubauen.", "Die gestern gelieferten Möbel lassen sich einfach aufbauen.", "Die gestern gelieferten Möbel sind einfach aufzubauen."],
-            explanation: "Participle attribute + sich lassen (Möbel is plural).",
+            explanation: "Participle attribute + \"sich lassen\" (\"Möbel\" is plural).",
           },
           {
             type: "multiple-choice",
-            question: "'Die zu reparierenden Geräte' means:",
+            question: "\"Die zu reparierenden Geräte\": what does it mean?",
             options: ["the devices that need repairing", "the devices being repaired right now", "the repaired devices", "the devices that repair things"],
             correctIndex: 0,
-            explanation: "zu + present participle = must be done.",
+            explanation: "\"Zu\" + present participle = something that must be done.",
           },
         ],
       },
@@ -2312,25 +2314,25 @@ export const DE_B2_U20: Lesson[] = [
         prompt: "Put the words in order to say: The renovated house is barely recognisable.",
         words: ["Das", "renovierte", "Haus", "ist", "kaum", "wiederzuerkennen."],
         translation: "The renovated house is barely recognisable.",
-        explanation: "sein + zu: \"wiederzuerkennen\" in one word.",
+        explanation: "\"sein + zu\": \"wiederzuerkennen\" in one word.",
       },
       {
         type: "multiple-choice",
         question: "Which is a state (Zustandspassiv)?",
         options: ["Die Tür ist geschlossen.", "Die Tür wird geschlossen.", "Man schließt die Tür.", "Die Tür lässt sich schließen."],
         correctIndex: 0,
-        explanation: "sein + participle = result state.",
+        explanation: "\"sein\" + participle = result state.",
       },
       {
         type: "dictation",
         audio: "Das ist ja nicht zu glauben!",
-        explanation: "sein + zu + infinitive as an exclamation.",
+        explanation: "\"sein + zu\" + infinitive as an exclamation.",
       },
       {
         type: "speak",
         text: "Die gestern gelieferten Möbel lassen sich leicht aufbauen.",
         prompt: "Say it in German: The furniture delivered yesterday is easy to assemble.",
-        explanation: "Participle attribute + sich lassen.",
+        explanation: "Participle attribute + \"sich lassen\".",
       },
     ],
   },
@@ -2348,5 +2350,5 @@ export const DE_B2_U20_WRITING: WriteExercise = {
     "A reproach or regret with \"hätte ... sollen/können\".",
   ],
   modelAnswer: "Sehr geehrte Damen und Herren,\n\nwas für eine Nachricht! Erst gestern habe ich in Ihrer Zeitung gelesen, dass in unserer Stadtbibliothek bald keine Menschen mehr arbeiten sollen. Was mich am meisten stört, ist, dass niemand die Bürger gefragt hat. Es waren doch ausgerechnet die Mitarbeiterinnen der Bibliothek, die meinen Kindern das Lesen schmackhaft gemacht haben. Kann ein Automat ein gutes Buch empfehlen? Wohl kaum!\n\nIch finde es falsch, dass die Stadt nur an die Kosten denkt. Sogar die Bürgermeisterin hat im Wahlkampf versprochen, die Bibliothek zu stärken. Wer jetzt Personal streicht, gefährdet einen der wenigen Orte, an denen sich Jung und Alt noch begegnen. Was mich überrascht hat, war die Begründung: Es fehle angeblich an Geld. Gleichzeitig wird aber ein neues Parkhaus gebaut.\n\nDie Stadt hätte die Pläne früher öffentlich diskutieren sollen. Man hätte auch Ehrenamtliche einbeziehen können. Es ist noch nicht zu spät, die Entscheidung zu überdenken.\n\nMit freundlichen Grüßen\nPetra Hoffmann",
-  explanation: "The letter uses pseudo-clefts (\"Was mich am meisten stört, ist, dass ...\", \"Was mich überrascht hat, war ...\", \"Wer ... streicht, gefährdet ...\") and an es-cleft with the plural verb agreeing (\"Es waren ... die Mitarbeiterinnen, die ...\"). The correlate es announces clauses (\"Ich finde es falsch, dass ...\", \"Es ist noch nicht zu spät, ... zu überdenken\"). Focus particles (erst gestern, ausgerechnet, nur, sogar) sit directly before the word they focus, \"Was für eine Nachricht!\" is an exclamative, and \"hätte ... diskutieren sollen\" / \"hätte ... einbeziehen können\" express reproach.",
+  explanation: "The letter uses pseudo-clefts (\"Was mich am meisten stört, ist, dass ...\", \"Was mich überrascht hat, war ...\", \"Wer ... streicht, gefährdet ...\") and an es-cleft with the plural verb agreeing (\"Es waren ... die Mitarbeiterinnen, die ...\"). The correlate \"es\" announces clauses (\"Ich finde es falsch, dass ...\", \"Es ist noch nicht zu spät, ... zu überdenken\"). Focus particles (\"erst gestern\", \"ausgerechnet\", \"nur\", \"sogar\") sit directly before the word they focus, \"Was für eine Nachricht!\" is an exclamative, and \"hätte ... diskutieren sollen\" / \"hätte ... einbeziehen können\" express reproach.",
 };

@@ -119,7 +119,7 @@ export const DE_B2_U02_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The client [should have been informed].",
+        en: "Someone [should] have [informed] the client.",
         sentence: "Man hätte den Kunden ___.",
         answer: "informieren müssen",
         altAnswers: ["informieren sollen"],
@@ -380,6 +380,7 @@ export const DE_B2_U02_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Although we would have been allowed to stay, we left.",
         answer: "Obwohl wir hätten bleiben dürfen, sind wir gegangen.",
+        altAnswers: ["Obwohl wir hätten bleiben dürfen, gingen wir."],
         explanation: "\"Hätten bleiben dürfen\"; the main clause starts with its verb \"sind\".",
       },
       {
@@ -404,10 +405,10 @@ export const DE_B2_U02_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "It's a pity that you couldn't have come. (to a friend)",
-        answer: "Schade, dass du nicht hättest kommen können.",
-        altAnswers: ["Es ist schade, dass du nicht hättest kommen können."],
-        explanation: "\"Hättest\" before \"kommen können\".",
+        source: "It annoys me that you could have warned me. (to a friend)",
+        answer: "Es ärgert mich, dass du mich hättest warnen können.",
+        altAnswers: ["Mich ärgert, dass du mich hättest warnen können.", "Es ärgert mich, dass du mich hättest vorwarnen können."],
+        explanation: "In the dass-clause \"hättest\" comes before \"warnen können\"; the pronoun \"mich\" stays early, right after the subject.",
       },
       {
         type: "translate",
@@ -496,7 +497,7 @@ export const DE_B2_U02_EXTRA: Lesson[] = [
     level: "DE-B2",
     number: 4,
     optional: true,
-    title: "Extra Practice: Es Wäre Besser Gewesen, Wenn...",
+    title: "Extra Practice: Es wäre besser gewesen, wenn...",
     summary: "Regrets about situations rather than people: es wäre besser gewesen, wenn wir gebucht hätten; lieber and bereuen in context.",
     duration: "12 min",
     sections: [
@@ -526,7 +527,7 @@ export const DE_B2_U02_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "I [would rather have drunk] tea.",
+            en: "I [would rather have] drunk tea.",
             sentence: "Ich ___ Tee getrunken.",
             answer: "hätte lieber",
             explanation: "\"Lieber\" sits after \"hätte\".",

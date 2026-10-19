@@ -234,7 +234,7 @@ export const DE_B1_U07: Lesson[] = [
             prompt: "Translate into German.",
             source: "I wish you were here. (to a friend)",
             answer: "Ich wünschte, du wärst hier.",
-            altAnswers: ["Ich wünschte, du wärest hier.", "Ich wünschte, ihr wärt hier.", "Ich wünschte, Sie wären hier.", "Ich wünsche mir, du wärst hier."],
+            altAnswers: ["Ich wünschte, du wärest hier.", "Ich wünsche mir, du wärst hier."],
             explanation: "English were is a present wish, so German uses the Konjunktiv \"wärst\". Main-clause order after the comma, no \"dass\".",
           },
           {
@@ -301,7 +301,7 @@ export const DE_B1_U07: Lesson[] = [
             prompt: "Translate into German.",
             source: "What would you like for Christmas? (to a friend)",
             answer: "Was wünschst du dir zu Weihnachten?",
-            altAnswers: ["Was wünscht ihr euch zu Weihnachten?", "Was wünschen Sie sich zu Weihnachten?", "Was wünschst du dir für Weihnachten?"],
+            altAnswers: ["Was wünschst du dir für Weihnachten?"],
             explanation: "A real wish: indicative \"wünschst\" + reflexive dative \"dir\". For Christmas = \"zu Weihnachten\".",
           },
           {
@@ -358,7 +358,6 @@ export const DE_B1_U07: Lesson[] = [
         prompt: "Translate into German.",
         source: "I wish you every success! (to a friend)",
         answer: "Ich wünsche dir viel Erfolg!",
-        altAnswers: ["Ich wünsche euch viel Erfolg!", "Ich wünsche Ihnen viel Erfolg!"],
         explanation: "A real wish for someone: indicative \"wünsche\" + dative.",
       },
       {
@@ -372,7 +371,7 @@ export const DE_B1_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "If only the bus [would] finally [come]!",
+        en: "If only the bus [would come] at last!",
         sentence: "Wenn der Bus doch endlich ___!",
         answer: "käme",
         altAnswers: ["kommen würde"],
@@ -380,7 +379,7 @@ export const DE_B1_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is a real wish for a present, not an unreal one?",
+        question: "Which is a real wish for a present (a gift), not an unreal wish?",
         options: ["Ich wünsche mir ein neues Handy.", "Ich wünschte, ich hätte ein neues Handy.", "Wenn ich doch nur ein neues Handy hätte!", "Hätte ich doch ein neues Handy!"],
         correctIndex: 0,
         explanation: "\"Ich wünsche mir\" + accusative: an ordinary wish that may come true.",
@@ -417,7 +416,7 @@ export const DE_B1_U07: Lesson[] = [
       {
         heading: "An deiner Stelle würde ich...",
         body: [
-          "\"An deiner Stelle\" (in your place) is the German for if I were you. It fills position 1, so \"würde\" comes straight after it: \"An deiner Stelle würde ich zum Arzt gehen\". The common mistake is English order: *\"An deiner Stelle ich würde...\"",
+          "\"An deiner Stelle\" (in your place) is the German for if I were you. It fills position 1, so \"würde\" comes straight after it: \"An deiner Stelle würde ich zum Arzt gehen\". The common mistake is English order: \"*An deiner Stelle ich würde...\"",
           "Adjust the possessive for the person: \"an deiner Stelle\" (du), \"an Ihrer Stelle\" (Sie), \"an eurer Stelle\" (ihr). \"Stelle\" is feminine, so the dative after \"an\" is \"deiner\".",
           "You can also use \"ich an deiner Stelle\" in the middle: \"Ich würde an deiner Stelle mit ihm reden\". And with \"wäre\" or \"hätte\": \"An deiner Stelle wäre ich vorsichtig\".",
         ],
@@ -436,7 +435,7 @@ export const DE_B1_U07: Lesson[] = [
             prompt: "Translate into German.",
             source: "If I were you, I'd go to the doctor. (to a friend)",
             answer: "An deiner Stelle würde ich zum Arzt gehen.",
-            altAnswers: ["Ich würde an deiner Stelle zum Arzt gehen.", "An deiner Stelle würde ich zur Ärztin gehen.", "An Ihrer Stelle würde ich zum Arzt gehen.", "An eurer Stelle würde ich zum Arzt gehen."],
+            altAnswers: ["Ich würde an deiner Stelle zum Arzt gehen.", "An deiner Stelle würde ich zur Ärztin gehen."],
             explanation: "\"An deiner Stelle\" fills position 1, so \"würde\" comes next, then \"ich\".",
           },
           {
@@ -469,7 +468,6 @@ export const DE_B1_U07: Lesson[] = [
             prompt: "Translate into German.",
             source: "You shouldn't drink so much coffee. (to a friend)",
             answer: "Du solltest nicht so viel Kaffee trinken.",
-            altAnswers: ["Ihr solltet nicht so viel Kaffee trinken.", "Sie sollten nicht so viel Kaffee trinken."],
             explanation: "\"Solltest\" + \"nicht so viel\" + the infinitive at the end.",
           },
           {
@@ -532,7 +530,6 @@ export const DE_B1_U07: Lesson[] = [
         prompt: "Translate into German.",
         source: "You should work less. (to a friend)",
         answer: "Du solltest weniger arbeiten.",
-        altAnswers: ["Ihr solltet weniger arbeiten.", "Sie sollten weniger arbeiten."],
         explanation: "\"Solltest\" for advice.",
       },
       {
@@ -619,7 +616,7 @@ export const DE_B1_U07: Lesson[] = [
       {
         heading: "Hoffen: realistic hopes",
         body: [
-          "\"Hoffen\" is for things that might really happen, so it takes the indicative: \"Ich hoffe, dass ich die Prüfung bestehe\" (I hope I pass the exam). Never *\"Ich hoffe, dass ich die Prüfung bestehen würde\".",
+          "\"Hoffen\" is for things that might really happen, so it takes the indicative: \"Ich hoffe, dass ich die Prüfung bestehe\" (I hope I pass the exam). Never \"*Ich hoffe, dass ich die Prüfung bestehen würde\".",
           "German often uses the present for a hoped-for future: \"Ich hoffe, dass es morgen nicht regnet\". \"Dass\" sends the verb to the end; you can also drop \"dass\" and use main-clause order: \"Ich hoffe, es regnet morgen nicht\".",
           "Short reactions: \"Hoffentlich!\" (hopefully), \"Ich hoffe es\" (I hope so), \"Hoffentlich nicht!\" (I hope not).",
         ],
@@ -770,7 +767,7 @@ export const DE_B1_U07: Lesson[] = [
         prompt: "Translate into German.",
         source: "I hope you're feeling better. (to a friend)",
         answer: "Ich hoffe, dass es dir besser geht.",
-        altAnswers: ["Ich hoffe, es geht dir besser.", "Ich hoffe, dass es euch besser geht.", "Ich hoffe, dass es Ihnen besser geht."],
+        altAnswers: ["Ich hoffe, es geht dir besser."],
         explanation: "\"Es geht mir/dir gut\" with the dative; indicative after \"hoffen\".",
       },
       {
@@ -827,7 +824,7 @@ export const DE_B1_U07: Lesson[] = [
           "\"Tun\" and \"machen\" both mean do here; \"tun\" sounds a little more serious: \"Was würdest du tun?\"",
         ],
         examples: [
-          { es: "Mein Nachbar ist sehr laut. Was würdest du an meiner Stelle tun?", en: "My neighbour is very loud. What would you do in my place?" },
+          { es: "Mein Nachbar ist sehr laut. Was würdest du an meiner Stelle tun?", en: "My neighbour is very noisy. What would you do in my place?" },
           { es: "Ich verdiene zu wenig. Was soll ich machen?", en: "I earn too little. What should I do?" },
           { es: "Was würden Sie mir raten?", en: "What would you advise me?" },
           { es: "Hast du einen Tipp für mich?", en: "Have you got a tip for me?" },
@@ -840,7 +837,7 @@ export const DE_B1_U07: Lesson[] = [
             prompt: "Translate into German.",
             source: "What would you do in my place? (to a friend)",
             answer: "Was würdest du an meiner Stelle tun?",
-            altAnswers: ["Was würdest du an meiner Stelle machen?", "Was würdet ihr an meiner Stelle tun?", "Was würden Sie an meiner Stelle tun?"],
+            altAnswers: ["Was würdest du an meiner Stelle machen?"],
             explanation: "\"An meiner Stelle\" (in my place) and the Konjunktiv question \"Was würdest du...?\".",
           },
           {
@@ -907,7 +904,7 @@ export const DE_B1_U07: Lesson[] = [
             prompt: "Translate into German.",
             source: "You could ask for a pay rise. (to a friend)",
             answer: "Du könntest nach einer Gehaltserhöhung fragen.",
-            altAnswers: ["Du könntest um eine Gehaltserhöhung bitten.", "Ihr könntet nach einer Gehaltserhöhung fragen.", "Sie könnten nach einer Gehaltserhöhung fragen."],
+            altAnswers: ["Du könntest um eine Gehaltserhöhung bitten."],
             explanation: "\"Fragen nach\" + dative (ask for), or \"bitten um\" + accusative.",
           },
           {
@@ -926,7 +923,7 @@ export const DE_B1_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "My neighbour is very loud. What would you do? (to a friend)",
+        source: "My neighbour is very noisy. What would you do? (to a friend)",
         answer: "Mein Nachbar ist sehr laut. Was würdest du tun?",
         altAnswers: ["Mein Nachbar ist sehr laut. Was würdest du machen?", "Meine Nachbarin ist sehr laut. Was würdest du tun?", "Meine Nachbarin ist sehr laut. Was würdest du machen?"],
         explanation: "The problem in the indicative, the question in the Konjunktiv.",
@@ -955,7 +952,7 @@ export const DE_B1_U07: Lesson[] = [
         prompt: "Translate into German.",
         source: "Have you got a tip for me? (to a friend)",
         answer: "Hast du einen Tipp für mich?",
-        altAnswers: ["Hättest du einen Tipp für mich?", "Habt ihr einen Tipp für mich?", "Haben Sie einen Tipp für mich?"],
+        altAnswers: ["Hättest du einen Tipp für mich?"],
         explanation: "\"Einen Tipp\" (masculine accusative); \"für\" + accusative \"mich\".",
       },
       {
@@ -1112,7 +1109,7 @@ export const DE_B1_U07: Lesson[] = [
             prompt: "Translate into German.",
             source: "You should get help. (to a friend)",
             answer: "Du solltest dir Hilfe holen.",
-            altAnswers: ["Du solltest dir Hilfe suchen.", "Ihr solltet euch Hilfe holen.", "Sie sollten sich Hilfe holen."],
+            altAnswers: ["Du solltest dir Hilfe suchen."],
             explanation: "\"Sich Hilfe holen\" with a dative reflexive \"dir\".",
           },
           {
@@ -1133,7 +1130,6 @@ export const DE_B1_U07: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm proud of you. (to a friend)",
         answer: "Ich bin stolz auf dich.",
-        altAnswers: ["Ich bin stolz auf euch.", "Ich bin stolz auf Sie."],
         explanation: "\"Stolz auf\" + accusative.",
       },
       {
@@ -1229,7 +1225,7 @@ export const DE_B1_U07: Lesson[] = [
         heading: "Part 1: Asking for a ticket",
         body: [
           "Mehmet is at the DB ticket counter in Hamburg Hauptbahnhof. He wants to go to Munich on Friday.",
-          "Mehmet: „Guten Tag! Ich hätte gern eine Fahrkarte nach München, bitte.“ Mitarbeiterin: „Gern. Für wann?“ Mehmet: „Für Freitag, möglichst am Vormittag. Könnten Sie mir sagen, wann die Züge fahren?“ Mitarbeiterin: „Es gibt einen ICE um 9:01 Uhr, Ankunft 15:12 Uhr.“",
+          "Mehmet: \"Guten Tag! Ich hätte gern eine Fahrkarte nach München, bitte.\" Mitarbeiterin: \"Gern. Für wann?\" Mehmet: \"Für Freitag, möglichst am Vormittag. Könnten Sie mir sagen, wann die Züge fahren?\" Mitarbeiterin: \"Es gibt einen ICE um 9:01 Uhr, Ankunft 15:12 Uhr.\"",
           "Notice \"Ich hätte gern\" to open, and \"Könnten Sie mir sagen, wann...?\" with the verb at the end of the indirect question. \"Möglichst\" means if possible, as... as possible.",
         ],
         examples: [
@@ -1261,7 +1257,7 @@ export const DE_B1_U07: Lesson[] = [
       {
         heading: "Part 2: Asking for alternatives",
         body: [
-          "Mehmet: „Hm, 9 Uhr ist ein bisschen spät. Gäbe es auch eine frühere Verbindung?“ Mitarbeiterin: „Ja, um 6:58 Uhr, aber da müssten Sie in Hannover umsteigen.“ Mehmet: „Das wäre kein Problem. Und wäre das auch günstiger?“ Mitarbeiterin: „Mit dem Sparpreis kostet es 49,90 Euro.“",
+          "Mehmet: \"Hm, 9 Uhr ist ein bisschen spät. Gäbe es auch eine frühere Verbindung?\" Mitarbeiterin: \"Ja, um 6:58 Uhr, aber da müssten Sie in Hannover umsteigen.\" Mehmet: \"Das wäre kein Problem. Und wäre das auch günstiger?\" Mitarbeiterin: \"Mit dem Sparpreis kostet es 49,90 Euro.\"",
           "\"Gäbe es auch...?\" (Would there also be...?) is the polite way to ask for options. \"Da müssten Sie umsteigen\" uses \"müssten\" for a hypothetical consequence.",
           "Useful words: \"die Verbindung\" (connection), \"umsteigen\" (change trains), \"der Sparpreis\" (saver fare), \"günstiger\" (cheaper), \"die Platzreservierung\" (seat reservation).",
         ],
@@ -1295,7 +1291,7 @@ export const DE_B1_U07: Lesson[] = [
       {
         heading: "Part 3: A misunderstanding",
         body: [
-          "Mitarbeiterin: „So, das ist Ihre Fahrkarte für Samstag.“ Mehmet: „Entschuldigung, ich glaube, da gibt es ein Missverständnis. Ich wollte für Freitag buchen, nicht für Samstag.“ Mitarbeiterin: „Oh, das tut mir leid! Ich ändere das sofort.“ Mehmet: „Kein Problem. Vielen Dank für Ihre Hilfe!“",
+          "Mitarbeiterin: \"So, das ist Ihre Fahrkarte für Samstag.\" Mehmet: \"Entschuldigung, ich glaube, da gibt es ein Missverständnis. Ich wollte für Freitag buchen, nicht für Samstag.\" Mitarbeiterin: \"Oh, das tut mir leid! Ich ändere das sofort.\" Mehmet: \"Kein Problem. Vielen Dank für Ihre Hilfe!\"",
           "\"Ich wollte\" (I wanted) points politely to what you meant. \"Da gibt es ein Missverständnis\" (there's been a misunderstanding) avoids blaming anyone.",
           "Thanking: \"Vielen Dank für Ihre Hilfe!\", \"Das ist sehr nett von Ihnen\". Answering an apology: \"Kein Problem\", \"Macht nichts\" (never mind).",
         ],
@@ -1445,7 +1441,6 @@ export const DE_B1_U07: Lesson[] = [
             prompt: "Translate into German.",
             source: "Do you believe in ghosts? (to a friend)",
             answer: "Glaubst du an Geister?",
-            altAnswers: ["Glaubt ihr an Geister?", "Glauben Sie an Geister?"],
             explanation: "\"Glauben an\" + accusative: believe in. \"Der Geist\" → plural \"Geister\".",
           },
           {
@@ -1539,7 +1534,6 @@ export const DE_B1_U07: Lesson[] = [
         prompt: "Translate into German.",
         source: "Are you superstitious? (to a friend)",
         answer: "Bist du abergläubisch?",
-        altAnswers: ["Seid ihr abergläubisch?", "Sind Sie abergläubisch?"],
         explanation: "\"Abergläubisch\" with ä, from \"der Aberglaube\".",
       },
       {
@@ -1548,7 +1542,7 @@ export const DE_B1_U07: Lesson[] = [
         prompt: "Translate into German.",
         source: "You were lucky there! (to a friend)",
         answer: "Da hast du Glück gehabt!",
-        altAnswers: ["Da hast du aber Glück gehabt!", "Da habt ihr Glück gehabt!", "Da haben Sie Glück gehabt!", "Du hattest Glück!"],
+        altAnswers: ["Da hast du aber Glück gehabt!", "Du hattest Glück!"],
         explanation: "\"Glück haben\" = to be lucky; Perfekt \"hast ... gehabt\".",
       },
       {

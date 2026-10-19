@@ -11,7 +11,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
     level: "C2",
     intro: [
       `German dictionaries label words with style levels: "gehoben" (elevated), "bildungssprachlich" (educated, often Latin or Greek in origin), "umgangssprachlich" (colloquial), "salopp" (slangy) and "vulgär". A Mastery-level speaker not only knows these labels but uses them deliberately: to sound authoritative in a report, warm in a speech, ironic in a column.`,
-      `The Advanced guide on registers covers formal vs informal and du vs Sie. This guide covers the finer gradations, how grammar and vocabulary combine to create a style, and how to shift register on purpose.`,
+      `The Advanced guide on registers covers formal vs informal and "du" vs "Sie". This guide covers the finer gradations, how grammar and vocabulary combine to create a style, and how to shift register on purpose.`,
     ],
     sections: [
       {
@@ -86,7 +86,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
     faqs: [
       {
         q: `Is "bildungssprachlich" the same as formal?`,
-        a: `Not exactly. Bildungssprachlich words ("evident", "obsolet", "rekurrieren") signal education and appear in academic and journalistic texts. A formal letter to an authority can be perfectly formal without them.`,
+        a: `Not exactly. "Bildungssprachlich" words ("evident", "obsolet", "rekurrieren") signal education and appear in academic and journalistic texts. A formal letter to an authority can be perfectly formal without them.`,
       },
       {
         q: `Where can I check a word's register?`,
@@ -292,7 +292,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Wir gedenken den Opfern.",
         right: "Wir gedenken der Opfer.",
-        why: `"Gedenken" takes the genitive. If you prefer a dative or accusative structure, use "an die Opfer erinnern" or "der Opfer gedenken".`,
+        why: `"Gedenken" takes the genitive. For a less elevated structure, use "an die Opfer denken" or "an die Opfer erinnern".`,
       },
       {
         wrong: "die Zahl deren, die zu Fuß gehen",
@@ -316,7 +316,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
       },
       {
         q: `Why do proverbs leave out articles?`,
-        a: `They come from an older stage of the language and are shaped by rhythm and rhyme. The missing articles are frozen: "Übung macht den Meister", never "Die Übung macht den Meister".`,
+        a: `They come from an older stage of the language and are shaped by rhythm and rhyme. The missing articles are frozen: "Übung macht den Meister", never "*Die Übung macht den Meister*".`,
       },
     ],
     related: ["stylistic-registers", "konjunktiv-literature-and-press", "idioms-and-phraseologie", "historical-narrative-tenses"],
@@ -407,7 +407,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Wir wohnen in der Goethestrasse. (in a letter in Germany)",
         right: "Wir wohnen in der Goethestraße.",
-        why: `"ss" for "ß" is correct only in Swiss German. In Germany and Austria, "ß" follows a long vowel or diphthong: "Straße", "groß", "heißen".`,
+        why: `"ss" for "ß" is correct only in Swiss Standard German. In Germany and Austria, "ß" follows a long vowel or diphthong: "Straße", "groß", "heißen".`,
       },
       {
         wrong: "Ich möchte einen Pfannkuchen mit Marmelade. (meaning a pancake, in Berlin)",
@@ -426,7 +426,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
       },
       {
         q: `Is "Grüß Gott" religious?`,
-        a: `Not in practice. It is the normal neutral greeting in Austria and Bavaria, used by everyone.`,
+        a: `Not in practice. It is the normal neutral greeting in Austria and southern Germany, used by everyone.`,
       },
     ],
     related: ["stylistic-registers", "evaluative-suffixes-and-diminutives", "registers-du-and-sie", "idioms-and-phraseologie"],
@@ -461,8 +461,8 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
       {
         heading: `Frozen form`,
         body: [
-          `You cannot replace the parts of an idiom: "den Nagel auf den Kopf treffen" (hit the nail on the head) cannot become "einen Nagel auf einen Kopf treffen". Negation is often part of the idiom: "nicht alle Tassen im Schrank haben" (not to be all there), "kein Blatt vor den Mund nehmen" (not mince one's words).`,
-          `Many idioms resist the passive: "Der Nagel wurde auf den Kopf getroffen" is absurd. They do inflect normally for person and tense: "Du hast den Nagel auf den Kopf getroffen", "Ich bin ins Fettnäpfchen getreten".`,
+          `You cannot replace the parts of an idiom: "den Nagel auf den Kopf treffen" (hit the nail on the head) cannot become "*einen Nagel auf einen Kopf treffen*". Negation is often part of the idiom: "nicht alle Tassen im Schrank haben" (not to be all there), "kein Blatt vor den Mund nehmen" (not mince one's words).`,
+          `Many idioms resist the passive: "*Der Nagel wurde auf den Kopf getroffen*" is absurd. They do inflect normally for person and tense: "Du hast den Nagel auf den Kopf getroffen", "Ich bin ins Fettnäpfchen getreten".`,
         ],
         examples: [
           { de: "Da hast du den Nagel auf den Kopf getroffen.", en: "You've hit the nail on the head there." },
@@ -578,7 +578,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
       {
         heading: `The architecture of an argument`,
         body: [
-          `A German Erörterung has three parts: Einleitung (a hook and the question: "Es stellt sich die Frage, ob ..."), Hauptteil (arguments, each with These, Begründung, Beleg / Beispiel) and Schluss (conclusion and outlook). A linear Erörterung argues one side; a dialectical one weighs pro and contra, usually ending with the stronger side ("steigernde Anordnung": weakest argument first, strongest last).`,
+          `A German Erörterung has three parts: "Einleitung" (a hook and the question: "Es stellt sich die Frage, ob ..."), "Hauptteil" (arguments, each with "These", "Begründung", "Beleg / Beispiel") and "Schluss" (conclusion and outlook). A linear Erörterung argues one side; a dialectical one weighs pro and contra, usually ending with the stronger side ("steigernde Anordnung": weakest argument first, strongest last).`,
           `Signposting phrases make the structure audible: "Zunächst ist festzuhalten, dass ...", "Ein weiteres Argument ist ...", "Hinzu kommt, dass ...", "Nicht zuletzt ...", "Abschließend lässt sich festhalten, dass ...".`,
         ],
         examples: [
@@ -806,7 +806,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
       {
         heading: `Diminutives: "-chen" and "-lein"`,
         body: [
-          `Every diminutive is neuter, whatever the gender of the base: "der Hund" → "das Hündchen", "die Frau" → "das Fräulein". Back vowels take an umlaut: "Haus" → "Häuschen", "Buch" → "Büchlein", "Blume" → "Blümchen". A final "-e" drops: "Tasse" → "Tässchen". "-chen" is standard and more common; "-lein" is more literary or southern, and is used after "-ch" or "-g" ("Bächlein", "Zweiglein").`,
+          `Every diminutive is neuter, whatever the gender of the base: "der Hund" → "das Hündchen", "die Frau" → "das Fräulein". Back vowels usually take an umlaut: "Haus" → "Häuschen", "Buch" → "Büchlein", "Blume" → "Blümchen". A final "-e" drops: "Tasse" → "Tässchen". "-chen" is standard and more common; "-lein" is more literary or southern, and is used after "-ch" or "-g" ("Bächlein", "Zweiglein").`,
           `Diminutives express smallness, affection, irony or condescension: "ein Weilchen" (a little while), "Na, mein Freundchen?" (watch it, my friend; a warning). Some are lexicalised and have no neutral base meaning today: "das Mädchen", "das Brötchen", "das Kaninchen", "das Eichhörnchen", "das Märchen".`,
         ],
         examples: [
@@ -819,7 +819,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
       {
         heading: `Regional diminutives`,
         body: [
-          `The South has its own: Swabian "-le" ("das Häusle", "das Spätzle"), Swiss "-li" ("das Müesli", "das Chuchichäschtli", "das Brötli"), Austrian and Bavarian "-erl" or "-l" ("das Sackerl", "das Busserl" for a kiss, "das Stamperl", "das Radl"). They are neuter like "-chen".`,
+          `The South has its own: Swabian "-le" ("das Häusle", "das Schätzle"), Swiss "-li" ("das Müesli", "das Chuchichäschtli", "das Brötli"), Austrian and Bavarian "-erl" or "-l" ("das Sackerl", "das Busserl" for a kiss, "das Stamperl", "das Radl"). They are neuter like "-chen".`,
         ],
         examples: [
           { de: "Gib mir ein Busserl!", en: "Give me a kiss! (Austria, Bavaria)" },
@@ -830,8 +830,8 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
         heading: `Pejorative suffixes: "-erei", "Ge-...-e", "-ling"`,
         body: [
           `"-erei" (feminine) often expresses an annoying, repeated activity: "die Fragerei", "die Raserei" (speeding), "die Schreiberei" (endless paperwork). It also forms neutral places and trades: "die Bäckerei", "die Druckerei".`,
-          `"Ge-" + stem + "-e" (neuter) expresses a tiresome, continuous activity: "das Gerede" (talk, gossip), "das Gejammer" (whining), "das Gerenne", "das Gedränge" (crush of people).`,
-          `"-ling" (masculine) forms persons, often negatively: "der Feigling" (coward), "der Schwächling" (weakling), "der Emporkömmling" (upstart). But "der Liebling", "der Lehrling", "der Flüchtling" and "der Frühling" are neutral or positive, so context decides.`,
+          `"Ge-" + stem + "-e" (neuter; the "-e" is often dropped, as in "Gejammer") expresses a tiresome, continuous activity: "das Gerede" (talk, gossip), "das Gejammer" (whining), "das Gerenne", "das Gedränge" (crush of people).`,
+          `"-ling" (masculine) forms persons, often negatively: "der Feigling" (coward), "der Schwächling" (weakling), "der Emporkömmling" (upstart). But "der Liebling", "der Lehrling" and "der Frühling" are neutral or positive, so context decides ("der Flüchtling" is neutral, though some prefer "Geflüchtete" because of the suffix).`,
         ],
         table: {
           headers: ["Suffix", "Value", "Examples"],
@@ -853,7 +853,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
       {
         heading: `Intensifying prefixes`,
         body: [
-          `Colloquial German intensifies adjectives with prefixes, mostly in fixed combinations: "steinalt" (ancient), "stinksauer" (furious), "stinkreich" (filthy rich), "todmüde" (dead tired), "blitzsauber" (spotless), "uralt" (very old), "mega-", "super-", "sau-" (vulgar: "saukalt"). Each prefix combines only with certain adjectives: "todmüde" but not "todalt".`,
+          `Colloquial German intensifies adjectives with prefixes, mostly in fixed combinations: "steinalt" (ancient), "stinksauer" (furious), "stinkreich" (filthy rich), "todmüde" (dead tired), "blitzsauber" (spotless), "uralt" (very old), "mega-", "super-", "sau-" (crude: "saukalt"). Each prefix combines only with certain adjectives: "todmüde" but not "*todalt*".`,
         ],
         examples: [
           { de: "Nach der Wanderung war ich todmüde.", en: "After the hike I was dead tired." },
@@ -871,7 +871,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "das Hundchen",
         right: "das Hündchen",
-        why: `Diminutives umlaut a back vowel in the stem: "Hund" → "Hündchen", "Haus" → "Häuschen".`,
+        why: `Diminutives usually umlaut a back vowel in the stem (exceptions such as "Frauchen" are rare): "Hund" → "Hündchen", "Haus" → "Häuschen".`,
       },
       {
         wrong: "Sie ist todalt.",
@@ -930,7 +930,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
         heading: `Softening with Konjunktiv II, negation and particles`,
         body: [
           `Konjunktiv II turns demands into suggestions: "Ich hätte da eine Bitte", "Wäre es möglich, ...?", "Es wäre gut, wenn ...". Negated positives understate: "nicht ganz optimal", "nicht so ideal", "nicht unbedingt meine Lieblingslösung", "nicht ganz unproblematisch" (= problematic).`,
-          `Softening words: "vielleicht", "eventuell", "eigentlich", "eher", "etwas", "ein bisschen", "gewissermaßen". In feedback, the "sandwich" is common: positive, then the criticism softened ("Mir ist aufgefallen, dass ..."), then positive again.`,
+          `Softening words: "vielleicht", "eventuell", "eigentlich", "eher", "etwas", "ein bisschen", "gewissermaßen". In feedback, the sandwich method is common: positive, then the criticism softened ("Mir ist aufgefallen, dass ..."), then positive again.`,
         ],
         examples: [
           { de: "Die Präsentation war gut, nur der Zeitplan war nicht ganz optimal.", en: "The presentation was good, only the timing wasn't quite ideal." },
@@ -963,7 +963,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
       {
         heading: `The coded language of job references`,
         body: [
-          `German employers must write references (Arbeitszeugnisse) that sound positive, so a code has developed. "Er hat sich stets bemüht" (he always tried) actually means he failed. "Zu unserer vollsten Zufriedenheit" is the top grade; "zu unserer Zufriedenheit" is only average. "Sie war wegen ihrer Geselligkeit beliebt" may hint at too much socialising. Recognising this code is part of professional Mastery-level competence.`,
+          `German employers must write references (Arbeitszeugnisse) that sound positive, so a code has developed. "Er hat sich stets bemüht" (he always tried) actually means he failed. "Stets zu unserer vollsten Zufriedenheit" is the top grade; without "stets" it drops a grade, and "zu unserer Zufriedenheit" is only adequate. "Sie war wegen ihrer Geselligkeit beliebt" may hint at too much socialising. Recognising this code is part of professional Mastery-level competence.`,
         ],
         examples: [
           { de: "Sie erledigte ihre Aufgaben stets zu unserer vollsten Zufriedenheit.", en: "She always performed her tasks to our complete satisfaction. (= excellent)" },
@@ -980,7 +980,7 @@ export const DE_C2_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Sie hat zu unserer vollen Zufriedenheit gearbeitet. (meant as top praise)",
         right: "Sie hat stets zu unserer vollsten Zufriedenheit gearbeitet.",
-        why: `In reference code, "volle Zufriedenheit" is only a good grade. The top grade needs "stets" and "vollsten".`,
+        why: `In reference code, "zur vollen Zufriedenheit" is only a satisfactory grade. The top grade needs "stets" and "vollsten".`,
       },
       {
         wrong: "Ihr Bericht ist schlecht.",

@@ -50,9 +50,9 @@ export const DE_C2_U33: Lesson[] = [
       {
         heading: "Concession and hypothesis; the passive and its alternatives",
         body: [
-          "Concession at the Mastery level goes beyond \"obwohl\": \"wenngleich\", \"wiewohl\" (formal), \"zwar ... aber\", \"so ... auch\" (\"So sehr ich ihn schätze, ...\"), \"wie ... auch immer\", \"auch wenn\", \"selbst wenn\" (even if), and the verb-first concession \"Mag er auch recht haben, ...\" (however right he may be). Hypothesis without \"wenn\": verb first (\"Hätte ich das gewusst, ...\"), \"angenommen, dass...\", \"gesetzt den Fall, dass...\", \"im Falle eines Falles\".",
+          "Concession at the Mastery level goes beyond \"obwohl\": \"wenngleich\", \"wiewohl\" (formal), \"zwar ... aber\", \"so ... auch\" (\"So sehr ich ihn schätze, ...\"), \"wie ... auch immer\", \"auch wenn\", \"selbst wenn\" (even if), and the verb-first concession \"Mag er auch recht haben, ...\" (even though he may be right). Hypothesis without \"wenn\": verb first (\"Hätte ich das gewusst, ...\"), \"angenommen, dass...\", \"gesetzt den Fall, dass...\", \"im Falle eines Falles\".",
           "The passive has five common alternatives: \"man\" (\"Man repariert die Brücke\"), \"sich lassen\" + infinitive (\"Das lässt sich ändern\": can be changed), \"sein\" + zu-infinitive (\"Die Gebühr ist bis Freitag zu zahlen\": must be paid), \"-bar\" adjectives (\"Das ist nicht machbar\"), and \"bekommen / erhalten\" + participle for the recipient (\"Sie bekam den Preis verliehen\").",
-          "Choose by meaning: \"sein zu\" can mean must or can (\"Das ist nicht zu ändern\": can't be changed), \"sich lassen\" always means can.",
+          "Choose by meaning: \"sein zu\" can mean must or can (\"Das ist nicht zu ändern\": can't be changed), \"sich lassen\" used as a passive alternative means can.",
         ],
         examples: [
           { es: "So sehr ich ihn schätze, in diesem Punkt irrt er.", en: "Much as I respect him, he's wrong on this point." },
@@ -66,16 +66,16 @@ export const DE_C2_U33: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, without wenn.",
+            prompt: "Translate into German, without \"wenn\".",
             source: "Had I known that, I would have stayed at home.",
             answer: "Hätte ich das gewusst, wäre ich zu Hause geblieben.",
-            altAnswers: ["Hätte ich das gewusst, dann wäre ich zu Hause geblieben.", "Hätte ich das gewusst, wäre ich daheim geblieben.", "Hätte ich das gewusst, so wäre ich zu Hause geblieben."],
+            altAnswers: ["Hätte ich das gewusst, dann wäre ich zu Hause geblieben.", "Hätte ich das gewusst, wäre ich daheim geblieben.", "Hätte ich das gewusst, so wäre ich zu Hause geblieben.", "Hätte ich das gewusst, wäre ich zuhause geblieben."],
             explanation: "Verb-first conditional replaces \"wenn\"; both halves in Konjunktiv II past.",
           },
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, with sich lassen.",
+            prompt: "Translate into German, with \"sich lassen\".",
             source: "That can be changed.",
             answer: "Das lässt sich ändern.",
             altAnswers: ["Das lässt sich schon ändern.", "Das lässt sich leicht ändern."],
@@ -117,7 +117,7 @@ export const DE_C2_U33: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Your friend asks something obvious. You answer, slightly reproachful: You know that! Which is most natural?",
+            question: "Your friend asks something obvious. You answer, slightly reproachful: 'You know that!' Which is most natural?",
             options: ["Das weißt du doch!", "Das weißt du denn!", "Das weißt du mal!", "Das weißt du wohl!"],
             correctIndex: 0,
             explanation: "\"Doch\" in a statement reminds the listener of something they should know, with a hint of reproach.",
@@ -166,7 +166,7 @@ export const DE_C2_U33: Lesson[] = [
         prompt: "Translate into German.",
         source: "He should have apologised.",
         answer: "Er hätte sich entschuldigen sollen.",
-        altAnswers: ["Er hätte sich entschuldigen müssen.", "Sie hätte sich entschuldigen sollen.", "Sie hätte sich entschuldigen müssen."],
+        altAnswers: ["Er hätte sich entschuldigen müssen."],
         explanation: "Konjunktiv II past of a modal: \"hätte\" + infinitive + modal infinitive (double infinitive).",
       },
       {
@@ -180,7 +180,7 @@ export const DE_C2_U33: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence means The problem cannot be solved?",
+        question: "Which sentence means 'The problem cannot be solved'?",
         options: ["Das Problem ist nicht zu lösen.", "Das Problem ist nicht gelöst.", "Das Problem muss nicht gelöst werden.", "Das Problem wird nicht lösen."],
         correctIndex: 0,
         explanation: "\"Sein\" + zu-infinitive with \"nicht\" = cannot be done. \"Ist nicht gelöst\" is a state, not an impossibility.",
@@ -205,7 +205,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, with sein + zu.",
+        prompt: "Translate into German, with \"sein\" + \"zu\".",
         source: "The form must be signed by Friday.",
         answer: "Das Formular ist bis Freitag zu unterschreiben.",
         altAnswers: ["Das Formular ist bis Freitag zu unterzeichnen.", "Das Formular muss bis Freitag unterschrieben werden.", "Das Formular muss bis Freitag unterzeichnet werden."],
@@ -233,7 +233,7 @@ export const DE_C2_U33: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Advanced and Mastery Comprehensive Review, Part 2 of 3",
-    summary: "Review register and vocabulary across the Mastery-level themes: legal, medical, economic and academic German, false friends and paronyms, collocations, and moving one message between umgangssprachlich, neutral and gehoben.",
+    summary: "Review register and vocabulary across the Mastery-level themes: legal, medical, economic and academic German, false friends and paronyms, collocations, and moving one message between \"umgangssprachlich\", \"neutral\" and \"gehoben\".",
     duration: "20 min",
     sections: [
       {
@@ -241,7 +241,7 @@ export const DE_C2_U33: Lesson[] = [
         body: [
           "Each specialist register has its fixed formulas. Legal: \"hiermit\", \"gemäß § 5\", \"der Mieter hat ... zu tragen\", \"Widerspruch einlegen\" (lodge an objection), \"in Kraft treten\". Medical: \"der Befund\" (findings), \"die Diagnose stellen\", \"eine Überweisung\" (referral), \"verschreiben\", \"die Nebenwirkung\". Economic: \"der Umsatz\" vs \"der Gewinn\", \"um\" vs \"auf\", \"zurückzuführen sein auf\". Academic: \"laut\", \"zufolge\", \"es wird argumentiert, dass...\", \"im Folgenden\", \"die vorliegende Arbeit\".",
           "What unites them is nominal style and Funktionsverbgefüge: \"zur Anwendung kommen\" (be applied), \"in Betracht ziehen\" (consider), \"Anspruch erheben auf\" (lay claim to), \"zur Verfügung stellen\" (provide). Use them in formal writing, and turn them back into simple verbs when you speak.",
-          "The test at the Mastery level is not knowing these words but switching: explaining a Bescheid from the Finanzamt to a friend in plain German, or turning your notes into a paragraph of a Hausarbeit.",
+          "The test at the Mastery level is not knowing these words but switching: explaining a \"Bescheid\" from the \"Finanzamt\" to a friend in plain German, or turning your notes into a paragraph of a \"Hausarbeit\" (term paper).",
         ],
         examples: [
           { es: "Gegen den Bescheid kann innerhalb eines Monats Widerspruch eingelegt werden.", en: "An objection to the decision can be lodged within one month." },
@@ -275,7 +275,7 @@ export const DE_C2_U33: Lesson[] = [
         body: [
           "False friends at the Mastery level are the ones you think you've mastered: \"eventuell\" (possibly, not eventually: \"schließlich\"), \"aktuell\" (current, not actual: \"tatsächlich\"), \"konsequent\" (consistent, not consequent), \"sensibel\" (sensitive, not sensible: \"vernünftig\"), \"die Provision\" (commission), \"das Gymnasium\" (grammar school), \"der Chef\" (boss), \"die Billion\" (trillion), \"die Kaution\" (deposit).",
           "Paronyms are German pairs that look alike but differ: \"scheinbar\" (seemingly, but not really) vs \"anscheinend\" (apparently, probably really); \"kindisch\" (childish) vs \"kindlich\" (childlike); \"geschäftlich\" (on business) vs \"geschäftig\" (busy, bustling); \"wunderbar\" vs \"wunderlich\" (odd); \"effektiv\" (effective) vs \"effizient\" (efficient).",
-          "The scheinbar / anscheinend pair is the classic: \"Er ist scheinbar ruhig\" (he only seems calm, but isn't), \"Er ist anscheinend krank\" (it appears he is ill, and he probably is). In everyday speech many Germans blur the two, but careful writing keeps them apart.",
+          "The \"scheinbar\" / \"anscheinend\" pair is the classic: \"Er ist scheinbar ruhig\" (he only seems calm, but isn't), \"Er ist anscheinend krank\" (it appears he is ill, and he probably is). In everyday speech many Germans blur the two, but careful writing keeps them apart.",
         ],
         examples: [
           { es: "Ich komme eventuell später nach.", en: "I might come along later." },
@@ -441,7 +441,7 @@ export const DE_C2_U33: Lesson[] = [
         type: "speak",
         text: "Gegen den Bescheid kann innerhalb eines Monats Widerspruch eingelegt werden.",
         prompt: "Read it aloud like an official: An objection can be lodged within one month.",
-        tip: "WI-der-spruch: stress the first syllable.",
+        tip: "\"Widerspruch\": stress the first syllable.",
         explanation: "\"Innerhalb\" + genitive; passive with a modal: \"kann ... eingelegt werden\".",
       },
     ],
@@ -451,7 +451,7 @@ export const DE_C2_U33: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Advanced and Mastery Comprehensive Review, Part 3 of 3",
-    summary: "Review discourse skills: building and refuting an argument, rhetoric, quotation and synthesis, narrative and criticism, and how the four Goethe C2 modules (Lesen, Hören, Schreiben, Sprechen) test them.",
+    summary: "Review discourse skills: building and refuting an argument, rhetoric, quotation and synthesis, narrative and criticism, and how the four Goethe C2 modules (\"Lesen\", \"Hören\", \"Schreiben\", \"Sprechen\") test them.",
     duration: "20 min",
     sections: [
       {
@@ -494,7 +494,7 @@ export const DE_C2_U33: Lesson[] = [
         heading: "Quotation, synthesis, narrative and criticism",
         body: [
           "Quoting and synthesising: \"laut\" + dative, \"X zufolge\", \"wie X betont\", \"X weist darauf hin, dass...\" and Konjunktiv I for paraphrase; \"Während X ..., vertritt Y die Auffassung, dass...\" to contrast sources; \"Beide Positionen stimmen darin überein, dass...\" for common ground.",
-          "Narrative: Präteritum for the story, Plusquamperfekt for earlier events, \"sollte\" for foreshadowing, erlebte Rede for thoughts, German dialogue punctuation. Criticism: present tense of commentary, \"Figur\" not \"Charakter\", participial attributes and appositions, the evaluative scale (gelungen, solide, durchwachsen), litotes and Konjunktiv II hedges.",
+          "Narrative: Präteritum for the story, Plusquamperfekt for earlier events, \"sollte\" for foreshadowing, erlebte Rede for thoughts, German dialogue punctuation. Criticism: present tense of commentary, \"Figur\" not \"Charakter\", participial attributes and appositions, the evaluative scale (\"gelungen\", \"solide\", \"durchwachsen\"), litotes and Konjunktiv II hedges.",
           "These are not separate skills: a good Mastery-level text often combines them, quoting a critic, narrating a scene and arguing a position in one piece.",
         ],
         examples: [
@@ -560,7 +560,7 @@ export const DE_C2_U33: Lesson[] = [
           {
             type: "speak",
             text: "Zunächst möchte ich auf die Ausgangslage eingehen.",
-            tip: "AUS-gangs-la-ge: stress the first syllable.",
+            tip: "\"Ausgangslage\": stress the first syllable.",
             explanation: "\"Eingehen auf\" + accusative (address, go into); a standard opening move in Sprechen.",
           },
         ],
@@ -670,11 +670,11 @@ export const DE_C2_U33: Lesson[] = [
         heading: "Case, endings and prepositions",
         body: [
           "Here is the opening of an applicant's motivation letter for a scholarship. It contains three errors and two traps that are actually correct. Find them before you read on:",
-          "„Seit meinem Studium in Leipzig beschäftige ich mich intensiv mit der deutschen Nachkriegsliteratur. Besonders interessiere ich mich an der Rezeption von Heinrich Bölls Werk im Ausland. Trotz der zahlreichen Studien zu diesem Thema fehlt bislang eine umfassende Untersuchung des britischen Rezeption. Mit Hilfe ihres Stipendiums könnte ich diese Lücke schließen und mein Projekt an einem renommierten Institut weiterführen, dem ich seit Jahren eng verbunden bin.“",
+          "\"Seit meinem Studium in Leipzig beschäftige ich mich intensiv mit der deutschen Nachkriegsliteratur. Besonders interessiere ich mich an der Rezeption von Heinrich Bölls Werk im Ausland. Trotz der zahlreichen Studien zu diesem Thema fehlt bislang eine umfassende Untersuchung des britischen Rezeption. Mit Hilfe ihres Stipendiums könnte ich diese Lücke schließen und mein Projekt an einem renommierten Institut weiterführen, dem ich seit Jahren eng verbunden bin.\"",
           "The errors: (1) \"sich interessieren an\" must be \"sich interessieren für\"; it is the noun that takes \"an\": \"das Interesse an\". (2) \"des britischen Rezeption\" must be \"der britischen Rezeption\": \"die Rezeption\" is feminine. (3) \"ihres Stipendiums\" must be \"Ihres Stipendiums\": the formal possessive is capitalised. The traps: \"dem ich ... verbunden bin\" is right (\"verbunden sein\" takes the dative), and \"Mit Hilfe\" is allowed alongside \"mithilfe\". Knowing what is correct is half of an error hunt.",
         ],
         examples: [
-          { es: "Besonders interessiere ich mich für die Rezeption von Bölls Werk.", en: "I'm particularly interested in the reception of his work." },
+          { es: "Besonders interessiere ich mich für die Rezeption von Bölls Werk.", en: "I'm particularly interested in the reception of Böll's work." },
           { es: "Mein Interesse an der Nachkriegsliteratur ist groß.", en: "My interest in post-war literature is great." },
           { es: "Es fehlt eine Untersuchung der britischen Rezeption.", en: "A study of the British reception is missing." },
           { es: "Mithilfe Ihres Stipendiums könnte ich diese Lücke schließen.", en: "With the help of your scholarship I could close this gap." },
@@ -684,7 +684,7 @@ export const DE_C2_U33: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"Ich interessiere mich an Literatur.\" Translate correctly into German.",
+            prompt: "A learner wrote \"*Ich interessiere mich an Literatur.\" Translate correctly into German.",
             source: "I'm interested in literature.",
             answer: "Ich interessiere mich für Literatur.",
             altAnswers: ["Ich interessiere mich für die Literatur."],
@@ -704,7 +704,7 @@ export const DE_C2_U33: Lesson[] = [
         heading: "Konjunktiv and verb forms",
         body: [
           "Next, a paragraph from a trainee journalist's report. Three errors:",
-          "„Der Bürgermeister erklärte am Dienstag, die Stadt werde die Gebühren nicht erhöhen. Man habe genug gespart und könne den Haushalt ohne neue Belastungen ausgleichen. Die Opposition warf ihm vor, er hätte die Zahlen geschönt. Wenn die Stadt früher gehandelt hätte, wären die Schulden heute deutlich niedriger gewesen. Der Stadtrat soll im März über den Haushalt abstimmen werden.“",
+          "\"Der Bürgermeister erklärte am Dienstag, die Stadt werde die Gebühren nicht erhöhen. Man habe genug gespart und könne den Haushalt ohne neue Belastungen ausgleichen. Die Opposition warf ihm vor, er hätte die Zahlen geschönt. Wenn die Stadt früher gehandelt hätte, wären die Schulden heute deutlich niedriger gewesen. Der Stadtrat soll im März über den Haushalt abstimmen werden.\"",
           "Fixes: (1) \"er hätte die Zahlen geschönt\": the Konjunktiv I \"er habe ... geschönt\" is distinct from the indicative, so news German uses it; \"hätte\" here sounds colloquial and suggests the paper doubts the claim. (2) \"wären heute deutlich niedriger gewesen\": the debts are high now, so the result is present, \"wären heute deutlich niedriger\". (3) \"soll ... abstimmen werden\" is ungrammatical: \"soll ... abstimmen\" (is to vote). \"Werde\", \"habe\" and \"könne\" are correct Konjunktiv I.",
         ],
         examples: [
@@ -733,7 +733,7 @@ export const DE_C2_U33: Lesson[] = [
           {
             type: "speak",
             text: "Die Opposition warf ihm vor, er habe die Zahlen geschönt.",
-            tip: "ge-SCHÖNT has a long ö: round your lips.",
+            tip: "\"geschönt\" has a long ö: round your lips.",
             explanation: "\"Jemandem vorwerfen\" (dative) + Konjunktiv I for the reported accusation.",
           },
         ],
@@ -742,7 +742,7 @@ export const DE_C2_U33: Lesson[] = [
         heading: "Collocations and register",
         body: [
           "Finally, an email from a student to a professor. Four slips:",
-          "„Sehr geehrte Frau Professorin Weber, ich möchte eine Frage über Ihre Vorlesung machen. In der letzten Sitzung haben Sie eine interessante These aufgestellt, die mich echt zum Nachdenken gebracht hat. Ich habe aber noch nicht ganz kapiert, wie diese These mit der Theorie von Habermas zusammenhängt. Könnten Sie mir eventuell ein paar Literaturhinweise geben? Liebe Grüße, Jonas Krüger“",
+          "\"Sehr geehrte Frau Professorin Weber, ich möchte eine Frage über Ihre Vorlesung machen. In der letzten Sitzung haben Sie eine interessante These aufgestellt, die mich echt zum Nachdenken gebracht hat. Ich habe aber noch nicht ganz kapiert, wie diese These mit der Theorie von Habermas zusammenhängt. Könnten Sie mir eventuell ein paar Literaturhinweise geben? Liebe Grüße, Jonas Krüger\"",
           "Fixes: (1) \"eine Frage über ... machen\" must be \"eine Frage zu Ihrer Vorlesung stellen\" (collocation and preposition). (2) \"echt\" is colloquial: \"wirklich\", or leave it out. (3) \"kapiert\" is colloquial: \"verstanden\" or \"nachvollzogen\". (4) \"Liebe Grüße\" is too familiar for a first email to a professor: \"Mit freundlichen Grüßen\". Correct as they stand: \"eine These aufstellen\", \"zum Nachdenken bringen\", \"zusammenhängen mit\", \"eventuell\" (possibly).",
         ],
         examples: [
@@ -786,7 +786,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Sie hat großes Interesse für Politik.\" Translate correctly into German.",
+        prompt: "A learner wrote \"*Sie hat großes Interesse für Politik.\" Translate correctly into German.",
         source: "She has a great interest in politics.",
         answer: "Sie hat großes Interesse an Politik.",
         altAnswers: ["Sie hat ein großes Interesse an Politik.", "Sie hat großes Interesse an der Politik.", "Sie interessiert sich sehr für Politik."],
@@ -795,7 +795,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Ich warte auf Ihrer Antwort.\" Translate correctly into German.",
+        prompt: "A learner wrote \"*Ich warte auf Ihrer Antwort.\" Translate correctly into German.",
         source: "I'm waiting for your answer.",
         answer: "Ich warte auf Ihre Antwort.",
         altAnswers: ["Ich warte auf deine Antwort.", "Ich warte auf eure Antwort."],
@@ -813,7 +813,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Er sagte, dass er hat keine Zeit.\" Translate correctly into German.",
+        prompt: "A learner wrote \"*Er sagte, dass er hat keine Zeit.\" Translate correctly into German.",
         source: "He said he had no time.",
         answer: "Er sagte, er habe keine Zeit.",
         altAnswers: ["Er sagte, dass er keine Zeit habe.", "Er sagte, dass er keine Zeit hat.", "Er sagte, er hätte keine Zeit.", "Er meinte, er habe keine Zeit."],
@@ -822,7 +822,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Wir müssen eine Entscheidung nehmen.\" Translate correctly into German.",
+        prompt: "A learner wrote \"*Wir müssen eine Entscheidung nehmen.\" Translate correctly into German.",
         source: "We have to make a decision.",
         answer: "Wir müssen eine Entscheidung treffen.",
         altAnswers: ["Wir müssen uns entscheiden.", "Wir müssen eine Entscheidung fällen."],
@@ -838,7 +838,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Sie hat mich zu helfen gebeten.\" Translate correctly into German.",
+        prompt: "A learner wrote \"*Sie hat mich zu helfen gebeten.\" Translate correctly into German.",
         source: "She asked me to help.",
         answer: "Sie hat mich gebeten zu helfen.",
         altAnswers: ["Sie hat mich gebeten, zu helfen.", "Sie bat mich zu helfen.", "Sie bat mich, zu helfen.", "Sie hat mich um Hilfe gebeten.", "Sie bat mich um Hilfe."],
@@ -854,7 +854,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Ich freue mich über Ihren Besuch nächste Woche.\" Translate correctly into German.",
+        prompt: "A learner wrote \"*Ich freue mich über Ihren Besuch nächste Woche.\" Translate correctly into German.",
         source: "I'm looking forward to your visit next week.",
         answer: "Ich freue mich auf Ihren Besuch nächste Woche.",
         altAnswers: ["Ich freue mich auf Ihren Besuch in der nächsten Woche.", "Ich freue mich auf deinen Besuch nächste Woche.", "Ich freue mich auf euren Besuch nächste Woche.", "Ich freue mich auf Ihren Besuch kommende Woche."],
@@ -863,7 +863,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Ich kenne mich gut aus mit diesem Thema.\" Translate into standard written German.",
+        prompt: "A learner wrote \"*Ich kenne mich gut aus mit diesem Thema.\" Translate into standard written German.",
         source: "I know a lot about this topic.",
         answer: "Ich kenne mich mit diesem Thema gut aus.",
         altAnswers: ["Mit diesem Thema kenne ich mich gut aus.", "Ich kenne mich in diesem Thema gut aus.", "Ich kenne mich mit diesem Thema sehr gut aus."],
@@ -878,7 +878,7 @@ export const DE_C2_U33: Lesson[] = [
         type: "speak",
         text: "Ich möchte eine Frage zu Ihrer Vorlesung stellen.",
         prompt: "Say it in German to a professor: I'd like to ask a question about your lecture.",
-        tip: "Vor-LE-sung: stress on -le-, long e.",
+        tip: "\"Vorlesung\": stress the first syllable, \"Vor\".",
         explanation: "\"Eine Frage stellen\" and \"zu\" + dative: the corrected collocation.",
       },
     ],
@@ -888,14 +888,14 @@ export const DE_C2_U33: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Mastery Challenge: The Register Chameleon",
-    summary: "Say the same thing four times: as a WhatsApp to a friend, an email to a colleague, an official letter in Amtsdeutsch and a feuilleton paragraph, changing vocabulary, syntax, particles and tone each time.",
+    summary: "Say the same thing four times: as a WhatsApp to a friend, an email to a colleague, an official letter in \"Amtsdeutsch\" and a feuilleton paragraph, changing vocabulary, syntax, particles and tone each time.",
     duration: "20 min",
     sections: [
       {
         heading: "One message, four voices: the WhatsApp",
         body: [
           "The message: the street party planned for Saturday has been postponed by a week because of a storm warning, and anyone who wants a stall has to register by Wednesday. You will write it four times. Start at the bottom of the register scale, a WhatsApp to a friend who is helping you organise it:",
-          "„Hey Mia, Planänderung: Das Straßenfest fällt am Samstag ins Wasser, is ne Unwetterwarnung raus. Wir machen's jetzt eine Woche später, also am 21. Wer 'nen Stand will, muss sich bis Mittwoch melden. Sagst du's den anderen? Hab grad null Nerven für die Gruppe 😅 lg“",
+          "\"Hey Mia, Planänderung: Das Straßenfest fällt am Samstag ins Wasser, is ne Unwetterwarnung raus. Wir machen's jetzt eine Woche später, also am 21. Wer 'nen Stand will, muss sich bis Mittwoch melden. Sagst du's den anderen? Hab grad null Nerven für die Gruppe 😅 lg\"",
           "What makes it colloquial: dropped endings and contractions (\"is\", \"ne\", \"'nen\", \"hab\", \"grad\", \"wir machen's\"), the idiom \"ins Wasser fallen\" (to be called off, literally to fall into the water, which suits a storm), short main clauses, no subordinate clauses, the casual intensifier \"null\" (\"null Nerven\": no patience at all), the question as a request (\"Sagst du's den anderen?\") and the greeting abbreviation \"lg\" (liebe Grüße).",
           "Writing like this is a skill too: a Mastery-level speaker who can only write Amtsdeutsch sounds stiff among friends. But keep the grammar intact underneath: \"Wer einen Stand will, muss sich melden\" is still a correct relative clause with \"wer\".",
         ],
@@ -929,8 +929,8 @@ export const DE_C2_U33: Lesson[] = [
       {
         heading: "The email to a colleague",
         body: [
-          "One step up: you send the same information to a colleague in the neighbourhood association (Nachbarschaftsverein) whom you know well but not privately. Du is fine, the tone is friendly, but the text is complete and correct:",
-          "„Hallo Jonas, kurze Info: Wegen der Unwetterwarnung für Samstag haben wir das Straßenfest um eine Woche verschoben, es findet jetzt am 21. Juni statt. Wer einen Stand anmelden möchte, muss das bis Mittwoch tun. Könntest du das bitte im Newsletter ankündigen? Danke dir und viele Grüße, Lena“",
+          "One step up: you send the same information to a colleague in the neighbourhood association (\"Nachbarschaftsverein\") whom you know well but not privately. \"Du\" is fine, the tone is friendly, but the text is complete and correct:",
+          "\"Hallo Jonas, kurze Info: Wegen der Unwetterwarnung für Samstag haben wir das Straßenfest um eine Woche verschoben, es findet jetzt am 21. Juni statt. Wer einen Stand anmelden möchte, muss das bis Mittwoch tun. Könntest du das bitte im Newsletter ankündigen? Danke dir und viele Grüße, Lena\"",
           "Notice the changes: full forms (\"haben wir verschoben\", \"einen Stand\"), the neutral verb \"verschieben um\" (postpone by) instead of the idiom, a causal preposition \"wegen\" + genitive, a subordinate \"wer\"-clause, a polite request in Konjunktiv II (\"Könntest du ... bitte\"), and standard greetings (\"Hallo\", \"viele Grüße\"). After the comma of the greeting, the email continues in lowercase.",
           "The preposition trap: \"verschieben um\" gives the amount (by a week), \"verschieben auf\" the new date (to the 21st): \"Wir haben das Fest auf den 21. Juni verschoben.\"",
         ],
@@ -973,8 +973,8 @@ export const DE_C2_U33: Lesson[] = [
       {
         heading: "The official letter: Amtsdeutsch",
         body: [
-          "Now the district office (Bezirksamt) informs the residents. Official German piles up nouns, passives and fixed formulas:",
-          "„Sehr geehrte Anwohnerinnen und Anwohner, aufgrund der amtlichen Unwetterwarnung des Deutschen Wetterdienstes wird das für Samstag, den 14. Juni, geplante Straßenfest auf Samstag, den 21. Juni, verlegt. Anmeldungen für Verkaufsstände sind bis spätestens Mittwoch, den 18. Juni, beim Ordnungsamt einzureichen. Verspätet eingehende Anmeldungen können leider nicht berücksichtigt werden. Wir bitten um Ihr Verständnis. Mit freundlichen Grüßen, Ihr Bezirksamt“",
+          "Now the district office (\"Bezirksamt\") informs the residents. Official German piles up nouns, passives and fixed formulas:",
+          "\"Sehr geehrte Anwohnerinnen und Anwohner, aufgrund der amtlichen Unwetterwarnung des Deutschen Wetterdienstes wird das für Samstag, den 14. Juni, geplante Straßenfest auf Samstag, den 21. Juni, verlegt. Anmeldungen für Verkaufsstände sind bis spätestens Mittwoch, den 18. Juni, beim Ordnungsamt einzureichen. Verspätet eingehende Anmeldungen können leider nicht berücksichtigt werden. Wir bitten um Ihr Verständnis. Mit freundlichen Grüßen, Ihr Bezirksamt\"",
           "The hallmarks: the nominal causal phrase \"aufgrund\" + genitive, a long participial attribute (\"das für Samstag ... geplante Straßenfest\"), the passive with no agent (\"wird verlegt\"), \"sein\" + zu-infinitive for obligation (\"sind einzureichen\"), \"bis spätestens\" (by ... at the latest), Partizip I as an adjective (\"verspätet eingehende Anmeldungen\": applications arriving late), and the formula \"Wir bitten um Ihr Verständnis\" (we ask for your understanding).",
           "Amtsdeutsch is precise but impersonal, and it hides who acts. That is its purpose in a legal notice and its weakness everywhere else: transplanted into an email to a colleague, it sounds cold or ironic.",
         ],
@@ -1008,7 +1008,7 @@ export const DE_C2_U33: Lesson[] = [
           {
             type: "speak",
             text: "Wir bitten um Ihr Verständnis.",
-            tip: "Ver-STÄND-nis: stress the second syllable, short ä.",
+            tip: "\"Verständnis\": stress the second syllable, short ä.",
             explanation: "The standard closing formula of an official notice; \"bitten um\" + accusative.",
           },
         ],
@@ -1017,7 +1017,7 @@ export const DE_C2_U33: Lesson[] = [
         heading: "The feuilleton paragraph: gehoben and reflective",
         body: [
           "Finally the top of the scale: a columnist turns the same banal event into a reflection. Feuilleton style is gehoben but personal, likes irony, allusion and long, balanced sentences:",
-          "„Es gehört zu den stillen Tugenden dieser Stadt, dass sie sich vom Himmel noch etwas sagen lässt. Kaum hatte der Deutsche Wetterdienst seine Warnung ausgesprochen, wurde das Straßenfest, monatelang geplant und mit Lichterketten bereits halb geschmückt, um eine Woche vertagt. Man mag darin bürokratische Übervorsicht sehen; ebenso gut aber ließe sich behaupten, dass eine Gesellschaft, die ihre Feste verschieben kann, ohne sie aufzugeben, mehr Gelassenheit besitzt, als ihr gemeinhin nachgesagt wird.“",
+          "\"Es gehört zu den stillen Tugenden dieser Stadt, dass sie sich vom Himmel noch etwas sagen lässt. Kaum hatte der Deutsche Wetterdienst seine Warnung ausgesprochen, wurde das Straßenfest, monatelang geplant und mit Lichterketten bereits halb geschmückt, um eine Woche vertagt. Man mag darin bürokratische Übervorsicht sehen; ebenso gut aber ließe sich behaupten, dass eine Gesellschaft, die ihre Feste verschieben kann, ohne sie aufzugeben, mehr Gelassenheit besitzt, als ihr gemeinhin nachgesagt wird.\"",
           "The tools: an impersonal frame (\"Es gehört zu ...\"), the elegant verb \"vertagen\" (adjourn), an appositive participle phrase between commas (\"monatelang geplant und ... geschmückt\"), \"kaum hatte ..., wurde ...\" (no sooner had ... than), a concession with \"mögen\" (\"Man mag darin ... sehen\"), Konjunktiv II for a cautious claim (\"ließe sich behaupten\"), and the idiom \"jemandem etwas nachsagen\" (to say something of someone, usually a reputation).",
           "Gehoben does not mean Amtsdeutsch: the feuilleton avoids the official formulas and the faceless passive chains, and it lets a voice be heard. The gap between the two is one of the clearest markers of Mastery-level control.",
         ],
@@ -1036,7 +1036,7 @@ export const DE_C2_U33: Lesson[] = [
             source: "No sooner had the warning been issued than the party was postponed.",
             answer: "Kaum war die Warnung ausgesprochen, wurde das Fest verschoben.",
             altAnswers: ["Kaum war die Warnung ausgesprochen worden, wurde das Fest verschoben.", "Kaum war die Warnung ausgesprochen, wurde das Fest vertagt.", "Kaum war die Warnung ausgesprochen worden, wurde das Fest vertagt.", "Kaum war die Warnung herausgegeben, wurde das Fest verschoben.", "Kaum war die Warnung ausgesprochen, da wurde das Fest verschoben."],
-            explanation: "\"Kaum\" + Plusquamperfekt (verb second after \"kaum\"), then a main clause starting with its verb: \"wurde das Fest verschoben\".",
+            explanation: "\"Kaum\" + Plusquamperfekt (here the passive \"war ... ausgesprochen (worden)\", verb second after \"kaum\"), then a main clause starting with its verb: \"wurde das Fest verschoben\".",
           },
           {
             type: "multiple-choice",
@@ -1164,7 +1164,7 @@ export const DE_C2_U33: Lesson[] = [
         heading: "Leg 1: idiom for idiom",
         body: [
           "A translation relay passes a text from one language to the other and back: if the meaning survives the return journey, the translation was good. The first hurdle is the idiom. English 'it's raining cats and dogs' becomes \"es gießt in Strömen\" or \"es schüttet\", never animals; 'a piece of cake' is \"ein Kinderspiel\" or \"ein Klacks\"; 'not my cup of tea' is \"nicht mein Fall\" or \"nicht mein Ding\".",
-          "Some idioms share an image but change one detail: 'to beat around the bush' is \"um den heißen Brei herumreden\" (to talk around the hot porridge), 'to kill two birds with one stone' is \"zwei Fliegen mit einer Klappe schlagen\" (two flies with one swatter), 'to have a frog in your throat' is \"einen Frosch im Hals haben\", the same frog. Others have no image at all in German: 'to break the ice' does exist (\"das Eis brechen\"), but 'to bite the bullet' is simply \"in den sauren Apfel beißen\" (to bite into the sour apple).",
+          "Some idioms share an image but change one detail: 'to beat around the bush' is \"um den heißen Brei herumreden\" (to talk around the hot porridge), 'to kill two birds with one stone' is \"zwei Fliegen mit einer Klappe schlagen\" (two flies with one swatter), 'to have a frog in your throat' is \"einen Frosch im Hals haben\", the same frog. Others swap the image entirely: 'to break the ice' does exist (\"das Eis brechen\"), but 'to bite the bullet' is \"in den sauren Apfel beißen\" (to bite into the sour apple).",
           "The test: would a German who has never heard the English say it this way? If your German idiom needs the English one to make sense, it's a calque. Choose a German idiom of the same register, or translate the meaning plainly.",
         ],
         examples: [
@@ -1199,7 +1199,7 @@ export const DE_C2_U33: Lesson[] = [
         heading: "Leg 2: calques and false friends",
         body: [
           "The second hurdle is the word that looks right. 'Eventually' is \"schließlich\" or \"irgendwann\", while \"eventuell\" means possibly. 'Actually' is \"eigentlich\" or \"tatsächlich\", while \"aktuell\" means current. 'Sensible' is \"vernünftig\", while \"sensibel\" means sensitive. 'Consequent' is \"daraus folgend\", while \"konsequent\" means consistent or rigorous. 'Become' is \"werden\", while \"bekommen\" means to get.",
-          "Calques copy English structure: 'to make a decision' is \"eine Entscheidung treffen\" (not \"machen\"), 'to take a photo' is \"ein Foto machen\" (not \"nehmen\"), 'in 2019' is \"2019\" or \"im Jahr 2019\" (never \"in 2019\"), 'to ask a question' is \"eine Frage stellen\". 'It makes sense' is traditionally \"es ergibt Sinn\" or \"es ist sinnvoll\"; \"Das macht Sinn\" is now widespread in speech, but careful writers still avoid it.",
+          "Calques copy English structure: 'to make a decision' is \"eine Entscheidung treffen\" (not \"machen\"), 'to take a photo' is \"ein Foto machen\" (not \"nehmen\"), 'in 2019' is \"2019\" or \"im Jahr 2019\" (not \"in 2019\", an anglicism careful writers avoid), 'to ask a question' is \"eine Frage stellen\". 'It makes sense' is traditionally \"es ergibt Sinn\" or \"es ist sinnvoll\"; \"Das macht Sinn\" is now widespread in speech, but careful writers still avoid it.",
           "Business and academic English is full of such traps: 'to realise a mistake' is \"einen Fehler bemerken\" (\"realisieren\" mostly means to carry out a project), 'a concept' in the sense of an idea can be \"Idee\" or \"Vorstellung\", and 'the chef' is \"der Koch\", while \"der Chef\" is the boss.",
         ],
         examples: [
@@ -1244,7 +1244,7 @@ export const DE_C2_U33: Lesson[] = [
         heading: "Leg 3: rebuilding English structures",
         body: [
           "Some English structures have no direct German equivalent and must be rebuilt. The -ing form: 'Having finished the report, she went home' becomes \"Nachdem sie den Bericht fertig geschrieben hatte, ging sie nach Hause\"; 'I'm used to working late' becomes \"Ich bin es gewohnt, lange zu arbeiten\". 'Before leaving' is \"bevor ich gehe\" or \"vor dem Gehen\".",
-          "The personal passive 'I was told' cannot be copied, because only the accusative object can become the subject in German: \"Mir wurde gesagt\" or \"Man hat mir gesagt\" (never \"Ich wurde gesagt\"). The same goes for 'I was given a book': \"Mir wurde ein Buch geschenkt\" or \"Ich bekam ein Buch geschenkt\".",
+          "The personal passive 'I was told' cannot be copied, because only the accusative object can become the subject in German: \"Mir wurde gesagt\" or \"Man hat mir gesagt\" (never \"*Ich wurde gesagt*\"). The same goes for 'I was given a book': \"Mir wurde ein Buch geschenkt\" or \"Ich bekam ein Buch geschenkt\".",
           "Cleft sentences ('It was Lena who called') are rarer in German, which uses the Vorfeld or stress instead: \"Lena hat angerufen\" with stress on Lena, or \"Es war Lena, die angerufen hat\" when the contrast is strong. 'The more ..., the more' is \"je ..., desto / umso\". 'There's no point in ...' is \"Es hat keinen Sinn, ... zu\" or \"Es bringt nichts, ... zu\".",
         ],
         examples: [
@@ -1263,7 +1263,7 @@ export const DE_C2_U33: Lesson[] = [
             source: "I was told the meeting had been cancelled.",
             answer: "Mir wurde gesagt, die Besprechung sei abgesagt worden.",
             altAnswers: ["Man hat mir gesagt, die Besprechung sei abgesagt worden.", "Mir wurde gesagt, dass die Besprechung abgesagt worden sei.", "Mir wurde gesagt, dass die Besprechung abgesagt worden ist.", "Man hat mir gesagt, dass die Besprechung abgesagt worden ist.", "Mir wurde gesagt, das Meeting sei abgesagt worden.", "Mir wurde gesagt, die Sitzung sei abgesagt worden.", "Man sagte mir, die Besprechung sei abgesagt worden."],
-            explanation: "'I was told' is \"mir wurde gesagt\": the dative stays dative in the passive; \"ich wurde gesagt\" is impossible.",
+            explanation: "'I was told' is \"mir wurde gesagt\": the dative stays dative in the passive; \"*ich wurde gesagt*\" is impossible.",
           },
           {
             type: "translate",
@@ -1277,7 +1277,7 @@ export const DE_C2_U33: Lesson[] = [
           {
             type: "speak",
             text: "Je länger ich darüber nachdenke, desto unsicherer werde ich.",
-            tip: "Pause after nachdenke: the two halves balance each other.",
+            tip: "Pause after \"nachdenke\": the two halves balance each other.",
             explanation: "\"Je\" + verb at the end, then \"desto\" + comparative + verb second.",
           },
         ],
@@ -1351,7 +1351,7 @@ export const DE_C2_U33: Lesson[] = [
         source: "I was given a book for my birthday.",
         answer: "Mir wurde zum Geburtstag ein Buch geschenkt.",
         altAnswers: ["Ich habe zum Geburtstag ein Buch geschenkt bekommen.", "Ich bekam zum Geburtstag ein Buch geschenkt.", "Zum Geburtstag wurde mir ein Buch geschenkt.", "Zum Geburtstag habe ich ein Buch geschenkt bekommen.", "Ich habe zum Geburtstag ein Buch bekommen.", "Zum Geburtstag habe ich ein Buch bekommen."],
-        explanation: "The recipient stays dative (\"mir wurde ... geschenkt\") or becomes the subject of \"bekommen\" + participle; \"ich wurde gegeben\" is impossible.",
+        explanation: "The recipient stays dative (\"mir wurde ... geschenkt\") or becomes the subject of \"bekommen\" + participle; \"*Ich wurde ein Buch gegeben*\" is impossible.",
       },
       {
         type: "fill-blank",
@@ -1413,7 +1413,7 @@ export const DE_C2_U33: Lesson[] = [
         type: "speak",
         text: "Damit schlagen wir zwei Fliegen mit einer Klappe.",
         prompt: "Say it in natural German: That way we kill two birds with one stone.",
-        tip: "Klap-pe: a short a before the double p.",
+        tip: "\"Klappe\": a short a before the double p.",
         explanation: "The German idiom swaps birds and a stone for flies and a fly swatter.",
       },
     ],
@@ -1703,7 +1703,7 @@ export const DE_C2_U33: Lesson[] = [
         heading: "Paragraph 1: reading between the lines",
         body: [
           "The text is a column from the feuilleton section of a national daily, headed \"Die Kunst des Wartens\". Read the first paragraph:",
-          "„Wer in diesen Wochen mit der Bahn von Hamburg nach München reist, lernt eine Tugend, die in unserer beschleunigten Gegenwart selten geworden ist: die Geduld. Der ICE, so verheißt es der Fahrplan, benötigt knapp sechs Stunden. Dass es am Ende achteinhalb werden, ist kein Versagen, sondern, folgt man der Logik des Konzerns, ein Angebot zur Entschleunigung, kostenlos, versteht sich.“",
+          "\"Wer in diesen Wochen mit der Bahn von Hamburg nach München reist, lernt eine Tugend, die in unserer beschleunigten Gegenwart selten geworden ist: die Geduld. Der ICE, so verheißt es der Fahrplan, benötigt knapp sechs Stunden. Dass es am Ende achteinhalb werden, ist kein Versagen, sondern, folgt man der Logik des Konzerns, ein Angebot zur Entschleunigung, kostenlos, versteht sich.\"",
           "Nothing in the paragraph says the train service is bad, and yet that is its message. The clues: \"lernt eine Tugend\" presents a delay as an education; \"so verheißt es der Fahrplan\" (so the timetable promises, with the biblical verb \"verheißen\") marks the timetable as a promise rather than a fact; \"folgt man der Logik des Konzerns\" (if one follows the company's logic) attributes the absurd reinterpretation to the railway; and \"kostenlos, versteht sich\" (free of charge, of course) is pure sarcasm, since nobody pays extra for a delay.",
           "Inference questions at the Mastery level ask what the author implies, not what the words literally say. Look for evaluative verbs, distancing phrases and the gap between a neutral surface and an absurd claim.",
         ],
@@ -1736,7 +1736,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         heading: "Paragraph 2: irony and allusion",
         body: [
-          "„Zwischen Göttingen und Kassel steht der Zug eine Dreiviertelstunde auf freier Strecke. Ein Mitreisender klappt seinen Laptop zu und murmelt, man warte hier offenbar auf Godot. Durchsagen gibt es keine; die Stille ist, wenn man so will, die ehrlichste Auskunft des Tages. Und als der Zug sich endlich wieder in Bewegung setzt, möchte man dem Augenblick beinahe zurufen: Verweile doch, du bist so schön.“",
+          "\"Zwischen Göttingen und Kassel steht der Zug eine Dreiviertelstunde auf freier Strecke. Ein Mitreisender klappt seinen Laptop zu und murmelt, man warte hier offenbar auf Godot. Durchsagen gibt es keine; die Stille ist, wenn man so will, die ehrlichste Auskunft des Tages. Und als der Zug sich endlich wieder in Bewegung setzt, möchte man dem Augenblick beinahe zurufen: Verweile doch, du bist so schön.\"",
           "Two allusions carry the paragraph. \"Warten auf Godot\" is Samuel Beckett's play about two men waiting for someone who never comes: the passenger's remark turns the delay into absurd theatre. \"Verweile doch, du bist so schön\" (stay a while, you are so beautiful) is Faust's famous line from Goethe: Faust wagers his soul that he will never wish a moment to last. Here the moment the author wants to hold on to is simply the train moving, which is both funny and bitter.",
           "Irony also works through understatement and reversal: silence is called \"die ehrlichste Auskunft des Tages\" (the most honest information of the day), implying that the official announcements, when they come, are less honest. \"Wenn man so will\" (if you like) flags the formulation as deliberately pointed.",
           "To recognise allusions you need a cultural canon: Goethe, Schiller, Brecht, Kafka, the Bible, Grimm's fairy tales, and well-known film and political quotes. When a sentence sounds oddly elevated or rhythmic in a plain context, suspect a quotation.",
@@ -1778,7 +1778,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         heading: "Paragraph 3: who says what",
         body: [
-          "„Die Bahn verweist auf Nachfrage darauf, dass sich die Pünktlichkeit im Fernverkehr zuletzt leicht verbessert habe. Ursache der Verspätungen sei vor allem das marode Schienennetz, dessen Sanierung noch Jahre in Anspruch nehmen werde. Ein Sprecher will von einer Krise nichts wissen. Fahrgastverbände hingegen sprechen von einem ‚Systemversagen‘; der Bund soll die notwendigen Investitionen jahrzehntelang verschleppt haben.“",
+          "\"Die Bahn verweist auf Nachfrage darauf, dass sich die Pünktlichkeit im Fernverkehr zuletzt leicht verbessert habe. Ursache der Verspätungen sei vor allem das marode Schienennetz, dessen Sanierung noch Jahre in Anspruch nehmen werde. Ein Sprecher will von einer Krise nichts wissen. Fahrgastverbände hingegen sprechen von einem ‚Systemversagen‘; der Bund soll die notwendigen Investitionen jahrzehntelang verschleppt haben.\"",
           "Track the voices. The railway's position appears in Konjunktiv I (\"habe\", \"sei\", \"werde\"): the author reports it without endorsing it. \"Will von einer Krise nichts wissen\" uses \"wollen\" for a claim the author doubts (literally wants to know nothing of a crisis: refuses to acknowledge it). Passenger associations speak of a \"Systemversagen\" in quotation marks, which marks it as their word. And \"soll ... verschleppt haben\" is hearsay \"sollen\" + perfect infinitive: it is said that the federal government delayed the investment.",
           "None of these sentences is the author's own claim. In an exam, a question like \"Was behauptet der Autor?\" must be answered only from sentences in the indicative and in the author's voice. Confusing reported positions with the author's view is the most common error in Mastery-level reading.",
         ],
@@ -1800,7 +1800,7 @@ export const DE_C2_U33: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, with hearsay sollen.",
+            prompt: "Translate into German, with hearsay \"sollen\".",
             source: "The government is said to have delayed the investment for years.",
             answer: "Die Regierung soll die Investitionen jahrelang verschleppt haben.",
             altAnswers: ["Die Regierung soll die Investition jahrelang verschleppt haben.", "Die Regierung soll die Investitionen jahrelang hinausgezögert haben.", "Die Regierung soll die Investition jahrelang hinausgezögert haben.", "Die Regierung soll die Investitionen über Jahre verschleppt haben.", "Die Regierung soll die Investitionen jahrelang verzögert haben."],
@@ -1809,7 +1809,7 @@ export const DE_C2_U33: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, with claim wollen.",
+            prompt: "Translate into German, with claim \"wollen\".",
             source: "The spokesman refuses to acknowledge any crisis.",
             answer: "Der Sprecher will von einer Krise nichts wissen.",
             altAnswers: ["Der Sprecher will von keiner Krise etwas wissen.", "Die Sprecherin will von einer Krise nichts wissen.", "Der Sprecher will nichts von einer Krise wissen."],
@@ -1820,7 +1820,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         heading: "Paragraph 4 and the summary",
         body: [
-          "„Man könnte all das als typisch deutsche Jammerei abtun. Doch ein Land, das sich gern als Ingenieursnation feiert, sollte sich fragen lassen, warum es seine Züge nicht mehr pünktlich ankommen lässt. Die Geduld der Reisenden jedenfalls ist eine endliche Ressource, anders als die Verspätungen.“",
+          "\"Man könnte all das als typisch deutsche Jammerei abtun. Doch ein Land, das sich gern als Ingenieursnation feiert, sollte sich fragen lassen, warum es seine Züge nicht mehr pünktlich ankommen lässt. Die Geduld der Reisenden jedenfalls ist eine endliche Ressource, anders als die Verspätungen.\"",
           "The last paragraph finally states the author's position: an anticipated objection (\"Man könnte all das als ... abtun\": one could dismiss all this as ...), a turn with \"doch\", a pointed contrast between self-image (\"Ingenieursnation\") and reality, and a punchline that reverses expectations: patience is finite, delays are not.",
           "A good summary (\"Zusammenfassung\") names the text type and topic, gives the author's thesis, and reports the main steps neutrally, in your own words and in the present tense or Konjunktiv I: \"In seiner Glosse setzt sich der Autor mit den Verspätungen der Bahn auseinander. Er kritisiert, dass ... Die Bahn führe die Probleme auf ... zurück. Der Autor hält dagegen, dass ...\" Leave out the jokes and quotations; keep the argument.",
         ],
@@ -2145,7 +2145,6 @@ export const DE_C2_U33: Lesson[] = [
         en: "[What I'm getting at] is this: the year must be fair.",
         sentence: "___, ist Folgendes: Das Jahr muss fair sein.",
         answer: "Worauf ich hinauswill",
-        altAnswers: ["Worauf ich hinaus will"],
         explanation: "\"Auf etwas hinauswollen\" = to be getting at something; \"worauf\" opens the clause.",
       },
       {
@@ -2210,7 +2209,7 @@ export const DE_C2_U33: Lesson[] = [
         type: "speak",
         text: "Das ist ein berechtigter Einwand, den ich ernst nehme. Allerdings greift er zu kurz.",
         prompt: "Say it in German (to the examiner): That's a legitimate objection, and I take it seriously. However, it falls short.",
-        tip: "Pause before Allerdings: it turns the argument.",
+        tip: "Pause before \"Allerdings\": it turns the argument.",
         explanation: "Acknowledge, then refute: \"berechtigter Einwand\" + relative clause, then \"allerdings\" and \"zu kurz greifen\".",
       },
     ],
@@ -2227,7 +2226,7 @@ export const DE_C2_U33: Lesson[] = [
         heading: "Lesen: an essay on language change",
         body: [
           "Read the extract from an essay in a cultural magazine:",
-          "„Kaum eine Klage ist so alt wie die über den Verfall der Sprache. Schon im 17. Jahrhundert beschworen Sprachgesellschaften die Reinheit des Deutschen gegen das allgegenwärtige Französisch; heute richtet sich der Unmut gegen Anglizismen, Gendersternchen und die angebliche Verrohung im Netz. Gewiss, nicht jede Neuerung ist ein Gewinn, und wer im Büro nur noch ‚committet‘ und ‚gemeetet‘ wird, darf sich über Spott nicht wundern. Doch die Vorstellung, eine Sprache könne gleichsam unter Denkmalschutz gestellt werden, verkennt, was Sprache ist: kein Museum, sondern eine Baustelle. Dass das Deutsche lebendig ist, zeigt sich gerade daran, dass es fremde Wörter nicht nur übernimmt, sondern sich anverwandelt, bis kaum noch jemand weiß, dass ‚Fenster‘ einst aus dem Lateinischen kam. Sorge bereiten sollte uns weniger der Wandel als die Gleichgültigkeit: eine Gesellschaft, die nicht mehr über ihre Sprache streitet, hat sie womöglich schon aufgegeben.“",
+          "\"Kaum eine Klage ist so alt wie die über den Verfall der Sprache. Schon im 17. Jahrhundert beschworen Sprachgesellschaften die Reinheit des Deutschen gegen das allgegenwärtige Französisch; heute richtet sich der Unmut gegen Anglizismen, Gendersternchen und die angebliche Verrohung im Netz. Gewiss, nicht jede Neuerung ist ein Gewinn, und wer im Büro nur noch von ‚committen‘ und ‚meeten‘ spricht, darf sich über Spott nicht wundern. Doch die Vorstellung, eine Sprache könne gleichsam unter Denkmalschutz gestellt werden, verkennt, was Sprache ist: kein Museum, sondern eine Baustelle. Dass das Deutsche lebendig ist, zeigt sich gerade daran, dass es fremde Wörter nicht nur übernimmt, sondern sich anverwandelt, bis kaum noch jemand weiß, dass ‚Fenster‘ einst aus dem Lateinischen kam. Sorge bereiten sollte uns weniger der Wandel als die Gleichgültigkeit: eine Gesellschaft, die nicht mehr über ihre Sprache streitet, hat sie womöglich schon aufgegeben.\"",
           "Mastery-level reading tests whether you can separate the positions the author describes from the one the author holds. The structure here: a historical frame (\"Kaum eine Klage ist so alt wie ...\"), a concession (\"Gewiss, nicht jede Neuerung ist ein Gewinn\"), the turn (\"Doch ... verkennt\"), a central metaphor (\"kein Museum, sondern eine Baustelle\"), evidence (\"Fenster\" from Latin fenestra) and a pointed conclusion that reverses the usual worry.",
           "Note \"angeblich\" (alleged) and the Konjunktiv I \"könne\": both distance the author from the views of the language purists.",
         ],
@@ -2249,7 +2248,7 @@ export const DE_C2_U33: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Why does the author mention the word Fenster?",
+            question: "Why does the author mention the word \"Fenster\"?",
             options: ["As proof that borrowed words are absorbed until nobody notices their origin.", "As an example of a bad anglicism.", "To show that Latin is more important than English.", "To criticise people who don't know Latin."],
             correctIndex: 0,
             explanation: "\"Fenster\" (from Latin fenestra) illustrates \"sich anverwandeln\": a loanword fully integrated into German.",
@@ -2268,7 +2267,7 @@ export const DE_C2_U33: Lesson[] = [
       {
         heading: "Hören: a radio discussion (transcript)",
         body: [
-          "Transcript of a radio discussion on returning objects from the colonial era held in German museums: „Moderator: Herr Professor Brandt, müssen die Museen alles zurückgeben, was in der Kolonialzeit nach Deutschland kam? Brandt: Alles, das wäre zu pauschal. Aber dort, wo nachweislich Raub oder Zwang im Spiel war, sehe ich keine vernünftige Alternative zur Rückgabe. Moderator: Kritiker sagen, dann würden die Museen leer. Brandt: Das halte ich für ein Schreckgespenst. Die Erfahrung zeigt, dass Rückgaben oft zu neuen Kooperationen führen, etwa zu gemeinsamen Ausstellungen. Entscheidend ist doch, dass wir die Geschichte der Objekte offenlegen, statt sie weiter zu verschweigen.“",
+          "Transcript of a radio discussion on returning objects from the colonial era held in German museums: \"Moderator: Herr Professor Brandt, müssen die Museen alles zurückgeben, was in der Kolonialzeit nach Deutschland kam? Brandt: Alles, das wäre zu pauschal. Aber dort, wo nachweislich Raub oder Zwang im Spiel war, sehe ich keine vernünftige Alternative zur Rückgabe. Moderator: Kritiker sagen, dann würden die Museen leer. Brandt: Das halte ich für ein Schreckgespenst. Die Erfahrung zeigt, dass Rückgaben oft zu neuen Kooperationen führen, etwa zu gemeinsamen Ausstellungen. Entscheidend ist doch, dass wir die Geschichte der Objekte offenlegen, statt sie weiter zu verschweigen.\"",
           "Catch the hedges and the stance: \"Alles, das wäre zu pauschal\" rejects the generalisation with a Konjunktiv II; \"wo nachweislich ... im Spiel war\" (where it can be proved that ... was involved) sets a precise condition; \"Das halte ich für ein Schreckgespenst\" (I think that's a bogeyman) dismisses the critics' fear; \"Entscheidend ist doch\" introduces his core point with the particle \"doch\" appealing to common sense.",
           "In the exam you hear the recording once or twice and answer while listening. Read the questions before the audio starts, and listen for the structure markers: \"aber\", \"allerdings\", \"entscheidend ist\", \"die Erfahrung zeigt\".",
         ],
@@ -2377,7 +2376,7 @@ export const DE_C2_U33: Lesson[] = [
           {
             type: "speak",
             text: "Die Frage, ob Museen koloniale Objekte zurückgeben sollten, wird seit Jahren kontrovers diskutiert.",
-            tip: "Keep one breath for the inserted ob-clause, then land on diskutiert.",
+            tip: "Keep one breath for the inserted ob-clause, then land on \"diskutiert\".",
             explanation: "A classic opening frame: the topic as a noun with an embedded ob-clause, then a present passive with \"seit Jahren\".",
           },
         ],
@@ -2488,7 +2487,7 @@ export const DE_C2_U33: Lesson[] = [
 
 export const DE_C2_U33_WRITING: WriteExercise = {
   type: "write",
-  prompt: "Goethe C2-style Schreiben: a cultural magazine is running a debate under the title \"Brauchen wir in Zeiten maschineller Übersetzung noch Fremdsprachenunterricht?\" Write a contribution (250-400 words) with a short introduction, a clear thesis, at least two arguments, a counterargument you report and then refute, one source or view paraphrased in reported speech, and a conclusion. Write in a gehoben, essayistic register.",
+  prompt: "Goethe C2-style Schreiben: a cultural magazine is running a debate under the title \"Brauchen wir in Zeiten maschineller Übersetzung noch Fremdsprachenunterricht?\" Write a contribution (250-400 words) with a short introduction, a clear thesis, at least two arguments, a counterargument you report and then refute, one source or view paraphrased in reported speech, and a conclusion. Write in an elevated (\"gehoben\"), essayistic register.",
   minWords: 250,
   maxWords: 400,
   rubric: [

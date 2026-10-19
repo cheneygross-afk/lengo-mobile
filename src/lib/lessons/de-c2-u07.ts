@@ -8,7 +8,7 @@ export const DE_C2_U07: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Stilmittel und Bildsprache, Part 1 of 3",
-    summary: "Vergleich vs Metapher, als ob / als wenn with the Konjunktiv II, and the two German ways of building metaphors: compounds (Datenflut, Schuldenberg) and genitives (der Strom der Zeit).",
+    summary: "Tell a \"Vergleich\" from a \"Metapher\", compare with \"als ob\" / \"als wenn\" and the Konjunktiv II, and build metaphors the two German ways: compounds (\"Datenflut\", \"Schuldenberg\") and genitives (\"der Strom der Zeit\").",
     duration: "18 min",
     sections: [
       {
@@ -34,7 +34,7 @@ export const DE_C2_U07: Lesson[] = [
             source: "The simile illustrates the hero's courage.",
             answer: "Der Vergleich veranschaulicht den Mut des Helden.",
             altAnswers: ["Der Vergleich verdeutlicht den Mut des Helden.", "Der Vergleich illustriert den Mut des Helden."],
-            explanation: "A simile is \"der Vergleich\" (not die Simile). \"Der Held\" is a weak noun: genitive \"des Helden\".",
+            explanation: "A simile is \"der Vergleich\" (not \"*die Simile*\"). \"Der Held\" is a weak noun: genitive \"des Helden\".",
           },
           {
             type: "multiple-choice",
@@ -49,8 +49,8 @@ export const DE_C2_U07: Lesson[] = [
         heading: "Als ob, als wenn, als + verb: comparison with the Konjunktiv II",
         body: [
           "To compare with something unreal, German uses \"als ob\" or \"als wenn\" (verb at the end) or just \"als\" with the verb straight after it, always with the Konjunktiv II: \"Er tat, als ob nichts gewesen wäre\" = \"Er tat, als wäre nichts gewesen\" (He acted as if nothing had happened). The \"als\" + verb-second version is more elegant and very common in literature.",
-          "Time works relative to the main clause: \"als ob er schliefe / schlafen würde\" (simultaneous), \"als ob er geschlafen hätte\" (earlier). In speech, \"würde\" + infinitive is normal; in careful writing the simple Konjunktiv II forms of common verbs (wäre, hätte, käme, ginge, wüsste) are preferred. You will also see Konjunktiv I in this position in formal texts (\"als sei nichts geschehen\"): it's correct and slightly more literary.",
-          "Eichendorff's poem Mondnacht opens with exactly this structure: \"Es war, als hätt der Himmel / Die Erde still geküsst\", a comparison that turns the sky into a lover. English speakers often write *\"als ob er hat geschlafen\" or forget the Konjunktiv; both are wrong.",
+          "Time works relative to the main clause: \"als ob er schliefe / schlafen würde\" (simultaneous), \"als ob er geschlafen hätte\" (earlier). In speech, \"würde\" + infinitive is normal; in careful writing the simple Konjunktiv II forms of common verbs (\"wäre\", \"hätte\", \"käme\", \"ginge\", \"wüsste\") are preferred. You will also see Konjunktiv I in this position in formal texts (\"als sei nichts geschehen\"): it's correct and slightly more literary.",
+          "Eichendorff's poem \"Mondnacht\" opens with exactly this structure: \"Es war, als hätt der Himmel / Die Erde still geküsst\", a comparison that turns the sky into a lover. English speakers often write \"*als ob er hat geschlafen*\" or forget the Konjunktiv; both are wrong.",
         ],
         examples: [
           { es: "Er tat, als ob nichts gewesen wäre.", en: "He acted as if nothing had happened." },
@@ -154,8 +154,8 @@ export const DE_C2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In \"Achilles ist ein Löwe\", what is the Tertium Comparationis?",
-        options: ["courage and strength", "Achilles", "the lion", "the verb ist"],
+        question: "In \"Achilles ist ein Löwe\", what is the \"Tertium Comparationis\"?",
+        options: ["courage and strength", "Achilles", "the lion", "the verb \"ist\""],
         correctIndex: 0,
         explanation: "Achilles is the \"Bildempfänger\", the lion the \"Bildspender\", and what they share (courage, strength) the \"Tertium Comparationis\".",
       },
@@ -214,14 +214,14 @@ export const DE_C2_U07: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Transformations: Vom Vergleich zur Metapher",
-    summary: "Turn similes into metaphors and compounds and back again (hoch wie ein Berg → der Schuldenberg), and judge which version is stronger.",
+    summary: "Turn similes into metaphors and compounds and back again (\"hoch wie ein Berg\" → \"der Schuldenberg\"), and judge which version is stronger.",
     duration: "16 min",
     sections: [
       {
         heading: "Simile → metaphor → compound",
         body: [
           "Each step removes an explicit link. Simile: \"Die Schulden sind hoch wie ein Berg.\" Metaphor: \"Die Schulden sind ein Berg.\" Verb metaphor: \"Die Schulden türmen sich auf.\" Compound: \"der Schuldenberg\". The further you go, the more compressed and, usually, the more conventional the image becomes.",
-          "When you transform, watch the grammar ripple. Adjective + wie (\"hoch wie\") disappears; the image noun becomes the predicate (\"sind ein Berg\") or the head of a compound, which takes over the gender: \"die Schulden\" (plural) + \"der Berg\" = \"der Schuldenberg\" (masculine, from Berg). The first element often gets a linking -n-, -s- or -es- (\"Schulden-berg\", \"Hoffnungs-schimmer\", \"Lebens-abend\").",
+          "When you transform, watch the grammar ripple. Adjective + \"wie\" (\"hoch wie\") disappears; the image noun becomes the predicate (\"sind ein Berg\") or the head of a compound, which takes over the gender: \"die Schulden\" (plural) + \"der Berg\" = \"der Schuldenberg\" (masculine, from \"Berg\"). The first element often gets a linking -n-, -s- or -es- (\"Schulden-berg\", \"Hoffnungs-schimmer\", \"Lebens-abend\").",
           "Verb metaphors are a Mastery-level resource: instead of a noun image, put the image into the verb. \"Die Preise explodieren\", \"Die Gerüchte keimen\" (rumours sprout), \"Die Stimmung kippt\" (the mood tips over).",
         ],
         examples: [
@@ -292,7 +292,7 @@ export const DE_C2_U07: Lesson[] = [
         ],
         examples: [
           { es: "Die Stadt lag da wie ein ausgekippter Werkzeugkasten.", en: "The city lay there like an emptied-out toolbox." },
-          { es: "„Häusermeer“ ist ein abgegriffenes Bild.", en: "Sea of houses is a worn-out image." },
+          { es: "„Häusermeer“ ist ein abgegriffenes Bild.", en: "'Sea of houses' is a worn-out image." },
           { es: "Der Vergleich ist anschaulich und originell.", en: "The simile is vivid and original." },
           { es: "Der Satz enthält einen Bildbruch.", en: "The sentence contains a mixed metaphor." },
           { es: "Wir müssen das Ruder herumreißen.", en: "We have to change course drastically." },
@@ -309,7 +309,7 @@ export const DE_C2_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which sentence contains a Bildbruch?",
+            question: "Which sentence contains a \"Bildbruch\"?",
             options: ["Wir müssen das Ruder herumreißen, bevor der Zug abgefahren ist.", "Wir müssen das Ruder herumreißen, bevor das Schiff sinkt.", "Der Zug ist abgefahren.", "Die Preise explodieren."],
             correctIndex: 0,
             explanation: "A ship's rudder and a departing train in one sentence: the images clash.",
@@ -364,8 +364,8 @@ export const DE_C2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"Die Hoffnung schimmert schwach\" becomes a compound. Which?",
-        options: ["der Hoffnungsschimmer", "die Hoffnungsschimmer", "das Hoffnungschimmer", "der Hoffnungschimmern"],
+        question: "You want to turn \"Die Hoffnung schimmert schwach\" into a compound: 'There is a faint glimmer of hope.' Which sentence is correct?",
+        options: ["Es gibt einen schwachen Hoffnungsschimmer.", "Es gibt eine schwache Hoffnungsschimmer.", "Es gibt ein schwaches Hoffnungschimmer.", "Es gibt einen schwachen Hoffnungschimmern."],
         correctIndex: 0,
         explanation: "The head \"der Schimmer\" gives the gender; \"Hoffnung\" takes the linking -s-.",
       },
@@ -403,7 +403,7 @@ export const DE_C2_U07: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Stilmittel und Bildsprache, Part 2 of 3",
-    summary: "Metonymy and synecdoche (Berlin hat entschieden, ein Glas trinken), personification, hyperbole, litotes (nicht un-), oxymoron and alliterative pairs (Kind und Kegel).",
+    summary: "Recognise and use metonymy and synecdoche (\"Berlin hat entschieden\", \"ein Glas trinken\"), personification, hyperbole, litotes (\"nicht un-\"), oxymoron and alliterative pairs (\"Kind und Kegel\").",
     duration: "20 min",
     sections: [
       {
@@ -445,7 +445,7 @@ export const DE_C2_U07: Lesson[] = [
         body: [
           "\"Die Personifikation\" gives human actions or feelings to things: \"Die Stadt schläft\", \"Der Wind heult\", \"Die Zeit heilt alle Wunden\", \"Die Börse reagiert nervös\". German does it mostly through verbs, as these examples show, which makes personification easy to use without sounding poetic.",
           "\"Die Hyperbel\" (hyperbole, stressed on the middle syllable: hy-PER-bel) exaggerates: \"Ich habe dir das schon tausendmal gesagt\", \"Ich warte seit Ewigkeiten\", \"ein Meer von Tränen\", \"todmüde\". Everyday German is full of hyperbolic prefixes: \"stinklangweilig\", \"steinalt\", \"blitzschnell\" (more in Unit 9).",
-          "Rilke's Der Panther combines both: \"Ihm ist, als ob es tausend Stäbe gäbe / und hinter tausend Stäben keine Welt.\" The thousand bars are a hyperbole that expresses the animal's perception, and the als-ob comparison takes us inside its mind.",
+          "Rilke's \"Der Panther\" combines both: \"Ihm ist, als ob es tausend Stäbe gäbe / und hinter tausend Stäben keine Welt.\" The thousand bars are a hyperbole that expresses the animal's perception, and the \"als ob\" comparison takes us inside its mind.",
         ],
         examples: [
           { es: "Die Stadt schläft noch.", en: "The city is still asleep." },
@@ -480,8 +480,8 @@ export const DE_C2_U07: Lesson[] = [
         heading: "Litotes, Oxymoron, Alliteration",
         body: [
           "\"Die Litotes\" understates by negating the opposite: \"nicht unwichtig\" (quite important), \"nicht ganz unbegabt\" (rather talented), \"nicht ohne\" (quite something: \"Die Aufgabe ist nicht ohne\"), \"nicht gerade billig\" (expensive). It is a key tool of polite German criticism and dry humour.",
-          "\"Das Oxymoron\" joins contradictory words: \"bittersüß\", \"beredtes Schweigen\" (eloquent silence), \"alter Knabe\", \"ein offenes Geheimnis\", \"Hassliebe\" (love-hate). \"Die Alliteration\" repeats initial sounds and lives on in fixed pairs (\"Zwillingsformeln\"): \"mit Kind und Kegel\" (with the whole family), \"Haus und Hof\" (house and home), \"Mann und Maus\" (everyone, as in mit Mann und Maus untergehen), \"bei Wind und Wetter\", \"Stein und Bein schwören\" (to swear blind).",
-          "These fixed pairs are invariable: never *\"Kegel und Kind\". Their alliteration makes them memorable, which is why advertisers and politicians copy the pattern (\"Milch macht müde Männer munter\").",
+          "\"Das Oxymoron\" joins contradictory words: \"bittersüß\", \"beredtes Schweigen\" (eloquent silence), \"alter Knabe\", \"ein offenes Geheimnis\", \"Hassliebe\" (love-hate). \"Die Alliteration\" repeats initial sounds and lives on in fixed pairs (\"Zwillingsformeln\"): \"mit Kind und Kegel\" (with the whole family), \"Haus und Hof\" (house and home), \"Mann und Maus\" (everyone, as in \"mit Mann und Maus untergehen\"), \"bei Wind und Wetter\", \"Stein und Bein schwören\" (to swear blind).",
+          "These fixed pairs are invariable: never \"*Kegel und Kind*\". Their alliteration makes them memorable, which is why advertisers and politicians copy the pattern (\"Milch macht müde Männer munter\").",
         ],
         examples: [
           { es: "Die Aufgabe ist nicht ohne.", en: "The task is quite tough." },
@@ -507,7 +507,7 @@ export const DE_C2_U07: Lesson[] = [
             en: "They came [with the whole family].",
             sentence: "Sie kamen ___.",
             answer: "mit Kind und Kegel",
-            explanation: "\"Mit Kind und Kegel\": an alliterative pair (Kegel once meant an illegitimate child), fixed in this order.",
+            explanation: "\"Mit Kind und Kegel\": an alliterative pair (\"Kegel\" once meant an illegitimate child), fixed in this order.",
           },
           {
             type: "speak",
@@ -614,14 +614,14 @@ export const DE_C2_U07: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Contrast Clinic: Metonymie und Synekdoche",
-    summary: "Sort examples into metonymy and synecdoche and name the link (place, container, author, part-whole), from Karlsruhe hat entschieden to pro Kopf.",
+    summary: "Sort examples into metonymy and synecdoche and name the link (place, container, author, part-whole), from \"Karlsruhe hat entschieden\" to \"pro Kopf\".",
     duration: "16 min",
     sections: [
       {
         heading: "The links of metonymy",
         body: [
           "Metonymy works through a real, factual connection (\"Kontiguität\", contiguity), not through similarity as metaphor does. The main types: place for institution or people (\"Karlsruhe\" = the Constitutional Court, \"das Kanzleramt\" = the Chancellor's staff, \"Hollywood\"); container for content (\"eine Flasche trinken\", \"Das Stadion jubelt\"); producer for product (\"einen Porsche fahren\", \"Goethe lesen\"); time for people (\"das 19. Jahrhundert glaubte an den Fortschritt\").",
-          "In analysis, name the link: \"Es handelt sich um eine Metonymie: Der Ort steht für die Institution\" (the place stands for the institution). The verb \"stehen für\" is the key phrase. Compare metaphor: \"Der Löwe steht für den Mut\" would be wrong; there the image is based on similarity, so you say \"Der Löwe wird mit Mut assoziiert\" or \"verkörpert den Mut\".",
+          "In analysis, name the link: \"Es handelt sich um eine Metonymie: Der Ort steht für die Institution\" (the place stands for the institution). The verb \"stehen für\" is the key phrase. Compare metaphor: there the image is based on similarity, so although \"Der Löwe steht für den Mut\" is common for symbols, a precise analysis says \"Der Löwe wird mit Mut assoziiert\" or \"verkörpert den Mut\".",
         ],
         examples: [
           { es: "Das Kanzleramt hat die Meldung dementiert.", en: "The Chancellery has denied the report." },
@@ -803,7 +803,7 @@ export const DE_C2_U07: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Style Workshop: Hyperbel und Personifikation",
-    summary: "Rewrite a flat report as a vivid newspaper column with hyperbole and personification, then tone it down again, and learn when figures turn kitschig.",
+    summary: "Rewrite a flat report as a vivid newspaper column with hyperbole and personification, then tone it down again, and learn when figures turn \"kitschig\".",
     duration: "18 min",
     sections: [
       {
@@ -998,7 +998,7 @@ export const DE_C2_U07: Lesson[] = [
       {
         heading: "Wasser, Krieg, Krankheit: the press metaphors",
         body: [
-          "Three image fields dominate German political language. Water: \"die Flüchtlingswelle\", \"der Flüchtlingsstrom\", \"die Flut\", \"Dämme brechen\", \"überschwemmen\". War: \"der Kampf gegen das Virus\", \"an vorderster Front\" (on the front line), \"die Corona-Front\", \"Preiskrieg\", \"aufrüsten\". Illness: \"der kranke Mann Europas\" (Germany in the late 1990s, earlier the Ottoman Empire), \"die Wirtschaft erholt sich\" (recovers), \"ein Geschwür\" (a tumour), \"gesundschrumpfen\" (to shrink back to health).",
+          "Three image fields dominate German political language. Water: \"die Flüchtlingswelle\", \"der Flüchtlingsstrom\", \"die Flut\", \"Dämme brechen\", \"überschwemmen\". War: \"der Kampf gegen das Virus\", \"an vorderster Front\" (on the front line), \"die Corona-Front\", \"Preiskrieg\", \"aufrüsten\". Illness: \"der kranke Mann Europas\" (Germany in the late 1990s, earlier the Ottoman Empire), \"die Wirtschaft erholt sich\" (recovers), \"ein Geschwür\" (an ulcer, a festering sore), \"gesundschrumpfen\" (to shrink back to health).",
           "These images are not neutral. Water turns people into a natural disaster to be held back with dams; war turns opponents into enemies and justifies emergency measures; illness suggests that something must be cut out. Critical linguists (and the jury of the \"Unwort des Jahres\") point this out regularly.",
           "Alternatives exist: \"die Zuwanderung\", \"die Fluchtbewegung\", \"die Ankunft vieler Geflüchteter\" instead of a wave; \"Maßnahmen gegen\" instead of \"Kampf gegen\"; \"die Wirtschaft wächst wieder\" instead of a recovery. Choosing between them is a political act, and Mastery-level readers should notice it.",
         ],
@@ -1064,14 +1064,14 @@ export const DE_C2_U07: Lesson[] = [
       {
         heading: "Literary metaphor: Goethe, Rilke, Celan",
         body: [
-          "Goethe's early poem Willkommen und Abschied personifies nature: \"Der Abend wiegte schon die Erde, / Und an den Bergen hing die Nacht.\" Evening rocks the earth like a mother rocks a cradle; night hangs on the mountains like a curtain. Rilke's Der Panther (Lesson 3) shows the world through bars: \"und hinter tausend Stäben keine Welt\".",
-          "Paul Celan's Todesfuge (1945/1948), the most famous German poem about the Holocaust, opens with the oxymoronic metaphor \"Schwarze Milch der Frühe\": milk, the image of nourishment and life, is black, and morning (\"die Frühe\") is drunk at evening, noon and night. The genitive metaphor and the contradiction make the unspeakable concrete. Its refrain \"der Tod ist ein Meister aus Deutschland\" uses a metaphor (death as a master craftsman) that has become a standard reference in German debates about memory.",
+          "Goethe's early poem \"Willkommen und Abschied\" personifies nature: \"Der Abend wiegte schon die Erde, / Und an den Bergen hing die Nacht.\" Evening rocks the earth like a mother rocks a cradle; night hangs on the mountains like a curtain. Rilke's \"Der Panther\" (Lesson 3) shows the world through bars: \"und hinter tausend Stäben keine Welt\".",
+          "Paul Celan's \"Todesfuge\" (1945/1948), the most famous German poem about the Holocaust, opens with the oxymoronic metaphor \"Schwarze Milch der Frühe\": milk, the image of nourishment and life, is black, and this milk of daybreak (\"die Frühe\") is drunk at evening, noon, morning and night. The genitive metaphor and the contradiction make the unspeakable concrete. Its refrain \"der Tod ist ein Meister aus Deutschland\" uses a metaphor (death as a master craftsman) that has become a standard reference in German debates about memory.",
           "When analysing, follow the steps: \"benennen\" (name the figure), \"erläutern\" (explain how it works), \"deuten\" (interpret its effect). \"Die Metapher 'schwarze Milch' verbindet als Oxymoron Leben und Tod ...\"",
         ],
         examples: [
           { es: "Der Abend wiegte schon die Erde.", en: "Evening was already rocking the earth. (Goethe)" },
           { es: "An den Bergen hing die Nacht.", en: "Night hung on the mountains. (Goethe)" },
-          { es: "„Schwarze Milch der Frühe“ ist ein Oxymoron.", en: "Black milk of daybreak is an oxymoron." },
+          { es: "„Schwarze Milch der Frühe“ ist ein Oxymoron.", en: "'Black milk of daybreak' is an oxymoron." },
           { es: "Die Metapher verbindet Leben und Tod.", en: "The metaphor links life and death." },
           { es: "Zuerst benennt man das Stilmittel, dann deutet man es.", en: "First you name the device, then you interpret it." },
         ],
@@ -1091,7 +1091,7 @@ export const DE_C2_U07: Lesson[] = [
             question: "What image does Goethe use?",
             options: ["Evening rocking the earth like a cradle", "Evening weighing the earth on scales", "Evening covering the earth with a blanket", "Evening waking the earth"],
             correctIndex: 0,
-            explanation: "\"Wiegen\" (weak, wiegte) means to rock a cradle; the strong \"wiegen, wog\" means to weigh. Here: personification.",
+            explanation: "\"Wiegen\" (weak, \"wiegte\") means to rock a cradle; the strong \"wiegen, wog\" means to weigh. Here: personification.",
           },
           {
             type: "speak",
@@ -1151,8 +1151,8 @@ export const DE_C2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does \"entmenschlichend\" mean in a critique of a metaphor?",
-        options: ["dehumanising", "inhumanly cruel", "unpopular", "impersonal in tone only"],
+        question: "A linguist calls the word \"Ungeziefer\" for migrants \"entmenschlichend\". What is her charge?",
+        options: ["It strips people of their humanity.", "It is cruel to animals.", "It is unpopular with readers.", "It merely sounds impersonal."],
         correctIndex: 0,
         explanation: "\"Entmenschlichen\" = to strip of humanity: the charge against water and vermin metaphors for people.",
       },
@@ -1190,13 +1190,13 @@ export const DE_C2_U07: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Spiral Review: Stilmittel in Literarischen Texten",
-    summary: "Analyse Eichendorff's Mondnacht and short prose by Kafka with all the figures so far: name them, explain how they work and judge their effect.",
+    summary: "Analyse Eichendorff's \"Mondnacht\" and short prose by Kafka with all the figures so far: name them, explain how they work and judge their effect.",
     duration: "20 min",
     sections: [
       {
         heading: "A poem: Eichendorff, Mondnacht",
         body: [
-          "Joseph von Eichendorff's Mondnacht (1837) is the most famous poem of German Romanticism. First stanza: \"Es war, als hätt der Himmel / Die Erde still geküsst, / Dass sie im Blütenschimmer / Von ihm nun träumen müsst.\" Third stanza: \"Und meine Seele spannte / Weit ihre Flügel aus, / Flog durch die stillen Lande, / Als flöge sie nach Haus.\"",
+          "Joseph von Eichendorff's \"Mondnacht\" (1837) is the most famous poem of German Romanticism. First stanza: \"Es war, als hätt der Himmel / Die Erde still geküsst, / Dass sie im Blütenschimmer / Von ihm nun träumen müsst.\" Third stanza: \"Und meine Seele spannte / Weit ihre Flügel aus, / Flog durch die stillen Lande, / Als flöge sie nach Haus.\"",
           "Analysis: the poem is framed by two unreal comparisons with \"als\" + Konjunktiv II (\"als hätt\", \"als flöge\"), which keep everything in a dream-like as-if. Sky and earth are personified as lovers (\"geküsst\", \"träumen\"); the soul becomes a bird with wings (metaphor). \"Blütenschimmer\" is a compound image (blossom + shimmer). The old forms \"hätt\", \"müsst\", \"Lande\" serve rhyme and metre.",
           "A model analysis sentence: \"Durch die Personifikation von Himmel und Erde erscheint die Natur als Liebespaar; der irreale Vergleich ('als hätt') hält die Vereinigung jedoch in der Schwebe.\" \"In der Schwebe halten\" (to keep in suspense, undecided) is a phrase worth knowing.",
         ],
@@ -1220,7 +1220,7 @@ export const DE_C2_U07: Lesson[] = [
           {
             type: "multiple-choice",
             question: "\"Als flöge sie nach Haus\": which structure is it?",
-            options: ["an unreal comparison with als + Konjunktiv II", "a temporal clause with als + Präteritum", "a metonymy", "a litotes"],
+            options: ["an unreal comparison with \"als\" + Konjunktiv II", "a temporal clause with \"als\" + Präteritum", "a metonymy", "a litotes"],
             correctIndex: 0,
             explanation: "\"Flöge\" is the Konjunktiv II of \"fliegen\"; \"als\" + verb second = as if. Temporal \"als\" would have \"flog\" at the end.",
           },
@@ -1229,7 +1229,7 @@ export const DE_C2_U07: Lesson[] = [
       {
         heading: "Prose: Kafka",
         body: [
-          "Kafka's Die Verwandlung (1915) opens: \"Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt.\" There is no metaphor here, and that is the point: what would be a metaphor (he is vermin, i.e. worthless to his family) is narrated as literal fact. Critics call this \"die Wörtlichnahme der Metapher\" (taking the metaphor literally).",
+          "Kafka's \"Die Verwandlung\" (1915) opens: \"Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt.\" There is no metaphor here, and that is the point: what would be a metaphor (he is vermin, i.e. worthless to his family) is narrated as literal fact. Critics call this \"die Wörtlichnahme der Metapher\" (taking the metaphor literally).",
           "In a letter of 1904 Kafka wrote: \"Ein Buch muss die Axt sein für das gefrorene Meer in uns.\" A double metaphor: the frozen sea (numbed feelings) and the axe (the book that breaks it open). It is quoted constantly in German discussions of literature.",
           "Note the analytic verbs again: \"Kafka erzählt das Unglaubliche in nüchternem Ton\", \"Die Metapher wird wörtlich genommen\", \"Das Bild verdichtet ...\" (condenses).",
         ],
@@ -1260,7 +1260,7 @@ export const DE_C2_U07: Lesson[] = [
       {
         heading: "Writing the analysis",
         body: [
-          "A German analysis paragraph follows a fixed pattern: claim (\"Auffällig ist ...\", \"Im Zentrum steht ...\"), evidence with line reference (\"(V. 3)\" for Vers, \"(Z. 5)\" for Zeile), naming the figure (\"Es handelt sich um ...\"), function (\"Dadurch wird ... verdeutlicht\", \"Dies unterstreicht ...\").",
+          "A German analysis paragraph follows a fixed pattern: claim (\"Auffällig ist ...\", \"Im Zentrum steht ...\"), evidence with line reference (\"(V. 3)\" for \"Vers\", \"(Z. 5)\" for \"Zeile\"), naming the figure (\"Es handelt sich um ...\"), function (\"Dadurch wird ... verdeutlicht\", \"Dies unterstreicht ...\").",
           "Example: \"Auffällig ist der irreale Vergleich in V. 1 ('als hätt der Himmel'). Dadurch wird die Begegnung von Himmel und Erde als Traum gekennzeichnet, was die romantische Sehnsucht unterstreicht.\" Note \"was\" as a relative pronoun referring to a whole clause.",
         ],
         examples: [
@@ -1326,7 +1326,7 @@ export const DE_C2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Why does the opening of Die Verwandlung contain no metaphor?",
+        question: "Why does the opening of \"Die Verwandlung\" contain no metaphor?",
         options: ["Kafka narrates as literal fact what would normally be a metaphor.", "Kafka avoids all figurative language in his work.", "It uses a simile instead.", "The metaphor is in the title only."],
         correctIndex: 0,
         explanation: "\"Die Wörtlichnahme der Metapher\": Gregor really is vermin, which makes the familiar insult horribly concrete.",
@@ -1356,7 +1356,7 @@ export const DE_C2_U07: Lesson[] = [
         source: "A book must be the axe for the frozen sea within us.",
         answer: "Ein Buch muss die Axt sein für das gefrorene Meer in uns.",
         altAnswers: ["Ein Buch muss die Axt für das gefrorene Meer in uns sein."],
-        explanation: "Kafka places \"sein\" before the prepositional phrase (Ausklammerung) for emphasis; the standard order with \"sein\" last is also correct.",
+        explanation: "Kafka places \"sein\" before the prepositional phrase (\"Ausklammerung\") for emphasis; the standard order with \"sein\" last is also correct.",
       },
       {
         type: "listen-choose",
@@ -1379,7 +1379,7 @@ export const DE_C2_U07: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Mastery Vocabulary: Precise Abstract Nouns",
-    summary: "Sachverhalt, Gegebenheit, Umstand, Tragweite, Anliegen, Belang, Beschaffenheit, Gesinnung, Hintergrund, Zusammenhang: gender, meaning and the verbs they go with.",
+    summary: "Use precise abstract nouns (\"Sachverhalt\", \"Gegebenheit\", \"Umstand\", \"Tragweite\", \"Anliegen\", \"Belang\", \"Beschaffenheit\", \"Gesinnung\", \"Hintergrund\", \"Zusammenhang\") with the right gender, meaning and verbs.",
     duration: "18 min",
     sections: [
       {
@@ -1387,7 +1387,7 @@ export const DE_C2_U07: Lesson[] = [
         body: [
           "These four all translate as facts or circumstances, but German keeps them apart. \"Der Sachverhalt\" is the state of affairs, the facts of a case, especially in law and administration: \"den Sachverhalt klären\" (establish the facts), \"Der Sachverhalt stellt sich wie folgt dar\". \"Die Gegebenheit\" (usually plural, \"die Gegebenheiten\") is the given conditions you have to work with: \"die örtlichen Gegebenheiten\" (local conditions).",
           "\"Der Umstand\" is a circumstance, a factor: \"unter diesen Umständen\", \"mildernde Umstände\" (mitigating circumstances), and the useful \"der Umstand, dass ...\" (the fact that ...). \"Umstände machen\" means to go to trouble: \"Machen Sie sich keine Umstände!\". \"Der Zusammenhang\" is the connection or context: \"in diesem Zusammenhang\", \"aus dem Zusammenhang gerissen\" (taken out of context).",
-          "Gender trap: three are masculine (der Sachverhalt, der Umstand, der Zusammenhang), \"die Gegebenheit\" is feminine like every noun in -heit/-keit.",
+          "Gender trap: three are masculine (\"der Sachverhalt\", \"der Umstand\", \"der Zusammenhang\"), \"die Gegebenheit\" is feminine like every noun in -heit/-keit.",
         ],
         examples: [
           { es: "Zunächst muss der Sachverhalt geklärt werden.", en: "First the facts of the case must be established." },
@@ -1456,7 +1456,7 @@ export const DE_C2_U07: Lesson[] = [
             question: "What does it mean?",
             options: ["The conversation was completely trivial.", "The conversation was very long.", "The conversation was entirely confidential.", "The conversation was pointlessly aggressive."],
             correctIndex: 0,
-            explanation: "\"Belanglos\" (without Belang) = insignificant, trivial.",
+            explanation: "\"Belanglos\" (without \"Belang\") = insignificant, trivial.",
           },
         ],
       },
@@ -1539,7 +1539,7 @@ export const DE_C2_U07: Lesson[] = [
           { left: "die Gesinnung", right: "moral or political outlook" },
           { left: "die Beschaffenheit", right: "physical nature, condition" },
         ],
-        explanation: "Learn each with its article and a typical verb: den Sachverhalt klären, die Tragweite erkennen, ein Anliegen haben.",
+        explanation: "Learn each with its article and a typical verb: \"den Sachverhalt klären\", \"die Tragweite erkennen\", \"ein Anliegen haben\".",
       },
       {
         type: "fill-blank",
@@ -1600,5 +1600,5 @@ export const DE_C2_U07_WRITING: WriteExercise = {
     "Analyse the effect with \"suggerieren\", \"als ... darstellen\", \"ausblenden\", \"Ängste schüren\" and propose alternatives",
   ],
   modelAnswer: "Wer in den letzten Jahren Nachrichten über die Wirtschaft verfolgt hat, konnte meinen, er lese einen Kriegsbericht oder eine Krankenakte. Die Bildsprache der Krisenberichterstattung verdient einen genaueren Blick.\n\nAuffällig ist zunächst die Krankheitsmetaphorik. Deutschland sei wieder „der kranke Mann Europas“, heißt es, die Wirtschaft müsse sich „erholen“, und manche Branchen sollten sich „gesundschrumpfen“. Die Personifikation macht die Volkswirtschaft zu einem Patienten, der Medizin braucht; sie suggeriert, dass schmerzhafte Eingriffe wie Stellenabbau notwendig und letztlich heilsam seien. Ausgeblendet wird dabei, dass hinter jeder Stelle ein Mensch steht.\n\nEbenso verbreitet ist die Kriegsmetaphorik: Unternehmen „rüsten sich“ für den „Preiskrieg“, Politiker kämpfen „an vorderster Front“ gegen die Inflation. Solche Bilder schüren Ängste und stellen politische Entscheidungen als Notmaßnahmen dar, über die man nicht lange diskutieren könne.\n\nHinzu kommen Komposita wie „Schuldenberg“ oder „Preislawine“. Sie verdichten einen Vergleich zur Metapher: Die Schulden sind nicht mehr hoch wie ein Berg, sie sind ein Berg, also etwas Natürliches, das sich auftürmt, ohne dass jemand es verursacht hätte. Es ist, als wären Preise und Schulden Naturgewalten und nicht das Ergebnis menschlicher Entscheidungen.\n\nAuch die Metonymie spielt eine Rolle. Wenn „Berlin“ spart und „Brüssel“ mahnt, verschwinden die verantwortlichen Personen hinter Ortsnamen. Und die Hyperbel („die schlimmste Krise aller Zeiten“) nutzt sich durch ständige Wiederholung ab.\n\nNatürlich kommt keine Sprache ohne Bilder aus, und nicht jede Metapher ist manipulativ. Doch neutralere Formulierungen sind möglich: „Die Preise steigen stark“ statt „Preislawine“, „die Bundesregierung kürzt Ausgaben“ statt „Berlin spart“, „die Wirtschaft wächst wieder“ statt „sie erholt sich“. Die Lage ist ernst, keine Frage, doch eine nüchterne Sprache wäre der Demokratie nicht ganz unzuträglich.",
-  explanation: "The commentary names the figures (personification, metaphor, compound metaphor, metonymy, hyperbole, litotes), uses an unreal comparison (\"Es ist, als wären ...\", \"konnte meinen, er lese\"), analyses effects with \"suggerieren\", \"als ... darstellen\", \"ausblenden\", \"Ängste schüren\", and ends with a litotes (\"nicht ganz unzuträglich\").",
+  explanation: "The commentary names the figures (personification, metaphor, compound metaphor, metonymy, hyperbole, litotes), uses an unreal comparison (\"Es ist, als wären ...\") and reported thought (\"konnte meinen, er lese\"), analyses effects with \"suggerieren\", \"als ... darstellen\", \"ausblenden\", \"Ängste schüren\", and ends with a litotes (\"nicht ganz unzuträglich\").",
 };

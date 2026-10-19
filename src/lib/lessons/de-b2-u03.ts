@@ -65,7 +65,7 @@ export const DE_B2_U03: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Mia writes that she [can't] come.",
+            en: "Mia writes that she [can]not come.",
             sentence: "Mia schreibt, sie ___ nicht kommen.",
             answer: "könne",
             explanation: "Konjunktiv I: stem \"könn-\" + e. The modal keeps its umlaut, unlike the indicative \"kann\".",
@@ -132,7 +132,7 @@ export const DE_B2_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "He said he was ill. (neutral report; he said: \"I'm ill\")",
+        source: "He said he was ill. (neutral report; his words were: 'I'm ill')",
         answer: "Er sagte, er sei krank.",
         altAnswers: ["Er sagte, dass er krank sei.", "Er hat gesagt, er sei krank.", "Er hat gesagt, dass er krank sei."],
         explanation: "No backshift: \"sei\", not \"war\".",
@@ -182,10 +182,10 @@ export const DE_B2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which form is the Konjunktiv I of \"dürfen\" for er?",
-        options: ["er dürfe", "er darf", "er dürfte", "er durfte"],
+        question: "Jonas said: \"Ich darf länger bleiben.\" Which report is neutral, news-style German?",
+        options: ["Er sagt, er dürfe länger bleiben.", "Er sagt, er darf länger bleiben.", "Er sagt, er dürfte länger bleiben.", "Er sagt, er durfte länger bleiben."],
         correctIndex: 0,
-        explanation: "Infinitive stem \"dürf-\" + e. \"Dürfte\" is Konjunktiv II, \"durfte\" Präteritum.",
+        explanation: "Konjunktiv I is the infinitive stem \"dürf-\" + e: \"er dürfe\". \"Darf\" is the casual indicative, \"dürfte\" is Konjunktiv II (it would suggest doubt), and \"durfte\" is Präteritum, which changes the time.",
       },
       {
         type: "word-order",
@@ -221,7 +221,7 @@ export const DE_B2_U03: Lesson[] = [
     slug: "b2-pattern-er-sagt-er-sei",
     level: "DE-B2",
     number: 2,
-    title: "Pattern Practice: Er Sagt, Er Sei...",
+    title: "Pattern Practice: Er sagt, er sei...",
     summary: "Drill one frame with many verbs: Sie sagt, sie sei müde / habe keine Zeit / komme später / müsse noch arbeiten.",
     duration: "12 min",
     sections: [
@@ -707,7 +707,7 @@ export const DE_B2_U03: Lesson[] = [
       {
         heading: "What if...",
         body: [
-          "Your article ends with a comment on the unreal past (Unit 1). \"Wenn die Stadt früher geplant hätte, wäre die Linie schon 2024 eröffnet worden\" is passive and heavy; journalists prefer: \"Hätte die Stadt früher geplant, führe die Bahn schon längst\" (if the city had planned earlier, the tram would long since be running).",
+          "Your article ends with a comment on the unreal past (Unit 1). \"Wenn die Stadt früher geplant hätte, wäre die Linie schon 2024 eröffnet worden\" is passive and heavy; a mixed conditional is lighter: \"Hätte die Stadt früher geplant, wäre die Bahn schon längst in Betrieb\" (if the city had planned earlier, the tram would long since be running).",
           "Simpler versions are just as good: \"Mit besserer Planung hätte man zwei Jahre sparen können.\" \"Viele Anwohner sagen, sie hätten sich mehr Information gewünscht.\"",
           "\"Sie hätten sich ... gewünscht\" is the reported form of \"Wir hätten uns ... gewünscht\": a Konjunktiv II past, so it stays as it is.",
         ],
@@ -818,7 +818,7 @@ export const DE_B2_U03: Lesson[] = [
       {
         type: "dictation",
         audio: "Der Oberbürgermeister sagte, die Linie sei ein Meilenstein.",
-        explanation: "\"Oberbürgermeister\" with two ü-free syllables and one ü; \"sei\" for reported speech.",
+        explanation: "\"Oberbürgermeister\" is one compound noun, written together, with ü in \"-bürger-\"; \"sei\" for reported speech.",
       },
       {
         type: "speak",
@@ -840,14 +840,14 @@ export const DE_B2_U03: Lesson[] = [
         heading: "Neutral and colouring verbs",
         body: [
           "\"Sagen\" is neutral. Other verbs add the reporter's view of the statement. \"Erklären\" (to explain, state) and \"mitteilen\" (to inform, announce) are neutral and official. \"Meinen\" means to say or think (not to mean). \"Betonen\" (to stress) and \"versichern\" (to assure) show emphasis.",
-          "\"Behaupten\" (to claim) carries doubt: \"Er behauptet, er sei unschuldig\" suggests the reporter isn't convinced. \"Zugeben\" (to admit) implies something negative is confessed. \"Bestreiten\" (to deny, dispute) is a false friend: it does not mean to argue or to contest a race, and it's the formal partner of \"leugnen\".",
+          "\"Behaupten\" (to claim) carries doubt: \"Er behauptet, er sei unschuldig\" suggests the reporter isn't convinced. \"Zugeben\" (to admit) implies something negative is confessed. \"Bestreiten\" (to deny, dispute) is a false friend: it does not mean to argue. (In other contexts \"ein Spiel bestreiten\" means to play a match and \"die Kosten bestreiten\" to cover the costs, but in reporting it means to deny.) A stronger synonym is \"leugnen\".",
           "\"Warnen vor\" + dative: to warn about. \"Er warnt vor Glatteis\" (he warns of black ice). With a clause: \"Er warnt, die Straßen seien glatt.\"",
         ],
         examples: [
           { es: "Die Polizei teilt mit, die Straße sei wieder frei.", en: "The police announce that the road is clear again." },
           { es: "Er behauptet, er sei unschuldig.", en: "He claims he's innocent." },
           { es: "Sie betont, das Projekt sei nicht gefährdet.", en: "She stresses that the project is not at risk." },
-          { es: "Der Minister versichert, die Renten seien sicher.", en: "The minister assures that pensions are safe." },
+          { es: "Der Minister versichert, die Renten seien sicher.", en: "The minister gives assurances that pensions are safe." },
           { es: "Der Fahrer gibt zu, er sei zu schnell gefahren.", en: "The driver admits he was driving too fast." },
           { es: "Der Wetterdienst warnt vor Sturm.", en: "The weather service warns of a storm." },
         ],
@@ -875,13 +875,13 @@ export const DE_B2_U03: Lesson[] = [
         body: [
           "Reporting verbs take three kinds of complement. With \"dass\": \"Er gibt zu, dass er gelogen habe.\" Without \"dass\", main-clause order: \"Er gibt zu, er habe gelogen.\" Or, when the subject is the same, an infinitive clause with \"zu\": \"Er gibt zu, gelogen zu haben.\"",
           "The infinitive clause is elegant and very common with \"behaupten\", \"bestreiten\", \"zugeben\" and \"versichern\". For a past action use the perfect infinitive: participle + \"zu haben\" or \"zu sein\": \"Er bestreitet, das Geld genommen zu haben.\" \"Sie behauptet, nie dort gewesen zu sein.\"",
-          "\"Bestreiten\" + dass-clause can confuse: \"Er bestreitet, dass er das Geld genommen habe\" means he denies having taken it. No extra \"nicht\" is needed, unlike some English constructions.",
+          "\"Bestreiten\" + dass-clause can confuse: \"Er bestreitet, dass er das Geld genommen habe\" means he denies having taken it. Don't add \"nicht\": \"*Er bestreitet, dass er das Geld nicht genommen habe\" is a common slip, even among native speakers, and literally denies not taking it.",
         ],
         examples: [
           { es: "Er bestreitet, das Geld genommen zu haben.", en: "He denies having taken the money." },
           { es: "Sie behauptet, nie dort gewesen zu sein.", en: "She claims never to have been there." },
           { es: "Er gibt zu, gelogen zu haben.", en: "He admits to having lied." },
-          { es: "Die Firma versichert, alle Daten gelöscht zu haben.", en: "The company assures that it has deleted all data." },
+          { es: "Die Firma versichert, alle Daten gelöscht zu haben.", en: "The company gives an assurance that it has deleted all data." },
           { es: "Er bestreitet, dass er das Geld genommen habe.", en: "He denies that he took the money." },
         ],
         checkpoint: [
@@ -944,7 +944,7 @@ export const DE_B2_U03: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The minister assures that pensions are safe. (news style)",
+        source: "The minister gives assurances that pensions are safe. (news style)",
         answer: "Der Minister versichert, die Renten seien sicher.",
         altAnswers: ["Der Minister versichert, dass die Renten sicher seien.", "Die Ministerin versichert, die Renten seien sicher."],
         explanation: "\"Seien\": the plural Konjunktiv I of sein is distinct.",
@@ -989,14 +989,14 @@ export const DE_B2_U03: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
         en: "The driver [admits] he was driving too fast.",
-        sentence: "Der Fahrer gibt ___, er sei zu schnell gefahren.",
-        answer: "zu",
+        sentence: "Der Fahrer ___, er sei zu schnell gefahren.",
+        answer: "gibt zu",
         explanation: "\"Zugeben\" is separable: \"gibt ... zu\".",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "She claims never [to have been] there.",
+        en: "She claims never [to have] been there.",
         sentence: "Sie behauptet, nie dort gewesen ___.",
         answer: "zu sein",
         explanation: "Perfect infinitive with sein: \"gewesen zu sein\".",
@@ -1023,9 +1023,9 @@ export const DE_B2_U03: Lesson[] = [
       },
       {
         type: "word-order",
-        prompt: "Put the words in order to say: The company assures that it has deleted all data.",
+        prompt: "Put the words in order to say: The company gives an assurance that it has deleted all data.",
         words: ["Die", "Firma", "versichert,", "alle", "Daten", "gelöscht", "zu", "haben."],
-        translation: "The company assures that it has deleted all data.",
+        translation: "The company gives an assurance that it has deleted all data.",
         explanation: "Perfect infinitive at the end: \"gelöscht zu haben\".",
       },
       {
@@ -1045,7 +1045,7 @@ export const DE_B2_U03: Lesson[] = [
     slug: "b2-spiral-qa-an-meiner-stelle",
     level: "DE-B2",
     number: 6,
-    title: "Spiral Review: Was Hättest Du an Meiner Stelle Getan?",
+    title: "Spiral Review: Was hättest du an meiner Stelle getan?",
     summary: "Spaced review of Unit 1: answer questions about past dilemmas with hätte / wäre + Partizip II.",
     duration: "12 min",
     sections: [
@@ -1086,7 +1086,7 @@ export const DE_B2_U03: Lesson[] = [
         heading: "Dilemmas in private life",
         body: [
           "Personal dilemmas: a friend found a wallet, another one didn't go to a party, a third bought a used car without a test drive. Ask: \"Hättest du das Portemonnaie zur Polizei gebracht?\" Answer: \"Ja, ich hätte es sofort abgegeben.\"",
-          "Use verb-first conditions when you add a reason: \"Hätte ich das Auto nicht Probe gefahren, hätte ich es nicht gekauft.\" And mixed conditionals for consequences now: \"Wenn ich auf die Party gegangen wäre, würde ich die Leute jetzt kennen.\"",
+          "Use verb-first conditions when you add a reason: \"Hätte ich das Auto nicht probegefahren, hätte ich es nicht gekauft.\" And mixed conditionals for consequences now: \"Wenn ich auf die Party gegangen wäre, würde ich die Leute jetzt kennen.\"",
         ],
         examples: [
           { es: "Hättest du das Portemonnaie zur Polizei gebracht?", en: "Would you have taken the wallet to the police?" },
@@ -1156,7 +1156,7 @@ export const DE_B2_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I [would have handed] it [in] at the lost property office.",
+        en: "I would have [handed] it [in] at the lost property office.",
         sentence: "Ich hätte es im Fundbüro ___.",
         answer: "abgegeben",
         explanation: "\"Abgeben\" (to hand in) is separable: \"abgegeben\".",
@@ -1386,10 +1386,10 @@ export const DE_B2_U03: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "He says he [drove] straight home.",
-            sentence: "Er sagt, er ___ sofort nach Hause gefahren.",
-            answer: "sei",
-            explanation: "\"Fahren\" to a place takes sein: \"er sei ... gefahren\".",
+            en: "He says that he [drove] straight home.",
+            sentence: "Er sagt, dass er sofort nach Hause ___.",
+            answer: "gefahren sei",
+            explanation: "\"Fahren\" to a place takes sein: \"gefahren sei\", with \"sei\" at the end of the dass-clause.",
           },
         ],
       },
@@ -1510,7 +1510,7 @@ export const DE_B2_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "She claims she [has] never [been] to Hamburg.",
+        en: "She claims she [has] never been to Hamburg.",
         sentence: "Sie behauptet, sie ___ nie in Hamburg gewesen.",
         answer: "sei",
         explanation: "\"Sein\" takes sein: \"sei ... gewesen\".",
@@ -1532,7 +1532,7 @@ export const DE_B2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence contains the classic mistake?",
+        question: "Which sentence contains the classic mistake in formal written German?",
         options: ["Sie haben gesagt, sie haben Zeit.", "Sie haben gesagt, sie hätten Zeit.", "Sie hat gesagt, sie habe Zeit.", "Sie haben gesagt, dass sie Zeit hätten."],
         correctIndex: 0,
         explanation: "\"Sie haben\" can't mark reported speech; it must become \"hätten\".",
@@ -1561,7 +1561,7 @@ export const DE_B2_U03: Lesson[] = [
     slug: "b2-minimal-pairs-ist-sei-waere",
     level: "DE-B2",
     number: 9,
-    title: "Minimal Pairs: Er Sagt, Er Ist / Sei / Wäre Krank",
+    title: "Minimal Pairs: Er sagt, er ist / sei / wäre krank",
     summary: "Three ways to report: indicative (everyday speech), Konjunktiv I (neutral, written) and Konjunktiv II (doubt or substitution).",
     duration: "13 min",
     sections: [
@@ -1694,7 +1694,7 @@ export const DE_B2_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "The children say they'll tidy up later. (neutral report)",
         answer: "Die Kinder sagen, sie würden später aufräumen.",
-        altAnswers: ["Die Kinder sagen, dass sie später aufräumen würden.", "Die Kinder sagen, sie räumten später auf."],
+        altAnswers: ["Die Kinder sagen, dass sie später aufräumen würden."],
         explanation: "\"Sie werden aufräumen\" = indicative → \"würden aufräumen\".",
       },
       {
@@ -1708,7 +1708,7 @@ export const DE_B2_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The salesman claimed the car [had never had an accident]. (doubtful)",
+        en: "The salesman claimed the car [was] accident-free. (doubtful)",
         sentence: "Der Verkäufer behauptete, das Auto ___ unfallfrei.",
         answer: "wäre",
         altAnswers: ["sei"],
@@ -1841,7 +1841,7 @@ export const DE_B2_U03: Lesson[] = [
         ],
         examples: [
           { es: "Liebe Frau Schneider, willkommen zurück!", en: "Dear Ms Schneider, welcome back!" },
-          { es: "Die neue Chefin heißt Frau Dr. Wolf; sie komme aus München.", en: "The new boss is called Dr Wolf; she's supposedly from Munich." },
+          { es: "Die neue Chefin heißt Frau Dr. Wolf; sie komme aus München.", en: "The new boss is called Dr Wolf; she comes from Munich, I'm told." },
           { es: "Ich halte das mit der Kantine eher für ein Gerücht.", en: "I think the canteen thing is more of a rumour." },
           { es: "Wir sollten abwarten, was die Geschäftsführung sagt.", en: "We should wait and see what management says." },
           { es: "Ich halte Sie auf dem Laufenden. Viele Grüße, Jonas", en: "I'll keep you posted. Best wishes, Jonas" },
@@ -2067,7 +2067,7 @@ export const DE_B2_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The doctors said: \"Wir wissen es nicht.\" → The doctors say they [don't know].",
+        en: "The doctors said: \"Wir wissen es nicht.\" → The doctors say they don't [know].",
         sentence: "Die Ärzte sagen, sie ___ es nicht.",
         answer: "wüssten",
         explanation: "\"Wir wissen\" → Konjunktiv I \"sie wissen\" = indicative → \"wüssten\".",

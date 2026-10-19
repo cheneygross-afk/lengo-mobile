@@ -9,7 +9,7 @@ export const DE_C1_U05_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Passive and Impersonal Constructions, Part 1 of 3",
-    summary: "The werden passive in every tense, with modals and in the Konjunktiv, in fresh sentences.",
+    summary: "Practise the \"werden\" passive in every tense, with modals and in the Konjunktiv, in fresh sentences.",
     duration: "15 min",
     sections: [
       {
@@ -182,7 +182,7 @@ export const DE_C1_U05_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Passive and Impersonal Constructions, Part 2 of 3",
-    summary: "Subjectless passives and the passive of dative verbs in new everyday and official sentences.",
+    summary: "Practise subjectless passives and the passive of dative verbs in new everyday and official sentences.",
     duration: "15 min",
     sections: [
       {
@@ -349,7 +349,7 @@ export const DE_C1_U05_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Passive and Impersonal Constructions, Part 3 of 3",
-    summary: "Es handelt sich um, es geht um, es kommt auf...an, es fehlt an and their friends in new contexts.",
+    summary: "Use \"es handelt sich um\", \"es geht um\", \"es kommt auf ... an\", \"es fehlt an\" and their friends in new contexts.",
     duration: "15 min",
     sections: [
       {
@@ -640,7 +640,7 @@ export const DE_C1_U05_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which nominal headline matches: Die Bahn erhöht die Preise?",
+        question: "Which nominal headline matches \"Die Bahn erhöht die Preise\"?",
         options: ["Preiserhöhung bei der Bahn", "Die Preise werden von der Bahn", "Erhöht: die Bahn", "Bahn wird Preise erhöht"],
         correctIndex: 0,
         explanation: "Headlines turn the verb into a noun: \"erhöhen\" → \"Erhöhung\".",
@@ -693,7 +693,7 @@ export const DE_C1_U05_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: The Bekommen Passive",
-    summary: "Bekommen and kriegen with participles in everyday mishaps and deliveries.",
+    summary: "Talk about deliveries, refunds and everyday mishaps with \"bekommen\" / \"kriegen\" + participle, and say what ought to be done with \"gehören\".",
     duration: "14 min",
     sections: [
       {
@@ -723,7 +723,7 @@ export const DE_C1_U05_EXTRA: Lesson[] = [
             type: "speak",
             text: "Er hat sein Fahrrad gestohlen bekommen.",
             prompt: "Say it in German, with bekommen: He had his bike stolen.",
-            explanation: "Perfekt of the bekommen passive: \"hat ... gestohlen bekommen\". \"Ihm wurde das Fahrrad gestohlen\" is the more standard alternative.",
+            explanation: "Perfekt of the bekommen passive: \"hat ... gestohlen bekommen\". It is colloquial, since he doesn't really receive anything; \"Ihm wurde das Fahrrad gestohlen\" is the standard written alternative.",
           },
         ],
       },
@@ -786,7 +786,7 @@ export const DE_C1_U05_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "We [had everything explained to us] twice.",
+        en: "We had everything [explained to us] twice.",
         sentence: "Wir haben alles zweimal ___.",
         answer: "erklärt bekommen",
         altAnswers: ["erklärt gekriegt"],
@@ -795,7 +795,7 @@ export const DE_C1_U05_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The employees [get their lunch paid for].",
+        en: "The employees get their lunch [paid for].",
         sentence: "Die Angestellten bekommen das Mittagessen ___.",
         answer: "bezahlt",
         altAnswers: ["finanziert", "spendiert"],
@@ -854,7 +854,7 @@ export const DE_C1_U05_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Five Ways Not to Say Who",
-    summary: "Choose between passive, man, sich lassen, sein + zu and -bar in fresh sentences.",
+    summary: "Choose between the passive, \"man\", \"sich lassen\", \"sein + zu\" and \"-bar\" in fresh sentences.",
     duration: "15 min",
     sections: [
       {
@@ -994,7 +994,7 @@ export const DE_C1_U05_EXTRA: Lesson[] = [
         prompt: "Translate into German, in a chat.",
         source: "You can't do anything about it.",
         answer: "Da kann man nichts machen.",
-        altAnswers: ["Da kann man nichts tun.", "Daran kann man nichts ändern.", "Da kann man nichts dagegen tun."],
+        altAnswers: ["Da kann man nichts tun.", "Daran kann man nichts ändern.", "Dagegen kann man nichts machen.", "Dagegen kann man nichts tun.", "Da kann man nichts dagegen tun."],
         explanation: "In speech \"man\" is the natural choice.",
       },
       {

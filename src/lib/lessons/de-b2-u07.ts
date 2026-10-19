@@ -52,7 +52,7 @@ export const DE_B2_U07: Lesson[] = [
           "Here's where German goes further than English. A participle before a noun can carry its own adverbs, objects and prepositional phrases, and all of them go between the article and the participle: \"die gestern reparierte Brücke\" (the bridge repaired yesterday), \"der seit Jahren leerstehende Bahnhof\" (the station that has stood empty for years), \"die von ihm geschriebene Mail\" (the email written by him).",
           "English puts this extra information after the noun: the bridge repaired yesterday, the email written by him. German packs it in front, so the noun comes last. The whole block between the article and the noun is one big adjective. That's why these phrases are called extended attributes (\"erweiterte Partizipialattribute\").",
           "Inside the block, the order is the same as in a subordinate clause, with the participle in the place where the verb would be: \"die Brücke, die gestern repariert wurde\" → \"die gestern reparierte Brücke\". The agent with \"von\" + Dativ comes from the passive: \"die Mail, die von ihm geschrieben wurde\" → \"die von ihm geschriebene Mail\".",
-          "The article agrees with the noun at the end, not with anything in between: \"der\" goes with \"Bahnhof\", even though several words separate them. That's the main trap: \"*das gestern gekaufte Buch\" is right, but learners write \"*der gestern gekaufte Buch\" because they lose track of the noun.",
+          "The article agrees with the noun at the end, not with anything in between: \"der\" goes with \"Bahnhof\", even though several words separate them. That's the main trap: \"das gestern gekaufte Buch\" is right, but learners write \"*der gestern gekaufte Buch\" because they lose track of the noun.",
         ],
         examples: [
           { es: "Die gestern reparierte Brücke ist wieder gesperrt.", en: "The bridge that was repaired yesterday is closed again." },
@@ -107,7 +107,7 @@ export const DE_B2_U07: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "What is die von der Stadt geplante Straßenbahn as a relative clause?",
+            question: "Which relative clause means the same as \"die von der Stadt geplante Straßenbahn\"?",
             options: ["die Straßenbahn, die von der Stadt geplant wird / wurde", "die Stadt, die die Straßenbahn plant", "die Straßenbahn, die die Stadt geplant hat zu bauen", "die Straßenbahn, die von der Stadt plant"],
             correctIndex: 0,
             explanation: "Partizip II with \"von\" = passive: the tram is (being) planned by the city. The noun at the end is \"Straßenbahn\".",
@@ -154,10 +154,10 @@ export const DE_B2_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The [children playing in the garden] are very loud.",
+        en: "The children [playing] in the garden are very loud.",
         sentence: "Die im Garten ___ Kinder sind sehr laut.",
         answer: "spielenden",
-        explanation: "Partizip I + plural ending after \"die\": \"spielenden\".",
+        explanation: "Partizip I + plural ending after \"die\": \"spielenden\". Not \"spielende\": after the article \"die\" in the plural, the ending is always -en.",
       },
       {
         type: "multiple-choice",
@@ -218,7 +218,7 @@ export const DE_B2_U07: Lesson[] = [
     slug: "b2-pattern-das-gestern-gekaufte-buch",
     level: "DE-B2",
     number: 2,
-    title: "Pattern Practice: Das Gestern Gekaufte Buch",
+    title: "Pattern Practice: Das gestern gekaufte Buch",
     summary: "Drill one frame in all genders and cases: article + time or agent + Partizip II with its ending + noun.",
     duration: "14 min",
     sections: [
@@ -250,7 +250,7 @@ export const DE_B2_U07: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The [freshly baked] bread smells wonderful.",
+            en: "The freshly [baked] bread smells wonderful.",
             sentence: "Das frisch ___ Brot riecht wunderbar.",
             answer: "gebackene",
             explanation: "Neuter nominative after das: -e.",
@@ -285,7 +285,7 @@ export const DE_B2_U07: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Because of the party [that was cancelled at short notice], we have lots of food left over.",
+            en: "Because of the party that was [cancelled] at short notice, we have lots of food left over.",
             sentence: "Wegen der kurzfristig ___ Feier haben wir viel Essen übrig.",
             answer: "abgesagten",
             explanation: "Genitive after \"wegen der\": -en.",
@@ -358,7 +358,7 @@ export const DE_B2_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "She's reading the book [she bought yesterday].",
+        en: "She's reading the book she [bought] yesterday.",
         sentence: "Sie liest gerade in dem gestern ___ Buch.",
         answer: "gekauften",
         explanation: "Dative after \"in dem\": always -en.",
@@ -385,7 +385,7 @@ export const DE_B2_U07: Lesson[] = [
         prompt: "Translate into German, using a participle phrase.",
         source: "Despite the long-planned holiday he stayed at home.",
         answer: "Trotz des lange geplanten Urlaubs blieb er zu Hause.",
-        altAnswers: ["Trotz des lange geplanten Urlaubs ist er zu Hause geblieben.", "Trotz des lange geplanten Urlaubs blieb er daheim."],
+        altAnswers: ["Trotz des lange geplanten Urlaubs ist er zu Hause geblieben.", "Trotz des lange geplanten Urlaubs blieb er daheim.", "Trotz des lange geplanten Urlaubs blieb er zuhause."],
         explanation: "Genitive after \"trotz des\": \"geplanten Urlaubs\". Then verb second.",
       },
       {
@@ -410,8 +410,8 @@ export const DE_B2_U07: Lesson[] = [
         prompt: "Translate into German, using a participle phrase.",
         source: "After yesterday's meeting there were still questions.",
         answer: "Nach der gestern abgehaltenen Sitzung gab es noch Fragen.",
-        altAnswers: ["Nach der gestrigen Sitzung gab es noch Fragen.", "Nach der gestern stattgefundenen Sitzung gab es noch Fragen."],
-        explanation: "\"Nach der\" (dative) + \"abgehaltenen\": eine Sitzung abhalten = to hold a meeting. \"Der gestrigen Sitzung\" is a simple alternative.",
+        altAnswers: ["Nach der gestrigen Sitzung gab es noch Fragen."],
+        explanation: "\"Nach der\" (dative) + \"abgehaltenen\": eine Sitzung abhalten = to hold a meeting. \"Der gestrigen Sitzung\" is a simple alternative. Avoid \"die stattgefundene Sitzung\": \"stattfinden\" takes haben, so its participle can't stand before a noun.",
       },
       {
         type: "dictation",
@@ -430,7 +430,7 @@ export const DE_B2_U07: Lesson[] = [
     slug: "b2-thematic-review-die-stillgelegte-zeche",
     level: "DE-B2",
     number: 3,
-    title: "Thematic Review: Die Stillgelegte Zeche",
+    title: "Thematic Review: Die stillgelegte Zeche",
     summary: "A former coal mine in Essen becomes a museum: participle attributes, the Zustandspassiv and the unreal past in a story of Strukturwandel im Ruhrgebiet.",
     duration: "16 min",
     sections: [
@@ -439,7 +439,7 @@ export const DE_B2_U07: Lesson[] = [
         body: [
           "The Ruhrgebiet (Ruhr area) in western Germany was for over a century Europe's biggest coal and steel region. The last coal mine closed in 2018. What happens to a region when its industry disappears? Germans call it \"Strukturwandel\": structural change.",
           "Read: \"Die 1986 stillgelegte Zeche Zollverein in Essen ist heute ein Museum und gehört seit 2001 zum UNESCO-Welterbe. Die im Bauhaus-Stil entworfenen Gebäude sind weltberühmt, und Zollverein gilt als die schönste Zeche der Welt. Wo früher Tausende Bergleute arbeiteten, kommen heute jährlich über eine Million Besucher.\"",
-          "\"Die Zeche\" = the coal mine, \"stilllegen\" = to shut down (a mine, a factory, a railway line), \"der Bergmann, die Bergleute\" = miner(s). The participle \"stillgelegt\" has three l's in the current spelling: still + legen.",
+          "\"Die Zeche\" = the coal mine, \"stilllegen\" = to shut down (a mine, a factory, a railway line), \"der Bergmann, die Bergleute\" = miner(s). Since the 2006 reform the infinitive \"stilllegen\" has three l's (still + legen); the participle \"stillgelegt\" has two in a row.",
         ],
         examples: [
           { es: "Die 1986 stillgelegte Zeche ist heute ein Museum.", en: "The mine, which was shut down in 1986, is a museum today." },
@@ -507,7 +507,7 @@ export const DE_B2_U07: Lesson[] = [
         heading: "What if? The unreal past",
         body: [
           "Finally, imagine a different history with the Konjunktiv II past from Unit 1: \"Wenn die Zeche nicht geschlossen worden wäre, hätte die Region vielleicht nie einen Strukturwandel erlebt.\" Note the passive in the unreal past: \"geschlossen worden wäre\" (had been closed). It's the Perfekt passive \"ist geschlossen worden\" with \"wäre\".",
-          "A former miner, Herr Kowalski, says: \"Wenn man mir 1986 gesagt hätte, dass hier mal Touristen herumlaufen, hätte ich gelacht.\" Many families in the Ruhrgebiet have Polish surnames: miners came from Poland in the 19th century.",
+          "A former miner, Herr Kowalski, says: \"Wenn man mir 1986 gesagt hätte, dass hier mal Touristen herumlaufen, hätte ich gelacht.\" Many families in the Ruhrgebiet have Polish surnames: in the late 19th century many miners came from the Polish-speaking eastern provinces of Prussia.",
           "Regret with the double infinitive (Unit 2): \"Man hätte die Menschen früher auf den Wandel vorbereiten müssen\" (people should have been prepared for the change earlier).",
         ],
         examples: [
@@ -588,7 +588,7 @@ export const DE_B2_U07: Lesson[] = [
         en: "You can visit the [shut-down] conveyor belts.",
         sentence: "Die ___ Förderbänder kann man besichtigen.",
         answer: "stillgelegten",
-        explanation: "Plural accusative after \"die\": -en. Three l's: still + gelegt.",
+        explanation: "Plural accusative after \"die\": -en. Two l's here (still + gelegt); only the infinitive \"stilllegen\" has three.",
       },
       {
         type: "translate",
@@ -787,7 +787,7 @@ export const DE_B2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Turn der Hund, der laut bellt into a participle phrase.",
+        question: "Which participle phrase means the same as \"der Hund, der laut bellt\"?",
         options: ["der laut bellende Hund", "der laut gebellte Hund", "der bellende laut Hund", "der laut bellend Hund"],
         correctIndex: 0,
         explanation: "Active, same time → Partizip I \"bellend\" + ending -e. Adverb before the participle.",
@@ -843,7 +843,7 @@ export const DE_B2_U07: Lesson[] = [
     slug: "b2-minimal-pairs-begeisternde-begeisterte",
     level: "DE-B2",
     number: 5,
-    title: "Minimal Pairs: Der Begeisternde / Der Begeisterte Lehrer",
+    title: "Minimal Pairs: Der begeisternde / Der begeisterte Lehrer",
     summary: "Partizip I means doing (ein begeisternder Lehrer, die steigenden Preise), Partizip II means done or affected (ein begeisterter Lehrer, die gestiegenen Preise).",
     duration: "14 min",
     sections: [
@@ -860,7 +860,7 @@ export const DE_B2_U07: Lesson[] = [
           { es: "Die störenden Geräusche kamen aus der Wohnung oben.", en: "The disturbing noises came from the flat upstairs." },
           { es: "Er hielt eine überzeugende Rede.", en: "He gave a convincing speech." },
           { es: "Sie ist eine überzeugte Vegetarierin.", en: "She's a committed vegetarian." },
-          { es: "Die gestörten Nachbarn haben sich beschwert.", en: "The disturbed neighbours complained." },
+          { es: "Die durch den Lärm gestörten Nachbarn haben sich beschwert.", en: "The neighbours disturbed by the noise complained." },
         ],
         checkpoint: [
           {
@@ -1027,10 +1027,10 @@ export const DE_B2_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The disturbed neighbours complained.",
-        answer: "Die gestörten Nachbarn haben sich beschwert.",
-        altAnswers: ["Die gestörten Nachbarn beschwerten sich."],
-        explanation: "The neighbours were disturbed: Partizip II \"gestört\".",
+        source: "The neighbours disturbed by the noise complained.",
+        answer: "Die durch den Lärm gestörten Nachbarn haben sich beschwert.",
+        altAnswers: ["Die durch den Lärm gestörten Nachbarn beschwerten sich.", "Die vom Lärm gestörten Nachbarn haben sich beschwert.", "Die vom Lärm gestörten Nachbarn beschwerten sich."],
+        explanation: "The neighbours were disturbed: Partizip II \"gestört\". \"Durch den Lärm\" also avoids the other reading of plain \"die gestörten Nachbarn\" (mentally disturbed).",
       },
       {
         type: "listen-choose",
@@ -1053,7 +1053,7 @@ export const DE_B2_U07: Lesson[] = [
     slug: "b2-spiral-dictation-lassen-sein-zu",
     level: "DE-B2",
     number: 6,
-    title: "Spiral Review: Dictation: Sich Lassen and Sein Zu",
+    title: "Spiral Review: Dictation: Sich lassen and Sein zu",
     summary: "Spaced review of Units 5-6: hear and write passive alternatives with sich lassen, sein + zu and the Zustandspassiv.",
     duration: "12 min",
     sections: [
@@ -1151,7 +1151,7 @@ export const DE_B2_U07: Lesson[] = [
         prompt: "Translate into German.",
         source: "You have to register within two weeks.",
         answer: "Man hat sich innerhalb von zwei Wochen anzumelden.",
-        altAnswers: ["Man muss sich innerhalb von zwei Wochen anmelden.", "Die Anmeldung ist innerhalb von zwei Wochen zu erledigen.", "Sie müssen sich innerhalb von zwei Wochen anmelden.", "Du musst dich innerhalb von zwei Wochen anmelden."],
+        altAnswers: ["Man muss sich innerhalb von zwei Wochen anmelden.", "Die Anmeldung ist innerhalb von zwei Wochen zu erledigen.", "Sie müssen sich innerhalb von zwei Wochen anmelden.", "Du musst dich innerhalb von zwei Wochen anmelden.", "Ihr müsst euch innerhalb von zwei Wochen anmelden.", "Sie haben sich innerhalb von zwei Wochen anzumelden."],
         explanation: "\"Haben + zu\" is the active twin of sein + zu: \"man hat sich ... anzumelden\" = must. \"Man muss\" is the everyday version.",
       },
       {
@@ -1166,7 +1166,7 @@ export const DE_B2_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Guests [must register] at reception.",
+        en: "Guests must [register] at reception.",
         sentence: "Gäste haben sich an der Rezeption ___.",
         answer: "anzumelden",
         explanation: "\"Haben + zu\" (active obligation): \"anzumelden\".",
@@ -1281,7 +1281,7 @@ export const DE_B2_U07: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "In die von der Stadt im letzten Jahr renovierte alte Schule, which noun does die belong to?",
+            question: "In \"die von der Stadt im letzten Jahr renovierte alte Schule\", which noun does \"die\" belong to?",
             options: ["Schule", "Stadt", "Jahr", "the whole phrase has no noun"],
             correctIndex: 0,
             explanation: "\"Von der Stadt\" and \"im letzten Jahr\" are inside the attribute; the noun that matches \"die\" at the end is \"Schule\".",
@@ -1330,7 +1330,7 @@ export const DE_B2_U07: Lesson[] = [
         prompt: "Translate into German, using a participle phrase.",
         source: "That's a problem not to be underestimated.",
         answer: "Das ist ein nicht zu unterschätzendes Problem.",
-        explanation: "Gerundive with \"nicht\": possibility (cannot be underestimated). Neuter after ein: -es.",
+        explanation: "Gerundive with \"nicht\": it must not (and cannot) be underestimated. Neuter after ein: -es on \"unterschätzendes\".",
       },
       {
         type: "translate",
@@ -1369,7 +1369,7 @@ export const DE_B2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does die noch zu klärenden Fragen mean?",
+        question: "What does \"die noch zu klärenden Fragen\" mean?",
         options: ["the questions still to be clarified", "the questions that have been clarified", "the questions that are clarifying things", "the questions that are too unclear"],
         correctIndex: 0,
         explanation: "Gerundive: zu + Partizip I = to be done. \"Klären\" = to clarify.",
@@ -1433,7 +1433,7 @@ export const DE_B2_U07: Lesson[] = [
         heading: "Station 1: Local news",
         body: [
           "Each station gives you a short news lead (the first sentence of an article). Use the three-step method: article → noun → middle as a relative clause.",
-          "Lead 1: \"Die seit Monaten gesperrte Carolabrücke in Dresden bleibt auch im Winter geschlossen.\" Article \"Die\", noun \"Carolabrücke\", middle \"seit Monaten gesperrt\" → die Brücke, die seit Monaten gesperrt ist. Meaning: the bridge, closed for months, stays shut in winter too.",
+          "Lead 1: \"Die seit Monaten gesperrte Brücke am Hauptbahnhof bleibt auch im Winter geschlossen.\" Article \"Die\", noun \"Brücke\" (\"am Hauptbahnhof\" just says where it is), middle \"seit Monaten gesperrt\" → die Brücke, die seit Monaten gesperrt ist. Meaning: the bridge, closed for months, stays shut in winter too.",
           "Lead 2: \"Der am Wochenende in Köln festgenommene Mann soll mehrere Autos aufgebrochen haben.\" Noun: \"Mann\". Middle: \"am Wochenende in Köln festgenommen\". Note \"soll ... haben\": the reported claim (he is alleged to have), a structure you'll study properly in Unit 14. Here, just read it as allegedly.",
         ],
         examples: [
@@ -1446,7 +1446,7 @@ export const DE_B2_U07: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Das von Anwohnern gegründete Café feiert Geburtstag. Who founded the café?",
+            question: "\"Das von Anwohnern gegründete Café feiert Geburtstag.\" Who founded the café?",
             options: ["local residents", "the café's owner", "a birthday guest", "the city"],
             correctIndex: 0,
             explanation: "\"Von Anwohnern gegründet\" = founded by local residents; \"von\" marks the agent.",
@@ -1559,7 +1559,7 @@ export const DE_B2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Die im vergangenen Jahr stark gestiegenen Energiepreise belasten viele Haushalte. What happened last year?",
+        question: "\"Die im vergangenen Jahr stark gestiegenen Energiepreise belasten viele Haushalte.\" What happened last year?",
         options: ["Energy prices rose sharply.", "Households used much more energy.", "Energy prices fell sharply.", "Households complained about prices."],
         correctIndex: 0,
         explanation: "\"Im vergangenen Jahr stark gestiegen\" = rose sharply last year.",
@@ -1576,7 +1576,7 @@ export const DE_B2_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The thunderstorms [forecast for the weekend] aren't happening.",
+        en: "The thunderstorms [forecast] for the weekend aren't happening.",
         sentence: "Die für das Wochenende ___ Gewitter bleiben aus.",
         answer: "angekündigten",
         explanation: "Plural after die: -en. \"Ankündigen\" = to announce, forecast.",
@@ -1592,7 +1592,7 @@ export const DE_B2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Restore the headline Seit Jahren leerstehendes Kaufhaus wird Studentenwohnheim as a full sentence.",
+        question: "Restore the headline \"Seit Jahren leerstehendes Kaufhaus wird Studentenwohnheim\" as a full sentence.",
         options: ["Das seit Jahren leerstehende Kaufhaus wird ein Studentenwohnheim.", "Der seit Jahren leerstehende Kaufhaus wird ein Studentenwohnheim.", "Das seit Jahren leerstehendes Kaufhaus wird ein Studentenwohnheim.", "Das Kaufhaus seit Jahren leerstehende wird ein Studentenwohnheim."],
         correctIndex: 0,
         explanation: "With \"das\", the strong ending -es becomes the weak -e: \"das ... leerstehende Kaufhaus\".",
@@ -1644,7 +1644,7 @@ export const DE_B2_U07: Lesson[] = [
         examples: [
           { es: "Frisch renovierte, verkehrsgünstig gelegene 3-Zimmer-Wohnung zu vermieten.", en: "Freshly renovated, conveniently located 3-room flat to let." },
           { es: "Die Wohnung hat eine voll ausgestattete Einbauküche.", en: "The flat has a fully equipped fitted kitchen." },
-          { es: "Die Miete beträgt 950 Euro kalt plus 200 Euro Nebenkosten.", en: "The rent is 950 euros plus 200 euros service charges." },
+          { es: "Die Miete beträgt 950 Euro kalt plus 200 Euro Nebenkosten.", en: "The basic rent is 950 euros plus 200 euros service charges." },
           { es: "Ruhig gelegene Altbauwohnung ab sofort zu vermieten.", en: "Quietly located period flat available to let immediately." },
           { es: "Die Wohnung ist WG-geeignet.", en: "The flat is suitable for flatsharing." },
           { es: "Haustiere nach Absprache erlaubt.", en: "Pets allowed by arrangement." },
@@ -1700,7 +1700,7 @@ export const DE_B2_U07: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "The flat has [freshly sanded] floorboards.",
+            en: "The flat has freshly [sanded] floorboards.",
             sentence: "Die Wohnung verfügt über einen frisch ___ Dielenboden.",
             answer: "abgeschliffenen",
             explanation: "Masculine accusative after einen: -en. \"Abschleifen\" → \"abgeschliffen\".",
@@ -1770,7 +1770,7 @@ export const DE_B2_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The kitchen [installed in 2022] is included.",
+        en: "The kitchen [installed] in 2022 is included.",
         sentence: "Die 2022 ___ Küche wird übernommen.",
         answer: "eingebaute",
         explanation: "\"Einbauen\" → \"eingebaut\" + -e after die (nominative).",
@@ -1779,14 +1779,14 @@ export const DE_B2_U07: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The rent is 950 euros plus 200 euros service charges.",
+        source: "The basic rent is 950 euros plus 200 euros service charges.",
         answer: "Die Miete beträgt 950 Euro kalt plus 200 Euro Nebenkosten.",
         altAnswers: ["Die Miete beträgt 950 Euro plus 200 Euro Nebenkosten.", "Die Kaltmiete beträgt 950 Euro plus 200 Euro Nebenkosten.", "Die Miete beträgt 950 Euro zuzüglich 200 Euro Nebenkosten."],
         explanation: "\"Betragen\" for amounts; \"kalt\" signals the rent without service charges.",
       },
       {
         type: "multiple-choice",
-        question: "An ad says 1.100 € warm. What does that mean?",
+        question: "An ad says \"1.100 € warm\". What does that mean?",
         options: ["1,100 euros including heating and service charges", "1,100 euros without service charges", "1,100 euros only in winter", "1,100 euros for a heated flat only"],
         correctIndex: 0,
         explanation: "\"Warm\" (Warmmiete) = all-in rent including heating and Nebenkosten. \"Kalt\" excludes them.",
@@ -1842,7 +1842,7 @@ export const DE_B2_U07: Lesson[] = [
     slug: "b2-spiral-talk-wenn-ich-woanders-gewohnt-haette",
     level: "DE-B2",
     number: 10,
-    title: "Spiral Review: Talk About Yourself: Wenn Ich Woanders Gewohnt Hätte",
+    title: "Spiral Review: Talk About Yourself: Wenn ich woanders gewohnt hätte",
     summary: "Spaced review of Unit 1: imagine your life in another city with the unreal past and mixed conditionals.",
     duration: "13 min",
     sections: [
@@ -1953,7 +1953,7 @@ export const DE_B2_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "If I had studied in Cologne, I [would speak] the dialect now.",
+        en: "If I had studied in Cologne, I [would] speak the dialect now.",
         sentence: "Hätte ich in Köln studiert, ___ ich jetzt den Dialekt sprechen.",
         answer: "würde",
         explanation: "Present result: \"würde ... sprechen\". The condition is past (\"hätte studiert\").",

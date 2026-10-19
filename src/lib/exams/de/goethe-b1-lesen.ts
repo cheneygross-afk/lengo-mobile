@@ -199,7 +199,7 @@ export const GOETHE_B1_LESEN: ExamPaper = {
         { label: "C", title: "Waldentdecker-Tag", body: "Mit dem Förster durch den Stadtwald: Tierspuren suchen, Hütten bauen, am Feuer Stockbrot backen. Für Familien mit Kindern ab 5 Jahren. Sonntags 10–13 Uhr, Treffpunkt Waldparkplatz." },
         { label: "D", title: "Rückenfit", body: "Gymnastik für einen starken, gesunden Rücken. Unter Leitung einer erfahrenen Physiotherapeutin. Montags 19 Uhr, Turnhalle der Goetheschule. Schnupperstunde gratis!" },
         { label: "E", title: "Selbsthilfe-Fahrradwerkstatt", body: "Platten? Bremse quietscht? Werkzeug ist da – unsere Ehrenamtlichen zeigen dir, wie du dein Rad selbst wieder fit machst. Jeden Freitag ab 16 Uhr im Jugendzentrum." },
-        { label: "F", title: "Fahrradverleih am Hauptbahnhof", body: "E-Bikes, Tourenräder und Kinderanhänger ab 12 € pro Tag. Geführte Radtouren am Wochenende. Online buchen und Zeit sparen." },
+        { label: "F", title: "Fahrradverleih am Hauptbahnhof", body: "E-Bikes, Tourenräder und Kinderanhänger ab 12 € pro Tag. Geführte Radtouren durch die Altstadt am Wochenende. Online buchen und Zeit sparen." },
         { label: "G", title: "Sozialkaufhaus „Zweite Chance“", body: "Schränke, Tische, Betten, Lampen und Geschirr aus zweiter Hand zu kleinen Preisen. Lieferung gegen geringe Gebühr möglich. Mo–Sa 10–18 Uhr." },
         { label: "H", title: "Gemüse statt Fleisch", body: "Vegetarische Küche aus aller Welt: von indischem Linsencurry bis zur italienischen Gemüselasagne. Kochkurs donnerstags 18:30–21:30 Uhr, Familienzentrum Süd." },
         { label: "I", title: "Italienisch kompakt am Wochenende", body: "Intensivkurs für Anfänger mit Vorkenntnissen: samstags 9–13 Uhr, sechs Wochen. Kleine Gruppen, muttersprachliche Lehrerin." },
@@ -226,7 +226,7 @@ export const GOETHE_B1_LESEN: ExamPaper = {
           question: "Eine Freundin möchte Spanisch lernen, hat aber nur samstags Zeit.",
           options: ANZEIGEN,
           answer: 10,
-          explanation: "Keine Anzeige passt: Der Spanischkurs (A) ist dienstags und donnerstags abends, und der Kurs am Samstag (I) ist Italienisch. Also K.",
+          explanation: "Der Spanischkurs (A) ist dienstags und donnerstags abends, und der Kurs am Samstag (I) ist Italienisch. Für die Freundin passt also keine Anzeige: K.",
         },
         {
           n: 16,

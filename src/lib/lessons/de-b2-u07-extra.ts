@@ -22,7 +22,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
           { es: "Ein geöffnetes Fenster reicht nicht.", en: "One open window isn't enough." },
           { es: "Wir haben einen reparierten Fernseher gekauft.", en: "We bought a repaired TV." },
           { es: "Sie trinkt morgens frisch gepressten Saft.", en: "She drinks freshly squeezed juice in the morning." },
-          { es: "Wir freuen uns auf das seit Wochen angekündigte Konzert.", en: "We're looking forward to the concert announced weeks ago." },
+          { es: "Wir freuen uns auf das seit Wochen angekündigte Konzert.", en: "We're looking forward to the concert that has been announced for weeks." },
           { es: "Mit dem geliehenen Auto fuhren wir an die Ostsee.", en: "We drove to the Baltic in the borrowed car." },
         ],
         checkpoint: [
@@ -67,7 +67,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The cake is served with [freshly ground] coffee.",
+        en: "The cake is served with freshly [ground] coffee.",
         sentence: "Der Kuchen wird mit frisch ___ Kaffee serviert.",
         answer: "gemahlenem",
         explanation: "No article, masculine dative: strong ending -em.",
@@ -109,7 +109,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Choose the correct form: Sie hat ein ___ Zimmer gebucht. (renovated)",
+        question: "She has booked a renovated room. Choose the correct form: \"Sie hat ein ___ Zimmer gebucht.\"",
         options: ["renoviertes", "renovierte", "renovierten", "renovierter"],
         correctIndex: 0,
         explanation: "Neuter accusative after ein: -es.",
@@ -119,9 +119,9 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
         direction: "en-es",
         prompt: "Translate into German.",
         source: "The children are playing with the presents they got.",
-        answer: "Die Kinder spielen mit den bekommenen Geschenken.",
-        altAnswers: ["Die Kinder spielen mit den Geschenken, die sie bekommen haben.", "Die Kinder spielen mit den erhaltenen Geschenken."],
-        explanation: "Dative plural after \"mit den\": -en, and the noun takes -n.",
+        answer: "Die Kinder spielen mit den erhaltenen Geschenken.",
+        altAnswers: ["Die Kinder spielen mit den Geschenken, die sie bekommen haben.", "Die Kinder spielen mit den bekommenen Geschenken.", "Die Kinder spielen mit den Geschenken, die sie erhalten haben."],
+        explanation: "Dative plural after \"mit den\": -en, and the noun takes -n. \"Erhalten\" sounds more natural as an attribute than \"bekommen\"; in speech the relative clause is most natural.",
       },
       {
         type: "translate",
@@ -399,7 +399,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Do you also have the chair [shown in the catalogue]?",
+        en: "Do you also have the chair [shown] in the catalogue?",
         sentence: "Haben Sie auch den im Katalog ___ Stuhl?",
         answer: "abgebildeten",
         altAnswers: ["gezeigten"],
@@ -411,7 +411,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The mattress, tested by experts, costs 499 euros.",
         answer: "Die von Experten getestete Matratze kostet 499 Euro.",
-        altAnswers: ["Die von Fachleuten getestete Matratze kostet 499 Euro."],
+        altAnswers: ["Die von Fachleuten getestete Matratze kostet 499 Euro.", "Die Matratze, die von Experten getestet wurde, kostet 499 Euro."],
         explanation: "\"Von Experten getestet\" inside the attribute.",
       },
       {
@@ -425,7 +425,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The salesperson says: Die zu zahlende Anzahlung beträgt 20 Prozent. What does it mean?",
+        question: "The salesperson says: \"Die zu zahlende Anzahlung beträgt 20 Prozent.\" What does it mean?",
         options: ["The deposit to be paid is 20 per cent.", "The deposit has been paid at 20 per cent.", "You can pay 20 per cent if you like.", "20 per cent is too much to pay."],
         correctIndex: 0,
         explanation: "Gerundive \"die zu zahlende\" = which must be paid.",
@@ -520,7 +520,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Unpack die von der Stadt geplante Straßenbahn.",
+            question: "Which relative clause unpacks \"die von der Stadt geplante Straßenbahn\"?",
             options: ["die Straßenbahn, die von der Stadt geplant wird", "die Straßenbahn, die die Stadt plant zu werden", "die Stadt, die die Straßenbahn plant", "die Straßenbahn, die von der Stadt plant"],
             correctIndex: 0,
             explanation: "Partizip II of a haben-verb with \"von\" = werden-passive in the relative clause.",
@@ -584,7 +584,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Unpack ein nicht zu unterschätzendes Risiko.",
+        question: "Which relative clause unpacks \"ein nicht zu unterschätzendes Risiko\"?",
         options: ["ein Risiko, das nicht zu unterschätzen ist", "ein Risiko, das nicht unterschätzt hat", "ein Risiko, das nicht unterschätzend ist", "ein Risiko, das zu unterschätzen nicht hat"],
         correctIndex: 0,
         explanation: "Gerundive → sein + zu: \"das nicht zu unterschätzen ist\".",
@@ -642,7 +642,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "Der Zug, der aus München kommt, hat Verspätung.",
-        prompt: "Unpack and say: Der aus München kommende Zug hat Verspätung.",
+        prompt: "Unpack this into a relative clause and say it: \"Der aus München kommende Zug hat Verspätung.\"",
         explanation: "Partizip I → active present in a relative clause.",
       },
     ],
@@ -720,7 +720,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The [costs to be expected] are listed below.",
+        en: "The costs [to be expected] are listed below.",
         sentence: "Die ___ Kosten sind unten aufgeführt.",
         answer: "zu erwartenden",
         explanation: "Plural after die: \"zu erwartenden\".",
@@ -736,7 +736,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does eine nicht zu übersehende Veränderung mean?",
+        question: "What does \"eine nicht zu übersehende Veränderung\" mean?",
         options: ["a change that can't be overlooked", "a change that mustn't be looked at", "a change that hasn't been seen", "a change that is too big to see"],
         correctIndex: 0,
         explanation: "With nicht, the gerundive expresses (im)possibility: impossible to overlook.",
@@ -883,15 +883,15 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German, using a participle phrase.",
-        source: "The flight cancelled yesterday has been rebooked.",
-        answer: "Der gestern annullierte Flug ist umgebucht.",
-        altAnswers: ["Der gestern gestrichene Flug wurde umgebucht.", "Der gestern annullierte Flug wurde umgebucht.", "Der gestern gestrichene Flug ist umgebucht.", "Der gestern abgesagte Flug wurde umgebucht.", "Der gestern annullierte Flug ist umgebucht worden."],
-        explanation: "Masculine nominative -e; \"umbuchen\" = to rebook.",
+        source: "The flight cancelled yesterday leaves today instead.",
+        answer: "Der gestern annullierte Flug startet stattdessen heute.",
+        altAnswers: ["Der gestern gestrichene Flug startet stattdessen heute.", "Der gestern abgesagte Flug startet stattdessen heute.", "Der gestern annullierte Flug fliegt stattdessen heute.", "Der gestern gestrichene Flug fliegt stattdessen heute.", "Der gestern annullierte Flug geht stattdessen heute."],
+        explanation: "Masculine nominative after der: -e on the participle. \"Annullieren\" or \"streichen\" = to cancel a flight.",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I've read the [book recommended by you]. (to a friend)",
+        en: "I've read the book [recommended] by you. (to a friend)",
         sentence: "Ich habe das von dir ___ Buch gelesen.",
         answer: "empfohlene",
         explanation: "Neuter accusative after das: -e.",
@@ -907,7 +907,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "You hear: Ich suche den gestern verloren... Schlüssel. Which ending did you hear?",
+        question: "You hear: \"Ich suche den gestern verloren... Schlüssel.\" Which ending did you hear?",
         options: ["verlorenen", "verlorene", "verlorener", "verlorenes"],
         correctIndex: 0,
         explanation: "Masculine accusative after den: -en.",
@@ -983,7 +983,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
           {
             type: "listen-choose",
             audio: "Der um 8 Uhr abfahrende.",
-            question: "Welcher Zug ist deiner? What does the answer mean?",
+            question: "\"Welcher Zug ist deiner?\" What does the answer mean?",
             options: ["The one leaving at 8.", "The one arriving at 8.", "The one that left at 8.", "It leaves after 8."],
             correctIndex: 0,
             explanation: "\"Abfahrend\" (Partizip I) = departing; \"um 8 Uhr\" = at 8.",
@@ -1048,7 +1048,7 @@ export const DE_B2_U07_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Welche Wohnung habt ihr genommen? Which answer is correct?",
+        question: "\"Welche Wohnung habt ihr genommen?\" Which answer is correct?",
         options: ["Die frisch renovierte.", "Der frisch renovierte.", "Die frisch renovierten.", "Das frisch renovierte."],
         correctIndex: 0,
         explanation: "\"Wohnung\" is feminine, accusative singular: \"die ... renovierte\".",

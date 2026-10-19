@@ -14,8 +14,8 @@ export const DE_B2_U16: Lesson[] = [
       {
         heading: "Deadlines and plans",
         body: [
-          "Unit 15 talked about what will have been done by a certain date, so it was full of deadline words. \"Die Frist\" is the official deadline (eine Frist einhalten: to meet a deadline, eine Frist verlängern: to extend it, die Frist läuft ab: it runs out). \"Der Abgabetermin\" is the hand-in date for a piece of work, and \"rechtzeitig\" means in good time.",
-          "The verbs: \"erledigen\" (to get something done, to deal with it), \"abschließen\" (to complete: ein Projekt, ein Studium abschließen), \"einreichen\" (to submit officially: einen Antrag einreichen), \"abgeben\" (to hand in). \"Etwas verschieben\" is to postpone something, and \"in Verzug sein\" or \"im Rückstand sein\" means to be behind schedule.",
+          "Unit 15 talked about what will have been done by a certain date, so it was full of deadline words. \"Die Frist\" is the official deadline (\"eine Frist einhalten\": to meet a deadline, \"eine Frist verlängern\": to extend it, \"die Frist läuft ab\": it runs out). \"Der Abgabetermin\" is the hand-in date for a piece of work, and \"rechtzeitig\" means in good time.",
+          "The verbs: \"erledigen\" (to get something done, to deal with it), \"abschließen\" (to complete: \"ein Projekt, ein Studium abschließen\"), \"einreichen\" (to submit officially: \"einen Antrag einreichen\"), \"abgeben\" (to hand in). \"Etwas verschieben\" is to postpone something, and \"in Verzug sein\" or \"im Rückstand sein\" means to be behind schedule.",
           "Trap: English deadline is also used in German offices (\"die Deadline\"), but in formal writing \"die Frist\" or \"der Termin\" is better. And \"der Termin\" is an appointment or a fixed date, never a school term (that's \"das Semester\" or \"das Halbjahr\").",
         ],
         examples: [
@@ -50,7 +50,7 @@ export const DE_B2_U16: Lesson[] = [
       {
         heading: "Mountain rescue",
         body: [
-          "The Bergrettung story used the language of searches and emergencies. \"Die Bergwacht\" (in Bavaria) or \"die Bergrettung\" rescues people in the mountains; \"der Rettungshubschrauber\" is the rescue helicopter, and \"der Einsatz\" is an operation or call-out (ein nächtlicher Einsatz).",
+          "The Bergrettung story used the language of searches and emergencies. \"Die Bergwacht\" (in Germany, above all in Bavaria) or \"die Bergrettung\" rescues people in the mountains; \"der Rettungshubschrauber\" is the rescue helicopter, and \"der Einsatz\" is an operation or call-out (\"ein nächtlicher Einsatz\").",
           "People who are missing are \"vermisst\" (die Vermissten: the missing), they may have \"sich verlaufen\" (got lost on foot) or \"sich verirrt\", they are found \"erschöpft\" (exhausted), \"unterkühlt\" (suffering from hypothermia) or \"verletzt\". To rescue is \"retten\" or \"bergen\" (to recover, also used for bodies and wreckage).",
           "\"Die Suche wurde eingestellt\" means the search was called off: \"einstellen\" here means to stop, a meaning English speakers rarely expect (it also means to hire and to adjust).",
         ],
@@ -84,7 +84,7 @@ export const DE_B2_U16: Lesson[] = [
       {
         heading: "Automation and probability",
         body: [
-          "The jobs-of-the-future lesson used \"die Automatisierung\", \"die künstliche Intelligenz\" (KI), \"ersetzen\" (to replace: Maschinen ersetzen Menschen), \"überflüssig werden\" (to become redundant, unnecessary), \"umschulen\" (to retrain for a new job) and \"der Arbeitsplatz\" (the job, also the workplace).",
+          "The jobs-of-the-future lesson used \"die Automatisierung\", \"die künstliche Intelligenz\" (\"KI\"), \"ersetzen\" (to replace: \"Maschinen ersetzen Menschen\"), \"überflüssig werden\" (to become redundant, unnecessary), \"umschulen\" (to retrain for a new job) and \"der Arbeitsplatz\" (the job, also the workplace).",
           "The probability adverbs form a scale: \"bestimmt\" and \"sicher\" (surely, almost certainly), \"wahrscheinlich\" (probably), \"vermutlich\" (presumably, a bit more formal), \"wohl\" (probably, I suppose), \"vielleicht\" and \"möglicherweise\" (perhaps, possibly). The nouns: \"die Vermutung\" (the guess, assumption) and \"die Wahrscheinlichkeit\" (the probability).",
           "Trap: \"eventuell\" means possibly, not eventually (that's \"schließlich\" or \"irgendwann\"). And \"sicher\" in \"Er ist sicher zu Hause\" is a guess (he's surely at home), not proof.",
         ],
@@ -212,8 +212,8 @@ export const DE_B2_U16: Lesson[] = [
     slug: "b2-spiral-dictation-regrets",
     level: "DE-B2",
     number: 2,
-    title: "Spiral Review: Dictation: Hätte... Sollen",
-    summary: "Hear and write regrets and reproaches with the double infinitive: ich hätte früher kommen sollen, du hättest anrufen können.",
+    title: "Spiral Review: Dictation: Hätte... sollen",
+    summary: "Hear and write regrets and reproaches with the double infinitive: \"Ich hätte früher kommen sollen\", \"Du hättest anrufen können\".",
     duration: "12 min",
     sections: [
       {
@@ -350,7 +350,7 @@ export const DE_B2_U16: Lesson[] = [
         prompt: "Translate into German.",
         source: "You could have told me! (to a friend)",
         answer: "Du hättest es mir sagen können!",
-        altAnswers: ["Das hättest du mir sagen können!", "Du hättest mir das sagen können!", "Ihr hättet es mir sagen können!", "Das hättet ihr mir sagen können!"],
+        altAnswers: ["Das hättest du mir sagen können!", "Du hättest mir das sagen können!"],
         explanation: "A reproach with \"können\": \"hättest\" + \"sagen können\". Pronouns: \"es\" (accusative) before \"mir\" (dative).",
       },
       {
@@ -364,16 +364,16 @@ export const DE_B2_U16: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "We [could have taken] a taxi.",
+        en: "We [could have] taken a taxi.",
         sentence: "Wir ___ ein Taxi nehmen können.",
         answer: "hätten",
-        explanation: "\"Hätten\" in position 2, \"nehmen können\" at the end.",
+        explanation: "\"Hätten\" in position 2, \"nehmen können\" at the end: Konjunktiv II \"hätten\", not the past \"hatten\".",
       },
       {
         type: "listen-choose",
-        audio: "Ich hatte keine Zeit, und ich hätte trotzdem anrufen sollen.",
+        audio: "Ich hatte keine Zeit, aber ich hätte trotzdem anrufen sollen.",
         question: "What does it mean?",
-        options: ["I had no time, and I should still have called.", "I had no time, so I didn't have to call.", "I would have had no time, but I called anyway.", "I had no time, and I was supposed to call later."],
+        options: ["I had no time, but I should still have called anyway.", "I had no time, so I didn't have to call.", "I would have had no time, but I called anyway.", "I had no time, and I was supposed to call later."],
         correctIndex: 0,
         explanation: "\"Hatte\" without umlaut is a real past; \"hätte ... anrufen sollen\" is the regret.",
       },
@@ -406,8 +406,8 @@ export const DE_B2_U16: Lesson[] = [
     slug: "b2-spiral-qa-was-hat-er-gefragt",
     level: "DE-B2",
     number: 3,
-    title: "Spiral Review: Was Hat Er Dich Gefragt?",
-    summary: "Report questions and requests again: ob and W-words with Konjunktiv I, sollen for commands and bitten for polite requests.",
+    title: "Spiral Review: Was hat er dich gefragt?",
+    summary: "Report questions and requests again: \"ob\" and W-words with Konjunktiv I, \"sollen\" for commands and \"bitten\" for polite requests.",
     duration: "13 min",
     sections: [
       {
@@ -439,7 +439,7 @@ export const DE_B2_U16: Lesson[] = [
             question: "Your neighbour asked you: \"Kommst du zur Party?\" How do you report it?",
             options: ["Er hat gefragt, ob ich zur Party komme.", "Er hat gefragt, wenn ich zur Party komme.", "Er hat gefragt, ob komme ich zur Party.", "Er hat gefragt, ob du zur Party kommst."],
             correctIndex: 0,
-            explanation: "\"Ob\" + verb at the end, and the person shifts from du to ich. \"Wenn\" would mean when.",
+            explanation: "\"Ob\" + verb at the end, and the person shifts from \"du\" to \"ich\". \"Wenn\" would mean when, and \"ob komme ich\" has the verb in the wrong place.",
           },
         ],
       },
@@ -598,7 +598,7 @@ export const DE_B2_U16: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Mastery Check: Subjective Modals and Futur II",
-    summary: "A focused test of muss, dürfte, kann, soll and will in the present and past, Futur II and wohl.",
+    summary: "Check that you can use \"muss\", \"dürfte\", \"kann\", \"soll\" and \"will\" in the present and past, and the Futur II with \"wohl\", for guesses and claims.",
     duration: "15 min",
     sections: [
       {
@@ -606,10 +606,10 @@ export const DE_B2_U16: Lesson[] = [
         body: [
           "Subjective modals say how sure the speaker is, not what someone is obliged or able to do. From most to least certain: \"muss\" (I'm practically sure), \"wird wohl\" and \"dürfte\" (probably), \"kann\" or \"könnte\" (possibly), \"kann nicht\" (impossible, I'm sure it isn't so).",
           "\"Dürfte\" is the Konjunktiv II of \"dürfen\", but here it has nothing to do with permission: \"Er dürfte schon zu Hause sein\" means He's probably home by now. \"Könnte\" is a little more tentative than \"kann\".",
-          "For the negative of \"muss\" (it must not be so), German uses \"kann nicht\": \"Das kann nicht stimmen\" (That can't be right). \"*Das muss nicht stimmen\" means only That isn't necessarily right.",
+          "For the negative of \"muss\" (it must not be so), German uses \"kann nicht\": \"Das kann nicht stimmen\" (That can't be right). \"Das muss nicht stimmen\" is a different statement: That isn't necessarily right.",
         ],
         examples: [
-          { es: "Bei Müllers brennt kein Licht. Sie müssen im Urlaub sein.", en: "There are no lights on next door. They must be on holiday." },
+          { es: "Bei Müllers brennt kein Licht. Sie müssen im Urlaub sein.", en: "There are no lights on at the Müllers'. They must be on holiday." },
           { es: "Der Laden dürfte um diese Zeit schon geschlossen sein.", en: "The shop is probably already closed at this time." },
           { es: "Das könnte der neue Nachbar sein.", en: "That could be the new neighbour." },
           { es: "Das kann nicht Lena sein, die ist doch in Hamburg.", en: "That can't be Lena, she's in Hamburg." },
@@ -640,7 +640,7 @@ export const DE_B2_U16: Lesson[] = [
         body: [
           "To guess about the past, keep the modal in the present and put a perfect infinitive at the end: participle + \"haben\" or \"sein\". \"Sie muss den Zug verpasst haben\" (She must have missed the train); \"Er dürfte schon angekommen sein\" (He's probably arrived by now).",
           "Futur II does the same job with \"werden\": \"Sie wird den Zug verpasst haben\" (She'll have missed the train, I suppose). Add \"wohl\" to make the guess explicit.",
-          "Typical errors: \"*Sie musste den Zug verpasst haben\" (the modal stays in the present for a guess made now) and \"*Er muss gegangen haben\" (gehen takes \"sein\": \"gegangen sein\").",
+          "Typical errors: \"*Sie musste den Zug verpasst haben\" (the modal stays in the present for a guess made now) and \"*Er muss gegangen haben\" (\"gehen\" takes \"sein\": \"gegangen sein\").",
         ],
         examples: [
           { es: "Sie muss den Zug verpasst haben.", en: "She must have missed the train." },
@@ -657,8 +657,7 @@ export const DE_B2_U16: Lesson[] = [
             prompt: "Translate into German.",
             source: "He must have forgotten the appointment.",
             answer: "Er muss den Termin vergessen haben.",
-            altAnswers: ["Er wird den Termin vergessen haben.", "Er wird den Termin wohl vergessen haben."],
-            explanation: "Present \"muss\" + perfect infinitive \"vergessen haben\". Never \"*musste ... vergessen haben\" for a present guess.",
+            explanation: "Present \"muss\" + perfect infinitive \"vergessen haben\". Never \"*musste ... vergessen haben\" for a present guess. \"Er wird ... vergessen haben\" is only 'probably', weaker than must.",
           },
           {
             type: "fill-blank",
@@ -720,7 +719,7 @@ export const DE_B2_U16: Lesson[] = [
         prompt: "Translate into German.",
         source: "They're probably at home by now.",
         answer: "Sie dürften inzwischen zu Hause sein.",
-        altAnswers: ["Sie dürften jetzt zu Hause sein.", "Sie dürften schon zu Hause sein.", "Sie werden wohl inzwischen zu Hause sein.", "Sie werden wohl schon zu Hause sein.", "Sie sind wahrscheinlich schon zu Hause.", "Sie sind inzwischen wahrscheinlich zu Hause."],
+        altAnswers: ["Sie dürften jetzt zu Hause sein.", "Sie dürften schon zu Hause sein.", "Sie werden wohl inzwischen zu Hause sein.", "Sie werden wohl schon zu Hause sein.", "Sie sind wahrscheinlich schon zu Hause.", "Sie sind inzwischen wahrscheinlich zu Hause.", "Sie dürften inzwischen zuhause sein."],
         explanation: "Probable: \"dürften\", \"werden wohl\" or simply \"wahrscheinlich\" with the present.",
       },
       {
@@ -754,7 +753,7 @@ export const DE_B2_U16: Lesson[] = [
         question: "Which sentence means: She must have overslept?",
         options: ["Sie muss verschlafen haben.", "Sie musste verschlafen haben.", "Sie hat verschlafen müssen.", "Sie muss verschlafen sein."],
         correctIndex: 0,
-        explanation: "Present \"muss\" + \"verschlafen haben\" (verschlafen takes haben). \"Hat verschlafen müssen\" would mean she was forced to oversleep.",
+        explanation: "Present \"muss\" + \"verschlafen haben\" (\"verschlafen\" takes \"haben\"). \"Hat verschlafen müssen\" would mean she was forced to oversleep.",
       },
       {
         type: "translate",
@@ -762,7 +761,7 @@ export const DE_B2_U16: Lesson[] = [
         prompt: "Translate into German.",
         source: "She claims to have been at home all evening.",
         answer: "Sie will den ganzen Abend zu Hause gewesen sein.",
-        altAnswers: ["Sie behauptet, den ganzen Abend zu Hause gewesen zu sein.", "Sie behauptet, sie sei den ganzen Abend zu Hause gewesen."],
+        altAnswers: ["Sie behauptet, den ganzen Abend zu Hause gewesen zu sein.", "Sie behauptet, sie sei den ganzen Abend zu Hause gewesen.", "Sie will den ganzen Abend zuhause gewesen sein."],
         explanation: "The subject's own claim: \"will\" + \"gewesen sein\".",
       },
       {
@@ -775,7 +774,7 @@ export const DE_B2_U16: Lesson[] = [
       {
         type: "dictation",
         audio: "Er dürfte schon angekommen sein.",
-        explanation: "\"Dürfte\" with ü; \"angekommen sein\" because \"ankommen\" takes sein.",
+        explanation: "\"Dürfte\" with ü; \"angekommen sein\" because \"ankommen\" takes \"sein\".",
       },
       {
         type: "translate",
@@ -798,7 +797,7 @@ export const DE_B2_U16: Lesson[] = [
     slug: "b2-story-detective-der-verschwundene-nachbar",
     level: "DE-B2",
     number: 5,
-    title: "Story Detective: Der Verschwundene Nachbar",
+    title: "Story Detective: Der verschwundene Nachbar",
     summary: "Clues in a block of flats in Leipzig: decide what must, might or can't have happened to Herr Kaminski, and who claims what.",
     duration: "15 min",
     sections: [
@@ -809,7 +808,7 @@ export const DE_B2_U16: Lesson[] = [
           "Your job: turn each clue into a deduction. A strong clue gets \"muss\"; a weaker one \"dürfte\" or \"wird wohl\"; a mere possibility \"könnte\"; a clue that rules something out gets \"kann nicht\". Because the events are in the past, you'll need perfect infinitives: \"Er muss verreist sein\", \"Er kann nicht mit dem Auto gefahren sein\".",
         ],
         examples: [
-          { es: "Sein Briefkasten quillt über. Er muss seit Tagen nicht zu Hause gewesen sein.", en: "His letterbox is overflowing. He must not have been home for days." },
+          { es: "Sein Briefkasten quillt über. Er muss seit Tagen nicht zu Hause gewesen sein.", en: "His letterbox is overflowing. He can't have been home for days." },
           { es: "Sein Auto steht im Hof. Er kann nicht mit dem Auto weggefahren sein.", en: "His car is in the courtyard. He can't have driven away." },
           { es: "Sein Koffer fehlt. Er dürfte verreist sein.", en: "His suitcase is missing. He's probably gone away." },
           { es: "Die Katze miaut ständig. Er wird sie wohl nicht mitgenommen haben.", en: "The cat keeps meowing. He probably didn't take her with him." },
@@ -830,7 +829,7 @@ export const DE_B2_U16: Lesson[] = [
             question: "His suitcase is missing, but nobody saw him leave. Which deduction fits best?",
             options: ["Er dürfte verreist sein.", "Er muss verreist haben.", "Er soll verreist sein.", "Er durfte verreisen."],
             correctIndex: 0,
-            explanation: "A good but not conclusive clue: \"dürfte\" + \"verreist sein\" (verreisen takes sein). \"Soll\" would mean someone told you so.",
+            explanation: "A good but not conclusive clue: \"dürfte\" + \"verreist sein\" (\"verreisen\" takes \"sein\"). \"Soll\" would mean someone told you so.",
           },
         ],
       },
@@ -880,7 +879,7 @@ export const DE_B2_U16: Lesson[] = [
         heading: "The solution",
         body: [
           "On day six Herr Kaminski comes back, tanned, with a suitcase. He had won a short-notice trip to Mallorca and asked his sister to feed the cat, but she forgot. Now the neighbours reproach and regret: \"Er hätte uns Bescheid sagen können!\", \"Wir hätten nicht so viel spekulieren sollen.\"",
-          "Use the full range: deductions (muss, kann nicht), regrets and reproaches with the double infinitive, and reported speech for what he says now: \"Er sagt, seine Schwester habe die Katze vergessen.\"",
+          "Use the full range: deductions (\"muss\", \"kann nicht\"), regrets and reproaches with the double infinitive, and reported speech for what he says now: \"Er sagt, seine Schwester habe die Katze vergessen.\"",
         ],
         examples: [
           { es: "Er sagt, er habe eine Reise gewonnen.", en: "He says he won a trip." },
@@ -896,7 +895,6 @@ export const DE_B2_U16: Lesson[] = [
             prompt: "Translate into German.",
             source: "His sister must have forgotten the cat.",
             answer: "Seine Schwester muss die Katze vergessen haben.",
-            altAnswers: ["Seine Schwester wird die Katze vergessen haben."],
             explanation: "A confident deduction about the past: \"muss\" + \"vergessen haben\".",
           },
           {
@@ -918,7 +916,7 @@ export const DE_B2_U16: Lesson[] = [
         source: "He must have gone away.",
         answer: "Er muss verreist sein.",
         altAnswers: ["Er muss weggefahren sein.", "Er muss weggegangen sein."],
-        explanation: "\"Verreisen\" takes sein: \"verreist sein\" after the modal.",
+        explanation: "\"Verreisen\" takes \"sein\": \"verreist sein\" after the modal, not \"*verreist haben\".",
       },
       {
         type: "translate",
@@ -941,7 +939,7 @@ export const DE_B2_U16: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "He [can't have] taken the cat with him.",
+        en: "He [can't] have taken the cat with him.",
         sentence: "Er ___ die Katze nicht mitgenommen haben.",
         answer: "kann",
         explanation: "\"Kann nicht\" + perfect infinitive: impossible in the past.",
@@ -958,7 +956,7 @@ export const DE_B2_U16: Lesson[] = [
         question: "A neighbour passes on a rumour she heard from the baker. Which sentence fits?",
         options: ["Er soll nach Mallorca geflogen sein.", "Er will nach Mallorca geflogen sein.", "Er muss nach Mallorca geflogen haben.", "Er sollte nach Mallorca geflogen sein."],
         correctIndex: 0,
-        explanation: "Hearsay from third parties: \"soll\". \"Will\" would be his own claim, and \"fliegen\" takes sein.",
+        explanation: "Hearsay from third parties: \"soll\". \"Will\" would be his own claim, and \"fliegen\" takes \"sein\" (not \"geflogen haben\"); \"sollte\" is past obligation.",
       },
       {
         type: "translate",
@@ -1021,14 +1019,15 @@ export const DE_B2_U16: Lesson[] = [
             source: "My old boss will have retired by now.",
             answer: "Mein alter Chef wird inzwischen in Rente gegangen sein.",
             altAnswers: ["Meine alte Chefin wird inzwischen in Rente gegangen sein.", "Mein alter Chef wird mittlerweile in Rente gegangen sein.", "Mein alter Chef ist inzwischen bestimmt in Rente gegangen.", "Mein alter Chef ist wohl inzwischen in Rente gegangen."],
-            explanation: "Futur II with sein, because \"in Rente gehen\" takes sein: \"wird ... gegangen sein\".",
+            explanation: "Futur II with \"sein\", because \"in Rente gehen\" takes \"sein\": \"wird ... gegangen sein\".",
           },
           {
             type: "word-order",
             prompt: "Put the words in order to say: By Friday I'll have settled back in.",
             words: ["Bis", "Freitag", "werde", "ich", "mich", "wieder", "eingelebt", "haben."],
             translation: "By Friday I'll have settled back in.",
-            explanation: "\"Sich einleben\" (to settle in) takes haben: \"eingelebt haben\". The time phrase in position 1 puts \"werde\" before the subject.",
+            altOrders: [["Ich", "werde", "mich", "bis", "Freitag", "wieder", "eingelebt", "haben."]],
+            explanation: "\"Sich einleben\" (to settle in) takes \"haben\": \"eingelebt haben\". The time phrase in position 1 puts \"werde\" before the subject.",
           },
         ],
       },
@@ -1068,7 +1067,7 @@ export const DE_B2_U16: Lesson[] = [
         heading: "Regrets and plans",
         body: [
           "By Wednesday Anna is a bit homesick for Toronto. She looks back with the double infinitive: \"Ich hätte noch ein paar Monate bleiben sollen.\" And with the unreal past: \"Wenn ich das Angebot angenommen hätte, wäre ich jetzt Teamleiterin in Kanada.\"",
-          "But she also makes plans in the completed future: \"Bis zum Sommer werde ich mein Englisch-Projekt hier eingeführt haben.\"",
+          "But she also makes plans in the completed future: \"Bis zum Sommer werde ich das Projekt aus Toronto hier eingeführt haben.\"",
         ],
         examples: [
           { es: "Ich hätte noch ein paar Monate bleiben sollen.", en: "I should have stayed a few more months." },
@@ -1127,7 +1126,7 @@ export const DE_B2_U16: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "I [should have taken] more photos.",
+        en: "I [should have] taken more photos.",
         sentence: "Ich ___ mehr Fotos machen sollen.",
         answer: "hätte",
         explanation: "Regret: \"hätte\" + double infinitive \"machen sollen\".",
@@ -1145,7 +1144,7 @@ export const DE_B2_U16: Lesson[] = [
         question: "Which sentence says Anna is confident about something that will be finished by summer?",
         options: ["Bis zum Sommer werde ich das Projekt eingeführt haben.", "Bis zum Sommer will ich das Projekt eingeführt haben.", "Bis zum Sommer soll ich das Projekt eingeführt haben.", "Bis zum Sommer würde ich das Projekt eingeführt haben."],
         correctIndex: 0,
-        explanation: "Futur II with \"werden\". \"Will ... eingeführt haben\" would mean she claims to have done it.",
+        explanation: "Futur II with \"werden\" is a confident statement about the future. \"Will ... eingeführt haben\" with a future deadline states a goal (she wants to), \"soll\" means it is expected of her, and \"würde\" is only hypothetical.",
       },
       {
         type: "word-order",
@@ -1169,7 +1168,7 @@ export const DE_B2_U16: Lesson[] = [
         source: "It would have been better if I'd got in touch earlier.",
         answer: "Es wäre besser gewesen, wenn ich mich früher gemeldet hätte.",
         altAnswers: ["Es wäre besser gewesen, wenn ich mich eher gemeldet hätte."],
-        explanation: "\"Es wäre besser gewesen, wenn ...\" + Konjunktiv II past; \"sich melden\" takes haben.",
+        explanation: "\"Es wäre besser gewesen, wenn ...\" + Konjunktiv II past; \"sich melden\" takes \"haben\".",
       },
       {
         type: "speak",
@@ -1184,8 +1183,8 @@ export const DE_B2_U16: Lesson[] = [
     slug: "b2-contrast-soll-will-sei",
     level: "DE-B2",
     number: 7,
-    title: "Contrast Clinic: Er Soll / Er Will / Er Sagt, Er Sei",
-    summary: "Three ways to report a claim: hearsay with soll, the subject's own claim with will, and neutral Konjunktiv I; which shows doubt, and how much.",
+    title: "Contrast Clinic: Er soll / Er will / Er sagt, er sei",
+    summary: "Report a claim three ways: hearsay with \"soll\", the subject's own claim with \"will\", and neutral Konjunktiv I, and judge which shows doubt and how much.",
     duration: "14 min",
     sections: [
       {
@@ -1278,8 +1277,8 @@ export const DE_B2_U16: Lesson[] = [
             prompt: "Translate into German.",
             source: "The witness says the driver was going too fast.",
             answer: "Der Zeuge sagt, der Fahrer sei zu schnell gefahren.",
-            altAnswers: ["Die Zeugin sagt, der Fahrer sei zu schnell gefahren.", "Der Zeuge sagt, dass der Fahrer zu schnell gefahren sei.", "Die Zeugin sagt, dass der Fahrer zu schnell gefahren sei.", "Der Fahrer soll zu schnell gefahren sein."],
-            explanation: "The claim is about a third person, so Konjunktiv I (or soll), not \"will\". \"Fahren\" takes sein: \"sei gefahren\".",
+            altAnswers: ["Die Zeugin sagt, der Fahrer sei zu schnell gefahren.", "Der Zeuge sagt, dass der Fahrer zu schnell gefahren sei.", "Die Zeugin sagt, dass der Fahrer zu schnell gefahren sei."],
+            explanation: "The witness reports a claim about a third person, so Konjunktiv I, not \"will\". \"Fahren\" takes \"sein\": \"sei gefahren\".",
           },
           {
             type: "listen-choose",
@@ -1385,7 +1384,7 @@ export const DE_B2_U16: Lesson[] = [
     level: "DE-B2",
     number: 8,
     title: "Transformations: From Fact to Supposition",
-    summary: "Turn certain statements into guesses of different strength, in the present and the past: ist → dürfte sein → wird wohl sein → könnte sein.",
+    summary: "Turn certain statements into guesses of different strength, in the present and the past: \"ist\" → \"dürfte ... sein\" → \"wird wohl ... sein\" → \"könnte ... sein\".",
     duration: "14 min",
     sections: [
       {
@@ -1436,7 +1435,7 @@ export const DE_B2_U16: Lesson[] = [
           { es: "Sie wird den Bus wohl verpasst haben.", en: "She'll have missed the bus, I suppose." },
           { es: "Er war krank.", en: "He was ill." },
           { es: "Er dürfte krank gewesen sein.", en: "He was probably ill." },
-          { es: "Sie können nicht schon losgefahren sein.", en: "They can't have left already." },
+          { es: "Sie können noch nicht losgefahren sein.", en: "They can't have left yet." },
         ],
         checkpoint: [
           {
@@ -1450,11 +1449,10 @@ export const DE_B2_U16: Lesson[] = [
           },
           {
             type: "word-order",
-            prompt: "Put the words in order to say: They can't have left already.",
-            words: ["Sie", "können", "nicht", "schon", "losgefahren", "sein."],
-            translation: "They can't have left already.",
-            altOrders: [["Sie", "können", "schon", "nicht", "losgefahren", "sein."]],
-            explanation: "\"Sind losgefahren\" → \"können nicht ... losgefahren sein\".",
+            prompt: "Put the words in order to say: They can't have left yet.",
+            words: ["Sie", "können", "noch", "nicht", "losgefahren", "sein."],
+            translation: "They can't have left yet.",
+            explanation: "\"Sind losgefahren\" → \"können noch nicht ... losgefahren sein\": the modal in position 2, the perfect infinitive with \"sein\" at the end; 'not yet' is \"noch nicht\".",
           },
         ],
       },
@@ -1519,7 +1517,7 @@ export const DE_B2_U16: Lesson[] = [
         source: "They can't have arrived yet.",
         answer: "Sie können noch nicht angekommen sein.",
         altAnswers: ["Sie können nicht schon angekommen sein."],
-        explanation: "\"Ankommen\" takes sein: \"angekommen sein\". Not yet is \"noch nicht\".",
+        explanation: "\"Ankommen\" takes \"sein\": \"angekommen sein\". Not yet is \"noch nicht\".",
       },
       {
         type: "fill-blank",
@@ -1550,7 +1548,7 @@ export const DE_B2_U16: Lesson[] = [
         source: "The parcel could have got lost.",
         answer: "Das Paket könnte verloren gegangen sein.",
         altAnswers: ["Das Paket kann verloren gegangen sein.", "Das Paket ist vielleicht verloren gegangen."],
-        explanation: "\"Verloren gehen\" takes sein: \"verloren gegangen sein\".",
+        explanation: "\"Verloren gehen\" takes \"sein\": \"verloren gegangen sein\".",
       },
       {
         type: "listen-choose",
@@ -1581,16 +1579,16 @@ export const DE_B2_U16: Lesson[] = [
     slug: "b2-spiral-talk-was-du-als-kind-durftest",
     level: "DE-B2",
     number: 9,
-    title: "Spiral Review: Talk About Yourself: Was Du als Kind Durftest",
-    summary: "Talk about your childhood with objective modals in the Präteritum (ich durfte, ich musste) and regrets with the double infinitive.",
+    title: "Spiral Review: Talk About Yourself: Was du als Kind durftest",
+    summary: "Talk about your childhood with objective modals in the Präteritum (\"ich durfte\", \"ich musste\") and regrets with the double infinitive.",
     duration: "13 min",
     sections: [
       {
         heading: "Rules and freedoms: durfte, musste, konnte",
         body: [
           "Here the modals have their basic, objective meaning: permission, obligation, ability. In the past, the Präteritum is the normal form even in speech: \"Ich durfte nie lange aufbleiben\" (I was never allowed to stay up late), \"Wir mussten jeden Sonntag in die Kirche\" (We had to go to church every Sunday).",
-          "Präteritum forms have no umlaut: \"durfte, musste, konnte, mochte\" (but \"wollte, sollte\"). The umlaut forms (\"dürfte, müsste, könnte\") are Konjunktiv II, which you've just used for guesses. \"Ich durfte\" = I was allowed; \"es dürfte\" = it's probably.",
-          "With a verb of motion, the infinitive is often dropped: \"Ich musste um acht ins Bett\" (… gehen is understood).",
+          "Präteritum forms have no umlaut: \"durfte, musste, konnte, mochte\" (\"wollen\" and \"sollen\" never have one: \"wollte, sollte\"). The umlaut forms (\"dürfte, müsste, könnte\") are Konjunktiv II, which you've just used for guesses. \"Ich durfte\" = I was allowed; \"es dürfte\" = it's probably.",
+          "With a verb of motion, the infinitive is often dropped: \"Ich musste um acht ins Bett\" (\"gehen\" is understood).",
         ],
         examples: [
           { es: "Als Kind durfte ich nie lange aufbleiben.", en: "As a child I was never allowed to stay up late." },
@@ -1770,7 +1768,7 @@ export const DE_B2_U16: Lesson[] = [
     level: "DE-B2",
     number: 10,
     title: "Fix the Paragraph: Gerüchte im Büro",
-    summary: "Correct a gossipy message from a colleague: wrong perfect infinitives, musste for muss, soll and will mixed up, and a missing wohl.",
+    summary: "Correct a gossipy message from a colleague: wrong perfect infinitives, \"musste\" for \"muss\", \"soll\" and \"will\" mixed up, and a missing \"wohl\".",
     duration: "14 min",
     sections: [
       {
@@ -1797,7 +1795,7 @@ export const DE_B2_U16: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Jonas wrote: \"Sie will vom Chef angeschrien worden sein, das sagen alle.\" What's wrong?",
+            question: "Jonas wrote: \"*Sie will vom Chef angeschrien worden sein, das sagen alle.\" What's wrong?",
             options: ["\"Alle\" say it, so it's hearsay: \"soll\", not \"will\".", "\"Angeschrien\" should be \"angeschreit\".", "\"Worden\" should be \"geworden\".", "Nothing is wrong."],
             correctIndex: 0,
             explanation: "Everyone says it, not Frau Krause herself, so it's \"soll\". The passive perfect infinitive \"angeschrien worden sein\" is correct.",
@@ -1826,7 +1824,7 @@ export const DE_B2_U16: Lesson[] = [
             sentence: "Sie muss schon ___.",
             answer: "gegangen sein",
             altAnswers: ["weggegangen sein"],
-            explanation: "\"Gehen\" takes sein: \"gegangen sein\", not \"*gegangen haben\".",
+            explanation: "\"Gehen\" takes \"sein\": \"gegangen sein\", not \"*gegangen haben\".",
           },
           {
             type: "translate",
@@ -1890,7 +1888,7 @@ export const DE_B2_U16: Lesson[] = [
         prompt: "Translate into German.",
         source: "He can't have come that early.",
         answer: "Er kann nicht so früh gekommen sein.",
-        explanation: "\"Kommen\" takes sein: \"gekommen sein\".",
+        explanation: "\"Kommen\" takes \"sein\": \"gekommen sein\". Impossibility is \"kann nicht\", not \"muss nicht\".",
       },
       {
         type: "fill-blank",
@@ -1905,7 +1903,7 @@ export const DE_B2_U16: Lesson[] = [
         question: "Which sentence is correct?",
         options: ["Sie muss den Termin vergessen haben.", "Sie musste den Termin vergessen haben.", "Sie muss den Termin vergessen sein.", "Sie muss den Termin vergessen gehabt."],
         correctIndex: 0,
-        explanation: "Present \"muss\" + \"vergessen haben\" (vergessen takes haben).",
+        explanation: "Present \"muss\" + \"vergessen haben\" (\"vergessen\" takes \"haben\"). \"Musste\" is wrong for a present guess.",
       },
       {
         type: "translate",
@@ -1945,7 +1943,7 @@ export const DE_B2_U16: Lesson[] = [
         source: "She must have gone home already.",
         answer: "Sie muss schon nach Hause gegangen sein.",
         altAnswers: ["Sie muss bereits nach Hause gegangen sein."],
-        explanation: "\"Nach Hause gehen\" takes sein: \"gegangen sein\".",
+        explanation: "\"Nach Hause gehen\" takes \"sein\": \"gegangen sein\".",
       },
       {
         type: "speak",
@@ -1960,14 +1958,14 @@ export const DE_B2_U16: Lesson[] = [
     level: "DE-B2",
     number: 11,
     title: "Spiral Review: Conditions, Wishes and Advice",
-    summary: "Spaced review of Units 1, 2 and 13: unreal wenn-clauses, wishes with doch nur, als ob and advice with an deiner Stelle.",
+    summary: "Review Units 1, 2 and 13: unreal \"wenn\"-clauses, wishes with \"doch nur\", \"als ob\" and advice with \"an deiner Stelle\".",
     duration: "14 min",
     sections: [
       {
         heading: "Unreal conditions, present and past",
         body: [
           "Present unreal: \"Wenn ich mehr Zeit hätte, würde ich Italienisch lernen.\" Past unreal: \"Wenn ich mehr Zeit gehabt hätte, hätte ich Italienisch gelernt.\" Mixed: \"Wenn ich damals Italienisch gelernt hätte, könnte ich jetzt mit meiner Schwiegermutter reden.\"",
-          "The wenn-clause can be replaced by a verb-first clause: \"Hätte ich mehr Zeit gehabt, hätte ich ...\". Never put \"würde\" in a past wenn-clause.",
+          "The wenn-clause can be replaced by a verb-first clause: \"Hätte ich mehr Zeit gehabt, hätte ich ...\". Don't use \"würde\" in a past \"wenn\"-clause (\"*wenn ich das gewusst haben würde\").",
         ],
         examples: [
           { es: "Wenn ich mehr Zeit hätte, würde ich Italienisch lernen.", en: "If I had more time, I'd learn Italian." },
@@ -2033,7 +2031,7 @@ export const DE_B2_U16: Lesson[] = [
         heading: "Als ob: unreal comparison",
         body: [
           "\"Er tut so, als ob er nichts wüsste\" (He acts as if he knew nothing). Or with the verb straight after \"als\": \"Er tut so, als wüsste er nichts.\" Past: \"Sie sah mich an, als ob sie mich nie gesehen hätte.\"",
-          "English uses the indicative in as if he is; German needs Konjunktiv II (or Konjunktiv I in written narration).",
+          "English often uses the indicative (as if he is); standard German uses Konjunktiv II (or Konjunktiv I in written narration). The indicative after \"als ob\" is heard in casual speech, but avoid it in writing.",
         ],
         examples: [
           { es: "Er tut so, als ob er nichts wüsste.", en: "He acts as if he knew nothing." },
@@ -2050,7 +2048,7 @@ export const DE_B2_U16: Lesson[] = [
             source: "He acted as if nothing had happened.",
             answer: "Er tat, als wäre nichts passiert.",
             altAnswers: ["Er tat so, als wäre nichts passiert.", "Er tat, als ob nichts passiert wäre.", "Er tat so, als ob nichts passiert wäre.", "Er hat so getan, als ob nichts passiert wäre.", "Er hat so getan, als wäre nichts passiert.", "Er tat, als wäre nichts geschehen.", "Er tat so, als ob nichts geschehen wäre."],
-            explanation: "\"Als\" + verb directly, or \"als ob\" + verb at the end; \"passieren\" takes sein: \"wäre passiert\".",
+            explanation: "\"Als\" + verb directly, or \"als ob\" + verb at the end; \"passieren\" takes \"sein\": \"wäre passiert\".",
           },
           {
             type: "listen-choose",

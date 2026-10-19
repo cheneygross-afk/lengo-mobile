@@ -15,7 +15,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
       {
         heading: "Recap: owner first, then the ending",
         body: [
-          "Pick the word by the owner: \"mein\" (my), \"dein\" (your, du), \"sein\" (his, its), \"ihr\" (her, their). Then add the ein ending for the noun owned: none for der and das words, -e for die words and plurals.",
+          "Pick the word by the owner: \"mein\" (my), \"dein\" (your, du), \"sein\" (his, its), \"ihr\" (her, their). Then add the \"ein\" ending for the noun owned: none for \"der\" and \"das\" words, -e for \"die\" words and plurals.",
         ],
         examples: [
           { es: "Wo ist mein Handy?", en: "Where's my phone?" },
@@ -183,7 +183,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
         examples: [
           { es: "Wir lieben unseren Garten.", en: "We love our garden." },
           { es: "Wo ist euer Hund?", en: "Where's your dog? (to friends)" },
-          { es: "Bitte zeigen Sie Ihren Ausweis.", en: "Please show your ID." },
+          { es: "Können Sie bitte Ihren Ausweis zeigen?", en: "Can you show your ID, please?" },
           { es: "Kennst du meinen Nachbarn?", en: "Do you know my neighbour?" },
           { es: "Sie besucht ihre Eltern.", en: "She's visiting her parents." },
         ],
@@ -199,9 +199,9 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
           {
             type: "multiple-choice",
             question: "A police officer wants to see your ID. What does she say?",
-            options: ["Zeigen Sie bitte Ihren Ausweis.", "Zeigen Sie bitte Ihr Ausweis.", "Zeigen Sie bitte deinen Ausweis.", "Zeigen Sie bitte euren Ausweis."],
+            options: ["Können Sie bitte Ihren Ausweis zeigen?", "Können Sie bitte Ihr Ausweis zeigen?", "Können Sie bitte deinen Ausweis zeigen?", "Können Sie bitte euren Ausweis zeigen?"],
             correctIndex: 0,
-            explanation: "Polite \"Ihr\"; \"der Ausweis\" as an object → \"Ihren\".",
+            explanation: "Polite \"Ihr\"; \"der Ausweis\" as an object → \"Ihren\". \"Deinen\" and \"euren\" are for people you say du or ihr to.",
           },
         ],
       },
@@ -269,8 +269,8 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Please show [your] passport, Mrs Schneider.",
-        sentence: "Bitte zeigen Sie ___ Pass, Frau Schneider.",
+        en: "Can you show [your] passport, please, Mrs Schneider?",
+        sentence: "Können Sie bitte ___ Pass zeigen, Frau Schneider?",
         answer: "Ihren",
         explanation: "Polite owner, masculine object → \"Ihren\".",
       },
@@ -325,7 +325,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
         type: "speak",
         text: "Haben Sie Ihren Ausweis dabei?",
         prompt: "Ask a customer politely: Do you have your ID with you?",
-        tip: "Ausweis: AUS-veis, with the w as an English v.",
+        tip: "\"Ausweis\": AUS-vice, with the w said like an English v.",
         explanation: "Polite \"Ihren\" for the masculine object \"Ausweis\".",
       },
     ],
@@ -441,7 +441,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Lena says: 'Ich bin Einzelkind.' What does that mean?",
+        question: "Lena says: \"Ich bin Einzelkind.\" What does that mean?",
         options: ["She has no brothers or sisters.", "She has one child.", "She's a child.", "She's single."],
         correctIndex: 0,
         explanation: "\"Das Einzelkind\" = only child.",
@@ -495,7 +495,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
         heading: "Recap: four ways to say whose",
         body: [
           "With a name: add -s with no apostrophe (\"Annas Auto\") or use \"von\" (\"das Auto von Anna\"). Instead of the name: a possessive (\"ihr Auto\", \"sein Auto\"). The apostrophe is only used when the name already ends in an s sound: \"Hans' Auto\", though \"das Auto von Hans\" is easier.",
-          "Notice that with name + s there's no article: \"Annas Auto\", never *\"das Annas Auto\". With von, the article is back: \"das Auto von Anna\".",
+          "Notice that with name + s there's no article: \"Annas Auto\", never \"*das Annas Auto\". With von, the article is back: \"das Auto von Anna\".",
         ],
         examples: [
           { es: "Das ist Annas Auto.", en: "That's Anna's car." },
@@ -515,7 +515,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using von.",
+            prompt: "Translate into German, using \"von\".",
             source: "That's Lena's brother.",
             answer: "Das ist der Bruder von Lena.",
             altAnswers: ["Das ist Lenas Bruder."],
@@ -603,17 +603,17 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A café sign says 'Ingrid's Café'. What would a German teacher say?",
-        options: ["It should be Ingrids Café.", "It's perfect German.", "It should be Café's Ingrid.", "It should be die Ingrid's Café."],
+        question: "A café sign says \"Ingrid's Café\". How do you write the name in a normal German sentence?",
+        options: ["\"Ingrids Café\"", "\"Café's Ingrid\"", "\"die Ingrid's Café\"", "\"Ingrid Cafés\""],
         correctIndex: 0,
-        explanation: "The apostrophe is common on signs but not standard: \"Ingrids Café\".",
+        explanation: "Standard spelling: name + -s with no apostrophe and no article, \"Ingrids Café\". The apostrophe is tolerated on shop names and signs, but don't copy it into your own writing.",
       },
       {
         type: "multiple-choice",
         question: "Which phrase is NOT correct?",
         options: ["das Annas Auto", "Annas Auto", "das Auto von Anna", "ihr Auto"],
         correctIndex: 0,
-        explanation: "Name + s replaces the article: never *\"das Annas Auto\".",
+        explanation: "Name + s replaces the article: never \"*das Annas Auto\".",
       },
       {
         type: "word-order",
@@ -927,14 +927,14 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Someone says 'Ich habe 25 Jahre.' What's the correct German?",
+        question: "Someone says \"Ich habe 25 Jahre.\" What's the correct German?",
         options: ["Ich bin 25.", "Ich habe 25 Jahre alt.", "Ich bin 25 Jahren.", "Ich habe fünfundzwanzig."],
         correctIndex: 0,
         explanation: "Age uses \"sein\": \"Ich bin 25 (Jahre alt)\".",
       },
       {
         type: "multiple-choice",
-        question: "On the phone: 'null eins sechs zwo, drei vier'. Which number?",
+        question: "On the phone: \"null eins sechs zwo, drei vier\". Which number?",
         options: ["0162 34", "0163 24", "0126 34", "0162 43"],
         correctIndex: 0,
         explanation: "\"Zwo\" = 2. Digit by digit.",
@@ -979,7 +979,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "'Es ist sechzehn Uhr dreißig.' How do you say it the everyday way?",
+            question: "\"Es ist sechzehn Uhr dreißig.\" How do you say it the everyday way?",
             options: ["Es ist halb fünf.", "Es ist halb vier.", "Es ist halb sechzehn.", "Es ist vier Uhr halb."],
             correctIndex: 0,
             explanation: "16:30 = 4:30 pm = half way to five: \"halb fünf\".",
@@ -1000,7 +1000,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using halb.",
+        prompt: "Translate into German, using \"halb\".",
         source: "It's half past four.",
         answer: "Es ist halb fünf.",
         explanation: "4:30 = half way to five.",
@@ -1091,7 +1091,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend texts: 'Treffen um halb acht?' When?",
+        question: "A friend texts: \"Treffen um halb acht?\" When?",
         options: ["7:30", "8:30", "8:00", "7:00"],
         correctIndex: 0,
         explanation: "\"Halb acht\" = 7:30.",
@@ -1124,8 +1124,8 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
       {
         heading: "The timetables",
         body: [
-          "Train board at Köln Hauptbahnhof: ICE 512 nach Frankfurt, ab 8:14, Gleis 6; RE 1 nach Aachen, ab 8:30, Gleis 2; ICE 846 nach Berlin, ab 9:48, Gleis 4. \"Ab\" means departs, \"an\" arrives, \"Gleis\" platform.",
-          "Mia's school timetable (Monday): 7:55 Deutsch, 8:45 Mathe, 9:30 Pause, 9:50 Englisch, 10:35 Sport (until 12:05).",
+          "Train board at Köln Hauptbahnhof: \"ICE 512 nach Frankfurt, ab 8:14, Gleis 6\"; \"RE 1 nach Aachen, ab 8:30, Gleis 2\"; \"ICE 846 nach Berlin, ab 9:48, Gleis 4\". \"Ab\" means departs, \"an\" arrives, \"Gleis\" platform.",
+          "Mia's school timetable (Monday): 7:55 \"Deutsch\", 8:45 \"Mathe\", 9:30 \"Pause\" (break), 9:50 \"Englisch\", 10:35 \"Sport\" (until 12:05).",
           "Questions use \"Wann...?\" or \"Um wie viel Uhr...?\" and answers use \"um\" + the time, either officially (\"um acht Uhr vierzehn\") or in everyday style (\"um Viertel nach acht\", roughly).",
         ],
         examples: [
@@ -1238,7 +1238,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Mia asks 'Wie spät ist es?' at 9:30. Which answer fits?",
+        question: "Mia asks \"Wie spät ist es?\" at 9:30. Which answer fits?",
         options: ["Halb zehn. Pause!", "Halb neun. Mathe!", "Neun Uhr. Englisch!", "Zehn Uhr dreißig. Sport!"],
         correctIndex: 0,
         explanation: "9:30 = \"halb zehn\", and the break starts then.",
@@ -1268,7 +1268,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
         type: "speak",
         text: "Entschuldigung, um wie viel Uhr fährt der nächste Zug nach Aachen?",
         prompt: "Ask at the information desk: Excuse me, what time does the next train to Aachen leave?",
-        tip: "Aachen starts with a long a and has the ach-sound in the middle.",
+        tip: "\"Aachen\" starts with a long a and has the ach-sound in the middle.",
         explanation: "\"Um wie viel Uhr\" + verb second; \"der nächste Zug\" = the next train.",
       },
     ],
@@ -1391,7 +1391,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The sign says 'Kartoffeln 2,50 € / kg'. What does the seller say?",
+        question: "The sign says \"Kartoffeln 2,50 € / kg\". What does the seller say?",
         options: ["Zwei Euro fünfzig das Kilo.", "Zweihundertfünfzig das Kilo.", "Zwei Komma fünf Euro Kilo.", "Fünfzig Euro zwei Kilo."],
         correctIndex: 0,
         explanation: "\"Zwei Euro fünfzig das Kilo\": per kilo is \"das Kilo\".",
@@ -1428,7 +1428,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
         type: "speak",
         text: "Ich hätte gern ein Kilo Tomaten und 200 Gramm Käse.",
         prompt: "Order at the market: a kilo of tomatoes and 200 grams of cheese.",
-        tip: "Hätte has a short ä, like the e in bed.",
+        tip: "\"Hätte\" has a short ä, like the e in bed.",
         explanation: "Quantities straight before the food, with no of.",
       },
     ],
@@ -1518,7 +1518,7 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
         source: "There's no milk.",
         answer: "Es gibt keine Milch.",
         altAnswers: ["Es gibt keine Milch mehr.", "Wir haben keine Milch."],
-        explanation: "No milk → \"keine Milch\" (die Milch).",
+        explanation: "No milk → \"keine Milch\" (\"die Milch\" is feminine).",
       },
       {
         type: "translate",
@@ -1555,8 +1555,8 @@ export const DE_A1_U06_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "'Ich esse ein Apfel' — what's wrong?",
-        options: ["It should be einen Apfel.", "It should be Apfel without ein.", "It should be kein Apfel.", "Nothing."],
+        question: "A learner wrote \"*Ich esse ein Apfel.\" What's wrong?",
+        options: ["It should be \"einen Apfel\".", "It should be \"Apfel\" without \"ein\".", "It should be \"kein Apfel\".", "Nothing."],
         correctIndex: 0,
         explanation: "One apple → \"ein\", but \"der Apfel\" is a masculine object → \"einen Apfel\".",
       },

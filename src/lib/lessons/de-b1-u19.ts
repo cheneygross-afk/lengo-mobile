@@ -15,7 +15,7 @@ export const DE_B1_U19: Lesson[] = [
         heading: "One principle: someone has to show the case",
         body: [
           "German adjective endings look chaotic, but they follow one idea: in front of a noun, something has to show the gender and case. If the article already shows it clearly, the adjective relaxes and takes a weak ending (-e or -en). If the article doesn't show it, or there is no article, the adjective does the job itself and takes the strong ending, which looks like the ending of \"der / die / das\".",
-          "Only adjectives in front of a noun take endings. After \"sein\", \"werden\" and \"bleiben\" the adjective has no ending at all: \"Der Kaffee ist kalt\", but \"der kalte Kaffee\". English speakers often forget the ending in front of the noun (*ein gut Freund*) or add one after \"sein\" (*Er ist guter*).",
+          "Only adjectives in front of a noun take endings. After \"sein\", \"werden\" and \"bleiben\" the adjective has no ending at all: \"Der Kaffee ist kalt\", but \"der kalte Kaffee\". English speakers often forget the ending in front of the noun (\"*ein gut Freund*\") or add one after \"sein\" (\"*Er ist guter*\").",
           "There are three patterns, depending on what comes before the adjective: a der-word (\"der, dieser, jeder, welcher, alle\"), an ein-word (\"ein, kein, mein, dein, sein, unser...\"), or nothing at all. This lesson covers all three; then the drills make them automatic.",
         ],
         examples: [
@@ -255,7 +255,7 @@ export const DE_B1_U19: Lesson[] = [
     level: "DE-B1",
     number: 2,
     title: "Pattern Practice: Mit dem neuen Auto",
-    summary: "Dative adjective endings after all three article types: mit dem neuen Auto, mit einer alten Freundin, mit kleinen Kindern, in einem großen Haus, bei schönem Wetter.",
+    summary: "Use dative adjective endings after all three article types: \"mit dem neuen Auto\", \"mit einer alten Freundin\", \"in einem großen Haus\", \"mit kleinen Kindern\", \"bei schönem Wetter\".",
     duration: "12 min",
     sections: [
       {
@@ -354,7 +354,7 @@ export const DE_B1_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "In bad weather we stay at home.",
         answer: "Bei schlechtem Wetter bleiben wir zu Hause.",
-        altAnswers: ["Wir bleiben bei schlechtem Wetter zu Hause.", "Bei schlechtem Wetter bleiben wir daheim."],
+        altAnswers: ["Wir bleiben bei schlechtem Wetter zu Hause.", "Bei schlechtem Wetter bleiben wir daheim.", "Bei schlechtem Wetter bleiben wir zuhause."],
         explanation: "No article, dative neuter: \"schlechtem\".",
       },
       {
@@ -434,13 +434,13 @@ export const DE_B1_U19: Lesson[] = [
     level: "DE-B1",
     number: 3,
     title: "Talk About You: Your Flat",
-    summary: "Describe your home with accusative and dative endings: Ich wohne in einer kleinen Wohnung mit einem großen Balkon; Im Wohnzimmer steht ein altes Sofa.",
+    summary: "Describe your home with accusative and dative endings: \"Ich wohne in einer kleinen Wohnung mit einem großen Balkon\", \"Im Wohnzimmer steht ein altes Sofa\".",
     duration: "13 min",
     sections: [
       {
         heading: "Where you live",
         body: [
-          "To describe your home you need the dative (\"in einer kleinen Wohnung\", \"in einem alten Haus\", \"mit einem großen Balkon\") and the accusative after \"haben\" and \"es gibt\": \"Es gibt einen kleinen Garten\", \"Die Wohnung hat ein helles Bad\". A common slip is the nominative after \"es gibt\" (*Es gibt ein kleiner Garten*).",
+          "To describe your home you need the dative (\"in einer kleinen Wohnung\", \"in einem alten Haus\", \"mit einem großen Balkon\") and the accusative after \"haben\" and \"es gibt\": \"Es gibt einen kleinen Garten\", \"Die Wohnung hat ein helles Bad\". A common slip is the nominative after \"es gibt\" (\"*Es gibt ein kleiner Garten*\").",
           "Useful adjectives: \"hell\" (bright), \"dunkel\" (dark), \"gemütlich\" (cosy), \"geräumig\" (spacious), \"renoviert\", \"möbliert\" (furnished), \"ruhig\", \"laut\", \"zentral\", \"modern\", \"altmodisch\". Rooms: \"das Wohnzimmer\", \"das Schlafzimmer\", \"die Küche\", \"das Bad\", \"der Flur\" (hall), \"der Keller\", \"der Dachboden\" (attic).",
         ],
         examples: [
@@ -605,7 +605,7 @@ export const DE_B1_U19: Lesson[] = [
     level: "DE-B1",
     number: 4,
     title: "Minimal Pairs: Ein alter Mann / Der alte Mann",
-    summary: "Hear and produce the switch: ein neues Handy / das neue Handy, ein guter Freund / der gute Freund, frisches Brot / das frische Brot.",
+    summary: "Hear and produce the switch between article types: \"ein neues Handy\" / \"das neue Handy\", \"ein guter Freund\" / \"der gute Freund\", \"frisches Brot\" / \"das frische Brot\".",
     duration: "12 min",
     sections: [
       {
@@ -689,7 +689,8 @@ export const DE_B1_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "I need a new laptop.",
         answer: "Ich brauche einen neuen Laptop.",
-        explanation: "\"Der Laptop\" is masculine; accusative after \"einen\": -en.",
+        altAnswers: ["Ich brauche ein neues Laptop."],
+        explanation: "\"Der Laptop\" is usually masculine (\"das Laptop\" is also correct); accusative after \"einen\": -en.",
       },
       {
         type: "translate",
@@ -697,6 +698,7 @@ export const DE_B1_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "The new laptop is fast.",
         answer: "Der neue Laptop ist schnell.",
+        altAnswers: ["Das neue Laptop ist schnell."],
         explanation: "Nominative after \"der\": -e.",
       },
       {
@@ -705,6 +707,7 @@ export const DE_B1_U19: Lesson[] = [
         prompt: "Translate into German.",
         source: "A new laptop is expensive.",
         answer: "Ein neuer Laptop ist teuer.",
+        altAnswers: ["Ein neues Laptop ist teuer."],
         explanation: "Nominative after \"ein\": -er.",
       },
       {
@@ -782,7 +785,7 @@ export const DE_B1_U19: Lesson[] = [
     level: "DE-B1",
     number: 5,
     title: "Transformation Chain: Der, Ein, No Article",
-    summary: "Move a noun phrase through the three article types and four cases: der rote Pullover, ein roter Pullover, roter Wein; den roten, einen roten, roten.",
+    summary: "Move a noun phrase through the three article types and the cases and get every ending right: \"der rote Wein\", \"ein roter Wein\", \"roter Wein\"; \"den roten\", \"einen roten\", \"roten\".",
     duration: "13 min",
     sections: [
       {
@@ -955,7 +958,7 @@ export const DE_B1_U19: Lesson[] = [
     level: "DE-B1",
     number: 6,
     title: "Adjective Endings, Part 2 of 2: Genitive and Tricky Cases",
-    summary: "Genitive endings (wegen des schlechten Wetters, trotz starken Regens), strong endings after viele, einige, mehrere and numbers, weak after alle and beide, spelling changes (dunkle, teure, hohe) and invariable adjectives (lila, Berliner).",
+    summary: "Get the tricky cases right: genitive endings (\"wegen des schlechten Wetters\", \"trotz starken Regens\"), strong endings after \"viele\", \"einige\" and numbers, weak after \"alle\" and \"beide\", spelling changes (\"dunkle\", \"teure\", \"hohe\") and invariable adjectives (\"lila\", \"Berliner\").",
     duration: "15 min",
     sections: [
       {
@@ -979,7 +982,7 @@ export const DE_B1_U19: Lesson[] = [
             prompt: "Translate into German.",
             source: "Because of the bad weather we stayed at home.",
             answer: "Wegen des schlechten Wetters sind wir zu Hause geblieben.",
-            altAnswers: ["Wegen des schlechten Wetters blieben wir zu Hause.", "Wir sind wegen des schlechten Wetters zu Hause geblieben.", "Wegen des schlechten Wetters sind wir daheim geblieben."],
+            altAnswers: ["Wegen des schlechten Wetters blieben wir zu Hause.", "Wir sind wegen des schlechten Wetters zu Hause geblieben.", "Wegen des schlechten Wetters sind wir daheim geblieben.", "Wegen des schlechten Wetters sind wir zuhause geblieben."],
             explanation: "Genitive after \"wegen\": \"des schlechten Wetters\" (-en, noun -s).",
           },
           {
@@ -996,7 +999,7 @@ export const DE_B1_U19: Lesson[] = [
         body: [
           "Quantity words split into two groups. \"Viele\", \"einige\", \"mehrere\", \"wenige\", \"ein paar\" and numbers are not articles, so the adjective takes strong (no-article) endings: \"viele junge Leute\", \"einige gute Ideen\", \"mit mehreren alten Freunden\", \"zwei kleine Kinder\".",
           "\"Alle\" and \"beide\" behave like \"die\", so the adjective is weak: \"alle jungen Leute\", \"beide neuen Kollegen\". Also weak after \"keine\" and possessives in the plural: \"keine guten Ideen\", \"meine alten Freunde\".",
-          "Watch the classic error: *viele jungen Leute* (should be \"junge\") and *alle junge Leute* (should be \"jungen\").",
+          "Watch the classic error: \"*viele jungen Leute*\" (should be \"junge\") and \"*alle junge Leute*\" (should be \"jungen\").",
         ],
         examples: [
           { es: "Viele junge Leute ziehen nach Berlin.", en: "Lots of young people move to Berlin." },
@@ -1055,7 +1058,7 @@ export const DE_B1_U19: Lesson[] = [
             prompt: "Translate into German.",
             source: "That's an expensive car.",
             answer: "Das ist ein teures Auto.",
-            explanation: "\"Teuer\" drops its e before an ending: \"teures\", not *teueres*.",
+            explanation: "\"Teuer\" drops its e before an ending: \"teures\", not \"*teueres*\".",
           },
           {
             type: "translate",
@@ -1180,7 +1183,7 @@ export const DE_B1_U19: Lesson[] = [
     level: "DE-B1",
     number: 7,
     title: "Real-World Mission: Kleinanzeigen",
-    summary: "Write and answer classified ads: Verkaufe gut erhaltenes Fahrrad; Suche günstige Zweizimmerwohnung mit großem Balkon.",
+    summary: "Write and answer classified ads with strong adjective endings: \"Verkaufe gut erhaltenes Fahrrad\", \"Suche günstige Zweizimmerwohnung mit großem Balkon\".",
     duration: "13 min",
     sections: [
       {
@@ -1352,7 +1355,7 @@ export const DE_B1_U19: Lesson[] = [
     level: "DE-B1",
     number: 8,
     title: "Themed Review: The Competition",
-    summary: "A cooking competition in Hamburg described with long noun phrases and the passive.",
+    summary: "Follow a TV cooking competition in Hamburg and describe dishes and steps with adjective endings and the passive.",
     duration: "14 min",
     sections: [
       {
@@ -1365,7 +1368,7 @@ export const DE_B1_U19: Lesson[] = [
           { es: "Mehmet kocht frischen Fisch mit gebratenen Kartoffeln.", en: "Mehmet is cooking fresh fish with fried potatoes." },
           { es: "Als Vorspeise gibt es eine kalte Gurkensuppe mit frischem Dill.", en: "For the starter there's a cold cucumber soup with fresh dill." },
           { es: "Der Lachs wird zuerst in heißem Öl gebraten.", en: "First the salmon is fried in hot oil." },
-          { es: "Dann wird die Soße mit süßer Sahne verfeinert.", en: "Then the sauce is refined with sweet cream." },
+          { es: "Dann wird die Soße mit süßer Sahne verfeinert.", en: "Then the sauce is enriched with sweet cream." },
           { es: "Zum Nachtisch serviert Lena einen warmen Apfelkuchen mit selbst gemachtem Eis.", en: "For dessert Lena serves a warm apple cake with home-made ice cream." },
         ],
         checkpoint: [
@@ -1451,9 +1454,9 @@ export const DE_B1_U19: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The young cook won an expensive prize.",
-        answer: "Die junge Köchin hat einen teuren Preis gewonnen.",
-        altAnswers: ["Der junge Koch hat einen teuren Preis gewonnen.", "Die junge Köchin gewann einen teuren Preis.", "Der junge Koch gewann einen teuren Preis."],
+        source: "The young cook won an expensive cookery course.",
+        answer: "Die junge Köchin hat einen teuren Kochkurs gewonnen.",
+        altAnswers: ["Der junge Koch hat einen teuren Kochkurs gewonnen.", "Die junge Köchin gewann einen teuren Kochkurs.", "Der junge Koch gewann einen teuren Kochkurs."],
         explanation: "\"Teuer\" → \"teuren\" (e drops); masculine accusative after \"einen\".",
       },
       {
@@ -1476,7 +1479,7 @@ export const DE_B1_U19: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Then the sauce is refined [with sweet] cream.",
+        en: "Then the sauce is enriched [with sweet] cream.",
         sentence: "Dann wird die Soße ___ Sahne verfeinert.",
         answer: "mit süßer",
         explanation: "No article, feminine dative: -er.",
@@ -1686,14 +1689,14 @@ export const DE_B1_U19: Lesson[] = [
     level: "DE-B1",
     number: 10,
     title: "Error Hunt: Adjective Endings",
-    summary: "Fix *ein alte Mann, *mit einem neuen Freundin, *viele junge Leuten, *die teuere Wohnung, *bei schönes Wetter, *das hoche Haus.",
+    summary: "Find and fix six classic ending mistakes: \"*ein alte Mann*\", \"*mit einem neuen Freundin*\", \"*viele junge Leuten*\", \"*die teuere Wohnung*\", \"*bei schönes Wetter*\", \"*das hoche Haus*\".",
     duration: "13 min",
     sections: [
       {
         heading: "The six classic mistakes",
         body: [
-          "1. Missing -er/-es after \"ein\": *ein alte Mann* → \"ein alter Mann\". 2. Wrong article, not wrong adjective: *mit einem neuen Freundin* → \"mit einer neuen Freundin\" (feminine). 3. Dative -n on the wrong word: *viele junge Leuten* → \"viele junge Leute\" (nominative; \"Leuten\" only in the dative).",
-          "4. Keeping the e of -er/-el: *die teuere Wohnung* → \"die teure Wohnung\"; *eine dunkele Farbe* → \"eine dunkle Farbe\". 5. Nominative ending in the dative: *bei schönes Wetter* → \"bei schönem Wetter\". 6. \"Hoch\" before a noun: *das hoche Haus* → \"das hohe Haus\".",
+          "1. Missing -er/-es after \"ein\": \"*ein alte Mann*\" → \"ein alter Mann\". 2. Wrong article, not wrong adjective: \"*mit einem neuen Freundin*\" → \"mit einer neuen Freundin\" (feminine). 3. Dative -n on the wrong word: \"*viele junge Leuten*\" → \"viele junge Leute\" (nominative; \"Leuten\" only in the dative).",
+          "4. Keeping the e of -er/-el: \"*die teuere Wohnung*\" → \"die teure Wohnung\"; \"*eine dunkele Farbe*\" → \"eine dunkle Farbe\". 5. Nominative ending in the dative: \"*bei schönes Wetter*\" → \"bei schönem Wetter\". 6. \"Hoch\" before a noun: \"*das hoche Haus*\" → \"das hohe Haus\".",
           "When you check your writing, find each noun, decide its gender and case, look at the article, then choose the ending. It takes seconds once it's a habit.",
         ],
         examples: [
@@ -1708,7 +1711,7 @@ export const DE_B1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix: *Ein alte Mann sitzt auf der Bank.* Write: An old man is sitting on the bench.",
+            prompt: "Fix: \"*Ein alte Mann sitzt auf der Bank.*\" Write: An old man is sitting on the bench.",
             source: "An old man is sitting on the bench.",
             answer: "Ein alter Mann sitzt auf der Bank.",
             explanation: "Masculine nominative after \"ein\": -er.",
@@ -1716,7 +1719,7 @@ export const DE_B1_U19: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Fix: *Die teuere Wohnung ist leer.* Write: The expensive flat is empty.",
+            prompt: "Fix: \"*Die teuere Wohnung ist leer.*\" Write: The expensive flat is empty.",
             source: "The expensive flat is empty.",
             answer: "Die teure Wohnung ist leer.",
             explanation: "\"Teuer\" drops its e before an ending: \"teure\".",
@@ -1729,10 +1732,10 @@ export const DE_B1_U19: Lesson[] = [
           "Each sentence below has exactly one wrong ending. Some mistakes are in the article, some in the adjective, some on the noun. Look at the whole noun phrase before deciding.",
         ],
         examples: [
-          { es: "Ich habe einen neuen Job.", en: "I have a new job. (not *einen neue Job*)" },
-          { es: "Wir wohnen in einem alten Haus.", en: "We live in an old house. (not *in einem altes Haus*)" },
-          { es: "Alle neuen Schüler sind da.", en: "All the new pupils are here. (-en after alle, not -e)" },
-          { es: "Er trägt ein lila Hemd.", en: "He's wearing a purple shirt. (not *ein lilanes Hemd* in writing)" },
+          { es: "Ich habe einen neuen Job.", en: "I have a new job. (not \"*einen neue Job*\")" },
+          { es: "Wir wohnen in einem alten Haus.", en: "We live in an old house. (not \"*in einem altes Haus*\")" },
+          { es: "Alle neuen Schüler sind da.", en: "All the new pupils are here. (-en after \"alle\", not -e)" },
+          { es: "Er trägt ein lila Hemd.", en: "He's wearing a purple shirt. (not \"*ein lilanes Hemd*\" in writing)" },
         ],
         checkpoint: [
           {
@@ -1764,15 +1767,16 @@ export const DE_B1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Ich treffe mich mit einem alten Freundin.* Write: I'm meeting an old friend. (a woman)",
+        prompt: "Fix: \"*Ich treffe mich mit einem alten Freundin.*\" Write: I'm meeting an old friend. (a woman)",
         source: "I'm meeting an old friend. (a woman)",
         answer: "Ich treffe mich mit einer alten Freundin.",
-        explanation: "\"Freundin\" is feminine: dative \"einer\".",
+        altAnswers: ["Ich treffe eine alte Freundin."],
+        explanation: "\"Freundin\" is feminine: dative \"einer\" after \"mit\" (without \"mit\": accusative \"eine alte Freundin\").",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Viele junge Leuten fahren Fahrrad.* Write: Many young people ride bikes.",
+        prompt: "Fix: \"*Viele junge Leuten fahren Fahrrad.*\" Write: Many young people ride bikes.",
         source: "Many young people ride bikes.",
         answer: "Viele junge Leute fahren Fahrrad.",
         explanation: "Nominative plural: \"Leute\" without -n.",
@@ -1780,7 +1784,7 @@ export const DE_B1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Bei schönes Wetter gehen wir schwimmen.* Write: In nice weather we go swimming.",
+        prompt: "Fix: \"*Bei schönes Wetter gehen wir schwimmen.*\" Write: In nice weather we go swimming.",
         source: "In nice weather we go swimming.",
         answer: "Bei schönem Wetter gehen wir schwimmen.",
         altAnswers: ["Wir gehen bei schönem Wetter schwimmen."],
@@ -1789,7 +1793,7 @@ export const DE_B1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Das hoche Haus ist neu.* Write: The tall building is new.",
+        prompt: "Fix: \"*Das hoche Haus ist neu.*\" Write: The tall building is new.",
         source: "The tall building is new.",
         answer: "Das hohe Haus ist neu.",
         altAnswers: ["Das hohe Gebäude ist neu."],
@@ -1798,7 +1802,7 @@ export const DE_B1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Er hat einen neues Auto.* Write: He has a new car.",
+        prompt: "Fix: \"*Er hat einen neues Auto.*\" Write: He has a new car.",
         source: "He has a new car.",
         answer: "Er hat ein neues Auto.",
         explanation: "\"Das Auto\" is neuter: \"ein neues\".",
@@ -1806,7 +1810,7 @@ export const DE_B1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Ich mag die dunkele Farbe.* Write: I like the dark colour.",
+        prompt: "Fix: \"*Ich mag die dunkele Farbe.*\" Write: I like the dark colour.",
         source: "I like the dark colour.",
         answer: "Ich mag die dunkle Farbe.",
         explanation: "\"Dunkel\" → \"dunkle\".",
@@ -1814,7 +1818,7 @@ export const DE_B1_U19: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix: *Alle neue Kollegen kommen morgen.* Write: All the new colleagues are coming tomorrow.",
+        prompt: "Fix: \"*Alle neue Kollegen kommen morgen.*\" Write: All the new colleagues are coming tomorrow.",
         source: "All the new colleagues are coming tomorrow.",
         answer: "Alle neuen Kollegen kommen morgen.",
         explanation: "After \"alle\": weak -en.",

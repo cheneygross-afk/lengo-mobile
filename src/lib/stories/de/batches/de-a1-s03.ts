@@ -18,8 +18,8 @@ export const DE_A1_S03_STORIES: Story[] = [
     ],
     questions: [
       {
-        question: `What are the houses in Max's neighborhood like?`,
-        options: [`All different colors`, `All the same`, `Very old`, `Tall apartment blocks`],
+        question: `What are the houses in Max's neighbourhood like?`,
+        options: [`All different colours`, `All the same`, `Very old`, `Tall blocks of flats`],
         correctIndex: 1,
         explanation: `"Alle Häuser dort sind gleich: weiß, mit einer roten Tür und einem kleinen Garten."`,
       },
@@ -31,7 +31,7 @@ export const DE_A1_S03_STORIES: Story[] = [
       },
       {
         question: `Why doesn't Max's key fit?`,
-        options: [`It is the wrong key.`, `The lock is broken.`, `He is at house 41, not 14.`, `Theresa has changed the lock.`],
+        options: [`He has lost his own key.`, `The lock is broken.`, `He is at house 41, not 14.`, `Theresa has changed the lock.`],
         correctIndex: 2,
         explanation: `"Ich wohne in Nummer 14." and Theresa says "Das hier ist Nummer 41!"`,
       },
@@ -205,7 +205,7 @@ export const DE_A1_S03_ENGLISH: Record<string, string[]> = {
   "de-der-falsche-schluessel": [
     `Max lives in Graz, on a new housing estate. All the houses there are the same: white, with a red door and a small garden. Max has only lived here for two weeks.`,
     `It's Friday, and it's already late. Max is coming home from a party. It's dark. He looks for his key and puts it in the lock. But the key doesn't fit!`,
-    `Max tries again. Nothing. Then the light comes on and the door opens. A woman in pajamas is standing there. She has a broom in her hand. "Who are you? What are you doing at my door?"`,
+    `Max tries again. Nothing. Then the light comes on and the door opens. A woman in pyjamas is standing there. She has a broom in her hand. "Who are you? What are you doing at my door?"`,
     `Max goes red. "Sorry! I live here... no, I don't live here. I live at number 14." The woman laughs. "This is number 41!"`,
     `The woman's name is Theresa. She makes tea, and the two of them talk until two o'clock. On Saturday Max hangs a big sign on his door: "Number 14, not 41!" And Theresa hangs a sign on her door: "Max, there's always tea here. But please not after midnight!"`,
   ],
@@ -218,7 +218,7 @@ export const DE_A1_S03_ENGLISH: Record<string, string[]> = {
   ],
   "de-ein-geschenk-fuer-katrin": [
     `Paul and Katrin live in Stuttgart. On Friday it's Katrin's birthday. Paul asks: "What would you like for your birthday?" Katrin says: "Nothing. I don't need anything. Really!"`,
-    `Paul has a problem. He doesn't want to give Katrin "nothing". He goes into town. He sees books, scarves, perfume and jewelry. But Katrin already has lots of books and lots of scarves.`,
+    `Paul has a problem. He doesn't want to give Katrin "nothing". He goes into town. He sees books, scarves, perfume and jewellery. But Katrin already has lots of books and lots of scarves.`,
     `In the evening Paul has an idea. He takes a small box. The box is empty. He writes a card and puts it in the box.`,
     `On Friday he gives Katrin the box. "Here's your present: nothing." Katrin opens the box and reads the card: "Today you don't cook. You don't clean. You don't tidy up. Today you do nothing. I'll do everything."`,
     `Katrin laughs and kisses Paul. "That's the best present!" She lies on the sofa all day and reads. Paul cooks, cleans and tidies up. In the evening he is very tired. He thinks: next year I'm buying a book.`,
@@ -267,7 +267,7 @@ export const DE_A1_S03_GLOSSES: Record<string, StoryGloss[]> = {
   "de-ein-geschenk-fuer-katrin": [
     { es: "schenken", en: "to give (as a present)", forms: ["schenken"] },
     { es: "der Schal", en: "scarf", forms: ["schals"] },
-    { es: "der Schmuck", en: "jewelry", forms: ["schmuck"] },
+    { es: "der Schmuck", en: "jewellery", forms: ["schmuck"] },
     { es: "die Schachtel", en: "box", forms: ["schachtel"] },
     { es: "leer", en: "empty", forms: ["leer"] },
     { es: "legen", en: "to put, to lay", forms: ["legt"] },
@@ -285,7 +285,7 @@ export const DE_A1_S03_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "das Bad", en: "bathroom", forms: ["bad"] },
     { es: "sogar", en: "even", forms: ["sogar"] },
     { es: "klingeln", en: "to ring", forms: ["klingelt"] },
-    { es: "anfassen, fassen an", en: "to touch", forms: ["fasst"] },
+    { es: "an etwas fassen", en: "to touch", forms: ["fasst"] },
   ],
   "de-anna-lernt-skifahren": [
     { es: "der Berg", en: "mountain", forms: ["berge"] },
@@ -295,7 +295,7 @@ export const DE_A1_S03_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "der Helm", en: "helmet", forms: ["helm"] },
     { es: "unbequem", en: "uncomfortable", forms: ["unbequem"] },
     { es: "kaum", en: "hardly", forms: ["kaum"] },
-    { es: "hinfallen", en: "to fall over", forms: ["fällt", "hin"] },
+    { es: "hinfallen", en: "to fall over", forms: ["fällt"] },
     { es: "das Knie", en: "knee", forms: ["knie"] },
     { es: "beugen", en: "to bend", forms: ["beugen", "beugt"] },
   ],

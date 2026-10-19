@@ -223,7 +223,7 @@ export const DE_A2_U12: Lesson[] = [
     slug: "a2-drill-weak-nominative",
     level: "DE-A2",
     number: 2,
-    title: "Drill Circuit: Der Rote Pullover, Die Rote Jacke",
+    title: "Drill Circuit: Der rote Pullover, die rote Jacke",
     summary: "Drill nominative and accusative endings in shop sentences with colours.",
     duration: "12 min",
     sections: [
@@ -231,7 +231,7 @@ export const DE_A2_U12: Lesson[] = [
         heading: "Colours in the nominative",
         body: [
           "The basic colours are ordinary adjectives: \"rot\" (red), \"blau\" (blue), \"grün\" (green), \"gelb\" (yellow), \"schwarz\" (black), \"weiß\" (white), \"grau\" (grey), \"braun\" (brown). After der/die/das in the nominative they all take -e: \"der blaue Schal\", \"die weiße Bluse\", \"das grüne Kleid\".",
-          "Two colours borrowed from French, \"lila\" (purple) and \"rosa\" (pink), never take an ending in standard German: \"die lila Tasche\". \"Orange\" usually doesn't either.",
+          "Two colours, \"lila\" (purple) and \"rosa\" (pink), never take an ending in standard German: \"die lila Tasche\". \"Orange\" usually doesn't either.",
           "In the shop, the nominative appears with verbs like \"kosten\", \"passen\", \"gefallen\" and \"stehen\" (to suit), where the clothes are the subject: \"Der blaue Schal steht dir gut.\"",
         ],
         examples: [
@@ -571,7 +571,7 @@ export const DE_A2_U12: Lesson[] = [
         en: "We're going to [the old] castle.",
         sentence: "Wir fahren zu ___ Schloss.",
         answer: "dem alten",
-        explanation: "\"Zu\" + dative: \"dem alten\". (Zum alten Schloss is the contraction.)",
+        explanation: "\"Zu\" + dative: \"dem alten\". (\"Zum alten Schloss\" is the everyday contraction.)",
       },
       {
         type: "multiple-choice",
@@ -820,7 +820,7 @@ export const DE_A2_U12: Lesson[] = [
         heading: "Jeder and alle",
         body: [
           "\"Jeder\" (every, each) is singular only: \"jeder neue Kunde\" (every new customer), \"jede kleine Hilfe\", \"jedes kleine Kind\". Its plural partner is \"alle\" (all): \"alle neuen Kunden\", \"alle kleinen Kinder\". After \"alle\", the adjective takes -en, like any plural.",
-          "A common slip is *alle neue Bücher*. After \"alle\" it must be \"neuen\".",
+          "A common slip is \"*alle neue Bücher*\". After \"alle\" it must be \"neuen\".",
         ],
         examples: [
           { es: "Jedes kleine Kind bekommt ein Eis.", en: "Every small child gets an ice cream." },
@@ -983,7 +983,7 @@ export const DE_A2_U12: Lesson[] = [
     slug: "a2-qa-welcher-den-blauen",
     level: "DE-A2",
     number: 6,
-    title: "Q&A Drill: Welchen? Den Blauen!",
+    title: "Q&A Drill: Welchen? Den blauen!",
     summary: "Answer which-questions with the adjective alone, keeping its ending: Welchen Pullover? Den blauen.",
     duration: "12 min",
     sections: [
@@ -1055,7 +1055,6 @@ export const DE_A2_U12: Lesson[] = [
             prompt: "Translate into German. (Answer to: Mit welchem Bus fährst du?)",
             source: "The red one.",
             answer: "Mit dem roten.",
-            altAnswers: ["Dem roten."],
             explanation: "Dative masculine after \"mit\": \"mit dem roten\". German repeats the preposition.",
           },
         ],
@@ -1371,8 +1370,8 @@ export const DE_A2_U12: Lesson[] = [
       {
         heading: "Part 1: the old lamp",
         body: [
-          "Read the first part of Lena's Saturday: \"Am Samstag war Lena auf dem Flohmarkt am Mauerpark. An dem ersten Stand hat sie die alte Lampe gesehen. Der freundliche Verkäufer wollte 30 Euro. Das war zu teuer! Lena hat 15 Euro angeboten, und am Ende hat sie die alte Lampe für 20 Euro gekauft.\"",
-          "Check each adjective: \"die alte Lampe\" (accusative feminine, -e), \"der freundliche Verkäufer\" (nominative masculine, -e), \"an dem ersten Stand\" (dative, -en).",
+          "Read the first part of Lena's Saturday: \"Am Samstag war Lena auf dem Flohmarkt am Mauerpark. Am ersten Stand hat sie die alte Lampe gesehen. Der freundliche Verkäufer wollte 30 Euro. Das war zu teuer! Lena hat 15 Euro angeboten, und am Ende hat sie die alte Lampe für 20 Euro gekauft.\"",
+          "Check each adjective: \"die alte Lampe\" (accusative feminine, -e), \"der freundliche Verkäufer\" (nominative masculine, -e), \"am ersten Stand\" (dative, \"an dem\" → \"am\", -en).",
         ],
         examples: [
           { es: "Lena hat die alte Lampe gesehen.", en: "Lena saw the old lamp." },
@@ -1404,7 +1403,7 @@ export const DE_A2_U12: Lesson[] = [
       {
         heading: "Part 2: the red bicycle",
         body: [
-          "\"Dann hat Lena das rote Fahrrad entdeckt. Das rote Fahrrad war sehr alt, aber es hat gut funktioniert. Mit dem roten Fahrrad wollte sie zur Uni fahren. Leider hat der junge Mann vom Nachbarstand es schneller gekauft. Lena war sauer!\"",
+          "\"Dann hat Lena das rote Fahrrad entdeckt. Das rote Fahrrad war sehr alt, aber es hat gut funktioniert. Mit dem roten Fahrrad wollte sie zur Uni fahren. Leider hat es der junge Mann vom Nachbarstand vor ihr gekauft. Lena war sauer!\"",
           "\"Das rote Fahrrad\" stays the same in nominative and accusative; after \"mit\" it becomes \"dem roten Fahrrad\". And \"der junge Mann vom Nachbarstand\" is nominative: -e.",
         ],
         examples: [

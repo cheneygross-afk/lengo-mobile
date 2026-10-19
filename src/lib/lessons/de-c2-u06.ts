@@ -8,7 +8,7 @@ export const DE_C2_U06: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Humor und Wortspiele, Part 1 of 3",
-    summary: "How German puns work: words with two meanings (Bank, Schloss, Steuer), nouns whose gender changes the meaning (der/die Leiter), and compounds cut in a different place (Staubecken).",
+    summary: "Understand and explain German puns: words with two meanings (\"Bank\", \"Schloss\", \"Steuer\"), nouns whose gender changes the meaning (\"der/die Leiter\"), and compounds cut in a different place (\"Staubecken\").",
     duration: "18 min",
     sections: [
       {
@@ -57,8 +57,8 @@ export const DE_C2_U06: Lesson[] = [
         heading: "Kalauer and Flachwitze",
         body: [
           "German has two words for the groan-worthy joke. \"Der Kalauer\" is the traditional term for a cheap pun, the kind that makes people say \"Oh nein!\" and roll their eyes. \"Der Flachwitz\" (a flat joke) is the modern internet name for the same genre: short riddle-jokes whose punchline is deliberately weak. Telling them well means telling them deadpan.",
-          "Many follow a fixed format. The riddle \"Was ist grün und ...?\" (What is green and ...?) ends in a coined compound: \"Was ist grün und klopft an die Tür? Ein Klopfsalat.\" (Kopfsalat, lettuce, plus klopfen, to knock). The dialogue joke: \"Treffen sich zwei Jäger. Beide tot.\" uses the two senses of \"treffen\", to meet and to hit. Note the verb-first narrative opening \"Treffen sich zwei ...\" and \"Sagt der eine zum anderen ...\": that word order signals a joke as clearly as Did you hear the one about ... does in English.",
-          "Wordplay in German also exploits idioms taken literally: \"Wie nennt man einen Bumerang, der nicht zurückkommt? Stock.\" (a stick, but also a deadpan one-word answer). \"Sagt die Null zur Acht: Schicker Gürtel!\" The humour is in the visual reinterpretation, delivered in clipped, article-less German.",
+          "Many follow a fixed format. The riddle \"Was ist grün und ...?\" (What is green and ...?) ends in a coined compound: \"Was ist grün und klopft an die Tür? Ein Klopfsalat.\" (\"Kopfsalat\", lettuce, plus \"klopfen\", to knock). The dialogue joke: \"Treffen sich zwei Jäger. Beide tot.\" uses the two senses of \"treffen\", to meet and to hit. Note the verb-first narrative opening \"Treffen sich zwei ...\" and \"Sagt der eine zum anderen ...\": that word order signals a joke as clearly as Did you hear the one about ... does in English.",
+          "Other Flachwitze reinterpret things literally or visually: \"Wie nennt man einen Bumerang, der nicht zurückkommt? Stock.\" (a stick, but also a deadpan one-word answer). \"Sagt die Null zur Acht: Schicker Gürtel!\" The humour is in the visual reinterpretation, delivered in clipped, article-less German.",
         ],
         examples: [
           { es: "Treffen sich zwei Jäger. Beide tot.", en: "Two hunters meet (hit each other). Both dead." },
@@ -91,14 +91,14 @@ export const DE_C2_U06: Lesson[] = [
       {
         heading: "Staubecken: re-cutting compounds",
         body: [
-          "The real engine of German wordplay is the compound noun. Because German writes compounds as one word, the reader has to decide where to cut, and some words can be cut in two places. \"Staubecken\" is either \"Stau-becken\" (a reservoir, where water is dammed) or \"Staub-ecken\" (dusty corners). \"Blumentopferde\" can be \"Blumentopf-erde\" (potting soil) or \"Blumen-topf-pferde\". \"Wachstube\" is \"Wach-stube\" (guardroom) or \"Wachs-tube\" (a tube of wax).",
+          "The real engine of German wordplay is the compound noun. Because German writes compounds as one word, the reader has to decide where to cut, and some words can be cut in two places. \"Staubecken\" is either \"Stau-becken\" (a reservoir, where water is dammed) or \"Staub-ecken\" (dusty corners). \"Blumentopferde\" can be \"Blumentopf-erde\" (potting soil) or \"Blumento-pferde\" (flower horses). \"Wachstube\" is \"Wach-stube\" (guardroom) or \"Wachs-tube\" (a tube of wax).",
           "Writers of headlines and adverts use this constantly, and so do comedians: Heinz Erhardt, the master of the gentle pun in the 1950s and 60s, built whole poems on such double readings. In speech the stress and the pause decide: \"STAU-becken\" vs \"STAUB-ecken\".",
           "A related game is the invented compound that sounds like a real one: \"Klopfsalat\" from \"Kopfsalat\", \"Bandscheibenvorfall\" turned into a \"Bandscheibenvorfreude\". When you meet an unknown compound in a humorous text, ask which existing word it is echoing.",
         ],
         examples: [
           { es: "In unserem Staubecken gibt es keine Staubecken.", en: "In our reservoir there are no dusty corners." },
           { es: "Die Wachstube roch nach Wachs.", en: "The guardroom smelled of wax." },
-          { es: "Er hat einen Kalauer über Blumentopferde gemacht.", en: "He made a pun about potting soil (flowerpot horses)." },
+          { es: "Er hat einen Kalauer über Blumentopferde gemacht.", en: "He made a pun about potting soil (flower horses)." },
           { es: "Heinz Erhardt war ein Meister des harmlosen Wortspiels.", en: "Heinz Erhardt was a master of the harmless pun." },
           { es: "Die Pointe steckt im zusammengesetzten Wort.", en: "The punchline lies in the compound word." },
         ],
@@ -150,8 +150,8 @@ export const DE_C2_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which plural means 'nuts (for bolts)'?",
-        options: ["die Muttern", "die Mütter", "die Muttere", "die Mutters"],
+        question: "In the workshop you need two more nuts for the bolts. What do you say?",
+        options: ["Ich brauche noch zwei Muttern für die Schrauben.", "Ich brauche noch zwei Mütter für die Schrauben.", "Ich brauche noch zwei Muttere für die Schrauben.", "Ich brauche noch zwei Mutters für die Schrauben."],
         correctIndex: 0,
         explanation: "\"Die Mutter\" (nut) has the plural \"Muttern\"; the mother's plural is \"Mütter\". The difference powers many workshop jokes.",
       },
@@ -162,7 +162,7 @@ export const DE_C2_U06: Lesson[] = [
         source: "What's green and knocks on the door? A knock-lettuce.",
         answer: "Was ist grün und klopft an die Tür? Ein Klopfsalat.",
         altAnswers: ["Was ist grün und klopft an der Tür? Ein Klopfsalat."],
-        explanation: "The classic Flachwitz: \"Klopfsalat\" blends \"Kopfsalat\" (lettuce) with \"klopfen\" (to knock). \"An die Tür klopfen\" takes the accusative.",
+        explanation: "The classic \"Flachwitz\": \"Klopfsalat\" blends \"Kopfsalat\" (lettuce) with \"klopfen\" (to knock). \"An die Tür klopfen\" (accusative) is the usual form; \"an der Tür\" is also heard.",
       },
       {
         type: "word-order",
@@ -198,7 +198,7 @@ export const DE_C2_U06: Lesson[] = [
         text: "Sagt die Null zur Acht: Schicker Gürtel!",
         prompt: "Say it in German: The zero says to the eight: Nice belt!",
         tip: "Deliver it deadpan, with no pause for a laugh: the dry tone is half of the joke.",
-        explanation: "Verb-first joke opening, \"zur\" = zu der (die Acht is feminine), and a clipped punchline without article.",
+        explanation: "Verb-first joke opening, \"zur\" = \"zu der\" (\"die Acht\" is feminine), and a clipped punchline without article.",
       },
     ],
   },
@@ -207,7 +207,7 @@ export const DE_C2_U06: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Text Detective: Der Doppelsinn",
-    summary: "Find the double meaning in headlines, adverts and a cabaret sketch, including the stress puns of verbs like umfahren and übersetzen.",
+    summary: "Find and explain the double meaning in headlines, adverts and a cabaret sketch, including the stress puns of verbs like \"umfahren\" and \"übersetzen\".",
     duration: "18 min",
     sections: [
       {
@@ -359,7 +359,7 @@ export const DE_C2_U06: Lesson[] = [
       {
         type: "multiple-choice",
         question: "A headline reads \"Fahrschüler soll Verkehrskegel umfahren\". Why is it funny?",
-        options: ["The infinitive can mean both 'drive around' and 'knock over'.", "\"Kegel\" means both cone and bowling pin.", "\"Fahrschüler\" can mean teacher or pupil.", "The verb is in the wrong position."],
+        options: ["The infinitive can mean both 'drive around' and 'knock over'.", "\"Verkehrskegel\" is a made-up word.", "\"Fahrschüler\" can mean teacher or pupil.", "The verb is in the wrong position."],
         correctIndex: 0,
         explanation: "\"Umfahren\" in the infinitive is spelled the same for both verbs: avoid the cone (umFAHren) or flatten it (UMfahren).",
       },
@@ -405,7 +405,7 @@ export const DE_C2_U06: Lesson[] = [
     level: "DE-C2",
     number: 3,
     title: "Humor und Wortspiele, Part 2 of 3",
-    summary: "Irony and sarcasm in German: the particles and intonation that flip a sentence (Na super!, Das ist ja toll!), the ironic Konjunktiv, deadpan understatement in the style of Loriot.",
+    summary: "Recognise and use German irony: the particles and intonation that flip a sentence (\"Na super!\", \"Das ist ja toll!\"), the ironic Konjunktiv and deadpan understatement in the style of Loriot.",
     duration: "18 min",
     sections: [
       {
@@ -413,7 +413,7 @@ export const DE_C2_U06: Lesson[] = [
         body: [
           "German irony is mostly carried by modal particles and tone. \"Na toll!\", \"Na super!\", \"Na prima!\" after bad news mean the opposite: great, just what I needed. \"Ja\" in \"Das ist ja toll!\" or \"Das hast du ja super hinbekommen!\" can be sincere surprise or heavy sarcasm; the drawn-out, falling intonation decides. \"Du bist mir ja einer!\" (You're a right one!) is affectionate teasing, said with a smile to someone who has been cheeky.",
           "The \"na\" is a strong irony signal: \"Na, das kann ja heiter werden\" (Well, this is going to be fun) predicts trouble. \"Herzlichen Glückwunsch!\" said to someone who has just broken the printer is unmistakable. Adding \"echt\" or \"wirklich\" on top (\"Echt super gemacht\") makes it sharper.",
-          "Ironic praise is common in German everyday life and not rude among friends, but avoid it with people you call \"Sie\": a stranger or a superior may take you literally, or take offence. In writing, ironic quotation marks (\"sogenannte Experten\", Anführungszeichen) or an ironic \"natürlich\" do the work of the voice.",
+          "Ironic praise is common in German everyday life and not rude among friends, but avoid it with people you call \"Sie\": a stranger or a superior may take you literally, or take offence. In writing, ironic quotation marks (\"Anführungszeichen\"), an ironic \"sogenannte\" or an ironic \"natürlich\" do the work of the voice.",
         ],
         examples: [
           { es: "Der Zug fällt aus? Na super!", en: "The train is cancelled? Oh, great!" },
@@ -465,7 +465,7 @@ export const DE_C2_U06: Lesson[] = [
             source: "She has a very dry sense of humour.",
             answer: "Sie hat einen sehr trockenen Humor.",
             altAnswers: ["Sie hat sehr trockenen Humor.", "Ihr Humor ist sehr trocken."],
-            explanation: "\"Der Humor\" is masculine, so \"einen trockenen Humor\". German has no separate phrase for sense of humour: just \"Humor haben\".",
+            explanation: "\"Der Humor\" is masculine, so \"einen trockenen Humor\". \"Sinn für Humor\" exists, but German usually just says \"Humor haben\".",
           },
           {
             type: "fill-blank",
@@ -557,10 +557,10 @@ export const DE_C2_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What is the difference between \"ironisch\" and \"zynisch\" in German?",
-        options: ["Ironic says the opposite; cynical expresses contempt for decent motives or for people's suffering.", "They are synonyms.", "Ironic is always written, cynical always spoken.", "Cynical is milder than ironic."],
+        question: "After a flood, a politician says it 'at least creates work for the builders'. A commentator condemns the remark. Which word does she use?",
+        options: ["Diese Bemerkung ist zynisch.", "Diese Bemerkung ist ironisch.", "Diese Bemerkung ist augenzwinkernd.", "Diese Bemerkung ist selbstironisch."],
         correctIndex: 0,
-        explanation: "\"Zynisch\" is a moral charge in German, far stronger than \"ironisch\", which may be playful.",
+        explanation: "\"Zynisch\" is a moral charge in German, showing contempt for people's suffering; \"ironisch\" and \"augenzwinkernd\" may be playful, and \"selbstironisch\" mocks yourself.",
       },
       {
         type: "translate",
@@ -598,7 +598,7 @@ export const DE_C2_U06: Lesson[] = [
       {
         type: "dictation",
         audio: "Sie hat einen sehr trockenen Humor.",
-        explanation: "\"Einen trockenen Humor\": masculine accusative with the strong-after-ein ending -en.",
+        explanation: "\"Einen trockenen Humor\": masculine accusative, so after \"einen\" the adjective ends in -en.",
       },
       {
         type: "speak",
@@ -656,7 +656,7 @@ export const DE_C2_U06: Lesson[] = [
         body: [
           "Absurd humour plays with logic itself rather than with meaning. Its German patron saint is Karl Valentin (1882-1948), the Munich comedian Bertolt Brecht admired. His lines take language literally until common sense collapses: \"Heute ist die gute alte Zeit von morgen.\" \"Kunst ist schön, macht aber viel Arbeit.\" \"Ich freue mich, wenn es regnet. Denn wenn ich mich nicht freue, regnet es auch.\"",
           "The most famous is a grammatical joke: \"Mögen hätt ich schon wollen, aber dürfen hab ich mich nicht getraut.\" It piles up modal verbs in the double-infinitive construction until the sentence becomes a tangle, yet every German understands it: I would have liked to, but I didn't dare. It is quoted to admit shyness or hesitation with humour.",
-          "Markers of the absurd: a perfectly calm tone, impeccable grammar, a premise taken one step too far. Unlike irony, nothing is meant as the opposite; unlike sarcasm, nobody is attacked. Loriot's sketches combine the absurd with social satire: two men in a bathtub arguing politely about the rubber duck (Herren im Bad).",
+          "Markers of the absurd: a perfectly calm tone, impeccable grammar, a premise taken one step too far. Unlike irony, nothing is meant as the opposite; unlike sarcasm, nobody is attacked. Loriot's sketches combine the absurd with social satire: two men in a bathtub arguing politely about the rubber duck (\"Herren im Bad\").",
         ],
         examples: [
           { es: "Heute ist die gute alte Zeit von morgen.", en: "Today is the good old days of tomorrow." },
@@ -673,7 +673,7 @@ export const DE_C2_U06: Lesson[] = [
             source: "Everything has been said, just not yet by everyone.",
             answer: "Es ist schon alles gesagt, nur noch nicht von allen.",
             altAnswers: ["Es ist bereits alles gesagt, nur noch nicht von allen.", "Es wurde schon alles gesagt, nur noch nicht von allen.", "Alles ist schon gesagt, nur noch nicht von allen."],
-            explanation: "Karl Valentin's line about endless meetings: the Zustandspassiv \"ist gesagt\" and \"von allen\" for the agent.",
+            explanation: "Karl Valentin's line about endless meetings: the \"Zustandspassiv\" \"ist gesagt\" and \"von allen\" for the agent.",
           },
           {
             type: "dictation",
@@ -703,7 +703,7 @@ export const DE_C2_U06: Lesson[] = [
             source: "Her humour is pretty dark.",
             answer: "Ihr Humor ist ziemlich schwarz.",
             altAnswers: ["Sie hat einen ziemlich schwarzen Humor.", "Sie hat ziemlich schwarzen Humor.", "Ihr Humor ist recht schwarz."],
-            explanation: "Dark humour is \"schwarzer Humor\" in German; \"dunkel\" is not used here.",
+            explanation: "Dark humour is \"schwarzer Humor\" in German; \"dunkler Humor\" is a newer calque from English.",
           },
           {
             type: "speak",
@@ -758,7 +758,7 @@ export const DE_C2_U06: Lesson[] = [
           { left: "der schwarze Humor", right: "black humour" },
           { left: "das Absurde", right: "the absurd" },
         ],
-        explanation: "All are used exactly like their English equivalents; note \"schwarzer Humor\", never dark humour translated literally.",
+        explanation: "All are used exactly like their English equivalents; note \"schwarzer Humor\" (black), the established term for dark humour.",
       },
       {
         type: "fill-blank",
@@ -806,7 +806,7 @@ export const DE_C2_U06: Lesson[] = [
     level: "DE-C2",
     number: 5,
     title: "Word Web: Humor nach Region",
-    summary: "Wiener Schmäh, Berliner Schnauze, the Kölner Büttenrede, Swiss understatement, Ostfriesenwitze and GDR whisper jokes, with the adjectives that describe each.",
+    summary: "Describe regional styles of humour (\"Wiener Schmäh\", \"Berliner Schnauze\", the Cologne \"Büttenrede\", Swiss understatement, \"Ostfriesenwitze\", GDR whisper jokes) with the adjectives that fit each.",
     duration: "16 min",
     sections: [
       {
@@ -846,15 +846,15 @@ export const DE_C2_U06: Lesson[] = [
       {
         heading: "Karneval, Büttenrede and the north",
         body: [
-          "In Cologne, Mainz and Düsseldorf, Karneval (Fasching in the south, Fastnacht in Mainz and the south-west) has its own comic genre: \"die Büttenrede\", a rhyming comic speech delivered from a barrel-shaped lectern (\"die Bütt\"). It mocks local politicians and everyday life, and a good punchline is greeted with a triple \"Tusch\" (fanfare) from the band. The humour is \"derb\" (coarse) and \"volkstümlich\" (popular, folksy).",
+          "In Cologne, Mainz and Düsseldorf, \"Karneval\" (\"Fasching\" in the south, \"Fastnacht\" in Mainz and the south-west) has its own comic genre: \"die Büttenrede\", a rhyming comic speech delivered from a barrel-shaped lectern (\"die Bütt\"). It mocks local politicians and everyday life, and a good punchline is greeted with a triple \"Tusch\" (fanfare) from the band. The humour is \"derb\" (coarse) and \"volkstümlich\" (popular, folksy).",
           "The north is famous for dryness: \"der trockene norddeutsche Humor\", a joke told with a straight face and very few words. \"Ostfriesenwitze\" were a 1970s craze: jokes portraying East Frisians as dim (\"Warum nehmen Ostfriesen eine Leiter mit in den Supermarkt? Weil die Preise so hoch sind.\"). The East Frisians answered with self-irony and even sold the jokes as souvenirs.",
-          "Swiss humour is known for understatement: \"nicht schlecht\" or \"es geht\" can be the highest praise, and Swiss Germans tease the Germans for being loud and over-explaining. Austrians, Bavarians and Swiss all share a love of making fun of the \"Piefke\" or \"Preuße\" (the northern German).",
+          "Swiss humour is known for understatement: \"nicht schlecht\" or \"es geht\" can be the highest praise, and Swiss Germans tease the Germans for being loud and over-explaining. Austrians tease the \"Piefke\", Bavarians the \"Preuße\" (\"Preiß\"), the Swiss the \"Schwabe\": all meaning the German from further north.",
         ],
         examples: [
           { es: "Die Büttenrede wurde mit einem dreifachen Tusch belohnt.", en: "The carnival speech was rewarded with a triple fanfare." },
           { es: "Der Humor im Karneval ist oft derb.", en: "The humour at carnival is often coarse." },
           { es: "Warum nehmen Ostfriesen eine Leiter mit in den Supermarkt? Weil die Preise so hoch sind.", en: "Why do East Frisians take a ladder to the supermarket? Because the prices are so high." },
-          { es: "In der Schweiz ist „nicht schlecht“ schon ein großes Lob.", en: "In Switzerland, not bad is already high praise." },
+          { es: "In der Schweiz ist „nicht schlecht“ schon ein großes Lob.", en: "In Switzerland, 'not bad' is already high praise." },
           { es: "Er hat diesen trockenen norddeutschen Humor.", en: "He has that dry northern German humour." },
         ],
         checkpoint: [
@@ -940,7 +940,7 @@ export const DE_C2_U06: Lesson[] = [
         prompt: "Translate into German. (Austrian, to a friend)",
         source: "Don't give me that nonsense!",
         answer: "Erzähl mir keinen Schmäh!",
-        altAnswers: ["Erzähl mir doch keinen Schmäh!", "Erzählen Sie mir keinen Schmäh!"],
+        altAnswers: ["Erzähl mir doch keinen Schmäh!", "Erzähl mir nicht so einen Schmäh!"],
         explanation: "In Austria \"der Schmäh\" is also a fib or a line: \"jemandem einen Schmäh erzählen\". In Germany you'd say \"Erzähl mir keinen Quatsch!\"",
       },
       {
@@ -963,10 +963,10 @@ export const DE_C2_U06: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Where would you hear a Büttenrede?",
+        question: "Where would you hear a \"Büttenrede\"?",
         options: ["At a carnival session in Cologne or Mainz", "In a Viennese coffee house", "In the Bundestag", "At a Swiss Fasnacht parade only"],
         correctIndex: 0,
-        explanation: "The Büttenrede is the rhyming carnival speech of the Rhineland, delivered from the \"Bütt\".",
+        explanation: "The \"Büttenrede\" is the rhyming carnival speech of the Rhineland, delivered from the \"Bütt\".",
       },
       {
         type: "translate",
@@ -1004,14 +1004,14 @@ export const DE_C2_U06: Lesson[] = [
     level: "DE-C2",
     number: 6,
     title: "Humor und Wortspiele, Part 3 of 3",
-    summary: "Satire and Kabarett: the political cabaret tradition, Titanic, heute-show and Der Postillon, mock-solemn Amtsdeutsch, headline parody, Schadenfreude and Galgenhumor.",
+    summary: "Talk about German satire and \"Kabarett\" (\"Titanic\", \"heute-show\", \"Der Postillon\"), write mock-solemn \"Amtsdeutsch\" and headline parody, and use \"Schadenfreude\" and \"Galgenhumor\" correctly.",
     duration: "20 min",
     sections: [
       {
         heading: "Kabarett, Satire, Comedy",
         body: [
           "German makes a distinction English does not: \"das Kabarett\" (with a K, stressed on the last syllable) is political and social satire on stage, usually one or two performers with a sharp script, while \"die Comedy\" is entertainment for laughs (stand-up, sitcom). Calling a serious Kabarettist a \"Comedian\" can be an insult. \"Der Kabarettist\" and \"die Kabarettistin\" are respected public figures who comment on politics.",
-          "The tradition goes back to the Weimar Republic (Kurt Tucholsky, Erich Kästner, the Berlin cabarets) and continued in post-war Germany with the Münchner Lach- und Schießgesellschaft and TV shows such as Die Anstalt. Satire in print and online: the monthly \"Titanic\" (famous for outrageous covers), the satirical news site \"Der Postillon\", and the ZDF \"heute-show\", which parodies the evening news.",
+          "The tradition goes back to the Weimar Republic (Kurt Tucholsky, Erich Kästner, the Berlin cabarets) and continued in post-war Germany with the Münchner Lach- und Schießgesellschaft and TV shows such as \"Die Anstalt\". Satire in print and online: the monthly \"Titanic\" (famous for outrageous covers), the satirical news site \"Der Postillon\", and the ZDF \"heute-show\", which parodies the evening news.",
           "Tucholsky's famous answer to the question \"Was darf die Satire?\" (What is satire allowed to do?) was \"Alles.\" German courts give satire wide protection under \"Kunstfreiheit\" and \"Meinungsfreiheit\", though the debate about where the limits lie (\"die Grenzen der Satire\") never ends.",
         ],
         examples: [
@@ -1044,8 +1044,8 @@ export const DE_C2_U06: Lesson[] = [
       {
         heading: "Mock-solemn register: Amtsdeutsch as comedy",
         body: [
-          "One of the most German comic techniques is to describe something trivial in the language of officialdom (Unit 1). The joke is the gap between the bureaucratic register and the banal subject: \"Gemäß § 3 der Hausordnung ist das Mitführen von Gute-Laune im Treppenhaus untersagt.\" Loriot was the master of this, and the Postillon does it every day.",
-          "Typical ingredients: nominal style (\"die Durchführung der Kaffeepause\"), Funktionsverbgefüge (\"zur Anwendung kommen\", \"in Kraft treten\"), passive and \"hat ... zu\" constructions, and absurd precision (\"eine Wartezeit von 3,5 Jahren\"). Headline parody uses the style of news agencies: \"Studie: Menschen, die früh aufstehen, sind früher wach\".",
+          "One of the most German comic techniques is to describe something trivial in the language of officialdom (Unit 1). The joke is the gap between the bureaucratic register and the banal subject: \"Gemäß § 3 der Hausordnung ist das Mitführen von guter Laune im Treppenhaus untersagt.\" Loriot was the master of this, and the Postillon does it every day.",
+          "Typical ingredients: nominal style (\"die Durchführung der Kaffeepause\"), \"Funktionsverbgefüge\" (\"zur Anwendung kommen\", \"in Kraft treten\"), passive and \"hat ... zu\" constructions, and absurd precision (\"eine Wartezeit von 3,5 Jahren\"). Headline parody uses the style of news agencies: \"Studie: Menschen, die früh aufstehen, sind früher wach\".",
           "When you write satire yourself, choose the register first, then exaggerate it by just one notch. If the reader can't immediately see it's a joke, you've succeeded in the deadpan; if no one can ever see it, you've written an official notice.",
         ],
         examples: [
@@ -1195,7 +1195,7 @@ export const DE_C2_U06: Lesson[] = [
     slug: "c2-humour-dialogue-lab",
     level: "DE-C2",
     number: 7,
-    title: "Dialogue Lab: Auf einen Witz Reagieren",
+    title: "Dialogue Lab: Auf einen Witz reagieren",
     summary: "React to jokes, teasing and dry remarks like a native: laugh, play along, groan at a pun, admit politely you didn't get it, and tease back.",
     duration: "16 min",
     sections: [
@@ -1295,7 +1295,7 @@ export const DE_C2_U06: Lesson[] = [
             prompt: "Put the words in order to say: If you can dish it out, you have to be able to take it.",
             words: ["Wer", "austeilt,", "muss", "auch", "einstecken", "können."],
             translation: "If you can dish it out, you have to be able to take it.",
-            explanation: "A wer-clause without antecedent (Unit 5) opens the saying; \"austeilen\" (dish out) and \"einstecken\" (take, put up with) are separable verbs.",
+            explanation: "A \"wer\" clause without antecedent (Unit 5) opens the saying; \"austeilen\" (dish out) and \"einstecken\" (take, put up with) are separable verbs.",
           },
           {
             type: "speak",
@@ -1383,7 +1383,7 @@ export const DE_C2_U06: Lesson[] = [
         type: "speak",
         text: "Der war gut! Den muss ich mir merken.",
         prompt: "Say it in German: That was a good one! I've got to remember it.",
-        explanation: "\"Der\" and \"den\" refer to the joke (der Witz) in nominative and accusative.",
+        explanation: "\"Der\" and \"den\" refer to the joke (\"der Witz\") in nominative and accusative.",
       },
     ],
   },
@@ -1392,7 +1392,7 @@ export const DE_C2_U06: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Mastery Vocabulary: Learned Evaluative Adjectives",
-    summary: "Judge a text, a joke or a performance with precision: geistreich, scharfsinnig, treffend, subtil, hintersinnig versus banal, trivial, plump, abgeschmackt, prätentiös.",
+    summary: "Judge a text, a joke or a performance with precision: \"geistreich\", \"scharfsinnig\", \"treffend\", \"subtil\", \"hintersinnig\" versus \"banal\", \"trivial\", \"plump\", \"abgeschmackt\", \"prätentiös\".",
     duration: "16 min",
     sections: [
       {
@@ -1422,8 +1422,8 @@ export const DE_C2_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which word describes an incisive analysis?",
-            options: ["scharfsinnig", "geistlich", "abgeschmackt", "plump"],
+            question: "You want to praise a colleague's incisive analysis. What do you say?",
+            options: ["Das ist eine scharfsinnige Analyse.", "Das ist eine geistliche Analyse.", "Das ist eine abgeschmackte Analyse.", "Das ist eine plumpe Analyse."],
             correctIndex: 0,
             explanation: "\"Scharfsinnig\" (sharp-minded) praises analytical precision. \"Geistlich\" means religious.",
           },
@@ -1513,7 +1513,7 @@ export const DE_C2_U06: Lesson[] = [
         source: "That's an apt comparison.",
         answer: "Das ist ein treffender Vergleich.",
         altAnswers: ["Das ist ein sehr treffender Vergleich.", "Der Vergleich ist treffend."],
-        explanation: "\"Treffend\" is a present participle used as an adjective (from treffen, to hit the mark): \"ein treffender Vergleich\".",
+        explanation: "\"Treffend\" is a present participle used as an adjective (from \"treffen\", to hit the mark): \"ein treffender Vergleich\".",
       },
       {
         type: "translate",
@@ -1596,7 +1596,7 @@ export const DE_C2_U06: Lesson[] = [
     level: "DE-C2",
     number: 9,
     title: "Vocabulary in Context: Word Families",
-    summary: "Build whole families from one root (fallen, stellen, ziehen, schlagen) and see how prefixes shift the meaning: Zufall, Einfall, Vorstellung, Erziehung, Vorschlag.",
+    summary: "Build whole word families from one root (\"fallen\", \"stellen\", \"ziehen\", \"schlagen\") and use the words that prefixes create: \"Zufall\", \"Einfall\", \"Vorstellung\", \"Erziehung\", \"Vorschlag\".",
     duration: "18 min",
     sections: [
       {
@@ -1604,7 +1604,7 @@ export const DE_C2_U06: Lesson[] = [
         body: [
           "German builds vocabulary from a small number of roots with prefixes and suffixes. Learn the root and its family, and dozens of words fall into place. From \"fallen\": \"der Fall\" (case, fall), \"der Unfall\" (accident), \"der Zufall\" (coincidence, chance: what falls to you), \"der Einfall\" (idea: what falls into your head), \"der Ausfall\" (failure, cancellation: what falls out), \"der Beifall\" (applause), \"der Abfall\" (waste).",
           "The verbs: \"auffallen\" (to be noticeable, to strike someone: \"Mir ist aufgefallen, dass ...\"), \"gefallen\" (to please), \"einfallen\" (to occur to: \"Mir fällt nichts ein\"), \"ausfallen\" (to be cancelled), \"zufallen\" (to slam shut; to fall to someone). Adjectives: \"zufällig\" (by chance), \"auffällig\" (conspicuous), \"einfallsreich\" (inventive), \"hinfällig\" (invalid, frail).",
-          "Many of these verbs take a dative person, because something happens to you: \"Mir fällt etwas ein\", \"Mir ist etwas aufgefallen\", \"Das gefällt mir\". English speakers tend to make the person the subject (*\"Ich falle ein\") and get it wrong.",
+          "Many of these verbs take a dative person, because something happens to you: \"Mir fällt etwas ein\", \"Mir ist etwas aufgefallen\", \"Das gefällt mir\". English speakers tend to make the person the subject (\"*Ich falle ein*\") and get it wrong.",
         ],
         examples: [
           { es: "Das war reiner Zufall.", en: "That was pure coincidence." },
@@ -1626,8 +1626,8 @@ export const DE_C2_U06: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which word means 'coincidence'?",
-            options: ["der Zufall", "der Einfall", "der Ausfall", "der Beifall"],
+            question: "You bumped into an old school friend on the train without planning it. What do you say?",
+            options: ["Das war reiner Zufall.", "Das war reiner Einfall.", "Das war reiner Ausfall.", "Das war reiner Beifall."],
             correctIndex: 0,
             explanation: "\"Zufall\": what falls to you by chance. \"Einfall\" = idea, \"Ausfall\" = failure, \"Beifall\" = applause.",
           },
@@ -1680,7 +1680,7 @@ export const DE_C2_U06: Lesson[] = [
         heading: "ziehen and schlagen",
         body: [
           "From \"ziehen\" (to pull): \"der Zug\" (train; move; draught; trait), \"der Umzug\" (house move), \"der Anzug\" (suit), \"der Auszug\" (extract; bank statement; moving out), \"der Bezug\" (reference; cover), \"die Erziehung\" (upbringing), \"der Entzug\" (withdrawal). Verbs: \"umziehen\" (to move house; sich umziehen: to change clothes), \"erziehen\" (to bring up), \"beziehen\" (to refer to; to move into), \"anziehend\" (attractive).",
-          "From \"schlagen\" (to hit): \"der Schlag\" (blow), \"der Vorschlag\" (suggestion), \"der Anschlag\" (attack; notice on a board), \"der Zuschlag\" (surcharge; contract award), \"der Ausschlag\" (rash; deflection, as in den Ausschlag geben, to tip the balance), \"der Umschlag\" (envelope). Verbs: \"vorschlagen\", \"nachschlagen\" (to look up), \"abschlagen\" (to refuse), \"schlagfertig\" (quick-witted, Lesson 5).",
+          "From \"schlagen\" (to hit): \"der Schlag\" (blow), \"der Vorschlag\" (suggestion), \"der Anschlag\" (attack; notice on a board), \"der Zuschlag\" (surcharge; contract award), \"der Ausschlag\" (rash; deflection, as in \"den Ausschlag geben\", to tip the balance), \"der Umschlag\" (envelope). Verbs: \"vorschlagen\", \"nachschlagen\" (to look up), \"abschlagen\" (to refuse), \"schlagfertig\" (quick-witted, Lesson 5).",
           "Compare English, where Latin roots do the same job (pro-pose, sup-pose, ex-pose): \"vorschlagen\" is literally to 'strike before'. Knowing the family helps you guess unfamiliar words, but always check the meaning: \"der Anschlag\" can be a terrorist attack or a notice on the wall.",
         ],
         examples: [
@@ -1757,7 +1757,7 @@ export const DE_C2_U06: Lesson[] = [
           { left: "der Auszug", right: "extract" },
           { left: "der Vorschlag", right: "suggestion" },
         ],
-        explanation: "Same roots, different prefixes: fallen, stellen, schlagen, ziehen.",
+        explanation: "Same roots, different prefixes: \"fallen\", \"stellen\", \"schlagen\", \"ziehen\".",
       },
       {
         type: "translate",
@@ -1773,7 +1773,7 @@ export const DE_C2_U06: Lesson[] = [
         question: "\"Am Bahnhof hing ein Anschlag mit den neuen Fahrplänen.\" What is \"ein Anschlag\" here?",
         options: ["a notice", "an attack", "a surcharge", "a rash"],
         correctIndex: 0,
-        explanation: "\"Der Anschlag\" is a notice posted on a board (from anschlagen, to pin up); in the news it usually means an attack.",
+        explanation: "\"Der Anschlag\" is a notice posted on a board (from \"anschlagen\", to pin up); in the news it usually means an attack.",
       },
       {
         type: "word-order",

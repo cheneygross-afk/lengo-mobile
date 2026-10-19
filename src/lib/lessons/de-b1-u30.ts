@@ -135,12 +135,13 @@ export const DE_B1_U30: Lesson[] = [
         prompt: "Translate into German.",
         source: "The application can also be submitted online.",
         answer: "Der Antrag kann auch online gestellt werden.",
+        altAnswers: ["Den Antrag kann man auch online stellen."],
         explanation: "\"Einen Antrag stellen\" → passive with a modal: \"kann ... gestellt werden\".",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "This still [needs to be signed] here.",
+        en: "This still needs to [be signed] here.",
         sentence: "Hier muss noch ___.",
         answer: "unterschrieben werden",
         explanation: "Impersonal passive with a modal: \"muss ... unterschrieben werden\".",
@@ -463,7 +464,7 @@ export const DE_B1_U30: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which is the correct advice?",
-            options: ["Sie könnten versuchen, weniger zu arbeiten.", "Sie könnten versuchen, weniger arbeiten.", "Sie könnten versuchen zu weniger arbeiten.", "Sie könnten weniger zu arbeiten versuchen."],
+            options: ["Sie könnten versuchen, weniger zu arbeiten.", "Sie könnten versuchen, weniger arbeiten.", "Sie könnten versuchen zu weniger arbeiten.", "Sie könnten versuchen, zu arbeiten weniger."],
             correctIndex: 0,
             explanation: "\"Versuchen\" + zu-infinitive at the end; no \"zu\" after \"könnten\".",
           },
@@ -529,7 +530,7 @@ export const DE_B1_U30: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "You're risking [not only] your relationship [but also] your health.",
+        en: "You're risking not only your relationship [but also] your health.",
         sentence: "Sie riskieren nicht nur Ihre Beziehung, ___ Ihre Gesundheit.",
         answer: "sondern auch",
         explanation: "\"Nicht nur ... sondern auch\" = not only ... but also.",
@@ -868,7 +869,7 @@ export const DE_B1_U30: Lesson[] = [
             source: "You don't have to be perfect.",
             answer: "Man muss nicht perfekt sein.",
             altAnswers: ["Du musst nicht perfekt sein.", "Sie müssen nicht perfekt sein.", "Ihr müsst nicht perfekt sein."],
-            explanation: "Don't have to = \"nicht müssen\" (not *nicht dürfen, which means mustn't).",
+            explanation: "Don't have to = \"nicht müssen\" (not \"*nicht dürfen\", which means mustn't).",
           },
           {
             type: "listen-choose",
@@ -1053,7 +1054,7 @@ export const DE_B1_U30: Lesson[] = [
         heading: "Part 3: Baking and eating",
         body: [
           "Finally: \"Zum Schluss werden die Brezeln mit grobem Salz bestreut und bei 220 Grad gebacken.\" After the tour the children are allowed to try: \"Die Brezeln dürfen jetzt probiert werden!\"",
-          "Bavarians eat their Brezn with \"Weißwurst\" and sweet mustard, ideally before noon.",
+          "Bavarians eat their \"Brezn\" with \"Weißwurst\" and sweet mustard, ideally before noon.",
         ],
         examples: [
           { es: "Zum Schluss werden die Brezeln mit grobem Salz bestreut.", en: "Finally the pretzels are sprinkled with coarse salt." },
@@ -1117,10 +1118,10 @@ export const DE_B1_U30: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is a modal passive?",
-        options: ["Die Brezeln dürfen jetzt probiert werden.", "Die Brezeln werden probiert.", "Die Brezeln wurden probiert.", "Die Brezeln sind probiert worden."],
+        question: "Which is right for: The pretzels can be tried now?",
+        options: ["Die Brezeln dürfen jetzt probiert werden.", "Die Brezeln werden jetzt probiert.", "Die Brezeln wurden jetzt probiert.", "Die Brezeln dürfen jetzt probiert worden."],
         correctIndex: 0,
-        explanation: "Modal (\"dürfen\") + participle + \"werden\".",
+        explanation: "Modal passive: modal (\"dürfen\") + participle + \"werden\". Without the modal it only says they are being tried; \"worden\" belongs to the Perfekt passive.",
       },
       {
         type: "word-order",
@@ -1362,7 +1363,7 @@ export const DE_B1_U30: Lesson[] = [
       {
         heading: "Describing the problem",
         body: [
-          "When something breaks in a rented flat, you call \"der Hausmeister\" (caretaker) or \"die Hausverwaltung\" (property management), who sends \"ein Handwerker\" (tradesperson): \"der Klempner\" (plumber), \"der Elektriker\".",
+          "When something breaks in a rented flat, you call \"der Hausmeister\" (caretaker) or \"die Hausverwaltung\" (property management), who sends \"einen Handwerker\" (tradesperson): \"der Klempner\" (plumber), \"der Elektriker\".",
           "Describe it precisely: \"Die Spülmaschine ist kaputt\", \"Der Wasserhahn tropft\" (the tap is dripping), \"Die Toilette ist verstopft\" (blocked), \"Im Bad ist das Licht ausgefallen\", \"Die Heizung wird nicht warm\", \"Es kommt kein warmes Wasser.\"",
         ],
         examples: [
@@ -1419,7 +1420,7 @@ export const DE_B1_U30: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "It [has to be repaired] immediately.",
+            en: "It has to [be repaired] immediately.",
             sentence: "Das muss sofort ___.",
             answer: "repariert werden",
             explanation: "Modal passive: \"muss ... repariert werden\".",
@@ -1833,6 +1834,7 @@ export const DE_B1_U30: Lesson[] = [
             prompt: "Translate into German.",
             source: "Has anyone seen my key?",
             answer: "Hat jemand meinen Schlüssel gesehen?",
+            altAnswers: ["Hat irgendjemand meinen Schlüssel gesehen?"],
             explanation: "\"Jemand\" + \"hat\"; \"meinen Schlüssel\" (accusative).",
           },
           {
@@ -1899,10 +1901,10 @@ export const DE_B1_U30: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which noun is feminine?",
-        options: ["Möglichkeit", "Lehrling", "Mädchen", "Dokument"],
+        question: "Which is right for: Is there a possibility?",
+        options: ["Gibt es eine Möglichkeit?", "Gibt es einen Möglichkeit?", "Gibt es ein Möglichkeit?", "Gibt es einer Möglichkeit?"],
         correctIndex: 0,
-        explanation: "-keit nouns are always feminine; -ling masculine; -chen and -ment neuter.",
+        explanation: "-keit nouns are always feminine: \"eine Möglichkeit\" (accusative after \"es gibt\"). Likewise -ling is masculine (\"der Lehrling\"), -chen and -ment neuter (\"das Mädchen\", \"das Dokument\").",
       },
       {
         type: "word-order",
@@ -2167,7 +2169,7 @@ export const DE_B1_U30: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Die Projekte, ___ wir arbeiten, sind spannend. (arbeiten an + dative)",
+            question: "Which completes it? \"Die Projekte, ___ wir arbeiten, sind spannend.\" (arbeiten an + dative)",
             options: ["an denen", "an die", "an dem", "woran die"],
             correctIndex: 0,
             explanation: "Dative plural relative pronoun = \"denen\".",
@@ -2278,14 +2280,14 @@ export const DE_B1_U30: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The appointment [we were waiting for] is finally confirmed.",
+        en: "The appointment we were waiting [for] is finally confirmed.",
         sentence: "Der Termin, ___ wir gewartet haben, ist endlich bestätigt.",
         answer: "auf den",
         explanation: "\"Warten auf\" + accusative; \"der Termin\" → \"auf den\".",
       },
       {
         type: "multiple-choice",
-        question: "Das Einzige, ___ mich stört, ist der lange Arbeitsweg.",
+        question: "Which completes it? \"Das Einzige, ___ mich stört, ist der lange Arbeitsweg.\"",
         options: ["was", "das", "worauf", "dem"],
         correctIndex: 0,
         explanation: "After \"das Einzige\" (no preposition) the relative pronoun is \"was\".",
@@ -2302,7 +2304,7 @@ export const DE_B1_U30: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order to say: The boss I told you about is away today.",
-        words: ["Die", "Chefin,", "von", "der", "ich", "erzählt", "habe,", "ist", "heute", "weg."],
+        words: ["Die Chefin,", "von", "der", "ich", "dir", "erzählt", "habe,", "ist", "heute", "weg."],
         translation: "The boss I told you about is away today.",
         explanation: "\"Erzählen von\" + dative → \"von der\".",
       },
@@ -2557,7 +2559,7 @@ export const DE_B1_U30: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "I [had] already [booked] the hostel before I set off.",
+            en: "I [had] already booked the hostel before I set off.",
             sentence: "Ich ___ das Hostel schon gebucht, bevor ich losfuhr.",
             answer: "hatte",
             explanation: "Plusquamperfekt = \"hatte\" / \"war\" + participle.",
@@ -2676,7 +2678,7 @@ export const DE_B1_U30: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Nachdem ich ___, bin ich sofort ans Meer gegangen.",
+        question: "Which completes it? \"Nachdem ich ___, bin ich sofort ans Meer gegangen.\" (After I had arrived...)",
         options: ["angekommen war", "ankomme", "angekommen bin", "ankam war"],
         correctIndex: 0,
         explanation: "\"Nachdem\" + Plusquamperfekt for the earlier action.",

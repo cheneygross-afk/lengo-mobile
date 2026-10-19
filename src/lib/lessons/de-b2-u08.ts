@@ -66,7 +66,7 @@ export const DE_B2_U08: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm bored.",
             answer: "Mir ist langweilig.",
-            altAnswers: ["Ich langweile mich.", "Ich bin gelangweilt."],
+            altAnswers: ["Ich langweile mich.", "Ich bin gelangweilt.", "Ich habe Langeweile."],
             explanation: "\"Mir ist langweilig\" (dative + ist) is the everyday way. \"Ich bin langweilig\" means I'm boring.",
           },
           {
@@ -83,7 +83,7 @@ export const DE_B2_U08: Lesson[] = [
         heading: "More pairs and their prepositions",
         body: [
           "The feeling words often come with fixed prepositions: \"begeistert von\" (enthusiastic about), \"enttäuscht von\" (disappointed in/by), \"überrascht von / über\" (surprised by/at), \"interessiert an\" + Dativ (interested in), \"gespannt auf\" + Akk (eager for).",
-          "And their -end partners describe the thing: \"begeisternd\" (inspiring, though in reviews \"großartig\" or \"mitreißend\" is more common), \"enttäuschend\", \"überraschend\", \"interessant\" (not *interessierend!), \"anstrengend\" (exhausting) vs \"angestrengt\" (strained, with effort), \"beunruhigend\" (worrying) vs \"beunruhigt\" (worried).",
+          "And their -end partners describe the thing: \"begeisternd\" (inspiring, though in reviews \"großartig\" or \"mitreißend\" is more common), \"enttäuschend\", \"überraschend\", \"interessant\" (not \"*interessierend!\"), \"anstrengend\" (exhausting) vs \"angestrengt\" (strained, with effort), \"beunruhigend\" (worrying) vs \"beunruhigt\" (worried).",
           "Note \"interessant\" / \"interessiert\": the cause form is the -ant adjective. \"*Ich bin sehr interessierend\" is a mistake you'll correct in the next lesson.",
         ],
         examples: [
@@ -107,7 +107,7 @@ export const DE_B2_U08: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "We were [thrilled with] the concert.",
+            en: "We were thrilled [with] the concert.",
             sentence: "Wir waren ___ dem Konzert begeistert.",
             answer: "von",
             explanation: "\"Begeistert von\" + Dativ.",
@@ -261,7 +261,7 @@ export const DE_B2_U08: Lesson[] = [
       {
         heading: "Short participle clauses",
         body: [
-          "A participle with a few words can stand at the start of a sentence as a short clause, separated by a comma: \"Im Hotel angekommen, ging sie sofort schlafen\" (having arrived at the hotel, she went straight to bed). \"Laut singend fuhr er durch die Stadt\" (singing loudly, he drove through town). The participle goes at the end of the little clause, and the main clause starts with its verb.",
+          "A participle with a few words can stand at the start of a sentence as a short clause, usually followed by a comma (it's optional, so \"Laut singend fuhr er ...\" is also correct): \"Im Hotel angekommen, ging sie sofort schlafen\" (having arrived at the hotel, she went straight to bed). \"Laut singend fuhr er durch die Stadt\" (singing loudly, he drove through town). The participle goes at the end of the little clause, and the main clause starts with its verb.",
           "A Partizip II clause usually means after (= nachdem / als): \"In Berlin angekommen, rief er sofort an\" = \"Als er in Berlin angekommen war, rief er sofort an.\" A Partizip I clause means while (= während): \"Vor Wut zitternd verließ sie den Raum\" = \"Während sie vor Wut zitterte, ...\". The subject of the participle clause must be the same as the main clause.",
           "Word order trap: English puts the participle first (Arriving in Berlin, ...); German puts it last in the little clause: \"In Berlin angekommen, ...\", never \"*Ankommend in Berlin, ...\". These clauses are mostly written style; in speech, use \"als\" or \"nachdem\".",
         ],
@@ -419,6 +419,7 @@ export const DE_B2_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "What has been said stays between us.",
         answer: "Das Gesagte bleibt unter uns.",
+        altAnswers: ["Was gesagt wurde, bleibt unter uns."],
         explanation: "\"Das Gesagte\": nominalised Partizip II, neuter = what was said.",
       },
       {
@@ -463,7 +464,7 @@ export const DE_B2_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct the error: *Das Buch ist sehr gelangweilt. Write: The book is very boring.",
+            prompt: "Correct the error in \"*Das Buch ist sehr gelangweilt.\" Write: The book is very boring.",
             source: "The book is very boring.",
             answer: "Das Buch ist sehr langweilig.",
             explanation: "The book causes boredom: \"langweilig\". \"Gelangweilt\" is for people.",
@@ -471,7 +472,7 @@ export const DE_B2_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct the error: *Ich bin sehr interessierend an dem Kurs. Write: I'm very interested in the course.",
+            prompt: "Correct the error in \"*Ich bin sehr interessierend an dem Kurs.\" Write: I'm very interested in the course.",
             source: "I'm very interested in the course.",
             answer: "Ich bin sehr an dem Kurs interessiert.",
             altAnswers: ["Ich bin an dem Kurs sehr interessiert.", "Ich interessiere mich sehr für den Kurs.", "Ich bin sehr am Kurs interessiert."],
@@ -496,7 +497,7 @@ export const DE_B2_U08: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "Correct the error *Der Angestellter hat mir geholfen. Write the German for the bold words.",
+            prompt: "Correct the error in \"*Der Angestellter hat mir geholfen.\" Write the German for the bold words.",
             en: "[The employee] helped me.",
             sentence: "___ hat mir geholfen.",
             answer: "Der Angestellte",
@@ -506,7 +507,7 @@ export const DE_B2_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct the error: *der gestern gekaufte Buch. Write: The book I bought yesterday is gripping.",
+            prompt: "Correct the error in \"*der gestern gekaufte Buch\". Write: The book I bought yesterday is gripping.",
             source: "The book I bought yesterday is gripping.",
             answer: "Das gestern gekaufte Buch ist spannend.",
             altAnswers: ["Das Buch, das ich gestern gekauft habe, ist spannend."],
@@ -531,7 +532,7 @@ export const DE_B2_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct the error: *Ankommend in Berlin, rief er seine Mutter an. Write: On arriving in Berlin, he called his mother.",
+            prompt: "Correct the error in \"*Ankommend in Berlin, rief er seine Mutter an.\" Write: On arriving in Berlin, he called his mother.",
             source: "On arriving in Berlin, he called his mother.",
             answer: "In Berlin angekommen, rief er seine Mutter an.",
             altAnswers: ["Als er in Berlin ankam, rief er seine Mutter an.", "Als er in Berlin angekommen war, rief er seine Mutter an.", "In Berlin angekommen, hat er seine Mutter angerufen."],
@@ -561,7 +562,7 @@ export const DE_B2_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct and translate: *Der Film war enttäuscht. → The film was disappointing.",
+        prompt: "Correct \"*Der Film war enttäuscht.\" Write: The film was disappointing.",
         source: "The film was disappointing.",
         answer: "Der Film war enttäuschend.",
         explanation: "A film causes disappointment: \"enttäuschend\".",
@@ -585,8 +586,8 @@ export const DE_B2_U08: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "Correct the error *mit dem gestern gekaufte Buch. Write the German for the bold words.",
-        en: "I'm reading the [book I bought yesterday].",
+        prompt: "Correct the error in \"*mit dem gestern gekaufte Buch\". Write the German for the bold words.",
+        en: "I'm reading the book I [bought] yesterday.",
         sentence: "Ich lese in dem gestern ___ Buch.",
         answer: "gekauften",
         explanation: "After \"dem\": always -en.",
@@ -619,11 +620,11 @@ export const DE_B2_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct and translate: *Ich bin langweilig. → I'm bored.",
+        prompt: "Correct \"*Ich bin langweilig.\" Write: I'm bored.",
         source: "I'm bored.",
         answer: "Mir ist langweilig.",
-        altAnswers: ["Ich langweile mich.", "Ich bin gelangweilt."],
-        explanation: "\"Ich bin langweilig\" = I'm boring.",
+        altAnswers: ["Ich langweile mich.", "Ich bin gelangweilt.", "Ich habe Langeweile."],
+        explanation: "\"Ich bin langweilig\" = I'm boring. The feeling goes in the dative: \"mir ist langweilig\".",
       },
       {
         type: "word-order",
@@ -816,7 +817,7 @@ export const DE_B2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which word describes a fellow passenger (male) without an article?",
+        question: "A man is travelling in your compartment. How do you say 'a fellow traveller'?",
         options: ["ein Mitreisender", "ein Mitreisende", "ein Mitreisenden", "ein Mitgereist"],
         correctIndex: 0,
         explanation: "After \"ein\", masculine nominative: -er.",
@@ -870,12 +871,12 @@ export const DE_B2_U08: Lesson[] = [
       {
         heading: "From statement to news report",
         body: [
-          "A rail spokesperson says: \"Der Nachtzug hat wegen eines Schadens an der Lok zwei Stunden Verspätung.\" In the news, this becomes: \"Wie eine Sprecherin der Bahn mitteilte, habe der Nachtzug wegen eines Schadens an der Lok zwei Stunden Verspätung.\" Or more compact: \"Laut Bahn hatte der Nachtzug zwei Stunden Verspätung.\"",
-          "Three steps: 1. Choose the attribution (\"wie ... mitteilte\", \"laut\", \"zufolge\", \"nach Angaben\"). 2. Put the verb into Konjunktiv I (\"habe\", \"sei\", \"werde\") if you use a reporting frame. 3. Shift persons and possessives (ich → er/sie, wir → sie).",
-          "After \"laut\" or \"zufolge\", news reports often use the indicative, because the source is already named. With \"wie ... mitteilte\" or \"sagte\", the Konjunktiv I is standard.",
+          "A rail spokesperson says: \"Der Nachtzug hat wegen eines Schadens an der Lok zwei Stunden Verspätung.\" In the news, this becomes: \"Eine Sprecherin der Bahn teilte mit, der Nachtzug habe wegen eines Schadens an der Lok zwei Stunden Verspätung.\" Or more compact: \"Laut Bahn hatte der Nachtzug zwei Stunden Verspätung.\"",
+          "Three steps: 1. Choose the attribution (\"wie ... mitteilte\", \"laut\", \"zufolge\", \"nach Angaben\"). 2. Put the verb into Konjunktiv I (\"habe\", \"sei\", \"werde\") after a reporting verb (\"sagte\", \"teilte mit\"). 3. Shift persons and possessives (ich → er/sie, wir → sie).",
+          "After \"laut\", \"zufolge\" or a wie-clause (\"Wie die Polizei mitteilte, ...\"), news reports usually use the indicative, because the source is already named. After a reporting verb (\"sagte, ...\", \"teilte mit, ...\"), the Konjunktiv I is standard.",
         ],
         examples: [
-          { es: "Wie eine Sprecherin mitteilte, habe der Zug zwei Stunden Verspätung.", en: "As a spokeswoman announced, the train is two hours late." },
+          { es: "Eine Sprecherin teilte mit, der Zug habe zwei Stunden Verspätung.", en: "A spokeswoman announced that the train was two hours late." },
           { es: "Laut Bahn hatte der Zug zwei Stunden Verspätung.", en: "According to the railway, the train was two hours late." },
           { es: "Dem Bericht zufolge wurden drei Reisende leicht verletzt.", en: "According to the report, three travellers were slightly injured." },
           { es: "Nach Angaben der Polizei sei niemand schwer verletzt worden.", en: "According to the police, nobody was seriously injured." },
@@ -894,7 +895,7 @@ export const DE_B2_U08: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[According to the report], three travellers were slightly injured.",
+            en: "[According to] the report, three travellers were slightly injured.",
             sentence: "Dem Bericht ___ wurden drei Reisende leicht verletzt.",
             answer: "zufolge",
             explanation: "\"Zufolge\" follows its noun, which is in the dative: \"dem Bericht zufolge\".",
@@ -957,10 +958,10 @@ export const DE_B2_U08: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German, as in a news report.",
-        source: "As a spokeswoman announced, the train is two hours late.",
-        answer: "Wie eine Sprecherin mitteilte, habe der Zug zwei Stunden Verspätung.",
-        altAnswers: ["Wie eine Sprecherin mitteilte, hat der Zug zwei Stunden Verspätung."],
-        explanation: "\"Wie ... mitteilte\" + Konjunktiv I \"habe\".",
+        source: "A spokeswoman announced that the train was two hours late.",
+        answer: "Eine Sprecherin teilte mit, der Zug habe zwei Stunden Verspätung.",
+        altAnswers: ["Eine Sprecherin teilte mit, dass der Zug zwei Stunden Verspätung habe.", "Wie eine Sprecherin mitteilte, hat der Zug zwei Stunden Verspätung.", "Wie eine Sprecherin mitteilte, habe der Zug zwei Stunden Verspätung."],
+        explanation: "Reporting verb \"teilte mit\" + Konjunktiv I \"habe\" (no backshift in German: present KI for a present situation). With \"Wie ... mitteilte, ...\" the indicative \"hat\" is usual.",
       },
       {
         type: "translate",
@@ -982,9 +983,9 @@ export const DE_B2_U08: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which attribution is correct?",
-        options: ["Dem Bericht zufolge", "Zufolge dem Bericht", "Zufolge des Berichts", "Den Bericht zufolge"],
+        options: ["Dem Bericht zufolge", "Zufolge dem Bericht", "Des Berichts zufolge", "Den Bericht zufolge"],
         correctIndex: 0,
-        explanation: "\"Zufolge\" follows a dative noun.",
+        explanation: "\"Zufolge\" comes after its noun, which is in the dative: \"dem Bericht zufolge\". Not the genitive \"des Berichts\" and not the accusative \"den Bericht\".",
       },
       {
         type: "translate",
@@ -1018,7 +1019,7 @@ export const DE_B2_U08: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Wie eine Sprecherin der Bahn mitteilte, habe der Zug zwei Stunden Verspätung.",
+        text: "Eine Sprecherin der Bahn teilte mit, der Zug habe zwei Stunden Verspätung.",
         prompt: "Read it like a newsreader.",
         explanation: "News attribution + Konjunktiv I.",
       },
@@ -1059,7 +1060,7 @@ export const DE_B2_U08: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "How do you say I like swimming?",
+            question: "How do you say 'I like swimming'?",
             options: ["Ich schwimme gern.", "Ich mag schwimmend.", "Ich liebe schwimmen gehend.", "Ich bin gern schwimmend."],
             correctIndex: 0,
             explanation: "Verb + \"gern\" for liking an activity.",
@@ -1169,7 +1170,7 @@ export const DE_B2_U08: Lesson[] = [
         prompt: "Translate into German.",
         source: "She avoids driving at night.",
         answer: "Sie vermeidet es, nachts zu fahren.",
-        altAnswers: ["Sie vermeidet es, nachts Auto zu fahren.", "Sie fährt nachts nicht gern."],
+        altAnswers: ["Sie vermeidet es, nachts Auto zu fahren."],
         explanation: "\"Vermeiden\" + es + zu-infinitive.",
       },
       {
@@ -1192,7 +1193,7 @@ export const DE_B2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "How do you say a smiling child?",
+        question: "How do you say 'a smiling child'?",
         options: ["ein lächelndes Kind", "ein Kind lächelnd", "ein gelächeltes Kind", "ein Kind, das lächelnd ist"],
         correctIndex: 0,
         explanation: "Describing a noun: here Partizip I is the right choice.",
@@ -1270,7 +1271,7 @@ export const DE_B2_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct Mia's sentence: *Das Frühstück war wirklich enttäuscht. Write: The breakfast was really disappointing.",
+            prompt: "Correct Mia's sentence \"*Das Frühstück war wirklich enttäuscht.\" Write: The breakfast was really disappointing.",
             source: "The breakfast was really disappointing.",
             answer: "Das Frühstück war wirklich enttäuschend.",
             explanation: "The breakfast causes the disappointment: \"enttäuschend\".",
@@ -1303,7 +1304,7 @@ export const DE_B2_U08: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct *Das von uns gebuchten Zimmer hatte keinen Balkon. Write: The room we booked had no balcony.",
+            prompt: "Correct \"*Das von uns gebuchten Zimmer hatte keinen Balkon.\" Write: The room we booked had no balcony.",
             source: "The room we booked had no balcony.",
             answer: "Das von uns gebuchte Zimmer hatte keinen Balkon.",
             altAnswers: ["Das Zimmer, das wir gebucht hatten, hatte keinen Balkon.", "Das Zimmer, das wir gebucht haben, hatte keinen Balkon."],
@@ -1311,7 +1312,7 @@ export const DE_B2_U08: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Correct *Nach ankommend haben wir eine Stunde gewartet. Write the German for the bold words.",
+            prompt: "Correct \"*Nach ankommend haben wir eine Stunde gewartet.\" Write the German for the bold words.",
             en: "[After arriving] we waited for an hour.",
             sentence: "___ haben wir eine Stunde gewartet.",
             answer: "Nach der Ankunft",
@@ -1344,7 +1345,7 @@ export const DE_B2_U08: Lesson[] = [
         checkpoint: [
           {
             type: "word-order",
-            prompt: "Correct the word order: Exhausted from the long journey, we went straight to bed.",
+            prompt: "Put the words in order to say: Exhausted from the journey, we went straight to bed.",
             words: ["Von", "der", "Reise", "erschöpft,", "gingen", "wir", "sofort", "ins", "Bett."],
             translation: "Exhausted from the journey, we went straight to bed.",
             explanation: "Participle clause, comma, then verb before subject.",
@@ -1365,7 +1366,7 @@ export const DE_B2_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct *Wir waren sehr enttäuschend von dem Hotel. Write: We were very disappointed with the hotel.",
+        prompt: "Correct \"*Wir waren sehr enttäuschend von dem Hotel.\" Write: We were very disappointed with the hotel.",
         source: "We were very disappointed with the hotel.",
         answer: "Wir waren sehr enttäuscht von dem Hotel.",
         altAnswers: ["Wir waren von dem Hotel sehr enttäuscht.", "Wir waren vom Hotel sehr enttäuscht.", "Wir waren sehr enttäuscht vom Hotel."],
@@ -1383,7 +1384,7 @@ export const DE_B2_U08: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct *Ich mag nicht duschend mit kaltem Wasser. Write: I don't like taking cold showers.",
+        prompt: "Correct \"*Ich mag nicht duschend mit kaltem Wasser.\" Write: I don't like taking cold showers.",
         source: "I don't like taking cold showers.",
         answer: "Ich dusche nicht gern kalt.",
         altAnswers: ["Ich dusche nicht gerne kalt.", "Kalt duschen mag ich nicht.", "Ich mag es nicht, kalt zu duschen."],
@@ -1464,7 +1465,7 @@ export const DE_B2_U08: Lesson[] = [
     slug: "b2-talk-about-you-ueberraschend",
     level: "DE-B2",
     number: 8,
-    title: "Talk About Yourself: Was Dich Überrascht oder Enttäuscht Hat",
+    title: "Talk About Yourself: Was dich überrascht oder enttäuscht hat",
     summary: "Describe a surprising trip, a disappointing film and an exciting moment with -end / -t pairs and participle clauses.",
     duration: "14 min",
     sections: [
@@ -1625,7 +1626,7 @@ export const DE_B2_U08: Lesson[] = [
       {
         type: "dictation",
         audio: "Besonders beeindruckend fand ich die alte Fabrik.",
-        explanation: "\"Beeindruckend\" with double e: be + eindrucken.",
+        explanation: "\"Beeindruckend\" with double e: be + \"Eindruck\" (impression).",
       },
       {
         type: "speak",
@@ -1725,7 +1726,7 @@ export const DE_B2_U08: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence means The shop is closed (it's not open now)?",
+        question: "Which sentence means 'The shop is closed' (it's not open now)?",
         options: ["Der Laden ist geschlossen.", "Der Laden wird geschlossen.", "Der Laden ist geschlossen geworden.", "Der Laden hat geschlossen worden."],
         correctIndex: 0,
         explanation: "State: \"ist geschlossen\". \"Wird geschlossen\" = is being closed (or will be).",

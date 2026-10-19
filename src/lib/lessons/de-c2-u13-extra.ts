@@ -9,7 +9,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Argumentation, Learned Connectors with Fine Nuance, Part 1 of 3",
-    summary: "Practise the learned connectors of argument, gleichwohl, mithin, zumal, insofern, folglich, demnach, hingegen and wohingegen, with their exact meaning and word order.",
+    summary: "Use the learned connectors of argument (\"gleichwohl\", \"mithin\", \"zumal\", \"insofern\", \"folglich\", \"demnach\", \"hingegen\", \"wohingegen\") with their exact meaning and word order.",
     duration: "14 min",
     sections: [
       {
@@ -17,7 +17,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
         body: [
           "Adverbs take position 1 and push the verb next, or sit in the middle field: \"gleichwohl\" (nevertheless, formal), \"mithin\" (consequently, therefore, very formal), \"folglich\" (consequently), \"demnach\" (accordingly, according to that), \"hingegen\" (on the other hand), \"insofern\" (in that respect).",
           "Subordinating conjunctions send the verb to the end: \"zumal\" (especially since: adds a reinforcing reason) and \"wohingegen\" (whereas). \"Insofern ... als\" pairs an adverb with a verb-final clause.",
-          "Nuance: \"folglich\" and \"mithin\" draw a logical conclusion; \"demnach\" says according to what was just said or cited; \"hingegen\" contrasts two subjects (often after the subject: \"Lena hingegen ...\").",
+          "Nuance: \"folglich\" and \"mithin\" draw a logical conclusion; \"demnach\" says 'according to what was just said or cited'; \"hingegen\" contrasts two subjects (often after the subject: \"Lena hingegen ...\").",
         ],
         examples: [
           { es: "Die Lage ist schwierig; gleichwohl sehe ich Chancen.", en: "The situation is difficult; nevertheless, I see opportunities." },
@@ -193,7 +193,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Argumentation, the Mood That Argues, Part 2 of 3",
-    summary: "Konjunktiv I to report and distance yourself from a position, Konjunktiv II to argue hypothetically and to soften: fresh debate sentences to translate.",
+    summary: "Use Konjunktiv I to report a position and distance yourself from it, and Konjunktiv II to argue hypothetically and to soften, in fresh debate sentences.",
     duration: "14 min",
     sections: [
       {
@@ -291,7 +291,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
         source: "If we had acted earlier, we would have saved money.",
         answer: "Wenn wir früher gehandelt hätten, hätten wir Geld gespart.",
         altAnswers: ["Hätten wir früher gehandelt, hätten wir Geld gespart.", "Wenn wir früher gehandelt hätten, hätten wir Geld eingespart.", "Hätten wir früher gehandelt, hätten wir Geld eingespart."],
-        explanation: "Past Konjunktiv II: \"hätte\" + participle in both clauses; the wenn can be dropped with verb-first order.",
+        explanation: "Past Konjunktiv II: \"hätte\" + participle in both clauses; the \"wenn\" can be dropped with verb-first order.",
       },
       {
         type: "translate",
@@ -362,8 +362,8 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
     level: "DE-C2",
     number: 3,
     optional: true,
-    title: "Extra Practice: Argumentation, Es Gilt, Es Ist Geboten and Courteous Disagreement, Part 3 of 3",
-    summary: "Impersonal argument structures (es gilt zu, es ist geboten, es empfiehlt sich, es ist davon auszugehen, es bleibt festzuhalten) and polite dissent, in fresh sentences.",
+    title: "Extra Practice: Argumentation, Es gilt, Es ist geboten and Courteous Disagreement, Part 3 of 3",
+    summary: "Argue impersonally with \"es gilt, ... zu\", \"es ist geboten\", \"es empfiehlt sich\", \"es ist davon auszugehen\" and \"es bleibt festzuhalten\", and disagree politely, in fresh sentences.",
     duration: "14 min",
     sections: [
       {
@@ -402,7 +402,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
           {
             type: "speak",
             text: "Bei allem Verständnis für Ihre Position: Das geht zu weit.",
-            tip: "Pause at the colon, then stress weit.",
+            tip: "Pause at the colon, then stress \"weit\".",
             explanation: "Acknowledge first, then set the limit.",
           },
         ],
@@ -520,7 +520,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
         question: "What does it mean?",
         options: ["It can be assumed that prices will keep rising.", "Prices must not keep rising.", "We should go out before prices rise.", "Prices have stopped rising."],
         correctIndex: 0,
-        explanation: "\"Davon ausgehen\" = to assume; \"ist ... auszugehen\" is its sein + zu form.",
+        explanation: "\"Davon ausgehen\" = to assume; \"ist ... auszugehen\" is its \"sein\" + \"zu\" form.",
       },
       {
         type: "dictation",
@@ -541,13 +541,13 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Order the Argument",
-    summary: "Reorder scrambled sentences into a coherent Erörterung paragraph, using the connectors as signposts, and translate the key sentences.",
+    summary: "Reorder scrambled sentences into a coherent \"Erörterung\" paragraph, using the connectors as signposts, and translate the key sentences.",
     duration: "14 min",
     sections: [
       {
         heading: "Recap: the signposts of an Erörterung paragraph",
         body: [
-          "A paragraph in a German Erörterung follows a predictable path: thesis (\"Ich vertrete die Auffassung, dass ...\"), first argument (\"Zunächst ...\", \"Ein wesentliches Argument ist ...\"), evidence or example (\"So ...\", \"Wie Studien zeigen ...\"), further argument (\"Hinzu kommt ...\", \"Darüber hinaus ...\"), concession and refutation (\"Zwar ..., doch ...\"), conclusion (\"Daraus folgt ...\", \"Abschließend ...\").",
+          "A paragraph in a German \"Erörterung\" (argumentative essay) follows a predictable path: thesis (\"Ich vertrete die Auffassung, dass ...\"), first argument (\"Zunächst ...\", \"Ein wesentliches Argument ist ...\"), evidence or example (\"So ...\", \"Wie Studien zeigen ...\"), further argument (\"Hinzu kommt ...\", \"Darüber hinaus ...\"), concession and refutation (\"Zwar ..., doch ...\"), conclusion (\"Daraus folgt ...\", \"Abschließend ...\").",
           "When sentences are scrambled, the connectors tell you their place: a sentence starting with \"Hinzu kommt\" can't come first, \"So\" needs a claim before it, and \"Daraus folgt\" needs everything else.",
         ],
         examples: [
@@ -621,7 +621,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, with zwar ... doch.",
+        prompt: "Translate into German, with \"zwar ... doch\".",
         source: "Some retailers fear losses, but experience shows the opposite.",
         answer: "Zwar fürchten manche Händler Verluste, doch die Erfahrung zeigt das Gegenteil.",
         altAnswers: ["Manche Händler fürchten zwar Verluste, doch die Erfahrung zeigt das Gegenteil.", "Zwar befürchten manche Händler Verluste, doch die Erfahrung zeigt das Gegenteil.", "Zwar fürchten einige Händler Verluste, aber die Erfahrung zeigt das Gegenteil.", "Zwar fürchten manche Händler Umsatzeinbußen, doch die Erfahrung zeigt das Gegenteil."],
@@ -868,7 +868,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
       {
         heading: "Recap: what changes between registers",
         body: [
-          "Colloquial: particles (\"halt\", \"doch\", \"echt\"), \"weil\" clauses, \"ich find\", colloquial words (\"Kohle\", \"kriegen\", \"bringen\" for be useful). Neutral: \"ich finde / meine\", standard vocabulary, \"deshalb\", \"aber\". Academic: impersonal structures (\"es lässt sich feststellen\"), nominal style, learned connectors (\"folglich\", \"gleichwohl\"), Konjunktiv for distance.",
+          "Colloquial: particles (\"halt\", \"doch\", \"echt\"), \"weil\" clauses, \"ich find\", colloquial words (\"Kohle\", \"kriegen\", \"bringen\" for 'be useful'). Neutral: \"ich finde / meine\", standard vocabulary, \"deshalb\", \"aber\". Academic: impersonal structures (\"es lässt sich feststellen\"), nominal style, learned connectors (\"folglich\", \"gleichwohl\"), Konjunktiv for distance.",
           "Example: colloquial \"Das bringt doch nix, das kostet bloß Kohle.\" Neutral: \"Ich glaube, das ist nicht sinnvoll, weil es zu teuer ist.\" Academic: \"Der Nutzen der Maßnahme steht in keinem Verhältnis zu den Kosten.\"",
         ],
         examples: [
@@ -943,7 +943,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
         source: "It can be stated that the measure has failed.",
         answer: "Es lässt sich feststellen, dass die Maßnahme gescheitert ist.",
         altAnswers: ["Es lässt sich festhalten, dass die Maßnahme gescheitert ist.", "Es kann festgestellt werden, dass die Maßnahme gescheitert ist.", "Es ist festzustellen, dass die Maßnahme gescheitert ist."],
-        explanation: "Impersonal \"sich lassen\" + infinitive avoids I.",
+        explanation: "Impersonal \"sich lassen\" + infinitive avoids 'I'.",
       },
       {
         type: "multiple-choice",
@@ -1025,7 +1025,7 @@ export const DE_C2_U13_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Es besteht dringender Handlungsbedarf.",
-        explanation: "\"Handlungsbedarf\": \"Handlung\" + Fugen-s + \"Bedarf\".",
+        explanation: "\"Handlungsbedarf\": \"Handlung\" + linking -s- (\"Fugen-s\") + \"Bedarf\".",
       },
       {
         type: "speak",

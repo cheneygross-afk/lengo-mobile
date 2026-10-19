@@ -17,7 +17,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
       {
         heading: `Regular verbs: stem + -te`,
         body: [
-          `Regular (weak) verbs add "-te" plus the person endings to the stem. If the stem ends in -t, -d or a consonant + n, add "-ete": "arbeitete", "redete", "öffnete". The "ich" and "er/sie/es" forms are identical, and neither has a final -t.`,
+          `Regular (weak) verbs add "-te" plus the person endings to the stem. If the stem ends in -t, -d, or in -m/-n after another consonant (not after l, r or h), add "-ete": "arbeitete", "redete", "öffnete", but "lernte". The "ich" and "er/sie/es" forms are identical, and neither has a final -t.`,
         ],
         table: {
           headers: ["", "machen", "arbeiten"],
@@ -83,7 +83,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         heading: `Präteritum or Perfekt?`,
         body: [
           `Speaking about your own past: mainly Perfekt, with "war", "hatte", modals and "es gab" in the Präteritum. Writing a story, a report, a CV narrative or a formal account: Präteritum throughout. A personal email or chat message sits in between and follows spoken habits.`,
-          `Swapping one for the other never changes the meaning. Mixing both in one written story is unusual, though, so once you start narrating in the Präteritum, stay there.`,
+          `Swapping one for the other almost never changes the meaning. Mixing both in one written story is unusual, though, so once you start narrating in the Präteritum, stay there.`,
         ],
         examples: [
           { de: "Gestern bin ich ins Kino gegangen. Der Film war super.", en: "I went to the cinema yesterday. The film was great. (spoken)" },
@@ -152,7 +152,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
     ],
     sections: [
       {
-        heading: `Hatte or war + participle`,
+        heading: `"Hatte" or "war" + participle`,
         body: [
           `The same verbs that take "haben" in the Perfekt take "hatte" here, and the same verbs that take "sein" take "war". The participle goes to the end, exactly as in the Perfekt.`,
         ],
@@ -175,7 +175,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Nachdem: after something had happened`,
+        heading: `"Nachdem": after something had happened`,
         body: [
           `"Nachdem" (after) is a conjunction that sends the verb to the end, and it requires the earlier action to be one tense further back. If the main clause is in the past (Präteritum or Perfekt), the nachdem-clause is in the Plusquamperfekt. If the main clause is in the present, the nachdem-clause is in the Perfekt.`,
         ],
@@ -193,13 +193,13 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Nach, nachdem or danach?`,
+        heading: `"Nach", "nachdem" or "danach"?`,
         body: [
           `All three mean after, but they are different parts of speech. "Nach" is a preposition with a noun in the dative: "nach dem Essen". "Nachdem" is a conjunction with a whole clause, verb at the end: "nachdem wir gegessen hatten". "Danach" is an adverb meaning afterwards; it stands alone and, in position 1, pulls the verb in after it: "Danach gingen wir spazieren".`,
         ],
         examples: [
           { de: "Nach der Arbeit gehe ich einkaufen.", en: "After work I go shopping." },
-          { de: "Nachdem ich gearbeitet habe, gehe ich einkaufen.", en: "After I've worked, I go shopping." },
+          { de: "Nachdem ich gearbeitet habe, gehe ich einkaufen.", en: "Once I've finished working, I go shopping." },
           { de: "Ich arbeite bis fünf. Danach gehe ich einkaufen.", en: "I work until five. Afterwards I go shopping." },
         ],
       },
@@ -256,7 +256,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
     ],
     sections: [
       {
-        heading: `Als: once, in the past`,
+        heading: `"Als": once, in the past`,
         body: [
           `Use "als" for something that happened once, or for a single period such as a childhood: "Als ich zehn war" (when I was ten), "Als ich in Berlin wohnte" (when I lived in Berlin). It sends the verb to the end.`,
         ],
@@ -267,7 +267,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Wenn: every time, now and later`,
+        heading: `"Wenn": every time, now and later`,
         body: [
           `Use "wenn" for repeated past events, often with "immer": "Immer wenn wir Oma besuchten, gab es Kuchen" (whenever we visited Grandma, there was cake). Use it for every present and future when: "Wenn ich nach Hause komme, rufe ich dich an" (when I get home, I'll call you). And use it for if: "Wenn es regnet, bleiben wir drinnen".`,
         ],
@@ -279,7 +279,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Wann: questions`,
+        heading: `"Wann": questions`,
         body: [
           `"Wann" asks at what time. In a direct question the verb comes second: "Wann kommst du?". In an indirect question it sends the verb to the end: "Weißt du, wann der Film anfängt?". If you could replace when with at what time, it is "wann".`,
         ],
@@ -340,7 +340,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
     faqs: [
       {
         q: `What about repeated actions in the past without "immer"?`,
-        a: `"Wenn" still works, but "immer wenn" or "jedes Mal, wenn" makes the repetition clear and is very common: "Jedes Mal, wenn ich ihn sehe, lacht er."`,
+        a: `"Wenn" still works, but "immer wenn" or "jedes Mal, wenn" makes the repetition clear and is very common: "Jedes Mal, wenn ich ihn traf, lachte er."`,
       },
       {
         q: `Does "als" have other meanings?`,
@@ -370,7 +370,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
     ],
     sections: [
       {
-        heading: `Würde + infinitive`,
+        heading: `"Würde" + infinitive`,
         body: [
           `"Würde" is conjugated and goes in position 2; the infinitive goes to the end. In a subordinate clause, "würde" is the last word. Separable verbs stay whole at the end: "Ich würde gern ausschlafen".`,
           `Do not confuse "würde" (would) with "wurde" (became, was, the Präteritum of "werden"). The umlaut is the whole difference.`,
@@ -408,7 +408,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Unreal conditions: wenn + Konjunktiv II`,
+        heading: `Unreal conditions: "wenn" + Konjunktiv II`,
         body: [
           `For conditions that are not true or not likely, both halves take the Konjunktiv II: "Wenn ich reich wäre, würde ich ein Haus am Meer kaufen." Compare a real condition with the indicative: "Wenn ich Zeit habe, komme ich" (I may well have time) versus "Wenn ich Zeit hätte, würde ich kommen" (I don't have time).`,
           `In writing, the wenn-clause can drop "wenn" and start with the verb: "Hätte ich mehr Geld, würde ich reisen." For conditions in the past (if I had known), German uses "hätte" or "wäre" + participle, which comes at the next level.`,
@@ -458,13 +458,13 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Ich würde haben mehr Zeit.",
         right: "Ich hätte mehr Zeit.",
-        why: `"Haben" uses "hätte"; "würde haben" sounds wrong.`,
+        why: `"Haben" uses "hätte"; "*würde haben*" sounds wrong.`,
       },
     ],
     faqs: [
       {
         q: `Can I always use "würde" instead of the one-word forms?`,
-        a: `For most verbs, yes, and in speech that is what Germans do. For "sein", "haben" and the modals, always use "wäre", "hätte", "könnte" and so on: "ich würde sein" and "ich würde können" sound wrong.`,
+        a: `For most verbs, yes, and in speech that is what Germans do. For "sein", "haben" and the modals, use "wäre", "hätte", "könnte" and so on: "*ich würde sein*" and "*ich würde können*" sound clumsy or wrong.`,
       },
       {
         q: `Is the Konjunktiv II the same as the Konjunktiv I?`,
@@ -525,14 +525,14 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Whose: dessen and deren`,
+        heading: `Whose: "dessen" and "deren"`,
         body: [
           `"Dessen" (for masculine and neuter nouns) and "deren" (for feminine and plural nouns) mean whose. They agree with the owner, not with the thing owned, and the noun after them takes no article: "der Mann, dessen Auto ..." (the man whose car ...).`,
         ],
         examples: [
           { de: "Das ist die Nachbarin, deren Hund immer bellt.", en: "That's the neighbour whose dog always barks." },
           { de: "Ich habe einen Freund, dessen Mutter Ärztin ist.", en: "I have a friend whose mother is a doctor." },
-          { de: "Die Kinder, deren Eltern noch nicht da sind, warten hier.", en: "The children whose parents aren't here yet wait here." },
+          { de: "Die Kinder, deren Eltern noch nicht da sind, warten hier.", en: "The children whose parents aren't here yet are waiting here." },
         ],
       },
       {
@@ -547,7 +547,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Wo, was and wer`,
+        heading: `"Wo", "was" and "wer"`,
         body: [
           `For places, "wo" can replace preposition + pronoun: "die Stadt, wo ich wohne" is as good as "die Stadt, in der ich wohne". After "alles", "nichts", "etwas", "das" and superlatives used as nouns, the relative pronoun is "was": "alles, was ich weiß", "das Beste, was mir passiert ist". "Was" also refers back to a whole clause: "Er hat angerufen, was mich gefreut hat".`,
           `"Wer" means whoever, those who: "Wer zu spät kommt, muss draußen warten".`,
@@ -617,11 +617,11 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
     level: "B1",
     intro: [
       `German infinitive clauses work much like English to-clauses: "Ich habe vergessen, dich anzurufen" (I forgot to call you). The "zu" goes right before the infinitive at the end of the clause, and the clause is usually marked off with a comma.`,
-      `The trap runs both ways: some verbs that take to in English take no "zu" in German (the modals, "lassen", "gehen", "sehen", "hören"), and German has extra infinitive clauses with "um", "ohne" and "statt" where English uses -ing or in order to.`,
+      `The trap runs both ways: some verbs take no "zu" in German even where English has to (the modals, as in want to and have to, and "lassen", "gehen", "sehen", "hören"), and German has extra infinitive clauses with "um", "ohne" and "statt" where English uses -ing or in order to.`,
     ],
     sections: [
       {
-        heading: `Verbs, nouns and adjectives with zu`,
+        heading: `Verbs, nouns and adjectives with "zu"`,
         body: [
           `Many verbs take a zu-infinitive: "versuchen" (try), "vergessen" (forget), "anfangen" (start), "aufhören" (stop), "vorhaben" (plan), "hoffen" (hope), "vorschlagen" (suggest). So do expressions with nouns and adjectives: "Lust haben" (feel like), "Zeit haben", "Es ist wichtig", "Es ist schwer".`,
           `With a separable verb, "zu" goes between the prefix and the stem, written as one word: "anrufen" becomes "anzurufen", "aufstehen" becomes "aufzustehen".`,
@@ -635,7 +635,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `No zu: modals and a few other verbs`,
+        heading: `No "zu": modals and a few other verbs`,
         body: [
           `The modal verbs never take "zu": "Ich muss arbeiten", "Ich kann schwimmen". Nor do "werden" (future), "lassen", "bleiben", "gehen", "lernen" (often), and the perception verbs "sehen" and "hören": "Ich gehe schwimmen", "Ich höre ihn singen".`,
         ],
@@ -646,7 +646,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Um ... zu, ohne ... zu, statt ... zu`,
+        heading: `"Um ... zu", "ohne ... zu", "statt ... zu"`,
         body: [
           `"Um ... zu" expresses purpose, in order to: "Ich lerne Deutsch, um in Berlin zu arbeiten". "Ohne ... zu" is without doing: "Er ging, ohne sich zu verabschieden" (he left without saying goodbye). "Statt ... zu" (or "anstatt ... zu") is instead of doing: "Statt zu lernen, hat er gespielt".`,
           `English often uses an -ing form where German uses these structures: without saying, instead of studying. German never uses an -ing-style form here.`,
@@ -659,9 +659,9 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Um ... zu or damit?`,
+        heading: `"Um ... zu" or "damit"?`,
         body: [
-          `Both express purpose. Use "um ... zu" when the subject of both clauses is the same person: "Ich lerne, um die Prüfung zu bestehen" (I learn, I pass). Use "damit" with a full clause, verb at the end, when the subjects differ: "Ich erkläre es dir, damit du es verstehst" (I explain, you understand). "Damit" is always possible; "um ... zu" only with the same subject.`,
+          `Both express purpose. Use "um ... zu" when the subject of both clauses is the same person: "Ich lerne, um die Prüfung zu bestehen" (I learn, I pass). Use "damit" with a full clause, verb at the end, when the subjects differ: "Ich erkläre es dir, damit du es verstehst" (I explain, you understand). "Damit" also works with the same subject, but "um ... zu" is preferred there; with different subjects only "damit" is possible.`,
         ],
         table: {
           headers: ["Same subject", "Different subjects"],
@@ -737,7 +737,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
     ],
     sections: [
       {
-        heading: `Werden + participle`,
+        heading: `"Werden" + participle`,
         body: [
           `Conjugate "werden" in position 2 and put the participle at the end. The object of the active sentence becomes the subject: "Man repariert die Straße" becomes "Die Straße wird repariert". For the past, use "wurde": "Die Straße wurde repariert".`,
           `The Perfekt passive uses "sein" + participle + "worden" (not "geworden"): "Die Straße ist repariert worden". In subordinate clauses the whole verb cluster goes to the end: "..., weil die Straße repariert wird".`,
@@ -771,7 +771,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Who did it: von or durch`,
+        heading: `Who did it: "von" or "durch"`,
         body: [
           `If you mention the agent, use "von" + dative for a person or a direct cause: "Das Bild wurde von Klimt gemalt". "Durch" + accusative is for a means or an indirect cause: "Die Stadt wurde durch ein Erdbeben zerstört". Most passive sentences leave the agent out, which is the point of the passive.`,
         ],
@@ -782,7 +782,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `The three jobs of werden, and man`,
+        heading: `The three jobs of "werden", and "man"`,
         body: [
           `"Werden" does three jobs, and the last word of the clause tells you which. With an adjective or noun it means become: "Es wird kalt". With an infinitive it is the future: "Sie wird morgen kommen". With a participle it is the passive: "Das Paket wird morgen gebracht".`,
           `"Man" + active verb is the everyday alternative: "Man spricht hier Deutsch" equals "Hier wird Deutsch gesprochen". "Man" sounds more spoken and general; the passive more official.`,
@@ -857,9 +857,9 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
     ],
     sections: [
       {
-        heading: `After der, dieser, jeder, welcher (weak endings)`,
+        heading: `After "der", "dieser", "jeder", "welcher" (weak endings)`,
         body: [
-          `The article shows everything, so the adjective takes "-e" in the five nominative and accusative singular cells marked below, and "-en" everywhere else, including all of the dative, all of the genitive and every plural.`,
+          `The article shows everything, so the adjective takes "-e" in five nominative and accusative singular cells (all three nominatives, and the feminine and neuter accusative), and "-en" everywhere else, including all of the dative, all of the genitive and every plural.`,
         ],
         table: {
           headers: ["", "Masculine", "Feminine", "Neuter", "Plural"],
@@ -877,7 +877,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `After ein, kein, mein (mixed endings)`,
+        heading: `After "ein", "kein", "mein" (mixed endings)`,
         body: [
           `"Ein" has no ending in three cells: masculine nominative, neuter nominative and neuter accusative. There the adjective takes the strong ending: "ein alter Mann", "ein altes Haus". Everywhere else, exactly as after "der".`,
         ],
@@ -993,7 +993,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
       {
         heading: `The genitive articles and the noun ending`,
         body: [
-          `Masculine and neuter take "des" (or "eines", "meines") and add "-s" to the noun, or "-es" if the noun is one syllable or ends in -s, -ß, -x, -z: "des Vaters", "des Kindes", "des Hauses". Feminine and plural take "der" (or "einer", "meiner") and add nothing to the noun.`,
+          `Masculine and neuter take "des" (or "eines", "meines") and add "-s" to the noun ("des Vaters"), or "-es": always after -s, -ß, -x, -z ("des Hauses"), often with one-syllable nouns ("des Kindes"; but "des Films" and "des Filmes" are both correct). Feminine and plural take "der" (or "einer", "meiner") and add nothing to the noun.`,
           `The genitive noun phrase follows the noun it belongs to: "die Farbe des Autos" (the colour of the car). Adjectives in the genitive almost always end in "-en".`,
         ],
         table: {
@@ -1012,7 +1012,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Names and wessen`,
+        heading: `Names and "wessen"`,
         body: [
           `Names take "-s" with no apostrophe and come before the noun, as in English: "Annas Auto", "Peters Mutter", "Deutschlands Hauptstadt". After names ending in -s, -ß, -x or -z, write an apostrophe only: "Klaus' Fahrrad", though in speech people avoid it with "das Fahrrad von Klaus".`,
           `The question word is "wessen" (whose): "Wessen Jacke ist das?". In speech, "Wem gehört die Jacke?" is more common.`,
@@ -1037,7 +1037,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Genitive or von + dative?`,
+        heading: `Genitive or "von" + dative?`,
         body: [
           `"Von" + dative replaces the genitive in speech and is required when there is no article to show the genitive, as with bare plurals: "der Preis von Äpfeln", "die Hälfte von zehn". With names and pronouns, "von" is also normal: "ein Freund von mir" (a friend of mine).`,
           `In writing, prefer the genitive whenever there is an article: "das Ende des Tages", not "das Ende von dem Tag".`,
@@ -1058,7 +1058,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Anna's Auto",
         right: "Annas Auto",
-        why: `German names take a plain "-s" with no apostrophe.`,
+        why: `Standard spelling is a plain "-s" with no apostrophe; "Anna's" is tolerated on signs but best avoided.`,
       },
       {
         wrong: "das Ende der Film",
@@ -1142,7 +1142,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `The irregular few: der Name, das Herz`,
+        heading: `The irregular few: "der Name", "das Herz"`,
         body: [
           `A handful of nouns take the n-ending and an "-s" in the genitive: "der Name, den Namen, dem Namen, des Namens". The same for "der Gedanke", "der Buchstabe", "der Glaube". "Das Herz" (neuter) goes "das Herz, das Herz, dem Herzen, des Herzens".`,
         ],
@@ -1275,7 +1275,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Ich denke über dich.",
         right: "Ich denke an dich.",
-        why: `Thinking of someone is "denken an". "Nachdenken über" means to think something over.`,
+        why: `Thinking of someone is "denken an". "Denken über" is for opinions ("Was denkst du über ihn?"), and "nachdenken über" means to think something over.`,
       },
       {
         wrong: "Ich interessiere mich in Musik.",
@@ -1319,7 +1319,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
       "How German replaces preposition + it with darauf, daran, dafür, asks with worauf, woran, wofür, keeps auf ihn for people, and points ahead to dass- and zu-clauses.",
     level: "B1",
     intro: [
-      `German does not say "auf es" or "mit es". When a preposition would be followed by it, that or what, referring to a thing or an idea, German glues "da-" or "wo-" onto the front of the preposition: "darauf" (on it, for it), "damit" (with it), "worauf" (on what, for what), "womit" (with what).`,
+      `German does not say "*auf es*" or "*mit es*". When a preposition would be followed by it, that or what, referring to a thing or an idea, German glues "da-" or "wo-" onto the front of the preposition: "darauf" (on it, for it), "damit" (with it), "worauf" (on what, for what), "womit" (with what).`,
       `These compounds are everywhere because so many verbs come with prepositions: "Ich warte auf den Bus" becomes "Ich warte darauf" (I'm waiting for it), and the question is "Worauf wartest du?" (what are you waiting for?).`,
     ],
     sections: [
@@ -1362,7 +1362,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Pointing ahead: darauf, dass ...`,
+        heading: `Pointing ahead: "darauf, dass ..."`,
         body: [
           `A da-compound can announce a whole clause that follows, a dass-clause or a zu-infinitive. "Ich freue mich darauf, dich zu sehen" (I'm looking forward to seeing you). "Es kommt darauf an, ob es regnet" (it depends on whether it rains). English has nothing similar, so this is easy to forget.`,
           `With some verbs the da-compound is required ("Es kommt darauf an"), with others it is optional but common ("Ich habe (daran) gedacht, dass ...").`,
@@ -1434,7 +1434,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
     ],
     sections: [
       {
-        heading: `Entweder ... oder, weder ... noch, sowohl ... als auch`,
+        heading: `"Entweder ... oder", "weder ... noch", "sowohl ... als auch"`,
         body: [
           `"Entweder ... oder" (either ... or) offers a choice. "Weder ... noch" (neither ... nor) negates both parts; it already contains the negation, so never add "nicht". "Sowohl ... als auch" (both ... and, as well as) adds two things.`,
           `"Entweder" can stand in position 1, followed by the verb, or outside the sentence with normal order; "oder" never changes word order.`,
@@ -1447,7 +1447,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Nicht nur ... sondern auch, zwar ... aber`,
+        heading: `"Nicht nur ... sondern auch", "zwar ... aber"`,
         body: [
           `"Nicht nur ... sondern auch" (not only ... but also) stresses the second part. "Zwar ... aber" (admittedly ... but, it's true ... but) concedes a point before contradicting it, and is very useful in argument: "Die Wohnung ist zwar klein, aber sie ist günstig."`,
           `"Zwar" in position 1 pulls the verb in: "Zwar ist die Wohnung klein, aber ...". "Aber" and "sondern" leave word order unchanged.`,
@@ -1459,7 +1459,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Je ... desto (umso)`,
+        heading: `"Je ... desto" ("umso")`,
         body: [
           `"Je" + comparative ... "desto" (or "umso") + comparative means the more ... the more. The je-clause sends its verb to the end; the desto-clause has the comparative in position 1 and the verb straight after it.`,
         ],
@@ -1478,7 +1478,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
         ],
       },
       {
-        heading: `Aber or sondern?`,
+        heading: `"Aber" or "sondern"?`,
         body: [
           `Both mean but. "Sondern" (but rather, instead) corrects a negative statement: "nicht heute, sondern morgen". "Aber" adds a contrast without correcting: "Es ist kalt, aber sonnig." After "nicht" or "kein", if the second part replaces the first, use "sondern".`,
         ],
@@ -1513,7 +1513,7 @@ export const DE_B1_GUIDES: DeGrammarGuide[] = [
       {
         wrong: "Sowohl ich als auch mein Bruder spielt Fußball.",
         right: "Sowohl ich als auch mein Bruder spielen Fußball.",
-        why: `Two subjects joined by "sowohl ... als auch" take a plural verb.`,
+        why: `Two subjects joined by "sowohl ... als auch" normally take a plural verb.`,
       },
     ],
     faqs: [

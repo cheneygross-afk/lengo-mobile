@@ -64,7 +64,7 @@ export const DE_A2_U03: Lesson[] = [
             prompt: "Translate into German.",
             source: "I cycled to work.",
             answer: "Ich bin mit dem Fahrrad zur Arbeit gefahren.",
-            altAnswers: ["Ich bin mit dem Rad zur Arbeit gefahren.", "Ich bin zur Arbeit Fahrrad gefahren."],
+            altAnswers: ["Ich bin mit dem Rad zur Arbeit gefahren.", "Ich bin zur Arbeit Fahrrad gefahren.", "Ich bin mit dem Fahrrad zur Arbeit gekommen.", "Ich bin zur Arbeit geradelt."],
             explanation: "By bike is \"fahren\" + \"mit dem Fahrrad\"; movement → \"bin\".",
           },
           {
@@ -113,7 +113,7 @@ export const DE_A2_U03: Lesson[] = [
             prompt: "Translate into German.",
             source: "When did you come? (to a friend)",
             answer: "Wann bist du gekommen?",
-            altAnswers: ["Wann seid ihr gekommen?", "Wann sind Sie gekommen?"],
+            altAnswers: ["Wann bist du angekommen?"],
             explanation: "\"Kommen\" takes \"sein\": \"bist du ... gekommen\".",
           },
         ],
@@ -208,7 +208,7 @@ export const DE_A2_U03: Lesson[] = [
     slug: "a2-perfekt-sein-pattern",
     level: "DE-A2",
     number: 2,
-    title: "Pattern Practice: Ich Bin Gegangen, Du Bist Gegangen",
+    title: "Pattern Practice: Ich bin gegangen, du bist gegangen",
     summary: "Drill bin, bist, ist, sind, seid, sind with gegangen, gefahren, gekommen and geflogen until automatic.",
     duration: "10 min",
     sections: [
@@ -231,7 +231,6 @@ export const DE_A2_U03: Lesson[] = [
             prompt: "Translate into German.",
             source: "You drove too fast. (to a friend)",
             answer: "Du bist zu schnell gefahren.",
-            altAnswers: ["Ihr seid zu schnell gefahren.", "Sie sind zu schnell gefahren."],
             explanation: "\"Du bist\" + \"gefahren\".",
           },
           {
@@ -369,7 +368,7 @@ export const DE_A2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which completes: Meine Freundin und ich ___ nach Wien geflogen.",
+        question: "My girlfriend and I flew to Vienna. Which completes: Meine Freundin und ich ___ nach Wien geflogen.",
         options: ["sind", "ist", "seid", "haben"],
         correctIndex: 0,
         explanation: "My girlfriend and I = we: \"sind\".",
@@ -490,6 +489,7 @@ export const DE_A2_U03: Lesson[] = [
             prompt: "Translate into German.",
             source: "She stayed at home and read.",
             answer: "Sie ist zu Hause geblieben und hat gelesen.",
+            altAnswers: ["Sie ist zuhause geblieben und hat gelesen."],
             explanation: "Two helpers: \"ist geblieben\" (sein) and \"hat gelesen\" (haben). You can't share one.",
           },
           {
@@ -548,10 +548,10 @@ export const DE_A2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "Which is correct for: I slept for eight hours.",
         options: ["Ich habe acht Stunden geschlafen.", "Ich bin acht Stunden geschlafen.", "Ich habe um elf eingeschlafen.", "Ich bin um elf geschlafen."],
         correctIndex: 0,
-        explanation: "\"Schlafen\" (state) takes \"haben\"; \"einschlafen\" would take \"sein\".",
+        explanation: "\"Schlafen\" (state) takes \"haben\", so not \"*bin geschlafen*\"; \"einschlafen\" (to fall asleep) is a change and would take \"sein\": \"Ich bin um elf eingeschlafen\".",
       },
       {
         type: "fill-blank",
@@ -567,7 +567,7 @@ export const DE_A2_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "Have you ever been to Vienna? (to a friend)",
         answer: "Bist du schon mal in Wien gewesen?",
-        altAnswers: ["Warst du schon mal in Wien?", "Bist du schon einmal in Wien gewesen?", "Seid ihr schon mal in Wien gewesen?"],
+        altAnswers: ["Warst du schon mal in Wien?", "Bist du schon einmal in Wien gewesen?"],
         explanation: "\"Sein\" → \"ist gewesen\"; ever = \"schon mal\".",
       },
       {
@@ -622,7 +622,6 @@ export const DE_A2_U03: Lesson[] = [
             prompt: "Translate into German.",
             source: "Did you call your mother? (to a friend)",
             answer: "Hast du deine Mutter angerufen?",
-            altAnswers: ["Habt ihr eure Mutter angerufen?", "Haben Sie Ihre Mutter angerufen?"],
             explanation: "\"An\" + \"gerufen\" = \"angerufen\". \"Anrufen\" takes a direct object: \"deine Mutter\".",
           },
           {
@@ -636,9 +635,9 @@ export const DE_A2_U03: Lesson[] = [
         ],
       },
       {
-        heading: "The trap: *geaufstanden*",
+        heading: "The trap: \"*geaufstanden*\"",
         body: [
-          "English speakers often put ge- at the front out of habit: *geaufstanden*, *geeinkauft*, *geanruft*. Remember: the prefix is the first thing you hear, then ge-, then the rest.",
+          "English speakers often put ge- at the front out of habit: \"*geaufstanden*\", \"*geeinkauft*\", \"*geanruft*\". Remember: the prefix is the first thing you hear, then ge-, then the rest.",
           "With modals you already split the verb differently (\"Ich muss früh aufstehen\"). Don't confuse the two: modal + whole infinitive at the end, haben/sein + prefix-ge-participle at the end.",
           "Haben or sein follows the normal rules: \"aufstehen\" (a change: from lying to standing) and \"ankommen\", \"abfahren\", \"einschlafen\" (movement or change) take \"sein\"; \"einkaufen\", \"anrufen\", \"fernsehen\", \"aufräumen\" take \"haben\".",
         ],
@@ -747,15 +746,15 @@ export const DE_A2_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "When [did] you [arrive] in Berlin? (to friends)",
+        en: "When [did] you arrive in Berlin? (to friends)",
         sentence: "Wann ___ ihr in Berlin angekommen?",
         answer: "seid",
-        explanation: "Arriving is movement: \"seid ihr ... angekommen\".",
+        explanation: "English did here is German \"seid\": arriving is movement, so \"seid ihr ... angekommen\", not \"*habt ihr*\".",
       },
       {
         type: "multiple-choice",
-        question: "Which participle is correct?",
-        options: ["eingekauft", "geeinkauft", "eingekaufen", "einkauft"],
+        question: "Which is correct for: We did the shopping.",
+        options: ["Wir haben eingekauft.", "Wir haben geeinkauft.", "Wir haben eingekaufen.", "Wir haben einkauft."],
         correctIndex: 0,
         explanation: "Prefix + ge- + regular participle: \"ein\" + \"gekauft\".",
       },
@@ -814,7 +813,7 @@ export const DE_A2_U03: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which helper goes with: I fell asleep on the sofa.",
+            question: "Which is correct for: I fell asleep on the sofa.",
             options: ["Ich bin auf dem Sofa eingeschlafen.", "Ich habe auf dem Sofa eingeschlafen.", "Ich bin auf dem Sofa geschlafen.", "Ich habe auf dem Sofa eingeschlaft."],
             correctIndex: 0,
             explanation: "Falling asleep is a change of state: \"sein\".",
@@ -833,7 +832,7 @@ export const DE_A2_U03: Lesson[] = [
         heading: "Pairs that trip people up",
         body: [
           "\"Ich habe geschlafen\" vs \"ich bin eingeschlafen\". \"Ich habe gearbeitet\" vs \"ich bin geblieben\". \"Ich habe gewartet\" (waiting is not moving) vs \"ich bin gekommen\". \"Ich habe gesessen\" vs \"ich bin aufgestanden\".",
-          "The classic English-speaker mistake is *ich habe gegangen*. Gehen is the model movement verb: always \"ich bin gegangen\".",
+          "The classic English-speaker mistake is \"*ich habe gegangen*\". Gehen is the model movement verb: always \"ich bin gegangen\".",
         ],
         examples: [
           { es: "Wir haben eine Stunde gewartet, dann ist der Bus gekommen.", en: "We waited an hour, then the bus came." },
@@ -854,7 +853,7 @@ export const DE_A2_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Ich habe ins Kino gegangen.* Write it correctly: I went to the cinema.",
+            prompt: "A learner wrote \"*Ich habe ins Kino gegangen.*\" Write it correctly: I went to the cinema.",
             source: "I went to the cinema.",
             answer: "Ich bin ins Kino gegangen.",
             explanation: "\"Gehen\" always takes \"sein\".",
@@ -909,6 +908,7 @@ export const DE_A2_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "She didn't work, she stayed at home.",
         answer: "Sie hat nicht gearbeitet, sie ist zu Hause geblieben.",
+        altAnswers: ["Sie hat nicht gearbeitet, sie ist zuhause geblieben."],
         explanation: "\"Hat gearbeitet\" vs \"ist geblieben\".",
       },
       {
@@ -989,7 +989,7 @@ export const DE_A2_U03: Lesson[] = [
     slug: "a2-contrast-gefahren-haben-sein",
     level: "DE-A2",
     number: 6,
-    title: "Contrast Clinic: Ich Bin Gefahren / Ich Habe das Auto Gefahren",
+    title: "Contrast Clinic: Ich bin gefahren / Ich habe das Auto gefahren",
     summary: "The same verb can take both helpers: fahren with a direct object takes haben, without one it takes sein.",
     duration: "11 min",
     sections: [
@@ -1345,7 +1345,7 @@ export const DE_A2_U03: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which message is correct?",
+        question: "Which message is correct for: I went to Hamburg and ate fish rolls.",
         options: ["Ich bin nach Hamburg gefahren und habe Fischbrötchen gegessen.", "Ich habe nach Hamburg gefahren und habe Fischbrötchen gegessen.", "Ich bin nach Hamburg gefahren und Fischbrötchen gegessen.", "Ich bin nach Hamburg gefahren und bin Fischbrötchen gegessen."],
         correctIndex: 0,
         explanation: "Two different helpers: \"bin gefahren\", \"habe gegessen\". A shared helper only works when both verbs take the same one.",
@@ -1391,7 +1391,7 @@ export const DE_A2_U03: Lesson[] = [
       {
         heading: "The message",
         body: [
-          "Sam, a learner in Köln, sent this message to his tandem partner. It's full of slips: \"Gestern *ich habe* früh *geaufgestanden*. Dann *ich habe* zur Uni *gegangen*. Mein Professor *ist* den ganzen Tag *gearbeitet*. Am Abend *wir haben* zu Hause *geblieben* und Pizza *bestellen*.\"",
+          "Sam, a learner in Köln, sent this message to his tandem partner. It's full of slips: \"Gestern \"*ich habe*\" früh \"*geaufgestanden*\". Dann \"*ich habe*\" zur Uni \"*gegangen*\". Mein Professor \"*ist*\" den ganzen Tag \"*gearbeitet*\". Am Abend \"*wir haben*\" zu Hause \"*geblieben*\" und Pizza \"*bestellen*\".\"",
           "Two kinds of slip dominate: the wrong helper (haben for sein, or the reverse) and ge- in the wrong place. A third is old news: verb-second after \"Gestern\" and \"Dann\".",
         ],
         examples: [
@@ -1404,7 +1404,7 @@ export const DE_A2_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Sam wrote *Gestern ich habe früh geaufgestanden.* Write it correctly: Yesterday I got up early.",
+            prompt: "Sam wrote \"*Gestern ich habe früh geaufgestanden.*\" Write it correctly: Yesterday I got up early.",
             source: "Yesterday I got up early.",
             answer: "Gestern bin ich früh aufgestanden.",
             altAnswers: ["Ich bin gestern früh aufgestanden."],
@@ -1413,7 +1413,7 @@ export const DE_A2_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Sam wrote *Mein Professor ist den ganzen Tag gearbeitet.* Write it correctly: My professor worked all day.",
+            prompt: "Sam wrote \"*Mein Professor ist den ganzen Tag gearbeitet.*\" Write it correctly: My professor worked all day.",
             source: "My professor worked all day.",
             answer: "Mein Professor hat den ganzen Tag gearbeitet.",
             altAnswers: ["Meine Professorin hat den ganzen Tag gearbeitet."],
@@ -1424,8 +1424,8 @@ export const DE_A2_U03: Lesson[] = [
       {
         heading: "Wrong helper: why?",
         body: [
-          "For each correction, say the reason: *Ich habe gegangen* → \"bin\" (movement). *Er ist gearbeitet* → \"hat\" (no movement). *Wir haben geblieben* → \"sind\" (bleiben is an odd one). *Ich habe eingeschlafen* → \"bin\" (change of state). *Sie ist den Bus genommen* → \"hat\" (an object, no movement of her own).",
-          "If two verbs need different helpers, you need both: \"Wir sind zu Hause geblieben und haben Pizza bestellt\", not *wir sind geblieben und Pizza bestellt*.",
+          "For each correction, say the reason: \"*Ich habe gegangen*\" → \"bin\" (movement). \"*Er ist gearbeitet*\" → \"hat\" (no movement). \"*Wir haben geblieben*\" → \"sind\" (bleiben is an odd one). \"*Ich habe eingeschlafen*\" → \"bin\" (change of state). \"*Sie ist den Bus genommen*\" → \"hat\" (an object, no movement of her own).",
+          "If two verbs need different helpers, you need both: \"Wir sind zu Hause geblieben und haben Pizza bestellt\", not \"*wir sind geblieben und Pizza bestellt*\".",
         ],
         examples: [
           { es: "Wir sind zu Hause geblieben.", en: "We stayed at home." },
@@ -1437,14 +1437,15 @@ export const DE_A2_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Wir haben zu Hause geblieben.* Write it correctly: We stayed at home.",
+            prompt: "A learner wrote \"*Wir haben zu Hause geblieben.*\" Write it correctly: We stayed at home.",
             source: "We stayed at home.",
             answer: "Wir sind zu Hause geblieben.",
+            altAnswers: ["Wir sind zuhause geblieben."],
             explanation: "\"Bleiben\" takes \"sein\".",
           },
           {
             type: "multiple-choice",
-            question: "Which correction is right for *Sie ist den Bus genommen*?",
+            question: "Which correction is right for \"*Sie ist den Bus genommen*\"?",
             options: ["Sie hat den Bus genommen.", "Sie ist den Bus genehmt.", "Sie ist mit den Bus genommen.", "Sie hat den Bus genehmt."],
             correctIndex: 0,
             explanation: "\"Nehmen\" with an object: \"haben\". The participle \"genommen\" was already right.",
@@ -1454,8 +1455,8 @@ export const DE_A2_U03: Lesson[] = [
       {
         heading: "Separable slips",
         body: [
-          "*Geaufgestanden*, *geeingekauft*, *geangekommen*: ge- has already been placed inside, so nothing goes in front. Write the prefix first: \"aufgestanden\", \"eingekauft\", \"angekommen\".",
-          "And *angerufet*, *eingekaufen*: the ending follows the base verb. \"Rufen\" is strong (\"gerufen\"), \"kaufen\" regular (\"gekauft\"), so \"angerufen\", \"eingekauft\".",
+          "\"*Geaufgestanden*\", \"*geeingekauft*\", \"*geangekommen*\": ge- has already been placed inside, so nothing goes in front. Write the prefix first: \"aufgestanden\", \"eingekauft\", \"angekommen\".",
+          "And \"*angerufet*\", \"*eingekaufen*\": the ending follows the base verb. \"Rufen\" is strong (\"gerufen\"), \"kaufen\" regular (\"gekauft\"), so \"angerufen\", \"eingekauft\".",
         ],
         examples: [
           { es: "Ich habe dich gestern angerufen.", en: "I called you yesterday." },
@@ -1467,7 +1468,7 @@ export const DE_A2_U03: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote *Ich habe dich gestern angerufet.* Write it correctly: I called you yesterday.",
+            prompt: "A learner wrote \"*Ich habe dich gestern angerufet.*\" Write it correctly: I called you yesterday.",
             source: "I called you yesterday.",
             answer: "Ich habe dich gestern angerufen.",
             altAnswers: ["Gestern habe ich dich angerufen."],
@@ -1488,7 +1489,7 @@ export const DE_A2_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Sam wrote *Dann ich habe zur Uni gegangen.* Write it correctly: Then I went to uni.",
+        prompt: "Sam wrote \"*Dann ich habe zur Uni gegangen.*\" Write it correctly: Then I went to uni.",
         source: "Then I went to uni.",
         answer: "Dann bin ich zur Uni gegangen.",
         altAnswers: ["Dann bin ich zur Uni gefahren.", "Dann bin ich zur Universität gegangen."],
@@ -1500,13 +1501,13 @@ export const DE_A2_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "In the evening we stayed at home and ordered pizza.",
         answer: "Am Abend sind wir zu Hause geblieben und haben Pizza bestellt.",
-        altAnswers: ["Abends sind wir zu Hause geblieben und haben Pizza bestellt."],
+        altAnswers: ["Abends sind wir zu Hause geblieben und haben Pizza bestellt.", "Am Abend sind wir zuhause geblieben und haben Pizza bestellt."],
         explanation: "Different helpers for \"geblieben\" and \"bestellt\", so you need both.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Ich habe vor dem Fernseher eingeschlafen.* Write it correctly: I fell asleep in front of the TV.",
+        prompt: "A learner wrote \"*Ich habe vor dem Fernseher eingeschlafen.*\" Write it correctly: I fell asleep in front of the TV.",
         source: "I fell asleep in front of the TV.",
         answer: "Ich bin vor dem Fernseher eingeschlafen.",
         explanation: "Change of state: \"sein\".",
@@ -1514,7 +1515,7 @@ export const DE_A2_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Wir haben schon geeingekauft.* Write it correctly: We've already done the shopping.",
+        prompt: "A learner wrote \"*Wir haben schon geeingekauft.*\" Write it correctly: We've already done the shopping.",
         source: "We've already done the shopping.",
         answer: "Wir haben schon eingekauft.",
         explanation: "Only one ge-, after the prefix: \"eingekauft\".",
@@ -1522,7 +1523,7 @@ export const DE_A2_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Was hat passiert?* Write it correctly: What happened?",
+        prompt: "A learner wrote \"*Was hat passiert?*\" Write it correctly: What happened?",
         source: "What happened?",
         answer: "Was ist passiert?",
         explanation: "\"Passieren\" takes \"sein\".",
@@ -1545,7 +1546,7 @@ export const DE_A2_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Meine Oma hat letztes Jahr gestorben.* Write it correctly: My grandma died last year.",
+        prompt: "A learner wrote \"*Meine Oma hat letztes Jahr gestorben.*\" Write it correctly: My grandma died last year.",
         source: "My grandma died last year.",
         answer: "Meine Oma ist letztes Jahr gestorben.",
         altAnswers: ["Meine Großmutter ist letztes Jahr gestorben.", "Letztes Jahr ist meine Oma gestorben."],
@@ -1554,7 +1555,7 @@ export const DE_A2_U03: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote *Ich bin lange gewartet.* Write it correctly: I waited a long time.",
+        prompt: "A learner wrote \"*Ich bin lange gewartet.*\" Write it correctly: I waited a long time.",
         source: "I waited a long time.",
         answer: "Ich habe lange gewartet.",
         explanation: "Waiting is not movement: \"haben\".",
@@ -1600,7 +1601,7 @@ export const DE_A2_U03: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'll call you tomorrow. (to a friend)",
             answer: "Ich rufe dich morgen an.",
-            altAnswers: ["Morgen rufe ich dich an.", "Ich rufe euch morgen an.", "Ich rufe Sie morgen an."],
+            altAnswers: ["Morgen rufe ich dich an."],
             explanation: "Present tense for the future; the separable prefix \"an\" goes to the end.",
           },
           {
@@ -1663,7 +1664,6 @@ export const DE_A2_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "Did you find the key? (to a friend)",
         answer: "Hast du den Schlüssel gefunden?",
-        altAnswers: ["Habt ihr den Schlüssel gefunden?", "Haben Sie den Schlüssel gefunden?"],
         explanation: "\"Den Schlüssel\": masculine accusative.",
       },
       {
@@ -1689,6 +1689,7 @@ export const DE_A2_U03: Lesson[] = [
         prompt: "Translate into German.",
         source: "We didn't watch TV, we went to the theatre.",
         answer: "Wir haben nicht ferngesehen, wir sind ins Theater gegangen.",
+        altAnswers: ["Wir haben nicht ferngesehen, sondern sind ins Theater gegangen."],
         explanation: "\"Ferngesehen\" (haben), \"gegangen\" (sein).",
       },
       {

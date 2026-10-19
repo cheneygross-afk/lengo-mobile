@@ -40,7 +40,8 @@ export const DE_A2_U07: Lesson[] = [
             prompt: "Translate into German.",
             source: "Who are you writing to? (to a friend)",
             answer: "Wem schreibst du?",
-            explanation: "\"Wem\" is the dative question word: to whom. No preposition needed.",
+            altAnswers: ["An wen schreibst du?"],
+            explanation: "\"Wem\" is the dative question word: to whom. No preposition needed (\"An wen schreibst du?\" with an + accusative is also correct).",
           },
         ],
       },
@@ -56,7 +57,7 @@ export const DE_A2_U07: Lesson[] = [
           { es: "Der Ring gehört der Mutter.", en: "The ring belongs to the mother." },
           { es: "Wir helfen dem Kind.", en: "We're helping the child." },
           { es: "Sie liest den Kindern vor.", en: "She reads to the children." },
-          { es: "Er antwortet den Freunden nicht.", en: "He doesn't answer his friends." },
+          { es: "Er antwortet seinen Freunden nicht.", en: "He doesn't answer his friends." },
           { es: "Ich danke den Frauen.", en: "I thank the women." },
         ],
         checkpoint: [
@@ -126,6 +127,7 @@ export const DE_A2_U07: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm writing to my sister.",
         answer: "Ich schreibe meiner Schwester.",
+        altAnswers: ["Ich schreibe an meine Schwester."],
         explanation: "Feminine dative: \"meiner\". No word for to: the dative ending does the job.",
       },
       {
@@ -148,10 +150,10 @@ export const DE_A2_U07: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the correct dative plural?",
-        options: ["den Freunden", "den Freunde", "dem Freunden", "der Freunde"],
+        question: "How do you say: I'm helping the friends.",
+        options: ["Ich helfe den Freunden.", "Ich helfe den Freunde.", "Ich helfe dem Freunden.", "Ich helfe die Freunde."],
         correctIndex: 0,
-        explanation: "Plural dative: \"den\" + noun + -n: \"den Freunden\".",
+        explanation: "Plural dative: \"den\" + noun + -n: \"den Freunden\". \"Dem\" is singular, and \"die Freunde\" is nominative/accusative, wrong after \"helfen\".",
       },
       {
         type: "translate",
@@ -295,7 +297,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         heading: "The der-trap",
         body: [
-          "\"Der\" has three jobs in German: masculine nominative (\"der Mann\" is the subject), feminine dative (\"der Frau\") and plural genitive (later). So when you see \"der\" in front of a feminine noun after a verb like \"helfen\", it's dative.",
+          "\"Der\" has three jobs in German: masculine nominative (\"der Mann\" is the subject), feminine dative (\"der Frau\") and genitive forms (later). So when you see \"der\" in front of a feminine noun after a verb like \"helfen\", it's dative.",
           "Compare: \"Der Mann hilft.\" (The man helps: \"der\" + masculine subject) and \"Ich helfe der Frau.\" (\"der\" + feminine noun: dative). The noun's gender tells you which job \"der\" is doing.",
         ],
         examples: [
@@ -440,7 +442,7 @@ export const DE_A2_U07: Lesson[] = [
             prompt: "Translate into German.",
             source: "Can you help me? (to a friend)",
             answer: "Kannst du mir helfen?",
-            explanation: "\"Helfen\" takes the dative: \"mir\", never *mich*.",
+            explanation: "\"Helfen\" takes the dative: \"mir\", never \"*mich*\".",
           },
           {
             type: "fill-blank",
@@ -617,7 +619,7 @@ export const DE_A2_U07: Lesson[] = [
         heading: "The dative verbs",
         body: [
           "Most verbs take an accusative object (\"Ich sehe dich\", \"Ich frage dich\"). But a handful of very common verbs take the dative instead, even though English treats the person as an ordinary object: \"helfen\" (to help), \"danken\" (to thank), \"antworten\" (to answer), \"gratulieren\" (to congratulate), \"folgen\" (to follow), \"glauben\" (to believe someone).",
-          "So: \"Ich helfe dir\" (not *dich*), \"Ich danke Ihnen\", \"Er antwortet mir nicht\", \"Wir gratulieren dir!\", \"Folgen Sie mir!\", \"Ich glaube dir\". There's a historical logic (help was originally giving help to someone), but it's easiest just to learn these six as a list.",
+          "So: \"Ich helfe dir\" (not \"*dich*\"), \"Ich danke Ihnen\", \"Er antwortet mir nicht\", \"Wir gratulieren dir!\", \"Folgen Sie mir!\", \"Ich glaube dir\". There's a historical logic (help was originally giving help to someone), but it's easiest just to learn these six as a list.",
           "This is the biggest dative trap for English speakers, because English gives no clue at all: help him and see him look identical.",
         ],
         examples: [
@@ -906,6 +908,7 @@ export const DE_A2_U07: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm writing to them.",
             answer: "Ich schreibe ihnen.",
+            altAnswers: ["Ich schreibe an sie."],
             explanation: "Them in the dative: \"ihnen\", lowercase.",
           },
           {
@@ -1019,7 +1022,7 @@ export const DE_A2_U07: Lesson[] = [
     slug: "a2-gefallen-schmecken-gehoeren",
     level: "DE-A2",
     number: 6,
-    title: "Das Gefällt Mir: Gefallen, Schmecken, Gehören, Passen",
+    title: "Das gefällt mir: Gefallen, Schmecken, Gehören, Passen",
     summary: "Verbs where the thing is the subject and the person is dative: der Film gefällt mir, die Suppe schmeckt mir, das Buch gehört meinem Bruder, die Hose passt mir.",
     duration: "14 min",
     sections: [
@@ -1027,7 +1030,7 @@ export const DE_A2_U07: Lesson[] = [
         heading: "Gefallen: the thing pleases the person",
         body: [
           "English I like the film puts I as the subject. German \"gefallen\" turns the sentence around: \"Der Film gefällt mir\", literally the film pleases me. The thing you like is the subject (nominative), and the person who likes it is in the dative.",
-          "That means the verb agrees with the thing, not with you: \"Der Film gefällt mir\" but \"Die Schuhe gefallen mir\" (plural subject, plural verb). The classic mistake is *Ich gefalle den Film*, which actually means I please the film.",
+          "That means the verb agrees with the thing, not with you: \"Der Film gefällt mir\" but \"Die Schuhe gefallen mir\" (plural subject, plural verb). The classic mistake is \"*Ich gefalle den Film*\", which actually means I please the film.",
           "\"Gefallen\" is for things you see or experience: films, clothes, places, ideas. \"Gern\" + verb is for activities (\"Ich schwimme gern\"), and \"mögen\" works for almost anything (\"Ich mag den Film\").",
         ],
         examples: [
@@ -1255,7 +1258,7 @@ export const DE_A2_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "First: Ich helfe meinem Opa. Now say it with a pronoun: I'm helping him.",
+            prompt: "First: \"Ich helfe meinem Opa.\" Now say it with a pronoun: I'm helping him.",
             source: "I'm helping him.",
             answer: "Ich helfe ihm.",
             explanation: "\"Meinem Opa\" (masculine dative) → \"ihm\".",
@@ -1286,7 +1289,7 @@ export const DE_A2_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "First: Der Rock gefällt meiner Mutter. Now with two pronouns: She likes it.",
+            prompt: "First: \"Der Rock gefällt meiner Mutter.\" Now with two pronouns: She likes it.",
             source: "She likes it.",
             answer: "Er gefällt ihr.",
             explanation: "\"Der Rock\" → \"er\" (subject); \"meiner Mutter\" → \"ihr\" (dative).",
@@ -1316,7 +1319,7 @@ export const DE_A2_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "First: Ich habe den Gästen gedankt. Now with a pronoun: I thanked them.",
+            prompt: "First: \"Ich habe den Gästen gedankt.\" Now with a pronoun: I thanked them.",
             source: "I thanked them.",
             answer: "Ich habe ihnen gedankt.",
             explanation: "\"Den Gästen\" (plural dative) → \"ihnen\".",
@@ -1336,7 +1339,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "First: Ich schreibe meiner Tante. Now with a pronoun: I'm writing to her.",
+        prompt: "First: \"Ich schreibe meiner Tante.\" Now with a pronoun: I'm writing to her.",
         source: "I'm writing to her.",
         answer: "Ich schreibe ihr.",
         explanation: "\"Meiner Tante\" → \"ihr\".",
@@ -1344,7 +1347,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "First: Das Auto gehört dem Lehrer. Now with a pronoun: The car belongs to him.",
+        prompt: "First: \"Das Auto gehört dem Lehrer.\" Now with a pronoun: The car belongs to him.",
         source: "The car belongs to him.",
         answer: "Das Auto gehört ihm.",
         explanation: "\"Dem Lehrer\" → \"ihm\".",
@@ -1352,7 +1355,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "First: Die Jacke passt den Kindern. Now with two pronouns: It fits them.",
+        prompt: "First: \"Die Jacke passt den Kindern.\" Now with two pronouns: It fits them.",
         source: "It fits them.",
         answer: "Sie passt ihnen.",
         explanation: "\"Die Jacke\" → \"sie\"; \"den Kindern\" → \"ihnen\".",
@@ -1375,7 +1378,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "First: Der Kuchen schmeckt meinem Vater. Now with two pronouns: He likes it.",
+        prompt: "First: \"Der Kuchen schmeckt meinem Vater.\" Now with two pronouns: He likes it.",
         source: "He likes it.",
         answer: "Er schmeckt ihm.",
         explanation: "\"Der Kuchen\" → \"er\" (masculine subject); \"meinem Vater\" → \"ihm\".",
@@ -1383,7 +1386,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "First: Wir haben der Nachbarin gratuliert. Now with a pronoun: We congratulated her.",
+        prompt: "First: \"Wir haben der Nachbarin gratuliert.\" Now with a pronoun: We congratulated her.",
         source: "We congratulated her.",
         answer: "Wir haben ihr gratuliert.",
         explanation: "\"Der Nachbarin\" → \"ihr\"; the pronoun takes the same place.",
@@ -1406,7 +1409,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "First: Der Mantel steht deiner Schwester. Now with two pronouns: It suits her.",
+        prompt: "First: \"Der Mantel steht deiner Schwester.\" Now with two pronouns: It suits her.",
         source: "It suits her.",
         answer: "Er steht ihr.",
         altAnswers: ["Er steht ihr gut."],
@@ -1424,7 +1427,7 @@ export const DE_A2_U07: Lesson[] = [
     slug: "a2-mission-fundbuero",
     level: "DE-A2",
     number: 8,
-    title: "Real-World Mission: Wem Gehört Das?",
+    title: "Real-World Mission: Wem gehört das?",
     summary: "At the lost-property office and after a party: identify owners, thank people and say what fits and what doesn't.",
     duration: "13 min",
     sections: [
@@ -1643,8 +1646,8 @@ export const DE_A2_U07: Lesson[] = [
       {
         heading: "The message",
         body: [
-          "Sam, an English learner, writes to his German friend Mia. His message is friendly and clear, but it has six case mistakes. Here it is: *Hallo Mia! Danke für deine Nachricht. Natürlich helfe ich dich am Samstag beim Umzug. Ich komme mit die Kinder. Deine Wohnung gefällt ich sehr! Ich bringe den Kinder Pizza mit. Kannst du mich die Adresse schicken? Ich danke dich!*",
-          "The mistakes come in three families: the wrong pronoun after a dative verb (*helfe dich*, *danke dich*, *gefällt ich*), the wrong article after a dative preposition (*mit die Kinder*), and a dative plural without its -n (*den Kinder*). The last one, *schicken mich*, mixes up who gets the thing: the person receiving is dative.",
+          "Sam, an English learner, writes to his German friend Mia. His message is friendly and clear, but it has six case mistakes. Here it is: \"*Hallo Mia! Danke für deine Nachricht. Natürlich helfe ich dich am Samstag beim Umzug. Ich komme mit die Kinder. Deine Wohnung gefällt ich sehr! Ich bringe den Kinder Pizza mit. Kannst du mich die Adresse schicken? Ich danke dich!*\"",
+          "The mistakes come in three families: the wrong pronoun after a dative verb (\"*helfe dich*\", \"*danke dich*\", \"*gefällt ich*\"), the wrong article after a dative preposition (\"*mit die Kinder*\"), and a dative plural without its -n (\"*den Kinder*\"). And \"*Kannst du mich die Adresse schicken?*\" mixes up who gets the thing: the person receiving is dative.",
         ],
         examples: [
           { es: "Natürlich helfe ich dir am Samstag beim Umzug.", en: "Of course I'll help you with the move on Saturday." },
@@ -1656,7 +1659,7 @@ export const DE_A2_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Sam wrote *Ich helfe dich.* Fix it: I'll help you.",
+            prompt: "Sam wrote \"*Ich helfe dich.*\" Fix it: I'll help you.",
             source: "I'll help you.",
             answer: "Ich helfe dir.",
             explanation: "\"Helfen\" takes the dative: \"dir\".",
@@ -1674,8 +1677,8 @@ export const DE_A2_U07: Lesson[] = [
       {
         heading: "Gefallen and the -n",
         body: [
-          "*Deine Wohnung gefällt ich* uses the nominative \"ich\", but with \"gefallen\" the person is dative: \"gefällt mir\". The flat is the subject and already takes the nominative.",
-          "*Ich bringe den Kinder Pizza mit*: the article \"den\" is right (dative plural), but the noun needs its -n too: \"den Kindern\". This is the dative slip that native speakers notice most, because the -n is so audible.",
+          "\"*Deine Wohnung gefällt ich*\" uses the nominative \"ich\", but with \"gefallen\" the person is dative: \"gefällt mir\". The flat is the subject and already takes the nominative.",
+          "\"*Ich bringe den Kinder Pizza mit*\": the article \"den\" is right (dative plural), but the noun needs its -n too: \"den Kindern\". This is the dative slip that native speakers notice most, because the -n is so audible.",
         ],
         examples: [
           { es: "Die Wohnung gefällt mir.", en: "I like the flat." },
@@ -1687,7 +1690,7 @@ export const DE_A2_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Sam wrote *Die Wohnung gefällt ich.* Fix it: I like the flat.",
+            prompt: "Sam wrote \"*Die Wohnung gefällt ich.*\" Fix it: I like the flat.",
             source: "I like the flat.",
             answer: "Die Wohnung gefällt mir.",
             altAnswers: ["Mir gefällt die Wohnung.", "Die Wohnung gefällt mir sehr."],
@@ -1705,8 +1708,8 @@ export const DE_A2_U07: Lesson[] = [
       {
         heading: "Who receives? Schicken and danken",
         body: [
-          "*Kannst du mich die Adresse schicken?* The address is the thing (accusative: \"die Adresse\"), and Sam is the one receiving it, so he needs the dative: \"Kannst du mir die Adresse schicken?\" English send me hides the difference; German shows it.",
-          "And the sign-off *Ich danke dich!* → \"Ich danke dir!\" (or just \"Danke!\"). The corrected message, read top to bottom, now uses \"dir\" twice, \"mir\" twice, \"den Kindern\" twice.",
+          "\"*Kannst du mich die Adresse schicken?*\" The address is the thing (accusative: \"die Adresse\"), and Sam is the one receiving it, so he needs the dative: \"Kannst du mir die Adresse schicken?\" English send me hides the difference; German shows it.",
+          "And the sign-off \"*Ich danke dich!*\" → \"Ich danke dir!\" (or just \"Danke!\"). The corrected message, read top to bottom, now uses \"dir\" twice, \"mir\" twice, \"den Kindern\" twice.",
         ],
         examples: [
           { es: "Kannst du mir die Adresse schicken?", en: "Can you send me the address?" },
@@ -1718,7 +1721,7 @@ export const DE_A2_U07: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Sam wrote *Kannst du mich die Adresse schicken?* Fix it: Can you send me the address?",
+            prompt: "Sam wrote \"*Kannst du mich die Adresse schicken?*\" Fix it: Can you send me the address?",
             source: "Can you send me the address?",
             answer: "Kannst du mir die Adresse schicken?",
             explanation: "The receiver is dative: \"mir\"; the thing sent is accusative: \"die Adresse\".",
@@ -1736,7 +1739,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Ich danke dich!* Write: Thank you! (to a friend)",
+        prompt: "Fix \"*Ich danke dich!*\" Write: Thank you! (to a friend)",
         source: "Thank you!",
         answer: "Ich danke dir!",
         altAnswers: ["Danke!", "Danke dir!", "Vielen Dank!"],
@@ -1745,7 +1748,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Das Essen schmeckt ich nicht.* Write: I don't like the food.",
+        prompt: "Fix \"*Das Essen schmeckt ich nicht.*\" Write: I don't like the food.",
         source: "I don't like the food.",
         answer: "Das Essen schmeckt mir nicht.",
         altAnswers: ["Mir schmeckt das Essen nicht."],
@@ -1754,7 +1757,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Ich fahre mit die Kollegen.* Write: I'm going with my colleagues.",
+        prompt: "Fix \"*Ich fahre mit die Kollegen.*\" Write: I'm going with my colleagues.",
         source: "I'm going with my colleagues.",
         answer: "Ich fahre mit meinen Kollegen.",
         altAnswers: ["Ich fahre mit den Kollegen.", "Ich gehe mit meinen Kollegen.", "Ich gehe mit den Kollegen.", "Ich fahre mit meinen Kolleginnen."],
@@ -1763,7 +1766,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Fix *Er hilft den Leute.* He helps [the people].",
+        en: "Fix \"*Er hilft den Leute.*\" He helps [the people].",
         sentence: "Er hilft ___.",
         answer: "den Leuten",
         explanation: "Dative plural: \"den Leuten\" with -n.",
@@ -1771,7 +1774,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Die Schuhe gefällt mich.* Write: I like the shoes.",
+        prompt: "Fix \"*Die Schuhe gefällt mich.*\" Write: I like the shoes.",
         source: "I like the shoes.",
         answer: "Die Schuhe gefallen mir.",
         altAnswers: ["Mir gefallen die Schuhe."],
@@ -1787,7 +1790,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Kannst du mich helfen?* Write: Can you help me? (to a friend)",
+        prompt: "Fix \"*Kannst du mich helfen?*\" Write: Can you help me? (to a friend)",
         source: "Can you help me?",
         answer: "Kannst du mir helfen?",
         explanation: "\"Helfen\" + dative: \"mir\".",
@@ -1795,7 +1798,7 @@ export const DE_A2_U07: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *Das Buch gehört meine Freundin.* Write: The book belongs to my girlfriend.",
+        prompt: "Fix \"*Das Buch gehört meine Freundin.*\" Write: The book belongs to my girlfriend.",
         source: "The book belongs to my girlfriend.",
         answer: "Das Buch gehört meiner Freundin.",
         explanation: "\"Gehören\" + dative: feminine \"meiner\".",

@@ -49,8 +49,8 @@ export const DE_B1_U29: Lesson[] = [
         heading: "Indirect questions: the verb goes to the end",
         body: [
           "The politest question is an indirect one: \"Wo ist der Ausgang?\" → \"Könnten Sie mir sagen, wo der Ausgang ist?\". The question word becomes a conjunction and the verb moves to the end.",
-          "Yes/no questions become \"ob\"-clauses: \"Ist das Büro heute geöffnet?\" → \"Wissen Sie, ob das Büro heute geöffnet ist?\" English uses if or whether; German always uses \"ob\", never *wenn.",
-          "The typical mistake is keeping the question word order: *Können Sie mir sagen, wo ist der Ausgang? The verb must go last.",
+          "Yes/no questions become \"ob\"-clauses: \"Ist das Büro heute geöffnet?\" → \"Wissen Sie, ob das Büro heute geöffnet ist?\" English uses if or whether; German always uses \"ob\", never \"wenn\".",
+          "The typical mistake is keeping the question word order: \"*Können Sie mir sagen, wo ist der Ausgang?\" The verb must go last.",
         ],
         examples: [
           { es: "Könnten Sie mir sagen, wo der Ausgang ist?", en: "Could you tell me where the exit is?" },
@@ -75,7 +75,7 @@ export const DE_B1_U29: Lesson[] = [
             question: "Which is right for: Do you know if the office is open today?",
             options: ["Wissen Sie, ob das Büro heute geöffnet ist?", "Wissen Sie, wenn das Büro heute geöffnet ist?", "Wissen Sie, ob ist das Büro heute geöffnet?", "Wissen Sie, dass das Büro heute geöffnet ist?"],
             correctIndex: 0,
-            explanation: "If / whether in an indirect question = \"ob\", with the verb at the end.",
+            explanation: "If / whether in an indirect question = \"ob\", with the verb at the end. \"Wenn\" means if only in conditions, and \"dass\" would mean 'Do you know that...'.",
           },
           {
             type: "word-order",
@@ -125,7 +125,7 @@ export const DE_B1_U29: Lesson[] = [
         prompt: "Translate into German.",
         source: "Can you tell me when the next train leaves?",
         answer: "Können Sie mir sagen, wann der nächste Zug fährt?",
-        altAnswers: ["Könnten Sie mir sagen, wann der nächste Zug fährt?", "Können Sie mir sagen, wann der nächste Zug abfährt?", "Könnten Sie mir sagen, wann der nächste Zug abfährt?", "Kannst du mir sagen, wann der nächste Zug fährt?"],
+        altAnswers: ["Könnten Sie mir sagen, wann der nächste Zug fährt?", "Können Sie mir sagen, wann der nächste Zug abfährt?", "Könnten Sie mir sagen, wann der nächste Zug abfährt?", "Kannst du mir sagen, wann der nächste Zug fährt?", "Kannst du mir sagen, wann der nächste Zug abfährt?", "Könntest du mir sagen, wann der nächste Zug fährt?", "Könnt ihr mir sagen, wann der nächste Zug fährt?"],
         explanation: "\"Wann\" + verb at the end. Trains \"fahren\" or \"abfahren\" (leave).",
       },
       {
@@ -143,6 +143,7 @@ export const DE_B1_U29: Lesson[] = [
         en: "I don't know [which form I need].",
         sentence: "Ich weiß nicht, ___.",
         answer: "welches Formular ich brauche",
+        altAnswers: ["welches Formular ich benötige"],
         explanation: "\"Welches\" (das Formular) starts the indirect question; \"brauche\" goes last.",
       },
       {
@@ -151,7 +152,7 @@ export const DE_B1_U29: Lesson[] = [
         prompt: "Translate into German.",
         source: "May I ask you something quickly?",
         answer: "Darf ich Sie kurz etwas fragen?",
-        altAnswers: ["Dürfte ich Sie kurz etwas fragen?", "Darf ich Sie mal kurz etwas fragen?", "Darf ich Sie kurz was fragen?"],
+        altAnswers: ["Dürfte ich Sie kurz etwas fragen?", "Darf ich Sie mal kurz etwas fragen?", "Darf ich Sie kurz was fragen?", "Darf ich dich kurz etwas fragen?", "Darf ich dich kurz was fragen?"],
         explanation: "\"Fragen\" takes the person in the accusative: \"Sie\".",
       },
       {
@@ -167,7 +168,7 @@ export const DE_B1_U29: Lesson[] = [
         prompt: "Translate into German.",
         source: "Would you explain that to me again, please?",
         answer: "Würden Sie mir das bitte noch einmal erklären?",
-        altAnswers: ["Könnten Sie mir das bitte noch einmal erklären?", "Würden Sie mir das noch einmal erklären?", "Könnten Sie mir das noch einmal erklären?", "Würden Sie mir das bitte nochmal erklären?", "Könnten Sie mir das bitte nochmal erklären?"],
+        altAnswers: ["Könnten Sie mir das bitte noch einmal erklären?", "Würden Sie mir das noch einmal erklären?", "Könnten Sie mir das noch einmal erklären?", "Würden Sie mir das bitte nochmal erklären?", "Könnten Sie mir das bitte nochmal erklären?", "Würdest du mir das bitte noch einmal erklären?", "Könntest du mir das bitte noch einmal erklären?"],
         explanation: "\"Erklären\" + dative person (\"mir\") + accusative thing (\"das\").",
       },
       {
@@ -236,13 +237,13 @@ export const DE_B1_U29: Lesson[] = [
             prompt: "Translate into German.",
             source: "If you have time, call me! (to a friend)",
             answer: "Wenn du Zeit hast, ruf mich an!",
-            altAnswers: ["Falls du Zeit hast, ruf mich an!", "Wenn du Zeit hast, ruf mich doch an!", "Wenn du Zeit hast, ruf mich mal an!", "Wenn ihr Zeit habt, ruft mich an!"],
+            altAnswers: ["Falls du Zeit hast, ruf mich an!", "Wenn du Zeit hast, ruf mich doch an!", "Wenn du Zeit hast, ruf mich mal an!", "Ruf mich an, wenn du Zeit hast!"],
             explanation: "\"Wenn\" + present, verb last; then the imperative \"ruf ... an\" first in the main clause.",
           },
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[If you have] any questions, please get in touch. (polite)",
+            en: "[If you have any questions], please get in touch. (polite)",
             sentence: "___, melden Sie sich bitte.",
             answer: "Falls Sie Fragen haben",
             altAnswers: ["Wenn Sie Fragen haben"],
@@ -270,7 +271,7 @@ export const DE_B1_U29: Lesson[] = [
             prompt: "Translate into German.",
             source: "If I have time, I'll call you. (to a friend)",
             answer: "Wenn ich Zeit habe, rufe ich dich an.",
-            altAnswers: ["Wenn ich Zeit habe, ruf ich dich an.", "Falls ich Zeit habe, rufe ich dich an.", "Wenn ich Zeit habe, werde ich dich anrufen.", "Ich rufe dich an, wenn ich Zeit habe.", "Wenn ich Zeit habe, rufe ich euch an."],
+            altAnswers: ["Wenn ich Zeit habe, ruf ich dich an.", "Falls ich Zeit habe, rufe ich dich an.", "Wenn ich Zeit habe, werde ich dich anrufen.", "Ich rufe dich an, wenn ich Zeit habe."],
             explanation: "Real condition, future meaning: present tense in both clauses; verb-comma-verb: \"habe, rufe\".",
           },
           {
@@ -303,7 +304,7 @@ export const DE_B1_U29: Lesson[] = [
             prompt: "Translate into German.",
             source: "If I had time, I'd call you. (to a friend)",
             answer: "Wenn ich Zeit hätte, würde ich dich anrufen.",
-            altAnswers: ["Hätte ich Zeit, würde ich dich anrufen.", "Ich würde dich anrufen, wenn ich Zeit hätte.", "Wenn ich Zeit hätte, würde ich euch anrufen."],
+            altAnswers: ["Hätte ich Zeit, würde ich dich anrufen.", "Ich würde dich anrufen, wenn ich Zeit hätte."],
             explanation: "Unreal: \"hätte\" in the wenn-clause, \"würde ... anrufen\" in the main clause.",
           },
           {
@@ -345,9 +346,9 @@ export const DE_B1_U29: Lesson[] = [
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
         en: "If it [weren't raining], we could go for a walk.",
-        sentence: "Wenn es nicht ___, könnten wir spazieren gehen.",
-        answer: "regnen würde",
-        altAnswers: ["regnete"],
+        sentence: "Wenn es ___, könnten wir spazieren gehen.",
+        answer: "nicht regnen würde",
+        altAnswers: ["nicht regnete"],
         explanation: "Unreal present: \"würde\" + infinitive (or the one-word \"regnete\") at the end.",
       },
       {
@@ -357,7 +358,7 @@ export const DE_B1_U29: Lesson[] = [
         source: "If I pass the exam, I'll throw a party.",
         answer: "Wenn ich die Prüfung bestehe, mache ich eine Party.",
         altAnswers: ["Wenn ich die Prüfung bestehe, feiere ich eine Party.", "Falls ich die Prüfung bestehe, mache ich eine Party.", "Wenn ich die Prüfung bestehe, schmeiße ich eine Party.", "Wenn ich die Prüfung bestehe, gebe ich eine Party."],
-        explanation: "Real possibility → present tense. To pass an exam = \"bestehen\" (not *passieren).",
+        explanation: "Real possibility → present tense. To pass an exam = \"bestehen\" (not \"*passieren\").",
       },
       {
         type: "translate",
@@ -424,7 +425,7 @@ export const DE_B1_U29: Lesson[] = [
         heading: "The hike",
         body: [
           "Mehmet and Lena are hiking in the Bavarian Alps. Read the start of the story, told in the Präteritum. Mountain vocabulary: \"wandern\" (to hike), \"der Gipfel\" (summit), \"die Hütte\" (mountain hut), \"der Weg\" (path), \"steil\" (steep), \"das Gewitter\" (thunderstorm), \"umkehren\" (to turn back).",
-          "\"Wandern\" takes \"sein\" when you go somewhere (\"Wir sind zur Hütte gewandert\"), \"haben\" when it's just the activity (\"Wir haben viel gewandert\" is also heard; \"sein\" is more common).",
+          "\"Wandern\" takes \"sein\" in the Perfekt, both for a route and for the activity: \"Wir sind zur Hütte gewandert\", \"Wir sind im Urlaub viel gewandert\" (\"haben\" is regional only).",
         ],
         examples: [
           { es: "Um sechs Uhr morgens starteten Mehmet und Lena in Garmisch.", en: "At six in the morning Mehmet and Lena set off from Garmisch." },
@@ -441,6 +442,7 @@ export const DE_B1_U29: Lesson[] = [
             prompt: "Translate into German.",
             source: "The path was steeper than they had thought.",
             answer: "Der Weg war steiler, als sie gedacht hatten.",
+            altAnswers: ["Der Weg war steiler, als sie dachten.", "Der Weg war steiler als gedacht."],
             explanation: "Comparative + \"als\"; Plusquamperfekt \"gedacht hatten\" for what they thought earlier.",
           },
           {
@@ -473,7 +475,7 @@ export const DE_B1_U29: Lesson[] = [
             prompt: "Translate into German.",
             source: "Either we keep going or we turn back.",
             answer: "Entweder wir gehen weiter, oder wir kehren um.",
-            altAnswers: ["Entweder gehen wir weiter, oder wir kehren um.", "Entweder wir gehen weiter oder wir kehren um.", "Entweder gehen wir weiter oder wir kehren um.", "Wir gehen entweder weiter oder wir kehren um."],
+            altAnswers: ["Entweder gehen wir weiter, oder wir kehren um.", "Entweder wir gehen weiter oder wir kehren um.", "Entweder gehen wir weiter oder wir kehren um.", "Wir gehen entweder weiter oder wir kehren um.", "Wir gehen entweder weiter oder kehren um."],
             explanation: "\"Entweder\" at position 0 (normal order) or 1 (verb next); after \"oder\" normal order.",
           },
           {
@@ -575,6 +577,7 @@ export const DE_B1_U29: Lesson[] = [
         prompt: "Put the words in order to say: In the evening the path was closed.",
         words: ["Am", "Abend", "wurde", "der", "Weg", "gesperrt."],
         translation: "In the evening the path was closed.",
+        altOrders: [["Der", "Weg", "wurde", "am", "Abend", "gesperrt."]],
         explanation: "Präteritum passive: \"wurde ... gesperrt\".",
       },
       {
@@ -619,7 +622,7 @@ export const DE_B1_U29: Lesson[] = [
       {
         heading: "The text: Ehrenamtlich aktiv",
         body: [
-          "About one in three people in Germany volunteers: in sports clubs, the volunteer fire brigade (\"die Freiwillige Feuerwehr\"), food banks (\"die Tafel\"), refugee help, or as reading mentors in schools. Unpaid work is called \"das Ehrenamt\" (literally honour office), and a volunteer works \"ehrenamtlich\".",
+          "More than one in three people in Germany volunteers: in sports clubs, the volunteer fire brigade (\"die Freiwillige Feuerwehr\"), food banks (\"die Tafel\"), refugee help, or as reading mentors in schools. Unpaid work is called \"das Ehrenamt\" (literally honour office), and a volunteer works \"ehrenamtlich\".",
           "Read about Frau Becker, a retired teacher. Key verbs: \"sich engagieren für\" + accusative (to be involved in, to work for a cause), \"teilnehmen an\" + dative, \"helfen bei\" + dative, \"sich kümmern um\".",
         ],
         examples: [
@@ -709,7 +712,7 @@ export const DE_B1_U29: Lesson[] = [
             source: "I'd like to do some voluntary work.",
             answer: "Ich würde mich gern ehrenamtlich engagieren.",
             altAnswers: ["Ich würde gern ehrenamtlich arbeiten.", "Ich möchte mich ehrenamtlich engagieren.", "Ich würde mich gerne ehrenamtlich engagieren.", "Ich möchte ehrenamtlich arbeiten."],
-            explanation: "\"Würde ... gern\" for a polite wish; \"ehrenamtlich\" = voluntarily.",
+            explanation: "\"Würde ... gern\" for a polite wish; \"ehrenamtlich\" = as an unpaid volunteer.",
           },
           {
             type: "speak",
@@ -839,7 +842,7 @@ export const DE_B1_U29: Lesson[] = [
             source: "Hello, this is Lena Wagner.",
             answer: "Guten Tag, hier ist Lena Wagner.",
             altAnswers: ["Hallo, hier ist Lena Wagner.", "Guten Tag, mein Name ist Lena Wagner.", "Guten Tag, hier spricht Lena Wagner."],
-            explanation: "On the phone, this is = \"hier ist\" (or \"hier spricht\"), never *dies ist.",
+            explanation: "On the phone, this is = \"hier ist\" (or \"hier spricht\"), never \"*dies ist\".",
           },
           {
             type: "fill-blank",
@@ -898,13 +901,13 @@ export const DE_B1_U29: Lesson[] = [
         body: [
           "Phone lines and fast speakers: \"Wie bitte?\" (sorry?), \"Könnten Sie das bitte wiederholen?\", \"Könnten Sie etwas langsamer sprechen?\", \"Könnten Sie das bitte buchstabieren?\" (spell that).",
           "Germans spell with a word alphabet (\"Buchstabiertafel\"): A wie Anton, B wie Berta, C wie Cäsar, D wie Dora, E wie Emil, F wie Friedrich, G wie Gustav, H wie Heinrich... Ä wie Ärger, Ö wie Ökonom, Ü wie Übermut, ß is \"Eszett\". A newer official version uses city names (A wie Aachen, B wie Berlin), and you'll hear both.",
-          "\"Wagner, W wie Wilhelm, A wie Anton, G wie Gustav...\". Numbers are often read in pairs: \"null eins sieben sechs\" or \"null-hundertsechsundsiebzig\".",
+          "\"Wagner, W wie Wilhelm, A wie Anton, G wie Gustav...\". Numbers are read digit by digit (\"null eins sieben sechs\") or in pairs (\"null eins, sechsundsiebzig\").",
         ],
         examples: [
           { es: "Wie bitte? Die Verbindung ist schlecht.", en: "Sorry? The line is bad." },
           { es: "Könnten Sie etwas langsamer sprechen?", en: "Could you speak a bit more slowly?" },
           { es: "Könnten Sie Ihren Namen bitte buchstabieren?", en: "Could you spell your name, please?" },
-          { es: "Wagner: W wie Wilhelm, A wie Anton, G wie Gustav.", en: "Wagner: W for William, A for Anton, G for Gustav." },
+          { es: "Wagner: W wie Wilhelm, A wie Anton, G wie Gustav.", en: "Wagner: W for Wilhelm, A for Anton, G for Gustav." },
           { es: "Meine Nummer ist null eins sieben sechs, drei vier fünf...", en: "My number is 0176, 345..." },
         ],
         checkpoint: [
@@ -933,7 +936,7 @@ export const DE_B1_U29: Lesson[] = [
         prompt: "Translate into German.",
         source: "Could he call me back, please?",
         answer: "Könnte er mich bitte zurückrufen?",
-        altAnswers: ["Könnte er mich zurückrufen?", "Kann er mich bitte zurückrufen?", "Kann er mich zurückrufen?", "Könnte sie mich bitte zurückrufen?"],
+        altAnswers: ["Könnte er mich zurückrufen?", "Kann er mich bitte zurückrufen?", "Kann er mich zurückrufen?"],
         explanation: "\"Zurückrufen\" + accusative; the infinitive goes to the end.",
       },
       {
@@ -1059,7 +1062,7 @@ export const DE_B1_U29: Lesson[] = [
         heading: "Um...zu vs damit",
         body: [
           "Purpose: \"um ... zu\" when the subject is the same, \"damit\" when it changes. \"Ich rufe an, um einen Termin zu vereinbaren\" (I call, I make an appointment). \"Ich rufe an, damit Sie Bescheid wissen\" (I call, you know).",
-          "\"Damit\" never takes a modal of purpose: *damit ich kann... is fine only if \"können\" is really meant; don't add \"sollen\" or \"wollen\" just to express purpose. And the damit-clause uses the indicative.",
+          "In a damit-clause, use a modal only when you really mean it (\"damit Sie alles prüfen können\" = so that you can check); don't add \"soll\" or \"will\" just to mark purpose. The damit-clause is in the indicative.",
         ],
         examples: [
           { es: "Ich rufe an, um einen Termin zu vereinbaren.", en: "I'm calling to make an appointment." },
@@ -1184,6 +1187,7 @@ export const DE_B1_U29: Lesson[] = [
         prompt: "Put the words in order to say: Instead of waiting, I went there directly.",
         words: ["Anstatt", "zu", "warten,", "bin", "ich", "direkt", "hingegangen."],
         translation: "Instead of waiting, I went there directly.",
+        altOrders: [["Ich", "bin", "direkt", "hingegangen,", "anstatt", "zu", "warten."]],
         explanation: "The infinitive clause fills position 1, so \"bin\" comes next.",
       },
       {
@@ -1244,8 +1248,8 @@ export const DE_B1_U29: Lesson[] = [
             direction: "en-es",
             prompt: "Translate into German.",
             source: "More and more electricity is produced from the sun.",
-            answer: "Immer mehr Strom wird aus Sonne gewonnen.",
-            altAnswers: ["Immer mehr Strom wird aus Sonnenenergie gewonnen.", "Immer mehr Strom wird aus der Sonne gewonnen.", "Immer mehr Strom wird aus Sonnenenergie erzeugt.", "Immer mehr Strom wird mit Sonnenenergie produziert."],
+            answer: "Immer mehr Strom wird aus der Sonne gewonnen.",
+            altAnswers: ["Immer mehr Strom wird aus Sonnenenergie gewonnen.", "Immer mehr Strom wird aus Solarenergie gewonnen.", "Immer mehr Strom wird aus Sonnenenergie erzeugt.", "Immer mehr Strom wird mit Sonnenenergie produziert."],
             explanation: "Present passive \"wird gewonnen\"; more and more = \"immer mehr\".",
           },
           {
@@ -1519,7 +1523,7 @@ export const DE_B1_U29: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The house [was built] in 1910.",
+        en: "The house [was] built in 1910.",
         sentence: "Das Haus ___ 1910 gebaut.",
         answer: "wurde",
         explanation: "Präteritum passive: \"wurde ... gebaut\".",
@@ -1581,7 +1585,7 @@ export const DE_B1_U29: Lesson[] = [
         heading: "Opening an account",
         body: [
           "To live in Germany you need a current account (\"das Girokonto\"): your salary, rent and phone contract all go through it. You open an account (\"ein Konto eröffnen\") at a bank or online, usually with your passport and your \"Meldebescheinigung\" (proof of address registration).",
-          "Trap: \"die Bank\" means both bank and bench, but the plurals differ: \"die Banken\" (banks), \"die Bänke\" (benches). And English bill (to pay) is \"die Rechnung\", not der Bill.",
+          "Trap: \"die Bank\" means both bank and bench, but the plurals differ: \"die Banken\" (banks), \"die Bänke\" (benches). And English bill (to pay) is \"die Rechnung\", not \"*der Bill\".",
           "The debit card is \"die Girokarte\" (still widely called \"EC-Karte\"); many shops also take credit cards (\"die Kreditkarte\"), but cash (\"das Bargeld\") is still more common than in the UK or US.",
         ],
         examples: [
@@ -1786,7 +1790,7 @@ export const DE_B1_U29: Lesson[] = [
       {
         heading: "The chat",
         body: [
-          "This is the parents' WhatsApp group of class 4b in Leipzig. Read the messages (wrong German is marked with asterisks): *Hallo zusammen! Weiß jemand wann das Sommerfest ist?* / *Ich freue mich schon auf es!* / *Wir können nicht kommen weil wir haben am Samstag eine Hochzeit.* / *Doch bringt mal Salate mit!*",
+          "This is the parents' WhatsApp group of class 4b in Leipzig. Read the messages; each one has a mistake: \"Hallo zusammen! Weiß jemand wann das Sommerfest ist?\" / \"Ich freue mich schon auf es!\" / \"Wir können nicht kommen weil wir haben am Samstag eine Hochzeit.\" / \"Doch bringt mal Salate mit!\"",
           "Four kinds of mistakes: missing commas before subordinate clauses (\"Weiß jemand, wann...\"), a preposition + \"es\" instead of a da-compound (\"auf es\" → \"darauf\"), wrong word order after \"weil\", and a particle in position 1.",
         ],
         examples: [
@@ -1800,7 +1804,7 @@ export const DE_B1_U29: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A parent wrote *Ich freue mich schon auf es!* Translate correctly: I'm already looking forward to it!",
+            prompt: "A parent wrote \"*Ich freue mich schon auf es!\" Translate correctly: I'm already looking forward to it!",
             source: "I'm already looking forward to it!",
             answer: "Ich freue mich schon darauf!",
             altAnswers: ["Ich freu mich schon darauf!", "Ich freue mich schon drauf!", "Ich freu mich schon drauf!"],
@@ -1809,7 +1813,7 @@ export const DE_B1_U29: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A parent wrote *Wir können nicht kommen weil wir haben am Samstag eine Hochzeit.* Translate correctly: We can't come because we have a wedding on Saturday.",
+            prompt: "A parent wrote \"*Wir können nicht kommen weil wir haben am Samstag eine Hochzeit.\" Translate correctly: We can't come because we have a wedding on Saturday.",
             source: "We can't come because we have a wedding on Saturday.",
             answer: "Wir können nicht kommen, weil wir am Samstag eine Hochzeit haben.",
             altAnswers: ["Wir können nicht kommen, denn wir haben am Samstag eine Hochzeit.", "Wir können leider nicht kommen, weil wir am Samstag eine Hochzeit haben."],
@@ -1820,7 +1824,7 @@ export const DE_B1_U29: Lesson[] = [
       {
         heading: "More messages",
         body: [
-          "The chat goes on: *Kann jemand mir sagen ob die Kinder Badesachen brauchen?* / *Ich habe mit der Lehrerin über es gesprochen.* / *Sie hat gesagt dass wir ein Picknick machen.* / *Wer kümmert sich um die Getränke? Ich kann mich um sie kümmern.*",
+          "The chat goes on: \"Kann jemand mir sagen ob die Kinder Badesachen brauchen?\" / \"Ich habe mit der Lehrerin über es gesprochen.\" / \"Sie hat gesagt dass wir ein Picknick machen.\" / \"Wer kümmert sich um die Getränke? Ich kann mich um sie kümmern.\"",
           "The last one is a trap: \"um sie\" is correct for people, but for drinks (things) German prefers \"darum\". And \"jemand\" goes after the pronoun: \"Kann mir jemand sagen...\" sounds more natural, because short pronouns come early in the middle field.",
         ],
         examples: [
@@ -1833,7 +1837,7 @@ export const DE_B1_U29: Lesson[] = [
         checkpoint: [
           {
             type: "fill-blank",
-            prompt: "A parent wrote *über es*. Write the German for the bold words.",
+            prompt: "A parent wrote \"*über es\". Write the German for the bold words.",
             en: "I talked to the teacher [about it].",
             sentence: "Ich habe mit der Lehrerin ___ gesprochen.",
             answer: "darüber",
@@ -1878,11 +1882,11 @@ export const DE_B1_U29: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A parent wrote *Doch bringt mal Salate mit!* Translate correctly: Why don't you bring salads! (to the group)",
+        prompt: "A parent wrote \"*Doch bringt mal Salate mit!\" Translate correctly: Why don't you bring salads! (to the group)",
         source: "Why don't you bring salads!",
         answer: "Bringt doch Salate mit!",
         altAnswers: ["Bringt doch mal Salate mit!", "Bringt mal Salate mit!", "Bringen Sie doch Salate mit!"],
-        explanation: "Particles never start the sentence: verb first, then \"doch\".",
+        explanation: "Modal particles like \"doch\" and \"mal\" never stand in position 1: the imperative verb comes first, then \"doch\".",
       },
       {
         type: "fill-blank",
@@ -2184,7 +2188,7 @@ export const DE_B1_U29: Lesson[] = [
         heading: "Things: da-compounds",
         body: [
           "For things and ideas, preposition + pronoun becomes a da-compound: da + preposition, with an extra r before a vowel: \"über die Miete\" → \"darüber\", \"auf die Antwort\" → \"darauf\", \"mit dem Vertrag\" → \"damit\", \"für die Wohnung\" → \"dafür\", \"an den Termin\" → \"daran\".",
-          "*Auf es and *über sie (for a thing) are typical learner errors. Questions use wo-compounds: \"Worüber hast du dich beschwert?\", \"Worauf wartest du?\".",
+          "\"*Auf es\" and \"*über sie\" (for a thing) are typical learner errors. Questions use wo-compounds: \"Worüber hast du dich beschwert?\", \"Worauf wartest du?\".",
         ],
         examples: [
           { es: "Ich habe mich über die Miete beschwert. → Ich habe mich darüber beschwert.", en: "I complained about the rent. → I complained about it." },
@@ -2239,7 +2243,7 @@ export const DE_B1_U29: Lesson[] = [
             prompt: "Translate into German.",
             source: "Did you talk to him about it? (to a friend)",
             answer: "Hast du mit ihm darüber gesprochen?",
-            altAnswers: ["Hast du mit ihm darüber geredet?", "Hast du darüber mit ihm gesprochen?", "Habt ihr mit ihm darüber gesprochen?"],
+            altAnswers: ["Hast du mit ihm darüber geredet?", "Hast du darüber mit ihm gesprochen?"],
             explanation: "Person → \"mit ihm\"; thing → \"darüber\".",
           },
           {
@@ -2258,6 +2262,7 @@ export const DE_B1_U29: Lesson[] = [
         prompt: "Translate into German.",
         source: "We're waiting for it (the answer).",
         answer: "Wir warten darauf.",
+        altAnswers: ["Wir warten drauf."],
         explanation: "\"Warten auf\" + a thing → \"darauf\".",
       },
       {
@@ -2282,7 +2287,7 @@ export const DE_B1_U29: Lesson[] = [
         prompt: "Translate into German.",
         source: "Who did you speak to? (to a friend)",
         answer: "Mit wem hast du gesprochen?",
-        altAnswers: ["Mit wem hast du geredet?", "Mit wem habt ihr gesprochen?"],
+        altAnswers: ["Mit wem hast du geredet?"],
         explanation: "A person in the question: \"mit wem\" (dative).",
       },
       {
@@ -2313,7 +2318,6 @@ export const DE_B1_U29: Lesson[] = [
         prompt: "Translate into German.",
         source: "Are you happy with it? (the contract, to a friend)",
         answer: "Bist du damit zufrieden?",
-        altAnswers: ["Seid ihr damit zufrieden?", "Sind Sie damit zufrieden?"],
         explanation: "\"Zufrieden mit\" + a thing → \"damit\".",
       },
       {

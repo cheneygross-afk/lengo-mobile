@@ -41,7 +41,7 @@ export const DE_B1_U23: Lesson[] = [
             question: "Which sentence is NOT correct?",
             options: ["Entweder du kommst mit oder bleibst du zu Hause.", "Entweder du kommst mit oder du bleibst zu Hause.", "Entweder kommst du mit oder du bleibst zu Hause.", "Du kommst entweder mit oder du bleibst zu Hause."],
             correctIndex: 0,
-            explanation: "\"Oder\" never changes the word order of its clause, so it must be \"oder du bleibst\", not *oder bleibst du*.",
+            explanation: "\"Oder\" never changes the word order of its clause, so it must be \"oder du bleibst\", not \"*oder bleibst du*\".",
           },
         ],
       },
@@ -50,7 +50,7 @@ export const DE_B1_U23: Lesson[] = [
         body: [
           "\"Weder...noch\" is the negative pair: \"Ich trinke weder Kaffee noch Tee\" (I drink neither coffee nor tea / I don't drink coffee or tea). It is already negative, so it never takes \"nicht\" or \"kein\" as well. \"Ich trinke nicht weder Kaffee noch Tee\" is a double negative and wrong.",
           "English speakers often say I don't drink coffee or tea; German can say \"Ich trinke keinen Kaffee und keinen Tee\", but \"weder...noch\" is neater and very common in writing and careful speech.",
-          "Two subjects with \"weder...noch\" usually take a plural verb in everyday German (\"Weder Lena noch Jonas haben Zeit\"); the singular (\"hat\") is also correct. Weder normally stands right before the first item, so it can come in the middle of the sentence or at the very start: \"Weder mein Bruder noch meine Schwester wohnt in Berlin\".",
+          "With two singular subjects, \"weder...noch\" can take a singular or a plural verb: \"Weder Lena noch Jonas hat Zeit\" and \"Weder Lena noch Jonas haben Zeit\" are both correct, and the plural is very common in speech. \"Weder\" normally stands right before the first item, so it can come in the middle of the sentence or at the very start: \"Weder mein Bruder noch meine Schwester wohnt in Berlin\".",
         ],
         examples: [
           { es: "Ich trinke weder Kaffee noch Tee.", en: "I drink neither coffee nor tea." },
@@ -91,7 +91,7 @@ export const DE_B1_U23: Lesson[] = [
         heading: "Sowohl...als auch: both...and",
         body: [
           "\"Sowohl...als auch\" means both...and, adding the two items together with some emphasis: \"Sie spricht sowohl Englisch als auch Spanisch\" (She speaks both English and Spanish). It's a little more formal than \"und\", and very common in CVs, job ads and reports: \"Wir suchen jemanden mit Erfahrung sowohl im Verkauf als auch im Marketing\".",
-          "The second part is \"als auch\", never *aber auch* or *und auch*. You'll sometimes see \"sowohl...wie auch\", which is a correct variant.",
+          "The second part is \"als auch\", never \"*aber auch*\" or \"*und auch*\". You'll sometimes see \"sowohl...wie auch\", which is a correct variant.",
           "Two subjects joined by \"sowohl...als auch\" take a plural verb, as with and: \"Sowohl meine Mutter als auch mein Vater arbeiten in einer Schule\".",
         ],
         examples: [
@@ -135,7 +135,7 @@ export const DE_B1_U23: Lesson[] = [
         prompt: "Translate into German.",
         source: "Either you come along or you stay at home. (to a friend)",
         answer: "Entweder du kommst mit oder du bleibst zu Hause.",
-        altAnswers: ["Entweder kommst du mit oder du bleibst zu Hause.", "Entweder du kommst mit, oder du bleibst zu Hause.", "Entweder kommst du mit, oder du bleibst zu Hause.", "Du kommst entweder mit oder du bleibst zu Hause."],
+        altAnswers: ["Entweder kommst du mit oder du bleibst zu Hause.", "Entweder du kommst mit, oder du bleibst zu Hause.", "Entweder kommst du mit, oder du bleibst zu Hause.", "Du kommst entweder mit oder du bleibst zu Hause.", "Entweder du kommst mit oder du bleibst zuhause."],
         explanation: "\"Entweder\" can stand outside the clause or in position 1 with the verb after it; the \"oder\" clause keeps normal order.",
       },
       {
@@ -159,7 +159,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "He [neither] called [nor] wrote.",
+        en: "He neither called [nor] wrote.",
         sentence: "Er hat weder angerufen ___ geschrieben.",
         answer: "noch",
         explanation: "\"Weder\" always pairs with \"noch\".",
@@ -175,7 +175,7 @@ export const DE_B1_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Either Jonas or Mia will pick you up. Which verb form is right? Entweder Jonas oder Mia ___ dich ab.",
+        question: "Either Jonas or Mia will pick you up. Which verb form is right? \"Entweder Jonas oder Mia ___ dich ab.\"",
         options: ["holt", "holen", "holst", "hole"],
         correctIndex: 0,
         explanation: "With \"entweder...oder\" the verb agrees with the nearer subject; \"Mia\" is singular: \"holt\".",
@@ -430,7 +430,7 @@ export const DE_B1_U23: Lesson[] = [
         body: [
           "A sentence with two \"kein\" nouns turns into \"weder...noch\" by replacing each \"kein\" with the positive article: \"Ich habe kein Auto und kein Fahrrad\" → \"Ich habe weder ein Auto noch ein Fahrrad\". The negative meaning has moved into \"weder...noch\", so the articles become positive.",
           "Without an article (uncountables and plurals), just drop \"kein\": \"Wir haben keine Zeit und kein Geld\" → \"Wir haben weder Zeit noch Geld\". \"Er hat keine Geschwister und keine Kinder\" → \"Er hat weder Geschwister noch Kinder\".",
-          "The trap for English speakers: keeping both negatives, as in *Ich habe weder kein Auto noch kein Fahrrad*. In German, two negatives don't make a stronger negative; they're simply wrong.",
+          "The trap for English speakers: keeping both negatives, as in \"*Ich habe weder kein Auto noch kein Fahrrad*\". In German, two negatives don't make a stronger negative; they're simply wrong.",
         ],
         examples: [
           { es: "Ich habe weder ein Auto noch ein Fahrrad.", en: "I have neither a car nor a bike." },
@@ -443,7 +443,7 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with weder...noch. (Start: Ich habe kein Auto und kein Fahrrad.)",
+            prompt: "Translate into German with \"weder...noch\". (Start: \"Ich habe kein Auto und kein Fahrrad.\")",
             source: "I have neither a car nor a bike.",
             answer: "Ich habe weder ein Auto noch ein Fahrrad.",
             explanation: "\"Kein\" becomes \"ein\" inside \"weder...noch\": the pair carries the negation.",
@@ -451,7 +451,7 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with weder...noch.",
+            prompt: "Translate into German with \"weder...noch\".",
             source: "There's neither a supermarket nor a pharmacy in the village.",
             answer: "In dem Dorf gibt es weder einen Supermarkt noch eine Apotheke.",
             altAnswers: ["Im Dorf gibt es weder einen Supermarkt noch eine Apotheke.", "Es gibt im Dorf weder einen Supermarkt noch eine Apotheke.", "Es gibt in dem Dorf weder einen Supermarkt noch eine Apotheke."],
@@ -479,7 +479,7 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with weder...noch. (Start: Er kann nicht schwimmen und nicht Rad fahren.)",
+            prompt: "Translate into German with \"weder...noch\". (Start: \"Er kann nicht schwimmen und nicht Rad fahren.\")",
             source: "He can neither swim nor ride a bike.",
             answer: "Er kann weder schwimmen noch Rad fahren.",
             explanation: "Both \"nicht\" disappear; \"weder\" and \"noch\" go before the two infinitives.",
@@ -526,7 +526,7 @@ export const DE_B1_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the correct weder...noch version of: Wir haben keine Zeit und kein Geld?",
+            question: "Which is the correct \"weder...noch\" version of \"Wir haben keine Zeit und kein Geld\"?",
             options: ["Wir haben weder Zeit noch Geld.", "Wir haben weder keine Zeit noch kein Geld.", "Wir haben nicht weder Zeit noch Geld.", "Wir haben weder Zeit oder Geld."],
             correctIndex: 0,
             explanation: "No article and no extra negation: \"weder Zeit noch Geld\".",
@@ -538,7 +538,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with weder...noch.",
+        prompt: "Translate into German with \"weder...noch\".",
         source: "We have neither time nor money.",
         answer: "Wir haben weder Zeit noch Geld.",
         explanation: "Uncountable nouns have no article, so \"kein\" just disappears.",
@@ -546,7 +546,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with weder...noch.",
+        prompt: "Translate into German with \"weder...noch\".",
         source: "The flat has neither a balcony nor a lift.",
         answer: "Die Wohnung hat weder einen Balkon noch einen Aufzug.",
         altAnswers: ["Die Wohnung hat weder einen Balkon noch einen Fahrstuhl."],
@@ -555,7 +555,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with weder...noch.",
+        prompt: "Translate into German with \"weder...noch\".",
         source: "The food was neither warm nor tasty.",
         answer: "Das Essen war weder warm noch lecker.",
         altAnswers: ["Das Essen war weder warm noch gut."],
@@ -595,7 +595,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with weder...noch.",
+        prompt: "Translate into German with \"weder...noch\".",
         source: "My grandmother can neither read nor write.",
         answer: "Meine Großmutter kann weder lesen noch schreiben.",
         altAnswers: ["Meine Oma kann weder lesen noch schreiben."],
@@ -732,7 +732,7 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "speak",
             text: "Ich glaube nicht alles, was ich höre.",
-            tip: "Glaube: the au is like English ow, GLOW-be.",
+            tip: "Glaube: the au is like ow in English how, GLAU-be.",
             explanation: "After \"alles\" the relative pronoun is \"was\".",
           },
         ],
@@ -769,7 +769,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[Both] the designers [and] the copywriters are supposedly being laid off.",
+        en: "[Both] the designers and the copywriters are supposedly being laid off.",
         sentence: "___ die Grafiker als auch die Texter sollen entlassen werden.",
         answer: "Sowohl",
         explanation: "\"Sowohl\" pairs with \"als auch\".",
@@ -865,7 +865,7 @@ export const DE_B1_U23: Lesson[] = [
         body: [
           "\"Aber\" adds a contrast or a limitation, without replacing anything: \"Er ist klug, aber faul\" (He's clever but lazy: both are true). \"Die Wohnung ist schön, aber teuer\".",
           "Crucially, \"aber\" can follow a negation too, when the second part doesn't replace the first: \"Er ist nicht reich, aber glücklich\" (He isn't rich, but he's happy). Both parts are true: he's not rich, and he's happy. Happy isn't the opposite or replacement of rich.",
-          "So the question is never just is there a nicht? but does the second part correct the first? If it corrects, \"sondern\"; if it adds, \"aber\".",
+          "So the question is never just is there a \"nicht\"? but does the second part correct the first? If it corrects, \"sondern\"; if it adds, \"aber\".",
         ],
         examples: [
           { es: "Er ist klug, aber faul.", en: "He's clever but lazy." },
@@ -887,7 +887,7 @@ export const DE_B1_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Das Essen war nicht billig, ___ sehr gut. Which word fits?",
+            question: "\"Das Essen war nicht billig, ___ sehr gut.\" Which word fits?",
             options: ["aber", "sondern", "oder", "denn"],
             correctIndex: 0,
             explanation: "The food was not cheap AND it was very good: an added contrast, not a correction.",
@@ -972,7 +972,7 @@ export const DE_B1_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Sie hat nicht angerufen, ___ eine Nachricht geschickt. Which word fits?",
+        question: "\"Sie hat nicht angerufen, ___ eine Nachricht geschickt.\" Which word fits?",
         options: ["sondern", "aber", "oder", "und"],
         correctIndex: 0,
         explanation: "The message replaces the call: \"sondern\" (she sent a message instead).",
@@ -1034,7 +1034,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         heading: "Nicht nur...sondern auch",
         body: [
-          "\"Nicht nur...sondern auch\" means not only...but also: \"Sie spricht nicht nur Deutsch, sondern auch Türkisch\". The second part is always \"sondern auch\", never *aber auch*. This makes sense: \"nicht nur\" is a negation, and \"sondern\" follows negations.",
+          "\"Nicht nur...sondern auch\" means not only...but also: \"Sie spricht nicht nur Deutsch, sondern auch Türkisch\". The second part is always \"sondern auch\", never \"*aber auch*\". This makes sense: \"nicht nur\" is a negation, and \"sondern\" follows negations.",
           "Between full clauses, \"nicht nur\" sits in the middle field of the first clause and \"sondern\" starts the second without changing its word order: \"Er hat nicht nur die Prüfung bestanden, sondern er hat auch die beste Note bekommen\". When the subject is shared, it's usually dropped: \"..., sondern auch die beste Note bekommen\".",
           "Like \"sowohl...als auch\", it's typical of CVs, job ads and descriptions, but with more emphasis on the second item: \"Das Hotel bietet nicht nur einen Pool, sondern auch einen Wellnessbereich\".",
         ],
@@ -1082,7 +1082,7 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with zwar...aber.",
+            prompt: "Translate into German with \"zwar...aber\".",
             source: "The hotel was expensive, but very nice.",
             answer: "Das Hotel war zwar teuer, aber sehr schön.",
             altAnswers: ["Zwar war das Hotel teuer, aber es war sehr schön.", "Das Hotel war zwar teuer, aber es war sehr schön."],
@@ -1102,7 +1102,7 @@ export const DE_B1_U23: Lesson[] = [
         heading: "Je...desto: the more...the more",
         body: [
           "\"Je...desto\" expresses two things that change together: the more..., the more...: \"Je mehr ich lerne, desto besser verstehe ich\". Both halves start with a comparative.",
-          "The word order is the tricky part. The je-half is a subordinate clause, so its verb goes to the end: \"Je mehr ich lerne\". The desto-half is a main clause in which \"desto + comparative\" fills position 1, so the verb comes straight after it, then the subject: \"desto besser verstehe ich\". The classic mistake is *desto ich verstehe besser*.",
+          "The word order is the tricky part. The je-half is a subordinate clause, so its verb goes to the end: \"Je mehr ich lerne\". The desto-half is a main clause in which \"desto + comparative\" fills position 1, so the verb comes straight after it, then the subject: \"desto besser verstehe ich\". The classic mistake is \"*desto ich verstehe besser*\".",
           "\"Umso\" can replace \"desto\" with exactly the same meaning and word order: \"Je früher wir losfahren, umso weniger Stau gibt es\". If the comparative goes with a noun, keep them together: \"je mehr Geld\", \"desto mehr Probleme\".",
         ],
         examples: [
@@ -1133,7 +1133,7 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "speak",
             text: "Je früher wir losfahren, umso weniger Stau gibt es.",
-            tip: "Stau: the au is like English ow, SHTOW.",
+            tip: "Stau: the au is like ow in English how, SHTAU.",
             explanation: "\"Umso\" = \"desto\"; the noun stays with its comparative: \"weniger Stau\".",
           },
         ],
@@ -1152,7 +1152,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with zwar...aber.",
+        prompt: "Translate into German with \"zwar...aber\".",
         source: "The film was long, but never boring.",
         answer: "Der Film war zwar lang, aber nie langweilig.",
         altAnswers: ["Der Film war zwar lang, aber niemals langweilig.", "Zwar war der Film lang, aber er war nie langweilig."],
@@ -1186,8 +1186,8 @@ export const DE_B1_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which completes the sentence? Je schneller du fährst, ___",
-        options: ["umso gefährlicher wird es.", "umso es wird gefährlicher.", "wird es umso gefährlicher.", "es wird gefährlicher."],
+        question: "Which completes the sentence? \"Je schneller du fährst, ___\"",
+        options: ["umso gefährlicher wird es.", "umso es wird gefährlicher.", "umso gefährlicher es wird.", "es wird gefährlicher."],
         correctIndex: 0,
         explanation: "\"Umso + comparative\" takes position 1, followed by the verb and then the subject.",
       },
@@ -1246,7 +1246,7 @@ export const DE_B1_U23: Lesson[] = [
         examples: [
           { es: "Je mehr ich schlafe, desto fitter bin ich.", en: "The more I sleep, the fitter I am." },
           { es: "Je wärmer es ist, desto mehr Leute sind im Park.", en: "The warmer it is, the more people there are in the park." },
-          { es: "Je öfter ich das Lied höre, desto lieber mag ich es.", en: "The more often I hear the song, the more I like it." },
+          { es: "Je öfter ich das Lied höre, desto lieber höre ich es.", en: "The more often I hear the song, the more I like listening to it." },
           { es: "Je weniger man isst, desto hungriger wird man.", en: "The less you eat, the hungrier you get." },
           { es: "Je höher wir steigen, umso kälter wird es.", en: "The higher we climb, the colder it gets." },
           { es: "Je jünger die Kinder sind, desto mehr Hilfe brauchen sie.", en: "The younger the children are, the more help they need." },
@@ -1275,7 +1275,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         heading: "Je...desto in everyday advice",
         body: [
-          "Je...desto is perfect for tips and rules of thumb: \"Je früher du buchst, desto günstiger ist der Flug\" (The earlier you book, the cheaper the flight). \"Je regelmäßiger du übst, umso schneller lernst du\".",
+          "\"Je...desto\" is perfect for tips and rules of thumb: \"Je früher du buchst, desto günstiger ist der Flug\" (The earlier you book, the cheaper the flight). \"Je regelmäßiger du übst, umso schneller lernst du\".",
           "With modals, the infinitive goes before the conjugated verb at the end of the je-half, and at the end of the desto-half as usual: \"Je mehr wir sparen können, desto früher können wir in Urlaub fahren\".",
           "A short fixed version exists too: \"Je mehr, desto besser\" (the more the merrier) and \"Je früher, desto besser\" (the sooner the better).",
         ],
@@ -1317,7 +1317,7 @@ export const DE_B1_U23: Lesson[] = [
         heading: "Turning a statement into je...desto",
         body: [
           "A useful exercise: take a simple cause-and-effect statement and rebuild it. \"Wenn ich viel Sport mache, schlafe ich gut\" → \"Je mehr Sport ich mache, desto besser schlafe ich\". The base adjectives (viel, gut) become comparatives (mehr, besser).",
-          "Watch where the noun goes: in \"je mehr Sport ich mache\", the noun \"Sport\" stays next to \"mehr\", and the subject \"ich\" follows. Not *je mehr ich Sport mache*.",
+          "Watch where the noun goes: in \"je mehr Sport ich mache\", the noun \"Sport\" stays next to \"mehr\", and the subject \"ich\" follows. Not \"*je mehr ich Sport mache*\".",
           "And one more trap: German needs the verb in both halves, even where English leaves it out: The bigger the flat, the higher the rent → \"Je größer die Wohnung ist, desto höher ist die Miete\".",
         ],
         examples: [
@@ -1441,7 +1441,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         heading: "Making suggestions",
         body: [
-          "In Part 2 of the Goethe B1 speaking exam you plan something with a partner: a trip, a party, a present. The examiners want to hear you suggest, react, weigh options and agree. Lena and Mehmet are planning a long weekend for their group of friends. Lena opens:",
+          "In Part 1 of the Goethe B1 speaking exam you plan something with a partner: a trip, a party, a present. The examiners want to hear you suggest, react, weigh options and agree. Lena and Mehmet are planning a long weekend for their group of friends. Lena opens:",
           "Lena: \"Also, wohin wollen wir fahren? Wie wäre es mit der Ostsee? Wir könnten entweder nach Rügen oder nach Usedom fahren.\" Mehmet: \"Hm, die Ostsee ist zwar schön, aber im Oktober ist es dort ziemlich kalt. Was hältst du davon, wenn wir in die Berge fahren?\"",
           "Suggestion phrases: \"Wie wäre es mit...?\" (How about...?, + dative), \"Wir könnten...\" (We could...), \"Was hältst du davon, wenn...?\" (What do you think about... ?), \"Ich schlage vor, dass...\" (I suggest that...), \"Lass uns...\" (Let's...). All of them use Konjunktiv II or a dass/wenn-clause to sound polite and open.",
         ],
@@ -1466,7 +1466,7 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "We could go [either] to Rügen [or] to Usedom.",
+            en: "We could go [either] to Rügen or to Usedom.",
             sentence: "Wir könnten ___ nach Rügen oder nach Usedom fahren.",
             answer: "entweder",
             explanation: "\"Entweder...oder\" offers two options.",
@@ -1477,7 +1477,7 @@ export const DE_B1_U23: Lesson[] = [
         heading: "Weighing the options",
         body: [
           "Lena: \"Die Berge finde ich gut, aber wie kommen wir dorthin? Mit dem Auto sind es fast acht Stunden.\" Mehmet: \"Wir könnten den Zug nehmen. Das ist zwar etwas teurer, aber wir können unterwegs schlafen oder Karten spielen.\" Lena: \"Stimmt. Und je früher wir buchen, desto günstiger sind die Tickets.\"",
-          "This is what the exam calls weighing up: each speaker gives an advantage and a disadvantage. Zwar...aber is perfect for it, and je...desto gives a reason to act.",
+          "This is what the exam calls weighing up: each speaker gives an advantage and a disadvantage. \"Zwar...aber\" is perfect for it, and \"je...desto\" gives a reason to act.",
           "Other useful phrases: \"Der Vorteil ist, dass...\" (the advantage is that...), \"Der Nachteil ist, dass...\", \"Einerseits..., andererseits...\" (on the one hand..., on the other hand...), \"Das Problem ist nur, dass...\".",
         ],
         examples: [
@@ -1491,7 +1491,7 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with zwar...aber.",
+            prompt: "Translate into German with \"zwar...aber\".",
             source: "The train is a bit more expensive, but we can sleep on the way.",
             answer: "Der Zug ist zwar etwas teurer, aber wir können unterwegs schlafen.",
             altAnswers: ["Zwar ist der Zug etwas teurer, aber wir können unterwegs schlafen.", "Der Zug ist zwar ein bisschen teurer, aber wir können unterwegs schlafen."],
@@ -1508,7 +1508,7 @@ export const DE_B1_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Mehmet: Je früher wir buchen, ... How does Lena correctly finish?",
+            question: "Lena starts: \"Je früher wir buchen, ...\" How does she correctly finish?",
             options: ["desto günstiger sind die Tickets.", "desto die Tickets sind günstiger.", "desto günstiger die Tickets sind.", "sind die Tickets desto günstiger."],
             correctIndex: 0,
             explanation: "\"Desto + comparative\", then the verb, then the subject.",
@@ -1580,7 +1580,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "There we can [not only] cook for ourselves, [but] also have more space.",
+        en: "There we can [not only] cook for ourselves, but also have more space.",
         sentence: "Da können wir ___ selbst kochen, sondern haben auch mehr Platz.",
         answer: "nicht nur",
         explanation: "\"Nicht nur...sondern auch\".",
@@ -1648,7 +1648,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         heading: "The idea",
         body: [
-          "Ayşe tells her story in a local newspaper interview, in the written past (Präteritum): \"Vor drei Jahren arbeitete ich noch als Bürokauffrau in einer Versicherung. Die Arbeit war zwar sicher, aber sie machte mir keinen Spaß. Ich träumte schon lange von einem eigenen Café. Eines Abends sagte meine Schwester: Entweder du machst es jetzt, oder du machst es nie.\"",
+          "Ayşe tells her story in a local newspaper interview, in the written past (Präteritum): \"Vor drei Jahren arbeitete ich noch als Bürokauffrau in einer Versicherung. Die Arbeit war zwar sicher, aber sie machte mir keinen Spaß. Ich träumte schon lange von einem eigenen Café. Eines Abends sagte meine Schwester: „Entweder du machst es jetzt, oder du machst es nie.“\"",
           "Präteritum forms: \"arbeitete\", \"war\", \"machte\", \"träumte\", \"sagte\". \"Träumen von\" + dative (to dream of). \"Zwar...aber\" concedes the safe job before the real point. \"Eines Abends\" is the genitive time phrase from Unit 21.",
           "Her sister's ultimatum uses \"entweder...oder\" with both clauses in normal order.",
         ],
@@ -1663,7 +1663,7 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with zwar...aber. (Use the Präteritum.)",
+            prompt: "Translate into German with \"zwar...aber\". (Use the Präteritum.)",
             source: "The job was secure, but I didn't enjoy it.",
             answer: "Die Arbeit war zwar sicher, aber sie machte mir keinen Spaß.",
             altAnswers: ["Die Arbeit war zwar sicher, aber sie hat mir keinen Spaß gemacht.", "Die Stelle war zwar sicher, aber sie machte mir keinen Spaß.", "Der Job war zwar sicher, aber er machte mir keinen Spaß."],
@@ -1864,7 +1864,7 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Combine into one sentence in German. (Die Wohnung ist klein. Sie ist sehr gemütlich.)",
+            prompt: "Combine into one sentence in German. (\"Die Wohnung ist klein. Sie ist sehr gemütlich.\")",
             source: "The flat is small, but very cosy.",
             answer: "Die Wohnung ist zwar klein, aber sehr gemütlich.",
             altAnswers: ["Zwar ist die Wohnung klein, aber sie ist sehr gemütlich.", "Die Wohnung ist zwar klein, aber sie ist sehr gemütlich."],
@@ -1872,7 +1872,7 @@ export const DE_B1_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Jonas hat keine Zeit. Er hat auch keine Lust. Which connector combines them best?",
+            question: "\"Jonas hat keine Zeit. Er hat auch keine Lust.\" Which connector combines them best?",
             options: ["weder...noch", "sowohl...als auch", "entweder...oder", "je...desto"],
             correctIndex: 0,
             explanation: "Both statements are negative: \"Jonas hat weder Zeit noch Lust\".",
@@ -1883,7 +1883,7 @@ export const DE_B1_U23: Lesson[] = [
         heading: "Watch the word order",
         body: [
           "Each connector has its own word-order rule. \"Entweder\": position 0 or 1. \"Oder\", \"aber\", \"sondern\": position 0, no change. \"Zwar\": usually after the verb, or position 1 with inversion. \"Je\": a subordinate clause with the verb last. \"Desto\" / \"umso\" + comparative: position 1, so the verb follows.",
-          "Example with je...desto: \"Ich trainiere viel. Ich laufe schnell.\" → \"Je mehr ich trainiere, desto schneller laufe ich\". The base words \"viel\" and \"schnell\" become comparatives.",
+          "Example with \"je...desto\": \"Ich trainiere viel. Ich laufe schnell.\" → \"Je mehr ich trainiere, desto schneller laufe ich\". The base words \"viel\" and \"schnell\" become comparatives.",
           "When both sentences share a subject and verb, shorten: \"Mia trinkt keinen Kaffee. Sie trinkt keinen Tee.\" → \"Mia trinkt weder Kaffee noch Tee\".",
         ],
         examples: [
@@ -1897,7 +1897,7 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Combine into one sentence in German. (Ich trainiere viel. Ich laufe schnell.)",
+            prompt: "Combine into one sentence in German. (\"Ich trainiere viel. Ich laufe schnell.\")",
             source: "The more I train, the faster I run.",
             answer: "Je mehr ich trainiere, desto schneller laufe ich.",
             altAnswers: ["Je mehr ich trainiere, umso schneller laufe ich."],
@@ -1923,7 +1923,7 @@ export const DE_B1_U23: Lesson[] = [
         body: [
           "Now try longer inputs. \"Wir können mit dem Bus fahren. Wir können auch zu Fuß gehen. Wir müssen uns entscheiden.\" → \"Wir können entweder mit dem Bus fahren oder zu Fuß gehen\".",
           "\"Das Hotel liegt am Strand. Es hat einen Pool. Das hat uns überrascht.\" → \"Das Hotel liegt nicht nur am Strand, sondern hat auch einen Pool\".",
-          "\"Die Stadt wird größer. Der Verkehr wird schlimmer.\" → \"Je größer die Stadt wird, desto schlimmer wird der Verkehr\". The irregular comparative \"schlimm → schlimmer\" is regular after all; the irregular ones are \"gut, viel, gern, hoch, nah\".",
+          "\"Die Stadt wird größer. Der Verkehr wird schlimmer.\" → \"Je größer die Stadt wird, desto schlimmer wird der Verkehr\". \"Schlimm → schlimmer\" is regular; the irregular ones are \"gut\", \"viel\", \"gern\", \"hoch\" and \"nah\".",
         ],
         examples: [
           { es: "Wir können entweder mit dem Bus fahren oder zu Fuß gehen.", en: "We can either take the bus or walk." },
@@ -1936,7 +1936,7 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Combine into one sentence in German. (Die Stadt wird größer. Der Verkehr wird schlimmer.)",
+            prompt: "Combine into one sentence in German. (\"Die Stadt wird größer. Der Verkehr wird schlimmer.\")",
             source: "The bigger the city gets, the worse the traffic gets.",
             answer: "Je größer die Stadt wird, desto schlimmer wird der Verkehr.",
             altAnswers: ["Je größer die Stadt wird, umso schlimmer wird der Verkehr."],
@@ -1945,7 +1945,7 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Combine into one sentence in German. (Der Bus hatte Verspätung. Die Bahn hatte auch Verspätung.)",
+            prompt: "Combine into one sentence in German. (\"Der Bus hatte Verspätung. Die Bahn hatte auch Verspätung.\")",
             source: "Both the bus and the train were late.",
             answer: "Sowohl der Bus als auch die Bahn hatten Verspätung.",
             altAnswers: ["Sowohl der Bus als auch der Zug hatten Verspätung."],
@@ -1958,7 +1958,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Combine into one sentence in German. (Lena spielt Gitarre. Sie spielt auch Klavier.)",
+        prompt: "Combine into one sentence in German. (\"Lena spielt Gitarre. Sie spielt auch Klavier.\")",
         source: "Lena plays both guitar and piano.",
         answer: "Lena spielt sowohl Gitarre als auch Klavier.",
         altAnswers: ["Lena spielt nicht nur Gitarre, sondern auch Klavier.", "Lena spielt sowohl Gitarre wie auch Klavier."],
@@ -1967,7 +1967,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Combine into one sentence in German. (Ich habe meinen Schlüssel nicht gefunden. Ich habe mein Handy nicht gefunden.)",
+        prompt: "Combine into one sentence in German. (\"Ich habe meinen Schlüssel nicht gefunden. Ich habe mein Handy nicht gefunden.\")",
         source: "I found neither my key nor my phone.",
         answer: "Ich habe weder meinen Schlüssel noch mein Handy gefunden.",
         explanation: "Both \"nicht\" go; \"weder...noch\" frames the two objects.",
@@ -1975,7 +1975,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Combine into one sentence in German. (Wir können den Bus nehmen. Wir können zu Fuß gehen.)",
+        prompt: "Combine into one sentence in German. (\"Wir können den Bus nehmen. Wir können zu Fuß gehen.\")",
         source: "We can either take the bus or walk.",
         answer: "Wir können entweder den Bus nehmen oder zu Fuß gehen.",
         altAnswers: ["Wir können entweder mit dem Bus fahren oder zu Fuß gehen.", "Entweder nehmen wir den Bus oder wir gehen zu Fuß.", "Entweder wir nehmen den Bus oder wir gehen zu Fuß."],
@@ -1991,7 +1991,7 @@ export const DE_B1_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Das Hotel liegt am Strand. Es hat auch einen Pool. Which combination is correct?",
+        question: "\"Das Hotel liegt am Strand. Es hat auch einen Pool.\" Which combination is correct?",
         options: ["Das Hotel liegt nicht nur am Strand, sondern hat auch einen Pool.", "Das Hotel liegt nicht nur am Strand, aber hat auch einen Pool.", "Das Hotel liegt weder am Strand noch hat einen Pool.", "Das Hotel liegt je am Strand, desto hat einen Pool."],
         correctIndex: 0,
         explanation: "Both true, the second an extra: \"nicht nur...sondern auch\".",
@@ -1999,7 +1999,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Combine into one sentence in German. (Das Essen ist teuer. Es ist sehr gut.)",
+        prompt: "Combine into one sentence in German. (\"Das Essen ist teuer. Es ist sehr gut.\")",
         source: "The food is expensive, but very good.",
         answer: "Das Essen ist zwar teuer, aber sehr gut.",
         altAnswers: ["Zwar ist das Essen teuer, aber es ist sehr gut.", "Das Essen ist zwar teuer, aber es ist sehr gut."],
@@ -2008,7 +2008,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Combine into one sentence in German. (Ich übe oft. Ich spiele gut.)",
+        prompt: "Combine into one sentence in German. (\"Ich übe oft. Ich spiele gut.\")",
         source: "The more often I practise, the better I play.",
         answer: "Je öfter ich übe, desto besser spiele ich.",
         altAnswers: ["Je öfter ich übe, umso besser spiele ich.", "Je mehr ich übe, desto besser spiele ich.", "Je mehr ich übe, umso besser spiele ich."],
@@ -2069,7 +2069,7 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with zwar...aber.",
+            prompt: "Translate into German with \"zwar...aber\".",
             source: "We only see each other once a year, but we talk on the phone every day.",
             answer: "Wir sehen uns zwar nur einmal im Jahr, aber wir telefonieren jeden Tag.",
             altAnswers: ["Zwar sehen wir uns nur einmal im Jahr, aber wir telefonieren jeden Tag.", "Wir sehen uns zwar nur einmal pro Jahr, aber wir telefonieren jeden Tag."],
@@ -2174,7 +2174,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German with weder...noch.",
+        prompt: "Translate into German with \"weder...noch\".",
         source: "I could neither fly there nor help him.",
         answer: "Ich konnte weder hinfliegen noch ihm helfen.",
         altAnswers: ["Ich konnte weder dorthin fliegen noch ihm helfen.", "Ich konnte weder hinfliegen, noch konnte ich ihm helfen."],
@@ -2192,7 +2192,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "My family lives [both] in Germany [and] in Turkey.",
+        en: "My family lives [both] in Germany and in Turkey.",
         sentence: "Meine Familie wohnt ___ in Deutschland als auch in der Türkei.",
         answer: "sowohl",
         explanation: "\"Sowohl...als auch\" = both...and. \"Die Türkei\" always has its article.",
@@ -2200,7 +2200,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "multiple-choice",
         question: "Which sentence is correct?",
-        options: ["Ich mache mir Sorgen um meine Eltern.", "Ich mache mich Sorgen um meine Eltern.", "Ich mache mir Sorgen über meine Eltern.", "Ich sorge mir um meine Eltern."],
+        options: ["Ich mache mir Sorgen um meine Eltern.", "Ich mache mich Sorgen um meine Eltern.", "Ich mache mir Sorgen an meine Eltern.", "Ich sorge mir um meine Eltern."],
         correctIndex: 0,
         explanation: "\"Sich (dative) Sorgen machen um\" + accusative.",
       },
@@ -2226,7 +2226,7 @@ export const DE_B1_U23: Lesson[] = [
         prompt: "Put the words in order to say: I often think of my grandmother.",
         words: ["Ich", "denke", "oft", "an", "meine", "Großmutter."],
         translation: "I often think of my grandmother.",
-        explanation: "\"Denken an\" + accusative. Not *denken von*.",
+        explanation: "\"Denken an\" + accusative. Not \"*denken von*\".",
       },
       {
         type: "dictation",
@@ -2246,7 +2246,7 @@ export const DE_B1_U23: Lesson[] = [
     level: "DE-B1",
     number: 12,
     title: "Error Hunt: Two-Part Connectors",
-    summary: "Fix the classic slips: *je mehr ich lerne, desto ich weiß mehr, *nicht weder...noch, *sowohl...aber auch, *nicht nur...aber auch, *Er ist nicht reich, aber arm.",
+    summary: "Fix the classic slips: \"*je mehr ich lerne, desto ich weiß mehr\", \"*nicht weder...noch\", \"*sowohl...aber auch\", \"*nicht nur...aber auch\", \"*Er ist nicht reich, aber arm\".",
     duration: "12 min",
     sections: [
       {
@@ -2254,7 +2254,7 @@ export const DE_B1_U23: Lesson[] = [
         body: [
           "The commonest error with \"je...desto\" is English word order in the second half: \"*Je mehr ich lerne, desto ich weiß mehr\". Two things are wrong: the comparative must stay right after \"desto\", and the verb must follow it: \"Je mehr ich lerne, desto mehr weiß ich\".",
           "The second commonest is a verb-second je-half: \"*Je mehr lerne ich, desto...\". The je-half is a subordinate clause, so the verb goes to the end: \"Je mehr ich lerne\".",
-          "A quick check: in the je-half, find the verb at the end; in the desto-half, find the verb in third word position (desto + comparative + verb).",
+          "A quick check: in the je-half, find the verb at the end; in the desto-half, find the verb straight after \"desto\" + comparative (and any noun that belongs to it).",
         ],
         examples: [
           { es: "Je mehr ich lerne, desto mehr weiß ich.", en: "The more I learn, the more I know." },
@@ -2266,7 +2266,7 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. (A learner wrote: Je mehr ich lerne, desto ich weiß mehr.)",
+            prompt: "Translate into German. (A learner wrote: \"*Je mehr ich lerne, desto ich weiß mehr.\")",
             source: "The more I learn, the more I know.",
             answer: "Je mehr ich lerne, desto mehr weiß ich.",
             altAnswers: ["Je mehr ich lerne, umso mehr weiß ich."],
@@ -2274,7 +2274,7 @@ export const DE_B1_U23: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "A learner wrote: Je öfter spreche ich Deutsch, desto sicherer werde ich. What's the fix?",
+            question: "A learner wrote: \"*Je öfter spreche ich Deutsch, desto sicherer werde ich.\" What's the fix?",
             options: ["Je öfter ich Deutsch spreche, desto sicherer werde ich.", "Je öfter ich spreche Deutsch, desto sicherer werde ich.", "Je öfter spreche ich Deutsch, desto ich werde sicherer.", "Je öfter ich Deutsch spreche, desto ich sicherer werde."],
             correctIndex: 0,
             explanation: "Verb at the end of the je-half: \"Deutsch spreche\".",
@@ -2286,7 +2286,7 @@ export const DE_B1_U23: Lesson[] = [
         body: [
           "\"Weder...noch\" is already negative, so \"*Ich habe nicht weder Zeit noch Geld\" and \"*Ich habe weder keine Zeit noch kein Geld\" are both wrong. Correct: \"Ich habe weder Zeit noch Geld\".",
           "Each two-part connector has a fixed partner. \"*Sowohl...aber auch\" should be \"sowohl...als auch\". \"*Nicht nur...aber auch\" should be \"nicht nur...sondern auch\". \"*Weder...oder\" should be \"weder...noch\". \"*Entweder...noch\" should be \"entweder...oder\".",
-          "Learn them as fixed pairs, like a phrase: entweder-oder, weder-noch, sowohl-als-auch, nicht-nur-sondern-auch, zwar-aber, je-desto.",
+          "Learn them as fixed pairs, like a phrase: \"entweder...oder\", \"weder...noch\", \"sowohl...als auch\", \"nicht nur...sondern auch\", \"zwar...aber\", \"je...desto\".",
         ],
         examples: [
           { es: "Ich habe weder Zeit noch Geld.", en: "I have neither time nor money." },
@@ -2299,7 +2299,7 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. (A learner wrote: Sie spielt sowohl Tennis aber auch Fußball.)",
+            prompt: "Translate into German. (A learner wrote: \"*Sie spielt sowohl Tennis aber auch Fußball.\")",
             source: "She plays both tennis and football.",
             answer: "Sie spielt sowohl Tennis als auch Fußball.",
             altAnswers: ["Sie spielt sowohl Tennis wie auch Fußball."],
@@ -2308,14 +2308,14 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. (A learner wrote: Er kocht nicht nur gut, aber auch gern.)",
+            prompt: "Translate into German. (A learner wrote: \"*Er kocht nicht nur gut, aber auch gern.\")",
             source: "He not only cooks well but also likes cooking.",
             answer: "Er kocht nicht nur gut, sondern auch gern.",
             explanation: "\"Nicht nur\" is a negation, so its partner is \"sondern auch\". \"Gern kochen\" = to like cooking.",
           },
           {
             type: "fill-blank",
-            prompt: "Write the German for the bold words. (A learner wrote: nicht weder warm noch sonnig.)",
+            prompt: "Write the German for the bold words. (A learner wrote: \"*nicht weder warm noch sonnig.\")",
             en: "The weather was [neither] warm nor sunny.",
             sentence: "Das Wetter war ___ warm noch sonnig.",
             answer: "weder",
@@ -2340,7 +2340,7 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. (A learner wrote: Das Treffen ist nicht am Montag, aber am Dienstag.)",
+            prompt: "Translate into German. (A learner wrote: \"*Das Treffen ist nicht am Montag, aber am Dienstag.\")",
             source: "The meeting isn't on Monday, it's on Tuesday.",
             answer: "Das Treffen ist nicht am Montag, sondern am Dienstag.",
             altAnswers: ["Die Besprechung ist nicht am Montag, sondern am Dienstag."],
@@ -2359,7 +2359,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. (A learner wrote: Je länger wir warten, desto es wird teurer.)",
+        prompt: "Translate into German. (A learner wrote: \"*Je länger wir warten, desto es wird teurer.\")",
         source: "The longer we wait, the more expensive it gets.",
         answer: "Je länger wir warten, desto teurer wird es.",
         altAnswers: ["Je länger wir warten, umso teurer wird es."],
@@ -2368,7 +2368,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. (A learner wrote: Ich habe weder keine Zeit noch kein Geld.)",
+        prompt: "Translate into German. (A learner wrote: \"*Ich habe weder keine Zeit noch kein Geld.\")",
         source: "I have neither time nor money.",
         answer: "Ich habe weder Zeit noch Geld.",
         explanation: "Drop every \"kein\": \"weder...noch\" carries the negation.",
@@ -2376,14 +2376,14 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. (A learner wrote: Er ist nicht reich, aber arm.)",
+        prompt: "Translate into German. (A learner wrote: \"*Er ist nicht reich, aber arm.\")",
         source: "He isn't rich, he's poor.",
         answer: "Er ist nicht reich, sondern arm.",
         explanation: "Poor replaces rich: \"sondern\".",
       },
       {
         type: "fill-blank",
-        prompt: "Write the German for the bold words. (A learner wrote: entweder nach Wien noch nach Prag.)",
+        prompt: "Write the German for the bold words. (A learner wrote: \"*entweder nach Wien noch nach Prag.\")",
         en: "We're going either to Vienna [or] to Prague.",
         sentence: "Wir fahren entweder nach Wien ___ nach Prag.",
         answer: "oder",
@@ -2399,7 +2399,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. (A learner wrote: Je müder bin ich, desto mehr Fehler ich mache.)",
+        prompt: "Translate into German. (A learner wrote: \"*Je müder bin ich, desto mehr Fehler ich mache.\")",
         source: "The more tired I am, the more mistakes I make.",
         answer: "Je müder ich bin, desto mehr Fehler mache ich.",
         altAnswers: ["Je müder ich bin, umso mehr Fehler mache ich."],
@@ -2408,7 +2408,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German. (A learner wrote: Sie wohnt nicht mehr in Berlin, sondern sie besucht uns oft.)",
+        prompt: "Translate into German. (A learner wrote: \"*Sie wohnt nicht mehr in Berlin, sondern sie besucht uns oft.\")",
         source: "She doesn't live in Berlin any more, but she visits us often.",
         answer: "Sie wohnt nicht mehr in Berlin, aber sie besucht uns oft.",
         altAnswers: ["Sie wohnt nicht mehr in Berlin, besucht uns aber oft."],
@@ -2502,7 +2502,7 @@ export const DE_B1_U23: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German with zwar...aber.",
+            prompt: "Translate into German with \"zwar...aber\".",
             source: "I was sceptical, but I signed up.",
             answer: "Ich war zwar skeptisch, aber ich habe mich angemeldet.",
             altAnswers: ["Zwar war ich skeptisch, aber ich habe mich angemeldet.", "Ich war zwar skeptisch, aber ich meldete mich an.", "Ich war zwar skeptisch, habe mich aber angemeldet."],
@@ -2652,7 +2652,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         heading: "How have you changed?",
         body: [
-          "Questions about change invite je...desto answers. \"Hast du dich in den letzten Jahren verändert?\" (Have you changed in recent years?) — \"Ja, je älter ich werde, desto gelassener bin ich\" (Yes, the older I get, the more relaxed I am).",
+          "Questions about change invite \"je...desto\" answers. \"Hast du dich in den letzten Jahren verändert?\" (Have you changed in recent years?) — \"Ja, je älter ich werde, desto gelassener bin ich\" (Yes, the older I get, the more relaxed I am).",
           "Useful comparatives for talking about yourself: \"gelassener\" (more relaxed), \"geduldiger\" (more patient), \"ordentlicher\" (tidier), \"vorsichtiger\" (more careful), \"selbstbewusster\" (more self-confident), \"ruhiger\", \"lockerer\" (more laid-back).",
           "You can also answer with \"nicht nur...sondern auch\" to describe changes in two areas: \"Ich bin nicht nur ruhiger geworden, sondern auch geduldiger\".",
         ],
@@ -2687,7 +2687,7 @@ export const DE_B1_U23: Lesson[] = [
       {
         heading: "General questions: what's better?",
         body: [
-          "Discussion questions often compare: \"Ist es besser, früh oder spät Kinder zu bekommen?\" (Is it better to have children early or late?), \"Sollte man viel oder wenig arbeiten?\". Je...desto lets you give a nuanced answer: \"Je früher man Kinder bekommt, desto mehr Energie hat man, aber...\".",
+          "Discussion questions often compare: \"Ist es besser, früh oder spät Kinder zu bekommen?\" (Is it better to have children early or late?), \"Sollte man viel oder wenig arbeiten?\". \"Je...desto\" lets you give a nuanced answer: \"Je früher man Kinder bekommt, desto mehr Energie hat man, aber...\".",
           "Combine it with \"zwar...aber\" for balance: \"Je größer die Stadt, desto mehr Möglichkeiten gibt es. Das Leben dort ist zwar spannend, aber auch teuer\".",
           "Opening phrases: \"Das kommt darauf an\" (It depends), \"Ich glaube, je..., desto...\", \"Meiner Meinung nach gilt: je..., desto...\".",
         ],
@@ -2797,7 +2797,7 @@ export const DE_B1_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Someone asks: Ist es besser, in der Stadt zu wohnen? Which answer is correct and natural?",
+        question: "Someone asks: \"Ist es besser, in der Stadt zu wohnen?\" Which answer is correct and natural?",
         options: ["Das kommt darauf an.", "Das kommt auf an.", "Das hängt davon.", "Es kommt an."],
         correctIndex: 0,
         explanation: "\"Es / Das kommt darauf an\" is the fixed phrase for it depends.",
@@ -2852,6 +2852,6 @@ export const DE_B1_U23_WRITING: WriteExercise = {
     "Uses at least one of \"entweder...oder\", \"weder...noch\", \"sowohl...als auch\" or \"nicht nur...sondern auch\" with the right partner.",
     "Uses \"sondern\" (not \"aber\") only to correct a negation.",
   ],
-  modelAnswer: "Lieber Jonas,\n\ndanke für deine Mail! Du musst dich also entscheiden: Entweder du bleibst in deiner kleinen Stadt oder du ziehst nach München. Das ist zwar eine schwierige Entscheidung, aber ich finde, das Angebot ist toll.\n\nIn einer großen Stadt gibt es nicht nur mehr Jobs, sondern auch mehr Kultur: Kinos, Theater, Konzerte. Die Mieten sind zwar viel höher, aber du würdest ja auch mehr verdienen. Natürlich ist es nicht immer ruhig, sondern oft laut und stressig. Aber je länger man in einer Stadt wohnt, desto besser gewöhnt man sich daran.\n\nIn deinem Dorf hast du weder ein Kino noch eine gute Busverbindung, und du langweilst dich schon lange. An deiner Stelle würde ich es versuchen!\n\nViele Grüße\nMia",
+  modelAnswer: "Lieber Jonas,\n\ndanke für deine Mail! Du musst dich also entscheiden: Entweder du bleibst in deiner kleinen Stadt oder du ziehst nach München. Das ist zwar eine schwierige Entscheidung, aber ich finde, das Angebot ist toll.\n\nIn einer großen Stadt gibt es nicht nur mehr Jobs, sondern auch mehr Kultur: Kinos, Theater, Konzerte. Die Mieten sind zwar viel höher, aber du würdest ja auch mehr verdienen. Natürlich ist es nicht immer ruhig, sondern oft laut und stressig. Aber je länger man in einer Stadt wohnt, desto besser gewöhnt man sich daran.\n\nIn deiner Kleinstadt hast du weder ein Kino noch eine gute Busverbindung, und du langweilst dich schon lange. An deiner Stelle würde ich es versuchen!\n\nViele Grüße\nMia",
   explanation: "\"Entweder...oder\" sets out the choice, \"zwar...aber\" weighs cost against benefit twice, \"nicht nur...sondern auch\" adds advantages, and \"weder...noch\" replaces \"kein...und kein\". \"Je länger man wohnt, desto besser gewöhnt man sich\" has the verb last in the je-half and right after the comparative in the desto-half. \"Nicht ruhig, sondern laut\" uses \"sondern\" because loud replaces quiet.",
 };

@@ -48,7 +48,7 @@ export const DE_B2_U09: Lesson[] = [
       {
         heading: "How to make the noun",
         body: [
-          "There are four main ways to turn a verb into a noun. 1. -ung (always feminine): \"liefern → die Lieferung\", \"entscheiden → die Entscheidung\", \"eröffnen → die Eröffnung\". 2. The infinitive as a neuter noun: \"lesen → das Lesen\", \"rauchen → das Rauchen\", \"schwimmen → das Schwimmen\". 3. Stem nouns, mostly masculine, often with a vowel change: \"steigen → der Anstieg\", \"verlaufen → der Verlauf\", \"besuchen → der Besuch\", \"beginnen → der Beginn\". 4. -e nouns, feminine: \"suchen → die Suche\", \"fragen → die Frage\", \"reisen → die Reise\".",
+          "There are four main ways to turn a verb into a noun. 1. -ung (always feminine): \"liefern → die Lieferung\", \"entscheiden → die Entscheidung\", \"eröffnen → die Eröffnung\". 2. The infinitive as a neuter noun: \"lesen → das Lesen\", \"rauchen → das Rauchen\", \"schwimmen → das Schwimmen\". 3. Stem nouns, mostly masculine, sometimes with a vowel change: \"ansteigen → der Anstieg\", \"verlaufen → der Verlauf\", \"besuchen → der Besuch\", \"beginnen → der Beginn\". 4. -e nouns, feminine: \"suchen → die Suche\", \"fragen → die Frage\", \"reisen → die Reise\".",
           "Some nouns are irregular and simply have to be learned: \"ankommen → die Ankunft\", \"abfahren → die Abfahrt\", \"sehen → die Sicht\", \"schreiben → die Schrift\". Many -t / -ft nouns are feminine.",
           "Gender trap summary: all -ung = die, all infinitive nouns = das, most stem nouns = der, most -e nouns = die. If you know the type, you know the gender.",
         ],
@@ -66,12 +66,12 @@ export const DE_B2_U09: Lesson[] = [
             instructions: "Match each verb with its noun.",
             pairs: [
               { left: "die Lieferung", right: "liefern" },
-              { left: "der Anstieg", right: "steigen" },
+              { left: "der Anstieg", right: "ansteigen" },
               { left: "die Ankunft", right: "ankommen" },
               { left: "die Suche", right: "suchen" },
               { left: "das Rauchen", right: "rauchen" },
             ],
-            explanation: "Four patterns: -ung, stem noun, irregular -ft, -e noun, infinitive noun.",
+            explanation: "The patterns: -ung, stem noun, irregular -ft, -e noun, infinitive noun.",
           },
           {
             type: "translate",
@@ -165,10 +165,10 @@ export const DE_B2_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which gender is correct?",
-        options: ["das Schwimmen", "der Schwimmen", "die Schwimmen", "die Schwimmung"],
+        question: "You want to say 'Swimming is healthy'. Which subject completes \"___ ist gesund\"?",
+        options: ["Das Schwimmen", "Der Schwimmen", "Die Schwimmen", "Die Schwimmung"],
         correctIndex: 0,
-        explanation: "Infinitive nouns are always neuter.",
+        explanation: "Infinitive nouns are always neuter: \"das Schwimmen\". There is no -ung noun from \"schwimmen\".",
       },
       {
         type: "translate",
@@ -228,14 +228,14 @@ export const DE_B2_U09: Lesson[] = [
     slug: "b2-pattern-die-ankunft-des-zuges",
     level: "DE-B2",
     number: 2,
-    title: "Pattern Practice: Der Zug Kommt An → Die Ankunft des Zuges",
+    title: "Pattern Practice: Der Zug kommt an → Die Ankunft des Zuges",
     summary: "Drill one transformation with many verbs: das Gebäude wird eröffnet → die Eröffnung des Gebäudes, er reist ab → seine Abreise; genitive endings.",
     duration: "14 min",
     sections: [
       {
         heading: "Masculine and neuter: des + -s / -es",
         body: [
-          "The genitive of masculine and neuter nouns is \"des\" + noun + -s or -es: \"des Zuges\", \"des Gebäudes\", \"des Projekts\", \"des Vertrags\". Use -es with one-syllable nouns (often optional: \"des Zugs\" is also fine) and always after s, ß, x, z: \"des Hauses\", \"des Fußes\", \"des Platzes\". Use -s with longer nouns: \"des Gebäudes\" (both fine), \"des Bahnhofs\", \"des Unternehmens\".",
+          "The genitive of masculine and neuter nouns is \"des\" + noun + -s or -es: \"des Zuges\", \"des Gebäudes\", \"des Projekts\", \"des Vertrags\". Use -es with one-syllable nouns (often optional: \"des Zugs\" is also fine) and always after s, ß, x, z: \"des Hauses\", \"des Fußes\", \"des Platzes\". Use -s with longer nouns and nouns ending in -e: \"des Gebäudes\", \"des Bahnhofs\", \"des Unternehmens\".",
           "Weak masculine nouns take -n / -en instead: \"des Kunden\", \"des Kollegen\", \"des Studenten\", \"des Präsidenten\". These are the same nouns that take -n in the accusative and dative.",
           "Pattern: \"Das Gebäude wird eröffnet\" → \"die Eröffnung des Gebäudes\". \"Der Vertrag wird unterschrieben\" → \"die Unterzeichnung des Vertrags\". \"Der Kunde beschwert sich\" → \"die Beschwerde des Kunden\".",
         ],
@@ -349,7 +349,7 @@ export const DE_B2_U09: Lesson[] = [
         prompt: "Translate into German, in nominal style.",
         source: "the signing of the contract",
         answer: "die Unterzeichnung des Vertrags",
-        altAnswers: ["die Unterzeichnung des Vertrages", "die Unterschrift des Vertrags"],
+        altAnswers: ["die Unterzeichnung des Vertrages"],
         explanation: "\"Unterzeichnen\" → \"die Unterzeichnung\"; \"des Vertrag(e)s\".",
       },
       {
@@ -554,7 +554,7 @@ export const DE_B2_U09: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Passengers [were asked] to remain on the train.",
+        en: "Passengers [were] asked to remain on the train.",
         sentence: "Die Reisenden ___ gebeten, im Zug zu bleiben.",
         answer: "wurden",
         explanation: "Written announcement: werden-passive Präteritum.",
@@ -764,8 +764,8 @@ export const DE_B2_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which word means smoking (the habit)?",
-        options: ["das Rauchen", "der Rauch", "die Rauchung", "der Raucher"],
+        question: "A sign says that smoking is forbidden here. Which word completes \"___ ist hier verboten\"?",
+        options: ["Das Rauchen", "Der Rauch", "Die Rauchung", "Der Raucher"],
         correctIndex: 0,
         explanation: "Activity = infinitive noun. \"Der Rauch\" is smoke; \"der Raucher\" a smoker.",
       },
@@ -888,7 +888,7 @@ export const DE_B2_U09: Lesson[] = [
             prompt: "Translate into German, in nominal style.",
             source: "When he arrived, nobody was at home.",
             answer: "Bei seiner Ankunft war niemand zu Hause.",
-            altAnswers: ["Bei seiner Ankunft war keiner zu Hause."],
+            altAnswers: ["Bei seiner Ankunft war keiner zu Hause.", "Bei seiner Ankunft war niemand zuhause."],
             explanation: "\"Als er ankam\" → \"bei seiner Ankunft\".",
           },
           {
@@ -939,8 +939,8 @@ export const DE_B2_U09: Lesson[] = [
             prompt: "Translate into German, in nominal style.",
             source: "If you have any questions, please contact reception.",
             answer: "Bei Fragen wenden Sie sich bitte an die Rezeption.",
-            altAnswers: ["Bei Fragen wenden Sie sich bitte an der Rezeption.", "Bei Fragen melden Sie sich bitte an der Rezeption."],
-            explanation: "\"Falls Sie Fragen haben\" → \"bei Fragen\".",
+            altAnswers: ["Bei Fragen melden Sie sich bitte an der Rezeption."],
+            explanation: "\"Falls Sie Fragen haben\" → \"bei Fragen\". \"Sich wenden an\" takes the accusative: \"an die Rezeption\".",
           },
         ],
       },
@@ -991,7 +991,7 @@ export const DE_B2_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which preposition replaces obwohl?",
+        question: "Rewrite \"Obwohl es regnete, spielten wir weiter\" in nominal style: \"___ des Regens spielten wir weiter.\" Which preposition fits?",
         options: ["trotz", "wegen", "während", "durch"],
         correctIndex: 0,
         explanation: "\"Obwohl\" (although) ↔ \"trotz\" (despite).",
@@ -1094,7 +1094,7 @@ export const DE_B2_U09: Lesson[] = [
         ],
         examples: [
           { es: "Bei Projektbeginn bestand das Team aus drei Personen.", en: "At the start of the project the team consisted of three people." },
-          { es: "Aufgrund der stark gestiegenen Nachfrage wurden zwei Mitarbeiter eingestellt.", en: "Because of strongly increased demand, two employees were hired." },
+          { es: "Aufgrund der stark gestiegenen Nachfrage wurden zwei Mitarbeiter eingestellt.", en: "Owing to the sharp rise in demand, two employees were hired." },
           { es: "Trotz zahlreicher Probleme wurde das Projekt fristgerecht abgeschlossen.", en: "Despite numerous problems the project was completed on time." },
           { es: "Nach Abschluss der Testphase beginnt der Verkauf.", en: "Once the test phase is complete, sales begin." },
         ],
@@ -1167,7 +1167,7 @@ export const DE_B2_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Compress: Obwohl viele Kunden protestierten, wurde der Preis erhöht.",
+        question: "Which nominal-style sentence means the same as \"Obwohl viele Kunden protestierten, wurde der Preis erhöht\"?",
         options: ["Trotz der Proteste vieler Kunden wurde der Preis erhöht.", "Wegen der Proteste vieler Kunden wurde der Preis erhöht.", "Trotz die Proteste viele Kunden wurde der Preis erhöht.", "Trotz der Proteste von vielen Kunden der Preis wurde erhöht."],
         correctIndex: 0,
         explanation: "\"Trotz\" + genitive; \"vieler Kunden\"; verb second after the phrase.",
@@ -1245,7 +1245,7 @@ export const DE_B2_U09: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Despite the [fall in membership], the club is stable.",
+            en: "Despite the [fall] in membership, the club is stable.",
             sentence: "Trotz des ___ der Mitgliederzahlen ist der Verein stabil.",
             answer: "Rückgangs",
             explanation: "\"Der Rückgang\" (masculine stem noun), genitive after trotz: \"des Rückgangs\".",
@@ -1284,7 +1284,7 @@ export const DE_B2_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does Durch die Einführung eines Buchungssystems mean?",
+            question: "What does \"Durch die Einführung eines Buchungssystems\" mean?",
             options: ["By introducing a booking system", "Through the entrance of the booking office", "Despite the booking system", "Before introducing a booking system"],
             correctIndex: 0,
             explanation: "\"Durch\" + nominalisation = indem (by doing).",
@@ -1316,6 +1316,7 @@ export const DE_B2_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "A particular success was the women's team's promotion.",
         answer: "Ein besonderer Erfolg war der Aufstieg der Frauenmannschaft.",
+        altAnswers: ["Der Aufstieg der Frauenmannschaft war ein besonderer Erfolg."],
         explanation: "\"Aufsteigen\" → \"der Aufstieg\" + genitive.",
       },
       {
@@ -1346,10 +1347,10 @@ export const DE_B2_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the noun for zurückgehen (to decline)?",
-        options: ["der Rückgang", "die Zurückgehung", "das Rückgehen", "die Rückgängung"],
+        question: "Membership is going down. Which noun completes \"___ der Mitgliederzahlen ist ein Problem\"?",
+        options: ["Der Rückgang", "Die Zurückgehung", "Das Rückgehen", "Die Rückgängung"],
         correctIndex: 0,
-        explanation: "Stem noun, masculine: \"der Rückgang\".",
+        explanation: "From \"zurückgehen\" (to decline): stem noun, masculine, \"der Rückgang\".",
       },
       {
         type: "translate",
@@ -1424,8 +1425,8 @@ export const DE_B2_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The result (das / der / die Ergebnis)?",
-            options: ["das Ergebnis", "der Ergebnis", "die Ergebnis", "den Ergebnis"],
+            question: "You want to say 'The result was surprising'. Which completes \"___ war überraschend\"?",
+            options: ["Das Ergebnis", "Der Ergebnis", "Die Ergebnis", "Den Ergebnis"],
             correctIndex: 0,
             explanation: "-nis nouns are mostly neuter.",
           },
@@ -1493,10 +1494,10 @@ export const DE_B2_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
-        options: ["die Erlaubnis", "das Erlaubnis", "der Erlaubnis", "die Erlaubung"],
+        question: "You need your parents' permission. Which completes \"Du brauchst ___ deiner Eltern\"?",
+        options: ["die Erlaubnis", "das Erlaubnis", "den Erlaubnis", "die Erlaubung"],
         correctIndex: 0,
-        explanation: "A feminine exception among -nis nouns.",
+        explanation: "\"Die Erlaubnis\" is a feminine exception among -nis nouns (accusative \"die\").",
       },
       {
         type: "translate",
@@ -1637,7 +1638,7 @@ export const DE_B2_U09: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "[By practising] regularly you become more confident.",
+            en: "[By] practising regularly you become more confident.",
             sentence: "___ man regelmäßig übt, wird man sicherer.",
             answer: "Indem",
             explanation: "\"Durch\" + noun ↔ \"indem\" + clause.",
@@ -1718,7 +1719,7 @@ export const DE_B2_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Unpack: Vor Beginn der Veranstaltung bitten wir Sie, Ihre Handys auszuschalten.",
+        question: "Unpack \"Vor Beginn der Veranstaltung bitten wir Sie, Ihre Handys auszuschalten.\" How does the sentence start?",
         options: ["Bevor die Veranstaltung beginnt, ...", "Nachdem die Veranstaltung begonnen hat, ...", "Weil die Veranstaltung beginnt, ...", "Obwohl die Veranstaltung beginnt, ..."],
         correctIndex: 0,
         explanation: "\"Vor\" + noun ↔ \"bevor\" + clause.",
@@ -1896,7 +1897,7 @@ export const DE_B2_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Unpack: Zur Beantragung des Ausweises ist ein Foto mitzubringen.",
+        question: "What is the everyday version of \"Zur Beantragung des Ausweises ist ein Foto mitzubringen\"?",
         options: ["Wenn man den Ausweis beantragen will, muss man ein Foto mitbringen.", "Nachdem man den Ausweis beantragt hat, bringt man ein Foto.", "Obwohl man den Ausweis beantragt, braucht man ein Foto.", "Weil man ein Foto mitbringt, bekommt man den Ausweis."],
         correctIndex: 0,
         explanation: "\"Zur\" = purpose (um ... zu / wenn man ... will), and \"ist mitzubringen\" = muss mitgebracht werden.",
@@ -2238,7 +2239,7 @@ export const DE_B2_U09: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which means The train had been cancelled (state at that time)?",
+        question: "Which means 'The train had been cancelled' (state at that time)?",
         options: ["Der Zug war gestrichen.", "Der Zug wurde gestrichen werden.", "Der Zug hatte gestrichen.", "Der Zug ist gestrichen geworden."],
         correctIndex: 0,
         explanation: "Past Zustandspassiv: \"war gestrichen\".",
@@ -2316,7 +2317,7 @@ export const DE_B2_U09: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct the error *bei seine Ankunft. Write: When he arrived it was already dark.",
+            prompt: "Correct the error in \"*bei seine Ankunft\". Write: When he arrived it was already dark.",
             source: "When he arrived it was already dark.",
             answer: "Bei seiner Ankunft war es schon dunkel.",
             altAnswers: ["Als er ankam, war es schon dunkel.", "Bei seiner Ankunft war es bereits dunkel."],
@@ -2324,7 +2325,7 @@ export const DE_B2_U09: Lesson[] = [
           },
           {
             type: "fill-blank",
-            prompt: "Correct the error *die Ankunft von dem Zug. Write the German for the bold words.",
+            prompt: "Correct the error in \"*die Ankunft von dem Zug\". Write the German for the bold words.",
             en: "the arrival [of the train]",
             sentence: "die Ankunft ___",
             answer: "des Zuges",
@@ -2351,11 +2352,11 @@ export const DE_B2_U09: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Correct *trotz es regnete. Write: Although it was raining, we went for a walk.",
+            prompt: "Correct \"*trotz es regnete\". Write: Although it was raining, we went for a walk.",
             source: "Although it was raining, we went for a walk.",
             answer: "Obwohl es regnete, gingen wir spazieren.",
             altAnswers: ["Obwohl es geregnet hat, sind wir spazieren gegangen.", "Trotz des Regens gingen wir spazieren.", "Obwohl es regnete, sind wir spazieren gegangen."],
-            explanation: "Clause → obwohl; noun → trotz.",
+            explanation: "Clause → \"obwohl\"; noun → \"trotz\".",
           },
           {
             type: "multiple-choice",
@@ -2379,7 +2380,7 @@ export const DE_B2_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct *Wegen dem Regen ... for a written report. Write: Because of the rain the match was cancelled.",
+        prompt: "Correct \"*Wegen dem Regen ...\" for a written report. Write: Because of the rain the match was cancelled.",
         source: "Because of the rain the match was cancelled.",
         answer: "Wegen des Regens fiel das Spiel aus.",
         altAnswers: ["Wegen des Regens ist das Spiel ausgefallen.", "Wegen des Regens wurde das Spiel abgesagt.", "Aufgrund des Regens fiel das Spiel aus."],
@@ -2388,16 +2389,16 @@ export const DE_B2_U09: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct *nach er angekommen ist. Write: After his arrival we'll call you.",
+        prompt: "Correct \"*nach er angekommen ist\". Write: After his arrival we'll call you.",
         source: "After his arrival we'll call you.",
         answer: "Nach seiner Ankunft rufen wir dich an.",
-        altAnswers: ["Nach seiner Ankunft rufen wir Sie an.", "Nach seiner Ankunft rufen wir euch an.", "Nachdem er angekommen ist, rufen wir dich an."],
+        altAnswers: ["Nach seiner Ankunft rufen wir Sie an.", "Nach seiner Ankunft rufen wir euch an.", "Nachdem er angekommen ist, rufen wir dich an.", "Nachdem er angekommen ist, rufen wir Sie an.", "Nachdem er angekommen ist, rufen wir euch an."],
         explanation: "\"Nach\" + Dativ noun.",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Correct *das Entscheidung. Write: The decision was right.",
+        prompt: "Correct \"*das Entscheidung\". Write: The decision was right.",
         source: "The decision was right.",
         answer: "Die Entscheidung war richtig.",
         explanation: "-ung = feminine.",
@@ -2417,8 +2418,8 @@ export const DE_B2_U09: Lesson[] = [
         prompt: "Translate into German.",
         source: "Because it was raining, we stayed at home.",
         answer: "Weil es regnete, blieben wir zu Hause.",
-        altAnswers: ["Weil es geregnet hat, sind wir zu Hause geblieben.", "Wegen des Regens blieben wir zu Hause.", "Wegen des Regens sind wir zu Hause geblieben."],
-        explanation: "Clause → weil (not \"*wegen es regnete\").",
+        altAnswers: ["Weil es geregnet hat, sind wir zu Hause geblieben.", "Wegen des Regens blieben wir zu Hause.", "Wegen des Regens sind wir zu Hause geblieben.", "Weil es regnete, blieben wir zuhause."],
+        explanation: "Clause → \"weil\" (not \"*wegen es regnete\"); noun → \"wegen des Regens\".",
       },
       {
         type: "multiple-choice",

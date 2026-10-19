@@ -8,14 +8,14 @@ export const DE_C2_U01: Lesson[] = [
     level: "DE-C2",
     number: 1,
     title: "Juristisches Deutsch und Amtsdeutsch, Part 1 of 7",
-    summary: "Who is who in a legal document (der Unterzeichnende, der Antragsteller, der Bevollmächtigte) and the fixed formulas that open and close it.",
+    summary: "Name the parties in a legal document (\"der Unterzeichnende\", \"der Antragsteller\", \"der Bevollmächtigte\") with the right endings, and use the fixed formulas that open and close it.",
     duration: "18 min",
     sections: [
       {
         heading: "Der Unterzeichnende: parties as adjectival nouns",
         body: [
           "Legal German names many of its actors with participles and adjectives turned into nouns: \"der Unterzeichnende\" (the undersigned), \"der Bevollmächtigte\" (the authorised representative), \"der Beteiligte\" (the party involved), \"der Berechtigte\" (the person entitled), \"der Verstorbene\" (the deceased). They are written with a capital letter but keep their adjective endings, exactly as if a noun followed.",
-          "So the ending changes with the article and the case: \"der Unterzeichnende\" but \"ein Unterzeichnender\", \"die Beteiligten\" but \"Beteiligte\" (no article), \"mit dem Bevollmächtigten\", \"eine Bevollmächtigte\". English speakers tend to freeze the form they saw first and write *\"ein Beteiligte\" or *\"die Beteiligte\" for a group; that is the single most common mistake with these nouns.",
+          "So the ending changes with the article and the case: \"der Unterzeichnende\" but \"ein Unterzeichnender\", \"die Beteiligten\" but \"Beteiligte\" (no article), \"mit dem Bevollmächtigten\", \"eine Bevollmächtigte\". English speakers tend to freeze the form they saw first and write \"*ein Beteiligte*\" or \"*die Beteiligte*\" for a group; that is the single most common mistake with these nouns.",
           "The feminine is built the same way: \"die Unterzeichnende\", \"die Bevollmächtigte\". Many forms also exist as \"-te\" variants: \"der/die Unterzeichnete\" is an older synonym of \"der/die Unterzeichnende\", and both still appear on forms. Where both genders are meant, forms often write \"der/die Unterzeichnende\" or use the plural \"die Unterzeichnenden\", which is gender-neutral.",
         ],
         examples: [
@@ -58,7 +58,7 @@ export const DE_C2_U01: Lesson[] = [
         heading: "Pairs of roles: Vermieter und Mieter, Vollmachtgeber und Bevollmächtigter",
         body: [
           "Most legal relationships come in pairs, and German marks them with clear word formation. The one who gives or grants usually ends in \"-geber\" or uses the prefix \"Ver-\": \"der Vollmachtgeber\" (the principal, who grants power of attorney) and \"der Bevollmächtigte\" (who receives it); \"der Arbeitgeber\" and \"der Arbeitnehmer\"; \"der Vermieter\" (landlord) and \"der Mieter\" (tenant); \"der Verkäufer\" and \"der Käufer\".",
-          "\"Der Antragsteller\" (feminine \"die Antragstellerin\") is whoever submits an application (einen Antrag stellen) to an authority. \"Der Rechtsnachfolger\" is the legal successor who takes over someone's rights and duties, for example an heir or a company that buys another. \"Die Vertragsparteien\" (or \"die Parteien\") are the parties to a contract; once a contract has introduced them, it usually refers to them by role only: \"der Mieter\", \"die Vermieterin\".",
+          "\"Der Antragsteller\" (feminine \"die Antragstellerin\") is whoever submits an application (\"einen Antrag stellen\") to an authority. \"Der Rechtsnachfolger\" is the legal successor who takes over someone's rights and duties, for example an heir or a company that buys another. \"Die Vertragsparteien\" (or \"die Parteien\") are the parties to a contract; once a contract has introduced them, it usually refers to them by role only: \"der Mieter\", \"die Vermieterin\".",
           "Notice that contracts use the masculine role noun generically even when the person is a woman (\"Frau Schneider, nachfolgend Mieter genannt\"); modern contracts increasingly write \"Mieterin\" or \"Mietpartei\". Recognise both. The phrase \"nachfolgend ... genannt\" (hereinafter referred to as) is how a contract fixes these labels.",
         ],
         examples: [
@@ -84,6 +84,7 @@ export const DE_C2_U01: Lesson[] = [
             prompt: "Put the words in order to say: The rights pass to the legal successor.",
             words: ["Die", "Rechte", "gehen", "auf", "den", "Rechtsnachfolger", "über."],
             translation: "The rights pass to the legal successor.",
+            altOrders: [["Auf", "den", "Rechtsnachfolger", "gehen", "die", "Rechte", "über."]],
             explanation: "\"Übergehen auf\" + accusative (to pass to) is separable: the prefix \"über\" goes to the end of the main clause.",
           },
         ],
@@ -123,7 +124,7 @@ export const DE_C2_U01: Lesson[] = [
           {
             type: "speak",
             text: "Hiermit bevollmächtige ich Frau Schneider, mich zu vertreten.",
-            tip: "Stress the second syllable of bevollmächtige: be-VOLL-mäch-ti-ge; the ch after ä is the soft ich sound.",
+            tip: "Stress the second syllable of \"bevollmächtige\": be-VOLL-mäch-ti-ge; the ch after ä is the soft sound of \"ich\".",
             explanation: "\"Jemanden bevollmächtigen, etwas zu tun\" (to authorise someone to do something): the person is accusative and the task is a zu-infinitive.",
           },
         ],
@@ -224,13 +225,13 @@ export const DE_C2_U01: Lesson[] = [
     level: "DE-C2",
     number: 2,
     title: "Juristisches Deutsch und Amtsdeutsch, Part 2 of 7",
-    summary: "The German courts from Amtsgericht to Bundesverfassungsgericht, the people who work in them, and the difference between der Beklagte and der Angeklagte.",
+    summary: "Find your way through the German courts from the \"Amtsgericht\" to the \"Bundesverfassungsgericht\", name the people who work in them, and tell \"der Beklagte\" from \"der Angeklagte\".",
     duration: "18 min",
     sections: [
       {
         heading: "From the Amtsgericht to Karlsruhe",
         body: [
-          "The ordinary courts (die ordentliche Gerichtsbarkeit) handle civil and criminal cases in four tiers: \"das Amtsgericht\" (local court: small claims, most tenancy disputes, minor crimes, family matters, the land register), \"das Landgericht\" (regional court: larger claims and serious crimes, and appeals from the Amtsgericht), \"das Oberlandesgericht\" (OLG, higher regional court) and \"der Bundesgerichtshof\" (BGH, the Federal Court of Justice in Karlsruhe).",
+          "The ordinary courts (\"die ordentliche Gerichtsbarkeit\") handle civil and criminal cases in four tiers: \"das Amtsgericht\" (local court: small claims, most tenancy disputes, minor crimes, family matters, the land register), \"das Landgericht\" (regional court: larger claims and serious crimes, and appeals from the Amtsgericht), \"das Oberlandesgericht\" (OLG, higher regional court) and \"der Bundesgerichtshof\" (BGH, the Federal Court of Justice in Karlsruhe).",
           "Beside them stand specialised branches, each with its own courts: \"das Verwaltungsgericht\" (administrative court: disputes with authorities), \"das Arbeitsgericht\" (labour court), \"das Sozialgericht\" (social security), \"das Finanzgericht\" (tax). Above all of them, \"das Bundesverfassungsgericht\" (Federal Constitutional Court, also in Karlsruhe) checks laws and judgments against the Basic Law, \"das Grundgesetz\".",
           "Trap: \"Gericht\" is the normal word for court, while \"Gerichtshof\" is reserved for a few high courts: \"der Bundesgerichtshof\", \"der Europäische Gerichtshof\" (EuGH, Luxembourg), \"der Europäische Gerichtshof für Menschenrechte\" (Strasbourg). Note the gender: \"das Gericht\" but \"der Gerichtshof\", because the last element decides.",
         ],
@@ -385,7 +386,7 @@ export const DE_C2_U01: Lesson[] = [
         source: "The prosecutor's office has brought charges against him.",
         answer: "Die Staatsanwaltschaft hat Anklage gegen ihn erhoben.",
         altAnswers: ["Die Staatsanwaltschaft hat ihn angeklagt.", "Die Staatsanwaltschaft erhob Anklage gegen ihn."],
-        explanation: "\"Anklage erheben\" is the fixed collocation (not *machen). After the charge he becomes \"der Angeklagte\".",
+        explanation: "\"Anklage erheben\" is the fixed collocation (not \"*Anklage machen*\"). After the charge he becomes \"der Angeklagte\".",
       },
       {
         type: "translate",
@@ -432,7 +433,7 @@ export const DE_C2_U01: Lesson[] = [
         type: "speak",
         text: "Das ergibt sich aus Paragraf fünf Absatz eins Satz zwei.",
         prompt: "Say it in German: That follows from section 5, subsection 1, sentence 2.",
-        tip: "Paragraf is stressed on the last syllable: Para-GRAF.",
+        tip: "\"Paragraf\" is stressed on the last syllable: Para-GRAF.",
         explanation: "\"§ 5 Abs. 1 S. 2\" is read in full: \"Paragraf fünf Absatz eins Satz zwei\". \"Sich ergeben aus\" means to follow from.",
       },
     ],
@@ -441,14 +442,14 @@ export const DE_C2_U01: Lesson[] = [
     slug: "c2-legal-plain-language-transformations",
     level: "DE-C2",
     number: 3,
-    title: "Transformations: Von Amtsdeutsch zu Klarem Deutsch",
+    title: "Transformations: Von Amtsdeutsch zu klarem Deutsch",
     summary: "Unpack noun chains, passives and Funktionsverbgefüge into plain German a neighbour would understand, and pack plain German back into the style of a formal letter.",
     duration: "18 min",
     sections: [
       {
         heading: "Noun chains into verbs",
         body: [
-          "Amtsdeutsch loves nouns. Where plain German says \"Sie bekommen die Leistung nur, wenn Sie die Unterlagen rechtzeitig einreichen\", the authority writes \"Die Inanspruchnahme der Leistung setzt die fristgerechte Einreichung der Unterlagen voraus\". The information is the same; the actions (in Anspruch nehmen, einreichen) have been turned into nouns (\"die Inanspruchnahme\", \"die Einreichung\") and hung on a genitive chain.",
+          "Amtsdeutsch loves nouns. Where plain German says \"Sie bekommen die Leistung nur, wenn Sie die Unterlagen rechtzeitig einreichen\", the authority writes \"Die Inanspruchnahme der Leistung setzt die fristgerechte Einreichung der Unterlagen voraus\". The information is the same; the actions (\"in Anspruch nehmen\", \"einreichen\") have been turned into nouns (\"die Inanspruchnahme\", \"die Einreichung\") and hung on a genitive chain.",
           "To unpack, find each noun that hides a verb (-ung, -nahme, -gabe, nominalised infinitives like \"das Einhalten\"), turn it back into a verb, and find out who does it: almost always \"Sie\" (the citizen) or \"wir\" (the authority). Genitive chains become subjects and objects: \"die Einhaltung der Fristen des Vertrags\" → \"dass man die Fristen einhält, die im Vertrag stehen\".",
           "Adjectives that came from adverbs go back too: \"die fristgerechte Einreichung\" → \"rechtzeitig einreichen\", \"bei nicht vollständiger Vorlage\" → \"wenn Sie nicht alles vorlegen\". And the bare logical link (\"setzt ... voraus\", \"führt zu\", \"hat ... zur Folge\") becomes a conjunction: \"nur wenn\", \"deshalb\", \"sonst\".",
         ],
@@ -472,7 +473,7 @@ export const DE_C2_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "What does this mean in plain terms? Die Inanspruchnahme der Leistung setzt die Vorlage eines gültigen Ausweises voraus.",
+            question: "What does this mean in plain terms? \"Die Inanspruchnahme der Leistung setzt die Vorlage eines gültigen Ausweises voraus.\"",
             options: ["You only get the benefit if you show a valid ID.", "If you use the benefit, your ID will be checked later.", "The benefit includes a free ID card.", "You must apply for an ID before you can apply for anything."],
             correctIndex: 0,
             explanation: "\"Etwas setzt etwas voraus\" means the second thing is a precondition of the first. \"Inanspruchnahme\" (claiming, using) and \"Vorlage\" (presenting) are both hidden verbs.",
@@ -498,7 +499,7 @@ export const DE_C2_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. Use plain German with wir.",
+            prompt: "Translate into German. Use plain German with \"wir\".",
             source: "We will charge you for the costs.",
             answer: "Wir berechnen Ihnen die Kosten.",
             altAnswers: ["Wir stellen Ihnen die Kosten in Rechnung.", "Wir werden Ihnen die Kosten berechnen.", "Wir werden Ihnen die Kosten in Rechnung stellen."],
@@ -515,7 +516,7 @@ export const DE_C2_U01: Lesson[] = [
           {
             type: "speak",
             text: "Bitte beachten Sie: Die Frist endet am 30. Juni.",
-            tip: "Read 30. Juni as dreißigsten Juni: the ordinal after am takes -en.",
+            tip: "Read \"30. Juni\" as \"dreißigsten Juni\": the ordinal after \"am\" takes -en.",
             explanation: "A plain rewrite of \"Es wird darauf hingewiesen, dass ...\": address the reader directly with an imperative.",
           },
         ],
@@ -586,7 +587,7 @@ export const DE_C2_U01: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into plain German with wir.",
+        prompt: "Translate into plain German with \"wir\".",
         source: "We could not consider your application.",
         answer: "Wir konnten Ihren Antrag nicht berücksichtigen.",
         altAnswers: ["Wir konnten Ihren Antrag leider nicht berücksichtigen.", "Wir haben Ihren Antrag nicht berücksichtigen können."],
@@ -599,7 +600,7 @@ export const DE_C2_U01: Lesson[] = [
         source: "The authority made a decision.",
         answer: "Die Behörde hat eine Entscheidung getroffen.",
         altAnswers: ["Die Behörde traf eine Entscheidung.", "Die Behörde hat entschieden.", "Die Behörde entschied."],
-        explanation: "\"Eine Entscheidung treffen\" is the Funktionsverbgefüge; \"entscheiden\" the simple verb. Never *eine Entscheidung machen.",
+        explanation: "\"Eine Entscheidung treffen\" is the Funktionsverbgefüge; \"entscheiden\" the simple verb. Never \"*eine Entscheidung machen*\".",
       },
       {
         type: "translate",
@@ -619,7 +620,7 @@ export const DE_C2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the best plain-language version of: Die Nichtbeachtung der Hausordnung hat die Kündigung zur Folge?",
+        question: "Which is the best plain-language version of \"Die Nichtbeachtung der Hausordnung hat die Kündigung zur Folge.\"?",
         options: ["Wenn Sie sich nicht an die Hausordnung halten, kann Ihnen gekündigt werden.", "Die Hausordnung wird bei einer Kündigung nicht beachtet.", "Nach der Kündigung gilt die Hausordnung nicht mehr.", "Die Kündigung der Hausordnung ist nicht zu beachten."],
         correctIndex: 0,
         explanation: "\"Etwas hat etwas zur Folge\" means the first leads to the second; the hidden verb \"nicht beachten\" becomes \"sich nicht halten an\".",
@@ -650,21 +651,21 @@ export const DE_C2_U01: Lesson[] = [
     level: "DE-C2",
     number: 4,
     title: "Juristisches Deutsch und Amtsdeutsch, Part 3 of 7",
-    summary: "Laws, regulations and the Bescheid, the Rechtsbehelfsbelehrung that ends it, and the deontic grammar of obligation: ist zu entrichten, hat vorzulegen, ist verpflichtet.",
+    summary: "Tell laws, regulations and a \"Bescheid\" apart, understand the \"Rechtsbehelfsbelehrung\" that ends it, and express obligation the legal way: \"ist zu entrichten\", \"hat vorzulegen\", \"ist verpflichtet\".",
     duration: "20 min",
     sections: [
       {
         heading: "Gesetz, Verordnung, Satzung, Bescheid",
         body: [
-          "German administrative law distinguishes its sources precisely. \"Das Gesetz\" is passed by a parliament (Bundestag or Landtag). \"Die Verordnung\" (often \"Rechtsverordnung\") is issued by a government or ministry on the basis of a law, to fill in details. \"Die Satzung\" is the rulebook of a self-governing body: a municipality, a university, a club (\"Vereinssatzung\"). \"Der Erlass\" is an internal instruction from a ministry to its own authorities.",
-          "All of these are general rules. When an authority applies them to you personally, it issues \"einen Bescheid\": a formal decision addressed to one person. You receive \"einen Steuerbescheid\" from the Finanzamt, \"einen Bußgeldbescheid\" for speeding, \"einen Bewilligungsbescheid\" when a benefit is granted, \"einen Ablehnungsbescheid\" when it is refused. In legal terms a Bescheid is a \"Verwaltungsakt\".",
+          "German administrative law distinguishes its sources precisely. \"Das Gesetz\" is passed by a parliament (\"Bundestag\" or \"Landtag\"). \"Die Verordnung\" (often \"Rechtsverordnung\") is issued by a government or ministry on the basis of a law, to fill in details. \"Die Satzung\" is the rulebook of a self-governing body: a municipality, a university, a club (\"Vereinssatzung\"). \"Der Erlass\" is an internal instruction from a ministry to its own authorities.",
+          "All of these are general rules. When an authority applies them to you personally, it issues \"einen Bescheid\": a formal decision addressed to one person. You receive \"einen Steuerbescheid\" from the \"Finanzamt\", \"einen Bußgeldbescheid\" for a traffic offence, \"einen Bewilligungsbescheid\" when a benefit is granted, \"einen Ablehnungsbescheid\" when it is refused. In legal terms a \"Bescheid\" is a \"Verwaltungsakt\".",
           "Every Bescheid ends with \"die Rechtsbehelfsbelehrung\": the notice of your right to challenge it. A typical text: \"Gegen diesen Bescheid kann innerhalb eines Monats nach Bekanntgabe Widerspruch erhoben werden.\" Note the vocabulary: \"Widerspruch erheben\" or \"einlegen\" (lodge an objection), \"nach Bekanntgabe\" (after notification, which by law is usually assumed to be a few days after posting), and the passive with \"kann ... werden\" that leaves the actor unnamed.",
         ],
         examples: [
           { es: "Der Bundestag hat das Gesetz im März verabschiedet.", en: "The Bundestag passed the law in March." },
           { es: "Die Einzelheiten regelt eine Verordnung des Ministeriums.", en: "The details are laid down in a ministerial regulation." },
           { es: "Laut Satzung der Stadt sind Hunde an der Leine zu führen.", en: "Under the town's bylaws, dogs must be kept on a lead." },
-          { es: "Gestern kam der Bußgeldbescheid: 70 Euro und ein Punkt in Flensburg.", en: "The fine notice came yesterday: 70 euros and a point on my licence." },
+          { es: "Gestern kam der Bußgeldbescheid: 100 Euro und ein Punkt in Flensburg.", en: "The fine notice came yesterday: 100 euros and a point on my licence." },
           { es: "Gegen diesen Bescheid kann innerhalb eines Monats nach Bekanntgabe Widerspruch erhoben werden.", en: "An objection to this decision may be lodged within one month of notification." },
           { es: "Ihr Antrag wurde mit Bescheid vom 12. Mai abgelehnt.", en: "Your application was rejected by a decision dated 12 May." },
         ],
@@ -680,7 +681,7 @@ export const DE_C2_U01: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The Finanzamt has sent you a letter that sets your income tax for 2025. What is it?",
+            question: "The \"Finanzamt\" has sent you a letter that sets your income tax for 2025. What is it?",
             options: ["ein Steuerbescheid", "eine Steuerverordnung", "ein Steuergesetz", "eine Steuersatzung"],
             correctIndex: 0,
             explanation: "A decision applied to one person is a \"Bescheid\". Laws, regulations and bylaws are general rules.",
@@ -706,7 +707,7 @@ export const DE_C2_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. Use sein + zu.",
+            prompt: "Translate into German. Use \"sein + zu\".",
             source: "The fee must be paid within two weeks.",
             answer: "Die Gebühr ist innerhalb von zwei Wochen zu entrichten.",
             altAnswers: ["Die Gebühr ist innerhalb von zwei Wochen zu zahlen.", "Die Gebühr ist binnen zwei Wochen zu entrichten.", "Die Gebühr ist binnen zwei Wochen zu zahlen.", "Die Gebühr ist innerhalb zweier Wochen zu entrichten.", "Innerhalb von zwei Wochen ist die Gebühr zu entrichten."],
@@ -715,7 +716,7 @@ export const DE_C2_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. Use haben + zu.",
+            prompt: "Translate into German. Use \"haben + zu\".",
             source: "The applicant must present a valid passport.",
             answer: "Der Antragsteller hat einen gültigen Pass vorzulegen.",
             altAnswers: ["Die Antragstellerin hat einen gültigen Pass vorzulegen.", "Der Antragsteller hat einen gültigen Reisepass vorzulegen.", "Die Antragstellerin hat einen gültigen Reisepass vorzulegen."],
@@ -735,8 +736,8 @@ export const DE_C2_U01: Lesson[] = [
         heading: "Gemäß, laut, nach Maßgabe, unbeschadet",
         body: [
           "Legal texts constantly refer to other rules, using a small set of prepositions. \"Gemäß\" (in accordance with) takes the dative and may follow its noun: \"gemäß § 3 Abs. 2\", \"dem Vertrag gemäß\". \"Laut\" (according to) takes the dative or, in formal writing, the genitive; with an article-less noun it shows no case: \"laut Vertrag\", \"laut Gesetz\". \"Nach\" can also mean according to, often after its noun: \"meiner Meinung nach\", \"nach geltendem Recht\".",
-          "\"Nach Maßgabe\" + genitive (as determined by) is stiffer: \"nach Maßgabe der folgenden Bestimmungen\". \"Im Sinne\" + genitive, abbreviated i. S. d., gives a definition: \"Arbeitnehmer im Sinne dieses Gesetzes sind ...\". \"Unbeschadet\" + genitive (without prejudice to, notwithstanding) keeps another rule intact: \"unbeschadet der Rechte Dritter\" (without prejudice to the rights of third parties).",
-          "Common mistakes: *\"gemäß des Vertrags\" (genitive by analogy with \"laut\" and \"wegen\"): standard German requires \"gemäß dem Vertrag\". And \"laut\" never takes the accusative.",
+          "\"Nach Maßgabe\" + genitive (as determined by) is stiffer: \"nach Maßgabe der folgenden Bestimmungen\". \"Im Sinne\" + genitive, abbreviated \"i. S. d.\", gives a definition: \"Arbeitnehmer im Sinne dieses Gesetzes sind ...\". \"Unbeschadet\" + genitive (without prejudice to, notwithstanding) keeps another rule intact: \"unbeschadet der Rechte Dritter\" (without prejudice to the rights of third parties).",
+          "Common mistakes: \"*gemäß des Vertrags*\" (genitive by analogy with \"laut\" and \"wegen\"): standard German requires \"gemäß dem Vertrag\". And \"laut\" never takes the accusative.",
         ],
         examples: [
           { es: "Gemäß § 5 Abs. 1 ist der Antrag schriftlich zu stellen.", en: "Under section 5 (1) the application must be made in writing." },
@@ -754,7 +755,7 @@ export const DE_C2_U01: Lesson[] = [
             sentence: "___ ist die Miete am dritten Werktag fällig.",
             answer: "Gemäß dem Vertrag",
             altAnswers: ["Dem Vertrag gemäß", "Laut Vertrag", "Gemäß Vertrag", "Laut dem Vertrag", "Nach dem Vertrag", "Dem Vertrag nach"],
-            explanation: "\"Gemäß\" takes the dative: \"gemäß dem Vertrag\" (or \"dem Vertrag gemäß\"). *\"Gemäß des Vertrags\" is a common but nonstandard genitive.",
+            explanation: "\"Gemäß\" takes the dative: \"gemäß dem Vertrag\" (or \"dem Vertrag gemäß\"). \"*Gemäß des Vertrags*\" is a common but nonstandard genitive.",
           },
           {
             type: "translate",
@@ -824,10 +825,10 @@ export const DE_C2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A sign in a park reads: Hunde sind an der Leine zu führen. What does it mean?",
+        question: "A sign in a park reads: \"Hunde sind an der Leine zu führen.\" What does it mean?",
         options: ["Dogs must be kept on a lead.", "Dogs may be kept on a lead.", "Dogs are going to be put on a lead.", "Dogs on leads are welcome here."],
         correctIndex: 0,
-        explanation: "\"Sein + zu\" in a rule is an obligation: must be. It never describes a mere plan.",
+        explanation: "\"Sein + zu\" in a rule is an obligation: must be, not a mere plan or a permission.",
       },
       {
         type: "word-order",
@@ -853,7 +854,7 @@ export const DE_C2_U01: Lesson[] = [
       {
         type: "speak",
         text: "Der Antragsteller hat einen gültigen Pass vorzulegen.",
-        prompt: "Say it in German, with haben + zu: The applicant must present a valid passport.",
+        prompt: "Say it in German, with \"haben + zu\": The applicant must present a valid passport.",
         explanation: "\"Hat ... vorzulegen\": haben + zu, active meaning, \"zu\" inside the separable verb.",
       },
     ],
@@ -862,8 +863,8 @@ export const DE_C2_U01: Lesson[] = [
     slug: "c2-legal-parties-word-web",
     level: "DE-C2",
     number: 5,
-    title: "Word Web: Wer Ist Wer im Verfahren",
-    summary: "Map the people in civil, criminal and administrative proceedings and the verbs that connect them: klagen, verklagen, anklagen, Einspruch, Berufung and Revision einlegen.",
+    title: "Word Web: Wer ist wer im Verfahren",
+    summary: "Name the people in civil, criminal and administrative proceedings and use the verbs that connect them: \"klagen\", \"verklagen\", \"anklagen\", and \"Einspruch\", \"Berufung\" or \"Revision einlegen\".",
     duration: "16 min",
     sections: [
       {
@@ -905,8 +906,8 @@ export const DE_C2_U01: Lesson[] = [
       {
         heading: "Klagen, verklagen, anklagen",
         body: [
-          "Three verbs from one root, three different jobs. \"Klagen\" (gegen jemanden / auf etwas) means to bring a civil or administrative action: \"Sie klagt auf Schadensersatz\" (she is suing for damages). \"Jemanden verklagen\" means to sue someone, with the person in the accusative: \"Er hat seinen Arbeitgeber verklagt.\" In everyday German \"klagen\" also means to complain, to moan: \"Er klagt über Rückenschmerzen.\"",
-          "\"Jemanden anklagen\" (wegen + genitive / einer Sache) means to charge someone with a crime: that is the prosecutor's job, not a private person's. \"Er wurde wegen Betrugs angeklagt\" (He was charged with fraud). English speakers who say *\"Ich werde ihn anklagen\" about a dispute with a neighbour sound as if they were the public prosecutor.",
+          "Three verbs from one root, three different jobs. \"Klagen\" (\"gegen jemanden\" / \"auf etwas\") means to bring a civil or administrative action: \"Sie klagt auf Schadensersatz\" (she is suing for damages). \"Jemanden verklagen\" means to sue someone, with the person in the accusative: \"Er hat seinen Arbeitgeber verklagt.\" In everyday German \"klagen\" also means to complain, to moan: \"Er klagt über Rückenschmerzen.\"",
+          "\"Jemanden anklagen\" (\"wegen\" + genitive, or formally \"einer Sache\") means to charge someone with a crime: that is the prosecutor's job, not a private person's. \"Er wurde wegen Betrugs angeklagt\" (He was charged with fraud). English speakers who say \"*Ich werde ihn anklagen*\" about a dispute with a neighbour sound as if they were the public prosecutor.",
           "In administrative proceedings the citizen is \"der Antragsteller\" (applicant) or, once they have objected, \"der Widerspruchsführer\"; the other side is \"die Behörde\". If the objection fails, they can bring \"eine Klage vor dem Verwaltungsgericht\".",
         ],
         examples: [
@@ -938,7 +939,7 @@ export const DE_C2_U01: Lesson[] = [
           {
             type: "speak",
             text: "Sie hat ihren ehemaligen Arbeitgeber verklagt.",
-            tip: "The prefix ver- is unstressed: ver-KLAGT.",
+            tip: "The prefix \"ver-\" is unstressed: ver-KLAGT.",
             explanation: "\"Verklagen\" is inseparable, so the participle has no ge-: \"verklagt\".",
           },
         ],
@@ -948,7 +949,7 @@ export const DE_C2_U01: Lesson[] = [
         body: [
           "To challenge a decision you \"legen ... ein\" (lodge) a remedy, and the remedy depends on what you challenge. \"Einspruch einlegen\" against a tax assessment, a fine notice (\"Bußgeldbescheid\") or a penalty order (\"Strafbefehl\"). \"Widerspruch einlegen\" against most other administrative decisions. \"Berufung einlegen\" against a first-instance judgment, asking a higher court to look at the facts and the law again. \"Revision einlegen\" asks the highest courts to check only the law, not the facts.",
           "All four take the same verb and are used without an article: \"Er hat Berufung eingelegt\", \"Wir legen Einspruch ein\". \"Erheben\" is also possible with \"Einspruch\", \"Widerspruch\" and \"Klage\" (\"Klage erheben\" = to file a lawsuit).",
-          "In court dramas you will hear \"Einspruch!\" (Objection!), as in American films, but German trials have no such ritual. The word you need in real life is the written \"Einspruch\" against a Bescheid.",
+          "In court dramas you will hear \"Einspruch!\" (Objection!), as in American films, but German trials have no such ritual. The word you need in real life is the written \"Einspruch\" against a tax assessment or a fine notice.",
         ],
         examples: [
           { es: "Gegen den Steuerbescheid habe ich Einspruch eingelegt.", en: "I have lodged an objection to the tax assessment." },
@@ -1047,6 +1048,7 @@ export const DE_C2_U01: Lesson[] = [
         prompt: "Put the words in order to say: The manager was charged with fraud.",
         words: ["Der", "Manager", "wurde", "wegen", "Betrugs", "angeklagt."],
         translation: "The manager was charged with fraud.",
+        altOrders: [["Wegen", "Betrugs", "wurde", "der", "Manager", "angeklagt."]],
         explanation: "\"Anklagen wegen\" + genitive; the passive participle \"angeklagt\" goes to the end.",
       },
       {
@@ -1073,7 +1075,7 @@ export const DE_C2_U01: Lesson[] = [
         type: "speak",
         text: "Ich habe gegen den Bußgeldbescheid Einspruch eingelegt.",
         prompt: "Say it in German: I've lodged an objection to the fine notice.",
-        tip: "Bußgeldbescheid has a long u before ß: BUSS-geld-be-scheid, with the u as in moon.",
+        tip: "\"Bußgeldbescheid\" has a long u before ß, as in moon, and the stress on the first syllable: BOOS-geld-be-scheid.",
         explanation: "Fine notices are challenged with \"Einspruch\", within two weeks.",
       },
     ],
@@ -1083,7 +1085,7 @@ export const DE_C2_U01: Lesson[] = [
     level: "DE-C2",
     number: 6,
     title: "Mastery Check: Legal and Administrative German, Part 1 of 2",
-    summary: "A mixed check of Parts 1-3: parties and courts, decoding a Bescheid and its Rechtsbehelfsbelehrung, deontic passive into plain requests, and adjectival nouns with the right endings.",
+    summary: "Check that you can name parties and courts, decode a \"Bescheid\" and its \"Rechtsbehelfsbelehrung\", turn rules into plain requests, and use adjectival nouns with the right endings (Parts 1-3).",
     duration: "20 min",
     sections: [
       {
@@ -1106,21 +1108,21 @@ export const DE_C2_U01: Lesson[] = [
             source: "The undersigned undertake to maintain confidentiality.",
             answer: "Die Unterzeichnenden verpflichten sich zur Verschwiegenheit.",
             altAnswers: ["Die Unterzeichneten verpflichten sich zur Verschwiegenheit.", "Die Unterzeichnenden verpflichten sich zur Geheimhaltung.", "Die Unterzeichnenden verpflichten sich, Stillschweigen zu bewahren."],
-            explanation: "Plural adjectival noun after \"die\": -en. \"Sich zu etwas verpflichten\" (undertake to) takes zu + noun or a zu-infinitive.",
+            explanation: "Plural adjectival noun after \"die\": -en. \"Sich zu etwas verpflichten\" (undertake to) takes \"zu\" + noun or a zu-infinitive.",
           },
           {
             type: "multiple-choice",
-            question: "Which court hears a dispute with the Ausländerbehörde about a residence permit?",
+            question: "Which court hears a dispute with the \"Ausländerbehörde\" about a residence permit?",
             options: ["das Verwaltungsgericht", "das Arbeitsgericht", "das Amtsgericht", "der Bundesgerichtshof"],
             correctIndex: 0,
-            explanation: "The Ausländerbehörde is an authority, so disputes with it go to the administrative courts.",
+            explanation: "The \"Ausländerbehörde\" is an authority, so disputes with it go to the administrative courts.",
           },
         ],
       },
       {
         heading: "Check 2: decoding a Bescheid",
         body: [
-          "Read this extract from a decision on a housing benefit (Wohngeld) as you would in real life: \"Auf Ihren Antrag vom 4. Februar wird Ihnen Wohngeld in Höhe von 210 Euro monatlich bewilligt. Der Bewilligungszeitraum endet am 31. Januar. Änderungen Ihres Einkommens sind der Wohngeldstelle unverzüglich mitzuteilen. Gegen diesen Bescheid kann innerhalb eines Monats nach Bekanntgabe Widerspruch erhoben werden.\"",
+          "Read this extract from a decision on housing benefit (\"Wohngeld\") as you would in real life: \"Auf Ihren Antrag vom 4. Februar wird Ihnen Wohngeld in Höhe von 210 Euro monatlich bewilligt. Der Bewilligungszeitraum endet am 31. Januar. Änderungen Ihres Einkommens sind der Wohngeldstelle unverzüglich mitzuteilen. Gegen diesen Bescheid kann innerhalb eines Monats nach Bekanntgabe Widerspruch erhoben werden.\"",
           "Decoded: you applied on 4 February; you get 210 euros a month (\"bewilligt\" = granted); it runs until 31 January; if your income changes you must tell the housing benefit office at once (\"sind ... mitzuteilen\" = must be reported); and if you disagree you have one month from notification to object.",
         ],
         examples: [
@@ -1165,7 +1167,7 @@ export const DE_C2_U01: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German. Use haben + zu.",
+            prompt: "Translate into German. Use \"haben + zu\".",
             source: "The tenant must return the keys.",
             answer: "Der Mieter hat die Schlüssel zurückzugeben.",
             altAnswers: ["Die Mieterin hat die Schlüssel zurückzugeben.", "Der Mieter hat die Schlüssel abzugeben.", "Die Mieterin hat die Schlüssel abzugeben."],
@@ -1278,14 +1280,14 @@ export const DE_C2_U01: Lesson[] = [
     level: "DE-C2",
     number: 7,
     title: "Contrast Clinic: Urteil, Beschluss, Verfügung, Bescheid",
-    summary: "Which decision is which (Urteil, Beschluss, einstweilige Verfügung, Bescheid, Strafbefehl), and the five German words that English appeal stands for.",
+    summary: "Tell the kinds of decision apart (\"Urteil\", \"Beschluss\", \"einstweilige Verfügung\", \"Bescheid\", \"Strafbefehl\") and choose the right German word for an English appeal.",
     duration: "18 min",
     sections: [
       {
         heading: "Urteil or Beschluss?",
         body: [
           "\"Das Urteil\" is the judgment that ends a case after an oral hearing (\"mündliche Verhandlung\"). It is announced \"Im Namen des Volkes\" (In the name of the people), has \"einen Tenor\" (the operative part: who wins, who pays) and \"Entscheidungsgründe\" (the reasoning). Verbs: \"ein Urteil fällen / verkünden / sprechen\"; the losing party \"wird verurteilt\".",
-          "\"Der Beschluss\" is a court decision that is not an Urteil: procedural orders, decisions without an oral hearing, many family-court and insolvency decisions. The same word is used for the decision of any body: \"der Beschluss des Bundestages\", \"ein Beschluss der Eigentümerversammlung\" (owners' meeting), \"der Gemeinderat hat beschlossen\". English resolution or order, depending on context.",
+          "\"Der Beschluss\" is a court decision that is not an \"Urteil\": procedural orders, decisions without an oral hearing, many family-court and insolvency decisions. The same word is used for the decision of any body: \"der Beschluss des Bundestages\", \"ein Beschluss der Eigentümerversammlung\" (owners' meeting), \"der Gemeinderat hat beschlossen\". English resolution or order, depending on context.",
           "Trap: English speakers translate decision as \"Entscheidung\" everywhere. That is the neutral umbrella term and is never wrong in general speech, but in a legal text you should name the type: \"Urteil\", \"Beschluss\" or \"Bescheid\".",
         ],
         examples: [
@@ -1351,7 +1353,7 @@ export const DE_C2_U01: Lesson[] = [
       {
         heading: "Five German words for appeal",
         body: [
-          "Each type of decision has its own remedy, and English appeal or objection covers them all. Against an Urteil: \"Berufung\" (re-examination of facts and law) or \"Revision\" (law only). Against a Beschluss: \"Beschwerde\" (sofortige Beschwerde when there is a short deadline). Against a Bescheid: \"Widerspruch\", or \"Einspruch\" for tax and fine notices. Against a Strafbefehl: \"Einspruch\", which leads to a full trial.",
+          "Each type of decision has its own remedy, and English appeal or objection covers them all. Against an \"Urteil\": \"Berufung\" (re-examination of facts and law) or \"Revision\" (law only). Against a \"Beschluss\": \"Beschwerde\" (\"sofortige Beschwerde\" when there is a short deadline). Against a \"Bescheid\": \"Widerspruch\", or \"Einspruch\" for tax and fine notices. Against a \"Strafbefehl\": \"Einspruch\", which leads to a full trial.",
           "\"Die Beschwerde\" also means an everyday complaint (\"eine Beschwerde beim Kundenservice\"), and \"Beschwerden\" in the plural are medical symptoms. In court language it is a specific remedy. \"Die Verfassungsbeschwerde\" is a constitutional complaint to Karlsruhe, which any citizen can bring after exhausting other remedies.",
           "If you don't know which remedy applies, the safe neutral word is \"das Rechtsmittel\" (legal remedy against a court decision) or \"der Rechtsbehelf\" (any remedy, including against authorities). \"Rechtsmittel einlegen\" = to appeal, generally.",
         ],
@@ -1379,7 +1381,7 @@ export const DE_C2_U01: Lesson[] = [
             source: "She objected to the penalty order.",
             answer: "Sie hat Einspruch gegen den Strafbefehl eingelegt.",
             altAnswers: ["Sie legte Einspruch gegen den Strafbefehl ein.", "Sie hat gegen den Strafbefehl Einspruch eingelegt.", "Sie legte gegen den Strafbefehl Einspruch ein.", "Sie hat Einspruch gegen den Strafbefehl erhoben."],
-            explanation: "A Strafbefehl is challenged with \"Einspruch\" within two weeks; the case then goes to a full hearing.",
+            explanation: "A \"Strafbefehl\" is challenged with \"Einspruch\" within two weeks; the case then goes to a full hearing.",
           },
           {
             type: "listen-choose",
@@ -1480,7 +1482,7 @@ export const DE_C2_U01: Lesson[] = [
         type: "speak",
         text: "Gegen das Urteil hat sie Berufung eingelegt.",
         prompt: "Say it in German: She has appealed against the judgment.",
-        explanation: "Against an Urteil, a full appeal is \"Berufung\", lodged with \"einlegen\".",
+        explanation: "Against an \"Urteil\", a full appeal is \"Berufung\", lodged with \"einlegen\".",
       },
     ],
   },
@@ -1489,14 +1491,14 @@ export const DE_C2_U01: Lesson[] = [
     level: "DE-C2",
     number: 8,
     title: "Real-World Mission: Ein Schreiben ans Amt",
-    summary: "Write a formal letter to the Bürgeramt or Ausländerbehörde, from Betreff and Aktenzeichen to Anlagen, then a reasoned Widerspruch against a Bescheid.",
+    summary: "Write a formal letter to the \"Bürgeramt\" or \"Ausländerbehörde\", from \"Betreff\" and \"Aktenzeichen\" to \"Anlagen\", and lodge a reasoned \"Widerspruch\" against a \"Bescheid\".",
     duration: "20 min",
     sections: [
       {
         heading: "The frame: Betreff, Aktenzeichen, Anrede",
         body: [
-          "A German formal letter follows a fixed layout (DIN 5008). Your address top left, the authority's address below it, the date on the right (\"Leipzig, 9. Oktober 2026\"), then the subject line, \"der Betreff\", written without the word Betreff in modern letters and often in bold: \"Antrag auf Verlängerung meiner Aufenthaltserlaubnis\".",
-          "Under the subject give every reference the authority uses: \"Ihr Zeichen\" or \"Aktenzeichen\" (Az.), \"Kundennummer\", \"Steuernummer\". An authority that cannot match your letter to a file will not act on it. Then the salutation: \"Sehr geehrte Damen und Herren,\" if you don't know the name, \"Sehr geehrte Frau Schneider,\" if you do. After the comma, the first word of the letter is lowercase.",
+          "A German formal letter follows a fixed layout (DIN 5008). Your address top left, the authority's address below it, the date on the right (\"Leipzig, 9. Oktober 2026\"), then the subject line, \"der Betreff\", written without the word \"Betreff\" in modern letters and often in bold: \"Antrag auf Verlängerung meiner Aufenthaltserlaubnis\".",
+          "Under the subject give every reference the authority uses: \"Ihr Zeichen\" or \"Aktenzeichen\" (\"Az.\"), \"Kundennummer\", \"Steuernummer\". An authority that cannot match your letter to a file will not act on it. Then the salutation: \"Sehr geehrte Damen und Herren,\" if you don't know the name, \"Sehr geehrte Frau Schneider,\" if you do. After the comma, the first word of the letter is lowercase.",
           "Close with \"Mit freundlichen Grüßen\" (no comma after it), leave space for the signature, type your name, and list enclosures under \"Anlagen\": \"Anlagen: Kopie des Reisepasses, Arbeitsvertrag\".",
         ],
         examples: [
@@ -1510,10 +1512,10 @@ export const DE_C2_U01: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which opening is correct after Sehr geehrte Damen und Herren,?",
+            question: "Which opening is correct after \"Sehr geehrte Damen und Herren,\"?",
             options: ["hiermit beantrage ich ...", "Hiermit beantrage ich ...", "hiermit Beantrage ich ...", "Hiermit, beantrage ich ..."],
             correctIndex: 0,
-            explanation: "After the comma of the salutation the letter continues in lowercase (unless the first word is a noun or Sie).",
+            explanation: "After the comma of the salutation the letter continues in lowercase (unless the first word is a noun or \"Sie\").",
           },
           {
             type: "translate",
@@ -1596,7 +1598,7 @@ export const DE_C2_U01: Lesson[] = [
           {
             type: "speak",
             text: "Gegen Ihren Bescheid vom 12. September lege ich hiermit fristgerecht Widerspruch ein.",
-            tip: "Read the date as zwölften September.",
+            tip: "Read the date as \"zwölften September\".",
             explanation: "Identify the decision, state the objection, and stress that it is in time (\"fristgerecht\").",
           },
         ],
@@ -1666,10 +1668,10 @@ export const DE_C2_U01: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence belongs in the reasoning of a Widerspruch?",
+        question: "Which sentence belongs in the reasoning of a \"Widerspruch\"?",
         options: ["Der Bescheid geht von einem Einkommen aus, das ich seit März nicht mehr beziehe.", "Ich finde Ihren Bescheid sehr unfair und ärgerlich.", "Ich hoffe, es geht Ihnen gut.", "Bitte entschuldigen Sie die Störung."],
         correctIndex: 0,
-        explanation: "A Widerspruch succeeds on facts: name the wrong assumption precisely. Feelings and small talk carry no weight.",
+        explanation: "A \"Widerspruch\" succeeds on facts: name the wrong assumption precisely. Feelings and small talk carry no weight.",
       },
       {
         type: "listen-choose",
@@ -1688,7 +1690,7 @@ export const DE_C2_U01: Lesson[] = [
         type: "speak",
         text: "Hiermit bitte ich um Verlängerung der Frist bis zum 15. November.",
         prompt: "Say it in German: I hereby request an extension of the deadline until 15 November.",
-        tip: "Read bis zum 15. November as bis zum fünfzehnten November.",
+        tip: "Read \"bis zum 15. November\" as \"bis zum fünfzehnten November\".",
         explanation: "\"Um etwas bitten\" + noun; \"bis zum\" + ordinal date.",
       },
     ],
@@ -1697,10 +1699,10 @@ export const DE_C2_U01: Lesson[] = [
 
 export const DE_C2_U01_WRITING: WriteExercise = {
   type: "write",
-  prompt: "The Ausländerbehörde in Leipzig has refused to extend your residence permit (Bescheid of 12 September, reference 34-AE-2291/26) because, it says, your income is too low. In fact you started a new, better-paid job on 1 August, and they used your old salary. Write a formal Widerspruch: identify the decision, object within the deadline, explain precisely what the authority got wrong, say what you are enclosing and what you request.",
+  prompt: "The \"Ausländerbehörde\" in Leipzig has refused to extend your residence permit (\"Bescheid\" of 12 September, reference 34-AE-2291/26) because, it says, your income is too low. In fact you started a new, better-paid job on 1 August, and they used your old salary. Write a formal \"Widerspruch\": identify the decision, object within the deadline, explain precisely what the authority got wrong, say what you are enclosing and what you request.",
   minWords: 250,
   maxWords: 400,
-  rubric: ["Uses the formal frame: subject line, Aktenzeichen, \"Sehr geehrte Damen und Herren\", \"Mit freundlichen Grüßen\", \"Anlagen\"", "Lodges the objection with the fixed formula (\"Hiermit lege ich fristgerecht Widerspruch gegen Ihren Bescheid vom ... ein\")", "Corrects the facts in formal style, with nominal phrases and the passive (\"Bei der Berechnung wurde nicht berücksichtigt, dass ...\", \"Dies trifft nicht zu\")", "Ends with a precise request (\"Ich beantrage daher, den Bescheid aufzuheben\") and at least one deontic or formal structure (\"gemäß\", \"ist ... zu\", \"nachreichen\")"],
-  modelAnswer: "Ayşe Demir\nKarl-Liebknecht-Straße 45\n04275 Leipzig\n\nStadt Leipzig\nAusländerbehörde\nTechnisches Rathaus\n04092 Leipzig\n\nLeipzig, 2. Oktober 2026\n\nWiderspruch gegen Ihren Bescheid vom 12. September 2026\nIhr Aktenzeichen: 34-AE-2291/26\n\nSehr geehrte Damen und Herren,\n\nhiermit lege ich fristgerecht Widerspruch gegen Ihren Bescheid vom 12. September 2026 ein, mit dem die Verlängerung meiner Aufenthaltserlaubnis abgelehnt wurde.\n\nBegründung:\n\nDer Bescheid geht davon aus, dass mein Einkommen zur Sicherung des Lebensunterhalts nicht ausreicht. Dies trifft nicht zu. Bei der Berechnung wurde mein früheres Gehalt als Sachbearbeiterin bei der Firma Becker Logistik zugrunde gelegt. Seit dem 1. August 2026 bin ich jedoch als Projektleiterin bei der Hansa Software GmbH unbefristet beschäftigt. Mein monatliches Bruttogehalt beträgt seitdem 4.200 Euro und liegt damit deutlich über dem Betrag, den Sie in Ihrem Bescheid als erforderlich angeben.\n\nDen neuen Arbeitsvertrag hatte ich Ihnen bereits mit meinem Antrag vom 20. Juli angekündigt. Offenbar ist er jedoch nicht zu den Akten gelangt. Ich füge ihn diesem Schreiben daher in Kopie bei, zusammen mit meinen Gehaltsabrechnungen für August und September. Eine aktuelle Arbeitgeberbescheinigung reiche ich nach, sobald sie mir vorliegt.\n\nGemäß den Unterlagen ist mein Lebensunterhalt somit vollständig gesichert. Ich beantrage daher, den Bescheid vom 12. September 2026 aufzuheben und meine Aufenthaltserlaubnis antragsgemäß zu verlängern.\n\nIch bitte um Bestätigung des Eingangs dieses Schreibens. Für Rückfragen stehe ich Ihnen gern zur Verfügung.\n\nMit freundlichen Grüßen\n\nAyşe Demir\n\nAnlagen:\nKopie des Arbeitsvertrags vom 15. Juli 2026\nGehaltsabrechnungen August und September 2026",
-  explanation: "The letter follows the DIN layout and identifies the decision by date and Aktenzeichen. The objection uses the fixed formula \"hiermit lege ich fristgerecht Widerspruch ... ein\"; the reasons contradict the facts politely (\"Dies trifft nicht zu\", \"Bei der Berechnung wurde ... zugrunde gelegt\"), with nominal style (\"zur Sicherung des Lebensunterhalts\") and formal verbs (\"beifügen\", \"nachreichen\", \"vorliegen\"). It closes with a precise request: \"Ich beantrage daher, den Bescheid ... aufzuheben\".",
+  rubric: ["Uses the formal frame: subject line, \"Aktenzeichen\", \"Sehr geehrte Damen und Herren\", \"Mit freundlichen Grüßen\", \"Anlagen\"", "Lodges the objection with the fixed formula (\"Hiermit lege ich fristgerecht Widerspruch gegen Ihren Bescheid vom ... ein\")", "Corrects the facts in formal style, with nominal phrases and the passive (\"Bei der Berechnung wurde nicht berücksichtigt, dass ...\", \"Dies trifft nicht zu\")", "Ends with a precise request (\"Ich beantrage daher, den Bescheid aufzuheben\") and at least one deontic or formal structure (\"gemäß\", \"ist ... zu\", \"nachreichen\")"],
+  modelAnswer: "Ayşe Demir\nKarl-Liebknecht-Straße 45\n04275 Leipzig\n\nStadt Leipzig\nAusländerbehörde\nTechnisches Rathaus\n04092 Leipzig\n\nLeipzig, 2. Oktober 2026\n\nWiderspruch gegen Ihren Bescheid vom 12. September 2026\nIhr Aktenzeichen: 34-AE-2291/26\n\nSehr geehrte Damen und Herren,\n\nhiermit lege ich fristgerecht Widerspruch gegen Ihren Bescheid vom 12. September 2026 ein, mit dem die Verlängerung meiner Aufenthaltserlaubnis abgelehnt wurde.\n\nBegründung:\n\nDer Bescheid geht davon aus, dass mein Einkommen zur Sicherung des Lebensunterhalts nicht ausreicht. Dies trifft nicht zu. Bei der Berechnung wurde mein früheres Gehalt als Sachbearbeiterin bei der Firma Becker Logistik zugrunde gelegt. Seit dem 1. August 2026 bin ich jedoch als Projektleiterin bei der Hansa Software GmbH unbefristet beschäftigt. Mein monatliches Bruttogehalt beträgt seitdem 4.200 Euro und liegt damit deutlich über dem Betrag, den Sie in Ihrem Bescheid als erforderlich angeben.\n\nDen neuen Arbeitsvertrag hatte ich Ihnen bereits mit meinem Antrag vom 20. Juli eingereicht. Offenbar ist er jedoch nicht zu den Akten gelangt. Ich füge ihn diesem Schreiben daher in Kopie bei, zusammen mit meinen Gehaltsabrechnungen für August und September. Eine aktuelle Arbeitgeberbescheinigung reiche ich nach, sobald sie mir vorliegt.\n\nGemäß den Unterlagen ist mein Lebensunterhalt somit vollständig gesichert. Ich beantrage daher, den Bescheid vom 12. September 2026 aufzuheben und meine Aufenthaltserlaubnis antragsgemäß zu verlängern.\n\nIch bitte um Bestätigung des Eingangs dieses Schreibens. Für Rückfragen stehe ich Ihnen gern zur Verfügung.\n\nMit freundlichen Grüßen\n\nAyşe Demir\n\nAnlagen:\nKopie des Arbeitsvertrags vom 15. Juli 2026\nGehaltsabrechnungen August und September 2026",
+  explanation: "The letter follows the DIN layout and identifies the decision by date and \"Aktenzeichen\". The objection uses the fixed formula \"hiermit lege ich fristgerecht Widerspruch ... ein\"; the reasons contradict the facts politely (\"Dies trifft nicht zu\", \"Bei der Berechnung wurde ... zugrunde gelegt\"), with nominal style (\"zur Sicherung des Lebensunterhalts\") and formal verbs (\"beifügen\", \"nachreichen\", \"vorliegen\"). It closes with a precise request: \"Ich beantrage daher, den Bescheid ... aufzuheben\".",
 };

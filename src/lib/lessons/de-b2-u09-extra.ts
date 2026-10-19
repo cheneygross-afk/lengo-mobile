@@ -69,7 +69,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Thanks for your help! (to a friend)",
         answer: "Danke für deine Hilfe!",
-        altAnswers: ["Vielen Dank für deine Hilfe!", "Danke für eure Hilfe!", "Danke für Ihre Hilfe!"],
+        altAnswers: ["Vielen Dank für deine Hilfe!"],
         explanation: "\"Helfen → die Hilfe\".",
       },
       {
@@ -99,10 +99,10 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What is the noun for verlieren?",
-        options: ["der Verlust", "die Verlierung", "das Verlust", "die Verlore"],
+        question: "The company lost a lot of money. Which noun completes \"___ war hoch\"?",
+        options: ["Der Verlust", "Die Verlierung", "Das Verlust", "Die Verlore"],
         correctIndex: 0,
-        explanation: "Irregular stem noun: \"der Verlust\".",
+        explanation: "From \"verlieren\": irregular stem noun, masculine, \"der Verlust\". There is no -ung noun here.",
       },
       {
         type: "translate",
@@ -128,6 +128,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Waiting is the worst part.",
         answer: "Das Warten ist das Schlimmste.",
+        altAnswers: ["Warten ist das Schlimmste."],
         explanation: "Infinitive noun: neuter.",
       },
       {
@@ -570,7 +571,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which preposition replaces indem?",
+        question: "Rewrite \"Indem man regelmäßig übt, wird man besser\" in nominal style: \"___ regelmäßiges Üben wird man besser.\" Which preposition fits?",
         options: ["durch", "trotz", "bei", "vor"],
         correctIndex: 0,
         explanation: "\"Indem\" (by doing) ↔ \"durch\".",
@@ -636,7 +637,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Wegen des Regens und trotz der Kälte gingen wir nach dem Essen spazieren.",
+        text: "Trotz des Regens gingen wir nach dem Essen spazieren, aber wegen der Kälte nicht lange.",
         explanation: "Three preposition pairs in one sentence.",
       },
     ],
@@ -677,7 +678,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Schließung des Schwimmbads nach Wasserschaden. What happened?",
+            question: "\"Schließung des Schwimmbads nach Wasserschaden\". What happened?",
             options: ["The pool was closed after water damage.", "The pool was opened after repairs.", "Water damage closed the town hall.", "The pool will close because of a drought."],
             correctIndex: 0,
             explanation: "\"Schließung\" ← schließen; \"des Schwimmbads\" is what was closed.",
@@ -693,7 +694,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
         source: "The railway is on strike, so numerous connections are cancelled.",
         answer: "Die Bahn streikt, deshalb fallen zahlreiche Verbindungen aus.",
         altAnswers: ["Die Bahn streikt, daher fallen zahlreiche Verbindungen aus.", "Die Bahn streikt, deswegen fallen zahlreiche Verbindungen aus.", "Weil die Bahn streikt, fallen zahlreiche Verbindungen aus."],
-        explanation: "Streik → streiken, Ausfall → ausfallen (separable).",
+        explanation: "\"Streik\" → \"streiken\", \"Ausfall\" → \"ausfallen\" (separable).",
       },
       {
         type: "translate",
@@ -719,7 +720,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
         en: "Headline: [Opening of the new airport] in October",
         sentence: "___ im Oktober",
         answer: "Eröffnung des neuen Flughafens",
-        explanation: "Eröffnung (die) + genitive masculine: des neuen Flughafens.",
+        explanation: "\"Die Eröffnung\" + masculine genitive \"des neuen Flughafens\"; headlines drop the article.",
       },
       {
         type: "translate",
@@ -737,7 +738,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
         sentence: "___ nach Skandal",
         answer: "Rücktritt des Ministers",
         altAnswers: ["Rücktritt der Ministerin"],
-        explanation: "zurücktreten → der Rücktritt (stem noun, masculine).",
+        explanation: "\"Zurücktreten\" → \"der Rücktritt\" (stem noun, masculine) + genitive \"des Ministers\".",
       },
       {
         type: "translate",
@@ -761,12 +762,12 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
         prompt: "Translate into German as a full sentence.",
         source: "Because of the storm, the motorway was closed.",
         answer: "Wegen des Sturms wurde die Autobahn gesperrt.",
-        altAnswers: ["Wegen des Sturms ist die Autobahn gesperrt worden.", "Wegen des Sturmes wurde die Autobahn gesperrt.", "Wegen des Sturms wurde die Autobahn geschlossen."],
+        altAnswers: ["Wegen des Sturms ist die Autobahn gesperrt worden.", "Wegen des Sturmes wurde die Autobahn gesperrt.", "Aufgrund des Sturms wurde die Autobahn gesperrt."],
         explanation: "Headline: \"Sperrung der Autobahn wegen Sturm\". Roads are gesperrt, not geschlossen, in news German.",
       },
       {
         type: "multiple-choice",
-        question: "Rückgang der Geburtenzahlen. What does the headline report?",
+        question: "\"Rückgang der Geburtenzahlen\". What does the headline report?",
         options: ["Fewer babies are being born.", "More babies are being born.", "Birthdays are being cancelled.", "The hospital is closing."],
         correctIndex: 0,
         explanation: "\"Rückgang\" = decline; the opposite is \"Anstieg\".",
@@ -814,7 +815,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
         heading: "Recap: listening for endings",
         body: [
           "Nominal style is hard to hear because the information is in the endings: \"die Eröffnung des neuen Gebäudes\", \"die Meinung vieler Bürger\". Listen for the -es / -s on masculine and neuter genitives and the -er on adjectives in the genitive plural.",
-          "Nouns from verbs are capitalised: das Warten, das Einkaufen, die Planung. Compounds are written as one word: die Verkehrsplanung, die Mieterhöhung.",
+          "Nouns from verbs are capitalised: \"das Warten\", \"das Einkaufen\", \"die Planung\". Compounds are written as one word: \"die Verkehrsplanung\", \"die Mieterhöhung\".",
         ],
         examples: [
           { es: "Die Planung des Projekts dauert länger als erwartet.", en: "Planning the project is taking longer than expected." },
@@ -858,7 +859,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
         source: "The opinion of many citizens was not taken into account.",
         answer: "Die Meinung vieler Bürger wurde nicht berücksichtigt.",
         altAnswers: ["Die Meinung vieler Bürger ist nicht berücksichtigt worden.", "Die Meinung vieler Bürgerinnen und Bürger wurde nicht berücksichtigt."],
-        explanation: "berücksichtigen = to take into account.",
+        explanation: "\"Berücksichtigen\" = to take into account; \"vieler Bürger\" is a genitive plural.",
       },
       {
         type: "fill-blank",
@@ -875,7 +876,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
         source: "The long wait for the decision was exhausting.",
         answer: "Das lange Warten auf die Entscheidung war anstrengend.",
         altAnswers: ["Das lange Warten auf die Entscheidung ist anstrengend gewesen."],
-        explanation: "warten auf → das Warten auf.",
+        explanation: "\"Warten auf\" → \"das Warten auf\": the preposition stays.",
       },
       {
         type: "dictation",
@@ -894,7 +895,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
       {
         type: "dictation",
         audio: "Die Eröffnung des neuen Gebäudes findet im Mai statt.",
-        explanation: "Masculine/neuter genitive: des neuen Gebäudes (-en adjective, -s noun).",
+        explanation: "Neuter genitive: \"des neuen Gebäudes\" (-en on the adjective, -s on the noun).",
       },
       {
         type: "translate",
@@ -926,7 +927,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
         sentence: "___ halten die Züge woanders.",
         answer: "Während der Renovierung des Bahnhofs",
         altAnswers: ["Während der Renovierung des Bahnhofes", "Während der Sanierung des Bahnhofs"],
-        explanation: "Während + genitive, then a second genitive: des Bahnhofs.",
+        explanation: "\"Während\" + genitive, then a second genitive: \"des Bahnhofs\".",
       },
       {
         type: "word-order",
@@ -964,7 +965,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
         heading: "Recap: CV German",
         body: [
           "A German Lebenslauf uses bullet points without a subject or verb. \"Ich habe Kunden beraten\" becomes \"Beratung von Kunden\"; \"Ich habe ein Team von fünf Leuten geleitet\" becomes \"Leitung eines Teams von fünf Mitarbeitern\".",
-          "Typical nouns: die Leitung, die Betreuung, die Beratung, die Planung, die Organisation, die Durchführung, die Erstellung, die Entwicklung, der Abschluss. What is done comes after them in the genitive or with \"von\".",
+          "Typical nouns: \"die Leitung\", \"die Betreuung\", \"die Beratung\", \"die Planung\", \"die Organisation\", \"die Durchführung\", \"die Erstellung\", \"die Entwicklung\", \"der Abschluss\". What is done comes after them in the genitive or with \"von\".",
           "Dates and places stand at the start of the line: \"2019–2022: Studium der Betriebswirtschaft, Universität Mannheim\"; \"seit 2023: Projektleiterin bei ...\".",
         ],
         examples: [
@@ -991,7 +992,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
             en: "[Producing] monthly reports",
             sentence: "___ monatlicher Berichte",
             answer: "Erstellung",
-            explanation: "erstellen → die Erstellung, followed by a genitive plural.",
+            explanation: "\"Erstellen\" → \"die Erstellung\", followed by a genitive plural.",
           },
         ],
       },
@@ -1022,7 +1023,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
         source: "Producing monthly reports",
         answer: "Erstellung monatlicher Berichte",
         altAnswers: ["Erstellung von Monatsberichten", "Erstellung der monatlichen Berichte"],
-        explanation: "Genitive plural without article: monatlicher Berichte.",
+        explanation: "Genitive plural without article: \"monatlicher Berichte\".",
       },
       {
         type: "translate",
@@ -1031,7 +1032,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
         source: "Supporting new colleagues",
         answer: "Betreuung neuer Kolleginnen und Kollegen",
         altAnswers: ["Betreuung neuer Kollegen", "Betreuung von neuen Kollegen", "Einarbeitung neuer Kollegen"],
-        explanation: "betreuen → die Betreuung; neuer = genitive plural.",
+        explanation: "\"Betreuen\" → \"die Betreuung\"; \"neuer\" shows the genitive plural.",
       },
       {
         type: "fill-blank",
@@ -1039,7 +1040,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
         en: "[Development of a new] website for the company",
         sentence: "___ Website für das Unternehmen",
         answer: "Entwicklung einer neuen",
-        explanation: "Die Website is feminine: genitive \"einer neuen\".",
+        explanation: "\"Die Website\" is feminine: genitive \"einer neuen\".",
       },
       {
         type: "translate",
@@ -1057,7 +1058,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
         source: "I translated technical documents.",
         answer: "Übersetzung technischer Dokumente",
         altAnswers: ["Übersetzung von technischen Dokumenten", "Übersetzung technischer Unterlagen"],
-        explanation: "übersetzen → die Übersetzung; technischer = genitive plural.",
+        explanation: "\"Übersetzen\" → \"die Übersetzung\"; \"technischer\" shows the genitive plural.",
       },
       {
         type: "fill-blank",
@@ -1105,7 +1106,7 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
         question: "What did this person do?",
         options: ["Planned and ran events.", "Attended events as a guest.", "Cancelled events.", "Sold tickets for events."],
         correctIndex: 0,
-        explanation: "\"Durchführung\" ← durchführen (carry out).",
+        explanation: "\"Durchführung\" ← \"durchführen\" (carry out).",
       },
       {
         type: "dictation",
@@ -1115,8 +1116,8 @@ export const DE_B2_U09_EXTRA: Lesson[] = [
       {
         type: "speak",
         text: "In meiner letzten Stelle war ich für die Beratung von Kunden und die Erstellung monatlicher Berichte zuständig.",
-        tip: "Use zuständig für + nominal phrases in an interview.",
-        explanation: "Zuständig für combines naturally with nominal style.",
+        tip: "Use \"zuständig für\" + nominal phrases in an interview.",
+        explanation: "\"Zuständig für\" combines naturally with nominal style.",
       },
     ],
   },

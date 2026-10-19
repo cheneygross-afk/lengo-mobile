@@ -32,7 +32,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "Would you help me with the move? (to a friend)",
             answer: "Würdest du mir beim Umzug helfen?",
-            altAnswers: ["Würdet ihr mir beim Umzug helfen?", "Würden Sie mir beim Umzug helfen?", "Würdest du mir bei dem Umzug helfen?"],
+            altAnswers: ["Würdest du mir bei dem Umzug helfen?"],
             explanation: "\"Würdest du\" first; \"helfen\" + dative \"mir\"; with the move = \"beim Umzug\".",
           },
           {
@@ -241,7 +241,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Would you be at home on Friday evening? (formal)",
         answer: "Wären Sie am Freitagabend zu Hause?",
-        altAnswers: ["Wären Sie Freitagabend zu Hause?"],
+        altAnswers: ["Wären Sie Freitagabend zu Hause?", "Wären Sie am Freitagabend zuhause?"],
         explanation: "\"Wären Sie\" opens the question: polite and tentative.",
       },
       {
@@ -341,7 +341,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
             source: "I wouldn't know what to say.",
             answer: "Ich wüsste nicht, was ich sagen soll.",
             altAnswers: ["Ich wüsste nicht, was ich sagen sollte.", "Ich würde nicht wissen, was ich sagen soll."],
-            explanation: "\"Wüsste\" (from wusste) is the everyday form of would know.",
+            explanation: "\"Wüsste\" (from \"wusste\" + umlaut) is the everyday form of would know; \"würde ... wissen\" is possible but heavier.",
           },
           {
             type: "listen-choose",
@@ -369,7 +369,6 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "You should drink more water. (to a friend)",
         answer: "Du solltest mehr Wasser trinken.",
-        altAnswers: ["Ihr solltet mehr Wasser trinken.", "Sie sollten mehr Wasser trinken."],
         explanation: "Should = \"solltest\" (no umlaut possible).",
       },
       {
@@ -396,7 +395,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "You'd have to speak to the boss. (to a friend)",
         answer: "Du müsstest mit dem Chef sprechen.",
-        altAnswers: ["Du müsstest mit der Chefin sprechen.", "Du müsstest mit dem Chef reden.", "Ihr müsstet mit dem Chef sprechen.", "Sie müssten mit dem Chef sprechen."],
+        altAnswers: ["Du müsstest mit der Chefin sprechen.", "Du müsstest mit dem Chef reden."],
         explanation: "\"Müsstest\" = would have to.",
       },
       {
@@ -423,7 +422,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'd buy a new laptop.",
         answer: "Ich würde einen neuen Laptop kaufen.",
-        explanation: "\"Kaufen\" is weak: \"würde ... kaufen\", never *kaufte here.",
+        explanation: "\"Kaufen\" is weak: \"würde ... kaufen\", never \"*kaufte\" here.",
       },
       {
         type: "fill-blank",
@@ -645,8 +644,8 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         heading: "Recap: the four classic slips",
         body: [
-          "1. *\"Ich würde haben\" / *\"ich würde sein\": use \"hätte\" and \"wäre\". 2. *\"Er könnt\": the er form ends in -e: \"er könnte\". 3. *\"Wir wären gehen\": would + verb is \"würden\", not \"wären\": \"wir würden gehen\". 4. *\"Sie hatte gern einen Kaffee\": the umlaut is missing: \"hätte\".",
-          "Also watch for split separable verbs after würde (*\"ich würde rufen an\") and \"würde\" for past habits.",
+          "1. \"*Ich würde haben\" / \"*ich würde sein\": use \"hätte\" and \"wäre\". 2. \"*Er könnt\": the er form ends in -e: \"er könnte\". 3. \"*Wir wären gehen\": would + verb is \"würden\", not \"wären\": \"wir würden gehen\". 4. \"*Sie hatte gern einen Kaffee\": the umlaut is missing: \"hätte\".",
+          "Also watch for split separable verbs after würde (\"*ich würde rufen an\") and \"würde\" for past habits.",
         ],
         examples: [
           { es: "Ich hätte gern mehr Freizeit.", en: "I'd like more free time." },
@@ -659,7 +658,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"Ich würde haben mehr Freizeit.\" Write it correctly: I'd like more free time.",
+            prompt: "A learner wrote \"*Ich würde haben mehr Freizeit.\" Write it correctly: I'd like more free time.",
             source: "I'd like more free time.",
             answer: "Ich hätte gern mehr Freizeit.",
             altAnswers: ["Ich hätte gerne mehr Freizeit."],
@@ -668,7 +667,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "He [could] help us. (a learner wrote \"Er könnt uns helfen.\")",
+            en: "He [could] help us. (a learner wrote \"*Er könnt uns helfen.\")",
             sentence: "Er ___ uns helfen.",
             answer: "könnte",
             explanation: "The er form of the Konjunktiv ends in -e: \"könnte\".",
@@ -680,7 +679,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *\"Wir wären gern spazieren gehen.\" Translate: We'd like to go for a walk.",
+        prompt: "Fix \"*Wir wären gern spazieren gehen.\" Translate: We'd like to go for a walk.",
         source: "We'd like to go for a walk.",
         answer: "Wir würden gern spazieren gehen.",
         altAnswers: ["Wir würden gerne spazieren gehen.", "Wir möchten spazieren gehen.", "Wir würden gern einen Spaziergang machen."],
@@ -689,7 +688,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *\"Sie hatte gern einen Kaffee.\" Translate: She'd like a coffee.",
+        prompt: "Fix \"*Sie hatte gern einen Kaffee.\" Translate: She'd like a coffee.",
         source: "She'd like a coffee.",
         answer: "Sie hätte gern einen Kaffee.",
         altAnswers: ["Sie hätte gerne einen Kaffee.", "Sie möchte einen Kaffee."],
@@ -698,7 +697,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *\"Ich würde rufen dich morgen an.\" Translate: I'd call you tomorrow.",
+        prompt: "Fix \"*Ich würde rufen dich morgen an.\" Translate: I'd call you tomorrow.",
         source: "I'd call you tomorrow.",
         answer: "Ich würde dich morgen anrufen.",
         altAnswers: ["Morgen würde ich dich anrufen.", "Ich würde Sie morgen anrufen.", "Ich würde euch morgen anrufen."],
@@ -707,7 +706,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *\"Ich würde sein glücklich.\" Translate: I'd be happy.",
+        prompt: "Fix \"*Ich würde sein glücklich.\" Translate: I'd be happy.",
         source: "I'd be happy.",
         answer: "Ich wäre glücklich.",
         altAnswers: ["Ich wäre froh."],
@@ -716,16 +715,15 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *\"Du könntst mir helfen.\" Translate: You could help me. (to a friend)",
+        prompt: "Fix \"*Du könntst mir helfen.\" Translate: You could help me. (to a friend)",
         source: "You could help me.",
         answer: "Du könntest mir helfen.",
-        altAnswers: ["Ihr könntet mir helfen.", "Sie könnten mir helfen."],
         explanation: "The du form keeps the -e-: \"könntest\".",
       },
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *\"Als Kind würde ich viel lesen.\" Translate: As a child I'd read a lot.",
+        prompt: "Fix \"*Als Kind würde ich viel lesen.\" Translate: As a child I'd read a lot.",
         source: "As a child I'd read a lot. (a past habit)",
         answer: "Als Kind habe ich viel gelesen.",
         altAnswers: ["Als Kind las ich viel."],
@@ -734,7 +732,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *\"Es würde geben ein Problem.\" Translate: There would be a problem.",
+        prompt: "Fix \"*Es würde geben ein Problem.\" Translate: There would be a problem.",
         source: "There would be a problem.",
         answer: "Es gäbe ein Problem.",
         altAnswers: ["Es würde ein Problem geben."],
@@ -743,16 +741,16 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Fix *\"Wurdest du mir helfen?\" Translate: Would you help me? (to a friend)",
+        prompt: "Fix \"*Wurdest du mir helfen?\" Translate: Would you help me? (to a friend)",
         source: "Would you help me?",
         answer: "Würdest du mir helfen?",
-        altAnswers: ["Würdet ihr mir helfen?", "Würden Sie mir helfen?", "Könntest du mir helfen?"],
+        altAnswers: ["Könntest du mir helfen?"],
         explanation: "\"Wurdest\" (no umlaut) is the past of werden; would is \"würdest\".",
       },
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "We [should] call Grandma. (a learner wrote \"Wir söllten Oma anrufen.\")",
+        en: "We [should] call Grandma. (a learner wrote \"*Wir söllten Oma anrufen.\")",
         sentence: "Wir ___ Oma anrufen.",
         answer: "sollten",
         explanation: "\"Sollen\" has no umlaut, so the Konjunktiv \"sollten\" has none either.",
@@ -760,7 +758,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "[I'd like to know] what that costs. (not *ich wusste gern)",
+        en: "[I'd like to know] what that costs. (not \"*ich wusste gern\")",
         sentence: "___, was das kostet.",
         answer: "Ich wüsste gern",
         altAnswers: ["Ich wüsste gerne", "Ich würde gern wissen", "Ich würde gerne wissen"],
@@ -897,7 +895,6 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "You'd be allowed to stay longer. (to a friend)",
         answer: "Du dürftest länger bleiben.",
-        altAnswers: ["Ihr dürftet länger bleiben.", "Sie dürften länger bleiben."],
         explanation: "\"Darfst\" → \"dürftest\": Präteritum \"durftest\" + umlaut.",
       },
       {
@@ -1047,7 +1044,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'd stay at home.",
         answer: "Ich würde zu Hause bleiben.",
-        altAnswers: ["Ich bliebe zu Hause.", "Ich würde daheim bleiben."],
+        altAnswers: ["Ich bliebe zu Hause.", "Ich würde daheim bleiben.", "Ich würde zuhause bleiben."],
         explanation: "\"Würde ... bleiben\" is usual; \"bliebe\" is also possible.",
       },
       {
@@ -1056,7 +1053,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "You'd be surprised. (to a friend)",
         answer: "Du wärst überrascht.",
-        altAnswers: ["Du wärest überrascht.", "Ihr wärt überrascht.", "Sie wären überrascht."],
+        altAnswers: ["Du wärest überrascht."],
         explanation: "Be → \"wärst\".",
       },
       {
@@ -1346,7 +1343,7 @@ export const DE_B1_U06_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "Could you close the door? (to a friend)",
         answer: "Könntest du die Tür zumachen?",
-        altAnswers: ["Könntest du die Tür schließen?", "Könntest du bitte die Tür zumachen?", "Könntet ihr die Tür zumachen?", "Könnten Sie die Tür schließen?"],
+        altAnswers: ["Könntest du die Tür schließen?", "Könntest du bitte die Tür zumachen?"],
         explanation: "A request: always \"könntest\".",
       },
       {

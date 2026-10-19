@@ -96,7 +96,7 @@ export const DE_A2_U23: Lesson[] = [
             prompt: "Translate into German.",
             source: "I went to Berlin for the first time.",
             answer: "Ich bin zum ersten Mal nach Berlin gefahren.",
-            altAnswers: ["Ich war zum ersten Mal in Berlin.", "Ich bin zum ersten Mal nach Berlin gekommen.", "Ich bin zum ersten Mal in Berlin gewesen."],
+            altAnswers: ["Ich war zum ersten Mal in Berlin.", "Ich bin zum ersten Mal nach Berlin gekommen.", "Ich bin zum ersten Mal in Berlin gewesen.", "Ich bin das erste Mal nach Berlin gefahren.", "Zum ersten Mal bin ich nach Berlin gefahren."],
             explanation: "\"Zum ersten Mal\" in the middle field; movement: \"bin ... gefahren\".",
           },
           {
@@ -323,7 +323,7 @@ export const DE_A2_U23: Lesson[] = [
         prompt: "Translate into German.",
         source: "You have to go to the police. (to a friend)",
         answer: "Du musst zur Polizei gehen.",
-        altAnswers: ["Du musst zur Polizei.", "Ihr müsst zur Polizei gehen.", "Sie müssen zur Polizei gehen."],
+        altAnswers: ["Du musst zur Polizei."],
         explanation: "\"Zur\" = zu der (die Polizei).",
       },
       {
@@ -354,7 +354,7 @@ export const DE_A2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "The officer says: „Wenn wir etwas finden, rufen wir Sie an.“ What does he mean?",
+        question: "The officer says: \"Wenn wir etwas finden, rufen wir Sie an.\" What does he mean?",
         options: ["If we find anything, we'll call you.", "When we found it, we called you.", "We'll find it and you call us.", "Call us if you find anything."],
         correctIndex: 0,
         explanation: "\"Wenn\" = if (future condition); \"rufen ... an\" = call.",
@@ -645,7 +645,7 @@ export const DE_A2_U23: Lesson[] = [
         heading: "Gate 2: Präteritum of sein, haben and the modals",
         body: [
           "\"Ich war, du warst, er war, wir waren, ihr wart, sie waren\"; \"ich hatte, du hattest, er hatte, wir hatten, ihr hattet\". Modals: stem without umlaut + -te: \"konnte, musste, durfte, wollte, sollte\", and \"mögen\" → \"mochte\" (liked).",
-          "In conversation these replace the Perfekt: \"Ich hatte keine Lust\" rather than \"Ich habe keine Lust gehabt\". And with modals the Perfekt is genuinely rare: \"Ich musste gehen\", not *Ich habe gehen gemusst*.",
+          "In conversation these replace the Perfekt: \"Ich hatte keine Lust\" rather than \"Ich habe keine Lust gehabt\". And with modals the Perfekt is genuinely rare and heavy (it uses a double infinitive: \"Ich habe gehen müssen\"); just say \"Ich musste gehen\". Never \"*Ich habe gehen gemusst*\".",
         ],
         examples: [
           { es: "Wo wart ihr gestern?", en: "Where were you yesterday? (to friends)" },
@@ -735,7 +735,7 @@ export const DE_A2_U23: Lesson[] = [
         prompt: "Translate into German.",
         source: "You were supposed to call me! (to a friend)",
         answer: "Du solltest mich anrufen!",
-        altAnswers: ["Du solltest mich doch anrufen!", "Ihr solltet mich anrufen!", "Sie sollten mich anrufen!"],
+        altAnswers: ["Du solltest mich doch anrufen!"],
         explanation: "\"Sollte\" = was supposed to; \"anrufen\" + accusative.",
       },
       {
@@ -757,10 +757,10 @@ export const DE_A2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the most natural spoken past of \"Ich muss arbeiten\"?",
+        question: "You tell a friend: I had to work. Which is the most natural?",
         options: ["Ich musste arbeiten.", "Ich habe arbeiten gemusst.", "Ich habe gemusst arbeiten.", "Ich bin arbeiten gemusst."],
         correctIndex: 0,
-        explanation: "Modals use the Präteritum in speech: \"musste\".",
+        explanation: "Modals use the Präteritum in speech: \"musste\". The rare Perfekt would be \"Ich habe arbeiten müssen\" (double infinitive), never \"gemusst\" with an infinitive.",
       },
       {
         type: "translate",
@@ -777,7 +777,6 @@ export const DE_A2_U23: Lesson[] = [
         prompt: "Translate into German.",
         source: "What did you buy? (to a friend)",
         answer: "Was hast du gekauft?",
-        altAnswers: ["Was habt ihr gekauft?", "Was haben Sie gekauft?"],
         explanation: "W-question: question word, auxiliary, subject, participle last.",
       },
       {
@@ -869,7 +868,6 @@ export const DE_A2_U23: Lesson[] = [
             prompt: "Translate into German.",
             source: "Do you know which train is faster? (to a friend)",
             answer: "Weißt du, welcher Zug schneller ist?",
-            altAnswers: ["Wisst ihr, welcher Zug schneller ist?", "Wissen Sie, welcher Zug schneller ist?"],
             explanation: "Indirect question: \"welcher Zug\" + verb last.",
           },
           {
@@ -1019,7 +1017,7 @@ export const DE_A2_U23: Lesson[] = [
         heading: "The task and the frame",
         body: [
           "A typical Goethe A2 task: You live in a rented flat. The washing machine has been broken for a week. Write to your landlord, Herr Becker: describe the problem, say why it's urgent, ask for help and suggest a time. About 30-40 words.",
-          "The frame for a formal email: \"Sehr geehrter Herr Becker,\" / \"Sehr geehrte Frau Schneider,\" (formal) and \"Mit freundlichen Grüßen\" + your name at the end. \"Lieber Herr Becker\" / \"Viele Grüße\" is friendlier and also fine for a landlord you know. After the comma the email continues with a lowercase letter.",
+          "The frame for a formal email: \"Sehr geehrter Herr Becker,\" / \"Sehr geehrte Frau Schneider,\" (formal) and \"Mit freundlichen Grüßen\" + your name on the next line, with no comma after \"Grüßen\" (the one-line versions in this lesson put a comma only to show where the line breaks). \"Lieber Herr Becker\" / \"Viele Grüße\" is friendlier and also fine for a landlord you know. After the comma the email continues with a lowercase letter.",
           "Use \"Sie\" and \"Ihnen\" throughout, always capitalised.",
         ],
         examples: [
@@ -1239,6 +1237,7 @@ export const DE_A2_U23: Lesson[] = [
             prompt: "Translate into German.",
             source: "I know that she got up early.",
             answer: "Ich weiß, dass sie früh aufgestanden ist.",
+            altAnswers: ["Ich weiß, dass sie früh aufstand."],
             explanation: "Structures 2, 3 and 6 at once: \"dass\" + participle + \"ist\" last; \"aufgestanden\" with \"sein\".",
           },
           {
@@ -1286,7 +1285,7 @@ export const DE_A2_U23: Lesson[] = [
       {
         heading: "Structures 15-20: sentence building",
         body: [
-          "(15) comparatives with \"als\" and \"so ... wie\"; (16) superlatives; (17) reflexive verbs; (18) imperatives for du, ihr and Sie; (19) connectors in position 1 (\"deshalb, trotzdem, dann\") vs position 0 (\"und, aber, denn\"); (20) time expressions: \"seit\" + present, \"vor\" = ago, years without *in*.",
+          "(15) comparatives with \"als\" and \"so ... wie\"; (16) superlatives; (17) reflexive verbs; (18) imperatives for du, ihr and Sie; (19) connectors in position 1 (\"deshalb, trotzdem, dann\") vs position 0 (\"und, aber, denn\"); (20) time expressions: \"seit\" + present, \"vor\" = ago, years without \"*in*\".",
           "The last test of readiness: can you tell a short story about your last holiday and plan the next one, in German, without stopping? If yes, you're ready for the Intermediate level.",
         ],
         examples: [
@@ -1388,6 +1387,7 @@ export const DE_A2_U23: Lesson[] = [
         prompt: "Put the words in order to say: When I was young, I lived in Bremen.",
         words: ["Als", "ich jung war,", "habe", "ich", "in Bremen", "gewohnt."],
         translation: "When I was young, I lived in Bremen.",
+        altOrders: [["Ich", "habe", "in Bremen", "gewohnt,", "als", "ich jung war."]],
         explanation: "\"Als\" for a past period; then \"habe\" first in the main clause.",
       },
       {
@@ -1439,7 +1439,7 @@ export const DE_A2_U23: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "A sign on a doctor's door: „Wegen Krankheit bleibt die Praxis bis Freitag geschlossen.“ What does it mean?",
+            question: "A sign on a doctor's door: \"Wegen Krankheit bleibt die Praxis bis Freitag geschlossen.\" What does it mean?",
             options: ["The surgery is closed until Friday because the doctor is ill.", "The surgery is only open for sick people until Friday.", "The surgery opens on Friday because of illness.", "Sick patients must come back on Friday."],
             correctIndex: 0,
             explanation: "\"Wegen Krankheit\" = due to illness; \"bis Freitag geschlossen\" = closed until Friday.",
@@ -1514,7 +1514,7 @@ export const DE_A2_U23: Lesson[] = [
             prompt: "Translate into German.",
             source: "Are you free on Saturday? (to a friend)",
             answer: "Hast du am Samstag Zeit?",
-            altAnswers: ["Hast du Samstag Zeit?", "Habt ihr am Samstag Zeit?", "Bist du am Samstag frei?"],
+            altAnswers: ["Hast du Samstag Zeit?", "Bist du am Samstag frei?"],
             explanation: "Being free = \"Zeit haben\".",
           },
         ],
@@ -1555,7 +1555,7 @@ export const DE_A2_U23: Lesson[] = [
     exercises: [
       {
         type: "multiple-choice",
-        question: "An email says: „Der Deutschkurs fällt am Montag aus. Wir sehen uns am Mittwoch.“ What's happening?",
+        question: "An email says: \"Der Deutschkurs fällt am Montag aus. Wir sehen uns am Mittwoch.\" What's happening?",
         options: ["There's no class on Monday; the next one is on Wednesday.", "The class is moved from Wednesday to Monday.", "The class starts on Monday.", "The class is on Monday and Wednesday."],
         correctIndex: 0,
         explanation: "\"Ausfallen\" = to be cancelled.",
@@ -1592,6 +1592,7 @@ export const DE_A2_U23: Lesson[] = [
         prompt: "Translate into German.",
         source: "I'm writing to you because I have a question. (polite)",
         answer: "Ich schreibe Ihnen, weil ich eine Frage habe.",
+        altAnswers: ["Ich schreibe Ihnen, denn ich habe eine Frage."],
         explanation: "Dative \"Ihnen\" (to you, polite); \"habe\" last after \"weil\".",
       },
       {
@@ -1614,7 +1615,7 @@ export const DE_A2_U23: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "In the speaking test your card says „Hobby?“. Which question do you ask your partner?",
+        question: "In the speaking test your card says \"Hobby?\". Which question do you ask your partner?",
         options: ["Was machst du in deiner Freizeit?", "Wo ist dein Hobby?", "Wann hast du Hobby gemacht?", "Bist du ein Hobby?"],
         correctIndex: 0,
         explanation: "Turn the keyword into a natural question about free time.",
@@ -1633,6 +1634,7 @@ export const DE_A2_U23: Lesson[] = [
         prompt: "Put the words in order to say: Unfortunately I couldn't come because I was ill.",
         words: ["Leider", "konnte", "ich", "nicht kommen,", "weil", "ich krank", "war."],
         translation: "Unfortunately I couldn't come because I was ill.",
+        altOrders: [["Ich", "konnte", "Leider", "nicht kommen,", "weil", "ich krank", "war."]],
         explanation: "\"Konnte\" second after \"Leider\"; \"war\" last after \"weil\".",
       },
       {

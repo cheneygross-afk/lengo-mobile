@@ -15,13 +15,13 @@ export const DE_C2_U07_EXTRA: Lesson[] = [
       {
         heading: "Recap: naming the figure",
         body: [
-          "A metaphor transfers an image by similarity (\"Achilles ist ein Löwe\"); a Vergleich adds \"wie\", \"gleich\" or \"als ob\"; metonymy and synecdoche use a factual link (place, container, part); personification gives things human actions, usually through verbs; the oxymoron joins opposites. In analysis: \"Es handelt sich um ...\", \"X steht für Y\", \"Dadurch wird ... verdeutlicht\".",
+          "A metaphor transfers an image by similarity (\"Achilles ist ein Löwe\"); a \"Vergleich\" adds \"wie\", \"gleich\" or \"als ob\"; metonymy and synecdoche use a factual link (place, container, part); personification gives things human actions, usually through verbs; the oxymoron joins opposites. In analysis: \"Es handelt sich um ...\", \"X steht für Y\", \"Dadurch wird ... verdeutlicht\".",
           "Literary German is full of these figures, and many lines have become everyday quotations. Recognise them and you'll catch the allusions in newspapers and speeches.",
         ],
         examples: [
           { es: "Zwei Seelen wohnen, ach! in meiner Brust.", en: "Two souls, alas, dwell in my breast. (Goethe, Faust)" },
-          { es: "Friede den Hütten! Krieg den Palästen!", en: "Peace to the huts! War on the palaces! (Georg \"Büchner\")" },
-          { es: "Die Mauern stehn sprachlos und kalt.", en: "The walls stand speechless and cold. (\"Hölderlin\")" },
+          { es: "Friede den Hütten! Krieg den Palästen!", en: "Peace to the huts! War on the palaces! (Georg Büchner)" },
+          { es: "Die Mauern stehn sprachlos und kalt.", en: "The walls stand speechless and cold. (Hölderlin)" },
           { es: "Herr: es ist Zeit. Der Sommer war sehr groß.", en: "Lord: it is time. The summer was immense. (Rilke)" },
           { es: "Denk ich an Deutschland in der Nacht, dann bin ich um den Schlaf gebracht.", en: "When I think of Germany at night, I am robbed of sleep. (Heine)" },
         ],
@@ -80,7 +80,7 @@ export const DE_C2_U07_EXTRA: Lesson[] = [
         source: "The poet compares life to a journey.",
         answer: "Der Dichter vergleicht das Leben mit einer Reise.",
         altAnswers: ["Die Dichterin vergleicht das Leben mit einer Reise.", "Der Dichter vergleicht das Leben mit einer Wanderung."],
-        explanation: "\"Vergleichen mit\" + dative, never *zu.",
+        explanation: "\"Vergleichen mit\" + dative, not \"*vergleichen zu*\" (although the noun phrase is \"im Vergleich zu\").",
       },
       {
         type: "fill-blank",
@@ -88,7 +88,7 @@ export const DE_C2_U07_EXTRA: Lesson[] = [
         en: "When I think of Germany at night, [I am robbed of sleep].",
         sentence: "Denk ich an Deutschland in der Nacht, dann ___.",
         answer: "bin ich um den Schlaf gebracht",
-        explanation: "\"Jemanden um etwas bringen\" = to deprive someone of something; Heine's Zustandspassiv \"bin ... gebracht\".",
+        explanation: "\"Jemanden um etwas bringen\" = to deprive someone of something; Heine's \"Zustandspassiv\" \"bin ... gebracht\".",
       },
       {
         type: "translate",
@@ -313,7 +313,7 @@ export const DE_C2_U07_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Figurative Language, Irony, Litotes and Their Markers, Part 3 of 3",
-    summary: "Understate and ironise with nicht un-, nicht ohne, nicht gerade and alles andere als, and read them correctly.",
+    summary: "Understate and ironise with \"nicht un-\", \"nicht ohne\", \"nicht gerade\" and \"alles andere als\", and read them correctly.",
     duration: "15 min",
     sections: [
       {
@@ -474,13 +474,13 @@ export const DE_C2_U07_EXTRA: Lesson[] = [
     number: 4,
     optional: true,
     title: "Extra Practice: Metaphors We No Longer See",
-    summary: "Lexicalised metaphors such as Flaschenhals, Tischbein, begreifen and Glühbirne: where they come from and how to use them.",
+    summary: "Use lexicalised metaphors such as \"Flaschenhals\", \"Tischbein\", \"begreifen\" and \"Glühbirne\", and know where they come from.",
     duration: "15 min",
     sections: [
       {
         heading: "Recap: lexicalised metaphors",
         body: [
-          "A lexicalised (dead) metaphor is one nobody notices any more. The table has legs (\"das Tischbein\"), the bottle a neck (\"der Flaschenhals\", also a bottleneck in traffic or production), the mountain a foot (\"der Bergfuß\") and a back (\"der Bergrücken\"). Abstract verbs hide physical images: \"begreifen\" (to grasp, from greifen), \"erfassen\" (to take hold of), \"einsehen\" (to see into, to accept), \"sich vorstellen\" (to put before oneself, to imagine).",
+          "A lexicalised (dead) metaphor is one nobody notices any more. The table has legs (\"das Tischbein\"), the bottle a neck (\"der Flaschenhals\", also a bottleneck in traffic or production), the mountain a foot (\"der Bergfuß\") and a back (\"der Bergrücken\"). Abstract verbs hide physical images: \"begreifen\" (to grasp, from \"greifen\"), \"erfassen\" (to take hold of), \"einsehen\" (to see into, to accept), \"sich vorstellen\" (to put before oneself, to imagine).",
           "\"Die Glühbirne\" (glowing pear) named the light bulb by its shape; \"der Drahtesel\" (wire donkey) is a jokey word for a bike that still feels half-alive. Writers revive dead metaphors by extending them: \"Der Flaschenhals der Lieferkette ist so eng, dass kein Korken mehr hindurchpasst.\"",
         ],
         examples: [
@@ -545,7 +545,7 @@ export const DE_C2_U07_EXTRA: Lesson[] = [
         source: "We stopped at the foot of the mountain.",
         answer: "Wir haben am Fuß des Berges angehalten.",
         altAnswers: ["Wir hielten am Fuß des Berges an.", "Wir haben am Fuß des Berges Halt gemacht.", "Wir machten am Fuß des Berges Halt.", "Wir haben am Bergfuß angehalten."],
-        explanation: "\"Am Fuß des Berges\": the body metaphor (Fuß) with genitive \"des Berges\".",
+        explanation: "\"Am Fuß des Berges\": the body metaphor (\"Fuß\") with genitive \"des Berges\".",
       },
       {
         type: "fill-blank",
@@ -562,7 +562,7 @@ export const DE_C2_U07_EXTRA: Lesson[] = [
         source: "He rides his old bike to work every day.",
         answer: "Er fährt jeden Tag mit seinem alten Drahtesel zur Arbeit.",
         altAnswers: ["Er fährt jeden Tag mit seinem alten Fahrrad zur Arbeit.", "Er fährt jeden Tag mit seinem alten Rad zur Arbeit.", "Jeden Tag fährt er mit seinem alten Drahtesel zur Arbeit.", "Jeden Tag fährt er mit seinem alten Fahrrad zur Arbeit."],
-        explanation: "\"Mit dem Rad fahren\" (dative with mit); \"der Drahtesel\" is the jokey half-dead metaphor.",
+        explanation: "\"Mit dem Rad fahren\" (dative with \"mit\"); \"der Drahtesel\" is the jokey half-dead metaphor.",
       },
       {
         type: "matching",
@@ -586,10 +586,10 @@ export const DE_C2_U07_EXTRA: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order to say: Nobody notices the image any more.",
-        words: ["Niemand", "bemerkt", "das", "Bild", "noch."],
+        words: ["Niemand", "bemerkt", "das", "Bild", "mehr."],
         translation: "Nobody notices the image any more.",
-        altOrders: [["Das", "Bild", "bemerkt", "niemand", "noch."]],
-        explanation: "\"Niemand ... noch\" = nobody any more; the object can go first for emphasis.",
+        altOrders: [["Das", "Bild", "bemerkt", "niemand", "mehr."]],
+        explanation: "\"Niemand ... mehr\" = nobody any more (not \"noch\", which would mean yet or still); the object can go first for emphasis.",
       },
       {
         type: "translate",
@@ -636,7 +636,7 @@ export const DE_C2_U07_EXTRA: Lesson[] = [
     number: 5,
     optional: true,
     title: "Extra Practice: Euphemism and Dysphemism",
-    summary: "Rank pairs of words from the softest to the harshest (verstorben, tot, krepiert), and choose the right register.",
+    summary: "Rank words from the softest to the harshest (\"verstorben\", \"tot\", \"krepiert\") and choose the right register.",
     duration: "15 min",
     sections: [
       {
@@ -664,8 +664,8 @@ export const DE_C2_U07_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is the softest way to say someone was drunk?",
-            options: ["angeheitert", "betrunken", "besoffen", "sturzbesoffen"],
+            question: "At a family dinner you want to say, gently, that Uncle Jonas had a bit too much. What do you say?",
+            options: ["Onkel Jonas war ein bisschen angeheitert.", "Onkel Jonas war total betrunken.", "Onkel Jonas war ein bisschen besoffen.", "Onkel Jonas war ein bisschen sturzbesoffen."],
             correctIndex: 0,
             explanation: "\"Angeheitert\" (merry, tipsy) is the euphemism; \"besoffen\" and \"sturzbesoffen\" are colloquial and harsher.",
           },
@@ -797,7 +797,7 @@ export const DE_C2_U07_EXTRA: Lesson[] = [
     number: 6,
     optional: true,
     title: "Extra Practice: Figurative Language in Headlines",
-    summary: "Decode the metaphors, metonymies and idioms of German headlines in the style of Spiegel, Bild and SZ.",
+    summary: "Decode the metaphors, metonymies and idioms of German headlines in the style of \"Spiegel\", \"Bild\" and \"SZ\".",
     duration: "15 min",
     sections: [
       {

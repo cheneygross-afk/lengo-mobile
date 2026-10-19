@@ -38,10 +38,10 @@ export const DE_B2_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Someone asks: Warum lernst du Deutsch? Which answer is natural?",
-            options: ["Weil ich in Berlin arbeiten möchte.", "Da ich in Berlin arbeiten möchte.", "Denn ich möchte in Berlin arbeiten möchte.", "Zumal ich in Berlin arbeiten möchte."],
+            question: "Someone asks: \"Warum lernst du Deutsch?\" Which answer is natural?",
+            options: ["Weil ich in Berlin arbeiten möchte.", "Da ich in Berlin arbeiten möchte.", "Denn ich möchte in Berlin arbeiten.", "Zumal ich in Berlin arbeiten möchte."],
             correctIndex: 0,
-            explanation: "The answer to warum is new information, so \"weil\". \"Da\" presents a known reason and can't stand alone as an answer.",
+            explanation: "The answer to \"warum\" is new information, so \"weil\". \"Da\" presents a known reason and can't stand alone as an answer; \"denn\" and \"zumal\" can't open a reply either.",
           },
         ],
       },
@@ -50,7 +50,7 @@ export const DE_B2_U12: Lesson[] = [
         body: [
           "\"Zumal\" adds an extra, reinforcing reason on top of something you've already said: \"Ich bleibe heute zu Hause, zumal ich auch noch erkältet bin\" (I'm staying at home today, especially since I've got a cold too). It's a subordinating conjunction: verb at the end.",
           "English equivalents: especially as, particularly since, all the more so because. A zumal-clause almost always comes second, after the main statement, because it builds on it. The particle \"auch\" or \"ja\" often appears inside: \"zumal es ja auch regnet\".",
-          "\"Zumal\" sounds educated but not stiff; it's used in conversation by many Germans. It's a great Upper-intermediate word to show off in speaking exams.",
+          "\"Zumal\" sounds educated but not stiff; it's used in conversation by many Germans. It's a great upper-intermediate word to show off in speaking exams.",
         ],
         examples: [
           { es: "Ich bleibe heute zu Hause, zumal ich erkältet bin.", en: "I'm staying at home today, especially as I've got a cold." },
@@ -66,7 +66,7 @@ export const DE_B2_U12: Lesson[] = [
             prompt: "Translate into German, using zumal.",
             source: "I'm staying at home today, especially as I've got a cold.",
             answer: "Ich bleibe heute zu Hause, zumal ich erkältet bin.",
-            altAnswers: ["Ich bleibe heute zu Hause, zumal ich eine Erkältung habe.", "Ich bleibe heute daheim, zumal ich erkältet bin.", "Heute bleibe ich zu Hause, zumal ich erkältet bin.", "Ich bleibe heute zu Hause, zumal ich auch erkältet bin.", "Ich bleibe heute zu Hause, zumal ich auch noch erkältet bin."],
+            altAnswers: ["Ich bleibe heute zu Hause, zumal ich eine Erkältung habe.", "Ich bleibe heute daheim, zumal ich erkältet bin.", "Heute bleibe ich zu Hause, zumal ich erkältet bin.", "Ich bleibe heute zu Hause, zumal ich auch erkältet bin.", "Ich bleibe heute zu Hause, zumal ich auch noch erkältet bin.", "Ich bleibe heute zuhause, zumal ich erkältet bin."],
             explanation: "\"Zumal\" + verb last (\"erkältet bin\"), after the main clause.",
           },
           {
@@ -208,7 +208,7 @@ export const DE_B2_U12: Lesson[] = [
     slug: "b2-pattern-so-dass",
     level: "DE-B2",
     number: 2,
-    title: "Pattern Practice: So Müde, Dass...",
+    title: "Pattern Practice: So müde, dass...",
     summary: "One frame, many adjectives: so ... dass for results, plus derart ... dass and solch- ... dass in formal style.",
     duration: "13 min",
     sections: [
@@ -285,7 +285,7 @@ export const DE_B2_U12: Lesson[] = [
         body: [
           "In formal writing, \"derart\" (to such an extent) replaces \"so\": \"Die Preise sind derart gestiegen, dass viele Familien sparen müssen.\" It's typical in news and reports.",
           "With a noun, use \"solch-\" or \"so ein-\": \"Es herrschte ein solches Chaos, dass der Flughafen schließen musste\" (There was such chaos that the airport had to close). \"Solch-\" takes adjective endings after \"ein\": \"ein solcher Lärm\", \"eine solche Hitze\", \"ein solches Chaos\". In speech: \"so ein Chaos\", \"so eine Hitze\".",
-          "English such a ... that maps onto \"so ein / ein solcher ... dass\". Don't say \"*solch ein\" + noun in everyday speech; it's literary.",
+          "English such a ... that maps onto \"so ein / ein solcher ... dass\". \"Solch ein\" + noun exists, but it sounds literary; avoid it in everyday speech.",
         ],
         examples: [
           { es: "Die Preise sind derart gestiegen, dass viele Familien sparen müssen.", en: "Prices have risen so much that many families have to economise." },
@@ -406,7 +406,7 @@ export const DE_B2_U12: Lesson[] = [
     slug: "b2-indem-ohne-dass-anstatt-dass",
     level: "DE-B2",
     number: 3,
-    title: "Modal Clauses: Indem, Dadurch Dass, Ohne Dass, Anstatt Dass",
+    title: "Modal Clauses: Indem, Dadurch dass, Ohne dass, Anstatt dass",
     summary: "Say how something is done with indem and dadurch, dass, what doesn't happen with ohne dass, and what happens instead with anstatt dass.",
     duration: "15 min",
     sections: [
@@ -455,7 +455,7 @@ export const DE_B2_U12: Lesson[] = [
           { es: "Man spart Energie dadurch, dass man die Heizung herunterdreht.", en: "You save energy by turning the heating down." },
           { es: "Dadurch, dass der Zug ausfiel, verpasste ich das Vorstellungsgespräch.", en: "Because the train was cancelled, I missed the interview." },
           { es: "Dadurch, dass wir früh gebucht haben, war der Flug günstig.", en: "Because we booked early, the flight was cheap." },
-          { es: "Die Firma wurde bekannt dadurch, dass sie nachhaltig produziert.", en: "The company became known through producing sustainably." },
+          { es: "Die Firma wurde dadurch bekannt, dass sie nachhaltig produziert.", en: "The company became known for producing sustainably." },
           { es: "Dadurch, dass alle mitgeholfen haben, waren wir schnell fertig.", en: "Because everyone helped, we were done quickly." },
         ],
         checkpoint: [
@@ -597,7 +597,7 @@ export const DE_B2_U12: Lesson[] = [
     slug: "b2-contrast-ohne-zu-ohne-dass",
     level: "DE-B2",
     number: 4,
-    title: "Contrast Clinic: Ohne Zu / Ohne Dass, Anstatt Zu / Anstatt Dass",
+    title: "Contrast Clinic: Ohne zu / Ohne dass, Anstatt zu / Anstatt dass",
     summary: "Same subject, use zu + infinitive; different subject, use a dass-clause. One distinction, drilled in pairs.",
     duration: "13 min",
     sections: [
@@ -937,7 +937,7 @@ export const DE_B2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which reply fits? A: Die Brezeln sind teurer als im Supermarkt. B: ...",
+        question: "Your friend says: \"Die Brezeln sind teurer als im Supermarkt.\" Which reply fits?",
         options: ["Stimmt, trotzdem kaufe ich sie hier.", "Stimmt, trotzdem ich kaufe sie hier.", "Stimmt, obwohl kaufe ich sie hier.", "Stimmt, trotz kaufe ich sie hier."],
         correctIndex: 0,
         explanation: "\"Trotzdem\" + verb + subject. \"Obwohl\" and \"trotz\" can't be followed by a verb like this.",
@@ -1014,9 +1014,9 @@ export const DE_B2_U12: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: ["Sie nimmt das Rad, denn die Bahn streikt.", "Sie nimmt das Rad, denn die Bahn streikt nicht hat.", "Denn die Bahn streikt, nimmt sie das Rad.", "Sie nimmt das Rad, denn streikt die Bahn."],
+            options: ["Sie nimmt das Rad, denn die Bahn streikt.", "Sie nimmt das Rad, denn die Bahn heute streikt.", "Denn die Bahn streikt, nimmt sie das Rad.", "Sie nimmt das Rad, denn streikt die Bahn."],
             correctIndex: 0,
-            explanation: "\"Denn\" takes no position: subject then verb. It can't start the sentence.",
+            explanation: "\"Denn\" takes no position: subject then verb, never verb last. It can't start the sentence.",
           },
         ],
       },
@@ -1032,7 +1032,7 @@ export const DE_B2_U12: Lesson[] = [
           { es: "Da wir alle müde sind, machen wir morgen weiter.", en: "As we're all tired, we'll carry on tomorrow." },
           { es: "Da die Zahlung nicht eingegangen ist, senden wir Ihnen eine Mahnung.", en: "As the payment has not been received, we are sending you a reminder." },
           { es: "Warum bist du so spät? – Weil der Bus nicht kam.", en: "Why are you so late? – Because the bus didn't come." },
-          { es: "Da Sie bereits Kunde sind, erhalten Sie zehn Prozent Rabatt.", en: "As you are already a customer, you receive a ten percent discount." },
+          { es: "Da Sie bereits Kunde sind, erhalten Sie zehn Prozent Rabatt.", en: "As you are already a customer, you receive a ten per cent discount." },
         ],
         checkpoint: [
           {
@@ -1050,7 +1050,7 @@ export const DE_B2_U12: Lesson[] = [
             en: "Why are you so late? – [Because] the bus didn't come.",
             sentence: "Warum bist du so spät? – ___ der Bus nicht kam.",
             answer: "Weil",
-            explanation: "An answer to warum is new information: \"weil\", not \"da\" or \"denn\".",
+            explanation: "An answer to \"warum\" is new information: \"weil\", not \"da\" or \"denn\".",
           },
         ],
       },
@@ -1059,13 +1059,13 @@ export const DE_B2_U12: Lesson[] = [
         body: [
           "\"Zumal\" never gives the only reason; it adds an extra one that makes the main statement even more convincing. \"Ich nehme den Job nicht, zumal ich dafür umziehen müsste\" implies: there are other reasons, and on top of that I'd have to move.",
           "So the four in one line: \"weil\" (the reason, new, answers warum), \"da\" (the reason, known, often first, formal), \"denn\" (the reason added as a separate statement, verb second, never first), \"zumal\" (an extra reason that strengthens the point).",
-          "An exam-style task is to explain the choice. Practise saying it: \"Hier passt da, weil der Grund bekannt ist\", \"Hier passt zumal, weil es ein zusätzlicher Grund ist.\"",
+          "An exam-style task is to explain the choice. Practise saying it: \"Hier passt „da“, weil der Grund bekannt ist\", \"Hier passt „zumal“, weil es ein zusätzlicher Grund ist.\"",
         ],
         examples: [
           { es: "Ich nehme den Job nicht, zumal ich dafür umziehen müsste.", en: "I'm not taking the job, especially since I'd have to move for it." },
           { es: "Lass uns ein Taxi nehmen, zumal es regnet.", en: "Let's take a taxi, especially as it's raining." },
-          { es: "Hier passt da, weil der Grund bekannt ist.", en: "Da fits here because the reason is known." },
-          { es: "Hier passt zumal, weil es ein zusätzlicher Grund ist.", en: "Zumal fits here because it's an additional reason." },
+          { es: "Hier passt „da“, weil der Grund bekannt ist.", en: "\"Da\" fits here because the reason is known." },
+          { es: "Hier passt „zumal“, weil es ein zusätzlicher Grund ist.", en: "\"Zumal\" fits here because it's an additional reason." },
           { es: "Das Restaurant ist zu teuer, zumal das Essen nicht besonders gut ist.", en: "The restaurant is too expensive, all the more so because the food isn't particularly good." },
         ],
         checkpoint: [
@@ -1150,10 +1150,10 @@ export const DE_B2_U12: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German, using da.",
-        source: "As you are already a customer, you receive a ten percent discount. (formal)",
+        source: "As you are already a customer, you receive a ten per cent discount. (formal)",
         answer: "Da Sie bereits Kunde sind, erhalten Sie zehn Prozent Rabatt.",
-        altAnswers: ["Da Sie bereits Kundin sind, erhalten Sie zehn Prozent Rabatt.", "Da Sie schon Kunde sind, erhalten Sie zehn Prozent Rabatt.", "Da Sie bereits Kunde sind, bekommen Sie zehn Prozent Rabatt.", "Da Sie schon Kundin sind, bekommen Sie zehn Prozent Rabatt.", "Da Sie bereits Kunde sind, bekommen Sie 10 Prozent Rabatt.", "Da Sie bereits Kunde sind, erhalten Sie 10 Prozent Rabatt."],
-        explanation: "No article before \"Kunde\" here, as with jobs after sein.",
+        altAnswers: ["Da Sie bereits Kundin sind, erhalten Sie zehn Prozent Rabatt.", "Da Sie schon Kunde sind, erhalten Sie zehn Prozent Rabatt.", "Da Sie bereits Kunde sind, bekommen Sie zehn Prozent Rabatt.", "Da Sie schon Kundin sind, bekommen Sie zehn Prozent Rabatt.", "Da Sie bereits Kunde sind, bekommen Sie 10 Prozent Rabatt.", "Da Sie bereits Kunde sind, erhalten Sie 10 Prozent Rabatt.", "Sie erhalten zehn Prozent Rabatt, da Sie bereits Kunde sind."],
+        explanation: "A known fact in formal style: \"da\" + verb last, then \"erhalten Sie\". No article before \"Kunde\" after \"sein\", as with jobs.",
       },
       {
         type: "listen-choose",
@@ -1172,7 +1172,7 @@ export const DE_B2_U12: Lesson[] = [
         type: "speak",
         text: "Lass uns ein Taxi nehmen, zumal es regnet.",
         prompt: "Suggest in German: Let's take a taxi, especially as it's raining.",
-        tip: "Zumal: ts at the start, stress on the second syllable: tsu-MAHL.",
+        tip: "\"Zumal\": ts at the start, stress on the second syllable: tsu-MAHL.",
         explanation: "\"Zumal\" adds the extra reason; verb last.",
       },
     ],
@@ -1204,7 +1204,7 @@ export const DE_B2_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite with durch: Indem man regelmäßig trainiert, kann man Rückenschmerzen vermeiden.",
+            prompt: "Rewrite with \"durch\": \"Indem man regelmäßig trainiert, kann man Rückenschmerzen vermeiden.\"",
             source: "Back pain can be avoided through regular exercise.",
             answer: "Durch regelmäßiges Training kann man Rückenschmerzen vermeiden.",
             altAnswers: ["Durch regelmäßiges Training lassen sich Rückenschmerzen vermeiden.", "Rückenschmerzen kann man durch regelmäßiges Training vermeiden.", "Durch regelmäßiges Training können Rückenschmerzen vermieden werden."],
@@ -1248,7 +1248,7 @@ export const DE_B2_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Rewrite as a weil-clause: Aufgrund von Personalmangel bleibt die Filiale heute geschlossen.",
+            prompt: "Rewrite as a weil-clause: \"Aufgrund von Personalmangel bleibt die Filiale heute geschlossen.\"",
             source: "The branch is closed today because there aren't enough staff.",
             answer: "Die Filiale bleibt heute geschlossen, weil es nicht genug Personal gibt.",
             altAnswers: ["Weil es nicht genug Personal gibt, bleibt die Filiale heute geschlossen.", "Die Filiale bleibt heute geschlossen, weil nicht genug Personal da ist.", "Die Filiale bleibt heute geschlossen, weil es zu wenig Personal gibt.", "Weil es zu wenig Personal gibt, bleibt die Filiale heute geschlossen.", "Die Filiale bleibt heute geschlossen, weil nicht genug Mitarbeiter da sind."],
@@ -1293,7 +1293,7 @@ export const DE_B2_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with durch: Indem wir gut geplant haben, haben wir viel Zeit gespart.",
+        prompt: "Rewrite with \"durch\": \"Indem wir gut geplant haben, haben wir viel Zeit gespart.\"",
         source: "We saved a lot of time through good planning.",
         answer: "Durch gute Planung haben wir viel Zeit gespart.",
         altAnswers: ["Wir haben durch gute Planung viel Zeit gespart.", "Durch eine gute Planung haben wir viel Zeit gespart."],
@@ -1302,10 +1302,10 @@ export const DE_B2_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with indem: Durch das Abschalten der Geräte sparen Sie Strom.",
+        prompt: "Rewrite with \"indem\" (formal): \"Durch das Abschalten der Geräte sparen Sie Strom.\"",
         source: "You save electricity by switching off the devices.",
         answer: "Sie sparen Strom, indem Sie die Geräte abschalten.",
-        altAnswers: ["Sie sparen Strom, indem Sie die Geräte ausschalten.", "Man spart Strom, indem man die Geräte abschaltet.", "Man spart Strom, indem man die Geräte ausschaltet.", "Indem Sie die Geräte abschalten, sparen Sie Strom.", "Du sparst Strom, indem du die Geräte ausschaltest."],
+        altAnswers: ["Sie sparen Strom, indem Sie die Geräte ausschalten.", "Man spart Strom, indem man die Geräte abschaltet.", "Man spart Strom, indem man die Geräte ausschaltet.", "Indem Sie die Geräte abschalten, sparen Sie Strom."],
         explanation: "Back from noun to clause: \"das Abschalten der Geräte\" → \"indem Sie die Geräte abschalten\".",
       },
       {
@@ -1329,7 +1329,7 @@ export const DE_B2_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite as a weil-clause: Wegen einer Störung verzögert sich die Abfahrt.",
+        prompt: "Rewrite as a weil-clause: \"Wegen einer Störung verzögert sich die Abfahrt.\"",
         source: "Departure is delayed because there's a disruption.",
         answer: "Die Abfahrt verzögert sich, weil es eine Störung gibt.",
         altAnswers: ["Weil es eine Störung gibt, verzögert sich die Abfahrt.", "Die Abfahrt verzögert sich, weil eine Störung vorliegt.", "Weil eine Störung vorliegt, verzögert sich die Abfahrt."],
@@ -1337,7 +1337,7 @@ export const DE_B2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the correct nominal version of: Indem man Fett reduziert, senkt man den Cholesterinspiegel.",
+        question: "Which is the correct nominal version of \"Indem man Fett reduziert, senkt man den Cholesterinspiegel\"?",
         options: ["Durch die Reduzierung von Fett senkt man den Cholesterinspiegel.", "Durch Fett reduzieren senkt man den Cholesterinspiegel.", "Bei Fett reduzieren senkt man den Cholesterinspiegel.", "Durch die Reduzierung von Fett man senkt den Cholesterinspiegel."],
         correctIndex: 0,
         explanation: "\"Durch\" needs a noun: \"die Reduzierung\"; the main clause keeps verb second.",
@@ -1345,7 +1345,7 @@ export const DE_B2_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Rewrite with sodass: Es regnete tagelang, infolgedessen trat der Fluss über die Ufer.",
+        prompt: "Rewrite with \"sodass\": \"Es regnete tagelang, infolgedessen trat der Fluss über die Ufer.\"",
         source: "It rained for days, so the river burst its banks.",
         answer: "Es regnete tagelang, sodass der Fluss über die Ufer trat.",
         altAnswers: ["Es regnete tagelang, so dass der Fluss über die Ufer trat.", "Es hat tagelang geregnet, sodass der Fluss über die Ufer getreten ist.", "Es hat tagelang geregnet, so dass der Fluss über die Ufer getreten ist."],
@@ -1384,7 +1384,7 @@ export const DE_B2_U12: Lesson[] = [
     slug: "b2-thematic-review-pendeln",
     level: "DE-B2",
     number: 8,
-    title: "Thematic Review: Zwischen Zwei Städten Pendeln",
+    title: "Thematic Review: Zwischen zwei Städten pendeln",
     summary: "A nurse commutes daily between Mannheim and Frankfurt: causes, consequences, regrets and passive alternatives in one working life.",
     duration: "15 min",
     sections: [
@@ -1459,14 +1459,14 @@ export const DE_B2_U12: Lesson[] = [
         heading: "Looking back and looking ahead",
         body: [
           "Sevgi sometimes wonders: \"Hätte ich die Stelle in Mannheim angenommen, wäre mein Leben einfacher gewesen.\" \"Wir hätten vielleicht doch nach Frankfurt ziehen sollen.\" Konjunktiv II past and the double infinitive from Units 1 and 2.",
-          "But she also sees benefits: \"Obwohl das Pendeln anstrengend ist, genieße ich die Zeit für mich.\" \"Ohne dass ich es geplant hatte, habe ich im Zug eine Fortbildung abgeschlossen.\"",
+          "But she also sees benefits: \"Obwohl das Pendeln anstrengend ist, genieße ich die Zeit für mich.\" \"Ohne es geplant zu haben, habe ich im Zug eine Fortbildung abgeschlossen.\"",
           "Her plan for the future: \"Ab nächstem Jahr arbeite ich nur noch vier Tage, sodass ich einen Tag weniger pendeln muss.\"",
         ],
         examples: [
           { es: "Hätte ich die Stelle in Mannheim angenommen, wäre mein Leben einfacher gewesen.", en: "If I had taken the job in Mannheim, my life would have been easier." },
           { es: "Wir hätten vielleicht doch nach Frankfurt ziehen sollen.", en: "Maybe we should have moved to Frankfurt after all." },
           { es: "Obwohl das Pendeln anstrengend ist, genieße ich die Zeit für mich.", en: "Although commuting is tiring, I enjoy the time to myself." },
-          { es: "Ohne dass ich es geplant hatte, habe ich im Zug eine Fortbildung abgeschlossen.", en: "Without having planned it, I completed a training course on the train." },
+          { es: "Ohne es geplant zu haben, habe ich im Zug eine Fortbildung abgeschlossen.", en: "Without having planned it, I completed a training course on the train." },
           { es: "Ab nächstem Jahr arbeite ich nur vier Tage, sodass ich weniger pendeln muss.", en: "From next year I'll only work four days, so I'll have to commute less." },
         ],
         checkpoint: [
@@ -1544,9 +1544,9 @@ export const DE_B2_U12: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order to say: Without having planned it, I completed a course on the train.",
-        words: ["Ohne", "dass", "ich", "es", "geplant", "hatte,", "habe", "ich", "im Zug", "einen Kurs abgeschlossen."],
+        words: ["Ohne", "es", "geplant", "zu haben,", "habe", "ich", "im Zug", "einen Kurs abgeschlossen."],
         translation: "Without having planned it, I completed a course on the train.",
-        explanation: "\"Ohne dass\" clause with the verb last, then \"habe ich\" verb first.",
+        explanation: "Same subject (ich ... ich) → \"ohne ... zu\" with the perfect infinitive \"geplant zu haben\", not \"ohne dass ich\"; then \"habe ich\", verb first.",
       },
       {
         type: "listen-choose",
@@ -1587,7 +1587,7 @@ export const DE_B2_U12: Lesson[] = [
         examples: [
           { es: "Da mein Zug 95 Minuten Verspätung hatte, habe ich den Anschluss verpasst.", en: "As my train was 95 minutes late, I missed my connection." },
           { es: "Ich verpasste den Anschluss, sodass ich erst um 23:40 Uhr in Leipzig ankam.", en: "I missed my connection, so I didn't arrive in Leipzig until 23:40." },
-          { es: "Bei mehr als 60 Minuten Verspätung erhalten Fahrgäste 25 Prozent des Fahrpreises zurück.", en: "For a delay of more than 60 minutes, passengers get 25 percent of the fare back." },
+          { es: "Bei mehr als 60 Minuten Verspätung erhalten Fahrgäste 25 Prozent des Fahrpreises zurück.", en: "For a delay of more than 60 minutes, passengers get 25 per cent of the fare back." },
           { es: "Hiermit beantrage ich eine Entschädigung.", en: "I hereby apply for compensation." },
           { es: "Den Fahrschein habe ich in der Anlage beigefügt.", en: "I have enclosed the ticket." },
         ],
@@ -1595,7 +1595,7 @@ export const DE_B2_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Jonas wrote: Da mein Zug hatte 95 Minuten Verspätung, ich habe den Anschluss verpasst. Write it correctly.",
+            prompt: "Jonas wrote: \"*Da mein Zug hatte 95 Minuten Verspätung, ich habe den Anschluss verpasst.\" Write it correctly.",
             source: "As my train was 95 minutes late, I missed my connection.",
             answer: "Da mein Zug 95 Minuten Verspätung hatte, habe ich den Anschluss verpasst.",
             altAnswers: ["Da mein Zug 95 Minuten Verspätung hatte, verpasste ich den Anschluss.", "Da mein Zug 95 Minuten verspätet war, habe ich den Anschluss verpasst.", "Da mein Zug 95 Minuten verspätet war, verpasste ich den Anschluss.", "Da mein Zug 95 Minuten Verspätung hatte, habe ich meinen Anschluss verpasst."],
@@ -1630,7 +1630,7 @@ export const DE_B2_U12: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Jonas wrote: Ich schicke Ihnen die Quittung, sodass Sie mir die Kosten erstatten können. Write it correctly.",
+            prompt: "Jonas wrote: \"*Ich schicke Ihnen die Quittung, sodass Sie mir die Kosten erstatten können.\" Write it correctly.",
             source: "I'm sending you the receipt so that you can reimburse me.",
             answer: "Ich schicke Ihnen die Quittung, damit Sie mir die Kosten erstatten können.",
             altAnswers: ["Ich sende Ihnen die Quittung, damit Sie mir die Kosten erstatten können.", "Ich schicke Ihnen die Quittung, damit Sie mir die Kosten zurückerstatten können.", "Ich sende Ihnen die Quittung, damit Sie mir die Kosten zurückerstatten können."],
@@ -1638,7 +1638,7 @@ export const DE_B2_U12: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which connector? Der Zug fiel aus, ___ ich ein Taxi nehmen musste.",
+            question: "Which connector completes \"Der Zug fiel aus, ___ ich ein Taxi nehmen musste\" (The train was cancelled, so I had to take a taxi)?",
             options: ["sodass", "damit", "denn", "zumal"],
             correctIndex: 0,
             explanation: "Taking a taxi was the consequence of the cancellation, not an aim: \"sodass\".",
@@ -1688,7 +1688,7 @@ export const DE_B2_U12: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Jonas wrote: Ich habe ein Hotel gebucht, sodass ich nicht am Bahnhof schlafen musste. Write it correctly.",
+        prompt: "Jonas wrote: \"*Ich habe ein Hotel gebucht, sodass ich nicht am Bahnhof schlafen musste.\" Write it correctly.",
         source: "I booked a hotel so that I didn't have to sleep at the station.",
         answer: "Ich habe ein Hotel gebucht, damit ich nicht am Bahnhof schlafen musste.",
         altAnswers: ["Ich habe ein Hotel gebucht, um nicht am Bahnhof schlafen zu müssen.", "Ich habe ein Hotel gebucht, um nicht am Bahnhof zu schlafen.", "Ich buchte ein Hotel, damit ich nicht am Bahnhof schlafen musste.", "Ich habe ein Hotel gebucht, damit ich nicht am Bahnhof schlafen muss."],
@@ -1722,7 +1722,7 @@ export const DE_B2_U12: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "For a delay of more than 60 minutes, passengers get 25 percent of the fare back.",
+        source: "For a delay of more than 60 minutes, passengers get 25 per cent of the fare back.",
         answer: "Bei mehr als 60 Minuten Verspätung erhalten Fahrgäste 25 Prozent des Fahrpreises zurück.",
         altAnswers: ["Bei einer Verspätung von mehr als 60 Minuten erhalten Fahrgäste 25 Prozent des Fahrpreises zurück.", "Bei mehr als 60 Minuten Verspätung bekommen Fahrgäste 25 Prozent des Fahrpreises zurück.", "Bei einer Verspätung von mehr als 60 Minuten bekommen Fahrgäste 25 Prozent des Fahrpreises zurück.", "Bei über 60 Minuten Verspätung erhalten Fahrgäste 25 Prozent des Fahrpreises zurück."],
         explanation: "\"Bei\" + noun for a condition (nominal style); \"zurückerhalten\" splits.",
@@ -1763,7 +1763,7 @@ export const DE_B2_U12: Lesson[] = [
     slug: "b2-thematic-review-daten-teilen",
     level: "DE-B2",
     number: 10,
-    title: "Thematic Review: Daten Teilen oder Schützen?",
+    title: "Thematic Review: Daten teilen oder schützen?",
     summary: "A family argues about a fitness app and the GDPR: cause and consequence, indem, ohne dass and concessive clauses at the dinner table.",
     duration: "15 min",
     sections: [
@@ -1838,7 +1838,7 @@ export const DE_B2_U12: Lesson[] = [
       {
         heading: "The compromise",
         body: [
-          "Katrin reads the privacy policy and proposes: \"Wir nutzen die App, indem jeder selbst entscheidet, was er teilt. Anstatt dass Papa alles sieht, teilen wir nur die Schritte.\"",
+          "Katrin reads the privacy policy and proposes: \"Wir nutzen die App so, dass jeder selbst entscheidet, was er teilt. Anstatt dass Papa alles sieht, teilen wir nur die Schritte.\"",
           "Lena agrees, with conditions: \"Auch wenn ich es immer noch nicht toll finde, mache ich mit. Aber wenn ihr meinen Standort seht, lösche ich mein Konto.\"",
           "And Frank, slightly embarrassed: \"Ich hätte euch vorher fragen sollen, anstatt die App einfach zu installieren.\"",
         ],
@@ -2105,8 +2105,8 @@ export const DE_B2_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What does der Trainer mean?",
-        options: ["the coach", "the trainer shoe", "the train driver", "the apprentice"],
+        question: "Your friend says: \"Unser Trainer ist total streng.\" Who or what is she talking about?",
+        options: ["the coach", "her trainers (shoes)", "the train driver", "the apprentice"],
         correctIndex: 0,
         explanation: "\"Der Trainer\" is the coach. A trainer (shoe) is \"der Turnschuh\".",
       },
@@ -2164,7 +2164,7 @@ export const DE_B2_U12: Lesson[] = [
         type: "speak",
         text: "Sie fällt wegen eines Kreuzbandrisses neun Monate aus.",
         prompt: "Say it in German: She'll be out for nine months with a torn cruciate ligament.",
-        tip: "Kreuzbandriss: eu as in oil, and the final ss is a sharp s.",
+        tip: "\"Kreuzbandriss\": eu as in oil, and the final ss is a sharp s.",
         explanation: "\"Wegen\" + genitive; \"ausfallen\" = to be out.",
       },
     ],
@@ -2173,7 +2173,7 @@ export const DE_B2_U12: Lesson[] = [
     slug: "b2-spiral-sentence-by-sentence-bericht",
     level: "DE-B2",
     number: 12,
-    title: "Spiral Review: Sentence by Sentence: Ein Kurzer Bericht",
+    title: "Spiral Review: Sentence by Sentence: Ein kurzer Bericht",
     summary: "Build a short incident report for work, sentence by sentence: nominal style, causes and consequences, and reported statements.",
     duration: "15 min",
     sections: [
@@ -2271,7 +2271,7 @@ export const DE_B2_U12: Lesson[] = [
             type: "speak",
             text: "Der Schaden wird auf etwa 8.000 Euro geschätzt.",
             prompt: "Say it in German: The damage is estimated at around 8,000 euros.",
-            tip: "Say the number as achttausend.",
+            tip: "Say the number as \"achttausend\".",
             explanation: "\"Schätzen auf\" + accusative = to estimate at.",
           },
         ],
@@ -2379,6 +2379,6 @@ export const DE_B2_U12_WRITING: WriteExercise = {
     "Says how something was done with \"indem\", or what didn't happen with \"ohne ... zu\" / \"ohne dass\"",
     "Uses a formal register (\"Sehr geehrte Damen und Herren\", \"Hiermit beantrage ich ...\", \"Mit freundlichen Grüßen\")",
   ],
-  modelAnswer: "Sehr geehrte Damen und Herren,\n\nam 3. Oktober bin ich mit dem ICE 579 von Hamburg nach Stuttgart gefahren. Da der Zug wegen einer Signalstörung bei Göttingen über eine Stunde stand, kam er mit 85 Minuten Verspätung in Mannheim an, sodass ich meinen Anschluss nach Stuttgart verpasste. Der nächste Zug fuhr erst eine Stunde später, und er war so voll, dass ich die ganze Fahrt stehen musste. Insgesamt kam ich mit über zwei Stunden Verspätung an.\n\nDas war für mich besonders ärgerlich, zumal ich um 15 Uhr ein Vorstellungsgespräch hatte. Ich habe die Firma informiert, indem ich vom Zug aus angerufen habe, damit man dort nicht umsonst auf mich wartete. Zum Glück konnte der Termin verschoben werden, aber ich musste eine zusätzliche Nacht im Hotel bleiben, ohne dass ich das geplant hatte.\n\nHiermit beantrage ich eine Entschädigung von 50 Prozent des Fahrpreises sowie die Erstattung der Hotelkosten. Die Fahrkarte und die Hotelrechnung habe ich beigefügt.\n\nIch bitte um eine baldige Antwort.\n\nMit freundlichen Grüßen\nLeon Hartmann",
-  explanation: "Each connector does one job: \"da\" introduces the known cause at the start, \"zumal\" adds a weightier reason, \"sodass\" and \"so voll, dass\" give results, \"damit\" states a purpose, \"indem\" says how he informed the company, and \"ohne dass\" a consequence nobody intended, all with the verb at the end. The register is formal: \"Hiermit beantrage ich\", nominal phrases like \"die Erstattung der Hotelkosten\", and the standard opening and closing formulas.",
+  modelAnswer: "Sehr geehrte Damen und Herren,\n\nam 3. Oktober bin ich mit dem ICE 579 von Hamburg nach Stuttgart gefahren. Da der Zug wegen einer Signalstörung bei Göttingen über eine Stunde stand, kam er mit 85 Minuten Verspätung in Mannheim an, sodass ich meinen Anschluss nach Stuttgart verpasste. Der nächste Zug fuhr erst eine Stunde später, und er war so voll, dass ich die ganze Fahrt stehen musste. Insgesamt kam ich mit über zwei Stunden Verspätung an.\n\nDas war für mich besonders ärgerlich, zumal ich um 15 Uhr ein Vorstellungsgespräch hatte. Ich habe die Firma informiert, indem ich vom Zug aus angerufen habe, damit man dort nicht umsonst auf mich wartete. Zum Glück konnte der Termin verschoben werden, aber ich musste eine zusätzliche Nacht im Hotel bleiben, ohne dass mir jemand eine Alternative anbot.\n\nHiermit beantrage ich eine Entschädigung von 50 Prozent des Fahrpreises sowie die Erstattung der Hotelkosten. Die Fahrkarte und die Hotelrechnung habe ich beigefügt.\n\nIch bitte um eine baldige Antwort.\n\nMit freundlichen Grüßen\nLeon Hartmann",
+  explanation: "Each connector does one job: \"da\" introduces the known cause at the start, \"zumal\" adds a weightier reason, \"sodass\" and \"so voll, dass\" give results, \"damit\" states a purpose, \"indem\" says how he informed the company, and \"ohne dass\" (different subject) what didn't happen, all with the verb at the end. The register is formal: \"Hiermit beantrage ich\", nominal phrases like \"die Erstattung der Hotelkosten\", and the standard opening and closing formulas.",
 };

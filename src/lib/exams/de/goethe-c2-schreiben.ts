@@ -78,10 +78,10 @@ export const GOETHE_C2_SCHREIBEN: ExamPaper = {
           maxWords: 250,
           rubric: [
             "Keeps every piece of information: new Saturday and Monday hours (with the reason), no more late fees for children's books, the broken return box (again, damaged by a drink) and where to return items meanwhile, the call for volunteers for the reading festival in May and how to sign up.",
-            "Replaces every colloquial word with a neutral or formal one (Bude → Bücherei, schmeißen raus → abschaffen / nicht mehr erheben, Bock haben → Interesse haben, mit anpacken → mithelfen / unterstützen).",
-            "Turns the personal remarks (echt jetzt?!, total nervig, vormittags kommt da eh keiner) into objective statements or leaves out the emotion without losing the fact behind it.",
-            "Uses the conventions of an official notice: a heading, a formal greeting (Liebe Leserinnen und Leser / Sehr geehrte Nutzerinnen und Nutzer), Sie with capitals, a courteous close.",
-            "Shows command of formal written style: nominal phrases, passive and impersonal constructions (wird … erhoben, ist … beschädigt worden), precise connectors (darüber hinaus, bis zu, während).",
+            "Replaces every colloquial word with a neutral or formal one (\"Bude\" → \"Bücherei\", \"rausschmeißen\" → \"abschaffen\" / \"nicht mehr erheben\", \"Bock haben\" → \"Interesse haben\", \"mit anpacken\" → \"mithelfen\" / \"unterstützen\").",
+            "Turns the personal remarks (\"echt jetzt?!\", \"total nervig\", \"vormittags kommt da eh keiner\") into objective statements or leaves out the emotion without losing the fact behind it.",
+            "Uses the conventions of an official notice: a heading, a formal greeting (\"Liebe Leserinnen und Leser\" / \"Sehr geehrte Nutzerinnen und Nutzer\"), \"Sie\" with capitals, a courteous close.",
+            "Shows command of formal written style: nominal phrases, passive and impersonal constructions (\"wird … erhoben\", \"ist … beschädigt worden\"), precise connectors (\"darüber hinaus\", \"bis zu\", \"während\").",
           ],
           modelAnswer:
             "Änderungen ab März\n\n" +

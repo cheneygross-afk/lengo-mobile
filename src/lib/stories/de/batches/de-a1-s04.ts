@@ -31,7 +31,7 @@ export const DE_A1_S04_STORIES: Story[] = [
       },
       {
         question: `What does the technician find?`,
-        options: [`A broken part`, `A missing cable`, `That someone set the family's favorite food to potatoes`, `That the robot is very old`],
+        options: [`A broken part`, `A missing cable`, `That someone set the family's favourite food to potatoes`, `That the robot is very old`],
         correctIndex: 2,
         explanation: `"Der Roboter ist nicht kaputt. Hier steht: Lieblingsessen der Familie: Kartoffeln."`,
       },
@@ -97,7 +97,7 @@ export const DE_A1_S04_STORIES: Story[] = [
     questions: [
       {
         question: `Where does Lisa find the letter?`,
-        options: [`In her mailbox`, `In an old box in the cellar`, `In a book`, `In her guitar case`],
+        options: [`In her letterbox`, `In an old box in the cellar`, `In a book`, `In her guitar case`],
         correctIndex: 1,
         explanation: `"Heute räumt sie den Keller auf. In einer alten Kiste findet sie einen Brief."`,
       },
@@ -141,7 +141,7 @@ export const DE_A1_S04_STORIES: Story[] = [
         explanation: `"Bei Herrn Schmidt in Nummer 5 heißt sie Tiger und bekommt Milch."`,
       },
       {
-        question: `What do the neighbors find out at the street party?`,
+        question: `What do the neighbours find out at the street party?`,
         options: [`The cat has three names and three families.`, `The cat is ill.`, `The cat belongs to the students.`, `The cat has kittens.`],
         correctIndex: 0,
         explanation: `"Sie hat drei Namen und drei Familien!"`,
@@ -206,7 +206,7 @@ export const DE_A1_S04_ENGLISH: Record<string, string[]> = {
     `The Hofmann family lives in Nuremberg: Mum, Dad, the children Emma and Ben, and Grandpa Heinz. Mum and Dad work a lot, and the children have no time. Nobody likes cooking. So the family buys a robot. It's called Chef 3000.`,
     `The robot is big and silver. It speaks in a friendly voice: "Good afternoon! I cook for you. What would you like to eat?" The children shout: "Pizza!" The robot answers: "Potatoes."`,
     `On Monday there are potatoes. On Tuesday there's potato soup, on Wednesday potato salad and on Thursday fried potatoes. The children are in despair. Only Grandpa Heinz is very pleased.`,
-    `Dad calls the company. A technician comes and checks the robot. Then he laughs. "The robot isn't broken. It says here: the family's favorite food: potatoes. Who writes something like that?"`,
+    `Dad calls the company. A technician comes and checks the robot. Then he laughs. "The robot isn't broken. It says here: the family's favourite food: potatoes. Who writes something like that?"`,
     `Everyone looks at Grandpa Heinz. Grandpa goes red. "Well," he says. "I love potatoes." Now there are potatoes on Saturday for Grandpa. And on the other days Chef 3000 cooks pizza, pasta and curry.`,
   ],
   "de-im-fundbuero": [
@@ -226,7 +226,7 @@ export const DE_A1_S04_ENGLISH: Record<string, string[]> = {
   "de-die-katze-von-nummer-sieben": [
     `A cat lives on Lindenstraße in Munich. She is ginger, fat and very friendly. Every day she visits lots of houses.`,
     `At Frau Huber's at number 3 the cat is called Mimi. There she gets fish. At Herr Schmidt's at number 5 she is called Tiger and gets milk. At the students' at number 9 she is called Pizza and gets cheese. Everyone thinks: that's my cat!`,
-    `In summer there's a street party. All the neighbors sit together at a long table. Then the cat arrives. "Mimi!" calls Frau Huber. "Tiger!" calls Herr Schmidt. "Pizza!" call the students.`,
+    `In summer there's a street party. All the neighbours sit together at a long table. Then the cat arrives. "Mimi!" calls Frau Huber. "Tiger!" calls Herr Schmidt. "Pizza!" call the students.`,
     `They all look at each other. Then they laugh. "She has three names and three families!" says Herr Schmidt. "No wonder she's so fat!"`,
     `Then an old lady comes out of number 7. "Ah, there you are, Rosalie!" She picks up the cat. "This is my cat. The vet says she is too fat. At my house she only gets diet food." Now everyone understands everything. From today Rosalie gets only water everywhere. Well, almost everywhere.`,
   ],
@@ -250,7 +250,7 @@ export const DE_A1_S04_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "zufrieden", en: "pleased, satisfied", forms: ["zufrieden"] },
     { es: "der Techniker", en: "technician", forms: ["techniker"] },
     { es: "prüfen", en: "to check", forms: ["prüft"] },
-    { es: "das Lieblingsessen", en: "favorite food", forms: ["lieblingsessen"] },
+    { es: "das Lieblingsessen", en: "favourite food", forms: ["lieblingsessen"] },
     { es: "na ja", en: "well...", forms: ["na"] },
   ],
   "de-im-fundbuero": [
@@ -283,7 +283,7 @@ export const DE_A1_S04_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "rot", en: "ginger (of a cat), red", forms: ["rot"] },
     { es: "dick", en: "fat", forms: ["dick"] },
     { es: "das Straßenfest", en: "street party", forms: ["straßenfest"] },
-    { es: "der Nachbar", en: "neighbor", forms: ["nachbarn"] },
+    { es: "der Nachbar", en: "neighbour", forms: ["nachbarn"] },
     { es: "sich ansehen", en: "to look at each other", forms: ["sehen"] },
     { es: "kein Wunder", en: "no wonder", forms: ["wunder"] },
     { es: "die Dame", en: "lady", forms: ["dame"] },
@@ -302,6 +302,7 @@ export const DE_A1_S04_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "der Eimer", en: "bucket", forms: ["eimer"] },
     { es: "leer", en: "empty", forms: ["leer"] },
     { es: "der Besucher", en: "visitor", forms: ["besucher"] },
+    { es: "die Tasche", en: "pocket (also: bag)", forms: ["tasche"] },
     { es: "recht haben", en: "to be right", forms: ["recht"] },
   ],
 };

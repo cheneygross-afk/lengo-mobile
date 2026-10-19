@@ -15,13 +15,13 @@ export const DE_B2_U18: Lesson[] = [
         heading: "The plan",
         body: [
           "\"Die Abschlussfahrt\" is the trip a class takes at the end of school. Herr Wagner, a teacher at a Gesamtschule in Dresden, is planning four days in Prague for his Year 10 class. In an email to the parents he uses formal connectors and passive alternatives.",
-          "Look at how he packs information: \"Die Fahrt ist bis zum 15. März zu bezahlen\" (sein + zu: must be paid), \"Die Unterkunft lässt sich noch kostenlos stornieren\" (sich lassen: can be cancelled), \"Das Programm ist bereits geplant\" (Zustandspassiv).",
+          "Look at how he packs information: \"Die Fahrt ist bis zum 15. März zu bezahlen\" (\"sein\" + \"zu\": must be paid), \"Die Unterkunft lässt sich noch kostenlos stornieren\" (\"sich lassen\": can be cancelled), \"Das Programm ist bereits geplant\" (Zustandspassiv).",
         ],
         examples: [
           { es: "Die Fahrt ist bis zum 15. März zu bezahlen.", en: "The trip must be paid for by 15 March." },
           { es: "Die Unterkunft lässt sich noch kostenlos stornieren.", en: "The accommodation can still be cancelled free of charge." },
           { es: "Das Programm ist bereits geplant.", en: "The programme has already been planned." },
-          { es: "Die Kosten betragen 280 Euro, zudem kommt ein Taschengeld hinzu.", en: "The cost is 280 euros; in addition there's pocket money." },
+          { es: "Die Kosten betragen 280 Euro, zudem wird ein Taschengeld empfohlen.", en: "The cost is 280 euros; in addition, pocket money is recommended." },
           { es: "Ein Zuschuss kann beantragt werden, andernfalls übernimmt der Förderverein einen Teil.", en: "A grant can be applied for; otherwise the school's support association covers part." },
         ],
         checkpoint: [
@@ -48,7 +48,7 @@ export const DE_B2_U18: Lesson[] = [
         heading: "The parents' evening",
         body: [
           "At the parents' evening, parents raise concerns. Herr Wagner later writes the minutes (\"das Protokoll\") in indirect speech with Konjunktiv I: \"Frau Aydın fragte, ob die Schüler abends allein in die Stadt dürften.\" \"Herr Schulz betonte, die Fahrt sei zu teuer.\" \"Eine Mutter bat, man möge die Handynutzung regeln.\"",
-          "Remember: \"dürfen\" → \"sie dürfen\" looks like the indicative, so the minutes switch to Konjunktiv II \"dürften\".",
+          "Remember: the Konjunktiv I form \"sie dürfen\" looks exactly like the indicative, so the minutes switch to Konjunktiv II \"dürften\".",
         ],
         examples: [
           { es: "Frau Aydın fragte, ob die Schüler abends allein in die Stadt dürften.", en: "Frau Aydın asked whether the pupils would be allowed into town alone in the evening." },
@@ -140,17 +140,17 @@ export const DE_B2_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "Frau Aydın asked [whether the pupils would be allowed] into town alone.",
+        en: "Frau Aydın asked [whether the pupils] would be allowed into town alone.",
         sentence: "Frau Aydın fragte, ___ allein in die Stadt dürften.",
         answer: "ob die Schüler",
         explanation: "\"Ob\" for a reported yes/no question; \"dürften\" replaces \"dürfen\".",
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
-        options: ["Die Fahrt ist teuer, jedoch ist ein Zuschuss möglich.", "Die Fahrt ist teuer, jedoch ein Zuschuss ist möglich.", "Die Fahrt ist teuer, jedoch, ein Zuschuss ist möglich.", "Die Fahrt ist teuer, nämlich ist ein Zuschuss möglich."],
+        question: "You want to write: The trip is expensive, but a grant is available. Which sentence is correct?",
+        options: ["Die Fahrt ist teuer, jedoch ist ein Zuschuss möglich.", "Die Fahrt ist teuer, jedoch ein Zuschuss möglich ist.", "Die Fahrt ist teuer, jedoch, ein Zuschuss ist möglich.", "Die Fahrt ist teuer, nämlich ist ein Zuschuss möglich."],
         correctIndex: 0,
-        explanation: "\"Jedoch\" + verb + subject.",
+        explanation: "\"Jedoch\" in position 1 is followed by verb + subject. It is not a subordinating conjunction, so the verb doesn't go to the end; \"nämlich\" gives a reason, not a contrast.",
       },
       {
         type: "translate",
@@ -175,8 +175,8 @@ export const DE_B2_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "A grant can be applied for.",
         answer: "Ein Zuschuss kann beantragt werden.",
-        altAnswers: ["Man kann einen Zuschuss beantragen.", "Ein Zuschuss lässt sich beantragen.", "Ein Zuschuss ist zu beantragen."],
-        explanation: "Modal passive \"kann beantragt werden\", or \"man\" / \"sich lassen\".",
+        altAnswers: ["Man kann einen Zuschuss beantragen.", "Ein Zuschuss lässt sich beantragen."],
+        explanation: "Modal passive \"kann beantragt werden\", or \"man\" / \"sich lassen\". Avoid \"ist zu beantragen\" here: it would mean the grant must be applied for.",
       },
       {
         type: "dictation",
@@ -204,7 +204,7 @@ export const DE_B2_U18: Lesson[] = [
         heading: "Address, greeting, closing",
         body: [
           "A message to a colleague you're friendly with: \"Hi Jonas, kannst du mir kurz die Zahlen schicken? Danke dir! LG Mia\". To a client or an authority, everything changes: \"Sehr geehrter Herr Becker, könnten Sie mir bitte die aktuellen Zahlen zusenden? Vielen Dank im Voraus. Mit freundlichen Grüßen, Mia Schneider\".",
-          "The ripple effects of du → Sie: the verb form (\"kannst du\" → \"können Sie\"), possessives (\"dein\" → \"Ihr\"), object pronouns (\"dir\" → \"Ihnen\"), and the imperative (\"Schick mir\" → \"Schicken Sie mir\"). \"Sie, Ihnen, Ihr\" are always capitalised.",
+          "The ripple effects of \"du\" → \"Sie\": the verb form (\"kannst du\" → \"können Sie\"), possessives (\"dein\" → \"Ihr\"), object pronouns (\"dir\" → \"Ihnen\"), and the imperative (\"Schick mir\" → \"Schicken Sie mir\"). \"Sie, Ihnen, Ihr\" are always capitalised.",
           "Greeting and closing: \"Sehr geehrte Frau ... / Sehr geehrter Herr ...\" (unknown recipient: \"Sehr geehrte Damen und Herren\"), the first word of the text in lowercase after the comma, and \"Mit freundlichen Grüßen\" without a comma after it.",
         ],
         examples: [
@@ -227,9 +227,9 @@ export const DE_B2_U18: Lesson[] = [
           {
             type: "multiple-choice",
             question: "You're writing to a company and don't know who will read it. How do you start?",
-            options: ["Sehr geehrte Damen und Herren,", "Hallo zusammen,", "Liebe Firma,", "Sehr geehrte Damen und Herren!"],
+            options: ["Sehr geehrte Damen und Herren,", "Hallo zusammen,", "Liebe Firma,", "Sehr geehrter Damen und Herren,"],
             correctIndex: 0,
-            explanation: "The standard formal opening, followed by a comma; the text then starts in lowercase.",
+            explanation: "The standard formal opening, followed by a comma; the text then starts in lowercase. \"Geehrter\" is the ending for one man (\"Sehr geehrter Herr ...\"), not for \"Damen und Herren\".",
           },
         ],
       },
@@ -263,7 +263,7 @@ export const DE_B2_U18: Lesson[] = [
             sentence: "Bitte ___, ob der Termin passt.",
             answer: "teilen Sie mir mit",
             altAnswers: ["informieren Sie mich", "geben Sie mir Bescheid"],
-            explanation: "\"Mitteilen\" is the formal let know; it's separable, so \"teilen Sie mir ... mit\".",
+            explanation: "\"Mitteilen\" is the formal way to say 'let know'; it's separable, so \"teilen Sie mir ... mit\".",
           },
         ],
       },
@@ -351,7 +351,7 @@ export const DE_B2_U18: Lesson[] = [
         prompt: "Translate into German (formal email).",
         source: "We have to make a decision by Monday.",
         answer: "Wir müssen bis Montag eine Entscheidung treffen.",
-        altAnswers: ["Bis Montag müssen wir eine Entscheidung treffen."],
+        altAnswers: ["Bis Montag müssen wir eine Entscheidung treffen.", "Wir müssen bis Montag eine Entscheidung fällen.", "Bis Montag müssen wir eine Entscheidung fällen."],
         explanation: "Funktionsverbgefüge: \"eine Entscheidung treffen\", never \"*machen\".",
       },
       {
@@ -367,7 +367,7 @@ export const DE_B2_U18: Lesson[] = [
         prompt: "Translate into German (formal email).",
         source: "Unfortunately, I can't come because I'm ill.",
         answer: "Leider kann ich aufgrund einer Erkrankung nicht kommen.",
-        altAnswers: ["Leider kann ich nicht kommen, da ich krank bin.", "Da ich erkrankt bin, kann ich leider nicht kommen.", "Leider kann ich krankheitsbedingt nicht kommen.", "Leider kann ich nicht kommen, weil ich krank bin.", "Aufgrund einer Erkrankung kann ich leider nicht kommen."],
+        altAnswers: ["Leider kann ich nicht kommen, da ich krank bin.", "Da ich erkrankt bin, kann ich leider nicht kommen.", "Leider kann ich krankheitsbedingt nicht kommen.", "Leider kann ich nicht kommen, weil ich krank bin.", "Aufgrund einer Erkrankung kann ich leider nicht kommen.", "Ich kann leider nicht kommen, da ich krank bin.", "Ich kann leider nicht kommen, weil ich krank bin.", "Da ich krank bin, kann ich leider nicht kommen."],
         explanation: "\"Aufgrund einer Erkrankung\" or \"krankheitsbedingt\" sound formal; \"da\" is fine too.",
       },
       {
@@ -417,7 +417,7 @@ export const DE_B2_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "Nevertheless, fees [continued to be debited].",
+            en: "Nevertheless, [fees continued to be debited].",
             sentence: "Trotzdem ___.",
             answer: "wurden weiterhin Beiträge abgebucht",
             altAnswers: ["wurden weiter Beiträge abgebucht", "wurden die Beiträge weiterhin abgebucht"],
@@ -549,6 +549,7 @@ export const DE_B2_U18: Lesson[] = [
         prompt: "Put the words in order to say: I expect your confirmation by 15 February.",
         words: ["Ich", "erwarte", "Ihre", "Bestätigung", "bis", "zum", "15.", "Februar."],
         translation: "I expect your confirmation by 15 February.",
+        altOrders: [["Bis", "zum", "15.", "Februar", "erwarte", "ich", "Ihre", "Bestätigung."]],
         explanation: "\"Bis zum\" + date.",
       },
       {
@@ -585,7 +586,7 @@ export const DE_B2_U18: Lesson[] = [
         heading: "The letter",
         body: [
           "Mehmet rents a flat in Frankfurt. One day two letters arrive: a rent increase (\"die Mieterhöhung\") of 12% and the annual service-charge statement (\"die Nebenkostenabrechnung\") with a back payment (\"die Nachzahlung\") of 640 euros for heating and water.",
-          "He tells his partner Ayşe what the letter says, in reported speech: \"Der Vermieter schreibt, die Miete werde ab März erhöht. Er behauptet, die Wohnung sei unter dem ortsüblichen Niveau.\"",
+          "He tells his partner Ayşe what the letter says, in reported speech: \"Der Vermieter schreibt, die Miete werde ab März erhöht. Er behauptet, die Miete liege unter dem ortsüblichen Niveau.\"",
         ],
         examples: [
           { es: "Der Vermieter schreibt, die Miete werde ab März erhöht.", en: "The landlord writes that the rent will be increased from March." },
@@ -651,7 +652,7 @@ export const DE_B2_U18: Lesson[] = [
         heading: "The outcome",
         body: [
           "In the end they agree on 6%. Mehmet reports to Ayşe: \"Er hat zugegeben, dass die Abrechnung einen Fehler enthalte. Er hat versprochen, die Heizung im Sommer erneuern zu lassen. Er will von dem Fehler nichts gewusst haben.\"",
-          "Reporting verbs (\"zugeben, versprechen, versichern, bestreiten\") with dass, Konjunktiv I or a zu-infinitive, and \"will\" for his self-serving claim.",
+          "Reporting verbs (\"zugeben\", \"versprechen\", \"versichern\", \"bestreiten\") with \"dass\", Konjunktiv I or a zu-infinitive, and \"will\" for his self-serving claim.",
         ],
         examples: [
           { es: "Er hat zugegeben, dass die Abrechnung einen Fehler enthält.", en: "He admitted that the statement contains a mistake." },
@@ -710,7 +711,7 @@ export const DE_B2_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "The statement [should have reached us] by the end of December.",
+        en: "The statement [should have] reached us by the end of December.",
         sentence: "Die Abrechnung ___ bis Ende Dezember bei uns sein müssen.",
         answer: "hätte",
         explanation: "\"Hätte\" + double infinitive \"sein müssen\".",
@@ -726,10 +727,10 @@ export const DE_B2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "You want to say: The location is good, but the heating is old. Which sentence is correct?",
         options: ["Die Lage ist gut, allerdings ist die Heizung alt.", "Die Lage ist gut, allerdings die Heizung ist alt.", "Die Lage ist gut, allerdings, die Heizung ist alt.", "Die Lage ist gut, nämlich ist die Heizung alt."],
         correctIndex: 0,
-        explanation: "\"Allerdings\" + verb + subject.",
+        explanation: "\"Allerdings\" in position 1 is an adverb, so verb + subject follow; it can't stand outside the clause like \"aber\", and \"nämlich\" would give a reason, not a restriction.",
       },
       {
         type: "word-order",
@@ -767,7 +768,7 @@ export const DE_B2_U18: Lesson[] = [
     slug: "b2-thematic-review-zwischen-zwei-laendern",
     level: "DE-B2",
     number: 5,
-    title: "Thematic Review: Zwischen Zwei Ländern",
+    title: "Thematic Review: Zwischen zwei Ländern",
     summary: "Emre, a Turkish-German engineer in Cologne, talks about identity, family and two languages: contrast connectors, als ob and the unreal past.",
     duration: "15 min",
     sections: [
@@ -779,7 +780,7 @@ export const DE_B2_U18: Lesson[] = [
         ],
         examples: [
           { es: "In Deutschland bin ich der Türke, in der Türkei hingegen der Deutsche.", en: "In Germany I'm the Turk; in Turkey, on the other hand, I'm the German." },
-          { es: "Während meine Eltern nur Türkisch fernsehen, schaue ich deutsche Serien.", en: "Whereas my parents only watch Turkish TV, I watch German series." },
+          { es: "Während meine Eltern nur türkisches Fernsehen schauen, schaue ich deutsche Serien.", en: "Whereas my parents only watch Turkish TV, I watch German series." },
           { es: "Im Gegensatz zu meinem Vater habe ich studiert.", en: "Unlike my father, I went to university." },
           { es: "Mit meinen Geschwistern spreche ich allerdings eine Mischung aus beiden.", en: "With my siblings, though, I speak a mix of both." },
           { es: "Meine Großeltern kamen als Gastarbeiter nach Köln.", en: "My grandparents came to Cologne as guest workers." },
@@ -807,7 +808,7 @@ export const DE_B2_U18: Lesson[] = [
       {
         heading: "Feeling like a guest",
         body: [
-          "Emre talks about how people react to him: \"Manche reden mit mir, als ob ich kein Deutsch könnte.\" \"Bei Behörden behandelt man mich manchmal, als wäre ich gerade erst angekommen.\" Unit 13's als ob / als + Konjunktiv II is perfect for this.",
+          "Emre talks about how people react to him: \"Manche reden mit mir, als ob ich kein Deutsch könnte.\" \"Bei Behörden behandelt man mich manchmal, als wäre ich gerade erst angekommen.\" Unit 13's \"als ob\" / \"als\" + Konjunktiv II is perfect for this.",
           "And about his grandparents: \"Sie lebten fünfzig Jahre hier, als wären sie nur zu Besuch.\"",
         ],
         examples: [
@@ -908,7 +909,7 @@ export const DE_B2_U18: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which sentence is correct?",
+        question: "You want to say: Whereas my brother lives in Cologne, my sister lives in Izmir. Which sentence is correct?",
         options: ["Während mein Bruder in Köln lebt, wohnt meine Schwester in Izmir.", "Während mein Bruder lebt in Köln, wohnt meine Schwester in Izmir.", "Während mein Bruder in Köln lebt, meine Schwester wohnt in Izmir.", "Hingegen mein Bruder in Köln lebt, wohnt meine Schwester in Izmir."],
         correctIndex: 0,
         explanation: "\"Während\" = whereas: verb at the end, then the main clause starts with its verb.",
@@ -919,6 +920,7 @@ export const DE_B2_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "I should have learned my grandparents' language better.",
         answer: "Ich hätte die Sprache meiner Großeltern besser lernen sollen.",
+        altAnswers: ["Ich hätte die Sprache meiner Großeltern besser lernen müssen."],
         explanation: "Double infinitive; genitive plural \"meiner Großeltern\".",
       },
       {
@@ -1034,7 +1036,7 @@ export const DE_B2_U18: Lesson[] = [
           { es: "Ich bin Vegetarier, trotzdem koche ich für ihn Fleisch.", en: "I'm a vegetarian, but I still cook meat for him." },
           { es: "Im Norden regnet es, im Süden dagegen scheint die Sonne.", en: "In the north it's raining; in the south, by contrast, the sun is shining." },
           { es: "Es regnete, dennoch fand das Fest statt.", en: "It rained; nevertheless, the festival went ahead." },
-          { es: "Während die Jungen online einkaufen, gehen die Älteren lieber ins Geschäft.", en: "While young people shop online, older people prefer to go to the shop." },
+          { es: "Während die Jüngeren online einkaufen, gehen die Älteren lieber ins Geschäft.", en: "While young people shop online, older people prefer to go to the shop." },
         ],
         checkpoint: [
           {
@@ -1071,7 +1073,7 @@ export const DE_B2_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "I stayed at home; I was ill, you see.",
         answer: "Ich bin zu Hause geblieben, ich war nämlich krank.",
-        altAnswers: ["Ich bin zu Hause geblieben. Ich war nämlich krank.", "Ich blieb zu Hause, ich war nämlich krank."],
+        altAnswers: ["Ich bin zu Hause geblieben. Ich war nämlich krank.", "Ich blieb zu Hause, ich war nämlich krank.", "Ich bin zuhause geblieben, ich war nämlich krank."],
         explanation: "Reason second: \"nämlich\" after the verb.",
       },
       {
@@ -1122,6 +1124,7 @@ export const DE_B2_U18: Lesson[] = [
         prompt: "Put the words in order to say: My brother eats meat; I, on the other hand, am a vegetarian.",
         words: ["Mein", "Bruder", "isst", "Fleisch,", "ich", "hingegen", "bin", "Vegetarier."],
         translation: "My brother eats meat; I, on the other hand, am a vegetarian.",
+        altOrders: [["Mein", "Bruder", "isst", "Fleisch,", "ich", "bin", "hingegen", "Vegetarier."]],
         explanation: "\"Hingegen\" after the subject \"ich\"; the verb stays second.",
       },
       {
@@ -1130,7 +1133,7 @@ export const DE_B2_U18: Lesson[] = [
         prompt: "Translate into German.",
         source: "Young people shop online, whereas older people prefer shops.",
         answer: "Junge Leute kaufen online ein, während ältere Menschen lieber in Geschäfte gehen.",
-        altAnswers: ["Junge Leute kaufen online ein, während Ältere lieber ins Geschäft gehen.", "Junge Menschen kaufen online ein, ältere hingegen gehen lieber in Geschäfte.", "Junge Leute kaufen online ein, wohingegen ältere Menschen lieber in Geschäfte gehen.", "Junge Leute kaufen online ein, während ältere Leute Geschäfte bevorzugen."],
+        altAnswers: ["Junge Leute kaufen online ein, während Ältere lieber ins Geschäft gehen.", "Junge Menschen kaufen online ein, ältere hingegen gehen lieber in Geschäfte.", "Junge Leute kaufen online ein, wohingegen ältere Menschen lieber in Geschäfte gehen.", "Junge Leute kaufen online ein, während ältere Leute Geschäfte bevorzugen.", "Junge Menschen kaufen online ein, während ältere Menschen lieber in Geschäfte gehen."],
         explanation: "\"Während\" (whereas) + verb at the end.",
       },
       {
@@ -1178,7 +1181,7 @@ export const DE_B2_U18: Lesson[] = [
             prompt: "Leon wrote \"*Zudem, man sammelt Berufserfahrung.\" Write the correct German for: Moreover, you gain work experience.",
             source: "Moreover, you gain work experience.",
             answer: "Zudem sammelt man Berufserfahrung.",
-            altAnswers: ["Außerdem sammelt man Berufserfahrung.", "Man sammelt zudem Berufserfahrung."],
+            altAnswers: ["Außerdem sammelt man Berufserfahrung.", "Man sammelt zudem Berufserfahrung.", "Man sammelt außerdem Berufserfahrung."],
             explanation: "No comma, verb straight after \"zudem\".",
           },
         ],
@@ -1212,7 +1215,7 @@ export const DE_B2_U18: Lesson[] = [
             question: "Which is the correct version of \"*Nämlich viele arbeiten zwanzig Stunden\"?",
             options: ["Viele arbeiten nämlich zwanzig Stunden.", "Nämlich arbeiten viele zwanzig Stunden.", "Nämlich, viele arbeiten zwanzig Stunden.", "Viele nämlich zwanzig Stunden arbeiten."],
             correctIndex: 0,
-            explanation: "\"Nämlich\" goes after the verb, never in position 1.",
+            explanation: "\"Nämlich\" goes after the verb, in the middle of the clause; it can't fill position 1 of a main clause.",
           },
         ],
       },
@@ -1282,7 +1285,7 @@ export const DE_B2_U18: Lesson[] = [
         en: "A part-time job makes sense [in that] you make contacts.",
         sentence: "Ein Nebenjob ist insofern sinnvoll, ___ man Kontakte knüpft.",
         answer: "als",
-        explanation: "\"Insofern ... als\".",
+        explanation: "\"Insofern ..., als\" = in that: \"insofern\" in the main clause announces the limit, \"als\" introduces it and sends the verb \"knüpft\" to the end.",
       },
       {
         type: "multiple-choice",
@@ -1305,6 +1308,7 @@ export const DE_B2_U18: Lesson[] = [
         prompt: "Put the words in order to say: All in all, the advantages outweigh the disadvantages.",
         words: ["Insgesamt", "überwiegen", "die", "Vorteile."],
         translation: "All in all, the advantages outweigh the disadvantages.",
+        altOrders: [["Die", "Vorteile", "überwiegen", "insgesamt."]],
         explanation: "\"Insgesamt\" in position 1, verb next.",
       },
       {
@@ -1336,7 +1340,7 @@ export const DE_B2_U18: Lesson[] = [
     slug: "b2-thematic-review-digitaler-nachlass",
     level: "DE-B2",
     number: 8,
-    title: "Thematic Review: Der Digitale Nachlass",
+    title: "Thematic Review: Der digitale Nachlass",
     summary: "What happens to our accounts after death: connectors, passive alternatives such as das Konto lässt sich nicht löschen, and Futur II.",
     duration: "15 min",
     sections: [
@@ -1572,7 +1576,7 @@ export const DE_B2_U18: Lesson[] = [
           { es: "Zunächst lenken Handys im Unterricht stark ab.", en: "First of all, phones are very distracting in class." },
           { es: "Zudem führen sie oft zu Mobbing in sozialen Netzwerken.", en: "Moreover, they often lead to bullying on social networks." },
           { es: "An meiner Schule gab es zum Beispiel ein Handyverbot.", en: "At my school, for example, there was a phone ban." },
-          { es: "Ich habe selbst erlebt, dass die Pausen dadurch lebendiger wurden.", en: "I experienced myself that breaks became livelier as a result." },
+          { es: "Ich habe selbst erlebt, dass die Pausen dadurch lebendiger wurden.", en: "I saw for myself that breaks became livelier as a result." },
           { es: "Die Schüler redeten nämlich wieder miteinander.", en: "The pupils talked to each other again, you see." },
         ],
         checkpoint: [
@@ -1590,6 +1594,7 @@ export const DE_B2_U18: Lesson[] = [
             prompt: "Put the words in order to say: At my school, for example, there was a phone ban.",
             words: ["An", "meiner", "Schule", "gab", "es", "zum", "Beispiel", "ein", "Handyverbot."],
             translation: "At my school, for example, there was a phone ban.",
+            altOrders: [["Zum", "Beispiel", "gab", "es", "an", "meiner", "Schule", "ein", "Handyverbot."]],
             explanation: "Place phrase in position 1, verb \"gab\" second; \"zum Beispiel\" in the Mittelfeld.",
           },
         ],
@@ -1684,7 +1689,7 @@ export const DE_B2_U18: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "I experienced myself that breaks became livelier.",
+        source: "I saw for myself that breaks became livelier.",
         answer: "Ich habe selbst erlebt, dass die Pausen lebendiger wurden.",
         altAnswers: ["Ich habe selbst erlebt, dass die Pausen lebendiger geworden sind.", "Ich habe selbst erfahren, dass die Pausen lebendiger wurden."],
         explanation: "\"Selbst erleben\" = to experience first-hand.",
@@ -1901,7 +1906,7 @@ export const DE_B2_U18: Lesson[] = [
     slug: "b2-thematic-review-schweigen-oder-melden",
     level: "DE-B2",
     number: 11,
-    title: "Thematic Review: Schweigen oder Melden?",
+    title: "Thematic Review: Schweigen oder melden?",
     summary: "Jana, a quality engineer, discovers falsified safety data: dilemmas, regrets, subjective modals and connectors in argument.",
     duration: "15 min",
     sections: [
@@ -2010,7 +2015,7 @@ export const DE_B2_U18: Lesson[] = [
         source: "My boss probably knows about it.",
         answer: "Mein Chef dürfte davon wissen.",
         altAnswers: ["Meine Chefin dürfte davon wissen.", "Mein Chef weiß wahrscheinlich davon.", "Mein Chef wird wohl davon wissen.", "Meine Chefin weiß wahrscheinlich davon."],
-        explanation: "\"Dürfte\" = probably.",
+        explanation: "\"Dürfte\" (Konjunktiv II of \"dürfen\") used subjectively expresses a fairly confident assumption: 'probably'. It does not mean 'may' here.",
       },
       {
         type: "translate",
@@ -2059,6 +2064,7 @@ export const DE_B2_U18: Lesson[] = [
         prompt: "Put the words in order to say: So in theory I can't be dismissed.",
         words: ["Folglich", "darf", "mir", "eigentlich", "nicht", "gekündigt", "werden."],
         translation: "So in theory I can't be dismissed.",
+        altOrders: [["Mir", "darf", "folglich", "eigentlich", "nicht", "gekündigt", "werden."]],
         explanation: "\"Kündigen\" takes the dative, so the passive is impersonal: \"mir darf nicht gekündigt werden\".",
       },
       {
@@ -2117,7 +2123,7 @@ export const DE_B2_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the German for the bold words.",
-            en: "After school he [trained as] an electrician.",
+            en: "After school he [trained as an electrician].",
             sentence: "Nach der Schule hat er eine ___ gemacht.",
             answer: "Ausbildung zum Elektriker",
             explanation: "\"Eine Ausbildung zum/zur ... machen\" = to train as.",
@@ -2149,10 +2155,10 @@ export const DE_B2_U18: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "\"Die Kaution\" is:",
-            options: ["the deposit", "the caution", "the notice period", "the service charge"],
+            question: "Your landlord says: \"Die Kaution bekommen Sie nach dem Auszug zurück.\" What will you get back after moving out?",
+            options: ["your deposit", "a warning", "your notice period", "the service charges"],
             correctIndex: 0,
-            explanation: "\"Die Kaution\" = the rental deposit. A false friend.",
+            explanation: "\"Die Kaution\" = the rental deposit. A false friend: it doesn't mean caution (that's \"die Vorsicht\").",
           },
         ],
       },
@@ -2241,7 +2247,7 @@ export const DE_B2_U18: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "We have to [pay extra] 300 euros.",
+        en: "We have to [pay an extra] 300 euros.",
         sentence: "Wir müssen 300 Euro ___.",
         answer: "nachzahlen",
         explanation: "\"Nachzahlen\" = to pay the outstanding difference.",
@@ -2258,6 +2264,7 @@ export const DE_B2_U18: Lesson[] = [
         prompt: "Put the words in order to say: For me, the disadvantages outweigh the advantages.",
         words: ["Für", "mich", "überwiegen", "die", "Nachteile."],
         translation: "For me, the disadvantages outweigh the advantages.",
+        altOrders: [["Die", "Nachteile", "überwiegen", "für", "mich."]],
         explanation: "\"Überwiegen\" (inseparable, stress on -wie-).",
       },
       {
@@ -2277,7 +2284,7 @@ export const DE_B2_U18: Lesson[] = [
     slug: "b2-spiral-sentence-by-sentence-nachricht",
     level: "DE-B2",
     number: 13,
-    title: "Spiral Review: Sentence by Sentence: Eine Nachricht Weitergeben",
+    title: "Spiral Review: Sentence by Sentence: Eine Nachricht weitergeben",
     summary: "Pass on a phone message in a formal email, in indirect speech with reported questions and requests.",
     duration: "14 min",
     sections: [
@@ -2423,6 +2430,7 @@ export const DE_B2_U18: Lesson[] = [
         en: "He asks [that you let him know] by Thursday.",
         sentence: "Er bittet, ___ ihm bis Donnerstag Bescheid geben.",
         answer: "Sie mögen",
+        altAnswers: ["Sie möchten"],
         explanation: "Formal reported request: \"mögen\" in Konjunktiv I (same as indicative here, but the standard formula).",
       },
       {
@@ -2437,6 +2445,7 @@ export const DE_B2_U18: Lesson[] = [
         prompt: "Put the words in order to say: I'm happy to help if you have any questions.",
         words: ["Bei", "Fragen", "stehe", "ich", "Ihnen", "gern", "zur", "Verfügung."],
         translation: "I'm happy to help if you have any questions.",
+        altOrders: [["Ich", "stehe", "Ihnen", "bei", "Fragen", "gern", "zur", "Verfügung."]],
         explanation: "\"Zur Verfügung stehen\" = to be available.",
       },
       {

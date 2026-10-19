@@ -8,14 +8,14 @@ export const DE_C1_U04: Lesson[] = [
     level: "DE-C1",
     number: 1,
     title: "Participle and Infinitive Constructions, Part 1 of 6",
-    summary: "Extended participial attributes with several adverbials and objects, and the Gerundiv: zu + Partizip I (die zu erledigenden Aufgaben, ein nicht zu unterschätzendes Problem).",
+    summary: "You'll be able to build and read extended participial attributes with several adverbials and objects, and the Gerundiv (\"zu\" + Partizip I): \"die zu erledigenden Aufgaben\", \"ein nicht zu unterschätzendes Problem\".",
     duration: "18 min",
     sections: [
       {
         heading: "Extended participial attributes, revisited",
         body: [
           "At the Upper-intermediate level you built participial attributes like \"die geplante Brücke\" and \"die von der Stadt geplante Brücke\". At the Advanced level they grow: several adverbials and objects can stand between the article and the participle: \"die seit Jahren von der Stadt geplante neue Brücke\" (the new bridge that the city has been planning for years).",
-          "Order inside the attribute follows the Mittelfeld of a clause: time (seit Jahren) – agent/cause (von der Stadt) – manner – place – participle. A plain adjective (\"neue\") comes right before the noun, after the participle.",
+          "Order inside the attribute follows the Mittelfeld of a clause: time phrases (\"seit Jahren\") usually come early, the agent, place and manner follow in a fairly flexible order (\"von der Stadt\", \"im Stadtrat heftig\"), and the participle comes last. A plain adjective (\"neue\") comes right before the noun, after the participle.",
           "Endings: the participle and any adjective take the same ending as ordinary adjectives: \"die geplante neue Brücke\", \"mit der geplanten neuen Brücke\", \"eines lange erwarteten Berichts\".",
         ],
         examples: [
@@ -33,8 +33,8 @@ export const DE_C1_U04: Lesson[] = [
             prompt: "Translate into German.",
             source: "the proposal that was hotly debated in the city council yesterday",
             answer: "der gestern im Stadtrat heftig diskutierte Vorschlag",
-            altAnswers: ["der Vorschlag, der gestern im Stadtrat heftig diskutiert wurde"],
-            explanation: "Time – place – manner – participle – noun. Ending -e after \"der\".",
+            altAnswers: ["der Vorschlag, der gestern im Stadtrat heftig diskutiert wurde", "der gestern im Stadtrat heftig debattierte Vorschlag", "der Vorschlag, der gestern im Stadtrat heftig diskutiert worden ist"],
+            explanation: "Time and place phrases, then the manner adverb, then the participle right before the noun. Ending -e after \"der\".",
           },
           {
             type: "fill-blank",
@@ -91,6 +91,7 @@ export const DE_C1_U04: Lesson[] = [
             prompt: "Put the words in order to say: Please return the form to be filled in.",
             words: ["Bitte", "schicken", "Sie", "das", "auszufüllende", "Formular", "zurück."],
             translation: "Please return the form to be filled in.",
+            altOrders: [["Schicken", "Sie", "bitte", "das", "auszufüllende", "Formular", "zurück."]],
             explanation: "Separable verb: \"zu\" goes inside: \"auszufüllende\".",
           },
         ],
@@ -132,7 +133,7 @@ export const DE_C1_U04: Lesson[] = [
             type: "speak",
             text: "Das ist ein nicht zu unterschätzendes Problem.",
             prompt: "Say it in German: That's a problem that shouldn't be underestimated.",
-            tip: "Keep \"zu unterschätzendes\" as one rhythmic group: zu-UN-ter-schät-zen-des.",
+            tip: "Keep \"zu unterschätzendes\" as one rhythmic group, stressed on \"schät\": zu-un-ter-SCHÄT-zen-des.",
             explanation: "Gerundiv: \"nicht zu unterschätzend\" + -es after \"ein\".",
           },
         ],
@@ -176,7 +177,7 @@ export const DE_C1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is correct?",
+        question: "the books bought yesterday: which is correct?",
         options: ["die gestern gekauften Bücher", "die gestern gekaufte Bücher", "die gestern gekauftes Bücher", "die gekauften gestern Bücher"],
         correctIndex: 0,
         explanation: "Plural after \"die\" needs -en; adverbs go before the participle.",
@@ -188,7 +189,7 @@ export const DE_C1_U04: Lesson[] = [
         source: "The minister who unexpectedly resigned last night gave an interview.",
         answer: "Die gestern Abend überraschend zurückgetretene Ministerin gab ein Interview.",
         altAnswers: ["Die Ministerin, die gestern Abend überraschend zurückgetreten ist, gab ein Interview.", "Die gestern Abend überraschend zurückgetretene Ministerin hat ein Interview gegeben."],
-        explanation: "Partizip II of a sein-verb (zurücktreten): active meaning.",
+        explanation: "Partizip II of a sein-verb (\"zurücktreten\"): active meaning.",
       },
       {
         type: "word-order",
@@ -241,7 +242,7 @@ export const DE_C1_U04: Lesson[] = [
     level: "DE-C1",
     number: 2,
     title: "Participle and Infinitive Constructions, Part 2 of 6",
-    summary: "Participial phrases as adverbials: Im Büro angekommen, rief sie sofort an; Laut lachend verließ er den Raum; the same-subject rule and rewriting them as clauses.",
+    summary: "You'll be able to use participial phrases as adverbials (\"Im Büro angekommen, rief sie sofort an\", \"Laut lachend verließ er den Raum\"), follow the same-subject rule and rewrite them as clauses.",
     duration: "17 min",
     sections: [
       {
@@ -274,6 +275,7 @@ export const DE_C1_U04: Lesson[] = [
             prompt: "Put the words in order to say: Laughing loudly, he left the room.",
             words: ["Laut", "lachend", "verließ", "er", "den", "Raum."],
             translation: "Laughing loudly, he left the room.",
+            altOrders: [["Er", "verließ", "laut", "lachend", "den", "Raum."]],
             explanation: "Partizip I for a simultaneous action; the verb follows the phrase directly.",
           },
           {
@@ -399,7 +401,7 @@ export const DE_C1_U04: Lesson[] = [
         prompt: "Translate into German.",
         source: "Smiling, she opened the door.",
         answer: "Lächelnd öffnete sie die Tür.",
-        altAnswers: ["Sie öffnete lächelnd die Tür.", "Lächelnd hat sie die Tür geöffnet."],
+        altAnswers: ["Sie öffnete lächelnd die Tür.", "Lächelnd hat sie die Tür geöffnet.", "Sie hat lächelnd die Tür geöffnet."],
         explanation: "A bare Partizip I in position 1, no comma needed.",
       },
       {
@@ -407,7 +409,7 @@ export const DE_C1_U04: Lesson[] = [
         prompt: "Put the words in order to say: Having arrived in Hamburg, we looked for a hotel.",
         words: ["In", "Hamburg", "angekommen,", "suchten", "wir", "ein", "Hotel."],
         translation: "Having arrived in Hamburg, we looked for a hotel.",
-        explanation: "Participial phrase in position 1; same subject (wir).",
+        explanation: "Participial phrase in position 1; same subject (\"wir\").",
       },
       {
         type: "translate",
@@ -453,7 +455,7 @@ export const DE_C1_U04: Lesson[] = [
     level: "DE-C1",
     number: 3,
     title: "Participle and Infinitive Constructions, Part 3 of 6",
-    summary: "Fixed participial phrases: genau genommen, offen gestanden, kurz gesagt, abgesehen von, verglichen mit, ausgehend von, angenommen, dass ..., gesetzt den Fall, dass ...",
+    summary: "You'll be able to use fixed participial phrases to comment, compare and hypothesise: \"genau genommen\", \"offen gestanden\", \"kurz gesagt\", \"abgesehen von\", \"verglichen mit\", \"ausgehend von\", \"angenommen, dass ...\", \"gesetzt den Fall, dass ...\".",
     duration: "17 min",
     sections: [
       {
@@ -612,10 +614,10 @@ export const DE_C1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase means: in other words?",
-        options: ["anders gesagt", "abgesehen davon", "genau genommen", "angenommen"],
+        question: "You want to rephrase what you just said: In other words, we have to save money. Which is correct?",
+        options: ["Anders gesagt, wir müssen sparen.", "Abgesehen davon, wir müssen sparen.", "Genau genommen, wir müssen sparen.", "Angenommen, wir müssen sparen."],
         correctIndex: 0,
-        explanation: "\"Anders gesagt\" = to put it differently.",
+        explanation: "\"Anders gesagt\" = in other words, to put it differently. \"Abgesehen davon\" means apart from that, \"genau genommen\" strictly speaking, \"angenommen\" assuming.",
       },
       {
         type: "translate",
@@ -677,7 +679,7 @@ export const DE_C1_U04: Lesson[] = [
     level: "DE-C1",
     number: 4,
     title: "Mastery Check: Participle and Infinitive Constructions, Part 1",
-    summary: "Participial attributes, the Gerundiv and participial phrases without hints.",
+    summary: "Show that you can use participial attributes, the Gerundiv and participial phrases (Parts 1 to 3) without hints.",
     duration: "17 min",
     sections: [
       {
@@ -755,7 +757,7 @@ export const DE_C1_U04: Lesson[] = [
       {
         heading: "Check 3: participial phrases",
         body: [
-          "Recap: same subject, phrase in position 1, verb follows. Fixed phrases (genau genommen, abgesehen von) don't need the same subject.",
+          "Recap: same subject, phrase in position 1, verb follows. Fixed phrases (\"genau genommen\", \"abgesehen von\") don't need the same subject.",
         ],
         examples: [
           { es: "Durch den Lärm geweckt, stand sie auf.", en: "Woken by the noise, she got up." },
@@ -823,7 +825,7 @@ export const DE_C1_U04: Lesson[] = [
         question: "Which sentence is correct?",
         options: ["In Berlin angekommen, nahmen wir ein Taxi.", "In Berlin angekommen, wartete ein Taxi auf uns.", "In Berlin angekommen, regnete es.", "In Berlin angekommen, war das Hotel voll."],
         correctIndex: 0,
-        explanation: "Only the first has the same subject (wir) for the participle and the main clause.",
+        explanation: "Only the first has the same subject (\"wir\") for the participle and the main clause.",
       },
       {
         type: "translate",
@@ -906,7 +908,7 @@ export const DE_C1_U04: Lesson[] = [
     level: "DE-C1",
     number: 5,
     title: "Error Hunt: Dangling Participles and Wrong Endings",
-    summary: "Repair sentences whose participle has the wrong subject (*Im Büro angekommen, klingelte das Telefon) or the wrong ending (*die gestern gekaufte Bücher, *ein zu lösendes Probleme).",
+    summary: "You'll be able to repair sentences whose participle has the wrong subject (\"*Im Büro angekommen, klingelte das Telefon\") or the wrong ending (\"*die gestern gekaufte Bücher\", \"*ein zu lösendes Probleme\").",
     duration: "16 min",
     sections: [
       {
@@ -931,7 +933,7 @@ export const DE_C1_U04: Lesson[] = [
             source: "When I arrived at the office, the phone rang.",
             answer: "Als ich im Büro ankam, klingelte das Telefon.",
             altAnswers: ["Als ich im Büro angekommen war, klingelte das Telefon.", "Als ich ins Büro kam, klingelte das Telefon.", "Nachdem ich im Büro angekommen war, klingelte das Telefon."],
-            explanation: "Different subjects (ich / das Telefon) need a clause, not \"*Im Büro angekommen, klingelte ...\".",
+            explanation: "Different subjects (\"ich\" / \"das Telefon\") need a clause, not \"*Im Büro angekommen, klingelte ...\".",
           },
           {
             type: "multiple-choice",
@@ -1055,10 +1057,10 @@ export const DE_C1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which phrase is correct?",
+        question: "the tasks to be done: which is correct?",
         options: ["die zu erledigenden Aufgaben", "die zu erledigten Aufgaben", "die zu erledigende Aufgaben", "die erledigenden zu Aufgaben"],
         correctIndex: 0,
-        explanation: "Gerundiv = zu + Partizip I; plural after \"die\" = -en.",
+        explanation: "Gerundiv = \"zu\" + Partizip I (\"erledigend\"), never Partizip II; plural after \"die\" = -en.",
       },
       {
         type: "translate",
@@ -1083,7 +1085,7 @@ export const DE_C1_U04: Lesson[] = [
         source: "Having arrived at the office, I heard the phone ringing.",
         answer: "Im Büro angekommen, hörte ich das Telefon klingeln.",
         altAnswers: ["Im Büro angekommen, hörte ich das Telefon läuten."],
-        explanation: "Same subject now (ich); \"hören\" + infinitive without zu.",
+        explanation: "Same subject now (\"ich\"); \"hören\" + infinitive without \"zu\".",
       },
       {
         type: "translate",
@@ -1098,10 +1100,10 @@ export const DE_C1_U04: Lesson[] = [
         type: "matching",
         instructions: "Match the error with its correction.",
         pairs: [
-          { left: "die gestern gekaufte Bücher", right: "die gestern gekauften Bücher" },
-          { left: "ein zu lösendes Probleme", right: "ein zu lösendes Problem" },
-          { left: "das zu ausfüllende Formular", right: "das auszufüllende Formular" },
-          { left: "mit der neu eröffnete Bibliothek", right: "mit der neu eröffneten Bibliothek" },
+          { left: "*die gestern gekaufte Bücher", right: "die gestern gekauften Bücher" },
+          { left: "*ein zu lösendes Probleme", right: "ein zu lösendes Problem" },
+          { left: "*das zu ausfüllende Formular", right: "das auszufüllende Formular" },
+          { left: "*mit der neu eröffnete Bibliothek", right: "mit der neu eröffneten Bibliothek" },
         ],
         explanation: "Endings follow the article and case; separable verbs take \"zu\" inside.",
       },
@@ -1111,7 +1113,7 @@ export const DE_C1_U04: Lesson[] = [
         question: "What does it mean?",
         options: ["When I was lying ill in bed, the doctor visited me.", "The doctor was lying ill in bed when I visited.", "I visited the doctor when he was ill.", "The doctor told me to stay in bed."],
         correctIndex: 0,
-        explanation: "The clause makes the subject of \"lag\" (ich) clear.",
+        explanation: "The clause makes the subject of \"lag\" (\"ich\") clear.",
       },
       {
         type: "dictation",
@@ -1131,7 +1133,7 @@ export const DE_C1_U04: Lesson[] = [
     level: "DE-C1",
     number: 6,
     title: "Contrast Clinic: Participial Attribute or Relative Clause?",
-    summary: "Die von ihr geschriebene Mail vs die Mail, die sie geschrieben hat: register, sentence length, ambiguity, converting both ways, and when only the relative clause works.",
+    summary: "You'll be able to choose between \"die von ihr geschriebene Mail\" and \"die Mail, die sie geschrieben hat\": register, length, ambiguity, converting both ways, and when only the relative clause works.",
     duration: "16 min",
     sections: [
       {
@@ -1182,7 +1184,7 @@ export const DE_C1_U04: Lesson[] = [
         heading: "When to choose which",
         body: [
           "Choose the attribute in written, information-dense texts (reports, news) when it is short: two or three words before the participle. \"Der gestern vorgestellte Plan\" reads well.",
-          "Choose the relative clause in speech, when the attribute would be long, or when it contains a modal or a complex tense: \"die Leute, die hätten kommen sollen\" can't become an attribute. Also when the relative clause has its own subject different from the head and an object: \"der Kollege, dem ich das Buch geliehen habe\" (no participial version possible because the head is a dative).",
+          "Choose the relative clause in speech, when the attribute would be long, or when it contains a modal or a complex tense: \"die Leute, die hätten kommen sollen\" can't become an attribute. Also whenever the head noun is not the subject (or passive subject) of the verb: \"der Kollege, dem ich das Buch geliehen habe\" has no participial version, because the head is a dative.",
           "Only relative clauses can express the head noun as a dative or genitive role: \"die Frau, deren Auto gestohlen wurde\", \"der Mann, mit dem ich gesprochen habe\".",
         ],
         examples: [
@@ -1281,7 +1283,7 @@ export const DE_C1_U04: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Which is the participial version of: die Studie, die im Mai veröffentlicht wurde?",
+        question: "Which is the participial version of: \"die Studie, die im Mai veröffentlicht wurde\"?",
         options: ["die im Mai veröffentlichte Studie", "die im Mai veröffentlichende Studie", "die veröffentlichte im Mai Studie", "die im Mai zu veröffentlichende Studie"],
         correctIndex: 0,
         explanation: "Passive past → Partizip II; adverbial before it.",
@@ -1300,7 +1302,7 @@ export const DE_C1_U04: Lesson[] = [
         prompt: "Put the words in order to say: the bus that has just left",
         words: ["der", "gerade", "abgefahrene", "Bus"],
         translation: "the bus that has just left",
-        explanation: "Partizip II of a sein-verb (abfahren): active completed meaning.",
+        explanation: "Partizip II of a sein-verb (\"abfahren\"): active completed meaning.",
       },
       {
         type: "translate",
@@ -1346,7 +1348,7 @@ export const DE_C1_U04: Lesson[] = [
     level: "DE-C1",
     number: 7,
     title: "Participle and Infinitive Constructions, Part 4 of 6",
-    summary: "Zu-infinitives with tense and voice: behauptet, sie gesehen zu haben; hofft, eingeladen zu werden; froh, gewählt worden zu sein; the same-subject condition and the Korrelat es / da(r)-.",
+    summary: "You'll be able to use past and passive zu-infinitives (\"Er behauptet, sie gesehen zu haben\", \"Ich hoffe, eingeladen zu werden\", \"froh, gewählt worden zu sein\"), check the same-subject condition and use the Korrelat \"es\" / \"da(r)-\".",
     duration: "18 min",
     sections: [
       {
@@ -1455,8 +1457,8 @@ export const DE_C1_U04: Lesson[] = [
             prompt: "Translate into German.",
             source: "I'm looking forward to seeing you.",
             answer: "Ich freue mich darauf, dich zu sehen.",
-            altAnswers: ["Ich freue mich darauf, Sie zu sehen.", "Ich freue mich darauf, euch zu sehen.", "Ich freue mich, dich zu sehen.", "Ich freue mich darauf, dich wiederzusehen."],
-            explanation: "\"Sich freuen auf\" → Korrelat \"darauf\" + zu-infinitive.",
+            altAnswers: ["Ich freue mich darauf, Sie zu sehen.", "Ich freue mich darauf, euch zu sehen.", "Ich freue mich darauf, dich wiederzusehen.", "Ich freue mich darauf, Sie wiederzusehen."],
+            explanation: "\"Sich freuen auf\" → Korrelat \"darauf\" + zu-infinitive. Without \"darauf\", \"Ich freue mich, dich zu sehen\" means I'm glad to see you (now).",
           },
           {
             type: "multiple-choice",
@@ -1532,7 +1534,7 @@ export const DE_C1_U04: Lesson[] = [
         prompt: "Put the words in order to say: I ask you to fill in the form.",
         words: ["Ich", "bitte", "Sie,", "das", "Formular", "auszufüllen."],
         translation: "I ask you to fill in the form.",
-        explanation: "With \"bitten\" the implied subject of the infinitive is the object (Sie).",
+        explanation: "With \"bitten\" the implied subject of the infinitive is the object (\"Sie\").",
       },
       {
         type: "translate",
@@ -1578,7 +1580,7 @@ export const DE_C1_U04: Lesson[] = [
     level: "DE-C1",
     number: 8,
     title: "Participle and Infinitive Constructions, Part 5 of 6",
-    summary: "Infinitives without zu: modals, lassen, werden, sehen / hören / fühlen, bleiben, gehen, helfen / lernen; brauchen nur / nicht + zu; and the double infinitive in the Perfekt.",
+    summary: "You'll be able to use infinitives without \"zu\" (after modals, \"lassen\", \"werden\", \"sehen\" / \"hören\" / \"fühlen\", \"bleiben\", \"gehen\", \"helfen\" / \"lernen\"), \"brauchen nur / nicht ... zu\" and the double infinitive in the Perfekt.",
     duration: "18 min",
     sections: [
       {
@@ -1662,7 +1664,7 @@ export const DE_C1_U04: Lesson[] = [
       {
         heading: "The double infinitive in the Perfekt",
         body: [
-          "In the Perfekt, modals and verbs like \"lassen\", \"sehen\", \"hören\" (and optionally \"helfen\") use their infinitive instead of the participle when they have a dependent infinitive: \"Ich habe ihn kommen sehen\" (not *gesehen), \"Sie hat das Auto reparieren lassen\" (not *gelassen), \"Wir haben nicht bleiben können\".",
+          "In the Perfekt, modals and verbs like \"lassen\", \"sehen\", \"hören\" (and optionally \"helfen\") use their infinitive instead of the participle when they have a dependent infinitive: \"Ich habe ihn kommen sehen\" (not \"*gesehen\"), \"Sie hat das Auto reparieren lassen\" (not \"*gelassen\"), \"Wir haben nicht bleiben können\".",
           "Without a dependent infinitive, the normal participle returns: \"Ich habe ihn gesehen\", \"Sie hat das Auto in der Garage gelassen\".",
           "In subordinate clauses, the auxiliary goes in front of both infinitives (Unit 1): \"..., weil sie das Auto hat reparieren lassen\", \"..., dass ich ihn habe kommen sehen\".",
         ],
@@ -1686,10 +1688,10 @@ export const DE_C1_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct?",
-            options: ["Ich habe ihn kommen sehen.", "Ich habe ihn kommen gesehen.", "Ich habe ihn gekommen sehen.", "Ich habe ihn kommen zu sehen."],
+            question: "You want to say: I saw him coming. Which is correct?",
+            options: ["Ich habe ihn kommen sehen.", "Ich habe ihn zu kommen gesehen.", "Ich habe ihn gekommen sehen.", "Ich habe ihn kommen zu sehen."],
             correctIndex: 0,
-            explanation: "Double infinitive in standard German: \"kommen sehen\". \"Kommen gesehen\" is common in speech but not standard.",
+            explanation: "Double infinitive: \"kommen sehen\", no \"zu\" after perception verbs. \"Kommen gesehen\" is also heard (and with \"sehen\" some grammars allow it), but the double infinitive is the safe written choice.",
           },
           {
             type: "word-order",
@@ -1803,14 +1805,14 @@ export const DE_C1_U04: Lesson[] = [
     slug: "c1-contrast-sein-zu-haben-zu",
     level: "DE-C1",
     number: 9,
-    title: "Contrast Clinic: Ist zu Tun / Hat zu Tun / Scheint zu Tun",
-    summary: "Sein + zu (passive necessity or possibility) vs haben + zu (active obligation), and the modal-like verbs scheinen, pflegen, drohen, versprechen, vermögen + zu.",
+    title: "Contrast Clinic: Ist zu tun / Hat zu tun / Scheint zu tun",
+    summary: "You'll be able to tell \"sein + zu\" (passive necessity or possibility) from \"haben + zu\" (active obligation), and use the modal-like verbs \"scheinen\", \"pflegen\", \"drohen\", \"versprechen\" and \"vermögen\" + zu.",
     duration: "18 min",
     sections: [
       {
         heading: "Sein + zu: must be / can be done",
         body: [
-          "\"Sein\" + zu-infinitive has a passive meaning with a modal flavour: \"Der Antrag ist bis Freitag einzureichen\" = Der Antrag muss bis Freitag eingereicht werden (must be submitted). \"Das ist nicht zu ändern\" = Das kann nicht geändert werden (can't be changed).",
+          "\"Sein\" + zu-infinitive has a passive meaning with a modal flavour: \"Der Antrag ist bis Freitag einzureichen\" = \"Der Antrag muss bis Freitag eingereicht werden\" (must be submitted). \"Das ist nicht zu ändern\" = \"Das kann nicht geändert werden\" (can't be changed).",
           "Necessity or possibility? Context decides: rules and instructions → must (\"Die Hausordnung ist zu beachten\"); with \"nicht\", \"kaum\", \"leicht\", \"schwer\" → can (\"Das Problem ist leicht zu lösen\").",
           "This is the predicative form of the Gerundiv from Lesson 1: \"Der Antrag ist einzureichen\" ↔ \"der einzureichende Antrag\".",
         ],
@@ -2008,7 +2010,7 @@ export const DE_C1_U04: Lesson[] = [
         source: "No one was able to comfort her.",
         answer: "Niemand vermochte sie zu trösten.",
         altAnswers: ["Niemand konnte sie trösten.", "Keiner konnte sie trösten."],
-        explanation: "\"Vermögen\" + zu-infinitive: literary for können.",
+        explanation: "\"Vermögen\" + zu-infinitive: literary for \"können\".",
       },
       {
         type: "matching",
@@ -2047,7 +2049,7 @@ export const DE_C1_U04: Lesson[] = [
     level: "DE-C1",
     number: 10,
     title: "Transformations: Saying English -ing in German",
-    summary: "German has no single -ing form: before leaving, by working, without saying, instead of waiting, I like swimming, I'm used to working, I saw him leaving, Smoking is bad.",
+    summary: "You'll be able to say English -ing forms in German, which has no single equivalent: before leaving, by working, without saying, instead of waiting, I like swimming, I'm used to working, I saw him leaving, Smoking is bad.",
     duration: "18 min",
     sections: [
       {
@@ -2097,7 +2099,7 @@ export const DE_C1_U04: Lesson[] = [
       {
         heading: "Verbs and adjectives + -ing",
         body: [
-          "I like swimming → \"Ich schwimme gern\" (gern + verb), not \"*Ich mag schwimmen\" (possible but less idiomatic). I stopped smoking → \"Ich habe aufgehört zu rauchen\". I'm used to working at night → \"Ich bin es gewohnt, nachts zu arbeiten\" or \"Ich bin daran gewöhnt, ...\".",
+          "I like swimming → \"Ich schwimme gern\" (verb + \"gern\"); \"Ich mag Schwimmen\" (with the noun) is also heard, but less idiomatic. I stopped smoking → \"Ich habe aufgehört zu rauchen\". I'm used to working at night → \"Ich bin es gewohnt, nachts zu arbeiten\" or \"Ich bin daran gewöhnt, ...\".",
           "I'm looking forward to seeing you → \"Ich freue mich darauf, dich zu sehen\". It's worth visiting → \"Es lohnt sich, ... zu besuchen\". I can't help laughing → \"Ich muss einfach lachen.\" I remember meeting him → \"Ich erinnere mich daran, ihn getroffen zu haben\" or \"..., dass ich ihn getroffen habe\".",
           "General pattern: -ing after a verb becomes a zu-infinitive, or gern / lieber / am liebsten with a finite verb for likes and preferences.",
         ],
@@ -2235,6 +2237,7 @@ export const DE_C1_U04: Lesson[] = [
         prompt: "Put the words in order to say: Instead of waiting, we took a taxi.",
         words: ["Statt", "zu", "warten,", "nahmen", "wir", "ein", "Taxi."],
         translation: "Instead of waiting, we took a taxi.",
+        altOrders: [["Wir", "nahmen", "ein", "Taxi,", "statt", "zu", "warten."]],
         explanation: "\"Statt zu\" + infinitive in position 1, then the verb.",
       },
       {
@@ -2293,7 +2296,7 @@ export const DE_C1_U04: Lesson[] = [
     level: "DE-C1",
     number: 11,
     title: "Participle and Infinitive Constructions, Part 6 of 6",
-    summary: "The infinitive as subject and on signs and instructions (Rauchen verboten, Bitte nicht stören, Zwiebeln klein schneiden), deliberative questions (Was tun?), comma rules and Ausklammerung.",
+    summary: "You'll be able to read and write infinitives on signs and in instructions (\"Rauchen verboten\", \"Bitte nicht stören\", \"Zwiebeln klein schneiden\"), ask deliberative questions (\"Was tun?\"), and apply the comma rules and Ausklammerung.",
     duration: "17 min",
     sections: [
       {
@@ -2344,7 +2347,7 @@ export const DE_C1_U04: Lesson[] = [
         heading: "Was tun? Deliberative questions",
         body: [
           "A bare infinitive can form a question about what to do: \"Was tun?\" (What to do?), \"Wohin gehen?\" (Where to go?), \"Wie reagieren?\" These are typical of headlines, essays and inner monologue.",
-          "As statements they're replaced by \"Was soll ich / sollen wir tun?\". In indirect questions use \"was man tun soll\" or a zu-infinitive with \"wissen\": \"Ich weiß nicht, was ich tun soll\" / \"Er wusste nicht, wohin er gehen sollte.\" (Note: \"*Ich weiß nicht, was zu tun\" is an anglicism.)",
+          "In a full sentence say \"Was soll ich / sollen wir tun?\". In indirect questions use a clause with \"sollen\": \"Ich weiß nicht, was ich tun soll\" / \"Er wusste nicht, wohin er gehen sollte.\" (Note: \"*Ich weiß nicht, was zu tun\" is an anglicism.)",
           "But \"Es gibt viel zu tun\" and \"Was ist zu tun?\" (sein + zu) are standard.",
         ],
         examples: [
@@ -2386,7 +2389,7 @@ export const DE_C1_U04: Lesson[] = [
         body: [
           "Since the 2006 reform, a comma before a zu-infinitive is required when: it's introduced by \"um, ohne, statt, anstatt, außer, als\" (\"Er kam, um zu helfen\"); it depends on a noun (\"Sie hatte die Idee, ein Café zu eröffnen\"); or a Korrelat points to it (\"Ich freue mich darauf, dich zu sehen\"). Otherwise it's optional, but usually set for clarity.",
           "No comma with modal-like verbs: \"Er scheint zu schlafen\", \"Das Haus droht einzustürzen\".",
-          "Ausklammerung: the zu-infinitive normally goes after the main clause's verb complex, outside the bracket: \"Er hat versprochen, morgen zu kommen\" (not \"*Er hat morgen zu kommen versprochen\" in normal style). \"Ich habe vergessen, dich anzurufen.\"",
+          "Ausklammerung: the zu-infinitive normally goes after the main clause's verb complex, outside the bracket: \"Er hat versprochen, morgen zu kommen\" (\"Er hat morgen zu kommen versprochen\" is possible but sounds stilted). \"Ich habe vergessen, dich anzurufen.\"",
         ],
         examples: [
           { es: "Er kam, um zu helfen.", en: "He came to help." },
@@ -2526,7 +2529,7 @@ export const DE_C1_U04: Lesson[] = [
     level: "DE-C1",
     number: 12,
     title: "Mastery Check: Participle and Infinitive Constructions, Part 2",
-    summary: "Zu-infinitives in the past and passive, infinitives without zu, sein / haben + zu and -ing translations without hints.",
+    summary: "Show that you can use past and passive zu-infinitives, infinitives without \"zu\", \"sein\" / \"haben\" + zu and German equivalents of English -ing (Parts 4 to 6) without hints.",
     duration: "18 min",
     sections: [
       {
@@ -2564,7 +2567,7 @@ export const DE_C1_U04: Lesson[] = [
       {
         heading: "Check 2: with or without zu",
         body: [
-          "Recap: no zu after modals, werden, lassen, sehen/hören/fühlen, bleiben, gehen; double infinitive in the Perfekt; \"brauchen nicht / nur ... zu\".",
+          "Recap: no \"zu\" after modals, \"werden\", \"lassen\", \"sehen\" / \"hören\" / \"fühlen\", \"bleiben\", \"gehen\"; double infinitive in the Perfekt; \"brauchen nicht / nur ... zu\".",
         ],
         examples: [
           { es: "Wir gehen morgen schwimmen.", en: "We're going swimming tomorrow." },
@@ -2584,7 +2587,7 @@ export const DE_C1_U04: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Which is correct?",
+            question: "He had a suit made. Which is correct?",
             options: ["Er hat sich einen Anzug machen lassen.", "Er hat sich einen Anzug machen gelassen.", "Er hat sich einen Anzug zu machen lassen.", "Er hat sich einen Anzug gemacht lassen."],
             correctIndex: 0,
             explanation: "Double infinitive: \"machen lassen\".",
@@ -2670,7 +2673,7 @@ export const DE_C1_U04: Lesson[] = [
         question: "How do you say: I remember meeting her?",
         options: ["Ich erinnere mich daran, sie getroffen zu haben.", "Ich erinnere mich, sie zu treffen.", "Ich erinnere mich treffend sie.", "Ich erinnere mich, sie treffen."],
         correctIndex: 0,
-        explanation: "Earlier action → past zu-infinitive. \"Sie zu treffen\" would be remember to meet her.",
+        explanation: "Earlier action → past zu-infinitive. \"Ich erinnere mich, sie zu treffen\" doesn't work: remember to (do something) is \"daran denken, ... zu\".",
       },
       {
         type: "translate",
@@ -2743,14 +2746,14 @@ export const DE_C1_U04: Lesson[] = [
     level: "DE-C1",
     number: 13,
     title: "Real-World Mission: The Instruction Manual",
-    summary: "Write German instructions for a coffee machine and a recipe with infinitive imperatives, sein + zu, participial phrases and Gerundiv attributes (die zu reinigenden Teile).",
+    summary: "You'll be able to write German instructions for a coffee machine and a recipe with infinitive imperatives, \"sein + zu\", participial attributes and the Gerundiv (\"die zu reinigenden Teile\").",
     duration: "18 min",
     sections: [
       {
         heading: "Step 1: Safety notes and first use",
         body: [
           "Your mission: write the German manual for the \"Barista 3000\" coffee machine. German manuals use impersonal infinitives for steps and \"sein + zu\" for rules: \"Vor dem ersten Gebrauch ist die Bedienungsanleitung sorgfältig zu lesen.\" \"Das Gerät nicht in Wasser tauchen.\"",
-          "Safety notes (Sicherheitshinweise) often start with \"Achtung:\" or \"Hinweis:\" and use \"darf nicht\" / \"ist nicht zu\": \"Das Gerät darf nur an eine geerdete Steckdose angeschlossen werden.\"",
+          "Safety notes (\"Sicherheitshinweise\") often start with \"Achtung:\" or \"Hinweis:\" and use \"darf nicht\" / \"ist nicht zu\": \"Das Gerät darf nur an eine geerdete Steckdose angeschlossen werden.\"",
           "First use: \"Wassertank mit frischem Wasser füllen. Netzstecker einstecken. Ein-Taste drücken.\" Articles are often dropped in short steps.",
         ],
         examples: [
@@ -2920,6 +2923,7 @@ export const DE_C1_U04: Lesson[] = [
         prompt: "Put the words in order to say: Put two scoops of ice cream in a tall glass.",
         words: ["Zwei", "Kugeln", "Eis", "in", "ein", "hohes", "Glas", "geben."],
         translation: "Put two scoops of ice cream in a tall glass.",
+        altOrders: [["In", "ein", "hohes", "Glas", "zwei", "Kugeln", "Eis", "geben."]],
         explanation: "Recipe infinitive at the end; \"in\" + accusative (direction).",
       },
       {
@@ -3005,11 +3009,11 @@ export const DE_C1_U04: Lesson[] = [
       {
         heading: "A short report",
         body: [
-          "Read part of a report by the Hamburg housing office: „Die Zahl der neu gebauten Wohnungen ist im Jahr 2025 um 8 Prozent gestiegen. Nach Abschluss der laufenden Projekte sind weitere 2.000 Wohnungen bezugsfertig. Die Stadt beabsichtigt, den Anteil an Sozialwohnungen zu erhöhen. Die noch zu klärenden Fragen betreffen vor allem die Finanzierung. Von den Mietervereinen kritisiert, wird der Plan im Herbst erneut im Senat beraten.“",
+          "Read part of a report by the Hamburg housing office: \"Die Zahl der neu gebauten Wohnungen ist im Jahr 2025 um 8 Prozent gestiegen. Nach Abschluss der laufenden Projekte sind weitere 2.000 Wohnungen bezugsfertig. Die Stadt beabsichtigt, den Anteil an Sozialwohnungen zu erhöhen. Die noch zu klärenden Fragen betreffen vor allem die Finanzierung. Von den Mietervereinen kritisiert, wird der Plan im Herbst erneut im Senat beraten.\"",
           "Spot the forms: participial attributes (\"neu gebauten\", \"laufenden\"), Gerundiv (\"noch zu klärenden\"), nominal phrases (\"nach Abschluss der ... Projekte\", \"Anteil an\"), zu-infinitive (\"beabsichtigt, ... zu erhöhen\"), participial phrase (\"Von den Mietervereinen kritisiert, ...\").",
         ],
         examples: [
-          { es: "Die Zahl der neu gebauten Wohnungen ist um 8 Prozent gestiegen.", en: "The number of newly built flats rose by 8 percent." },
+          { es: "Die Zahl der neu gebauten Wohnungen ist um 8 Prozent gestiegen.", en: "The number of newly built flats rose by 8 per cent." },
           { es: "Nach Abschluss der laufenden Projekte sind weitere 2.000 Wohnungen bezugsfertig.", en: "Once current projects are completed, another 2,000 flats will be ready to move into." },
           { es: "Die Stadt beabsichtigt, den Anteil an Sozialwohnungen zu erhöhen.", en: "The city intends to increase the share of social housing." },
           { es: "Die noch zu klärenden Fragen betreffen die Finanzierung.", en: "The questions still to be clarified concern financing." },
@@ -3040,18 +3044,18 @@ export const DE_C1_U04: Lesson[] = [
             question: "What does it mean?",
             options: ["Criticised by tenants' associations, the plan will be discussed again.", "The tenants' associations criticised the plan and discussed it.", "The plan criticises the tenants' associations.", "The plan was discussed before being criticised."],
             correctIndex: 0,
-            explanation: "Participial phrase with Partizip II; same subject (der Plan).",
+            explanation: "Participial phrase with Partizip II; same subject (\"der Plan\").",
           },
         ],
       },
       {
         heading: "Rewriting for different readers",
         body: [
-          "The same information for a neighbourhood newsletter: „Letztes Jahr wurden in Hamburg 8 Prozent mehr Wohnungen gebaut. Wenn die laufenden Projekte fertig sind, kommen noch 2.000 Wohnungen dazu. Die Stadt will mehr Sozialwohnungen bauen. Offen ist vor allem, wie das bezahlt werden soll. Die Mietervereine kritisieren den Plan, und im Herbst wird im Senat noch einmal darüber gesprochen.“",
+          "The same information for a neighbourhood newsletter: \"Letztes Jahr wurden in Hamburg 8 Prozent mehr Wohnungen gebaut. Wenn die laufenden Projekte fertig sind, kommen noch 2.000 Wohnungen dazu. Die Stadt will mehr Sozialwohnungen bauen. Offen ist vor allem, wie das bezahlt werden soll. Die Mietervereine kritisieren den Plan, und im Herbst wird im Senat noch einmal darüber gesprochen.\"",
           "Every compact form has been unpacked: attributes → simple sentences, nominal phrases → wenn-clauses, Gerundiv → an indirect question, participial phrase → a main clause.",
         ],
         examples: [
-          { es: "Letztes Jahr wurden in Hamburg 8 Prozent mehr Wohnungen gebaut.", en: "Last year 8 percent more flats were built in Hamburg." },
+          { es: "Letztes Jahr wurden in Hamburg 8 Prozent mehr Wohnungen gebaut.", en: "Last year 8 per cent more flats were built in Hamburg." },
           { es: "Wenn die laufenden Projekte fertig sind, kommen noch 2.000 Wohnungen dazu.", en: "When the current projects are finished, another 2,000 flats will be added." },
           { es: "Offen ist vor allem, wie das bezahlt werden soll.", en: "The main open question is how it's to be paid for." },
           { es: "Die Mietervereine kritisieren den Plan.", en: "The tenants' associations criticise the plan." },
@@ -3080,7 +3084,7 @@ export const DE_C1_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "The number of newly built flats rose by 8 percent.",
+        source: "The number of newly built flats rose by 8 per cent.",
         answer: "Die Zahl der neu gebauten Wohnungen ist um 8 Prozent gestiegen.",
         altAnswers: ["Die Zahl der neu gebauten Wohnungen stieg um 8 Prozent.", "Die Zahl der neu gebauten Wohnungen ist um acht Prozent gestiegen."],
         explanation: "Participial attribute in a genitive; \"um\" = by.",
@@ -3122,7 +3126,7 @@ export const DE_C1_U04: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "Last year 8 percent more flats were built in Hamburg.",
+        source: "Last year 8 per cent more flats were built in Hamburg.",
         answer: "Letztes Jahr wurden in Hamburg 8 Prozent mehr Wohnungen gebaut.",
         altAnswers: ["Im letzten Jahr wurden in Hamburg 8 Prozent mehr Wohnungen gebaut.", "In Hamburg wurden letztes Jahr 8 Prozent mehr Wohnungen gebaut."],
         explanation: "Passive Präteritum in a simple sentence.",

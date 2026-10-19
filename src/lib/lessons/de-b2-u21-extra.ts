@@ -9,7 +9,7 @@ export const DE_B2_U21_EXTRA: Lesson[] = [
     number: 1,
     optional: true,
     title: "Extra Practice: Genitive Prepositions",
-    summary: "Choose aufgrund, infolge, angesichts, innerhalb, anlässlich or bezüglich in context, with the right genitive endings.",
+    summary: "Choose between \"aufgrund\", \"infolge\", \"angesichts\", \"innerhalb\", \"anlässlich\" and \"bezüglich\" in context, with the right genitive endings.",
     duration: "12 min",
     sections: [
       {
@@ -149,6 +149,7 @@ export const DE_B2_U21_EXTRA: Lesson[] = [
         prompt: "Put the words in order to say: Above the town there's an old castle.",
         words: ["Oberhalb", "der Stadt", "steht", "eine", "alte Burg."],
         translation: "Above the town there's an old castle.",
+        altOrders: [["Eine", "alte Burg", "steht", "oberhalb", "der Stadt."]],
         explanation: "\"Oberhalb\" + genitive \"der Stadt\" in position 1, then the verb \"steht\".",
       },
       {
@@ -179,7 +180,7 @@ export const DE_B2_U21_EXTRA: Lesson[] = [
     number: 2,
     optional: true,
     title: "Extra Practice: Dessen or Deren?",
-    summary: "Choose dessen or deren by the antecedent, not by the possessed noun, with and without prepositions.",
+    summary: "Choose \"dessen\" or \"deren\" by the antecedent, not by the possessed noun, with and without prepositions.",
     duration: "12 min",
     sections: [
       {
@@ -198,7 +199,7 @@ export const DE_B2_U21_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Complete: Das Mädchen, ___ Katze verschwunden ist, sucht überall.",
+            question: "Complete: \"Das Mädchen, ___ Katze verschwunden ist, sucht überall.\"",
             options: ["dessen", "deren", "dem", "derer"],
             correctIndex: 0,
             explanation: "\"Das Mädchen\" is grammatically neuter → \"dessen\", although it's a girl and \"Katze\" is feminine.",
@@ -337,7 +338,7 @@ export const DE_B2_U21_EXTRA: Lesson[] = [
     number: 3,
     optional: true,
     title: "Extra Practice: Was, Wo- or Der / Die / Das?",
-    summary: "Choose the relative word: der / die / das after a noun, was after alles or das Beste, was or a wo-form for a whole clause.",
+    summary: "Choose the right relative word: \"der\" / \"die\" / \"das\" after a noun, \"was\" after \"alles\" or \"das Beste\", and \"was\" or a wo-form for a whole clause.",
     duration: "12 min",
     sections: [
       {
@@ -365,7 +366,7 @@ export const DE_B2_U21_EXTRA: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "Complete: Das ist das Problem, über ___ wir gesprochen haben.",
+            question: "Complete: \"Das ist das Problem, über ___ wir gesprochen haben.\"",
             options: ["das", "was", "worüber", "dem"],
             correctIndex: 0,
             explanation: "The clause refers to a noun, \"das Problem\" (neuter, accusative after über) → \"über das\".",
@@ -411,7 +412,7 @@ export const DE_B2_U21_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Complete: Es gibt vieles, ___ ich an Hamburg mag.",
+        question: "Complete: \"Es gibt vieles, ___ ich an Hamburg mag.\"",
         options: ["was", "das", "die", "wo"],
         correctIndex: 0,
         explanation: "After \"vieles\" the relative is \"was\".",

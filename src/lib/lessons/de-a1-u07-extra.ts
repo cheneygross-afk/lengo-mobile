@@ -99,7 +99,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
         source: "Easter is in April this year.",
         answer: "Ostern ist dieses Jahr im April.",
         altAnswers: ["Dieses Jahr ist Ostern im April.", "Ostern ist in diesem Jahr im April."],
-        explanation: "Months take \"im\". \"Ostern\" is used without an article.",
+        explanation: "Months take \"im\". \"Ostern\" is used without an article, and \"dieses Jahr\" (this year) is a fixed time phrase with no preposition.",
       },
       {
         type: "translate",
@@ -180,7 +180,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
       {
         heading: "Recap: weather in the German-speaking countries",
         body: [
-          "Weather needs \"es\": \"es regnet\", \"es schneit\", \"es ist kalt\", \"es sind 20 Grad\" (plural for temperatures). The sun is the subject in \"die Sonne scheint\". For yourself: \"Mir ist kalt\", never \"Ich bin kalt\".",
+          "Weather needs \"es\": \"es regnet\", \"es schneit\", \"es ist kalt\", \"es sind 20 Grad\" (plural for temperatures). The sun is the subject in \"die Sonne scheint\". For yourself: \"Mir ist kalt\", never \"*Ich bin kalt\".",
           "A rough map: the north (Hamburg, Kiel) is windy and often rainy; the south (München, the Alps, \"die Alpen\") has more snow in winter and hot summers; Vienna (\"Wien\") has hot, dry summers. With a place first, the verb still comes second: \"In Hamburg regnet es oft.\"",
         ],
         examples: [
@@ -282,7 +282,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A friend in Hamburg texts: Bei uns ist es windig und es regnet. What should she take?",
+        question: "A friend in Hamburg texts: \"Bei uns ist es windig und es regnet.\" What should she take when she goes out?",
         options: ["Eine Jacke und einen Regenschirm.", "Eine Sonnenbrille.", "Nichts, es ist heiß.", "Handschuhe für den Schnee."],
         correctIndex: 0,
         explanation: "\"Windig\" and \"es regnet\": a jacket and an umbrella.",
@@ -353,7 +353,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"Ich fahre zu Berlin.\" Write the correct German for: I'm going to Berlin.",
+            prompt: "A learner wrote \"*Ich fahre zu Berlin.\" Write the correct German for: I'm going to Berlin.",
             source: "I'm going to Berlin.",
             answer: "Ich fahre nach Berlin.",
             explanation: "Cities take \"nach\" for direction; \"zu\" is for people and places in town.",
@@ -361,7 +361,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "A learner wrote \"Ich bin kalt.\" Write the correct German for: I'm cold.",
+            prompt: "A learner wrote \"*Ich bin kalt.\" Write the correct German for: I'm cold.",
             source: "I'm cold.",
             answer: "Mir ist kalt.",
             explanation: "Feeling cold is \"Mir ist kalt\"; \"Ich bin kalt\" describes a cold personality.",
@@ -373,7 +373,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Wir fliegen am Mai nach Spanien.\" Write the correct German for: We're flying to Spain in May.",
+        prompt: "A learner wrote \"*Wir fliegen am Mai nach Spanien.\" Write the correct German for: We're flying to Spain in May.",
         source: "We're flying to Spain in May.",
         answer: "Wir fliegen im Mai nach Spanien.",
         altAnswers: ["Im Mai fliegen wir nach Spanien."],
@@ -382,7 +382,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Ich fahre mit der Bus.\" Write the correct German for: I'm going by bus.",
+        prompt: "A learner wrote \"*Ich fahre mit der Bus.\" Write the correct German for: I'm going by bus.",
         source: "I'm going by bus.",
         answer: "Ich fahre mit dem Bus.",
         explanation: "\"Der Bus\" is masculine, so after \"mit\" it becomes \"dem Bus\". \"Der\" in the dative is feminine.",
@@ -390,7 +390,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Anna kommt aus Schweiz.\" Write the correct German for: Anna is from Switzerland.",
+        prompt: "A learner wrote \"*Anna kommt aus Schweiz.\" Write the correct German for: Anna is from Switzerland.",
         source: "Anna is from Switzerland.",
         answer: "Anna kommt aus der Schweiz.",
         altAnswers: ["Anna ist aus der Schweiz."],
@@ -399,7 +399,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"In Montag habe ich keine Zeit.\" Write the correct German for: I'm not free on Monday.",
+        prompt: "A learner wrote \"*In Montag habe ich keine Zeit.\" Write the correct German for: I'm not free on Monday.",
         source: "I'm not free on Monday.",
         answer: "Am Montag habe ich keine Zeit.",
         altAnswers: ["Ich habe am Montag keine Zeit."],
@@ -408,7 +408,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Ich gehe jetzt zu Hause.\" Write the correct German for: I'm going home now.",
+        prompt: "A learner wrote \"*Ich gehe jetzt zu Hause.\" Write the correct German for: I'm going home now.",
         source: "I'm going home now.",
         answer: "Ich gehe jetzt nach Hause.",
         altAnswers: ["Jetzt gehe ich nach Hause.", "Ich fahre jetzt nach Hause.", "Jetzt fahre ich nach Hause."],
@@ -417,7 +417,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Ich habe am drei Oktober Geburtstag.\" Write the correct German for: My birthday is on the third of October.",
+        prompt: "A learner wrote \"*Ich habe am drei Oktober Geburtstag.\" Write the correct German for: My birthday is on the third of October.",
         source: "My birthday is on the third of October.",
         answer: "Ich habe am dritten Oktober Geburtstag.",
         altAnswers: ["Ich habe am 3. Oktober Geburtstag.", "Mein Geburtstag ist am dritten Oktober.", "Mein Geburtstag ist am 3. Oktober.", "Am dritten Oktober habe ich Geburtstag."],
@@ -426,7 +426,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Heute ist kalt.\" Write the correct German for: It's cold today.",
+        prompt: "A learner wrote \"*Heute ist kalt.\" Write the correct German for: It's cold today.",
         source: "It's cold today.",
         answer: "Heute ist es kalt.",
         altAnswers: ["Es ist heute kalt."],
@@ -435,7 +435,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Heute es regnet.\" Write the correct German for: It's raining today.",
+        prompt: "A learner wrote \"*Heute es regnet.\" Write the correct German for: It's raining today.",
         source: "It's raining today.",
         answer: "Heute regnet es.",
         altAnswers: ["Es regnet heute."],
@@ -443,7 +443,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote \"Es ist 25 Grad.\" Write the German for the bold words.",
+        prompt: "A learner wrote \"*Es ist 25 Grad.\" Write the German for the bold words.",
         en: "[It's] 25 degrees.",
         sentence: "___ 25 Grad.",
         answer: "Es sind",
@@ -451,7 +451,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
       },
       {
         type: "fill-blank",
-        prompt: "A learner wrote \"Ich spiele mit die Kinder.\" Write the German for the bold words.",
+        prompt: "A learner wrote \"*Ich spiele mit die Kinder.\" Write the German for the bold words.",
         en: "I'm playing [with the children].",
         sentence: "Ich spiele ___.",
         answer: "mit den Kindern",
@@ -460,7 +460,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Ich fahre nach die USA.\" Write the correct German for: I'm going to the USA.",
+        prompt: "A learner wrote \"*Ich fahre nach die USA.\" Write the correct German for: I'm going to the USA.",
         source: "I'm going to the USA.",
         answer: "Ich fahre in die USA.",
         altAnswers: ["Ich fliege in die USA."],
@@ -469,10 +469,10 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"Ich bin heute bei Hause.\" Write the correct German for: I'm at home today.",
+        prompt: "A learner wrote \"*Ich bin heute bei Hause.\" Write the correct German for: I'm at home today.",
         source: "I'm at home today.",
         answer: "Ich bin heute zu Hause.",
-        altAnswers: ["Heute bin ich zu Hause."],
+        altAnswers: ["Heute bin ich zu Hause.", "Ich bin heute zuhause."],
         explanation: "At home is the fixed chunk \"zu Hause\".",
       },
       {
@@ -643,7 +643,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
         type: "translate",
         direction: "en-es",
         prompt: "Translate into German.",
-        source: "When are you coming home?",
+        source: "When are you coming home? (to a friend)",
         answer: "Wann kommst du nach Hause?",
         altAnswers: ["Wann fährst du nach Hause?", "Wann fliegst du nach Hause?"],
         explanation: "Direction home: \"nach Hause\".",
@@ -670,7 +670,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
     level: "DE-A1",
     number: 5,
     optional: true,
-    title: "Extra Practice: Contrast Clinic: Mit Dem, Mit Der or Mit Den?",
+    title: "Extra Practice: Contrast Clinic: Mit dem, Mit der or Mit den?",
     summary: "The dative articles after aus, bei, mit, nach, von, zu with masculine, feminine, neuter and plural nouns.",
     duration: "10 min",
     sections: [
@@ -678,13 +678,13 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
         heading: "Recap: dem, der, dem, den",
         body: [
           "After \"aus, bei, mit, nach, von, zu\": masculine and neuter take \"dem\" (\"einem\"), feminine takes \"der\" (\"einer\"), plural takes \"den\" + -n. Short forms: \"zum\", \"zur\", \"beim\", \"vom\".",
-          "The trick is always the gender of the noun: \"der Zug\" → \"mit dem Zug\", \"die Bahn\" → \"mit der Bahn\", \"das Auto\" → \"mit dem Auto\", \"die Freunde\" → \"mit den Freunden\".",
+          "The trick is always the gender of the noun: \"der Zug\" → \"mit dem Zug\", \"die Bahn\" → \"mit der Bahn\", \"das Auto\" → \"mit dem Auto\", \"die Kinder\" → \"mit den Kindern\".",
         ],
         examples: [
           { es: "Ich fahre mit dem Zug.", en: "I'm going by train." },
           { es: "Sie fährt mit der Straßenbahn.", en: "She's taking the tram." },
           { es: "Wir fahren mit dem Auto.", en: "We're going by car." },
-          { es: "Er spielt mit den Freunden Fußball.", en: "He's playing football with his friends." },
+          { es: "Er spielt mit den Kindern Fußball.", en: "He's playing football with the children." },
           { es: "Ich komme aus der Küche.", en: "I'm coming out of the kitchen." },
         ],
         checkpoint: [
@@ -807,7 +807,7 @@ export const DE_A1_U07_EXTRA: Lesson[] = [
         words: ["Sie", "kommt", "mit", "den", "Kindern", "vom", "Bahnhof."],
         translation: "She's coming from the station with the children.",
         altOrders: [["Sie", "kommt", "vom", "Bahnhof", "mit", "den", "Kindern."]],
-        explanation: "Plural \"mit den Kindern\" (extra -n); \"vom Bahnhof\" (von dem, masculine).",
+        explanation: "Plural \"mit den Kindern\" (extra -n); \"vom Bahnhof\" (\"von dem\", masculine).",
       },
       {
         type: "matching",

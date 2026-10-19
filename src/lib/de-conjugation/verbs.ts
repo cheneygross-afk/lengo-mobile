@@ -111,7 +111,7 @@ schaffen|to manage, to make it, to get done
 lesen|to read
 verlieren|to lose
 dar·stellen|to represent, to portray
-erkennen|to recognize
+erkennen|to recognise
 entwickeln|to develop|prn|to develop, to evolve
 reden|to talk
 aus·sehen|to look (appear)
@@ -209,7 +209,7 @@ verlieben|to fall in love|prn!
 streiten|to argue, to quarrel|prn|to argue (with each other)
 unterhalten|to entertain; to maintain|prn|to talk, to have a conversation
 bewerben|to apply (for a job)|prn!
-entschuldigen|to excuse|prn|to apologize
+entschuldigen|to excuse|prn|to apologise
 merken|to notice|prn D|to remember, to make a note of (sich etwas merken)
 leisten|to achieve, to perform|prn D|to afford (sich etwas leisten)
 wünschen|to wish|prn D|to wish for (sich etwas wünschen)
@@ -337,12 +337,12 @@ telefonieren|to talk on the phone
 fotografieren|to photograph
 reparieren|to repair
 diskutieren|to discuss
-organisieren|to organize
+organisieren|to organise
 probieren|to try (out), to taste
 funktionieren|to work, to function
 informieren|to inform|prn|to find out (about)
 akzeptieren|to accept
-kritisieren|to criticize
+kritisieren|to criticise
 existieren|to exist
 reagieren|to react
 produzieren|to produce
@@ -529,7 +529,7 @@ wiegen|to weigh
 winden|to wind, to twist
 wringen|to wring
 zwingen|to force
-frieren|to freeze, to be cold
+frieren|to freeze, to be cold|HS
 betrügen|to cheat, to deceive
 ab·holen|to pick up, to collect
 ab·geben|to hand in
@@ -625,7 +625,7 @@ verbringen|to spend (time)
 um·bringen|to kill
 bei·bringen|to teach
 nach·denken|to think (about), to reflect
-an·erkennen|to recognize, to acknowledge
+an·erkennen|to recognise, to acknowledge
 verbrennen|to burn|HS
 überweisen|to transfer (money)
 hin·weisen|to point out
@@ -665,7 +665,7 @@ aus·drücken|to express|prn|to express oneself
 an·kreuzen|to tick, to put a cross by
 ein·setzen|to use, to deploy|prn|to stand up for
 fort·setzen|to continue
-zusammen·fassen|to summarize
+zusammen·fassen|to summarise
 auf·bauen|to build up, to set up
 ein·schalten|to switch on
 aus·schalten|to switch off
@@ -698,7 +698,7 @@ vermuten|to suppose, to suspect
 verreisen|to go away (on a trip)|S
 behaupten|to claim
 bemühen|to trouble|prn|to make an effort, to try hard
-betonen|to stress, to emphasize
+betonen|to stress, to emphasise
 bewegen|to move|prn|to move; to exercise
 beantragen|to apply for
 begründen|to justify

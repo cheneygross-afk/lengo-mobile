@@ -49,7 +49,7 @@ export const DE_B2_U28: Lesson[] = [
         heading: "Warm-up: the trickier forms",
         body: [
           "The forms that trip people up: \"wäre ... worden\" (passive in the unreal past: \"Das Haus wäre verkauft worden\"), \"hätte ... werden müssen\" (passive with a modal), \"gäbe\", \"wüsste\", \"käme\", \"ginge\" (strong Konjunktiv II forms used in writing and in set phrases: \"Wenn es doch nur eine Lösung gäbe!\"), and the polite \"dürfte ich ...?\".",
-          "Never mix the two halves: \"würde\" belongs only to the present (\"würde kommen\"); the past is always \"wäre gekommen\".",
+          "Keep the time frames apart: \"würde\" + infinitive refers to the present (\"würde kommen\"), even in a mixed conditional; for the past use \"wäre / hätte\" + participle (\"wäre gekommen\"), not \"*würde gekommen sein*\".",
         ],
         examples: [
           { es: "Ohne die Spende wäre das Haus verkauft worden.", en: "Without the donation the house would have been sold." },
@@ -87,7 +87,7 @@ export const DE_B2_U28: Lesson[] = [
         source: "If the train hadn't been late, we'd have caught the flight.",
         answer: "Wenn der Zug keine Verspätung gehabt hätte, hätten wir den Flug erreicht.",
         altAnswers: ["Hätte der Zug keine Verspätung gehabt, hätten wir den Flug erreicht.", "Wenn der Zug pünktlich gewesen wäre, hätten wir den Flug erreicht.", "Wäre der Zug pünktlich gewesen, hätten wir den Flug erreicht.", "Wenn der Zug nicht zu spät gekommen wäre, hätten wir den Flug erreicht.", "Wenn der Zug keine Verspätung gehabt hätte, hätten wir den Flug bekommen."],
-        explanation: "Unreal past in both halves.",
+        explanation: "Unreal past in both halves: \"gehabt hätte\" / \"gewesen wäre\" in the condition, \"hätten ... erreicht\" in the result.",
       },
       {
         type: "translate",
@@ -95,8 +95,8 @@ export const DE_B2_U28: Lesson[] = [
         prompt: "Translate into German.",
         source: "You shouldn't have lied to her. (to a friend)",
         answer: "Du hättest sie nicht anlügen dürfen.",
-        altAnswers: ["Du hättest sie nicht anlügen sollen.", "Du hättest ihr nicht lügen dürfen.", "Du hättest sie nicht belügen dürfen.", "Du hättest sie nicht belügen sollen."],
-        explanation: "Reproach with the double infinitive; \"jemanden anlügen\" = to lie to someone.",
+        altAnswers: ["Du hättest sie nicht anlügen sollen.", "Du hättest sie nicht belügen dürfen.", "Du hättest sie nicht belügen sollen."],
+        explanation: "Reproach with the double infinitive; \"jemanden anlügen\" / \"belügen\" (accusative) = to lie to someone, not \"*ihr lügen*\".",
       },
       {
         type: "translate",
@@ -172,7 +172,7 @@ export const DE_B2_U28: Lesson[] = [
         prompt: "Put the words in order to say: I'd like to know who decided that.",
         words: ["Ich", "wüsste", "gern,", "wer", "das", "entschieden", "hat."],
         translation: "I'd like to know who decided that.",
-        explanation: "\"Ich wüsste gern\" is a polite, slightly formal I'd like to know.",
+        explanation: "\"Ich wüsste gern\" is a polite, slightly formal 'I'd like to know'; the indirect question \"wer ... hat\" ends with its verb.",
       },
       {
         type: "translate",
@@ -188,7 +188,7 @@ export const DE_B2_U28: Lesson[] = [
         text: "Dürfte ich kurz Ihr Telefon benutzen?",
         prompt: "Say it in German, very politely: Might I use your phone for a moment?",
         tip: "\"Dürfte\": long ü.",
-        explanation: "\"Dürfte ich ...?\" is the most polite way to ask permission.",
+        explanation: "\"Dürfte ich ...?\" is a very polite way to ask permission, more formal than \"Darf ich ...?\" or \"Könnte ich ...?\".",
       },
     ],
   },
@@ -197,7 +197,7 @@ export const DE_B2_U28: Lesson[] = [
     level: "DE-B2",
     number: 2,
     title: "Upper-Intermediate Challenge: The Passive and Its Alternatives",
-    summary: "Vorgangspassiv, Zustandspassiv, man, sich lassen, sein + zu and -bar: choose and form the right structure.",
+    summary: "Choose and form the right structure for the job: Vorgangspassiv or Zustandspassiv, \"man\", \"sich lassen\", \"sein + zu\" or \"-bar\".",
     duration: "16 min",
     sections: [
       {
@@ -220,6 +220,7 @@ export const DE_B2_U28: Lesson[] = [
             prompt: "Translate into German.",
             source: "The road has been closed since yesterday.",
             answer: "Die Straße ist seit gestern gesperrt.",
+            altAnswers: ["Seit gestern ist die Straße gesperrt."],
             explanation: "A state that continues: Zustandspassiv with \"seit\" + present.",
           },
           {
@@ -244,7 +245,7 @@ export const DE_B2_U28: Lesson[] = [
           { es: "Das Fenster lässt sich nicht öffnen.", en: "The window won't open." },
           { es: "Die Gebühr ist bar zu bezahlen.", en: "The fee must be paid in cash." },
           { es: "Das ist in zwei Wochen nicht machbar.", en: "That's not doable in two weeks." },
-          { es: "Sie bekam die Unterlagen nach Hause geschickt.", en: "She had the documents sent to her home." },
+          { es: "Sie bekam die Unterlagen nach Hause geschickt.", en: "She was sent the documents at home." },
         ],
         checkpoint: [
           {
@@ -382,7 +383,7 @@ export const DE_B2_U28: Lesson[] = [
     level: "DE-B2",
     number: 3,
     title: "Upper-Intermediate Challenge: Indirect Speech Gauntlet",
-    summary: "Statements, questions, commands and claims: turn them into indirect speech, with soll and will for hearsay and claims.",
+    summary: "Turn statements, questions and commands into indirect speech, and use \"soll\" and \"will\" for hearsay and claims.",
     duration: "16 min",
     sections: [
       {
@@ -420,7 +421,7 @@ export const DE_B2_U28: Lesson[] = [
         ],
       },
       {
-        heading: "Warm-up: soll and will",
+        heading: "Warm-up: \"soll\" and \"will\"",
         body: [
           "Hearsay without naming the source: \"soll\" (\"Der Minister soll zurücktreten\" = it's said he's going to resign; \"soll ... zurückgetreten sein\" = he's said to have resigned). A person's own claim: \"will\" (\"Er will den Unfall gesehen haben\" = he claims to have seen it).",
           "Compare: \"Er sagt, er habe den Unfall gesehen\" (neutral report) vs \"Er will den Unfall gesehen haben\" (with doubt).",
@@ -482,7 +483,7 @@ export const DE_B2_U28: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "He [claims to have] won the lottery.",
+        en: "He [claims] to have won the lottery.",
         sentence: "Er ___ im Lotto gewonnen haben.",
         answer: "will",
         explanation: "Subjective \"wollen\" = claims.",
@@ -567,14 +568,14 @@ export const DE_B2_U28: Lesson[] = [
     level: "DE-B2",
     number: 4,
     title: "Upper-Intermediate Challenge: Participles, Nominal Style and Funktionsverbgefüge",
-    summary: "The compact structures of written German: build them and unpack them.",
+    summary: "Build and unpack the compact structures of written German: participle attributes, nominal style and Funktionsverbgefüge.",
     duration: "16 min",
     sections: [
       {
         heading: "Warm-up: unpacking",
         body: [
-          "Written German compresses clauses into noun phrases. To read it, unpack: \"die seit Jahren steigenden Mieten\" = die Mieten, die seit Jahren steigen; \"nach Abschluss des Studiums\" = nachdem man das Studium abgeschlossen hat; \"zur Verbesserung der Luftqualität\" = um die Luftqualität zu verbessern.",
-          "Funktionsverbgefüge unpack into simple verbs: \"eine Entscheidung treffen\" → entscheiden, \"in Anspruch nehmen\" → nutzen, \"zum Abschluss bringen\" → abschließen, \"Rücksicht nehmen auf\" → berücksichtigen.",
+          "Written German compresses clauses into noun phrases. To read it, unpack: \"die seit Jahren steigenden Mieten\" = \"die Mieten, die seit Jahren steigen\"; \"nach Abschluss des Studiums\" = \"nachdem man das Studium abgeschlossen hat\"; \"zur Verbesserung der Luftqualität\" = \"um die Luftqualität zu verbessern\".",
+          "Funktionsverbgefüge unpack into simple verbs: \"eine Entscheidung treffen\" → \"entscheiden\", \"in Anspruch nehmen\" → \"nutzen\", \"zum Abschluss bringen\" → \"abschließen\", \"Rücksicht nehmen auf\" → \"berücksichtigen\".",
         ],
         examples: [
           { es: "Die seit Jahren steigenden Mieten sind ein Problem.", en: "The rents, which have been rising for years, are a problem." },
@@ -587,7 +588,7 @@ export const DE_B2_U28: Lesson[] = [
           {
             type: "translate",
             direction: "en-es",
-            prompt: "Translate into German, using a noun phrase with nach.",
+            prompt: "Translate into German, using a noun phrase with \"nach\".",
             source: "After finishing her degree she moved to Munich.",
             answer: "Nach Abschluss des Studiums zog sie nach München.",
             altAnswers: ["Nach Abschluss ihres Studiums zog sie nach München.", "Nach dem Abschluss ihres Studiums zog sie nach München.", "Nach Abschluss ihres Studiums ist sie nach München gezogen.", "Nach dem Abschluss des Studiums ist sie nach München gezogen."],
@@ -646,7 +647,7 @@ export const DE_B2_U28: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using zur + noun.",
+        prompt: "Translate into German, using \"zur\" + noun.",
         source: "Driving bans are being introduced to improve air quality.",
         answer: "Zur Verbesserung der Luftqualität werden Fahrverbote eingeführt.",
         altAnswers: ["Zur Verbesserung der Luftqualität führt man Fahrverbote ein.", "Fahrverbote werden zur Verbesserung der Luftqualität eingeführt."],
@@ -706,7 +707,7 @@ export const DE_B2_U28: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "Translate into German, using bei + noun.",
+        prompt: "Translate into German, using \"bei\" + noun.",
         source: "If it rains, the concert takes place in the hall.",
         answer: "Bei Regen findet das Konzert in der Halle statt.",
         altAnswers: ["Bei Regen findet das Konzert im Saal statt."],
@@ -1040,7 +1041,7 @@ export const DE_B2_U28: Lesson[] = [
       {
         heading: "Sonntag: Abschied",
         body: [
-          "Sunday: Jana has breakfast with Herr Petersen before her train. She looks back and ahead. Regrets: \"Ich hätte gern noch eine Hafenrundfahrt gemacht.\" (\"Gern\" + Konjunktiv II past = I'd have liked to.) Futur II: \"Bis du den Artikel gelesen hast, werde ich schon wieder in Stuttgart angekommen sein.\"",
+          "Sunday: Jana has breakfast with Herr Petersen before her train. She looks back and ahead. Regrets: \"Ich hätte gern noch eine Hafenrundfahrt gemacht.\" (\"Gern\" + Konjunktiv II past = I'd have liked to.) Futur II: \"Bis Sie den Artikel gelesen haben, werde ich schon wieder in Stuttgart angekommen sein.\"",
           "Emphasis in farewells: \"Was ich am meisten vermissen werde, ist der Blick auf die Elbe.\" Concession: \"Obwohl es fast jeden Tag geregnet hat, habe ich mich in die Stadt verliebt.\"",
           "Herr Petersen answers in northern style: \"Moin\" is the all-day hello in Hamburg, and \"Tschüss\" or \"Tschüs\" the goodbye.",
         ],
@@ -1171,14 +1172,14 @@ export const DE_B2_U28: Lesson[] = [
     slug: "b2-challenge-schreiben",
     level: "DE-B2",
     number: 7,
-    title: "Upper-Intermediate Challenge: Forumsbeitrag und Formelle Nachricht",
+    title: "Upper-Intermediate Challenge: Forumsbeitrag und formelle Nachricht",
     summary: "Write a Goethe B2-style forum post on short-term holiday rentals and a formal message to a landlord, with concession, formal connectors and the right register.",
     duration: "20 min",
     sections: [
       {
         heading: "Teil 1: der Forumsbeitrag",
         body: [
-          "In the Goethe-Zertifikat B2 Schreiben, part 1 is a forum post of about 150 words: you give your opinion on a topic, with reasons and examples, and respond to other people's views. The topic here: Should cities limit short-term holiday rentals (\"Ferienwohnungen\", \"die Kurzzeitvermietung\", platforms like Airbnb)?",
+          "In the Goethe-Zertifikat B2 \"Schreiben\" module, part 1 is a forum post of about 150 words: you give your opinion on a topic, with reasons and examples, and respond to other people's views. The topic here: Should cities limit short-term holiday rentals (\"Ferienwohnungen\", \"die Kurzzeitvermietung\", platforms like Airbnb)?",
           "Structure: an opening sentence that names the topic (\"In diesem Forum wird diskutiert, ob ...\"), your opinion (\"Meiner Meinung nach ...\", \"Ich bin der Ansicht, dass ...\"), two or three arguments with connectors (\"zum einen ... zum anderen\", \"außerdem\", \"hinzu kommt, dass ...\"), a concession (\"Zwar ..., aber ...\", \"Es stimmt, dass ..., dennoch ...\"), an example from your own experience, and a conclusion (\"Alles in allem ...\", \"Deshalb finde ich, dass ...\").",
           "Register: a forum is semi-formal. You can write \"ich\" and give personal examples; avoid slang, but you don't need \"Sehr geehrte\".",
         ],
@@ -1390,14 +1391,14 @@ export const DE_B2_U28: Lesson[] = [
     level: "DE-B2",
     number: 8,
     title: "Upper-Intermediate Exit Test: Ready for the Advanced Level?",
-    summary: "The final Upper-intermediate test in Goethe-Zertifikat B2 format: reading and listening comprehension, grammar and vocabulary, a written forum post and a spoken presentation.",
+    summary: "Show you're ready for the Advanced level in a test modelled on the Goethe-Zertifikat B2: reading and listening, grammar and vocabulary, a written forum post and a spoken presentation.",
     duration: "20 min",
     sections: [
       {
         heading: "Lesen: ein Zeitungsartikel",
         body: [
           "Read the article extract (all in German, as in the exam), then answer. \"Immer mehr junge Menschen in Deutschland entscheiden sich gegen ein Studium und für eine Ausbildung im Handwerk. Laut einer aktuellen Umfrage des Zentralverbands des Deutschen Handwerks sei die Zahl der neuen Auszubildenden im vergangenen Jahr um sechs Prozent gestiegen. Als Gründe nennen viele die guten Berufsaussichten und den Wunsch, etwas mit den Händen zu schaffen.\"",
-          "\"Dennoch bleiben zahlreiche Lehrstellen unbesetzt, vor allem in ländlichen Regionen. Ein Bäckermeister aus der Eifel sagt, er hätte gern zwei Lehrlinge eingestellt, habe aber keine einzige Bewerbung bekommen. Experten fordern deshalb, dass Schulen früher über handwerkliche Berufe informieren sollten.\"",
+          "\"Dennoch bleiben zahlreiche Lehrstellen unbesetzt, vor allem in ländlichen Regionen. Ein Bäckermeister aus der Eifel sagt, er hätte gern zwei Lehrlinge eingestellt, habe aber keine einzige Bewerbung bekommen. Experten fordern deshalb, dass Schulen früher über handwerkliche Berufe informieren.\"",
           "Exam tip: questions follow the order of the text; look for synonyms (\"gestiegen\" = \"zugenommen\") rather than the same words.",
         ],
         examples: [
@@ -1472,10 +1473,10 @@ export const DE_B2_U28: Lesson[] = [
         ],
       },
       {
-        heading: "Sprachbausteine, Schreiben und Sprechen",
+        heading: "Grammatik, Schreiben und Sprechen",
         body: [
-          "Grammar and vocabulary items test the Upper-intermediate forms directly: mood, connector, preposition and case, relative pronoun, passive. Then you write a forum post (about 150 words, see the previous lesson) and a formal message (about 100 words).",
-          "In Sprechen, part 1 is a short presentation (\"Vortrag\") of about four minutes on a topic you choose from two: introduce the topic, describe the situation in your country, give pros and cons, your opinion, a conclusion. Part 2 is a discussion with a partner: you exchange opinions, react (\"Da stimme ich dir zu\", \"Da muss ich widersprechen\") and reach a conclusion together.",
+          "The Goethe-Zertifikat B2 has no separate grammar section (unlike the telc exam's \"Sprachbausteine\"), but the Upper-intermediate forms are tested all the same through reading, writing and speaking: mood, connector, preposition and case, relative pronoun, passive. The grammar items below practise them directly. In \"Schreiben\" you write a forum post (about 150 words, see the previous lesson) and a formal message (about 100 words).",
+          "In \"Sprechen\", part 1 is a short presentation (\"Vortrag\") of about four minutes on a topic you choose from two: introduce the topic, describe the situation in your country, give pros and cons, your opinion, a conclusion. Part 2 is a discussion with a partner: you exchange opinions, react (\"Da stimme ich dir zu\", \"Da muss ich widersprechen\") and reach a conclusion together.",
           "Useful presentation phrases: \"In meinem Vortrag geht es um ...\", \"Zunächst möchte ich ...\", \"Ein wichtiger Vorteil ist ...\", \"Abschließend möchte ich sagen, dass ...\", \"Vielen Dank für Ihre Aufmerksamkeit.\"",
         ],
         examples: [
@@ -1492,7 +1493,7 @@ export const DE_B2_U28: Lesson[] = [
             prompt: "Translate into German.",
             source: "My presentation is about working from home.",
             answer: "In meinem Vortrag geht es um das Arbeiten von zu Hause.",
-            altAnswers: ["In meinem Vortrag geht es um das Homeoffice.", "In meinem Vortrag geht es um Homeoffice.", "Mein Vortrag handelt vom Homeoffice.", "In meinem Vortrag geht es um die Arbeit von zu Hause."],
+            altAnswers: ["In meinem Vortrag geht es um das Homeoffice.", "In meinem Vortrag geht es um Homeoffice.", "Mein Vortrag handelt vom Homeoffice.", "In meinem Vortrag geht es um die Arbeit von zu Hause.", "In meinem Vortrag geht es um das Arbeiten von zuhause."],
             explanation: "\"Es geht um\" + accusative: the standard way to name a topic.",
           },
           {

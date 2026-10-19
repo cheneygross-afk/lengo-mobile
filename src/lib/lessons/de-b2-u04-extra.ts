@@ -52,7 +52,8 @@ export const DE_B2_U04_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I don't know when she's coming.",
         answer: "Ich weiß nicht, wann sie kommt.",
-        explanation: "A question about time: \"wann\".",
+        altAnswers: ["Ich weiß nicht, wann sie kommen wird."],
+        explanation: "A question about time: \"wann\", not \"wenn\" (a condition or whenever); verb at the end.",
       },
       {
         type: "translate",
@@ -69,7 +70,7 @@ export const DE_B2_U04_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "If it rains, we'll stay at home.",
         answer: "Wenn es regnet, bleiben wir zu Hause.",
-        altAnswers: ["Falls es regnet, bleiben wir zu Hause.", "Wir bleiben zu Hause, wenn es regnet.", "Wenn es regnet, bleiben wir daheim."],
+        altAnswers: ["Falls es regnet, bleiben wir zu Hause.", "Wir bleiben zu Hause, wenn es regnet.", "Wenn es regnet, bleiben wir daheim.", "Wenn es regnet, bleiben wir zuhause."],
         explanation: "A condition: \"wenn\" or \"falls\".",
       },
       {
@@ -230,8 +231,8 @@ export const DE_B2_U04_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "The management requests that all staff attend. (formal)",
         answer: "Die Geschäftsführung bittet, alle Mitarbeiter mögen teilnehmen.",
-        altAnswers: ["Die Geschäftsleitung bittet, alle Mitarbeiter mögen teilnehmen.", "Die Geschäftsführung bittet alle Mitarbeiter, teilzunehmen.", "Die Geschäftsführung bittet alle Mitarbeitenden, teilzunehmen."],
-        explanation: "Formal: \"mögen\" (plural Konjunktiv I, here still used in this fixed style).",
+        altAnswers: ["Die Geschäftsleitung bittet, alle Mitarbeiter mögen teilnehmen.", "Die Geschäftsführung bittet, alle Mitarbeiter möchten teilnehmen.", "Die Geschäftsleitung bittet, alle Mitarbeiter möchten teilnehmen.", "Die Geschäftsführung bittet alle Mitarbeiter, teilzunehmen.", "Die Geschäftsführung bittet alle Mitarbeitenden, teilzunehmen."],
+        explanation: "Formal: \"mögen\" (plural Konjunktiv I, still used in this fixed style); since it looks like the indicative, \"möchten\" is just as common.",
       },
       {
         type: "translate",
@@ -271,7 +272,7 @@ export const DE_B2_U04_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the German for the bold words.",
-        en: "She asked me [to call] her back.",
+        en: "She asked me [to call] her [back].",
         sentence: "Sie bat mich, sie ___.",
         answer: "zurückzurufen",
         explanation: "Separable verb: zu in the middle.",
@@ -457,7 +458,7 @@ export const DE_B2_U04_EXTRA: Lesson[] = [
         question: "The agent said: \"Haben Sie den Router neu gestartet?\" Which summary is correct?",
         options: ["Er fragte, ob wir den Router neu gestartet hätten.", "Er fragte, haben wir den Router neu gestartet.", "Er fragte, wenn wir den Router neu gestartet hätten.", "Er bat uns, den Router neu gestartet zu haben."],
         correctIndex: 0,
-        explanation: "Yes/no question → \"ob\".",
+        explanation: "Yes/no question → \"ob\" + verb at the end, \"Sie\" → \"wir\". \"Wenn\" is a condition, and \"bitten\" reports a request, not a question.",
       },
       {
         type: "word-order",

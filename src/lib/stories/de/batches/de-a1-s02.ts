@@ -70,7 +70,7 @@ export const DE_A1_S02_STORIES: Story[] = [
       },
       {
         question: `How does Jonas find the answer?`,
-        options: [`He asks the neighbors.`, `He films the kitchen at night with his phone.`, `He stays awake all night.`, `He counts the yogurts every hour.`],
+        options: [`He asks the neighbours.`, `He films the kitchen at night with his phone.`, `He stays awake all night.`, `He counts the yogurts every hour.`],
         correctIndex: 1,
         explanation: `"Er stellt sein Handy in die Küche und filmt die ganze Nacht."`,
       },
@@ -90,7 +90,7 @@ export const DE_A1_S02_STORIES: Story[] = [
     paragraphs: [
       `Liebe Oma, viele Grüße von Rügen! Ich bin seit Montag hier, in einem kleinen Hotel am Meer. Das Zimmer ist schön, und das Frühstück ist super.`,
       `Leider ist das Wetter schrecklich. Es regnet jeden Tag, und es ist kalt und windig. Ich kann nicht schwimmen und nicht in der Sonne liegen. Ich trinke viel Tee und lese Bücher.`,
-      `Aber am Mittwoch passiert etwas. Ich gehe im Regen am Strand spazieren. Da sehe ich einen Mann mit einem Hund. Der Hund nimmt meine Mütze und läuft weg! Der Mann läuft hinter dem Hund her, und ich laufe hinter dem Mann.`,
+      `Aber am Mittwoch passiert etwas. Ich gehe im Regen am Strand spazieren. Da sehe ich einen Mann mit einem Hund. Der Hund nimmt meine Mütze und läuft weg! Der Mann läuft hinter dem Hund her, und ich laufe hinter dem Mann her.`,
       `Der Mann heißt Malte. Er wohnt hier auf Rügen. Er ist Fischer und sehr nett. Heute Abend gehen wir zusammen essen. Fisch, natürlich!`,
       `Ich bleibe vielleicht noch eine Woche. Das Wetter ist mir jetzt egal. Viele liebe Grüße, deine Mia. PS: Die Mütze ist kaputt. Aber das ist nicht schlimm.`,
     ],
@@ -129,8 +129,8 @@ export const DE_A1_S02_STORIES: Story[] = [
     paragraphs: [
       `Herr Brunner wohnt in Winterthur und arbeitet in Zürich. Seit 30 Jahren nimmt er jeden Tag den Zug um 7:12 Uhr. Er ist nie zu spät. Nie! Er steht immer um 7:05 Uhr auf Gleis 3.`,
       `Heute ist Dienstag. Herr Brunner steht auf, duscht und trinkt einen Kaffee. Dann sieht er auf sein Handy. Es ist 7:10 Uhr! Die Uhr in der Küche geht falsch. Er rennt zum Bahnhof.`,
-      `Um 7:13 Uhr ist er auf dem Gleis. Der Zug fährt gerade ab. Herr Brunner steht allein da. Was macht er jetzt?`,
-      `Der nächste Zug kommt um 7:42 Uhr. Aber Herr Brunner wartet nicht. Er geht aus dem Bahnhof und spaziert durch die Stadt. Die Sonne scheint. Er kauft ein Gipfeli und setzt sich auf eine Bank im Park. Die Vögel singen.`,
+      `Um 7:12 Uhr ist er auf dem Gleis. Der Zug fährt gerade ab. Herr Brunner steht allein da. Was macht er jetzt?`,
+      `Der nächste Zug kommt schon um 7:20 Uhr. Aber Herr Brunner wartet nicht. Er geht aus dem Bahnhof und spaziert durch die Stadt. Die Sonne scheint. Er kauft ein Gipfeli und setzt sich auf eine Bank im Park. Die Vögel singen.`,
       `Um neun ruft er seine Chefin an. „Frau Keller, ich komme heute nicht. Ich nehme einen Tag frei.“ Die Chefin ist überrascht. „Herr Brunner? Sind Sie krank?“ Herr Brunner lacht. „Nein, ganz im Gegenteil!“`,
     ],
     questions: [
@@ -213,7 +213,7 @@ export const DE_A1_S02_ENGLISH: Record<string, string[]> = {
     `Jonas lives in Freiburg in a shared flat with two friends, Lisa and Ben. Everyone has a shelf in the fridge. Every Monday Jonas buys four strawberry yogurts.`,
     `But on Wednesday all the yogurts are gone. Jonas writes a note: "Please don't eat my yogurt! Jonas". He sticks the note on the fridge.`,
     `The next week: no yogurt again. Jonas is furious. "Lisa, are you eating my yogurt?" "No! I don't eat yogurt. I'm vegan." "Ben?" "No, I don't like strawberries."`,
-    `Jonas has an idea. He puts his phone in the kitchen and films all night. In the morning he watches the video. At three o'clock someone opens the fridge. He takes a yogurt and eats it. It's Jonas! He's wearing his pajamas, and his eyes are closed.`,
+    `Jonas has an idea. He puts his phone in the kitchen and films all night. In the morning he watches the video. At three o'clock someone opens the fridge. He takes a yogurt and eats it. It's Jonas! He's wearing his pyjamas, and his eyes are closed.`,
     `Lisa and Ben laugh out loud. "You're sleepwalking!" Now the fridge has a lock. Lisa has the key.`,
   ],
   "de-postkarte-von-ruegen": [
@@ -226,15 +226,15 @@ export const DE_A1_S02_ENGLISH: Record<string, string[]> = {
   "de-der-zug-um-sieben-uhr-zwoelf": [
     `Herr Brunner lives in Winterthur and works in Zurich. For 30 years he has taken the 7:12 train every day. He is never late. Never! He always stands on platform 3 at 7:05.`,
     `Today is Tuesday. Herr Brunner gets up, showers and drinks a coffee. Then he looks at his phone. It's 7:10! The clock in the kitchen is wrong. He races to the station.`,
-    `At 7:13 he is on the platform. The train is just leaving. Herr Brunner stands there alone. What does he do now?`,
-    `The next train comes at 7:42. But Herr Brunner doesn't wait. He walks out of the station and strolls through the town. The sun is shining. He buys a croissant and sits down on a bench in the park. The birds are singing.`,
+    `At 7:12 he is on the platform. The train is just leaving. Herr Brunner stands there alone. What does he do now?`,
+    `The next train comes at 7:20, only a few minutes later. But Herr Brunner doesn't wait. He walks out of the station and strolls through the town. The sun is shining. He buys a croissant and sits down on a bench in the park. The birds are singing.`,
     `At nine he calls his boss. "Frau Keller, I'm not coming in today. I'm taking a day off." His boss is surprised. "Herr Brunner? Are you ill?" Herr Brunner laughs. "No, quite the opposite!"`,
   ],
   "de-ella-faehrt-fahrrad": [
     `Ella is 41 and has lived in Münster for a month. In Münster everybody rides a bike: children, students, grandparents, even the mayor. Only Ella doesn't. She can't ride a bike.`,
     `Her daughter Marie is ten. "Mum, I'll teach you!" she says. On Saturday they go to the park together. Marie holds the bike steady. Ella gets on. She is scared.`,
     `Ella falls off once, then twice, then three times. Her knee hurts. "I can't do this!" she cries. "Yes you can, Mum!" says Marie. "Once more!"`,
-    `Ella tries once more. Marie runs beside her and holds the bike. Ella rides ten meters, twenty meters, fifty meters. "Marie, hold on to me!" Ella calls. But Marie doesn't answer.`,
+    `Ella tries once more. Marie runs beside her and holds the bike. Ella rides ten metres, twenty metres, fifty metres. "Marie, hold on to me!" Ella calls. But Marie doesn't answer.`,
     `Ella looks behind her. Marie is standing far away, waving. Ella is riding on her own! On Monday Ella cycles to work. She is a bit slow. But she laughs the whole way.`,
   ],
 };
@@ -244,7 +244,7 @@ export const DE_A1_S02_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "teuer", en: "expensive", forms: ["teuer"] },
     { es: "die WG (Wohngemeinschaft)", en: "shared flat", forms: ["wg"] },
     { es: "rauchen", en: "to smoke", forms: ["rauchst"] },
-    { es: "nachdenken", en: "to think (about something)", forms: ["denkt", "nach"] },
+    { es: "nachdenken", en: "to think (about something)", forms: ["denkt"] },
     { es: "ehrlich", en: "honest", forms: ["ehrlich"] },
     { es: "plötzlich", en: "suddenly", forms: ["plötzlich"] },
     { es: "springen", en: "to jump", forms: ["springt"] },
@@ -295,9 +295,9 @@ export const DE_A1_S02_GLOSSES: Record<string, StoryGloss[]> = {
     { es: "das Fahrrad", en: "bicycle", forms: ["fahrrad"] },
     { es: "sogar", en: "even", forms: ["sogar"] },
     { es: "der Bürgermeister", en: "mayor", forms: ["bürgermeister"] },
-    { es: "beibringen", en: "to teach", forms: ["bringe", "bei"] },
-    { es: "festhalten", en: "to hold (on to), to hold steady", forms: ["hält", "fest", "halt"] },
-    { es: "hinfallen", en: "to fall over, to fall down", forms: ["fällt", "hin"] },
+    { es: "beibringen", en: "to teach", forms: ["bringe"] },
+    { es: "festhalten", en: "to hold (on to), to hold steady", forms: ["hält", "halt"] },
+    { es: "hinfallen", en: "to fall over, to fall down", forms: ["fällt"] },
     { es: "wehtun", en: "to hurt", forms: ["weh"] },
     { es: "versuchen", en: "to try", forms: ["versucht"] },
     { es: "winken", en: "to wave", forms: ["winkt"] },
