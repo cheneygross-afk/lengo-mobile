@@ -8,11 +8,10 @@ import { PT_B2_LESSONS, PT_B2_UNITS } from "./pt-b2";
 import { PT_C1_LESSONS, PT_C1_UNITS } from "./pt-c1";
 import { PT_C2_LESSONS, PT_C2_UNITS } from "./pt-c2";
 
-// The Brazilian Portuguese course (beta): its A1-C2 levels in order, as the
+// The Brazilian Portuguese course: its A1-C2 levels in order, as the
 // /lessons/pt page lists them (the same shape as the German course). B1-C1
 // line up with the Celpe-Bras certificate levels. Scope and authoring
-// conventions: docs/portuguese-course/. The beta is visible to one account
-// only (isPortugueseBetaEmail in lib/entitlements.ts).
+// conventions: docs/portuguese-course/.
 export type PortugueseLevel = {
   code: "A1" | "A2" | "B1" | "B2" | "C1" | "C2";
   /** "a1" ... "c2": the URL segment under /lessons/pt. */
