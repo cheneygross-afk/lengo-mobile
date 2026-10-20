@@ -998,7 +998,7 @@ export const EN_C1_U10: Lesson[] = [
         sentence: "Lucia and Sofia are ___: you never see one without the other.",
         answer: "joined at the hip",
         altAnswers: ["as thick as thieves", "thick as thieves", "inseparable"],
-        en: "Lucia y Sofia [son uña y carne]: nunca ves a una sin la otra.",
+        en: "Lucía y Sofía [son uña y carne]: nunca ves a una sin la otra.",
         explanation: "«Ser uña y carne» is \"be joined at the hip\" or \"be as thick as thieves\".",
       },
       {
@@ -1110,7 +1110,7 @@ export const EN_C1_U10: Lesson[] = [
           "\"Bread and butter\" can also be figurative: \"Weddings are our bread and butter\" means weddings are our main source of income. \"Ups and downs\" («altibajos») and \"now and then\" («de vez en cuando») are also very frequent.",
         ],
         examples: [
-          { es: "It's an old black-and-white film.", en: "Es una película antigua en blanco y negro." },
+          { es: "It's an old black-and-white movie.", en: "Es una película antigua en blanco y negro." },
           { es: "Sooner or later, he'll find out.", en: "Tarde o temprano se enterará." },
           { es: "He was pacing back and forth.", en: "Iba de un lado a otro." },
           { es: "Every relationship has its ups and downs.", en: "Toda relación tiene sus altibajos." },
@@ -1456,7 +1456,7 @@ export const EN_C1_U10: Lesson[] = [
           { es: "After losing his job, he hit rock bottom.", en: "Después de perder el trabajo, tocó fondo." },
           { es: "House prices have soared.", en: "Los precios de la vivienda se han disparado." },
           { es: "Sales plummeted after the scandal.", en: "Las ventas se desplomaron tras el escándalo." },
-          { es: "Spirits were high before the final.", en: "Había muchísima moral antes de la final." },
+          { es: "Spirits were high before the final.", en: "Los ánimos estaban por las nubes antes de la final." },
         ],
         checkpoint: [
           {
@@ -3155,7 +3155,7 @@ export const EN_C1_U10: Lesson[] = [
         heading: "Negative qualities",
         body: [
           "\"Two-faced\" means hypocritical, saying one thing to your face and another behind your back: «falso, hipócrita». \"Conceited\" and the more informal \"big-headed\" mean «creído, engreído».",
-          "\"As stubborn as a mule\" is «más terco que una mula». \"Bossy\" is someone who likes giving orders, «mandón». And \"a pain in the neck\" is an annoying person or thing, «un pesado, un plasta, un rollo».",
+          "\"As stubborn as a mule\" is «más terco que una mula». \"Bossy\" is someone who likes giving orders, «mandón». And \"a pain in the neck\" is an annoying person or thing, «un pesado, una lata, un fastidio».",
           "\"Outspoken\" is neutral to positive: it describes someone who says what they think openly, «franco, que no tiene pelos en la lengua». Whether that is a compliment depends on the context.",
         ],
         examples: [
@@ -3277,7 +3277,7 @@ export const EN_C1_U10: Lesson[] = [
         sentence: "This printer is a real ___: it jams every day.",
         answer: "pain in the neck",
         altAnswers: ["pain", "nuisance", "pain in the backside", "pain in the butt"],
-        en: "Esta impresora es [un auténtico rollo]: se atasca todos los días.",
+        en: "Esta impresora es [una auténtica lata]: se atasca todos los días.",
         explanation: "\"A pain in the neck\" works for annoying people and things.",
       },
       {

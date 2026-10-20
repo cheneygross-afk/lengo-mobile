@@ -55,13 +55,13 @@ export const EN_C2_U09_EXTRA: Lesson[] = [
         heading: "How + adjective + subject + verb; such ... that",
         body: [
           "\"How\" can be followed by the whole clause, with normal word order (no inversion): \"How quickly time passes!\", \"How tired you look!\" The question order (*How tired do you look!) turns the exclamation into a question.",
-          "\"So\" and \"such\" also introduce result clauses: \"It was such a long film that I fell asleep\", \"The film was so long that I fell asleep\". Do not mix them: *so long film, *such long.",
+          "\"So\" and \"such\" also introduce result clauses: \"It was such a long movie that I fell asleep\", \"The movie was so long that I fell asleep\". Do not mix them: *so long film, *such long.",
           "\"So much\" and \"so many\" go with nouns of quantity: \"There were so many people!\", \"I've got so much work!\" (*such many people is wrong).",
         ],
         examples: [
           { es: "How quickly time passes!", en: "¡Qué rápido pasa el tiempo!" },
           { es: "How tired you look!", en: "¡Qué cansado se te ve!" },
-          { es: "It was such a long film that I fell asleep.", en: "Era una película tan larga que me dormí." },
+          { es: "It was such a long movie that I fell asleep.", en: "Era una película tan larga que me dormí." },
           { es: "There were so many people at the concert!", en: "¡Había tantísima gente en el concierto!" },
           { es: "She speaks such good English!", en: "¡Qué bien habla inglés!" },
         ],

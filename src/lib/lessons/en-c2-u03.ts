@@ -503,7 +503,7 @@ export const EN_C2_U03: Lesson[] = [
         sentence: "Your ___ is a little high, so we'll check it again next week.",
         answer: "blood pressure",
         en: "Tiene la [presión] un poco alta, así que se la volveremos a tomar la semana que viene.",
-        explanation: "«Tensión» in the medical sense is \"blood pressure\". *Tension means stress or tightness.",
+        explanation: "«Presión» (in Spain also «tensión») in the medical sense is \"blood pressure\". *Tension means stress or tightness.",
       },
       {
         type: "multiple-choice",
@@ -2101,7 +2101,7 @@ export const EN_C2_U03: Lesson[] = [
           "Remember the countability: \"I've got a cold\" (countable, with \"a\"), \"I've got flu\" (UK) or \"I've got the flu\" (US).",
         ],
         examples: [
-          { es: "I've got a cold.", en: "Estoy constipado. (incorrecto: *I'm constipated)" },
+          { es: "I've got a cold.", en: "Estoy resfriado (en España: «constipado»). (incorrecto: *I'm constipated)" },
           { es: "I'm all stuffed up and I can't breathe through my nose.", en: "Tengo la nariz tapada y no puedo respirar por ella." },
           { es: "I've been constipated for four days.", en: "Llevo cuatro días estreñido." },
           { es: "We all got food poisoning at the wedding.", en: "Todos tuvimos una intoxicación alimentaria en la boda." },
@@ -2112,7 +2112,7 @@ export const EN_C2_U03: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Estoy constipado y me duele la garganta.",
+            source: "Estoy resfriado y me duele la garganta.",
             answer: "I've got a cold and a sore throat.",
             altAnswers: [
               "I have a cold and a sore throat.",
@@ -2281,7 +2281,7 @@ export const EN_C2_U03: Lesson[] = [
           "I can't go to work because I have a bad cold and a fever.",
           "I can't go into work; I've got a bad cold and a fever.",
         ],
-        explanation: "«Estar constipado» is \"have a cold\"; \"a bad cold\" or \"a heavy cold\" for «muy constipado». Never \"constipated\".",
+        explanation: "«Estar resfriado» (Spain: «constipado») is \"have a cold\"; \"a bad cold\" or \"a heavy cold\" for «muy resfriado». Never \"constipated\".",
       },
       {
         type: "fill-blank",
@@ -2723,7 +2723,7 @@ export const EN_C2_U03: Lesson[] = [
         ],
         examples: [
           { es: "I've had a dull ache in my lower back for a month.", en: "Llevo un mes con un dolor sordo en la zona lumbar." },
-          { es: "I've got a cold.", en: "Estoy constipado." },
+          { es: "I've got a cold.", en: "Estoy resfriado." },
           { es: "You've had a mild heart attack.", en: "Ha sufrido un infarto leve." },
         ],
         checkpoint: [

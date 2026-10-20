@@ -304,6 +304,7 @@ export const EN_C1_U08_DRILLS: Lesson[] = [
           "I'd rather you didn't smoke in here.",
           "I'd sooner you didn't smoke here.",
           "I'd sooner you didn't smoke in here.",
+          "I'd prefer it if you didn't smoke here.",
         ],
         explanation: "Different subject + past simple: \"you didn't smoke\". Spanish «fumaras» is a past subjunctive, yet learners often slip into *I'd rather you don't smoke.",
       },
@@ -712,7 +713,7 @@ export const EN_C1_U08_DRILLS: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Tenía un mapa; si no, me habría perdido.",
-        answer: "I had a map otherwise I would have gotten lost.",
+        answer: "I had a map; otherwise I would have gotten lost.",
         altAnswers: [
           "I had a map otherwise I would have got lost.",
           "I had a map or else I would have gotten lost.",
@@ -1221,7 +1222,7 @@ export const EN_C1_U08_DRILLS: Lesson[] = [
         prompt: "Someone asks if they can bring a friend. Translate the polite refusal into English.",
         source: "Preferiría que no.",
         answer: "I'd rather you didn't.",
-        altAnswers: ["I'd sooner you didn't."],
+        altAnswers: ["I'd sooner you didn't.", "I'd prefer it if you didn't.", "I'd prefer you didn't."],
         explanation: "\"I'd rather you didn't\" is the classic polite refusal: it says no without the word \"no\".",
       },
       {
@@ -1571,7 +1572,7 @@ export const EN_C1_U08_DRILLS: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "It's important that the children ___ alone near the pool.",
         answer: "not be left",
-        en: "Es importante que [no se deje] a los niños solos cerca de la alberca.",
+        en: "Es importante que [no se deje] a los niños solos cerca de la piscina.",
         altAnswers: ["should not be left", "shouldn't be left"],
         explanation: "Negative subjunctive: \"not\" + base form, with no \"do\": \"not be left\". *don't be left is impossible here.",
       },
@@ -1771,7 +1772,7 @@ export const EN_C1_U08_DRILLS: Lesson[] = [
         type: "speak",
         text: "I suggest we take a short break and come back to this later.",
         prompt: "Say in English: «Sugiero que hagamos una pausa corta y retomemos esto más tarde.»",
-        tip: "\"Suggest\" has stress on the second syllable: /səɡˈdʒest/ (American often /səˈdʒest/).",
+        tip: "\"Suggest\" has stress on the second syllable: /səɡˈdʒest/ (British often /səˈdʒest/).",
         explanation: "\"Suggest\" + subject + base form (\"we take\"), with \"that\" dropped in informal style. \"Take a break\", not *make a break.",
       },
       {
@@ -3150,6 +3151,7 @@ export const EN_C1_U08_DRILLS: Lesson[] = [
         prompt: "Translate into English.",
         source: "Ojalá dejaras de interrumpirme.",
         answer: "I wish you would stop interrupting me.",
+        altAnswers: ["If only you would stop interrupting me.", "I wish you'd stop interrupting me."],
         explanation: "\"Wish\" + \"would\" expresses irritation about someone else's behavior. After \"stop\", use -ing: \"stop interrupting\".",
       },
       {
@@ -3244,6 +3246,7 @@ export const EN_C1_U08_DRILLS: Lesson[] = [
           "He insisted he was innocent, but he was convicted.",
           "He insisted that he was innocent, but he was found guilty.",
           "He insisted that he was innocent, but he was convicted.",
+          "He insisted he was innocent, but they found him guilty.",
         ],
         explanation: "\"Insist\" reporting a claim takes a normal tense (\"was innocent\"), not a subjunctive. «Lo declararon culpable» = \"he was found guilty\" or \"convicted\".",
       },
@@ -3439,7 +3442,7 @@ export const EN_C1_U08_DRILLS: Lesson[] = [
         prompt: "Translate into English.",
         source: "Preferiría que no grabaras la reunión.",
         answer: "I'd rather you didn't record the meeting.",
-        altAnswers: ["I'd sooner you didn't record the meeting."],
+        altAnswers: ["I'd sooner you didn't record the meeting.", "I'd prefer it if you didn't record the meeting.", "I'd prefer you didn't record the meeting."],
         explanation: "\"Would rather\" + different subject + past simple: \"you didn't record\". *you don't record is the calque.",
       },
       {

@@ -850,7 +850,7 @@ export const DE_C1_U04_EXTRA: Lesson[] = [
         prompt: "Translate into German.",
         source: "I enjoy cooking.",
         answer: "Ich koche gern.",
-        altAnswers: ["Ich koche gerne.", "Kochen macht mir Spaß."],
+        altAnswers: ["Ich koche gerne.", "Kochen macht mir Spaß.", "Ich mag kochen.", "Ich koche sehr gern."],
         explanation: "Enjoy + -ing usually becomes \"gern\" with the verb.",
       },
       {

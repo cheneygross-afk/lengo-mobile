@@ -876,7 +876,7 @@ export const EN_C1_U09_DRILLS: Lesson[] = [
       {
         type: "speak",
         text: "Further research needs to be carried out before we draw any conclusions.",
-        tip: "Stress \"FURther reSEARCH\" and \"CARried OUT\". In American English \"research\" is often stressed on the first syllable: /ˈriːsɝːtʃ/.",
+        tip: "Stress \"FURther REsearch\" and \"CARried OUT\". Most American speakers stress \"research\" on the first syllable: /ˈriːsɝːtʃ/; \"reSEARCH\" is also heard.",
         explanation: "Two report collocations: \"carry out research\" (in the passive) and \"draw conclusions\".",
       },
       {
@@ -1506,7 +1506,7 @@ export const EN_C1_U09_DRILLS: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["The", "campsite", "was", "fully", "equipped", "with", "showers", "and", "a", "kitchen."],
+        words: ["The", "campground", "was", "fully", "equipped", "with", "showers", "and", "a", "kitchen."],
         translation: "El camping estaba totalmente equipado con duchas y cocina.",
         explanation: "\"Fully equipped\" («totalmente equipado») is another fixed partner of \"fully\".",
       },

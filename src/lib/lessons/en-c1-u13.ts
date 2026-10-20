@@ -310,7 +310,7 @@ export const EN_C1_U13: Lesson[] = [
           { es: "Subject: Request for meeting: Q3 budget", en: "Asunto: Solicitud de reunión: presupuesto del tercer trimestre" },
           { es: "Subject: Invoice 4581: payment query", en: "Asunto: Factura 4581: consulta sobre el pago" },
           { es: "Subject: Change of delivery address for order 7720", en: "Asunto: Cambio de dirección de entrega del pedido 7720" },
-          { es: "Subject: Application for the post of Marketing Assistant", en: "Asunto: Solicitud para el puesto de asistente de marketing" },
+          { es: "Subject: Application for the position of Marketing Assistant", en: "Asunto: Solicitud para el puesto de asistente de marketing" },
         ],
         checkpoint: [
           {
@@ -563,8 +563,8 @@ export const EN_C1_U13: Lesson[] = [
           { es: "Subject: Spanish teacher training course: availability", en: "Asunto: Curso de formación de profesores de español: plazas" },
           { es: "Dear Admissions Team,", en: "Estimado equipo de admisiones:" },
           { es: "I am writing to inquire about your teacher training course in July.", en: "Les escribo para informarme sobre su curso de formación de profesores de julio." },
-          { es: "Could you tell me whether there are still places available, and what the total cost is?", en: "¿Podrían decirme si todavía quedan plazas y cuál es el costo total?" },
-          { es: "I would also be grateful if you could send me the course timetable.", en: "También les agradecería que me enviaran el horario del curso." },
+          { es: "Could you tell me whether there are still spots available, and what the total cost is?", en: "¿Podrían decirme si todavía quedan plazas y cuál es el costo total?" },
+          { es: "I would also be grateful if you could send me the course schedule.", en: "También les agradecería que me enviaran el horario del curso." },
           { es: "Thank you in advance for your help. Kind regards, Lucia Moreno", en: "Gracias de antemano por su ayuda. Un saludo, Lucía Moreno" },
         ],
         checkpoint: [
@@ -986,9 +986,9 @@ export const EN_C1_U13: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Le agradecería que me confirmara la reserva lo antes posible.",
-        answer: "I would be grateful if you could confirm the booking as soon as possible.",
+        answer: "I would be grateful if you could confirm the reservation as soon as possible.",
         altAnswers: [
-          "I would be grateful if you could confirm the reservation as soon as possible.",
+          "I would be grateful if you could confirm the booking as soon as possible.",
           "I would appreciate it if you could confirm the booking as soon as possible.",
           "I would appreciate it if you could confirm the reservation as soon as possible.",
           "I would be grateful if you could confirm my booking as soon as possible.",
@@ -1347,7 +1347,7 @@ export const EN_C1_U13: Lesson[] = [
           "Requests a specific outcome with a deadline",
           "Uses firm but polite language (for example \"I was disappointed to find\", \"I would ask you to\")",
         ],
-        modelAnswer: "Subject: Complaint: booking HX4471, August 12-15\n\nDear Sir or Madam,\n\nI am writing to complain about my recent stay at your hotel from August 12 to 15 (booking reference HX4471).\n\nI had booked and paid for a double room with a sea view. On arrival, however, I was given a room facing the parking lot. To make matters worse, the air conditioning did not work, and the room was extremely hot at night. When I raised the issue at reception, I was told that nothing could be done.\n\nAs a result, I slept very badly for three nights and was unable to enjoy a vacation I had been looking forward to for months.\n\nI would therefore ask you to refund the difference between the room I paid for and the room I was given, and to offer some compensation for the inconvenience. I would appreciate a reply within 14 days.\n\nYours faithfully,\nCarlos Romero",
+        modelAnswer: "Subject: Complaint: booking HX4471, August 12-15\n\nDear Sir or Madam,\n\nI am writing to complain about my recent stay at your hotel from August 12 to 15 (booking reference HX4471).\n\nI had booked and paid for a double room with a sea view. On arrival, however, I was given a room facing the parking lot. To make matters worse, the air conditioning did not work, and the room was extremely hot at night. When I raised the issue at reception, I was told that nothing could be done.\n\nAs a result, I slept very badly for three nights and was unable to enjoy a vacation I had been looking forward to for months.\n\nI would therefore ask you to refund the difference between the room I paid for and the room I was given, and to offer some compensation for the inconvenience. I would appreciate a reply within 14 days.\n\nSincerely,\nCarlos Romero",
         explanation: "Notice the order: purpose, background, facts, impact, outcome. The firmness comes from facts and a clear request, not from strong adjectives.",
       },
     ],
@@ -1398,7 +1398,7 @@ export const EN_C1_U13: Lesson[] = [
         body: [
           "Formal apologies: \"Please accept our apologies for the delay.\", \"We apologize for any inconvenience caused.\", \"I am very sorry for the mistake.\" \"Apologize\" takes \"for\" + the problem and \"to\" + the person: \"We apologize to our customers for the delay\" (never *apologize the delay).",
           "«Disculpe las molestias» is a trap: *Sorry for the inconveniences sounds wrong, because in this phrase \"inconvenience\" is uncountable. Say \"Sorry for the inconvenience\" or \"We apologize for any inconvenience (this may have caused)\".",
-          "\"Apologize\" is the American spelling; British English prefers \"apologize\". Both are correct, as long as you are consistent.",
+          "\"Apologize\" is the American spelling; British English often prefers \"apologise\". Both are correct, as long as you are consistent.",
         ],
         examples: [
           { es: "Please accept our apologies for the delay.", en: "Le rogamos que acepte nuestras disculpas por el retraso." },
@@ -1449,13 +1449,13 @@ export const EN_C1_U13: Lesson[] = [
         heading: "Taking responsibility, not hiding",
         body: [
           "A non-apology looks like an apology but avoids responsibility: \"We're sorry you feel that way.\", \"We apologize if you were inconvenienced.\", \"Mistakes were made.\" Customers notice, and they usually become angrier.",
-          "A real apology names the problem and owns it: \"This was our mistake.\", \"We should have informed you of the delay sooner.\", \"Our driver should not have left the parcel outside.\" The perfect modal \"should have\" + past participle is the key structure here.",
+          "A real apology names the problem and owns it: \"This was our mistake.\", \"We should have informed you of the delay sooner.\", \"Our driver should not have left the package outside.\" The perfect modal \"should have\" + past participle is the key structure here.",
           "You can explain the cause, briefly, but an explanation is not an excuse: \"This was due to a problem with our booking system, but that is no excuse for the lack of communication.\"",
         ],
         examples: [
           { es: "This was our mistake.", en: "El error fue nuestro." },
           { es: "We should have informed you of the delay sooner.", en: "Deberíamos haberle informado antes del retraso." },
-          { es: "Our driver should not have left the parcel outside.", en: "Nuestro repartidor no debería haber dejado el paquete fuera." },
+          { es: "Our driver should not have left the package outside.", en: "Nuestro repartidor no debería haber dejado el paquete fuera." },
           { es: "This was due to a problem with our booking system.", en: "Esto se debió a un problema con nuestro sistema de reservas." },
           { es: "We're sorry you feel that way.", en: "Lamentamos que lo vea así. (una disculpa que no asume nada)" },
         ],
@@ -1575,9 +1575,9 @@ export const EN_C1_U13: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A customer complains that their parcel was left in the rain. Which reply is best?",
+        question: "A customer complains that their package was left in the rain. Which reply is best?",
         options: [
-          "I am very sorry: our driver should not have left the parcel outside. We will send a replacement tomorrow.",
+          "I am very sorry: our driver should not have left the package outside. We will send a replacement tomorrow.",
           "We're sorry you feel that way about our delivery service.",
           "Parcels are sometimes left outside. This is normal.",
           "We apologize if you were in any way upset by the weather.",
@@ -1881,7 +1881,7 @@ export const EN_C1_U13: Lesson[] = [
           "That the reader did not read the previous email carefully.",
           "That the writer is very grateful.",
           "That the previous email contained a mistake.",
-          "That the writer is going on holiday.",
+          "That the writer is going on vacation.",
         ],
         correctIndex: 0,
         explanation: "It is widely read as a polite-sounding complaint: \"I already told you this\". Use \"As mentioned in my previous email\" instead.",
@@ -1971,7 +1971,7 @@ export const EN_C1_U13: Lesson[] = [
           { es: "I am writing to apply for the position of Marketing Coordinator, as advertised on LinkedIn.", en: "Les escribo para presentar mi candidatura al puesto de coordinador de marketing anunciado en LinkedIn." },
           { es: "I am writing to express my interest in the Data Analyst role.", en: "Les escribo para expresar mi interés en el puesto de analista de datos." },
           { es: "With five years of experience in digital marketing, I am confident I could make a strong contribution to your team.", en: "Con cinco años de experiencia en marketing digital, estoy seguro de que podría aportar mucho a su equipo." },
-          { es: "Please find attached my CV.", en: "Adjunto mi currículum." },
+          { es: "Please find attached my resume.", en: "Adjunto mi currículum." },
         ],
         checkpoint: [
           {
@@ -2542,7 +2542,7 @@ export const EN_C1_U13: Lesson[] = [
             options: [
               "She may be annoyed or keeping her distance.",
               "She has become much friendlier.",
-              "She is going on holiday.",
+              "She is going on vacation.",
               "Nothing at all: the two are completely identical.",
             ],
             correctIndex: 0,

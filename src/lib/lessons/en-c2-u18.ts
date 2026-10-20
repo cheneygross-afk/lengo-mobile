@@ -401,7 +401,7 @@ export const EN_C2_U18: Lesson[] = [
               "Rising interest rates curbed investment.",
               "Higher interest rates slowed investment.",
             ],
-            explanation: "A rise or increase \"in\" something, not \"of\": *the rise of interest rates is a common Spanish-influenced error. «Tipos de interés» are \"interest rates\".",
+            explanation: "A rise or increase \"in\" something, not \"of\": *the rise of interest rates is a common Spanish-influenced error. «Tasas de interés» are \"interest rates\".",
           },
           {
             type: "fill-blank",
@@ -2626,7 +2626,7 @@ export const EN_C2_U18: Lesson[] = [
           "Ends by positioning the new study (the present study addresses this gap by...).",
           "Uses research and evidence as uncountable nouns and appropriate tenses.",
         ],
-        modelAnswer: "A growing body of research suggests that school gardens can improve children's eating habits, at least in the short term. Green (2016) found that pupils in twelve Californian primary schools ate more vegetables after a term of gardening, and Alvarez (2018) reported similar gains in Texas, adding that parents noticed healthier meals at home. These effects, however, may not last: in a three-year follow-up, Brooks (2020) found that the gains faded once the program ended. Building on this work, Nakamura (2022) showed that the impact was strongest when gardening was combined with cooking classes. Taken together, these studies suggest that gardens work best as part of a broader program. Yet all four focus on primary pupils in the United States, and whether similar effects occur among older pupils or in other educational systems has yet to be examined. The present study addresses this gap by following 1,200 secondary pupils in Spain over two school years.",
+        modelAnswer: "A growing body of research suggests that school gardens can improve children's eating habits, at least in the short term. Green (2016) found that pupils in twelve Californian primary schools ate more vegetables after a semester of gardening, and Alvarez (2018) reported similar gains in Texas, adding that parents noticed healthier meals at home. These effects, however, may not last: in a three-year follow-up, Brooks (2020) found that the gains faded once the program ended. Building on this work, Nakamura (2022) showed that the impact was strongest when gardening was combined with cooking classes. Taken together, these studies suggest that gardens work best as part of a broader program. Yet all four focus on primary pupils in the United States, and whether similar effects occur among older pupils or in other educational systems has yet to be examined. The present study addresses this gap by following 1,200 secondary pupils in Spain over two school years.",
         explanation: "The model moves from consensus to qualification to overview, then turns the shared limitation into the gap and closes by positioning the new study. Every source is related to another one.",
       },
       {

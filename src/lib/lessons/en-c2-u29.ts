@@ -913,9 +913,9 @@ export const EN_C2_U29: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Ver esa película me despertó muchos recuerdos de la guerra.",
-        answer: "Watching that film triggered a lot of memories of the war.",
+        answer: "Watching that movie triggered a lot of memories of the war.",
         altAnswers: [
-          "Watching that movie triggered a lot of memories of the war.",
+          "Watching that film triggered a lot of memories of the war.",
           "Watching that film brought back a lot of memories of the war.",
           "Watching that movie brought back a lot of memories of the war.",
           "Watching that film triggered many memories of the war.",
@@ -1173,7 +1173,7 @@ export const EN_C2_U29: Lesson[] = [
         question: "Choose the correct sentence.",
         options: [
           "I'm a little apprehensive about the results.",
-          "I'm a little apprehensive of the results.",
+          "I'm a little apprehensive on the results.",
           "I'm absolutely apprehensive with the results.",
           "I'm a little apprehensive for the results.",
         ],
@@ -1360,7 +1360,7 @@ export const EN_C2_U29: Lesson[] = [
         examples: [
           { es: "You look preoccupied. Is everything all right?", en: "Te veo distraído. ¿Va todo bien?" },
           { es: "I'm really worried about my exams.", en: "Estoy muy preocupado por los exámenes." },
-          { es: "The film was a huge disappointment.", en: "La película fue una gran decepción." },
+          { es: "The movie was a huge disappointment.", en: "La película fue una gran decepción." },
           { es: "I don't want to let you down.", en: "No quiero decepcionarte." },
           { es: "The con man lived a life of deception.", en: "El estafador vivía una vida de engaños." },
           { es: "He pretended not to notice.", en: "Fingió no darse cuenta." },
@@ -2403,7 +2403,7 @@ export const EN_C2_U29: Lesson[] = [
             question: "Which sentence is correct?",
             options: [
               "He's very sensitive, so be careful what you say.",
-              "He's very sensible, so he cries at every film.",
+              "He's very sensible, so he cries at every movie.",
               "He's very sympathetic, everybody thinks he's funny.",
               "He's very preoccupied about his exams.",
             ],

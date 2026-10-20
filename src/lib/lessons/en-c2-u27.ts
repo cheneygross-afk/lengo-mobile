@@ -39,10 +39,10 @@ export const EN_C2_U27: Lesson[] = [
             type: "multiple-choice",
             question: "Which sentence is correct and natural?",
             options: [
-              "Climate change is making heatwaves more frequent.",
-              "The climate change is making heatwaves more frequent.",
-              "The climatic change is making heatwaves more frequent.",
-              "Climate change is making the heatwaves more frequently.",
+              "Climate change is making heat waves more frequent.",
+              "The climate change is making heat waves more frequent.",
+              "The climatic change is making heat waves more frequent.",
+              "Climate change is making the heat waves more frequently.",
             ],
             correctIndex: 0,
             explanation: "\"Climate change\" used in general takes no article, unlike «el cambio climático». \"Climatic change\" is a technical rarity, not the normal term.",
@@ -65,7 +65,7 @@ export const EN_C2_U27: Lesson[] = [
       {
         heading: "Mitigation, adaptation and net zero",
         body: [
-          "Climate policy has two halves. \"Mitigation\" means tackling the causes: cutting greenhouse gas emissions or removing carbon dioxide from the atmosphere. \"Adaptation\" means adjusting to the effects that can no longer be avoided: building sea walls, planting drought-resistant crops, redesigning cities for heatwaves. Experts insist we need both.",
+          "Climate policy has two halves. \"Mitigation\" means tackling the causes: cutting greenhouse gas emissions or removing carbon dioxide from the atmosphere. \"Adaptation\" means adjusting to the effects that can no longer be avoided: building sea walls, planting drought-resistant crops, redesigning cities for heat waves. Experts insist we need both.",
           "\"Emissions\" is plural in this sense: \"greenhouse gas emissions\", \"carbon emissions\", \"CO2 emissions\". You \"cut\", \"reduce\", \"curb\" or \"slash\" emissions; emissions \"rise\", \"fall\" or \"peak\". «Reducir las emisiones» is just \"reduce emissions\", with no article in a general statement.",
           "\"Net zero\" means that whatever greenhouse gases a country or company still emits are balanced by the amount it removes, so the net amount added is zero: \"reach net zero by 2050\", \"a net-zero target\". \"Carbon neutral\" is a close synonym, used more for companies, products and events.",
           "A \"carbon offset\" is a payment for an emissions cut somewhere else, such as planting trees or protecting a forest, to compensate for your own emissions: \"offset your flight\". Critics argue that offsets let polluters buy their way out of real cuts.",
@@ -187,7 +187,7 @@ export const EN_C2_U27: Lesson[] = [
         options: [
           "Replacing coal-fired power stations with wind farms",
           "Raising the height of flood barriers",
-          "Introducing heatwave alerts for elderly people",
+          "Introducing heat wave alerts for elderly people",
           "Planting drought-resistant crops",
         ],
         correctIndex: 0,
@@ -1493,7 +1493,7 @@ export const EN_C2_U27: Lesson[] = [
         examples: [
           { es: "They never listen to anyone outside their bubble.", en: "Nunca escuchan a nadie fuera de su burbuja." },
           { es: "The government rammed the bill through Parliament.", en: "El gobierno aprobó la ley a toda prisa, sin debate." },
-          { es: "This reform will gut our public health system.", en: "Esta reforma destrozará nuestra sanidad pública." },
+          { es: "This reform will gut our public health system.", en: "Esta reforma destrozará nuestro sistema de salud pública." },
           { es: "Their real agenda is to raise taxes on everyone.", en: "Su verdadero objetivo es subir los impuestos a todo el mundo." },
           { es: "Underneath the rhetoric, the claim is simply that the rules will cost farmers money.", en: "Detrás de la retórica, lo que se afirma es simplemente que las normas costarán dinero a los agricultores." },
         ],
@@ -1530,7 +1530,7 @@ export const EN_C2_U27: Lesson[] = [
         examples: [
           { es: "While I understand farmers' concerns, I believe the measure is necessary.", en: "Aunque entiendo la preocupación de los agricultores, creo que la medida es necesaria." },
           { es: "There is a legitimate case for lower fuel taxes, but not at the cost of our climate targets.", en: "Hay argumentos legítimos a favor de bajar los impuestos sobre el combustible, pero no a costa de nuestros objetivos climáticos." },
-          { es: "Opponents of the bill argue that it will raise costs for small businesses.", en: "Los detractores de la ley sostienen que encarecerá los costos de las pequeñas empresas." },
+          { es: "Opponents of the bill argue that it will raise costs for small businesses.", en: "Los detractores de la ley sostienen que aumentará los costos de las pequeñas empresas." },
           { es: "The impact assessment suggests that some rural areas would be hit hard.", en: "El estudio de impacto indica que algunas zonas rurales se verían muy afectadas." },
           { es: "I take the point that change takes time; however, we have already waited too long.", en: "Acepto que el cambio lleva tiempo; sin embargo, ya hemos esperado demasiado." },
         ],
@@ -2359,7 +2359,7 @@ export const EN_C2_U27: Lesson[] = [
           "Keep paragraphs short (two to four sentences) and use the first person sparingly but confidently: \"I believe\" is fine once; repeated, it weakens the voice.",
         ],
         examples: [
-          { es: "Last summer, the river that runs through my town dried up for the first time in living memory.", en: "El verano pasado, el río que atraviesa mi pueblo se secó por primera vez que se recuerde." },
+          { es: "Last summer, the river that runs through my town dried up for the first time in living memory.", en: "El verano pasado, el río que atraviesa mi pueblo se secó por primera vez desde que se tiene memoria." },
           { es: "The city should introduce a congestion charge, and it should do so this year.", en: "La ciudad debería implantar un peaje urbano, y debería hacerlo este mismo año." },
           { es: "Critics will say the charge hits the poorest drivers hardest. They have a point.", en: "Los críticos dirán que el peaje perjudica más a los conductores con menos recursos. Tienen algo de razón." },
           { es: "But the poorest residents are also the ones most likely to live next to busy roads.", en: "Pero los vecinos con menos recursos son también los que más probabilidades tienen de vivir junto a calles con mucho tráfico." },

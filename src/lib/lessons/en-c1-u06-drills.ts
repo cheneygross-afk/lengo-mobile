@@ -1131,7 +1131,7 @@ export const EN_C1_U06_DRILLS: Lesson[] = [
           "Costs doubled, so the project was canceled.",
           "The costs doubled, so the project was canceled.",
         ],
-        "Keep the semicolon (or a full stop) before \"therefore\". With only a comma you would need the conjunction \"so\".",
+        "Keep the semicolon (or a period) before \"therefore\". With only a comma you would need the conjunction \"so\".",
       ),
       mc(
         "Which sentence is correct?",
@@ -1142,7 +1142,7 @@ export const EN_C1_U06_DRILLS: Lesson[] = [
           "The data were incomplete, therefore, the analysis was repeated.",
         ],
         0,
-        "\"Therefore\" is an adverb, so a comma alone creates a comma splice, a typical copy of «..., por lo tanto, ...». Use a semicolon or a full stop.",
+        "\"Therefore\" is an adverb, so a comma alone creates a comma splice, a typical copy of «..., por lo tanto, ...». Use a semicolon or a period.",
       ),
       wo(
         "The budget was cut. The launch was therefore delayed.",
@@ -1744,7 +1744,7 @@ export const EN_C1_U06_DRILLS: Lesson[] = [
     "Fix the connector errors Spanish speakers make (*despite of, *although... but, comma splices, *at last for lastly, misplaced though), combine sentences with whereas, albeit, even so, hence and notwithstanding, and choose between although, even if, much as, so as not to, unless, provided that and in case.",
     "Recap: one connector, the right grammar",
     [
-      "\"Despite\" and \"in spite of\" take a noun or -ing form (never *despite of, never a clause); one contrast needs one connector (*Although..., but); \"however\" and \"therefore\" need a semicolon or full stop; \"though\" as an adverb goes at the end. In transformations, keep every idea and change only the grammar the key word requires.",
+      "\"Despite\" and \"in spite of\" take a noun or -ing form (never *despite of, never a clause); one contrast needs one connector (*Although..., but); \"however\" and \"therefore\" need a semicolon or period; \"though\" as an adverb goes at the end. In transformations, keep every idea and change only the grammar the key word requires.",
       "From the Upper Intermediate level: \"even though\" (a fact), \"even if\" (a hypothesis), \"much as\" («por mucho que»), \"so as not to\", \"so that\" + modal, \"unless\" with no extra negative, \"provided that\" and \"on condition that\" for conditions, and \"in case\" = «por si».",
     ],
     [

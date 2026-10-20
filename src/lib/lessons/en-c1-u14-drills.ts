@@ -690,7 +690,7 @@ export const EN_C1_U14_DRILLS: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Los carriles bici, en cambio, son baratos y rápidos de construir.",
+        source: "Las ciclovías, en cambio, son baratas y rápidas de construir.",
         answer: "Bike lanes, by contrast, are cheap and quick to build.",
         altAnswers: [
           "Cycle lanes, by contrast, are cheap and quick to build.",
@@ -945,11 +945,11 @@ export const EN_C1_U14_DRILLS: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "Why is \"In this report I will talk about the canteen\" a weak opening?",
+        question: "Why is \"In this report I will talk about the cafeteria\" a weak opening?",
         options: [
           "\"Talk\" is spoken language; \"This report outlines...\" is more appropriate.",
           "Reports must never mention their topic.",
-          "\"Canteen\" is an informal word.",
+          "\"Cafeteria\" is an informal word.",
           "It should start with a greeting.",
         ],
         correctIndex: 0,
@@ -1472,10 +1472,10 @@ export const EN_C1_U14_DRILLS: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Las mujeres representan el 55 % de la plantilla.",
+        source: "Las mujeres representan el 55 % del personal.",
         answer: "Women make up 55% of the workforce.",
         altAnswers: ["Women account for 55% of the workforce.", "Women make up 55% of the staff.", "Women account for 55% of the staff.", "Women represent 55% of the workforce.", "Women make up 55% of the employees."],
-        explanation: "\"Make up\" or \"account for\" + percentage. «Plantilla» is \"workforce\" or \"staff\".",
+        explanation: "\"Make up\" or \"account for\" + percentage. «El personal» is \"the workforce\" or \"the staff\".",
       },
       {
         type: "multiple-choice",
@@ -1683,7 +1683,7 @@ export const EN_C1_U14_DRILLS: Lesson[] = [
       {
         heading: "Recap: two very different voices",
         body: [
-          "Reviews and articles hook the reader (\"Have you ever wondered...?\", \"Imagine...\"), can talk to them directly and use precise evaluative language: \"gripping\", \"moving\", \"bland\", \"overrated\". Strong adjectives take \"absolutely\", not \"very\" (*very stunning). Balance with \"While..., ... lets it down\" and end with a clear recommendation (\"well worth a visit\", \"give it a miss\"). \"Sensible\" means «sensato», and a film «crítica» is a \"review\".",
+          "Reviews and articles hook the reader (\"Have you ever wondered...?\", \"Imagine...\"), can talk to them directly and use precise evaluative language: \"gripping\", \"moving\", \"bland\", \"overrated\". Strong adjectives take \"absolutely\", not \"very\" (*very stunning). Balance with \"While..., ... lets it down\" and end with a clear recommendation (\"well worth a visit\", \"give it a miss\"). \"Sensible\" means «sensato», and a movie «crítica» is a \"review\".",
           "To summarize, use a precise reporting verb + \"that\": \"argues\", \"claims\", \"contends\", \"concedes\", \"acknowledges\", \"points out\". Paraphrase by changing word class, synonyms and structure, keeping the level of certainty (\"may\" stays \"may\"). «Resumir» is \"summarize\"; \"resume\" means «reanudar» (and, in the US, a CV).",
         ],
         examples: [
@@ -1789,7 +1789,7 @@ export const EN_C1_U14_DRILLS: Lesson[] = [
       {
         type: "multiple-choice",
         question: "«Leí una crítica muy buena de la película.» Which is correct?",
-        options: ["I read a very good review of the film.", "I read a very good critic of the film.", "I read a very good critical of the film.", "I read a very good criticize of the film."],
+        options: ["I read a very good review of the movie.", "I read a very good critic of the movie.", "I read a very good critical of the movie.", "I read a very good criticize of the movie."],
         correctIndex: 0,
         explanation: "The text is a \"review\"; the person who writes it is a \"critic\".",
       },
@@ -1833,7 +1833,7 @@ export const EN_C1_U14_DRILLS: Lesson[] = [
         sentence: "Unless you're a die-hard fan, give it a ___.",
         answer: "miss",
         en: "A no ser que seas un fan incondicional, [sáltatela].",
-        explanation: "\"Give it a miss\" = don't go, don't watch it. A clear negative recommendation.",
+        explanation: "\"Give it a miss\" (British; American English says \"skip it\") = don't go, don't watch it. A clear negative recommendation.",
       },
       {
         type: "multiple-choice",
@@ -2395,8 +2395,8 @@ export const EN_C1_U14_DRILLS: Lesson[] = [
       },
       {
         type: "listen-choose",
-        audio: "The film wasn't disappointing. On the contrary, it was brilliant.",
-        question: "What did the speaker think of the film?",
+        audio: "The movie wasn't disappointing. On the contrary, it was brilliant.",
+        question: "What did the speaker think of the movie?",
         options: ["They loved it.", "They found it disappointing.", "They had mixed feelings.", "They didn't see it."],
         correctIndex: 0,
         explanation: "\"On the contrary\" rejects the previous idea and replaces it with the opposite.",

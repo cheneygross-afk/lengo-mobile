@@ -348,7 +348,7 @@ export const EN_C2_U04: Lesson[] = [
         examples: [
           { es: "He borrowed my car without asking and returned it empty. That really takes the biscuit.", en: "Se llevó mi carro sin pedírmelo y me lo devolvió sin gasolina. Esto ya es el colmo. (británico)" },
           { es: "And then she blamed me for her mistake. That takes the cake!", en: "Y encima me echó la culpa de su error. ¡Es el colmo! (estadounidense)" },
-          { es: "The rail strike has thrown a spanner in the works.", en: "La huelga de trenes nos ha fastidiado los planes. (británico)" },
+          { es: "The rail strike has thrown a spanner in the works.", en: "La huelga de trenes nos arruinó los planes. (británico)" },
           { es: "The new regulation threw a monkey wrench into our plans.", en: "La nueva normativa nos echó por tierra los planes. (estadounidense)" },
           { es: "We haven't had a single complaint so far, knock on wood.", en: "No hemos tenido ni una queja hasta ahora, toco madera. (estadounidense; en británico \"touch wood\")" },
           { es: "A thousand dollars is a drop in the bucket for a company that size.", en: "Mil dólares son una gota en el océano para una empresa de ese tamaño. (estadounidense)" },
@@ -435,14 +435,14 @@ export const EN_C2_U04: Lesson[] = [
         body: [
           "Irish English has its own idioms and set phrases. \"The craic\" (pronounced \"crack\") is fun and good company: \"The craic was mighty\" means the night was great fun. \"Giving out\" means complaining or scolding: \"My mother was giving out to me for coming home late\" («me estuvo regañando»). \"Grand\" means fine or OK, often with reservations, and \"Sure look\" expresses resignation, roughly «qué le vamos a hacer».",
           "Australian English is famous for colorful idioms. \"Fair dinkum\" means genuine, honest or true («auténtico», «de verdad»): \"He's a fair dinkum bloke\", or as a question, \"Fair dinkum?\" («¿en serio?»). \"She'll be right\" means everything will be fine («todo saldrá bien»). \"Flat out like a lizard drinking\" means extremely busy, and \"a few sandwiches short of a picnic\" (also British) means not very intelligent.",
-          "Use these with care. A Spanish speaker saying \"fair dinkum\" in London or Chicago sounds like someone imitating a film; in Sydney it may sound charming or forced. At the Mastery level your main goal with regional idioms is to understand them, and to produce them only when you are part of that community.",
+          "Use these with care. A Spanish speaker saying \"fair dinkum\" in London or Chicago sounds like someone imitating a movie; in Sydney it may sound charming or forced. At the Mastery level your main goal with regional idioms is to understand them, and to produce them only when you are part of that community.",
         ],
         examples: [
           { es: "We went to the pub after the match and the craic was great.", en: "Fuimos al pub después del partido y lo pasamos genial. (irlandés)" },
           { es: "My boss was giving out to me about the report all morning.", en: "Mi jefe estuvo regañándome por el informe toda la mañana. (irlandés)" },
           { es: "Fair dinkum, mate, there was a kangaroo in the garden.", en: "En serio, amigo, había un canguro en el jardín. (australiano)" },
           { es: "Don't worry about the tent, she'll be right.", en: "No te preocupes por la tienda de campaña, todo saldrá bien. (australiano)" },
-          { es: "I've been flat out like a lizard drinking all week.", en: "He estado a tope de trabajo toda la semana. (australiano, humorístico)" },
+          { es: "I've been flat out like a lizard drinking all week.", en: "He estado hasta el cuello de trabajo toda la semana. (australiano, humorístico)" },
           { es: "He's a nice guy, but he's a few sandwiches short of a picnic.", en: "Es buena gente, pero no tiene muchas luces." },
         ],
         checkpoint: [
@@ -512,7 +512,7 @@ export const EN_C2_U04: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into British English.",
-        source: "La huelga nos ha fastidiado todos los planes.",
+        source: "La huelga nos arruinó todos los planes.",
         answer: "The strike has thrown a spanner in the works.",
         altAnswers: [
           "The strike has thrown a spanner in all our plans.",
@@ -710,8 +710,8 @@ export const EN_C2_U04: Lesson[] = [
         ],
         examples: [
           { es: "Reading her private messages? That's just not cricket.", en: "¿Leer sus mensajes privados? Eso no es jugar limpio." },
-          { es: "With no witnesses, the defence is on a sticky wicket.", en: "Sin testigos, la defensa está en un aprieto." },
-          { es: "The news of his illness knocked us all for six.", en: "La noticia de su enfermedad nos dejó a todos hechos polvo." },
+          { es: "With no witnesses, the defense is on a sticky wicket.", en: "Sin testigos, la defensa está en un aprieto." },
+          { es: "The news of his illness knocked us all for six.", en: "La noticia de su enfermedad nos dejó a todos destrozados." },
           { es: "The interviewer threw me a real curveball.", en: "El entrevistador me salió con una pregunta totalmente inesperada." },
           { es: "After three failed attempts, they finally threw in the towel.", en: "Tras tres intentos fallidos, por fin tiraron la toalla." },
           { es: "Bringing up his divorce was a bit below the belt.", en: "Sacar lo de su divorcio fue un golpe bajo." },
@@ -845,7 +845,7 @@ export const EN_C2_U04: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "La noticia de su despido nos dejó a todos hechos polvo.",
+        source: "La noticia de su despido nos dejó a todos destrozados.",
         answer: "The news of her dismissal knocked us all for six.",
         altAnswers: [
           "The news of his dismissal knocked us all for six.",
@@ -1043,7 +1043,7 @@ export const EN_C2_U04: Lesson[] = [
           { es: "When he offered to pay for everything, I smelled a rat.", en: "Cuando se ofreció a pagarlo todo, me olí que había gato encerrado." },
           { es: "Nobody mentioned the layoffs; it was the elephant in the room.", en: "Nadie mencionó los despidos; era el tema que todos evitaban." },
           { es: "Hold your horses! We haven't even read the contract yet.", en: "¡Para el carro! Todavía ni hemos leído el contrato." },
-          { es: "If I pick up the parcel when I visit my aunt, I'll kill two birds with one stone.", en: "Si recojo el paquete cuando visite a mi tía, mato dos pájaros de un tiro." },
+          { es: "If I pick up the package when I visit my aunt, I'll kill two birds with one stone.", en: "Si recojo el paquete cuando visite a mi tía, mato dos pájaros de un tiro." },
           { es: "The missing key turned out to be a red herring.", en: "La llave desaparecida resultó ser una pista falsa." },
           { es: "He'll apologize when pigs fly.", en: "Pedirá perdón cuando las ranas críen pelo." },
           { es: "The lion's share of the budget goes to marketing.", en: "La parte del león del presupuesto se va en marketing." },
@@ -1134,7 +1134,7 @@ export const EN_C2_U04: Lesson[] = [
           { es: "Don't worry about the test; it'll be a piece of cake.", en: "No te preocupes por el examen; será pan comido." },
           { es: "Come on, spill the beans! What did he say?", en: "Anda, ¡suéltalo! ¿Qué te dijo?" },
           { es: "In a nutshell, we need more time and more money.", en: "En pocas palabras, necesitamos más tiempo y más dinero." },
-          { es: "Horror films aren't really my cup of tea.", en: "Las películas de terror no son lo mío." },
+          { es: "Horror movies aren't really my cup of tea.", en: "Las películas de terror no son lo mío." },
           { es: "Immigration has become a political hot potato.", en: "La inmigración se ha convertido en una papa caliente política." },
           { es: "It's no use crying over spilled milk; let's fix it.", en: "A lo hecho, pecho; vamos a solucionarlo." },
           { es: "You can't have your cake and eat it.", en: "No se puede estar en misa y repicando." },
@@ -1348,13 +1348,13 @@ export const EN_C2_U04: Lesson[] = [
       {
         heading: "Different image, same meaning",
         body: [
-          "Most Spanish idioms have an English partner with a completely different image. «No tener pelos en la lengua» is \"not mince your words\" or \"be outspoken\". «Estar hasta las narices» is \"be fed up (to the back teeth)\" or \"be sick and tired of\". «Quedarse de piedra» is \"be stunned\", \"be speechless\" or, in British English, \"be gobsmacked\". «Tirar la casa por la ventana» is \"go all out\", \"spare no expense\" or the British \"push the boat out\".",
+          "Most Spanish idioms have an English partner with a completely different image. «No tener pelos en la lengua» is \"not mince your words\" or \"be outspoken\". «Estar harto» or «estar hasta la coronilla» is \"be fed up (to the back teeth)\" or \"be sick and tired of\". «Quedarse de piedra» is \"be stunned\", \"be speechless\" or, in British English, \"be gobsmacked\". «Tirar la casa por la ventana» is \"go all out\", \"spare no expense\" or the British \"push the boat out\".",
           "«Ser la gota que colma el vaso» is \"be the last straw\" (or \"the straw that broke the camel's back\"). «Hablar por los codos» is \"talk a mile a minute\", \"never stop talking\" or \"talk someone's ear off\" (US) / \"talk the hind legs off a donkey\" (UK). «Ponerse las pilas» is \"get your act together\" or \"pull your socks up\" (UK). «Estar en el quinto pino» is \"in the middle of nowhere\" or \"out in the sticks\".",
           "«Llover a cántaros» is \"pour (down)\" or \"bucket down\" (UK). Natives rarely say \"rain cats and dogs\" in real life; \"It's pouring\" is the everyday choice. «De tal palo, tal astilla» is \"like father, like son\" (\"like mother, like daughter\"), \"a chip off the old block\" or \"the apple doesn't fall far from the tree\".",
         ],
         examples: [
           { es: "She doesn't mince her words.", en: "No tiene pelos en la lengua." },
-          { es: "I'm sick and tired of his excuses.", en: "Estoy hasta las narices de sus excusas." },
+          { es: "I'm sick and tired of his excuses.", en: "Estoy hasta la coronilla de sus excusas." },
           { es: "When I saw the bill, I was speechless.", en: "Cuando vi la cuenta, me quedé de piedra." },
           { es: "They went all out for their daughter's wedding.", en: "Tiraron la casa por la ventana en la boda de su hija." },
           { es: "His comment was the last straw.", en: "Su comentario fue la gota que colmó el vaso." },
@@ -1367,7 +1367,7 @@ export const EN_C2_U04: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Estoy hasta las narices de que siempre llegue tarde.",
+            source: "Estoy hasta la coronilla de que siempre llegue tarde.",
             answer: "I'm sick and tired of him always being late.",
             altAnswers: [
               "I'm sick and tired of her always being late.",
@@ -1387,7 +1387,7 @@ export const EN_C2_U04: Lesson[] = [
               "I'm sick and tired of the fact that he's always late.",
               "I'm sick and tired of the fact that she's always late.",
             ],
-            explanation: "«Estar hasta las narices» is \"be sick and tired of\" or \"be fed up with\". *I'm until the noses is a calque. After \"of\" or \"with\", English uses a pronoun + -ing: \"him always being late\".",
+            explanation: "«Estar hasta la coronilla» is \"be sick and tired of\" or \"be fed up with\". *I'm until the noses is a calque. After \"of\" or \"with\", English uses a pronoun + -ing: \"him always being late\".",
           },
           {
             type: "fill-blank",

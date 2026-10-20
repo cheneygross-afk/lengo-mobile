@@ -117,9 +117,9 @@ export const EN_C2_U09: Lesson[] = [
           {
             type: "multiple-choice",
             question: "Which sentence is correct?",
-            options: ["It was a such good film.", "It was so good film.", "It was such a good film.", "It was such good a film."],
+            options: ["It was a such good movie.", "It was so good movie.", "It was such a good movie.", "It was such good a movie."],
             correctIndex: 2,
-            explanation: "\"Such\" + \"a\" + adjective + noun. \"So\" would need the adjective alone: \"The film was so good\".",
+            explanation: "\"Such\" + \"a\" + adjective + noun. \"So\" would need the adjective alone: \"The movie was so good\".",
           },
         ],
       },
@@ -313,7 +313,7 @@ export const EN_C2_U09: Lesson[] = [
         examples: [
           { es: "I'm absolutely exhausted.", en: "Estoy agotadísimo. (nunca *very exhausted)" },
           { es: "It's really cold today.", en: "Hoy hace mucho frío." },
-          { es: "It's absolutely freezing outside.", en: "Afuera hace un frío que pela." },
+          { es: "It's absolutely freezing outside.", en: "Afuera hace un frío tremendo." },
           { es: "That's utterly ridiculous.", en: "Eso es completamente ridículo." },
           { es: "The food was absolutely superb.", en: "La comida estaba buenísima." },
           { es: "It's completely impossible.", en: "Es totalmente imposible." },
@@ -459,7 +459,7 @@ export const EN_C2_U09: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Hacía un frío que pelaba.",
+        source: "Hacía un frío terrible.",
         answer: "It was absolutely freezing.",
         altAnswers: ["It was freezing.", "It was completely freezing.", "It was freezing cold.", "It was absolutely freezing cold.", "It was bitterly cold.", "It was really freezing.", "It was utterly freezing.", "It was totally freezing.", "It was perishing.", "It was absolutely perishing."],
         explanation: "\"Freezing\" is the extreme form of \"cold\", so it takes \"absolutely\", not \"very\". \"Bitterly cold\" is another strong collocation.",
@@ -544,7 +544,7 @@ export const EN_C2_U09: Lesson[] = [
         heading: "From bad to atrocious",
         body: [
           "The negative ladder: \"bad\" → \"poor\" → \"awful\" / \"terrible\" / \"dreadful\" → \"appalling\" → \"atrocious\". \"Poor\" is the polite, formal word for low quality (\"poor service\"), while \"appalling\" and \"atrocious\" express shock and moral outrage (\"appalling conditions\", \"atrocious behavior\").",
-          "\"Atrocious\" and \"appalling\" are also used, half-jokingly, for everyday things: \"atrocious handwriting\", \"appalling taste in music\". And \"terrible\" in English usually just means «muy malo»: \"a terrible film\" is a bad film, not a frightening one.",
+          "\"Atrocious\" and \"appalling\" are also used, half-jokingly, for everyday things: \"atrocious handwriting\", \"appalling taste in music\". And \"terrible\" in English usually just means «muy malo»: \"a terrible movie\" is a bad movie, not a frightening one.",
           "Other scales worth knowing: \"cold\" → \"freezing\"; \"hot\" → \"boiling\"; \"hungry\" → \"starving\"; \"tired\" → \"exhausted\"; \"angry\" → \"furious\"; \"funny\" → \"hilarious\"; \"surprised\" → \"astonished\"; \"small\" → \"tiny\"; \"big\" → \"huge\" / \"enormous\"; \"dirty\" → \"filthy\"; \"scared\" → \"terrified\".",
         ],
         examples: [
@@ -643,7 +643,7 @@ export const EN_C2_U09: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The film was ___; I cried with laughter.",
+        sentence: "The movie was ___; I cried with laughter.",
         answer: "absolutely hilarious",
         altAnswers: ["hilarious", "really hilarious", "totally hilarious", "utterly hilarious"],
         en: "La película era [divertidísima]; lloré de la risa.",
@@ -742,7 +742,7 @@ export const EN_C2_U09: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "\"I haven't seen that film.\" Which echo question fits?",
+            question: "\"I haven't seen that movie.\" Which echo question fits?",
             options: ["Haven't you?", "Didn't you?", "Have you?", "Aren't you?"],
             correctIndex: 0,
             explanation: "Copy the auxiliary (\"have\") and the polarity (negative): \"Haven't you?\".",
@@ -1173,11 +1173,11 @@ export const EN_C2_U09: Lesson[] = [
           "Use these in speech, ads and messages, not in formal writing. In an essay, prefer \"extremely\", \"exceptionally\" or a precise noun such as \"blockbuster\".",
         ],
         examples: [
-          { es: "The film was a mega-hit.", en: "La película fue un exitazo." },
+          { es: "The movie was a mega-hit.", en: "La película fue un exitazo." },
           { es: "It's super expensive.", en: "Es carísimo." },
           { es: "He's become über-famous.", en: "Se ha hecho famosísimo." },
           { es: "She turned into a total Bridezilla.", en: "Se convirtió en una novia insoportable." },
-          { es: "The film was a box-office blockbuster.", en: "La película fue un taquillazo." },
+          { es: "The movie was a box-office blockbuster.", en: "La película fue un taquillazo." },
         ],
         checkpoint: [
           {
@@ -1259,7 +1259,7 @@ export const EN_C2_U09: Lesson[] = [
         source: "La película fue un exitazo de taquilla.",
         answer: "The movie was a huge box-office hit.",
         altAnswers: ["The film was a box-office smash.", "The film was a huge box office hit.", "The film was a huge box-office hit.", "The movie was a huge box office hit.", "The film was a massive box-office hit.", "The movie was a massive box-office hit.", "The film was a box-office blockbuster.", "The movie was a box-office blockbuster.", "The film was a smash hit at the box office.", "The movie was a smash hit at the box office.", "The film was a huge hit at the box office.", "The movie was a huge hit at the box office.", "The film was a massive hit at the box office.", "The movie was a massive hit at the box office.", "The film was a box-office smash hit.", "The movie was a box-office smash hit.", "The film was a blockbuster.", "The movie was a blockbuster.", "The film was a massive box office hit.", "The movie was a box-office smash.", "The film was a huge success at the box office.", "The movie was a huge success at the box office."],
-        explanation: "«Exitazo» = \"a huge hit\" or \"a smash hit\"; for films, \"blockbuster\" or \"box-office smash\".",
+        explanation: "«Exitazo» = \"a huge hit\" or \"a smash hit\"; for movies, \"blockbuster\" or \"box-office smash\".",
       },
       {
         type: "translate",

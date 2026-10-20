@@ -531,8 +531,8 @@ export const DE_A1_U10: Lesson[] = [
             prompt: "Translate into German.",
             source: "I like swimming.",
             answer: "Ich schwimme gern.",
-            altAnswers: ["Ich schwimme gerne."],
-            explanation: "Verb + \"gern\": not \"*Ich mag schwimmen\".",
+            altAnswers: ["Ich schwimme gerne.", "Ich mag schwimmen."],
+            explanation: "Verb + \"gern\": \"Ich schwimme gern\". \"Ich mag schwimmen\" is accepted too: you'll hear it, but verb + \"gern\" is what most people say.",
           },
           {
             type: "fill-blank",
@@ -876,7 +876,7 @@ export const DE_A1_U10: Lesson[] = [
       {
         heading: "Meaning traps from English",
         body: [
-          "Copying English word for word gives German that's grammatical but wrong: \"*Ich bin kalt\" (I'm a cold person) for \"Mir ist kalt\"; \"*Ich habe 30 Jahre\" for \"Ich bin 30\"; \"*Ich mag schwimmen\" for \"Ich schwimme gern\".",
+          "Copying English word for word gives German that's grammatical but wrong: \"*Ich bin kalt\" (I'm a cold person) for \"Mir ist kalt\"; \"*Ich habe 30 Jahre\" for \"Ich bin 30\".",
           "Time: half three in British English is 3:30, but \"halb drei\" is 2:30. Modals: \"*Hier muss man nicht rauchen\" means you don't have to smoke here; for mustn't say \"Hier darf man nicht rauchen\". And \"ich will\" is I want, never I will.",
           "Small words: \"*Ich habe nicht Zeit\" → \"Ich habe keine Zeit\"; \"*mit Fuß\" → \"zu Fuß\"; \"*Fährst langsam!\" → \"Fahr langsam!\"",
         ],
@@ -945,7 +945,7 @@ export const DE_A1_U10: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ich mag schwimmen.\" Write it correctly.",
+        prompt: "A learner wrote \"Ich mag schwimmen.\" People understand it, but it sounds less natural. Write it the way most Germans say it.",
         source: "I like swimming.",
         answer: "Ich schwimme gern.",
         altAnswers: ["Ich schwimme gerne."],
@@ -1328,8 +1328,8 @@ export const DE_A1_U10: Lesson[] = [
             prompt: "Translate into German.",
             source: "I like dancing.",
             answer: "Ich tanze gern.",
-            altAnswers: ["Ich tanze gerne."],
-            explanation: "An activity: verb + \"gern\".",
+            altAnswers: ["Ich tanze gerne.", "Ich mag tanzen."],
+            explanation: "An activity: verb + \"gern\". \"Ich mag tanzen\" is accepted too: you'll hear it, but verb + \"gern\" is what most people say.",
           },
           {
             type: "translate",
@@ -1448,8 +1448,8 @@ export const DE_A1_U10: Lesson[] = [
         prompt: "Translate into German.",
         source: "I like reading.",
         answer: "Ich lese gern.",
-        altAnswers: ["Ich lese gerne."],
-        explanation: "Liking an activity = verb + \"gern\": \"Ich lese gern\". \"*Ich mag lesen\" is not idiomatic.",
+        altAnswers: ["Ich lese gerne.", "Ich mag lesen."],
+        explanation: "Liking an activity = verb + \"gern\": \"Ich lese gern\". \"Ich mag lesen\" is accepted too: you'll hear it, but verb + \"gern\" is what most people say.",
       },
       {
         type: "translate",

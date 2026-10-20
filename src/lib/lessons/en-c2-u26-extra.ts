@@ -227,9 +227,9 @@ export const EN_C2_U26_EXTRA: Lesson[] = [
       {
         type: "multiple-choice",
         question: "\"The bones are thought ___ a child who lived 10,000 years ago.\"",
-        options: ["to have belonged to", "to belong to", "belonging to", "that belonged to"],
+        options: ["to have belonged to", "to be belonging to", "belonging to", "that belonged to"],
         correctIndex: 0,
-        explanation: "The belonging happened long before the present belief: perfect infinitive. \"To belong to\" would suggest the child still owns them.",
+        explanation: "The belonging happened long before the present belief: perfect infinitive. \"Belong\" is a state verb, so the continuous \"to be belonging to\" is wrong, and \"thought\" needs an infinitive, not \"belonging\" or a \"that\" clause.",
       },
       {
         type: "multiple-choice",

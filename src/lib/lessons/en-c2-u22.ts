@@ -371,7 +371,7 @@ export const EN_C2_U22: Lesson[] = [
               { left: "streamlined", right: "simplifiqué y agilicé" },
               { left: "spearheaded", right: "encabecé, impulsé" },
               { left: "secured", right: "conseguí (un contrato, financiación)" },
-              { left: "implemented", right: "implanté, puse en marcha" },
+              { left: "implemented", right: "implementé, puse en marcha" },
             ],
             explanation: "Precise verbs show what you actually did. \"Secured\" is especially useful for «conseguir» a contract, funding or a deal.",
           },
@@ -725,7 +725,7 @@ export const EN_C2_U22: Lesson[] = [
           ["What are the biggest", "What are the main", "What are the greatest", "What are the key"],
           ["challenges facing the team?", "challenges the team is facing?", "challenges the team faces?"],
         ),
-        explanation: "\"Challenges facing the team\" uses a reduced relative clause; «retos» is \"challenges\", not *retos or *defies.",
+        explanation: "\"Challenges facing the team\" uses a reduced relative clause; «retos» is \"challenges\", not *defies.",
       },
       {
         type: "fill-blank",
@@ -818,13 +818,13 @@ export const EN_C2_U22: Lesson[] = [
         body: [
           "The call comes: \"We'd like to offer you the position.\" Show enthusiasm, but do not accept on the spot unless the offer is exactly what you want. In English-speaking business cultures it is normal to ask for the details in writing and for a little time to consider them.",
           "Three useful moves: thank them warmly (\"That's wonderful news, thank you\"), ask for the written offer (\"Could you send me the full details in writing?\") and ask for time with a concrete deadline (\"Would it be all right if I got back to you by Friday?\").",
-          "Note the past tense in \"Would it be all right if I came back to you...?\": this unreal past makes the request more tentative and polite. \"Would it be OK if I get back to you on Friday?\" is also common in speech.",
+          "Note the past tense in \"Would it be all right if I got back to you...?\": this unreal past makes the request more tentative and polite. \"Would it be OK if I get back to you on Friday?\" is also common in speech.",
         ],
         examples: [
           { es: "Recruiter: We'd like to offer you the position of Senior Analyst.", en: "Reclutadora: Nos gustaría ofrecerle el puesto de analista sénior." },
           { es: "That's wonderful news. Thank you so much.", en: "¡Qué buena noticia! Muchísimas gracias." },
           { es: "Could you send me the full details of the offer in writing?", en: "¿Podría enviarme por escrito todos los detalles de la oferta?" },
-          { es: "Would it be all right if I came back to you by Friday?", en: "¿Le parecería bien que le diera una respuesta antes del viernes?" },
+          { es: "Would it be all right if I got back to you by Friday?", en: "¿Le parecería bien que le diera una respuesta antes del viernes?" },
           { es: "I'd just like to look over the details before I give you a final answer.", en: "Solo quisiera revisar los detalles antes de darle una respuesta definitiva." },
         ],
         checkpoint: [
@@ -844,7 +844,7 @@ export const EN_C2_U22: Lesson[] = [
             type: "multiple-choice",
             question: "Which response buys time most professionally?",
             options: [
-              "Thank you, that's great news. Would it be all right if I came back to you by Thursday?",
+              "Thank you, that's great news. Would it be all right if I got back to you by Thursday?",
               "I need to think. Call me next week.",
               "I'm not sure. I have other offers that are better.",
               "Maybe. I'll tell you when I know.",
@@ -1035,7 +1035,7 @@ export const EN_C2_U22: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["Would", "it", "be", "all", "right", "if", "I", "came", "back", "to", "you", "by", "Friday?"],
+        words: ["Would", "it", "be", "all", "right", "if", "I", "got", "back", "to", "you", "by", "Friday?"],
         translation: "¿Le parecería bien que le diera una respuesta antes del viernes?",
         explanation: "The unreal past \"came\" after \"Would it be all right if...\" makes the request more tentative.",
       },
@@ -1099,7 +1099,7 @@ export const EN_C2_U22: Lesson[] = [
       {
         heading: "The first two minutes: small talk",
         body: [
-          "Most interviews in English start with a minute or two of small talk: \"Did you find us OK?\", \"How was your journey?\", \"Where are you calling in from today?\" These questions are not part of the assessment in theory, but they set the tone. A one-word answer sounds cold; a five-minute story about the traffic sounds nervous.",
+          "Most interviews in English start with a minute or two of small talk: \"Did you find us OK?\", \"How was your trip in?\", \"Where are you calling in from today?\" These questions are not part of the assessment in theory, but they set the tone. A one-word answer sounds cold; a five-minute story about the traffic sounds nervous.",
           "The formula is short, positive and reciprocal: answer in a sentence, add a small detail, and, if it fits, return the question. \"Yes, no problem at all, thanks. The directions were really clear.\" \"I'm in Valencia, so it's a lovely sunny morning here. How about you?\"",
           "Watch two Spanish habits. «Bien, ¿y usted?» becomes \"Fine, thanks. And you?\", not *Well, and you? And do not complain, even jokingly, about the journey or the weather in a way that sounds negative: \"The traffic was a nightmare\" is fine among friends, but at an interview \"It was a bit busy, but I left early\" works better.",
         ],
@@ -1126,7 +1126,7 @@ export const EN_C2_U22: Lesson[] = [
           },
           {
             type: "multiple-choice",
-            question: "The interviewer asks: \"How was your journey?\" Which answer strikes the best tone?",
+            question: "The interviewer asks: \"How was your trip in?\" Which answer strikes the best tone?",
             options: [
               "Very smooth, thanks. The train was right on time.",
               "Terrible. The metro in this city is a disaster.",
@@ -1149,7 +1149,7 @@ export const EN_C2_U22: Lesson[] = [
           { es: "Sorry, you froze for a second. Could you repeat the last part?", en: "Perdón, se le ha congelado la imagen un segundo. ¿Podría repetir la última parte?" },
           { es: "I think you're on mute.", en: "Creo que tiene el micrófono silenciado." },
           { es: "You're breaking up a little.", en: "Se le entrecorta un poco el audio." },
-          { es: "I think I lost you there for a moment.", en: "Creo que le he perdido un momento." },
+          { es: "I think I lost you there for a moment.", en: "Creo que lo perdí un momento." },
           { es: "There seems to be a bit of a lag.", en: "Parece que hay un poco de retraso." },
           { es: "Would it help if I turned my camera off for a moment?", en: "¿Ayudaría si apagara la cámara un momento?" },
           { es: "Can you hear me now?", en: "¿Me oye ahora?" },
@@ -1312,9 +1312,9 @@ export const EN_C2_U22: Lesson[] = [
         altAnswers: alts(
           ["To pick up on your point about", "Picking up on your point about", "To come back to your point about", "Going back to your point about", "To go back to what you were saying about", "Going back to what you were saying about", "Coming back to what you were saying about"],
           ["deadlines, Emma,", "the deadlines, Emma,", "timelines, Emma,", "the timeline, Emma,", "the timelines, Emma,"],
-          ["I think we can bring the launch forward.", "I think we can bring forward the launch.", "I think we could bring the launch forward.", "I think we could bring forward the launch."],
+          ["I think we can bring the launch forward.", "I think we can bring forward the launch.", "I think we could bring the launch forward.", "I think we could bring forward the launch.", "I think we can move the launch up.", "I think we can move up the launch.", "I think we could move the launch up.", "I think we could move up the launch."],
         ),
-        explanation: "\"Pick up on\" links your answer to someone's earlier point. «Adelantar» a date is \"bring forward\", not *advance.",
+        explanation: "\"Pick up on\" links your answer to someone's earlier point. «Adelantar» a date is \"bring forward\" (US also \"move up\"), not *advance.",
       },
       {
         type: "multiple-choice",

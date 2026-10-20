@@ -654,7 +654,7 @@ export const EN_C2_U20: Lesson[] = [
               "We throw away a third of the food we produce every year.",
               "Every year, we throw a third of the food we produce away.",
             ],
-            explanation: "«Los alimentos» in general is \"food\", uncountable and without \"the\" unless defined (\"the food we produce\"). «Tirar» rubbish is \"throw away\" or \"throw out\".",
+            explanation: "«Los alimentos» in general is \"food\", uncountable and without \"the\" unless defined (\"the food we produce\"). «Tirar» trash is \"throw away\" or \"throw out\".",
           },
         ],
       },
@@ -942,7 +942,7 @@ export const EN_C2_U20: Lesson[] = [
         heading: "Churchill: anaphora and inversion",
         body: [
           "In June 1940 Churchill told Parliament: \"We shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills; we shall never surrender.\" The anaphora (\"we shall fight\") builds momentum, and the final clause breaks the pattern to land the key message.",
-          "Note \"shall\" for the future with \"we\": formal, old-fashioned British usage even then, and solemn rather than neutral. Today \"we will\" is normal.",
+          "Note \"shall\" for the future with \"we\": formal British usage of the time, and solemn rather than neutral. Today \"we will\" is normal.",
           "In August 1940, about the pilots of the Battle of Britain: \"Never in the field of human conflict was so much owed by so many to so few.\" Negative inversion (\"never... was so much owed\") and a tricolon of \"so much / so many / so few\" make a statistic sound like scripture.",
         ],
         examples: [
@@ -1321,7 +1321,7 @@ export const EN_C2_U20: Lesson[] = [
           { es: "Am I the only one who finds this a little naive?", en: "¿Soy el único al que esto le parece un poco ingenuo?" },
           { es: "You may not be the only one, but the results are public.", en: "Puede que no sea el único, pero los resultados son públicos." },
           { es: "If I could just finish my point.", en: "Si me deja terminar lo que estaba diciendo." },
-          { es: "Let me finish this point, and then I'm all yours.", en: "Déjeme terminar esta idea y luego soy todo suyo." },
+          { es: "Let me finish this point, and then I'm all yours.", en: "Déjeme terminar esta idea y luego soy toda suya." },
           { es: "I'll come to that in a second.", en: "Ahora llego a eso." },
           { es: "So, to come back to the question we were asked: yes, it works.", en: "Bueno, volviendo a la pregunta que nos han hecho: sí, funciona." },
         ],
@@ -1438,7 +1438,7 @@ export const EN_C2_U20: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Let me finish this point, and then I'm all ___.",
         answer: "yours",
-        en: "Déjeme terminar esta idea y luego soy todo [suyo].",
+        en: "Déjeme terminar esta idea y luego soy toda [suya].",
         explanation: "\"I'm all yours\" («soy todo tuyo/suyo») politely promises to deal with the interruption later. The possessive pronoun is \"yours\", never *your's.",
       },
       {

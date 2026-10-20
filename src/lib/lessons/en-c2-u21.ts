@@ -282,7 +282,7 @@ export const EN_C2_U21: Lesson[] = [
       {
         type: "speak",
         text: "I've been with my current employer since 2019, and most recently I led the move to a new CRM.",
-        tip: "Contract \"I have\" to \"I've\" and link it to \"been\": /aiv bin/. In \"CRM\" stress the last letter: C-R-M.",
+        tip: "Contract \"I have\" to \"I've\" and link it to \"been\": /aɪv bɪn/. In \"CRM\" stress the last letter: C-R-M.",
         explanation: "Contractions sound fluent and confident in an interview; the full \"I have been\" sounds stiff in speech.",
       },
       {
@@ -633,7 +633,7 @@ export const EN_C2_U21: Lesson[] = [
       {
         heading: "False friends and calques to avoid",
         body: [
-          "«Soy muy sensible a las críticas» is \"I'm very sensitive to criticism\". *I'm very sensible to criticism means nothing in English, since \"sensible\" means reasonable. Note too that \"criticism\" is uncountable here: not *the critics, who are people who review films or books.",
+          "«Soy muy sensible a las críticas» is \"I'm very sensitive to criticism\". *I'm very sensible to criticism means nothing in English, since \"sensible\" means reasonable. Note too that \"criticism\" is uncountable here: not *the critics, who are people who review movies or books.",
           "«Exigente» about yourself is \"I have very high standards\" or \"I'm very demanding of myself\"; avoid *exigent. «Me agobio» is \"I get overwhelmed\" or \"I get stressed\". «Me pongo nervioso al hablar en público» is \"I get nervous speaking in public\" or \"when I speak in public\".",
           "«Impaciente» works (\"impatient\"), but add the context: \"I can get impatient when decisions take too long\". \"Can\" + verb softens a tendency in English, like «a veces me pasa que...».",
         ],
@@ -1122,10 +1122,10 @@ export const EN_C2_U21: Lesson[] = [
             type: "multiple-choice",
             question: "Which sentence is correct?",
             options: [
-              "We discussed the new rota for an hour.",
-              "We discussed about the new rota for an hour.",
-              "We discussed on the new rota for an hour.",
-              "We discussed of the new rota for an hour.",
+              "We discussed the new schedule for an hour.",
+              "We discussed about the new schedule for an hour.",
+              "We discussed on the new schedule for an hour.",
+              "We discussed of the new schedule for an hour.",
             ],
             correctIndex: 0,
             explanation: "\"Discuss\" is transitive: \"discuss something\". You can \"talk about\" or \"have a discussion about\" something, but not *discuss about.",
@@ -1406,7 +1406,7 @@ export const EN_C2_U21: Lesson[] = [
           "Even in the UK, though, the evidence must be clear. Understatement softens the frame, not the facts: \"I was fairly pleased that we cut costs by 20%\".",
         ],
         examples: [
-          { es: "I'd like to think I made a real difference to the team.", en: "Me gustaría pensar que supuse una diferencia real para el equipo." },
+          { es: "I'd like to think I made a real difference to the team.", en: "Me gustaría pensar que marqué una diferencia real para el equipo." },
           { es: "I was fairly pleased that we cut costs by 20%.", en: "Quedé bastante satisfecho de que recortáramos los costos un 20%." },
           { es: "It went reasonably well, all things considered.", en: "Salió bastante bien, teniendo en cuenta todo." },
           { es: "I'm quite good at keeping meetings on track.", en: "Se me da bastante bien que las reuniones no se desvíen." },
@@ -1429,7 +1429,7 @@ export const EN_C2_U21: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Me gustaría pensar que supuse una diferencia real.",
+            source: "Me gustaría pensar que marqué una diferencia real.",
             answer: "I'd like to think I made a real difference.",
             altAnswers: alts(
               ["I'd like to think", "I'd like to think that", "I like to think", "I like to think that"],
@@ -1524,7 +1524,7 @@ export const EN_C2_U21: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "I'd like to think I ___ a real difference to the department.",
         answer: "made",
-        en: "Me gustaría pensar que [supuse] una diferencia real para el departamento.",
+        en: "Me gustaría pensar que [marqué] una diferencia real para el departamento.",
         explanation: "\"Make a difference\" is fixed. Spanish speakers sometimes write *did a difference.",
       },
       {
@@ -1844,7 +1844,7 @@ export const EN_C2_U21: Lesson[] = [
           { left: "training", right: "formación (en la empresa)" },
           { left: "career", right: "carrera profesional" },
         ],
-        explanation: "Each pair is a frequent calque on Spanish CVs: *graduated in, *practices, *actual, *assist to, *formation and *carrier.",
+        explanation: "Each pair is a frequent calque on Spanish CVs: *I'm graduated in, *practices, *actual, *assist to, *formation and *carrier.",
       },
       {
         type: "speak",
@@ -2360,7 +2360,7 @@ export const EN_C2_U21: Lesson[] = [
         sentence: "If the printer jams, try ___ it off and on again.",
         answer: "turning",
         altAnswers: ["switching"],
-        en: "Si la impresora se atasca, [intenta] apagarla y volver a encenderla.",
+        en: "Si la impresora se atasca, intenta [apagarla] y volver a encenderla.",
         explanation: "\"Try + -ing\" = experiment with a solution and see if it works. \"Try to\" means make an effort.",
       },
       {

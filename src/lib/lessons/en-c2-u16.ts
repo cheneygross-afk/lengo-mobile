@@ -492,11 +492,11 @@ export const EN_C2_U16: Lesson[] = [
         heading: "Deflecting and admitting you don't know",
         body: [
           "Not every question deserves a full answer in public. To deflect politely: \"That's slightly outside the scope of today's talk\", \"I'd rather not speculate on that\", \"That's really one for the legal team\", \"Perhaps we could take that offline\" (= discuss it privately later).",
-          "Admitting you don't know is perfectly acceptable in English-speaking business culture, as long as you offer a next step: \"I don't have that figure to hand, but I'll get back to you by Friday\" (American English: \"I don't have that number in front of me\"). Never bluff.",
+          "Admitting you don't know is perfectly acceptable in English-speaking business culture, as long as you offer a next step: \"I don't have that number in front of me, but I'll get back to you by Friday\" (British English: \"I don't have that figure to hand\"). Never bluff.",
           "Note the structures: \"get back to someone\" («contestar más adelante»), \"to hand\" or \"on hand\" («a mano»). And «No sabría decirle» is \"I couldn't tell you\" or \"I'm afraid I don't know\", not *I wouldn't know to tell you.",
         ],
         examples: [
-          { es: "I don't have that figure to hand, but I'll get back to you.", en: "No tengo esa cifra a mano, pero le contesto más adelante." },
+          { es: "I don't have that number in front of me, but I'll get back to you.", en: "No tengo esa cifra a mano, pero le contesto más adelante." },
           { es: "I'm afraid I don't know, but I'll find out.", en: "Me temo que no lo sé, pero lo averiguaré." },
           { es: "That's slightly outside the scope of today's talk.", en: "Eso se sale un poco del ámbito de la charla de hoy." },
           { es: "I'd rather not speculate on that.", en: "Prefiero no especular sobre eso." },
@@ -1630,7 +1630,7 @@ export const EN_C2_U16: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "¿Podrían incluir la formación del personal sin costo adicional?",
+            source: "¿Podrían incluir la capacitación del personal sin costo adicional?",
             answer: "Could you include the staff training at no extra cost?",
             altAnswers: [
               "Could you include staff training at no extra cost?",
@@ -2043,7 +2043,7 @@ export const EN_C2_U16: Lesson[] = [
         heading: "Off-topic questions and closing the Q&A",
         body: [
           "Someone asks about the company's office move, which has nothing to do with the talk. Sofia keeps it brief and redirects: \"That's an interesting point, though a little beyond what we're covering today. I'd suggest raising it with facilities\".",
-          "A long monologue disguised as a question? Wait for a breath and step in: \"Thank you. In the interests of time, could I ask you to put your question in a sentence?\" The phrase \"in the interests of time\" (AmE also \"in the interest of time\") is polite but firm.",
+          "A long monologue disguised as a question? Wait for a breath and step in: \"Thank you. In the interest of time, could I ask you to put your question in a sentence?\" The phrase \"in the interest of time\" (British English also \"in the interests of time\") is polite but firm.",
           "To close: \"I think we have time for one last question\", then \"Thank you all for some excellent questions. If anything else comes up, my email is on the final slide\". *Thank you for your attention alone sounds abrupt to many English-speaking audiences after a Q&A; thank people for the questions too.",
         ],
         examples: [
@@ -2636,7 +2636,7 @@ export const EN_C2_U16: Lesson[] = [
           { es: "She came across as assured and well prepared.", en: "Dio la impresión de estar segura y bien preparada." },
           { es: "Pause for a second and let that sink in.", en: "Haz una pausa de un segundo y deja que cale." },
           { es: "Just so I'm clear, are you asking about the cost?", en: "Para asegurarme de que lo entiendo: ¿pregunta por el costo?" },
-          { es: "I don't have that figure to hand, but I'll get back to you.", en: "No tengo esa cifra a mano, pero le contesto más adelante." },
+          { es: "I don't have that number in front of me, but I'll get back to you.", en: "No tengo esa cifra a mano, pero le contesto más adelante." },
         ],
         checkpoint: [
           {

@@ -32,8 +32,8 @@ export const DE_A1_U08: Lesson[] = [
             prompt: "Translate into German.",
             source: "I like cooking.",
             answer: "Ich koche gern.",
-            altAnswers: ["Ich koche gerne."],
-            explanation: "Activity + \"gern\": \"Ich koche gern\". \"Ich mag kochen\" is heard in casual speech, but verb + \"gern\" is the normal German way to say you like doing something.",
+            altAnswers: ["Ich koche gerne.", "Ich mag kochen."],
+            explanation: "Activity + \"gern\": \"Ich koche gern\". \"Ich mag kochen\" is accepted too and heard in casual speech, but verb + \"gern\" is the normal German way to say you like doing something.",
           },
           {
             type: "multiple-choice",

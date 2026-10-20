@@ -411,7 +411,7 @@ export const EN_C1_U08: Lesson[] = [
         heading: "But for and otherwise",
         body: [
           "\"But for\" + noun means \"if it were not for\" or \"if it had not been for\" («de no ser por», «si no hubiera sido por»). It is formal and is followed by a noun phrase, not a clause: \"But for your help, we would have failed\". In everyday English, say \"If it hadn't been for your help\" or \"Without your help\".",
-          "\"Otherwise\" means «si no», «de lo contrario». It refers back to the previous sentence: \"Hurry up, otherwise we'll miss the train\". After \"otherwise\" you can use a real or an unreal form: \"I had a map; otherwise I would have got lost\".",
+          "\"Otherwise\" means «si no», «de lo contrario». It refers back to the previous sentence: \"Hurry up, otherwise we'll miss the train\". After \"otherwise\" you can use a real or an unreal form: \"I had a map; otherwise I would have gotten lost\".",
           "In speech, \"or\" and \"or else\" do the same job: \"Hurry up, or (else) we'll miss the train\".",
         ],
         examples: [
@@ -419,7 +419,7 @@ export const EN_C1_U08: Lesson[] = [
           { es: "If it hadn't been for the rain, we'd have won.", en: "Si no hubiera sido por la lluvia, habríamos ganado." },
           { es: "Hurry up, otherwise we'll miss the train.", en: "Apúrate; si no, perderemos el tren." },
           { es: "I had a map; otherwise I would have gotten lost.", en: "Tenía un mapa; de lo contrario, me habría perdido." },
-          { es: "Write it down, or else you'll forget.", en: "Apúntalo, que si no se te olvida." },
+          { es: "Write it down, or else you'll forget.", en: "Anótalo, porque si no, se te va a olvidar." },
         ],
         checkpoint: [
           {
@@ -1474,7 +1474,7 @@ export const EN_C1_U08: Lesson[] = [
         examples: [
           { es: "If I were you, I'd take the job.", en: "Yo que tú, aceptaría el trabajo." },
           { es: "I wish it were Friday.", en: "Ojalá fuera viernes." },
-          { es: "Were she to resign, the party would collapse.", en: "Si ella dimitiera, el partido se hundiría." },
+          { es: "Were she to resign, the party would collapse.", en: "Si ella renunciara, el partido se hundiría." },
           { es: "Were it not for the bridge, the village would be cut off.", en: "Si no fuera por el puente, el pueblo quedaría aislado." },
           { es: "If he was at the meeting, he must have heard.", en: "Si estuvo en la reunión, tuvo que oírlo." },
         ],
@@ -2653,9 +2653,9 @@ export const EN_C1_U08: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "Les recomendé esta película a mis padres.",
-            answer: "I recommended this film to my parents.",
+            answer: "I recommended this movie to my parents.",
             altAnswers: [
-              "I recommended this movie to my parents.",
+              "I recommended this film to my parents.",
               "I recommended this film to my mum and dad.",
               "I recommended this movie to my mom and dad.",
               "I recommended that film to my parents.",
@@ -3154,7 +3154,7 @@ export const EN_C1_U08: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "A learner wrote: *They demanded him to resign. Write the correct version.",
-        source: "Exigieron que dimitiera.",
+        source: "Exigieron que renunciara.",
         answer: "They demanded that he resign.",
         altAnswers: [
           "They demanded that she resign.",
@@ -3299,7 +3299,7 @@ export const EN_C1_U08: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Complete the second sentence so that it means the same as the first. Use the word in capitals (OTHERWISE).",
-        sentence: "If we don't leave now, we'll miss the beginning of the film. / We need to leave now, ___ the beginning of the film.",
+        sentence: "If we don't leave now, we'll miss the beginning of the movie. / We need to leave now, ___ the beginning of the movie.",
         answer: "otherwise we'll miss",
         altAnswers: ["otherwise we will miss"],
         en: "Tenemos que irnos ya; [si no, nos perderemos] el principio de la película.",
@@ -3634,7 +3634,7 @@ export const EN_C1_U08: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Si el presidente dimitiera, habría elecciones anticipadas.",
+        source: "Si el presidente renunciara, habría elecciones anticipadas.",
         answer: "If the president resigned, there would be early elections.",
         altAnswers: [
           "If the president were to resign, there would be early elections.",

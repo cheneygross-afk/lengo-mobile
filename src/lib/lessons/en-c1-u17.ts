@@ -22,8 +22,8 @@ export const EN_C1_U17: Lesson[] = [
         examples: [
           { es: "Never have I seen such a mess.", en: "Nunca he visto semejante desorden. (incorrecto: *Never I have seen)" },
           { es: "Not only did she apologize, but she also paid for the damage.", en: "No solo se disculpó, sino que además pagó los daños." },
-          { es: "No sooner had we sat down than the phone rang.", en: "Nada más sentarnos, sonó el teléfono." },
-          { es: "Hardly had the film started when the power went out.", en: "Apenas había empezado la película cuando se fue la luz." },
+          { es: "No sooner had we sat down than the phone rang.", en: "Apenas nos sentamos, sonó el teléfono." },
+          { es: "Hardly had the movie started when the power went out.", en: "Apenas había empezado la película cuando se fue la luz." },
           { es: "Had I known, I would have called you.", en: "De haberlo sabido, te habría llamado." },
           { es: "Should you have any questions, please contact us.", en: "Si tiene alguna pregunta, no dude en ponerse en contacto con nosotros." },
           { es: "Were the company to close, hundreds of jobs would be lost.", en: "Si la empresa cerrara, se perderían cientos de empleos." },
@@ -237,7 +237,7 @@ export const EN_C1_U17: Lesson[] = [
         sentence: "Not only ___ late, but he also forgot the documents.",
         answer: "did he arrive",
         altAnswers: ["did he come", "did he turn up", "did he show up", "did he get there"],
-        en: "No solo [llegó] tarde, sino que también se olvidó los documentos.",
+        en: "No solo [llegó] tarde, sino que también olvidó los documentos.",
         explanation: "\"Not only\" at the start of a clause triggers inversion: \"did he arrive\". Spanish keeps normal order, so *Not only he arrived is the typical slip.",
       },
       {
@@ -347,7 +347,7 @@ export const EN_C1_U17: Lesson[] = [
         ],
         examples: [
           { es: "Will it rain tomorrow? I hope not.", en: "¿Lloverá mañana? Espero que no." },
-          { es: "Is the shop still open? I think so.", en: "¿Sigue abierta la tienda? Creo que sí. (incorrecto: *I think yes)" },
+          { es: "Is the store still open? I think so.", en: "¿Sigue abierta la tienda? Creo que sí. (incorrecto: *I think yes)" },
           { es: "I don't like the blue shirt; I prefer the white one.", en: "No me gusta la camisa azul; prefiero la blanca." },
           { es: "I haven't read it yet. Neither has Tom.", en: "Todavía no lo he leído. Tom tampoco." },
           { es: "Prices rose by 20%. This increase hit families hard.", en: "Los precios subieron un 20 %. Esta subida afectó mucho a las familias." },
@@ -358,7 +358,7 @@ export const EN_C1_U17: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "\"Is the meeting canceled?\" \"I'm ___.\"",
             answer: "afraid so",
-            en: "\"¿Se ha cancelado la reunión?\" \"[Me temo que sí].\"",
+            en: "\"¿Se canceló la reunión?\" \"[Me temo que sí].\"",
             explanation: "\"I'm afraid so\" = «me temo que sí»; \"I'm afraid not\" = «me temo que no». \"So\" replaces the whole clause.",
           },
           {
@@ -597,7 +597,7 @@ export const EN_C1_U17: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Se dice que el director ha dimitido.",
+        source: "Se dice que el director renunció.",
         answer: "The director is said to have resigned.",
         altAnswers: [
           "It is said that the director has resigned.",
@@ -665,8 +665,9 @@ export const EN_C1_U17: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "El departamento es pequeño. Eso sí, tiene unas vistas increíbles.",
-        answer: "The apartment is small. Mind you, it has amazing views.",
+        answer: "The apartment is small. That said, it has amazing views.",
         altAnswers: [
+          "The apartment is small. Mind you, it has amazing views.",
           "The flat is small. Mind you, it has amazing views.",
           "The flat is small. Mind you, it has incredible views.",
           "The apartment is small. Mind you, it has incredible views.",
@@ -1062,16 +1063,16 @@ export const EN_C1_U17: Lesson[] = [
       {
         heading: "Idioms: true and false equivalents",
         body: [
-          "Some idioms match Spanish closely: «a la tercera va la vencida» ~ \"third time lucky\", «matar dos pájaros de un tiro» = \"kill two birds with one stone\". Many do not: «costar un ojo de la cara» is \"cost an arm and a leg\", «meter la pata» is \"put your foot in it\", «ser pan comido» is \"be a piece of cake\", «estar en las nubes» is \"have your head in the clouds\".",
+          "Some idioms match Spanish closely: «a la tercera va la vencida» ~ \"third time lucky\", «matar dos pájaros de un tiro» = \"kill two birds with one stone\". Many do not: «costar un ojo de la cara» is \"cost an arm and a leg\", «meter la pata» is \"put your foot in your mouth\" (British \"put your foot in it\"), «ser pan comido» is \"be a piece of cake\", «estar en las nubes» is \"have your head in the clouds\".",
           "Never translate an idiom word for word unless you know the English version exists. And keep idioms for speech and informal writing: in a formal report, \"very expensive\" is better than \"cost an arm and a leg\".",
           "Binomials have a fixed order: \"pros and cons\", \"sooner or later\", \"ups and downs\", \"black and white\" (not *white and black, as in «blanco y negro»).",
         ],
         examples: [
           { es: "That car must have cost an arm and a leg.", en: "Ese carro debe de haber costado un ojo de la cara." },
-          { es: "I really put my foot in it at dinner.", en: "Metí la pata hasta el fondo en la cena." },
+          { es: "I really put my foot in my mouth at dinner.", en: "Metí la pata hasta el fondo en la cena." },
           { es: "The exam was a piece of cake.", en: "El examen fue pan comido." },
-          { es: "Let's weigh up the pros and cons.", en: "Sopesemos los pros y los contras." },
-          { es: "It's an old black and white film.", en: "Es una película antigua en blanco y negro." },
+          { es: "Let's weigh the pros and cons.", en: "Sopesemos los pros y los contras." },
+          { es: "It's an old black and white movie.", en: "Es una película antigua en blanco y negro." },
         ],
         checkpoint: [
           {
@@ -1100,11 +1101,11 @@ export const EN_C1_U17: Lesson[] = [
         body: [
           "Negative prefixes: \"un-\" (unlikely, unaware), \"in-\" / \"im-\" / \"il-\" / \"ir-\" (inaccurate, impossible, illegal, irrelevant), \"dis-\" (disagree, dishonest), \"mis-\" (= wrongly: misunderstand, mislead). \"Over-\" and \"under-\" add too much or too little: overestimate, underpaid.",
           "Suffixes change the word class: -ness and -ity (awareness, reliability), -ment (achievement), -ive and -ous (effective, dangerous), -ise/-ize (modernize). In word formation tasks, check the class the gap needs before choosing the suffix.",
-          "False friends to keep reviewing: \"sensible\" (sensato) vs «sensible» (sensitive); \"embarrassed\" (avergonzado) vs «embarazada» (pregnant); \"attend\" (asistir) vs \"assist\" (ayudar); \"library\" (biblioteca) vs «librería» (bookshop); \"realize\" (darse cuenta) vs «realizar» (carry out); \"argument\" (discusión, pelea) vs «argumento» (plot of a film).",
+          "False friends to keep reviewing: \"sensible\" (sensato) vs «sensible» (sensitive); \"embarrassed\" (avergonzado) vs «embarazada» (pregnant); \"attend\" (asistir) vs \"assist\" (ayudar); \"library\" (biblioteca) vs «librería» (bookstore); \"realize\" (darse cuenta) vs «realizar» (carry out); \"argument\" (discusión, pelea) vs «argumento» (plot of a movie).",
         ],
         examples: [
           { es: "Her answer was completely irrelevant.", en: "Su respuesta no tenía nada que ver. / Su respuesta era irrelevante." },
-          { es: "I think you misunderstood me.", en: "Creo que me has entendido mal." },
+          { es: "I think you misunderstood me.", en: "Creo que me entendiste mal." },
           { es: "Nurses are underpaid and overworked.", en: "Las enfermeras están mal pagadas y sobrecargadas de trabajo." },
           { es: "That's a very sensible idea.", en: "Es una idea muy sensata." },
           { es: "She attended the conference in Boston.", en: "Asistió al congreso en Boston." },
@@ -1197,7 +1198,7 @@ export const EN_C1_U17: Lesson[] = [
         answer: "unreliable",
         altAnswers: ["inaccurate", "inconclusive"],
         en: "Los resultados [no eran confiables], así que repetimos la prueba.",
-        explanation: "\"Rely\" > \"reliable\" > \"unreliable\". Spanish «fiable» has no prefix twin, so learners say *not trustable; \"unreliable\" is the word.",
+        explanation: "\"Rely\" > \"reliable\" > \"unreliable\". Spanish says «no confiable», so learners say *not trustable; \"unreliable\" is the word.",
       },
       {
         type: "matching",
@@ -1207,7 +1208,7 @@ export const EN_C1_U17: Lesson[] = [
           { left: "bookstore", right: "librería" },
           { left: "attend", right: "asistir (a un evento)" },
           { left: "assist", right: "ayudar" },
-          { left: "carpet", right: "alfombra / moqueta" },
+          { left: "carpet", right: "alfombra" },
           { left: "folder", right: "carpeta" },
         ],
         explanation: "Three classic false-friend pairs: library/«librería», assist/«asistir» and carpet/«carpeta».",
@@ -1246,9 +1247,9 @@ export const EN_C1_U17: Lesson[] = [
       },
       {
         type: "speak",
-        text: "Sooner or later, we'll have to weigh up the pros and cons.",
+        text: "Sooner or later, we'll have to weigh the pros and cons.",
         tip: "Binomials are said as one unit: \"sooner-or-later\", \"pros-and-cons\", with a weak \"or\" and \"and\".",
-        explanation: "Two fixed binomials and the phrasal verb \"weigh up\" (= consider carefully).",
+        explanation: "Two fixed binomials and the verb \"weigh\" (= consider carefully; British \"weigh up\").",
       },
       {
         type: "write",
@@ -1328,7 +1329,7 @@ export const EN_C1_U17: Lesson[] = [
         ],
         examples: [
           { es: "I am writing to apply for the position of sales manager.", en: "Me dirijo a ustedes para solicitar el puesto de director de ventas." },
-          { es: "Please find attached my CV.", en: "Adjunto mi currículum." },
+          { es: "Please find attached my resume.", en: "Adjunto mi currículum." },
           { es: "I would be grateful if you could confirm the dates.", en: "Le agradecería que me confirmara las fechas." },
           { es: "I look forward to hearing from you.", en: "Quedo a la espera de su respuesta. (incorrecto: *I look forward to hear from you)" },
           { es: "Kind regards,", en: "Un saludo cordial," },
@@ -1595,7 +1596,7 @@ export const EN_C1_U17: Lesson[] = [
         examples: [
           { es: "See you this arvo!", en: "¡Nos vemos esta tarde! (Australia)" },
           { es: "It's just a wee bit cold.", en: "Hace un poquito de frío. (Escocia)" },
-          { es: "Can we bring the meeting forward to Monday?", en: "¿Podemos adelantar la reunión al lunes?" },
+          { es: "Can we move the meeting up to Monday?", en: "¿Podemos adelantar la reunión al lunes?" },
         ],
         checkpoint: [
           {
@@ -2039,7 +2040,7 @@ export const EN_C1_U17: Lesson[] = [
           "General nouns take no article: \"Society\", \"Nature\", \"People\" (Unit 3). And \"people\" is plural: \"People are\", never *people is.",
         ],
         examples: [
-          { es: "The thing is, I've already spent the money.", en: "Es que ya me he gastado el dinero." },
+          { es: "The thing is, I've already spent the money.", en: "Es que ya me gasté el dinero." },
           { es: "I don't think so.", en: "Creo que no." },
           { es: "I suggest you take a taxi.", en: "Te sugiero que tomes un taxi. (incorrecto: *I suggest you to take)" },
           { es: "Could you explain the problem to me?", en: "¿Me puedes explicar el problema? (incorrecto: *explain me the problem)" },
@@ -2132,7 +2133,7 @@ export const EN_C1_U17: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«Estudié la carrera de Económicas en Bogotá.» Which is correct?",
+            question: "«Estudié la carrera de Economía en Bogotá.» Which is correct?",
             options: [
               "I did a degree in economics in Bogota.",
               "I studied the career of economics in Bogota.",
@@ -2328,7 +2329,7 @@ export const EN_C1_U17: Lesson[] = [
           "Markers also buy you time while you think: \"Well...\", \"Let me see...\", \"How can I put it...\". They are far more natural than a silent pause or Spanish «eh...».",
         ],
         examples: [
-          { es: "A: Have you finished the report? B: Nearly. Just the conclusion left.", en: "A: ¿Has terminado el informe? B: Casi. Solo me falta la conclusión." },
+          { es: "A: Have you finished the report? B: Nearly. Just the conclusion left.", en: "A: ¿Ya terminaste el informe? B: Casi. Solo me falta la conclusión." },
           { es: "A: Coming to the party tonight? B: Can't, sorry. I'm working.", en: "A: ¿Vienes a la fiesta esta noche? B: No puedo, lo siento. Trabajo." },
           { es: "Plus, it's much cheaper.", en: "Y encima, es mucho más barato." },
           { es: "Anyway, as I was saying...", en: "Bueno, como iba diciendo..." },
@@ -2398,7 +2399,7 @@ export const EN_C1_U17: Lesson[] = [
           "Stress and intonation do much of the work: a falling tone on \"Absolutely\" sounds sincere; a rising \"Really?\" invites the other person to continue.",
         ],
         examples: [
-          { es: "A: Shall we just cancel the trip? B: Well, I'm not sure. Mind you, the forecast is terrible.", en: "A: ¿Y si cancelamos el viaje? B: Pues no sé. Eso sí, la previsión es malísima." },
+          { es: "A: Should we just cancel the trip? B: Well, I'm not sure. Mind you, the forecast is terrible.", en: "A: ¿Y si cancelamos el viaje? B: Pues no sé. Eso sí, el pronóstico es malísimo." },
           { es: "A: So you're moving to Dublin? B: Not Dublin, Cork. Dublin's way too expensive.", en: "A: Entonces, ¿te mudas a Dublín? B: A Dublín no, a Cork. Dublín es carísimo." },
           { es: "To be honest, I'd rather stay in tonight.", en: "La verdad, prefiero quedarme en casa esta noche." },
         ],
@@ -2469,7 +2470,7 @@ export const EN_C1_U17: Lesson[] = [
           "Anyway, where do you want to meet?",
           "Anyway, where shall we meet up?",
         ],
-        explanation: "\"Anyway\" closes a topic and moves the conversation on, like «bueno, en fin». In \"where shall we meet?\", \"shall\" makes a suggestion.",
+        explanation: "\"Anyway\" closes a topic and moves the conversation on, like «bueno, en fin». In \"where should we meet?\", \"should\" makes a suggestion (British: \"shall\").",
       },
       {
         type: "multiple-choice",
@@ -2871,7 +2872,7 @@ export const EN_C1_U17: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The film was a huge ___ in Spain.",
+        sentence: "The movie was a huge ___ in Spain.",
         answer: "success",
         altAnswers: ["hit"],
         en: "La película fue un gran [éxito] en España.",

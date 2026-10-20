@@ -532,7 +532,7 @@ export const EN_C1_U05: Lesson[] = [
           "They say the mayor has accepted bribes.",
           "They say that the mayor has taken bribes.",
         ],
-        explanation: "A past action reported now: \"is said to have accepted\". \"Alleged\" is the usual verb for accusations of crime.",
+        explanation: "A past action reported now: \"is said to have accepted\". For accusations of crime, \"is alleged to have\" is the usual choice.",
       },
       {
         type: "fill-blank",
@@ -1576,7 +1576,7 @@ export const EN_C1_U05: Lesson[] = [
     level: "EN-C1",
     number: 6,
     title: "Expressing Probability and Certainty, Part 2 of 2",
-    summary: "Modal nuances beyond the Upper Intermediate level: \"should\" for expectation, \"may/might/could well\", \"will\" for assumptions (\"That'll be the postman\"), \"must be + -ing\", and the full scale from certain to impossible.",
+    summary: "Modal nuances beyond the Upper Intermediate level: \"should\" for expectation, \"may/might/could well\", \"will\" for assumptions (\"That'll be the mailman\"), \"must be + -ing\", and the full scale from certain to impossible.",
     duration: "12 min",
     sections: [
       {
@@ -1664,14 +1664,14 @@ export const EN_C1_U05: Lesson[] = [
         ],
       },
       {
-        heading: "Will for assumptions: That'll be the postman",
+        heading: "Will for assumptions: That'll be the mailman",
         body: [
-          "\"Will\" can express a confident assumption about the present, not the future: the doorbell rings and you say \"That'll be the postman\" («será el cartero»). This matches the Spanish future of probability exactly: «serán las diez», «estará en casa».",
+          "\"Will\" can express a confident assumption about the present, not the future: the doorbell rings and you say \"That'll be the mailman\" («será el cartero»). This matches the Spanish future of probability exactly: «serán las diez», «estará en casa».",
           "So «serán las diez» can be \"It'll be about ten\" or \"It must be about ten\". «Estará cansado» can be \"He'll be tired\" or \"He must be tired\". \"Will have + past participle\" does the same for the past: «ya habrá llegado» is \"He'll have arrived by now\".",
           "With an action in progress, use \"must be + -ing\" or \"will be + -ing\": \"He's not answering. He must be driving\" or \"He'll be driving\".",
         ],
         examples: [
-          { es: "That'll be the postman.", en: "Será el cartero." },
+          { es: "That'll be the mailman.", en: "Será el cartero." },
           { es: "It'll be about ten o'clock.", en: "Serán las diez, más o menos." },
           { es: "You'll be tired after the trip.", en: "Estarás cansado después del viaje." },
           { es: "She'll have arrived by now.", en: "Ya habrá llegado." },
@@ -1944,7 +1944,7 @@ export const EN_C1_U05: Lesson[] = [
           "When a headline says \"set to\", read it as \"about to and almost certain\". When it says \"could\", read it as a possibility: \"Strike could close schools\".",
         ],
         examples: [
-          { es: "The minister is expected to resign later today.", en: "Se espera que la ministra dimita hoy mismo." },
+          { es: "The minister is expected to resign later today.", en: "Se espera que la ministra renuncie hoy mismo." },
           { es: "She is understood to have lost the support of her party.", en: "Según ha podido saberse, ha perdido el apoyo de su partido." },
           { es: "An early election now looks increasingly likely.", en: "Unas elecciones anticipadas parecen cada vez más probables." },
           { es: "Strike could close schools.", en: "La huelga podría cerrar los colegios." },
@@ -2047,7 +2047,7 @@ export const EN_C1_U05: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Se espera que el presidente anuncie su dimisión esta tarde.",
+        source: "Se espera que el presidente anuncie su renuncia esta tarde.",
         answer: "The president is expected to announce his resignation this afternoon.",
         altAnswers: [
           "The president is expected to announce her resignation this afternoon.",
@@ -2061,7 +2061,7 @@ export const EN_C1_U05: Lesson[] = [
           "The president is expected to announce that she is resigning this afternoon.",
           "The chairman is expected to announce his resignation this afternoon.",
         ],
-        explanation: "\"Is expected to\" is the standard news formula for «se espera que». «Dimisión» is \"resignation\"; the verb is \"resign\".",
+        explanation: "\"Is expected to\" is the standard news formula for «se espera que». «Renuncia» is \"resignation\"; the verb is \"resign\".",
       },
       {
         type: "fill-blank",
@@ -3733,7 +3733,7 @@ export const EN_C1_U05: Lesson[] = [
         instructions: "Match the English words with their Spanish meanings.",
         pairs: [
           { left: "constipated", right: "estreñido" },
-          { left: "a cold", right: "un resfriado, un constipado" },
+          { left: "a cold", right: "un resfriado" },
           { left: "a prescription", right: "una receta médica" },
           { left: "a relapse", right: "una recaída" },
           { left: "an outbreak", right: "un brote" },
@@ -3980,7 +3980,7 @@ export const EN_C1_U05: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "El ministro fue acusado y posteriormente dimitió.",
+            source: "El ministro fue acusado y posteriormente renunció.",
             answer: "The minister was accused and subsequently resigned.",
             altAnswers: [
               "The minister was accused and later resigned.",

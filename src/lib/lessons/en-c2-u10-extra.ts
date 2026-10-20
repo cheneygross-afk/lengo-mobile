@@ -237,7 +237,7 @@ export const EN_C2_U10_EXTRA: Lesson[] = [
         answer: "made a loss",
         altAnswers: ["made a big loss", "made losses", "lost money", "ran at a loss", "posted a loss", "recorded a loss", "reported a loss"],
         en: "Por desgracia, la empresa [tuvo pérdidas] en su primer año.",
-        explanation: "\"Make a loss\" is the opposite of \"make a profit\". In financial reports you will also see \"post\" or \"report a loss\". *Had losses is understandable but unidiomatic.",
+        explanation: "\"Make a loss\" (British) is the opposite of \"make a profit\"; American English usually says \"lose money\" or \"post a loss\". In financial reports you will also see \"post\" or \"report a loss\". *Had losses is understandable but unidiomatic.",
       },
       {
         type: "translate",

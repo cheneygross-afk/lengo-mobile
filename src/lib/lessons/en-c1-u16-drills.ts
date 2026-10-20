@@ -1031,7 +1031,7 @@ export const EN_C1_U16_DRILLS: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into American English.",
-        source: "Hace un frío que pela y el garaje está lejos de aquí.",
+        source: "Hace muchísimo frío y el garaje está lejos de aquí.",
         answer: "It's freezing, and the garage is far from here.",
         altAnswers: [
           "It's freezing and the garage is far from here.",
@@ -1844,7 +1844,7 @@ export const EN_C1_U16_DRILLS: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into standard American English.",
-        source: "Ponte el gorro, que hace un frío que pela.",
+        source: "Ponte el gorro, que hace muchísimo frío.",
         answer: "Put your hat on, it's freezing.",
         altAnswers: [
           "Put your hat on. It's freezing.",
@@ -1955,10 +1955,10 @@ export const EN_C1_U16_DRILLS: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into British English.",
-        source: "Hay una bolsa de papas fritas en el armario.",
+        source: "Hay una bolsa de papas fritas en la alacena.",
         answer: "There's a bag of crisps in the cupboard.",
         altAnswers: ["There is a bag of crisps in the cupboard.", "There's a packet of crisps in the cupboard.", "There is a packet of crisps in the cupboard."],
-        explanation: "British \"crisps\" (in a bag or packet); American \"chips\". «Armario» of the kitchen is a \"cupboard\" (American \"cabinet\").",
+        explanation: "British \"crisps\" (in a bag or packet); American \"chips\". A kitchen «alacena» is a \"cupboard\" (American \"cabinet\").",
       },
       {
         type: "fill-blank",
@@ -2374,10 +2374,10 @@ export const EN_C1_U16_DRILLS: Lesson[] = [
           { left: "*the colour gray", right: "the color gray" },
           { left: "*on holiday after the holiday weekend", right: "on vacation after the holiday weekend" },
           { left: "*Shall we meet on the weekend?", right: "Should we meet on the weekend?" },
-          { left: "*fill in this form and write me", right: "fill out this form and write me" },
+          { left: "*put it in the post and write me", right: "put it in the mail and write me" },
           { left: "*She travelled to the conference center.", right: "She traveled to the conference center." },
         ],
-        explanation: "Each starred phrase mixes a British element (colour, on holiday, shall, fill in, travelled) with an American one.",
+        explanation: "Each starred phrase mixes a British element (colour, on holiday, shall, post, travelled) with an American one.",
       },
       {
         type: "translate",

@@ -2749,7 +2749,7 @@ export const EN_C1_U04_DRILLS: Lesson[] = [
         type: "speak",
         prompt: "Say in English: «—¿Vas a ir a la reunión familiar? —Me encantaría, pero no puedo.»",
         text: "Are you going to the family reunion? I'd love to, but I can't.",
-        tip: "\"Reunion\" has four syllables: ree-YOON-yən.",
+        tip: "\"Reunion\" has three syllables: ree-YOON-yən.",
         explanation: "Unit review: keep the \"to\" in \"I'd love to\" and stop at the modal in \"I can't\". A \"family reunion\" is a gathering of relatives.",
       },
       {

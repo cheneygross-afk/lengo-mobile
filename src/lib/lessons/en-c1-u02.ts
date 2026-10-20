@@ -333,12 +333,12 @@ export const EN_C1_U02: Lesson[] = [
       {
         heading: "Focusing an action: \"What she did was (to) resign\"",
         body: [
-          "To focus an action, use \"do\" in the what-clause and then a bare infinitive: \"What she did was resign\". \"To resign\" is also correct, slightly more formal. Spanish uses an infinitive too: «Lo que hizo fue dimitir».",
+          "To focus an action, use \"do\" in the what-clause and then a bare infinitive: \"What she did was resign\". \"To resign\" is also correct, slightly more formal. Spanish uses an infinitive too: «Lo que hizo fue renunciar».",
           "Be careful not to repeat the past form after \"was\": *What she did was resigned. The tense is already shown by \"did\" and \"was\".",
           "To focus an event, use \"What happened was (that) ...\" + a full clause: \"What happened was that the server crashed\". This is very common when telling a story or explaining a problem.",
         ],
         examples: [
-          { es: "What she did was resign.", en: "Lo que hizo fue dimitir." },
+          { es: "What she did was resign.", en: "Lo que hizo fue renunciar." },
           { es: "What you should do is talk to your boss.", en: "Lo que deberías hacer es hablar con tu jefe." },
           { es: "What we did was call a taxi.", en: "Lo que hicimos fue llamar a un taxi." },
           { es: "What happened was that the server crashed.", en: "Lo que pasó fue que se cayó el servidor." },
@@ -820,7 +820,7 @@ export const EN_C1_U02: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Fue por eso por lo que dimití.",
+        source: "Fue por eso por lo que renuncié.",
         answer: "That's why I resigned.",
         altAnswers: [
           "It was for that reason that I resigned.",
@@ -1471,7 +1471,7 @@ export const EN_C1_U02: Lesson[] = [
         examples: [
           { es: "Much as I like him, I don't trust him.", en: "Por mucho que me caiga bien, no me fío de él." },
           { es: "Much as I'd love to come, I can't.", en: "Aunque me encantaría ir, no puedo." },
-          { es: "Try as I might, I couldn't open the jar.", en: "Por más que lo intenté, no pude abrir el tarro." },
+          { es: "Try as I might, I couldn't open the jar.", en: "Por más que lo intenté, no pude abrir el frasco." },
           { es: "Try as they did, they couldn't find the keys.", en: "Por más que lo intentaron, no encontraron las llaves." },
         ],
         checkpoint: [
@@ -1761,14 +1761,14 @@ export const EN_C1_U02: Lesson[] = [
         body: [
           "An emphatic reflexive stresses that it was that person and nobody else: \"I made it myself\" (= «lo hice yo mismo»), \"The CEO herself called me\" (= «la mismísima directora»). It goes right after the noun or at the end of the clause.",
           "\"By far\" strengthens a superlative: \"She's by far the best player\" or \"She's the best player by far\" = «con diferencia». Spanish speakers sometimes use \"the most\" as an intensifier (*It was the most beautiful, meaning «fue precioso»). In English, \"the most\" needs a comparison; for plain intensity say \"absolutely beautiful\" or \"so beautiful\".",
-          "\"Such (a) + adjective + noun\" and \"so + adjective\": \"It was such a good film\", \"The film was so good\". Never *so good film or *a such good film.",
+          "\"Such (a) + adjective + noun\" and \"so + adjective\": \"It was such a good movie\", \"The movie was so good\". Never *so good film or *a such good film.",
           "Finally, word order with \"very much\": it goes after the object, not between the verb and the object: \"I like coffee very much\", not *I like very much coffee. In formal speech, it can go before a few verbs: \"I very much appreciate it\", \"I'd very much like to\".",
         ],
         examples: [
           { es: "I made it myself.", en: "Lo hice yo mismo." },
           { es: "The CEO herself called me.", en: "Me llamó la mismísima directora general." },
           { es: "She's by far the best player on the team.", en: "Es, con diferencia, la mejor jugadora del equipo." },
-          { es: "It was such a good film.", en: "Fue una película tan buena." },
+          { es: "It was such a good movie.", en: "Fue una película tan buena." },
           { es: "I like this song very much.", en: "Me gusta mucho esta canción." },
           { es: "I'd very much like to meet her.", en: "Me gustaría mucho conocerla." },
         ],
@@ -2234,10 +2234,10 @@ export const EN_C1_U02: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "\"Let's watch a horror film.\" \"I can't stand horror films.\" Where does the main stress naturally fall in the reply?",
+            question: "\"Let's watch a horror movie.\" \"I can't stand horror movies.\" Where does the main stress naturally fall in the reply?",
             options: ["STAND", "FILMS", "I", "HORROR"],
             correctIndex: 0,
-            explanation: "\"Horror films\" is already given, so it loses its stress. The new information is your reaction: \"I can't STAND horror films.\"",
+            explanation: "\"Horror movies\" is already given, so it loses its stress. The new information is your reaction: \"I can't STAND horror movies.\"",
           },
           {
             type: "translate",
@@ -2263,7 +2263,7 @@ export const EN_C1_U02: Lesson[] = [
       {
         heading: "Fall or fall-rise: certainty versus reservation",
         body: [
-          "A falling tone at the end says \"this is complete, I'm sure\": \"The food was GOOD.\" (full stop, a clear compliment). A fall-rise (the voice goes down and then up again on the stressed word) says \"there's more I'm not saying\": \"The FOOD was good...\" suggests that something else, maybe the service, was not.",
+          "A falling tone at the end says \"this is complete, I'm sure\": \"The food was GOOD.\" (period, a clear compliment). A fall-rise (the voice goes down and then up again on the stressed word) says \"there's more I'm not saying\": \"The FOOD was good...\" suggests that something else, maybe the service, was not.",
           "The fall-rise is very useful for polite reservation and partial agreement: \"In THEORY, yes...\", \"I like the COLOR...\", \"It's not BAD...\". A rise is typical of polite requests and of checking: \"Could you open the WINDOW?\"",
           "Spanish intonation is narrower, with smaller jumps in pitch. Transferred to English, it can sound flat, which listeners often hear as bored, impatient or even rude: a flat \"Thank you\" or \"Sorry\" may sound sarcastic. Give your stressed syllable a clear movement.",
         ],
@@ -2803,7 +2803,7 @@ export const EN_C1_U02: Lesson[] = [
         examples: [
           { es: "I did tell you.", en: "Que sí te lo dije. (incorrecto: *I did told you)" },
           { es: "She does know the answer.", en: "Sí que sabe la respuesta. (incorrecto: *She does knows)" },
-          { es: "What she did was resign.", en: "Lo que hizo fue dimitir. (incorrecto: *was resigned)" },
+          { es: "What she did was resign.", en: "Lo que hizo fue renunciar. (incorrecto: *was resigned)" },
           { es: "It was the students who protested.", en: "Fueron los estudiantes quienes protestaron. (incorrecto: *It were)" },
         ],
         checkpoint: [
@@ -3248,7 +3248,7 @@ export const EN_C1_U02: Lesson[] = [
         ],
         examples: [
           { es: "What surprised me was the weather.", en: "Lo que me sorprendió fue el tiempo." },
-          { es: "What she did was resign.", en: "Lo que hizo fue dimitir." },
+          { es: "What she did was resign.", en: "Lo que hizo fue renunciar." },
           { es: "What happened was that the car broke down.", en: "Lo que pasó fue que se averió el carro." },
           { es: "All you have to do is sign.", en: "Lo único que tienes que hacer es firmar." },
         ],
@@ -3677,7 +3677,7 @@ export const EN_C1_U02: Lesson[] = [
         body: [
           "At the Advanced level, \"very angry\" and \"very happy\" start to sound flat. English has strong adjectives that already contain the idea of «muy»: \"furious\" and \"livid\" (extremely angry; \"livid\" is a bit informal), \"thrilled\" (extremely pleased and excited) and \"elated\" (extremely happy, often after a success; a bit formal).",
           "Note the false friend: \"livid\" in English means «furioso», not «lívido» in the sense of pale.",
-          "Prepositions matter: \"furious with someone\" (UK) or \"furious at someone\" (US), \"furious about something\"; \"thrilled with/about something\", \"thrilled to hear\".",
+          "Prepositions matter: \"furious with someone\" or \"furious at someone\" (both common), \"furious about something\"; \"thrilled with/about something\", \"thrilled to hear\".",
         ],
         examples: [
           { es: "She was furious with me for being late.", en: "Estaba furiosa conmigo por llegar tarde." },
@@ -3768,7 +3768,7 @@ export const EN_C1_U02: Lesson[] = [
         ],
         examples: [
           { es: "He was very angry.", en: "Estaba muy enojado." },
-          { es: "He was absolutely furious.", en: "Estaba furioso perdido." },
+          { es: "He was absolutely furious.", en: "Estaba furiosísimo." },
           { es: "She was utterly devastated.", en: "Estaba completamente destrozada." },
           { es: "I'm absolutely thrilled for you.", en: "Me alegro muchísimo por ti." },
           { es: "I was really furious.", en: "Estaba furiosísimo." },
@@ -3796,7 +3796,7 @@ export const EN_C1_U02: Lesson[] = [
           { es: "I dread going to the dentist.", en: "Me horroriza ir al dentista." },
           { es: "I cherish those memories.", en: "Guardo esos recuerdos con mucho cariño." },
           { es: "She resents having to work weekends.", en: "Le molesta mucho tener que trabajar los fines de semana." },
-          { es: "He resented the comment.", en: "Le sentó fatal el comentario." },
+          { es: "He resented the comment.", en: "Le cayó muy mal el comentario." },
         ],
         checkpoint: [
           {

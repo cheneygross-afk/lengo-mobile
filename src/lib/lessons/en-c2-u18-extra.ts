@@ -539,7 +539,7 @@ export const EN_C2_U18_EXTRA: Lesson[] = [
       },
       {
         type: "matching",
-        instructions: "Match each Spanish collocation with its English equivalent.",
+        instructions: "Match each English collocation with its Spanish equivalent.",
         pairs: [
           { left: "conduct a study", right: "realizar un estudio" },
           { left: "draw conclusions", right: "sacar conclusiones" },

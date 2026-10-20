@@ -55,7 +55,7 @@ export const EN_C1_U06_EXTRA: Lesson[] = [
       {
         heading: "However and nevertheless: punctuation and position",
         body: [
-          "\"However\" is an adverb, not a conjunction, so it cannot join two clauses with only a comma. *The plan was good, however it failed is a comma splice. Use a full stop or a semicolon before it and a comma after it: \"The plan was good. However, it failed.\" or \"The plan was good; however, it failed.\"",
+          "\"However\" is an adverb, not a conjunction, so it cannot join two clauses with only a comma. *The plan was good, however it failed is a comma splice. Use a period or a semicolon before it and a comma after it: \"The plan was good. However, it failed.\" or \"The plan was good; however, it failed.\"",
           "\"However\" can also sit inside the clause, between commas: \"Profits, however, fell.\" At the start of a sentence it needs its comma: without it, \"However the weather was...\" reads as «por muy... que», as in \"However hard I try, I can't do it.\"",
           "\"Nevertheless\" and \"nonetheless\" are more formal and stress that something happens in spite of what was just said. \"Even so\" and \"still\" are the neutral, more spoken equivalents.",
         ],
@@ -77,7 +77,7 @@ export const EN_C1_U06_EXTRA: Lesson[] = [
               "The figures looked promising however, the investors were not convinced.",
             ],
             correctIndex: 0,
-            explanation: "Two complete sentences linked by \"however\" need a full stop or a semicolon before it and a comma after it. Commas alone produce a comma splice.",
+            explanation: "Two complete sentences linked by \"however\" need a period or a semicolon before it and a comma after it. Commas alone produce a comma splice.",
           },
         ],
       },
@@ -234,10 +234,10 @@ export const EN_C1_U06_EXTRA: Lesson[] = [
         type: "multiple-choice",
         question: "Which sentence is correct?",
         options: [
-          "Although the film was long, it was never boring.",
-          "Although the film was long, but it was never boring.",
-          "Despite the film was long, it was never boring.",
-          "Although the film was long, however it was never boring.",
+          "Although the movie was long, it was never boring.",
+          "Although the movie was long, but it was never boring.",
+          "Despite the movie was long, it was never boring.",
+          "Although the movie was long, however it was never boring.",
         ],
         correctIndex: 0,
         explanation: "One contrast marker per contrast. «Aunque..., pero...» is possible in spoken Spanish, but *although... but is always wrong in English.",

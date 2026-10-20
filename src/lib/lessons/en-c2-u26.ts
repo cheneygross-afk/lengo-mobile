@@ -435,10 +435,10 @@ export const EN_C2_U26: Lesson[] = [
           "Beware of «tecnología» in the plural: English \"technologies\" means distinct technologies (\"emerging technologies\"), not technology in general. And «informática» is \"computing\" or \"IT\", never *informatics in everyday use.",
         ],
         examples: [
-          { es: "AI is transforming the way doctors read scans.", en: "La inteligencia artificial está transformando la forma en que los médicos interpretan las pruebas de imagen." },
+          { es: "AI is transforming the way doctors read scans.", en: "La inteligencia artificial está transformando la forma en que los médicos interpretan los estudios de imagen." },
           { es: "Routine tasks are the most likely to be automated.", en: "Las tareas rutinarias son las que tienen más probabilidades de automatizarse." },
           { es: "Rather than replacing radiologists, the tool augments their work.", en: "En lugar de sustituir a los radiólogos, la herramienta potencia su trabajo." },
-          { es: "Millions of workers will need to retrain.", en: "Millones de trabajadores tendrán que reciclarse." },
+          { es: "Millions of workers will need to retrain.", en: "Millones de trabajadores tendrán que volver a capacitarse." },
           { es: "Emerging technologies raise new ethical questions.", en: "Las tecnologías emergentes plantean nuevas cuestiones éticas." },
         ],
         checkpoint: [
@@ -1522,7 +1522,7 @@ export const EN_C2_U26: Lesson[] = [
           { left: "peer review", right: "revisión por pares" },
           { left: "bias", right: "sesgo" },
           { left: "replicate", right: "reproducir un estudio" },
-          { left: "robust", right: "sólido, fiable" },
+          { left: "robust", right: "sólido, confiable" },
           { left: "evidence", right: "pruebas, datos" },
         ],
         explanation: "These are the core terms of the scientific method. Note that \"evidence\" corresponds to the Spanish plural «pruebas» but is singular in English.",

@@ -331,7 +331,7 @@ export const EN_C1_U01: Lesson[] = [
         examples: [
           { es: "No sooner had I sat down than the phone rang.", en: "Nada más sentarme, sonó el teléfono." },
           { es: "Hardly had we left when it started to rain.", en: "Apenas habíamos salido cuando empezó a llover." },
-          { es: "Scarcely had the film begun when the lights came on.", en: "Apenas había empezado la película cuando se encendieron las luces." },
+          { es: "Scarcely had the movie begun when the lights came on.", en: "Apenas había empezado la película cuando se encendieron las luces." },
           { es: "No sooner had she paid than she regretted it.", en: "En cuanto pagó, se arrepintió." },
         ],
         checkpoint: [
@@ -1597,7 +1597,7 @@ export const EN_C1_U01: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["Were", "she", "to", "resign,", "the", "company", "would", "collapse."],
-        translation: "Si ella dimitiera, la empresa se hundiría.",
+        translation: "Si ella renunciara, la empresa se hundiría.",
         altOrders: [["The", "company", "would", "collapse", "were", "she", "to", "resign."]],
         explanation: "\"Were\" + subject + \"to\" + base verb: a formal hypothetical future, equal to \"If she resigned\".",
       },
@@ -1839,7 +1839,7 @@ export const EN_C1_U01: Lesson[] = [
         prompt: "Write the bold words in English.",
         sentence: "Such ___ that he resigned the next day.",
         answer: "was the pressure",
-        en: "[Tal era la presión] que dimitió al día siguiente.",
+        en: "[Tal era la presión] que renunció al día siguiente.",
         explanation: "\"Such\" + \"was\" + noun subject: \"Such was the pressure\".",
       },
       {
@@ -2199,7 +2199,7 @@ export const EN_C1_U01: Lesson[] = [
         examples: [
           { es: "Had I known, I would have called.", en: "De haberlo sabido, habría llamado." },
           { es: "Should you see Tom, give him my regards.", en: "Si ves a Tom, dale recuerdos de mi parte." },
-          { es: "Were she to resign, who would replace her?", en: "Si dimitiera, ¿quién la sustituiría?" },
+          { es: "Were she to resign, who would replace her?", en: "Si renunciara, ¿quién la sustituiría?" },
           { es: "Were it not for the views, the hotel would be ordinary.", en: "Si no fuera por las vistas, el hotel sería normalito." },
         ],
         checkpoint: [
@@ -2356,7 +2356,7 @@ export const EN_C1_U01: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "My parents loved the film, ___.",
+        sentence: "My parents loved the movie, ___.",
         answer: "as did my grandparents",
         altAnswers: ["and so did my grandparents", "as my grandparents did", "and my grandparents did too"],
         en: "A mis padres les encantó la película, [igual que a mis abuelos].",
@@ -2727,12 +2727,12 @@ export const EN_C1_U01: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Which sentence means the same as \"As soon as the film started, the baby began to cry\"?",
+            question: "Which sentence means the same as \"As soon as the movie started, the baby began to cry\"?",
             options: [
-              "No sooner had the film started than the baby began to cry.",
-              "No sooner the film had started than the baby began to cry.",
-              "No sooner had the film started when the baby began to cry.",
-              "Sooner had the film started than the baby began to cry.",
+              "No sooner had the movie started than the baby began to cry.",
+              "No sooner the movie had started than the baby began to cry.",
+              "No sooner had the movie started when the baby began to cry.",
+              "Sooner had the movie started than the baby began to cry.",
             ],
             correctIndex: 0,
             explanation: "\"No sooner\" + \"had\" + subject + participle + \"than\".",
@@ -2949,7 +2949,7 @@ export const EN_C1_U01: Lesson[] = [
           { es: "Had I studied medicine, I would be a doctor now.", en: "Si hubiera estudiado Medicina, ahora sería médico." },
           { es: "Were it not for you, I wouldn't be here.", en: "Si no fuera por ti, no estaría aquí." },
           { es: "Had it not been for you, I would have given up.", en: "Si no hubiera sido por ti, me habría rendido." },
-          { es: "Were I to lose my job, I would retrain as a nurse.", en: "Si perdiera el trabajo, me reciclaría como enfermero." },
+          { es: "Were I to lose my job, I would retrain as a nurse.", en: "Si perdiera el trabajo, estudiaría enfermería." },
         ],
         checkpoint: [
           {
@@ -3018,7 +3018,7 @@ export const EN_C1_U01: Lesson[] = [
         sentence: "___ you, I would never have met my wife.",
         answer: "Had it not been for",
         altAnswers: ["If it hadn't been for", "If it had not been for", "But for", "Without"],
-        en: "[De no haber sido por] ti, nunca habría conocido a mi mujer.",
+        en: "[De no haber sido por] ti, nunca habría conocido a mi esposa.",
         explanation: "Past result (\"would never have met\"), so \"Had it not been for\".",
       },
       {

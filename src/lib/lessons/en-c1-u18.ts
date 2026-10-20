@@ -592,7 +592,7 @@ export const EN_C1_U18: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Fue Lucia quien descubrió el error.",
+        source: "Fue Lucía quien descubrió el error.",
         answer: "It was Lucia who discovered the mistake.",
         altAnswers: [
           "It was Lucia who discovered the error.",
@@ -750,7 +750,7 @@ export const EN_C1_U18: Lesson[] = [
           },
           {
             es: "No sooner had we arrived than it started to rain.",
-            en: "Nada más llegar, empezó a llover.",
+            en: "Apenas llegamos, empezó a llover.",
           },
         ],
         checkpoint: [
@@ -1058,7 +1058,7 @@ export const EN_C1_U18: Lesson[] = [
           },
           {
             es: "Nowhere else will you find such low prices.",
-            en: "En ningún otro sitio encontrarás precios tan bajos.",
+            en: "En ningún otro lugar encontrarás precios tan bajos.",
           },
         ],
         checkpoint: [
@@ -1138,7 +1138,7 @@ export const EN_C1_U18: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Si necesitara más información, no dude en llamarme.",
+            source: "Si necesita más información, no dude en llamarme.",
             answer: "Should you need any further information, please do not hesitate to call me.",
             altAnswers: [
               "Should you need any further information, please do not hesitate to phone me.",
@@ -2515,7 +2515,7 @@ export const EN_C1_U18: Lesson[] = [
             en: "Pretendemos ampliar el negocio el año que viene.",
           },
           {
-            es: "The film has a very complicated plot.",
+            es: "The movie has a very complicated plot.",
             en: "La película tiene un argumento muy complicado.",
           },
           {
@@ -2811,7 +2811,7 @@ export const EN_C1_U18: Lesson[] = [
           },
           {
             es: "I think you misunderstood me.",
-            en: "Creo que me has entendido mal.",
+            en: "Creo que me entendiste mal.",
           },
           {
             es: "They are seriously underpaid.",
@@ -2832,7 +2832,7 @@ export const EN_C1_U18: Lesson[] = [
             sentence: "I think you ___ my question.",
             answer: "misunderstood",
             altAnswers: ["misinterpreted", "misread"],
-            en: "Creo que [has entendido mal] mi pregunta.",
+            en: "Creo que [entendiste mal] mi pregunta.",
             explanation: "\"Mis-\" adds the idea of «mal»: \"misunderstand\", \"misread\", \"mispronounce\".",
           },
         ],
@@ -2924,7 +2924,7 @@ export const EN_C1_U18: Lesson[] = [
         sentence: "The ___ of the new system took three months.",
         answer: "implementation",
         altAnswers: ["introduction", "installation", "rollout"],
-        en: "La [implantación] del nuevo sistema llevó tres meses.",
+        en: "La [implementación] del nuevo sistema llevó tres meses.",
         explanation: "\"Implement\" gives \"implementation\". It is the standard word for putting a system or plan into practice.",
       },
       {
@@ -4776,7 +4776,7 @@ export const EN_C1_U18: Lesson[] = [
         heading: "Vocabulary",
         body: [
           "Most everyday differences are in vocabulary. UK / US: \"flat\" / \"apartment\", \"lift\" / \"elevator\", \"holiday\" / \"vacation\", \"queue\" / \"line\", \"rubbish\" / \"trash\" or \"garbage\", \"mobile\" / \"cell phone\", \"petrol\" / \"gas\", \"pavement\" / \"sidewalk\", \"film\" / \"movie\", \"autumn\" / \"fall\", \"CV\" / \"resume\", \"biscuit\" / \"cookie\", \"chips\" / \"fries\", \"crisps\" / \"chips\".",
-          "Some differences can embarrass you. In American English \"pants\" are «pantalones»; in British English \"pants\" are «calzoncillos» or «bragas», and «pantalones» are \"trousers\". And floor numbers differ: the American \"first floor\" is the British \"ground floor\" («la planta baja»).",
+          "Some differences can embarrass you. In American English \"pants\" are «pantalones»; in British English \"pants\" are «ropa interior» («calzoncillos» or «calzones»), and «pantalones» are \"trousers\". And floor numbers differ: the American \"first floor\" is the British \"ground floor\" («la planta baja»).",
           "Choose one variety and be consistent within a text. Both are correct; mixing them in one email looks careless.",
         ],
         examples: [
@@ -6036,7 +6036,7 @@ export const EN_C1_U18: Lesson[] = [
             en: "Imagina que te toca la lotería, ¿qué harías?",
           },
           {
-            es: "Will the shop be open tomorrow? I'm afraid not.",
+            es: "Will the store be open tomorrow? I'm afraid not.",
             en: "¿Abrirá la tienda mañana? Me temo que no.",
           },
         ],
@@ -6071,7 +6071,7 @@ export const EN_C1_U18: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "Will the shop be open tomorrow? I'm afraid ___.",
+            sentence: "Will the store be open tomorrow? I'm afraid ___.",
             answer: "not",
             en: "¿Abrirá la tienda mañana? Me temo [que no].",
             explanation: "After \"I'm afraid\", \"I hope\", \"I think\", English uses \"so\" or \"not\" to replace a whole clause. Never *I'm afraid that no.",

@@ -781,7 +781,7 @@ export const EN_C2_U13: Lesson[] = [
         heading: "Borrowed weight: appeal to authority and whataboutism",
         body: [
           "An appeal to authority («falacia de autoridad») treats someone's status as proof: \"A Nobel laureate said it, so it must be true.\" Citing genuine experts in their own field is reasonable; the fallacy lies in citing someone outside their expertise, or in treating authority as a substitute for evidence.",
-          "Whataboutism deflects criticism by pointing to someone else's faults: \"What about the other party? They did the same thing.\" Spanish speakers know it as «y tú más», and the term «benaltismo» is sometimes used. It does not answer the criticism; it only changes the subject.",
+          "Whataboutism deflects criticism by pointing to someone else's faults: \"What about the other party? They did the same thing.\" Spanish speakers know it as «y tú más». It does not answer the criticism; it only changes the subject.",
           "Useful rebuttals: \"He's a brilliant physicist, but he's not an economist\"; \"Two wrongs don't make a right\"; \"That may be true, but it doesn't answer the question.\"",
         ],
         examples: [
@@ -1872,7 +1872,7 @@ export const EN_C2_U13: Lesson[] = [
     level: "EN-C2",
     number: 7,
     title: "Text detective: fallacy hunt",
-    summary: "Read short extracts from op-eds, adverts and political speeches, spot the fallacy hidden in each one, and write a one-sentence rebuttal that exposes it.",
+    summary: "Read short extracts from op-eds, ads and political speeches, spot the fallacy hidden in each one, and write a one-sentence rebuttal that exposes it.",
     duration: "12 min",
     sections: [
       {
@@ -1917,26 +1917,26 @@ export const EN_C2_U13: Lesson[] = [
         ],
       },
       {
-        heading: "Adverts: authority and the bandwagon",
+        heading: "Ads: authority and the bandwagon",
         body: [
           "Advertising leans heavily on the appeal to authority: \"Recommended by dentists\", \"As used by professional athletes\", a famous actor in a white coat. The question to ask is always: is this person an expert in this field, and what is the actual evidence?",
-          "Adverts also use the bandwagon fallacy («la falacia del efecto arrastre» or «ad populum»): \"Millions of customers can't be wrong.\" Popularity is not proof of quality. A crisp rebuttal: \"Millions of people once believed the earth was flat.\"",
+          "Ads also use the bandwagon fallacy («la falacia del efecto arrastre» or «ad populum»): \"Millions of customers can't be wrong.\" Popularity is not proof of quality. A crisp rebuttal: \"Millions of people once believed the earth was flat.\"",
           "\"Clinically proven\", \"up to 50% off\" and \"9 out of 10 people agree\" also deserve suspicion: proven how, up to what, and 9 out of which 10?",
         ],
         examples: [
           { es: "Recommended by doctors.", en: "Recomendado por médicos." },
           { es: "Millions of customers can't be wrong.", en: "Millones de clientes no pueden estar equivocados." },
           { es: "Popularity is not proof of quality.", en: "La popularidad no es prueba de calidad." },
-          { es: "Being a great footballer doesn't make him an expert on mortgages.", en: "Ser un gran futbolista no lo convierte en un experto en hipotecas." },
+          { es: "Being a great soccer player doesn't make him an expert on mortgages.", en: "Ser un gran futbolista no lo convierte en un experto en hipotecas." },
           { es: "Nine out of ten of which people, exactly?", en: "¿Nueve de cada diez personas de qué grupo, exactamente?" },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "An advert for a mortgage features a famous footballer saying: \"I trust them with my money, so should you.\" Which fallacy is this?",
+            question: "An ad for a mortgage features a famous soccer player saying: \"I trust them with my money, so should you.\" Which fallacy is this?",
             options: ["An appeal to authority", "A false dilemma", "A slippery slope", "Begging the question"],
             correctIndex: 0,
-            explanation: "A footballer has no special expertise in mortgages: his fame is used as a substitute for evidence.",
+            explanation: "A soccer player has no special expertise in mortgages: his fame is used as a substitute for evidence.",
           },
           {
             type: "translate",
@@ -2581,7 +2581,7 @@ export const EN_C2_U13: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "The airline canceled forty flights, ___ the queues at every desk.",
+        sentence: "The airline canceled forty flights, ___ the lines at every desk.",
         answer: "hence",
         en: "La aerolínea canceló cuarenta vuelos; [de ahí] las colas en todos los mostradores.",
         explanation: "\"Hence\" + noun phrase means «de ahí + sustantivo», with no verb needed.",

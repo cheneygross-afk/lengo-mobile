@@ -446,7 +446,7 @@ export const EN_C2_U17_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Dijo que no podía venir a la reunión porque estaba enfermo.",
-        answer: "He said he couldn't come to the meeting because he was ill.",
+        answer: "He said he couldn't come to the meeting because he was sick.",
         altAnswers: [
           "He said he couldn't come to the meeting because he was sick.",
           "He said that he couldn't come to the meeting because he was ill.",

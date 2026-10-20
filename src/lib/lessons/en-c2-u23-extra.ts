@@ -96,7 +96,7 @@ export const EN_C2_U23_EXTRA: Lesson[] = [
             en: "No me hacía falta paraguas, así que lo dejé en casa.",
           },
           {
-            es: "We needn't have rushed: the film started late.",
+            es: "We needn't have rushed: the movie started late.",
             en: "No hacía falta correr: la película empezó tarde.",
           },
           {

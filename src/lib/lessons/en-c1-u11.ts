@@ -59,7 +59,7 @@ export const EN_C1_U11: Lesson[] = [
           { es: "Your name was misspelled on the certificate.", en: "Escribieron mal tu nombre en el certificado." },
           { es: "The ad was misleading.", en: "El anuncio era engañoso." },
           { es: "She works for a non-profit organization.", en: "Trabaja para una organización sin fines de lucro." },
-          { es: "Public transport in the area is practically non-existent.", en: "El transporte público en la zona es prácticamente inexistente." },
+          { es: "Public transportation in the area is practically non-existent.", en: "El transporte público en la zona es prácticamente inexistente." },
           { es: "It was all a misunderstanding.", en: "Todo fue un malentendido." },
         ],
         checkpoint: [
@@ -1267,7 +1267,7 @@ export const EN_C1_U11: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Your friend cries at every film. How do you describe her?",
+            question: "Your friend cries at every movie. How do you describe her?",
             options: ["She's very sensitive.", "She's very sensible.", "She's very sympathetic.", "She's very sentimental-minded."],
             correctIndex: 0,
             explanation: "«Sensible» (emotional) is \"sensitive\". \"Sensible\" means «sensato».",
@@ -1330,8 +1330,8 @@ export const EN_C1_U11: Lesson[] = [
       {
         heading: "carpet, library, exit, success, deception and compromise",
         body: [
-          "Places and things: a \"carpet\" is «alfombra» (a \"rug\" is a small one); «carpeta» is a \"folder\" or \"file\". A \"library\" is «biblioteca»; «librería» is a \"bookstore\" (US) or \"bookshop\" (UK). An \"exit\" is «salida»; «éxito» is \"success\" (or \"a hit\" for a song or film).",
-          "\"Success\" itself is «éxito», but «suceso» is \"event\" or \"incident\". \"Deception\" is «engaño»; «decepción» is \"disappointment\": \"The film was a big disappointment\".",
+          "Places and things: a \"carpet\" is «alfombra» (a \"rug\" is a small one); «carpeta» is a \"folder\" or \"file\". A \"library\" is «biblioteca»; «librería» is a \"bookstore\" (US) or \"bookshop\" (UK). An \"exit\" is «salida»; «éxito» is \"success\" (or \"a hit\" for a song or movie).",
+          "\"Success\" itself is «éxito», but «suceso» is \"event\" or \"incident\". \"Deception\" is «engaño»; «decepción» is \"disappointment\": \"The movie was a big disappointment\".",
           "A \"compromise\" is an agreement where both sides give something up («acuerdo», «término medio», «transigir»): \"We reached a compromise\". «Compromiso» is usually \"commitment\" («nuestro compromiso con el medio ambiente»), \"engagement\" (to marry) or \"prior engagement\" («tengo un compromiso»). As a verb, \"compromise\" can also mean «poner en peligro»: \"compromise security\".",
         ],
         examples: [
@@ -1339,7 +1339,7 @@ export const EN_C1_U11: Lesson[] = [
           { es: "We just had new carpet installed.", en: "Acabamos de poner alfombra nueva." },
           { es: "I bought it at a bookstore near the university.", en: "Lo compré en una librería cerca de la universidad." },
           { es: "The concert was a huge success.", en: "El concierto fue un éxito enorme." },
-          { es: "The film was a real disappointment.", en: "La película fue una auténtica decepción." },
+          { es: "The movie was a real disappointment.", en: "La película fue una auténtica decepción." },
           { es: "After hours of talks, they reached a compromise.", en: "Tras horas de conversaciones, llegaron a un acuerdo." },
           { es: "We have a strong commitment to sustainability.", en: "Tenemos un fuerte compromiso con la sostenibilidad." },
         ],
@@ -1658,7 +1658,7 @@ export const EN_C1_U11: Lesson[] = [
         body: [
           "\"Prevent\" means «impedir» or «evitar»: \"prevent an accident\", \"prevent someone from doing something\". «Prevenir» often matches, but «prevenir a alguien» (to warn someone) is \"warn\": «Te lo previne» is \"I warned you\".",
           "A \"contest\" is a competition («concurso», «certamen»): \"a beauty contest\", \"a singing contest\". The verb \"contest\" means to challenge or dispute: \"contest the result\". «Contestar» is \"answer\" or \"reply\".",
-          "An \"argument\" is usually a quarrel, an angry disagreement («discusión», «pelea»): \"My parents had an argument\". It can also be a line of reasoning («argumento»): \"a strong argument\". But the story of a film or book is the \"plot\": «El argumento de la película» is \"the plot of the film\".",
+          "An \"argument\" is usually a quarrel, an angry disagreement («discusión», «pelea»): \"My parents had an argument\". It can also be a line of reasoning («argumento»): \"a strong argument\". But the story of a movie or book is the \"plot\": «El argumento de la película» is \"the plot of the movie\".",
         ],
         examples: [
           { es: "The barrier prevents cars from entering.", en: "La barrera impide que entren carros." },
@@ -1676,7 +1676,7 @@ export const EN_C1_U11: Lesson[] = [
             source: "El argumento de la novela es muy complicado.",
             answer: "The plot of the novel is very complicated.",
             altAnswers: ["The novel's plot is very complicated.", "The plot of the novel is really complicated.", "The novel's plot is really complicated.", "The plot of the novel is very complex.", "The novel's plot is very complex."],
-            explanation: "The story of a book or film is its \"plot\". \"Argument\" means «discusión» or a line of reasoning.",
+            explanation: "The story of a book or movie is its \"plot\". \"Argument\" means «discusión» or a line of reasoning.",
           },
           {
             type: "fill-blank",
@@ -2540,7 +2540,7 @@ export const EN_C1_U11: Lesson[] = [
         source: "Es una película histórica sobre la Guerra Civil.",
         answer: "It's a historical movie about the Civil War.",
         altAnswers: ["It's a historical film about the Civil War.", "It is a historical film about the Civil War.", "It's a historical drama about the Civil War.", "It's a period film about the Civil War.", "It's a historical film on the Civil War."],
-        explanation: "A film set in the past = \"historical\". \"Historic\" would mean the film itself made history.",
+        explanation: "A movie set in the past = \"historical\". \"Historic\" would mean the movie itself made history.",
       },
       {
         type: "matching",
@@ -2611,13 +2611,13 @@ export const EN_C1_U11: Lesson[] = [
       {
         heading: "Error 1: the wrong prefix",
         body: [
-          "Here is the opening of a student essay: *In my opinion, it is inpossible to live in a big city without a car. Public transport is unefficient and inconfortable, and many drivers are unresponsible. It is also unlegal to cycle on most main roads.",
+          "Here is the opening of a student essay: *In my opinion, it is inpossible to live in a big city without a car. Public transportation is unefficient and inconfortable, and many drivers are unresponsible. It is also unlegal to cycle on most main roads.",
           "Five prefix errors, all from Spanish «in-» / «im-» habits or from guessing: \"impossible\" (im- before p), \"inefficient\" (here English does use \"in-\", like «ineficiente»), \"uncomfortable\", \"irresponsible\" (ir- before r) and \"illegal\" (il- before l).",
           "Notice that the errors go both ways: Spanish speakers use \"in-\" where English has \"un-\" (*inconfortable) and, when they try to correct themselves, \"un-\" where English has \"in-\" (*unefficient). There is no shortcut: check the dictionary when you are not sure.",
         ],
         examples: [
           { es: "It is impossible to live in a big city without a car.", en: "Es imposible vivir en una gran ciudad sin carro." },
-          { es: "Public transport is inefficient and uncomfortable.", en: "El transporte público es ineficiente e incómodo." },
+          { es: "Public transportation is inefficient and uncomfortable.", en: "El transporte público es ineficiente e incómodo." },
           { es: "Many drivers are irresponsible.", en: "Muchos conductores son irresponsables." },
           { es: "It is illegal to cycle on most main roads.", en: "Es ilegal ir en bici por la mayoría de las carreteras principales." },
         ],
@@ -2849,7 +2849,7 @@ export const EN_C1_U11: Lesson[] = [
         ],
         examples: [
           { es: "The closure of the factory left 300 people unemployed.", en: "El cierre de la fábrica dejó a 300 personas sin trabajo." },
-          { es: "The minister's refusal to resign caused outrage.", en: "La negativa del ministro a dimitir provocó indignación." },
+          { es: "The minister's refusal to resign caused outrage.", en: "La negativa del ministro a renunciar provocó indignación." },
           { es: "The plan still needs the board's approval.", en: "El plan aún necesita la aprobación de la junta." },
           { es: "Their failure to act made things worse.", en: "El hecho de que no actuaran empeoró las cosas." },
           { es: "The company reported a loss of two million.", en: "La empresa registró unas pérdidas de dos millones." },
@@ -3193,7 +3193,7 @@ export const EN_C1_U11: Lesson[] = [
             sentence: "The website is very ___ , even for older people.",
             answer: "user-friendly",
             altAnswers: ["user friendly", "easy to use", "intuitive"],
-            en: "La web es muy [fácil de usar], incluso para las personas mayores.",
+            en: "El sitio web es muy [fácil de usar], incluso para las personas mayores.",
             explanation: "\"User-friendly\" is a compound adjective (noun + adjective), hyphenated before a noun and usually after \"be\" too.",
           },
           {

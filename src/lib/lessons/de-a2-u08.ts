@@ -887,7 +887,7 @@ export const DE_A2_U08: Lesson[] = [
         heading: "Two pronouns: accusative first",
         body: [
           "When both objects are pronouns, the order flips: accusative before dative. \"Ich gebe es ihm\" (I give it to him), \"Sie zeigt sie mir\" (She shows it to me), \"Wir schicken es euch\".",
-          "English often says I give him it or I give it him; copying the first gives \"*Ich gebe ihm es*\", which sounds wrong to German ears. Remember: two pronouns, the thing comes first.",
+          "English often says I give him it or I give it him; copying the first gives \"*Ich gebe ihm es*\", which sounds wrong to German ears. Remember: two pronouns, the thing comes first. (In fast speech you may hear the shortened \"Gib mir's!\", where \"es\" shrinks to 's and tags on after the dative; in writing, use \"Gib es mir\".)",
           "Summary in three lines: noun + noun → dative, accusative. Pronoun + noun → pronoun first. Pronoun + pronoun → accusative, dative.",
         ],
         examples: [

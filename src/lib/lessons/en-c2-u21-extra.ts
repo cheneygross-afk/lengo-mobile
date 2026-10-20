@@ -40,7 +40,7 @@ export const EN_C2_U21_EXTRA: Lesson[] = [
           },
           {
             es: "We implemented a new CRM system in under three months.",
-            en: "Implantamos un nuevo sistema CRM en menos de tres meses.",
+            en: "Implementamos un nuevo sistema CRM en menos de tres meses.",
           },
           {
             es: "She overhauled the onboarding program from scratch.",
@@ -100,7 +100,7 @@ export const EN_C2_U21_EXTRA: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Actualmente coordino la implantación del nuevo software.",
+            source: "Actualmente coordino la implementación del nuevo software.",
             answer: "I'm currently coordinating the implementation of the new software.",
             altAnswers: [
               "I'm currently coordinating the rollout of the new software.",
@@ -374,7 +374,7 @@ export const EN_C2_U21_EXTRA: Lesson[] = [
         sentence: "We ___ a new quality-control policy across all our plants.",
         answer: "implemented",
         altAnswers: ["introduced", "rolled out"],
-        en: "[Implantamos] una nueva política de control de calidad en todas nuestras plantas.",
+        en: "[Implementamos] una nueva política de control de calidad en todas nuestras plantas.",
         explanation: "Spanish «implantar» or «implementar» is \"implement\" when you put a plan or policy into practice. *Implanted is for medical devices or ideas in someone's mind.",
       },
       {
@@ -931,7 +931,7 @@ export const EN_C2_U21_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Diseñé e implanté un sistema de turnos que redujo las horas extra un 25%.",
+        source: "Diseñé e implementé un sistema de turnos que redujo las horas extra un 25%.",
         answer: "I designed and implemented a shift system that cut overtime by 25%.",
         altAnswers: [
           "I designed and implemented a shift system that reduced overtime by 25%.",
@@ -1060,7 +1060,7 @@ export const EN_C2_U21_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["I", "oversaw", "the", "rollout", "of", "the", "new", "booking", "system", "across", "twenty", "branches."],
-        translation: "Supervisé la implantación del nuevo sistema de reservas en veinte sucursales.",
+        translation: "Supervisé la implementación del nuevo sistema de reservas en veinte sucursales.",
         explanation: "Verb + object + \"across\" + scope. \"Rollout\" is the noun for gradually putting a system into use.",
       },
       {

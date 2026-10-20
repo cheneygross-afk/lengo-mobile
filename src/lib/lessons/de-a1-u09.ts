@@ -2367,8 +2367,8 @@ export const DE_A1_U09: Lesson[] = [
             prompt: "Translate into German.",
             source: "I like reading.",
             answer: "Ich lese gern.",
-            altAnswers: ["Ich lese gerne."],
-            explanation: "Verb + \"gern\" for activities you like; not \"*Ich mag lesen\".",
+            altAnswers: ["Ich lese gerne.", "Ich mag lesen."],
+            explanation: "Verb + \"gern\" for activities you like. \"Ich mag lesen\" is accepted too: you'll hear it, but verb + \"gern\" is what most people say.",
           },
           {
             type: "translate",

@@ -989,7 +989,7 @@ export const EN_C2_U01: Lesson[] = [
           { es: "She has no previous convictions.", en: "No tiene antecedentes penales." },
           { es: "The court awarded her $50,000 in damages.", en: "El tribunal le concedió 50.000 dólares en concepto de daños y perjuicios." },
           { es: "The two companies settled out of court.", en: "Las dos empresas llegaron a un acuerdo extrajudicial." },
-          { es: "They are going to appeal against the decision.", en: "Van a recurrir la decisión." },
+          { es: "They are going to appeal the decision.", en: "Van a recurrir la decisión." },
           { es: "The Court of Appeal overturned the conviction.", en: "El Tribunal de Apelación anuló la condena." },
         ],
         checkpoint: [
@@ -1387,7 +1387,7 @@ export const EN_C2_U01: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "A efectos aclaratorios, los gastos de comunidad no están incluidos en la renta.",
+        source: "A efectos aclaratorios, las cuotas de mantenimiento no están incluidas en la renta.",
         answer: "For the avoidance of doubt, the service charges are not included in the rent.",
         altAnswers: alts(
           ["For the avoidance of doubt,", "To be clear,"],

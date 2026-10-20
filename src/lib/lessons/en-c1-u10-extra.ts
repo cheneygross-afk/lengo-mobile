@@ -229,7 +229,7 @@ export const EN_C1_U10_EXTRA: Lesson[] = [
         prompt: "Put the words in order.",
         words: ["She", "was", "over", "the", "moon", "when", "she", "got", "the", "job."],
         altOrders: [["When", "she", "got", "the", "job,", "she", "was", "over", "the", "moon."]],
-        translation: "Estaba feliz como una perdiz cuando consiguió el trabajo.",
+        translation: "Estaba feliz como una lombriz cuando consiguió el trabajo.",
         explanation: "\"Be over the moon\" means to be extremely happy. Note the article: \"the moon\", never *over a moon.",
       },
       {

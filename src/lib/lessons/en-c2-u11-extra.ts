@@ -48,7 +48,7 @@ export const EN_C2_U11_EXTRA: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "I ___ come, but I was ill.",
+            sentence: "I ___ come, but I was sick.",
             answer: "could have",
             altAnswers: ["might have"],
             en: "[Podría haber] venido, pero estaba enfermo.",
@@ -197,7 +197,7 @@ export const EN_C2_U11_EXTRA: Lesson[] = [
         prompt: "Translate into English.",
         source: "Le pedí que esperara un momento.",
         answer: "I asked her to wait a moment.",
-        altAnswers: ["I asked him to wait a moment.", "I asked her to wait for a moment.", "I asked him to wait for a moment.", "I asked her to wait a minute.", "I asked him to wait a minute.", "I asked her to wait a second.", "I asked him to wait a second.", "I asked them to wait a moment."],
+        altAnswers: ["I asked him to wait a moment.", "I asked her to wait for a moment.", "I asked him to wait for a moment.", "I asked her to wait a minute.", "I asked him to wait a minute.", "I asked her to wait a second.", "I asked him to wait a second.", "I asked them to wait a moment.", "I asked you to wait a moment."],
         explanation: "Spoken: /aɪ ˈæskt ər tə ˈweɪt ə ˈmoʊmənt/. \"Her\" loses its h and shrinks to /ər/, just like \"to\" and \"a\". Listening for \"asked\" and \"wait\" gives you the meaning.",
       },
       {

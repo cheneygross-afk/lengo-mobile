@@ -27,7 +27,7 @@ export const EN_C2_U19_EXTRA: Lesson[] = [
           { es: "Seldom does the committee reject a proposal outright.", en: "Rara vez rechaza el comité una propuesta de plano." },
           { es: "Little did they know that the house was being watched.", en: "Poco imaginaban que la casa estaba vigilada. (incorrecto: *Little they knew)" },
           { es: "At no time was the public informed of the risks.", en: "En ningún momento se informó a la población de los riesgos." },
-          { es: "Nowhere is the problem more visible than in rural schools.", en: "En ningún sitio es el problema más visible que en las escuelas rurales." },
+          { es: "Nowhere is the problem more visible than in rural schools.", en: "En ningún lugar es el problema más visible que en las escuelas rurales." },
           { es: "Not once did he thank us for our help.", en: "Ni una sola vez nos dio las gracias por la ayuda." },
         ],
         checkpoint: [
@@ -582,7 +582,7 @@ export const EN_C2_U19_EXTRA: Lesson[] = [
           "it were Lucia who",
         ],
         correctIndex: 0,
-        explanation: "The cleft needs the dummy subject \"it\" (Spanish drops it: «fue Lucia»), and \"who\" for a person.",
+        explanation: "The cleft needs the dummy subject \"it\" (Spanish drops it: «fue Lucía»), and \"who\" for a person.",
       },
       {
         type: "translate",
