@@ -245,8 +245,9 @@ export const EN_C1_U09_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "¿Tomamos un café después de clase?",
-        answer: "Shall we have a coffee after class?",
+        answer: "Should we have a coffee after class?",
         altAnswers: [
+          "Shall we have a coffee after class?",
           "Shall we get a coffee after class?",
           "Shall we grab a coffee after class?",
           "Shall we go for a coffee after class?",

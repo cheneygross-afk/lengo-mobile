@@ -307,7 +307,7 @@ export const EN_C1_U03_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«Nadie sabe el motivo de su dimisión.» Which is correct?",
+            question: "«Nadie sabe el motivo de su renuncia.» Which is correct?",
             options: [
               "Nobody knows the reason for her resignation.",
               "Nobody knows the reason of her resignation.",
@@ -554,7 +554,7 @@ export const EN_C1_U03_EXTRA: Lesson[] = [
         heading: "Quick recap: general means no article",
         body: [
           "Spanish uses «el/la/los/las» for things in general: «La vida es corta», «La gente está preocupada por el desempleo». English uses no article: \"Life is short\", \"People are worried about unemployment\". This applies to abstract nouns (life, love, crime, health, education, society, nature, history) and to plural nouns in general (\"Children need attention\", \"Prices are rising\").",
-          "\"The\" comes back when the noun is specific, usually because something follows and limits it: \"the life of a nurse\", \"the history of this town\", \"the education I received\", \"the music in this film\".",
+          "\"The\" comes back when the noun is specific, usually because something follows and limits it: \"the life of a nurse\", \"the history of this town\", \"the education I received\", \"the music in this movie\".",
           "A qualified abstract noun can take \"a/an\": \"a good education\", \"a deep knowledge of\", \"a strong sense of humor\", \"a fear of heights\", \"a love of music\".",
         ],
         examples: [
@@ -628,9 +628,9 @@ export const EN_C1_U03_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Me encanta la música, pero no soporto la música de esta película.",
-        answer: "I love music, but I can't stand the music in this film.",
+        answer: "I love music, but I can't stand the music in this movie.",
         altAnswers: [
-          "I love music, but I can't stand the music in this movie.",
+          "I love music, but I can't stand the music in this film.",
           "I love music, but I can't stand the music of this film.",
           "I love music, but I can't stand the music of this movie.",
           "I love music, but I can't stand the music from this film.",
@@ -640,7 +640,7 @@ export const EN_C1_U03_EXTRA: Lesson[] = [
           "I love music but I hate the music in this film.",
           "I love music but I hate the music in this movie.",
         ],
-        explanation: "The same noun twice: \"music\" in general (no article), then \"the music in this film\", which is specific.",
+        explanation: "The same noun twice: \"music\" in general (no article), then \"the music in this movie\", which is specific.",
       },
       {
         type: "translate",

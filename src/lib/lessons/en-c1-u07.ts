@@ -527,7 +527,7 @@ export const EN_C1_U07: Lesson[] = [
           "Being a rainy day, the match was canceled.",
         ],
         correctIndex: 0,
-        explanation: "Only in the first option is the subject (\"we\") the one who read. A hotel cannot read, a deer was not driving, and \"Being a rainy day\" needs \"It being a rainy day\" or \"As it was a rainy day\".",
+        explanation: "Only in \"Having read the reviews, we decided...\" is the subject (\"we\") the one who read. A hotel cannot read, a deer was not driving, and \"Being a rainy day\" needs \"It being a rainy day\" or \"As it was a rainy day\".",
       },
       {
         type: "translate",
@@ -589,7 +589,7 @@ export const EN_C1_U07: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Cuando le preguntaron por qué había dimitido, el director no quiso dar explicaciones.",
+        source: "Cuando le preguntaron por qué había renunciado, el director no quiso dar explicaciones.",
         answer: "When asked why he had resigned, the director refused to explain.",
         altAnswers: [
           "When asked why he had resigned, the director didn't want to explain.",
@@ -1298,7 +1298,7 @@ export const EN_C1_U07: Lesson[] = [
         heading: "No extra pronoun inside the relative clause",
         body: [
           "The relative pronoun already stands for the noun, so English never repeats it with \"him\", \"her\" or \"it\": *the book that I read it, *the man who I spoke with him. In colloquial Spanish «el libro que lo leí» or «la persona que hablé con ella» are heard, and this habit leaks into English.",
-          "When you drop the pronoun, check that nothing is left behind: \"the man I spoke with\" (not \"with him\"), \"the film we watched\" (not \"watched it\").",
+          "When you drop the pronoun, check that nothing is left behind: \"the man I spoke with\" (not \"with him\"), \"the movie we watched\" (not \"watched it\").",
           "Phrasal verbs keep their particle at the end: \"the children she looks after\", \"the problem we are looking into\". *After whom she looks is impossible because \"look after\" is a single unit of meaning.",
         ],
         examples: [
@@ -1655,7 +1655,7 @@ export const EN_C1_U07: Lesson[] = [
       {
         heading: "Whatever, whoever, whichever... and everything that",
         body: [
-          "«Todo lo que» is \"everything (that)\" or \"all (that)\", never *everything what: \"Everything she said was true\", \"All I want is some peace.\" «Lo que» at the start of a sentence, with no noun before it, is \"what\": \"What I need is a holiday.\"",
+          "«Todo lo que» is \"everything (that)\" or \"all (that)\", never *everything what: \"Everything she said was true\", \"All I want is some peace.\" «Lo que» at the start of a sentence, with no noun before it, is \"what\": \"What I need is a vacation.\"",
           "\"Whatever\", \"whoever\", \"whichever\", \"wherever\" mean «lo que sea que», «quien sea que», «el que sea», «donde sea»: \"Take whatever you need\", \"Whoever finishes first wins\", \"Choose whichever option suits you best.\" \"Whichever\" implies a choice from a limited set.",
           "They also mean «no importa qué / quién»: \"Whatever happens, call me.\" \"Whoever you are, you're welcome here.\"",
         ],
@@ -3462,7 +3462,7 @@ export const EN_C1_U07: Lesson[] = [
         examples: [
           { es: "The festival attracted 50,000 visitors. Most of them were under 25.", en: "El festival atrajo a 50.000 visitantes. La mayoría tenía menos de 25 años." },
           { es: "The road was closed for repairs. This caused long delays.", en: "La carretera estaba cerrada por obras. Esto provocó largos retrasos." },
-          { es: "The minister resigned on Monday. Her decision surprised everyone.", en: "La ministra dimitió el lunes. Su decisión sorprendió a todos." },
+          { es: "The minister resigned on Monday. Her decision surprised everyone.", en: "La ministra renunció el lunes. Su decisión sorprendió a todos." },
         ],
         checkpoint: [
           {
@@ -3549,7 +3549,7 @@ export const EN_C1_U07: Lesson[] = [
           "The concert, which disappointed thousands of fans, was canceled.",
         ],
         correctIndex: 0,
-        explanation: "\"This\" referred to the whole first sentence, so use comment \"which\". \"what\" and \"that\" cannot introduce a comment clause after a comma, and \"The concert, which disappointed thousands of fans, was cancelled\" changes the meaning: the concert itself disappointed the fans.",
+        explanation: "\"This\" referred to the whole first sentence, so use comment \"which\". \"what\" and \"that\" cannot introduce a comment clause after a comma, and \"The concert, which disappointed thousands of fans, was canceled\" changes the meaning: the concert itself disappointed the fans.",
       },
       {
         type: "translate",
@@ -4231,7 +4231,7 @@ export const EN_C1_U07: Lesson[] = [
         body: [
           "A \"problem\" is something wrong that needs solving: \"We have a problem with the server.\" An \"issue\" is a topic of discussion or concern: \"environmental issues\", \"raise an issue at the meeting\". In business English, \"issue\" is also a softer word for a problem: \"We're having some issues with the delivery.\"",
           "A \"matter\" is a situation or subject being dealt with, often formal or private: \"a private matter\", \"the matter at hand\", \"a matter of time\". Also: \"What's the matter?\" («¿Qué pasa?»).",
-          "Spanish «tema» is a trap: depending on context it is \"issue\", \"topic\", \"subject\" or \"matter\", rarely \"theme\" (which is the underlying idea of a book or film).",
+          "Spanish «tema» is a trap: depending on context it is \"issue\", \"topic\", \"subject\" or \"matter\", rarely \"theme\" (which is the underlying idea of a book or movie).",
         ],
         examples: [
           { es: "Housing is a major issue in this election.", en: "La vivienda es un tema clave en estas elecciones." },
@@ -4408,9 +4408,9 @@ export const EN_C1_U07: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "La salud pública y la educación son los temas principales de la campaña.",
-        answer: "Healthcare and education are the main issues of the campaign.",
+        answer: "Public health and education are the main issues of the campaign.",
         altAnswers: [
-          "Public health and education are the main issues of the campaign.",
+          "Healthcare and education are the main issues of the campaign.",
           "Public health and education are the main issues in the campaign.",
           "Public health and education are the key issues in the campaign.",
           "Public health and education are the main campaign issues.",

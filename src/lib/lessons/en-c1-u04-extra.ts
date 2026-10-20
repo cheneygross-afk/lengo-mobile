@@ -262,7 +262,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«¿Qué zapatillas quieres, las negras o las blancas?» Which is correct?",
+            question: "«¿Qué tenis quieres, las negras o las blancas?» Which is correct?",
             options: [
               "Which sneakers do you want, the black ones or the white ones?",
               "Which sneakers do you want, the blacks ones or the whites ones?",
@@ -594,7 +594,7 @@ export const EN_C1_U04_EXTRA: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "I haven't seen the film yet, but my sister ___.",
+        sentence: "I haven't seen the movie yet, but my sister ___.",
         answer: "has",
         en: "Yo aún no he visto la película, pero mi hermana [sí].",
         explanation: "The first clause uses \"have\" (present perfect), so the contrast uses \"has\".",

@@ -32,8 +32,8 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
             prompt: "Translate into German.",
             source: "I like hiking.",
             answer: "Ich wandere gern.",
-            altAnswers: ["Ich wandere gerne.", "Ich gehe gern wandern.", "Ich gehe gerne wandern."],
-            explanation: "Verb + \"gern\": \"Ich wandere gern\" (or \"Ich gehe gern wandern\"). \"Ich mag wandern\" sounds clumsy: German likes an activity with the adverb \"gern\".",
+            altAnswers: ["Ich wandere gerne.", "Ich gehe gern wandern.", "Ich gehe gerne wandern.", "Ich mag wandern."],
+            explanation: "Verb + \"gern\": \"Ich wandere gern\" (or \"Ich gehe gern wandern\"). \"Ich mag wandern\" is accepted too, but it sounds less natural: German usually says you like an activity with the adverb \"gern\".",
           },
           {
             type: "listen-choose",
@@ -1369,7 +1369,7 @@ export const DE_A1_U08_EXTRA: Lesson[] = [
       {
         type: "translate",
         direction: "en-es",
-        prompt: "A learner wrote \"*Ich mag schwimmen gehen.\" Write the correct German for: I like going swimming.",
+        prompt: "A learner wrote \"Ich mag schwimmen gehen.\" People understand it, but it sounds clumsy. Write the natural German for: I like going swimming.",
         source: "I like going swimming.",
         answer: "Ich gehe gern schwimmen.",
         altAnswers: ["Ich gehe gerne schwimmen.", "Ich schwimme gern.", "Ich schwimme gerne."],

@@ -347,9 +347,9 @@ export const EN_C1_U14: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "There is a strong case ___ banning cell phones in primary schools.",
+            sentence: "There is a strong case ___ banning cell phones in elementary schools.",
             answer: "for",
-            en: "Hay [buenas razones para] prohibir los celulares en los colegios de primaria.",
+            en: "Hay [buenas razones para] prohibir los celulares en las escuelas primarias.",
             explanation: "\"A case for\" + -ing or a noun. A common mistake is *a strong case to ban.",
           },
         ],
@@ -634,12 +634,12 @@ export const EN_C1_U14: Lesson[] = [
       {
         heading: "From prompt to plan",
         body: [
-          "Here is a typical C1 Advanced task: \"Your class has attended a panel discussion on how governments can reduce traffic in cities. The speakers discussed public transport, road tolls and cycle lanes. Write an essay discussing two of these methods, explaining which is more effective and giving reasons.\"",
+          "Here is a typical C1 Advanced task: \"Your class has attended a panel discussion on how governments can reduce traffic in cities. The speakers discussed public transport, road tolls and bike lanes. Write an essay discussing two of these methods, explaining which is more effective and giving reasons.\"",
           "Before writing, spend five minutes planning. Choose the two methods you have most to say about, decide which one you think is more effective (that is your thesis), and note one main argument plus one piece of support for each paragraph.",
           "A plan for this task could be: Introduction (traffic is a growing problem; this essay compares tolls and public transport; thesis: tolls work faster). Paragraph 1: public transport (helps, but slow and expensive to expand). Paragraph 2: tolls (immediate effect, London example; objection: unfair to the poor, answer: revenue funds buses). Conclusion: on balance, tolls, ideally combined with better buses.",
         ],
         examples: [
-          { es: "Traffic congestion has become one of the most pressing problems facing modern cities.", en: "Los atascos se han convertido en uno de los problemas más acuciantes de las ciudades modernas." },
+          { es: "Traffic congestion has become one of the most pressing problems facing modern cities.", en: "Los embotellamientos se han convertido en uno de los problemas más acuciantes de las ciudades modernas." },
           { es: "This essay will compare two possible solutions: better public transport and road tolls.", en: "En este ensayo se compararán dos posibles soluciones: mejorar el transporte público y los peajes urbanos." },
           { es: "Of the two, road tolls are likely to produce faster results.", en: "De las dos, es probable que los peajes den resultados más rápidos." },
           { es: "Expanding a metro network can take decades.", en: "Ampliar una red de metro puede llevar décadas." },
@@ -652,7 +652,7 @@ export const EN_C1_U14: Lesson[] = [
               "Two paragraphs, one on tolls and one on public transport, then a conclusion saying which is more effective and why.",
               "Three paragraphs, one for each method, and a conclusion saying all three are useful.",
               "One long paragraph on the history of traffic in her city.",
-              "Two paragraphs on cycle lanes, because she cycles every day.",
+              "Two paragraphs on bike lanes, because she cycles every day.",
             ],
             correctIndex: 0,
             explanation: "The task says \"two of these methods\" and \"which is more effective\". Covering all three, or not choosing, ignores the instructions, which costs marks in the exam.",
@@ -661,7 +661,7 @@ export const EN_C1_U14: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Los atascos se han convertido en uno de los problemas más acuciantes de las ciudades modernas.",
+            source: "Los embotellamientos se han convertido en uno de los problemas más acuciantes de las ciudades modernas.",
             answer: "Traffic congestion has become one of the most pressing problems facing modern cities.",
             altAnswers: [
               "Traffic congestion has become one of the most pressing problems in modern cities.",
@@ -797,13 +797,13 @@ export const EN_C1_U14: Lesson[] = [
         examples: [
           { es: "Another key factor is the cost of housing.", en: "Otro factor clave es el costo de la vivienda." },
           { es: "Moreover, the plan would pay for itself within ten years.", en: "Además, el plan se amortizaría en diez años." },
-          { es: "By contrast, cycle lanes benefit only a minority.", en: "En cambio, los carriles bici solo benefician a una minoría." },
+          { es: "By contrast, bike lanes benefit only a minority.", en: "En cambio, las ciclovías solo benefician a una minoría." },
           { es: "As a result, many residents have moved out of the center.", en: "Como consecuencia, muchos vecinos se han ido del centro." },
         ],
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Sofia's paragraph says that cycle lanes are cheap. Her next sentence says they only help people who already cycle. Which linker fits best?",
+            question: "Sofia's paragraph says that bike lanes are cheap. Her next sentence says they only help people who already cycle. Which linker fits best?",
             options: ["However,", "Moreover,", "As a result,", "On balance,"],
             correctIndex: 0,
             explanation: "The second idea contrasts with the first (cheap, but limited benefit), so you need a contrast marker. \"Moreover\" would wrongly present it as another advantage.",
@@ -868,10 +868,10 @@ export const EN_C1_U14: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "___, cycle lanes benefit only a minority of residents.",
+        sentence: "___, bike lanes benefit only a minority of residents.",
         answer: "By contrast",
         altAnswers: ["In contrast", "On the other hand", "However"],
-        en: "[En cambio], los carriles bici solo benefician a una minoría de los vecinos.",
+        en: "[En cambio], las ciclovías solo benefician a una minoría de los vecinos.",
         explanation: "«En cambio» introduces a contrast with what came before: \"by contrast\", \"in contrast\" or \"on the other hand\".",
       },
       {
@@ -1296,7 +1296,7 @@ export const EN_C1_U14: Lesson[] = [
               "The goal of this report is to evaluate the new training programme.",
               "The objective of this report is to assess the new training programme.",
             ],
-            explanation: "\"The aim/purpose of this report is to\" + infinitive. \"Training program\" is British spelling; Americans write \"program\".",
+            explanation: "\"The aim/purpose of this report is to\" + infinitive. \"Training programme\" is British spelling; Americans write \"program\".",
           },
           {
             type: "multiple-choice",
@@ -1644,7 +1644,7 @@ export const EN_C1_U14: Lesson[] = [
         examples: [
           { es: "Thirty percent of people work from home at least once a week.", en: "El 30 % de la gente teletrabaja al menos una vez por semana." },
           { es: "Online sales accounted for 40% of revenue.", en: "Las ventas en línea supusieron el 40 % de los ingresos." },
-          { es: "Women make up 60% of the workforce.", en: "Las mujeres representan el 60 % de la plantilla." },
+          { es: "Women make up 60% of the workforce.", en: "Las mujeres representan el 60 % del personal." },
           { es: "The number of visitors doubled in five years.", en: "El número de visitantes se duplicó en cinco años." },
           { es: "This year we had twice as many applications as last year.", en: "Este año hemos tenido el doble de solicitudes que el año pasado." },
           { es: "Rent now costs double what it did ten years ago.", en: "El alquiler cuesta ahora el doble que hace diez años." },
@@ -1817,7 +1817,7 @@ export const EN_C1_U14: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Las mujeres representan el 60 % de la plantilla.",
+        source: "Las mujeres representan el 60 % del personal.",
         answer: "Women make up 60% of the workforce.",
         altAnswers: [
           "Women account for 60% of the workforce.",
@@ -1831,7 +1831,7 @@ export const EN_C1_U14: Lesson[] = [
           "Women make up 60% of the company's workforce.",
           "Women comprise 60% of the workforce.",
         ],
-        explanation: "\"Make up\" or \"account for\" + percentage. «La plantilla» is \"the workforce\" or \"the staff\": here \"the\" is right, because it is a specific company's staff.",
+        explanation: "\"Make up\" or \"account for\" + percentage. «El personal» is \"the workforce\" or \"the staff\": here \"the\" is right, because it is a specific company's staff.",
       },
       {
         type: "word-order",
@@ -2052,8 +2052,14 @@ export const EN_C1_U14: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Casi dos tercios de los encuestados se quejaron de las colas.",
-        answer: "Almost two thirds of respondents complained about the queues.",
+        answer: "Almost two thirds of respondents complained about the lines.",
         altAnswers: [
+          "Almost two thirds of respondents complained about the queues.",
+          "Almost two thirds of the respondents complained about the lines.",
+          "Nearly two thirds of respondents complained about the lines.",
+          "Almost two-thirds of respondents complained about the lines.",
+          "Almost two thirds of respondents complained about the long lines.",
+          "Almost two thirds of those surveyed complained about the lines.",
           "Almost two thirds of the respondents complained about the queues.",
           "Nearly two thirds of respondents complained about the queues.",
           "Nearly two thirds of the respondents complained about the queues.",
@@ -2172,7 +2178,7 @@ export const EN_C1_U14: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Use these notes to write the Findings section of a report (80 to 120 words): «Encuesta a 150 estudiantes sobre la biblioteca. 70 %: faltan enchufes. 52 %: horario corto (cierra a las 20:00). Wifi: bien para la mayoría (81 %). Pocos usan la biblioteca los sábados (9 %). Quejas por el ruido en la segunda planta.».",
+        prompt: "Use these notes to write the Findings section of a report (80 to 120 words): «Encuesta a 150 estudiantes sobre la biblioteca. 70 %: faltan enchufes. 52 %: horario corto (cierra a las 20:00). Wifi: bien para la mayoría (81 %). Pocos usan la biblioteca los sábados (9 %). Quejas por el ruido en el segundo piso.».",
         minWords: 80,
         maxWords: 120,
         rubric: [
@@ -2417,7 +2423,7 @@ export const EN_C1_U14: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Se recomienda que el ayuntamiento amplíe el carril bici.",
+        source: "Se recomienda que el ayuntamiento amplíe la ciclovía.",
         answer: "It is recommended that the council extend the bike lane.",
         altAnswers: [
           "It is recommended that the council should extend the cycle lane.",
@@ -2446,7 +2452,7 @@ export const EN_C1_U14: Lesson[] = [
           "Each recommendation follows from a finding",
           "Uses \"would\" to describe expected benefits",
         ],
-        modelAnswer: "Recommendations\nIn the light of these findings, the following measures are recommended. Firstly, it is recommended that the center introduce an online booking system for the pool, which would reduce waiting times at peak hours. Secondly, the broken lockers should be repaired or replaced as a matter of urgency, since this issue affects every member. Finally, I would suggest offering two evening yoga classes on a trial basis. If demand proved strong, these could become a permanent part of the timetable.",
+        modelAnswer: "Recommendations\nIn the light of these findings, the following measures are recommended. Firstly, it is recommended that the center introduce an online booking system for the pool, which would reduce waiting times at peak hours. Secondly, the broken lockers should be repaired or replaced as a matter of urgency, since this issue affects every member. Finally, I would suggest offering two evening yoga classes on a trial basis. If demand proved strong, these could become a permanent part of the schedule.",
         explanation: "Recommendations linked to findings, formal patterns and \"would\" for results. If this was hard, revisit Part 2 and In Practice.",
       },
     ],
@@ -2559,7 +2565,7 @@ export const EN_C1_U14: Lesson[] = [
         body: [
           "A review mixes description with your reaction: \"What struck me most was...\", \"I found the second half rather slow\", \"I couldn't put it down\". Don't just summarize the plot; readers want your judgment.",
           "Balance praise and criticism: \"While the acting is superb, the script lets it down\". The verb \"let down\" (fallar, decepcionar) is very useful in reviews.",
-          "Finish with a clear recommendation and say who it is for: \"I would thoroughly recommend it to anyone who...\", \"Well worth a visit\", \"If you're a fan of..., don't miss it\", or the opposite: \"Give it a miss\", \"Save your money\".",
+          "Finish with a clear recommendation and say who it is for: \"I would thoroughly recommend it to anyone who...\", \"Well worth a visit\", \"If you're a fan of..., don't miss it\", or the opposite: \"Save your money\", \"Skip it\" or, in British English, \"Give it a miss\".",
         ],
         examples: [
           { es: "What struck me most was the soundtrack.", en: "Lo que más me llamó la atención fue la banda sonora." },
@@ -2756,7 +2762,7 @@ export const EN_C1_U14: Lesson[] = [
           "The movie is overrated; the script is weak and the characters are one-dimensional.",
           "The film is overrated. The script is weak and the characters are flat.",
         ],
-        explanation: "\"Overrated\" (sobrevalorado) and \"flat\" or \"one-dimensional\" characters are typical review vocabulary. \"Film\" is British; \"movie\" is American.",
+        explanation: "\"Overrated\" (sobrevalorado) and \"flat\" or \"one-dimensional\" characters are typical review vocabulary. \"Film\" is common in both varieties, especially in reviews; \"movie\" is the everyday American word.",
       },
       {
         type: "word-order",
@@ -3027,7 +3033,7 @@ export const EN_C1_U14: Lesson[] = [
           "The author concedes that the sample was small, but maintains that the results are reliable.",
           "The author admits that the sample was small but argues that the results are reliable.",
         ],
-        explanation: "\"Concede\" admits a weakness; \"maintain\" insists on the main position. Together they report an argument fairly. «Fiable» is \"reliable\", not *fiable.",
+        explanation: "\"Concede\" admits a weakness; \"maintain\" insists on the main position. Together they report an argument fairly. «Confiable» is \"reliable\" (or \"trustworthy\"), not *confiable or *trustable.",
       },
       {
         type: "matching",
@@ -3831,7 +3837,7 @@ export const EN_C1_U14: Lesson[] = [
         ],
         examples: [
           { es: "Having analyzed the data, the team drew three conclusions.", en: "Después de analizar los datos, el equipo sacó tres conclusiones." },
-          { es: "Faced with rising costs, many firms cut staff.", en: "Ante el aumento de los costos, muchas empresas recortaron plantilla." },
+          { es: "Faced with rising costs, many firms cut staff.", en: "Ante el aumento de los costos, muchas empresas recortaron personal." },
           { es: "Rarely has a policy been so unpopular.", en: "Pocas veces una política ha sido tan impopular." },
           { es: "Only by working together can we solve this problem.", en: "Solo trabajando juntos podremos resolver este problema." },
         ],
@@ -3916,7 +3922,7 @@ export const EN_C1_U14: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Ante el aumento de los costos, muchas empresas recortaron plantilla.",
+        source: "Ante el aumento de los costos, muchas empresas recortaron personal.",
         answer: "Faced with rising costs, many firms cut staff.",
         altAnswers: [
           "Faced with rising costs, many companies cut staff.",
@@ -4070,10 +4076,10 @@ export const EN_C1_U14: Lesson[] = [
         ],
         examples: [
           { es: "She has a degree in Law from the University of Salamanca.", en: "Es licenciada en Derecho por la Universidad de Salamanca." },
-          { es: "He enrolled in a master's course in data science.", en: "Se matriculó en un máster de ciencia de datos." },
+          { es: "He enrolled in a master's course in data science.", en: "Se inscribió en una maestría en ciencia de datos." },
           { es: "Tuition fees have tripled in the last decade.", en: "Las tasas de matrícula se han triplicado en la última década." },
           { es: "She won a scholarship to study in Boston.", en: "Consiguió una beca para estudiar en Boston." },
-          { es: "I graduated in 2021.", en: "Me licencié en 2021." },
+          { es: "I graduated in 2021.", en: "Me gradué en 2021." },
           { es: "He wants a career in journalism.", en: "Quiere dedicarse profesionalmente al periodismo." },
         ],
         checkpoint: [
@@ -4120,7 +4126,7 @@ export const EN_C1_U14: Lesson[] = [
           { es: "The first lecture is at nine in the main hall.", en: "La primera clase magistral es a las nueve en el salón de actos." },
           { es: "There is a long reading list for this module.", en: "Hay una larga lista de lecturas para esta asignatura." },
           { es: "Coursework accounts for 40% of the final grade.", en: "Los trabajos del curso suponen el 40 % de la nota final." },
-          { es: "I have to hand in my dissertation in May.", en: "Tengo que entregar el trabajo de fin de grado en mayo." },
+          { es: "I have to hand in my dissertation in May.", en: "Tengo que entregar la tesis de fin de carrera en mayo." },
           { es: "She passed all her exams with flying colors.", en: "Aprobó todos los exámenes con muy buena nota." },
           { es: "Continuous assessment reduces exam stress.", en: "La evaluación continua reduce el estrés de los exámenes." },
         ],
@@ -4129,7 +4135,7 @@ export const EN_C1_U14: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "Aprobó todos los exámenes, pero suspendió el trabajo de fin de grado.",
+            source: "Aprobó todos los exámenes, pero reprobó la tesis de fin de carrera.",
             answer: "She passed all her exams, but she failed her dissertation.",
             altAnswers: [
               "He passed all his exams, but he failed his dissertation.",
@@ -4147,7 +4153,7 @@ export const EN_C1_U14: Lesson[] = [
               "I passed all my exams, but I failed my dissertation.",
               "I passed all my exams but failed my dissertation.",
             ],
-            explanation: "«Aprobar» is \"pass\" (not *approve) and «suspender» is \"fail\". The «TFG» is a \"dissertation\" or \"final-year project\" (UK), or a \"senior thesis\" (US).",
+            explanation: "«Aprobar» is \"pass\" (not *approve) and «suspender» is \"fail\". The «tesis de fin de carrera» is a \"dissertation\" or \"final-year project\" (UK), or a \"senior thesis\" (US).",
           },
           {
             type: "multiple-choice",
@@ -4291,7 +4297,7 @@ export const EN_C1_U14: Lesson[] = [
         sentence: "I have to hand in my ___ in May.",
         answer: "dissertation",
         altAnswers: ["thesis", "final-year project", "final project"],
-        en: "Tengo que entregar [el trabajo de fin de grado] en mayo.",
+        en: "Tengo que entregar [la tesis de fin de carrera] en mayo.",
         explanation: "The final-year research project of a degree is a \"dissertation\" in the UK (\"thesis\" or \"senior thesis\" in the US).",
       },
       {
@@ -4365,7 +4371,7 @@ export const EN_C1_U14: Lesson[] = [
       {
         type: "word-order",
         prompt: "Put the words in order.",
-        words: ["Coursework", "accounts", "for", "40%", "of", "the", "final", "mark."],
+        words: ["Coursework", "accounts", "for", "40%", "of", "the", "final", "grade."],
         translation: "Los trabajos del curso suponen el 40 % de la nota final.",
         explanation: "\"Coursework\" (uncountable) + \"accounts for\" + percentage: data language from the reports lessons applied to education.",
       },

@@ -90,7 +90,7 @@ export const EN_C1_U03: Lesson[] = [
         body: [
           "-ure: fail > failure, close > closure, depart > departure, press > pressure, expose > exposure. «Fracaso» is \"failure\", and «no hacer algo» is very often \"failure to do something\": \"his failure to pay the rent\".",
           "-ance/-ence: appear > appearance, perform > performance, accept > acceptance, exist > existence, prefer > preference, depend > dependence, refer > reference. There is no reliable rule for a or e, so learn the spelling with the word.",
-          "From adjectives, -ity and -ness are the most common: able > ability, possible > possibility, responsible > responsibility, complex > complexity; aware > awareness, weak > weakness, effective > effectiveness, ill > illness. -ity usually matches Spanish «-idad»; -ness has no Spanish twin, so «concienciación» is \"awareness\" and «debilidad» is \"weakness\".",
+          "From adjectives, -ity and -ness are the most common: able > ability, possible > possibility, responsible > responsibility, complex > complexity; aware > awareness, weak > weakness, effective > effectiveness, ill > illness. -ity usually matches Spanish «-idad»; -ness has no Spanish twin, so «concientización» is \"awareness\" and «debilidad» is \"weakness\".",
           "Some words do not change at all: \"increase\", \"decrease\", \"rise\", \"fall\", \"change\", \"delay\", \"release\", \"cut\", \"need\". The noun and the verb look the same: \"a rise in prices\", \"a two-hour delay\".",
         ],
         examples: [
@@ -457,7 +457,7 @@ export const EN_C1_U03: Lesson[] = [
           { es: "Energy consumption fell last winter.", en: "El consumo de energía bajó el invierno pasado." },
           { es: "They passed a new data protection law.", en: "Aprobaron una nueva ley de protección de datos." },
           { es: "We are going to launch a road safety campaign.", en: "Vamos a lanzar una campaña de seguridad vial." },
-          { es: "Please fill out the job application form.", en: "Rellene el formulario de solicitud de empleo, por favor." },
+          { es: "Please fill out the job application form.", en: "Llene el formulario de solicitud de empleo, por favor." },
         ],
         checkpoint: [
           {
@@ -634,7 +634,7 @@ export const EN_C1_U03: Lesson[] = [
           { es: "The sharp rise in prices led to a fall in sales.", en: "La fuerte subida de los precios provocó una caída de las ventas." },
           { es: "The closure of the factory resulted in 300 job losses.", en: "El cierre de la fábrica supuso la pérdida de 300 empleos." },
           { es: "The introduction of the new tax caused widespread protests.", en: "La introducción del nuevo impuesto provocó protestas generalizadas." },
-          { es: "Following the publication of the report, the minister resigned.", en: "Tras la publicación del informe, el ministro dimitió." },
+          { es: "Following the publication of the report, the minister resigned.", en: "Tras la publicación del informe, el ministro renunció." },
           { es: "The delay was due to a shortage of staff.", en: "El retraso se debió a la falta de personal." },
         ],
         checkpoint: [
@@ -833,7 +833,7 @@ export const EN_C1_U03: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Tras la publicación del informe, el ministro dimitió.",
+        source: "Tras la publicación del informe, el ministro renunció.",
         answer: "Following the publication of the report, the minister resigned.",
         altAnswers: [
           "After the publication of the report, the minister resigned.",
@@ -1133,10 +1133,9 @@ export const EN_C1_U03: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "There was a ten-minute ___ before the second half.",
-        answer: "break",
-        altAnswers: ["pause", "interval", "intermission"],
-        en: "Hubo una [pausa] de diez minutos antes de la segunda parte.",
+        sentence: "There was a ten-___ break before the second half.",
+        answer: "minute",
+        en: "Hubo una pausa de diez [minutos] antes de la segunda parte.",
         explanation: "\"Ten-minute\" works as an adjective inside a compound, so \"minute\" stays singular. Part 2.",
       },
     ],
@@ -2240,7 +2239,7 @@ export const EN_C1_U03: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "What was the reason ___ his resignation?",
             answer: "for",
-            en: "¿Cuál fue el motivo [de] su dimisión?",
+            en: "¿Cuál fue el motivo [de] su renuncia?",
             explanation: "\"Reason for\", not *reason of: «de» here is not \"of\".",
           },
         ],
@@ -2761,7 +2760,7 @@ export const EN_C1_U03: Lesson[] = [
           { es: "An increase in thefts has been reported.", en: "Se ha informado de un aumento de los robos." },
           { es: "A decision has been made to cut costs.", en: "Se ha decidido recortar costos." },
           { es: "Prices are expected to rise.", en: "Se espera que suban los precios." },
-          { es: "The minister is said to be considering resigning.", en: "Se dice que el ministro está pensando en dimitir." },
+          { es: "The minister is said to be considering resigning.", en: "Se dice que el ministro está pensando en renunciar." },
         ],
         checkpoint: [
           {

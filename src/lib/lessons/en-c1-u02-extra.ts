@@ -293,7 +293,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
         heading: "Quick recap: What + clause + be + focus",
         body: [
           "A wh-cleft builds suspense: it puts the known part first (\"What I need...\") and the new information last (\"...is a vacation\"). It translates Spanish «Lo que necesito es...» very directly, so the problems are small but frequent.",
-          "Problem one: dropping the verb \"be\" between the two halves. *What I need a holiday has no main verb; you need \"What I need IS a holiday\".",
+          "Problem one: dropping the verb \"be\" between the two halves. *What I need a vacation has no main verb; you need \"What I need IS a vacation\".",
           "Problem two: «lo que» after a noun. After \"the thing\", \"the place\" or \"the reason\", English uses \"that\", \"where\", \"why\" or nothing, never \"what\": \"The thing I like is...\", not *The thing what I like.",
           "\"Be\" is usually singular (\"What we need is more volunteers\"), though \"are\" is also heard with a plural focus. \"What happened was (that)...\" introduces a whole story.",
         ],
@@ -435,7 +435,7 @@ export const EN_C1_U02_EXTRA: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["What", "she", "did", "was", "resign", "on", "the", "spot."],
-        translation: "Lo que hizo fue dimitir en el acto.",
+        translation: "Lo que hizo fue renunciar en el acto.",
         explanation: "\"What + subject + did + was\" + base form (\"resign\").",
       },
       {

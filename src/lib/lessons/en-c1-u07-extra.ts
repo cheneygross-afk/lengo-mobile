@@ -58,14 +58,14 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
         body: [
           "Ask two questions. First: is the subject of the main clause doing the action, or receiving it? Doing it: -ing or \"having\" + participle. Receiving it: past participle or \"having been\" + participle.",
           "Second: does the participle action happen at the same time, or before? Same time or general reason: \"Living in Madrid, I...\". Clearly before: \"Having lived in Madrid, I...\".",
-          "Negatives go before the participle: \"Not having slept\", \"Not wanting to wake her\". Spanish speakers often write *Having not slept; it is possible, but \"Not having slept\" is far more common.",
+          "Negatives go before the participle: \"Not having slept\", \"Not wanting to wake her\". Spanish speakers often write \"Having not slept\"; it is possible, but \"Not having slept\" is far more common.",
         ],
         examples: [
           { es: "Asked about the delay, the minister refused to comment.", en: "Preguntado por el retraso, el ministro se negó a hacer comentarios." },
           { es: "Having been delayed by fog, the plane landed two hours late.", en: "Tras retrasarse por la niebla, el avión aterrizó con dos horas de retraso." },
           { es: "Not having slept all night, I could hardly keep my eyes open.", en: "Como no había dormido en toda la noche, apenas podía mantener los ojos abiertos." },
           { es: "Not wanting to wake the baby, we whispered.", en: "Para no despertar al bebé, hablamos en susurros." },
-          { es: "Written in a hurry, the email was full of mistakes.", en: "Escrito con prisas, el correo estaba lleno de errores." },
+          { es: "Written in a hurry, the email was full of mistakes.", en: "Escrito con prisa, el correo estaba lleno de errores." },
         ],
         checkpoint: [
           {
@@ -790,7 +790,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Rewrite these three sentences so that none of them dangles: (1) *Walking home, the streets were empty. (2) *Having signed the contract, the deal was finally closed. (3) *Being very tired, the film seemed endless. Then add one sentence of your own that starts with a correctly used participle clause.",
+        prompt: "Rewrite these three sentences so that none of them dangles: (1) *Walking home, the streets were empty. (2) *Having signed the contract, the deal was finally closed. (3) *Being very tired, the movie seemed endless. Then add one sentence of your own that starts with a correctly used participle clause.",
         minWords: 30,
         maxWords: 80,
         rubric: [
@@ -798,7 +798,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
           "The meaning of the original sentences is kept.",
           "Your own sentence starts with a participle clause whose subject is the main-clause subject.",
         ],
-        modelAnswer: "1. Walking home, I noticed that the streets were empty. 2. Having signed the contract, the two companies finally closed the deal. 3. Because I was very tired, the film seemed endless. 4. Having spent the whole weekend studying, I felt ready for the exam.",
+        modelAnswer: "1. Walking home, I noticed that the streets were empty. 2. Having signed the contract, the two companies finally closed the deal. 3. Because I was very tired, the movie seemed endless. 4. Having spent the whole weekend studying, I felt ready for the exam.",
         explanation: "There are two ways to fix a dangling participle: change the main clause subject to the doer, or replace the participle with a full clause that has its own subject.",
       },
     ],
@@ -1292,13 +1292,13 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
       {
         heading: "Lo que: which or what?",
         body: [
-          "«Lo que» commenting on a whole previous clause is \"which\", after a comma: \"He resigned, which surprised everyone\" («dimitió, lo que sorprendió a todos»). *He resigned, what surprised everyone is one of the most frequent Advanced errors.",
+          "«Lo que» commenting on a whole previous clause is \"which\", after a comma: \"He resigned, which surprised everyone\" («renunció, lo que sorprendió a todos»). *He resigned, what surprised everyone is one of the most frequent Advanced errors.",
           "«Lo que» meaning «la cosa que» is \"what\", with no antecedent: \"What surprised me was his tone.\" \"I don't understand what you mean.\" After \"all\", \"everything\", \"something\" or \"nothing\", use \"that\" or nothing, never \"what\": \"everything (that) you need\", not *everything what you need.",
           "Test: if you can replace «lo que» with «y eso», use \"which\". If you can replace it with «la cosa que», use \"what\".",
         ],
         examples: [
           { es: "He resigned, which surprised everyone.", en: "Dimitió, lo que sorprendió a todos." },
-          { es: "What surprised everyone was his resignation.", en: "Lo que sorprendió a todos fue su dimisión." },
+          { es: "What surprised everyone was his resignation.", en: "Lo que sorprendió a todos fue su renuncia." },
           { es: "The train was late, which meant we missed the start.", en: "El tren llegó tarde, lo que hizo que nos perdiéramos el principio." },
           { es: "I'll give you everything you need.", en: "Te daré todo lo que necesites." },
           { es: "That's exactly what I was afraid of.", en: "Eso es justo lo que me temía." },
@@ -1990,6 +1990,7 @@ export const EN_C1_U07_EXTRA: Lesson[] = [
           "I need something with which to open this tin.",
           "I need something I can open this can with.",
           "I need something I can open this tin with.",
+          "I need something to open this can.",
         ],
         explanation: "Infinitive relative with a stranded preposition: \"something to open it with\". The formal \"with which to open\" exists but sounds stiff.",
       },

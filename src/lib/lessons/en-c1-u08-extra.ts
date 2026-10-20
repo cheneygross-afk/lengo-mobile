@@ -1506,7 +1506,7 @@ export const EN_C1_U08_EXTRA: Lesson[] = [
         examples: [
           { es: "But for the traffic, we would have arrived on time.", en: "De no ser por el tráfico, habríamos llegado a tiempo." },
           { es: "If it hadn't been for her advice, I would have made a big mistake.", en: "Si no hubiera sido por su consejo, habría cometido un gran error." },
-          { es: "Write it down; otherwise you'll forget.", en: "Apúntalo; si no, se te olvidará." },
+          { es: "Write it down; otherwise you'll forget.", en: "Anótalo; si no, se te va a olvidar." },
           { es: "We need to leave now, or else we'll miss the start.", en: "Tenemos que irnos ya, o nos perderemos el principio." },
           { es: "Assuming the weather holds, we'll eat outside.", en: "Suponiendo que se mantenga el buen tiempo, comeremos afuera." },
         ],

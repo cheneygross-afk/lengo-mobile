@@ -270,7 +270,7 @@ export const EN_C1_U04: Lesson[] = [
           "Spanish speakers often either repeat the whole verb phrase (*but she has seen it, which is correct but heavy) or use the wrong auxiliary (*I don't like it, but she likes). The natural English is \"but she does\".",
         ],
         examples: [
-          { es: "I haven't seen the film, but she has.", en: "Yo no he visto la película, pero ella sí." },
+          { es: "I haven't seen the movie, but she has.", en: "Yo no he visto la película, pero ella sí." },
           { es: "He said he'd call, and he did.", en: "Dijo que llamaría, y lo hizo." },
           { es: "I don't eat meat, but my husband does.", en: "Yo no como carne, pero mi marido sí." },
           { es: "Tom can't come tonight, but Emma can.", en: "Tom no puede venir esta noche, pero Emma sí." },
@@ -1632,7 +1632,7 @@ export const EN_C1_U04: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "I've never tried skiing, but my wife ___.",
             answer: "has",
-            en: "Yo nunca he probado a esquiar, pero mi mujer [sí].",
+            en: "Yo nunca he probado esquiar, pero mi esposa [sí].",
             explanation: "«Sí» becomes the auxiliary of the tense. Present perfect: \"has\". *but my wife yes is a calque.",
           },
         ],

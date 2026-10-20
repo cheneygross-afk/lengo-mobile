@@ -219,7 +219,7 @@ export const EN_C1_U12_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "¡Madre mía, cómo han subido los precios!",
+        source: "¡Dios mío, cómo han subido los precios!",
         answer: "Wow, prices have really gone up!",
         altAnswers: [
           "Wow, prices have gone up so much!",
@@ -297,7 +297,7 @@ export const EN_C1_U12_EXTRA: Lesson[] = [
           "Avoids contractions, slang and abbreviations such as \"ASAP\".",
           "States the problem clearly and makes a polite but firm request.",
         ],
-        modelAnswer: "Dear Sir or Madam,\n\nI am writing to inform you that the heating in my apartment, 4B, has stopped working again. This is the second time this month that the problem has occurred, and the temperature in the apartment is now very low.\n\nI would be grateful if you could arrange for a technician to inspect and repair the system as soon as possible. I am available at home every afternoon this week.\n\nThank you in advance for your assistance.\n\nYours faithfully,\nCarlos Ruiz",
+        modelAnswer: "Dear Sir or Madam,\n\nI am writing to inform you that the heating in my apartment, 4B, has stopped working again. This is the second time this month that the problem has occurred, and the temperature in the apartment is now very low.\n\nI would be grateful if you could arrange for a technician to inspect and repair the system as soon as possible. I am available at home every afternoon this week.\n\nThank you in advance for your assistance.\n\nSincerely,\nCarlos Ruiz",
         explanation: "Moving up the register means full forms, Latinate verbs (\"inform\", \"arrange\", \"repair\"), polite formulas (\"I would be grateful if...\") and no slang.",
       },
       {

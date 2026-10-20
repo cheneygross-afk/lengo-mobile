@@ -208,7 +208,7 @@ export const EN_C2_U13_EXTRA: Lesson[] = [
           { left: "She insisted that he", right: "pay for the damage himself." },
           { left: "I'd recommend", right: "booking a table." },
           { left: "The report urges that the plant", right: "be closed immediately." },
-          { left: "It is imperative that nobody", right: "leave the building." },
+          { left: "It is imperative that nobody", right: "leave their seat during the exam." },
           { left: "My boss suggested", right: "that I take a few days off." },
         ],
         explanation: "After \"insist\", \"urge\", \"imperative\" and \"suggest\" + that: base form. After \"recommend\" without \"that\": -ing.",

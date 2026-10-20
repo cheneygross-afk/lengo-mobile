@@ -333,7 +333,7 @@ export const EN_C2_U25_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Habiendo perdido el apoyo del ejército, el dictador dimitió.",
+        source: "Habiendo perdido el apoyo del ejército, el dictador renunció.",
         answer: "Having lost the support of the army, the dictator resigned.",
         altAnswers: [
           "Having lost the support of the army, the dictator stepped down.",

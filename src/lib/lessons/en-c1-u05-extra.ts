@@ -537,7 +537,7 @@ export const EN_C1_U05_EXTRA: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Se espera que el ministro dimita esta semana.",
+        source: "Se espera que el ministro renuncie esta semana.",
         answer: "The minister is expected to resign this week.",
         altAnswers: [
           "The minister is set to resign this week.",

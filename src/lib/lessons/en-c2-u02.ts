@@ -2042,11 +2042,11 @@ export const EN_C2_U02: Lesson[] = [
         ],
         examples: [
           { es: "Ana: Before I sign, what exactly does clause 9 commit me to?", en: "Ana: Antes de firmar, ¿a qué me obliga exactamente la cláusula 9?" },
-          { es: "Mr Hughes: Essentially, you'd have to cover any losses the agency suffers because of a mistake in your work.", en: "Sr. Hughes: Básicamente, tendría que cubrir cualquier pérdida que sufra la agencia por un error en su trabajo." },
+          { es: "Mr. Hughes: Essentially, you'd have to cover any losses the agency suffers because of a mistake in your work.", en: "Sr. Hughes: Básicamente, tendría que cubrir cualquier pérdida que sufra la agencia por un error en su trabajo." },
           { es: "Ana: Any losses? Is there no limit?", en: "Ana: ¿Cualquier pérdida? ¿No hay límite?" },
-          { es: "Mr Hughes: That's the catch. I'd suggest asking for your liability to be capped at the fees you receive.", en: "Sr. Hughes: Ahí está la trampa. Yo propondría pedir que su responsabilidad se limite a los honorarios que perciba." },
+          { es: "Mr. Hughes: That's the catch. I'd suggest asking for your liability to be capped at the fees you receive.", en: "Sr. Hughes: Ahí está la trampa. Yo propondría pedir que su responsabilidad se limite a los honorarios que perciba." },
           { es: "Ana: Would they be open to that?", en: "Ana: ¿Estarían dispuestos a aceptarlo?" },
-          { es: "Mr Hughes: It's a fairly standard request. I'll raise it with their lawyers.", en: "Sr. Hughes: Es una petición bastante habitual. Lo plantearé a sus abogados." },
+          { es: "Mr. Hughes: It's a fairly standard request. I'll raise it with their lawyers.", en: "Sr. Hughes: Es una petición bastante habitual. Lo plantearé a sus abogados." },
           { es: "Ana: Good. I'm not prepared to sign it as it stands.", en: "Ana: Bien. No estoy dispuesta a firmarlo tal como está." },
         ],
         checkpoint: [
@@ -2349,7 +2349,7 @@ export const EN_C2_U02: Lesson[] = [
           "Close with \"Yours faithfully\" after \"Dear Sir or Madam\" and \"Yours sincerely\" after a name (UK); in the US, \"Sincerely\" works for both. «Atentamente» is never *Attentively. Sign, then print your full name.",
         ],
         examples: [
-          { es: "I therefore request that the penalty be cancelled.", en: "Por todo lo expuesto, solicito que se anule la sanción." },
+          { es: "I therefore request that the penalty be canceled.", en: "Por todo lo expuesto, solicito que se anule la sanción." },
           { es: "I would ask you to reconsider your decision.", en: "Les ruego que reconsideren su decisión." },
           { es: "I would be grateful if you could confirm this in writing.", en: "Les agradecería que me lo confirmaran por escrito." },
           { es: "Please find enclosed a copy of my parking permit.", en: "Adjunto una copia de mi permiso de estacionamiento." },
@@ -2528,7 +2528,7 @@ export const EN_C2_U02: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "Dear Ms Grant, I look forward to hearing from you. Yours ___,",
+        sentence: "Dear Ms. Grant, I look forward to hearing from you. Yours ___,",
         answer: "sincerely",
         en: "Estimada Sra. Grant: Quedo a la espera de su respuesta. [Atentamente],",
         explanation: "Because the letter opens with the reader's name, the close is \"Yours sincerely\" (UK) or \"Sincerely\" (US). After \"Dear Sir or Madam\" it would be \"Yours faithfully\".",

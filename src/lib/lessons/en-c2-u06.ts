@@ -59,7 +59,7 @@ export const EN_C2_U06: Lesson[] = [
         body: [
           "The other great source of puns is polysemy: a single word with two established meanings. In \"I used to be a banker, but I lost interest\", \"interest\" means both curiosity and the money a bank pays on savings. Both readings make sense, and the sentence forces you to hold them at the same time.",
           "These one-liners often follow a fixed frame that you will meet constantly: \"I used to be a ..., but ...\", where the second half uses a word from that job in its everyday sense. Others play on adjectives: \"Without geometry, life is pointless\" (without points, and without purpose).",
-          "Spanish does exactly the same with words like «pasta» (dough and money) or «banco» (bank and bench), so the mechanism is familiar. The difficulty is vocabulary: you can only see the joke if you know both meanings, and usually the less common one is the key.",
+          "Spanish does exactly the same with words like «pasta» (dough, and money in Spain) or «banco» (bank and bench), so the mechanism is familiar. The difficulty is vocabulary: you can only see the joke if you know both meanings, and usually the less common one is the key.",
         ],
         examples: [
           { es: "I used to be a banker, but I lost interest.", en: "Antes era banquero, pero perdí el interés (el interés por el trabajo y los intereses del banco)." },
@@ -75,8 +75,8 @@ export const EN_C2_U06: Lesson[] = [
             sentence: "I used to be a baker, but I couldn't make enough ___.",
             answer: "dough",
             altAnswers: ["bread"],
-            en: "Antes era panadero, pero no ganaba suficiente [pasta].",
-            explanation: "\"Dough\" is the raw mixture for bread and informal slang for money, exactly like «pasta» in Spanish. \"Bread\" is also older slang for money, so it works too.",
+            en: "Antes era panadero, pero no ganaba suficiente [dinero].",
+            explanation: "\"Dough\" is the raw mixture for bread and informal slang for money, like «pasta» in Spain (in much of Latin America, «lana» or «plata» also double as slang for money). \"Bread\" is also older slang for money, so it works too.",
           },
           {
             type: "multiple-choice",
@@ -370,7 +370,7 @@ export const EN_C2_U06: Lesson[] = [
           { es: "Well, that went well.", en: "Bueno, pues ha salido de maravilla (después de un fracaso evidente)." },
           { es: "Oh, brilliant. The printer's jammed again.", en: "Ay, genial. La impresora se ha vuelto a atascar." },
           { es: "A flat tire on the way to my job interview. Just what I needed.", en: "Una llanta ponchada de camino a la entrevista de trabajo. Justo lo que necesitaba." },
-          { es: "Another meeting about reducing the number of meetings. Can't wait.", en: "Otra reunión para reducir el número de reuniones. Estoy deseando." },
+          { es: "Another meeting about reducing the number of meetings. Can't wait.", en: "Otra reunión para reducir el número de reuniones. No veo la hora." },
         ],
         checkpoint: [
           {
@@ -1082,7 +1082,7 @@ export const EN_C2_U06: Lesson[] = [
           "In writing, the cues disappear. People compensate with phrases like \"(joking!)\" or emojis, or with a deliberately exaggerated style. If you are not sure whether a written remark was sarcastic, it is safer to assume good faith and ask.",
         ],
         examples: [
-          { es: "Oh, great. Thanks a lot.", en: "Ah, genial. Muchísimas gracias (sarcástico: me has fastidiado)." },
+          { es: "Oh, great. Thanks a lot.", en: "Ah, genial. Muchísimas gracias (sarcástico: me arruinaste el día)." },
           { es: "You'll finish it by Friday? Yeah, right.", en: "¿Que lo vas a acabar el viernes? Sí, claro." },
           { es: "He'll apologize? Like that's going to happen.", en: "¿Que va a pedir perdón? Sí, seguro." },
           { es: "It's raining in London? You don't say!", en: "¿Que llueve en Londres? ¡No me digas! (es decir: qué novedad)." },
@@ -1211,13 +1211,13 @@ export const EN_C2_U06: Lesson[] = [
         type: "multiple-choice",
         question: "Which of these is NOT ironic in any way?",
         options: [
-          "\"The film was quite long, about two hours.\" (it was two hours long)",
+          "\"The movie was quite long, about two hours.\" (it was two hours long)",
           "\"Oh, brilliant.\" (your train has just been canceled)",
           "\"Nice of you to join us.\" (to someone very late)",
           "\"You don't say!\" (after hearing something obvious)",
         ],
         correctIndex: 0,
-        explanation: "Only the remark about the two-hour film matches the facts. The others say something positive or surprised about a situation that is negative or obvious.",
+        explanation: "Only the remark about the two-hour movie matches the facts. The others say something positive or surprised about a situation that is negative or obvious.",
       },
       {
         type: "listen-choose",
@@ -1629,12 +1629,12 @@ export const EN_C2_U06: Lesson[] = [
       {
         heading: "Everyday informal words, with passports",
         body: [
-          "Many informal words are clearly British or American, and using the wrong one can sound odd. UK: \"gutted\" (very disappointed, «hecho polvo, destrozado»), \"knackered\" (exhausted), \"chuffed\" (pleased), \"mate\" (friend), \"cheers\" (thanks or goodbye), \"quid\" (pound). US: \"bummed\" (disappointed), \"beat\" (exhausted), \"sketchy\" (dodgy, unsafe), \"buddy\" or \"dude\" (friend, guy), \"bucks\" (dollars).",
+          "Many informal words are clearly British or American, and using the wrong one can sound odd. UK: \"gutted\" (very disappointed, «destrozado, deshecho»), \"knackered\" (exhausted), \"chuffed\" (pleased), \"mate\" (friend), \"cheers\" (thanks or goodbye), \"quid\" (pound). US: \"bummed\" (disappointed), \"beat\" (exhausted), \"sketchy\" (dodgy, unsafe), \"buddy\" or \"dude\" (friend, guy), \"bucks\" (dollars).",
           "Some have traveled everywhere: \"awesome\" (originally US, now global, «genial»), \"cool\", \"a pain\" («una lata, un fastidio»), \"no worries\" (originally Australian), \"hang out\" («juntarse, pasar el rato»), \"grab a coffee\".",
           "\"Knackered\" and \"gutted\" sound perfectly normal from a British speaker but slightly comic from a learner with an American accent, and vice versa with \"dude\". It is fine to choose one variety and stick to it.",
         ],
         examples: [
-          { es: "I'm absolutely knackered.", en: "Estoy hecho polvo. (UK)" },
+          { es: "I'm absolutely knackered.", en: "Estoy muerto de cansancio. (UK)" },
           { es: "I'm beat. I'm going to bed.", en: "Estoy reventado. Me voy a la cama. (US)" },
           { es: "She was gutted when she didn't get the job.", en: "Se quedó destrozada cuando no le dieron el trabajo. (UK)" },
           { es: "That neighborhood looks a bit sketchy at night.", en: "Ese barrio parece medio peligroso de noche. (US)" },
@@ -1646,7 +1646,7 @@ export const EN_C2_U06: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into informal spoken English.",
-            source: "Estoy hecho polvo; me voy a la cama.",
+            source: "Estoy molido; me voy a la cama.",
             answer: "I'm exhausted; I'm going to bed.",
             altAnswers: [
               "I'm knackered; I'm going to bed.",
@@ -1691,7 +1691,7 @@ export const EN_C2_U06: Lesson[] = [
         ],
         examples: [
           { es: "To be honest, I was really disappointed with the result.", en: "La verdad es que me decepcionó mucho el resultado. (neutro)" },
-          { es: "Honestly, I was gutted.", en: "La verdad, me quedé hecho polvo. (informal, UK)" },
+          { es: "Honestly, I was gutted.", en: "La verdad, me quedé destrozado. (informal, UK)" },
           { es: "I don't know, maybe we could ask someone.", en: "No sé, a lo mejor podríamos preguntarle a alguien." },
           { es: "It's not a big deal.", en: "No es para tanto." },
         ],
@@ -2269,7 +2269,7 @@ export const EN_C2_U06: Lesson[] = [
         options: [
           "We stayed in a cheap little hotel by the sea.",
           "We stayed in an economic little hotel by the sea.",
-          "The film is based on a historic novel.",
+          "The movie is based on a historic novel.",
           "She's very discrete about her private life.",
         ],
         correctIndex: 0,
@@ -2333,7 +2333,7 @@ export const EN_C2_U06: Lesson[] = [
           "Uses the unit's language (pun, play on words, hinges on, double meaning)",
           "Clear, natural English",
         ],
-        modelAnswer: "Take the joke \"I used to be a banker, but I lost interest.\" It's a play on words: the whole joke hinges on the double meaning of interest. On the one hand, it means curiosity, so he got bored with the job. On the other, it's the money a bank pays on savings, so he literally lost the bank's money. In Spanish, «perdí el interés» only works for the first meaning, because the money is «los intereses», so a direct translation kills the joke. A Spanish joke with a similar trick might use «pasta», which means both food and money.",
+        modelAnswer: "Take the joke \"I used to be a banker, but I lost interest.\" It's a play on words: the whole joke hinges on the double meaning of interest. On the one hand, it means curiosity, so he got bored with the job. On the other, it's the money a bank pays on savings, so he literally lost the bank's money. In Spanish, «perdí el interés» only works for the first meaning, because the money is «los intereses», so a direct translation kills the joke. A Spanish joke with a similar trick might use «pasta», which in Spain means both food and money.",
         explanation: "A strong explanation names both meanings, shows exactly where translation breaks, and does it briefly without killing the fun.",
       },
     ],

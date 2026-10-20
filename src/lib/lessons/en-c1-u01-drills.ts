@@ -328,7 +328,7 @@ export const EN_C1_U01_DRILLS: Lesson[] = [
       tr("Hace poco cambié de trabajo.", "Not long ago, I {changed jobs|switched jobs|got a new job}.",
         "\"Not long ago\" is a positive time phrase (it did happen), so normal order: \"Not long ago, I changed jobs\". *Not long ago did I change jobs is wrong.", "Translate into English. Start with \"Not long ago\"."),
       fb("I wonder why ___ my message.", ["she didn't answer", "she hasn't answered", "she didn't reply to", "she hasn't replied to", "he didn't answer", "he hasn't answered"], "Me pregunto por qué [no contestó] mi mensaje.",
-        "Inside an indirect question the order is normal and there is no do-support in the question form: \"why she didn't answer\", not *why didn't she answer."),
+        "Inside an indirect question the order is normal: the subject comes before the auxiliary, \"why she didn't answer\", not *why didn't she answer."),
       tr("Solo mi jefe puede aprobar los gastos.", "Only my boss can approve {the |}expenses.",
         "\"Only my boss\" is the subject, so no inversion: \"Only my boss can approve\".", "Translate into English. Start with \"Only\"."),
       tr("Solo entonces pudo mi jefe aprobar los gastos.", "Only then could my boss approve {the |}expenses.",

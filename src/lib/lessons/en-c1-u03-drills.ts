@@ -73,7 +73,7 @@ export const EN_C1_U03_DRILLS: Lesson[] = [
         question: "Which is the noun form of the adjective \"aware\"?",
         options: ["awareness", "awarity", "awarement", "awareship"],
         correctIndex: 0,
-        explanation: "\"Aware\" takes -ness: \"awareness\". -ness has no Spanish twin, so «conciencia» or «concienciación» in this sense is \"awareness\".",
+        explanation: "\"Aware\" takes -ness: \"awareness\". -ness has no Spanish twin, so «conciencia» or «concientización» in this sense is \"awareness\".",
       },
       {
         type: "fill-blank",
@@ -670,7 +670,7 @@ export const EN_C1_U03_DRILLS: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Rellene el formulario de solicitud de empleo, por favor.",
+        source: "Llene el formulario de solicitud de empleo, por favor.",
         answer: "Please fill out the job application form.",
         altAnswers: [
           "Please fill in the job application form.",
@@ -2141,7 +2141,7 @@ export const EN_C1_U03_DRILLS: Lesson[] = [
         examples: [
           { es: "A decision has been made to close the branch.", en: "Se ha decidido cerrar la sucursal." },
           { es: "The suspect is believed to have left the country.", en: "Se cree que el sospechoso salió del país." },
-          { es: "She was offered a place at the university.", en: "Le ofrecieron una plaza en la universidad." },
+          { es: "She was offered a place at the university.", en: "Le ofrecieron un lugar en la universidad." },
           { es: "We had the heating repaired last week.", en: "Nos arreglaron la calefacción la semana pasada." },
         ],
       },

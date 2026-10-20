@@ -566,7 +566,7 @@ export const EN_C1_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into American English.",
-        source: "Rellena este formulario y escríbeme mañana.",
+        source: "Llena este formulario y escríbeme mañana.",
         answer: "Fill out this form and write me tomorrow.",
         altAnswers: [
           "Fill out this form and write to me tomorrow.",
@@ -1267,7 +1267,7 @@ export const EN_C1_U16: Lesson[] = [
       {
         heading: "Words with different stress or sounds",
         body: [
-          "Some words are stressed differently. American: ga-RAGE, bal-LET, AD-vertisement, LAB-oratory. British: GA-rage, BAL-let, ad-VER-tisement, la-BOR-atory. For the noun \"address\", many Americans say AD-dress and the British ad-DRESS.",
+          "Some words are stressed differently. American: ga-RAGE, bal-LET, ad-ver-TISE-ment, LAB-oratory. British: GA-rage, BAL-let, ad-VER-tisement, la-BOR-atory. For the noun \"address\", many Americans say AD-dress and the British ad-DRESS.",
           "Some words simply sound different: \"schedule\" (US \"SKED-jool\", UK often \"SHED-yool\"), \"tomato\" (US \"to-MAY-to\", UK \"to-MAH-to\"), \"herb\" (silent h in the US: \"erb\"), \"vitamin\" (US \"VY-ta-min\", UK \"VIT-a-min\"), \"route\" (UK \"root\", US \"root\" or \"rowt\"). The letter z is \"zed\" in Britain and \"zee\" in the US.",
           "No accent is more correct than another. Your goal is to be clear and consistent, and to understand all of them. Many successful speakers of English keep a light Spanish accent and are perfectly understood: what matters most is word stress and clear vowels.",
         ],
@@ -1344,7 +1344,7 @@ export const EN_C1_U16: Lesson[] = [
           { left: "ballet", right: "bal-LET" },
           { left: "schedule", right: "SKED-jool" },
           { left: "tomato", right: "to-MAY-to" },
-          { left: "advertisement", right: "AD-ver-tise-ment" },
+          { left: "advertisement", right: "ad-ver-TISE-ment" },
         ],
         explanation: "British pronunciations: GA-rage, BAL-let, SHED-yool (or SKED-jool), to-MAH-to and ad-VER-tis-ment.",
       },
@@ -1431,14 +1431,14 @@ export const EN_C1_U16: Lesson[] = [
       {
         heading: "Irish English",
         body: [
-          "Irish English is rhotic (the r in \"car\" is pronounced) and has its own rhythm, influenced by the Irish language. In everyday speech you will hear \"grand\" for «bien» (\"I'm grand, thanks\"), \"the craic\" (pronounced like \"crack\") for fun or news (\"What's the craic?\" = «¿Qué hay?», \"The craic was great\" = «Lo pasamos genial»), and \"giving out\" for complaining or scolding.",
+          "Irish English is rhotic (the r in \"car\" is pronounced) and has its own rhythm, influenced by the Irish language. In everyday speech you will hear \"grand\" for «bien» (\"I'm grand, thanks\"), \"the craic\" (pronounced like \"crack\") for fun or news (\"What's the craic?\" = «¿Qué hay?», \"The craic was great\" = «La pasamos genial»), and \"giving out\" for complaining or scolding.",
           "A famous grammar feature is the \"after\" perfect: \"I'm after eating\" means \"I've just eaten\". It comes from Irish Gaelic and is a calque, just as Spanish speakers sometimes calque Spanish into English. Irish English also uses \"ye\" or \"youse\" as a plural \"you\", which is useful because standard English has no «vosotros/ustedes» form.",
           "These features are for recognition. You do not need to produce them, but you should understand them if you live, work or travel in Ireland.",
         ],
         examples: [
           { es: "How are you? I'm grand, thanks.", en: "¿Qué tal? Bien, gracias. (irlandés)" },
           { es: "What's the craic?", en: "¿Qué hay? / ¿Qué se cuenta? (irlandés)" },
-          { es: "The craic was mighty last night.", en: "Anoche lo pasamos genial. (irlandés)" },
+          { es: "The craic was mighty last night.", en: "Anoche la pasamos genial. (irlandés)" },
           { es: "I'm after eating my dinner.", en: "Acabo de cenar. (irlandés = \"I've just eaten my dinner\")" },
           { es: "My mother was giving out to me for being late.", en: "Mi madre me regañó por llegar tarde. (irlandés)" },
           { es: "Are ye coming to the pub?", en: "¿Ustedes vienen al pub? (irlandés: \"ye\" es \"you\" en plural)" },
@@ -1483,7 +1483,7 @@ export const EN_C1_U16: Lesson[] = [
           { es: "We went for a walk round the loch.", en: "Dimos un paseo alrededor del lago. (escocés)" },
           { es: "I dinnae ken.", en: "No lo sé. (escocés = \"I don't know\")" },
           { es: "I'm wanting to leave early today.", en: "Hoy quiero irme temprano. (escocés)" },
-          { es: "She's away to get the messages.", en: "Ha ido a hacer la compra. (escocés)" },
+          { es: "She's away to get the messages.", en: "Fue a hacer las compras. (escocés)" },
         ],
         checkpoint: [
           {
@@ -1556,7 +1556,7 @@ export const EN_C1_U16: Lesson[] = [
         examples: [
           { es: "We're going tramping in the mountains this weekend.", en: "Este fin de semana nos vamos de senderismo a la montaña. (neozelandés)" },
           { es: "Grab your togs and your jandals!", en: "¡Trae el traje de baño y las chanclas! (neozelandés)" },
-          { es: "Put the drinks in the chilly bin.", en: "Pon las bebidas en la nevera portátil. (neozelandés)" },
+          { es: "Put the drinks in the chilly bin.", en: "Pon las bebidas en la hielera. (neozelandés)" },
           { es: "I'll pop down to the dairy for some milk.", en: "Voy un momento a la tienda de la esquina por leche. (neozelandés)" },
           { es: "Can you pick me up at eight? Sweet as.", en: "¿Me recoges a las ocho? Claro, sin problema. (neozelandés)" },
           { es: "Kia ora, everyone.", en: "Hola a todos. (saludo maorí usado en Nueva Zelanda)" },
@@ -1701,7 +1701,7 @@ export const EN_C1_U16: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into standard English.",
-        source: "Hacía un poquito de frío, pero lo pasamos genial.",
+        source: "Hacía un poquito de frío, pero la pasamos genial.",
         answer: "It was a little bit cold, but we had a great time.",
         altAnswers: [
           "It was a bit cold, but we had a great time.",
@@ -1739,7 +1739,7 @@ export const EN_C1_U16: Lesson[] = [
         examples: [
           { es: "Nice weather today, eh?", en: "Hace buen día hoy, ¿eh? (canadiense)" },
           { es: "Excuse me, where's the washroom?", en: "Perdone, ¿dónde está el baño? (canadiense)" },
-          { es: "Put your toque on, it's freezing.", en: "Ponte el gorro, que hace un frío que pela. (canadiense)" },
+          { es: "Put your toque on, it's freezing.", en: "Ponte el gorro, que hace muchísimo frío. (canadiense)" },
           { es: "Can you lend me a toonie for the parking meter?", en: "¿Me prestas una moneda de dos dólares para el parquímetro? (canadiense)" },
           { es: "I'll have a double-double, please.", en: "Un café con doble de crema y doble de azúcar, por favor. (canadiense)" },
           { es: "Our neighbours travelled to the city centre by subway.", en: "Nuestros vecinos fueron al centro en metro. (ortografía británica, vocabulario americano: típico de Canadá)" },
@@ -2384,7 +2384,7 @@ export const EN_C1_U16: Lesson[] = [
           { es: "We were very disappointed with the result.", en: "Nos decepcionó mucho el resultado. (neutro)" },
           { es: "The presentation was excellent.", en: "La presentación fue excelente. (neutro)" },
           { es: "The ticket costs twenty dollars.", en: "La entrada cuesta veinte dólares. (neutro)" },
-          { es: "It's freezing today.", en: "Hoy hace un frío que pela. (informal, pero no vulgar)" },
+          { es: "It's freezing today.", en: "Hoy hace un frío tremendo. (informal, pero no vulgar)" },
         ],
         checkpoint: [
           {
@@ -2554,7 +2554,7 @@ export const EN_C1_U16: Lesson[] = [
       {
         heading: "Clothes and accessories: pants, vest, purse",
         body: [
-          "\"Pants\" is the classic trap. In American English, pants are «pantalones»; in British English, pants are underwear («calzoncillos, bragas»), and «pantalones» are \"trousers\". So a Spaniard in London who says \"I spilled coffee on my pants\" gets a few smiles.",
+          "\"Pants\" is the classic trap. In American English, pants are «pantalones»; in British English, pants are underwear («calzoncillos, calzones»), and «pantalones» are \"trousers\". So a Spaniard in London who says \"I spilled coffee on my pants\" gets a few smiles.",
           "Similarly, a \"vest\" is a sleeveless undershirt in Britain («camiseta interior») but a waistcoat in the US («chaleco»). A \"jumper\" is a sweater in Britain but a sleeveless dress in the US.",
           "A \"purse\" is a small wallet for coins in Britain («monedero») and a handbag in the US («bolso»). The British say \"handbag\"; Americans say \"purse\" or \"handbag\". Safe international choices: \"trousers\" or \"jeans\", \"underwear\", \"sweater\", \"handbag\", \"wallet\".",
         ],
@@ -3850,7 +3850,7 @@ export const EN_C1_U16: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into American English.",
-            source: "Se ha ido la luz. ¿Dónde está la linterna?",
+            source: "Se fue la luz. ¿Dónde está la linterna?",
             answer: "The power's out. Where's the flashlight?",
             altAnswers: [
               "The power is out. Where is the flashlight?",
@@ -3865,7 +3865,7 @@ export const EN_C1_U16: Lesson[] = [
               "The power's out. Where is the flashlight?",
               "The power is out. Where's the flashlight?",
             ],
-            explanation: "American \"flashlight\", British \"torch\". «Se ha ido la luz» is \"The power's out\" or \"The power went out\" (British also: \"There's been a power cut\").",
+            explanation: "American \"flashlight\", British \"torch\". «Se fue la luz» is \"The power's out\" or \"The power went out\" (British also: \"There's been a power cut\").",
           },
           {
             type: "fill-blank",

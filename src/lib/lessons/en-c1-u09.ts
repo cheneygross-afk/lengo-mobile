@@ -2465,7 +2465,7 @@ export const EN_C1_U09: Lesson[] = [
         body: [
           "\"Carry out\" = do or perform something planned (research, a study, an order, a threat, repairs). This is the usual translation of «realizar» and «llevar a cabo». Never use \"realize\" for that: \"realize\" means «darse cuenta». *We realized a survey is a classic false-friend error.",
           "\"Set out\" has several meanings: start a journey (\"They set out at dawn\"), start with an intention, + to infinitive (\"She set out to prove them wrong\"), and present clearly in writing (\"The report sets out the main findings\").",
-          "\"Fall through\" = fail to happen (plans, deals): \"The deal fell through at the last minute\". It's intransitive, so it has no object. \"Live up to\" = be as good as expected: \"The film didn't live up to my expectations\". It's a three-part verb and can't be separated.",
+          "\"Fall through\" = fail to happen (plans, deals): \"The deal fell through at the last minute\". It's intransitive, so it has no object. \"Live up to\" = be as good as expected: \"The movie didn't live up to my expectations\". It's a three-part verb and can't be separated.",
         ],
         examples: [
           { es: "The study was carried out by a team of experts.", en: "El estudio fue realizado por un equipo de expertos." },
@@ -2473,7 +2473,7 @@ export const EN_C1_U09: Lesson[] = [
           { es: "She set out to prove them wrong.", en: "Se propuso demostrar que estaban equivocados." },
           { es: "The report sets out the main findings.", en: "El informe expone las principales conclusiones." },
           { es: "The deal fell through at the last minute.", en: "El acuerdo se vino abajo en el último momento." },
-          { es: "The film didn't live up to my expectations.", en: "La película no estuvo a la altura de mis expectativas." },
+          { es: "The movie didn't live up to my expectations.", en: "La película no estuvo a la altura de mis expectativas." },
         ],
         checkpoint: [
           {
@@ -2778,7 +2778,7 @@ export const EN_C1_U09: Lesson[] = [
             direction: "es-en",
             prompt: "Translate into English.",
             source: "¿Hacemos una pausa de diez minutos?",
-            answer: "Shall we take a ten-minute break?",
+            answer: "Should we take a ten-minute break?",
             altAnswers: [
               "Shall we have a ten-minute break?",
               "Should we take a ten-minute break?",

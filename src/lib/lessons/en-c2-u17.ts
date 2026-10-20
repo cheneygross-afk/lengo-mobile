@@ -700,7 +700,7 @@ export const EN_C2_U17: Lesson[] = [
       {
         heading: "In-text citations: author-date and author-page",
         body: [
-          "An \"in-text citation\" points the reader to a full entry in the list at the end. It can be \"parenthetical\", with everything in brackets after the claim, or \"narrative\", with the author's name in your sentence and only the date in brackets.",
+          "An \"in-text citation\" points the reader to a full entry in the list at the end. It can be \"parenthetical\", with everything in parentheses after the claim, or \"narrative\", with the author's name in your sentence and only the date in parentheses.",
           "APA, used in psychology, education and the social sciences, is author-date with commas and \"p.\" for the page: Smith, 2019, p. 4. Harvard, common in British universities, is also author-date but has many local variants; a typical form drops the first comma: Smith 2019, p. 4. MLA, used in literature and languages, is author-page with no comma and no \"p.\": Smith 4.",
           "Chicago offers two systems: \"notes and bibliography\", with footnotes, preferred in history and the arts; and \"author-date\", close to APA. Whatever the system, consistency is non-negotiable: one style, applied identically throughout. Your department or journal decides which.",
         ],
@@ -744,9 +744,9 @@ export const EN_C2_U17: Lesson[] = [
       {
         heading: "Several authors, several works",
         body: [
-          "With two authors, APA joins the names with \"&\" inside brackets and \"and\" in your sentence. MLA and Harvard use \"and\" in both. Spanish «y» never appears in an English citation, even for Spanish authors.",
+          "With two authors, APA joins the names with \"&\" inside parentheses and \"and\" in your sentence. MLA and Harvard use \"and\" in both. Spanish «y» never appears in an English citation, even for Spanish authors.",
           "With three or more authors, APA and MLA give only the first surname followed by \"et al.\" (Latin \"and others\"). Note the punctuation: no period after \"et\", a period after \"al.\", and never *et. al.. In speech, writers often say \"Smith and colleagues\" instead.",
-          "To cite several works for one point, put them in a single bracket separated by semicolons, usually in alphabetical order in APA. Two works by the same author in the same year are distinguished with letters: 2019a, 2019b. A work with no date takes \"n.d.\".",
+          "To cite several works for one point, put them in a single set of parentheses, separated by semicolons, usually in alphabetical order in APA. Two works by the same author in the same year are distinguished with letters: 2019a, 2019b. A work with no date takes \"n.d.\".",
         ],
         examples: [
           { es: "Previous studies found no effect (Brown & Lee, 2020).", en: "Estudios anteriores no hallaron ningún efecto (Brown & Lee, 2020)." },
@@ -775,7 +775,7 @@ export const EN_C2_U17: Lesson[] = [
               "(Hall, 2017 y Moore, 2020 y Taylor, 2015)",
             ],
             correctIndex: 0,
-            explanation: "Separate works with semicolons, inside a single set of brackets, in alphabetical order by first author.",
+            explanation: "Separate works with semicolons, inside a single set of parentheses, in alphabetical order by first author.",
           },
         ],
       },
@@ -824,7 +824,7 @@ export const EN_C2_U17: Lesson[] = [
         heading: "The reference list",
         body: [
           "The list at the end has different names: \"References\" in APA and Harvard, \"Works Cited\" in MLA, \"Bibliography\" in Chicago. Strictly, a \"bibliography\" may include works you consulted but did not cite; a \"reference list\" contains only cited works. Spanish «bibliografía» often covers both.",
-          "Entries are in alphabetical order by the first author's surname, with a \"hanging indent\" («sangría francesa»): the first line flush left, the rest indented. A typical APA book entry gives surname and initials, the year in brackets, the title in italics in sentence case, and the publisher.",
+          "Entries are in alphabetical order by the first author's surname, with a \"hanging indent\" («sangría francesa»): the first line flush left, the rest indented. A typical APA book entry gives surname and initials, the year in parentheses, the title in italics in sentence case, and the publisher.",
           "Spanish names cause trouble. A Spanish author with two surnames is filed under the first one, so an English-speaking editor may need a hyphen or a note to avoid listing «García Márquez» under M. Keep accents in author names and titles in the reference list, even in an English text.",
           "Useful abbreviations: \"p.\" and \"pp.\" (pages), \"ed.\" and \"eds.\" (editor or editors), \"trans.\" (translated by), \"Vol.\" (volume), \"n.d.\" (no date), and \"DOI\" (the permanent identifier for journal articles).",
         ],
@@ -986,7 +986,7 @@ export const EN_C2_U17: Lesson[] = [
         type: "speak",
         text: "Patel and colleagues, writing in 2021, found exactly the same effect.",
         tip: "When reading a citation aloud, turn \"et al.\" into \"and colleagues\" and say the year as \"twenty twenty-one\".",
-        explanation: "Spoken academic English rarely reads brackets aloud: the citation is woven into the sentence.",
+        explanation: "Spoken academic English rarely reads parentheses aloud: the citation is woven into the sentence.",
       },
     ],
   },
@@ -1019,7 +1019,7 @@ export const EN_C2_U17: Lesson[] = [
             options: [
               "After the period: ...in 1923.³",
               "Before the period: ...in 1923³.",
-              "In brackets before the period: ...in 1923 (3).",
+              "In parentheses before the period: ...in 1923 (3).",
               "At the start of the sentence: ³In 1923...",
             ],
             correctIndex: 0,
@@ -1074,7 +1074,7 @@ export const EN_C2_U17: Lesson[] = [
         heading: "e.g., i.e., cf. and viz.",
         body: [
           "\"E.g.\" (exempli gratia) means \"for example\": what follows is one or more examples from a larger set. \"I.e.\" (id est) means \"that is\": what follows restates or specifies exactly. Spanish «p. ej.» is \"e.g.\"; «es decir» or «o sea» is \"i.e.\". Confusing them is one of the most common errors in academic English, by native and non-native writers alike.",
-          "A quick test: if you could say \"for example\", use \"e.g.\"; if you could say \"in other words\", use \"i.e.\". Don't add \"etc.\" after a list introduced by \"e.g.\": it already implies the list is incomplete. American English puts a comma after both; British English often omits it. Many style guides keep them inside brackets and use the full words in running text.",
+          "A quick test: if you could say \"for example\", use \"e.g.\"; if you could say \"in other words\", use \"i.e.\". Don't add \"etc.\" after a list introduced by \"e.g.\": it already implies the list is incomplete. American English puts a comma after both; British English often omits it. Many style guides keep them inside parentheses and use the full words in running text.",
           "\"Cf.\" (confer) means \"compare\": it sends the reader to a source that offers a contrast or a related view, not to one that simply supports the point. For plain support, write \"see\". \"Viz.\" (videlicet, read aloud as \"namely\") introduces a precise list or specification; it is formal and rare, and \"namely\" is usually better.",
         ],
         examples: [
@@ -2275,7 +2275,7 @@ export const EN_C2_U17: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Aristóteles afirma que todos los hombres desean por naturaleza saber.",
-        answer: "Aristotle claims that all men by nature desire to know.",
+        answer: "Aristotle argues that all men by nature desire to know.",
         altAnswers: [
           "Aristotle states that all men by nature desire to know.",
           "Aristotle says that all men by nature desire to know.",
@@ -2415,7 +2415,7 @@ export const EN_C2_U17: Lesson[] = [
         heading: "Abbreviations and referencing consistency",
         body: [
           "Spelling: \"et al.\" (no period after \"et\"), \"e.g.\" and \"i.e.\" (two periods each), \"cf.\" and \"ibid.\" (one). Meaning: \"e.g.\" introduces examples, \"i.e.\" a restatement; \"cf.\" means \"compare\", not \"see\"; \"ibid.\" only refers to the note immediately before.",
-          "Consistency: one style throughout. Typical lapses are switching between \"&\" and \"and\" inside brackets, giving some page numbers with \"p.\" and others without, mixing MLA-style and APA-style citations, and listing works in the references that are never cited in the text.",
+          "Consistency: one style throughout. Typical lapses are switching between \"&\" and \"and\" inside parentheses, giving some page numbers with \"p.\" and others without, mixing MLA-style and APA-style citations, and listing works in the references that are never cited in the text.",
           "Secondary citation: if you only read Smith through Jones, the citation must say \"as cited in\", and only Jones goes in the reference list.",
         ],
         examples: [
@@ -2764,7 +2764,7 @@ export const EN_C2_U17: Lesson[] = [
       {
         heading: "Recap: references and the apparatus",
         body: [
-          "APA: Smith, 2019, p. 4 (narrative: Smith (2019)). MLA: Smith 4. Harvard: typically Smith 2019, p. 4. Two authors: \"&\" in APA brackets, \"and\" elsewhere. Three or more: \"et al.\". Several works: semicolons. Secondary: \"as cited in\", and only the source you read goes in the list.",
+          "APA: Smith, 2019, p. 4 (narrative: Smith (2019)). MLA: Smith 4. Harvard: typically Smith 2019, p. 4. Two authors: \"&\" in APA parentheses, \"and\" elsewhere. Three or more: \"et al.\". Several works: semicolons. Secondary: \"as cited in\", and only the source you read goes in the list.",
           "Notes: the number goes after the punctuation in English. \"Ibid.\" = same source as the previous note; \"op. cit.\" is outdated; \"cf.\" = compare; \"passim\" = throughout; \"e.g.\" = for example; \"i.e.\" = that is; \"viz.\" = namely.",
         ],
         examples: [
@@ -3001,7 +3001,7 @@ export const EN_C2_U17: Lesson[] = [
         minWords: 80,
         maxWords: 150,
         rubric: [
-          "Uses APA citations correctly (narrative and/or parenthetical, \"&\" in brackets, \"and\" in text)",
+          "Uses APA citations correctly (narrative and/or parenthetical, \"&\" in parentheses, \"and\" in text)",
           "Uses the past simple for specific findings and the present (perfect) for the overall picture",
           "Chooses reporting verbs that show stance (\"found\", \"show\" versus \"claims\", \"asserts\")",
           "Integrates the leaflet's phrase as a partial quotation with correct punctuation",

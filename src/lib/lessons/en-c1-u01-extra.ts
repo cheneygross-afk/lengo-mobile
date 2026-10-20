@@ -64,7 +64,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
         ],
         examples: [
           { es: "Hardly had I sat down when the phone rang.", en: "Apenas me había sentado cuando sonó el teléfono." },
-          { es: "Scarcely had the film started when the power went out.", en: "Apenas había empezado la película cuando se fue la luz." },
+          { es: "Scarcely had the movie started when the power went out.", en: "Apenas había empezado la película cuando se fue la luz." },
           { es: "No sooner had he left than it started to rain.", en: "Nada más irse él, empezó a llover." },
           { es: "Not only did the price go up, but the quality also went down.", en: "No solo subió el precio, sino que además bajó la calidad." },
           { es: "Never again will I lend him money.", en: "Nunca más le volveré a prestar dinero." },
@@ -326,9 +326,9 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
           { left: "No sooner had I left...", right: "than" },
           { left: "Hardly had I left...", right: "when" },
           { left: "Not only did I leave...", right: "but also" },
-          { left: "Scarcely had I left...", right: "before" },
+          { left: "Only when I had left...", right: "did I" },
         ],
-        explanation: "Fixed partners: \"no sooner ... than\", \"hardly / scarcely ... when\" (or \"before\"), \"not only ... but (also)\".",
+        explanation: "Fixed partners: \"no sooner ... than\", \"hardly / scarcely ... when\" (or \"before\"), \"not only ... but (also)\", and \"only when ...\" + inverted main clause (\"did I...\").",
       },
       {
         type: "speak",
@@ -911,7 +911,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
         pairs: [
           { left: "Under no circumstances", right: "Bajo ninguna circunstancia" },
           { left: "At no time", right: "En ningún momento" },
-          { left: "At no time", right: "En ningún momento" },
+          { left: "On no account", right: "Bajo ningún concepto" },
           { left: "In no time", right: "En un santiamén" },
         ],
         explanation: "\"Under no circumstances\" and \"at no time\" invert because they are negative. \"In no time\" means \"very quickly\" and does not invert.",
@@ -970,7 +970,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
         examples: [
           { es: "Had I known, I would have called you.", en: "De haberlo sabido, te habría llamado." },
           { es: "Should you need anything, just let me know.", en: "Si necesitas algo, dímelo." },
-          { es: "Were she to resign, the whole team would follow her.", en: "Si ella dimitiera, todo el equipo la seguiría." },
+          { es: "Were she to resign, the whole team would follow her.", en: "Si ella renunciara, todo el equipo la seguiría." },
           { es: "Were it not for the noise, this would be the perfect apartment.", en: "Si no fuera por el ruido, este sería el departamento perfecto." },
           { es: "Had it not been for the doctor, he wouldn't have survived.", en: "De no haber sido por el médico, no habría sobrevivido." },
           { es: "Had we not stopped, we would have run out of gas.", en: "Si no hubiéramos parado, nos habríamos quedado sin gasolina." },
@@ -1490,7 +1490,7 @@ export const EN_C1_U01_EXTRA: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "\"My parents loved the film.\" \"___ my grandparents.\"",
+        question: "\"My parents loved the movie.\" \"___ my grandparents.\"",
         options: ["So did", "So were", "Neither did", "So had"],
         correctIndex: 0,
         explanation: "Positive statement in the past simple, so \"So did\" + subject (= «Y mis abuelos también»). \"Neither\" is for negative statements.",

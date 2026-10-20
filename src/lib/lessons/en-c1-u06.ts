@@ -1087,7 +1087,7 @@ export const EN_C1_U06: Lesson[] = [
           "The method is simple; however, it requires much time.",
           "The method is simple; however, it is highly time-consuming.",
         ],
-        explanation: "Two clauses joined by \"however\" need a semicolon (or a full stop) before it, not just a comma.",
+        explanation: "Two clauses joined by \"however\" need a semicolon (or a period) before it, not just a comma.",
       },
     ],
   },
@@ -1147,7 +1147,7 @@ export const EN_C1_U06: Lesson[] = [
         heading: "In light of, in view of, and the comma splice",
         body: [
           "\"In light of\" (British also \"in the light of\") and \"in view of\" («a la luz de», «en vista de», «dado») are prepositions: they take a noun phrase, not a clause. \"In light of the new evidence, the case was reopened.\" With a clause, use \"given that\" or \"since\".",
-          "\"However\" and \"therefore\" are adverbs, not conjunctions, so they cannot join two sentences with just a comma. *The data were incomplete, therefore the study was repeated is a comma splice, a typical error when Spanish writers copy «..., por lo tanto, ...». Use a full stop or a semicolon: \"The data were incomplete; therefore, the study was repeated.\" Or use a conjunction: \"..., so the study was repeated.\"",
+          "\"However\" and \"therefore\" are adverbs, not conjunctions, so they cannot join two sentences with just a comma. *The data were incomplete, therefore the study was repeated is a comma splice, a typical error when Spanish writers copy «..., por lo tanto, ...». Use a period or a semicolon: \"The data were incomplete; therefore, the study was repeated.\" Or use a conjunction: \"..., so the study was repeated.\"",
           "In the middle of a clause, \"therefore\" often needs no commas at all: \"The study was therefore repeated.\"",
         ],
         examples: [
@@ -1168,7 +1168,7 @@ export const EN_C1_U06: Lesson[] = [
               "Costs have risen sharply therefore, prices will increase.",
             ],
             correctIndex: 0,
-            explanation: "\"Therefore\" can't join two clauses with a comma (a comma splice). Use a semicolon or a full stop before it.",
+            explanation: "\"Therefore\" can't join two clauses with a comma (a comma splice). Use a semicolon or a period before it.",
           },
           {
             type: "translate",
@@ -1711,7 +1711,7 @@ export const EN_C1_U06: Lesson[] = [
         heading: "Recap: written markers",
         body: [
           "Contrast and concession: \"however\", \"nevertheless\", \"nonetheless\", \"even so\", \"that said\", \"admittedly\", \"whereas\" (two facts in one sentence), \"albeit\" (+ adjective, adverb or phrase, never a clause) and \"notwithstanding\" (+ noun). Addition: \"moreover\", \"furthermore\", \"what is more\", \"by the same token\".",
-          "Result and summary: \"consequently\", \"thus\", \"hence\" (+ noun phrase), \"thereby\" (+ -ing), \"accordingly\", \"in light of\" (+ noun), \"on balance\", \"in short\". \"However\" and \"therefore\" can't join clauses with a comma: use a semicolon or a full stop. \"Lastly\" lists; \"at last\" is «por fin». «En resumen» is \"to sum up\", never *resuming.",
+          "Result and summary: \"consequently\", \"thus\", \"hence\" (+ noun phrase), \"thereby\" (+ -ing), \"accordingly\", \"in light of\" (+ noun), \"on balance\", \"in short\". \"However\" and \"therefore\" can't join clauses with a comma: use a semicolon or a period. \"Lastly\" lists; \"at last\" is «por fin». «En resumen» is \"to sum up\", never *resuming.",
         ],
         examples: [
           { es: "The rise was small, albeit significant.", en: "El aumento fue pequeño, si bien significativo." },
@@ -1863,7 +1863,7 @@ export const EN_C1_U06: Lesson[] = [
           "Prices rose, and as a result demand fell.",
           "Prices rose, so demand fell.",
         ],
-        explanation: "A result marker between two clauses needs a semicolon or a full stop before it. Revisit Written Discourse Markers, Part 2.",
+        explanation: "A result marker between two clauses needs a semicolon or a period before it. Revisit Written Discourse Markers, Part 2.",
       },
       {
         type: "multiple-choice",
@@ -2619,7 +2619,7 @@ export const EN_C1_U06: Lesson[] = [
         heading: "Double connectors and comma splices",
         body: [
           "*Although it was expensive, but we bought it uses two connectors for one contrast. English allows only one: \"Although it was expensive, we bought it\" or \"It was expensive, but we bought it.\" The same goes for *Because..., so...: choose one.",
-          "*The plan was good, however it failed is a comma splice: \"however\" is an adverb and cannot join two clauses with a comma. Fix it with a semicolon (\"The plan was good; however, it failed.\"), a full stop, or a real conjunction (\"The plan was good, but it failed.\"). The same applies to \"therefore\", \"moreover\" and \"nevertheless\".",
+          "*The plan was good, however it failed is a comma splice: \"however\" is an adverb and cannot join two clauses with a comma. Fix it with a semicolon (\"The plan was good; however, it failed.\"), a period, or a real conjunction (\"The plan was good, but it failed.\"). The same applies to \"therefore\", \"moreover\" and \"nevertheless\".",
         ],
         examples: [
           { es: "Although it was expensive, we bought it.", en: "Aunque era caro, lo compramos. (incorrecto: *although... but)" },
@@ -2789,7 +2789,7 @@ export const EN_C1_U06: Lesson[] = [
           "The product is reliable; however, it is too expensive for most consumers.",
           "The product is reliable; however, it's too expensive for most customers.",
         ],
-        explanation: "\"However\" between two clauses needs a semicolon or a full stop before it. A comma alone is a comma splice.",
+        explanation: "\"However\" between two clauses needs a semicolon or a period before it. A comma alone is a comma splice.",
       },
       {
         type: "fill-blank",
@@ -2886,7 +2886,7 @@ export const EN_C1_U06: Lesson[] = [
         rubric: [
           "\"On the other hand\" instead of the wrong preposition",
           "\"Despite this\" without \"of\"",
-          "No comma splice with \"however\" (semicolon, full stop or \"but\")",
+          "No comma splice with \"however\" (semicolon, period or \"but\")",
           "\"Finally\" or \"lastly\" instead of \"at last\"",
         ],
         modelAnswer: "On the other hand, social media connects people. Despite this, it can be addictive; however, many users ignore the risks. Finally, it spreads misinformation.",
@@ -3626,7 +3626,7 @@ export const EN_C1_U06: Lesson[] = [
         ],
         examples: [
           { es: "The Guardian was the first to break the story.", en: "The Guardian fue el primero en dar la exclusiva." },
-          { es: "Breaking news: the minister has resigned.", en: "Última hora: el ministro ha dimitido." },
+          { es: "Breaking news: the minister has resigned.", en: "Última hora: el ministro renunció." },
           { es: "Someone leaked the documents to the press.", en: "Alguien filtró los documentos a la prensa." },
           { es: "A leaked memo revealed the plan.", en: "Un memorándum filtrado reveló el plan." },
           { es: "The paper ran the story on its front page.", en: "El periódico publicó la noticia en portada." },
@@ -3665,7 +3665,7 @@ export const EN_C1_U06: Lesson[] = [
           "Headlines also love short, dramatic words: \"bid\" (attempt), \"row\" (argument, British), \"slam\" (criticize strongly), \"vow\" (promise), \"axe\" (cut or cancel), \"probe\" (investigation).",
         ],
         examples: [
-          { es: "PM Resigns After Election Defeat", en: "El primer ministro dimite tras la derrota electoral." },
+          { es: "PM Resigns After Election Defeat", en: "El primer ministro renuncia tras la derrota electoral." },
           { es: "President to Visit Mexico Next Month", en: "El presidente visitará México el mes que viene." },
           { es: "Three Arrested After Protest", en: "Tres detenidos tras la protesta." },
           { es: "Union Slams Pay Offer", en: "El sindicato critica duramente la oferta salarial." },

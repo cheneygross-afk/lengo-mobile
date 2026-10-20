@@ -1114,7 +1114,7 @@ export const EN_C2_U11: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Write a short paragraph about a controversial decision taken by your city, school or company. Link your ideas mostly without connectors, and use at least one summarizing noun (\"this decision\", \"such a move\"), \"the former\" or \"the latter\", and one substitute (\"do so\", \"did\", \"so\", \"not\").",
+        prompt: "Write a short paragraph about a controversial decision made by your city, school or company. Link your ideas mostly without connectors, and use at least one summarizing noun (\"this decision\", \"such a move\"), \"the former\" or \"the latter\", and one substitute (\"do so\", \"did\", \"so\", \"not\").",
         minWords: 80,
         maxWords: 120,
         rubric: [
@@ -1472,7 +1472,7 @@ export const EN_C2_U11: Lesson[] = [
           { es: "We live in a flat on the second floor. The lift is broken. (UK)", en: "Vivimos en un departamento en el segundo piso. El elevador no funciona." },
           { es: "Take out the trash and grab some cookies on the way back. (US)", en: "Saca la basura y trae unas galletas a la vuelta." },
           { es: "See you this arvo at the servo. (Australia)", en: "Nos vemos esta tarde en la gasolinera." },
-          { es: "Put on your toque, it's freezing outside. (Canada)", en: "Ponte el gorro, que hace un frío que pela." },
+          { es: "Put on your toque, it's freezing outside. (Canada)", en: "Ponte el gorro, que hace muchísimo frío." },
           { es: "How are you? I'm grand, thanks. (Ireland)", en: "¿Qué tal? Bien, gracias." },
         ],
         checkpoint: [
@@ -2257,7 +2257,7 @@ export const EN_C2_U11: Lesson[] = [
         ],
         examples: [
           { es: "She gave him a malevolent smile.", en: "Le dedicó una sonrisa malévola." },
-          { es: "A wristwatch in a film about ancient Rome is a glaring anachronism.", en: "Un reloj de pulsera en una película sobre la antigua Roma es un anacronismo flagrante." },
+          { es: "A wristwatch in a movie about ancient Rome is a glaring anachronism.", en: "Un reloj de pulsera en una película sobre la antigua Roma es un anacronismo flagrante." },
           { es: "After much circumlocution, he finally admitted his mistake.", en: "Tras muchos circunloquios, por fin admitió su error." },
           { es: "Smartphones have become omnipresent.", en: "Los teléfonos inteligentes se han vuelto omnipresentes." },
           { es: "The disease is chronic but manageable.", en: "La enfermedad es crónica pero controlable." },
@@ -2265,7 +2265,7 @@ export const EN_C2_U11: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "Read: \"A wristwatch in a film about ancient Rome is a glaring anachronism.\" What is an \"anachronism\"?",
+            question: "Read: \"A wristwatch in a movie about ancient Rome is a glaring anachronism.\" What is an \"anachronism\"?",
             options: [
               "something placed in the wrong historical period",
               "an expensive prop",

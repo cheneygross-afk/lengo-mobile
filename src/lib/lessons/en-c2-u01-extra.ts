@@ -669,7 +669,7 @@ export const EN_C2_U01_EXTRA: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Rewrite this informal notice as a formal notice of the kind a council or landlord would send. Use at least three passive or impersonal forms from this lesson (for example \"shall be deemed\", \"is hereby\", \"is presumed\"). Informal version: \"We're cancelling your parking permit right now because you didn't pay. If you don't reply in 14 days, we'll take it that you agree. You can't use the space from Monday.\"",
+        prompt: "Rewrite this informal notice as a formal notice of the kind a council or landlord would send. Use at least three passive or impersonal forms from this lesson (for example \"shall be deemed\", \"is hereby\", \"is presumed\"). Informal version: \"We're canceling your parking permit right now because you didn't pay. If you don't reply in 14 days, we'll take it that you agree. You can't use the space from Monday.\"",
         minWords: 40,
         maxWords: 90,
         rubric: [
@@ -799,9 +799,9 @@ export const EN_C2_U01_EXTRA: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "Por la presente autorizo a mi hermana a recoger el paquete en mi nombre.",
-        answer: "I hereby authorize my sister to collect the parcel on my behalf.",
+        answer: "I hereby authorize my sister to collect the package on my behalf.",
         altAnswers: [
-          "I hereby authorize my sister to collect the package on my behalf.",
+          "I hereby authorize my sister to collect the parcel on my behalf.",
           "I hereby authorize my sister to pick up the parcel on my behalf.",
           "I hereby authorize my sister to pick up the package on my behalf.",
           "I hereby authorize my sister to pick the parcel up on my behalf.",

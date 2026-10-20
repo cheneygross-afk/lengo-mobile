@@ -15,7 +15,7 @@ export const EN_C2_U25: Lesson[] = [
       {
         heading: "Beyond \"then\" and \"after that\"",
         body: [
-          "Spanish learners often chain events with «luego», «después» and «entonces», and carry the habit into English: \"then... then... after that...\". In historical prose this sounds like a child retelling a film. English has a set of connectors that say exactly how two events are linked in time.",
+          "Spanish learners often chain events with «luego», «después» and «entonces», and carry the habit into English: \"then... then... after that...\". In historical prose this sounds like a child retelling a movie. English has a set of connectors that say exactly how two events are linked in time.",
           "\"Thereafter\" (formal, «a partir de entonces / desde entonces») marks what happened from that point on: \"The king fell ill in 1610; thereafter, real power lay with his ministers.\" \"Shortly thereafter\" means «poco después». \"Whereupon\" (formal, «tras lo cual») links an action to an immediate reaction, usually after a comma: \"The envoy insulted the sultan, whereupon he was expelled from the court.\"",
           "\"By then\" and \"by that time\" look back from a past moment and normally take the past perfect: \"By then, the rebels had taken the capital.\" \"In due course\" («a su debido tiempo, con el tiempo») presents a later outcome as the natural result of a process: \"The reforms were, in due course, extended to the colonies.\"",
         ],
@@ -59,7 +59,7 @@ export const EN_C2_U25: Lesson[] = [
           "\"As a consequence of\" and \"as a result of\" state cause directly: \"As a consequence of the drought, grain prices tripled.\" \"Consequently\" and \"as a consequence\" (without \"of\") are sentence connectors: \"The harvest failed. Consequently, grain prices tripled.\" «En consecuencia» at the start of a sentence is simply \"Consequently,\".",
         ],
         examples: [
-          { es: "In the wake of the scandal, the minister resigned.", en: "A raíz del escándalo, el ministro dimitió." },
+          { es: "In the wake of the scandal, the minister resigned.", en: "A raíz del escándalo, el ministro renunció." },
           { es: "In the aftermath of the earthquake, disease spread rapidly.", en: "Tras el terremoto, las enfermedades se propagaron con rapidez." },
           { es: "As a consequence of the drought, grain prices tripled.", en: "Como consecuencia de la sequía, el precio del grano se triplicó." },
           { es: "The harvest failed. Consequently, thousands emigrated.", en: "La cosecha fracasó. En consecuencia, miles de personas emigraron." },
@@ -684,11 +684,11 @@ export const EN_C2_U25: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English.",
         source: "La expansión del ferrocarril transformó la economía del país.",
-        answer: "The expansion of the railways transformed the country's economy.",
+        answer: "The expansion of the railroads transformed the country's economy.",
         altAnswers: [
           "The expansion of the railway transformed the country's economy.",
           "The expansion of the railroad transformed the country's economy.",
-          "The expansion of the railroads transformed the country's economy.",
+          "The expansion of the railways transformed the country's economy.",
           "The expansion of the railways transformed the economy of the country.",
           "The expansion of the railway transformed the economy of the country.",
           "The expansion of the railroad transformed the economy of the country.",
@@ -1571,7 +1571,7 @@ export const EN_C2_U25: Lesson[] = [
         body: [
           "Spanish has one adjective where English has two. «Histórico» is \"historic\" when it means important, likely to be remembered (\"a historic victory\", \"a historic agreement\"), and \"historical\" when it simply means related to the past or to history as a subject (\"historical documents\", \"a historical novel\"). A historic building is one that matters; a historical building is merely an old one, and this second use is rare.",
           "«Económico» splits the same way. \"Economic\" refers to the economy (\"economic policy\", \"economic growth\", \"the economic crisis\"). \"Economical\" means cheap to run, not wasteful (\"an economical car\", \"economical with the truth\"). A Spanish speaker writing *economical policy or *the economical crisis has fallen into a cognate trap that native readers notice at once. For «barato» in shops, say \"cheap\" or \"inexpensive\", not \"economic\".",
-          "\"Classic\" means typical or of lasting excellence (\"a classic mistake\", \"a classic film\"); \"classical\" refers to ancient Greece and Rome or to serious music (\"classical architecture\", \"classical music\"). «Música clásica» is always \"classical music\".",
+          "\"Classic\" means typical or of lasting excellence (\"a classic mistake\", \"a classic movie\"); \"classical\" refers to ancient Greece and Rome or to serious music (\"classical architecture\", \"classical music\"). «Música clásica» is always \"classical music\".",
         ],
         examples: [
           { es: "The treaty was a historic achievement.", en: "El tratado fue un logro histórico." },
@@ -1890,7 +1890,7 @@ export const EN_C2_U25: Lesson[] = [
           { es: "1492: Columbus reaches the Caribbean.", en: "1492: Colón llega al Caribe." },
           { es: "1588: Spanish Armada defeated off the English coast.", en: "1588: la Armada española es derrotada frente a la costa inglesa." },
           { es: "1713: Treaty of Utrecht signed; Spain loses Gibraltar.", en: "1713: se firma el Tratado de Utrecht; España pierde Gibraltar." },
-          { es: "1808: French troops occupy Madrid; popular uprising on 2 May.", en: "1808: las tropas francesas ocupan Madrid; levantamiento popular el 2 de mayo." },
+          { es: "1808: French troops occupy Madrid; popular uprising on May 2.", en: "1808: las tropas francesas ocupan Madrid; levantamiento popular el 2 de mayo." },
           { es: "1931: King goes into exile; Second Republic proclaimed.", en: "1931: el rey se exilia; se proclama la Segunda República." },
         ],
         checkpoint: [
@@ -2097,7 +2097,7 @@ export const EN_C2_U25: Lesson[] = [
           "Includes one hedged or evaluative statement (arguably, it is widely held that).",
           "Uses correct period and date expressions.",
         ],
-        modelAnswer: "1807: French troops enter Spain. 1808: Charles IV abdicates; uprising in Madrid on 2 May. 1812: Cortes of Cadiz approve a constitution. 1814: Ferdinand VII returns and abolishes it. French troops had entered Spain in 1807, ostensibly on their way to Portugal. In 1808 Charles IV was forced to abdicate, whereupon Madrid rose against the occupiers. By 1812 the French controlled most of the country, yet the Cortes of Cadiz approved a liberal constitution. It was arguably the most advanced of its time. In the wake of the French defeat, however, Ferdinand VII returned and abolished it.",
+        modelAnswer: "1807: French troops enter Spain. 1808: Charles IV abdicates; uprising in Madrid on May 2. 1812: Cortes of Cadiz approve a constitution. 1814: Ferdinand VII returns and abolishes it. French troops had entered Spain in 1807, ostensibly on their way to Portugal. In 1808 Charles IV was forced to abdicate, whereupon Madrid rose against the occupiers. By 1812 the French controlled most of the country, yet the Cortes of Cadiz approved a liberal constitution. It was arguably the most advanced of its time. In the wake of the French defeat, however, Ferdinand VII returned and abolished it.",
         explanation: "The switch from present (timeline) to past (narrative) and the use of connectors and evaluation are what make this a historian's summary rather than a list.",
       },
       {

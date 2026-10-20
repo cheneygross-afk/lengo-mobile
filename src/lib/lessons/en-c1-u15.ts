@@ -17,7 +17,7 @@ export const EN_C1_U15: Lesson[] = [
         body: [
           "The person who runs a meeting is the chair (\"to chair a meeting\"). In English-speaking workplaces the chair usually opens with a short, informal signal rather than a formal speech: \"Right, shall we get started?\" or \"OK, let's make a start\".",
           "Then the chair states the purpose and the time limit: \"The purpose of today's meeting is to...\", \"We've got a lot to get through, so let's try to keep it to 45 minutes\". The list of topics is the \"agenda\", and each topic is an \"item\" on the agenda.",
-          "Watch the vocabulary: «el acta» is \"the minutes\" (always plural), and «levantar acta» is \"to take the minutes\". «El orden del día» is simply \"the agenda\". «Convocar una reunión» is \"to call a meeting\", and «aplazar» is \"to postpone\" or \"to put back\".",
+          "Watch the vocabulary: «el acta» is \"the minutes\" (always plural), and «levantar acta» is \"to take the minutes\". «El orden del día» is simply \"the agenda\". «Convocar una reunión» is \"to call a meeting\", and «aplazar» is \"to postpone\" or \"to push back\" (British: \"put back\").",
         ],
         examples: [
           { es: "Right, shall we get started?", en: "Bueno, ¿empezamos?" },
@@ -119,7 +119,7 @@ export const EN_C1_U15: Lesson[] = [
           { es: "Getting back to the agenda, we still need to discuss hiring.", en: "Volviendo al orden del día, todavía tenemos que hablar de las contrataciones." },
           { es: "Let's not get sidetracked.", en: "No nos vayamos por las ramas." },
           { es: "I think we've covered that, so let's move on to the next item.", en: "Creo que eso ya lo hemos tratado, así que pasemos al siguiente punto." },
-          { es: "We're running short of time, so let's circle back to that at the end.", en: "Vamos cortos de tiempo, así que volvamos a eso al final." },
+          { es: "We're running short of time, so let's circle back to that at the end.", en: "Estamos cortos de tiempo, así que volvamos a eso al final." },
         ],
         checkpoint: [
           {
@@ -239,7 +239,7 @@ export const EN_C1_U15: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Vamos cortos de tiempo, así que pasemos al siguiente punto.",
+        source: "Estamos cortos de tiempo, así que pasemos al siguiente punto.",
         answer: "We're running short of time, so let's move on to the next item.",
         altAnswers: [
           "We're running out of time, so let's move on to the next item.",
@@ -257,7 +257,7 @@ export const EN_C1_U15: Lesson[] = [
           "We're running out of time, so let's move on.",
           "We're short on time, so let's move on.",
         ],
-        explanation: "«Ir cortos de tiempo» is \"be running short of / on time\" (\"short on\" is more American). «Punto» on an agenda is an \"item\" or a \"point\".",
+        explanation: "«Estar cortos de tiempo» is \"be running short of / on time\" (\"short on\" is more American). «Punto» on an agenda is an \"item\" or a \"point\".",
       },
       {
         type: "word-order",
@@ -440,7 +440,7 @@ export const EN_C1_U15: Lesson[] = [
               "To recap, we've agreed to postpone the launch.",
               "To sum up, we've agreed to postpone the launch.",
             ],
-            explanation: "\"To recap\" and \"to sum up\" introduce the summary. «Aplazar» is \"postpone\", \"delay\" or \"put back\".",
+            explanation: "\"To recap\" and \"to sum up\" introduce the summary. «Aplazar» is \"postpone\", \"delay\" or \"push back\" (British: \"put back\").",
           },
         ],
       },
@@ -623,7 +623,7 @@ export const EN_C1_U15: Lesson[] = [
               "Let's not get sidetracked.",
             ],
             correctIndex: 0,
-            explanation: "Parking phrases are for side issues. News that affects the whole business needs immediate attention, so the chair reorganises the agenda instead of postponing it.",
+            explanation: "Parking phrases are for side issues. News that affects the whole business needs immediate attention, so the chair reorganizes the agenda instead of postponing it.",
           },
         ],
       },
@@ -923,13 +923,13 @@ export const EN_C1_U15: Lesson[] = [
           "Avoid *Now I am going to pass to the second point (from «pasar a»). In English you \"move on to\" or \"turn to\" a point.",
         ],
         examples: [
-          { es: "I'll be looking at three areas: costs, staffing and timing.", en: "Voy a tratar tres aspectos: los costos, la plantilla y los plazos." },
+          { es: "I'll be looking at three areas: costs, staffing and timing.", en: "Voy a tratar tres aspectos: los costos, el personal y los plazos." },
           { es: "I've divided my talk into three parts.", en: "He dividido mi charla en tres partes." },
           { es: "First, I'll look at the problem, then I'll move on to possible solutions.", en: "Primero analizaré el problema y luego pasaré a las posibles soluciones." },
           { es: "Moving on to costs...", en: "Pasando a los costos..." },
           { es: "That brings me to my next point.", en: "Esto me lleva a mi siguiente punto." },
           { es: "As I mentioned earlier, the market is changing fast.", en: "Como he mencionado antes, el mercado está cambiando rápidamente." },
-          { es: "Let me turn to the question of staffing.", en: "Paso ahora a la cuestión de la plantilla." },
+          { es: "Let me turn to the question of staffing.", en: "Paso ahora a la cuestión del personal." },
         ],
         checkpoint: [
           {
@@ -2297,7 +2297,7 @@ export const EN_C1_U15: Lesson[] = [
         examples: [
           { es: "Sorry, you're on mute.", en: "Perdona, tienes el micro silenciado." },
           { es: "You're breaking up. Could you say that again?", en: "Se te corta. ¿Puedes repetirlo?" },
-          { es: "You broke up there for a second.", en: "Se te ha cortado un momento." },
+          { es: "You broke up there for a second.", en: "Se te cortó un momento." },
           { es: "I think we've lost Carlos.", en: "Creo que se nos ha caído Carlos." },
           { es: "Can everyone see my screen?", en: "¿Ven todos mi pantalla?" },
           { es: "Let me drop the link in the chat.", en: "Dejo el enlace en el chat." },
@@ -2349,7 +2349,7 @@ export const EN_C1_U15: Lesson[] = [
           { es: "Sorry, I didn't catch that.", en: "Perdona, no te entendí." },
           { es: "Sorry, could you say that again?", en: "Perdona, ¿puedes repetirlo?" },
           { es: "Would you mind speaking a bit more slowly?", en: "¿Le importaría hablar un poco más despacio?" },
-          { es: "Was that fifteen or fifty?", en: "¿Ha dicho quince o cincuenta?" },
+          { es: "Was that fifteen or fifty?", en: "¿Dijo quince o cincuenta?" },
           { es: "Could you hold on a moment? I'll put you through.", en: "¿Puede esperar un momento? Le paso." },
           { es: "She's in a meeting. Can I take a message?", en: "Está en una reunión. ¿Quiere dejarle un mensaje?" },
         ],
@@ -2397,7 +2397,7 @@ export const EN_C1_U15: Lesson[] = [
           { es: "Anyway, I'll let you go. Thanks for your time.", en: "Bueno, te dejo. Gracias por tu tiempo." },
           { es: "I'd better let you get on.", en: "Te dejo, que tendrás cosas que hacer." },
           { es: "Sorry, I'm going to have to drop off for another call.", en: "Perdonen, tengo que salirme porque tengo otra llamada." },
-          { es: "Great talking to you. Speak soon!", en: "Me ha encantado hablar contigo. ¡Hablamos pronto!" },
+          { es: "Great talking to you. Speak soon!", en: "Me encantó hablar contigo. ¡Hablamos pronto!" },
         ],
         checkpoint: [
           {
@@ -2515,7 +2515,7 @@ export const EN_C1_U15: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "Bueno, te dejo. Me ha encantado hablar contigo.",
+        source: "Bueno, te dejo. Me encantó hablar contigo.",
         answer: "Anyway, I'll let you go. It was great talking to you.",
         altAnswers: [
           "Anyway, I'll let you go. It's been great talking to you.",
@@ -2546,7 +2546,7 @@ export const EN_C1_U15: Lesson[] = [
         type: "word-order",
         prompt: "Put the words in order.",
         words: ["You", "broke", "up", "there", "for", "a", "second"],
-        translation: "Se te ha cortado un momento",
+        translation: "Se te cortó un momento",
         explanation: "\"Break up\" is used for a voice or signal that cuts in and out. It also means to end a relationship, but context makes it clear.",
       },
       {
@@ -3506,7 +3506,7 @@ export const EN_C1_U15: Lesson[] = [
         body: [
           "\"Revenue\" is all the money a company receives from sales («ingresos», «facturación»). \"Profit\" is what is left after costs («beneficio»). The \"profit margin\" is profit as a percentage of revenue: \"Our profit margin fell to 8%\". «Beneficio» is not \"benefit\": a benefit is an advantage, or a payment like unemployment benefit.",
           "\"Turnover\" is a trap. In British English, a company's turnover is its total sales («volumen de negocio»). In both British and American English, \"staff turnover\" (or \"employee turnover\") means the rate at which people leave and are replaced («rotación de personal»). Americans usually say \"revenue\" or \"sales\" for the first meaning.",
-          "Collocations: revenue \"rises\", \"falls\" or is \"generated\"; you \"make\" or \"turn\" a profit, or \"make a loss\" («tener pérdidas»); a company \"breaks even\" when revenue equals costs.",
+          "Collocations: revenue \"rises\", \"falls\" or is \"generated\"; you \"make\" or \"turn\" a profit, or \"lose money\" / \"post a loss\" («tener pérdidas»; British also \"make a loss\"); a company \"breaks even\" when revenue equals costs.",
         ],
         examples: [
           { es: "The company generated record revenue last year.", en: "La empresa generó unos ingresos récord el año pasado." },
@@ -3634,7 +3634,7 @@ export const EN_C1_U15: Lesson[] = [
               "The central bank put interest rates up to fight inflation.",
               "The central bank raised rates to fight inflation.",
             ],
-            explanation: "«Tipos de interés» is \"interest rates\" (never *interest types). \"Raise\" takes an object (the bank raises rates); \"rise\" does not (rates rise).",
+            explanation: "«Tasas de interés» is \"interest rates\" (never *interest taxes). \"Raise\" takes an object (the bank raises rates); \"rise\" does not (rates rise).",
           },
           {
             type: "multiple-choice",

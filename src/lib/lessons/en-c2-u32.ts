@@ -946,7 +946,7 @@ export const EN_C2_U32: Lesson[] = [
           { es: "Carlos shrugged.", en: "Carlos se encogió de hombros. (mejor que \"Carlos shrugged his shoulders.\")" },
           { es: "She nodded.", en: "Ella asintió. (mejor que \"She nodded her head.\")" },
           { es: "The water was freezing.", en: "El agua estaba helada. (mejor que \"The water was very, very cold.\")" },
-          { es: "The house smelled of damp and stale tobacco.", en: "La casa olía a humedad y a tabaco rancio." },
+          { es: "The house smelled of mildew and stale tobacco.", en: "La casa olía a humedad y a tabaco rancio." },
           { es: "The moon hung over the harbor.", en: "La luna colgaba sobre el puerto." },
         ],
         checkpoint: [

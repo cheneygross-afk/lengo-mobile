@@ -160,7 +160,7 @@ export const EN_C1_U15_EXTRA: Lesson[] = [
           "That's true, I hadn't thought about it.",
           "That's true, I hadn't considered that.",
         ],
-        explanation: "«Tener razón» is \"be right\". *You have reason is one of the most recognisable Spanish-speaker errors.",
+        explanation: "«Tener razón» is \"be right\". *You have reason is one of the most recognizable Spanish-speaker errors.",
       },
       {
         type: "multiple-choice",

@@ -49,9 +49,9 @@ Ana`,
 
 Re: Penalty Charge Notice HX40721, issued on 12 March
 
-I am writing to appeal formally against the above notice, which was issued for allegedly parking in a residents' bay on Linden Road without a valid permit. I submit this appeal within the period of 28 days stated on the notice, and I respectfully request that the charge be cancelled.
+I am writing to appeal formally against the above notice, which was issued for allegedly parking in a residents' bay on Linden Road without a valid permit. I submit this appeal within the period of 28 days stated on the notice, and I respectfully request that the charge be canceled.
 
-My grounds are as follows. First, I hold a valid residents' permit, number 55218, which was renewed on 1 March and remains in force until 28 February next year. A copy of the permit and of the council's confirmation email is enclosed. Second, the permit was clearly displayed on the dashboard at the time: the photograph attached to the notice itself shows its edge in the lower corner of the windscreen. I therefore do not accept that I am liable for the charge.
+My grounds are as follows. First, I hold a valid residents' permit, number 55218, which was renewed on 1 March and remains in force until 28 February next year. A copy of the permit and of the council's confirmation email is enclosed. Second, the permit was clearly displayed on the dashboard at the time: the photograph attached to the notice itself shows its edge in the lower corner of the windshield. I therefore do not accept that I am liable for the charge.
 
 I would also draw your attention to section 4.2 of the council's own parking conditions, which states that a permit holder shall not be penalized where a permit is displayed but partially obscured, provided that it can still be identified. Notwithstanding any doubt about its visibility, the permit was valid and identifiable.
 
@@ -89,7 +89,7 @@ Do not hesitate to call if you have any questions.
 Yours sincerely,
 
 Dr. Emma Clarke`,
-    `Dosage instructions must leave no room for doubt: dose, frequency, timing and duration ("one capsule once a day, before breakfast, for eight weeks"). Watch the medical false friends: «estar constipado» is "have a cold" (being "constipated" is a digestive problem), a patient "takes" tablets rather than *drinks pills, and «receta» here is a "prescription", not a recipe.`
+    `Dosage instructions must leave no room for doubt: dose, frequency, timing and duration ("one capsule once a day, before breakfast, for eight weeks"). Watch the medical false friends: «estar resfriado» (in Spain, «estar constipado») is "have a cold" (being "constipated" is a digestive problem), a patient "takes" tablets rather than *drinks pills, and «receta» here is a "prescription", not a recipe.`
   ),
   u04: t(
     `Tell the story of a time when a plan at work or at school went badly wrong and was rescued at the last minute. Use at least six English idioms naturally, keeping their fixed form, and avoid translating Spanish idioms word for word.`,
@@ -231,7 +231,7 @@ I want to touch base about the Atlas launch because, as most of you already know
 
 Let me be clear: this is a setback, not a disaster. The provider's engineers are working on a patch, and we expect it to be in place by the end of next week. In the meantime, I'd like us to use the time well rather than sit on our hands.
 
-Here is the plan going forward. Mark's team will run a full round of testing as soon as the patch lands, so that we are not back to square one if anything else crops up. Sofia will keep our key accounts in the loop; our three biggest clients have already been told, and so far they have been very understanding. Marketing will push the campaign back two weeks, which, to be honest, gives them some welcome breathing space.
+Here is the plan. Mark's team will run a full round of testing as soon as the patch lands, so that we are not back to square one if anything else crops up. Sofia will keep our key accounts in the loop; our three biggest clients have already been told, and so far they have been very understanding. Marketing will push the campaign back two weeks, which, to be honest, gives them some welcome breathing space.
 
 I know many of you have gone the extra mile over the last few months, and it is frustrating to stumble at the final hurdle. But I would rather launch late than launch with a flaw that damages our clients' trust. On that point I am not prepared to compromise.
 
@@ -273,7 +273,7 @@ Finally, I accept that I won't understand everything. Even native speakers miss 
 
 Yesterday's interview focused on the six-month trial in which Northbridge City Council's employees worked a four-day week. Dr. Ward, who advised the council during the trial, presented its main findings and offered her own interpretation of them.
 
-The facts first. According to the council's data, rush-hour traffic in the city center fell by 18 percent on Fridays during the trial, and staff sickness absence fell by 12 percent compared with the same period last year. The effect on small businesses was uneven: cafes near office districts reported lower Friday takings, while shops in residential areas reported a modest increase.
+The facts first. According to the council's data, rush-hour traffic in the city center fell by 18 percent on Fridays during the trial, and staff sickness absence fell by 12 percent compared with the same period last year. The effect on small businesses was uneven: cafes near office districts reported lower Friday sales, while shops in residential areas reported a modest increase.
 
 Dr. Ward's own view is clearly positive. She described the traffic figures as remarkable and argued that a shorter week could do more for congestion than any new road. She was careful, however, to hedge her claims. She repeatedly said that it was early days and admitted that a single trial in one city could not show whether the results would hold elsewhere.
 
@@ -432,7 +432,7 @@ So, is it worth it? Absolutely. Just don't do it to be useful. Do it to be a beg
     ],
     `Good evening, neighbors. Last week, in the local paper, the council asked a question: who really needs a garden when people need somewhere to park? It was meant as a rhetorical question. Tonight I'd like to answer it.
 
-Who needs a garden? The eighty families on Mill Street who have no outdoor space at all. The children at the primary school on Park Lane, whose playground is smaller than this hall. The pensioners who told us at last month's meeting that, some weeks, the only conversation they have is with the bus driver. That's who.
+Who needs a garden? The eighty families on Mill Street who have no outdoor space at all. The children at the elementary school on Park Lane, whose playground is smaller than this hall. The retirees who told us at last month's meeting that, some weeks, the only conversation they have is with the bus driver. That's who.
 
 Now, I may be wrong, but I don't remember anyone in this neighborhood ever asking for a sixth parking lot. We already have five within ten minutes' walk, and the council's own survey says that three of them are never more than half full. Hardly a parking crisis, is it?
 

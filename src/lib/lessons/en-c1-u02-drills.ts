@@ -160,7 +160,7 @@ export const EN_C1_U02_DRILLS: Lesson[] = [
       tr("No fui yo quien rompió la taza.", "It wasn't {me|I} {who|that} broke the {mug|cup}.",
         "Negative cleft to correct a wrong idea. \"It wasn't me\" is normal in everyday English; \"It wasn't I\" is very formal.", "Translate into English using an it-cleft."),
       sp("It was Tomas who called, not his brother.", "The focus of an it-cleft gets the strongest stress, because it is the new or corrected information.",
-        "Stress \"Tomás\" and \"brother\"; say \"it was\" and \"who called\" lightly."),
+        "Stress \"Tomas\" and \"brother\"; say \"it was\" and \"who called\" lightly."),
       lc("It wasn't until midnight that the party started.", [
         "La fiesta empezó a medianoche, más tarde de lo esperado.",
         "La fiesta no empezó a medianoche.",

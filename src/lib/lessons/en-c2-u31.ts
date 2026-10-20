@@ -201,7 +201,6 @@ export const EN_C2_U31: Lesson[] = [
         altAnswers: [
           "Cheap credit fueled a property bubble.",
           "Cheap credit fuelled a housing bubble.",
-          "Cheap credit fueled a housing bubble.",
           "Cheap credit fuelled a real estate bubble.",
           "Cheap credit fueled a real estate bubble.",
           "Cheap credit fed a property bubble.",
@@ -434,7 +433,7 @@ export const EN_C2_U31: Lesson[] = [
           { es: "We lost money in our first two years.", en: "Tuvimos pérdidas en nuestros dos primeros años." },
           { es: "Supermarkets operate on wafer-thin margins.", en: "Los supermercados trabajan con márgenes muy estrechos." },
           { es: "Rising energy costs have squeezed our margins.", en: "El encarecimiento de la energía ha reducido nuestros márgenes." },
-          { es: "Overheads account for almost 30% of our costs.", en: "Los gastos generales suponen casi el 30 % de nuestros costos." },
+          { es: "Overhead accounts for almost 30% of our costs.", en: "Los gastos generales suponen casi el 30 % de nuestros costos." },
           { es: "The startup expects to break even next year.", en: "La empresa emergente espera alcanzar el punto de equilibrio el año que viene." },
           { es: "The job comes with generous benefits, including health insurance.", en: "El puesto incluye buenas prestaciones, entre ellas un seguro médico." },
         ],
@@ -1381,7 +1380,7 @@ export const EN_C2_U31: Lesson[] = [
       {
         type: "speak",
         text: "Revenue came in at four point two billion dollars, up three percent from last year.",
-        tip: "Say the currency word last: \"four point two billion DOLLARS\". Stress \"per-CENT-age\".",
+        tip: "Say the currency word last: \"four point two billion DOLLARS\". Stress \"per-CENT\".",
         explanation: "Reading figures aloud in the right order is essential in presentations and earnings calls.",
       },
       {
@@ -2258,7 +2257,7 @@ export const EN_C2_U31: Lesson[] = [
           { es: "Let's not lose sight of the bigger picture.", en: "No perdamos de vista la visión de conjunto." },
           { es: "I suggest we commission an independent review.", en: "Propongo que encarguemos una revisión independiente." },
           { es: "Can we agree in principle, pending due diligence?", en: "¿Podemos llegar a un acuerdo de principio, a la espera de la auditoría previa?" },
-          { es: "Let's park the question of the brand for now.", en: "Dejemos estacionada de momento la cuestión de la marca." },
+          { es: "Let's park the question of the brand for now.", en: "Dejemos pendiente de momento la cuestión de la marca." },
           { es: "The deal is subject to regulatory approval.", en: "La operación está sujeta a la aprobación de los reguladores." },
         ],
         checkpoint: [
@@ -2305,7 +2304,7 @@ export const EN_C2_U31: Lesson[] = [
           "move the meeting to another room",
         ],
         correctIndex: 0,
-        explanation: "To \"park\" a topic is to set it aside temporarily, like Spanish «estacionar» in the same figurative sense.",
+        explanation: "To \"park\" a topic is to set it aside temporarily, like Spanish «dejar pendiente» (in Spain, «aparcar» un tema).",
       },
       {
         type: "translate",
@@ -3171,7 +3170,7 @@ export const EN_C2_U31: Lesson[] = [
           { es: "The survey revealed that most customers were unaware of the loyalty scheme.", en: "La encuesta reveló que la mayoría de los clientes desconocían el programa de fidelización." },
           { es: "It emerged that two of the three suppliers had missed deadlines.", en: "Se puso de manifiesto que dos de los tres proveedores habían incumplido los plazos." },
           { es: "Respondents cited price as the main reason for switching.", en: "Los encuestados señalaron el precio como principal motivo para cambiar de proveedor." },
-          { es: "The booking system was found to be slow and unreliable.", en: "Se constató que el sistema de reservas era lento y poco fiable." },
+          { es: "The booking system was found to be slow and unreliable.", en: "Se constató que el sistema de reservas era lento y poco confiable." },
           { es: "A significant minority of staff (29%) reported feeling undervalued.", en: "Una minoría significativa del personal (29 %) dijo sentirse poco valorada." },
           { es: "Employees were consulted at all three sites.", en: "Se consultó a los empleados en las tres sedes." },
           { es: "The figures appear to confirm a seasonal pattern.", en: "Las cifras parecen confirmar un patrón estacional." },

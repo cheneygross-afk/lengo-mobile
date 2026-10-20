@@ -204,7 +204,7 @@ export const EN_C2_U12: Lesson[] = [
           "Skim-read the report and tell me if it's worth reading.",
           "Skim the report and tell me if it's worth the trouble.",
         ],
-        explanation: "«Leer por encima» is \"skim\". «Merecer la pena» is \"be worth it\" or \"be worth reading\": \"worth\" is followed by a noun or an -ing form, never *worth to read.",
+        explanation: "«Leer por encima» is \"skim\". «Valer la pena» is \"be worth it\" or \"be worth reading\": \"worth\" is followed by a noun or an -ing form, never *worth to read.",
       },
       {
         type: "multiple-choice",
@@ -1252,7 +1252,7 @@ export const EN_C2_U12: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Expand these lecture notes into a short paragraph of full sentences: \"Industrial Rev. (UK, approx. 1760-1840) → urbanization ↑; working conditions poor, e.g. 14-hr days; N.B. child labor common until 1833 Factory Act.\"",
+        prompt: "Expand these lecture notes into a short paragraph of full sentences: \"Industrial Rev. (UK, approx. 1760-1840) → urbanization ↑; working conditions poor, e.g. 14-hr days; N.B. child labor first regulated by 1833 Factory Act.\"",
         minWords: 50,
         maxWords: 100,
         rubric: [
@@ -1261,7 +1261,7 @@ export const EN_C2_U12: Lesson[] = [
           "Turns the arrow into a cause-and-effect verb (led to, resulted in...)",
           "Keeps the example and the emphasis on child labor",
         ],
-        modelAnswer: "The Industrial Revolution took place in Britain between approximately 1760 and 1840. It led to a rapid increase in urbanization, as people moved from the countryside to work in the new factories. Working conditions were poor: employees often worked fourteen-hour days. It is worth noting that child labor was common until the Factory Act of 1833 began to regulate it.",
+        modelAnswer: "The Industrial Revolution took place in Britain between approximately 1760 and 1840. It led to a rapid increase in urbanization, as people moved from the countryside to work in the new factories. Working conditions were poor: employees often worked fourteen-hour days. It is worth noting that child labor was widespread and was first regulated by the Factory Act of 1833.",
         explanation: "Writing up notes means restoring articles, verbs and linking words, and choosing the right tense for the content.",
       },
     ],
@@ -1395,7 +1395,7 @@ export const EN_C2_U12: Lesson[] = [
             type: "translate",
             direction: "es-en",
             prompt: "Translate into English.",
-            source: "El comisario no descartó una subida el año que viene.",
+            source: "El comisionado no descartó una subida el año que viene.",
             answer: "The commissioner did not rule out an increase next year.",
             altAnswers: [
               "The commissioner didn't rule out an increase next year.",
@@ -1432,7 +1432,7 @@ export const EN_C2_U12: Lesson[] = [
           "The participle clause \"Asked whether..., he said...\" is very useful: it reports a question and its answer in one compact sentence.",
         ],
         examples: [
-          { es: "In a radio interview, the transport commissioner defended the new congestion charge.", en: "En una entrevista en la radio, el comisario de transportes defendió el nuevo cargo por congestión." },
+          { es: "In a radio interview, the transport commissioner defended the new congestion charge.", en: "En una entrevista en la radio, el comisionado de transporte defendió el nuevo cargo por congestión." },
           { es: "He argued that traffic in the center had risen by a third in five years.", en: "Argumentó que el tráfico en el centro había aumentado un tercio en cinco años." },
           { es: "He acknowledged that part of the revenue would go to road maintenance.", en: "Reconoció que parte de lo recaudado iría al mantenimiento de carreteras." },
           { es: "Asked whether the charge would rise, he declined to rule out an increase.", en: "Preguntado por si el cargo subiría, no quiso descartar un aumento." },
@@ -1600,7 +1600,7 @@ export const EN_C2_U12: Lesson[] = [
         heading: "The introduction: setting up your page",
         body: [
           "Your mission: take notes from a short lecture by Dr. Helen Ward on urban heat islands, then write a summary. Read each part as if you were hearing it, and note only what you would really write down.",
-          "The introduction usually gives you the skeleton of the whole talk. Here Dr Ward announces three parts (what heat islands are, why they form, what cities can do), so your page should already have three headings before she says another word.",
+          "The introduction usually gives you the skeleton of the whole talk. Here Dr. Ward announces three parts (what heat islands are, why they form, what cities can do), so your page should already have three headings before she says another word.",
           "Definitions and figures go straight into the notes. \"Put simply\" introduces a definition; \"as much as\" introduces an upper limit, which you can note with \"up to\".",
         ],
         examples: [
@@ -1855,7 +1855,7 @@ export const EN_C2_U12: Lesson[] = [
       },
       {
         type: "write",
-        prompt: "Using the notes from this lesson, write a structured summary of Dr Ward's lecture on urban heat islands.",
+        prompt: "Using the notes from this lesson, write a structured summary of Dr. Ward's lecture on urban heat islands.",
         minWords: 90,
         maxWords: 140,
         rubric: [
@@ -1865,7 +1865,7 @@ export const EN_C2_U12: Lesson[] = [
           "Presents both solutions and the limitation about water",
           "Leaves out the digression about ancient Greece",
         ],
-        modelAnswer: "The lecture dealt with urban heat islands, defined as cities that are warmer than the surrounding countryside, by as much as seven degrees on summer nights. Dr Ward identified three main causes. First, dark surfaces such as asphalt absorb heat during the day and release it at night. Second, cities have less vegetation, and trees cool the air through shade and evaporation. Third, cars, air conditioners and factories produce waste heat. She stressed that these causes reinforce each other. She then proposed two solutions: cool roofs, which can lower roof temperatures by up to thirty degrees, and green infrastructure such as parks and street trees. However, she noted that trees need water, which may be scarce.",
+        modelAnswer: "The lecture dealt with urban heat islands, defined as cities that are warmer than the surrounding countryside, by as much as seven degrees on summer nights. Dr. Ward identified three main causes. First, dark surfaces such as asphalt absorb heat during the day and release it at night. Second, cities have less vegetation, and trees cool the air through shade and evaporation. Third, cars, air conditioners and factories produce waste heat. She stressed that these causes reinforce each other. She then proposed two solutions: cool roofs, which can lower roof temperatures by up to thirty degrees, and green infrastructure such as parks and street trees. However, she noted that trees need water, which may be scarce.",
         explanation: "A structured summary follows the lecture's own signposting and turns every note back into a complete sentence.",
       },
     ],
@@ -1932,14 +1932,14 @@ export const EN_C2_U12: Lesson[] = [
       {
         heading: "A worked example: choosing the key points",
         body: [
-          "Text A says that visitors keep the historic center's shops and restaurants alive, and quotes a cafe owner and a museum director to prove it. However, it admits that holiday flats have pushed rents beyond what local families can pay.",
-          "Text B argues that cities can manage tourism with nightly taxes and limits on holiday lets, and mentions Venice and Amsterdam as examples. It warns, though, that strict caps may hurt small businesses that depend on visitors.",
+          "Text A says that visitors keep the historic center's shops and restaurants alive, and quotes a cafe owner and a museum director to prove it. However, it admits that vacation rentals have pushed rents beyond what local families can pay.",
+          "Text B argues that cities can manage tourism with nightly taxes and limits on short-term rentals, and mentions Venice and Amsterdam as examples. It warns, though, that strict caps may hurt small businesses that depend on visitors.",
           "Key points are claims, causes and consequences. The cafe owner, the museum director, Venice and Amsterdam are only evidence, so they disappear from the summary. What remains is four ideas: income, rising rents, regulation, and the risk to small businesses.",
         ],
         examples: [
           { es: "Key point: tourism sustains local businesses.", en: "Idea clave: el turismo sostiene el comercio local." },
-          { es: "Key point: holiday rentals push up housing costs.", en: "Idea clave: las rentas vacacionales encarecen la vivienda." },
-          { es: "Key point: taxes and limits on lets can control numbers.", en: "Idea clave: los impuestos y los límites a los alquileres pueden controlar el número de visitantes." },
+          { es: "Key point: vacation rentals push up housing costs.", en: "Idea clave: las rentas vacacionales encarecen la vivienda." },
+          { es: "Key point: taxes and limits on short-term rentals can control numbers.", en: "Idea clave: los impuestos y los límites a los alquileres pueden controlar el número de visitantes." },
           { es: "Key point: strict caps may damage small firms.", en: "Idea clave: los topes estrictos pueden perjudicar a las pequeñas empresas." },
           { es: "Cut: the quotation from the cafe owner.", en: "Se elimina: la cita del dueño de la cafetería." },
         ],
@@ -1949,7 +1949,7 @@ export const EN_C2_U12: Lesson[] = [
             question: "Which of these is a supporting example rather than a key point?",
             options: [
               "Venice has introduced a fee for day visitors.",
-              "Holiday lets have made housing unaffordable for residents.",
+              "Vacation rentals have made housing unaffordable for residents.",
               "Regulation can keep visitor numbers under control.",
               "Limits on visitors could harm small businesses.",
             ],
@@ -1968,7 +1968,7 @@ export const EN_C2_U12: Lesson[] = [
         examples: [
           { es: "Both writers acknowledge that tourism is an important source of income.", en: "Ambos autores reconocen que el turismo es una fuente importante de ingresos." },
           { es: "Whereas the first text stresses the benefits, the second focuses on how to limit the harm.", en: "Mientras que el primer texto destaca los beneficios, el segundo se centra en cómo limitar los perjuicios." },
-          { es: "The rise in holiday rentals has priced many residents out of the center.", en: "El aumento de las rentas vacacionales ha expulsado a muchos vecinos del centro por los precios." },
+          { es: "The rise in vacation rentals has priced many residents out of the center.", en: "El aumento de las rentas vacacionales ha expulsado a muchos vecinos del centro por los precios." },
           { es: "Local businesses depend heavily on visitors.", en: "El comercio local depende en gran medida de los visitantes." },
           { es: "Regulation, the second writer warns, carries risks of its own.", en: "La regulación, advierte el segundo autor, conlleva sus propios riesgos." },
         ],
@@ -2010,8 +2010,8 @@ export const EN_C2_U12: Lesson[] = [
       {
         heading: "Comparing two summaries",
         body: [
-          "Summary 1: \"Text A says tourism keeps the historic center's shops and restaurants alive, as a cafe owner explains. But holiday flats have pushed rents beyond what local families can pay. Text B says cities can use taxes, like Venice. I think this is the best solution.\"",
-          "Summary 2: \"Both writers recognize that tourism sustains local businesses, yet the first warns that the spread of holiday rentals has made housing unaffordable for residents. The second argues that taxes and limits on lets can keep visitor numbers in check, although it concedes that strict caps could hurt the very businesses tourism supports.\"",
+          "Summary 1: \"Text A says tourism keeps the historic center's shops and restaurants alive, as a cafe owner explains. But vacation rentals have pushed rents beyond what local families can pay. Text B says cities can use taxes, like Venice. I think this is the best solution.\"",
+          "Summary 2: \"Both writers recognize that tourism sustains local businesses, yet the first warns that the spread of vacation rentals has made housing unaffordable for residents. The second argues that taxes and limits on short-term rentals can keep visitor numbers in check, although it concedes that strict caps could hurt the very businesses tourism supports.\"",
           "Summary 1 copies a whole phrase, keeps an example, adds an opinion and treats the texts separately. Summary 2 merges, paraphrases, cuts the examples and links the ideas with \"yet\", \"although\" and \"the very businesses\", a phrase that ties the end back to the beginning. That is what Mastery cohesion looks like.",
         ],
         examples: [

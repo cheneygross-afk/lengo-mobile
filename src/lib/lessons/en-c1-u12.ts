@@ -196,9 +196,9 @@ export const EN_C1_U12: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English, as you would say it to a friend.",
         source: "No aguanto más a mi vecino.",
-        answer: "I can't put up with my neighbor any more.",
+        answer: "I can't put up with my neighbor anymore.",
         altAnswers: [
-          "I can't put up with my neighbor anymore.",
+          "I can't put up with my neighbor any more.",
           "I can't stand my neighbor any more.",
           "I can't stand my neighbor anymore.",
           "I can't take my neighbor any more.",
@@ -320,7 +320,7 @@ export const EN_C1_U12: Lesson[] = [
           "Both contain the same information (delay, missed meeting, new time).",
           "No bare imperatives in the client email.",
         ],
-        modelAnswer: "Text: Hi Sam, flight's delayed, so I won't make the 10 o'clock. Can you start without me? Should be there by 11. Sorry!\n\nEmail: Dear Ms Taylor, I am afraid my flight has been delayed and I will not be able to attend our meeting at 10 a.m. I apologize for the inconvenience. Would it be possible to move the meeting to 11:30, or to another time that suits you? Kind regards, Lucia Romero",
+        modelAnswer: "Text: Hi Sam, flight's delayed, so I won't make the 10 o'clock. Can you start without me? Should be there by 11. Sorry!\n\nEmail: Dear Ms. Taylor, I am afraid my flight has been delayed and I will not be able to attend our meeting at 10 a.m. I apologize for the inconvenience. Would it be possible to move the meeting to 11:30, or to another time that suits you? Kind regards, Lucia Romero",
         explanation: "The text uses ellipsis, contractions and a casual sign-off; the email uses full forms, \"I am afraid\", \"I apologize for the inconvenience\" and a request as a question.",
       },
     ],
@@ -391,7 +391,7 @@ export const EN_C1_U12: Lesson[] = [
           "The suffix \"-ish\" means «más o menos» with times, ages and colors: \"Let's meet at sevenish\", \"She's fortyish\", \"a greenish shirt\". In speech, \"ish\" can even stand alone: \"Are you ready?\" \"Ish.\"",
         ],
         examples: [
-          { es: "The film was kind of boring.", en: "La peli era un poco aburrida." },
+          { es: "The movie was kind of boring.", en: "La peli era un poco aburrida." },
           { es: "We talked about work and stuff.", en: "Hablamos del trabajo y tal." },
           { es: "Let's meet at sevenish.", en: "Nos vemos como a las siete." },
           { es: "He's a lawyer or something.", en: "Es abogado o algo así." },
@@ -426,7 +426,7 @@ export const EN_C1_U12: Lesson[] = [
           {
             type: "fill-blank",
             prompt: "Write the bold words in English.",
-            sentence: "We just chatted about music, films ___.",
+            sentence: "We just chatted about music, movies ___.",
             answer: "and stuff",
             altAnswers: ["and things", "and things like that", "and that kind of thing", "and so on"],
             en: "Solo charlamos de música, cine [y tal].",
@@ -647,7 +647,7 @@ export const EN_C1_U12: Lesson[] = [
           "The email states the problem, how long it has lasted and what you want.",
           "No informal words leak into the email.",
         ],
-        modelAnswer: "Friend: Ugh, still no heat! It's been two weeks and the landlord keeps saying he'll sort it out. I'm basically living in a coat and stuff. Seriously fed up.\n\nEmail: Dear Sir or Madam, I am writing regarding the heat in my apartment at 14 Park Road, which has not been working since November 3. I reported the problem on that date, but it has not yet been repaired. I would be grateful if you could arrange for a technician to visit this week. Yours faithfully, Diego Herrera",
+        modelAnswer: "Friend: Ugh, still no heat! It's been two weeks and the landlord keeps saying he'll sort it out. I'm basically living in a coat and stuff. Seriously fed up.\n\nEmail: Dear Sir or Madam, I am writing regarding the heat in my apartment at 14 Park Road, which has not been working since November 3. I reported the problem on that date, but it has not yet been repaired. I would be grateful if you could arrange for a technician to visit this week. Sincerely, Diego Herrera",
         explanation: "Same facts, two registers: the first relies on contractions, \"sort it out\", \"and stuff\" and exclamations; the second on full forms, \"regarding\", \"arrange\" and a polite conditional request.",
       },
     ],
@@ -691,7 +691,7 @@ export const EN_C1_U12: Lesson[] = [
       {
         heading: "Emails: openings, closings and everything in between",
         body: [
-          "A formal email to a stranger: \"Dear Mr Hill,\" or \"Dear Sir or Madam,\", then \"I am writing to...\", and \"Kind regards\" or \"Yours sincerely\" at the end. A neutral email to a known contact: \"Hi Emma,\", \"Thanks for your email\", \"Best\". An informal email to a friend: \"Hey Tom!\", \"Cheers\" or \"See you soon\".",
+          "A formal email to a stranger: \"Dear Mr. Hill,\" or \"Dear Sir or Madam,\", then \"I am writing to...\", and \"Kind regards\" or \"Yours sincerely\" at the end. A neutral email to a known contact: \"Hi Emma,\", \"Thanks for your email\", \"Best\". An informal email to a friend: \"Hey Tom!\", \"Cheers\" or \"See you soon\".",
           "Spanish speakers often overuse \"Dear\" plus first name with friends, which sounds slightly old-fashioned or overly sweet in American English. With colleagues, \"Hi\" plus first name is the safe default in most companies.",
           "Body text also shifts. \"Please find attached the report\" is formal; \"I've attached the report\" is neutral; \"Here's the report\" is informal. All three are correct; only one fits each relationship.",
         ],
@@ -771,7 +771,7 @@ export const EN_C1_U12: Lesson[] = [
         heading: "Dialogue: reading the room",
         body: [
           "In speech, register shifts within a single conversation. People start formally with someone new and relax as the relationship develops. A good listener mirrors the other person: if your new manager says \"Call me Mike\" and uses contractions and jokes, a stiff reply sounds cold.",
-          "Read this exchange. Mike: \"Hi, you must be Sofia. Call me Mike. Settling in OK?\" Sofia: \"Yes, thanks, everyone's been really friendly.\" Sofia does not answer \"Yes, Mr Brown, I am settling in satisfactorily\": that would ignore Mike's signal.",
+          "Read this exchange. Mike: \"Hi, you must be Sofia. Call me Mike. Settling in OK?\" Sofia: \"Yes, thanks, everyone's been really friendly.\" Sofia does not answer \"Yes, Mr. Brown, I am settling in satisfactorily\": that would ignore Mike's signal.",
           "The reverse also matters. If a customer writes to you formally, answer formally, even if your company style is friendly. Matching register is a form of respect.",
         ],
         examples: [
@@ -787,11 +787,11 @@ export const EN_C1_U12: Lesson[] = [
             options: [
               "Thanks, Tom, that looks great!",
               "Thank you very much, sir. I would be delighted to do so.",
-              "I appreciate your kind offer, Mr Tom.",
+              "I appreciate your kind offer, Mr. Tom.",
               "Cheers, dude!",
             ],
             correctIndex: 0,
-            explanation: "He uses his first name and a casual tone, so a warm neutral reply with his first name fits. \"Sir\" and \"I would be delighted\" are too stiff, \"Mr Tom\" is not used in English, and \"dude\" is too casual for a friend's father.",
+            explanation: "He uses his first name and a casual tone, so a warm neutral reply with his first name fits. \"Sir\" and \"I would be delighted\" are too stiff, \"Mr. Tom\" is not used in English, and \"dude\" is too casual for a friend's father.",
           },
         ],
       },
@@ -895,7 +895,7 @@ export const EN_C1_U12: Lesson[] = [
         type: "multiple-choice",
         question: "A customer writes: \"Dear Sir or Madam, I wish to complain about the late delivery of my order.\" How should customer service begin the reply?",
         options: [
-          "Dear Mr Evans, Thank you for your email, and please accept our apologies for the delay.",
+          "Dear Mr. Evans, Thank you for your email, and please accept our apologies for the delay.",
           "Hey there! So sorry about that!",
           "Hi! Bummer about the delivery!",
           "Yo, we messed up, our bad.",
@@ -1488,9 +1488,9 @@ export const EN_C1_U12: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into polite English.",
         source: "¿Tienes un momento? Te quería preguntar una cosa.",
-        answer: "Have you got a second? I wanted to ask you something.",
+        answer: "Do you have a second? I wanted to ask you something.",
         altAnswers: [
-          "Do you have a second? I wanted to ask you something.",
+          "Have you got a second? I wanted to ask you something.",
           "Have you got a minute? I wanted to ask you something.",
           "Do you have a minute? I wanted to ask you something.",
           "Have you got a moment? I wanted to ask you something.",
@@ -1842,7 +1842,7 @@ export const EN_C1_U12: Lesson[] = [
       {
         heading: "Asking for things at work",
         body: [
-          "Read this exchange. Carlos: \"Hi Emma, have you got a sec? I was wondering if you could look over my slides before the client meeting.\" Emma: \"Sure, no problem. Send them over and I'll take a look after lunch.\" Carlos: \"Brilliant, thanks so much.\"",
+          "Read this exchange. Carlos: \"Hi Emma, have you got a sec? I was wondering if you could look over my slides before the client meeting.\" Emma: \"Sure, no problem. Send them over and I'll take a look after lunch.\" Carlos: \"Great, thanks so much.\"",
           "Carlos opens gently (\"have you got a sec?\"), uses a tentative request (\"I was wondering if...\") and thanks warmly. Emma, who is doing a favor, can be direct: \"Send them over\" is fine because it is an offer, not a demand.",
           "This is a key point: imperatives are perfectly polite when they benefit the listener (\"Have a seat\", \"Help yourself\", \"Take your time\") or when they are part of an offer. They are risky when they benefit the speaker.",
         ],
@@ -1889,12 +1889,12 @@ export const EN_C1_U12: Lesson[] = [
       {
         heading: "Complaining without being rude",
         body: [
-          "Read this exchange in a restaurant. Diner: \"Excuse me, I'm sorry to bother you, but I think there might be a mistake with the bill. We didn't order the wine.\" Waiter: \"Oh, I'm so sorry about that. Let me check.\"",
+          "Read this exchange in a restaurant. Diner: \"Excuse me, I'm sorry to bother you, but I think there might be a mistake with the check. We didn't order the wine.\" Waiter: \"Oh, I'm so sorry about that. Let me check.\"",
           "The diner starts with an apology for interrupting, presents the problem as a possibility (\"I think there might be\"), and gives the facts. This gets a much better response than \"The bill is wrong\".",
           "In a hotel: \"I'm afraid there seems to be a problem with the air conditioning in my room. Would it be possible to send someone to look at it?\" If the polite request does not work, you can become firmer: \"I'd like to speak to the manager, please.\"",
         ],
         examples: [
-          { es: "I'm sorry to bother you, but I think there might be a mistake with the bill.", en: "Perdone que le moleste, pero creo que puede haber un error en la cuenta." },
+          { es: "I'm sorry to bother you, but I think there might be a mistake with the check.", en: "Perdone que le moleste, pero creo que puede haber un error en la cuenta." },
           { es: "There seems to be a problem with the air conditioning.", en: "Parece que hay un problema con el aire acondicionado." },
           { es: "Would it be possible to change rooms?", en: "¿Sería posible cambiar de habitación?" },
           { es: "I'd like to speak to the manager, please.", en: "Quisiera hablar con el encargado, por favor." },
@@ -2159,7 +2159,7 @@ export const EN_C1_U12: Lesson[] = [
           "Makes a clear request (replacement or refund) and a deadline or next step.",
           "No bare imperatives or accusations.",
         ],
-        modelAnswer: "Dear Customer Service team,\n\nI'm writing about my order no. 48213, which arrived yesterday. I'm afraid the coffee machine was damaged in transit: the water tank is cracked and the machine leaks. Would it be possible to send a replacement as soon as possible? I'd be happy to return the damaged one, but I'd be grateful if you could arrange the collection.\n\nI look forward to hearing from you.\n\nKind regards,\nSofia Navarro",
+        modelAnswer: "Dear Customer Service team,\n\nI'm writing about my order no. 48213, which arrived yesterday. I'm afraid the coffee machine was damaged in transit: the water tank is cracked and the machine leaks. Would it be possible to send a replacement as soon as possible? I'd be happy to return the damaged one, but I'd be grateful if you could arrange a pickup.\n\nI look forward to hearing from you.\n\nKind regards,\nSofia Navarro",
         explanation: "The email states the facts, softens the complaint without hiding it, and makes clear requests with \"Would it be possible\" and \"I'd be grateful if\".",
       },
     ],
@@ -2403,7 +2403,7 @@ export const EN_C1_U12: Lesson[] = [
           "A reason.",
           "An alternative or offer of partial help.",
         ],
-        modelAnswer: "Hi Tom, thanks for thinking of me for this. I'm afraid I don't think I can take it on right now: I'm flat out with the Lopez launch until the end of the month. Could Ana help instead? I'd be happy to give her a quick handover of what I know, or I could join in from next month.",
+        modelAnswer: "Hi Tom, thanks for thinking of me for this. I'm afraid I don't think I can take it on right now: I'm swamped with the Lopez launch until the end of the month. Could Ana help instead? I'd be happy to give her a quick handover of what I know, or I could join in from next month.",
         explanation: "Appreciation, a softened refusal, a concrete reason and two alternatives: that is how a polite \"no\" works in English.",
       },
     ],
@@ -2429,7 +2429,7 @@ export const EN_C1_U12: Lesson[] = [
           { es: "I'm going to buy a new phone.", en: "Me voy a comprar un celular nuevo." },
           { es: "Tickets may be purchased online.", en: "Las entradas pueden adquirirse por internet. (formal)" },
           { es: "The ceremony will commence at 10 a.m.", en: "La ceremonia dará comienzo a las 10:00. (muy formal)" },
-          { es: "The film starts at ten.", en: "La peli empieza a las diez." },
+          { es: "The movie starts at ten.", en: "La peli empieza a las diez." },
         ],
         checkpoint: [
           {
@@ -2444,7 +2444,7 @@ export const EN_C1_U12: Lesson[] = [
               "Where did you get that coat from?",
               "Where'd you buy that coat?",
             ],
-            explanation: "In conversation, \"buy\" or \"get\" is natural. *Where did you purchase that coat? sounds like a shop assistant or a police officer.",
+            explanation: "In conversation, \"buy\" or \"get\" is natural. *Where did you purchase that coat? sounds like a salesclerk or a police officer.",
           },
         ],
       },
@@ -2460,7 +2460,7 @@ export const EN_C1_U12: Lesson[] = [
           { es: "You can ask for a refund if you're not happy.", en: "Puedes pedir que te devuelvan el dinero si no estás contento." },
           { es: "I am writing to inquire about the vacancy.", en: "Le escribo para informarme sobre la vacante. (formal)" },
           { es: "I called to ask about the job.", en: "Llamé para preguntar por el trabajo." },
-          { es: "Residents are required to inform the council prior to any building work.", en: "Los vecinos deben informar al ayuntamiento antes de realizar cualquier obra. (formal)" },
+          { es: "Residents are required to inform the city prior to any building work.", en: "Los vecinos deben informar al municipio antes de realizar cualquier obra. (formal)" },
           { es: "You need to tell the city before you start any construction work.", en: "Tienes que avisarle al municipio antes de hacer obras." },
         ],
         checkpoint: [
@@ -2719,7 +2719,7 @@ export const EN_C1_U12: Lesson[] = [
         body: [
           "Look at this complaint: *Dear Sir, hey, I wanna complain about the stuff you sent me, it's kinda broken. The writer starts formally (\"Dear Sir\") and then switches to speech (\"hey\", \"wanna\", \"stuff\", \"kinda\"). The reader notices the clash more than the complaint.",
           "A consistent version: \"Dear Sir or Madam, I am writing to complain about the items I received on May 3, which are damaged.\" A consistent informal version (to a friend): \"Ugh, the stuff I ordered came broken.\"",
-          "Why does this happen? Learners pick up informal English from films, series and social media, where \"wanna\" and \"stuff\" are everywhere, but they learn formal letters from textbooks. Under pressure, the two layers mix.",
+          "Why does this happen? Learners pick up informal English from movies, TV shows and social media, where \"wanna\" and \"stuff\" are everywhere, but they learn formal letters from textbooks. Under pressure, the two layers mix.",
         ],
         examples: [
           { es: "I am writing to complain about the items I received on May 3.", en: "Le escribo para quejarme de los artículos que recibí el 3 de mayo. (formal)" },
@@ -2780,8 +2780,8 @@ export const EN_C1_U12: Lesson[] = [
       {
         heading: "Clash 3: formal but blunt",
         body: [
-          "Some emails are formal in vocabulary but rude in effect, because the request is a bare imperative: *Dear Ms Clark, Send me the contract today. Regards. The formal frame makes the order sound even colder.",
-          "Fix the request, not just the vocabulary: \"Dear Ms Clark, Could you please send me the contract by the end of the day? Many thanks, Diego.\" Or more formally: \"I would be grateful if you could send me the contract by the end of the day.\"",
+          "Some emails are formal in vocabulary but rude in effect, because the request is a bare imperative: *Dear Ms. Clark, Send me the contract today. Regards. The formal frame makes the order sound even colder.",
+          "Fix the request, not just the vocabulary: \"Dear Ms. Clark, Could you please send me the contract by the end of the day? Many thanks, Diego.\" Or more formally: \"I would be grateful if you could send me the contract by the end of the day.\"",
           "Another common clash: *Please, send me the contract. In Spanish, «Por favor, envíame el contrato» is polite. In English, \"please\" at the start plus an imperative can sound impatient; a question is safer.",
         ],
         examples: [
@@ -2892,10 +2892,10 @@ export const EN_C1_U12: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "What is wrong with this email to a supplier? *Dear Mr Lee, Send me the invoice today. Regards, Ana",
+        question: "What is wrong with this email to a supplier? *Dear Mr. Lee, Send me the invoice today. Regards, Ana",
         options: [
           "The request is a bare imperative, so it sounds like an order.",
-          "\"Dear Mr Lee\" is too informal.",
+          "\"Dear Mr. Lee\" is too informal.",
           "\"Regards\" is too informal for a supplier.",
           "Nothing: it is formal and clear.",
         ],
@@ -2984,7 +2984,7 @@ export const EN_C1_U12: Lesson[] = [
           "The two problems are stated clearly.",
           "The request for a discount is indirect and polite.",
         ],
-        modelAnswer: "Dear Sir or Madam,\n\nI am writing regarding my stay at your hotel from June 4 to 6. Unfortunately, my room was extremely noisy and the air conditioning was not working. I would be grateful if you could consider offering a partial refund.\n\nYours faithfully,\nCarlos Ruiz",
+        modelAnswer: "Dear Sir or Madam,\n\nI am writing regarding my stay at your hotel from June 4 to 6. Unfortunately, my room was extremely noisy and the air conditioning was not working. I would be grateful if you could consider offering a partial refund.\n\nSincerely,\nCarlos Ruiz",
         explanation: "Every informal element is replaced: \"super noisy\" becomes \"extremely noisy\", \"didn't work\" becomes \"was not working\", and \"I want a discount\" becomes an indirect request.",
       },
     ],
@@ -3000,7 +3000,7 @@ export const EN_C1_U12: Lesson[] = [
       {
         heading: "The rule: change the form, keep the meaning",
         body: [
-          "When you rewrite for register, the facts must stay exactly the same: who, what, when, how much. Only the packaging changes. This is the skill tested in Cambridge C1 Advanced key-word transformations: \"The meeting was put off\" → POSTPONED → \"The meeting was postponed\".",
+          "When you rewrite for register, the facts must stay exactly the same: who, what, when, how much. Only the packaging changes. This is the skill tested in exam-style key-word transformations: \"The meeting was put off\" → POSTPONED → \"The meeting was postponed\".",
           "Work through a checklist: vocabulary (phrasal verb or Latinate word?), grammar (active or passive? contractions?), the person (\"I\" and \"you\", or impersonal?), the request (imperative, question or \"I would be grateful if\"?), and the opening and closing.",
           "Watch for meaning drift. \"We might be able to help\" is not the same as \"We will assist you\". A formal version must not promise more, or less, than the original.",
         ],
@@ -3038,7 +3038,7 @@ export const EN_C1_U12: Lesson[] = [
         heading: "From text message to formal email",
         body: [
           "Original text to your manager's assistant: \"Hi! Can't come in tomorrow, got a doctor's thing in the morning. Back Thurs. Can someone cover the 10am call?\"",
-          "Formal email to an external partner with the same facts: \"Dear Mr Patel, I am afraid I will be unable to attend tomorrow's 10 a.m. call due to a medical appointment. I will be back in the office on Thursday. A colleague will join the call in my place.\"",
+          "Formal email to an external partner with the same facts: \"Dear Mr. Patel, I am afraid I will be unable to attend tomorrow's 10 a.m. call due to a medical appointment. I will be back in the office on Thursday. A colleague will join the call in my place.\"",
           "Notice the changes: subjects restored (\"I am\"), abbreviations expanded (\"Thurs\" → \"Thursday\"), \"thing\" made specific (\"a medical appointment\"), \"Can't come in\" → \"will be unable to attend\", and the question to colleagues turned into a statement for the reader.",
         ],
         examples: [
@@ -3315,7 +3315,7 @@ export const EN_C1_U12: Lesson[] = [
           "Formal vocabulary (\"delay\", \"due to\", \"apologize\", \"discount\").",
           "No slang (\"gonna\", \"cos\", \"messed up\", \"knock off\").",
         ],
-        modelAnswer: "Dear Ms Grant,\n\nI am afraid your delivery will be delayed by approximately one week due to a problem with our supplier. Please accept our sincere apologies for the inconvenience. As a gesture of goodwill, we will apply a 10% discount to your order.\n\nKind regards,\nEmma Lopez",
+        modelAnswer: "Dear Ms. Grant,\n\nI am afraid your delivery will be delayed by approximately one week due to a problem with our supplier. Please accept our sincere apologies for the inconvenience. As a gesture of goodwill, we will apply a 10% discount to your order.\n\nKind regards,\nEmma Lopez",
         explanation: "Each informal element has a formal equivalent: \"gonna be late\" → \"will be delayed\", \"cos\" → \"due to\", \"messed up\" → \"a problem with\", \"knock 10% off\" → \"apply a 10% discount\". The facts are unchanged.",
       },
     ],
@@ -3332,7 +3332,7 @@ export const EN_C1_U12: Lesson[] = [
         heading: "Reporting verbs: the formal toolkit",
         body: [
           "In formal summaries, minutes and reports, \"said\" is too vague. Reporting verbs show what the speaker did: \"She urged us to reconsider\", \"They denied having received the letter\", \"He insisted on paying\", \"The minister admitted that mistakes had been made\".",
-          "Each verb has its own pattern, and Spanish speakers often transfer the «que» structure everywhere: *She urged that we reconsider is unusual; \"urge\" normally takes object + infinitive. Learn the patterns: \"urge/advise/warn/encourage someone to do\", \"deny/admit + -ing\" (or \"that\"), \"insist on + -ing\", \"accuse someone of + -ing\", \"refuse/agree/offer to do\".",
+          "Each verb has its own pattern, and Spanish speakers often transfer the «que» structure everywhere: *She urged us that we reconsider is wrong; \"urge\" normally takes object + infinitive (\"urge that\" + subjunctive, as in \"They urged that the law be changed\", is possible but very formal). Learn the patterns: \"urge/advise/warn/encourage someone to do\", \"deny/admit + -ing\" (or \"that\"), \"insist on + -ing\", \"accuse someone of + -ing\", \"refuse/agree/offer to do\".",
           "\"Suggest\" and \"recommend\" do not take object + infinitive: *She suggested us to leave is a very common error. Use \"She suggested that we leave\" or \"She suggested leaving\".",
         ],
         examples: [
@@ -3693,7 +3693,7 @@ export const EN_C1_U12: Lesson[] = [
           "\"Gentrification\" is when wealthier people move into a working-class area, prices rise and original residents are \"priced out\" or \"displaced\". The verb is \"gentrify\": \"The neighborhood has been gentrified\".",
         ],
         examples: [
-          { es: "Homelessness has risen sharply in the city.", en: "El sinhogarismo ha aumentado mucho en la ciudad." },
+          { es: "Homelessness has risen sharply in the city.", en: "El número de personas sin hogar ha aumentado mucho en la ciudad." },
           { es: "The council has pledged to build more affordable housing.", en: "El ayuntamiento se ha comprometido a construir más vivienda asequible." },
           { es: "Long-term residents are being priced out of the area.", en: "Los vecinos de toda la vida se ven obligados a irse del barrio por los precios." },
           { es: "The neighborhood has been gentrified.", en: "El barrio se ha gentrificado." },
@@ -3734,7 +3734,7 @@ export const EN_C1_U12: Lesson[] = [
         ],
       },
       {
-        heading: "Discrimination, welfare and marginalised groups",
+        heading: "Discrimination, welfare and marginalized groups",
         body: [
           "\"Discrimination\" takes \"against\": \"discrimination against women\", \"to discriminate against someone\". Spanish speakers often write *discrimination to, from «discriminación hacia».",
           "\"Welfare\" is tricky. In British English \"the welfare state\" means the whole system of state support, and benefits are \"welfare benefits\" or simply \"benefits\". In American English, \"welfare\" often refers specifically to payments to people on low incomes, and \"to be on welfare\" can sound negative. Neutral alternatives: \"social security\", \"public assistance\", \"benefits\".",
@@ -3786,7 +3786,7 @@ export const EN_C1_U12: Lesson[] = [
           { es: "The report fails to address the issue of inequality.", en: "El informe no aborda el problema de la desigualdad." },
           { es: "New measures aim to combat discrimination in the workplace.", en: "Las nuevas medidas buscan combatir la discriminación en el trabajo." },
           { es: "Microloans can help alleviate poverty.", en: "Los microcréditos pueden ayudar a paliar la pobreza." },
-          { es: "They really need to do something about homelessness.", en: "De verdad tienen que hacer algo con el sinhogarismo. (informal)" },
+          { es: "They really need to do something about homelessness.", en: "De verdad tienen que hacer algo con lo de la gente sin hogar. (informal)" },
         ],
         checkpoint: [
           {
@@ -3897,7 +3897,7 @@ export const EN_C1_U12: Lesson[] = [
         type: "translate",
         direction: "es-en",
         prompt: "Translate into English.",
-        source: "El sinhogarismo ha aumentado mucho en la ciudad.",
+        source: "El número de personas sin hogar ha aumentado mucho en la ciudad.",
         answer: "Homelessness has risen sharply in the city.",
         altAnswers: [
           "Homelessness has increased sharply in the city.",
@@ -3994,7 +3994,7 @@ export const EN_C1_U12: Lesson[] = [
           "A clear position with a reason and some hedging.",
           "No articles before general abstract nouns (\"poverty\", \"gentrification\").",
         ],
-        modelAnswer: "The rapid growth of tourist apartments has arguably accelerated gentrification in many city centers. As landlords convert homes into short-term rentals, rents rise and long-term residents, particularly low-income households, are priced out of their neighborhoods. Limiting tourist rentals would not solve the housing crisis on its own, but it would help to address the shortage of affordable housing. Combined with investment in social housing, such measures could genuinely tackle one of the most pressing social issues of our time.",
+        modelAnswer: "The rapid growth of tourist apartments has arguably accelerated gentrification in many city centers. As landlords convert homes into short-term rentals, rents rise and long-term residents, particularly low-income households, are priced out of their neighborhoods. Limiting tourist rentals would not solve the housing crisis on its own, but it would help to address the shortage of affordable housing. Combined with investment in public housing, such measures could genuinely tackle one of the most pressing social issues of our time.",
         explanation: "The paragraph combines the lesson's vocabulary with formal features: hedging (\"arguably\", \"would help to\"), linkers, the passive \"are priced out\" and no articles before abstract nouns.",
       },
     ],

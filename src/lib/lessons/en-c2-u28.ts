@@ -1464,7 +1464,7 @@ export const EN_C2_U28: Lesson[] = [
             prompt: "Write the bold words in English.",
             sentence: "Some argue that ___ is shaped more by society than by nature.",
             answer: "human behavior",
-            altAnswers: ["human behavior"],
+            altAnswers: [],
             en: "Hay quien sostiene que [el comportamiento humano] está más determinado por la sociedad que por la naturaleza.",
             explanation: "\"Human behavior\" is a general abstract noun phrase: no article, even with an adjective in front.",
           },

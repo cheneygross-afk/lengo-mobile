@@ -931,12 +931,12 @@ export const EN_C2_U24: Lesson[] = [
       {
         heading: "Dramatic narration and the voice of the storyteller",
         body: [
-          "In popular history, documentaries and spoken storytelling, English does switch into the present to make a scene vivid: \"It is the night of 14 April 1912. The Titanic is steaming across a calm, freezing sea. In the radio room, the operators are working through a pile of messages.\" Note that background now goes into the present continuous and the main events into the present simple.",
+          "In popular history, documentaries and spoken storytelling, English does switch into the present to make a scene vivid: \"It is the night of April 14, 1912. The Titanic is steaming across a calm, freezing sea. In the radio room, the operators are working through a pile of messages.\" Note that background now goes into the present continuous and the main events into the present simple.",
           "In conversation the same device is common: \"So the king walks in, and nobody stands up.\" It feels informal and lively, which is exactly why it rarely suits an academic essay.",
           "When you narrate in the present, earlier events shift into the present perfect or past simple, and later events into \"will\" or \"is going to\": \"The ship has already received six ice warnings. Within three hours, it will be at the bottom of the Atlantic.\"",
         ],
         examples: [
-          { es: "It is the night of 14 April 1912.", en: "Es la noche del 14 de abril de 1912." },
+          { es: "It is the night of April 14, 1912.", en: "Es la noche del 14 de abril de 1912." },
           { es: "The Titanic is steaming across a calm, freezing sea.", en: "El Titanic avanza a toda máquina por un mar en calma y helado." },
           { es: "The ship has already received six ice warnings.", en: "El barco ya ha recibido seis avisos de hielo." },
           { es: "Within three hours, it will be at the bottom of the Atlantic.", en: "En menos de tres horas estará en el fondo del Atlántico." },
@@ -1041,7 +1041,7 @@ export const EN_C2_U24: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "A documentary script narrates in the present. Which sentence continues «It is dawn on 6 June 1944. The landing craft are approaching the beaches.» correctly?",
+        question: "A documentary script narrates in the present. Which sentence continues «It is dawn on June 6, 1944. The landing craft are approaching the beaches.» correctly?",
         options: [
           "The soldiers have spent the night being sick in the rough sea.",
           "The soldiers had spent the night being sick in the rough sea.",
@@ -1072,7 +1072,7 @@ export const EN_C2_U24: Lesson[] = [
       {
         type: "fill-blank",
         prompt: "Write the bold words in English.",
-        sentence: "It is the night of 14 April. Within three hours, the ship ___ at the bottom of the Atlantic.",
+        sentence: "It is the night of April 14. Within three hours, the ship ___ at the bottom of the Atlantic.",
         answer: "will be",
         altAnswers: ["will lie", "will be lying"],
         en: "Es la noche del 14 de abril. En menos de tres horas, el barco [estará] en el fondo del Atlántico.",

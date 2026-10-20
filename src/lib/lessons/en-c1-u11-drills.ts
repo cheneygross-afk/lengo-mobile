@@ -1687,7 +1687,7 @@ export const EN_C1_U11_DRILLS: Lesson[] = [
       {
         heading: "Recap: the advanced false friends",
         body: [
-          "«Casualidad» is \"coincidence\" (a \"casualty\" is a victim), «estar constipado» is \"have a cold\", «molestar» is \"bother\", «parientes» are \"relatives\", «fábrica» is \"factory\" (\"fabric\" is «tela»), «beca» is \"scholarship\", «recordar» is \"remember\" or \"remind\", «carrera» (studies) is a \"degree\", «lectura» is \"reading\", «tópico» is \"cliche\" or \"stereotype\", «noticia» is \"news\", «contestar» is \"answer\" and the «argumento» of a film is the \"plot\".",
+          "«Casualidad» is \"coincidence\" (a \"casualty\" is a victim), «estar constipado» is \"have a cold\", «molestar» is \"bother\", «parientes» are \"relatives\", «fábrica» is \"factory\" (\"fabric\" is «tela»), «beca» is \"scholarship\", «recordar» is \"remember\" or \"remind\", «carrera» (studies) is a \"degree\", «lectura» is \"reading\", «tópico» is \"cliche\" or \"stereotype\", «noticia» is \"news\", «contestar» is \"answer\" and the «argumento» of a movie is the \"plot\".",
           "Some look-alikes are only partial false friends: you can \"introduce\" a law, \"realize\" a dream, make a strong \"argument\" and \"compromise\" security. Always check which meaning the Spanish word has in the sentence.",
         ],
         examples: [
@@ -2036,7 +2036,7 @@ export const EN_C1_U11_DRILLS: Lesson[] = [
           "«Mis vecinos tuvieron un debate muy formal.»",
         ],
         correctIndex: 0,
-        explanation: "An \"argument\" between people is a quarrel: «discusión», «pelea». The story of a film is the \"plot\".",
+        explanation: "An \"argument\" between people is a quarrel: «discusión», «pelea». The story of a movie is the \"plot\".",
       },
       {
         type: "multiple-choice",
@@ -2525,7 +2525,7 @@ export const EN_C1_U11_DRILLS: Lesson[] = [
           "Formal English often turns verbs and adjectives into nouns (\"the closure of the factory\", \"water scarcity\") and links them with \"despite\", \"due to\" or \"following\", which take a noun, not a clause. And check every look-alike word: \"attend\", \"currently\", \"training\", \"a cold\", \"warm welcome\".",
         ],
         examples: [
-          { es: "Public transport is inefficient and uncomfortable.", en: "El transporte público es ineficiente e incómodo." },
+          { es: "Public transportation is inefficient and uncomfortable.", en: "El transporte público es ineficiente e incómodo." },
           { es: "The closure of the plant left 400 people unemployed.", en: "El cierre de la planta dejó a 400 personas sin trabajo." },
           { es: "Despite the delay, the launch was a success.", en: "A pesar del retraso, el lanzamiento fue un éxito." },
           { es: "I'm afraid I can't attend because I have a cold.", en: "Me temo que no puedo asistir porque estoy resfriado." },
@@ -2658,7 +2658,7 @@ export const EN_C1_U11_DRILLS: Lesson[] = [
       },
       {
         type: "multiple-choice",
-        question: "«La negativa del alcalde a dimitir provocó indignación.» Complete: \"The mayor's ___ to resign caused outrage.\"",
+        question: "«La negativa del alcalde a renunciar provocó indignación.» Complete: \"The mayor's ___ to resign caused outrage.\"",
         options: ["refusal", "refusement", "refuse", "refusing"],
         correctIndex: 0,
         explanation: "The noun from \"refuse\" is \"refusal\". *Refusement is invented by analogy with \"-ment\" nouns; \"refuse\" as a noun means garbage.",
@@ -2775,9 +2775,9 @@ export const EN_C1_U11_DRILLS: Lesson[] = [
         direction: "es-en",
         prompt: "Translate into English using \"despite\".",
         source: "A pesar de que llovió mucho, el partido se jugó.",
-        answer: "Despite the heavy rain, the match went ahead.",
+        answer: "Despite the heavy rain, the game went ahead.",
         altAnswers: [
-          "Despite the heavy rain, the game went ahead.",
+          "Despite the heavy rain, the match went ahead.",
           "Despite the heavy rain, the match was played.",
           "Despite the heavy rain, the game was played.",
           "Despite heavy rain, the match went ahead.",

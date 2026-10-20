@@ -22,7 +22,7 @@ export const EN_C2_U03_EXTRA: Lesson[] = [
           "\"Sensitive\" is «sensible» (\"sensitive teeth\"); \"sensible\" is «sensato». «La consulta» is the \"appointment\" or \"consultation\", and the place is the \"doctor's office\" (US) or \"surgery\" (UK).",
         ],
         examples: [
-          { es: "I've got a bad cold and a sore throat.", en: "Estoy muy constipado y me duele la garganta." },
+          { es: "I've got a bad cold and a sore throat.", en: "Estoy muy resfriado y me duele la garganta." },
           { es: "Half the guests got food poisoning from the shrimp.", en: "La mitad de los invitados sufrió una intoxicación alimentaria por los camarones." },
           { es: "Can I have a repeat prescription for my inhaler?", en: "¿Me puede renovar la receta del inhalador?" },
           { es: "He's out for six weeks with a knee injury.", en: "Estará de baja seis semanas por una lesión de rodilla." },
@@ -32,7 +32,7 @@ export const EN_C2_U03_EXTRA: Lesson[] = [
         checkpoint: [
           {
             type: "multiple-choice",
-            question: "«Llevo tres días constipado.» Which is the best English translation?",
+            question: "«Llevo tres días resfriado.» Which is the best English translation?",
             options: [
               "I've had a cold for three days.",
               "I've been constipated for three days.",
@@ -61,7 +61,7 @@ export const EN_C2_U03_EXTRA: Lesson[] = [
         examples: [
           { es: "She was taken to the ER after the fall.", en: "La llevaron a urgencias después de la caída." },
           { es: "It's an outpatient procedure, so you'll go home the same day.", en: "Es un procedimiento ambulatorio, así que se irá a casa el mismo día." },
-          { es: "He was discharged from hospital on Monday.", en: "Le dieron el alta el lunes." },
+          { es: "He was discharged from the hospital on Monday.", en: "Le dieron el alta el lunes." },
           { es: "The cut needs stitches.", en: "La herida necesita puntos." },
           { es: "The crash caused several casualties.", en: "El accidente causó varias víctimas." },
         ],
@@ -110,7 +110,7 @@ export const EN_C2_U03_EXTRA: Lesson[] = [
           "My daughter has a cold, so she hasn't gone to school.",
           "My daughter has a cold, so she didn't go to school.",
         ],
-        explanation: "«Estar constipado» = \"have a cold\". *She is constipated would tell the teacher something very different (estreñida).",
+        explanation: "«Estar resfriado» (Spain: «constipado») = \"have a cold\". *She is constipated would tell the teacher something very different (estreñida).",
       },
       {
         type: "translate",
