@@ -1,6 +1,6 @@
 {
   "source": "cheneygross-afk/lengo",
-  "commit": "d6f568d3e3f13f86fa0adb2891a5fc350df67c7f",
+  "commit": "8e2fa688979dd509fa6a5f336c5fcf2af55009b5",
   "files": {
     "src/lib/lessons/a1-additions.ts": "e871d149b3a3e5ad7038a3da74cd692c61ee037042a2f7ca75c734f83fcbe434",
     "src/lib/lessons/a1-core.ts": "055e664d00f9876732224526712afa53b233d58ae88258f6b6bccce8de3c5251",
@@ -1322,7 +1322,7 @@
     "src/lib/lessons/pt-c2-u31-extra.ts": "5fc8739ea538b493501252c4ae61770a76973b4e403710054a28c9199dc430ac",
     "src/lib/lessons/pt-c2-u31.ts": "af333718f47af8c46a668bf613671bb97a290b0736019897c9784139de111628",
     "src/lib/lessons/pt-c2.ts": "d36fe824a9599e0ed4483ef69927ca0feb2d78f6e85e23ab6624cbc8cf4843cd",
-    "src/lib/lessons/pt-course.ts": "0832de95bfca8b679c888d8f1f4d137233d32dfafdbccbe64b0d5089ec0a4a1a",
+    "src/lib/lessons/pt-course.ts": "9c8f4baeaf251e9730afd741b659d10cb82b5ec1edfa4457ec51cce8007e99d8",
     "src/lib/lessons/pt-unit-reviews.ts": "8d0c99b0e166fb4712a0b49346e621b6a18611112adc78b864456c2c24246889",
     "src/lib/lessons/pt-units.ts": "759c6646163c07ed01de53ce6837cae31fa25f08a4ef39277fa0c6bf52cfb708",
     "src/lib/lessons/sequencing.ts": "23000ade9051f6047cef2f75afce91605815bed1ac5b91a20c980ab753fec3b8",
