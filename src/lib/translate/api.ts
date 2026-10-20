@@ -3,7 +3,7 @@ import { supabase } from "@/lib/supabase/client";
 // Mobile port of the web app's TranslateSearch direction-detection and
 // fetch logic (src/components/TranslateSearch.tsx). Now covers both
 // tracks the app offers -- Spanish, French, German, the Japanese beta and the
-// Brazilian Portuguese beta -- same as the
+// Brazilian Portuguese course -- same as the
 // website: which pair is active follows whichever language is selected
 // on Home, not a fixed Spanish/English pair.
 export type Direction = "en-es" | "es-en" | "en-ja" | "ja-en" | "en-fr" | "fr-en" | "en-de" | "de-en" | "en-pt" | "pt-en";
@@ -97,7 +97,7 @@ function detectPortugueseDirection(text: string): Direction {
 // `context` is which language is selected on Home -- absent any
 // script/vocabulary signal (plain ASCII, nothing recognized as Spanish),
 // this decides whether typing falls back to "en-es" or "en-ja". The
-// French and German courses and the Portuguese beta have their own pairs
+// French and German courses and the Portuguese course have their own pairs
 // (en-fr / fr-en, en-de / de-en, en-pt / pt-en).
 export function detectDirection(text: string, context: "es" | "ja" | "fr" | "de" | "pt"): Direction {
   if (context === "fr") return detectFrenchDirection(text);

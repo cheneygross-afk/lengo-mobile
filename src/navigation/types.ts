@@ -13,8 +13,7 @@ type GermanStoryLevelPath = GermanStoryLevel["path"];
 type PortugueseStoryLevelPath = PortugueseStoryLevel["path"];
 
 // The course a shared screen (review, flashcards, study tools) is showing.
-// "pt" is the Brazilian Portuguese beta, for the beta accounts only
-// (RootNavigator's portugueseOnly guard turns everyone else away).
+// "pt" is the Brazilian Portuguese course, open to every account.
 export type CourseLang = "es" | "ja" | "zh" | "fr" | "de" | "pt";
 // The courses with stories, Today's review and Study Tools of their own.
 export type ToolsLang = "es" | "fr" | "de" | "pt";
@@ -32,8 +31,8 @@ export type AppStackParamList = {
   // The German course's level picker (A1-C2 + Colloquial German &
   // Culture) -- see GermanLevelsScreen. Open to every account, like French.
   GermanLevels: undefined;
-  // The Brazilian Portuguese beta's level picker (A1-C2) -- see
-  // PortugueseLevelsScreen. Only the beta accounts (lib/portugueseBeta.ts).
+  // The Brazilian Portuguese course's level picker (A1-C2) -- see
+  // PortugueseLevelsScreen. Open to every account, like German.
   PortugueseLevels: undefined;
   // A Spanish/Japanese/Chinese module by moduleKey, a French level by
   // frenchLevel or a German level by germanLevel (French and German lessons
@@ -58,7 +57,7 @@ export type AppStackParamList = {
   // routes here; each level opens ReadingsList for that level.
   // lang "fr" shows the French course's stories (src/lib/stories/fr), "de"
   // the German course's (src/lib/stories/de).
-  // "pt" the Portuguese beta's (src/lib/stories/pt).
+  // "pt" the Portuguese course's (src/lib/stories/pt).
   ReadingLevels: { lang?: ToolsLang } | undefined;
   // levelPath defaults to "a1" when omitted; French levels are "fr/a1" ...,
   // German ones germanLevel.
@@ -103,7 +102,7 @@ export type AppStackParamList = {
   // conjugation, DELE practice, glossary) plus the placement test.
   // lang "fr": the French course's tools (grammar, conjugation, DELF/DALF,
   // glossary, placement); lang "de" the German course's (Goethe-Zertifikat);
-  // lang "pt" the Portuguese beta's (Celpe-Bras).
+  // lang "pt" the Portuguese course's (Celpe-Bras).
   StudyTools: { lang?: ToolsLang } | undefined;
   // Grammar guides (src/lib/grammar, synced from the website) -- the
   // list, then one guide by slug.
@@ -115,7 +114,7 @@ export type AppStackParamList = {
   FrenchPlacement: undefined;
   // The German course's placement test (src/lib/de-placementTest.ts).
   GermanPlacement: undefined;
-  // The Portuguese beta's placement test (src/lib/pt-placementTest.ts).
+  // The Portuguese course's placement test (src/lib/pt-placementTest.ts).
   PortuguesePlacement: undefined;
   // "Test out" of a unit (units.ts) -- see UnitTestScreen.
   UnitTest: { levelPath: string; unitId: string };
@@ -131,7 +130,7 @@ export type AppStackParamList = {
   // The German counterparts (src/lib/de-conjugation, src/lib/de-tools).
   GermanConjugation: { verb?: string } | undefined;
   GermanGlossary: undefined;
-  // The Portuguese beta's counterparts (src/lib/pt-conjugation, src/lib/pt-tools).
+  // The Portuguese course's counterparts (src/lib/pt-conjugation, src/lib/pt-tools).
   PortugueseConjugation: { verb?: string } | undefined;
   PortugueseGlossary: undefined;
   // DELE practice exams (src/lib/exams, synced from the website): the

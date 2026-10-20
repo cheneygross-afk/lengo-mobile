@@ -16,8 +16,8 @@ type Lang = "es" | "fr" | "de" | "pt" | "ja" | "zh";
 // /lessons/<course>/tools/writing) for the app. Open writing tasks for
 // each level, from a few sentences to a couple of pages, marked by the AI
 // writing feedback. src/lib/writingPrompts.ts is a copy of the website's
-// file. Spanish, French and German need a plan, like on the website;
-// Portuguese is the beta account's only (planCovers).
+// file. Spanish, French, German and Portuguese need a plan, like on the
+// website (planCovers).
 const COURSE: Record<Lang, { name: string; speech: SpeechLang; prefix: string }> = {
   es: { name: "Spanish", speech: "es-ES", prefix: "" },
   fr: { name: "French", speech: "fr-FR", prefix: "FR-" },

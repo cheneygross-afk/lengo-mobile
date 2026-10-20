@@ -50,7 +50,7 @@ export async function getGermanReviewCounts(now: number = Date.now()): Promise<T
   };
 }
 
-/** The Brazilian Portuguese beta's own Today's review, the same way
+/** The Brazilian Portuguese course's own Today's review, the same way
  * (/lessons/pt/review on the website): its missed questions, then its
  * flashcards. */
 export async function getPortugueseReviewCounts(now: number = Date.now()): Promise<TodaysReviewCounts> {

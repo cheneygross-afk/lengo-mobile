@@ -58,7 +58,7 @@ const KIND_LABEL: Record<PtConjugation["kind"], string> = {
 const PERSON_LABEL: Record<Person, string> = { eu: "eu", tu: "tu", ele: "você/ele/ela", nos: "nós", vos: "vós", eles: "vocês/eles/elas" };
 const SPECIAL = ["á", "â", "ã", "à", "é", "ê", "í", "ó", "ô", "õ", "ú", "ç"];
 
-// Mobile port of the Brazilian Portuguese beta's conjugation tool
+// Mobile port of the Brazilian Portuguese course's conjugation tool
 // (/lessons/pt/tools/conjugation): verb tables (every form tap-to-hear with
 // its subject, irregular forms highlighted, tu and vós behind a toggle) and
 // typed drills. The German counterpart is GermanConjugationScreen.

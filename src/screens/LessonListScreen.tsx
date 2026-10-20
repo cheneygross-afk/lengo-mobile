@@ -49,7 +49,7 @@ type Section = { key: string; unit?: ModuleUnit; title: string; data: Row[] };
 // the item bank, and their can-do statements ticked off from progress.
 // The Japanese beta's modules (see JapaneseLevelsScreen) stay one flat
 // list. A French level (route param frenchLevel) or German level
-// (germanLevel) or Brazilian Portuguese beta level (portugueseLevel) shows
+// (germanLevel) or Brazilian Portuguese course level (portugueseLevel) shows
 // its units the same way, once its lessons have loaded (lessons/french.ts,
 // lessons/german.ts, lessons/portuguese.ts).
 export default function LessonListScreen({ navigation, route }: Props) {

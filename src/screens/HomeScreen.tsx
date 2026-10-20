@@ -32,8 +32,6 @@ import { PORTUGUESE_LEVELS, loadPortugueseLevel, nextPortugueseLesson } from "@/
 
 type Props = NativeStackScreenProps<AppStackParamList, "Home">;
 
-// "pt" (Brazilian Portuguese) is a private beta: its pill, cards and
-// counts appear only for the beta account (useAuth().portugueseBeta).
 type Language = "es" | "fr" | "de" | "pt" | "ja" | "zh";
 
 // French's, German's and Portuguese's "Continue" card: the next lesson on
@@ -91,7 +89,7 @@ type Summary = {
   minutesToday: number;
 };
 
-async function loadSummary(fromCloud: boolean, portugueseBeta: boolean): Promise<Summary> {
+async function loadSummary(fromCloud: boolean): Promise<Summary> {
   const prefs = fromCloud ? await syncPrefs() : await loadPrefsLocal();
   const maps = await Promise.all(
     SPANISH_LEVEL_ORDER.map((lp) => (fromCloud ? syncCompletedMapFromCloud(lp) : getCompletedMap(lp)))
@@ -112,7 +110,7 @@ async function loadSummary(fromCloud: boolean, portugueseBeta: boolean): Promise
       es: todaysReviewTotal(await getTodaysReviewCounts()),
       fr: todaysReviewTotal(await getFrenchReviewCounts()),
       de: todaysReviewTotal(await getGermanReviewCounts()),
-      pt: portugueseBeta ? todaysReviewTotal(await getPortugueseReviewCounts()) : 0,
+      pt: todaysReviewTotal(await getPortugueseReviewCounts()),
       ja: (await getDueCardsForToday(ja, prefs)).length,
       zh: (await getDueCardsForToday(zh, prefs)).length,
     },
@@ -123,20 +121,17 @@ async function loadSummary(fromCloud: boolean, portugueseBeta: boolean): Promise
 }
 
 export default function HomeScreen({ navigation }: Props) {
-  const { session, portugueseBeta } = useAuth();
+  const { session } = useAuth();
   const [language, setLanguage] = useState<Language>("es");
 
   useFocusEffect(
     useCallback(() => {
       readJSON<Language>(LANGUAGE_STORAGE_KEY, "es").then((saved) => {
         // Every course is open to every account (lessons are gated one by
-        // one, with a free opening) -- except the Portuguese beta, which a
-        // saved "pt" opens only for the beta account.
-        setLanguage(
-          saved === "ja" || saved === "zh" || saved === "fr" || saved === "de" || (saved === "pt" && portugueseBeta) ? saved : "es"
-        );
+        // one, with a free opening).
+        setLanguage(saved === "ja" || saved === "zh" || saved === "fr" || saved === "de" || saved === "pt" ? saved : "es");
       });
-    }, [portugueseBeta])
+    }, [])
   );
 
   const [summary, setSummary] = useState<Summary | null>(null);
@@ -149,12 +144,12 @@ export default function HomeScreen({ navigation }: Props) {
       (async () => {
         // Local numbers right away; the first focus also merges in the
         // account's prefs and lesson completions from the website.
-        const local = await loadSummary(false, portugueseBeta);
+        const local = await loadSummary(false);
         if (cancelled) return;
         setSummary(local);
         if (syncedRef.current) return;
         syncedRef.current = true;
-        const synced = await loadSummary(true, portugueseBeta);
+        const synced = await loadSummary(true);
         if (cancelled) return;
         setSummary(synced);
         // First run: set up a starting level and daily goal -- unless
@@ -168,7 +163,7 @@ export default function HomeScreen({ navigation }: Props) {
       return () => {
         cancelled = true;
       };
-    }, [navigation, portugueseBeta])
+    }, [navigation])
   );
 
   // French's, German's or Portuguese's continue card, read while that course is
@@ -211,7 +206,7 @@ export default function HomeScreen({ navigation }: Props) {
       : language === "de"
         ? "Grammar guides, verb conjugation, Goethe-Zertifikat practice and the glossary."
         : language === "pt"
-          ? "Grammar guides, verb conjugation, Celpe-Bras practice, vocabulary and the glossary."
+          ? "Grammar guides, verb conjugation, Celpe-Bras practice and the glossary."
           : "Grammar guides, verb conjugation, DELE practice and the glossary.";
 
   return (
@@ -228,9 +223,7 @@ export default function HomeScreen({ navigation }: Props) {
             <LangPill label="Spanish" active={language === "es"} onPress={() => selectLanguage("es")} />
             <LangPill label="French" active={language === "fr"} onPress={() => selectLanguage("fr")} />
             <LangPill label="German" active={language === "de"} onPress={() => selectLanguage("de")} />
-            {portugueseBeta && (
-              <LangPill label="Portuguese" active={language === "pt"} onPress={() => selectLanguage("pt")} />
-            )}
+            <LangPill label="Portuguese" active={language === "pt"} onPress={() => selectLanguage("pt")} />
             <LangPill label="Japanese" active={language === "ja"} onPress={() => selectLanguage("ja")} />
             <LangPill label="Chinese" active={language === "zh"} onPress={() => selectLanguage("zh")} />
           </View>
@@ -329,7 +322,7 @@ export default function HomeScreen({ navigation }: Props) {
             ) : language === "de" ? (
               <NavCard icon="lessons" title="Lessons" body="Structured lessons, from beginner to mastery." onPress={() => navigation.navigate("GermanLevels")} />
             ) : language === "pt" ? (
-              <NavCard icon="lessons" title="Lessons" body="Brazilian Portuguese, from beginner to mastery. Beta." onPress={() => navigation.navigate("PortugueseLevels")} />
+              <NavCard icon="lessons" title="Lessons" body="Structured lessons, from beginner to mastery." onPress={() => navigation.navigate("PortugueseLevels")} />
             ) : language === "ja" ? (
               <NavCard icon="lessons" title="Lessons" body="Hiragana and katakana, then lessons level by level." onPress={() => navigation.navigate("JapaneseLevels")} />
             ) : (

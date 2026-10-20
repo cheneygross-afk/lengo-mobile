@@ -72,7 +72,8 @@ const GERMAN_TOOLS: CourseTool[] = [
   },
 ];
 
-// The Brazilian Portuguese beta's (the website's /lessons/pt/tools).
+// The Brazilian Portuguese course's (the website's /lessons/pt/tools).
+// Writing practice has its own card on Home, as for French and German.
 const PORTUGUESE_TOOLS: CourseTool[] = [
   {
     title: "Grammar Guides",
@@ -85,18 +86,13 @@ const PORTUGUESE_TOOLS: CourseTool[] = [
     open: (n) => n.navigate("PortugueseConjugation"),
   },
   {
-    title: "Writing Practice",
-    body: "Write anything from a few sentences to a couple of pages and get instant feedback at your level.",
-    open: (n) => n.navigate("Writing", { lang: "pt" }),
-  },
-  {
     title: "Celpe-Bras Exam Practice",
-    body: "Practice exams in the format of the Celpe-Bras, Brazil's official certificate, plus an A2 practice test.",
+    body: "Practice exams in the format of the Celpe-Bras, Brazil's official certificate, plus a practice test for the Elementary level.",
     open: (n) => n.navigate("Exams", { course: "pt" }),
   },
   {
-    title: "Vocabulary & Glossary",
-    body: "Every word the course teaches by level, ready to add to your flashcards, and a search in Portuguese or English.",
+    title: "Glossary",
+    body: "Look up any word taught in the course, with its meaning and the lessons it comes from.",
     open: (n) => n.navigate("PortugueseGlossary"),
   },
 ];

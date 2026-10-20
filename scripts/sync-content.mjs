@@ -70,8 +70,7 @@ const DIRS = {
     "lessons.ts", // static import of the full lesson list for the website's server pages
   ],
   "src/lib/de-tools/data": [],
-  // The Brazilian Portuguese beta's counterparts (shown only to the beta
-  // accounts, lib/portugueseBeta.ts): stories, Celpe-Bras practice exams,
+  // The Brazilian Portuguese course's counterparts: stories, Celpe-Bras practice exams,
   // conjugation engine and the study tools' vocabulary and writing tables.
   "src/lib/stories/pt": [],
   "src/lib/stories/pt/batches": [],
@@ -99,11 +98,7 @@ const webOnly = (dir, name) =>
 
 // Single website files mirrored to the same path here (pure data that
 // doesn't live in one of the directories above).
-const FILES = ["src/lib/placementTest.ts", "src/lib/fr-placementTest.ts", "src/lib/de-placementTest.ts", "src/lib/pt-placementTest.ts",
-  // Who sees the Brazilian Portuguese beta: the website's allowlist, so the
-  // app shows the course to exactly the same accounts.
-  "src/lib/portugueseBeta.ts",
-];
+const FILES = ["src/lib/placementTest.ts", "src/lib/fr-placementTest.ts", "src/lib/de-placementTest.ts", "src/lib/pt-placementTest.ts"];
 
 const header = (rel) =>
   `// Synced from ${SOURCE_REPO}:${rel} by scripts/sync-content.mjs -- edit it there, not here.\n`;

@@ -48,7 +48,7 @@ function SpanishReadingLevels({ navigation }: Props) {
   );
 }
 
-// The French or German course's or the Portuguese beta's stories
+// The French or German course's or the Portuguese course's stories
 // (lib/stories/courseStories.ts), level by level, as on the website's
 // /lessons/fr/stories, /lessons/de/stories and /lessons/pt/stories: graded
 // original stories with audio and glosses (no whole-text translation: tap

@@ -1,5 +1,5 @@
 // The Celpe-Bras practice exams (./pt, synced from the website), loaded on
-// demand: only the Portuguese beta's study tools need them.
+// demand: only the Portuguese course's study tools need them.
 import type { Exam } from "./types";
 
 let loading: Promise<Exam[]> | null = null;

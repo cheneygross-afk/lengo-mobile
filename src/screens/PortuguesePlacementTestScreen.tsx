@@ -53,7 +53,7 @@ function statusText(r: PtPlacementLevelResult): string {
   return r.passed ? `${r.correct}/${r.total} ✓` : `${r.correct}/${r.total}`;
 }
 
-// Mobile port of the Brazilian Portuguese beta's placement test (the
+// Mobile port of the Brazilian Portuguese course's placement test (the
 // website's PtPlacementTestRunner), laid out like GermanPlacementTestScreen:
 // the same two-stage adaptive test and scoring (src/lib/pt-placementTest.ts,
 // synced from the website), one question at a
