@@ -186,7 +186,8 @@ export type Lesson = {
   // src/lib/lessons/zh/README.md).
   // "FR-A1" ... "FR-C2" and "FR-Culture" are the French course (see
   // fr-course.ts). "PT-A1" ... "PT-C2" are the Brazilian Portuguese course
-  // (docs/portuguese-course).
+  // (docs/portuguese-course). "KO-Hangul" and "KO-A1" ... "KO-C2" are the
+  // Korean beta (ko-course.ts, docs/korean-course).
   level:
     | "A1" | "A2" | "B1" | "B2" | "C1" | "C2" | "C1/C2"
     | "JA-Alphabets" | "JA-A1" | "JA-A2" | "JA-B1" | "JA-B2" | "JA-C1" | "JA-C2"
@@ -194,7 +195,8 @@ export type Lesson = {
     | "ZH-Pinyin" | "ZH-A1" | "ZH-A2" | "ZH-B1" | "ZH-B2" | "ZH-C1" | "ZH-C2"
     | "FR-A1" | "FR-A2" | "FR-B1" | "FR-B2" | "FR-C1" | "FR-C2" | "FR-Culture"
     | "DE-A1" | "DE-A2" | "DE-B1" | "DE-B2" | "DE-C1" | "DE-C2" | "DE-Culture"
-    | "PT-A1" | "PT-A2" | "PT-B1" | "PT-B2" | "PT-C1" | "PT-C2";
+    | "PT-A1" | "PT-A2" | "PT-B1" | "PT-B2" | "PT-C1" | "PT-C2"
+    | "KO-Hangul" | "KO-A1" | "KO-A2" | "KO-B1" | "KO-B2" | "KO-C1" | "KO-C2";
   number: number;
   title: string;
   summary: string;
