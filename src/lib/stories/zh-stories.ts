@@ -250,19 +250,19 @@ export const ZH_STORIES: ZhStory[] = [
         en: "Next week is my little sister's birthday. I want to give her a special present, but I don't know what to buy.",
       },
       {
-        zh: "我 问 妈妈 。 妈妈 说 ： “ 你 妹妹 最近 很 喜欢 画画 ， 你 可以 给 她 买 一些 画笔 。 ”",
-        pinyin: "wǒ wèn māma 。 māma shuō ： “ nǐ mèimei zuìjìn hěn xǐhuan huàhuà ， nǐ kěyǐ gěi tā mǎi yìxiē huàbǐ 。 ”",
+        zh: "我 问 妈妈 。 妈妈 说 ： “ 你 妹妹 最近 很 喜欢 画画 ， 你 可以 给 她 买 一些 彩笔 。 ”",
+        pinyin: "wǒ wèn māma 。 māma shuō ： “ nǐ mèimei zuìjìn hěn xǐhuan huàhuà ， nǐ kěyǐ gěi tā mǎi yìxiē cǎibǐ 。 ”",
         en: "I ask Mum. She says, \"Your sister has really been into drawing lately. You could buy her some coloured pens.\"",
       },
       {
-        zh: "星期六 ， 我 去 了 商店 。 画笔 有 很多 种 ， 有 便宜 的 ， 也 有 贵 的 。 我 选 了 一 盒 二十四 色 的 ， 一百二十 块 。",
-        pinyin: "xīngqīliù ， wǒ qù le shāngdiàn 。 huàbǐ yǒu hěnduō zhǒng ， yǒu piányi de ， yě yǒu guì de 。 wǒ xuǎn le yì hé èrshísì sè de ， yìbǎi'èrshí kuài 。",
+        zh: "星期六 ， 我 去 了 商店 。 彩笔 有 很多 种 ， 有 便宜 的 ， 也 有 贵 的 。 我 选 了 一 盒 二十四 色 的 ， 一百二十 块 。",
+        pinyin: "xīngqīliù ， wǒ qù le shāngdiàn 。 cǎibǐ yǒu hěnduō zhǒng ， yǒu piányi de ， yě yǒu guì de 。 wǒ xuǎn le yì hé èrshísì sè de ， yìbǎi'èrshí kuài 。",
         en: "On Saturday I went to the shop. There were lots of kinds of pens, cheap ones and expensive ones. I chose a box of twenty-four colours for 120 kuai.",
       },
       {
-        zh: "回家 以后 ， 我 还 自己 做 了 一 张 生日 卡 ， 上面 写 了 ： “ 祝 你 生日 快乐 ！ ”",
-        pinyin: "huíjiā yǐhòu ， wǒ hái zìjǐ zuò le yì zhāng shēngrì kǎ ， shàngmian xiě le ： “ zhù nǐ shēngrì kuàilè ！ ”",
-        en: "When I got home, I also made a birthday card myself. On it I wrote, \"Happy birthday!\"",
+        zh: "回家 以后 ， 我 还 自己 做 了 一 张 生日 卡 ， 上面 写 着 ： “ 祝 你 生日 快乐 ！ ”",
+        pinyin: "huíjiā yǐhòu ， wǒ hái zìjǐ zuò le yì zhāng shēngrì kǎ ， shàngmian xiě zhe ： “ zhù nǐ shēngrì kuàilè ！ ”",
+        en: "When I got home, I also made a birthday card myself. It said, \"Happy birthday!\"",
       },
       {
         zh: "生日 那 天 ， 妹妹 打开 礼物 ， 高兴 得 跳 了 起来 。 她 说 ： “ 哥哥 ， 我 第一 张 画 就 给 你 画 ！ ”",
