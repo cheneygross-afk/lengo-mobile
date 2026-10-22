@@ -113,8 +113,8 @@ export const C1_WRITING_TASKS: UnitWriting = {
         "Venir + gerundio para algo que se repite desde el pasado (vengo notando)",
         "Estar + gerundio para una acción en curso"
       ],
-      "modelAnswer": "¡Hola, Inés! ¿Qué tal todo por Lisboa? Te cuento: llevo ya seis meses entrenando para la maratón de Valencia y, aunque al principio sufría muchísimo, voy mejorando poco a poco. Ahora corro veinte kilómetros sin parar. Eso sí, vengo notando desde marzo un dolor en la rodilla, así que estoy yendo a una fisioterapeuta dos veces por semana. Mi entrenador dice que voy bien de tiempo y que en noviembre estaré lista. ¿Vendrás a animarme? Un beso enorme, Clara",
-      "explanation": "Llevar + gerundio mide la duración (llevo seis meses entrenando); ir + gerundio, el avance gradual (voy mejorando); venir + gerundio, algo que se arrastra desde el pasado (vengo notando); estar + gerundio, la acción en curso (estoy yendo)."
+      "modelAnswer": "¡Hola, Inés! ¿Qué tal todo por Lisboa? Te cuento: llevo ya seis meses entrenando para la maratón de Valencia y, aunque al principio sufría muchísimo, voy mejorando poco a poco. Ahora corro veinte kilómetros sin parar. Eso sí, vengo notando desde marzo un dolor en la rodilla, así que estoy acudiendo a una fisioterapeuta dos veces por semana. Mi entrenador dice que voy bien de tiempo y que en noviembre estaré lista. ¿Vendrás a animarme? Un beso enorme, Clara",
+      "explanation": "Llevar + gerundio mide la duración (llevo seis meses entrenando); ir + gerundio, el avance gradual (voy mejorando); venir + gerundio, algo que se arrastra desde el pasado (vengo notando); estar + gerundio, la acción en curso (estoy acudiendo)."
     }
   ],
   "passive-impersonal-mastery-2": [

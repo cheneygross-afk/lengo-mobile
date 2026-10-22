@@ -128,7 +128,7 @@ export const C1_GUIDES: GrammarGuide[] = [
       {
         heading: "After prepositions: always the infinitive",
         body: [
-          "Spanish never puts a gerund after a preposition. Al + infinitive means \"when/on doing.\"",
+          "Modern Spanish does not put a gerund after a preposition (the old en + gerund, as in en llegando, survives only in legal or literary language). Al + infinitive means \"when/on doing.\"",
         ],
         examples: [
           { es: "Antes de salir, apaga la luz.", en: "Before leaving, turn off the light." },
@@ -521,7 +521,7 @@ export const C1_GUIDES: GrammarGuide[] = [
       {
         heading: "Commands",
         body: [
-          "Drop the final -r of the infinitive and stress the last vowel: hablá, comé, vení, decí, poné, tené. Ir has no vos command in common use; people say andá. Negative commands usually use the tú subjunctive (no vengas), though no vengás is common in Argentina.",
+          "Drop the final -r of the infinitive and stress the last vowel: hablá, comé, vení, decí, poné, tené. For ir, the vos command is andá (from andar). Negative commands usually use the tú subjunctive (no vengas), though no vengás is common in Argentina.",
         ],
         examples: [
           { es: "Vení, sentate acá.", en: "Come here, sit down." },
@@ -615,7 +615,7 @@ export const C1_GUIDES: GrammarGuide[] = [
       {
         heading: "Leísmo: le for a male person",
         body: [
-          "Using le as the direct object for a male person (Le vi ayer, meaning \"I saw him\") is widespread in Spain. The Real Academia accepts it for a single male person, though lo is still preferred in writing. Le for things (El libro le compré) and les for people in the plural are not accepted.",
+          "Using le as the direct object for a male person (Le vi ayer, meaning \"I saw him\") is widespread in Spain. The Real Academia accepts it for a single male person, though lo is still preferred in writing. Le for things (El libro le vi) and les for people in the plural are not accepted.",
           "Usted also triggers le in many regions, including Latin America, as a mark of politeness: ¿Le acompaño?",
         ],
         examples: [

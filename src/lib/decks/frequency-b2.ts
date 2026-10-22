@@ -1361,7 +1361,7 @@ export const FREQUENCY_B2: DeckCard[] = [
   {"rank":3354,"es":"Escocia","en":"Scotland","pos":"","exEs":"Pasamos una semana en Escocia.","exEn":"We spent a week in Scotland."},
   {"rank":3355,"es":"insinuar","en":"to hint, to imply","pos":"v.","exEs":"¿Estás insinuando que mentí?","exEn":"Are you implying that I lied?"},
   {"rank":3356,"es":"la hostia","en":"(vulgar, Spain) blow; damn!","pos":"n.","exEs":"¡Hostia, qué frío hace!","exEn":"Damn, it's cold!"},
-  {"rank":3357,"es":"el ego","en":"ego","pos":"n.","exEs":"El narrador es el alter ego del autor.","exEn":"The narrator is the author's alter ego."},
+  {"rank":3357,"es":"el ego","en":"ego","pos":"n.","exEs":"El narrador es el álter ego del autor.","exEn":"The narrator is the author's alter ego."},
   {"rank":3358,"es":"la aprobación","en":"approval","pos":"n.","exEs":"La ayuda está supeditada a la aprobación del presupuesto.","exEn":"The aid is conditional on the budget being approved."},
   {"rank":3359,"es":"ampliar","en":"to widen, to expand","pos":"v.","exEs":"Por lo tanto, es necesario ampliar la red.","exEn":"Therefore, it's necessary to expand the network."},
   {"rank":3360,"es":"involucrar","en":"to involve","pos":"v.","exEs":"No quiero involucrarme en sus problemas.","exEn":"I don't want to get involved in their problems."},

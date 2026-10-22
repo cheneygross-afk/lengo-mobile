@@ -77,8 +77,8 @@ const B2_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Quienquiera que gane, será una victoria justa.",
-            "en": "Whoever wins, it will be a fair victory."
+            "es": "Quienquiera que gane, la victoria será justa.",
+            "en": "Whoever wins, the victory will be fair."
           },
           {
             "es": "Cualquier decisión que tomes, te apoyaré.",
@@ -91,6 +91,9 @@ const B2_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración.",
             "sentence": "Cualquier libro que ___ (elegir, tú), lo voy a leer.",
             "answer": "elijas",
+            "altAnswers": [
+              "escojas"
+            ],
             "explanation": "\"Cualquier libro que\" introduce una posibilidad abierta, así que requiere subjuntivo."
           }
         ]
@@ -512,7 +515,7 @@ const B2_BASE_LESSONS: Lesson[] = [
     "level": "B2",
     "number": 3,
     "title": "Subjuntivo en Cláusulas Adverbiales, Part 1 of 2",
-    "summary": "Domina cuándo usar subjuntivo con cuando, aunque, para que, y otras conjunciones temporales y concesivas.",
+    "summary": "Domina cuándo usar subjuntivo con cuando, aunque, para que, antes de que y otras conjunciones temporales, concesivas y finales.",
     "duration": "7 min",
     "sections": [
       {
@@ -701,6 +704,9 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración.",
         "sentence": "Iremos al parque cuando ___ (parar) de llover.",
         "answer": "pare",
+        "altAnswers": [
+          "deje"
+        ],
         "explanation": "\"Cuando\" con un evento futuro incierto requiere subjuntivo."
       },
       {
@@ -1363,7 +1369,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "plasmar un sueño",
-            "en": "hacer realidad una idea"
+            "en": "dar forma concreta a una idea o a un sueño"
           },
           {
             "es": "perseguir un sueño",
@@ -2184,7 +2190,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué habría aceptado la primera persona?",
+            "question": "¿Qué lamenta no haber aceptado la primera persona?",
             "options": [
               "Un trabajo",
               "Una beca",
@@ -2658,11 +2664,11 @@ const B2_BASE_LESSONS: Lesson[] = [
         "options": [
           "Si hubiera sabido la verdad, habría actuado distinto.",
           "Si habría sabido la verdad, hubiera actuado distinto.",
-          "Si hubiera sabido la verdad, hubiera actuado distinto igual.",
+          "Si hubiera sabido la verdad, actuaría distinto ayer.",
           "Si sabría la verdad, habría actuado distinto."
         ],
         "correctIndex": 0,
-        "explanation": "La cláusula con «si» lleva pluscuamperfecto de subjuntivo (hubiera sabido) y la principal, condicional perfecto (habría actuado). «Si habría sabido» y «Si sabría» ponen el condicional justo después de «si», algo incorrecto, y en la versión con «hubiera actuado distinto igual» sobra «igual», que no tiene sentido ahí (aunque «hubiera actuado» en la principal sería aceptable)."
+        "explanation": "La cláusula con «si» lleva pluscuamperfecto de subjuntivo (hubiera sabido) y la principal, condicional perfecto (habría actuado). «Si habría sabido» y «Si sabría» ponen el condicional justo después de «si», algo incorrecto, y «actuaría distinto ayer» mezcla un condicional simple con una referencia al pasado, algo incoherente."
       },
       {
         "type": "multiple-choice",
@@ -3303,7 +3309,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "El principio general",
         "body": [
-          "Ser describe características inherentes e identidad; estar describe estados, condiciones y ubicaciones percibidas como temporales o cambiantes. Pero muchos adjetivos matizan este principio de forma interesante."
+          "Ser describe características inherentes e identidad; estar describe estados, condiciones y la ubicación física de personas y cosas (sean temporales o permanentes). Pero muchos adjetivos matizan este principio de forma interesante."
         ],
         "examples": [
           {
@@ -3852,7 +3858,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Cuál oración usa \"volverse\" correctamente?",
+            "question": "¿Cuál oración usa «volverse» correctamente como verbo de cambio?",
             "options": [
               "Se volvió profesor después de años de estudio.",
               "Con el tiempo, se volvió más desconfiado.",
@@ -4031,7 +4037,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "la superación personal",
-            "en": "proceso de mejorar continuamente uno mismo"
+            "en": "proceso de mejora continua de uno mismo"
           },
           {
             "es": "el punto de partida",
@@ -4150,7 +4156,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "en": "capacidad de decidir y actuar con determinación"
           },
           {
-            "es": "insistir",
+            "es": "persistir",
             "en": "mantenerse firme en un esfuerzo pese a los obstáculos"
           },
           {
@@ -4232,7 +4238,7 @@ const B2_BASE_LESSONS: Lesson[] = [
                 "right": "creencia de que las capacidades pueden desarrollarse"
               },
               {
-                "left": "insistir",
+                "left": "persistir",
                 "right": "mantenerse firme en un esfuerzo pese a los obstáculos"
               },
               {
@@ -4271,7 +4277,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           0,
           2
         ],
-        "explanation": "\"Se volvió muy exigente\" (cambio de carácter) y \"Llegó a ser el mejor de su clase\" (logro tras un proceso) son correctas. \"Se hizo las tres\" falla por la concordancia: con una hora en plural el verbo va en plural (\"se hicieron las tres\", como \"se hizo tarde\"). Y \"ponerse\" no se combina con \"ser\": se dice \"se hizo doctor\" o \"llegó a ser doctor\"."
+        "explanation": "\"Se volvió muy exigente\" (cambio de carácter) y \"Llegó a ser el mejor de su clase\" (logro tras un proceso) son correctas. \"Se hizo las tres\" no sirve para dar la hora: se dice \"eran las tres de la tarde\" (\"hacerse\" solo aparece en \"se hizo de noche/tarde\"). Y \"ponerse\" no se combina con \"ser\": se dice \"se hizo doctor\" o \"llegó a ser doctor\"."
       },
       {
         "type": "word-order",
@@ -4354,10 +4360,10 @@ const B2_BASE_LESSONS: Lesson[] = [
           "se puso",
           "se volvió",
           "llegó a ser",
-          "se hizo las cinco"
+          "se convirtió"
         ],
         "correctIndex": 2,
-        "explanation": "Llegar a ser describe un logro gradual, normalmente positivo: llegó a ser presidenta. Ponerse y volverse no se usan con cargos, y «se hizo las cinco» no tiene sentido."
+        "explanation": "Llegar a ser describe un logro gradual, normalmente positivo: llegó a ser presidenta. Ponerse y volverse no se usan con cargos, y «se convirtió presidenta» necesitaría «en»."
       },
       {
         "type": "multiple-choice",
@@ -4474,12 +4480,12 @@ const B2_BASE_LESSONS: Lesson[] = [
           "tantos",
           "fracasos,",
           "se",
-          "hizo",
+          "volvió",
           "más",
           "resiliente"
         ],
         "translation": "After so many failures, he became more resilient.",
-        "explanation": "Hacerse puede usarse con adjetivos para un cambio de carácter logrado con esfuerzo y superación."
+        "explanation": "Volverse describe un cambio de carácter gradual tras una experiencia; hacerse se reserva para profesión, ideología o un logro buscado."
       },
       {
         "type": "matching",
@@ -4495,7 +4501,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           },
           {
             "left": "la superación personal",
-            "right": "proceso de mejorar continuamente uno mismo"
+            "right": "proceso de mejora continua de uno mismo"
           },
           {
             "left": "el punto de partida",
@@ -4691,7 +4697,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "¿Qué propone el segundo hablante para evitar una crisis institucional?",
+            "question": "¿Qué propone quien dice «Estoy de acuerdo en parte» para evitar una crisis institucional?",
             "options": [
               "Una reforma completa e inmediata",
               "Una reforma gradual",
@@ -5137,7 +5143,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Adverbios enfáticos al inicio: jamás, nunca, apenas",
         "body": [
-          "Adverbios como jamás, nunca, apenas o tampoco pueden ir al principio de la oración para darles relieve; en esa posición sustituyen a \"no\" (Jamás había visto nada así = No había visto jamás nada así). A diferencia del inglés (Never had I seen...), el español no exige ninguna inversión especial: el sujeto puede ir antes o después del verbo con el mismo adverbio (Yo jamás he dicho eso / Jamás he dicho yo eso)."
+          "Adverbios como jamás, nunca, apenas o tampoco pueden ir al principio de la oración para darles relieve; jamás, nunca y tampoco, en esa posición, sustituyen a \"no\" (Jamás había visto nada así = No había visto jamás nada así). A diferencia del inglés (Never had I seen...), el español no exige ninguna inversión especial: el sujeto puede ir antes o después del verbo con el mismo adverbio (Yo jamás he dicho eso / Jamás he dicho yo eso)."
         ],
         "examples": [
           {
@@ -5902,7 +5908,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Contraste: mismo verbo, distinto modo",
         "body": [
-          "La diferencia entre indicativo y subjuntivo en cláusulas adjetivas depende únicamente de si el antecedente existe o se conoce."
+          "La diferencia entre indicativo y subjuntivo en cláusulas adjetivas depende sobre todo de si el hablante presenta el antecedente como existente y conocido."
         ],
         "examples": [
           {
@@ -5957,7 +5963,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "sentence": "No conozco a nadie que ___ (querer) trabajar los fines de semana.",
         "answer": "quiera",
         "hint": "El antecedente es negativo: nadie.",
-        "explanation": "'Nadie' es un antecedente negativo, por lo que siempre requiere subjuntivo: quiera."
+        "explanation": "'Nadie' es un antecedente negativo, por lo que normalmente lleva subjuntivo: quiera."
       },
       {
         "type": "translate",
@@ -5978,7 +5984,9 @@ const B2_BASE_LESSONS: Lesson[] = [
         "answer": "Ella busca una compañera de cuarto que no fume.",
         "altAnswers": [
           "Ella busca un compañero de cuarto que no fume.",
-          "Ella está buscando una compañera de cuarto que no fume."
+          "Ella está buscando una compañera de cuarto que no fume.",
+          "Ella busca una compañera de piso que no fume.",
+          "Ella busca un compañero de piso que no fume."
         ],
         "explanation": "Como todavía no se sabe si existe tal compañero/a de cuarto, se usa el subjuntivo: fume."
       },
@@ -6011,7 +6019,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Antecedente negativo: nadie, nada, ningún/a",
         "body": [
-          "Cuando el antecedente es negativo (nadie, nada, ningún/a) porque no existe, siempre se usa el subjuntivo."
+          "Cuando el antecedente es negativo (nadie, nada, ningún/a) porque no existe, normalmente se usa el subjuntivo."
         ],
         "examples": [
           {
@@ -6308,7 +6316,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "altAnswers": [
           "No hay nada aquí que pueda ayudarme."
         ],
-        "explanation": "'Nada' es un antecedente negativo, así que siempre requiere subjuntivo: pueda."
+        "explanation": "'Nada' es un antecedente negativo, así que normalmente lleva subjuntivo: pueda."
       }
     ]
   },
@@ -6477,7 +6485,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "right": "Lleva el paraguas en caso de que llueva."
           }
         ],
-        "explanation": "Estas cuatro conjunciones siempre exigen subjuntivo porque introducen condiciones, excepciones o situaciones hipotéticas."
+        "explanation": "Estas cuatro conjunciones (que verás en la Parte 3) exigen subjuntivo porque introducen condiciones, excepciones o situaciones hipotéticas."
       }
     ]
   },
@@ -7356,8 +7364,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "source": "Quería que fueras feliz.",
         "answer": "I wanted you to be happy.",
         "altAnswers": [
-          "I wanted you to be happy with your life.",
-          "I wanted you to be happy."
+          "I wanted you to be happy with your life."
         ],
         "explanation": "'Quería' (pasado) exige el imperfecto de subjuntivo 'fueras', de la raíz compartida entre 'ser' e 'ir'."
       }
@@ -7676,7 +7683,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Consejos con 'yo que tú' y 'yo en tu lugar'",
         "body": [
-          "Las expresiones 'yo que tú' y 'yo en tu lugar' sustituyen a 'si yo fuera tú' y siempre van seguidas del condicional para dar consejos."
+          "Las expresiones 'yo que tú' y 'yo en tu lugar' sustituyen a 'si yo fuera tú' y normalmente van seguidas del condicional para dar consejos."
         ],
         "examples": [
           {
@@ -8422,7 +8429,7 @@ const B2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Presente → Imperfecto",
         "body": [
-          "Recuerda que el verbo en presente de indicativo retrocede a imperfecto cuando el verbo introductor está en pasado."
+          "Recuerda que el verbo en presente de indicativo normalmente retrocede a imperfecto cuando el verbo introductor está en pasado."
         ],
         "examples": [
           {
@@ -9014,7 +9021,9 @@ const B2_BASE_LESSONS: Lesson[] = [
         "source": "The soup is very tasty.",
         "answer": "La sopa está muy rica.",
         "altAnswers": [
-          "La sopa está muy sabrosa."
+          "La sopa está muy sabrosa.",
+          "La sopa está muy buena.",
+          "La sopa está buenísima."
         ],
         "explanation": "'Estar rico/a' se usa para describir el sabor de la comida en un momento dado."
       },
@@ -9706,7 +9715,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           "se quedó"
         ],
         "correctIndex": 3,
-        "explanation": "Quedarse ciego describe el estado resultante de un hecho concreto, el accidente. Ponerse, volverse y hacerse no se usan con ciego en este sentido."
+        "explanation": "Quedarse ciego describe el estado resultante de un hecho concreto, el accidente. «Ponerse» y «hacerse» no se usan con ciego; «volverse ciego» existe, pero presenta la ceguera como un cambio gradual, no como resultado de un accidente concreto."
       },
       {
         "type": "translate",
@@ -9873,7 +9882,7 @@ const B2_BASE_LESSONS: Lesson[] = [
           1,
           2
         ],
-        "explanation": "«Se volvió muy desconfiado» y «Llegó a ser directora» son correctas. En «se hizo las tres» falla la concordancia: con la hora se dice «se hicieron las tres» (o simplemente «eran las tres»); y «se puso abogado» es incorrecto porque una profesión pide hacerse."
+        "explanation": "«Se volvió muy desconfiado» y «Llegó a ser directora» son correctas. «Hacerse» no sirve para dar la hora: se dice «eran las tres de la tarde» («hacerse» solo aparece en «se hizo de noche/tarde»); y «se puso abogado» es incorrecto porque una profesión pide hacerse."
       },
       {
         "type": "translate",
@@ -11128,7 +11137,7 @@ const B2_BASE_LESSONS: Lesson[] = [
             "pairs": [
               {
                 "left": "plasmar un sueño",
-                "right": "hacer realidad una idea"
+                "right": "dar forma concreta a una idea o a un sueño"
               },
               {
                 "left": "perseguir un sueño",
@@ -12407,7 +12416,7 @@ const B2_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "la superación personal",
-                "right": "proceso de mejorar continuamente uno mismo"
+                "right": "proceso de mejora continua de uno mismo"
               },
               {
                 "left": "el punto de partida",
@@ -12547,7 +12556,7 @@ const B2_BASE_LESSONS: Lesson[] = [
                 "right": "capacidad de decidir y actuar con determinación"
               },
               {
-                "left": "insistir",
+                "left": "persistir",
                 "right": "mantenerse firme en un esfuerzo pese a los obstáculos"
               },
               {
@@ -13576,6 +13585,7 @@ const B2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la palabra correcta.",
         "sentence": "El escritor usó una ___ para comparar la vida con un viaje.",
         "answer": "metáfora",
+        "altAnswers": ["analogía"],
         "explanation": "\"La metáfora\" es una figura literaria que compara dos cosas sin usar \"como\"."
       },
       {

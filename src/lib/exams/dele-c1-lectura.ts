@@ -289,7 +289,7 @@ export const DELE_C1_LECTURA: ExamPaper = {
         { n: 37, question: "", options: ["pero", "sino", "sin embargo"], answer: 1, explanation: "No es A, sino B: corrección tras una negación." },
         { n: 38, question: "", options: ["disponen", "dedican", "aprovechan"], answer: 0, explanation: "Disponer de algo: el régimen \"de su tiempo libre\" solo es posible con disponer." },
         { n: 39, question: "", options: ["se", "lo", "le"], answer: 0, explanation: "Callarse: todo se calla." },
-        { n: 40, question: "", options: ["escuchar", "escucharnos", "escuchándonos"], answer: 1, explanation: "Escucharnos a nosotros mismos: el pronombre reflexivo concuerda con el sujeto de podemos." },
+        { n: 40, question: "", options: ["escuchando", "escucharnos", "escuchándonos"], answer: 1, explanation: "Tras «podemos» va infinitivo, con el pronombre reflexivo enclítico: escucharnos a nosotros mismos. El gerundio no puede depender de «podemos»." },
       ],
     },
   ],

@@ -129,8 +129,8 @@ export const C2_WRITING_TASKS: UnitWriting = {
         "Coherencia entre la historia y la enseñanza del refrán",
         "Una fórmula para introducir la moraleja"
       ],
-      "modelAnswer": "Había en mi pueblo un panadero que se levantaba a las cuatro de la mañana para tener el pan listo antes que nadie. Su vecino, que también tenía horno, se reía de él: «¿Para qué tanto esfuerzo, si la gente compra igual?». Durante años, el vecino abrió tarde, cerró pronto y vivió tranquilo. Pero un invierno llegó al pueblo una cadena de supermercados con pan barato a todas horas. El panadero madrugador ya tenía una clientela fiel que lo prefería a cualquier otro; el vecino, en cambio, tuvo que cerrar en pocos meses. Cuando le preguntaron qué había pasado, se encogió de hombros. Su mujer, más sabia, lo resumió así: cría fama y échate a dormir.",
-      "explanation": "La historia ilustra el refrán «Cría fama y échate a dormir»: la buena reputación ganada con esfuerzo protege después. El refrán se cita completo, con su estructura bimembre, y se introduce con una fórmula (lo resumió así)."
+      "modelAnswer": "Había en mi pueblo un panadero que se levantaba a las cuatro de la mañana para tener el pan listo antes que nadie. Su vecino, que también tenía horno, se reía de él: «¿Para qué tanto esfuerzo, si la gente compra igual?». Durante años, el vecino abrió tarde, cerró pronto y vivió tranquilo. Pero un invierno llegó al pueblo una cadena de supermercados con pan barato a todas horas. El panadero madrugador ya tenía una clientela fiel que lo prefería a cualquier otro; el vecino, en cambio, tuvo que cerrar en pocos meses. Cuando le preguntaron qué había pasado, se encogió de hombros. Su mujer, más sabia, lo resumió así: a quien madruga, Dios le ayuda.",
+      "explanation": "La historia ilustra el refrán «A quien madruga, Dios le ayuda»: el esfuerzo constante y temprano da resultados. El refrán se cita completo, con su estructura bimembre, y se introduce con una fórmula (lo resumió así)."
     }
   ],
   "c2r-proverbs-mission-advice": [
@@ -354,13 +354,13 @@ export const C2_WRITING_TASKS: UnitWriting = {
         "Registro informal entre compañeros"
       ],
       "modelAnswer": "Hola, Clara: Lo más importante es que no leas todos los textos igual, porque no te dará tiempo. Si la pregunta es sobre la idea principal o el título más adecuado, haz una lectura global: lee el primer párrafo, la primera frase de cada párrafo y el final, sin detenerte en las palabras que no conozcas. En cambio, si te piden una fecha, una cifra o un nombre, no leas: barre el texto con la vista hasta encontrar el dato y solo entonces lee la frase completa. Por último, para las preguntas sobre la actitud del autor o el sentido de una expresión, ahí sí tienes que leer despacio, fijándote en los adjetivos y en los conectores. Ya me contarás qué tal. ¡Mucha suerte! Pedro",
-      "explanation": "El correo distingue la lectura global (captar la idea), la selectiva (localizar un dato) y la detallada (analizar actitud o matices), con un ejemplo de tarea para cada una. Los conectores (en cambio, por último) ordenan los consejos."
+      "explanation": "El correo distingue la lectura global (captar la idea), la selectiva (localizar un dato) y la intensiva (analizar actitud o matices), con un ejemplo de tarea para cada una. Los conectores (en cambio, por último) ordenan los consejos."
     }
   ],
   "c1c2-vocabulary-practice-14": [
     {
       "type": "write",
-      "prompt": "Has escuchado en la radio una entrevista a una socióloga sobre el lenguaje de los jóvenes. Escribe un comentario en la web de la emisora en el que distingas los datos que aportó de sus opiniones y des tu propia valoración. Usa colocaciones cultas (albergar dudas, zanjar una polémica, sembrar la discordia…).",
+      "prompt": "Has escuchado en la radio una entrevista a una socióloga sobre el lenguaje de los jóvenes. Escribe un comentario en la web de la emisora en el que distingas los datos que aportó de sus opiniones y des tu propia valoración. Usa colocaciones cultas de la lección (abrigar dudas, esgrimir argumentos, sembrar la discordia…).",
       "minWords": 90,
       "maxWords": 150,
       "rubric": [
@@ -369,8 +369,8 @@ export const C2_WRITING_TASKS: UnitWriting = {
         "Una valoración personal argumentada",
         "Registro cuidado propio de un comentario público"
       ],
-      "modelAnswer": "Escuché con interés la entrevista de ayer a la socióloga Laura Benítez. Conviene separar lo que aportó como dato de lo que expresó como opinión. Los datos son claros: según su estudio, el ochenta por ciento de los adolescentes encuestados usa a diario anglicismos en sus mensajes. Su opinión, en cambio, es que eso no empobrece el idioma, sino que lo renueva. Confieso que albergo algunas dudas al respecto: una cosa es incorporar palabras nuevas y otra muy distinta perder las que ya tenemos. Aun así, creo que la entrevista tuvo el mérito de no sembrar la discordia entre generaciones, como suele ocurrir con este tema. No pretendo zanjar la polémica, pero sí pedir más estudios que comparen el vocabulario de los jóvenes de hoy con el de hace veinte años.",
-      "explanation": "El comentario separa el dato (el ochenta por ciento de los encuestados) de la opinión (no empobrece el idioma, sino que lo renueva). Las colocaciones cultas (albergar dudas, sembrar la discordia, zanjar la polémica) elevan el registro y deben respetar su combinación fija."
+      "modelAnswer": "Escuché con interés la entrevista de ayer a la socióloga Laura Benítez. Conviene separar lo que aportó como dato de lo que expresó como opinión. Los datos son claros: según su estudio, el ochenta por ciento de los adolescentes encuestados usa a diario anglicismos en sus mensajes. Su opinión, en cambio, es que eso no empobrece el idioma, sino que lo renueva. Confieso que abrigo algunas dudas al respecto: una cosa es incorporar palabras nuevas y otra muy distinta perder las que ya tenemos. Aun así, creo que la entrevista tuvo el mérito de no sembrar la discordia entre generaciones, como suele ocurrir con este tema. Esgrimo un solo argumento más: hacen falta más estudios que comparen el vocabulario de los jóvenes de hoy con el de hace veinte años.",
+      "explanation": "El comentario separa el dato (el ochenta por ciento de los encuestados) de la opinión (no empobrece el idioma, sino que lo renueva). Las colocaciones cultas (abrigar dudas, sembrar la discordia, esgrimir un argumento) elevan el registro y deben respetar su combinación fija."
     }
   ],
   "debate-persuasion-3": [

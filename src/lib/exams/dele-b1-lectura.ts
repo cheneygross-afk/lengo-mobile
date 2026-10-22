@@ -197,7 +197,7 @@ export const DELE_B1_LECTURA: ExamPaper = {
       items: [
         { n: 13, question: "¿Quién aprendió el idioma en su propio país?", options: ["A. Olga", "B. James", "C. Mei"], answer: 2, explanation: "Mei: \"aprendí español sin salir de mi país\"." },
         { n: 14, question: "¿Quién aprendió al principio en su trabajo, sin clases?", options: ["A. Olga", "B. James", "C. Mei"], answer: 0, explanation: "Olga aprendió escuchando a sus compañeros del restaurante." },
-        { n: 15, question: "¿Quién dice que habla peor su lengua materna?", options: ["A. Olga", "B. James", "C. Mei"], answer: 1, explanation: "James: \"se me han olvidado algunas palabras de mi propia lengua\"." },
+        { n: 15, question: "¿Quién dice que ha olvidado palabras de su lengua materna?", options: ["A. Olga", "B. James", "C. Mei"], answer: 1, explanation: "James: \"se me han olvidado algunas palabras de mi propia lengua\"." },
         { n: 16, question: "¿Quién tuvo problemas con un sonido?", options: ["A. Olga", "B. James", "C. Mei"], answer: 0, explanation: "A Olga le costó la pronunciación de la erre." },
         { n: 17, question: "¿Quién entendió más de lo que esperaba en su primer viaje?", options: ["A. Olga", "B. James", "C. Mei"], answer: 2, explanation: "Mei: \"me sorprendió lo mucho que entendía\". A James le pasó lo contrario." },
         { n: 18, question: "¿Quién vivió con nativos que le ayudaban con el idioma?", options: ["A. Olga", "B. James", "C. Mei"], answer: 1, explanation: "James vivió con una familia mexicana que lo corregía." },
@@ -238,7 +238,7 @@ export const DELE_B1_LECTURA: ExamPaper = {
           body:
             "Querida Elena:\n\n" +
             "¡Por fin tengo un momento para escribirte! Perdona que no (25) antes, pero este mes he tenido muchísimo trabajo. La semana pasada (26) a Santiago para una reunión y aproveché para ver a tu hermano; me dijo que estás muy contenta en tu nuevo trabajo.\n\n" +
-            "Te escribo porque en agosto quiero hacer el Camino de Santiago y me encantaría que vinieras (27) nosotros: voy con mi primo Luis. Serían unos diez días, (28) Sarria hasta Santiago. Si te apetece, dímelo antes del día 15, (29) tengo que reservar los albergues pronto.\n\n" +
+            "Te escribo porque en agosto quiero hacer el Camino de Santiago y me encantaría que vinieras (27) nosotros: voy con mi primo Luis. Serían unos seis días, (28) Sarria hasta Santiago. Si te apetece, dímelo antes del día 15, (29) tengo que reservar los albergues pronto.\n\n" +
             "Espero que (30) todo bien por allí. Un abrazo muy fuerte,\n\nMarta",
         },
       ],

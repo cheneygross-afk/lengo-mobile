@@ -1304,7 +1304,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "zona",
           "afectada"
         ],
-        "translation": "The doctor carefully palpated the affected area.",
+        "translation": "The doctor carried out a careful palpation of the affected area.",
         "explanation": "La oración resultante describe una técnica habitual de exploración física: 'El médico realizó una palpación cuidadosa de la zona afectada'."
       }
     ]
@@ -2217,12 +2217,12 @@ const C2_BASE_LESSONS: Lesson[] = [
         "instructions": "Relaciona cada refrán con su enseñanza.",
         "pairs": [
           {
-            "left": "no es oro todo lo que reluce",
-            "right": "las apariencias favorables no siempre corresponden a la realidad"
+            "left": "el que la sigue la consigue",
+            "right": "la persistencia termina dando resultado"
           },
           {
-            "left": "más vale prevenir que curar",
-            "right": "es mejor evitar un problema de antemano que resolverlo después"
+            "left": "entre col y col, lechuga",
+            "right": "conviene alternar tareas distintas para no aburrirse ni saturarse"
           },
           {
             "left": "de tal palo, tal astilla",
@@ -2912,7 +2912,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La metáfora: identidad sin partícula comparativa",
         "body": [
-          "La metáfora identifica dos realidades distintas afirmando que una es la otra, sin recurrir a un nexo comparativo explícito. Esto la distingue del símil, que siempre necesita una partícula como como o cual para establecer la comparación de forma transparente. La metáfora, al eliminar ese nexo, produce un efecto más intenso y directo.",
+          "La metáfora identifica dos realidades distintas afirmando que una es la otra, sin recurrir a un nexo comparativo explícito. Esto la distingue del símil, que suele necesitar una partícula como «como» o «cual» para establecer la comparación de forma transparente. La metáfora, al eliminar ese nexo, produce un efecto más intenso y directo.",
           "Con el uso constante, muchas metáforas dejan de percibirse como figuras retóricas y pasan a integrarse en el significado literal del idioma: son las llamadas metáforas lexicalizadas. Un caso extremo es la catacresis, una metáfora obligatoria que se emplea porque el idioma carece de otra palabra para nombrar algo, como ocurre con partes de objetos que toman nombres del cuerpo humano o animal."
         ],
         "examples": [
@@ -4821,6 +4821,8 @@ const C2_BASE_LESSONS: Lesson[] = [
             "answer": "dio el visto bueno",
             "altAnswers": [
               "ha dado el visto bueno",
+              "dio su visto bueno",
+              "ha dado su visto bueno",
               "dio luz verde",
               "ha dado luz verde"
             ],
@@ -4957,7 +4959,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "type": "word-order",
             "prompt": "Ordena las palabras para formar la frase correcta.",
             "words": [
-              "la",
+              "La",
               "empresa",
               "decidió",
               "dar",
@@ -5128,6 +5130,10 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "poner sobre el tapete",
             "en": "plantear abiertamente un asunto para que sea discutido por todos"
+          },
+          {
+            "es": "tirar la casa por la ventana",
+            "en": "gastar sin reparar en gastos, sobre todo en celebraciones o lanzamientos"
           }
         ]
       }
@@ -5160,7 +5166,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "type": "word-order",
         "prompt": "Ordena las palabras para formar la frase correcta.",
         "words": [
-          "decidieron",
+          "Decidieron",
           "poner",
           "toda",
           "la",
@@ -5558,15 +5564,15 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Por qué los cambios de registro dentro de un mismo discurso suelen ser significativos?",
+        "question": "Según la socióloga, ¿por qué un mismo acento puede resultar clarísimo para unos oyentes e impenetrable para otros?",
         "options": [
-          "Porque revelan errores gramaticales del hablante",
-          "Porque casi siempre llevan una intención comunicativa concreta",
-          "Porque indican que el hablante ha perdido el hilo argumental",
-          "Porque solo ocurren en los textos escritos, nunca en el habla"
+          "Porque el acento condiciona la velocidad de habla y las reducciones",
+          "Porque unos oyentes tienen mejor vocabulario que otros",
+          "Porque el habla juvenil es un español peor",
+          "Porque en la radio nadie omite lo que ya se sobreentiende"
         ],
-        "correctIndex": 1,
-        "explanation": "Un cambio de registro suele marcar una intención deliberada: generar cercanía, introducir ironía, citar a otra persona con un matiz distinto, entre otras posibilidades. No revelan errores gramaticales ni pérdida del hilo, y ocurren tanto en el habla como en la escritura."
+        "correctIndex": 0,
+        "explanation": "La entrevista dice que el acento regional condiciona la velocidad de habla y los fenómenos de reducción, así que lo que a uno le suena clarísimo a otro puede resultarle casi impenetrable. El vocabulario no es la causa, y la socióloga rechaza expresamente que el habla juvenil sea un español «peor»."
       }
     ]
   },
@@ -5655,6 +5661,10 @@ const C2_BASE_LESSONS: Lesson[] = [
           {
             "es": "la denotación",
             "en": "el significado literal y objetivo de una palabra"
+          },
+          {
+            "es": "la connotación",
+            "en": "el valor subjetivo o asociativo que una palabra añade a su significado literal"
           }
         ]
       }
@@ -6068,19 +6078,21 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración sobre la concesión retórica.",
+        "prompt": "Ordena las palabras para formar una oración sobre la petición de principio.",
         "words": [
-          "Conceder",
-          "un",
-          "punto",
-          "secundario",
-          "refuerza",
-          "el",
-          "argumento",
-          "principal"
+          "El",
+          "razonamiento",
+          "circular",
+          "da",
+          "por",
+          "probado",
+          "lo",
+          "que",
+          "debería",
+          "demostrar"
         ],
-        "translation": "Conceding a minor point strengthens the main argument.",
-        "explanation": "El sujeto (Conceder un punto secundario) precede al verbo (refuerza) y a su complemento (el argumento principal)."
+        "translation": "Circular reasoning takes for granted what it should prove.",
+        "explanation": "El sujeto (El razonamiento circular) precede al verbo (da por probado) y a su complemento (lo que debería demostrar): la petición de principio da por cierto lo que aún hay que probar."
       }
     ]
   },
@@ -6140,26 +6152,26 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "matching",
-        "instructions": "Relaciona cada falacia con su definición.",
+        "instructions": "Relaciona cada fórmula con su valor.",
         "pairs": [
           {
-            "left": "la falacia ad hominem",
-            "right": "un ataque dirigido a la persona en vez de a su argumento"
+            "left": "discrepo respetuosamente en...",
+            "right": "introduce un desacuerdo firme sin resultar hostil"
           },
           {
-            "left": "la falacia del hombre de paja",
-            "right": "deformar el argumento ajeno para poder refutarlo con más facilidad"
+            "left": "no comparto del todo esa lectura",
+            "right": "matiza un desacuerdo parcial con una interpretación ajena"
           },
           {
-            "left": "la falacia de autoridad",
-            "right": "apelar a una autoridad para validar un argumento sin más pruebas"
+            "left": "adoptar un matiz conciliador",
+            "right": "mantiene un tono que busca acercar posturas pese al desacuerdo"
           },
           {
-            "left": "la petición de principio",
-            "right": "error de razonamiento que da por probado precisamente lo que se debe demostrar"
+            "left": "cerrar la puerta al diálogo",
+            "right": "adopta un tono condescendiente que impide cualquier acercamiento posterior"
           }
         ],
-        "explanation": "Reconocer estas cuatro falacias con precisión permite señalarlas durante un debate y desmontar argumentos que solo parecen sólidos."
+        "explanation": "Estas fórmulas permiten discrepar con firmeza sin atacar a la persona; un tono condescendiente, en cambio, cierra la puerta al diálogo."
       }
     ]
   },
@@ -7420,7 +7432,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "La fórmula de atribución también opina",
         "body": [
-          "Fórmulas como «cabe citar a este respecto» introducen una fuente especialmente pertinente, y la elección del verbo de atribución (señala, sostiene, pretende, admite) permite tomar posición ante la fuente sin decirlo abiertamente."
+          "Fórmulas como «cabe citar a este respecto» introducen una fuente especialmente pertinente, y la elección del verbo de atribución (señala, sostiene, alega, admite) permite tomar posición ante la fuente sin decirlo abiertamente."
         ],
         "examples": [
           {
@@ -7782,7 +7794,8 @@ const C2_BASE_LESSONS: Lesson[] = [
         "sentence": "Para un análisis más detallado, ___ al lector a la obra de Pérez (2010).",
         "answer": "remito",
         "altAnswers": [
-          "remitimos"
+          "remitimos",
+          "se remite"
         ],
         "explanation": "Remitir al lector a otra obra es indicarle dónde puede ampliar la información."
       },
@@ -8300,8 +8313,8 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "la que repite parte de lo dicho por el interlocutor con una intención concreta"
           },
           {
-            "left": "el paralelismo sintáctico",
-            "right": "repetición de una misma estructura gramatical para reforzar un mensaje"
+            "left": "la interpelación",
+            "right": "pregunta dirigida a una persona o colectivo concreto para comprometerlo con el argumento"
           }
         ],
         "explanation": "Estos cuatro recursos ilustran distintas maneras en que la estructura interrogativa se pone al servicio del énfasis y de la persuasión."
@@ -8733,7 +8746,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "body": [
           "La entrevista por competencias no pregunta de forma abstracta si el candidato posee la capacidad de liderazgo o la capacidad de negociación, sino que solicita un ejemplo concreto: «cuénteme una situación en la que tuvo que gestionar un conflicto dentro de su equipo». Responder con generalidades ante este tipo de pregunta suele decepcionar al entrevistador, que espera un relato estructurado y verificable.",
           "Una estructura ampliamente utilizada organiza la respuesta en cuatro partes: la situación de partida, la tarea concreta que correspondía al candidato, las acciones específicas que emprendió y, finalmente, el resultado obtenido, preferiblemente cuantificable. Este orden evita divagaciones y permite al entrevistador evaluar con precisión el desempeño destacado del candidato en un contexto real, no hipotético.",
-          "Conviene preparar de antemano varios relatos de este tipo, cada uno ilustrando una competencia distinta —trabajo en equipo, resolución de problemas, adaptarse al cambio—, de modo que resulte sencillo adaptar el ejemplo más adecuado a cada pregunta concreta que plantee el entrevistador durante la conversación."
+          "Conviene preparar de antemano varios relatos de este tipo, cada uno ilustrando una competencia distinta —trabajo en equipo, resolución de problemas, adaptación al cambio—, de modo que resulte sencillo adaptar el ejemplo más adecuado a cada pregunta concreta que plantee el entrevistador durante la conversación."
         ],
         "examples": [
           {
@@ -8914,7 +8927,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "un tipo de entrevista centrada en ejemplos concretos de comportamiento pasado"
           }
         ],
-        "explanation": "Estos conceptos son centrales para describir con precisión el perfil y el desempeño de un candidato durante una entrevista de trabajo."
+        "explanation": "Cada término nombra una idea clave de la entrevista: la trayectoria es el recorrido profesional, la proactividad es actuar sin que te lo pidan, el valor añadido es lo que aportas de más y la entrevista por competencias pide ejemplos reales de tu comportamiento pasado."
       }
     ]
   },
@@ -9528,7 +9541,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "crear vías de entendimiento entre posturas enfrentadas"
           }
         ],
-        "explanation": "Estos conceptos describen las herramientas centrales de la mediación verbal, desde la escucha inicial hasta la construcción del acuerdo final."
+        "explanation": "Cada término nombra una herramienta de la mediación: el malentendido es la confusión de partida, la escucha empática atiende a lo que siente el otro, asumir responsabilidad compartida reconoce la parte propia del conflicto y tender puentes acerca posturas."
       }
     ]
   },
@@ -9732,7 +9745,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el rencor"
         ],
         "correctIndex": 0,
-        "explanation": "«Tender puentes» es crear vías de entendimiento entre posturas enfrentadas. «Bajar la guardia» es dejar de estar alerta, el punto de fricción es el motivo del choque y el rencor es el resentimiento que perpetúa el conflicto."
+        "explanation": "«Tender puentes» es crear vías de entendimiento entre posturas enfrentadas. «Bajar la guardia» es abandonar una actitud defensiva, el punto de fricción es el motivo del choque y el rencor es el resentimiento que perpetúa el conflicto."
       },
       {
         "type": "fill-blank",
@@ -9809,8 +9822,8 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "Minutes later, the plane took off for Lisbon."
           },
           {
-            "es": "En 1898 España perdía sus últimas colonias.",
-            "en": "In 1898 Spain lost its last colonies."
+            "es": "En 1898 España perdía sus últimas colonias de ultramar.",
+            "en": "In 1898 Spain lost its last overseas colonies."
           }
         ],
         "checkpoint": [
@@ -10051,7 +10064,10 @@ const C2_BASE_LESSONS: Lesson[] = [
         "sentence": "Apenas hubo terminado la batalla, comenzó el saqueo. → Nada más ___ la batalla, comenzó el saqueo.",
         "answer": "terminar",
         "explanation": "«Nada más + infinitivo» expresa inmediatez en el español actual y sustituye con naturalidad al pretérito anterior.",
-        "en": "As soon as the battle [ended], the looting began."
+        "en": "As soon as the battle [ended], the looting began.",
+        "altAnswers": [
+          "acabar"
+        ]
       },
       {
         "type": "multiple-choice",
@@ -10925,7 +10941,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Léxico culto del relato",
         "body": [
-          "«Otrora» (antes, en otro tiempo: «la otrora próspera ciudad»); «coetáneo» (de la misma época: «un cronista coetáneo de los hechos»); «pretérito» como adjetivo culto (tiempos pretéritos); «postrero» (último); «sendos» (uno para cada uno); «el susodicho» (el ya mencionado, hoy arcaico o irónico); «a tenor de» (según: «a tenor de las fuentes»).",
+          "«Otrora» (antes, en otro tiempo: «la otrora próspera ciudad»); «coetáneo» (de la misma época: «un cronista coetáneo de los hechos»); «pretérito» como adjetivo culto (tiempos pretéritos); «postrero» (último); «sendos» (uno para cada uno de los mencionados: «Los dos reyes firmaron sendos tratados»); «el susodicho» (el ya mencionado, hoy arcaico o irónico); «a tenor de» (según: «a tenor de las fuentes»).",
           "No abuses: un párrafo con «otrora», «postrero» y «susodicho» seguidos suena pedante. Elige el culto cuando aporte precisión."
         ],
         "examples": [
@@ -11499,7 +11515,7 @@ const C2_BASE_LESSONS: Lesson[] = [
                 "right": "posibilidad de generalizar un hallazgo más allá del laboratorio"
               }
             ],
-            "explanation": "El diseño experimental exige distinguir con claridad estas tres nociones para poder interpretar correctamente los resultados obtenidos."
+            "explanation": "La variable independiente es la que el investigador cambia a propósito; el grupo de control no recibe la intervención y permite ver si el cambio se debe a ella; la validez externa pregunta si los resultados valen fuera del laboratorio."
           }
         ]
       }
@@ -11631,7 +11647,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multi-select",
-        "question": "¿Cuáles de estos elementos forman parte de un diseño experimental riguroso?",
+        "question": "Repaso de la Parte 1: ¿cuáles de estos elementos forman parte de un diseño experimental riguroso?",
         "options": [
           "La variable independiente",
           "El grupo de control",
@@ -11853,7 +11869,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "capacidad de crecer sin que los costes se disparen"
           }
         ],
-        "explanation": "Estos tres conceptos son centrales para entender los debates actuales sobre inteligencia artificial e innovación tecnológica."
+        "explanation": "El sesgo algorítmico es la distorsión que el sistema hereda de sus datos, la caja negra es el sistema cuyo funcionamiento no se puede ver y la escalabilidad es la capacidad de crecer sin que los costes se disparen."
       },
       {
         "type": "multiple-choice",
@@ -12120,7 +12136,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "cuentas",
           "continua"
         ],
-        "translation": "Good governance requires continuous accountability.",
+        "translation": "High-quality governance requires continuous accountability.",
         "explanation": "La oración resume la idea de que gobernar bien implica rendir cuentas de manera constante, no solo durante las elecciones."
       }
     ]
@@ -12311,7 +12327,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "modelo que no compromete el bienestar de las generaciones futuras"
           }
         ],
-        "explanation": "Estos tres conceptos permiten analizar con precisión los debates contemporáneos sobre medio ambiente y política."
+        "explanation": "El populismo opone un pueblo virtuoso a una élite corrupta, la polarización divide a la sociedad en bandos irreconciliables y el desarrollo sostenible atiende al presente sin comprometer a las generaciones futuras."
       },
       {
         "type": "multiple-choice",
@@ -12783,7 +12799,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "cualidad de aquello que podría no haber existido o haber sido de otro modo"
           }
         ],
-        "explanation": "Estos tres conceptos son herramientas centrales del vocabulario filosófico abstracto."
+        "explanation": "El paralogismo es un error de razonamiento sin intención de engañar (a diferencia del sofisma), el nihilismo niega que exista un sentido objetivo y la contingencia es lo que podría no haber existido."
       },
       {
         "type": "multiple-choice",
@@ -13297,7 +13313,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "es": "el personaje",
-            "en": "figura que protagoniza la acción de una obra y sostiene su propia lógica interna"
+            "en": "figura que interviene en la acción de una obra y se rige por su propia lógica interna"
           },
           {
             "es": "la motivación",
@@ -13717,7 +13733,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "recurso tan repetido que ha perdido su capacidad de sorprender"
           }
         ],
-        "explanation": "Estos tres conceptos forman parte del vocabulario técnico indispensable para una crítica cultural rigurosa."
+        "explanation": "La reseña crítica valora y analiza una obra, el subtexto es lo que esta sugiere sin decirlo y el cliché es el recurso gastado por el uso: no los confundas con el simple resumen del argumento."
       },
       {
         "type": "multiple-choice",
@@ -13789,7 +13805,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Las fusiones y adquisiciones empresariales",
         "body": [
           "Una fusión empresarial ocurre cuando dos compañías deciden combinar sus operaciones para constituir una entidad nueva, mientras que una adquisición se produce cuando una empresa compra a otra, que pasa a operar bajo su control sin que necesariamente desaparezca del todo su identidad. La distinción, aunque técnica, resulta relevante porque afecta directamente a cómo se reparte el poder de decisión en la organización resultante.",
-          "El capital de riesgo desempeña un papel decisivo en la financiación de empresas emergentes que, por su propia naturaleza, carecen todavía de un historial financiero sólido que las haría elegibles para un crédito bancario convencional: los inversores asumen un riesgo considerablemente mayor a cambio de la posibilidad de obtener, si la apuesta resulta acertada, una rentabilidad muy superior a la de una inversión tradicional.",
+          "El capital de riesgo desempeña un papel decisivo en la financiación de empresas emergentes que, por su propia naturaleza, carecen todavía de un historial financiero sólido que las haría aptas para un crédito bancario convencional: los inversores asumen un riesgo considerablemente mayor a cambio de la posibilidad de obtener, si la apuesta resulta acertada, una rentabilidad muy superior a la de una inversión tradicional.",
           "La cuota de mercado que una empresa logra retener tras una fusión no depende únicamente de la lógica financiera de la operación, sino también de factores menos tangibles, como la reacción de los clientes ante el cambio de marca o la capacidad de la nueva entidad de integrar culturas corporativas que, con frecuencia, resultan más difíciles de fusionar que los propios balances contables."
         ],
         "examples": [
@@ -13836,7 +13852,7 @@ const C2_BASE_LESSONS: Lesson[] = [
                 "right": "financiación destinada a empresas emergentes de alto potencial"
               }
             ],
-            "explanation": "Estos tres términos son fundamentales para describir con precisión las operaciones corporativas más habituales."
+            "explanation": "Una fusión crea una entidad nueva, una adquisición es la compra de una empresa por otra y el capital de riesgo financia empresas emergentes: no los confundas, porque cambia quién controla la empresa resultante."
           }
         ]
       }
@@ -14190,7 +14206,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "contracción sostenida de la actividad productiva"
           }
         ],
-        "explanation": "Estos tres conceptos macroeconómicos son esenciales para interpretar cualquier análisis de coyuntura económica."
+        "explanation": "Déficit y superávit son opuestos (gastar más o menos de lo que se ingresa) y la recesión es una caída sostenida de la actividad: no los confundas con la inflación, que es una subida de precios."
       },
       {
         "type": "multiple-choice",
@@ -14305,7 +14321,7 @@ const C2_BASE_LESSONS: Lesson[] = [
                 "right": "coexistencia de varias voces igualmente legítimas en una obra"
               }
             ],
-            "explanation": "Estos conceptos permiten analizar con precisión cómo una obra construye su relación de confianza o de distancia con el lector."
+            "explanation": "El narrador confiable pide fe al lector, el poco confiable la pone a prueba y la polifonía reparte la verdad entre varias voces: lo que cambia es cuánto debe sospechar el lector."
           }
         ]
       }
@@ -14955,7 +14971,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "En una reunión en Bogotá, un colega te advierte: «No dé papaya con esos datos». ¿Qué te aconseja?",
+            "question": "En una reunión en Bogotá, un colega te advierte: «No des papaya con esos datos». ¿Qué te aconseja?",
             "options": [
               "Que no facilites que alguien se aproveche de ti",
               "Que compartas los datos con generosidad",
@@ -15570,7 +15586,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "el",
           "contrato."
         ],
-        "translation": "Whatever happens, we'll sign the contract tomorrow.",
+        "translation": "Whatever it may be, we'll sign the contract tomorrow.",
         "explanation": "«Sea lo que fuere» es una fórmula fija con futuro de subjuntivo (hoy también «sea lo que sea»)."
       }
     ]
@@ -15918,7 +15934,9 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Mientras el caso esté sub iudice, no haremos declaraciones.",
           "Mientras el asunto esté sub iudice, no haremos comentarios.",
           "Mientras el caso esté sub iudice, no haremos comentarios.",
-          "Mientras el asunto esté subjúdice, no haremos declaraciones."
+          "Mientras el asunto esté subjúdice, no haremos declaraciones.",
+          "Mientras el asunto esté sub judice, no haremos declaraciones.",
+          "Mientras el caso esté sub judice, no haremos declaraciones."
         ],
         "explanation": "«Mientras» con valor temporal de futuro lleva subjuntivo (esté); «sub iudice» se escribe en latín, sin tilde."
       },
@@ -16261,7 +16279,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "mayor."
         ],
         "translation": "Neither party shall be liable for delays due to force majeure.",
-        "explanation": "Cláusula de exoneración por fuerza mayor."
+        "explanation": "«Responder de» + sustantivo es la colocación habitual («responder de los daños»); «debidos a fuerza mayor» delimita la única causa que exime a las partes."
       }
     ]
   },
@@ -16335,7 +16353,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "I've had a cold since Monday."
           },
           {
-            "es": "Saqué turno con la clínica para el jueves. (Río de la Plata)",
+            "es": "Saqué turno en la clínica para el jueves. (Río de la Plata)",
             "en": "I got an appointment at the clinic for Thursday."
           }
         ],
@@ -16350,7 +16368,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               "Está embarazada"
             ],
             "correctIndex": 0,
-            "explanation": "En España «constipado» = resfriado. El estreñimiento se dice «estar estreñido»; «intoxicación» es envenenamiento y «embarazada» es otro falso amigo clásico (pregnant), que no viene al caso."
+            "explanation": "En España «constipado» = resfriado. El estreñimiento se dice «estar estreñido»; «intoxicación» es envenenamiento y «embarazada» significa «pregnant» y no tiene relación con el catarro (el falso amigo clásico es «embarrassed», que en español se dice «avergonzado», no «embarazado»)."
           },
           {
             "type": "fill-blank",
@@ -16767,7 +16785,6 @@ const C2_BASE_LESSONS: Lesson[] = [
         "source": "I'm afraid the results are not what we'd hoped for.",
         "answer": "Me temo que los resultados no son los que esperábamos.",
         "altAnswers": [
-          "Me temo que los resultados no son los que esperábamos.",
           "Lamento decirle que los resultados no son los que esperábamos.",
           "Me temo que los resultados no son lo que esperábamos."
         ],
@@ -16894,7 +16911,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "hipálage"
           }
         ],
-        "explanation": "Figuras de la tradición literaria española."
+        "explanation": "Un verde chillón mezcla vista y oído (sinestesia); fuego helado une opuestos en un sintagma (oxímoron); «Vivo sin vivir en mí» es un enunciado paradójico entero; en «cigarrillo pensativo» el adjetivo se desplaza del fumador al objeto (hipálage)."
       },
       {
         "type": "multiple-choice",
@@ -17972,7 +17989,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "heading": "Colocaciones del lenguaje económico",
         "body": [
           "Se «cierra un ejercicio» (año contable) con beneficios o pérdidas; se «incurre en pérdidas»; las acciones «cotizan al alza / a la baja»; una deuda se «salda» o se «liquida»; se «dota» una provisión; se «reparte» un dividendo; se «presenta» o «se declara» un concurso de acreedores (España) o una quiebra; una empresa «entra en números rojos» y «sale de ellos».",
-          "Un error de colocación delata al no nativo aunque la gramática sea perfecta: «hacer pérdidas» o «pagar dividendos» se entienden, pero en la prensa económica lo habitual es «incurrir en / registrar pérdidas» y «repartir dividendos»."
+          "Un error de colocación delata al no nativo aunque la gramática sea perfecta: «hacer pérdidas» se entiende, pero en la prensa económica lo habitual es «incurrir en / registrar pérdidas»; con dividendos se dice «repartir» o «abonar» (también «pagar», que no es incorrecto)."
         ],
         "examples": [
           {
@@ -20812,7 +20829,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "«suceso»: acontecimiento, sobre todo desgraciado (el logro es «éxito»).",
           "«honesto»: decente, recatado y honrado (el que dice la verdad es más bien «sincero»).",
           "«introducir»: meter algo dentro o empezar a usarlo (a una persona se la «presenta»).",
-          "«casual»: fortuito, que ocurre por azar (la ropa informal es «ropa informal»).",
+          "«casual»: fortuito, que ocurre por azar (la ropa «casual» se dice «ropa informal»).",
           "«rudo»: tosco, áspero, sin pulir (el maleducado es «grosero»).",
           "«caer en desgracia»: perder el favor o la estima de los demás; fuera de esta locución, «desgracia» suele significar infortunio (la deshonra es «deshonra»)."
         ],
@@ -20944,7 +20961,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Qué palabra corresponde a esta definición: «fortuito, que ocurre por azar (la ropa informal es «ropa informal»)»?",
+        "question": "¿Qué palabra corresponde a esta definición: «fortuito, que ocurre por azar (la ropa «casual» se dice «ropa informal»)»?",
         "options": [
           "jugar un rol",
           "suceso",
@@ -20952,7 +20969,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "rudo"
         ],
         "correctIndex": 2,
-        "explanation": "«casual» significa fortuito, que ocurre por azar (la ropa informal es «ropa informal»). En cambio, «rudo» significa tosco, áspero, sin pulir (el maleducado es «grosero»); «jugar un rol» es un calco de «to play a role»; en registro cuidado, «desempeñar un papel»; «suceso» significa acontecimiento, sobre todo desgraciado (el logro es «éxito»)."
+        "explanation": "«casual» significa fortuito, que ocurre por azar (la ropa «casual» se dice «ropa informal»). En cambio, «rudo» significa tosco, áspero, sin pulir (el maleducado es «grosero»); «jugar un rol» es un calco de «to play a role»; en registro cuidado, «desempeñar un papel»; «suceso» significa acontecimiento, sobre todo desgraciado (el logro es «éxito»)."
       },
       {
         "type": "multiple-choice",
@@ -21046,7 +21063,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           },
           {
             "left": "casual",
-            "right": "fortuito, que ocurre por azar (la ropa informal es «ropa informal»)"
+            "right": "fortuito, que ocurre por azar (la ropa «casual» se dice «ropa informal»)"
           },
           {
             "left": "a nivel de",
@@ -21151,12 +21168,12 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Latinismos adaptados y de uso frecuente",
         "body": [
-          "Algunos se han adaptado a la ortografía española («cuórum»); otros, como «motu proprio», «per capita», «a priori» o «modus operandi», siguen siendo locuciones latinas y se escriben sin tilde.",
+          "Algunos se han adaptado a la ortografía española («cuórum»); otros, como «motu proprio», «a priori» o «modus operandi», siguen siendo locuciones latinas y se escriben sin tilde (salvo «per cápita» y «álter ego», que sí la llevan según las reglas del español).",
           "«motu proprio»: por propia iniciativa (no «de motu propio»).",
           "«lapsus»: error involuntario al hablar o escribir.",
           "«cuórum»: número mínimo de miembros presentes para que una votación sea válida (forma adaptada de «quorum»).",
-          "«per capita»: por persona, por cabeza (locución latina: sin tilde).",
-          "«alter ego»: persona de absoluta confianza de otra; también el otro yo de alguien.",
+          "«per cápita»: por persona, por cabeza (locución latina que se escribe con tilde).",
+          "«álter ego»: persona de absoluta confianza de otra; también el otro yo de alguien.",
           "«a priori»: antes de examinar el asunto, en principio.",
           "«modus operandi»: manera característica de actuar."
         ],
@@ -21174,11 +21191,11 @@ const C2_BASE_LESSONS: Lesson[] = [
             "en": "The vote couldn't take place for lack of a quorum."
           },
           {
-            "es": "La renta per capita creció un 2 %.",
+            "es": "La renta per cápita creció un 2 %.",
             "en": "Income per capita grew by 2%."
           },
           {
-            "es": "El narrador es el alter ego del autor.",
+            "es": "El narrador es el álter ego del autor.",
             "en": "The narrator is the author's alter ego."
           },
           {
@@ -21208,7 +21225,7 @@ const C2_BASE_LESSONS: Lesson[] = [
                 "right": "número mínimo de miembros presentes para que una votación sea válida (forma adaptada de «quorum»)"
               },
               {
-                "left": "per capita",
+                "left": "per cápita",
                 "right": "por persona, por cabeza"
               }
             ],
@@ -21236,11 +21253,11 @@ const C2_BASE_LESSONS: Lesson[] = [
         "options": [
           "statu quo",
           "ad hoc",
-          "alter ego",
+          "álter ego",
           "lapsus"
         ],
         "correctIndex": 2,
-        "explanation": "«alter ego» significa persona de absoluta confianza de otra; también el otro yo de alguien. En cambio, «lapsus» significa error involuntario al hablar o escribir; «statu quo» significa estado de cosas en un momento dado (no «status quo»); «ad hoc» significa creado específicamente para un fin concreto."
+        "explanation": "«álter ego» significa persona de absoluta confianza de otra; también el otro yo de alguien. En cambio, «lapsus» significa error involuntario al hablar o escribir; «statu quo» significa estado de cosas en un momento dado (no «status quo»); «ad hoc» significa creado específicamente para un fin concreto."
       },
       {
         "type": "fill-blank",
@@ -21323,7 +21340,7 @@ const C2_BASE_LESSONS: Lesson[] = [
             "right": "en el último momento, en una situación extrema"
           },
           {
-            "left": "alter ego",
+            "left": "álter ego",
             "right": "persona de absoluta confianza de otra; también el otro yo de alguien"
           }
         ],
@@ -23972,10 +23989,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "sentence": "Se recomienda ___ antibiótica antes de la cirugía.",
         "answer": "profilaxis",
         "explanation": "«la profilaxis»: conjunto de medidas para prevenir una enfermedad.",
-        "en": "Antibiotic [prophylaxis] is recommended before surgery.",
-        "altAnswers": [
-          "prevención"
-        ]
+        "en": "Antibiotic [prophylaxis] is recommended before surgery."
       },
       {
         "type": "fill-blank",
@@ -25072,7 +25086,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "explanation": "«repantigarse»: sentarse cómodamente, extendiendo el cuerpo.",
         "en": "He [sprawled] in the armchair and switched on the TV.",
         "altAnswers": [
-          "repanchingó",
+          "repanchigó",
           "arrellanó"
         ]
       },
@@ -25410,7 +25424,7 @@ const C2_BASE_LESSONS: Lesson[] = [
     "level": "C2",
     "number": 168,
     "title": "Vocabulario C2: el mismo concepto en tres registros y cinco países, Part 27 of 30",
-    "summary": "Currar, laburar, chambear; la pasta, la plata, la lana; guay, chévere, chido, bacán; mogollón: reconocer las palabras coloquiales de cada zona y elegir la forma neutra cuando haga falta.",
+    "summary": "Currar, laburar, chambear; la pasta, la plata, la lana; guay, chévere, chido, bacán; mogollón: reconocer las palabras coloquiales de cada zona y saber qué significan en español neutro.",
     "duration": "10 min",
     "sections": [
       {
@@ -26307,7 +26321,7 @@ const C2_BASE_LESSONS: Lesson[] = [
           "Términos para analizar la calidad de un razonamiento.",
           "«la aporía»: dificultad lógica que parece no tener solución.",
           "«el sofisma»: razonamiento falso con apariencia de verdad.",
-          "«la tautología»: repetición inútil de una misma idea con distintas palabras.",
+          "«la tautología»: afirmación que repite la misma idea (a veces con las mismas palabras) y por eso no dice nada nuevo.",
           "«la falacia ad hominem»: falacia que ataca a la persona en lugar de su argumento.",
           "«apriorístico»: basado en ideas previas, no en la experiencia o el examen.",
           "«la navaja de Ockham»: principio según el cual, entre varias explicaciones, suele preferirse la más simple.",
@@ -26358,7 +26372,7 @@ const C2_BASE_LESSONS: Lesson[] = [
               },
               {
                 "left": "la tautología",
-                "right": "repetición inútil de una misma idea con distintas palabras"
+                "right": "afirmación que repite la misma idea y por eso no dice nada nuevo"
               },
               {
                 "left": "la falacia ad hominem",
@@ -26428,7 +26442,7 @@ const C2_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la palabra adecuada.",
         "sentence": "Decir «es lo que es» es una ___.",
         "answer": "tautología",
-        "explanation": "«la tautología»: repetición inútil de una misma idea con distintas palabras.",
+        "explanation": "«la tautología»: afirmación que repite la misma idea (a veces con las mismas palabras) y por eso no dice nada nuevo.",
         "en": "Saying 'it is what it is' is a [tautology].",
         "altAnswers": [
           "redundancia"
@@ -26523,7 +26537,7 @@ const C2_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Gerundio vs. infinitivo: usos avanzados",
         "body": [
-          "El gerundio de posterioridad (usar el gerundio para una acción claramente posterior: «Estudió en Madrid, trasladándose luego a Roma») es un error común; solo se admite cuando la acción sigue inmediatamente («Salió dando un portazo»). El infinitivo funciona como sujeto o como mandato formal impersonal."
+          "El gerundio de posterioridad (usar el gerundio para una acción claramente posterior: «Estudió en Madrid, trasladándose luego a Roma») es un error común; solo se admite cuando la acción es inmediata y prácticamente simultánea («Salió dando un portazo»). El infinitivo funciona como sujeto o como mandato formal impersonal."
         ]
       },
       {

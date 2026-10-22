@@ -7737,10 +7737,10 @@ const B1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "Completa con la forma correcta.",
-        "sentence": "Es cierto que él ___ (saber) la respuesta.",
-        "answer": "sabe",
+        "sentence": "Es obvio que Marta ___ (estar) muy cansada.",
+        "answer": "está",
         "hint": "presente de indicativo",
-        "explanation": "Es cierto que expresa certeza, por lo que se usa el indicativo: sabe."
+        "explanation": "Es obvio que expresa certeza, por lo que se usa el indicativo: está."
       }
     ]
   },

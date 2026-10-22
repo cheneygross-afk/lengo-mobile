@@ -10410,8 +10410,7 @@ const A2_BASE_LESSONS: Lesson[] = [
           "favor"
         ],
         "explanation": "Por favor is a fixed expression meaning please.",
-        "translation": "Close the door, please.",
-        "altOrders": [["Por", "favor,", "cierra", "la", "puerta"]]
+        "translation": "Close the door, please."
       },
       {
         "type": "multiple-choice",

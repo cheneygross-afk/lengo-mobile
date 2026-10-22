@@ -140,7 +140,7 @@ export const B2_GUIDES: GrammarGuide[] = [
         ],
         examples: [
           { es: "Ahorro para comprar un coche.", en: "I'm saving to buy a car." },
-          { es: "Ahorro para que mis hijos estudien.", en: "I'm saving so my children can study." },
+          { es: "Ahorro para que mis hijos estudien.", en: "I'm saving so my children can study (different subjects, so para que + subjunctive)." },
           { es: "Lávate las manos antes de comer.", en: "Wash your hands before eating." },
         ],
       },
@@ -206,7 +206,7 @@ export const B2_GUIDES: GrammarGuide[] = [
           headers: ["Main verb", "Subjunctive", "Example"],
           rows: [
             ["present", "present", "Quiero que vengas."],
-            ["future", "present", "Querré que vengas."],
+            ["future", "present", "Te pediré que vengas."],
             ["command", "present", "Dile que venga."],
             ["present perfect", "present (or imperfect)", "Le he pedido que venga."],
             ["preterite", "imperfect", "Quise que vinieras."],
@@ -929,7 +929,7 @@ export const B2_GUIDES: GrammarGuide[] = [
       },
       {
         wrong: "Es Marta que me lo contó.",
-        right: "Es Marta quien me lo contó. / Fue Marta la que me lo contó.",
+        right: "Fue Marta quien me lo contó. / Fue Marta la que me lo contó.",
         why: "In a cleft sentence about a person, use quien or el/la que.",
       },
       {

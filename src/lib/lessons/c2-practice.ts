@@ -43,7 +43,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   "legal-administrative-spanish-part-2-2": [
     fe("Necesito un ___ para que mi hermano firme por mí.", "poder notarial", "I need a [power of attorney] so that my brother can sign for me.", "«El poder notarial» autoriza a otra persona a actuar en tu nombre.", ["poder"]),
     fe("Antes de enviar el documento al extranjero, pida la ___ de firma.", "legalización", "Before sending the document abroad, ask for the [legalization] of the signature.", "«La legalización de firma» certifica que la firma es auténtica."),
-    fe("___, firman los comparecientes en presencia del notario.", "En prueba de conformidad", "[In witness whereof], the parties sign in the presence of the notary.", "Fórmula fija de cierre de escrituras y contratos."),
+    fe("___, firman los comparecientes en presencia del notario.", "En prueba de conformidad", "[In witness whereof], the parties sign in the presence of the notary.", "Fórmula fija de cierre de escrituras y contratos.", ["En fe de lo cual", "En testimonio de lo cual"]),
   ],
   "legal-administrative-spanish-part-2-3": [
     fe("La ___ resolutoria permite extinguir el contrato si una parte incumple.", "cláusula", "The termination [clause] allows the contract to be ended if one party defaults.", "«La cláusula resolutoria» autoriza a resolver el contrato."),
@@ -77,7 +77,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   "medical-health-spanish-3": [
     fe("La ___ de los pulmones no reveló nada anormal.", "auscultación", "[Listening to] the lungs revealed nothing abnormal.", "«La auscultación»: escuchar los sonidos internos del cuerpo."),
     fe("Le harán una ___ para examinar el tejido.", "biopsia", "They'll do a [biopsy] to examine the tissue.", "Biopsia: extracción de tejido para analizarlo."),
-    fe("El médico pidió un ___ de sangre para descartar una infección.", "análisis", "The doctor ordered a blood [test] to rule out an infection.", "«El análisis de sangre» (o «la analítica» en España).", ["examen", "analítica"]),
+    fe("El médico pidió un ___ de sangre para descartar una infección.", "análisis", "The doctor ordered a blood [test] to rule out an infection.", "«El análisis de sangre» (o «la analítica» en España).", ["examen"]),
   ],
   "medical-health-spanish-4": [
     fe("Consulte la ___ en el prospecto antes de tomarlo.", "posología", "Check the [dosage] on the leaflet before taking it.", "«La posología»: dosis, frecuencia y duración de un medicamento.", ["dosis"]),
@@ -198,7 +198,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("La empresa va a llevar a cabo una ___ de plantilla.", "reducción", "The company is going to carry out a staff [reduction].", "«Reducción de plantilla» suaviza «despidos».", ["reestructuración", "ajuste", "reorganización"]),
   ],
   "euphemisms-indirect-3": [
-    fe("El médico dijo que la paciente estaba ___ de salud.", "delicada", "The doctor said the patient's health was [fragile].", "«Estar delicado de salud» suaviza una situación grave.", ["delicadita"]),
+    fe("El médico dijo que la paciente estaba ___ de salud.", "delicada", "The doctor said the patient's health was [fragile].", "«Estar delicado de salud» suaviza una situación grave.", ["frágil"]),
     fe("Es una persona ___, aunque muy activa.", "de edad avanzada", "She is an [elderly] person, though very active.", "«De edad avanzada» evita «vieja» o «anciana».", ["mayor", "de la tercera edad"]),
     fe("Despidieron a cincuenta empleados, aunque lo llamaron «___».", "optimización de recursos", "They fired fifty employees, though they called it «[resource optimization]».", "Lenguaje corporativo que encubre despidos.", ["optimización de recursos humanos"]),
   ],
@@ -317,7 +317,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   "debate-persuasion-2": [
     fe("Le concedo ese punto, pero eso no ___ su tesis.", "demuestra", "I'll grant you that point, but it doesn't [prove] your thesis.", "Conceder no equivale a rendirse.", ["prueba"]),
     fe("Atacar al rival en lugar de a sus ideas es una ___.", "falacia", "Attacking your opponent instead of their ideas is a [fallacy].", "Falacia ad hominem.", ["falacia ad hominem"]),
-    fe("Admito que hay ___ a mi propuesta, pero las ventajas son mayores.", "inconvenientes", "I admit there are [drawbacks] to my proposal, but the advantages are greater.", "«Admito que» + indicativo para conceder.", ["objeciones", "desventajas", "riesgos"]),
+    fe("Admito que mi propuesta tiene ___, pero las ventajas son mayores.", "inconvenientes", "I admit my proposal has [drawbacks], but the advantages are greater.", "«Admito que» + indicativo para conceder.", ["desventajas", "riesgos", "pegas"]),
   ],
   "debate-persuasion-3": [
     fe("Esa generalización es ___: no puedes juzgar a todo un país por dos personas.", "apresurada", "That generalization is [hasty]: you can't judge a whole country by two people.", "Falacia de la generalización apresurada.", ["precipitada"]),
@@ -426,7 +426,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Una biografía de Bolívar es una fuente ___.", "secundaria", "A biography of Bolívar is a [secondary] source.", "Las fuentes secundarias interpretan o comentan las primarias."),
   ],
   "citations-references-4": [
-    fe("El autor ___ que el método era fiable, aunque no aporta pruebas.", "pretende", "The author [claims] the method was reliable, though he provides no evidence.", "«Pretender» como verbo de atribución expresa distancia crítica; «afirma» o «sostiene» son más neutros.", ["asegura", "alega", "afirma", "sostiene"]),
+    fe("El autor ___ que el método era fiable, aunque no aporta pruebas.", "alega", "The author [claims] the method was reliable, though he provides no evidence.", "«Alegar» como verbo de atribución expresa distancia crítica; «afirma» o «sostiene» son más neutros. («Pretender» significa intentar, no afirmar.)", ["asegura", "afirma", "sostiene"]),
     fe("Todas las fuentes del estudio forman su ___ documental.", "corpus", "All the study's sources make up its documentary [corpus].", "«Corpus»: conjunto de documentos analizados."),
     fe("Una buena paráfrasis ___ la estructura del original.", "reorganiza", "A good paraphrase [reorganizes] the structure of the original.", "Parafrasear no es cambiar solo algunas palabras.", ["cambia", "modifica", "transforma"]),
   ],
@@ -502,7 +502,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
     fe("Queremos pan. ___ trabajo. Queremos dignidad.", "Queremos", "We want bread. [We want] work. We want dignity.", "Anáfora: repetición al inicio de frases sucesivas."),
   ],
   "job-interview-spanish-1": [
-    fe("Una de mis ___ es la capacidad de organización.", "fortalezas", "One of my [strengths] is my ability to organize.", "«Fortalezas» frente a «puntos de mejora».", ["virtudes"]),
+    fe("Una de mis ___ es la capacidad de organización.", "fortalezas", "One of my [strengths] is my ability to organize.", "«Fortalezas» frente a «puntos de mejora».", ["virtudes", "puntos fuertes"]),
     fe("En mi último puesto ___ un equipo de ocho personas.", "dirigí", "In my last position [I managed] a team of eight people.", "Pretérito indefinido para logros concretos.", ["coordiné", "lideré", "gestioné"]),
     fe("Me gustaría ___ mi experiencia al puesto que ofrecen.", "aportar", "I'd like to [bring] my experience to the position you're offering.", "«Aportar»: contribuir con algo valioso.", ["aplicar"]),
   ],
@@ -523,7 +523,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   ],
   "job-interview-spanish-5": [
     fe("A lo largo de mi ___ he trabajado en tres países.", "trayectoria", "Throughout my [career] I have worked in three countries.", "«Trayectoria laboral/profesional».", ["carrera", "trayectoria profesional", "vida laboral"]),
-    fe("Me considero una persona ___: me anticipo a los problemas.", "proactiva", "I consider myself a [proactive] person: I anticipate problems.", "«Proactivo/a»: que actúa por iniciativa propia.", ["proactivo", "previsora", "previsor"]),
+    fe("Me considero una persona ___: me anticipo a los problemas.", "proactiva", "I consider myself a [proactive] person: I anticipate problems.", "«Proactivo/a»: que actúa por iniciativa propia.", ["previsora", "dinámica"]),
     fe("Me motiva ___ en un entorno internacional.", "trabajar", "I'm motivated by [working] in an international environment.", "«Me motiva + infinitivo»."),
     fe("Valoro mucho el trabajo en ___.", "equipo", "I really value [team]work.", "«Trabajo en equipo»: competencia muy valorada."),
   ],
@@ -565,7 +565,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   ],
   "conflict-resolution-5": [
     fe("Todo fue un ___: entendí mal su mensaje.", "malentendido", "It was all a [misunderstanding]: I misread his message.", "«Malentendido»: interpretación equivocada."),
-    fe("La confianza tarda en ___.", "recuperarse", "Trust takes time to [be restored].", "La reconciliación lleva tiempo.", ["reconstruirse", "recobrarse"]),
+    fe("La confianza tarda en ___.", "recuperarse", "Trust takes time to [be restored].", "La reconciliación lleva tiempo.", ["reconstruirse", "recobrarse", "restablecerse", "restaurarse"]),
     fe("Una disculpa con «pero» ___ la responsabilidad.", "diluye", "An apology with a «but» [dilutes] responsibility.", "«Diluir» (to dilute) la responsabilidad: un «pero» le quita fuerza al reconocimiento, porque la disculpa sincera no se justifica ni traslada la culpa.", ["reduce", "resta"]),
   ],
   "c2r-conflict-story-detective": [
@@ -701,7 +701,7 @@ export const C2_PRACTICE: Record<string, Exercise[]> = {
   "creative-writing-techniques-3": [
     fe("El paraguas rojo es un símbolo ___ en toda la novela.", "recurrente", "The red umbrella is a [recurring] symbol throughout the novel.", "«Recurrente»: que vuelve a aparecer.", ["reiterado"]),
     fe("Un narrador poco ___ encaja con un protagonista que se engaña a sí mismo.", "confiable", "An [unreliable] narrator fits a protagonist who deceives himself.", "«Narrador poco confiable / no fiable».", ["fiable"]),
-    fe("La editora le pidió que ___ el arco del personaje.", "reforzara", "The editor asked her to [strengthen] the character arc.", "Pedir que + imperfecto de subjuntivo.", ["reforzase", "desarrollara", "desarrollase", "trabajara"]),
+    fe("La editora le pidió que ___ el arco del personaje.", "reforzara", "The editor asked her to [strengthen] the character arc.", "Pedir que + imperfecto de subjuntivo.", ["reforzase", "fortaleciera", "fortaleciese", "desarrollara", "desarrollase", "trabajara", "trabajase"]),
   ],
   "c2r-writing-mission-microstory": [
     fe("Guardó la última carta sin ___.", "abrirla", "She put away the last letter without [opening it].", "«Sin + infinitivo» con pronombre enclítico."),

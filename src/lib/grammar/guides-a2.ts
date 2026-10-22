@@ -42,7 +42,7 @@ export const A2_GUIDES: GrammarGuide[] = [
       {
         heading: "When there is no personal a",
         body: [
-          "Leave it out when the person is unspecified or hypothetical (often after buscar or necesitar with un/una), after hay (always), and usually after tener, even with people (though tener takes a with a specific person: Tengo a mi madre en el hospital).",
+          "Leave it out when the person is unspecified or hypothetical (often after buscar or necesitar with un/una), after hay (always), and usually after tener when it states possession or how many people you have (Tengo dos hermanos); tener takes the a only when you mean one specific person in a situation (Tengo a mi madre en el hospital).",
           "Don't confuse it with the a of direction (Voy a Madrid) or with the a before an indirect object (Le doy el libro a Ana), which is always there.",
         ],
         examples: [
@@ -748,7 +748,7 @@ export const A2_GUIDES: GrammarGuide[] = [
       },
       {
         q: "Does \"solo\" still take an accent?",
-        a: "Normally not. Since 2010 the Academia recommends writing solo (only) and the demonstratives (este, ese) without accents; since 2023 it allows the accent where the writer sees real ambiguity. Older texts use sólo and éste.",
+        a: "Normally not. Since 2010 the Academia recommends writing solo (only) and the demonstratives (este, ese) without accents; the Academia advises against the accent even where ambiguity is possible (reword the sentence instead). Older texts use sólo and éste.",
       },
       {
         q: "Does an accent change pronunciation?",

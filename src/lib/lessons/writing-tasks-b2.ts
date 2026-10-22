@@ -177,7 +177,7 @@ export const B2_WRITING_TASKS: UnitWriting = {
         "Sería mejor que + imperfecto de subjuntivo",
         "Saludo y despedida formales"
       ],
-      "modelAnswer": "Estimada señora Ruiz: Le escribo porque soy alumno del grupo B2 de los lunes y miércoles por la tarde. Desde este mes tengo un horario de trabajo nuevo y ya no llego a tiempo a clase. Quisiera cambiarme al grupo de los martes y jueves por la mañana, si todavía quedan plazas. Le agradecería mucho que me informara de las opciones disponibles. En caso de que no haya plazas, me gustaría que me guardaran la plaza para el próximo trimestre. Quizá sería mejor que lo habláramos en persona. Atentamente, Javier Molina.",
+      "modelAnswer": "Estimada señora Ruiz: Le escribo porque soy alumno del grupo B2 de los lunes y miércoles por la tarde. Desde este mes tengo un horario de trabajo nuevo y ya no llego a tiempo a clase. Quisiera cambiarme al grupo de los martes y jueves por la mañana, si todavía quedan plazas. Le agradecería mucho que me informara de las opciones disponibles. En caso de que no haya plazas, me gustaría que me pusieran en lista de espera para el próximo trimestre. Quizá sería mejor que lo habláramos en persona. Atentamente, Javier Molina.",
       "explanation": "Quisiera, le agradecería que y me gustaría que suavizan una petición. Tras un condicional, la subordinada va en imperfecto de subjuntivo: le agradecería que me informara, sería mejor que lo habláramos."
     }
   ],
@@ -273,7 +273,7 @@ export const B2_WRITING_TASKS: UnitWriting = {
         "Contexto en pasado (indefinido e imperfecto)",
         "Una recomendación final a otros clientes"
       ],
-      "modelAnswer": "Una estrella. Contratamos un viaje a Lanzarote con esta agencia y fue un desastre. El hotel estaba a cuarenta minutos de la playa, aunque en la web ponía «primera línea». Si nos hubieran dicho la verdad, habríamos elegido otro hotel. El primer día cancelaron la excursión al volcán y nadie nos avisó. Si hubieran puesto un aviso en la recepción, no habríamos esperado el autobús durante una hora. Si la agencia hubiera hecho bien su trabajo, nos habría devuelto el dinero; todavía lo estamos esperando. No la recomiendo.",
+      "modelAnswer": "Una estrella. Contratamos un viaje a Lanzarote con esta agencia y fue un desastre. El hotel estaba a cuarenta minutos de la playa, aunque en la web ponía «primera línea». Si nos hubieran dicho la verdad, habríamos elegido otro hotel. El primer día cancelaron la excursión al volcán y nadie nos avisó. Si hubieran puesto un aviso en la recepción, no habríamos esperado el autobús durante una hora. Si la agencia hubiera hecho bien su trabajo, no tendríamos que reclamar nada ahora; todavía estamos esperando que nos devuelvan el dinero. No la recomiendo.",
       "explanation": "Hipótesis sobre el pasado: si + hubiera + participio, habría + participio. Cuidado con los participios irregulares: dicho, puesto, hecho, devuelto."
     }
   ],
@@ -478,11 +478,10 @@ export const B2_WRITING_TASKS: UnitWriting = {
       "rubric": [
         "Llegar a ser / hacerse / convertirse en para cambios de profesión o estatus",
         "Volverse para un cambio duradero",
-        "Quedarse + adjetivo o sin + nombre para el resultado",
         "Tiempos del pasado bien combinados"
       ],
-      "modelAnswer": "El último afilador del barrio. Durante décadas, el silbato del afilador formaba parte de la banda sonora de nuestras calles. Manuel empezó a trabajar con su padre a los quince años y llegó a ser el afilador más conocido de la zona. Sin embargo, con la llegada de los cuchillos baratos, el oficio se volvió poco rentable y muchos compañeros se quedaron sin trabajo. Algunos se hicieron cerrajeros; otros emigraron. Manuel, en cambio, convirtió su vieja bicicleta en un pequeño museo ambulante. Hoy su silbato se ha convertido en el recuerdo de otra época.",
-      "explanation": "Llegar a ser indica un cambio que cuesta esfuerzo; hacerse, un cambio de profesión o ideas; volverse, un cambio duradero; quedarse, el resultado de un proceso (se quedaron sin trabajo)."
+      "modelAnswer": "El último afilador del barrio. Durante décadas, el silbato del afilador formaba parte de la banda sonora de nuestras calles. Manuel empezó a trabajar con su padre a los quince años y llegó a ser el afilador más conocido de la zona. Sin embargo, con la llegada de los cuchillos baratos, el oficio se volvió poco rentable y muchos compañeros perdieron su trabajo. Algunos se hicieron cerrajeros; otros emigraron. Manuel, en cambio, convirtió su vieja bicicleta en un pequeño museo ambulante. Hoy su silbato se ha convertido en el recuerdo de otra época.",
+      "explanation": "Llegar a ser indica un cambio que cuesta esfuerzo; hacerse, un cambio de profesión o ideas; volverse, un cambio duradero."
     }
   ],
   "b2r-tema-volver-a-la-rutina": [

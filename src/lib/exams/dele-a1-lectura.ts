@@ -140,7 +140,7 @@ export const DELE_A1_LECTURA: ExamPaper = {
         {
           title: "Mi semana en Málaga",
           body:
-            "El lunes llego a Málaga en tren a las once de la mañana. Por la tarde quiero ver los cuadros de Picasso. El martes por la mañana voy a comprar fruta y pescado fresco, y por la tarde voy a nadar en el mar. El miércoles quiero leer y estudiar un poco en un sitio tranquilo. El jueves por la noche ceno con unos amigos en un restaurante: ¡el pescado es muy bueno! El viernes quiero ver una película en español.",
+            "El lunes llego a Málaga en tren a las once de la mañana. Por la tarde quiero ver los cuadros de Picasso. El martes por la mañana voy a comprar fruta y pescado fresco, y por la tarde voy a nadar en el mar. El miércoles quiero buscar libros en español y estudiar un poco. El jueves por la noche ceno con unos amigos en un restaurante: ¡el pescado es muy bueno! El viernes quiero ver una película en español.",
         },
       ],
       layout: "select",
@@ -149,7 +149,7 @@ export const DELE_A1_LECTURA: ExamPaper = {
         { n: 21, question: "Daniel ve los cuadros de Picasso.", options: PLACES, answer: 0, explanation: "Paintings: the museum (A)." },
         { n: 22, question: "Daniel compra fruta y pescado.", options: PLACES, answer: 1, explanation: "Fresh fruit and fish: the market (B)." },
         { n: 23, question: "Daniel nada en el mar.", options: PLACES, answer: 2, explanation: "Swimming in the sea: the beach (C)." },
-        { n: 24, question: "Daniel estudia en un sitio tranquilo.", options: PLACES, answer: 7, explanation: "Reading and studying somewhere quiet: the library (H)." },
+        { n: 24, question: "Daniel busca libros y estudia.", options: PLACES, answer: 7, explanation: "Looking for books and studying: the library (H)." },
         { n: 25, question: "Daniel ve una película.", options: PLACES, answer: 5, explanation: "A film: the cinema (F). The restaurant is Thursday's dinner, which isn't asked; the park and the hospital are not used." },
       ],
     },

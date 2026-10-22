@@ -11,7 +11,7 @@ const t = (prompt: string, rubric: string[], modelAnswer: string, explanation: s
 export const C2_UNIT_WRITING: Record<string, WriteExercise> = {
   "legal-administrative-spanish-part-1-1": t(
     "Explica con lenguaje claro a un amigo que no es abogado qué significa haber recibido una citación judicial como testigo y qué debe hacer.",
-    ["Al menos tres términos jurídicos explicados (citación, comparecer, juzgado…)", "Lenguaje llano para un lector no especialista", "Instrucciones concretas", "Un término latino o una fórmula jurídica bien usada"],
+    ["Al menos tres términos jurídicos explicados (citación, comparecer, juzgado…)", "Lenguaje llano para un lector no especialista", "Instrucciones concretas", "Una fórmula jurídica bien usada (p. ej., de oficio, comparecer)"],
     "Tranquilo, Óscar: una citación judicial como testigo no significa que te acusen de nada. Es simplemente una orden del juzgado para que acudas a declarar lo que viste. Tienes la obligación de comparecer, es decir, de presentarte el día y la hora indicados; si no vas sin una causa justificada, te pueden multar. Lleva tu DNI y la propia citación. Allí te preguntarán el juez y los abogados de las partes, y deberás decir la verdad. No necesitas abogado propio, porque no eres parte en el proceso, sino un tercero que ayuda a esclarecer los hechos. Es un trámite que se hace de oficio.",
     "El lenguaje claro explica cada término (comparecer: presentarse) sin perder precisión. De oficio: por iniciativa del propio juzgado."
   ),
@@ -148,7 +148,7 @@ export const C2_UNIT_WRITING: Record<string, WriteExercise> = {
     "Reconocer sin conceder (entiendo que estéis molestos), reformular en neutro (el problema no es quién…, sino…) y proponer algo verificable desactiva el conflicto."
   ),
   "historical-narrative-1": t(
-    "Narra un episodio histórico que conozcas (real) en un párrafo, usando el imperfecto narrativo o el presente histórico, y al menos un pretérito anterior o pluscuamperfecto (con eje en pasado) o, con presente histórico, un perfecto o indefinido de anterioridad.",
+    "Narra en un párrafo un episodio histórico real. Si usas el imperfecto narrativo, incluye al menos un pluscuamperfecto o un pretérito anterior; si usas el presente histórico, incluye al menos un perfecto o un indefinido para lo anterior.",
     ["Presente histórico o imperfecto narrativo", "Pretérito anterior o pluscuamperfecto (con eje pasado) o perfecto compuesto e indefinido (con presente histórico)", "Marcadores temporales precisos", "Tono de relato histórico"],
     "El 12 de octubre de 1492, tras más de dos meses de travesía, la tripulación de Colón divisa tierra. Nada más amanecer, los marineros desembarcan en una pequeña isla del Caribe, que los taínos llamaban Guanahaní. Colón está convencido de que ha llegado a las Indias, a las que prometió llegar navegando hacia el oeste. Nunca sabrá que ha alcanzado un continente desconocido para los europeos. Aquel encuentro cambiará para siempre la historia de ambos mundos.",
     "El presente histórico (divisa, desembarcan) acerca el relato; «nada más amanecer» marca la anterioridad inmediata (equivale al literario «apenas hubo amanecido»); con eje en presente, los antecedentes van en perfecto o indefinido (ha llegado, prometió, ha alcanzado), y el pluscuamperfecto se reserva para relatos con eje en pasado; el futuro de perspectiva (nunca sabrá, cambiará) anticipa desde el pasado."

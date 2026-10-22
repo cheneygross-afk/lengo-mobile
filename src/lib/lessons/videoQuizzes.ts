@@ -90,7 +90,7 @@ export const VIDEO_QUIZZES: Record<string, VideoQuiz> = {
         atSeconds: 64,
       },
       {
-        question: "Who does Michelle say she does NOT live with?",
+        question: "Which family members does Michelle mention when she explains that she lives alone?",
         options: [
           "Her friends Luis and Ana",
           "Her grandparents",
@@ -843,7 +843,7 @@ export const VIDEO_QUIZZES: Record<string, VideoQuiz> = {
       },
       {
         question:
-          "Which form does Anna say is correct for 'I hope you are well'?",
+          "Listen to Anna: which form does she say is correct for 'I hope you are well' after 'espero que'?",
         options: [
           "Espero que estás bien",
           "Espero que estés bien",
@@ -1015,7 +1015,7 @@ export const VIDEO_QUIZZES: Record<string, VideoQuiz> = {
         options: [
           "Because Sara is her friend",
           "Because Sara isn't dangerous and isn't expensive",
-          "Because Sara is the cheapest",
+          "Because Sara lives next door",
           "Because Sara arrives very fast",
         ],
         answerIndex: 1,

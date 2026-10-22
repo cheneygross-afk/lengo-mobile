@@ -6600,13 +6600,13 @@ const A1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "Which article goes with 'mano' (hand)?",
+        "question": "Which article goes with 'idioma' (language)?",
         "options": [
           "el",
           "la"
         ],
-        "correctIndex": 1,
-        "explanation": "Mano ends in -o but is feminine, a common exception: la mano. \"El\" is the masculine article."
+        "correctIndex": 0,
+        "explanation": "Idioma ends in -a but is masculine, a common exception: el idioma. \"La\" is the feminine article."
       },
       {
         "type": "multiple-choice",

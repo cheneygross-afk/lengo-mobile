@@ -113,8 +113,8 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "«Ser la leche» es coloquial de España y, en positivo, significa ser increíble o estupendo. No se toma en sentido literal (no hay leche), y aquí el tono entusiasta descarta «aburridas» o «peligrosas»."
       ),
-      toEs("There's a dance in the square tonight.", "Esta noche hay verbena en la plaza.", "«Verbena» es el baile popular nocturno de las fiestas; «hay verbena» funciona sin artículo, como «hay baile».", ["Esta noche hay baile en la plaza.", "Hay verbena en la plaza esta noche."]),
-      wo("Las fiestas del pueblo son en honor a su santo patrón.", "«Las fiestas» del pueblo va en plural (verbo «son»), y «en honor a (o de)» indica a quién se dedican: al santo patrón del lugar.", "The village festival is in honor of its patron saint."),
+      toEs("There's a dance in the square tonight.", "Esta noche hay verbena en la plaza.", "«Verbena» es el baile popular nocturno de las fiestas; «hay verbena» funciona sin artículo, como «hay baile».", ["Esta noche hay baile en la plaza.", "Hay verbena en la plaza esta noche.", "Esta noche hay un baile en la plaza.", "Esta noche hay una verbena en la plaza.", "Hay una verbena en la plaza esta noche."]),
+      wo("Las fiestas del pueblo son en honor a su santo patrón.", "«Las fiestas» del pueblo va en plural (verbo «son»), y «en honor a (o de)» indica a quién se dedican: al santo patrón del lugar.", "The village festivities are in honor of the town's patron saint."),
     ]
   ),
   L(
@@ -143,7 +143,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     ],
     [
       fb("Completa.", "No se trata de dar miedo, ___ de recordar.", "sino", "«No… sino…» corrige una negación: tras «no», la alternativa verdadera se introduce con «sino» (no «pero»)."),
-      fb("Completa.", "Se cree que las almas ___ a visitar a sus familias. (volver)", "vuelven", "Tras «se cree que» se usa indicativo (vuelven), porque se presenta la creencia como afirmación."),
+      { ...fb("Completa.", "Se cree que las almas ___ a visitar a sus familias. (volver)", "vuelven", "Tras «se cree que» se usa indicativo (vuelven), porque se presenta la creencia como afirmación."), altAnswers: ["regresan"] },
       fb("Completa.", "Las calaveritas ___ son versos humorísticos sobre la muerte. (de literatura)", "literarias", "El adjetivo concuerda con «calaveritas» (femenino plural): calaveritas literarias."),
       mc(
         "¿Cuál es el tono de la fiesta?",
@@ -198,14 +198,14 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
       ),
       fb("Completa.", "Nos quedamos de ___ hasta que se hizo de noche.", "sobremesa", "«Quedarse de sobremesa» es seguir charlando en la mesa después de comer."),
       fb("Completa.", "Esta tarde vamos a ___ por el centro: de bar en bar, una tapa en cada uno. (ir de tapas, infinitivo)", "tapear", "«Tapear» es ir de bar en bar tomando tapas; tras «vamos a» va el infinitivo."),
-      fb("Completa.", "Los niños ___ un bocadillo a las seis. (tomar la merienda)", "meriendan", "«Merendar» es tomar la merienda; diptonga en presente: ellos meriendan."),
+      fb("Completa.", "Los niños ___ un bocadillo a las seis. (merendar)", "meriendan", "«Merendar» es tomar la merienda; diptonga en presente: ellos meriendan."),
       mc(
         "«Hay picoteo en casa de Ana» significa que…",
         ["habrá cosas variadas para picar, de manera informal", "habrá una cena de gala con varios platos", "solo habrá bebidas", "habrá que llevar la comida de casa"],
         0,
         "El picoteo es una comida informal a base de cosas variadas para picar. Una cena de gala con varios platos es lo contrario; «solo bebidas» no incluye comida, y llevar la comida de casa no es lo que indica la palabra."
       ),
-      toEs("We stayed chatting at the table for hours.", "Nos quedamos de sobremesa durante horas.", "«Quedarse (o estar) de sobremesa» es la forma natural de decir que se sigue charlando en la mesa tras comer.", ["Estuvimos de sobremesa durante horas.", "Nos quedamos horas de sobremesa."]),
+      toEs("We stayed chatting at the table for hours.", "Nos quedamos de sobremesa durante horas.", "«Quedarse (o estar) de sobremesa» es la forma natural de decir que se sigue charlando en la mesa tras comer.", ["Estuvimos de sobremesa durante horas.", "Nos quedamos horas de sobremesa.", "Nos quedamos charlando en la mesa durante horas.", "Pasamos horas de sobremesa.", "Estuvimos horas de sobremesa."]),
       wo("Antes de comer siempre tomamos el aperitivo en el bar de la esquina.", "«Tomar el aperitivo» (con artículo) es la colocación fija para la bebida y la tapa antes de comer; «siempre» va delante del verbo.", "Before lunch we always have a drink and snack at the corner bar."),
     ]
   ),
@@ -213,7 +213,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     "food-culture-sobremesa-2",
     "ccr-food-table-etiquette-error-hunt",
     "Caza de errores: metidas de pata en la mesa",
-    "Un invitado extranjero comete errores de etiqueta en una comida familiar: detéctalos y explica cómo lo haría un nativo.",
+    "Un invitado extranjero comete errores de etiqueta en una comida familiar: detéctalos y elige cómo lo haría un nativo.",
     "7 min",
     [
       sec(
@@ -248,7 +248,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
       ),
       fb("Completa.", "¡Que ___! (deseo antes de comer)", "aproveche", "«¡Que aproveche!» es el deseo habitual antes de comer (o al ver a alguien comiendo); aproveche va en subjuntivo por ser un deseo."),
       fb("Completa.", "—Pago yo. —Ni ___, esta vez invito yo.", "hablar", "«Ni hablar» es un rechazo rotundo y coloquial: aquí, «de ningún modo, pago yo»."),
-      fb("Completa.", "Esto está ___: tienes que darme la receta. (muy bueno, coloquial)", "buenísimo", "El superlativo coloquial de «bueno» es «buenísimo»; «bonísimo» existe pero suena culto y raro en la conversación."),
+      { ...fb("Completa.", "Esto está ___: tienes que darme la receta. (muy bueno, coloquial)", "buenísimo", "El superlativo coloquial de «bueno» es «buenísimo» (también «riquísimo», hablando de comida); «bonísimo» existe pero suena culto y raro en la conversación."), altAnswers: ["riquísimo"] },
       ms(
         "¿Qué comportamientos son adecuados?",
         ["elogiar la comida", "quedarse a la sobremesa", "insistir en pagar", "levantarse sin despedirse"],
@@ -285,7 +285,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     [
       fb("Completa.", "Bueno, ya me voy ___. (gerundio de ir)", "yendo", "«Irse yendo» (ir + gerundio) presenta la marcha como un proceso gradual; el gerundio de ir es «yendo»."),
       fb("Completa.", "—¿Ya te vas? ¡Si es ___! (muy pronto)", "prontísimo", "El sufijo -ísimo intensifica también adverbios: pronto → prontísimo."),
-      fb("Completa.", "Es que mañana ___ temprano. (levantarse, coloquial: madrugar)", "madrugo", "«Madrugar» ya significa levantarse temprano; en presente con valor de futuro: mañana madrugo."),
+      fb("Completa.", "Es que mañana ___ mucho. (levantarse muy temprano, en una palabra)", "madrugo", "«Madrugar» ya significa levantarse temprano; en presente con valor de futuro: mañana madrugo."),
       mc(
         "Tras despedirte, seguís hablando veinte minutos en la puerta. Esto es…",
         ["normal y parte del ritual", "una grosería", "muy raro", "un error del anfitrión"],
@@ -301,7 +301,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "«Ya me voy yendo» anuncia la salida, «¿Ya? Quédate un poco más» es la resistencia del anfitrión y «Venga, lo he pasado genial» cierra la despedida de verdad."
       ),
-      toEs("Well, I'd better get going.", "Bueno, ya me voy yendo.", "«Me voy yendo» es la fórmula coloquial para empezar a despedirse, con el gerundio que suaviza la marcha.", ["Bueno, me voy yendo.", "Bueno, me tengo que ir yendo."]),
+      toEs("Well, I'd better get going.", "Bueno, ya me voy yendo.", "«Me voy yendo» es la fórmula coloquial para empezar a despedirse, con el gerundio que suaviza la marcha.", ["Bueno, me voy yendo.", "Bueno, me tengo que ir.", "Bueno, tengo que irme.", "Bueno, será mejor que me vaya."]),
       wo("Venga, que lo he pasado genial; a la próxima invito yo.", "«Venga» marca el cierre definitivo; «que lo he pasado genial» justifica la despedida con «que» causal, y «a la próxima invito yo» deja abierto el reencuentro.", "Come on, I've had a great time; next time it's on me."),
     ]
   ),
@@ -309,7 +309,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     "soccer-popular-passion-1",
     "ccr-soccer-metaphors-everyday",
     "Contraste: metáforas futbolísticas fuera del campo",
-    "Meter un gol, estar en fuera de juego, casarse con alguien de penalti, echar balones fuera: del estadio a la vida.",
+    "Meter un gol, estar en fuera de juego, casarse de penalti, echar balones fuera: del estadio a la vida.",
     "7 min",
     [
       sec(
@@ -435,8 +435,8 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "El vallenato es colombiano (con acordeón), la bachata dominicana, la ranchera mexicana y el flamenco andaluz."
       ),
-      fb("Completa.", "En flamenco, el que canta es el ___.", "cantaor", "En el flamenco se dice «cantaor/cantaora» (con la -d- caída) para quien canta flamenco; «cantante» es el término general."),
-      fb("Completa.", "Cuando una actuación emociona profundamente se dice que tiene ___.", "duende", "«Tener duende» es tener ese encanto misterioso que conmueve, sobre todo en el flamenco."),
+      fb("Completa.", "En flamenco, el que canta se llama el ___. (palabra propia del flamenco)", "cantaor", "En el flamenco se dice «cantaor/cantaora» (con la -d- caída) para quien canta flamenco; «cantante» es el término general."),
+      fb("Completa.", "Cuando una actuación emociona profundamente se dice que tiene ___. (palabra típica del flamenco)", "duende", "«Tener duende» es tener ese encanto misterioso que conmueve, sobre todo en el flamenco."),
       fb("Completa.", "Una reunión o un salón donde se baila tango se llama ___.", "milonga", "Milonga: el baile social de tango (y también un género musical emparentado)."),
       mc(
         "«Tocar las palmas» en flamenco significa…",
@@ -444,7 +444,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Tocar las palmas es acompañar el ritmo con palmadas, una técnica esencial del flamenco. No es un saludo, ni un instrumento de madera (eso serían las castañuelas o el cajón), ni significa dejar de cantar."
       ),
-      toEs("That singer really has soul.", "Ese cantaor tiene mucho duende.", "«Tener duende» expresa la emoción profunda que transmite un artista; «cantaor» es el cantante de flamenco.", ["Ese cantante tiene mucho duende.", "Esa cantaora tiene mucho duende."]),
+      toEs("That singer really has soul.", "Ese cantaor tiene mucho duende.", "«Tener duende» expresa la emoción profunda que transmite un artista; «cantaor» es el cantante de flamenco.", ["Ese cantante tiene mucho duende.", "Esa cantante tiene mucho duende.", "Esa cantaora tiene mucho duende."]),
       wo("La cumbia nació en Colombia y hoy se baila en toda Latinoamérica.", "Los géneros musicales llevan artículo («la cumbia»); «nacer en» indica el origen y «se baila» es pasiva refleja.", "Cumbia was born in Colombia and is now danced all over Latin America."),
     ]
   ),
@@ -452,7 +452,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     "music-dance-regional-identity-2",
     "ccr-music-lyrics-slang",
     "Detective de textos: jerga en las letras",
-    "Versos de canciones populares (inventados) con jerga regional: descifra perreo, gozar, parcero, flow y más.",
+    "Aprenderás la jerga de la música urbana, la salsa y el tango (perrear, janguear, parcero, gozar, flow, lunfardo) y a usarla en frases.",
     "7 min",
     [
       sec(
@@ -554,7 +554,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
     [
       sec(
         "Rituales para el año nuevo",
-        "Doce uvas con las campanadas (España, y hoy también en muchos países latinoamericanos): una por cada mes de suerte. Ropa interior amarilla (dinero y felicidad) o roja (amor). Salir con una maleta a dar la vuelta a la manzana (viajes) — típico de varios países latinoamericanos. Comer lentejas (prosperidad). Tirar un cubo de agua por la ventana (alejar lo malo; Cuba, Puerto Rico). Poner un anillo de oro en la copa de cava (España).",
+        "Doce uvas con las campanadas (España, y hoy también en muchos países latinoamericanos): una por cada mes de suerte. Ropa interior amarilla (dinero y felicidad) o roja (amor). Salir con una maleta a dar la vuelta a la manzana (viajes) — típico de varios países latinoamericanos. Comer lentejas (prosperidad). Tirar un cubo de agua por la ventana (alejar lo malo; Cuba, Puerto Rico). Poner un anillo de oro en la copa de cava (España). Actitud muy común: «creer sin creer del todo», es decir, cumplir los rituales por si acaso aunque uno diga que no es supersticioso.",
         [
           ["Llevo ropa interior amarilla para atraer la abundancia.", "I'm wearing yellow underwear to attract abundance."],
           ["Salimos con la maleta para viajar mucho este año.", "We went out with a suitcase so we'd travel a lot this year."],
@@ -584,8 +584,8 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         "La maleta vacía atrae los viajes, la ropa interior roja el amor, las lentejas la abundancia, y tirar agua por la ventana aleja lo malo del año viejo."
       ),
       mc(
-        "«Creer sin creer del todo» describe…",
-        ["practicar rituales aunque uno diga que no es supersticioso", "no hacer nada", "ser muy religioso", "tener miedo"],
+        "Quien dice que no es supersticioso pero cumple los rituales «por si acaso» está…",
+        ["creyendo sin creer del todo", "sin hacer nada", "siendo muy religioso", "teniendo miedo"],
         0,
         "«Creer sin creer del todo» describe a quien dice no ser supersticioso pero, por si acaso, cumple los rituales. No es no hacer nada, ni una devoción religiosa, ni miedo real."
       ),
@@ -638,7 +638,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         0,
         "Entre amigos, esta frase es un piropo humorístico y cariñoso: nadie la toma como una propuesta seria de matrimonio. La confianza es lo que impide que sea un insulto o acoso."
       ),
-      toEs("That color really suits you.", "Ese color te queda muy bien.", "«Quedarle bien» o «sentarle bien» algo a alguien equivale a «to suit»: te queda muy bien.", ["Ese color te sienta muy bien.", "Te queda genial ese color."]),
+      toEs("That color really suits you.", "Ese color te queda muy bien.", "«Quedarle bien» o «sentarle bien» algo a alguien equivale a «to suit»: te queda muy bien.", ["Ese color te sienta muy bien.", "Te queda genial ese color.", "Ese color te favorece."]),
       wo("Entre amigos, un piropo ingenioso puede ser una muestra de cariño.", "La confianza («entre amigos») es lo que convierte el piropo en cariño; «muestra de cariño» = sign of affection.", "Among friends, a witty compliment can be a sign of affection."),
     ]
   ),
@@ -685,7 +685,7 @@ export const COSAS_COLOQUIALES_REINFORCEMENT: AnchoredLesson[] = [
         ],
         "«Si es viejísimo» quita valor al objeto elogiado, «Pues anda que tú» devuelve el elogio y «Eres muy amable» agradece sin presumir."
       ),
-      toEs("You're just being kind.", "Eres muy amable.", "Ante un cumplido se responde con modestia, atribuyéndolo a la amabilidad o el cariño del otro.", ["Qué amable eres.", "Lo dices porque me quieres.", "Eso es que me miras con buenos ojos.", "Me miras con buenos ojos."]),
+      toEs("You're just being kind.", "Eres muy amable.", "«Eres muy amable» atribuye el elogio a la bondad del otro en lugar de aceptarlo sin más, que es la respuesta cortés y modesta; «solo estás siendo amable» añade el matiz de «no es para tanto».", ["Qué amable eres.", "Solo estás siendo amable.", "Lo dices por amabilidad.", "Lo dices por ser amable."]),
       wo("Qué va, si esta camisa la compré en un mercadillo.", "«Qué va» resta importancia al cumplido y el «si» enfático introduce la justificación; el objeto antepuesto «esta camisa» se retoma con «la».", "Oh no, I bought this shirt at a street market."),
     ]
   ),
