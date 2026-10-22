@@ -208,7 +208,7 @@ export const LEVEL_TEST_C1: LevelTest = {
         fe(
           "¿Dónde ___ las llaves? No las encuentro.",
           "habré puesto",
-          "Where [can I have put] my keys? I can't find them.",
+          "Where [could I have put] my keys? I can't find them.",
           "Conjetura sobre un pasado reciente: futuro compuesto, habré puesto.",
           ["habré dejado"]
         ),

@@ -565,6 +565,25 @@ const ROWS: Row[] = [
   ["mecer", "to rock, to sway", "nozc prn"],
   ["gruñir", "to growl, to grumble"],
   ["bullir", "to bustle, to boil"],
+  ["descomponer", "to break down, to decompose", "", { from: ["descom", "poner"] }],
+  ["presuponer", "to presuppose", "", { from: ["presu", "poner"] }],
+  ["equivaler", "to be equivalent", "", { from: ["equi", "valer"] }],
+  ["desenterrar", "to dig up", "ie"],
+  ["acrecentar", "to increase", "ie"],
+  ["ingerir", "to ingest", "ie"],
+  ["sobrentender", "to infer, to understand implicitly", "ie"],
+  ["concebir", "to conceive", "i"],
+  ["colegir", "to infer, to deduce", "i"],
+  ["arrendar", "to lease, to rent out", "ie"],
+  ["abolir", "to abolish", "", {
+    over: {
+      pres: { yo: null, tu: null, vos: null, el: null, ellos: null },
+      spres: NONE6,
+      impAff: { tu: null, el: null, nos: null, ellos: null },
+      impNeg: { tu: null, vos: null, el: null, nos: null, vosotros: null, ellos: null },
+    },
+    note: "Abolir is defective: only the forms whose ending begins with i are used (abolimos, abolís, abolía, abolí, aboliré, abolido). There is no abolo, aboles or abole, and no present subjunctive.",
+  }],
   ["delinquir", "to commit a crime"],
   // Less frequent verbs, listed so their irregular or stem-changing
   // forms are right (a verb missing from this list is conjugated as regular).

@@ -36,7 +36,7 @@ export const C1_UNIT_WRITING: Record<string, WriteExercise> = {
   "passive-impersonal-mastery-1": t(
     "Redacta un comunicado oficial de una empresa sobre un fallo informático. Oculta al agente con la pasiva perifrástica, la pasiva refleja y el se impersonal.",
     ["Pasiva perifrástica (fue detectado…)", "Pasiva refleja (se han restablecido…)", "Se impersonal (se informa a los clientes de que…)", "Registro formal de comunicado"],
-    "Comunicado oficial. Se informa a los clientes de que el pasado martes fue detectado un fallo en nuestro sistema de pagos. El problema fue resuelto en menos de cuatro horas y ya se han restablecido todos los servicios. No se han registrado accesos indebidos a los datos personales. Se ruega a los usuarios afectados que comprueben sus cuentas y, en caso de duda, se recomienda contactar con atención al cliente. Se lamentan las molestias ocasionadas.",
+    "Comunicado oficial. Se informa a los clientes de que el pasado martes fue detectado un fallo en nuestro sistema de pagos. El problema fue resuelto en menos de cuatro horas y ya se han restablecido todos los servicios. No se han registrado accesos indebidos a los datos personales. Se ruega a los usuarios afectados que comprueben sus cuentas y, en caso de duda, se recomienda contactar con atención al cliente. Se piden disculpas por las molestias ocasionadas.",
     "Tres formas de ocultar al agente: pasiva perifrástica (fue detectado), pasiva refleja (se han restablecido los servicios) y se impersonal (se informa a los clientes, se ruega)."
   ),
   "free-indirect-style-part-1-1": t(
@@ -78,7 +78,7 @@ export const C1_UNIT_WRITING: Record<string, WriteExercise> = {
   "future-conditional-conjecture-1": t(
     "Encuentras una casa abandonada con la mesa puesta y una carta a medio escribir. Escribe tus conjeturas sobre quién vivía allí y qué habrá ocurrido.",
     ["Futuro simple para conjeturas sobre el presente (será…)", "Futuro perfecto para el pasado reciente (habrá salido…)", "Condicional para el pasado (serían las ocho…)", "Condicional perfecto (habría tenido que…)"],
-    "La casa estará abandonada desde hace años, a juzgar por el polvo. Sin embargo, la mesa está puesta para dos: alguien habrá tenido que marcharse de repente. Serían las ocho de la tarde, porque el reloj de la cocina se paró a esa hora. La carta estaría dirigida a un hijo, ya que empieza con «Querido Pablo». ¿Qué habrá pasado? Habría recibido una mala noticia y habría salido corriendo sin terminar la cena.",
+    "La casa estará abandonada desde hace años, a juzgar por el polvo. Sin embargo, la mesa está puesta para dos: alguien habrá tenido que marcharse de repente. Serían las ocho de la tarde, porque el reloj de la cocina se paró a esa hora. La carta estará dirigida a un hijo, ya que empieza con «Querido Pablo». ¿Qué habrá pasado? Habría recibido una mala noticia y habría salido corriendo sin terminar la cena.",
     "Futuro y futuro perfecto suponen sobre el presente y lo recién pasado (estará, habrá tenido); condicional y condicional perfecto, sobre un momento pasado (serían las ocho, habría recibido)."
   ),
   "formal-informal-register-1": t(

@@ -29,7 +29,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   "subjunctive-mastery-review-4": [
     fe("Eso no significa que ___ la única solución.", "sea", "That doesn't mean it [is] the only solution.", "«No significa que» niega una implicación lógica, no un hecho: en el registro culto lleva subjuntivo («sea»)."),
     fe("No es que no ___ ayudarte; es que hoy no puedo.", "quiera", "It's not that I don't [want] to help you; it's that I can't today.", "«No es que» + subjuntivo descarta una interpretación y atenúa una posible acusación."),
-    fe("No digo que ___, solo que entiendo tu punto de vista.", "tengas razón", "I'm not saying [you're right], just that I understand your point of view.", "«No digo que» + subjuntivo suaviza la afirmación y evita la confrontación directa.", ["lleves razón"]),
+    fe("No digo que ___, solo que entiendo tu punto de vista.", "tengas razón", "I'm not saying [you're right], just that I understand your point of view.", "«No digo que» + subjuntivo suaviza la afirmación y evita la confrontación directa.", ["lleves razón", "estés en lo cierto"]),
   ],
   "c1r-transform-universal-concessive": [
     fe("___, siempre lo reconocían.", "Fuera donde fuera", "[Wherever he went], people always recognized him.", "Con referencia pasada, la fórmula reduplicativa va en imperfecto de subjuntivo: «fuera donde fuera» (o «fuese donde fuese»).", ["Fuera adonde fuera", "Fuera a donde fuera"]),
@@ -306,7 +306,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("La boda ___ en el jardín de sus abuelos.", "será", "The wedding [will be] in her grandparents' garden.", "«Boda» es un evento: se localiza con «ser».", ["es"]),
   ],
   "ser-estar-haber-limits-part-1-2": [
-    fe("Se puso muy ___ cuando le hicieron esa pregunta.", "violento", "He got very [uncomfortable] when they asked him that question.", "Estar/ponerse violento significa sentirse incómodo en una situación, no tener un carácter agresivo. También vale «incómodo».", ["incómodo", "tenso"]),
+    fe("Estaba muy ___ durante la cena porque no conocía a nadie.", "violento", "He was very [uncomfortable] at dinner because he didn't know anyone.", "«Estar violento» (sobre todo en España) significa sentirse incómodo o fuera de lugar, no tener un carácter agresivo; ojo: «ponerse violento» suele significar volverse agresivo. También vale «incómodo».", ["incómodo", "tenso"]),
     fe("___ muy interesado en el proyecto que le propusiste.", "Está", "He [is] very interested in the project you proposed to him.", "Estar interesado: curiosidad puntual por algo concreto; ser interesado es un rasgo de carácter peyorativo."),
     fe("Es una persona ___ que solo busca su propio beneficio.", "interesada", "She is a [self-serving] person who only looks out for herself.", "Ser interesado/a: rasgo estable de actuar por el propio beneficio.", ["egoísta"]),
   ],
@@ -349,7 +349,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
 
   // ---- Verbos preposicionales --------------------------------------------
   "prepositional-verbs-part-1-1": [
-    fe("___ contigo para el proyecto de mañana.", "Cuento", "[I'm counting on] you for tomorrow's project.", "Contar con alguien: con + ti se funden en «contigo»."),
+    fe("___ contigo para el proyecto de mañana.", "Cuento", "[I'm counting on] you for tomorrow's project.", "Contar con alguien: con + ti se funden en «contigo».", ["Estoy contando"]),
     fe("El plan ___ reducir los gastos innecesarios.", "consiste en", "The plan [consists of] cutting unnecessary expenses.", "Consistir en (✗ consistir de, calco del inglés)."),
     fe("___ vivir en otro país algún día.", "Sueño con", "[I dream of] living in another country someday.", "Soñar con (✗ soñar de)."),
   ],
@@ -378,7 +378,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   ],
   "prepositional-verbs-part-2-2": [
     fe("¿Y ___ el apoyo de la dirección?", "cuentas con", "And [can you count on] management's support?", "Contar con algo: disponer de ello o confiar en su apoyo.", ["tienes"]),
-    fe("___ presentarlo esta semana.", "Me he empeñado en", "[I'm determined to] present it this week.", "Empeñarse en: insistir con tenacidad en hacer algo.", ["Estoy decidida a", "Estoy decidido a", "Me he propuesto"]),
+    fe("___ presentarlo esta semana.", "Me he empeñado en", "[I'm determined to] present it this week.", "Empeñarse en: insistir con tenacidad en hacer algo.", ["Me empeño en", "Estoy empeñado en", "Estoy empeñada en", "Estoy decidida a", "Estoy decidido a", "Me he propuesto"]),
     fe("Hay que ___ el error antes de enviar el informe.", "subsanar", "We need to [correct] the error before sending the report.", "«Subsanar»: corregir un error o reparar un defecto.", ["corregir", "enmendar", "arreglar", "reparar"]),
     fe("___ practicar, acabó dominando el régimen verbal.", "A fuerza de", "[By dint of] practicing, he ended up mastering verb patterns.", "«A fuerza de» + infinitivo: a base de repetir mucho una acción.", ["A base de"]),
   ],
@@ -422,7 +422,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("___, todos cometemos errores alguna vez.", "Al fin y al cabo", "[After all], we all make mistakes sometimes.", "«Al fin y al cabo» recuerda una verdad de sentido común que relativiza lo discutido.", ["A fin de cuentas", "Después de todo"]),
   ],
   "advanced-discourse-markers-4": [
-    fe("Deberá abandonar el edificio, ___ ser sancionado.", "so pena de", "You must leave the building, [on pain of] being penalized.", "«So pena de» (muy formal, casi arcaico) introduce una sanción impuesta desde fuera.", ["bajo pena de"]),
+    fe("Deberá abandonar el edificio, ___ ser sancionado.", "so pena de", "You must leave the building, [on pain of] being penalized.", "«So pena de» (muy formal, casi arcaico) introduce una sanción impuesta desde fuera."),
     fe("Queda prohibido fumar en estas instalaciones, ___ multa.", "bajo pena de", "Smoking is prohibited on these premises, [on pain of a] fine.", "«Bajo pena de» + sustantivo: registro jurídico.", ["so pena de"]),
     fe("Lo diré con claridad, ___ que algunos se sientan incómodos.", "a riesgo de", "I'll say it clearly, [at the risk of] some people feeling uncomfortable.", "«A riesgo de» introduce un riesgo que el propio hablante asume; con «que» lleva subjuntivo.", ["aun a riesgo de"]),
   ],
@@ -467,7 +467,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   ],
   "emphatic-structures-3": [
     fe("Ese proyecto, ___ terminamos entre todos.", "lo", "That project, we finished [it] among all of us.", "Al anteponer el complemento directo, un pronombre átono lo retoma (reduplicación)."),
-    fe("A mi hermana ___ llamé primero que a nadie.", "la", "My sister, I called [her] before anyone else.", "Complemento directo de persona antepuesto, reduplicado con «la»."),
+    fe("A mi hermana ___ llamé antes que a nadie.", "la", "My sister, I called [her] before anyone else.", "Complemento directo de persona antepuesto, reduplicado con «la»."),
     fe("Eso ___ no lo esperaba.", "sí que", "That I [really] didn't expect.", "«Sí que» refuerza la afirmación del elemento antepuesto.", ["sí"]),
   ],
   "emphatic-structures-4": [
@@ -551,7 +551,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   ],
   "formal-informal-register-5": [
     fe("Le agradezco que ___ recibirme con tan poca antelación.", "haya podido", "Thank you for [being able] to see me at such short notice.", "Agradecer que + subjuntivo; perfecto de subjuntivo para un hecho ya cumplido.", ["pudiera"]),
-    fe("Tome asiento, por favor. ¿___ un café?", "Le ofrezco", "Have a seat, please. [Can I offer you] a coffee?", "Con usted, el pronombre es «le».", ["Le apetece", "Quiere", "Desea"]),
+    fe("Tome asiento, por favor. ¿___ un café?", "Le ofrezco", "Have a seat, please. [Can I offer you] a coffee?", "Con usted, el pronombre es «le».", ["Le puedo ofrecer", "Puedo ofrecerle", "Le apetece", "Quiere", "Desea"]),
     fe("Se lo agradezco, pero no ___.", "se moleste", "Thank you, but please don't [go to any trouble].", "Imperativo negativo de usted: no se moleste."),
     fe("Si ___ la última cifra que te envié, verás que el potencial es mayor.", "revisas", "If you [check] the last figure I sent you, you'll see the potential is greater.", "Tras acordar el tuteo, la conversación sigue en tú: revisas, verás, te envié.", ["miras", "consultas"]),
   ],
@@ -582,7 +582,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   ],
   "voseo-part-2-1": [
     fe("Juzgar el voseo como inferior es un ___ lingüístico.", "prejuicio", "Judging voseo as inferior is a linguistic [prejudice].", "«El prejuicio lingüístico»: considerar inferior una variedad sin fundamento."),
-    fe("Esa opinión carece de ___ objetivo.", "fundamento", "That opinion lacks any objective [basis].", "«Carecer de fundamento»: no tener base real.", ["base"]),
+    fe("Esa opinión carece de ___ objetivo.", "fundamento", "That opinion lacks any objective [basis].", "«Carecer de fundamento»: no tener base real."),
     fe("Vos ___, che.", "tenés razón", "[You're right], mate. (vos)", "Tener razón con vos: tenés razón."),
   ],
   "voseo-part-2-2": [
@@ -720,7 +720,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
   ],
   "formal-correspondence-5": [
     fe("La documentación solicitada ha sido ___ como adjunto.", "remitida", "The requested documents have been [sent] as an attachment.", "«Remitir»: enviar, sobre todo un documento; el participio concuerda con «documentación».", ["enviada"]),
-    fe("Le agradezco ___ su atención.", "de antemano", "Thank you [in advance] for your attention.", "«De antemano»: con anterioridad.", ["por anticipado", "anticipadamente"]),
+    fe("Le agradezco ___ su atención.", "de antemano", "Thank you [in advance] for your attention.", "«De antemano» (o «por anticipado») significa «antes de que ocurra»: se da las gracias antes de recibir la respuesta.", ["por anticipado", "anticipadamente"]),
     fe("___, aprovecho la ocasión para saludarla atentamente.", "Sin otro particular", "[With nothing further to add], I take this opportunity to send you my regards.", "Fórmula fija de cierre antes de la despedida."),
     fe("Le ruego que confirme la recepción ___.", "a la mayor brevedad", "Please confirm receipt [as soon as possible].", "«A la mayor brevedad (posible)» es la fórmula formal de «cuanto antes».", ["lo antes posible", "cuanto antes", "a la mayor brevedad posible"]),
   ],
@@ -738,7 +738,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("Una buena tesis debe ser ___.", "defendible", "A good thesis must be [defensible].", "Una tesis defendible admite una postura contraria razonable.", ["sostenible", "argumentable"]),
   ],
   "academic-essay-writing-part-1-2": [
-    fe("___ una correlación clara entre ambas variables.", "Se observa", "A clear correlation [is observed] between the two variables.", "El se impersonal presenta el hallazgo sin atribuirlo a un sujeto.", ["Se aprecia", "Existe", "Hay"]),
+    fe("___ una correlación clara entre ambas variables.", "Se observa", "A clear correlation [is observed] between the two variables.", "El «se» de pasiva refleja presenta el hallazgo sin atribuirlo a un sujeto.", ["Se aprecia", "Existe", "Hay"]),
     fe("Los datos ___ sostener que el modelo requiere una revisión.", "permiten", "The data [allow us to] argue that the model needs revising.", "Sujeto no humano (los datos) en lugar de «creo que».", ["nos permiten"]),
     fe("En este trabajo ___ los efectos de la medida.", "analizamos", "In this paper [we analyze] the effects of the measure.", "Plural de modestia (nosotros) en lugar de «yo».", ["se analizan"]),
   ],
@@ -787,7 +787,7 @@ export const C1_PRACTICE: Record<string, Exercise[]> = {
     fe("Muchos vecinos abandonan el centro; ___, es necesario regularlo.", "por todo ello", "Many residents are leaving the center; [for all these reasons], it needs to be regulated.", "Conector de conclusión que recoge todo lo anterior.", ["por ello", "por eso", "por consiguiente", "por lo tanto", "en consecuencia"]),
   ],
   "c1r-challenge-build-the-sentence": [
-    fe("___ es que no haya un plan B.", "Lo que más me preocupa", "[What worries me most] is that there's no plan B.", "Pseudoescindida; «preocupar que» lleva subjuntivo (haya)."),
+    fe("___ es que no haya un plan B.", "Lo que más me preocupa", "[What worries me most] is that there's no plan B.", "Pseudoescindida; «preocupar que» lleva subjuntivo (haya).", ["Lo que me preocupa más"]),
     fe("Es a tu hermana ___ deberías pedirle perdón.", "a quien", "It's your sister [whom] you should apologize to.", "En la hendida, la preposición se repite ante el relativo: a tu hermana… a quien.", ["a la que"]),
   ],
   "c1r-challenge-express-transformations": [

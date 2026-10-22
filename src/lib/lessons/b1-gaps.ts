@@ -134,7 +134,7 @@ export const B1_GAPS: AnchoredLesson[] = [
       fe(
         "¿Dónde ___ mis gafas? No las veo por ningún lado.",
         "habré puesto",
-        "Where [can I have put] my glasses? I can't see them anywhere.",
+        "Where [could I have put] my glasses? I can't see them anywhere.",
         "Pregunta que expresa duda sobre el pasado reciente: futuro perfecto. Poner → puesto (irregular).",
         ["habré dejado"]
       ),

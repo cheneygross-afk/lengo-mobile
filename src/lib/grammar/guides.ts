@@ -541,7 +541,7 @@ const CORE_GUIDES: GrammarGuide[] = [
       {
         heading: "Where the pronouns go",
         body: [
-          "Before a conjugated verb. With an infinitive, a gerund, or a positive command, they can attach to the end. The indirect pronoun always comes first.",
+          "Before a conjugated verb. With an infinitive or a gerund, they can attach to the end (or go before the conjugated verb); with a positive command they must attach to the end. The indirect pronoun always comes first.",
         ],
         examples: [
           { es: "Te lo doy.", en: "I'm giving it to you." },
@@ -659,8 +659,8 @@ const CORE_GUIDES: GrammarGuide[] = [
     metaTitle: "Spanish Future Tense: Forms, Irregulars, Ir a",
     description:
       "How to talk about the future in Spanish: the simple future (hablaré), ir a + infinitive, irregular stems, and the future of probability (¿Dónde estará?).",
-    level: "B1",
-    readingLevelPath: "b1",
+    level: "A2",
+    readingLevelPath: "a2",
     intro: [
       "Spanish has two main ways to talk about the future. In everyday conversation, ir a + infinitive (voy a comer) is the most common. The simple future (comeré) is a little more formal or distant, and it has a special use for guessing.",
     ],

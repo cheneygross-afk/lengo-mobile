@@ -65,7 +65,7 @@ export const FREQUENCY_C2: DeckCard[] = [
   {"rank":5058,"es":"creciente","en":"growing","pos":"adj.","exEs":"Hay una preocupación creciente por el clima.","exEn":"There is growing concern about the climate."},
   {"rank":5059,"es":"automáticamente","en":"automatically","pos":"adv.","exEs":"La puerta se cierra automáticamente.","exEn":"The door closes automatically."},
   {"rank":5060,"es":"la travesura","en":"prank, mischief","pos":"n.","exEs":"De pequeño hacía muchas travesuras.","exEn":"As a child he got up to lots of mischief."},
-  {"rank":5061,"es":"el narrador","en":"narrator","pos":"n.","exEs":"El narrador es el alter ego del autor.","exEn":"The narrator is the author's alter ego."},
+  {"rank":5061,"es":"el narrador","en":"narrator","pos":"n.","exEs":"El narrador es el álter ego del autor.","exEn":"The narrator is the author's alter ego."},
   {"rank":5062,"es":"la horca","en":"gallows; pitchfork","pos":"n.","exEs":"Antiguamente castigaban a los ladrones con la horca.","exEn":"In the past thieves were punished by hanging."},
   {"rank":5063,"es":"el occidente","en":"the West","pos":"n.","exEs":"Es una costumbre poco conocida en Occidente.","exEn":"It's a custom little known in the West."},
   {"rank":5064,"es":"preservar","en":"to preserve","pos":"v.","exEs":"Hay que preservar el patrimonio histórico.","exEn":"Historical heritage must be preserved."},

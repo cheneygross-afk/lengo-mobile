@@ -145,7 +145,7 @@ export const B2_SKILLS: Record<string, Exercise[]> = {
   ],
   "b2-comprehensive-review-1": [
     lc(
-      "Se informa a los pasajeros del vuelo 2317 con destino a Bogotá de que, debido a la niebla, el embarque se realizará por la puerta B12.",
+      "Se informa a los pasajeros del vuelo 2317 con destino a Bogotá de que, debido a la niebla, el embarque, previsto en un principio por la puerta B4, se realizará por la puerta B12.",
       "Escucha el aviso. ¿Qué ha cambiado?",
       ["La puerta de embarque", "El destino del vuelo", "El número del vuelo", "Nada: el vuelo está cancelado"],
       0,

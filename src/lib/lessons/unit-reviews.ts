@@ -278,10 +278,66 @@ const EN_COPY: Copy = {
   respondExpl: (s) => `One way to say it: "${quoted(s.es)}". Another correct way counts too: check the meaning first, then the sound.`,
 };
 
+/** Unit-specific summaries (Spanish) for units where the generic line says too little. */
+const ES_UNIT_FOCUS: Record<string, string> = {
+  "Psychology & complex emotions":
+    "Repasa el vocabulario de la unidad (alivio, desazón, ambivalencia, matices del sentimiento) escuchando frases, hablando y escribiendo un texto sobre emociones contradictorias",
+  "Art, film & literary criticism":
+    "Repasa el léxico de la crítica (reseña, montaje, desenlace, adjetivos valorativos) escuchando, hablando y escribiendo una crítica breve de una película",
+  "Business & economics":
+    "Repasa el léxico económico (causa y efecto, fusiones, inflación, informes) escuchando, hablando y escribiendo una noticia económica breve sobre una fusión",
+  "Creative writing":
+    "Repasa las técnicas narrativas (prefiguración, imagen literaria, elipsis, locuciones con dar/echar/llevar) escuchando, hablando y escribiendo un microrrelato",
+  "Professional & Academic review & mastery exam":
+    "Repasa los registros del nivel (jurídico, médico, periodístico, crítico) y la fraseología escuchando, hablando y escribiendo un texto reflexivo en registro culto",
+};
+
+/** Specific review summaries for some units (keyed by the unit title). */
+const ES_UNIT_SUMMARY: Record<string, string> = {
+  "Job interviews": "Repasa con audio, voz y escritura cómo hablar de fortalezas y puntos de mejora, aplicar el método STAR y cerrar una entrevista de trabajo.",
+  "Job interviews: the full mock": "Repasa con audio, voz y escritura la entrevista completa, los latinismos cultos y el léxico del derecho civil de la unidad.",
+  "Conflict resolution & mediation": "Repasa con audio, voz y escritura cómo desactivar un conflicto, reconocer la perspectiva ajena y proponer un acuerdo, además del vocabulario médico de la unidad.",
+  "Historical narrative": "Repasa con audio, voz y escritura el imperfecto narrativo, el pluscuamperfecto, el presente histórico y el estilo indirecto libre del relato histórico.",
+  "Writing history": "Repasa con audio, voz y escritura los conectores, el léxico y los recursos del relato historiográfico, junto con las emociones matizadas y los prefijos de la unidad.",
+  "Science & technology": "Repasa con audio, voz y escritura el lenguaje de la hipótesis, la divulgación científica, el léxico tecnológico y los adjetivos de la descripción literaria.",
+  "Environment & politics": "Repasa con audio, voz y escritura el léxico del clima, el discurso político deliberativo y los verbos de sonido y de luz.",
+  "Philosophy & abstract ideas": "Repasa con audio, voz y escritura el vocabulario filosófico, el análisis de argumentos, los verbos de movimiento y el registro formal.",
+};
+
+/** Specific summaries for C2 unit reviews, keyed by the unit's (English) title. */
+const ES_UNIT_SUMMARY_C2B: Record<string, string> = {
+  "Exclamations, diminutives & augmentatives":
+    "Repasa escuchando, hablando y escribiendo las exclamaciones (¡menudo…!, ¡qué…!), los diminutivos afectivos (problemilla, cafecito) y los aumentativos (cochazo, frenazo).",
+  "Business idioms":
+    "Repasa con audio, voz y escritura los modismos de negocios (cortar por lo sano, ir al grano, dar un giro de 180 grados) y el léxico culto de la unidad: latinismos, helenismos y locuciones (motu proprio, acólito, a destajo).",
+  "Listening & reading strategies":
+    "Repasa con audio, voz y escritura las estrategias de comprensión: inferir palabras por el contexto, notar los cambios de registro y entender las reducciones del habla rápida (pa', to', cansao).",
+  "Skimming, scanning & note-taking":
+    "Repasa las lecturas global y selectiva y la toma de notas, junto con las colocaciones verbo + sustantivo (guardar silencio, conciliar el sueño), con audio, voz y un resumen escrito.",
+  "Debate & persuasion":
+    "Repasa cómo conceder antes de refutar, nombrar falacias y discrepar con respeto (es cierto que…, ahora bien…, eso no implica que + subjuntivo), escuchando, hablando y escribiendo.",
+  "Rhetoric & closing arguments":
+    "Repasa los recursos retóricos (analogía, tríada, anáfora, pregunta retórica), el cierre de un discurso y los adjetivos intensificadores y de carácter, con audio, voz y un texto breve.",
+  "Presentations & negotiation":
+    "Repasa las aperturas y transiciones de una presentación y las fórmulas de negociación (contraoferta, siempre y cuando + subjuntivo, ¿Y si…?) con audio, voz y escritura.",
+  "Closing the deal":
+    "Repasa el lenguaje no verbal, el turno de preguntas, el correo que cierra un acuerdo, la cortesía con subjuntivo (a no ser que…) y parónimos como infligir/infringir.",
+  "Citations & references":
+    "Repasa los verbos de atribución, la cita textual e indirecta, el aparato crítico (cf., ibid., [sic]) y la diferencia entre paráfrasis y plagio, con audio, voz y un párrafo académico.",
+  "Paraphrase & literature reviews":
+    "Repasa la paráfrasis, el estado de la cuestión, el estilo indirecto al citar, el léxico político y los sustantivos cuyo género cambia el sentido (el capital / la capital).",
+  "Rhetorical questions":
+    "Repasa la pregunta retórica, la hipófora, la anáfora interrogativa, la duda fingida y la interpelación escuchando, hablando y escribiendo.",
+  "Rhetorical questions in speeches":
+    "Repasa las preguntas retóricas en un discurso junto con el léxico económico y científico de la unidad, con audio, voz y un discurso breve.",
+};
+
 const ES_COPY: Copy = {
   title: (n, unit) => `Repaso de la unidad ${n}: ${unit}`,
   summary: (unit, quiz) =>
-    `Escucha, habla y escribe con lo que has aprendido en «${unit}»${quiz ? ", y después un test rápido de la unidad" : ""}.`,
+    ES_UNIT_SUMMARY[unit] ??
+    ES_UNIT_SUMMARY_C2B[unit] ??
+    `${ES_UNIT_FOCUS[unit] ?? `Escucha, habla y escribe con lo que has aprendido en «${unit}»`}${quiz ? ", y después un test rápido de la unidad" : ""}.`,
   listening: [
     "Comprensión auditiva",
     "Cinco frases de las lecciones de esta unidad. Escucha cada una todas las veces que quieras antes de contestar: primero elige qué significa y luego escribe exactamente lo que oyes (🐢 la reproduce más despacio).",
@@ -525,8 +581,35 @@ export function buildUnitReview(
   };
 }
 
+/** Summaries that say what a C1 unit's review practises (instead of the generic one), keyed by the unit's first lesson. */
+const ES_UNIT_SUMMARIES: Record<string, string> = {
+  "ser-estar-haber-limits-part-1-1": "Repasa con audio, voz y escritura los casos límite de ser, estar y haber: eventos, resultados, adjetivos que cambian de sentido y verbos de cambio.",
+  "prepositional-verbs-part-1-1": "Repasa con audio, voz y escritura el régimen verbal: verbos con a, de, en y con, y el uso correcto de «de que» y «que» (queísmo y dequeísmo).",
+  "advanced-discourse-markers-1": "Repasa con audio, voz y escritura los conectores avanzados: matizar (ahora bien, dicho esto), destacar (cabe señalar), concluir (en definitiva) y advertir (so pena de, a riesgo de).",
+  "emphatic-structures-1": "Repasa con audio, voz y escritura las estructuras enfáticas: oraciones hendidas y pseudohendidas, anteposición, «sí que» y «lo + adjetivo + que».",
+  "future-conditional-conjecture-1": "Repasa con audio, voz y escritura la conjetura con futuro y condicional, deber de + infinitivo, a lo mejor y quizás, y el futuro concesivo.",
+  "formal-informal-register-1": "Repasa con audio, voz y escritura la elección entre tú, usted y vos, el paso de uno a otro y las fórmulas de cortesía.",
+  "voseo-part-1-1": "Repasa con audio, voz y escritura el voseo: presente, imperativo, pronombres y su uso en el Río de la Plata y Centroamérica.",
+  "regional-lexical-variation-1": "Repasa con audio, voz y escritura el vocabulario cotidiano que cambia según el país (carro, coche, auto; palomitas, pochoclo) y los falsos amigos dialectales como «coger».",
+  "neutral-vs-colloquial-1": "Repasa con audio, voz y escritura el español neutro frente al coloquial, y el leísmo, el laísmo y el loísmo.",
+};
+
+// Spanish summaries (what the review practises) for units whose English title
+// alone says little; keyed by the unit's first lesson.
+const SPANISH_REVIEW_SUMMARIES: Record<string, string> = {
+  "subjunctive-mastery-review-1": "Repasa el subjuntivo avanzado (perfecto frente a presente, concordancia temporal, atenuación y fórmulas concesivas) escuchando, hablando y escribiendo.",
+  "concessive-aunque-1": "Repasa las concesivas (aunque + indicativo o subjuntivo, por más que, si bien, pese a) escuchando, hablando y escribiendo.",
+  "nominalization-part-1-1": "Repasa la nominalización (el hecho de que, lo + adjetivo, sufijos y titulares nominales) escuchando, hablando y escribiendo.",
+  "gerund-infinitive-advanced-part-1-1": "Repasa el gerundio y el infinitivo (gerundio de posterioridad, infinitivo sujeto, perífrasis de continuidad y de duración) escuchando, hablando y escribiendo.",
+  "passive-impersonal-mastery-1": "Repasa la pasiva con ser, el se pasivo, el se impersonal y estar + participio escuchando, hablando y escribiendo.",
+  "free-indirect-style-part-1-1": "Repasa el estilo indirecto libre y los tiempos del relato escuchando, hablando y escribiendo.",
+  "por-para-precision-1": "Repasa por y para en contextos profesionales (sustitución, causa, finalidad, plazo y expresiones fijas) escuchando, hablando y escribiendo.",
+};
+
 function buildReview({ level, number, start, title, lessons }: UnitInput, writing: WriteExercise): Lesson {
-  return buildUnitReview(spanishProfile(level, start), { number, title, lessons }, writing)!;
+  const review = buildUnitReview(spanishProfile(level, start), { number, title, lessons }, writing)!;
+  const summary = ES_UNIT_SUMMARIES[start] ?? SPANISH_REVIEW_SUMMARIES[start];
+  return summary ? { ...review, summary } : review;
 }
 
 /**

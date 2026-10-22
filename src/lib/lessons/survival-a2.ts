@@ -1012,7 +1012,7 @@ export const A2_SURVIVAL: AnchoredLesson[] = [
         "¿Te lavo el pelo primero?",
         "Shall I wash your hair first?",
         "A question in the present with yo is a common way to offer: ¿Te lavo...? = Shall I wash...?",
-        ["Should I wash your hair first?", "Do you want me to wash your hair first?", "Shall I wash your hair first?"]
+        ["Should I wash your hair first?", "Do you want me to wash your hair first?"]
       ),
       mc(
         "Your friend says \"Me corté el pelo ayer\". What happened?",

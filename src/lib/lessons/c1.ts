@@ -136,7 +136,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "En la oración «Sentía que ya se hubieran ido cuando llegué», ¿respecto a qué punto se mide la anterioridad de la partida?",
+            "question": "En la oración «Lamentaba que ya se hubieran ido cuando llegué», ¿respecto a qué punto se mide la anterioridad de la partida?",
             "options": [
               "Respecto al momento en que se habla ahora.",
               "Respecto al momento del sentimiento, no respecto al presente.",
@@ -144,7 +144,7 @@ const C1_BASE_LESSONS: Lesson[] = [
               "No existe ningún punto de referencia temporal."
             ],
             "correctIndex": 1,
-            "explanation": "El pluscuamperfecto de subjuntivo ancla la anterioridad en el verbo principal «sentía», no en el momento actual de la enunciación. No se mide desde el presente ni desde «llegué»: el subjuntivo depende de «sentía», y ese es su punto de referencia."
+            "explanation": "El pluscuamperfecto de subjuntivo ancla la anterioridad en el verbo principal «lamentaba», no en el momento actual de la enunciación. No se mide desde el presente ni desde «llegué»: el subjuntivo depende de «lamentaba», y ese es su punto de referencia."
           }
         ]
       }
@@ -153,12 +153,12 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "fill-blank",
         "prompt": "¿Cómo se dicen en español las palabras en negrita?",
-        "sentence": "Sentía que ya se ___ ido.",
+        "sentence": "Lamentaba que ya se ___ ido.",
         "answer": "hubieran",
         "altAnswers": ["hubiesen"],
         "en": "She was sorry that they [had] already left.",
-        "explanation": "Con «sentía» en pasado, la partida es anterior al sentimiento: pluscuamperfecto de subjuntivo («se hubieran/hubiesen ido»).",
-        "hint": "La anterioridad se mide desde «sentía», no desde el presente."
+        "explanation": "Con «lamentaba» en pasado, la partida es anterior al sentimiento: pluscuamperfecto de subjuntivo («se hubieran/hubiesen ido»).",
+        "hint": "La anterioridad se mide desde «lamentaba», no desde el presente."
       }
     ]
   },
@@ -745,19 +745,24 @@ const C1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "word-order",
-        "prompt": "Ordena las palabras para formar una oración concesiva de esfuerzo reiterado.",
+        "prompt": "Ordena las palabras para formar una oración concesiva con «a pesar de que».",
         "words": [
-          "por",
-          "más",
-          "que",
-          "insistas",
-          "no",
-          "cambiaré",
+          "a",
+          "pesar",
           "de",
-          "opinión"
+          "que",
+          "el",
+          "informe",
+          "era",
+          "extenso",
+          "lo",
+          "terminó",
+          "en",
+          "un",
+          "día"
         ],
-        "translation": "However much you insist, I won't change my mind.",
-        "explanation": "«Por más que insistas» antepone la fórmula concesiva de esfuerzo reiterado a la conclusión inalterable."
+        "translation": "Even though the report was long, he finished it in a day.",
+        "explanation": "«A pesar de que» + indicativo (era extenso) presenta el obstáculo como un hecho real; la conclusión queda inalterada."
       }
     ]
   },
@@ -1412,7 +1417,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce empleando la estructura de nominalización adecuada.",
+        "prompt": "Traduce al español.",
         "source": "The fact that the committee rejected the proposal doesn't mean the project is over.",
         "answer": "El hecho de que el comité haya rechazado la propuesta no significa que el proyecto haya terminado.",
         "altAnswers": [
@@ -1423,7 +1428,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce al inglés reconociendo la estructura de sustantivación empleada.",
+        "prompt": "Traduce al inglés.",
         "source": "Lo preocupante de este informe es que nadie lo había revisado antes de publicarlo.",
         "answer": "The worrying thing about this report is that nobody had reviewed it before publishing it.",
         "altAnswers": [
@@ -2131,7 +2136,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce empleando la perífrasis de continuidad adecuada.",
+        "prompt": "Traduce al español.",
         "source": "He kept studying medicine despite all the setbacks.",
         "answer": "Siguió estudiando medicina a pesar de todos los contratiempos.",
         "altAnswers": [
@@ -2142,7 +2147,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce al inglés distinguiendo el matiz de pasado reciente.",
+        "prompt": "Traduce al inglés.",
         "source": "Acabo de firmar el acuerdo con el proveedor; todavía tengo el bolígrafo en la mano.",
         "answer": "I just signed the agreement with the supplier; I still have the pen in my hand.",
         "altAnswers": [
@@ -2651,7 +2656,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce empleando la perífrasis que exprese acumulación persistente con matiz de reproche.",
+        "prompt": "Traduce al español.",
         "source": "The company has been claiming for years that the merger will create more jobs.",
         "answer": "La empresa viene afirmando desde hace años que la fusión creará más empleo.",
         "altAnswers": [
@@ -2662,7 +2667,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce al inglés captando el matiz de progresión gradual.",
+        "prompt": "Traduce al inglés.",
         "source": "El tráfico va empeorando cada año en esta ciudad.",
         "answer": "Traffic keeps getting worse every year in this city.",
         "altAnswers": [
@@ -3556,7 +3561,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce el fragmento narrativo aplicando el desplazamiento temporal correspondiente al estilo indirecto libre.",
+        "prompt": "Traduce al español.",
         "source": "She would never forgive them; she was sure of that now.",
         "answer": "No los perdonaría jamás; estaba segura de eso ahora.",
         "altAnswers": [
@@ -3567,7 +3572,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce al inglés captando el matiz coloquial y resignado del fragmento.",
+        "prompt": "Traduce al inglés.",
         "source": "Total, para qué esforzarse tanto si total nadie lo iba a agradecer.",
         "answer": "What was the point of trying so hard when, after all, nobody was going to be grateful for it anyway.",
         "altAnswers": [
@@ -4074,7 +4079,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce el fragmento aplicando el desplazamiento temporal propio del estilo indirecto libre.",
+        "prompt": "Traduce al español.",
         "source": "Elena stared at the phone. Why hadn't he called yet? Maybe he never would.",
         "answer": "Elena se quedó mirando el teléfono. ¿Por qué no había llamado todavía? Tal vez nunca lo haría.",
         "altAnswers": [
@@ -4085,7 +4090,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "es-en",
-        "prompt": "Traduce al inglés reconociendo la fusión de voces propia del estilo indirecto libre.",
+        "prompt": "Traduce al inglés.",
         "source": "Vaya tontería haber confiado en sus promesas; ahora ya era demasiado tarde para reclamar nada.",
         "answer": "What a foolish thing it had been to trust his promises; now it was too late to demand anything.",
         "altAnswers": [
@@ -4152,8 +4157,11 @@ const C1_BASE_LESSONS: Lesson[] = [
           "había",
           "quedado",
           "sin",
-          "batería"
+          "batería",
+          "el",
+          "teléfono"
         ],
+        "altOrders": [["para", "colmo", "ahora", "también", "el", "teléfono", "se", "había", "quedado", "sin", "batería"]],
         "translation": "To top it all off, now the phone had also run out of battery.",
         "explanation": "La expresión coloquial «para colmo» se integra sin verbo introductor ni comillas dentro de la narración, delatando la exasperación del personaje ante una nueva contrariedad."
       },
@@ -4181,7 +4189,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "type": "multi-select",
         "question": "¿Cuáles de los siguientes fragmentos contienen un adverbio de proximidad que sitúa la perspectiva desde el punto de vista del personaje?",
         "options": [
-          "Aquí, precisamente en ese banco del parque, se lo había dicho todo.",
+          "Aquí, precisamente en este banco del parque, se lo había dicho todo.",
           "El puente fue inaugurado hace más de cien años.",
           "Ahora comprendía por fin el verdadero motivo de su silencio.",
           "El informe anual se publica cada mes de enero."
@@ -4771,7 +4779,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         ],
         "examples": [
           {
-            "es": "Se puso muy violento cuando le hicieron esa pregunta.",
+            "es": "Estaba muy violento durante la cena porque no conocía a nadie.",
             "en": "Estado circunstancial de incomodidad, no rasgo de carácter."
           },
           {
@@ -4910,7 +4918,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "fill-blank",
-        "prompt": "Completa localizando correctamente el evento dentro del recinto universitario.",
+        "prompt": "Completa con la forma correcta de «ser» o «estar».",
         "sentence": "La ceremonia de graduación ___ en el paraninfo, aunque la recepción posterior tendrá lugar en los jardines.",
         "answer": "es",
         "altAnswers": ["será"],
@@ -5011,7 +5019,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce al español distinguiendo con precisión el rasgo de carácter del estado circunstancial.",
+        "prompt": "Traduce al español.",
         "source": "He's normally a very calm person, but he got really aggressive during the shareholders' meeting.",
         "answer": "Normalmente es una persona muy tranquila, pero se puso muy violento durante la junta de accionistas.",
         "altAnswers": [
@@ -5131,7 +5139,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Casos híbridos: es/está claro, es/está bueno",
         "body": [
-          "Ciertas construcciones evaluativas admiten tanto «ser» como «estar» con matices que oscilan entre la objetividad y la subjetividad del juicio emitido. «Es claro que llegaremos tarde» presenta la conclusión como una deducción lógica, objetiva y compartible por cualquiera que disponga de los mismos datos; «está claro que llegaremos tarde», en cambio, añade un matiz de evidencia inmediata y perceptible, como si la situación se hubiera vuelto obvia a partir de una observación reciente.",
+          "Ciertas construcciones evaluativas admiten tanto «ser» como «estar» con matices que oscilan entre la objetividad y la subjetividad del juicio emitido. «Está claro que llegaremos tarde» es la fórmula habitual y «es claro que llegaremos tarde» suena más formal o escrita; algunos hablantes perciben en la segunda una deducción lógica, objetiva y compartible por cualquiera que disponga de los mismos datos, mientras que «está claro» añade un matiz de evidencia inmediata y perceptible, como si la situación se hubiera vuelto obvia a partir de una observación reciente.",
           "Un contraste semejante distingue «es bueno» de «está bueno»: el primero valora una cualidad inherente y estable, mientras que el segundo valora una experiencia puntual y contextual, sin que ello implique nada sobre la calidad general del objeto o la persona. Estos casos límite demuestran que la oposición ser/estar no se reduce a permanencia frente a transitoriedad, sino que abarca también matices de objetividad, evidencia y alcance del juicio evaluativo."
         ],
         "examples": [
@@ -5462,6 +5470,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con «es» o «está» según el matiz de deducción lógica u observación inmediata.",
         "sentence": "___ claro que algo pasa entre ellos dos; basta con ver cómo se miraron durante la cena.",
         "answer": "Está",
+        "altAnswers": ["Es"],
         "hint": "La conclusión se basa en una observación concreta y reciente, no en una verdad general.",
         "explanation": "«Estar claro» señala aquí que la conclusión surge de una evidencia inmediata y perceptible —la mirada durante la cena—, un matiz que «ser claro» no aportaría en este contexto."
       },
@@ -5490,6 +5499,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la forma de «estar» que exprese una experiencia puntual y contextual.",
         "sentence": "El café que nos sirvieron esta mañana ___ buenísimo, aunque normalmente aquí lo preparan bastante flojo.",
         "answer": "estaba",
+        "altAnswers": ["estuvo"],
         "hint": "Se valora una experiencia sensorial concreta y puntual, en contraste explícito con lo habitual.",
         "explanation": "«Estar buenísimo» valora la experiencia puntual de ese café concreto en esa mañana, en contraste deliberado con la calidad habitual del local, que el hablante describe como «bastante flojo»."
       },
@@ -5500,13 +5510,13 @@ const C1_BASE_LESSONS: Lesson[] = [
           "Es evidente que la Tierra gira alrededor del Sol.",
           "Está clarísimo que ha llorado, tiene los ojos hinchados.",
           "Está evidente que dos y dos son cuatro.",
-          "Es clarísimo que acaba de llegar, todavía trae la maleta en la mano."
+          "Hay clarísimo que acaba de llegar, todavía trae la maleta en la mano."
         ],
         "correctIndexes": [
           0,
           1
         ],
-        "explanation": "«Es evidente» funciona correctamente con una verdad objetiva y atemporal; «está clarísimo» funciona correctamente con una evidencia perceptible e inmediata (los ojos hinchados). Las otras dos no son idiomáticas: «evidente» no se construye con «estar» («está evidente»), y con «claro» ante una evidencia observada el español prefiere «está claro que»; «es clarísimo que» suena forzado."
+        "explanation": "«Es evidente» funciona correctamente con una verdad objetiva y atemporal; «está clarísimo» funciona correctamente con una evidencia perceptible e inmediata (los ojos hinchados). Las otras dos no son idiomáticas: «evidente» no se construye con «estar» («está evidente»), y «hay clarísimo que» es agramatical."
       },
       {
         "type": "multiple-choice",
@@ -5523,11 +5533,12 @@ const C1_BASE_LESSONS: Lesson[] = [
       {
         "type": "translate",
         "direction": "en-es",
-        "prompt": "Traduce distinguiendo la deducción lógica de la evidencia inmediata.",
+        "prompt": "Traduce al español.",
         "source": "It's obvious that we'll need more staff for the summer season — just look at how many reservations have already come in.",
         "answer": "Está clarísimo que necesitaremos más personal para la temporada de verano; basta con ver cuántas reservas han llegado ya.",
         "altAnswers": [
-          "Está claro que vamos a necesitar más personal para la temporada de verano; basta con ver cuántas reservas han llegado ya."
+          "Está claro que vamos a necesitar más personal para la temporada de verano; basta con ver cuántas reservas han llegado ya.",
+          "Es evidente que necesitaremos más personal para la temporada de verano; basta con ver cuántas reservas han llegado ya."
         ],
         "explanation": "La conclusión se apoya en una evidencia inmediata y observable —el volumen de reservas—, por lo que corresponde «estar claro» y no la deducción puramente lógica que expresaría «ser claro»."
       },
@@ -6572,7 +6583,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "Según el texto, ¿cuál es la estrategia más eficaz para erradicar los errores de régimen verbal en el habla espontánea de un hablante avanzado?",
+        "question": "Según lo estudiado en esta serie, ¿cuál es la estrategia más eficaz para erradicar los errores de régimen verbal en el habla espontánea de un hablante avanzado?",
         "options": [
           "Evitar por completo el uso de verbos preposicionales en la conversación cotidiana.",
           "Reconocer los pares de riesgo —verbos semánticamente vecinos con régimen divergente— y practicarlos de forma sistemática.",
@@ -6716,6 +6727,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa con la fórmula que introduce una aclaración para evitar una ambigüedad.",
         "sentence": "___ precisar que esta cifra no incluye los impuestos.",
         "answer": "Conviene",
+        "altAnswers": ["Cabe", "Hay que"],
         "explanation": "«Conviene precisar» se reserva casi siempre para introducir una aclaración que evita una posible ambigüedad.",
         "hint": "Piensa en la fórmula metadiscursiva que introduce aclaraciones."
       }
@@ -6802,7 +6814,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "heading": "So pena de, bajo pena de y a riesgo de",
         "body": [
           "«So pena de» y «bajo pena de» son locuciones de registro sumamente formal —la primera, prácticamente arcaica fuera de textos jurídicos y solemnes— que introducen una consecuencia negativa como advertencia si no se cumple una determinada condición. Ambas proceden del lenguaje jurídico y conservan ese matiz de amenaza institucional o normativa.",
-          "«A riesgo de», en cambio, pertenece a un registro formal pero no exclusivamente jurídico, y suele introducir una consecuencia negativa que el propio hablante asume como posible al llevar a cabo una acción, más que una sanción impuesta externamente. La diferencia fundamental radica en qué provoca la consecuencia negativa: con «so pena de» / «bajo pena de», la consecuencia (a menudo una sanción) llega si NO se hace algo; con «a riesgo de», es un riesgo que el hablante acepta AL hacer algo."
+          "«A riesgo de», en cambio, pertenece a un registro formal pero no exclusivamente jurídico, y suele introducir una consecuencia negativa que el propio hablante asume como posible al llevar a cabo una acción, más que una sanción impuesta externamente. La diferencia fundamental radica en qué provoca la consecuencia negativa: con «so pena de» / «bajo pena de», la consecuencia (una sanción o un perjuicio) llega si no se cumple lo exigido o se hace lo prohibido; con «a riesgo de», es un riesgo que el hablante acepta AL hacer algo."
         ],
         "examples": [
           {
@@ -6828,12 +6840,12 @@ const C1_BASE_LESSONS: Lesson[] = [
             "question": "¿Qué diferencia principal existe entre «so pena de» y «a riesgo de»?",
             "options": [
               "No hay ninguna diferencia; son completamente intercambiables.",
-              "«So pena de» introduce la consecuencia negativa (a menudo una sanción) que sobrevendrá si no se hace algo; «a riesgo de» introduce un riesgo que el hablante acepta al hacer algo.",
+              "«So pena de» introduce la consecuencia negativa (a menudo una sanción) que sobrevendrá si no se cumple lo exigido o se hace lo prohibido; «a riesgo de» introduce un riesgo que el hablante acepta al hacer algo.",
               "«A riesgo de» solo se usa en textos jurídicos.",
               "«So pena de» es un conector moderno de uso coloquial frecuente."
             ],
             "correctIndex": 1,
-            "explanation": "«So pena de» procede del lenguaje jurídico y señala la consecuencia negativa, a menudo una sanción, de no hacer algo («so pena de ser sancionado», «so pena de perderlo todo»); «a riesgo de» introduce una consecuencia negativa que el propio hablante acepta como posible al actuar. Por eso no son intercambiables; «so pena de» es un giro culto y arcaizante, no coloquial, y «a riesgo de» se usa fuera del ámbito jurídico («a riesgo de parecer pesado…»)."
+            "explanation": "«So pena de» procede del lenguaje jurídico y señala la consecuencia negativa, a menudo una sanción, de incumplir lo exigido o hacer lo prohibido («so pena de ser sancionado», «so pena de perderlo todo»); «a riesgo de» introduce una consecuencia negativa que el propio hablante acepta como posible al actuar. Por eso no son intercambiables; «so pena de» es un giro culto y arcaizante, no coloquial, y «a riesgo de» se usa fuera del ámbito jurídico («a riesgo de parecer pesado…»)."
           }
         ]
       }
@@ -6966,7 +6978,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "matching",
-        "instructions": "Relaciona cada conector con el matiz que aporta al cerrar una argumentación.",
+        "instructions": "Relaciona cada conector con el matiz que aporta al cerrar o resaltar una idea.",
         "pairs": [
           {
             "left": "en última instancia",
@@ -7080,12 +7092,12 @@ const C1_BASE_LESSONS: Lesson[] = [
         "question": "¿Cuál es la diferencia principal entre «so pena de» y «a riesgo de»?",
         "options": [
           "No existe ninguna diferencia entre ambos conectores.",
-          "«So pena de» introduce la consecuencia negativa (a menudo una sanción) que sobrevendrá si no se hace algo; «a riesgo de» introduce un riesgo que el hablante acepta al hacer algo.",
+          "«So pena de» introduce la consecuencia negativa (a menudo una sanción) que sobrevendrá si no se cumple lo exigido o se hace lo prohibido; «a riesgo de» introduce un riesgo que el hablante acepta al hacer algo.",
           "«A riesgo de» pertenece exclusivamente al lenguaje jurídico.",
           "«So pena de» es un conector de uso coloquial y frecuente hoy en día."
         ],
         "correctIndex": 1,
-        "explanation": "«So pena de» procede del lenguaje jurídico y señala la consecuencia negativa, a menudo una sanción, de no hacer algo («so pena de ser sancionado», «so pena de perderlo todo»); «a riesgo de» introduce una consecuencia negativa que el propio hablante acepta como posible al actuar. Sí hay diferencia; «a riesgo de» no es jurídico («a riesgo de equivocarme…») y «so pena de» es culto y arcaizante, poco frecuente en el habla coloquial."
+        "explanation": "«So pena de» procede del lenguaje jurídico y señala la consecuencia negativa, a menudo una sanción, de incumplir lo exigido o hacer lo prohibido («so pena de ser sancionado», «so pena de perderlo todo»); «a riesgo de» introduce una consecuencia negativa que el propio hablante acepta como posible al actuar. Sí hay diferencia; «a riesgo de» no es jurídico («a riesgo de equivocarme…») y «so pena de» es culto y arcaizante, poco frecuente en el habla coloquial."
       }
     ]
   },
@@ -7235,7 +7247,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "en": "El complemento directo se antepone y se retoma mediante el pronombre átono «lo»."
           },
           {
-            "es": "A mi hermana la llamé primero que a nadie.",
+            "es": "A mi hermana la llamé antes que a nadie.",
             "en": "Anteposición del complemento directo de persona, reduplicado con «la»."
           }
         ],
@@ -8551,7 +8563,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Qué señala, según el texto, el paso súbito del tú al usted durante un desacuerdo?",
+        "question": "¿Qué señala, según lo estudiado, el paso súbito del tú al usted durante un desacuerdo?",
         "options": [
           "Un aumento de la confianza entre los interlocutores",
           "Un intento de marcar distancia o disgusto",
@@ -8717,7 +8729,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "duration": "7 min",
     "sections": [
       {
-        "heading": "El voseo y el registro: un pronombre sin ustedeo excluyente",
+        "heading": "El voseo y el registro: vos y usted conviven",
         "body": [
           "Una confusión frecuente entre quienes aprenden español es suponer que el voseo elimina la distinción de registro, cuando en realidad convive perfectamente con ella. En el Río de la Plata, por ejemplo, el vos ocupa el lugar del tú como forma de confianza, pero el usted sigue existiendo y cumpliendo la misma función formal que en cualquier otra variedad: se emplea con desconocidos de cierta edad, en trámites oficiales o ante una autoridad.",
           "Lo que cambia, entonces, no es la existencia del contraste formal-informal, sino cuál de las dos formas informales —tú o vos— ocupa ese espacio. Un hablante rioplatense que aprende que en España se dice tú no está aprendiendo una forma más formal que la suya, sino simplemente la variante geográfica equivalente a su propio vos."
@@ -9354,7 +9366,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿A qué atribuye el texto la distribución geográfica actual del voseo?",
+        "question": "Según lo estudiado, ¿a qué se atribuye la distribución geográfica actual del voseo?",
         "options": [
           "A una decisión reciente de las academias de la lengua en cada país.",
           "A la historia colonial y a las rutas de contacto lingüístico, no a ningún defecto intrínseco de la forma.",
@@ -9440,7 +9452,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué implica poseer una «competencia sociolingüística madura» respecto al voseo, según el texto?",
+        "question": "¿Qué implica poseer una «competencia sociolingüística madura» respecto al voseo, según lo estudiado?",
         "options": [
           "Rechazar el uso del voseo por considerarlo menos correcto que el tuteo.",
           "Reconocer y respetar la variación de la lengua sin caer en prejuicios sociales infundados sobre ninguna de sus variedades.",
@@ -10591,7 +10603,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "¿Por qué, según el texto, un chiste coloquial escrito puede malinterpretarse más fácilmente que uno dicho en voz alta?",
+        "question": "¿Por qué, según lo estudiado, un chiste coloquial escrito puede malinterpretarse más fácilmente que uno dicho en voz alta?",
         "options": [
           "Porque el español neutro prohíbe el humor",
           "Porque en la escritura faltan la entonación y el gesto que matizan la expresión oral",
@@ -11029,7 +11041,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "right": "añadir información breve después de la firma"
           }
         ],
-        "explanation": "Cada parte de un escrito formal cumple una función específica dentro de su arquitectura general."
+        "explanation": "El encabezamiento abre el escrito con el saludo, el cuerpo desarrolla el contenido, la despedida lo cierra con cortesía antes de la firma y la posdata añade algo después de ella."
       }
     ]
   },
@@ -11388,7 +11400,7 @@ const C1_BASE_LESSONS: Lesson[] = [
       },
       {
         "type": "multiple-choice",
-        "question": "¿Qué función cumple el «se» impersonal en la oración «se observa una correlación clara entre ambas variables»?",
+        "question": "¿Qué función cumple el «se» (pasiva refleja o impersonal) en la oración «se observa una correlación clara entre ambas variables»?",
         "options": [
           "Convierte la oración en una pregunta retórica dirigida al lector.",
           "Formula la afirmación sin atribuirla explícitamente a un sujeto concreto, presentándola como sostenida por la evidencia y no como una opinión personal.",
@@ -11396,7 +11408,7 @@ const C1_BASE_LESSONS: Lesson[] = [
           "Sustituye obligatoriamente a cualquier verbo en primera persona del plural."
         ],
         "correctIndex": 1,
-        "explanation": "El «se» impersonal diluye la presencia explícita del autor sin renunciar a la responsabilidad intelectual sobre lo afirmado, presentando el argumento como sostenido por el razonamiento y la evidencia, no como una simple opinión personal. No formula ninguna pregunta, no insinúa que la correlación sea falsa y no sustituye obligatoriamente al «nosotros»: ambas opciones conviven en el registro académico."
+        "explanation": "El «se» (aquí, de pasiva refleja) diluye la presencia explícita del autor sin renunciar a la responsabilidad intelectual sobre lo afirmado, presentando el argumento como sostenido por el razonamiento y la evidencia, no como una simple opinión personal. No formula ninguna pregunta, no insinúa que la correlación sea falsa y no sustituye obligatoriamente al «nosotros»: ambas opciones conviven en el registro académico."
       },
       {
         "type": "fill-blank",
@@ -11693,7 +11705,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "right": "una reformulación o aclaración de lo dicho"
           }
         ],
-        "explanation": "Cada conector cumple una función lógica específica dentro del andamiaje argumentativo de un ensayo."
+        "explanation": "«Por consiguiente» deriva una conclusión, «sin embargo» introduce una objeción, «asimismo» suma un argumento y «es decir» reformula lo ya dicho."
       }
     ]
   },
@@ -11927,7 +11939,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "right": "reformulación con palabras propias de una idea ajena"
           }
         ],
-        "explanation": "Partes y recursos del ensayo académico."
+        "explanation": "El párrafo introductorio presenta el tema y la tesis, el de cierre recapitula, la digresión se desvía del tema y la paráfrasis reformula con palabras propias una idea ajena."
       },
       {
         "type": "multiple-choice",
@@ -11955,7 +11967,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 122,
     "title": "Matices Avanzados del Subjuntivo: Práctica Extra, Part 1 of 3",
-    "summary": "Practica usos avanzados y sutiles del subjuntivo: quizás/tal vez, por muy...que, exclamaciones independientes, el hecho de que, no porque, y expresiones fijas como sea como sea o cueste lo que cueste.",
+    "summary": "Practica usos avanzados y sutiles del subjuntivo: quizás/tal vez, «por muy… que» y «por más/mucho que», con un primer adelanto de exclamaciones independientes, «el hecho de que» y «no porque» (que se explican en la parte 2).",
     "duration": "8 min",
     "sections": [
       {
@@ -12115,7 +12127,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 123,
     "title": "Matices Avanzados del Subjuntivo: Práctica Extra, Part 2 of 3",
-    "summary": "Practica el subjuntivo en exclamaciones independientes («¡Que tengas buen viaje!»), tras «el hecho de que» y en «no porque… sino porque».",
+    "summary": "Practica el subjuntivo en exclamaciones independientes («¡Que tengas buen viaje!»), tras «el hecho de que» y en «no porque… sino porque»; los ejercicios finales adelantan «cueste lo que cueste» y las formas en -quiera, que se explican en la parte 3.",
     "duration": "8 min",
     "sections": [
       {
@@ -12442,7 +12454,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 125,
     "title": "La Nominalización: Práctica Extra, Part 1 of 3",
-    "summary": "Practica cómo convertir adjetivos y verbos en sustantivos abstractos usando 'lo + adjetivo', 'el/la + infinitivo' y sufijos como -dad, -ción, -miento y -eza, para lograr una escritura más sofisticada y compacta.",
+    "summary": "Practica 'lo + adjetivo', 'lo + adjetivo + de' y 'el + infinitivo' para nombrar cualidades y acciones, y repasa los primeros sustantivos con sufijo (-idad, -ción, -miento), que se explican en la parte 2.",
     "duration": "9 min",
     "sections": [
       {
@@ -12969,7 +12981,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 128,
     "title": "Gerundio vs. Infinitivo: Práctica Extra, Part 1 of 3",
-    "summary": "Practica las distinciones avanzadas entre el gerundio y el infinitivo: acciones simultáneas, el error del gerundio de posterioridad, el infinitivo tras preposición, el infinitivo como sujeto y las construcciones verbales que exigen una u otra forma.",
+    "summary": "Practica las distinciones avanzadas entre el gerundio y el infinitivo: acciones simultáneas y el error del gerundio de posterioridad (el infinitivo tras preposición y como sujeto, y las perífrasis con gerundio, se explican en las partes 2 y 3).",
     "duration": "7 min",
     "sections": [
       {
@@ -13298,7 +13310,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "checkpoint": [
           {
             "type": "multiple-choice",
-            "question": "Elige la opción correcta: 'Mi abuelo ___ de fumar hace diez años.'",
+            "question": "Elige la opción correcta: 'Mi abuelo ___ hace diez años.'",
             "options": [
               "dejó fumando",
               "dejó de fumar",
@@ -13434,6 +13446,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con el infinitivo que funciona como sujeto.",
         "sentence": "___ (Hacer) ejercicio regularmente ayuda a mantener la salud mental.",
         "answer": "Hacer",
+        "altAnswers": ["Practicar"],
         "hint": "El infinitivo puede funcionar como sujeto de la oración.",
         "explanation": "Cuando la acción es el sujeto de la oración, el español usa el infinitivo, no el gerundio ('-ing')."
       }
@@ -13612,7 +13625,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 132,
     "title": "Voz Pasiva y Se Impersonal: Práctica Extra, Part 2 of 3",
-    "summary": "Practica a fondo la voz pasiva con ser, la pasiva refleja con se y el se impersonal, con especial atención a los contrastes que suelen confundir incluso a hablantes avanzados.",
+    "summary": "Practica cómo distinguir la pasiva refleja del se impersonal, el uso de «a» personal (el verbo queda en singular) y fórmulas como «se dice que».",
     "duration": "8 min",
     "sections": [
       {
@@ -13787,7 +13800,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 133,
     "title": "Voz Pasiva y Se Impersonal: Práctica Extra, Part 3 of 3",
-    "summary": "Practica a fondo la voz pasiva con ser, la pasiva refleja con se y el se impersonal, con especial atención a los contrastes que suelen confundir incluso a hablantes avanzados.",
+    "summary": "Practica la elección de registro entre ser + participio y pasiva refleja, y repasa el contraste final entre pasiva refleja y se impersonal.",
     "duration": "8 min",
     "sections": [
       {
@@ -13949,7 +13962,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 134,
     "title": "El Estilo Indirecto Libre: Práctica Extra, Part 1 of 3",
-    "summary": "Una batería de ejercicios para reconocer y producir el estilo indirecto libre, la técnica narrativa que funde la voz del personaje con la del narrador sin verbos introductorios ni comillas.",
+    "summary": "Aprende a reconocer el estilo indirecto libre frente al directo y al indirecto, y a producirlo con el retroceso de tiempos (futuro → condicional, presente → imperfecto) y el cambio a tercera persona.",
     "duration": "8 min",
     "sections": [
       {
@@ -14113,7 +14126,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 135,
     "title": "El Estilo Indirecto Libre: Práctica Extra, Part 2 of 3",
-    "summary": "Una batería de ejercicios para reconocer y producir el estilo indirecto libre, la técnica narrativa que funde la voz del personaje con la del narrador sin verbos introductorios ni comillas.",
+    "summary": "Practica el estilo indirecto libre sin verbo introductorio ni comillas, incluidas las preguntas del personaje sin «si», en ejercicios de reconocimiento y traducción.",
     "duration": "8 min",
     "sections": [
       {
@@ -14279,7 +14292,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 136,
     "title": "El Estilo Indirecto Libre: Práctica Extra, Part 3 of 3",
-    "summary": "Una batería de ejercicios para reconocer y producir el estilo indirecto libre, la técnica narrativa que funde la voz del personaje con la del narrador sin verbos introductorios ni comillas.",
+    "summary": "Practica las exclamaciones y los matices emocionales del estilo indirecto libre y transforma citas directas en narración, repasando todos sus recursos.",
     "duration": "8 min",
     "sections": [
       {
@@ -14383,7 +14396,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "pairs": [
           {
             "left": "Retroceso verbal (futuro → condicional)",
-            "right": "Marca el pensamiento como anterior al momento de narración"
+            "right": "Sitúa el pensamiento dentro del pasado de la narración (el futuro del personaje pasa a condicional)"
           },
           {
             "left": "Cambio de primera a tercera persona",
@@ -14459,7 +14472,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 137,
     "title": "Ser, Estar y Haber: Casos Límite: Práctica Extra, Part 1 of 3",
-    "summary": "Práctica intensiva de los usos más avanzados y ambiguos de ser, estar y haber: participios con matiz de acción o estado, la pasiva progresiva 'estar siendo', el precio fijo frente al precio variable, los adjetivos de percepción subjetiva y las fórmulas idiomáticas del registro formal.",
+    "summary": "Práctica intensiva de los usos más avanzados y ambiguos de ser, estar y haber: participios con matiz de acción o estado, la pasiva progresiva 'estar siendo' y, como adelanto, el precio fijo frente al variable (que se explica en la parte 2).",
     "duration": "7 min",
     "sections": [
       {
@@ -14595,6 +14608,7 @@ const C1_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la oración con la forma correcta.",
         "sentence": "La cena para dos personas ___ sesenta euros, con el servicio incluido.",
         "answer": "es",
+        "altAnswers": ["son"],
         "hint": "Se trata de un precio total y cerrado, no por unidad.",
         "explanation": "Se usa 'ser' porque se indica un precio fijo y total, no un valor variable por unidad como en 'estar a'."
       }
@@ -14629,6 +14643,7 @@ const C1_BASE_LESSONS: Lesson[] = [
             "prompt": "Completa la oración con la forma correcta.",
             "sentence": "El alquiler ___ setecientos euros al mes, sin contar los gastos de comunidad.",
             "answer": "es",
+            "altAnswers": ["son"],
             "hint": "Se trata de un precio fijo y estable.",
             "explanation": "Se usa 'ser' porque el alquiler es una cifra fija acordada, no un precio que fluctúa día a día."
           },
@@ -14828,9 +14843,9 @@ const C1_BASE_LESSONS: Lesson[] = [
         ]
       },
       {
-        "heading": "Estar + gerundio frente a ser + adjetivo: matices aspectuales límite",
+        "heading": "Estar siendo + adjetivo frente a ser + adjetivo: matices aspectuales límite",
         "body": [
-          "'Estar siendo' + adjetivo enfatiza una cualidad percibida como temporal o en desarrollo, mientras que 'ser' + adjetivo la presenta como rasgo permanente."
+          "'Estar siendo' + adjetivo (influido por el inglés «is being») se usa para una cualidad percibida como temporal o en desarrollo, aunque en español natural suele preferirse «se está mostrando / está muy + adjetivo»; 'ser' + adjetivo la presenta como rasgo permanente."
         ],
         "examples": [
           {
@@ -14976,7 +14991,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 140,
     "title": "Verbos con Preposición Fija: Práctica Extra, Part 1 of 3",
-    "summary": "Practica de forma intensiva los verbos preposicionales avanzados del español —soñar con, consistir en, fijarse en, depender de, negarse a, entre otros— con énfasis en los pares que cambian de sentido según la preposición.",
+    "summary": "Practica de forma intensiva los verbos preposicionales avanzados del español —negarse a, depender de, consistir en, fijarse en, entre otros—, con un adelanto de soñar con y contar con (que se explican en la parte 2).",
     "duration": "8 min",
     "sections": [
       {
@@ -15057,7 +15072,8 @@ const C1_BASE_LESSONS: Lesson[] = [
             "source": "I found out about the news too late.",
             "answer": "Me enteré de la noticia demasiado tarde.",
             "altAnswers": [
-              "Me enteré de la noticia demasiado tarde"
+              "Me enteré tarde de la noticia",
+              "Me enteré de la noticia muy tarde"
             ],
             "explanation": "'Enterarse' se construye siempre con DE: 'enterarse de algo'."
           }
@@ -15588,7 +15604,7 @@ const C1_BASE_LESSONS: Lesson[] = [
     "level": "C1",
     "number": 143,
     "title": "El Voseo Rioplatense: Práctica Extra, Part 1 of 3",
-    "summary": "Ejercicios de repaso y repetición sobre el voseo: presente indicativo, imperativo y subjuntivo con vos, además de los pronombres y posesivos que no cambian respecto a tú.",
+    "summary": "Repasa el presente de indicativo con vos: verbos regulares (hablás, comés, vivís), con cambio de raíz (podés, querés) e irregulares (sos, tenés, venís, decís).",
     "duration": "8 min",
     "sections": [
       {

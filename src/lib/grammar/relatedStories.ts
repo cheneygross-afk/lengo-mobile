@@ -16,7 +16,9 @@ const word = (body: string) => new RegExp(`(?<![${L}])(?:${body})(?![${L}])`, "g
 const MARKERS: Record<string, RegExp> = {
   "ser-vs-estar": word("soy|eres|es|somos|son|era|eran|estoy|estás|está|estamos|están|estaba|estaban"),
   "por-vs-para": word("por|para"),
-  "preterite-vs-imperfect": word(`[${L}]+(?:aba|abas|ábamos|aban|ía|ías|íamos|ían)`),
+  "preterite-vs-imperfect": word(
+    `(?!(?:días?|tías?|mías?|María|policía|alegría|energía|geografía|biografía|librería|panadería|categoría|compañía|galería|economía|farmacia)(?![${L}]))[${L}]+(?:aba|abas|ábamos|aban|ía|ías|íamos|ían)|era|eras|éramos|eran|iba|ibas|íbamos|iban`
+  ),
   "spanish-subjunctive": word(
     "ojalá|quiero que|quiere que|espero que|espera que|es importante que|es necesario que|para que|antes de que|dudo que|no creo que|cuando (?:llegue|venga|termine|sea|tenga)"
   ),
@@ -24,14 +26,21 @@ const MARKERS: Record<string, RegExp> = {
   "reflexive-verbs": word(
     `(?:me|te|se|nos) (?:levant|despiert|despert|duch|acuest|acost|lav|vist|sient|sent|llam|qued|va|fue|pon|pus)[${L}]*`
   ),
-  "direct-and-indirect-object-pronouns": word("(?:me|te|se|le|nos|les) (?:lo|la|los|las)|lo|le|les"),
-  "saber-vs-conocer": word(`sé|sab[${L}]+|supo|conozco|conoc[${L}]+`),
-  "spanish-future-tense": word(
-    `[${L}]+(?:aré|arás|ará|aremos|arán|eré|erás|erá|eremos|erán|iré|irás|irá|iremos|irán)|(?:voy|vas|va|vamos|van) a`
+  "direct-and-indirect-object-pronouns": word(
+    "(?:me|te|se|le|nos|les) (?:lo|la|los|las)|lo(?! (?:que|más|mejor|peor|mismo|demás|bueno|malo|importante|difícil|primero|único|cual)(?![a-záéíóúüñ]))|le|les"
   ),
-  "spanish-commands": word("mira|escucha|ven|espera|oye|toma|haz|pon|ten|dime|déjame|ayúdame|tranquilo|tranquila|vamos"),
+  "saber-vs-conocer": word(`sé|sab(?:e|es|emos|éis|en|er|ido|iendo|ía|ías|íamos|ían|ré|rás|rá|remos|rán)|sepa|sepas|supe|supo|supieron|conozco|conoc[${L}]+`),
+  "spanish-future-tense": word(
+    `[${L}]+(?:aré|arás|ará|aremos|arán|eré|erás|erá|eremos|erán|iré|irás|irá|iremos|irán|drá|drás|drán)|(?:voy|vas|va|vamos|van) a [${L}]+(?:ar|er|ir|ír)`
+  ),
+  "spanish-commands": new RegExp(
+    `(?<=[¡«—“"]\\s?)(?:mira|escucha|ven|espera|oye|toma|haz|pon|ten|dime|déjame|ayúdame|tranquilo|tranquila|vamos)(?![${L}])`,
+    "gi"
+  ),
   "si-clauses": word("si"),
-  "imperfect-subjunctive": word(`(?!para|cara|clara|ahora|fuera de)[${L}]+(?:ara|aras|áramos|aran|iera|ieras|iéramos|ieran|ase|iese)|fuera|fueran|como si`),
+  "imperfect-subjunctive": word(
+    `(?!(?:para|cara|clara|aclara|declara|prepara|compara|separa|repara|cámara|clase|frase|base|fase|pase|quiera|quieran|cualquiera)(?![${L}]))[${L}]+(?:ara|aras|áramos|aran|iera|ieras|iéramos|ieran|ase|iese)|fuera(?! de)|fueran|como si`
+  ),
 };
 
 function wordCount(text: string): number {
@@ -41,7 +50,8 @@ function wordCount(text: string): number {
 /** Up to `count` stories from `stories` that use the guide's grammar most. */
 export function storiesForGuide(guideSlug: string, stories: Story[], count = 3): Story[] {
   const marker = MARKERS[guideSlug];
-  if (!marker) return stories.slice(0, count);
+  // No marker for this guide: recommend nothing rather than unrelated stories.
+  if (!marker) return [];
   const scored = stories.map((story, index) => {
     const text = story.paragraphs.join(" ");
     const hits = text.match(marker)?.length ?? 0;

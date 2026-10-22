@@ -2585,7 +2585,7 @@ export const A1_REINFORCEMENT: AnchoredLesson[] = [
         "El arroz is singular, so it's le encanta el arroz; \"A Luis le encantan el arroz\" is wrong. The other three agree correctly."
       ),
       toEs("My friends love Mexican food.", "A mis amigos les encanta la comida mexicana.", "La comida is singular → encanta.", ["A mis amigas les encanta la comida mexicana."]),
-      toEn("¿Te interesa cocinar conmigo?", "Are you interested in cooking with me?", "Interesar + infinitive; conmigo = with me.", ["Do you want to cook with me?", "Are you interested in cooking with me?"]),
+      toEn("¿Te interesa cocinar conmigo?", "Are you interested in cooking with me?", "Interesar + infinitive; conmigo = with me.", ["Do you want to cook with me?"]),
       wo("A todos mis amigos les gusta el chocolate.", "A + people + les + gusta + singular thing.", "All my friends like chocolate."),
     ]
   ),

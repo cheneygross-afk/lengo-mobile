@@ -19,7 +19,7 @@ export const C2_SKILLS: Record<string, Exercise[]> = {
       0,
       "«Al principio era sordo, pero desde anoche es punzante»: ha empeorado de sordo a punzante. No ha desaparecido (no le deja dormir) ni se ha mantenido igual."
     ),
-    spk("¿El dolor se le irradia hacia el brazo o se queda localizado en el pecho?", "Pregunta disyuntiva: sube en «brazo» y baja en «pecho».", "Pregunta clínica con irradiarse y localizado: registro médico ante el paciente."),
+    spk("¿El dolor se irradia hacia el brazo o se queda localizado en el pecho?", "Pregunta disyuntiva: sube en «brazo» y baja en «pecho».", "Pregunta clínica con irradiarse y localizado: registro médico ante el paciente."),
   ],
   "c2r-idioms-dialogue-lab": [
     lc(
@@ -56,7 +56,7 @@ export const C2_SKILLS: Record<string, Exercise[]> = {
   ],
   "c2r-indirect-requests-implicature": [
     lc(
-      "Uf, qué calor hace aquí dentro, ¿no? Y eso que la ventana está justo a tu lado…",
+      "Uf, qué calor hace aquí dentro, ¿no? Y la ventana está justo a tu lado…",
       "Escucha. ¿Qué quiere realmente el hablante?",
       ["Que la otra persona abra la ventana", "Informar sobre la temperatura", "Que la otra persona se cambie de sitio", "Quejarse del tiempo en general"],
       0,

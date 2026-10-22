@@ -2890,7 +2890,7 @@ export const A2_DRILLS: AnchoredLesson[] = [
         [0, 2],
         "Before a number use más de: más de cien personas, so \"más que cien\" is wrong. \"Menos tímida\" agrees with Ana, but \"más tímido\" doesn't."
       ),
-      toEs("My city is smaller than yours.", "Mi ciudad es más pequeña que la tuya.", "The adjective agrees with ciudad (feminine): más pequeña que la tuya.", ["Mi ciudad es menos grande que la tuya.", "Mi ciudad es más pequeña que la tuya."]),
+      toEs("My city is smaller than yours.", "Mi ciudad es más pequeña que la tuya.", "The adjective agrees with ciudad (feminine): más pequeña que la tuya.", ["Mi ciudad es menos grande que la tuya."]),
       wo("En invierno los días son más cortos que en verano.", "Más… que.", "In winter the days are shorter than in summer."),
     ]
   ),

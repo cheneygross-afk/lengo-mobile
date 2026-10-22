@@ -29,7 +29,7 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
             ["decir", "report: Dice que viene.", "order: Dice que vengas."],
             ["sentir", "perceive: Siento que me miran.", "regret: Siento que no puedas venir."],
             ["comprender", "realize: Comprendo que es tarde.", "accept: Comprendo que estés cansado."],
-            ["suponer", "assume: Supongo que lo sabe.", "imply: Esto supone que lo sepa todo el equipo."],
+            ["suponer", "assume: Supongo que lo sabe.", "hypothesize: Supongamos que lo sepa todo el equipo."],
             ["insistir en", "maintain: Insiste en que es inocente.", "demand: Insiste en que paguemos ya."],
           ],
         },
@@ -430,7 +430,7 @@ export const C2_MORE_GUIDES: GrammarGuide[] = [
       {
         heading: "Pronouns: leísmo and friends",
         body: [
-          "Central and northern Spain use le for a male person as direct object (A Juan le vi ayer), which the RAE accepts. Laísmo (La dije que viniera) is heard in Madrid and Castile but is not accepted in writing. Latin America generally keeps lo/la for direct objects. Many Latin American speakers also mark plural on se lo: Se los dije (I told them) when the indirect object is plural.",
+          "Central and northern Spain use le for a male person as direct object (A Juan le vi ayer), which the RAE accepts. Laísmo (La dije que viniera) is heard in Madrid and Castile but is not accepted in writing. Latin America generally keeps lo/la for direct objects. Many Latin American speakers also move the plural of the indirect object onto lo: Se los dije (meaning 'I told them it') is heard, but standard Spanish keeps Se lo dije (a ellos).",
         ],
       },
       {

@@ -110,6 +110,11 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "prompt": "Completa la expresión que describe organizar o animar una celebración.",
         "sentence": "Cuando llegaron los primos con la guitarra, en cinco minutos ___ y nadie quiso irse a casa.",
         "answer": "armaron la fiesta",
+        "altAnswers": [
+          "armaron una fiesta",
+          "se armó la fiesta",
+          "se armó una fiesta"
+        ],
         "explanation": "Armar la fiesta significa organizar o animar una celebración (a veces también un alboroto), justo lo que hacen los primos al llegar con la guitarra."
       }
     ]
@@ -262,7 +267,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "Iker: Jaja, entiendo. Por cierto, ¿este año fuiste a la procesión del Jueves Santo?",
           "Renata: Fui, pero como espectadora nada más. Mi tía sí participó, y te juro que a ella la procesión le va por dentro: parece tranquila pero se emociona muchísimo cada año.",
           "Iker: Se nota que para tu familia es algo muy serio.",
-          "Renata: Totalmente. Y ya en marzo nos vamos de fiestas patronales al pueblo de mi abuelo: esa sí que es una semana entera de ponerse las botas."
+          "Renata: Totalmente. Y ya en marzo nos vamos a las fiestas patronales del pueblo de mi abuelo: esa sí que es una semana entera de ponerse las botas."
         ]
       },
       {
@@ -809,7 +814,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           {
             "type": "fill-blank",
             "prompt": "Completa la palabra que designa el partido entre los dos equipos más importantes de una liga.",
-            "sentence": "Este domingo se juega ___ entre los dos equipos más grandes de la ciudad.",
+            "sentence": "Este domingo se juega ___ entre los dos equipos más grandes de la liga.",
             "answer": "el clásico",
             "hint": "Es el enfrentamiento más esperado del calendario, entre los rivales históricos.",
             "explanation": "El clásico designa el partido entre los dos equipos más importantes o rivales de una liga, el enfrentamiento más esperado del calendario."
@@ -1031,8 +1036,9 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
         "direction": "en-es",
         "prompt": "Traduce la frase al español usando una expresión coloquial de la lección.",
         "source": "He always passes the tough decisions on to someone else.",
-        "answer": "Siempre le pasa la pelota a otro con las decisiones difíciles.",
+        "answer": "Siempre le pasa la pelota a otro cuando hay que tomar decisiones difíciles.",
         "altAnswers": [
+          "Siempre le pasa la pelota a otro con las decisiones difíciles.",
           "Siempre pasa la pelota a otro en las decisiones difíciles"
         ],
         "explanation": "Pasar la pelota describe transferir a otro una responsabilidad o decisión difícil, tal como expresa la frase original."
@@ -1125,7 +1131,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
     "exercises": [
       {
         "type": "multiple-choice",
-        "question": "En la boda, las parejas bailaron un bolero muy cerca la una de la otra. ¿Qué expresión describe cómo bailaron?",
+        "question": "En la boda, las parejas bailaron un bolero sin apenas espacio entre los dos. ¿Qué expresión describe cómo bailaron?",
         "options": [
           "bailar pegado",
           "no tener oído",
@@ -1218,7 +1224,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "Yolanda: Jaja, es verdad, en cuanto suena algo que está pegado no me puedo quedar quieta.",
           "Esteban: A mí me cuesta más, la verdad es que no tengo mucho oído para eso, pero con unas copas me suelto el pelo igual.",
           "Yolanda: Eso siempre funciona. ¿Y tu hermano? Él sí que tiene sabor para bailar de todo.",
-          "Esteban: Sí, desde chico le encantó el tango, seguramente por mi abuelo, que hablaba puro lunfardo.",
+          "Esteban: Sí, desde chico le encanta el tango, seguramente por mi abuelo, que hablaba puro lunfardo.",
           "Yolanda: Qué lindo, ojalá herede algo de eso el sábado en la pista."
         ]
       },
@@ -1313,7 +1319,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "right": "carecer de habilidad para percibir el ritmo"
           }
         ],
-        "explanation": "Cada expresión describe una faceta distinta de la relación entre una persona y la música o el baile."
+        "explanation": "Tener sabor es bailar con gracia y estilo propio; estar pegado es, de una canción, sonar mucho y estar de moda; el bandoneón es el instrumento de fuelle del tango; no tener oído es no percibir bien el ritmo ni la melodía."
       },
       {
         "type": "word-order",
@@ -1621,7 +1627,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
             "right": "objeto con poder protector o de buena suerte"
           }
         ],
-        "explanation": "Cada expresión describe una faceta distinta de las creencias populares sobre la suerte y la protección."
+        "explanation": "El mal de ojo es la creencia en el daño causado por una mirada envidiosa; ser mano de santo es funcionar de maravilla; estar en racha es tener un período seguido de buena suerte; el amuleto es un objeto protector."
       },
       {
         "type": "word-order",
@@ -1816,7 +1822,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
       {
         "heading": "Pedir favores sin sonar brusco",
         "body": [
-          "El condicional y el imperfecto de cortesía suavizan cualquier petición: \"¿Podrías ayudarme?\" o \"Quería pedirte un favor\" suenan mucho más amables que un imperativo directo.",
+          "El condicional y el imperfecto de cortesía suavizan casi cualquier petición: \"¿Podrías ayudarme?\" o \"Quería pedirte un favor\" suenan mucho más amables que un imperativo directo.",
           "Diminutivos como \"un segundito\", \"un momentico\" o \"una ayudita\" restan peso a la petición y son extremadamente comunes en el habla cotidiana, especialmente en Latinoamérica.",
           "Frases colchón (\"buffer phrases\") como \"no sé si podrías\", \"si no es mucha molestia\" o \"cuando tengas un segundo\" preceden la petición real y dan al oyente espacio para decir que no sin quedar mal.",
           "Agradecer de antemano (\"te lo agradecería mucho\") antes incluso de recibir el favor es una estrategia retórica común para inclinar la respuesta hacia el sí."
@@ -1907,7 +1913,7 @@ const COSAS_COLOQUIALES_BASE_LESSONS: Lesson[] = [
           "voy",
           "yendo"
         ],
-        "translation": "Well, I'm heading out.",
+        "translation": "Well, I'm starting to head out.",
         "explanation": "\"Bueno, ya me voy yendo\" es la forma típica de anunciar que uno se va, antes de seguir conversando unos minutos más."
       }
     ]

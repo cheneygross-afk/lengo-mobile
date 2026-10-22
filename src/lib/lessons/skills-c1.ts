@@ -9,11 +9,11 @@ import { dict, lc, spk, wr } from "./skills-authoring";
 export const C1_SKILLS: Record<string, Exercise[]> = {
   "c1r-dialogue-concessive-debate": [
     lc(
-      "—Reconozco que el proyecto es caro. Ahora bien, por mucho que cueste, nos ahorrará dinero a largo plazo. —Ya, pero aun así no tenemos el presupuesto.",
+      "—Reconozco que el proyecto es caro. Ahora bien, por mucho que cueste, nos ahorrará dinero a largo plazo. —Es verdad que es caro, pero dudo que ahorremos tanto y, además, no tenemos el presupuesto.",
       "Escucha. ¿En qué están de acuerdo los dos?",
       ["En que el proyecto es caro", "En que hay que aprobarlo ya", "En que ahorrará dinero", "En que el presupuesto alcanza"],
       0,
-      "El primero concede que «es caro» y el segundo no lo discute: su objeción es el presupuesto. El ahorro solo lo defiende el primero, y el segundo niega que haya dinero."
+      "Los dos admiten que «es caro»: el primero lo concede para defender el ahorro y el segundo, para dudar de él y añadir que falta presupuesto. El ahorro solo lo defiende el primero, y el segundo niega que haya dinero."
     ),
     spk("Reconozco que el proyecto es caro. Ahora bien, por mucho que cueste, nos ahorrará dinero.", "Pausa marcada tras «ahora bien»: anuncia el giro del argumento.", "Conceder primero y matizar después: reconozco que…, ahora bien…"),
     spk("Aun admitiendo que tenga razón, no creo que sea el momento.", "«Aun» sin tilde (= incluso) se pronuncia en una sola sílaba: «aun».", "Aun + gerundio concesivo, seguido de no creo que + subjuntivo."),

@@ -57,6 +57,7 @@ function buildIndex() {
     add(s.inf, { infinitive: s.inf, tense: "infinitive", form: s.inf });
     add(c.gerund, { infinitive: s.inf, tense: "gerund", form: c.gerund });
     for (const p of c.participle.split(" / ")) add(p, { infinitive: s.inf, tense: "participle", form: p });
+    if (s.inf === "haber") add("hay", { infinitive: "haber", tense: "pres", person: "el", form: "hay" });
     for (const [t, table] of Object.entries(c.tenses) as [TenseId, Partial<Record<Person, string | null>>][]) {
       for (const [person, f] of Object.entries(table) as [Person, string | null][]) {
         if (!f) continue;

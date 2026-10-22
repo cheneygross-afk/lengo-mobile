@@ -203,7 +203,7 @@ export const A1_GUIDES: GrammarGuide[] = [
       {
         wrong: "Soy un estudiante.",
         right: "Soy estudiante.",
-        why: "Drop un/una with a bare profession or role after ser. Add it only when there's an adjective: Es un estudiante excelente.",
+        why: "Usually drop un/una with a bare profession or role after ser (Soy estudiante). Keep it when you add an adjective or other description: Es un estudiante excelente.",
       },
       {
         wrong: "Voy a el mercado.",
@@ -394,7 +394,7 @@ export const A1_GUIDES: GrammarGuide[] = [
       {
         heading: "Spelling changes that keep the sound",
         body: [
-          "A few regular verbs change a letter in the yo form only to keep the pronunciation: coger → cojo, escoger → escojo, distinguir → distingo, convencer → convenzo. Verbs ending in -uir add y: construir → construyo, construyes.",
+          "A few regular verbs change a letter in the yo form only to keep the pronunciation: coger → cojo, escoger → escojo, distinguir → distingo, convencer → convenzo. Verbs ending in -uir add y in every form except nosotros and vosotros (a change affecting more than the yo form): construir → construyo, construyes, construimos.",
         ],
         examples: [
           { es: "Escojo el rojo.", en: "I'll choose the red one." },
@@ -834,7 +834,7 @@ export const A1_GUIDES: GrammarGuide[] = [
       {
         heading: "Long forms and possessive pronouns",
         body: [
-          "The long forms are mío, tuyo, suyo, nuestro, vuestro, suyo, each with four endings (-o, -a, -os, -as). Use them after ser (Es mío), after a noun for emphasis or for \"of mine\" (un amigo mío), and with the article as pronouns meaning \"mine,\" \"yours\" and so on (el mío, la tuya).",
+          "The long forms are mío, tuyo, suyo, nuestro and vuestro (suyo covers él, ella, usted, ellos and ustedes), each with four endings (-o, -a, -os, -as). Use them after ser (Es mío), after a noun for emphasis or for \"of mine\" (un amigo mío), and with the article as pronouns meaning \"mine,\" \"yours\" and so on (el mío, la tuya).",
         ],
         examples: [
           { es: "Este abrigo es mío.", en: "This coat is mine." },

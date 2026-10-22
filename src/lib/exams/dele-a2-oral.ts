@@ -40,7 +40,7 @@ export const DELE_A2_ORAL: ExamPaper = {
           {
             title: "La fotografía",
             body:
-              "Una cocina de una casa. Es de día y entra mucha luz por la ventana. Una familia prepara la comida: a la izquierda, un hombre de unos cuarenta años con camisa azul corta verduras en la mesa; en el centro, una niña de unos ocho años con un vestido amarillo lava tomates en el fregadero; a la derecha, una mujer mayor, la abuela, con un delantal blanco, remueve algo en una olla grande en el fuego. En la mesa hay pan, una botella de aceite y un plato con queso. Todos sonríen.",
+              "Una cocina de una casa. Es de día y entra mucha luz por la ventana. Una familia prepara la comida: a la izquierda, un hombre de unos cuarenta años, con camisa azul, corta verduras en la mesa; en el centro, una niña de unos ocho años con un vestido amarillo lava tomates en el fregadero; a la derecha, una mujer mayor, la abuela, con un delantal blanco, remueve algo en una olla grande en el fuego. En la mesa hay pan, una botella de aceite y un plato con queso. Todos sonríen.",
           },
         ],
         points: [
