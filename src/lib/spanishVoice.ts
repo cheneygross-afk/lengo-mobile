@@ -9,21 +9,56 @@
 // ("me", "no", "a", names, numbers). An either-word takes the language of
 // the nearest decided word around it -- inside quotes, of the quote's
 // words first, and Spanish when the quote has none.
-import { SPANISH_WORDS } from "./spanishWords";
-import { ENGLISH_ONLY, SHARED } from "./voiceWords";
+import { useEffect, useSyncExternalStore } from "react";
 
 type Kind = "es" | "en" | "either";
+type Lists = { spanish: Set<string>; english: Set<string>; shared: Set<string> };
 
-let lists: { spanish: Set<string>; english: Set<string>; shared: Set<string> } | null = null;
+// The lists arrive in their own chunk (see spanishVoiceLists.ts). Until
+// they do, only the accent rule decides and every other word is "either",
+// which reads as Spanish: the course's voice before the word-by-word rule.
+let lists: Lists | null = null;
+let loading: Promise<void> | null = null;
+const listeners = new Set<() => void>();
+
+function loadLists(): Promise<void> {
+  loading ??= import("./spanishVoiceLists")
+    .then((m) => {
+      lists = {
+        spanish: new Set(m.SPANISH_WORDS.split(" ")),
+        english: new Set(m.ENGLISH_ONLY.split(" ")),
+        shared: new Set(m.SHARED.split(" ")),
+      };
+      listeners.forEach((f) => f());
+    })
+    .catch(() => {
+      // Don't cache the failure: a later call retries.
+      loading = null;
+    });
+  return loading;
+}
+
+/** Starts loading the word lists and says whether they are in, so a
+ * component that decides voices while rendering redoes it once they are
+ * (put the result in the memo's dependencies). */
+export function useSpanishVoiceLists(enabled: boolean): boolean {
+  useEffect(() => {
+    if (enabled) void loadLists();
+  }, [enabled]);
+  return useSyncExternalStore(
+    (f) => {
+      listeners.add(f);
+      return () => listeners.delete(f);
+    },
+    () => lists !== null,
+    () => false,
+  );
+}
 
 function kindOf(word: string): Kind {
-  lists ??= {
-    spanish: new Set(SPANISH_WORDS.split(" ")),
-    english: new Set(ENGLISH_ONLY.split(" ")),
-    shared: new Set(SHARED.split(" ")),
-  };
-  const w = word.toLowerCase().replace(/^['’-]+|['’-]+$/g, "");
+  const w = word.toLowerCase().replace(/’/g, "'").replace(/^['-]+|['-]+$/g, "");
   if (/[áéíóúüñ]/.test(w)) return "es";
+  if (!lists) return "either";
   if (lists.english.has(w)) return "en";
   if (lists.shared.has(w)) return "either";
   return lists.spanish.has(w) ? "es" : "either";
