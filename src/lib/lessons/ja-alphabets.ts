@@ -618,7 +618,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
             "right": "so"
           }
         ],
-        "explanation": "Ten characters down, thirty-six to go."
+        "explanation": "Fifteen characters down, thirty-one to go."
       }
     ]
   },
@@ -742,7 +742,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
     "level": "JA-Alphabets",
     "number": 7,
     "title": "Hiragana: T & N Rows, Part 2 of 2",
-    "summary": "You'll be able to read な に ぬ ね の and words like いぬ and ねこ -- 25 characters, half the syllabary.",
+    "summary": "You'll be able to read な に ぬ ね の and words like いぬ and ねこ -- 25 characters, over half the syllabary.",
     "duration": "6 min",
     "sections": [
       {
@@ -865,7 +865,7 @@ export const JA_ALPHABETS_LESSONS: Lesson[] = [
             "right": "nu"
           }
         ],
-        "explanation": "That's 25 characters -- exactly half of hiragana."
+        "explanation": "That's 25 characters -- more than half of hiragana's 46."
       }
     ]
   },
