@@ -523,7 +523,7 @@ const RAW_B2_15: Record<string, Exercise[]> = {
 // Quita alternativas repetidas o idénticas a la respuesta principal.
 function dedupe(r: Record<string, Exercise[]>): Record<string, Exercise[]> {
   for (const arr of Object.values(r)) {
-    for (const e of arr as any[]) {
+    for (const e of arr as { answer?: string; altAnswers?: string[] }[]) {
       if (Array.isArray(e.altAnswers)) {
         e.altAnswers = e.altAnswers.filter((a: string, i: number, all: string[]) => a !== e.answer && all.indexOf(a) === i);
         if (e.altAnswers.length === 0) delete e.altAnswers;
